@@ -10,7 +10,6 @@ export default function Home() {
       description: 'ピラティスとヨガの違いを初心者向けにわかりやすく解説。起源、効果、呼吸法の5つの違いを比較表で紹介。',
       slug: 'pilates-yoga-difference',
       category: '基礎知識',
-      thumbnail: '/images/pilates-yoga-difference.webp',
       publishedAt: '2026-03-28',
     },
     {
@@ -18,7 +17,6 @@ export default function Home() {
       description: 'マットとマシンの違いを徹底比較。初心者向けにメリット・デメリットを解説します。',
       slug: 'mat-machine-difference',
       category: '基礎知識',
-      thumbnail: '/images/mat-machine-difference.webp',
       publishedAt: '2026-03-28',
     },
     {
@@ -26,7 +24,6 @@ export default function Home() {
       description: '効果が出るまでの期間を科学的根拠をもとに解説。週1回から始められる継続のコツも紹介。',
       slug: 'pilates-effect-when',
       category: '効果・メリット',
-      thumbnail: '/images/pilates-effect-when.webp',
       publishedAt: '2026-03-28',
     },
   ]

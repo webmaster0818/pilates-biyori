@@ -19,10 +19,21 @@ export function ArticleCard({
   thumbnail,
   publishedAt
 }: ArticleCardProps) {
+  // カテゴリごとのグラデーション色
+  const getCategoryGradient = (cat: string) => {
+    const gradients: Record<string, string> = {
+      '基礎知識': 'from-purple-400 to-purple-600',
+      '効果・メリット': 'from-green-400 to-green-600',
+      'スタジオ情報': 'from-orange-400 to-orange-600',
+      'エリア別': 'from-blue-400 to-blue-600',
+    }
+    return gradients[cat] || 'from-purple-400 to-purple-600'
+  }
+
   return (
     <Link href={`/articles/${slug}`}>
       <Card className="hover:shadow-lg transition-shadow h-full">
-        {thumbnail && (
+        {thumbnail ? (
           <div className="relative w-full h-48">
             <Image
               src={thumbnail}
@@ -30,6 +41,13 @@ export function ArticleCard({
               fill
               className="object-cover rounded-t-lg"
             />
+          </div>
+        ) : (
+          <div className={`w-full h-48 bg-gradient-to-br ${getCategoryGradient(category)} flex items-center justify-center rounded-t-lg`}>
+            <div className="text-white text-center px-4">
+              <div className="text-sm font-semibold mb-2 opacity-90">{category}</div>
+              <div className="text-2xl font-bold opacity-80">📖</div>
+            </div>
           </div>
         )}
         <CardHeader>
