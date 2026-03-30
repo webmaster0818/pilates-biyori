@@ -53,6 +53,11 @@ export default function Home() {
     } else {
       fadeEls.forEach((el) => el.classList.add('visible'))
     }
+
+    // Initialize Lucide icons
+    if (typeof window !== 'undefined' && (window as any).lucide) {
+      (window as any).lucide.createIcons()
+    }
   }, [])
 
   const toggleMenu = () => {
@@ -141,7 +146,7 @@ export default function Home() {
         {/* Hero */}
         <section className="relative min-h-[90vh] md:min-h-screen flex items-end pb-16 md:pb-24" id="top">
           <div className="absolute inset-0 hero-img">
-            <div className="w-full h-full bg-gradient-to-br from-warm-200 via-warm-100 to-warm-50"></div>
+            <img src="/images/hero.jpg" alt="ピラティスをする女性" className="w-full h-full img-cover" width="1200" height="800" loading="eager" />
           </div>
           <div className="relative z-10 max-w-6xl mx-auto px-6 lg:px-8 w-full">
             <div className="max-w-xl">
@@ -205,7 +210,9 @@ export default function Home() {
               {/* Article 1 */}
               <Link href="/articles/pilates-yoga-difference" className="group fade-up">
                 <div className="card-hover bg-white overflow-hidden">
-                  <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-purple-200 to-purple-100"></div>
+                  <div className="aspect-[4/3] overflow-hidden">
+                    <img src="/images/pilates2.jpg" alt="ピラティスとヨガの違い" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                  </div>
                   <div className="p-6 md:p-8">
                     <div className="flex items-center gap-3 mb-4">
                       <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">基礎知識</span>
@@ -224,7 +231,9 @@ export default function Home() {
               {/* Article 2 */}
               <Link href="/articles/mat-machine-difference" className="group fade-up" style={{transitionDelay: '0.1s'}}>
                 <div className="card-hover bg-white overflow-hidden">
-                  <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-green-200 to-green-100"></div>
+                  <div className="aspect-[4/3] overflow-hidden">
+                    <img src="/images/pilates3.jpg" alt="マットとマシンの違い" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                  </div>
                   <div className="p-6 md:p-8">
                     <div className="flex items-center gap-3 mb-4">
                       <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">基礎知識</span>
@@ -243,7 +252,9 @@ export default function Home() {
               {/* Article 3 */}
               <Link href="/articles/pilates-effect-when" className="group fade-up" style={{transitionDelay: '0.2s'}}>
                 <div className="card-hover bg-white overflow-hidden">
-                  <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-orange-200 to-orange-100"></div>
+                  <div className="aspect-[4/3] overflow-hidden">
+                    <img src="/images/pilates4.jpg" alt="ピラティスの効果" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                  </div>
                   <div className="p-6 md:p-8">
                     <div className="flex items-center gap-3 mb-4">
                       <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">効果</span>
@@ -283,28 +294,36 @@ export default function Home() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 fade-up">
               <a href="#" className="group">
                 <div className="border border-warm-200 p-6 sm:p-8 text-center hover:border-warm-400 transition-colors card-hover bg-warm-50">
-                  <div className="w-12 h-12 mx-auto mb-5 flex items-center justify-center text-2xl">📚</div>
+                  <div className="w-12 h-12 mx-auto mb-5 flex items-center justify-center">
+                    <i data-lucide="book-open" className="w-6 h-6 text-warm-400 group-hover:text-warm-600 transition-colors"></i>
+                  </div>
                   <h3 className="text-sm font-medium text-warm-800 mb-2 group-hover:text-warm-600 transition-colors">基礎知識</h3>
                   <p className="text-warm-400 text-xs font-light">ピラティスの基本を学ぶ</p>
                 </div>
               </a>
               <a href="#" className="group">
                 <div className="border border-warm-200 p-8 text-center hover:border-warm-400 transition-colors card-hover bg-warm-50">
-                  <div className="w-12 h-12 mx-auto mb-5 flex items-center justify-center text-2xl">❤️</div>
+                  <div className="w-12 h-12 mx-auto mb-5 flex items-center justify-center">
+                    <i data-lucide="heart" className="w-6 h-6 text-warm-400 group-hover:text-warm-600 transition-colors"></i>
+                  </div>
                   <h3 className="text-sm font-medium text-warm-800 mb-2 group-hover:text-warm-600 transition-colors">効果・メリット</h3>
                   <p className="text-warm-400 text-xs font-light">期待できる効果を知る</p>
                 </div>
               </a>
               <a href="#" className="group">
                 <div className="border border-warm-200 p-8 text-center hover:border-warm-400 transition-colors card-hover bg-warm-50">
-                  <div className="w-12 h-12 mx-auto mb-5 flex items-center justify-center text-2xl">🏢</div>
+                  <div className="w-12 h-12 mx-auto mb-5 flex items-center justify-center">
+                    <i data-lucide="building-2" className="w-6 h-6 text-warm-400 group-hover:text-warm-600 transition-colors"></i>
+                  </div>
                   <h3 className="text-sm font-medium text-warm-800 mb-2 group-hover:text-warm-600 transition-colors">スタジオ選び</h3>
                   <p className="text-warm-400 text-xs font-light">最適なスタジオを比較</p>
                 </div>
               </a>
               <a href="#" className="group">
                 <div className="border border-warm-200 p-8 text-center hover:border-warm-400 transition-colors card-hover bg-warm-50">
-                  <div className="w-12 h-12 mx-auto mb-5 flex items-center justify-center text-2xl">📍</div>
+                  <div className="w-12 h-12 mx-auto mb-5 flex items-center justify-center">
+                    <i data-lucide="map-pin" className="w-6 h-6 text-warm-400 group-hover:text-warm-600 transition-colors"></i>
+                  </div>
                   <h3 className="text-sm font-medium text-warm-800 mb-2 group-hover:text-warm-600 transition-colors">地域別</h3>
                   <p className="text-warm-400 text-xs font-light">お近くのスタジオを探す</p>
                 </div>
@@ -522,8 +541,8 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="text-center">
-                <div className="w-14 h-14 mx-auto mb-5 flex items-center justify-center border border-warm-200 rounded-full text-2xl">
-                  🔍
+                <div className="w-14 h-14 mx-auto mb-5 flex items-center justify-center border border-warm-200 rounded-full">
+                  <i data-lucide="search" className="w-5 h-5 text-warm-400"></i>
                 </div>
                 <h3 className="text-sm font-medium text-warm-800 mb-2">中立な比較</h3>
                 <p className="text-warm-400 text-xs leading-relaxed font-light">
@@ -531,8 +550,8 @@ export default function Home() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="w-14 h-14 mx-auto mb-5 flex items-center justify-center border border-warm-200 rounded-full text-2xl">
-                  🔄
+                <div className="w-14 h-14 mx-auto mb-5 flex items-center justify-center border border-warm-200 rounded-full">
+                  <i data-lucide="refresh-cw" className="w-5 h-5 text-warm-400"></i>
                 </div>
                 <h3 className="text-sm font-medium text-warm-800 mb-2">最新情報</h3>
                 <p className="text-warm-400 text-xs leading-relaxed font-light">
@@ -540,8 +559,8 @@ export default function Home() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="w-14 h-14 mx-auto mb-5 flex items-center justify-center border border-warm-200 rounded-full text-2xl">
-                  💬
+                <div className="w-14 h-14 mx-auto mb-5 flex items-center justify-center border border-warm-200 rounded-full">
+                  <i data-lucide="message-circle" className="w-5 h-5 text-warm-400"></i>
                 </div>
                 <h3 className="text-sm font-medium text-warm-800 mb-2">実体験ベース</h3>
                 <p className="text-warm-400 text-xs leading-relaxed font-light">
