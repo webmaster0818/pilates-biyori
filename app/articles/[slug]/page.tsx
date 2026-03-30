@@ -38,8 +38,41 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
   const { frontmatter, content } = article
 
+  // 構造化データ（JSON-LD）
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: frontmatter.title,
+    description: frontmatter.description,
+    author: {
+      '@type': 'Person',
+      name: frontmatter.author || '編集部',
+    },
+    datePublished: frontmatter.publishedAt,
+    dateModified: frontmatter.updatedAt || frontmatter.publishedAt,
+    publisher: {
+      '@type': 'Organization',
+      name: 'Pilates Navi',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://pilates-biyori-deploy.pages.dev/logo.png',
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://pilates-biyori-deploy.pages.dev/articles/${slug}/`,
+    },
+  }
+
   return (
-    <article className="container mx-auto px-4 py-8 max-w-4xl">
+    <>
+      {/* 構造化データ */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      
+      <article className="container mx-auto px-4 py-8 max-w-4xl">
       {/* パンくずリスト */}
       <nav className="text-sm text-gray-600 mb-6">
         <Link href="/" className="hover:text-purple-600">ホーム</Link>
@@ -124,5 +157,6 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         </section>
       )}
     </article>
+    </>
   )
 }
