@@ -200,7 +200,9 @@ export default function Home() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <Link href="/articles/pilates-yoga-difference" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
-                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-purple-200 to-purple-100"></div>
+                    <div className="aspect-[4/3] overflow-hidden">
+                      <img src="/images/pilates2.jpg" alt="ピラティス基礎知識" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                    </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
                         <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">基礎知識</span>
@@ -215,7 +217,9 @@ export default function Home() {
 
                 <Link href="/articles/mat-machine-difference" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
-                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-purple-200 to-purple-100"></div>
+                    <div className="aspect-[4/3] overflow-hidden">
+                      <img src="/images/pilates2.jpg" alt="ピラティス基礎知識" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                    </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
                         <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">基礎知識</span>
@@ -230,7 +234,9 @@ export default function Home() {
 
                 <Link href="/articles/machine-pilates-beginner" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
-                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-purple-200 to-purple-100"></div>
+                    <div className="aspect-[4/3] overflow-hidden">
+                      <img src="/images/pilates2.jpg" alt="ピラティス基礎知識" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                    </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
                         <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">基礎知識</span>
@@ -245,7 +251,9 @@ export default function Home() {
 
                 <Link href="/articles/pilates-frequency" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
-                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-purple-200 to-purple-100"></div>
+                    <div className="aspect-[4/3] overflow-hidden">
+                      <img src="/images/pilates2.jpg" alt="ピラティス基礎知識" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                    </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
                         <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">基礎知識</span>
@@ -260,7 +268,9 @@ export default function Home() {
 
                 <Link href="/articles/pilates-beginner-home" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
-                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-purple-200 to-purple-100"></div>
+                    <div className="aspect-[4/3] overflow-hidden">
+                      <img src="/images/pilates2.jpg" alt="ピラティス基礎知識" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                    </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
                         <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">基礎知識</span>
@@ -281,7 +291,9 @@ export default function Home() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <Link href="/articles/pilates-effect-when" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
-                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-green-200 to-green-100"></div>
+                    <div className="aspect-[4/3] overflow-hidden">
+                      <img src="/images/pilates3.jpg" alt="ピラティス効果" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                    </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
                         <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">効果</span>
@@ -296,7 +308,9 @@ export default function Home() {
 
                 <Link href="/articles/pilates-daily-effect" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
-                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-green-200 to-green-100"></div>
+                    <div className="aspect-[4/3] overflow-hidden">
+                      <img src="/images/pilates3.jpg" alt="ピラティス効果" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                    </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
                         <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">効果</span>
@@ -311,7 +325,9 @@ export default function Home() {
 
                 <Link href="/articles/pilates-diet-effect" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
-                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-green-200 to-green-100"></div>
+                    <div className="aspect-[4/3] overflow-hidden">
+                      <img src="/images/pilates3.jpg" alt="ピラティス効果" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                    </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
                         <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">効果</span>
@@ -326,7 +342,9 @@ export default function Home() {
 
                 <Link href="/articles/pilates-posture-effect" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
-                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-green-200 to-green-100"></div>
+                    <div className="aspect-[4/3] overflow-hidden">
+                      <img src="/images/pilates3.jpg" alt="ピラティス効果" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                    </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
                         <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">効果</span>
@@ -341,7 +359,9 @@ export default function Home() {
 
                 <Link href="/articles/pilates-back-pain" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
-                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-green-200 to-green-100"></div>
+                    <div className="aspect-[4/3] overflow-hidden">
+                      <img src="/images/pilates3.jpg" alt="ピラティス効果" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                    </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
                         <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">効果</span>
@@ -356,7 +376,9 @@ export default function Home() {
 
                 <Link href="/articles/pilates-shoulder-pain" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
-                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-green-200 to-green-100"></div>
+                    <div className="aspect-[4/3] overflow-hidden">
+                      <img src="/images/pilates3.jpg" alt="ピラティス効果" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                    </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
                         <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">効果</span>
@@ -377,7 +399,9 @@ export default function Home() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <Link href="/articles/pilates-beginner-studio" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
-                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-orange-200 to-orange-100"></div>
+                    <div className="aspect-[4/3] overflow-hidden">
+                      <img src="/images/pilates4.jpg" alt="ピラティススタジオ" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                    </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
                         <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">スタジオ</span>
@@ -392,7 +416,9 @@ export default function Home() {
 
                 <Link href="/articles/pilates-price" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
-                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-orange-200 to-orange-100"></div>
+                    <div className="aspect-[4/3] overflow-hidden">
+                      <img src="/images/pilates4.jpg" alt="ピラティススタジオ" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                    </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
                         <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">スタジオ</span>
@@ -407,7 +433,9 @@ export default function Home() {
 
                 <Link href="/articles/pilates-trial-lesson" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
-                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-orange-200 to-orange-100"></div>
+                    <div className="aspect-[4/3] overflow-hidden">
+                      <img src="/images/pilates4.jpg" alt="ピラティススタジオ" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                    </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
                         <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">スタジオ</span>
@@ -422,7 +450,9 @@ export default function Home() {
 
                 <Link href="/articles/pilates-online" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
-                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-orange-200 to-orange-100"></div>
+                    <div className="aspect-[4/3] overflow-hidden">
+                      <img src="/images/pilates4.jpg" alt="ピラティススタジオ" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                    </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
                         <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">スタジオ</span>
