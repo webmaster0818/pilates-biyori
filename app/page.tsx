@@ -174,7 +174,7 @@ export default function Home() {
                 <p className="text-warm-400 text-xs mt-2 uppercase tracking-[0.15em]">厳選記事</p>
               </div>
               <div>
-                <p className="font-serif text-4xl font-light text-warm-800">4</p>
+                <p className="font-serif text-4xl font-light text-warm-800">3</p>
                 <p className="text-warm-400 text-xs mt-2 uppercase tracking-[0.15em]">カテゴリ</p>
               </div>
               <div>
@@ -188,92 +188,253 @@ export default function Home() {
         {/* Featured Articles */}
         <section className="py-20 md:py-28 bg-warm-50" id="articles">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <div className="flex items-end justify-between mb-14 fade-up">
-              <div>
-                <p className="section-en text-warm-400 mb-3 font-medium">Featured Articles</p>
-                <h2 className="text-2xl md:text-3xl font-light text-warm-900 tracking-tight">注目記事</h2>
-                <div className="divider mt-4"></div>
+            <div className="text-center mb-14 fade-up">
+              <p className="section-en text-warm-400 mb-3 font-medium">All Articles</p>
+              <h2 className="text-2xl md:text-3xl font-light text-warm-900 tracking-tight">全記事一覧</h2>
+              <div className="divider mx-auto mt-4"></div>
+            </div>
+
+            {/* 基礎知識 */}
+            <div className="mb-16">
+              <h3 className="text-xl font-medium text-warm-800 mb-6 pb-3 border-b border-warm-200">基礎知識</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <Link href="/articles/pilates-yoga-difference" className="group fade-up">
+                  <div className="card-hover bg-white overflow-hidden border border-warm-100">
+                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-purple-200 to-purple-100"></div>
+                    <div className="p-6">
+                      <div className="flex items-center gap-3 mb-3">
+                        <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">基礎知識</span>
+                        <time dateTime="2026-03-28" className="text-warm-300 text-xs">2026.3.28</time>
+                      </div>
+                      <h4 className="text-sm font-medium text-warm-800 leading-relaxed group-hover:text-warm-600 transition-colors mb-2 line-clamp-2">
+                        ピラティスとヨガの違いは？初心者向けに5つのポイントで徹底解説
+                      </h4>
+                    </div>
+                  </div>
+                </Link>
+
+                <Link href="/articles/mat-machine-difference" className="group fade-up">
+                  <div className="card-hover bg-white overflow-hidden border border-warm-100">
+                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-purple-200 to-purple-100"></div>
+                    <div className="p-6">
+                      <div className="flex items-center gap-3 mb-3">
+                        <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">基礎知識</span>
+                        <time dateTime="2026-03-28" className="text-warm-300 text-xs">2026.3.28</time>
+                      </div>
+                      <h4 className="text-sm font-medium text-warm-800 leading-relaxed group-hover:text-warm-600 transition-colors mb-2 line-clamp-2">
+                        マットピラティスとマシンピラティスの違いとは？
+                      </h4>
+                    </div>
+                  </div>
+                </Link>
+
+                <Link href="/articles/machine-pilates-beginner" className="group fade-up">
+                  <div className="card-hover bg-white overflow-hidden border border-warm-100">
+                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-purple-200 to-purple-100"></div>
+                    <div className="p-6">
+                      <div className="flex items-center gap-3 mb-3">
+                        <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">基礎知識</span>
+                        <time dateTime="2026-03-30" className="text-warm-300 text-xs">2026.3.30</time>
+                      </div>
+                      <h4 className="text-sm font-medium text-warm-800 leading-relaxed group-hover:text-warm-600 transition-colors mb-2 line-clamp-2">
+                        マシンピラティス初心者におすすめの始め方
+                      </h4>
+                    </div>
+                  </div>
+                </Link>
+
+                <Link href="/articles/pilates-frequency" className="group fade-up">
+                  <div className="card-hover bg-white overflow-hidden border border-warm-100">
+                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-purple-200 to-purple-100"></div>
+                    <div className="p-6">
+                      <div className="flex items-center gap-3 mb-3">
+                        <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">基礎知識</span>
+                        <time dateTime="2026-03-30" className="text-warm-300 text-xs">2026.3.30</time>
+                      </div>
+                      <h4 className="text-sm font-medium text-warm-800 leading-relaxed group-hover:text-warm-600 transition-colors mb-2 line-clamp-2">
+                        ピラティスは週何回が最適？目的別の頻度を徹底解説
+                      </h4>
+                    </div>
+                  </div>
+                </Link>
+
+                <Link href="/articles/pilates-beginner-home" className="group fade-up">
+                  <div className="card-hover bg-white overflow-hidden border border-warm-100">
+                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-purple-200 to-purple-100"></div>
+                    <div className="p-6">
+                      <div className="flex items-center gap-3 mb-3">
+                        <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">基礎知識</span>
+                        <time dateTime="2026-03-28" className="text-warm-300 text-xs">2026.3.28</time>
+                      </div>
+                      <h4 className="text-sm font-medium text-warm-800 leading-relaxed group-hover:text-warm-600 transition-colors mb-2 line-clamp-2">
+                        ピラティス初心者が自宅で始める方法
+                      </h4>
+                    </div>
+                  </div>
+                </Link>
               </div>
-              <a href="#" className="hidden md:flex items-center gap-2 text-warm-500 text-xs uppercase tracking-[0.15em] hover:text-warm-800 transition group">
-                View All 
-                <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-                </svg>
-              </a>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {/* Article 1 */}
-              <Link href="/articles/pilates-yoga-difference" className="group fade-up">
-                <div className="card-hover bg-white overflow-hidden">
-                  <div className="aspect-[4/3] overflow-hidden">
-                    <img src="/images/pilates2.jpg" alt="ピラティスとヨガの違い" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
-                  </div>
-                  <div className="p-6 md:p-8">
-                    <div className="flex items-center gap-3 mb-4">
-                      <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">基礎知識</span>
-                      <time dateTime="2026-03-28" className="text-warm-300 text-xs">2026.3.28</time>
+            {/* 効果・メリット */}
+            <div className="mb-16">
+              <h3 className="text-xl font-medium text-warm-800 mb-6 pb-3 border-b border-warm-200">効果・メリット</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <Link href="/articles/pilates-effect-when" className="group fade-up">
+                  <div className="card-hover bg-white overflow-hidden border border-warm-100">
+                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-green-200 to-green-100"></div>
+                    <div className="p-6">
+                      <div className="flex items-center gap-3 mb-3">
+                        <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">効果</span>
+                        <time dateTime="2026-03-28" className="text-warm-300 text-xs">2026.3.28</time>
+                      </div>
+                      <h4 className="text-sm font-medium text-warm-800 leading-relaxed group-hover:text-warm-600 transition-colors mb-2 line-clamp-2">
+                        ピラティスの効果はいつから出る？週1回でも身体が変わる期間の目安
+                      </h4>
                     </div>
-                    <h3 className="text-base font-medium text-warm-800 leading-relaxed group-hover:text-warm-600 transition-colors mb-3">
-                      ピラティスとヨガの違いは？<br/>初心者向けに5つのポイントで徹底解説
-                    </h3>
-                    <p className="text-warm-400 text-sm leading-relaxed font-light line-clamp-2">
-                      起源、効果、呼吸法の5つの違いを比較表で紹介。あなたに合うのはどちら？
-                    </p>
                   </div>
-                </div>
-              </Link>
+                </Link>
 
-              {/* Article 2 */}
-              <Link href="/articles/mat-machine-difference" className="group fade-up" style={{transitionDelay: '0.1s'}}>
-                <div className="card-hover bg-white overflow-hidden">
-                  <div className="aspect-[4/3] overflow-hidden">
-                    <img src="/images/pilates3.jpg" alt="マットとマシンの違い" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
-                  </div>
-                  <div className="p-6 md:p-8">
-                    <div className="flex items-center gap-3 mb-4">
-                      <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">基礎知識</span>
-                      <time dateTime="2026-03-28" className="text-warm-300 text-xs">2026.3.28</time>
+                <Link href="/articles/pilates-daily-effect" className="group fade-up">
+                  <div className="card-hover bg-white overflow-hidden border border-warm-100">
+                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-green-200 to-green-100"></div>
+                    <div className="p-6">
+                      <div className="flex items-center gap-3 mb-3">
+                        <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">効果</span>
+                        <time dateTime="2026-03-28" className="text-warm-300 text-xs">2026.3.28</time>
+                      </div>
+                      <h4 className="text-sm font-medium text-warm-800 leading-relaxed group-hover:text-warm-600 transition-colors mb-2 line-clamp-2">
+                        ピラティスを毎日やる効果は？最適な頻度を解説
+                      </h4>
                     </div>
-                    <h3 className="text-base font-medium text-warm-800 leading-relaxed group-hover:text-warm-600 transition-colors mb-3">
-                      マットピラティスとマシンピラティスの違いとは？
-                    </h3>
-                    <p className="text-warm-400 text-sm leading-relaxed font-light line-clamp-2">
-                      初心者向けにメリット・デメリットを解説。自分に合った選び方がわかります。
-                    </p>
                   </div>
-                </div>
-              </Link>
+                </Link>
 
-              {/* Article 3 */}
-              <Link href="/articles/pilates-effect-when" className="group fade-up" style={{transitionDelay: '0.2s'}}>
-                <div className="card-hover bg-white overflow-hidden">
-                  <div className="aspect-[4/3] overflow-hidden">
-                    <img src="/images/pilates4.jpg" alt="ピラティスの効果" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
-                  </div>
-                  <div className="p-6 md:p-8">
-                    <div className="flex items-center gap-3 mb-4">
-                      <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">効果</span>
-                      <time dateTime="2026-03-28" className="text-warm-300 text-xs">2026.3.28</time>
+                <Link href="/articles/pilates-diet-effect" className="group fade-up">
+                  <div className="card-hover bg-white overflow-hidden border border-warm-100">
+                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-green-200 to-green-100"></div>
+                    <div className="p-6">
+                      <div className="flex items-center gap-3 mb-3">
+                        <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">効果</span>
+                        <time dateTime="2026-03-30" className="text-warm-300 text-xs">2026.3.30</time>
+                      </div>
+                      <h4 className="text-sm font-medium text-warm-800 leading-relaxed group-hover:text-warm-600 transition-colors mb-2 line-clamp-2">
+                        ピラティスダイエットの効果を徹底解説【3ヶ月で-5kg】
+                      </h4>
                     </div>
-                    <h3 className="text-base font-medium text-warm-800 leading-relaxed group-hover:text-warm-600 transition-colors mb-3">
-                      ピラティスの効果はいつから出る？<br/>週1回でも身体が変わる期間の目安
-                    </h3>
-                    <p className="text-warm-400 text-sm leading-relaxed font-light line-clamp-2">
-                      効果が出るまでの期間を科学的根拠をもとに解説。継続のコツも紹介。
-                    </p>
                   </div>
-                </div>
-              </Link>
+                </Link>
+
+                <Link href="/articles/pilates-posture-effect" className="group fade-up">
+                  <div className="card-hover bg-white overflow-hidden border border-warm-100">
+                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-green-200 to-green-100"></div>
+                    <div className="p-6">
+                      <div className="flex items-center gap-3 mb-3">
+                        <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">効果</span>
+                        <time dateTime="2026-03-30" className="text-warm-300 text-xs">2026.3.30</time>
+                      </div>
+                      <h4 className="text-sm font-medium text-warm-800 leading-relaxed group-hover:text-warm-600 transition-colors mb-2 line-clamp-2">
+                        ピラティスの姿勢改善効果【猫背・反り腰を2週間で改善】
+                      </h4>
+                    </div>
+                  </div>
+                </Link>
+
+                <Link href="/articles/pilates-back-pain" className="group fade-up">
+                  <div className="card-hover bg-white overflow-hidden border border-warm-100">
+                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-green-200 to-green-100"></div>
+                    <div className="p-6">
+                      <div className="flex items-center gap-3 mb-3">
+                        <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">効果</span>
+                        <time dateTime="2026-03-30" className="text-warm-300 text-xs">2026.3.30</time>
+                      </div>
+                      <h4 className="text-sm font-medium text-warm-800 leading-relaxed group-hover:text-warm-600 transition-colors mb-2 line-clamp-2">
+                        ピラティスで腰痛改善【効果的なエクササイズを解説】
+                      </h4>
+                    </div>
+                  </div>
+                </Link>
+
+                <Link href="/articles/pilates-shoulder-pain" className="group fade-up">
+                  <div className="card-hover bg-white overflow-hidden border border-warm-100">
+                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-green-200 to-green-100"></div>
+                    <div className="p-6">
+                      <div className="flex items-center gap-3 mb-3">
+                        <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">効果</span>
+                        <time dateTime="2026-03-30" className="text-warm-300 text-xs">2026.3.30</time>
+                      </div>
+                      <h4 className="text-sm font-medium text-warm-800 leading-relaxed group-hover:text-warm-600 transition-colors mb-2 line-clamp-2">
+                        ピラティスで肩こり改善【効果的なエクササイズを解説】
+                      </h4>
+                    </div>
+                  </div>
+                </Link>
+              </div>
             </div>
 
-            <div className="text-center mt-12 md:hidden fade-up">
-              <a href="#" className="inline-flex items-center gap-2 text-warm-500 text-xs uppercase tracking-[0.15em] hover:text-warm-800 transition">
-                View All Articles 
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-                </svg>
-              </a>
+            {/* スタジオ選び */}
+            <div className="mb-16">
+              <h3 className="text-xl font-medium text-warm-800 mb-6 pb-3 border-b border-warm-200">スタジオ選び</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <Link href="/articles/pilates-beginner-studio" className="group fade-up">
+                  <div className="card-hover bg-white overflow-hidden border border-warm-100">
+                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-orange-200 to-orange-100"></div>
+                    <div className="p-6">
+                      <div className="flex items-center gap-3 mb-3">
+                        <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">スタジオ</span>
+                        <time dateTime="2026-03-30" className="text-warm-300 text-xs">2026.3.30</time>
+                      </div>
+                      <h4 className="text-sm font-medium text-warm-800 leading-relaxed group-hover:text-warm-600 transition-colors mb-2 line-clamp-2">
+                        ピラティス初心者におすすめのスタジオ選び
+                      </h4>
+                    </div>
+                  </div>
+                </Link>
+
+                <Link href="/articles/pilates-price" className="group fade-up">
+                  <div className="card-hover bg-white overflow-hidden border border-warm-100">
+                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-orange-200 to-orange-100"></div>
+                    <div className="p-6">
+                      <div className="flex items-center gap-3 mb-3">
+                        <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">スタジオ</span>
+                        <time dateTime="2026-03-30" className="text-warm-300 text-xs">2026.3.30</time>
+                      </div>
+                      <h4 className="text-sm font-medium text-warm-800 leading-relaxed group-hover:text-warm-600 transition-colors mb-2 line-clamp-2">
+                        ピラティスの料金相場を徹底比較【2026年最新】
+                      </h4>
+                    </div>
+                  </div>
+                </Link>
+
+                <Link href="/articles/pilates-trial-lesson" className="group fade-up">
+                  <div className="card-hover bg-white overflow-hidden border border-warm-100">
+                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-orange-200 to-orange-100"></div>
+                    <div className="p-6">
+                      <div className="flex items-center gap-3 mb-3">
+                        <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">スタジオ</span>
+                        <time dateTime="2026-03-30" className="text-warm-300 text-xs">2026.3.30</time>
+                      </div>
+                      <h4 className="text-sm font-medium text-warm-800 leading-relaxed group-hover:text-warm-600 transition-colors mb-2 line-clamp-2">
+                        ピラティス体験レッスン完全ガイド【おすすめスタジオ】
+                      </h4>
+                    </div>
+                  </div>
+                </Link>
+
+                <Link href="/articles/pilates-online" className="group fade-up">
+                  <div className="card-hover bg-white overflow-hidden border border-warm-100">
+                    <div className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-orange-200 to-orange-100"></div>
+                    <div className="p-6">
+                      <div className="flex items-center gap-3 mb-3">
+                        <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">スタジオ</span>
+                        <time dateTime="2026-03-30" className="text-warm-300 text-xs">2026.3.30</time>
+                      </div>
+                      <h4 className="text-sm font-medium text-warm-800 leading-relaxed group-hover:text-warm-600 transition-colors mb-2 line-clamp-2">
+                        オンラインピラティスおすすめ8選【料金・効果を徹底比較】
+                      </h4>
+                    </div>
+                  </div>
+                </Link>
+              </div>
             </div>
           </div>
         </section>
@@ -288,7 +449,7 @@ export default function Home() {
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 fade-up">
-              <a href="#" className="group">
+              <a href="#articles" className="group">
                 <div className="border border-warm-200 p-6 sm:p-8 text-center hover:border-warm-400 transition-colors card-hover bg-warm-50">
                   <div className="w-12 h-12 mx-auto mb-5 flex items-center justify-center">
                     <i data-lucide="book-open" className="w-6 h-6 text-warm-400 group-hover:text-warm-600 transition-colors"></i>
@@ -297,7 +458,7 @@ export default function Home() {
                   <p className="text-warm-400 text-xs font-light">ピラティスの基本を学ぶ</p>
                 </div>
               </a>
-              <a href="#" className="group">
+              <a href="#articles" className="group">
                 <div className="border border-warm-200 p-8 text-center hover:border-warm-400 transition-colors card-hover bg-warm-50">
                   <div className="w-12 h-12 mx-auto mb-5 flex items-center justify-center">
                     <i data-lucide="heart" className="w-6 h-6 text-warm-400 group-hover:text-warm-600 transition-colors"></i>
@@ -306,7 +467,7 @@ export default function Home() {
                   <p className="text-warm-400 text-xs font-light">期待できる効果を知る</p>
                 </div>
               </a>
-              <a href="#" className="group">
+              <a href="#articles" className="group">
                 <div className="border border-warm-200 p-8 text-center hover:border-warm-400 transition-colors card-hover bg-warm-50">
                   <div className="w-12 h-12 mx-auto mb-5 flex items-center justify-center">
                     <i data-lucide="building-2" className="w-6 h-6 text-warm-400 group-hover:text-warm-600 transition-colors"></i>
@@ -315,7 +476,7 @@ export default function Home() {
                   <p className="text-warm-400 text-xs font-light">最適なスタジオを比較</p>
                 </div>
               </a>
-              <a href="#" className="group">
+              <a href="#articles" className="group">
                 <div className="border border-warm-200 p-8 text-center hover:border-warm-400 transition-colors card-hover bg-warm-50">
                   <div className="w-12 h-12 mx-auto mb-5 flex items-center justify-center">
                     <i data-lucide="map-pin" className="w-6 h-6 text-warm-400 group-hover:text-warm-600 transition-colors"></i>
