@@ -783,10 +783,10 @@ export default function Home() {
             <div>
               <h4 className="text-[10px] uppercase tracking-[0.2em] font-medium text-warm-300 mb-5">Categories</h4>
               <ul className="space-y-3 text-xs">
-                <li><a href="#" className="text-warm-500 hover:text-white transition font-light">基礎知識</a></li>
-                <li><a href="#" className="text-warm-500 hover:text-white transition font-light">効果・メリット</a></li>
-                <li><a href="#" className="text-warm-500 hover:text-white transition font-light">スタジオ選び</a></li>
-                <li><a href="#" className="text-warm-500 hover:text-white transition font-light">地域別</a></li>
+                <li><Link href="/basics" className="text-warm-500 hover:text-white transition font-light">基礎知識</Link></li>
+                <li><Link href="/benefits" className="text-warm-500 hover:text-white transition font-light">効果・メリット</Link></li>
+                <li><Link href="/studios" className="text-warm-500 hover:text-white transition font-light">スタジオ選び</Link></li>
+                <li><Link href="/area" className="text-warm-500 hover:text-white transition font-light">地域別</Link></li>
               </ul>
             </div>
             <div>
