@@ -14,52 +14,52 @@ const regions = [
   {
     name: '北海道・東北',
     areas: [
-      { name: '札幌', slug: 'sapporo', available: false },
-      { name: '仙台', slug: 'sendai', available: false },
+      { name: '札幌', slug: 'sapporo', available: true },
+      { name: '仙台', slug: 'sendai', available: true },
     ],
   },
   {
     name: '関東',
     areas: [
-      { name: '東京', slug: 'tokyo', available: false },
-      { name: '新宿', slug: 'shinjuku', available: false },
-      { name: '渋谷', slug: 'shibuya', available: false },
-      { name: '池袋', slug: 'ikebukuro', available: false },
-      { name: '銀座', slug: 'ginza', available: false },
-      { name: '横浜', slug: 'yokohama', available: false },
-      { name: '大宮', slug: 'omiya', available: false },
-      { name: '千葉', slug: 'chiba', available: false },
+      { name: '東京', slug: 'tokyo', available: true },
+      { name: '新宿', slug: 'shinjuku', available: true },
+      { name: '渋谷', slug: 'shibuya', available: true },
+      { name: '池袋', slug: 'ikebukuro', available: true },
+      { name: '銀座', slug: 'ginza', available: true },
+      { name: '横浜', slug: 'yokohama', available: true },
+      { name: '大宮', slug: 'omiya', available: true },
+      { name: '千葉', slug: 'chiba', available: true },
     ],
   },
   {
     name: '中部',
     areas: [
-      { name: '名古屋', slug: 'nagoya', available: false },
-      { name: '静岡', slug: 'shizuoka', available: false },
-      { name: '新潟', slug: 'niigata', available: false },
+      { name: '名古屋', slug: 'nagoya', available: true },
+      { name: '静岡', slug: 'shizuoka', available: true },
+      { name: '新潟', slug: 'niigata', available: true },
     ],
   },
   {
     name: '近畿',
     areas: [
-      { name: '大阪', slug: 'osaka', available: false },
-      { name: '京都', slug: 'kyoto', available: false },
-      { name: '神戸', slug: 'kobe', available: false },
+      { name: '大阪', slug: 'osaka', available: true },
+      { name: '京都', slug: 'kyoto', available: true },
+      { name: '神戸', slug: 'kobe', available: true },
     ],
   },
   {
     name: '中国・四国',
     areas: [
-      { name: '広島', slug: 'hiroshima', available: false },
-      { name: '岡山', slug: 'okayama', available: false },
+      { name: '広島', slug: 'hiroshima', available: true },
+      { name: '岡山', slug: 'okayama', available: true },
     ],
   },
   {
     name: '九州・沖縄',
     areas: [
-      { name: '福岡', slug: 'fukuoka', available: false },
-      { name: '熊本', slug: 'kumamoto', available: false },
-      { name: '沖縄', slug: 'okinawa', available: false },
+      { name: '福岡', slug: 'fukuoka', available: true },
+      { name: '熊本', slug: 'kumamoto', available: true },
+      { name: '沖縄', slug: 'okinawa', available: true },
     ],
   },
 ]
