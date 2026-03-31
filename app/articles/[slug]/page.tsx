@@ -2,7 +2,9 @@ import { getArticleBySlug, getArticleSlugs } from '@/lib/mdx'
 import { MDXRemote } from 'next-mdx-remote/rsc'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { Button } from '@/components/ui/button'
+import { Navigation } from '@/components/Navigation'
+import { SiteFooter } from '@/components/SiteFooter'
+import Script from 'next/script'
 
 export async function generateStaticParams() {
   const slugs = getArticleSlugs()
@@ -71,92 +73,98 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      
-      <article className="container mx-auto px-4 py-8 max-w-4xl">
-      {/* パンくずリスト */}
-      <nav className="text-sm text-gray-600 mb-6">
-        <Link href="/" className="hover:text-purple-600">ホーム</Link>
-        {' > '}
-        <Link href={`/${frontmatter.category}`} className="hover:text-purple-600">
-          {frontmatter.category}
-        </Link>
-        {' > '}
-        <span>{frontmatter.title}</span>
-      </nav>
 
-      {/* 記事ヘッダー */}
-      <header className="mb-8">
-        <div className="text-sm text-purple-600 font-semibold mb-2">
-          {frontmatter.category}
-        </div>
-        <h1 className="text-4xl font-bold mb-4">{frontmatter.title}</h1>
-        <div className="flex gap-4 text-sm text-gray-600">
-          <time dateTime={frontmatter.publishedAt}>
-            公開日: {new Date(frontmatter.publishedAt).toLocaleDateString('ja-JP')}
-          </time>
-          {frontmatter.updatedAt && (
-            <time dateTime={frontmatter.updatedAt}>
-              更新日: {new Date(frontmatter.updatedAt).toLocaleDateString('ja-JP')}
-            </time>
-          )}
-        </div>
-        {frontmatter.tags && frontmatter.tags.length > 0 && (
-          <div className="flex gap-2 mt-4">
-            {frontmatter.tags.map(tag => (
-              <span key={tag} className="bg-gray-100 px-3 py-1 rounded-full text-sm">
-                {tag}
-              </span>
-            ))}
+      <Navigation />
+
+      <main className="pt-20">
+        <article className="bg-white">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8 py-12">
+            {/* パンくずリスト */}
+            <nav className="text-sm text-warm-400 mb-8">
+              <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
+              {' > '}
+              <span className="text-warm-600">{frontmatter.title}</span>
+            </nav>
+
+            {/* 記事ヘッダー */}
+            <header className="mb-12">
+              <div className="text-xs uppercase tracking-[0.2em] text-warm-400 font-medium mb-4">
+                {frontmatter.category}
+              </div>
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-warm-900 leading-tight tracking-tight mb-6">
+                {frontmatter.title}
+              </h1>
+              <div className="flex gap-6 text-sm text-warm-400">
+                <time dateTime={frontmatter.publishedAt}>
+                  公開: {new Date(frontmatter.publishedAt).toLocaleDateString('ja-JP')}
+                </time>
+                {frontmatter.updatedAt && (
+                  <time dateTime={frontmatter.updatedAt}>
+                    更新: {new Date(frontmatter.updatedAt).toLocaleDateString('ja-JP')}
+                  </time>
+                )}
+              </div>
+              {frontmatter.tags && frontmatter.tags.length > 0 && (
+                <div className="flex gap-2 mt-6">
+                  {frontmatter.tags.map((tag: string) => (
+                    <span key={tag} className="border border-warm-200 px-3 py-1 text-xs text-warm-600 uppercase tracking-[0.15em]">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              )}
+            </header>
+
+            {/* 記事本文 */}
+            <div className="prose prose-lg max-w-none mb-16 article-content">
+              <MDXRemote source={content} />
+            </div>
+
+            {/* CTA */}
+            <div className="bg-warm-800 text-white rounded-lg p-10 text-center mb-16">
+              <h2 className="text-2xl md:text-3xl font-light mb-4 tracking-tight">体験レッスンを予約しよう</h2>
+              <p className="text-warm-200 mb-8 font-light">初回限定！体験レッスン1,000円〜</p>
+              <a href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-xs font-medium uppercase tracking-[0.15em] hover:bg-warm-100 transition-all btn-minimal">
+                おすすめスタジオを見る
+              </a>
+            </div>
+
+            {/* 関連記事 */}
+            {frontmatter.relatedArticles && frontmatter.relatedArticles.length > 0 && (
+              <section>
+                <h2 className="text-2xl md:text-3xl font-light text-warm-900 mb-8 tracking-tight">関連記事</h2>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                  {frontmatter.relatedArticles.map((slug: string) => {
+                    const relatedArticle = getArticleBySlug(slug)
+                    if (!relatedArticle) return null
+                    return (
+                      <Link 
+                        key={slug} 
+                        href={`/articles/${slug}`}
+                        className="group card-hover bg-warm-50 border border-warm-100 p-6 transition-all"
+                      >
+                        <div className="text-[10px] uppercase tracking-[0.2em] text-warm-400 font-medium mb-3">
+                          {relatedArticle.frontmatter.category}
+                        </div>
+                        <h3 className="font-medium text-warm-800 mb-2 line-clamp-2 group-hover:text-warm-600 transition-colors">
+                          {relatedArticle.frontmatter.title}
+                        </h3>
+                        <p className="text-sm text-warm-400 line-clamp-2 font-light">
+                          {relatedArticle.frontmatter.description}
+                        </p>
+                      </Link>
+                    )
+                  })}
+                </div>
+              </section>
+            )}
           </div>
-        )}
-      </header>
+        </article>
+      </main>
 
-      {/* 記事本文 */}
-      <div className="prose prose-lg max-w-none mb-12">
-        <MDXRemote source={content} />
-      </div>
+      <SiteFooter />
 
-      {/* CTA */}
-      <div className="bg-purple-600 text-white rounded-lg p-8 text-center mb-12">
-        <h2 className="text-2xl font-bold mb-4">体験レッスンを予約しよう</h2>
-        <p className="mb-6">初回限定！体験レッスン1,000円〜</p>
-        <Link href="/studios">
-          <Button size="lg" variant="secondary" className="bg-white text-purple-600 hover:bg-gray-100">
-            おすすめスタジオを見る
-          </Button>
-        </Link>
-      </div>
-
-      {/* 関連記事 */}
-      {frontmatter.relatedArticles && frontmatter.relatedArticles.length > 0 && (
-        <section>
-          <h2 className="text-2xl font-bold mb-6">関連記事</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {frontmatter.relatedArticles.map(slug => {
-              const relatedArticle = getArticleBySlug(slug)
-              if (!relatedArticle) return null
-              return (
-                <Link 
-                  key={slug} 
-                  href={`/articles/${slug}`}
-                  className="border rounded-lg p-4 hover:shadow-lg transition-shadow"
-                >
-                  <div className="text-sm text-purple-600 font-semibold mb-2">
-                    {relatedArticle.frontmatter.category}
-                  </div>
-                  <h3 className="font-bold mb-2 line-clamp-2">
-                    {relatedArticle.frontmatter.title}
-                  </h3>
-                  <p className="text-sm text-gray-600 line-clamp-2">
-                    {relatedArticle.frontmatter.description}
-                  </p>
-                </Link>
-              )
-            })}
-          </div>
-        </section>
-      )}
-    </article>
+      <Script src="https://unpkg.com/lucide@latest" strategy="lazyOnload" />
     </>
   )
 }
