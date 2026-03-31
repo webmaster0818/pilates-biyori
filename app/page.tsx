@@ -89,10 +89,6 @@ export default function Home() {
   return (
     <>
       <div id="scrollProgress" className="fixed top-0 left-0 h-[2px] bg-gradient-to-r from-warm-400 to-warm-500 z-[9999] w-0 transition-[width]"></div>
-      
-      <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-[999] focus:bg-warm-800 focus:text-white focus:px-4 focus:py-2 focus:rounded">
-        メインコンテンツへスキップ
-      </a>
 
       {/* Navbar */}
       <nav className="navbar fixed top-0 w-full z-50 bg-transparent transition-all duration-400" id="navbar" aria-label="メインナビゲーション">
