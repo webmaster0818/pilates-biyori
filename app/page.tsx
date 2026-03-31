@@ -479,7 +479,7 @@ export default function Home() {
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 fade-up">
-              <a href="#articles" className="group">
+              <Link href="/basics" className="group">
                 <div className="border border-warm-200 p-6 sm:p-8 text-center hover:border-warm-400 transition-colors card-hover bg-warm-50">
                   <div className="w-12 h-12 mx-auto mb-5 flex items-center justify-center">
                     <i data-lucide="book-open" className="w-6 h-6 text-warm-400 group-hover:text-warm-600 transition-colors"></i>
@@ -487,8 +487,8 @@ export default function Home() {
                   <h3 className="text-sm font-medium text-warm-800 mb-2 group-hover:text-warm-600 transition-colors">基礎知識</h3>
                   <p className="text-warm-400 text-xs font-light">ピラティスの基本を学ぶ</p>
                 </div>
-              </a>
-              <a href="#articles" className="group">
+              </Link>
+              <Link href="/benefits" className="group">
                 <div className="border border-warm-200 p-8 text-center hover:border-warm-400 transition-colors card-hover bg-warm-50">
                   <div className="w-12 h-12 mx-auto mb-5 flex items-center justify-center">
                     <i data-lucide="heart" className="w-6 h-6 text-warm-400 group-hover:text-warm-600 transition-colors"></i>
@@ -496,8 +496,8 @@ export default function Home() {
                   <h3 className="text-sm font-medium text-warm-800 mb-2 group-hover:text-warm-600 transition-colors">効果・メリット</h3>
                   <p className="text-warm-400 text-xs font-light">期待できる効果を知る</p>
                 </div>
-              </a>
-              <a href="#articles" className="group">
+              </Link>
+              <Link href="/studios" className="group">
                 <div className="border border-warm-200 p-8 text-center hover:border-warm-400 transition-colors card-hover bg-warm-50">
                   <div className="w-12 h-12 mx-auto mb-5 flex items-center justify-center">
                     <i data-lucide="building-2" className="w-6 h-6 text-warm-400 group-hover:text-warm-600 transition-colors"></i>
@@ -505,8 +505,8 @@ export default function Home() {
                   <h3 className="text-sm font-medium text-warm-800 mb-2 group-hover:text-warm-600 transition-colors">スタジオ選び</h3>
                   <p className="text-warm-400 text-xs font-light">最適なスタジオを比較</p>
                 </div>
-              </a>
-              <a href="#articles" className="group">
+              </Link>
+              <Link href="/area" className="group">
                 <div className="border border-warm-200 p-8 text-center hover:border-warm-400 transition-colors card-hover bg-warm-50">
                   <div className="w-12 h-12 mx-auto mb-5 flex items-center justify-center">
                     <i data-lucide="map-pin" className="w-6 h-6 text-warm-400 group-hover:text-warm-600 transition-colors"></i>
@@ -514,7 +514,7 @@ export default function Home() {
                   <h3 className="text-sm font-medium text-warm-800 mb-2 group-hover:text-warm-600 transition-colors">地域別</h3>
                   <p className="text-warm-400 text-xs font-light">お近くのスタジオを探す</p>
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
         </section>
