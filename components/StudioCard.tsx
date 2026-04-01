@@ -240,35 +240,40 @@ export function StudioCard({ studio, index }: StudioCardProps) {
 
             {activeTab === 'map' && (
               <div>
-                <h4 className="font-bold text-warm-900 mb-3">アクセスマップ</h4>
-                {studio.mapImage ? (
-                  <div>
-                    <img 
-                      src={studio.mapImage} 
-                      alt={`${studio.name}の地図`}
-                      className="w-full h-auto rounded mb-3"
-                    />
-                    <div className="bg-white border border-warm-200 rounded p-3">
-                      <p className="text-warm-500 text-xs font-medium mb-1">住所</p>
-                      <p className="text-warm-800 text-sm">{studio.address}</p>
-                    </div>
+                <h4 className="font-bold text-warm-900 mb-3">アクセス情報</h4>
+                
+                {/* アクセス */}
+                <div className="mb-4">
+                  <p className="text-warm-500 text-xs font-medium mb-2">最寄駅からのアクセス</p>
+                  <p className="text-warm-800 text-sm flex items-start">
+                    <span className="text-warm-400 mr-2">🚶</span>
+                    <span>{studio.access}</span>
+                  </p>
+                </div>
+
+                {/* 住所 */}
+                {studio.address && (
+                  <div className="mb-4">
+                    <p className="text-warm-500 text-xs font-medium mb-2">住所</p>
+                    <p className="text-warm-800 text-sm flex items-start">
+                      <span className="text-warm-400 mr-2">📍</span>
+                      <span>{studio.address}</span>
+                    </p>
                   </div>
-                ) : (
+                )}
+
+                {/* Google Mapで見るボタン */}
+                {studio.address && (
                   <div>
-                    <div className="bg-warm-100 rounded h-[200px] flex items-center justify-center mb-3">
-                      <div className="text-center">
-                        <p className="text-warm-600 text-sm mb-2">📍 {studio.access}</p>
-                        <p className="text-warm-500 text-xs">
-                          ※地図情報は公式サイトでご確認ください
-                        </p>
-                      </div>
-                    </div>
-                    {studio.address && (
-                      <div className="bg-white border border-warm-200 rounded p-3">
-                        <p className="text-warm-500 text-xs font-medium mb-1">住所</p>
-                        <p className="text-warm-800 text-sm">{studio.address}</p>
-                      </div>
-                    )}
+                    <a
+                      href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(studio.address)}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center w-full bg-warm-800 text-white px-4 py-3 rounded text-sm font-medium hover:bg-warm-900 transition"
+                    >
+                      <span className="mr-2">🗺️</span>
+                      Google Mapで見る
+                    </a>
                   </div>
                 )}
               </div>
