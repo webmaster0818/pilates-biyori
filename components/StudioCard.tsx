@@ -266,7 +266,7 @@ export function StudioCard({ studio, index }: StudioCardProps) {
                 {studio.address && (
                   <div>
                     <a
-                      href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(studio.address)}`}
+                      href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${studio.name} ${studio.address}`)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center justify-center w-full bg-warm-800 text-white px-4 py-3 rounded text-sm font-medium hover:bg-warm-900 transition"
