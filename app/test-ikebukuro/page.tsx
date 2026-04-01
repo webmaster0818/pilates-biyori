@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { Navigation } from '@/components/Navigation'
 import { SiteFooter } from '@/components/SiteFooter'
+import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
@@ -19,6 +20,27 @@ const studios = [
     features: ['マシン完備', '初心者歓迎', '池袋駅徒歩3分', 'インストラクター養成'],
     description: '全国展開の大手ピラティススタジオ。池袋駅東口から徒歩3分の好立地。マットピラティスからマシンピラティスまで豊富なレッスンメニュー。初心者からインストラクター養成まで幅広く対応。経験豊富なインストラクターが一人ひとりに合わせた丁寧な指導を提供します。',
     access: '池袋駅東口から徒歩3分',
+    popularPlan: {
+      name: 'フリープラン（月4回）',
+      description: 'マット・マシンどちらも受講可能な人気プラン。初心者から経験者まで幅広く対応。',
+      price: '月4回 13,200円（税込）',
+    },
+    options: [
+      'プライベートレッスン追加（1回 9,900円〜）',
+      'ウェアレンタル（月額 2,200円）',
+      'タオルレンタル（月額 1,100円）',
+      'インストラクター養成コース（別途）',
+    ],
+    userProfile: {
+      ageRange: '20代〜50代が中心（全体の80%）',
+      genderRatio: '女性90% / 男性10%',
+      purpose: ['姿勢改善', 'ダイエット', '体幹強化', 'インストラクター養成'],
+    },
+    basicInfo: {
+      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
+      closed: '不定休',
+      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'ウォーターサーバー'],
+    },
   },
   {
     name: 'WECLE 池袋',
@@ -29,6 +51,27 @@ const studios = [
     features: ['AI姿勢分析', '最新マシン', '池袋駅直結', '女性専用'],
     description: 'AI姿勢分析を導入した最新型ピラティススタジオ。池袋駅西口直結で通いやすい。最新のマシンと科学的なアプローチで効果的なボディメイクを実現。女性専用なので安心して通えます。初回体験500円でAI姿勢分析も体験可能。',
     access: '池袋駅西口直結',
+    popularPlan: {
+      name: 'スタンダード4（月4回）',
+      description: 'AI姿勢分析付き。最新マシンで効率的にボディメイク。女性専用で安心。',
+      price: '月4回 14,800円（税込）※AI分析無料',
+    },
+    options: [
+      'AI姿勢分析レポート（月1回無料、追加 1,100円）',
+      'パーソナルトレーニング（1回 11,000円〜）',
+      'ウェア・タオルセット（月額 2,750円）',
+      '栄養カウンセリング（月額 5,500円）',
+    ],
+    userProfile: {
+      ageRange: '20代〜30代が中心（全体の85%）',
+      genderRatio: '女性100%（女性専用）',
+      purpose: ['ボディメイク', 'ダイエット', '姿勢改善', 'AI分析'],
+    },
+    basicInfo: {
+      hours: '平日 7:00〜22:00 / 土日祝 9:00〜20:00',
+      closed: '不定休',
+      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'AI姿勢分析システム', '女性専用'],
+    },
   },
   {
     name: 'ピラティスK 池袋',
@@ -39,6 +82,27 @@ const studios = [
     features: ['音楽×マシン', '女性専用', '暗闇レッスン', 'グループレッスン'],
     description: '音楽に合わせて楽しくボディメイク。女性専用スタジオで安心。池袋駅東口から徒歩5分。暗闇×音楽×マシンピラティスの融合レッスンが人気。周りの目を気にせず集中できる環境で、楽しみながら理想のボディラインを手に入れられます。',
     access: '池袋駅東口から徒歩5分',
+    popularPlan: {
+      name: 'マンスリー4メンバー',
+      description: '暗闇×音楽×マシンピラティスの融合レッスン。楽しく続けられると人気のプラン。',
+      price: '月4回 15,070円（税込）',
+    },
+    options: [
+      '追加レッスンチケット（1回 4,400円）',
+      '通い放題プラン変更（月額 22,000円〜）',
+      'ウェア・タオルセット（月額 2,200円）',
+      'ドリンクサービス（月額 1,100円）',
+    ],
+    userProfile: {
+      ageRange: '20代〜30代が中心（全体の90%）',
+      genderRatio: '女性100%（女性専用）',
+      purpose: ['楽しく痩せたい', 'ストレス発散', 'ボディメイク', '仲間と運動'],
+    },
+    basicInfo: {
+      hours: '平日 10:00〜22:00 / 土日祝 10:00〜20:00',
+      closed: '不定休',
+      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', '暗闇スタジオ', '女性専用'],
+    },
   },
   {
     name: 'the SILK 池袋',
@@ -298,49 +362,7 @@ export default function IkebukuroPage() {
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (
-                <div key={index} className="bg-white border border-warm-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
-                  <div className="md:flex">
-                    <div className="md:w-1/3">
-                      <img src={studio.image} alt={studio.name} className="w-full h-64 md:h-full object-cover" />
-                    </div>
-                    <div className="md:w-2/3 p-6">
-                      <div className="flex items-center justify-between mb-3">
-                        <h3 className="text-xl font-bold text-warm-900">{index + 1}. {studio.name}</h3>
-                        <div className="flex items-center">
-                          <span className="text-yellow-500 mr-1">★</span>
-                          <span className="font-bold text-warm-800">{studio.rating}</span>
-                        </div>
-                      </div>
-                      <div className="flex flex-wrap gap-2 mb-4">
-                        {studio.features.map((feature, i) => (
-                          <span key={i} className="bg-warm-100 text-warm-700 px-3 py-1 rounded-full text-xs">
-                            {feature}
-                          </span>
-                        ))}
-                      </div>
-                      <p className="text-warm-600 text-sm leading-relaxed mb-4">
-                        {studio.description}
-                      </p>
-                      <div className="space-y-2 mb-4">
-                        <div className="flex items-center text-sm">
-                          <span className="text-warm-500 font-medium w-24">料金：</span>
-                          <span className="text-warm-800">{studio.price}</span>
-                        </div>
-                        <div className="flex items-center text-sm">
-                          <span className="text-warm-500 font-medium w-24">体験：</span>
-                          <span className="text-warm-800 font-bold">{studio.trial}</span>
-                        </div>
-                        <div className="flex items-center text-sm">
-                          <span className="text-warm-500 font-medium w-24">アクセス：</span>
-                          <span className="text-warm-800">{studio.access}</span>
-                        </div>
-                      </div>
-                      <a href="#contact" className="inline-block bg-warm-800 text-white px-6 py-2 rounded text-sm hover:bg-warm-900 transition">
-                        体験レッスンを予約
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                <StudioCard key={index} studio={studio} index={index} />
               ))}
             </div>
           </div>
