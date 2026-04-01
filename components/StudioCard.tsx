@@ -12,6 +12,8 @@ type Studio = {
   features: string[]
   description: string
   access: string
+  address?: string
+  mapImage?: string
   popularPlan?: {
     name: string
     description: string
@@ -28,7 +30,6 @@ type Studio = {
     closed: string
     facilities: string[]
   }
-  mapUrl?: string
 }
 
 type StudioCardProps = {
@@ -240,25 +241,34 @@ export function StudioCard({ studio, index }: StudioCardProps) {
             {activeTab === 'map' && (
               <div>
                 <h4 className="font-bold text-warm-900 mb-3">アクセスマップ</h4>
-                {studio.mapUrl ? (
-                  <iframe
-                    src={studio.mapUrl}
-                    width="100%"
-                    height="300"
-                    style={{ border: 0 }}
-                    allowFullScreen
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                    className="rounded"
-                  ></iframe>
-                ) : (
-                  <div className="bg-warm-100 rounded h-[200px] flex items-center justify-center">
-                    <div className="text-center">
-                      <p className="text-warm-600 text-sm mb-2">📍 {studio.access}</p>
-                      <p className="text-warm-500 text-xs">
-                        ※地図情報は公式サイトでご確認ください
-                      </p>
+                {studio.mapImage ? (
+                  <div>
+                    <img 
+                      src={studio.mapImage} 
+                      alt={`${studio.name}の地図`}
+                      className="w-full h-auto rounded mb-3"
+                    />
+                    <div className="bg-white border border-warm-200 rounded p-3">
+                      <p className="text-warm-500 text-xs font-medium mb-1">住所</p>
+                      <p className="text-warm-800 text-sm">{studio.address}</p>
                     </div>
+                  </div>
+                ) : (
+                  <div>
+                    <div className="bg-warm-100 rounded h-[200px] flex items-center justify-center mb-3">
+                      <div className="text-center">
+                        <p className="text-warm-600 text-sm mb-2">📍 {studio.access}</p>
+                        <p className="text-warm-500 text-xs">
+                          ※地図情報は公式サイトでご確認ください
+                        </p>
+                      </div>
+                    </div>
+                    {studio.address && (
+                      <div className="bg-white border border-warm-200 rounded p-3">
+                        <p className="text-warm-500 text-xs font-medium mb-1">住所</p>
+                        <p className="text-warm-800 text-sm">{studio.address}</p>
+                      </div>
+                    )}
                   </div>
                 )}
               </div>
