@@ -59,20 +59,15 @@ export function StudioCard({ studio, index }: StudioCardProps) {
         <div className="md:w-2/3 p-6">
           <div className="flex items-center justify-between mb-3">
             <h3 className="text-xl font-bold text-warm-900">{index + 1}. {studio.name}</h3>
-            <button
-              onClick={() => setShowReviews(!showReviews)}
-              className="flex items-center hover:bg-warm-100 px-2 py-1 rounded transition-colors cursor-pointer"
-              aria-label="口コミを見る"
-            >
+            {/* 口コミ表示機能は将来のGoogle Maps API実装時に有効化 */}
+            <div className="flex items-center">
               <span className="text-yellow-500 mr-1">★</span>
               <span className="font-bold text-warm-800">{studio.rating}</span>
-              {studio.reviewCount && (
-                <span className="text-warm-500 text-xs ml-1">({studio.reviewCount}件)</span>
-              )}
-            </button>
+            </div>
           </div>
           
-          {/* 口コミアコーディオン */}
+          {/* 口コミアコーディオン - Google Maps API実装時に有効化予定 */}
+          {/* 
           {showReviews && studio.reviews && studio.reviews.length > 0 && (
             <div className="mb-4 bg-warm-50 border border-warm-200 rounded-lg p-4">
               <div className="flex items-center justify-between mb-3">
@@ -114,6 +109,7 @@ export function StudioCard({ studio, index }: StudioCardProps) {
               </p>
             </div>
           )}
+          */}
           <div className="flex flex-wrap gap-2 mb-4">
             {studio.features.map((feature, i) => (
               <span key={i} className="bg-warm-100 text-warm-700 px-3 py-1 rounded-full text-xs">
