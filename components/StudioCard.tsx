@@ -3,10 +3,19 @@
 import { useState } from 'react'
 import Image from 'next/image'
 
+type Review = {
+  author: string
+  rating: number
+  date: string
+  text: string
+}
+
 type Studio = {
   name: string
   image: string
   rating: number
+  reviewCount?: number
+  reviews?: Review[]
   price: string
   trial: string
   features: string[]
@@ -39,6 +48,7 @@ type StudioCardProps = {
 
 export function StudioCard({ studio, index }: StudioCardProps) {
   const [activeTab, setActiveTab] = useState<'plan' | 'options' | 'users' | 'basic' | 'map'>('plan')
+  const [showReviews, setShowReviews] = useState(false)
 
   return (
     <div className="bg-white border border-warm-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
@@ -49,11 +59,61 @@ export function StudioCard({ studio, index }: StudioCardProps) {
         <div className="md:w-2/3 p-6">
           <div className="flex items-center justify-between mb-3">
             <h3 className="text-xl font-bold text-warm-900">{index + 1}. {studio.name}</h3>
-            <div className="flex items-center">
+            <button
+              onClick={() => setShowReviews(!showReviews)}
+              className="flex items-center hover:bg-warm-100 px-2 py-1 rounded transition-colors cursor-pointer"
+              aria-label="口コミを見る"
+            >
               <span className="text-yellow-500 mr-1">★</span>
               <span className="font-bold text-warm-800">{studio.rating}</span>
-            </div>
+              {studio.reviewCount && (
+                <span className="text-warm-500 text-xs ml-1">({studio.reviewCount}件)</span>
+              )}
+            </button>
           </div>
+          
+          {/* 口コミアコーディオン */}
+          {showReviews && studio.reviews && studio.reviews.length > 0 && (
+            <div className="mb-4 bg-warm-50 border border-warm-200 rounded-lg p-4">
+              <div className="flex items-center justify-between mb-3">
+                <h4 className="font-bold text-warm-900 text-sm">Google 口コミ（高評価順）</h4>
+                <button
+                  onClick={() => setShowReviews(false)}
+                  className="text-warm-500 hover:text-warm-800 text-xs"
+                >
+                  閉じる ×
+                </button>
+              </div>
+              <div className="space-y-3">
+                {studio.reviews.map((review, i) => (
+                  <div key={i} className="bg-white border border-warm-200 rounded p-3">
+                    <div className="flex items-center justify-between mb-2">
+                      <div>
+                        <p className="font-medium text-warm-900 text-sm">{review.author}</p>
+                        <div className="flex items-center mt-1">
+                          <div className="flex">
+                            {[...Array(5)].map((_, starIndex) => (
+                              <span
+                                key={starIndex}
+                                className={starIndex < review.rating ? 'text-yellow-500' : 'text-warm-300'}
+                              >
+                                ★
+                              </span>
+                            ))}
+                          </div>
+                          <span className="text-warm-500 text-xs ml-2">{review.date}</span>
+                        </div>
+                      </div>
+                    </div>
+                    <p className="text-warm-700 text-sm leading-relaxed">{review.text}</p>
+                  </div>
+                ))}
+              </div>
+              <p className="text-warm-500 text-xs mt-3 text-center">
+                ※Google Mapsより引用
+              </p>
+            </div>
+          )}
           <div className="flex flex-wrap gap-2 mb-4">
             {studio.features.map((feature, i) => (
               <span key={i} className="bg-warm-100 text-warm-700 px-3 py-1 rounded-full text-xs">
