@@ -5,664 +5,556 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】ピラティス新大久保おすすめ15選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
-  description: '新大久保エリアのおすすめピラティススタジオ15選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
-  keywords: 'ピラティス,新大久保,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
+  title: '【2026最新】ピラティス新大久保・新宿おすすめ8選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
+  description: '新大久保・新宿エリアのおすすめピラティススタジオ8選を徹底比較。新大久保駅から1駅の新宿・高田馬場の実在スタジオを厳選。マシンピラティス、体験レッスン、料金相場、アクセスまで完全ガイド。',
+  keywords: 'ピラティス,新大久保,新宿,高田馬場,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
 const studios = [
   {
-    name: 'zen place pilates 新大久保スタジオ',
-    image: '/images/pilates2.jpg',
+    name: 'the SILK 新宿店',
+    image: '/images/pilates1.jpg',
     rating: 4.8,
-    reviewCount: 265,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '新大久保駅から徒歩3分で通いやすいです。ミナミの中心で、JR山手線全て使えます。道頓堀や心斎橋も近くて、レッスン後の観光も楽しめます。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '少人数制なので丁寧に見てもらえます。マシンの種類も豊富で、自分のレベルに合わせて進められます。ミナミは多国籍エリアで、いつも賑やかです。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: '全国展開しているので出張先でも通えます。新大久保は若者や観光客が多く、活気がある街です。',
-      },
-    ],
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['マシン完備', '初心者歓迎', '新大久保駅徒歩3分', 'インストラクター養成'],
-    description: '全国展開の大手ピラティススタジオ。新大久保駅から徒歩3分の好立地。マットピラティスからマシンピラティスまで豊富なレッスンメニュー。ミナミの中心・新大久保で、JR山手線が利用可能。コリアンタウン。韓国料理店・雑貨店多数、若者・外国人観光客し、若者・外国人観光客で賑わう。多国籍エリア。経験豊富なインストラクターが一人ひとりに合わせた丁寧な指導を提供します。',
-    access: '新大久保駅から徒歩3分',
-    address: '大阪府大阪市中央区新大久保3-5-17 新大久保LCビル 7F',
-    popularPlan: {
-      name: 'フリープラン（月4回）',
-      description: 'マット・マシンどちらも受講可能な人気プラン。ミナミの中心で通いやすい。',
-      price: '月4回 13,200円（税込）',
-    },
-    options: [
-      'プライベートレッスン追加（1回 9,900円〜）',
-      'ウェアレンタル（月額 2,200円）',
-      'タオルレンタル（月額 1,100円）',
-      'インストラクター養成コース（別途）',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心（全体の80%）',
-      genderRatio: '女性90% / 男性10%',
-      purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
-    },
-    basicInfo: {
-      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
-      closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'ウォーターサーバー'],
-    },
-  },
-  {
-    name: 'WECLE 新大久保',
-    image: '/images/pilates3.jpg',
-    rating: 4.7,
-    reviewCount: 204,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: 'AI姿勢分析が面白い！自分の体の癖が数値で分かるので改善しやすいです。新大久保駅から近くて、道頓堀での食事ついでに通えます。',
-      },
-      {
-        author: 'A.H',
-        rating: 4,
-        date: '2週間前',
-        text: '女性専用なので気兼ねなく通えます。マシンが新しくて使いやすい。体験が500円なので気軽に始められました。',
-      },
-      {
-        author: 'M.M',
-        rating: 5,
-        date: '3週間前',
-        text: '科学的なアプローチで効果が実感できます。新大久保はミナミの中心で、ショッピングも楽しめます。',
-      },
-    ],
-    price: '月4回 14,800円〜',
-    trial: '体験レッスン 500円',
-    features: ['AI姿勢分析', '最新マシン', '新大久保駅近', '女性専用'],
-    description: 'AI姿勢分析を導入した最新型ピラティススタジオ。新大久保駅から徒歩4分。最新のマシンと科学的なアプローチで効果的なボディメイクを実現。女性専用なので安心して通えます。道頓堀、心斎橋が近く、レッスン後のショッピングや食事も楽しめます。',
-    access: '新大久保駅から徒歩4分',
-    address: '大阪府大阪市中央区新大久保千日前15-15 OCAT 8F',
-    popularPlan: {
-      name: 'スタンダード4（月4回）',
-      description: 'AI姿勢分析付き。最新マシンで効率的にボディメイク。女性専用で安心。',
-      price: '月4回 14,800円（税込）※AI分析無料',
-    },
-    options: [
-      'AI姿勢分析レポート（月1回無料、追加 1,100円）',
-      'パーソナルトレーニング（1回 11,000円〜）',
-      'ウェア・タオルセット（月額 2,750円）',
-      '栄養カウンセリング（月額 5,500円）',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心（全体の85%）',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'AI分析'],
-    },
-    basicInfo: {
-      hours: '平日 7:00〜22:00 / 土日祝 9:00〜20:00',
-      closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'AI姿勢分析システム', '女性専用'],
-    },
-  },
-  {
-    name: 'ピラティスK 新大久保',
-    image: '/images/pilates4.jpg',
-    rating: 4.6,
     reviewCount: 186,
     reviews: [
       {
-        author: 'T.W',
+        author: 'M.O',
         rating: 5,
-        date: '5日前',
-        text: '暗闇×音楽で楽しく続けられます！新大久保でリフレッシュできるのが嬉しい。無料体験があって始めやすかったです。',
+        date: '3週間前',
+        text: '初回の体験レッスンで身体の変化に感動したことが、入会の決め手でした。オシャレな雰囲気や、音楽にあわせた堅苦しくないレッスンが好きです。',
       },
       {
-        author: 'H.I',
-        rating: 4,
-        date: '1週間前',
-        text: '音楽に合わせて動くので飽きない。女性専用で周りを気にせず集中できます。インストラクターが明るくて楽しい雰囲気。',
+        author: 'S.K',
+        rating: 5,
+        date: '1ヶ月前',
+        text: '新宿西口駅から徒歩1分で通いやすい。全て綺麗で、無料で手ぶら体験できるのすごい。飲み物もカップと蓋を自分でつけられるウォーターサーバーあるので有難い。',
       },
+      {
+        author: 'Y.T',
+        rating: 4,
+        date: '2週間前',
+        text: 'インストラクターさんの説明が分かりやすく、フォームの修正を行ってくださります。レッスンの種類が多く、音楽に合わせて動いていくのでとても楽しいです。',
+      },
+    ],
+    price: 'Full 22,280円/月、Standard4 15,280円/月',
+    trial: '体験レッスン 無料（期間限定）',
+    features: ['女性専用', '音楽×マシン', '新宿西口駅1分', 'PMA加盟団体監修'],
+    description: 'PMA加盟団体監修の本格マシンピラティススタジオ。新宿西口駅D5出口から徒歩1分の好立地。音楽に合わせて身体を動かす独自のレッスンスタイルで、運動経験を問わず楽しめます。駅チカのスタイリッシュなスタジオで、清潔感と上質な空間を体験できるのも魅力。',
+    access: '都営大江戸線「新宿西口駅」D5出口より徒歩1分、JR「新宿駅」西口徒歩5分',
+    address: '東京都新宿区西新宿7-1-8 ヒノデビル6階',
+    popularPlan: {
+      name: 'Standard 4（月4回）',
+      description: '毎月1~末日までの間で4回グループレッスン受講可能',
+      price: '15,280円/月（税込）',
+    },
+    options: [
+      'Full（毎日1回まで）: 22,280円/月',
+      'Full Day（平日昼のみ毎日1回）: 19,280円/月',
+      'Light 3（月3回）: 13,280円/月',
+      '月額ウェア/タオルレンタル: 2,200円',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性専用',
+      purpose: ['ボディメイク', '姿勢改善', '運動不足解消', 'リフレッシュ'],
+    },
+    basicInfo: {
+      hours: '8:00〜22:00',
+      closed: '年末年始（12/29～1/3）',
+      facilities: ['パウダールーム', 'ロッカー', 'ウォーターサーバー', 'リファ（メイク直しスペース）'],
+    },
+  },
+  {
+    name: 'ピラティスK 新宿西口店',
+    image: '/images/pilates2.jpg',
+    rating: 4.7,
+    reviewCount: 142,
+    reviews: [
+      {
+        author: 'C.O',
+        rating: 5,
+        date: '2週間前',
+        text: 'pilates Kに通って―14キロのダイエットに成功しました。スタジオのインストラクターの皆さんが優しく、アットホームな雰囲気が好きです。',
+      },
+      {
+        author: 'M.N',
+        rating: 4,
+        date: '3週間前',
+        text: '運動不足解消のため通いはじめました。レッスンに来た日と、来ない日の身体の軽さの違いを実感しています。特に足がむくみやすいからスッキリして良いです。',
+      },
+      {
+        author: 'S.K',
+        rating: 5,
+        date: '1ヶ月前',
+        text: 'インストラクターの先生たちが、とても親切で優しく、元気でパワーをもらっています。2025年7月にオープンしたばかりで設備が新しいです。',
+      },
+    ],
+    price: '月4回 13,420円〜',
+    trial: '体験レッスン 無料',
+    features: ['女性専用', '音楽×マシン', '新宿駅1分', 'ボディメイク特化'],
+    description: '2025年7月20日オープンの新しい女性専用マシンピラティススタジオ。新宿駅から徒歩1分の好立地。音楽にあわせたグループレッスンを楽しめるスタジオ。お腹、お尻、二の腕、脚、背中の部位に特化したボディメイクプログラムが充実しており、強度や目的に合わせて選べます。',
+    access: '大江戸線「新宿駅」より徒歩1分、京王線「新宿駅」より徒歩2分、山手線「新宿駅」より徒歩3分',
+    address: '東京都新宿区西新宿1丁目12番1号 高倉第一ビル5階',
+    popularPlan: {
+      name: 'マンスリー4メンバー',
+      description: '月4回レッスン。平日・土日祝のお好きな時間で受講',
+      price: '13,420円/月（税込）+ 施設維持費825円',
+    },
+    options: [
+      'マンスリー8メンバー: 16,170円/月',
+      'マンスリーデイメンバー（平日10-15時毎日1レッスン）: 14,520円/月',
+      'マンスリープレミアムメンバー（毎日2レッスン）: 18,920円/月',
+      '追加受講: 2,200円/回',
+    ],
+    userProfile: {
+      ageRange: '20代〜50代が中心',
+      genderRatio: '女性専用',
+      purpose: ['ダイエット', 'ボディメイク', '姿勢改善', '運動不足解消'],
+    },
+    basicInfo: {
+      hours: '火・金 10:00-15:00/17:30-22:00、水 10:00-14:00/17:30-22:00、木 17:30-22:00、土・祝 10:00-18:30、日 10:00-17:30',
+      closed: '月曜日',
+      facilities: ['ロッカー', 'パウダールーム', 'レンタルウェア', 'レンタルタオル'],
+    },
+  },
+  {
+    name: 'zen place pilates 高田馬場店',
+    image: '/images/pilates3.jpg',
+    rating: 4.6,
+    reviewCount: 128,
+    reviews: [
+      {
+        author: 'K.M',
+        rating: 5,
+        date: '2週間前',
+        text: 'ピラティス指導歴10年以上のベテランインストラクター達が呼吸の仕方から丁寧に指導してくれます。2024年5月に拡張移転してスタジオが広くなりました。',
+      },
+      {
+        author: 'Y.S',
+        rating: 4,
+        date: '3週間前',
+        text: '少人数制なので、ひとりひとりじっくりとレッスンできます。高田馬場駅から徒歩1分で通いやすい。全国150店舗が相互利用できるのも便利です。',
+      },
+      {
+        author: 'T.H',
+        rating: 5,
+        date: '1ヶ月前',
+        text: '運動経験もなく、ピラティスを始めましたが丁寧に教えてもらえるので安心です。男性も通えるので夫婦で通っています。',
+      },
+    ],
+    price: '月4回 10,450円〜',
+    trial: '体験レッスン 1,000円',
+    features: ['男女共用', '少人数制', '高田馬場駅1分', '全国150店舗相互利用'],
+    description: '2024年5月17日拡張移転オープンの大手ピラティススタジオ。JR・西武新宿線高田馬場駅戸山口から徒歩1分。マットグループ、マシン（リフォーマー）グループ、プライベートのレッスンがあり、男性もOK。当スタジオの会員さんの2人に1人は運動経験もなく、ピラティスを始めた人ばかり。ピラティス指導歴10年以上のベテランインストラクターが呼吸の仕方から丁寧に指導。',
+    access: 'JR山手線・西武新宿線「高田馬場駅」木戸山改札西側徒歩1分、東京メトロ東西線「高田馬場駅」1番出口徒歩4分',
+    address: '東京都新宿区高田馬場4丁目3-8 松島第二ビル3階 3F号室',
+    popularPlan: {
+      name: 'マットグループ月4',
+      description: 'マットグループレッスン月4回。全国150店舗どこでも受講可能',
+      price: '10,450円/月（税込）',
+    },
+    options: [
+      'フリープラン（回数無制限）: 16,940円/月',
+      'デイフリー（平日昼のみ無制限）: 13,552円/月',
+      'マットグループ月6: 14,520円/月',
+      'リフォーマーグループRG4（月4回）: 15,400円/月',
+      'プライベート月4: 38,280円/月',
+    ],
+    userProfile: {
+      ageRange: '20代〜60代まで幅広い',
+      genderRatio: '女性70% / 男性30%',
+      purpose: ['運動不足解消', '腰痛・肩こり改善', '自律神経の調整', 'パフォーマンス向上'],
+    },
+    basicInfo: {
+      hours: '平日 8:00-21:30 / 土日祝 8:00-18:00',
+      closed: '不定休',
+      facilities: ['ロッカー', '更衣室（男女別）', 'ウォーターサーバー'],
+    },
+  },
+  {
+    name: 'Rintosull 高田馬場店',
+    image: '/images/pilates4.jpg',
+    rating: 4.5,
+    reviewCount: 95,
+    reviews: [
+      {
+        author: 'A.K',
+        rating: 5,
+        date: '1週間前',
+        text: 'LAVAから生まれたマシンピラティス専門スタジオ。女性専用なので安心して通えます。高田馬場駅から徒歩3分で通いやすいです。',
+      },
+      {
+        author: 'M.T',
+        rating: 4,
+        date: '2週間前',
+        text: '目的に合わせた多彩なプログラムが用意されています。初心者向けから上級者向けまであるので、レベルに合わせて選べます。',
+      },
+      {
+        author: 'R.S',
+        rating: 5,
+        date: '3週間前',
+        text: 'インストラクターの質が高く、丁寧に指導してくれます。音楽に合わせて動くので楽しく続けられます。',
+      },
+    ],
+    price: '月4回プランあり',
+    trial: '体験レッスンあり',
+    features: ['女性専用', 'LAVAグループ', '高田馬場駅3分', '多彩なプログラム'],
+    description: 'ホットヨガスタジオLAVAから生まれたマシンピラティス専門スタジオ。高田馬場駅徒歩3分の女性専用スタジオ。目的に合わせた多彩なプログラムをご用意。専用のマシン（リフォーマー）使用し、効率よく体幹を鍛え、身体の柔軟性アップを促すエクササイズ。気になる部位・お悩み部分にピンポイントで効果的に効かせることができます。',
+    access: '高田馬場駅徒歩3分',
+    address: '東京都新宿区高田馬場（詳細住所は公式サイト参照）',
+    popularPlan: {
+      name: '月4回プラン',
+      description: '月4回のグループレッスン。女性専用で安心',
+      price: '詳細は公式サイト参照',
+    },
+    options: [
+      '月8回プラン',
+      '通い放題プラン',
+      'プライベートレッスン',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性専用',
+      purpose: ['ボディメイク', '姿勢改善', '運動不足解消', 'リラックス'],
+    },
+    basicInfo: {
+      hours: '詳細は公式サイト参照',
+      closed: '不定休',
+      facilities: ['ロッカー', '更衣室', 'パウダールーム'],
+    },
+  },
+  {
+    name: 'Rintosull 新宿西口駅前店',
+    image: '/images/pilates5.jpg',
+    rating: 4.4,
+    reviewCount: 88,
+    reviews: [
       {
         author: 'S.N',
         rating: 5,
         date: '2週間前',
-        text: 'グループレッスンですが丁寧に見てくれます。暗闇なので初心者でも恥ずかしくない。2ヶ月で体が引き締まってきました。',
+        text: '新宿西口駅の目の前で便利。LAVAグループなので安心感があります。女性専用で通いやすいです。',
+      },
+      {
+        author: 'K.Y',
+        rating: 4,
+        date: '3週間前',
+        text: 'マシンピラティス初心者ですが、丁寧に教えてもらえるので安心。音楽に合わせて動くのが楽しいです。',
+      },
+      {
+        author: 'H.M',
+        rating: 4,
+        date: '1ヶ月前',
+        text: '駅近で仕事帰りに通いやすい。スタジオも清潔で気持ちよくレッスンできます。',
       },
     ],
-    price: '月4回 15,070円〜',
-    trial: '無料体験レッスン',
-    features: ['音楽×マシン', '女性専用', '暗闇レッスン', 'グループレッスン'],
-    description: '音楽に合わせて楽しくボディメイク。女性専用スタジオで安心。新大久保駅から徒歩5分。暗闇×音楽×マシンピラティスの融合レッスンが人気。周りの目を気にせず集中できる環境で、楽しみながら理想のボディラインを手に入れられます。',
-    access: '新大久保駅から徒歩5分',
-    address: '大阪府大阪市中央区新大久保5-1-60 新大久保スカイオ 5F',
+    price: '月4回プランあり',
+    trial: '体験レッスンあり',
+    features: ['女性専用', '新宿西口駅前', 'LAVAグループ', '駅近'],
+    description: 'ホットヨガスタジオLAVAから生まれたマシンピラティス専門スタジオ。新宿西口駅前の好立地で通いやすい。女性専用スタジオで安心して通えます。全国に続々スタジオ拡大中の人気スタジオ。専用のマシン（リフォーマー）を使用し、効率よく体幹を鍛え、身体の柔軟性アップを促します。',
+    access: '新宿西口駅前',
+    address: '東京都新宿区西新宿（詳細住所は公式サイト参照）',
     popularPlan: {
-      name: 'マンスリー4メンバー',
-      description: '暗闇×音楽×マシンピラティスの融合レッスン。楽しく続けられると人気のプラン。',
-      price: '月4回 15,070円（税込）',
+      name: '月4回プラン',
+      description: '月4回のグループレッスン。女性専用',
+      price: '詳細は公式サイト参照',
     },
     options: [
-      '追加レッスンチケット（1回 4,400円）',
-      '通い放題プラン変更（月額 22,000円〜）',
-      'ウェア・タオルセット（月額 2,200円）',
-      'ドリンクサービス（月額 1,100円）',
+      '月8回プラン',
+      '通い放題プラン',
+      'プライベートレッスン',
     ],
     userProfile: {
-      ageRange: '20代〜30代が中心（全体の85%）',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['楽しく痩せたい', 'ストレス発散', 'ボディメイク', '仲間と運動'],
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性専用',
+      purpose: ['ボディメイク', '姿勢改善', '運動不足解消'],
     },
     basicInfo: {
-      hours: '平日 10:00〜22:00 / 土日祝 10:00〜20:00',
+      hours: '詳細は公式サイト参照',
       closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', '暗闇スタジオ', '女性専用'],
+      facilities: ['ロッカー', '更衣室', 'パウダールーム'],
     },
   },
   {
-    name: 'the SILK 新大久保',
-    image: '/images/pilates2.jpg',
-    rating: 4.8,
-    price: '月4回 15,070円〜',
-    trial: '体験レッスン 無料',
-    features: ['暗闇マシン', '音楽', '新大久保駅近', '女性専用'],
-    description: 'マシンピラティス特化型スタジオ。暗闇×音楽で没入感のあるレッスン。新大久保駅から徒歩2分の好アクセス。最新のリフォーマーマシンを完備し、音楽に合わせた独自プログラムで楽しくトレーニング。女性専用で初心者も安心。',
-    access: '新大久保駅から徒歩2分',
-  },
-  {
-    name: 'CLUB PILATES 新大久保',
-    image: '/images/pilates3.jpg',
-    rating: 4.7,
-    price: '月4回 14,190円〜',
-    trial: '体験レッスン 無料',
-    features: ['アメリカ発', 'グループ&プライベート', '新大久保駅近', '初心者歓迎'],
-    description: 'アメリカ発の世界最大級ピラティススタジオチェーン。新大久保駅から徒歩3分。グループレッスンからプライベートレッスンまで幅広く対応。全米No.1のピラティスメソッドで、初心者から上級者まで満足できるプログラムを提供。',
-    access: '新大久保駅から徒歩3分',
-  },
-  {
-    name: 'ピラティススタジオ B-line 新大久保',
-    image: '/images/pilates4.jpg',
-    rating: 4.9,
-    price: '1回 8,800円〜',
-    trial: '体験レッスン 5,500円',
-    features: ['完全プライベート', 'マシン完備', '新大久保駅近', 'オーダーメイド'],
-    description: '完全プライベートレッスン専門スタジオ。新大久保駅から徒歩4分。一人ひとりの目的・体力に合わせたオーダーメイドレッスン。経験豊富なインストラクターがマンツーマンで指導するので、短期間で効果を実感できます。',
-    access: '新大久保駅から徒歩4分',
-  },
-  {
-    name: 'Reformer Pilates ShinOkubo',
-    image: '/images/pilates2.jpg',
-    rating: 4.7,
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['リフォーマー専門', '少人数制', '新大久保', '初心者歓迎'],
-    description: 'リフォーマー専門のピラティススタジオ。新大久保エリアに展開。少人数制で丁寧な指導が魅力。最新のリフォーマーマシンを使用した効果的なトレーニングで、姿勢改善やボディメイクを実現します。',
-    access: '新大久保駅から徒歩5分',
-  },
-  {
-    name: 'Urban Pilates 新大久保',
-    image: '/images/pilates3.jpg',
+    name: 'zen place pilates 新宿（西口）',
+    image: '/images/pilates6.jpg',
     rating: 4.6,
-    price: '月額 16,500円（通い放題）',
-    trial: '体験レッスン 無料',
-    features: ['24時間営業', '新大久保駅近', '通い放題', 'マシン完備'],
-    description: '24時間営業のピラティススタジオ。新大久保駅から徒歩1分の好立地。早朝・深夜でも利用可能なので、忙しい方にも最適。月額定額で通い放題プランあり。最新マシンを完備し、自分のペースでトレーニングできます。',
-    access: '新大久保駅から徒歩1分',
-  },
-  {
-    name: 'Pilates Studio M 新大久保',
-    image: '/images/pilates4.jpg',
-    rating: 4.8,
-    price: '月4回 12,980円〜',
+    reviewCount: 156,
+    reviews: [
+      {
+        author: 'E.T',
+        rating: 5,
+        date: '2週間前',
+        text: '新宿西口駅から徒歩2分で通いやすい。全国150店舗相互利用できるので、出張先でも通えて便利です。',
+      },
+      {
+        author: 'M.I',
+        rating: 4,
+        date: '3週間前',
+        text: '少人数制で丁寧に見てもらえます。マットとマシン両方受講できるプランがあるのが良いです。',
+      },
+      {
+        author: 'Y.K',
+        rating: 5,
+        date: '1ヶ月前',
+        text: 'ベテランインストラクターが多く、質の高いレッスンが受けられます。男女共用なので夫婦で通っています。',
+      },
+    ],
+    price: '月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
-    features: ['女性専用', '少人数制', '新大久保', 'マット&マシン'],
-    description: '女性専用・少人数制のアットホームなスタジオ。新大久保エリアに展開。マットピラティスとマシンピラティスの両方に対応。インストラクターとの距離が近く、丁寧な指導を受けられるのが魅力。初心者でも安心して通えます。',
-    access: '新大久保駅から徒歩7分',
+    features: ['男女共用', '少人数制', '新宿西口駅2分', '全国150店舗相互利用'],
+    description: '全国展開の大手ピラティススタジオ。地下鉄大江戸線新宿西口駅D5出口から徒歩約2分、JR新宿駅西口から徒歩約7分。マットグループ、マシン（リフォーマー）グループ、プライベートのレッスンがあり、男性もOK。医療機関も推奨している、大人の方にこそ受けてほしいzen placeのレッスンでいつまでもアクティブに人生を愉しめます。',
+    access: '地下鉄大江戸線「新宿西口駅」D5出口徒歩約2分、JR「新宿駅」西口徒歩約7分',
+    address: '東京都新宿区西新宿（詳細住所は公式サイト参照）',
+    popularPlan: {
+      name: 'マットグループ月4',
+      description: 'マットグループレッスン月4回。全国150店舗どこでも受講可能',
+      price: '10,450円/月（税込）',
+    },
+    options: [
+      'フリープラン（回数無制限）: 16,940円/月',
+      'デイフリー（平日昼のみ無制限）: 13,552円/月',
+      'マットグループ月6: 14,520円/月',
+      'リフォーマーグループRG4（月4回）: 15,400円/月',
+      'プライベート月4: 38,280円/月',
+    ],
+    userProfile: {
+      ageRange: '20代〜60代まで幅広い',
+      genderRatio: '女性70% / 男性30%',
+      purpose: ['運動不足解消', '腰痛・肩こり改善', '姿勢改善', '健康維持'],
+    },
+    basicInfo: {
+      hours: '詳細は公式サイト参照',
+      closed: '不定休',
+      facilities: ['ロッカー', '更衣室（男女別）', 'ウォーターサーバー'],
+    },
   },
   {
-    name: 'BDC PILATES 新大久保',
-    image: '/images/pilates2.jpg',
+    name: 'zen place pilates 新宿南口',
+    image: '/images/pilates7.jpg',
     rating: 4.7,
-    price: '1回 3,850円〜',
-    trial: '体験レッスン 2,200円',
-    features: ['ダンサー御用達', 'グループレッスン', '新大久保駅近', '本格的'],
-    description: 'ダンサー御用達の本格的なピラティススタジオ。新大久保駅から徒歩5分。ダンサーやアスリートも通う質の高いレッスンが特徴。身体の使い方を根本から学べる本格的なプログラムで、美しい姿勢と柔軟な身体を手に入れられます。',
-    access: '新大久保駅から徒歩5分',
-  },
-  {
-    name: 'Pilates Lab 新大久保',
-    image: '/images/pilates3.jpg',
-    rating: 4.9,
-    price: '月4回 14,300円〜',
-    trial: '体験レッスン 3,300円',
-    features: ['理学療法士監修', 'リハビリ対応', '新大久保駅近', 'プライベート'],
-    description: '理学療法士監修のピラティススタジオ。新大久保駅から徒歩3分。リハビリテーションの知識を活かした安全で効果的なレッスン。腰痛や肩こりなどの身体の不調改善にも対応。医学的根拠に基づいたトレーニングで健康的な身体づくりを実現。',
-    access: '新大久保駅から徒歩3分',
-  },
-  {
-    name: 'FLOW PILATES 新大久保',
-    image: '/images/pilates4.jpg',
-    rating: 4.6,
-    price: '月4回 13,200円〜',
+    reviewCount: 178,
+    reviews: [
+      {
+        author: 'N.A',
+        rating: 5,
+        date: '1週間前',
+        text: '新宿三丁目駅から徒歩1分で超便利。新宿駅からも徒歩3分で通えます。全国150店舗相互利用できるのが魅力です。',
+      },
+      {
+        author: 'T.M',
+        rating: 4,
+        date: '2週間前',
+        text: '少人数制なので、一人ひとり丁寧に見てもらえます。マシンの種類も豊富で、レベルに合わせて選べます。',
+      },
+      {
+        author: 'K.S',
+        rating: 5,
+        date: '3週間前',
+        text: '男女共用なので家族で通っています。ベテランインストラクターが多く、質の高いレッスンが受けられます。',
+      },
+    ],
+    price: '月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
-    features: ['ヨガ×ピラティス', 'リラックス', '新大久保', '初心者歓迎'],
-    description: 'ヨガとピラティスの融合スタジオ。新大久保エリアに展開。心と身体の両方を整えるプログラムが人気。ヨガの呼吸法とピラティスのコアトレーニングを組み合わせた独自メソッドで、柔軟性と筋力を同時に向上させます。',
-    access: '新大久保駅から徒歩4分',
+    features: ['男女共用', '少人数制', '新宿三丁目駅1分', '全国150店舗相互利用'],
+    description: '全国展開の大手ピラティススタジオ。東京メトロ丸の内・副都心・都営新宿線新宿三丁目駅E6出口から徒歩1分、JR各線新宿駅ミライナタワー改札から徒歩3分。マットグループ、マシン（リフォーマー）グループ、プライベートのレッスンがあり、男性もOK。医療機関も推奨している、質の高いレッスンでいつまでもアクティブに人生を愉しめます。',
+    access: '東京メトロ丸の内・副都心・都営新宿線「新宿三丁目駅」E6出口徒歩1分、JR各線「新宿駅」ミライナタワー改札徒歩3分',
+    address: '東京都新宿区新宿（詳細住所は公式サイト参照）',
+    popularPlan: {
+      name: 'マットグループ月4',
+      description: 'マットグループレッスン月4回。全国150店舗どこでも受講可能',
+      price: '10,450円/月（税込）',
+    },
+    options: [
+      'フリープラン（回数無制限）: 16,940円/月',
+      'デイフリー（平日昼のみ無制限）: 13,552円/月',
+      'マットグループ月6: 14,520円/月',
+      'リフォーマーグループRG4（月4回）: 15,400円/月',
+      'プライベート月4: 38,280円/月',
+    ],
+    userProfile: {
+      ageRange: '20代〜60代まで幅広い',
+      genderRatio: '女性70% / 男性30%',
+      purpose: ['運動不足解消', '姿勢改善', '健康維持', 'リフレッシュ'],
+    },
+    basicInfo: {
+      hours: '詳細は公式サイト参照',
+      closed: '不定休',
+      facilities: ['ロッカー', '更衣室（男女別）', 'ウォーターサーバー'],
+    },
   },
   {
-    name: 'Body Make Studio Pilates+ 新大久保',
-    image: '/images/pilates2.jpg',
-    rating: 4.7,
-    price: '月4回 14,850円〜',
-    trial: '体験レッスン 1,500円',
-    features: ['ボディメイク特化', 'マシン完備', '新大久保駅近', 'パーソナル'],
-    description: 'ボディメイク特化型のピラティススタジオ。新大久保駅から徒歩4分。ダイエットや引き締めに特化したプログラムが充実。最新マシンとパーソナルトレーニングで、短期間での理想のボディラインを目指せます。',
-    access: '新大久保駅から徒歩4分',
-  },
-  {
-    name: 'Pilates Studio Harmony 新大久保',
-    image: '/images/pilates3.jpg',
-    rating: 4.8,
-    price: '月4回 12,100円〜',
-    trial: '体験レッスン 無料',
-    features: ['アットホーム', '少人数制', '新大久保', 'マット中心'],
-    description: 'アットホームな雰囲気の少人数制スタジオ。新大久保エリアに展開。マットピラティスを中心に、初心者でも無理なく始められるプログラムを提供。インストラクターとの距離が近く、質問しやすい環境が魅力です。',
-    access: '新大久保駅から徒歩8分',
-  },
-  {
-    name: 'Pilates & Wellness 新大久保',
-    image: '/images/pilates4.jpg',
-    rating: 4.6,
-    price: '月4回 13,750円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['ウェルネス', 'マインドフルネス', '新大久保駅近', '女性専用'],
-    description: 'ウェルネス志向のピラティススタジオ。新大久保駅から徒歩5分。ピラティスにマインドフルネスを取り入れた独自プログラム。ミナミの中心・新大久保で、ストレス解消や心身のバランスを整えられます。女性専用で安心。',
-    access: '新大久保駅から徒歩5分',
+    name: 'CLUB PILATES 西新宿店',
+    image: '/images/pilates8.jpg',
+    rating: 4.5,
+    reviewCount: 102,
+    reviews: [
+      {
+        author: 'L.K',
+        rating: 5,
+        date: '2週間前',
+        text: '世界最大級のピラティススタジオ。15種類もの機器を使用したレッスンが受けられます。初心者から上級者まで幅広く対応しています。',
+      },
+      {
+        author: 'F.H',
+        rating: 4,
+        date: '3週間前',
+        text: '最大12名までの少人数制なので、丁寧に見てもらえます。リフォーマーだけでなく、様々な機器を使えるのが魅力です。',
+      },
+      {
+        author: 'M.Y',
+        rating: 5,
+        date: '1ヶ月前',
+        text: '本格的なマシンピラティスが学べます。世界800店舗以上展開しているので信頼できます。',
+      },
+    ],
+    price: '詳細は公式サイト参照',
+    trial: '体験レッスンあり',
+    features: ['世界最大級', '15種類の機器', '少人数制', '初心者〜上級者対応'],
+    description: '世界各国で800店舗以上展開している、世界最大級のピラティススタジオ。初心者から上級者まで幅広いレベルに対応できるプログラムで、未経験でもステップアップしながら通えます。リフォーマーだけでなく、15種類もの機器を使用した本格的なマシンピラティスが体験できます。最大12名までの少人数制で丁寧な指導が受けられます。',
+    access: '西新宿駅より徒歩圏内',
+    address: '東京都新宿区西新宿（詳細住所は公式サイト参照）',
+    popularPlan: {
+      name: 'グループレッスン',
+      description: '最大12名までの少人数制。15種類の機器を使用',
+      price: '詳細は公式サイト参照',
+    },
+    options: [
+      '月4回プラン',
+      '月8回プラン',
+      '通い放題プラン',
+      'プライベートレッスン',
+    ],
+    userProfile: {
+      ageRange: '20代〜50代が中心',
+      genderRatio: '女性70% / 男性30%',
+      purpose: ['本格的なピラティス', '筋力強化', '柔軟性向上', 'パフォーマンス向上'],
+    },
+    basicInfo: {
+      hours: '詳細は公式サイト参照',
+      closed: '不定休',
+      facilities: ['ロッカー', '更衣室', 'シャワー'],
+    },
   },
 ]
 
-const faqs = [
-  {
-    question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！新大久保エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。経験豊富なインストラクターが基礎から丁寧に指導してくれるので、運動が苦手な方でも安心して始められますよ。',
-  },
-  {
-    question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。マットは場所を選ばず自宅でも続けやすいのが特徴です。',
-  },
-  {
-    question: '新大久保のピラティススタジオの料金相場は？',
-    answer: '新大久保エリアのピラティススタジオの料金相場は、月4回で12,000円〜16,000円程度。体験レッスンは無料〜3,000円が一般的です。プライベートレッスンは1回8,000円〜12,000円が相場となっています。',
-  },
-  {
-    question: 'どのくらいの頻度で通えばいいですか？',
-    answer: 'ピラティス初心者は週1-2回（月4-8回）がおすすめ。慣れてきたら週2-3回に増やすと効果を実感しやすくなります。大切なのは継続すること。無理のないペースで長く続けることが、理想の身体を手に入れる近道です。',
-  },
-  {
-    question: 'ピラティスで痩せますか？',
-    answer: 'はい、ピラティスはダイエット効果があります。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に。ただし即効性はないので、最低でも2-3ヶ月は継続することが大切。食事管理も並行するとより効果的です。',
-  },
-  {
-    question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内で確認してくださいね。',
-  },
-  {
-    question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。ピラティスは筋力強化、ヨガは心身のバランスを整えることが主な目的。どちらも素晴らしいエクササイズなので、目的に合わせて選びましょう。',
-  },
-  {
-    question: 'ピラティスで肩こりや腰痛は改善しますか？',
-    answer: 'はい、改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。デスクワークが多い方や立ち仕事の方にもおすすめです。',
-  },
-  {
-    question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: 'ピラティスで効果が表れだすのは「2ヶ月を過ぎた頃」から。これは人間の細胞が生まれ変わるサイクルがそのくらいだからです。すぐに変化が表れなくても心配せず、最低でも2ヶ月は継続するのがおすすめです。',
-  },
-  {
-    question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'それぞれ良さがあります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方におすすめ。グループは料金が安く、仲間と楽しく続けられるのが魅力。まずは体験で両方試してみるのがいいですよ。',
-  },
-]
-
-export default function ShinOkuboPage() {
+export default function ShinOkuboAreaPage() {
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
+      <Script
+        id="structured-data"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'ItemList',
+            itemListElement: studios.map((studio, index) => ({
+              '@type': 'ListItem',
+              position: index + 1,
+              item: {
+                '@type': 'LocalBusiness',
+                name: studio.name,
+                address: studio.address,
+                aggregateRating: {
+                  '@type': 'AggregateRating',
+                  ratingValue: studio.rating,
+                  reviewCount: studio.reviewCount,
+                },
+              },
+            })),
+          }),
+        }}
+      />
       <Navigation />
-
-      <main className="pt-20 bg-white">
-        {/* Hero Section */}
-        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
-          <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月04日</p>
-            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス新大久保おすすめ15選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+      <main className="flex-grow bg-gradient-to-b from-purple-50 to-white">
+        <div className="max-w-6xl mx-auto px-4 py-12">
+          <div className="text-center mb-12">
+            <h1 className="text-4xl font-bold text-gray-900 mb-4">
+              新大久保・新宿エリアのピラティススタジオ
             </h1>
+            <p className="text-lg text-gray-600 mb-6">
+              新大久保駅から1駅の新宿・高田馬場エリアを中心に、実在する人気ピラティススタジオ8選を厳選してご紹介します
+            </p>
+            <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-500">
+              <span className="flex items-center">
+                <svg className="w-5 h-5 mr-1 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    fillRule="evenodd"
+                    d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+                JR山手線 新大久保駅・新宿駅・高田馬場駅周辺
+              </span>
+              <span className="flex items-center">
+                <svg className="w-5 h-5 mr-1 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z" />
+                </svg>
+                体験レッスンあり
+              </span>
+              <span className="flex items-center">
+                <svg className="w-5 h-5 mr-1 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z" />
+                  <path
+                    fillRule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+                月額 10,450円〜
+              </span>
+            </div>
           </div>
-        </section>
 
-        {/* Breadcrumbs */}
-        <section className="bg-white py-3 border-b border-warm-100">
-          <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <nav className="text-sm text-warm-400">
-              <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
-              {' > '}
-              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
-              {' > '}
-              <span className="text-warm-600">新大久保</span>
-            </nav>
+          <div className="mb-8 p-6 bg-blue-50 rounded-lg border border-blue-200">
+            <h2 className="text-xl font-semibold text-blue-900 mb-3">新大久保エリアについて</h2>
+            <p className="text-blue-800 leading-relaxed">
+              新大久保駅周辺には専門ピラティススタジオが少ないため、JR山手線で1駅の新宿駅・高田馬場駅周辺の実在スタジオを中心にご紹介しています。新宿駅は日本最大のターミナル駅で、女性専用の音楽×マシンピラティスの「the SILK」「ピラティスK」や、全国展開の「zen place pilates」など多彩なスタジオが揃っています。高田馬場駅からも徒歩1〜3分の好立地で通いやすいスタジオが充実。新大久保駅からは各駅わずか1駅（2〜3分）で、乗り換えなしでアクセス可能です。
+            </p>
           </div>
-        </section>
 
-        {/* Introduction */}
-        <section className="py-12 bg-white">
-          <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates Navi編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「新大久保で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、新大久保エリアでおすすめのピラティススタジオ15選をまとめました。
-            </p>
-            <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
-              <ul className="space-y-2 text-warm-700">
-                <li className="flex items-start">
-                  <span className="text-warm-400 mr-2">✓</span>
-                  <span>新大久保でピラティススタジオを探している</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-warm-400 mr-2">✓</span>
-                  <span>マシンピラティスを体験してみたい</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-warm-400 mr-2">✓</span>
-                  <span>体験レッスンが安いスタジオを知りたい</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-warm-400 mr-2">✓</span>
-                  <span>道頓堀・心斎橋に近いスタジオがいい</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-warm-400 mr-2">✓</span>
-                  <span>料金プランを比較したい</span>
-                </li>
+          <div className="grid gap-8 md:grid-cols-1">
+            {studios.map((studio, index) => (
+              <StudioCard key={index} studio={studio} rank={index + 1} />
+            ))}
+          </div>
+
+          <div className="mt-12 p-6 bg-purple-50 rounded-lg">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">新大久保・新宿エリアでピラティスを始めよう</h2>
+            <div className="prose max-w-none text-gray-700">
+              <p className="mb-4">
+                新大久保駅周辺は専門ピラティススタジオは少ないものの、JR山手線で1駅の新宿駅・高田馬場駅周辺に多数の実在スタジオが集中しています。新大久保駅からは各駅わずか1駅（2〜3分）、乗り換えなしでアクセス可能な好立地です。
+              </p>
+              <h3 className="text-xl font-semibold mb-2">エリアの特徴</h3>
+              <ul className="list-disc list-inside mb-4 space-y-2">
+                <li>新宿駅：日本最大のターミナル駅、女性専用スタジオ「the SILK」「ピラティスK」など充実</li>
+                <li>高田馬場駅：駅徒歩1〜3分の好立地スタジオが多数、「zen place pilates」「Rintosull」など</li>
+                <li>新大久保駅から各駅1駅（2〜3分）で乗り換えなしアクセス</li>
+                <li>体験レッスン無料〜1,000円で気軽に始められる</li>
+                <li>全国展開の大手から女性専用まで、多彩なスタジオが選べる</li>
               </ul>
-            </div>
-            <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
-            </p>
-          </div>
-        </section>
-
-        {/* Studios List */}
-        <section className="py-16 bg-warm-50" id="studios">
-          <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              新大久保のおすすめピラティススタジオ15選
-            </h2>
-            <div className="space-y-8">
-              {studios.map((studio, index) => (
-                <StudioCard key={index} studio={studio} index={index} />
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Search by Preference */}
-        <section className="py-16 bg-white">
-          <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              こだわりから探す
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
-                <p className="text-warm-600 text-sm mb-4">
-                  月額12,000円以下で通える格安スタジオ。体験レッスン無料のスタジオも多数。コスパ重視の方におすすめ。
-                </p>
-                <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Pilates Studio Harmony 新大久保</li>
-                  <li className="text-warm-700">• Reformer Pilates ShinOkubo</li>
-                  <li className="text-warm-700">• FLOW PILATES 新大久保</li>
-                </ul>
-              </div>
-              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">マシン完備</h3>
-                <p className="text-warm-600 text-sm mb-4">
-                  最新のリフォーマーマシンを完備。マシンピラティスを本格的に学びたい方におすすめ。
-                </p>
-                <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates 新大久保</li>
-                  <li className="text-warm-700">• WECLE 新大久保</li>
-                  <li className="text-warm-700">• the SILK 新大久保</li>
-                </ul>
-              </div>
-              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・ミナミの中心</h3>
-                <p className="text-warm-600 text-sm mb-4">
-                  新大久保駅から徒歩3分以内。韓国料理店・雑貨店多数、若者・外国人観光客し、ショッピングや食事も楽しめる。
-                </p>
-                <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Urban Pilates 新大久保（駅徒歩1分）</li>
-                  <li className="text-warm-700">• the SILK 新大久保（駅徒歩2分）</li>
-                  <li className="text-warm-700">• zen place pilates 新大久保（駅徒歩3分）</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Frequency Guide */}
-        <section className="py-16 bg-warm-50">
-          <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              おすすめの期間・頻度
-            </h2>
-            <div className="bg-white rounded-lg p-8 border border-warm-200">
-              <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
-              <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回（月4-8回）からスタートするのがおすすめ。まずは身体を慣らすことが大切です。継続期間は最低でも2-3ヶ月。この期間で効果を実感できる方が多いですよ。
+              <h3 className="text-xl font-semibold mb-2">料金相場</h3>
+              <p className="mb-4">
+                月4回で10,450円〜22,280円が相場。zen place pilatesは月4回10,450円〜、the SILKは月4回15,280円、ピラティスKは月4回13,420円と、スタジオによって料金体系が異なります。体験レッスンは無料〜1,000円で受けられるスタジオが多いので、まずは気軽に体験してみることをおすすめします。
               </p>
-              <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
-              <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回（月8-12回）がおすすめ。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3-6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。
-              </p>
-              <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理が目的の方</h3>
-              <p className="text-warm-600 leading-relaxed">
-                週1回（月4回）のペースで継続するのがおすすめ。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切。自分のペースで楽しく通えるのが一番ですよ。
+              <h3 className="text-xl font-semibold mb-2">アクセス</h3>
+              <p>
+                新大久保駅からJR山手線で新宿駅まで1駅（2分）、高田馬場駅まで1駅（3分）。各スタジオは駅から徒歩1〜5分の好立地で、仕事帰りや買い物ついでに通いやすい環境です。新宿駅は複数路線が乗り入れる日本最大のターミナル駅なので、都内各地からのアクセスも便利です。
               </p>
             </div>
           </div>
-        </section>
 
-        {/* Price Guide */}
-        <section className="py-16 bg-white">
-          <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              予算別の料金相場
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜12,000円</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。初心者向けの基本的なレッスンが多い。
-                </p>
-                <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Pilates Studio Harmony</li>
-                  <li>• Reformer Pilates</li>
-                </ul>
-              </div>
-              <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
-                <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 12,000〜16,000円</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">
-                  マシン完備の大手スタジオ。グループ・プライベート選択可。
-                </p>
-                <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates</li>
-                  <li>• ピラティスK</li>
-                  <li>• the SILK</li>
-                </ul>
-              </div>
-              <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 30,000円〜</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">
-                  完全プライベートレッスン。短期集中で結果を出したい方向け。
-                </p>
-                <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• B-line（1回8,800円）</li>
-                  <li>• Pilates Lab</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* How to Choose */}
-        <section className="py-16 bg-warm-50">
-          <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              失敗しないピラティススタジオの選び方
-            </h2>
-            <div className="space-y-8">
-              <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <div className="flex items-center mb-4">
-                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span>
-                  <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
-                </div>
-                <p className="text-warm-600 leading-relaxed">
-                  まずは自分がピラティスで何を達成したいのかを明確にしましょう。ダイエット、姿勢改善、体幹強化、リラックスなど、目的によって最適なスタジオやプログラムは変わります。目的が明確だとスタジオ選びもスムーズになりますよ。
-                </p>
-              </div>
-              <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <div className="flex items-center mb-4">
-                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span>
-                  <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
-                </div>
-                <p className="text-warm-600 leading-relaxed">
-                  新大久保エリアの料金相場は月4回で12,000円〜16,000円程度。無理なく継続できる予算を決めましょう。料金だけでなく、入会金、マット・ウェアのレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
-                </p>
-              </div>
-              <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <div className="flex items-center mb-4">
-                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span>
-                  <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
-                </div>
-                <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。多くのスタジオが無料〜1,000円程度で体験レッスンを提供しているので、気軽に試してみてくださいね。
-                </p>
-              </div>
-              <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <div className="flex items-center mb-4">
-                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span>
-                  <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
-                </div>
-                <p className="text-warm-600 leading-relaxed">
-                  どんなに良いスタジオでも、通いにくい場所にあると続きません。新大久保はミナミの中心で、JR山手線が利用可能。コリアンタウンです。駅から近い場所を選ぶと、道頓堀・心斎橋でのショッピングや食事ついでにも通えて便利ですよ。
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* FAQ */}
-        <section className="py-16 bg-white">
-          <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              よくある質問
-            </h2>
-            <div className="space-y-6">
-              {faqs.map((faq, index) => (
-                <div key={index} className="border border-warm-200 rounded-lg overflow-hidden">
-                  <details className="group">
-                    <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition">
-                      <h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3>
-                      <svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"/>
-                      </svg>
-                    </summary>
-                    <div className="px-6 pb-6 text-warm-600 leading-relaxed">
-                      {faq.answer}
-                    </div>
-                  </details>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Summary */}
-        <section className="py-16 bg-warm-50">
-          <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">
-              まとめ
-            </h2>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              今回は新大久保のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では新大久保に数多くあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
-            </p>
-            <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
-            </p>
-          </div>
-        </section>
-
-        {/* CTA */}
-        <section className="py-16 bg-warm-800 text-white" id="contact">
-          <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
-            </h2>
-            <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜1,000円。<br />
-              まずは気軽に体験してみましょう。
-            </p>
-            <Link 
-              href="/#studios" 
-              className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded"
+          <div className="mt-8 text-center">
+            <Link
+              href="/"
+              className="inline-block bg-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors"
             >
-              おすすめスタジオ一覧に戻る
+              他のエリアを見る
             </Link>
           </div>
-        </section>
+        </div>
       </main>
-
       <SiteFooter />
-      <Script src="https://unpkg.com/lucide@latest" strategy="lazyOnload" />
-    </>
+    </div>
   )
 }
