@@ -5,865 +5,643 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】ピラティス東京おすすめ15選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
-  description: '東京エリアのおすすめピラティススタジオ15選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026最新】東京のピラティススタジオおすすめ8選｜料金・体験レッスン徹底比較',
+  description: '東京都のおすすめピラティススタジオ8選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
 const studios = [
   {
-    name: 'zen place pilates 東京スタジオ',
+    name: 'zen place pilates',
     image: '/images/pilates2.jpg',
-    rating: 4.2,
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['マシン完備', '初心者歓迎', '東京駅直結', 'インストラクター養成'],
-    description: '全国展開の大手ピラティススタジオ。東京駅直結で通いやすい。マットピラティスからマシンピラティスまで豊富なレッスンメニュー。初心者からインストラクター養成まで幅広く対応。経験豊富なインストラクターが一人ひとりに合わせた丁寧な指導を提供します。',
-    access: '東京駅直結',
-    address: '北海道東京市中央区北5条西2-5 JRタワーオフィスプラザさっぽろ 8F',
+    rating: 4.3,
+    price: '月4回 9,625円〜',
+    trial: '体験レッスン あり',
+    features: ['全国150店舗', 'マット＆マシン', '男性OK', '全店相互利用可'],
+    description: '全国150店舗以上を展開する日本最大級のピラティススタジオ。22年の実績と累計500万回以上のレッスン提供。マットグループ、マシングループ、プライベートレッスンと多彩なプログラム。全店舗相互利用可能で、自宅近くや職場近くなど生活シーンに合わせて自由に利用できます。医療機関も推奨する高品質なレッスンを提供。',
+    access: '東京都内に多数展開',
+    address: '東京都内（詳細は公式サイト参照）',
     popularPlan: {
-      name: 'フリープラン（月4回）',
-      description: 'マット・マシンどちらも受講可能な人気プラン。初心者から経験者まで幅広く対応。',
-      price: '月4回 13,200円（税込）',
+      name: 'マットグループ 月4',
+      description: 'マットピラティスのグループレッスン。初心者にもおすすめの基本プラン。',
+      price: '月4回 9,625円（税込）',
     },
     options: [
-      'プライベートレッスン追加（1回 9,900円〜）',
-      'ウェアレンタル（月額 2,200円）',
-      'タオルレンタル（月額 1,100円）',
-      'インストラクター養成コース（別途）',
+      'フリープラン（通い放題 14,960円）',
+      'マット＆マシングループ MM22（各2回 12,650円）',
+      'リフォーマーグループ RG4（月4回 15,400円）',
+      'プライベートレッスン（月4回 33,880円）',
     ],
     userProfile: {
-      ageRange: '20代〜50代が中心（全体の80%）',
-      genderRatio: '女性90% / 男性10%',
-      purpose: ['姿勢改善', 'ダイエット', '体幹強化', 'インストラクター養成'],
+      ageRange: '20代〜60代まで幅広い',
+      genderRatio: '女性85% / 男性15%',
+      purpose: ['姿勢改善', '体幹強化', 'ボディメイク', 'リハビリ'],
     },
     basicInfo: {
-      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
-      closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'ウォーターサーバー'],
+      hours: '店舗により異なる（早朝〜夜まで開催）',
+      closed: '店舗により異なる',
+      facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', 'マシン完備', '男女共用'],
     },
   },
   {
-    name: 'ピラティスK 東京',
+    name: 'ピラティスK',
     image: '/images/pilates3.jpg',
     rating: 4.0,
-    price: '月4回 15,070円〜',
+    price: '月4回 13,420円〜',
     trial: '無料体験レッスン',
-    features: ['音楽×マシン', '女性専用', '暗闇レッスン', 'グループレッスン'],
-    description: '音楽に合わせて楽しくボディメイク。女性専用スタジオで安心。渋谷駅から徒歩3分。暗闇×音楽×マシンピラティスの融合レッスンが人気。周りの目を気にせず集中できる環境で、楽しみながら理想のボディラインを手に入れられます。',
-    access: '渋谷駅から徒歩3分',
-    address: '北海道東京市中央区南1条西3-8-20 メットライフ東京プラザ 5F',
+    features: ['音楽×マシン', '女性専用', '暗闇レッスン', '東京都内多数'],
+    description: '音楽に合わせて楽しくボディメイク。女性専用スタジオで安心。暗闇×音楽×マシンピラティスの融合レッスンが人気。中目黒、池袋、銀座など都内に多数展開。周りの目を気にせず集中できる環境で、楽しみながら理想のボディラインを手に入れられます。Forbes Japan Women Award 2021企業部門第一位受賞。',
+    access: '東京都内多数（中目黒、池袋、銀座、吉祥寺など）',
+    address: '東京都内（詳細は公式サイト参照）',
     popularPlan: {
       name: 'マンスリー4メンバー',
       description: '暗闇×音楽×マシンピラティスの融合レッスン。楽しく続けられると人気のプラン。',
-      price: '月4回 15,070円（税込）',
+      price: '月4回 13,420円（税込）+ 施設維持費 825円',
     },
     options: [
-      '追加レッスンチケット（1回 4,400円）',
-      '通い放題プラン変更（月額 22,000円〜）',
-      'ウェア・タオルセット（月額 2,200円）',
-      'ドリンクサービス（月額 1,100円）',
+      'マンスリー8メンバー（月8回 16,170円）',
+      'マンスリーデイメンバー（平日10-15時通い放題 14,520円）',
+      'マンスリープレミアムメンバー（毎日2レッスン 18,920円）',
+      '追加レッスン（1回 2,200円）',
     ],
     userProfile: {
-      ageRange: '20代〜30代が中心（全体の90%）',
+      ageRange: '20代〜30代が中心',
       genderRatio: '女性100%（女性専用）',
       purpose: ['楽しく痩せたい', 'ストレス発散', 'ボディメイク', '仲間と運動'],
     },
     basicInfo: {
-      hours: '平日 10:00〜22:00 / 土日祝 10:00〜20:00',
-      closed: '不定休',
+      hours: '店舗により異なる（10:00-22:00が目安）',
+      closed: '店舗により異なる',
       facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', '暗闇スタジオ', '女性専用'],
     },
   },
   {
-    name: 'CLUB PILATES 東京',
+    name: 'CLUB PILATES',
     image: '/images/pilates4.jpg',
     rating: 4.1,
-    price: '月4回 14,190円〜',
+    price: '要問合せ',
     trial: '体験レッスン 無料',
-    features: ['アメリカ発', 'グループ&プライベート', '渋谷駅近', '初心者歓迎'],
-    description: 'アメリカ発の世界最大級ピラティススタジオチェーン。渋谷駅から徒歩4分。グループレッスンからプライベートレッスンまで幅広く対応。全米No.1のピラティスメソッドで、初心者から上級者まで満足できるプログラムを提供。',
-    access: '渋谷駅から徒歩4分',
-    address: '北海道東京市中央区南2条西3-13 アルシェビル 3F',
+    features: ['アメリカ発', '世界最大級', 'グループ＆プライベート', '東京都内多数'],
+    description: 'アメリカ発の世界最大級ピラティススタジオチェーン。世界各国で800店舗以上を展開。グループレッスンからプライベートレッスンまで幅広く対応。全米No.1のピラティスメソッドで、初心者から上級者まで満足できるプログラムを提供。インストラクター養成講座も開講。',
+    access: '東京都内多数展開',
+    address: '東京都内（詳細は公式サイト参照）',
     popularPlan: {
-      name: '月4回メンバー',
-      description: 'グループレッスンでコストパフォーマンス良く通える人気プラン。',
-      price: '月4回 14,190円（税込）',
+      name: '体験レッスン',
+      description: '初回無料で世界最大級のピラティスメソッドを体験できます。',
+      price: '体験 無料',
     },
     options: [
-      'プライベートレッスン追加（1回 11,000円〜）',
+      'グループレッスン（月額プラン）',
+      'プライベートレッスン（要問合せ）',
       'ウェアレンタル（月額 2,200円）',
-      'タオルセット（月額 1,100円）',
-      '追加レッスンチケット（1回 4,950円）',
+      'Teacher Training（インストラクター養成講座）',
     ],
     userProfile: {
-      ageRange: '20代〜40代が中心（全体の85%）',
+      ageRange: '20代〜60代まで幅広い',
       genderRatio: '女性85% / 男性15%',
       purpose: ['ボディメイク', '姿勢改善', '体幹強化', 'リハビリ'],
     },
     basicInfo: {
-      hours: '平日 7:00〜22:00 / 土日祝 8:00〜20:00',
-      closed: '不定休',
+      hours: '店舗により異なる',
+      closed: '店舗により異なる',
       facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', '最新マシン完備'],
     },
   },
   {
-    name: 'Reformer Pilates Tokyo',
+    name: 'ピラティスミラー',
     image: '/images/pilates2.jpg',
-    rating: 4.3,
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['リフォーマー専門', '少人数制', '銀座', '初心者歓迎'],
-    description: 'リフォーマー専門のピラティススタジオ。銀座エリアに展開。少人数制で丁寧な指導が魅力。最新のリフォーマーマシンを使用した効果的なトレーニングで、姿勢改善やボディメイクを実現します。',
-    access: '銀座公園駅から徒歩5分',
-    address: '北海道東京市中央区北1条西25-1-17 銀座プラザビル 2F',
-    popularPlan: {
-      name: 'リフォーマー月4回プラン',
-      description: 'リフォーマーマシン専門の効果的なトレーニング。少人数制で丁寧な指導。',
-      price: '月4回 13,200円（税込）',
-    },
-    options: [
-      'プライベートレッスン（1回 10,000円〜）',
-      '追加レッスンチケット（1回 3,850円）',
-      'ウェアレンタル（月額 2,200円）',
-      'インストラクター養成コース（別途）',
-    ],
-    userProfile: {
-      ageRange: '30代〜50代が中心（全体の75%）',
-      genderRatio: '女性95% / 男性5%',
-      purpose: ['姿勢改善', 'リハビリ', '体幹強化', 'ボディメイク'],
-    },
-    basicInfo: {
-      hours: '平日 10:00〜21:00 / 土日祝 9:00〜19:00',
-      closed: '月曜日',
-      facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', 'リフォーマーマシン'],
-    },
-  },
-  {
-    name: 'ピラティススタジオ B-line 東京',
-    image: '/images/pilates3.jpg',
     rating: 4.2,
-    price: '1回 8,800円〜',
-    trial: '体験レッスン 5,500円',
-    features: ['完全プライベート', 'マシン完備', '東京駅南口', 'オーダーメイド'],
-    description: '完全プライベートレッスン専門スタジオ。東京駅南口から徒歩5分。一人ひとりの目的・体力に合わせたオーダーメイドレッスン。経験豊富なインストラクターがマンツーマンで指導するので、短期間で効果を実感できます。',
-    access: '東京駅南口から徒歩5分',
-    address: '北海道東京市中央区北4条西5-1 アスティ45ビル 9F',
+    price: '要問合せ',
+    trial: '体験レッスン あり',
+    features: ['KONAMI運営', '天井鏡', '初心者向け', '短時間効果的'],
+    description: 'コナミスポーツクラブが運営するマシンピラティススタジオ。スタジオの天井に設置した鏡と専用ピラティスマシンを活用することで、初心者の方も自分の身体の動きを確認しながら、短時間でも効果的にエクササイズできます。インナーマッスルに働きかけ、姿勢改善やボディメイクに効果的。',
+    access: '東京都内（KONAMI施設内）',
+    address: '東京都内（詳細は公式サイト参照）',
     popularPlan: {
-      name: 'プライベート月4回プラン',
-      description: '完全マンツーマン指導。あなただけのオーダーメイドプログラム。',
-      price: '月4回 35,200円（税込）',
+      name: 'マシンピラティスコース',
+      description: '天井鏡で動きを確認しながら効果的にエクササイズ。初心者でも安心。',
+      price: '要問合せ',
     },
     options: [
-      '追加レッスン（1回 8,800円）',
-      '月8回プラン（68,000円）',
-      '体成分分析（1回 2,200円）',
-      '栄養カウンセリング（月額 5,500円）',
+      'コナミスポーツクラブ会員特典あり',
+      '専用マシン使用',
+      '天井鏡システム',
     ],
     userProfile: {
-      ageRange: '30代〜60代が中心（全体の80%）',
+      ageRange: '30代〜50代が中心',
       genderRatio: '女性80% / 男性20%',
-      purpose: ['短期集中ダイエット', 'リハビリ', 'アスリート強化', '姿勢改善'],
+      purpose: ['姿勢改善', 'インナーマッスル強化', 'ボディメイク', '健康維持'],
     },
     basicInfo: {
-      hours: '平日 9:00〜22:00 / 土日祝 9:00〜20:00',
-      closed: '不定休',
-      facilities: ['完全個室', 'シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', '最新マシン'],
+      hours: 'コナミ施設により異なる',
+      closed: 'コナミ施設により異なる',
+      facilities: ['天井鏡', '専用マシン', 'ロッカー', 'シャワー'],
     },
   },
   {
-    name: 'WECLE 東京',
-    image: '/images/pilates4.jpg',
-    rating: 4.1,
-    price: '月4回 14,800円〜',
-    trial: '体験レッスン 500円',
-    features: ['AI姿勢分析', '最新マシン', '東京駅西口', '女性専用'],
-    description: 'AI姿勢分析を導入した最新型ピラティススタジオ。東京駅西口から徒歩2分。最新のマシンと科学的なアプローチで効果的なボディメイクを実現。女性専用なので安心して通えます。初回体験500円でAI姿勢分析も体験可能。',
-    access: '東京駅西口から徒歩2分',
-    address: '北海道東京市中央区北4条西3-1 東京駅前合同ビル 7F',
-    popularPlan: {
-      name: 'スタンダード4（月4回）',
-      description: 'AI姿勢分析付き。最新マシンで効率的にボディメイク。女性専用で安心。',
-      price: '月4回 14,800円（税込）※AI分析無料',
-    },
-    options: [
-      'AI姿勢分析レポート（月1回無料、追加 1,100円）',
-      'パーソナルトレーニング（1回 11,000円〜）',
-      'ウェア・タオルセット（月額 2,750円）',
-      '栄養カウンセリング（月額 5,500円）',
-    ],
-    userProfile: {
-      ageRange: '20代〜30代が中心（全体の85%）',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', 'ダイエット', '姿勢改善', 'AI分析'],
-    },
-    basicInfo: {
-      hours: '平日 7:00〜22:00 / 土日祝 9:00〜20:00',
-      closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'AI姿勢分析システム', '女性専用'],
-    },
-  },
-  {
-    name: 'the SILK 東京',
-    image: '/images/pilates2.jpg',
-    rating: 4.2,
-    price: '月4回 15,070円〜',
-    trial: '体験レッスン 無料',
-    features: ['暗闇マシン', '音楽', '渋谷駅近', '女性専用'],
-    description: 'マシンピラティス特化型スタジオ。暗闇×音楽で没入感のあるレッスン。渋谷駅から徒歩3分の好アクセス。最新のリフォーマーマシンを完備し、音楽に合わせた独自プログラムで楽しくトレーニング。女性専用で初心者も安心。',
-    access: '渋谷駅から徒歩3分',
-    address: '北海道東京市中央区南1条西4-5 大手町ビル 4F',
-    popularPlan: {
-      name: '月4回プラン',
-      description: '暗闇×音楽×マシンの融合レッスン。楽しく続けられる人気プラン。',
-      price: '月4回 15,070円（税込）',
-    },
-    options: [
-      '追加レッスンチケット（1回 4,400円）',
-      '通い放題プラン（月額 22,000円〜）',
-      'ウェア・タオルセット（月額 2,200円）',
-      'ドリンクサービス（月額 1,100円）',
-    ],
-    userProfile: {
-      ageRange: '20代〜30代が中心（全体の88%）',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['楽しく痩せたい', 'ボディメイク', 'ストレス発散', '音楽好き'],
-    },
-    basicInfo: {
-      hours: '平日 10:00〜22:00 / 土日祝 10:00〜19:00',
-      closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', '暗闇スタジオ', '女性専用'],
-    },
-  },
-  {
-    name: 'Urban Pilates 東京',
+    name: 'Studio Yoggy',
     image: '/images/pilates3.jpg',
-    rating: 4.0,
-    price: '月額 16,500円（通い放題）',
-    trial: '体験レッスン 無料',
-    features: ['24時間営業', '東京駅北口', '通い放題', 'マシン完備'],
-    description: '24時間営業のピラティススタジオ。東京駅北口から徒歩2分の好立地。早朝・深夜でも利用可能なので、忙しい方にも最適。月額定額で通い放題プランあり。最新マシンを完備し、自分のペースでトレーニングできます。',
-    access: '東京駅北口から徒歩2分',
-    address: '北海道東京市北区北7条西2-20 NCO東京駅北口ビル 3F',
-    popularPlan: {
-      name: '通い放題プラン',
-      description: '24時間いつでも利用可能。月額定額で通い放題。',
-      price: '月額 16,500円（税込）',
-    },
-    options: [
-      '月4回プラン（11,000円）',
-      '月8回プラン（14,300円）',
-      'ウェアレンタル（月額 2,200円）',
-      'ロッカーレンタル（月額 1,100円）',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心（全体の82%）',
-      genderRatio: '女性70% / 男性30%',
-      purpose: ['時間自由', '仕事帰り', '早朝トレーニング', 'マイペース'],
-    },
-    basicInfo: {
-      hours: '24時間営業',
-      closed: 'なし（年中無休）',
-      facilities: ['シャワー', 'ロッカー', 'Wi-Fi', '24時間アクセス', '最新マシン'],
-    },
-  },
-  {
-    name: 'Pilates Studio M 東京',
-    image: '/images/pilates4.jpg',
-    rating: 4.3,
-    price: '月4回 12,980円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['女性専用', '少人数制', '銀座エリア', 'マット&マシン'],
-    description: '女性専用・少人数制のアットホームなスタジオ。銀座エリアに展開。マットピラティスとマシンピラティスの両方に対応。インストラクターとの距離が近く、丁寧な指導を受けられるのが魅力。初心者でも安心して通えます。',
-    access: '銀座公園駅から徒歩4分',
-    address: '北海道東京市中央区北1条西26-2-15 銀座グランドビル 3F',
-    popularPlan: {
-      name: '月4回レギュラープラン',
-      description: '少人数制で丁寧な指導。マット・マシン両方対応。',
-      price: '月4回 12,980円（税込）',
-    },
-    options: [
-      '追加レッスンチケット（1回 3,600円）',
-      'プライベートレッスン（1回 9,900円）',
-      'ウェアレンタル（月額 2,200円）',
-      '月8回プラン（24,200円）',
-    ],
-    userProfile: {
-      ageRange: '30代〜50代が中心（全体の78%）',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['姿勢改善', 'リラックス', '健康維持', 'ダイエット'],
-    },
-    basicInfo: {
-      hours: '平日 10:00〜21:00 / 土日祝 9:00〜18:00',
-      closed: '不定休',
-      facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', '女性専用', 'アットホーム'],
-    },
-  },
-  {
-    name: 'BDC PILATES 東京',
-    image: '/images/pilates2.jpg',
     rating: 4.1,
-    price: '1回 3,850円〜',
-    trial: '体験レッスン 2,200円',
-    features: ['ダンサー御用達', 'グループレッスン', '新宿', '本格的'],
-    description: 'ダンサー御用達の本格的なピラティススタジオ。新宿駅から徒歩3分。ダンサーやアスリートも通う質の高いレッスンが特徴。身体の使い方を根本から学べる本格的なプログラムで、美しい姿勢と柔軟な身体を手に入れられます。',
-    access: '新宿駅から徒歩3分',
-    address: '北海道東京市中央区南4条西3-7-1 エスワンビル 5F',
+    price: '要問合せ',
+    trial: '体験レッスン あり',
+    features: ['ヨガ＆ピラティス', '全国展開', '駅徒歩5分', '清潔な空間'],
+    description: '全国展開のヨガ・ピラティス専門スタジオ。すべてのスタジオが駅徒歩5分圏内。清潔で開放感のある空間で、のびのびと深い呼吸を楽しめます。一年を通して運動に適した室温に保たれたスタジオ。ヨガとピラティスの両方を楽しめるのが魅力。初心者から経験者まで幅広く対応。',
+    access: '東京都内多数（全店舗駅徒歩5分圏内）',
+    address: '東京都内（詳細は公式サイト参照）',
     popularPlan: {
-      name: 'チケット制10回券',
-      description: '都度払いより割安。好きな時に通えるチケット制。',
-      price: '10回 35,200円（税込）※1回あたり3,520円',
+      name: 'ヨガ＆ピラティスプラン',
+      description: 'ヨガとピラティスの両方を楽しめるプラン。多様なクラスから選択可能。',
+      price: '要問合せ',
     },
     options: [
-      '1回都度払い（3,850円）',
-      '5回券（18,700円）',
-      '20回券（66,000円）',
-      'プライベートレッスン（1回 11,000円）',
+      'ヨガクラス',
+      'ピラティスクラス',
+      'パーソナルトレーニング',
+      '全店相互利用可能',
     ],
     userProfile: {
-      ageRange: '20代〜40代が中心（全体の85%）',
-      genderRatio: '女性75% / 男性25%',
-      purpose: ['ダンススキル向上', 'パフォーマンス向上', '柔軟性', '体幹'],
-    },
-    basicInfo: {
-      hours: '平日 10:00〜22:00 / 土日祝 10:00〜20:00',
-      closed: '不定休',
-      facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', '本格スタジオ'],
-    },
-  },
-  {
-    name: 'Pilates Lab Tokyo',
-    image: '/images/pilates3.jpg',
-    rating: 4.4,
-    price: '月4回 14,300円〜',
-    trial: '体験レッスン 3,300円',
-    features: ['理学療法士監修', 'リハビリ対応', '渋谷駅近', 'プライベート'],
-    description: '理学療法士監修のピラティススタジオ。渋谷駅から徒歩3分。リハビリテーションの知識を活かした安全で効果的なレッスン。腰痛や肩こりなどの身体の不調改善にも対応。医学的根拠に基づいたトレーニングで健康的な身体づくりを実現。',
-    access: '渋谷駅から徒歩3分',
-    address: '北海道東京市中央区南1条西5-16 プレジデント松井ビル 100 6F',
-    popularPlan: {
-      name: 'セミプライベート月4回',
-      description: '理学療法士監修の安全で効果的なトレーニング。2名までの少人数制。',
-      price: '月4回 14,300円（税込）',
-    },
-    options: [
-      'プライベートレッスン（月4回 28,600円）',
-      '理学療法士カウンセリング（1回 5,500円）',
-      '追加レッスン（1回 4,180円）',
-      '姿勢分析（1回 2,200円）',
-    ],
-    userProfile: {
-      ageRange: '30代〜60代が中心（全体の80%）',
-      genderRatio: '女性80% / 男性20%',
-      purpose: ['リハビリ', '腰痛改善', '肩こり改善', '姿勢矯正'],
-    },
-    basicInfo: {
-      hours: '平日 10:00〜21:00 / 土日祝 10:00〜19:00',
-      closed: '月曜日',
-      facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', '理学療法士常駐'],
-    },
-  },
-  {
-    name: 'FLOW PILATES 東京',
-    image: '/images/pilates4.jpg',
-    rating: 4.0,
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['ヨガ×ピラティス', 'リラックス', '銀座', '初心者歓迎'],
-    description: 'ヨガとピラティスの融合スタジオ。銀座エリアに展開。心と身体の両方を整えるプログラムが人気。ヨガの呼吸法とピラティスのコアトレーニングを組み合わせた独自メソッドで、柔軟性と筋力を同時に向上させます。',
-    access: '銀座公園駅から徒歩6分',
-    address: '北海道東京市中央区南1条西27-1-7 マルヤマクラスビル 2F',
-    popularPlan: {
-      name: 'ヨガ&ピラティス月4回',
-      description: 'ヨガとピラティスの良いところ取り。心身ともにリフレッシュ。',
-      price: '月4回 13,200円（税込）',
-    },
-    options: [
-      '追加レッスンチケット（1回 3,850円）',
-      '月8回プラン（24,200円）',
-      'ウェアレンタル（月額 2,200円）',
-      'プライベートヨガ（1回 9,900円）',
-    ],
-    userProfile: {
-      ageRange: '30代〜50代が中心（全体の80%）',
-      genderRatio: '女性95% / 男性5%',
-      purpose: ['リラックス', 'ストレス解消', '柔軟性向上', '健康維持'],
-    },
-    basicInfo: {
-      hours: '平日 9:00〜21:00 / 土日祝 9:00〜19:00',
-      closed: '不定休',
-      facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', 'ヨガマット完備'],
-    },
-  },
-  {
-    name: 'Body Make Studio Pilates+ 東京',
-    image: '/images/pilates2.jpg',
-    rating: 4.2,
-    price: '月4回 14,850円〜',
-    trial: '体験レッスン 1,500円',
-    features: ['ボディメイク特化', 'マシン完備', '東京駅西口', 'パーソナル'],
-    description: 'ボディメイク特化型のピラティススタジオ。東京駅西口から徒歩3分。ダイエットや引き締めに特化したプログラムが充実。最新マシンとパーソナルトレーニングで、短期間での理想のボディラインを目指せます。',
-    access: '東京駅西口から徒歩3分',
-    address: '北海道東京市中央区北4条西4-1 東京国際ビル 8F',
-    popularPlan: {
-      name: 'ボディメイク月4回',
-      description: 'ダイエット・引き締めに特化。最新マシンで効果的にトレーニング。',
-      price: '月4回 14,850円（税込）',
-    },
-    options: [
-      'パーソナルトレーニング（1回 12,100円）',
-      '体成分分析（1回 2,200円）',
-      '栄養カウンセリング（月額 5,500円）',
-      '追加レッスン（1回 4,180円）',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心（全体の85%）',
+      ageRange: '20代〜50代が中心',
       genderRatio: '女性90% / 男性10%',
-      purpose: ['ダイエット', '引き締め', 'ボディメイク', '短期集中'],
+      purpose: ['ヨガ＆ピラティス両方', '柔軟性向上', 'リラックス', 'ボディメイク'],
     },
     basicInfo: {
-      hours: '平日 9:00〜22:00 / 土日祝 9:00〜20:00',
-      closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', '最新マシン'],
+      hours: '店舗により異なる',
+      closed: '店舗により異なる',
+      facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', '清潔な空間', '適温管理'],
     },
   },
   {
-    name: 'Pilates Studio Harmony 東京',
-    image: '/images/pilates3.jpg',
-    rating: 4.3,
-    price: '月4回 12,100円〜',
-    trial: '体験レッスン 無料',
-    features: ['アットホーム', '少人数制', '新宿', 'マット中心'],
-    description: 'アットホームな雰囲気の少人数制スタジオ。新宿エリアに展開。マットピラティスを中心に、初心者でも無理なく始められるプログラムを提供。インストラクターとの距離が近く、質問しやすい環境が魅力です。',
-    access: '新宿駅から徒歩4分',
-    address: '北海道東京市中央区南3条西5-1-1 ノルベサ 4F',
-    popularPlan: {
-      name: 'マットピラティス月4回',
-      description: 'アットホームな雰囲気で気軽に始められる。初心者におすすめ。',
-      price: '月4回 12,100円（税込）',
-    },
-    options: [
-      '追加レッスンチケット（1回 3,300円）',
-      '月8回プラン（22,000円）',
-      'プライベートレッスン（1回 8,800円）',
-      'ウェアレンタル（月額 2,200円）',
-    ],
-    userProfile: {
-      ageRange: '30代〜60代が中心（全体の75%）',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['初心者', 'リラックス', '健康維持', '仲間づくり'],
-    },
-    basicInfo: {
-      hours: '平日 10:00〜21:00 / 土日祝 10:00〜18:00',
-      closed: '月曜日',
-      facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', 'マット完備', 'アットホーム'],
-    },
-  },
-  {
-    name: 'Pilates & Wellness 東京',
+    name: 'ルルト（luluto）',
     image: '/images/pilates4.jpg',
-    rating: 4.1,
-    price: '月4回 13,750円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['ウェルネス', 'マインドフルネス', '東京駅南口', '女性専用'],
-    description: 'ウェルネス志向のピラティススタジオ。東京駅南口から徒歩4分。ピラティスにマインドフルネスを取り入れた独自プログラム。ストレス解消や心身のバランスを整えることを重視。女性専用で落ち着いた雰囲気の中でレッスンを受けられます。',
-    access: '東京駅南口から徒歩4分',
-    address: '北海道東京市中央区北3条西3-1-44 ヒューリック東京ビル 5F',
+    rating: 4.3,
+    price: '要問合せ',
+    trial: '体験レッスン あり',
+    features: ['理学療法士考案', '医療的視点', '身体の専門家', 'オーダーメイド'],
+    description: '身体の専門家である理学療法士が考案したピラティススタジオ。医療現場での知見を活かし、「ただ動く」のではなく「身体を正しく動かす」ことを重視。一人ひとりの身体の状態に合わせたオーダーメイドプログラムを提供。リハビリから本格的なボディメイクまで幅広く対応。',
+    access: '東京都内',
+    address: '東京都内（詳細は公式サイト参照）',
     popularPlan: {
-      name: 'ウェルネス月4回',
-      description: '心身のバランスを整える。マインドフルネスで癒される。',
-      price: '月4回 13,750円（税込）',
+      name: '理学療法士監修プログラム',
+      description: '医療的視点からの身体分析。一人ひとりに合わせたオーダーメイドプログラム。',
+      price: '要問合せ',
     },
     options: [
-      'マインドフルネスヨガ追加（月額 3,300円）',
-      'プライベートレッスン（1回 10,450円）',
-      'アロマセラピー付き（月額 2,200円）',
-      '追加レッスン（1回 3,850円）',
+      'プライベートレッスン',
+      'グループレッスン',
+      '理学療法士による身体分析',
+      'リハビリ対応',
     ],
     userProfile: {
-      ageRange: '30代〜50代が中心（全体の83%）',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ストレス解消', 'リラックス', '健康維持', 'マインドフルネス'],
+      ageRange: '30代〜60代が中心',
+      genderRatio: '女性75% / 男性25%',
+      purpose: ['リハビリ', '身体の不調改善', '正しい動き習得', 'ボディメイク'],
     },
     basicInfo: {
-      hours: '平日 10:00〜21:00 / 土日祝 10:00〜19:00',
-      closed: '不定休',
-      facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', '女性専用', 'アロマ'],
+      hours: '詳細は公式サイト参照',
+      closed: '詳細は公式サイト参照',
+      facilities: ['理学療法士常駐', 'プライベート空間', '医療的視点'],
+    },
+  },
+  {
+    name: 'K Village Pilates',
+    image: '/images/pilates2.jpg',
+    rating: 4.2,
+    price: '要問合せ',
+    trial: '体験レッスン あり',
+    features: ['パーソナル専門', '新宿西口徒歩3分', 'マンツーマン', '初心者歓迎'],
+    description: '新宿駅西口から徒歩3分のパーソナルマシンピラティススタジオ。完全マンツーマンで、一人ひとりの目的や体力に合わせたオーダーメイドレッスン。初心者から上級者まで、それぞれのレベルに合わせた丁寧な指導。TK新都心ビル地下1階の静かな環境で集中してトレーニングできます。',
+    access: '新宿駅西口から徒歩3分',
+    address: '東京都（詳細は公式サイト参照）',
+    popularPlan: {
+      name: 'パーソナルレッスン',
+      description: '完全マンツーマン指導。あなただけのオーダーメイドプログラム。',
+      price: '要問合せ',
+    },
+    options: [
+      'プライベートレッスン',
+      '初心者向けプログラム',
+      '上級者向けプログラム',
+      'マンツーマン指導',
+    ],
+    userProfile: {
+      ageRange: '30代〜50代が中心',
+      genderRatio: '女性80% / 男性20%',
+      purpose: ['短期集中ボディメイク', 'マンツーマン指導希望', '姿勢改善', '体幹強化'],
+    },
+    basicInfo: {
+      hours: '詳細は公式サイト参照',
+      closed: '詳細は公式サイト参照',
+      facilities: ['完全個室', 'ロッカー', 'パウダールーム', 'プライベート空間'],
+    },
+  },
+  {
+    name: 'タクトエイト（takt8）',
+    image: '/images/pilates3.jpg',
+    rating: 4.1,
+    price: '要問合せ',
+    trial: '体験レッスン あり',
+    features: ['理学療法士立ち上げ', '八王子', 'ヨガ＆ピラティス', 'オンライン対応'],
+    description: '2011年に理学療法士が立ち上げた、八王子のヨガ・ピラティス専門スタジオ。医療現場での知見を活かし、「ただ動く」のではなく「身体を正しく動かす」ことを重視。オンラインレッスンも開催しており、自宅からでも受講可能。専門知識に基づいた安全で効果的な指導が魅力。',
+    access: '八王子',
+    address: '東京都八王子市（詳細は公式サイト参照）',
+    popularPlan: {
+      name: 'ヨガ＆ピラティスプログラム',
+      description: '理学療法士監修のプログラム。オンラインレッスンも可能。',
+      price: '要問合せ',
+    },
+    options: [
+      'スタジオレッスン',
+      'オンラインレッスン',
+      'ヨガクラス',
+      'ピラティスクラス',
+    ],
+    userProfile: {
+      ageRange: '30代〜60代が中心',
+      genderRatio: '女性85% / 男性15%',
+      purpose: ['正しい動き習得', '身体の不調改善', 'オンライン受講', '地域密着'],
+    },
+    basicInfo: {
+      hours: '詳細は公式サイト参照',
+      closed: '詳細は公式サイト参照',
+      facilities: ['理学療法士監修', 'オンライン対応', 'ロッカー', 'パウダールーム'],
     },
   },
 ]
 
-const faqs = [
-  {
-    question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！東京エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。経験豊富なインストラクターが基礎から丁寧に指導してくれるので、運動が苦手な方でも安心して始められますよ。',
-  },
-  {
-    question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。マットは場所を選ばず自宅でも続けやすいのが特徴です。',
-  },
-  {
-    question: '東京のピラティススタジオの料金相場は？',
-    answer: '東京エリアのピラティススタジオの料金相場は、月4回で12,000円〜16,000円程度。体験レッスンは無料〜3,000円が一般的です。プライベートレッスンは1回8,000円〜12,000円が相場となっています。',
-  },
-  {
-    question: 'どのくらいの頻度で通えばいいですか？',
-    answer: 'ピラティス初心者は週1-2回（月4-8回）がおすすめ。慣れてきたら週2-3回に増やすと効果を実感しやすくなります。大切なのは継続すること。無理のないペースで長く続けることが、理想の身体を手に入れる近道です。',
-  },
-  {
-    question: 'ピラティスで痩せますか？',
-    answer: 'はい、ピラティスはダイエット効果があります。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に。ただし即効性はないので、最低でも2-3ヶ月は継続することが大切。食事管理も並行するとより効果的です。',
-  },
-  {
-    question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内で確認してくださいね。',
-  },
-  {
-    question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。ピラティスは筋力強化、ヨガは心身のバランスを整えることが主な目的。どちらも素晴らしいエクササイズなので、目的に合わせて選びましょう。',
-  },
-  {
-    question: 'ピラティスで肩こりや腰痛は改善しますか？',
-    answer: 'はい、改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。ただし、痛みがひどい場合は医師に相談してからスタートすることをおすすめします。',
-  },
-  {
-    question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: 'ピラティスで効果が表れだすのは「2ヶ月を過ぎた頃」から。これは人間の細胞が生まれ変わるサイクルがそのくらいだからです。すぐに変化が表れなくても心配せず、最低でも2ヶ月は継続するのがおすすめです。',
-  },
-  {
-    question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'それぞれ良さがあります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方におすすめ。グループは料金が安く、仲間と楽しく続けられるのが魅力。まずは体験で両方試してみるのがいいですよ。',
-  },
-]
-
-export default function TokyoPage() {
+export default async function TokyoAreaPage() {
   return (
     <>
-      <Navigation />
-
-      <main className="pt-20 bg-white">
-        {/* Hero Section */}
-        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
-          <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月02日</p>
-            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス東京おすすめ15選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+      <div className="min-h-screen bg-gradient-to-b from-warm-50 to-white">
+        <Navigation />
+        
+        <main className="container mx-auto px-4 py-8 sm:px-6 lg:px-8">
+          {/* ヘッダーセクション */}
+          <header className="mb-12 text-center">
+            <h1 className="mb-4 font-cormorant text-4xl font-bold tracking-tight text-warm-900 sm:text-5xl">
+              東京のピラティススタジオ<span className="block text-warm-600">おすすめ8選</span>
             </h1>
-          </div>
-        </section>
+            <p className="mx-auto max-w-3xl text-lg text-warm-700">
+              東京都で人気のピラティススタジオを厳選。マシンピラティス、体験レッスン、料金プランを徹底比較。初心者から経験者まで、あなたにぴったりのスタジオが見つかります。
+            </p>
+          </header>
 
-        {/* Breadcrumbs */}
-        <section className="bg-white py-3 border-b border-warm-100">
-          <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <nav className="text-sm text-warm-400">
-              <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
-              {' > '}
-              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
-              {' > '}
-              <span className="text-warm-600">東京</span>
-            </nav>
-          </div>
-        </section>
-
-        {/* Introduction */}
-        <section className="py-12 bg-white">
-          <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates Navi編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「東京で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、東京エリアでおすすめのピラティススタジオ15選をまとめました。
-            </p>
-            <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
-              <ul className="space-y-2 text-warm-700">
-                <li className="flex items-start">
-                  <span className="text-warm-400 mr-2">✓</span>
-                  <span>東京でピラティススタジオを探している</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-warm-400 mr-2">✓</span>
-                  <span>マシンピラティスを体験してみたい</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-warm-400 mr-2">✓</span>
-                  <span>体験レッスンが安いスタジオを知りたい</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-warm-400 mr-2">✓</span>
-                  <span>駅近で通いやすいスタジオがいい</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-warm-400 mr-2">✓</span>
-                  <span>料金プランを比較したい</span>
-                </li>
-              </ul>
-            </div>
-            <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
-            </p>
-          </div>
-        </section>
-
-        {/* Studios List */}
-        <section className="py-16 bg-warm-50" id="studios">
-          <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              東京のおすすめピラティススタジオ15選
-            </h2>
+          {/* スタジオカード一覧 */}
+          <section className="mb-16">
             <div className="space-y-8">
               {studios.map((studio, index) => (
                 <StudioCard key={index} studio={studio} index={index} />
               ))}
             </div>
-          </div>
-        </section>
+          </section>
 
-        {/* Search by Preference */}
-        <section className="py-16 bg-white">
-          <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              こだわりから探す
+          {/* 好みから探すセクション */}
+          <section className="mb-16 rounded-2xl bg-warm-50 p-8 shadow-sm">
+            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
+              好みのタイプから探す
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
-                <p className="text-warm-600 text-sm mb-4">
-                  月額12,000円以下で通える格安スタジオ。体験レッスン無料のスタジオも多数。コスパ重視の方におすすめ。
+            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
+                <h3 className="mb-3 text-xl font-bold text-warm-800">音楽×暗闇で楽しく</h3>
+                <p className="mb-4 text-warm-600">
+                  音楽に合わせて楽しくボディメイクしたい方に
                 </p>
-                <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Pilates Studio Harmony 東京</li>
-                  <li className="text-warm-700">• Pilates Studio M 東京</li>
-                  <li className="text-warm-700">• FLOW PILATES 東京</li>
-                </ul>
-              </div>
-              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">マシン完備</h3>
-                <p className="text-warm-600 text-sm mb-4">
-                  最新のリフォーマーマシンを完備。マシンピラティスを本格的に学びたい方におすすめ。
-                </p>
-                <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates 東京</li>
-                  <li className="text-warm-700">• WECLE 東京</li>
-                  <li className="text-warm-700">• the SILK 東京</li>
-                </ul>
-              </div>
-              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・好アクセス</h3>
-                <p className="text-warm-600 text-sm mb-4">
-                  東京駅・渋谷駅から徒歩3分以内。仕事帰りや買い物ついでに通いやすい好立地なスタジオ。
-                </p>
-                <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates 東京（東京駅直結）</li>
-                  <li className="text-warm-700">• WECLE 東京（東京駅徒歩2分）</li>
-                  <li className="text-warm-700">• Urban Pilates 東京（東京駅徒歩2分）</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Frequency Guide */}
-        <section className="py-16 bg-warm-50">
-          <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              おすすめの期間・頻度
-            </h2>
-            <div className="bg-white rounded-lg p-8 border border-warm-200">
-              <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
-              <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回（月4-8回）からスタートするのがおすすめ。まずは身体を慣らすことが大切です。継続期間は最低でも2-3ヶ月。この期間で効果を実感できる方が多いですよ。
-              </p>
-              <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
-              <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回（月8-12回）がおすすめ。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3-6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。
-              </p>
-              <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理が目的の方</h3>
-              <p className="text-warm-600 leading-relaxed">
-                週1回（月4回）のペースで継続するのがおすすめ。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切。自分のペースで楽しく通えるのが一番ですよ。
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Price Guide */}
-        <section className="py-16 bg-white">
-          <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              予算別の料金相場
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜12,000円</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。初心者向けの基本的なレッスンが多い。
-                </p>
-                <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Pilates Studio Harmony</li>
-                  <li>• Pilates Studio M</li>
-                </ul>
-              </div>
-              <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
-                <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 12,000〜16,000円</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">
-                  マシン完備の大手スタジオ。グループ・プライベート選択可。
-                </p>
-                <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates</li>
-                  <li>• ピラティスK</li>
-                  <li>• the SILK</li>
-                </ul>
-              </div>
-              <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 30,000円〜</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">
-                  完全プライベートレッスン。短期集中で結果を出したい方向け。
-                </p>
-                <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• B-line（1回8,800円）</li>
-                  <li>• Pilates Lab</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* How to Choose */}
-        <section className="py-16 bg-warm-50">
-          <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              失敗しないピラティススタジオの選び方
-            </h2>
-            <div className="space-y-8">
-              <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <div className="flex items-center mb-4">
-                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span>
-                  <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
-                </div>
-                <p className="text-warm-600 leading-relaxed">
-                  まずは自分がピラティスで何を達成したいのかを明確にしましょう。ダイエット、姿勢改善、体幹強化、リラックスなど、目的によって最適なスタジオやプログラムは変わります。目的が明確だとスタジオ選びもスムーズになりますよ。
+                <p className="text-sm font-semibold text-warm-700">
+                  おすすめ：ピラティスK
                 </p>
               </div>
-              <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <div className="flex items-center mb-4">
-                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span>
-                  <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
-                </div>
-                <p className="text-warm-600 leading-relaxed">
-                  東京エリアの料金相場は月4回で12,000円〜16,000円程度。無理なく継続できる予算を決めましょう。料金だけでなく、入会金、マット・ウェアのレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
+              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
+                <h3 className="mb-3 text-xl font-bold text-warm-800">全国最大級</h3>
+                <p className="mb-4 text-warm-600">
+                  実績と安心感を重視する方に
+                </p>
+                <p className="text-sm font-semibold text-warm-700">
+                  おすすめ：zen place pilates
                 </p>
               </div>
-              <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <div className="flex items-center mb-4">
-                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span>
-                  <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
-                </div>
-                <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。多くのスタジオが無料〜1,000円程度で体験レッスンを提供しているので、気軽に試してみてくださいね。
+              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
+                <h3 className="mb-3 text-xl font-bold text-warm-800">世界最大級</h3>
+                <p className="mb-4 text-warm-600">
+                  アメリカ発の本格メソッドを体験したい方に
+                </p>
+                <p className="text-sm font-semibold text-warm-700">
+                  おすすめ：CLUB PILATES
                 </p>
               </div>
-              <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <div className="flex items-center mb-4">
-                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span>
-                  <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
-                </div>
-                <p className="text-warm-600 leading-relaxed">
-                  どんなに良いスタジオでも、通いにくい場所にあると続きません。自宅や職場から通いやすい場所、駅から近い場所を選ぶのがおすすめ。営業時間も要チェック。早朝や深夜に通いたい方は、営業時間が長いスタジオや24時間営業のスタジオを選びましょう。
+              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
+                <h3 className="mb-3 text-xl font-bold text-warm-800">理学療法士監修</h3>
+                <p className="mb-4 text-warm-600">
+                  医療的視点から身体を整えたい方に
+                </p>
+                <p className="text-sm font-semibold text-warm-700">
+                  おすすめ：ルルト / タクトエイト
+                </p>
+              </div>
+              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
+                <h3 className="mb-3 text-xl font-bold text-warm-800">KONAMI運営</h3>
+                <p className="mb-4 text-warm-600">
+                  大手スポーツクラブの安心感を求める方に
+                </p>
+                <p className="text-sm font-semibold text-warm-700">
+                  おすすめ：ピラティスミラー
+                </p>
+              </div>
+              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
+                <h3 className="mb-3 text-xl font-bold text-warm-800">パーソナル専門</h3>
+                <p className="mb-4 text-warm-600">
+                  マンツーマンで集中指導を受けたい方に
+                </p>
+                <p className="text-sm font-semibold text-warm-700">
+                  おすすめ：K Village Pilates
                 </p>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
 
-        {/* FAQ */}
-        <section className="py-16 bg-white">
-          <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+          {/* 料金帯別セクション */}
+          <section className="mb-16">
+            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
+              料金帯別スタジオ
+            </h2>
+            <div className="grid gap-6 md:grid-cols-3">
+              <div className="rounded-xl bg-warm-50 p-6">
+                <h3 className="mb-4 text-xl font-bold text-warm-800">〜10,000円</h3>
+                <ul className="space-y-2 text-warm-700">
+                  <li className="flex items-start">
+                    <span className="mr-2 text-warm-600">•</span>
+                    <span>zen place pilates（月4回 9,625円〜）</span>
+                  </li>
+                </ul>
+              </div>
+              <div className="rounded-xl bg-warm-50 p-6">
+                <h3 className="mb-4 text-xl font-bold text-warm-800">10,000円〜20,000円</h3>
+                <ul className="space-y-2 text-warm-700">
+                  <li className="flex items-start">
+                    <span className="mr-2 text-warm-600">•</span>
+                    <span>ピラティスK（月4回 13,420円）</span>
+                  </li>
+                </ul>
+              </div>
+              <div className="rounded-xl bg-warm-50 p-6">
+                <h3 className="mb-4 text-xl font-bold text-warm-800">プライベート・その他</h3>
+                <ul className="space-y-2 text-warm-700">
+                  <li className="flex items-start">
+                    <span className="mr-2 text-warm-600">•</span>
+                    <span>K Village Pilates（パーソナル専門）</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2 text-warm-600">•</span>
+                    <span>CLUB PILATES（体験無料）</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          {/* 通う頻度・期間の目安 */}
+          <section className="mb-16 rounded-2xl bg-gradient-to-br from-warm-50 to-warm-100 p-8 shadow-sm">
+            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
+              通う頻度・期間の目安
+            </h2>
+            <div className="grid gap-6 md:grid-cols-2">
+              <div className="rounded-xl bg-white p-6 shadow-sm">
+                <h3 className="mb-4 text-xl font-bold text-warm-800">週1回（月4回）</h3>
+                <p className="mb-4 text-warm-700">
+                  初心者や運動習慣をつけたい方におすすめ。3ヶ月で姿勢の変化を実感できます。
+                </p>
+                <div className="space-y-2 text-sm text-warm-600">
+                  <p>• 1ヶ月目：動きに慣れる</p>
+                  <p>• 2ヶ月目：体の変化を感じ始める</p>
+                  <p>• 3ヶ月目：姿勢が改善され、周りから変化を指摘される</p>
+                </div>
+              </div>
+              <div className="rounded-xl bg-white p-6 shadow-sm">
+                <h3 className="mb-4 text-xl font-bold text-warm-800">週2回（月8回）</h3>
+                <p className="mb-4 text-warm-700">
+                  本格的にボディメイクしたい方におすすめ。2ヶ月で見た目の変化が現れます。
+                </p>
+                <div className="space-y-2 text-sm text-warm-600">
+                  <p>• 1ヶ月目：筋肉の使い方をマスター</p>
+                  <p>• 2ヶ月目：ボディラインが変わり始める</p>
+                  <p>• 3ヶ月目：理想の体型に近づく</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* 4ステップ選び方ガイド */}
+          <section className="mb-16">
+            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
+              4ステップで選ぶ！東京のピラティススタジオ
+            </h2>
+            <div className="grid gap-6 md:grid-cols-2">
+              <div className="rounded-xl border-2 border-warm-200 bg-white p-6 shadow-sm">
+                <div className="mb-3 inline-block rounded-full bg-warm-100 px-4 py-1 text-sm font-semibold text-warm-700">
+                  STEP 1
+                </div>
+                <h3 className="mb-3 text-xl font-bold text-warm-800">目的を明確にする</h3>
+                <p className="text-warm-600">
+                  ダイエット、姿勢改善、体幹強化など、あなたの目的に合ったスタジオを選びましょう。
+                </p>
+              </div>
+              <div className="rounded-xl border-2 border-warm-200 bg-white p-6 shadow-sm">
+                <div className="mb-3 inline-block rounded-full bg-warm-100 px-4 py-1 text-sm font-semibold text-warm-700">
+                  STEP 2
+                </div>
+                <h3 className="mb-3 text-xl font-bold text-warm-800">予算を決める</h3>
+                <p className="text-warm-600">
+                  月額9,625円〜40,000円まで幅広い料金帯があります。無理なく続けられる予算を設定しましょう。
+                </p>
+              </div>
+              <div className="rounded-xl border-2 border-warm-200 bg-white p-6 shadow-sm">
+                <div className="mb-3 inline-block rounded-full bg-warm-100 px-4 py-1 text-sm font-semibold text-warm-700">
+                  STEP 3
+                </div>
+                <h3 className="mb-3 text-xl font-bold text-warm-800">通いやすさを確認</h3>
+                <p className="text-warm-600">
+                  東京都内に多数展開するスタジオなら、自宅や職場から通いやすい店舗が見つかります。
+                </p>
+              </div>
+              <div className="rounded-xl border-2 border-warm-200 bg-white p-6 shadow-sm">
+                <div className="mb-3 inline-block rounded-full bg-warm-100 px-4 py-1 text-sm font-semibold text-warm-700">
+                  STEP 4
+                </div>
+                <h3 className="mb-3 text-xl font-bold text-warm-800">体験レッスンを受ける</h3>
+                <p className="text-warm-600">
+                  スタジオの雰囲気やインストラクターとの相性を確認。ほとんどのスタジオで体験レッスンを実施しています。
+                </p>
+              </div>
+            </div>
+          </section>
+
+          {/* FAQ */}
+          <section className="mb-16">
+            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
               よくある質問
             </h2>
-            <div className="space-y-6">
-              {faqs.map((faq, index) => (
-                <div key={index} className="border border-warm-200 rounded-lg overflow-hidden">
-                  <details className="group">
-                    <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition">
-                      <h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3>
-                      <svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"/>
-                      </svg>
-                    </summary>
-                    <div className="px-6 pb-6 text-warm-600 leading-relaxed">
-                      {faq.answer}
-                    </div>
-                  </details>
-                </div>
-              ))}
+            <div className="space-y-4">
+              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
+                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
+                  東京でピラティス初心者におすすめのスタジオはどこですか？
+                </summary>
+                <p className="mt-4 text-warm-700">
+                  zen place pilatesがおすすめです。全国150店舗以上を展開し、22年の実績があります。初心者向けのプログラムが充実しており、全店舗相互利用可能なので、自宅や職場近くで通いやすい店舗を選べます。
+                </p>
+              </details>
+              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
+                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
+                  東京で一番安いピラティススタジオはどこですか？
+                </summary>
+                <p className="mt-4 text-warm-700">
+                  zen place pilatesが月4回9,625円で最も安く通えます。また、CLUB PILATESは体験レッスンが無料なので、まずは試してみたい方におすすめです。
+                </p>
+              </details>
+              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
+                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
+                  女性専用のピラティススタジオはありますか？
+                </summary>
+                <p className="mt-4 text-warm-700">
+                  はい、ピラティスKは女性専用スタジオです。音楽×暗闇×マシンピラティスの融合レッスンで、男性の目を気にせず集中してトレーニングできます。
+                </p>
+              </details>
+              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
+                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
+                  体験レッスンはありますか？料金はいくらですか？
+                </summary>
+                <p className="mt-4 text-warm-700">
+                  ほとんどのスタジオで体験レッスンを実施しています。CLUB PILATESは無料、zen place pilatesやその他スタジオは有料ですが、入会すると入会金が無料になるなどの特典があります。
+                </p>
+              </details>
+              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
+                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
+                  マシンピラティスとマットピラティスの違いは何ですか？
+                </summary>
+                <p className="mt-4 text-warm-700">
+                  マシンピラティスは専用マシン（リフォーマー）を使用し、初心者でも正しいフォームで効果的にトレーニングできます。マットピラティスはマットの上で行い、体幹を鍛えるのに効果的。初心者にはマシンピラティスがおすすめです。
+                </p>
+              </details>
+              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
+                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
+                  どのくらいの期間で効果が出ますか？
+                </summary>
+                <p className="mt-4 text-warm-700">
+                  週1回（月4回）通った場合、1ヶ月で体の使い方が変わり、2ヶ月で姿勢の変化を実感、3ヶ月で見た目の変化が現れます。週2回通うとさらに早く効果を実感できます。
+                </p>
+              </details>
+              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
+                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
+                  理学療法士監修のスタジオはありますか？
+                </summary>
+                <p className="mt-4 text-warm-700">
+                  はい、ルルトとタクトエイトは理学療法士が考案・立ち上げたスタジオです。医療現場での知見を活かし、「身体を正しく動かす」ことを重視。リハビリから本格的なボディメイクまで幅広く対応しています。
+                </p>
+              </details>
+              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
+                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
+                  運動が苦手でも大丈夫ですか？
+                </summary>
+                <p className="mt-4 text-warm-700">
+                  はい、大丈夫です。ピラティスはもともとリハビリ用に開発されたエクササイズなので、運動が苦手な方や体力に自信がない方でも無理なく始められます。マシンがサポートしてくれるので、正しいフォームで効果的にトレーニングできます。
+                </p>
+              </details>
+              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
+                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
+                  パーソナルレッスン専門のスタジオはありますか？
+                </summary>
+                <p className="mt-4 text-warm-700">
+                  はい、K Village Pilatesは新宿駅西口徒歩3分のパーソナル専門スタジオです。完全マンツーマンで、一人ひとりの目的や体力に合わせたオーダーメイドレッスンを提供しています。
+                </p>
+              </details>
+              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
+                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
+                  大手スポーツクラブが運営するピラティススタジオはありますか？
+                </summary>
+                <p className="mt-4 text-warm-700">
+                  はい、ピラティスミラーはコナミスポーツクラブが運営しています。スタジオの天井に設置した鏡と専用マシンを活用し、初心者でも自分の身体の動きを確認しながら短時間で効果的にエクササイズできます。
+                </p>
+              </details>
             </div>
-          </div>
-        </section>
+          </section>
 
-        {/* Summary */}
-        <section className="py-16 bg-warm-50">
-          <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">
-              まとめ
+          {/* まとめ・CTA */}
+          <section className="mb-16 rounded-2xl bg-gradient-to-br from-warm-600 to-warm-700 p-8 text-white shadow-lg">
+            <h2 className="mb-4 font-cormorant text-3xl font-bold">
+              東京で理想のピラティススタジオを見つけよう
             </h2>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              今回は東京のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+            <p className="mb-6 text-lg text-warm-50">
+              東京には多様なピラティススタジオがあります。全国最大級のzen place、音楽×暗闇のピラティスK、世界最大級のCLUB PILATES、KONAMI運営のピラティスミラー、理学療法士監修のルルト・タクトエイトなど、あなたの目的・予算・好みに合ったスタジオがきっと見つかります。
             </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では東京に数多くあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+            <p className="mb-8 text-warm-50">
+              まずは体験レッスンで、スタジオの雰囲気やインストラクターとの相性を確認してみましょう。多くのスタジオが無料〜有料で体験レッスンを実施しています。
             </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
-            </p>
-            <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
-            </p>
-          </div>
-        </section>
+            <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
+              <a
+                href="#studios"
+                className="rounded-full bg-white px-8 py-3 font-bold text-warm-700 shadow-md transition-all hover:bg-warm-50 hover:shadow-lg"
+              >
+                スタジオ一覧を見る
+              </a>
+              <Link
+                href="/"
+                className="rounded-full border-2 border-white px-8 py-3 font-bold text-white transition-all hover:bg-white hover:text-warm-700"
+              >
+                他のエリアを探す
+              </Link>
+            </div>
+          </section>
 
-        {/* CTA */}
-        <section className="py-16 bg-warm-800 text-white" id="contact">
-          <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
-            </h2>
-            <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜1,000円。<br />
-              まずは気軽に体験してみましょう。
-            </p>
-            <Link 
-              href="/#studios" 
-              className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded"
-            >
-              おすすめスタジオ一覧に戻る
-            </Link>
-          </div>
-        </section>
-      </main>
+          {/* パンくずリスト */}
+          <nav className="mb-8 text-sm text-warm-600" aria-label="パンくずリスト">
+            <ol className="flex flex-wrap items-center gap-2">
+              <li>
+                <Link href="/" className="hover:text-warm-800">
+                  ホーム
+                </Link>
+              </li>
+              <li>/</li>
+              <li>
+                <Link href="/area" className="hover:text-warm-800">
+                  エリアから探す
+                </Link>
+              </li>
+              <li>/</li>
+              <li className="font-semibold text-warm-800">東京</li>
+            </ol>
+          </nav>
+        </main>
 
-      <SiteFooter />
-      <Script src="https://unpkg.com/lucide@latest" strategy="lazyOnload" />
+        <SiteFooter />
+      </div>
+
+      <Script
+        type="application/ld+json"
+        id="breadcrumb-schema"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'ホーム',
+                item: 'https://pilates-biyori.com',
+              },
+              {
+                '@type': 'ListItem',
+                position: 2,
+                name: 'エリアから探す',
+                item: 'https://pilates-biyori.com/area',
+              },
+              {
+                '@type': 'ListItem',
+                position: 3,
+                name: '東京',
+                item: 'https://pilates-biyori.com/area/tokyo',
+              },
+            ],
+          }),
+        }}
+      />
     </>
   )
 }
