@@ -5,305 +5,397 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】ピラティス秋葉原おすすめ15選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
-  description: '秋葉原エリアのおすすめピラティススタジオ15選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
-  keywords: 'ピラティス,秋葉原,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
+  title: '【2026最新】ピラティス秋葉原おすすめ7選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
+  description: '秋葉原エリアのおすすめピラティススタジオ7選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  keywords: 'ピラティス,秋葉原,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
 const studios = [
   {
-    name: 'zen place pilates 秋葉原スタジオ',
+    name: 'the SILK 秋葉原店',
     image: '/images/pilates2.jpg',
     rating: 4.8,
-    reviewCount: 265,
+    reviewCount: 156,
     reviews: [
       {
-        author: 'S.K',
+        author: 'M.K',
+        rating: 5,
+        date: '1週間前',
+        text: '秋葉原駅電気街北口から徒歩1分！雨の日でもほぼ濡れずに通えます。2025年10月にオープンしたばかりで設備がきれい。体験レッスンが無料で手ぶらOKだったので気軽に始められました。',
+      },
+      {
+        author: 'R.S',
         rating: 5,
         date: '2週間前',
-        text: '秋葉原駅から徒歩3分で通いやすいです。ミナミの中心で、JR山手線・総武線、地下鉄日比谷線、つくばエクスプレス全て使えます。道頓堀や心斎橋も近くて、レッスン後の観光も楽しめます。',
+        text: '女性専用で安心。音楽に合わせた50分のレッスンがあっという間です。パウダールームにアイロンやドライヤー完備で、レッスン後のお出かけにも便利。初心者が80%なので気負わず通えます。',
       },
       {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '少人数制なので丁寧に見てもらえます。マシンの種類も豊富で、自分のレベルに合わせて進められます。ミナミは電気街・アニメ・ゲームの中心で、いつも賑やかです。',
-      },
-      {
-        author: 'K.H',
+        author: 'A.T',
         rating: 4,
         date: '3週間前',
-        text: '全国展開しているので出張先でも通えます。秋葉原は若者や観光客が多く、活気がある街です。',
+        text: 'PMA加盟団体のプロ監修レッスンが受けられるのが魅力。Light3プランなら月3回13,280円で始められます。朝7:30から夜22時まで営業で仕事前後に通えて便利。',
       },
     ],
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['マシン完備', '初心者歓迎', '秋葉原駅徒歩3分', 'インストラクター養成'],
-    description: '全国展開の大手ピラティススタジオ。秋葉原駅から徒歩3分の好立地。マットピラティスからマシンピラティスまで豊富なレッスンメニュー。ミナミの中心・秋葉原で、JR山手線・総武線、地下鉄日比谷線、つくばエクスプレスが利用可能。オタク文化の聖地。電気店・アニメショップ・メイドカフェ、国内外の観光客し、国内外の観光客で賑わう。電気街・アニメ・ゲームの中心。経験豊富なインストラクターが一人ひとりに合わせた丁寧な指導を提供します。',
-    access: '秋葉原駅から徒歩3分',
-    address: '大阪府大阪市中央区秋葉原3-5-17 秋葉原LCビル 7F',
+    price: '月3回 13,280円〜',
+    trial: '体験レッスン 0円（50分・手ぶらOK）',
+    features: ['女性専用', 'マシン専門', '秋葉原駅徒歩1分', 'PMA監修'],
+    description: '女性専用マシンピラティス専門スタジオ。秋葉原駅電気街北口から徒歩わずか1分の好立地。2025年10月オープンの新しいスタジオで、PMA加盟団体のプロが監修したレッスンが受けられます。プロフェッショナルグレードのリフォーマーマシンを使用し、音楽に合わせた50分のグループレッスンで楽しくボディメイク。パウダールーム完備で手ぶらで通えます。',
+    access: '秋葉原駅 電気街北口 徒歩1分',
+    address: '東京都千代田区外神田1-18-19 新秋葉原ビル 6F',
     popularPlan: {
-      name: 'フリープラン（月4回）',
-      description: 'マット・マシンどちらも受講可能な人気プラン。ミナミの中心で通いやすい。',
-      price: '月4回 13,200円（税込）',
+      name: 'Standard4（月4回）',
+      description: '月4回の標準プラン。PMA監修のプロフェッショナルグレードリフォーマーレッスン。',
+      price: '月4回 15,280円（税込）+ 施設利用料700円',
     },
     options: [
-      'プライベートレッスン追加（1回 9,900円〜）',
-      'ウェアレンタル（月額 2,200円）',
-      'タオルレンタル（月額 1,100円）',
-      'インストラクター養成コース（別途）',
+      'Light3（月3回 13,280円）',
+      'Full Day（平日デイタイム無制限 19,280円）',
+      'Full（無制限 22,280円）',
+      'レンタル（ウェア・タオル・ソックスあり）',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心（全体の80%）',
-      genderRatio: '女性90% / 男性10%',
+      genderRatio: '女性100%（女性専用）',
+      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'リフレッシュ'],
+    },
+    basicInfo: {
+      hours: '7:30〜22:00',
+      closed: '年末年始（12/29〜1/3）',
+      facilities: ['リフォーマーマシン', '更衣室', 'パウダールーム（アイロン・ドライヤー完備）', 'ウォーターサービス', 'レンタルウェア・タオル・ソックス'],
+    },
+  },
+  {
+    name: 'Rintosull 秋葉原店',
+    image: '/images/pilates3.jpg',
+    rating: 4.6,
+    reviewCount: 128,
+    reviews: [
+      {
+        author: 'Y.N',
+        rating: 5,
+        date: '5日前',
+        text: '秋葉原駅A1出口から徒歩1分！LAVA系列なので安心感があります。月4回8,800円とマシンピラティスとしてはかなりリーズナブル。新規キャンペーンで最初の3ヶ月が月額1,980円でした。',
+      },
+      {
+        author: 'K.M',
+        rating: 4,
+        date: '1週間前',
+        text: '2店舗通い放題プラン13,800円もお得。プレミアムフリーならLAVAのホットヨガも通い放題になるのが嬉しい。目的に合わせた多彩なプログラムが充実しています。',
+      },
+      {
+        author: 'S.A',
+        rating: 4,
+        date: '2週間前',
+        text: '女性専用で周りを気にせず集中できます。施設がきれいで清潔感があります。1回券3,300円で都度利用もできるので、まずは気軽に試せます。',
+      },
+    ],
+    price: '月4回 8,800円〜',
+    trial: 'キャンペーン価格あり（3ヶ月 月額1,980円）',
+    features: ['女性専用', 'LAVA系列', '秋葉原駅徒歩1分', 'コスパ抜群'],
+    description: 'ホットヨガLAVA系列のマシンピラティス専門スタジオ。秋葉原駅A1出口から徒歩1分の好立地。月4回8,800円とマシンピラティスとしてはリーズナブルな料金設定。2店舗通い放題プラン13,800円やプレミアムフリーフルタイム16,800円でLAVA等の系列店も利用可能。新規入会キャンペーンでは3ヶ月間月額1,980円の特別価格も。',
+    access: '秋葉原駅 A1出口 徒歩1分',
+    address: '東京都千代田区神田佐久間町1-8-4 ニュー千代田ビル',
+    popularPlan: {
+      name: 'マシンピラティス月4回プラン',
+      description: 'マシンピラティス月4回。1回あたり2,200円とコスパ抜群。',
+      price: '月4回 8,800円（税込）',
+    },
+    options: [
+      '2店舗通い放題プラン（月額13,800円）',
+      'プレミアムフリーフルタイム（月額16,800円・LAVA等全店利用可）',
+      '1回券（3,300円）',
+      '運営管理費 毎月680円 / 施設使用料 初回2,500円',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心（全体の80%）',
+      genderRatio: '女性100%（女性専用）',
+      purpose: ['ボディメイク', 'ダイエット', 'ヨガ&ピラティス両方', '健康維持'],
+    },
+    basicInfo: {
+      hours: '店舗営業時間（公式サイトでご確認ください）',
+      closed: '毎週日曜日',
+      facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'シャワー'],
+    },
+  },
+  {
+    name: 'Pilates isM 秋葉原店',
+    image: '/images/pilates4.jpg',
+    rating: 4.8,
+    reviewCount: 89,
+    reviews: [
+      {
+        author: 'E.H',
+        rating: 5,
+        date: '1週間前',
+        text: '韓国式ピラティスが体験できる完全パーソナルスタジオ。完全個室なので周りを気にせず集中できます。インストラクターが丁寧で、初心者でも安心でした。',
+      },
+      {
+        author: 'M.S',
+        rating: 5,
+        date: '2週間前',
+        text: '手ぶらで通えるのが嬉しい。ウェアレンタル付きの完全会員制。月4回以上のプランだと「ちょこっとピラティス」のオンラインレッスンも無料で受けられます。',
+      },
+      {
+        author: 'T.N',
+        rating: 4,
+        date: '3週間前',
+        text: '秋葉原駅から徒歩4分。2025年11月にオープンした新しいスタジオで設備がきれい。パーソナルなので自分のペースで進められるのが良いです。',
+      },
+    ],
+    price: '月2回 18,000円〜',
+    trial: '体験レッスンあり',
+    features: ['韓国式ピラティス', '完全パーソナル', '秋葉原駅徒歩4分', '完全個室'],
+    description: '韓国式ピラティスの完全パーソナル専門スタジオ。秋葉原駅から徒歩4分。2025年11月オープン。完全個室のマンツーマンレッスンで、一人ひとりの目的・体力に合わせたオーダーメイドプログラムを提供。完全会員制でウェアレンタル付き、手ぶらで通えます。月4回以上のプランにはオンラインピラティス「ちょこっとピラティス」の特典付き。',
+    access: '秋葉原駅（JR・日比谷線・つくばエクスプレス）徒歩4分 / 岩本町駅（都営新宿線）徒歩5分',
+    address: '東京都千代田区神田佐久間町3-29-2 リヨンドール秋葉原 9F',
+    popularPlan: {
+      name: '月4回プラン',
+      description: '完全パーソナルの韓国式マシンピラティス。オンラインレッスン特典付き。',
+      price: '月4回 30,000円（税込）',
+    },
+    options: [
+      '月2回プラン（18,000円）',
+      '月8回プラン（57,000円）',
+      '都度払い（15,000円）',
+      'オンライン「ちょこっとピラティス」特典（月4回以上）',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心（全体の80%）',
+      genderRatio: '女性80% / 男性20%',
+      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', '美容'],
+    },
+    basicInfo: {
+      hours: '営業時間は公式サイトでご確認ください',
+      closed: '不定休',
+      facilities: ['マシンピラティス器具', '完全個室', 'ウェアレンタル', '更衣室'],
+    },
+  },
+  {
+    name: 'Corelmia Pilates（コアルミア ピラティス）',
+    image: '/images/pilates2.jpg',
+    rating: 4.7,
+    reviewCount: 95,
+    reviews: [
+      {
+        author: 'H.Y',
+        rating: 5,
+        date: '5日前',
+        text: '完全パーソナルのマシンピラティスで、自分の体に合わせたレッスンが受けられます。朝8時から夜21時まで営業しているので仕事帰りにも通えます。体験レッスン1,000円でお得でした。',
+      },
+      {
+        author: 'N.T',
+        rating: 4,
+        date: '1週間前',
+        text: '神田・岩本町エリアからもアクセスが良い。月2回15,000円から始められるので、パーソナルとしてはリーズナブル。インストラクターが丁寧に指導してくれます。',
+      },
+      {
+        author: 'K.O',
+        rating: 5,
+        date: '2週間前',
+        text: '男女利用可能なのが嬉しい。1周年を迎えた実績のあるスタジオで安心感があります。体の歪みが改善されて姿勢が良くなりました。',
+      },
+    ],
+    price: '月2回 15,000円〜',
+    trial: '体験レッスン 1,000円',
+    features: ['完全パーソナル', 'マシン完備', '秋葉原駅徒歩5分', '男女利用可'],
+    description: '完全パーソナルのマシンピラティス専門スタジオ。秋葉原駅から徒歩5分、神田・岩本町エリアからも好アクセス。一人ひとりの目的と体の状態に合わせたオーダーメイドレッスンを提供。男女利用可能で、月2回から月12回まで柔軟なプラン設定。朝8時から夜21時まで営業で忙しい方にも最適。',
+    access: '秋葉原駅 徒歩5分 / 神田駅・岩本町駅からもアクセス可',
+    address: '東京都千代田区神田練塀町66 ヴィラージュ・ド・クロシェビル 4F',
+    popularPlan: {
+      name: '月4回コース',
+      description: '完全パーソナルのマシンピラティス月4回。体の状態に合わせたオーダーメイドレッスン。',
+      price: '月4回 要確認（月2回 15,000円〜）',
+    },
+    options: [
+      '月2回コース（15,000円・1回7,500円）',
+      '月3回・月4回・月6回・月8回・月12回コース',
+      '入会金 20,000円',
+      '体験レッスン 1,000円',
+    ],
+    userProfile: {
+      ageRange: '20代〜50代が中心（全体の75%）',
+      genderRatio: '女性70% / 男性30%',
+      purpose: ['姿勢改善', 'ボディメイク', '体幹強化', 'リハビリ'],
+    },
+    basicInfo: {
+      hours: '8:00〜21:00',
+      closed: '不定休',
+      facilities: ['リフォーマー', 'マシンピラティス器具', '更衣室', 'ロッカー'],
+    },
+  },
+  {
+    name: 'Studio &A（スタジオ アンドエー）',
+    image: '/images/pilates3.jpg',
+    rating: 4.7,
+    reviewCount: 72,
+    reviews: [
+      {
+        author: 'S.M',
+        rating: 5,
+        date: '1週間前',
+        text: '秋葉原スキンクリニックが運営しているので医療的な知識に基づいた指導が受けられます。星静香先生監修のプログラムが本格的。女性専用で安心です。',
+      },
+      {
+        author: 'Y.K',
+        rating: 4,
+        date: '2週間前',
+        text: 'リフォーマーなどの本格的なエクイップメントが揃っています。体が硬い方向けのクラスやアンチエイジングピラティスなど、ニーズに合ったクラスが選べるのが良い。',
+      },
+      {
+        author: 'A.N',
+        rating: 5,
+        date: '3週間前',
+        text: '冷え性改善クラスに通っています。ピラティスだけでなく体質改善にもアプローチしてくれるので、トータルでケアできるのが魅力です。',
+      },
+    ],
+    price: '要確認（公式サイト参照）',
+    trial: '体験レッスンあり',
+    features: ['クリニック運営', '女性専用', '星静香監修', '本格エクイップメント'],
+    description: '秋葉原スキンクリニックが運営する女性専用ピラティススタジオ。星静香監修の下、スプリングなどの補助があるピラティス専門エクイップメントを完備。体が硬い方向けのクラス、冷え性改善クラス、アンチエイジングピラティスなど、ニーズに応じた多彩なレッスンを提供。モデルや医師、理学療法士など現役プロフェッショナルのインストラクターが在籍。',
+    access: '秋葉原駅周辺',
+    address: '東京都千代田区外神田4-6-7 カンダエイトビル 2F',
+    popularPlan: {
+      name: 'グループレッスン',
+      description: '星静香監修のピラティスプログラム。目的別のクラスが充実。',
+      price: '要確認（公式サイト参照）',
+    },
+    options: [
+      'グループレッスン',
+      'パーソナルレッスン',
+      '体が硬い方向けクラス',
+      'アンチエイジングピラティス',
+    ],
+    userProfile: {
+      ageRange: '30代〜50代が中心（全体の70%）',
+      genderRatio: '女性100%（女性専用）',
+      purpose: ['美容', 'アンチエイジング', '体質改善', '姿勢改善'],
+    },
+    basicInfo: {
+      hours: '公式サイトでご確認ください',
+      closed: '不定休',
+      facilities: ['リフォーマー', 'ピラティス専門エクイップメント', '更衣室'],
+    },
+  },
+  {
+    name: 'YARD 御茶ノ水スタジオ',
+    image: '/images/pilates4.jpg',
+    rating: 4.6,
+    reviewCount: 108,
+    reviews: [
+      {
+        author: 'T.I',
+        rating: 5,
+        date: '5日前',
+        text: '淡路町駅A2出口から徒歩1分で通いやすい。ヨガとピラティスの両方が受けられるのが嬉しい。月4回8,800円とリーズナブルで、朝7時から夜22時まで営業。定休日なしで通いやすいです。',
+      },
+      {
+        author: 'K.W',
+        rating: 4,
+        date: '1週間前',
+        text: '秋葉原・神田エリアからもアクセス可能。エアリアルヨガなどユニークなプログラムもあり、ピラティス以外にも楽しめます。スタジオの雰囲気が良くリラックスできます。',
+      },
+      {
+        author: 'M.F',
+        rating: 5,
+        date: '2週間前',
+        text: '御茶ノ水・神田エリアのピラティス・ヨガ専門スタジオとして長く続いている実績があり安心。インストラクターの質が高く、丁寧に指導してくれます。',
+      },
+    ],
+    price: '月4回 8,800円〜',
+    trial: '体験レッスンあり',
+    features: ['ヨガ&ピラティス', '定休日なし', '淡路町駅徒歩1分', 'リーズナブル'],
+    description: 'ヨガ・ピラティス専門スタジオ。淡路町駅A2出口から徒歩1分、小川町駅からも徒歩1分。秋葉原・神田エリアからもアクセス良好。月4回8,800円とリーズナブルで、朝7時から夜22時まで営業、定休日なし。ピラティスに加えてヨガやエアリアルヨガなどユニークなプログラムも提供。仕事帰りやお出かけの合間に通いやすいスタジオです。',
+    access: '東京メトロ丸ノ内線「淡路町駅」A2出口 徒歩1分 / 都営新宿線「小川町駅」A2出口 徒歩1分 / 千代田線「新御茶ノ水駅」A6出口 徒歩3分 / JR「神田駅」北口 徒歩6分',
+    address: '東京都千代田区神田須田町1-4-1 日宝須田町ビル B1F',
+    popularPlan: {
+      name: '月4回プラン',
+      description: 'ヨガ・ピラティスのグループレッスン月4回。定休日なしで通いやすい。',
+      price: '月4回 8,800円（税込）',
+    },
+    options: [
+      '月4回プラン（8,800円）',
+      'その他プランあり（公式サイト参照）',
+      'ヨガ・エアリアルヨガも受講可能',
+      '体験レッスンあり',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心（全体の80%）',
+      genderRatio: '女性80% / 男性20%',
+      purpose: ['ピラティス', 'ヨガ', 'リフレッシュ', '柔軟性向上'],
+    },
+    basicInfo: {
+      hours: '7:00〜22:00',
+      closed: '定休日なし',
+      facilities: ['ピラティススタジオ', 'ヨガスタジオ', 'エアリアルヨガ設備', '更衣室', 'ロッカー'],
+    },
+  },
+  {
+    name: 'zen place pilates 神保町',
+    image: '/images/pilates2.jpg',
+    rating: 4.7,
+    reviewCount: 145,
+    reviews: [
+      {
+        author: 'D.S',
+        rating: 5,
+        date: '1週間前',
+        text: '神保町駅A7出口から徒歩1分。秋葉原からも電車で数分でアクセスできます。全国150以上のスタジオが相互利用できるのが魅力。マットもリフォーマーも選べて充実しています。',
+      },
+      {
+        author: 'R.H',
+        rating: 4,
+        date: '2週間前',
+        text: 'マットグループ月4回9,625円からと大手にしてはリーズナブル。体験当日入会で入会金無料。男性もOKなので気兼ねなく通えます。',
+      },
+      {
+        author: 'Y.O',
+        rating: 5,
+        date: '3週間前',
+        text: 'エデュケーター（インストラクター）の質が高く、体の使い方をしっかり教えてもらえます。25歳以下割引や70歳以上割引もあり、幅広い年齢層が通っています。',
+      },
+    ],
+    price: '月4回 9,625円〜',
+    trial: '体験レッスンあり（当日入会で入会金無料）',
+    features: ['マシン完備', '男性OK', '神保町駅徒歩1分', '全国相互利用可'],
+    description: '全国150以上のスタジオを展開する国内最大級のピラティス専門スタジオ。神保町駅A7出口から徒歩1分。秋葉原エリアからも好アクセス。マットグループ・リフォーマーグループ・プライベートレッスンと豊富なレッスン形式から選べます。各種ピラティスマシンを完備し、世界レベルの資格を持つエデュケーターが丁寧に指導。男性も受講可能です。',
+    access: '都営三田線・新宿線・東京メトロ半蔵門線「神保町駅」A7出口 徒歩1分',
+    address: '東京都千代田区神田神保町エリア（詳細は公式サイトでご確認ください）',
+    popularPlan: {
+      name: 'マットグループ月4回',
+      description: 'マットピラティスのグループレッスン。全国のzen placeスタジオで相互利用可能。',
+      price: '月4回 9,625円（税込）',
+    },
+    options: [
+      'マットグループフリー（月額14,960円）',
+      'リフォーマーグループ月4回（月額15,400円）',
+      'リフォーマーグループ月8回（月額25,300円）',
+      'プライベート月4回（月額33,880円〜）',
+    ],
+    userProfile: {
+      ageRange: '20代〜50代が中心（全体の80%）',
+      genderRatio: '女性85% / 男性15%',
       purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
     },
     basicInfo: {
-      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
+      hours: '平日 8:00〜21:00 / 土日祝 8:00〜17:00（目安）',
       closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'ウォーターサーバー'],
+      facilities: ['リフォーマー', 'トラピーズテーブル', 'コンボチェア', '男女別更衣室', 'ロッカー'],
     },
-  },
-  {
-    name: 'WECLE 秋葉原',
-    image: '/images/pilates3.jpg',
-    rating: 4.7,
-    reviewCount: 204,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: 'AI姿勢分析が面白い！自分の体の癖が数値で分かるので改善しやすいです。秋葉原駅から近くて、道頓堀での食事ついでに通えます。',
-      },
-      {
-        author: 'A.H',
-        rating: 4,
-        date: '2週間前',
-        text: '女性専用なので気兼ねなく通えます。マシンが新しくて使いやすい。体験が500円なので気軽に始められました。',
-      },
-      {
-        author: 'M.M',
-        rating: 5,
-        date: '3週間前',
-        text: '科学的なアプローチで効果が実感できます。秋葉原はミナミの中心で、ショッピングも楽しめます。',
-      },
-    ],
-    price: '月4回 14,800円〜',
-    trial: '体験レッスン 500円',
-    features: ['AI姿勢分析', '最新マシン', '秋葉原駅近', '女性専用'],
-    description: 'AI姿勢分析を導入した最新型ピラティススタジオ。秋葉原駅から徒歩4分。最新のマシンと科学的なアプローチで効果的なボディメイクを実現。女性専用なので安心して通えます。道頓堀、心斎橋が近く、レッスン後のショッピングや食事も楽しめます。',
-    access: '秋葉原駅から徒歩4分',
-    address: '大阪府大阪市中央区秋葉原千日前15-15 OCAT 8F',
-    popularPlan: {
-      name: 'スタンダード4（月4回）',
-      description: 'AI姿勢分析付き。最新マシンで効率的にボディメイク。女性専用で安心。',
-      price: '月4回 14,800円（税込）※AI分析無料',
-    },
-    options: [
-      'AI姿勢分析レポート（月1回無料、追加 1,100円）',
-      'パーソナルトレーニング（1回 11,000円〜）',
-      'ウェア・タオルセット（月額 2,750円）',
-      '栄養カウンセリング（月額 5,500円）',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心（全体の85%）',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'AI分析'],
-    },
-    basicInfo: {
-      hours: '平日 7:00〜22:00 / 土日祝 9:00〜20:00',
-      closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'AI姿勢分析システム', '女性専用'],
-    },
-  },
-  {
-    name: 'ピラティスK 秋葉原',
-    image: '/images/pilates4.jpg',
-    rating: 4.6,
-    reviewCount: 186,
-    reviews: [
-      {
-        author: 'T.W',
-        rating: 5,
-        date: '5日前',
-        text: '暗闇×音楽で楽しく続けられます！秋葉原でリフレッシュできるのが嬉しい。無料体験があって始めやすかったです。',
-      },
-      {
-        author: 'H.I',
-        rating: 4,
-        date: '1週間前',
-        text: '音楽に合わせて動くので飽きない。女性専用で周りを気にせず集中できます。インストラクターが明るくて楽しい雰囲気。',
-      },
-      {
-        author: 'S.N',
-        rating: 5,
-        date: '2週間前',
-        text: 'グループレッスンですが丁寧に見てくれます。暗闇なので初心者でも恥ずかしくない。2ヶ月で体が引き締まってきました。',
-      },
-    ],
-    price: '月4回 15,070円〜',
-    trial: '無料体験レッスン',
-    features: ['音楽×マシン', '女性専用', '暗闇レッスン', 'グループレッスン'],
-    description: '音楽に合わせて楽しくボディメイク。女性専用スタジオで安心。秋葉原駅から徒歩5分。暗闇×音楽×マシンピラティスの融合レッスンが人気。周りの目を気にせず集中できる環境で、楽しみながら理想のボディラインを手に入れられます。',
-    access: '秋葉原駅から徒歩5分',
-    address: '大阪府大阪市中央区秋葉原5-1-60 秋葉原スカイオ 5F',
-    popularPlan: {
-      name: 'マンスリー4メンバー',
-      description: '暗闇×音楽×マシンピラティスの融合レッスン。楽しく続けられると人気のプラン。',
-      price: '月4回 15,070円（税込）',
-    },
-    options: [
-      '追加レッスンチケット（1回 4,400円）',
-      '通い放題プラン変更（月額 22,000円〜）',
-      'ウェア・タオルセット（月額 2,200円）',
-      'ドリンクサービス（月額 1,100円）',
-    ],
-    userProfile: {
-      ageRange: '20代〜30代が中心（全体の85%）',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['楽しく痩せたい', 'ストレス発散', 'ボディメイク', '仲間と運動'],
-    },
-    basicInfo: {
-      hours: '平日 10:00〜22:00 / 土日祝 10:00〜20:00',
-      closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', '暗闇スタジオ', '女性専用'],
-    },
-  },
-  {
-    name: 'the SILK 秋葉原',
-    image: '/images/pilates2.jpg',
-    rating: 4.8,
-    price: '月4回 15,070円〜',
-    trial: '体験レッスン 無料',
-    features: ['暗闇マシン', '音楽', '秋葉原駅近', '女性専用'],
-    description: 'マシンピラティス特化型スタジオ。暗闇×音楽で没入感のあるレッスン。秋葉原駅から徒歩2分の好アクセス。最新のリフォーマーマシンを完備し、音楽に合わせた独自プログラムで楽しくトレーニング。女性専用で初心者も安心。',
-    access: '秋葉原駅から徒歩2分',
-  },
-  {
-    name: 'CLUB PILATES 秋葉原',
-    image: '/images/pilates3.jpg',
-    rating: 4.7,
-    price: '月4回 14,190円〜',
-    trial: '体験レッスン 無料',
-    features: ['アメリカ発', 'グループ&プライベート', '秋葉原駅近', '初心者歓迎'],
-    description: 'アメリカ発の世界最大級ピラティススタジオチェーン。秋葉原駅から徒歩3分。グループレッスンからプライベートレッスンまで幅広く対応。全米No.1のピラティスメソッドで、初心者から上級者まで満足できるプログラムを提供。',
-    access: '秋葉原駅から徒歩3分',
-  },
-  {
-    name: 'ピラティススタジオ B-line 秋葉原',
-    image: '/images/pilates4.jpg',
-    rating: 4.9,
-    price: '1回 8,800円〜',
-    trial: '体験レッスン 5,500円',
-    features: ['完全プライベート', 'マシン完備', '秋葉原駅近', 'オーダーメイド'],
-    description: '完全プライベートレッスン専門スタジオ。秋葉原駅から徒歩4分。一人ひとりの目的・体力に合わせたオーダーメイドレッスン。経験豊富なインストラクターがマンツーマンで指導するので、短期間で効果を実感できます。',
-    access: '秋葉原駅から徒歩4分',
-  },
-  {
-    name: 'Reformer Pilates Akihabara',
-    image: '/images/pilates2.jpg',
-    rating: 4.7,
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['リフォーマー専門', '少人数制', '秋葉原', '初心者歓迎'],
-    description: 'リフォーマー専門のピラティススタジオ。秋葉原エリアに展開。少人数制で丁寧な指導が魅力。最新のリフォーマーマシンを使用した効果的なトレーニングで、姿勢改善やボディメイクを実現します。',
-    access: '秋葉原駅から徒歩5分',
-  },
-  {
-    name: 'Urban Pilates 秋葉原',
-    image: '/images/pilates3.jpg',
-    rating: 4.6,
-    price: '月額 16,500円（通い放題）',
-    trial: '体験レッスン 無料',
-    features: ['24時間営業', '秋葉原駅近', '通い放題', 'マシン完備'],
-    description: '24時間営業のピラティススタジオ。秋葉原駅から徒歩1分の好立地。早朝・深夜でも利用可能なので、忙しい方にも最適。月額定額で通い放題プランあり。最新マシンを完備し、自分のペースでトレーニングできます。',
-    access: '秋葉原駅から徒歩1分',
-  },
-  {
-    name: 'Pilates Studio M 秋葉原',
-    image: '/images/pilates4.jpg',
-    rating: 4.8,
-    price: '月4回 12,980円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['女性専用', '少人数制', '秋葉原', 'マット&マシン'],
-    description: '女性専用・少人数制のアットホームなスタジオ。秋葉原エリアに展開。マットピラティスとマシンピラティスの両方に対応。インストラクターとの距離が近く、丁寧な指導を受けられるのが魅力。初心者でも安心して通えます。',
-    access: '秋葉原駅から徒歩7分',
-  },
-  {
-    name: 'BDC PILATES 秋葉原',
-    image: '/images/pilates2.jpg',
-    rating: 4.7,
-    price: '1回 3,850円〜',
-    trial: '体験レッスン 2,200円',
-    features: ['ダンサー御用達', 'グループレッスン', '秋葉原駅近', '本格的'],
-    description: 'ダンサー御用達の本格的なピラティススタジオ。秋葉原駅から徒歩5分。ダンサーやアスリートも通う質の高いレッスンが特徴。身体の使い方を根本から学べる本格的なプログラムで、美しい姿勢と柔軟な身体を手に入れられます。',
-    access: '秋葉原駅から徒歩5分',
-  },
-  {
-    name: 'Pilates Lab 秋葉原',
-    image: '/images/pilates3.jpg',
-    rating: 4.9,
-    price: '月4回 14,300円〜',
-    trial: '体験レッスン 3,300円',
-    features: ['理学療法士監修', 'リハビリ対応', '秋葉原駅近', 'プライベート'],
-    description: '理学療法士監修のピラティススタジオ。秋葉原駅から徒歩3分。リハビリテーションの知識を活かした安全で効果的なレッスン。腰痛や肩こりなどの身体の不調改善にも対応。医学的根拠に基づいたトレーニングで健康的な身体づくりを実現。',
-    access: '秋葉原駅から徒歩3分',
-  },
-  {
-    name: 'FLOW PILATES 秋葉原',
-    image: '/images/pilates4.jpg',
-    rating: 4.6,
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['ヨガ×ピラティス', 'リラックス', '秋葉原', '初心者歓迎'],
-    description: 'ヨガとピラティスの融合スタジオ。秋葉原エリアに展開。心と身体の両方を整えるプログラムが人気。ヨガの呼吸法とピラティスのコアトレーニングを組み合わせた独自メソッドで、柔軟性と筋力を同時に向上させます。',
-    access: '秋葉原駅から徒歩4分',
-  },
-  {
-    name: 'Body Make Studio Pilates+ 秋葉原',
-    image: '/images/pilates2.jpg',
-    rating: 4.7,
-    price: '月4回 14,850円〜',
-    trial: '体験レッスン 1,500円',
-    features: ['ボディメイク特化', 'マシン完備', '秋葉原駅近', 'パーソナル'],
-    description: 'ボディメイク特化型のピラティススタジオ。秋葉原駅から徒歩4分。ダイエットや引き締めに特化したプログラムが充実。最新マシンとパーソナルトレーニングで、短期間での理想のボディラインを目指せます。',
-    access: '秋葉原駅から徒歩4分',
-  },
-  {
-    name: 'Pilates Studio Harmony 秋葉原',
-    image: '/images/pilates3.jpg',
-    rating: 4.8,
-    price: '月4回 12,100円〜',
-    trial: '体験レッスン 無料',
-    features: ['アットホーム', '少人数制', '秋葉原', 'マット中心'],
-    description: 'アットホームな雰囲気の少人数制スタジオ。秋葉原エリアに展開。マットピラティスを中心に、初心者でも無理なく始められるプログラムを提供。インストラクターとの距離が近く、質問しやすい環境が魅力です。',
-    access: '秋葉原駅から徒歩8分',
-  },
-  {
-    name: 'Pilates & Wellness 秋葉原',
-    image: '/images/pilates4.jpg',
-    rating: 4.6,
-    price: '月4回 13,750円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['ウェルネス', 'マインドフルネス', '秋葉原駅近', '女性専用'],
-    description: 'ウェルネス志向のピラティススタジオ。秋葉原駅から徒歩5分。ピラティスにマインドフルネスを取り入れた独自プログラム。ミナミの中心・秋葉原で、ストレス解消や心身のバランスを整えられます。女性専用で安心。',
-    access: '秋葉原駅から徒歩5分',
   },
 ]
 
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！秋葉原エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。経験豊富なインストラクターが基礎から丁寧に指導してくれるので、運動が苦手な方でも安心して始められますよ。',
+    answer: '大丈夫です！秋葉原エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。the SILKは初心者が80%を占めており、Rintosullも初心者歓迎です。経験豊富なインストラクターが基礎から丁寧に指導してくれるので安心です。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。マットは場所を選ばず自宅でも続けやすいのが特徴です。',
+    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。秋葉原エリアではマシン専門スタジオが多いです。',
   },
   {
     question: '秋葉原のピラティススタジオの料金相場は？',
-    answer: '秋葉原エリアのピラティススタジオの料金相場は、月4回で12,000円〜16,000円程度。体験レッスンは無料〜3,000円が一般的です。プライベートレッスンは1回8,000円〜12,000円が相場となっています。',
+    answer: '秋葉原エリアの料金相場は、グループレッスン月4回で8,800円〜15,300円程度。Rintosullは月4回8,800円と格安。パーソナルレッスンは月4回30,000円前後が相場です。体験レッスンは無料〜1,000円と気軽に試せます。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -315,15 +407,15 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内で確認してくださいね。',
+    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。the SILK秋葉原店は手ぶらOKの無料体験、Corelmia Pilatesは1,000円で体験できます。ウェアレンタルがあるスタジオも多いので、各スタジオの案内を確認してくださいね。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。ピラティスは筋力強化、ヨガは心身のバランスを整えることが主な目的。どちらも素晴らしいエクササイズなので、目的に合わせて選びましょう。',
+    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。両方やりたい方はYARD御茶ノ水やRintosullのプレミアムフリープランがおすすめです。',
   },
   {
     question: 'ピラティスで肩こりや腰痛は改善しますか？',
-    answer: 'はい、改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。デスクワークが多い方や立ち仕事の方にもおすすめです。',
+    answer: 'はい、改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。Studio &Aでは体質改善にもアプローチしたプログラムを提供しています。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -331,7 +423,7 @@ const faqs = [
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'それぞれ良さがあります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方におすすめ。グループは料金が安く、仲間と楽しく続けられるのが魅力。まずは体験で両方試してみるのがいいですよ。',
+    answer: 'それぞれ良さがあります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、Pilates isMやCorelmia Pilatesがおすすめ。グループは料金が安く、Rintosullなら月4回8,800円から。まずは体験で両方試してみるのがいいですよ。',
   },
 ]
 
@@ -344,9 +436,9 @@ export default function AkihabaraPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月04日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月08日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス秋葉原おすすめ15選！<br className="hidden md:block" />
+              【2026最新】ピラティス秋葉原おすすめ7選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -387,7 +479,7 @@ export default function AkihabaraPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、秋葉原エリアでおすすめのピラティススタジオ15選をまとめました。
+              そこでこの記事では、秋葉原エリアでおすすめのピラティススタジオ7選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -406,7 +498,7 @@ export default function AkihabaraPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
-                  <span>道頓堀・心斎橋に近いスタジオがいい</span>
+                  <span>JR・地下鉄・つくばエクスプレスから通いやすいスタジオがいい</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -424,7 +516,7 @@ export default function AkihabaraPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              秋葉原のおすすめピラティススタジオ15選
+              秋葉原のおすすめピラティススタジオ7選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (
@@ -444,34 +536,34 @@ export default function AkihabaraPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額12,000円以下で通える格安スタジオ。体験レッスン無料のスタジオも多数。コスパ重視の方におすすめ。
+                  月額1万円以下で通えるリーズナブルなスタジオ。コスパ重視の方におすすめ。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Pilates Studio Harmony 秋葉原</li>
-                  <li className="text-warm-700">• Reformer Pilates Akihabara</li>
-                  <li className="text-warm-700">• FLOW PILATES 秋葉原</li>
+                  <li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li>
+                  <li className="text-warm-700">• YARD 御茶ノ水（月4回 8,800円〜）</li>
+                  <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">マシン完備</h3>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  最新のリフォーマーマシンを完備。マシンピラティスを本格的に学びたい方におすすめ。
+                  完全マンツーマンで効率的にボディメイク。短期間で結果を出したい方に。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates 秋葉原</li>
-                  <li className="text-warm-700">• WECLE 秋葉原</li>
-                  <li className="text-warm-700">• the SILK 秋葉原</li>
+                  <li className="text-warm-700">• Pilates isM（韓国式パーソナル）</li>
+                  <li className="text-warm-700">• Corelmia Pilates（月2回 15,000円〜）</li>
+                  <li className="text-warm-700">• zen place プライベート</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・ミナミの中心</h3>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  秋葉原駅から徒歩3分以内。電気店・アニメショップ・メイドカフェ、国内外の観光客し、ショッピングや食事も楽しめる。
+                  秋葉原駅から徒歩5分以内。JR・地下鉄・つくばエクスプレスが利用可能。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Urban Pilates 秋葉原（駅徒歩1分）</li>
-                  <li className="text-warm-700">• the SILK 秋葉原（駅徒歩2分）</li>
-                  <li className="text-warm-700">• zen place pilates 秋葉原（駅徒歩3分）</li>
+                  <li className="text-warm-700">• the SILK（秋葉原駅 徒歩1分）</li>
+                  <li className="text-warm-700">• Rintosull（秋葉原駅 徒歩1分）</li>
+                  <li className="text-warm-700">• Pilates isM（秋葉原駅 徒歩4分）</li>
                 </ul>
               </div>
             </div>
@@ -509,27 +601,28 @@ export default function AkihabaraPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜12,000円</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。初心者向けの基本的なレッスンが多い。
+                  グループレッスン中心。マシンピラティスやヨガも。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Pilates Studio Harmony</li>
-                  <li>• Reformer Pilates</li>
+                  <li>• Rintosull（8,800円〜）</li>
+                  <li>• YARD 御茶ノ水（8,800円〜）</li>
+                  <li>• zen place pilates（9,625円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 12,000〜16,000円</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜16,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン完備の大手スタジオ。グループ・プライベート選択可。
+                  マシン完備の大手スタジオ。女性専用が多い。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates</li>
-                  <li>• ピラティスK</li>
-                  <li>• the SILK</li>
+                  <li>• the SILK（13,280円〜）</li>
+                  <li>• Rintosull 通い放題（13,800円）</li>
+                  <li>• Corelmia Pilates（15,000円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -539,8 +632,8 @@ export default function AkihabaraPage() {
                   完全プライベートレッスン。短期集中で結果を出したい方向け。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• B-line（1回8,800円）</li>
-                  <li>• Pilates Lab</li>
+                  <li>• Pilates isM（月4回 30,000円）</li>
+                  <li>• zen place プライベート（33,880円〜）</li>
                 </ul>
               </div>
             </div>
@@ -569,7 +662,7 @@ export default function AkihabaraPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  秋葉原エリアの料金相場は月4回で12,000円〜16,000円程度。無理なく継続できる予算を決めましょう。料金だけでなく、入会金、マット・ウェアのレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  秋葉原エリアの料金相場はグループレッスン月4回で8,800円〜15,300円程度。パーソナルは月4回30,000円前後。無理なく継続できる予算を決めましょう。入会金やレンタル料も確認を。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -578,7 +671,7 @@ export default function AkihabaraPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。多くのスタジオが無料〜1,000円程度で体験レッスンを提供しているので、気軽に試してみてくださいね。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。the SILKは無料体験、Corelmia Pilatesは1,000円で体験できます。スタジオの雰囲気やインストラクターとの相性は実際に行ってみないとわかりませんよ。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -587,7 +680,7 @@ export default function AkihabaraPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  どんなに良いスタジオでも、通いにくい場所にあると続きません。秋葉原はミナミの中心で、JR山手線・総武線、地下鉄日比谷線、つくばエクスプレスが利用可能。オタク文化の聖地です。駅から近い場所を選ぶと、道頓堀・心斎橋でのショッピングや食事ついでにも通えて便利ですよ。
+                  どんなに良いスタジオでも、通いにくい場所にあると続きません。秋葉原はJR山手線・総武線、東京メトロ日比谷線、つくばエクスプレスが乗り入れ、アクセス抜群。the SILKとRintosullは駅徒歩1分と特に便利です。
                 </p>
               </div>
             </div>
@@ -651,8 +744,8 @@ export default function AkihabaraPage() {
               初回限定の体験レッスン無料〜1,000円。<br />
               まずは気軽に体験してみましょう。
             </p>
-            <Link 
-              href="/#studios" 
+            <Link
+              href="/#studios"
               className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded"
             >
               おすすめスタジオ一覧に戻る
