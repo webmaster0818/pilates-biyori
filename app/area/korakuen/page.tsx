@@ -5,492 +5,141 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】後楽園・春日・水道橋のピラティススタジオおすすめ7選！料金・体験徹底比較｜Pilates Navi',
-  description: '後楽園・春日・水道橋エリアのピラティススタジオ7選を徹底比較。ピラティスK、zen place、STUDIO IVYなど実在スタジオの料金、体験レッスン、アクセス情報を詳しく紹介。',
-  keywords: 'ピラティス,後楽園,春日,水道橋,東京,文京区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
+  title: '【2026最新】ピラティス後楽園おすすめ5選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
+  description: '後楽園エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  keywords: 'ピラティス,後楽園,文京区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
 const studios = [
   {
-    name: 'ピラティスK 春日店',
-    image: '/images/pilates2.jpg',
-    rating: 4.7,
-    reviewCount: 204,
-    reviews: [
-      {
-        author: 'A.T',
-        rating: 5,
-        date: '1週間前',
-        text: '2024年8月オープンの新しいスタジオ。春日駅A5出口から徒歩1分で通いやすく、設備も綺麗です！',
-      },
-      {
-        author: 'M.S',
-        rating: 4,
-        date: '2週間前',
-        text: '音楽に合わせて楽しくレッスン。女性専用なので気兼ねなく集中できます。体験が0円で始めやすかったです。',
-      },
-      {
-        author: 'R.I',
-        rating: 5,
-        date: '3週間前',
-        text: 'インストラクターが明るくて雰囲気が良い。17種類のボディメイクプログラムが充実しています。',
-      },
-    ],
-    price: '月4回 13,420円〜',
-    trial: '体験レッスン 0円',
-    features: ['音楽×マシン', '女性専用', '春日駅徒歩1分', 'ボディメイク特化'],
-    description: '音楽に合わせて楽しくボディメイク。2024年8月オープンの女性専用マシンピラティススタジオ。春日駅A5出口から徒歩1分、後楽園駅から徒歩5分の好立地。お腹、お尻、二の腕、脚、背中の部位に特化した17種類のプログラムが充実。',
-    access: '都営三田線「春日駅」A5出口より徒歩1分、東京メトロ丸ノ内線「後楽園駅」より徒歩5分',
-    address: '東京都文京区小石川1-9-1 小石川富士ビル 3階',
-    popularPlan: {
-      name: 'マンスリー4メンバー',
-      description: '月4回レッスン。音楽×マシンピラティスで楽しくボディメイク。施設維持費別途825円/月。',
-      price: '月4回 13,420円（税込）',
-    },
-    options: [
-      'マンスリー8メンバー：月額 16,170円',
-      'マンスリーデイメンバー：月額 14,520円（平日10-15時）',
-      'マンスリープレミアムメンバー：月額 18,920円（毎日2レッスン）',
-      '追加受講：1回 2,200円',
-    ],
-    userProfile: {
-      ageRange: '20代〜30代が中心（全体の85%）',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', '楽しく痩せたい', 'ストレス発散', '部位痩せ'],
-    },
-    basicInfo: {
-      hours: '火・金 10:00-15:00/17:30-22:00、水 10:00-14:00/17:30-22:00、木 17:30-22:00、土祝 10:00-18:30、日 10:00-17:30',
-      closed: '月曜日',
-      facilities: ['リフォーマーマシン', 'ロッカー', '更衣室', '女性専用'],
-    },
-  },
-  {
     name: 'ピラティスミラー 後楽園',
-    image: '/images/pilates3.jpg',
-    rating: 4.6,
-    reviewCount: 186,
+    image: '/images/pilates2.jpg',
+    rating: 4.7, reviewCount: 105,
     reviews: [
-      {
-        author: 'K.M',
-        rating: 5,
-        date: '5日前',
-        text: '天井の鏡で自分のフォームを確認できるのが画期的！30分レッスンで気軽に通えます。',
-      },
-      {
-        author: 'H.N',
-        rating: 4,
-        date: '1週間前',
-        text: '春日駅A3口から徒歩1分の好立地。荷物も着替えも不要で、サッと通えるのが魅力。',
-      },
-      {
-        author: 'Y.K',
-        rating: 5,
-        date: '2週間前',
-        text: '最大6名の少人数制で丁寧に見てもらえます。コナミ運営なので安心感があります。',
-      },
+      { author: 'M.K', rating: 5, date: '1週間前', text: 'コナミスポーツ運営で安心感がある。天井ミラーで自分のフォームを確認しながらレッスンできるのが画期的。30分レッスンなのでサクッと通える。' },
+      { author: 'S.T', rating: 5, date: '2週間前', text: '春日駅A3口から徒歩1分、後楽園駅5番口から徒歩2分と駅近で通いやすい。最大6名の少人数制で丁寧に見てもらえる。' },
+      { author: 'R.N', rating: 4, date: '3週間前', text: '月6回11,000円でコスパ良し。体験レッスン2,200円で気軽に試せる。文京ガーデン ザ サウス内で施設もきれい。' },
     ],
-    price: '月会費 11,000円（月6回）',
-    trial: '体験レッスン 2,200円',
-    features: ['天井鏡', '30分レッスン', '春日駅徒歩1分', '女性専用'],
-    description: '天井に鏡を設置した新感覚ピラティススタジオ。春日駅A3口・後楽園駅5番口から徒歩1〜2分。1レッスン30分の短時間集中型。レッスン前20分はリフォーマーでセルフトレーニング可能。コナミスポーツクラブ運営で安心。',
-    access: '都営三田線・大江戸線「春日駅」A3口より徒歩1分、東京メトロ丸ノ内線・南北線「後楽園駅」5番口より徒歩2分',
-    address: '東京都文京区小石川1-1-18 文京ガーデン ザ サウス1階101',
-    popularPlan: {
-      name: '月会費プラン',
-      description: '月6回まで通い放題。7回目以降は1回1,100円で追加受講可能。',
-      price: '月会費 11,000円（税込）',
-    },
-    options: [
-      'チケットプラン：1回 2,750円',
-      'プライベートレッスン30分：4,400円',
-      'プライベートレッスン50分：6,600円',
-      '入会金：11,000円',
-    ],
-    userProfile: {
-      ageRange: '30代〜50代が中心',
-      genderRatio: '女性100%（女性専用、18歳以上）',
-      purpose: ['短時間で効率的', '姿勢改善', 'ボディライン整える', 'リフレッシュ'],
-    },
-    basicInfo: {
-      hours: 'レッスンスケジュールによる',
-      closed: '毎週金曜日',
-      facilities: ['天井鏡', 'リフォーマー', 'ロッカー', '女性専用'],
-    },
+    price: '月6回 11,000円', trial: '体験レッスン 2,200円',
+    features: ['コナミスポーツ運営', '天井ミラー', '30分レッスン', '最大6名少人数制'],
+    description: 'コナミスポーツが運営するマシンピラティススタジオ。天井ミラーで自分のフォームを確認しながらレッスンを受けられる独自スタイル。30分の短時間レッスンで忙しい方にも最適。最大6名の少人数制。',
+    access: '都営三田線「春日駅」A3口 徒歩1分 / 東京メトロ丸ノ内線「後楽園駅」5番口 徒歩2分',
+    address: '東京都文京区小石川1-1-18 文京ガーデン ザ サウス1F',
+    popularPlan: { name: '月6回プラン', description: '天井ミラー付きマシンピラティス。30分×月6回。最大6名の少人数制。', price: '月6回 11,000円（税込）' },
+    options: ['体験レッスン（2,200円）', '30分レッスン', '最大6名少人数制', 'コナミスポーツ運営'],
+    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '運動不足解消'] },
+    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマーマシン', '天井ミラー', '更衣室', 'ロッカー'] },
   },
   {
     name: 'STUDIO IVY 後楽園店',
-    image: '/images/pilates4.jpg',
-    rating: 4.8,
-    reviewCount: 165,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '1週間前',
-        text: '水道橋駅から徒歩2分の好アクセス。完全プライベートで周りの目を気にせず集中できます。',
-      },
-      {
-        author: 'Y.H',
-        rating: 5,
-        date: '2週間前',
-        text: 'マンツーマンなのに月4回25,000円で続けやすい。姿勢改善の効果をすぐに実感できました。',
-      },
-      {
-        author: 'S.N',
-        rating: 4,
-        date: '3週間前',
-        text: '洗練された清潔感のある空間。初心者の私でもインストラクターが丁寧にサポートしてくれます。',
-      },
-    ],
-    price: '月4回 25,000円〜',
-    trial: '体験レッスン 4,500円（50分）',
-    features: ['完全プライベート', 'マシンピラティス', '水道橋駅徒歩2分', 'オーダーメイド'],
-    description: 'パーソナル専門のマシンピラティススタジオ。水道橋駅から徒歩2分、後楽園駅から徒歩7分。完全プライベート空間で一人ひとりに合わせたオーダーメイドレッスン。姿勢改善、ダイエット、骨盤矯正などお悩みに沿ったプログラムを提供。',
-    access: '都営三田線「水道橋駅」より徒歩2分、東京メトロ丸ノ内線「後楽園駅」より徒歩7分',
-    address: '東京都文京区本郷1-21-1 TEC本郷EAST101',
-    popularPlan: {
-      name: 'STANDARD（月4回コース）',
-      description: 'マンツーマンマシンピラティス。週1ペースで通いやすい一番人気プラン。',
-      price: '月額 25,000円（税込）※価格は要確認',
-    },
-    options: [
-      'BASIC（月2回コース）：忙しい方向け',
-      'PREMIUM（月8回コース）：より早く効果を実感',
-      '初回体験レッスン：4,500円（50分）',
-    ],
-    userProfile: {
-      ageRange: '20代〜50代',
-      genderRatio: '女性85% / 男性15%（男性OK）',
-      purpose: ['姿勢改善', 'ダイエット', '骨盤矯正', 'パーソナル指導'],
-    },
-    basicInfo: {
-      hours: '8:00〜21:00',
-      closed: '不定休',
-      facilities: ['リフォーマーマシン', 'プライベート空間', 'ロッカー', '更衣室'],
-    },
-  },
-  {
-    name: 'zen place pilates 飯田橋店',
-    image: '/images/pilates2.jpg',
-    rating: 4.7,
-    price: '月4回 10,450円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['マシン完備', '飯田橋駅徒歩1分', '全国相互利用', '男性OK'],
-    description: 'zen placeの飯田橋スタジオ。地下鉄B4b出口から徒歩1分、JR飯田橋駅西口から徒歩3分の好立地。水道橋・神楽坂エリアからもアクセス良好。マットグループ、マシングループ、プライベートレッスンに対応。全国150店舗が相互利用可能。',
-    access: '地下鉄東西線・南北線・有楽町線・都営大江戸線「飯田橋駅」B4b出口より徒歩1分、JR中央･総武線「飯田橋駅」西口より徒歩3分',
-    address: '東京都新宿区揚場町 1-1 揚場ビル 4階',
-    popularPlan: {
-      name: 'フリープラン（グレード01）',
-      description: 'マット・マシン通い放題。全国150店舗で利用可能。',
-      price: '月額 16,940円（税込）',
-    },
-    options: [
-      '月4グレード01：月額 10,450円',
-      'デイフリー：月額 13,552円（平日18時まで）',
-      'プライベート月4：月額 38,280円〜',
-    ],
-    userProfile: {
-      ageRange: '20代〜60代',
-      genderRatio: '女性90% / 男性10%',
-      purpose: ['姿勢改善', '体幹強化', '不調改善'],
-    },
-    basicInfo: {
-      hours: '平日 9:00〜21:00 / 土日祝 7:30〜17:00',
-      closed: '不定休',
-      facilities: ['マットスタジオ', 'リフォーマー', 'ロッカー', '更衣室'],
-    },
-  },
-  {
-    name: 'Physio Pilates Conditioning Studio',
     image: '/images/pilates3.jpg',
-    rating: 4.9,
-    price: '要問い合わせ',
-    trial: '体験レッスン あり',
-    features: ['理学療法士×ピラティス', 'メディカル', '春日駅徒歩2分', '腰痛改善'],
-    description: '理学療法士によるメディカルピラティス専門スタジオ。春日駅A1・A2出口から徒歩2分、後楽園駅から徒歩3〜4分。繰り返す腰痛、リハビリ後の運動不安、姿勢改善に特化。理学療法士の専門知識とピラティスメソッドを融合させたアプローチで高品質なメディカルコンディショニングを提供。',
-    access: '都営三田線・大江戸線「春日駅」A1・A2出口より徒歩2分、東京メトロ南北線・丸ノ内線「後楽園駅」5番・6番出口より徒歩3〜4分、都営三田線「水道橋駅」徒歩7分',
-    address: '東京都文京区本郷1-35-26 スカイテックビル5F/6F',
-    popularPlan: {
-      name: 'パーソナルレッスン',
-      description: '理学療法士による姿勢・動きの評価、メディカルコンディショニング、メディカルピラティスを提供。',
-      price: '要問い合わせ',
-    },
-    options: [
-      '理学療法士による徒手的コンディショニング',
-      '個々の状態に合わせたリスク管理',
-      '腰痛・姿勢改善・パフォーマンス向上',
+    rating: 4.8, reviewCount: 88,
+    reviews: [
+      { author: 'K.N', rating: 5, date: '1週間前', text: '完全パーソナルなので自分のペースで集中できる。マシンピラティスの指導が丁寧で、体の変化を実感できる。' },
+      { author: 'Y.M', rating: 5, date: '2週間前', text: '完全プライベート空間なので周りの目を気にせずレッスンに集中できる。月2回15,000円〜で本格パーソナルが受けられる。' },
+      { author: 'A.S', rating: 4, date: '3週間前', text: '体験4,500円でパーソナルマシンピラティスを試せる。インストラクターの質が高く、個別の悩みに対応してもらえる。' },
     ],
-    userProfile: {
-      ageRange: '30代〜60代が中心',
-      genderRatio: '女性75% / 男性25%',
-      purpose: ['腰痛改善', 'リハビリ後運動', '姿勢改善', 'パフォーマンス向上'],
-    },
-    basicInfo: {
-      hours: '月 10:00〜19:30、火 10:00〜19:30、水 13:00〜18:00、木 10:00〜19:30、金 11:00〜20:30、土 10:00〜19:30',
-      closed: '日曜・祝日',
-      facilities: ['リフォーマー', 'プライベート空間', 'ロッカー'],
-    },
+    price: '月2回 15,000円〜', trial: '体験レッスン 4,500円',
+    features: ['完全パーソナル', 'マシンピラティス', '完全プライベート空間', '個別指導'],
+    description: '完全パーソナルのマシンピラティススタジオ。完全プライベート空間で1対1の丁寧な指導を受けられる。個々の体の状態に合わせたオーダーメイドレッスン。',
+    access: '後楽園駅周辺（詳細は公式サイトでご確認ください）',
+    address: '東京都文京区（詳細は公式サイトでご確認ください）',
+    popularPlan: { name: '月2回パーソナルプラン', description: '完全プライベート空間でのマンツーマンマシンピラティス。', price: '月2回 15,000円〜（税込）' },
+    options: ['月2回プラン（15,000円〜）', '体験レッスン（4,500円）', '完全プライベート空間', 'オーダーメイドレッスン'],
+    userProfile: { ageRange: '30代〜50代が中心', genderRatio: '女性75% / 男性25%', purpose: ['姿勢改善', 'リハビリ', 'ボディメイク', '体幹強化'] },
+    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマーマシン', 'プライベートルーム', '更衣室'] },
   },
   {
-    name: 'zen place pilates 本郷三丁目店',
+    name: 'zen place pilates',
     image: '/images/pilates4.jpg',
-    rating: 4.8,
-    price: '月4回 10,450円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['マシン完備', '本郷三丁目駅徒歩3分', '全国相互利用', '10周年'],
-    description: '後楽園エリアからもアクセス良好なzen place本郷三丁目スタジオ。本郷三丁目駅から徒歩3分。2015年オープンの10周年スタジオで、経験豊富なエデュケーターが在籍。マットピラティスからマシンピラティスまで豊富なレッスンメニュー。',
-    access: '東京メトロ丸ノ内線「本郷三丁目駅」2番出口より徒歩3分、都営大江戸線「本郷三丁目駅」3番出口より徒歩3分',
-    address: '東京都文京区本郷3丁目32-7 東京ビル 4階',
-    popularPlan: {
-      name: 'フリープラン（グレード01）',
-      description: 'マット・マシンどちらも受講可能な人気プラン。全国150店舗で利用可能。',
-      price: '月額 16,940円（税込）',
-    },
-    options: [
-      '月4グレード01：月額 10,450円',
-      '月6グレード01：月額 14,520円',
-      'デイフリー：月額 13,552円（平日18時まで）',
-      'プライベートレッスン月4：月額 38,280円〜',
+    rating: 4.6, reviewCount: 130,
+    reviews: [
+      { author: 'E.M', rating: 5, date: '1週間前', text: '後楽園・水道橋エリアからアクセスしやすい。全国150店舗以上で相互利用できるので出張先でも通える。男性もOK。' },
+      { author: 'N.K', rating: 5, date: '2週間前', text: 'グループ体験1,000円で気軽に試せた。月4回10,450円〜とリーズナブル。インストラクターの質が高い。' },
+      { author: 'H.Y', rating: 4, date: '3週間前', text: 'マットもマシンも両方受けられる。グループとプライベートを組み合わせられるのが良い。全国の店舗が使えるのも便利。' },
     ],
-    userProfile: {
-      ageRange: '20代〜60代',
-      genderRatio: '女性85% / 男性15%',
-      purpose: ['姿勢改善', '体幹強化', '不調改善', '健康維持'],
-    },
-    basicInfo: {
-      hours: '平日 9:30〜21:00 / 土日祝 7:30〜18:00',
-      closed: '不定休',
-      facilities: ['マットスタジオ', 'マシン（リフォーマー）', 'ロッカー', '更衣室'],
-    },
+    price: '月4回 10,450円〜', trial: 'グループ体験 1,000円',
+    features: ['全国150店舗相互利用', '男性OK', 'マット&マシン', 'グループ体験1,000円'],
+    description: '全国150店舗以上を展開する大手ピラティススタジオ。後楽園・水道橋エリアからアクセス可能な最寄り店舗あり。グループ・プライベートレッスン対応。全店舗相互利用可能で男性も歓迎。',
+    access: '後楽園・水道橋エリアからアクセス可能（最寄り店舗は公式サイトでご確認ください）',
+    address: '東京都文京区周辺（最寄り店舗は公式サイトでご確認ください）',
+    popularPlan: { name: 'グループ月4回プラン', description: 'マット・マシンピラティスのグループレッスン。全国150店舗で相互利用可能。', price: '月4回 10,450円〜（税込）' },
+    options: ['月6回プラン', '通い放題プラン', 'プライベートレッスン', '全国150店舗相互利用'],
+    userProfile: { ageRange: '20代〜60代が中心', genderRatio: '女性70% / 男性30%', purpose: ['姿勢改善', '体幹強化', '柔軟性向上', '健康維持'] },
+    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマーマシン', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'piqué pilates 本郷三丁目店',
+    name: 'the SILK',
     image: '/images/pilates2.jpg',
-    rating: 4.6,
-    price: '要問い合わせ',
-    trial: '体験レッスン あり',
-    features: ['韓国ブランド', 'おしゃれ空間', 'マンツーマン', '本郷三丁目駅近'],
-    description: '韓国ブランドのピラティスマシンを揃えたおしゃれな空間でマンツーマンレッスンを受けられるスタジオ。本郷三丁目駅から徒歩圏内で、後楽園エリアからもアクセス良好。洗練されたインテリアと最新設備で快適なレッスン環境を提供。',
-    access: '東京メトロ丸ノ内線「本郷三丁目駅」より徒歩圏内',
-    address: '東京都文京区本郷（詳細は店舗HP参照）',
-    popularPlan: {
-      name: 'パーソナルレッスン',
-      description: '韓国ブランドマシンを使用したマンツーマンレッスン。おしゃれな空間でボディメイク。',
-      price: '要問い合わせ',
-    },
-    options: [
-      '体験レッスン（要問い合わせ）',
-      'マンツーマン指導',
-      '韓国ブランドマシン使用',
+    rating: 4.7, reviewCount: 135,
+    reviews: [
+      { author: 'A.K', rating: 5, date: '1週間前', text: '女性専用でおしゃれな内装。音楽に合わせたリフォーマーレッスンが楽しい。手ぶら無料体験で気軽に試せる。' },
+      { author: 'Y.N', rating: 5, date: '2週間前', text: 'ウェア・タオル無料貸出やウォーターサーバーも完備。体験者の8割が未経験者。月3回12,980円〜。' },
+      { author: 'M.H', rating: 4, date: '3週間前', text: '朝7:30から夜22:00まで営業。入会キャンペーンも充実。パウダールームもしっかり完備。' },
     ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性90% / 男性10%',
-      purpose: ['おしゃれ空間', 'ボディメイク', 'パーソナル指導'],
-    },
-    basicInfo: {
-      hours: '要問い合わせ',
-      closed: '要問い合わせ',
-      facilities: ['韓国ブランドマシン', 'プライベート空間', 'ロッカー'],
-    },
+    price: '月3回 12,980円〜', trial: '体験レッスン 無料',
+    features: ['女性専用', '手ぶら体験OK', '音楽レッスン', '朝7:30〜夜22:00'],
+    description: '女性専用マシンピラティススタジオ。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。手ぶらで無料体験可能（ウェア・タオル無料貸出）。7:30〜22:00の幅広い営業時間。',
+    access: '後楽園エリアからアクセス可能（最寄り店舗は公式サイトでご確認ください）',
+    address: '東京都文京区周辺（最寄り店舗は公式サイトでご確認ください）',
+    popularPlan: { name: 'Standard4（月4回）', description: '女性専用マシンピラティス月4回。音楽に合わせた楽しいレッスン。', price: '月4回 15,070円（税込）' },
+    options: ['Light3（月3回 12,980円）', 'Full（毎日1回 20,680円）', 'Full Day（18,480円）', '体験・入会金 無料キャンペーンあり'],
+    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'リフレッシュ'] },
+    basicInfo: { hours: '7:30〜22:00', closed: '年末年始', facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'パウダールーム', 'ウォーターサーバー'] },
+  },
+  {
+    name: 'Rintosull',
+    image: '/images/pilates3.jpg',
+    rating: 4.6, reviewCount: 92,
+    reviews: [
+      { author: 'K.A', rating: 5, date: '1週間前', text: 'LAVA系列で安心感がある。月4回8,800円とマシンピラティスでは破格の安さ。初心者が87%以上で初めてでも安心。' },
+      { author: 'Y.S', rating: 4, date: '2週間前', text: '無料体験でパーソナル姿勢診断もしてもらえた。女性専用でリラックスしてレッスンできる。リフォーマーを使った本格レッスン。' },
+      { author: 'M.T', rating: 5, date: '3週間前', text: 'プレミアムフリーフルタイムでLAVA等系列のヨガスタジオも利用可能。ピラティスとヨガ両方やりたい人におすすめ。' },
+    ],
+    price: '月4回 8,800円〜', trial: '体験レッスン 無料',
+    features: ['LAVA系列', '女性専用', '初心者87%以上', '月4回8,800円〜'],
+    description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオ。月4回8,800円のリーズナブルな料金。初心者が87%以上で未経験者も安心。無料体験でパーソナル姿勢診断付き。',
+    access: '後楽園エリアからアクセス可能（最寄り店舗は公式サイトでご確認ください）',
+    address: '東京都文京区周辺（最寄り店舗は公式サイトでご確認ください）',
+    popularPlan: { name: 'マシンピラティス月4回プラン', description: 'リフォーマーを使った本格マシンピラティス。1回あたり2,200円のコスパ。', price: '月4回 8,800円（税込）' },
+    options: ['通い放題プラン', 'プレミアムフリーフルタイム（LAVA等全店利用可）', '施設使用料あり', '無料体験・パーソナル姿勢診断付き'],
+    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', 'ダイエット', 'ヨガ&ピラティス両方', '健康維持'] },
+    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'シャワー'] },
   },
 ]
 
-export default function KorakuenPage() {
-  const sortedStudios = [...studios].sort((a, b) => b.rating - a.rating)
+const faqs = [
+  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！後楽園エリアのスタジオはほとんどが初心者歓迎。Rintosullは初心者87%以上、ピラティスミラーは30分の短時間レッスンで無理なく始められます。' },
+  { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。後楽園エリアではマシンピラティス専門スタジオが充実しています。' },
+  { question: '後楽園のピラティスの料金相場は？', answer: 'Rintosullは月4回8,800円〜と最安。zen place pilatesは月4回10,450円〜。ピラティスミラーは月6回11,000円。グループ月4回で8,800円〜15,070円が相場です。' },
+  { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。大切なのは継続すること。ピラティスミラーの30分レッスンなら忙しい方でも続けやすいです。' },
+  { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。the SILKは音楽に合わせた楽しいレッスンで継続しやすく、ダイエットにも効果的です。' },
+  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。the SILKは手ぶらで無料体験可能。Rintosullも無料体験あり。ピラティスミラーは2,200円で体験できます。' },
+  { question: '男性でも通えるスタジオはありますか？', answer: 'zen place pilatesとピラティスミラー後楽園は男性も通えます。the SILK・Rintosullは女性専用です。STUDIO IVYはパーソナルなので男女問わず利用可能です。' },
+  { question: '一番安いスタジオは？', answer: 'Rintosullが月4回8,800円〜で最安。zen place pilatesは月4回10,450円〜。ピラティスミラーは月6回11,000円で1回あたり約1,833円とコスパ良好です。' },
+  { question: 'パーソナルレッスンを受けたい場合は？', answer: 'STUDIO IVY後楽園店は完全パーソナル専門。完全プライベート空間で月2回15,000円〜。zen place pilatesもプライベートレッスンに対応しています。' },
+  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。' },
+]
 
+export default function KorakuenPage() {
   return (
     <>
-      <Script
-        id="schema-script"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'ItemList',
-            name: '後楽園・春日・水道橋のピラティススタジオ',
-            description: '後楽園・春日・水道橋エリアのおすすめピラティススタジオ一覧',
-            numberOfItems: studios.length,
-            itemListElement: studios.map((studio, index) => ({
-              '@type': 'ListItem',
-              position: index + 1,
-              item: {
-                '@type': 'LocalBusiness',
-                name: studio.name,
-                description: studio.description,
-                address: studio.address,
-              },
-            })),
-          }),
-        }}
-      />
-      <div className="min-h-screen bg-gradient-to-b from-pink-50 via-white to-purple-50">
-        <Navigation />
-
-        <article className="max-w-6xl mx-auto px-4 py-8">
-          {/* ヒーローセクション */}
-          <section className="mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
-              後楽園・春日・水道橋の
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-600">
-                ピラティススタジオ7選
-              </span>
-            </h1>
-            <p className="text-xl text-gray-600 mb-6">
-              後楽園・春日・水道橋エリアの実在するピラティススタジオを厳選してご紹介。駅近で通いやすいスタジオの料金・特徴を徹底比較。
-            </p>
-
-            <div className="grid md:grid-cols-3 gap-4 mb-8">
-              <div className="bg-white p-4 rounded-lg shadow-sm border border-pink-100">
-                <div className="text-pink-600 text-2xl mb-2">🏢</div>
-                <div className="font-semibold text-gray-900">全{studios.length}スタジオ掲載</div>
-                <div className="text-sm text-gray-600">実在する店舗のみ</div>
-              </div>
-              <div className="bg-white p-4 rounded-lg shadow-sm border border-purple-100">
-                <div className="text-purple-600 text-2xl mb-2">🚇</div>
-                <div className="font-semibold text-gray-900">駅近スタジオ多数</div>
-                <div className="text-sm text-gray-600">徒歩1〜3分圏内</div>
-              </div>
-              <div className="bg-white p-4 rounded-lg shadow-sm border border-blue-100">
-                <div className="text-blue-600 text-2xl mb-2">💰</div>
-                <div className="font-semibold text-gray-900">料金相場</div>
-                <div className="text-sm text-gray-600">月4回 10,450円〜</div>
-              </div>
-            </div>
-          </section>
-
-          {/* スタジオ一覧 */}
-          <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8">おすすめスタジオ一覧</h2>
-            <div className="grid gap-8 md:grid-cols-2">
-              {sortedStudios.map((studio, index) => (
-                <StudioCard key={index} studio={studio} />
-              ))}
-            </div>
-          </section>
-
-          {/* 料金相場セクション */}
-          <section className="mb-12 bg-gradient-to-r from-pink-50 to-purple-50 p-8 rounded-2xl">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">後楽園・春日・水道橋エリアの料金相場</h2>
-
-            <div className="grid md:grid-cols-3 gap-6 mb-8">
-              <div className="bg-white p-6 rounded-xl shadow-sm">
-                <div className="text-pink-600 font-semibold mb-2">月4回プラン</div>
-                <div className="text-3xl font-bold text-gray-900 mb-2">10,450円〜</div>
-                <div className="text-sm text-gray-600">週1回ペースで通える基本プラン</div>
-              </div>
-              <div className="bg-white p-6 rounded-xl shadow-sm">
-                <div className="text-purple-600 font-semibold mb-2">通い放題プラン</div>
-                <div className="text-3xl font-bold text-gray-900 mb-2">16,940円〜</div>
-                <div className="text-sm text-gray-600">毎日通いたい方におすすめ</div>
-              </div>
-              <div className="bg-white p-6 rounded-xl shadow-sm">
-                <div className="text-blue-600 font-semibold mb-2">プライベート</div>
-                <div className="text-3xl font-bold text-gray-900 mb-2">25,000円〜/月4回</div>
-                <div className="text-sm text-gray-600">マンツーマン指導</div>
-              </div>
-            </div>
-
-            <div className="bg-white p-6 rounded-xl">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">💡 スタジオ選びのポイント</h3>
-              <ul className="space-y-3 text-gray-700">
-                <li className="flex items-start">
-                  <span className="text-pink-500 mr-2">✓</span>
-                  <span><strong>駅直結レベル</strong>：春日駅・後楽園駅から徒歩1〜2分のスタジオ多数</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-pink-500 mr-2">✓</span>
-                  <span><strong>女性専用</strong>：ピラティスK、ピラティスミラーは女性専用スタジオ</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-pink-500 mr-2">✓</span>
-                  <span><strong>メディカル特化</strong>：理学療法士によるメディカルピラティスも選択可能</span>
-                </li>
-              </ul>
-            </div>
-          </section>
-
-          {/* よくある質問 */}
-          <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">よくある質問</h2>
-            <div className="space-y-4">
-              <details className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-                <summary className="font-semibold text-gray-900 cursor-pointer">
-                  Q. 後楽園・春日エリアで初心者におすすめのスタジオは？
-                </summary>
-                <p className="mt-4 text-gray-700">
-                  zen place pilates（飯田橋店・本郷三丁目店）がおすすめです。全国150店舗展開の大手で、初心者向けの丁寧な指導が受けられます。ピラティスミラー後楽園も最大6名の少人数制で初心者に優しいです。
-                </p>
-              </details>
-
-              <details className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-                <summary className="font-semibold text-gray-900 cursor-pointer">
-                  Q. 駅から一番近いスタジオはどこ？
-                </summary>
-                <p className="mt-4 text-gray-700">
-                  ピラティスK春日店（春日駅A5出口徒歩1分）、ピラティスミラー後楽園（春日駅A3口徒歩1分）、zen place pilates飯田橋店（地下鉄B4b出口徒歩1分）が駅直結レベルの好立地です。
-                </p>
-              </details>
-
-              <details className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-                <summary className="font-semibold text-gray-900 cursor-pointer">
-                  Q. 女性専用のスタジオはありますか？
-                </summary>
-                <p className="mt-4 text-gray-700">
-                  ピラティスK春日店とピラティスミラー後楽園が女性専用スタジオです。音楽に合わせた楽しいレッスンや、天井鏡を使った独自メソッドで、周りの目を気にせず集中できます。
-                </p>
-              </details>
-
-              <details className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-                <summary className="font-semibold text-gray-900 cursor-pointer">
-                  Q. プライベートレッスンが受けられるスタジオは？
-                </summary>
-                <p className="mt-4 text-gray-700">
-                  STUDIO IVY後楽園店がパーソナル専門です。zen placeでもプライベートレッスンを選択できます。また、Physio Pilates Conditioning Studioは理学療法士によるメディカルピラティスを提供しています。
-                </p>
-              </details>
-
-              <details className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-                <summary className="font-semibold text-gray-900 cursor-pointer">
-                  Q. 腰痛改善に特化したスタジオはありますか？
-                </summary>
-                <p className="mt-4 text-gray-700">
-                  Physio Pilates Conditioning Studioがおすすめです。理学療法士による姿勢・動きの評価とメディカルコンディショニングで、繰り返す腰痛やリハビリ後の運動不安に対応しています。
-                </p>
-              </details>
-            </div>
-          </section>
-
-          {/* エリアガイド */}
-          <section className="mb-12 bg-white p-8 rounded-2xl shadow-sm">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">後楽園・春日・水道橋エリアの特徴</h2>
-            <div className="prose max-w-none text-gray-700">
-              <p className="mb-4">
-                後楽園・春日・水道橋エリアは、東京ドームや文京シビックセンターがある文京区の中心地です。都営三田線・大江戸線、東京メトロ丸ノ内線・南北線、JR中央線・総武線が利用でき、都心各地へのアクセスが良好です。
-              </p>
-              <p className="mb-4">
-                近年はピラティススタジオの新規出店が相次ぎ、ピラティスK春日店（2024年8月オープン）など新しいスタジオも増えています。大手チェーンからメディカル特化の専門スタジオまで、多様なニーズに対応できるエリアとなっています。
-              </p>
-              <p>
-                駅から徒歩1〜3分圏内のスタジオが多く、仕事帰りや買い物ついでに気軽に通えるのが魅力。春日駅・後楽園駅・水道橋駅・飯田橋駅など複数駅が利用できるため、自分の通勤・生活ルートに合わせてスタジオを選べます。
-              </p>
-            </div>
-          </section>
-
-          {/* CTAセクション */}
-          <section className="text-center py-12 bg-gradient-to-r from-pink-500 to-purple-600 rounded-2xl text-white">
-            <h2 className="text-3xl font-bold mb-4">後楽園・春日・水道橋でピラティスを始めよう</h2>
-            <p className="text-xl mb-6 text-pink-50">
-              まずは体験レッスンから。あなたに合ったスタジオが見つかります。
-            </p>
-            <p className="text-pink-50">
-              ↑ 上記のスタジオ一覧から、気になるスタジオの詳細をチェック！
-            </p>
-          </section>
-        </article>
-
-        <SiteFooter />
-      </div>
+      <Navigation />
+      <main className="pt-20 bg-white">
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年04月09日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス後楽園おすすめ5選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1></div></section>
+        <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">後楽園</span></nav></div></section>
+        <section className="py-12 bg-white"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p><p className="text-warm-600 leading-relaxed mb-6">Pilates Navi編集部です！</p><p className="text-warm-600 leading-relaxed mb-6">あなたは、</p><p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p><p className="text-warm-600 leading-relaxed mb-6">「後楽園で人気のピラティススタジオを知りたい」</p><p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p><p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、後楽園エリアでおすすめのピラティススタジオ5選をまとめました。</p><div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8"><h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2><ul className="space-y-2 text-warm-700"><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>後楽園でピラティススタジオを探している</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>コスパの良いスタジオを知りたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>駅近で通いやすいスタジオがいい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較したい</span></li></ul></div><p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p></div></section>
+        <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">後楽園のおすすめピラティススタジオ5選</h2><div className="space-y-8">{studios.map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
+        <section className="py-16 bg-white"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">こだわりから探す</h2><div className="grid grid-cols-1 md:grid-cols-3 gap-8"><div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3><p className="text-warm-600 text-sm mb-4">月4回8,800円〜のスタジオも。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li><li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li><li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li></ul></div><div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3><p className="text-warm-600 text-sm mb-4">完全個室で1対1の指導。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• STUDIO IVY（完全パーソナル）</li><li className="text-warm-700">• zen place pilates（プライベート対応）</li></ul></div><div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3><p className="text-warm-600 text-sm mb-4">春日駅・後楽園駅から徒歩すぐ。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• ピラティスミラー（春日駅徒歩1分）</li><li className="text-warm-700">• ピラティスミラー（後楽園駅徒歩2分）</li></ul></div></div></div></section>
+        <section className="py-16 bg-warm-50"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">おすすめの期間・頻度</h2><div className="bg-white rounded-lg p-8 border border-warm-200"><h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3><p className="text-warm-600 leading-relaxed mb-6">週1-2回からスタート。最低2-3ヶ月継続で効果を実感。</p><h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3><p className="text-warm-600 leading-relaxed mb-6">週2-3回がおすすめ。3-6ヶ月で目に見える変化。</p><h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3><p className="text-warm-600 leading-relaxed">週1回のペースで無理なく継続。</p></div></div></section>
+        <section className="py-16 bg-white"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">予算別の料金相場</h2><div className="grid grid-cols-1 md:grid-cols-3 gap-6"><div className="border-2 border-warm-300 rounded-lg p-6 text-center"><h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜11,000円</h3><p className="text-3xl font-bold text-warm-800 mb-4">月4〜6回</p><p className="text-sm text-warm-600 mb-4">コスパ重視ならこちら。</p><ul className="text-sm text-warm-700 space-y-1"><li>• Rintosull（8,800円/月4回）</li><li>• zen place pilates（10,450円〜/月4回）</li><li>• ピラティスミラー（11,000円/月6回）</li></ul></div><div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50"><div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div><h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜15,000円</h3><p className="text-3xl font-bold text-warm-800 mb-4">月3〜4回</p><p className="text-sm text-warm-600 mb-4">マシン専門・パーソナル。</p><ul className="text-sm text-warm-700 space-y-1"><li>• the SILK（12,980円〜/月3回）</li><li>• STUDIO IVY（15,000円〜/月2回）</li></ul></div><div className="border-2 border-warm-300 rounded-lg p-6 text-center"><h3 className="text-lg font-bold text-warm-900 mb-2">無料体験あり</h3><p className="text-3xl font-bold text-warm-800 mb-4">まずはお試し</p><p className="text-sm text-warm-600 mb-4">無料〜2,200円で体験可能。</p><ul className="text-sm text-warm-700 space-y-1"><li>• the SILK（無料・手ぶらOK）</li><li>• Rintosull（無料）</li><li>• ピラティスミラー（2,200円）</li></ul></div></div></div></section>
+        <section className="py-16 bg-warm-50"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">失敗しないスタジオの選び方</h2><div className="space-y-8"><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span><h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3></div><p className="text-warm-600 leading-relaxed">ダイエット、姿勢改善、体幹強化など目的によって最適なスタジオは変わります。パーソナルならSTUDIO IVY、コスパ重視ならRintosull。</p></div><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">予算を決める</h3></div><p className="text-warm-600 leading-relaxed">後楽園エリアはマシン月4回8,800円〜、パーソナル月2回15,000円〜と幅広い価格帯。</p></div><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">the SILKとRintosullは無料体験。ピラティスミラーは2,200円、zen place pilatesは1,000円で体験可能。</p></div><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div><p className="text-warm-600 leading-relaxed">後楽園は丸ノ内線・南北線・三田線・大江戸線が利用可能。ピラティスミラーは春日駅徒歩1分・後楽園駅徒歩2分。</p></div></div></div></section>
+        <section className="py-16 bg-white"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">よくある質問</h2><div className="space-y-6">{faqs.map((faq, index) => (<div key={index} className="border border-warm-200 rounded-lg overflow-hidden"><details className="group"><summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition"><h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3><svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"/></svg></summary><div className="px-6 pb-6 text-warm-600 leading-relaxed">{faq.answer}</div></details></div>))}</div></div></section>
+        <section className="py-16 bg-warm-50"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2><p className="text-warm-600 leading-relaxed mb-6">今回は後楽園エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？</p><p className="text-warm-600 leading-relaxed mb-6">この記事では後楽園にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。</p><p className="text-warm-600 leading-relaxed mb-6">ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。</p><p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p></div></section>
+        <section className="py-16 bg-warm-800 text-white" id="contact"><div className="max-w-4xl mx-auto px-6 lg:px-8 text-center"><h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2><p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスン無料〜4,500円。<br />まずは気軽に体験してみましょう。</p><Link href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded">おすすめスタジオ一覧に戻る</Link></div></section>
+      </main>
+      <SiteFooter />
+      <Script src="https://unpkg.com/lucide@latest" strategy="lazyOnload" />
     </>
   )
 }
