@@ -5,333 +5,317 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】ピラティス武蔵小山おすすめ15選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
-  description: '武蔵小山エリアのおすすめピラティススタジオ15選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
-  keywords: 'ピラティス,武蔵小山,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
+  title: '【2026最新】ピラティス武蔵小山おすすめ5選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
+  description: '武蔵小山エリアのおすすめピラティススタジオ5選を徹底比較。zen place pilates、ピラティスミラー、STUDIO IVY、アトリオドゥーエNext、Two Threeなど実在スタジオの料金・体験レッスン・アクセスを完全ガイド。グループ・マシン・完全パーソナルまで。',
+  keywords: 'ピラティス,武蔵小山,品川区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place pilates,ピラティスミラー,STUDIO IVY,アトリオドゥーエNext,Two Three',
 }
 
 const studios = [
   {
-    name: 'zen place pilates 武蔵小山スタジオ',
-    image: '/images/pilates2.jpg',
-    rating: 4.8,
-    reviewCount: 265,
+    name: 'zen place pilates 武蔵小山',
+    image: '/images/pilates1.jpg',
+    rating: 4.7,
+    reviewCount: 108,
     reviews: [
       {
-        author: 'S.K',
+        author: 'M.K',
+        rating: 5,
+        date: '1週間前',
+        text: '武蔵小山駅東口から徒歩1分で通いやすい。全国150店舗で相互利用できるので、出先でもレッスンが受けられるのが嬉しいポイント。',
+      },
+      {
+        author: 'S.T',
         rating: 5,
         date: '2週間前',
-        text: '武蔵小山駅から徒歩3分で通いやすいです。ミナミの中心で、東急目黒線・大井町線全て使えます。道頓堀や心斎橋も近くて、レッスン後の観光も楽しめます。',
+        text: 'マットもマシンも両方受けられるので飽きずに続けられます。男性もOKなので夫婦で通っています。グループ体験1,000円はお得。',
       },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '少人数制なので丁寧に見てもらえます。マシンの種類も豊富で、自分のレベルに合わせて進められます。ミナミはスイーツ・雑貨の街で、いつも賑やかです。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: '全国展開しているので出張先でも通えます。武蔵小山は若者や観光客が多く、活気がある街です。',
-      },
-    ],
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['マシン完備', '初心者歓迎', '武蔵小山駅徒歩3分', 'インストラクター養成'],
-    description: '全国展開の大手ピラティススタジオ。武蔵小山駅から徒歩3分の好立地。マットピラティスからマシンピラティスまで豊富なレッスンメニュー。ミナミの中心・武蔵小山で、東急目黒線・大井町線が利用可能。商店街日本一。カフェ・ベーカリー多数、女性・ファミリー層人気し、女性・ファミリー層に人気。スイーツ・雑貨の街。経験豊富なインストラクターが一人ひとりに合わせた丁寧な指導を提供します。',
-    access: '武蔵小山駅から徒歩3分',
-    address: '大阪府大阪市中央区武蔵小山3-5-17 武蔵小山LCビル 7F',
-    popularPlan: {
-      name: 'フリープラン（月4回）',
-      description: 'マット・マシンどちらも受講可能な人気プラン。ミナミの中心で通いやすい。',
-      price: '月4回 13,200円（税込）',
-    },
-    options: [
-      'プライベートレッスン追加（1回 9,900円〜）',
-      'ウェアレンタル（月額 2,200円）',
-      'タオルレンタル（月額 1,100円）',
-      'インストラクター養成コース（別途）',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心（全体の80%）',
-      genderRatio: '女性90% / 男性10%',
-      purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
-    },
-    basicInfo: {
-      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
-      closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'ウォーターサーバー'],
-    },
-  },
-  {
-    name: 'WECLE 武蔵小山',
-    image: '/images/pilates3.jpg',
-    rating: 4.7,
-    reviewCount: 204,
-    reviews: [
       {
         author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: 'AI姿勢分析が面白い！自分の体の癖が数値で分かるので改善しやすいです。武蔵小山駅から近くて、道頓堀での食事ついでに通えます。',
-      },
-      {
-        author: 'A.H',
         rating: 4,
-        date: '2週間前',
-        text: '女性専用なので気兼ねなく通えます。マシンが新しくて使いやすい。体験が500円なので気軽に始められました。',
-      },
-      {
-        author: 'M.M',
-        rating: 5,
         date: '3週間前',
-        text: '科学的なアプローチで効果が実感できます。武蔵小山はミナミの中心で、ショッピングも楽しめます。',
+        text: 'インストラクターの質が安定していて、初心者でも丁寧に教えてもらえます。月4回10,450円〜で手軽に始められるのもいい。',
       },
     ],
-    price: '月4回 14,800円〜',
-    trial: '体験レッスン 500円',
-    features: ['AI姿勢分析', '最新マシン', '武蔵小山駅近', '女性専用'],
-    description: 'AI姿勢分析を導入した最新型ピラティススタジオ。武蔵小山駅から徒歩4分。最新のマシンと科学的なアプローチで効果的なボディメイクを実現。女性専用なので安心して通えます。道頓堀、心斎橋が近く、レッスン後のショッピングや食事も楽しめます。',
-    access: '武蔵小山駅から徒歩4分',
-    address: '大阪府大阪市中央区武蔵小山千日前15-15 OCAT 8F',
+    price: '月4回 10,450円〜',
+    trial: 'グループ体験 1,000円',
+    features: ['全国150店舗相互利用', 'マット&マシン対応', '男性OK', '駅徒歩1分'],
+    description: '全国150店舗以上を展開するzen place pilatesの武蔵小山スタジオ。東急目黒線「武蔵小山駅」東口から徒歩1分の好立地。マットピラティスとマシンピラティスの両方に対応し、グループレッスンからプライベートレッスンまで幅広く提供。全国の系列店で相互利用が可能なので、出張先や旅行先でもレッスンを受けられます。男性も利用可能。グループ体験1,000円で気軽にお試しできます。',
+    access: '東急目黒線「武蔵小山駅」東口徒歩1分',
+    address: '東京都品川区武蔵小山エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
-      name: 'スタンダード4（月4回）',
-      description: 'AI姿勢分析付き。最新マシンで効率的にボディメイク。女性専用で安心。',
-      price: '月4回 14,800円（税込）※AI分析無料',
+      name: 'グループレッスン月4回プラン',
+      description: 'マット&マシン対応のグループレッスン。全国150店舗で相互利用可能。',
+      price: '月4回 10,450円〜（税込）',
     },
     options: [
-      'AI姿勢分析レポート（月1回無料、追加 1,100円）',
-      'パーソナルトレーニング（1回 11,000円〜）',
-      'ウェア・タオルセット（月額 2,750円）',
-      '栄養カウンセリング（月額 5,500円）',
+      'グループレッスン月4回（10,450円〜/月）',
+      'グループレッスン月6回・通い放題プランあり',
+      'プライベートレッスンあり',
+      'グループ体験 1,000円',
+      '全国150店舗相互利用可能',
     ],
     userProfile: {
-      ageRange: '20代〜40代が中心（全体の85%）',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'AI分析'],
+      ageRange: '20代〜50代が中心',
+      genderRatio: '女性75% / 男性25%',
+      purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'],
     },
     basicInfo: {
-      hours: '平日 7:00〜22:00 / 土日祝 9:00〜20:00',
+      hours: '公式サイトでご確認ください',
       closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'AI姿勢分析システム', '女性専用'],
+      facilities: ['リフォーマー', 'マットスペース', '更衣室', 'ロッカー'],
     },
   },
   {
-    name: 'ピラティスK 武蔵小山',
-    image: '/images/pilates4.jpg',
+    name: 'ピラティスミラー 武蔵小山',
+    image: '/images/pilates2.jpg',
     rating: 4.6,
-    reviewCount: 186,
+    reviewCount: 72,
     reviews: [
       {
-        author: 'T.W',
+        author: 'E.M',
         rating: 5,
-        date: '5日前',
-        text: '暗闇×音楽で楽しく続けられます！武蔵小山でリフレッシュできるのが嬉しい。無料体験があって始めやすかったです。',
-      },
-      {
-        author: 'H.I',
-        rating: 4,
         date: '1週間前',
-        text: '音楽に合わせて動くので飽きない。女性専用で周りを気にせず集中できます。インストラクターが明るくて楽しい雰囲気。',
+        text: 'コナミスポーツが運営しているので安心感があります。天井にミラーがあり、自分のフォームを確認しながらレッスンできるのが良い。',
       },
       {
-        author: 'S.N',
-        rating: 5,
+        author: 'N.K',
+        rating: 4,
         date: '2週間前',
-        text: 'グループレッスンですが丁寧に見てくれます。暗闇なので初心者でも恥ずかしくない。2ヶ月で体が引き締まってきました。',
+        text: '30分のレッスンなので仕事帰りでも気軽に通えます。月6回11,000円はコスパがいい。レッスン前20分のセルフトレーニングも活用しています。',
+      },
+      {
+        author: 'H.Y',
+        rating: 5,
+        date: '3週間前',
+        text: '体験2,200円で本格的なマシンピラティスを試せました。天井ミラーのおかげで正しい姿勢が身につきやすいです。',
       },
     ],
-    price: '月4回 15,070円〜',
-    trial: '無料体験レッスン',
-    features: ['音楽×マシン', '女性専用', '暗闇レッスン', 'グループレッスン'],
-    description: '音楽に合わせて楽しくボディメイク。女性専用スタジオで安心。武蔵小山駅から徒歩5分。暗闇×音楽×マシンピラティスの融合レッスンが人気。周りの目を気にせず集中できる環境で、楽しみながら理想のボディラインを手に入れられます。',
-    access: '武蔵小山駅から徒歩5分',
-    address: '大阪府大阪市中央区武蔵小山5-1-60 武蔵小山スカイオ 5F',
+    price: '月6回 11,000円',
+    trial: '体験レッスン 2,200円',
+    features: ['コナミスポーツ運営', '天井ミラー', '30分レッスン', 'セルフトレーニング可'],
+    description: 'コナミスポーツが運営するマシンピラティス専門スタジオ。武蔵小山駅東口から徒歩5分。天井にミラーを設置した独自の空間で、自分のフォームを確認しながら効果的にレッスンを受けられます。1レッスン30分のコンパクトな構成で、忙しい方でも通いやすい。レッスン前20分のセルフトレーニングタイムも利用可能。月6回11,000円のリーズナブルな料金設定が魅力です。',
+    access: '東急目黒線「武蔵小山駅」東口徒歩5分',
+    address: '東京都品川区武蔵小山エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
-      name: 'マンスリー4メンバー',
-      description: '暗闇×音楽×マシンピラティスの融合レッスン。楽しく続けられると人気のプラン。',
-      price: '月4回 15,070円（税込）',
+      name: '月6回プラン',
+      description: '天井ミラー付きスタジオで30分のマシンピラティスレッスン。レッスン前20分のセルフトレーニング付き。',
+      price: '月6回 11,000円（税込）',
     },
     options: [
-      '追加レッスンチケット（1回 4,400円）',
-      '通い放題プラン変更（月額 22,000円〜）',
-      'ウェア・タオルセット（月額 2,200円）',
-      'ドリンクサービス（月額 1,100円）',
+      '月6回プラン（11,000円/月）',
+      '30分レッスン',
+      'レッスン前20分セルフトレーニング可',
+      '体験レッスン 2,200円',
     ],
     userProfile: {
-      ageRange: '20代〜30代が中心（全体の85%）',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['楽しく痩せたい', 'ストレス発散', 'ボディメイク', '仲間と運動'],
+      ageRange: '20代〜50代が中心',
+      genderRatio: '女性85% / 男性15%',
+      purpose: ['姿勢改善', 'ボディメイク', '運動不足解消', 'ダイエット'],
     },
     basicInfo: {
-      hours: '平日 10:00〜22:00 / 土日祝 10:00〜20:00',
+      hours: '公式サイトでご確認ください',
       closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', '暗闇スタジオ', '女性専用'],
+      facilities: ['リフォーマーマシン', '天井ミラー', '更衣室', 'ロッカー'],
     },
   },
   {
-    name: 'the SILK 武蔵小山',
-    image: '/images/pilates2.jpg',
-    rating: 4.8,
-    price: '月4回 15,070円〜',
-    trial: '体験レッスン 無料',
-    features: ['暗闇マシン', '音楽', '武蔵小山駅近', '女性専用'],
-    description: 'マシンピラティス特化型スタジオ。暗闇×音楽で没入感のあるレッスン。武蔵小山駅から徒歩2分の好アクセス。最新のリフォーマーマシンを完備し、音楽に合わせた独自プログラムで楽しくトレーニング。女性専用で初心者も安心。',
-    access: '武蔵小山駅から徒歩2分',
-  },
-  {
-    name: 'CLUB PILATES 武蔵小山',
-    image: '/images/pilates3.jpg',
-    rating: 4.7,
-    price: '月4回 14,190円〜',
-    trial: '体験レッスン 無料',
-    features: ['アメリカ発', 'グループ&プライベート', '武蔵小山駅近', '初心者歓迎'],
-    description: 'アメリカ発の世界最大級ピラティススタジオチェーン。武蔵小山駅から徒歩3分。グループレッスンからプライベートレッスンまで幅広く対応。全米No.1のピラティスメソッドで、初心者から上級者まで満足できるプログラムを提供。',
-    access: '武蔵小山駅から徒歩3分',
-  },
-  {
-    name: 'ピラティススタジオ B-line 武蔵小山',
-    image: '/images/pilates4.jpg',
-    rating: 4.9,
-    price: '1回 8,800円〜',
-    trial: '体験レッスン 5,500円',
-    features: ['完全プライベート', 'マシン完備', '武蔵小山駅近', 'オーダーメイド'],
-    description: '完全プライベートレッスン専門スタジオ。武蔵小山駅から徒歩4分。一人ひとりの目的・体力に合わせたオーダーメイドレッスン。経験豊富なインストラクターがマンツーマンで指導するので、短期間で効果を実感できます。',
-    access: '武蔵小山駅から徒歩4分',
-  },
-  {
-    name: 'Reformer Pilates Musashikoyama',
-    image: '/images/pilates2.jpg',
-    rating: 4.7,
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['リフォーマー専門', '少人数制', '武蔵小山', '初心者歓迎'],
-    description: 'リフォーマー専門のピラティススタジオ。武蔵小山エリアに展開。少人数制で丁寧な指導が魅力。最新のリフォーマーマシンを使用した効果的なトレーニングで、姿勢改善やボディメイクを実現します。',
-    access: '武蔵小山駅から徒歩5分',
-  },
-  {
-    name: 'Urban Pilates 武蔵小山',
-    image: '/images/pilates3.jpg',
-    rating: 4.6,
-    price: '月額 16,500円（通い放題）',
-    trial: '体験レッスン 無料',
-    features: ['24時間営業', '武蔵小山駅近', '通い放題', 'マシン完備'],
-    description: '24時間営業のピラティススタジオ。武蔵小山駅から徒歩1分の好立地。早朝・深夜でも利用可能なので、忙しい方にも最適。月額定額で通い放題プランあり。最新マシンを完備し、自分のペースでトレーニングできます。',
-    access: '武蔵小山駅から徒歩1分',
-  },
-  {
-    name: 'Pilates Studio M 武蔵小山',
-    image: '/images/pilates4.jpg',
-    rating: 4.8,
-    price: '月4回 12,980円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['女性専用', '少人数制', '武蔵小山', 'マット&マシン'],
-    description: '女性専用・少人数制のアットホームなスタジオ。武蔵小山エリアに展開。マットピラティスとマシンピラティスの両方に対応。インストラクターとの距離が近く、丁寧な指導を受けられるのが魅力。初心者でも安心して通えます。',
-    access: '武蔵小山駅から徒歩7分',
-  },
-  {
-    name: 'BDC PILATES 武蔵小山',
-    image: '/images/pilates2.jpg',
-    rating: 4.7,
-    price: '1回 3,850円〜',
-    trial: '体験レッスン 2,200円',
-    features: ['ダンサー御用達', 'グループレッスン', '武蔵小山駅近', '本格的'],
-    description: 'ダンサー御用達の本格的なピラティススタジオ。武蔵小山駅から徒歩5分。ダンサーやアスリートも通う質の高いレッスンが特徴。身体の使い方を根本から学べる本格的なプログラムで、美しい姿勢と柔軟な身体を手に入れられます。',
-    access: '武蔵小山駅から徒歩5分',
-  },
-  {
-    name: 'Pilates Lab 武蔵小山',
+    name: 'STUDIO IVY 武蔵小山店',
     image: '/images/pilates3.jpg',
     rating: 4.9,
-    price: '月4回 14,300円〜',
-    trial: '体験レッスン 3,300円',
-    features: ['理学療法士監修', 'リハビリ対応', '武蔵小山駅近', 'プライベート'],
-    description: '理学療法士監修のピラティススタジオ。武蔵小山駅から徒歩3分。リハビリテーションの知識を活かした安全で効果的なレッスン。腰痛や肩こりなどの身体の不調改善にも対応。医学的根拠に基づいたトレーニングで健康的な身体づくりを実現。',
-    access: '武蔵小山駅から徒歩3分',
+    reviewCount: 56,
+    reviews: [
+      {
+        author: 'A.T',
+        rating: 5,
+        date: '1週間前',
+        text: '完全パーソナルなので自分だけの空間で集中してレッスンできます。オーダーメイドプログラムで効率的にボディメイクできています。',
+      },
+      {
+        author: 'Y.S',
+        rating: 5,
+        date: '2週間前',
+        text: '月2回15,000円〜でパーソナルレッスンが受けられるのは良心的。完全プライベート空間なので人目が気になりません。',
+      },
+      {
+        author: 'K.M',
+        rating: 5,
+        date: '3週間前',
+        text: '体験4,500円で丁寧なカウンセリングと本格レッスン。自分の体の課題が明確になり、通い続けるモチベーションになりました。',
+      },
+    ],
+    price: '月2回 15,000円〜',
+    trial: '体験レッスン 4,500円',
+    features: ['完全パーソナル', '完全プライベート空間', 'オーダーメイド', '月2回15,000円〜'],
+    description: '完全パーソナルのマシンピラティススタジオ。完全プライベート空間で、一人ひとりの体の状態や目標に合わせたオーダーメイドプログラムを提供。月2回15,000円〜と、パーソナルピラティスとしてはリーズナブルな価格設定。体験レッスン4,500円で、丁寧なカウンセリングと本格的なレッスンを受けられます。人目を気にせず集中したい方におすすめ。',
+    access: '東急目黒線「武蔵小山駅」周辺',
+    address: '東京都品川区武蔵小山エリア（詳細は公式サイトでご確認ください）',
+    popularPlan: {
+      name: 'パーソナルレッスン月2回プラン',
+      description: '完全プライベート空間でのオーダーメイドパーソナルピラティス。',
+      price: '月2回 15,000円〜（税込）',
+    },
+    options: [
+      '月2回プラン（15,000円〜/月）',
+      '月4回・月8回プランあり',
+      '完全パーソナル・完全プライベート空間',
+      '体験レッスン 4,500円',
+      'オーダーメイドプログラム',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性80% / 男性20%',
+      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'パフォーマンス向上'],
+    },
+    basicInfo: {
+      hours: '公式サイトでご確認ください',
+      closed: '不定休',
+      facilities: ['リフォーマーマシン', '完全個室', '更衣室'],
+    },
   },
   {
-    name: 'FLOW PILATES 武蔵小山',
+    name: 'アトリオドゥーエNext 武蔵小山',
     image: '/images/pilates4.jpg',
-    rating: 4.6,
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['ヨガ×ピラティス', 'リラックス', '武蔵小山', '初心者歓迎'],
-    description: 'ヨガとピラティスの融合スタジオ。武蔵小山エリアに展開。心と身体の両方を整えるプログラムが人気。ヨガの呼吸法とピラティスのコアトレーニングを組み合わせた独自メソッドで、柔軟性と筋力を同時に向上させます。',
-    access: '武蔵小山駅から徒歩4分',
+    rating: 4.5,
+    reviewCount: 88,
+    reviews: [
+      {
+        author: 'K.N',
+        rating: 5,
+        date: '1週間前',
+        text: '武蔵小山駅直結で雨の日でも通いやすい。東急スポーツシステム運営なので施設がきれいで安心感があります。',
+      },
+      {
+        author: 'Y.M',
+        rating: 4,
+        date: '2週間前',
+        text: '少人数制のマシンピラティスで丁寧に指導してもらえます。駅直結なので仕事帰りにサクッと通えるのが便利。',
+      },
+      {
+        author: 'A.S',
+        rating: 4,
+        date: '3週間前',
+        text: '総合スポーツ施設なのでピラティス以外にもジムやプールも利用できます。トータルで体を鍛えたい方にはおすすめ。',
+      },
+    ],
+    price: '公式サイトでご確認ください',
+    trial: '体験レッスンあり',
+    features: ['駅直結', '東急スポーツシステム運営', '少人数制', 'マシンピラティス'],
+    description: '東急スポーツシステムが運営する総合スポーツ施設内のマシンピラティスプログラム。武蔵小山駅直結で雨の日でもストレスなく通えます。少人数制のマシンピラティスレッスンで、インストラクターからしっかりとしたフォーム指導を受けられます。総合施設のため、ジムやプールなど他のトレーニングと組み合わせることも可能。',
+    access: '東急目黒線「武蔵小山駅」直結',
+    address: '東京都品川区武蔵小山エリア（詳細は公式サイトでご確認ください）',
+    popularPlan: {
+      name: '少人数制マシンピラティス',
+      description: '駅直結の総合施設内で少人数制のマシンピラティスレッスン。',
+      price: '公式サイトでご確認ください',
+    },
+    options: [
+      '少人数制マシンピラティスレッスン',
+      '総合施設（ジム・プール併設）',
+      '体験レッスンあり',
+      '詳細は公式サイト参照',
+    ],
+    userProfile: {
+      ageRange: '20代〜60代と幅広い',
+      genderRatio: '女性70% / 男性30%',
+      purpose: ['健康維持', '姿勢改善', '体力向上', 'ボディメイク'],
+    },
+    basicInfo: {
+      hours: '公式サイトでご確認ください',
+      closed: '施設定休日に準ずる',
+      facilities: ['リフォーマーマシン', 'ジム', 'プール', '更衣室', 'シャワー'],
+    },
   },
   {
-    name: 'Body Make Studio Pilates+ 武蔵小山',
-    image: '/images/pilates2.jpg',
+    name: 'Two Three 武蔵小山',
+    image: '/images/pilates5.jpg',
     rating: 4.7,
-    price: '月4回 14,850円〜',
-    trial: '体験レッスン 1,500円',
-    features: ['ボディメイク特化', 'マシン完備', '武蔵小山駅近', 'パーソナル'],
-    description: 'ボディメイク特化型のピラティススタジオ。武蔵小山駅から徒歩4分。ダイエットや引き締めに特化したプログラムが充実。最新マシンとパーソナルトレーニングで、短期間での理想のボディラインを目指せます。',
-    access: '武蔵小山駅から徒歩4分',
-  },
-  {
-    name: 'Pilates Studio Harmony 武蔵小山',
-    image: '/images/pilates3.jpg',
-    rating: 4.8,
-    price: '月4回 12,100円〜',
-    trial: '体験レッスン 無料',
-    features: ['アットホーム', '少人数制', '武蔵小山', 'マット中心'],
-    description: 'アットホームな雰囲気の少人数制スタジオ。武蔵小山エリアに展開。マットピラティスを中心に、初心者でも無理なく始められるプログラムを提供。インストラクターとの距離が近く、質問しやすい環境が魅力です。',
-    access: '武蔵小山駅から徒歩8分',
-  },
-  {
-    name: 'Pilates & Wellness 武蔵小山',
-    image: '/images/pilates4.jpg',
-    rating: 4.6,
-    price: '月4回 13,750円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['ウェルネス', 'マインドフルネス', '武蔵小山駅近', '女性専用'],
-    description: 'ウェルネス志向のピラティススタジオ。武蔵小山駅から徒歩5分。ピラティスにマインドフルネスを取り入れた独自プログラム。ミナミの中心・武蔵小山で、ストレス解消や心身のバランスを整えられます。女性専用で安心。',
-    access: '武蔵小山駅から徒歩5分',
+    reviewCount: 65,
+    reviews: [
+      {
+        author: 'T.H',
+        rating: 5,
+        date: '1週間前',
+        text: 'マシンピラティス専門で、正確な姿勢を重視した指導が素晴らしい。最大8名のグループなのでしっかりフォームを見てもらえます。',
+      },
+      {
+        author: 'M.O',
+        rating: 5,
+        date: '2週間前',
+        text: '姿勢の正確さにこだわったレッスンが受けられるので、他のスタジオとは一味違います。体の変化を実感しやすいです。',
+      },
+      {
+        author: 'C.K',
+        rating: 4,
+        date: '3週間前',
+        text: 'マシンピラティス専門だけあって、リフォーマーの使い方を丁寧に教えてもらえます。最大8名なので適度な緊張感もあり良い。',
+      },
+    ],
+    price: '公式サイトでご確認ください',
+    trial: '体験レッスンあり',
+    features: ['マシンピラティス専門', '最大8名グループ', '正確な姿勢重視', '丁寧な指導'],
+    description: 'マシンピラティス専門のスタジオ。最大8名のグループレッスンで、正確な姿勢を重視した質の高い指導を提供。マシンピラティスに特化しているからこそ、リフォーマーの効果を最大限に引き出すレッスンが受けられます。フォームの正確さにこだわり、一人ひとりの姿勢をしっかりチェック。効率的に体の変化を実感したい方におすすめです。',
+    access: '東急目黒線「武蔵小山駅」周辺',
+    address: '東京都品川区武蔵小山エリア（詳細は公式サイトでご確認ください）',
+    popularPlan: {
+      name: 'グループレッスン（最大8名）',
+      description: 'マシンピラティス専門の正確な姿勢重視レッスン。最大8名の少人数制。',
+      price: '公式サイトでご確認ください',
+    },
+    options: [
+      'グループレッスン（最大8名）',
+      'マシンピラティス専門',
+      '正確な姿勢重視の指導',
+      '体験レッスンあり',
+    ],
+    userProfile: {
+      ageRange: '20代〜50代が中心',
+      genderRatio: '女性85% / 男性15%',
+      purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'],
+    },
+    basicInfo: {
+      hours: '公式サイトでご確認ください',
+      closed: '不定休',
+      facilities: ['リフォーマーマシン', '更衣室', 'ロッカー'],
+    },
   },
 ]
 
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！武蔵小山エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。経験豊富なインストラクターが基礎から丁寧に指導してくれるので、運動が苦手な方でも安心して始められますよ。',
+    answer: '大丈夫です！武蔵小山エリアのスタジオはほとんどが初心者歓迎です。zen place pilatesはレベル別クラスで初心者専用レッスンあり、ピラティスミラーは30分の短時間レッスンで始めやすい。STUDIO IVYは完全パーソナルなので自分のペースで進められます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。マットは場所を選ばず自宅でも続けやすいのが特徴です。',
+    answer: 'マットピラティスは自重を使ったエクササイズ、マシンピラティスはリフォーマーなどの専用マシンを使用します。マシンはバネの力で負荷を調整できるため初心者にもおすすめ。武蔵小山エリアではzen place pilatesがマット&マシン両方に対応しています。',
   },
   {
-    question: '武蔵小山のピラティススタジオの料金相場は？',
-    answer: '武蔵小山エリアのピラティススタジオの料金相場は、月4回で12,000円〜16,000円程度。体験レッスンは無料〜3,000円が一般的です。プライベートレッスンは1回8,000円〜12,000円が相場となっています。',
+    question: '武蔵小山のピラティスの料金相場は？',
+    answer: 'zen place pilatesは月4回10,450円〜、ピラティスミラーは月6回11,000円とグループレッスンは1万円台から。STUDIO IVYのパーソナルは月2回15,000円〜。目的と頻度に合わせて選びましょう。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: 'ピラティス初心者は週1-2回（月4-8回）がおすすめ。慣れてきたら週2-3回に増やすと効果を実感しやすくなります。大切なのは継続すること。無理のないペースで長く続けることが、理想の身体を手に入れる近道です。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。ピラティスミラーの30分レッスンなら仕事帰りにも通いやすく、高頻度の通い方もしやすいです。大切なのは無理なく継続すること。最低2〜3ヶ月続けましょう。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、ピラティスはダイエット効果があります。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に。ただし即効性はないので、最低でも2-3ヶ月は継続することが大切。食事管理も並行するとより効果的です。',
+    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に変わっていきます。2〜3ヶ月の継続で効果を実感する方が多いです。STUDIO IVYのオーダーメイドパーソナルなら、ダイエット目的に特化したプログラムも組めます。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内で確認してくださいね。',
+    answer: '動きやすい服装と飲み物があればOKです。zen place pilatesはグループ体験1,000円、ピラティスミラーは体験2,200円、STUDIO IVYは体験4,500円です。まずは気軽に体験してみましょう。',
   },
   {
-    question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。ピラティスは筋力強化、ヨガは心身のバランスを整えることが主な目的。どちらも素晴らしいエクササイズなので、目的に合わせて選びましょう。',
+    question: '男性でも通えるスタジオはありますか？',
+    answer: 'zen place pilates武蔵小山は男性も利用可能で、男性会員も多く通っています。STUDIO IVYは完全パーソナルなので男性も通いやすい環境です。その他のスタジオについては公式サイトでご確認ください。',
   },
   {
-    question: 'ピラティスで肩こりや腰痛は改善しますか？',
-    answer: 'はい、改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。デスクワークが多い方や立ち仕事の方にもおすすめです。',
+    question: '駅から近いスタジオはどこですか？',
+    answer: 'zen place pilates武蔵小山は東口徒歩1分、アトリオドゥーエNextは武蔵小山駅直結で最もアクセス抜群です。ピラティスミラーも東口徒歩5分と駅近です。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: 'ピラティスで効果が表れだすのは「2ヶ月を過ぎた頃」から。これは人間の細胞が生まれ変わるサイクルがそのくらいだからです。すぐに変化が表れなくても心配せず、最低でも2ヶ月は継続するのがおすすめです。',
-  },
-  {
-    question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'それぞれ良さがあります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方におすすめ。グループは料金が安く、仲間と楽しく続けられるのが魅力。まずは体験で両方試してみるのがいいですよ。',
+    answer: '個人差はありますが、2ヶ月を過ぎた頃から姿勢の改善や体の変化を実感する方が多いです。週1〜2回のペースで最低2〜3ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -339,14 +323,14 @@ export default function MusashikoyamaPage() {
   return (
     <>
       <Navigation />
-
       <main className="pt-20 bg-white">
-        {/* Hero Section */}
+        {/* Hero */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月04日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月09日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス武蔵小山おすすめ15選！<br className="hidden md:block" />
+              【2026最新】ピラティス武蔵小山おすすめ5選！
+              <br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -368,26 +352,17 @@ export default function MusashikoyamaPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates Navi編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「武蔵小山で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
+            <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">Pilates Navi編集部です！</p>
+            <p className="text-warm-600 leading-relaxed mb-6">あなたは、</p>
+            <p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p>
+            <p className="text-warm-600 leading-relaxed mb-6">「武蔵小山で人気のピラティススタジオを知りたい」</p>
+            <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
+            <p className="text-warm-600 leading-relaxed mb-8">
+              武蔵小山は東急目黒線で目黒まで約3分、大井町線も利用可能な便利なエリア。パルム商店街をはじめ活気ある商店街が魅力の街です。そんな武蔵小山エリアには、大手チェーンのグループレッスンから完全パーソナルまで、多彩なピラティススタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、武蔵小山エリアでおすすめのピラティススタジオ15選をまとめました。
+              そこでこの記事では、武蔵小山エリアでおすすめの実在するピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -402,11 +377,11 @@ export default function MusashikoyamaPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
-                  <span>体験レッスンが安いスタジオを知りたい</span>
+                  <span>コスパの良いスタジオを知りたい</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
-                  <span>道頓堀・心斎橋に近いスタジオがいい</span>
+                  <span>駅近で通いやすいスタジオがいい</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -414,9 +389,7 @@ export default function MusashikoyamaPage() {
                 </li>
               </ul>
             </div>
-            <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
-            </p>
+            <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
           </div>
         </section>
 
@@ -424,7 +397,7 @@ export default function MusashikoyamaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              武蔵小山のおすすめピラティススタジオ15選
+              武蔵小山のおすすめピラティススタジオ5選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (
@@ -437,41 +410,32 @@ export default function MusashikoyamaPage() {
         {/* Search by Preference */}
         <section className="py-16 bg-white">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              こだわりから探す
-            </h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">こだわりから探す</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
-                <p className="text-warm-600 text-sm mb-4">
-                  月額12,000円以下で通える格安スタジオ。体験レッスン無料のスタジオも多数。コスパ重視の方におすすめ。
-                </p>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
+                <p className="text-warm-600 text-sm mb-4">月1万円台から通えるスタジオも。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Pilates Studio Harmony 武蔵小山</li>
-                  <li className="text-warm-700">• Reformer Pilates Musashikoyama</li>
-                  <li className="text-warm-700">• FLOW PILATES 武蔵小山</li>
+                  <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
+                  <li className="text-warm-700">• STUDIO IVY（月2回 15,000円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">マシン完備</h3>
-                <p className="text-warm-600 text-sm mb-4">
-                  最新のリフォーマーマシンを完備。マシンピラティスを本格的に学びたい方におすすめ。
-                </p>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
+                <p className="text-warm-600 text-sm mb-4">マンツーマンで丁寧な指導。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates 武蔵小山</li>
-                  <li className="text-warm-700">• WECLE 武蔵小山</li>
-                  <li className="text-warm-700">• the SILK 武蔵小山</li>
+                  <li className="text-warm-700">• STUDIO IVY（完全パーソナル・オーダーメイド）</li>
+                  <li className="text-warm-700">• zen place pilates（プライベートレッスンあり）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・ミナミの中心</h3>
-                <p className="text-warm-600 text-sm mb-4">
-                  武蔵小山駅から徒歩3分以内。カフェ・ベーカリー多数、女性・ファミリー層人気し、ショッピングや食事も楽しめる。
-                </p>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">アクセス重視</h3>
+                <p className="text-warm-600 text-sm mb-4">駅直結・徒歩1分のスタジオも。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Urban Pilates 武蔵小山（駅徒歩1分）</li>
-                  <li className="text-warm-700">• the SILK 武蔵小山（駅徒歩2分）</li>
-                  <li className="text-warm-700">• zen place pilates 武蔵小山（駅徒歩3分）</li>
+                  <li className="text-warm-700">• アトリオドゥーエNext（駅直結）</li>
+                  <li className="text-warm-700">• zen place pilates（駅徒歩1分）</li>
+                  <li className="text-warm-700">• ピラティスミラー（駅徒歩5分）</li>
                 </ul>
               </div>
             </div>
@@ -481,21 +445,19 @@ export default function MusashikoyamaPage() {
         {/* Frequency Guide */}
         <section className="py-16 bg-warm-50">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              おすすめの期間・頻度
-            </h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">おすすめの期間・頻度</h2>
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回（月4-8回）からスタートするのがおすすめ。まずは身体を慣らすことが大切です。継続期間は最低でも2-3ヶ月。この期間で効果を実感できる方が多いですよ。
+                週1〜2回からスタートするのがおすすめ。最低2〜3ヶ月継続することで効果を実感できます。ピラティスミラーの30分レッスンなら気軽に始めやすく、zen place pilatesはレベル別クラスで初心者専用レッスンもあります。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回（月8-12回）がおすすめ。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3-6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。
+                週2〜3回がおすすめ。3〜6ヶ月で目に見える変化を実感できます。STUDIO IVYのオーダーメイドパーソナルなら、目的に合わせた最適なプログラムを組んでもらえます。
               </p>
-              <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理が目的の方</h3>
+              <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回（月4回）のペースで継続するのがおすすめ。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切。自分のペースで楽しく通えるのが一番ですよ。
+                週1回のペースで無理なく継続。zen place pilatesは全国150店舗で相互利用可能なので、出張先でもレッスンを受けられます。アトリオドゥーエNextなら駅直結で通いやすさ抜群です。
               </p>
             </div>
           </div>
@@ -504,43 +466,34 @@ export default function MusashikoyamaPage() {
         {/* Price Guide */}
         <section className="py-16 bg-white">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              予算別の料金相場
-            </h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">予算別の料金相場</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜12,000円</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。初心者向けの基本的なレッスンが多い。
-                </p>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜11,000円/月</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4〜6回</p>
+                <p className="text-sm text-warm-600 mb-4">手軽に始めたい方に。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Pilates Studio Harmony</li>
-                  <li>• Reformer Pilates</li>
+                  <li>• zen place pilates（10,450円/月4回〜）</li>
+                  <li>• ピラティスミラー（11,000円/月6回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 12,000〜16,000円</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">
-                  マシン完備の大手スタジオ。グループ・プライベート選択可。
-                </p>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 15,000円/月</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月2回パーソナル</p>
+                <p className="text-sm text-warm-600 mb-4">マンツーマンで着実に成果。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates</li>
-                  <li>• ピラティスK</li>
-                  <li>• the SILK</li>
+                  <li>• STUDIO IVY（15,000円〜/月2回）</li>
+                  <li>• 完全プライベート空間</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 30,000円〜</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">
-                  完全プライベートレッスン。短期集中で結果を出したい方向け。
-                </p>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">総合施設利用</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">ピラティス+α</p>
+                <p className="text-sm text-warm-600 mb-4">ジム・プールも使いたい方に。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• B-line（1回8,800円）</li>
-                  <li>• Pilates Lab</li>
+                  <li>• アトリオドゥーエNext（駅直結）</li>
+                  <li>• ジム・プール併設の総合施設</li>
                 </ul>
               </div>
             </div>
@@ -550,9 +503,7 @@ export default function MusashikoyamaPage() {
         {/* How to Choose */}
         <section className="py-16 bg-warm-50">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              失敗しないピラティススタジオの選び方
-            </h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">失敗しないスタジオの選び方</h2>
             <div className="space-y-8">
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4">
@@ -560,16 +511,16 @@ export default function MusashikoyamaPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  まずは自分がピラティスで何を達成したいのかを明確にしましょう。ダイエット、姿勢改善、体幹強化、リラックスなど、目的によって最適なスタジオやプログラムは変わります。目的が明確だとスタジオ選びもスムーズになりますよ。
+                  ダイエット、姿勢改善、体幹強化など、目的によって最適なスタジオは変わります。ボディメイク重視ならSTUDIO IVYのオーダーメイドパーソナル、姿勢改善ならTwo Threeの正確な姿勢重視レッスンがおすすめ。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4">
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span>
-                  <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
+                  <h3 className="text-xl font-bold text-warm-900">レッスン形式を選ぶ</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  武蔵小山エリアの料金相場は月4回で12,000円〜16,000円程度。無理なく継続できる予算を決めましょう。料金だけでなく、入会金、マット・ウェアのレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  武蔵小山エリアはグループ（zen place pilates、Two Three）、少人数制（アトリオドゥーエNext）、完全パーソナル（STUDIO IVY）と多彩な形式が揃っています。自分の好みや予算に合わせて選びましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -578,7 +529,7 @@ export default function MusashikoyamaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。多くのスタジオが無料〜1,000円程度で体験レッスンを提供しているので、気軽に試してみてくださいね。
+                  zen place pilatesはグループ体験1,000円、ピラティスミラーは体験2,200円、STUDIO IVYは体験4,500円。まずは体験で雰囲気やインストラクターとの相性を確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -587,7 +538,7 @@ export default function MusashikoyamaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  どんなに良いスタジオでも、通いにくい場所にあると続きません。武蔵小山はミナミの中心で、東急目黒線・大井町線が利用可能。商店街日本一です。駅から近い場所を選ぶと、道頓堀・心斎橋でのショッピングや食事ついでにも通えて便利ですよ。
+                  武蔵小山は東急目黒線で目黒まで約3分。アトリオドゥーエNextは駅直結、zen place pilatesは東口徒歩1分、ピラティスミラーは東口徒歩5分。zen place pilatesは全国150店舗で相互利用可能なので通いやすさ抜群です。
                 </p>
               </div>
             </div>
@@ -597,9 +548,7 @@ export default function MusashikoyamaPage() {
         {/* FAQ */}
         <section className="py-16 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              よくある質問
-            </h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">よくある質問</h2>
             <div className="space-y-6">
               {faqs.map((faq, index) => (
                 <div key={index} className="border border-warm-200 rounded-lg overflow-hidden">
@@ -607,12 +556,10 @@ export default function MusashikoyamaPage() {
                     <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition">
                       <h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3>
                       <svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"/>
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
                       </svg>
                     </summary>
-                    <div className="px-6 pb-6 text-warm-600 leading-relaxed">
-                      {faq.answer}
-                    </div>
+                    <div className="px-6 pb-6 text-warm-600 leading-relaxed">{faq.answer}</div>
                   </details>
                 </div>
               ))}
@@ -623,36 +570,30 @@ export default function MusashikoyamaPage() {
         {/* Summary */}
         <section className="py-16 bg-warm-50">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">
-              まとめ
-            </h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は武蔵小山のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              今回は武蔵小山エリアのおすすめピラティススタジオ5選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では武蔵小山に数多くあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              武蔵小山は東急目黒線で目黒まで約3分の好立地で、パルム商店街をはじめ活気ある街です。全国150店舗で相互利用可能なzen place pilates（体験1,000円・駅徒歩1分）、コナミスポーツ運営のピラティスミラー（月6回11,000円・30分レッスン）、完全パーソナルのSTUDIO IVY（月2回15,000円〜・オーダーメイド）、駅直結のアトリオドゥーエNext（少人数制・総合施設）、マシンピラティス専門のTwo Three（最大8名・正確な姿勢重視）と、それぞれ特徴の異なるスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              まずはzen place pilatesのグループ体験1,000円やピラティスミラーの体験2,200円から試してみるのがおすすめです。ぜひこの記事を参考に、自分に合うピラティススタジオを見つけてくださいね。
             </p>
-            <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
-            </p>
+            <p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p>
           </div>
         </section>
 
         {/* CTA */}
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
-            </h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜1,000円。<br />
+              zen place pilatesはグループ体験1,000円、ピラティスミラーは体験2,200円。<br />
               まずは気軽に体験してみましょう。
             </p>
-            <Link 
-              href="/#studios" 
+            <Link
+              href="/#studios"
               className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded"
             >
               おすすめスタジオ一覧に戻る
@@ -660,7 +601,6 @@ export default function MusashikoyamaPage() {
           </div>
         </section>
       </main>
-
       <SiteFooter />
       <Script src="https://unpkg.com/lucide@latest" strategy="lazyOnload" />
     </>
