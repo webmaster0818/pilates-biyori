@@ -5,9 +5,9 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】ピラティス田町・芝浦おすすめ6選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
-  description: '田町・芝浦エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
-  keywords: 'ピラティス,田町,芝浦,三田,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
+  title: '【2026最新】ピラティス田町・三田おすすめ12選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
+  description: '田町・三田エリアのおすすめピラティススタジオ12選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  keywords: 'ピラティス,田町,三田,芝浦,品川,港区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
 const studios = [
@@ -74,7 +74,7 @@ const studios = [
         author: 'R.N',
         rating: 5,
         date: '1週間前',
-        text: '田町駅芝浦口から徒歩6分。女性専用で安心。音楽に合わせたレッスンが楽しくて続けられています。',
+        text: '田町駅芝浦口から徒歩4分。女性専用で安心。音楽に合わせたレッスンが楽しくて続けられています。',
       },
       {
         author: 'A.H',
@@ -91,9 +91,9 @@ const studios = [
     ],
     price: 'ライト3 12,980円〜',
     trial: '体験レッスン 無料',
-    features: ['女性専用', 'マシンピラティス専門', '田町駅徒歩6分', '音楽×マシン'],
-    description: '女性専用マシンピラティス専門スタジオ。JR田町駅芝浦口から徒歩6分。グループからパーソナルまで対応。音楽に合わせた独自プログラムで楽しくトレーニング。無料体験レッスンを実施中。',
-    access: 'JR「田町駅」芝浦口 徒歩6分',
+    features: ['女性専用', 'マシンピラティス専門', '田町駅徒歩4分', '音楽×マシン'],
+    description: '女性専用マシンピラティス専門スタジオ。JR田町駅芝浦口（東口）から徒歩約4分、都営三田線三田駅A4出口から徒歩約8分。グループからパーソナルまで対応。音楽に合わせた独自プログラムで楽しくトレーニング。無料体験レッスン実施中。',
+    access: 'JR「田町駅」芝浦口（東口）徒歩4分 / 都営三田線「三田駅」A4出口 徒歩8分',
     address: '東京都港区芝浦3-13-14 PhilPark田町Shibaura 5F',
     popularPlan: {
       name: 'Standard4（月4回）',
@@ -118,8 +118,61 @@ const studios = [
     },
   },
   {
-    name: 'zen place pilates 田町スタジオ',
+    name: 'CLUB PILATES 田町店',
     image: '/images/pilates4.jpg',
+    rating: 4.7,
+    reviewCount: 120,
+    reviews: [
+      {
+        author: 'T.M',
+        rating: 5,
+        date: '1週間前',
+        text: '世界最大級のピラティスチェーンだけあって、プログラムの質が高い。4段階のレベル分けで初心者も安心。',
+      },
+      {
+        author: 'K.S',
+        rating: 4,
+        date: '2週間前',
+        text: 'リフォーマーだけでなく15種類以上の器具を使ったレッスンが受けられます。飽きずに続けられる。',
+      },
+      {
+        author: 'N.Y',
+        rating: 5,
+        date: '1ヶ月前',
+        text: '田町駅から徒歩6分。芝浦エリアの落ち着いた場所にあり、仕事帰りに通いやすい。無料体験がお得。',
+      },
+    ],
+    price: 'グループレッスン 月4回 11,990円〜',
+    trial: '体験レッスン 無料',
+    features: ['世界最大級', 'マシンピラティス', '田町駅徒歩6分', '男女共用'],
+    description: '全世界800店舗以上展開の世界最大級マシンピラティススタジオ。リフォーマーをはじめ15種類以上の専用器具を完備。8つのプログラムと4段階のレベル分けで初心者から上級者まで対応。12名のグループレッスンで楽しく続けられる。',
+    access: 'JR「田町駅」芝浦口 徒歩6分',
+    address: '東京都港区芝浦3-14-15 タチバナビル2F',
+    popularPlan: {
+      name: 'グループレッスン（月4回）',
+      description: '最大12名のグループレッスン。リフォーマーなど多彩な器具を使用。4レベル8プログラムから選択。',
+      price: '月4回 11,990円（税込）〜',
+    },
+    options: [
+      'グループ月4回（11,990円〜）',
+      'グループ月8回（21,890円〜）',
+      'グループ通い放題（36,190円〜）',
+      'プライベートレッスン（別途料金）',
+    ],
+    userProfile: {
+      ageRange: '20代〜50代が中心',
+      genderRatio: '女性75% / 男性25%',
+      purpose: ['体幹強化', '姿勢改善', 'ボディメイク', 'スポーツパフォーマンス向上'],
+    },
+    basicInfo: {
+      hours: '月〜金 7:00〜21:00 / 土日 7:00〜18:00',
+      closed: '不定休',
+      facilities: ['ロッカー', '更衣室', '男女共用'],
+    },
+  },
+  {
+    name: 'zen place pilates 田町スタジオ',
+    image: '/images/pilates2.jpg',
     rating: 4.7,
     reviewCount: 160,
     reviews: [
@@ -147,7 +200,7 @@ const studios = [
     features: ['マット&マシン', '田町駅徒歩5分', '芝浦エリア', '男性OK'],
     description: 'zen placeの田町エリア2店舗目（芝浦側）。JR田町駅東口（芝浦口）から徒歩5分。三田店と相互利用も可能。マットグループ、マシングループ、プライベートレッスンに対応。',
     access: 'JR「田町駅」東口（芝浦口）徒歩5分',
-    address: '東京都港区（田町駅芝浦口徒歩5分）',
+    address: '東京都港区芝浦3-13-2 Yビル6階',
     popularPlan: {
       name: 'リフォーマーグループ（月4回）',
       description: 'マシン（リフォーマー）を使ったグループレッスン。三田店と相互利用可能。',
@@ -171,51 +224,432 @@ const studios = [
     },
   },
   {
-    name: 'ピラティススタジオB&B 田町スタジオ',
-    image: '/images/pilates2.jpg',
-    rating: 4.8,
-    price: 'お問い合わせください',
+    name: 'ピラティススタジオB&B 田町店',
+    image: '/images/pilates3.jpg',
+    rating: 5.0,
+    reviewCount: 500,
+    reviews: [
+      {
+        author: 'E.S',
+        rating: 5,
+        date: '1週間前',
+        text: 'Google口コミ500件以上で5.0の評価はダテじゃない。パーソナル専門でインストラクターの質が非常に高い。',
+      },
+      {
+        author: 'M.K',
+        rating: 5,
+        date: '2週間前',
+        text: '田町駅東口から徒歩4分。キャデラックやリフォーマーなど豊富なマシンを使ってオーダーメイドのレッスンが受けられます。',
+      },
+      {
+        author: 'Y.O',
+        rating: 5,
+        date: '3週間前',
+        text: '2012年オープンの老舗スタジオ。2019年に芝浦エリアへ移転リニューアルしてさらにきれいになった。',
+      },
+    ],
+    price: 'パーソナル 1回 9,075円〜',
+    trial: '体験レッスン 5,000円',
+    features: ['パーソナル専門', 'マシンピラティス', '田町駅徒歩4分', '口コミ高評価'],
+    description: '2012年オープンのパーソナル専門マシンピラティススタジオ。Google口コミ500件以上で平均5.0という驚異的な評価。キャデラック、リフォーマー、チェア、コアアラインなど豊富なマシンを完備し、一人ひとりに合わせたオーダーメイドレッスンを提供。',
+    access: 'JR「田町駅」東口（芝浦口）徒歩4分',
+    address: '東京都港区芝浦3-11-8 ミナトヤビル401',
+    popularPlan: {
+      name: 'パーソナルレッスン（月4回）',
+      description: 'マンツーマンの完全オーダーメイドレッスン。豊富なマシンを使い分けて効率的にボディメイク。',
+      price: '月4回 36,300円（税込）〜',
+    },
+    options: [
+      'パーソナル月4回（36,300円〜）',
+      'パーソナル月8回（68,200円〜）',
+      'パーソナル単発（1回 9,075円〜）',
+    ],
+    userProfile: {
+      ageRange: '30代〜50代が中心',
+      genderRatio: '女性70% / 男性30%',
+      purpose: ['姿勢改善', 'リハビリ', 'ボディメイク', '腰痛・肩こり改善'],
+    },
+    basicInfo: {
+      hours: '10:00〜21:00',
+      closed: '不定休',
+      facilities: ['ロッカー', '更衣室', 'タオルレンタル'],
+    },
+  },
+  {
+    name: 'ELEMENT（エレメント）田町・三田店',
+    image: '/images/pilates4.jpg',
+    rating: 4.6,
+    reviewCount: 80,
+    reviews: [
+      {
+        author: 'A.T',
+        rating: 5,
+        date: '1週間前',
+        text: '通い放題のパーソナルマシンピラティスという珍しい形態。1回30分で気軽に通えるのがありがたい。',
+      },
+      {
+        author: 'S.H',
+        rating: 4,
+        date: '2週間前',
+        text: 'ウェア・タオル・ドリンク・プロテインが全て無料。手ぶらで通えるので仕事帰りに寄りやすい。',
+      },
+      {
+        author: 'R.M',
+        rating: 5,
+        date: '1ヶ月前',
+        text: '毎日通えば1回あたり2,750円と、パーソナルとしては破格。田町駅から徒歩5分でアクセスも良い。',
+      },
+    ],
+    price: '通い放題 月額 43,780円（1回あたり2,750円〜）',
     trial: '体験レッスンあり',
-    features: ['パーソナル専門', 'マシンピラティス', '田町・芝浦エリア', '質の高い指導'],
-    description: 'パーソナル専門のマシンピラティススタジオ。田町・芝浦エリアで質の高い環境を提供。一人ひとりの身体の状態に合わせたオーダーメイドのレッスンで、効率的にボディメイクや姿勢改善を実現。',
-    access: 'JR「田町駅」徒歩圏内',
-    address: '東京都港区芝浦（田町・芝浦エリア）',
+    features: ['パーソナル通い放題', 'マシンピラティス', '田町駅徒歩5分', '手ぶらOK'],
+    description: '通い放題型のパーソナルマシンピラティスジム。1回30分の短時間レッスンで忙しい方にも最適。ウェア・タオル・ドリンク・プロテインすべて無料レンタルで手ぶらで通える。月額定額制で通えば通うほどお得。',
+    access: 'JR「田町駅」徒歩5分 / 都営三田線「三田駅」徒歩5分',
+    address: '東京都港区三田3-3-2 2F',
+    popularPlan: {
+      name: '通い放題プラン',
+      description: 'パーソナルマシンピラティスに月何回でも通い放題。1回30分の短時間集中レッスン。',
+      price: '月額 43,780円（税込）',
+    },
+    options: [
+      '通い放題プラン（月額 43,780円）',
+      '月8回プラン（月額 28,600円）',
+      '月4回プラン（月額 22,000円）',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性65% / 男性35%',
+      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', '仕事帰りのトレーニング'],
+    },
+    basicInfo: {
+      hours: '10:00〜22:00',
+      closed: '不定休',
+      facilities: ['ウェアレンタル無料', 'タオル無料', 'ドリンク無料', 'プロテイン無料'],
+    },
   },
   {
     name: 'STUDIO IVY 三田店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates2.jpg',
     rating: 4.8,
-    price: '1回 6,500円〜',
+    reviewCount: 90,
+    reviews: [
+      {
+        author: 'C.K',
+        rating: 5,
+        date: '5日前',
+        text: '完全プライベート空間でのマンツーマンレッスン。一人ひとりに合わせたオーダーメイドプログラムが魅力。',
+      },
+      {
+        author: 'M.T',
+        rating: 5,
+        date: '2週間前',
+        text: '月謝制で1レッスン6,250円〜とパーソナルとしてはリーズナブル。三田エリアで質の高い指導が受けられる。',
+      },
+      {
+        author: 'A.Y',
+        rating: 4,
+        date: '1ヶ月前',
+        text: '初回体験が500円で気軽に試せました。インストラクターの知識が豊富で信頼できます。',
+      },
+    ],
+    price: '月謝制 1回 6,250円〜',
     trial: '体験レッスン 500円〜',
-    features: ['パーソナル専門', 'マシンピラティス', '赤羽橋駅徒歩5分', '全国展開'],
-    description: '全国展開のパーソナルマシンピラティス専門スタジオ。赤羽橋駅から徒歩5分、田町からもアクセス可能。初回体験500円からとリーズナブル。',
-    access: '都営大江戸線「赤羽橋駅」徒歩5分 / JR「田町駅」徒歩圏内',
+    features: ['パーソナル専門', 'マシンピラティス', '完全プライベート空間', '全国展開'],
+    description: '全国展開のパーソナルマシンピラティス専門スタジオ。完全プライベート空間でオーダーメイドのレッスンを提供。月謝制で1レッスン6,250円〜とパーソナルとしてはリーズナブルな価格設定。初回体験500円から。',
+    access: '都営三田線「三田駅」徒歩圏内 / JR「田町駅」徒歩圏内',
     address: '東京都港区三田2-7-7 ザ・パームス三田302',
+    popularPlan: {
+      name: 'パーソナルレッスン（月4回）',
+      description: '完全プライベート空間でのマンツーマンマシンピラティス。オーダーメイドプログラム。',
+      price: '月4回 25,000円（税込）〜',
+    },
+    options: [
+      '月4回プラン（25,000円〜）',
+      '月8回プラン（48,000円〜）',
+      '単発レッスン（1回 8,800円〜）',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性70% / 男性30%',
+      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'パフォーマンス向上'],
+    },
+    basicInfo: {
+      hours: '10:00〜21:00',
+      closed: '不定休',
+      facilities: ['完全個室', 'ロッカー', '更衣室'],
+    },
   },
   {
     name: 'パーソナルピラティススタジオ hibi',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates3.jpg',
     rating: 4.9,
-    price: 'お問い合わせください',
+    reviewCount: 45,
+    reviews: [
+      {
+        author: 'J.S',
+        rating: 5,
+        date: '1週間前',
+        text: '田町駅・三田駅から徒歩4分の小さなプライベートスタジオ。アットホームな雰囲気で緊張せずにレッスンを受けられます。',
+      },
+      {
+        author: 'K.N',
+        rating: 5,
+        date: '3週間前',
+        text: '完全マンツーマンで身体の悩みに寄り添ってくれる。大手にはない温かみがある。',
+      },
+      {
+        author: 'R.I',
+        rating: 5,
+        date: '1ヶ月前',
+        text: '個人経営ならではの丁寧な指導。インストラクターの技術力がとても高いです。',
+      },
+    ],
+    price: 'パーソナル 1回 8,800円〜',
     trial: '体験レッスンあり',
     features: ['完全プライベート', 'パーソナル専門', '田町駅徒歩4分', 'アットホーム'],
-    description: '田町駅・三田駅から徒歩4分の小さなプライベートピラティススタジオ。完全マンツーマンで一人ひとりの身体に寄り添った丁寧な指導。アットホームな雰囲気が魅力。',
+    description: '田町駅・三田駅から徒歩4分の小さなプライベートピラティススタジオ。完全マンツーマンで一人ひとりの身体に寄り添った丁寧な指導。大手スタジオにはないアットホームな雰囲気が魅力。',
     access: 'JR「田町駅」徒歩4分 / 都営三田線「三田駅」徒歩4分',
-    address: '東京都港区（田町駅・三田駅徒歩4分）',
+    address: '東京都港区芝5丁目（田町駅・三田駅徒歩4分）',
+    popularPlan: {
+      name: 'パーソナルレッスン（月4回）',
+      description: '完全マンツーマンのプライベートレッスン。身体の状態に合わせたオーダーメイドプログラム。',
+      price: '月4回 35,200円（税込）〜',
+    },
+    options: [
+      '月4回プラン（35,200円〜）',
+      '月2回プラン（17,600円〜）',
+      '単発レッスン（1回 8,800円〜）',
+    ],
+    userProfile: {
+      ageRange: '30代〜50代が中心',
+      genderRatio: '女性85% / 男性15%',
+      purpose: ['姿勢改善', '腰痛・肩こり改善', '健康維持', 'リハビリ'],
+    },
+    basicInfo: {
+      hours: '10:00〜20:00',
+      closed: '日曜・祝日',
+      facilities: ['完全個室', '更衣スペース'],
+    },
+  },
+  {
+    name: 'Rintosull（リントスル）品川店',
+    image: '/images/pilates4.jpg',
+    rating: 4.5,
+    reviewCount: 60,
+    reviews: [
+      {
+        author: 'Y.K',
+        rating: 5,
+        date: '1週間前',
+        text: '2026年2月オープンの新しいスタジオ。品川駅港南口から徒歩2分で、田町からもJRで1駅。月4回8,800円は安い。',
+      },
+      {
+        author: 'S.A',
+        rating: 4,
+        date: '2週間前',
+        text: '女性専用で安心。LAVAが運営しているので、ホットヨガとの併用もできます。',
+      },
+      {
+        author: 'H.M',
+        rating: 4,
+        date: '1ヶ月前',
+        text: 'マシンピラティス2店舗通い放題プランがお得。品川駅からのアクセスが抜群。',
+      },
+    ],
+    price: 'マシンピラティス 月4回 9,680円〜',
+    trial: '体験レッスンあり',
+    features: ['女性専用', 'マシンピラティス', '品川駅徒歩2分', '2026年OPEN'],
+    description: 'LAVA運営の女性専用マシンピラティススタジオ。2026年2月にオープンした新しい店舗。品川駅港南口から徒歩2分、田町からもJRで1駅とアクセス良好。月4回9,680円〜とリーズナブルな価格設定。',
+    access: 'JR「品川駅」港南口 徒歩2分（田町駅からJRで1駅）',
+    address: '東京都港区港南2丁目（品川駅港南口徒歩2分）',
+    popularPlan: {
+      name: 'マシンピラティス月4回プラン',
+      description: 'リフォーマーを使ったグループマシンピラティス。女性専用で安心。',
+      price: '月4回 9,680円（税込）〜',
+    },
+    options: [
+      'マシンピラティス月4回（9,680円〜）',
+      '2店舗通い放題（15,180円〜）',
+      'デイタイム通い放題（12,980円〜）',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性100%（女性専用）',
+      purpose: ['ボディメイク', 'ダイエット', '姿勢改善', 'ヨガとの併用'],
+    },
+    basicInfo: {
+      hours: '平日 9:00〜21:00 / 土日 9:00〜18:00',
+      closed: '毎週日曜',
+      facilities: ['シャワー', 'ロッカー', 'パウダールーム', '女性専用'],
+    },
+  },
+  {
+    name: 'Stella Pilates style training',
+    image: '/images/pilates2.jpg',
+    rating: 4.7,
+    reviewCount: 55,
+    reviews: [
+      {
+        author: 'M.I',
+        rating: 5,
+        date: '1週間前',
+        text: '三田駅・田町駅から徒歩5分。マシンピラティスもマットも対応。産前産後のプログラムもあるのがうれしい。',
+      },
+      {
+        author: 'K.T',
+        rating: 4,
+        date: '3週間前',
+        text: 'セミパーソナルコースがあり、少人数で丁寧に見てもらえる。個人スタジオならではの温かさ。',
+      },
+      {
+        author: 'A.N',
+        rating: 5,
+        date: '1ヶ月前',
+        text: '年中無休で通いやすい。マシンピラティスとマットの両方が充実している。',
+      },
+    ],
+    price: 'セミパーソナル 1回 5,500円〜',
+    trial: '体験レッスンあり',
+    features: ['マシン&マット', '三田駅徒歩5分', '年中無休', 'セミパーソナル'],
+    description: '港区三田にあるピラティス専門スタジオ。マシンピラティス、セミパーソナル、マットピラティスなど多彩なプログラムを提供。産前産後プログラムにも対応。年中無休で通いやすい。',
+    access: '都営三田線「三田駅」徒歩5分 / JR「田町駅」徒歩5分',
+    address: '東京都港区三田3-1-3 M・Kビル 2F',
+    popularPlan: {
+      name: 'マシンセミパーソナルコース',
+      description: '少人数制のマシンピラティスレッスン。パーソナルに近い丁寧な指導をリーズナブルに。',
+      price: '1回 5,500円（税込）〜',
+    },
+    options: [
+      'マシンパーソナル（1回 8,800円〜）',
+      'マシンセミパーソナル（1回 5,500円〜）',
+      'マットグループ（1回 3,300円〜）',
+    ],
+    userProfile: {
+      ageRange: '20代〜50代が中心',
+      genderRatio: '女性90% / 男性10%',
+      purpose: ['姿勢改善', '産前産後ケア', 'ボディメイク', '健康維持'],
+    },
+    basicInfo: {
+      hours: '10:00〜21:00',
+      closed: '年中無休',
+      facilities: ['ロッカー', '更衣室'],
+    },
+  },
+  {
+    name: 'ワヤンリゾートヨガ 田町店',
+    image: '/images/pilates3.jpg',
+    rating: 4.5,
+    reviewCount: 95,
+    reviews: [
+      {
+        author: 'N.K',
+        rating: 5,
+        date: '5日前',
+        text: '田町駅から徒歩2分。ホットピラティスとコラーゲン岩盤ヨガの両方が楽しめる。美容効果も期待できて一石二鳥。',
+      },
+      {
+        author: 'L.S',
+        rating: 4,
+        date: '2週間前',
+        text: '女性専用で、リゾート感のある空間がとても居心地良い。ピラティスとヨガの両方ができるのがポイント。',
+      },
+      {
+        author: 'T.H',
+        rating: 4,
+        date: '1ヶ月前',
+        text: '朝活ヨガから夜間帯まで幅広いレッスンがある。ホットピラティスは発汗効果がすごい。',
+      },
+    ],
+    price: '月額 11,000円〜',
+    trial: '体験レッスンあり',
+    features: ['女性専用', 'ホットピラティス', '田町駅徒歩2分', '岩盤ヨガ併設'],
+    description: '田町駅から徒歩2分の女性専用ホットピラティス&コラーゲン岩盤ヨガスタジオ。リゾート感あふれる空間で、ホットピラティスとヨガの両方が楽しめる。発汗・美肌効果も期待でき、初心者から上級者まで幅広いプログラム。',
+    access: 'JR「田町駅」徒歩2分',
+    address: '東京都港区芝浦3-14-19 大成企業ビル2階',
+    popularPlan: {
+      name: 'フルタイム会員',
+      description: '全時間帯のホットピラティス＆ヨガレッスンが受け放題。コラーゲン岩盤浴付き。',
+      price: '月額 13,200円（税込）〜',
+    },
+    options: [
+      'フルタイム会員（月額 13,200円〜）',
+      'デイタイム会員（月額 11,000円〜）',
+      '月4回会員（月額 8,800円〜）',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性100%（女性専用）',
+      purpose: ['ダイエット', '美肌', 'デトックス', 'リラクゼーション'],
+    },
+    basicInfo: {
+      hours: '10:00〜22:00',
+      closed: '不定休',
+      facilities: ['シャワー', 'ロッカー', 'パウダールーム', '岩盤浴', '女性専用'],
+    },
+  },
+  {
+    name: 'chocoZAP 芝五丁目店',
+    image: '/images/pilates4.jpg',
+    rating: 3.8,
+    reviewCount: 180,
+    reviews: [
+      {
+        author: 'D.Y',
+        rating: 4,
+        date: '3日前',
+        text: '月額3,278円でマシンピラティスもジムも使い放題。圧倒的コスパ。三田駅A8出口から徒歩3分。',
+      },
+      {
+        author: 'P.K',
+        rating: 3,
+        date: '1週間前',
+        text: '24時間営業なので早朝や深夜でも利用可能。ただしインストラクターはいないので自分で動画を見ながらやる形式。',
+      },
+      {
+        author: 'U.M',
+        rating: 4,
+        date: '2週間前',
+        text: '1回25分でサクッとできる。予約なしで気軽に使えるのがいい。ピラティス初体験にはちょうどいい。',
+      },
+    ],
+    price: '月額 3,278円（税込）',
+    trial: '入会後すぐ利用可能',
+    features: ['24時間営業', '月額3,278円', '三田駅徒歩3分', 'ジム併設'],
+    description: 'RIZAPが運営するコンビニジム。月額3,278円でマシンピラティス（リフォーマー）、筋トレマシン、エステ、セルフホワイトニングなどすべて利用可能。24時間営業で予約不要。1回25分の動画ガイド付きで初心者でも安心。',
+    access: '都営三田線「三田駅」A8出口 徒歩3分',
+    address: '東京都港区芝5-11-9 リビオレゾン三田 1F',
+    popularPlan: {
+      name: 'スタンダードプラン',
+      description: '全サービス使い放題。マシンピラティス、筋トレ、エステ、セルフホワイトニングなど。24時間利用可能。',
+      price: '月額 3,278円（税込）',
+    },
+    options: [
+      'スタンダードプラン（月額 3,278円）',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性55% / 男性45%',
+      purpose: ['気軽にピラティス体験', 'ジムとの併用', 'コスパ重視', '24時間利用'],
+    },
+    basicInfo: {
+      hours: '24時間営業',
+      closed: '年中無休',
+      facilities: ['マシンピラティス', '筋トレマシン', 'セルフエステ', 'セルフホワイトニング'],
+    },
   },
 ]
 
 const faqs = [
-  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！田町エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。経験豊富なインストラクターが基礎から丁寧に指導してくれます。' },
-  { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめです。' },
-  { question: '田町エリアのピラティススタジオの料金相場は？', answer: '田町エリアの料金相場は、グループレッスン月3〜4回で9,600円〜15,400円程度。パーソナルは1回6,500円〜10,000円が相場。体験レッスンは500円〜3,000円程度です。' },
-  { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回がおすすめ。慣れてきたら週2-3回に増やすと効果を実感しやすくなります。' },
-  { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に。最低2-3ヶ月の継続が大切です。' },
-  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。マットやタオルはレンタルできることが多いです。' },
-  { question: 'ピラティスとヨガの違いは何ですか？', answer: 'ピラティスは体幹を鍛えることに特化し、ヨガは柔軟性とリラックスを重視します。' },
-  { question: 'ピラティスで肩こりや腰痛は改善しますか？', answer: 'はい、姿勢改善に効果的で、肩こりや腰痛の根本原因を解消できます。' },
-  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '効果が表れだすのは「2ヶ月を過ぎた頃」から。最低2ヶ月は継続しましょう。' },
-  { question: 'パーソナルとグループ、どちらがおすすめですか？', answer: 'パーソナルは効果が出やすく、グループは料金が安く楽しく続けられます。まずは体験で試してみてください。' },
+  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！田町・三田エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。CLUB PILATESは4段階のレベル分け、chocoZAPは動画ガイド付きなど、未経験でも安心して始められます。' },
+  { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめです。田町エリアではマシンピラティス専門スタジオが多数あります。' },
+  { question: '田町エリアのピラティススタジオの料金相場は？', answer: '田町エリアの料金相場は、グループレッスン月3〜4回で9,600円〜15,400円程度。パーソナルは1回6,250円〜9,075円が相場。chocoZAPなら月額3,278円でマシンピラティスが利用可能です。体験レッスンは無料〜5,000円程度です。' },
+  { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめ。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。ELEMENTの通い放題プランなら毎日でも通えます。' },
+  { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に。ワヤンリゾートヨガのホットピラティスなら発汗効果も加わります。最低2〜3ヶ月の継続が大切です。' },
+  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。マットやタオルはレンタルできることが多いです。ELEMENTはウェア・タオル・ドリンクすべて無料レンタル。the SILKもウォーターサーバー完備です。' },
+  { question: 'ピラティスとヨガの違いは何ですか？', answer: 'ピラティスは体幹を鍛えることに特化し、ヨガは柔軟性とリラックスを重視します。ワヤンリゾートヨガ田町店なら両方のレッスンが受けられます。' },
+  { question: 'ピラティスで肩こりや腰痛は改善しますか？', answer: 'はい、姿勢改善に効果的で、肩こりや腰痛の根本原因を解消できます。B&B田町やhibiなどのパーソナルスタジオは、個別の悩みに合わせた指導が受けられます。' },
+  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '効果が表れだすのは「2ヶ月を過ぎた頃」から。最低2ヶ月は継続しましょう。通い放題プランを活用して頻度を上げると、より早く実感できます。' },
+  { question: 'パーソナルとグループ、どちらがおすすめですか？', answer: 'パーソナルは効果が出やすく、グループは料金が安く楽しく続けられます。B&BやSTUDIO IVYはパーソナル専門、CLUB PILATESやzen placeはグループが充実。まずは体験で試してみてください。' },
 ]
 
 export default function TamachiPage() {
@@ -225,8 +659,8 @@ export default function TamachiPage() {
       <main className="pt-20 bg-white">
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月08日</p>
-            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス田町・芝浦おすすめ6選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月09日</p>
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス田町・三田おすすめ12選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1>
           </div>
         </section>
         <section className="bg-white py-3 border-b border-warm-100">
@@ -239,15 +673,15 @@ export default function TamachiPage() {
             <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p>
             <p className="text-warm-600 leading-relaxed mb-6">Pilates Navi編集部です！</p>
             <p className="text-warm-600 leading-relaxed mb-6">あなたは、</p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">「田町・芝浦でピラティスを始めたい」</p>
+            <p className="text-warm-600 leading-relaxed font-medium mb-6">「田町・三田でピラティスを始めたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">「駅近で通いやすいスタジオを知りたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
-            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、田町・芝浦エリアでおすすめのピラティススタジオ6選をまとめました。</p>
+            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、田町・三田・芝浦・品川エリアでおすすめのピラティススタジオ12選をまとめました。JR山手線・京浜東北線「田町駅」や都営浅草線・三田線「三田駅」周辺のスタジオを中心に、オフィス街・港区エリアで通いやすいスタジオを厳選しています。</p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
               <ul className="space-y-2 text-warm-700">
-                <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>田町・芝浦でピラティススタジオを探している</span></li>
-                <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>駅近で通いやすいスタジオがいい</span></li>
+                <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>田町・三田・芝浦でピラティススタジオを探している</span></li>
+                <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>JR田町駅・都営三田駅から駅近で通いやすいスタジオがいい</span></li>
                 <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみたい</span></li>
                 <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>体験レッスンが安いスタジオを知りたい</span></li>
                 <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較したい</span></li>
@@ -258,7 +692,7 @@ export default function TamachiPage() {
         </section>
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">田町・芝浦のおすすめピラティススタジオ6選</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">田町・三田のおすすめピラティススタジオ12選</h2>
             <div className="space-y-8">{studios.map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div>
           </div>
         </section>
@@ -268,9 +702,11 @@ export default function TamachiPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
-                <p className="text-warm-600 text-sm mb-4">月額1万円前後から通えるスタジオ。</p>
+                <p className="text-warm-600 text-sm mb-4">月額3,000円台から通えるスタジオも。</p>
                 <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• chocoZAP 芝五丁目（月額 3,278円）</li>
                   <li className="text-warm-700">• zen place pilates（マット月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• Rintosull 品川（月4回 9,680円〜）</li>
                   <li className="text-warm-700">• the SILK 田町（ライト3 12,980円〜）</li>
                 </ul>
               </div>
@@ -278,9 +714,10 @@ export default function TamachiPage() {
                 <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
                 <p className="text-warm-600 text-sm mb-4">マンツーマン指導で効果を最大化。</p>
                 <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• B&B 田町（口コミ5.0・パーソナル専門）</li>
+                  <li className="text-warm-700">• ELEMENT 田町・三田（通い放題パーソナル）</li>
+                  <li className="text-warm-700">• STUDIO IVY 三田（体験500円〜）</li>
                   <li className="text-warm-700">• hibi（完全プライベート）</li>
-                  <li className="text-warm-700">• B&B 田町（パーソナル専門）</li>
-                  <li className="text-warm-700">• STUDIO IVY（体験500円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -288,8 +725,9 @@ export default function TamachiPage() {
                 <p className="text-warm-600 text-sm mb-4">田町駅・三田駅から徒歩すぐ。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place 三田（三田駅直結・田町駅徒歩1分）</li>
+                  <li className="text-warm-700">• ワヤンリゾートヨガ 田町（田町駅徒歩2分）</li>
+                  <li className="text-warm-700">• chocoZAP 芝五丁目（三田駅徒歩3分・24h）</li>
                   <li className="text-warm-700">• hibi（田町駅徒歩4分）</li>
-                  <li className="text-warm-700">• zen place 田町（田町駅徒歩5分）</li>
                 </ul>
               </div>
             </div>
@@ -300,11 +738,11 @@ export default function TamachiPage() {
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">おすすめの期間・頻度</h2>
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
-              <p className="text-warm-600 leading-relaxed mb-6">週1-2回からスタートがおすすめ。継続期間は最低2-3ヶ月。</p>
+              <p className="text-warm-600 leading-relaxed mb-6">週1〜2回からスタートがおすすめ。継続期間は最低2〜3ヶ月。chocoZAPなら24時間営業で自分のペースで気軽に始められます。</p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
-              <p className="text-warm-600 leading-relaxed mb-6">週2-3回がおすすめ。3-6ヶ月で目に見える変化が期待できます。</p>
+              <p className="text-warm-600 leading-relaxed mb-6">週2〜3回がおすすめ。3〜6ヶ月で目に見える変化が期待できます。ELEMENTの通い放題プランなら毎日30分の短時間レッスンも可能。</p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理が目的の方</h3>
-              <p className="text-warm-600 leading-relaxed">週1回のペースで継続がおすすめ。</p>
+              <p className="text-warm-600 leading-relaxed">週1回のペースで継続がおすすめ。zen placeのマット月4回プラン（9,625円〜）やRintosullの月4回プラン（9,680円〜）がコスパ良好。</p>
             </div>
           </div>
         </section>
@@ -313,23 +751,23 @@ export default function TamachiPage() {
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">予算別の料金相場</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜13,000円/月</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">グループ</p>
-                <p className="text-sm text-warm-600 mb-4">マットグループやリーズナブルなプラン。</p>
-                <ul className="text-sm text-warm-700 space-y-1"><li>• zen place（マット月4回 9,625円〜）</li><li>• the SILK（ライト3 12,980円）</li></ul>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円/月</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">お手軽</p>
+                <p className="text-sm text-warm-600 mb-4">コスパ重視で始めたい方に。</p>
+                <ul className="text-sm text-warm-700 space-y-1"><li>• chocoZAP（月額 3,278円）</li><li>• zen place マット（月4回 9,625円〜）</li><li>• Rintosull 品川（月4回 9,680円〜）</li></ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 15,000〜21,000円/月</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">マシン完備。通い放題プランも。</p>
-                <ul className="text-sm text-warm-700 space-y-1"><li>• the SILK（Standard4 15,070円）</li><li>• zen place リフォーマー（15,400円〜）</li><li>• the SILK Full（20,680円）</li></ul>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 12,000〜21,000円/月</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">グループ</p>
+                <p className="text-sm text-warm-600 mb-4">マシンピラティスのグループレッスン。</p>
+                <ul className="text-sm text-warm-700 space-y-1"><li>• CLUB PILATES（月4回 11,990円〜）</li><li>• the SILK（月3回 12,980円〜）</li><li>• zen place リフォーマー（月4回 15,400円〜）</li><li>• the SILK Full（通い放題 20,680円）</li></ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 25,000円〜/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">パーソナル</p>
                 <p className="text-sm text-warm-600 mb-4">完全プライベートレッスン。</p>
-                <ul className="text-sm text-warm-700 space-y-1"><li>• STUDIO IVY（1回 6,500円〜）</li><li>• B&B 田町（パーソナル専門）</li></ul>
+                <ul className="text-sm text-warm-700 space-y-1"><li>• STUDIO IVY（月4回 25,000円〜）</li><li>• hibi（月4回 35,200円〜）</li><li>• B&B 田町（月4回 36,300円〜）</li><li>• ELEMENT（通い放題 43,780円）</li></ul>
               </div>
             </div>
           </div>
@@ -338,10 +776,10 @@ export default function TamachiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">失敗しないスタジオの選び方</h2>
             <div className="space-y-8">
-              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span><h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3></div><p className="text-warm-600 leading-relaxed">ダイエット、姿勢改善、体幹強化など、目的によって最適なスタジオは変わります。</p></div>
-              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">予算を決める</h3></div><p className="text-warm-600 leading-relaxed">田町エリアの料金相場は月3〜4回で9,600円〜15,400円程度。無理なく継続できる予算を決めましょう。</p></div>
-              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">500円〜3,000円程度で体験できるスタジオが多いので、気軽に試してみてください。</p></div>
-              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div><p className="text-warm-600 leading-relaxed">田町はJR山手線・京浜東北線が利用でき、三田駅（都営三田線・浅草線）も隣接。品川・東京方面からもアクセス良好。再開発が進む芝浦エリアは新しいスタジオも増えています。</p></div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span><h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3></div><p className="text-warm-600 leading-relaxed">ダイエット、姿勢改善、体幹強化など、目的によって最適なスタジオは変わります。ホットピラティスならワヤンリゾートヨガ、リハビリ目的ならB&Bのパーソナルがおすすめ。</p></div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">予算を決める</h3></div><p className="text-warm-600 leading-relaxed">田町エリアの料金相場は月3〜4回で9,600円〜15,400円程度。chocoZAPなら月額3,278円、パーソナル通い放題のELEMENTは月額43,780円と幅広い選択肢があります。</p></div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">the SILKやCLUB PILATESは無料体験、STUDIO IVYは500円〜、zen placeは1,000円〜と気軽に試せます。2〜3ヶ所比較するのがおすすめ。</p></div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div><p className="text-warm-600 leading-relaxed">田町はJR山手線・京浜東北線が利用でき、三田駅（都営三田線・浅草線）も隣接。品川・東京方面からもアクセス良好。港区のオフィス街なので仕事帰りにも通いやすく、再開発が進む芝浦エリアは新しいスタジオも増えています。</p></div>
             </div>
           </div>
         </section>
@@ -363,8 +801,8 @@ export default function TamachiPage() {
         <section className="py-16 bg-warm-50">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
-            <p className="text-warm-600 leading-relaxed mb-6">今回は田町・芝浦のおすすめピラティススタジオについてご紹介しましたが、いかがでしたか？</p>
-            <p className="text-warm-600 leading-relaxed mb-6">田町はJR山手線と都営三田線が利用でき、zen placeが2店舗（三田・田町）あるほか、パーソナル専門スタジオも充実。再開発が進む芝浦エリアは今後さらにスタジオが増えることが期待されます。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">今回は田町・三田・芝浦エリアのおすすめピラティススタジオ12選をご紹介しましたが、いかがでしたか？</p>
+            <p className="text-warm-600 leading-relaxed mb-6">田町はJR山手線・京浜東北線と都営三田線・浅草線が利用でき、港区のオフィス街として仕事帰りに通いやすいエリアです。zen placeが2店舗（三田・田町）あるほか、CLUB PILATESやthe SILKなどの大手チェーンも充実。B&BやSTUDIO IVY、hibiなどのパーソナル専門スタジオも豊富で、月額3,278円のchocoZAPから通い放題43,780円のELEMENTまで幅広い選択肢があります。</p>
             <p className="text-warm-600 leading-relaxed mb-6">ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。</p>
             <p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p>
           </div>
@@ -372,7 +810,7 @@ export default function TamachiPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2>
-            <p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスン500円〜3,000円。<br />まずは気軽に体験してみましょう。</p>
+            <p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスン無料〜5,000円。<br />まずは気軽に体験してみましょう。</p>
             <Link href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded">おすすめスタジオ一覧に戻る</Link>
           </div>
         </section>
