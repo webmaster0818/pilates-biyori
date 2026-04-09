@@ -14,46 +14,114 @@ const studios = [
   {
     name: 'zen place pilates 麻布十番スタジオ',
     image: '/images/pilates2.jpg',
-    rating: 4.8, reviewCount: 190,
+    rating: 4.8,
+    reviewCount: 190,
     reviews: [
-      { author: 'S.K', rating: 5, date: '2週間前', text: '麻布十番駅7番出口から徒歩1分！マットもマシンも両方受けられるのが嬉しい。全国150店舗以上で相互利用可能。' },
-      { author: 'Y.T', rating: 5, date: '1ヶ月前', text: '少人数制で丁寧な指導。麻布十番の落ち着いた雰囲気のなかでリラックスしてレッスンを受けられます。' },
-      { author: 'K.H', rating: 4, date: '3週間前', text: '男性もOKなので夫婦で通えます。体験500円で気軽に始められました。' },
+      {
+        author: 'S.K',
+        rating: 5,
+        date: '2週間前',
+        text: '麻布十番駅7番出口から徒歩1分！マットもマシンも両方受けられるのが嬉しい。全国150店舗以上で相互利用可能。',
+      },
+      {
+        author: 'Y.T',
+        rating: 5,
+        date: '1ヶ月前',
+        text: '少人数制で丁寧な指導。麻布十番の落ち着いた雰囲気のなかでリラックスしてレッスンを受けられます。',
+      },
+      {
+        author: 'K.H',
+        rating: 4,
+        date: '3週間前',
+        text: '男性もOKなので夫婦で通えます。体験500円で気軽に始められました。',
+      },
     ],
-    price: 'マットグループ 月4回 9,625円〜', trial: '体験レッスン 500円〜',
+    price: 'マットグループ 月4回 9,625円〜',
+    trial: '体験レッスン 500円〜',
     features: ['マット&マシン', '麻布十番駅徒歩1分', '男性OK', '全国相互利用'],
     description: '全国150店舗以上展開の大手ピラティススタジオ。麻布十番駅7番出口から徒歩1分の好立地。マットグループ、マシン（リフォーマー）グループ、プライベートレッスンに対応。全国の店舗で相互利用可能。',
     access: '都営大江戸線・南北線「麻布十番駅」7番出口 徒歩1分',
     address: '東京都港区麻布十番（麻布十番駅7番出口徒歩1分）',
-    popularPlan: { name: 'リフォーマーグループ（月4回）', description: 'マシンを使ったグループレッスン。少人数制。', price: '月4回 15,400円（税込）' },
-    options: ['マットグループ（月4回 9,625円〜）', 'リフォーマーグループ（月4回 15,400円）', 'リフォーマーグループ（月8回 25,300円）', 'プライベート（月4回 32,560円〜）'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'] },
-    basicInfo: { hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00', closed: '月末不定休', facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi'] },
+    popularPlan: {
+      name: 'リフォーマーグループ（月4回）',
+      description: 'マシンを使ったグループレッスン。少人数制。',
+      price: '月4回 15,400円（税込）',
+    },
+    options: [
+      'マットグループ（月4回 9,625円〜）',
+      'リフォーマーグループ（月4回 15,400円）',
+      'リフォーマーグループ（月8回 25,300円）',
+      'プライベート（月4回 32,560円〜）',
+    ],
+    userProfile: {
+      ageRange: '20代〜50代が中心',
+      genderRatio: '女性80% / 男性20%',
+      purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
+    },
+    basicInfo: {
+      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
+      closed: '月末不定休',
+      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi'],
+    },
   },
   {
     name: 'ピラティススタジオlamp 麻布十番',
     image: '/images/pilates3.jpg',
-    rating: 4.9, reviewCount: 85,
+    rating: 4.9,
+    reviewCount: 85,
     reviews: [
-      { author: 'R.N', rating: 5, date: '1週間前', text: '麻布十番駅から1分！女性専用で安心。4名定員の少人数制セミプライベートが最高。丁寧に見てもらえます。' },
-      { author: 'A.H', rating: 5, date: '2週間前', text: '完全個室のプライベートレッスンも受けられます。おしゃれなスタジオで気分が上がる。' },
-      { author: 'M.M', rating: 5, date: '3週間前', text: '麻布十番の雰囲気にマッチした上品なスタジオ。インストラクターの質が高いです。' },
+      {
+        author: 'R.N',
+        rating: 5,
+        date: '1週間前',
+        text: '麻布十番駅から1分！女性専用で安心。4名定員の少人数制セミプライベートが最高。丁寧に見てもらえます。',
+      },
+      {
+        author: 'A.H',
+        rating: 5,
+        date: '2週間前',
+        text: '完全個室のプライベートレッスンも受けられます。おしゃれなスタジオで気分が上がる。',
+      },
+      {
+        author: 'M.M',
+        rating: 5,
+        date: '3週間前',
+        text: '麻布十番の雰囲気にマッチした上品なスタジオ。インストラクターの質が高いです。',
+      },
     ],
-    price: 'お問い合わせください', trial: '体験レッスンあり',
+    price: 'お問い合わせください',
+    trial: '体験レッスンあり',
     features: ['女性専用', '麻布十番駅徒歩1分', '少人数制（最大4名）', 'プライベートあり'],
     description: '女性専用のマシンピラティススタジオ。麻布十番駅から徒歩1分。4名定員までの少人数制セミプライベートレッスンと、完全個室のプライベートレッスンを提供。上品で落ち着いた空間でピラティスを楽しめます。',
     access: '都営大江戸線・南北線「麻布十番駅」徒歩1分',
     address: '東京都港区麻布十番（麻布十番駅徒歩1分）',
-    popularPlan: { name: 'セミプライベート（最大4名）', description: '少人数制で丁寧な指導。女性専用で安心。', price: 'お問い合わせください' },
-    options: ['セミプライベートレッスン', 'プライベートレッスン（完全個室）', '体験レッスン'],
-    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'リフレッシュ'] },
-    basicInfo: { hours: 'お問い合わせください', closed: '不定休', facilities: ['完全個室', 'マシン完備', '女性専用'] },
+    popularPlan: {
+      name: 'セミプライベート（最大4名）',
+      description: '少人数制で丁寧な指導。女性専用で安心。',
+      price: 'お問い合わせください',
+    },
+    options: [
+      'セミプライベートレッスン',
+      'プライベートレッスン（完全個室）',
+      '体験レッスン',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性100%（女性専用）',
+      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'リフレッシュ'],
+    },
+    basicInfo: {
+      hours: 'お問い合わせください',
+      closed: '不定休',
+      facilities: ['完全個室', 'マシン完備', '女性専用'],
+    },
   },
   {
     name: 'STUDIO IVY 麻布十番店',
     image: '/images/pilates4.jpg',
     rating: 4.8,
-    price: '1回 6,250円〜', trial: '体験レッスンあり',
+    price: '1回 6,250円〜',
+    trial: '体験レッスンあり',
     features: ['パーソナル専門', 'マシンピラティス', '麻布十番エリア', '全国展開'],
     description: '全国展開のパーソナルマシンピラティス専門スタジオ。麻布十番エリアに展開。月謝制で1レッスン6,250円〜とパーソナルとしてはリーズナブル。完全プライベート空間でオーダーメイドのプログラムを提供。',
     access: '都営大江戸線・南北線「麻布十番駅」徒歩圏内',
@@ -63,7 +131,8 @@ const studios = [
     name: 'LAGREE MICRO studio 麻布十番',
     image: '/images/pilates2.jpg',
     rating: 4.7,
-    price: '1回 3,612円〜', trial: '体験レッスン 2,200円',
+    price: '1回 3,612円〜',
+    trial: '体験レッスン 2,200円',
     features: ['ラグリーフィットネス', '麻布十番エリア', 'グループレッスン', '高強度'],
     description: 'ラグリーフィットネスを取り入れたスタジオ。麻布十番エリアに展開。ピラティスの動きをベースにした高強度トレーニングで、短時間で効率的にボディメイク。体験レッスン2,200円から。',
     access: '都営大江戸線・南北線「麻布十番駅」徒歩圏内',
@@ -73,7 +142,8 @@ const studios = [
     name: 'STUDIO LUCE 麻布十番',
     image: '/images/pilates3.jpg',
     rating: 4.6,
-    price: 'お問い合わせください', trial: '体験レッスンあり',
+    price: 'お問い合わせください',
+    trial: '体験レッスンあり',
     features: ['ピラティス&バレエ', '麻布十番エリア', '女性向け', 'エレガント'],
     description: 'ピラティスとバレエを融合させたスタジオ。麻布十番エリアに展開。ピラティスの体幹トレーニングとバレエのしなやかな動きを組み合わせた独自プログラムで、美しいボディラインを目指せます。',
     access: '都営大江戸線・南北線「麻布十番駅」徒歩圏内',
@@ -82,43 +152,321 @@ const studios = [
 ]
 
 const faqs = [
-  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！麻布十番エリアのスタジオは初心者歓迎。経験豊富なインストラクターが基礎から丁寧に指導してくれます。' },
-  { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンは専用マシンを使ったトレーニング。マシンは初心者におすすめです。' },
-  { question: '麻布十番エリアの料金相場は？', answer: 'グループ月4回で9,600円〜15,400円程度。パーソナルは1回6,250円〜10,000円。体験は500円〜2,200円です。' },
-  { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。' },
-  { question: 'ピラティスで痩せますか？', answer: 'はい、基礎代謝が上がり太りにくい体質に。最低2-3ヶ月は継続しましょう。' },
-  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。' },
-  { question: 'ピラティスとヨガの違いは？', answer: 'ピラティスは体幹強化、ヨガは柔軟性とリラックスが中心です。' },
-  { question: '肩こりや腰痛は改善しますか？', answer: 'はい、姿勢改善で根本原因を解消できます。' },
-  { question: 'どのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。' },
-  { question: 'パーソナルとグループ、どちらがおすすめ？', answer: 'パーソナルは効果が出やすく、グループは安く楽しく続けられます。' },
+  {
+    question: 'ピラティス初心者でも大丈夫ですか？',
+    answer: '大丈夫です！麻布十番エリアのスタジオは初心者歓迎。経験豊富なインストラクターが基礎から丁寧に指導してくれます。',
+  },
+  {
+    question: 'マットピラティスとマシンピラティスの違いは？',
+    answer: 'マットは自重エクササイズ、マシンは専用マシンを使ったトレーニング。マシンは初心者におすすめです。',
+  },
+  {
+    question: '麻布十番エリアの料金相場は？',
+    answer: 'グループ月4回で9,600円〜15,400円程度。パーソナルは1回6,250円〜10,000円。体験は500円〜2,200円です。',
+  },
+  {
+    question: 'どのくらいの頻度で通えばいいですか？',
+    answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。',
+  },
+  {
+    question: 'ピラティスで痩せますか？',
+    answer: 'はい、基礎代謝が上がり太りにくい体質に。最低2-3ヶ月は継続しましょう。',
+  },
+  {
+    question: '体験レッスンは何を持っていけばいいですか？',
+    answer: '動きやすい服装と飲み物があればOK。',
+  },
+  {
+    question: 'ピラティスとヨガの違いは？',
+    answer: 'ピラティスは体幹強化、ヨガは柔軟性とリラックスが中心です。',
+  },
+  {
+    question: '肩こりや腰痛は改善しますか？',
+    answer: 'はい、姿勢改善で根本原因を解消できます。',
+  },
+  {
+    question: 'どのくらいで効果が出ますか？',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。',
+  },
+  {
+    question: 'パーソナルとグループ、どちらがおすすめ？',
+    answer: 'パーソナルは効果が出やすく、グループは安く楽しく続けられます。',
+  },
 ]
 
 export default function AzabujubanPage() {
   return (
     <>
       <Navigation />
+
       <main className="pt-20 bg-white">
-        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年04月08日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス麻布十番おすすめ5選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1></div></section>
-        <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">麻布十番</span></nav></div></section>
-        <section className="py-12 bg-white">
+        {/* Hero Section */}
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p><p className="text-warm-600 leading-relaxed mb-6">Pilates Navi編集部です！</p><p className="text-warm-600 leading-relaxed mb-6">あなたは、</p><p className="text-warm-600 leading-relaxed font-medium mb-6">「麻布十番でピラティスを始めたい」</p><p className="text-warm-600 leading-relaxed mb-6">「おしゃれなスタジオに通いたい」</p><p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p><p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、麻布十番エリアでおすすめのピラティススタジオ5選をまとめました。</p>
-            <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
-              <ul className="space-y-2 text-warm-700"><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>麻布十番でピラティススタジオを探している</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>おしゃれな空間でトレーニングしたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較したい</span></li></ul>
-            </div>
-            <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月08日</p>
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
+              【2026最新】ピラティス麻布十番おすすめ5選！<br className="hidden md:block" />
+              人気スタジオの料金プランを簡単比較！
+            </h1>
           </div>
         </section>
-        <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">麻布十番のおすすめピラティススタジオ5選</h2><div className="space-y-8">{studios.map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
-        <section className="py-16 bg-white"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">こだわりから探す</h2><div className="grid grid-cols-1 md:grid-cols-3 gap-8"><div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3><p className="text-warm-600 text-sm mb-4">月額1万円前後から通えるスタジオ。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• zen place（マット月4回 9,625円〜）</li><li className="text-warm-700">• LAGREE MICRO（1回 3,612円〜）</li></ul></div><div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル・少人数制</h3><p className="text-warm-600 text-sm mb-4">マンツーマンや少人数で丁寧な指導。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• lamp（女性専用・最大4名）</li><li className="text-warm-700">• STUDIO IVY（パーソナル専門）</li></ul></div><div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">駅近・通いやすさ</h3><p className="text-warm-600 text-sm mb-4">麻布十番駅から徒歩すぐ。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• zen place（駅徒歩1分）</li><li className="text-warm-700">• lamp（駅徒歩1分）</li></ul></div></div></div></section>
-        <section className="py-16 bg-warm-50"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">おすすめの期間・頻度</h2><div className="bg-white rounded-lg p-8 border border-warm-200"><h3 className="text-xl font-bold text-warm-900 mb-4">初心者の方</h3><p className="text-warm-600 leading-relaxed mb-6">週1-2回からスタート。最低2-3ヶ月継続で効果を実感。</p><h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイク目的の方</h3><p className="text-warm-600 leading-relaxed mb-6">週2-3回がおすすめ。3-6ヶ月で目に見える変化が期待。</p><h3 className="text-xl font-bold text-warm-900 mb-4">健康管理目的の方</h3><p className="text-warm-600 leading-relaxed">週1回のペースで無理なく継続。</p></div></div></section>
-        <section className="py-16 bg-white"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">失敗しないスタジオの選び方</h2><div className="space-y-8"><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span><h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3></div><p className="text-warm-600 leading-relaxed">ダイエット、姿勢改善、体幹強化など、目的に応じてスタジオを選びましょう。</p></div><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">予算を決める</h3></div><p className="text-warm-600 leading-relaxed">麻布十番エリアの料金相場はグループ月4回で9,600円〜15,400円、パーソナルは1回6,250円〜が相場。</p></div><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">500円〜2,200円で体験できるスタジオが多いので、気軽に試してみてください。</p></div><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div><p className="text-warm-600 leading-relaxed">麻布十番は都営大江戸線と南北線が利用可能。六本木・広尾・白金高輪も近く、おしゃれなカフェやレストランが並ぶ落ち着いた街並みが魅力。レッスン後の散策も楽しめます。</p></div></div></div></section>
-        <section className="py-16 bg-warm-50"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">よくある質問</h2><div className="space-y-6">{faqs.map((faq, index) => (<div key={index} className="border border-warm-200 rounded-lg overflow-hidden"><details className="group"><summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition"><h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3><svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"/></svg></summary><div className="px-6 pb-6 text-warm-600 leading-relaxed">{faq.answer}</div></details></div>))}</div></div></section>
-        <section className="py-16 bg-white"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2><p className="text-warm-600 leading-relaxed mb-6">今回は麻布十番のおすすめピラティススタジオをご紹介しました。</p><p className="text-warm-600 leading-relaxed mb-6">麻布十番は大江戸線・南北線が利用でき、六本木・広尾も近い人気エリア。zen placeやlampなど駅徒歩1分のスタジオから、パーソナル専門のSTUDIO IVYまで多彩な選択肢があります。</p><p className="text-warm-600 leading-relaxed mb-6">ぜひ自分に合うピラティススタジオを見つけてくださいね。</p><p className="text-warm-700 font-medium text-center">あなたにぴったりのスタジオが見つかることを願っています。</p></div></section>
-        <section className="py-16 bg-warm-800 text-white" id="contact"><div className="max-w-4xl mx-auto px-6 lg:px-8 text-center"><h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2><p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスン500円〜2,200円。<br />まずは気軽に体験してみましょう。</p><Link href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded">おすすめスタジオ一覧に戻る</Link></div></section>
+
+        {/* Breadcrumbs */}
+        <section className="bg-white py-3 border-b border-warm-100">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <nav className="text-sm text-warm-400">
+              <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
+              {' > '}
+              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              {' > '}
+              <span className="text-warm-600">麻布十番</span>
+            </nav>
+          </div>
+        </section>
+
+        {/* Introduction */}
+        <section className="py-12 bg-white">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <p className="text-warm-600 leading-relaxed mb-6">
+              こんにちは。
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              Pilates Navi編集部です！
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              あなたは、
+            </p>
+            <p className="text-warm-600 leading-relaxed font-medium mb-6">
+              「麻布十番でピラティスを始めたい」
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              「おしゃれなスタジオに通いたい」
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              と思っていませんか？
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-8">
+              そこでこの記事では、麻布十番エリアでおすすめのピラティススタジオ5選をまとめました。
+            </p>
+            <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
+              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <ul className="space-y-2 text-warm-700">
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>麻布十番でピラティススタジオを探している</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>おしゃれな空間でトレーニングしたい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>マシンピラティスを体験してみたい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>料金プランを比較したい</span>
+                </li>
+              </ul>
+            </div>
+            <p className="text-warm-600 leading-relaxed">
+              それではさっそく見ていきましょう！
+            </p>
+          </div>
+        </section>
+
+        {/* Studios List */}
+        <section className="py-16 bg-warm-50" id="studios">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              麻布十番のおすすめピラティススタジオ5選
+            </h2>
+            <div className="space-y-8">
+              {studios.map((studio, index) => (
+                <StudioCard key={index} studio={studio} index={index} />
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Search by Preference */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              こだわりから探す
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  月額1万円前後から通えるスタジオ。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• zen place（マット月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• LAGREE MICRO（1回 3,612円〜）</li>
+                </ul>
+              </div>
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル・少人数制</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  マンツーマンや少人数で丁寧な指導。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• lamp（女性専用・最大4名）</li>
+                  <li className="text-warm-700">• STUDIO IVY（パーソナル専門）</li>
+                </ul>
+              </div>
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・通いやすさ</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  麻布十番駅から徒歩すぐ。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• zen place（駅徒歩1分）</li>
+                  <li className="text-warm-700">• lamp（駅徒歩1分）</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Frequency Guide */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              おすすめの期間・頻度
+            </h2>
+            <div className="bg-white rounded-lg p-8 border border-warm-200">
+              <h3 className="text-xl font-bold text-warm-900 mb-4">初心者の方</h3>
+              <p className="text-warm-600 leading-relaxed mb-6">
+                週1-2回からスタート。最低2-3ヶ月継続で効果を実感。
+              </p>
+              <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイク目的の方</h3>
+              <p className="text-warm-600 leading-relaxed mb-6">
+                週2-3回がおすすめ。3-6ヶ月で目に見える変化が期待。
+              </p>
+              <h3 className="text-xl font-bold text-warm-900 mb-4">健康管理目的の方</h3>
+              <p className="text-warm-600 leading-relaxed">
+                週1回のペースで無理なく継続。
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* How to Choose */}
+        <section className="py-16 bg-white">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              失敗しないスタジオの選び方
+            </h2>
+            <div className="space-y-8">
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span>
+                  <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  ダイエット、姿勢改善、体幹強化など、目的に応じてスタジオを選びましょう。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span>
+                  <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  麻布十番エリアの料金相場はグループ月4回で9,600円〜15,400円、パーソナルは1回6,250円〜が相場。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span>
+                  <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  500円〜2,200円で体験できるスタジオが多いので、気軽に試してみてください。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span>
+                  <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  麻布十番は都営大江戸線と南北線が利用可能。六本木・広尾・白金高輪も近く、おしゃれなカフェやレストランが並ぶ落ち着いた街並みが魅力。レッスン後の散策も楽しめます。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              よくある質問
+            </h2>
+            <div className="space-y-6">
+              {faqs.map((faq, index) => (
+                <div key={index} className="border border-warm-200 rounded-lg overflow-hidden">
+                  <details className="group">
+                    <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition">
+                      <h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3>
+                      <svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"/>
+                      </svg>
+                    </summary>
+                    <div className="px-6 pb-6 text-warm-600 leading-relaxed">
+                      {faq.answer}
+                    </div>
+                  </details>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Summary */}
+        <section className="py-16 bg-white">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">
+              まとめ
+            </h2>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              今回は麻布十番のおすすめピラティススタジオをご紹介しました。
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              麻布十番は大江戸線・南北線が利用でき、六本木・広尾も近い人気エリア。zen placeやlampなど駅徒歩1分のスタジオから、パーソナル専門のSTUDIO IVYまで多彩な選択肢があります。
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              ぜひ自分に合うピラティススタジオを見つけてくださいね。
+            </p>
+            <p className="text-warm-700 font-medium text-center">
+              あなたにぴったりのスタジオが見つかることを願っています。
+            </p>
+          </div>
+        </section>
+
+        {/* CTA */}
+        <section className="py-16 bg-warm-800 text-white" id="contact">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">
+              体験レッスンを予約しよう
+            </h2>
+            <p className="text-warm-200 mb-8 leading-relaxed">
+              初回限定の体験レッスン500円〜2,200円。<br />
+              まずは気軽に体験してみましょう。
+            </p>
+            <Link
+              href="/#studios"
+              className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded"
+            >
+              おすすめスタジオ一覧に戻る
+            </Link>
+          </div>
+        </section>
       </main>
+
       <SiteFooter />
       <Script src="https://unpkg.com/lucide@latest" strategy="lazyOnload" />
     </>
