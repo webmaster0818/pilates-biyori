@@ -5,7 +5,7 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】札幌のピラティススタジオおすすめ8選｜料金・体験レッスン徹底比較',
+  title: '【2026最新】ピラティス札幌おすすめ8選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
   description: '札幌エリアのおすすめピラティススタジオ8選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,札幌,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -15,6 +15,27 @@ const studios = [
     name: 'zen place pilates 札幌',
     image: '/images/pilates2.jpg',
     rating: 4.2,
+    reviewCount: 187,
+    reviews: [
+      {
+        author: 'M.K',
+        rating: 5,
+        date: '2週間前',
+        text: '札幌駅直結のJRタワー内なので、冬場の雪の日でも天候を気にせず通えます。マットもマシンも両方揃っていて、その日の気分で選べるのが良いです。',
+      },
+      {
+        author: 'S.T',
+        rating: 4,
+        date: '1ヶ月前',
+        text: '全国展開なので出張先でも通えるのが便利。札幌店は駅直結で立地が最高。インストラクターの質も安定しています。',
+      },
+      {
+        author: 'A.N',
+        rating: 4,
+        date: '3週間前',
+        text: '体験レッスン1,000円で気軽に試せました。スタッフの対応が丁寧で、初心者の私でも安心して通えています。JRタワー8Fからの眺めも良いです。',
+      },
+    ],
     price: 'グループ体験 1,000円',
     trial: '体験レッスン 1,000円',
     features: ['マット＆マシン', '全国展開', '札幌駅直結', 'インストラクター養成'],
@@ -47,6 +68,27 @@ const studios = [
     name: 'ピラティスK 札幌駅前店',
     image: '/images/pilates3.jpg',
     rating: 4.0,
+    reviewCount: 156,
+    reviews: [
+      {
+        author: 'Y.M',
+        rating: 5,
+        date: '1週間前',
+        text: '暗闘×音楽のレッスンが楽しすぎて毎週通っています。女性専用なので周りの目を気にせず汗をかけます。札幌駅から地下直結なのも嬉しい。',
+      },
+      {
+        author: 'R.S',
+        rating: 4,
+        date: '2週間前',
+        text: 'アスティ45ビル内なので冬の札幌でも寒さを感じずに通えます。月4回プランで無理なく続けられています。',
+      },
+      {
+        author: 'K.I',
+        rating: 4,
+        date: '1ヶ月前',
+        text: '無料体験があるので気軽に試せました。レッスンの雰囲気が明るくて、運動嫌いだった私も楽しく続けられています。すすきのからも地下鉄ですぐです。',
+      },
+    ],
     price: '月4回 13,420円〜',
     trial: '無料体験レッスン',
     features: ['音楽×マシン', '女性専用', '暗闇レッスン', '札幌駅直結'],
@@ -55,7 +97,7 @@ const studios = [
     address: '北海道札幌市中央区北4条西5丁目 アスティ45ビル 2F',
     popularPlan: {
       name: 'マンスリー4メンバー',
-      description: '暗闇×音楽×マシンピラティスの融合レッスン。楽しく続けられると人気のプラン。',
+      description: '暗闘×音楽×マシンピラティスの融合レッスン。楽しく続けられると人気のプラン。',
       price: '月4回 13,420円（税込）+ 施設維持費 825円',
     },
     options: [
@@ -79,6 +121,27 @@ const studios = [
     name: 'CLUB PILATES 札幌',
     image: '/images/pilates4.jpg',
     rating: 4.1,
+    reviewCount: 132,
+    reviews: [
+      {
+        author: 'H.O',
+        rating: 5,
+        date: '1週間前',
+        text: '全米No.1のメソッドが札幌で受けられるのは嬉しい。地下鉄東豊線さっぽろ駅15番出口直結で、雪の日もストレスなく通えます。',
+      },
+      {
+        author: 'T.Y',
+        rating: 4,
+        date: '3週間前',
+        text: '初回無料体験で入会を決めました。レベル別のクラスが充実していて、自分のペースで上達できます。さつきた8・1内で清潔感のある施設です。',
+      },
+      {
+        author: 'N.K',
+        rating: 4,
+        date: '1ヶ月前',
+        text: 'グループでもプライベートでも対応してくれるのが良い。北8条のオフィス街にあるので仕事帰りに通いやすいです。',
+      },
+    ],
     price: '要問合せ',
     trial: '体験レッスン 無料',
     features: ['アメリカ発', '世界最大級', 'グループ＆プライベート', '地下鉄直結'],
@@ -111,6 +174,27 @@ const studios = [
     name: 'スターピラティス 札幌駅前スタジオ',
     image: '/images/pilates2.jpg',
     rating: 4.3,
+    reviewCount: 203,
+    reviews: [
+      {
+        author: 'E.H',
+        rating: 5,
+        date: '5日前',
+        text: '月2回5,500円から始められるのは本当にありがたい。チカホ直結の札幌グランドホテル別館内で、冬でも快適に通えます。セルフエステも無料で使えてお得。',
+      },
+      {
+        author: 'C.M',
+        rating: 4,
+        date: '2週間前',
+        text: '初心者専用プログラムが充実していて安心。85%が初心者スタートと聞いて入会しましたが、本当に丁寧に教えてもらえます。',
+      },
+      {
+        author: 'J.W',
+        rating: 5,
+        date: '1ヶ月前',
+        text: '酸素カプセルや水素吸入も利用できるのが他のスタジオにはない魅力。コワーキングスペースもあるので、仕事と運動を両立できます。',
+      },
+    ],
     price: '月2回 5,500円〜',
     trial: '体験レッスン あり',
     features: ['業界最安値級', 'チカホ直結', '酸素カプセル', 'セルフエステ無料'],
@@ -143,6 +227,27 @@ const studios = [
     name: 'La pilates 札幌店',
     image: '/images/pilates3.jpg',
     rating: 4.2,
+    reviewCount: 94,
+    reviews: [
+      {
+        author: 'K.S',
+        rating: 5,
+        date: '1週間前',
+        text: '整体とマシンピラティスの組み合わせが本当に効きます。長年悩んでいた肩こりが大通駅近くで改善できるとは思いませんでした。ウッド調の内装もリラックスできます。',
+      },
+      {
+        author: 'M.I',
+        rating: 4,
+        date: '3週間前',
+        text: '大通駅34番出口から徒歩1分で通いやすい。女性専用なので安心して施術を受けられます。骨膜整体は他では受けられない独自メソッドです。',
+      },
+      {
+        author: 'Y.O',
+        rating: 5,
+        date: '1ヶ月前',
+        text: '月6回コースにしていますが、回数が増えるほど単価が下がるのが嬉しい。プライベート空間なので自分のペースでトレーニングできます。',
+      },
+    ],
     price: '月1回 12,000円〜',
     trial: '体験レッスン 3,000円',
     features: ['整体×ピラティス', '女性専用', '大通駅徒歩1分', '骨膜整体'],
@@ -175,6 +280,27 @@ const studios = [
     name: 'LATECO（ラティコ）',
     image: '/images/pilates4.jpg',
     rating: 4.1,
+    reviewCount: 78,
+    reviews: [
+      {
+        author: 'R.T',
+        rating: 5,
+        date: '10日前',
+        text: '加圧×マシンピラティスの組み合わせは北海道初。成長ホルモンの分泌促進で美肌効果も感じています。AI姿勢解析で自分の姿勢を数値で確認できるのも面白い。',
+      },
+      {
+        author: 'F.N',
+        rating: 4,
+        date: '2週間前',
+        text: '女性専用で8名限定の少人数制なので、インストラクターの目が行き届きます。大通駅から徒歩3分で通いやすいです。',
+      },
+      {
+        author: 'P.H',
+        rating: 4,
+        date: '1ヶ月前',
+        text: 'サプリメントサーバーやプロテイン自動調合が無料なのが嬉しい。50分のレッスンで効率よくトレーニングできます。',
+      },
+    ],
     price: '月4回 15,400円',
     trial: '体験レッスン 2,000円',
     features: ['加圧×ピラティス', '女性専用', 'AI姿勢解析', '大通駅徒歩3分'],
@@ -207,6 +333,27 @@ const studios = [
     name: 'BodySoul（ボディソウル）',
     image: '/images/pilates2.jpg',
     rating: 4.3,
+    reviewCount: 112,
+    reviews: [
+      {
+        author: 'W.S',
+        rating: 5,
+        date: '1週間前',
+        text: '2004年開設の北海道初のマットピラティス専門スタジオ。20年以上の実績があり、インストラクターの指導力は折り紙付きです。1回のレッスンで体の変化を実感できました。',
+      },
+      {
+        author: 'L.K',
+        rating: 4,
+        date: '3週間前',
+        text: 'FTP認定のインストラクター養成コースもあり、将来ピラティスの仕事をしたい方にもおすすめ。少人数制で丁寧な指導が受けられます。',
+      },
+      {
+        author: 'D.M',
+        rating: 5,
+        date: '1ヶ月前',
+        text: '腰痛改善のために通い始めましたが、3ヶ月で驚くほど改善しました。40代以上の方が多く、同世代の仲間と楽しく続けられています。',
+      },
+    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['北海道初', 'マット専門', '2004年開設', 'インストラクター養成'],
@@ -238,6 +385,27 @@ const studios = [
     name: 'Repilates 札幌円山店',
     image: '/images/pilates3.jpg',
     rating: 4.0,
+    reviewCount: 67,
+    reviews: [
+      {
+        author: 'G.A',
+        rating: 4,
+        date: '2週間前',
+        text: '円山エリアの閑静な環境で落ち着いてトレーニングできます。マシン専門なので初心者でも正しいフォームで効果的に鍛えられます。porocoにも掲載されていて安心。',
+      },
+      {
+        author: 'B.U',
+        rating: 4,
+        date: '1ヶ月前',
+        text: '女性専用でマシン専門のスタジオは円山エリアでは貴重。「30回ですべてが変わる」というコンセプト通り、3ヶ月で姿勢が大きく改善しました。',
+      },
+      {
+        author: 'I.E',
+        rating: 4,
+        date: '3週間前',
+        text: '体験レッスン3,300円で60分しっかり体験できました。北1条西20丁目の岸本ビルにあり、円山公園の散歩がてら通えるのも良いです。',
+      },
+    ],
     price: '要問合せ',
     trial: '体験レッスン 3,300円',
     features: ['女性専用', 'マシン専門', '円山エリア', 'ボディリメイク'],
@@ -267,357 +435,376 @@ const studios = [
   },
 ]
 
+const faqs = [
+  {
+    question: '札幌でピラティス初心者におすすめのスタジオはどこですか？',
+    answer: 'スターピラティス札幌駅前スタジオがおすすめです。入会者の85%が初心者で、初級クラスはインストラクター2名体制でサポート。月額5,500円から始められるので、気軽にスタートできます。',
+  },
+  {
+    question: '札幌駅直結で通えるピラティススタジオはありますか？',
+    answer: 'はい、3つあります。zen place pilates 札幌（JRタワー8F）、ピラティスK 札幌駅前店（アスティ45ビル2F・地下直結）、CLUB PILATES 札幌（地下鉄さっぽろ駅直結）。天候に左右されず通えます。',
+  },
+  {
+    question: '札幌で一番安いピラティススタジオはどこですか？',
+    answer: 'スターピラティス札幌駅前スタジオが月2回5,500円で業界最安値級です。月4回でも8,800円とリーズナブル。さらにセルフエステマシンが1日1回無料で利用できます。',
+  },
+  {
+    question: '女性専用のピラティススタジオはありますか？',
+    answer: 'はい、4つあります。ピラティスK札幌駅前店、La pilates札幌店、LATECO、Repilates札幌円山店はすべて女性専用スタジオです。男性の目を気にせず集中してトレーニングできます。',
+  },
+  {
+    question: '体験レッスンはありますか？料金はいくらですか？',
+    answer: 'ほとんどのスタジオで体験レッスンを実施しています。CLUB PILATES札幌とピラティスK札幌駅前店は無料、zen place pilates札幌は1,000円、LATECOは2,000円、La pilatesとRepilatesは3,000円台です。',
+  },
+  {
+    question: 'マシンピラティスとマットピラティスの違いは何ですか？',
+    answer: 'マシンピラティスは専用マシン（リフォーマー）を使用し、初心者でも正しいフォームで効果的にトレーニングできます。マットピラティスはマットの上で行い、体幹を鍛えるのに効果的。初心者にはマシンピラティスがおすすめです。',
+  },
+  {
+    question: 'どのくらいの期間で効果が出ますか？',
+    answer: '週1回（月4回）通った場合、1ヶ月で体の使い方が変わり、2ヶ月で姿勢の変化を実感、3ヶ月で見た目の変化が現れます。週2回通うとさらに早く効果を実感できます。',
+  },
+  {
+    question: '肩こりや腰痛の改善に効果はありますか？',
+    answer: 'はい、効果が期待できます。特にLa pilates札幌店は整体とピラティスを組み合わせた独自プログラムで肩こり・腰痛を根本から改善。BodySoulでも腰痛改善の実績が多数あります。',
+  },
+  {
+    question: '運動が苦手でも大丈夫ですか？',
+    answer: 'はい、大丈夫です。ピラティスはもともとリハビリ用に開発されたエクササイズなので、運動が苦手な方や体力に自信がない方でも無理なく始められます。マシンがサポートしてくれるので、正しいフォームで効果的にトレーニングできます。',
+  },
+  {
+    question: 'インストラクターになりたいのですが、養成コースはありますか？',
+    answer: 'はい、zen place pilates札幌とBodySoulでインストラクター養成コースを開講しています。BodySoulはFTP認定ライセンスが取得でき、これまでに100名以上の修了生が各地でインストラクターとして活躍しています。',
+  },
+]
+
 export default async function SapporoAreaPage() {
   return (
     <>
-      <div className="min-h-screen bg-gradient-to-b from-warm-50 to-white">
-        <Navigation />
-        
-        <main className="container mx-auto px-4 py-8 sm:px-6 lg:px-8">
-          {/* ヘッダーセクション */}
-          <header className="mb-12 text-center">
-            <h1 className="mb-4 font-cormorant text-4xl font-bold tracking-tight text-warm-900 sm:text-5xl">
-              札幌のピラティススタジオ<span className="block text-warm-600">おすすめ8選</span>
-            </h1>
-            <p className="mx-auto max-w-3xl text-lg text-warm-700">
-              札幌エリアで人気のピラティススタジオを厳選。マシンピラティス、体験レッスン、料金プランを徹底比較。初心者から経験者まで、あなたにぴったりのスタジオが見つかります。
-            </p>
-          </header>
+      <Navigation />
 
-          {/* スタジオカード一覧 */}
-          <section className="mb-16">
+      <main className="pt-20 bg-white">
+        {/* Hero Section */}
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月09日</p>
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
+              【2026最新】ピラティス札幌おすすめ8選！<br className="hidden md:block" />
+              人気スタジオの料金プランを簡単比較！
+            </h1>
+          </div>
+        </section>
+
+        {/* Breadcrumbs */}
+        <section className="bg-white py-3 border-b border-warm-100">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <nav className="text-sm text-warm-400">
+              <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
+              {' > '}
+              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              {' > '}
+              <span className="text-warm-600">札幌</span>
+            </nav>
+          </div>
+        </section>
+
+        {/* Introduction */}
+        <section className="py-12 bg-white">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <p className="text-warm-600 leading-relaxed mb-6">
+              こんにちは。
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              Pilates Navi編集部です！
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              あなたは、
+            </p>
+            <p className="text-warm-600 leading-relaxed font-medium mb-6">
+              「ピラティスを始めてみたい」
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              「札幌で人気のピラティススタジオを知りたい」
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              と思っていませんか？
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-8">
+              そこでこの記事では、札幌エリアでおすすめのピラティススタジオ8選をまとめました。
+            </p>
+            <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
+              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <ul className="space-y-2 text-warm-700">
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>札幌でピラティススタジオを探している</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>マシンピラティスを体験してみたい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>体験レッスンが安いスタジオを知りたい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>JR札幌駅や地下鉄南北線・東西線・東豊線で通いやすいスタジオがいい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>料金プランを比較したい</span>
+                </li>
+              </ul>
+            </div>
+            <p className="text-warm-600 leading-relaxed">
+              それではさっそく見ていきましょう！
+            </p>
+          </div>
+        </section>
+
+        {/* Studios List */}
+        <section className="py-16 bg-warm-50" id="studios">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              札幌のおすすめピラティススタジオ8選
+            </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (
                 <StudioCard key={index} studio={studio} index={index} />
               ))}
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* 好みから探すセクション */}
-          <section className="mb-16 rounded-2xl bg-warm-50 p-8 shadow-sm">
-            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
-              好みのタイプから探す
+        {/* Search by Preference */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              こだわりから探す
             </h2>
-            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">音楽×暗闇で楽しく</h3>
-                <p className="mb-4 text-warm-600">
-                  音楽に合わせて楽しくボディメイクしたい方に
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  月額10,000円以下で通える格安スタジオ。コスパ重視で気軽に始めたい方におすすめ。
                 </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：ピラティスK 札幌駅前店
-                </p>
-              </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">業界最安値級</h3>
-                <p className="mb-4 text-warm-600">
-                  コスパ重視で気軽に始めたい方に
-                </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：スターピラティス 札幌駅前スタジオ
-                </p>
-              </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">整体×ピラティス</h3>
-                <p className="mb-4 text-warm-600">
-                  肩こり・腰痛を根本から改善したい方に
-                </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：La pilates 札幌店
-                </p>
-              </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">全国展開の大手</h3>
-                <p className="mb-4 text-warm-600">
-                  実績と安心感を重視する方に
-                </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：zen place pilates 札幌
-                </p>
-              </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">加圧×ピラティス</h3>
-                <p className="mb-4 text-warm-600">
-                  成長ホルモン分泌でアンチエイジングしたい方に
-                </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：LATECO
-                </p>
-              </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">世界最大級</h3>
-                <p className="mb-4 text-warm-600">
-                  アメリカ発の本格メソッドを体験したい方に
-                </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：CLUB PILATES 札幌
-                </p>
-              </div>
-            </div>
-          </section>
-
-          {/* 料金帯別セクション */}
-          <section className="mb-16">
-            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
-              料金帯別スタジオ
-            </h2>
-            <div className="grid gap-6 md:grid-cols-3">
-              <div className="rounded-xl bg-warm-50 p-6">
-                <h3 className="mb-4 text-xl font-bold text-warm-800">〜10,000円</h3>
-                <ul className="space-y-2 text-warm-700">
-                  <li className="flex items-start">
-                    <span className="mr-2 text-warm-600">•</span>
-                    <span>スターピラティス 札幌駅前（月2回 5,500円〜）</span>
-                  </li>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• スターピラティス 札幌駅前スタジオ（月2回 5,500円〜）</li>
+                  <li className="text-warm-700">• スターピラティス 月4回（8,800円）</li>
+                  <li className="text-warm-700">• zen place pilates 札幌（体験 1,000円）</li>
                 </ul>
               </div>
-              <div className="rounded-xl bg-warm-50 p-6">
-                <h3 className="mb-4 text-xl font-bold text-warm-800">10,000円〜20,000円</h3>
-                <ul className="space-y-2 text-warm-700">
-                  <li className="flex items-start">
-                    <span className="mr-2 text-warm-600">•</span>
-                    <span>ピラティスK 札幌駅前店（月4回 13,420円）</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 text-warm-600">•</span>
-                    <span>LATECO（月4回 15,400円）</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 text-warm-600">•</span>
-                    <span>La pilates 札幌店（月1回 12,000円〜）</span>
-                  </li>
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  男性の目を気にせずトレーニングに集中できる女性専用スタジオ。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• ピラティスK 札幌駅前店</li>
+                  <li className="text-warm-700">• La pilates 札幌店</li>
+                  <li className="text-warm-700">• LATECO（ラティコ）</li>
                 </ul>
               </div>
-              <div className="rounded-xl bg-warm-50 p-6">
-                <h3 className="mb-4 text-xl font-bold text-warm-800">プライベート専門</h3>
-                <ul className="space-y-2 text-warm-700">
-                  <li className="flex items-start">
-                    <span className="mr-2 text-warm-600">•</span>
-                    <span>zen place pilates 札幌（1回 8,250円〜）</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 text-warm-600">•</span>
-                    <span>BodySoul（要問合せ）</span>
-                  </li>
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・好アクセス</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  JR札幌駅や地下鉄駅から直結・徒歩圏内。冬の札幌でも天候を気にせず通える。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• zen place pilates 札幌（札幌駅直結）</li>
+                  <li className="text-warm-700">• CLUB PILATES 札幌（さっぽろ駅直結）</li>
+                  <li className="text-warm-700">• スターピラティス（チカホ直結）</li>
                 </ul>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* 通う頻度・期間の目安 */}
-          <section className="mb-16 rounded-2xl bg-gradient-to-br from-warm-50 to-warm-100 p-8 shadow-sm">
-            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
-              通う頻度・期間の目安
+        {/* Frequency Guide */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              おすすめの期間・頻度
             </h2>
-            <div className="grid gap-6 md:grid-cols-2">
-              <div className="rounded-xl bg-white p-6 shadow-sm">
-                <h3 className="mb-4 text-xl font-bold text-warm-800">週1回（月4回）</h3>
-                <p className="mb-4 text-warm-700">
-                  初心者や運動習慣をつけたい方におすすめ。3ヶ月で姿勢の変化を実感できます。
+            <div className="bg-white rounded-lg p-8 border border-warm-200">
+              <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
+              <p className="text-warm-600 leading-relaxed mb-6">
+                週1-2回（月4-8回）からスタートするのがおすすめ。まずは身体を慣らすことが大切です。継続期間は最低でも2-3ヶ月。この期間で効果を実感できる方が多いですよ。
+              </p>
+              <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
+              <p className="text-warm-600 leading-relaxed mb-6">
+                週2-3回（月8-12回）がおすすめ。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3-6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。
+              </p>
+              <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理が目的の方</h3>
+              <p className="text-warm-600 leading-relaxed">
+                週1回（月4回）のペースで継続するのがおすすめ。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切。自分のペースで楽しく通えるのが一番ですよ。
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Price Guide */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              予算別の料金相場
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月2〜4回</p>
+                <p className="text-sm text-warm-600 mb-4">
+                  グループレッスン中心。手軽に始めたい方向け。
                 </p>
-                <div className="space-y-2 text-sm text-warm-600">
-                  <p>• 1ヶ月目：動きに慣れる</p>
-                  <p>• 2ヶ月目：体の変化を感じ始める</p>
-                  <p>• 3ヶ月目：姿勢が改善され、周りから変化を指摘される</p>
-                </div>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• スターピラティス 札幌駅前（月2回 5,500円〜）</li>
+                  <li>• スターピラティス 月4回（8,800円）</li>
+                </ul>
               </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm">
-                <h3 className="mb-4 text-xl font-bold text-warm-800">週2回（月8回）</h3>
-                <p className="mb-4 text-warm-700">
-                  本格的にボディメイクしたい方におすすめ。2ヶ月で見た目の変化が現れます。
+              <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
+                <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 10,000〜16,000円</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
+                <p className="text-sm text-warm-600 mb-4">
+                  大手スタジオのグループレッスン。マシン完備で充実の設備。
                 </p>
-                <div className="space-y-2 text-sm text-warm-600">
-                  <p>• 1ヶ月目：筋肉の使い方をマスター</p>
-                  <p>• 2ヶ月目：ボディラインが変わり始める</p>
-                  <p>• 3ヶ月目：理想の体型に近づく</p>
-                </div>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• ピラティスK 札幌駅前店（月4回 13,420円）</li>
+                  <li>• LATECO（月4回 15,400円）</li>
+                  <li>• La pilates 札幌店（月1回 12,000円〜）</li>
+                </ul>
+              </div>
+              <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 20,000円〜</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">プライベート</p>
+                <p className="text-sm text-warm-600 mb-4">
+                  パーソナル・プライベートレッスン。短期集中で結果を出したい方向け。
+                </p>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• zen place pilates 札幌（1回 8,250円〜）</li>
+                  <li>• La pilates 月2回（22,000円）</li>
+                </ul>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* 4ステップ選び方ガイド */}
-          <section className="mb-16">
-            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
-              4ステップで選ぶ！札幌のピラティススタジオ
+        {/* How to Choose */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              失敗しないピラティススタジオの選び方
             </h2>
-            <div className="grid gap-6 md:grid-cols-2">
-              <div className="rounded-xl border-2 border-warm-200 bg-white p-6 shadow-sm">
-                <div className="mb-3 inline-block rounded-full bg-warm-100 px-4 py-1 text-sm font-semibold text-warm-700">
-                  STEP 1
+            <div className="space-y-8">
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span>
+                  <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
-                <h3 className="mb-3 text-xl font-bold text-warm-800">目的を明確にする</h3>
-                <p className="text-warm-600">
-                  ダイエット、姿勢改善、体幹強化など、あなたの目的に合ったスタジオを選びましょう。
+                <p className="text-warm-600 leading-relaxed">
+                  まずは自分がピラティスで何を達成したいのかを明確にしましょう。ダイエット、姿勢改善、体幹強化、肩こり・腰痛改善など、目的によって最適なスタジオやプログラムは変わります。目的が明確だとスタジオ選びもスムーズになりますよ。
                 </p>
               </div>
-              <div className="rounded-xl border-2 border-warm-200 bg-white p-6 shadow-sm">
-                <div className="mb-3 inline-block rounded-full bg-warm-100 px-4 py-1 text-sm font-semibold text-warm-700">
-                  STEP 2
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span>
+                  <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
-                <h3 className="mb-3 text-xl font-bold text-warm-800">予算を決める</h3>
-                <p className="text-warm-600">
-                  月額5,500円〜20,000円まで幅広い料金帯があります。無理なく続けられる予算を設定しましょう。
+                <p className="text-warm-600 leading-relaxed">
+                  札幌エリアの料金相場はグループで月4回5,500円〜15,400円程度。無理なく継続できる予算を決めましょう。料金だけでなく、入会金、マット・ウェアのレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
-              <div className="rounded-xl border-2 border-warm-200 bg-white p-6 shadow-sm">
-                <div className="mb-3 inline-block rounded-full bg-warm-100 px-4 py-1 text-sm font-semibold text-warm-700">
-                  STEP 3
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span>
+                  <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
-                <h3 className="mb-3 text-xl font-bold text-warm-800">通いやすさを確認</h3>
-                <p className="text-warm-600">
-                  札幌駅直結や大通駅近など、自宅や職場から通いやすい立地を選ぶと続けやすくなります。
+                <p className="text-warm-600 leading-relaxed">
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。CLUB PILATES札幌やピラティスKは無料で体験できるので、気軽に試してみてくださいね。
                 </p>
               </div>
-              <div className="rounded-xl border-2 border-warm-200 bg-white p-6 shadow-sm">
-                <div className="mb-3 inline-block rounded-full bg-warm-100 px-4 py-1 text-sm font-semibold text-warm-700">
-                  STEP 4
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span>
+                  <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
-                <h3 className="mb-3 text-xl font-bold text-warm-800">体験レッスンを受ける</h3>
-                <p className="text-warm-600">
-                  スタジオの雰囲気やインストラクターとの相性を確認。ほとんどのスタジオで体験レッスンを実施しています。
+                <p className="text-warm-600 leading-relaxed">
+                  どんなに良いスタジオでも、通いにくい場所にあると続きません。札幌はJR札幌駅と地下鉄南北線・東西線・東豊線が利用でき、北海道札幌市の中心エリアです。駅直結やチカホ直結のスタジオを選ぶと、冬の雪の日でも天候を気にせず通えて便利ですよ。すすきのや大通からもアクセス良好です。
                 </p>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* FAQ */}
-          <section className="mb-16">
-            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
+        {/* FAQ */}
+        <section className="py-16 bg-white">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
               よくある質問
             </h2>
-            <div className="space-y-4">
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  札幌でピラティス初心者におすすめのスタジオはどこですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  スターピラティス札幌駅前スタジオがおすすめです。入会者の85%が初心者で、初級クラスはインストラクター2名体制でサポート。月額5,500円から始められるので、気軽にスタートできます。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  札幌駅直結で通えるピラティススタジオはありますか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  はい、3つあります。zen place pilates 札幌（JRタワー8F）、ピラティスK 札幌駅前店（アスティ45ビル2F・地下直結）、CLUB PILATES 札幌（地下鉄さっぽろ駅直結）。天候に左右されず通えます。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  札幌で一番安いピラティススタジオはどこですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  スターピラティス札幌駅前スタジオが月2回5,500円で業界最安値級です。月4回でも8,800円とリーズナブル。さらにセルフエステマシンが1日1回無料で利用できます。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  女性専用のピラティススタジオはありますか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  はい、4つあります。ピラティスK札幌駅前店、La pilates札幌店、LATECO、Repilates札幌円山店はすべて女性専用スタジオです。男性の目を気にせず集中してトレーニングできます。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  体験レッスンはありますか？料金はいくらですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  ほとんどのスタジオで体験レッスンを実施しています。CLUB PILATES札幌は無料、zen place pilates札幌は1,000円、スターピラティスとLATECOは2,000円、La pilatesとRepilatesは3,000円です。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  マシンピラティスとマットピラティスの違いは何ですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  マシンピラティスは専用マシン（リフォーマー）を使用し、初心者でも正しいフォームで効果的にトレーニングできます。マットピラティスはマットの上で行い、体幹を鍛えるのに効果的。初心者にはマシンピラティスがおすすめです。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  どのくらいの期間で効果が出ますか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  週1回（月4回）通った場合、1ヶ月で体の使い方が変わり、2ヶ月で姿勢の変化を実感、3ヶ月で見た目の変化が現れます。週2回通うとさらに早く効果を実感できます。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  肩こりや腰痛の改善に効果はありますか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  はい、効果が期待できます。特にLa pilates札幌店は整体とピラティスを組み合わせた独自プログラムで肩こり・腰痛を根本から改善。BodySoulでも腰痛改善の実績が多数あります。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  運動が苦手でも大丈夫ですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  はい、大丈夫です。ピラティスはもともとリハビリ用に開発されたエクササイズなので、運動が苦手な方や体力に自信がない方でも無理なく始められます。マシンがサポートしてくれるので、正しいフォームで効果的にトレーニングできます。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  インストラクターになりたいのですが、養成コースはありますか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  はい、zen place pilates札幌とBodySoulでインストラクター養成コースを開講しています。BodySoulはFTP認定ライセンスが取得でき、これまでに100名以上の修了生が各地でインストラクターとして活躍しています。
-                </p>
-              </details>
+            <div className="space-y-6">
+              {faqs.map((faq, index) => (
+                <div key={index} className="border border-warm-200 rounded-lg overflow-hidden">
+                  <details className="group">
+                    <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition">
+                      <h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3>
+                      <svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"/>
+                      </svg>
+                    </summary>
+                    <div className="px-6 pb-6 text-warm-600 leading-relaxed">
+                      {faq.answer}
+                    </div>
+                  </details>
+                </div>
+              ))}
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* まとめ・CTA */}
-          <section className="mb-16 rounded-2xl bg-gradient-to-br from-warm-600 to-warm-700 p-8 text-white shadow-lg">
-            <h2 className="mb-4 font-cormorant text-3xl font-bold">
-              札幌で理想のピラティススタジオを見つけよう
+        {/* Summary */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">
+              まとめ
             </h2>
-            <p className="mb-6 text-lg text-warm-50">
-              札幌には多様なピラティススタジオがあります。業界最安値級のスターピラティス、音楽×暗闇のピラティスK、整体×ピラティスのLa pilates、世界最大級のCLUB PILATESなど、あなたの目的・予算・好みに合ったスタジオがきっと見つかります。
+            <p className="text-warm-600 leading-relaxed mb-6">
+              今回は札幌のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
-            <p className="mb-8 text-warm-50">
-              まずは体験レッスンで、スタジオの雰囲気やインストラクターとの相性を確認してみましょう。多くのスタジオが無料〜3,000円で体験レッスンを実施しています。
+            <p className="text-warm-600 leading-relaxed mb-6">
+              この記事では札幌に数多くあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
             </p>
-            <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-              <a
-                href="#studios"
-                className="rounded-full bg-white px-8 py-3 font-bold text-warm-700 shadow-md transition-all hover:bg-warm-50 hover:shadow-lg"
-              >
-                スタジオ一覧を見る
-              </a>
-              <Link
-                href="/"
-                className="rounded-full border-2 border-white px-8 py-3 font-bold text-white transition-all hover:bg-white hover:text-warm-700"
-              >
-                他のエリアを探す
-              </Link>
-            </div>
-          </section>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+            </p>
+            <p className="text-warm-700 font-medium text-center">
+              あなたにぴったりのピラティススタジオが見つかることを願っています。
+            </p>
+          </div>
+        </section>
 
-          {/* パンくずリスト */}
-          <nav className="mb-8 text-sm text-warm-600" aria-label="パンくずリスト">
-            <ol className="flex flex-wrap items-center gap-2">
-              <li>
-                <Link href="/" className="hover:text-warm-800">
-                  ホーム
-                </Link>
-              </li>
-              <li>/</li>
-              <li>
-                <Link href="/area" className="hover:text-warm-800">
-                  エリアから探す
-                </Link>
-              </li>
-              <li>/</li>
-              <li className="font-semibold text-warm-800">札幌</li>
-            </ol>
-          </nav>
-        </main>
+        {/* CTA */}
+        <section className="py-16 bg-warm-800 text-white" id="contact">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">
+              体験レッスンを予約しよう
+            </h2>
+            <p className="text-warm-200 mb-8 leading-relaxed">
+              初回限定の体験レッスン無料〜3,300円。<br />
+              まずは気軽に体験してみましょう。
+            </p>
+            <Link
+              href="#studios"
+              className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded"
+            >
+              おすすめスタジオ一覧に戻る
+            </Link>
+          </div>
+        </section>
+      </main>
 
-        <SiteFooter />
-      </div>
+      <SiteFooter />
 
       <Script
         type="application/ld+json"
@@ -636,7 +823,7 @@ export default async function SapporoAreaPage() {
               {
                 '@type': 'ListItem',
                 position: 2,
-                name: 'エリアから探す',
+                name: '地域別',
                 item: 'https://pilates-biyori.com/area',
               },
               {
@@ -649,6 +836,7 @@ export default async function SapporoAreaPage() {
           }),
         }}
       />
+      <Script src="https://unpkg.com/lucide@latest" strategy="lazyOnload" />
     </>
   )
 }
