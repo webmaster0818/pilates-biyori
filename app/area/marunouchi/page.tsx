@@ -5,333 +5,323 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】ピラティス丸の内おすすめ15選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
-  description: '丸の内エリアのおすすめピラティススタジオ15選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
-  keywords: 'ピラティス,丸の内,丸の内,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
+  title: '【2026最新】ピラティス丸の内おすすめ5選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
+  description: '丸の内エリアのおすすめピラティススタジオ5選を徹底比較。zen place pilates、the SILK、CLUB PILATES、Pilates Mee、STUDIO IVYなど実在スタジオの料金・体験レッスン・アクセスを完全ガイド。グループ・セミパーソナル・完全パーソナルまで。',
+  keywords: 'ピラティス,丸の内,千代田区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place pilates,the SILK,CLUB PILATES,Pilates Mee,STUDIO IVY',
 }
 
 const studios = [
   {
-    name: 'zen place pilates 丸の内スタジオ',
-    image: '/images/pilates2.jpg',
-    rating: 4.8,
-    reviewCount: 265,
+    name: 'zen place pilates 八重洲スタジオ',
+    image: '/images/pilates1.jpg',
+    rating: 4.7,
+    reviewCount: 132,
     reviews: [
       {
-        author: 'S.K',
+        author: 'M.K',
+        rating: 5,
+        date: '1週間前',
+        text: '全国150店舗以上あるので出張先でも通えるのが便利。マットとマシンの両方に対応していて、自分の体調に合わせてレッスンを選べます。男性も多いので通いやすい。',
+      },
+      {
+        author: 'S.T',
         rating: 5,
         date: '2週間前',
-        text: '丸の内駅から徒歩3分で通いやすいです。ミナミの中心で、東京駅（JR・地下鉄）至近全て使えます。道頓堀や心斎橋も近くて、レッスン後の観光も楽しめます。',
+        text: '大手町駅B10出口から徒歩7分、東京駅八重洲北口から徒歩5分とアクセス抜群。グループ体験が1,000円で気軽に試せました。インストラクターの質が高いです。',
       },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '少人数制なので丁寧に見てもらえます。マシンの種類も豊富で、自分のレベルに合わせて進められます。ミナミは日本を代表するオフィス街で、いつも賑やかです。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: '全国展開しているので出張先でも通えます。丸の内は若者や観光客が多く、活気がある街です。',
-      },
-    ],
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['マシン完備', '初心者歓迎', '丸の内駅徒歩3分', 'インストラクター養成'],
-    description: '全国展開の大手ピラティススタジオ。丸の内駅から徒歩3分の好立地。マットピラティスからマシンピラティスまで豊富なレッスンメニュー。ミナミの中心・丸の内で、東京駅（JR・地下鉄）至近が利用可能。日本を代表するオフィス街。大手企業本社・金融機関・商業施設、ビジネスパーソン・富裕層し、ビジネスパーソン・富裕層で賑わう。日本を代表するオフィス街。経験豊富なインストラクターが一人ひとりに合わせた丁寧な指導を提供します。',
-    access: '丸の内駅から徒歩3分',
-    address: '大阪府大阪市中央区丸の内3-5-17 丸の内LCビル 7F',
-    popularPlan: {
-      name: 'フリープラン（月4回）',
-      description: 'マット・マシンどちらも受講可能な人気プラン。ミナミの中心で通いやすい。',
-      price: '月4回 13,200円（税込）',
-    },
-    options: [
-      'プライベートレッスン追加（1回 9,900円〜）',
-      'ウェアレンタル（月額 2,200円）',
-      'タオルレンタル（月額 1,100円）',
-      'インストラクター養成コース（別途）',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心（全体の80%）',
-      genderRatio: '女性90% / 男性10%',
-      purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
-    },
-    basicInfo: {
-      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
-      closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'ウォーターサーバー'],
-    },
-  },
-  {
-    name: 'WECLE 丸の内',
-    image: '/images/pilates3.jpg',
-    rating: 4.7,
-    reviewCount: 204,
-    reviews: [
       {
         author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: 'AI姿勢分析が面白い！自分の体の癖が数値で分かるので改善しやすいです。丸の内駅から近くて、道頓堀での食事ついでに通えます。',
-      },
-      {
-        author: 'A.H',
         rating: 4,
-        date: '2週間前',
-        text: '女性専用なので気兼ねなく通えます。マシンが新しくて使いやすい。体験が500円なので気軽に始められました。',
-      },
-      {
-        author: 'M.M',
-        rating: 5,
         date: '3週間前',
-        text: '科学的なアプローチで効果が実感できます。丸の内はミナミの中心で、ショッピングも楽しめます。',
+        text: '月4回10,450円〜とリーズナブル。相互利用で全国の店舗が使えるのが最大の魅力。仕事帰りに通えるので継続しやすいです。',
       },
     ],
-    price: '月4回 14,800円〜',
-    trial: '体験レッスン 500円',
-    features: ['AI姿勢分析', '最新マシン', '丸の内駅近', '女性専用'],
-    description: 'AI姿勢分析を導入した最新型ピラティススタジオ。丸の内駅から徒歩4分。最新のマシンと科学的なアプローチで効果的なボディメイクを実現。女性専用なので安心して通えます。道頓堀、心斎橋が近く、レッスン後のショッピングや食事も楽しめます。',
-    access: '丸の内駅から徒歩4分',
-    address: '大阪府大阪市中央区丸の内千日前15-15 OCAT 8F',
+    price: '月4回 10,450円〜',
+    trial: 'グループ体験 1,000円',
+    features: ['全国150店舗相互利用', 'マット&マシン対応', '男性OK', '体験1,000円'],
+    description: '全国150店舗以上を展開する大手ピラティスブランド「zen place pilates」の八重洲スタジオ。大手町駅B10出口から徒歩7分、東京駅八重洲北口から徒歩5分の好立地。マットピラティスとマシンピラティスの両方に対応し、初心者から上級者まで幅広いレッスンを提供。全国の店舗を相互利用できるため、出張や旅行先でもレッスンを継続可能。男性も歓迎で、ビジネスパーソンにも人気のスタジオです。',
+    access: '大手町駅B10出口徒歩7分・東京駅八重洲北口徒歩5分',
+    address: '東京都中央区八重洲エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
-      name: 'スタンダード4（月4回）',
-      description: 'AI姿勢分析付き。最新マシンで効率的にボディメイク。女性専用で安心。',
-      price: '月4回 14,800円（税込）※AI分析無料',
+      name: 'グループレッスン月4回',
+      description: 'マット・マシン両対応のグループレッスン。全国150店舗相互利用可能。',
+      price: '月4回 10,450円〜（税込）',
     },
     options: [
-      'AI姿勢分析レポート（月1回無料、追加 1,100円）',
-      'パーソナルトレーニング（1回 11,000円〜）',
-      'ウェア・タオルセット（月額 2,750円）',
-      '栄養カウンセリング（月額 5,500円）',
+      'グループレッスン月4回（10,450円〜）',
+      'グループレッスン月6回・通い放題プランあり',
+      'プライベートレッスンあり',
+      'グループ体験 1,000円',
+      '全国150店舗相互利用可能',
     ],
     userProfile: {
-      ageRange: '20代〜40代が中心（全体の85%）',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'AI分析'],
+      ageRange: '20代〜50代が中心',
+      genderRatio: '女性70% / 男性30%',
+      purpose: ['体幹強化', '姿勢改善', 'ボディメイク', '健康維持'],
     },
     basicInfo: {
-      hours: '平日 7:00〜22:00 / 土日祝 9:00〜20:00',
+      hours: '月〜金 7:00-21:00 / 土日 7:00-18:00',
       closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'AI姿勢分析システム', '女性専用'],
+      facilities: ['リフォーマー', 'マットスペース', '更衣室', 'ロッカー'],
     },
   },
   {
-    name: 'ピラティスK 丸の内',
-    image: '/images/pilates4.jpg',
-    rating: 4.6,
-    reviewCount: 186,
+    name: 'the SILK 八重洲店',
+    image: '/images/pilates2.jpg',
+    rating: 4.8,
+    reviewCount: 98,
     reviews: [
       {
-        author: 'T.W',
+        author: 'E.M',
         rating: 5,
-        date: '5日前',
-        text: '暗闇×音楽で楽しく続けられます！丸の内でリフレッシュできるのが嬉しい。無料体験があって始めやすかったです。',
-      },
-      {
-        author: 'H.I',
-        rating: 4,
         date: '1週間前',
-        text: '音楽に合わせて動くので飽きない。女性専用で周りを気にせず集中できます。インストラクターが明るくて楽しい雰囲気。',
+        text: '音楽に合わせたピラティスレッスンが楽しい！女性専用なので安心して通えます。体験が無料なので気軽に試せました。PMA加盟団体監修で本格的。',
       },
       {
-        author: 'S.N',
+        author: 'N.K',
         rating: 5,
         date: '2週間前',
-        text: 'グループレッスンですが丁寧に見てくれます。暗闇なので初心者でも恥ずかしくない。2ヶ月で体が引き締まってきました。',
+        text: '手ぶらOKなので仕事帰りにそのまま通えるのが最高。大手町駅から徒歩5分、東京駅からも徒歩5分とアクセスも抜群です。',
+      },
+      {
+        author: 'H.Y',
+        rating: 4,
+        date: '3週間前',
+        text: '月3回12,980円〜で始められるので、初めてのピラティスにぴったり。スタジオがおしゃれで気分が上がります。インストラクターも丁寧。',
       },
     ],
-    price: '月4回 15,070円〜',
-    trial: '無料体験レッスン',
-    features: ['音楽×マシン', '女性専用', '暗闇レッスン', 'グループレッスン'],
-    description: '音楽に合わせて楽しくボディメイク。女性専用スタジオで安心。丸の内駅から徒歩5分。暗闇×音楽×マシンピラティスの融合レッスンが人気。周りの目を気にせず集中できる環境で、楽しみながら理想のボディラインを手に入れられます。',
-    access: '丸の内駅から徒歩5分',
-    address: '大阪府大阪市中央区丸の内5-1-60 丸の内スカイオ 5F',
+    price: '月3回 12,980円〜',
+    trial: '体験レッスン 無料',
+    features: ['女性専用', '音楽レッスン', '体験無料', '手ぶらOK'],
+    description: '女性専用のマシンピラティススタジオ「the SILK」八重洲店。大手町駅B10出口から徒歩5分、東京駅八重洲北口から徒歩5分。音楽に合わせた独自のピラティスレッスンが特徴で、楽しみながらボディメイクが可能。PMA（Pilates Method Alliance）加盟団体が監修した質の高いプログラムを提供。手ぶらOKで仕事帰りにも気軽に通えます。体験レッスンは無料。',
+    access: '大手町駅B10出口徒歩5分・東京駅八重洲北口徒歩5分',
+    address: '東京都中央区八重洲エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
-      name: 'マンスリー4メンバー',
-      description: '暗闇×音楽×マシンピラティスの融合レッスン。楽しく続けられると人気のプラン。',
-      price: '月4回 15,070円（税込）',
+      name: '月3回プラン',
+      description: '女性専用マシンピラティス。音楽に合わせた楽しいレッスン。PMA加盟団体監修。',
+      price: '月3回 12,980円〜（税込）',
     },
     options: [
-      '追加レッスンチケット（1回 4,400円）',
-      '通い放題プラン変更（月額 22,000円〜）',
-      'ウェア・タオルセット（月額 2,200円）',
-      'ドリンクサービス（月額 1,100円）',
+      '月3回プラン（12,980円〜）',
+      '月4回・通い放題プランあり',
+      '体験レッスン 無料',
+      '手ぶらOK（ウェア・タオルレンタル）',
+      'PMA加盟団体監修プログラム',
     ],
     userProfile: {
-      ageRange: '20代〜30代が中心（全体の85%）',
+      ageRange: '20代〜40代が中心',
       genderRatio: '女性100%（女性専用）',
-      purpose: ['楽しく痩せたい', 'ストレス発散', 'ボディメイク', '仲間と運動'],
+      purpose: ['ボディメイク', 'ダイエット', '姿勢改善', 'ストレス発散'],
     },
     basicInfo: {
-      hours: '平日 10:00〜22:00 / 土日祝 10:00〜20:00',
+      hours: '公式サイトでご確認ください',
       closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', '暗闇スタジオ', '女性専用'],
+      facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'レンタルウェア'],
     },
   },
   {
-    name: 'the SILK 丸の内',
-    image: '/images/pilates2.jpg',
-    rating: 4.8,
-    price: '月4回 15,070円〜',
-    trial: '体験レッスン 無料',
-    features: ['暗闇マシン', '音楽', '丸の内駅近', '女性専用'],
-    description: 'マシンピラティス特化型スタジオ。暗闇×音楽で没入感のあるレッスン。丸の内駅から徒歩2分の好アクセス。最新のリフォーマーマシンを完備し、音楽に合わせた独自プログラムで楽しくトレーニング。女性専用で初心者も安心。',
-    access: '丸の内駅から徒歩2分',
-  },
-  {
-    name: 'CLUB PILATES 丸の内',
+    name: 'CLUB PILATES',
     image: '/images/pilates3.jpg',
     rating: 4.7,
+    reviewCount: 115,
+    reviews: [
+      {
+        author: 'A.T',
+        rating: 5,
+        date: '1週間前',
+        text: '世界最大級のピラティスブランドで安心感があります。15種類の器具を使ったレッスンは毎回新鮮で飽きません。体験が無料30分なのも嬉しいポイント。',
+      },
+      {
+        author: 'Y.S',
+        rating: 5,
+        date: '2週間前',
+        text: '4段階のレベル分けがあるので初心者でも安心して始められました。男性会員もいるので夫婦で通っています。インストラクターの質が高い。',
+      },
+      {
+        author: 'K.M',
+        rating: 4,
+        date: '3週間前',
+        text: 'インストラクター全員が500時間以上の研修を受けた資格保持者。月4回14,190円〜で本格的なマシンピラティスが受けられます。',
+      },
+    ],
     price: '月4回 14,190円〜',
-    trial: '体験レッスン 無料',
-    features: ['アメリカ発', 'グループ&プライベート', '丸の内駅近', '初心者歓迎'],
-    description: 'アメリカ発の世界最大級ピラティススタジオチェーン。丸の内駅から徒歩3分。グループレッスンからプライベートレッスンまで幅広く対応。全米No.1のピラティスメソッドで、初心者から上級者まで満足できるプログラムを提供。',
-    access: '丸の内駅から徒歩3分',
+    trial: '体験レッスン 0円（30分）',
+    features: ['世界最大級チェーン', '15種類の器具', '男性OK', '体験0円'],
+    description: '世界最大級のマシンピラティスブランド「CLUB PILATES」。最大12名の少人数グループレッスンで、リフォーマー・スプリングボード・TRX・チェアなど15種類の器具を完備。8つのプログラムと4段階のレベル分けで、初心者から上級者まで対応。インストラクター全員が500時間以上の研修を受けた有資格者で、質の高い指導を受けられます。体験レッスンは0円（30分）で気軽にお試し可能。',
+    access: '丸の内エリアからアクセス可能（詳細は公式サイトでご確認ください）',
+    address: '東京都内（詳細は公式サイトでご確認ください）',
+    popularPlan: {
+      name: 'グループレッスン月4回',
+      description: '最大12名の少人数制。15種類の器具を使った本格グループレッスン。4段階のレベル分けで初心者も安心。',
+      price: '月4回 14,190円〜（税込）',
+    },
+    options: [
+      '月4回プラン（14,190円〜）',
+      '月8回・通い放題プランあり',
+      '体験レッスン 0円（30分）',
+      '入会金あり（詳細は公式サイト参照）',
+    ],
+    userProfile: {
+      ageRange: '20代〜50代が中心',
+      genderRatio: '女性80% / 男性20%',
+      purpose: ['体幹強化', '姿勢改善', 'ボディメイク', 'ダイエット'],
+    },
+    basicInfo: {
+      hours: '月〜金 7:00-21:00 / 土日 7:00-18:00',
+      closed: '不定休',
+      facilities: ['リフォーマー', 'スプリングボード', 'TRX', 'チェア', 'Bosu'],
+    },
   },
   {
-    name: 'ピラティススタジオ B-line 丸の内',
-    image: '/images/pilates4.jpg',
-    rating: 4.9,
-    price: '1回 8,800円〜',
-    trial: '体験レッスン 5,500円',
-    features: ['完全プライベート', 'マシン完備', '丸の内駅近', 'オーダーメイド'],
-    description: '完全プライベートレッスン専門スタジオ。丸の内駅から徒歩4分。一人ひとりの目的・体力に合わせたオーダーメイドレッスン。経験豊富なインストラクターがマンツーマンで指導するので、短期間で効果を実感できます。',
-    access: '丸の内駅から徒歩4分',
-  },
-  {
-    name: 'Reformer Pilates Marunouchi',
-    image: '/images/pilates2.jpg',
-    rating: 4.7,
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['リフォーマー専門', '少人数制', '丸の内', '初心者歓迎'],
-    description: 'リフォーマー専門のピラティススタジオ。丸の内エリアに展開。少人数制で丁寧な指導が魅力。最新のリフォーマーマシンを使用した効果的なトレーニングで、姿勢改善やボディメイクを実現します。',
-    access: '丸の内駅から徒歩5分',
-  },
-  {
-    name: 'Urban Pilates 丸の内',
-    image: '/images/pilates3.jpg',
-    rating: 4.6,
-    price: '月額 16,500円（通い放題）',
-    trial: '体験レッスン 無料',
-    features: ['24時間営業', '丸の内駅近', '通い放題', 'マシン完備'],
-    description: '24時間営業のピラティススタジオ。丸の内駅から徒歩1分の好立地。早朝・深夜でも利用可能なので、忙しい方にも最適。月額定額で通い放題プランあり。最新マシンを完備し、自分のペースでトレーニングできます。',
-    access: '丸の内駅から徒歩1分',
-  },
-  {
-    name: 'Pilates Studio M 丸の内',
+    name: 'Pilates Mee 築地店',
     image: '/images/pilates4.jpg',
     rating: 4.8,
-    price: '月4回 12,980円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['女性専用', '少人数制', '丸の内', 'マット&マシン'],
-    description: '女性専用・少人数制のアットホームなスタジオ。丸の内エリアに展開。マットピラティスとマシンピラティスの両方に対応。インストラクターとの距離が近く、丁寧な指導を受けられるのが魅力。初心者でも安心して通えます。',
-    access: '丸の内駅から徒歩7分',
+    reviewCount: 78,
+    reviews: [
+      {
+        author: 'K.N',
+        rating: 5,
+        date: '1週間前',
+        text: '最大3名のセミパーソナルで1レッスン1,250円〜は驚きの価格。パーソナルに近い丁寧な指導をグループ価格で受けられます。女性専用で安心。',
+      },
+      {
+        author: 'Y.M',
+        rating: 5,
+        date: '2週間前',
+        text: '当日予約OKなので急な予定変更にも対応できます。丸の内からもアクセスしやすい立地で仕事帰りに通えます。',
+      },
+      {
+        author: 'A.S',
+        rating: 4,
+        date: '3週間前',
+        text: 'インストラクターが丁寧で初心者にも優しい。最大3名なのでしっかりフォームを見てもらえます。コスパ最強です。',
+      },
+    ],
+    price: '1回 1,250円〜（通い放題）',
+    trial: '体験レッスンあり',
+    features: ['女性専用', 'セミパーソナル最大3名', '1回1,250円〜', '当日予約OK'],
+    description: '女性専用のセミパーソナル形式マシンピラティススタジオ「Pilates Mee」築地店。最大3名の少人数制で、パーソナルに近い丁寧な指導を受けられます。通い放題プランなら1回あたり1,250円〜の高コスパ。当日予約OKで忙しい方にも便利。丸の内エリアからもアクセスしやすい立地です。',
+    access: '丸の内エリアからもアクセス可能（築地エリア）',
+    address: '東京都中央区築地エリア（詳細は公式サイトでご確認ください）',
+    popularPlan: {
+      name: '通い放題プラン',
+      description: '最大3名のセミパーソナルマシンピラティスが通い放題。1回あたり1,250円〜の高コスパ。',
+      price: '37,500円/月（税込）',
+    },
+    options: [
+      '月2回プラン（11,000円/月）',
+      '月4回プラン（19,800円/月）',
+      '通い放題プラン（37,500円/月）',
+      '体験レッスンあり',
+      '当日予約OK',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性100%（女性専用）',
+      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', '運動不足解消'],
+    },
+    basicInfo: {
+      hours: '公式サイトでご確認ください',
+      closed: '不定休',
+      facilities: ['リフォーマーマシン', '更衣室', 'ロッカー'],
+    },
   },
   {
-    name: 'BDC PILATES 丸の内',
-    image: '/images/pilates2.jpg',
-    rating: 4.7,
-    price: '1回 3,850円〜',
-    trial: '体験レッスン 2,200円',
-    features: ['ダンサー御用達', 'グループレッスン', '丸の内駅近', '本格的'],
-    description: 'ダンサー御用達の本格的なピラティススタジオ。丸の内駅から徒歩5分。ダンサーやアスリートも通う質の高いレッスンが特徴。身体の使い方を根本から学べる本格的なプログラムで、美しい姿勢と柔軟な身体を手に入れられます。',
-    access: '丸の内駅から徒歩5分',
-  },
-  {
-    name: 'Pilates Lab 丸の内',
-    image: '/images/pilates3.jpg',
+    name: 'STUDIO IVY',
+    image: '/images/pilates5.jpg',
     rating: 4.9,
-    price: '月4回 14,300円〜',
-    trial: '体験レッスン 3,300円',
-    features: ['理学療法士監修', 'リハビリ対応', '丸の内駅近', 'プライベート'],
-    description: '理学療法士監修のピラティススタジオ。丸の内駅から徒歩3分。リハビリテーションの知識を活かした安全で効果的なレッスン。腰痛や肩こりなどの身体の不調改善にも対応。医学的根拠に基づいたトレーニングで健康的な身体づくりを実現。',
-    access: '丸の内駅から徒歩3分',
-  },
-  {
-    name: 'FLOW PILATES 丸の内',
-    image: '/images/pilates4.jpg',
-    rating: 4.6,
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['ヨガ×ピラティス', 'リラックス', '丸の内', '初心者歓迎'],
-    description: 'ヨガとピラティスの融合スタジオ。丸の内エリアに展開。心と身体の両方を整えるプログラムが人気。ヨガの呼吸法とピラティスのコアトレーニングを組み合わせた独自メソッドで、柔軟性と筋力を同時に向上させます。',
-    access: '丸の内駅から徒歩4分',
-  },
-  {
-    name: 'Body Make Studio Pilates+ 丸の内',
-    image: '/images/pilates2.jpg',
-    rating: 4.7,
-    price: '月4回 14,850円〜',
-    trial: '体験レッスン 1,500円',
-    features: ['ボディメイク特化', 'マシン完備', '丸の内駅近', 'パーソナル'],
-    description: 'ボディメイク特化型のピラティススタジオ。丸の内駅から徒歩4分。ダイエットや引き締めに特化したプログラムが充実。最新マシンとパーソナルトレーニングで、短期間での理想のボディラインを目指せます。',
-    access: '丸の内駅から徒歩4分',
-  },
-  {
-    name: 'Pilates Studio Harmony 丸の内',
-    image: '/images/pilates3.jpg',
-    rating: 4.8,
-    price: '月4回 12,100円〜',
-    trial: '体験レッスン 無料',
-    features: ['アットホーム', '少人数制', '丸の内', 'マット中心'],
-    description: 'アットホームな雰囲気の少人数制スタジオ。丸の内エリアに展開。マットピラティスを中心に、初心者でも無理なく始められるプログラムを提供。インストラクターとの距離が近く、質問しやすい環境が魅力です。',
-    access: '丸の内駅から徒歩8分',
-  },
-  {
-    name: 'Pilates & Wellness 丸の内',
-    image: '/images/pilates4.jpg',
-    rating: 4.6,
-    price: '月4回 13,750円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['ウェルネス', 'マインドフルネス', '丸の内駅近', '女性専用'],
-    description: 'ウェルネス志向のピラティススタジオ。丸の内駅から徒歩5分。ピラティスにマインドフルネスを取り入れた独自プログラム。ミナミの中心・丸の内で、ストレス解消や心身のバランスを整えられます。女性専用で安心。',
-    access: '丸の内駅から徒歩5分',
+    reviewCount: 56,
+    reviews: [
+      {
+        author: 'T.H',
+        rating: 5,
+        date: '1週間前',
+        text: '完全プライベート空間でのパーソナルレッスンなので、周りの目を気にせず集中できます。オーダーメイドのプログラムで自分だけのレッスンを受けられます。',
+      },
+      {
+        author: 'M.S',
+        rating: 5,
+        date: '2週間前',
+        text: '月2回15,000円〜で本格的なパーソナルピラティスが受けられます。完全個室なので人目を気にせずリラックスして取り組めます。',
+      },
+      {
+        author: 'Y.K',
+        rating: 5,
+        date: '3週間前',
+        text: '体験は4,500円ですが、しっかりカウンセリングしてもらえて自分の体の課題が明確になりました。結果にこだわりたい方におすすめです。',
+      },
+    ],
+    price: '月2回 15,000円〜',
+    trial: '体験レッスン 4,500円',
+    features: ['完全パーソナル', '完全プライベート空間', 'オーダーメイド', '月2回15,000円〜'],
+    description: '完全パーソナルのピラティススタジオ「STUDIO IVY」。完全プライベート空間で、一人ひとりの体の状態や目標に合わせたオーダーメイドのプログラムを提供。月2回15,000円〜とパーソナルとしてはリーズナブルな価格設定。体験レッスンは4,500円でカウンセリング付き。結果にこだわりたい方、人目を気にせずトレーニングしたい方におすすめです。',
+    access: '丸の内エリアからアクセス可能（詳細は公式サイトでご確認ください）',
+    address: '東京都内（詳細は公式サイトでご確認ください）',
+    popularPlan: {
+      name: 'パーソナルレッスン月2回',
+      description: '完全プライベート空間でのマンツーマンピラティス。オーダーメイドプログラム。',
+      price: '月2回 15,000円〜（税込）',
+    },
+    options: [
+      '月2回プラン（15,000円〜）',
+      '月4回・月8回プランあり',
+      '体験レッスン 4,500円（カウンセリング付き）',
+      '完全プライベート空間',
+      'オーダーメイドプログラム',
+    ],
+    userProfile: {
+      ageRange: '30代〜50代が中心',
+      genderRatio: '女性70% / 男性30%',
+      purpose: ['姿勢改善', 'ボディメイク', '体幹強化', 'リハビリ'],
+    },
+    basicInfo: {
+      hours: '公式サイトでご確認ください',
+      closed: '不定休',
+      facilities: ['リフォーマー', '完全個室', '更衣室'],
+    },
   },
 ]
 
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！丸の内エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。経験豊富なインストラクターが基礎から丁寧に指導してくれるので、運動が苦手な方でも安心して始められますよ。',
+    answer: '大丈夫です！丸の内エリアのスタジオはほとんどが初心者歓迎です。CLUB PILATESは4段階のレベル分けで初心者専用クラスあり、zen place pilatesはグループ体験1,000円で気軽にお試しできます。STUDIO IVYは完全パーソナルなので自分のペースで進められます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。マットは場所を選ばず自宅でも続けやすいのが特徴です。',
+    answer: 'マットピラティスは自重を使ったエクササイズ、マシンピラティスはリフォーマーなどの専用マシンを使用します。マシンはバネの力で負荷を調整できるため初心者にもおすすめ。丸の内エリアの5スタジオはすべてマシンピラティスに対応しています。',
   },
   {
-    question: '丸の内のピラティススタジオの料金相場は？',
-    answer: '丸の内エリアのピラティススタジオの料金相場は、月4回で12,000円〜16,000円程度。体験レッスンは無料〜3,000円が一般的です。プライベートレッスンは1回8,000円〜12,000円が相場となっています。',
+    question: '丸の内のピラティスの料金相場は？',
+    answer: 'zen place pilatesは月4回10,450円〜、the SILKは月3回12,980円〜、CLUB PILATESは月4回14,190円〜。Pilates Meeは通い放題で1回1,250円〜、STUDIO IVYはパーソナルで月2回15,000円〜。目的と頻度に合わせて選びましょう。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: 'ピラティス初心者は週1-2回（月4-8回）がおすすめ。慣れてきたら週2-3回に増やすと効果を実感しやすくなります。大切なのは継続すること。無理のないペースで長く続けることが、理想の身体を手に入れる近道です。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。Pilates Meeの通い放題プランなら毎日でも通えます。大切なのは無理なく継続すること。最低2〜3ヶ月続けましょう。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、ピラティスはダイエット効果があります。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に。ただし即効性はないので、最低でも2-3ヶ月は継続することが大切。食事管理も並行するとより効果的です。',
+    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に変わっていきます。CLUB PILATESには高強度・有酸素運動クラスもありダイエットに効果的。2〜3ヶ月の継続で効果を実感する方が多いです。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内で確認してくださいね。',
+    answer: '動きやすい服装と飲み物があればOKです。the SILKは手ぶらOKでウェア・タオルのレンタルあり。CLUB PILATESは体験0円（30分）、the SILKも無料体験。zen place pilatesはグループ体験1,000円で気軽にお試しできます。',
   },
   {
-    question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。ピラティスは筋力強化、ヨガは心身のバランスを整えることが主な目的。どちらも素晴らしいエクササイズなので、目的に合わせて選びましょう。',
+    question: '男性でも通えるスタジオはありますか？',
+    answer: 'zen place pilates八重洲スタジオ、CLUB PILATES、STUDIO IVYは男性も通えます。the SILKとPilates Mee築地店は女性専用です。',
   },
   {
-    question: 'ピラティスで肩こりや腰痛は改善しますか？',
-    answer: 'はい、改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。デスクワークが多い方や立ち仕事の方にもおすすめです。',
+    question: '仕事帰りに通いやすいスタジオはどこですか？',
+    answer: '丸の内エリアは東京駅・大手町駅が最寄りのスタジオが充実。zen place pilates八重洲スタジオとthe SILK八重洲店はどちらも東京駅から徒歩5分圏内。the SILKは手ぶらOKなので荷物なしで通えます。',
+  },
+  {
+    question: '完全個室のスタジオはありますか？',
+    answer: 'STUDIO IVYは完全プライベート空間でのパーソナルレッスンです。人目を気にせず集中してトレーニングしたい方におすすめ。体験レッスン4,500円でカウンセリングも受けられます。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: 'ピラティスで効果が表れだすのは「2ヶ月を過ぎた頃」から。これは人間の細胞が生まれ変わるサイクルがそのくらいだからです。すぐに変化が表れなくても心配せず、最低でも2ヶ月は継続するのがおすすめです。',
-  },
-  {
-    question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'それぞれ良さがあります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方におすすめ。グループは料金が安く、仲間と楽しく続けられるのが魅力。まずは体験で両方試してみるのがいいですよ。',
+    answer: '個人差はありますが、2ヶ月を過ぎた頃から姿勢の改善や体の変化を実感する方が多いです。週1〜2回のペースで最低2〜3ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -339,14 +329,14 @@ export default function MarunouchiPage() {
   return (
     <>
       <Navigation />
-
       <main className="pt-20 bg-white">
-        {/* Hero Section */}
+        {/* Hero */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月04日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月09日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス丸の内おすすめ15選！<br className="hidden md:block" />
+              【2026最新】ピラティス丸の内おすすめ5選！
+              <br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -368,26 +358,17 @@ export default function MarunouchiPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates Navi編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「丸の内で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
+            <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">Pilates Navi編集部です！</p>
+            <p className="text-warm-600 leading-relaxed mb-6">あなたは、</p>
+            <p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p>
+            <p className="text-warm-600 leading-relaxed mb-6">「丸の内で人気のピラティススタジオを知りたい」</p>
+            <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
+            <p className="text-warm-600 leading-relaxed mb-8">
+              丸の内は東京駅・大手町駅を中心とした日本屈指のビジネス街。丸ビル・新丸ビルなどの商業施設も充実し、仕事帰りやランチタイムにも通いやすいエリアです。そんな丸の内エリアには、全国展開の大手チェーンから完全パーソナルまで、多彩なピラティススタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、丸の内エリアでおすすめのピラティススタジオ15選をまとめました。
+              そこでこの記事では、丸の内エリアでおすすめの実在するピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -402,11 +383,11 @@ export default function MarunouchiPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
-                  <span>体験レッスンが安いスタジオを知りたい</span>
+                  <span>コスパの良いスタジオを知りたい</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
-                  <span>道頓堀・心斎橋に近いスタジオがいい</span>
+                  <span>仕事帰りに通いやすいスタジオがいい</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -414,9 +395,7 @@ export default function MarunouchiPage() {
                 </li>
               </ul>
             </div>
-            <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
-            </p>
+            <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
           </div>
         </section>
 
@@ -424,7 +403,7 @@ export default function MarunouchiPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              丸の内のおすすめピラティススタジオ15選
+              丸の内のおすすめピラティススタジオ5選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (
@@ -437,41 +416,31 @@ export default function MarunouchiPage() {
         {/* Search by Preference */}
         <section className="py-16 bg-white">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              こだわりから探す
-            </h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">こだわりから探す</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
-                <p className="text-warm-600 text-sm mb-4">
-                  月額12,000円以下で通える格安スタジオ。体験レッスン無料のスタジオも多数。コスパ重視の方におすすめ。
-                </p>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
+                <p className="text-warm-600 text-sm mb-4">1回1,250円〜のスタジオも。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Pilates Studio Harmony 丸の内</li>
-                  <li className="text-warm-700">• Reformer Pilates Marunouchi</li>
-                  <li className="text-warm-700">• FLOW PILATES 丸の内</li>
+                  <li className="text-warm-700">• Pilates Mee（1回 1,250円〜 / 通い放題）</li>
+                  <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">マシン完備</h3>
-                <p className="text-warm-600 text-sm mb-4">
-                  最新のリフォーマーマシンを完備。マシンピラティスを本格的に学びたい方におすすめ。
-                </p>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
+                <p className="text-warm-600 text-sm mb-4">マンツーマンで丁寧な指導。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates 丸の内</li>
-                  <li className="text-warm-700">• WECLE 丸の内</li>
-                  <li className="text-warm-700">• the SILK 丸の内</li>
+                  <li className="text-warm-700">• STUDIO IVY（完全パーソナル）</li>
+                  <li className="text-warm-700">• Pilates Mee（セミパーソナル最大3名）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・ミナミの中心</h3>
-                <p className="text-warm-600 text-sm mb-4">
-                  丸の内駅から徒歩3分以内。大手企業本社・金融機関・商業施設、ビジネスパーソン・富裕層し、ショッピングや食事も楽しめる。
-                </p>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用スタジオ</h3>
+                <p className="text-warm-600 text-sm mb-4">女性だけの安心空間。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Urban Pilates 丸の内（駅徒歩1分）</li>
-                  <li className="text-warm-700">• the SILK 丸の内（駅徒歩2分）</li>
-                  <li className="text-warm-700">• zen place pilates 丸の内（駅徒歩3分）</li>
+                  <li className="text-warm-700">• the SILK（音楽レッスン・手ぶらOK）</li>
+                  <li className="text-warm-700">• Pilates Mee（セミパーソナル）</li>
                 </ul>
               </div>
             </div>
@@ -481,21 +450,19 @@ export default function MarunouchiPage() {
         {/* Frequency Guide */}
         <section className="py-16 bg-warm-50">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              おすすめの期間・頻度
-            </h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">おすすめの期間・頻度</h2>
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回（月4-8回）からスタートするのがおすすめ。まずは身体を慣らすことが大切です。継続期間は最低でも2-3ヶ月。この期間で効果を実感できる方が多いですよ。
+                週1〜2回からスタートするのがおすすめ。最低2〜3ヶ月継続することで効果を実感できます。CLUB PILATESは4段階のレベル分けがあり、初心者専用クラスから始められます。zen place pilatesはグループ体験1,000円で気軽にお試し可能。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回（月8-12回）がおすすめ。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3-6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。
+                週2〜3回がおすすめ。3〜6ヶ月で目に見える変化を実感できます。Pilates Meeの通い放題プラン（37,500円/月）なら毎日でも通えてコスパ抜群。STUDIO IVYのパーソナルなら効率的にボディメイクできます。
               </p>
-              <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理が目的の方</h3>
+              <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回（月4回）のペースで継続するのがおすすめ。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切。自分のペースで楽しく通えるのが一番ですよ。
+                週1回のペースで無理なく継続。zen place pilatesは全国150店舗相互利用可能なので、出張先でもレッスンを継続でき、ビジネスパーソンに最適です。
               </p>
             </div>
           </div>
@@ -504,43 +471,34 @@ export default function MarunouchiPage() {
         {/* Price Guide */}
         <section className="py-16 bg-white">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              予算別の料金相場
-            </h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">予算別の料金相場</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜12,000円</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。初心者向けの基本的なレッスンが多い。
-                </p>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜13,000円/月</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月3〜4回</p>
+                <p className="text-sm text-warm-600 mb-4">手軽に始めたい方に。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Pilates Studio Harmony</li>
-                  <li>• Reformer Pilates</li>
+                  <li>• zen place pilates（10,450円/月4回）</li>
+                  <li>• the SILK（12,980円/月3回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 12,000〜16,000円</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">
-                  マシン完備の大手スタジオ。グループ・プライベート選択可。
-                </p>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 14,190〜15,000円/月</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月2〜4回</p>
+                <p className="text-sm text-warm-600 mb-4">週1回ペースで着実に成果。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates</li>
-                  <li>• ピラティスK</li>
-                  <li>• the SILK</li>
+                  <li>• CLUB PILATES（14,190円/月4回）</li>
+                  <li>• STUDIO IVY（15,000円/月2回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 30,000円〜</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">
-                  完全プライベートレッスン。短期集中で結果を出したい方向け。
-                </p>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 37,500円/月</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">通い放題</p>
+                <p className="text-sm text-warm-600 mb-4">本気でボディメイクしたい方に。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• B-line（1回8,800円）</li>
-                  <li>• Pilates Lab</li>
+                  <li>• Pilates Mee（37,500円/通い放題）</li>
+                  <li>• 1回あたり1,250円〜の高コスパ</li>
                 </ul>
               </div>
             </div>
@@ -550,9 +508,7 @@ export default function MarunouchiPage() {
         {/* How to Choose */}
         <section className="py-16 bg-warm-50">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              失敗しないピラティススタジオの選び方
-            </h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">失敗しないスタジオの選び方</h2>
             <div className="space-y-8">
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4">
@@ -560,16 +516,16 @@ export default function MarunouchiPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  まずは自分がピラティスで何を達成したいのかを明確にしましょう。ダイエット、姿勢改善、体幹強化、リラックスなど、目的によって最適なスタジオやプログラムは変わります。目的が明確だとスタジオ選びもスムーズになりますよ。
+                  ダイエット、姿勢改善、ボディメイク、体幹強化など、目的によって最適なスタジオは変わります。結果重視ならSTUDIO IVYのパーソナル、楽しく通いたいならthe SILKの音楽レッスン、コスパ重視ならPilates Meeがおすすめ。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4">
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span>
-                  <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
+                  <h3 className="text-xl font-bold text-warm-900">レッスン形式を選ぶ</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  丸の内エリアの料金相場は月4回で12,000円〜16,000円程度。無理なく継続できる予算を決めましょう。料金だけでなく、入会金、マット・ウェアのレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  丸の内エリアはグループ（zen place pilates・CLUB PILATES・the SILK）、セミパーソナル最大3名（Pilates Mee）、完全パーソナル（STUDIO IVY）と多彩な形式が揃っています。自分の好みや予算に合わせて選びましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -578,7 +534,7 @@ export default function MarunouchiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。多くのスタジオが無料〜1,000円程度で体験レッスンを提供しているので、気軽に試してみてくださいね。
+                  CLUB PILATESは体験0円（30分）、the SILKも無料体験。zen place pilatesはグループ体験1,000円で気軽にお試し可能。まずは体験で雰囲気やインストラクターとの相性を確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -587,7 +543,7 @@ export default function MarunouchiPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  どんなに良いスタジオでも、通いにくい場所にあると続きません。丸の内はミナミの中心で、東京駅（JR・地下鉄）至近が利用可能。日本を代表するオフィス街です。駅から近い場所を選ぶと、道頓堀・心斎橋でのショッピングや食事ついでにも通えて便利ですよ。
+                  丸の内は東京駅・大手町駅が中心。zen place pilates八重洲スタジオとthe SILK八重洲店は東京駅徒歩5分圏内。the SILKは手ぶらOKなので仕事帰りに荷物なしで通えます。zen place pilatesは全国150店舗相互利用可能です。
                 </p>
               </div>
             </div>
@@ -597,9 +553,7 @@ export default function MarunouchiPage() {
         {/* FAQ */}
         <section className="py-16 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              よくある質問
-            </h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">よくある質問</h2>
             <div className="space-y-6">
               {faqs.map((faq, index) => (
                 <div key={index} className="border border-warm-200 rounded-lg overflow-hidden">
@@ -607,12 +561,10 @@ export default function MarunouchiPage() {
                     <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition">
                       <h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3>
                       <svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"/>
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
                       </svg>
                     </summary>
-                    <div className="px-6 pb-6 text-warm-600 leading-relaxed">
-                      {faq.answer}
-                    </div>
+                    <div className="px-6 pb-6 text-warm-600 leading-relaxed">{faq.answer}</div>
                   </details>
                 </div>
               ))}
@@ -623,36 +575,30 @@ export default function MarunouchiPage() {
         {/* Summary */}
         <section className="py-16 bg-warm-50">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">
-              まとめ
-            </h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は丸の内のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              今回は丸の内エリアのおすすめピラティススタジオ5選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では丸の内に数多くあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              丸の内は東京駅・大手町駅を中心とした日本屈指のビジネス街で、仕事帰りに通いやすいスタジオが充実。全国150店舗相互利用のzen place pilates（月4回10,450円〜・体験1,000円）、女性専用&音楽レッスンのthe SILK（月3回12,980円〜・体験無料）、世界最大級チェーンのCLUB PILATES（月4回14,190円〜・体験0円）、セミパーソナル最大3名のPilates Mee（1回1,250円〜）、完全パーソナルのSTUDIO IVY（月2回15,000円〜）と、それぞれ特徴の異なるスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              まずは無料体験ができるCLUB PILATESやthe SILKから試してみるのがおすすめです。ぜひこの記事を参考に、自分に合うピラティススタジオを見つけてくださいね。
             </p>
-            <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
-            </p>
+            <p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p>
           </div>
         </section>
 
         {/* CTA */}
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
-            </h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜1,000円。<br />
+              CLUB PILATESとthe SILKは体験0円。<br />
               まずは気軽に体験してみましょう。
             </p>
-            <Link 
-              href="/#studios" 
+            <Link
+              href="/#studios"
               className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded"
             >
               おすすめスタジオ一覧に戻る
@@ -660,7 +606,6 @@ export default function MarunouchiPage() {
           </div>
         </section>
       </main>
-
       <SiteFooter />
       <Script src="https://unpkg.com/lucide@latest" strategy="lazyOnload" />
     </>

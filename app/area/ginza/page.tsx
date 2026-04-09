@@ -5,14 +5,14 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】ピラティス銀座おすすめ15選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
-  description: '銀座エリアのおすすめピラティススタジオ15選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026最新】ピラティス銀座おすすめ10選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
+  description: '銀座エリアのおすすめピラティススタジオ10選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,銀座,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
 const studios = [
   {
-    name: 'zen place pilates 銀座スタジオ',
+    name: 'zen place pilates 銀座二丁目スタジオ',
     image: '/images/pilates2.jpg',
     rating: 4.8,
     reviewCount: 265,
@@ -21,274 +21,231 @@ const studios = [
         author: 'S.K',
         rating: 5,
         date: '2週間前',
-        text: '銀座駅から徒歩3分で通いやすいです。ミナミの中心で、地下鉄銀座線・丸ノ内線・日比谷線全て使えます。道頓堀や心斎橋も近くて、レッスン後の観光も楽しめます。',
+        text: '銀座一丁目駅から徒歩1分で通いやすいです。銀座線・丸ノ内線・日比谷線・有楽町線と複数路線使えるので、どこからでもアクセスしやすい。マットもマシンも両方受けられるのが嬉しいです。',
       },
       {
         author: 'Y.T',
         rating: 5,
         date: '1ヶ月前',
-        text: '少人数制なので丁寧に見てもらえます。マシンの種類も豊富で、自分のレベルに合わせて進められます。ミナミは百貨店・高級ブランド店の街で、いつも賑やかです。',
+        text: '少人数制なので丁寧に見てもらえます。マシンの種類も豊富で、自分のレベルに合わせて進められます。仕事帰りに通えるのが便利。',
       },
       {
         author: 'K.H',
         rating: 4,
         date: '3週間前',
-        text: '全国展開しているので出張先でも通えます。銀座は若者や観光客が多く、活気がある街です。',
+        text: '全国展開しているので出張先でも通えます。銀座のスタジオは落ち着いた雰囲気で集中できます。',
       },
     ],
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['マシン完備', '初心者歓迎', '銀座駅徒歩3分', 'インストラクター養成'],
-    description: '全国展開の大手ピラティススタジオ。銀座駅から徒歩3分の好立地。マットピラティスからマシンピラティスまで豊富なレッスンメニュー。ミナミの中心・銀座で、地下鉄銀座線・丸ノ内線・日比谷線が利用可能。高級商業地。百貨店・高級ブランド店・歌舞伎座、富裕層・ビジネス層し、富裕層・ビジネス層に人気。百貨店・高級ブランド店の街。経験豊富なインストラクターが一人ひとりに合わせた丁寧な指導を提供します。',
-    access: '銀座駅から徒歩3分',
-    address: '大阪府大阪市中央区銀座3-5-17 銀座LCビル 7F',
+    price: 'マットグループ 月4回 9,625円〜',
+    trial: '体験レッスン 500円〜',
+    features: ['マット&マシン', '初心者歓迎', '銀座一丁目駅徒歩1分', '男性OK'],
+    description: '全国100店舗以上展開の大手ピラティススタジオ。有楽町線「銀座一丁目駅」10番出口から徒歩1分の好立地。マットグループ、マシン（リフォーマー）グループ、プライベートレッスンと幅広いメニューを提供。経験豊富なインストラクターが一人ひとりに合わせた丁寧な指導を行います。',
+    access: '有楽町線「銀座一丁目駅」10番出口 徒歩1分 / 銀座線・日比谷線・丸ノ内線「銀座駅」A13出口 徒歩4分',
+    address: '東京都中央区銀座2-11-15 SF銀座ビル2F',
     popularPlan: {
-      name: 'フリープラン（月4回）',
-      description: 'マット・マシンどちらも受講可能な人気プラン。ミナミの中心で通いやすい。',
-      price: '月4回 13,200円（税込）',
+      name: 'リフォーマーグループ（月4回）',
+      description: 'マシン（リフォーマー）を使ったグループレッスン。少人数制で丁寧な指導。',
+      price: '月4回 15,400円（税込）〜',
     },
     options: [
-      'プライベートレッスン追加（1回 9,900円〜）',
-      'ウェアレンタル（月額 2,200円）',
-      'タオルレンタル（月額 1,100円）',
-      'インストラクター養成コース（別途）',
+      'マットグループ（月4回 9,625円〜）',
+      'リフォーマーグループ（月4回 15,400円〜）',
+      'プライベートレッスン（1回 9,900円〜）',
+      'ウェアレンタル・タオルレンタルあり',
     ],
     userProfile: {
-      ageRange: '20代〜40代が中心（全体の80%）',
-      genderRatio: '女性90% / 男性10%',
+      ageRange: '20代〜50代が中心',
+      genderRatio: '女性85% / 男性15%',
       purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
     },
     basicInfo: {
-      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
-      closed: '不定休',
+      hours: '月〜金 7:00〜21:00 / 土日 7:30〜17:00',
+      closed: '月末不定休',
       facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'ウォーターサーバー'],
     },
   },
   {
-    name: 'WECLE 銀座',
+    name: 'ピラティスK 銀座店',
     image: '/images/pilates3.jpg',
     rating: 4.7,
-    reviewCount: 204,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: 'AI姿勢分析が面白い！自分の体の癖が数値で分かるので改善しやすいです。銀座駅から近くて、道頓堀での食事ついでに通えます。',
-      },
-      {
-        author: 'A.H',
-        rating: 4,
-        date: '2週間前',
-        text: '女性専用なので気兼ねなく通えます。マシンが新しくて使いやすい。体験が500円なので気軽に始められました。',
-      },
-      {
-        author: 'M.M',
-        rating: 5,
-        date: '3週間前',
-        text: '科学的なアプローチで効果が実感できます。銀座はミナミの中心で、ショッピングも楽しめます。',
-      },
-    ],
-    price: '月4回 14,800円〜',
-    trial: '体験レッスン 500円',
-    features: ['AI姿勢分析', '最新マシン', '銀座駅近', '女性専用'],
-    description: 'AI姿勢分析を導入した最新型ピラティススタジオ。銀座駅から徒歩4分。最新のマシンと科学的なアプローチで効果的なボディメイクを実現。女性専用なので安心して通えます。道頓堀、心斎橋が近く、レッスン後のショッピングや食事も楽しめます。',
-    access: '銀座駅から徒歩4分',
-    address: '大阪府大阪市中央区銀座千日前15-15 OCAT 8F',
-    popularPlan: {
-      name: 'スタンダード4（月4回）',
-      description: 'AI姿勢分析付き。最新マシンで効率的にボディメイク。女性専用で安心。',
-      price: '月4回 14,800円（税込）※AI分析無料',
-    },
-    options: [
-      'AI姿勢分析レポート（月1回無料、追加 1,100円）',
-      'パーソナルトレーニング（1回 11,000円〜）',
-      'ウェア・タオルセット（月額 2,750円）',
-      '栄養カウンセリング（月額 5,500円）',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心（全体の85%）',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'AI分析'],
-    },
-    basicInfo: {
-      hours: '平日 7:00〜22:00 / 土日祝 9:00〜20:00',
-      closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'AI姿勢分析システム', '女性専用'],
-    },
-  },
-  {
-    name: 'ピラティスK 銀座',
-    image: '/images/pilates4.jpg',
-    rating: 4.6,
     reviewCount: 186,
     reviews: [
       {
         author: 'T.W',
         rating: 5,
         date: '5日前',
-        text: '暗闇×音楽で楽しく続けられます！銀座でリフレッシュできるのが嬉しい。無料体験があって始めやすかったです。',
+        text: '音楽に合わせて楽しくトレーニングできます！銀座一丁目駅からすぐで通いやすい。体験レッスンが2,000円で始めやすかったです。',
       },
       {
         author: 'H.I',
         rating: 4,
         date: '1週間前',
-        text: '音楽に合わせて動くので飽きない。女性専用で周りを気にせず集中できます。インストラクターが明るくて楽しい雰囲気。',
+        text: '女性専用で周りを気にせず集中できます。インストラクターが明るくて楽しい雰囲気。仕事帰りに通っています。',
       },
       {
         author: 'S.N',
         rating: 5,
         date: '2週間前',
-        text: 'グループレッスンですが丁寧に見てくれます。暗闇なので初心者でも恥ずかしくない。2ヶ月で体が引き締まってきました。',
+        text: 'グループレッスンですが丁寧に見てくれます。2ヶ月で体が引き締まってきました。銀座でこの料金はコスパ良いです。',
       },
     ],
-    price: '月4回 15,070円〜',
-    trial: '無料体験レッスン',
-    features: ['音楽×マシン', '女性専用', '暗闇レッスン', 'グループレッスン'],
-    description: '音楽に合わせて楽しくボディメイク。女性専用スタジオで安心。銀座駅から徒歩5分。暗闇×音楽×マシンピラティスの融合レッスンが人気。周りの目を気にせず集中できる環境で、楽しみながら理想のボディラインを手に入れられます。',
-    access: '銀座駅から徒歩5分',
-    address: '大阪府大阪市中央区銀座5-1-60 銀座スカイオ 5F',
+    price: 'マンスリー4メンバー 13,420円',
+    trial: '体験レッスン 2,000円',
+    features: ['マシンピラティス専門', '女性専用', '銀座一丁目駅徒歩1分', 'グループレッスン'],
+    description: '「30歳からの本気ボディメイク」がコンセプトの女性専用マシンピラティス専門スタジオ。全国54店舗展開。銀座一丁目駅7番出口から徒歩1分。音楽に合わせた独自プログラムで楽しくボディメイク。初心者から経験者まで個人のペースに合わせたプログラムを用意。',
+    access: '有楽町線「銀座一丁目駅」7番出口 徒歩1分 / 銀座線「銀座駅」A13出口 徒歩4分 / JR「有楽町駅」京橋口 徒歩6分',
+    address: '東京都中央区銀座1-6-10 上一ビルディング7F',
     popularPlan: {
       name: 'マンスリー4メンバー',
-      description: '暗闇×音楽×マシンピラティスの融合レッスン。楽しく続けられると人気のプラン。',
-      price: '月4回 15,070円（税込）',
+      description: '月4回のマシンピラティスレッスン。女性専用で安心して通える人気プラン。',
+      price: '月4回 13,420円（税込）',
     },
     options: [
-      '追加レッスンチケット（1回 4,400円）',
-      '通い放題プラン変更（月額 22,000円〜）',
-      'ウェア・タオルセット（月額 2,200円）',
-      'ドリンクサービス（月額 1,100円）',
+      'マンスリー4メンバー（月4回 13,420円）',
+      'マンスリーデイメンバー（14,520円）',
+      'マンスリーフルメンバー（16,170円）',
+      '追加受講料（1回 2,200円）',
     ],
     userProfile: {
-      ageRange: '20代〜30代が中心（全体の85%）',
+      ageRange: '20代〜40代が中心',
       genderRatio: '女性100%（女性専用）',
-      purpose: ['楽しく痩せたい', 'ストレス発散', 'ボディメイク', '仲間と運動'],
+      purpose: ['ボディメイク', 'ダイエット', 'ストレス発散', '体幹強化'],
     },
     basicInfo: {
-      hours: '平日 10:00〜22:00 / 土日祝 10:00〜20:00',
-      closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', '暗闇スタジオ', '女性専用'],
+      hours: '月〜金 9:30〜16:00 / 17:30〜22:00 / 土日祝 9:30〜20:00',
+      closed: '第一月曜日',
+      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', '女性専用'],
     },
   },
   {
-    name: 'the SILK 銀座',
-    image: '/images/pilates2.jpg',
-    rating: 4.8,
-    price: '月4回 15,070円〜',
-    trial: '体験レッスン 無料',
-    features: ['暗闇マシン', '音楽', '銀座駅近', '女性専用'],
-    description: 'マシンピラティス特化型スタジオ。暗闇×音楽で没入感のあるレッスン。銀座駅から徒歩2分の好アクセス。最新のリフォーマーマシンを完備し、音楽に合わせた独自プログラムで楽しくトレーニング。女性専用で初心者も安心。',
-    access: '銀座駅から徒歩2分',
-  },
-  {
-    name: 'CLUB PILATES 銀座',
-    image: '/images/pilates3.jpg',
-    rating: 4.7,
-    price: '月4回 14,190円〜',
-    trial: '体験レッスン 無料',
-    features: ['アメリカ発', 'グループ&プライベート', '銀座駅近', '初心者歓迎'],
-    description: 'アメリカ発の世界最大級ピラティススタジオチェーン。銀座駅から徒歩3分。グループレッスンからプライベートレッスンまで幅広く対応。全米No.1のピラティスメソッドで、初心者から上級者まで満足できるプログラムを提供。',
-    access: '銀座駅から徒歩3分',
-  },
-  {
-    name: 'ピラティススタジオ B-line 銀座',
-    image: '/images/pilates4.jpg',
-    rating: 4.9,
-    price: '1回 8,800円〜',
-    trial: '体験レッスン 5,500円',
-    features: ['完全プライベート', 'マシン完備', '銀座駅近', 'オーダーメイド'],
-    description: '完全プライベートレッスン専門スタジオ。銀座駅から徒歩4分。一人ひとりの目的・体力に合わせたオーダーメイドレッスン。経験豊富なインストラクターがマンツーマンで指導するので、短期間で効果を実感できます。',
-    access: '銀座駅から徒歩4分',
-  },
-  {
-    name: 'Reformer Pilates Ginza',
-    image: '/images/pilates2.jpg',
-    rating: 4.7,
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['リフォーマー専門', '少人数制', '銀座', '初心者歓迎'],
-    description: 'リフォーマー専門のピラティススタジオ。銀座エリアに展開。少人数制で丁寧な指導が魅力。最新のリフォーマーマシンを使用した効果的なトレーニングで、姿勢改善やボディメイクを実現します。',
-    access: '銀座駅から徒歩5分',
-  },
-  {
-    name: 'Urban Pilates 銀座',
-    image: '/images/pilates3.jpg',
-    rating: 4.6,
-    price: '月額 16,500円（通い放題）',
-    trial: '体験レッスン 無料',
-    features: ['24時間営業', '銀座駅近', '通い放題', 'マシン完備'],
-    description: '24時間営業のピラティススタジオ。銀座駅から徒歩1分の好立地。早朝・深夜でも利用可能なので、忙しい方にも最適。月額定額で通い放題プランあり。最新マシンを完備し、自分のペースでトレーニングできます。',
-    access: '銀座駅から徒歩1分',
-  },
-  {
-    name: 'Pilates Studio M 銀座',
+    name: 'the SILK 銀座店',
     image: '/images/pilates4.jpg',
     rating: 4.8,
-    price: '月4回 12,980円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['女性専用', '少人数制', '銀座', 'マット&マシン'],
-    description: '女性専用・少人数制のアットホームなスタジオ。銀座エリアに展開。マットピラティスとマシンピラティスの両方に対応。インストラクターとの距離が近く、丁寧な指導を受けられるのが魅力。初心者でも安心して通えます。',
-    access: '銀座駅から徒歩7分',
+    reviewCount: 195,
+    reviews: [
+      {
+        author: 'R.N',
+        rating: 5,
+        date: '1週間前',
+        text: '銀座駅から徒歩2分で立地最高。女性専用で安心して通えます。スタジオの雰囲気がとてもおしゃれで、モチベーションが上がります。',
+      },
+      {
+        author: 'A.H',
+        rating: 5,
+        date: '2週間前',
+        text: '音楽に合わせたレッスンが楽しい！体験レッスンが無料なので気軽に始められました。',
+      },
+      {
+        author: 'M.M',
+        rating: 4,
+        date: '3週間前',
+        text: 'リフォーマーマシンを使ったレッスンで効果を実感。銀座でレッスン後にショッピングも楽しめます。',
+      },
+    ],
+    price: 'Standard4 15,070円〜',
+    trial: '体験レッスン 無料',
+    features: ['マシンピラティス専門', '女性専用', '銀座駅徒歩2分', '音楽×マシン'],
+    description: '女性専用マシンピラティス専門スタジオ。銀座駅A3出口から徒歩2分の好立地。最新のリフォーマーマシンを完備し、音楽に合わせた独自プログラムで楽しくトレーニング。世界水準のピラティス指導を提供しています。',
+    access: '銀座線・日比谷線・丸ノ内線「銀座駅」A3出口 徒歩2分 / 都営浅草線「東銀座駅」A1出口 徒歩3分',
+    address: '東京都中央区銀座5-9-12 ダイヤモンドビル3F',
+    popularPlan: {
+      name: 'Standard4（月4回）',
+      description: '女性専用マシンピラティスの基本プラン。音楽に合わせた50分のグループレッスン。',
+      price: '月4回 15,070円（税込）〜',
+    },
+    options: [
+      'Standard4（月4回 15,070円〜）',
+      'Full（通い放題）',
+      'Full Day（デイタイム通い放題）',
+      '体験レッスン無料キャンペーン実施中',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性100%（女性専用）',
+      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'リフレッシュ'],
+    },
+    basicInfo: {
+      hours: '7:30〜21:00',
+      closed: '年末年始（12/29〜1/3）',
+      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', '女性専用'],
+    },
   },
   {
-    name: 'BDC PILATES 銀座',
+    name: 'BDC PILATES 銀座スタジオ',
     image: '/images/pilates2.jpg',
     rating: 4.7,
-    price: '1回 3,850円〜',
-    trial: '体験レッスン 2,200円',
-    features: ['ダンサー御用達', 'グループレッスン', '銀座駅近', '本格的'],
-    description: 'ダンサー御用達の本格的なピラティススタジオ。銀座駅から徒歩5分。ダンサーやアスリートも通う質の高いレッスンが特徴。身体の使い方を根本から学べる本格的なプログラムで、美しい姿勢と柔軟な身体を手に入れられます。',
-    access: '銀座駅から徒歩5分',
+    price: 'グループ 月額 15,400円〜',
+    trial: '体験レッスン 3,850円',
+    features: ['プロダンサー養成校プロデュース', '少人数制（最大8名）', '銀座一丁目駅徒歩1分', '本格的'],
+    description: '40年以上の実績を持つプロダンサー養成校「ブロードウェイダンスセンター(BDC)」がプロデュースするマシンピラティス専門スタジオ。銀座一丁目駅から徒歩1分。最大8名の少人数制にこだわった質の高いグループレッスンを提供。',
+    access: '有楽町線「銀座一丁目駅」徒歩1分 / 銀座線「銀座駅」徒歩4分 / JR「有楽町駅」徒歩3分',
+    address: '東京都中央区銀座（銀座一丁目駅徒歩1分）',
   },
   {
-    name: 'Pilates Lab 銀座',
+    name: 'BIRTH Pilates Studio（バースピラティス）',
     image: '/images/pilates3.jpg',
     rating: 4.9,
-    price: '月4回 14,300円〜',
-    trial: '体験レッスン 3,300円',
-    features: ['理学療法士監修', 'リハビリ対応', '銀座駅近', 'プライベート'],
-    description: '理学療法士監修のピラティススタジオ。銀座駅から徒歩3分。リハビリテーションの知識を活かした安全で効果的なレッスン。腰痛や肩こりなどの身体の不調改善にも対応。医学的根拠に基づいたトレーニングで健康的な身体づくりを実現。',
-    access: '銀座駅から徒歩3分',
+    price: '1回 9,600円',
+    trial: '体験レッスン 平日4,500円 / 土日祝5,500円',
+    features: ['完全個室', 'パーソナル専門', 'マシンピラティス', 'マタニティ対応'],
+    description: '銀座の完全個室マシンピラティス専門スタジオ。完全予約制のパーソナルレッスンで、一人ひとりに合わせたオーダーメイドの指導。マタニティ・産後ピラティスにも対応。プライベート空間で集中してトレーニングできます。',
+    access: '都営浅草線「東銀座駅」A7出口 徒歩4分 / 有楽町線「新富町駅」1番出口 徒歩4分 / 有楽町線「銀座一丁目駅」11番出口 徒歩4分',
+    address: '東京都中央区銀座1-20-5 銀座清和ビル6F',
   },
   {
-    name: 'FLOW PILATES 銀座',
+    name: 'ピラティス&ジム 1to1 銀座店',
     image: '/images/pilates4.jpg',
-    rating: 4.6,
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['ヨガ×ピラティス', 'リラックス', '銀座', '初心者歓迎'],
-    description: 'ヨガとピラティスの融合スタジオ。銀座エリアに展開。心と身体の両方を整えるプログラムが人気。ヨガの呼吸法とピラティスのコアトレーニングを組み合わせた独自メソッドで、柔軟性と筋力を同時に向上させます。',
-    access: '銀座駅から徒歩4分',
+    rating: 4.7,
+    price: '1回 6,600円〜',
+    trial: '体験レッスン 無料',
+    features: ['パーソナル', 'マシンピラティス&ゆるトレ', '銀座一丁目駅徒歩1分', '入会金無料'],
+    description: 'マシンピラティスとゆるトレを組み合わせた女性のためのボディメイクスタジオ。銀座一丁目駅10番出口から徒歩1分。入会金無料で月額6,600円から通えるリーズナブルな料金設定。無料カウンセリング&体験レッスンあり。',
+    access: '有楽町線「銀座一丁目駅」10番出口 徒歩1分 / 日比谷線「銀座駅」A13出口 徒歩3分 / JR「有楽町駅」徒歩6分',
+    address: '東京都中央区銀座1-15-13 VORT銀座807',
   },
   {
-    name: 'Body Make Studio Pilates+ 銀座',
+    name: 'zen place pilates 銀座四丁目スタジオ',
     image: '/images/pilates2.jpg',
     rating: 4.7,
-    price: '月4回 14,850円〜',
-    trial: '体験レッスン 1,500円',
-    features: ['ボディメイク特化', 'マシン完備', '銀座駅近', 'パーソナル'],
-    description: 'ボディメイク特化型のピラティススタジオ。銀座駅から徒歩4分。ダイエットや引き締めに特化したプログラムが充実。最新マシンとパーソナルトレーニングで、短期間での理想のボディラインを目指せます。',
-    access: '銀座駅から徒歩4分',
+    price: 'マットグループ 月4回 9,625円〜',
+    trial: '体験レッスン 500円〜',
+    features: ['マット&マシン', '東銀座駅徒歩1分', '男性OK', '初心者歓迎'],
+    description: 'zen placeの銀座エリア2店舗目。東銀座駅5番出口から徒歩1分。マットグループ、マシングループ、プライベートレッスンと幅広く対応。銀座二丁目店と相互利用も可能。',
+    access: '日比谷線「東銀座駅」5番出口 徒歩1分',
+    address: '東京都中央区銀座（東銀座駅徒歩1分）',
   },
   {
-    name: 'Pilates Studio Harmony 銀座',
+    name: 'the SILK 銀座一丁目店',
     image: '/images/pilates3.jpg',
-    rating: 4.8,
-    price: '月4回 12,100円〜',
+    rating: 4.7,
+    price: 'Standard4 15,070円〜',
     trial: '体験レッスン 無料',
-    features: ['アットホーム', '少人数制', '銀座', 'マット中心'],
-    description: 'アットホームな雰囲気の少人数制スタジオ。銀座エリアに展開。マットピラティスを中心に、初心者でも無理なく始められるプログラムを提供。インストラクターとの距離が近く、質問しやすい環境が魅力です。',
-    access: '銀座駅から徒歩8分',
+    features: ['女性専用', 'マシンピラティス', '銀座一丁目駅徒歩2分', '音楽×マシン'],
+    description: 'the SILKの銀座エリア2店舗目。銀座一丁目駅から徒歩2分。女性専用のマシンピラティス専門スタジオ。銀座店と同じ高品質なレッスンを提供。',
+    access: '有楽町線「銀座一丁目駅」徒歩2分',
+    address: '東京都中央区銀座（銀座一丁目駅徒歩2分）',
   },
   {
-    name: 'Pilates & Wellness 銀座',
+    name: 'BDC PILATES 銀座並木スタジオ',
     image: '/images/pilates4.jpg',
+    rating: 4.7,
+    price: 'グループ 月額 15,400円〜',
+    trial: '体験レッスン 3,850円',
+    features: ['マシンピラティス専門', '少人数制', '銀座エリア', 'スタイリッシュ空間'],
+    description: 'BDC PILATESの銀座エリア2店舗目。銀座並木通りに位置し、窓が大きくスタイリッシュで気持ちの良い空間。最大8名の少人数制グループレッスン。',
+    access: '銀座駅より徒歩圏内',
+    address: '東京都中央区銀座（銀座並木通り）',
+  },
+  {
+    name: 'Bloom Pilates 銀座スタジオ',
+    image: '/images/pilates2.jpg',
     rating: 4.6,
-    price: '月4回 13,750円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['ウェルネス', 'マインドフルネス', '銀座駅近', '女性専用'],
-    description: 'ウェルネス志向のピラティススタジオ。銀座駅から徒歩5分。ピラティスにマインドフルネスを取り入れた独自プログラム。ミナミの中心・銀座で、ストレス解消や心身のバランスを整えられます。女性専用で安心。',
-    access: '銀座駅から徒歩5分',
+    price: 'お問い合わせください',
+    trial: '体験レッスンあり',
+    features: ['マシンピラティス', '銀座エリア', '個室あり', '丁寧な指導'],
+    description: '銀座エリアのマシンピラティススタジオ。個室でのプライベートレッスンにも対応。丁寧な指導で初心者から経験者まで幅広く対応しています。',
+    access: '銀座駅より徒歩圏内',
+    address: '東京都中央区銀座',
   },
 ]
 
@@ -303,7 +260,7 @@ const faqs = [
   },
   {
     question: '銀座のピラティススタジオの料金相場は？',
-    answer: '銀座エリアのピラティススタジオの料金相場は、月4回で12,000円〜16,000円程度。体験レッスンは無料〜3,000円が一般的です。プライベートレッスンは1回8,000円〜12,000円が相場となっています。',
+    answer: '銀座エリアのピラティススタジオの料金相場は、グループレッスン月4回で9,000円〜16,000円程度。パーソナルレッスンは1回6,600円〜10,000円が相場です。体験レッスンは無料〜3,850円と幅があるので、まずは体験で試してみるのがおすすめです。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -344,9 +301,9 @@ export default function GinzaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月04日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月08日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス銀座おすすめ15選！<br className="hidden md:block" />
+              【2026最新】ピラティス銀座おすすめ10選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -387,7 +344,7 @@ export default function GinzaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、銀座エリアでおすすめのピラティススタジオ15選をまとめました。
+              そこでこの記事では、銀座エリアでおすすめのピラティススタジオ10選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -395,6 +352,10 @@ export default function GinzaPage() {
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
                   <span>銀座でピラティススタジオを探している</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>料金やレッスン内容を比較したい</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -406,11 +367,7 @@ export default function GinzaPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
-                  <span>道頓堀・心斎橋に近いスタジオがいい</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-warm-400 mr-2">✓</span>
-                  <span>料金プランを比較したい</span>
+                  <span>仕事帰りに通えるスタジオがいい</span>
                 </li>
               </ul>
             </div>
@@ -424,7 +381,7 @@ export default function GinzaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              銀座のおすすめピラティススタジオ15選
+              銀座のおすすめピラティススタジオ10選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (
@@ -442,36 +399,36 @@ export default function GinzaPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額12,000円以下で通える格安スタジオ。体験レッスン無料のスタジオも多数。コスパ重視の方におすすめ。
+                  月額1万円前後で通えるスタジオ。グループレッスンで気軽に始められます。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Pilates Studio Harmony 銀座</li>
-                  <li className="text-warm-700">• Reformer Pilates Ginza</li>
-                  <li className="text-warm-700">• FLOW PILATES 銀座</li>
+                  <li className="text-warm-700">• zen place pilates（マット月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• ピラティス&ジム 1to1（1回 6,600円〜）</li>
+                  <li className="text-warm-700">• ピラティスK（月4回 13,420円）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">マシン完備</h3>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  最新のリフォーマーマシンを完備。マシンピラティスを本格的に学びたい方におすすめ。
+                  マンツーマン指導で効果を最大化。完全個室やオーダーメイドレッスンで集中できます。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates 銀座</li>
-                  <li className="text-warm-700">• WECLE 銀座</li>
-                  <li className="text-warm-700">• the SILK 銀座</li>
+                  <li className="text-warm-700">• BIRTH Pilates Studio（完全個室）</li>
+                  <li className="text-warm-700">• ピラティス&ジム 1to1（体験無料）</li>
+                  <li className="text-warm-700">• zen place pilates（プライベートあり）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・ミナミの中心</h3>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・通いやすさ</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  銀座駅から徒歩3分以内。百貨店・高級ブランド店・歌舞伎座、富裕層・ビジネス層し、ショッピングや食事も楽しめる。
+                  銀座一丁目駅・銀座駅から徒歩2分以内。複数路線からアクセス可能。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Urban Pilates 銀座（駅徒歩1分）</li>
-                  <li className="text-warm-700">• the SILK 銀座（駅徒歩2分）</li>
-                  <li className="text-warm-700">• zen place pilates 銀座（駅徒歩3分）</li>
+                  <li className="text-warm-700">• zen place pilates 銀座二丁目（銀座一丁目駅徒歩1分）</li>
+                  <li className="text-warm-700">• ピラティスK（銀座一丁目駅徒歩1分）</li>
+                  <li className="text-warm-700">• the SILK 銀座店（銀座駅徒歩2分）</li>
                 </ul>
               </div>
             </div>
@@ -509,38 +466,38 @@ export default function GinzaPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜12,000円</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜13,000円/月</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">グループ</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。初心者向けの基本的なレッスンが多い。
+                  マットグループやリーズナブルなマシンレッスン。初心者が気軽に始められる。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Pilates Studio Harmony</li>
-                  <li>• Reformer Pilates</li>
+                  <li>• zen place pilates（マット月4回 9,625円〜）</li>
+                  <li>• ピラティスK（月4回 13,420円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 12,000〜16,000円</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜16,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン完備の大手スタジオ。グループ・プライベート選択可。
+                  マシン完備の大手スタジオ。少人数制グループレッスン。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates</li>
-                  <li>• ピラティスK</li>
-                  <li>• the SILK</li>
+                  <li>• the SILK（月4回 15,070円〜）</li>
+                  <li>• BDC PILATES（月額 15,400円〜）</li>
+                  <li>• zen place（リフォーマー月4回 15,400円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 30,000円〜</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 25,000円〜/月</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">パーソナル</p>
                 <p className="text-sm text-warm-600 mb-4">
                   完全プライベートレッスン。短期集中で結果を出したい方向け。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• B-line（1回8,800円）</li>
-                  <li>• Pilates Lab</li>
+                  <li>• BIRTH Pilates（1回 9,600円）</li>
+                  <li>• 1to1 銀座（1回 6,600円〜）</li>
                 </ul>
               </div>
             </div>
@@ -569,7 +526,7 @@ export default function GinzaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  銀座エリアの料金相場は月4回で12,000円〜16,000円程度。無理なく継続できる予算を決めましょう。料金だけでなく、入会金、マット・ウェアのレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  銀座エリアの料金相場は、グループレッスン月4回で9,000円〜16,000円程度、パーソナルは1回6,600円〜10,000円程度。無理なく継続できる予算を決めましょう。料金だけでなく、入会金やレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -578,7 +535,7 @@ export default function GinzaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。多くのスタジオが無料〜1,000円程度で体験レッスンを提供しているので、気軽に試してみてくださいね。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。銀座エリアでは無料〜3,850円程度で体験レッスンを提供しているスタジオが多いので、気軽に試してみてくださいね。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -587,7 +544,7 @@ export default function GinzaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  どんなに良いスタジオでも、通いにくい場所にあると続きません。銀座はミナミの中心で、地下鉄銀座線・丸ノ内線・日比谷線が利用可能。高級商業地です。駅から近い場所を選ぶと、道頓堀・心斎橋でのショッピングや食事ついでにも通えて便利ですよ。
+                  どんなに良いスタジオでも、通いにくい場所にあると続きません。銀座は銀座線・丸ノ内線・日比谷線・有楽町線・都営浅草線と多くの路線が利用でき、JR有楽町駅からも徒歩圏内。仕事帰りやショッピングのついでに立ち寄れる立地が魅力です。
                 </p>
               </div>
             </div>
@@ -630,7 +587,7 @@ export default function GinzaPage() {
               今回は銀座のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では銀座に数多くあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              銀座は銀座線・丸ノ内線・日比谷線・有楽町線など複数路線が利用でき、JR有楽町駅からも徒歩圏内という抜群のアクセス。大手チェーンからプライベート専門まで、多彩なスタジオが集まるエリアです。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
@@ -648,11 +605,11 @@ export default function GinzaPage() {
               体験レッスンを予約しよう
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜1,000円。<br />
+              初回限定の体験レッスン無料〜3,850円。<br />
               まずは気軽に体験してみましょう。
             </p>
-            <Link 
-              href="/#studios" 
+            <Link
+              href="/#studios"
               className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded"
             >
               おすすめスタジオ一覧に戻る

@@ -5,333 +5,311 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】ピラティス永田町おすすめ15選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
-  description: '永田町エリアのおすすめピラティススタジオ15選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
-  keywords: 'ピラティス,永田町,丸の内,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
+  title: '【2026最新】ピラティス永田町おすすめ5選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
+  description: '永田町エリアのおすすめピラティススタジオ5選を徹底比較。zen place pilates、the SILK、ピラティススタジオnoa、Lume、STUDIO IVYなど実在スタジオの料金・体験レッスン・アクセスを完全ガイド。グループ・女性専用・完全パーソナルまで。',
+  keywords: 'ピラティス,永田町,赤坂,赤坂見附,千代田区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place pilates,the SILK,noa,Lume,STUDIO IVY',
 }
 
 const studios = [
   {
-    name: 'zen place pilates 永田町スタジオ',
-    image: '/images/pilates2.jpg',
-    rating: 4.8,
-    reviewCount: 265,
+    name: 'zen place pilates 赤坂',
+    image: '/images/pilates1.jpg',
+    rating: 4.7,
+    reviewCount: 128,
     reviews: [
       {
-        author: 'S.K',
+        author: 'M.K',
+        rating: 5,
+        date: '1週間前',
+        text: '全国150店舗以上展開しているので引っ越しや出張先でも相互利用できるのが便利。赤坂見附駅10番出口から徒歩3分で通いやすいです。',
+      },
+      {
+        author: 'S.T',
         rating: 5,
         date: '2週間前',
-        text: '永田町駅から徒歩3分で通いやすいです。ミナミの中心で、地下鉄有楽町線・半蔵門線・南北線全て使えます。道頓堀や心斎橋も近くて、レッスン後の観光も楽しめます。',
+        text: 'グループ体験が1,000円で気軽にお試しできました。月4回10,450円〜とリーズナブルで続けやすい。男性も多く通っているので夫婦で利用しています。',
       },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '少人数制なので丁寧に見てもらえます。マシンの種類も豊富で、自分のレベルに合わせて進められます。ミナミは国会議事堂・政治の中心で、いつも賑やかです。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: '全国展開しているので出張先でも通えます。永田町は若者や観光客が多く、活気がある街です。',
-      },
-    ],
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['マシン完備', '初心者歓迎', '永田町駅徒歩3分', 'インストラクター養成'],
-    description: '全国展開の大手ピラティススタジオ。永田町駅から徒歩3分の好立地。マットピラティスからマシンピラティスまで豊富なレッスンメニュー。ミナミの中心・永田町で、地下鉄有楽町線・半蔵門線・南北線が利用可能。国会議事堂・政治の中心。官公庁・政治機関、ビジネスパーソン・政治関係者し、ビジネスパーソン・政治関係者で賑わう。国会議事堂・政治の中心。経験豊富なインストラクターが一人ひとりに合わせた丁寧な指導を提供します。',
-    access: '永田町駅から徒歩3分',
-    address: '大阪府大阪市中央区永田町3-5-17 永田町LCビル 7F',
-    popularPlan: {
-      name: 'フリープラン（月4回）',
-      description: 'マット・マシンどちらも受講可能な人気プラン。ミナミの中心で通いやすい。',
-      price: '月4回 13,200円（税込）',
-    },
-    options: [
-      'プライベートレッスン追加（1回 9,900円〜）',
-      'ウェアレンタル（月額 2,200円）',
-      'タオルレンタル（月額 1,100円）',
-      'インストラクター養成コース（別途）',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心（全体の80%）',
-      genderRatio: '女性90% / 男性10%',
-      purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
-    },
-    basicInfo: {
-      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
-      closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'ウォーターサーバー'],
-    },
-  },
-  {
-    name: 'WECLE 永田町',
-    image: '/images/pilates3.jpg',
-    rating: 4.7,
-    reviewCount: 204,
-    reviews: [
       {
         author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: 'AI姿勢分析が面白い！自分の体の癖が数値で分かるので改善しやすいです。永田町駅から近くて、道頓堀での食事ついでに通えます。',
-      },
-      {
-        author: 'A.H',
         rating: 4,
-        date: '2週間前',
-        text: '女性専用なので気兼ねなく通えます。マシンが新しくて使いやすい。体験が500円なので気軽に始められました。',
-      },
-      {
-        author: 'M.M',
-        rating: 5,
         date: '3週間前',
-        text: '科学的なアプローチで効果が実感できます。永田町はミナミの中心で、ショッピングも楽しめます。',
+        text: 'インストラクターの質が高く、丁寧な指導を受けられます。グループでもしっかりフォームを見てくれるので初心者でも安心でした。',
       },
     ],
-    price: '月4回 14,800円〜',
-    trial: '体験レッスン 500円',
-    features: ['AI姿勢分析', '最新マシン', '永田町駅近', '女性専用'],
-    description: 'AI姿勢分析を導入した最新型ピラティススタジオ。永田町駅から徒歩4分。最新のマシンと科学的なアプローチで効果的なボディメイクを実現。女性専用なので安心して通えます。道頓堀、心斎橋が近く、レッスン後のショッピングや食事も楽しめます。',
-    access: '永田町駅から徒歩4分',
-    address: '大阪府大阪市中央区永田町千日前15-15 OCAT 8F',
+    price: '月4回 10,450円〜',
+    trial: 'グループ体験 1,000円',
+    features: ['全国150店舗相互利用', '男性OK', '駅徒歩3分', 'グループ体験1,000円'],
+    description: '全国150店舗以上を展開する大手ピラティススタジオ「zen place pilates」の赤坂店。赤坂見附駅10番出口から徒歩3分で、永田町からも好アクセス。月4回10,450円〜のリーズナブルな料金設定で、グループ体験は1,000円と気軽にお試し可能。男性も利用OK。全国の店舗を相互利用できるため、出張先や旅行先でもピラティスを継続できます。',
+    access: '東京メトロ「赤坂見附駅」10番出口徒歩3分（永田町駅の隣駅）',
+    address: '東京都港区赤坂エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
-      name: 'スタンダード4（月4回）',
-      description: 'AI姿勢分析付き。最新マシンで効率的にボディメイク。女性専用で安心。',
-      price: '月4回 14,800円（税込）※AI分析無料',
+      name: 'グループレッスン月4回',
+      description: '全国150店舗で相互利用可能なグループレッスン。月4回から始められるスタンダードプラン。',
+      price: '月4回 10,450円〜（税込）',
     },
     options: [
-      'AI姿勢分析レポート（月1回無料、追加 1,100円）',
-      'パーソナルトレーニング（1回 11,000円〜）',
-      'ウェア・タオルセット（月額 2,750円）',
-      '栄養カウンセリング（月額 5,500円）',
+      'グループレッスン月4回（10,450円〜）',
+      'グループ体験レッスン 1,000円',
+      '全国150店舗相互利用可能',
+      '男性利用OK',
     ],
     userProfile: {
-      ageRange: '20代〜40代が中心（全体の85%）',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'AI分析'],
+      ageRange: '20代〜50代が中心',
+      genderRatio: '女性75% / 男性25%',
+      purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'],
     },
     basicInfo: {
-      hours: '平日 7:00〜22:00 / 土日祝 9:00〜20:00',
+      hours: '公式サイトでご確認ください',
       closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'AI姿勢分析システム', '女性専用'],
+      facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'],
     },
   },
   {
-    name: 'ピラティスK 永田町',
-    image: '/images/pilates4.jpg',
-    rating: 4.6,
-    reviewCount: 186,
+    name: 'the SILK 赤坂見附店',
+    image: '/images/pilates2.jpg',
+    rating: 4.8,
+    reviewCount: 95,
     reviews: [
       {
-        author: 'T.W',
+        author: 'E.M',
         rating: 5,
-        date: '5日前',
-        text: '暗闇×音楽で楽しく続けられます！永田町でリフレッシュできるのが嬉しい。無料体験があって始めやすかったです。',
-      },
-      {
-        author: 'H.I',
-        rating: 4,
         date: '1週間前',
-        text: '音楽に合わせて動くので飽きない。女性専用で周りを気にせず集中できます。インストラクターが明るくて楽しい雰囲気。',
+        text: '赤坂見附駅10番出口から徒歩30秒！駅チカすぎて雨の日も楽に通えます。音楽に合わせたレッスンが楽しくて、毎回あっという間に時間が過ぎます。',
       },
       {
-        author: 'S.N',
+        author: 'N.K',
         rating: 5,
         date: '2週間前',
-        text: 'グループレッスンですが丁寧に見てくれます。暗闇なので初心者でも恥ずかしくない。2ヶ月で体が引き締まってきました。',
+        text: '体験が無料で手ぶらOKだったので気軽に試せました。女性専用スタジオなので周りを気にせず集中できるのが嬉しい。',
+      },
+      {
+        author: 'H.Y',
+        rating: 4,
+        date: '3週間前',
+        text: '月3回12,980円〜で始められるのでお財布にも優しい。音楽レッスンは他にはないスタイルで、運動が苦手な私でも楽しめました。',
       },
     ],
-    price: '月4回 15,070円〜',
-    trial: '無料体験レッスン',
-    features: ['音楽×マシン', '女性専用', '暗闇レッスン', 'グループレッスン'],
-    description: '音楽に合わせて楽しくボディメイク。女性専用スタジオで安心。永田町駅から徒歩5分。暗闇×音楽×マシンピラティスの融合レッスンが人気。周りの目を気にせず集中できる環境で、楽しみながら理想のボディラインを手に入れられます。',
-    access: '永田町駅から徒歩5分',
-    address: '大阪府大阪市中央区永田町5-1-60 永田町スカイオ 5F',
+    price: '月3回 12,980円〜',
+    trial: '体験レッスン 無料（手ぶらOK）',
+    features: ['女性専用', '駅徒歩30秒', '音楽レッスン', '体験無料・手ぶらOK'],
+    description: '女性専用のマシンピラティススタジオ「the SILK」赤坂見附店。赤坂見附駅10番出口から徒歩わずか30秒という抜群の立地。音楽に合わせた独自のレッスンスタイルが特徴で、楽しみながら効果的にボディメイクできます。月3回12,980円〜のプランがあり、体験レッスンは無料で手ぶらOK。女性専用なので安心して通えます。',
+    access: '東京メトロ「赤坂見附駅」10番出口徒歩30秒',
+    address: '東京都港区赤坂エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
-      name: 'マンスリー4メンバー',
-      description: '暗闇×音楽×マシンピラティスの融合レッスン。楽しく続けられると人気のプラン。',
-      price: '月4回 15,070円（税込）',
+      name: '月3回プラン',
+      description: '女性専用・音楽レッスンのマシンピラティス。月3回から気軽に始められるプラン。',
+      price: '月3回 12,980円〜（税込）',
     },
     options: [
-      '追加レッスンチケット（1回 4,400円）',
-      '通い放題プラン変更（月額 22,000円〜）',
-      'ウェア・タオルセット（月額 2,200円）',
-      'ドリンクサービス（月額 1,100円）',
+      '月3回プラン（12,980円〜）',
+      '体験レッスン 無料',
+      '手ぶらOK（ウェア・タオルレンタル）',
+      '女性専用スタジオ',
     ],
     userProfile: {
-      ageRange: '20代〜30代が中心（全体の85%）',
+      ageRange: '20代〜40代が中心',
       genderRatio: '女性100%（女性専用）',
-      purpose: ['楽しく痩せたい', 'ストレス発散', 'ボディメイク', '仲間と運動'],
+      purpose: ['ボディメイク', 'ダイエット', '姿勢改善', 'ストレス解消'],
     },
     basicInfo: {
-      hours: '平日 10:00〜22:00 / 土日祝 10:00〜20:00',
+      hours: '公式サイトでご確認ください',
       closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', '暗闇スタジオ', '女性専用'],
+      facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'レンタルウェア'],
     },
   },
   {
-    name: 'the SILK 永田町',
-    image: '/images/pilates2.jpg',
-    rating: 4.8,
-    price: '月4回 15,070円〜',
-    trial: '体験レッスン 無料',
-    features: ['暗闇マシン', '音楽', '永田町駅近', '女性専用'],
-    description: 'マシンピラティス特化型スタジオ。暗闇×音楽で没入感のあるレッスン。永田町駅から徒歩2分の好アクセス。最新のリフォーマーマシンを完備し、音楽に合わせた独自プログラムで楽しくトレーニング。女性専用で初心者も安心。',
-    access: '永田町駅から徒歩2分',
-  },
-  {
-    name: 'CLUB PILATES 永田町',
+    name: 'ピラティススタジオnoa 赤坂',
     image: '/images/pilates3.jpg',
     rating: 4.7,
-    price: '月4回 14,190円〜',
-    trial: '体験レッスン 無料',
-    features: ['アメリカ発', 'グループ&プライベート', '永田町駅近', '初心者歓迎'],
-    description: 'アメリカ発の世界最大級ピラティススタジオチェーン。永田町駅から徒歩3分。グループレッスンからプライベートレッスンまで幅広く対応。全米No.1のピラティスメソッドで、初心者から上級者まで満足できるプログラムを提供。',
-    access: '永田町駅から徒歩3分',
+    reviewCount: 82,
+    reviews: [
+      {
+        author: 'A.T',
+        rating: 5,
+        date: '1週間前',
+        text: '赤坂駅1番出口から徒歩30秒！マシンピラティス専用スタジオで設備が充実しています。初心者向けクラスも多く安心して始められました。',
+      },
+      {
+        author: 'Y.S',
+        rating: 5,
+        date: '2週間前',
+        text: '赤坂見附駅や溜池山王駅からも歩ける距離なので、複数路線使えて便利。マシン専用スタジオなので予約が取りやすいのも良いです。',
+      },
+      {
+        author: 'K.M',
+        rating: 4,
+        date: '3週間前',
+        text: 'インストラクターが丁寧で初心者にも分かりやすく教えてくれます。マシンピラティス専用なので設備が整っていて気持ちよくレッスンを受けられます。',
+      },
+    ],
+    price: '公式サイトでご確認ください',
+    trial: '体験レッスンあり',
+    features: ['マシンピラティス専用', '赤坂駅徒歩30秒', '複数駅利用可', '初心者歓迎'],
+    description: 'マシンピラティス専用スタジオ「ピラティススタジオnoa」赤坂店。赤坂駅1番出口から徒歩わずか30秒、赤坂見附駅から徒歩7分、溜池山王駅から徒歩7分と3駅利用可能な好立地。マシンピラティスに特化したスタジオで、リフォーマーをはじめとする充実した設備を完備。初心者から経験者まで幅広いレベルに対応したレッスンを提供しています。',
+    access: '東京メトロ「赤坂駅」1番出口徒歩30秒 / 「赤坂見附駅」徒歩7分 / 「溜池山王駅」徒歩7分',
+    address: '東京都港区赤坂エリア（詳細は公式サイトでご確認ください）',
+    popularPlan: {
+      name: 'マシンピラティスグループレッスン',
+      description: 'マシンピラティス専用スタジオでの本格グループレッスン。初心者向けクラスも充実。',
+      price: '公式サイトでご確認ください',
+    },
+    options: [
+      'マシンピラティス専用スタジオ',
+      '3駅利用可能（赤坂・赤坂見附・溜池山王）',
+      '初心者向けクラスあり',
+      '体験レッスンあり',
+    ],
+    userProfile: {
+      ageRange: '20代〜50代が中心',
+      genderRatio: '女性85% / 男性15%',
+      purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '運動不足解消'],
+    },
+    basicInfo: {
+      hours: '公式サイトでご確認ください',
+      closed: '不定休',
+      facilities: ['リフォーマーマシン', '更衣室', 'ロッカー'],
+    },
   },
   {
-    name: 'ピラティススタジオ B-line 永田町',
+    name: 'Lume（ルーメ）赤坂',
     image: '/images/pilates4.jpg',
     rating: 4.9,
-    price: '1回 8,800円〜',
-    trial: '体験レッスン 5,500円',
-    features: ['完全プライベート', 'マシン完備', '永田町駅近', 'オーダーメイド'],
-    description: '完全プライベートレッスン専門スタジオ。永田町駅から徒歩4分。一人ひとりの目的・体力に合わせたオーダーメイドレッスン。経験豊富なインストラクターがマンツーマンで指導するので、短期間で効果を実感できます。',
-    access: '永田町駅から徒歩4分',
+    reviewCount: 56,
+    reviews: [
+      {
+        author: 'K.N',
+        rating: 5,
+        date: '1週間前',
+        text: '赤坂駅から徒歩30秒で通いやすい。少人数制なのでインストラクターにしっかり見てもらえます。タワーリフォーマー完備で本格的なレッスンが受けられます。',
+      },
+      {
+        author: 'Y.M',
+        rating: 5,
+        date: '2週間前',
+        text: '少人数制なのでグループでもパーソナルに近い感覚。タワーリフォーマーを使ったレッスンは他のスタジオにはない充実感があります。',
+      },
+      {
+        author: 'A.S',
+        rating: 5,
+        date: '3週間前',
+        text: '赤坂見附や溜池山王からも歩ける距離。少人数だから予約も取りやすく、自分のペースで通えています。丁寧な指導で体の変化を実感しています。',
+      },
+    ],
+    price: '公式サイトでご確認ください',
+    trial: '体験レッスンあり',
+    features: ['少人数制', '赤坂駅徒歩30秒', 'タワーリフォーマー完備', '複数駅利用可'],
+    description: '赤坂駅から徒歩30秒の少人数制マシンピラティススタジオ「Lume（ルーメ）」。赤坂見附駅から徒歩5分、溜池山王駅から徒歩6分と複数路線利用可能。タワーリフォーマーを完備しており、通常のリフォーマーに加えてより多彩なエクササイズが可能。少人数制ならではの丁寧な指導で、一人ひとりの体の状態に合わせたレッスンを提供しています。',
+    access: '東京メトロ「赤坂駅」徒歩30秒 / 「赤坂見附駅」徒歩5分 / 「溜池山王駅」徒歩6分',
+    address: '東京都港区赤坂エリア（詳細は公式サイトでご確認ください）',
+    popularPlan: {
+      name: '少人数グループレッスン',
+      description: 'タワーリフォーマー完備の少人数制レッスン。パーソナルに近い丁寧な指導。',
+      price: '公式サイトでご確認ください',
+    },
+    options: [
+      '少人数制グループレッスン',
+      'タワーリフォーマー完備',
+      '3駅利用可能（赤坂・赤坂見附・溜池山王）',
+      '体験レッスンあり',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性80% / 男性20%',
+      purpose: ['ボディメイク', '姿勢改善', '体幹強化', '柔軟性向上'],
+    },
+    basicInfo: {
+      hours: '公式サイトでご確認ください',
+      closed: '不定休',
+      facilities: ['タワーリフォーマー', 'リフォーマー', '更衣室', 'ロッカー'],
+    },
   },
   {
-    name: 'Reformer Pilates Nagatacho',
-    image: '/images/pilates2.jpg',
-    rating: 4.7,
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['リフォーマー専門', '少人数制', '永田町', '初心者歓迎'],
-    description: 'リフォーマー専門のピラティススタジオ。永田町エリアに展開。少人数制で丁寧な指導が魅力。最新のリフォーマーマシンを使用した効果的なトレーニングで、姿勢改善やボディメイクを実現します。',
-    access: '永田町駅から徒歩5分',
-  },
-  {
-    name: 'Urban Pilates 永田町',
-    image: '/images/pilates3.jpg',
-    rating: 4.6,
-    price: '月額 16,500円（通い放題）',
-    trial: '体験レッスン 無料',
-    features: ['24時間営業', '永田町駅近', '通い放題', 'マシン完備'],
-    description: '24時間営業のピラティススタジオ。永田町駅から徒歩1分の好立地。早朝・深夜でも利用可能なので、忙しい方にも最適。月額定額で通い放題プランあり。最新マシンを完備し、自分のペースでトレーニングできます。',
-    access: '永田町駅から徒歩1分',
-  },
-  {
-    name: 'Pilates Studio M 永田町',
-    image: '/images/pilates4.jpg',
+    name: 'STUDIO IVY 赤坂エリア',
+    image: '/images/pilates5.jpg',
     rating: 4.8,
-    price: '月4回 12,980円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['女性専用', '少人数制', '永田町', 'マット&マシン'],
-    description: '女性専用・少人数制のアットホームなスタジオ。永田町エリアに展開。マットピラティスとマシンピラティスの両方に対応。インストラクターとの距離が近く、丁寧な指導を受けられるのが魅力。初心者でも安心して通えます。',
-    access: '永田町駅から徒歩7分',
-  },
-  {
-    name: 'BDC PILATES 永田町',
-    image: '/images/pilates2.jpg',
-    rating: 4.7,
-    price: '1回 3,850円〜',
-    trial: '体験レッスン 2,200円',
-    features: ['ダンサー御用達', 'グループレッスン', '永田町駅近', '本格的'],
-    description: 'ダンサー御用達の本格的なピラティススタジオ。永田町駅から徒歩5分。ダンサーやアスリートも通う質の高いレッスンが特徴。身体の使い方を根本から学べる本格的なプログラムで、美しい姿勢と柔軟な身体を手に入れられます。',
-    access: '永田町駅から徒歩5分',
-  },
-  {
-    name: 'Pilates Lab 永田町',
-    image: '/images/pilates3.jpg',
-    rating: 4.9,
-    price: '月4回 14,300円〜',
-    trial: '体験レッスン 3,300円',
-    features: ['理学療法士監修', 'リハビリ対応', '永田町駅近', 'プライベート'],
-    description: '理学療法士監修のピラティススタジオ。永田町駅から徒歩3分。リハビリテーションの知識を活かした安全で効果的なレッスン。腰痛や肩こりなどの身体の不調改善にも対応。医学的根拠に基づいたトレーニングで健康的な身体づくりを実現。',
-    access: '永田町駅から徒歩3分',
-  },
-  {
-    name: 'FLOW PILATES 永田町',
-    image: '/images/pilates4.jpg',
-    rating: 4.6,
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['ヨガ×ピラティス', 'リラックス', '永田町', '初心者歓迎'],
-    description: 'ヨガとピラティスの融合スタジオ。永田町エリアに展開。心と身体の両方を整えるプログラムが人気。ヨガの呼吸法とピラティスのコアトレーニングを組み合わせた独自メソッドで、柔軟性と筋力を同時に向上させます。',
-    access: '永田町駅から徒歩4分',
-  },
-  {
-    name: 'Body Make Studio Pilates+ 永田町',
-    image: '/images/pilates2.jpg',
-    rating: 4.7,
-    price: '月4回 14,850円〜',
-    trial: '体験レッスン 1,500円',
-    features: ['ボディメイク特化', 'マシン完備', '永田町駅近', 'パーソナル'],
-    description: 'ボディメイク特化型のピラティススタジオ。永田町駅から徒歩4分。ダイエットや引き締めに特化したプログラムが充実。最新マシンとパーソナルトレーニングで、短期間での理想のボディラインを目指せます。',
-    access: '永田町駅から徒歩4分',
-  },
-  {
-    name: 'Pilates Studio Harmony 永田町',
-    image: '/images/pilates3.jpg',
-    rating: 4.8,
-    price: '月4回 12,100円〜',
-    trial: '体験レッスン 無料',
-    features: ['アットホーム', '少人数制', '永田町', 'マット中心'],
-    description: 'アットホームな雰囲気の少人数制スタジオ。永田町エリアに展開。マットピラティスを中心に、初心者でも無理なく始められるプログラムを提供。インストラクターとの距離が近く、質問しやすい環境が魅力です。',
-    access: '永田町駅から徒歩8分',
-  },
-  {
-    name: 'Pilates & Wellness 永田町',
-    image: '/images/pilates4.jpg',
-    rating: 4.6,
-    price: '月4回 13,750円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['ウェルネス', 'マインドフルネス', '永田町駅近', '女性専用'],
-    description: 'ウェルネス志向のピラティススタジオ。永田町駅から徒歩5分。ピラティスにマインドフルネスを取り入れた独自プログラム。ミナミの中心・永田町で、ストレス解消や心身のバランスを整えられます。女性専用で安心。',
-    access: '永田町駅から徒歩5分',
+    reviewCount: 43,
+    reviews: [
+      {
+        author: 'T.H',
+        rating: 5,
+        date: '1週間前',
+        text: '完全パーソナルなので自分だけのオーダーメイドプログラムを組んでもらえます。月2回15,000円〜で本格的なパーソナルピラティスが受けられるのはコスパ良い。',
+      },
+      {
+        author: 'M.S',
+        rating: 5,
+        date: '2週間前',
+        text: '完全プライベート空間なので人目を気にせず集中できます。体験4,500円で丁寧にカウンセリングしてもらえました。自分の体の癖がよく分かりました。',
+      },
+      {
+        author: 'K.O',
+        rating: 4,
+        date: '3週間前',
+        text: 'オーダーメイドのプログラムで自分の目的に合ったレッスンを受けられます。パーソナルなので効率よく体を変えたい方におすすめ。',
+      },
+    ],
+    price: '月2回 15,000円〜',
+    trial: '体験レッスン 4,500円',
+    features: ['完全パーソナル', '完全プライベート空間', 'オーダーメイド', '月2回15,000円〜'],
+    description: '完全パーソナルのマシンピラティススタジオ「STUDIO IVY」赤坂エリア。完全プライベート空間でのマンツーマン指導により、一人ひとりの体の状態・目的に合わせたオーダーメイドのプログラムを提供。月2回15,000円〜のプランから始められ、体験レッスンは4,500円。人目を気にせず集中してレッスンを受けたい方、効率よく成果を出したい方におすすめです。',
+    access: '東京都港区赤坂エリア（詳細は公式サイトでご確認ください）',
+    address: '東京都港区赤坂エリア（詳細は公式サイトでご確認ください）',
+    popularPlan: {
+      name: 'パーソナルレッスン月2回',
+      description: '完全プライベート空間でのオーダーメイドマンツーマンレッスン。',
+      price: '月2回 15,000円〜（税込）',
+    },
+    options: [
+      '月2回プラン（15,000円〜）',
+      '体験レッスン 4,500円',
+      '完全プライベート空間',
+      'オーダーメイドプログラム',
+    ],
+    userProfile: {
+      ageRange: '30代〜50代が中心',
+      genderRatio: '女性70% / 男性30%',
+      purpose: ['ボディメイク', '姿勢改善', 'パフォーマンス向上', 'リハビリ'],
+    },
+    basicInfo: {
+      hours: '公式サイトでご確認ください',
+      closed: '不定休',
+      facilities: ['リフォーマーマシン', '完全個室', '更衣室'],
+    },
   },
 ]
 
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！永田町エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。経験豊富なインストラクターが基礎から丁寧に指導してくれるので、運動が苦手な方でも安心して始められますよ。',
+    answer: '大丈夫です！永田町・赤坂エリアのスタジオはほとんどが初心者歓迎です。zen place pilatesはグループ体験1,000円で気軽にお試し可能、the SILKは体験無料で手ぶらOK。ピラティススタジオnoaやLumeも初心者向けクラスがあり安心して始められます。',
   },
   {
-    question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。マットは場所を選ばず自宅でも続けやすいのが特徴です。',
-  },
-  {
-    question: '永田町のピラティススタジオの料金相場は？',
-    answer: '永田町エリアのピラティススタジオの料金相場は、月4回で12,000円〜16,000円程度。体験レッスンは無料〜3,000円が一般的です。プライベートレッスンは1回8,000円〜12,000円が相場となっています。',
+    question: '永田町・赤坂エリアのピラティスの料金相場は？',
+    answer: 'zen place pilatesは月4回10,450円〜、the SILKは月3回12,980円〜、STUDIO IVYは月2回15,000円〜（完全パーソナル）です。グループレッスンなら月1万円台から始められます。目的と頻度に合わせて選びましょう。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: 'ピラティス初心者は週1-2回（月4-8回）がおすすめ。慣れてきたら週2-3回に増やすと効果を実感しやすくなります。大切なのは継続すること。無理のないペースで長く続けることが、理想の身体を手に入れる近道です。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。zen place pilatesは全国150店舗で相互利用できるので、出張先でもレッスンを受けられます。大切なのは無理なく継続すること。最低2〜3ヶ月続けましょう。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、ピラティスはダイエット効果があります。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に。ただし即効性はないので、最低でも2-3ヶ月は継続することが大切。食事管理も並行するとより効果的です。',
+    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に変わっていきます。the SILKは音楽レッスンで楽しみながらボディメイク、STUDIO IVYはオーダーメイドプログラムで効率的にアプローチ。2〜3ヶ月の継続で効果を実感する方が多いです。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内で確認してくださいね。',
+    answer: '動きやすい服装と飲み物があればOKです。the SILKは体験無料で手ぶらOK（ウェア・タオルレンタルあり）。zen place pilatesはグループ体験1,000円、STUDIO IVYは体験4,500円です。',
   },
   {
-    question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。ピラティスは筋力強化、ヨガは心身のバランスを整えることが主な目的。どちらも素晴らしいエクササイズなので、目的に合わせて選びましょう。',
+    question: '男性でも通えるスタジオはありますか？',
+    answer: 'zen place pilates赤坂は男性も通えます。STUDIO IVY赤坂エリアも男性利用可能です。the SILKは女性専用スタジオです。ピラティススタジオnoaやLumeについては公式サイトでご確認ください。',
   },
   {
-    question: 'ピラティスで肩こりや腰痛は改善しますか？',
-    answer: 'はい、改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。デスクワークが多い方や立ち仕事の方にもおすすめです。',
+    question: '永田町駅から近いスタジオはどこですか？',
+    answer: '永田町駅と赤坂見附駅は連絡通路で繋がっています。赤坂見附駅から最も近いのはthe SILK（徒歩30秒）とzen place pilates（徒歩3分）。赤坂駅からはピラティススタジオnoa（徒歩30秒）とLume（徒歩30秒）が至近です。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: 'ピラティスで効果が表れだすのは「2ヶ月を過ぎた頃」から。これは人間の細胞が生まれ変わるサイクルがそのくらいだからです。すぐに変化が表れなくても心配せず、最低でも2ヶ月は継続するのがおすすめです。',
-  },
-  {
-    question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'それぞれ良さがあります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方におすすめ。グループは料金が安く、仲間と楽しく続けられるのが魅力。まずは体験で両方試してみるのがいいですよ。',
+    answer: '個人差はありますが、2ヶ月を過ぎた頃から姿勢の改善や体の変化を実感する方が多いです。週1〜2回のペースで最低2〜3ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -339,14 +317,14 @@ export default function NagatachoPage() {
   return (
     <>
       <Navigation />
-
       <main className="pt-20 bg-white">
-        {/* Hero Section */}
+        {/* Hero */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月04日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月09日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス永田町おすすめ15選！<br className="hidden md:block" />
+              【2026最新】ピラティス永田町おすすめ5選！
+              <br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -368,33 +346,24 @@ export default function NagatachoPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates Navi編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「永田町で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
+            <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">Pilates Navi編集部です！</p>
+            <p className="text-warm-600 leading-relaxed mb-6">あなたは、</p>
+            <p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p>
+            <p className="text-warm-600 leading-relaxed mb-6">「永田町で人気のピラティススタジオを知りたい」</p>
+            <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
+            <p className="text-warm-600 leading-relaxed mb-8">
+              永田町は東京メトロ有楽町線・半蔵門線・南北線が乗り入れるビジネス街で、赤坂見附駅とも連絡通路で繋がっています。国会議事堂や官庁街が近く、ビジネスパーソンが多く行き交うエリアです。そんな永田町・赤坂エリアには、大手チェーンのグループレッスンから完全プライベートのパーソナルまで、多彩なピラティススタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、永田町エリアでおすすめのピラティススタジオ15選をまとめました。
+              そこでこの記事では、永田町エリアでおすすめの実在するピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
-                  <span>永田町でピラティススタジオを探している</span>
+                  <span>永田町・赤坂でピラティススタジオを探している</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -402,11 +371,11 @@ export default function NagatachoPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
-                  <span>体験レッスンが安いスタジオを知りたい</span>
+                  <span>コスパの良いスタジオを知りたい</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
-                  <span>道頓堀・心斎橋に近いスタジオがいい</span>
+                  <span>駅近で通いやすいスタジオがいい</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -414,9 +383,7 @@ export default function NagatachoPage() {
                 </li>
               </ul>
             </div>
-            <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
-            </p>
+            <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
           </div>
         </section>
 
@@ -424,7 +391,7 @@ export default function NagatachoPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              永田町のおすすめピラティススタジオ15選
+              永田町のおすすめピラティススタジオ5選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (
@@ -437,41 +404,32 @@ export default function NagatachoPage() {
         {/* Search by Preference */}
         <section className="py-16 bg-white">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              こだわりから探す
-            </h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">こだわりから探す</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
-                <p className="text-warm-600 text-sm mb-4">
-                  月額12,000円以下で通える格安スタジオ。体験レッスン無料のスタジオも多数。コスパ重視の方におすすめ。
-                </p>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
+                <p className="text-warm-600 text-sm mb-4">月1万円台から始められるスタジオも。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Pilates Studio Harmony 永田町</li>
-                  <li className="text-warm-700">• Reformer Pilates Nagatacho</li>
-                  <li className="text-warm-700">• FLOW PILATES 永田町</li>
+                  <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
+                  <li className="text-warm-700">• STUDIO IVY（月2回 15,000円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">マシン完備</h3>
-                <p className="text-warm-600 text-sm mb-4">
-                  最新のリフォーマーマシンを完備。マシンピラティスを本格的に学びたい方におすすめ。
-                </p>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
+                <p className="text-warm-600 text-sm mb-4">マンツーマンや少人数で丁寧な指導。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates 永田町</li>
-                  <li className="text-warm-700">• WECLE 永田町</li>
-                  <li className="text-warm-700">• the SILK 永田町</li>
+                  <li className="text-warm-700">• STUDIO IVY（完全パーソナル）</li>
+                  <li className="text-warm-700">• Lume（少人数制）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・ミナミの中心</h3>
-                <p className="text-warm-600 text-sm mb-4">
-                  永田町駅から徒歩3分以内。官公庁・政治機関、ビジネスパーソン・政治関係者し、ショッピングや食事も楽しめる。
-                </p>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">駅チカ重視</h3>
+                <p className="text-warm-600 text-sm mb-4">徒歩30秒〜3分の好立地。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Urban Pilates 永田町（駅徒歩1分）</li>
-                  <li className="text-warm-700">• the SILK 永田町（駅徒歩2分）</li>
-                  <li className="text-warm-700">• zen place pilates 永田町（駅徒歩3分）</li>
+                  <li className="text-warm-700">• the SILK（赤坂見附駅 徒歩30秒）</li>
+                  <li className="text-warm-700">• noa（赤坂駅 徒歩30秒）</li>
+                  <li className="text-warm-700">• Lume（赤坂駅 徒歩30秒）</li>
                 </ul>
               </div>
             </div>
@@ -481,21 +439,19 @@ export default function NagatachoPage() {
         {/* Frequency Guide */}
         <section className="py-16 bg-warm-50">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              おすすめの期間・頻度
-            </h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">おすすめの期間・頻度</h2>
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回（月4-8回）からスタートするのがおすすめ。まずは身体を慣らすことが大切です。継続期間は最低でも2-3ヶ月。この期間で効果を実感できる方が多いですよ。
+                週1〜2回からスタートするのがおすすめ。最低2〜3ヶ月継続することで効果を実感できます。zen place pilatesはグループ体験1,000円、the SILKは体験無料で気軽に始められます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回（月8-12回）がおすすめ。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3-6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。
+                週2〜3回がおすすめ。3〜6ヶ月で目に見える変化を実感できます。STUDIO IVYのオーダーメイドパーソナルなら効率よくボディメイクが可能です。
               </p>
-              <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理が目的の方</h3>
+              <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回（月4回）のペースで継続するのがおすすめ。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切。自分のペースで楽しく通えるのが一番ですよ。
+                週1回のペースで無理なく継続。zen place pilatesは全国150店舗で相互利用できるので、忙しいビジネスパーソンでも出張先でレッスンを受けられます。
               </p>
             </div>
           </div>
@@ -504,43 +460,35 @@ export default function NagatachoPage() {
         {/* Price Guide */}
         <section className="py-16 bg-white">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              予算別の料金相場
-            </h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">予算別の料金相場</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜12,000円</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。初心者向けの基本的なレッスンが多い。
-                </p>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜13,000円/月</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月3〜4回</p>
+                <p className="text-sm text-warm-600 mb-4">手軽に始めたい方に。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Pilates Studio Harmony</li>
-                  <li>• Reformer Pilates</li>
+                  <li>• zen place pilates（10,450円/月4回〜）</li>
+                  <li>• the SILK（12,980円/月3回〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 12,000〜16,000円</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">
-                  マシン完備の大手スタジオ。グループ・プライベート選択可。
-                </p>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 15,000円/月</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月2回パーソナル</p>
+                <p className="text-sm text-warm-600 mb-4">効率よく成果を出したい方に。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates</li>
-                  <li>• ピラティスK</li>
-                  <li>• the SILK</li>
+                  <li>• STUDIO IVY（15,000円/月2回〜）</li>
+                  <li>• 完全オーダーメイドプログラム</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 30,000円〜</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">
-                  完全プライベートレッスン。短期集中で結果を出したい方向け。
-                </p>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">体験から始める</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">0円〜</p>
+                <p className="text-sm text-warm-600 mb-4">まずはお試しで体験したい方に。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• B-line（1回8,800円）</li>
-                  <li>• Pilates Lab</li>
+                  <li>• the SILK（体験無料・手ぶらOK）</li>
+                  <li>• zen place pilates（体験1,000円）</li>
+                  <li>• STUDIO IVY（体験4,500円）</li>
                 </ul>
               </div>
             </div>
@@ -550,9 +498,7 @@ export default function NagatachoPage() {
         {/* How to Choose */}
         <section className="py-16 bg-warm-50">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              失敗しないピラティススタジオの選び方
-            </h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">失敗しないスタジオの選び方</h2>
             <div className="space-y-8">
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4">
@@ -560,16 +506,16 @@ export default function NagatachoPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  まずは自分がピラティスで何を達成したいのかを明確にしましょう。ダイエット、姿勢改善、体幹強化、リラックスなど、目的によって最適なスタジオやプログラムは変わります。目的が明確だとスタジオ選びもスムーズになりますよ。
+                  ダイエット、姿勢改善、体幹強化など、目的によって最適なスタジオは変わります。効率重視ならSTUDIO IVYのオーダーメイドパーソナル、楽しみながらボディメイクならthe SILKの音楽レッスンがおすすめ。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4">
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span>
-                  <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
+                  <h3 className="text-xl font-bold text-warm-900">レッスン形式を選ぶ</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  永田町エリアの料金相場は月4回で12,000円〜16,000円程度。無理なく継続できる予算を決めましょう。料金だけでなく、入会金、マット・ウェアのレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  永田町・赤坂エリアはグループ（zen place pilates、noa）、少人数制（Lume）、女性専用（the SILK）、完全パーソナル（STUDIO IVY）と多彩な形式が揃っています。自分の好みや予算に合わせて選びましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -578,7 +524,7 @@ export default function NagatachoPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。多くのスタジオが無料〜1,000円程度で体験レッスンを提供しているので、気軽に試してみてくださいね。
+                  the SILKは体験無料で手ぶらOK、zen place pilatesはグループ体験1,000円と気軽にお試し可能。STUDIO IVYは体験4,500円で丁寧なカウンセリング付き。まずは体験で雰囲気やインストラクターとの相性を確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -587,7 +533,7 @@ export default function NagatachoPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  どんなに良いスタジオでも、通いにくい場所にあると続きません。永田町はミナミの中心で、地下鉄有楽町線・半蔵門線・南北線が利用可能。国会議事堂・政治の中心です。駅から近い場所を選ぶと、道頓堀・心斎橋でのショッピングや食事ついでにも通えて便利ですよ。
+                  永田町駅と赤坂見附駅は連絡通路で繋がっています。the SILKは赤坂見附駅から徒歩30秒、ピラティススタジオnoaとLumeは赤坂駅から徒歩30秒。複数路線が利用できるので、通勤経路に合わせてスタジオを選べます。
                 </p>
               </div>
             </div>
@@ -597,9 +543,7 @@ export default function NagatachoPage() {
         {/* FAQ */}
         <section className="py-16 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              よくある質問
-            </h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">よくある質問</h2>
             <div className="space-y-6">
               {faqs.map((faq, index) => (
                 <div key={index} className="border border-warm-200 rounded-lg overflow-hidden">
@@ -607,12 +551,10 @@ export default function NagatachoPage() {
                     <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition">
                       <h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3>
                       <svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"/>
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
                       </svg>
                     </summary>
-                    <div className="px-6 pb-6 text-warm-600 leading-relaxed">
-                      {faq.answer}
-                    </div>
+                    <div className="px-6 pb-6 text-warm-600 leading-relaxed">{faq.answer}</div>
                   </details>
                 </div>
               ))}
@@ -623,36 +565,30 @@ export default function NagatachoPage() {
         {/* Summary */}
         <section className="py-16 bg-warm-50">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">
-              まとめ
-            </h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は永田町のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              今回は永田町エリアのおすすめピラティススタジオ5選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では永田町に数多くあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              永田町は東京メトロ3路線が乗り入れ、赤坂見附駅とも連絡通路で繋がるビジネス街。全国150店舗で相互利用できるzen place pilates（月4回10,450円〜）、女性専用で音楽レッスンが楽しいthe SILK（体験無料・手ぶらOK）、マシンピラティス専用のピラティススタジオnoa（赤坂駅徒歩30秒）、少人数制でタワーリフォーマー完備のLume（赤坂駅徒歩30秒）、完全オーダーメイドのSTUDIO IVY（月2回15,000円〜）と、それぞれ特徴の異なるスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              まずは体験無料のthe SILKや、1,000円で体験できるzen place pilatesから試してみるのがおすすめです。ぜひこの記事を参考に、自分に合うピラティススタジオを見つけてくださいね。
             </p>
-            <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
-            </p>
+            <p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p>
           </div>
         </section>
 
         {/* CTA */}
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
-            </h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜1,000円。<br />
+              the SILKは体験無料・手ぶらOK。zen place pilatesはグループ体験1,000円。<br />
               まずは気軽に体験してみましょう。
             </p>
-            <Link 
-              href="/#studios" 
+            <Link
+              href="/#studios"
               className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded"
             >
               おすすめスタジオ一覧に戻る
@@ -660,7 +596,6 @@ export default function NagatachoPage() {
           </div>
         </section>
       </main>
-
       <SiteFooter />
       <Script src="https://unpkg.com/lucide@latest" strategy="lazyOnload" />
     </>

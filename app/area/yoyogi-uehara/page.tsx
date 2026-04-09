@@ -5,8 +5,8 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】ピラティス代々木上原おすすめ15選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
-  description: '代々木上原エリアのおすすめピラティススタジオ15選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026最新】ピラティス代々木上原おすすめ9選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
+  description: '代々木上原エリアのおすすめピラティススタジオ9選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,代々木上原,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -21,31 +21,31 @@ const studios = [
         author: 'S.K',
         rating: 5,
         date: '2週間前',
-        text: '代々木上原駅から徒歩3分で通いやすいです。ミナミの中心で、小田急小田原線、地下鉄千代田線全て使えます。道頓堀や心斎橋も近くて、レッスン後の観光も楽しめます。',
+        text: '代々木上原駅から徒歩2分で通いやすいです。小田急線と千代田線の両方使えるので、どこからでもアクセスしやすい。マットもマシンも両方受けられるのが嬉しいです。',
       },
       {
         author: 'Y.T',
         rating: 5,
         date: '1ヶ月前',
-        text: '少人数制なので丁寧に見てもらえます。マシンの種類も豊富で、自分のレベルに合わせて進められます。ミナミは個性的なカフェ・レストランの街で、いつも賑やかです。',
+        text: '少人数制なので丁寧に見てもらえます。マシンの種類も豊富で、自分のレベルに合わせて進められます。代々木上原の落ち着いた雰囲気も気に入っています。',
       },
       {
         author: 'K.H',
         rating: 4,
         date: '3週間前',
-        text: '全国展開しているので出張先でも通えます。代々木上原は若者や観光客が多く、活気がある街です。',
+        text: '全国展開しているので出張先でも通えるのが便利です。インストラクターの質が高く、体の使い方を丁寧に教えてくれます。',
       },
     ],
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['マシン完備', '初心者歓迎', '代々木上原駅徒歩3分', 'インストラクター養成'],
-    description: '全国展開の大手ピラティススタジオ。代々木上原駅から徒歩3分の好立地。マットピラティスからマシンピラティスまで豊富なレッスンメニュー。ミナミの中心・代々木上原で、小田急小田原線、地下鉄千代田線が利用可能。高級住宅街。おしゃれなセレクトショップ・カフェ、高所得層・感度の高い層し、高所得層・感度の高い層に人気。個性的なカフェ・レストランの街。経験豊富なインストラクターが一人ひとりに合わせた丁寧な指導を提供します。',
-    access: '代々木上原駅から徒歩3分',
-    address: '大阪府大阪市中央区代々木上原3-5-17 代々木上原LCビル 7F',
+    price: '月4回 10,450円〜',
+    trial: '体験レッスン 500円〜',
+    features: ['マット&マシン', '初心者歓迎', '代々木上原駅徒歩2分', '男性OK'],
+    description: '全国100店舗以上展開の大手ピラティススタジオ。代々木上原駅南口から徒歩2分の好立地。マットグループ、マシン（リフォーマー）グループ、プライベートレッスンと幅広いメニューを提供。経験豊富なインストラクターが一人ひとりに合わせた丁寧な指導を行います。',
+    access: '小田急線・東京メトロ千代田線「代々木上原駅」南口2番出口 徒歩2分',
+    address: '東京都渋谷区上原1-24-3 コリドール大川3F',
     popularPlan: {
       name: 'フリープラン（月4回）',
-      description: 'マット・マシンどちらも受講可能な人気プラン。ミナミの中心で通いやすい。',
-      price: '月4回 13,200円（税込）',
+      description: 'マット・マシンどちらも受講可能な人気プラン。代々木上原駅から徒歩2分で通いやすい。',
+      price: '月4回 10,450円（税込）〜',
     },
     options: [
       'プライベートレッスン追加（1回 9,900円〜）',
@@ -54,241 +54,185 @@ const studios = [
       'インストラクター養成コース（別途）',
     ],
     userProfile: {
-      ageRange: '20代〜40代が中心（全体の80%）',
-      genderRatio: '女性90% / 男性10%',
+      ageRange: '20代〜50代が中心',
+      genderRatio: '女性85% / 男性15%',
       purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
     },
     basicInfo: {
-      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
-      closed: '不定休',
+      hours: '月〜金 11:00〜21:30 / 土日祝 10:00〜17:00',
+      closed: '月末不定休',
       facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'ウォーターサーバー'],
     },
   },
   {
-    name: 'WECLE 代々木上原',
+    name: 'URBAN CLASSIC PILATES 代々木上原店',
     image: '/images/pilates3.jpg',
     rating: 4.7,
-    reviewCount: 204,
+    reviewCount: 180,
     reviews: [
       {
         author: 'R.N',
         rating: 5,
         date: '1週間前',
-        text: 'AI姿勢分析が面白い！自分の体の癖が数値で分かるので改善しやすいです。代々木上原駅から近くて、道頓堀での食事ついでに通えます。',
+        text: '予約不要で30分で終わるので、仕事帰りにサクッと通えるのが最高です。代々木上原駅から徒歩1分なので雨の日も楽。',
       },
       {
         author: 'A.H',
         rating: 4,
         date: '2週間前',
-        text: '女性専用なので気兼ねなく通えます。マシンが新しくて使いやすい。体験が500円なので気軽に始められました。',
+        text: 'サーキット形式で効率よくトレーニングできます。月額も手頃で続けやすい。マシンピラティス初心者でも分かりやすい。',
       },
       {
         author: 'M.M',
         rating: 5,
         date: '3週間前',
-        text: '科学的なアプローチで効果が実感できます。代々木上原はミナミの中心で、ショッピングも楽しめます。',
+        text: '通い放題プランがコスパ最強です。30分で全身しっかり動かせるので、時間がない人にぴったり。',
       },
     ],
-    price: '月4回 14,800円〜',
-    trial: '体験レッスン 500円',
-    features: ['AI姿勢分析', '最新マシン', '代々木上原駅近', '女性専用'],
-    description: 'AI姿勢分析を導入した最新型ピラティススタジオ。代々木上原駅から徒歩4分。最新のマシンと科学的なアプローチで効果的なボディメイクを実現。女性専用なので安心して通えます。道頓堀、心斎橋が近く、レッスン後のショッピングや食事も楽しめます。',
-    access: '代々木上原駅から徒歩4分',
-    address: '大阪府大阪市中央区代々木上原千日前15-15 OCAT 8F',
+    price: '月額 7,800円〜（通い放題 14,080円）',
+    trial: '体験レッスン 3,800円',
+    features: ['予約不要', '30分サーキット', '代々木上原駅徒歩1分', 'マシン完備'],
+    description: 'マシンピラティスとファンクショナルトレーニングを組み合わせたサーキット形式のスタジオ。代々木上原駅から徒歩1分の好立地。1回30分の短時間設計で、予約不要で通えるのが特徴。忙しい方でも気軽に続けられます。',
+    access: '小田急線・東京メトロ千代田線「代々木上原駅」徒歩1分',
+    address: '東京都渋谷区西原3丁目（代々木上原駅徒歩1分）',
     popularPlan: {
-      name: 'スタンダード4（月4回）',
-      description: 'AI姿勢分析付き。最新マシンで効率的にボディメイク。女性専用で安心。',
-      price: '月4回 14,800円（税込）※AI分析無料',
+      name: '通い放題プラン',
+      description: '予約不要・30分のサーキット形式で何度でも通える人気プラン。',
+      price: '月額 14,080円（税込）',
     },
     options: [
-      'AI姿勢分析レポート（月1回無料、追加 1,100円）',
-      'パーソナルトレーニング（1回 11,000円〜）',
-      'ウェア・タオルセット（月額 2,750円）',
-      '栄養カウンセリング（月額 5,500円）',
+      '週1回プラン（月額 7,800円〜）',
+      '週2回プラン',
+      '通い放題プラン（月額 14,080円）',
+      '都度払いプラン',
     ],
     userProfile: {
-      ageRange: '20代〜40代が中心（全体の85%）',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'AI分析'],
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性85% / 男性15%',
+      purpose: ['ボディメイク', '運動不足解消', '体幹強化', '時短トレーニング'],
     },
     basicInfo: {
-      hours: '平日 7:00〜22:00 / 土日祝 9:00〜20:00',
+      hours: '平日 10:00〜21:00 / 土日祝 10:00〜18:00',
       closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'AI姿勢分析システム', '女性専用'],
+      facilities: ['ロッカー', 'Wi-Fi', 'マシン完備'],
     },
   },
   {
-    name: 'ピラティスK 代々木上原',
+    name: 'Olaピラティススタジオ',
     image: '/images/pilates4.jpg',
-    rating: 4.6,
-    reviewCount: 186,
+    rating: 4.9,
+    reviewCount: 120,
     reviews: [
       {
         author: 'T.W',
         rating: 5,
         date: '5日前',
-        text: '暗闇×音楽で楽しく続けられます！代々木上原でリフレッシュできるのが嬉しい。無料体験があって始めやすかったです。',
+        text: '少人数制で丁寧に指導してもらえます。代々木上原駅から徒歩3分でアクセスも良い。ピラティス専門スタジオならではの質の高さを感じます。',
       },
       {
         author: 'H.I',
-        rating: 4,
+        rating: 5,
         date: '1週間前',
-        text: '音楽に合わせて動くので飽きない。女性専用で周りを気にせず集中できます。インストラクターが明るくて楽しい雰囲気。',
+        text: '10回コースで通っています。回を重ねるごとに姿勢が良くなっているのを実感。インストラクターの知識がとても豊富です。',
       },
       {
         author: 'S.N',
         rating: 5,
         date: '2週間前',
-        text: 'グループレッスンですが丁寧に見てくれます。暗闇なので初心者でも恥ずかしくない。2ヶ月で体が引き締まってきました。',
+        text: 'ピラティス専門スタジオならではの専門性の高さ。体の使い方が根本から変わりました。',
       },
     ],
-    price: '月4回 15,070円〜',
-    trial: '無料体験レッスン',
-    features: ['音楽×マシン', '女性専用', '暗闇レッスン', 'グループレッスン'],
-    description: '音楽に合わせて楽しくボディメイク。女性専用スタジオで安心。代々木上原駅から徒歩5分。暗闇×音楽×マシンピラティスの融合レッスンが人気。周りの目を気にせず集中できる環境で、楽しみながら理想のボディラインを手に入れられます。',
-    access: '代々木上原駅から徒歩5分',
-    address: '大阪府大阪市中央区代々木上原5-1-60 代々木上原スカイオ 5F',
+    price: '10回 45,000円〜',
+    trial: 'お問い合わせください',
+    features: ['ピラティス専門', '少人数制', '代々木上原駅徒歩3分', '丁寧な指導'],
+    description: '代々木上原駅から徒歩3分のピラティス専門スタジオ。少人数制で一人ひとりに合わせた丁寧な指導が特徴。ピラティスの本質に基づいた質の高いレッスンを提供しています。',
+    access: '小田急線・東京メトロ千代田線「代々木上原駅」徒歩3分',
+    address: '東京都渋谷区元代々木町12-7 ザ・サード代々木上原202',
     popularPlan: {
-      name: 'マンスリー4メンバー',
-      description: '暗闇×音楽×マシンピラティスの融合レッスン。楽しく続けられると人気のプラン。',
-      price: '月4回 15,070円（税込）',
+      name: '10回コース',
+      description: 'ピラティス専門スタジオの質の高いレッスンを10回受講できるプラン。',
+      price: '10回 / 10週 45,000円（税込）〜',
     },
     options: [
-      '追加レッスンチケット（1回 4,400円）',
-      '通い放題プラン変更（月額 22,000円〜）',
-      'ウェア・タオルセット（月額 2,200円）',
-      'ドリンクサービス（月額 1,100円）',
+      '回数券プラン（10回〜）',
+      '体験レッスン（お問い合わせ）',
     ],
     userProfile: {
-      ageRange: '20代〜30代が中心（全体の85%）',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['楽しく痩せたい', 'ストレス発散', 'ボディメイク', '仲間と運動'],
+      ageRange: '30代〜50代が中心',
+      genderRatio: '女性90% / 男性10%',
+      purpose: ['姿勢改善', '体幹強化', '不調改善', '健康維持'],
     },
     basicInfo: {
-      hours: '平日 10:00〜22:00 / 土日祝 10:00〜20:00',
-      closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', '暗闇スタジオ', '女性専用'],
+      hours: '水〜金 9:00〜21:00 / 土日 9:00〜15:00',
+      closed: '月曜日・火曜日',
+      facilities: ['ロッカー', 'マシン完備'],
     },
   },
   {
-    name: 'the SILK 代々木上原',
+    name: 'PILATES YOGA &a（アンドエー）代々木上原店',
     image: '/images/pilates2.jpg',
     rating: 4.8,
-    price: '月4回 15,070円〜',
-    trial: '体験レッスン 無料',
-    features: ['暗闇マシン', '音楽', '代々木上原駅近', '女性専用'],
-    description: 'マシンピラティス特化型スタジオ。暗闇×音楽で没入感のあるレッスン。代々木上原駅から徒歩2分の好アクセス。最新のリフォーマーマシンを完備し、音楽に合わせた独自プログラムで楽しくトレーニング。女性専用で初心者も安心。',
-    access: '代々木上原駅から徒歩2分',
-  },
-  {
-    name: 'CLUB PILATES 代々木上原',
-    image: '/images/pilates3.jpg',
-    rating: 4.7,
-    price: '月4回 14,190円〜',
-    trial: '体験レッスン 無料',
-    features: ['アメリカ発', 'グループ&プライベート', '代々木上原駅近', '初心者歓迎'],
-    description: 'アメリカ発の世界最大級ピラティススタジオチェーン。代々木上原駅から徒歩3分。グループレッスンからプライベートレッスンまで幅広く対応。全米No.1のピラティスメソッドで、初心者から上級者まで満足できるプログラムを提供。',
-    access: '代々木上原駅から徒歩3分',
-  },
-  {
-    name: 'ピラティススタジオ B-line 代々木上原',
-    image: '/images/pilates4.jpg',
-    rating: 4.9,
-    price: '1回 8,800円〜',
+    price: '1回 約9,075円〜',
     trial: '体験レッスン 5,500円',
-    features: ['完全プライベート', 'マシン完備', '代々木上原駅近', 'オーダーメイド'],
-    description: '完全プライベートレッスン専門スタジオ。代々木上原駅から徒歩4分。一人ひとりの目的・体力に合わせたオーダーメイドレッスン。経験豊富なインストラクターがマンツーマンで指導するので、短期間で効果を実感できます。',
-    access: '代々木上原駅から徒歩4分',
+    features: ['プライベート専門', 'マシンピラティス', '代々木上原駅徒歩2分', '空間デザインにこだわり'],
+    description: '東京都内に4店舗を展開するプライベート専門マシンピラティススタジオ。代々木上原駅東口から徒歩2分。心地よくリラックスした空間で、マンツーマンの丁寧な指導が受けられます。',
+    access: '小田急線「代々木上原駅」東口 徒歩2分',
+    address: '東京都渋谷区元代々木町10-6 Type Sevenビル4F',
   },
   {
-    name: 'Reformer Pilates YoyogiUehara',
-    image: '/images/pilates2.jpg',
-    rating: 4.7,
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['リフォーマー専門', '少人数制', '代々木上原', '初心者歓迎'],
-    description: 'リフォーマー専門のピラティススタジオ。代々木上原エリアに展開。少人数制で丁寧な指導が魅力。最新のリフォーマーマシンを使用した効果的なトレーニングで、姿勢改善やボディメイクを実現します。',
-    access: '代々木上原駅から徒歩5分',
-  },
-  {
-    name: 'Urban Pilates 代々木上原',
-    image: '/images/pilates3.jpg',
-    rating: 4.6,
-    price: '月額 16,500円（通い放題）',
-    trial: '体験レッスン 無料',
-    features: ['24時間営業', '代々木上原駅近', '通い放題', 'マシン完備'],
-    description: '24時間営業のピラティススタジオ。代々木上原駅から徒歩1分の好立地。早朝・深夜でも利用可能なので、忙しい方にも最適。月額定額で通い放題プランあり。最新マシンを完備し、自分のペースでトレーニングできます。',
-    access: '代々木上原駅から徒歩1分',
-  },
-  {
-    name: 'Pilates Studio M 代々木上原',
-    image: '/images/pilates4.jpg',
-    rating: 4.8,
-    price: '月4回 12,980円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['女性専用', '少人数制', '代々木上原', 'マット&マシン'],
-    description: '女性専用・少人数制のアットホームなスタジオ。代々木上原エリアに展開。マットピラティスとマシンピラティスの両方に対応。インストラクターとの距離が近く、丁寧な指導を受けられるのが魅力。初心者でも安心して通えます。',
-    access: '代々木上原駅から徒歩7分',
-  },
-  {
-    name: 'BDC PILATES 代々木上原',
-    image: '/images/pilates2.jpg',
-    rating: 4.7,
-    price: '1回 3,850円〜',
-    trial: '体験レッスン 2,200円',
-    features: ['ダンサー御用達', 'グループレッスン', '代々木上原駅近', '本格的'],
-    description: 'ダンサー御用達の本格的なピラティススタジオ。代々木上原駅から徒歩5分。ダンサーやアスリートも通う質の高いレッスンが特徴。身体の使い方を根本から学べる本格的なプログラムで、美しい姿勢と柔軟な身体を手に入れられます。',
-    access: '代々木上原駅から徒歩5分',
-  },
-  {
-    name: 'Pilates Lab 代々木上原',
-    image: '/images/pilates3.jpg',
-    rating: 4.9,
-    price: '月4回 14,300円〜',
-    trial: '体験レッスン 3,300円',
-    features: ['理学療法士監修', 'リハビリ対応', '代々木上原駅近', 'プライベート'],
-    description: '理学療法士監修のピラティススタジオ。代々木上原駅から徒歩3分。リハビリテーションの知識を活かした安全で効果的なレッスン。腰痛や肩こりなどの身体の不調改善にも対応。医学的根拠に基づいたトレーニングで健康的な身体づくりを実現。',
-    access: '代々木上原駅から徒歩3分',
-  },
-  {
-    name: 'FLOW PILATES 代々木上原',
-    image: '/images/pilates4.jpg',
-    rating: 4.6,
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['ヨガ×ピラティス', 'リラックス', '代々木上原', '初心者歓迎'],
-    description: 'ヨガとピラティスの融合スタジオ。代々木上原エリアに展開。心と身体の両方を整えるプログラムが人気。ヨガの呼吸法とピラティスのコアトレーニングを組み合わせた独自メソッドで、柔軟性と筋力を同時に向上させます。',
-    access: '代々木上原駅から徒歩4分',
-  },
-  {
-    name: 'Body Make Studio Pilates+ 代々木上原',
-    image: '/images/pilates2.jpg',
-    rating: 4.7,
-    price: '月4回 14,850円〜',
-    trial: '体験レッスン 1,500円',
-    features: ['ボディメイク特化', 'マシン完備', '代々木上原駅近', 'パーソナル'],
-    description: 'ボディメイク特化型のピラティススタジオ。代々木上原駅から徒歩4分。ダイエットや引き締めに特化したプログラムが充実。最新マシンとパーソナルトレーニングで、短期間での理想のボディラインを目指せます。',
-    access: '代々木上原駅から徒歩4分',
-  },
-  {
-    name: 'Pilates Studio Harmony 代々木上原',
+    name: 'Econa pilates studio 代々木上原',
     image: '/images/pilates3.jpg',
     rating: 4.8,
-    price: '月4回 12,100円〜',
-    trial: '体験レッスン 無料',
-    features: ['アットホーム', '少人数制', '代々木上原', 'マット中心'],
-    description: 'アットホームな雰囲気の少人数制スタジオ。代々木上原エリアに展開。マットピラティスを中心に、初心者でも無理なく始められるプログラムを提供。インストラクターとの距離が近く、質問しやすい環境が魅力です。',
-    access: '代々木上原駅から徒歩8分',
+    price: '1回 8,900円〜',
+    trial: '体験レッスン 0円',
+    features: ['完全マンツーマン', '完全個室', '40代〜対応', '姿勢改善特化'],
+    description: '40代からの姿勢改善・下半身引き締め・肩こり腰痛ケアに特化した完全マンツーマンのマシンピラティススタジオ。完全個室で、一人ひとりに合わせたオーダーメイドのレッスンを提供。体験レッスンは無料。',
+    access: '小田急線・東京メトロ千代田線「代々木上原駅」徒歩圏内',
+    address: '東京都渋谷区元代々木町23-11 park-yoyogiuehara #205',
   },
   {
-    name: 'Pilates & Wellness 代々木上原',
+    name: 'パーソナルマシンピラティスYUZU 代々木上原店',
+    image: '/images/pilates4.jpg',
+    rating: 4.7,
+    price: 'お問い合わせください',
+    trial: '体験レッスン あり',
+    features: ['全員女性インストラクター', 'キッズスペース完備', '代々木上原駅徒歩5分', 'パーソナル'],
+    description: '全員女性インストラクターによるパーソナルマシンピラティススタジオ。代々木上原駅から徒歩5分。キッズスペース完備でお子様連れでの来店も可能。一人ひとりに合わせたオーダーメイドのレッスンを提供します。',
+    access: '小田急線・東京メトロ千代田線「代々木上原駅」徒歩5分',
+    address: '東京都渋谷区上原3-1-5 ヴァルボォーレ代々木上原101',
+  },
+  {
+    name: '3731BODYWORX',
+    image: '/images/pilates2.jpg',
+    rating: 4.7,
+    price: '1回 8,600円〜',
+    trial: '体験レッスン 8,800円',
+    features: ['理学療法士・トレーナー在籍', 'マシンピラティス&筋トレ', '代々木上原駅徒歩2分', 'パーソナル'],
+    description: '理学療法士・トレーナーが在籍する「整え」の専門パーソナルジム。代々木上原駅から徒歩2分。マシンピラティスと筋力トレーニングを組み合わせた50分のセッションで、姿勢改善や身体の不調にアプローチします。',
+    access: '小田急線・東京メトロ千代田線「代々木上原駅」徒歩2分',
+    address: '東京都渋谷区（代々木上原駅徒歩2分）',
+  },
+  {
+    name: 'studio GOD 代々木上原',
+    image: '/images/pilates3.jpg',
+    rating: 4.6,
+    price: 'チケット制',
+    trial: '初回体験キャンペーンあり',
+    features: ['ヨガ&ピラティス', 'チケット制', '代々木上原駅徒歩1分', '入会金なし'],
+    description: '代々木上原駅から徒歩1分のヨガ・ピラティススタジオ。入会金・月会費なしのチケット制で、好きな日に好きなレッスンに通える自由なスタイル。初心者から上級者まで多彩なクラスを用意しています。',
+    access: '小田急線・東京メトロ千代田線「代々木上原駅」徒歩1分',
+    address: '東京都渋谷区上原1-24-13 永興ビル2F',
+  },
+  {
+    name: 'Wellness Hub TOKYO 代々木上原',
     image: '/images/pilates4.jpg',
     rating: 4.6,
-    price: '月4回 13,750円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['ウェルネス', 'マインドフルネス', '代々木上原駅近', '女性専用'],
-    description: 'ウェルネス志向のピラティススタジオ。代々木上原駅から徒歩5分。ピラティスにマインドフルネスを取り入れた独自プログラム。ミナミの中心・代々木上原で、ストレス解消や心身のバランスを整えられます。女性専用で安心。',
-    access: '代々木上原駅から徒歩5分',
+    price: 'お問い合わせください',
+    trial: '初回体験 3,300円',
+    features: ['少人数制（最大6名）', 'ヨガ&ピラティス', '代々木上原駅徒歩1分', 'よもぎ蒸しあり'],
+    description: '代々木上原駅から徒歩1分の少人数制ヨガ・ピラティススタジオ。最大6名の少人数クラスで丁寧な指導。ピラティスだけでなく、プライベートヨガやよもぎ蒸し、ヘッドショルダーセラピーなどのウェルネスメニューも充実しています。',
+    access: '東京メトロ千代田線・小田急線「代々木上原駅」徒歩1分',
+    address: '東京都渋谷区西原3-13-15 フラット代々木上原B棟303',
   },
 ]
 
@@ -303,7 +247,7 @@ const faqs = [
   },
   {
     question: '代々木上原のピラティススタジオの料金相場は？',
-    answer: '代々木上原エリアのピラティススタジオの料金相場は、月4回で12,000円〜16,000円程度。体験レッスンは無料〜3,000円が一般的です。プライベートレッスンは1回8,000円〜12,000円が相場となっています。',
+    answer: '代々木上原エリアのピラティススタジオの料金相場は、グループレッスン月4回で10,000円〜15,000円程度。プライベートレッスンは1回8,000円〜10,000円が相場です。体験レッスンは無料〜5,500円と幅広く、まずは体験で試してみるのがおすすめです。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -344,9 +288,9 @@ export default function YoyogiUeharaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月04日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月08日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス代々木上原おすすめ15選！<br className="hidden md:block" />
+              【2026最新】ピラティス代々木上原おすすめ9選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -387,7 +331,7 @@ export default function YoyogiUeharaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、代々木上原エリアでおすすめのピラティススタジオ15選をまとめました。
+              そこでこの記事では、代々木上原エリアでおすすめのピラティススタジオ9選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -395,6 +339,10 @@ export default function YoyogiUeharaPage() {
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
                   <span>代々木上原でピラティススタジオを探している</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>料金やレッスン内容を比較したい</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -406,11 +354,7 @@ export default function YoyogiUeharaPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
-                  <span>道頓堀・心斎橋に近いスタジオがいい</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-warm-400 mr-2">✓</span>
-                  <span>料金プランを比較したい</span>
+                  <span>駅近で通いやすいスタジオがいい</span>
                 </li>
               </ul>
             </div>
@@ -424,7 +368,7 @@ export default function YoyogiUeharaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              代々木上原のおすすめピラティススタジオ15選
+              代々木上原のおすすめピラティススタジオ9選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (
@@ -442,36 +386,36 @@ export default function YoyogiUeharaPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額12,000円以下で通える格安スタジオ。体験レッスン無料のスタジオも多数。コスパ重視の方におすすめ。
+                  月額1万円前後で通えるスタジオ。グループレッスンやサーキット形式で気軽に始められます。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Pilates Studio Harmony 代々木上原</li>
-                  <li className="text-warm-700">• Reformer Pilates YoyogiUehara</li>
-                  <li className="text-warm-700">• FLOW PILATES 代々木上原</li>
+                  <li className="text-warm-700">• URBAN CLASSIC PILATES（月額7,800円〜）</li>
+                  <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• studio GOD（チケット制・入会金なし）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">マシン完備</h3>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  最新のリフォーマーマシンを完備。マシンピラティスを本格的に学びたい方におすすめ。
+                  マンツーマン指導で効果を最大化。姿勢改善や身体の不調にしっかり向き合いたい方に。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates 代々木上原</li>
-                  <li className="text-warm-700">• WECLE 代々木上原</li>
-                  <li className="text-warm-700">• the SILK 代々木上原</li>
+                  <li className="text-warm-700">• Econa pilates studio（体験無料）</li>
+                  <li className="text-warm-700">• PILATES YOGA &a</li>
+                  <li className="text-warm-700">• 3731BODYWORX</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・ミナミの中心</h3>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・通いやすさ</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  代々木上原駅から徒歩3分以内。おしゃれなセレクトショップ・カフェ、高所得層・感度の高い層し、ショッピングや食事も楽しめる。
+                  代々木上原駅から徒歩2分以内。小田急線・千代田線からのアクセスが抜群。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Urban Pilates 代々木上原（駅徒歩1分）</li>
-                  <li className="text-warm-700">• the SILK 代々木上原（駅徒歩2分）</li>
-                  <li className="text-warm-700">• zen place pilates 代々木上原（駅徒歩3分）</li>
+                  <li className="text-warm-700">• URBAN CLASSIC PILATES（駅徒歩1分）</li>
+                  <li className="text-warm-700">• studio GOD（駅徒歩1分）</li>
+                  <li className="text-warm-700">• Wellness Hub TOKYO（駅徒歩1分）</li>
                 </ul>
               </div>
             </div>
@@ -509,38 +453,38 @@ export default function YoyogiUeharaPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜12,000円</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円/月</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">グループ</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。初心者向けの基本的なレッスンが多い。
+                  サーキット形式やグループレッスン中心。初心者が気軽に始められる。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Pilates Studio Harmony</li>
-                  <li>• Reformer Pilates</li>
+                  <li>• URBAN CLASSIC PILATES（月額7,800円〜）</li>
+                  <li>• studio GOD（チケット制）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 12,000〜16,000円</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 10,000〜15,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
                   マシン完備の大手スタジオ。グループ・プライベート選択可。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates</li>
-                  <li>• ピラティスK</li>
-                  <li>• the SILK</li>
+                  <li>• zen place pilates（月4回 10,450円〜）</li>
+                  <li>• URBAN CLASSIC PILATES（通い放題 14,080円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 30,000円〜</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 30,000円〜/月</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">パーソナル</p>
                 <p className="text-sm text-warm-600 mb-4">
                   完全プライベートレッスン。短期集中で結果を出したい方向け。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• B-line（1回8,800円）</li>
-                  <li>• Pilates Lab</li>
+                  <li>• Econa pilates（1回 8,900円〜）</li>
+                  <li>• &a アンドエー（1回 約9,075円〜）</li>
+                  <li>• 3731BODYWORX（1回 8,600円〜）</li>
                 </ul>
               </div>
             </div>
@@ -569,7 +513,7 @@ export default function YoyogiUeharaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  代々木上原エリアの料金相場は月4回で12,000円〜16,000円程度。無理なく継続できる予算を決めましょう。料金だけでなく、入会金、マット・ウェアのレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  代々木上原エリアの料金相場は、グループレッスン月4回で10,000円〜15,000円程度、パーソナルは1回8,000円〜10,000円程度。無理なく継続できる予算を決めましょう。料金だけでなく、入会金やレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -578,7 +522,7 @@ export default function YoyogiUeharaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。多くのスタジオが無料〜1,000円程度で体験レッスンを提供しているので、気軽に試してみてくださいね。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。代々木上原エリアでは無料〜5,500円程度で体験レッスンを提供しているスタジオが多いので、気軽に試してみてくださいね。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -587,7 +531,7 @@ export default function YoyogiUeharaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  どんなに良いスタジオでも、通いにくい場所にあると続きません。代々木上原はミナミの中心で、小田急小田原線、地下鉄千代田線が利用可能。高級住宅街です。駅から近い場所を選ぶと、道頓堀・心斎橋でのショッピングや食事ついでにも通えて便利ですよ。
+                  どんなに良いスタジオでも、通いにくい場所にあると続きません。代々木上原は小田急小田原線と東京メトロ千代田線が利用でき、渋谷・新宿・表参道からのアクセスも良好。閑静な住宅街で落ち着いた雰囲気のエリアです。駅から近いスタジオを選ぶと、仕事帰りや買い物ついでにも通えて便利ですよ。
                 </p>
               </div>
             </div>
@@ -630,7 +574,7 @@ export default function YoyogiUeharaPage() {
               今回は代々木上原のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では代々木上原に数多くあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              代々木上原は小田急線と千代田線が利用できる便利な立地で、駅徒歩1〜5分圏内に多くのピラティススタジオが集まっています。グループレッスンからパーソナルまで、自分に合ったスタイルで始められるのが魅力です。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
@@ -648,11 +592,11 @@ export default function YoyogiUeharaPage() {
               体験レッスンを予約しよう
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜1,000円。<br />
+              初回限定の体験レッスン無料〜5,500円。<br />
               まずは気軽に体験してみましょう。
             </p>
-            <Link 
-              href="/#studios" 
+            <Link
+              href="/#studios"
               className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded"
             >
               おすすめスタジオ一覧に戻る

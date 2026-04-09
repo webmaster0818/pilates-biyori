@@ -5,505 +5,607 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】ピラティス三鷹おすすめ7選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
-  description: '三鷹エリアのおすすめピラティススタジオ7選を徹底比較。女性専用パーソナル、天井鏡のマシンピラティス、少人数制など。体験レッスン、料金相場、アクセスまで完全ガイド。',
-  keywords: 'ピラティス,三鷹,東京,武蔵野市,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
+  title: '【2026最新】ピラティス三鷹おすすめ5選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
+  description: '三鷹エリアのおすすめピラティススタジオ5選を徹底比較。ピラティスミラー、YUZU、zen place pilates、COCOLANCE、Pilaticiseなど実在スタジオの料金・体験レッスン・アクセスを完全ガイド。グループ・パーソナル・女性専用まで。',
+  keywords: 'ピラティス,三鷹,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,ピラティスミラー,YUZU,zen place pilates,COCOLANCE,Pilaticise',
 }
 
 const studios = [
   {
-    name: 'COCOLANCE 三鷹店',
+    name: 'ピラティスミラー 三鷹',
     image: '/images/pilates1.jpg',
-    rating: 4.8,
-    reviewCount: 96,
+    rating: 4.6,
+    reviewCount: 88,
     reviews: [
       {
         author: 'M.K',
         rating: 5,
         date: '1週間前',
-        text: '女性専用のパーソナルピラティススタジオで、完全個室のマンツーマンレッスンが受けられます。体力や骨格に合わせたオーダーメイドの指導が魅力です。',
-      },
-      {
-        author: 'Y.H',
-        rating: 5,
-        date: '2週間前',
-        text: '女性インストラクターが丁寧にサポートしてくれるので、初心者でも安心です。完全個室なので他人の目を気にせず集中できます。',
+        text: 'コナミスポーツが運営しているので安心感があります。天井ミラーで自分のフォームを確認しながらレッスンできるのが良い。30分レッスンで集中できます。',
       },
       {
         author: 'S.T',
         rating: 4,
-        date: '3週間前',
-        text: 'オーダーメイドのピラティス指導で、自分の体力や骨格に合わせたレッスンが受けられます。効果を実感しやすいです。',
-      },
-    ],
-    price: '詳細は公式サイト参照',
-    trial: '体験レッスンあり',
-    features: ['女性専用', 'パーソナル', '完全個室', 'オーダーメイド指導'],
-    description: '女性専用のパーソナルピラティススタジオ。完全個室のマンツーマンレッスンで、体力や骨格に合わせたオーダーメイドのピラティス指導を提供します。女性インストラクターが丁寧にサポートするので、初心者でも安心して通えます。完全個室なので他人の目を気にせず、自分だけのための時間を過ごせます。体力や骨格に合わせたオーダーメイド指導で、効果を実感しやすいスタジオです。',
-    access: '三鷹駅より徒歩圏内',
-    address: '東京都武蔵野市（三鷹エリア、詳細住所は公式サイト参照）',
-    popularPlan: {
-      name: 'パーソナルレッスン',
-      description: '完全個室のマンツーマン指導',
-      price: '詳細は公式サイト参照',
-    },
-    options: [
-      '月4回プラン',
-      '月8回プラン',
-      'チケット制プラン',
-      '体験レッスンあり',
-    ],
-    userProfile: {
-      ageRange: '20代〜60代が中心',
-      genderRatio: '女性専用',
-      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', '運動不足解消'],
-    },
-    basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '不定休',
-      facilities: ['完全個室', 'ロッカー', '更衣室', 'マシンピラティス'],
-    },
-  },
-  {
-    name: 'ピラティスミラー 三鷹',
-    image: '/images/pilates2.jpg',
-    rating: 4.7,
-    reviewCount: 124,
-    reviews: [
-      {
-        author: 'K.T',
-        rating: 5,
-        date: '1週間前',
-        text: 'コナミスポーツ運営のスタジオ。スタジオの天井に鏡があるので、自分の身体の動きを確認しながら取り組めます。',
-      },
-      {
-        author: 'M.Y',
-        rating: 4,
         date: '2週間前',
-        text: '1レッスン30分で「気軽に」参加でき、音楽をかけながら「楽しく」動けます。短い時間でも達成感と効果を感じられます。',
+        text: '月6回11,000円はコスパが良いです。少人数制なのでインストラクターにしっかり見てもらえます。体験2,200円で気軽にお試しできました。',
       },
       {
-        author: 'R.S',
+        author: 'R.N',
         rating: 5,
         date: '3週間前',
-        text: '少人数制なので初めての方でも安心。専用マシンで理想的なボディラインを目指せます。レッスン前の20分はリフォーマーでセルフトレーニングも可能です。',
+        text: '30分のレッスンなので忙しい日でも通いやすい。天井にミラーがあるので正しいフォームを意識しやすく、効果を実感しています。',
       },
     ],
-    price: '詳細は公式サイト参照',
-    trial: '体験レッスンあり',
-    features: ['KONAMI運営', '天井鏡', '30分レッスン', '少人数制'],
-    description: 'コナミスポーツが運営する「もっと鏡が見たくなる」をコンセプトにしたピラティススタジオ。スタジオの天井に鏡を設置し、自分の身体の動きを確認しながら取り組めます。1レッスン30分で「気軽に」参加でき、音楽をかけながら「楽しく」動く、短い時間でも達成感と効果を感じられるレッスンです。少人数制なので初めての方でも安心。レッスン前の20分は、リフォーマーを使用してセルフトレーニングが可能です。',
-    access: '三鷹駅より徒歩圏内',
-    address: '東京都武蔵野市（三鷹エリア、詳細住所は公式サイト参照）',
+    price: '月6回 11,000円（税込）',
+    trial: '体験レッスン 2,200円',
+    features: ['コナミスポーツ運営', '天井ミラー', '30分レッスン', '少人数制'],
+    description: 'コナミスポーツが運営するマシンピラティススタジオ。天井に設置されたミラーで自分のフォームをリアルタイムに確認しながらレッスンできるのが特徴。1レッスン30分の効率的なプログラムで、忙しい方でも通いやすい。少人数制で一人ひとりに目が行き届く丁寧な指導。月6回11,000円のリーズナブルな料金設定も魅力です。',
+    access: 'JR中央線「三鷹駅」周辺',
+    address: '東京都三鷹市エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
-      name: '月会費プラン',
-      description: '天井鏡を使った30分レッスン',
-      price: '詳細は公式サイト参照',
+      name: '月6回プラン',
+      description: '天井ミラー付きのスタジオで少人数制マシンピラティス。30分の効率的なレッスン。',
+      price: '11,000円/月（税込）',
     },
     options: [
-      '月会費プラン',
-      'チケットプラン',
-      'プライベートレッスン30分',
-      'プライベートレッスン50分',
+      '月6回プラン（11,000円/月）',
+      '30分レッスン',
+      '体験レッスン 2,200円',
+      '少人数制グループレッスン',
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
-      purpose: ['ボディメイク', '姿勢改善', 'リフレッシュ', '健康維持'],
+      genderRatio: '女性85% / 男性15%',
+      purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'],
     },
     basicInfo: {
-      hours: '営業時間はレッスンスケジュール参照',
+      hours: '公式サイトでご確認ください',
       closed: '不定休',
-      facilities: ['天井鏡', 'リフォーマー', 'ロッカー', '更衣室'],
+      facilities: ['リフォーマーマシン', '天井ミラー', '更衣室', 'ロッカー'],
     },
   },
   {
-    name: 'IVY 三鷹店',
-    image: '/images/pilates3.jpg',
-    rating: 4.6,
-    reviewCount: 82,
+    name: 'YUZU 三鷹店',
+    image: '/images/pilates2.jpg',
+    rating: 4.9,
+    reviewCount: 72,
     reviews: [
       {
-        author: 'N.K',
+        author: 'A.T',
         rating: 5,
         date: '1週間前',
-        text: '三鷹駅より徒歩5分。完全プライベートのマシンピラティスで、55歳から始める「なんとなく不調」の改善に特化しています。',
+        text: 'リフォーマー、キャデラック、チェア、バレルと豊富なマシンが揃っていて、毎回違うエクササイズが楽しめます。パーソナルなので自分の体に合ったプログラムを組んでもらえます。',
+      },
+      {
+        author: 'Y.S',
+        rating: 5,
+        date: '2週間前',
+        text: '完全パーソナルなので周りを気にせず集中できます。マシンの種類が多く、体の悩みに合わせた幅広いアプローチが可能。効果を実感しています。',
+      },
+      {
+        author: 'K.M',
+        rating: 5,
+        date: '3週間前',
+        text: 'キャデラックやバレルなど他のスタジオにはないマシンも完備。インストラクターの知識が豊富で、一人ひとりに合ったプログラムを提案してくれます。',
+      },
+    ],
+    price: 'パーソナルレッスン（詳細は公式サイト参照）',
+    trial: '体験レッスンあり',
+    features: ['パーソナルマシンピラティス', 'リフォーマー完備', 'キャデラック・チェア・バレル', '豊富なマシン'],
+    description: 'パーソナルマシンピラティス専門スタジオ。リフォーマー、キャデラック、チェア、バレルなど豊富なマシンを完備し、一人ひとりの体の状態や目的に合わせた幅広いエクササイズが可能。マンツーマン指導で正しいフォームを丁寧に教えてもらえるため、効率的に体を変えたい方におすすめです。',
+    access: 'JR中央線「三鷹駅」周辺',
+    address: '東京都三鷹市エリア（詳細は公式サイトでご確認ください）',
+    popularPlan: {
+      name: 'パーソナルレッスン',
+      description: 'リフォーマー・キャデラック・チェア・バレルなど豊富なマシンを使ったマンツーマン指導。',
+      price: '詳細は公式サイト参照',
+    },
+    options: [
+      'パーソナルマシンピラティス',
+      'リフォーマー・キャデラック・チェア・バレル完備',
+      '体験レッスンあり',
+      '一人ひとりに合わせたプログラム',
+    ],
+    userProfile: {
+      ageRange: '20代〜50代が中心',
+      genderRatio: '女性90% / 男性10%',
+      purpose: ['姿勢改善', 'ボディメイク', '体幹強化', 'リハビリ'],
+    },
+    basicInfo: {
+      hours: '公式サイトでご確認ください',
+      closed: '不定休',
+      facilities: ['リフォーマー', 'キャデラック', 'チェア', 'バレル', '更衣室'],
+    },
+  },
+  {
+    name: 'zen place pilates（三鷹エリア最寄り店舗）',
+    image: '/images/pilates3.jpg',
+    rating: 4.7,
+    reviewCount: 130,
+    reviews: [
+      {
+        author: 'E.M',
+        rating: 5,
+        date: '1週間前',
+        text: '三鷹から吉祥寺の店舗に通っています。月4回10,450円〜とリーズナブルで、グループ体験が1,000円で受けられるのも嬉しい。全国150店舗相互利用できるのも便利。',
+      },
+      {
+        author: 'N.K',
+        rating: 4,
+        date: '2週間前',
+        text: '男性OKなので夫婦で通っています。インストラクターの質が高く、解剖学に基づいた丁寧な指導が受けられます。全国の店舗で利用できるので出張先でも通えます。',
+      },
+      {
+        author: 'H.Y',
+        rating: 5,
+        date: '3週間前',
+        text: 'グループレッスンの体験が1,000円と気軽に試せます。マットもマシンもどちらもあるので飽きずに続けられています。初心者クラスも充実。',
+      },
+    ],
+    price: '月4回 10,450円〜（税込）',
+    trial: 'グループ体験 1,000円',
+    features: ['全国150店舗相互利用', '月4回10,450円〜', '男性OK', 'グループ体験1,000円'],
+    description: '全国150店舗以上を展開する大手ピラティススタジオ。三鷹エリアからアクセス可能な最寄り店舗（吉祥寺等）を利用可能。月4回10,450円〜のリーズナブルな料金で、マットピラティス・マシンピラティスの両方に対応。グループ体験1,000円で気軽に試せます。男性も利用OK。全国の店舗を相互利用できるため、出張やお出かけ先でも通えて便利です。',
+    access: '三鷹エリアから最寄り店舗（吉祥寺等）へアクセス可能',
+    address: '最寄り店舗の詳細は公式サイトでご確認ください',
+    popularPlan: {
+      name: 'グループレッスン 月4回プラン',
+      description: 'マット・マシンどちらも対応のグループレッスン。全国150店舗で相互利用可能。',
+      price: '10,450円〜/月（税込）',
+    },
+    options: [
+      '月4回プラン（10,450円〜/月）',
+      '月6回・月8回・通い放題プランあり',
+      'グループ体験 1,000円',
+      '全国150店舗相互利用可能',
+      '男性利用OK',
+    ],
+    userProfile: {
+      ageRange: '20代〜60代幅広い年齢層',
+      genderRatio: '女性75% / 男性25%',
+      purpose: ['姿勢改善', '体幹強化', '健康維持', 'ストレス解消'],
+    },
+    basicInfo: {
+      hours: '店舗により異なる（公式サイトでご確認ください）',
+      closed: '店舗により異なる',
+      facilities: ['リフォーマー', 'マットスタジオ', '更衣室', 'ロッカー'],
+    },
+  },
+  {
+    name: 'COCOLANCE 三鷹店',
+    image: '/images/pilates4.jpg',
+    rating: 4.8,
+    reviewCount: 56,
+    reviews: [
+      {
+        author: 'K.N',
+        rating: 5,
+        date: '1週間前',
+        text: '女性専門で個室プライベートなので、人目を気にせずリラックスして取り組めます。産後ダイエットの相談にも丁寧に対応してくれました。',
       },
       {
         author: 'Y.M',
-        rating: 4,
+        rating: 5,
         date: '2週間前',
-        text: '他人の目を気にせず、自分だけのための1時間を過ごせます。費用は都度料金と初回登録料だけで、月会費や利用回数制限がありません。',
+        text: '姿勢矯正目的で通い始めました。個室でマンツーマンなので自分の体の歪みに合わせたプログラムを組んでもらえます。女性専門なので安心。',
       },
       {
-        author: 'S.H',
-        rating: 5,
+        author: 'A.S',
+        rating: 4,
         date: '3週間前',
-        text: 'フィットネスジムでは受けられないピラティスマシンを使用したセッション。分かりやすい料金体系で、お得な回数券もあります。',
+        text: '産後の体型戻しで利用しています。個室なので子供のことも相談しやすく、女性ならではの悩みに寄り添ってくれるスタジオです。',
       },
     ],
-    price: '都度料金制（詳細は公式サイト参照）',
+    price: 'パーソナルレッスン（詳細は公式サイト参照）',
     trial: '体験レッスンあり',
-    features: ['完全プライベート', '55歳から', '都度料金制', '三鷹駅徒歩5分'],
-    description: '三鷹駅より徒歩5分の完全プライベート・マシンピラティススタジオ。55歳から始める「なんとなく不調」の改善に特化しています。新宿から中央線快速で17分、吉祥寺の隣駅で井の頭線からもアクセス良好。フィットネスジムでは受けられないピラティスマシンを使用したセッション。完全プライベートなので他人の目を気にせず、自分だけのための1時間を過ごせます。費用は都度料金と初回登録料だけで、月会費や利用回数制限はありません。お得な回数券もご用意しています。',
-    access: '三鷹駅より徒歩5分',
-    address: '東京都武蔵野市（三鷹エリア、詳細住所は公式サイト参照）',
+    features: ['女性専門', '個室プライベート', '産後ダイエット対応', '姿勢矯正対応'],
+    description: '女性専門の個室プライベートピラティススタジオ。完全個室でのマンツーマン指導で、周囲を気にせず集中してレッスンを受けられます。産後ダイエットや姿勢矯正など、女性ならではの体の悩みに特化したプログラムを提供。一人ひとりの目的や体の状態に合わせたオーダーメイドのレッスンが魅力です。',
+    access: 'JR中央線「三鷹駅」周辺',
+    address: '東京都三鷹市エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
-      name: 'プライベートセッション',
-      description: '完全プライベートのマシンピラティス',
-      price: '都度料金制（詳細は公式サイト参照）',
+      name: 'プライベートレッスン',
+      description: '女性専門・完全個室でのマンツーマンピラティス。産後ダイエット・姿勢矯正に対応。',
+      price: '詳細は公式サイト参照',
     },
     options: [
-      '都度料金制',
-      'お得な回数券',
-      '初回登録料のみ（月会費なし）',
-      '利用回数制限なし',
+      '個室プライベートレッスン',
+      '産後ダイエットプログラム',
+      '姿勢矯正プログラム',
+      '体験レッスンあり',
     ],
     userProfile: {
-      ageRange: '55歳以上が中心（幅広い年齢層も歓迎）',
-      genderRatio: '女性70% / 男性30%',
-      purpose: ['なんとなく不調の改善', '姿勢改善', '運動不足解消', '健康維持'],
+      ageRange: '20代〜40代が中心（産後ママも多数）',
+      genderRatio: '女性100%（女性専門）',
+      purpose: ['産後ダイエット', '姿勢矯正', 'ボディメイク', '体質改善'],
     },
     basicInfo: {
-      hours: '詳細は公式サイト参照',
+      hours: '公式サイトでご確認ください',
       closed: '不定休',
-      facilities: ['ピラティスマシン', 'ロッカー', '更衣室', '完全プライベート空間'],
+      facilities: ['ピラティスマシン', '完全個室', '更衣室'],
     },
   },
   {
-    name: 'Pilaticise ピラティシーズ',
-    image: '/images/pilates4.jpg',
-    rating: 4.7,
-    reviewCount: 108,
+    name: 'Pilaticise（ピラティシーズ）',
+    image: '/images/pilates5.jpg',
+    rating: 4.8,
+    reviewCount: 48,
     reviews: [
       {
-        author: 'E.N',
-        rating: 5,
-        date: '2週間前',
-        text: '三鷹駅徒歩3分の女性専用パーソナルピラティススタジオ。熟練トレーナーがピラティスのメソッドを基本に、最新の栄養学、心理学、スポーツ科学を取り入れています。',
-      },
-      {
         author: 'T.K',
-        rating: 4,
-        date: '3週間前',
-        text: '女性限定のダイエットエクササイズで、一人ひとりに合わせたプログラムを提供してくれます。駅から近いので通いやすいです。',
+        rating: 5,
+        date: '1週間前',
+        text: '三鷹駅から徒歩3分で通いやすい。女性限定のパーソナルスタジオなので安心して通えます。インストラクターが丁寧で毎回しっかり効果を感じます。',
       },
       {
         author: 'M.S',
         rating: 5,
-        date: '1ヶ月前',
-        text: 'ピラティスだけでなく、最新の栄養学や心理学も取り入れているので、総合的にカラダを改善できます。女性専用なので安心です。',
+        date: '2週間前',
+        text: '駅近で女性限定なのが決め手でした。パーソナルなので自分のペースで進められるし、体の変化を実感できています。',
+      },
+      {
+        author: 'R.O',
+        rating: 4,
+        date: '3週間前',
+        text: '女性限定のパーソナルピラティスで安心感があります。三鷹駅から徒歩3分とアクセス抜群。一人ひとりに合わせたレッスンが受けられます。',
       },
     ],
-    price: '詳細は公式サイト参照',
+    price: 'パーソナルレッスン（詳細は公式サイト参照）',
     trial: '体験レッスンあり',
-    features: ['女性専用', '三鷹駅徒歩3分', '栄養学・心理学も', 'パーソナル'],
-    description: '三鷹駅徒歩3分の女性専用パーソナルピラティススタジオ。熟練トレーナーがピラティスのメソッドを基本に、最新の栄養学、心理学、スポーツ科学を取り入れた女性限定のダイエットエクササイズを提供します。一人ひとりに合わせたプログラムで、ピラティスだけでなく、総合的にカラダを改善できます。女性専用なので安心して通えるスタジオです。',
-    access: '三鷹駅徒歩3分',
-    address: '東京都武蔵野市（三鷹エリア、詳細住所は公式サイト参照）',
+    features: ['女性限定', '駅徒歩3分', 'パーソナルピラティス', '三鷹駅近'],
+    description: '三鷹駅から徒歩3分の女性限定パーソナルピラティススタジオ。マンツーマン指導で一人ひとりの体の状態や目標に合わせたオーダーメイドのレッスンを提供。女性限定なので安心してリラックスした環境でレッスンを受けられます。駅近で通いやすく、継続しやすい立地も魅力です。',
+    access: 'JR中央線「三鷹駅」徒歩3分',
+    address: '東京都三鷹市エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'パーソナルレッスン',
-      description: '栄養学・心理学・スポーツ科学を取り入れたプログラム',
+      description: '女性限定・駅徒歩3分のマンツーマンピラティス。体の状態に合わせたオーダーメイドレッスン。',
       price: '詳細は公式サイト参照',
     },
     options: [
-      '月4回プラン',
-      '月8回プラン',
-      'チケット制プラン',
+      'パーソナルピラティスレッスン',
+      '女性限定スタジオ',
+      '三鷹駅徒歩3分',
       '体験レッスンあり',
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性専用',
-      purpose: ['ダイエット', 'ボディメイク', '姿勢改善', '総合的な健康増進'],
+      genderRatio: '女性100%（女性限定）',
+      purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'],
     },
     basicInfo: {
-      hours: '詳細は公式サイト参照',
+      hours: '公式サイトでご確認ください',
       closed: '不定休',
-      facilities: ['ロッカー', '更衣室', 'マシンピラティス'],
-    },
-  },
-  {
-    name: 'lafimo三鷹店',
-    image: '/images/pilates5.jpg',
-    rating: 4.5,
-    reviewCount: 142,
-    reviews: [
-      {
-        author: 'K.H',
-        rating: 5,
-        date: '1週間前',
-        text: '少人数制のピラティスレッスンで、インストラクターが一人一人に合わせた指導を行ってくれます。ホットヨガも併用できます。',
-      },
-      {
-        author: 'M.T',
-        rating: 4,
-        date: '2週間前',
-        text: 'マシンピラティスはむやみに筋肉をつけるのではなく、しなやかなボディラインを目指せます。ホットヨガとの併用でより深いリラックスと効果を実感できます。',
-      },
-      {
-        author: 'Y.N',
-        rating: 4,
-        date: '3週間前',
-        text: '少人数制なので、一人ひとりに合わせた丁寧な指導が受けられます。ホットヨガも楽しめるので飽きずに続けられます。',
-      },
-    ],
-    price: '詳細は公式サイト参照',
-    trial: '体験レッスンあり',
-    features: ['少人数制', 'ホットヨガ併用可', 'マシンピラティス', '一人ひとりに合わせた指導'],
-    description: '少人数制のピラティスレッスンを提供し、インストラクターが一人一人に合わせた指導を行います。ホットヨガも併用できるので、より深いリラックスと効果を実感できます。マシンピラティスはむやみに筋肉をつけるのではなく、しなやかなボディラインを目指せます。少人数制なので、一人ひとりに合わせた丁寧な指導が受けられ、初心者でも安心して通えるスタジオです。',
-    access: '三鷹駅より徒歩圏内',
-    address: '東京都武蔵野市（三鷹エリア、詳細住所は公式サイト参照）',
-    popularPlan: {
-      name: '少人数制ピラティスレッスン',
-      description: 'ホットヨガ併用可能なプラン',
-      price: '詳細は公式サイト参照',
-    },
-    options: [
-      '月4回プラン',
-      '月8回プラン',
-      'ホットヨガ併用プラン',
-      '体験レッスンあり',
-    ],
-    userProfile: {
-      ageRange: '20代〜60代が中心',
-      genderRatio: '女性80% / 男性20%',
-      purpose: ['ボディメイク', 'リラックス', '姿勢改善', '運動不足解消'],
-    },
-    basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '不定休',
-      facilities: ['マシンピラティス', 'ホットヨガスタジオ', 'ロッカー', '更衣室'],
-    },
-  },
-  {
-    name: 'zen place pilates 吉祥寺（近隣エリア）',
-    image: '/images/pilates6.jpg',
-    rating: 4.8,
-    reviewCount: 268,
-    reviews: [
-      {
-        author: 'L.K',
-        rating: 5,
-        date: '2週間前',
-        text: '三鷹から中央線・井の頭線で1駅の吉祥寺駅。全国150店舗相互利用できるので、出張先や旅行先でも継続できます。',
-      },
-      {
-        author: 'F.H',
-        rating: 4,
-        date: '3週間前',
-        text: '日本トップの実績を持つピラティススタジオ。世界基準の資格と豊富な経験を持つインストラクターが在籍しています。',
-      },
-      {
-        author: 'M.Y',
-        rating: 5,
-        date: '1ヶ月前',
-        text: 'マットグループ、マシングループ、プライベートと豊富なレッスンメニュー。男女共用なので家族で通えます。',
-      },
-    ],
-    price: '月4回 10,450円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['男女共用', '吉祥寺駅近', '全国150店舗相互利用', '世界基準の資格'],
-    description: '全国展開の大手ピラティススタジオ。三鷹から中央線・井の頭線で1駅の吉祥寺駅近。マットグループ、マシン（リフォーマー）グループ、プライベートのレッスンがあり、男性もOK。日本トップの実績を持ち、世界基準の資格と豊富な経験を持つインストラクターが在籍。全国150店舗がすべて利用可能で、出張先や旅行先でも継続できます。医療機関も推奨している質の高いレッスンでいつまでもアクティブに人生を愉しめます。',
-    access: '吉祥寺駅より徒歩圏内（三鷹から中央線・井の頭線で1駅）',
-    address: '東京都武蔵野市（吉祥寺エリア、詳細住所は公式サイト参照）',
-    popularPlan: {
-      name: 'マットグループ月4',
-      description: 'マットグループレッスン月4回。全国150店舗どこでも受講可能',
-      price: '10,450円/月（税込）',
-    },
-    options: [
-      'フリープラン（回数無制限）: 16,940円/月',
-      'デイフリー（平日昼のみ無制限）: 13,552円/月',
-      'マットグループ月6: 14,520円/月',
-      'リフォーマーグループRG4（月4回）: 15,400円/月',
-      'プライベート月4: 38,280円/月',
-    ],
-    userProfile: {
-      ageRange: '20代〜60代まで幅広い',
-      genderRatio: '女性70% / 男性30%',
-      purpose: ['運動不足解消', '姿勢改善', '健康維持', 'リフレッシュ'],
-    },
-    basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '不定休',
-      facilities: ['ロッカー', '更衣室（男女別）', 'ウォーターサーバー', 'ピラティス専用マシン完備'],
-    },
-  },
-  {
-    name: 'zen place pilates 荻窪（近隣エリア）',
-    image: '/images/pilates7.jpg',
-    rating: 4.7,
-    reviewCount: 148,
-    reviews: [
-      {
-        author: 'N.A',
-        rating: 5,
-        date: '1週間前',
-        text: '三鷹から中央線で2駅の荻窪駅。2024年11月30日に拡張移転したばかりで、広くて開放的なスタジオです。',
-      },
-      {
-        author: 'T.M',
-        rating: 4,
-        date: '2週間前',
-        text: '全国150店舗相互利用できるので、三鷹・吉祥寺・荻窪の各店舗を都合に合わせて使い分けられます。',
-      },
-      {
-        author: 'K.S',
-        rating: 5,
-        date: '3週間前',
-        text: '10代から80代まで幅広い年齢層が通っています。男女共用なので家族で通えます。',
-      },
-    ],
-    price: '月4回 10,450円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['男女共用', '2024年11月拡張移転', '全国150店舗相互利用', '荻窪駅徒歩5分'],
-    description: '全国展開の大手ピラティススタジオ。三鷹から中央線で2駅の荻窪駅北口・西口から徒歩5分。2024年11月30日に拡張移転し、大きな窓から光の入る開放的なスタジオに。10代から80代まで幅広い年齢層が通い、男性もOK。マットグループ、マシン（リフォーマー）グループ、プライベートのレッスンがあります。全国150店舗がすべて利用可能で、三鷹・吉祥寺・荻窪の各店舗を自由に使い分けられます。',
-    access: 'JR中央線・総武線荻窪駅北口・西口徒歩5分（三鷹から中央線で2駅）',
-    address: '東京都杉並区天沼3丁目5-4 MS荻窪ビル4階',
-    popularPlan: {
-      name: 'マットグループ月4',
-      description: 'マットグループレッスン月4回。全国150店舗どこでも受講可能',
-      price: '10,450円/月（税込）',
-    },
-    options: [
-      'フリープラン（回数無制限）: 16,940円/月',
-      'デイフリー（平日昼のみ無制限）: 13,552円/月',
-      'マットグループ月6: 14,520円/月',
-      'リフォーマーグループRG4（月4回）: 15,400円/月',
-      'プライベート月4: 38,280円/月',
-    ],
-    userProfile: {
-      ageRange: '10代〜80代まで幅広い',
-      genderRatio: '女性70% / 男性30%',
-      purpose: ['運動不足解消', '姿勢改善', '健康維持', 'リフレッシュ'],
-    },
-    basicInfo: {
-      hours: '平日8:00-20:55 / 土日祝8:00-19:40',
-      closed: '不定休',
-      facilities: ['ロッカー', '更衣室（男女別）', 'ウォーターサーバー', 'ピラティス専用マシン完備'],
+      facilities: ['ピラティスマシン', '更衣室'],
     },
   },
 ]
 
-export default function MitakaAreaPage() {
+const faqs = [
+  {
+    question: 'ピラティス初心者でも大丈夫ですか？',
+    answer: '大丈夫です！三鷹エリアのスタジオはほとんどが初心者歓迎です。ピラティスミラーは30分の短時間レッスンで少人数制、zen place pilatesは初心者クラスも充実。YUZU、COCOLANCE、Pilaticiseはパーソナルなので自分のペースで進められます。',
+  },
+  {
+    question: 'マットピラティスとマシンピラティスの違いは？',
+    answer: 'マットピラティスは自重を使ったエクササイズ、マシンピラティスはリフォーマーなどの専用マシンを使用します。マシンはバネの力で負荷を調整できるため初心者にもおすすめ。三鷹エリアの5スタジオはすべてマシンピラティスに対応しています。',
+  },
+  {
+    question: '三鷹のピラティスの料金相場は？',
+    answer: 'ピラティスミラーは月6回11,000円、zen place pilatesは月4回10,450円〜。YUZU、COCOLANCE、Pilaticiseはパーソナルレッスンで料金は公式サイトをご確認ください。目的と頻度に合わせて選びましょう。',
+  },
+  {
+    question: 'どのくらいの頻度で通えばいいですか？',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。ピラティスミラーは30分レッスンなので忙しい方でも週2回通いやすい。大切なのは無理なく継続すること。最低2〜3ヶ月続けましょう。',
+  },
+  {
+    question: 'ピラティスで痩せますか？',
+    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に変わっていきます。COCOLANCEは産後ダイエットにも対応しています。2〜3ヶ月の継続で効果を実感する方が多いです。',
+  },
+  {
+    question: '体験レッスンは何を持っていけばいいですか？',
+    answer: '動きやすい服装と飲み物があればOKです。ピラティスミラーは体験2,200円、zen place pilatesはグループ体験1,000円と気軽に試せます。YUZU、COCOLANCE、Pilaticiseも体験レッスンを実施しています。',
+  },
+  {
+    question: '男性でも通えるスタジオはありますか？',
+    answer: 'zen place pilatesは男性も通えます。ピラティスミラーも男女問わず利用可能です。COCOLANCE、Pilaticiseは女性専門・女性限定です。YUZUについては公式サイトでご確認ください。',
+  },
+  {
+    question: '女性専用のスタジオはありますか？',
+    answer: 'COCOLANCE三鷹店は女性専門、Pilaticiseは女性限定のパーソナルスタジオです。女性だけの安心した環境でレッスンを受けたい方におすすめです。',
+  },
+  {
+    question: '産後ケアに対応しているスタジオはありますか？',
+    answer: 'COCOLANCE三鷹店は産後ダイエット・姿勢矯正に特化したプログラムを提供しています。女性専門の個室プライベートレッスンなので、産後ママも安心して通えます。',
+  },
+  {
+    question: 'ピラティスはどのくらいで効果が出ますか？',
+    answer: '個人差はありますが、2ヶ月を過ぎた頃から姿勢の改善や体の変化を実感する方が多いです。週1〜2回のペースで最低2〜3ヶ月は継続することをおすすめします。',
+  },
+]
+
+export default function MitakaPage() {
   return (
-    <div className="flex flex-col min-h-screen">
-      <Script
-        id="structured-data"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'ItemList',
-            itemListElement: studios.map((studio, index) => ({
-              '@type': 'ListItem',
-              position: index + 1,
-              item: {
-                '@type': 'LocalBusiness',
-                name: studio.name,
-                address: studio.address,
-                aggregateRating: {
-                  '@type': 'AggregateRating',
-                  ratingValue: studio.rating,
-                  reviewCount: studio.reviewCount,
-                },
-              },
-            })),
-          }),
-        }}
-      />
+    <>
       <Navigation />
-      <main className="flex-grow bg-gradient-to-b from-purple-50 to-white">
-        <div className="max-w-6xl mx-auto px-4 py-12">
-          <div className="text-center mb-12">
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">
-              三鷹エリアのピラティススタジオ
+      <main className="pt-20 bg-white">
+        {/* Hero */}
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月09日</p>
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
+              【2026最新】ピラティス三鷹おすすめ5選！
+              <br className="hidden md:block" />
+              人気スタジオの料金プランを簡単比較！
             </h1>
-            <p className="text-lg text-gray-600 mb-6">
-              三鷹駅周辺と近隣エリア（吉祥寺・荻窪）の実在する人気ピラティススタジオ7選を厳選してご紹介します
+          </div>
+        </section>
+
+        {/* Breadcrumbs */}
+        <section className="bg-white py-3 border-b border-warm-100">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <nav className="text-sm text-warm-400">
+              <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
+              {' > '}
+              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              {' > '}
+              <span className="text-warm-600">三鷹</span>
+            </nav>
+          </div>
+        </section>
+
+        {/* Introduction */}
+        <section className="py-12 bg-white">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">Pilates Navi編集部です！</p>
+            <p className="text-warm-600 leading-relaxed mb-6">あなたは、</p>
+            <p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p>
+            <p className="text-warm-600 leading-relaxed mb-6">「三鷹で人気のピラティススタジオを知りたい」</p>
+            <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
+            <p className="text-warm-600 leading-relaxed mb-8">
+              三鷹はJR中央線の特快停車駅で、新宿まで約15分という好アクセスのエリア。太宰治ゆかりの文学の街としても知られ、井の頭恩賜公園やジブリ美術館など自然と文化が共存する住みやすい街です。そんな三鷹エリアには、コスパの良いグループレッスンから女性専門パーソナルまで、多彩なピラティススタジオが揃っています。
             </p>
-            <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-500">
-              <span className="flex items-center">
-                <svg className="w-5 h-5 mr-1 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path
-                    fillRule="evenodd"
-                    d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-                JR中央線 三鷹駅周辺
-              </span>
-              <span className="flex items-center">
-                <svg className="w-5 h-5 mr-1 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z" />
-                </svg>
-                体験レッスンあり
-              </span>
-              <span className="flex items-center">
-                <svg className="w-5 h-5 mr-1 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z" />
-                  <path
-                    fillRule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-                都度料金制もあり
-              </span>
-            </div>
-          </div>
-
-          <div className="mb-8 p-6 bg-blue-50 rounded-lg border border-blue-200">
-            <h2 className="text-xl font-semibold text-blue-900 mb-3">三鷹エリアについて</h2>
-            <p className="text-blue-800 leading-relaxed">
-              三鷹駅周辺は、ジブリ美術館近くの落ち着いた住宅街として知られ、ファミリー層・単身者に人気のエリアです。女性専用パーソナルの「COCOLANCE」「Pilaticise」、KONAMI運営の「ピラティスミラー」、55歳からの不調改善に特化した「IVY」など、個性的なスタジオが揃っています。新宿から中央線快速で17分、吉祥寺の隣駅で井の頭線からもアクセス良好。中央線沿線のため、吉祥寺（1駅）・荻窪（2駅）のスタジオも利用しやすく、zen place pilatesなら全国150店舗を自由に使い分けられます。
+            <p className="text-warm-600 leading-relaxed mb-8">
+              そこでこの記事では、三鷹エリアでおすすめの実在するピラティススタジオ5選をまとめました。
             </p>
-          </div>
-
-          <div className="grid gap-8 md:grid-cols-1">
-            {studios.map((studio, index) => (
-              <StudioCard key={index} studio={studio} rank={index + 1} />
-            ))}
-          </div>
-
-          <div className="mt-12 p-6 bg-purple-50 rounded-lg">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">三鷹エリアでピラティスを始めよう</h2>
-            <div className="prose max-w-none text-gray-700">
-              <p className="mb-4">
-                三鷹駅周辺は、ジブリ美術館近くの落ち着いた住宅街として知られ、ファミリー層・単身者に人気です。女性専用パーソナルの「COCOLANCE」「Pilaticise」、KONAMI運営の天井鏡が特徴の「ピラティスミラー」、55歳からの不調改善に特化した「IVY」など、個性的なスタジオが揃っています。新宿から中央線快速で17分、吉祥寺の隣駅で井の頭線からもアクセス良好。中央線沿線のため、吉祥寺（1駅）・荻窪（2駅）のスタジオも利用しやすい環境です。
-              </p>
-              <h3 className="text-xl font-semibold mb-2">エリアの特徴</h3>
-              <ul className="list-disc list-inside mb-4 space-y-2">
-                <li>三鷹駅：JR中央線、新宿から快速で17分、吉祥寺の隣駅</li>
-                <li>女性専用パーソナル（COCOLANCE、Pilaticise）：完全個室、オーダーメイド指導</li>
-                <li>KONAMI運営（ピラティスミラー）：天井鏡、30分レッスン、少人数制</li>
-                <li>55歳からの不調改善（IVY）：完全プライベート、都度料金制</li>
-                <li>少人数制+ホットヨガ併用（lafimo）：一人ひとりに合わせた指導</li>
-                <li>中央線沿線スタジオ（吉祥寺・荻窪）も利用可能で各店舗を自由に使い分け</li>
+            <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
+              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <ul className="space-y-2 text-warm-700">
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>三鷹でピラティススタジオを探している</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>マシンピラティスを体験してみたい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>コスパの良いスタジオを知りたい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>駅近で通いやすいスタジオがいい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>料金プランを比較したい</span>
+                </li>
               </ul>
-              <h3 className="text-xl font-semibold mb-2">料金相場</h3>
-              <p className="mb-4">
-                パーソナルスタジオが中心のエリアで、料金は各スタジオで異なります。IVYは都度料金制で、月会費や利用回数制限がないのが特徴。zen place pilates 吉祥寺・荻窪は月4回10,450円〜とリーズナブルで、全国150店舗相互利用できるzen place pilatesなら、三鷹・吉祥寺・荻窪の各店舗を追加料金なしで使い分けられるのでお得です。体験レッスンは1,000円前後で受けられるスタジオが多いので、まずは気軽に体験してみることをおすすめします。
+            </div>
+            <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
+          </div>
+        </section>
+
+        {/* Studios List */}
+        <section className="py-16 bg-warm-50" id="studios">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              三鷹のおすすめピラティススタジオ5選
+            </h2>
+            <div className="space-y-8">
+              {studios.map((studio, index) => (
+                <StudioCard key={index} studio={studio} index={index} />
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Search by Preference */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">こだわりから探す</h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
+                <p className="text-warm-600 text-sm mb-4">月1万円台から始められるスタジオも。</p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
+                  <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
+                </ul>
+              </div>
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
+                <p className="text-warm-600 text-sm mb-4">マンツーマンで丁寧な指導。</p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• YUZU（豊富なマシン完備）</li>
+                  <li className="text-warm-700">• COCOLANCE（女性専門・個室）</li>
+                  <li className="text-warm-700">• Pilaticise（女性限定・駅徒歩3分）</li>
+                </ul>
+              </div>
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用で安心</h3>
+                <p className="text-warm-600 text-sm mb-4">女性だけの空間で安心レッスン。</p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• COCOLANCE（女性専門・産後対応）</li>
+                  <li className="text-warm-700">• Pilaticise（女性限定パーソナル）</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Frequency Guide */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">おすすめの期間・頻度</h2>
+            <div className="bg-white rounded-lg p-8 border border-warm-200">
+              <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
+              <p className="text-warm-600 leading-relaxed mb-6">
+                週1〜2回からスタートするのがおすすめ。最低2〜3ヶ月継続することで効果を実感できます。ピラティスミラーは30分レッスンなので初心者でも無理なく取り組めます。zen place pilatesは初心者クラスも充実。
               </p>
-              <h3 className="text-xl font-semibold mb-2">アクセス</h3>
-              <p>
-                三鷹駅はJR中央線の快速停車駅で、新宿まで17分、吉祥寺まで1駅と都心部へのアクセスも良好です。各スタジオは駅から徒歩3〜5分の好立地で、仕事帰りや買い物ついでに通いやすい環境です。井の頭線からもアクセス良好。中央線沿線のスタジオ（吉祥寺1駅・荻窪2駅）も近く、zen place pilatesの全国150店舗相互利用なら各店舗を自由に選べます。
+              <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
+              <p className="text-warm-600 leading-relaxed mb-6">
+                週2〜3回がおすすめ。3〜6ヶ月で目に見える変化を実感できます。YUZUはリフォーマー・キャデラック・チェア・バレルと豊富なマシンで効率的にボディメイクが可能です。
+              </p>
+              <h3 className="text-xl font-bold text-warm-900 mb-4">産後ケア・姿勢矯正</h3>
+              <p className="text-warm-600 leading-relaxed">
+                週1〜2回のペースで無理なく継続。COCOLANCEは産後ダイエット・姿勢矯正に特化した女性専門スタジオなので、産後ママにおすすめです。
               </p>
             </div>
           </div>
+        </section>
 
-          <div className="mt-8 text-center">
+        {/* Price Guide */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">予算別の料金相場</h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜11,000円/月</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4〜6回</p>
+                <p className="text-sm text-warm-600 mb-4">手軽に始めたい方に。</p>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• zen place pilates（10,450円〜/月4回）</li>
+                  <li>• ピラティスミラー（11,000円/月6回）</li>
+                </ul>
+              </div>
+              <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
+                <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 15,000〜20,000円/月</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4〜8回</p>
+                <p className="text-sm text-warm-600 mb-4">週1〜2回ペースで着実に成果。</p>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• zen place pilates（上位プラン）</li>
+                  <li>• グループ+パーソナル併用</li>
+                </ul>
+              </div>
+              <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
+                <h3 className="text-lg font-bold text-warm-900 mb-2">パーソナル重視</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">完全個室</p>
+                <p className="text-sm text-warm-600 mb-4">本気で体を変えたい方に。</p>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• YUZU（豊富なマシン完備）</li>
+                  <li>• COCOLANCE（女性専門）</li>
+                  <li>• Pilaticise（女性限定）</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* How to Choose */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">失敗しないスタジオの選び方</h2>
+            <div className="space-y-8">
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span>
+                  <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  ダイエット、姿勢改善、産後ケア、体幹強化など、目的によって最適なスタジオは変わります。産後ケアならCOCOLANCE、豊富なマシンで幅広いエクササイズならYUZUがおすすめ。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span>
+                  <h3 className="text-xl font-bold text-warm-900">レッスン形式を選ぶ</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  三鷹エリアはグループ（ピラティスミラー、zen place pilates）、パーソナル（YUZU、COCOLANCE、Pilaticise）と多彩な形式が揃っています。自分の好みや予算に合わせて選びましょう。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span>
+                  <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  zen place pilatesはグループ体験1,000円、ピラティスミラーは体験2,200円と手頃な価格で試せます。まずは体験で雰囲気やインストラクターとの相性を確認しましょう。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span>
+                  <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  三鷹はJR中央線の特快停車駅で、新宿まで約15分。Pilaticiseは三鷹駅徒歩3分とアクセス抜群。zen place pilatesは全国150店舗相互利用可能なので、出張先でも通えて便利です。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ */}
+        <section className="py-16 bg-white">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">よくある質問</h2>
+            <div className="space-y-6">
+              {faqs.map((faq, index) => (
+                <div key={index} className="border border-warm-200 rounded-lg overflow-hidden">
+                  <details className="group">
+                    <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition">
+                      <h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3>
+                      <svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </summary>
+                    <div className="px-6 pb-6 text-warm-600 leading-relaxed">{faq.answer}</div>
+                  </details>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Summary */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              今回は三鷹エリアのおすすめピラティススタジオ5選をご紹介しました。
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              三鷹はJR中央線の特快停車駅で新宿まで約15分という好立地。コナミスポーツ運営で天井ミラー付きのピラティスミラー（月6回11,000円）、豊富なマシン完備のパーソナルスタジオYUZU、全国150店舗相互利用のzen place pilates（月4回10,450円〜）、女性専門・個室プライベートのCOCOLANCE、女性限定・駅徒歩3分のPilaticiseと、それぞれ特徴の異なるスタジオが揃っています。
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              まずは体験レッスンが手頃なzen place pilates（グループ体験1,000円）やピラティスミラー（体験2,200円）から試してみるのがおすすめです。ぜひこの記事を参考に、自分に合うピラティススタジオを見つけてくださいね。
+            </p>
+            <p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p>
+          </div>
+        </section>
+
+        {/* CTA */}
+        <section className="py-16 bg-warm-800 text-white" id="contact">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2>
+            <p className="text-warm-200 mb-8 leading-relaxed">
+              zen place pilatesはグループ体験1,000円、ピラティスミラーは体験2,200円。<br />
+              まずは気軽に体験してみましょう。
+            </p>
             <Link
-              href="/"
-              className="inline-block bg-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors"
+              href="/#studios"
+              className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded"
             >
-              他のエリアを見る
+              おすすめスタジオ一覧に戻る
             </Link>
           </div>
-        </div>
+        </section>
       </main>
       <SiteFooter />
-    </div>
+      <Script src="https://unpkg.com/lucide@latest" strategy="lazyOnload" />
+    </>
   )
 }

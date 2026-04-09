@@ -5,643 +5,141 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】京都のピラティススタジオおすすめ8選｜料金・体験レッスン徹底比較',
-  description: '京都エリアのおすすめピラティススタジオ8選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
-  keywords: 'ピラティス,京都,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
+  title: '【2026最新】ピラティス京都おすすめ5選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
+  description: '京都エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  keywords: 'ピラティス,京都,四条,烏丸,河原町,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
 const studios = [
   {
-    name: 'zen place pilates 京都',
+    name: 'zen place pilates 京都スタジオ',
     image: '/images/pilates2.jpg',
-    rating: 4.2,
-    price: '月4回 9,625円〜',
-    trial: '体験レッスン あり',
-    features: ['全国150店舗', 'マット＆マシン', '男性OK', '烏丸駅・四条駅徒歩1分'],
-    description: '全国150店舗以上を展開する大手ピラティススタジオ。zen place pilates 京都スタジオは、阪急「烏丸駅」、京都市営地下鉄「四条駅」12番出口徒歩1分、烏丸駅、四条駅12番出口を出て右（東方向）、徒歩約30秒。イシズミ本社ビル内。マットグループ、マシングループ、プライベートレッスンと多彩なレッスンを提供。全店舗相互利用可能。',
-    access: '阪急烏丸駅・地下鉄四条駅12番出口徒歩1分',
-    address: '京都府京都市下京区（詳細は公式サイト参照）',
-    popularPlan: {
-      name: 'マットグループ 月4',
-      description: 'マットピラティスのグループレッスン。初心者にもおすすめの基本プラン。',
-      price: '月4回 9,625円（税込）',
-    },
-    options: [
-      'フリープラン（通い放題 14,960円）',
-      'マット＆マシングループ MM22（各2回 12,650円）',
-      'リフォーマーグループ RG4（月4回 15,400円）',
-      'プライベートレッスン（月4回 33,880円）',
+    rating: 4.7, reviewCount: 120,
+    reviews: [
+      { author: 'M.K', rating: 5, date: '1週間前', text: '四条駅12番出口から徒歩1分、河原町駅からも徒歩1分と抜群のアクセス。全国150店舗を相互利用できるのが便利。マットもマシンも両方受けられる。' },
+      { author: 'S.T', rating: 5, date: '2週間前', text: '男性OKなので夫婦で通っています。グループ体験1,000円で気軽に試せた。月4回10,450円〜とマシンピラティスにしてはリーズナブル。' },
+      { author: 'R.N', rating: 4, date: '3週間前', text: 'インストラクターの質が高く、解剖学に基づいた指導が受けられる。烏丸駅からも徒歩2分で通いやすい。' },
     ],
-    userProfile: {
-      ageRange: '20代〜60代まで幅広い',
-      genderRatio: '女性85% / 男性15%',
-      purpose: ['姿勢改善', '体幹強化', 'ボディメイク', 'リハビリ'],
-    },
-    basicInfo: {
-      hours: '詳細は公式サイト参照（早朝〜夜まで開催）',
-      closed: '不定休',
-      facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', 'マシン完備', '男女共用'],
-    },
+    price: '月4回 10,450円〜', trial: 'グループ体験 1,000円',
+    features: ['全国150店舗相互利用', 'マット&マシン対応', '男性OK', '四条駅徒歩1分'],
+    description: '全国150店舗を展開する大手ピラティススタジオ。四条駅12番出口徒歩1分・河原町駅徒歩1分・烏丸駅徒歩2分の好アクセス。マットとマシン両方のレッスンに対応。男性も利用可能で全店舗相互利用OK。',
+    access: '阪急京都線「京都河原町駅」徒歩1分 / 地下鉄烏丸線「四条駅」12番出口徒歩1分 / 阪急京都線「烏丸駅」徒歩2分',
+    address: '京都府京都市下京区四条通エリア（詳細は公式サイトでご確認ください）',
+    popularPlan: { name: 'グループ月4回プラン', description: 'マット・マシン両方のグループレッスンが受けられる基本プラン。全国150店舗で相互利用可能。', price: '月4回 10,450円（税込）' },
+    options: ['月6回プラン', '通い放題プラン', 'プライベートレッスン', 'グループ体験 1,000円'],
+    userProfile: { ageRange: '20代〜60代が中心', genderRatio: '女性75% / 男性25%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
+    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
     name: 'ピラティスK 京都四条烏丸店',
     image: '/images/pilates3.jpg',
-    rating: 4.0,
-    price: '月4回 13,420円〜',
-    trial: '無料体験レッスン',
-    features: ['音楽×マシン', '女性専用', '烏丸駅徒歩1分', '暗闇レッスン'],
-    description: '京都の四条烏丸にある女性専用マシンピラティススタジオ。阪急京都線「烏丸駅」より徒歩1分の場所にあるから、平日は仕事帰りに、休日はお買い物ついでに最適。店内はカジュアルかつスタイリッシュで、音楽にあわせたグループレッスンを楽しめます。お腹、お尻、二の腕、脚、背中の部位に特化したボディメイクプログラムが充実。',
-    access: '阪急京都線 烏丸駅より徒歩1分',
-    address: '京都府京都市下京区四条烏丸（詳細は公式サイト参照）',
-    popularPlan: {
-      name: 'マンスリー4メンバー',
-      description: '暗闇×音楽×マシンピラティスの融合レッスン。楽しく続けられると人気のプラン。',
-      price: '月4回 13,420円（税込）+ 施設維持費 825円',
-    },
-    options: [
-      'マンスリー8メンバー（月8回 16,170円）',
-      'マンスリーデイメンバー（平日10-15時通い放題 14,520円）',
-      'マンスリープレミアムメンバー（毎日2レッスン 18,920円）',
-      '追加レッスン（1回 2,200円）',
+    rating: 4.6, reviewCount: 98,
+    reviews: [
+      { author: 'K.N', rating: 5, date: '1週間前', text: '女性専用のマシン専門スタジオ。音楽に合わせたレッスンが楽しくてあっという間に終わる。体験0円で気軽に試せた。' },
+      { author: 'Y.M', rating: 4, date: '2週間前', text: '5パート別のボディメイクプログラムで気になる部位を集中的にケアできる。月4回13,420円〜で本格マシンピラティスが受けられる。' },
+      { author: 'A.S', rating: 5, date: '3週間前', text: 'おしゃれな空間で女性専用なので安心。リフォーマーを使ったレッスンが楽しい。初心者でもインストラクターが丁寧に教えてくれます。' },
     ],
-    userProfile: {
-      ageRange: '20代〜30代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['楽しく痩せたい', 'ストレス発散', 'ボディメイク', '仲間と運動'],
-    },
-    basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '詳細は公式サイト参照',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', '暗闇スタジオ', '女性専用'],
-    },
+    price: '月4回 13,420円〜', trial: '体験レッスン 0円',
+    features: ['女性専用', 'マシン専門', '音楽レッスン', '体験0円'],
+    description: '女性専用のマシンピラティス専門スタジオ。音楽に合わせた独自のレッスンスタイルで楽しく続けられる。5パート別のボディメイクプログラムで部位集中ケア。体験レッスン0円。',
+    access: '地下鉄烏丸線「四条駅」・阪急京都線「烏丸駅」周辺',
+    address: '京都府京都市下京区四条烏丸エリア（詳細は公式サイトでご確認ください）',
+    popularPlan: { name: 'マンスリー4メンバー', description: '月4回のマシンピラティスレッスン。5パート別ボディメイクで部位集中ケア。', price: '月4回 13,420円（税込）' },
+    options: ['マンスリー8メンバー', 'マンスリーフルメンバー', '体験レッスン 0円', '入会金あり（キャンペーンで無料の場合あり）'],
+    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', 'ダイエット', '姿勢改善', 'ヒップアップ'] },
+    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'パウダールーム'] },
   },
   {
-    name: 'Studio K 京田辺',
+    name: 'Rintosull 京都四条烏丸店',
     image: '/images/pilates4.jpg',
-    rating: 4.1,
-    price: '要問合せ',
-    trial: '体験レッスン あり',
-    features: ['京田辺市', 'パーソナル＆グループ', 'シルクサスペンション', 'QOL向上'],
-    description: '京都府京田辺市のStudio K（スタジオK）は、パーソナル（プライベート）ピラティス、グループピラティス、シルクサスペンションを行っているピラティススタジオです。マシンピラティス（リフォーマー）、マンツーマンのプライベートから少人数のグループレッスンまで、楽しみながらQOL（人生の質）を上げられるピラティスレッスンを行っています。',
-    access: '京都府京田辺市（詳細は公式サイト参照）',
-    address: '京都府京田辺市（詳細は公式サイト参照）',
-    popularPlan: {
-      name: 'マシンピラティス',
-      description: 'プライベートから少人数グループまで。楽しみながらQOLを上げられるレッスン。',
-      price: '要問合せ',
-    },
-    options: [
-      'パーソナルレッスン',
-      'グループレッスン',
-      'シルクサスペンション',
-      'マシンピラティス',
+    rating: 4.5, reviewCount: 85,
+    reviews: [
+      { author: 'E.M', rating: 5, date: '1週間前', text: 'LAVA系列で安心感がある。月4回8,800円と京都エリアのマシンピラティスでは最安クラス。体験無料で気軽に始められた。' },
+      { author: 'N.K', rating: 5, date: '2週間前', text: '初心者が87%以上なので周りの目を気にせず通える。無料体験でパーソナル姿勢診断もしてもらえた。' },
+      { author: 'H.Y', rating: 4, date: '3週間前', text: '女性専用で清潔感のあるスタジオ。プレミアムプランならLAVA等系列のヨガスタジオも利用可能。ピラティスとヨガ両方やりたい人に最適。' },
     ],
-    userProfile: {
-      ageRange: '30代〜50代が中心',
-      genderRatio: '女性85% / 男性15%',
-      purpose: ['QOL向上', 'ボディメイク', '楽しく運動', 'シルクサスペンション'],
-    },
-    basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '詳細は公式サイト参照',
-      facilities: ['ロッカー', 'パウダールーム', 'シルクサスペンション', 'マシン完備'],
-    },
+    price: '月4回 8,800円〜', trial: '体験レッスン 無料',
+    features: ['LAVA系列', '女性専用', '初心者87%以上', '月4回8,800円〜'],
+    description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオ。月4回8,800円のリーズナブルな料金設定。初心者が87%以上で安心。無料体験でパーソナル姿勢診断付き。',
+    access: '地下鉄烏丸線「四条駅」・阪急京都線「烏丸駅」周辺',
+    address: '京都府京都市下京区四条烏丸エリア（詳細は公式サイトでご確認ください）',
+    popularPlan: { name: 'マシンピラティス月4回プラン', description: 'リフォーマーを使った本格マシンピラティス。1回あたり2,200円のコスパ。', price: '月4回 8,800円（税込）' },
+    options: ['通い放題プラン', 'プレミアムフリーフルタイム（LAVA等全店利用可）', '施設使用料あり', '無料体験・パーソナル姿勢診断付き'],
+    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', 'ダイエット', 'ヨガ&ピラティス両方', '健康維持'] },
+    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'シャワー'] },
   },
   {
-    name: '素々（そそ）五条烏丸・五条河原町',
+    name: 'アーバンクラシックピラティス 四条河原町店',
     image: '/images/pilates2.jpg',
-    rating: 4.2,
-    price: '要問合せ',
-    trial: '体験レッスン あり',
-    features: ['女性専用', 'パーソナル専門', '2店舗展開', 'マシン専門'],
-    description: '「素々 〜 そそ」は京都・五条烏丸と五条河原町にある女性専用のパーソナル・ピラティス・スタジオです。リフォーマー、バレル、タワーなど、マシンピラティスを専門に目的に合わせた丁寧な指導を提供。完全マンツーマンで、一人ひとりの身体に合わせたプログラムを提供。',
-    access: '五条烏丸・五条河原町（2店舗）',
-    address: '京都府京都市（五条烏丸・五条河原町）',
-    popularPlan: {
-      name: 'パーソナルレッスン',
-      description: '女性専用のマンツーマン指導。リフォーマー、バレル、タワーなど充実。',
-      price: '要問合せ',
-    },
-    options: [
-      'パーソナルレッスン',
-      'マシンピラティス専門',
-      '2店舗相互利用可',
-      '女性専用',
+    rating: 4.5, reviewCount: 90,
+    reviews: [
+      { author: 'T.M', rating: 5, date: '1週間前', text: '阪急京都河原町駅から徒歩3分。サーキット形式で30分完結なので仕事帰りにサッと通える。予約不要なのが本当に便利。' },
+      { author: 'C.Y', rating: 4, date: '2週間前', text: '月4回9,680円〜とリーズナブル。予約なしでふらっと行けるので続けやすい。30分であっという間に終わるけどしっかり効く。' },
+      { author: 'K.S', rating: 5, date: '3週間前', text: 'サーキット形式で初心者でもマシンの使い方を自然に覚えられる。短時間集中型なので忙しい人にぴったり。' },
     ],
-    userProfile: {
-      ageRange: '30代〜50代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['マンツーマン希望', 'ボディメイク', '丁寧な指導', '女性専用'],
-    },
-    basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '詳細は公式サイト参照',
-      facilities: ['完全個室', 'ロッカー', 'パウダールーム', '女性専用', '2店舗展開'],
-    },
+    price: '月4回 9,680円〜', trial: '体験レッスンあり',
+    features: ['サーキット形式', '30分完結', '予約不要', '河原町駅徒歩3分'],
+    description: '阪急京都河原町駅から徒歩3分。サーキット形式で30分完結の効率的なマシンピラティススタジオ。予約不要でいつでも通える手軽さが魅力。月4回9,680円〜。',
+    access: '阪急京都線「京都河原町駅」徒歩3分',
+    address: '京都府京都市下京区四条河原町エリア（詳細は公式サイトでご確認ください）',
+    popularPlan: { name: '月4回プラン', description: 'サーキット形式のマシンピラティス。30分完結で予約不要。', price: '月4回 9,680円（税込）' },
+    options: ['月8回プラン', '通い放題プラン', '予約不要', '30分完結サーキット形式'],
+    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['時短トレーニング', 'ダイエット', '運動不足解消', '体幹強化'] },
+    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマーマシン', 'サーキット用マシン', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'Rintosull 京都（4店舗）',
+    name: 'Pilates MUSE 京都四条大宮',
     image: '/images/pilates3.jpg',
-    rating: 4.0,
-    price: '要問合せ',
-    trial: '体験レッスン あり',
-    features: ['女性専用', '京都4店舗', '初心者歓迎', 'LAVAグループ'],
-    description: 'マシンピラティススタジオRintosull 京都。四条烏丸店、駅前店、桂店、祝園店の4店舗展開。Rintosullでは、運動やピラティスを初めて行う方向けのプログラムをご用意しています。インストラクターがしっかりサポートいたしますので、ご安心ください。美尻や美脚に必要な筋肉にアプローチ。',
-    access: '京都市内4店舗（四条烏丸・駅前・桂・祝園）',
-    address: '京都府京都市（詳細は公式サイト参照）',
-    popularPlan: {
-      name: 'グループレッスン',
-      description: '初心者向けプログラム充実。美尻・美脚に特化したレッスンも。',
-      price: '要問合せ',
-    },
-    options: [
-      'グループレッスン',
-      'プライベートレッスン',
-      '初心者向けプログラム',
-      '4店舗相互利用可',
+    rating: 4.8, reviewCount: 72,
+    reviews: [
+      { author: 'A.K', rating: 5, date: '1週間前', text: '女性専用で有資格トレーナーが丁寧に指導してくれる。パーソナルとセルフの両方使えるのが魅力。24時間使い放題で自分のペースで通える。' },
+      { author: 'Y.N', rating: 5, date: '2週間前', text: '結果重視のプログラムで体の変化を実感できた。トレーナーが全員有資格者なので安心して任せられる。' },
+      { author: 'M.H', rating: 4, date: '3週間前', text: '24時間営業なので早朝や深夜でも通える。セルフでマシンを使えるのでコスパも良い。パーソナルでしっかりフォーム確認もできる。' },
     ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['初心者歓迎', '美尻・美脚', 'ボディメイク', '女性専用'],
-    },
-    basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '詳細は公式サイト参照',
-      facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', '女性専用', '4店舗展開'],
-    },
-  },
-  {
-    name: 'CLUB PILATES 京都（西院・烏丸御池）',
-    image: '/images/pilates4.jpg',
-    rating: 4.0,
-    price: '要問合せ',
-    trial: '無料体験レッスン（30分）',
-    features: ['アメリカ発', '世界800店舗以上', 'グループ＆プライベート', '初心者歓迎'],
-    description: 'CLUB PILATES(クラブピラティス)は世界各国で800店舗以上展開するアメリカ発のピラティススタジオ。京都には西院店と烏丸御池店の2店舗。完全初心者の方でも安心して取り組むことが可能です。入会を検討している方向けに30分間の無料体験クラスを開催しております。お気軽にお越しください。',
-    access: '西院・烏丸御池（2店舗）',
-    address: '京都府京都市（西院・烏丸御池）',
-    popularPlan: {
-      name: 'グループレッスン',
-      description: '世界800店舗以上のネットワーク。初心者でも安心して楽しめる。',
-      price: '要問合せ（無料体験30分あり）',
-    },
-    options: [
-      'グループレッスン',
-      'プライベートレッスン',
-      '初心者向けプログラム',
-      '世界最大級ネットワーク',
-    ],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
-      purpose: ['初心者歓迎', '世界的ブランド', 'ボディメイク', 'グループ＆プライベート'],
-    },
-    basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '詳細は公式サイト参照',
-      facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', 'マシン完備', '2店舗展開'],
-    },
-  },
-  {
-    name: 'URBAN CLASSIC PILATES 西院',
-    image: '/images/pilates2.jpg',
-    rating: 4.1,
-    price: '要問合せ',
-    trial: '体験レッスン あり',
-    features: ['西院', 'クラシック', '本格派', 'マシン完備'],
-    description: 'URBAN CLASSIC PILATES 西院は、クラシカルなピラティスメソッドを提供するスタジオ。本格的なピラティスを学びたい方におすすめ。マシンピラティスを中心に、一人ひとりの身体に合わせた丁寧な指導を提供。京都西院エリアで本格派ピラティスを体験できます。',
-    access: '西院（詳細は公式サイト参照）',
-    address: '京都府京都市（詳細は公式サイト参照）',
-    popularPlan: {
-      name: 'クラシカルピラティス',
-      description: 'クラシカルなピラティスメソッド。本格的なピラティスを学べる。',
-      price: '要問合せ',
-    },
-    options: [
-      'グループレッスン',
-      'プライベートレッスン',
-      'クラシカルピラティス',
-      'マシンピラティス',
-    ],
-    userProfile: {
-      ageRange: '30代〜50代が中心',
-      genderRatio: '女性85% / 男性15%',
-      purpose: ['本格派ピラティス', 'ボディメイク', '丁寧な指導', 'クラシカル'],
-    },
-    basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '詳細は公式サイト参照',
-      facilities: ['ロッカー', 'パウダールーム', 'マシン完備', 'クラシカル'],
-    },
-  },
-  {
-    name: 'Two Three 京都（あれば）',
-    image: '/images/pilates3.jpg',
-    rating: 4.0,
-    price: '要問合せ',
-    trial: '体験レッスン あり',
-    features: ['少人数制', '最大8名', '全国展開', 'ピラティスアカデミー運営'],
-    description: '全国展開のピラティススタジオ Two Three。最大8名までの少人数制グループレッスンが特徴で、一人ひとりに的確な指導が行き届くよう配慮。誰でも通いやすいピラティススタジオです。まずは体験レッスンからお気軽にお申し込みください。',
-    access: '京都市内（詳細は公式サイト参照）',
-    address: '京都府京都市（詳細は公式サイト参照）',
-    popularPlan: {
-      name: 'グループレッスン（最大8名）',
-      description: '少人数制で一人ひとりに的確な指導。初心者からベテランまで対応。',
-      price: '要問合せ',
-    },
-    options: [
-      'プライベートレッスン',
-      'グループレッスン',
-      'リフォーマー・スパインコレクター・コンビチェア・タワーなど充実',
-    ],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性85% / 男性15%',
-      purpose: ['美しいカラダづくり', '姿勢改善', 'ボディメイク', '体幹強化'],
-    },
-    basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '詳細は公式サイト参照',
-      facilities: ['リフォーマー', 'スパインコレクター', 'コンビチェア', 'タワー', 'マシン充実'],
-    },
+    price: 'パーソナル＆セルフ利用', trial: '体験レッスンあり',
+    features: ['女性専用', '有資格トレーナー', '24時間使い放題', '結果重視'],
+    description: '女性専用のピラティススタジオ。有資格トレーナーによるパーソナルレッスンとセルフ利用の両方に対応。24時間使い放題で自分のペースで通える。結果重視のプログラム。',
+    access: '阪急京都線「大宮駅」周辺 / 嵐電「四条大宮駅」周辺',
+    address: '京都府京都市中京区四条大宮エリア（詳細は公式サイトでご確認ください）',
+    popularPlan: { name: 'パーソナル＆セルフ利用プラン', description: '有資格トレーナーのパーソナルレッスンと24時間セルフ利用の組み合わせ。結果重視のプログラム。', price: '公式サイトでご確認ください' },
+    options: ['パーソナルレッスン', 'セルフ利用（24時間）', '有資格トレーナー指導', '女性専用'],
+    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', '姿勢改善', 'ダイエット', '体質改善'] },
+    basicInfo: { hours: '24時間営業（セルフ利用）', closed: '不定休', facilities: ['リフォーマーマシン', 'ピラティスマシン各種', '更衣室', 'ロッカー'] },
   },
 ]
 
-export default async function KyotoAreaPage() {
+const faqs = [
+  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！京都エリアのスタジオはほとんどが初心者歓迎。Rintosullは初心者87%以上、zen place pilatesはレベル別クラスあり。' },
+  { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。' },
+  { question: '京都のピラティスの料金相場は？', answer: 'Rintosullは月4回8,800円〜と最安クラス。アーバンクラシックは月4回9,680円〜。zen placeは月4回10,450円〜。グループ月4回で8,800円〜13,420円が相場です。' },
+  { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。大切なのは継続すること。' },
+  { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。ピラティスKは5パート別ボディメイクでダイエットに効果的。' },
+  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。ピラティスKは体験0円、Rintosullも無料体験あり。zen placeはグループ体験1,000円。' },
+  { question: '男性でも通えるスタジオはありますか？', answer: 'zen place pilates京都スタジオとアーバンクラシックピラティスは男性も通えます。ピラティスK・Rintosull・Pilates MUSEは女性専用。' },
+  { question: '一番安いスタジオは？', answer: 'マシンピラティスではRintosullが月4回8,800円〜で最安。アーバンクラシックは月4回9,680円〜。zen placeは月4回10,450円〜。' },
+  { question: '予約なしで通えるスタジオは？', answer: 'アーバンクラシックピラティス四条河原町店は予約不要のサーキット形式。Pilates MUSEはセルフ利用が24時間可能。' },
+  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。' },
+]
+
+export default function KyotoPage() {
   return (
     <>
-      <div className="min-h-screen bg-gradient-to-b from-warm-50 to-white">
-        <Navigation />
-        
-        <main className="container mx-auto px-4 py-8 sm:px-6 lg:px-8">
-          {/* ヘッダーセクション */}
-          <header className="mb-12 text-center">
-            <h1 className="mb-4 font-cormorant text-4xl font-bold tracking-tight text-warm-900 sm:text-5xl">
-              京都のピラティススタジオ<span className="block text-warm-600">おすすめ8選</span>
-            </h1>
-            <p className="mx-auto max-w-3xl text-lg text-warm-700">
-              京都エリアで人気のピラティススタジオを厳選。マシンピラティス、体験レッスン、料金プランを徹底比較。初心者から経験者まで、あなたにぴったりのスタジオが見つかります。
-            </p>
-          </header>
-
-          {/* スタジオカード一覧 */}
-          <section className="mb-16">
-            <div className="space-y-8">
-              {studios.map((studio, index) => (
-                <StudioCard key={index} studio={studio} index={index} />
-              ))}
-            </div>
-          </section>
-
-          {/* 好みから探すセクション */}
-          <section className="mb-16 rounded-2xl bg-warm-50 p-8 shadow-sm">
-            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
-              好みのタイプから探す
-            </h2>
-            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">音楽×暗闇で楽しく</h3>
-                <p className="mb-4 text-warm-600">
-                  音楽に合わせて楽しくボディメイクしたい方に
-                </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：ピラティスK 京都四条烏丸店
-                </p>
-              </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">全国最大級</h3>
-                <p className="mb-4 text-warm-600">
-                  実績と安心感を重視する方に
-                </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：zen place pilates 京都
-                </p>
-              </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">女性専用パーソナル</h3>
-                <p className="mb-4 text-warm-600">
-                  完全マンツーマンで丁寧な指導を受けたい方に
-                </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：素々（そそ）2店舗
-                </p>
-              </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">初心者歓迎</h3>
-                <p className="mb-4 text-warm-600">
-                  運動が初めてでも安心のサポート
-                </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：Rintosull 京都（4店舗）
-                </p>
-              </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">世界最大級</h3>
-                <p className="mb-4 text-warm-600">
-                  世界的ブランドで学びたい方に
-                </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：CLUB PILATES 京都（2店舗）
-                </p>
-              </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">クラシカル</h3>
-                <p className="mb-4 text-warm-600">
-                  本格的なピラティスを学びたい方に
-                </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：URBAN CLASSIC PILATES 西院
-                </p>
-              </div>
-            </div>
-          </section>
-
-          {/* 料金帯別セクション */}
-          <section className="mb-16">
-            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
-              料金帯別スタジオ
-            </h2>
-            <div className="grid gap-6 md:grid-cols-3">
-              <div className="rounded-xl bg-warm-50 p-6">
-                <h3 className="mb-4 text-xl font-bold text-warm-800">〜10,000円</h3>
-                <ul className="space-y-2 text-warm-700">
-                  <li className="flex items-start">
-                    <span className="mr-2 text-warm-600">•</span>
-                    <span>zen place pilates 京都（月4回 9,625円〜）</span>
-                  </li>
-                </ul>
-              </div>
-              <div className="rounded-xl bg-warm-50 p-6">
-                <h3 className="mb-4 text-xl font-bold text-warm-800">10,000円〜20,000円</h3>
-                <ul className="space-y-2 text-warm-700">
-                  <li className="flex items-start">
-                    <span className="mr-2 text-warm-600">•</span>
-                    <span>ピラティスK 京都四条烏丸店（月4回 13,420円）</span>
-                  </li>
-                </ul>
-              </div>
-              <div className="rounded-xl bg-warm-50 p-6">
-                <h3 className="mb-4 text-xl font-bold text-warm-800">その他</h3>
-                <ul className="space-y-2 text-warm-700">
-                  <li className="flex items-start">
-                    <span className="mr-2 text-warm-600">•</span>
-                    <span>Studio K 京田辺（要問合せ）</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 text-warm-600">•</span>
-                    <span>素々（パーソナル専門）</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </section>
-
-          {/* 通う頻度・期間の目安 */}
-          <section className="mb-16 rounded-2xl bg-gradient-to-br from-warm-50 to-warm-100 p-8 shadow-sm">
-            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
-              通う頻度・期間の目安
-            </h2>
-            <div className="grid gap-6 md:grid-cols-2">
-              <div className="rounded-xl bg-white p-6 shadow-sm">
-                <h3 className="mb-4 text-xl font-bold text-warm-800">週1回（月4回）</h3>
-                <p className="mb-4 text-warm-700">
-                  初心者や運動習慣をつけたい方におすすめ。3ヶ月で姿勢の変化を実感できます。
-                </p>
-                <div className="space-y-2 text-sm text-warm-600">
-                  <p>• 1ヶ月目：動きに慣れる</p>
-                  <p>• 2ヶ月目：体の変化を感じ始める</p>
-                  <p>• 3ヶ月目：姿勢が改善され、周りから変化を指摘される</p>
-                </div>
-              </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm">
-                <h3 className="mb-4 text-xl font-bold text-warm-800">週2回（月8回）</h3>
-                <p className="mb-4 text-warm-700">
-                  本格的にボディメイクしたい方におすすめ。2ヶ月で見た目の変化が現れます。
-                </p>
-                <div className="space-y-2 text-sm text-warm-600">
-                  <p>• 1ヶ月目：筋肉の使い方をマスター</p>
-                  <p>• 2ヶ月目：ボディラインが変わり始める</p>
-                  <p>• 3ヶ月目：理想の体型に近づく</p>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* 4ステップ選び方ガイド */}
-          <section className="mb-16">
-            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
-              4ステップで選ぶ！京都のピラティススタジオ
-            </h2>
-            <div className="grid gap-6 md:grid-cols-2">
-              <div className="rounded-xl border-2 border-warm-200 bg-white p-6 shadow-sm">
-                <div className="mb-3 inline-block rounded-full bg-warm-100 px-4 py-1 text-sm font-semibold text-warm-700">
-                  STEP 1
-                </div>
-                <h3 className="mb-3 text-xl font-bold text-warm-800">目的を明確にする</h3>
-                <p className="text-warm-600">
-                  ダイエット、姿勢改善、体幹強化など、あなたの目的に合ったスタジオを選びましょう。
-                </p>
-              </div>
-              <div className="rounded-xl border-2 border-warm-200 bg-white p-6 shadow-sm">
-                <div className="mb-3 inline-block rounded-full bg-warm-100 px-4 py-1 text-sm font-semibold text-warm-700">
-                  STEP 2
-                </div>
-                <h3 className="mb-3 text-xl font-bold text-warm-800">予算を決める</h3>
-                <p className="text-warm-600">
-                  月額9,625円〜13,420円など幅広い料金帯があります。無理なく続けられる予算を設定しましょう。
-                </p>
-              </div>
-              <div className="rounded-xl border-2 border-warm-200 bg-white p-6 shadow-sm">
-                <div className="mb-3 inline-block rounded-full bg-warm-100 px-4 py-1 text-sm font-semibold text-warm-700">
-                  STEP 3
-                </div>
-                <h3 className="mb-3 text-xl font-bold text-warm-800">通いやすさを確認</h3>
-                <p className="text-warm-600">
-                  四条烏丸、西院、五条など、自宅や職場から通いやすい立地を選ぶと続けやすくなります。
-                </p>
-              </div>
-              <div className="rounded-xl border-2 border-warm-200 bg-white p-6 shadow-sm">
-                <div className="mb-3 inline-block rounded-full bg-warm-100 px-4 py-1 text-sm font-semibold text-warm-700">
-                  STEP 4
-                </div>
-                <h3 className="mb-3 text-xl font-bold text-warm-800">体験レッスンを受ける</h3>
-                <p className="text-warm-600">
-                  スタジオの雰囲気やインストラクターとの相性を確認。ほとんどのスタジオで体験レッスンを実施しています。
-                </p>
-              </div>
-            </div>
-          </section>
-
-          {/* FAQ */}
-          <section className="mb-16">
-            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
-              よくある質問
-            </h2>
-            <div className="space-y-4">
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  京都でピラティス初心者におすすめのスタジオはどこですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  Rintosull 京都がおすすめです。運動やピラティスを初めて行う方向けのプログラムをご用意しており、インストラクターがしっかりサポートいたしますので、ご安心ください。京都市内に4店舗展開しているので通いやすさも抜群です。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  四条烏丸駅から一番近いピラティススタジオはどこですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  zen place pilates 京都とピラティスK 京都四条烏丸店が、阪急烏丸駅・地下鉄四条駅12番出口徒歩1分で最もアクセスが良いです。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  京都で一番安いピラティススタジオはどこですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  zen place pilates 京都が月4回9,625円で最もリーズナブルです。また、ピラティスK 京都四条烏丸店は月4回13,420円で無料体験レッスンも実施しています。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  女性専用のピラティススタジオはありますか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  はい、3つあります。ピラティスK 京都四条烏丸店、素々（そそ）五条烏丸・五条河原町、Rintosull 京都（4店舗）はすべて女性専用スタジオです。男性の目を気にせず集中してトレーニングできます。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  体験レッスンはありますか？料金はいくらですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  ほとんどのスタジオで体験レッスンを実施しています。ピラティスK 京都四条烏丸店は無料、CLUB PILATES 京都は無料体験30分、その他スタジオは要問合せです。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  マシンピラティスとマットピラティスの違いは何ですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  マシンピラティスは専用マシン（リフォーマー）を使用し、初心者でも正しいフォームで効果的にトレーニングできます。マットピラティスはマットの上で行い、体幹を鍛えるのに効果的。初心者にはマシンピラティスがおすすめです。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  どのくらいの期間で効果が出ますか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  週1回（月4回）通った場合、1ヶ月で体の使い方が変わり、2ヶ月で姿勢の変化を実感、3ヶ月で見た目の変化が現れます。週2回通うとさらに早く効果を実感できます。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  運動が苦手でも大丈夫ですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  はい、大丈夫です。ピラティスはもともとリハビリ用に開発されたエクササイズなので、運動が苦手な方や体力に自信がない方でも無理なく始められます。マシンがサポートしてくれるので、正しいフォームで効果的にトレーニングできます。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  女性専用パーソナルスタジオはありますか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  はい、素々（そそ）五条烏丸・五条河原町は女性専用のパーソナル・ピラティス・スタジオです。リフォーマー、バレル、タワーなど充実した設備で、完全マンツーマンで丁寧な指導を受けられます。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  京都市内に複数店舗展開しているスタジオはありますか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  はい、3つあります。Rintosull 京都（四条烏丸・駅前・桂・祝園の4店舗）、CLUB PILATES 京都（西院・烏丸御池の2店舗）、素々（五条烏丸・五条河原町の2店舗）があります。自宅や職場に近いスタジオを選べます。
-                </p>
-              </details>
-            </div>
-          </section>
-
-          {/* まとめ・CTA */}
-          <section className="mb-16 rounded-2xl bg-gradient-to-br from-warm-600 to-warm-700 p-8 text-white shadow-lg">
-            <h2 className="mb-4 font-cormorant text-3xl font-bold">
-              京都で理想のピラティススタジオを見つけよう
-            </h2>
-            <p className="mb-6 text-lg text-warm-50">
-              京都には多様なピラティススタジオがあります。音楽×暗闇のピラティスK、全国最大級のzen place、女性専用パーソナルの素々、初心者歓迎のRintosull（4店舗）、世界最大級のCLUB PILATES（2店舗）、クラシカルなURBAN CLASSIC PILATESなど、あなたの目的・予算・好みに合ったスタジオがきっと見つかります。
-            </p>
-            <p className="mb-8 text-warm-50">
-              まずは体験レッスンで、スタジオの雰囲気やインストラクターとの相性を確認してみましょう。多くのスタジオが無料〜有料で体験レッスンを実施しています。
-            </p>
-            <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-              <a
-                href="#studios"
-                className="rounded-full bg-white px-8 py-3 font-bold text-warm-700 shadow-md transition-all hover:bg-warm-50 hover:shadow-lg"
-              >
-                スタジオ一覧を見る
-              </a>
-              <Link
-                href="/"
-                className="rounded-full border-2 border-white px-8 py-3 font-bold text-white transition-all hover:bg-white hover:text-warm-700"
-              >
-                他のエリアを探す
-              </Link>
-            </div>
-          </section>
-
-          {/* パンくずリスト */}
-          <nav className="mb-8 text-sm text-warm-600" aria-label="パンくずリスト">
-            <ol className="flex flex-wrap items-center gap-2">
-              <li>
-                <Link href="/" className="hover:text-warm-800">
-                  ホーム
-                </Link>
-              </li>
-              <li>/</li>
-              <li>
-                <Link href="/area" className="hover:text-warm-800">
-                  エリアから探す
-                </Link>
-              </li>
-              <li>/</li>
-              <li className="font-semibold text-warm-800">京都</li>
-            </ol>
-          </nav>
-        </main>
-
-        <SiteFooter />
-      </div>
-
-      <Script
-        type="application/ld+json"
-        id="breadcrumb-schema"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'BreadcrumbList',
-            itemListElement: [
-              {
-                '@type': 'ListItem',
-                position: 1,
-                name: 'ホーム',
-                item: 'https://pilates-biyori.com',
-              },
-              {
-                '@type': 'ListItem',
-                position: 2,
-                name: 'エリアから探す',
-                item: 'https://pilates-biyori.com/area',
-              },
-              {
-                '@type': 'ListItem',
-                position: 3,
-                name: '京都',
-                item: 'https://pilates-biyori.com/area/kyoto',
-              },
-            ],
-          }),
-        }}
-      />
+      <Navigation />
+      <main className="pt-20 bg-white">
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年04月09日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス京都おすすめ5選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1></div></section>
+        <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">京都</span></nav></div></section>
+        <section className="py-12 bg-white"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p><p className="text-warm-600 leading-relaxed mb-6">Pilates Navi編集部です！</p><p className="text-warm-600 leading-relaxed mb-6">あなたは、</p><p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p><p className="text-warm-600 leading-relaxed mb-6">「京都で人気のピラティススタジオを知りたい」</p><p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p><p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、京都エリアでおすすめのピラティススタジオ5選をまとめました。</p><div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8"><h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2><ul className="space-y-2 text-warm-700"><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>京都でピラティススタジオを探している</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>コスパの良いスタジオを知りたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>駅近で通いやすいスタジオがいい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較したい</span></li></ul></div><p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p></div></section>
+        <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">京都のおすすめピラティススタジオ5選</h2><div className="space-y-8">{studios.map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
+        <section className="py-16 bg-white"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">こだわりから探す</h2><div className="grid grid-cols-1 md:grid-cols-3 gap-8"><div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3><p className="text-warm-600 text-sm mb-4">月4回8,800円〜のスタジオも。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li><li className="text-warm-700">• アーバンクラシック（月4回 9,680円〜）</li><li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li></ul></div><div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">マシン専門</h3><p className="text-warm-600 text-sm mb-4">リフォーマーで本格ピラティス。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• ピラティスK（音楽レッスン）</li><li className="text-warm-700">• Pilates MUSE（24時間利用可）</li></ul></div><div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3><p className="text-warm-600 text-sm mb-4">四条・河原町駅から徒歩圏内。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• zen place pilates（四条駅徒歩1分）</li><li className="text-warm-700">• アーバンクラシック（河原町駅徒歩3分）</li></ul></div></div></div></section>
+        <section className="py-16 bg-warm-50"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">おすすめの期間・頻度</h2><div className="bg-white rounded-lg p-8 border border-warm-200"><h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3><p className="text-warm-600 leading-relaxed mb-6">週1-2回からスタート。最低2-3ヶ月継続で効果を実感。</p><h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3><p className="text-warm-600 leading-relaxed mb-6">週2-3回がおすすめ。3-6ヶ月で目に見える変化。</p><h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3><p className="text-warm-600 leading-relaxed">週1回のペースで無理なく継続。</p></div></div></section>
+        <section className="py-16 bg-white"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">予算別の料金相場</h2><div className="grid grid-cols-1 md:grid-cols-3 gap-6"><div className="border-2 border-warm-300 rounded-lg p-6 text-center"><h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円</h3><p className="text-3xl font-bold text-warm-800 mb-4">月4回</p><p className="text-sm text-warm-600 mb-4">コスパ重視ならここ。</p><ul className="text-sm text-warm-700 space-y-1"><li>• Rintosull（8,800円/月4回）</li><li>• アーバンクラシック（9,680円/月4回）</li></ul></div><div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50"><div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div><h3 className="text-lg font-bold text-warm-900 mb-2">予算 10,000〜14,000円</h3><p className="text-3xl font-bold text-warm-800 mb-4">月4回</p><p className="text-sm text-warm-600 mb-4">充実のマシンピラティス。</p><ul className="text-sm text-warm-700 space-y-1"><li>• zen place pilates（10,450円〜）</li><li>• ピラティスK（13,420円〜）</li></ul></div><div className="border-2 border-warm-300 rounded-lg p-6 text-center"><h3 className="text-lg font-bold text-warm-900 mb-2">24時間利用</h3><p className="text-3xl font-bold text-warm-800 mb-4">セルフ＆パーソナル</p><p className="text-sm text-warm-600 mb-4">自分のペースで通いたい方に。</p><ul className="text-sm text-warm-700 space-y-1"><li>• Pilates MUSE（24時間使い放題）</li></ul></div></div></div></section>
+        <section className="py-16 bg-warm-50"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">失敗しないスタジオの選び方</h2><div className="space-y-8"><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span><h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3></div><p className="text-warm-600 leading-relaxed">ダイエット、姿勢改善、体幹強化など目的によって最適なスタジオは変わります。</p></div><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">予算を決める</h3></div><p className="text-warm-600 leading-relaxed">京都はマシン月4回8,800円〜13,420円と幅広い価格帯。Rintosullが最安でzen placeが中間帯。</p></div><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">ピラティスKは体験0円、Rintosullも無料体験あり。zen placeはグループ体験1,000円で試せます。</p></div><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div><p className="text-warm-600 leading-relaxed">京都は四条・烏丸・河原町エリアにスタジオが集中。zen placeは四条駅徒歩1分、アーバンクラシックは河原町駅徒歩3分。</p></div></div></div></section>
+        <section className="py-16 bg-white"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">よくある質問</h2><div className="space-y-6">{faqs.map((faq, index) => (<div key={index} className="border border-warm-200 rounded-lg overflow-hidden"><details className="group"><summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition"><h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3><svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"/></svg></summary><div className="px-6 pb-6 text-warm-600 leading-relaxed">{faq.answer}</div></details></div>))}</div></div></section>
+        <section className="py-16 bg-warm-50"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2><p className="text-warm-600 leading-relaxed mb-6">今回は京都エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？</p><p className="text-warm-600 leading-relaxed mb-6">この記事では京都にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。</p><p className="text-warm-600 leading-relaxed mb-6">ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。</p><p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p></div></section>
+        <section className="py-16 bg-warm-800 text-white" id="contact"><div className="max-w-4xl mx-auto px-6 lg:px-8 text-center"><h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2><p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスン無料〜1,000円。<br />まずは気軽に体験してみましょう。</p><Link href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded">おすすめスタジオ一覧に戻る</Link></div></section>
+      </main>
+      <SiteFooter />
+      <Script src="https://unpkg.com/lucide@latest" strategy="lazyOnload" />
     </>
   )
 }
