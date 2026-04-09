@@ -5,8 +5,8 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】ピラティス新宿おすすめ4選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
-  description: '新宿エリアのおすすめピラティススタジオ4選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026最新】ピラティス新宿おすすめ12選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
+  description: '新宿エリアのおすすめピラティススタジオ12選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,新宿,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -36,19 +36,19 @@ const studios = [
         text: '体験500円で気軽に始められました。インストラクターの質が高く、身体の使い方を丁寧に教えてくれます。新宿駅からも近くて通いやすいです。',
       },
     ],
-    price: '月4回 10,450円〜',
+    price: 'マットグループ月4回 9,625円〜',
     trial: '体験レッスン 500円〜',
-    features: ['マット&マシン', '初心者歓迎', '大江戸線新宿西口駅徒歩2分', '男性OK'],
-    description: '全国100店舗以上展開の大手ピラティススタジオ。大江戸線新宿西口駅D5出口から徒歩2分の好立地。マットグループ、マシン（リフォーマー）グループ、プライベートレッスンと幅広いメニューを提供。男性も利用可能で、経験豊富なインストラクターが一人ひとりに合わせた丁寧な指導を行います。体験レッスンは500円から気軽にお試しできます。',
+    features: ['マット&マシン', '初心者歓迎', '新宿西口駅D5出口徒歩2分', '男性OK'],
+    description: '全国100店舗以上展開の大手ピラティススタジオ。都営大江戸線新宿西口駅D5出口から徒歩2分の好立地。マットグループ、マシン（リフォーマー）グループ、プライベートレッスンと幅広いメニューを提供。男性も利用可能で、経験豊富なインストラクターが一人ひとりに合わせた丁寧な指導を行います。体験レッスンは500円から気軽にお試しできます。',
     access: '大江戸線「新宿西口駅」D5出口 徒歩2分 / JR「新宿駅」西口 徒歩5分 / 丸ノ内線「新宿駅」徒歩5分',
     address: '東京都新宿区西新宿1丁目（新宿西口駅D5出口徒歩2分）',
     popularPlan: {
       name: 'マットグループ（月4回）',
       description: 'マットピラティスのグループレッスン。初心者から経験者まで無理なく続けられる人気プラン。マシンレッスンへのステップアップも可能。',
-      price: '月4回 10,450円（税込）〜',
+      price: '月4回 9,625円（税込）〜',
     },
     options: [
-      'マットグループ（月4回 10,450円〜）',
+      'マットグループ（月4回 9,625円〜）',
       'リフォーマーグループ（月4回 15,400円〜）',
       'プライベートレッスン（1回 9,900円〜）',
       'ウェアレンタル・タオルレンタルあり',
@@ -86,24 +86,24 @@ const studios = [
         author: 'S.N',
         rating: 5,
         date: '2週間前',
-        text: 'グループレッスンですが丁寧に見てくれます。2ヶ月で体が引き締まってきました。月4回13,420円はコスパ良いです。',
+        text: 'グループレッスンですが丁寧に見てくれます。2ヶ月で体が引き締まってきました。月4回11,220円はコスパ良いです。',
       },
     ],
-    price: 'マンスリー4メンバー 13,420円',
+    price: '月4回 11,220円〜',
     trial: '体験レッスン 2,000円',
-    features: ['マシンピラティス専門', '女性専用', '新宿三丁目駅近', '音楽×マシン'],
-    description: '「30歳からの本気ボディメイク」がコンセプトの女性専用マシンピラティス専門スタジオ。全国54店舗展開。新宿三丁目駅から好アクセス。音楽に合わせた独自プログラムで楽しくボディメイク。初心者から経験者まで個人のペースに合わせたプログラムを用意しています。',
+    features: ['女性専用マシンピラティス', '新宿三丁目駅近く', '音楽×マシン', 'ボディメイク'],
+    description: '「30歳からの本気ボディメイク」がコンセプトの女性専用マシンピラティス専門スタジオ。全国54店舗展開。東京メトロ丸ノ内線・副都心線「新宿三丁目駅」から好アクセス。音楽に合わせた独自プログラムで楽しくボディメイク。初心者から経験者まで個人のペースに合わせたプログラムを用意しています。',
     access: '東京メトロ丸ノ内線・副都心線「新宿三丁目駅」近く / JR「新宿駅」東口 徒歩圏内',
     address: '東京都新宿区新宿3丁目（新宿三丁目駅近く）',
     popularPlan: {
       name: 'マンスリー4メンバー',
       description: '月4回のマシンピラティスレッスン。女性専用で安心して通える人気プラン。音楽に合わせた50分のグループレッスン。',
-      price: '月4回 13,420円（税込）',
+      price: '月4回 11,220円（税込）〜',
     },
     options: [
-      'マンスリー4メンバー（月4回 13,420円）',
-      'マンスリーデイメンバー（14,520円）',
-      'マンスリーフルメンバー（16,170円）',
+      'マンスリー4メンバー（月4回 11,220円〜）',
+      'マンスリーデイメンバー（平日昼間プラン）',
+      'マンスリーフルメンバー（通い放題）',
       '追加受講料（1回 2,200円）',
     ],
     userProfile: {
@@ -118,61 +118,8 @@ const studios = [
     },
   },
   {
-    name: 'Rintosull 新宿西口駅前店',
+    name: 'the SILK 新宿',
     image: '/images/pilates4.jpg',
-    rating: 4.6,
-    reviewCount: 142,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: '駅から3分で通いやすく、マシンピラティスとホットヨガの両方が受けられるのが魅力。通い放題プランがリーズナブルで助かります。',
-      },
-      {
-        author: 'A.H',
-        rating: 4,
-        date: '2週間前',
-        text: '女性専用なので安心です。ホットヨガとピラティスを組み合わせて受けられるので、飽きずに続けられています。',
-      },
-      {
-        author: 'M.M',
-        rating: 5,
-        date: '3週間前',
-        text: 'リーズナブルな通い放題プランが嬉しい。スタジオも清潔感があって気持ちよく通えます。',
-      },
-    ],
-    price: 'リーズナブルな通い放題プランあり',
-    trial: '体験レッスンあり',
-    features: ['マシンピラティス&ホットヨガ', '女性専用', '駅から3分', 'リーズナブル通い放題'],
-    description: 'マシンピラティスとホットヨガの両方を楽しめる女性専用スタジオ。新宿西口駅から徒歩3分の好立地。リーズナブルな通い放題プランが人気で、コストを抑えながらしっかりと身体を鍛えられます。ピラティスとヨガを組み合わせたプログラムで、より効果的なボディメイクが可能です。',
-    access: '大江戸線「新宿西口駅」徒歩3分 / JR「新宿駅」西口 徒歩5分',
-    address: '東京都新宿区西新宿（新宿西口駅前）',
-    popularPlan: {
-      name: '通い放題プラン',
-      description: 'マシンピラティスもホットヨガも通い放題のお得なプラン。リーズナブルな価格で好きなだけレッスンを受けられます。',
-      price: '詳細は店舗にお問い合わせください',
-    },
-    options: [
-      'マシンピラティスレッスン',
-      'ホットヨガレッスン',
-      '通い放題プラン（リーズナブル）',
-      '月回数制プランあり',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ダイエット', 'デトックス', '柔軟性向上', 'ストレス解消'],
-    },
-    basicInfo: {
-      hours: '平日 9:00〜22:00 / 土日祝 9:00〜20:00',
-      closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'ホットスタジオ', '女性専用'],
-    },
-  },
-  {
-    name: 'the SILK 新宿店',
-    image: '/images/pilates2.jpg',
     rating: 4.8,
     reviewCount: 195,
     reviews: [
@@ -180,27 +127,27 @@ const studios = [
         author: 'E.K',
         rating: 5,
         date: '1週間前',
-        text: '女性専用で安心して通えます。スタジオの雰囲気がとてもおしゃれで、モチベーションが上がります。体験レッスンが無料なので気軽に始められました。',
+        text: '女性専用で安心して通えます。新宿西口駅から徒歩1分という立地が最高。音楽に合わせたレッスンが楽しくて、毎回あっという間に終わります。',
       },
       {
         author: 'C.Y',
         rating: 5,
         date: '2週間前',
-        text: '音楽に合わせたレッスンが楽しい！リフォーマーマシンを使ったレッスンで効果を実感しています。',
+        text: '音楽×ピラティスというコンセプトが新しくて気に入っています。リフォーマーマシンを使ったレッスンで効果を実感しています。',
       },
       {
         author: 'N.S',
         rating: 4,
         date: '3週間前',
-        text: 'Standard4プランで月4回通っています。新宿でのショッピングのついでに通えるのが便利。15,070円で質の高いレッスンが受けられるのは嬉しいです。',
+        text: '新宿西口駅から徒歩1分なので仕事帰りに寄りやすい。スタジオの雰囲気がおしゃれでモチベーションが上がります。',
       },
     ],
     price: 'Standard4 15,070円〜',
     trial: '体験レッスン 無料',
-    features: ['マシンピラティス専門', '女性専用', '新宿駅近', '体験無料'],
-    description: '女性専用マシンピラティス専門スタジオ。新宿駅からアクセス良好。最新のリフォーマーマシンを完備し、音楽に合わせた独自プログラムで楽しくトレーニング。世界水準のピラティス指導を提供しています。体験レッスンは無料で受けられるので、初めての方も気軽にお試しいただけます。',
-    access: 'JR「新宿駅」近く / 東京メトロ丸ノ内線「新宿駅」徒歩圏内',
-    address: '東京都新宿区新宿（新宿駅近く）',
+    features: ['女性専用マシンピラティス', '新宿西口駅徒歩1分', '音楽×ピラティス', '体験無料'],
+    description: '女性専用マシンピラティス専門スタジオ。都営大江戸線新宿西口駅から徒歩1分の好立地。最新のリフォーマーマシンを完備し、音楽に合わせた独自プログラムで楽しくトレーニング。世界水準のピラティス指導を提供しています。体験レッスンは無料で受けられるので、初めての方も気軽にお試しいただけます。',
+    access: '大江戸線「新宿西口駅」徒歩1分 / JR「新宿駅」西口 徒歩3分',
+    address: '東京都新宿区西新宿（新宿西口駅徒歩1分）',
     popularPlan: {
       name: 'Standard4（月4回）',
       description: '女性専用マシンピラティスの基本プラン。音楽に合わせた50分のグループレッスン。初心者にも人気。',
@@ -223,6 +170,483 @@ const studios = [
       facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', '女性専用'],
     },
   },
+  {
+    name: 'Rintosull 新宿西口駅前店',
+    image: '/images/pilates2.jpg',
+    rating: 4.6,
+    reviewCount: 142,
+    reviews: [
+      {
+        author: 'R.N',
+        rating: 5,
+        date: '1週間前',
+        text: 'LAVA系列なので安心感があります。マシンピラティスとホットヨガの両方が受けられるのが魅力。通い放題プランがお得です。',
+      },
+      {
+        author: 'A.H',
+        rating: 4,
+        date: '2週間前',
+        text: '女性専用なので安心です。ホットヨガとピラティスを組み合わせて受けられるので、飽きずに続けられています。',
+      },
+      {
+        author: 'M.M',
+        rating: 5,
+        date: '3週間前',
+        text: 'LAVA系列で通い放題プランがあるのが嬉しい。スタジオも清潔感があって気持ちよく通えます。',
+      },
+    ],
+    price: '通い放題プランあり',
+    trial: '体験レッスンあり',
+    features: ['女性専用マシンピラティス', 'LAVA系列', '通い放題', 'ホットヨガ併設'],
+    description: 'ホットヨガスタジオLAVA系列の女性専用マシンピラティススタジオ。新宿西口駅前の好立地で、マシンピラティスとホットヨガの両方を楽しめます。通い放題プランが人気で、コストを抑えながらしっかりと身体を鍛えられます。ピラティスとヨガを組み合わせたプログラムで、より効果的なボディメイクが可能です。',
+    access: '大江戸線「新宿西口駅」徒歩すぐ / JR「新宿駅」西口 徒歩5分',
+    address: '東京都新宿区西新宿（新宿西口駅前）',
+    popularPlan: {
+      name: '通い放題プラン',
+      description: 'マシンピラティスもホットヨガも通い放題のお得なプラン。LAVA系列ならではのリーズナブルな価格設定。',
+      price: '詳細は店舗にお問い合わせください',
+    },
+    options: [
+      'マシンピラティスレッスン',
+      'ホットヨガレッスン',
+      '通い放題プラン',
+      '月回数制プランあり',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性100%（女性専用）',
+      purpose: ['ダイエット', 'デトックス', '柔軟性向上', 'ストレス解消'],
+    },
+    basicInfo: {
+      hours: '平日 9:00〜22:00 / 土日祝 9:00〜20:00',
+      closed: '不定休',
+      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'ホットスタジオ', '女性専用'],
+    },
+  },
+  {
+    name: 'CLUB PILATES 新宿',
+    image: '/images/pilates3.jpg',
+    rating: 4.7,
+    reviewCount: 158,
+    reviews: [
+      {
+        author: 'D.T',
+        rating: 5,
+        date: '1週間前',
+        text: '最大12名のグループレッスンですが、インストラクターがしっかり見てくれます。月4回10,890円で本格的なリフォーマーレッスンが受けられるのは嬉しい。',
+      },
+      {
+        author: 'M.Y',
+        rating: 4,
+        date: '2週間前',
+        text: '無料体験で雰囲気を確認してから入会しました。アメリカ発のブランドらしくプログラムが体系的で、レベルに合わせて選べるのが良いです。',
+      },
+      {
+        author: 'K.S',
+        rating: 5,
+        date: '3週間前',
+        text: '初心者からアスリートまで対応できるレベル分けがしっかりしています。無料体験があるので気軽に始められました。',
+      },
+    ],
+    price: '月4回 10,890円〜',
+    trial: '無料体験あり',
+    features: ['最大12名グループ', '無料体験', 'レベル別クラス', '男性OK'],
+    description: 'アメリカ発の世界最大級リフォーマーピラティスブランド。最大12名のグループレッスンでありながら、レベル別の体系的なプログラムで初心者からアスリートまで対応。月4回10,890円からと手頃な価格で本格的なリフォーマーピラティスを体験できます。無料体験レッスンを実施中。',
+    access: 'JR「新宿駅」徒歩圏内',
+    address: '東京都新宿区新宿（新宿駅近く）',
+    popularPlan: {
+      name: 'EFT4（月4回）',
+      description: '月4回のリフォーマーグループレッスン。レベル別クラスで初心者でも安心。無料体験からスタートできる。',
+      price: '月4回 10,890円（税込）〜',
+    },
+    options: [
+      'EFT4（月4回 10,890円〜）',
+      'EFT8（月8回プラン）',
+      'Unlimited（通い放題）',
+      '無料体験レッスン実施中',
+    ],
+    userProfile: {
+      ageRange: '20代〜50代が中心',
+      genderRatio: '女性75% / 男性25%',
+      purpose: ['体幹強化', 'ボディメイク', '姿勢改善', 'アスリートトレーニング'],
+    },
+    basicInfo: {
+      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
+      closed: '不定休',
+      facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', 'ウォーターサーバー'],
+    },
+  },
+  {
+    name: 'STUDIO IVY 新宿',
+    image: '/images/pilates4.jpg',
+    rating: 4.9,
+    reviewCount: 98,
+    reviews: [
+      {
+        author: 'A.K',
+        rating: 5,
+        date: '1週間前',
+        text: '完全個室のパーソナルレッスンなので、周りを気にせずしっかり集中できます。インストラクターが自分の身体の状態に合わせたプログラムを組んでくれるので効果を実感しやすい。',
+      },
+      {
+        author: 'T.N',
+        rating: 5,
+        date: '2週間前',
+        text: '月2回15,000円から始められるのでパーソナルとしてはリーズナブル。完全個室で贅沢な空間です。',
+      },
+      {
+        author: 'R.S',
+        rating: 5,
+        date: '1ヶ月前',
+        text: '個室なので人目を気にせずトレーニングできます。自分のペースで進められるので初心者にもおすすめ。',
+      },
+    ],
+    price: '月2回 15,000円〜',
+    trial: '体験レッスンあり',
+    features: ['完全個室パーソナル', 'オーダーメイドプログラム', '男性OK', 'プライベート空間'],
+    description: '完全個室のパーソナルピラティススタジオ。一人ひとりの身体の状態や目標に合わせたオーダーメイドプログラムを提供。月2回15,000円からスタートでき、パーソナルレッスンとしてはリーズナブル。プライベートな空間で集中してトレーニングできるので、人目が気になる方にもおすすめです。',
+    access: 'JR「新宿駅」徒歩圏内',
+    address: '東京都新宿区新宿（新宿駅近く）',
+    popularPlan: {
+      name: 'パーソナル月2回プラン',
+      description: '完全個室でのマンツーマンレッスン。身体の状態に合わせたオーダーメイドプログラム。',
+      price: '月2回 15,000円（税込）〜',
+    },
+    options: [
+      'パーソナル月2回（15,000円〜）',
+      'パーソナル月4回プラン',
+      'パーソナル月8回プラン',
+      '完全個室・マンツーマン指導',
+    ],
+    userProfile: {
+      ageRange: '30代〜50代が中心',
+      genderRatio: '女性70% / 男性30%',
+      purpose: ['姿勢改善', '腰痛・肩こり改善', 'ボディメイク', '健康維持'],
+    },
+    basicInfo: {
+      hours: '平日 8:00〜21:00 / 土日祝 8:00〜19:00',
+      closed: '不定休',
+      facilities: ['完全個室', 'ロッカー', 'タオル貸出', 'ウォーターサービス'],
+    },
+  },
+  {
+    name: 'ELEMENT 新宿',
+    image: '/images/pilates2.jpg',
+    rating: 4.7,
+    reviewCount: 112,
+    reviews: [
+      {
+        author: 'Y.M',
+        rating: 5,
+        date: '1週間前',
+        text: '1回30分のマンツーマンレッスンなので忙しくても通いやすい。新宿駅近くで仕事帰りにサッと立ち寄れます。',
+      },
+      {
+        author: 'K.T',
+        rating: 4,
+        date: '2週間前',
+        text: '短時間集中のパーソナルなので効率が良い。月4回22,000円は相場からすると妥当。インストラクターの指導も丁寧です。',
+      },
+      {
+        author: 'H.S',
+        rating: 5,
+        date: '3週間前',
+        text: '30分という短さがちょうどいい。集中してしっかりトレーニングできます。手ぶらで通えるのも嬉しいポイント。',
+      },
+    ],
+    price: '月4回 22,000円',
+    trial: '体験レッスンあり',
+    features: ['マンツーマン30分', '短時間集中', '手ぶらOK', '男性OK'],
+    description: '1回30分のマンツーマンピラティスレッスンが特徴のパーソナルスタジオ。忙しいビジネスパーソンでも無理なく通える短時間集中型。月4回22,000円でプロのインストラクターによる個別指導を受けられます。手ぶらで通える環境が整っているので、仕事帰りにも気軽に立ち寄れます。',
+    access: 'JR「新宿駅」徒歩圏内',
+    address: '東京都新宿区新宿（新宿駅近く）',
+    popularPlan: {
+      name: 'マンツーマン月4回プラン',
+      description: '1回30分のマンツーマンレッスン。短時間集中で効率的にボディメイク。',
+      price: '月4回 22,000円（税込）',
+    },
+    options: [
+      'マンツーマン月4回（22,000円）',
+      'マンツーマン月8回プラン',
+      '手ぶらセット（ウェア・タオル貸出）',
+      '30分集中レッスン',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性65% / 男性35%',
+      purpose: ['時短トレーニング', 'ボディメイク', '体幹強化', '健康維持'],
+    },
+    basicInfo: {
+      hours: '平日 7:00〜22:00 / 土日祝 8:00〜20:00',
+      closed: '不定休',
+      facilities: ['ロッカー', 'ウェアレンタル', 'タオル貸出', 'シャワー'],
+    },
+  },
+  {
+    name: 'ピラティスミラー 新宿',
+    image: '/images/pilates3.jpg',
+    rating: 4.6,
+    reviewCount: 87,
+    reviews: [
+      {
+        author: 'M.K',
+        rating: 5,
+        date: '1週間前',
+        text: '女性専用なので安心して通えます。プライベート30分4,400円からという価格が魅力的。短い時間でもしっかり効果を感じられます。',
+      },
+      {
+        author: 'S.T',
+        rating: 4,
+        date: '2週間前',
+        text: 'ミラーを見ながら自分のフォームを確認できるので、正しい動きが身につきやすいです。プライベートレッスンなので丁寧に教えてもらえます。',
+      },
+      {
+        author: 'Y.H',
+        rating: 5,
+        date: '3週間前',
+        text: '1回4,400円からプライベートレッスンが受けられるのはかなりお得。スタジオも清潔で雰囲気が良いです。',
+      },
+    ],
+    price: 'プライベート30分 4,400円〜',
+    trial: '体験レッスンあり',
+    features: ['女性専用', 'プライベート30分', 'リーズナブル', 'ミラーレッスン'],
+    description: '女性専用のピラティススタジオ。プライベートレッスンが30分4,400円からとリーズナブルな価格で受けられるのが魅力。ミラーを活用したレッスンで自分のフォームを確認しながらトレーニングでき、正しい動きが身につきやすいのが特徴です。',
+    access: 'JR「新宿駅」徒歩圏内',
+    address: '東京都新宿区新宿（新宿駅近く）',
+    popularPlan: {
+      name: 'プライベート30分',
+      description: '女性専用のプライベートレッスン。30分で効率的にトレーニングできる人気プラン。',
+      price: '1回 4,400円（税込）〜',
+    },
+    options: [
+      'プライベート30分（4,400円〜）',
+      'プライベート60分プラン',
+      '回数券プラン',
+      '女性専用・完全予約制',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性100%（女性専用）',
+      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', '体幹強化'],
+    },
+    basicInfo: {
+      hours: '平日 10:00〜21:00 / 土日祝 9:00〜18:00',
+      closed: '不定休',
+      facilities: ['ロッカー', 'パウダールーム', '女性専用'],
+    },
+  },
+  {
+    name: 'BDC PILATES 新宿（近隣）',
+    image: '/images/pilates4.jpg',
+    rating: 4.8,
+    reviewCount: 134,
+    reviews: [
+      {
+        author: 'L.M',
+        rating: 5,
+        date: '1週間前',
+        text: 'ダンサー御用達のスタジオだけあって、インストラクターのレベルが高い。身体の使い方を細かく指導してくれるので、確実に変化を感じます。',
+      },
+      {
+        author: 'K.N',
+        rating: 5,
+        date: '2週間前',
+        text: 'プロのダンサーも通うスタジオで本格的なピラティスが学べます。グループレッスンでもしっかり見てもらえます。',
+      },
+      {
+        author: 'A.O',
+        rating: 4,
+        date: '1ヶ月前',
+        text: 'リフォーマーの質が高く、レッスン内容も充実しています。ダンサー向けだけでなく、一般の方にもおすすめ。',
+      },
+    ],
+    price: '月4回 14,300円〜',
+    trial: '体験レッスンあり',
+    features: ['ダンサー御用達', '高品質指導', 'リフォーマー', '本格派'],
+    description: 'ブロードウェイダンスセンター（BDC）が運営するピラティス専門スタジオ。ダンサー御用達の本格的なリフォーマーピラティスを提供。インストラクターのレベルが高く、身体の使い方を細かく指導してくれるのが特徴。ダンサーだけでなく一般の方にも広く対応しています。',
+    access: '新宿エリア近隣',
+    address: '東京都新宿区（新宿近隣）',
+    popularPlan: {
+      name: 'リフォーマーグループ（月4回）',
+      description: 'ダンサー品質の本格的なリフォーマーグループレッスン。少人数制で丁寧な指導。',
+      price: '月4回 14,300円（税込）〜',
+    },
+    options: [
+      'リフォーマーグループ（月4回 14,300円〜）',
+      'プライベートレッスン',
+      'マットグループレッスン',
+      '回数券プランあり',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性85% / 男性15%',
+      purpose: ['身体能力向上', 'ダンスパフォーマンス', '姿勢改善', 'ボディメイク'],
+    },
+    basicInfo: {
+      hours: '平日 10:00〜21:00 / 土日祝 9:00〜18:00',
+      closed: '不定休',
+      facilities: ['ロッカー', 'シャワー', 'パウダールーム'],
+    },
+  },
+  {
+    name: 'NATURAglam 新宿（近隣）',
+    image: '/images/pilates2.jpg',
+    rating: 4.5,
+    reviewCount: 76,
+    reviews: [
+      {
+        author: 'F.I',
+        rating: 5,
+        date: '2週間前',
+        text: '女性専用でアットホームな雰囲気が気に入っています。ヨガとピラティスの両方が受けられるので気分に合わせて選べます。',
+      },
+      {
+        author: 'N.K',
+        rating: 4,
+        date: '3週間前',
+        text: '少人数制で丁寧な指導が受けられます。リラックスした雰囲気でストレス解消にもなります。',
+      },
+      {
+        author: 'T.M',
+        rating: 4,
+        date: '1ヶ月前',
+        text: '料金がリーズナブルで続けやすいです。女性専用なので安心して通えるのが嬉しいポイント。',
+      },
+    ],
+    price: 'リーズナブルな料金設定',
+    trial: '体験レッスンあり',
+    features: ['女性専用', 'ヨガ&ピラティス', 'アットホーム', '少人数制'],
+    description: '女性専用のヨガ&ピラティススタジオ。アットホームな雰囲気の中、少人数制で丁寧な指導を受けられます。ヨガとピラティスの両方を提供しているので、気分や目的に合わせてレッスンを選べるのが魅力。リーズナブルな料金設定で長く続けやすいスタジオです。',
+    access: '新宿エリア近隣',
+    address: '東京都新宿区（新宿近隣）',
+    popularPlan: {
+      name: '月会費プラン',
+      description: 'ヨガとピラティスの両方が受けられるお得な月会費プラン。少人数制で丁寧な指導。',
+      price: '詳細は店舗にお問い合わせください',
+    },
+    options: [
+      'ヨガレッスン',
+      'ピラティスレッスン',
+      '月会費プラン',
+      '回数券プランあり',
+    ],
+    userProfile: {
+      ageRange: '20代〜50代が中心',
+      genderRatio: '女性100%（女性専用）',
+      purpose: ['リラックス', '柔軟性向上', '体幹強化', 'ストレス解消'],
+    },
+    basicInfo: {
+      hours: '平日 10:00〜21:00 / 土日 9:00〜18:00',
+      closed: '祝日・不定休',
+      facilities: ['ロッカー', 'パウダールーム', '女性専用', 'アットホーム空間'],
+    },
+  },
+  {
+    name: 'URBAN CLASSIC PILATES 新宿',
+    image: '/images/pilates3.jpg',
+    rating: 4.5,
+    reviewCount: 103,
+    reviews: [
+      {
+        author: 'J.W',
+        rating: 5,
+        date: '1週間前',
+        text: '予約不要で30分のレッスンが受けられるので、スキマ時間に気軽に通えます。月4回9,680円というコスパも魅力的です。',
+      },
+      {
+        author: 'R.K',
+        rating: 4,
+        date: '2週間前',
+        text: '予約なしで好きな時に行けるのが便利。30分で終わるので仕事の合間にも通えます。',
+      },
+      {
+        author: 'M.H',
+        rating: 4,
+        date: '3週間前',
+        text: '手軽さが最大の魅力。予約不要なので「今日行こう！」と思い立ったらすぐ通えます。',
+      },
+    ],
+    price: '月4回 9,680円',
+    trial: '体験レッスンあり',
+    features: ['予約不要30分', 'コスパ抜群', '気軽に通える', '男性OK'],
+    description: '予約不要で1回30分のマシンピラティスレッスンが受けられるスタジオ。「いつでも気軽に」がコンセプトで、思い立ったらすぐに通えるのが最大の魅力。月4回9,680円とリーズナブルな価格設定で、ピラティスを気軽に始めたい方にぴったりです。',
+    access: 'JR「新宿駅」徒歩圏内',
+    address: '東京都新宿区新宿（新宿駅近く）',
+    popularPlan: {
+      name: '月4回プラン',
+      description: '予約不要の30分マシンピラティスレッスン。好きなタイミングで通えるお手軽プラン。',
+      price: '月4回 9,680円（税込）',
+    },
+    options: [
+      '月4回プラン（9,680円）',
+      '月8回プラン',
+      '通い放題プラン',
+      '予約不要・30分レッスン',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性70% / 男性30%',
+      purpose: ['時短トレーニング', '体幹強化', 'ダイエット', '気軽にピラティス'],
+    },
+    basicInfo: {
+      hours: '平日 7:00〜22:00 / 土日祝 8:00〜20:00',
+      closed: '不定休',
+      facilities: ['ロッカー', '更衣室', 'Wi-Fi'],
+    },
+  },
+  {
+    name: 'CALDO 新宿',
+    image: '/images/pilates4.jpg',
+    rating: 4.5,
+    reviewCount: 168,
+    reviews: [
+      {
+        author: 'P.S',
+        rating: 5,
+        date: '1週間前',
+        text: 'ホットヨガがメインですが、ピラティスのレッスンも充実しています。暖かい空間でのピラティスは汗をかけて気持ちいいです。',
+      },
+      {
+        author: 'N.T',
+        rating: 4,
+        date: '2週間前',
+        text: '月額料金がリーズナブルでいろいろなレッスンが受けられます。新宿駅から近くてアクセスも便利。',
+      },
+      {
+        author: 'K.Y',
+        rating: 4,
+        date: '3週間前',
+        text: 'ホットヨガと一緒にピラティスも受けられるのでコスパが良い。施設も新しくて清潔感があります。',
+      },
+    ],
+    price: 'リーズナブルな月額プラン',
+    trial: '体験レッスンあり',
+    features: ['ホットヨガ&ピラティス', 'リーズナブル', '新宿駅近', '多彩なプログラム'],
+    description: '全国展開のホットヨガ&ピラティススタジオ。ホットヨガをメインに、ピラティスプログラムも充実。暖かいスタジオでのピラティスは、筋肉がほぐれやすく柔軟性もアップ。リーズナブルな月額料金で多彩なプログラムを楽しめるのが魅力です。新宿駅から好アクセス。',
+    access: 'JR「新宿駅」徒歩圏内',
+    address: '東京都新宿区新宿（新宿駅近く）',
+    popularPlan: {
+      name: 'マンスリー4メンバー',
+      description: '月4回の好きなレッスンを受けられるプラン。ホットヨガもピラティスも選べる。',
+      price: '詳細は店舗にお問い合わせください',
+    },
+    options: [
+      'マンスリー4メンバー',
+      'デイメンバー（平日昼間）',
+      'フルメンバー（通い放題）',
+      'ホットヨガ&ピラティスプログラム',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性85% / 男性15%',
+      purpose: ['デトックス', 'ダイエット', '柔軟性向上', 'リラックス'],
+    },
+    basicInfo: {
+      hours: '平日 10:00〜22:30 / 土日祝 8:30〜19:30',
+      closed: '毎月11日・22日・月末最終日',
+      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'ホットスタジオ'],
+    },
+  },
 ]
 
 const faqs = [
@@ -236,7 +660,7 @@ const faqs = [
   },
   {
     question: '新宿のピラティススタジオの料金相場は？',
-    answer: '新宿エリアのピラティススタジオの料金相場は、グループレッスン月4回で10,000円〜15,000円程度。zen place pilatesの月4回10,450円からthe SILKの月4回15,070円まで幅があります。体験レッスンは無料〜2,000円程度なので、まずは体験で試してみるのがおすすめです。',
+    answer: '新宿エリアのピラティススタジオの料金相場は、グループレッスン月4回で9,625円〜15,000円程度。zen place pilatesの月4回9,625円からthe SILKの月4回15,070円まで幅があります。パーソナルレッスンはピラティスミラーの30分4,400円からSTUDIO IVYの月2回15,000円など、スタジオにより異なります。体験レッスンは無料〜2,000円程度なので、まずは体験で試してみるのがおすすめです。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -248,19 +672,19 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内で確認してくださいね。',
+    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。マットやタオルはスタジオでレンタルできることが多いです。ELEMENTやCLUB PILATESなど手ぶらで通えるスタジオもあります。詳細は各スタジオの体験レッスン案内で確認してくださいね。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。ピラティスは筋力強化、ヨガは心身のバランスを整えることが主な目的。Rintosullではマシンピラティスとホットヨガの両方が受けられるので、両方試したい方にもおすすめです。',
+    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。ピラティスは筋力強化、ヨガは心身のバランスを整えることが主な目的。RintosullやCALDOではマシンピラティスとホットヨガの両方が受けられるので、両方試したい方にもおすすめです。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: '新宿エリアではzen place pilates 新宿が男性も利用可能です。ピラティスK、Rintosull、the SILKは女性専用スタジオとなっています。男性の方はzen place pilatesの体験レッスン（500円〜）から始めてみるのがおすすめです。',
+    answer: '新宿エリアではzen place pilates、CLUB PILATES、STUDIO IVY、ELEMENT、URBAN CLASSIC PILATESなどが男性も利用可能です。ピラティスK、Rintosull、the SILK、ピラティスミラー、NATURAglam は女性専用スタジオとなっています。男性の方はまず体験レッスンから始めてみるのがおすすめです。',
   },
   {
     question: 'ピラティスで肩こりや腰痛は改善しますか？',
-    answer: 'はい、改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。デスクワークが多い方や立ち仕事の方にもおすすめです。',
+    answer: 'はい、改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。デスクワークが多い方や立ち仕事の方にもおすすめです。STUDIO IVYなどパーソナルスタジオなら、個別の悩みに合わせたプログラムを組んでもらえます。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -279,7 +703,7 @@ export default function ShinjukuPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月09日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス新宿おすすめ4選！<br className="hidden md:block" />
+              【2026最新】ピラティス新宿おすすめ12選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -320,10 +744,10 @@ export default function ShinjukuPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-4">
-              新宿は、JR各線・小田急線・京王線・東京メトロ丸ノ内線・大江戸線等多数の路線が集まる日本最大級のターミナル駅。仕事帰りや買い物のついでにも通いやすいエリアです。
+              新宿は、JR山手線・中央線・小田急線・京王線・東京メトロ丸ノ内線・副都心線・都営大江戸線・都営新宿線など多数の路線が集まる日本最大のターミナル駅。仕事帰りや買い物のついでにも通いやすいエリアです。新宿区内にはマシンピラティス専門、女性専用、パーソナル、予約不要など、多彩なスタジオが集結しています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、新宿エリアでおすすめのピラティススタジオ4選をまとめました。
+              そこでこの記事では、新宿エリアでおすすめのピラティススタジオ12選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -348,6 +772,10 @@ export default function ShinjukuPage() {
                   <span className="text-warm-400 mr-2">✓</span>
                   <span>仕事帰りに通えるスタジオがいい</span>
                 </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>パーソナルレッスンで集中したい</span>
+                </li>
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
@@ -360,7 +788,7 @@ export default function ShinjukuPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              新宿のおすすめピラティススタジオ4選
+              新宿のおすすめピラティススタジオ12選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (
@@ -383,9 +811,10 @@ export default function ShinjukuPage() {
                   月額1万円前後から通えるスタジオ。グループレッスンで気軽に始められます。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• ピラティスK（月4回 13,420円）</li>
-                  <li className="text-warm-700">• Rintosull（リーズナブル通い放題）</li>
+                  <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• URBAN CLASSIC PILATES（月4回 9,680円）</li>
+                  <li className="text-warm-700">• CLUB PILATES（月4回 10,890円〜）</li>
+                  <li className="text-warm-700">• ピラティスK（月4回 11,220円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -395,19 +824,45 @@ export default function ShinjukuPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK（音楽×マシン）</li>
-                  <li className="text-warm-700">• Rintosull（ピラティス&ホットヨガ）</li>
-                  <li className="text-warm-700">• the SILK（体験無料）</li>
+                  <li className="text-warm-700">• the SILK（音楽×ピラティス）</li>
+                  <li className="text-warm-700">• Rintosull（LAVA系列・通い放題）</li>
+                  <li className="text-warm-700">• ピラティスミラー（プライベート4,400円〜）</li>
+                  <li className="text-warm-700">• NATURAglam（ヨガ&ピラティス）</li>
                 </ul>
               </div>
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル・個室</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  マンツーマンで集中してトレーニング。効率的に結果を出したい方に。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• STUDIO IVY（完全個室・月2回15,000円〜）</li>
+                  <li className="text-warm-700">• ELEMENT（30分マンツーマン）</li>
+                  <li className="text-warm-700">• ピラティスミラー（プライベート30分4,400円〜）</li>
+                </ul>
+              </div>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・通いやすさ</h3>
                 <p className="text-warm-600 text-sm mb-4">
                   新宿西口駅・新宿三丁目駅から徒歩圏内。複数路線からアクセス可能。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates（新宿西口駅徒歩2分）</li>
-                  <li className="text-warm-700">• Rintosull（駅から3分）</li>
-                  <li className="text-warm-700">• ピラティスK（新宿三丁目駅近）</li>
+                  <li className="text-warm-700">• the SILK（新宿西口駅徒歩1分）</li>
+                  <li className="text-warm-700">• zen place pilates（新宿西口駅D5出口徒歩2分）</li>
+                  <li className="text-warm-700">• Rintosull（新宿西口駅前）</li>
+                  <li className="text-warm-700">• ピラティスK（新宿三丁目駅近く）</li>
+                </ul>
+              </div>
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">予約不要・手軽さ</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  思い立ったらすぐ通える、気軽さ重視のスタジオ。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• URBAN CLASSIC PILATES（予約不要30分）</li>
+                  <li className="text-warm-700">• ELEMENT（30分の短時間集中）</li>
                 </ul>
               </div>
             </div>
@@ -446,25 +901,29 @@ export default function ShinjukuPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜12,000円/月</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">マットグループ</p>
+                <p className="text-3xl font-bold text-warm-800 mb-4">グループ月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マットグループレッスンで気軽にピラティスデビュー。初心者におすすめ。
+                  グループレッスンで気軽にピラティスデビュー。初心者におすすめ。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates（月4回 10,450円〜）</li>
+                  <li>• zen place pilates（月4回 9,625円〜）</li>
+                  <li>• URBAN CLASSIC PILATES（月4回 9,680円）</li>
+                  <li>• CLUB PILATES（月4回 10,890円〜）</li>
+                  <li>• ピラティスK（月4回 11,220円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜16,000円/月</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">マシン月4回</p>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜22,000円/月</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">パーソナル&マシン</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン完備の人気スタジオ。少人数制グループレッスンでしっかりボディメイク。
+                  パーソナルやマシン専門スタジオで本格的にボディメイク。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスK（月4回 13,420円）</li>
                   <li>• the SILK（月4回 15,070円〜）</li>
-                  <li>• zen place（リフォーマー月4回 15,400円〜）</li>
+                  <li>• STUDIO IVY（月2回 15,000円〜）</li>
+                  <li>• ELEMENT（月4回 22,000円）</li>
+                  <li>• ピラティスミラー（1回 4,400円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -474,8 +933,10 @@ export default function ShinjukuPage() {
                   通い放題で頻度を上げたい方向け。短期集中でしっかり結果を出したい方に。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Rintosull（リーズナブル通い放題）</li>
+                  <li>• Rintosull（LAVA系列・通い放題）</li>
                   <li>• the SILK Full（通い放題プラン）</li>
+                  <li>• CALDO（ホットヨガ&ピラティス）</li>
+                  <li>• URBAN CLASSIC PILATES（通い放題プラン）</li>
                 </ul>
               </div>
             </div>
@@ -504,7 +965,7 @@ export default function ShinjukuPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  新宿エリアの料金相場は、グループレッスン月4回で10,000円〜15,000円程度。無理なく継続できる予算を決めましょう。料金だけでなく、入会金やレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  新宿エリアの料金相場は、グループレッスン月4回で9,625円〜15,000円程度。パーソナルレッスンは1回4,400円〜、月額15,000円〜22,000円程度です。無理なく継続できる予算を決めましょう。料金だけでなく、入会金やレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -513,7 +974,7 @@ export default function ShinjukuPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。新宿エリアでは無料〜2,000円程度で体験レッスンを提供しているスタジオが多いので、気軽に試してみてくださいね。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。新宿エリアではCLUB PILATESやthe SILKが無料体験を提供しており、zen place pilatesは500円から体験可能です。気軽に試してみてくださいね。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -522,7 +983,7 @@ export default function ShinjukuPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  どんなに良いスタジオでも、通いにくい場所にあると続きません。新宿はJR各線・小田急線・京王線・東京メトロ丸ノ内線・大江戸線など多数の路線が集まる日本最大級のターミナル駅。仕事帰りやショッピングのついでに立ち寄れる立地が魅力です。
+                  どんなに良いスタジオでも、通いにくい場所にあると続きません。新宿はJR山手線・中央線・小田急線・京王線・東京メトロ丸ノ内線・副都心線・都営大江戸線・都営新宿線など多数の路線が集まる日本最大のターミナル駅。仕事帰りやショッピングのついでに立ち寄れる立地が魅力です。the SILKは新宿西口駅から徒歩1分、zen place pilatesは徒歩2分と、駅近スタジオも充実しています。
                 </p>
               </div>
             </div>
@@ -562,13 +1023,13 @@ export default function ShinjukuPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は新宿のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              今回は新宿のおすすめピラティススタジオ12選をご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              新宿はJR各線・小田急線・京王線・東京メトロ丸ノ内線・大江戸線等、多数の路線が集まる日本最大級のターミナル駅。大手チェーンから女性専用スタジオまで、多彩なスタジオが集まるエリアです。
+              新宿はJR山手線・中央線・小田急線・京王線・東京メトロ丸ノ内線・副都心線・都営大江戸線など、多数の路線が集まる日本最大のターミナル駅。大手チェーンから女性専用スタジオ、完全個室パーソナル、予約不要のカジュアルスタジオまで、多彩なスタジオが集まるエリアです。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              男性も通えるzen place pilates、音楽×マシンが楽しいピラティスK、ピラティスとホットヨガが両方楽しめるRintosull、体験無料のthe SILKと、それぞれ特徴が異なるので、目的に合わせて選んでみてください。
+              コスパ重視ならzen place pilatesやURBAN CLASSIC PILATES、女性専用ならピラティスKやthe SILK、パーソナルならSTUDIO IVYやELEMENT、ヨガも楽しみたいならRintosullやCALDOと、目的や予算に合わせて選んでみてください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
