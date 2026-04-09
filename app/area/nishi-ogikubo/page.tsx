@@ -387,9 +387,53 @@ const studios = [
   },
 ]
 
+const faqs = [
+  {
+    question: 'ピラティス初心者でも大丈夫ですか？',
+    answer: '大丈夫です！西荻窪エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。MCSpaceは初心者向けクラスが充実、zen place pilatesは経験豊富なインストラクターが基礎から丁寧に指導してくれるので、運動が苦手な方でも安心して始められますよ。',
+  },
+  {
+    question: 'マットピラティスとマシンピラティスの違いは？',
+    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。マットは場所を選ばず自宅でも続けやすいのが特徴です。西荻窪ではマピラ西荻窪店がマシン専門、zen place pilatesはマット・マシン両方に対応しています。',
+  },
+  {
+    question: '西荻窪のピラティススタジオの料金相場は？',
+    answer: '西荻窪エリアのピラティススタジオの料金相場は、グループレッスンで月4回9,625円〜10,450円程度。zen place pilates 阿佐ヶ谷（グレード02）なら月4回9,625円とリーズナブル。セミパーソナルのPilates Meeは、パーソナルより手頃でグループより丁寧な指導が受けられるコスパの良い選択肢です。',
+  },
+  {
+    question: 'どのくらいの頻度で通えばいいですか？',
+    answer: 'ピラティス初心者は週1-2回（月4-8回）がおすすめ。慣れてきたら週2-3回に増やすと効果を実感しやすくなります。大切なのは継続すること。無理のないペースで長く続けることが、理想の身体を手に入れる近道です。',
+  },
+  {
+    question: 'ピラティスで痩せますか？',
+    answer: 'はい、ピラティスはダイエット効果があります。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に。ただし即効性はないので、最低でも2-3ヶ月は継続することが大切。食事管理も並行するとより効果的です。',
+  },
+  {
+    question: '体験レッスンは何を持っていけばいいですか？',
+    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。マットやタオルはスタジオでレンタルできることが多いです。zen place pilatesの体験レッスンは1,000円で手軽に受けられますよ。',
+  },
+  {
+    question: 'ピラティスとヨガの違いは何ですか？',
+    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。西荻窪のMCSpaceではヨガとピラティスの両方が楽しめるので、両方体験してから選ぶのもおすすめですよ。',
+  },
+  {
+    question: 'ピラティスで肩こりや腰痛は改善しますか？',
+    answer: 'はい、改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。特にYAPF（カラダ改善スタジオ）は姿勢不良・痛みの解消に特化しているのでおすすめです。',
+  },
+  {
+    question: 'ピラティスはどのくらいで効果が出ますか？',
+    answer: 'ピラティスで効果が表れだすのは「2ヶ月を過ぎた頃」から。これは人間の細胞が生まれ変わるサイクルがそのくらいだからです。すぐに変化が表れなくても心配せず、最低でも2ヶ月は継続するのがおすすめです。',
+  },
+  {
+    question: 'パーソナルとグループ、どちらがおすすめですか？',
+    answer: 'それぞれ良さがあります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方におすすめ。グループは料金が安く、仲間と楽しく続けられるのが魅力。西荻窪ではPilates Meeのセミパーソナル（最大3名）が両方の良さを兼ね備えていて人気ですよ。',
+  },
+]
+
 export default function NishiOgikuboAreaPage() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <>
+      <Navigation />
       <Script
         id="structured-data"
         type="application/ld+json"
@@ -414,97 +458,332 @@ export default function NishiOgikuboAreaPage() {
           }),
         }}
       />
-      <Navigation />
-      <main className="flex-grow bg-gradient-to-b from-purple-50 to-white">
-        <div className="max-w-6xl mx-auto px-4 py-12">
-          <div className="text-center mb-12">
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">
-              西荻窪エリアのピラティススタジオ
+
+      <main className="pt-20 bg-white">
+        {/* Hero Section */}
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月09日</p>
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
+              【2026最新】ピラティス西荻窪おすすめ7選！<br className="hidden md:block" />
+              人気スタジオの料金プランを簡単比較！
             </h1>
-            <p className="text-lg text-gray-600 mb-6">
-              西荻窪駅周辺と中央線沿線（荻窪・阿佐ヶ谷）の実在する人気ピラティススタジオ7選を厳選してご紹介します
+          </div>
+        </section>
+
+        {/* Breadcrumbs */}
+        <section className="bg-white py-3 border-b border-warm-100">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <nav className="text-sm text-warm-400">
+              <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
+              {' > '}
+              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              {' > '}
+              <span className="text-warm-600">西荻窪</span>
+            </nav>
+          </div>
+        </section>
+
+        {/* Introduction */}
+        <section className="py-12 bg-white">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <p className="text-warm-600 leading-relaxed mb-6">
+              こんにちは。
             </p>
-            <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-500">
-              <span className="flex items-center">
-                <svg className="w-5 h-5 mr-1 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path
-                    fillRule="evenodd"
-                    d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-                JR中央線・総武線 西荻窪駅周辺
-              </span>
-              <span className="flex items-center">
-                <svg className="w-5 h-5 mr-1 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z" />
-                </svg>
-                体験レッスンあり
-              </span>
-              <span className="flex items-center">
-                <svg className="w-5 h-5 mr-1 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z" />
-                  <path
-                    fillRule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-                月額 9,625円〜
-              </span>
-            </div>
-          </div>
-
-          <div className="mb-8 p-6 bg-blue-50 rounded-lg border border-blue-200">
-            <h2 className="text-xl font-semibold text-blue-900 mb-3">西荻窪エリアについて</h2>
-            <p className="text-blue-800 leading-relaxed">
-              西荻窪駅周辺は、古着屋やカフェが立ち並ぶおしゃれな街として知られ、落ち着いた雰囲気が魅力のエリアです。2026年1月オープンの最新スタジオ「マピラ西荻窪店」は駅徒歩1分の好立地で、光・音楽・アロマの演出が魅力。全国150店舗相互利用できる「zen place pilates 西荻窪」は駅徒歩3分で、日本トップの実績を持つスタジオです。中央線沿線のため、荻窪（1駅）・阿佐ヶ谷（2駅）のスタジオも利用しやすく、zen place pilatesなら各店舗を自由に使い分けられます。セミパーソナルの「Pilates Mee」やカラダ改善専門の「YAPF」など、個性的なスタジオも揃っています。
+            <p className="text-warm-600 leading-relaxed mb-6">
+              Pilates Navi編集部です！
             </p>
-          </div>
-
-          <div className="grid gap-8 md:grid-cols-1">
-            {studios.map((studio, index) => (
-              <StudioCard key={index} studio={studio} rank={index + 1} />
-            ))}
-          </div>
-
-          <div className="mt-12 p-6 bg-purple-50 rounded-lg">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">西荻窪エリアでピラティスを始めよう</h2>
-            <div className="prose max-w-none text-gray-700">
-              <p className="mb-4">
-                西荻窪駅周辺は、古着屋やカフェが立ち並ぶおしゃれな街として知られ、落ち着いた雰囲気が魅力です。2026年1月オープンの最新スタジオ「マピラ西荻窪店」は駅徒歩1分で、光・音楽・アロマの演出が魅力。全国150店舗相互利用できる「zen place pilates 西荻窪」は駅徒歩3分で、日本トップの実績を持つスタジオ。中央線沿線のため、荻窪（1駅）・阿佐ヶ谷（2駅）のスタジオも利用しやすく、zen place pilatesなら各店舗を自由に使い分けられます。
-              </p>
-              <h3 className="text-xl font-semibold mb-2">エリアの特徴</h3>
-              <ul className="list-disc list-inside mb-4 space-y-2">
-                <li>西荻窪駅：JR中央線・総武線利用可能、古着屋・カフェの街</li>
-                <li>2026年1月オープンの最新スタジオ（マピラ西荻窪店）：駅徒歩1分、光・音楽・アロマ演出</li>
-                <li>全国150店舗相互利用（zen place pilates 西荻窪）：駅徒歩3分、日本トップの実績</li>
-                <li>セミパーソナル（Pilates Mee）：最大3名、女性専用、価格とクオリティ両立</li>
-                <li>カラダ改善専門（YAPF）：駅徒歩1分、姿勢不良・痛み解消に特化</li>
-                <li>中央線沿線スタジオ（荻窪・阿佐ヶ谷）も利用可能で各店舗を自由に使い分け</li>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              あなたは、
+            </p>
+            <p className="text-warm-600 leading-relaxed font-medium mb-6">
+              「ピラティスを始めてみたい」
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              「西荻窪で人気のピラティススタジオを知りたい」
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              と思っていませんか？
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-8">
+              そこでこの記事では、JR中央線・総武線西荻窪駅周辺と中央線沿線（荻窪・阿佐ヶ谷）のおすすめピラティススタジオ7選をまとめました。杉並区のアンティークの街として知られる西荻窪は、善福寺公園も近く、落ち着いた雰囲気の中で通えるスタジオが揃っています。
+            </p>
+            <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
+              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <ul className="space-y-2 text-warm-700">
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>西荻窪でピラティススタジオを探している</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>マシンピラティスやセミパーソナルを体験してみたい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>体験レッスンが安いスタジオを知りたい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>JR中央線・総武線で通いやすいスタジオがいい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>料金プランを比較したい</span>
+                </li>
               </ul>
-              <h3 className="text-xl font-semibold mb-2">料金相場</h3>
-              <p className="mb-4">
-                月4回で9,625円〜10,450円が相場。zen place pilates 西荻窪は月4回10,450円〜、zen place pilates 阿佐ヶ谷は月4回9,625円（グレード02）とリーズナブル。全国150店舗相互利用できるzen place pilatesなら、西荻窪・荻窪・阿佐ヶ谷の各店舗を追加料金なしで使い分けられるのでお得です。セミパーソナルの「Pilates Mee」は、パーソナルより手頃で、グループより丁寧な指導が受けられるコスパの良さが魅力。体験レッスンは1,000円前後で受けられるスタジオが多いので、まずは気軽に体験してみることをおすすめします。
+            </div>
+            <p className="text-warm-600 leading-relaxed">
+              それではさっそく見ていきましょう！
+            </p>
+          </div>
+        </section>
+
+        {/* Studios List */}
+        <section className="py-16 bg-warm-50" id="studios">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              西荻窪のおすすめピラティススタジオ7選
+            </h2>
+            <div className="space-y-8">
+              {studios.map((studio, index) => (
+                <StudioCard key={index} studio={studio} index={index} />
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Search by Preference */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              こだわりから探す
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  月額10,000円台で通えるスタジオ。全国150店舗相互利用できるzen placeなら、中央線沿線の複数店舗を使い分けてお得に通えます。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• zen place pilates 阿佐ヶ谷（月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• zen place pilates 西荻窪（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• zen place pilates 荻窪（月4回 10,450円〜）</li>
+                </ul>
+              </div>
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">マシン完備</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  リフォーマーマシンを完備。マシンピラティスを本格的に学びたい方におすすめ。2026年1月オープンの最新スタジオも。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• マピラ西荻窪店（マシン専門・駅徒歩1分）</li>
+                  <li className="text-warm-700">• zen place pilates 西荻窪</li>
+                  <li className="text-warm-700">• Pilates Mee（セミパーソナル）</li>
+                </ul>
+              </div>
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・好アクセス</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  西荻窪駅から徒歩3分以内。JR中央線・総武線利用で、仕事帰りや休日にも通いやすい。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• マピラ西荻窪店（駅徒歩1分）</li>
+                  <li className="text-warm-700">• YAPF（駅徒歩1分）</li>
+                  <li className="text-warm-700">• zen place pilates 西荻窪（駅徒歩3分）</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Frequency Guide */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              おすすめの期間・頻度
+            </h2>
+            <div className="bg-white rounded-lg p-8 border border-warm-200">
+              <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
+              <p className="text-warm-600 leading-relaxed mb-6">
+                週1-2回（月4-8回）からスタートするのがおすすめ。まずは身体を慣らすことが大切です。継続期間は最低でも2-3ヶ月。この期間で効果を実感できる方が多いですよ。西荻窪ではMCSpaceの初心者向けクラスが充実しています。
               </p>
-              <h3 className="text-xl font-semibold mb-2">アクセス</h3>
-              <p>
-                西荻窪駅はJR中央線・総武線の各駅停車駅で、新宿まで9分、東京駅まで23分と都心部へのアクセスも良好です。各スタジオは駅から徒歩1〜3分の好立地で、仕事帰りや買い物ついでに通いやすい環境です。中央線沿線のスタジオ（荻窪1駅・阿佐ヶ谷2駅）も近く、zen place pilatesの全国150店舗相互利用なら各店舗を自由に選べます。
+              <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
+              <p className="text-warm-600 leading-relaxed mb-6">
+                週2-3回（月8-12回）がおすすめ。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3-6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。zen place pilatesのフリープラン（回数無制限）なら毎日でも通えます。
+              </p>
+              <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理が目的の方</h3>
+              <p className="text-warm-600 leading-relaxed">
+                週1回（月4回）のペースで継続するのがおすすめ。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切。善福寺公園の散歩と組み合わせて、自分のペースで楽しく通えるのが一番ですよ。
               </p>
             </div>
           </div>
+        </section>
 
-          <div className="mt-8 text-center">
+        {/* Price Guide */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              予算別の料金相場
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
+                <p className="text-sm text-warm-600 mb-4">
+                  グループレッスン中心。手軽に始めたい方向け。中央線沿線スタジオを活用。
+                </p>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• zen place 阿佐ヶ谷（9,625円〜）</li>
+                </ul>
+              </div>
+              <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
+                <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 10,000〜16,000円</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
+                <p className="text-sm text-warm-600 mb-4">
+                  マット・マシン完備の大手スタジオ。グループ・セミパーソナル対応。
+                </p>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• zen place 西荻窪（10,450円〜）</li>
+                  <li>• zen place 荻窪（10,450円〜）</li>
+                  <li>• リフォーマーグループ（15,400円）</li>
+                </ul>
+              </div>
+              <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 30,000円〜</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
+                <p className="text-sm text-warm-600 mb-4">
+                  完全パーソナルレッスン。短期集中で結果を出したい方向け。
+                </p>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• zen place プライベート月4（33,880円〜）</li>
+                  <li>• YAPF パーソナルセッション</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* How to Choose */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              失敗しないピラティススタジオの選び方
+            </h2>
+            <div className="space-y-8">
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span>
+                  <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  まずは自分がピラティスで何を達成したいのかを明確にしましょう。ダイエット、姿勢改善、体幹強化、リラックスなど、目的によって最適なスタジオやプログラムは変わります。西荻窪にはマシン専門のマピラ、カラダ改善専門のYAPF、セミパーソナルのPilates Meeなど個性的なスタジオが揃っているので、目的が明確だとスタジオ選びもスムーズになりますよ。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span>
+                  <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  西荻窪エリアの料金相場はグループで月4回9,625円〜10,450円程度。無理なく継続できる予算を決めましょう。料金だけでなく、入会金、マット・ウェアのレンタル料なども確認を。zen place pilatesなら全国150店舗相互利用できるので、西荻窪・荻窪・阿佐ヶ谷の各店舗を追加料金なしで使い分けられるのもお得なポイントです。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span>
+                  <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。zen place pilatesは体験レッスン1,000円、マピラ西荻窪店も体験レッスンありなので、気軽に試してみてくださいね。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span>
+                  <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  どんなに良いスタジオでも、通いにくい場所にあると続きません。西荻窪はJR中央線・総武線の各駅停車駅で、杉並区のアンティークの街として知られています。マピラ西荻窪店とYAPFは駅徒歩1分、zen place pilatesは駅徒歩3分と好立地。善福寺公園も近く、レッスン後の散歩もおすすめ。中央線沿線の荻窪（1駅）・阿佐ヶ谷（2駅）のスタジオも合わせて検討すると選択肢が広がりますよ。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ */}
+        <section className="py-16 bg-white">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              よくある質問
+            </h2>
+            <div className="space-y-6">
+              {faqs.map((faq, index) => (
+                <div key={index} className="border border-warm-200 rounded-lg overflow-hidden">
+                  <details className="group">
+                    <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition">
+                      <h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3>
+                      <svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"/>
+                      </svg>
+                    </summary>
+                    <div className="px-6 pb-6 text-warm-600 leading-relaxed">
+                      {faq.answer}
+                    </div>
+                  </details>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Summary */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">
+              まとめ
+            </h2>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              今回は西荻窪のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              杉並区のアンティークの街・西荻窪は、善福寺公園も近く落ち着いた雰囲気の中でピラティスを楽しめるエリアです。2026年1月オープンのマピラ西荻窪店や、全国150店舗相互利用できるzen place pilatesなど、個性的なスタジオが揃っています。
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              この記事では西荻窪エリアのピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+            </p>
+            <p className="text-warm-700 font-medium text-center">
+              あなたにぴったりのピラティススタジオが見つかることを願っています。
+            </p>
+          </div>
+        </section>
+
+        {/* CTA */}
+        <section className="py-16 bg-warm-800 text-white" id="contact">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">
+              体験レッスンを予約しよう
+            </h2>
+            <p className="text-warm-200 mb-8 leading-relaxed">
+              初回限定の体験レッスン1,000円〜。<br />
+              まずは気軽に体験してみましょう。
+            </p>
             <Link
-              href="/"
-              className="inline-block bg-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors"
+              href="/#studios"
+              className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded"
             >
-              他のエリアを見る
+              おすすめスタジオ一覧に戻る
             </Link>
           </div>
-        </div>
+        </section>
       </main>
+
       <SiteFooter />
-    </div>
+      <Script src="https://unpkg.com/lucide@latest" strategy="lazyOnload" />
+    </>
   )
 }
