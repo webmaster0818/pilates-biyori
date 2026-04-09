@@ -300,9 +300,50 @@ const studios = [
   },
 ]
 
-export default function OchanomizuPage() {
-  const sortedStudios = [...studios].sort((a, b) => b.rating - a.rating)
+const faqs = [
+  {
+    question: 'ピラティス初心者でも大丈夫ですか？',
+    answer: '大丈夫です！御茶ノ水・神保町エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。YARD御茶ノ水は会員の7割が初心者スタート、zen placeも初心者歓迎なので、運動が苦手な方でも安心して始められますよ。',
+  },
+  {
+    question: 'マットピラティスとマシンピラティスの違いは？',
+    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。マットは場所を選ばず自宅でも続けやすいのが特徴です。',
+  },
+  {
+    question: '御茶ノ水・神保町のピラティススタジオの料金相場は？',
+    answer: '御茶ノ水・神保町エリアの料金相場は、グループレッスンで月4回10,450円〜19,900円程度。パーソナルレッスンは1回9,300円〜が相場です。体験レッスンはピラティスK神保町店が0円、zen placeやYARDが1,000円で始められます。',
+  },
+  {
+    question: 'どのくらいの頻度で通えばいいですか？',
+    answer: 'ピラティス初心者は週1-2回（月4-8回）がおすすめ。慣れてきたら週2-3回に増やすと効果を実感しやすくなります。大切なのは継続すること。無理のないペースで長く続けることが、理想の身体を手に入れる近道です。',
+  },
+  {
+    question: 'ピラティスで痩せますか？',
+    answer: 'はい、ピラティスはダイエット効果があります。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に。ただし即効性はないので、最低でも2-3ヶ月は継続することが大切。食事管理も並行するとより効果的です。',
+  },
+  {
+    question: '体験レッスンは何を持っていけばいいですか？',
+    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内で確認してくださいね。',
+  },
+  {
+    question: 'ピラティスとヨガの違いは何ですか？',
+    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。御茶ノ水エリアではYARDやrcu リチュなど、ヨガとピラティス両方を提供しているスタジオもあるので、目的に合わせて選びましょう。',
+  },
+  {
+    question: 'ピラティスで肩こりや腰痛は改善しますか？',
+    answer: 'はい、改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。デスクワークが多い方や学生の方にもおすすめです。',
+  },
+  {
+    question: 'ピラティスはどのくらいで効果が出ますか？',
+    answer: 'ピラティスで効果が表れだすのは「2ヶ月を過ぎた頃」から。これは人間の細胞が生まれ変わるサイクルがそのくらいだからです。すぐに変化が表れなくても心配せず、最低でも2ヶ月は継続するのがおすすめです。',
+  },
+  {
+    question: 'パーソナルとグループ、どちらがおすすめですか？',
+    answer: 'それぞれ良さがあります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方におすすめ。グループは料金が安く、仲間と楽しく続けられるのが魅力。御茶ノ水エリアではPILATES STUDIO ZEROがパーソナル専門、zen placeやピラティスKがグループ中心です。まずは体験で両方試してみるのがいいですよ。',
+  },
+]
 
+export default function OchanomizuPage() {
   return (
     <>
       <Script
@@ -328,173 +369,332 @@ export default function OchanomizuPage() {
           }),
         }}
       />
-      <div className="min-h-screen bg-gradient-to-b from-pink-50 via-white to-purple-50">
-        <Navigation />
 
-        <article className="max-w-6xl mx-auto px-4 py-8">
-          {/* ヒーローセクション */}
-          <section className="mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
-              御茶ノ水・神保町の
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-600">
-                ピラティススタジオ8選
-              </span>
+      <Navigation />
+
+      <main className="pt-20 bg-white">
+        {/* Hero Section */}
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月09日</p>
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
+              【2026最新】御茶ノ水・神保町の<br className="hidden md:block" />
+              ピラティススタジオおすすめ8選！
             </h1>
-            <p className="text-xl text-gray-600 mb-6">
-              御茶ノ水・神保町エリアの実在するピラティススタジオを厳選してご紹介。駅近で通いやすいスタジオの料金・特徴を徹底比較。
+          </div>
+        </section>
+
+        {/* Breadcrumbs */}
+        <section className="bg-white py-3 border-b border-warm-100">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <nav className="text-sm text-warm-400">
+              <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
+              {' > '}
+              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              {' > '}
+              <span className="text-warm-600">御茶ノ水・神保町</span>
+            </nav>
+          </div>
+        </section>
+
+        {/* Introduction */}
+        <section className="py-12 bg-white">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <p className="text-warm-600 leading-relaxed mb-6">
+              こんにちは。
             </p>
-
-            <div className="grid md:grid-cols-3 gap-4 mb-8">
-              <div className="bg-white p-4 rounded-lg shadow-sm border border-pink-100">
-                <div className="text-pink-600 text-2xl mb-2">🏢</div>
-                <div className="font-semibold text-gray-900">全{studios.length}スタジオ掲載</div>
-                <div className="text-sm text-gray-600">実在する店舗のみ</div>
-              </div>
-              <div className="bg-white p-4 rounded-lg shadow-sm border border-purple-100">
-                <div className="text-purple-600 text-2xl mb-2">🚇</div>
-                <div className="font-semibold text-gray-900">駅近スタジオ多数</div>
-                <div className="text-sm text-gray-600">徒歩1〜10分圏内</div>
-              </div>
-              <div className="bg-white p-4 rounded-lg shadow-sm border border-blue-100">
-                <div className="text-blue-600 text-2xl mb-2">💰</div>
-                <div className="font-semibold text-gray-900">料金相場</div>
-                <div className="text-sm text-gray-600">月4回 10,450円〜</div>
-              </div>
-            </div>
-          </section>
-
-          {/* スタジオ一覧 */}
-          <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8">おすすめスタジオ一覧</h2>
-            <div className="grid gap-8 md:grid-cols-2">
-              {sortedStudios.map((studio, index) => (
-                <StudioCard key={index} studio={studio} />
-              ))}
-            </div>
-          </section>
-
-          {/* 料金相場セクション */}
-          <section className="mb-12 bg-gradient-to-r from-pink-50 to-purple-50 p-8 rounded-2xl">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">御茶ノ水・神保町エリアの料金相場</h2>
-
-            <div className="grid md:grid-cols-3 gap-6 mb-8">
-              <div className="bg-white p-6 rounded-xl shadow-sm">
-                <div className="text-pink-600 font-semibold mb-2">月4回プラン</div>
-                <div className="text-3xl font-bold text-gray-900 mb-2">10,450円〜</div>
-                <div className="text-sm text-gray-600">週1回ペースで通える基本プラン</div>
-              </div>
-              <div className="bg-white p-6 rounded-xl shadow-sm">
-                <div className="text-purple-600 font-semibold mb-2">通い放題プラン</div>
-                <div className="text-3xl font-bold text-gray-900 mb-2">16,940円〜</div>
-                <div className="text-sm text-gray-600">毎日通いたい方におすすめ</div>
-              </div>
-              <div className="bg-white p-6 rounded-xl shadow-sm">
-                <div className="text-blue-600 font-semibold mb-2">プライベート</div>
-                <div className="text-3xl font-bold text-gray-900 mb-2">9,300円〜/回</div>
-                <div className="text-sm text-gray-600">マンツーマン指導</div>
-              </div>
-            </div>
-
-            <div className="bg-white p-6 rounded-xl">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">💡 スタジオ選びのポイント</h3>
-              <ul className="space-y-3 text-gray-700">
+            <p className="text-warm-600 leading-relaxed mb-6">
+              Pilates Navi編集部です！
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              あなたは、
+            </p>
+            <p className="text-warm-600 leading-relaxed font-medium mb-6">
+              「ピラティスを始めてみたい」
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              「御茶ノ水・神保町で人気のピラティススタジオを知りたい」
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              と思っていませんか？
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-8">
+              そこでこの記事では、JR中央線・総武線御茶ノ水駅や東京メトロ丸ノ内線・千代田線が利用できる御茶ノ水・神保町エリアでおすすめのピラティススタジオ8選をまとめました。千代田区・神田の学生の街・楽器街としても知られるこのエリアは、複数路線が交差する好アクセスな立地です。
+            </p>
+            <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
+              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
-                  <span className="text-pink-500 mr-2">✓</span>
-                  <span><strong>大手チェーン</strong>：zen place、ピラティスKなど全国展開の安心感</span>
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>御茶ノ水・神保町でピラティススタジオを探している</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-pink-500 mr-2">✓</span>
-                  <span><strong>駅近立地</strong>：神保町駅・御茶ノ水駅から徒歩1〜3分のスタジオ多数</span>
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>マシンピラティスを体験してみたい</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-pink-500 mr-2">✓</span>
-                  <span><strong>専門スタジオ</strong>：プライベート専門、中国語対応などニーズに合わせて選べる</span>
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>体験レッスンが安いスタジオを知りたい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>JR中央線・総武線や丸ノ内線・千代田線で通いやすいスタジオがいい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>料金プランを比較したい</span>
                 </li>
               </ul>
             </div>
-          </section>
-
-          {/* よくある質問 */}
-          <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">よくある質問</h2>
-            <div className="space-y-4">
-              <details className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-                <summary className="font-semibold text-gray-900 cursor-pointer">
-                  Q. 御茶ノ水・神保町エリアで初心者におすすめのスタジオは？
-                </summary>
-                <p className="mt-4 text-gray-700">
-                  zen place pilates（本郷三丁目店・神保町店）がおすすめです。全国150店舗展開の大手で、初心者向けの丁寧な指導が受けられます。YARDも会員の7割が初心者からスタートしており安心です。
-                </p>
-              </details>
-
-              <details className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-                <summary className="font-semibold text-gray-900 cursor-pointer">
-                  Q. 駅から一番近いスタジオはどこ？
-                </summary>
-                <p className="mt-4 text-gray-700">
-                  Z&Z Pilates Studio神保町店（神保町駅徒歩1分）、zen place pilates神保町店（神保町駅A7出口徒歩1分）、YARD御茶ノ水スタジオ（淡路町駅・小川町駅徒歩1分）が駅直結レベルの好立地です。
-                </p>
-              </details>
-
-              <details className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-                <summary className="font-semibold text-gray-900 cursor-pointer">
-                  Q. 女性専用のスタジオはありますか？
-                </summary>
-                <p className="mt-4 text-gray-700">
-                  ピラティスK神保町店が女性専用スタジオです。音楽に合わせた楽しいレッスンで、周りの目を気にせず集中できます。
-                </p>
-              </details>
-
-              <details className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-                <summary className="font-semibold text-gray-900 cursor-pointer">
-                  Q. プライベートレッスンが受けられるスタジオは？
-                </summary>
-                <p className="mt-4 text-gray-700">
-                  PILATES STUDIO ZERO神保町店が完全プライベート専門です。zen placeやZ&Z Pilates Studioでもプライベートレッスンを選べます。
-                </p>
-              </details>
-
-              <details className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-                <summary className="font-semibold text-gray-900 cursor-pointer">
-                  Q. 体験レッスンの料金は？
-                </summary>
-                <p className="mt-4 text-gray-700">
-                  無料：ピラティスK（0円）、1,000円：zen place・YARD、4,000円〜：Z&Z・PILATES STUDIO ZERO。ほとんどのスタジオで体験レッスンを提供しています。
-                </p>
-              </details>
-            </div>
-          </section>
-
-          {/* エリアガイド */}
-          <section className="mb-12 bg-white p-8 rounded-2xl shadow-sm">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">御茶ノ水・神保町エリアの特徴</h2>
-            <div className="prose max-w-none text-gray-700">
-              <p className="mb-4">
-                御茶ノ水・神保町エリアは、学生街・古書店街として知られる文教地区です。JR中央線・総武線、東京メトロ丸ノ内線・千代田線、都営三田線・新宿線が利用でき、都心各地へのアクセスが良好です。
-              </p>
-              <p className="mb-4">
-                近年はピラティススタジオの新規出店が相次ぎ、ピラティスK神保町店（2025年7月オープン）など新しいスタジオも増えています。大手チェーンから中国語対応の専門スタジオまで、多様なニーズに対応できるエリアとなっています。
-              </p>
-              <p>
-                駅から徒歩1〜3分圏内のスタジオが多く、仕事帰りや学校帰りに気軽に通えるのが魅力。神保町駅・御茶ノ水駅・本郷三丁目駅など複数駅が利用できるため、自分の通勤・通学ルートに合わせてスタジオを選べます。
-              </p>
-            </div>
-          </section>
-
-          {/* CTAセクション */}
-          <section className="text-center py-12 bg-gradient-to-r from-pink-500 to-purple-600 rounded-2xl text-white">
-            <h2 className="text-3xl font-bold mb-4">御茶ノ水・神保町でピラティスを始めよう</h2>
-            <p className="text-xl mb-6 text-pink-50">
-              まずは体験レッスンから。あなたに合ったスタジオが見つかります。
+            <p className="text-warm-600 leading-relaxed">
+              それではさっそく見ていきましょう！
             </p>
-            <p className="text-pink-50">
-              ↑ 上記のスタジオ一覧から、気になるスタジオの詳細をチェック！
-            </p>
-          </section>
-        </article>
+          </div>
+        </section>
 
-        <SiteFooter />
-      </div>
+        {/* Studios List */}
+        <section className="py-16 bg-warm-50" id="studios">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              御茶ノ水・神保町のおすすめピラティススタジオ8選
+            </h2>
+            <div className="space-y-8">
+              {studios.map((studio, index) => (
+                <StudioCard key={index} studio={studio} index={index} />
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Search by Preference */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              こだわりから探す
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  月額10,450円から通えるスタジオ。体験レッスン0円のスタジオもあり、コスパ重視の方におすすめ。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• zen place pilates 本郷三丁目店（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• zen place pilates 神保町店（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• YARD 御茶ノ水スタジオ（月4回 10,450円〜）</li>
+                </ul>
+              </div>
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">マシン完備</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  リフォーマーマシンを完備。マシンピラティスを本格的に学びたい方におすすめ。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• zen place pilates 本郷三丁目店</li>
+                  <li className="text-warm-700">• ピラティスK 神保町店</li>
+                  <li className="text-warm-700">• PILATES STUDIO ZERO 神保町店</li>
+                </ul>
+              </div>
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・好アクセス</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  神保町駅・御茶ノ水駅から徒歩3分以内。仕事帰りや学校帰りに通いやすい好立地なスタジオ。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• zen place pilates 神保町店（神保町駅徒歩1分）</li>
+                  <li className="text-warm-700">• Z&Z Pilates Studio（神保町駅徒歩1分）</li>
+                  <li className="text-warm-700">• YARD 御茶ノ水（淡路町駅徒歩1分）</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Frequency Guide */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              おすすめの期間・頻度
+            </h2>
+            <div className="bg-white rounded-lg p-8 border border-warm-200">
+              <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
+              <p className="text-warm-600 leading-relaxed mb-6">
+                週1-2回（月4-8回）からスタートするのがおすすめ。まずは身体を慣らすことが大切です。継続期間は最低でも2-3ヶ月。この期間で効果を実感できる方が多いですよ。
+              </p>
+              <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
+              <p className="text-warm-600 leading-relaxed mb-6">
+                週2-3回（月8-12回）がおすすめ。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3-6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。
+              </p>
+              <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理が目的の方</h3>
+              <p className="text-warm-600 leading-relaxed">
+                週1回（月4回）のペースで継続するのがおすすめ。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切。自分のペースで楽しく通えるのが一番ですよ。
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Price Guide */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              予算別の料金相場
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜13,000円</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
+                <p className="text-sm text-warm-600 mb-4">
+                  グループレッスン中心。大手チェーンの基本プランが中心。
+                </p>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• zen place pilates（10,450円〜）</li>
+                  <li>• YARD 御茶ノ水（10,450円〜）</li>
+                </ul>
+              </div>
+              <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
+                <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜20,000円</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
+                <p className="text-sm text-warm-600 mb-4">
+                  マシン完備の大手スタジオ。グループ・小班制選択可。
+                </p>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• ピラティスK 神保町店（13,420円〜）</li>
+                  <li>• zen place フリープラン（16,940円）</li>
+                  <li>• Z&Z Pilates Studio（19,900円〜）</li>
+                </ul>
+              </div>
+              <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 30,000円〜</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
+                <p className="text-sm text-warm-600 mb-4">
+                  完全プライベートレッスン。短期集中で結果を出したい方向け。
+                </p>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• PILATES STUDIO ZERO（37,200円〜）</li>
+                  <li>• zen place プライベート（38,280円〜）</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* How to Choose */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              失敗しないピラティススタジオの選び方
+            </h2>
+            <div className="space-y-8">
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span>
+                  <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  まずは自分がピラティスで何を達成したいのかを明確にしましょう。ダイエット、姿勢改善、体幹強化、リラックスなど、目的によって最適なスタジオやプログラムは変わります。目的が明確だとスタジオ選びもスムーズになりますよ。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span>
+                  <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  御茶ノ水・神保町エリアの料金相場はグループで月4回10,450円〜19,900円程度。無理なく継続できる予算を決めましょう。料金だけでなく、入会金、マット・ウェアのレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span>
+                  <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。ピラティスK神保町店は体験0円、zen placeやYARDは1,000円で体験できるので、気軽に試してみてくださいね。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span>
+                  <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  どんなに良いスタジオでも、通いにくい場所にあると続きません。御茶ノ水・神保町エリアはJR中央線・総武線、東京メトロ丸ノ内線・千代田線、都営三田線・新宿線が利用でき、千代田区の文教地区の中心です。神保町駅・御茶ノ水駅・淡路町駅など複数駅が利用できるので、通勤・通学ルートに合わせてスタジオを選べますよ。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ */}
+        <section className="py-16 bg-white">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              よくある質問
+            </h2>
+            <div className="space-y-6">
+              {faqs.map((faq, index) => (
+                <div key={index} className="border border-warm-200 rounded-lg overflow-hidden">
+                  <details className="group">
+                    <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition">
+                      <h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3>
+                      <svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"/>
+                      </svg>
+                    </summary>
+                    <div className="px-6 pb-6 text-warm-600 leading-relaxed">
+                      {faq.answer}
+                    </div>
+                  </details>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Summary */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">
+              まとめ
+            </h2>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              今回は御茶ノ水・神保町のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              この記事では御茶ノ水・神保町に数多くあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+            </p>
+            <p className="text-warm-700 font-medium text-center">
+              あなたにぴったりのピラティススタジオが見つかることを願っています。
+            </p>
+          </div>
+        </section>
+
+        {/* CTA */}
+        <section className="py-16 bg-warm-800 text-white" id="contact">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">
+              体験レッスンを予約しよう
+            </h2>
+            <p className="text-warm-200 mb-8 leading-relaxed">
+              初回限定の体験レッスン無料〜1,000円。<br />
+              まずは気軽に体験してみましょう。
+            </p>
+            <Link
+              href="/#studios"
+              className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded"
+            >
+              おすすめスタジオ一覧に戻る
+            </Link>
+          </div>
+        </section>
+      </main>
+
+      <SiteFooter />
+      <Script src="https://unpkg.com/lucide@latest" strategy="lazyOnload" />
     </>
   )
 }
