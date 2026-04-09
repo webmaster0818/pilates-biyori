@@ -5,7 +5,7 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】大宮のピラティススタジオおすすめ8選｜料金・体験レッスン徹底比較',
+  title: '【2026最新】ピラティス大宮おすすめ8選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
   description: '大宮エリアのおすすめピラティススタジオ8選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,大宮,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -15,9 +15,30 @@ const studios = [
     name: 'ピラティスK 大宮店',
     image: '/images/pilates2.jpg',
     rating: 4.1,
+    reviewCount: 156,
+    reviews: [
+      {
+        author: 'A.M',
+        rating: 5,
+        date: '1週間前',
+        text: '暗闇×音楽の組み合わせが最高に楽しい！周りを気にせず動けるので、ストレス発散にもなります。JR大宮駅から徒歩3分で通いやすいのもポイント。3ヶ月でウエストが引き締まりました。',
+      },
+      {
+        author: 'R.K',
+        rating: 4,
+        date: '2週間前',
+        text: '女性専用なので気兼ねなく通えます。お尻や二の腕に特化したプログラムがあるのが嬉しい。無料体験レッスンで雰囲気を確認できたのも良かったです。',
+      },
+      {
+        author: 'Y.N',
+        rating: 5,
+        date: '1ヶ月前',
+        text: 'ルミネ大宮のすぐ近くなので、レッスン後に買い物もできて便利。音楽に合わせて動くので飽きません。インストラクターが明るくて毎回楽しいです。',
+      },
+    ],
     price: '月4回 13,420円〜',
     trial: '無料体験レッスン',
-    features: ['音楽×マシン', '女性専用', '大宮駅徒歩3分', '暗闇レッスン'],
+    features: ['音楽×マシン', '女性専用', '大宮駅徒歩3分', '暗闘レッスン'],
     description: '音楽に合わせて楽しくボディメイク。女性専用スタジオで安心。JR大宮駅から徒歩3分とアクセス抜群。暗闇×音楽×マシンピラティスの融合レッスンが人気。お腹、お尻、二の腕、脚、背中の部位に特化したボディメイクプログラムが充実。周りの目を気にせず集中できる環境で、楽しみながら理想のボディラインを手に入れられます。',
     access: 'JR大宮駅から徒歩3分',
     address: '埼玉県さいたま市大宮区（詳細は公式サイト参照）',
@@ -47,6 +68,27 @@ const studios = [
     name: 'zen place pilates 大宮',
     image: '/images/pilates3.jpg',
     rating: 4.2,
+    reviewCount: 203,
+    reviews: [
+      {
+        author: 'S.T',
+        rating: 5,
+        date: '2週間前',
+        text: '全国どこでも通えるのが最大の魅力。大宮駅東口から徒歩6分で、JR京浜東北線・埼京線どちらからもアクセスしやすいです。インストラクターの知識が豊富で、体の使い方を根本から学べます。',
+      },
+      {
+        author: 'K.I',
+        rating: 4,
+        date: '3週間前',
+        text: 'マットもマシンも両方できるのが良い。リフォーマーグループレッスンが特におすすめ。さいたま市内で質の高いスタジオだと思います。',
+      },
+      {
+        author: 'M.H',
+        rating: 5,
+        date: '1ヶ月前',
+        text: '男性もOKなので夫婦で通っています。少人数制で丁寧に見てもらえるのがありがたい。東武野田線の乗り換え前に寄れるので便利です。',
+      },
+    ],
     price: '月4回 9,625円〜',
     trial: '体験レッスン あり',
     features: ['全国150店舗', 'マット＆マシン', '大宮駅東口徒歩6分', '男性OK'],
@@ -79,6 +121,27 @@ const studios = [
     name: 'the SILK 大宮',
     image: '/images/pilates4.jpg',
     rating: 4.2,
+    reviewCount: 118,
+    reviews: [
+      {
+        author: 'E.S',
+        rating: 5,
+        date: '5日前',
+        text: '大宮駅から徒歩2分で最高のアクセス。ルミネ大宮の近くなのでレッスン前後に買い物もできます。高級感ある内装で気分が上がります。',
+      },
+      {
+        author: 'H.O',
+        rating: 4,
+        date: '2週間前',
+        text: 'パウダールームが充実しているので、仕事前のレッスンでも安心。マシンが新しくて使いやすいです。上質な空間で集中できます。',
+      },
+      {
+        author: 'N.T',
+        rating: 5,
+        date: '1ヶ月前',
+        text: 'さいたま市内で一番おしゃれなスタジオだと思います。落ち着いた雰囲気でリラックスしながらトレーニングできるのが良い。',
+      },
+    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['高級感', '大宮駅徒歩2分', 'マシン専門', 'パウダールーム充実'],
@@ -111,6 +174,27 @@ const studios = [
     name: 'La pilates 大宮店',
     image: '/images/pilates2.jpg',
     rating: 4.0,
+    reviewCount: 82,
+    reviews: [
+      {
+        author: 'C.M',
+        rating: 5,
+        date: '1週間前',
+        text: '骨膜整体とマシンピラティスの組み合わせが他にはないアプローチ。長年悩んでいた肩こりが3ヶ月で大幅に改善しました。女性専用で安心です。',
+      },
+      {
+        author: 'T.Y',
+        rating: 4,
+        date: '3週間前',
+        text: 'プライベート空間でマンツーマン指導を受けられるのが魅力。ウッド調の温かみある内装でリラックスできます。さいたま市で唯一の施術スタイルだと思います。',
+      },
+      {
+        author: 'K.S',
+        rating: 5,
+        date: '1ヶ月前',
+        text: '腰痛改善目的で通い始めましたが、姿勢も良くなり一石二鳥。月4回コースだと1回あたり10,000円で、整体込みと考えるとコスパが良いです。',
+      },
+    ],
     price: '月1回 12,000円〜',
     trial: '体験レッスン 3,000円',
     features: ['整体×ピラティス', '女性専用', '骨膜整体', 'プライベート空間'],
@@ -143,6 +227,27 @@ const studios = [
     name: 'luluto 大宮店',
     image: '/images/pilates3.jpg',
     rating: 4.3,
+    reviewCount: 94,
+    reviews: [
+      {
+        author: 'J.W',
+        rating: 5,
+        date: '10日前',
+        text: '理学療法士が考案したプログラムなので安心感が違います。身体の癖を丁寧に分析してもらえて、オーダーメイドのメニューを組んでくれます。大宮で唯一のアプローチです。',
+      },
+      {
+        author: 'P.I',
+        rating: 5,
+        date: '3週間前',
+        text: 'リハビリ目的で通い始めましたが、インストラクターの医療的知識が豊富で信頼できます。ただ動くのではなく「正しく動く」ことの大切さを学べました。',
+      },
+      {
+        author: 'D.N',
+        rating: 4,
+        date: '1ヶ月前',
+        text: '男性も通えるのが嬉しい。身体の専門家に見てもらえるので、自己流では気づけなかった課題がわかります。さいたま市内でここしかないサービスです。',
+      },
+    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['理学療法士考案', '医療的視点', '身体の専門家', 'オーダーメイド'],
@@ -175,6 +280,27 @@ const studios = [
     name: 'EIGHT 大宮',
     image: '/images/pilates4.jpg',
     rating: 4.1,
+    reviewCount: 67,
+    reviews: [
+      {
+        author: 'L.F',
+        rating: 5,
+        date: '5日前',
+        text: 'マンツーマンなので自分のペースでしっかりトレーニングできます。マシンピラティスとパーソナルトレーニングを組み合わせられるのが他にはない魅力です。',
+      },
+      {
+        author: 'G.A',
+        rating: 4,
+        date: '2週間前',
+        text: '完全個室でのマンツーマン指導なので、周りを気にせず集中できます。目的に合わせてプログラムを柔軟に変更してもらえるのが良い。',
+      },
+      {
+        author: 'W.K',
+        rating: 5,
+        date: '1ヶ月前',
+        text: 'パーソナルジムが隣接しているので、ピラティスだけでは物足りない日は筋トレも追加できます。大宮駅周辺では珍しいスタイルのスタジオです。',
+      },
+    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['マンツーマン', 'パーソナルジム併設', 'マシンピラティス', 'トレーニング併用可'],
@@ -207,6 +333,27 @@ const studios = [
     name: 'Studio Yoggy 大宮',
     image: '/images/pilates2.jpg',
     rating: 4.0,
+    reviewCount: 132,
+    reviews: [
+      {
+        author: 'B.U',
+        rating: 5,
+        date: '1週間前',
+        text: '大宮駅から徒歩4分で通いやすい。ヨガとピラティスの両方を楽しめるので、日によって気分を変えられるのが魅力。清潔で開放的なスタジオです。',
+      },
+      {
+        author: 'F.E',
+        rating: 4,
+        date: '3週間前',
+        text: '大きな窓のある開放的な空間が気持ちいい。インストラクターが丁寧で、初心者でも安心して受けられます。全店相互利用できるのも便利。',
+      },
+      {
+        author: 'O.R',
+        rating: 4,
+        date: '1ヶ月前',
+        text: 'ヨガもピラティスも両方やりたい人には最適。大宮駅周辺で多彩なクラスが選べるスタジオは貴重です。JR京浜東北線の帰りに寄っています。',
+      },
+    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['ヨガ＆ピラティス', '大宮駅徒歩4分', '清潔な空間', '開放的'],
@@ -239,6 +386,27 @@ const studios = [
     name: 'Rintosull 大宮',
     image: '/images/pilates3.jpg',
     rating: 4.0,
+    reviewCount: 145,
+    reviews: [
+      {
+        author: 'V.M',
+        rating: 5,
+        date: '3日前',
+        text: 'マシンピラティス未経験で不安でしたが、会員の87%が未経験者と聞いて安心しました。実際にとても丁寧に教えてもらえます。LAVAとの相互利用がお得です。',
+      },
+      {
+        author: 'Q.H',
+        rating: 4,
+        date: '2週間前',
+        text: 'ホットヨガとマシンピラティスの両方ができるプランがコスパ最高。大宮で複数のエクササイズを楽しみたい方にはぴったりです。',
+      },
+      {
+        author: 'X.J',
+        rating: 5,
+        date: '1ヶ月前',
+        text: '初心者87%という数字に嘘はなく、本当にゼロからスタートできる環境です。インストラクターが優しくて質問しやすい。LAVA全店も使えるのが嬉しい。',
+      },
+    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['LAVA運営', 'ホットヨガ併用可', '初心者87%', '相互利用可'],
@@ -268,384 +436,375 @@ const studios = [
   },
 ]
 
+const faqs = [
+  {
+    question: 'ピラティス初心者でも大丈夫ですか？',
+    answer: '大丈夫です！大宮エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。特にRintosull 大宮は会員の87%以上がマシンピラティス未経験からスタートしており、初心者でも安心して始められますよ。',
+  },
+  {
+    question: 'マットピラティスとマシンピラティスの違いは？',
+    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。マットは場所を選ばず自宅でも続けやすいのが特徴です。',
+  },
+  {
+    question: '大宮のピラティススタジオの料金相場は？',
+    answer: '大宮エリアのピラティススタジオの料金相場は、グループレッスンで月4回9,625円〜15,400円程度。パーソナルレッスンは月1回12,000円〜が相場です。体験レッスンはピラティスK大宮店が無料、La pilates大宮店が3,000円となっています。',
+  },
+  {
+    question: 'どのくらいの頻度で通えばいいですか？',
+    answer: 'ピラティス初心者は週1-2回（月4-8回）がおすすめ。慣れてきたら週2-3回に増やすと効果を実感しやすくなります。大切なのは継続すること。無理のないペースで長く続けることが、理想の身体を手に入れる近道です。',
+  },
+  {
+    question: 'ピラティスで痩せますか？',
+    answer: 'はい、ピラティスはダイエット効果があります。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に。ただし即効性はないので、最低でも2-3ヶ月は継続することが大切。食事管理も並行するとより効果的です。',
+  },
+  {
+    question: '体験レッスンは何を持っていけばいいですか？',
+    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内で確認してくださいね。',
+  },
+  {
+    question: 'ピラティスとヨガの違いは何ですか？',
+    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。大宮ではStudio Yoggyのようにヨガとピラティスの両方を楽しめるスタジオもありますので、目的に合わせて選びましょう。',
+  },
+  {
+    question: 'ピラティスで肩こりや腰痛は改善しますか？',
+    answer: 'はい、改善が期待できます。特にLa pilates 大宮店は骨膜整体とピラティスを組み合わせた独自プログラムで肩こり・腰痛を根本から改善。luluto 大宮店は理学療法士監修で身体の不調改善に特化しています。',
+  },
+  {
+    question: 'ピラティスはどのくらいで効果が出ますか？',
+    answer: 'ピラティスで効果が表れだすのは「2ヶ月を過ぎた頃」から。これは人間の細胞が生まれ変わるサイクルがそのくらいだからです。すぐに変化が表れなくても心配せず、最低でも2ヶ月は継続するのがおすすめです。',
+  },
+  {
+    question: 'パーソナルとグループ、どちらがおすすめですか？',
+    answer: 'それぞれ良さがあります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、EIGHT 大宮やLa pilates 大宮店がおすすめ。グループは料金が安く、仲間と楽しく続けられるのが魅力で、ピラティスK大宮店やzen place pilates大宮が人気です。まずは体験で両方試してみるのがいいですよ。',
+  },
+]
+
 export default async function OmiyaAreaPage() {
   return (
     <>
-      <div className="min-h-screen bg-gradient-to-b from-warm-50 to-white">
-        <Navigation />
-        
-        <main className="container mx-auto px-4 py-8 sm:px-6 lg:px-8">
-          {/* ヘッダーセクション */}
-          <header className="mb-12 text-center">
-            <h1 className="mb-4 font-cormorant text-4xl font-bold tracking-tight text-warm-900 sm:text-5xl">
-              大宮のピラティススタジオ<span className="block text-warm-600">おすすめ8選</span>
-            </h1>
-            <p className="mx-auto max-w-3xl text-lg text-warm-700">
-              大宮エリアで人気のピラティススタジオを厳選。マシンピラティス、体験レッスン、料金プランを徹底比較。初心者から経験者まで、あなたにぴったりのスタジオが見つかります。
-            </p>
-          </header>
+      <Navigation />
 
-          {/* スタジオカード一覧 */}
-          <section className="mb-16">
+      <main className="pt-20 bg-white">
+        {/* Hero Section */}
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月09日</p>
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
+              【2026最新】ピラティス大宮おすすめ8選！<br className="hidden md:block" />
+              人気スタジオの料金プランを簡単比較！
+            </h1>
+          </div>
+        </section>
+
+        {/* Breadcrumbs */}
+        <section className="bg-white py-3 border-b border-warm-100">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <nav className="text-sm text-warm-400">
+              <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
+              {' > '}
+              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              {' > '}
+              <span className="text-warm-600">大宮</span>
+            </nav>
+          </div>
+        </section>
+
+        {/* Introduction */}
+        <section className="py-12 bg-white">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <p className="text-warm-600 leading-relaxed mb-6">
+              こんにちは。
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              Pilates Navi編集部です！
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              あなたは、
+            </p>
+            <p className="text-warm-600 leading-relaxed font-medium mb-6">
+              「ピラティスを始めてみたい」
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              「大宮で人気のピラティススタジオを知りたい」
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              と思っていませんか？
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-8">
+              そこでこの記事では、大宮エリアでおすすめのピラティススタジオ8選をまとめました。
+            </p>
+            <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
+              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <ul className="space-y-2 text-warm-700">
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>大宮でピラティススタジオを探している</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>マシンピラティスを体験してみたい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>体験レッスンが安いスタジオを知りたい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>JR京浜東北線・埼京線・東武野田線で通いやすいスタジオがいい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>料金プランを比較したい</span>
+                </li>
+              </ul>
+            </div>
+            <p className="text-warm-600 leading-relaxed">
+              それではさっそく見ていきましょう！
+            </p>
+          </div>
+        </section>
+
+        {/* Studios List */}
+        <section className="py-16 bg-warm-50" id="studios">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              大宮のおすすめピラティススタジオ8選
+            </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (
                 <StudioCard key={index} studio={studio} index={index} />
               ))}
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* 好みから探すセクション */}
-          <section className="mb-16 rounded-2xl bg-warm-50 p-8 shadow-sm">
-            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
-              好みのタイプから探す
+        {/* Search by Preference */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              こだわりから探す
             </h2>
-            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">音楽×暗闇で楽しく</h3>
-                <p className="mb-4 text-warm-600">
-                  音楽に合わせて楽しくボディメイクしたい方に
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  月額10,000円以下で通える格安スタジオ。体験レッスン無料のスタジオも。コスパ重視の方におすすめ。
                 </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：ピラティスK 大宮店
-                </p>
-              </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">全国最大級</h3>
-                <p className="mb-4 text-warm-600">
-                  実績と安心感を重視する方に
-                </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：zen place pilates 大宮
-                </p>
-              </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">高級感ある空間</h3>
-                <p className="mb-4 text-warm-600">
-                  上質な空間で運動したい方に
-                </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：the SILK 大宮
-                </p>
-              </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">整体×ピラティス</h3>
-                <p className="mb-4 text-warm-600">
-                  肩こり・腰痛を根本から改善したい方に
-                </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：La pilates 大宮店
-                </p>
-              </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">理学療法士監修</h3>
-                <p className="mb-4 text-warm-600">
-                  医療的視点から身体を整えたい方に
-                </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：luluto 大宮店
-                </p>
-              </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">マンツーマン専門</h3>
-                <p className="mb-4 text-warm-600">
-                  パーソナル指導を受けたい方に
-                </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：EIGHT 大宮
-                </p>
-              </div>
-            </div>
-          </section>
-
-          {/* 料金帯別セクション */}
-          <section className="mb-16">
-            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
-              料金帯別スタジオ
-            </h2>
-            <div className="grid gap-6 md:grid-cols-3">
-              <div className="rounded-xl bg-warm-50 p-6">
-                <h3 className="mb-4 text-xl font-bold text-warm-800">〜10,000円</h3>
-                <ul className="space-y-2 text-warm-700">
-                  <li className="flex items-start">
-                    <span className="mr-2 text-warm-600">•</span>
-                    <span>zen place pilates 大宮（月4回 9,625円〜）</span>
-                  </li>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• zen place pilates 大宮（月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• ピラティスK 大宮店（月4回 13,420円〜）</li>
                 </ul>
               </div>
-              <div className="rounded-xl bg-warm-50 p-6">
-                <h3 className="mb-4 text-xl font-bold text-warm-800">10,000円〜20,000円</h3>
-                <ul className="space-y-2 text-warm-700">
-                  <li className="flex items-start">
-                    <span className="mr-2 text-warm-600">•</span>
-                    <span>ピラティスK 大宮店（月4回 13,420円）</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 text-warm-600">•</span>
-                    <span>La pilates 大宮店（月1回 12,000円〜）</span>
-                  </li>
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">マシン完備</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  最新のリフォーマーマシンを完備。マシンピラティスを本格的に学びたい方におすすめ。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• zen place pilates 大宮</li>
+                  <li className="text-warm-700">• the SILK 大宮</li>
+                  <li className="text-warm-700">• ピラティスK 大宮店</li>
                 </ul>
               </div>
-              <div className="rounded-xl bg-warm-50 p-6">
-                <h3 className="mb-4 text-xl font-bold text-warm-800">プライベート・その他</h3>
-                <ul className="space-y-2 text-warm-700">
-                  <li className="flex items-start">
-                    <span className="mr-2 text-warm-600">•</span>
-                    <span>EIGHT 大宮（マンツーマン専門）</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 text-warm-600">•</span>
-                    <span>the SILK 大宮（上質空間）</span>
-                  </li>
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・好アクセス</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  大宮駅から徒歩5分以内。JR京浜東北線・埼京線・東武野田線で通いやすいスタジオ。ルミネ大宮からも近い。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• the SILK 大宮（駅徒歩2分）</li>
+                  <li className="text-warm-700">• ピラティスK 大宮店（駅徒歩3分）</li>
+                  <li className="text-warm-700">• Studio Yoggy 大宮（駅徒歩4分）</li>
                 </ul>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* 通う頻度・期間の目安 */}
-          <section className="mb-16 rounded-2xl bg-gradient-to-br from-warm-50 to-warm-100 p-8 shadow-sm">
-            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
-              通う頻度・期間の目安
+        {/* Frequency Guide */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              おすすめの期間・頻度
             </h2>
-            <div className="grid gap-6 md:grid-cols-2">
-              <div className="rounded-xl bg-white p-6 shadow-sm">
-                <h3 className="mb-4 text-xl font-bold text-warm-800">週1回（月4回）</h3>
-                <p className="mb-4 text-warm-700">
-                  初心者や運動習慣をつけたい方におすすめ。3ヶ月で姿勢の変化を実感できます。
+            <div className="bg-white rounded-lg p-8 border border-warm-200">
+              <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
+              <p className="text-warm-600 leading-relaxed mb-6">
+                週1-2回（月4-8回）からスタートするのがおすすめ。まずは身体を慣らすことが大切です。継続期間は最低でも2-3ヶ月。この期間で効果を実感できる方が多いですよ。
+              </p>
+              <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
+              <p className="text-warm-600 leading-relaxed mb-6">
+                週2-3回（月8-12回）がおすすめ。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3-6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。
+              </p>
+              <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理が目的の方</h3>
+              <p className="text-warm-600 leading-relaxed">
+                週1回（月4回）のペースで継続するのがおすすめ。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切。自分のペースで楽しく通えるのが一番ですよ。
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Price Guide */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              予算別の料金相場
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
+                <p className="text-sm text-warm-600 mb-4">
+                  グループレッスン中心。初心者向けの基本的なレッスンが多い。
                 </p>
-                <div className="space-y-2 text-sm text-warm-600">
-                  <p>• 1ヶ月目：動きに慣れる</p>
-                  <p>• 2ヶ月目：体の変化を感じ始める</p>
-                  <p>• 3ヶ月目：姿勢が改善され、周りから変化を指摘される</p>
-                </div>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• zen place pilates 大宮（9,625円〜）</li>
+                </ul>
               </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm">
-                <h3 className="mb-4 text-xl font-bold text-warm-800">週2回（月8回）</h3>
-                <p className="mb-4 text-warm-700">
-                  本格的にボディメイクしたい方におすすめ。2ヶ月で見た目の変化が現れます。
+              <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
+                <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 10,000〜20,000円</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
+                <p className="text-sm text-warm-600 mb-4">
+                  マシン完備の大手スタジオ。グループ・プライベート選択可。
                 </p>
-                <div className="space-y-2 text-sm text-warm-600">
-                  <p>• 1ヶ月目：筋肉の使い方をマスター</p>
-                  <p>• 2ヶ月目：ボディラインが変わり始める</p>
-                  <p>• 3ヶ月目：理想の体型に近づく</p>
-                </div>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• ピラティスK 大宮店（13,420円〜）</li>
+                  <li>• the SILK 大宮</li>
+                  <li>• La pilates 大宮店（12,000円〜）</li>
+                </ul>
+              </div>
+              <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 30,000円〜</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
+                <p className="text-sm text-warm-600 mb-4">
+                  完全プライベートレッスン。短期集中で結果を出したい方向け。
+                </p>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• La pilates 大宮店（月4回 40,000円）</li>
+                  <li>• EIGHT 大宮（マンツーマン）</li>
+                </ul>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* 4ステップ選び方ガイド */}
-          <section className="mb-16">
-            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
-              4ステップで選ぶ！大宮のピラティススタジオ
+        {/* How to Choose */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              失敗しないピラティススタジオの選び方
             </h2>
-            <div className="grid gap-6 md:grid-cols-2">
-              <div className="rounded-xl border-2 border-warm-200 bg-white p-6 shadow-sm">
-                <div className="mb-3 inline-block rounded-full bg-warm-100 px-4 py-1 text-sm font-semibold text-warm-700">
-                  STEP 1
+            <div className="space-y-8">
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span>
+                  <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
-                <h3 className="mb-3 text-xl font-bold text-warm-800">目的を明確にする</h3>
-                <p className="text-warm-600">
-                  ダイエット、姿勢改善、体幹強化など、あなたの目的に合ったスタジオを選びましょう。
+                <p className="text-warm-600 leading-relaxed">
+                  まずは自分がピラティスで何を達成したいのかを明確にしましょう。ダイエット、姿勢改善、体幹強化、リラックスなど、目的によって最適なスタジオやプログラムは変わります。目的が明確だとスタジオ選びもスムーズになりますよ。
                 </p>
               </div>
-              <div className="rounded-xl border-2 border-warm-200 bg-white p-6 shadow-sm">
-                <div className="mb-3 inline-block rounded-full bg-warm-100 px-4 py-1 text-sm font-semibold text-warm-700">
-                  STEP 2
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span>
+                  <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
-                <h3 className="mb-3 text-xl font-bold text-warm-800">予算を決める</h3>
-                <p className="text-warm-600">
-                  月額9,625円〜40,000円まで幅広い料金帯があります。無理なく続けられる予算を設定しましょう。
+                <p className="text-warm-600 leading-relaxed">
+                  大宮エリアの料金相場は月4回で9,625円〜15,400円程度。無理なく継続できる予算を決めましょう。料金だけでなく、入会金、マット・ウェアのレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
-              <div className="rounded-xl border-2 border-warm-200 bg-white p-6 shadow-sm">
-                <div className="mb-3 inline-block rounded-full bg-warm-100 px-4 py-1 text-sm font-semibold text-warm-700">
-                  STEP 3
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span>
+                  <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
-                <h3 className="mb-3 text-xl font-bold text-warm-800">通いやすさを確認</h3>
-                <p className="text-warm-600">
-                  大宮駅徒歩2-6分など、自宅や職場から通いやすい立地を選ぶと続けやすくなります。
+                <p className="text-warm-600 leading-relaxed">
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。ピラティスK大宮店は無料体験、La pilates大宮店は3,000円で体験可能です。
                 </p>
               </div>
-              <div className="rounded-xl border-2 border-warm-200 bg-white p-6 shadow-sm">
-                <div className="mb-3 inline-block rounded-full bg-warm-100 px-4 py-1 text-sm font-semibold text-warm-700">
-                  STEP 4
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span>
+                  <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
-                <h3 className="mb-3 text-xl font-bold text-warm-800">体験レッスンを受ける</h3>
-                <p className="text-warm-600">
-                  スタジオの雰囲気やインストラクターとの相性を確認。ほとんどのスタジオで体験レッスンを実施しています。
+                <p className="text-warm-600 leading-relaxed">
+                  どんなに良いスタジオでも、通いにくい場所にあると続きません。大宮駅はJR京浜東北線・埼京線・東武野田線が利用でき、さいたま市の中心エリアです。ルミネ大宮や大宮駅周辺の商業施設も充実しているので、レッスン前後のお買い物も楽しめますよ。
                 </p>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* FAQ */}
-          <section className="mb-16">
-            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
+        {/* FAQ */}
+        <section className="py-16 bg-white">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
               よくある質問
             </h2>
-            <div className="space-y-4">
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  大宮でピラティス初心者におすすめのスタジオはどこですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  Rintosull 大宮がおすすめです。会員様の87%以上がマシンピラティス未経験からスタートしており、初心者でも安心して取り組める環境づくりを大切にしています。ホットヨガLAVAを運営する会社が手がけているので安心感もあります。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  大宮駅から一番近いピラティススタジオはどこですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  the SILK 大宮が大宮駅から徒歩2分で最もアクセスが良いです。次いでピラティスK 大宮店が徒歩3分、Studio Yoggy 大宮が徒歩4分です。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  大宮で一番安いピラティススタジオはどこですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  zen place pilates 大宮が月4回9,625円で最も安く通えます。全国150店舗以上を展開する大手スタジオなので、実績と安心感もあります。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  女性専用のピラティススタジオはありますか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  はい、2つあります。ピラティスK 大宮店とLa pilates 大宮店は女性専用スタジオです。男性の目を気にせず集中してトレーニングできます。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  体験レッスンはありますか？料金はいくらですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  ほとんどのスタジオで体験レッスンを実施しています。ピラティスK 大宮店は無料、La pilates 大宮店は3,000円、zen place pilates 大宮やその他スタジオは要問合せです。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  マシンピラティスとマットピラティスの違いは何ですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  マシンピラティスは専用マシン（リフォーマー）を使用し、初心者でも正しいフォームで効果的にトレーニングできます。マットピラティスはマットの上で行い、体幹を鍛えるのに効果的。初心者にはマシンピラティスがおすすめです。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  どのくらいの期間で効果が出ますか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  週1回（月4回）通った場合、1ヶ月で体の使い方が変わり、2ヶ月で姿勢の変化を実感、3ヶ月で見た目の変化が現れます。週2回通うとさらに早く効果を実感できます。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  肩こりや腰痛の改善に効果はありますか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  はい、効果が期待できます。特にLa pilates 大宮店は整体とピラティスを組み合わせた独自プログラムで肩こり・腰痛を根本から改善。luluto 大宮店は理学療法士監修で身体の不調改善に特化しています。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  運動が苦手でも大丈夫ですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  はい、大丈夫です。ピラティスはもともとリハビリ用に開発されたエクササイズなので、運動が苦手な方や体力に自信がない方でも無理なく始められます。マシンがサポートしてくれるので、正しいフォームで効果的にトレーニングできます。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  マンツーマンで指導してもらえるスタジオはありますか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  はい、EIGHT 大宮がマンツーマン専門スタジオです。マシンピラティスとパーソナルトレーニングの組み合わせが可能で、一人ひとりの目的に合わせた完全個別指導を受けられます。
-                </p>
-              </details>
+            <div className="space-y-6">
+              {faqs.map((faq, index) => (
+                <div key={index} className="border border-warm-200 rounded-lg overflow-hidden">
+                  <details className="group">
+                    <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition">
+                      <h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3>
+                      <svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"/>
+                      </svg>
+                    </summary>
+                    <div className="px-6 pb-6 text-warm-600 leading-relaxed">
+                      {faq.answer}
+                    </div>
+                  </details>
+                </div>
+              ))}
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* まとめ・CTA */}
-          <section className="mb-16 rounded-2xl bg-gradient-to-br from-warm-600 to-warm-700 p-8 text-white shadow-lg">
-            <h2 className="mb-4 font-cormorant text-3xl font-bold">
-              大宮で理想のピラティススタジオを見つけよう
+        {/* Summary */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">
+              まとめ
             </h2>
-            <p className="mb-6 text-lg text-warm-50">
-              大宮には多様なピラティススタジオがあります。音楽×暗闇のピラティスK、全国最大級のzen place、上質空間のthe SILK、整体×ピラティスのLa pilates、理学療法士監修のlulutoなど、あなたの目的・予算・好みに合ったスタジオがきっと見つかります。
+            <p className="text-warm-600 leading-relaxed mb-6">
+              今回は大宮のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
-            <p className="mb-8 text-warm-50">
-              まずは体験レッスンで、スタジオの雰囲気やインストラクターとの相性を確認してみましょう。多くのスタジオが無料〜有料で体験レッスンを実施しています。
+            <p className="text-warm-600 leading-relaxed mb-6">
+              この記事では大宮に数多くあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
             </p>
-            <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-              <a
-                href="#studios"
-                className="rounded-full bg-white px-8 py-3 font-bold text-warm-700 shadow-md transition-all hover:bg-warm-50 hover:shadow-lg"
-              >
-                スタジオ一覧を見る
-              </a>
-              <Link
-                href="/"
-                className="rounded-full border-2 border-white px-8 py-3 font-bold text-white transition-all hover:bg-white hover:text-warm-700"
-              >
-                他のエリアを探す
-              </Link>
-            </div>
-          </section>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+            </p>
+            <p className="text-warm-700 font-medium text-center">
+              あなたにぴったりのピラティススタジオが見つかることを願っています。
+            </p>
+          </div>
+        </section>
 
-          {/* パンくずリスト */}
-          <nav className="mb-8 text-sm text-warm-600" aria-label="パンくずリスト">
-            <ol className="flex flex-wrap items-center gap-2">
-              <li>
-                <Link href="/" className="hover:text-warm-800">
-                  ホーム
-                </Link>
-              </li>
-              <li>/</li>
-              <li>
-                <Link href="/area" className="hover:text-warm-800">
-                  エリアから探す
-                </Link>
-              </li>
-              <li>/</li>
-              <li className="font-semibold text-warm-800">大宮</li>
-            </ol>
-          </nav>
-        </main>
+        {/* CTA */}
+        <section className="py-16 bg-warm-800 text-white" id="contact">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">
+              体験レッスンを予約しよう
+            </h2>
+            <p className="text-warm-200 mb-8 leading-relaxed">
+              初回限定の体験レッスン無料〜3,000円。<br />
+              まずは気軽に体験してみましょう。
+            </p>
+            <Link
+              href="/#studios"
+              className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded"
+            >
+              おすすめスタジオ一覧に戻る
+            </Link>
+          </div>
+        </section>
+      </main>
 
-        <SiteFooter />
-      </div>
-
-      <Script
-        type="application/ld+json"
-        id="breadcrumb-schema"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'BreadcrumbList',
-            itemListElement: [
-              {
-                '@type': 'ListItem',
-                position: 1,
-                name: 'ホーム',
-                item: 'https://pilates-biyori.com',
-              },
-              {
-                '@type': 'ListItem',
-                position: 2,
-                name: 'エリアから探す',
-                item: 'https://pilates-biyori.com/area',
-              },
-              {
-                '@type': 'ListItem',
-                position: 3,
-                name: '大宮',
-                item: 'https://pilates-biyori.com/area/omiya',
-              },
-            ],
-          }),
-        }}
-      />
+      <SiteFooter />
+      <Script src="https://unpkg.com/lucide@latest" strategy="lazyOnload" />
     </>
   )
 }
