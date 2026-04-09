@@ -14,46 +14,115 @@ const studios = [
   {
     name: 'URBAN CLASSIC PILATES 日暮里店',
     image: '/images/pilates2.jpg',
-    rating: 4.7, reviewCount: 120,
+    rating: 4.7,
+    reviewCount: 120,
     reviews: [
-      { author: 'S.K', rating: 5, date: '2週間前', text: '日暮里駅から徒歩1分で西日暮里からも1駅。予約不要で30分サーキットなので仕事帰りにサクッと通えます。月額7,800円〜。' },
-      { author: 'Y.T', rating: 4, date: '1ヶ月前', text: 'マシンピラティスとファンクショナルトレーニングの組み合わせで効率よくトレーニング。自分のペースで進められるのが良い。' },
-      { author: 'K.H', rating: 5, date: '3週間前', text: '通い放題14,080円で毎日通える。30分で終わるので朝活にも使えます。' },
+      {
+        author: 'S.K',
+        rating: 5,
+        date: '2週間前',
+        text: '日暮里駅から徒歩1分で西日暮里からも1駅。予約不要で30分サーキットなので仕事帰りにサクッと通えます。月額7,800円〜。',
+      },
+      {
+        author: 'Y.T',
+        rating: 4,
+        date: '1ヶ月前',
+        text: 'マシンピラティスとファンクショナルトレーニングの組み合わせで効率よくトレーニング。自分のペースで進められるのが良い。',
+      },
+      {
+        author: 'K.H',
+        rating: 5,
+        date: '3週間前',
+        text: '通い放題14,080円で毎日通える。30分で終わるので朝活にも使えます。',
+      },
     ],
-    price: '月額 7,800円〜（通い放題 14,080円）', trial: '体験レッスン 3,800円',
+    price: '月額 7,800円〜（通い放題 14,080円）',
+    trial: '体験レッスン 3,800円',
     features: ['予約不要', '30分サーキット', '日暮里駅徒歩1分', '西日暮里から1駅'],
     description: 'マシンピラティスとファンクショナルトレーニングのサーキット形式スタジオ。日暮里駅から徒歩1分、西日暮里からJR山手線で1駅。予約不要・1回30分で忙しい方でも気軽に続けられます。',
     access: 'JR「日暮里駅」徒歩1分 / JR「西日暮里駅」から山手線で1駅',
     address: '東京都荒川区（日暮里駅徒歩1分）',
-    popularPlan: { name: '通い放題プラン', description: '予約不要・30分サーキットで何度でも通える。', price: '月額 14,080円（税込）' },
-    options: ['週1回プラン（月額 7,800円〜）', '通い放題（月額 14,080円）', '都度払い', '体験レッスン（3,800円）'],
-    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性85% / 男性15%', purpose: ['運動不足解消', 'ボディメイク', '体幹強化', '時短トレーニング'] },
-    basicInfo: { hours: '平日 10:00〜21:00 / 土日祝 10:00〜18:00', closed: '不定休', facilities: ['ロッカー', 'マシン完備'] },
+    popularPlan: {
+      name: '通い放題プラン',
+      description: '予約不要・30分サーキットで何度でも通える。',
+      price: '月額 14,080円（税込）',
+    },
+    options: [
+      '週1回プラン（月額 7,800円〜）',
+      '通い放題（月額 14,080円）',
+      '都度払い',
+      '体験レッスン（3,800円）',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性85% / 男性15%',
+      purpose: ['運動不足解消', 'ボディメイク', '体幹強化', '時短トレーニング'],
+    },
+    basicInfo: {
+      hours: '平日 10:00〜21:00 / 土日祝 10:00〜18:00',
+      closed: '不定休',
+      facilities: ['ロッカー', 'マシン完備'],
+    },
   },
   {
     name: 'zen place pilates 千駄木スタジオ',
     image: '/images/pilates3.jpg',
-    rating: 4.8, reviewCount: 155,
+    rating: 4.8,
+    reviewCount: 155,
     reviews: [
-      { author: 'R.N', rating: 5, date: '1週間前', text: '千駄木駅から徒歩1分。西日暮里からも千代田線で1駅。マットもマシンも両方受けられる。体験500円で気軽。' },
-      { author: 'A.H', rating: 5, date: '2週間前', text: '少人数制で丁寧な指導。全国150店舗以上で相互利用可能。谷根千の落ち着いた雰囲気が好き。' },
-      { author: 'M.M', rating: 4, date: '3週間前', text: '男性もOK。インストラクターの質が高い。' },
+      {
+        author: 'R.N',
+        rating: 5,
+        date: '1週間前',
+        text: '千駄木駅から徒歩1分。西日暮里からも千代田線で1駅。マットもマシンも両方受けられる。体験500円で気軽。',
+      },
+      {
+        author: 'A.H',
+        rating: 5,
+        date: '2週間前',
+        text: '少人数制で丁寧な指導。全国150店舗以上で相互利用可能。谷根千の落ち着いた雰囲気が好き。',
+      },
+      {
+        author: 'M.M',
+        rating: 4,
+        date: '3週間前',
+        text: '男性もOK。インストラクターの質が高い。',
+      },
     ],
-    price: 'マットグループ 月4回 9,625円〜', trial: '体験レッスン 500円〜',
+    price: 'マットグループ 月4回 9,625円〜',
+    trial: '体験レッスン 500円〜',
     features: ['マット&マシン', '千駄木駅徒歩1分', '西日暮里から千代田線1駅', '男性OK'],
     description: '全国150店舗以上展開の大手ピラティススタジオ。千駄木駅1番出口から徒歩1分。西日暮里から千代田線で1駅の好アクセス。マットグループ、マシングループ、プライベートに対応。',
     access: '千代田線「千駄木駅」1番出口 徒歩1分 / 「西日暮里駅」から千代田線で1駅',
     address: '東京都文京区千駄木（千駄木駅1番出口徒歩1分）',
-    popularPlan: { name: 'リフォーマーグループ（月4回）', description: 'マシンを使ったグループレッスン。', price: '月4回 15,400円（税込）〜' },
-    options: ['マットグループ（月4回 9,625円〜）', 'リフォーマーグループ（月4回 15,400円〜）', 'フリープラン（月16,940円〜）', 'プライベート（1回 9,900円〜）'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'] },
-    basicInfo: { hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00', closed: '月末不定休', facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi'] },
+    popularPlan: {
+      name: 'リフォーマーグループ（月4回）',
+      description: 'マシンを使ったグループレッスン。',
+      price: '月4回 15,400円（税込）〜',
+    },
+    options: [
+      'マットグループ（月4回 9,625円〜）',
+      'リフォーマーグループ（月4回 15,400円〜）',
+      'フリープラン（月16,940円〜）',
+      'プライベート（1回 9,900円〜）',
+    ],
+    userProfile: {
+      ageRange: '20代〜50代が中心',
+      genderRatio: '女性80% / 男性20%',
+      purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
+    },
+    basicInfo: {
+      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
+      closed: '月末不定休',
+      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi'],
+    },
   },
   {
     name: 'パーソナルマシンピラティスYUZU',
     image: '/images/pilates4.jpg',
     rating: 4.8,
-    price: 'お問い合わせください', trial: '体験レッスンあり',
+    price: 'お問い合わせください',
+    trial: '体験レッスンあり',
     features: ['全員女性インストラクター', 'パーソナル専門', 'キッズスペース完備', '完全個室'],
     description: '全員女性インストラクターによるパーソナルマシンピラティス。キッズスペース完備でお子様連れOK。完全個室空間でオーダーメイドのレッスンを提供。西日暮里・日暮里エリアからアクセス可能。',
     access: '西日暮里・日暮里エリアからアクセス可能',
@@ -63,7 +132,8 @@ const studios = [
     name: 'ピラティスK 池袋店',
     image: '/images/pilates2.jpg',
     rating: 4.7,
-    price: 'マンスリー4メンバー 13,420円', trial: '体験レッスン 2,000円',
+    price: 'マンスリー4メンバー 13,420円',
+    trial: '体験レッスン 2,000円',
     features: ['女性専用', 'マシンピラティス専門', '池袋エリア', '西日暮里から山手線で近い'],
     description: '女性専用マシンピラティス専門スタジオ。西日暮里からJR山手線で池袋まで数駅。初心者から経験者まで個人のペースに合わせたプログラム。',
     access: 'JR「池袋駅」徒歩圏内 / 西日暮里からJR山手線で近い',
@@ -72,35 +142,367 @@ const studios = [
 ]
 
 const faqs = [
-  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！URBAN CLASSICは予約不要サーキット形式で自分のペースで進められます。' },
-  { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンは専用マシンを使ったトレーニング。マシンは初心者におすすめ。' },
-  { question: '西日暮里エリアの料金相場は？', answer: 'グループ月4回で7,800円〜15,400円。パーソナルは1回8,000円〜。体験は500円〜3,800円。' },
-  { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。' },
-  { question: 'ピラティスで痩せますか？', answer: 'はい、基礎代謝が上がり太りにくい体質に。最低2-3ヶ月は継続しましょう。' },
-  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。' },
-  { question: 'ピラティスとヨガの違いは？', answer: 'ピラティスは体幹強化、ヨガは柔軟性とリラックスが中心。' },
-  { question: '肩こりや腰痛は改善しますか？', answer: 'はい、姿勢改善で根本原因を解消できます。' },
-  { question: 'どのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。' },
-  { question: 'パーソナルとグループ、どちらがおすすめ？', answer: 'パーソナルは効果が出やすく、グループは安く楽しく続けられます。' },
+  {
+    question: 'ピラティス初心者でも大丈夫ですか？',
+    answer: '大丈夫です！URBAN CLASSICは予約不要サーキット形式で自分のペースで進められます。',
+  },
+  {
+    question: 'マットピラティスとマシンピラティスの違いは？',
+    answer: 'マットは自重エクササイズ、マシンは専用マシンを使ったトレーニング。マシンは初心者におすすめ。',
+  },
+  {
+    question: '西日暮里エリアの料金相場は？',
+    answer: 'グループ月4回で7,800円〜15,400円。パーソナルは1回8,000円〜。体験は500円〜3,800円。',
+  },
+  {
+    question: 'どのくらいの頻度で通えばいいですか？',
+    answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。',
+  },
+  {
+    question: 'ピラティスで痩せますか？',
+    answer: 'はい、基礎代謝が上がり太りにくい体質に。最低2-3ヶ月は継続しましょう。',
+  },
+  {
+    question: '体験レッスンは何を持っていけばいいですか？',
+    answer: '動きやすい服装と飲み物があればOK。',
+  },
+  {
+    question: 'ピラティスとヨガの違いは？',
+    answer: 'ピラティスは体幹強化、ヨガは柔軟性とリラックスが中心。',
+  },
+  {
+    question: '肩こりや腰痛は改善しますか？',
+    answer: 'はい、姿勢改善で根本原因を解消できます。',
+  },
+  {
+    question: 'どのくらいで効果が出ますか？',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。',
+  },
+  {
+    question: 'パーソナルとグループ、どちらがおすすめ？',
+    answer: 'パーソナルは効果が出やすく、グループは安く楽しく続けられます。',
+  },
 ]
 
 export default function NishiNipporiPage() {
   return (
     <>
       <Navigation />
+
       <main className="pt-20 bg-white">
-        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年04月09日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス西日暮里おすすめ4選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1></div></section>
-        <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">西日暮里</span></nav></div></section>
-        <section className="py-12 bg-white"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p><p className="text-warm-600 leading-relaxed mb-6">Pilates Navi編集部です！</p><p className="text-warm-600 leading-relaxed mb-6">あなたは、</p><p className="text-warm-600 leading-relaxed font-medium mb-6">「西日暮里周辺でピラティスを始めたい」</p><p className="text-warm-600 leading-relaxed mb-6">「コスパの良いスタジオを知りたい」</p><p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p><p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、西日暮里・日暮里・千駄木エリアから通えるおすすめのピラティススタジオ4選をまとめました。</p><div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8"><h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2><ul className="space-y-2 text-warm-700"><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>西日暮里周辺でピラティススタジオを探している</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>コスパの良いスタジオがいい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較したい</span></li></ul></div><p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p></div></section>
-        <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">西日暮里エリアのおすすめピラティススタジオ4選</h2><div className="space-y-8">{studios.map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
-        <section className="py-16 bg-white"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">こだわりから探す</h2><div className="grid grid-cols-1 md:grid-cols-3 gap-8"><div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3><p className="text-warm-600 text-sm mb-4">月額8,000円以下から。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• URBAN CLASSIC（月額7,800円〜）</li><li className="text-warm-700">• zen place（マット月4回 9,625円〜）</li></ul></div><div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル・子連れOK</h3><p className="text-warm-600 text-sm mb-4">マンツーマン＆キッズスペース。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• YUZU（キッズスペース完備）</li><li className="text-warm-700">• zen place（プライベートあり）</li></ul></div><div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">駅近・通いやすさ</h3><p className="text-warm-600 text-sm mb-4">日暮里駅・千駄木駅から徒歩1分。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• URBAN CLASSIC（日暮里駅徒歩1分）</li><li className="text-warm-700">• zen place（千駄木駅徒歩1分）</li></ul></div></div></div></section>
-        <section className="py-16 bg-warm-50"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">おすすめの期間・頻度</h2><div className="bg-white rounded-lg p-8 border border-warm-200"><h3 className="text-xl font-bold text-warm-900 mb-4">初心者の方</h3><p className="text-warm-600 leading-relaxed mb-6">週1-2回からスタート。最低2-3ヶ月で効果を実感。</p><h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイク目的の方</h3><p className="text-warm-600 leading-relaxed mb-6">週2-3回がおすすめ。3-6ヶ月で目に見える変化。</p><h3 className="text-xl font-bold text-warm-900 mb-4">健康管理目的の方</h3><p className="text-warm-600 leading-relaxed">週1回のペースで無理なく継続。</p></div></div></section>
-        <section className="py-16 bg-white"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">予算別の料金相場</h2><div className="grid grid-cols-1 md:grid-cols-3 gap-6"><div className="border-2 border-warm-300 rounded-lg p-6 text-center"><h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円/月</h3><p className="text-3xl font-bold text-warm-800 mb-4">グループ</p><p className="text-sm text-warm-600 mb-4">サーキット形式やマットグループ。</p><ul className="text-sm text-warm-700 space-y-1"><li>• URBAN CLASSIC（月額7,800円〜）</li><li>• zen place（マット月4回 9,625円〜）</li></ul></div><div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50"><div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div><h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜16,000円/月</h3><p className="text-3xl font-bold text-warm-800 mb-4">月4回</p><p className="text-sm text-warm-600 mb-4">マシン完備のスタジオ。</p><ul className="text-sm text-warm-700 space-y-1"><li>• ピラティスK（月4回 13,420円）</li><li>• URBAN CLASSIC通い放題（14,080円）</li><li>• zen place リフォーマー（15,400円〜）</li></ul></div><div className="border-2 border-warm-300 rounded-lg p-6 text-center"><h3 className="text-lg font-bold text-warm-900 mb-2">パーソナル</h3><p className="text-3xl font-bold text-warm-800 mb-4">効果◎</p><p className="text-sm text-warm-600 mb-4">マンツーマン指導。</p><ul className="text-sm text-warm-700 space-y-1"><li>• YUZU（パーソナル専門）</li><li>• zen place（プライベート 9,900円〜）</li></ul></div></div></div></section>
-        <section className="py-16 bg-warm-50"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">失敗しないスタジオの選び方</h2><div className="space-y-8"><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span><h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3></div><p className="text-warm-600 leading-relaxed">ダイエット、姿勢改善、体幹強化など、目的に応じて選びましょう。</p></div><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">予算を決める</h3></div><p className="text-warm-600 leading-relaxed">グループ月4回で7,800円〜15,400円が相場。</p></div><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">500円〜3,800円で体験できるスタジオが多いです。</p></div><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div><p className="text-warm-600 leading-relaxed">西日暮里はJR山手線・京浜東北線・千代田線・日暮里舎人ライナーが利用可能。日暮里・千駄木にも1駅でアクセスでき、谷根千エリアの下町情緒も楽しめます。</p></div></div></div></section>
-        <section className="py-16 bg-white"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">よくある質問</h2><div className="space-y-6">{faqs.map((faq, index) => (<div key={index} className="border border-warm-200 rounded-lg overflow-hidden"><details className="group"><summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition"><h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3><svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"/></svg></summary><div className="px-6 pb-6 text-warm-600 leading-relaxed">{faq.answer}</div></details></div>))}</div></div></section>
-        <section className="py-16 bg-warm-50"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2><p className="text-warm-600 leading-relaxed mb-6">今回は西日暮里エリアのおすすめピラティススタジオをご紹介しました。</p><p className="text-warm-600 leading-relaxed mb-6">西日暮里は山手線・千代田線が利用でき、日暮里駅徒歩1分のURBAN CLASSICは月額7,800円〜、千駄木のzen placeは体験500円〜と気軽に始められます。</p><p className="text-warm-600 leading-relaxed mb-6">ぜひ自分に合うスタジオを見つけてくださいね。</p><p className="text-warm-700 font-medium text-center">あなたにぴったりのスタジオが見つかることを願っています。</p></div></section>
-        <section className="py-16 bg-warm-800 text-white" id="contact"><div className="max-w-4xl mx-auto px-6 lg:px-8 text-center"><h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2><p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスン500円〜3,800円。<br />まずは気軽に体験してみましょう。</p><Link href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded">おすすめスタジオ一覧に戻る</Link></div></section>
+        {/* Hero Section */}
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月09日</p>
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
+              【2026最新】ピラティス西日暮里おすすめ4選！<br className="hidden md:block" />
+              人気スタジオの料金プランを簡単比較！
+            </h1>
+          </div>
+        </section>
+
+        {/* Breadcrumbs */}
+        <section className="bg-white py-3 border-b border-warm-100">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <nav className="text-sm text-warm-400">
+              <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
+              {' > '}
+              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              {' > '}
+              <span className="text-warm-600">西日暮里</span>
+            </nav>
+          </div>
+        </section>
+
+        {/* Introduction */}
+        <section className="py-12 bg-white">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <p className="text-warm-600 leading-relaxed mb-6">
+              こんにちは。
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              Pilates Navi編集部です！
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              あなたは、
+            </p>
+            <p className="text-warm-600 leading-relaxed font-medium mb-6">
+              「西日暮里周辺でピラティスを始めたい」
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              「コスパの良いスタジオを知りたい」
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              と思っていませんか？
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-8">
+              そこでこの記事では、西日暮里・日暮里・千駄木エリアから通えるおすすめのピラティススタジオ4選をまとめました。
+            </p>
+            <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
+              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <ul className="space-y-2 text-warm-700">
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>西日暮里周辺でピラティススタジオを探している</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>コスパの良いスタジオがいい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>マシンピラティスを体験してみたい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>料金プランを比較したい</span>
+                </li>
+              </ul>
+            </div>
+            <p className="text-warm-600 leading-relaxed">
+              それではさっそく見ていきましょう！
+            </p>
+          </div>
+        </section>
+
+        {/* Studios List */}
+        <section className="py-16 bg-warm-50" id="studios">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              西日暮里エリアのおすすめピラティススタジオ4選
+            </h2>
+            <div className="space-y-8">
+              {studios.map((studio, index) => (
+                <StudioCard key={index} studio={studio} index={index} />
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Search by Preference */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              こだわりから探す
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  月額8,000円以下から。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• URBAN CLASSIC（月額7,800円〜）</li>
+                  <li className="text-warm-700">• zen place（マット月4回 9,625円〜）</li>
+                </ul>
+              </div>
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル・子連れOK</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  マンツーマン＆キッズスペース。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• YUZU（キッズスペース完備）</li>
+                  <li className="text-warm-700">• zen place（プライベートあり）</li>
+                </ul>
+              </div>
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・通いやすさ</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  日暮里駅・千駄木駅から徒歩1分。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• URBAN CLASSIC（日暮里駅徒歩1分）</li>
+                  <li className="text-warm-700">• zen place（千駄木駅徒歩1分）</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Frequency Guide */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              おすすめの期間・頻度
+            </h2>
+            <div className="bg-white rounded-lg p-8 border border-warm-200">
+              <h3 className="text-xl font-bold text-warm-900 mb-4">初心者の方</h3>
+              <p className="text-warm-600 leading-relaxed mb-6">
+                週1-2回からスタート。最低2-3ヶ月で効果を実感。
+              </p>
+              <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイク目的の方</h3>
+              <p className="text-warm-600 leading-relaxed mb-6">
+                週2-3回がおすすめ。3-6ヶ月で目に見える変化。
+              </p>
+              <h3 className="text-xl font-bold text-warm-900 mb-4">健康管理目的の方</h3>
+              <p className="text-warm-600 leading-relaxed">
+                週1回のペースで無理なく継続。
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Price Guide */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              予算別の料金相場
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円/月</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">グループ</p>
+                <p className="text-sm text-warm-600 mb-4">
+                  サーキット形式やマットグループ。
+                </p>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• URBAN CLASSIC（月額7,800円〜）</li>
+                  <li>• zen place（マット月4回 9,625円〜）</li>
+                </ul>
+              </div>
+              <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
+                <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜16,000円/月</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
+                <p className="text-sm text-warm-600 mb-4">
+                  マシン完備のスタジオ。
+                </p>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• ピラティスK（月4回 13,420円）</li>
+                  <li>• URBAN CLASSIC通い放題（14,080円）</li>
+                  <li>• zen place リフォーマー（15,400円〜）</li>
+                </ul>
+              </div>
+              <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
+                <h3 className="text-lg font-bold text-warm-900 mb-2">パーソナル</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">効果◎</p>
+                <p className="text-sm text-warm-600 mb-4">
+                  マンツーマン指導。
+                </p>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• YUZU（パーソナル専門）</li>
+                  <li>• zen place（プライベート 9,900円〜）</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* How to Choose */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              失敗しないスタジオの選び方
+            </h2>
+            <div className="space-y-8">
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span>
+                  <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  ダイエット、姿勢改善、体幹強化など、目的に応じて選びましょう。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span>
+                  <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  グループ月4回で7,800円〜15,400円が相場。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span>
+                  <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  500円〜3,800円で体験できるスタジオが多いです。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span>
+                  <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  西日暮里はJR山手線・京浜東北線・千代田線・日暮里舎人ライナーが利用可能。日暮里・千駄木にも1駅でアクセスでき、谷根千エリアの下町情緒も楽しめます。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ */}
+        <section className="py-16 bg-white">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              よくある質問
+            </h2>
+            <div className="space-y-6">
+              {faqs.map((faq, index) => (
+                <div key={index} className="border border-warm-200 rounded-lg overflow-hidden">
+                  <details className="group">
+                    <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition">
+                      <h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3>
+                      <svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"/>
+                      </svg>
+                    </summary>
+                    <div className="px-6 pb-6 text-warm-600 leading-relaxed">
+                      {faq.answer}
+                    </div>
+                  </details>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Summary */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">
+              まとめ
+            </h2>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              今回は西日暮里エリアのおすすめピラティススタジオをご紹介しました。
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              西日暮里は山手線・千代田線が利用でき、日暮里駅徒歩1分のURBAN CLASSICは月額7,800円〜、千駄木のzen placeは体験500円〜と気軽に始められます。
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              ぜひ自分に合うスタジオを見つけてくださいね。
+            </p>
+            <p className="text-warm-700 font-medium text-center">
+              あなたにぴったりのスタジオが見つかることを願っています。
+            </p>
+          </div>
+        </section>
+
+        {/* CTA */}
+        <section className="py-16 bg-warm-800 text-white" id="contact">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">
+              体験レッスンを予約しよう
+            </h2>
+            <p className="text-warm-200 mb-8 leading-relaxed">
+              初回限定の体験レッスン500円〜3,800円。<br />
+              まずは気軽に体験してみましょう。
+            </p>
+            <Link
+              href="/#studios"
+              className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded"
+            >
+              おすすめスタジオ一覧に戻る
+            </Link>
+          </div>
+        </section>
       </main>
+
       <SiteFooter />
       <Script src="https://unpkg.com/lucide@latest" strategy="lazyOnload" />
     </>
