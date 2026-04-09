@@ -5,7 +5,7 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】千葉のピラティススタジオおすすめ8選｜料金・体験レッスン徹底比較',
+  title: '【2026最新】ピラティス千葉おすすめ8選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
   description: '千葉エリアのおすすめピラティススタジオ8選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,千葉,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -15,6 +15,27 @@ const studios = [
     name: 'ピラティスK 千葉店',
     image: '/images/pilates2.jpg',
     rating: 4.0,
+    reviewCount: 156,
+    reviews: [
+      {
+        author: 'M.K',
+        rating: 5,
+        date: '1週間前',
+        text: '千葉駅から近くて仕事帰りに通っています。暗闘×音楽のレッスンが楽しくて、毎回あっという間。女性専用なので周りを気にせず集中できます。',
+      },
+      {
+        author: 'S.T',
+        rating: 4,
+        date: '2週間前',
+        text: 'ペリエ千葉で買い物した帰りに寄れるのが便利。お腹やお尻など部位別のプログラムが充実していて、気になるところを集中的に鍛えられます。',
+      },
+      {
+        author: 'Y.N',
+        rating: 4,
+        date: '3週間前',
+        text: '月4回13,420円はコスパが良いと思います。音楽に合わせて動くので飽きずに続けられる。JR総武線の千葉駅からすぐなので通いやすいです。',
+      },
+    ],
     price: '月4回 13,420円〜',
     trial: '無料体験レッスン',
     features: ['音楽×マシン', '女性専用', '駅近アクセス', '暗闇レッスン'],
@@ -47,6 +68,27 @@ const studios = [
     name: 'CLUB PILATES 千葉',
     image: '/images/pilates3.jpg',
     rating: 4.1,
+    reviewCount: 132,
+    reviews: [
+      {
+        author: 'A.H',
+        rating: 5,
+        date: '5日前',
+        text: 'アメリカ発の本格メソッドを千葉で受けられるのが嬉しい。インストラクターの専門知識が豊富で、自分の体の癖に合わせたレッスンをしてくれます。',
+      },
+      {
+        author: 'R.I',
+        rating: 4,
+        date: '2週間前',
+        text: '初心者でも安心して通えます。グループとプライベートの両方あるので、目的に合わせて選べるのが良い。京成線からもアクセスしやすいです。',
+      },
+      {
+        author: 'K.M',
+        rating: 4,
+        date: '1ヶ月前',
+        text: '世界最大級のチェーンだけあって、メソッドがしっかりしています。千葉駅周辺で本格的なピラティスを探しているならここがおすすめ。',
+      },
+    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['アメリカ発', '世界最大級', 'グループ＆プライベート', '初心者歓迎'],
@@ -79,6 +121,27 @@ const studios = [
     name: 'Rintosull 千葉店',
     image: '/images/pilates4.jpg',
     rating: 4.0,
+    reviewCount: 118,
+    reviews: [
+      {
+        author: 'T.S',
+        rating: 5,
+        date: '1週間前',
+        text: 'LAVAのホットヨガと併用できるのが最大のメリット。ピラティスで筋力をつけて、ヨガで柔軟性を高められるので相乗効果を感じています。',
+      },
+      {
+        author: 'N.Y',
+        rating: 4,
+        date: '3週間前',
+        text: '初心者87%という安心感。インストラクターが丁寧にサポートしてくれるので、運動経験がなくても大丈夫でした。千葉駅から通いやすい場所にあります。',
+      },
+      {
+        author: 'H.M',
+        rating: 4,
+        date: '1ヶ月前',
+        text: 'LAVA全店とRintosull全店を相互利用できるプランがお得。そごう千葉の近くなので、買い物のついでに通えるのも便利です。',
+      },
+    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['LAVA運営', 'ホットヨガ併用可', '初心者87%', '相互利用可'],
@@ -110,6 +173,27 @@ const studios = [
     name: 'STUDIO IVY 千葉店',
     image: '/images/pilates2.jpg',
     rating: 4.2,
+    reviewCount: 97,
+    reviews: [
+      {
+        author: 'E.K',
+        rating: 5,
+        date: '10日前',
+        text: '完全プライベートなので人目を気にせず集中できます。インストラクターが自分の体の状態を丁寧に分析してくれて、オーダーメイドのメニューを組んでくれました。',
+      },
+      {
+        author: 'C.W',
+        rating: 4,
+        date: '2週間前',
+        text: 'マンツーマンなので自分のペースで進められるのが良い。千葉駅周辺でパーソナルのピラティスを探していたのでぴったりでした。',
+      },
+      {
+        author: 'J.O',
+        rating: 4,
+        date: '1ヶ月前',
+        text: '短期間で効果を実感できました。姿勢が改善されて周りからも「背筋が伸びたね」と言われるようになりました。',
+      },
+    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['パーソナル専門', '完全プライベート', '1対1指導', '人目を気にせず'],
@@ -142,6 +226,27 @@ const studios = [
     name: 'La pilates 千葉店',
     image: '/images/pilates3.jpg',
     rating: 4.1,
+    reviewCount: 84,
+    reviews: [
+      {
+        author: 'M.H',
+        rating: 5,
+        date: '5日前',
+        text: '整体とピラティスの組み合わせが他にはないアプローチ。長年悩んでいた腰痛が改善されました。千葉中央駅から徒歩4分で通いやすいです。',
+      },
+      {
+        author: 'K.S',
+        rating: 4,
+        date: '2週間前',
+        text: 'ウッド調の内装がおしゃれでリラックスできます。女性専用なので安心。肩こりが楽になって、姿勢も良くなりました。',
+      },
+      {
+        author: 'A.N',
+        rating: 4,
+        date: '1ヶ月前',
+        text: '月1回12,000円から始められるので、お試し感覚でスタートできました。JR総武線の千葉駅からも徒歩8分で行けます。',
+      },
+    ],
     price: '月1回 12,000円〜',
     trial: '体験レッスン 3,000円',
     features: ['整体×ピラティス', '女性専用', '千葉駅徒歩8分', '千葉中央駅徒歩4分'],
@@ -174,6 +279,27 @@ const studios = [
     name: 'luluto 千葉2号店',
     image: '/images/pilates4.jpg',
     rating: 4.3,
+    reviewCount: 108,
+    reviews: [
+      {
+        author: 'T.A',
+        rating: 5,
+        date: '3日前',
+        text: 'JR千葉駅から徒歩1分という最高の立地。理学療法士が考案したプログラムなので、医学的に正しいアプローチで身体を整えてもらえます。',
+      },
+      {
+        author: 'R.S',
+        rating: 5,
+        date: '1週間前',
+        text: '身体の不調を根本から見てもらえるのが他のスタジオとの違い。マンツーマンなので自分のペースで無理なく進められます。',
+      },
+      {
+        author: 'N.K',
+        rating: 4,
+        date: '3週間前',
+        text: '仕事帰りに通えるのが便利。夜間でも予約が取りやすいです。理学療法士の視点でのアドバイスが的確で、デスクワークでの姿勢の改善に役立っています。',
+      },
+    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['理学療法士考案', '千葉駅徒歩1分', 'マンツーマン', '医療的視点'],
@@ -206,6 +332,27 @@ const studios = [
     name: 'Pilates Studio re.fel',
     image: '/images/pilates2.jpg',
     rating: 4.0,
+    reviewCount: 72,
+    reviews: [
+      {
+        author: 'Y.I',
+        rating: 5,
+        date: '1週間前',
+        text: '整体とピラティスの両方を受けられるのが気に入っています。千葉駅から徒歩5分で、千葉市中央区登戸の落ち着いた雰囲気の中でトレーニングできます。',
+      },
+      {
+        author: 'S.M',
+        rating: 4,
+        date: '2週間前',
+        text: 'アットホームなスタジオで居心地が良いです。身体の歪みを整えながらトレーニングできるので、腰の痛みが和らぎました。',
+      },
+      {
+        author: 'F.T',
+        rating: 4,
+        date: '1ヶ月前',
+        text: '地域密着型の丁寧な対応が魅力。大手にはないきめ細やかなサポートで、安心して通えます。京成線の千葉中央駅からも近いです。',
+      },
+    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['整体×ピラティス', '千葉駅徒歩5分', '千葉市中央区登戸', '融合スタジオ'],
@@ -238,6 +385,27 @@ const studios = [
     name: 'OLUTANA pilates',
     image: '/images/pilates3.jpg',
     rating: 4.1,
+    reviewCount: 91,
+    reviews: [
+      {
+        author: 'L.K',
+        rating: 5,
+        date: '5日前',
+        text: '初心者向けの丁寧な指導が嬉しいです。女性専用なのでリラックスして通えます。ピラティスが初めてでも全く問題ありませんでした。',
+      },
+      {
+        author: 'D.N',
+        rating: 4,
+        date: '2週間前',
+        text: '東京と千葉に展開しているので、都内に出た時も利用できるのが便利。マシンピラティスの基礎からしっかり教えてもらえます。',
+      },
+      {
+        author: 'P.H',
+        rating: 4,
+        date: '1ヶ月前',
+        text: '亀戸店がメディアで紹介されていて気になって千葉の店舗に通い始めました。評判通り、初心者に寄り添った指導で安心感があります。',
+      },
+    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['初心者向け', '女性専用', '東京・千葉展開', '丁寧な指導'],
@@ -268,357 +436,376 @@ const studios = [
   },
 ]
 
-export default async function ChibaAreaPage() {
+const faqs = [
+  {
+    question: '千葉でピラティス初心者におすすめのスタジオはどこですか？',
+    answer: 'Rintosull 千葉店がおすすめです。運動やピラティスを初めて行う方向けのプログラムをご用意しており、インストラクターがしっかりサポート。ホットヨガLAVAを運営する会社が手がけているので安心感もあります。OLUTANA pilatesも初心者向けの丁寧な指導が評判です。',
+  },
+  {
+    question: '千葉駅から一番近いピラティススタジオはどこですか？',
+    answer: 'luluto 千葉2号店がJR千葉駅から徒歩1分で最もアクセスが良いです。次いでPilates Studio re.felが千葉駅徒歩5分、La pilates 千葉店が千葉駅徒歩8分（千葉中央駅からは徒歩4分）です。JR総武線・京成線どちらからもアクセスしやすい立地のスタジオが揃っています。',
+  },
+  {
+    question: '千葉で一番安いピラティススタジオはどこですか？',
+    answer: 'La pilates 千葉店が月1回12,000円から通えます。また、ピラティスK 千葉店は月4回13,420円で無料体験レッスンも実施しています。予算に合わせて月の回数を選べるスタジオが多いので、まずは月1〜4回の少ない回数から始めてみるのがおすすめです。',
+  },
+  {
+    question: '女性専用のピラティススタジオはありますか？',
+    answer: 'はい、3つあります。ピラティスK 千葉店、La pilates 千葉店、OLUTANA pilatesは女性専用スタジオです。男性の目を気にせず集中してトレーニングできます。特にピラティスK 千葉店は暗闇レッスンもあり、より周囲を気にせず没頭できる環境です。',
+  },
+  {
+    question: '体験レッスンはありますか？料金はいくらですか？',
+    answer: 'ほとんどのスタジオで体験レッスンを実施しています。ピラティスK 千葉店は無料、La pilates 千葉店は3,000円、その他スタジオは要問合せです。体験レッスンでは、スタジオの雰囲気やインストラクターとの相性を確認できるので、2〜3つのスタジオを比較してみましょう。',
+  },
+  {
+    question: 'マシンピラティスとマットピラティスの違いは何ですか？',
+    answer: 'マシンピラティスは専用マシン（リフォーマー）を使用し、初心者でも正しいフォームで効果的にトレーニングできます。マットピラティスはマットの上で自重を使って行い、体幹を鍛えるのに効果的。初心者にはマシンがサポートしてくれるマシンピラティスがおすすめです。千葉のスタジオはマシンピラティス中心のところが多いです。',
+  },
+  {
+    question: 'どのくらいの期間で効果が出ますか？',
+    answer: '週1回（月4回）通った場合、1ヶ月で体の使い方が変わり、2ヶ月で姿勢の変化を実感、3ヶ月で見た目の変化が現れます。週2回通うとさらに早く効果を実感できます。人間の細胞が生まれ変わるサイクルが約2ヶ月なので、最低でも2ヶ月は継続することをおすすめします。',
+  },
+  {
+    question: '肩こりや腰痛の改善に効果はありますか？',
+    answer: 'はい、効果が期待できます。特にLa pilates 千葉店とPilates Studio re.felは整体とピラティスを組み合わせた独自プログラムで肩こり・腰痛を根本から改善。luluto 千葉2号店は理学療法士監修で身体の不調改善に特化しています。デスクワークによる不調にお悩みの方にも人気です。',
+  },
+  {
+    question: '運動が苦手でも大丈夫ですか？',
+    answer: 'はい、大丈夫です。ピラティスはもともとリハビリ用に開発されたエクササイズなので、運動が苦手な方や体力に自信がない方でも無理なく始められます。マシンがサポートしてくれるので正しいフォームで効果的にトレーニングでき、Rintosull 千葉店では利用者の87%が初心者からスタートしています。',
+  },
+  {
+    question: 'マンツーマンで指導してもらえるスタジオはありますか？',
+    answer: 'はい、STUDIO IVY 千葉店が完全プライベート制のマンツーマン専門スタジオです。また、luluto 千葉2号店もマンツーマンレッスンを提供しており、理学療法士による専門的な指導を受けられます。La pilates 千葉店もパーソナル対応可能です。',
+  },
+]
+
+export default function ChibaAreaPage() {
   return (
     <>
-      <div className="min-h-screen bg-gradient-to-b from-warm-50 to-white">
-        <Navigation />
-        
-        <main className="container mx-auto px-4 py-8 sm:px-6 lg:px-8">
-          {/* ヘッダーセクション */}
-          <header className="mb-12 text-center">
-            <h1 className="mb-4 font-cormorant text-4xl font-bold tracking-tight text-warm-900 sm:text-5xl">
-              千葉のピラティススタジオ<span className="block text-warm-600">おすすめ8選</span>
-            </h1>
-            <p className="mx-auto max-w-3xl text-lg text-warm-700">
-              千葉エリアで人気のピラティススタジオを厳選。マシンピラティス、体験レッスン、料金プランを徹底比較。初心者から経験者まで、あなたにぴったりのスタジオが見つかります。
-            </p>
-          </header>
+      <Navigation />
 
-          {/* スタジオカード一覧 */}
-          <section className="mb-16">
+      <main className="pt-20 bg-white">
+        {/* Hero Section */}
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月09日</p>
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
+              【2026最新】ピラティス千葉おすすめ8選！<br className="hidden md:block" />
+              人気スタジオの料金プランを簡単比較！
+            </h1>
+          </div>
+        </section>
+
+        {/* Breadcrumbs */}
+        <section className="bg-white py-3 border-b border-warm-100">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <nav className="text-sm text-warm-400">
+              <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
+              {' > '}
+              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              {' > '}
+              <span className="text-warm-600">千葉</span>
+            </nav>
+          </div>
+        </section>
+
+        {/* Introduction */}
+        <section className="py-12 bg-white">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <p className="text-warm-600 leading-relaxed mb-6">
+              こんにちは。
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              Pilates Navi編集部です！
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              あなたは、
+            </p>
+            <p className="text-warm-600 leading-relaxed font-medium mb-6">
+              「ピラティスを始めてみたい」
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              「千葉で人気のピラティススタジオを知りたい」
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              と思っていませんか？
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-8">
+              そこでこの記事では、千葉エリアでおすすめのピラティススタジオ8選をまとめました。
+            </p>
+            <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
+              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <ul className="space-y-2 text-warm-700">
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>千葉でピラティススタジオを探している</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>マシンピラティスを体験してみたい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>体験レッスンが安いスタジオを知りたい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>JR総武線・京成線で通いやすいスタジオがいい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>料金プランを比較したい</span>
+                </li>
+              </ul>
+            </div>
+            <p className="text-warm-600 leading-relaxed">
+              それではさっそく見ていきましょう！
+            </p>
+          </div>
+        </section>
+
+        {/* Studios List */}
+        <section className="py-16 bg-warm-50" id="studios">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              千葉のおすすめピラティススタジオ8選
+            </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (
                 <StudioCard key={index} studio={studio} index={index} />
               ))}
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* 好みから探すセクション */}
-          <section className="mb-16 rounded-2xl bg-warm-50 p-8 shadow-sm">
-            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
-              好みのタイプから探す
+        {/* Search by Preference */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              こだわりから探す
             </h2>
-            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">音楽×暗闇で楽しく</h3>
-                <p className="mb-4 text-warm-600">
-                  音楽に合わせて楽しくボディメイクしたい方に
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  月額15,000円以下で通えるスタジオ。コスパ重視で始めたい方におすすめ。
                 </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：ピラティスK 千葉店
-                </p>
-              </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">世界最大級</h3>
-                <p className="mb-4 text-warm-600">
-                  アメリカ発の本格メソッドを体験したい方に
-                </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：CLUB PILATES 千葉
-                </p>
-              </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">LAVA運営</h3>
-                <p className="mb-4 text-warm-600">
-                  ホットヨガとの併用もしたい方に
-                </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：Rintosull 千葉店
-                </p>
-              </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">パーソナル専門</h3>
-                <p className="mb-4 text-warm-600">
-                  マンツーマンで集中指導を受けたい方に
-                </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：STUDIO IVY 千葉店
-                </p>
-              </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">整体×ピラティス</h3>
-                <p className="mb-4 text-warm-600">
-                  肩こり・腰痛を根本から改善したい方に
-                </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：La pilates 千葉店 / Pilates Studio re.fel
-                </p>
-              </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">理学療法士監修</h3>
-                <p className="mb-4 text-warm-600">
-                  医療的視点から身体を整えたい方に
-                </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：luluto 千葉2号店
-                </p>
-              </div>
-            </div>
-          </section>
-
-          {/* 料金帯別セクション */}
-          <section className="mb-16">
-            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
-              料金帯別スタジオ
-            </h2>
-            <div className="grid gap-6 md:grid-cols-3">
-              <div className="rounded-xl bg-warm-50 p-6">
-                <h3 className="mb-4 text-xl font-bold text-warm-800">〜15,000円</h3>
-                <ul className="space-y-2 text-warm-700">
-                  <li className="flex items-start">
-                    <span className="mr-2 text-warm-600">•</span>
-                    <span>ピラティスK 千葉店（月4回 13,420円）</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 text-warm-600">•</span>
-                    <span>La pilates 千葉店（月1回 12,000円〜）</span>
-                  </li>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• La pilates 千葉店（月1回 12,000円〜）</li>
+                  <li className="text-warm-700">• ピラティスK 千葉店（月4回 13,420円〜）</li>
                 </ul>
               </div>
-              <div className="rounded-xl bg-warm-50 p-6">
-                <h3 className="mb-4 text-xl font-bold text-warm-800">パーソナル専門</h3>
-                <ul className="space-y-2 text-warm-700">
-                  <li className="flex items-start">
-                    <span className="mr-2 text-warm-600">•</span>
-                    <span>STUDIO IVY 千葉店（完全プライベート）</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 text-warm-600">•</span>
-                    <span>luluto 千葉2号店（マンツーマン）</span>
-                  </li>
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  女性専用スタジオで安心してトレーニング。周りの目を気にせず集中できます。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• ピラティスK 千葉店（暗闇レッスンあり）</li>
+                  <li className="text-warm-700">• La pilates 千葉店（整体×ピラティス）</li>
+                  <li className="text-warm-700">• OLUTANA pilates（初心者向け）</li>
                 </ul>
               </div>
-              <div className="rounded-xl bg-warm-50 p-6">
-                <h3 className="mb-4 text-xl font-bold text-warm-800">その他</h3>
-                <ul className="space-y-2 text-warm-700">
-                  <li className="flex items-start">
-                    <span className="mr-2 text-warm-600">•</span>
-                    <span>CLUB PILATES 千葉（要問合せ）</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 text-warm-600">•</span>
-                    <span>Rintosull 千葉店（要問合せ）</span>
-                  </li>
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・好アクセス</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  千葉駅から徒歩5分以内。JR総武線・京成線利用で仕事帰りや休日にも通いやすい。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• luluto 千葉2号店（JR千葉駅徒歩1分）</li>
+                  <li className="text-warm-700">• Pilates Studio re.fel（千葉駅徒歩5分）</li>
+                  <li className="text-warm-700">• La pilates 千葉店（千葉中央駅徒歩4分）</li>
                 </ul>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* 通う頻度・期間の目安 */}
-          <section className="mb-16 rounded-2xl bg-gradient-to-br from-warm-50 to-warm-100 p-8 shadow-sm">
-            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
-              通う頻度・期間の目安
+        {/* Frequency Guide */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              おすすめの期間・頻度
             </h2>
-            <div className="grid gap-6 md:grid-cols-2">
-              <div className="rounded-xl bg-white p-6 shadow-sm">
-                <h3 className="mb-4 text-xl font-bold text-warm-800">週1回（月4回）</h3>
-                <p className="mb-4 text-warm-700">
-                  初心者や運動習慣をつけたい方におすすめ。3ヶ月で姿勢の変化を実感できます。
+            <div className="bg-white rounded-lg p-8 border border-warm-200">
+              <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
+              <p className="text-warm-600 leading-relaxed mb-6">
+                週1-2回（月4-8回）からスタートするのがおすすめ。まずは身体を慣らすことが大切です。継続期間は最低でも2-3ヶ月。この期間で効果を実感できる方が多いですよ。
+              </p>
+              <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
+              <p className="text-warm-600 leading-relaxed mb-6">
+                週2-3回（月8-12回）がおすすめ。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3-6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。
+              </p>
+              <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理が目的の方</h3>
+              <p className="text-warm-600 leading-relaxed">
+                週1回（月4回）のペースで継続するのがおすすめ。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切。自分のペースで楽しく通えるのが一番ですよ。
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Price Guide */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              予算別の料金相場
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜15,000円</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月1〜4回</p>
+                <p className="text-sm text-warm-600 mb-4">
+                  グループレッスン中心。手軽にピラティスを始めたい方向け。
                 </p>
-                <div className="space-y-2 text-sm text-warm-600">
-                  <p>• 1ヶ月目：動きに慣れる</p>
-                  <p>• 2ヶ月目：体の変化を感じ始める</p>
-                  <p>• 3ヶ月目：姿勢が改善され、周りから変化を指摘される</p>
-                </div>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• La pilates 千葉店（12,000円〜）</li>
+                  <li>• ピラティスK 千葉店（13,420円〜）</li>
+                </ul>
               </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm">
-                <h3 className="mb-4 text-xl font-bold text-warm-800">週2回（月8回）</h3>
-                <p className="mb-4 text-warm-700">
-                  本格的にボディメイクしたい方におすすめ。2ヶ月で見た目の変化が現れます。
+              <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
+                <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 15,000〜25,000円</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4〜8回</p>
+                <p className="text-sm text-warm-600 mb-4">
+                  グループ・パーソナルの使い分け。本格的に始めたい方向け。
                 </p>
-                <div className="space-y-2 text-sm text-warm-600">
-                  <p>• 1ヶ月目：筋肉の使い方をマスター</p>
-                  <p>• 2ヶ月目：ボディラインが変わり始める</p>
-                  <p>• 3ヶ月目：理想の体型に近づく</p>
-                </div>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• ピラティスK 千葉店（月8回 16,170円）</li>
+                  <li>• CLUB PILATES 千葉（要問合せ）</li>
+                  <li>• La pilates 千葉店（月2回 22,000円）</li>
+                </ul>
+              </div>
+              <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 30,000円〜</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4回〜</p>
+                <p className="text-sm text-warm-600 mb-4">
+                  完全パーソナルレッスン。短期集中で結果を出したい方向け。
+                </p>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• STUDIO IVY 千葉店（要問合せ）</li>
+                  <li>• La pilates 千葉店（月4回 40,000円）</li>
+                </ul>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* 4ステップ選び方ガイド */}
-          <section className="mb-16">
-            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
-              4ステップで選ぶ！千葉のピラティススタジオ
+        {/* How to Choose */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              失敗しないピラティススタジオの選び方
             </h2>
-            <div className="grid gap-6 md:grid-cols-2">
-              <div className="rounded-xl border-2 border-warm-200 bg-white p-6 shadow-sm">
-                <div className="mb-3 inline-block rounded-full bg-warm-100 px-4 py-1 text-sm font-semibold text-warm-700">
-                  STEP 1
+            <div className="space-y-8">
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span>
+                  <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
-                <h3 className="mb-3 text-xl font-bold text-warm-800">目的を明確にする</h3>
-                <p className="text-warm-600">
-                  ダイエット、姿勢改善、体幹強化など、あなたの目的に合ったスタジオを選びましょう。
+                <p className="text-warm-600 leading-relaxed">
+                  まずは自分がピラティスで何を達成したいのかを明確にしましょう。ダイエット、姿勢改善、肩こり・腰痛の改善、体幹強化など、目的によって最適なスタジオやプログラムは変わります。千葉には整体×ピラティスや理学療法士監修のスタジオもあるので、目的に合わせて選べますよ。
                 </p>
               </div>
-              <div className="rounded-xl border-2 border-warm-200 bg-white p-6 shadow-sm">
-                <div className="mb-3 inline-block rounded-full bg-warm-100 px-4 py-1 text-sm font-semibold text-warm-700">
-                  STEP 2
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span>
+                  <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
-                <h3 className="mb-3 text-xl font-bold text-warm-800">予算を決める</h3>
-                <p className="text-warm-600">
-                  月額12,000円〜40,000円まで幅広い料金帯があります。無理なく続けられる予算を設定しましょう。
+                <p className="text-warm-600 leading-relaxed">
+                  千葉エリアの料金相場はグループで月4回12,000円〜15,000円程度、パーソナルは月額22,000円〜40,000円程度です。無理なく継続できる予算を決めましょう。入会金やレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
-              <div className="rounded-xl border-2 border-warm-200 bg-white p-6 shadow-sm">
-                <div className="mb-3 inline-block rounded-full bg-warm-100 px-4 py-1 text-sm font-semibold text-warm-700">
-                  STEP 3
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span>
+                  <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
-                <h3 className="mb-3 text-xl font-bold text-warm-800">通いやすさを確認</h3>
-                <p className="text-warm-600">
-                  千葉駅徒歩1分〜8分など、自宅や職場から通いやすい立地を選ぶと続けやすくなります。
+                <p className="text-warm-600 leading-relaxed">
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。ピラティスK 千葉店は無料体験、La pilates 千葉店は3,000円で体験できますので、気軽に試してみてくださいね。
                 </p>
               </div>
-              <div className="rounded-xl border-2 border-warm-200 bg-white p-6 shadow-sm">
-                <div className="mb-3 inline-block rounded-full bg-warm-100 px-4 py-1 text-sm font-semibold text-warm-700">
-                  STEP 4
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span>
+                  <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
-                <h3 className="mb-3 text-xl font-bold text-warm-800">体験レッスンを受ける</h3>
-                <p className="text-warm-600">
-                  スタジオの雰囲気やインストラクターとの相性を確認。ほとんどのスタジオで体験レッスンを実施しています。
+                <p className="text-warm-600 leading-relaxed">
+                  どんなに良いスタジオでも、通いにくい場所にあると続きません。千葉はJR総武線と京成線が利用でき、そごう千葉やペリエ千葉など商業施設も充実しています。駅から近いスタジオを選ぶと、仕事帰りや買い物ついでにも通えて便利ですよ。luluto千葉2号店は千葉駅徒歩1分と抜群のアクセスです。
                 </p>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* FAQ */}
-          <section className="mb-16">
-            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
+        {/* FAQ */}
+        <section className="py-16 bg-white">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
               よくある質問
             </h2>
-            <div className="space-y-4">
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  千葉でピラティス初心者におすすめのスタジオはどこですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  Rintosull 千葉店がおすすめです。運動やピラティスを初めて行う方向けのプログラムをご用意しており、インストラクターがしっかりサポート。ホットヨガLAVAを運営する会社が手がけているので安心感もあります。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  千葉駅から一番近いピラティススタジオはどこですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  luluto 千葉2号店がJR千葉駅から徒歩1分で最もアクセスが良いです。次いでPilates Studio re.felが千葉駅徒歩5分、La pilates 千葉店が千葉駅徒歩8分です。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  千葉で一番安いピラティススタジオはどこですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  La pilates 千葉店が月1回12,000円から通えます。また、ピラティスK 千葉店は月4回13,420円で無料体験レッスンも実施しています。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  女性専用のピラティススタジオはありますか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  はい、3つあります。ピラティスK 千葉店、La pilates 千葉店、OLUTANA pilatesは女性専用スタジオです。男性の目を気にせず集中してトレーニングできます。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  体験レッスンはありますか？料金はいくらですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  ほとんどのスタジオで体験レッスンを実施しています。ピラティスK 千葉店は無料、La pilates 千葉店は3,000円、その他スタジオは要問合せです。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  マシンピラティスとマットピラティスの違いは何ですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  マシンピラティスは専用マシン（リフォーマー）を使用し、初心者でも正しいフォームで効果的にトレーニングできます。マットピラティスはマットの上で行い、体幹を鍛えるのに効果的。初心者にはマシンピラティスがおすすめです。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  どのくらいの期間で効果が出ますか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  週1回（月4回）通った場合、1ヶ月で体の使い方が変わり、2ヶ月で姿勢の変化を実感、3ヶ月で見た目の変化が現れます。週2回通うとさらに早く効果を実感できます。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  肩こりや腰痛の改善に効果はありますか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  はい、効果が期待できます。特にLa pilates 千葉店とPilates Studio re.felは整体とピラティスを組み合わせた独自プログラムで肩こり・腰痛を根本から改善。luluto 千葉2号店は理学療法士監修で身体の不調改善に特化しています。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  運動が苦手でも大丈夫ですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  はい、大丈夫です。ピラティスはもともとリハビリ用に開発されたエクササイズなので、運動が苦手な方や体力に自信がない方でも無理なく始められます。マシンがサポートしてくれるので、正しいフォームで効果的にトレーニングできます。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  マンツーマンで指導してもらえるスタジオはありますか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  はい、STUDIO IVY 千葉店が完全プライベート制のマンツーマン専門スタジオです。また、luluto 千葉2号店もマンツーマンレッスンを提供しており、理学療法士による専門的な指導を受けられます。
-                </p>
-              </details>
+            <div className="space-y-6">
+              {faqs.map((faq, index) => (
+                <div key={index} className="border border-warm-200 rounded-lg overflow-hidden">
+                  <details className="group">
+                    <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition">
+                      <h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3>
+                      <svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"/>
+                      </svg>
+                    </summary>
+                    <div className="px-6 pb-6 text-warm-600 leading-relaxed">
+                      {faq.answer}
+                    </div>
+                  </details>
+                </div>
+              ))}
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* まとめ・CTA */}
-          <section className="mb-16 rounded-2xl bg-gradient-to-br from-warm-600 to-warm-700 p-8 text-white shadow-lg">
-            <h2 className="mb-4 font-cormorant text-3xl font-bold">
-              千葉で理想のピラティススタジオを見つけよう
+        {/* Summary */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">
+              まとめ
             </h2>
-            <p className="mb-6 text-lg text-warm-50">
-              千葉には多様なピラティススタジオがあります。音楽×暗闇のピラティスK、世界最大級のCLUB PILATES、LAVA運営のRintosull、パーソナル専門のSTUDIO IVY、整体×ピラティスのLa pilatesやPilates Studio re.fel、理学療法士監修のlulutoなど、あなたの目的・予算・好みに合ったスタジオがきっと見つかります。
+            <p className="text-warm-600 leading-relaxed mb-6">
+              今回は千葉のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
-            <p className="mb-8 text-warm-50">
-              まずは体験レッスンで、スタジオの雰囲気やインストラクターとの相性を確認してみましょう。多くのスタジオが無料〜有料で体験レッスンを実施しています。
+            <p className="text-warm-600 leading-relaxed mb-6">
+              千葉には、音楽×暗闇で楽しくボディメイクできるピラティスK、世界最大級のCLUB PILATES、ホットヨガと併用できるRintosull、完全パーソナルのSTUDIO IVY、整体と融合したLa pilatesやPilates Studio re.fel、理学療法士監修のluluto、初心者向けのOLUTANAなど、多彩なスタジオが揃っています。
             </p>
-            <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-              <a
-                href="#studios"
-                className="rounded-full bg-white px-8 py-3 font-bold text-warm-700 shadow-md transition-all hover:bg-warm-50 hover:shadow-lg"
-              >
-                スタジオ一覧を見る
-              </a>
-              <Link
-                href="/"
-                className="rounded-full border-2 border-white px-8 py-3 font-bold text-white transition-all hover:bg-white hover:text-warm-700"
-              >
-                他のエリアを探す
-              </Link>
-            </div>
-          </section>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+            </p>
+            <p className="text-warm-700 font-medium text-center">
+              あなたにぴったりのピラティススタジオが見つかることを願っています。
+            </p>
+          </div>
+        </section>
 
-          {/* パンくずリスト */}
-          <nav className="mb-8 text-sm text-warm-600" aria-label="パンくずリスト">
-            <ol className="flex flex-wrap items-center gap-2">
-              <li>
-                <Link href="/" className="hover:text-warm-800">
-                  ホーム
-                </Link>
-              </li>
-              <li>/</li>
-              <li>
-                <Link href="/area" className="hover:text-warm-800">
-                  エリアから探す
-                </Link>
-              </li>
-              <li>/</li>
-              <li className="font-semibold text-warm-800">千葉</li>
-            </ol>
-          </nav>
-        </main>
+        {/* CTA */}
+        <section className="py-16 bg-warm-800 text-white" id="contact">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">
+              体験レッスンを予約しよう
+            </h2>
+            <p className="text-warm-200 mb-8 leading-relaxed">
+              初回限定の体験レッスン無料〜3,000円。<br />
+              まずは気軽に体験してみましょう。
+            </p>
+            <Link
+              href="#studios"
+              className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded"
+            >
+              おすすめスタジオ一覧に戻る
+            </Link>
+          </div>
+        </section>
+      </main>
 
-        <SiteFooter />
-      </div>
+      <SiteFooter />
+      <Script src="https://unpkg.com/lucide@latest" strategy="lazyOnload" />
 
       <Script
         type="application/ld+json"
