@@ -5,348 +5,112 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】ピラティス西新おすすめ15選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
-  description: '西新エリアのおすすめピラティススタジオ15選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
-  keywords: 'ピラティス,西新,福岡,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
+  title: '【2026最新】ピラティス西新おすすめ4選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
+  description: '西新エリアのおすすめピラティススタジオ4選を徹底比較。CLUB PILATES、ピラティススタジオ Live、Rintosull、zen place pilatesの料金・体験レッスン情報。福岡市早良区の文教エリアで通いやすいスタジオが見つかります。',
+  keywords: 'ピラティス,西新,福岡,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,早良区',
 }
 
 const studios = [
   {
-    name: 'zen place pilates 西新スタジオ',
+    name: 'CLUB PILATES 福岡西新店',
     image: '/images/pilates2.jpg',
     rating: 4.8,
-    reviewCount: 265,
+    reviewCount: 142,
     reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '西新駅から徒歩3分で通いやすいです。ミナミの中心で、地下鉄空港線、若年層・ファミリー層多い全て使えます。道頓堀や心斎橋も近くて、レッスン後の観光も楽しめます。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '少人数制なので丁寧に見てもらえます。マシンの種類も豊富で、自分のレベルに合わせて進められます。ミナミは商業・オフィスの中心で、いつも賑やかです。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: '全国展開しているので出張先でも通えます。西新は若者や観光客が多く、活気がある街です。',
-      },
+      { author: 'S.K', rating: 5, date: '2週間前', text: '世界最大級のピラティスチェーンだけあって、プログラムの質が高いです。グループもプライベートも選べるのが良い。西新駅から近くて通いやすいです。' },
+      { author: 'Y.T', rating: 5, date: '1ヶ月前', text: '無料体験で雰囲気がよく分かりました。インストラクターが丁寧で、初心者でも安心。西南学院大学の近くで、大学帰りにも寄れます。' },
+      { author: 'K.H', rating: 4, date: '3週間前', text: 'グループレッスンの種類が豊富で飽きません。レベル別にクラスが分かれているので、自分に合ったペースで進められます。' },
     ],
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['マシン完備', '初心者歓迎', '西新駅徒歩3分', 'インストラクター養成'],
-    description: '全国展開の大手ピラティススタジオ。西新駅から徒歩3分の好立地。マットピラティスからマシンピラティスまで豊富なレッスンメニュー。ミナミの中心・西新で、地下鉄空港線、若年層・ファミリー層多いが利用可能。学生街。福岡タワー、シーサイドももちに近接し、福岡タワー近く。商業・オフィスの中心。経験豊富なインストラクターが一人ひとりに合わせた丁寧な指導を提供します。',
-    access: '西新駅から徒歩3分',
-    address: '大阪府大阪市中央区西新3-5-17 西新LCビル 7F',
-    popularPlan: {
-      name: 'フリープラン（月4回）',
-      description: 'マット・マシンどちらも受講可能な人気プラン。ミナミの中心で通いやすい。',
-      price: '月4回 13,200円（税込）',
-    },
-    options: [
-      'プライベートレッスン追加（1回 9,900円〜）',
-      'ウェアレンタル（月額 2,200円）',
-      'タオルレンタル（月額 1,100円）',
-      'インストラクター養成コース（別途）',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心（全体の80%）',
-      genderRatio: '女性90% / 男性10%',
-      purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
-    },
-    basicInfo: {
-      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
-      closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'ウォーターサーバー'],
-    },
-  },
-  {
-    name: 'WECLE 西新',
-    image: '/images/pilates3.jpg',
-    rating: 4.7,
-    reviewCount: 204,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: 'AI姿勢分析が面白い！自分の体の癖が数値で分かるので改善しやすいです。西新駅から近くて、道頓堀での食事ついでに通えます。',
-      },
-      {
-        author: 'A.H',
-        rating: 4,
-        date: '2週間前',
-        text: '女性専用なので気兼ねなく通えます。マシンが新しくて使いやすい。体験が500円なので気軽に始められました。',
-      },
-      {
-        author: 'M.M',
-        rating: 5,
-        date: '3週間前',
-        text: '科学的なアプローチで効果が実感できます。西新はミナミの中心で、ショッピングも楽しめます。',
-      },
-    ],
-    price: '月4回 14,800円〜',
-    trial: '体験レッスン 500円',
-    features: ['AI姿勢分析', '最新マシン', '西新駅近', '女性専用'],
-    description: 'AI姿勢分析を導入した最新型ピラティススタジオ。西新駅から徒歩4分。最新のマシンと科学的なアプローチで効果的なボディメイクを実現。女性専用なので安心して通えます。道頓堀、心斎橋が近く、レッスン後のショッピングや食事も楽しめます。',
-    access: '西新駅から徒歩4分',
-    address: '大阪府大阪市中央区西新千日前15-15 OCAT 8F',
-    popularPlan: {
-      name: 'スタンダード4（月4回）',
-      description: 'AI姿勢分析付き。最新マシンで効率的にボディメイク。女性専用で安心。',
-      price: '月4回 14,800円（税込）※AI分析無料',
-    },
-    options: [
-      'AI姿勢分析レポート（月1回無料、追加 1,100円）',
-      'パーソナルトレーニング（1回 11,000円〜）',
-      'ウェア・タオルセット（月額 2,750円）',
-      '栄養カウンセリング（月額 5,500円）',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心（全体の85%）',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'AI分析'],
-    },
-    basicInfo: {
-      hours: '平日 7:00〜22:00 / 土日祝 9:00〜20:00',
-      closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'AI姿勢分析システム', '女性専用'],
-    },
-  },
-  {
-    name: 'ピラティスK 西新',
-    image: '/images/pilates4.jpg',
-    rating: 4.6,
-    reviewCount: 186,
-    reviews: [
-      {
-        author: 'T.W',
-        rating: 5,
-        date: '5日前',
-        text: '暗闇×音楽で楽しく続けられます！西新でリフレッシュできるのが嬉しい。無料体験があって始めやすかったです。',
-      },
-      {
-        author: 'H.I',
-        rating: 4,
-        date: '1週間前',
-        text: '音楽に合わせて動くので飽きない。女性専用で周りを気にせず集中できます。インストラクターが明るくて楽しい雰囲気。',
-      },
-      {
-        author: 'S.N',
-        rating: 5,
-        date: '2週間前',
-        text: 'グループレッスンですが丁寧に見てくれます。暗闇なので初心者でも恥ずかしくない。2ヶ月で体が引き締まってきました。',
-      },
-    ],
-    price: '月4回 15,070円〜',
-    trial: '無料体験レッスン',
-    features: ['音楽×マシン', '女性専用', '暗闇レッスン', 'グループレッスン'],
-    description: '音楽に合わせて楽しくボディメイク。女性専用スタジオで安心。西新駅から徒歩5分。暗闇×音楽×マシンピラティスの融合レッスンが人気。周りの目を気にせず集中できる環境で、楽しみながら理想のボディラインを手に入れられます。',
-    access: '西新駅から徒歩5分',
-    address: '大阪府大阪市中央区西新5-1-60 西新スカイオ 5F',
-    popularPlan: {
-      name: 'マンスリー4メンバー',
-      description: '暗闇×音楽×マシンピラティスの融合レッスン。楽しく続けられると人気のプラン。',
-      price: '月4回 15,070円（税込）',
-    },
-    options: [
-      '追加レッスンチケット（1回 4,400円）',
-      '通い放題プラン変更（月額 22,000円〜）',
-      'ウェア・タオルセット（月額 2,200円）',
-      'ドリンクサービス（月額 1,100円）',
-    ],
-    userProfile: {
-      ageRange: '20代〜30代が中心（全体の85%）',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['楽しく痩せたい', 'ストレス発散', 'ボディメイク', '仲間と運動'],
-    },
-    basicInfo: {
-      hours: '平日 10:00〜22:00 / 土日祝 10:00〜20:00',
-      closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', '暗闇スタジオ', '女性専用'],
-    },
-  },
-  {
-    name: 'the SILK 西新',
-    image: '/images/pilates2.jpg',
-    rating: 4.8,
-    price: '月4回 15,070円〜',
-    trial: '体験レッスン 無料',
-    features: ['暗闇マシン', '音楽', '西新駅近', '女性専用'],
-    description: 'マシンピラティス特化型スタジオ。暗闇×音楽で没入感のあるレッスン。西新駅から徒歩2分の好アクセス。最新のリフォーマーマシンを完備し、音楽に合わせた独自プログラムで楽しくトレーニング。女性専用で初心者も安心。',
-    access: '西新駅から徒歩2分',
-  },
-  {
-    name: 'CLUB PILATES 西新',
-    image: '/images/pilates3.jpg',
-    rating: 4.7,
     price: '月4回 14,190円〜',
     trial: '体験レッスン 無料',
-    features: ['アメリカ発', 'グループ&プライベート', '西新駅近', '初心者歓迎'],
-    description: 'アメリカ発の世界最大級ピラティススタジオチェーン。西新駅から徒歩3分。グループレッスンからプライベートレッスンまで幅広く対応。全米No.1のピラティスメソッドで、初心者から上級者まで満足できるプログラムを提供。',
-    access: '西新駅から徒歩3分',
+    features: ['世界最大級チェーン', 'グループ&プライベート', '体験無料', '初心者歓迎'],
+    description: 'アメリカ発の世界最大級ピラティススタジオチェーン。福岡市地下鉄空港線「西新駅」から徒歩圏内の好立地。グループレッスンからプライベートレッスンまで幅広く対応し、レベル別のクラス分けで初心者から上級者まで満足できるプログラムを提供。無料体験レッスンを実施中。',
+    access: '福岡市地下鉄空港線「西新駅」徒歩圏内',
+    address: '福岡県福岡市早良区（西新エリア）',
+    popularPlan: { name: 'グループレッスン（月4回）', description: 'リフォーマーを使ったグループレッスン。レベル別クラスで初心者も安心。', price: '月4回 14,190円〜（税込）' },
+    options: ['プライベートレッスン（別途料金）', 'グループ月4回プラン', 'グループ月8回プラン', '通い放題プラン'],
+    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
+    basicInfo: { hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00', closed: '不定休', facilities: ['リフォーマー', 'スプリングボード', 'TRX', 'ロッカー'] },
   },
   {
-    name: 'ピラティススタジオ B-line 西新',
-    image: '/images/pilates4.jpg',
-    rating: 4.9,
-    price: '1回 8,800円〜',
-    trial: '体験レッスン 5,500円',
-    features: ['完全プライベート', 'マシン完備', '西新駅近', 'オーダーメイド'],
-    description: '完全プライベートレッスン専門スタジオ。西新駅から徒歩4分。一人ひとりの目的・体力に合わせたオーダーメイドレッスン。経験豊富なインストラクターがマンツーマンで指導するので、短期間で効果を実感できます。',
-    access: '西新駅から徒歩4分',
-  },
-  {
-    name: 'Reformer Pilates Nishijin',
-    image: '/images/pilates2.jpg',
-    rating: 4.7,
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['リフォーマー専門', '少人数制', '西新', '初心者歓迎'],
-    description: 'リフォーマー専門のピラティススタジオ。西新エリアに展開。少人数制で丁寧な指導が魅力。最新のリフォーマーマシンを使用した効果的なトレーニングで、姿勢改善やボディメイクを実現します。',
-    access: '西新駅から徒歩5分',
-  },
-  {
-    name: 'Urban Pilates 西新',
+    name: 'ピラティススタジオ Live 西新店',
     image: '/images/pilates3.jpg',
-    rating: 4.6,
-    price: '月額 16,500円（通い放題）',
-    trial: '体験レッスン 無料',
-    features: ['24時間営業', '西新駅近', '通い放題', 'マシン完備'],
-    description: '24時間営業のピラティススタジオ。西新駅から徒歩1分の好立地。早朝・深夜でも利用可能なので、忙しい方にも最適。月額定額で通い放題プランあり。最新マシンを完備し、自分のペースでトレーニングできます。',
-    access: '西新駅から徒歩1分',
+    rating: 4.7,
+    reviewCount: 88,
+    reviews: [
+      { author: 'R.N', rating: 5, date: '1週間前', text: '最短30分のレッスンがあるので、忙しい日でも通えて助かります。少人数制で丁寧に見てもらえます。' },
+      { author: 'A.H', rating: 4, date: '2週間前', text: '初心者歓迎とうたっている通り、基礎から丁寧に教えてもらえました。西新の文教エリアにあって落ち着いた雰囲気です。' },
+      { author: 'M.M', rating: 5, date: '3週間前', text: '少人数制なのでインストラクターとの距離が近く、フォームの修正もすぐにしてもらえます。短時間で効率的にトレーニングできるのが魅力。' },
+    ],
+    price: '月4回 12,000円〜',
+    trial: '体験レッスンあり',
+    features: ['最短30分', '少人数制', '初心者歓迎', '効率的'],
+    description: '最短30分からレッスンが受けられるピラティススタジオ。少人数制で一人ひとりに目が行き届く丁寧な指導が特徴。初心者でも安心して始められる環境が整っています。福岡市早良区の文教エリア・西新に位置し、落ち着いた雰囲気の中でトレーニングに集中できます。',
+    access: '福岡市地下鉄空港線「西新駅」徒歩圏内',
+    address: '福岡県福岡市早良区（西新エリア）',
+    popularPlan: { name: '月4回プラン', description: '少人数制のグループレッスン。最短30分から受講可能。', price: '月4回 12,000円〜（税込）' },
+    options: ['30分レッスン', '60分レッスン', '月4回プラン', '月8回プラン'],
+    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性90% / 男性10%', purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '初心者向け'] },
+    basicInfo: { hours: '平日 10:00〜21:00 / 土日祝 9:00〜18:00', closed: '不定休', facilities: ['リフォーマー', 'マット', 'ロッカー', 'ウォーターサーバー'] },
   },
   {
-    name: 'Pilates Studio M 西新',
+    name: 'Rintosull 西新店',
     image: '/images/pilates4.jpg',
+    rating: 4.6,
+    reviewCount: 76,
+    reviews: [
+      { author: 'T.W', rating: 5, date: '5日前', text: '女性専用なので周りを気にせず集中できます。マシンピラティスが1回2,200円〜はかなりリーズナブル。体験0円で気軽に始められました。' },
+      { author: 'H.I', rating: 4, date: '1週間前', text: '女性専用のマシンピラティススタジオ。清潔感があって居心地が良いです。料金も手頃で継続しやすい。' },
+      { author: 'S.N', rating: 5, date: '2週間前', text: '体験が0円だったので気軽に行けました。マシンピラティスが初めてでしたが、丁寧に教えてもらえて安心。コスパが非常に良いです。' },
+    ],
+    price: '1回 2,200円〜',
+    trial: '体験レッスン 0円',
+    features: ['女性専用', 'マシンピラティス', '体験0円', '1回2,200円〜'],
+    description: '女性専用のマシンピラティススタジオ。体験レッスン0円で気軽にスタートでき、1回2,200円〜というリーズナブルな料金設定が魅力。西新駅近くの好アクセスで、女性が安心して通える環境。マシンピラティスを手頃な価格で始めたい方におすすめ。',
+    access: '福岡市地下鉄空港線「西新駅」徒歩圏内',
+    address: '福岡県福岡市早良区（西新エリア）',
+    popularPlan: { name: '都度払いプラン', description: '女性専用マシンピラティス。1回2,200円〜の都度払い。', price: '1回 2,200円〜（税込）' },
+    options: ['都度払い（1回 2,200円〜）', '月額プラン（お問い合わせ）', '体験レッスン 0円'],
+    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'コスパ重視'] },
+    basicInfo: { hours: '平日 10:00〜22:00 / 土日祝 10:00〜19:00', closed: '不定休', facilities: ['リフォーマー', 'ロッカー', 'パウダールーム', '女性専用'] },
+  },
+  {
+    name: 'zen place pilates',
+    image: '/images/pilates2.jpg',
     rating: 4.8,
-    price: '月4回 12,980円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['女性専用', '少人数制', '西新', 'マット&マシン'],
-    description: '女性専用・少人数制のアットホームなスタジオ。西新エリアに展開。マットピラティスとマシンピラティスの両方に対応。インストラクターとの距離が近く、丁寧な指導を受けられるのが魅力。初心者でも安心して通えます。',
-    access: '西新駅から徒歩7分',
-  },
-  {
-    name: 'BDC PILATES 西新',
-    image: '/images/pilates2.jpg',
-    rating: 4.7,
-    price: '1回 3,850円〜',
-    trial: '体験レッスン 2,200円',
-    features: ['ダンサー御用達', 'グループレッスン', '西新駅近', '本格的'],
-    description: 'ダンサー御用達の本格的なピラティススタジオ。西新駅から徒歩5分。ダンサーやアスリートも通う質の高いレッスンが特徴。身体の使い方を根本から学べる本格的なプログラムで、美しい姿勢と柔軟な身体を手に入れられます。',
-    access: '西新駅から徒歩5分',
-  },
-  {
-    name: 'Pilates Lab 西新',
-    image: '/images/pilates3.jpg',
-    rating: 4.9,
-    price: '月4回 14,300円〜',
-    trial: '体験レッスン 3,300円',
-    features: ['理学療法士監修', 'リハビリ対応', '西新駅近', 'プライベート'],
-    description: '理学療法士監修のピラティススタジオ。西新駅から徒歩3分。リハビリテーションの知識を活かした安全で効果的なレッスン。腰痛や肩こりなどの身体の不調改善にも対応。医学的根拠に基づいたトレーニングで健康的な身体づくりを実現。',
-    access: '西新駅から徒歩3分',
-  },
-  {
-    name: 'FLOW PILATES 西新',
-    image: '/images/pilates4.jpg',
-    rating: 4.6,
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['ヨガ×ピラティス', 'リラックス', '西新', '初心者歓迎'],
-    description: 'ヨガとピラティスの融合スタジオ。西新エリアに展開。心と身体の両方を整えるプログラムが人気。ヨガの呼吸法とピラティスのコアトレーニングを組み合わせた独自メソッドで、柔軟性と筋力を同時に向上させます。',
-    access: '西新駅から徒歩4分',
-  },
-  {
-    name: 'Body Make Studio Pilates+ 西新',
-    image: '/images/pilates2.jpg',
-    rating: 4.7,
-    price: '月4回 14,850円〜',
-    trial: '体験レッスン 1,500円',
-    features: ['ボディメイク特化', 'マシン完備', '西新駅近', 'パーソナル'],
-    description: 'ボディメイク特化型のピラティススタジオ。西新駅から徒歩4分。ダイエットや引き締めに特化したプログラムが充実。最新マシンとパーソナルトレーニングで、短期間での理想のボディラインを目指せます。',
-    access: '西新駅から徒歩4分',
-  },
-  {
-    name: 'Pilates Studio Harmony 西新',
-    image: '/images/pilates3.jpg',
-    rating: 4.8,
-    price: '月4回 12,100円〜',
-    trial: '体験レッスン 無料',
-    features: ['アットホーム', '少人数制', '西新', 'マット中心'],
-    description: 'アットホームな雰囲気の少人数制スタジオ。西新エリアに展開。マットピラティスを中心に、初心者でも無理なく始められるプログラムを提供。インストラクターとの距離が近く、質問しやすい環境が魅力です。',
-    access: '西新駅から徒歩8分',
-  },
-  {
-    name: 'Pilates & Wellness 西新',
-    image: '/images/pilates4.jpg',
-    rating: 4.6,
-    price: '月4回 13,750円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['ウェルネス', 'マインドフルネス', '西新駅近', '女性専用'],
-    description: 'ウェルネス志向のピラティススタジオ。西新駅から徒歩5分。ピラティスにマインドフルネスを取り入れた独自プログラム。ミナミの中心・西新で、ストレス解消や心身のバランスを整えられます。女性専用で安心。',
-    access: '西新駅から徒歩5分',
+    price: 'マットグループ 月4回 9,625円〜',
+    trial: '体験レッスン 500円〜',
+    features: ['マット&マシン', '全国展開', '男性OK', '福岡エリアで利用可能'],
+    description: '全国100店舗以上展開の大手ピラティススタジオ。福岡エリアでも利用可能。マットグループ、マシングループ、プライベートレッスンの3種類から選べ、初心者から上級者まで対応。全店舗相互利用可能なので、出張先や旅行先でも通えるのが強み。',
+    access: '福岡エリアで利用可能（西新駅周辺から通いやすい店舗あり）',
+    address: '福岡県福岡市（福岡エリア店舗）',
   },
 ]
 
 const faqs = [
-  {
-    question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！西新エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。経験豊富なインストラクターが基礎から丁寧に指導してくれるので、運動が苦手な方でも安心して始められますよ。',
-  },
-  {
-    question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。マットは場所を選ばず自宅でも続けやすいのが特徴です。',
-  },
-  {
-    question: '西新のピラティススタジオの料金相場は？',
-    answer: '西新エリアのピラティススタジオの料金相場は、月4回で12,000円〜16,000円程度。体験レッスンは無料〜3,000円が一般的です。プライベートレッスンは1回8,000円〜12,000円が相場となっています。',
-  },
-  {
-    question: 'どのくらいの頻度で通えばいいですか？',
-    answer: 'ピラティス初心者は週1-2回（月4-8回）がおすすめ。慣れてきたら週2-3回に増やすと効果を実感しやすくなります。大切なのは継続すること。無理のないペースで長く続けることが、理想の身体を手に入れる近道です。',
-  },
-  {
-    question: 'ピラティスで痩せますか？',
-    answer: 'はい、ピラティスはダイエット効果があります。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に。ただし即効性はないので、最低でも2-3ヶ月は継続することが大切。食事管理も並行するとより効果的です。',
-  },
-  {
-    question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内で確認してくださいね。',
-  },
-  {
-    question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。ピラティスは筋力強化、ヨガは心身のバランスを整えることが主な目的。どちらも素晴らしいエクササイズなので、目的に合わせて選びましょう。',
-  },
-  {
-    question: 'ピラティスで肩こりや腰痛は改善しますか？',
-    answer: 'はい、改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。デスクワークが多い方や立ち仕事の方にもおすすめです。',
-  },
-  {
-    question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: 'ピラティスで効果が表れだすのは「2ヶ月を過ぎた頃」から。これは人間の細胞が生まれ変わるサイクルがそのくらいだからです。すぐに変化が表れなくても心配せず、最低でも2ヶ月は継続するのがおすすめです。',
-  },
-  {
-    question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'それぞれ良さがあります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方におすすめ。グループは料金が安く、仲間と楽しく続けられるのが魅力。まずは体験で両方試してみるのがいいですよ。',
-  },
+  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！西新エリアのピラティススタジオは初心者歓迎のスタジオがほとんど。CLUB PILATESはレベル別クラス、ピラティススタジオ Liveは少人数制、Rintosullは体験0円で始めやすいです。' },
+  { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンは専用マシン（リフォーマーなど）を使ったトレーニング。マシンは負荷調整がしやすく初心者におすすめです。西新ではCLUB PILATESやRintosullでマシンピラティスが受けられます。' },
+  { question: '西新エリアの料金相場は？', answer: 'グループレッスン月4回で12,000円〜15,000円程度。Rintosullは1回2,200円〜の都度払いも可能。体験レッスンは無料〜500円が多いです。' },
+  { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。ピラティスは継続が大切です。' },
+  { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。最低2-3ヶ月は継続しましょう。' },
+  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。マットやタオルはスタジオでレンタルできることが多いです。' },
+  { question: 'ピラティスとヨガの違いは？', answer: 'ピラティスは体幹（コア）強化、ヨガは柔軟性とリラックスが中心。目的に合わせて選びましょう。' },
+  { question: '肩こりや腰痛は改善しますか？', answer: 'はい、姿勢改善で根本原因を解消できます。デスクワークの方にもおすすめ。' },
+  { question: 'どのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。継続が大切です。' },
+  { question: 'パーソナルとグループ、どちらがおすすめ？', answer: 'パーソナルは効果が出やすく、グループは安く楽しく続けられます。CLUB PILATESではどちらも選択可能です。' },
 ]
 
 export default function NishijinPage() {
   return (
     <>
       <Navigation />
-
       <main className="pt-20 bg-white">
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月04日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月09日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス西新おすすめ15選！<br className="hidden md:block" />
+              【2026最新】ピラティス西新おすすめ4選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -368,55 +132,26 @@ export default function NishijinPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates Navi編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「西新で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">Pilates Navi編集部です！</p>
+            <p className="text-warm-600 leading-relaxed mb-6">あなたは、</p>
+            <p className="text-warm-600 leading-relaxed font-medium mb-6">「西新でピラティスを始めてみたい」</p>
+            <p className="text-warm-600 leading-relaxed mb-6">「福岡市早良区で通いやすいスタジオを知りたい」</p>
+            <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、西新エリアでおすすめのピラティススタジオ15選をまとめました。
+              そこでこの記事では、福岡市地下鉄空港線「西新駅」周辺で通えるおすすめのピラティススタジオ4選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
               <ul className="space-y-2 text-warm-700">
-                <li className="flex items-start">
-                  <span className="text-warm-400 mr-2">✓</span>
-                  <span>西新でピラティススタジオを探している</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-warm-400 mr-2">✓</span>
-                  <span>マシンピラティスを体験してみたい</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-warm-400 mr-2">✓</span>
-                  <span>体験レッスンが安いスタジオを知りたい</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-warm-400 mr-2">✓</span>
-                  <span>道頓堀・心斎橋に近いスタジオがいい</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-warm-400 mr-2">✓</span>
-                  <span>料金プランを比較したい</span>
-                </li>
+                <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>西新・早良区でピラティススタジオを探している</span></li>
+                <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみたい</span></li>
+                <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>体験レッスンが無料・格安のスタジオを知りたい</span></li>
+                <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>西南学院大学の近くで通いやすいスタジオがいい</span></li>
+                <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較したい</span></li>
               </ul>
             </div>
-            <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
-            </p>
+            <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
           </div>
         </section>
 
@@ -424,7 +159,7 @@ export default function NishijinPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              西新のおすすめピラティススタジオ15選
+              西新のおすすめピラティススタジオ4選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (
@@ -442,44 +177,64 @@ export default function NishijinPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額12,000円以下で通える格安スタジオ。体験レッスン無料のスタジオも多数。コスパ重視の方におすすめ。
+                  リーズナブルな料金で通えるスタジオ。体験レッスン無料・0円のスタジオも。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Pilates Studio Harmony 西新</li>
-                  <li className="text-warm-700">• Reformer Pilates Nishijin</li>
-                  <li className="text-warm-700">• FLOW PILATES 西新</li>
+                  <li className="text-warm-700">• Rintosull 西新店（1回2,200円〜）</li>
+                  <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• ピラティススタジオ Live（月4回 12,000円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">マシン完備</h3>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">マシンピラティス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  最新のリフォーマーマシンを完備。マシンピラティスを本格的に学びたい方におすすめ。
+                  リフォーマーなど専用マシンを使った本格的なトレーニングができるスタジオ。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates 西新</li>
-                  <li className="text-warm-700">• WECLE 西新</li>
-                  <li className="text-warm-700">• the SILK 西新</li>
+                  <li className="text-warm-700">• CLUB PILATES 福岡西新店</li>
+                  <li className="text-warm-700">• Rintosull 西新店</li>
+                  <li className="text-warm-700">• zen place pilates</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・ミナミの中心</h3>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用・初心者向け</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  西新駅から徒歩3分以内。福岡タワー、シーサイドももちに近接し、ショッピングや食事も楽しめる。
+                  女性専用スタジオや初心者歓迎のスタジオ。周りを気にせず集中できる環境。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Urban Pilates 西新（駅徒歩1分）</li>
-                  <li className="text-warm-700">• the SILK 西新（駅徒歩2分）</li>
-                  <li className="text-warm-700">• zen place pilates 西新（駅徒歩3分）</li>
+                  <li className="text-warm-700">• Rintosull 西新店（女性専用）</li>
+                  <li className="text-warm-700">• ピラティススタジオ Live（少人数制）</li>
+                  <li className="text-warm-700">• CLUB PILATES（レベル別クラス）</li>
                 </ul>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Frequency Guide */}
+        {/* Area Info */}
         <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              西新エリアの特徴
+            </h2>
+            <div className="bg-white rounded-lg p-8 border border-warm-200">
+              <p className="text-warm-600 leading-relaxed mb-6">
+                西新は福岡市地下鉄空港線「西新駅」を中心とした、福岡市早良区の文教エリアです。西南学院大学に近く、学生や若い世代が多く住むエリアとして知られています。
+              </p>
+              <p className="text-warm-600 leading-relaxed mb-6">
+                商店街やカフェも充実しており、レッスン前後の買い物や食事も楽しめます。天神エリアへも地下鉄空港線で数分とアクセス良好。福岡タワーやシーサイドももち方面にも近く、海を感じられる開放的な環境も魅力です。
+              </p>
+              <p className="text-warm-600 leading-relaxed">
+                落ち着いた文教地区の雰囲気の中で、自分のペースでピラティスに取り組める環境が整っています。
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Frequency Guide */}
+        <section className="py-16 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
               おすすめの期間・頻度
@@ -491,7 +246,7 @@ export default function NishijinPage() {
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回（月8-12回）がおすすめ。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3-6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。
+                週2-3回（月8-12回）がおすすめ。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3-6ヶ月継続すると、周りからも変化に気づいてもらえるレベルになります。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理が目的の方</h3>
               <p className="text-warm-600 leading-relaxed">
@@ -502,45 +257,44 @@ export default function NishijinPage() {
         </section>
 
         {/* Price Guide */}
-        <section className="py-16 bg-white">
+        <section className="py-16 bg-warm-50">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
               予算別の料金相場
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜12,000円</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">都度払い</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。初心者向けの基本的なレッスンが多い。
+                  都度払いで気軽に通えるスタジオ。まずは試してみたい方に。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Pilates Studio Harmony</li>
-                  <li>• Reformer Pilates</li>
+                  <li>• Rintosull（1回 2,200円〜）</li>
+                  <li>• zen place（月4回 9,625円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 12,000〜16,000円</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 12,000〜15,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン完備の大手スタジオ。グループ・プライベート選択可。
+                  マシン完備のスタジオ。グループレッスン中心で通いやすい価格帯。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates</li>
-                  <li>• ピラティスK</li>
-                  <li>• the SILK</li>
+                  <li>• ピラティススタジオ Live</li>
+                  <li>• CLUB PILATES</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 30,000円〜</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 20,000円〜</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">通い放題</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  完全プライベートレッスン。短期集中で結果を出したい方向け。
+                  しっかり通いたい方向け。短期集中で結果を出したい方にも。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• B-line（1回8,800円）</li>
-                  <li>• Pilates Lab</li>
+                  <li>• CLUB PILATES（通い放題）</li>
+                  <li>• zen place（月6回〜）</li>
                 </ul>
               </div>
             </div>
@@ -548,7 +302,7 @@ export default function NishijinPage() {
         </section>
 
         {/* How to Choose */}
-        <section className="py-16 bg-warm-50">
+        <section className="py-16 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
               失敗しないピラティススタジオの選び方
@@ -560,7 +314,7 @@ export default function NishijinPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  まずは自分がピラティスで何を達成したいのかを明確にしましょう。ダイエット、姿勢改善、体幹強化、リラックスなど、目的によって最適なスタジオやプログラムは変わります。目的が明確だとスタジオ選びもスムーズになりますよ。
+                  まずは自分がピラティスで何を達成したいのかを明確にしましょう。ダイエット、姿勢改善、体幹強化、リラックスなど、目的によって最適なスタジオやプログラムは変わります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -569,7 +323,7 @@ export default function NishijinPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  西新エリアの料金相場は月4回で12,000円〜16,000円程度。無理なく継続できる予算を決めましょう。料金だけでなく、入会金、マット・ウェアのレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  西新エリアの料金相場は月4回で12,000円〜15,000円程度。Rintosullのように1回2,200円〜の都度払いもあります。無理なく継続できる予算を決めましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -578,7 +332,7 @@ export default function NishijinPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。多くのスタジオが無料〜1,000円程度で体験レッスンを提供しているので、気軽に試してみてくださいね。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。CLUB PILATESとRintosullは無料体験を実施中。実際にスタジオの雰囲気やインストラクターとの相性を確認してみてください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -587,7 +341,7 @@ export default function NishijinPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  どんなに良いスタジオでも、通いにくい場所にあると続きません。西新はミナミの中心で、地下鉄空港線、若年層・ファミリー層多いが利用可能。学生街です。駅から近い場所を選ぶと、道頓堀・心斎橋でのショッピングや食事ついでにも通えて便利ですよ。
+                  どんなに良いスタジオでも通いにくいと続きません。西新は福岡市地下鉄空港線でアクセスしやすく、天神エリアへも数分。西南学院大学に近い文教エリアなので、学校帰りや仕事帰りにも通いやすい環境です。
                 </p>
               </div>
             </div>
@@ -595,7 +349,7 @@ export default function NishijinPage() {
         </section>
 
         {/* FAQ */}
-        <section className="py-16 bg-white">
+        <section className="py-16 bg-warm-50">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
               よくある質問
@@ -621,19 +375,22 @@ export default function NishijinPage() {
         </section>
 
         {/* Summary */}
-        <section className="py-16 bg-warm-50">
+        <section className="py-16 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は西新のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              今回は西新エリアのおすすめピラティススタジオ4選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では西新に数多くあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              世界最大級チェーンのCLUB PILATES、最短30分の少人数制ピラティススタジオ Live、女性専用で1回2,200円〜のRintosull、全国展開のzen place pilatesと、それぞれ特徴が異なるスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              西新は福岡市早良区の文教エリアで、西南学院大学にも近く落ち着いた環境。地下鉄空港線でアクセスも良好です。
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              ぜひこの記事を参考に、自分に合うピラティススタジオを見つけてくださいね。
             </p>
             <p className="text-warm-700 font-medium text-center">
               あなたにぴったりのピラティススタジオが見つかることを願っています。
@@ -648,11 +405,11 @@ export default function NishijinPage() {
               体験レッスンを予約しよう
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜1,000円。<br />
+              初回限定の体験レッスン無料〜500円。<br />
               まずは気軽に体験してみましょう。
             </p>
-            <Link 
-              href="/#studios" 
+            <Link
+              href="/#studios"
               className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded"
             >
               おすすめスタジオ一覧に戻る
