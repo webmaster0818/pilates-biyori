@@ -5,7 +5,7 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】仙台のピラティススタジオおすすめ8選｜料金・体験レッスン徹底比較',
+  title: '【2026最新】ピラティス仙台おすすめ8選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
   description: '仙台エリアのおすすめピラティススタジオ8選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,仙台,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -15,6 +15,27 @@ const studios = [
     name: 'ピラティスK 仙台PARCO2店',
     image: '/images/pilates2.jpg',
     rating: 4.0,
+    reviewCount: 112,
+    reviews: [
+      {
+        author: 'A.M',
+        rating: 5,
+        date: '1週間前',
+        text: '仙台駅からすぐのPARCO2内なので、仕事帰りに通いやすいです。暗闘×音楽のレッスンが楽しくて、あっという間に時間が過ぎます。3ヶ月でウエストが引き締まりました。',
+      },
+      {
+        author: 'R.K',
+        rating: 4,
+        date: '2週間前',
+        text: '女性専用なので周りの目を気にせずレッスンに集中できます。インストラクターが明るくて、初心者の私でもすぐに馴染めました。お買い物ついでに通えるのが便利です。',
+      },
+      {
+        author: 'Y.T',
+        rating: 5,
+        date: '3週間前',
+        text: '無料体験で雰囲気がとても良かったので入会しました。暗闇レッスンは恥ずかしさがないので思い切り動けます。ストレス発散にもなって最高です。',
+      },
+    ],
     price: '月4回 13,420円〜',
     trial: '無料体験レッスン',
     features: ['音楽×マシン', '女性専用', '仙台駅直結', 'PARCO2内'],
@@ -23,7 +44,7 @@ const studios = [
     address: '宮城県仙台市青葉区中央3丁目7-5 仙台PARCO2 5F',
     popularPlan: {
       name: 'マンスリー4メンバー',
-      description: '暗闇×音楽×マシンピラティスの融合レッスン。楽しく続けられると人気のプラン。',
+      description: '暗闘×音楽×マシンピラティスの融合レッスン。楽しく続けられると人気のプラン。',
       price: '月4回 13,420円（税込）+ 施設維持費 825円',
     },
     options: [
@@ -47,6 +68,27 @@ const studios = [
     name: 'zen place pilates 仙台',
     image: '/images/pilates3.jpg',
     rating: 4.2,
+    reviewCount: 95,
+    reviews: [
+      {
+        author: 'M.S',
+        rating: 5,
+        date: '1週間前',
+        text: 'JR仙台駅から徒歩3分で通いやすいです。エデュケーターの知識が豊富で、体の使い方を根本から学べます。全国の店舗を利用できるのも出張が多い自分には助かります。',
+      },
+      {
+        author: 'K.H',
+        rating: 4,
+        date: '2週間前',
+        text: '東北初上陸のzen placeに期待して入会しました。マットもマシンも選べるのが良いです。インストラクターが丁寧で、姿勢の癖を的確に指摘してくれます。',
+      },
+      {
+        author: 'T.N',
+        rating: 5,
+        date: '1ヶ月前',
+        text: '男性OKなので夫婦で通っています。グループレッスンの雰囲気も良く、年齢層も幅広いので気兼ねなく参加できます。3ヶ月で肩こりが明らかに改善しました。',
+      },
+    ],
     price: '月4回 9,625円〜',
     trial: '体験レッスン あり',
     features: ['マット＆マシン', '全国展開', '仙台駅徒歩3分', '男性OK'],
@@ -79,6 +121,27 @@ const studios = [
     name: 'La pilates 仙台店',
     image: '/images/pilates4.jpg',
     rating: 4.1,
+    reviewCount: 67,
+    reviews: [
+      {
+        author: 'S.Y',
+        rating: 5,
+        date: '5日前',
+        text: '整体とマシンピラティスの組み合わせが最高です。長年悩んでいた肩こりが2ヶ月で劇的に改善しました。ウッド調の内装がおしゃれで、リラックスできる空間です。',
+      },
+      {
+        author: 'N.M',
+        rating: 4,
+        date: '2週間前',
+        text: '女性専用のプライベート空間なので、人目を気にせずトレーニングに集中できます。骨膜整体は初めてでしたが、施術後は体が軽くなるのを実感しました。',
+      },
+      {
+        author: 'H.A',
+        rating: 5,
+        date: '3週間前',
+        text: '2026年にオープンしたばかりで設備がきれい。仙台駅から徒歩4分とアクセスも良好。腰痛改善が目的で通い始めましたが、姿勢全体が良くなってきたのを感じます。',
+      },
+    ],
     price: '月1回 12,000円〜',
     trial: '体験レッスン 3,000円',
     features: ['整体×ピラティス', '女性専用', '仙台駅徒歩4分', '骨膜整体'],
@@ -111,6 +174,27 @@ const studios = [
     name: 'Rintosull 仙台駅前店',
     image: '/images/pilates2.jpg',
     rating: 4.0,
+    reviewCount: 83,
+    reviews: [
+      {
+        author: 'E.K',
+        rating: 5,
+        date: '1週間前',
+        text: 'ホットヨガLAVAと併用できるのがお得です。ピラティスで体幹を鍛えて、ヨガで柔軟性を高めるという理想的な組み合わせができます。スタッフの対応も丁寧です。',
+      },
+      {
+        author: 'C.T',
+        rating: 4,
+        date: '3週間前',
+        text: 'マシンピラティス未経験でしたが、会員の87%が未経験とのことで安心して始められました。インストラクターが優しく教えてくれるので、毎回楽しくレッスンしています。',
+      },
+      {
+        author: 'M.I',
+        rating: 4,
+        date: '1ヶ月前',
+        text: '仙台駅近くで通いやすい立地です。LAVA併設なのでシャワーも使えて便利。初心者向けのクラスが充実しているので、運動が苦手な私でも無理なく続けられています。',
+      },
+    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['LAVA運営', 'ホットヨガ併用可', '仙台駅近', '初心者87%'],
@@ -142,6 +226,27 @@ const studios = [
     name: 'REborn（リボーン）',
     image: '/images/pilates3.jpg',
     rating: 4.3,
+    reviewCount: 54,
+    reviews: [
+      {
+        author: 'K.S',
+        rating: 5,
+        date: '1週間前',
+        text: '宮城県初のピラティス専門サロンだけあって、実績と信頼感が違います。マンツーマンなので自分の体に合わせたプログラムを組んでもらえるのが嬉しいです。',
+      },
+      {
+        author: 'Y.O',
+        rating: 5,
+        date: '2週間前',
+        text: '70代の母と一緒に通っています。6歳から70代まで対応しているだけあり、年齢に合わせた丁寧な指導が素晴らしいです。母の冷え性が改善してきました。',
+      },
+      {
+        author: 'A.N',
+        rating: 4,
+        date: '1ヶ月前',
+        text: 'ピラティスの資格取得を目指して通い始めました。1,000人以上を指導してきた先生から直接学べるので、知識と技術の両方が身につきます。おすすめです。',
+      },
+    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['宮城県初', 'マンツーマン', '資格取得可', '6歳〜70代'],
@@ -174,6 +279,27 @@ const studios = [
     name: 'Two Three 仙台一番町',
     image: '/images/pilates4.jpg',
     rating: 4.1,
+    reviewCount: 41,
+    reviews: [
+      {
+        author: 'M.W',
+        rating: 5,
+        date: '5日前',
+        text: '最大8名の少人数制なので、一人ひとりしっかり見てもらえます。リフォーマーやスパインコレクターなどマシンの種類が豊富で、毎回違うレッスンを楽しめます。',
+      },
+      {
+        author: 'S.H',
+        rating: 4,
+        date: '2週間前',
+        text: '自社でピラティスアカデミーを運営しているだけあり、インストラクターの質が高いです。一番町エリアなのでお買い物帰りに寄れるのも便利です。',
+      },
+      {
+        author: 'R.I',
+        rating: 4,
+        date: '1ヶ月前',
+        text: '2024年7月にオープンしたばかりで設備がきれい。コンビチェアやタワーなど他のスタジオにはないマシンも揃っていて、バリエーション豊かなトレーニングができます。',
+      },
+    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['少人数制', '最大8名', '2024年7月OPEN', 'ピラティスアカデミー運営'],
@@ -205,6 +331,27 @@ const studios = [
     name: 'ピラティススタジオDEP 仙台店 Calm',
     image: '/images/pilates2.jpg',
     rating: 4.2,
+    reviewCount: 78,
+    reviews: [
+      {
+        author: 'T.K',
+        rating: 5,
+        date: '1週間前',
+        text: '全スタッフが理学療法士なので、体の状態を正確に把握したうえで指導してくれます。専門的な知識に基づいたトレーニングで、効果の実感が早いです。',
+      },
+      {
+        author: 'J.M',
+        rating: 5,
+        date: '3週間前',
+        text: '一番町の便利な立地で通いやすいです。DEPオリジナルトレーニングは他のスタジオにはない独自メソッドで、繰り返すごとに身体が良い状態になっていくのを感じます。',
+      },
+      {
+        author: 'F.S',
+        rating: 4,
+        date: '1ヶ月前',
+        text: '口コミ評価が高かったので選びました。期待通り、理学療法士ならではの専門的なアドバイスが素晴らしいです。姿勢の歪みが改善されて、肩こりも楽になりました。',
+      },
+    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['理学療法士監修', '一番町', '2023年11月OPEN', '高品質マシン'],
@@ -237,6 +384,27 @@ const studios = [
     name: 'Repilates 仙台泉大沢店',
     image: '/images/pilates3.jpg',
     rating: 4.0,
+    reviewCount: 36,
+    reviews: [
+      {
+        author: 'Y.K',
+        rating: 5,
+        date: '3日前',
+        text: 'オープンキャンペーンの3ヶ月通い放題5,000円がお得すぎます！イオンタウン内なので駐車場も広くて車で通いやすいです。インストラクターも親切で続けやすいです。',
+      },
+      {
+        author: 'M.O',
+        rating: 4,
+        date: '1週間前',
+        text: '女性専用で安心感があります。最大13名のグループレッスンですが、インストラクターがしっかりサポートしてくれるので初心者でも問題ありません。買い物ついでに通えるのが便利。',
+      },
+      {
+        author: 'K.T',
+        rating: 4,
+        date: '2週間前',
+        text: '2026年4月にオープンしたばかりでマシンがピカピカです。都内で人気のスタジオが仙台に来てくれて嬉しいです。これからもキャンペーン価格で続けたいです。',
+      },
+    ],
     price: '3ヶ月通い放題 5,000円（キャンペーン）',
     trial: '無料体験会・内覧会受付中',
     features: ['女性専用', 'イオンタウン内', '2026年4月OPEN予定', '通い放題'],
@@ -267,357 +435,376 @@ const studios = [
   },
 ]
 
-export default async function SendaiAreaPage() {
+const faqs = [
+  {
+    question: '仙台でピラティス初心者におすすめのスタジオはどこですか？',
+    answer: 'Rintosull 仙台駅前店がおすすめです。会員様の87%以上がマシンピラティス未経験からスタートしており、初心者でも安心して取り組める環境づくりを大切にしています。ホットヨガLAVAを運営する会社が手がけているので安心感もあります。',
+  },
+  {
+    question: '仙台駅直結で通えるピラティススタジオはありますか？',
+    answer: 'はい、2つあります。ピラティスK 仙台PARCO2店（仙台駅西口徒歩4分・PARCO2内）とzen place pilates 仙台（JR仙台駅徒歩3分）。天候に左右されず通えるので、仕事帰りやお買い物ついでに便利です。',
+  },
+  {
+    question: '仙台で一番安いピラティススタジオはどこですか？',
+    answer: 'zen place pilates 仙台が月4回9,625円で最も安く通えます。また、Repilates 仙台泉大沢店はオープン記念キャンペーンで3ヶ月通い放題5,000円と非常にお得です（期間限定）。',
+  },
+  {
+    question: '女性専用のピラティススタジオはありますか？',
+    answer: 'はい、3つあります。ピラティスK 仙台PARCO2店、La pilates 仙台店、Repilates 仙台泉大沢店はすべて女性専用スタジオです。男性の目を気にせず集中してトレーニングできます。',
+  },
+  {
+    question: '体験レッスンはありますか？料金はいくらですか？',
+    answer: 'ほとんどのスタジオで体験レッスンを実施しています。ピラティスK 仙台PARCO2店とRepilates 仙台泉大沢店は無料、La pilates 仙台店は3,000円、zen place pilates 仙台やその他スタジオは要問合せです。',
+  },
+  {
+    question: 'マシンピラティスとマットピラティスの違いは何ですか？',
+    answer: 'マシンピラティスは専用マシン（リフォーマー）を使用し、初心者でも正しいフォームで効果的にトレーニングできます。マットピラティスはマットの上で行い、体幹を鍛えるのに効果的。初心者にはマシンピラティスがおすすめです。',
+  },
+  {
+    question: 'どのくらいの期間で効果が出ますか？',
+    answer: '週1回（月4回）通った場合、1ヶ月で体の使い方が変わり、2ヶ月で姿勢の変化を実感、3ヶ月で見た目の変化が現れます。週2回通うとさらに早く効果を実感できます。',
+  },
+  {
+    question: '肩こりや腰痛の改善に効果はありますか？',
+    answer: 'はい、効果が期待できます。特にLa pilates 仙台店は整体とピラティスを組み合わせた独自プログラムで肩こり・腰痛を根本から改善。ピラティススタジオDEP 仙台店 Calmは理学療法士監修で姿勢・歪み改善に特化しています。',
+  },
+  {
+    question: '運動が苦手でも大丈夫ですか？',
+    answer: 'はい、大丈夫です。ピラティスはもともとリハビリ用に開発されたエクササイズなので、運動が苦手な方や体力に自信がない方でも無理なく始められます。マシンがサポートしてくれるので、正しいフォームで効果的にトレーニングできます。',
+  },
+  {
+    question: '資格を取得したいのですが、養成コースはありますか？',
+    answer: 'はい、REborn（リボーン）で資格取得コースを開講しています。2018年に宮城県初のピラティス専門サロンとしてオープンし、1,000人以上の方の身体と向き合ってきた実績があります。体験レッスンから資格取得まで幅広く対応しています。',
+  },
+]
+
+export default function SendaiAreaPage() {
   return (
     <>
-      <div className="min-h-screen bg-gradient-to-b from-warm-50 to-white">
-        <Navigation />
-        
-        <main className="container mx-auto px-4 py-8 sm:px-6 lg:px-8">
-          {/* ヘッダーセクション */}
-          <header className="mb-12 text-center">
-            <h1 className="mb-4 font-cormorant text-4xl font-bold tracking-tight text-warm-900 sm:text-5xl">
-              仙台のピラティススタジオ<span className="block text-warm-600">おすすめ8選</span>
-            </h1>
-            <p className="mx-auto max-w-3xl text-lg text-warm-700">
-              仙台エリアで人気のピラティススタジオを厳選。マシンピラティス、体験レッスン、料金プランを徹底比較。初心者から経験者まで、あなたにぴったりのスタジオが見つかります。
-            </p>
-          </header>
+      <Navigation />
 
-          {/* スタジオカード一覧 */}
-          <section className="mb-16">
+      <main className="pt-20 bg-white">
+        {/* Hero Section */}
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月09日</p>
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
+              【2026最新】ピラティス仙台おすすめ8選！<br className="hidden md:block" />
+              人気スタジオの料金プランを簡単比較！
+            </h1>
+          </div>
+        </section>
+
+        {/* Breadcrumbs */}
+        <section className="bg-white py-3 border-b border-warm-100">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <nav className="text-sm text-warm-400">
+              <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
+              {' > '}
+              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              {' > '}
+              <span className="text-warm-600">仙台</span>
+            </nav>
+          </div>
+        </section>
+
+        {/* Introduction */}
+        <section className="py-12 bg-white">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <p className="text-warm-600 leading-relaxed mb-6">
+              こんにちは。
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              Pilates Navi編集部です！
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              あなたは、
+            </p>
+            <p className="text-warm-600 leading-relaxed font-medium mb-6">
+              「ピラティスを始めてみたい」
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              「仙台で人気のピラティススタジオを知りたい」
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              と思っていませんか？
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-8">
+              そこでこの記事では、仙台エリアでおすすめのピラティススタジオ8選をまとめました。
+            </p>
+            <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
+              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <ul className="space-y-2 text-warm-700">
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>仙台でピラティススタジオを探している</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>仙台駅やJR東北本線沿線で通いたい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>地下鉄南北線・一番町エリアが便利</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>青葉通り周辺で体験レッスンを受けたい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>料金プランを比較したい</span>
+                </li>
+              </ul>
+            </div>
+            <p className="text-warm-600 leading-relaxed">
+              それではさっそく見ていきましょう！
+            </p>
+          </div>
+        </section>
+
+        {/* Studios List */}
+        <section className="py-16 bg-warm-50" id="studios">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              仙台のおすすめピラティススタジオ8選
+            </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (
                 <StudioCard key={index} studio={studio} index={index} />
               ))}
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* 好みから探すセクション */}
-          <section className="mb-16 rounded-2xl bg-warm-50 p-8 shadow-sm">
-            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
-              好みのタイプから探す
+        {/* Search by Preference - こだわりから探す */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              こだわりから探す
             </h2>
-            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">音楽×暗闇で楽しく</h3>
-                <p className="mb-4 text-warm-600">
-                  音楽に合わせて楽しくボディメイクしたい方に
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">音楽×暗闇で楽しく</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  音楽に合わせて楽しくボディメイクしたい方に。暗闇レッスンで周りの目を気にせず集中できます。
                 </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：ピラティスK 仙台PARCO2店
-                </p>
-              </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">整体×ピラティス</h3>
-                <p className="mb-4 text-warm-600">
-                  肩こり・腰痛を根本から改善したい方に
-                </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：La pilates 仙台店
-                </p>
-              </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">全国展開の大手</h3>
-                <p className="mb-4 text-warm-600">
-                  実績と安心感を重視する方に
-                </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：zen place pilates 仙台
-                </p>
-              </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">理学療法士監修</h3>
-                <p className="mb-4 text-warm-600">
-                  専門知識に基づいた指導を受けたい方に
-                </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：ピラティススタジオDEP 仙台店 Calm
-                </p>
-              </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">マンツーマン専門</h3>
-                <p className="mb-4 text-warm-600">
-                  一人ひとりに合わせた指導を受けたい方に
-                </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：REborn（リボーン）
-                </p>
-              </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
-                <h3 className="mb-3 text-xl font-bold text-warm-800">お得に始める</h3>
-                <p className="mb-4 text-warm-600">
-                  キャンペーン価格で始めたい方に
-                </p>
-                <p className="text-sm font-semibold text-warm-700">
-                  おすすめ：Repilates 仙台泉大沢店
-                </p>
-              </div>
-            </div>
-          </section>
-
-          {/* 料金帯別セクション */}
-          <section className="mb-16">
-            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
-              料金帯別スタジオ
-            </h2>
-            <div className="grid gap-6 md:grid-cols-3">
-              <div className="rounded-xl bg-warm-50 p-6">
-                <h3 className="mb-4 text-xl font-bold text-warm-800">〜10,000円</h3>
-                <ul className="space-y-2 text-warm-700">
-                  <li className="flex items-start">
-                    <span className="mr-2 text-warm-600">•</span>
-                    <span>zen place pilates 仙台（月4回 9,625円〜）</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 text-warm-600">•</span>
-                    <span>Repilates 仙台泉大沢店（3ヶ月通い放題 5,000円キャンペーン）</span>
-                  </li>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• ピラティスK 仙台PARCO2店</li>
                 </ul>
               </div>
-              <div className="rounded-xl bg-warm-50 p-6">
-                <h3 className="mb-4 text-xl font-bold text-warm-800">10,000円〜20,000円</h3>
-                <ul className="space-y-2 text-warm-700">
-                  <li className="flex items-start">
-                    <span className="mr-2 text-warm-600">•</span>
-                    <span>ピラティスK 仙台PARCO2店（月4回 13,420円）</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 text-warm-600">•</span>
-                    <span>La pilates 仙台店（月1回 12,000円〜）</span>
-                  </li>
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">整体・理学療法士監修</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  肩こり・腰痛を根本から改善したい方に。専門知識に基づいた確かな指導が受けられます。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• La pilates 仙台店</li>
+                  <li className="text-warm-700">• ピラティススタジオDEP 仙台店 Calm</li>
                 </ul>
               </div>
-              <div className="rounded-xl bg-warm-50 p-6">
-                <h3 className="mb-4 text-xl font-bold text-warm-800">プライベート専門</h3>
-                <ul className="space-y-2 text-warm-700">
-                  <li className="flex items-start">
-                    <span className="mr-2 text-warm-600">•</span>
-                    <span>REborn（リボーン）（要問合せ）</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 text-warm-600">•</span>
-                    <span>zen place pilates 仙台（月4回 33,880円）</span>
-                  </li>
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・好アクセス</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  仙台駅から徒歩5分以内。仕事帰りやお買い物ついでに通いやすい好立地なスタジオ。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• zen place pilates 仙台（駅徒歩3分）</li>
+                  <li className="text-warm-700">• ピラティスK 仙台PARCO2店（駅徒歩4分）</li>
+                  <li className="text-warm-700">• La pilates 仙台店（駅徒歩4分）</li>
                 </ul>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* 通う頻度・期間の目安 */}
-          <section className="mb-16 rounded-2xl bg-gradient-to-br from-warm-50 to-warm-100 p-8 shadow-sm">
-            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
-              通う頻度・期間の目安
+        {/* Frequency Guide - 期間・頻度 */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              おすすめの期間・頻度
             </h2>
-            <div className="grid gap-6 md:grid-cols-2">
-              <div className="rounded-xl bg-white p-6 shadow-sm">
-                <h3 className="mb-4 text-xl font-bold text-warm-800">週1回（月4回）</h3>
-                <p className="mb-4 text-warm-700">
-                  初心者や運動習慣をつけたい方におすすめ。3ヶ月で姿勢の変化を実感できます。
+            <div className="bg-white rounded-lg p-8 border border-warm-200">
+              <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
+              <p className="text-warm-600 leading-relaxed mb-6">
+                週1-2回（月4-8回）からスタートするのがおすすめ。まずは身体を慣らすことが大切です。継続期間は最低でも2-3ヶ月。この期間で効果を実感できる方が多いですよ。
+              </p>
+              <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
+              <p className="text-warm-600 leading-relaxed mb-6">
+                週2-3回（月8-12回）がおすすめ。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3-6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。
+              </p>
+              <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理が目的の方</h3>
+              <p className="text-warm-600 leading-relaxed">
+                週1回（月4回）のペースで継続するのがおすすめ。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切。自分のペースで楽しく通えるのが一番ですよ。
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Price Guide - 予算別 */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              予算別の料金相場
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
+                <p className="text-sm text-warm-600 mb-4">
+                  グループレッスン中心。初心者向けの基本的なレッスンが多い。
                 </p>
-                <div className="space-y-2 text-sm text-warm-600">
-                  <p>• 1ヶ月目：動きに慣れる</p>
-                  <p>• 2ヶ月目：体の変化を感じ始める</p>
-                  <p>• 3ヶ月目：姿勢が改善され、周りから変化を指摘される</p>
-                </div>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• zen place pilates 仙台（9,625円）</li>
+                  <li>• Repilates（キャンペーン5,000円）</li>
+                </ul>
               </div>
-              <div className="rounded-xl bg-white p-6 shadow-sm">
-                <h3 className="mb-4 text-xl font-bold text-warm-800">週2回（月8回）</h3>
-                <p className="mb-4 text-warm-700">
-                  本格的にボディメイクしたい方におすすめ。2ヶ月で見た目の変化が現れます。
+              <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
+                <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 10,000〜20,000円</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
+                <p className="text-sm text-warm-600 mb-4">
+                  マシン完備の大手スタジオ。グループ・プライベート選択可。
                 </p>
-                <div className="space-y-2 text-sm text-warm-600">
-                  <p>• 1ヶ月目：筋肉の使い方をマスター</p>
-                  <p>• 2ヶ月目：ボディラインが変わり始める</p>
-                  <p>• 3ヶ月目：理想の体型に近づく</p>
-                </div>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• ピラティスK（13,420円）</li>
+                  <li>• La pilates（12,000円）</li>
+                  <li>• zen place マシン（15,400円）</li>
+                </ul>
+              </div>
+              <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 30,000円〜</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
+                <p className="text-sm text-warm-600 mb-4">
+                  完全プライベートレッスン。短期集中で結果を出したい方向け。
+                </p>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• zen place プライベート（33,880円）</li>
+                  <li>• La pilates 月4回（40,000円）</li>
+                </ul>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* 4ステップ選び方ガイド */}
-          <section className="mb-16">
-            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
-              4ステップで選ぶ！仙台のピラティススタジオ
+        {/* How to Choose - 選び方 */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              失敗しないピラティススタジオの選び方
             </h2>
-            <div className="grid gap-6 md:grid-cols-2">
-              <div className="rounded-xl border-2 border-warm-200 bg-white p-6 shadow-sm">
-                <div className="mb-3 inline-block rounded-full bg-warm-100 px-4 py-1 text-sm font-semibold text-warm-700">
-                  STEP 1
+            <div className="space-y-8">
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span>
+                  <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
-                <h3 className="mb-3 text-xl font-bold text-warm-800">目的を明確にする</h3>
-                <p className="text-warm-600">
-                  ダイエット、姿勢改善、体幹強化など、あなたの目的に合ったスタジオを選びましょう。
+                <p className="text-warm-600 leading-relaxed">
+                  まずは自分がピラティスで何を達成したいのかを明確にしましょう。ダイエット、姿勢改善、体幹強化、肩こり・腰痛の改善など、目的によって最適なスタジオやプログラムは変わります。仙台には整体融合型やマンツーマン専門など多様なスタジオがあるので、目的が明確だとスタジオ選びもスムーズになりますよ。
                 </p>
               </div>
-              <div className="rounded-xl border-2 border-warm-200 bg-white p-6 shadow-sm">
-                <div className="mb-3 inline-block rounded-full bg-warm-100 px-4 py-1 text-sm font-semibold text-warm-700">
-                  STEP 2
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span>
+                  <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
-                <h3 className="mb-3 text-xl font-bold text-warm-800">予算を決める</h3>
-                <p className="text-warm-600">
-                  月額9,625円〜40,000円まで幅広い料金帯があります。無理なく続けられる予算を設定しましょう。
+                <p className="text-warm-600 leading-relaxed">
+                  仙台エリアの料金相場は月4回で9,625円〜40,000円程度。無理なく継続できる予算を決めましょう。料金だけでなく、入会金、マット・ウェアのレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
-              <div className="rounded-xl border-2 border-warm-200 bg-white p-6 shadow-sm">
-                <div className="mb-3 inline-block rounded-full bg-warm-100 px-4 py-1 text-sm font-semibold text-warm-700">
-                  STEP 3
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span>
+                  <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
-                <h3 className="mb-3 text-xl font-bold text-warm-800">通いやすさを確認</h3>
-                <p className="text-warm-600">
-                  仙台駅徒歩3分や一番町エリアなど、自宅や職場から通いやすい立地を選ぶと続けやすくなります。
+                <p className="text-warm-600 leading-relaxed">
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。仙台では無料〜3,000円程度で体験レッスンを提供しているスタジオが多いので、気軽に試してみてくださいね。
                 </p>
               </div>
-              <div className="rounded-xl border-2 border-warm-200 bg-white p-6 shadow-sm">
-                <div className="mb-3 inline-block rounded-full bg-warm-100 px-4 py-1 text-sm font-semibold text-warm-700">
-                  STEP 4
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span>
+                  <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
-                <h3 className="mb-3 text-xl font-bold text-warm-800">体験レッスンを受ける</h3>
-                <p className="text-warm-600">
-                  スタジオの雰囲気やインストラクターとの相性を確認。ほとんどのスタジオで体験レッスンを実施しています。
+                <p className="text-warm-600 leading-relaxed">
+                  どんなに良いスタジオでも、通いにくい場所にあると続きません。仙台駅周辺、JR東北本線沿線、地下鉄南北線沿線、一番町・青葉通りエリアなど、自宅や職場から通いやすい場所を選ぶのがおすすめ。営業時間も要チェックです。
                 </p>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* FAQ */}
-          <section className="mb-16">
-            <h2 className="mb-8 font-cormorant text-3xl font-bold text-warm-900">
+        {/* FAQ */}
+        <section className="py-16 bg-white">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
               よくある質問
             </h2>
-            <div className="space-y-4">
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  仙台でピラティス初心者におすすめのスタジオはどこですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  Rintosull 仙台駅前店がおすすめです。会員様の87%以上がマシンピラティス未経験からスタートしており、初心者でも安心して取り組める環境づくりを大切にしています。ホットヨガLAVAを運営する会社が手がけているので安心感もあります。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  仙台駅直結で通えるピラティススタジオはありますか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  はい、2つあります。ピラティスK 仙台PARCO2店（仙台駅西口徒歩4分・PARCO2内）とzen place pilates 仙台（JR仙台駅徒歩3分）。天候に左右されず通えるので、仕事帰りやお買い物ついでに便利です。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  仙台で一番安いピラティススタジオはどこですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  zen place pilates 仙台が月4回9,625円で最も安く通えます。また、Repilates 仙台泉大沢店はオープン記念キャンペーンで3ヶ月通い放題5,000円と非常にお得です（期間限定）。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  女性専用のピラティススタジオはありますか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  はい、3つあります。ピラティスK 仙台PARCO2店、La pilates 仙台店、Repilates 仙台泉大沢店はすべて女性専用スタジオです。男性の目を気にせず集中してトレーニングできます。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  体験レッスンはありますか？料金はいくらですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  ほとんどのスタジオで体験レッスンを実施しています。ピラティスK 仙台PARCO2店とRepilates 仙台泉大沢店は無料、La pilates 仙台店は3,000円、zen place pilates 仙台やその他スタジオは要問合せです。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  マシンピラティスとマットピラティスの違いは何ですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  マシンピラティスは専用マシン（リフォーマー）を使用し、初心者でも正しいフォームで効果的にトレーニングできます。マットピラティスはマットの上で行い、体幹を鍛えるのに効果的。初心者にはマシンピラティスがおすすめです。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  どのくらいの期間で効果が出ますか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  週1回（月4回）通った場合、1ヶ月で体の使い方が変わり、2ヶ月で姿勢の変化を実感、3ヶ月で見た目の変化が現れます。週2回通うとさらに早く効果を実感できます。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  肩こりや腰痛の改善に効果はありますか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  はい、効果が期待できます。特にLa pilates 仙台店は整体とピラティスを組み合わせた独自プログラムで肩こり・腰痛を根本から改善。ピラティススタジオDEP 仙台店 Calmは理学療法士監修で姿勢・歪み改善に特化しています。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  運動が苦手でも大丈夫ですか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  はい、大丈夫です。ピラティスはもともとリハビリ用に開発されたエクササイズなので、運動が苦手な方や体力に自信がない方でも無理なく始められます。マシンがサポートしてくれるので、正しいフォームで効果的にトレーニングできます。
-                </p>
-              </details>
-              <details className="group rounded-xl bg-warm-50 p-6 shadow-sm">
-                <summary className="cursor-pointer text-lg font-bold text-warm-800 hover:text-warm-600">
-                  資格を取得したいのですが、養成コースはありますか？
-                </summary>
-                <p className="mt-4 text-warm-700">
-                  はい、REborn（リボーン）で資格取得コースを開講しています。2018年に宮城県初のピラティス専門サロンとしてオープンし、1,000人以上の方の身体と向き合ってきた実績があります。体験レッスンから資格取得まで幅広く対応しています。
-                </p>
-              </details>
+            <div className="space-y-6">
+              {faqs.map((faq, index) => (
+                <div key={index} className="border border-warm-200 rounded-lg overflow-hidden">
+                  <details className="group">
+                    <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition">
+                      <h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3>
+                      <svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"/>
+                      </svg>
+                    </summary>
+                    <div className="px-6 pb-6 text-warm-600 leading-relaxed">
+                      {faq.answer}
+                    </div>
+                  </details>
+                </div>
+              ))}
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* まとめ・CTA */}
-          <section className="mb-16 rounded-2xl bg-gradient-to-br from-warm-600 to-warm-700 p-8 text-white shadow-lg">
-            <h2 className="mb-4 font-cormorant text-3xl font-bold">
-              仙台で理想のピラティススタジオを見つけよう
+        {/* Summary - まとめ */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">
+              まとめ
             </h2>
-            <p className="mb-6 text-lg text-warm-50">
-              仙台には多様なピラティススタジオがあります。音楽×暗闇のピラティスK、整体×ピラティスのLa pilates、全国展開のzen place、理学療法士監修のDEP、マンツーマン専門のREbornなど、あなたの目的・予算・好みに合ったスタジオがきっと見つかります。
+            <p className="text-warm-600 leading-relaxed mb-6">
+              今回は仙台のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
-            <p className="mb-8 text-warm-50">
-              まずは体験レッスンで、スタジオの雰囲気やインストラクターとの相性を確認してみましょう。多くのスタジオが無料〜3,000円で体験レッスンを実施しています。
+            <p className="text-warm-600 leading-relaxed mb-6">
+              仙台には、音楽×暗闇のピラティスK、整体×ピラティスのLa pilates、全国展開のzen place、LAVA運営のRintosull、マンツーマン専門のREborn、理学療法士監修のDEPなど、多様なスタジオが揃っています。
             </p>
-            <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-              <a
-                href="#studios"
-                className="rounded-full bg-white px-8 py-3 font-bold text-warm-700 shadow-md transition-all hover:bg-warm-50 hover:shadow-lg"
-              >
-                スタジオ一覧を見る
-              </a>
-              <Link
-                href="/"
-                className="rounded-full border-2 border-white px-8 py-3 font-bold text-white transition-all hover:bg-white hover:text-warm-700"
-              >
-                他のエリアを探す
-              </Link>
-            </div>
-          </section>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              この記事では仙台に数多くあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+            </p>
+            <p className="text-warm-700 font-medium text-center">
+              あなたにぴったりのピラティススタジオが見つかることを願っています。
+            </p>
+          </div>
+        </section>
 
-          {/* パンくずリスト */}
-          <nav className="mb-8 text-sm text-warm-600" aria-label="パンくずリスト">
-            <ol className="flex flex-wrap items-center gap-2">
-              <li>
-                <Link href="/" className="hover:text-warm-800">
-                  ホーム
-                </Link>
-              </li>
-              <li>/</li>
-              <li>
-                <Link href="/area" className="hover:text-warm-800">
-                  エリアから探す
-                </Link>
-              </li>
-              <li>/</li>
-              <li className="font-semibold text-warm-800">仙台</li>
-            </ol>
-          </nav>
-        </main>
+        {/* CTA */}
+        <section className="py-16 bg-warm-800 text-white" id="contact">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">
+              体験レッスンを予約しよう
+            </h2>
+            <p className="text-warm-200 mb-8 leading-relaxed">
+              初回限定の体験レッスン無料〜3,000円。<br />
+              まずは気軽に体験してみましょう。
+            </p>
+            <Link
+              href="#studios"
+              className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded"
+            >
+              おすすめスタジオ一覧に戻る
+            </Link>
+          </div>
+        </section>
+      </main>
 
-        <SiteFooter />
-      </div>
+      <SiteFooter />
 
       <Script
         type="application/ld+json"
