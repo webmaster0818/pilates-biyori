@@ -5,14 +5,14 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】ピラティス天王寺おすすめ15選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
-  description: '天王寺エリアのおすすめピラティススタジオ15選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
-  keywords: 'ピラティス,天王寺,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
+  title: '【2026最新】ピラティス天王寺おすすめ12選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
+  description: '天王寺・阿倍野エリアのおすすめピラティススタジオ12選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  keywords: 'ピラティス,天王寺,阿倍野,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
 const studios = [
   {
-    name: 'zen place pilates 天王寺スタジオ',
+    name: 'zen place pilates 天王寺',
     image: '/images/pilates2.jpg',
     rating: 4.8,
     reviewCount: 198,
@@ -21,289 +21,268 @@ const studios = [
         author: 'M.Y',
         rating: 5,
         date: '2週間前',
-        text: '天王寺駅から徒歩3分で通いやすいです。キタ・ミナミに次ぐ大阪第3の繁華街で、JR・地下鉄・近鉄全て使えます。あべのハルカスや天王寺動物園も近くて便利です。',
+        text: '大阪阿部野橋駅から徒歩3分で通いやすいです。マットもマシンも両方受けられるのが魅力。インストラクターの質が高く、身体の使い方を丁寧に教えてくれます。',
       },
       {
         author: 'K.T',
         rating: 5,
         date: '1ヶ月前',
-        text: '少人数制なので丁寧に見てもらえます。マシンの種類も豊富で、自分のレベルに合わせて進められます。天王寺は文化施設も多く、美術館や動物園も楽しめます。',
+        text: 'リフォーマーグループレッスンが楽しい！少人数制なので丁寧に見てもらえます。男性もOKなので夫婦で通っています。天王寺公園の近くでレッスン後の散歩も気持ちいい。',
       },
       {
         author: 'A.H',
         rating: 4,
         date: '3週間前',
-        text: '全国展開しているので出張先でも通えます。天王寺は大阪の南の玄関口で、アクセスが良いです。',
+        text: '全国展開しているので出張先でも通えるのが便利。体験レッスンが1,000円とお手頃で始めやすかったです。',
       },
     ],
-    price: '月4回 13,200円〜',
+    price: '月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
-    features: ['マシン完備', '初心者歓迎', '天王寺駅徒歩3分', 'インストラクター養成'],
-    description: '全国展開の大手ピラティススタジオ。天王寺駅から徒歩3分の好立地。マットピラティスからマシンピラティスまで豊富なレッスンメニュー。キタ・ミナミに次ぐ大阪第3の繁華街・天王寺で、JR・地下鉄・近鉄の結節点。あべのハルカス、天王寺動物園・美術館などの文化施設も隣接。経験豊富なインストラクターが一人ひとりに合わせた丁寧な指導を提供します。',
-    access: '天王寺駅から徒歩3分',
-    address: '大阪府大阪市阿倍野区阿倍野筋1-5-1 あべのルシアス 7F',
+    features: ['マット&マシン', '男性OK', '大阪阿部野橋駅徒歩3分', '全国相互利用可'],
+    description: '全国130店舗以上を展開する大手ピラティススタジオ。天王寺スタジオは大阪阿部野橋駅出口2から徒歩3分、JR天王寺駅南口から徒歩5分の好立地。マットグループ、リフォーマーグループ、プライベートレッスンの3形態を用意。男性も利用可能で、経験豊富なインストラクターが一人ひとりに合わせた丁寧な指導を提供します。',
+    access: '大阪阿部野橋駅 出口2 徒歩3分 / JR天王寺駅 南口 徒歩5分',
+    address: '大阪府大阪市阿倍野区阿倍野筋1-3-15 阿倍野共同ビル6F',
     popularPlan: {
-      name: 'フリープラン（月4回）',
-      description: 'マット・マシンどちらも受講可能な人気プラン。大阪第3の拠点で通いやすい。',
-      price: '月4回 13,200円（税込）',
+      name: 'マットグループ フリープラン',
+      description: 'マットグループレッスン通い放題。全国のzen placeスタジオで相互利用も可能。',
+      price: '月額 14,960円（税込）',
     },
     options: [
-      'プライベートレッスン追加（1回 9,900円〜）',
-      'ウェアレンタル（月額 2,200円）',
-      'タオルレンタル（月額 1,100円）',
-      'インストラクター養成コース（別途）',
+      'プライベートレッスン（1回 9,900円〜）',
+      'リフォーマーグループ（1回 5,000円〜）',
+      'マットグループ月4回（10,450円/月）',
+      '全店舗相互利用可能',
     ],
     userProfile: {
-      ageRange: '20代〜40代が中心（全体の80%）',
-      genderRatio: '女性90% / 男性10%',
+      ageRange: '20代〜50代が中心（全体の80%）',
+      genderRatio: '女性85% / 男性15%',
       purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
     },
     basicInfo: {
-      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
+      hours: '平日 9:00〜22:00 / 土日祝 7:00〜16:00',
       closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'ウォーターサーバー'],
+      facilities: ['リフォーマー', 'マット', 'ロッカー', 'Wi-Fi'],
     },
   },
   {
-    name: 'WECLE 天王寺',
+    name: 'pilates K 天王寺店',
     image: '/images/pilates3.jpg',
     rating: 4.7,
-    reviewCount: 204,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: 'AI姿勢分析が面白い！自分の体の癖が数値で分かるので改善しやすいです。天王寺駅から近くて、道頓堀での食事ついでに通えます。',
-      },
-      {
-        author: 'A.H',
-        rating: 4,
-        date: '2週間前',
-        text: '女性専用なので気兼ねなく通えます。マシンが新しくて使いやすい。体験が500円なので気軽に始められました。',
-      },
-      {
-        author: 'M.M',
-        rating: 5,
-        date: '3週間前',
-        text: '科学的なアプローチで効果が実感できます。天王寺は大阪第3の繁華街で、ショッピングも楽しめます。',
-      },
-    ],
-    price: '月4回 14,800円〜',
-    trial: '体験レッスン 500円',
-    features: ['AI姿勢分析', '最新マシン', '天王寺駅近', '女性専用'],
-    description: 'AI姿勢分析を導入した最新型ピラティススタジオ。天王寺駅から徒歩4分。最新のマシンと科学的なアプローチで効果的なボディメイクを実現。女性専用なので安心して通えます。道頓堀、心斎橋が近く、レッスン後のショッピングや食事も楽しめます。',
-    access: '天王寺駅から徒歩4分',
-    address: '大阪府大阪市中央区天王寺千日前15-15 OCAT 8F',
-    popularPlan: {
-      name: 'スタンダード4（月4回）',
-      description: 'AI姿勢分析付き。最新マシンで効率的にボディメイク。女性専用で安心。',
-      price: '月4回 14,800円（税込）※AI分析無料',
-    },
-    options: [
-      'AI姿勢分析レポート（月1回無料、追加 1,100円）',
-      'パーソナルトレーニング（1回 11,000円〜）',
-      'ウェア・タオルセット（月額 2,750円）',
-      '栄養カウンセリング（月額 5,500円）',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心（全体の85%）',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'AI分析'],
-    },
-    basicInfo: {
-      hours: '平日 7:00〜22:00 / 土日祝 9:00〜20:00',
-      closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'AI姿勢分析システム', '女性専用'],
-    },
-  },
-  {
-    name: 'ピラティスK 天王寺',
-    image: '/images/pilates4.jpg',
-    rating: 4.6,
-    reviewCount: 186,
+    reviewCount: 215,
     reviews: [
       {
         author: 'T.W',
         rating: 5,
         date: '5日前',
-        text: '暗闇×音楽で楽しく続けられます！天王寺でリフレッシュできるのが嬉しい。無料体験があって始めやすかったです。',
+        text: '音楽に合わせてリフォーマーを使うグループレッスンが楽しい！きんえいアポロビルの中にあるので、天王寺でのショッピング帰りに通えます。',
       },
       {
         author: 'H.I',
         rating: 4,
         date: '1週間前',
-        text: '音楽に合わせて動くので飽きない。女性専用で周りを気にせず集中できます。インストラクターが明るくて楽しい雰囲気。',
+        text: '女性専用なので周りを気にせず集中できます。マンスリー4回で11,220円はこのエリアでは安い方。体験0円で始められたのも嬉しかった。',
       },
       {
         author: 'S.N',
         rating: 5,
         date: '2週間前',
-        text: 'グループレッスンですが丁寧に見てくれます。暗闇なので初心者でも恥ずかしくない。2ヶ月で体が引き締まってきました。',
+        text: 'インストラクターが明るくて雰囲気がいいです。あべのハルカス近くなのでレッスン後にカフェやショッピングも楽しめます。',
       },
     ],
-    price: '月4回 15,070円〜',
-    trial: '無料体験レッスン',
-    features: ['音楽×マシン', '女性専用', '暗闇レッスン', 'グループレッスン'],
-    description: '音楽に合わせて楽しくボディメイク。女性専用スタジオで安心。天王寺駅から徒歩5分。暗闇×音楽×マシンピラティスの融合レッスンが人気。周りの目を気にせず集中できる環境で、楽しみながら理想のボディラインを手に入れられます。',
-    access: '天王寺駅から徒歩5分',
-    address: '大阪府大阪市中央区天王寺5-1-60 天王寺スカイオ 5F',
+    price: 'マンスリー4 11,220円〜',
+    trial: '体験レッスン 0円',
+    features: ['女性専用', 'マシン専門', '体験0円', 'きんえいアポロビル'],
+    description: 'マシンピラティス専門の女性専用スタジオ。大阪メトロ天王寺駅14番出口から徒歩1分、きんえいアポロビル6階に位置。リフォーマーを使ったグループレッスンを音楽に合わせて楽しく行うスタイルが人気。体験レッスン0円で気軽に始められ、マンスリー4回11,220円からとコスパも優秀です。',
+    access: '大阪メトロ天王寺駅 14番出口 徒歩1分 / 近鉄阿倍野橋駅 徒歩4分',
+    address: '大阪府大阪市阿倍野区阿倍野筋1-5-31 きんえいアポロビル6F',
     popularPlan: {
       name: 'マンスリー4メンバー',
-      description: '暗闇×音楽×マシンピラティスの融合レッスン。楽しく続けられると人気のプラン。',
-      price: '月4回 15,070円（税込）',
+      description: '月4回のマシンピラティスグループレッスン。1回あたり約2,805円とお得。',
+      price: '月4回 11,220円（税込）',
     },
     options: [
-      '追加レッスンチケット（1回 4,400円）',
-      '通い放題プラン変更（月額 22,000円〜）',
-      'ウェア・タオルセット（月額 2,200円）',
-      'ドリンクサービス（月額 1,100円）',
+      'マンスリーフルメンバー（月額 15,070円）',
+      'マンスリーデイメンバー（月額 12,320円）',
+      '追加受講（1回 2,200円）',
+      '入会金 5,000円（キャンペーン時0円の場合あり）',
     ],
     userProfile: {
       ageRange: '20代〜30代が中心（全体の85%）',
       genderRatio: '女性100%（女性専用）',
-      purpose: ['楽しく痩せたい', 'ストレス発散', 'ボディメイク', '仲間と運動'],
+      purpose: ['ボディメイク', 'ダイエット', '楽しく運動', 'ストレス発散'],
     },
     basicInfo: {
-      hours: '平日 10:00〜22:00 / 土日祝 10:00〜20:00',
+      hours: '火・木 9:30〜22:00 / 月・水・金 10:00〜22:00 / 土・祝 9:30〜20:00 / 日 10:00〜19:00',
       closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', '暗闇スタジオ', '女性専用'],
+      facilities: ['リフォーマー', 'ロッカー', 'パウダールーム', '女性専用'],
     },
   },
   {
-    name: 'the SILK 天王寺',
+    name: 'Rintosull（リントスル）天王寺店',
+    image: '/images/pilates4.jpg',
+    rating: 4.6,
+    reviewCount: 172,
+    reviews: [
+      {
+        author: 'R.M',
+        rating: 5,
+        date: '1週間前',
+        text: 'LAVAが運営しているので安心感があります。大画面スクリーンを見ながらレッスンできるので分かりやすい。アベノセンタービルの中で天王寺駅から近いです。',
+      },
+      {
+        author: 'Y.K',
+        rating: 4,
+        date: '2週間前',
+        text: '30分のレッスンもあるので忙しい日でも通いやすいです。女性専用なのも嬉しいポイント。インストラクターのサポートが手厚い。',
+      },
+      {
+        author: 'N.S',
+        rating: 5,
+        date: '3週間前',
+        text: 'マシンピラティス初心者でしたが、映像とインストラクターのダブル指導で安心してレッスンを受けられました。天王寺公園の近くで通いやすい。',
+      },
+    ],
+    price: '月額 9,800円〜',
+    trial: '体験レッスン 150円',
+    features: ['LAVA運営', '女性専用', '大画面映像レッスン', '30分レッスンあり'],
+    description: 'ホットヨガスタジオLAVAが運営するマシンピラティス専門スタジオ。アベノセンタービル4階に位置し、JR天王寺駅中央改札口から徒歩3分。大画面スクリーンの映像とインストラクターによるダブル指導が特徴。30分からのレッスンがあり、忙しい方でも通いやすい女性専用スタジオです。',
+    access: 'JR天王寺駅 中央改札口 徒歩3分 / 大阪メトロ天王寺駅 14番出口 徒歩1分',
+    address: '大阪府大阪市阿倍野区阿倍野筋1-5-36 アベノセンタービル4F',
+    popularPlan: {
+      name: 'マンスリーメンバー・4',
+      description: '月4回のマシンピラティスレッスン。大画面映像とインストラクターのダブル指導。',
+      price: '月4回 9,800円（税込）',
+    },
+    options: [
+      'フルタイム通い放題（月額 16,800円）',
+      'デイタイム通い放題（月額 13,800円）',
+      'LAVA相互利用プラン（別途）',
+      '体験レッスン 150円',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心（全体の80%）',
+      genderRatio: '女性100%（女性専用）',
+      purpose: ['姿勢改善', 'ボディメイク', '運動初心者', '手軽にピラティス'],
+    },
+    basicInfo: {
+      hours: '平日 9:00〜22:00 / 土日祝 9:00〜19:00',
+      closed: '毎週日曜',
+      facilities: ['リフォーマー', '大画面スクリーン', 'ロッカー', '女性専用'],
+    },
+  },
+  {
+    name: 'La pilates 天王寺店',
     image: '/images/pilates2.jpg',
     rating: 4.8,
-    price: '月4回 15,070円〜',
-    trial: '体験レッスン 無料',
-    features: ['暗闇マシン', '音楽', '天王寺駅近', '女性専用'],
-    description: 'マシンピラティス特化型スタジオ。暗闇×音楽で没入感のあるレッスン。天王寺駅から徒歩2分の好アクセス。最新のリフォーマーマシンを完備し、音楽に合わせた独自プログラムで楽しくトレーニング。女性専用で初心者も安心。',
-    access: '天王寺駅から徒歩2分',
-  },
-  {
-    name: 'CLUB PILATES 天王寺',
-    image: '/images/pilates3.jpg',
-    rating: 4.7,
-    price: '月4回 14,190円〜',
-    trial: '体験レッスン 無料',
-    features: ['アメリカ発', 'グループ&プライベート', '天王寺駅近', '初心者歓迎'],
-    description: 'アメリカ発の世界最大級ピラティススタジオチェーン。天王寺駅から徒歩3分。グループレッスンからプライベートレッスンまで幅広く対応。全米No.1のピラティスメソッドで、初心者から上級者まで満足できるプログラムを提供。',
-    access: '天王寺駅から徒歩3分',
-  },
-  {
-    name: 'ピラティススタジオ B-line 天王寺',
-    image: '/images/pilates4.jpg',
-    rating: 4.9,
-    price: '1回 8,800円〜',
-    trial: '体験レッスン 5,500円',
-    features: ['完全プライベート', 'マシン完備', '天王寺駅近', 'オーダーメイド'],
-    description: '完全プライベートレッスン専門スタジオ。天王寺駅から徒歩4分。一人ひとりの目的・体力に合わせたオーダーメイドレッスン。経験豊富なインストラクターがマンツーマンで指導するので、短期間で効果を実感できます。',
-    access: '天王寺駅から徒歩4分',
-  },
-  {
-    name: 'Reformer Pilates Tennoji',
-    image: '/images/pilates2.jpg',
-    rating: 4.7,
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['リフォーマー専門', '少人数制', '天王寺', '初心者歓迎'],
-    description: 'リフォーマー専門のピラティススタジオ。天王寺エリアに展開。少人数制で丁寧な指導が魅力。最新のリフォーマーマシンを使用した効果的なトレーニングで、姿勢改善やボディメイクを実現します。',
-    access: '天王寺駅から徒歩5分',
-  },
-  {
-    name: 'Urban Pilates 天王寺',
-    image: '/images/pilates3.jpg',
-    rating: 4.6,
-    price: '月額 16,500円（通い放題）',
-    trial: '体験レッスン 無料',
-    features: ['24時間営業', '天王寺駅近', '通い放題', 'マシン完備'],
-    description: '24時間営業のピラティススタジオ。天王寺駅から徒歩1分の好立地。早朝・深夜でも利用可能なので、忙しい方にも最適。月額定額で通い放題プランあり。最新マシンを完備し、自分のペースでトレーニングできます。',
+    price: '月額 9,900円〜',
+    trial: '体験レッスン 3,000円',
+    features: ['整体×ピラティス', '女性専用', 'プライベート', '天王寺駅徒歩1分'],
+    description: '整体とマシンピラティスを融合させた女性専用プライベートスタジオ。天王寺駅から徒歩1分、悲田院町の安倍野橋ビル8階に位置。骨盤矯正セラピーとマシンピラティスを組み合わせた独自メソッドで、根本から身体を整えます。完全マンツーマン指導で一人ひとりに合わせたオーダーメイドレッスンを提供。',
     access: '天王寺駅から徒歩1分',
+    address: '大阪府大阪市天王寺区悲田院町9-20 安倍野橋ビル8F',
   },
   {
-    name: 'Pilates Studio M 天王寺',
+    name: 'Pilates Studio soRa',
+    image: '/images/pilates3.jpg',
+    rating: 4.7,
+    price: '1回 3,520円〜',
+    trial: '体験レッスン 2,500円',
+    features: ['STOTT認定', 'マット&マシン', '上本町駅徒歩5分', 'プライベートあり'],
+    description: 'STOTT PILATES認定インストラクターが指導するピラティススタジオ。大阪市天王寺区上本町に位置し、上本町駅から徒歩5分。プライベートレッスンとグループレッスンの両方に対応。マシンピラティスとマットピラティスを組み合わせた効果的なトレーニングが特徴です。',
+    access: '上本町駅から徒歩5分',
+    address: '大阪府大阪市天王寺区上本町7-4-25',
+  },
+  {
+    name: 'Pilates studio Sonare',
     image: '/images/pilates4.jpg',
     rating: 4.8,
-    price: '月4回 12,980円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['女性専用', '少人数制', '天王寺', 'マット&マシン'],
-    description: '女性専用・少人数制のアットホームなスタジオ。天王寺エリアに展開。マットピラティスとマシンピラティスの両方に対応。インストラクターとの距離が近く、丁寧な指導を受けられるのが魅力。初心者でも安心して通えます。',
-    access: '天王寺駅から徒歩7分',
+    price: '1回 9,350円〜',
+    trial: '体験レッスン あり',
+    features: ['完全プライベート', 'マシン完備', '桃谷駅徒歩5分', 'オーダーメイド'],
+    description: '完全プライベートレッスン専門のピラティススタジオ。JR桃谷駅から徒歩5分の生野区に位置。一人ひとりの身体の状態に合わせたオーダーメイドレッスンを提供。経験豊富なインストラクターがマンツーマンで指導し、姿勢改善や体幹強化に効果的です。',
+    access: 'JR桃谷駅から徒歩5分',
+    address: '大阪府大阪市生野区勝山北2-1-16',
   },
   {
-    name: 'BDC PILATES 天王寺',
+    name: 'fis.pilates 天王寺店',
     image: '/images/pilates2.jpg',
     rating: 4.7,
-    price: '1回 3,850円〜',
+    price: '月額 3,000円台〜（分割払い）',
+    trial: '体験レッスン 4,000円',
+    features: ['女性専用', '完全個室', '女性トレーナー', 'お子様連れOK'],
+    description: '女性専用マシンピラティス専門パーソナルスタジオ。完全個室で女性トレーナーによるマンツーマン指導が特徴。ウェア・靴下・タオル・ミネラルウォーター・プロテインが無料で用意されており、手ぶらで通えます。ベビーベッドやバウンサーも完備で、お子様連れのママにも人気です。',
+    access: '天王寺駅から徒歩5分',
+    address: '大阪府大阪市阿倍野区阿倍野筋1丁目',
+  },
+  {
+    name: 'ピラティスアヴニール 天王寺店',
+    image: '/images/pilates3.jpg',
+    rating: 4.6,
+    price: '都度払い・月額制あり',
+    trial: '体験レッスン あり',
+    features: ['完全個室', 'マンツーマン', 'あべのベルタ', '阿倍野駅徒歩1分'],
+    description: '完全個室でマンツーマンのマシンピラティスを提供するパーソナルスタジオ。あべのベルタ4階に位置し、地下鉄阿倍野駅から徒歩1分の好立地。都度払い・月額制・回数券制の3プランから選べ、朝7時から夜23時まで営業と通いやすさも抜群。顧客満足度の高い丁寧な指導が評判です。',
+    access: '地下鉄阿倍野駅 徒歩1分 / JR天王寺駅 徒歩5分',
+    address: '大阪府大阪市阿倍野区阿倍野筋3-10-1 あべのベルタ4F',
+  },
+  {
+    name: 'Hain pilates 天王寺店',
+    image: '/images/pilates4.jpg',
+    rating: 4.6,
+    price: '月4回プランあり',
     trial: '体験レッスン 2,200円',
-    features: ['ダンサー御用達', 'グループレッスン', '天王寺駅近', '本格的'],
-    description: 'ダンサー御用達の本格的なピラティススタジオ。天王寺駅から徒歩5分。ダンサーやアスリートも通う質の高いレッスンが特徴。身体の使い方を根本から学べる本格的なプログラムで、美しい姿勢と柔軟な身体を手に入れられます。',
-    access: '天王寺駅から徒歩5分',
-  },
-  {
-    name: 'Pilates Lab 天王寺',
-    image: '/images/pilates3.jpg',
-    rating: 4.9,
-    price: '月4回 14,300円〜',
-    trial: '体験レッスン 3,300円',
-    features: ['理学療法士監修', 'リハビリ対応', '天王寺駅近', 'プライベート'],
-    description: '理学療法士監修のピラティススタジオ。天王寺駅から徒歩3分。リハビリテーションの知識を活かした安全で効果的なレッスン。腰痛や肩こりなどの身体の不調改善にも対応。医学的根拠に基づいたトレーニングで健康的な身体づくりを実現。',
+    features: ['女性専用', '30分レッスン', '女性インストラクター', '天王寺駅徒歩3分'],
+    description: '女性専用のパーソナルマシンピラティススタジオ。天王寺駅から徒歩3分。女性インストラクターによるマンツーマン指導で、1回30分で完結する効率的なレッスンが特徴。短時間で効果を実感できるプログラムで、忙しい方にもおすすめです。',
     access: '天王寺駅から徒歩3分',
+    address: '大阪府大阪市天王寺区悲田院町8',
   },
   {
-    name: 'FLOW PILATES 天王寺',
-    image: '/images/pilates4.jpg',
-    rating: 4.6,
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['ヨガ×ピラティス', 'リラックス', '天王寺', '初心者歓迎'],
-    description: 'ヨガとピラティスの融合スタジオ。天王寺エリアに展開。心と身体の両方を整えるプログラムが人気。ヨガの呼吸法とピラティスのコアトレーニングを組み合わせた独自メソッドで、柔軟性と筋力を同時に向上させます。',
-    access: '天王寺駅から徒歩4分',
-  },
-  {
-    name: 'Body Make Studio Pilates+ 天王寺',
+    name: 'PILATES & PERSONAL GYM LAULE\'A',
     image: '/images/pilates2.jpg',
     rating: 4.7,
-    price: '月4回 14,850円〜',
-    trial: '体験レッスン 1,500円',
-    features: ['ボディメイク特化', 'マシン完備', '天王寺駅近', 'パーソナル'],
-    description: 'ボディメイク特化型のピラティススタジオ。天王寺駅から徒歩4分。ダイエットや引き締めに特化したプログラムが充実。最新マシンとパーソナルトレーニングで、短期間での理想のボディラインを目指せます。',
-    access: '天王寺駅から徒歩4分',
+    price: 'チケット制',
+    trial: '体験レッスン あり',
+    features: ['ピラティス×パーソナル', 'お子様連れOK', '阿倍野駅徒歩10秒', 'グループあり'],
+    description: 'ピラティスとパーソナルジムを融合させたスタジオ。谷町線阿倍野駅から徒歩10秒という驚異のアクセス。姿勢改善やダイエットに特化し、最大4名のグループレッスンとパーソナルレッスンの両方を提供。お子様連れOKで、子育て中のママにも通いやすいと好評です。',
+    access: '大阪メトロ谷町線 阿倍野駅 徒歩10秒 / 御堂筋線 天王寺駅 徒歩5分',
+    address: '大阪府大阪市阿倍野区阿倍野筋3-5-11 あべの恵寿ビル2F',
   },
   {
-    name: 'Pilates Studio Harmony 天王寺',
+    name: 'ピラティス・トトヤセ 天王寺店',
     image: '/images/pilates3.jpg',
     rating: 4.8,
-    price: '月4回 12,100円〜',
-    trial: '体験レッスン 無料',
-    features: ['アットホーム', '少人数制', '天王寺', 'マット中心'],
-    description: 'アットホームな雰囲気の少人数制スタジオ。天王寺エリアに展開。マットピラティスを中心に、初心者でも無理なく始められるプログラムを提供。インストラクターとの距離が近く、質問しやすい環境が魅力です。',
-    access: '天王寺駅から徒歩8分',
+    price: 'パーソナルプラン',
+    trial: '体験レッスン あり',
+    features: ['整体×ピラティス', '女性専用', '完全個室', '手ぶらOK'],
+    description: 'オーダーメイドの整体とマシンピラティスで身体を整える女性専用スタジオ。天王寺駅から徒歩3分の完全個室空間。シューズ不要、ウェアレンタルあり、お水飲み放題で手ぶら来店が可能。担当トレーナーが目標達成までマンツーマンで責任を持って指導します。',
+    access: '天王寺駅から徒歩3分',
+    address: '大阪府大阪市阿倍野区阿倍野筋1丁目',
   },
   {
-    name: 'Pilates & Wellness 天王寺',
+    name: 'Belluna Pilates',
     image: '/images/pilates4.jpg',
-    rating: 4.6,
-    price: '月4回 13,750円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['ウェルネス', 'マインドフルネス', '天王寺駅近', '女性専用'],
-    description: 'ウェルネス志向のピラティススタジオ。天王寺駅から徒歩5分。ピラティスにマインドフルネスを取り入れた独自プログラム。大阪第3の繁華街・天王寺で、ストレス解消や心身のバランスを整えられます。女性専用で安心。',
-    access: '天王寺駅から徒歩5分',
+    rating: 4.5,
+    price: '1回 2,000円〜',
+    trial: '体験レッスン あり',
+    features: ['リーズナブル', 'グループレッスン', '少人数制', '寺田町駅徒歩3分'],
+    description: '一人ひとりに合わせた丁寧な指導で、健康で豊かな生活をサポートするピラティススタジオ。天王寺スタジオは寺田町駅から徒歩3分。水曜・金曜の10:30からグループレッスンを開催。1回2,000円からとリーズナブルな価格設定が魅力で、気軽にピラティスを始めたい方におすすめです。',
+    access: '寺田町駅から徒歩3分',
+    address: '大阪府大阪市天王寺区',
   },
 ]
 
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！天王寺エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。経験豊富なインストラクターが基礎から丁寧に指導してくれるので、運動が苦手な方でも安心して始められますよ。',
+    answer: '大丈夫です！天王寺エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。pilates Kやリントスルなど映像付きのレッスンもあるので、動きが分かりやすく安心です。経験豊富なインストラクターが基礎から丁寧に指導してくれるので、運動が苦手な方でも安心して始められますよ。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。マットは場所を選ばず自宅でも続けやすいのが特徴です。',
+    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。マットは場所を選ばず自宅でも続けやすいのが特徴です。天王寺エリアではpilates Kやリントスルなどマシン専門スタジオが多く、zen placeは両方に対応しています。',
   },
   {
     question: '天王寺のピラティススタジオの料金相場は？',
-    answer: '天王寺エリアのピラティススタジオの料金相場は、月4回で12,000円〜16,000円程度。体験レッスンは無料〜3,000円が一般的です。プライベートレッスンは1回8,000円〜12,000円が相場となっています。',
+    answer: '天王寺エリアのピラティススタジオの料金相場は、月4回のグループレッスンで10,000円〜15,000円程度。pilates Kのマンスリー4が11,220円、リントスルが9,800円と比較的お手頃です。体験レッスンは無料〜4,000円が一般的。プライベートレッスンは1回7,000円〜12,000円が相場となっています。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -315,7 +294,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内で確認してくださいね。',
+    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。fis.pilatesやトトヤセではウェアレンタルがあるので手ぶらでも大丈夫です。詳細は各スタジオの体験レッスン案内で確認してくださいね。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
@@ -323,7 +302,7 @@ const faqs = [
   },
   {
     question: 'ピラティスで肩こりや腰痛は改善しますか？',
-    answer: 'はい、改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。デスクワークが多い方や立ち仕事の方にもおすすめです。',
+    answer: 'はい、改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。La pilatesやSonareなど整体×ピラティスのスタジオなら、より効果的にアプローチできます。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -331,7 +310,7 @@ const faqs = [
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'それぞれ良さがあります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方におすすめ。グループは料金が安く、仲間と楽しく続けられるのが魅力。まずは体験で両方試してみるのがいいですよ。',
+    answer: 'それぞれ良さがあります。パーソナルはLa pilatesやfis.pilatesのように一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方におすすめ。グループはpilates Kやリントスルのように料金が安く、仲間と楽しく続けられるのが魅力。まずは体験で両方試してみるのがいいですよ。',
   },
 ]
 
@@ -344,9 +323,9 @@ export default function TennojiPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月04日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月09日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス天王寺おすすめ15選！<br className="hidden md:block" />
+              【2026最新】ピラティス天王寺おすすめ12選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -381,20 +360,20 @@ export default function TennojiPage() {
               「ピラティスを始めてみたい」
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              「天王寺で人気のピラティススタジオを知りたい」
+              「天王寺・阿倍野で人気のピラティススタジオを知りたい」
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、天王寺エリアでおすすめのピラティススタジオ15選をまとめました。
+              そこでこの記事では、天王寺・阿倍野エリアでおすすめのピラティススタジオ12選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
-                  <span>天王寺でピラティススタジオを探している</span>
+                  <span>天王寺・阿倍野でピラティススタジオを探している</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -406,7 +385,7 @@ export default function TennojiPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
-                  <span>あべのハルカス・動物園に近いスタジオがいい</span>
+                  <span>JR天王寺駅・大阪メトロ御堂筋線・谷町線からアクセスの良いスタジオがいい</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -424,7 +403,7 @@ export default function TennojiPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              天王寺のおすすめピラティススタジオ15選
+              天王寺のおすすめピラティススタジオ12選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (
@@ -444,12 +423,12 @@ export default function TennojiPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額12,000円以下で通える格安スタジオ。体験レッスン無料のスタジオも多数。コスパ重視の方におすすめ。
+                  月額10,000円前後で通えるコスパの良いスタジオ。体験レッスン0円のスタジオもあり。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Pilates Studio Harmony 天王寺</li>
-                  <li className="text-warm-700">• Reformer Pilates Tennoji</li>
-                  <li className="text-warm-700">• FLOW PILATES 天王寺</li>
+                  <li className="text-warm-700">• Rintosull 天王寺（月4回 9,800円）</li>
+                  <li className="text-warm-700">• pilates K 天王寺（月4回 11,220円）</li>
+                  <li className="text-warm-700">• Belluna Pilates（1回 2,000円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -459,19 +438,19 @@ export default function TennojiPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates 天王寺</li>
-                  <li className="text-warm-700">• WECLE 天王寺</li>
-                  <li className="text-warm-700">• the SILK 天王寺</li>
+                  <li className="text-warm-700">• pilates K 天王寺</li>
+                  <li className="text-warm-700">• Rintosull 天王寺</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・大阪第3の繁華街</h3>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・アクセス良好</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  天王寺駅から徒歩3分以内。あべのハルカス・動物園に隣接し、ショッピングや食事も楽しめる。
+                  JR天王寺駅・大阪メトロ御堂筋線・谷町線から徒歩すぐ。あべのハルカス周辺の好立地。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Urban Pilates 天王寺（駅徒歩1分）</li>
-                  <li className="text-warm-700">• the SILK 天王寺（駅徒歩2分）</li>
-                  <li className="text-warm-700">• zen place pilates 天王寺（駅徒歩3分）</li>
+                  <li className="text-warm-700">• LAULE'A（阿倍野駅徒歩10秒）</li>
+                  <li className="text-warm-700">• La pilates（天王寺駅徒歩1分）</li>
+                  <li className="text-warm-700">• pilates K（天王寺駅14番出口徒歩1分）</li>
                 </ul>
               </div>
             </div>
@@ -512,24 +491,25 @@ export default function TennojiPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜12,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。初心者向けの基本的なレッスンが多い。
+                  グループレッスン中心。マシン専門スタジオもこの価格帯で見つかる。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Pilates Studio Harmony</li>
-                  <li>• Reformer Pilates</li>
+                  <li>• Rintosull（9,800円/月4回）</li>
+                  <li>• zen place（10,450円/月4回）</li>
+                  <li>• pilates K（11,220円/月4回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 12,000〜16,000円</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 12,000〜17,000円</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4回〜通い放題</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン完備の大手スタジオ。グループ・プライベート選択可。
+                  通い放題プランのある大手スタジオ。充実した設備と豊富なレッスン。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates</li>
-                  <li>• ピラティスK</li>
-                  <li>• the SILK</li>
+                  <li>• zen place フリー（14,960円）</li>
+                  <li>• pilates K フル（15,070円）</li>
+                  <li>• Rintosull 通い放題（16,800円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -539,8 +519,8 @@ export default function TennojiPage() {
                   完全プライベートレッスン。短期集中で結果を出したい方向け。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• B-line（1回8,800円）</li>
-                  <li>• Pilates Lab</li>
+                  <li>• Sonare（1回9,350円）</li>
+                  <li>• La pilates（プライベート）</li>
                 </ul>
               </div>
             </div>
@@ -569,7 +549,7 @@ export default function TennojiPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  天王寺エリアの料金相場は月4回で12,000円〜16,000円程度。無理なく継続できる予算を決めましょう。料金だけでなく、入会金、マット・ウェアのレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  天王寺エリアの料金相場は月4回のグループレッスンで10,000円〜15,000円程度。リントスルの月4回9,800円やpilates Kの11,220円など、比較的お手頃なスタジオもあります。料金だけでなく、入会金やレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -578,7 +558,7 @@ export default function TennojiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。多くのスタジオが無料〜1,000円程度で体験レッスンを提供しているので、気軽に試してみてくださいね。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。pilates Kは体験0円、リントスルは150円、zen placeは1,000円と気軽に試せるスタジオが多いですよ。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -587,7 +567,7 @@ export default function TennojiPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  どんなに良いスタジオでも、通いにくい場所にあると続きません。天王寺は大阪第3の繁華街で、JR・地下鉄・近鉄が利用可能。大阪の南の玄関口です。駅から近い場所を選ぶと、あべのハルカス・動物園でのショッピングや食事ついでにも通えて便利ですよ。
+                  どんなに良いスタジオでも、通いにくい場所にあると続きません。天王寺はJR天王寺駅、大阪メトロ御堂筋線・谷町線、近鉄南大阪線が集まる大阪南部のターミナル駅。あべのハルカスや天王寺公園に隣接し、阿倍野筋沿いには多くのスタジオが集まっています。レッスン前後にショッピングや食事も楽しめる便利なエリアです。
                 </p>
               </div>
             </div>
@@ -627,7 +607,10 @@ export default function TennojiPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は天王寺のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              今回は天王寺・阿倍野エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              天王寺はJR・大阪メトロ・近鉄が集まるターミナル駅で、阿倍野筋を中心に多くのピラティススタジオが集まっています。あべのハルカスや天王寺公園が近く、レッスン前後の時間も充実させやすいエリアです。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               この記事では天王寺に数多くあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
@@ -648,11 +631,11 @@ export default function TennojiPage() {
               体験レッスンを予約しよう
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜1,000円。<br />
+              初回限定の体験レッスン無料〜3,000円。<br />
               まずは気軽に体験してみましょう。
             </p>
-            <Link 
-              href="/#studios" 
+            <Link
+              href="/#studios"
               className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded"
             >
               おすすめスタジオ一覧に戻る
