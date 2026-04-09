@@ -14,130 +14,636 @@ const studios = [
   {
     name: 'CLUB PILATES 熊本駅前店',
     image: '/images/pilates2.jpg',
-    rating: 4.7, reviewCount: 115,
+    rating: 4.7,
+    reviewCount: 115,
     reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '世界最大級のブランドで15種類の器具を使った本格レッスン。最大12名のグループレッスンで1人1台マシン完備。無料の30分体験あり。' },
-      { author: 'S.T', rating: 5, date: '2週間前', text: '4段階のレベル分けで初心者でも安心。男性会員も多い。8つのプログラムで飽きずに続けられる。高強度クラスもありダイエットにも最適。' },
-      { author: 'R.N', rating: 4, date: '3週間前', text: 'インストラクター全員が500時間以上の研修を受けた資格保持者。有酸素運動を含むレッスンもあり多彩。' },
+      {
+        author: 'M.K',
+        rating: 5,
+        date: '1週間前',
+        text: '世界最大級のブランドで15種類の器具を使った本格レッスン。最大12名のグループレッスンで1人1台マシン完備。無料の30分体験あり。',
+      },
+      {
+        author: 'S.T',
+        rating: 5,
+        date: '2週間前',
+        text: '4段階のレベル分けで初心者でも安心。男性会員も多い。8つのプログラムで飽きずに続けられる。高強度クラスもありダイエットにも最適。',
+      },
+      {
+        author: 'R.N',
+        rating: 4,
+        date: '3週間前',
+        text: 'インストラクター全員が500時間以上の研修を受けた資格保持者。有酸素運動を含むレッスンもあり多彩。',
+      },
     ],
-    price: '月4回 14,190円〜', trial: '体験レッスン 無料（30分）',
+    price: '月4回 14,190円〜',
+    trial: '体験レッスン 無料（30分）',
     features: ['世界最大級', '15種類の器具', '男性OK', '4段階レベル分け'],
     description: '世界最大級のマシンピラティスブランド。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類の器具を完備。8つのプログラムと4段階のレベル分け。高強度・有酸素運動クラスもあり。',
     access: 'JR「熊本駅」周辺',
     address: '熊本県熊本市熊本駅前エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'グループ月4回プラン', description: '15種類の器具を使った本格グループレッスン。4段階のレベル分けで安心。', price: '月4回 14,190円（税込）' },
-    options: ['月8回プラン（25,190円）', '通い放題プラン（28,490円）', 'プライベートレッスン（1回 9,900円〜）', '入会金 5,500円'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['体幹強化', '姿勢改善', 'ボディメイク', 'ダイエット'] },
-    basicInfo: { hours: '月〜金 7:00-21:00 / 土日 7:00-18:00', closed: '不定休', facilities: ['リフォーマー', 'スプリングボード', 'TRX', 'チェア', 'Bosu'] },
+    popularPlan: {
+      name: 'グループ月4回プラン',
+      description: '15種類の器具を使った本格グループレッスン。4段階のレベル分けで安心。',
+      price: '月4回 14,190円（税込）',
+    },
+    options: [
+      '月8回プラン（25,190円）',
+      '通い放題プラン（28,490円）',
+      'プライベートレッスン（1回 9,900円〜）',
+      '入会金 5,500円',
+    ],
+    userProfile: {
+      ageRange: '20代〜50代が中心',
+      genderRatio: '女性80% / 男性20%',
+      purpose: ['体幹強化', '姿勢改善', 'ボディメイク', 'ダイエット'],
+    },
+    basicInfo: {
+      hours: '月〜金 7:00-21:00 / 土日 7:00-18:00',
+      closed: '不定休',
+      facilities: ['リフォーマー', 'スプリングボード', 'TRX', 'チェア', 'Bosu'],
+    },
   },
   {
     name: 'ピラティスK 熊本店',
     image: '/images/pilates3.jpg',
-    rating: 4.6, reviewCount: 98,
+    rating: 4.6,
+    reviewCount: 98,
     reviews: [
-      { author: 'K.N', rating: 5, date: '1週間前', text: '女性専用のマシン専門スタジオ。音楽に合わせたリフォーマーレッスンが楽しい。月4回13,420円で始められるのも魅力。' },
-      { author: 'Y.M', rating: 4, date: '2週間前', text: '体験0円で気軽に試せた。5パート別ボディメイクプログラムで部位ごとに集中トレーニングできるのが良い。' },
-      { author: 'A.S', rating: 5, date: '3週間前', text: 'マシン専門なのでリフォーマーのレッスンが充実。女性専用で安心して通える。清潔感のある空間。' },
+      {
+        author: 'K.N',
+        rating: 5,
+        date: '1週間前',
+        text: '女性専用のマシン専門スタジオ。音楽に合わせたリフォーマーレッスンが楽しい。月4回13,420円で始められるのも魅力。',
+      },
+      {
+        author: 'Y.M',
+        rating: 4,
+        date: '2週間前',
+        text: '体験0円で気軽に試せた。5パート別ボディメイクプログラムで部位ごとに集中トレーニングできるのが良い。',
+      },
+      {
+        author: 'A.S',
+        rating: 5,
+        date: '3週間前',
+        text: 'マシン専門なのでリフォーマーのレッスンが充実。女性専用で安心して通える。清潔感のある空間。',
+      },
     ],
-    price: '月4回 13,420円〜', trial: '体験レッスン 0円',
+    price: '月4回 13,420円〜',
+    trial: '体験レッスン 0円',
     features: ['女性専用', 'マシン専門', '音楽レッスン', '5パート別ボディメイク'],
     description: '女性専用のマシンピラティス専門スタジオ。音楽に合わせたリフォーマーレッスンで楽しく続けられる。5パート別ボディメイクプログラムで部位ごとに集中トレーニング。体験0円。',
     access: '熊本市内（詳細は公式サイトでご確認ください）',
     address: '熊本県熊本市エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'マンスリー4メンバー', description: '女性専用マシンピラティス月4回。音楽に合わせた楽しいレッスン。', price: '月4回 13,420円（税込）' },
-    options: ['マンスリー8メンバー', 'マンスリーフルメンバー（通い放題）', '体験レッスン 0円', '5パート別ボディメイクプログラム'],
-    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', 'ダイエット', '姿勢改善', 'くびれ作り'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'パウダールーム'] },
+    popularPlan: {
+      name: 'マンスリー4メンバー',
+      description: '女性専用マシンピラティス月4回。音楽に合わせた楽しいレッスン。',
+      price: '月4回 13,420円（税込）',
+    },
+    options: [
+      'マンスリー8メンバー',
+      'マンスリーフルメンバー（通い放題）',
+      '体験レッスン 0円',
+      '5パート別ボディメイクプログラム',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性100%（女性専用）',
+      purpose: ['ボディメイク', 'ダイエット', '姿勢改善', 'くびれ作り'],
+    },
+    basicInfo: {
+      hours: '公式サイトでご確認ください',
+      closed: '不定休',
+      facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'パウダールーム'],
+    },
   },
   {
     name: 'Rintosull ゆめタウンサンピアン店',
     image: '/images/pilates4.jpg',
-    rating: 4.5, reviewCount: 82,
+    rating: 4.5,
+    reviewCount: 82,
     reviews: [
-      { author: 'E.M', rating: 5, date: '1週間前', text: 'LAVA系列で安心。月4回8,800円とマシンピラティスでは破格の安さ。初心者が87%以上なので気後れせず通える。' },
-      { author: 'N.K', rating: 5, date: '2週間前', text: '無料体験でパーソナル姿勢診断もしてもらえた。女性専用で清潔感がある。ゆめタウン内なので買い物ついでに通えて便利。' },
-      { author: 'H.Y', rating: 4, date: '3週間前', text: 'プレミアムフリーフルタイムでLAVA等系列のヨガスタジオも利用可能。ピラティスとヨガ両方やりたい人におすすめ。' },
+      {
+        author: 'E.M',
+        rating: 5,
+        date: '1週間前',
+        text: 'LAVA系列で安心。月4回8,800円とマシンピラティスでは破格の安さ。初心者が87%以上なので気後れせず通える。',
+      },
+      {
+        author: 'N.K',
+        rating: 5,
+        date: '2週間前',
+        text: '無料体験でパーソナル姿勢診断もしてもらえた。女性専用で清潔感がある。ゆめタウン内なので買い物ついでに通えて便利。',
+      },
+      {
+        author: 'H.Y',
+        rating: 4,
+        date: '3週間前',
+        text: 'プレミアムフリーフルタイムでLAVA等系列のヨガスタジオも利用可能。ピラティスとヨガ両方やりたい人におすすめ。',
+      },
     ],
-    price: '月4回 8,800円〜', trial: '体験レッスン 無料',
+    price: '月4回 8,800円〜',
+    trial: '体験レッスン 無料',
     features: ['LAVA系列', '女性専用', '初心者87%以上', '熊本エリア'],
     description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオ。ゆめタウンサンピアン内で買い物ついでに通える。月4回8,800円のリーズナブルな料金。無料体験でパーソナル姿勢診断付き。初心者87%以上。',
     access: 'ゆめタウンサンピアン内',
     address: '熊本県熊本市東区サンピアンエリア（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'マシンピラティス月4回プラン', description: 'リフォーマーを使った本格マシンピラティス。1回あたり2,200円のコスパ。', price: '月4回 8,800円（税込）' },
-    options: ['通い放題プラン', 'プレミアムフリーフルタイム（LAVA等全店利用可）', '施設使用料あり', '無料体験・パーソナル姿勢診断付き'],
-    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', 'ダイエット', 'ヨガ&ピラティス両方', '健康維持'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'シャワー'] },
+    popularPlan: {
+      name: 'マシンピラティス月4回プラン',
+      description: 'リフォーマーを使った本格マシンピラティス。1回あたり2,200円のコスパ。',
+      price: '月4回 8,800円（税込）',
+    },
+    options: [
+      '通い放題プラン',
+      'プレミアムフリーフルタイム（LAVA等全店利用可）',
+      '施設使用料あり',
+      '無料体験・パーソナル姿勢診断付き',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性100%（女性専用）',
+      purpose: ['ボディメイク', 'ダイエット', 'ヨガ&ピラティス両方', '健康維持'],
+    },
+    basicInfo: {
+      hours: '公式サイトでご確認ください',
+      closed: '不定休',
+      facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'シャワー'],
+    },
   },
   {
     name: 'STUDIO IVY 熊本大江店',
     image: '/images/pilates2.jpg',
-    rating: 4.8, reviewCount: 65,
+    rating: 4.8,
+    reviewCount: 65,
     reviews: [
-      { author: 'T.M', rating: 5, date: '1週間前', text: '完全パーソナルで自分だけのオーダーメイドレッスン。完全プライベート空間なので人目を気にせず集中できる。' },
-      { author: 'C.Y', rating: 5, date: '2週間前', text: '月2回15,000円から始められるパーソナル。体の状態に合わせたプログラムを組んでもらえるので効率が良い。' },
-      { author: 'K.S', rating: 4, date: '3週間前', text: '体験は4,500円だけどしっかりカウンセリングもあり価値あり。インストラクターの質が高い。' },
+      {
+        author: 'T.M',
+        rating: 5,
+        date: '1週間前',
+        text: '完全パーソナルで自分だけのオーダーメイドレッスン。完全プライベート空間なので人目を気にせず集中できる。',
+      },
+      {
+        author: 'C.Y',
+        rating: 5,
+        date: '2週間前',
+        text: '月2回15,000円から始められるパーソナル。体の状態に合わせたプログラムを組んでもらえるので効率が良い。',
+      },
+      {
+        author: 'K.S',
+        rating: 4,
+        date: '3週間前',
+        text: '体験は4,500円だけどしっかりカウンセリングもあり価値あり。インストラクターの質が高い。',
+      },
     ],
-    price: '月2回 15,000円〜', trial: '体験レッスン 4,500円',
+    price: '月2回 15,000円〜',
+    trial: '体験レッスン 4,500円',
     features: ['完全パーソナル', '完全プライベート空間', 'オーダーメイド', '月2回から'],
     description: '完全パーソナルのマシンピラティススタジオ。完全プライベート空間で一人ひとりの体に合わせたオーダーメイドレッスン。月2回15,000円から始められる。',
     access: '熊本市中央区大江エリア',
     address: '熊本県熊本市中央区大江エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'パーソナル月2回プラン', description: '完全プライベート空間でのオーダーメイドマシンピラティス。', price: '月2回 15,000円（税込）' },
-    options: ['月4回プラン', '月8回プラン', '体験レッスン（4,500円）', 'オーダーメイドプログラム'],
-    userProfile: { ageRange: '30代〜50代が中心', genderRatio: '女性70% / 男性30%', purpose: ['姿勢改善', '体幹強化', 'リハビリ', 'ボディメイク'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'プライベートルーム', '更衣室'] },
+    popularPlan: {
+      name: 'パーソナル月2回プラン',
+      description: '完全プライベート空間でのオーダーメイドマシンピラティス。',
+      price: '月2回 15,000円（税込）',
+    },
+    options: [
+      '月4回プラン',
+      '月8回プラン',
+      '体験レッスン（4,500円）',
+      'オーダーメイドプログラム',
+    ],
+    userProfile: {
+      ageRange: '30代〜50代が中心',
+      genderRatio: '女性70% / 男性30%',
+      purpose: ['姿勢改善', '体幹強化', 'リハビリ', 'ボディメイク'],
+    },
+    basicInfo: {
+      hours: '公式サイトでご確認ください',
+      closed: '不定休',
+      facilities: ['リフォーマー', 'プライベートルーム', '更衣室'],
+    },
   },
   {
     name: 'Pilates & Gym 1to1 熊本店',
     image: '/images/pilates3.jpg',
-    rating: 4.7, reviewCount: 88,
+    rating: 4.7,
+    reviewCount: 88,
     reviews: [
-      { author: 'A.K', rating: 5, date: '1週間前', text: '女性専用の完全個室パーソナル。1回6,600円〜でパーソナルが受けられるのはコスパが良い。入会金無料もありがたい。' },
-      { author: 'Y.N', rating: 5, date: '2週間前', text: '食事プラン付きで運動と食事の両面からサポートしてもらえる。手ぶらOKなので仕事帰りにも通いやすい。' },
-      { author: 'M.H', rating: 4, date: '3週間前', text: '完全個室なので周りを気にせずレッスンに集中できる。インストラクターが丁寧で初心者でも安心。' },
+      {
+        author: 'A.K',
+        rating: 5,
+        date: '1週間前',
+        text: '女性専用の完全個室パーソナル。1回6,600円〜でパーソナルが受けられるのはコスパが良い。入会金無料もありがたい。',
+      },
+      {
+        author: 'Y.N',
+        rating: 5,
+        date: '2週間前',
+        text: '食事プラン付きで運動と食事の両面からサポートしてもらえる。手ぶらOKなので仕事帰りにも通いやすい。',
+      },
+      {
+        author: 'M.H',
+        rating: 4,
+        date: '3週間前',
+        text: '完全個室なので周りを気にせずレッスンに集中できる。インストラクターが丁寧で初心者でも安心。',
+      },
     ],
-    price: 'パーソナル 1回6,600円〜', trial: '体験レッスンあり',
+    price: 'パーソナル 1回6,600円〜',
+    trial: '体験レッスンあり',
     features: ['女性専用', '完全個室', '入会金無料', '食事プラン付き'],
     description: '女性専用の完全個室パーソナルピラティス&ジム。1回6,600円〜のリーズナブルなパーソナルレッスン。入会金無料。食事プラン付きで運動と食事の両面からサポート。手ぶらOK。',
     access: '熊本市内（詳細は公式サイトでご確認ください）',
     address: '熊本県熊本市エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'パーソナルレッスン', description: '完全個室でのマンツーマンピラティス&ジム。食事プラン付き。', price: '1回 6,600円〜（税込）' },
-    options: ['回数券プラン', '食事サポートプラン', '入会金無料', '手ぶらOK（ウェア・タオル貸出）'],
-    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ダイエット', 'ボディメイク', '姿勢改善', '食事改善'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'ジム設備', '完全個室', '更衣室', 'シャワー'] },
+    popularPlan: {
+      name: 'パーソナルレッスン',
+      description: '完全個室でのマンツーマンピラティス&ジム。食事プラン付き。',
+      price: '1回 6,600円〜（税込）',
+    },
+    options: [
+      '回数券プラン',
+      '食事サポートプラン',
+      '入会金無料',
+      '手ぶらOK（ウェア・タオル貸出）',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性100%（女性専用）',
+      purpose: ['ダイエット', 'ボディメイク', '姿勢改善', '食事改善'],
+    },
+    basicInfo: {
+      hours: '公式サイトでご確認ください',
+      closed: '不定休',
+      facilities: ['リフォーマー', 'ジム設備', '完全個室', '更衣室', 'シャワー'],
+    },
   },
 ]
 
 const faqs = [
-  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！熊本エリアのスタジオはほとんどが初心者歓迎。Rintosullは初心者87%以上、CLUB PILATESは4段階のレベル分け。' },
-  { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。' },
-  { question: '熊本のピラティスの料金相場は？', answer: 'Rintosullは月4回8,800円。ピラティスKは月4回13,420円。CLUB PILATESは月4回14,190円。パーソナルは1回6,600円〜15,000円。' },
-  { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。大切なのは継続すること。' },
-  { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。ピラティスKは5パート別ボディメイク、1to1は食事プラン付きでダイエットに効果的。' },
-  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。CLUB PILATESとRintosullは無料体験。ピラティスKも体験0円。1to1は手ぶらOK。' },
-  { question: '男性でも通えるスタジオはありますか？', answer: 'CLUB PILATES熊本駅前とSTUDIO IVY熊本大江は男性も通えます。ピラティスK・Rintosull・1to1は女性専用。' },
-  { question: '一番安いスタジオは？', answer: 'グループレッスンではRintosullが月4回8,800円で最安。パーソナルではPilates & Gym 1to1が1回6,600円〜でコスパが良い。' },
-  { question: 'パーソナルレッスンを受けたい場合は？', answer: 'STUDIO IVY（月2回15,000円〜）は完全プライベート空間。1to1（1回6,600円〜）は完全個室で食事プラン付き。CLUB PILATESもプライベートレッスンあり。' },
-  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。' },
+  {
+    question: 'ピラティス初心者でも大丈夫ですか？',
+    answer: '大丈夫です！熊本エリアのスタジオはほとんどが初心者歓迎。Rintosullは初心者87%以上、CLUB PILATESは4段階のレベル分け。',
+  },
+  {
+    question: 'マットピラティスとマシンピラティスの違いは？',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。',
+  },
+  {
+    question: '熊本のピラティスの料金相場は？',
+    answer: 'Rintosullは月4回8,800円。ピラティスKは月4回13,420円。CLUB PILATESは月4回14,190円。パーソナルは1回6,600円〜15,000円。',
+  },
+  {
+    question: 'どのくらいの頻度で通えばいいですか？',
+    answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。大切なのは継続すること。',
+  },
+  {
+    question: 'ピラティスで痩せますか？',
+    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。ピラティスKは5パート別ボディメイク、1to1は食事プラン付きでダイエットに効果的。',
+  },
+  {
+    question: '体験レッスンは何を持っていけばいいですか？',
+    answer: '動きやすい服装と飲み物があればOK。CLUB PILATESとRintosullは無料体験。ピラティスKも体験0円。1to1は手ぶらOK。',
+  },
+  {
+    question: '男性でも通えるスタジオはありますか？',
+    answer: 'CLUB PILATES熊本駅前とSTUDIO IVY熊本大江は男性も通えます。ピラティスK・Rintosull・1to1は女性専用。',
+  },
+  {
+    question: '一番安いスタジオは？',
+    answer: 'グループレッスンではRintosullが月4回8,800円で最安。パーソナルではPilates & Gym 1to1が1回6,600円〜でコスパが良い。',
+  },
+  {
+    question: 'パーソナルレッスンを受けたい場合は？',
+    answer: 'STUDIO IVY（月2回15,000円〜）は完全プライベート空間。1to1（1回6,600円〜）は完全個室で食事プラン付き。CLUB PILATESもプライベートレッスンあり。',
+  },
+  {
+    question: 'ピラティスはどのくらいで効果が出ますか？',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。',
+  },
 ]
 
 export default function KumamotoPage() {
   return (
     <>
       <Navigation />
+
       <main className="pt-20 bg-white">
-        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年04月09日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス熊本おすすめ5選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1></div></section>
-        <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">熊本</span></nav></div></section>
-        <section className="py-12 bg-white"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p><p className="text-warm-600 leading-relaxed mb-6">Pilates Navi編集部です！</p><p className="text-warm-600 leading-relaxed mb-6">あなたは、</p><p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p><p className="text-warm-600 leading-relaxed mb-6">「熊本で人気のピラティススタジオを知りたい」</p><p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p><p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、熊本エリアでおすすめのピラティススタジオ5選をまとめました。</p><div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8"><h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2><ul className="space-y-2 text-warm-700"><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>熊本でピラティススタジオを探している</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>コスパの良いスタジオを知りたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>パーソナルレッスンを受けたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較したい</span></li></ul></div><p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p></div></section>
-        <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">熊本のおすすめピラティススタジオ5選</h2><div className="space-y-8">{studios.map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
-        <section className="py-16 bg-white"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">こだわりから探す</h2><div className="grid grid-cols-1 md:grid-cols-3 gap-8"><div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3><p className="text-warm-600 text-sm mb-4">月4回8,800円〜のスタジオも。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li><li className="text-warm-700">• ピラティスK（月4回 13,420円〜）</li><li className="text-warm-700">• 1to1（1回 6,600円〜）</li></ul></div><div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3><p className="text-warm-600 text-sm mb-4">マンツーマンで本格指導。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• STUDIO IVY（完全プライベート空間）</li><li className="text-warm-700">• 1to1（完全個室・食事プラン付き）</li></ul></div><div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3><p className="text-warm-600 text-sm mb-4">女性だけの安心空間。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• ピラティスK（マシン専門）</li><li className="text-warm-700">• Rintosull（LAVA系列）</li><li className="text-warm-700">• 1to1（完全個室）</li></ul></div></div></div></section>
-        <section className="py-16 bg-warm-50"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">おすすめの期間・頻度</h2><div className="bg-white rounded-lg p-8 border border-warm-200"><h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3><p className="text-warm-600 leading-relaxed mb-6">週1-2回からスタート。最低2-3ヶ月継続で効果を実感。</p><h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3><p className="text-warm-600 leading-relaxed mb-6">週2-3回がおすすめ。3-6ヶ月で目に見える変化。</p><h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3><p className="text-warm-600 leading-relaxed">週1回のペースで無理なく継続。</p></div></div></section>
-        <section className="py-16 bg-white"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">予算別の料金相場</h2><div className="grid grid-cols-1 md:grid-cols-3 gap-6"><div className="border-2 border-warm-300 rounded-lg p-6 text-center"><h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜9,000円</h3><p className="text-3xl font-bold text-warm-800 mb-4">月4回</p><p className="text-sm text-warm-600 mb-4">驚きのコスパ。</p><ul className="text-sm text-warm-700 space-y-1"><li>• Rintosull（8,800円/月4回）</li></ul></div><div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50"><div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div><h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜15,000円</h3><p className="text-3xl font-bold text-warm-800 mb-4">月4回</p><p className="text-sm text-warm-600 mb-4">マシン専門スタジオ。</p><ul className="text-sm text-warm-700 space-y-1"><li>• ピラティスK（13,420円〜）</li><li>• CLUB PILATES（14,190円〜）</li></ul></div><div className="border-2 border-warm-300 rounded-lg p-6 text-center"><h3 className="text-lg font-bold text-warm-900 mb-2">1回 6,600円〜</h3><p className="text-3xl font-bold text-warm-800 mb-4">パーソナル</p><p className="text-sm text-warm-600 mb-4">マンツーマンで高コスパ。</p><ul className="text-sm text-warm-700 space-y-1"><li>• 1to1（6,600円〜/回）</li><li>• STUDIO IVY（15,000円〜/月2回）</li></ul></div></div></div></section>
-        <section className="py-16 bg-warm-50"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">失敗しないスタジオの選び方</h2><div className="space-y-8"><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span><h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3></div><p className="text-warm-600 leading-relaxed">ダイエット、姿勢改善、体幹強化など目的によって最適なスタジオは変わります。</p></div><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">予算を決める</h3></div><p className="text-warm-600 leading-relaxed">熊本はグループ月4回8,800円〜、パーソナル1回6,600円〜と幅広い価格帯。</p></div><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">CLUB PILATESとRintosullは無料体験。ピラティスKも体験0円。まずは気軽に試してみましょう。</p></div><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div><p className="text-warm-600 leading-relaxed">CLUB PILATESは熊本駅前。Rintosullはゆめタウンサンピアン内で買い物ついでに通えます。</p></div></div></div></section>
-        <section className="py-16 bg-white"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">よくある質問</h2><div className="space-y-6">{faqs.map((faq, index) => (<div key={index} className="border border-warm-200 rounded-lg overflow-hidden"><details className="group"><summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition"><h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3><svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"/></svg></summary><div className="px-6 pb-6 text-warm-600 leading-relaxed">{faq.answer}</div></details></div>))}</div></div></section>
-        <section className="py-16 bg-warm-50"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2><p className="text-warm-600 leading-relaxed mb-6">今回は熊本エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？</p><p className="text-warm-600 leading-relaxed mb-6">この記事では熊本にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。</p><p className="text-warm-600 leading-relaxed mb-6">ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。</p><p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p></div></section>
-        <section className="py-16 bg-warm-800 text-white" id="contact"><div className="max-w-4xl mx-auto px-6 lg:px-8 text-center"><h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2><p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスン無料〜4,500円。<br />まずは気軽に体験してみましょう。</p><Link href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded">おすすめスタジオ一覧に戻る</Link></div></section>
+        {/* Hero Section */}
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月09日</p>
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
+              【2026最新】ピラティス熊本おすすめ5選！<br className="hidden md:block" />
+              人気スタジオの料金プランを簡単比較！
+            </h1>
+          </div>
+        </section>
+
+        {/* Breadcrumbs */}
+        <section className="bg-white py-3 border-b border-warm-100">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <nav className="text-sm text-warm-400">
+              <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
+              {' > '}
+              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              {' > '}
+              <span className="text-warm-600">熊本</span>
+            </nav>
+          </div>
+        </section>
+
+        {/* Introduction */}
+        <section className="py-12 bg-white">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <p className="text-warm-600 leading-relaxed mb-6">
+              こんにちは。
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              Pilates Navi編集部です！
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              あなたは、
+            </p>
+            <p className="text-warm-600 leading-relaxed font-medium mb-6">
+              「ピラティスを始めてみたい」
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              「熊本で人気のピラティススタジオを知りたい」
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              と思っていませんか？
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-8">
+              そこでこの記事では、熊本エリアでおすすめのピラティススタジオ5選をまとめました。
+            </p>
+            <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
+              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <ul className="space-y-2 text-warm-700">
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>熊本でピラティススタジオを探している</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>マシンピラティスを体験してみたい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>コスパの良いスタジオを知りたい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>パーソナルレッスンを受けたい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>料金プランを比較したい</span>
+                </li>
+              </ul>
+            </div>
+            <p className="text-warm-600 leading-relaxed">
+              それではさっそく見ていきましょう！
+            </p>
+          </div>
+        </section>
+
+        {/* Studios List */}
+        <section className="py-16 bg-warm-50" id="studios">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              熊本のおすすめピラティススタジオ5選
+            </h2>
+            <div className="space-y-8">
+              {studios.map((studio, index) => (
+                <StudioCard key={index} studio={studio} index={index} />
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Search by Preference */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              こだわりから探す
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  月4回8,800円〜のスタジオも。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li>
+                  <li className="text-warm-700">• ピラティスK（月4回 13,420円〜）</li>
+                  <li className="text-warm-700">• 1to1（1回 6,600円〜）</li>
+                </ul>
+              </div>
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  マンツーマンで本格指導。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• STUDIO IVY（完全プライベート空間）</li>
+                  <li className="text-warm-700">• 1to1（完全個室・食事プラン付き）</li>
+                </ul>
+              </div>
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  女性だけの安心空間。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• ピラティスK（マシン専門）</li>
+                  <li className="text-warm-700">• Rintosull（LAVA系列）</li>
+                  <li className="text-warm-700">• 1to1（完全個室）</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Frequency Guide */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              おすすめの期間・頻度
+            </h2>
+            <div className="bg-white rounded-lg p-8 border border-warm-200">
+              <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
+              <p className="text-warm-600 leading-relaxed mb-6">
+                週1-2回からスタート。最低2-3ヶ月継続で効果を実感。
+              </p>
+              <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
+              <p className="text-warm-600 leading-relaxed mb-6">
+                週2-3回がおすすめ。3-6ヶ月で目に見える変化。
+              </p>
+              <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
+              <p className="text-warm-600 leading-relaxed">
+                週1回のペースで無理なく継続。
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Price Guide */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              予算別の料金相場
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜9,000円</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
+                <p className="text-sm text-warm-600 mb-4">
+                  驚きのコスパ。
+                </p>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• Rintosull（8,800円/月4回）</li>
+                </ul>
+              </div>
+              <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
+                <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜15,000円</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
+                <p className="text-sm text-warm-600 mb-4">
+                  マシン専門スタジオ。
+                </p>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• ピラティスK（13,420円〜）</li>
+                  <li>• CLUB PILATES（14,190円〜）</li>
+                </ul>
+              </div>
+              <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
+                <h3 className="text-lg font-bold text-warm-900 mb-2">1回 6,600円〜</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">パーソナル</p>
+                <p className="text-sm text-warm-600 mb-4">
+                  マンツーマンで高コスパ。
+                </p>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• 1to1（6,600円〜/回）</li>
+                  <li>• STUDIO IVY（15,000円〜/月2回）</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* How to Choose */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              失敗しないスタジオの選び方
+            </h2>
+            <div className="space-y-8">
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span>
+                  <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  ダイエット、姿勢改善、体幹強化など目的によって最適なスタジオは変わります。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span>
+                  <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  熊本はグループ月4回8,800円〜、パーソナル1回6,600円〜と幅広い価格帯。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span>
+                  <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  CLUB PILATESとRintosullは無料体験。ピラティスKも体験0円。まずは気軽に試してみましょう。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span>
+                  <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  CLUB PILATESは熊本駅前。Rintosullはゆめタウンサンピアン内で買い物ついでに通えます。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ */}
+        <section className="py-16 bg-white">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              よくある質問
+            </h2>
+            <div className="space-y-6">
+              {faqs.map((faq, index) => (
+                <div key={index} className="border border-warm-200 rounded-lg overflow-hidden">
+                  <details className="group">
+                    <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition">
+                      <h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3>
+                      <svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"/>
+                      </svg>
+                    </summary>
+                    <div className="px-6 pb-6 text-warm-600 leading-relaxed">
+                      {faq.answer}
+                    </div>
+                  </details>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Summary */}
+        <section className="py-16 bg-warm-50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">
+              まとめ
+            </h2>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              今回は熊本エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              この記事では熊本にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+            </p>
+            <p className="text-warm-700 font-medium text-center">
+              あなたにぴったりのピラティススタジオが見つかることを願っています。
+            </p>
+          </div>
+        </section>
+
+        {/* CTA */}
+        <section className="py-16 bg-warm-800 text-white" id="contact">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">
+              体験レッスンを予約しよう
+            </h2>
+            <p className="text-warm-200 mb-8 leading-relaxed">
+              初回限定の体験レッスン無料〜4,500円。<br />
+              まずは気軽に体験してみましょう。
+            </p>
+            <Link
+              href="/#studios"
+              className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded"
+            >
+              おすすめスタジオ一覧に戻る
+            </Link>
+          </div>
+        </section>
       </main>
+
       <SiteFooter />
       <Script src="https://unpkg.com/lucide@latest" strategy="lazyOnload" />
     </>
