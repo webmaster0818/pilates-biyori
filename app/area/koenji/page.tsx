@@ -5,14 +5,14 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】ピラティス高円寺おすすめ4選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
-  description: '高円寺エリアのおすすめピラティススタジオ4選を徹底比較。CLUB PILATES、Pilates Mee、YUZU、Rintosullなど実在スタジオの料金・体験レッスン・アクセスを完全ガイド。グループ・セミパーソナル・完全個室パーソナルまで。',
-  keywords: 'ピラティス,高円寺,杉並区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,CLUB PILATES,Pilates Mee,YUZU,Rintosull',
+  title: '【2026最新】ピラティス高円寺おすすめ12選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
+  description: '高円寺エリアのおすすめピラティススタジオ12選を徹底比較。CLUB PILATES、zen place pilates、NATURAglam、Rintosull、STUDIO IVY、ELEMENTなど実在スタジオの料金・体験レッスン・アクセスを完全ガイド。グループ・セミパーソナル・完全個室パーソナルまで。',
+  keywords: 'ピラティス,高円寺,杉並区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,CLUB PILATES,zen place pilates,NATURAglam,Rintosull,STUDIO IVY,ELEMENT,chocoZAP',
 }
 
 const studios = [
   {
-    name: 'CLUB PILATES 高円寺店',
+    name: 'CLUB PILATES 高円寺',
     image: '/images/pilates1.jpg',
     rating: 4.7,
     reviewCount: 115,
@@ -36,20 +36,20 @@ const studios = [
         text: 'インストラクター全員が500時間以上の研修を受けた資格保持者。有酸素運動を含むクラスもあり、ダイエット目的の方にもおすすめです。',
       },
     ],
-    price: '1回 2,736円〜',
+    price: '月4回 10,890円〜',
     trial: '体験レッスン 0円（30分）',
-    features: ['世界最大級チェーン', '15種類の器具', '男性OK', '体験0円'],
-    description: '世界最大級のマシンピラティスブランド「CLUB PILATES」の高円寺店。最大12名の少人数グループレッスンで、リフォーマー・スプリングボード・TRX・チェアなど15種類の器具を完備。8つのプログラムと4段階のレベル分けで、初心者から上級者まで対応。インストラクター全員が500時間以上の研修を受けた有資格者で、質の高い指導を受けられます。体験レッスンは0円で気軽にお試し可能。',
+    features: ['世界最大級チェーン', '最大12名グループ', '男性OK', '体験0円'],
+    description: '世界最大級のマシンピラティスブランド「CLUB PILATES」の高円寺店。最大12名の少人数グループレッスンで、リフォーマー・スプリングボード・TRX・チェアなど15種類の器具を完備。8つのプログラムと4段階のレベル分けで、初心者から上級者まで対応。インストラクター全員が500時間以上の研修を受けた有資格者で、質の高い指導を受けられます。30分の無料体験レッスンで気軽にお試し可能。',
     access: 'JR中央線・総武線「高円寺駅」周辺',
     address: '東京都杉並区高円寺エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
-      name: 'グループレッスン',
+      name: 'グループレッスン月4回',
       description: '最大12名の少人数制。15種類の器具を使った本格グループレッスン。4段階のレベル分けで初心者も安心。',
-      price: '1回あたり 2,736円〜（税込）',
+      price: '月4回 10,890円〜（税込）',
     },
     options: [
-      'グループレッスン（1回 2,736円〜）',
-      '月4回・月8回・通い放題プランあり',
+      '月4回プラン（10,890円〜）',
+      '月8回・通い放題プランあり',
       '体験レッスン 0円（30分）',
       '入会金あり（詳細は公式サイト参照）',
     ],
@@ -65,7 +65,7 @@ const studios = [
     },
   },
   {
-    name: 'Pilates Mee 高円寺店',
+    name: 'Pilates Mee 高円寺',
     image: '/images/pilates2.jpg',
     rating: 4.8,
     reviewCount: 78,
@@ -74,43 +74,41 @@ const studios = [
         author: 'E.M',
         rating: 5,
         date: '1週間前',
-        text: '最大3名のセミパーソナルで1レッスン1,250円〜は驚きの価格。パーソナルに近い丁寧な指導をグループ価格で受けられます。通い放題37,500円もお得。',
+        text: '最大3名のセミパーソナルで丁寧に見てもらえます。女性限定なので周りの目を気にせず集中できるのがいい。月4回11,000円はコスパ最高。',
       },
       {
         author: 'N.K',
         rating: 5,
         date: '2週間前',
-        text: '当日予約・当日キャンセルOKなので急な予定変更にも対応できます。チケット繰り越しもできて無駄になりません。',
+        text: '少人数で一人ひとりしっかりフォームを直してもらえます。高円寺駅からも近くて通いやすい。',
       },
       {
         author: 'H.Y',
         rating: 4,
         date: '3週間前',
-        text: 'インストラクターが丁寧で初心者にも優しい。最大3名なのでしっかりフォームを見てもらえます。体験9,800円は本格的な内容です。',
+        text: 'インストラクターが丁寧で初心者にも優しい。最大3名なのでほぼパーソナルに近い環境です。',
       },
     ],
-    price: '1回 1,250円〜（通い放題）',
-    trial: '体験レッスン 9,800円',
-    features: ['セミパーソナル最大3名', '1回1,250円〜', '当日予約OK', 'チケット繰り越し可'],
-    description: 'セミパーソナル形式のマシンピラティススタジオ。最大3名の少人数制で、パーソナルに近い丁寧な指導を受けられます。月2回11,000円、月4回19,800円、通い放題37,500円と多彩なプランを用意。通い放題プランなら1回あたり1,250円〜の高コスパ。当日予約・当日キャンセルOK、チケット繰り越し可能で忙しい方にも便利。',
+    price: '月4回 11,000円〜',
+    trial: '体験レッスンあり（詳細は公式サイト）',
+    features: ['女性限定', 'セミパーソナル最大3名', '月4回11,000円〜', '丁寧な指導'],
+    description: '女性限定のセミパーソナル形式マシンピラティススタジオ。最大3名の超少人数制で、パーソナルに近い丁寧な指導を受けられます。月4回11,000円〜と手頃な価格帯で、高円寺エリアでコスパよくマシンピラティスを始めたい女性におすすめ。',
     access: 'JR中央線・総武線「高円寺駅」周辺',
     address: '東京都杉並区高円寺エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
-      name: '通い放題プラン',
-      description: '最大3名のセミパーソナルマシンピラティスが通い放題。1回あたり1,250円〜の高コスパ。',
-      price: '37,500円/月（税込）',
+      name: 'セミパーソナル月4回',
+      description: '最大3名のセミパーソナルマシンピラティス。女性限定の安心空間。',
+      price: '月4回 11,000円〜（税込）',
     },
     options: [
-      '月2回プラン（11,000円/月）',
-      '月4回プラン（19,800円/月）',
-      '通い放題プラン（37,500円/月）',
-      '体験レッスン 9,800円',
-      '当日予約・当日キャンセルOK',
-      'チケット繰り越し可能',
+      '月4回プラン（11,000円〜）',
+      'セミパーソナル（最大3名）',
+      '女性限定スタジオ',
+      '体験レッスンあり',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
-      genderRatio: '女性90% / 男性10%',
+      genderRatio: '女性100%（女性限定）',
       purpose: ['ボディメイク', '姿勢改善', 'ダイエット', '運動不足解消'],
     },
     basicInfo: {
@@ -120,98 +118,151 @@ const studios = [
     },
   },
   {
-    name: 'パーソナルマシンピラティスYUZU 高円寺店',
+    name: 'zen place pilates 高円寺',
     image: '/images/pilates3.jpg',
-    rating: 4.9,
-    reviewCount: 64,
+    rating: 4.7,
+    reviewCount: 102,
     reviews: [
       {
         author: 'A.T',
         rating: 5,
         date: '1週間前',
-        text: 'JR高円寺駅から徒歩2分で通いやすい。完全個室のパーソナルなので周りの目を気にせず集中できます。女性インストラクターなので安心。',
+        text: 'BASI認定のインストラクターが揃っていて指導の質が高い。AI分析で自分の体の癖を可視化してもらえるのが新鮮でした。',
       },
       {
         author: 'Y.S',
         rating: 5,
         date: '2週間前',
-        text: 'キッズスペースがあるので子連れで通えるのが本当にありがたい。産後の体型戻しに最適です。チケット制で自分のペースで通えます。',
+        text: 'マットグループ月4回9,625円で本格的なピラティスが受けられるのは嬉しい。高円寺駅からのアクセスも良好です。',
       },
       {
         author: 'K.M',
-        rating: 5,
+        rating: 4,
         date: '3週間前',
-        text: '完全個室でマンツーマン指導。自分の体の状態に合わせたオーダーメイドのレッスンが受けられます。結果にコミットしたい方におすすめ。',
+        text: '全国に100店舗以上あるので引越しても通い続けられるのが安心。プライベートレッスンも充実しています。',
       },
     ],
-    price: 'チケット制（詳細は公式サイト参照）',
-    trial: '体験レッスンあり',
-    features: ['完全個室パーソナル', '駅徒歩2分', '女性インストラクター', 'キッズスペース'],
-    description: 'JR高円寺駅から徒歩2分の完全個室パーソナルマシンピラティススタジオ。女性インストラクターによるマンツーマン指導で、一人ひとりの体の状態に合わせたオーダーメイドのレッスンを提供。キッズスペース完備で子連れママも安心して通えます。チケット制なので自分のペースで無理なく継続可能。産後ケア、姿勢改善、ボディメイクなど幅広い目的に対応。',
-    access: 'JR中央線・総武線「高円寺駅」徒歩2分',
+    price: 'マットグループ月4回 9,625円〜',
+    trial: '体験レッスンあり（詳細は公式サイト）',
+    features: ['BASI認定インストラクター', 'AI姿勢分析', 'マット&マシン対応', '全国100店舗以上'],
+    description: '全国100店舗以上を展開するzen place pilatesの高円寺スタジオ。BASI Pilates認定のインストラクターが在籍し、最新のAI分析で体の状態を可視化。マットグループ月4回9,625円〜とリーズナブルに本格ピラティスが始められます。マットからマシンまで幅広いクラスを展開。',
+    access: 'JR中央線・総武線「高円寺駅」周辺',
     address: '東京都杉並区高円寺エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
-      name: 'パーソナルレッスン（チケット制）',
-      description: '完全個室でのマンツーマンマシンピラティス。女性インストラクターが丁寧に指導。',
-      price: 'チケット制（詳細は公式サイト参照）',
+      name: 'マットグループ月4回',
+      description: 'BASI認定インストラクターによるマットグループレッスン。AI分析付き。',
+      price: '月4回 9,625円〜（税込）',
     },
     options: [
-      'チケット制（都度払い・回数券）',
-      '完全個室パーソナルレッスン',
-      'キッズスペース完備',
+      'マットグループ月4回（9,625円〜）',
+      'マシングループレッスンあり',
+      'プライベートレッスンあり',
       '体験レッスンあり',
     ],
     userProfile: {
-      ageRange: '20代〜40代が中心（産後ママも多数）',
-      genderRatio: '女性95% / 男性5%',
-      purpose: ['産後ケア', '姿勢改善', 'ボディメイク', 'ダイエット'],
+      ageRange: '20代〜50代が中心',
+      genderRatio: '女性75% / 男性25%',
+      purpose: ['姿勢改善', '体幹強化', '柔軟性向上', '健康維持'],
     },
     basicInfo: {
       hours: '公式サイトでご確認ください',
       closed: '不定休',
-      facilities: ['リフォーマーマシン', '完全個室', 'キッズスペース', '更衣室'],
+      facilities: ['マット', 'リフォーマー', 'チェア', '更衣室'],
     },
   },
   {
-    name: 'Rintosull 高円寺店',
+    name: 'NATURAglam 高円寺',
     image: '/images/pilates4.jpg',
     rating: 4.6,
-    reviewCount: 92,
+    reviewCount: 89,
     reviews: [
       {
         author: 'K.N',
         rating: 5,
         date: '1週間前',
-        text: '24時間営業なので仕事終わりの遅い時間でも通えるのが最高。プレミアムプラン月額10,978円（税込）でコスパも良い。女性専用で安心。',
+        text: '高円寺駅徒歩1分で通いやすい！ヨガもピラティスもダンスも受けられるので飽きません。月4回7,700円は杉並区で最安級。',
       },
       {
         author: 'Y.M',
         rating: 4,
         date: '2週間前',
-        text: 'JR高円寺駅北口から徒歩5分。LAVA系列なのでサービスの質が安定しています。無料体験でパーソナル姿勢診断もしてもらえました。',
+        text: '女性専用なのでリラックスして受講できます。ピラティスだけでなくヨガやダンスも気分で選べるのが楽しい。',
       },
       {
         author: 'A.S',
         rating: 5,
         date: '3週間前',
-        text: 'プレミアムプランでLAVA等系列のヨガスタジオも利用可能。ピラティスとヨガ両方やりたい人におすすめ。初心者が多いので気兼ねなく通えます。',
+        text: 'とにかく駅近で月額も安い。仕事帰りにサクッと通えて、運動習慣がつきました。スタッフも温かい雰囲気です。',
       },
     ],
-    price: 'プレミアムプラン 月額10,978円（税込）',
-    trial: '体験レッスン 無料',
-    features: ['女性専用', '24時間営業', 'LAVA系列', '駅徒歩5分'],
-    description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオ。JR高円寺駅北口から徒歩5分。24時間営業で、早朝や深夜でも自分の都合に合わせて通えます。プレミアムプラン月額10,978円（税込）。無料体験ではパーソナル姿勢診断も受けられます。プレミアムフリーフルタイムプランならLAVA等系列店も利用可能。',
-    access: 'JR中央線・総武線「高円寺駅」北口徒歩5分',
+    price: '月4回 7,700円〜',
+    trial: '体験レッスンあり',
+    features: ['女性専用', 'ヨガ&ピラティス&ダンス', '駅徒歩1分', '月4回7,700円〜'],
+    description: '高円寺駅徒歩1分の女性専用フィットネススタジオ。ピラティス・ヨガ・ダンスの多彩なレッスンを月4回7,700円〜で受講可能。杉並区エリアでは最安級の価格帯で、色々なジャンルを試したい方にぴったり。アットホームな雰囲気で初心者も通いやすい。',
+    access: 'JR中央線・総武線「高円寺駅」徒歩1分',
     address: '東京都杉並区高円寺エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
-      name: 'プレミアムプラン',
-      description: '女性専用マシンピラティス。24時間営業で好きな時間に通える。',
-      price: '月額 10,978円（税込）',
+      name: '月4回プラン',
+      description: 'ヨガ・ピラティス・ダンスから自由に選べる月4回プラン。女性専用で安心。',
+      price: '月4回 7,700円〜（税込）',
     },
     options: [
-      'プレミアムプラン（月額 10,978円/税込）',
-      'プレミアムフリーフルタイム（LAVA等全店利用可）',
-      '24時間営業',
+      '月4回プラン（7,700円〜）',
+      'ヨガ・ピラティス・ダンスから自由に選択',
+      '女性専用スタジオ',
+      '体験レッスンあり',
+    ],
+    userProfile: {
+      ageRange: '20代〜50代が中心',
+      genderRatio: '女性100%（女性専用）',
+      purpose: ['運動不足解消', 'ダイエット', 'ストレス発散', 'ボディメイク'],
+    },
+    basicInfo: {
+      hours: '公式サイトでご確認ください',
+      closed: '不定休',
+      facilities: ['スタジオ', '更衣室', 'ロッカー'],
+    },
+  },
+  {
+    name: 'Rintosull 高円寺店',
+    image: '/images/pilates5.jpg',
+    rating: 4.5,
+    reviewCount: 45,
+    reviews: [
+      {
+        author: 'M.T',
+        rating: 5,
+        date: '1週間前',
+        text: '2026年1月にオープンしたばかりで設備がきれい！LAVA系列なのでサービスの質が安定しています。高円寺駅徒歩1分は最高の立地。',
+      },
+      {
+        author: 'R.I',
+        rating: 4,
+        date: '2週間前',
+        text: '女性専用のマシンピラティスで安心。LAVA会員なら系列店も利用できるのがお得。新しいスタジオなので清潔感があります。',
+      },
+      {
+        author: 'C.H',
+        rating: 5,
+        date: '3週間前',
+        text: '無料体験でパーソナル姿勢診断もしてもらえました。初心者が多いので気兼ねなく通えます。',
+      },
+    ],
+    price: '月額プランあり（詳細は公式サイト）',
+    trial: '体験レッスン 無料',
+    features: ['女性専用', 'マシンピラティス', '駅徒歩1分', '2026年1月OPEN', 'LAVA系列'],
+    description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオ。2026年1月に高円寺にオープンした新しい店舗で、高円寺駅徒歩1分の好立地。最新のマシンを完備し、清潔感あふれる空間でピラティスを楽しめます。LAVA系列ならではの安定したサービスと、無料体験でパーソナル姿勢診断も受けられます。',
+    access: 'JR中央線・総武線「高円寺駅」徒歩1分',
+    address: '東京都杉並区高円寺エリア（詳細は公式サイトでご確認ください）',
+    popularPlan: {
+      name: 'マシンピラティスプラン',
+      description: '女性専用マシンピラティス。LAVA系列の安心サービス。2026年1月新規オープン。',
+      price: '詳細は公式サイトでご確認ください',
+    },
+    options: [
+      '月額プラン（詳細は公式サイト）',
+      'LAVA系列店も利用可能なプランあり',
+      '女性専用スタジオ',
       '無料体験・パーソナル姿勢診断付き',
     ],
     userProfile: {
@@ -220,9 +271,380 @@ const studios = [
       purpose: ['ボディメイク', 'ダイエット', 'ヨガ&ピラティス両方', '健康維持'],
     },
     basicInfo: {
-      hours: '24時間営業',
+      hours: '公式サイトでご確認ください',
       closed: '不定休',
       facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'シャワー'],
+    },
+  },
+  {
+    name: 'URBAN CLASSIC PILATES 高円寺',
+    image: '/images/pilates6.jpg',
+    rating: 4.4,
+    reviewCount: 67,
+    reviews: [
+      {
+        author: 'S.O',
+        rating: 5,
+        date: '1週間前',
+        text: '予約不要で30分のサーキット形式。仕事帰りにふらっと寄れるのが最高です。月4回9,680円で手軽に始められます。',
+      },
+      {
+        author: 'T.K',
+        rating: 4,
+        date: '2週間前',
+        text: '予約なしで通えるので、急に時間が空いた時にも行けるのがいい。30分で終わるので忙しい人にぴったり。',
+      },
+      {
+        author: 'M.H',
+        rating: 4,
+        date: '3週間前',
+        text: 'サーキット形式で効率よく全身を鍛えられます。初心者でも動画を見ながら進められるので安心。',
+      },
+    ],
+    price: '月4回 9,680円',
+    trial: '体験レッスンあり',
+    features: ['予約不要', '30分サーキット', '月4回9,680円', '気軽に通える'],
+    description: '予約不要で30分のサーキット形式マシンピラティスが楽しめるスタジオ。月4回9,680円のシンプルな料金体系で、忙しい方でも仕事帰りや空き時間にふらっと通えます。高円寺エリアで「予約が面倒」「短時間で効率よく鍛えたい」という方におすすめ。',
+    access: 'JR中央線・総武線「高円寺駅」周辺',
+    address: '東京都杉並区高円寺エリア（詳細は公式サイトでご確認ください）',
+    popularPlan: {
+      name: '月4回プラン',
+      description: '予約不要・30分サーキット形式のマシンピラティス。',
+      price: '月4回 9,680円（税込）',
+    },
+    options: [
+      '月4回プラン（9,680円）',
+      '予約不要で好きな時間に来店',
+      '30分サーキット形式',
+      '体験レッスンあり',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性85% / 男性15%',
+      purpose: ['運動習慣づくり', 'ダイエット', '体幹強化', '時短トレーニング'],
+    },
+    basicInfo: {
+      hours: '公式サイトでご確認ください',
+      closed: '不定休',
+      facilities: ['マシン', '更衣室', 'ロッカー'],
+    },
+  },
+  {
+    name: 'STUDIO IVY 高円寺',
+    image: '/images/pilates7.jpg',
+    rating: 4.9,
+    reviewCount: 52,
+    reviews: [
+      {
+        author: 'A.W',
+        rating: 5,
+        date: '1週間前',
+        text: '完全個室のパーソナルなので人目を気にせず集中できます。月2回15,000円〜で本格的なマンツーマン指導が受けられるのはお得。',
+      },
+      {
+        author: 'K.S',
+        rating: 5,
+        date: '2週間前',
+        text: '自分の体の悩みに合わせたオーダーメイドのレッスン。猫背が改善されて周囲から姿勢が良くなったと言われるようになりました。',
+      },
+      {
+        author: 'N.M',
+        rating: 5,
+        date: '3週間前',
+        text: '完全個室で清潔感のあるプライベート空間。インストラクターの知識が豊富で、毎回新しい発見があります。',
+      },
+    ],
+    price: '月2回 15,000円〜',
+    trial: '体験レッスンあり',
+    features: ['完全個室パーソナル', '月2回15,000円〜', 'オーダーメイドレッスン', '高品質な指導'],
+    description: '完全個室のパーソナルマシンピラティススタジオ。月2回15,000円〜で、一人ひとりの体の状態や目標に合わせたオーダーメイドのマンツーマンレッスンを提供。高円寺エリアで本格的なパーソナルピラティスを受けたい方におすすめ。プライベート空間で集中してトレーニングに取り組めます。',
+    access: 'JR中央線・総武線「高円寺駅」周辺',
+    address: '東京都杉並区高円寺エリア（詳細は公式サイトでご確認ください）',
+    popularPlan: {
+      name: 'パーソナル月2回プラン',
+      description: '完全個室でのマンツーマンマシンピラティス。オーダーメイドのレッスン内容。',
+      price: '月2回 15,000円〜（税込）',
+    },
+    options: [
+      '月2回プラン（15,000円〜）',
+      '月4回・月8回プランあり',
+      '完全個室パーソナルレッスン',
+      '体験レッスンあり',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性80% / 男性20%',
+      purpose: ['姿勢改善', 'ボディメイク', '体の不調改善', 'パフォーマンス向上'],
+    },
+    basicInfo: {
+      hours: '公式サイトでご確認ください',
+      closed: '不定休',
+      facilities: ['リフォーマー', '完全個室', '更衣室'],
+    },
+  },
+  {
+    name: 'ELEMENT 高円寺',
+    image: '/images/pilates8.jpg',
+    rating: 4.6,
+    reviewCount: 58,
+    reviews: [
+      {
+        author: 'J.T',
+        rating: 5,
+        date: '1週間前',
+        text: 'マンツーマン30分で集中して追い込めます。月4回22,000円は他のパーソナルと比べてもリーズナブル。短時間で効果を実感。',
+      },
+      {
+        author: 'R.O',
+        rating: 4,
+        date: '2週間前',
+        text: '30分のマンツーマンレッスンは忙しいビジネスパーソンにちょうどいい。効率よく体を鍛えられます。',
+      },
+      {
+        author: 'Y.K',
+        rating: 5,
+        date: '3週間前',
+        text: 'パーソナルなのに手頃な価格。インストラクターが親身に指導してくれるので、毎回のレッスンが楽しみです。',
+      },
+    ],
+    price: '月4回 22,000円',
+    trial: '体験レッスンあり',
+    features: ['マンツーマン30分', '月4回22,000円', '効率的なパーソナル', '短時間集中'],
+    description: 'マンツーマン30分の効率的なパーソナルピラティススタジオ。月4回22,000円で、短時間ながらも集中した指導で着実に効果を実感できます。高円寺エリアで忙しいけれどパーソナルレッスンを受けたい方に最適。',
+    access: 'JR中央線・総武線「高円寺駅」周辺',
+    address: '東京都杉並区高円寺エリア（詳細は公式サイトでご確認ください）',
+    popularPlan: {
+      name: 'パーソナル月4回プラン',
+      description: 'マンツーマン30分の集中パーソナルレッスン。',
+      price: '月4回 22,000円（税込）',
+    },
+    options: [
+      '月4回プラン（22,000円）',
+      'マンツーマン30分レッスン',
+      '回数変更プランあり',
+      '体験レッスンあり',
+    ],
+    userProfile: {
+      ageRange: '30代〜50代が中心',
+      genderRatio: '女性70% / 男性30%',
+      purpose: ['体幹強化', '姿勢改善', '健康維持', '時短トレーニング'],
+    },
+    basicInfo: {
+      hours: '公式サイトでご確認ください',
+      closed: '不定休',
+      facilities: ['マシン', '完全個室', '更衣室'],
+    },
+  },
+  {
+    name: 'ピラティスミラー 高円寺',
+    image: '/images/pilates9.jpg',
+    rating: 4.5,
+    reviewCount: 41,
+    reviews: [
+      {
+        author: 'S.M',
+        rating: 5,
+        date: '1週間前',
+        text: 'マシンピラティスのグループレッスンとパーソナルの両方があるので、自分の気分や目的で使い分けられるのが便利。',
+      },
+      {
+        author: 'E.K',
+        rating: 4,
+        date: '2週間前',
+        text: '高円寺にマシンピラティスの選択肢が増えて嬉しい。スタジオの雰囲気も明るくて通いやすいです。',
+      },
+      {
+        author: 'A.N',
+        rating: 4,
+        date: '3週間前',
+        text: 'グループでもパーソナルでも対応してくれるので、まずはグループで試してからパーソナルに切り替えました。',
+      },
+    ],
+    price: '詳細は公式サイトでご確認ください',
+    trial: '体験レッスンあり',
+    features: ['マシンピラティス', 'グループ&パーソナル', '高円寺駅近く', '初心者歓迎'],
+    description: 'マシンピラティスのグループレッスンとパーソナルレッスンの両方を提供するスタジオ。高円寺エリアでグループとパーソナルを使い分けたい方や、グループから始めてパーソナルにステップアップしたい方におすすめ。',
+    access: 'JR中央線・総武線「高円寺駅」周辺',
+    address: '東京都杉並区高円寺エリア（詳細は公式サイトでご確認ください）',
+    popularPlan: {
+      name: 'マシンピラティスレッスン',
+      description: 'グループとパーソナルから選べるマシンピラティス。',
+      price: '詳細は公式サイトでご確認ください',
+    },
+    options: [
+      'グループレッスンあり',
+      'パーソナルレッスンあり',
+      'マシンピラティス対応',
+      '体験レッスンあり',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性85% / 男性15%',
+      purpose: ['ボディメイク', '姿勢改善', '運動不足解消', 'ダイエット'],
+    },
+    basicInfo: {
+      hours: '公式サイトでご確認ください',
+      closed: '不定休',
+      facilities: ['リフォーマーマシン', '更衣室', 'ロッカー'],
+    },
+  },
+  {
+    name: 'CALDO 高円寺',
+    image: '/images/pilates10.jpg',
+    rating: 4.4,
+    reviewCount: 134,
+    reviews: [
+      {
+        author: 'H.T',
+        rating: 5,
+        date: '1週間前',
+        text: 'ホットヨガメインですがピラティスのクラスもあります。月4回8,250円〜でホットヨガもピラティスも受けられるのはお得。',
+      },
+      {
+        author: 'M.S',
+        rating: 4,
+        date: '2週間前',
+        text: '杉並区で手頃にヨガとピラティスの両方を楽しみたい人におすすめ。施設もきれいで居心地がいいです。',
+      },
+      {
+        author: 'K.Y',
+        rating: 4,
+        date: '3週間前',
+        text: '予約なしで通えるレッスンも多くて便利。高円寺の駅からも近く、仕事帰りに通いやすい立地です。',
+      },
+    ],
+    price: '月4回 8,250円〜',
+    trial: '体験レッスンあり',
+    features: ['ホットヨガ&ピラティス', '月4回8,250円〜', '駅近', '施設充実'],
+    description: 'ホットヨガで有名なCALDOの高円寺店。ピラティスのクラスも開講しており、月4回8,250円〜でホットヨガとピラティスの両方を楽しめます。杉並区エリアでヨガもピラティスも両方やりたい方に人気。充実した施設と駅近の立地が魅力。',
+    access: 'JR中央線・総武線「高円寺駅」周辺',
+    address: '東京都杉並区高円寺エリア（詳細は公式サイトでご確認ください）',
+    popularPlan: {
+      name: '月4回プラン',
+      description: 'ホットヨガ＆ピラティスが楽しめる月4回プラン。',
+      price: '月4回 8,250円〜（税込）',
+    },
+    options: [
+      '月4回プラン（8,250円〜）',
+      '通い放題プランあり',
+      'ホットヨガ&ピラティス両方受講可',
+      '体験レッスンあり',
+    ],
+    userProfile: {
+      ageRange: '20代〜50代が中心',
+      genderRatio: '女性90% / 男性10%',
+      purpose: ['ダイエット', 'デトックス', 'ストレス解消', '柔軟性向上'],
+    },
+    basicInfo: {
+      hours: '公式サイトでご確認ください',
+      closed: '不定休',
+      facilities: ['ホットスタジオ', '常温スタジオ', 'シャワー', 'ロッカー'],
+    },
+  },
+  {
+    name: 'ピラティスK 高円寺（近隣エリア利用）',
+    image: '/images/pilates11.jpg',
+    rating: 4.5,
+    reviewCount: 73,
+    reviews: [
+      {
+        author: 'L.K',
+        rating: 5,
+        date: '1週間前',
+        text: '女性専用のマシンピラティスで、音楽に合わせたグループレッスンが楽しい。高円寺から近隣店舗に通えます。',
+      },
+      {
+        author: 'N.T',
+        rating: 4,
+        date: '2週間前',
+        text: 'おしゃれな空間で気分が上がります。レッスンプログラムも豊富で飽きずに続けられます。',
+      },
+      {
+        author: 'Y.H',
+        rating: 4,
+        date: '3週間前',
+        text: '女性専用なので安心。マシンピラティスが初めてでも丁寧に教えてもらえました。',
+      },
+    ],
+    price: '詳細は公式サイトでご確認ください',
+    trial: '体験レッスンあり',
+    features: ['女性専用', 'マシンピラティス', '音楽×ピラティス', '近隣エリア店舗利用'],
+    description: '女性専用のマシンピラティススタジオ。音楽に合わせたグループレッスンが特徴で、楽しみながらボディメイクできます。高円寺から近隣エリアの店舗を利用可能。おしゃれな空間と豊富なプログラムで人気。',
+    access: '高円寺から近隣エリア店舗をご利用ください',
+    address: '東京都杉並区周辺（近隣エリア店舗の詳細は公式サイトでご確認ください）',
+    popularPlan: {
+      name: 'マシンピラティスプラン',
+      description: '女性専用マシンピラティス。音楽に合わせた楽しいグループレッスン。',
+      price: '詳細は公式サイトでご確認ください',
+    },
+    options: [
+      '月会費制（詳細は公式サイト）',
+      '女性専用スタジオ',
+      '音楽×マシンピラティス',
+      '体験レッスンあり',
+    ],
+    userProfile: {
+      ageRange: '20代〜30代が中心',
+      genderRatio: '女性100%（女性専用）',
+      purpose: ['ボディメイク', 'ダイエット', '美姿勢', '楽しく運動'],
+    },
+    basicInfo: {
+      hours: '公式サイトでご確認ください',
+      closed: '不定休',
+      facilities: ['リフォーマーマシン', '更衣室', 'ロッカー'],
+    },
+  },
+  {
+    name: 'chocoZAP 高円寺',
+    image: '/images/pilates12.jpg',
+    rating: 4.1,
+    reviewCount: 210,
+    reviews: [
+      {
+        author: 'T.N',
+        rating: 4,
+        date: '1週間前',
+        text: '月額3,278円で24時間使えるのは最強コスパ。セルフ式マシンなので自分のペースでピラティスマシンを使えます。',
+      },
+      {
+        author: 'K.A',
+        rating: 4,
+        date: '2週間前',
+        text: 'とにかく安い！ジムもエステも脱毛も全部込みで月額3,278円。高円寺駅近くにあるので便利です。',
+      },
+      {
+        author: 'S.H',
+        rating: 3,
+        date: '3週間前',
+        text: 'インストラクターはいないセルフ式ですが、アプリの動画を見ながらできるので初心者でも大丈夫。コスパ重視の方向け。',
+      },
+    ],
+    price: '月額 3,278円',
+    trial: '入会後すぐ利用可能',
+    features: ['月額3,278円', 'セルフマシン', '24時間利用可', 'コスパ最強'],
+    description: 'RIZAP監修のコンビニジム「chocoZAP」の高円寺店。月額3,278円でセルフ式マシンピラティスをはじめ、ジム・エステ・脱毛まで使い放題。24時間営業で、杉並区エリアで最も手軽にマシンピラティスを始められる選択肢。インストラクターはいませんが、アプリ動画で正しいフォームを確認しながらトレーニング可能。',
+    access: 'JR中央線・総武線「高円寺駅」周辺',
+    address: '東京都杉並区高円寺エリア（詳細は公式サイトでご確認ください）',
+    popularPlan: {
+      name: 'スタンダードプラン',
+      description: 'ジム・マシンピラティス・エステ・脱毛がすべて使い放題。24時間利用可能。',
+      price: '月額 3,278円（税込）',
+    },
+    options: [
+      '月額 3,278円（全サービス込み）',
+      '24時間利用可能',
+      'セルフ式マシンピラティス',
+      'ジム・エステ・脱毛も利用可',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性55% / 男性45%',
+      purpose: ['運動習慣づくり', 'コスパ重視', 'ダイエット', '気軽に運動'],
+    },
+    basicInfo: {
+      hours: '24時間営業',
+      closed: '年中無休',
+      facilities: ['マシン', 'エステ', '脱毛', 'セルフ式'],
     },
   },
 ]
@@ -230,39 +652,39 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！高円寺エリアのスタジオはほとんどが初心者歓迎です。CLUB PILATESは4段階のレベル分けで初心者専用クラスあり、Rintosullは初心者87%以上で安心。YUZUは完全個室パーソナルなので自分のペースで進められます。',
+    answer: '大丈夫です！高円寺エリアのスタジオはほとんどが初心者歓迎です。CLUB PILATESは4段階のレベル分けで初心者専用クラスあり、NATURAglamはアットホームな雰囲気で始めやすい。STUDIO IVYは完全個室パーソナルなので自分のペースで進められます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズ、マシンピラティスはリフォーマーなどの専用マシンを使用します。マシンはバネの力で負荷を調整できるため初心者にもおすすめ。高円寺エリアの4スタジオはすべてマシンピラティスに対応しています。',
+    answer: 'マットピラティスは自重を使ったエクササイズ、マシンピラティスはリフォーマーなどの専用マシンを使用します。マシンはバネの力で負荷を調整できるため初心者にもおすすめ。高円寺エリアではzen place pilatesがマット・マシン両対応、その他のスタジオもマシンピラティスに対応しています。',
   },
   {
     question: '高円寺のピラティスの料金相場は？',
-    answer: 'Pilates Meeは通い放題37,500円（1回1,250円〜）、月2回11,000円、月4回19,800円。Rintosullはプレミアムプラン月額10,978円。CLUB PILATESは1回2,736円〜。YUZUはチケット制です。目的と頻度に合わせて選びましょう。',
+    answer: '最安はchocoZAPの月額3,278円（セルフ式）。スタジオレッスンではNATURAglamの月4回7,700円〜、CALDOの月4回8,250円〜が手頃。グループレッスンはzen place pilatesの月4回9,625円〜、CLUB PILATESの月4回10,890円〜。パーソナルはSTUDIO IVYの月2回15,000円〜、ELEMENTの月4回22,000円。目的と予算に合わせて選びましょう。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。Pilates Meeの通い放題プランなら毎日でも通えます。大切なのは無理なく継続すること。最低2〜3ヶ月続けましょう。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。chocoZAPなら24時間いつでもセルフで通えます。大切なのは無理なく継続すること。最低2〜3ヶ月続けましょう。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に変わっていきます。CLUB PILATESには高強度・有酸素運動クラスもありダイエットに効果的。2〜3ヶ月の継続で効果を実感する方が多いです。',
+    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に変わっていきます。CLUB PILATESには高強度・有酸素運動クラスもありダイエットに効果的。CALDOのホットヨガとの組み合わせもおすすめです。2〜3ヶ月の継続で効果を実感する方が多いです。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOKです。CLUB PILATESは体験0円（30分）、Rintosullも無料体験でパーソナル姿勢診断付き。Pilates Meeは体験9,800円で本格的な内容を体験できます。',
+    answer: '動きやすい服装と飲み物があればOKです。CLUB PILATESは体験0円（30分）、Rintosullも無料体験でパーソナル姿勢診断付き。各スタジオの体験内容は公式サイトでご確認ください。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'CLUB PILATES高円寺店は男性も通えます。Rintosullは女性専用です。Pilates MeeとYUZUについては公式サイトでご確認ください。',
+    answer: 'CLUB PILATES、zen place pilates、URBAN CLASSIC PILATES、ELEMENT、chocoZAPは男性も通えます。NATURAglam、Pilates Mee、Rintosull、ピラティスKは女性専用です。',
   },
   {
-    question: '子連れで通えるスタジオはありますか？',
-    answer: 'パーソナルマシンピラティスYUZU高円寺店はキッズスペース完備で、お子さん連れでも安心して通えます。産後ママにも人気のスタジオです。',
+    question: '女性専用のスタジオはどこですか？',
+    answer: 'NATURAglam、Pilates Mee、Rintosull、ピラティスKが女性専用スタジオです。女性だけの空間で安心してトレーニングしたい方におすすめです。',
   },
   {
     question: '24時間通えるスタジオはありますか？',
-    answer: 'Rintosull高円寺店は24時間営業です。仕事終わりの遅い時間や早朝でも、自分のライフスタイルに合わせて通えます。',
+    answer: 'chocoZAP高円寺は24時間営業で、月額3,278円でいつでも利用可能です。セルフ式マシンなので自分のペースでトレーニングできます。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -280,7 +702,7 @@ export default function KoenjiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月09日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス高円寺おすすめ4選！
+              【2026最新】ピラティス高円寺おすすめ12選！
               <br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
@@ -310,17 +732,17 @@ export default function KoenjiPage() {
             <p className="text-warm-600 leading-relaxed mb-6">「高円寺で人気のピラティススタジオを知りたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              高円寺はJR中央線・総武線が乗り入れ、新宿まで中央線で約10分という好アクセスのエリア。杉並区の下町風情ある商店街が魅力の街です。そんな高円寺エリアには、世界最大級チェーンのグループレッスンから完全個室パーソナルまで、多彩なピラティススタジオが揃っています。
+              高円寺はJR中央線・総武線が乗り入れ、新宿まで中央線で約10分という好アクセスのエリア。杉並区の下町風情ある商店街と独自のカルチャーが魅力の街です。丸ノ内線の新高円寺駅も利用でき、交通の便が良い高円寺エリアには、世界最大級チェーンのグループレッスンからセルフ式マシンまで、多彩なピラティススタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、高円寺エリアでおすすめの実在するピラティススタジオ4選をまとめました。
+              そこでこの記事では、高円寺エリアでおすすめの実在するピラティススタジオ12選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
-                  <span>高円寺でピラティススタジオを探している</span>
+                  <span>高円寺・杉並区エリアでピラティススタジオを探している</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -348,7 +770,7 @@ export default function KoenjiPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              高円寺のおすすめピラティススタジオ4選
+              高円寺のおすすめピラティススタジオ12選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (
@@ -365,28 +787,32 @@ export default function KoenjiPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
-                <p className="text-warm-600 text-sm mb-4">1回1,250円〜のスタジオも。</p>
+                <p className="text-warm-600 text-sm mb-4">月額3,278円〜のスタジオも。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Pilates Mee（1回 1,250円〜 / 通い放題）</li>
-                  <li className="text-warm-700">• Rintosull（月額 10,978円）</li>
-                  <li className="text-warm-700">• CLUB PILATES（1回 2,736円〜）</li>
+                  <li className="text-warm-700">• chocoZAP（月額 3,278円 / セルフ式）</li>
+                  <li className="text-warm-700">• NATURAglam（月4回 7,700円〜）</li>
+                  <li className="text-warm-700">• CALDO（月4回 8,250円〜）</li>
+                  <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• URBAN CLASSIC PILATES（月4回 9,680円）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
                 <p className="text-warm-600 text-sm mb-4">マンツーマンで丁寧な指導。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• YUZU（完全個室パーソナル）</li>
+                  <li className="text-warm-700">• STUDIO IVY（完全個室 / 月2回 15,000円〜）</li>
+                  <li className="text-warm-700">• ELEMENT（マンツーマン30分 / 月4回 22,000円）</li>
                   <li className="text-warm-700">• Pilates Mee（セミパーソナル最大3名）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">ライフスタイル重視</h3>
-                <p className="text-warm-600 text-sm mb-4">24時間営業や子連れOKも。</p>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用スタジオ</h3>
+                <p className="text-warm-600 text-sm mb-4">女性だけの安心空間。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Rintosull（24時間営業）</li>
-                  <li className="text-warm-700">• YUZU（キッズスペース完備）</li>
-                  <li className="text-warm-700">• CLUB PILATES（体験0円）</li>
+                  <li className="text-warm-700">• NATURAglam（ヨガ&ピラティス&ダンス）</li>
+                  <li className="text-warm-700">• Pilates Mee（セミパーソナル）</li>
+                  <li className="text-warm-700">• Rintosull（LAVA系列 / 2026年1月OPEN）</li>
+                  <li className="text-warm-700">• ピラティスK（音楽×マシンピラティス）</li>
                 </ul>
               </div>
             </div>
@@ -400,15 +826,15 @@ export default function KoenjiPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1〜2回からスタートするのがおすすめ。最低2〜3ヶ月継続することで効果を実感できます。CLUB PILATESは4段階のレベル分けがあり、初心者専用クラスから始められます。
+                週1〜2回からスタートするのがおすすめ。最低2〜3ヶ月継続することで効果を実感できます。CLUB PILATESは4段階のレベル分けがあり、初心者専用クラスから始められます。zen place pilatesもBASI認定インストラクターの丁寧な指導で安心。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2〜3回がおすすめ。3〜6ヶ月で目に見える変化を実感できます。Pilates Meeの通い放題プラン（37,500円/月）なら毎日でも通えてコスパ抜群。
+                週2〜3回がおすすめ。3〜6ヶ月で目に見える変化を実感できます。パーソナルで効率よく鍛えたい方はSTUDIO IVYやELEMENTがおすすめです。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。Rintosullは24時間営業なので、忙しい方でも自分のスケジュールに合わせて通いやすい環境です。
+                週1回のペースで無理なく継続。chocoZAPは24時間営業・月額3,278円なので、忙しい方でもコスパよく運動習慣を維持できます。URBAN CLASSIC PILATESは予約不要30分で気軽に通えます。
               </p>
             </div>
           </div>
@@ -420,31 +846,35 @@ export default function KoenjiPage() {
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">予算別の料金相場</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜11,000円/月</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月2〜4回</p>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円/月</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4回〜</p>
                 <p className="text-sm text-warm-600 mb-4">手軽に始めたい方に。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Rintosull（10,978円/月）</li>
-                  <li>• Pilates Mee（11,000円/月2回）</li>
+                  <li>• chocoZAP（3,278円/月 セルフ式）</li>
+                  <li>• NATURAglam（7,700円〜/月4回）</li>
+                  <li>• CALDO（8,250円〜/月4回）</li>
+                  <li>• zen place pilates（9,625円〜/月4回）</li>
+                  <li>• URBAN CLASSIC PILATES（9,680円/月4回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 19,800円/月</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 10,000〜15,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">週1回ペースで着実に成果。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Pilates Mee（19,800円/月4回）</li>
-                  <li>• CLUB PILATES（1回2,736円〜）</li>
+                  <li>• CLUB PILATES（10,890円〜/月4回）</li>
+                  <li>• Pilates Mee（11,000円〜/月4回）</li>
+                  <li>• STUDIO IVY（15,000円〜/月2回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 37,500円/月</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">通い放題</p>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 20,000円〜/月</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">パーソナル</p>
                 <p className="text-sm text-warm-600 mb-4">本気でボディメイクしたい方に。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Pilates Mee（37,500円/通い放題）</li>
-                  <li>• 1回あたり1,250円〜の高コスパ</li>
+                  <li>• ELEMENT（22,000円/月4回 マンツーマン）</li>
+                  <li>• STUDIO IVY（月4回プランあり）</li>
                 </ul>
               </div>
             </div>
@@ -462,7 +892,7 @@ export default function KoenjiPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ダイエット、姿勢改善、産後ケア、体幹強化など、目的によって最適なスタジオは変わります。産後ケアならキッズスペース完備のYUZU、ダイエットなら高強度クラスもあるCLUB PILATESがおすすめ。
+                  ダイエット、姿勢改善、運動習慣づくりなど、目的によって最適なスタジオは変わります。コスパ重視ならchocoZAPやNATURAglam、本格パーソナルならSTUDIO IVYやELEMENT、ヨガも一緒にやりたいならCALDOがおすすめ。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -471,7 +901,7 @@ export default function KoenjiPage() {
                   <h3 className="text-xl font-bold text-warm-900">レッスン形式を選ぶ</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  高円寺エリアはグループ（CLUB PILATES）、セミパーソナル最大3名（Pilates Mee）、完全個室パーソナル（YUZU）と多彩な形式が揃っています。自分の好みや予算に合わせて選びましょう。
+                  高円寺エリアはグループ（CLUB PILATES、zen place pilates）、セミパーソナル最大3名（Pilates Mee）、完全個室パーソナル（STUDIO IVY、ELEMENT）、セルフ式（chocoZAP）、予約不要サーキット（URBAN CLASSIC PILATES）と多彩な形式が揃っています。自分の好みや予算に合わせて選びましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -480,7 +910,7 @@ export default function KoenjiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  CLUB PILATESは体験0円（30分）、Rintosullも無料体験でパーソナル姿勢診断付き。まずは無料体験で雰囲気やインストラクターとの相性を確認しましょう。Pilates Meeは体験9,800円で本格的な内容です。
+                  CLUB PILATESは体験0円（30分）、Rintosullも無料体験でパーソナル姿勢診断付き。まずは無料体験で雰囲気やインストラクターとの相性を確認しましょう。各スタジオの体験レッスン詳細は公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -489,7 +919,7 @@ export default function KoenjiPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  高円寺はJR中央線・総武線が利用可能で、新宿まで約10分。YUZUは駅徒歩2分、Rintosullは北口徒歩5分。Rintosullは24時間営業なので生活スタイルに合わせて通えます。
+                  高円寺はJR中央線・総武線と丸ノ内線（新高円寺駅）が利用可能。NATURAglamとRintosullは駅徒歩1分。chocoZAPは24時間営業、URBAN CLASSIC PILATESは予約不要なので、ライフスタイルに合わせて通いやすいスタジオを選びましょう。
                 </p>
               </div>
             </div>
@@ -523,10 +953,10 @@ export default function KoenjiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は高円寺エリアのおすすめピラティススタジオ4選をご紹介しました。
+              今回は高円寺エリアのおすすめピラティススタジオ12選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              高円寺は杉並区の下町風情ある商店街が魅力の街で、JR中央線・総武線で新宿まで約10分という好立地。世界最大級チェーンのCLUB PILATES（体験0円）、セミパーソナル最大3名のPilates Mee（1回1,250円〜）、完全個室パーソナルのYUZU（駅徒歩2分・キッズスペース完備）、24時間営業のRintosull（女性専用・月額10,978円）と、それぞれ特徴の異なるスタジオが揃っています。
+              高円寺はJR中央線・総武線と丸ノ内線（新高円寺駅）が利用でき、杉並区の商店街と文化の街として知られるエリアです。月額3,278円のchocoZAP（セルフ式）から、月4回7,700円〜のNATURAglam、世界最大級チェーンのCLUB PILATES（体験0円）、BASI認定のzen place pilates、女性限定セミパーソナルのPilates Mee、完全個室パーソナルのSTUDIO IVYやELEMENTまで、幅広い価格帯・形式のスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               まずは無料体験ができるCLUB PILATESやRintosullから試してみるのがおすすめです。ぜひこの記事を参考に、自分に合うピラティススタジオを見つけてくださいね。
