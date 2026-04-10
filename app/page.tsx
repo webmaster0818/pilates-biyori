@@ -181,7 +181,7 @@ export default function Home() {
                 <Link href="/articles/pilates-yoga-difference" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
-                      <img src="/images/pilates2.jpg" alt="ピラティス基礎知識" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                      <img src="/images/articles/pilates-yoga-difference.png" alt="ピラティス基礎知識" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
                     </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
@@ -198,7 +198,7 @@ export default function Home() {
                 <Link href="/articles/mat-machine-difference" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
-                      <img src="/images/pilates2.jpg" alt="ピラティス基礎知識" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                      <img src="/images/articles/mat-machine-difference.png" alt="ピラティス基礎知識" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
                     </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
@@ -215,7 +215,7 @@ export default function Home() {
                 <Link href="/articles/machine-pilates-beginner" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
-                      <img src="/images/pilates2.jpg" alt="ピラティス基礎知識" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                      <img src="/images/articles/machine-pilates-beginner.png" alt="ピラティス基礎知識" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
                     </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
@@ -232,7 +232,7 @@ export default function Home() {
                 <Link href="/articles/pilates-frequency" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
-                      <img src="/images/pilates2.jpg" alt="ピラティス基礎知識" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                      <img src="/images/articles/pilates-frequency.png" alt="ピラティス基礎知識" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
                     </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
@@ -249,7 +249,7 @@ export default function Home() {
                 <Link href="/articles/pilates-beginner-home" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
-                      <img src="/images/pilates2.jpg" alt="ピラティス基礎知識" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                      <img src="/images/articles/pilates-beginner-home.png" alt="ピラティス基礎知識" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
                     </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
@@ -272,7 +272,7 @@ export default function Home() {
                 <Link href="/articles/pilates-effect-when" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
-                      <img src="/images/pilates3.jpg" alt="ピラティス効果" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                      <img src="/images/articles/pilates-effect-when.png" alt="ピラティス効果" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
                     </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
@@ -289,7 +289,7 @@ export default function Home() {
                 <Link href="/articles/pilates-daily-effect" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
-                      <img src="/images/pilates3.jpg" alt="ピラティス効果" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                      <img src="/images/articles/pilates-daily-effect.png" alt="ピラティス効果" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
                     </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
@@ -306,7 +306,7 @@ export default function Home() {
                 <Link href="/articles/pilates-diet-effect" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
-                      <img src="/images/pilates3.jpg" alt="ピラティス効果" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                      <img src="/images/articles/pilates-diet-effect.png" alt="ピラティス効果" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
                     </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
@@ -323,7 +323,7 @@ export default function Home() {
                 <Link href="/articles/pilates-posture-effect" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
-                      <img src="/images/pilates3.jpg" alt="ピラティス効果" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                      <img src="/images/articles/pilates-posture-effect.png" alt="ピラティス効果" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
                     </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
@@ -340,7 +340,7 @@ export default function Home() {
                 <Link href="/articles/pilates-back-pain" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
-                      <img src="/images/pilates3.jpg" alt="ピラティス効果" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                      <img src="/images/articles/pilates-back-pain.png" alt="ピラティス効果" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
                     </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
@@ -357,7 +357,7 @@ export default function Home() {
                 <Link href="/articles/pilates-shoulder-pain" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
-                      <img src="/images/pilates3.jpg" alt="ピラティス効果" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                      <img src="/images/articles/pilates-shoulder-pain.png" alt="ピラティス効果" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
                     </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
@@ -380,7 +380,7 @@ export default function Home() {
                 <Link href="/articles/pilates-beginner-studio" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
-                      <img src="/images/pilates4.jpg" alt="ピラティススタジオ" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                      <img src="/images/articles/pilates-beginner-studio.png" alt="ピラティススタジオ" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
                     </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
@@ -397,7 +397,7 @@ export default function Home() {
                 <Link href="/articles/pilates-price" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
-                      <img src="/images/pilates4.jpg" alt="ピラティススタジオ" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                      <img src="/images/articles/pilates-price.png" alt="ピラティススタジオ" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
                     </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
@@ -414,7 +414,7 @@ export default function Home() {
                 <Link href="/articles/pilates-trial-lesson" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
-                      <img src="/images/pilates4.jpg" alt="ピラティススタジオ" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                      <img src="/images/articles/pilates-trial-lesson.png" alt="ピラティススタジオ" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
                     </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
@@ -431,7 +431,7 @@ export default function Home() {
                 <Link href="/articles/pilates-online" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
-                      <img src="/images/pilates4.jpg" alt="ピラティススタジオ" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
+                      <img src="/images/articles/pilates-online.png" alt="ピラティススタジオ" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
                     </div>
                     <div className="p-6">
                       <div className="flex items-center gap-3 mb-3">
