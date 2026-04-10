@@ -5,7 +5,7 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】ピラティス荻窪おすすめ7選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
+  title: '【2026最新】ピラティス荻窪おすすめ7選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
   description: '荻窪エリアのおすすめピラティススタジオ7選を徹底比較。2024年11月拡張移転の最新スタジオも。マシンピラティス、体験レッスン、料金相場、アクセスまで完全ガイド。',
   keywords: 'ピラティス,荻窪,東京,杉並区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -493,7 +493,7 @@ export default function OgikuboAreaPage() {
               こんにちは。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates Navi編集部です！
+              Pilates-Biyori編集部です！
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               あなたは、

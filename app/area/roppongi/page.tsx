@@ -5,7 +5,7 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】ピラティス六本木おすすめ12選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
+  title: '【2026最新】ピラティス六本木おすすめ12選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
   description: '六本木エリアのおすすめピラティススタジオ12選を徹底比較。マシンピラティス、パーソナル、グループレッスン、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,六本木,東京,港区,スタジオ,おすすめ,マシンピラティス,パーソナル,体験レッスン,料金,比較',
 }
@@ -487,7 +487,7 @@ export default function RoppongiPage() {
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">六本木</span></nav></div></section>
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p><p className="text-warm-600 leading-relaxed mb-6">Pilates Navi編集部です！</p><p className="text-warm-600 leading-relaxed mb-6">あなたは、</p><p className="text-warm-600 leading-relaxed font-medium mb-6">「六本木でピラティスを始めたい」</p><p className="text-warm-600 leading-relaxed mb-6">「六本木ヒルズや東京ミッドタウンの近くで通えるスタジオを探している」</p><p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p><p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、東京メトロ日比谷線・都営大江戸線「六本木駅」周辺でおすすめのピラティススタジオ12選をまとめました。六本木ヒルズや東京ミッドタウンに近い港区の国際色豊かなエリアで、パーソナル専門からグループレッスン、女性専用スタジオまで、自分にぴったりのスタジオを見つけましょう。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p><p className="text-warm-600 leading-relaxed mb-6">Pilates-Biyori編集部です！</p><p className="text-warm-600 leading-relaxed mb-6">あなたは、</p><p className="text-warm-600 leading-relaxed font-medium mb-6">「六本木でピラティスを始めたい」</p><p className="text-warm-600 leading-relaxed mb-6">「六本木ヒルズや東京ミッドタウンの近くで通えるスタジオを探している」</p><p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p><p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、東京メトロ日比谷線・都営大江戸線「六本木駅」周辺でおすすめのピラティススタジオ12選をまとめました。六本木ヒルズや東京ミッドタウンに近い港区の国際色豊かなエリアで、パーソナル専門からグループレッスン、女性専用スタジオまで、自分にぴったりのスタジオを見つけましょう。</p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
               <ul className="space-y-2 text-warm-700"><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>六本木でピラティススタジオを探している</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>パーソナルで丁寧に指導してほしい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>女性専用スタジオを探している</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較して選びたい</span></li></ul>

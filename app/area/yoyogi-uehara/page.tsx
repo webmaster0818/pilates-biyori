@@ -5,7 +5,7 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】ピラティス代々木上原おすすめ12選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
+  title: '【2026最新】ピラティス代々木上原おすすめ12選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
   description: '代々木上原エリアのおすすめピラティススタジオ12選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。代々木公園・代々木八幡・下北沢の近隣スタジオも紹介。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,代々木上原,東京,渋谷区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,代々木公園,代々木八幡,下北沢',
 }
@@ -353,7 +353,7 @@ export default function YoyogiUeharaPage() {
               こんにちは。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates Navi編集部です！
+              Pilates-Biyori編集部です！
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               あなたは、

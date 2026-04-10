@@ -517,7 +517,7 @@ export default async function KobeAreaPage() {
               こんにちは。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates Navi編集部です！
+              Pilates-Biyori編集部です！
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               あなたは、

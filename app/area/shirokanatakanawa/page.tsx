@@ -5,7 +5,7 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】ピラティス白金高輪おすすめ12選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
+  title: '【2026最新】ピラティス白金高輪おすすめ12選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
   description: '白金高輪エリアのおすすめピラティススタジオ12選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。白金台・高輪・麻布十番の周辺スタジオも紹介。',
   keywords: 'ピラティス,白金高輪,港区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,白金台,高輪',
 }
@@ -253,7 +253,7 @@ export default function ShirokanatakanwaPage() {
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">白金高輪</span></nav></div></section>
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p><p className="text-warm-600 leading-relaxed mb-6">Pilates Navi編集部です！</p><p className="text-warm-600 leading-relaxed mb-6">あなたは、</p><p className="text-warm-600 leading-relaxed font-medium mb-6">「白金高輪でピラティスを始めたい」</p><p className="text-warm-600 leading-relaxed mb-6">「閑静な住宅街の落ち着いたスタジオに通いたい」</p><p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p><p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、白金高輪エリアでおすすめのピラティススタジオ12選をまとめました。白金台・高輪・麻布十番など近隣エリアのスタジオも含めてご紹介します。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p><p className="text-warm-600 leading-relaxed mb-6">Pilates-Biyori編集部です！</p><p className="text-warm-600 leading-relaxed mb-6">あなたは、</p><p className="text-warm-600 leading-relaxed font-medium mb-6">「白金高輪でピラティスを始めたい」</p><p className="text-warm-600 leading-relaxed mb-6">「閑静な住宅街の落ち着いたスタジオに通いたい」</p><p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p><p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、白金高輪エリアでおすすめのピラティススタジオ12選をまとめました。白金台・高輪・麻布十番など近隣エリアのスタジオも含めてご紹介します。</p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
               <ul className="space-y-2 text-warm-700"><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>白金高輪でピラティススタジオを探している</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>上質な空間でトレーニングしたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較して自分に合うスタジオを見つけたい</span></li></ul>

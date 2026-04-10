@@ -6,7 +6,7 @@ export function Header() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="text-2xl font-bold text-purple-600">
-            Pilates Navi
+            Pilates-Biyori
           </Link>
           <nav className="hidden md:flex gap-6">
             <Link href="/basics" className="hover:text-purple-600">基礎知識</Link>

@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   }
 
   return {
-    title: `${article.frontmatter.title} | Pilates Navi`,
+    title: `${article.frontmatter.title} | Pilates-Biyori`,
     description: article.frontmatter.description,
     keywords: article.frontmatter.keywords,
   }
@@ -54,7 +54,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     dateModified: frontmatter.updatedAt || frontmatter.publishedAt,
     publisher: {
       '@type': 'Organization',
-      name: 'Pilates Navi',
+      name: 'Pilates-Biyori',
       logo: {
         '@type': 'ImageObject',
         url: 'https://pilates-biyori-deploy.pages.dev/logo.png',

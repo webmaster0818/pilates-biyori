@@ -5,7 +5,7 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】ピラティス沖縄おすすめ15選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
+  title: '【2026最新】ピラティス沖縄おすすめ15選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
   description: '沖縄エリアのおすすめピラティススタジオ15選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,沖縄,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -888,7 +888,7 @@ export default function OkinawaPage() {
               こんにちは。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates Navi編集部です！
+              Pilates-Biyori編集部です！
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               あなたは、

@@ -5,7 +5,7 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】ピラティス門前仲町おすすめ5選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
+  title: '【2026最新】ピラティス門前仲町おすすめ5選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
   description: '門前仲町エリアのおすすめピラティススタジオ5選を徹底比較。zen place pilates、the SILK、ピラティススタジオDIVA、YARD清澄白河、スタジオプラス清澄白河など実在スタジオの料金・体験レッスン・アクセスを完全ガイド。グループ・パーソナル・マットピラティスまで。',
   keywords: 'ピラティス,門前仲町,江東区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place pilates,the SILK,DIVA,YARD,スタジオプラス',
 }
@@ -357,7 +357,7 @@ export default function MonzenNakachoPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p>
-            <p className="text-warm-600 leading-relaxed mb-6">Pilates Navi編集部です！</p>
+            <p className="text-warm-600 leading-relaxed mb-6">Pilates-Biyori編集部です！</p>
             <p className="text-warm-600 leading-relaxed mb-6">あなたは、</p>
             <p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">「門前仲町で人気のピラティススタジオを知りたい」</p>

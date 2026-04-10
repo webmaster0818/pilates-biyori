@@ -5,7 +5,7 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】ピラティス阿佐ヶ谷おすすめ7選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
+  title: '【2026最新】ピラティス阿佐ヶ谷おすすめ7選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
   description: '阿佐ヶ谷・南阿佐ヶ谷エリアのおすすめピラティススタジオ7選を徹底比較。クラシカルピラティス専門、マシン専門パーソナル、全国150店舗相互利用のスタジオなど。体験レッスン、料金相場、アクセスまで完全ガイド。',
   keywords: 'ピラティス,阿佐ヶ谷,南阿佐ヶ谷,東京,杉並区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -468,7 +468,7 @@ export default function AsagayaAreaPage() {
               こんにちは。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates Navi編集部です！
+              Pilates-Biyori編集部です！
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               あなたは、

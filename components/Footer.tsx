@@ -6,7 +6,7 @@ export function Footer() {
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="font-bold mb-4">Pilates Navi</h3>
+            <h3 className="font-bold mb-4">Pilates-Biyori</h3>
             <p className="text-sm text-gray-600">
               初心者から経験者まで、あなたに最適なピラティスが見つかるメディア
             </p>
@@ -37,7 +37,7 @@ export function Footer() {
           </div>
         </div>
         <div className="border-t mt-8 pt-8 text-center text-sm text-gray-600">
-          © 2026 Pilates Navi. All rights reserved.
+          © 2026 Pilates-Biyori. All rights reserved.
         </div>
       </div>
     </footer>

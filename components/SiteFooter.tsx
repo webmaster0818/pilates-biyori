@@ -6,7 +6,7 @@ export function SiteFooter() {
       <div className="max-w-6xl mx-auto px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           <div>
-            <span className="font-serif text-xl font-light text-white tracking-wider">Pilates Navi</span>
+            <span className="font-serif text-xl font-light text-white tracking-wider">Pilates-Biyori</span>
             <p className="text-warm-500 text-xs mt-4 leading-relaxed font-light">
               初心者から経験者まで、あなたに最適なピラティスが見つかるメディア
             </p>
@@ -37,7 +37,7 @@ export function SiteFooter() {
           </div>
         </div>
         <div className="border-t border-warm-800 mt-12 pt-8 text-center">
-          <p className="text-warm-600 text-xs font-light">&copy; 2026 Pilates Navi. All rights reserved.</p>
+          <p className="text-warm-600 text-xs font-light">&copy; 2026 Pilates-Biyori. All rights reserved.</p>
           <p className="text-warm-700 text-[10px] font-light mt-2">
             ※掲載情報は2026年3月31日時点のものです。最新情報は各公式サイトでご確認ください。
           </p>

@@ -39,7 +39,7 @@ export function Navigation() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <Link href="/" className="group">
-              <span className="font-serif text-2xl font-light tracking-wider text-warm-800 group-hover:text-warm-600 transition-colors">Pilates Navi</span>
+              <span className="font-serif text-2xl font-light tracking-wider text-warm-800 group-hover:text-warm-600 transition-colors">Pilates-Biyori</span>
             </Link>
             <div className="hidden md:flex items-center gap-10">
               <a href="/#articles" className="nav-link text-warm-500 hover:text-warm-800 text-xs font-medium uppercase tracking-[0.15em]">Articles</a>

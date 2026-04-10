@@ -95,7 +95,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <Link href="/" className="group">
-              <span className="font-serif text-2xl font-light tracking-wider text-warm-800 group-hover:text-warm-600 transition-colors">Pilates Navi</span>
+              <span className="font-serif text-2xl font-light tracking-wider text-warm-800 group-hover:text-warm-600 transition-colors">Pilates-Biyori</span>
             </Link>
             <div className="hidden md:flex items-center gap-10">
               <a href="#articles" className="nav-link text-warm-500 hover:text-warm-800 text-xs font-medium uppercase tracking-[0.15em]">Articles</a>
@@ -723,7 +723,7 @@ export default function Home() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8 fade-up">
             <div className="text-center mb-12">
               <p className="section-en text-warm-400 mb-3 font-medium">About Us</p>
-              <h2 className="text-2xl font-light text-warm-900 tracking-tight">Pilates Naviについて</h2>
+              <h2 className="text-2xl font-light text-warm-900 tracking-tight">Pilates-Biyoriについて</h2>
               <div className="divider mx-auto mt-4"></div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -775,7 +775,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8 py-16">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
             <div>
-              <span className="font-serif text-xl font-light text-white tracking-wider">Pilates Navi</span>
+              <span className="font-serif text-xl font-light text-white tracking-wider">Pilates-Biyori</span>
               <p className="text-warm-500 text-xs mt-4 leading-relaxed font-light">
                 初心者から経験者まで、あなたに最適なピラティスが見つかるメディア
               </p>
@@ -806,7 +806,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-warm-800 mt-12 pt-8 text-center">
-            <p className="text-warm-600 text-xs font-light">&copy; 2026 Pilates Navi. All rights reserved.</p>
+            <p className="text-warm-600 text-xs font-light">&copy; 2026 Pilates-Biyori. All rights reserved.</p>
             <p className="text-warm-700 text-[10px] font-light mt-2">
               ※掲載情報は2026年3月31日時点のものです。最新情報は各公式サイトでご確認ください。
             </p>

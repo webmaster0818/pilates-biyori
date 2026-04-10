@@ -5,7 +5,7 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
-  title: '【2026最新】ピラティス薬院おすすめ4選！人気スタジオの料金プランを簡単比較！｜Pilates Navi',
+  title: '【2026最新】ピラティス薬院おすすめ4選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
   description: '薬院エリアのおすすめピラティススタジオ4選を徹底比較。zen place pilates福岡薬院・CLUB PILATES福岡赤坂薬院店・AR pilates・edgy pilates studioなど実在スタジオの料金・体験レッスン・アクセスを完全ガイド。マシンピラティス・女性専用・完全プライベートまで。',
   keywords: 'ピラティス,薬院,福岡,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place,CLUB PILATES,AR pilates,edgy pilates',
 }
@@ -303,7 +303,7 @@ export default function YakuinPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p>
-            <p className="text-warm-600 leading-relaxed mb-6">Pilates Navi編集部です！</p>
+            <p className="text-warm-600 leading-relaxed mb-6">Pilates-Biyori編集部です！</p>
             <p className="text-warm-600 leading-relaxed mb-6">あなたは、</p>
             <p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">「薬院で人気のピラティススタジオを知りたい」</p>

@@ -2,21 +2,21 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Pilates Navi - あなたに最適なピラティスが見つかる',
+  title: 'Pilates-Biyori - あなたに最適なピラティスが見つかる',
   description: '【2026年最新】初心者から経験者まで、あなたに最適なピラティススタジオが見つかるメディア。マシンピラティス・マットピラティスの基礎知識からスタジオ比較まで徹底サポート。',
   keywords: 'ピラティス,マシンピラティス,スタジオ,比較,初心者,効果,おすすめ,2026',
-  authors: [{ name: 'Pilates Navi編集部' }],
+  authors: [{ name: 'Pilates-Biyori編集部' }],
   openGraph: {
     type: 'website',
     locale: 'ja_JP',
     url: 'https://pilates-biyori-deploy.pages.dev/',
-    title: 'Pilates Navi - あなたに最適なピラティスが見つかる',
+    title: 'Pilates-Biyori - あなたに最適なピラティスが見つかる',
     description: '初心者から経験者まで、ピラティスの基礎知識からスタジオ選びまで徹底サポート。',
-    siteName: 'Pilates Navi',
+    siteName: 'Pilates-Biyori',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pilates Navi - あなたに最適なピラティスが見つかる',
+    title: 'Pilates-Biyori - あなたに最適なピラティスが見つかる',
     description: '初心者から経験者まで、ピラティススタジオ選びを徹底サポート。',
   },
   other: {
