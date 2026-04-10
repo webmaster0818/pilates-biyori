@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 三田スタジオ',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 200,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'the SILK 田町店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 145,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 田町店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.7,
     reviewCount: 120,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 田町スタジオ',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     reviewCount: 160,
     reviews: [
@@ -225,7 +225,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオB&B 田町店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 5.0,
     reviewCount: 500,
     reviews: [
@@ -277,7 +277,7 @@ const studios = [
   },
   {
     name: 'ELEMENT（エレメント）田町・三田店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.6,
     reviewCount: 80,
     reviews: [
@@ -329,7 +329,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 三田店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 90,
     reviews: [
@@ -381,7 +381,7 @@ const studios = [
   },
   {
     name: 'パーソナルピラティススタジオ hibi',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.9,
     reviewCount: 45,
     reviews: [
@@ -433,7 +433,7 @@ const studios = [
   },
   {
     name: 'Rintosull（リントスル）品川店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.5,
     reviewCount: 60,
     reviews: [
@@ -485,7 +485,7 @@ const studios = [
   },
   {
     name: 'Stella Pilates style training',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     reviewCount: 55,
     reviews: [
@@ -537,7 +537,7 @@ const studios = [
   },
   {
     name: 'ワヤンリゾートヨガ 田町店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.5,
     reviewCount: 95,
     reviews: [
@@ -589,7 +589,7 @@ const studios = [
   },
   {
     name: 'chocoZAP 芝五丁目店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 3.8,
     reviewCount: 180,
     reviews: [

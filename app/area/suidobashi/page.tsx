@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスミラー 後楽園',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     reviewCount: 130,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 後楽園店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.8,
     reviewCount: 90,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 飯田橋スタジオ',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.8,
     reviewCount: 110,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 神保町スタジオ',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     reviewCount: 95,
     reviews: [
@@ -225,7 +225,7 @@ const studios = [
   },
   {
     name: 'pilates K 神保町店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.6,
     reviewCount: 85,
     reviews: [
@@ -277,7 +277,7 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 飯田橋店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.7,
     reviewCount: 75,
     reviews: [
@@ -329,7 +329,7 @@ const studios = [
   },
   {
     name: 'the SILK 神楽坂店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.6,
     reviewCount: 70,
     reviews: [
@@ -382,7 +382,7 @@ const studios = [
   },
   {
     name: 'ELEMENT 神楽坂・飯田橋店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 60,
     reviews: [
@@ -434,7 +434,7 @@ const studios = [
   },
   {
     name: 'CALDO 神楽坂',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.5,
     reviewCount: 120,
     reviews: [
@@ -486,7 +486,7 @@ const studios = [
   },
   {
     name: 'chocoZAP 飯田橋一丁目店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.3,
     reviewCount: 200,
     reviews: [
@@ -536,7 +536,7 @@ const studios = [
   },
   {
     name: 'Rintosull 秋葉原店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.5,
     reviewCount: 65,
     reviews: [
@@ -588,7 +588,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオ ゼロ 神保町',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.9,
     reviewCount: 45,
     reviews: [

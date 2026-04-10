@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'CLUB PILATES 代官山店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 178,
     reviews: [
@@ -34,7 +34,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 代官山',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 198,
     reviews: [
@@ -55,7 +55,7 @@ const studios = [
   },
   {
     name: 'the SILK 中目黒店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.8,
     reviewCount: 156,
     reviews: [
@@ -76,7 +76,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 中目黒',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.6,
     reviewCount: 112,
     reviews: [
@@ -97,7 +97,7 @@ const studios = [
   },
   {
     name: 'Pilates en Rose（ピラティスアンローズ）',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.8,
     reviewCount: 89,
     reviews: [
@@ -118,7 +118,7 @@ const studios = [
   },
   {
     name: 'ピラティスラボ 代官山',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.9,
     reviewCount: 78,
     reviews: [
@@ -139,7 +139,7 @@ const studios = [
   },
   {
     name: 'BDC PILATES 恵比寿スタジオ',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     reviewCount: 167,
     reviews: [

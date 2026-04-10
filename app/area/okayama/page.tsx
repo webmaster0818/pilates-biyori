@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'La pilates 岡山駅前店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.2,
     reviewCount: 78,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 岡山店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.0,
     reviewCount: 124,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 岡山店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.0,
     reviewCount: 96,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオDEP 岡山店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.2,
     reviewCount: 63,
     reviews: [
@@ -225,7 +225,7 @@ const studios = [
   },
   {
     name: 'UP LIFE GALLERY 岡山店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.1,
     reviewCount: 47,
     reviews: [
@@ -278,7 +278,7 @@ const studios = [
   },
   {
     name: 'Rintosull 岡山店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.0,
     reviewCount: 89,
     reviews: [
@@ -330,7 +330,7 @@ const studios = [
   },
   {
     name: 'studio kua（スタジオクウア）',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.1,
     reviewCount: 34,
     reviews: [
@@ -382,7 +382,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 岡山',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.2,
     reviewCount: 152,
     reviews: [

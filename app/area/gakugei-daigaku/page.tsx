@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスミラー 学芸大学',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     reviewCount: 120,
     reviews: [
@@ -65,7 +65,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 学芸大学店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.8,
     reviewCount: 95,
     reviews: [
@@ -117,7 +117,7 @@ const studios = [
   },
   {
     name: 'YUZU 学芸大学店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.7,
     reviewCount: 80,
     reviews: [
@@ -169,7 +169,7 @@ const studios = [
   },
   {
     name: 'zen place pilates（東横線沿線）',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 200,
     reviews: [

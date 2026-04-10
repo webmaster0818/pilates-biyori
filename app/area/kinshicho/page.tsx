@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 錦糸町',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 265,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'ピラティスK オリナス錦糸町店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 204,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 錦糸町',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.6,
     reviewCount: 186,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'ピラティス&ジム 1to1 錦糸町',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.9,
     reviewCount: 142,
     reviews: [
@@ -218,7 +218,7 @@ const studios = [
   },
   {
     name: 'Pilates KASANE 錦糸町店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 98,
     reviews: [
@@ -264,7 +264,7 @@ const studios = [
   },
   {
     name: 'La pilates 錦糸町',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.8,
     reviewCount: 76,
     reviews: [
@@ -310,7 +310,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 錦糸町',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     reviewCount: 112,
     reviews: [
@@ -356,7 +356,7 @@ const studios = [
   },
   {
     name: 'ELEMENT 錦糸町',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.8,
     reviewCount: 156,
     reviews: [
@@ -402,7 +402,7 @@ const studios = [
   },
   {
     name: '24/7 Pilates 錦糸町四ツ目通り',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.7,
     reviewCount: 134,
     reviews: [
@@ -448,7 +448,7 @@ const studios = [
   },
   {
     name: 'Pilates Studio B&B 錦糸町',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.9,
     reviewCount: 88,
     reviews: [
@@ -494,7 +494,7 @@ const studios = [
   },
   {
     name: 'SOU+ 錦糸町',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.6,
     reviewCount: 94,
     reviews: [
@@ -540,7 +540,7 @@ const studios = [
   },
   {
     name: 'OLUTANA ピラティス 菊川',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.7,
     reviewCount: 108,
     reviews: [
@@ -586,7 +586,7 @@ const studios = [
   },
   {
     name: 'SEPILA 錦糸町',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.5,
     reviewCount: 72,
     reviews: [
@@ -632,7 +632,7 @@ const studios = [
   },
   {
     name: 'My Machine Pilates 錦糸町',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.6,
     reviewCount: 86,
     reviews: [
@@ -678,7 +678,7 @@ const studios = [
   },
   {
     name: 'CALDO 錦糸町',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.5,
     reviewCount: 198,
     reviews: [

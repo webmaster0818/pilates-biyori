@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'the SILK 北千住店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     reviewCount: 148,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 北千住スタジオ',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 172,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'Pilates Mee 北千住店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.8,
     reviewCount: 82,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'ELEMENT 北千住店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.6,
     reviewCount: 68,
     reviews: [
@@ -225,7 +225,7 @@ const studios = [
   },
   {
     name: 'Pilates & Gym 1to1 北千住店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 75,
     reviews: [

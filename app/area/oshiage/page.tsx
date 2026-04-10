@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'オハイアリイ Ohaialii',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     reviewCount: 108,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 浅草',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.8,
     reviewCount: 156,
     reviews: [
@@ -173,7 +173,7 @@ const studios = [
   },
   {
     name: 'ルネサンス東あずま24',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.5,
     reviewCount: 186,
     reviews: [

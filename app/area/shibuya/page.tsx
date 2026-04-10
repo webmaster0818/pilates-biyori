@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 渋谷',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7, reviewCount: 210,
     reviews: [
       { author: 'M.K', rating: 5, date: '1週間前', text: 'MIYASHITA PARK正面の好立地。マットもマシンも両方受けられるのが嬉しい。全国140スタジオ相互利用できるのも便利。' },
@@ -32,7 +32,7 @@ const studios = [
   },
   {
     name: 'the SILK 渋谷',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.8, reviewCount: 170,
     reviews: [
       { author: 'R.H', rating: 5, date: '1週間前', text: '音楽に合わせてマシンピラティスができる新感覚スタジオ。渋谷駅徒歩2分で通いやすい！' },
@@ -51,7 +51,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 渋谷店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.6, reviewCount: 150,
     reviews: [
       { author: 'H.A', rating: 5, date: '1週間前', text: '女性専用のマシングループレッスン。月4回11,220円〜で、予約も取りやすく続けやすい。' },
@@ -70,7 +70,7 @@ const studios = [
   },
   {
     name: 'Rintosull 渋谷',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.5, reviewCount: 120,
     reviews: [
       { author: 'K.T', rating: 5, date: '2週間前', text: 'LAVA系列で安心感がある。女性専用マシンピラティスが月4回8,800円〜はかなりお得！' },
@@ -89,7 +89,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 渋谷',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.6, reviewCount: 95,
     reviews: [
       { author: 'D.K', rating: 5, date: '1週間前', text: '最大12名のグループレッスンで程よい人数。無料体験があるので気軽に始められました。' },
@@ -108,7 +108,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 渋谷',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.8, reviewCount: 75,
     reviews: [
       { author: 'S.A', rating: 5, date: '1週間前', text: '完全個室パーソナルなので人目を気にせず集中できる。月2回15,000円〜で無理なく続けられる。' },
@@ -127,7 +127,7 @@ const studios = [
   },
   {
     name: 'ELEMENT 渋谷',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7, reviewCount: 85,
     reviews: [
       { author: 'T.K', rating: 5, date: '1週間前', text: 'マンツーマン30分で集中できる。短時間なので仕事の合間にも通いやすい。' },
@@ -146,7 +146,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 渋谷',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.5, reviewCount: 65,
     reviews: [
       { author: 'N.K', rating: 5, date: '2週間前', text: '女性専用で安心。プライベート30分4,400円〜はパーソナルとしてはかなりお得。' },
@@ -165,7 +165,7 @@ const studios = [
   },
   {
     name: 'YUZU 渋谷',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.6, reviewCount: 50,
     reviews: [
       { author: 'L.M', rating: 5, date: '2週間前', text: '女性専用のパーソナルマシンピラティス。一人ひとりに合わせたプログラムが魅力的。' },
@@ -184,7 +184,7 @@ const studios = [
   },
   {
     name: 'BDC PILATES 渋谷（近隣）',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7, reviewCount: 90,
     reviews: [
       { author: 'P.S', rating: 5, date: '1週間前', text: 'ダンサー御用達のスタジオ。ピラティスの質がとにかく高い。体の使い方が根本から変わった。' },
@@ -203,7 +203,7 @@ const studios = [
   },
   {
     name: 'NATURAglam 渋谷（近隣）',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.4, reviewCount: 60,
     reviews: [
       { author: 'J.M', rating: 5, date: '2週間前', text: '女性専用のヨガ&ピラティススタジオ。少人数制で丁寧に教えてもらえるのが嬉しい。' },
@@ -222,7 +222,7 @@ const studios = [
   },
   {
     name: 'CALDO 渋谷',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.4, reviewCount: 130,
     reviews: [
       { author: 'F.N', rating: 5, date: '1週間前', text: 'ホットヨガがメインだがピラティスクラスも充実。温かい環境で体がほぐれやすい。' },

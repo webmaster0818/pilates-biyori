@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 浅草吾妻橋店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     reviewCount: 182,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'ヨガ&ピラティススタジオMAKOTO 浅草橋',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.5,
     reviewCount: 94,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'YARD',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.6,
     reviewCount: 128,
     reviews: [

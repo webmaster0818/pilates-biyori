@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 二子玉川',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 198,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'the SILK 二子玉川店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.8,
     reviewCount: 167,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'BDC PILATES 二子玉川',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.7,
     reviewCount: 145,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 二子玉川店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     reviewCount: 134,
     reviews: [
@@ -225,7 +225,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 二子玉川',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.6,
     reviewCount: 112,
     reviews: [

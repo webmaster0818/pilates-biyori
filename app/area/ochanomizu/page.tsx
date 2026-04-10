@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 本郷三丁目店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 265,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 神保町店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 204,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'YARD 御茶ノ水スタジオ',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.6,
     reviewCount: 186,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 神保町店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     price: '月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
@@ -203,7 +203,7 @@ const studios = [
   },
   {
     name: 'rcu リチュ 御茶ノ水',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.5,
     price: '要問い合わせ',
     trial: '体験レッスン あり',
@@ -234,7 +234,7 @@ const studios = [
   },
   {
     name: 'PILATES STUDIO ZERO 神保町店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.8,
     price: '月4回 37,200円〜',
     trial: '体験レッスン 4,400円（当日入会で無料）',
@@ -267,7 +267,7 @@ const studios = [
   },
   {
     name: 'Z&Z Pilates Studio 神保町店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.6,
     price: '月4回 19,900円〜',
     trial: '団体体験 4,000円 / 私教体験 8,000円',

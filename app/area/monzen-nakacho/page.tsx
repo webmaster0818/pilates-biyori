@@ -67,7 +67,7 @@ const studios = [
   },
   {
     name: 'the SILK',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 89,
     reviews: [
@@ -120,7 +120,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオDIVA',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.9,
     reviewCount: 56,
     reviews: [
@@ -173,7 +173,7 @@ const studios = [
   },
   {
     name: 'YARD 清澄白河',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.6,
     reviewCount: 74,
     reviews: [

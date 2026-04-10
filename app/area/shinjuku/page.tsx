@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 新宿',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 265,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 新宿店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 186,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'the SILK 新宿',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.8,
     reviewCount: 195,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'Rintosull 新宿西口駅前店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.6,
     reviewCount: 142,
     reviews: [
@@ -225,7 +225,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 新宿',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 158,
     reviews: [
@@ -278,7 +278,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 新宿',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.9,
     reviewCount: 98,
     reviews: [
@@ -331,7 +331,7 @@ const studios = [
   },
   {
     name: 'ELEMENT 新宿',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     reviewCount: 112,
     reviews: [
@@ -384,7 +384,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 新宿',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.6,
     reviewCount: 87,
     reviews: [
@@ -437,7 +437,7 @@ const studios = [
   },
   {
     name: 'BDC PILATES 新宿（近隣）',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.8,
     reviewCount: 134,
     reviews: [
@@ -490,7 +490,7 @@ const studios = [
   },
   {
     name: 'NATURAglam 新宿（近隣）',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.5,
     reviewCount: 76,
     reviews: [
@@ -543,7 +543,7 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 新宿',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.5,
     reviewCount: 103,
     reviews: [
@@ -596,7 +596,7 @@ const studios = [
   },
   {
     name: 'CALDO 新宿',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.5,
     reviewCount: 168,
     reviews: [

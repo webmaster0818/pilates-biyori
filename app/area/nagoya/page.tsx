@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK 久屋大通パーク店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.1,
     reviewCount: 178,
     reviews: [
@@ -51,7 +51,7 @@ const studios = [
   },
   {
     name: 'luluto 名古屋（名駅店・栄店・金山店・大曽根店）',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.3,
     reviewCount: 156,
     reviews: [
@@ -89,7 +89,7 @@ const studios = [
   },
   {
     name: 'Two Three 名古屋',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.1,
     reviewCount: 124,
     reviews: [
@@ -126,7 +126,7 @@ const studios = [
   },
   {
     name: 'REBORN（リボーン）名古屋',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.2,
     reviewCount: 98,
     reviews: [
@@ -164,7 +164,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオアステル（栄店・名駅店）',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.2,
     reviewCount: 112,
     reviews: [
@@ -202,7 +202,7 @@ const studios = [
   },
   {
     name: 'ナグスタジオ（名古屋市内4店舗）',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.0,
     reviewCount: 142,
     reviews: [
@@ -240,7 +240,7 @@ const studios = [
   },
   {
     name: 'Pilates Studio Tree',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.1,
     reviewCount: 86,
     reviews: [
@@ -278,7 +278,7 @@ const studios = [
   },
   {
     name: 'studio nano（名駅・伏見）',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.2,
     reviewCount: 104,
     reviews: [

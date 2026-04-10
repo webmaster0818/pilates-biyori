@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 巣鴨',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.6,
     reviewCount: 142,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 巣鴨',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.5,
     reviewCount: 118,
     reviews: [
@@ -171,7 +171,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオゼロ 巣鴨店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.7,
     reviewCount: 86,
     reviews: [

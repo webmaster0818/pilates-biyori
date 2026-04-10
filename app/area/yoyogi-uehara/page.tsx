@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 代々木上原スタジオ',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 265,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 代々木上原店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 180,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'Olaピラティススタジオ',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.9,
     reviewCount: 120,
     reviews: [
@@ -170,7 +170,7 @@ const studios = [
   },
   {
     name: 'PILATES YOGA &a（アンドエー）代々木上原店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     price: '1回 約9,075円〜',
     trial: '体験レッスン 5,500円',
@@ -181,7 +181,7 @@ const studios = [
   },
   {
     name: 'Econa pilates studio 代々木上原',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.8,
     price: '1回 8,900円〜',
     trial: '体験レッスン 0円',
@@ -192,7 +192,7 @@ const studios = [
   },
   {
     name: 'パーソナルマシンピラティスYUZU 代々木上原店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.7,
     price: 'お問い合わせください',
     trial: '体験レッスン あり',
@@ -203,7 +203,7 @@ const studios = [
   },
   {
     name: '3731BODYWORX',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     price: '1回 8,600円〜',
     trial: '体験レッスン 8,800円',
@@ -214,7 +214,7 @@ const studios = [
   },
   {
     name: 'studio GOD 代々木上原',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.6,
     price: 'チケット制',
     trial: '初回体験キャンペーンあり',
@@ -225,7 +225,7 @@ const studios = [
   },
   {
     name: 'Wellness Hub TOKYO 代々木上原',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.6,
     price: 'お問い合わせください',
     trial: '初回体験 3,300円',
@@ -236,7 +236,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 下北沢スタジオ',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     price: '月4回 10,450円〜',
     trial: '体験レッスン 500円〜',
@@ -247,7 +247,7 @@ const studios = [
   },
   {
     name: 'the SILK 渋谷店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     price: '月4回 15,070円〜',
     trial: '体験レッスン あり',
@@ -258,7 +258,7 @@ const studios = [
   },
   {
     name: 'BDC PILATES 代々木公園スタジオ',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.8,
     price: '1回 3,850円〜',
     trial: '体験レッスン 3,850円',

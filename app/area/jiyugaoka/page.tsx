@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 自由が丘 第1スタジオ',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 215,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'the SILK 自由が丘店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 178,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 自由が丘',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.6,
     reviewCount: 132,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 自由が丘店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     reviewCount: 115,
     reviews: [
@@ -225,7 +225,7 @@ const studios = [
   },
   {
     name: '自由が丘ピラティススタジオ',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.8,
     reviewCount: 78,
     reviews: [

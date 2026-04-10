@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'REIBELLE 京都北山店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 98,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'BeTRY\'s（ビートライズ）',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 65,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 京都スタジオ',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.7,
     reviewCount: 168,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'style pilates 京都',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     reviewCount: 72,
     reviews: [
@@ -225,7 +225,7 @@ const studios = [
   },
   {
     name: 'LAVA イオンモール北大路店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.5,
     reviewCount: 145,
     reviews: [

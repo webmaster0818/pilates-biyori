@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'the SILK 広尾店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 178,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 広尾店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.8,
     reviewCount: 112,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'Habit Pilates studio 広尾店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.7,
     reviewCount: 95,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 恵比寿スタジオ',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     reviewCount: 215,
     reviews: [
@@ -225,7 +225,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 中目黒スタジオ',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.6,
     reviewCount: 142,
     reviews: [

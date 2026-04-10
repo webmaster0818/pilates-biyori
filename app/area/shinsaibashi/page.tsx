@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 心斎橋スタジオ',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 265,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'WECLE 心斎橋',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 204,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 心斎橋',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.6,
     reviewCount: 186,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'the SILK 心斎橋',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     price: '月4回 15,070円〜',
     trial: '体験レッスン 無料',
@@ -182,7 +182,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 心斎橋',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     price: '月4回 14,190円〜',
     trial: '体験レッスン 無料',
@@ -192,7 +192,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオ B-line 心斎橋',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.9,
     price: '1回 8,800円〜',
     trial: '体験レッスン 5,500円',
@@ -202,7 +202,7 @@ const studios = [
   },
   {
     name: 'Reformer Pilates Shinsaibashi',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     price: '月4回 13,200円〜',
     trial: '体験レッスン 1,000円',
@@ -212,7 +212,7 @@ const studios = [
   },
   {
     name: 'Urban Pilates 心斎橋',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.6,
     price: '月額 16,500円（通い放題）',
     trial: '体験レッスン 無料',
@@ -222,7 +222,7 @@ const studios = [
   },
   {
     name: 'Pilates Studio M 心斎橋',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.8,
     price: '月4回 12,980円〜',
     trial: '体験レッスン 1,000円',
@@ -232,7 +232,7 @@ const studios = [
   },
   {
     name: 'BDC PILATES 心斎橋',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     price: '1回 3,850円〜',
     trial: '体験レッスン 2,200円',
@@ -242,7 +242,7 @@ const studios = [
   },
   {
     name: 'Pilates Lab 心斎橋',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.9,
     price: '月4回 14,300円〜',
     trial: '体験レッスン 3,300円',
@@ -252,7 +252,7 @@ const studios = [
   },
   {
     name: 'FLOW PILATES 心斎橋',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.6,
     price: '月4回 13,200円〜',
     trial: '体験レッスン 1,000円',
@@ -262,7 +262,7 @@ const studios = [
   },
   {
     name: 'Body Make Studio Pilates+ 心斎橋',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     price: '月4回 14,850円〜',
     trial: '体験レッスン 1,500円',
@@ -272,7 +272,7 @@ const studios = [
   },
   {
     name: 'Pilates Studio Harmony 心斎橋',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.8,
     price: '月4回 12,100円〜',
     trial: '体験レッスン 無料',
@@ -282,7 +282,7 @@ const studios = [
   },
   {
     name: 'Pilates & Wellness 心斎橋',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.6,
     price: '月4回 13,750円〜',
     trial: '体験レッスン 1,000円',

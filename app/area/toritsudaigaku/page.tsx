@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 都立大学',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 190,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'PILATES STUDIO noa 都立大',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 145,
     reviews: [
@@ -118,7 +118,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.9,
     reviewCount: 95,
     reviews: [

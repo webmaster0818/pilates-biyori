@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK 神戸三宮店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.0,
     reviewCount: 187,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオDEP 神戸店 Resho',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.2,
     reviewCount: 94,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'TOKI PILATES STUDIO 元町',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.1,
     reviewCount: 68,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'STUDIO TOU 三宮',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.1,
     reviewCount: 73,
     reviews: [
@@ -225,7 +225,7 @@ const studios = [
   },
   {
     name: 'La pilates 神戸元町店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.2,
     reviewCount: 112,
     reviews: [
@@ -278,7 +278,7 @@ const studios = [
   },
   {
     name: 'luluto 神戸店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.3,
     reviewCount: 86,
     reviews: [
@@ -331,7 +331,7 @@ const studios = [
   },
   {
     name: 'Rintosull 神戸（4店舗）',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.0,
     reviewCount: 158,
     reviews: [
@@ -384,7 +384,7 @@ const studios = [
   },
   {
     name: 'pilates studio compass+ 北区',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.0,
     reviewCount: 42,
     reviews: [

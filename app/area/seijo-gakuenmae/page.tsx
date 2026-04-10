@@ -67,7 +67,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 成城学園前',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     reviewCount: 152,
     reviews: [
@@ -120,7 +120,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 成城学園前',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.8,
     reviewCount: 208,
     reviews: [
@@ -173,7 +173,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 成城学園前',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.7,
     reviewCount: 124,
     reviews: [

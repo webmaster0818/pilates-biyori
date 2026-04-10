@@ -67,7 +67,7 @@ const studios = [
   },
   {
     name: 'PILATES STUDIO noa 中野スタジオ',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     reviewCount: 130,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 中野',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.8,
     reviewCount: 85,
     reviews: [
@@ -171,7 +171,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 中野',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.8,
     reviewCount: 95,
     reviews: [
@@ -277,7 +277,7 @@ const studios = [
   },
   {
     name: 'Rintosull 中野（近隣）',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.4,
     reviewCount: 70,
     reviews: [
@@ -329,7 +329,7 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 中野',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.3,
     reviewCount: 60,
     reviews: [
@@ -382,7 +382,7 @@ const studios = [
   },
   {
     name: 'ELEMENT 中野',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.6,
     reviewCount: 80,
     reviews: [
@@ -488,7 +488,7 @@ const studios = [
   },
   {
     name: 'AGNIYOGA 新中野',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.4,
     reviewCount: 65,
     reviews: [
@@ -541,7 +541,7 @@ const studios = [
   },
   {
     name: 'CALDO 中野',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.3,
     reviewCount: 90,
     reviews: [
@@ -595,7 +595,7 @@ const studios = [
   },
   {
     name: 'chocoZAP 中野',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.0,
     reviewCount: 200,
     reviews: [

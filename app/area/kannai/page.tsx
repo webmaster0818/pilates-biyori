@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'アーバンクラシックピラティス 関内店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.6,
     reviewCount: 118,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 横浜元町スタジオ',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 185,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'マシンピラティスあるく 関内・馬車道店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.8,
     reviewCount: 72,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'Cachette（カシェット）関内',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     reviewCount: 65,
     reviews: [
@@ -225,7 +225,7 @@ const studios = [
   },
   {
     name: 'スタジオ・ヨギー 横浜',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.5,
     reviewCount: 158,
     reviews: [

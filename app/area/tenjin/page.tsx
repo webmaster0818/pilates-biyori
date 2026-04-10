@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK 福岡天神店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     reviewCount: 150,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 福岡天神スタジオ',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.8,
     reviewCount: 130,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'Rintosull 天神店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.6,
     reviewCount: 95,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'ルルト 福岡天神店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.9,
     reviewCount: 72,
     reviews: [

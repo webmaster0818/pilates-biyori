@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 祐天寺スタジオ',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 190,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'NATURAglam 祐天寺スタジオ',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.6,
     reviewCount: 135,
     reviews: [
@@ -118,7 +118,7 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 祐天寺',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.5,
     price: '1回 1,485円〜',
     trial: '体験レッスンあり',
@@ -129,7 +129,7 @@ const studios = [
   },
   {
     name: 'GRACE pilates&yoga studio',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     price: '1回 2,000円〜',
     trial: '体験レッスンあり',

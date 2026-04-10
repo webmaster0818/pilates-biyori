@@ -67,7 +67,7 @@ const studios = [
   },
   {
     name: 'the SILK 八重洲店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 98,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 115,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'Pilates Mee 築地店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.8,
     reviewCount: 78,
     reviews: [

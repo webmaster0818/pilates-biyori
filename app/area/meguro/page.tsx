@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'the SILK 目黒エリア',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 95,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 中目黒',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.6,
     reviewCount: 72,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'Pilates Legacy Studio',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.8,
     reviewCount: 48,
     reviews: [

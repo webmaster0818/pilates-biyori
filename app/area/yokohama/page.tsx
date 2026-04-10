@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 横浜スタジオ',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 256,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 横浜店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 192,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'the SILK 横浜店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.8,
     reviewCount: 178,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 横浜店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     reviewCount: 145,
     reviews: [
@@ -225,7 +225,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 横浜みなみ西口',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 168,
     reviews: [
@@ -278,7 +278,7 @@ const studios = [
   },
   {
     name: 'ルルト 横浜店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.9,
     reviewCount: 89,
     reviews: [
@@ -331,7 +331,7 @@ const studios = [
   },
   {
     name: 'lafimo 横浜東口店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.6,
     reviewCount: 112,
     reviews: [
@@ -384,7 +384,7 @@ const studios = [
   },
   {
     name: 'ピラティス&ジム 1to1 横浜店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 76,
     reviews: [

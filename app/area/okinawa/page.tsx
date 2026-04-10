@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'CLUB PILATES 那覇',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.2,
     reviewCount: 178,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'Rintosull（リントスル）那覇新都心店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.0,
     reviewCount: 152,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオ ルキナ那覇新都心',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.1,
     reviewCount: 124,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'セレスティア 沖縄那覇店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.3,
     reviewCount: 136,
     reviews: [
@@ -225,7 +225,7 @@ const studios = [
   },
   {
     name: 'luluto（ルルト）那覇小禄店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.4,
     reviewCount: 98,
     reviews: [
@@ -278,7 +278,7 @@ const studios = [
   },
   {
     name: 'ピラティスisM（イズム）那覇',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.2,
     reviewCount: 114,
     reviews: [
@@ -331,7 +331,7 @@ const studios = [
   },
   {
     name: 'ヒーレストピラティス',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.3,
     reviewCount: 86,
     reviews: [
@@ -384,7 +384,7 @@ const studios = [
   },
   {
     name: 'ピラティスアクス 那覇新都心店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.1,
     reviewCount: 142,
     reviews: [
@@ -437,7 +437,7 @@ const studios = [
   },
   {
     name: 'ピラティス＆ストレッチ トリム',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.0,
     reviewCount: 74,
     reviews: [
@@ -490,7 +490,7 @@ const studios = [
   },
   {
     name: 'ACE Pilates Studio',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.2,
     reviewCount: 92,
     reviews: [
@@ -543,7 +543,7 @@ const studios = [
   },
   {
     name: 'Pilates KASANE イーアス沖縄豊崎店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.1,
     reviewCount: 168,
     reviews: [
@@ -596,7 +596,7 @@ const studios = [
   },
   {
     name: 'ピラティスアクス 北谷店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.0,
     reviewCount: 108,
     reviews: [
@@ -649,7 +649,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオgg',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.3,
     reviewCount: 64,
     reviews: [
@@ -702,7 +702,7 @@ const studios = [
   },
   {
     name: 'Mohi Pilates 沖縄スタジオ',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.2,
     reviewCount: 82,
     reviews: [
@@ -755,7 +755,7 @@ const studios = [
   },
   {
     name: 'Studio KRN',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.1,
     reviewCount: 68,
     reviews: [

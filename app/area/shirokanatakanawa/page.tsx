@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 高輪スタジオ',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8, reviewCount: 175,
     reviews: [
       { author: 'S.K', rating: 5, date: '2週間前', text: '高輪ゲートウェイ駅から徒歩6分、泉岳寺駅からは徒歩4分。マットもマシンも両方受けられるのが嬉しい。全国150店舗以上で相互利用可能。' },
@@ -32,7 +32,7 @@ const studios = [
   },
   {
     name: 'Premium Yoga&Pilates 白金高輪',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.9, reviewCount: 120,
     reviews: [
       { author: 'R.N', rating: 5, date: '1週間前', text: '白金高輪駅から徒歩1分！少人数制で一人ひとりに合わせた丁寧な指導が受けられます。3年以上の指導経験あるインストラクターのみ在籍。' },
@@ -51,7 +51,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 広尾店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.8, reviewCount: 95,
     reviews: [
       { author: 'T.S', rating: 5, date: '1週間前', text: '完全プライベート空間でオーダーメイドのレッスンが受けられます。白金高輪からも通いやすいです。' },
@@ -69,7 +69,7 @@ const studios = [
   },
   {
     name: 'Habit Pilates studio 白金高輪店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7, reviewCount: 68,
     reviews: [
       { author: 'N.Y', rating: 5, date: '2週間前', text: '1クラス最大5名の少人数制で、一人ひとりに合わせたレッスンが受けられます。白金高輪駅から徒歩5分で通いやすい。' },
@@ -87,7 +87,7 @@ const studios = [
   },
   {
     name: 'Pilates Studio eleven 白金台',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.8, reviewCount: 72,
     reviews: [
       { author: 'E.S', rating: 5, date: '1週間前', text: '白金台のおしゃれなスタジオ。マシンピラティス専門で質の高いレッスンが受けられます。' },
@@ -105,7 +105,7 @@ const studios = [
   },
   {
     name: 'Premium Machine Pilates 白金高輪',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.7, reviewCount: 55,
     reviews: [
       { author: 'M.T', rating: 5, date: '2週間前', text: '白金高輪駅から徒歩2分！マシンピラティス専用スタジオで設備が素晴らしい。' },
@@ -123,7 +123,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 港区エリア',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.6, reviewCount: 110,
     reviews: [
       { author: 'R.T', rating: 5, date: '1週間前', text: '世界最大級のマシンピラティススタジオ。8種類のクラスが4段階のレベルに分かれていて、初心者でも安心。' },
@@ -141,7 +141,7 @@ const studios = [
   },
   {
     name: 'Rintosull（リントスル）港区エリア',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.5, reviewCount: 88,
     reviews: [
       { author: 'Y.I', rating: 5, date: '2週間前', text: 'LAVA系列のマシンピラティス専門スタジオ。リフォーマーを使ったレッスンが予約不要で受けられるのが便利。' },
@@ -159,7 +159,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 表参道店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.6, reviewCount: 130,
     reviews: [
       { author: 'M.N', rating: 5, date: '1週間前', text: '女性専用のマシンピラティス。音楽に合わせたグループレッスンが楽しい！白金高輪からも通える距離。' },
@@ -177,7 +177,7 @@ const studios = [
   },
   {
     name: 'the SILK（ザ シルク）港区エリア',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.5, reviewCount: 95,
     reviews: [
       { author: 'A.M', rating: 5, date: '2週間前', text: '女性専用で清潔感があり安心。ライト付きメイクミラーやヘアアイロンなどパウダールームが充実しています。' },
@@ -195,7 +195,7 @@ const studios = [
   },
   {
     name: 'CORAL 白金 マシンピラティススタジオ',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.8, reviewCount: 45,
     reviews: [
       { author: 'S.Y', rating: 5, date: '1週間前', text: '南麻布のおしゃれなマシンピラティススタジオ。パーソナルで一人ひとりに合わせた丁寧な指導が受けられます。' },
@@ -213,7 +213,7 @@ const studios = [
   },
   {
     name: 'chocoZAP 白金高輪エリア',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.2, reviewCount: 200,
     reviews: [
       { author: 'T.K', rating: 4, date: '1週間前', text: '月額3,278円（税込）でマシンピラティスが使い放題！コスパ最強。予約不要で好きな時に使えるのが便利。' },

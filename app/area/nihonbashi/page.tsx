@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 八重洲スタジオ',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 220,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'Beat Pilates 日本橋小伝馬町店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 130,
     reviews: [
@@ -120,7 +120,7 @@ const studios = [
   },
   {
     name: 'マシンピラティス ウィング 東京日本橋',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.9,
     reviewCount: 85,
     reviews: [
@@ -171,7 +171,7 @@ const studios = [
   },
   {
     name: 'the SILK 東京八重洲店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     price: 'Standard4 12,980円〜',
     trial: '体験レッスン（グループ）3,850円',
@@ -182,7 +182,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 銀座店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     price: 'マンスリー4メンバー 13,420円',
     trial: '体験レッスン 2,000円',

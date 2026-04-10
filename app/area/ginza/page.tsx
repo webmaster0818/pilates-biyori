@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 銀座二丁目スタジオ',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 265,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 銀座店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 186,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'the SILK 銀座店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.8,
     reviewCount: 195,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'BDC PILATES 銀座スタジオ',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     price: 'グループ 月額 15,400円〜',
     trial: '体験レッスン 3,850円',
@@ -183,7 +183,7 @@ const studios = [
   },
   {
     name: 'BIRTH Pilates Studio（バースピラティス）',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.9,
     price: '1回 9,600円',
     trial: '体験レッスン 平日4,500円 / 土日祝5,500円',
@@ -194,7 +194,7 @@ const studios = [
   },
   {
     name: 'ピラティス&ジム 1to1 銀座店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.7,
     price: '1回 6,600円〜',
     trial: '体験レッスン 無料',
@@ -205,7 +205,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 銀座四丁目スタジオ',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     price: 'マットグループ 月4回 9,625円〜',
     trial: '体験レッスン 500円〜',
@@ -216,7 +216,7 @@ const studios = [
   },
   {
     name: 'the SILK 銀座一丁目店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     price: 'Standard4 15,070円〜',
     trial: '体験レッスン 無料',
@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'BDC PILATES 銀座並木スタジオ',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.7,
     price: 'グループ 月額 15,400円〜',
     trial: '体験レッスン 3,850円',
@@ -238,7 +238,7 @@ const studios = [
   },
   {
     name: 'Bloom Pilates 銀座スタジオ',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.6,
     price: 'お問い合わせください',
     trial: '体験レッスンあり',

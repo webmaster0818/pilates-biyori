@@ -67,7 +67,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 福岡赤坂薬院店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 124,
     reviews: [
@@ -120,7 +120,7 @@ const studios = [
   },
   {
     name: 'AR pilates',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.9,
     reviewCount: 78,
     reviews: [
@@ -173,7 +173,7 @@ const studios = [
   },
   {
     name: 'edgy pilates studio',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.7,
     reviewCount: 92,
     reviews: [

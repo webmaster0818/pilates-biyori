@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK 大宮店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.1,
     reviewCount: 156,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 大宮',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.2,
     reviewCount: 203,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'the SILK 大宮',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.2,
     reviewCount: 118,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'La pilates 大宮店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.0,
     reviewCount: 82,
     reviews: [
@@ -225,7 +225,7 @@ const studios = [
   },
   {
     name: 'luluto 大宮店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.3,
     reviewCount: 94,
     reviews: [
@@ -278,7 +278,7 @@ const studios = [
   },
   {
     name: 'EIGHT 大宮',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.1,
     reviewCount: 67,
     reviews: [
@@ -331,7 +331,7 @@ const studios = [
   },
   {
     name: 'Studio Yoggy 大宮',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.0,
     reviewCount: 132,
     reviews: [
@@ -384,7 +384,7 @@ const studios = [
   },
   {
     name: 'Rintosull 大宮',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.0,
     reviewCount: 145,
     reviews: [

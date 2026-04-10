@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'BDC PILATES 表参道スタジオ',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 234,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 表参道店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 178,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'A・CORE（アコア）',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.9,
     reviewCount: 156,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'Sky Pilates Tokyo',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 112,
     reviews: [
@@ -225,7 +225,7 @@ const studios = [
   },
   {
     name: 'Pilates KASANE 表参道店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 134,
     reviews: [
@@ -278,7 +278,7 @@ const studios = [
   },
   {
     name: 'Pilates Aoyama',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.7,
     reviewCount: 98,
     reviews: [
@@ -331,7 +331,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 六本木',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     reviewCount: 189,
     reviews: [
@@ -384,7 +384,7 @@ const studios = [
   },
   {
     name: 'a.pilates（エードットピラティス）',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.9,
     reviewCount: 67,
     reviews: [

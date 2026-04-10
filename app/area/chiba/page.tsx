@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK 千葉店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.0,
     reviewCount: 156,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 千葉',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.1,
     reviewCount: 132,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'Rintosull 千葉店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.0,
     reviewCount: 118,
     reviews: [
@@ -171,7 +171,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 千葉店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.2,
     reviewCount: 97,
     reviews: [
@@ -224,7 +224,7 @@ const studios = [
   },
   {
     name: 'La pilates 千葉店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.1,
     reviewCount: 84,
     reviews: [
@@ -277,7 +277,7 @@ const studios = [
   },
   {
     name: 'luluto 千葉2号店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.3,
     reviewCount: 108,
     reviews: [
@@ -330,7 +330,7 @@ const studios = [
   },
   {
     name: 'Pilates Studio re.fel',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.0,
     reviewCount: 72,
     reviews: [
@@ -383,7 +383,7 @@ const studios = [
   },
   {
     name: 'OLUTANA pilates',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.1,
     reviewCount: 91,
     reviews: [

@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 天王寺',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 198,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'pilates K 天王寺店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 215,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'Rintosull（リントスル）天王寺店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.6,
     reviewCount: 172,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'La pilates 天王寺店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     price: '月額 9,900円〜',
     trial: '体験レッスン 3,000円',
@@ -183,7 +183,7 @@ const studios = [
   },
   {
     name: 'Pilates Studio soRa',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     price: '1回 3,520円〜',
     trial: '体験レッスン 2,500円',
@@ -194,7 +194,7 @@ const studios = [
   },
   {
     name: 'Pilates studio Sonare',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.8,
     price: '1回 9,350円〜',
     trial: '体験レッスン あり',
@@ -205,7 +205,7 @@ const studios = [
   },
   {
     name: 'fis.pilates 天王寺店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     price: '月額 3,000円台〜（分割払い）',
     trial: '体験レッスン 4,000円',
@@ -216,7 +216,7 @@ const studios = [
   },
   {
     name: 'ピラティスアヴニール 天王寺店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.6,
     price: '都度払い・月額制あり',
     trial: '体験レッスン あり',
@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'Hain pilates 天王寺店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.6,
     price: '月4回プランあり',
     trial: '体験レッスン 2,200円',
@@ -238,7 +238,7 @@ const studios = [
   },
   {
     name: 'PILATES & PERSONAL GYM LAULE\'A',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     price: 'チケット制',
     trial: '体験レッスン あり',
@@ -249,7 +249,7 @@ const studios = [
   },
   {
     name: 'ピラティス・トトヤセ 天王寺店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.8,
     price: 'パーソナルプラン',
     trial: '体験レッスン あり',
@@ -260,7 +260,7 @@ const studios = [
   },
   {
     name: 'Belluna Pilates',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.5,
     price: '1回 2,000円〜',
     trial: '体験レッスン あり',

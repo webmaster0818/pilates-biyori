@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 新宿西口店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     reviewCount: 142,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 高田馬場店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.6,
     reviewCount: 128,
     reviews: [
@@ -173,7 +173,7 @@ const studios = [
   },
   {
     name: 'Rintosull 高田馬場店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.5,
     reviewCount: 95,
     reviews: [

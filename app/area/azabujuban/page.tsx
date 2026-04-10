@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 麻布十番スタジオ',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 190,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオlamp 麻布十番',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.9,
     reviewCount: 85,
     reviews: [
@@ -118,7 +118,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 麻布十番店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.8,
     price: '1回 6,250円〜',
     trial: '体験レッスンあり',
@@ -129,7 +129,7 @@ const studios = [
   },
   {
     name: 'LAGREE MICRO studio 麻布十番',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     price: '1回 3,612円〜',
     trial: '体験レッスン 2,200円',
@@ -140,7 +140,7 @@ const studios = [
   },
   {
     name: 'STUDIO LUCE 麻布十番',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.6,
     price: 'お問い合わせください',
     trial: '体験レッスンあり',

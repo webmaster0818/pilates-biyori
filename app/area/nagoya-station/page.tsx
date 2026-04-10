@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 名駅',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 210,
     reviews: [
@@ -34,7 +34,7 @@ const studios = [
   },
   {
     name: 'ピラティス&ジム 1to1 名古屋駅店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.9,
     reviewCount: 95,
     reviews: [
@@ -55,7 +55,7 @@ const studios = [
   },
   {
     name: 'ルルト 名駅店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.9,
     reviewCount: 78,
     reviews: [
@@ -76,7 +76,7 @@ const studios = [
   },
   {
     name: 'Rintosull 名古屋',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.6,
     reviewCount: 120,
     reviews: [

@@ -67,7 +67,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 武蔵小山',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.6,
     reviewCount: 72,
     reviews: [
@@ -120,7 +120,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 武蔵小山店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.9,
     reviewCount: 56,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'アトリオドゥーエNext 武蔵小山',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.5,
     reviewCount: 88,
     reviews: [

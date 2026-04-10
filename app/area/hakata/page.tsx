@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'CLUB PILATES 博多店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     reviewCount: 145,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'Rintosull 博多店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.6,
     reviewCount: 128,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'スターピラティス 博多マルイスタジオ',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.7,
     reviewCount: 112,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'NAS博多ピラティス',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.5,
     reviewCount: 89,
     reviews: [
@@ -225,7 +225,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 福岡赤坂店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 78,
     reviews: [

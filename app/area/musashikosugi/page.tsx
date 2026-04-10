@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 武蔵小杉店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 124,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'the SILK 武蔵小杉エリア',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.6,
     reviewCount: 89,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 武蔵小杉店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.9,
     reviewCount: 56,
     reviews: [

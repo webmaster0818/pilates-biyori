@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: '阿佐ヶ谷駅前まるはなピラティス',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 92,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'Classical Pilates Tokyo',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.9,
     reviewCount: 124,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'マシンピラティススタジオRintosull阿佐ヶ谷店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.5,
     reviewCount: 186,
     reviews: [

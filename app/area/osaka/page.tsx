@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK 大阪（複数店舗）',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.0,
     reviewCount: 178,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'fis.pilates（フィスピラティス）',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.3,
     reviewCount: 156,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'La pilates 天王寺店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.2,
     reviewCount: 132,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'DAYS PILATES（デイズピラティス）',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.1,
     reviewCount: 118,
     reviews: [
@@ -225,7 +225,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 大阪',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.0,
     reviewCount: 142,
     reviews: [
@@ -278,7 +278,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 大阪',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.1,
     reviewCount: 104,
     reviews: [
@@ -331,7 +331,7 @@ const studios = [
   },
   {
     name: 'STABE 本町',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.2,
     reviewCount: 88,
     reviews: [
@@ -384,7 +384,7 @@ const studios = [
   },
   {
     name: 'PILATES KASANE 大阪',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.0,
     reviewCount: 96,
     reviews: [

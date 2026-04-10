@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK 厚木ガーデンシティ店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     reviewCount: 165,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'Rintosull 本厚木店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.6,
     reviewCount: 132,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'WECLE 本厚木店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.5,
     reviewCount: 98,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'STUDIO SLOW',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 75,
     reviews: [
@@ -225,7 +225,7 @@ const studios = [
   },
   {
     name: 'ヨガスタジオ アルモニ',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.5,
     reviewCount: 85,
     reviews: [

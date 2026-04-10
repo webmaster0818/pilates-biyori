@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK 広島店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.0,
     reviewCount: 178,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 広島',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.2,
     reviewCount: 214,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 広島店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.0,
     reviewCount: 132,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'La pilates 広島店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.2,
     reviewCount: 96,
     reviews: [
@@ -225,7 +225,7 @@ const studios = [
   },
   {
     name: 'Rintosull 広島八丁堀店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.0,
     reviewCount: 145,
     reviews: [
@@ -277,7 +277,7 @@ const studios = [
   },
   {
     name: 'PILATES STUDIO MJ',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.1,
     reviewCount: 68,
     reviews: [
@@ -329,7 +329,7 @@ const studios = [
   },
   {
     name: 'juncus pilates & conditioning',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.2,
     reviewCount: 87,
     reviews: [
@@ -382,7 +382,7 @@ const studios = [
   },
   {
     name: 'LUIRE（ルイール）広島店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.0,
     reviewCount: 104,
     reviews: [

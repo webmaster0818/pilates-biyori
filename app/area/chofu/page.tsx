@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'Rintosull 調布店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     reviewCount: 82,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'ELEMENT 調布店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.8,
     reviewCount: 67,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'zen place pilates（京王線沿線）',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.7,
     reviewCount: 210,
     reviews: [

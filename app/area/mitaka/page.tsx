@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'YUZU 三鷹店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.9,
     reviewCount: 72,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'zen place pilates（三鷹エリア最寄り店舗）',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 130,
     reviews: [
@@ -173,7 +173,7 @@ const studios = [
   },
   {
     name: 'COCOLANCE 三鷹店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.8,
     reviewCount: 56,
     reviews: [

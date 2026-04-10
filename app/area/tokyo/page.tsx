@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.3,
     reviewCount: 312,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'ピラティスK',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.0,
     reviewCount: 245,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.1,
     reviewCount: 178,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.2,
     reviewCount: 132,
     reviews: [
@@ -224,7 +224,7 @@ const studios = [
   },
   {
     name: 'Studio Yoggy',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.1,
     reviewCount: 156,
     reviews: [
@@ -277,7 +277,7 @@ const studios = [
   },
   {
     name: 'ルルト（luluto）',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.3,
     reviewCount: 98,
     reviews: [
@@ -330,7 +330,7 @@ const studios = [
   },
   {
     name: 'K Village Pilates',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.2,
     reviewCount: 87,
     reviews: [
@@ -383,7 +383,7 @@ const studios = [
   },
   {
     name: 'タクトエイト（takt8）',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.1,
     reviewCount: 74,
     reviews: [

@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'マピラ西荻窪店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 64,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'MCSpace 西荻窪',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.4,
     reviewCount: 86,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'Pilates Mee',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.7,
     reviewCount: 78,
     reviews: [

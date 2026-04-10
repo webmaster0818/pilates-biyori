@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'the SILK 秋葉原店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 156,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'Rintosull 秋葉原店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.6,
     reviewCount: 128,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'Pilates isM 秋葉原店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.8,
     reviewCount: 89,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'Corelmia Pilates（コアルミア ピラティス）',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     reviewCount: 95,
     reviews: [
@@ -225,7 +225,7 @@ const studios = [
   },
   {
     name: 'Studio &A（スタジオ アンドエー）',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 72,
     reviews: [
@@ -278,7 +278,7 @@ const studios = [
   },
   {
     name: 'YARD 御茶ノ水スタジオ',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.6,
     reviewCount: 108,
     reviews: [
@@ -331,7 +331,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 神保町',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.7,
     reviewCount: 145,
     reviews: [

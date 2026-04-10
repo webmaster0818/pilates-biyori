@@ -63,7 +63,7 @@ export default function StudiosPage() {
                       <div className="card-hover bg-white border border-warm-100 overflow-hidden h-full flex flex-col">
                         <div className="aspect-[4/3] overflow-hidden">
                           <img 
-                            src="/images/pilates4.jpg" 
+                            src="/images/pilates4.webp" 
                             alt={article.frontmatter.title}
                             className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" 
                             width="400" 

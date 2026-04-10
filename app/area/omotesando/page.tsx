@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'Pilates KASANE 表参道店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 180,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 表参道店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 220,
     reviews: [
@@ -118,7 +118,7 @@ const studios = [
   },
   {
     name: 'BDC PILATES 表参道スタジオ',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.9,
     reviewCount: 150,
     reviews: [
@@ -171,7 +171,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 表参道',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 265,
     reviews: [

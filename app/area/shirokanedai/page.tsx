@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'Habit Pilates studio 白金高輪店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 110,
     reviews: [
@@ -65,7 +65,7 @@ const studios = [
   },
   {
     name: 'Premium Yoga&Pilates 白金高輪駅前店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 95,
     reviews: [
@@ -118,7 +118,7 @@ const studios = [
   },
   {
     name: 'SOU PILATES STUDIO 高輪台店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.9,
     price: 'お問い合わせください',
     trial: '体験レッスン 5,500円',
@@ -129,7 +129,7 @@ const studios = [
   },
   {
     name: 'studio ready',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     price: '1回 8,000円〜',
     trial: '体験レッスン 6,600円',

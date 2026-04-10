@@ -13,7 +13,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 高田馬場スタジオ',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 170,
     reviews: [
@@ -66,7 +66,7 @@ const studios = [
   },
   {
     name: 'the SILK 高田馬場店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.7,
     reviewCount: 130,
     reviews: [
@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 早稲田店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.7,
     reviewCount: 145,
     reviews: [
@@ -225,7 +225,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 高田馬場店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.8,
     reviewCount: 98,
     reviews: [
@@ -278,7 +278,7 @@ const studios = [
   },
   {
     name: 'ELEMENT 高田馬場店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.6,
     reviewCount: 88,
     reviews: [
@@ -331,7 +331,7 @@ const studios = [
   },
   {
     name: 'Rintosull 目白店',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.6,
     reviewCount: 115,
     reviews: [
@@ -437,7 +437,7 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 高田馬場店',
-    image: '/images/pilates2.jpg',
+    image: '/images/pilates2.webp',
     rating: 4.5,
     reviewCount: 92,
     reviews: [
@@ -490,7 +490,7 @@ const studios = [
   },
   {
     name: 'CALDO 高田馬場店',
-    image: '/images/pilates3.jpg',
+    image: '/images/pilates3.webp',
     rating: 4.5,
     reviewCount: 160,
     reviews: [
@@ -543,7 +543,7 @@ const studios = [
   },
   {
     name: 'NATURAglam 高田馬場スタジオ',
-    image: '/images/pilates4.jpg',
+    image: '/images/pilates4.webp',
     rating: 4.6,
     reviewCount: 68,
     reviews: [
