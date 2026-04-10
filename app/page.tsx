@@ -165,30 +165,6 @@ export default function Home() {
         {/* Area Search */}
         <AreaSearch />
 
-        {/* Trust Numbers */}
-        <section className="py-16 bg-white border-y border-warm-100">
-          <div className="max-w-5xl mx-auto px-6 lg:px-8 fade-up">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-              <div>
-                <p className="font-serif text-4xl font-light text-warm-800">4</p>
-                <p className="text-warm-400 text-xs mt-2 uppercase tracking-[0.15em]">人気スタジオ</p>
-              </div>
-              <div>
-                <p className="font-serif text-4xl font-light text-warm-800">15</p>
-                <p className="text-warm-400 text-xs mt-2 uppercase tracking-[0.15em]">厳選記事</p>
-              </div>
-              <div>
-                <p className="font-serif text-4xl font-light text-warm-800">3</p>
-                <p className="text-warm-400 text-xs mt-2 uppercase tracking-[0.15em]">カテゴリ</p>
-              </div>
-              <div>
-                <p className="font-serif text-4xl font-light text-warm-800">Monthly</p>
-                <p className="text-warm-400 text-xs mt-2 uppercase tracking-[0.15em]">情報更新</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* Featured Articles */}
         <section className="py-20 md:py-28 bg-warm-50" id="articles">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
