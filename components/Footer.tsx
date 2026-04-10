@@ -24,7 +24,9 @@ export function Footer() {
             <h4 className="font-bold mb-4">サイト情報</h4>
             <ul className="space-y-2 text-sm">
               <li><Link href="/about" className="hover:text-purple-600">運営者情報</Link></li>
-              <li><Link href="/privacy" className="hover:text-purple-600">プライバシーポリシー</Link></li>
+              <li><Link href="/privacy-policy" className="hover:text-purple-600">プライバシーポリシー</Link></li>
+              <li><Link href="/terms-of-service" className="hover:text-purple-600">利用規約</Link></li>
+              <li><Link href="/content-policy" className="hover:text-purple-600">記事制作ポリシー</Link></li>
               <li><Link href="/contact" className="hover:text-purple-600">お問い合わせ</Link></li>
             </ul>
           </div>
