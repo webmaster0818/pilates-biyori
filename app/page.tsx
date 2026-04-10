@@ -2,7 +2,8 @@
 
 import { useEffect } from 'react'
 import Link from 'next/link'
-import Script from 'next/script'
+import Script from "next/script"
+import { AreaSearch } from "@/components/AreaSearch"
 
 export default function Home() {
   useEffect(() => {
@@ -160,6 +161,9 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Area Search */}
+        <AreaSearch />
 
         {/* Trust Numbers */}
         <section className="py-16 bg-white border-y border-warm-100">
