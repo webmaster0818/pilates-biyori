@@ -353,9 +353,9 @@ const areaData: Record<string, {
 }
 
 export async function generateStaticParams() {
-  return Object.keys(areaData).map((slug) => ({
-    slug,
-  }))
+  // 全エリアに個別ページ（app/area/[エリア名]/page.tsx）が存在するため、
+  // [slug]ルートからは静的パスを生成しない（個別ページを優先）
+  return []
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
