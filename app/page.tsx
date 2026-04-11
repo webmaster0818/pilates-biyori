@@ -499,114 +499,200 @@ export default function Home() {
         <section className="py-20 md:py-28 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <div className="text-center mb-14 fade-up">
-              <p className="section-en text-warm-400 mb-3 font-medium">Popular Studios</p>
+              <p className="section-en text-warm-400 mb-3">POPULAR STUDIOS</p>
               <h2 className="text-2xl md:text-3xl font-light text-warm-900 tracking-tight">人気ピラティススタジオ</h2>
               <div className="divider mx-auto mt-4"></div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 fade-up">
-              {/* Studio 1 */}
-              <div className="bg-white p-8 md:p-10 card-hover border border-warm-100">
-                <div className="flex items-start justify-between mb-6">
-                  <div>
-                    <p className="section-en text-warm-300 mb-2">01</p>
-                    <h3 className="text-lg font-medium text-warm-900 tracking-tight">zen place pilates</h3>
+              {/* Studio 1: zen place pilates */}
+              <article className="bg-white card-hover border border-warm-100 overflow-hidden">
+                <div className="relative aspect-[16/10] overflow-hidden bg-warm-50">
+                  <img
+                    src="/images/studios/zen-place-pilates.webp"
+                    alt="zen place pilates 公式サイト"
+                    className="w-full h-full object-cover object-top"
+                    width="800"
+                    height="500"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="p-8 md:p-10">
+                  <div className="flex items-start justify-between mb-4">
+                    <div>
+                      <p className="section-en text-warm-300 mb-2">01</p>
+                      <h3 className="text-xl font-medium text-warm-900 tracking-tight">zen place pilates</h3>
+                    </div>
+                    <span className="text-warm-300 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">全国展開</span>
                   </div>
-                  <span className="text-warm-300 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">全国展開</span>
+                  <p className="text-warm-500 text-sm leading-relaxed font-light mb-6">
+                    全国最大手、100店舗以上を展開。マットからマシンまで、初心者からインストラクター養成まで幅広いプログラム。
+                  </p>
+                  <dl className="grid grid-cols-3 gap-2 mb-6 border-t border-warm-100 pt-5">
+                    <div>
+                      <dt className="text-[10px] uppercase tracking-[0.15em] text-warm-300 mb-1">店舗数</dt>
+                      <dd className="text-sm font-medium text-warm-700">100店舗+</dd>
+                    </div>
+                    <div>
+                      <dt className="text-[10px] uppercase tracking-[0.15em] text-warm-300 mb-1">対象</dt>
+                      <dd className="text-sm font-medium text-warm-700">男女OK</dd>
+                    </div>
+                    <div>
+                      <dt className="text-[10px] uppercase tracking-[0.15em] text-warm-300 mb-1">特徴</dt>
+                      <dd className="text-sm font-medium text-warm-700">業界最大手</dd>
+                    </div>
+                  </dl>
+                  <a href="https://www.zenplace.co.jp/pilates/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-warm-600 text-xs uppercase tracking-[0.15em] font-medium hover:text-warm-900 transition group">
+                    zen place pilates公式サイト
+                    <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                    </svg>
+                  </a>
                 </div>
-                <p className="text-warm-400 text-sm leading-relaxed font-light mb-6">
-                  全国最大手、100店舗以上を展開。マットからマシンまで、初心者からインストラクター養成まで幅広いプログラム。
-                </p>
-                <div className="flex items-center gap-6 text-xs text-warm-400 mb-6">
-                  <span className="flex items-center gap-1.5">📍 全国100店舗+</span>
-                  <span className="flex items-center gap-1.5">👥 男女OK</span>
-                  <span className="flex items-center gap-1.5">⭐ 最大手</span>
-                </div>
-                <a href="#" className="inline-flex items-center gap-2 text-warm-600 text-xs uppercase tracking-[0.15em] font-medium hover:text-warm-900 transition group">
-                  zen place pilatesのピラティスKのCLUB PILATESのthe SILKの詳細を見る 
-                  <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-                  </svg>
-                </a>
-              </div>
+              </article>
 
-              {/* Studio 2 */}
-              <div className="bg-white p-8 md:p-10 card-hover border border-warm-100">
-                <div className="flex items-start justify-between mb-6">
-                  <div>
-                    <p className="section-en text-warm-300 mb-2">02</p>
-                    <h3 className="text-lg font-medium text-warm-900 tracking-tight">ピラティスK</h3>
+              {/* Studio 2: ピラティスK */}
+              <article className="bg-white card-hover border border-warm-100 overflow-hidden">
+                <div className="relative aspect-[16/10] overflow-hidden bg-warm-50">
+                  <img
+                    src="/images/studios/pilates-k.webp"
+                    alt="ピラティスK 公式サイト"
+                    className="w-full h-full object-cover object-top"
+                    width="800"
+                    height="500"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="p-8 md:p-10">
+                  <div className="flex items-start justify-between mb-4">
+                    <div>
+                      <p className="section-en text-warm-300 mb-2">02</p>
+                      <h3 className="text-xl font-medium text-warm-900 tracking-tight">ピラティスK</h3>
+                    </div>
+                    <span className="text-warm-300 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">女性専用</span>
                   </div>
-                  <span className="text-warm-300 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">女性専用</span>
+                  <p className="text-warm-500 text-sm leading-relaxed font-light mb-6">
+                    女性専用マシンピラティススタジオ。ボディメイクに特化した17種のプログラムで、理想の体型を目指す。体験¥0。
+                  </p>
+                  <dl className="grid grid-cols-3 gap-2 mb-6 border-t border-warm-100 pt-5">
+                    <div>
+                      <dt className="text-[10px] uppercase tracking-[0.15em] text-warm-300 mb-1">展開</dt>
+                      <dd className="text-sm font-medium text-warm-700">全国120店舗+</dd>
+                    </div>
+                    <div>
+                      <dt className="text-[10px] uppercase tracking-[0.15em] text-warm-300 mb-1">対象</dt>
+                      <dd className="text-sm font-medium text-warm-700">女性専用</dd>
+                    </div>
+                    <div>
+                      <dt className="text-[10px] uppercase tracking-[0.15em] text-warm-300 mb-1">体験</dt>
+                      <dd className="text-sm font-medium text-warm-700">¥0キャンペーン</dd>
+                    </div>
+                  </dl>
+                  <a href="https://pilates-k.jp/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-warm-600 text-xs uppercase tracking-[0.15em] font-medium hover:text-warm-900 transition group">
+                    ピラティスK公式サイト
+                    <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                    </svg>
+                  </a>
                 </div>
-                <p className="text-warm-400 text-sm leading-relaxed font-light mb-6">
-                  女性専用マシンピラティススタジオ。ボディメイクに特化した17種のプログラムで、理想の体型を目指す。体験¥0。
-                </p>
-                <div className="flex items-center gap-6 text-xs text-warm-400 mb-6">
-                  <span className="flex items-center gap-1.5">📍 全国展開</span>
-                  <span className="flex items-center gap-1.5">✨ 女性専用</span>
-                  <span className="flex items-center gap-1.5">⚡ 体験¥0</span>
-                </div>
-                <a href="#" className="inline-flex items-center gap-2 text-warm-600 text-xs uppercase tracking-[0.15em] font-medium hover:text-warm-900 transition group">
-                  詳細を見る 
-                  <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-                  </svg>
-                </a>
-              </div>
+              </article>
 
-              {/* Studio 3 */}
-              <div className="bg-white p-8 md:p-10 card-hover border border-warm-100">
-                <div className="flex items-start justify-between mb-6">
-                  <div>
-                    <p className="section-en text-warm-300 mb-2">03</p>
-                    <h3 className="text-lg font-medium text-warm-900 tracking-tight">CLUB PILATES</h3>
+              {/* Studio 3: CLUB PILATES */}
+              <article className="bg-white card-hover border border-warm-100 overflow-hidden">
+                <div className="relative aspect-[16/10] overflow-hidden bg-warm-50">
+                  <img
+                    src="/images/studios/club-pilates.webp"
+                    alt="CLUB PILATES 公式サイト"
+                    className="w-full h-full object-cover object-top"
+                    width="800"
+                    height="500"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="p-8 md:p-10">
+                  <div className="flex items-start justify-between mb-4">
+                    <div>
+                      <p className="section-en text-warm-300 mb-2">03</p>
+                      <h3 className="text-xl font-medium text-warm-900 tracking-tight">CLUB PILATES</h3>
+                    </div>
+                    <span className="text-warm-300 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">世界最大級</span>
                   </div>
-                  <span className="text-warm-300 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">世界最大級</span>
+                  <p className="text-warm-500 text-sm leading-relaxed font-light mb-6">
+                    世界最大級、800店舗以上展開のピラティスブランド。グループリフォーマーからプライベートまで多彩なクラス。
+                  </p>
+                  <dl className="grid grid-cols-3 gap-2 mb-6 border-t border-warm-100 pt-5">
+                    <div>
+                      <dt className="text-[10px] uppercase tracking-[0.15em] text-warm-300 mb-1">展開</dt>
+                      <dd className="text-sm font-medium text-warm-700">世界800店舗+</dd>
+                    </div>
+                    <div>
+                      <dt className="text-[10px] uppercase tracking-[0.15em] text-warm-300 mb-1">対象</dt>
+                      <dd className="text-sm font-medium text-warm-700">男女OK</dd>
+                    </div>
+                    <div>
+                      <dt className="text-[10px] uppercase tracking-[0.15em] text-warm-300 mb-1">特徴</dt>
+                      <dd className="text-sm font-medium text-warm-700">世界最大級</dd>
+                    </div>
+                  </dl>
+                  <a href="https://www.clubpilates.jp/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-warm-600 text-xs uppercase tracking-[0.15em] font-medium hover:text-warm-900 transition group">
+                    CLUB PILATES公式サイト
+                    <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                    </svg>
+                  </a>
                 </div>
-                <p className="text-warm-400 text-sm leading-relaxed font-light mb-6">
-                  世界最大級、800店舗以上展開のピラティスブランド。グループリフォーマーからプライベートまで多彩なクラス。
-                </p>
-                <div className="flex items-center gap-6 text-xs text-warm-400 mb-6">
-                  <span className="flex items-center gap-1.5">🌍 世界800店舗+</span>
-                  <span className="flex items-center gap-1.5">👥 男女OK</span>
-                </div>
-                <a href="#" className="inline-flex items-center gap-2 text-warm-600 text-xs uppercase tracking-[0.15em] font-medium hover:text-warm-900 transition group">
-                  詳細を見る 
-                  <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-                  </svg>
-                </a>
-              </div>
+              </article>
 
-              {/* Studio 4 */}
-              <div className="bg-white p-8 md:p-10 card-hover border border-warm-100">
-                <div className="flex items-start justify-between mb-6">
-                  <div>
-                    <p className="section-en text-warm-300 mb-2">04</p>
-                    <h3 className="text-lg font-medium text-warm-900 tracking-tight">the SILK</h3>
+              {/* Studio 4: the SILK */}
+              <article className="bg-white card-hover border border-warm-100 overflow-hidden">
+                <div className="relative aspect-[16/10] overflow-hidden bg-warm-50">
+                  <img
+                    src="/images/studios/the-silk.webp"
+                    alt="the SILK 公式サイト"
+                    className="w-full h-full object-cover object-top"
+                    width="800"
+                    height="500"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="p-8 md:p-10">
+                  <div className="flex items-start justify-between mb-4">
+                    <div>
+                      <p className="section-en text-warm-300 mb-2">04</p>
+                      <h3 className="text-xl font-medium text-warm-900 tracking-tight">the SILK</h3>
+                    </div>
+                    <span className="text-warm-300 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">女性専用</span>
                   </div>
-                  <span className="text-warm-300 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">女性専用</span>
+                  <p className="text-warm-500 text-sm leading-relaxed font-light mb-6">
+                    女性専用、美ボディメイクに特化したマシンピラティス。洗練された空間で、しなやかな身体づくりを。
+                  </p>
+                  <dl className="grid grid-cols-3 gap-2 mb-6 border-t border-warm-100 pt-5">
+                    <div>
+                      <dt className="text-[10px] uppercase tracking-[0.15em] text-warm-300 mb-1">特徴</dt>
+                      <dd className="text-sm font-medium text-warm-700">マシンピラティス</dd>
+                    </div>
+                    <div>
+                      <dt className="text-[10px] uppercase tracking-[0.15em] text-warm-300 mb-1">対象</dt>
+                      <dd className="text-sm font-medium text-warm-700">女性専用</dd>
+                    </div>
+                    <div>
+                      <dt className="text-[10px] uppercase tracking-[0.15em] text-warm-300 mb-1">特徴</dt>
+                      <dd className="text-sm font-medium text-warm-700">美ボディメイク</dd>
+                    </div>
+                  </dl>
+                  <a href="https://thesilk.jp/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-warm-600 text-xs uppercase tracking-[0.15em] font-medium hover:text-warm-900 transition group">
+                    the SILK公式サイト
+                    <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                    </svg>
+                  </a>
                 </div>
-                <p className="text-warm-400 text-sm leading-relaxed font-light mb-6">
-                  女性専用、美ボディメイクに特化したマシンピラティス。洗練された空間で、しなやかな身体づくりを。
-                </p>
-                <div className="flex items-center gap-6 text-xs text-warm-400 mb-6">
-                  <span className="flex items-center gap-1.5">✨ 女性専用</span>
-                  <span className="flex items-center gap-1.5">❤️ 美ボディメイク</span>
-                </div>
-                <a href="#" className="inline-flex items-center gap-2 text-warm-600 text-xs uppercase tracking-[0.15em] font-medium hover:text-warm-900 transition group">
-                  詳細を見る 
-                  <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-                  </svg>
-                </a>
-              </div>
+              </article>
             </div>
 
             <div className="text-center mt-12 fade-up">
-              <a href="#" className="inline-block border border-warm-800 text-warm-800 px-10 py-3.5 text-xs font-medium uppercase tracking-[0.15em] hover:bg-warm-800 hover:text-white transition-all btn-minimal">
-                すべてのスタジオを比較
+              <a href="/area/" className="inline-block border border-warm-800 text-warm-800 px-10 py-3.5 text-xs font-medium uppercase tracking-[0.15em] hover:bg-warm-800 hover:text-white transition-all btn-minimal">
+                エリアからスタジオを探す
               </a>
             </div>
           </div>
