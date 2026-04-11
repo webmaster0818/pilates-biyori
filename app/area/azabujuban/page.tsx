@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { Navigation } from '@/components/Navigation'
 import { SiteFooter } from '@/components/SiteFooter'
 import { StudioCard } from '@/components/StudioCard'
+import { RelatedAreas } from '@/components/RelatedAreas'
 import Script from 'next/script'
 
 export const metadata = {
@@ -467,6 +468,7 @@ export default function AzabujubanPage() {
         </section>
       </main>
 
+      <RelatedAreas currentSlug="azabujuban" />
       <SiteFooter />
       <Script src="https://unpkg.com/lucide@latest" strategy="lazyOnload" />
     </>
