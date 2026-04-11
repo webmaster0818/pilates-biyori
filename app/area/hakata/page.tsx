@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'スターピラティス 博多マルイスタジオ',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 112,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'NAS博多ピラティス',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.5,
     reviewCount: 89,
     reviews: [

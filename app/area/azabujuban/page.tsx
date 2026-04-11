@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオlamp 麻布十番',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.9,
     reviewCount: 85,
     reviews: [
@@ -142,7 +142,7 @@ const studios = [
   },
   {
     name: 'STUDIO LUCE 麻布十番',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
     price: 'お問い合わせください',
     trial: '体験レッスンあり',

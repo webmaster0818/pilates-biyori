@@ -34,7 +34,7 @@ const studios = [
   },
   {
     name: 'Premium Yoga&Pilates 白金高輪',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.9, reviewCount: 120,
     reviews: [
       { author: 'R.N', rating: 5, date: '1週間前', text: '白金高輪駅から徒歩1分！少人数制で一人ひとりに合わせた丁寧な指導が受けられます。3年以上の指導経験あるインストラクターのみ在籍。' },
@@ -89,7 +89,7 @@ const studios = [
   },
   {
     name: 'Pilates Studio eleven 白金台',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8, reviewCount: 72,
     reviews: [
       { author: 'E.S', rating: 5, date: '1週間前', text: '白金台のおしゃれなスタジオ。マシンピラティス専門で質の高いレッスンが受けられます。' },
@@ -107,7 +107,7 @@ const studios = [
   },
   {
     name: 'Premium Machine Pilates 白金高輪',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7, reviewCount: 55,
     reviews: [
       { author: 'M.T', rating: 5, date: '2週間前', text: '白金高輪駅から徒歩2分！マシンピラティス専用スタジオで設備が素晴らしい。' },
@@ -197,7 +197,7 @@ const studios = [
   },
   {
     name: 'CORAL 白金 マシンピラティススタジオ',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8, reviewCount: 45,
     reviews: [
       { author: 'S.Y', rating: 5, date: '1週間前', text: '南麻布のおしゃれなマシンピラティススタジオ。パーソナルで一人ひとりに合わせた丁寧な指導が受けられます。' },
@@ -215,7 +215,7 @@ const studios = [
   },
   {
     name: 'chocoZAP 白金高輪エリア',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.2, reviewCount: 200,
     reviews: [
       { author: 'T.K', rating: 4, date: '1週間前', text: '月額3,278円（税込）でマシンピラティスが使い放題！コスパ最強。予約不要で好きな時に使えるのが便利。' },

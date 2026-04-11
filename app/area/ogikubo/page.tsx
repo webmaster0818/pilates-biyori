@@ -123,7 +123,7 @@ const studios = [
   },
   {
     name: 'emu pilates studio 荻窪店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.5,
     reviewCount: 78,
     reviews: [
@@ -230,7 +230,7 @@ const studios = [
   },
   {
     name: 'MCSpace 西荻窪（近隣エリア）',
-    image: '/images/pilates5.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.4,
     reviewCount: 86,
     reviews: [

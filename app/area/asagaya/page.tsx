@@ -123,7 +123,7 @@ const studios = [
   },
   {
     name: 'Classical Pilates Tokyo',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.9,
     reviewCount: 124,
     reviews: [

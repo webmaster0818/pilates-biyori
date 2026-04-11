@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'STUDIO.EDU（押上駅前）',
-    image: '/images/pilates1.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 142,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'オハイアリイ Ohaialii',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 108,
     reviews: [
@@ -175,7 +175,7 @@ const studios = [
   },
   {
     name: 'ルネサンス東あずま24',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.5,
     reviewCount: 186,
     reviews: [
@@ -228,7 +228,7 @@ const studios = [
   },
   {
     name: 'ルネサンス曳舟（近隣エリア）',
-    image: '/images/pilates5.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
     reviewCount: 164,
     reviews: [
@@ -336,7 +336,7 @@ const studios = [
   },
   {
     name: 'LAVA 曳舟店（近隣エリア）',
-    image: '/images/pilates7.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.5,
     reviewCount: 198,
     reviews: [

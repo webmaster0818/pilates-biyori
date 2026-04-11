@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'Grand Chariot Pilates Studio',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 70,
     reviews: [

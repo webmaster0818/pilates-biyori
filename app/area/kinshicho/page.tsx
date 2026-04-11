@@ -404,7 +404,7 @@ const studios = [
   },
   {
     name: '24/7 Pilates 錦糸町四ツ目通り',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 134,
     reviews: [
@@ -496,7 +496,7 @@ const studios = [
   },
   {
     name: 'SOU+ 錦糸町',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
     reviewCount: 94,
     reviews: [
@@ -588,7 +588,7 @@ const studios = [
   },
   {
     name: 'SEPILA 錦糸町',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.5,
     reviewCount: 72,
     reviews: [
@@ -634,7 +634,7 @@ const studios = [
   },
   {
     name: 'My Machine Pilates 錦糸町',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
     reviewCount: 86,
     reviews: [

@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'Beat Pilates 日本橋小伝馬町店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 130,
     reviews: [
@@ -122,7 +122,7 @@ const studios = [
   },
   {
     name: 'マシンピラティス ウィング 東京日本橋',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.9,
     reviewCount: 85,
     reviews: [

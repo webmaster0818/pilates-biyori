@@ -280,7 +280,7 @@ const studios = [
   },
   {
     name: 'バスコ（BASCO）江坂店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.5,
     reviewCount: 89,
     reviews: [

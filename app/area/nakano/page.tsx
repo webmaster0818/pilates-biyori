@@ -490,7 +490,7 @@ const studios = [
   },
   {
     name: 'AGNIYOGA 新中野',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.4,
     reviewCount: 65,
     reviews: [
@@ -597,7 +597,7 @@ const studios = [
   },
   {
     name: 'chocoZAP 中野',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.0,
     reviewCount: 200,
     reviews: [

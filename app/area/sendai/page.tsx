@@ -226,7 +226,7 @@ const studios = [
   },
   {
     name: 'REborn（リボーン）',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.3,
     reviewCount: 54,
     reviews: [

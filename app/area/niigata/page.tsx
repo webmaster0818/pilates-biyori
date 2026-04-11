@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'Studio Haru',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.1,
     reviewCount: 64,
     reviews: [
@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオAs.エース',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.0,
     reviewCount: 74,
     reviews: [
@@ -280,7 +280,7 @@ const studios = [
   },
   {
     name: 'マシンピラティス＆整体スタジオ（女池）',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.1,
     reviewCount: 56,
     reviews: [

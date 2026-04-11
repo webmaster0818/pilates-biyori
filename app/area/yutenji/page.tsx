@@ -131,7 +131,7 @@ const studios = [
   },
   {
     name: 'GRACE pilates&yoga studio',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     price: '1回 2,000円〜',
     trial: '体験レッスンあり',

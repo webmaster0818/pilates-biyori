@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'Pilates Studio Muni',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 65,
     reviews: [
@@ -409,7 +409,7 @@ const studios = [
   },
   {
     name: 'chocoZAP 下北沢',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.0,
     reviewCount: 200,
     reviews: [

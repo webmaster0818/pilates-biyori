@@ -280,7 +280,7 @@ const studios = [
   },
   {
     name: 'Pilates Aoyama',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 98,
     reviews: [

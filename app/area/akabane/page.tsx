@@ -131,7 +131,7 @@ const studios = [
   },
   {
     name: 'Studio marici 赤羽',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     price: 'お問い合わせください',
     trial: '体験レッスンあり',

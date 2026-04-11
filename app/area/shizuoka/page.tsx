@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'ピラティス-8810-',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.0,
     reviewCount: 56,
     reviews: [
@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオMAEDA',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.1,
     reviewCount: 73,
     reviews: [
@@ -280,7 +280,7 @@ const studios = [
   },
   {
     name: 'pilates Light 静岡',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.2,
     reviewCount: 48,
     reviews: [
@@ -333,7 +333,7 @@ const studios = [
   },
   {
     name: 'Natural Soma',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.1,
     reviewCount: 62,
     reviews: [

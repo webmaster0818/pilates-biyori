@@ -176,7 +176,7 @@ const studios = [
   },
   {
     name: 'アトリオドゥーエNext 武蔵小山',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.5,
     reviewCount: 88,
     reviews: [

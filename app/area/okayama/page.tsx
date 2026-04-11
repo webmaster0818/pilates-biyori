@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'UP LIFE GALLERY 岡山店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.1,
     reviewCount: 47,
     reviews: [
@@ -332,7 +332,7 @@ const studios = [
   },
   {
     name: 'studio kua（スタジオクウア）',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.1,
     reviewCount: 34,
     reviews: [

@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'SAKURA ピラティス 五反田店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 78,
     reviews: [

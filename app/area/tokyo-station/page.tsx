@@ -322,7 +322,7 @@ const studios = [
   },
   {
     name: 'ピラティスガーデン銀座',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
     reviewCount: 110,
     reviews: [
@@ -354,7 +354,7 @@ const studios = [
   },
   {
     name: 'バース ピラティス スタジオ 銀座',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 85,
     reviews: [
@@ -386,7 +386,7 @@ const studios = [
   },
   {
     name: 'Pilates Studio excel 日本橋店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
     reviewCount: 72,
     reviews: [

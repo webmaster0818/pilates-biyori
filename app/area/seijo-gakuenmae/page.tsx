@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'Evolv 成城学園前店',
-    image: '/images/pilates5.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
     reviewCount: 142,
     reviews: [
@@ -279,7 +279,7 @@ const studios = [
   },
   {
     name: 'Pilasuru 成城学園前店',
-    image: '/images/pilates6.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.5,
     reviewCount: 98,
     reviews: [

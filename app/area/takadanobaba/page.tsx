@@ -598,7 +598,7 @@ const studios = [
   },
   {
     name: 'chocoZAP 高田馬場店',
-    image: '/images/pilates1.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.2,
     reviewCount: 210,
     reviews: [

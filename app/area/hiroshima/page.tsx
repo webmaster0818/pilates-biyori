@@ -279,7 +279,7 @@ const studios = [
   },
   {
     name: 'PILATES STUDIO MJ',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.1,
     reviewCount: 68,
     reviews: [
@@ -331,7 +331,7 @@ const studios = [
   },
   {
     name: 'juncus pilates & conditioning',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.2,
     reviewCount: 87,
     reviews: [
@@ -384,7 +384,7 @@ const studios = [
   },
   {
     name: 'LUIRE（ルイール）広島店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.0,
     reviewCount: 104,
     reviews: [

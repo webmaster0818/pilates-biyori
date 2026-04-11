@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'LAVIA 都立大学店',
-    image: '/images/pilates5.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.9,
     reviewCount: 85,
     reviews: [
@@ -226,7 +226,7 @@ const studios = [
   },
   {
     name: 'personal studio SUNNY',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 75,
     reviews: [
@@ -277,7 +277,7 @@ const studios = [
   },
   {
     name: 'ピラティスアラベスク',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.5,
     reviewCount: 65,
     reviews: [

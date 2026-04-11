@@ -205,7 +205,7 @@ const studios = [
   },
   {
     name: 'rcu リチュ 御茶ノ水',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.5,
     price: '要問い合わせ',
     trial: '体験レッスン あり',
@@ -236,7 +236,7 @@ const studios = [
   },
   {
     name: 'PILATES STUDIO ZERO 神保町店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     price: '月4回 37,200円〜',
     trial: '体験レッスン 4,400円（当日入会で無料）',
@@ -269,7 +269,7 @@ const studios = [
   },
   {
     name: 'Z&Z Pilates Studio 神保町店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
     price: '月4回 19,900円〜',
     trial: '団体体験 4,000円 / 私教体験 8,000円',

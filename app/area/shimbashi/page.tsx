@@ -225,7 +225,7 @@ const studios = [
   },
   {
     name: 'CREA パーソナルピラティス 新橋・銀座店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.9,
     reviewCount: 95,
     reviews: [
@@ -588,7 +588,7 @@ const studios = [
   },
   {
     name: 'chocoZAP 新橋',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.3,
     reviewCount: 250,
     reviews: [

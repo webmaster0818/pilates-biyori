@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'TOKI PILATES STUDIO 元町',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.1,
     reviewCount: 68,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'STUDIO TOU 三宮',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.1,
     reviewCount: 73,
     reviews: [
@@ -386,7 +386,7 @@ const studios = [
   },
   {
     name: 'pilates studio compass+ 北区',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.0,
     reviewCount: 42,
     reviews: [

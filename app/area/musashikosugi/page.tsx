@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'Lucio 武蔵小杉店',
-    image: '/images/pilates5.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 43,
     reviews: [

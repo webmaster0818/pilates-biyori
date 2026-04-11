@@ -332,7 +332,7 @@ const studios = [
   },
   {
     name: 'K Village Pilates',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.2,
     reviewCount: 87,
     reviews: [
@@ -385,7 +385,7 @@ const studios = [
   },
   {
     name: 'タクトエイト（takt8）',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.1,
     reviewCount: 74,
     reviews: [

@@ -122,7 +122,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオDIVA',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.9,
     reviewCount: 56,
     reviews: [
@@ -229,7 +229,7 @@ const studios = [
   },
   {
     name: 'スタジオプラス 清澄白河',
-    image: '/images/pilates5.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 61,
     reviews: [

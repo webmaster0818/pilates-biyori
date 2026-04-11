@@ -70,7 +70,7 @@ const studios = [
   },
   {
     name: 'マピラ西荻窪店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 64,
     reviews: [
@@ -123,7 +123,7 @@ const studios = [
   },
   {
     name: 'MCSpace 西荻窪',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.4,
     reviewCount: 86,
     reviews: [
@@ -229,7 +229,7 @@ const studios = [
   },
   {
     name: 'YAPF（カラダ改善スタジオ）',
-    image: '/images/pilates5.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
     reviewCount: 92,
     reviews: [

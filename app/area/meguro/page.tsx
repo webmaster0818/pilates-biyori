@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'Pilates Legacy Studio',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 48,
     reviews: [

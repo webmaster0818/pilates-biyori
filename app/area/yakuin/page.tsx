@@ -122,7 +122,7 @@ const studios = [
   },
   {
     name: 'AR pilates',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.9,
     reviewCount: 78,
     reviews: [
@@ -175,7 +175,7 @@ const studios = [
   },
   {
     name: 'edgy pilates studio',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 92,
     reviews: [

@@ -185,7 +185,7 @@ const studios = [
   },
   {
     name: 'Pilates Studio soRa',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     price: '1回 3,520円〜',
     trial: '体験レッスン 2,500円',
@@ -196,7 +196,7 @@ const studios = [
   },
   {
     name: 'Pilates studio Sonare',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     price: '1回 9,350円〜',
     trial: '体験レッスン あり',
@@ -218,7 +218,7 @@ const studios = [
   },
   {
     name: 'ピラティスアヴニール 天王寺店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
     price: '都度払い・月額制あり',
     trial: '体験レッスン あり',
@@ -251,7 +251,7 @@ const studios = [
   },
   {
     name: 'ピラティス・トトヤセ 天王寺店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     price: 'パーソナルプラン',
     trial: '体験レッスン あり',
@@ -262,7 +262,7 @@ const studios = [
   },
   {
     name: 'Belluna Pilates',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.5,
     price: '1回 2,000円〜',
     trial: '体験レッスン あり',

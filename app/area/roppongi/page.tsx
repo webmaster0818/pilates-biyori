@@ -91,7 +91,7 @@ const studios = [
   },
   {
     name: 'All Present Pilates',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 62,
     reviews: [
@@ -167,7 +167,7 @@ const studios = [
   },
   {
     name: 'スタジオMiiA 六本木',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 55,
     reviews: [
@@ -204,7 +204,7 @@ const studios = [
   },
   {
     name: 'BLC Personal Gym',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
     reviewCount: 48,
     reviews: [

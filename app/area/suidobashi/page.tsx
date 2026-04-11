@@ -488,7 +488,7 @@ const studios = [
   },
   {
     name: 'chocoZAP 飯田橋一丁目店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.3,
     reviewCount: 200,
     reviews: [
@@ -590,7 +590,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオ ゼロ 神保町',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.9,
     reviewCount: 45,
     reviews: [

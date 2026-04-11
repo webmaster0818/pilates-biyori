@@ -598,7 +598,7 @@ const studios = [
   },
   {
     name: 'chocoZAP 高円寺',
-    image: '/images/pilates12.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.1,
     reviewCount: 210,
     reviews: [

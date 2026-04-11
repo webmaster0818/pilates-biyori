@@ -273,7 +273,7 @@ const studios = [
   },
   {
     name: 'AGNIYOGA 三軒茶屋',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.5,
     reviewCount: 110,
     reviews: [

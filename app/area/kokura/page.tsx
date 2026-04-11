@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'スターピラティス 小倉駅前スタジオ',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 88,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'arugamama ピラティススタジオ',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 62,
     reviews: [
@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'Heart&Body Studio Lead',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
     reviewCount: 72,
     reviews: [

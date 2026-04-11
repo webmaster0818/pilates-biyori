@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'STUDIO SLOW',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 75,
     reviews: [
@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'ヨガスタジオ アルモニ',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.5,
     reviewCount: 85,
     reviews: [

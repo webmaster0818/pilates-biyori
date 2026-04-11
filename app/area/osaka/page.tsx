@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'DAYS PILATES（デイズピラティス）',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.1,
     reviewCount: 118,
     reviews: [
@@ -333,7 +333,7 @@ const studios = [
   },
   {
     name: 'STABE 本町',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.2,
     reviewCount: 88,
     reviews: [
@@ -386,7 +386,7 @@ const studios = [
   },
   {
     name: 'PILATES KASANE 大阪',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.0,
     reviewCount: 96,
     reviews: [
