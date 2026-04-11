@@ -27,6 +27,7 @@ export function SiteFooter() {
               <li><Link href="/privacy-policy" className="text-warm-500 hover:text-white transition font-light">プライバシーポリシー</Link></li>
               <li><Link href="/terms-of-service" className="text-warm-500 hover:text-white transition font-light">利用規約</Link></li>
               <li><Link href="/content-policy" className="text-warm-500 hover:text-white transition font-light">記事制作ポリシー</Link></li>
+              <li><Link href="/sitemap" className="text-warm-500 hover:text-white transition font-light">サイトマップ</Link></li>
               <li><a href="/#about" className="text-warm-500 hover:text-white transition font-light">お問い合わせ</a></li>
             </ul>
           </div>
