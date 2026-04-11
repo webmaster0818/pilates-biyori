@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600&display=swap');
-
 @layer base {
   html {
     scroll-behavior: smooth;
@@ -11,12 +9,22 @@
   
   body {
     @apply font-sans text-warm-800;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
   }
 
-  .font-serif {
-    font-family: 'Cormorant Garamond', serif;
+  /* Mobile tap target minimum 44x44 */
+  @media (max-width: 768px) {
+    button, a, input, select, textarea {
+      min-height: 44px;
+    }
+    button:not(.inline), a:not(.inline) {
+      touch-action: manipulation;
+    }
   }
+
+
 }
 
 @layer components {

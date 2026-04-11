@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Noto_Sans_JP, Cormorant_Garamond } from 'next/font/google'
 import './globals.css'
 
@@ -17,6 +17,15 @@ const cormorant = Cormorant_Garamond({
   preload: true,
   variable: '--font-cormorant',
 })
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+  userScalable: true,
+  themeColor: '#fafaf9',
+  colorScheme: 'light',
+}
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://biyori-pilates.com'),
@@ -118,7 +127,6 @@ export default function RootLayout({
   return (
     <html lang="ja" className={`${notoSansJP.variable} ${cormorant.variable}`}>
       <head>
-        <meta name="theme-color" content="#fafaf9" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
