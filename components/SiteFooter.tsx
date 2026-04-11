@@ -23,7 +23,8 @@ export function SiteFooter() {
           <div>
             <h4 className="text-[10px] uppercase tracking-[0.2em] font-medium text-warm-300 mb-5">Information</h4>
             <ul className="space-y-3 text-xs">
-              <li><a href="/#about" className="text-warm-500 hover:text-white transition font-light">運営者情報</a></li>
+              <li><Link href="/about" className="text-warm-500 hover:text-white transition font-light">運営者情報</Link></li>
+              <li><Link href="/editors" className="text-warm-500 hover:text-white transition font-light">編集部紹介</Link></li>
               <li><Link href="/privacy-policy" className="text-warm-500 hover:text-white transition font-light">プライバシーポリシー</Link></li>
               <li><Link href="/terms-of-service" className="text-warm-500 hover:text-white transition font-light">利用規約</Link></li>
               <li><Link href="/content-policy" className="text-warm-500 hover:text-white transition font-light">記事制作ポリシー</Link></li>
