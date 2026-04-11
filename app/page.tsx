@@ -511,7 +511,7 @@ export default function Home() {
                   <img
                     src="/images/studios/zen-place-pilates.webp"
                     alt="zen place pilates 公式サイト"
-                    className="w-full h-full object-cover object-top"
+                    className="w-full h-full object-contain"
                     width="800"
                     height="500"
                     loading="lazy"
@@ -557,7 +557,7 @@ export default function Home() {
                   <img
                     src="/images/studios/pilates-k.webp"
                     alt="ピラティスK 公式サイト"
-                    className="w-full h-full object-cover object-top"
+                    className="w-full h-full object-contain"
                     width="800"
                     height="500"
                     loading="lazy"
@@ -603,7 +603,7 @@ export default function Home() {
                   <img
                     src="/images/studios/club-pilates.webp"
                     alt="CLUB PILATES 公式サイト"
-                    className="w-full h-full object-cover object-top"
+                    className="w-full h-full object-contain"
                     width="800"
                     height="500"
                     loading="lazy"
@@ -649,7 +649,7 @@ export default function Home() {
                   <img
                     src="/images/studios/the-silk.webp"
                     alt="the SILK 公式サイト"
-                    className="w-full h-full object-cover object-top"
+                    className="w-full h-full object-contain"
                     width="800"
                     height="500"
                     loading="lazy"
