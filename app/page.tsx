@@ -143,7 +143,7 @@ export default function Home() {
         {/* Hero */}
         <section className="relative min-h-[90vh] md:min-h-screen flex items-end pb-16 md:pb-24" id="top">
           <div className="absolute inset-0 hero-img">
-            <img src="/images/hero.webp" alt="ピラティスをする女性" className="w-full h-full img-cover" width="1200" height="800" loading="eager" />
+            <img src="/images/hero.webp" alt="ピラティスをする女性" className="w-full h-full img-cover" width="1200" height="800" loading="eager" fetchPriority="high" />
           </div>
           <div className="relative z-10 max-w-6xl mx-auto px-6 lg:px-8 w-full">
             <div className="max-w-xl">

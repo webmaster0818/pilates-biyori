@@ -54,7 +54,7 @@ export function StudioCard({ studio, index }: StudioCardProps) {
     <div className="bg-white border border-warm-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
       <div className="md:flex">
         <div className="md:w-1/3">
-          <img src={studio.image} alt={studio.name} className="w-full h-64 md:h-full object-cover" />
+          <img src={studio.image.replace(/.jpg$/, ".webp").replace(/.png$/, ".webp")} alt={studio.name} className="w-full h-64 md:h-full object-cover" width="800" height="600" loading="lazy" />
         </div>
         <div className="md:w-2/3 p-6">
           <div className="flex items-center justify-between mb-3">

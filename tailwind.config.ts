@@ -54,8 +54,8 @@ const config: Config = {
         ring: "hsl(var(--ring))",
       },
       fontFamily: {
-        sans: ['Noto Sans JP', 'sans-serif'],
-        serif: ['Cormorant Garamond', 'serif'],
+        sans: ["var(--font-noto-sans-jp)", "sans-serif"],
+        serif: ["var(--font-cormorant)", "serif"],
       },
       borderRadius: {
         lg: "var(--radius)",

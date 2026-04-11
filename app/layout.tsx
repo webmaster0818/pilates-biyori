@@ -1,5 +1,22 @@
 import type { Metadata } from 'next'
+import { Noto_Sans_JP, Cormorant_Garamond } from 'next/font/google'
 import './globals.css'
+
+const notoSansJP = Noto_Sans_JP({
+  weight: ['300', '400', '500', '600', '700'],
+  subsets: ['latin'],
+  display: 'swap',
+  preload: true,
+  variable: '--font-noto-sans-jp',
+})
+
+const cormorant = Cormorant_Garamond({
+  weight: ['300', '400', '500', '600'],
+  subsets: ['latin'],
+  display: 'swap',
+  preload: true,
+  variable: '--font-cormorant',
+})
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://biyori-pilates.com'),
@@ -99,19 +116,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="ja">
+    <html lang="ja" className={`${notoSansJP.variable} ${cormorant.variable}`}>
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          rel="preload"
-          href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600&display=swap"
-          as="style"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600&display=swap"
-          rel="stylesheet"
-        />
         <meta name="theme-color" content="#fafaf9" />
         <script
           type="application/ld+json"
