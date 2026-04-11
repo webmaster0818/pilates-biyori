@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'Pilates KASANE 表参道店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-kasane.webp',
     rating: 4.7,
     reviewCount: 134,
     reviews: [

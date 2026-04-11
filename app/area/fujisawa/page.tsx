@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'Pilates Mee 藤沢店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-mee.webp',
     rating: 4.6,
     reviewCount: 98,
     reviews: [
@@ -333,7 +333,7 @@ const studios = [
   },
   {
     name: 'La pilates 藤沢店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/la-pilates.webp',
     rating: 4.7,
     reviewCount: 72,
     reviews: [

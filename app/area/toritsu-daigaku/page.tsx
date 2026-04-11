@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'Pilates Mee 都立大学店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-mee.webp',
     rating: 4.7,
     reviewCount: 130,
     reviews: [

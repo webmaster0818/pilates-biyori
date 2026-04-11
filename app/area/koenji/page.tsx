@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'Pilates Mee 高円寺',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-mee.webp',
     rating: 4.8,
     reviewCount: 78,
     reviews: [

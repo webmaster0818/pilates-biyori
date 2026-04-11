@@ -333,7 +333,7 @@ const studios = [
   },
   {
     name: 'Pilates Mee 新潟（あれば）',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-mee.webp',
     rating: 4.0,
     reviewCount: 48,
     reviews: [

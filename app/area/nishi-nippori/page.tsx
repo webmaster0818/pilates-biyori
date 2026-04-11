@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'パーソナルマシンピラティスYUZU',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/yuzu-pilates.webp',
     rating: 4.8,
     price: 'お問い合わせください',
     trial: '体験レッスンあり',

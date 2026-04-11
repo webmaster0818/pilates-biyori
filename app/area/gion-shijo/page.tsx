@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'Pilates MUSE 京都四条大宮',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-muse.webp',
     rating: 4.7,
     reviewCount: 89,
     reviews: [
@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'Pilates KASANE 四条烏丸店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-kasane.webp',
     rating: 4.7,
     reviewCount: 95,
     reviews: [

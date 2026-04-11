@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'La pilates 仙台店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/la-pilates.webp',
     rating: 4.1,
     reviewCount: 67,
     reviews: [
@@ -384,7 +384,7 @@ const studios = [
   },
   {
     name: 'Repilates 仙台泉大沢店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/repilates.webp',
     rating: 4.0,
     reviewCount: 36,
     reviews: [

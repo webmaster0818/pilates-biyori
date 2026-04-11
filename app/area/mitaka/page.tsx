@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'YUZU 三鷹店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/yuzu-pilates.webp',
     rating: 4.9,
     reviewCount: 72,
     reviews: [

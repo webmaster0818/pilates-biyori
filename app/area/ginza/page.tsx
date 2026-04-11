@@ -240,7 +240,7 @@ const studios = [
   },
   {
     name: 'Bloom Pilates 銀座スタジオ',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/bloom-pilates.webp',
     rating: 4.6,
     price: 'お問い合わせください',
     trial: '体験レッスンあり',

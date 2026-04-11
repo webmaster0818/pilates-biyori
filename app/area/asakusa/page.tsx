@@ -176,7 +176,7 @@ const studios = [
   },
   {
     name: 'YARD',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/yard.webp',
     rating: 4.6,
     reviewCount: 128,
     reviews: [

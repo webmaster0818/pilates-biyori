@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'La pilates 広島店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/la-pilates.webp',
     rating: 4.2,
     reviewCount: 96,
     reviews: [

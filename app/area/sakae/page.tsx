@@ -78,7 +78,7 @@ const studios = [
   },
   {
     name: 'Pilates Mee 名古屋栄店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-mee.webp',
     rating: 4.8,
     reviewCount: 90,
     reviews: [

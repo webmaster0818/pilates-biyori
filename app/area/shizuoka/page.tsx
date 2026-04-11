@@ -386,7 +386,7 @@ const studios = [
   },
   {
     name: 'Repilates 富士宮店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/repilates.webp',
     rating: 4.0,
     reviewCount: 39,
     reviews: [

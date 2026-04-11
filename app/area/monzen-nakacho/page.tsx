@@ -175,7 +175,7 @@ const studios = [
   },
   {
     name: 'YARD 清澄白河',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/yard.webp',
     rating: 4.6,
     reviewCount: 74,
     reviews: [

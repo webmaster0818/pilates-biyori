@@ -229,7 +229,7 @@ const studios = [
   },
   {
     name: 'Pilates MUSE 京都四条大宮',
-    image: '/images/pilates5.jpg',
+    image: '/images/studios/pilates-muse.webp',
     rating: 4.8,
     reviewCount: 56,
     reviews: [

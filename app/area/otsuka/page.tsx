@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'パーソナルマシンピラティスYUZU 大塚店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/yuzu-pilates.webp',
     rating: 4.9,
     reviewCount: 98,
     reviews: [

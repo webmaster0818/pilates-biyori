@@ -220,7 +220,7 @@ const studios = [
   },
   {
     name: 'Pilates KASANE 錦糸町店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-kasane.webp',
     rating: 4.7,
     reviewCount: 98,
     reviews: [
@@ -266,7 +266,7 @@ const studios = [
   },
   {
     name: 'La pilates 錦糸町',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/la-pilates.webp',
     rating: 4.8,
     reviewCount: 76,
     reviews: [
@@ -450,7 +450,7 @@ const studios = [
   },
   {
     name: 'Pilates Studio B&B 錦糸町',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-bb.webp',
     rating: 4.9,
     reviewCount: 88,
     reviews: [

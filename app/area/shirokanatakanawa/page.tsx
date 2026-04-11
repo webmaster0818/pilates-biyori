@@ -71,7 +71,7 @@ const studios = [
   },
   {
     name: 'Habit Pilates studio 白金高輪店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/habit-pilates.webp',
     rating: 4.7, reviewCount: 68,
     reviews: [
       { author: 'N.Y', rating: 5, date: '2週間前', text: '1クラス最大5名の少人数制で、一人ひとりに合わせたレッスンが受けられます。白金高輪駅から徒歩5分で通いやすい。' },

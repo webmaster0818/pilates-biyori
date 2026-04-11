@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'luluto（ルルト）三軒茶屋',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/luluto.webp',
     rating: 4.9,
     reviewCount: 120,
     reviews: [

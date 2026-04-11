@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'ルルト 烏丸御池店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/luluto.webp',
     rating: 4.8,
     reviewCount: 82,
     reviews: [

@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'luluto（ルルト）那覇小禄店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/luluto.webp',
     rating: 4.4,
     reviewCount: 98,
     reviews: [
@@ -545,7 +545,7 @@ const studios = [
   },
   {
     name: 'Pilates KASANE イーアス沖縄豊崎店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-kasane.webp',
     rating: 4.1,
     reviewCount: 168,
     reviews: [

@@ -194,7 +194,7 @@ const studios = [
   },
   {
     name: 'パーソナルマシンピラティスYUZU 代々木上原店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/yuzu-pilates.webp',
     rating: 4.7,
     price: 'お問い合わせください',
     trial: '体験レッスン あり',

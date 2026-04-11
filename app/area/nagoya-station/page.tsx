@@ -57,7 +57,7 @@ const studios = [
   },
   {
     name: 'ルルト 名駅店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/luluto.webp',
     rating: 4.9,
     reviewCount: 78,
     reviews: [

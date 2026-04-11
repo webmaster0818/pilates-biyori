@@ -53,7 +53,7 @@ const studios = [
   },
   {
     name: 'luluto 名古屋（名駅店・栄店・金山店・大曽根店）',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/luluto.webp',
     rating: 4.3,
     reviewCount: 156,
     reviews: [

@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'La pilates 天王寺店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/la-pilates.webp',
     rating: 4.8,
     price: '月額 9,900円〜',
     trial: '体験レッスン 3,000円',

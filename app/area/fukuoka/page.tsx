@@ -380,7 +380,7 @@ const studios = [
   },
   {
     name: 'La pilates 福岡店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/la-pilates.webp',
     rating: 4.2,
     reviewCount: 156,
     reviews: [

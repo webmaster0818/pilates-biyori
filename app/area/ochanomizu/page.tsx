@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'YARD 御茶ノ水スタジオ',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/yard.webp',
     rating: 4.6,
     reviewCount: 186,
     reviews: [

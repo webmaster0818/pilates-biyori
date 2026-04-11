@@ -119,7 +119,7 @@ const studios = [
   },
   {
     name: 'YUZU 学芸大学店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/yuzu-pilates.webp',
     rating: 4.7,
     reviewCount: 80,
     reviews: [

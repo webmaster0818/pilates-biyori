@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'Pilates KASANE 表参道店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-kasane.webp',
     rating: 4.8,
     reviewCount: 180,
     reviews: [

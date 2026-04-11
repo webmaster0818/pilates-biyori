@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'La pilates 神戸元町店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/la-pilates.webp',
     rating: 4.2,
     reviewCount: 112,
     reviews: [
@@ -280,7 +280,7 @@ const studios = [
   },
   {
     name: 'luluto 神戸店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/luluto.webp',
     rating: 4.3,
     reviewCount: 86,
     reviews: [

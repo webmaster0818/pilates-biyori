@@ -290,7 +290,7 @@ const studios = [
   },
   {
     name: 'ルルト 銀座店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/luluto.webp',
     rating: 4.8,
     reviewCount: 98,
     reviews: [
@@ -450,7 +450,7 @@ const studios = [
   },
   {
     name: 'Bloom Pilates 銀座スタジオ',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/bloom-pilates.webp',
     rating: 4.7,
     reviewCount: 68,
     reviews: [

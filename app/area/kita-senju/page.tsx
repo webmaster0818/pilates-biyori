@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'Pilates Mee 北千住店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/pilates-mee.webp',
     rating: 4.8,
     reviewCount: 82,
     reviews: [

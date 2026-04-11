@@ -176,7 +176,7 @@ const studios = [
   },
   {
     name: 'Pilates Mee 築地店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/pilates-mee.webp',
     rating: 4.8,
     reviewCount: 78,
     reviews: [

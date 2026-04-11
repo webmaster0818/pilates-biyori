@@ -280,7 +280,7 @@ const studios = [
   },
   {
     name: 'ルルト 横浜店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/luluto.webp',
     rating: 4.9,
     reviewCount: 89,
     reviews: [

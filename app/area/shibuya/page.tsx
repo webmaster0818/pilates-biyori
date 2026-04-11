@@ -167,7 +167,7 @@ const studios = [
   },
   {
     name: 'YUZU 渋谷',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/yuzu-pilates.webp',
     rating: 4.6, reviewCount: 50,
     reviews: [
       { author: 'L.M', rating: 5, date: '2週間前', text: '女性専用のパーソナルマシンピラティス。一人ひとりに合わせたプログラムが魅力的。' },

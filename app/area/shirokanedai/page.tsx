@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'Habit Pilates studio 白金高輪店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/habit-pilates.webp',
     rating: 4.8,
     reviewCount: 110,
     reviews: [

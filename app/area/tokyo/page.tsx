@@ -279,7 +279,7 @@ const studios = [
   },
   {
     name: 'ルルト（luluto）',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/luluto.webp',
     rating: 4.3,
     reviewCount: 98,
     reviews: [

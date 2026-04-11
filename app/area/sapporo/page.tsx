@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'La pilates 札幌店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/la-pilates.webp',
     rating: 4.2,
     reviewCount: 94,
     reviews: [
@@ -385,7 +385,7 @@ const studios = [
   },
   {
     name: 'Repilates 札幌円山店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/repilates.webp',
     rating: 4.0,
     reviewCount: 67,
     reviews: [

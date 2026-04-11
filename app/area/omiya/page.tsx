@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'La pilates 大宮店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/la-pilates.webp',
     rating: 4.0,
     reviewCount: 82,
     reviews: [
@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'luluto 大宮店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/luluto.webp',
     rating: 4.3,
     reviewCount: 94,
     reviews: [

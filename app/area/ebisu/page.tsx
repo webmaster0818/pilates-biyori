@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'Pilates Mee 恵比寿店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-mee.webp',
     rating: 4.6,
     reviewCount: 123,
     reviews: [
@@ -280,7 +280,7 @@ const studios = [
   },
   {
     name: 'ルルト 恵比寿店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/luluto.webp',
     rating: 4.9,
     reviewCount: 87,
     reviews: [

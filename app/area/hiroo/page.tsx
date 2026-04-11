@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'Habit Pilates studio 広尾店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/habit-pilates.webp',
     rating: 4.7,
     reviewCount: 95,
     reviews: [

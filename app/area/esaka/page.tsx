@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'La pilates 江坂店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/la-pilates.webp',
     rating: 4.8,
     reviewCount: 76,
     reviews: [

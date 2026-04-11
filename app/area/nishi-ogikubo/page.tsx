@@ -176,7 +176,7 @@ const studios = [
   },
   {
     name: 'Pilates Mee',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/pilates-mee.webp',
     rating: 4.7,
     reviewCount: 78,
     reviews: [

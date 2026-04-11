@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'Repilates 飯田橋神楽坂店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/repilates.webp',
     rating: 4.6,
     reviewCount: 115,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'ルルト 飯田橋・神楽坂店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/luluto.webp',
     rating: 4.8,
     reviewCount: 88,
     reviews: [

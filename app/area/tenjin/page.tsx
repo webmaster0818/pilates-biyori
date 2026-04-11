@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'ルルト 福岡天神店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/luluto.webp',
     rating: 4.9,
     reviewCount: 72,
     reviews: [

@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'La pilates 天王寺店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/la-pilates.webp',
     rating: 4.2,
     reviewCount: 132,
     reviews: [

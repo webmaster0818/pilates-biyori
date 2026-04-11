@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオB&B 田町店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-bb.webp',
     rating: 5.0,
     reviewCount: 500,
     reviews: [

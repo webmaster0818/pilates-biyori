@@ -226,7 +226,7 @@ const studios = [
   },
   {
     name: 'La pilates 千葉店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/la-pilates.webp',
     rating: 4.1,
     reviewCount: 84,
     reviews: [
@@ -279,7 +279,7 @@ const studios = [
   },
   {
     name: 'luluto 千葉2号店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/luluto.webp',
     rating: 4.3,
     reviewCount: 108,
     reviews: [
