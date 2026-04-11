@@ -634,7 +634,7 @@ export default function Home() {
                       <dd className="text-sm font-medium text-warm-700">世界最大級</dd>
                     </div>
                   </dl>
-                  <a href="https://www.clubpilates.jp/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-warm-600 text-xs uppercase tracking-[0.15em] font-medium hover:text-warm-900 transition group">
+                  <a href="https://clubpilates.co.jp/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-warm-600 text-xs uppercase tracking-[0.15em] font-medium hover:text-warm-900 transition group">
                     CLUB PILATES公式サイト
                     <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
@@ -680,7 +680,7 @@ export default function Home() {
                       <dd className="text-sm font-medium text-warm-700">美ボディメイク</dd>
                     </div>
                   </dl>
-                  <a href="https://thesilk.jp/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-warm-600 text-xs uppercase tracking-[0.15em] font-medium hover:text-warm-900 transition group">
+                  <a href="https://the-silk.co.jp/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-warm-600 text-xs uppercase tracking-[0.15em] font-medium hover:text-warm-900 transition group">
                     the SILK公式サイト
                     <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
