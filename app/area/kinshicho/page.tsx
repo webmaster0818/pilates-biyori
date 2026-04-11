@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 錦糸町',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 265,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'ピラティスK オリナス錦糸町店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.7,
     reviewCount: 204,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 錦糸町',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.6,
     reviewCount: 186,
     reviews: [
@@ -312,7 +312,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 錦糸町',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/studio-ivy.webp',
     rating: 4.7,
     reviewCount: 112,
     reviews: [
@@ -358,7 +358,7 @@ const studios = [
   },
   {
     name: 'ELEMENT 錦糸町',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/element.webp',
     rating: 4.8,
     reviewCount: 156,
     reviews: [
@@ -680,7 +680,7 @@ const studios = [
   },
   {
     name: 'CALDO 錦糸町',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/caldo.webp',
     rating: 4.5,
     reviewCount: 198,
     reviews: [

@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK 千葉店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.0,
     reviewCount: 156,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 千葉',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.1,
     reviewCount: 132,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'Rintosull 千葉店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.0,
     reviewCount: 118,
     reviews: [
@@ -173,7 +173,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 千葉店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/studio-ivy.webp',
     rating: 4.2,
     reviewCount: 97,
     reviews: [

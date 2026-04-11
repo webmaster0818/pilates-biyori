@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 岡山店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.0,
     reviewCount: 124,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 岡山店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.0,
     reviewCount: 96,
     reviews: [
@@ -280,7 +280,7 @@ const studios = [
   },
   {
     name: 'Rintosull 岡山店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.0,
     reviewCount: 89,
     reviews: [
@@ -384,7 +384,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 岡山',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.2,
     reviewCount: 152,
     reviews: [

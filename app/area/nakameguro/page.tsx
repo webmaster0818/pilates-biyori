@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 中目黒スタジオ',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 195,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'the SILK 中目黒店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.8,
     reviewCount: 170,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 中目黒',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/pilates-mirror.webp',
     rating: 4.7,
     reviewCount: 140,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 中目黒店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
     price: '1レッスン 6,250円〜',
     trial: '体験レッスンあり',
@@ -185,7 +185,7 @@ const studios = [
   },
   {
     name: 'NATURAglam 中目黒スタジオ',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/naturaglam.webp',
     rating: 4.6,
     price: 'お問い合わせください',
     trial: '体験レッスンあり',
@@ -196,7 +196,7 @@ const studios = [
   },
   {
     name: 'BDC PILATES 恵比寿スタジオ',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/bdc-pilates.webp',
     rating: 4.7,
     price: 'グループ 月額 15,400円〜',
     trial: '体験レッスン 3,850円',

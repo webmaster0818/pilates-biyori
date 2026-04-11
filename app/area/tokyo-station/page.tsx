@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'the SILK 八重洲店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.7,
     reviewCount: 165,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 八重洲スタジオ',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 220,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 銀座店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.7,
     reviewCount: 190,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'BDC PILATES 銀座スタジオ',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/bdc-pilates.webp',
     rating: 4.7,
     reviewCount: 145,
     reviews: [
@@ -226,7 +226,7 @@ const studios = [
   },
   {
     name: 'the SILK 銀座店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.6,
     reviewCount: 130,
     reviews: [
@@ -258,7 +258,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 銀座二丁目スタジオ',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 175,
     reviews: [
@@ -418,7 +418,7 @@ const studios = [
   },
   {
     name: 'the SILK 銀座一丁目店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.6,
     reviewCount: 105,
     reviews: [

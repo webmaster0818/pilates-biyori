@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 天王寺',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 198,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'pilates K 天王寺店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.7,
     reviewCount: 215,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'Rintosull（リントスル）天王寺店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.6,
     reviewCount: 172,
     reviews: [

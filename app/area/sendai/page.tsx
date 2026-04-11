@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK 仙台PARCO2店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.0,
     reviewCount: 112,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 仙台',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.2,
     reviewCount: 95,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'Rintosull 仙台駅前店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.0,
     reviewCount: 83,
     reviews: [

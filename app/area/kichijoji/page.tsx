@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 吉祥寺スタジオ',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 205,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 吉祥寺店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.7,
     reviewCount: 175,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'the SILK 吉祥寺店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.7,
     reviewCount: 148,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 吉祥寺',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-mirror.webp',
     rating: 4.6,
     reviewCount: 112,
     reviews: [
@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 吉祥寺店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/studio-ivy.webp',
     rating: 4.7,
     reviewCount: 85,
     reviews: [

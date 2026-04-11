@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスミラー 巣鴨',
-    image: '/images/pilates1.jpg',
+    image: '/images/studios/pilates-mirror.webp',
     rating: 4.7,
     reviewCount: 98,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 巣鴨',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.6,
     reviewCount: 142,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 巣鴨',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.5,
     reviewCount: 118,
     reviews: [
@@ -277,7 +277,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 池袋（近隣エリア）',
-    image: '/images/pilates6.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
     reviewCount: 165,
     reviews: [
@@ -331,7 +331,7 @@ const studios = [
   },
   {
     name: 'the SILK 池袋東口店（近隣エリア）',
-    image: '/images/pilates7.jpg',
+    image: '/images/studios/the-silk.webp',
     rating: 4.5,
     reviewCount: 124,
     reviews: [

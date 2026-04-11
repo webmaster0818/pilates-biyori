@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 梅田スタジオ',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 287,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 梅田',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.6,
     reviewCount: 198,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'the SILK 梅田',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.8,
     price: '月4回 15,070円〜',
     trial: '体験レッスン 無料',
@@ -184,7 +184,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 梅田',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.7,
     price: '月4回 14,190円〜',
     trial: '体験レッスン 無料',
@@ -234,7 +234,7 @@ const studios = [
   },
   {
     name: 'BDC PILATES 梅田',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/bdc-pilates.webp',
     rating: 4.7,
     price: '1回 3,850円〜',
     trial: '体験レッスン 2,200円',

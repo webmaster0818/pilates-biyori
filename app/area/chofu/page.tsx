@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスミラー 調布',
-    image: '/images/pilates1.jpg',
+    image: '/images/studios/pilates-mirror.webp',
     rating: 4.6,
     reviewCount: 98,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'Rintosull 調布店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.7,
     reviewCount: 82,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'ELEMENT 調布店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/element.webp',
     rating: 4.8,
     reviewCount: 67,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'zen place pilates（京王線沿線）',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 210,
     reviews: [

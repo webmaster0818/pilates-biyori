@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 中野',
-    image: '/images/pilates1.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
     reviewCount: 150,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 中野',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-mirror.webp',
     rating: 4.8,
     reviewCount: 85,
     reviews: [
@@ -173,7 +173,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 中野',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
     reviewCount: 95,
     reviews: [
@@ -226,7 +226,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 中野',
-    image: '/images/pilates1.jpg',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.5,
     reviewCount: 110,
     reviews: [
@@ -279,7 +279,7 @@ const studios = [
   },
   {
     name: 'Rintosull 中野（近隣）',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.4,
     reviewCount: 70,
     reviews: [
@@ -331,7 +331,7 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 中野',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.3,
     reviewCount: 60,
     reviews: [
@@ -384,7 +384,7 @@ const studios = [
   },
   {
     name: 'ELEMENT 中野',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/element.webp',
     rating: 4.6,
     reviewCount: 80,
     reviews: [
@@ -437,7 +437,7 @@ const studios = [
   },
   {
     name: 'NATURAglam 中野（近隣）',
-    image: '/images/pilates1.jpg',
+    image: '/images/studios/naturaglam.webp',
     rating: 4.3,
     reviewCount: 55,
     reviews: [
@@ -543,7 +543,7 @@ const studios = [
   },
   {
     name: 'CALDO 中野',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/caldo.webp',
     rating: 4.3,
     reviewCount: 90,
     reviews: [

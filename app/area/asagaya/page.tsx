@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 阿佐ヶ谷',
-    image: '/images/pilates1.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 156,
     reviews: [
@@ -176,7 +176,7 @@ const studios = [
   },
   {
     name: 'マシンピラティススタジオRintosull阿佐ヶ谷店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.5,
     reviewCount: 186,
     reviews: [
@@ -282,7 +282,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 荻窪（近隣エリア）',
-    image: '/images/pilates6.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 148,
     reviews: [
@@ -336,7 +336,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 高円寺（近隣エリア）',
-    image: '/images/pilates7.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
     reviewCount: 124,
     reviews: [

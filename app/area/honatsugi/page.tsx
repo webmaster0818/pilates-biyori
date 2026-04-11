@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK 厚木ガーデンシティ店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.7,
     reviewCount: 165,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'Rintosull 本厚木店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.6,
     reviewCount: 132,
     reviews: [

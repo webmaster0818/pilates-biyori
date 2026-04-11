@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'pilates KASANE 静岡店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.2,
     reviewCount: 87,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 静岡店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.0,
     reviewCount: 142,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 静岡',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.2,
     reviewCount: 165,
     reviews: [

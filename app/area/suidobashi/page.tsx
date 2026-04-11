@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスミラー 後楽園',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-mirror.webp',
     rating: 4.7,
     reviewCount: 130,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 後楽園店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
     reviewCount: 90,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 飯田橋スタジオ',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 110,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 神保町スタジオ',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 95,
     reviews: [
@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'pilates K 神保町店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.6,
     reviewCount: 85,
     reviews: [
@@ -279,7 +279,7 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 飯田橋店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.7,
     reviewCount: 75,
     reviews: [
@@ -331,7 +331,7 @@ const studios = [
   },
   {
     name: 'the SILK 神楽坂店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.6,
     reviewCount: 70,
     reviews: [
@@ -384,7 +384,7 @@ const studios = [
   },
   {
     name: 'ELEMENT 神楽坂・飯田橋店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/element.webp',
     rating: 4.7,
     reviewCount: 60,
     reviews: [
@@ -436,7 +436,7 @@ const studios = [
   },
   {
     name: 'CALDO 神楽坂',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/caldo.webp',
     rating: 4.5,
     reviewCount: 120,
     reviews: [
@@ -538,7 +538,7 @@ const studios = [
   },
   {
     name: 'Rintosull 秋葉原店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.5,
     reviewCount: 65,
     reviews: [

@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 本郷三丁目店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 265,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 神保町店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.7,
     reviewCount: 204,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 神保町店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     price: '月4回 10,450円〜',
     trial: '体験レッスン 1,000円',

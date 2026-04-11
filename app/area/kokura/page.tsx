@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'CLUB PILATES 小倉店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.7,
     reviewCount: 108,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'Rintosull 小倉店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.6,
     reviewCount: 95,
     reviews: [

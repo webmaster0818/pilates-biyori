@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK 大宮店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.1,
     reviewCount: 156,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 大宮',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.2,
     reviewCount: 203,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'the SILK 大宮',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.2,
     reviewCount: 118,
     reviews: [
@@ -386,7 +386,7 @@ const studios = [
   },
   {
     name: 'Rintosull 大宮',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.0,
     reviewCount: 145,
     reviews: [

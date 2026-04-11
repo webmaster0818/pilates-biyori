@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK 新潟店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.0,
     reviewCount: 128,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 新潟',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.2,
     reviewCount: 186,
     reviews: [

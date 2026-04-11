@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 武蔵小杉店',
-    image: '/images/pilates1.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 108,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 武蔵小杉店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.8,
     reviewCount: 124,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'the SILK 武蔵小杉エリア',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.6,
     reviewCount: 89,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 武蔵小杉店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/studio-ivy.webp',
     rating: 4.9,
     reviewCount: 56,
     reviews: [

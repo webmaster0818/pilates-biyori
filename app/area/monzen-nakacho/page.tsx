@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 門前仲町スタジオ',
-    image: '/images/pilates1.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 102,
     reviews: [
@@ -69,7 +69,7 @@ const studios = [
   },
   {
     name: 'the SILK',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.8,
     reviewCount: 89,
     reviews: [

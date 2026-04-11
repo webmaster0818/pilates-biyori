@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'Rintosull 品川店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.7,
     reviewCount: 80,
     reviews: [
@@ -67,7 +67,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 五反田東口スタジオ',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 180,
     reviews: [
@@ -120,7 +120,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 大井町スタジオ',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 155,
     reviews: [
@@ -173,7 +173,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 五反田西口スタジオ',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     price: 'マットグループ 月4回 10,450円〜',
     trial: '体験レッスン 1,000円〜',
@@ -184,7 +184,7 @@ const studios = [
   },
   {
     name: 'the SILK 田町店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.7,
     price: 'ライト3 12,980円〜',
     trial: '体験レッスン 無料',
@@ -195,7 +195,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 三田店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
     price: '1回 6,500円〜',
     trial: '体験レッスン 500円〜',

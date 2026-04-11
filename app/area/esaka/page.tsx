@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 江坂',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 198,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 江坂店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.7,
     reviewCount: 145,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'Rintosull 江坂店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.6,
     reviewCount: 128,
     reviews: [
@@ -386,7 +386,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 江坂',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-mirror.webp',
     rating: 4.5,
     reviewCount: 95,
     reviews: [

@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスミラー 後楽園',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-mirror.webp',
     rating: 4.7,
     reviewCount: 105,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 後楽園店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
     reviewCount: 88,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'zen place pilates',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
     reviewCount: 130,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'the SILK',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.7,
     reviewCount: 135,
     reviews: [
@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'Rintosull',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.6,
     reviewCount: 92,
     reviews: [

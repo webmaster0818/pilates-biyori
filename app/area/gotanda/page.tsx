@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 五反田西口',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 178,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 五反田東口',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 156,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'the SILK 五反田店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.8,
     reviewCount: 134,
     reviews: [
@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 五反田',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/studio-ivy.webp',
     rating: 4.7,
     reviewCount: 89,
     reviews: [

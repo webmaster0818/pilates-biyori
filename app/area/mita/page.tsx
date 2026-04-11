@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 三田スタジオ',
-    image: '/images/pilates1.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 128,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'the SILK 田町エリア',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.8,
     reviewCount: 95,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 田町店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.7,
     reviewCount: 102,
     reviews: [

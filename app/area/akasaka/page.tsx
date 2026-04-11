@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 赤坂',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 265,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'the SILK 赤坂見附店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.8,
     reviewCount: 198,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 赤坂店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/studio-ivy.webp',
     rating: 4.7,
     reviewCount: 112,
     reviews: [
@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 赤坂ANNEX店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/studio-ivy.webp',
     rating: 4.6,
     reviewCount: 87,
     reviews: [
@@ -333,7 +333,7 @@ const studios = [
   },
   {
     name: 'Rintosull 赤坂見附',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.5,
     reviewCount: 108,
     reviews: [

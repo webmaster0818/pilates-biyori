@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 高田馬場スタジオ',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 170,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'the SILK 高田馬場店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.7,
     reviewCount: 130,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 早稲田店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.7,
     reviewCount: 145,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 新宿店',
-    image: '/images/pilates1.jpg',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.7,
     reviewCount: 186,
     reviews: [
@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 高田馬場店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
     reviewCount: 98,
     reviews: [
@@ -280,7 +280,7 @@ const studios = [
   },
   {
     name: 'ELEMENT 高田馬場店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/element.webp',
     rating: 4.6,
     reviewCount: 88,
     reviews: [
@@ -333,7 +333,7 @@ const studios = [
   },
   {
     name: 'Rintosull 目白店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.6,
     reviewCount: 115,
     reviews: [
@@ -386,7 +386,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 高田馬場店',
-    image: '/images/pilates1.jpg',
+    image: '/images/studios/pilates-mirror.webp',
     rating: 4.5,
     reviewCount: 75,
     reviews: [
@@ -439,7 +439,7 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 高田馬場店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.5,
     reviewCount: 92,
     reviews: [
@@ -492,7 +492,7 @@ const studios = [
   },
   {
     name: 'CALDO 高田馬場店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/caldo.webp',
     rating: 4.5,
     reviewCount: 160,
     reviews: [
@@ -545,7 +545,7 @@ const studios = [
   },
   {
     name: 'NATURAglam 高田馬場スタジオ',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/naturaglam.webp',
     rating: 4.6,
     reviewCount: 68,
     reviews: [

@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 京都スタジオ',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 168,
     reviews: [

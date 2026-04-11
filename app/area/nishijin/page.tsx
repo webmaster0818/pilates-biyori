@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'CLUB PILATES 福岡西新店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.8,
     reviewCount: 142,
     reviews: [
@@ -57,7 +57,7 @@ const studios = [
   },
   {
     name: 'Rintosull 西新店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.6,
     reviewCount: 76,
     reviews: [
@@ -78,7 +78,7 @@ const studios = [
   },
   {
     name: 'zen place pilates',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     price: 'マットグループ 月4回 9,625円〜',
     trial: '体験レッスン 500円〜',

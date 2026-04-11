@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'CLUB PILATES 高円寺',
-    image: '/images/pilates1.jpg',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.7,
     reviewCount: 115,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 高円寺',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 102,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'NATURAglam 高円寺',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/naturaglam.webp',
     rating: 4.6,
     reviewCount: 89,
     reviews: [
@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'Rintosull 高円寺店',
-    image: '/images/pilates5.jpg',
+    image: '/images/studios/rintosull.webp',
     rating: 4.5,
     reviewCount: 45,
     reviews: [
@@ -280,7 +280,7 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 高円寺',
-    image: '/images/pilates6.jpg',
+    image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.4,
     reviewCount: 67,
     reviews: [
@@ -333,7 +333,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 高円寺',
-    image: '/images/pilates7.jpg',
+    image: '/images/studios/studio-ivy.webp',
     rating: 4.9,
     reviewCount: 52,
     reviews: [
@@ -386,7 +386,7 @@ const studios = [
   },
   {
     name: 'ELEMENT 高円寺',
-    image: '/images/pilates8.jpg',
+    image: '/images/studios/element.webp',
     rating: 4.6,
     reviewCount: 58,
     reviews: [
@@ -439,7 +439,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 高円寺',
-    image: '/images/pilates9.jpg',
+    image: '/images/studios/pilates-mirror.webp',
     rating: 4.5,
     reviewCount: 41,
     reviews: [
@@ -492,7 +492,7 @@ const studios = [
   },
   {
     name: 'CALDO 高円寺',
-    image: '/images/pilates10.jpg',
+    image: '/images/studios/caldo.webp',
     rating: 4.4,
     reviewCount: 134,
     reviews: [
@@ -545,7 +545,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 高円寺（近隣エリア利用）',
-    image: '/images/pilates11.jpg',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.5,
     reviewCount: 73,
     reviews: [

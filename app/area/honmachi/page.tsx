@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 本町スタジオ',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
     reviewCount: 175,
     reviews: [

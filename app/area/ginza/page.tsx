@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 銀座二丁目スタジオ',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 265,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 銀座店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.7,
     reviewCount: 186,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'the SILK 銀座店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.8,
     reviewCount: 195,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'BDC PILATES 銀座スタジオ',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/bdc-pilates.webp',
     rating: 4.7,
     price: 'グループ 月額 15,400円〜',
     trial: '体験レッスン 3,850円',
@@ -207,7 +207,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 銀座四丁目スタジオ',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     price: 'マットグループ 月4回 9,625円〜',
     trial: '体験レッスン 500円〜',
@@ -218,7 +218,7 @@ const studios = [
   },
   {
     name: 'the SILK 銀座一丁目店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.7,
     price: 'Standard4 15,070円〜',
     trial: '体験レッスン 無料',
@@ -229,7 +229,7 @@ const studios = [
   },
   {
     name: 'BDC PILATES 銀座並木スタジオ',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/bdc-pilates.webp',
     rating: 4.7,
     price: 'グループ 月額 15,400円〜',
     trial: '体験レッスン 3,850円',

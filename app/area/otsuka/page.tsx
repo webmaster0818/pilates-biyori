@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ELEMENT 大塚店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/element.webp',
     rating: 4.8,
     reviewCount: 142,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 池袋店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.7,
     reviewCount: 312,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 池袋スタジオ',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 278,
     reviews: [

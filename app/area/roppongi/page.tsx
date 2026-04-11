@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 六本木',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 190,
     reviews: [
@@ -53,7 +53,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 麻布台',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/studio-ivy.webp',
     rating: 4.9,
     reviewCount: 78,
     reviews: [
@@ -129,7 +129,7 @@ const studios = [
   },
   {
     name: 'BDC PILATES 六本木',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/bdc-pilates.webp',
     rating: 4.7,
     reviewCount: 145,
     reviews: [
@@ -241,7 +241,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 六本木（近隣）',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.6,
     reviewCount: 120,
     reviews: [
@@ -279,7 +279,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 六本木（近隣）',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.5,
     reviewCount: 98,
     reviews: [
@@ -316,7 +316,7 @@ const studios = [
   },
   {
     name: 'Rintosull 六本木（近隣）',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.5,
     reviewCount: 72,
     reviews: [
@@ -353,7 +353,7 @@ const studios = [
   },
   {
     name: 'ELEMENT 六本木',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/element.webp',
     rating: 4.6,
     reviewCount: 65,
     reviews: [
@@ -390,7 +390,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 六本木（近隣）',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-mirror.webp',
     rating: 4.5,
     reviewCount: 45,
     reviews: [
@@ -427,7 +427,7 @@ const studios = [
   },
   {
     name: 'CALDO 六本木（近隣）',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/caldo.webp',
     rating: 4.4,
     reviewCount: 110,
     reviews: [

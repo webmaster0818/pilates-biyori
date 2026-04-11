@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'URBAN CLASSIC PILATES 日暮里店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.7,
     reviewCount: 120,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 千駄木スタジオ',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 155,
     reviews: [
@@ -132,7 +132,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 池袋店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.7,
     price: 'マンスリー4メンバー 13,420円',
     trial: '体験レッスン 2,000円',

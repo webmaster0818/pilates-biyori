@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 八重洲スタジオ',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 220,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'the SILK 東京八重洲店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.7,
     reviewCount: 165,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 銀座店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.7,
     price: 'マンスリー4メンバー 13,420円',
     trial: '体験レッスン 2,000円',
@@ -185,7 +185,7 @@ const studios = [
   },
   {
     name: 'BDC PILATES 銀座スタジオ',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/bdc-pilates.webp',
     rating: 4.7,
     price: 'グループ 月額 15,400円〜',
     trial: '体験レッスン 3,850円',

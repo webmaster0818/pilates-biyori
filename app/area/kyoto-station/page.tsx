@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'Rintosull 京都駅前店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.6,
     reviewCount: 88,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 京都駅前店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
     reviewCount: 72,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 京都スタジオ',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 130,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 京都四条烏丸店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.6,
     reviewCount: 105,
     reviews: [

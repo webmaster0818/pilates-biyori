@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK 川崎店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.8,
     reviewCount: 156,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 川崎',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 204,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'Rintosull 川崎店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.6,
     reviewCount: 89,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'the SILK 川崎店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.7,
     reviewCount: 142,
     reviews: [
@@ -333,7 +333,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 川崎',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.6,
     reviewCount: 78,
     reviews: [

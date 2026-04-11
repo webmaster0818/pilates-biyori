@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 栄',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 180,
     reviews: [
@@ -36,7 +36,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 久屋大通パーク店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.7,
     reviewCount: 155,
     reviews: [
@@ -57,7 +57,7 @@ const studios = [
   },
   {
     name: 'Rintosull 栄店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.6,
     reviewCount: 120,
     reviews: [

@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 成城学園前',
-    image: '/images/pilates1.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 186,
     reviews: [
@@ -69,7 +69,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 成城学園前',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-mirror.webp',
     rating: 4.7,
     reviewCount: 152,
     reviews: [
@@ -122,7 +122,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 成城学園前',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.8,
     reviewCount: 208,
     reviews: [
@@ -175,7 +175,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 成城学園前',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/studio-ivy.webp',
     rating: 4.7,
     reviewCount: 124,
     reviews: [
@@ -331,7 +331,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 千歳船橋（近隣エリア）',
-    image: '/images/pilates7.jpg',
+    image: '/images/studios/pilates-mirror.webp',
     rating: 4.7,
     reviewCount: 118,
     reviews: [

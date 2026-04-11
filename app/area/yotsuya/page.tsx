@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'STUDIO IVY 四谷三丁目店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
     reviewCount: 95,
     reviews: [
@@ -120,7 +120,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 飯田橋スタジオ',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     price: 'マットグループ 月4回 9,625円〜',
     trial: '体験レッスン 500円〜',
@@ -131,7 +131,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 新宿店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.7,
     price: 'マンスリー4メンバー 13,420円〜',
     trial: '体験レッスン 2,000円',

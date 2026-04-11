@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 浅草',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 156,
     reviews: [
@@ -282,7 +282,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 錦糸町（近隣エリア）',
-    image: '/images/pilates6.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 224,
     reviews: [

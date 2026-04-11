@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK 神戸三宮店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.0,
     reviewCount: 187,
     reviews: [
@@ -333,7 +333,7 @@ const studios = [
   },
   {
     name: 'Rintosull 神戸（4店舗）',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.0,
     reviewCount: 158,
     reviews: [

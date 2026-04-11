@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'the SILK 北千住店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.7,
     reviewCount: 148,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 北千住スタジオ',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 172,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'ELEMENT 北千住店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/element.webp',
     rating: 4.6,
     reviewCount: 68,
     reviews: [

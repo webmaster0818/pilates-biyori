@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 下北沢',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 175,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'NATURAglam 下北沢',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/naturaglam.webp',
     rating: 4.6,
     reviewCount: 140,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 下北沢',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-mirror.webp',
     rating: 4.7,
     reviewCount: 120,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 下北沢',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
     reviewCount: 95,
     reviews: [
@@ -253,7 +253,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 下北沢（近隣）',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.5,
     reviewCount: 110,
     reviews: [
@@ -279,7 +279,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 下北沢（近隣）',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.5,
     reviewCount: 130,
     reviews: [
@@ -305,7 +305,7 @@ const studios = [
   },
   {
     name: 'Rintosull 下北沢（近隣）',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.4,
     reviewCount: 85,
     reviews: [
@@ -331,7 +331,7 @@ const studios = [
   },
   {
     name: 'ELEMENT 下北沢（近隣）',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/element.webp',
     rating: 4.6,
     reviewCount: 70,
     reviews: [
@@ -357,7 +357,7 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 下北沢（近隣）',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.3,
     reviewCount: 90,
     reviews: [
@@ -383,7 +383,7 @@ const studios = [
   },
   {
     name: 'CALDO 下北沢（近隣）',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/caldo.webp',
     rating: 4.3,
     reviewCount: 150,
     reviews: [

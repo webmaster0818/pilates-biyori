@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'CLUB PILATES 神楽坂店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.7,
     reviewCount: 142,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 飯田橋スタジオ',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 198,
     reviews: [

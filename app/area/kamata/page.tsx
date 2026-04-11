@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'the SILK 蒲田店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.7, reviewCount: 165,
     reviews: [
       { author: 'M.K', rating: 5, date: '1週間前', text: '蒲田駅東口から徒歩1分！女性専用で清潔感のある内装。音楽に合わせたリフォーマーレッスンが楽しい。手ぶらで無料体験できるのが嬉しい。' },
@@ -34,7 +34,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 蒲田スタジオ',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7, reviewCount: 178,
     reviews: [
       { author: 'K.N', rating: 5, date: '1週間前', text: '蒲田駅東口から徒歩4分。マットもマシンも両方受けられるのが魅力。全国150店舗以上で相互利用可能。男性もOK。' },
@@ -53,7 +53,7 @@ const studios = [
   },
   {
     name: 'Rintosull 蒲田店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.6, reviewCount: 132,
     reviews: [
       { author: 'E.M', rating: 5, date: '1週間前', text: '蒲田駅から徒歩1分！LAVA系列で安心。月4回8,800円〜とマシンピラティスでは破格。無料体験で気軽に試せました。' },
@@ -72,7 +72,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 蒲田店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.7, reviewCount: 108,
     reviews: [
       { author: 'T.M', rating: 5, date: '1週間前', text: '京急蒲田駅から徒歩5分、JR蒲田駅から徒歩7分。世界最大級のブランドで15種類の器具を使った本格レッスン。無料の30分イントロクラスあり。' },
@@ -91,7 +91,7 @@ const studios = [
   },
   {
     name: 'アーバンクラシックピラティス 蒲田店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.5, reviewCount: 92,
     reviews: [
       { author: 'A.K', rating: 5, date: '1週間前', text: 'マシンピラティスとファンクショナルトレーニングを組み合わせたサーキット形式。30分で効率よく全身を鍛えられる。予約不要で気軽に通える。' },

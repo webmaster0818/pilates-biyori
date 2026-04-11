@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'the SILK 新宿店',
-    image: '/images/pilates1.jpg',
+    image: '/images/studios/the-silk.webp',
     rating: 4.8,
     reviewCount: 186,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 新宿西口店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.7,
     reviewCount: 142,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 高田馬場店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
     reviewCount: 128,
     reviews: [
@@ -175,7 +175,7 @@ const studios = [
   },
   {
     name: 'Rintosull 高田馬場店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.5,
     reviewCount: 95,
     reviews: [
@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'Rintosull 新宿西口駅前店',
-    image: '/images/pilates5.jpg',
+    image: '/images/studios/rintosull.webp',
     rating: 4.4,
     reviewCount: 88,
     reviews: [
@@ -279,7 +279,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 新宿（西口）',
-    image: '/images/pilates6.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
     reviewCount: 156,
     reviews: [
@@ -333,7 +333,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 新宿南口',
-    image: '/images/pilates7.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 178,
     reviews: [
@@ -387,7 +387,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 西新宿店',
-    image: '/images/pilates8.jpg',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.5,
     reviewCount: 102,
     reviews: [

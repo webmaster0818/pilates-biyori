@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 浅草',
-    image: '/images/pilates1.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 156,
     reviews: [
@@ -70,7 +70,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 浅草吾妻橋店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.7,
     reviewCount: 182,
     reviews: [
@@ -229,7 +229,7 @@ const studios = [
   },
   {
     name: 'ELEMENT',
-    image: '/images/pilates5.jpg',
+    image: '/images/studios/element.webp',
     rating: 4.7,
     reviewCount: 102,
     reviews: [
@@ -281,7 +281,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 錦糸町（近隣エリア）',
-    image: '/images/pilates6.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 224,
     reviews: [
@@ -335,7 +335,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 上野（近隣エリア）',
-    image: '/images/pilates7.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 186,
     reviews: [

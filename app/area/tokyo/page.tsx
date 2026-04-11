@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.3,
     reviewCount: 312,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'ピラティスK',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.0,
     reviewCount: 245,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.1,
     reviewCount: 178,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-mirror.webp',
     rating: 4.2,
     reviewCount: 132,
     reviews: [

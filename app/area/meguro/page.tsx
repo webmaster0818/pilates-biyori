@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 目黒',
-    image: '/images/pilates1.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 132,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'the SILK 目黒エリア',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.8,
     reviewCount: 95,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 中目黒',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-mirror.webp',
     rating: 4.6,
     reviewCount: 72,
     reviews: [
@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 目黒エリア',
-    image: '/images/pilates5.jpg',
+    image: '/images/studios/studio-ivy.webp',
     rating: 4.9,
     reviewCount: 56,
     reviews: [

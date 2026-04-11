@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK 大阪（複数店舗）',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.0,
     reviewCount: 178,
     reviews: [
@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 大阪',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.0,
     reviewCount: 142,
     reviews: [
@@ -280,7 +280,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 大阪',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/studio-ivy.webp',
     rating: 4.1,
     reviewCount: 104,
     reviews: [

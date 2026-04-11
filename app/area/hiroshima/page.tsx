@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK 広島店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.0,
     reviewCount: 178,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 広島',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.2,
     reviewCount: 214,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 広島店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.0,
     reviewCount: 132,
     reviews: [
@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'Rintosull 広島八丁堀店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.0,
     reviewCount: 145,
     reviews: [

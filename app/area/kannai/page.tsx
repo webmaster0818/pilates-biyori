@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'アーバンクラシックピラティス 関内店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.6,
     reviewCount: 118,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 横浜元町スタジオ',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 185,
     reviews: [

@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 麻布十番スタジオ',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 190,
     reviews: [
@@ -120,7 +120,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 麻布十番店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
     price: '1回 6,250円〜',
     trial: '体験レッスンあり',

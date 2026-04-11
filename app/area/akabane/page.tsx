@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 赤羽スタジオ',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 160,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 赤羽店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.7,
     reviewCount: 110,
     reviews: [
@@ -120,7 +120,7 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 赤羽店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.6,
     price: '月額 7,800円〜（通い放題 14,080円）',
     trial: '体験レッスン 3,800円',

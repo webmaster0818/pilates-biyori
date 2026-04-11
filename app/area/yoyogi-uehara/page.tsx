@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 代々木上原スタジオ',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 265,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 代々木上原店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.7,
     reviewCount: 180,
     reviews: [
@@ -238,7 +238,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 下北沢スタジオ',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     price: '月4回 10,450円〜',
     trial: '体験レッスン 500円〜',
@@ -249,7 +249,7 @@ const studios = [
   },
   {
     name: 'the SILK 渋谷店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.7,
     price: '月4回 15,070円〜',
     trial: '体験レッスン あり',
@@ -260,7 +260,7 @@ const studios = [
   },
   {
     name: 'BDC PILATES 代々木公園スタジオ',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/bdc-pilates.webp',
     rating: 4.8,
     price: '1回 3,850円〜',
     trial: '体験レッスン 3,850円',

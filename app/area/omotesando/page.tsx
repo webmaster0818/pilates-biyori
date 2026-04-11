@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 表参道店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.7,
     reviewCount: 220,
     reviews: [
@@ -120,7 +120,7 @@ const studios = [
   },
   {
     name: 'BDC PILATES 表参道スタジオ',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/bdc-pilates.webp',
     rating: 4.9,
     reviewCount: 150,
     reviews: [
@@ -173,7 +173,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 表参道',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 265,
     reviews: [

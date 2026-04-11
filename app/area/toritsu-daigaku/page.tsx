@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 都立大学',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 190,
     reviews: [
@@ -328,7 +328,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 学芸大学店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
     reviewCount: 95,
     reviews: [
@@ -380,7 +380,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 学芸大学',
-    image: '/images/pilates5.jpg',
+    image: '/images/studios/pilates-mirror.webp',
     rating: 4.6,
     reviewCount: 120,
     reviews: [
@@ -433,7 +433,7 @@ const studios = [
   },
   {
     name: 'the SILK 自由が丘店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.7,
     reviewCount: 220,
     reviews: [
@@ -486,7 +486,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 自由が丘',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-mirror.webp',
     rating: 4.5,
     reviewCount: 100,
     reviews: [
@@ -539,7 +539,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 自由が丘',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 200,
     reviews: [

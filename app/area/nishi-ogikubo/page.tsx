@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 西荻窪',
-    image: '/images/pilates1.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 142,
     reviews: [
@@ -281,7 +281,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 荻窪（近隣エリア）',
-    image: '/images/pilates6.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 148,
     reviews: [
@@ -335,7 +335,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 阿佐ヶ谷（近隣エリア）',
-    image: '/images/pilates7.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 156,
     reviews: [

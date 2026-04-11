@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'CLUB PILATES 代官山店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.8,
     reviewCount: 178,
     reviews: [
@@ -36,7 +36,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 代官山',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 198,
     reviews: [
@@ -57,7 +57,7 @@ const studios = [
   },
   {
     name: 'the SILK 中目黒店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.8,
     reviewCount: 156,
     reviews: [
@@ -78,7 +78,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 中目黒',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-mirror.webp',
     rating: 4.6,
     reviewCount: 112,
     reviews: [
@@ -141,7 +141,7 @@ const studios = [
   },
   {
     name: 'BDC PILATES 恵比寿スタジオ',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/bdc-pilates.webp',
     rating: 4.7,
     reviewCount: 167,
     reviews: [

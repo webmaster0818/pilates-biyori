@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスミラー 三鷹',
-    image: '/images/pilates1.jpg',
+    image: '/images/studios/pilates-mirror.webp',
     rating: 4.6,
     reviewCount: 88,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'zen place pilates（三鷹エリア最寄り店舗）',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 130,
     reviews: [

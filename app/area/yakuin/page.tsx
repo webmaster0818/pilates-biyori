@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 福岡薬院',
-    image: '/images/pilates1.jpg',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 156,
     reviews: [
@@ -69,7 +69,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 福岡赤坂薬院店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.8,
     reviewCount: 124,
     reviews: [

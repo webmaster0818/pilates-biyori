@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 新橋（銀座近隣）',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 210,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'the SILK 新橋（近隣）',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.8,
     reviewCount: 195,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 新橋（銀座近隣）',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.7,
     reviewCount: 180,
     reviews: [
@@ -173,7 +173,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 新橋（近隣）',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.7,
     reviewCount: 160,
     reviews: [
@@ -276,7 +276,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 新橋（近隣）',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
     reviewCount: 85,
     reviews: [
@@ -328,7 +328,7 @@ const studios = [
   },
   {
     name: 'ELEMENT 新橋（近隣）',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/element.webp',
     rating: 4.7,
     reviewCount: 120,
     reviews: [
@@ -380,7 +380,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 新橋（近隣）',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-mirror.webp',
     rating: 4.6,
     reviewCount: 90,
     reviews: [
@@ -432,7 +432,7 @@ const studios = [
   },
   {
     name: 'Rintosull 新橋（近隣）',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.6,
     reviewCount: 110,
     reviews: [
@@ -484,7 +484,7 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 新橋（近隣）',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.5,
     reviewCount: 100,
     reviews: [
@@ -536,7 +536,7 @@ const studios = [
   },
   {
     name: 'CALDO 新橋（近隣）',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/caldo.webp',
     rating: 4.5,
     reviewCount: 150,
     reviews: [

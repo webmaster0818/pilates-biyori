@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 高輪スタジオ',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8, reviewCount: 175,
     reviews: [
       { author: 'S.K', rating: 5, date: '2週間前', text: '高輪ゲートウェイ駅から徒歩6分、泉岳寺駅からは徒歩4分。マットもマシンも両方受けられるのが嬉しい。全国150店舗以上で相互利用可能。' },
@@ -53,7 +53,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 広尾店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/studio-ivy.webp',
     rating: 4.8, reviewCount: 95,
     reviews: [
       { author: 'T.S', rating: 5, date: '1週間前', text: '完全プライベート空間でオーダーメイドのレッスンが受けられます。白金高輪からも通いやすいです。' },
@@ -125,7 +125,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 港区エリア',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/club-pilates.webp',
     rating: 4.6, reviewCount: 110,
     reviews: [
       { author: 'R.T', rating: 5, date: '1週間前', text: '世界最大級のマシンピラティススタジオ。8種類のクラスが4段階のレベルに分かれていて、初心者でも安心。' },
@@ -143,7 +143,7 @@ const studios = [
   },
   {
     name: 'Rintosull（リントスル）港区エリア',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/rintosull.webp',
     rating: 4.5, reviewCount: 88,
     reviews: [
       { author: 'Y.I', rating: 5, date: '2週間前', text: 'LAVA系列のマシンピラティス専門スタジオ。リフォーマーを使ったレッスンが予約不要で受けられるのが便利。' },
@@ -161,7 +161,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 表参道店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/pilates-k.webp',
     rating: 4.6, reviewCount: 130,
     reviews: [
       { author: 'M.N', rating: 5, date: '1週間前', text: '女性専用のマシンピラティス。音楽に合わせたグループレッスンが楽しい！白金高輪からも通える距離。' },
@@ -179,7 +179,7 @@ const studios = [
   },
   {
     name: 'the SILK（ザ シルク）港区エリア',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/the-silk.webp',
     rating: 4.5, reviewCount: 95,
     reviews: [
       { author: 'A.M', rating: 5, date: '2週間前', text: '女性専用で清潔感があり安心。ライト付きメイクミラーやヘアアイロンなどパウダールームが充実しています。' },
