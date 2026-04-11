@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'Pilates & Gym 1to1 熊本店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-gym-1to1.webp',
     rating: 4.7,
     reviewCount: 88,
     reviews: [

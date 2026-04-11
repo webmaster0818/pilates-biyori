@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオnoa 赤坂',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-studio-noa.webp',
     rating: 4.7,
     reviewCount: 82,
     reviews: [

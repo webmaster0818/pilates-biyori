@@ -226,7 +226,7 @@ const studios = [
   },
   {
     name: 'Studio Yoggy',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/studio-yoggy.webp',
     rating: 4.1,
     reviewCount: 156,
     reviews: [

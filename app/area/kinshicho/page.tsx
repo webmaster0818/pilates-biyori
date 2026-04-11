@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'ピラティス&ジム 1to1 錦糸町',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-gym-1to1.webp',
     rating: 4.9,
     reviewCount: 142,
     reviews: [
@@ -542,7 +542,7 @@ const studios = [
   },
   {
     name: 'OLUTANA ピラティス 菊川',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/olutana-pilates.webp',
     rating: 4.7,
     reviewCount: 108,
     reviews: [

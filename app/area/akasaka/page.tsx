@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'PILATES STUDIO noa 赤坂',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/pilates-studio-noa.webp',
     rating: 4.7,
     reviewCount: 134,
     reviews: [
@@ -280,7 +280,7 @@ const studios = [
   },
   {
     name: 'Studio-BMP 赤坂店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/studio-bmp-akasaka.webp',
     rating: 4.8,
     reviewCount: 95,
     reviews: [
@@ -386,7 +386,7 @@ const studios = [
   },
   {
     name: 'WECLE 赤坂',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/wecle-pilates.webp',
     rating: 4.6,
     reviewCount: 92,
     reviews: [

@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'WECLE なんば',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/wecle-pilates.webp',
     rating: 4.7,
     reviewCount: 204,
     reviews: [

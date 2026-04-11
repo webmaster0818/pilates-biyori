@@ -36,7 +36,7 @@ const studios = [
   },
   {
     name: 'ピラティス&ジム 1to1 名古屋駅店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-gym-1to1.webp',
     rating: 4.9,
     reviewCount: 95,
     reviews: [

@@ -279,7 +279,7 @@ const studios = [
   },
   {
     name: 'Two Three 仙台一番町',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/two-three-pilates.webp',
     rating: 4.1,
     reviewCount: 41,
     reviews: [
@@ -331,7 +331,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオDEP 仙台店 Calm',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-studio-dep.webp',
     rating: 4.2,
     reviewCount: 78,
     reviews: [

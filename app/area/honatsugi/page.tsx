@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'WECLE 本厚木店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/wecle-pilates.webp',
     rating: 4.5,
     reviewCount: 98,
     reviews: [

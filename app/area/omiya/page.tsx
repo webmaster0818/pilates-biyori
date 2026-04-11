@@ -333,7 +333,7 @@ const studios = [
   },
   {
     name: 'Studio Yoggy 大宮',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/studio-yoggy.webp',
     rating: 4.0,
     reviewCount: 132,
     reviews: [

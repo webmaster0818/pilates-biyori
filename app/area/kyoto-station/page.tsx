@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'Hain pilates 京都駅店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/hain-pilates.webp',
     rating: 4.7,
     reviewCount: 65,
     reviews: [

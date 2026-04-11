@@ -70,7 +70,7 @@ const studios = [
   },
   {
     name: '阿佐ヶ谷駅前まるはなピラティス',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/maruhana-pilates-asagaya.webp',
     rating: 4.8,
     reviewCount: 92,
     reviews: [
@@ -229,7 +229,7 @@ const studios = [
   },
   {
     name: 'ASAGAYA GRAND PILATES',
-    image: '/images/pilates5.jpg',
+    image: '/images/studios/asagaya-grand-pilates.webp',
     rating: 4.6,
     reviewCount: 108,
     reviews: [

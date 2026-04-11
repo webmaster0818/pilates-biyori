@@ -196,7 +196,7 @@ const studios = [
   },
   {
     name: 'ピラティス&ジム 1to1 銀座店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/pilates-gym-1to1.webp',
     rating: 4.7,
     price: '1回 6,600円〜',
     trial: '体験レッスン 無料',

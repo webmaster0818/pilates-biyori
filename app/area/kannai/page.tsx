@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'スタジオ・ヨギー 横浜',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/studio-yoggy.webp',
     rating: 4.5,
     reviewCount: 158,
     reviews: [

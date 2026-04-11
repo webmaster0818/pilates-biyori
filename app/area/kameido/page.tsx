@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'OLUTANA pilates 亀戸店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/olutana-pilates.webp',
     rating: 4.6,
     reviewCount: 98,
     reviews: [

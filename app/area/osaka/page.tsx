@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'fis.pilates（フィスピラティス）',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/fis-pilates.webp',
     rating: 4.3,
     reviewCount: 156,
     reviews: [

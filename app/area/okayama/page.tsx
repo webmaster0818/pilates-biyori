@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオDEP 岡山店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-studio-dep.webp',
     rating: 4.2,
     reviewCount: 63,
     reviews: [

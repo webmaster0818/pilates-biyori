@@ -120,7 +120,7 @@ const studios = [
   },
   {
     name: 'PILATES STUDIO noa 都立大校',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/pilates-studio-noa.webp',
     rating: 4.6,
     reviewCount: 110,
     reviews: [
@@ -592,7 +592,7 @@ const studios = [
   },
   {
     name: 'PILATES YOGA &a（アンドエー）自由が丘店',
-    image: '/images/pilates5.jpg',
+    image: '/images/studios/pilates-and-a-yoga.webp',
     rating: 4.8,
     reviewCount: 70,
     reviews: [

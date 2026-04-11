@@ -386,7 +386,7 @@ const studios = [
   },
   {
     name: 'ピラティス&ジム 1to1 横浜店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-gym-1to1.webp',
     rating: 4.7,
     reviewCount: 76,
     reviews: [

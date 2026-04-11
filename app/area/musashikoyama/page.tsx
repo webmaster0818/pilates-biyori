@@ -229,7 +229,7 @@ const studios = [
   },
   {
     name: 'Two Three 武蔵小山',
-    image: '/images/pilates5.jpg',
+    image: '/images/studios/two-three-pilates.webp',
     rating: 4.7,
     reviewCount: 65,
     reviews: [

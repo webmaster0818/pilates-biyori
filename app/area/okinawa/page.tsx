@@ -386,7 +386,7 @@ const studios = [
   },
   {
     name: 'ピラティスアクス 那覇新都心店',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-axe.webp',
     rating: 4.1,
     reviewCount: 142,
     reviews: [
@@ -598,7 +598,7 @@ const studios = [
   },
   {
     name: 'ピラティスアクス 北谷店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/pilates-axe.webp',
     rating: 4.0,
     reviewCount: 108,
     reviews: [

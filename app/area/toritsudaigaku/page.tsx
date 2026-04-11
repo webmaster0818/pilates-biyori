@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'PILATES STUDIO noa 都立大',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-studio-noa.webp',
     rating: 4.7,
     reviewCount: 145,
     reviews: [

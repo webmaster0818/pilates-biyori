@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'ピラティスアクス 江坂店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-axe.webp',
     rating: 4.6,
     reviewCount: 112,
     reviews: [
@@ -333,7 +333,7 @@ const studios = [
   },
   {
     name: 'Yon Pilates 江坂',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/yon-pilates-esaka.webp',
     rating: 4.7,
     reviewCount: 65,
     reviews: [

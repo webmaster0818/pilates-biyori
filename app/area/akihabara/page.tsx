@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'Pilates isM 秋葉原店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/pilates-ism-akihabara.webp',
     rating: 4.8,
     reviewCount: 89,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'Corelmia Pilates（コアルミア ピラティス）',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/corelmia-pilates.webp',
     rating: 4.7,
     reviewCount: 95,
     reviews: [
@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'Studio &A（スタジオ アンドエー）',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/studio-and-a-akihabara.webp',
     rating: 4.7,
     reviewCount: 72,
     reviews: [

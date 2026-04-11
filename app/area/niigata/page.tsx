@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオDEP 新潟',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-studio-dep.webp',
     rating: 4.2,
     reviewCount: 92,
     reviews: [
@@ -386,7 +386,7 @@ const studios = [
   },
   {
     name: 'Two Three 新潟（あれば）',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/two-three-pilates.webp',
     rating: 4.0,
     reviewCount: 52,
     reviews: [

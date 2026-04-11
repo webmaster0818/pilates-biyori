@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'A・CORE（アコア）',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/a-core-pilates.webp',
     rating: 4.9,
     reviewCount: 156,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'Sky Pilates Tokyo',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/sky-pilates-tokyo.webp',
     rating: 4.8,
     reviewCount: 112,
     reviews: [
@@ -386,7 +386,7 @@ const studios = [
   },
   {
     name: 'a.pilates（エードットピラティス）',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/a-pilates-omotesando.webp',
     rating: 4.9,
     reviewCount: 67,
     reviews: [

@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'ピラティス&ジム 1to1 藤沢店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/pilates-gym-1to1.webp',
     rating: 4.7,
     reviewCount: 89,
     reviews: [

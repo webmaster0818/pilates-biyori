@@ -91,7 +91,7 @@ const studios = [
   },
   {
     name: 'Two Three 名古屋',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/two-three-pilates.webp',
     rating: 4.1,
     reviewCount: 124,
     reviews: [

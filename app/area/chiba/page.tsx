@@ -385,7 +385,7 @@ const studios = [
   },
   {
     name: 'OLUTANA pilates',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/olutana-pilates.webp',
     rating: 4.1,
     reviewCount: 91,
     reviews: [

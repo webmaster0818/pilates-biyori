@@ -207,7 +207,7 @@ const studios = [
   },
   {
     name: 'fis.pilates 天王寺店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/fis-pilates.webp',
     rating: 4.7,
     price: '月額 3,000円台〜（分割払い）',
     trial: '体験レッスン 4,000円',
@@ -229,7 +229,7 @@ const studios = [
   },
   {
     name: 'Hain pilates 天王寺店',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/hain-pilates.webp',
     rating: 4.6,
     price: '月4回プランあり',
     trial: '体験レッスン 2,200円',

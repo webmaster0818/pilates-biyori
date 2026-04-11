@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'PILATES YOGA &a（アンドエー）代々木上原店',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-and-a-yoga.webp',
     rating: 4.8,
     price: '1回 約9,075円〜',
     trial: '体験レッスン 5,500円',

@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオDEP 神戸店 Resho',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-studio-dep.webp',
     rating: 4.2,
     reviewCount: 94,
     reviews: [

@@ -99,7 +99,7 @@ const studios = [
   },
   {
     name: 'Pilates en Rose（ピラティスアンローズ）',
-    image: '/images/pilates3.webp',
+    image: '/images/studios/pilates-en-rose.webp',
     rating: 4.8,
     reviewCount: 89,
     reviews: [
@@ -120,7 +120,7 @@ const studios = [
   },
   {
     name: 'ピラティスラボ 代官山',
-    image: '/images/pilates4.webp',
+    image: '/images/studios/pilates-lab-daikanyama.webp',
     rating: 4.9,
     reviewCount: 78,
     reviews: [

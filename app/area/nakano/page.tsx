@@ -69,7 +69,7 @@ const studios = [
   },
   {
     name: 'PILATES STUDIO noa 中野スタジオ',
-    image: '/images/pilates2.webp',
+    image: '/images/studios/pilates-studio-noa.webp',
     rating: 4.7,
     reviewCount: 130,
     reviews: [
