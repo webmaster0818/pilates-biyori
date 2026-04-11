@@ -154,10 +154,6 @@ export default function Home() {
               <p className="text-warm-500 text-sm md:text-base leading-relaxed mb-10 font-light max-w-md">
                 初心者から経験者まで。基礎知識からスタジオ選びまで、<br className="hidden md:block"/>あなたのピラティスライフを徹底サポートします。
               </p>
-              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                <a href="#articles" className="bg-warm-800 text-white px-8 py-3.5 text-xs font-medium uppercase tracking-[0.15em] btn-minimal hover:bg-warm-900 text-center">Read Articles</a>
-                <a href="#studios" className="border border-warm-400 text-warm-600 px-8 py-3.5 text-xs font-medium uppercase tracking-[0.15em] btn-minimal hover:border-warm-800 hover:text-warm-800 text-center">Compare Studios</a>
-              </div>
             </div>
           </div>
         </section>
