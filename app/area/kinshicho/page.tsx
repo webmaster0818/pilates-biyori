@@ -3,6 +3,7 @@ import { Navigation } from '@/components/Navigation'
 import { SiteFooter } from '@/components/SiteFooter'
 import { StudioCard } from '@/components/StudioCard'
 import { RelatedAreas } from '@/components/RelatedAreas'
+import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 
 export const metadata = {
@@ -799,6 +800,8 @@ export default function KinshichoPage() {
           </div>
         </section>
 
+        <TableOfContents areaName="錦糸町" />
+
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -869,7 +872,7 @@ export default function KinshichoPage() {
         </section>
 
         {/* Search by Preference */}
-        <section className="py-16 bg-white">
+        <section className="py-16 bg-white" id="kodawari">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
               こだわりから探す
@@ -913,7 +916,7 @@ export default function KinshichoPage() {
         </section>
 
         {/* Frequency Guide */}
-        <section className="py-16 bg-warm-50">
+        <section className="py-16 bg-warm-50" id="frequency">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
               おすすめの期間・頻度
@@ -936,7 +939,7 @@ export default function KinshichoPage() {
         </section>
 
         {/* Price Guide */}
-        <section className="py-16 bg-white">
+        <section className="py-16 bg-white" id="price-guide">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
               予算別の料金相場
@@ -983,7 +986,7 @@ export default function KinshichoPage() {
         </section>
 
         {/* How to Choose */}
-        <section className="py-16 bg-warm-50">
+        <section className="py-16 bg-warm-50" id="how-to-choose">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
               失敗しないピラティススタジオの選び方
@@ -1030,7 +1033,7 @@ export default function KinshichoPage() {
         </section>
 
         {/* FAQ */}
-        <section className="py-16 bg-white">
+        <section className="py-16 bg-white" id="faq">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
               よくある質問
@@ -1056,7 +1059,7 @@ export default function KinshichoPage() {
         </section>
 
         {/* Summary */}
-        <section className="py-16 bg-warm-50">
+        <section className="py-16 bg-warm-50" id="summary">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">
               まとめ

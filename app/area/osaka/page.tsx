@@ -3,6 +3,7 @@ import { Navigation } from '@/components/Navigation'
 import { SiteFooter } from '@/components/SiteFooter'
 import { StudioCard } from '@/components/StudioCard'
 import { RelatedAreas } from '@/components/RelatedAreas'
+import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 
 export const metadata = {
@@ -510,6 +511,8 @@ export default async function OsakaAreaPage() {
             </nav>
           </div>
         </section>
+
+        <TableOfContents areaName="大阪" />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

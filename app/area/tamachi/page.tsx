@@ -3,6 +3,7 @@ import { Navigation } from '@/components/Navigation'
 import { SiteFooter } from '@/components/SiteFooter'
 import { StudioCard } from '@/components/StudioCard'
 import { RelatedAreas } from '@/components/RelatedAreas'
+import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 
 export const metadata = {

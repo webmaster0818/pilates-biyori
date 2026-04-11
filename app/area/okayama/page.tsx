@@ -3,6 +3,7 @@ import { Navigation } from '@/components/Navigation'
 import { SiteFooter } from '@/components/SiteFooter'
 import { StudioCard } from '@/components/StudioCard'
 import { RelatedAreas } from '@/components/RelatedAreas'
+import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 
 export const metadata = {
@@ -509,6 +510,8 @@ export default async function OkayamaAreaPage() {
           </div>
         </section>
 
+        <TableOfContents areaName="岡山" />
+
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -738,7 +741,7 @@ export default async function OkayamaAreaPage() {
         </section>
 
         {/* FAQ */}
-        <section className="py-16 bg-white">
+        <section className="py-16 bg-white" id="faq">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
               よくある質問

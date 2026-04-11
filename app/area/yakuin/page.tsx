@@ -3,6 +3,7 @@ import { Navigation } from '@/components/Navigation'
 import { SiteFooter } from '@/components/SiteFooter'
 import { StudioCard } from '@/components/StudioCard'
 import { RelatedAreas } from '@/components/RelatedAreas'
+import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 
 export const metadata = {
@@ -300,6 +301,8 @@ export default function YakuinPage() {
           </div>
         </section>
 
+        <TableOfContents areaName="薬院" />
+
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -359,7 +362,7 @@ export default function YakuinPage() {
         </section>
 
         {/* Search by Preference */}
-        <section className="py-16 bg-white">
+        <section className="py-16 bg-white" id="kodawari">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">こだわりから探す</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -395,7 +398,7 @@ export default function YakuinPage() {
         </section>
 
         {/* Frequency Guide */}
-        <section className="py-16 bg-warm-50">
+        <section className="py-16 bg-warm-50" id="frequency">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">おすすめの期間・頻度</h2>
             <div className="bg-white rounded-lg p-8 border border-warm-200">
@@ -416,7 +419,7 @@ export default function YakuinPage() {
         </section>
 
         {/* Price Guide */}
-        <section className="py-16 bg-white">
+        <section className="py-16 bg-white" id="price-guide">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">予算別の料金相場</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -452,7 +455,7 @@ export default function YakuinPage() {
         </section>
 
         {/* How to Choose */}
-        <section className="py-16 bg-warm-50">
+        <section className="py-16 bg-warm-50" id="how-to-choose">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">失敗しないスタジオの選び方</h2>
             <div className="space-y-8">
@@ -497,7 +500,7 @@ export default function YakuinPage() {
         </section>
 
         {/* FAQ */}
-        <section className="py-16 bg-white">
+        <section className="py-16 bg-white" id="faq">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">よくある質問</h2>
             <div className="space-y-6">
@@ -519,7 +522,7 @@ export default function YakuinPage() {
         </section>
 
         {/* Summary */}
-        <section className="py-16 bg-warm-50">
+        <section className="py-16 bg-warm-50" id="summary">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
             <p className="text-warm-600 leading-relaxed mb-6">
