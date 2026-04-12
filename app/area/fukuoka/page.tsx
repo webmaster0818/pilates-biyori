@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'ピラティスラボ 福岡（薬院）',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/pilates-lab-fukuoka.webp',
     rating: 4.1,
     reviewCount: 132,
     reviews: [
@@ -120,7 +120,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオ エアー（今泉）',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/pilates-air-fukuoka.webp',
     rating: 4.0,
     reviewCount: 96,
     reviews: [
@@ -172,7 +172,7 @@ const studios = [
   },
   {
     name: 'PILATES JAPAN（大名）',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/pilates-japan-daimyo.webp',
     rating: 4.2,
     reviewCount: 145,
     reviews: [
@@ -224,7 +224,7 @@ const studios = [
   },
   {
     name: 'kuon ピラティススタジオ（六本松・桜坂）',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/kuon-pilates-fukuoka.webp',
     rating: 4.0,
     reviewCount: 87,
     reviews: [
@@ -328,7 +328,7 @@ const studios = [
   },
   {
     name: 'スタジオKANON（大濠）',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/studio-kanon-ohori.webp',
     rating: 4.0,
     reviewCount: 73,
     reviews: [

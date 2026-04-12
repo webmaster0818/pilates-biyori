@@ -129,17 +129,6 @@ const studios = [
     access: 'JR「赤羽駅」徒歩圏内',
     address: '東京都北区赤羽（赤羽エリア）',
   },
-  {
-    name: 'Studio marici 赤羽',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    price: 'お問い合わせください',
-    trial: '体験レッスンあり',
-    features: ['ヨガ&ピラティス', '赤羽駅徒歩3分', 'アットホーム', '少人数制'],
-    description: '赤羽駅・赤羽岩淵駅から各徒歩3分のヨガ・ピラティススタジオ。アットホームな雰囲気で、ヨガとピラティスの両方が楽しめます。少人数制で丁寧な指導。',
-    access: 'JR「赤羽駅」徒歩3分 / 南北線「赤羽岩淵駅」徒歩3分',
-    address: '東京都北区赤羽（赤羽駅・赤羽岩淵駅各徒歩3分）',
-  },
 ]
 
 const faqs = [

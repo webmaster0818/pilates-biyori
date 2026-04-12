@@ -128,7 +128,7 @@ const studios = [
   },
   {
     name: 'REBORN（リボーン）名古屋',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/reborn-nagoya.webp',
     rating: 4.2,
     reviewCount: 98,
     reviews: [
@@ -166,7 +166,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオアステル（栄店・名駅店）',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/astel-pilates-nagoya.webp',
     rating: 4.2,
     reviewCount: 112,
     reviews: [
@@ -204,7 +204,7 @@ const studios = [
   },
   {
     name: 'ナグスタジオ（名古屋市内4店舗）',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/nag-studio-nagoya.webp',
     rating: 4.0,
     reviewCount: 142,
     reviews: [
@@ -242,7 +242,7 @@ const studios = [
   },
   {
     name: 'Pilates Studio Tree',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/pilates-tree-nagoya.webp',
     rating: 4.1,
     reviewCount: 86,
     reviews: [
@@ -280,7 +280,7 @@ const studios = [
   },
   {
     name: 'studio nano（名駅・伏見）',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/studio-nano-nagoya.webp',
     rating: 4.2,
     reviewCount: 104,
     reviews: [

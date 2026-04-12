@@ -272,57 +272,6 @@ const studios = [
     },
   },
   {
-    name: 'AGNIYOGA 三軒茶屋',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.5,
-    reviewCount: 110,
-    reviews: [
-      {
-        author: 'N.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用のヨガ＆ピラティススタジオで、レッスンの種類が豊富です。インストラクターの方も親切で、初心者でも安心して通えます。',
-      },
-      {
-        author: 'E.K',
-        rating: 4,
-        date: '2週間前',
-        text: 'ヨガとピラティスの両方ができるので、その日の気分に合わせて選べるのが良いです。三軒茶屋駅からのアクセスも便利。',
-      },
-      {
-        author: 'L.S',
-        rating: 5,
-        date: '3週間前',
-        text: 'アットホームな雰囲気が好きです。少人数制なので丁寧に見てもらえます。',
-      },
-    ],
-    price: '料金は店舗にお問い合わせください',
-    trial: '体験レッスンあり',
-    features: ['女性専用', 'ヨガ&ピラティス', 'アットホーム', '三軒茶屋駅近'],
-    description: '女性専用のヨガ＆ピラティススタジオ。ヨガとピラティスの両方のプログラムが充実しており、目的や気分に合わせてレッスンを選べます。アットホームな雰囲気で少人数制のレッスンが特徴。初心者から経験者まで幅広く対応。',
-    access: '東急田園都市線・世田谷線「三軒茶屋駅」徒歩圏内',
-    address: '東京都世田谷区三軒茶屋（三軒茶屋駅徒歩圏内）',
-    popularPlan: {
-      name: 'レギュラープラン',
-      description: 'ヨガ・ピラティス両方のレッスンが受講可能。',
-      price: '料金は店舗にお問い合わせください',
-    },
-    options: [
-      '体験レッスンあり',
-      'ヨガ・ピラティス両方受講可能',
-    ],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['リラックス', '柔軟性向上', '姿勢改善', '健康維持'],
-    },
-    basicInfo: {
-      hours: '店舗にお問い合わせください',
-      closed: '店舗にお問い合わせください',
-      facilities: ['ロッカー', 'マット完備'],
-    },
-  },
-  {
     name: 'STUDIO IVY 三軒茶屋',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.7,

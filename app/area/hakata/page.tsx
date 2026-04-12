@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'スターピラティス 博多マルイスタジオ',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/star-pilates-hakata.webp',
     rating: 4.7,
     reviewCount: 112,
     reviews: [
@@ -170,59 +170,6 @@ const studios = [
       hours: '博多マルイの営業時間に準ずる',
       closed: '博多マルイの定休日に準ずる',
       facilities: ['リフォーマーマシン', '更衣室', 'ロッカー'],
-    },
-  },
-  {
-    name: 'NAS博多ピラティス',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.5,
-    reviewCount: 89,
-    reviews: [
-      {
-        author: 'T.I',
-        rating: 5,
-        date: '1週間前',
-        text: 'フォレオ博多3Fにある大手スポーツクラブNASが運営するピラティス。ジムやスパなども利用できる総合施設で、ピラティス以外のトレーニングも楽しめます。',
-      },
-      {
-        author: 'Y.W',
-        rating: 4,
-        date: '2週間前',
-        text: '平日は23時まで営業で仕事帰りにも通える。ヨガやダンスなど様々なレッスンも受けられるのが嬉しい。',
-      },
-      {
-        author: 'M.S',
-        rating: 4,
-        date: '3週間前',
-        text: '博多那珂エリア初のマシンピラティス専門プログラム。大手クラブならではの充実した設備と清潔感が魅力。',
-      },
-    ],
-    price: '要確認（NAS会員）',
-    trial: '体験・見学あり',
-    features: ['大手クラブ運営', 'フォレオ博多内', '総合施設', 'マシンピラティス'],
-    description: '大手スポーツクラブNASが運営するマシンピラティスプログラム。フォレオ博多3Fに位置。ジム・スパ・ヨガ・ダンスなど多彩なプログラムと合わせて利用可能な総合施設。博多那珂エリア初のマシンピラティス専門プログラム。',
-    access: 'フォレオ博多3F',
-    address: '福岡県福岡市博多区東那珂1-14-46 フォレオ博多 3F',
-    popularPlan: {
-      name: 'NAS会員プラン',
-      description: 'マシンピラティスに加え、ジム・スパ・各種レッスンが利用可能。',
-      price: '要確認（公式サイト参照）',
-    },
-    options: [
-      'マシンピラティスプログラム',
-      'ジム・スパ利用可',
-      '各種グループレッスン',
-      '体験・見学受付中',
-    ],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性70% / 男性30%',
-      purpose: ['総合フィットネス', 'ボディメイク', '健康維持', '運動不足解消'],
-    },
-    basicInfo: {
-      hours: '平日 10:00〜23:00 / 土 10:00〜22:00 / 日祝 10:00〜20:00',
-      closed: '月曜日',
-      facilities: ['リフォーマーマシン', 'ジム', 'スパ', 'スタジオ', 'ロッカー'],
     },
   },
   {

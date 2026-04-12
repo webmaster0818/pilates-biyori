@@ -67,7 +67,7 @@ const studios = [
   },
   {
     name: 'Premium Yoga&Pilates 白金高輪駅前店',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/premium-yoga-shirokanedai.webp',
     rating: 4.7,
     reviewCount: 95,
     reviews: [
@@ -120,7 +120,7 @@ const studios = [
   },
   {
     name: 'SOU PILATES STUDIO 高輪台店',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/sou-pilates-takanawadai.webp',
     rating: 4.9,
     price: 'お問い合わせください',
     trial: '体験レッスン 5,500円',
@@ -128,17 +128,6 @@ const studios = [
     description: 'マシンピラティス専門のパーソナルスタジオ。高輪台駅から徒歩圏内、白金高輪からもアクセス可能。国際ライセンス保持のインストラクターが一人ひとりに合わせた丁寧な指導。入会金11,000円、年会費なし。',
     access: '都営浅草線「高輪台駅」徒歩圏内 / 南北線「白金高輪駅」徒歩圏内',
     address: '東京都港区白金台（高輪台・白金高輪エリア）',
-  },
-  {
-    name: 'studio ready',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    price: '1回 8,000円〜',
-    trial: '体験レッスン 6,600円',
-    features: ['パーソナル専門', '40代以上対応', '白金高輪エリア', 'マシンピラティス'],
-    description: '40代以上の女性を中心に対応するパーソナルマシンピラティススタジオ。白金高輪エリアに展開。年齢に合わせた丁寧な指導で、姿勢改善や身体の不調にしっかり向き合います。',
-    access: '南北線・三田線「白金高輪駅」徒歩圏内',
-    address: '東京都港区白金（白金高輪エリア）',
   },
 ]
 

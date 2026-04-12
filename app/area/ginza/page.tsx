@@ -185,7 +185,7 @@ const studios = [
   },
   {
     name: 'BIRTH Pilates Studio（バースピラティス）',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/birth-pilates-ginza.webp',
     rating: 4.9,
     price: '1回 9,600円',
     trial: '体験レッスン 平日4,500円 / 土日祝5,500円',

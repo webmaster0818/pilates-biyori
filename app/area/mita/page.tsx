@@ -228,7 +228,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオhibi',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/pilates-hibi-mita.webp',
     rating: 4.8,
     reviewCount: 45,
     reviews: [

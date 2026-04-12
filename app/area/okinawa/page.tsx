@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオ ルキナ那覇新都心',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/lucina-naha.webp',
     rating: 4.1,
     reviewCount: 124,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'セレスティア 沖縄那覇店',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/celestia-okinawa.webp',
     rating: 4.3,
     reviewCount: 136,
     reviews: [
@@ -280,7 +280,7 @@ const studios = [
   },
   {
     name: 'ピラティスisM（イズム）那覇',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/pilates-ism-naha.webp',
     rating: 4.2,
     reviewCount: 114,
     reviews: [
@@ -333,7 +333,7 @@ const studios = [
   },
   {
     name: 'ヒーレストピラティス',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/healest-pilates-naha.webp',
     rating: 4.3,
     reviewCount: 86,
     reviews: [
@@ -439,7 +439,7 @@ const studios = [
   },
   {
     name: 'ピラティス＆ストレッチ トリム',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/trim-okinawa.webp',
     rating: 4.0,
     reviewCount: 74,
     reviews: [
@@ -488,59 +488,6 @@ const studios = [
       hours: '10:00〜21:00',
       closed: '不定休',
       facilities: ['ロッカー', '更衣室', 'リフォーマー'],
-    },
-  },
-  {
-    name: 'ACE Pilates Studio',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.2,
-    reviewCount: 92,
-    reviews: [
-      {
-        author: 'L.S',
-        rating: 5,
-        date: '1週間前',
-        text: '沖縄で12年以上の実績がある本格派スタジオ。PHI Pilates国際資格のインストラクターによる指導は他とレベルが違います。那覇市若狭エリアにあります。',
-      },
-      {
-        author: 'K.N',
-        rating: 4,
-        date: '3週間前',
-        text: 'リフォーマーだけでなくキャデラックやチェアなど多彩なマシンが揃っています。県庁前駅から少し歩きますが、波の上ビーチが近くて環境が良いです。',
-      },
-      {
-        author: 'R.I',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '回数券5回で33,000円。1回あたり6,600円で国際資格保有者のパーソナルが受けられるのはお得です。インストラクター志望の方にもおすすめ。',
-      },
-    ],
-    price: '1回 6,600円〜',
-    trial: '体験レッスン 6,000円',
-    features: ['国際資格保有', 'リフォーマー専門', '12年の実績', 'パーソナル'],
-    description: '沖縄初の本格的ピラティスパーソナルトレーニングスタジオ。PHI Pilates国際資格を持つインストラクターが12年以上の実績で指導。リフォーマー、キャデラック、チェアなど多彩なマシンを完備。一人ひとりに合わせた本格的なプログラムを提供。',
-    access: 'ゆいレール県庁前駅から徒歩12分',
-    address: '沖縄県那覇市若狭1-3-22',
-    popularPlan: {
-      name: '回数券5回',
-      description: '国際資格保有インストラクターによるパーソナルレッスン。',
-      price: '5回 33,000円（税込）※1回あたり6,600円',
-    },
-    options: [
-      '都度払い（1回 8,000円）',
-      'インストラクター養成コース（別途）',
-      '各種マシン完備',
-      '回数券割引あり',
-    ],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性85% / 男性15%',
-      purpose: ['本格的なピラティス', '姿勢改善', 'インストラクター志望', '体幹強化'],
-    },
-    basicInfo: {
-      hours: '10:00〜20:00',
-      closed: '土日祝',
-      facilities: ['ロッカー', 'リフォーマー', 'キャデラック', 'チェア'],
     },
   },
   {
@@ -651,7 +598,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオgg',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/pilates-gg-okinawa.webp',
     rating: 4.3,
     reviewCount: 64,
     reviews: [
@@ -704,7 +651,7 @@ const studios = [
   },
   {
     name: 'Mohi Pilates 沖縄スタジオ',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/mohi-pilates-okinawa.webp',
     rating: 4.2,
     reviewCount: 82,
     reviews: [
@@ -757,7 +704,7 @@ const studios = [
   },
   {
     name: 'Studio KRN',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/studio-krn-okinawa.webp',
     rating: 4.1,
     reviewCount: 68,
     reviews: [

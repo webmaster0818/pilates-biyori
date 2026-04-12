@@ -34,7 +34,7 @@ const studios = [
   },
   {
     name: 'Premium Yoga&Pilates 白金高輪',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/premium-yoga-shirokanetakanawa.webp',
     rating: 4.9, reviewCount: 120,
     reviews: [
       { author: 'R.N', rating: 5, date: '1週間前', text: '白金高輪駅から徒歩1分！少人数制で一人ひとりに合わせた丁寧な指導が受けられます。3年以上の指導経験あるインストラクターのみ在籍。' },
@@ -89,7 +89,7 @@ const studios = [
   },
   {
     name: 'Pilates Studio eleven 白金台',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/pilates-eleven-shirokanedai.webp',
     rating: 4.8, reviewCount: 72,
     reviews: [
       { author: 'E.S', rating: 5, date: '1週間前', text: '白金台のおしゃれなスタジオ。マシンピラティス専門で質の高いレッスンが受けられます。' },
@@ -107,7 +107,7 @@ const studios = [
   },
   {
     name: 'Premium Machine Pilates 白金高輪',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/premium-machine-shirokanetakanawa.webp',
     rating: 4.7, reviewCount: 55,
     reviews: [
       { author: 'M.T', rating: 5, date: '2週間前', text: '白金高輪駅から徒歩2分！マシンピラティス専用スタジオで設備が素晴らしい。' },
@@ -197,7 +197,7 @@ const studios = [
   },
   {
     name: 'CORAL 白金 マシンピラティススタジオ',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/coral-shirokane.webp',
     rating: 4.8, reviewCount: 45,
     reviews: [
       { author: 'S.Y', rating: 5, date: '1週間前', text: '南麻布のおしゃれなマシンピラティススタジオ。パーソナルで一人ひとりに合わせた丁寧な指導が受けられます。' },
@@ -212,24 +212,6 @@ const studios = [
     options: ['パーソナルレッスン', '体験レッスン'],
     userProfile: { ageRange: '30代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', '健康維持', 'エイジングケア'] },
     basicInfo: { hours: 'お問い合わせください', closed: '不定休', facilities: ['マシン完備', 'パウダールーム'] },
-  },
-  {
-    name: 'chocoZAP 白金高輪エリア',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.2, reviewCount: 200,
-    reviews: [
-      { author: 'T.K', rating: 4, date: '1週間前', text: '月額3,278円（税込）でマシンピラティスが使い放題！コスパ最強。予約不要で好きな時に使えるのが便利。' },
-      { author: 'M.S', rating: 4, date: '2週間前', text: '24時間使えるので仕事帰りにも気軽に寄れます。リフォーマーの使い方はアプリの動画で学べます。' },
-    ],
-    price: '月額 3,278円（税込）', trial: 'アプリから入会',
-    features: ['月額3,278円', '24時間利用可', '予約不要', 'リフォーマー完備'],
-    description: 'RIZAPグループが展開するコンビニジム。月額3,278円（税込）でマシンピラティス（リフォーマー）が使い放題。白金高輪エリアの店舗にもリフォーマーが設置されており、予約不要・追加料金なしで利用可能。アプリの動画で使い方を学べるので初心者も安心。24時間利用可能。',
-    access: '白金高輪駅周辺に複数店舗あり',
-    address: '東京都港区（白金高輪エリア）',
-    popularPlan: { name: 'スタンダードプラン', description: '全サービス使い放題。マシンピラティス含む。', price: '月額 3,278円（税込）' },
-    options: ['月額 3,278円（全サービス使い放題）'],
-    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性55% / 男性45%', purpose: ['運動習慣づくり', 'ダイエット', '体幹強化', 'コスパ重視'] },
-    basicInfo: { hours: '24時間営業', closed: '年中無休', facilities: ['リフォーマー', 'トレーニングマシン', 'セルフエステ', 'セルフ脱毛'] },
   },
 ]
 

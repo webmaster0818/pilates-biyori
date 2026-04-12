@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'Lume（ルーメ）赤坂',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/lume-akasaka.webp',
     rating: 4.9,
     reviewCount: 56,
     reviews: [

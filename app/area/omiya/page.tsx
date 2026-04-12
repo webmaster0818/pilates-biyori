@@ -280,7 +280,7 @@ const studios = [
   },
   {
     name: 'EIGHT 大宮',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/eight-omiya.webp',
     rating: 4.1,
     reviewCount: 67,
     reviews: [

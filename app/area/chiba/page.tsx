@@ -332,7 +332,7 @@ const studios = [
   },
   {
     name: 'Pilates Studio re.fel',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/pilates-refel-chiba.webp',
     rating: 4.0,
     reviewCount: 72,
     reviews: [

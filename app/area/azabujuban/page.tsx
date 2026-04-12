@@ -67,58 +67,6 @@ const studios = [
     },
   },
   {
-    name: 'ピラティススタジオlamp 麻布十番',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.9,
-    reviewCount: 85,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: '麻布十番駅から1分！女性専用で安心。4名定員の少人数制セミプライベートが最高。丁寧に見てもらえます。',
-      },
-      {
-        author: 'A.H',
-        rating: 5,
-        date: '2週間前',
-        text: '完全個室のプライベートレッスンも受けられます。おしゃれなスタジオで気分が上がる。',
-      },
-      {
-        author: 'M.M',
-        rating: 5,
-        date: '3週間前',
-        text: '麻布十番の雰囲気にマッチした上品なスタジオ。インストラクターの質が高いです。',
-      },
-    ],
-    price: 'お問い合わせください',
-    trial: '体験レッスンあり',
-    features: ['女性専用', '麻布十番駅徒歩1分', '少人数制（最大4名）', 'プライベートあり'],
-    description: '女性専用のマシンピラティススタジオ。麻布十番駅から徒歩1分。4名定員までの少人数制セミプライベートレッスンと、完全個室のプライベートレッスンを提供。上品で落ち着いた空間でピラティスを楽しめます。',
-    access: '都営大江戸線・南北線「麻布十番駅」徒歩1分',
-    address: '東京都港区麻布十番（麻布十番駅徒歩1分）',
-    popularPlan: {
-      name: 'セミプライベート（最大4名）',
-      description: '少人数制で丁寧な指導。女性専用で安心。',
-      price: 'お問い合わせください',
-    },
-    options: [
-      'セミプライベートレッスン',
-      'プライベートレッスン（完全個室）',
-      '体験レッスン',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'リフレッシュ'],
-    },
-    basicInfo: {
-      hours: 'お問い合わせください',
-      closed: '不定休',
-      facilities: ['完全個室', 'マシン完備', '女性専用'],
-    },
-  },
-  {
     name: 'STUDIO IVY 麻布十番店',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
@@ -142,7 +90,7 @@ const studios = [
   },
   {
     name: 'STUDIO LUCE 麻布十番',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/studio-luce-azabujuban.webp',
     rating: 4.6,
     price: 'お問い合わせください',
     trial: '体験レッスンあり',

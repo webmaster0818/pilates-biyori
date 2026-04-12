@@ -175,7 +175,7 @@ const studios = [
   },
   {
     name: 'COCOLANCE 三鷹店',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/cocolance-mitaka.webp',
     rating: 4.8,
     reviewCount: 56,
     reviews: [
@@ -228,7 +228,7 @@ const studios = [
   },
   {
     name: 'Pilaticise（ピラティシーズ）',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/pilaticise-mitaka.webp',
     rating: 4.8,
     reviewCount: 48,
     reviews: [

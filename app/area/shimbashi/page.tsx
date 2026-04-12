@@ -225,7 +225,7 @@ const studios = [
   },
   {
     name: 'CREA パーソナルピラティス 新橋・銀座店',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/crea-pilates-shimbashi.webp',
     rating: 4.9,
     reviewCount: 95,
     reviews: [
@@ -584,58 +584,6 @@ const studios = [
       hours: '平日 10:00〜22:30 / 土日祝 10:00〜20:00',
       closed: '月に数回不定休',
       facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'ホットスタジオ'],
-    },
-  },
-  {
-    name: 'chocoZAP 新橋',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.3,
-    reviewCount: 250,
-    reviews: [
-      {
-        author: 'G.T',
-        rating: 5,
-        date: '3日前',
-        text: '月額3,278円で24時間使えるのは驚き。セルフマシンなので自分のペースでできます。',
-      },
-      {
-        author: 'F.Y',
-        rating: 4,
-        date: '1週間前',
-        text: '新橋駅近くで24時間利用可能。早朝や深夜でも通えるので、不規則な勤務でも続けられます。',
-      },
-      {
-        author: 'B.N',
-        rating: 4,
-        date: '2週間前',
-        text: 'とにかく安い！ピラティス初体験の入口としては最高。セルフなので気楽に始められます。',
-      },
-    ],
-    price: '月額 3,278円',
-    trial: '入会後すぐ利用可能',
-    features: ['セルフマシン', '月額3,278円', '24時間利用可', '予約不要'],
-    description: 'RIZAPグループが展開するセルフ型フィットネス。月額3,278円で24時間利用可能なセルフマシンピラティスが体験できます。新橋駅近くに店舗があり、早朝・深夜でも通えるのが魅力。サラリーマンの街・新橋で不規則な勤務の方にも対応。',
-    access: 'JR「新橋駅」近く / 24時間利用可能',
-    address: '東京都港区新橋',
-    popularPlan: {
-      name: 'スタンダードプラン',
-      description: 'セルフ型マシンピラティス。24時間利用可能な月額プラン。',
-      price: '月額 3,278円（税込）',
-    },
-    options: [
-      'スタンダードプラン（月額 3,278円）',
-      '全店舗利用可能',
-      '24時間営業',
-    ],
-    userProfile: {
-      ageRange: '20代〜60代と幅広い',
-      genderRatio: '女性55% / 男性45%',
-      purpose: ['気軽に運動', '健康維持', 'ダイエット', '運動習慣づくり'],
-    },
-    basicInfo: {
-      hours: '24時間営業',
-      closed: '年中無休',
-      facilities: ['セルフマシン', '24時間', '全店舗利用可'],
     },
   },
 ]

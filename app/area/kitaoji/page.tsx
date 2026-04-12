@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'REIBELLE 京都北山店',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/reibelle-kyoto.webp',
     rating: 4.8,
     reviewCount: 98,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'style pilates 京都',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/style-pilates-kyoto.webp',
     rating: 4.7,
     reviewCount: 72,
     reviews: [
@@ -223,59 +223,6 @@ const studios = [
       hours: '公式サイトでご確認ください',
       closed: '不定休',
       facilities: ['リフォーマー', '完全プライベート空間', '更衣室'],
-    },
-  },
-  {
-    name: 'LAVA イオンモール北大路店',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.5,
-    reviewCount: 145,
-    reviews: [
-      {
-        author: 'R.H',
-        rating: 5,
-        date: '1週間前',
-        text: '北大路駅1番出口から徒歩1分、イオンモール北大路内。ホットヨガが中心だがピラティスプログラムもあり。女性専用で安心。',
-      },
-      {
-        author: 'A.M',
-        rating: 4,
-        date: '2週間前',
-        text: '大手ホットヨガスタジオなので設備が充実。ヨガもピラティスも両方楽しめるのが魅力。月額制で通いやすい。',
-      },
-      {
-        author: 'S.T',
-        rating: 4,
-        date: '3週間前',
-        text: 'イオンモール内なので買い物ついでにも便利。マットピラティスのクラスが複数あり、初心者向けも充実。',
-      },
-    ],
-    price: '月額 9,800円〜',
-    trial: '体験レッスン 150円',
-    features: ['北大路駅徒歩1分', '女性専用', 'ヨガ&ピラティス', 'イオンモール内'],
-    description: '大手ホットヨガスタジオLAVA。北大路駅1番出口から徒歩1分、イオンモール北大路内。ホットヨガに加えてマットピラティスプログラムも充実。女性専用で月額制の通いやすい料金設定。',
-    access: '京都市営地下鉄烏丸線「北大路駅」1番出口 徒歩1分',
-    address: '京都府京都市北区小山北上総町49-1 イオンモール北大路内',
-    popularPlan: {
-      name: '月額通い放題プラン',
-      description: 'ホットヨガ・ピラティスのレッスンが受け放題。',
-      price: '月額 9,800円〜（税込）',
-    },
-    options: [
-      'ホットヨガクラス',
-      'マットピラティスクラス',
-      '体験レッスン 150円',
-      '月額制',
-    ],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ダイエット', 'デトックス', '柔軟性向上', '健康維持'],
-    },
-    basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '不定休',
-      facilities: ['マット', 'ホットスタジオ', 'シャワー', 'ロッカー', '更衣室'],
     },
   },
 ]

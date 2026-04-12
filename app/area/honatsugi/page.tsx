@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'STUDIO SLOW',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/studio-slow-honatsugi.webp',
     rating: 4.8,
     reviewCount: 75,
     reviews: [
@@ -223,59 +223,6 @@ const studios = [
       hours: '公式サイトでご確認ください',
       closed: '不定休',
       facilities: ['リフォーマー', 'マット', 'カフェスペース', '更衣室'],
-    },
-  },
-  {
-    name: 'ヨガスタジオ アルモニ',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.5,
-    reviewCount: 85,
-    reviews: [
-      {
-        author: 'Y.N',
-        rating: 5,
-        date: '1週間前',
-        text: 'ヨガもピラティスも受けられるのが魅力。マットピラティスの体験1,100円とリーズナブル。1回あたり1,485円〜と継続しやすい料金設定。',
-      },
-      {
-        author: 'M.T',
-        rating: 4,
-        date: '2週間前',
-        text: '少人数制で丁寧な指導。ヨガとピラティスの両方を学べるので、体の柔軟性と体幹の両方を鍛えられます。',
-      },
-      {
-        author: 'K.S',
-        rating: 5,
-        date: '3週間前',
-        text: 'アットホームな雰囲気で通いやすい。初心者にも優しく指導してもらえます。月額制でコスパも良好。',
-      },
-    ],
-    price: '1回 1,485円〜',
-    trial: '体験レッスン 1,100円',
-    features: ['ヨガ&ピラティス', '少人数制', '低価格', '初心者歓迎'],
-    description: 'ヨガとマットピラティスが受けられるスタジオ。体験1,100円、1回あたり1,485円〜とリーズナブル。少人数制でアットホームな雰囲気。ヨガとピラティスの両方で体の柔軟性と体幹を同時に鍛えられます。',
-    access: '小田急小田原線「本厚木駅」周辺',
-    address: '神奈川県厚木市（詳細は公式サイトでご確認ください）',
-    popularPlan: {
-      name: '月額フリープラン',
-      description: 'ヨガ・マットピラティスが受け放題。1回あたり1,485円〜。',
-      price: '月額制（公式サイト参照）',
-    },
-    options: [
-      'マットピラティスクラス',
-      'ヨガクラス',
-      '体験レッスン 1,100円',
-      '少人数制',
-    ],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性90% / 男性10%',
-      purpose: ['柔軟性向上', '姿勢改善', 'リラックス', '健康維持'],
-    },
-    basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '不定休',
-      facilities: ['マット', 'ヨガマット', '更衣室', 'ロッカー'],
     },
   },
 ]

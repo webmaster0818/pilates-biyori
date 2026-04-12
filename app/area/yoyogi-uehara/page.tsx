@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'Olaピラティススタジオ',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/ola-pilates-yoyogiuehara.webp',
     rating: 4.9,
     reviewCount: 120,
     reviews: [
@@ -183,7 +183,7 @@ const studios = [
   },
   {
     name: 'Econa pilates studio 代々木上原',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/econa-pilates-yoyogiuehara.webp',
     rating: 4.8,
     price: '1回 8,900円〜',
     trial: '体験レッスン 0円',
@@ -205,7 +205,7 @@ const studios = [
   },
   {
     name: '3731BODYWORX',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/3731bodyworx-yoyogiuehara.webp',
     rating: 4.7,
     price: '1回 8,600円〜',
     trial: '体験レッスン 8,800円',
@@ -216,7 +216,7 @@ const studios = [
   },
   {
     name: 'studio GOD 代々木上原',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/studio-god-yoyogiuehara.webp',
     rating: 4.6,
     price: 'チケット制',
     trial: '初回体験キャンペーンあり',
@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'Wellness Hub TOKYO 代々木上原',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/wellness-hub-yoyogiuehara.webp',
     rating: 4.6,
     price: 'お問い合わせください',
     trial: '初回体験 3,300円',

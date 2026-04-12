@@ -15,7 +15,7 @@ export const metadata = {
 const studios = [
   {
     name: 'スタジオカラーズ',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/studio-colors-honmachi.webp',
     rating: 4.8,
     reviewCount: 145,
     reviews: [
@@ -68,7 +68,7 @@ const studios = [
   },
   {
     name: 'STABE 本町スタジオ',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/stabe-honmachi.webp',
     rating: 4.7,
     reviewCount: 118,
     reviews: [
@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'ヴィオラトリコロール 本町リフォーマースタジオ',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/viola-honmachi.webp',
     rating: 4.7,
     reviewCount: 158,
     reviews: [
@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'SHIN pilates studio 堺筋本町店',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/shin-pilates-honmachi.webp',
     rating: 4.7,
     reviewCount: 82,
     reviews: [

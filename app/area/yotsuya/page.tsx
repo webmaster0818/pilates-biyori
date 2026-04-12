@@ -67,58 +67,6 @@ const studios = [
     },
   },
   {
-    name: 'Grand Chariot Pilates Studio',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 70,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: 'マシンとマット両方に対応しているのが嬉しい。30分5,000円の都度払いで気軽に通えます。',
-      },
-      {
-        author: 'A.H',
-        rating: 4,
-        date: '2週間前',
-        text: '四谷エリアでマシンピラティスが受けられる貴重なスタジオ。丁寧な指導で初心者でも安心です。',
-      },
-      {
-        author: 'M.M',
-        rating: 5,
-        date: '3週間前',
-        text: '都度払いなので、自分のペースで通えるのが良い。予定が不規則な方にもおすすめ。',
-      },
-    ],
-    price: '30分 5,000円〜',
-    trial: '体験レッスンあり',
-    features: ['マシン&マット', '都度払い', '四谷エリア', '30分から'],
-    description: '四谷エリアのマシンピラティススタジオ。マシンとマット両方に対応。30分5,000円からの都度払いで、自分のペースで気軽に通えます。短時間からレッスン可能なので、忙しい方にもぴったり。',
-    access: '「四谷三丁目駅」/ 「四ツ谷駅」徒歩圏内',
-    address: '東京都新宿区（四谷エリア）',
-    popularPlan: {
-      name: '都度払いプラン',
-      description: 'マシン&マットピラティス。30分から利用可能。',
-      price: '30分 5,000円（税込）〜',
-    },
-    options: [
-      '30分プラン（5,000円〜）',
-      '60分プラン（お問い合わせ）',
-      '体験レッスン（お問い合わせ）',
-    ],
-    userProfile: {
-      ageRange: '20代〜50代',
-      genderRatio: '女性85% / 男性15%',
-      purpose: ['姿勢改善', 'ボディメイク', '短時間トレーニング', '都度利用'],
-    },
-    basicInfo: {
-      hours: 'お問い合わせください',
-      closed: '不定休',
-      facilities: ['リフォーマー', 'マット'],
-    },
-  },
-  {
     name: 'zen place pilates 飯田橋スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,

@@ -36,7 +36,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオ Live 西新店',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/pilates-live-nishijin.webp',
     rating: 4.7,
     reviewCount: 88,
     reviews: [

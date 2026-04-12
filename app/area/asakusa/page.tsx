@@ -123,7 +123,7 @@ const studios = [
   },
   {
     name: 'ヨガ&ピラティススタジオMAKOTO 浅草橋',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/yoga-makoto-asakusabashi.webp',
     rating: 4.5,
     reviewCount: 94,
     reviews: [

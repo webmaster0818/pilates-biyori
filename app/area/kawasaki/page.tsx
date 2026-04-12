@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'STUZIO ONCE 川崎店',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/stuzio-once-kawasaki.webp',
     rating: 4.8,
     reviewCount: 67,
     reviews: [
@@ -280,7 +280,7 @@ const studios = [
   },
   {
     name: 'TSUTAYA Conditioning PILATES 川崎駅前店',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/tsutaya-pilates-kawasaki.webp',
     rating: 4.5,
     reviewCount: 53,
     reviews: [

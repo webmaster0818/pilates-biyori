@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'TOKI PILATES STUDIO 元町',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/toki-pilates-kobe.webp',
     rating: 4.1,
     reviewCount: 68,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'STUDIO TOU 三宮',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/studio-tou-sannomiya.webp',
     rating: 4.1,
     reviewCount: 73,
     reviews: [
@@ -382,59 +382,6 @@ const studios = [
       hours: '詳細は公式サイト参照',
       closed: '詳細は公式サイト参照',
       facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', '女性専用', '4店舗展開'],
-    },
-  },
-  {
-    name: 'pilates studio compass+ 北区',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.0,
-    reviewCount: 42,
-    reviews: [
-      {
-        author: 'G.Y',
-        rating: 4,
-        date: '10日前',
-        text: '神戸市北区にあるアットホームなスタジオ。先生との距離が近くて質問しやすいです。地域密着型ならではの温かさがあります。',
-      },
-      {
-        author: 'I.N',
-        rating: 4,
-        date: '3週間前',
-        text: '北区でマシンピラティスができるスタジオは少ないので貴重。スタジオ名のコンパスのように、繋がりの輪が広がる素敵な場所です。',
-      },
-      {
-        author: 'O.R',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '三宮や元町まで出なくても北区で本格的なピラティスが受けられるのがありがたい。少人数で丁寧に教えてもらえます。',
-      },
-    ],
-    price: '要問合せ',
-    trial: '体験レッスン あり',
-    features: ['神戸市北区', '地域密着', '丸く優しい繋がり', 'マシン完備'],
-    description: '神戸市北区のピラティススタジオ pilates studio compass+。スタジオの名前は「コンパスプラス」。文房具のコンパスは、どんな大きさにも円を描くことができます。ピラティスを通して皆様との繋がりが、丸く優しく円を囲むように広がっていくスタジオでありたいと願い、神戸市北区にピラティススタジオをオープンしました。',
-    access: '神戸市北区（詳細は公式サイト参照）',
-    address: '兵庫県神戸市北区（詳細は公式サイト参照）',
-    popularPlan: {
-      name: 'ピラティスレッスン',
-      description: '地域密着型のアットホームなスタジオ。丸く優しい繋がりを大切に。',
-      price: '要問合せ',
-    },
-    options: [
-      'グループレッスン',
-      'プライベートレッスン',
-      '地域密着',
-      'マシンピラティス',
-    ],
-    userProfile: {
-      ageRange: '30代〜60代が中心',
-      genderRatio: '女性85% / 男性15%',
-      purpose: ['地域密着希望', 'アットホーム', 'ボディメイク', '姿勢改善'],
-    },
-    basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '詳細は公式サイト参照',
-      facilities: ['ロッカー', 'パウダールーム', 'マシン完備', '地域密着'],
     },
   },
 ]

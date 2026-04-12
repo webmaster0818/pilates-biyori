@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'スターピラティス 札幌駅前スタジオ',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/star-pilates-sapporo.webp',
     rating: 4.3,
     reviewCount: 203,
     reviews: [
@@ -280,7 +280,7 @@ const studios = [
   },
   {
     name: 'LATECO（ラティコ）',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/lateco-sapporo.webp',
     rating: 4.1,
     reviewCount: 78,
     reviews: [
@@ -333,7 +333,7 @@ const studios = [
   },
   {
     name: 'BodySoul（ボディソウル）',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/bodysoul-sapporo.webp',
     rating: 4.3,
     reviewCount: 112,
     reviews: [

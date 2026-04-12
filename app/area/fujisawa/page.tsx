@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'LOrena（ロレナ）藤沢店',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/lorena-fujisawa.webp',
     rating: 4.7,
     reviewCount: 78,
     reviews: [
@@ -280,7 +280,7 @@ const studios = [
   },
   {
     name: 'N pilates studio 藤沢',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/n-pilates-fujisawa.webp',
     rating: 4.8,
     reviewCount: 67,
     reviews: [

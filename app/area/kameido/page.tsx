@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'ピラティス＆うごくスタジオ health fit',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/healthfit-kameido.webp',
     rating: 4.7,
     reviewCount: 72,
     reviews: [

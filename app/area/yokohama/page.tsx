@@ -333,7 +333,7 @@ const studios = [
   },
   {
     name: 'lafimo 横浜東口店',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/lafimo-yokohama.webp',
     rating: 4.6,
     reviewCount: 112,
     reviews: [

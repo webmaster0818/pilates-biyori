@@ -383,7 +383,7 @@ const studios = [
   },
   {
     name: 'パーソナルピラティススタジオ hibi',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/pilates-hibi-tamachi.webp',
     rating: 4.9,
     reviewCount: 45,
     reviews: [
@@ -487,7 +487,7 @@ const studios = [
   },
   {
     name: 'Stella Pilates style training',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/stella-pilates-tamachi.webp',
     rating: 4.7,
     reviewCount: 55,
     reviews: [
@@ -535,108 +535,6 @@ const studios = [
       hours: '10:00〜21:00',
       closed: '年中無休',
       facilities: ['ロッカー', '更衣室'],
-    },
-  },
-  {
-    name: 'ワヤンリゾートヨガ 田町店',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.5,
-    reviewCount: 95,
-    reviews: [
-      {
-        author: 'N.K',
-        rating: 5,
-        date: '5日前',
-        text: '田町駅から徒歩2分。ホットピラティスとコラーゲン岩盤ヨガの両方が楽しめる。美容効果も期待できて一石二鳥。',
-      },
-      {
-        author: 'L.S',
-        rating: 4,
-        date: '2週間前',
-        text: '女性専用で、リゾート感のある空間がとても居心地良い。ピラティスとヨガの両方ができるのがポイント。',
-      },
-      {
-        author: 'T.H',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '朝活ヨガから夜間帯まで幅広いレッスンがある。ホットピラティスは発汗効果がすごい。',
-      },
-    ],
-    price: '月額 11,000円〜',
-    trial: '体験レッスンあり',
-    features: ['女性専用', 'ホットピラティス', '田町駅徒歩2分', '岩盤ヨガ併設'],
-    description: '田町駅から徒歩2分の女性専用ホットピラティス&コラーゲン岩盤ヨガスタジオ。リゾート感あふれる空間で、ホットピラティスとヨガの両方が楽しめる。発汗・美肌効果も期待でき、初心者から上級者まで幅広いプログラム。',
-    access: 'JR「田町駅」徒歩2分',
-    address: '東京都港区芝浦3-14-19 大成企業ビル2階',
-    popularPlan: {
-      name: 'フルタイム会員',
-      description: '全時間帯のホットピラティス＆ヨガレッスンが受け放題。コラーゲン岩盤浴付き。',
-      price: '月額 13,200円（税込）〜',
-    },
-    options: [
-      'フルタイム会員（月額 13,200円〜）',
-      'デイタイム会員（月額 11,000円〜）',
-      '月4回会員（月額 8,800円〜）',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ダイエット', '美肌', 'デトックス', 'リラクゼーション'],
-    },
-    basicInfo: {
-      hours: '10:00〜22:00',
-      closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', '岩盤浴', '女性専用'],
-    },
-  },
-  {
-    name: 'chocoZAP 芝五丁目店',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 3.8,
-    reviewCount: 180,
-    reviews: [
-      {
-        author: 'D.Y',
-        rating: 4,
-        date: '3日前',
-        text: '月額3,278円でマシンピラティスもジムも使い放題。圧倒的コスパ。三田駅A8出口から徒歩3分。',
-      },
-      {
-        author: 'P.K',
-        rating: 3,
-        date: '1週間前',
-        text: '24時間営業なので早朝や深夜でも利用可能。ただしインストラクターはいないので自分で動画を見ながらやる形式。',
-      },
-      {
-        author: 'U.M',
-        rating: 4,
-        date: '2週間前',
-        text: '1回25分でサクッとできる。予約なしで気軽に使えるのがいい。ピラティス初体験にはちょうどいい。',
-      },
-    ],
-    price: '月額 3,278円（税込）',
-    trial: '入会後すぐ利用可能',
-    features: ['24時間営業', '月額3,278円', '三田駅徒歩3分', 'ジム併設'],
-    description: 'RIZAPが運営するコンビニジム。月額3,278円でマシンピラティス（リフォーマー）、筋トレマシン、エステ、セルフホワイトニングなどすべて利用可能。24時間営業で予約不要。1回25分の動画ガイド付きで初心者でも安心。',
-    access: '都営三田線「三田駅」A8出口 徒歩3分',
-    address: '東京都港区芝5-11-9 リビオレゾン三田 1F',
-    popularPlan: {
-      name: 'スタンダードプラン',
-      description: '全サービス使い放題。マシンピラティス、筋トレ、エステ、セルフホワイトニングなど。24時間利用可能。',
-      price: '月額 3,278円（税込）',
-    },
-    options: [
-      'スタンダードプラン（月額 3,278円）',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性55% / 男性45%',
-      purpose: ['気軽にピラティス体験', 'ジムとの併用', 'コスパ重視', '24時間利用'],
-    },
-    basicInfo: {
-      hours: '24時間営業',
-      closed: '年中無休',
-      facilities: ['マシンピラティス', '筋トレマシン', 'セルフエステ', 'セルフホワイトニング'],
     },
   },
 ]

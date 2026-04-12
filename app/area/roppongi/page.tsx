@@ -90,44 +90,6 @@ const studios = [
     },
   },
   {
-    name: 'All Present Pilates',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 62,
-    reviews: [
-      { author: 'T.S', rating: 5, date: '1週間前', text: 'パーソナルマシン専門で一人ひとりに合ったプログラムを組んでもらえます。体の悩みに寄り添った指導が魅力。' },
-      { author: 'N.K', rating: 5, date: '2週間前', text: '体験レッスンが5,500円。1回6,600円〜とパーソナルとしては通いやすい価格帯。六本木エリアで質の高い指導を受けられます。' },
-      { author: 'H.M', rating: 4, date: '1ヶ月前', text: '六本木エリアにあるパーソナルピラティス。落ち着いた雰囲気のなかでじっくりレッスンを受けられます。' },
-    ],
-    price: '1回 6,600円〜',
-    trial: '体験レッスン 5,500円',
-    features: ['パーソナルマシン専門', '六本木エリア', '丁寧な指導', '体験5,500円'],
-    description: '六本木エリアのパーソナルマシンピラティス専門スタジオ。一人ひとりの体の状態や目標に合わせたオーダーメイドのプログラムを提供。体験レッスン5,500円、1回6,600円〜で本格的なパーソナルマシンピラティスを受けられます。姿勢改善やボディメイクなど、さまざまな目的に対応。',
-    access: '六本木エリア',
-    address: '東京都港区六本木（六本木エリア）',
-    popularPlan: {
-      name: 'パーソナルレッスン',
-      description: '一人ひとりの体に合わせたオーダーメイドプログラム。丁寧なカウンセリングから始まるパーソナルマシンレッスン。',
-      price: '1回 6,600円〜',
-    },
-    options: [
-      'パーソナルレッスン（1回 6,600円〜）',
-      '体験レッスン（5,500円）',
-      '回数券プランあり',
-      'オーダーメイドプログラム',
-    ],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性75% / 男性25%',
-      purpose: ['姿勢改善', 'ボディメイク', '体幹強化', 'リハビリ'],
-    },
-    basicInfo: {
-      hours: 'お問い合わせください',
-      closed: '不定休',
-      facilities: ['マシン完備', 'ロッカー'],
-    },
-  },
-  {
     name: 'BDC PILATES 六本木',
     image: '/images/studios/bdc-pilates.webp',
     rating: 4.7,
@@ -167,7 +129,7 @@ const studios = [
   },
   {
     name: 'スタジオMiiA 六本木',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/studio-miia-roppongi.webp',
     rating: 4.7,
     reviewCount: 55,
     reviews: [
@@ -204,7 +166,7 @@ const studios = [
   },
   {
     name: 'BLC Personal Gym',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/blc-roppongi.webp',
     rating: 4.6,
     reviewCount: 48,
     reviews: [

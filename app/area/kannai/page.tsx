@@ -121,7 +121,7 @@ const studios = [
   },
   {
     name: 'マシンピラティスあるく 関内・馬車道店',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/aruku-kannai.webp',
     rating: 4.8,
     reviewCount: 72,
     reviews: [
@@ -174,7 +174,7 @@ const studios = [
   },
   {
     name: 'Cachette（カシェット）関内',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/cachette-kannai.webp',
     rating: 4.7,
     reviewCount: 65,
     reviews: [

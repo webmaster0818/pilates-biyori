@@ -279,7 +279,7 @@ const studios = [
   },
   {
     name: 'PILATES STUDIO MJ',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/pilates-mj-hiroshima.webp',
     rating: 4.1,
     reviewCount: 68,
     reviews: [
@@ -331,7 +331,7 @@ const studios = [
   },
   {
     name: 'juncus pilates & conditioning',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/juncus-pilates-hiroshima.webp',
     rating: 4.2,
     reviewCount: 87,
     reviews: [
@@ -380,59 +380,6 @@ const studios = [
       hours: '詳細は公式サイト参照',
       closed: '詳細は公式サイト参照',
       facilities: ['理学療法士常駐', 'マシン完備', '2店舗展開'],
-    },
-  },
-  {
-    name: 'LUIRE（ルイール）広島店',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.0,
-    reviewCount: 104,
-    reviews: [
-      {
-        author: 'G.M',
-        rating: 5,
-        date: '5日前',
-        text: 'シルクサスペンションが初体験でしたが、ハンモックに揺られながらのエクササイズが新感覚で楽しい！大きな窓からの光が気持ちよくて、写真映えもします。',
-      },
-      {
-        author: 'V.T',
-        rating: 4,
-        date: '2週間前',
-        text: '身体が硬い私でもハンモックのサポートがあるので無理なくできました。ボディメイクピラティスやティスバレットなど、メニューが豊富で飽きません。',
-      },
-      {
-        author: 'I.K',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '広島市内と呉市に店舗があるので、実家に帰省した時も通えて便利。カラフルなハンモックがかわいくて、友達にもおすすめしています。',
-      },
-    ],
-    price: '要問合せ',
-    trial: '体験レッスン あり',
-    features: ['シルクサスペンション', 'ハンモック', '開放感あるスタジオ', '呉市にも店舗'],
-    description: '大きな窓で開放感のあるスタジオ「LUIRE（ルイール）広島店」。スリングというハンモックを使った、ピラティスベースの"シルクサスペンション"を実施。日本に導入したばかりの比較的新しいプログラムですが、身体が硬い人や運動が苦手な人でも楽しめると人気。カラフルなハンモックは、とても可愛らしく写真映えも。そのほか、"ボディメイクピラティス"やバレエの要が含まれた"ティスバレット"など、さまざまなメニューを展開。広島市内以外に呉市にも店舗あり。',
-    access: '広島市内（詳細は公式サイト参照）',
-    address: '広島県広島市（詳細は公式サイト参照）',
-    popularPlan: {
-      name: 'シルクサスペンション',
-      description: 'ハンモックを使った新感覚ピラティス。身体が硬くても楽しめる。',
-      price: '要問合せ',
-    },
-    options: [
-      'シルクサスペンション',
-      'ボディメイクピラティス',
-      'ティスバレット',
-      '広島・呉2店舗展開',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性90% / 男性10%',
-      purpose: ['シルクサスペンション', '新感覚体験', '写真映え', 'ボディメイク'],
-    },
-    basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '詳細は公式サイト参照',
-      facilities: ['ハンモック', '開放感あるスタジオ', 'ロッカー', '2店舗展開'],
     },
   },
 ]

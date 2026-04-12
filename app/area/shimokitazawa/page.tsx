@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: 'Pilates Studio Muni',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/pilates-muni-shimokitazawa.webp',
     rating: 4.7,
     reviewCount: 65,
     reviews: [
@@ -406,32 +406,6 @@ const studios = [
     description: 'ホットヨガをメインにピラティスプログラムも提供するフィットネススタジオ。温かい環境でのピラティスは体がほぐれやすく効果的。施設が広くきれいで、初心者でも通いやすい。',
     access: '下北沢駅から近隣エリア',
     address: '東京都世田谷区（下北沢近隣）',
-  },
-  {
-    name: 'chocoZAP 下北沢',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.0,
-    reviewCount: 200,
-    reviews: [
-      {
-        author: 'Q.R',
-        rating: 4,
-        date: '1週間前',
-        text: '月額3,278円で24時間使えるのは最強。セルフ式マシンピラティスで自分のペースでできる。',
-      },
-      {
-        author: 'V.N',
-        rating: 4,
-        date: '3週間前',
-        text: 'コンビニ感覚で通える。ピラティス以外のマシンもあるので飽きない。',
-      },
-    ],
-    price: '月額 3,278円',
-    trial: '入会で始められる',
-    features: ['セルフマシン', '月額3,278円', '24時間営業', 'コンビニジム'],
-    description: 'RIZAP監修のコンビニジム。月額3,278円で24時間利用可能。セルフ式のマシンピラティスを含む各種マシンが使い放題。とにかく安く、好きな時間に通いたい方におすすめ。',
-    access: '小田急線・京王井の頭線「下北沢駅」徒歩圏内',
-    address: '東京都世田谷区北沢（下北沢駅周辺）',
   },
 ]
 

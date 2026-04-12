@@ -123,7 +123,7 @@ const studios = [
   },
   {
     name: 'emu pilates studio 荻窪店',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/emu-pilates-ogikubo.webp',
     rating: 4.5,
     reviewCount: 78,
     reviews: [
@@ -226,59 +226,6 @@ const studios = [
       hours: '詳細は公式サイト参照',
       closed: '不定休',
       facilities: ['ロッカー', '更衣室（男女別）', 'ウォーターサーバー'],
-    },
-  },
-  {
-    name: 'MCSpace 西荻窪（近隣エリア）',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.4,
-    reviewCount: 86,
-    reviews: [
-      {
-        author: 'K.H',
-        rating: 5,
-        date: '1週間前',
-        text: '荻窪から中央線で1駅の西荻窪。ヨガとピラティスの両方が楽しめます。初心者向けのクラスが充実しています。',
-      },
-      {
-        author: 'M.T',
-        rating: 4,
-        date: '2週間前',
-        text: 'アットホームな雰囲気で通いやすいです。インストラクターの方が親切で、運動が久しぶりでも安心でした。',
-      },
-      {
-        author: 'Y.N',
-        rating: 4,
-        date: '3週間前',
-        text: 'キッズダンスやバレエなども開講しているので、家族で通えます。西荻窪駅から近くて便利です。',
-      },
-    ],
-    price: '詳細は公式サイト参照',
-    trial: '体験レッスンあり',
-    features: ['ヨガ&ピラティス', '初心者向け', '西荻窪駅近', 'キッズクラスあり'],
-    description: '西荻窪にあるヨガ・ピラティススタジオ。荻窪から中央線で1駅。初心者向けのクラスが充実しており、運動が久しぶりの方でも安心して始められます。ピラティスのほか、キッズダンス、バレエ、ベリーダンスなども開講しているため、家族で通えるスタジオです。アットホームな雰囲気が特徴で、地域に密着したスタジオとして人気です。',
-    access: '西荻窪駅より徒歩圏内（荻窪からJR中央線で1駅）',
-    address: '東京都杉並区（西荻窪エリア、詳細住所は公式サイト参照）',
-    popularPlan: {
-      name: 'ピラティスクラス',
-      description: '初心者向けピラティスクラス',
-      price: '詳細は公式サイト参照',
-    },
-    options: [
-      'ヨガクラス',
-      'キッズダンス',
-      'バレエクラス',
-      'ベリーダンス',
-    ],
-    userProfile: {
-      ageRange: '20代〜60代まで幅広い',
-      genderRatio: '女性80% / 男性20%',
-      purpose: ['運動不足解消', '姿勢改善', 'リラックス', '健康維持'],
-    },
-    basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '不定休',
-      facilities: ['更衣室', 'ロッカー'],
     },
   },
   {

@@ -173,7 +173,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオゼロ 巣鴨店',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/pilates-zero-sugamo.webp',
     rating: 4.7,
     reviewCount: 86,
     reviews: [
@@ -225,7 +225,7 @@ const studios = [
   },
   {
     name: 'COCOLANCE 巣鴨店',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/cocolance-sugamo.webp',
     rating: 4.6,
     reviewCount: 72,
     reviews: [

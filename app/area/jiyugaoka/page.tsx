@@ -227,7 +227,7 @@ const studios = [
   },
   {
     name: '自由が丘ピラティススタジオ',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/jiyugaoka-pilates.webp',
     rating: 4.8,
     reviewCount: 78,
     reviews: [

@@ -487,56 +487,6 @@ const studios = [
     },
   },
   {
-    name: 'chocoZAP 飯田橋一丁目店',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.3,
-    reviewCount: 200,
-    reviews: [
-      {
-        author: 'D.K',
-        rating: 5,
-        date: '1週間前',
-        text: '月額3,278円でマシンピラティスも使えるのは圧倒的コスパ。24時間使えるので早朝や深夜も通える。',
-      },
-      {
-        author: 'Y.H',
-        rating: 4,
-        date: '2週間前',
-        text: '水道橋からも近い千代田区エリア。セルフ式なので自分のペースでピラティスマシンを使えます。',
-      },
-      {
-        author: 'K.N',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '1回25分の予約制ピラティス。インストラクター指導はないけど、動画ガイドに従ってできる。コスパ重視なら一択。',
-      },
-    ],
-    price: '月額 3,278円（税込・ピラティス追加料金なし）',
-    trial: '入会後すぐ利用可',
-    features: ['月額3,278円', '24時間営業', 'セルフ式ピラティス', '千代田区飯田橋'],
-    description: 'RIZAP監修のコンビニジム。月額3,278円でマシンピラティスも追加料金なしで利用可能。1回25分の予約制。動画ガイド付きのセルフ式で、24時間好きな時に利用できます。水道橋エリアで最安クラス。',
-    access: 'JR・地下鉄「飯田橋駅」徒歩圏内',
-    address: '東京都千代田区飯田橋1-6-7 九段NIビル1F',
-    popularPlan: {
-      name: 'スタンダードプラン',
-      description: 'ジム・ピラティス・セルフエステなど全サービス込み。',
-      price: '月額 3,278円（税込）',
-    },
-    options: [
-      'スタンダードプラン（月額 3,278円・全サービス込み）',
-    ],
-    userProfile: {
-      ageRange: '20代〜60代',
-      genderRatio: '女性55% / 男性45%',
-      purpose: ['コスパ最優先', '運動習慣づくり', '隙間時間活用', '24時間利用'],
-    },
-    basicInfo: {
-      hours: '24時間営業',
-      closed: '年中無休',
-      facilities: ['リフォーマー', 'セルフエステ', 'セルフ脱毛', 'セルフネイル'],
-    },
-  },
-  {
     name: 'Rintosull 秋葉原店',
     image: '/images/studios/rintosull.webp',
     rating: 4.5,
@@ -590,7 +540,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオ ゼロ 神保町',
-    image: '/images/studios/zen-place-pilates.webp',
+    image: '/images/studios/pilates-zero-jimbocho-suidobashi.webp',
     rating: 4.9,
     reviewCount: 45,
     reviews: [
