@@ -19,6 +19,12 @@ export const prefectureAreas = [
     ],
   },
   {
+    prefecture: '茨城県',
+    areas: [
+      { slug: 'tsukuba', name: 'つくば' },
+    ],
+  },
+  {
     prefecture: '石川県',
     areas: [
       { slug: 'kanazawa', name: '金沢' },
@@ -30,6 +36,8 @@ export const prefectureAreas = [
       { slug: 'omiya', name: '大宮' },
       { slug: 'urawa', name: '浦和' },
       { slug: 'kawagoe', name: '川越' },
+      { slug: 'koshigaya', name: '越谷' },
+      { slug: 'tokorozawa', name: '所沢' },
     ],
   },
   {
@@ -116,11 +124,17 @@ export const prefectureAreas = [
       { slug: 'chofu', name: '調布' },
       { slug: 'machida', name: '町田' },
       { slug: 'tachikawa', name: '立川' },
+      { slug: 'fuchu', name: '府中' },
+      { slug: 'hachioji', name: '八王子' },
       { slug: 'tsukiji', name: '築地' },
       { slug: 'toranomon', name: '虎ノ門' },
       { slug: 'yoga-komazawa', name: '用賀・駒沢' },
       { slug: 'oimachi', name: '大井町' },
       { slug: 'nerima', name: '練馬' },
+      { slug: 'oji', name: '王子' },
+      { slug: 'kuramae', name: '蔵前' },
+      { slug: 'nakano-sakaue', name: '中野坂上' },
+      { slug: 'sasazuka', name: '笹塚' },
     ],
   },
   {
@@ -134,6 +148,7 @@ export const prefectureAreas = [
       { slug: 'honatsugi', name: '本厚木' },
       { slug: 'shonan', name: '湘南・辻堂' },
       { slug: 'kamakura', name: '鎌倉' },
+      { slug: 'sagami-ono', name: '相模大野' },
     ],
   },
   {
@@ -183,6 +198,7 @@ export const prefectureAreas = [
     areas: [
       { slug: 'kobe', name: '神戸' },
       { slug: 'nishinomiya', name: '西宮' },
+      { slug: 'sannomiya', name: '三宮' },
     ],
   },
   {
@@ -230,6 +246,7 @@ export const prefectureAreas = [
     prefecture: '沖縄県',
     areas: [
       { slug: 'okinawa', name: '沖縄' },
+      { slug: 'naha', name: '那覇' },
     ],
   },
 ]
