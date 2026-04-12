@@ -1,0 +1,708 @@
+import Link from 'next/link'
+import { Navigation } from '@/components/Navigation'
+import { SiteFooter } from '@/components/SiteFooter'
+import { StudioCard } from '@/components/StudioCard'
+import { RelatedAreas } from '@/components/RelatedAreas'
+import { TableOfContents } from '@/components/TableOfContents'
+import Script from 'next/script'
+
+export const metadata = {
+  title: '【2026最新】ピラティス北浜・淀屋橋おすすめ6選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  description: '北浜・淀屋橋エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  keywords: 'ピラティス,北浜,淀屋橋,大阪,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
+}
+
+const studios = [
+  {
+    name: 'ビーキューブ（B-Cube）',
+    image: '/images/studios/bbbcube-kitahama.webp',
+    rating: 4.8,
+    reviewCount: 186,
+    reviews: [
+      {
+        author: 'M.K',
+        rating: 5,
+        date: '1週間前',
+        text: '西日本最大級のピラティス専門スタジオ。ピラティス専用の大型器具と姿勢分析の機械が豊富に揃っていて、本格的に取り組めます。北浜駅から徒歩3分で通いやすい。',
+      },
+      {
+        author: 'S.T',
+        rating: 5,
+        date: '2週間前',
+        text: 'インストラクターの質がとても高い。一人ひとりの体の状態に合わせた指導をしてくれるので、確実に効果を実感できます。',
+      },
+      {
+        author: 'Y.N',
+        rating: 4,
+        date: '3週間前',
+        text: '開放感のあるスタジオで気持ちよくレッスンできる。人気スタジオなのでウエイティングリストに登録が必要な場合も。',
+      },
+    ],
+    price: '都度利用制',
+    trial: '無料コンサルティング（要確認）',
+    features: ['北浜駅徒歩3分', '西日本最大級', '姿勢分析機器完備', '本格指導'],
+    description: '西日本最大級のピラティス専門スタジオ。北浜駅から徒歩3分。ピラティス専用の大型器具や姿勢分析の機械が豊富に揃い、開放感のあるスタジオと充実した施設を備えています。都度利用制で自分のペースで通えます。',
+    access: '大阪メトロ堺筋線「北浜駅」徒歩3分 / 大阪メトロ御堂筋線「淀屋橋駅」徒歩7分',
+    address: '大阪府大阪市中央区伏見町2丁目6-6',
+    popularPlan: {
+      name: '都度利用プラン',
+      description: 'ピラティス専用大型器具を使った本格レッスン。自分のペースで通える都度利用制。',
+      price: '詳細は公式サイトでご確認ください',
+    },
+    options: [
+      '無料コンサルティング（空き状況による）',
+      'マットピラティスレッスン',
+      'マシンピラティスレッスン',
+      'プライベートレッスン',
+    ],
+    userProfile: {
+      ageRange: '30代〜50代が中心',
+      genderRatio: '女性85% / 男性15%',
+      purpose: ['姿勢改善', '体幹強化', 'リハビリ', '健康維持'],
+    },
+    basicInfo: {
+      hours: '公式サイトでご確認ください',
+      closed: '不定休',
+      facilities: ['リフォーマー', 'キャデラック', 'チェア', 'ラダーバレル', '姿勢分析機器'],
+    },
+  },
+  {
+    name: 'Pilates Bodywork Studio 大阪北浜淀屋橋本店',
+    image: '/images/studios/pilates-bodywork-kitahama.webp',
+    rating: 4.7,
+    reviewCount: 152,
+    reviews: [
+      {
+        author: 'A.M',
+        rating: 5,
+        date: '1週間前',
+        text: '北浜駅から徒歩1分の好立地。キャデラック、リフォーマー、シルクサスペンション、マスターストレッチなど日本でも珍しいほど幅広いアイテムを導入。リフォーマーグループレッスンが受けられます。',
+      },
+      {
+        author: 'T.Y',
+        rating: 5,
+        date: '2週間前',
+        text: '東京・京都・名古屋にも展開している実績のあるスタジオ。レッスンの質が非常に高く、身体の変化を実感できます。',
+      },
+      {
+        author: 'K.H',
+        rating: 4,
+        date: '3週間前',
+        text: '入会金・初月度無料キャンペーンがあり始めやすい（4か月継続が条件）。平日は22時まで営業で仕事帰りにも通える。',
+      },
+    ],
+    price: '月額制（詳細は公式サイト）',
+    trial: '入会金・初月度無料キャンペーンあり',
+    features: ['北浜駅徒歩1分', '豊富なマシン', '平日22時まで', '全国展開'],
+    description: '北浜駅から徒歩1分の好立地。キャデラック、リフォーマー、シルクサスペンション、マスターストレッチなど、すべてを揃えたスタジオは日本でもまだまだ珍しく、様々な年代や運動レベルに対応。東京日本橋・京都四条烏丸・名古屋栄伏見にも展開。',
+    access: '大阪メトロ堺筋線「北浜駅」徒歩1分 / 大阪メトロ御堂筋線「淀屋橋駅」徒歩5分',
+    address: '大阪府大阪市中央区伏見町2-3-9 TAG北浜ビル2階',
+    popularPlan: {
+      name: 'リフォーマーグループレッスン',
+      description: '少人数制のリフォーマーグループレッスン。多彩なマシンを使った本格指導。',
+      price: '詳細は公式サイトでご確認ください',
+    },
+    options: [
+      '入会金・初月度無料キャンペーン（4か月継続条件）',
+      'リフォーマーグループレッスン',
+      'プライベートレッスン',
+      'シルクサスペンションレッスン',
+    ],
+    userProfile: {
+      ageRange: '20代〜50代が中心',
+      genderRatio: '女性80% / 男性20%',
+      purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '柔軟性向上'],
+    },
+    basicInfo: {
+      hours: '月〜金 10:00〜22:00 / 土日 10:00〜19:00',
+      closed: '不定休',
+      facilities: ['キャデラック', 'リフォーマー', 'シルクサスペンション', 'マスターストレッチ', 'マット'],
+    },
+  },
+  {
+    name: 'ピラティススタジオ進化',
+    image: '/images/studios/studio-shinka-kitahama.webp',
+    rating: 4.7,
+    reviewCount: 98,
+    reviews: [
+      {
+        author: 'R.S',
+        rating: 5,
+        date: '1週間前',
+        text: '北浜駅から徒歩3分。50分で姿勢を変えるリフォーマーグループレッスンが特徴。定員6名の少人数制で丁寧な指導が受けられます。',
+      },
+      {
+        author: 'N.K',
+        rating: 5,
+        date: '2週間前',
+        text: '全国でも希少なリフォーマーのグループレッスンが受けられるスタジオ。姿勢改善に特化したプログラムで効果を実感。',
+      },
+      {
+        author: 'H.M',
+        rating: 4,
+        date: '3週間前',
+        text: '月4回17,160円。1回あたり4,290円と個人レッスンよりお得。少人数なので一人ひとりしっかり見てもらえます。',
+      },
+    ],
+    price: '月4回 17,160円',
+    trial: '体験レッスンあり（要問合せ）',
+    features: ['北浜駅徒歩3分', '姿勢改善特化', '定員6名', 'リフォーマーグループ'],
+    description: '北浜駅から徒歩3分。全国でも希少なリフォーマーのグループレッスンを提供する姿勢改善特化型ピラティス専門スタジオ。定員6名の少人数制で、50分で姿勢を変えるプログラムが特徴。',
+    access: '大阪メトロ堺筋線「北浜駅」徒歩3分',
+    address: '大阪府大阪市中央区北浜（詳細は公式サイトでご確認ください）',
+    popularPlan: {
+      name: '月謝制（月4回）',
+      description: '定員6名の少人数リフォーマーグループレッスン。姿勢改善に特化。',
+      price: '月4回 17,160円（税込）',
+    },
+    options: [
+      '月謝制（月4回 17,160円）',
+      '都度利用（1回 6,600円）',
+      '入会金 22,000円（先着5名 9,900円）',
+      'プライベートレッスン',
+    ],
+    userProfile: {
+      ageRange: '30代〜50代が中心',
+      genderRatio: '女性85% / 男性15%',
+      purpose: ['姿勢改善', '体幹強化', '腰痛改善', '健康維持'],
+    },
+    basicInfo: {
+      hours: '公式サイトでご確認ください',
+      closed: '不定休',
+      facilities: ['リフォーマー', 'マット', '更衣室'],
+    },
+  },
+  {
+    name: 'Ua pilates 北浜（韓国式ピラティス）',
+    image: '/images/studios/ua-pilates-kitahama.webp',
+    rating: 4.6,
+    reviewCount: 78,
+    reviews: [
+      {
+        author: 'E.T',
+        rating: 5,
+        date: '1週間前',
+        text: '北浜駅から徒歩3分。本場韓国の難関国際資格保有のインストラクターによる、姿勢分析×体型分析で一人ひとりに合ったレッスン。女性限定で安心。',
+      },
+      {
+        author: 'M.O',
+        rating: 5,
+        date: '2週間前',
+        text: 'Ua独自メソッド「ballet × pilates」が新しい。韓国式ピラティスで、しなやかな韓国人ボディを目指せます。スタジオの雰囲気もおしゃれ。',
+      },
+      {
+        author: 'C.I',
+        rating: 4,
+        date: '3週間前',
+        text: '女性らしいしなやかな身体づくりに特化。姿勢分析から始まるので、自分の体の状態を把握してからレッスンに入れます。',
+      },
+    ],
+    price: 'パーソナル制（詳細は公式サイト）',
+    trial: '初回体験 6,000円',
+    features: ['女性限定', '北浜駅徒歩3分', '韓国式ピラティス', 'バレエ×ピラティス'],
+    description: '北浜駅から徒歩3分の韓国式ピラティススタジオ。女性限定。本場韓国の難関国際資格保有インストラクターによる「姿勢分析×体型分析」で、Ua独自メソッド「ballet × pilates」を提供。しなやかな韓国人ボディを目指せます。',
+    access: '大阪メトロ堺筋線「北浜駅」徒歩3分 / 大阪メトロ御堂筋線「淀屋橋駅」徒歩8分 / 大阪メトロ各線「本町駅」徒歩12分',
+    address: '大阪府大阪市中央区平野町2丁目2-8 イシモトビル9F',
+    popularPlan: {
+      name: 'パーソナルレッスン',
+      description: '韓国式ピラティスのパーソナルレッスン。姿勢分析×体型分析付き。',
+      price: '詳細は公式サイトでご確認ください',
+    },
+    options: [
+      '初回体験 6,000円',
+      'パーソナルレッスン',
+      '姿勢分析×体型分析',
+      'ballet × pilatesメソッド',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性100%（女性限定）',
+      purpose: ['ボディメイク', '姿勢改善', '美脚', 'しなやかな体づくり'],
+    },
+    basicInfo: {
+      hours: '公式サイトでご確認ください',
+      closed: '不定休',
+      facilities: ['リフォーマー', 'マット', 'パウダールーム'],
+    },
+  },
+  {
+    name: 'zen place pilates 南森町',
+    image: '/images/studios/zen-place-pilates.webp',
+    rating: 4.7,
+    reviewCount: 142,
+    reviews: [
+      {
+        author: 'K.S',
+        rating: 5,
+        date: '1週間前',
+        text: '北浜・淀屋橋から最も近いzen placeスタジオ。全国150店舗以上で相互利用可能。マットもマシンも両方受けられるのが魅力。男性もOK。',
+      },
+      {
+        author: 'Y.H',
+        rating: 5,
+        date: '2週間前',
+        text: 'ピラティス専門で20年以上の実績がある大手。インストラクターの質が高く、体験グループ1,000円で気軽に試せます。',
+      },
+      {
+        author: 'A.K',
+        rating: 4,
+        date: '3週間前',
+        text: 'グレード制でスタジオの設備レベルがわかりやすい。月4回10,450円〜とコスパも良い。体験当日入会で入会金無料。',
+      },
+    ],
+    price: '月4回 10,450円〜',
+    trial: 'グループ体験 1,000円',
+    features: ['全国相互利用', '男性OK', '大手の安心感', 'コスパ良好'],
+    description: 'ピラティス専門の大手スタジオ。北浜・淀屋橋エリアから近い南森町に位置。全国150店舗以上で相互利用可能。マットグループ・マシングループ・プライベートの3タイプのレッスン。体験当日入会で入会金無料。',
+    access: '大阪メトロ谷町線・堺筋線「南森町駅」徒歩すぐ / 「北浜駅」から電車で約5分',
+    address: '大阪府大阪市北区（詳細は公式サイトでご確認ください）',
+    popularPlan: {
+      name: 'フリープラン（マットグループ）',
+      description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。',
+      price: '月額 16,940円（税込）',
+    },
+    options: [
+      '月4回プラン（10,450円〜）',
+      'マシングループ体験（3,000円）',
+      'プライベートレッスン（体験 9,900円）',
+      '体験当日入会で入会金無料',
+    ],
+    userProfile: {
+      ageRange: '20代〜50代が中心',
+      genderRatio: '女性80% / 男性20%',
+      purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
+    },
+    basicInfo: {
+      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
+      closed: '不定休',
+      facilities: ['リフォーマー', 'キャデラック', 'チェア', 'マット', 'ロッカー'],
+    },
+  },
+  {
+    name: 'SHIN pilates studio 堺筋本町店',
+    image: '/images/studios/shin-pilates.webp',
+    rating: 4.6,
+    reviewCount: 88,
+    reviews: [
+      {
+        author: 'J.M',
+        rating: 5,
+        date: '1週間前',
+        text: '北浜・淀屋橋から1駅の堺筋本町にあるピラティススタジオ。グループレッスンもプライベートレッスンも充実。アットホームな雰囲気が良い。',
+      },
+      {
+        author: 'P.A',
+        rating: 4,
+        date: '2週間前',
+        text: '少人数制で丁寧に指導してもらえる。体の使い方が根本から変わるのを実感。初心者にも優しい。',
+      },
+      {
+        author: 'L.K',
+        rating: 5,
+        date: '3週間前',
+        text: '大阪市中央区にあり北浜エリアからもアクセスしやすい。リフォーマーを使った本格的なレッスンが受けられます。',
+      },
+    ],
+    price: '月額制（詳細は公式サイト）',
+    trial: '体験レッスンあり',
+    features: ['堺筋本町駅近く', 'グループ&プライベート', '少人数制', 'アットホーム'],
+    description: '北浜・淀屋橋エリアから近い堺筋本町に位置するピラティススタジオ。グループレッスンとプライベートレッスンの両方を提供。少人数制の丁寧な指導で、初心者から経験者まで対応。',
+    access: '大阪メトロ堺筋線・中央線「堺筋本町駅」徒歩すぐ / 「北浜駅」から電車で約3分',
+    address: '大阪府大阪市中央区（詳細は公式サイトでご確認ください）',
+    popularPlan: {
+      name: 'グループレッスン',
+      description: '少人数制のリフォーマーグループレッスン。',
+      price: '詳細は公式サイトでご確認ください',
+    },
+    options: [
+      'グループレッスン',
+      'プライベートレッスン',
+      '体験レッスン',
+      'マットレッスン',
+    ],
+    userProfile: {
+      ageRange: '20代〜50代が中心',
+      genderRatio: '女性80% / 男性20%',
+      purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '運動不足解消'],
+    },
+    basicInfo: {
+      hours: '公式サイトでご確認ください',
+      closed: '不定休',
+      facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'],
+    },
+  },
+]
+
+const faqs = [
+  {
+    question: 'ピラティス初心者でも大丈夫ですか？',
+    answer: '大丈夫です！北浜・淀屋橋エリアのスタジオはほとんどが初心者歓迎。ビーキューブは姿勢分析からスタート、ピラティススタジオ進化は定員6名の少人数制で安心です。',
+  },
+  {
+    question: 'マットピラティスとマシンピラティスの違いは？',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。北浜エリアはマシンピラティス専門スタジオが充実しています。',
+  },
+  {
+    question: '北浜・淀屋橋のピラティスの料金相場は？',
+    answer: 'グループ月4回で10,450円〜17,160円程度。zen place南森町が月4回10,450円〜で最もリーズナブル。ピラティススタジオ進化は月4回17,160円。パーソナル中心のスタジオは1回6,000円〜が目安です。',
+  },
+  {
+    question: 'どのくらいの頻度で通えばいいですか？',
+    answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。大切なのは継続すること。',
+  },
+  {
+    question: 'ピラティスで痩せますか？',
+    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。',
+  },
+  {
+    question: '体験レッスンは何を持っていけばいいですか？',
+    answer: '動きやすい服装と飲み物があればOK。zen placeはグループ体験1,000円、Ua pilatesは初回体験6,000円で受けられます。',
+  },
+  {
+    question: 'ピラティスとヨガの違いは何ですか？',
+    answer: 'ピラティスは体幹強化・姿勢改善に特化。ヨガは柔軟性とリラックス重視。zen placeはヨガスタジオも運営しており、両方楽しめます。',
+  },
+  {
+    question: '男性でも通えるスタジオはありますか？',
+    answer: 'zen place南森町、ビーキューブ、Pilates Bodywork Studio、ピラティススタジオ進化、SHIN pilatesは男性も通えます。Ua pilatesは女性限定です。',
+  },
+  {
+    question: '仕事帰りに通えるスタジオは？',
+    answer: 'Pilates Bodywork Studioは平日22時まで営業。zen placeも平日21時まで。北浜・淀屋橋はオフィス街なので仕事帰りに通いやすいスタジオが多いです。',
+  },
+  {
+    question: 'ピラティスはどのくらいで効果が出ますか？',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。',
+  },
+]
+
+export default function KitahamaPage() {
+  return (
+    <>
+      <Navigation />
+
+      <main className="pt-20 bg-white">
+        {/* Hero Section */}
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月11日</p>
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
+              【2026最新】ピラティス北浜・淀屋橋おすすめ6選！<br className="hidden md:block" />
+              人気スタジオの料金プランを簡単比較！
+            </h1>
+          </div>
+        </section>
+
+        {/* Breadcrumbs */}
+        <section className="bg-white py-3 border-b border-warm-100">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <nav className="text-sm text-warm-400">
+              <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
+              {' > '}
+              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              {' > '}
+              <span className="text-warm-600">北浜・淀屋橋</span>
+            </nav>
+          </div>
+        </section>
+
+        <TableOfContents areaName="北浜・淀屋橋" />
+
+        {/* Introduction */}
+        <section className="py-12 bg-white">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <p className="text-warm-600 leading-relaxed mb-6">
+              こんにちは。
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              Pilates-Biyori編集部です！
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              あなたは、
+            </p>
+            <p className="text-warm-600 leading-relaxed font-medium mb-6">
+              「ピラティスを始めてみたい」
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              「北浜・淀屋橋で人気のピラティススタジオを知りたい」
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              と思っていませんか？
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-8">
+              そこでこの記事では、北浜・淀屋橋エリアでおすすめのピラティススタジオ6選をまとめました。
+            </p>
+            <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
+              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <ul className="space-y-2 text-warm-700">
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>北浜・淀屋橋でピラティススタジオを探している</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>マシンピラティスを体験してみたい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>オフィス街で仕事帰りに通えるスタジオを知りたい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>駅近で通いやすいスタジオがいい</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-warm-400 mr-2">✓</span>
+                  <span>料金プランを比較したい</span>
+                </li>
+              </ul>
+            </div>
+            <p className="text-warm-600 leading-relaxed">
+              それではさっそく見ていきましょう！
+            </p>
+          </div>
+        </section>
+
+        {/* Studios List */}
+        <section className="py-16 bg-warm-50" id="studios">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              北浜・淀屋橋のおすすめピラティススタジオ6選
+            </h2>
+            <div className="space-y-8">
+              {studios.map((studio, index) => (
+                <StudioCard key={index} studio={studio} index={index} />
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Search by Preference */}
+        <section className="py-16 bg-white" id="kodawari">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              こだわりから探す
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  月額1万円台で通えるスタジオ。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• zen place 南森町（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• ピラティススタジオ進化（月4回 17,160円）</li>
+                </ul>
+              </div>
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用・女性限定</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  女性だけの安心空間。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• Ua pilates（韓国式・女性限定）</li>
+                </ul>
+              </div>
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
+                <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
+                <p className="text-warm-600 text-sm mb-4">
+                  北浜駅から徒歩3分以内。
+                </p>
+                <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• Pilates Bodywork Studio（徒歩1分）</li>
+                  <li className="text-warm-700">• ビーキューブ（徒歩3分）</li>
+                  <li className="text-warm-700">• ピラティススタジオ進化（徒歩3分）</li>
+                  <li className="text-warm-700">• Ua pilates（徒歩3分）</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Frequency Guide */}
+        <section className="py-16 bg-warm-50" id="frequency">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              おすすめの期間・頻度
+            </h2>
+            <div className="bg-white rounded-lg p-8 border border-warm-200">
+              <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
+              <p className="text-warm-600 leading-relaxed mb-6">
+                週1-2回からスタート。最低2-3ヶ月継続で効果を実感。
+              </p>
+              <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
+              <p className="text-warm-600 leading-relaxed mb-6">
+                週2-3回がおすすめ。3-6ヶ月で目に見える変化。
+              </p>
+              <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
+              <p className="text-warm-600 leading-relaxed">
+                週1回のペースで無理なく継続。
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Price Guide */}
+        <section className="py-16 bg-white" id="price-guide">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              予算別の料金相場
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜11,000円</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
+                <p className="text-sm text-warm-600 mb-4">
+                  グループレッスン中心。
+                </p>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• zen place 南森町（10,450円〜/月4回）</li>
+                </ul>
+              </div>
+              <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
+                <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 15,000〜18,000円</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
+                <p className="text-sm text-warm-600 mb-4">
+                  少人数制マシンレッスン。
+                </p>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• ピラティススタジオ進化（17,160円）</li>
+                  <li>• zen place 通い放題（16,940円）</li>
+                </ul>
+              </div>
+              <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
+                <h3 className="text-lg font-bold text-warm-900 mb-2">パーソナル</h3>
+                <p className="text-3xl font-bold text-warm-800 mb-4">1回 6,000円〜</p>
+                <p className="text-sm text-warm-600 mb-4">
+                  マンツーマンで集中指導。
+                </p>
+                <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• Ua pilates（初回体験 6,000円）</li>
+                  <li>• ピラティススタジオ進化（都度 6,600円）</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* How to Choose */}
+        <section className="py-16 bg-warm-50" id="how-to-choose">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              失敗しないスタジオの選び方
+            </h2>
+            <div className="space-y-8">
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span>
+                  <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  ダイエット、姿勢改善、体幹強化など目的によって最適なスタジオは変わります。北浜エリアは姿勢改善に特化したスタジオが多いのが特徴です。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span>
+                  <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  北浜・淀屋橋の料金相場はグループ月4回で10,450円〜17,160円。パーソナルは1回6,000円〜。入会金やキャンペーンも確認しましょう。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span>
+                  <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  zen placeは1,000円で体験可能。Ua pilatesは初回体験6,000円。Pilates Bodywork Studioは入会金・初月度無料キャンペーンあり。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <div className="flex items-center mb-4">
+                  <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span>
+                  <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
+                </div>
+                <p className="text-warm-600 leading-relaxed">
+                  北浜・淀屋橋は大阪のビジネス街。堺筋線・御堂筋線が通り、Pilates Bodywork Studioは北浜駅徒歩1分、ビーキューブ・進化・Uaも徒歩3分とアクセス抜群です。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ */}
+        <section className="py-16 bg-white" id="faq">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              よくある質問
+            </h2>
+            <div className="space-y-6">
+              {faqs.map((faq, index) => (
+                <div key={index} className="border border-warm-200 rounded-lg overflow-hidden">
+                  <details className="group">
+                    <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition">
+                      <h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3>
+                      <svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"/>
+                      </svg>
+                    </summary>
+                    <div className="px-6 pb-6 text-warm-600 leading-relaxed">
+                      {faq.answer}
+                    </div>
+                  </details>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Summary */}
+        <section className="py-16 bg-warm-50" id="summary">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">
+              まとめ
+            </h2>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              今回は北浜・淀屋橋エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              この記事では北浜・淀屋橋にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+            </p>
+            <p className="text-warm-600 leading-relaxed mb-6">
+              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+            </p>
+            <p className="text-warm-700 font-medium text-center">
+              あなたにぴったりのピラティススタジオが見つかることを願っています。
+            </p>
+          </div>
+        </section>
+
+        {/* CTA */}
+        <section className="py-16 bg-warm-800 text-white" id="contact">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">
+              体験レッスンを予約しよう
+            </h2>
+            <p className="text-warm-200 mb-8 leading-relaxed">
+              初回限定の体験レッスン1,000円〜6,000円。<br />
+              まずは気軽に体験してみましょう。
+            </p>
+            <Link
+              href="/#studios"
+              className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded"
+            >
+              おすすめスタジオ一覧に戻る
+            </Link>
+          </div>
+        </section>
+      </main>
+
+      <RelatedAreas currentSlug="kitahama" />
+      <SiteFooter />
+      <Script src="https://unpkg.com/lucide@latest" strategy="lazyOnload" />
+    </>
+  )
+}

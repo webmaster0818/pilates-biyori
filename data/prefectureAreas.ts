@@ -22,12 +22,15 @@ export const prefectureAreas = [
     prefecture: '埼玉県',
     areas: [
       { slug: 'omiya', name: '大宮' },
+      { slug: 'urawa', name: '浦和' },
     ],
   },
   {
     prefecture: '千葉県',
     areas: [
       { slug: 'chiba', name: '千葉' },
+      { slug: 'funabashi', name: '船橋' },
+      { slug: 'kashiwa', name: '柏' },
     ],
   },
   {
@@ -106,6 +109,8 @@ export const prefectureAreas = [
       { slug: 'chofu', name: '調布' },
       { slug: 'machida', name: '町田' },
       { slug: 'tachikawa', name: '立川' },
+      { slug: 'tsukiji', name: '築地' },
+      { slug: 'toranomon', name: '虎ノ門' },
     ],
   },
   {
@@ -155,12 +160,14 @@ export const prefectureAreas = [
       { slug: 'tennoji', name: '天王寺' },
       { slug: 'honmachi', name: '本町' },
       { slug: 'esaka', name: '江坂' },
+      { slug: 'kitahama', name: '北浜・淀屋橋' },
     ],
   },
   {
     prefecture: '兵庫県',
     areas: [
       { slug: 'kobe', name: '神戸' },
+      { slug: 'nishinomiya', name: '西宮' },
     ],
   },
   {
