@@ -5,6 +5,10 @@ import { StudioCard } from '@/components/StudioCard'
 import { RelatedAreas } from '@/components/RelatedAreas'
 import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
+import { PriceComparisonTable } from '@/components/PriceComparisonTable'
+import { FAQSchema } from '@/components/FAQSchema'
+
+
 
 export const metadata = {
   title: '【2026最新】ピラティス西荻窪おすすめ7選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
@@ -382,6 +386,7 @@ const faqs = [
 export default function NishiOgikuboAreaPage() {
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Navigation />
       <Script
         id="structured-data"
@@ -434,6 +439,8 @@ export default function NishiOgikuboAreaPage() {
         </section>
 
         <TableOfContents areaName="西荻窪" />
+
+        <PriceComparisonTable studios={studios} areaName="西荻窪" />
 
         {/* Introduction */}
         <section className="py-12 bg-white">
@@ -508,7 +515,7 @@ export default function NishiOgikuboAreaPage() {
         <section className="py-16 bg-white" id="kodawari">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              こだわりから探す
+              目的別おすすめスタジオ
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">

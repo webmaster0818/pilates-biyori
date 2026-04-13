@@ -5,6 +5,10 @@ import { StudioCard } from '@/components/StudioCard'
 import { RelatedAreas } from '@/components/RelatedAreas'
 import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
+import { PriceComparisonTable } from '@/components/PriceComparisonTable'
+import { FAQSchema } from '@/components/FAQSchema'
+
+
 
 export const metadata = {
   title: '【2026最新】ピラティス三鷹おすすめ5選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
@@ -327,6 +331,7 @@ const faqs = [
 export default function MitakaPage() {
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Navigation />
       <main className="pt-20 bg-white">
         {/* Hero */}
@@ -355,6 +360,8 @@ export default function MitakaPage() {
         </section>
 
         <TableOfContents areaName="三鷹" />
+
+        <PriceComparisonTable studios={studios} areaName="三鷹" />
 
         {/* Introduction */}
         <section className="py-12 bg-white">
@@ -417,7 +424,7 @@ export default function MitakaPage() {
         {/* Search by Preference */}
         <section className="py-16 bg-white" id="kodawari">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">こだわりから探す</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">目的別おすすめスタジオ</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>

@@ -5,6 +5,10 @@ import { StudioCard } from '@/components/StudioCard'
 import { RelatedAreas } from '@/components/RelatedAreas'
 import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
+import { PriceComparisonTable } from '@/components/PriceComparisonTable'
+import { FAQSchema } from '@/components/FAQSchema'
+
+
 
 export const metadata = {
   title: '【2026最新】ピラティス代官山おすすめ7選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
@@ -178,6 +182,7 @@ const faqs = [
 export default function DaikanyamaPage() {
   return (
     <>
+      <FAQSchema faqs={faqs} />
       <Navigation />
       <main className="pt-20 bg-white">
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
@@ -226,7 +231,7 @@ export default function DaikanyamaPage() {
         </section>
         <section className="py-16 bg-white">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">こだわりから探す</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">目的別おすすめスタジオ</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
