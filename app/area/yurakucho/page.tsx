@@ -360,8 +360,6 @@ export default function YurakuchoPage() {
 
         <TableOfContents areaName="有楽町" />
 
-        <PriceComparisonTable studios={studios} areaName="有楽町" />
-
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -416,6 +414,8 @@ export default function YurakuchoPage() {
             </p>
           </div>
         </section>
+
+        <PriceComparisonTable studios={studios} areaName="有楽町" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">

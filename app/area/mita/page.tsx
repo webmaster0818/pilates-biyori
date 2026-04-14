@@ -361,8 +361,6 @@ export default function MitaPage() {
 
         <TableOfContents areaName="三田" />
 
-        <PriceComparisonTable studios={studios} areaName="三田" />
-
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -406,6 +404,8 @@ export default function MitaPage() {
             <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
           </div>
         </section>
+
+        <PriceComparisonTable studios={studios} areaName="三田" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">

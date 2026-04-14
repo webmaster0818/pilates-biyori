@@ -352,8 +352,6 @@ export default function NagatachoPage() {
 
         <TableOfContents areaName="永田町" />
 
-        <PriceComparisonTable studios={studios} areaName="永田町" />
-
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -397,6 +395,8 @@ export default function NagatachoPage() {
             <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
           </div>
         </section>
+
+        <PriceComparisonTable studios={studios} areaName="永田町" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">

@@ -360,8 +360,6 @@ export default function KokuraPage() {
 
         <TableOfContents areaName="小倉" />
 
-        <PriceComparisonTable studios={studios} areaName="小倉" />
-
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -416,6 +414,8 @@ export default function KokuraPage() {
             </p>
           </div>
         </section>
+
+        <PriceComparisonTable studios={studios} areaName="小倉" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">

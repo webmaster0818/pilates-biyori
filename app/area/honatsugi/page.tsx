@@ -307,8 +307,6 @@ export default function HonatsugiPage() {
 
         <TableOfContents areaName="本厚木" />
 
-        <PriceComparisonTable studios={studios} areaName="本厚木" />
-
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -363,6 +361,8 @@ export default function HonatsugiPage() {
             </p>
           </div>
         </section>
+
+        <PriceComparisonTable studios={studios} areaName="本厚木" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">

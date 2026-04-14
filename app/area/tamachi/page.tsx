@@ -595,6 +595,8 @@ export default function TamachiPage() {
             <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
           </div>
         </section>
+
+        <PriceComparisonTable studios={studios} areaName="田町・三田" />
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">田町・三田のおすすめピラティススタジオ12選</h2>

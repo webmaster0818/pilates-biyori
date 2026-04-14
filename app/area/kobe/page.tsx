@@ -466,8 +466,6 @@ export default async function KobeAreaPage() {
 
         <TableOfContents areaName="神戸" />
 
-        <PriceComparisonTable studios={studios} areaName="スタジオ" />
-
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -522,6 +520,8 @@ export default async function KobeAreaPage() {
             </p>
           </div>
         </section>
+
+        <PriceComparisonTable studios={studios} areaName="スタジオ" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">

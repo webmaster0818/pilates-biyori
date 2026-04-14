@@ -518,8 +518,6 @@ export default async function OmiyaAreaPage() {
 
         <TableOfContents areaName="大宮" />
 
-        <PriceComparisonTable studios={studios} areaName="大宮" />
-
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -574,6 +572,8 @@ export default async function OmiyaAreaPage() {
             </p>
           </div>
         </section>
+
+        <PriceComparisonTable studios={studios} areaName="大宮" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">

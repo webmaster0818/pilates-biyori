@@ -442,8 +442,6 @@ export default function OgikuboAreaPage() {
 
         <TableOfContents areaName="荻窪" />
 
-        <PriceComparisonTable studios={studios} areaName="荻窪" />
-
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -498,6 +496,8 @@ export default function OgikuboAreaPage() {
             </p>
           </div>
         </section>
+
+        <PriceComparisonTable studios={studios} areaName="荻窪" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">

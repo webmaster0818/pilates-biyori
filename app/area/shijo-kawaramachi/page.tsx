@@ -354,8 +354,6 @@ export default function ShijoKawaramachiPage() {
 
         <TableOfContents areaName="四条河原町" />
 
-        <PriceComparisonTable studios={studios} areaName="四条河原町" />
-
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -399,6 +397,8 @@ export default function ShijoKawaramachiPage() {
             <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
           </div>
         </section>
+
+        <PriceComparisonTable studios={studios} areaName="四条河原町" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">

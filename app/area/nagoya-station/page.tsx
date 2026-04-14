@@ -175,8 +175,6 @@ export default function NagoyaStationPage() {
 
         <TableOfContents areaName="名古屋駅" />
 
-        <PriceComparisonTable studios={studios} areaName="名古屋駅" />
-
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -231,6 +229,8 @@ export default function NagoyaStationPage() {
             </p>
           </div>
         </section>
+
+        <PriceComparisonTable studios={studios} areaName="名古屋駅" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">

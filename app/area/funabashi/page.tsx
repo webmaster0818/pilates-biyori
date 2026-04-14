@@ -360,8 +360,6 @@ export default function FunabashiPage() {
 
         <TableOfContents areaName="船橋" />
 
-        <PriceComparisonTable studios={studios} areaName="船橋" />
-
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -416,6 +414,8 @@ export default function FunabashiPage() {
             </p>
           </div>
         </section>
+
+        <PriceComparisonTable studios={studios} areaName="船橋" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">

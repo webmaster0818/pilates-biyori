@@ -304,8 +304,6 @@ export default function FuchuPage() {
 
         <TableOfContents areaName="府中" />
 
-        <PriceComparisonTable studios={studios} areaName="府中" />
-
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -360,6 +358,8 @@ export default function FuchuPage() {
             </p>
           </div>
         </section>
+
+        <PriceComparisonTable studios={studios} areaName="府中" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">

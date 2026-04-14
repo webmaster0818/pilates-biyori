@@ -284,8 +284,6 @@ export default function ShinsaibashiPage() {
 
         <TableOfContents areaName="心斎橋" />
 
-        <PriceComparisonTable studios={studios} areaName="心斎橋" />
-
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -340,6 +338,8 @@ export default function ShinsaibashiPage() {
             </p>
           </div>
         </section>
+
+        <PriceComparisonTable studios={studios} areaName="心斎橋" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">

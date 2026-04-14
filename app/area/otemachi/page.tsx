@@ -276,8 +276,6 @@ export default function OtemachiPage() {
 
         <TableOfContents areaName="大手町" />
 
-        <PriceComparisonTable studios={studios} areaName="大手町・東京駅" />
-
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -332,6 +330,8 @@ export default function OtemachiPage() {
             </p>
           </div>
         </section>
+
+        <PriceComparisonTable studios={studios} areaName="大手町・東京駅" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">

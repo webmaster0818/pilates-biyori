@@ -305,8 +305,6 @@ export default function MusashikoyamaPage() {
 
         <TableOfContents areaName="武蔵小山" />
 
-        <PriceComparisonTable studios={studios} areaName="武蔵小山" />
-
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -350,6 +348,8 @@ export default function MusashikoyamaPage() {
             <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
           </div>
         </section>
+
+        <PriceComparisonTable studios={studios} areaName="武蔵小山" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">
