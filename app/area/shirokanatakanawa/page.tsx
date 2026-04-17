@@ -238,7 +238,7 @@ export default function ShirokanatakanwaPage() {
       <FAQSchema faqs={faqs} />
       <Navigation />
       <main className="pt-20 bg-white">
-        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年04月09日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス白金高輪おすすめ12選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1></div></section>
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス白金高輪おすすめ12選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1></div></section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">白金高輪</span></nav></div></section>
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -253,6 +253,115 @@ export default function ShirokanatakanwaPage() {
 
         <PriceComparisonTable studios={studios} areaName="白金高輪" />
         <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">白金高輪のおすすめピラティススタジオ12選</h2><div className="space-y-8">{studios.map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
+
+        {/* Price Market Section */}
+        <section className="py-16 bg-white" id="price-market">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              白金高輪のピラティス料金相場【2026年4月最新】
+            </h2>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm border-collapse">
+                <thead>
+                  <tr className="bg-warm-800 text-white">
+                    <th className="px-4 py-3 text-left">種別</th>
+                    <th className="px-4 py-3 text-left">料金相場</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-warm-200">
+                    <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
+                    <td className="px-4 py-3">6,250円〜15,400円</td>
+                  </tr>
+                  <tr className="border-b border-warm-200 bg-warm-50">
+                    <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
+                    <td className="px-4 py-3">1回 25,000円〜</td>
+                  </tr>
+                  <tr className="border-b border-warm-200">
+                    <td className="px-4 py-3 font-medium">体験レッスン</td>
+                    <td className="px-4 py-3">500円〜</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="text-warm-600 mt-4 text-sm leading-relaxed">
+              白金高輪エリアの料金はスタジオのタイプや立地によって異なります。まずは体験レッスンを活用して、料金と内容のバランスが自分に合うスタジオを見つけましょう。
+            </p>
+          </div>
+        </section>
+
+        {/* Cautions Section */}
+        <section className="py-16 bg-warm-50" id="cautions">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              白金高輪でスタジオを選ぶ際の注意点
+            </h2>
+            <div className="space-y-6">
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">最寄り駅の出口・路線を事前に確認</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  白金高輪エリアは複数路線が利用できる便利な立地ですが、出口によってスタジオまでの距離が大きく変わることがあります。通う前にGoogleマップで自分の利用路線からのルートを確認しておきましょう。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">平日夜・土日午前は予約が集中</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  白金高輪エリアでは平日19時〜21時、土日午前中がレッスン予約のピークタイムです。人気スタジオは早めの予約が必須。平日午前〜昼間は比較的空いているので、時間に融通が利く方は狙い目です。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">最低契約期間・キャンセルポリシーを確認</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  入会キャンペーンを利用すると3〜6ヶ月の最低契約期間が設定されるスタジオもあります。また、レッスン直前のキャンセルルール（何時間前まで無料か）もスタジオごとに異なるため、入会前に必ず確認しましょう。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">体験レッスンは2〜3スタジオ回るのがおすすめ</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  白金高輪エリアにはグループ専門からパーソナル専門まで多彩なスタジオがあります。1つだけで決めず、2〜3スタジオの体験レッスンを受けて、インストラクターとの相性や雰囲気を比較してから入会を決めましょう。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Trial Lesson Guide */}
+        <section className="py-16 bg-white" id="trial-guide">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              体験レッスン当日の持ち物・服装ガイド
+            </h2>
+            <div className="bg-warm-50 rounded-lg p-8 border border-warm-200">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
+                  <ul className="space-y-3 text-warm-600">
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
+                  <ul className="space-y-3 text-warm-600">
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div className="mt-6 p-4 bg-white rounded border border-warm-200">
+                <p className="text-sm text-warm-600">
+                  <strong>白金高輪エリアの豆知識：</strong>スタジオによってはウェアやタオルのレンタルサービスを提供しているところもあります。仕事帰りや外出先から直接通いたい方は、レンタルの有無を事前に確認しておくと便利です。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
         <section className="py-16 bg-white"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">目的別おすすめスタジオ</h2><div className="grid grid-cols-1 md:grid-cols-3 gap-8"><div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3><p className="text-warm-600 text-sm mb-4">月額3,278円から通えるスタジオ。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• chocoZAP（月額 3,278円・使い放題）</li><li className="text-warm-700">• zen place（マット月4回 9,625円〜）</li><li className="text-warm-700">• ピラティスK（月4回 13,420円〜）</li></ul></div><div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル・少人数制</h3><p className="text-warm-600 text-sm mb-4">マンツーマンや少人数で丁寧な指導。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• STUDIO IVY（パーソナル専門）</li><li className="text-warm-700">• CORAL 白金（パーソナル対応）</li><li className="text-warm-700">• Habit Pilates（最大5名）</li></ul></div><div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">駅近・通いやすさ</h3><p className="text-warm-600 text-sm mb-4">白金高輪駅から徒歩すぐのスタジオ。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• Premium Yoga&Pilates（駅徒歩1分）</li><li className="text-warm-700">• Premium Machine Pilates（駅徒歩2分）</li><li className="text-warm-700">• zen place 高輪（泉岳寺駅徒歩4分）</li></ul></div></div></div></section>
         <section className="py-16 bg-warm-50"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">おすすめの期間・頻度</h2><div className="bg-white rounded-lg p-8 border border-warm-200"><h3 className="text-xl font-bold text-warm-900 mb-4">初心者の方</h3><p className="text-warm-600 leading-relaxed mb-6">週1〜2回からスタート。最低2〜3ヶ月継続で効果を実感。</p><h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイク目的の方</h3><p className="text-warm-600 leading-relaxed mb-6">週2〜3回がおすすめ。3〜6ヶ月で目に見える変化が期待。</p><h3 className="text-xl font-bold text-warm-900 mb-4">健康管理目的の方</h3><p className="text-warm-600 leading-relaxed">週1回のペースで無理なく継続。</p></div></div></section>
         <section className="py-16 bg-white"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">失敗しないスタジオの選び方</h2><div className="space-y-8"><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span><h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3></div><p className="text-warm-600 leading-relaxed">ダイエット、姿勢改善、体幹強化など、目的に応じてスタジオを選びましょう。</p></div><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">予算を決める</h3></div><p className="text-warm-600 leading-relaxed">白金高輪エリアの料金相場はグループ月4回で9,600円〜15,400円、パーソナルは1回6,250円〜が相場。chocoZAPなら月額3,278円で利用可能。</p></div><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">多くのスタジオで体験レッスンを実施しています。zen placeは500円〜と気軽に試せるのでまずは体験してみてください。</p></div><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div><p className="text-warm-600 leading-relaxed">白金高輪は東京メトロ南北線と都営三田線が利用可能。白金台・麻布十番・三田も徒歩圏内で、閑静な高級住宅街に位置する港区の落ち着いたエリアです。レッスン後にカフェでくつろぐ時間も楽しめます。</p></div></div></div></section>

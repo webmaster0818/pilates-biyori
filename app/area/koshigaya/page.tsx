@@ -280,7 +280,7 @@ export default function KoshigayaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月08日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス越谷おすすめ8選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
@@ -373,6 +373,115 @@ export default function KoshigayaPage() {
             </div>
           </div>
         </section>
+
+
+        {/* Price Market Section */}
+        <section className="py-16 bg-white" id="price-market">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              越谷のピラティス料金相場【2026年4月最新】
+            </h2>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm border-collapse">
+                <thead>
+                  <tr className="bg-warm-800 text-white">
+                    <th className="px-4 py-3 text-left">種別</th>
+                    <th className="px-4 py-3 text-left">料金相場</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-warm-200">
+                    <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
+                    <td className="px-4 py-3">2,750円〜9,878円</td>
+                  </tr>
+                  <tr className="border-b border-warm-200 bg-warm-50">
+                    <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
+                    <td className="px-4 py-3">1回 9,878円〜</td>
+                  </tr>
+                  <tr className="border-b border-warm-200">
+                    <td className="px-4 py-3 font-medium">体験レッスン</td>
+                    <td className="px-4 py-3">500円〜3,850円程度（無料体験ありのスタジオも）</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="text-warm-600 mt-4 text-sm leading-relaxed">
+              越谷エリアの料金はスタジオのタイプや立地によって異なります。まずは体験レッスンを活用して、料金と内容のバランスが自分に合うスタジオを見つけましょう。
+            </p>
+          </div>
+        </section>
+
+        {/* Cautions Section */}
+        <section className="py-16 bg-warm-50" id="cautions">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              越谷でスタジオを選ぶ際の注意点
+            </h2>
+            <div className="space-y-6">
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">駅前にスタジオが集中している傾向</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  越谷エリアではスタジオの多くが駅徒歩5分圏内に集中しています。駅から離れたスタジオの場合は駐車場・駐輪場の有無を事前に確認しておくと安心です。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">車・自転車通いの場合は駐車場を確認</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  越谷は車や自転車で通う方も多いエリアです。スタジオ自体に駐車場がない場合でも、近隣のコインパーキングや提携駐車場がある場合があるので、事前に問い合わせておきましょう。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">営業時間が都心部より短い場合がある</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  郊外のスタジオは都心部と比べて営業時間が短い傾向があります。特に平日夜の最終レッスン時間は要チェック。仕事帰りに通いたい方は、21時以降もレッスンがあるか確認しましょう。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">ショッピングモール近接のスタジオは便利</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  越谷エリアでは商業施設の近くにスタジオがある場合、買い物のついでに通えて続けやすいメリットがあります。通い放題プランと組み合わせると生活動線に組み込みやすくおすすめです。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Trial Lesson Guide */}
+        <section className="py-16 bg-white" id="trial-guide">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              体験レッスン当日の持ち物・服装ガイド
+            </h2>
+            <div className="bg-warm-50 rounded-lg p-8 border border-warm-200">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
+                  <ul className="space-y-3 text-warm-600">
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
+                  <ul className="space-y-3 text-warm-600">
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div className="mt-6 p-4 bg-white rounded border border-warm-200">
+                <p className="text-sm text-warm-600">
+                  <strong>越谷エリアの豆知識：</strong>スタジオによってはウェアやタオルのレンタルサービスを提供しているところもあります。仕事帰りや外出先から直接通いたい方は、レンタルの有無を事前に確認しておくと便利です。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
 
         {/* Search by Preference */}
         <section className="py-16 bg-white" id="kodawari">
