@@ -12,7 +12,7 @@ import { FAQSchema } from '@/components/FAQSchema'
 
 export const metadata = {
   title: '【2026最新】ピラティス福岡おすすめ8選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
-  description: '福岡エリアのおすすめピラティススタジオ8選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  description: '【2026年4月最新】福岡のおすすめピラティススタジオ8選を徹底比較。グループ月4回9,625円〜の料金相場、天神・博多エリアのスタジオ情報、体験レッスンの持ち物・服装まで完全網羅。',
   keywords: 'ピラティス,福岡,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -490,7 +490,7 @@ export default function FukuokaAreaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月09日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス福岡おすすめ8選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
@@ -734,6 +734,107 @@ export default function FukuokaAreaPage() {
                 </div>
                 <p className="text-warm-600 leading-relaxed">
                   どんなに良いスタジオでも、通いにくい場所にあると続きません。福岡は天神・博多駅を中心に地下鉄空港線や西鉄でアクセスしやすいエリアです。天神、薬院、今泉、大名、赤坂など、自宅や職場からの通いやすさを重視して選びましょう。レッスン後にキャナルシティ博多でショッピングを楽しむのもいいですね。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Price Market Section */}
+        <section className="py-16 bg-white" id="price-market">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              福岡のピラティス料金相場【2026年4月最新】
+            </h2>
+            <div className="bg-warm-50 rounded-lg p-8 border border-warm-200 mb-8">
+              <p className="text-warm-600 leading-relaxed mb-6">
+                福岡のピラティスシーンは天神・博多エリアを中心に急速に拡大中。全国チェーンの進出に加え、地元密着のスタジオも多く、個性的な選択肢が揃っています。東京に比べると全体的にやや割安な傾向で、コスパの良いスタジオが見つかりやすいエリアです。
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                <div className="bg-white rounded-lg p-5 border border-warm-200">
+                  <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">9,625円〜</p>
+                  <p className="text-sm text-warm-600">zen place pilates福岡天神のマットグループ月4回9,625円〜が最安クラス。La pilatesはサブスク月1回12,000円〜。CLUB PILATESは福岡県内最多6店舗展開で無料体験あり。地元スタジオは要問合せが多いですが、体験で確認できます。</p>
+                </div>
+                <div className="bg-white rounded-lg p-5 border border-warm-200">
+                  <h3 className="font-bold text-warm-900 mb-3">パーソナル・セミプライベート</h3>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">要問合せが多い</p>
+                  <p className="text-sm text-warm-600">福岡の地元スタジオ（ピラティスラボ・ピラティスエアー・PILATES JAPAN・kuon・スタジオKANON）はパーソナル料金を公開していないケースが多いです。STUDIO IVY福岡大橋店もパーソナル専門で体験レッスンから始められます。</p>
+                </div>
+              </div>
+              <div className="bg-white rounded-lg p-5 border border-warm-200">
+                <h3 className="font-bold text-warm-900 mb-3">入会金・体験レッスン費用</h3>
+                <p className="text-sm text-warm-600">入会金は10,000円〜22,000円程度。キャンペーン期間中は無料になるスタジオも多いです。体験レッスンはCLUB PILATESが無料、その他は1,000円〜5,000円程度。luluto福岡天神店は体験5,000円が1,000円になるキャンペーンも。まずは気軽に体験してみましょう。</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Cautions Section */}
+        <section className="py-16 bg-warm-50" id="cautions">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              福岡でスタジオを選ぶ際の注意点
+            </h2>
+            <div className="space-y-6">
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">天神と博多でスタジオの特色が異なる</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  福岡のピラティスは天神エリア（大名・今泉・薬院）と博多エリアに大きく分かれます。天神エリアはトレンド感のあるスタジオが多く、博多エリアはビジネスパーソン向けの効率重視スタジオが充実。西鉄天神大牟田線・地下鉄空港線沿線での使い分けも考えましょう。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">地元スタジオは雰囲気重視で選ぼう</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  福岡には個性的な地元スタジオが多いのが特徴。ピラティスラボ（薬院）、ピラティスエアー（今泉）、PILATES JAPAN（大名）、kuon（六本松・桜坂）、スタジオKANON（大濠）など、それぞれコンセプトが異なります。料金だけでなく、インストラクターの指導スタイルやスタジオの雰囲気を体験レッスンで確認しましょう。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">CLUB PILATESの多店舗展開を活用</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  CLUB PILATESは福岡県内で6店舗と最多。会員になれば複数店舗を相互利用できるため、自宅近くと職場近くで使い分けることが可能です。無料体験レッスンもあるので、まずは最寄りの店舗で試してみるのがおすすめ。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">季節に応じた通い方の工夫</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  福岡は夏の湿度が高く、冬は比較的温暖ですが雨が多い時期もあります。天神地下街を活用すれば雨の日でも快適にアクセスできるスタジオもあります。長く継続するためには、天候に左右されにくいアクセスの良さも重要なポイントです。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Trial Lesson Guide */}
+        <section className="py-16 bg-white" id="trial-guide">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              体験レッスン当日の持ち物・服装ガイド
+            </h2>
+            <div className="bg-warm-50 rounded-lg p-8 border border-warm-200">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
+                  <ul className="space-y-3 text-warm-600">
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。フード付きやジッパー付きはマシンに引っかかるので避けましょう。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>水分（500ml以上）</strong>：福岡は特に夏場の湿度が高いため、水分補給は十分に。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>タオル</strong>：汗拭き用にフェイスタオルを1枚持参しましょう。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>グリップソックス</strong>：マシンピラティスでは滑り止め付き靴下が必須のスタジオが大半です。</span></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
+                  <ul className="space-y-3 text-warm-600">
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>がマスト。ピラティスは全身を使うため、動きやすさが第一です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方がフォーム指導を受けやすく効果的です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル対応</strong>のスタジオもあり。事前に確認しておくと仕事帰りでも安心です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ネイルは短めに</strong>しておくと安心。マシンのストラップを掴む際に長い爪は折れる恐れがあります。</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div className="mt-6 p-4 bg-white rounded border border-warm-200">
+                <p className="text-sm text-warm-600">
+                  <strong>福岡エリアの豆知識：</strong>天神エリアのスタジオは大名・今泉エリアのおしゃれなカフェ街に近く、レッスン後のランチやスイーツも楽しめます。大濠公園に近いスタジオKANONなら、レッスン前後に公園をウォーキングして有酸素運動とピラティスを組み合わせる方も。福岡ならではのコンパクトシティの利便性を活かしましょう。
                 </p>
               </div>
             </div>

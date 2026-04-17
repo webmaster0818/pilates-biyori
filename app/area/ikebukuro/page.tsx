@@ -12,7 +12,7 @@ import { FAQSchema } from '@/components/FAQSchema'
 
 export const metadata = {
   title: '【2026最新】ピラティス池袋おすすめ5選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
-  description: '池袋エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  description: '【2026年4月最新】池袋のおすすめピラティススタジオ5選を徹底比較。グループ月4回10,450円〜、マシン専門・女性専用のスタジオ情報、料金相場・体験レッスンの流れまで完全網羅。',
   keywords: 'ピラティス,池袋,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -337,7 +337,7 @@ export default function IkebukuroPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月08日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス池袋おすすめ5選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
@@ -583,6 +583,107 @@ export default function IkebukuroPage() {
                 </div>
                 <p className="text-warm-600 leading-relaxed">
                   池袋はJR・東京メトロ・西武線・東武線と多路線が集まるターミナル駅。ピラティスK・the SILKは東口徒歩1分、zen placeは徒歩2分と駅近スタジオが充実。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Price Market Section */}
+        <section className="py-16 bg-white" id="price-market">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              池袋のピラティス料金相場【2026年4月最新】
+            </h2>
+            <div className="bg-warm-50 rounded-lg p-8 border border-warm-200 mb-8">
+              <p className="text-warm-600 leading-relaxed mb-6">
+                池袋エリアは渋谷や新宿に比べるとスタジオ数は少なめですが、大手チェーンが揃っており、都心の中では比較的落ち着いた雰囲気で通えるのが魅力です。東口・西口ともにアクセスが良好で、西武池袋線・東武東上線ユーザーにも便利な立地です。
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                <div className="bg-white rounded-lg p-5 border border-warm-200">
+                  <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">10,450円〜15,070円</p>
+                  <p className="text-sm text-warm-600">zen place pilatesのマットグループ月4回10,450円〜が最安。ピラティスK 月4回13,420円〜、the SILK月4回15,070円〜、CLUB PILATES目白店が月4回14,190円〜。BDC PILATESは14,520円〜でダンスメソッド融合の少人数制レッスンが受けられます。</p>
+                </div>
+                <div className="bg-white rounded-lg p-5 border border-warm-200">
+                  <h3 className="font-bold text-warm-900 mb-3">通い放題プラン</h3>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">16,940円〜</p>
+                  <p className="text-sm text-warm-600">zen place pilatesはフリープラン（通い放題）が月額16,940円〜。週2回以上通うなら月4回プランよりもお得になります。通い放題プランは池袋以外のzen place全店舗でも利用可能です。</p>
+                </div>
+              </div>
+              <div className="bg-white rounded-lg p-5 border border-warm-200">
+                <h3 className="font-bold text-warm-900 mb-3">入会金・体験レッスン費用</h3>
+                <p className="text-sm text-warm-600">入会金は10,000円〜33,000円程度ですが、各スタジオでキャンペーン期間中は無料になることが多いです。体験レッスンはthe SILKが無料、zen placeは1,000円〜。まずは2〜3スタジオで体験して、自分に合う雰囲気のスタジオを見つけましょう。</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Cautions Section */}
+        <section className="py-16 bg-warm-50" id="cautions">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              池袋でスタジオを選ぶ際の注意点
+            </h2>
+            <div className="space-y-6">
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">東口と西口でスタジオの分布が異なる</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  池袋駅は東口（サンシャインシティ方面）と西口（東京芸術劇場方面）で雰囲気が異なります。zen place pilatesやBDC PILATESは東口徒歩圏内、他のスタジオも駅近にあります。自分の利用路線（JR・東京メトロ・西武・東武）に合わせて、最寄り出口から近いスタジオを選びましょう。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">スタジオ数が限られるため早めの予約を</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  池袋は渋谷・新宿に比べてスタジオ数が少なめなため、人気の時間帯はすぐに埋まります。特に土日午前中や平日夜のレッスンは予約が取りにくいことも。早めの予約を心がけるか、比較的空いている平日昼間の時間帯を狙いましょう。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">目白・大塚エリアも選択肢に入れよう</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  池袋駅だけでなく、隣駅の目白（CLUB PILATES 目白店）も徒歩圏内です。JR山手線で1駅なので、池袋駅周辺で希望のスタジオが見つからない場合は近隣エリアにも目を向けてみてください。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">月額料金以外のコストに注意</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  レッスン料金以外に、入会金・事務手数料・施設維持費がかかるスタジオがあります。ピラティスKは施設維持費が別途月825円、CLUB PILATES目白店は入会金が必要です。トータルコストで比較し、キャンペーン期間中の入会を狙うと初期費用を抑えられます。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Trial Lesson Guide */}
+        <section className="py-16 bg-white" id="trial-guide">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              体験レッスン当日の持ち物・服装ガイド
+            </h2>
+            <div className="bg-warm-50 rounded-lg p-8 border border-warm-200">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
+                  <ul className="space-y-3 text-warm-600">
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>水分（500ml以上）</strong>：レッスン中の水分補給に必須。スタジオ内に自販機がない場合もあります。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>グリップソックス</strong>：マシンピラティスでは靴下着用必須のスタジオが大半。滑り止め付きがベスト。スタジオで購入できる場合も。</span></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
+                  <ul className="space-y-3 text-warm-600">
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは全身を大きく動かすため、動きやすさが最優先です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが分かる服</strong>の方が、インストラクターがフォームをチェックしやすく効果的です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。the SILK池袋東口店は手ぶら体験が可能な場合があります。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリーは外して</strong>参加。ピアス・ネックレス・腕時計はマシンに引っかかる恐れがあります。</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div className="mt-6 p-4 bg-white rounded border border-warm-200">
+                <p className="text-sm text-warm-600">
+                  <strong>池袋エリアの豆知識：</strong>池袋はサンシャインシティやルミネ池袋が近く、レッスン前後のショッピングにも便利。BDC PILATES池袋スタジオは東口徒歩1分と好立地なので、仕事帰りにサッと立ち寄れます。西武池袋線・東武東上線沿線から通う方も多く、都心の中では比較的リラックスした環境でレッスンに集中できるエリアです。
                 </p>
               </div>
             </div>

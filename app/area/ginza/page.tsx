@@ -12,7 +12,7 @@ import { FAQSchema } from '@/components/FAQSchema'
 
 export const metadata = {
   title: '【2026最新】ピラティス銀座おすすめ10選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
-  description: '銀座エリアのおすすめピラティススタジオ10選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  description: '【2026年4月最新】銀座のおすすめピラティススタジオ10選を徹底比較。グループ月4回9,625円〜、パーソナル1回6,600円〜の料金相場、女性専用・マシン充実のスタジオ情報、選び方まで完全網羅。',
   keywords: 'ピラティス,銀座,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -308,7 +308,7 @@ export default function GinzaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月08日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス銀座おすすめ10選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
@@ -556,6 +556,107 @@ export default function GinzaPage() {
                 </div>
                 <p className="text-warm-600 leading-relaxed">
                   どんなに良いスタジオでも、通いにくい場所にあると続きません。銀座は銀座線・丸ノ内線・日比谷線・有楽町線・都営浅草線と多くの路線が利用でき、JR有楽町駅からも徒歩圏内。仕事帰りやショッピングのついでに立ち寄れる立地が魅力です。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Price Market Section */}
+        <section className="py-16 bg-white" id="price-market">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              銀座のピラティス料金相場【2026年4月最新】
+            </h2>
+            <div className="bg-warm-50 rounded-lg p-8 border border-warm-200 mb-8">
+              <p className="text-warm-600 leading-relaxed mb-6">
+                銀座・有楽町エリアは高級感のあるスタジオが多く、プライベートレッスンの選択肢が豊富なのが特徴です。東京メトロ銀座線・日比谷線・丸ノ内線、都営浅草線が利用でき、新橋・有楽町からも徒歩圏内。ラグジュアリーな空間で本格ピラティスを受けたい方に人気のエリアです。
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                <div className="bg-white rounded-lg p-5 border border-warm-200">
+                  <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">9,625円〜15,400円</p>
+                  <p className="text-sm text-warm-600">zen place pilates銀座のマット月4回9,625円〜が最安クラス。ピラティスKは月4回13,420円、the SILKは月4回15,070円〜。BDC PILATESは少人数制で月額15,400円〜と質重視の価格設定です。</p>
+                </div>
+                <div className="bg-white rounded-lg p-5 border border-warm-200">
+                  <h3 className="font-bold text-warm-900 mb-3">パーソナルレッスン</h3>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">6,600円〜9,600円/回</p>
+                  <p className="text-sm text-warm-600">ピラティス&ジム 1to1は1回6,600円〜と銀座エリアではリーズナブル。BIRTH Pilates Studioは完全個室で1回9,600円。zen placeのプライベートレッスンも人気です。</p>
+                </div>
+              </div>
+              <div className="bg-white rounded-lg p-5 border border-warm-200">
+                <h3 className="font-bold text-warm-900 mb-3">入会金・体験レッスン費用</h3>
+                <p className="text-sm text-warm-600">入会金は10,000円〜33,000円が相場。キャンペーン期間中は無料になるスタジオも。体験レッスンは500円〜3,850円程度。銀座は複数スタジオが徒歩圏に密集しているため、1日で2〜3スタジオ体験のはしごも可能です。</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Cautions Section */}
+        <section className="py-16 bg-warm-50" id="cautions">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              銀座でスタジオを選ぶ際の注意点
+            </h2>
+            <div className="space-y-6">
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">銀座1丁目〜8丁目で立地が分散</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  銀座エリアはスタジオが1丁目から8丁目まで広範囲に点在しています。銀座駅・銀座一丁目駅・東銀座駅・有楽町駅のどの駅を使うかでアクセスのしやすさが変わります。zen placeは銀座二丁目と四丁目に2スタジオ、the SILKも銀座・銀座一丁目と複数展開。通勤経路に合わせて選びましょう。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">ランチタイムレッスンの活用</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  銀座・有楽町はオフィス街でもあるため、ランチタイム（12時〜13時台）のレッスンを設けているスタジオもあります。昼休みに効率よくトレーニングしたいビジネスパーソンは、30分〜40分の短時間レッスンがあるスタジオを選ぶのもおすすめです。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">プライベートとグループのバランスを考えて</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  銀座エリアはプライベート（パーソナル）レッスンが充実しているのが特徴です。BIRTH Pilates StudioやBloom Pilates、ピラティス&ジム 1to1などパーソナル専門スタジオが豊富。最初はグループで基礎を身につけ、目的が明確になったらパーソナルに切り替えると効率的です。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">駐車場・駐輪場の確認</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  銀座は公共交通機関でのアクセスが基本ですが、車で通いたい方は近隣のコインパーキング情報も事前にチェックを。スタジオ提携の駐車場割引があるところは少ないため、電車利用がおすすめです。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Trial Lesson Guide */}
+        <section className="py-16 bg-white" id="trial-guide">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              体験レッスン当日の持ち物・服装ガイド
+            </h2>
+            <div className="bg-warm-50 rounded-lg p-8 border border-warm-200">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
+                  <ul className="space-y-3 text-warm-600">
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが基本。銀座のスタジオは上品な雰囲気のところも多いですが、カジュアルなウェアで問題ありません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>水分（500ml程度）</strong>：スタジオ近くにコンビニは多数ありますが、持参が確実です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>タオル</strong>：汗拭き用に1枚。マシン用は貸出されることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>グリップソックス</strong>：マシンピラティスでは必須。スタジオで販売していることも多いです。</span></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
+                  <ul className="space-y-3 text-warm-600">
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ストレッチの効く素材</strong>が必須。ピラティスでは脚を大きく動かすため、伸びの良い素材を選びましょう。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フィット感のあるウェア</strong>がベスト。インストラクターがフォームを確認しやすくなります。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>レンタル対応</strong>スタジオもあり。the SILKやピラティスKはウェアレンタルが用意されている場合もあります。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリーは外して</strong>参加。マシンに引っかかる恐れがあるため、貴金属類はロッカーに預けましょう。</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div className="mt-6 p-4 bg-white rounded border border-warm-200">
+                <p className="text-sm text-warm-600">
+                  <strong>銀座エリアの豆知識：</strong>銀座のスタジオはビルの高層階に入っていることが多く、窓からの眺望が良いスタジオも。レッスン後は銀座通りや並木通りを散歩してリフレッシュする方も多いです。有楽町マルイやGINZA SIXでのショッピングと組み合わせて、充実した休日を過ごせます。
                 </p>
               </div>
             </div>

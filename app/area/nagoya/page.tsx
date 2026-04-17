@@ -12,7 +12,7 @@ import { FAQSchema } from '@/components/FAQSchema'
 
 export const metadata = {
   title: '【2026最新】ピラティス名古屋おすすめ8選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
-  description: '名古屋エリアのおすすめピラティススタジオ8選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  description: '【2026年4月最新】名古屋のおすすめピラティススタジオ8選を徹底比較。グループ月4回13,420円〜の料金相場、マシン専門・女性専用・理学療法士監修のスタジオ情報、体験レッスンの持ち物まで完全網羅。',
   keywords: 'ピラティス,名古屋,愛知,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -375,7 +375,7 @@ export default function NagoyaAreaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月09日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス名古屋おすすめ8選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
@@ -645,6 +645,107 @@ export default function NagoyaAreaPage() {
                 </div>
                 <p className="text-warm-600 leading-relaxed">
                   どんなに良いスタジオでも、通いにくい場所にあると続きません。名古屋は地下鉄東山線・名城線、名鉄、JR中央線など交通網が充実しています。名古屋駅・栄・金山・伏見エリアに多くのスタジオが集まっているので、自宅や職場からの通いやすさを重視して選びましょう。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Price Market Section */}
+        <section className="py-16 bg-white" id="price-market">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              名古屋のピラティス料金相場【2026年4月最新】
+            </h2>
+            <div className="bg-warm-50 rounded-lg p-8 border border-warm-200 mb-8">
+              <p className="text-warm-600 leading-relaxed mb-6">
+                名古屋エリアは名駅（名古屋駅）・栄・久屋大通を中心にピラティススタジオが増加中。東京・大阪の大手チェーンの進出と、地元密着型の個人スタジオが共存するエリアです。料金帯は東京とほぼ同等ですが、地域密着型スタジオでは独自のキャンペーンを展開していることも。
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                <div className="bg-white rounded-lg p-5 border border-warm-200">
+                  <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">13,420円〜18,000円</p>
+                  <p className="text-sm text-warm-600">ピラティスK久屋大通パーク店が月4回13,420円＋施設維持費825円。ナグスタジオ・Two Threeなど地元スタジオも人気。パーソナル1回は8,000円〜15,000円が目安で、lulutoは理学療法士監修のプログラムを提供しています。</p>
+                </div>
+                <div className="bg-white rounded-lg p-5 border border-warm-200">
+                  <h3 className="font-bold text-warm-900 mb-3">地元密着型スタジオ</h3>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">要問合せが多い</p>
+                  <p className="text-sm text-warm-600">名古屋の特徴として、REBORN・アステル・ナグスタジオ・Pilates Studio Treeなど地元スタジオは料金を公開していないケースが多いです。体験レッスンで直接確認するか、電話・メールで問い合わせるのが確実です。</p>
+                </div>
+              </div>
+              <div className="bg-white rounded-lg p-5 border border-warm-200">
+                <h3 className="font-bold text-warm-900 mb-3">入会金・体験レッスン費用</h3>
+                <p className="text-sm text-warm-600">入会金は10,000円〜30,000円程度が一般的。キャンペーン期間中は無料になるスタジオも多数。体験レッスンは無料〜5,000円程度。ピラティスKは無料体験あり、lulutoは体験1,000円キャンペーンを実施中のことも。まずは気軽に体験してみましょう。</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Cautions Section */}
+        <section className="py-16 bg-warm-50" id="cautions">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              名古屋でスタジオを選ぶ際の注意点
+            </h2>
+            <div className="space-y-6">
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">名駅エリアと栄エリアでスタジオの特色が異なる</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  名古屋のピラティスは名駅（名古屋駅周辺）と栄・久屋大通エリアの2大拠点に分かれています。名駅はビジネスパーソン向けのスタジオが多く、栄エリアはショッピングと一体化した女性向けスタジオが充実。ピラティスK久屋大通パーク店は久屋大通駅直結で女性専用のマシン専門スタジオです。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">車通いの方は駐車場を事前確認</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  名古屋は車社会のため、車で通うことを前提にスタジオを探す方も多いエリアです。栄・名駅エリアはコインパーキングが割高なので、スタジオ提携の駐車場があるか、近隣の安い駐車場を事前にチェックしておきましょう。地下鉄利用なら東山線・鶴舞線・名城線が便利です。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">理学療法士・医療系監修スタジオに注目</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  名古屋エリアではluluto（理学療法士監修）やREBORN、studio nanoなど、医療系のバックグラウンドを持つスタジオが増えています。腰痛・肩こり・姿勢改善などの目的がある方は、理学療法士やトレーナー資格を持つインストラクターがいるスタジオを選ぶと、より効果的な指導を受けられます。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">料金非公開スタジオは体験で確認を</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  名古屋の地元スタジオは料金をWebサイトに公開していないケースが多いです。「要問合せ」のスタジオは、まず体験レッスンを申し込んで料金プランの詳細を確認するのがおすすめ。体験時にキャンペーン情報も聞いておきましょう。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Trial Lesson Guide */}
+        <section className="py-16 bg-white" id="trial-guide">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              体験レッスン当日の持ち物・服装ガイド
+            </h2>
+            <div className="bg-warm-50 rounded-lg p-8 border border-warm-200">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
+                  <ul className="space-y-3 text-warm-600">
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが基本。フードやファスナー付きの服はマシンに引っかかるので避けて。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>水分（500ml以上）</strong>：名古屋は夏の暑さが厳しいため、特に夏場は多めに持参しましょう。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>タオル</strong>：汗拭き用に1枚は必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>グリップソックス</strong>：マシンピラティスでは必須のスタジオがほとんど。滑り止め付きを持参しましょう。</span></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
+                  <ul className="space-y-3 text-warm-600">
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは全身を大きく動かすため、動きやすさが最重要です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方がフォームチェックがしやすく、効果的な指導を受けられます。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。ピラティスKは手ぶら体験が可能な場合があります。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリーは外して</strong>から参加。マシンのスプリングやストラップに引っかかる恐れがあります。</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div className="mt-6 p-4 bg-white rounded border border-warm-200">
+                <p className="text-sm text-warm-600">
+                  <strong>名古屋エリアの豆知識：</strong>名古屋は車文化が根強いですが、栄・名駅エリアなら地下鉄で快適にアクセス可能。久屋大通パークは2020年にリニューアルオープンした緑豊かな公園で、レッスン前後の散歩やランニングにも最適です。ナグスタジオは名古屋市内4店舗あるため、生活圏に合わせて使い分けられます。
                 </p>
               </div>
             </div>

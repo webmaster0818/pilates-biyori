@@ -12,7 +12,7 @@ import { FAQSchema } from '@/components/FAQSchema'
 
 export const metadata = {
   title: '【2026最新】ピラティス梅田おすすめ15選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
-  description: '梅田エリアのおすすめピラティススタジオ15選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  description: '【2026年4月最新】梅田のおすすめピラティススタジオ15選を徹底比較。グループ月4回13,200円〜の料金相場、マシン専門・女性専用のスタジオ情報、体験レッスンの持ち物まで完全網羅。',
   keywords: 'ピラティス,梅田,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -261,7 +261,7 @@ export default function UmedaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月04日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス梅田おすすめ15選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
@@ -509,6 +509,107 @@ export default function UmedaPage() {
                 </div>
                 <p className="text-warm-600 leading-relaxed">
                   どんなに良いスタジオでも、通いにくい場所にあると続きません。梅田は大阪最大のターミナル駅で、JR・阪急・阪神・地下鉄が利用可能。キタの中心、オフィス・商業の一大拠点です。駅から近い場所を選ぶと、グランフロント・阪急百貨店でのショッピングついでにも通えて便利ですよ。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Price Market Section */}
+        <section className="py-16 bg-white" id="price-market">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              梅田のピラティス料金相場【2026年4月最新】
+            </h2>
+            <div className="bg-warm-50 rounded-lg p-8 border border-warm-200 mb-8">
+              <p className="text-warm-600 leading-relaxed mb-6">
+                梅田・大阪梅田エリアは関西最大級のターミナル。JR大阪駅・阪急大阪梅田駅・地下鉄御堂筋線梅田駅などが集中し、大手チェーンから個人スタジオまで多彩な選択肢があります。東京に比べると若干高めの料金設定のスタジオもありますが、キャンペーンを活用すればお得に始められます。
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                <div className="bg-white rounded-lg p-5 border border-warm-200">
+                  <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">13,200円〜15,070円</p>
+                  <p className="text-sm text-warm-600">zen place pilates梅田の月4回13,200円〜が最安クラス。CLUB PILATESは月4回14,190円〜、WECLE梅田は月4回14,800円〜（AI分析無料）。ピラティスK・the SILKは月4回15,070円〜。BDC PILATESは1回3,850円〜の都度払いも可能です。</p>
+                </div>
+                <div className="bg-white rounded-lg p-5 border border-warm-200">
+                  <h3 className="font-bold text-warm-900 mb-3">パーソナル・プライベートレッスン</h3>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">8,000円〜12,000円/回</p>
+                  <p className="text-sm text-warm-600">梅田エリアのプライベートレッスン相場は1回8,000円〜12,000円程度。Studio Venusは完全パーソナルで個室対応。zen placeはプライベートとグループの併用も可能で柔軟な利用ができます。</p>
+                </div>
+              </div>
+              <div className="bg-white rounded-lg p-5 border border-warm-200">
+                <h3 className="font-bold text-warm-900 mb-3">入会金・体験レッスン費用</h3>
+                <p className="text-sm text-warm-600">入会金は5,000円〜33,000円程度。キャンペーン期間中の入会が断然お得です。体験レッスンは無料〜3,000円程度。ピラティスKは無料体験あり。複数スタジオを体験してから入会を決めるのがおすすめです。</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Cautions Section */}
+        <section className="py-16 bg-warm-50" id="cautions">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              梅田でスタジオを選ぶ際の注意点
+            </h2>
+            <div className="space-y-6">
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">梅田の地下街は複雑 ─ 地上ルートも確認を</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  梅田エリアは地下街（ホワイティうめだ・ディアモール大阪など）が広大で、初めての方は迷いやすいです。スタジオへのアクセスは地上ルートも事前に確認しておくと安心。阪急梅田駅からNU茶屋町方面、JR大阪駅から北新地方面などエリアによってアクセスの便が変わります。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">仕事帰りの予約はお早めに</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  梅田はオフィスワーカーが非常に多いエリアのため、平日19時〜21時のレッスンは特に混雑します。人気スタジオは前日には満席になることも。予約は早め早めに取るか、比較的空いている平日昼間を狙いましょう。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">なんば・心斎橋エリアとの比較も</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  大阪でピラティスを探すなら、梅田だけでなく、なんば・心斎橋エリアのスタジオも選択肢に。御堂筋線1本で移動可能なので、休日と平日で別エリアのスタジオを使い分けるのもアリです。zen placeは大阪エリア複数スタジオの相互利用が可能です。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">AI姿勢分析などの先進サービスをチェック</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  梅田エリアではWECLEのAI姿勢分析や、zen placeのAI分析など、テクノロジーを活用したサービスを提供するスタジオが増えています。自分の体の状態を客観的にデータで把握できるため、初心者の方や効率的に効果を出したい方は先進サービスのあるスタジオを選ぶのもおすすめです。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Trial Lesson Guide */}
+        <section className="py-16 bg-white" id="trial-guide">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              体験レッスン当日の持ち物・服装ガイド
+            </h2>
+            <div className="bg-warm-50 rounded-lg p-8 border border-warm-200">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
+                  <ul className="space-y-3 text-warm-600">
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスでOK。ゆったりしすぎる服はマシンに挟まるため避けましょう。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（500ml以上）</strong>：水分補給は必須。スタジオ近くのコンビニで調達してもOKです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>タオル</strong>：汗拭き用に1枚は持っていきましょう。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>グリップソックス</strong>：マシンピラティスでは靴下着用必須。滑り止め付きがベストです。</span></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
+                  <ul className="space-y-3 text-warm-600">
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>がマスト。ピラティスでは脚を大きく広げたり体をひねるポーズが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体にフィットする服</strong>を選ぶとフォーム確認がしやすくなり、指導の効果が上がります。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル対応</strong>スタジオも。ピラティスKやthe SILKは手ぶら体験可能な場合があります。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>参加しましょう。マシンのバネやストラップに引っかかる危険があります。</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div className="mt-6 p-4 bg-white rounded border border-warm-200">
+                <p className="text-sm text-warm-600">
+                  <strong>梅田エリアの豆知識：</strong>阪急梅田駅周辺のNU茶屋町エリアにはおしゃれなカフェが多く、レッスン後のリフレッシュにもぴったり。グランフロント大阪やルクア大阪でのショッピングと組み合わせて、充実した休日を過ごす方が多いエリアです。仕事帰り派はJR大阪駅直結のスタジオを選ぶと雨の日も快適に通えます。
                 </p>
               </div>
             </div>

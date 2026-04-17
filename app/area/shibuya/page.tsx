@@ -12,7 +12,7 @@ import { FAQSchema } from '@/components/FAQSchema'
 
 export const metadata = {
   title: '【2026最新】ピラティス渋谷おすすめ12選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
-  description: '渋谷エリアのおすすめピラティススタジオ12選を徹底比較。マシンピラティス、パーソナル、女性専用、体験レッスン、料金相場、選び方まで完全ガイド。',
+  description: '【2026年4月最新】渋谷のおすすめピラティススタジオ12選を徹底比較。グループ月4回8,800円〜、パーソナル30分4,400円〜の料金相場、女性専用・マシン専門・体験無料のスタジオ情報、選び方のコツまで完全網羅。',
   keywords: 'ピラティス,渋谷,東京,スタジオ,おすすめ,マシンピラティス,パーソナル,女性専用,体験レッスン,料金,比較',
 }
 
@@ -270,7 +270,7 @@ export default function ShibuyaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月09日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス渋谷おすすめ12選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
@@ -527,8 +527,109 @@ export default function ShibuyaPage() {
           </div>
         </section>
 
+        {/* Price Market Section */}
+        <section className="py-16 bg-white" id="price-market">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              渋谷のピラティス料金相場【2026年4月最新】
+            </h2>
+            <div className="bg-warm-50 rounded-lg p-8 border border-warm-200 mb-8">
+              <p className="text-warm-600 leading-relaxed mb-6">
+                渋谷エリアは東京都内でもピラティス激戦区のひとつで、スタジオ数が多い分、料金競争が進んでおり比較的リーズナブルに通えるのが特徴です。2026年4月時点の料金相場は以下の通りです。
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                <div className="bg-white rounded-lg p-5 border border-warm-200">
+                  <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">8,800円〜12,980円</p>
+                  <p className="text-sm text-warm-600">最安はRintosull（LAVA系列）の月4回8,800円。the SILKは音楽×マシンの付加価値で12,980円。CLUB PILATESは10,890円で無料体験ありとバランスが良い価格帯です。</p>
+                </div>
+                <div className="bg-white rounded-lg p-5 border border-warm-200">
+                  <h3 className="font-bold text-warm-900 mb-3">パーソナルレッスン</h3>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">4,400円〜22,000円</p>
+                  <p className="text-sm text-warm-600">ピラティスミラーは30分4,400円〜と都内最安クラス。STUDIO IVYは月2回15,000円〜、ELEMENTは30分集中型で月4回22,000円。目的に応じて選びましょう。</p>
+                </div>
+              </div>
+              <div className="bg-white rounded-lg p-5 border border-warm-200">
+                <h3 className="font-bold text-warm-900 mb-3">入会金・体験レッスン費用</h3>
+                <p className="text-sm text-warm-600">入会金は5,000円〜33,000円が相場ですが、キャンペーン期間中は無料になるスタジオも多いです。体験レッスンはCLUB PILATESが無料、その他は500円〜3,850円程度。まずは体験レッスンで雰囲気を確認するのがおすすめです。</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Cautions Section */}
+        <section className="py-16 bg-warm-50" id="cautions">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              渋谷でスタジオを選ぶ際の注意点
+            </h2>
+            <div className="space-y-6">
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">渋谷駅の出口選びが重要</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  渋谷駅はJR・東急・東京メトロ・京王と複数路線が交わる巨大ターミナル。出口によってはスタジオまで10分以上かかることもあります。zen place pilatesはMIYASHITA PARK正面、the SILKは渋谷駅徒歩2分と、スタジオごとに最寄り出口が異なるため、自分の利用路線に合わせてアクセスを事前に確認しましょう。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">ピーク時間帯の混雑に注意</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  渋谷は平日夜19時〜21時、土日午前中がレッスン予約の激戦帯です。特に人気スタジオのthe SILKやピラティスKは早めの予約が必須。逆に平日午前中は比較的空いており、フリーランスの方や主婦の方には狙い目の時間帯です。予約の取りやすさもスタジオ選びの大切なポイントです。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">最低契約期間とキャンセルポリシーを確認</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  スタジオによっては入会キャンペーン適用時に3〜6ヶ月の最低契約期間が設定されていることがあります。また、レッスンの直前キャンセルに関するルール（何時間前まで無料キャンセル可能か）もスタジオごとに異なります。入会前に必ず確認しましょう。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">グループとパーソナルの使い分け</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  渋谷エリアはグループ専門（ピラティスK、Rintosull）からパーソナル専門（STUDIO IVY、ELEMENT）まで選択肢が豊富。初心者はまずグループレッスンで基礎を身につけ、慣れてきたらパーソナルで弱点を集中的に改善するのが効率的です。zen placeは両方に対応しているので、併用したい方におすすめです。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Trial Lesson Guide */}
+        <section className="py-16 bg-white" id="trial-guide">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              体験レッスン当日の持ち物・服装ガイド
+            </h2>
+            <div className="bg-warm-50 rounded-lg p-8 border border-warm-200">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
+                  <ul className="space-y-3 text-warm-600">
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
+                  <ul className="space-y-3 text-warm-600">
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。the SILKやピラティスKは手ぶら体験も可能です。仕事帰りに渋谷で体験したい方は事前に確認しましょう。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div className="mt-6 p-4 bg-white rounded border border-warm-200">
+                <p className="text-sm text-warm-600">
+                  <strong>渋谷エリアの豆知識：</strong>渋谷駅周辺は着替えスペースが限られるスタジオもあるため、なるべくレッスンウェアを着た状態で来店するか、上から羽織れるアウターを用意すると効率的です。MIYASHITA PARKや渋谷ヒカリエのロッカーを活用する常連さんもいます。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* FAQ */}
-        <section className="py-16 bg-white" id="faq">
+        <section className="py-16 bg-warm-50" id="faq">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
               よくある質問

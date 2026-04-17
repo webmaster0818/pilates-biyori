@@ -12,7 +12,7 @@ import { FAQSchema } from '@/components/FAQSchema'
 
 export const metadata = {
   title: '【2026最新】ピラティス新宿おすすめ12選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
-  description: '新宿エリアのおすすめピラティススタジオ12選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  description: '【2026年4月最新】新宿のおすすめピラティススタジオ12選を徹底比較。グループ月4回9,625円〜、パーソナル30分4,400円〜の料金相場、マシン専門・女性専用・体験無料のスタジオ情報、選び方の注意点まで完全網羅。',
   keywords: 'ピラティス,新宿,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -708,7 +708,7 @@ export default function ShinjukuPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月09日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス新宿おすすめ12選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
@@ -1001,8 +1001,109 @@ export default function ShinjukuPage() {
           </div>
         </section>
 
+        {/* Price Market Section */}
+        <section className="py-16 bg-white" id="price-market">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              新宿のピラティス料金相場【2026年4月最新】
+            </h2>
+            <div className="bg-warm-50 rounded-lg p-8 border border-warm-200 mb-8">
+              <p className="text-warm-600 leading-relaxed mb-6">
+                新宿は都内有数のオフィス街であり繁華街。仕事帰りの需要が高く、大手チェーンから個人スタジオまで選択肢が非常に多いエリアです。競争が激しい分、キャンペーンや割引プランも充実しています。
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                <div className="bg-white rounded-lg p-5 border border-warm-200">
+                  <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">9,625円〜15,070円</p>
+                  <p className="text-sm text-warm-600">zen place pilatesのマット月4回9,625円〜が最安クラス。ピラティスKは11,220円〜、the SILKは15,070円〜。CLUB PILATESは10,890円〜で無料体験ありとコスパに優れています。</p>
+                </div>
+                <div className="bg-white rounded-lg p-5 border border-warm-200">
+                  <h3 className="font-bold text-warm-900 mb-3">パー���ナルレッスン</h3>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">4,400円〜22,000円</p>
+                  <p className="text-sm text-warm-600">ピラティスミラーは30分4,400円〜で都内最安レベル���STUDIO IVYは完全個室で月2回15,000円〜。ELEMENTは30分マンツーマン月4回22,000円。個室・時間・頻度で選びましょう。</p>
+                </div>
+              </div>
+              <div className="bg-white rounded-lg p-5 border border-warm-200">
+                <h3 className="font-bold text-warm-900 mb-3">入会金・体験レッスン費用</h3>
+                <p className="text-sm text-warm-600">入会金は5,000円〜30,000円台が一般的ですが、キャンペーン期間中は0円になるケースが多いです。体験レッスンはCLUB PILATESが無料、zen placeは1,000円〜、新規オープン店舗は特別価格で体験できることも。複数スタジオで体験して比較するのがベストで���。</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Cautions Section */}
+        <section className="py-16 bg-warm-50" id="cautions">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              新宿でスタジオを選ぶ際の注意点
+            </h2>
+            <div className="space-y-6">
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">新宿駅の東口・西口・南口でエリアが異なる</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  新宿駅は東口（歌舞伎町方面）、西口（都庁方面）、南口（新宿サザンテラス方面）で街の雰囲気もスタジオの立地も大きく異なります。通勤経路や乗降口に近いスタジオを選ぶことが長く通い続けるコツです。新宿三丁目駅の利用も検討すると、選択肢がさらに広がります。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">夜のレッスン予約は早い者勝ち</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  新宿はオフィスワーカーが多いため、平日19時〜21時台のレッスンは非常に人気です。特にグループレッスンは定員があるため、前日や当日だと満席のことも。月額プランで予約枠を確保するか、平日昼間・早朝のレッスンを狙うのも一つの手です。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">施設の清潔感とシャワー有無を確認</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  仕事帰りにレッスンを受ける方は、シャワールームやパウダールームの有無が重要なチェックポイントです。新宿エリアのスタジオはビルのワンフロアに入っていることが多く、シャワーがないスタジオもあります。体験レッスン時に必ず確認しましょう。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">複数店舗利用できるかもチェック</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  zen placeは全国140以上のスタジオを相互利用可能。休日は自宅近くのスタジオ、平日は新宿のスタジオと使い分けることで通いやすさが格段に上がります。CLUB PILATESも全国の店舗で利用可能です。ライフスタイルに合わせて柔軟に通え��スタジオを選びましょう。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Trial Lesson Guide */}
+        <section className="py-16 bg-white" id="trial-guide">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              体験レッスン���日の持ち物・服��ガイド
+            </h2>
+            <div className="bg-warm-50 rounded-lg p-8 border border-warm-200">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
+                  <ul className="space-y-3 text-warm-600">
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが基本。ゆったりしすぎる服はマシンに挟まる恐れがあるので避けましょ���。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml以上）</strong>：レッスン中は想像以上に汗をかきます。水は必ず持参しましょう。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用に1枚は必須。マシン用タ��ルはスタジオ側で用意され���ことが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>グリップソックス</strong>：マシンピラティスでは靴下着用が必須のスタジオがほとんど。滑り止め付きのグリップソックスを用意しましょう。</span></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
+                  <ul className="space-y-3 text-warm-600">
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸��性のある素材</strong>が必須。ピラティスでは脚を高く上げたり体をひねる動きが多いため、動きを妨げない服を選びましょう。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フィット感のあるトップス</strong>がおすすめ。逆さまの姿勢になることもあるため、めくれ上がりにくい服を選ぶと安心で���。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル対応</strong>のスタジオも。the SILKやピラティスKは手ぶら体験OKの場合があるので事前に確認を。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリーは外して</strong>参加しましょう。マシンのスプリングやストラップに引っかかる危険があります。</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div className="mt-6 p-4 bg-white rounded border border-warm-200">
+                <p className="text-sm text-warm-600">
+                  <strong>新宿エリアの豆知���：</strong>新宿駅周辺はスタジオ密度が高いため、1日で2〜3スタジオをはしごして体験する方もいます。体験後はルミネやNEWoManでランチ・ショッピングを楽しむのもおすすめ。西口エリアはビジネス街で静かな環境、東口エリアは活気ある雰囲気とエリアの個性もスタジオ選びの参考に。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* FAQ */}
-        <section className="py-16 bg-white" id="faq">
+        <section className="py-16 bg-warm-50" id="faq">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
               よくある質問

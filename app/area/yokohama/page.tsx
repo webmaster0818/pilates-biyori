@@ -12,7 +12,7 @@ import { FAQSchema } from '@/components/FAQSchema'
 
 export const metadata = {
   title: '【2026最新】ピラティス横浜おすすめ8選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
-  description: '横浜エリアのおすすめピラティススタジオ8選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  description: '【2026年4月最新】横浜のおすすめピラティススタジオ8選を徹底比較。グループ月4回9,625円〜の料金相場、駅近・女性専用・パーソナル対応のスタジオ情報、体験レッスンの持ち物まで完全網羅。',
   keywords: 'ピラティス,横浜,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -496,7 +496,7 @@ export default function YokohamaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月08日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス横浜おすすめ8選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
@@ -744,6 +744,107 @@ export default function YokohamaPage() {
                 </div>
                 <p className="text-warm-600 leading-relaxed">
                   どんなに良いスタジオでも、通いにくい場所にあると続きません。横浜はJR・東急・相鉄・市営地下鉄が乗り入れ、複数路線が利用できます。今回紹介したスタジオはすべて横浜駅から徒歩10分以内。ピラティスKは地下街直結で雨の日も便利ですよ。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Price Market Section */}
+        <section className="py-16 bg-white" id="price-market">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              横浜のピラティス料金相場【2026年4月最新】
+            </h2>
+            <div className="bg-warm-50 rounded-lg p-8 border border-warm-200 mb-8">
+              <p className="text-warm-600 leading-relaxed mb-6">
+                横浜は東京都外では最大級のピラティス激戦区。横浜駅西口・東口を中心に大手チェーンが揃い、みなとみらい線沿線にもスタジオが増えています。都内に比べて若干リーズナブルな傾向があり、コスパの良いスタジオが見つかりやすいエリアです。
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                <div className="bg-white rounded-lg p-5 border border-warm-200">
+                  <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">9,625円〜15,300円</p>
+                  <p className="text-sm text-warm-600">zen place pilatesのマット月4回9,625円〜が最安。lafimoは月4回10,560円〜でSPA付き。CLUB PILATESは月4回13,090円〜、ピラティスKは月4回13,420円〜。the SILKは月4回15,280円〜＋施設利用料700円。</p>
+                </div>
+                <div className="bg-white rounded-lg p-5 border border-warm-200">
+                  <h3 className="font-bold text-warm-900 mb-3">パーソナルレッスン</h3>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">6,600円〜/回</p>
+                  <p className="text-sm text-warm-600">ピラティス&ジム 1to1は40分1回6,600円〜と横浜エリア最安クラス。ルルト横浜店は完全パーソナルで理学療法士監修のプログラム。体験当日入会で入会金が無料になるキャンペーンも。</p>
+                </div>
+              </div>
+              <div className="bg-white rounded-lg p-5 border border-warm-200">
+                <h3 className="font-bold text-warm-900 mb-3">入会金・体験レッスン費用</h3>
+                <p className="text-sm text-warm-600">入会金は5,000円〜22,000円程度。キャンペーン期間中は無料になることが多いです。体験レッスンは無料〜3,000円程度。ピラティスKは体験無料、zen placeは1,000円〜。横浜は駅周辺にスタジオが密集しているため、体験のはしごもしやすいエリアです。</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Cautions Section */}
+        <section className="py-16 bg-warm-50" id="cautions">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              横浜でスタジオを選ぶ際の注意点
+            </h2>
+            <div className="space-y-6">
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">横浜駅の西口・東口・みなとみらいの使い分け</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  横浜駅はJR・東急・京急・相鉄・横浜市営地下鉄・みなとみらい線と6路線が乗り入れる神奈川最大のターミナル駅。西口（ジョイナス・高島屋方面）と東口（そごう・ベイクォーター方面）でスタジオの分布が異なります。ピラティスKは西口徒歩2分、zen placeも西口エリア。自分の利用路線に近いスタジオを選びましょう。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">施設維持費・設備費に要注意</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  横浜エリアのスタジオはレッスン料金以外に施設維持費や設備費が月額で別途かかる場合があります。ピラティスKは月額825円、the SILKは施設利用料700円が追加。入会前にトータルの月額コストを確認しましょう。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">雨の日のアクセスも考慮して</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  横浜は海に近いため天候が変わりやすい地域。地下街（ジョイナスアンダーグラウンド等）から直結でアクセスできるスタジオなら、雨の日でもストレスなく通えます。続けやすさの面でも、駅から屋根付きルートで行けるかどうかを確認しておくと安心です。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">SPA・温浴施設付きスタジオも選択肢に</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  横浜ならではの特徴として、lafimoのようにピラティス＆SPA一体型のスタジオがあります。レッスン後にリラクゼーションできるのは横浜エリアの魅力。トータルでの満足度を考えて選ぶのもおすすめです。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Trial Lesson Guide */}
+        <section className="py-16 bg-white" id="trial-guide">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              体験レッスン当日の持ち物・服装ガイド
+            </h2>
+            <div className="bg-warm-50 rounded-lg p-8 border border-warm-200">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
+                  <ul className="space-y-3 text-warm-600">
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。伸縮性のある素材を選びましょう。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>水分（500ml以上）</strong>：レッスン中の水分補給用。持参が安心です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシン用タオルはスタジオで用意されることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>グリップソックス</strong>：マシンピラティスでは必須。滑り止め付きを持参しましょう。</span></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
+                  <ul className="space-y-3 text-warm-600">
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ストレッチ素材</strong>がマスト。ピラティスは全身の可動域を使うため、動きを制限しない服を選んでください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フィット感のある服</strong>が理想的。インストラクターがフォームを確認しやすくなります。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>レンタルウェア対応</strong>のスタジオも。ピラティスKやthe SILKはウェアレンタルが利用できる場合があります。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリーはロッカーに</strong>。指輪・ネックレス・ピアスはマシン操作の際に危険です。</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div className="mt-6 p-4 bg-white rounded border border-warm-200">
+                <p className="text-sm text-warm-600">
+                  <strong>横浜エリアの豆知識：</strong>横浜駅周辺のスタジオはJR・私鉄各線から徒歩圏内でアクセス抜群。レッスン後はベイエリアでの散歩やみなとみらいでのショッピングも楽しめます。lafimoはSPA付きでレッスン後のリラクゼーションまで一か所で完結。週末は横浜ならではの開放的な雰囲気でリフレッシュしましょう。
                 </p>
               </div>
             </div>

@@ -12,7 +12,7 @@ import { FAQSchema } from '@/components/FAQSchema'
 
 export const metadata = {
   title: '【2026最新】ピラティス札幌おすすめ8選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
-  description: '札幌エリアのおすすめピラティススタジオ8選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  description: '【2026年4月最新】札幌のおすすめピラティススタジオ8選を徹底比較。グループ月2回5,500円〜の料金相場、マシン専門・女性専用のスタジオ情報、体験レッスンの持ち物・冬場の注意点まで完全網羅。',
   keywords: 'ピラティス,札幌,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -494,7 +494,7 @@ export default async function SapporoAreaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月09日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス札幌おすすめ8選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
@@ -742,6 +742,107 @@ export default async function SapporoAreaPage() {
                 </div>
                 <p className="text-warm-600 leading-relaxed">
                   どんなに良いスタジオでも、通いにくい場所にあると続きません。札幌はJR札幌駅と地下鉄南北線・東西線・東豊線が利用でき、北海道札幌市の中心エリアです。駅直結やチカホ直結のスタジオを選ぶと、冬の雪の日でも天候を気にせず通えて便利ですよ。すすきのや大通からもアクセス良好です。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Price Market Section */}
+        <section className="py-16 bg-white" id="price-market">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              札幌のピラティス料金相場【2026年4月最新】
+            </h2>
+            <div className="bg-warm-50 rounded-lg p-8 border border-warm-200 mb-8">
+              <p className="text-warm-600 leading-relaxed mb-6">
+                札幌のピラティスシーンは大通・札幌駅周辺を中心に成長中。全国チェーンの進出と、地元密着型の個性的なスタジオが共存するエリアです。月2回5,500円〜と道内ではリーズナブルなプランから、月額15,400円の本格プランまで幅広い選択肢があります。
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                <div className="bg-white rounded-lg p-5 border border-warm-200">
+                  <h3 className="font-bold text-warm-900 mb-3">グループレッスン</h3>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">5,500円〜15,400円</p>
+                  <p className="text-sm text-warm-600">スターピラティスは月2回5,500円〜と札幌最安クラス。ピラティスK札幌駅前店は月4回13,420円＋施設維持費825円。LATECO（ラティコ）は月4回15,400円で女性専門の加圧×マシンピラティス。CLUB PILATES札幌は無料体験あり。</p>
+                </div>
+                <div className="bg-white rounded-lg p-5 border border-warm-200">
+                  <h3 className="font-bold text-warm-900 mb-3">パーソナル・サブスクプラン</h3>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">12,000円〜/月1回</p>
+                  <p className="text-sm text-warm-600">La pilates札幌店はサブスク月1回12,000円〜で整体×マシンピラティスの組み合わせ。zen place pilates札幌はプライベートレッスンも対応。BodySoul・Repilatesなど地元スタジオはパーソナル対応で料金要問合せ。</p>
+                </div>
+              </div>
+              <div className="bg-white rounded-lg p-5 border border-warm-200">
+                <h3 className="font-bold text-warm-900 mb-3">入会金・体験レッスン費用</h3>
+                <p className="text-sm text-warm-600">入会金は10,000円〜22,000円が相場。キャンペーン期間中は0円のスタジオも多いです。体験レッスンはCLUB PILATESが無料、zen placeは1,000円〜、La pilatesは2,000円で体験可能。まずは複数スタジオの体験を回って比較するのがおすすめです。</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Cautions Section */}
+        <section className="py-16 bg-warm-50" id="cautions">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              札幌でスタジオを選ぶ際の注意点
+            </h2>
+            <div className="space-y-6">
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">冬場の通いやすさは最重要ポイント</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  札幌の冬（12月〜3月）は積雪が多く、路面が凍結することも。駅直結または地下歩行空間（チカホ）からアクセスできるスタジオを選ぶと、冬場もストレスなく通い続けられます。ピラティスK札幌駅前店は札幌駅すぐ、CLUB PILATES札幌も駅近で冬場のアクセスに有利です。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">札幌駅と大通駅でエリアが分かれる</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  札幌のスタジオは札幌駅周辺と大通駅周辺（南1条〜南3条）に集中しています。地下歩行空間でつながっているため徒歩でも移動可能ですが、通勤経路に合わせて選ぶのが継続のコツ。LATECO（ラティコ）は大通駅エリアで女性専門の個性的なスタジオです。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">スタジオ数が限られるため早めの行動を</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  札幌は東京に比べるとスタジオ数が少なく、人気スタジオのキャンペーンや体験枠はすぐに埋まりがちです。気になるスタジオがあれば、早めに体験レッスンを予約しましょう。特に新規オープンのスタジオは特別キャンペーンを実施することが多いのでチェックを。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">暖房環境もチェック</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  札幌のスタジオは暖房がしっかり効いているのが基本ですが、スタジオの位置（ビルの1階か上層階か）によって体感温度が異なることも。冬場のレッスンでは、最初は体が冷えているためウォームアップが重要です。体験レッスン時にスタジオの室温環境もチェックしておきましょう。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Trial Lesson Guide */}
+        <section className="py-16 bg-white" id="trial-guide">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
+              体験レッスン当日の持ち物・服装ガイド
+            </h2>
+            <div className="bg-warm-50 rounded-lg p-8 border border-warm-200">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
+                  <ul className="space-y-3 text-warm-600">
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが基本。冬場はスタジオ内が暖かいため薄着でOKですが、行き帰りの防寒着は必須。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>水分（500ml程度）</strong>：暖房の効いたスタジオでは想像以上に汗をかきます。必ず持参しましょう。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>タオル</strong>：汗拭き用に1枚。冬場は乾燥するため保湿クリームもあると便利です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>グリップソックス</strong>：マシンピラティスでは靴下必須。滑り止め付きを持参しましょう。</span></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
+                  <ul className="space-y-3 text-warm-600">
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>がマスト。ピラティスでは全身を大きく動かすため、ストレッチの効く素材を選びましょう。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>脱ぎ着しやすい服装</strong>が便利。札幌は外と室内の温度差が大きいため、重ね着で調整しやすい服がベストです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>対応のスタジオもあります。ピラティスKは手ぶら体験可能な場合も。事前に確認を。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>冬場のブーツ</strong>は置き場所を確認。ロッカーが小さいスタジオでは、大きなブーツの収納に困ることも。</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div className="mt-6 p-4 bg-white rounded border border-warm-200">
+                <p className="text-sm text-warm-600">
+                  <strong>札幌エリアの豆知識：</strong>札幌駅〜大通駅間の地下歩行空間（チカホ）は、雪の日でも快適に移動できる約520mの地下通路。このルート沿いのスタジオなら冬場も安心して通えます。レッスン後は大通公園周辺のカフェでリフレッシュしたり、すすきのエリアでの食事も楽しめます。北海道ならではの旬の食材で体の内側からもキレイを目指しましょう。
                 </p>
               </div>
             </div>
