@@ -463,7 +463,7 @@ export default function KannaiPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              関内エリアの料金はスタジオのタイプや立地によって異なります。まずは体験レッスンを活用して、料金と内容のバランスが自分に合うスタジオを見つけましょう。
+              関内エリアは都心部と比較してテナント賃料が抑えめのため、同じ内容のレッスンでも料金がリーズナブルな傾向があります。通い放題プランのコスパが特に良いエリアなので、週2回以上通える方は月額制プランが断然おすすめです。近隣の横浜エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
             </p>
           </div>
         </section>
@@ -476,27 +476,27 @@ export default function KannaiPage() {
             </h2>
             <div className="space-y-6">
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">通いやすさは継続の鍵</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">JR根岸線・横浜市営地下鉄ブルーライン「関内駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  関内でスタジオを選ぶ際、自宅や職場からの距離・所要時間が最も重要なポイントです。駅からの徒歩分数だけでなく、駐車場・駐輪場の有無も確認しておきましょう。
+                  関内エリアのスタジオは関内駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。関内駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">レッスンスケジュールと生活リズムの相性</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">スタジオ数が限られるため早めの予約を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  自分が通える時間帯にレッスンが開講されているか事前に確認しましょう。特に仕事帰りに通いたい方は、平日夜のレッスン枠が充実しているスタジオがおすすめです。
+                  関内エリアは都心と比べてスタジオの選択肢が限られるため、人気のスタジオ・時間帯は予約が埋まりやすい傾向があります。特に土曜午前は混み合うことが多いので、1週間前には予約を入れておくのがおすすめです。車で通う方は駐車場の有無も確認しておきましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">最低契約期間・キャンセルポリシーを確認</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">通い放題プランと回数制プランを比較検討</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  入会キャンペーン適用時に最低契約期間が設定されるスタジオもあります。また、レッスン直前のキャンセルルールもスタジオごとに異なるため、入会前に必ず確認しましょう。
+                  関内エリアでは通い放題プランが都心部より割安に設定されていることが多いです。週2回以上通えるなら通い放題が断然お得ですが、月1〜2回のペースなら回数券やドロップインの方がコスパが良い場合も。自分の通う頻度を想定してプランを選びましょう。初月は回数制で様子を見るのも賢い方法です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">体験レッスンは2〜3スタジオ比較がおすすめ</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  1つのスタジオだけで決めず、関内エリアの複数スタジオで体験レッスンを受けましょう。インストラクターの指導スタイル、スタジオの清潔感、会員の雰囲気を比較して判断すると後悔しません。
+                  関内エリアだけでなく、近隣の<Link href="/area/yokohama" className="text-warm-700 underline hover:text-warm-900">横浜</Link>、<Link href="/area/kamakura" className="text-warm-700 underline hover:text-warm-900">鎌倉</Link>、<Link href="/area/kawasaki" className="text-warm-700 underline hover:text-warm-900">川崎</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
                 </p>
               </div>
             </div>
@@ -532,7 +532,7 @@ export default function KannaiPage() {
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>関内エリアの豆知識：</strong>スタジオによってはウェアやタオルのレンタルサービスを提供しているところもあります。仕事帰りや外出先から直接通いたい方は、レンタルの有無を事前に確認しておくと便利です。
+                  <strong>関内エリアの豆知識：</strong>関内エリアは車で通う方も多いため、駐車場の有無や提携コインパーキングを事前に確認しておきましょう。車なら荷物の心配が少ないので、シャワー後の着替えやヘアドライヤーなども余裕を持って準備できます。
                 </p>
               </div>
             </div>

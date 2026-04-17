@@ -463,7 +463,7 @@ export default function HirooPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              広尾エリアの料金はスタジオのタイプや立地によって異なります。まずは体験レッスンを活用して、料金と内容のバランスが自分に合うスタジオを見つけましょう。
+              広尾は落ち着いた住環境が魅力のエリアで、プライベートレッスンやセミパーソナルなど少人数制を重視したスタジオが多い傾向です。1回あたりの単価はやや高めですが、その分インストラクターの質や設備にこだわったスタジオが揃っています。近隣の麻布十番エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
             </p>
           </div>
         </section>
@@ -476,27 +476,27 @@ export default function HirooPage() {
             </h2>
             <div className="space-y-6">
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">最寄り駅の出口・路線を事前に確認</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">東京メトロ日比谷線「広尾駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  広尾エリアは複数路線が利用できる便利な立地ですが、出口によってスタジオまでの距離が大きく変わることがあります。通う前にGoogleマップで自分の利用路線からのルートを確認しておきましょう。
+                  広尾エリアのスタジオは広尾駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。広尾駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">平日夜・土日午前は予約が集中</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">少人数制スタジオは早めの予約がカギ</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  広尾エリアでは平日19時〜21時、土日午前中がレッスン予約のピークタイムです。人気スタジオは早めの予約が必須。平日午前〜昼間は比較的空いているので、時間に融通が利く方は狙い目です。
+                  広尾は少人数制やプライベートレッスンを重視するスタジオが多く、1クラスの定員が少ないため予約が早く埋まりがちです。特にマシンピラティスは定員4〜8名のスタジオが主流なので、希望の時間帯があれば早めに予約を。キャンセル待ち制度のあるスタジオを選ぶと安心です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">最低契約期間・キャンセルポリシーを確認</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  入会キャンペーンを利用すると3〜6ヶ月の最低契約期間が設定されるスタジオもあります。また、レッスン直前のキャンセルルール（何時間前まで無料か）もスタジオごとに異なるため、入会前に必ず確認しましょう。
+                  広尾エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ず確認しましょう。月の途中入会は日割り計算になるかも要チェックです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">体験レッスンは2〜3スタジオ回るのがおすすめ</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  広尾エリアにはグループ専門からパーソナル専門まで多彩なスタジオがあります。1つだけで決めず、2〜3スタジオの体験レッスンを受けて、インストラクターとの相性や雰囲気を比較してから入会を決めましょう。
+                  広尾エリアだけでなく、近隣の<Link href="/area/azabujuban" className="text-warm-700 underline hover:text-warm-900">麻布十番</Link>、<Link href="/area/ebisu" className="text-warm-700 underline hover:text-warm-900">恵比寿</Link>、<Link href="/area/roppongi" className="text-warm-700 underline hover:text-warm-900">六本木</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
                 </p>
               </div>
             </div>
@@ -532,7 +532,7 @@ export default function HirooPage() {
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>広尾エリアの豆知識：</strong>スタジオによってはウェアやタオルのレンタルサービスを提供しているところもあります。仕事帰りや外出先から直接通いたい方は、レンタルの有無を事前に確認しておくと便利です。
+                  <strong>広尾エリアの豆知識：</strong>広尾は美意識の高い方が多いエリアで、レッスン後にそのままカフェやショッピングに行く方もいます。着替えやメイク直しのセットを持参しておくと、レッスン後の時間も有効活用できます。おしゃれなウェアで通う方も多いのが広尾の特徴です。
                 </p>
               </div>
             </div>

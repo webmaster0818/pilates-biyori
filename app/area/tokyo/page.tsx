@@ -608,7 +608,7 @@ export default async function TokyoAreaPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              東京エリアの料金はスタジオのタイプや立地によって異なります。まずは体験レッスンを活用して、料金と内容のバランスが自分に合うスタジオを見つけましょう。
+              東京は商業施設やオフィスが集まる繁華街エリアのため、駅近の好立地スタジオが多く、やや高めの料金設定が目立ちます。一方で大手チェーンの進出も多いため、キャンペーンや月額通い放題プランを上手に活用すれば、実質的なコストを抑えることも可能です。近隣の東京駅エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
             </p>
           </div>
         </section>
@@ -621,27 +621,27 @@ export default async function TokyoAreaPage() {
             </h2>
             <div className="space-y-6">
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">最寄り駅の出口・路線を事前に確認</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">東京エリアのスタジオへのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  東京エリアは複数路線が利用できる便利な立地ですが、出口によってスタジオまでの距離が大きく変わることがあります。通う前にGoogleマップで自分の利用路線からのルートを確認しておきましょう。
+                  東京エリアのスタジオは東京都内に多数展開が最寄りです。初めて通う際は地図アプリで経路と所要時間を確認し、レッスン開始10分前には到着できるよう計画しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">平日夜・土日午前は予約が集中</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">繁華街ならではの予約混雑に注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  東京エリアでは平日19時〜21時、土日午前中がレッスン予約のピークタイムです。人気スタジオは早めの予約が必須。平日午前〜昼間は比較的空いているので、時間に融通が利く方は狙い目です。
+                  東京は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることも。アプリやWebで空き状況をこまめにチェックし、キャンセル待ち機能があるスタジオでは積極的に活用しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">最低契約期間・キャンセルポリシーを確認</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  入会キャンペーンを利用すると3〜6ヶ月の最低契約期間が設定されるスタジオもあります。また、レッスン直前のキャンセルルール（何時間前まで無料か）もスタジオごとに異なるため、入会前に必ず確認しましょう。
+                  東京エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ず確認しましょう。月の途中入会は日割り計算になるかも要チェックです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">体験レッスンは2〜3スタジオ回るのがおすすめ</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  東京エリアにはグループ専門からパーソナル専門まで多彩なスタジオがあります。1つだけで決めず、2〜3スタジオの体験レッスンを受けて、インストラクターとの相性や雰囲気を比較してから入会を決めましょう。
+                  東京エリアだけでなく、近隣の<Link href="/area/tokyo-station" className="text-warm-700 underline hover:text-warm-900">東京駅</Link>、<Link href="/area/marunouchi" className="text-warm-700 underline hover:text-warm-900">丸の内</Link>、<Link href="/area/otemachi" className="text-warm-700 underline hover:text-warm-900">大手町</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
                 </p>
               </div>
             </div>
@@ -677,7 +677,7 @@ export default async function TokyoAreaPage() {
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>東京エリアの豆知識：</strong>スタジオによってはウェアやタオルのレンタルサービスを提供しているところもあります。仕事帰りや外出先から直接通いたい方は、レンタルの有無を事前に確認しておくと便利です。
+                  <strong>東京エリアの豆知識：</strong>東京は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
                 </p>
               </div>
             </div>

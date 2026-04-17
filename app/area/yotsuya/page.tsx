@@ -269,7 +269,7 @@ export default function YotsuyaPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              四ツ谷エリアの料金はスタジオのタイプや立地によって異なります。まずは体験レッスンを活用して、料金と内容のバランスが自分に合うスタジオを見つけましょう。
+              四ツ谷は商業施設やオフィスが集まる繁華街エリアのため、駅近の好立地スタジオが多く、やや高めの料金設定が目立ちます。一方で大手チェーンの進出も多いため、キャンペーンや月額通い放題プランを上手に活用すれば、実質的なコストを抑えることも可能です。近隣の新宿エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
             </p>
           </div>
         </section>
@@ -282,27 +282,27 @@ export default function YotsuyaPage() {
             </h2>
             <div className="space-y-6">
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">通いやすさは継続の鍵</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">丸ノ内線「四谷三丁目駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  四ツ谷でスタジオを選ぶ際、自宅や職場からの距離・所要時間が最も重要なポイントです。駅からの徒歩分数だけでなく、駐車場・駐輪場の有無も確認しておきましょう。
+                  四ツ谷エリアのスタジオは四谷三丁目駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。四谷三丁目駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">レッスンスケジュールと生活リズムの相性</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">繁華街ならではの予約混雑に注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  自分が通える時間帯にレッスンが開講されているか事前に確認しましょう。特に仕事帰りに通いたい方は、平日夜のレッスン枠が充実しているスタジオがおすすめです。
+                  四ツ谷は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることも。アプリやWebで空き状況をこまめにチェックし、キャンセル待ち機能があるスタジオでは積極的に活用しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">最低契約期間・キャンセルポリシーを確認</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  入会キャンペーン適用時に最低契約期間が設定されるスタジオもあります。また、レッスン直前のキャンセルルールもスタジオごとに異なるため、入会前に必ず確認しましょう。
+                  四ツ谷エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ず確認しましょう。月の途中入会は日割り計算になるかも要チェックです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">体験レッスンは2〜3スタジオ比較がおすすめ</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  1つのスタジオだけで決めず、四ツ谷エリアの複数スタジオで体験レッスンを受けましょう。インストラクターの指導スタイル、スタジオの清潔感、会員の雰囲気を比較して判断すると後悔しません。
+                  四ツ谷エリアだけでなく、近隣の<Link href="/area/shinjuku" className="text-warm-700 underline hover:text-warm-900">新宿</Link>、<Link href="/area/nagatacho" className="text-warm-700 underline hover:text-warm-900">永田町</Link>、<Link href="/area/iidabashi" className="text-warm-700 underline hover:text-warm-900">飯田橋</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
                 </p>
               </div>
             </div>
@@ -338,7 +338,7 @@ export default function YotsuyaPage() {
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>四ツ谷エリアの豆知識：</strong>スタジオによってはウェアやタオルのレンタルサービスを提供しているところもあります。仕事帰りや外出先から直接通いたい方は、レンタルの有無を事前に確認しておくと便利です。
+                  <strong>四ツ谷エリアの豆知識：</strong>四ツ谷は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
                 </p>
               </div>
             </div>

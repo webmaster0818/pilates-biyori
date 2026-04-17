@@ -212,7 +212,7 @@ export default function NishijinPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              西新エリアの料金はスタジオのタイプや立地によって異なります。まずは体験レッスンを活用して、料金と内容のバランスが自分に合うスタジオを見つけましょう。
+              西新は観光地としても人気のエリアですが、地元の方が日常的に通えるスタジオも増えています。町家を改装したスタジオなど西新ならではの趣ある空間でピラティスを楽しめるのが魅力。料金は大阪と同程度か、やや抑えめの傾向です。近隣の烏丸御池エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
             </p>
           </div>
         </section>
@@ -225,27 +225,27 @@ export default function NishijinPage() {
             </h2>
             <div className="space-y-6">
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">通いやすさは継続の鍵</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">福岡市地下鉄空港線「西新駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  西新でスタジオを選ぶ際、自宅や職場からの距離・所要時間が最も重要なポイントです。駅からの徒歩分数だけでなく、駐車場・駐輪場の有無も確認しておきましょう。
+                  西新エリアのスタジオは西新駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。西新駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">レッスンスケジュールと生活リズムの相性</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">観光客と地元利用者で混雑時間が異なる</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  自分が通える時間帯にレッスンが開講されているか事前に確認しましょう。特に仕事帰りに通いたい方は、平日夜のレッスン枠が充実しているスタジオがおすすめです。
+                  西新は観光地としても有名なため、観光客向けの体験プランと地元向けの月額プランが分かれているスタジオもあります。紅葉や桜のシーズンは周辺の混雑で移動に時間がかかることがあるため、余裕を持ったスケジュールで通いましょう。地元在住なら平日昼間が穴場です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">最低契約期間・キャンセルポリシーを確認</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">料金プランの種類と契約条件をしっかり比較</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  入会キャンペーン適用時に最低契約期間が設定されるスタジオもあります。また、レッスン直前のキャンセルルールもスタジオごとに異なるため、入会前に必ず確認しましょう。
+                  西新エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかを確認しましょう。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため要チェックです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">体験レッスンは2〜3スタジオ比較がおすすめ</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  1つのスタジオだけで決めず、西新エリアの複数スタジオで体験レッスンを受けましょう。インストラクターの指導スタイル、スタジオの清潔感、会員の雰囲気を比較して判断すると後悔しません。
+                  西新エリアだけでなく、近隣の<Link href="/area/karasuma-oike" className="text-warm-700 underline hover:text-warm-900">烏丸御池</Link>、<Link href="/area/kitaoji" className="text-warm-700 underline hover:text-warm-900">北大路</Link>、<Link href="/area/kyoto-station" className="text-warm-700 underline hover:text-warm-900">京都駅</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
                 </p>
               </div>
             </div>
@@ -281,7 +281,7 @@ export default function NishijinPage() {
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>西新エリアの豆知識：</strong>スタジオによってはウェアやタオルのレンタルサービスを提供しているところもあります。仕事帰りや外出先から直接通いたい方は、レンタルの有無を事前に確認しておくと便利です。
+                  <strong>西新エリアの豆知識：</strong>西新は四季折々の風情が楽しめるエリアです。観光シーズンは周辺の混雑で移動に時間がかかることがあるため、時間に余裕を持って出発しましょう。町家スタジオなど西新ならではの空間でピラティスを楽しめるのも魅力のひとつです。
                 </p>
               </div>
             </div>

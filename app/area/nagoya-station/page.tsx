@@ -278,7 +278,7 @@ export default function NagoyaStationPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              名古屋駅エリアの料金はスタジオのタイプや立地によって異なります。まずは体験レッスンを活用して、料金と内容のバランスが自分に合うスタジオを見つけましょう。
+              名古屋駅はビジネス街としての性格が強く、仕事帰りの利用を想定した夜間プランや回数券プランが充実しています。賃料が高めのエリアのため料金は全体的にやや高い傾向ですが、法人契約や福利厚生割引に対応しているスタジオもあるので確認してみましょう。近隣の栄エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
             </p>
           </div>
         </section>
@@ -291,27 +291,27 @@ export default function NagoyaStationPage() {
             </h2>
             <div className="space-y-6">
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">スタジオ数が限られるため早めの体験予約を</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">名古屋駅からのルートは事前に確認を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  名古屋駅エリアは都市部と比べてスタジオ数が限られています。人気スタジオは体験予約が埋まりやすいため、気になるスタジオには早めに予約を入れましょう。
+                  名古屋駅エリアのスタジオは名古屋駅周辺が中心です。駅の出口によってスタジオまでの距離が変わることがあるため、初めて訪れる際はGoogleマップで経路を確認し、余裕を持って到着できるようにしましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">オンラインレッスン併用も検討</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">ビジネス街特有の予約傾向を把握</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  通えるスタジオが少ない場合は、オンラインレッスンとの併用がおすすめです。zen placeなど大手スタジオではオンラインレッスンを提供しており、自宅でも本格的なピラティスが受けられます。
+                  名古屋駅はオフィス街のため、平日ランチタイム（12時〜13時）と夕方以降（18時〜21時）に予約が集中する傾向があります。逆に土日は比較的空いているスタジオが多いので、平日に通いづらい方は週末を狙うのも手です。また、祝日は営業時間が変更になることがあるので事前確認を。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">通い放題プランがあるスタジオは要チェック</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  名古屋駅エリアでスタジオが限られる分、1つのスタジオに集中して通える通い放題プランはコスパが良くおすすめです。月額固定で何度でも通えるため、上達も早くなります。
+                  名古屋駅エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ず確認しましょう。月の途中入会は日割り計算になるかも要チェックです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">体験レッスンは可能な限り複数受ける</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  選択肢が少ないからこそ、利用可能なスタジオの体験レッスンはすべて受けてみましょう。インストラクターとの相性、スタジオの雰囲気、レッスン内容を比較して、長く続けられるスタジオを選ぶことが大切です。
+                  名古屋駅エリアだけでなく、近隣の<Link href="/area/sakae" className="text-warm-700 underline hover:text-warm-900">栄</Link>、<Link href="/area/nagoya" className="text-warm-700 underline hover:text-warm-900">名古屋</Link>、<Link href="/area/kanazawa" className="text-warm-700 underline hover:text-warm-900">金沢</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
                 </p>
               </div>
             </div>
@@ -347,7 +347,7 @@ export default function NagoyaStationPage() {
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>名古屋駅エリアの豆知識：</strong>スタジオによってはウェアやタオルのレンタルサービスを提供しているところもあります。仕事帰りや外出先から直接通いたい方は、レンタルの有無を事前に確認しておくと便利です。
+                  <strong>名古屋駅エリアの豆知識：</strong>名古屋駅はビジネスパーソンの利用が多いエリアです。スーツやオフィスカジュアルで来てそのまま着替えたい方は、ロッカールームの広さやシャワーの有無を重視してスタジオを選びましょう。ウェアレンタルがあれば、大きな荷物を持ち歩く必要がありません。
                 </p>
               </div>
             </div>

@@ -567,7 +567,7 @@ export default function HiroshimaAreaPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              広島エリアの料金はスタジオのタイプや立地によって異なります。まずは体験レッスンを活用して、料金と内容のバランスが自分に合うスタジオを見つけましょう。
+              広島エリアでは全国展開チェーンのスタジオが駅近に出店しているほか、地元のパーソナルスタジオも個性的な料金プランを用意しています。大都市圏と比べると料金水準はやや低めなので、初めてのピラティスにも挑戦しやすい環境です。近隣の岡山エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
             </p>
           </div>
         </section>
@@ -580,27 +580,27 @@ export default function HiroshimaAreaPage() {
             </h2>
             <div className="space-y-6">
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">スタジオ数が限られるため早めの体験予約を</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">八丁堀駅からのルートは事前に確認を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  広島エリアは都市部と比べてスタジオ数が限られています。人気スタジオは体験予約が埋まりやすいため、気になるスタジオには早めに予約を入れましょう。
+                  広島エリアのスタジオは八丁堀駅周辺が中心です。駅の出口によってスタジオまでの距離が変わることがあるため、初めて訪れる際はGoogleマップで経路を確認し、余裕を持って到着できるようにしましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">オンラインレッスン併用も検討</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">広島エリアの人気時間帯を把握して予約を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  通えるスタジオが少ない場合は、オンラインレッスンとの併用がおすすめです。zen placeなど大手スタジオではオンラインレッスンを提供しており、自宅でも本格的なピラティスが受けられます。
+                  広島エリアでは平日夕方以降と土日午前中が予約の集中する時間帯です。特にマシンピラティスは定員が少ないため、希望の日時があれば早めの予約がおすすめ。スタジオによってはキャンセル待ち機能やLINE通知で空き枠をお知らせしてくれるところもあります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">通い放題プランがあるスタジオは要チェック</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">料金プランの種類と契約条件をしっかり比較</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  広島エリアでスタジオが限られる分、1つのスタジオに集中して通える通い放題プランはコスパが良くおすすめです。月額固定で何度でも通えるため、上達も早くなります。
+                  広島エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかを確認しましょう。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため要チェックです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">体験レッスンは可能な限り複数受ける</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  選択肢が少ないからこそ、利用可能なスタジオの体験レッスンはすべて受けてみましょう。インストラクターとの相性、スタジオの雰囲気、レッスン内容を比較して、長く続けられるスタジオを選ぶことが大切です。
+                  広島エリアだけでなく、近隣の<Link href="/area/okayama" className="text-warm-700 underline hover:text-warm-900">岡山</Link>、<Link href="/area/kobe" className="text-warm-700 underline hover:text-warm-900">神戸</Link>、<Link href="/area/fukuoka" className="text-warm-700 underline hover:text-warm-900">福岡</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
                 </p>
               </div>
             </div>
@@ -636,7 +636,7 @@ export default function HiroshimaAreaPage() {
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>広島エリアの豆知識：</strong>スタジオによってはウェアやタオルのレンタルサービスを提供しているところもあります。仕事帰りや外出先から直接通いたい方は、レンタルの有無を事前に確認しておくと便利です。
+                  <strong>広島エリアの豆知識：</strong>広島は地元の方に愛されるスタジオが中心です。車で通う場合は駐車場の有無を事前に確認。電車の場合は駅からの距離だけでなく、帰りの電車の時刻も確認しておくとスムーズです。
                 </p>
               </div>
             </div>
