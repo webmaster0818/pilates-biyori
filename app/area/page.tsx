@@ -86,6 +86,7 @@ const regions = [
       { name: '広尾', slug: 'hiroo', available: true },
       { name: '三田', slug: 'mita', available: true },
       { name: '蒲田', slug: 'kamata', available: true },
+      { name: '田園調布', slug: 'denenchofu', available: true },
     ],
   },
   {
@@ -122,6 +123,10 @@ const regions = [
       { name: '藤沢', slug: 'fujisawa', available: true },
       { name: '武蔵小杉', slug: 'musashikosugi', available: true },
       { name: '本厚木', slug: 'honatsugi', available: true },
+      { name: '溝の口', slug: 'mizonokuchi', available: true },
+      { name: '日吉', slug: 'hiyoshi', available: true },
+      { name: '青葉台', slug: 'aobadai', available: true },
+      { name: 'たまプラーザ', slug: 'tama-plaza', available: true },
       { name: '大宮', slug: 'omiya', available: true },
       { name: '千葉', slug: 'chiba', available: true },
     ],
