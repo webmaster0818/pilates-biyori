@@ -51,7 +51,7 @@ export function StudioCard({ studio, index }: StudioCardProps) {
   const [showReviews, setShowReviews] = useState(false)
 
   return (
-    <div className="bg-white border border-warm-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+    <div id={`studio-${index + 1}`} className="bg-white border border-warm-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow scroll-mt-24">
       <div className="md:flex">
         <div className="md:w-1/3">
           <img src={studio.image.replace(/.jpg$/, ".webp").replace(/.png$/, ".webp")} alt={studio.name} className="w-full aspect-[16/10] object-contain bg-warm-50" width="800" height="600" loading="lazy" />
