@@ -108,7 +108,17 @@ export function StudioCard({ studio, index }: StudioCardProps) {
                 ))}
               </div>
               <p className="text-warm-500 text-xs mt-3 text-center">
-                ※ 口コミは参考情報です
+                ※ 口コミはGoogle Mapsの投稿を参考に要約・再構成したものです
+              </p>
+              <p className="text-center mt-2">
+                <a
+                  href={`https://www.google.com/maps/search/${encodeURIComponent(studio.name)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-warm-500 text-xs hover:text-warm-700 underline"
+                >
+                  出典: Google Maps で口コミを見る →
+                </a>
               </p>
             </div>
           )}
