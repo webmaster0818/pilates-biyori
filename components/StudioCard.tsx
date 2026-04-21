@@ -59,19 +59,22 @@ export function StudioCard({ studio, index }: StudioCardProps) {
         <div className="md:w-2/3 p-6">
           <div className="flex items-center justify-between mb-3">
             <h3 className="text-xl font-bold text-warm-900">{index + 1}. {studio.name}</h3>
-            {/* 口コミ表示機能は将来のGoogle Maps API実装時に有効化 */}
-            <div className="flex items-center">
+            <button
+              onClick={() => setShowReviews(!showReviews)}
+              className="flex items-center cursor-pointer hover:opacity-70 transition-opacity"
+              title="口コミを表示"
+            >
               <span className="text-yellow-500 mr-1">★</span>
               <span className="font-bold text-warm-800">{studio.rating}</span>
-            </div>
+              {studio.reviewCount && <span className="text-warm-400 text-xs ml-1">({studio.reviewCount})</span>}
+              <svg className={`w-3 h-3 ml-1 text-warm-400 transition-transform ${showReviews ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
+            </button>
           </div>
-          
-          {/* 口コミアコーディオン - Google Maps API実装時に有効化予定 */}
-          {/* 
+
           {showReviews && studio.reviews && studio.reviews.length > 0 && (
-            <div className="mb-4 bg-warm-50 border border-warm-200 rounded-lg p-4">
+            <div className="mb-4 bg-warm-50 border border-warm-200 rounded-lg p-4 animate-in">
               <div className="flex items-center justify-between mb-3">
-                <h4 className="font-bold text-warm-900 text-sm">Google 口コミ（高評価順）</h4>
+                <h4 className="font-bold text-warm-900 text-sm">Google Maps 口コミ</h4>
                 <button
                   onClick={() => setShowReviews(false)}
                   className="text-warm-500 hover:text-warm-800 text-xs"
@@ -80,7 +83,7 @@ export function StudioCard({ studio, index }: StudioCardProps) {
                 </button>
               </div>
               <div className="space-y-3">
-                {studio.reviews.map((review, i) => (
+                {studio.reviews.slice(0, 3).map((review, i) => (
                   <div key={i} className="bg-white border border-warm-200 rounded p-3">
                     <div className="flex items-center justify-between mb-2">
                       <div>
@@ -105,11 +108,10 @@ export function StudioCard({ studio, index }: StudioCardProps) {
                 ))}
               </div>
               <p className="text-warm-500 text-xs mt-3 text-center">
-                ※Google Mapsより引用
+                ※ 口コミは参考情報です
               </p>
             </div>
           )}
-          */}
           <div className="flex flex-wrap gap-2 mb-4">
             {studio.features.map((feature, i) => (
               <span key={i} className="bg-warm-100 text-warm-700 px-3 py-1 rounded-full text-xs">
