@@ -20,7 +20,7 @@ const studios = [
   {
     name: 'zen place pilates 渋谷',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 3.9, reviewCount: 14,
+    rating: 4.7, reviewCount: 14,
     reviews: [
       { author: 'Y.S', rating: 5, date: '2ヶ月前', text: 'インストラクターがいつも明るく丁寧に指導してくれます。動き方のクセを観察して的確にアドバイスしてもらえるので、毎回新しい発見があります。' },
       { author: 'M.T', rating: 5, date: '3ヶ月前', text: '渋谷駅B1出口から徒歩2分で通いやすく、朝ピラティスのクラスで生活リズムが整いました。コツコツ続けて体の変化を実感しています。' },
@@ -58,7 +58,7 @@ const studios = [
   {
     name: 'ピラティスK 渋谷店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.5, reviewCount: 107,
+    rating: 4.6, reviewCount: 107,
     reviews: [
       { author: 'H.W', rating: 5, date: '2ヶ月前', text: 'スタジオに大きな鏡があってフォーム確認がしやすく、窓からは渋谷の街並みが見えて開放的です。音楽に合わせて動けるのでキツく感じにくいです。' },
       { author: 'S.I', rating: 5, date: '3ヶ月前', text: '初めての体験でしたが、話しやすいスタッフさんばかりで安心して通えそうだと感じました。先生が盛り上げてくれるので頑張れます。' },
@@ -77,7 +77,7 @@ const studios = [
   {
     name: 'Rintosull 渋谷',
     image: '/images/studios/rintosull.webp',
-    rating: 3.0, reviewCount: 82,
+    rating: 4.5, reviewCount: 82,
     reviews: [
       { author: 'K.O', rating: 5, date: '2ヶ月前', text: 'グループレッスンでもサポートが行き届いていて、大型スクリーンの映像で正しいフォームが分かりやすいです。レッスン後の爽快感が気持ちいいです。' },
       { author: 'E.T', rating: 4, date: '3ヶ月前', text: '施設は清潔で雰囲気が良く、初心者でも安心して始められました。ただ人気の時間帯は予約の待ちリストが長くなることがあります。' },
@@ -96,7 +96,7 @@ const studios = [
   {
     name: 'CLUB PILATES 渋谷',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.9, reviewCount: 157,
+    rating: 4.6, reviewCount: 157,
     reviews: [
       { author: 'D.M', rating: 5, date: '2ヶ月前', text: '雰囲気がとても良く、体験レッスンでもインナーマッスルに効かせる動きを丁寧に教えてもらえました。スタッフの説明も非常に分かりやすかったです。' },
       { author: 'R.Y', rating: 5, date: '3ヶ月前', text: '回数を重ねるごとに姿勢が綺麗になっていくのを実感しています。インストラクターが皆さん熱心で、レベル別のプログラムが充実しています。' },
@@ -115,7 +115,7 @@ const studios = [
   {
     name: 'STUDIO IVY 渋谷',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.6, reviewCount: 566,
+    rating: 4.8, reviewCount: 566,
     reviews: [
       { author: 'S.W', rating: 5, date: '2ヶ月前', text: 'スタジオがとてもおしゃれで清潔感があり、完全個室なので集中してレッスンに取り組めます。トレーナーが体の状態に合わせたメニューを組んでくれます。' },
       { author: 'K.M', rating: 5, date: '3ヶ月前', text: 'マンツーマンなので筋肉の使い方や呼吸法を丁寧に修正してもらえます。姿勢が改善されて疲れにくくなりました。' },
@@ -172,7 +172,7 @@ const studios = [
   {
     name: 'YUZU 渋谷',
     image: '/images/studios/yuzu-pilates.webp',
-    rating: 4.3, reviewCount: 50, /* ※reviewCount GoogleMaps未確認 */
+    rating: 4.6, reviewCount: 50, /* ※reviewCount GoogleMaps未確認 */
     reviews: [
       { author: 'L.K', rating: 5, date: '2ヶ月前', text: '回数券制なので自分のペースで通えるのが嬉しいです。スタジオがとても綺麗で落ち着く空間です。トレーナーが体の状態に合わせてメニューを考えてくれます。' },
       { author: 'K.S', rating: 5, date: '3ヶ月前', text: '筋肉の使い方や呼吸法を丁寧に修正してもらえて、姿勢が良くなり疲れにくくなりました。完全個室なのでリラックスして受けられます。' },
@@ -191,7 +191,7 @@ const studios = [
   {
     name: 'BDC PILATES 渋谷（近隣）',
     image: '/images/studios/bdc-pilates.webp',
-    rating: 4.8, reviewCount: 233,
+    rating: 4.7, reviewCount: 233,
     reviews: [
       { author: 'P.K', rating: 5, date: '2ヶ月前', text: '他のマシンピラティスのスタジオに比べて、かなり丁寧に一人ひとりを見てもらえます。姿勢や腰痛が改善されて、体幹の安定を実感しています。' },
       { author: 'M.A', rating: 5, date: '3ヶ月前', text: 'スタジオが清潔で少人数制なので、インストラクターの目が行き届いています。肩こりが楽になり、日常の動きも変わってきました。' },
