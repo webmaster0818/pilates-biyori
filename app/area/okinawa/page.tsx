@@ -21,7 +21,7 @@ const studios = [
     name: 'CLUB PILATES 那覇',
     image: '/images/studios/club-pilates.webp',
     rating: 4.2,
-    reviewCount: 178,
+    reviewCount: 92,
     reviews: [
       {
         author: 'M.T',
@@ -74,7 +74,7 @@ const studios = [
     name: 'Rintosull（リントスル）那覇新都心店',
     image: '/images/studios/rintosull.webp',
     rating: 4.0,
-    reviewCount: 152,
+    reviewCount: 46,
     reviews: [
       {
         author: 'A.I',
@@ -127,7 +127,7 @@ const studios = [
     name: 'ピラティススタジオ ルキナ那覇新都心',
     image: '/images/studios/lucina-naha.webp',
     rating: 4.1,
-    reviewCount: 124,
+    reviewCount: 26,
     reviews: [
       {
         author: 'E.K',
@@ -180,7 +180,7 @@ const studios = [
     name: 'セレスティア 沖縄那覇店',
     image: '/images/studios/celestia-okinawa.webp',
     rating: 4.3,
-    reviewCount: 136,
+    reviewCount: 21,
     reviews: [
       {
         author: 'T.A',
@@ -233,7 +233,7 @@ const studios = [
     name: 'luluto（ルルト）那覇小禄店',
     image: '/images/studios/luluto.webp',
     rating: 4.4,
-    reviewCount: 98,
+    reviewCount: 12,
     reviews: [
       {
         author: 'C.N',
@@ -286,7 +286,7 @@ const studios = [
     name: 'ピラティスisM（イズム）那覇',
     image: '/images/studios/pilates-ism-naha.webp',
     rating: 4.2,
-    reviewCount: 114,
+    reviewCount: 23,
     reviews: [
       {
         author: 'A.K',
@@ -339,7 +339,7 @@ const studios = [
     name: 'ヒーレストピラティス',
     image: '/images/studios/healest-pilates-naha.webp',
     rating: 4.3,
-    reviewCount: 86,
+    reviewCount: 14,
     reviews: [
       {
         author: 'T.N',
@@ -392,7 +392,7 @@ const studios = [
     name: 'ピラティスアクス 那覇新都心店',
     image: '/images/studios/pilates-axe.webp',
     rating: 4.1,
-    reviewCount: 142,
+    reviewCount: 5,
     reviews: [
       {
         author: 'J.K',
@@ -445,7 +445,7 @@ const studios = [
     name: 'ピラティス＆ストレッチ トリム',
     image: '/images/studios/trim-okinawa.webp',
     rating: 4.0,
-    reviewCount: 74,
+    reviewCount: 28,
     reviews: [
       {
         author: 'Y.K',
@@ -498,7 +498,7 @@ const studios = [
     name: 'Pilates KASANE イーアス沖縄豊崎店',
     image: '/images/studios/pilates-kasane.webp',
     rating: 4.1,
-    reviewCount: 168,
+    reviewCount: 15,
     reviews: [
       {
         author: 'H.K',
@@ -551,7 +551,7 @@ const studios = [
     name: 'ピラティスアクス 北谷店',
     image: '/images/studios/pilates-axe.webp',
     rating: 4.0,
-    reviewCount: 108,
+    reviewCount: 18,
     reviews: [
       {
         author: 'D.M',
@@ -604,7 +604,7 @@ const studios = [
     name: 'ピラティススタジオgg',
     image: '/images/studios/pilates-gg-okinawa.webp',
     rating: 4.3,
-    reviewCount: 64,
+    reviewCount: 6,
     reviews: [
       {
         author: 'P.T',
@@ -657,7 +657,7 @@ const studios = [
     name: 'Mohi Pilates 沖縄スタジオ',
     image: '/images/studios/mohi-pilates-okinawa.webp',
     rating: 4.2,
-    reviewCount: 82,
+    reviewCount: 20,
     reviews: [
       {
         author: 'F.Y',
@@ -710,7 +710,7 @@ const studios = [
     name: 'Studio KRN',
     image: '/images/studios/studio-krn-okinawa.webp',
     rating: 4.1,
-    reviewCount: 68,
+    reviewCount: 13,
     reviews: [
       {
         author: 'O.M',

@@ -19,7 +19,7 @@ const studios = [
     name: 'zen place pilates 武蔵小山',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 220,
+    reviewCount: 18,
     reviews: [
       { author: 'M.A', rating: 5, date: '2週間前', text: '武蔵小山駅東口から徒歩1分で洗足からも通いやすい。マットもマシンも両方受けられて満足しています。' },
       { author: 'K.Y', rating: 5, date: '1ヶ月前', text: '2024年に拡張移転してマシンも増設、レッスン枠も拡大されました。設備が充実していて快適です。' },
@@ -40,7 +40,7 @@ const studios = [
     name: 'ピラティスミラー 武蔵小山（近隣）',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.7,
-    reviewCount: 150,
+    reviewCount: 13,
     reviews: [
       { author: 'R.N', rating: 5, date: '1週間前', text: '天井の鏡で自分の動きを確認できるのが新鮮。30分の短時間レッスンで集中できます。女性専用で安心。' },
       { author: 'A.M', rating: 4, date: '2週間前', text: '6名の少人数制で丁寧に見てもらえます。料金もリーズナブルで続けやすいです。' },
@@ -61,7 +61,7 @@ const studios = [
     name: 'ELEMENT 洗足（近隣）',
     image: '/images/studios/element.webp',
     rating: 4.7,
-    reviewCount: 120,
+    reviewCount: 20,
     reviews: [
       { author: 'D.S', rating: 5, date: '4日前', text: '30分のパーソナルレッスンで効率的にトレーニング。マンツーマンだから集中できます。' },
       { author: 'P.K', rating: 4, date: '1週間前', text: '月4回22,000円でパーソナルが受けられるのはコスパが良い。洗足エリアからも通いやすいです。' },
@@ -82,7 +82,7 @@ const studios = [
     name: 'Rintosull 洗足（近隣）',
     image: '/images/studios/rintosull.webp',
     rating: 4.5,
-    reviewCount: 85,
+    reviewCount: 50,
     reviews: [
       { author: 'V.N', rating: 5, date: '1週間前', text: 'LAVA系列で安心感があります。女性専用マシンピラティスで、ホットヨガとの併用もできるのが嬉しい。' },
       { author: 'X.K', rating: 4, date: '2週間前', text: 'マシンピラティス初心者でしたが、丁寧に教えてもらえました。LAVA会員なら割引もあります。' },
@@ -103,7 +103,7 @@ const studios = [
     name: 'ピラティスK 洗足（近隣）',
     image: '/images/studios/pilates-k.webp',
     rating: 4.6,
-    reviewCount: 160,
+    reviewCount: 240,
     reviews: [
       { author: 'W.A', rating: 5, date: '5日前', text: '女性専用のマシンピラティスで安心。月4回11,220円〜でコスパも良い。スタジオがおしゃれです。' },
       { author: 'U.T', rating: 4, date: '2週間前', text: 'グループでのマシンピラティスが楽しい。ボディメイクに特化したプログラムが充実しています。' },

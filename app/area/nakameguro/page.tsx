@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 中目黒スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 195,
+    reviewCount: 14,
     reviews: [
       {
         author: 'S.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'the SILK 中目黒店',
     image: '/images/studios/the-silk.webp',
     rating: 4.8,
-    reviewCount: 170,
+    reviewCount: 162,
     reviews: [
       {
         author: 'R.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'ピラティスミラー 中目黒',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.7,
-    reviewCount: 140,
+    reviewCount: 14,
     reviews: [
       {
         author: 'T.W',

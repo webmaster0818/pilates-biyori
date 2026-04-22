@@ -19,7 +19,7 @@ const studios = [
     name: 'zen place pilates 経堂',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 210,
+    reviewCount: 34,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'zen place pilates 経堂は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
@@ -40,7 +40,7 @@ const studios = [
     name: 'NATURAglam 経堂スタジオ',
     image: '/images/studios/naturaglam.webp',
     rating: 4.6,
-    reviewCount: 80,
+    reviewCount: 21,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'NATURAglam 経堂スタジオは初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
@@ -61,7 +61,7 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 経堂（近隣）',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.5,
-    reviewCount: 100,
+    reviewCount: 223,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'URBAN CLASSIC PILATES 経堂（近隣）は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
@@ -82,7 +82,7 @@ const studios = [
     name: 'ELEMENT 経堂（近隣）',
     image: '/images/studios/element.webp',
     rating: 4.7,
-    reviewCount: 130,
+    reviewCount: 9,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'ELEMENT 経堂（近隣）は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
@@ -103,7 +103,7 @@ const studios = [
     name: 'ピラティスK 経堂（近隣）',
     image: '/images/studios/pilates-k.webp',
     rating: 4.6,
-    reviewCount: 155,
+    reviewCount: 122,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'ピラティスK 経堂（近隣）は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
@@ -124,7 +124,7 @@ const studios = [
     name: 'CLUB PILATES 経堂（近隣）',
     image: '/images/studios/club-pilates.webp',
     rating: 4.6,
-    reviewCount: 180,
+    reviewCount: 144,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'CLUB PILATES 経堂（近隣）は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },

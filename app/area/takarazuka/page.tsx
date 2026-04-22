@@ -21,7 +21,7 @@ const studios = [
     name: 'ピラティスアヴニール 宝塚店',
     image: '/images/studios/pilates-avenir-shinosaka.webp',
     rating: 4.8,
-    reviewCount: 145,
+    reviewCount: 13,
     reviews: [
       {
         author: 'M.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'PALES（パレス）宝塚店',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 112,
+    reviewCount: 4,
     reviews: [
       {
         author: 'R.Y',
@@ -127,7 +127,7 @@ const studios = [
     name: 'studio Y i-grek（スタジオイグレック）',
     image: '/images/studios/club-pilates.webp',
     rating: 4.9,
-    reviewCount: 68,
+    reviewCount: 22,
     reviews: [
       {
         author: 'H.M',
@@ -180,7 +180,7 @@ const studios = [
     name: 'マシンピラティスサロン Jiku',
     image: '/images/studios/pilates-mee.webp',
     rating: 4.7,
-    reviewCount: 56,
+    reviewCount: 12,
     reviews: [
       {
         author: 'N.I',
@@ -233,7 +233,7 @@ const studios = [
     name: 'PILATES AURA（ピラティスアウラ）宝塚',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 42,
+    reviewCount: 26,
     reviews: [
       {
         author: 'L.H',
@@ -286,7 +286,7 @@ const studios = [
     name: 'むすびピラティス宝塚',
     image: '/images/studios/pilates-studio-dep.webp',
     rating: 4.8,
-    reviewCount: 38,
+    reviewCount: 9,
     reviews: [
       {
         author: 'J.O',

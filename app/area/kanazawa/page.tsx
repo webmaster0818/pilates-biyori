@@ -21,7 +21,7 @@ const studios = [
     name: 'ピラティススタジオDEP 金沢店 近岡スタジオ',
     image: '/images/studios/dep-kanazawa.webp',
     rating: 4.8,
-    reviewCount: 142,
+    reviewCount: 14,
     reviews: [
       {
         author: 'K.T',
@@ -74,7 +74,7 @@ const studios = [
     name: 'ウェルネス・ラボ 金沢駅西',
     image: '/images/studios/wellness-lab-kanazawa.webp',
     rating: 4.6,
-    reviewCount: 98,
+    reviewCount: 17,
     reviews: [
       {
         author: 'A.K',
@@ -127,7 +127,7 @@ const studios = [
     name: 'LYFE（ライフ）金沢',
     image: '/images/studios/lyfe-kanazawa.webp',
     rating: 4.7,
-    reviewCount: 76,
+    reviewCount: 25,
     reviews: [
       {
         author: 'S.O',
@@ -180,7 +180,7 @@ const studios = [
     name: 'AND STUDIO（アンドスタジオ）金沢',
     image: '/images/studios/pilates-studio-dep.webp',
     rating: 4.5,
-    reviewCount: 112,
+    reviewCount: 19,
     reviews: [
       {
         author: 'E.S',
@@ -233,7 +233,7 @@ const studios = [
     name: 'ピラティス教室Hirameき',
     image: '/images/studios/pilates-studio-dep.webp',
     rating: 4.5,
-    reviewCount: 64,
+    reviewCount: 3,
     reviews: [
       {
         author: 'Y.T',

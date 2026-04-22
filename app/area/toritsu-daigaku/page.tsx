@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 都立大学',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 190,
+    reviewCount: 29,
     reviews: [
       {
         author: 'S.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'Pilates Mee 都立大学店',
     image: '/images/studios/pilates-mee.webp',
     rating: 4.7,
-    reviewCount: 130,
+    reviewCount: 5,
     reviews: [
       {
         author: 'R.N',
@@ -126,7 +126,7 @@ const studios = [
     name: 'PILATES STUDIO noa 都立大校',
     image: '/images/studios/pilates-studio-noa.webp',
     rating: 4.6,
-    reviewCount: 110,
+    reviewCount: 14,
     reviews: [
       {
         author: 'T.S',
@@ -180,7 +180,7 @@ const studios = [
     name: 'LAVIA 都立大学店',
     image: '/images/studios/lavia-toritsudaigaku.webp',
     rating: 4.9,
-    reviewCount: 85,
+    reviewCount: 27,
     reviews: [
       {
         author: 'M.T',
@@ -232,7 +232,7 @@ const studios = [
     name: 'personal studio SUNNY',
     image: '/images/studios/studio-sunny-toritsudaigaku.webp',
     rating: 4.8,
-    reviewCount: 75,
+    reviewCount: 29,
     reviews: [
       {
         author: 'L.M',
@@ -283,7 +283,7 @@ const studios = [
     name: 'ピラティスアラベスク',
     image: '/images/studios/pilates-arabesque-toritsudaigaku.webp',
     rating: 4.5,
-    reviewCount: 65,
+    reviewCount: 12,
     reviews: [
       {
         author: 'A.M',
@@ -334,7 +334,7 @@ const studios = [
     name: 'STUDIO IVY 学芸大学店',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
-    reviewCount: 95,
+    reviewCount: 6,
     reviews: [
       {
         author: 'R.N',
@@ -386,7 +386,7 @@ const studios = [
     name: 'ピラティスミラー 学芸大学',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.6,
-    reviewCount: 120,
+    reviewCount: 22,
     reviews: [
       {
         author: 'F.T',
@@ -439,7 +439,7 @@ const studios = [
     name: 'the SILK 自由が丘店',
     image: '/images/studios/the-silk.webp',
     rating: 4.7,
-    reviewCount: 220,
+    reviewCount: 156,
     reviews: [
       {
         author: 'I.K',
@@ -492,7 +492,7 @@ const studios = [
     name: 'ピラティスミラー 自由が丘',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.5,
-    reviewCount: 100,
+    reviewCount: 10,
     reviews: [
       {
         author: 'L.N',
@@ -545,7 +545,7 @@ const studios = [
     name: 'zen place pilates 自由が丘',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 200,
+    reviewCount: 17,
     reviews: [
       {
         author: 'O.Q',
@@ -598,7 +598,7 @@ const studios = [
     name: 'PILATES YOGA &a（アンドエー）自由が丘店',
     image: '/images/studios/pilates-and-a-yoga.webp',
     rating: 4.8,
-    reviewCount: 70,
+    reviewCount: 17,
     reviews: [
       {
         author: 'R.T',

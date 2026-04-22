@@ -21,7 +21,7 @@ const studios = [
     name: 'Studio-BMP 虎ノ門店',
     image: '/images/studios/studio-bmp-akasaka.webp',
     rating: 4.8,
-    reviewCount: 156,
+    reviewCount: 11,
     reviews: [
       {
         author: 'K.M',
@@ -74,7 +74,7 @@ const studios = [
     name: 'Lume Pilates 赤坂',
     image: '/images/studios/lume-akasaka.webp',
     rating: 4.7,
-    reviewCount: 89,
+    reviewCount: 7,
     reviews: [
       {
         author: 'E.M',
@@ -127,7 +127,7 @@ const studios = [
     name: 'ピラティスK 銀座店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 215,
+    reviewCount: 239,
     reviews: [
       {
         author: 'M.N',
@@ -180,7 +180,7 @@ const studios = [
     name: 'the SILK 銀座店',
     image: '/images/studios/the-silk.webp',
     rating: 4.7,
-    reviewCount: 178,
+    reviewCount: 312,
     reviews: [
       {
         author: 'E.Y',
@@ -233,7 +233,7 @@ const studios = [
     name: 'CREA Pilates 新橋/銀座店',
     image: '/images/studios/crea-pilates-shimbashi.webp',
     rating: 4.6,
-    reviewCount: 92,
+    reviewCount: 16,
     reviews: [
       {
         author: 'H.A',

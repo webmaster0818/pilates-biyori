@@ -19,7 +19,7 @@ const studios = [
     name: 'Le Mieux（ルミュー）',
     image: '/images/studios/element.webp',
     rating: 4.7,
-    reviewCount: 35,
+    reviewCount: 10,
     reviews: [
       { author: 'A.K', rating: 5, date: '1週間前', text: '春日部駅東口徒歩1分のプライベートピラティス。保健体育教諭の資格を持つインストラクターが在籍。マシンとマットを組み合わせた指導。' },
       { author: 'B.M', rating: 5, date: '2週間前', text: '春日��エリアでプライベート専門が魅力のスタジオ。通いやすい立地で続けやすいです。' },
@@ -52,7 +52,7 @@ const studios = [
     name: 'さんはぴ 春日部店（2026年5月OPEN）',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
-    reviewCount: 0,
+    reviewCount: 14,
     reviews: [
       { author: 'D.L', rating: 5, date: '1週間前', text: '2026年5月オープン予定の完全個室パーソナルピラティス。手ぶらで通え、40〜60代の会員が多数。継続率90%以上。' },
       { author: 'E.N', rating: 5, date: '2週間前', text: '春日��エリアで2026年5月OPENが魅力のスタジオ。通いやすい立地で続けやすいです。' },
@@ -85,7 +85,7 @@ const studios = [
     name: 'exeed pilates 春日部',
     image: '/images/studios/exeed-pilates-yoyogi.webp',
     rating: 4.8,
-    reviewCount: 25,
+    reviewCount: 13,
     reviews: [
       { author: 'G.M', rating: 5, date: '1週間前', text: '完全個室パーソナル。リフォーマー・チェア・タワーなどフルアイテム完備。500種類以上のエクササイズからオーダーメイド。' },
       { author: 'H.O', rating: 5, date: '2週間前', text: '春日��エリアで完全個室パーソナルが魅力のスタジオ。通いやすい立地で続けやすいです。' },
@@ -118,7 +118,7 @@ const studios = [
     name: 'Renne（レン）ピラティススタジオ',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.5,
-    reviewCount: 20,
+    reviewCount: 7,
     reviews: [
       { author: 'J.N', rating: 5, date: '1週間前', text: '完全予約制のプライベートレッスン中心。マットとマシンを併用し一人ひとりに合わせたプログラム。運動初心者も安���。' },
       { author: 'K.P', rating: 5, date: '2週間前', text: '春日��エリアで完全予約制が魅力のスタジオ。通いやすい立地で続けやすいです。' },
@@ -151,7 +151,7 @@ const studios = [
     name: 'Rintosull（東武沿線）',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 80,
+    reviewCount: 104,
     reviews: [
       { author: 'M.O', rating: 5, date: '1週間前', text: 'LAVA系列の女性専用マシンピラティス。東武沿線の店舗を利用可能。体験無料キャンペーン中。' },
       { author: 'N.Q', rating: 5, date: '2週間前', text: '春日��エリアで女性専用が魅力のスタジオ。通いやすい立地で続けやすいです。' },

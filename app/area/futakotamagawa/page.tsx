@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 二子玉川',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 198,
+    reviewCount: 32,
     reviews: [
       {
         author: 'M.S',
@@ -74,7 +74,7 @@ const studios = [
     name: 'the SILK 二子玉川店',
     image: '/images/studios/the-silk.webp',
     rating: 4.8,
-    reviewCount: 167,
+    reviewCount: 356,
     reviews: [
       {
         author: 'N.Y',
@@ -127,7 +127,7 @@ const studios = [
     name: 'BDC PILATES 二子玉川',
     image: '/images/studios/bdc-pilates.webp',
     rating: 4.7,
-    reviewCount: 145,
+    reviewCount: 13,
     reviews: [
       {
         author: 'R.K',
@@ -180,7 +180,7 @@ const studios = [
     name: 'CLUB PILATES 二子玉川店',
     image: '/images/studios/club-pilates.webp',
     rating: 4.7,
-    reviewCount: 134,
+    reviewCount: 123,
     reviews: [
       {
         author: 'E.K',
@@ -233,7 +233,7 @@ const studios = [
     name: 'ピラティスミラー 二子玉川',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.6,
-    reviewCount: 112,
+    reviewCount: 15,
     reviews: [
       {
         author: 'T.I',

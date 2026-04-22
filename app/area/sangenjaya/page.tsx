@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 三軒茶屋',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 265,
+    reviewCount: 32,
     reviews: [
       {
         author: 'S.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'luluto（ルルト）三軒茶屋',
     image: '/images/studios/luluto.webp',
     rating: 4.9,
-    reviewCount: 120,
+    reviewCount: 6,
     reviews: [
       {
         author: 'T.W',
@@ -126,7 +126,7 @@ const studios = [
     name: 'ELEMENT 三軒茶屋本店',
     image: '/images/studios/element.webp',
     rating: 4.7,
-    reviewCount: 150,
+    reviewCount: 22,
     reviews: [
       {
         author: 'K.S',
@@ -178,7 +178,7 @@ const studios = [
     name: 'NATURAglam 三軒茶屋',
     image: '/images/studios/naturaglam.webp',
     rating: 4.6,
-    reviewCount: 95,
+    reviewCount: 17,
     reviews: [
       {
         author: 'R.M',
@@ -229,7 +229,7 @@ const studios = [
     name: 'ピラティスミラー 三軒茶屋',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.7,
-    reviewCount: 180,
+    reviewCount: 42,
     reviews: [
       {
         author: 'R.N',
@@ -279,7 +279,7 @@ const studios = [
     name: 'STUDIO IVY 三軒茶屋',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.7,
-    reviewCount: 85,
+    reviewCount: 8,
     reviews: [
       {
         author: 'D.T',
@@ -330,7 +330,7 @@ const studios = [
     name: 'CLUB PILATES 三軒茶屋（近隣）',
     image: '/images/studios/club-pilates.webp',
     rating: 4.6,
-    reviewCount: 200,
+    reviewCount: 104,
     reviews: [
       {
         author: 'F.H',
@@ -382,7 +382,7 @@ const studios = [
     name: 'ピラティスK 三軒茶屋（近隣）',
     image: '/images/studios/pilates-k.webp',
     rating: 4.6,
-    reviewCount: 170,
+    reviewCount: 117,
     reviews: [
       {
         author: 'W.A',
@@ -434,7 +434,7 @@ const studios = [
     name: 'Rintosull 三軒茶屋（近隣）',
     image: '/images/studios/rintosull.webp',
     rating: 4.5,
-    reviewCount: 90,
+    reviewCount: 44,
     reviews: [
       {
         author: 'V.N',
@@ -485,7 +485,7 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 三軒茶屋（近隣）',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.5,
-    reviewCount: 130,
+    reviewCount: 127,
     reviews: [
       {
         author: 'O.H',
@@ -537,7 +537,7 @@ const studios = [
     name: 'CALDO 三軒茶屋（近隣）',
     image: '/images/studios/caldo.webp',
     rating: 4.4,
-    reviewCount: 220,
+    reviewCount: 86,
     reviews: [
       {
         author: 'T.A',

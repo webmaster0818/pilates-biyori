@@ -21,7 +21,7 @@ const studios = [
     name: 'Rintosull 王子店',
     image: '\/images\/studios\/rintosull.webp',
     rating: 4.7,
-    reviewCount: 142,
+    reviewCount: 45,
     reviews: [
       {
         author: 'M.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'Pilates Studio M',
     image: '\/images\/studios\/pilates-studio-m-oji.webp',
     rating: 4.8,
-    reviewCount: 68,
+    reviewCount: 3,
     reviews: [
       {
         author: 'S.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'zen place pilates 駒込スタジオ',
     image: '\/images\/studios\/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 185,
+    reviewCount: 21,
     reviews: [
       {
         author: 'T.M',
@@ -180,7 +180,7 @@ const studios = [
     name: 'ピラティスK 王子（近隣エリア）',
     image: '\/images\/studios\/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 198,
+    reviewCount: 136,
     reviews: [
       {
         author: 'E.M',

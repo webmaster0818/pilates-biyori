@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 代々木上原スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 265,
+    reviewCount: 24,
     reviews: [
       {
         author: 'S.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 代々木上原店',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.7,
-    reviewCount: 180,
+    reviewCount: 271,
     reviews: [
       {
         author: 'R.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'Olaピラティススタジオ',
     image: '/images/studios/ola-pilates-yoyogiuehara.webp',
     rating: 4.9,
-    reviewCount: 120,
+    reviewCount: 20,
     reviews: [
       {
         author: 'T.W',

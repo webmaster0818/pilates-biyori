@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 三田スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 200,
+    reviewCount: 17,
     reviews: [
       {
         author: 'S.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'the SILK 田町店',
     image: '/images/studios/the-silk.webp',
     rating: 4.7,
-    reviewCount: 145,
+    reviewCount: 175,
     reviews: [
       {
         author: 'R.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'CLUB PILATES 田町店',
     image: '/images/studios/club-pilates.webp',
     rating: 4.7,
-    reviewCount: 120,
+    reviewCount: 154,
     reviews: [
       {
         author: 'T.M',
@@ -180,7 +180,7 @@ const studios = [
     name: 'zen place pilates 田町スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 160,
+    reviewCount: 24,
     reviews: [
       {
         author: 'T.W',
@@ -233,7 +233,7 @@ const studios = [
     name: 'ピラティススタジオB&B 田町店',
     image: '/images/studios/pilates-bb.webp',
     rating: 5.0,
-    reviewCount: 500,
+    reviewCount: 15,
     reviews: [
       {
         author: 'E.S',
@@ -285,7 +285,7 @@ const studios = [
     name: 'ELEMENT（エレメント）田町・三田店',
     image: '/images/studios/element.webp',
     rating: 4.6,
-    reviewCount: 80,
+    reviewCount: 21,
     reviews: [
       {
         author: 'A.T',
@@ -337,7 +337,7 @@ const studios = [
     name: 'STUDIO IVY 三田店',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
-    reviewCount: 90,
+    reviewCount: 9,
     reviews: [
       {
         author: 'C.K',
@@ -389,7 +389,7 @@ const studios = [
     name: 'パーソナルピラティススタジオ hibi',
     image: '/images/studios/pilates-hibi-tamachi.webp',
     rating: 4.9,
-    reviewCount: 45,
+    reviewCount: 30,
     reviews: [
       {
         author: 'J.S',
@@ -441,7 +441,7 @@ const studios = [
     name: 'Rintosull（リントスル）品川店',
     image: '/images/studios/rintosull.webp',
     rating: 4.5,
-    reviewCount: 60,
+    reviewCount: 98,
     reviews: [
       {
         author: 'Y.K',
@@ -493,7 +493,7 @@ const studios = [
     name: 'Stella Pilates style training',
     image: '/images/studios/stella-pilates-tamachi.webp',
     rating: 4.7,
-    reviewCount: 55,
+    reviewCount: 8,
     reviews: [
       {
         author: 'M.I',

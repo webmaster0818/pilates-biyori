@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 赤坂',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 265,
+    reviewCount: 12,
     reviews: [
       {
         author: 'S.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'the SILK 赤坂見附店',
     image: '/images/studios/the-silk.webp',
     rating: 4.8,
-    reviewCount: 198,
+    reviewCount: 368,
     reviews: [
       {
         author: 'A.M',
@@ -127,7 +127,7 @@ const studios = [
     name: 'PILATES STUDIO noa 赤坂',
     image: '/images/studios/pilates-studio-noa.webp',
     rating: 4.7,
-    reviewCount: 134,
+    reviewCount: 32,
     reviews: [
       {
         author: 'M.H',
@@ -180,7 +180,7 @@ const studios = [
     name: 'STUDIO IVY 赤坂店',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.7,
-    reviewCount: 112,
+    reviewCount: 11,
     reviews: [
       {
         author: 'E.T',
@@ -233,7 +233,7 @@ const studios = [
     name: 'STUDIO IVY 赤坂ANNEX店',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.6,
-    reviewCount: 87,
+    reviewCount: 12,
     reviews: [
       {
         author: 'C.N',
@@ -286,7 +286,7 @@ const studios = [
     name: 'Studio-BMP 赤坂店',
     image: '/images/studios/studio-bmp-akasaka.webp',
     rating: 4.8,
-    reviewCount: 95,
+    reviewCount: 30,
     reviews: [
       {
         author: 'J.M',
@@ -339,7 +339,7 @@ const studios = [
     name: 'Rintosull 赤坂見附',
     image: '/images/studios/rintosull.webp',
     rating: 4.5,
-    reviewCount: 108,
+    reviewCount: 141,
     reviews: [
       {
         author: 'Y.W',
@@ -392,7 +392,7 @@ const studios = [
     name: 'WECLE 赤坂',
     image: '/images/studios/wecle-pilates.webp',
     rating: 4.6,
-    reviewCount: 92,
+    reviewCount: 19,
     reviews: [
       {
         author: 'A.H',

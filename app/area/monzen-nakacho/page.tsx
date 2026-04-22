@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 門前仲町スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 102,
+    reviewCount: 20,
     reviews: [
       {
         author: 'M.K',
@@ -75,7 +75,7 @@ const studios = [
     name: 'the SILK',
     image: '/images/studios/the-silk.webp',
     rating: 4.8,
-    reviewCount: 89,
+    reviewCount: 300,
     reviews: [
       {
         author: 'E.M',
@@ -128,7 +128,7 @@ const studios = [
     name: 'ピラティススタジオDIVA',
     image: '/images/studios/pilates-diva-monzennakacho.webp',
     rating: 4.9,
-    reviewCount: 56,
+    reviewCount: 6,
     reviews: [
       {
         author: 'A.T',
@@ -181,7 +181,7 @@ const studios = [
     name: 'YARD 清澄白河',
     image: '/images/studios/yard.webp',
     rating: 4.6,
-    reviewCount: 74,
+    reviewCount: 19,
     reviews: [
       {
         author: 'K.N',
@@ -235,7 +235,7 @@ const studios = [
     name: 'スタジオプラス 清澄白河',
     image: '/images/studios/studio-plus-kiyosumi.webp',
     rating: 4.7,
-    reviewCount: 61,
+    reviewCount: 21,
     reviews: [
       {
         author: 'M.T',

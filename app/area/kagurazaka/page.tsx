@@ -21,7 +21,7 @@ const studios = [
     name: 'CLUB PILATES 神楽坂店',
     image: '/images/studios/club-pilates.webp',
     rating: 4.7,
-    reviewCount: 142,
+    reviewCount: 82,
     reviews: [
       {
         author: 'S.N',
@@ -74,7 +74,7 @@ const studios = [
     name: 'zen place pilates 飯田橋スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 198,
+    reviewCount: 13,
     reviews: [
       {
         author: 'K.S',
@@ -127,7 +127,7 @@ const studios = [
     name: 'Pilates Mee 神楽坂・飯田橋店',
     image: '/images/studios/pilates-mee.webp',
     rating: 4.8,
-    reviewCount: 95,
+    reviewCount: 10,
     reviews: [
       {
         author: 'C.M',
@@ -180,7 +180,7 @@ const studios = [
     name: 'Repilates 飯田橋神楽坂店',
     image: '/images/studios/repilates.webp',
     rating: 4.6,
-    reviewCount: 115,
+    reviewCount: 18,
     reviews: [
       {
         author: 'R.H',
@@ -233,7 +233,7 @@ const studios = [
     name: 'ルルト 飯田橋・神楽坂店',
     image: '/images/studios/luluto.webp',
     rating: 4.8,
-    reviewCount: 88,
+    reviewCount: 10,
     reviews: [
       {
         author: 'T.K',

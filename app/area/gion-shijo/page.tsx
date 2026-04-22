@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 京都',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 198,
+    reviewCount: 20,
     reviews: [
       {
         author: 'M.S',
@@ -74,7 +74,7 @@ const studios = [
     name: 'ピラティスK 京都四条烏丸店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 156,
+    reviewCount: 191,
     reviews: [
       {
         author: 'A.W',
@@ -127,7 +127,7 @@ const studios = [
     name: 'Rintosull 京都四条烏丸店',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 128,
+    reviewCount: 158,
     reviews: [
       {
         author: 'Y.N',
@@ -180,7 +180,7 @@ const studios = [
     name: 'Pilates MUSE 京都四条大宮',
     image: '/images/studios/pilates-muse.webp',
     rating: 4.7,
-    reviewCount: 89,
+    reviewCount: 27,
     reviews: [
       {
         author: 'C.N',
@@ -233,7 +233,7 @@ const studios = [
     name: 'Pilates KASANE 四条烏丸店',
     image: '/images/studios/pilates-kasane.webp',
     rating: 4.7,
-    reviewCount: 95,
+    reviewCount: 21,
     reviews: [
       {
         author: 'S.Y',

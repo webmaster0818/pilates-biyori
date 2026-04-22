@@ -21,7 +21,7 @@ const studios = [
     name: 'ピラティスK 久屋大通パーク店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.1,
-    reviewCount: 178,
+    reviewCount: 148,
     reviews: [
       { author: 'M.K', rating: 5, date: '1週間前', text: '久屋大通パーク内にあるので栄でのショッピング帰りにそのまま通えます。地下鉄東山線・名城線からのアクセスが抜群。音楽×暗闇レッスンが楽しくて毎回あっという間です。' },
       { author: 'A.S', rating: 4, date: '2週間前', text: '女性専用なので周りの目を気にせず集中できます。月4回13,420円で無料体験もあるので試しやすい。名古屋駅からも地下鉄で一本。' },
@@ -59,7 +59,7 @@ const studios = [
     name: 'luluto 名古屋（名駅店・栄店・金山店・大曽根店）',
     image: '/images/studios/luluto.webp',
     rating: 4.3,
-    reviewCount: 156,
+    reviewCount: 14,
     reviews: [
       { author: 'T.H', rating: 5, date: '1週間前', text: '理学療法士が考案したプログラムなので安心感が違います。名古屋駅店に通っていますが、JR中央線や名鉄からもアクセスしやすい。身体の使い方が変わりました。' },
       { author: 'R.M', rating: 5, date: '2週間前', text: '栄店に通っています。地下鉄東山線の栄駅からすぐ。医療的視点からの身体分析が丁寧で、リハビリ目的でも安心して通えます。' },
@@ -97,7 +97,7 @@ const studios = [
     name: 'Two Three 名古屋',
     image: '/images/studios/two-three-pilates.webp',
     rating: 4.1,
-    reviewCount: 124,
+    reviewCount: 14,
     reviews: [
       { author: 'S.O', rating: 5, date: '10日前', text: '最大8名の少人数制なので先生の目がしっかり行き届きます。名古屋駅エリアからも地下鉄東山線で通いやすい。初心者でも安心でした。' },
       { author: 'N.T', rating: 4, date: '3週間前', text: 'リフォーマーだけでなくスパインコレクターやコンビチェアなどマシンの種類が豊富。いろんなアプローチで身体を動かせるのが良い。' },
@@ -134,7 +134,7 @@ const studios = [
     name: 'REBORN（リボーン）名古屋',
     image: '/images/studios/reborn-nagoya.webp',
     rating: 4.2,
-    reviewCount: 98,
+    reviewCount: 12,
     reviews: [
       { author: 'H.Y', rating: 5, date: '5日前', text: '設備が本当に充実していて驚きました。プライベートレッスンなので自分の目的に合わせたメニューを組んでもらえます。名古屋駅から地下鉄東山線ですぐ。' },
       { author: 'C.M', rating: 4, date: '2週間前', text: 'グループレッスンが不安だったのでプライベート中心のここを選びました。先生が丁寧で、ピラティスを深く学びたい人にぴったり。' },
@@ -172,7 +172,7 @@ const studios = [
     name: 'ピラティススタジオアステル（栄店・名駅店）',
     image: '/images/studios/astel-pilates-nagoya.webp',
     rating: 4.2,
-    reviewCount: 112,
+    reviewCount: 23,
     reviews: [
       { author: 'F.W', rating: 5, date: '1週間前', text: '栄店に通っています。地下鉄東山線の栄駅から近く、1回のレッスンで効果を実感できたのには驚きました。自分の身体の癖を知ることができます。' },
       { author: 'D.A', rating: 4, date: '2週間前', text: '名駅店はJR中央線・名鉄名古屋駅からアクセスしやすい。南青山にも展開しているだけあって洗練された雰囲気。' },
@@ -210,7 +210,7 @@ const studios = [
     name: 'ナグスタジオ（名古屋市内4店舗）',
     image: '/images/studios/nag-studio-nagoya.webp',
     rating: 4.0,
-    reviewCount: 142,
+    reviewCount: 19,
     reviews: [
       { author: 'P.T', rating: 4, date: '5日前', text: 'イオン則武新町店に通っています。名古屋駅から近くて買い物ついでに寄れるのが最高。ピラティスと溶岩石ホットヨガの両方楽しめます。' },
       { author: 'G.H', rating: 4, date: '2週間前', text: '4店舗全部使えるのがありがたい。星が丘テラス店は地下鉄東山線の星ヶ丘駅直結で雨の日も便利。' },
@@ -248,7 +248,7 @@ const studios = [
     name: 'Pilates Studio Tree',
     image: '/images/studios/pilates-tree-nagoya.webp',
     rating: 4.1,
-    reviewCount: 86,
+    reviewCount: 16,
     reviews: [
       { author: 'W.M', rating: 5, date: '1週間前', text: 'Peak Pilates養成コースに参加しています。著名なインストラクターから直接学べるのが名古屋では貴重。プロを目指す方に本当におすすめ。' },
       { author: 'V.I', rating: 4, date: '3週間前', text: '初心者として通い始めましたが、養成コースも開講しているだけあってインストラクターの質が高い。基礎からしっかり教えてもらえます。' },
@@ -286,7 +286,7 @@ const studios = [
     name: 'studio nano（名駅・伏見）',
     image: '/images/studios/studio-nano-nagoya.webp',
     rating: 4.2,
-    reviewCount: 104,
+    reviewCount: 19,
     reviews: [
       { author: 'Q.F', rating: 5, date: '5日前', text: '姿勢矯正専門ということで選びましたが、セルフコンディショニングまで教えてもらえるのが嬉しい。名古屋駅から歩ける距離で名鉄やJRからも便利。' },
       { author: 'Z.R', rating: 4, date: '2週間前', text: '伏見店は地下鉄東山線の伏見駅から近くて通いやすい。腰痛改善で通い始めて3ヶ月、かなり楽になりました。' },

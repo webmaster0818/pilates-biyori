@@ -21,7 +21,7 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 志木店',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.7,
-    reviewCount: 130,
+    reviewCount: 191,
     reviews: [
       {
         author: 'K.S',
@@ -74,7 +74,7 @@ const studios = [
     name: 'ピラティスミラー 志木',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.7,
-    reviewCount: 105,
+    reviewCount: 35,
     reviews: [
       {
         author: 'Y.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'パーソナルマシンピラティス SAKURA 志木店',
     image: '/images/studios/sakura-pilates-gotanda.webp',
     rating: 4.8,
-    reviewCount: 78,
+    reviewCount: 8,
     reviews: [
       {
         author: 'E.S',
@@ -180,7 +180,7 @@ const studios = [
     name: 'SOELU 志木スタジオ',
     image: '/images/studios/soelu-minamikoshigaya.webp',
     rating: 4.6,
-    reviewCount: 90,
+    reviewCount: 14,
     reviews: [
       {
         author: 'C.K',
@@ -233,7 +233,7 @@ const studios = [
     name: 'zen place pilates 志木',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
-    reviewCount: 85,
+    reviewCount: 31,
     reviews: [
       {
         author: 'M.K',

@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 新宿',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 265,
+    reviewCount: 21,
     reviews: [
       {
         author: 'S.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'ピラティスK 新宿店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 186,
+    reviewCount: 113,
     reviews: [
       {
         author: 'T.W',
@@ -127,7 +127,7 @@ const studios = [
     name: 'the SILK 新宿',
     image: '/images/studios/the-silk.webp',
     rating: 4.8,
-    reviewCount: 195,
+    reviewCount: 371,
     reviews: [
       {
         author: 'E.K',
@@ -180,7 +180,7 @@ const studios = [
     name: 'Rintosull 新宿西口駅前店',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 142,
+    reviewCount: 157,
     reviews: [
       {
         author: 'R.N',
@@ -233,7 +233,7 @@ const studios = [
     name: 'CLUB PILATES 新宿',
     image: '/images/studios/club-pilates.webp',
     rating: 4.7,
-    reviewCount: 158,
+    reviewCount: 90,
     reviews: [
       {
         author: 'D.T',
@@ -286,7 +286,7 @@ const studios = [
     name: 'STUDIO IVY 新宿',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.9,
-    reviewCount: 98,
+    reviewCount: 7,
     reviews: [
       {
         author: 'A.K',
@@ -339,7 +339,7 @@ const studios = [
     name: 'ELEMENT 新宿',
     image: '/images/studios/element.webp',
     rating: 4.7,
-    reviewCount: 112,
+    reviewCount: 7,
     reviews: [
       {
         author: 'Y.M',
@@ -392,7 +392,7 @@ const studios = [
     name: 'ピラティスミラー 新宿',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.6,
-    reviewCount: 87,
+    reviewCount: 18,
     reviews: [
       {
         author: 'M.K',
@@ -445,7 +445,7 @@ const studios = [
     name: 'BDC PILATES 新宿（近隣）',
     image: '/images/studios/bdc-pilates.webp',
     rating: 4.8,
-    reviewCount: 134,
+    reviewCount: 6,
     reviews: [
       {
         author: 'L.M',
@@ -498,7 +498,7 @@ const studios = [
     name: 'NATURAglam 新宿（近隣）',
     image: '/images/studios/naturaglam.webp',
     rating: 4.5,
-    reviewCount: 76,
+    reviewCount: 16,
     reviews: [
       {
         author: 'F.I',
@@ -551,7 +551,7 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 新宿',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.5,
-    reviewCount: 103,
+    reviewCount: 246,
     reviews: [
       {
         author: 'J.W',
@@ -604,7 +604,7 @@ const studios = [
     name: 'CALDO 新宿',
     image: '/images/studios/caldo.webp',
     rating: 4.5,
-    reviewCount: 168,
+    reviewCount: 203,
     reviews: [
       {
         author: 'P.S',

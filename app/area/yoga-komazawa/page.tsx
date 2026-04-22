@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 用賀スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 187,
+    reviewCount: 23,
     reviews: [
       {
         author: 'K.S',
@@ -74,7 +74,7 @@ const studios = [
     name: 'zen place pilates 駒沢大学スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 162,
+    reviewCount: 33,
     reviews: [
       {
         author: 'Y.M',
@@ -127,7 +127,7 @@ const studios = [
     name: 'ピラティススタジオnoa 駒沢',
     image: '/images/studios/pilates-studio-noa.webp',
     rating: 4.7,
-    reviewCount: 145,
+    reviewCount: 29,
     reviews: [
       {
         author: 'S.A',
@@ -180,7 +180,7 @@ const studios = [
     name: 'I_PILATES',
     image: '/images/studios/i-pilates-komazawa.webp',
     rating: 4.9,
-    reviewCount: 78,
+    reviewCount: 6,
     reviews: [
       {
         author: 'T.Y',
@@ -232,7 +232,7 @@ const studios = [
     name: 'Pilates Mee 駒沢大学店',
     image: '/images/studios/pilates-mee.webp',
     rating: 4.6,
-    reviewCount: 92,
+    reviewCount: 15,
     reviews: [
       {
         author: 'A.I',
@@ -284,7 +284,7 @@ const studios = [
     name: 'ELEMENT 駒沢大学店',
     image: '/images/studios/element.webp',
     rating: 4.6,
-    reviewCount: 85,
+    reviewCount: 5,
     reviews: [
       {
         author: 'K.N',

@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.3,
-    reviewCount: 312,
+    reviewCount: 34,
     reviews: [
       {
         author: 'M.T',
@@ -74,7 +74,7 @@ const studios = [
     name: 'ピラティスK',
     image: '/images/studios/pilates-k.webp',
     rating: 4.0,
-    reviewCount: 245,
+    reviewCount: 234,
     reviews: [
       {
         author: 'S.T',
@@ -127,7 +127,7 @@ const studios = [
     name: 'CLUB PILATES',
     image: '/images/studios/club-pilates.webp',
     rating: 4.1,
-    reviewCount: 178,
+    reviewCount: 118,
     reviews: [
       {
         author: 'A.M',
@@ -180,7 +180,7 @@ const studios = [
     name: 'ピラティスミラー',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.2,
-    reviewCount: 132,
+    reviewCount: 11,
     reviews: [
       {
         author: 'N.H',
@@ -232,7 +232,7 @@ const studios = [
     name: 'Studio Yoggy',
     image: '/images/studios/studio-yoggy.webp',
     rating: 4.1,
-    reviewCount: 156,
+    reviewCount: 28,
     reviews: [
       {
         author: 'H.W',
@@ -285,7 +285,7 @@ const studios = [
     name: 'ルルト（luluto）',
     image: '/images/studios/luluto.webp',
     rating: 4.3,
-    reviewCount: 98,
+    reviewCount: 26,
     reviews: [
       {
         author: 'D.M',
@@ -338,7 +338,7 @@ const studios = [
     name: 'K Village Pilates',
     image: '/images/studios/k-village-pilates-tokyo.webp',
     rating: 4.2,
-    reviewCount: 87,
+    reviewCount: 27,
     reviews: [
       {
         author: 'G.S',
@@ -391,7 +391,7 @@ const studios = [
     name: 'タクトエイト（takt8）',
     image: '/images/studios/takt8-tokyo.webp',
     rating: 4.1,
-    reviewCount: 74,
+    reviewCount: 8,
     reviews: [
       {
         author: 'U.R',

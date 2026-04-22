@@ -19,7 +19,7 @@ const studios = [
     name: 'AruPilates 池尻大橋',
     image: '/images/studios/aru-pilates.webp',
     rating: 4.9,
-    reviewCount: 85,
+    reviewCount: 15,
     reviews: [
       { author: 'S.M', rating: 5, date: '3日前', text: '産婦人科医監修のプログラムで安心感があります。女性専用パーソナルで、最新ブランドのウェアが無料レンタルできるのも嬉しい���' },
       { author: 'K.A', rating: 5, date: '1週間前', text: '池尻大橋駅から徒歩3分で通いやすい。内装がとても綺麗で、五感を満たす空間でリラックスしてレッスンを受けられます��' },
@@ -40,7 +40,7 @@ const studios = [
     name: 'パーソナルマシンピラティスYUZU 池尻大橋店',
     image: '/images/studios/yuzu-pilates.webp',
     rating: 4.8,
-    reviewCount: 75,
+    reviewCount: 14,
     reviews: [
       { author: 'M.H', rating: 5, date: '5日前', text: '40名以上の有資格インストラクターが在籍していて安心。パーソナルで自分の身体に合わせたレッスンが受けられます。' },
       { author: 'R.T', rating: 5, date: '1週間前', text: '「しなやか美BODY」を目指せるプログラムが魅力。コアを鍛えることで安定性と柔軟性が得られました。' },
@@ -61,7 +61,7 @@ const studios = [
     name: 'Habit Pilates studio 池尻大橋店',
     image: '/images/studios/habit-pilates.webp',
     rating: 4.7,
-    reviewCount: 90,
+    reviewCount: 14,
     reviews: [
       { author: 'T.W', rating: 5, date: '4日前', text: '最大5名の少人数制で、インストラクターが一人ひとりの体調に合わせて指導してくれます。リフォーマーを使ったレッスンが楽しい。' },
       { author: 'H.S', rating: 4, date: '1週間前', text: 'アットホームな雰囲気で初心者でも通いやすいです。少人数なので質問もしやすいです。' },
@@ -82,7 +82,7 @@ const studios = [
     name: 'ELEMENT 池尻大橋・中目黒店',
     image: '/images/studios/element.webp',
     rating: 4.7,
-    reviewCount: 140,
+    reviewCount: 20,
     reviews: [
       { author: 'D.M', rating: 5, date: '3日前', text: '1回30分で仕事の隙間時間に通えます。マンツーマンなので集中でき、効率的にトレーニングできます。' },
       { author: 'P.N', rating: 4, date: '1週間前', text: '月4回22,000円でパーソナルが受けられるのはコスパが良い。体験3,300円で試せました。' },
@@ -103,7 +103,7 @@ const studios = [
     name: 'zen place pilates 池尻大橋（近隣）',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 230,
+    reviewCount: 33,
     reviews: [
       { author: 'L.K', rating: 5, date: '2週間前', text: 'インストラクターの質が非常に高い。マットもマシンも両方対応していて、レベルに合わせて進められます。' },
       { author: 'C.H', rating: 5, date: '1ヶ月前', text: '全国150店舗以上で相互利用可能。体験1,000円で気軽に始められました���' },
@@ -124,7 +124,7 @@ const studios = [
     name: 'ピラティスK 池尻大橋（近隣���',
     image: '/images/studios/pilates-k.webp',
     rating: 4.6,
-    reviewCount: 170,
+    reviewCount: 223,
     reviews: [
       { author: 'W.S', rating: 5, date: '5日前', text: '女性専用のマシンピラティスで安心。月4回11,220円〜でコスパも良い。スタジオがおしゃれ。' },
       { author: 'U.K', rating: 4, date: '2週間前', text: 'ボディメイクに特化したプログラムが充実。身体の変化を実感しています。' },

@@ -19,7 +19,7 @@ const studios = [
     name: 'Rintosull 草加店',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 72,
+    reviewCount: 139,
     reviews: [
       { author: 'A.K', rating: 5, date: '1週間前', text: 'LAVA系列の女性専用マシンピラティス。草加駅西口より徒歩1分。最安値級の料金。多彩なプログラム。' },
       { author: 'B.M', rating: 5, date: '2週間前', text: '草��エリアで女性専用が魅力のスタジオ。通いやすい立地で続けやすいです。' },
@@ -52,7 +52,7 @@ const studios = [
     name: 'Pilates Mee 草加店',
     image: '/images/studios/pilates-mee.webp',
     rating: 4.7,
-    reviewCount: 38,
+    reviewCount: 12,
     reviews: [
       { author: 'D.L', rating: 5, date: '1週間前', text: 'セミパーソナル形式で最大3名までの少人数レッスン。一人ひとりに目が行き届く丁寧な指��。' },
       { author: 'E.N', rating: 5, date: '2週間前', text: '草��エリアでセミパーソナルが魅力のスタジオ。通いやすい立地で続けやすいです。' },
@@ -85,7 +85,7 @@ const studios = [
     name: 'exeed pilates studio 草加店',
     image: '/images/studios/exeed-pilates-yoyogi.webp',
     rating: 4.8,
-    reviewCount: 30,
+    reviewCount: 5,
     reviews: [
       { author: 'G.M', rating: 5, date: '1週間前', text: '完全個室パーソナル。リフォーマー・チェア・タワーなどフルアイテム完備。500種類以上のエクササイズからオーダーメイド。お子様連れOK。' },
       { author: 'H.O', rating: 5, date: '2週間前', text: '草��エリアで完全個室パーソナルが魅力のスタジオ。通いやすい立地で続けやすいです。' },
@@ -118,7 +118,7 @@ const studios = [
     name: 'NeBoMo ピラティススタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.5,
-    reviewCount: 25,
+    reviewCount: 8,
     reviews: [
       { author: 'J.N', rating: 5, date: '1週間前', text: '草加の地域密着型ピラティススタジオ。少人数制で一人ひとりに合わせた丁寧な指導が特徴。' },
       { author: 'K.P', rating: 5, date: '2週間前', text: '草��エリアで少人数制が魅力のスタジオ。通いやすい立地で続けやすいです。' },
@@ -151,7 +151,7 @@ const studios = [
     name: 'La pilates 草加店',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.6,
-    reviewCount: 22,
+    reviewCount: 17,
     reviews: [
       { author: 'M.O', rating: 5, date: '1週間前', text: '整体×ピラティスの独自アプローチ。草加駅徒歩3分。体の不調の根本改善を目指すスタジオ。' },
       { author: 'N.Q', rating: 5, date: '2週間前', text: '草��エリアで整体×ピラティスが魅力のスタジオ。通いやすい立地で続けやすいです。' },

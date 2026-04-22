@@ -21,7 +21,7 @@ const studios = [
     name: 'PILATES STUDIO noa 原宿スタジオ',
     image: '/images/studios/pilates-studio-noa.webp',
     rating: 4.8,
-    reviewCount: 210,
+    reviewCount: 13,
     reviews: [
       {
         author: 'K.M',
@@ -74,7 +74,7 @@ const studios = [
     name: 'ピラティスK 表参道店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 185,
+    reviewCount: 217,
     reviews: [
       {
         author: 'M.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'BDC PILATES 表参道スタジオ',
     image: '/images/studios/bdc-pilates.webp',
     rating: 4.7,
-    reviewCount: 156,
+    reviewCount: 17,
     reviews: [
       {
         author: 'Y.K',
@@ -180,7 +180,7 @@ const studios = [
     name: 'Pilates KASANE 表参道店',
     image: '/images/studios/pilates-kasane.webp',
     rating: 4.8,
-    reviewCount: 175,
+    reviewCount: 12,
     reviews: [
       {
         author: 'S.K',
@@ -233,7 +233,7 @@ const studios = [
     name: 'Sky Pilates Tokyo',
     image: '/images/studios/sky-pilates-tokyo.webp',
     rating: 4.8,
-    reviewCount: 120,
+    reviewCount: 16,
     reviews: [
       {
         author: 'M.A',
@@ -285,7 +285,7 @@ const studios = [
     name: 'PILATES YOGA &a 北参道',
     image: '/images/studios/pilates-and-a-yoga.webp',
     rating: 4.7,
-    reviewCount: 95,
+    reviewCount: 14,
     reviews: [
       {
         author: 'E.Y',
@@ -337,7 +337,7 @@ const studios = [
     name: 'Pilates salon CROWN',
     image: '/images/studios/pilates-crown-harajuku.webp',
     rating: 4.6,
-    reviewCount: 48,
+    reviewCount: 24,
     reviews: [
       {
         author: 'C.M',

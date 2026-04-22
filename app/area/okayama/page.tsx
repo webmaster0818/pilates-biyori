@@ -21,7 +21,7 @@ const studios = [
     name: 'La pilates 岡山駅前店',
     image: '/images/studios/la-pilates.webp',
     rating: 4.2,
-    reviewCount: 78,
+    reviewCount: 11,
     reviews: [
       {
         author: 'A.M',
@@ -74,7 +74,7 @@ const studios = [
     name: 'ピラティスK 岡山店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.0,
-    reviewCount: 124,
+    reviewCount: 123,
     reviews: [
       {
         author: 'R.T',
@@ -127,7 +127,7 @@ const studios = [
     name: 'CLUB PILATES 岡山店',
     image: '/images/studios/club-pilates.webp',
     rating: 4.0,
-    reviewCount: 96,
+    reviewCount: 122,
     reviews: [
       {
         author: 'T.K',
@@ -180,7 +180,7 @@ const studios = [
     name: 'ピラティススタジオDEP 岡山店',
     image: '/images/studios/pilates-studio-dep.webp',
     rating: 4.2,
-    reviewCount: 63,
+    reviewCount: 9,
     reviews: [
       {
         author: 'E.S',
@@ -233,7 +233,7 @@ const studios = [
     name: 'UP LIFE GALLERY 岡山店',
     image: '/images/studios/uplife-gallery-okayama.webp',
     rating: 4.1,
-    reviewCount: 47,
+    reviewCount: 3,
     reviews: [
       {
         author: 'M.W',
@@ -286,7 +286,7 @@ const studios = [
     name: 'Rintosull 岡山店',
     image: '/images/studios/rintosull.webp',
     rating: 4.0,
-    reviewCount: 89,
+    reviewCount: 82,
     reviews: [
       {
         author: 'L.O',
@@ -338,7 +338,7 @@ const studios = [
     name: 'studio kua（スタジオクウア）',
     image: '/images/studios/studio-kua-okayama.webp',
     rating: 4.1,
-    reviewCount: 34,
+    reviewCount: 22,
     reviews: [
       {
         author: 'W.M',
@@ -390,7 +390,7 @@ const studios = [
     name: 'zen place pilates 岡山',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.2,
-    reviewCount: 152,
+    reviewCount: 23,
     reviews: [
       {
         author: 'I.T',

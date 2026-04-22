@@ -21,7 +21,7 @@ const studios = [
     name: 'STUDIO IVY 四条大宮店',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
-    reviewCount: 134,
+    reviewCount: 8,
     reviews: [
       {
         author: 'M.Y',
@@ -74,7 +74,7 @@ const studios = [
     name: 'Rintosull 京都四条烏丸店',
     image: '/images/studios/rintosull.webp',
     rating: 4.7,
-    reviewCount: 165,
+    reviewCount: 158,
     reviews: [
       {
         author: 'S.K',
@@ -127,7 +127,7 @@ const studios = [
     name: 'zen place pilates 京都スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 192,
+    reviewCount: 30,
     reviews: [
       {
         author: 'T.O',
@@ -180,7 +180,7 @@ const studios = [
     name: 'SOU PILATES STUDIO（ソウピラティス）',
     image: '/images/studios/club-pilates.webp',
     rating: 4.7,
-    reviewCount: 86,
+    reviewCount: 7,
     reviews: [
       {
         author: 'A.K',
@@ -233,7 +233,7 @@ const studios = [
     name: 'Pilates MUSE 京都四条大宮',
     image: '/images/studios/pilates-mee.webp',
     rating: 4.6,
-    reviewCount: 72,
+    reviewCount: 27,
     reviews: [
       {
         author: 'E.S',
@@ -286,7 +286,7 @@ const studios = [
     name: 'style pilates 京都',
     image: '/images/studios/style-pilates-kyoto.webp',
     rating: 4.5,
-    reviewCount: 48,
+    reviewCount: 10,
     reviews: [
       {
         author: 'L.T',

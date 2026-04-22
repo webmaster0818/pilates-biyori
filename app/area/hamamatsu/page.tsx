@@ -21,7 +21,7 @@ const studios = [
     name: 'ピラティスK 浜松メイワン店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 178,
+    reviewCount: 174,
     reviews: [
       {
         author: 'K.S',
@@ -74,7 +74,7 @@ const studios = [
     name: 'Pilates KASANE 浜松プラザフレスポ店',
     image: '/images/studios/kasane-hamamatsu.webp',
     rating: 4.6,
-    reviewCount: 68,
+    reviewCount: 21,
     reviews: [
       {
         author: 'R.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'ピラティススタジオ ルーエ',
     image: '/images/studios/pilates-ruhe-hamamatsu.webp',
     rating: 4.8,
-    reviewCount: 92,
+    reviewCount: 11,
     reviews: [
       {
         author: 'T.M',
@@ -180,7 +180,7 @@ const studios = [
     name: 'HELSTA（ヘルスタ）浜松',
     image: '/images/studios/helsta-hamamatsu.webp',
     rating: 4.5,
-    reviewCount: 85,
+    reviewCount: 28,
     reviews: [
       {
         author: 'E.S',
@@ -233,7 +233,7 @@ const studios = [
     name: 'ピラティスK MEGAドン・キホーテUNY浜松泉町店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.6,
-    reviewCount: 112,
+    reviewCount: 137,
     reviews: [
       {
         author: 'Y.I',

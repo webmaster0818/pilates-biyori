@@ -21,7 +21,7 @@ const studios = [
     name: 'CLUB PILATES 辻堂店',
     image: '/images/studios/club-pilates.webp',
     rating: 4.8,
-    reviewCount: 156,
+    reviewCount: 73,
     reviews: [
       {
         author: 'K.S',
@@ -74,7 +74,7 @@ const studios = [
     name: 'Rintosull（リントスル）辻堂店',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 132,
+    reviewCount: 82,
     reviews: [
       {
         author: 'Y.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'VIE PILATES STUDIO 湘南辻堂',
     image: '/images/studios/vie-pilates-shonan.webp',
     rating: 4.7,
-    reviewCount: 89,
+    reviewCount: 27,
     reviews: [
       {
         author: 'E.M',
@@ -180,7 +180,7 @@ const studios = [
     name: 'TSUTAYA Conditioning PILATES 湘南T-SITE店',
     image: '/images/studios/tsutaya-conditioning-pilates-shonan.webp',
     rating: 4.5,
-    reviewCount: 72,
+    reviewCount: 26,
     reviews: [
       {
         author: 'C.M',
@@ -232,7 +232,7 @@ const studios = [
     name: 'zen place pilates 藤沢スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 145,
+    reviewCount: 30,
     reviews: [
       {
         author: 'T.H',

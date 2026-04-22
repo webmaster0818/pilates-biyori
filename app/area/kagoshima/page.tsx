@@ -21,7 +21,7 @@ const studios = [
     name: 'ピラティスK イオンモール鹿児島店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 168,
+    reviewCount: 181,
     reviews: [
       {
         author: 'M.H',
@@ -74,7 +74,7 @@ const studios = [
     name: 'Pilates KASANE 鹿児島天文館店',
     image: '/images/studios/kasane-kagoshima.webp',
     rating: 4.6,
-    reviewCount: 95,
+    reviewCount: 18,
     reviews: [
       {
         author: 'S.M',
@@ -127,7 +127,7 @@ const studios = [
     name: 'STUDIO IVY（スタジオアイビー）鹿児島店',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
-    reviewCount: 72,
+    reviewCount: 18,
     reviews: [
       {
         author: 'E.K',
@@ -180,7 +180,7 @@ const studios = [
     name: 'Coralful Journey（コーラルフルジャーニー）',
     image: '/images/studios/coralful-journey-kagoshima.webp',
     rating: 4.5,
-    reviewCount: 120,
+    reviewCount: 13,
     reviews: [
       {
         author: 'H.M',
@@ -233,7 +233,7 @@ const studios = [
     name: 'Pilates KASANE 鹿児島中央駅前店',
     image: '/images/studios/pilates-kasane.webp',
     rating: 4.6,
-    reviewCount: 82,
+    reviewCount: 22,
     reviews: [
       {
         author: 'L.K',

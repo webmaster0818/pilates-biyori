@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 阿佐ヶ谷',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 156,
+    reviewCount: 26,
     reviews: [
       {
         author: 'M.K',
@@ -76,7 +76,7 @@ const studios = [
     name: '阿佐ヶ谷駅前まるはなピラティス',
     image: '/images/studios/maruhana-pilates-asagaya.webp',
     rating: 4.8,
-    reviewCount: 92,
+    reviewCount: 10,
     reviews: [
       {
         author: 'K.T',
@@ -129,7 +129,7 @@ const studios = [
     name: 'マシンピラティススタジオRintosull阿佐ヶ谷店',
     image: '/images/studios/rintosull.webp',
     rating: 4.5,
-    reviewCount: 186,
+    reviewCount: 165,
     reviews: [
       {
         author: 'E.N',
@@ -182,7 +182,7 @@ const studios = [
     name: 'ASAGAYA GRAND PILATES',
     image: '/images/studios/asagaya-grand-pilates.webp',
     rating: 4.6,
-    reviewCount: 108,
+    reviewCount: 13,
     reviews: [
       {
         author: 'K.H',
@@ -235,7 +235,7 @@ const studios = [
     name: 'zen place pilates 荻窪（近隣エリア）',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 148,
+    reviewCount: 24,
     reviews: [
       {
         author: 'L.K',
@@ -289,7 +289,7 @@ const studios = [
     name: 'zen place pilates 高円寺（近隣エリア）',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
-    reviewCount: 124,
+    reviewCount: 27,
     reviews: [
       {
         author: 'N.A',

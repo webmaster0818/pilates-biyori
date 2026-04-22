@@ -21,7 +21,7 @@ const studios = [
     name: 'ピラティスミラー 巣鴨',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.7,
-    reviewCount: 98,
+    reviewCount: 19,
     reviews: [
       {
         author: 'M.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'CLUB PILATES 巣鴨',
     image: '/images/studios/club-pilates.webp',
     rating: 4.6,
-    reviewCount: 142,
+    reviewCount: 52,
     reviews: [
       {
         author: 'L.M',
@@ -127,7 +127,7 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 巣鴨',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.5,
-    reviewCount: 118,
+    reviewCount: 274,
     reviews: [
       {
         author: 'N.K',
@@ -179,7 +179,7 @@ const studios = [
     name: 'ピラティススタジオゼロ 巣鴨店',
     image: '/images/studios/pilates-zero-sugamo.webp',
     rating: 4.7,
-    reviewCount: 86,
+    reviewCount: 27,
     reviews: [
       {
         author: 'A.T',
@@ -231,7 +231,7 @@ const studios = [
     name: 'COCOLANCE 巣鴨店',
     image: '/images/studios/cocolance-sugamo.webp',
     rating: 4.6,
-    reviewCount: 72,
+    reviewCount: 14,
     reviews: [
       {
         author: 'M.Y',
@@ -283,7 +283,7 @@ const studios = [
     name: 'zen place pilates 池袋（近隣エリア）',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
-    reviewCount: 165,
+    reviewCount: 30,
     reviews: [
       {
         author: 'E.N',
@@ -337,7 +337,7 @@ const studios = [
     name: 'the SILK 池袋東口店（近隣エリア）',
     image: '/images/studios/the-silk.webp',
     rating: 4.5,
-    reviewCount: 124,
+    reviewCount: 234,
     reviews: [
       {
         author: 'K.H',

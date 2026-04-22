@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 鎌倉スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 178,
+    reviewCount: 35,
     reviews: [
       {
         author: 'M.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 鎌倉店',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.6,
-    reviewCount: 98,
+    reviewCount: 212,
     reviews: [
       {
         author: 'R.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'SUGATA 鎌倉',
     image: '/images/studios/sugata-kamakura.webp',
     rating: 4.7,
-    reviewCount: 112,
+    reviewCount: 18,
     reviews: [
       {
         author: 'E.K',
@@ -180,7 +180,7 @@ const studios = [
     name: 'ピラティスアライアンス 鎌倉スタジオ',
     image: '/images/studios/pilates-alliance-kamakura.webp',
     rating: 4.8,
-    reviewCount: 85,
+    reviewCount: 17,
     reviews: [
       {
         author: 'T.M',
@@ -232,7 +232,7 @@ const studios = [
     name: 'ピラティススタジオ V8 鎌倉',
     image: '/images/studios/pilates-studio-v8-kamakura.webp',
     rating: 4.7,
-    reviewCount: 68,
+    reviewCount: 26,
     reviews: [
       {
         author: 'L.H',

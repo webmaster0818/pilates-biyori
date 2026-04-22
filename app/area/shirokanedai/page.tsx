@@ -21,7 +21,7 @@ const studios = [
     name: 'Habit Pilates studio 白金高輪店',
     image: '/images/studios/habit-pilates.webp',
     rating: 4.8,
-    reviewCount: 110,
+    reviewCount: 21,
     reviews: [
       {
         author: 'S.K',
@@ -73,7 +73,7 @@ const studios = [
     name: 'Premium Yoga&Pilates 白金高輪駅前店',
     image: '/images/studios/premium-yoga-shirokanedai.webp',
     rating: 4.7,
-    reviewCount: 95,
+    reviewCount: 11,
     reviews: [
       {
         author: 'R.N',

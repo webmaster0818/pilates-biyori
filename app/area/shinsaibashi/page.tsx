@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 心斎橋スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 265,
+    reviewCount: 20,
     reviews: [
       {
         author: 'S.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'WECLE 心斎橋',
     image: '/images/studios/wecle-pilates.webp',
     rating: 4.7,
-    reviewCount: 204,
+    reviewCount: 38,
     reviews: [
       {
         author: 'R.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'ピラティスK 心斎橋',
     image: '/images/studios/pilates-k.webp',
     rating: 4.6,
-    reviewCount: 186,
+    reviewCount: 231,
     reviews: [
       {
         author: 'T.W',

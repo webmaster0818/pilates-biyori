@@ -21,7 +21,7 @@ const studios = [
     name: 'Pilates KASANE 表参道店',
     image: '/images/studios/pilates-kasane.webp',
     rating: 4.8,
-    reviewCount: 180,
+    reviewCount: 12,
     reviews: [
       {
         author: 'S.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'ピラティスK 表参道店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 220,
+    reviewCount: 217,
     reviews: [
       {
         author: 'R.N',
@@ -126,7 +126,7 @@ const studios = [
     name: 'BDC PILATES 表参道スタジオ',
     image: '/images/studios/bdc-pilates.webp',
     rating: 4.9,
-    reviewCount: 150,
+    reviewCount: 17,
     reviews: [
       {
         author: 'T.W',
@@ -179,7 +179,7 @@ const studios = [
     name: 'zen place pilates 表参道',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 265,
+    reviewCount: 26,
     reviews: [
       {
         author: 'K.S',

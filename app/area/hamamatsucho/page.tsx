@@ -21,7 +21,7 @@ const studios = [
     name: 'the SILK 大門浜松町店',
     image: '/images/studios/the-silk.webp',
     rating: 4.8,
-    reviewCount: 156,
+    reviewCount: 259,
     reviews: [
       {
         author: 'M.Y',
@@ -74,7 +74,7 @@ const studios = [
     name: 'zen place pilates 三田スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 198,
+    reviewCount: 17,
     reviews: [
       {
         author: 'K.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'zen place pilates 田町スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
-    reviewCount: 175,
+    reviewCount: 24,
     reviews: [
       {
         author: 'Y.H',
@@ -180,7 +180,7 @@ const studios = [
     name: 'CLUB PILATES 田町店',
     image: '/images/studios/club-pilates.webp',
     rating: 4.7,
-    reviewCount: 132,
+    reviewCount: 154,
     reviews: [
       {
         author: 'H.S',
@@ -233,7 +233,7 @@ const studios = [
     name: 'Pilates Studio B&B 田町店',
     image: '/images/studios/pilates-bb.webp',
     rating: 4.8,
-    reviewCount: 95,
+    reviewCount: 22,
     reviews: [
       {
         author: 'C.M',

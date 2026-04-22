@@ -21,7 +21,7 @@ const studios = [
     name: 'ピラティスK 厚木ガーデンシティ店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 165,
+    reviewCount: 103,
     reviews: [
       {
         author: 'M.Y',
@@ -74,7 +74,7 @@ const studios = [
     name: 'Rintosull 本厚木店',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 132,
+    reviewCount: 133,
     reviews: [
       {
         author: 'K.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'WECLE 本厚木店',
     image: '/images/studios/wecle-pilates.webp',
     rating: 4.5,
-    reviewCount: 98,
+    reviewCount: 28,
     reviews: [
       {
         author: 'E.S',
@@ -180,7 +180,7 @@ const studios = [
     name: 'STUDIO SLOW',
     image: '/images/studios/studio-slow-honatsugi.webp',
     rating: 4.8,
-    reviewCount: 75,
+    reviewCount: 11,
     reviews: [
       {
         author: 'C.Y',

@@ -21,7 +21,7 @@ const studios = [
     name: 'CLUB PILATES 小倉店',
     image: '/images/studios/club-pilates.webp',
     rating: 4.7,
-    reviewCount: 108,
+    reviewCount: 146,
     reviews: [
       {
         author: 'M.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'Rintosull 小倉店',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 95,
+    reviewCount: 116,
     reviews: [
       {
         author: 'K.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'スターピラティス 小倉駅前スタジオ',
     image: '/images/studios/star-pilates-kokura.webp',
     rating: 4.7,
-    reviewCount: 88,
+    reviewCount: 9,
     reviews: [
       {
         author: 'E.M',
@@ -180,7 +180,7 @@ const studios = [
     name: 'arugamama ピラティススタジオ',
     image: '/images/studios/arugamama-kokura.webp',
     rating: 4.8,
-    reviewCount: 62,
+    reviewCount: 23,
     reviews: [
       {
         author: 'T.M',
@@ -233,7 +233,7 @@ const studios = [
     name: 'Heart&Body Studio Lead',
     image: '/images/studios/studio-lead-kokura.webp',
     rating: 4.6,
-    reviewCount: 72,
+    reviewCount: 23,
     reviews: [
       {
         author: 'A.K',

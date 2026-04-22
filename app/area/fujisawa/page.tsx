@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 藤沢',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 198,
+    reviewCount: 32,
     reviews: [
       {
         author: 'M.S',
@@ -74,7 +74,7 @@ const studios = [
     name: 'the SILK 湘南・藤沢店',
     image: '/images/studios/the-silk.webp',
     rating: 4.8,
-    reviewCount: 156,
+    reviewCount: 180,
     reviews: [
       {
         author: 'N.Y',
@@ -127,7 +127,7 @@ const studios = [
     name: 'ピラティス&ジム 1to1 藤沢店',
     image: '/images/studios/pilates-gym-1to1.webp',
     rating: 4.7,
-    reviewCount: 89,
+    reviewCount: 11,
     reviews: [
       {
         author: 'H.T',
@@ -180,7 +180,7 @@ const studios = [
     name: 'Pilates Mee 藤沢店',
     image: '/images/studios/pilates-mee.webp',
     rating: 4.6,
-    reviewCount: 98,
+    reviewCount: 5,
     reviews: [
       {
         author: 'T.M',
@@ -233,7 +233,7 @@ const studios = [
     name: 'LOrena（ロレナ）藤沢店',
     image: '/images/studios/lorena-fujisawa.webp',
     rating: 4.7,
-    reviewCount: 78,
+    reviewCount: 12,
     reviews: [
       {
         author: 'C.N',
@@ -286,7 +286,7 @@ const studios = [
     name: 'N pilates studio 藤沢',
     image: '/images/studios/n-pilates-fujisawa.webp',
     rating: 4.8,
-    reviewCount: 67,
+    reviewCount: 14,
     reviews: [
       {
         author: 'J.K',
@@ -339,7 +339,7 @@ const studios = [
     name: 'La pilates 藤沢店',
     image: '/images/studios/la-pilates.webp',
     rating: 4.7,
-    reviewCount: 72,
+    reviewCount: 21,
     reviews: [
       {
         author: 'E.T',

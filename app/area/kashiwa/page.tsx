@@ -21,7 +21,7 @@ const studios = [
     name: 'ピラティスK 柏店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 155,
+    reviewCount: 131,
     reviews: [
       {
         author: 'Y.M',
@@ -74,7 +74,7 @@ const studios = [
     name: 'zen place pilates 柏スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 130,
+    reviewCount: 22,
     reviews: [
       {
         author: 'K.S',
@@ -127,7 +127,7 @@ const studios = [
     name: 'the SILK 柏店',
     image: '/images/studios/the-silk.webp',
     rating: 4.7,
-    reviewCount: 138,
+    reviewCount: 370,
     reviews: [
       {
         author: 'E.H',
@@ -180,7 +180,7 @@ const studios = [
     name: 'Mapila（マピラ）柏店',
     image: '/images/studios/mapila-shinjuku.webp',
     rating: 4.6,
-    reviewCount: 95,
+    reviewCount: 20,
     reviews: [
       {
         author: 'Y.K',
@@ -233,7 +233,7 @@ const studios = [
     name: 'KASHIWA DE PILATES SHIP',
     image: '/images/studios/pilates-ship-kashiwa.webp',
     rating: 4.8,
-    reviewCount: 68,
+    reviewCount: 12,
     reviews: [
       {
         author: 'H.T',

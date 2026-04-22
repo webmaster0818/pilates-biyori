@@ -21,7 +21,7 @@ const studios = [
     name: 'ピラティスK 新潟店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.0,
-    reviewCount: 128,
+    reviewCount: 90,
     reviews: [
       {
         author: 'M.S',
@@ -74,7 +74,7 @@ const studios = [
     name: 'zen place pilates 新潟',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.2,
-    reviewCount: 186,
+    reviewCount: 27,
     reviews: [
       {
         author: 'K.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'Studio Haru',
     image: '/images/studios/studio-haru-niigata.webp',
     rating: 4.1,
-    reviewCount: 64,
+    reviewCount: 6,
     reviews: [
       {
         author: 'T.W',
@@ -180,7 +180,7 @@ const studios = [
     name: 'ピラティススタジオDEP 新潟',
     image: '/images/studios/pilates-studio-dep.webp',
     rating: 4.2,
-    reviewCount: 92,
+    reviewCount: 14,
     reviews: [
       {
         author: 'E.S',
@@ -233,7 +233,7 @@ const studios = [
     name: 'Pilates Mee 新潟（あれば）',
     image: '/images/studios/pilates-mee.webp',
     rating: 4.0,
-    reviewCount: 48,
+    reviewCount: 22,
     reviews: [
       {
         author: 'I.R',
@@ -286,7 +286,7 @@ const studios = [
     name: 'Two Three 新潟（あれば）',
     image: '/images/studios/two-three-pilates.webp',
     rating: 4.0,
-    reviewCount: 52,
+    reviewCount: 21,
     reviews: [
       {
         author: 'B.T',

@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 赤羽スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 160,
+    reviewCount: 19,
     reviews: [
       {
         author: 'S.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'CLUB PILATES 赤羽店',
     image: '/images/studios/club-pilates.webp',
     rating: 4.7,
-    reviewCount: 110,
+    reviewCount: 85,
     reviews: [
       {
         author: 'R.N',

@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 八重洲スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 132,
+    reviewCount: 35,
     reviews: [
       {
         author: 'M.K',
@@ -75,7 +75,7 @@ const studios = [
     name: 'the SILK 八重洲店',
     image: '/images/studios/the-silk.webp',
     rating: 4.8,
-    reviewCount: 98,
+    reviewCount: 335,
     reviews: [
       {
         author: 'E.M',
@@ -129,7 +129,7 @@ const studios = [
     name: 'CLUB PILATES',
     image: '/images/studios/club-pilates.webp',
     rating: 4.7,
-    reviewCount: 115,
+    reviewCount: 118,
     reviews: [
       {
         author: 'A.T',
@@ -182,7 +182,7 @@ const studios = [
     name: 'Pilates Mee 築地店',
     image: '/images/studios/pilates-mee.webp',
     rating: 4.8,
-    reviewCount: 78,
+    reviewCount: 7,
     reviews: [
       {
         author: 'K.N',
@@ -236,7 +236,7 @@ const studios = [
     name: 'STUDIO IVY',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.9,
-    reviewCount: 56,
+    reviewCount: 9,
     reviews: [
       {
         author: 'T.H',

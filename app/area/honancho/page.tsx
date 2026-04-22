@@ -19,7 +19,7 @@ const studios = [
     name: 'STUDIO NORI（スタジオノリ）方南町',
     image: '/images/studios/studio-nori.webp',
     rating: 4.8,
-    reviewCount: 65,
+    reviewCount: 22,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'STUDIO NORI（スタジオノリ）方南町は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
@@ -40,7 +40,7 @@ const studios = [
     name: 'SYNC.（シンク）方南町店',
     image: '/images/studios/sync-gym.webp',
     rating: 4.7,
-    reviewCount: 55,
+    reviewCount: 20,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'SYNC.（シンク）方南町店は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
@@ -61,7 +61,7 @@ const studios = [
     name: 'COCOLANCE（ココランス）方南町店',
     image: '/images/studios/cocolance.webp',
     rating: 4.8,
-    reviewCount: 40,
+    reviewCount: 6,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'COCOLANCE（ココランス）方南町店は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
@@ -82,7 +82,7 @@ const studios = [
     name: 'zen place pilates 方南町（近隣）',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 210,
+    reviewCount: 34,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'zen place pilates 方南町（近隣）は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
@@ -103,7 +103,7 @@ const studios = [
     name: 'ELEMENT 方南町（近隣）',
     image: '/images/studios/element.webp',
     rating: 4.7,
-    reviewCount: 130,
+    reviewCount: 8,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'ELEMENT 方南町（近隣）は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },

@@ -21,7 +21,7 @@ const studios = [
     name: 'pilates KASANE 静岡店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.2,
-    reviewCount: 87,
+    reviewCount: 15,
     reviews: [
       {
         author: 'A.M',
@@ -74,7 +74,7 @@ const studios = [
     name: 'ピラティスK 静岡店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.0,
-    reviewCount: 142,
+    reviewCount: 80,
     reviews: [
       {
         author: 'R.T',
@@ -127,7 +127,7 @@ const studios = [
     name: 'zen place pilates 静岡',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.2,
-    reviewCount: 165,
+    reviewCount: 32,
     reviews: [
       {
         author: 'T.K',
@@ -180,7 +180,7 @@ const studios = [
     name: 'ピラティス-8810-',
     image: '/images/studios/pilates-8810-shizuoka.webp',
     rating: 4.0,
-    reviewCount: 56,
+    reviewCount: 27,
     reviews: [
       {
         author: 'E.W',
@@ -233,7 +233,7 @@ const studios = [
     name: 'ピラティススタジオMAEDA',
     image: '/images/studios/pilates-maeda-shizuoka.webp',
     rating: 4.1,
-    reviewCount: 73,
+    reviewCount: 28,
     reviews: [
       {
         author: 'P.K',
@@ -286,7 +286,7 @@ const studios = [
     name: 'pilates Light 静岡',
     image: '/images/studios/pilates-light-shizuoka.webp',
     rating: 4.2,
-    reviewCount: 48,
+    reviewCount: 18,
     reviews: [
       {
         author: 'F.A',
@@ -339,7 +339,7 @@ const studios = [
     name: 'Natural Soma',
     image: '/images/studios/natural-soma-shizuoka.webp',
     rating: 4.1,
-    reviewCount: 62,
+    reviewCount: 11,
     reviews: [
       {
         author: 'W.K',
@@ -392,7 +392,7 @@ const studios = [
     name: 'Repilates 富士宮店',
     image: '/images/studios/repilates.webp',
     rating: 4.0,
-    reviewCount: 39,
+    reviewCount: 5,
     reviews: [
       {
         author: 'I.N',

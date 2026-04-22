@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 五反田西口',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 178,
+    reviewCount: 22,
     reviews: [
       {
         author: 'M.S',
@@ -74,7 +74,7 @@ const studios = [
     name: 'zen place pilates 五反田東口',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 156,
+    reviewCount: 28,
     reviews: [
       {
         author: 'R.K',
@@ -127,7 +127,7 @@ const studios = [
     name: 'the SILK 五反田店',
     image: '/images/studios/the-silk.webp',
     rating: 4.8,
-    reviewCount: 134,
+    reviewCount: 151,
     reviews: [
       {
         author: 'N.Y',
@@ -180,7 +180,7 @@ const studios = [
     name: 'SAKURA ピラティス 五反田店',
     image: '/images/studios/sakura-pilates-gotanda.webp',
     rating: 4.8,
-    reviewCount: 78,
+    reviewCount: 15,
     reviews: [
       {
         author: 'C.N',
@@ -233,7 +233,7 @@ const studios = [
     name: 'STUDIO IVY 五反田',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.7,
-    reviewCount: 89,
+    reviewCount: 9,
     reviews: [
       {
         author: 'E.T',

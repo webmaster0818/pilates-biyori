@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 福岡薬院',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 156,
+    reviewCount: 18,
     reviews: [
       {
         author: 'M.K',
@@ -75,7 +75,7 @@ const studios = [
     name: 'CLUB PILATES 福岡赤坂薬院店',
     image: '/images/studios/club-pilates.webp',
     rating: 4.8,
-    reviewCount: 124,
+    reviewCount: 141,
     reviews: [
       {
         author: 'A.H',
@@ -128,7 +128,7 @@ const studios = [
     name: 'AR pilates',
     image: '/images/studios/ar-pilates-yakuin.webp',
     rating: 4.9,
-    reviewCount: 78,
+    reviewCount: 22,
     reviews: [
       {
         author: 'N.S',
@@ -181,7 +181,7 @@ const studios = [
     name: 'edgy pilates studio',
     image: '/images/studios/edgy-pilates-yakuin.webp',
     rating: 4.7,
-    reviewCount: 92,
+    reviewCount: 20,
     reviews: [
       {
         author: 'T.M',

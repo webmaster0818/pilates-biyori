@@ -19,7 +19,7 @@ const studios = [
     name: 'Rintosull 中央林間店',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 72,
+    reviewCount: 119,
     reviews: [
       { author: 'A.K', rating: 5, date: '1週間前', text: 'LAVA系列の女性専用マシンピラティス。中央林間駅より徒歩2分。多彩なプログラム。体験無料。' },
       { author: 'B.M', rating: 5, date: '2週間前', text: '中央林��エリアで女性専用が魅力のスタジオ。通いやすい立地で続けやすいです。' },
@@ -52,7 +52,7 @@ const studios = [
     name: 'Lucio 中央林間店',
     image: '/images/studios/element.webp',
     rating: 4.7,
-    reviewCount: 32,
+    reviewCount: 13,
     reviews: [
       { author: 'D.L', rating: 5, date: '1週間前', text: '2026年1月オープンの完全個室パーソナルマシンピラティス。週1回45分で結果を出すプログラム。運動初心者向け。' },
       { author: 'E.N', rating: 5, date: '2週間前', text: '中央林��エリアで完全個室パーソナルが魅力のスタジオ。通いやすい立地で続けやすいです。' },
@@ -85,7 +85,7 @@ const studios = [
     name: 'INSIGHT ピラティス＆トレーニング 中央林間',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.5,
-    reviewCount: 28,
+    reviewCount: 29,
     reviews: [
       { author: 'G.M', rating: 5, date: '1週間前', text: '理学療法士監修のプログラム。マシンピラティスで身体機能の向上を重視。肩こりや腰痛の根本改善におすすめ。' },
       { author: 'H.O', rating: 5, date: '2週間前', text: '中央林��エリアで理学療法士監修が魅力のスタジオ。通いやすい立地で続けやすいです。' },
@@ -118,7 +118,7 @@ const studios = [
     name: 'LAVA 中央林間店',
     image: '/images/studios/rintosull.webp',
     rating: 4.4,
-    reviewCount: 120,
+    reviewCount: 6,
     reviews: [
       { author: 'J.N', rating: 5, date: '1週間前', text: '全国展開のホットヨガスタジオ。ピラティスプログラムも充実。初心者でも安心して始められる環境。' },
       { author: 'K.P', rating: 5, date: '2週間前', text: '中央林��エリアでホットヨガ&ピラティスが魅力のスタジオ。通いやすい立地で続けやすいです。' },
@@ -151,7 +151,7 @@ const studios = [
     name: 'zen place pilates（田園都市線沿線）',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 210,
+    reviewCount: 17,
     reviews: [
       { author: 'M.O', rating: 5, date: '1週間前', text: '全国130店舗以上の大手。田園都市線沿線のスタジオを利用可能。全店舗利用可能プランで柔軟に通えます。' },
       { author: 'N.Q', rating: 5, date: '2週間前', text: '中央林��エリアで全国展開大手が魅力のスタジオ。通いやすい立地で続けやすいです。' },

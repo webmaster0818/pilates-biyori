@@ -19,7 +19,7 @@ const studios = [
     name: 'ピラティスミラー 桜新町',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.7,
-    reviewCount: 130,
+    reviewCount: 11,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'ピラティスミラー 桜新町は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
@@ -40,7 +40,7 @@ const studios = [
     name: 'ピラティス スタジオ・クラール',
     image: '/images/studios/klar-pilates.webp',
     rating: 4.9,
-    reviewCount: 45,
+    reviewCount: 22,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'ピラティス スタジオ・クラールは初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
@@ -61,7 +61,7 @@ const studios = [
     name: 'パーソナルマシンピラティスYUZU 桜新町（近隣）',
     image: '/images/studios/yuzu-pilates.webp',
     rating: 4.8,
-    reviewCount: 70,
+    reviewCount: 9,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'パーソナルマシンピラティスYUZU 桜新町（近隣）は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
@@ -82,7 +82,7 @@ const studios = [
     name: 'zen place pilates 桜新町（近隣）',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 220,
+    reviewCount: 18,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'zen place pilates 桜新町（近隣）は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
@@ -103,7 +103,7 @@ const studios = [
     name: 'ELEMENT 桜新町（近隣）',
     image: '/images/studios/element.webp',
     rating: 4.7,
-    reviewCount: 130,
+    reviewCount: 24,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'ELEMENT 桜新町（近隣）は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
@@ -124,7 +124,7 @@ const studios = [
     name: 'ピラティスK 桜新町（近隣）',
     image: '/images/studios/pilates-k.webp',
     rating: 4.6,
-    reviewCount: 160,
+    reviewCount: 221,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'ピラティスK 桜新町（近隣）は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },

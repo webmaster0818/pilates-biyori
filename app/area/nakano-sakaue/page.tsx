@@ -21,7 +21,7 @@ const studios = [
     name: 'CLUB PILATES 中野坂上店',
     image: '\/images\/studios\/club-pilates.webp',
     rating: 4.8,
-    reviewCount: 156,
+    reviewCount: 83,
     reviews: [
       {
         author: 'T.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 中野坂上店',
     image: '\/images\/studios\/urban-classic-pilates.webp',
     rating: 4.6,
-    reviewCount: 98,
+    reviewCount: 104,
     reviews: [
       {
         author: 'S.M',
@@ -127,7 +127,7 @@ const studios = [
     name: 'Yoga & Pilates STUDiO kuu',
     image: '\/images\/studios\/studio-kuu.webp',
     rating: 4.7,
-    reviewCount: 72,
+    reviewCount: 17,
     reviews: [
       {
         author: 'E.S',
@@ -180,7 +180,7 @@ const studios = [
     name: 'zen place pilates 中野スタジオ',
     image: '\/images\/studios\/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 195,
+    reviewCount: 17,
     reviews: [
       {
         author: 'H.T',
@@ -233,7 +233,7 @@ const studios = [
     name: 'ELEMENT 中野坂上（近隣エリア）',
     image: '\/images\/studios\/element.webp',
     rating: 4.6,
-    reviewCount: 88,
+    reviewCount: 8,
     reviews: [
       {
         author: 'Y.N',

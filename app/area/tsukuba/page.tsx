@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates つくばスタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 78,
+    reviewCount: 21,
     reviews: [
       {
         author: 'K.M',
@@ -74,7 +74,7 @@ const studios = [
     name: 'CLUB PILATES つくば店',
     image: '/images/studios/club-pilates.webp',
     rating: 4.7,
-    reviewCount: 105,
+    reviewCount: 153,
     reviews: [
       {
         author: 'H.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'Pilates KASANE つくば店',
     image: '/images/studios/pilates-kasane.webp',
     rating: 4.6,
-    reviewCount: 62,
+    reviewCount: 37,
     reviews: [
       {
         author: 'S.M',
@@ -180,7 +180,7 @@ const studios = [
     name: 'モナピラティス（MONA PILATES）',
     image: '/images/studios/monapila-tsukuba.webp',
     rating: 4.5,
-    reviewCount: 55,
+    reviewCount: 9,
     reviews: [
       {
         author: 'E.Y',
@@ -233,7 +233,7 @@ const studios = [
     name: 'La pilates（ラピラティス）つくば店',
     image: '/images/studios/la-pilates.webp',
     rating: 4.6,
-    reviewCount: 42,
+    reviewCount: 5,
     reviews: [
       {
         author: 'Y.K',

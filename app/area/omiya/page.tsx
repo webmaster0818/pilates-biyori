@@ -21,7 +21,7 @@ const studios = [
     name: 'ピラティスK 大宮店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.1,
-    reviewCount: 156,
+    reviewCount: 115,
     reviews: [
       {
         author: 'A.M',
@@ -74,7 +74,7 @@ const studios = [
     name: 'zen place pilates 大宮',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.2,
-    reviewCount: 203,
+    reviewCount: 16,
     reviews: [
       {
         author: 'S.T',
@@ -127,7 +127,7 @@ const studios = [
     name: 'the SILK 大宮',
     image: '/images/studios/the-silk.webp',
     rating: 4.2,
-    reviewCount: 118,
+    reviewCount: 288,
     reviews: [
       {
         author: 'E.S',
@@ -180,7 +180,7 @@ const studios = [
     name: 'La pilates 大宮店',
     image: '/images/studios/la-pilates.webp',
     rating: 4.0,
-    reviewCount: 82,
+    reviewCount: 22,
     reviews: [
       {
         author: 'C.M',
@@ -233,7 +233,7 @@ const studios = [
     name: 'luluto 大宮店',
     image: '/images/studios/luluto.webp',
     rating: 4.3,
-    reviewCount: 94,
+    reviewCount: 24,
     reviews: [
       {
         author: 'J.W',
@@ -286,7 +286,7 @@ const studios = [
     name: 'EIGHT 大宮',
     image: '/images/studios/eight-omiya.webp',
     rating: 4.1,
-    reviewCount: 67,
+    reviewCount: 12,
     reviews: [
       {
         author: 'L.F',
@@ -339,7 +339,7 @@ const studios = [
     name: 'Studio Yoggy 大宮',
     image: '/images/studios/studio-yoggy.webp',
     rating: 4.0,
-    reviewCount: 132,
+    reviewCount: 26,
     reviews: [
       {
         author: 'B.U',
@@ -392,7 +392,7 @@ const studios = [
     name: 'Rintosull 大宮',
     image: '/images/studios/rintosull.webp',
     rating: 4.0,
-    reviewCount: 145,
+    reviewCount: 161,
     reviews: [
       {
         author: 'V.M',

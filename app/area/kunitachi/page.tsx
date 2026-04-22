@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 国立',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 128,
+    reviewCount: 15,
     reviews: [
       {
         author: 'M.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'Rintosull 国立店',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 85,
+    reviewCount: 71,
     reviews: [
       {
         author: 'Y.M',
@@ -127,7 +127,7 @@ const studios = [
     name: 'ピラティスミラー 国立',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.5,
-    reviewCount: 68,
+    reviewCount: 42,
     reviews: [
       {
         author: 'S.N',
@@ -232,7 +232,7 @@ const studios = [
     name: 'COCOLANCE 国立店',
     image: '/images/studios/cocolance-mitaka.webp',
     rating: 4.7,
-    reviewCount: 52,
+    reviewCount: 17,
     reviews: [
       {
         author: 'A.T',

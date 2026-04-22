@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 浅草スタジオ',
     image: '\/images\/studios\/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 145,
+    reviewCount: 18,
     reviews: [
       {
         author: 'K.T',
@@ -74,7 +74,7 @@ const studios = [
     name: 'YARD 浅草・蔵前スタジオ',
     image: '\/images\/studios\/yard.webp',
     rating: 4.7,
-    reviewCount: 112,
+    reviewCount: 21,
     reviews: [
       {
         author: 'S.Y',
@@ -127,7 +127,7 @@ const studios = [
     name: 'luluto 蔵前浅草橋店',
     image: '\/images\/studios\/luluto.webp',
     rating: 4.8,
-    reviewCount: 78,
+    reviewCount: 6,
     reviews: [
       {
         author: 'H.M',
@@ -180,7 +180,7 @@ const studios = [
     name: 'ピラティスアクス 浅草蔵前店',
     image: '\/images\/studios\/pilates-axe.webp',
     rating: 4.6,
-    reviewCount: 85,
+    reviewCount: 21,
     reviews: [
       {
         author: 'E.K',
@@ -233,7 +233,7 @@ const studios = [
     name: 'the SILK 浅草（近隣エリア）',
     image: '\/images\/studios\/the-silk.webp',
     rating: 4.7,
-    reviewCount: 165,
+    reviewCount: 349,
     reviews: [
       {
         author: 'Y.M',

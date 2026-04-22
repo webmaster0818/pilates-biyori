@@ -21,7 +21,7 @@ const studios = [
     name: 'ピラティスK 八王子オクトーレ店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 168,
+    reviewCount: 155,
     reviews: [
       {
         author: 'M.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'the SILK 八王子店',
     image: '/images/studios/the-silk.webp',
     rating: 4.7,
-    reviewCount: 112,
+    reviewCount: 236,
     reviews: [
       {
         author: 'E.T',
@@ -127,7 +127,7 @@ const studios = [
     name: 'Rintosull（リントスル）八王子店',
     image: '/images/studios/rintosull.webp',
     rating: 4.5,
-    reviewCount: 85,
+    reviewCount: 110,
     reviews: [
       {
         author: 'A.M',
@@ -180,7 +180,7 @@ const studios = [
     name: 'STUDIO IVY 八王子店',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.6,
-    reviewCount: 58,
+    reviewCount: 9,
     reviews: [
       {
         author: 'H.S',
@@ -231,7 +231,7 @@ const studios = [
     name: 'Studio TAKT EIGHT（タクトエイト）',
     image: '/images/studios/takt8-tokyo.webp',
     rating: 4.6,
-    reviewCount: 72,
+    reviewCount: 13,
     reviews: [
       {
         author: 'Y.M',

@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 下北沢',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 175,
+    reviewCount: 33,
     reviews: [
       {
         author: 'S.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'NATURAglam 下北沢',
     image: '/images/studios/naturaglam.webp',
     rating: 4.6,
-    reviewCount: 140,
+    reviewCount: 7,
     reviews: [
       {
         author: 'R.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'ピラティスミラー 下北沢',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.7,
-    reviewCount: 120,
+    reviewCount: 19,
     reviews: [
       {
         author: 'E.S',
@@ -180,7 +180,7 @@ const studios = [
     name: 'STUDIO IVY 下北沢',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
-    reviewCount: 95,
+    reviewCount: 3,
     reviews: [
       {
         author: 'M.T',
@@ -233,7 +233,7 @@ const studios = [
     name: 'Pilates Studio Muni',
     image: '/images/studios/pilates-muni-shimokitazawa.webp',
     rating: 4.7,
-    reviewCount: 65,
+    reviewCount: 30,
     reviews: [
       {
         author: 'H.N',
@@ -259,7 +259,7 @@ const studios = [
     name: 'CLUB PILATES 下北沢（近隣）',
     image: '/images/studios/club-pilates.webp',
     rating: 4.5,
-    reviewCount: 110,
+    reviewCount: 88,
     reviews: [
       {
         author: 'A.K',
@@ -285,7 +285,7 @@ const studios = [
     name: 'ピラティスK 下北沢（近隣）',
     image: '/images/studios/pilates-k.webp',
     rating: 4.5,
-    reviewCount: 130,
+    reviewCount: 202,
     reviews: [
       {
         author: 'C.M',
@@ -311,7 +311,7 @@ const studios = [
     name: 'Rintosull 下北沢（近隣）',
     image: '/images/studios/rintosull.webp',
     rating: 4.4,
-    reviewCount: 85,
+    reviewCount: 48,
     reviews: [
       {
         author: 'P.H',
@@ -337,7 +337,7 @@ const studios = [
     name: 'ELEMENT 下北沢（近隣）',
     image: '/images/studios/element.webp',
     rating: 4.6,
-    reviewCount: 70,
+    reviewCount: 16,
     reviews: [
       {
         author: 'D.S',
@@ -363,7 +363,7 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 下北沢（近隣）',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.3,
-    reviewCount: 90,
+    reviewCount: 274,
     reviews: [
       {
         author: 'F.Y',
@@ -389,7 +389,7 @@ const studios = [
     name: 'CALDO 下北沢（近隣）',
     image: '/images/studios/caldo.webp',
     rating: 4.3,
-    reviewCount: 150,
+    reviewCount: 94,
     reviews: [
       {
         author: 'B.I',

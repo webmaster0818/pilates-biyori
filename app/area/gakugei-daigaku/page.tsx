@@ -21,7 +21,7 @@ const studios = [
     name: 'ピラティスミラー 学芸大学',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.7,
-    reviewCount: 120,
+    reviewCount: 22,
     reviews: [
       {
         author: 'S.K',
@@ -73,7 +73,7 @@ const studios = [
     name: 'STUDIO IVY 学芸大学店',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
-    reviewCount: 95,
+    reviewCount: 6,
     reviews: [
       {
         author: 'R.N',
@@ -125,7 +125,7 @@ const studios = [
     name: 'YUZU 学芸大学店',
     image: '/images/studios/yuzu-pilates.webp',
     rating: 4.7,
-    reviewCount: 80,
+    reviewCount: 3,
     reviews: [
       {
         author: 'T.W',
@@ -177,7 +177,7 @@ const studios = [
     name: 'zen place pilates（東横線沿線）',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 200,
+    reviewCount: 17,
     reviews: [
       {
         author: 'L.M',

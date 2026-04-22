@@ -21,7 +21,7 @@ const studios = [
     name: 'ピラティスミラー 後楽園',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.7,
-    reviewCount: 105,
+    reviewCount: 24,
     reviews: [
       {
         author: 'M.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'STUDIO IVY 後楽園店',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
-    reviewCount: 88,
+    reviewCount: 11,
     reviews: [
       {
         author: 'K.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'zen place pilates',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
-    reviewCount: 130,
+    reviewCount: 34,
     reviews: [
       {
         author: 'E.M',
@@ -180,7 +180,7 @@ const studios = [
     name: 'the SILK',
     image: '/images/studios/the-silk.webp',
     rating: 4.7,
-    reviewCount: 135,
+    reviewCount: 300,
     reviews: [
       {
         author: 'A.K',
@@ -233,7 +233,7 @@ const studios = [
     name: 'Rintosull',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 92,
+    reviewCount: 164,
     reviews: [
       {
         author: 'K.A',

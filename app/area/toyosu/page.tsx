@@ -21,7 +21,7 @@ const studios = [
     name: 'CLUB PILATES 豊洲店',
     image: '/images/studios/club-pilates.webp',
     rating: 4.8,
-    reviewCount: 186,
+    reviewCount: 113,
     reviews: [
       {
         author: 'A.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'ELEMENT 豊洲ピラティス専門店',
     image: '/images/studios/element.webp',
     rating: 4.7,
-    reviewCount: 142,
+    reviewCount: 7,
     reviews: [
       {
         author: 'Y.M',
@@ -127,7 +127,7 @@ const studios = [
     name: 'follow Pilates Yoga Studio',
     image: '/images/studios/follow-pilates-toyosu.webp',
     rating: 4.6,
-    reviewCount: 95,
+    reviewCount: 10,
     reviews: [
       {
         author: 'S.K',
@@ -180,7 +180,7 @@ const studios = [
     name: 'Rintosull 月島店',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 78,
+    reviewCount: 176,
     reviews: [
       {
         author: 'C.M',
@@ -233,7 +233,7 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 月島店',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.5,
-    reviewCount: 112,
+    reviewCount: 148,
     reviews: [
       {
         author: 'J.T',
@@ -286,7 +286,7 @@ const studios = [
     name: 'Pilates Studio Refi',
     image: '/images/studios/pilates-studio-refi.webp',
     rating: 4.7,
-    reviewCount: 68,
+    reviewCount: 12,
     reviews: [
       {
         author: 'T.Y',

@@ -21,7 +21,7 @@ const studios = [
     name: 'ピラティスK 福岡天神店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 150,
+    reviewCount: 240,
     reviews: [
       {
         author: 'S.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'zen place pilates 福岡天神スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 130,
+    reviewCount: 27,
     reviews: [
       {
         author: 'R.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'Rintosull 天神店',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 95,
+    reviewCount: 51,
     reviews: [
       {
         author: 'N.S',
@@ -180,7 +180,7 @@ const studios = [
     name: 'ルルト 福岡天神店',
     image: '/images/studios/luluto.webp',
     rating: 4.9,
-    reviewCount: 72,
+    reviewCount: 15,
     reviews: [
       {
         author: 'H.O',

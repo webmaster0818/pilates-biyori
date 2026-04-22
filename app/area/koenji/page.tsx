@@ -21,7 +21,7 @@ const studios = [
     name: 'CLUB PILATES 高円寺',
     image: '/images/studios/club-pilates.webp',
     rating: 4.7,
-    reviewCount: 115,
+    reviewCount: 120,
     reviews: [
       {
         author: 'M.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'Pilates Mee 高円寺',
     image: '/images/studios/pilates-mee.webp',
     rating: 4.8,
-    reviewCount: 78,
+    reviewCount: 20,
     reviews: [
       {
         author: 'E.M',
@@ -127,7 +127,7 @@ const studios = [
     name: 'zen place pilates 高円寺',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 102,
+    reviewCount: 25,
     reviews: [
       {
         author: 'A.T',
@@ -180,7 +180,7 @@ const studios = [
     name: 'NATURAglam 高円寺',
     image: '/images/studios/naturaglam.webp',
     rating: 4.6,
-    reviewCount: 89,
+    reviewCount: 6,
     reviews: [
       {
         author: 'K.N',
@@ -233,7 +233,7 @@ const studios = [
     name: 'Rintosull 高円寺店',
     image: '/images/studios/rintosull.webp',
     rating: 4.5,
-    reviewCount: 45,
+    reviewCount: 51,
     reviews: [
       {
         author: 'M.T',
@@ -286,7 +286,7 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 高円寺',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.4,
-    reviewCount: 67,
+    reviewCount: 231,
     reviews: [
       {
         author: 'S.O',
@@ -339,7 +339,7 @@ const studios = [
     name: 'STUDIO IVY 高円寺',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.9,
-    reviewCount: 52,
+    reviewCount: 4,
     reviews: [
       {
         author: 'A.W',
@@ -392,7 +392,7 @@ const studios = [
     name: 'ELEMENT 高円寺',
     image: '/images/studios/element.webp',
     rating: 4.6,
-    reviewCount: 58,
+    reviewCount: 16,
     reviews: [
       {
         author: 'J.T',
@@ -445,7 +445,7 @@ const studios = [
     name: 'ピラティスミラー 高円寺',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.5,
-    reviewCount: 41,
+    reviewCount: 39,
     reviews: [
       {
         author: 'S.M',
@@ -498,7 +498,7 @@ const studios = [
     name: 'CALDO 高円寺',
     image: '/images/studios/caldo.webp',
     rating: 4.4,
-    reviewCount: 134,
+    reviewCount: 168,
     reviews: [
       {
         author: 'H.T',
@@ -551,7 +551,7 @@ const studios = [
     name: 'ピラティスK 高円寺（近隣エリア利用）',
     image: '/images/studios/pilates-k.webp',
     rating: 4.5,
-    reviewCount: 73,
+    reviewCount: 83,
     reviews: [
       {
         author: 'L.K',

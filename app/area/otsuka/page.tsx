@@ -21,7 +21,7 @@ const studios = [
     name: 'ELEMENT 大塚店',
     image: '/images/studios/element.webp',
     rating: 4.8,
-    reviewCount: 142,
+    reviewCount: 8,
     reviews: [
       {
         author: 'M.S',
@@ -74,7 +74,7 @@ const studios = [
     name: 'パーソナルマシンピラティスYUZU 大塚店',
     image: '/images/studios/yuzu-pilates.webp',
     rating: 4.9,
-    reviewCount: 98,
+    reviewCount: 14,
     reviews: [
       {
         author: 'R.H',
@@ -127,7 +127,7 @@ const studios = [
     name: 'ピラティスK 池袋店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 312,
+    reviewCount: 239,
     reviews: [
       {
         author: 'T.W',
@@ -180,7 +180,7 @@ const studios = [
     name: 'zen place pilates 池袋スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 278,
+    reviewCount: 20,
     reviews: [
       {
         author: 'K.M',

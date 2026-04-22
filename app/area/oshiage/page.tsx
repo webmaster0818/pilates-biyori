@@ -21,7 +21,7 @@ const studios = [
     name: 'STUDIO.EDU（押上駅前）',
     image: '/images/studios/studio-edu-oshiage.webp',
     rating: 4.8,
-    reviewCount: 142,
+    reviewCount: 26,
     reviews: [
       {
         author: 'K.M',
@@ -74,7 +74,7 @@ const studios = [
     name: 'オハイアリイ Ohaialii',
     image: '/images/studios/ohaialii-oshiage.webp',
     rating: 4.7,
-    reviewCount: 108,
+    reviewCount: 14,
     reviews: [
       {
         author: 'M.Y',
@@ -127,7 +127,7 @@ const studios = [
     name: 'zen place pilates 浅草',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 156,
+    reviewCount: 16,
     reviews: [
       {
         author: 'N.K',
@@ -181,7 +181,7 @@ const studios = [
     name: 'zen place pilates 錦糸町（近隣エリア）',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 224,
+    reviewCount: 31,
     reviews: [
       {
         author: 'L.K',

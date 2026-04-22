@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 福岡天神',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.2,
-    reviewCount: 178,
+    reviewCount: 21,
     reviews: [
       {
         author: 'M.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'ピラティスラボ 福岡（薬院）',
     image: '/images/studios/pilates-lab-fukuoka.webp',
     rating: 4.1,
-    reviewCount: 132,
+    reviewCount: 30,
     reviews: [
       {
         author: 'A.N',
@@ -126,7 +126,7 @@ const studios = [
     name: 'ピラティススタジオ エアー（今泉）',
     image: '/images/studios/pilates-air-fukuoka.webp',
     rating: 4.0,
-    reviewCount: 96,
+    reviewCount: 24,
     reviews: [
       {
         author: 'H.M',
@@ -178,7 +178,7 @@ const studios = [
     name: 'PILATES JAPAN（大名）',
     image: '/images/studios/pilates-japan-daimyo.webp',
     rating: 4.2,
-    reviewCount: 145,
+    reviewCount: 19,
     reviews: [
       {
         author: 'E.K',
@@ -230,7 +230,7 @@ const studios = [
     name: 'kuon ピラティススタジオ（六本松・桜坂）',
     image: '/images/studios/kuon-pilates-fukuoka.webp',
     rating: 4.0,
-    reviewCount: 87,
+    reviewCount: 6,
     reviews: [
       {
         author: 'J.A',
@@ -282,7 +282,7 @@ const studios = [
     name: 'STUDIO IVY 福岡大橋店',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.1,
-    reviewCount: 114,
+    reviewCount: 9,
     reviews: [
       {
         author: 'P.N',
@@ -334,7 +334,7 @@ const studios = [
     name: 'スタジオKANON（大濠）',
     image: '/images/studios/studio-kanon-ohori.webp',
     rating: 4.0,
-    reviewCount: 73,
+    reviewCount: 15,
     reviews: [
       {
         author: 'W.K',
@@ -386,7 +386,7 @@ const studios = [
     name: 'La pilates 福岡店',
     image: '/images/studios/la-pilates.webp',
     rating: 4.2,
-    reviewCount: 156,
+    reviewCount: 20,
     reviews: [
       {
         author: 'I.F',

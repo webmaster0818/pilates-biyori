@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 浅草',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 156,
+    reviewCount: 16,
     reviews: [
       {
         author: 'K.M',
@@ -76,7 +76,7 @@ const studios = [
     name: 'CLUB PILATES 浅草吾妻橋店',
     image: '/images/studios/club-pilates.webp',
     rating: 4.7,
-    reviewCount: 182,
+    reviewCount: 94,
     reviews: [
       {
         author: 'M.Y',
@@ -129,7 +129,7 @@ const studios = [
     name: 'ヨガ&ピラティススタジオMAKOTO 浅草橋',
     image: '/images/studios/yoga-makoto-asakusabashi.webp',
     rating: 4.5,
-    reviewCount: 94,
+    reviewCount: 11,
     reviews: [
       {
         author: 'N.K',
@@ -182,7 +182,7 @@ const studios = [
     name: 'YARD',
     image: '/images/studios/yard.webp',
     rating: 4.6,
-    reviewCount: 128,
+    reviewCount: 7,
     reviews: [
       {
         author: 'E.N',
@@ -235,7 +235,7 @@ const studios = [
     name: 'ELEMENT',
     image: '/images/studios/element.webp',
     rating: 4.7,
-    reviewCount: 102,
+    reviewCount: 26,
     reviews: [
       {
         author: 'K.H',
@@ -287,7 +287,7 @@ const studios = [
     name: 'zen place pilates 錦糸町（近隣エリア）',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 224,
+    reviewCount: 31,
     reviews: [
       {
         author: 'L.K',
@@ -341,7 +341,7 @@ const studios = [
     name: 'zen place pilates 上野（近隣エリア）',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 186,
+    reviewCount: 21,
     reviews: [
       {
         author: 'N.A',

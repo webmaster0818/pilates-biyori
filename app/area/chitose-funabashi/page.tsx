@@ -19,7 +19,7 @@ const studios = [
     name: 'CLUB PILATES 千歳船橋',
     image: '/images/studios/club-pilates.webp',
     rating: 4.7,
-    reviewCount: 200,
+    reviewCount: 76,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'CLUB PILATES 千歳船橋は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
@@ -40,7 +40,7 @@ const studios = [
     name: 'ピラティスミラー 千歳船橋',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.7,
-    reviewCount: 140,
+    reviewCount: 33,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'ピラティスミラー 千歳船橋は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
@@ -61,7 +61,7 @@ const studios = [
     name: 'COCOLANCE 千歳船橋（近隣）',
     image: '/images/studios/cocolance.webp',
     rating: 4.8,
-    reviewCount: 55,
+    reviewCount: 19,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'COCOLANCE 千歳船橋（近隣）は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
@@ -82,7 +82,7 @@ const studios = [
     name: 'zen place pilates 千歳船橋（近隣）',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 210,
+    reviewCount: 30,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'zen place pilates 千歳船橋（近隣）は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
@@ -103,7 +103,7 @@ const studios = [
     name: 'ピラティスK 千歳船橋（近隣）',
     image: '/images/studios/pilates-k.webp',
     rating: 4.6,
-    reviewCount: 160,
+    reviewCount: 185,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'ピラティスK 千歳船橋（近隣）は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },

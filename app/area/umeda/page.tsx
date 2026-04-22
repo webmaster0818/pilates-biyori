@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 梅田スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 287,
+    reviewCount: 29,
     reviews: [
       {
         author: 'Y.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'WECLE 梅田',
     image: '/images/studios/wecle-pilates.webp',
     rating: 4.7,
-    reviewCount: 226,
+    reviewCount: 55,
     reviews: [
       {
         author: 'K.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'ピラティスK 梅田',
     image: '/images/studios/pilates-k.webp',
     rating: 4.6,
-    reviewCount: 198,
+    reviewCount: 165,
     reviews: [
       {
         author: 'H.W',

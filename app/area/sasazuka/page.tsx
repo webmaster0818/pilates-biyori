@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 笹塚スタジオ',
     image: '\/images\/studios\/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 168,
+    reviewCount: 30,
     reviews: [
       {
         author: 'M.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'CLUB PILATES 笹塚店',
     image: '\/images\/studios\/club-pilates.webp',
     rating: 4.7,
-    reviewCount: 132,
+    reviewCount: 106,
     reviews: [
       {
         author: 'H.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'ピラティスミラー 笹塚',
     image: '\/images\/studios\/pilates-mirror.webp',
     rating: 4.6,
-    reviewCount: 92,
+    reviewCount: 15,
     reviews: [
       {
         author: 'R.Y',
@@ -180,7 +180,7 @@ const studios = [
     name: 'ELEMENT 笹塚A1店',
     image: '\/images\/studios\/element.webp',
     rating: 4.6,
-    reviewCount: 76,
+    reviewCount: 12,
     reviews: [
       {
         author: 'T.N',
@@ -233,7 +233,7 @@ const studios = [
     name: 'ピラティスK 笹塚（近隣エリア）',
     image: '\/images\/studios\/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 198,
+    reviewCount: 215,
     reviews: [
       {
         author: 'E.M',

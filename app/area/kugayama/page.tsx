@@ -19,7 +19,7 @@ const studios = [
     name: 'STUDIO IVY 久我山店',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
-    reviewCount: 75,
+    reviewCount: 14,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'STUDIO IVY 久我山店は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
@@ -40,7 +40,7 @@ const studios = [
     name: 'パーソナルマシンピラティスYUZU 久我山店',
     image: '/images/studios/yuzu-pilates.webp',
     rating: 4.8,
-    reviewCount: 50,
+    reviewCount: 11,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'パーソナルマシンピラティスYUZU 久我山店は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
@@ -61,7 +61,7 @@ const studios = [
     name: 'MI Pilates Studio 久我山（近隣）',
     image: '/images/studios/mi-pilates.webp',
     rating: 4.9,
-    reviewCount: 35,
+    reviewCount: 27,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'MI Pilates Studio 久我山（近隣）は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
@@ -82,7 +82,7 @@ const studios = [
     name: 'zen place pilates 久我山（近隣）',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 210,
+    reviewCount: 30,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'zen place pilates 久我山（近隣）は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
@@ -103,7 +103,7 @@ const studios = [
     name: 'ELEMENT 久我山（近隣）',
     image: '/images/studios/element.webp',
     rating: 4.7,
-    reviewCount: 130,
+    reviewCount: 24,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'ELEMENT 久我山（近隣）は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },

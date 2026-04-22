@@ -21,7 +21,7 @@ const studios = [
     name: 'SOELU 朝霞店',
     image: '/images/studios/soelu-minamikoshigaya.webp',
     rating: 4.7,
-    reviewCount: 120,
+    reviewCount: 7,
     reviews: [
       {
         author: 'K.N',
@@ -74,7 +74,7 @@ const studios = [
     name: 'zen place pilates 朝霞台',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 95,
+    reviewCount: 12,
     reviews: [
       {
         author: 'Y.K',
@@ -127,7 +127,7 @@ const studios = [
     name: 'ジュリピラティススタジオ',
     image: '/images/studios/a-core-pilates.webp',
     rating: 4.8,
-    reviewCount: 65,
+    reviewCount: 29,
     reviews: [
       {
         author: 'E.N',
@@ -180,7 +180,7 @@ const studios = [
     name: 'スポーツクラブ ルネサンス 北朝霞24',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.5,
-    reviewCount: 140,
+    reviewCount: 11,
     reviews: [
       {
         author: 'H.S',
@@ -233,7 +233,7 @@ const studios = [
     name: 'よしだ接骨院 ピラティス',
     image: '/images/studios/a-core-pilates.webp',
     rating: 4.6,
-    reviewCount: 55,
+    reviewCount: 29,
     reviews: [
       {
         author: 'Y.A',

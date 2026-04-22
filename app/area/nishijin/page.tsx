@@ -21,7 +21,7 @@ const studios = [
     name: 'CLUB PILATES 福岡西新店',
     image: '/images/studios/club-pilates.webp',
     rating: 4.8,
-    reviewCount: 142,
+    reviewCount: 68,
     reviews: [
       { author: 'S.K', rating: 5, date: '2週間前', text: '世界最大級のピラティスチェーンだけあって、プログラムの質が高いです。グループもプライベートも選べるのが良い。西新駅から近くて通いやすいです。' },
       { author: 'Y.T', rating: 5, date: '1ヶ月前', text: '無料体験で雰囲気がよく分かりました。インストラクターが丁寧で、初心者でも安心。西南学院大学の近くで、大学帰りにも寄れます。' },
@@ -42,7 +42,7 @@ const studios = [
     name: 'ピラティススタジオ Live 西新店',
     image: '/images/studios/pilates-live-nishijin.webp',
     rating: 4.7,
-    reviewCount: 88,
+    reviewCount: 22,
     reviews: [
       { author: 'R.N', rating: 5, date: '1週間前', text: '最短30分のレッスンがあるので、忙しい日でも通えて助かります。少人数制で丁寧に見てもらえます。' },
       { author: 'A.H', rating: 4, date: '2週間前', text: '初心者歓迎とうたっている通り、基礎から丁寧に教えてもらえました。西新の文教エリアにあって落ち着いた雰囲気です。' },
@@ -63,7 +63,7 @@ const studios = [
     name: 'Rintosull 西新店',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 76,
+    reviewCount: 115,
     reviews: [
       { author: 'T.W', rating: 5, date: '5日前', text: '女性専用なので周りを気にせず集中できます。マシンピラティスが1回2,200円〜はかなりリーズナブル。体験0円で気軽に始められました。' },
       { author: 'H.I', rating: 4, date: '1週間前', text: '女性専用のマシンピラティススタジオ。清潔感があって居心地が良いです。料金も手頃で継続しやすい。' },

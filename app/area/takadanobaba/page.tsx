@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 高田馬場スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 170,
+    reviewCount: 29,
     reviews: [
       {
         author: 'S.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'the SILK 高田馬場店',
     image: '/images/studios/the-silk.webp',
     rating: 4.7,
-    reviewCount: 130,
+    reviewCount: 151,
     reviews: [
       {
         author: 'R.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'CLUB PILATES 早稲田店',
     image: '/images/studios/club-pilates.webp',
     rating: 4.7,
-    reviewCount: 145,
+    reviewCount: 65,
     reviews: [
       {
         author: 'T.M',
@@ -180,7 +180,7 @@ const studios = [
     name: 'ピラティスK 新宿店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 186,
+    reviewCount: 113,
     reviews: [
       {
         author: 'T.W',
@@ -233,7 +233,7 @@ const studios = [
     name: 'STUDIO IVY 高田馬場店',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
-    reviewCount: 98,
+    reviewCount: 12,
     reviews: [
       {
         author: 'C.Y',
@@ -286,7 +286,7 @@ const studios = [
     name: 'ELEMENT 高田馬場店',
     image: '/images/studios/element.webp',
     rating: 4.6,
-    reviewCount: 88,
+    reviewCount: 11,
     reviews: [
       {
         author: 'M.S',
@@ -339,7 +339,7 @@ const studios = [
     name: 'Rintosull 目白店',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 115,
+    reviewCount: 145,
     reviews: [
       {
         author: 'A.K',
@@ -392,7 +392,7 @@ const studios = [
     name: 'ピラティスミラー 高田馬場店',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.5,
-    reviewCount: 75,
+    reviewCount: 17,
     reviews: [
       {
         author: 'K.N',
@@ -445,7 +445,7 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 高田馬場店',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.5,
-    reviewCount: 92,
+    reviewCount: 247,
     reviews: [
       {
         author: 'L.W',
@@ -498,7 +498,7 @@ const studios = [
     name: 'CALDO 高田馬場店',
     image: '/images/studios/caldo.webp',
     rating: 4.5,
-    reviewCount: 160,
+    reviewCount: 117,
     reviews: [
       {
         author: 'F.H',
@@ -551,7 +551,7 @@ const studios = [
     name: 'NATURAglam 高田馬場スタジオ',
     image: '/images/studios/naturaglam.webp',
     rating: 4.6,
-    reviewCount: 68,
+    reviewCount: 14,
     reviews: [
       {
         author: 'W.N',

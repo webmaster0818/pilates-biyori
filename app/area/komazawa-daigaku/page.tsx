@@ -19,7 +19,7 @@ const studios = [
     name: 'zen place pilates 駒沢',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 240,
+    reviewCount: 30,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'zen place pilates 駒沢は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
@@ -40,7 +40,7 @@ const studios = [
     name: 'Pilates Mee 駒沢大学店',
     image: '/images/studios/pilates-mee.webp',
     rating: 4.8,
-    reviewCount: 95,
+    reviewCount: 15,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'Pilates Mee 駒沢大学店は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
@@ -61,7 +61,7 @@ const studios = [
     name: 'PILATES STUDIO noa 駒沢',
     image: '/images/studios/pilates-noa.webp',
     rating: 4.7,
-    reviewCount: 130,
+    reviewCount: 12,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'PILATES STUDIO noa 駒沢は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
@@ -82,7 +82,7 @@ const studios = [
     name: 'ELEMENT 駒沢大学（近隣）',
     image: '/images/studios/element.webp',
     rating: 4.7,
-    reviewCount: 140,
+    reviewCount: 27,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'ELEMENT 駒沢大学（近隣）は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
@@ -103,7 +103,7 @@ const studios = [
     name: 'CLUB PILATES 駒沢大学（近隣）',
     image: '/images/studios/club-pilates.webp',
     rating: 4.6,
-    reviewCount: 190,
+    reviewCount: 94,
     reviews: [
       { author: 'A.B', rating: 5, date: '1週間前', text: 'CLUB PILATES 駒沢大学（近隣）は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
       { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },

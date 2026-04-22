@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 荻窪',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 148,
+    reviewCount: 26,
     reviews: [
       {
         author: 'K.M',
@@ -76,7 +76,7 @@ const studios = [
     name: 'ピラティスミラー 荻窪',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.6,
-    reviewCount: 102,
+    reviewCount: 26,
     reviews: [
       {
         author: 'M.Y',
@@ -129,7 +129,7 @@ const studios = [
     name: 'emu pilates studio 荻窪店',
     image: '/images/studios/emu-pilates-ogikubo.webp',
     rating: 4.5,
-    reviewCount: 78,
+    reviewCount: 30,
     reviews: [
       {
         author: 'N.K',
@@ -182,7 +182,7 @@ const studios = [
     name: 'zen place pilates 西荻窪（近隣エリア）',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
-    reviewCount: 132,
+    reviewCount: 27,
     reviews: [
       {
         author: 'E.N',
@@ -236,7 +236,7 @@ const studios = [
     name: 'zen place pilates 阿佐ヶ谷（近隣エリア）',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.5,
-    reviewCount: 118,
+    reviewCount: 22,
     reviews: [
       {
         author: 'L.K',
@@ -290,7 +290,7 @@ const studios = [
     name: 'zen place pilates 高円寺（近隣エリア）',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
-    reviewCount: 124,
+    reviewCount: 27,
     reviews: [
       {
         author: 'N.A',

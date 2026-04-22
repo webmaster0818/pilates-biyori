@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 札幌',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.2,
-    reviewCount: 187,
+    reviewCount: 24,
     reviews: [
       {
         author: 'M.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'ピラティスK 札幌駅前店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.0,
-    reviewCount: 156,
+    reviewCount: 114,
     reviews: [
       {
         author: 'Y.M',
@@ -127,7 +127,7 @@ const studios = [
     name: 'CLUB PILATES 札幌',
     image: '/images/studios/club-pilates.webp',
     rating: 4.1,
-    reviewCount: 132,
+    reviewCount: 102,
     reviews: [
       {
         author: 'H.O',
@@ -180,7 +180,7 @@ const studios = [
     name: 'スターピラティス 札幌駅前スタジオ',
     image: '/images/studios/star-pilates-sapporo.webp',
     rating: 4.3,
-    reviewCount: 203,
+    reviewCount: 28,
     reviews: [
       {
         author: 'E.H',
@@ -233,7 +233,7 @@ const studios = [
     name: 'La pilates 札幌店',
     image: '/images/studios/la-pilates.webp',
     rating: 4.2,
-    reviewCount: 94,
+    reviewCount: 11,
     reviews: [
       {
         author: 'K.S',
@@ -286,7 +286,7 @@ const studios = [
     name: 'LATECO（ラティコ）',
     image: '/images/studios/lateco-sapporo.webp',
     rating: 4.1,
-    reviewCount: 78,
+    reviewCount: 29,
     reviews: [
       {
         author: 'R.T',
@@ -339,7 +339,7 @@ const studios = [
     name: 'BodySoul（ボディソウル）',
     image: '/images/studios/bodysoul-sapporo.webp',
     rating: 4.3,
-    reviewCount: 112,
+    reviewCount: 29,
     reviews: [
       {
         author: 'W.S',
@@ -391,7 +391,7 @@ const studios = [
     name: 'Repilates 札幌円山店',
     image: '/images/studios/repilates.webp',
     rating: 4.0,
-    reviewCount: 67,
+    reviewCount: 26,
     reviews: [
       {
         author: 'G.A',

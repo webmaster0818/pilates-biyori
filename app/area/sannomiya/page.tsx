@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 三宮スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 178,
+    reviewCount: 28,
     reviews: [
       {
         author: 'K.O',
@@ -74,7 +74,7 @@ const studios = [
     name: 'ピラティスK 神戸三宮店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 205,
+    reviewCount: 235,
     reviews: [
       {
         author: 'M.T',
@@ -127,7 +127,7 @@ const studios = [
     name: 'STUDIO TOU 神戸三宮',
     image: '/images/studios/studio-tou-sannomiya.webp',
     rating: 4.6,
-    reviewCount: 92,
+    reviewCount: 5,
     reviews: [
       {
         author: 'T.H',
@@ -180,7 +180,7 @@ const studios = [
     name: 'Skywalk（スカイウォーク）三宮',
     image: '/images/studios/skywalk-sannomiya.webp',
     rating: 4.5,
-    reviewCount: 78,
+    reviewCount: 13,
     reviews: [
       {
         author: 'A.M',

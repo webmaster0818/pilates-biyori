@@ -21,7 +21,7 @@ const studios = [
     name: 'CLUB PILATES 博多店',
     image: '/images/studios/club-pilates.webp',
     rating: 4.7,
-    reviewCount: 145,
+    reviewCount: 62,
     reviews: [
       {
         author: 'M.S',
@@ -74,7 +74,7 @@ const studios = [
     name: 'Rintosull 博多店',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 128,
+    reviewCount: 115,
     reviews: [
       {
         author: 'R.K',
@@ -127,7 +127,7 @@ const studios = [
     name: 'スターピラティス 博多マルイスタジオ',
     image: '/images/studios/star-pilates-hakata.webp',
     rating: 4.7,
-    reviewCount: 112,
+    reviewCount: 3,
     reviews: [
       {
         author: 'N.Y',
@@ -180,7 +180,7 @@ const studios = [
     name: 'STUDIO IVY 福岡赤坂店',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.7,
-    reviewCount: 78,
+    reviewCount: 4,
     reviews: [
       {
         author: 'E.T',

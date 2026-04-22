@@ -21,7 +21,7 @@ const studios = [
     name: 'Rintosull（リントスル）那覇新都心店',
     image: '/images/studios/rintosull.webp',
     rating: 4.7,
-    reviewCount: 165,
+    reviewCount: 46,
     reviews: [
       {
         author: 'M.U',
@@ -74,7 +74,7 @@ const studios = [
     name: 'ルキナ 那覇新都心',
     image: '/images/studios/lucina-naha.webp',
     rating: 4.6,
-    reviewCount: 128,
+    reviewCount: 4,
     reviews: [
       {
         author: 'K.A',
@@ -127,7 +127,7 @@ const studios = [
     name: 'Pilates isM（ピラティスイズム）那覇店',
     image: '/images/studios/pilates-ism-naha.webp',
     rating: 4.7,
-    reviewCount: 95,
+    reviewCount: 7,
     reviews: [
       {
         author: 'T.K',
@@ -180,7 +180,7 @@ const studios = [
     name: 'ピラティスAXE（アクス）那覇新都心店',
     image: '/images/studios/pilates-axe.webp',
     rating: 4.6,
-    reviewCount: 88,
+    reviewCount: 14,
     reviews: [
       {
         author: 'H.N',
@@ -233,7 +233,7 @@ const studios = [
     name: 'ヒーレストピラティス 那覇首里',
     image: '/images/studios/healest-pilates-naha.webp',
     rating: 4.8,
-    reviewCount: 65,
+    reviewCount: 21,
     reviews: [
       {
         author: 'A.I',

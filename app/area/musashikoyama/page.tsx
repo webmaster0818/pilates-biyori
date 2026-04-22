@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 武蔵小山',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 108,
+    reviewCount: 18,
     reviews: [
       {
         author: 'M.K',
@@ -75,7 +75,7 @@ const studios = [
     name: 'ピラティスミラー 武蔵小山',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.6,
-    reviewCount: 72,
+    reviewCount: 16,
     reviews: [
       {
         author: 'E.M',
@@ -128,7 +128,7 @@ const studios = [
     name: 'STUDIO IVY 武蔵小山店',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.9,
-    reviewCount: 56,
+    reviewCount: 17,
     reviews: [
       {
         author: 'A.T',
@@ -182,7 +182,7 @@ const studios = [
     name: 'Two Three 武蔵小山',
     image: '/images/studios/two-three-pilates.webp',
     rating: 4.7,
-    reviewCount: 65,
+    reviewCount: 18,
     reviews: [
       {
         author: 'T.H',

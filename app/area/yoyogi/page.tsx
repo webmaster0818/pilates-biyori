@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 新宿南口スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 210,
+    reviewCount: 32,
     reviews: [
       {
         author: 'K.S',
@@ -74,7 +74,7 @@ const studios = [
     name: 'the SILK 新宿店',
     image: '/images/studios/the-silk.webp',
     rating: 4.7,
-    reviewCount: 175,
+    reviewCount: 371,
     reviews: [
       {
         author: 'E.T',
@@ -127,7 +127,7 @@ const studios = [
     name: 'ピラティスK 新宿店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 185,
+    reviewCount: 113,
     reviews: [
       {
         author: 'M.H',
@@ -180,7 +180,7 @@ const studios = [
     name: 'Mapila（マピラ）新宿店',
     image: '/images/studios/mapila-shinjuku.webp',
     rating: 4.6,
-    reviewCount: 120,
+    reviewCount: 12,
     reviews: [
       {
         author: 'H.K',
@@ -233,7 +233,7 @@ const studios = [
     name: 'Rintosull（リントスル）新宿西口駅前店',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 98,
+    reviewCount: 166,
     reviews: [
       {
         author: 'Y.T',
@@ -286,7 +286,7 @@ const studios = [
     name: 'exeed Pilates studio 新宿・代々木店',
     image: '/images/studios/exeed-pilates-yoyogi.webp',
     rating: 4.7,
-    reviewCount: 82,
+    reviewCount: 14,
     reviews: [
       {
         author: 'C.N',
@@ -339,7 +339,7 @@ const studios = [
     name: 'Studio Forward（スタジオフォワード）代々木',
     image: '/images/studios/studio-forward-yoyogi.webp',
     rating: 4.6,
-    reviewCount: 65,
+    reviewCount: 12,
     reviews: [
       {
         author: 'T.K',

@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 都立大学',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 190,
+    reviewCount: 29,
     reviews: [
       {
         author: 'S.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'PILATES STUDIO noa 都立大',
     image: '/images/studios/pilates-studio-noa.webp',
     rating: 4.7,
-    reviewCount: 145,
+    reviewCount: 14,
     reviews: [
       {
         author: 'R.N',
@@ -126,7 +126,7 @@ const studios = [
     name: 'STUDIO IVY',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.9,
-    reviewCount: 95,
+    reviewCount: 9,
     reviews: [
       {
         author: 'T.S',
@@ -178,7 +178,7 @@ const studios = [
     name: 'ピラティスミラー',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.6,
-    reviewCount: 120,
+    reviewCount: 11,
     reviews: [
       {
         author: 'M.T',

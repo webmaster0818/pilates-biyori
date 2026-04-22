@@ -21,7 +21,7 @@ const studios = [
     name: 'CLUB PILATES 熊本駅前店',
     image: '/images/studios/club-pilates.webp',
     rating: 4.7,
-    reviewCount: 115,
+    reviewCount: 90,
     reviews: [
       {
         author: 'M.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'ピラティスK 熊本店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.6,
-    reviewCount: 98,
+    reviewCount: 143,
     reviews: [
       {
         author: 'K.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'Rintosull ゆめタウンサンピアン店',
     image: '/images/studios/rintosull.webp',
     rating: 4.5,
-    reviewCount: 82,
+    reviewCount: 50,
     reviews: [
       {
         author: 'E.M',
@@ -180,7 +180,7 @@ const studios = [
     name: 'STUDIO IVY 熊本大江店',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
-    reviewCount: 65,
+    reviewCount: 13,
     reviews: [
       {
         author: 'T.M',
@@ -233,7 +233,7 @@ const studios = [
     name: 'Pilates & Gym 1to1 熊本店',
     image: '/images/studios/pilates-gym-1to1.webp',
     rating: 4.7,
-    reviewCount: 88,
+    reviewCount: 29,
     reviews: [
       {
         author: 'A.K',

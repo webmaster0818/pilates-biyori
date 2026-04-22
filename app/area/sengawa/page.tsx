@@ -21,7 +21,7 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 仙川',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.6,
-    reviewCount: 88,
+    reviewCount: 277,
     reviews: [
       { author: 'M.H', rating: 5, date: '1週間前', text: '予約不要のサーキット形式が便利。1回30分で仕事帰りにサッと通えます。リフォーマーを1人1台使えるので効果もしっかり。' },
       { author: 'K.T', rating: 5, date: '2週間前', text: 'マンスリー4で月8,580円はコスパ最高。一人ずつ違う動きだから周りを気にしなくていいのも良い。' },
@@ -42,7 +42,7 @@ const studios = [
     name: 'ピラティスミラー 仙川',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.5,
-    reviewCount: 72,
+    reviewCount: 12,
     reviews: [
       { author: 'Y.K', rating: 5, date: '1週間前', text: 'コナミ運営で安心。天井の鏡でフォームを確認しながらできるのが良い。最大7名の少人数制で丁寧に見てもらえます。' },
       { author: 'S.M', rating: 4, date: '2週間前', text: '月6回プランで無理なく通っています。1レッスン30分で時間がない日でも通えるのが嬉しい。' },
@@ -63,7 +63,7 @@ const studios = [
     name: 'CLUB PILATES 仙川',
     image: '/images/studios/club-pilates.webp',
     rating: 4.7,
-    reviewCount: 95,
+    reviewCount: 128,
     reviews: [
       { author: 'T.N', rating: 5, date: '1週間前', text: '全米600店舗以上展開の世界最大級スタジオ。4段階のレベル分けがあるので、初心者でも安心して始められます。' },
       { author: 'H.A', rating: 5, date: '2週間前', text: 'リフォーマーだけでなく、TRXやバレルなど多彩なマシンを使ったレッスンが魅力。飽きずに続けられます。' },
@@ -84,7 +84,7 @@ const studios = [
     name: 'PERSONAL TRAINING STUDIO U 仙川',
     image: '/images/studios/element.webp',
     rating: 4.8,
-    reviewCount: 42,
+    reviewCount: 9,
     reviews: [
       { author: 'N.K', rating: 5, date: '1週間前', text: '仙川駅から徒歩2分のパーソナルジム。マシンピラティスとトレーニングを組み合わせたメニューが効果的。' },
       { author: 'M.Y', rating: 5, date: '2週間前', text: '週1回50分で結果が出るコンセプトが忙しい自分にピッタリ。マンツーマンで丁寧に指導してもらえます。' },
@@ -105,7 +105,7 @@ const studios = [
     name: 'zen place pilates（京王線沿線）',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 210,
+    reviewCount: 26,
     reviews: [
       { author: 'C.H', rating: 5, date: '1週間前', text: '全国展開の大手で安心感があります。京王線沿線のスタジオを利用可能で、仙川から通いやすい。マットもマシンも受講できる。' },
       { author: 'R.T', rating: 5, date: '2週間前', text: 'インストラクターの質が高い。全店舗利用可能プランで出先でも通えて便利です。' },

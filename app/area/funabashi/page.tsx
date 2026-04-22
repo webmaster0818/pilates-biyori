@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 船橋スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 175,
+    reviewCount: 26,
     reviews: [
       {
         author: 'K.N',
@@ -74,7 +74,7 @@ const studios = [
     name: 'the SILK 船橋店',
     image: '/images/studios/the-silk.webp',
     rating: 4.7,
-    reviewCount: 148,
+    reviewCount: 247,
     reviews: [
       {
         author: 'E.K',
@@ -127,7 +127,7 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 船橋店',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.6,
-    reviewCount: 110,
+    reviewCount: 243,
     reviews: [
       {
         author: 'M.K',
@@ -180,7 +180,7 @@ const studios = [
     name: 'Rintosull 船橋店',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 95,
+    reviewCount: 85,
     reviews: [
       {
         author: 'Y.K',
@@ -233,7 +233,7 @@ const studios = [
     name: 'sopra 船橋店',
     image: '/images/studios/sopra-funabashi.webp',
     rating: 4.5,
-    reviewCount: 88,
+    reviewCount: 4,
     reviews: [
       {
         author: 'H.T',

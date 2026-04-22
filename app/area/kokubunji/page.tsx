@@ -21,7 +21,7 @@ const studios = [
     name: 'pilates K 国分寺店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 112,
+    reviewCount: 212,
     reviews: [
       {
         author: 'S.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'zen place pilates 国分寺',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 145,
+    reviewCount: 27,
     reviews: [
       {
         author: 'H.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'ピラティスミラー 国分寺',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.6,
-    reviewCount: 78,
+    reviewCount: 29,
     reviews: [
       {
         author: 'Y.T',
@@ -180,7 +180,7 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 国分寺店',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.5,
-    reviewCount: 65,
+    reviewCount: 268,
     reviews: [
       {
         author: 'C.H',
@@ -233,7 +233,7 @@ const studios = [
     name: 'Rintosull 国分寺店',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 72,
+    reviewCount: 106,
     reviews: [
       {
         author: 'A.K',

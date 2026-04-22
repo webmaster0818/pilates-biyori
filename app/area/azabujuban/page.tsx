@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 麻布十番スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 190,
+    reviewCount: 12,
     reviews: [
       {
         author: 'S.K',

@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 練馬スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 165,
+    reviewCount: 35,
     reviews: [
       {
         author: 'M.H',
@@ -74,7 +74,7 @@ const studios = [
     name: 'ピラティスミラー 練馬',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.7,
-    reviewCount: 118,
+    reviewCount: 44,
     reviews: [
       {
         author: 'S.K',
@@ -127,7 +127,7 @@ const studios = [
     name: 'Olulu 練馬スタジオ',
     image: '/images/studios/olulu-nerima.webp',
     rating: 4.7,
-    reviewCount: 142,
+    reviewCount: 22,
     reviews: [
       {
         author: 'N.M',
@@ -180,7 +180,7 @@ const studios = [
     name: 'Rintosull 練馬店',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 108,
+    reviewCount: 47,
     reviews: [
       {
         author: 'H.K',
@@ -233,7 +233,7 @@ const studios = [
     name: 'Pilates Mee 練馬店',
     image: '/images/studios/pilates-mee.webp',
     rating: 4.6,
-    reviewCount: 82,
+    reviewCount: 21,
     reviews: [
       {
         author: 'A.T',
@@ -285,7 +285,7 @@ const studios = [
     name: 'ELEMENT 練馬店',
     image: '/images/studios/element.webp',
     rating: 4.6,
-    reviewCount: 75,
+    reviewCount: 21,
     reviews: [
       {
         author: 'K.M',

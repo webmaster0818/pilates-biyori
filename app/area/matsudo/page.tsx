@@ -21,7 +21,7 @@ const studios = [
     name: 'ピラティスK 松戸店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.8,
-    reviewCount: 170,
+    reviewCount: 123,
     reviews: [
       {
         author: 'K.M',
@@ -74,7 +74,7 @@ const studios = [
     name: 'the SILK 松戸店',
     image: '/images/studios/the-silk.webp',
     rating: 4.7,
-    reviewCount: 145,
+    reviewCount: 317,
     reviews: [
       {
         author: 'Y.K',
@@ -127,7 +127,7 @@ const studios = [
     name: 'Pilates Mee 松戸店',
     image: '/images/studios/pilates-mee.webp',
     rating: 4.7,
-    reviewCount: 95,
+    reviewCount: 7,
     reviews: [
       {
         author: 'E.T',
@@ -180,7 +180,7 @@ const studios = [
     name: 'Rintosull（リントスル）松戸店',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 110,
+    reviewCount: 80,
     reviews: [
       {
         author: 'C.M',
@@ -233,7 +233,7 @@ const studios = [
     name: 'lafimo 松戸店',
     image: '/images/studios/lafimo-yokohama.webp',
     rating: 4.6,
-    reviewCount: 88,
+    reviewCount: 12,
     reviews: [
       {
         author: 'T.N',
@@ -286,7 +286,7 @@ const studios = [
     name: 'PILATES KASANE 松戸店',
     image: '/images/studios/pilates-kasane.webp',
     rating: 4.5,
-    reviewCount: 75,
+    reviewCount: 14,
     reviews: [
       {
         author: 'R.M',

@@ -21,7 +21,7 @@ const studios = [
     name: 'ピラティスミラー 調布',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.6,
-    reviewCount: 98,
+    reviewCount: 44,
     reviews: [
       {
         author: 'M.T',
@@ -74,7 +74,7 @@ const studios = [
     name: 'Rintosull 調布店',
     image: '/images/studios/rintosull.webp',
     rating: 4.7,
-    reviewCount: 82,
+    reviewCount: 90,
     reviews: [
       {
         author: 'Y.K',
@@ -127,7 +127,7 @@ const studios = [
     name: 'ELEMENT 調布店',
     image: '/images/studios/element.webp',
     rating: 4.8,
-    reviewCount: 67,
+    reviewCount: 11,
     reviews: [
       {
         author: 'T.H',
@@ -180,7 +180,7 @@ const studios = [
     name: 'zen place pilates（京王線沿線）',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 210,
+    reviewCount: 26,
     reviews: [
       {
         author: 'H.M',

@@ -21,7 +21,7 @@ const studios = [
     name: 'pilates K 天王寺店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 185,
+    reviewCount: 131,
     reviews: [
       {
         author: 'M.N',
@@ -74,7 +74,7 @@ const studios = [
     name: 'zen place pilates 天王寺スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 165,
+    reviewCount: 19,
     reviews: [
       {
         author: 'K.M',
@@ -127,7 +127,7 @@ const studios = [
     name: 'Rintosull（リントスル）天王寺店',
     image: '/images/studios/rintosull.webp',
     rating: 4.5,
-    reviewCount: 108,
+    reviewCount: 74,
     reviews: [
       {
         author: 'E.Y',
@@ -233,7 +233,7 @@ const studios = [
     name: 'スタジオバランス あべの店',
     image: '/images/studios/studio-balance-abeno.webp',
     rating: 4.5,
-    reviewCount: 92,
+    reviewCount: 18,
     reviews: [
       {
         author: 'Y.K',

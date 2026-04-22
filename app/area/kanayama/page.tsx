@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 金山',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 186,
+    reviewCount: 16,
     reviews: [
       {
         author: 'T.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'Rintosull 金山店',
     image: '/images/studios/rintosull.webp',
     rating: 4.7,
-    reviewCount: 152,
+    reviewCount: 49,
     reviews: [
       {
         author: 'Y.M',
@@ -127,7 +127,7 @@ const studios = [
     name: 'Pilates Mee 名古屋金山店',
     image: '/images/studios/pilates-mee.webp',
     rating: 4.7,
-    reviewCount: 98,
+    reviewCount: 14,
     reviews: [
       {
         author: 'R.K',
@@ -180,7 +180,7 @@ const studios = [
     name: 'PPPスタジオ 金山',
     image: '/images/studios/club-pilates.webp',
     rating: 4.6,
-    reviewCount: 64,
+    reviewCount: 4,
     reviews: [
       {
         author: 'N.S',
@@ -233,7 +233,7 @@ const studios = [
     name: 'CALDO（カルド）金山',
     image: '/images/studios/caldo.webp',
     rating: 4.5,
-    reviewCount: 215,
+    reviewCount: 207,
     reviews: [
       {
         author: 'A.M',
@@ -286,7 +286,7 @@ const studios = [
     name: 'A.STUDIO 金山',
     image: '/images/studios/pilates-studio-dep.webp',
     rating: 4.6,
-    reviewCount: 42,
+    reviewCount: 18,
     reviews: [
       {
         author: 'L.M',

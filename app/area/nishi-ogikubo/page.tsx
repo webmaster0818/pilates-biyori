@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 西荻窪',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 142,
+    reviewCount: 34,
     reviews: [
       {
         author: 'K.M',
@@ -76,7 +76,7 @@ const studios = [
     name: 'マピラ西荻窪店',
     image: '/images/studios/mapila-nishiogikubo.webp',
     rating: 4.8,
-    reviewCount: 64,
+    reviewCount: 5,
     reviews: [
       {
         author: 'M.Y',
@@ -129,7 +129,7 @@ const studios = [
     name: 'Pilates Mee',
     image: '/images/studios/pilates-mee.webp',
     rating: 4.7,
-    reviewCount: 78,
+    reviewCount: 7,
     reviews: [
       {
         author: 'E.N',
@@ -182,7 +182,7 @@ const studios = [
     name: 'YAPF（カラダ改善スタジオ）',
     image: '/images/studios/yapf-nishiogikubo.webp',
     rating: 4.6,
-    reviewCount: 92,
+    reviewCount: 23,
     reviews: [
       {
         author: 'K.H',
@@ -234,7 +234,7 @@ const studios = [
     name: 'zen place pilates 荻窪（近隣エリア）',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 148,
+    reviewCount: 24,
     reviews: [
       {
         author: 'L.K',
@@ -288,7 +288,7 @@ const studios = [
     name: 'zen place pilates 阿佐ヶ谷（近隣エリア）',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 156,
+    reviewCount: 22,
     reviews: [
       {
         author: 'N.A',

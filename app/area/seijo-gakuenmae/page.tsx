@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 成城学園前',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 186,
+    reviewCount: 13,
     reviews: [
       {
         author: 'K.M',
@@ -75,7 +75,7 @@ const studios = [
     name: 'ピラティスミラー 成城学園前',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.7,
-    reviewCount: 152,
+    reviewCount: 40,
     reviews: [
       {
         author: 'M.Y',
@@ -128,7 +128,7 @@ const studios = [
     name: 'CLUB PILATES 成城学園前',
     image: '/images/studios/club-pilates.webp',
     rating: 4.8,
-    reviewCount: 208,
+    reviewCount: 113,
     reviews: [
       {
         author: 'N.K',
@@ -181,7 +181,7 @@ const studios = [
     name: 'STUDIO IVY 成城学園前',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.7,
-    reviewCount: 124,
+    reviewCount: 18,
     reviews: [
       {
         author: 'E.N',
@@ -233,7 +233,7 @@ const studios = [
     name: 'Evolv 成城学園前店',
     image: '/images/studios/evolv-seijo.webp',
     rating: 4.6,
-    reviewCount: 142,
+    reviewCount: 24,
     reviews: [
       {
         author: 'K.H',
@@ -285,7 +285,7 @@ const studios = [
     name: 'Pilasuru 成城学園前店',
     image: '/images/studios/pilasuru-seijo.webp',
     rating: 4.5,
-    reviewCount: 98,
+    reviewCount: 21,
     reviews: [
       {
         author: 'L.K',
@@ -337,7 +337,7 @@ const studios = [
     name: 'ピラティスミラー 千歳船橋（近隣エリア）',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.7,
-    reviewCount: 118,
+    reviewCount: 29,
     reviews: [
       {
         author: 'N.A',

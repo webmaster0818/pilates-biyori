@@ -21,7 +21,7 @@ const studios = [
     name: 'ピラティスK 仙台PARCO2店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.0,
-    reviewCount: 112,
+    reviewCount: 84,
     reviews: [
       {
         author: 'A.M',
@@ -74,7 +74,7 @@ const studios = [
     name: 'zen place pilates 仙台',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.2,
-    reviewCount: 95,
+    reviewCount: 14,
     reviews: [
       {
         author: 'M.S',
@@ -127,7 +127,7 @@ const studios = [
     name: 'La pilates 仙台店',
     image: '/images/studios/la-pilates.webp',
     rating: 4.1,
-    reviewCount: 67,
+    reviewCount: 22,
     reviews: [
       {
         author: 'S.Y',
@@ -180,7 +180,7 @@ const studios = [
     name: 'Rintosull 仙台駅前店',
     image: '/images/studios/rintosull.webp',
     rating: 4.0,
-    reviewCount: 83,
+    reviewCount: 44,
     reviews: [
       {
         author: 'E.K',
@@ -232,7 +232,7 @@ const studios = [
     name: 'REborn（リボーン）',
     image: '/images/studios/reborn-sendai.webp',
     rating: 4.3,
-    reviewCount: 54,
+    reviewCount: 19,
     reviews: [
       {
         author: 'K.S',
@@ -285,7 +285,7 @@ const studios = [
     name: 'Two Three 仙台一番町',
     image: '/images/studios/two-three-pilates.webp',
     rating: 4.1,
-    reviewCount: 41,
+    reviewCount: 26,
     reviews: [
       {
         author: 'M.W',
@@ -337,7 +337,7 @@ const studios = [
     name: 'ピラティススタジオDEP 仙台店 Calm',
     image: '/images/studios/pilates-studio-dep.webp',
     rating: 4.2,
-    reviewCount: 78,
+    reviewCount: 10,
     reviews: [
       {
         author: 'T.K',
@@ -390,7 +390,7 @@ const studios = [
     name: 'Repilates 仙台泉大沢店',
     image: '/images/studios/repilates.webp',
     rating: 4.0,
-    reviewCount: 36,
+    reviewCount: 14,
     reviews: [
       {
         author: 'Y.K',

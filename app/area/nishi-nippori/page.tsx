@@ -21,7 +21,7 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 日暮里店',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.7,
-    reviewCount: 120,
+    reviewCount: 103,
     reviews: [
       {
         author: 'S.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'zen place pilates 千駄木スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 155,
+    reviewCount: 22,
     reviews: [
       {
         author: 'R.N',

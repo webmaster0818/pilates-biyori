@@ -21,7 +21,7 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 海老名店',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.7,
-    reviewCount: 115,
+    reviewCount: 269,
     reviews: [
       {
         author: 'K.T',
@@ -74,7 +74,7 @@ const studios = [
     name: 'Melluna Pilates（メルーナピラティス）',
     image: '/images/studios/a-core-pilates.webp',
     rating: 4.8,
-    reviewCount: 60,
+    reviewCount: 11,
     reviews: [
       {
         author: 'Y.M',
@@ -127,7 +127,7 @@ const studios = [
     name: 'RINNE 海老名スタジオ',
     image: '/images/studios/pilates-mee.webp',
     rating: 4.7,
-    reviewCount: 55,
+    reviewCount: 5,
     reviews: [
       {
         author: 'E.K',
@@ -180,7 +180,7 @@ const studios = [
     name: 'スポーツクラブ ルネサンス 海老名',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.5,
-    reviewCount: 130,
+    reviewCount: 28,
     reviews: [
       {
         author: 'H.N',
@@ -233,7 +233,7 @@ const studios = [
     name: 'zen place pilates 海老名',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
-    reviewCount: 80,
+    reviewCount: 18,
     reviews: [
       {
         author: 'M.T',

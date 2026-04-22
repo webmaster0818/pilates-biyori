@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 浦和スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 180,
+    reviewCount: 34,
     reviews: [
       {
         author: 'K.T',
@@ -74,7 +74,7 @@ const studios = [
     name: 'ピラティスK 浦和PARCO店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 165,
+    reviewCount: 222,
     reviews: [
       {
         author: 'Y.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'the SILK 浦和店',
     image: '/images/studios/the-silk.webp',
     rating: 4.7,
-    reviewCount: 142,
+    reviewCount: 324,
     reviews: [
       {
         author: 'E.M',
@@ -180,7 +180,7 @@ const studios = [
     name: 'CLUB PILATES 浦和店',
     image: '/images/studios/club-pilates.webp',
     rating: 4.7,
-    reviewCount: 120,
+    reviewCount: 136,
     reviews: [
       {
         author: 'H.S',
@@ -233,7 +233,7 @@ const studios = [
     name: 'Pilates Mee 浦和店',
     image: '/images/studios/pilates-mee.webp',
     rating: 4.6,
-    reviewCount: 85,
+    reviewCount: 18,
     reviews: [
       {
         author: 'Y.H',

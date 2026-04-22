@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 大井町スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 178,
+    reviewCount: 28,
     reviews: [
       {
         author: 'K.T',
@@ -74,7 +74,7 @@ const studios = [
     name: 'Rintosull 大井町店',
     image: '/images/studios/rintosull.webp',
     rating: 4.7,
-    reviewCount: 132,
+    reviewCount: 139,
     reviews: [
       {
         author: 'E.K',
@@ -127,7 +127,7 @@ const studios = [
     name: 'Pilates Mee 大井町店',
     image: '/images/studios/pilates-mee.webp',
     rating: 4.6,
-    reviewCount: 95,
+    reviewCount: 13,
     reviews: [
       {
         author: 'A.S',
@@ -179,7 +179,7 @@ const studios = [
     name: 'SAKURA 大井町店',
     image: '/images/studios/sakura-pilates-gotanda.webp',
     rating: 4.8,
-    reviewCount: 68,
+    reviewCount: 22,
     reviews: [
       {
         author: 'H.M',
@@ -232,7 +232,7 @@ const studios = [
     name: 'STUDIO MUNI 大井町',
     image: '/images/studios/pilates-muni-shimokitazawa.webp',
     rating: 4.7,
-    reviewCount: 55,
+    reviewCount: 14,
     reviews: [
       {
         author: 'R.A',

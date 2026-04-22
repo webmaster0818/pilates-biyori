@@ -19,7 +19,7 @@ const studios = [
     name: 'zen place pilates 新百合ヶ��',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 118,
+    reviewCount: 32,
     reviews: [
       { author: 'A.K', rating: 5, date: '1週間前', text: '全国130店舗以上展開の大手。小田急線「新百合ヶ丘駅」南口徒歩3分。マット・マシン・プライベート対応。' },
       { author: 'B.M', rating: 5, date: '2週間前', text: '新百合ヶ丘エリアで全国展開大手が魅力のスタジオ。通いやすい立地で続けやすいです。' },
@@ -52,7 +52,7 @@ const studios = [
     name: 'pilates K 新百合ヶ丘店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.6,
-    reviewCount: 95,
+    reviewCount: 208,
     reviews: [
       { author: 'D.L', rating: 5, date: '1週間前', text: '女性専用マシンピラティス専門。体験0円。月4回11,220円〜。' },
       { author: 'E.N', rating: 5, date: '2週間前', text: '新百合ヶ丘エリアで女性専用が魅力のスタジオ。通いやすい立地で続けやすいです。' },
@@ -85,7 +85,7 @@ const studios = [
     name: 'sincere pilates 新百合ヶ丘',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 38,
+    reviewCount: 23,
     reviews: [
       { author: 'G.M', rating: 5, date: '1週間前', text: 'グループとマンツーマンに対応。体験1,000円。1回約2,300円〜のリーズナブルな料金。' },
       { author: 'H.O', rating: 5, date: '2週間前', text: '新百合ヶ丘エリアでグループ&マンツーマンが魅力のスタジオ。通いやすい立地で続けやすいです。' },
@@ -118,7 +118,7 @@ const studios = [
     name: 'PERSONAL TRAINING STUDIO U 新���合ヶ丘',
     image: '/images/studios/element.webp',
     rating: 4.7,
-    reviewCount: 35,
+    reviewCount: 12,
     reviews: [
       { author: 'J.N', rating: 5, date: '1週間前', text: '新百合ヶ丘駅徒歩2分のパーソナルジム。ピラティス×トレーニングの複合プログラム。' },
       { author: 'K.P', rating: 5, date: '2週間前', text: '新百合ヶ丘エリアでパーソナル専門が魅力のスタジオ。通いやすい立地で続けやすいです。' },
@@ -151,7 +151,7 @@ const studios = [
     name: 'Rintosull 新百合ヶ丘エリア（小田急沿線）',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 78,
+    reviewCount: 120,
     reviews: [
       { author: 'M.O', rating: 5, date: '1週間前', text: 'LAVA系列の女性専用マシンピラティス。小田急沿線の店舗利用可能。体験無料キャンペーン中。' },
       { author: 'N.Q', rating: 5, date: '2週間前', text: '新百合ヶ丘エリアで女性専用が魅力のスタジオ。通いやすい立地で続けやすいです。' },

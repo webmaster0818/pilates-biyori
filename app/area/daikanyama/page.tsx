@@ -21,7 +21,7 @@ const studios = [
     name: 'CLUB PILATES 代官山店',
     image: '/images/studios/club-pilates.webp',
     rating: 4.8,
-    reviewCount: 178,
+    reviewCount: 99,
     reviews: [
       { author: 'M.S', rating: 5, date: '1週間前', text: '代官山駅から徒歩1分！世界最大級のマシンピラティスブランドで安心。初心者から上級者までレベル分けされていて、自分に合ったクラスが選べます。30分の無料体験で雰囲気がわかりました。' },
       { author: 'Y.T', rating: 5, date: '2週間前', text: '15種類のマシン・器具を1人1台使えるのが贅沢。資格保持のインストラクターばかりで安心感があります。月4回14,190円と代官山にしてはリーズナブル。' },
@@ -42,7 +42,7 @@ const studios = [
     name: 'zen place pilates 代官山',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 198,
+    reviewCount: 18,
     reviews: [
       { author: 'R.K', rating: 5, date: '2週間前', text: '代官山駅北口から徒歩4分。全国150以上のスタジオが相互利用できるので、渋谷や中目黒のスタジオでもレッスンが受けられます。プライベートレッスン専門スタジオとして質の高い指導が受けられます。' },
       { author: 'A.M', rating: 4, date: '3週間前', text: 'マットグループ月額10,450円からと大手にしてはリーズナブル。体験当日入会で入会金22,000円が無料になりました。男性もOK。' },
@@ -63,7 +63,7 @@ const studios = [
     name: 'the SILK 中目黒店',
     image: '/images/studios/the-silk.webp',
     rating: 4.8,
-    reviewCount: 156,
+    reviewCount: 162,
     reviews: [
       { author: 'N.Y', rating: 5, date: '5日前', text: '中目黒駅から徒歩3分で通いやすい！女性専用で安心。体験レッスンが無料で手ぶらOK。音楽に合わせた50分のレッスンが楽しい。パウダールーム完備でレッスン後のお出かけにも便利。' },
       { author: 'E.S', rating: 5, date: '1週間前', text: '初心者が80%なので気負わず始められました。Light3プランなら月3回13,280円。おしゃれな空間で気分が上がります。' },
@@ -84,7 +84,7 @@ const studios = [
     name: 'ピラティスミラー 中目黒',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.6,
-    reviewCount: 112,
+    reviewCount: 14,
     reviews: [
       { author: 'T.H', rating: 5, date: '1週間前', text: 'コナミスポーツクラブが運営しているので安心感があります。月会費11,000円で月6回まで通えてコスパが良い。プライベートレッスンも30分4,400円と手頃。' },
       { author: 'Y.A', rating: 4, date: '2週間前', text: '中目黒駅から徒歩圏内。平日は朝7時から夜21時まで営業で、仕事前後に通いやすいです。体験レッスンが2,200円で気軽に試せます。' },
@@ -105,7 +105,7 @@ const studios = [
     name: 'Pilates en Rose（ピラティスアンローズ）',
     image: '/images/studios/pilates-en-rose.webp',
     rating: 4.8,
-    reviewCount: 89,
+    reviewCount: 13,
     reviews: [
       { author: 'C.N', rating: 5, date: '5日前', text: '代官山駅徒歩2分のマシンピラティスプライベート専門スタジオ。入会金・月会費不要の回数制で、気軽に始められて無理なく続けられます。姿勢改善の効果を実感しています。' },
       { author: 'H.M', rating: 5, date: '1週間前', text: 'アットホームな雰囲気で通いやすい。朝7時から夜21時まで営業で、ライフスタイルに合わせて通えます。マタニティピラティスにも対応しているのが嬉しい。' },
@@ -126,7 +126,7 @@ const studios = [
     name: 'ピラティスラボ 代官山',
     image: '/images/studios/pilates-lab-daikanyama.webp',
     rating: 4.9,
-    reviewCount: 78,
+    reviewCount: 28,
     reviews: [
       { author: 'J.K', rating: 5, date: '1週間前', text: '整形外科スポーツ・栄養クリニック併設のピラティススタジオ。医療的な知識に基づいた指導が受けられます。怪我のリハビリで通い始めましたが、体の変化を確実に感じています。' },
       { author: 'S.A', rating: 5, date: '2週間前', text: 'インストラクターのランクが分かれていて、自分の予算に合わせて選べます。Nランクなら1回11,000円から。55分しっかりとプライベートレッスンが受けられます。' },
@@ -147,7 +147,7 @@ const studios = [
     name: 'BDC PILATES 恵比寿スタジオ',
     image: '/images/studios/bdc-pilates.webp',
     rating: 4.7,
-    reviewCount: 167,
+    reviewCount: 11,
     reviews: [
       { author: 'L.T', rating: 5, date: '1週間前', text: '日本初のマシンピラティス専門スタジオ。恵比寿駅から近く、代官山からも徒歩圏内。認定資格を持つ講師の質が高い。体験レッスンが0円で始めやすかったです。' },
       { author: 'N.K', rating: 4, date: '2週間前', text: 'グループレッスンもプライベートレッスンも充実。4メンバープランなら月11,220円からと恵比寿エリアにしてはリーズナブル。ダンサーやアスリートも通う本格的なスタジオ。' },

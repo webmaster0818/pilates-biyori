@@ -21,7 +21,7 @@ const studios = [
     name: 'ピラティスミラー 三鷹',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.6,
-    reviewCount: 88,
+    reviewCount: 29,
     reviews: [
       {
         author: 'M.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'YUZU 三鷹店',
     image: '/images/studios/yuzu-pilates.webp',
     rating: 4.9,
-    reviewCount: 72,
+    reviewCount: 6,
     reviews: [
       {
         author: 'A.T',
@@ -127,7 +127,7 @@ const studios = [
     name: 'zen place pilates（三鷹エリア最寄り店舗）',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 130,
+    reviewCount: 15,
     reviews: [
       {
         author: 'E.M',
@@ -181,7 +181,7 @@ const studios = [
     name: 'COCOLANCE 三鷹店',
     image: '/images/studios/cocolance-mitaka.webp',
     rating: 4.8,
-    reviewCount: 56,
+    reviewCount: 8,
     reviews: [
       {
         author: 'K.N',
@@ -234,7 +234,7 @@ const studios = [
     name: 'Pilaticise（ピラティシーズ）',
     image: '/images/studios/pilaticise-mitaka.webp',
     rating: 4.8,
-    reviewCount: 48,
+    reviewCount: 4,
     reviews: [
       {
         author: 'T.K',

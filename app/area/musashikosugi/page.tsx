@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 武蔵小杉店',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 108,
+    reviewCount: 13,
     reviews: [
       {
         author: 'M.S',
@@ -74,7 +74,7 @@ const studios = [
     name: 'CLUB PILATES 武蔵小杉店',
     image: '/images/studios/club-pilates.webp',
     rating: 4.8,
-    reviewCount: 124,
+    reviewCount: 108,
     reviews: [
       {
         author: 'A.Y',
@@ -127,7 +127,7 @@ const studios = [
     name: 'the SILK 武蔵小杉エリア',
     image: '/images/studios/the-silk.webp',
     rating: 4.6,
-    reviewCount: 89,
+    reviewCount: 205,
     reviews: [
       {
         author: 'Y.O',
@@ -180,7 +180,7 @@ const studios = [
     name: 'STUDIO IVY 武蔵小杉店',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.9,
-    reviewCount: 56,
+    reviewCount: 4,
     reviews: [
       {
         author: 'S.M',
@@ -233,7 +233,7 @@ const studios = [
     name: 'Lucio 武蔵小杉店',
     image: '/images/studios/lucio-musashikosugi.webp',
     rating: 4.7,
-    reviewCount: 43,
+    reviewCount: 5,
     reviews: [
       {
         author: 'A.K',

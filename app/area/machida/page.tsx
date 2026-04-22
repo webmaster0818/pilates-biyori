@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 町田',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 110,
+    reviewCount: 33,
     reviews: [
       {
         author: 'M.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'ピラティスK 町田店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.6,
-    reviewCount: 98,
+    reviewCount: 138,
     reviews: [
       {
         author: 'K.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'the SILK 町田店',
     image: '/images/studios/the-silk.webp',
     rating: 4.7,
-    reviewCount: 130,
+    reviewCount: 300,
     reviews: [
       {
         author: 'E.M',
@@ -180,7 +180,7 @@ const studios = [
     name: 'Rintosull 町田エリア',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 90,
+    reviewCount: 30,
     reviews: [
       {
         author: 'A.K',

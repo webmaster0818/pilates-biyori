@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 江坂',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 198,
+    reviewCount: 21,
     reviews: [
       {
         author: 'M.S',
@@ -74,7 +74,7 @@ const studios = [
     name: 'CLUB PILATES 江坂店',
     image: '/images/studios/club-pilates.webp',
     rating: 4.7,
-    reviewCount: 145,
+    reviewCount: 79,
     reviews: [
       {
         author: 'R.K',
@@ -127,7 +127,7 @@ const studios = [
     name: 'Rintosull 江坂店',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 128,
+    reviewCount: 162,
     reviews: [
       {
         author: 'Y.N',
@@ -180,7 +180,7 @@ const studios = [
     name: 'ピラティスアクス 江坂店',
     image: '/images/studios/pilates-axe.webp',
     rating: 4.6,
-    reviewCount: 112,
+    reviewCount: 26,
     reviews: [
       {
         author: 'H.T',
@@ -233,7 +233,7 @@ const studios = [
     name: 'La pilates 江坂店',
     image: '/images/studios/la-pilates.webp',
     rating: 4.8,
-    reviewCount: 76,
+    reviewCount: 9,
     reviews: [
       {
         author: 'C.N',
@@ -286,7 +286,7 @@ const studios = [
     name: 'バスコ（BASCO）江坂店',
     image: '/images/studios/basco-esaka.webp',
     rating: 4.5,
-    reviewCount: 89,
+    reviewCount: 30,
     reviews: [
       {
         author: 'S.M',
@@ -339,7 +339,7 @@ const studios = [
     name: 'Yon Pilates 江坂',
     image: '/images/studios/yon-pilates-esaka.webp',
     rating: 4.7,
-    reviewCount: 65,
+    reviewCount: 19,
     reviews: [
       {
         author: 'E.H',
@@ -392,7 +392,7 @@ const studios = [
     name: 'ピラティスミラー 江坂',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.5,
-    reviewCount: 95,
+    reviewCount: 34,
     reviews: [
       {
         author: 'D.S',

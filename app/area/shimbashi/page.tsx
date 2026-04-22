@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 新橋（銀座近隣）',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 210,
+    reviewCount: 12,
     reviews: [
       {
         author: 'R.N',
@@ -74,7 +74,7 @@ const studios = [
     name: 'the SILK 新橋（近隣）',
     image: '/images/studios/the-silk.webp',
     rating: 4.8,
-    reviewCount: 195,
+    reviewCount: 249,
     reviews: [
       {
         author: 'T.W',
@@ -127,7 +127,7 @@ const studios = [
     name: 'ピラティスK 新橋（銀座近隣）',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 180,
+    reviewCount: 202,
     reviews: [
       {
         author: 'K.M',
@@ -179,7 +179,7 @@ const studios = [
     name: 'CLUB PILATES 新橋（近隣）',
     image: '/images/studios/club-pilates.webp',
     rating: 4.7,
-    reviewCount: 160,
+    reviewCount: 140,
     reviews: [
       {
         author: 'D.K',
@@ -231,7 +231,7 @@ const studios = [
     name: 'CREA パーソナルピラティス 新橋・銀座店',
     image: '/images/studios/crea-pilates-shimbashi.webp',
     rating: 4.9,
-    reviewCount: 95,
+    reviewCount: 23,
     reviews: [
       {
         author: 'S.K',
@@ -282,7 +282,7 @@ const studios = [
     name: 'STUDIO IVY 新橋（近隣）',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
-    reviewCount: 85,
+    reviewCount: 3,
     reviews: [
       {
         author: 'N.K',
@@ -334,7 +334,7 @@ const studios = [
     name: 'ELEMENT 新橋（近隣）',
     image: '/images/studios/element.webp',
     rating: 4.7,
-    reviewCount: 120,
+    reviewCount: 16,
     reviews: [
       {
         author: 'T.O',
@@ -386,7 +386,7 @@ const studios = [
     name: 'ピラティスミラー 新橋（近隣）',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.6,
-    reviewCount: 90,
+    reviewCount: 33,
     reviews: [
       {
         author: 'C.Y',
@@ -438,7 +438,7 @@ const studios = [
     name: 'Rintosull 新橋（近隣）',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 110,
+    reviewCount: 78,
     reviews: [
       {
         author: 'H.T',
@@ -490,7 +490,7 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 新橋（近隣）',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.5,
-    reviewCount: 100,
+    reviewCount: 108,
     reviews: [
       {
         author: 'J.T',
@@ -542,7 +542,7 @@ const studios = [
     name: 'CALDO 新橋（近隣）',
     image: '/images/studios/caldo.webp',
     rating: 4.5,
-    reviewCount: 150,
+    reviewCount: 289,
     reviews: [
       {
         author: 'L.S',

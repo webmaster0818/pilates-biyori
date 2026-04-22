@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 錦糸町',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 265,
+    reviewCount: 18,
     reviews: [
       {
         author: 'S.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'ピラティスK オリナス錦糸町店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 204,
+    reviewCount: 213,
     reviews: [
       {
         author: 'R.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 錦糸町',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.6,
-    reviewCount: 186,
+    reviewCount: 211,
     reviews: [
       {
         author: 'T.W',
@@ -180,7 +180,7 @@ const studios = [
     name: 'ピラティス&ジム 1to1 錦糸町',
     image: '/images/studios/pilates-gym-1to1.webp',
     rating: 4.9,
-    reviewCount: 142,
+    reviewCount: 19,
     reviews: [
       {
         author: 'M.S',
@@ -226,7 +226,7 @@ const studios = [
     name: 'Pilates KASANE 錦糸町店',
     image: '/images/studios/pilates-kasane.webp',
     rating: 4.7,
-    reviewCount: 98,
+    reviewCount: 24,
     reviews: [
       {
         author: 'T.K',
@@ -272,7 +272,7 @@ const studios = [
     name: 'La pilates 錦糸町',
     image: '/images/studios/la-pilates.webp',
     rating: 4.8,
-    reviewCount: 76,
+    reviewCount: 19,
     reviews: [
       {
         author: 'Y.S',
@@ -318,7 +318,7 @@ const studios = [
     name: 'STUDIO IVY 錦糸町',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.7,
-    reviewCount: 112,
+    reviewCount: 9,
     reviews: [
       {
         author: 'A.T',
@@ -364,7 +364,7 @@ const studios = [
     name: 'ELEMENT 錦糸町',
     image: '/images/studios/element.webp',
     rating: 4.8,
-    reviewCount: 156,
+    reviewCount: 16,
     reviews: [
       {
         author: 'K.M',
@@ -410,7 +410,7 @@ const studios = [
     name: '24/7 Pilates 錦糸町四ツ目通り',
     image: '/images/studios/247-pilates-kinshicho.webp',
     rating: 4.7,
-    reviewCount: 134,
+    reviewCount: 27,
     reviews: [
       {
         author: 'Y.H',
@@ -456,7 +456,7 @@ const studios = [
     name: 'Pilates Studio B&B 錦糸町',
     image: '/images/studios/pilates-bb.webp',
     rating: 4.9,
-    reviewCount: 88,
+    reviewCount: 10,
     reviews: [
       {
         author: 'C.T',
@@ -502,7 +502,7 @@ const studios = [
     name: 'SOU+ 錦糸町',
     image: '/images/studios/sou-plus-kinshicho.webp',
     rating: 4.6,
-    reviewCount: 94,
+    reviewCount: 28,
     reviews: [
       {
         author: 'L.M',
@@ -548,7 +548,7 @@ const studios = [
     name: 'OLUTANA ピラティス 菊川',
     image: '/images/studios/olutana-pilates.webp',
     rating: 4.7,
-    reviewCount: 108,
+    reviewCount: 20,
     reviews: [
       {
         author: 'P.A',
@@ -594,7 +594,7 @@ const studios = [
     name: 'SEPILA 錦糸町',
     image: '/images/studios/sepila-kinshicho.webp',
     rating: 4.5,
-    reviewCount: 72,
+    reviewCount: 30,
     reviews: [
       {
         author: 'D.K',
@@ -640,7 +640,7 @@ const studios = [
     name: 'My Machine Pilates 錦糸町',
     image: '/images/studios/my-machine-pilates-kinshicho.webp',
     rating: 4.6,
-    reviewCount: 86,
+    reviewCount: 7,
     reviews: [
       {
         author: 'I.R',
@@ -686,7 +686,7 @@ const studios = [
     name: 'CALDO 錦糸町',
     image: '/images/studios/caldo.webp',
     rating: 4.5,
-    reviewCount: 198,
+    reviewCount: 101,
     reviews: [
       {
         author: 'G.O',

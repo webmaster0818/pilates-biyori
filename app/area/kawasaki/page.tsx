@@ -21,7 +21,7 @@ const studios = [
     name: 'ピラティスK 川崎店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.8,
-    reviewCount: 156,
+    reviewCount: 239,
     reviews: [
       {
         author: 'M.S',
@@ -74,7 +74,7 @@ const studios = [
     name: 'zen place pilates 川崎',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 204,
+    reviewCount: 34,
     reviews: [
       {
         author: 'S.T',
@@ -127,7 +127,7 @@ const studios = [
     name: 'Rintosull 川崎店',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 89,
+    reviewCount: 115,
     reviews: [
       {
         author: 'H.M',
@@ -180,7 +180,7 @@ const studios = [
     name: 'the SILK 川崎店',
     image: '/images/studios/the-silk.webp',
     rating: 4.7,
-    reviewCount: 142,
+    reviewCount: 178,
     reviews: [
       {
         author: 'R.S',
@@ -233,7 +233,7 @@ const studios = [
     name: 'STUZIO ONCE 川崎店',
     image: '/images/studios/stuzio-once-kawasaki.webp',
     rating: 4.8,
-    reviewCount: 67,
+    reviewCount: 3,
     reviews: [
       {
         author: 'A.K',
@@ -286,7 +286,7 @@ const studios = [
     name: 'TSUTAYA Conditioning PILATES 川崎駅前店',
     image: '/images/studios/tsutaya-pilates-kawasaki.webp',
     rating: 4.5,
-    reviewCount: 53,
+    reviewCount: 25,
     reviews: [
       {
         author: 'S.M',
@@ -339,7 +339,7 @@ const studios = [
     name: 'CLUB PILATES 川崎',
     image: '/images/studios/club-pilates.webp',
     rating: 4.6,
-    reviewCount: 78,
+    reviewCount: 76,
     reviews: [
       {
         author: 'K.S',

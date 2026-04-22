@@ -21,7 +21,7 @@ const studios = [
     name: 'ピラティスK 阪急西宮ガーデンズ店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 215,
+    reviewCount: 229,
     reviews: [
       {
         author: 'M.S',
@@ -74,7 +74,7 @@ const studios = [
     name: 'zen place pilates 西宮北口',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 168,
+    reviewCount: 13,
     reviews: [
       {
         author: 'H.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'CLUB PILATES 西宮北口店',
     image: '/images/studios/club-pilates.webp',
     rating: 4.7,
-    reviewCount: 135,
+    reviewCount: 63,
     reviews: [
       {
         author: 'E.K',
@@ -180,7 +180,7 @@ const studios = [
     name: 'Rintosull（リントスル）西宮北口店',
     image: '/images/studios/rintosull.webp',
     rating: 4.5,
-    reviewCount: 112,
+    reviewCount: 155,
     reviews: [
       {
         author: 'S.M',
@@ -233,7 +233,7 @@ const studios = [
     name: 'La pilates（ラピラティス）西宮北口店',
     image: '/images/studios/la-pilates.webp',
     rating: 4.6,
-    reviewCount: 92,
+    reviewCount: 6,
     reviews: [
       {
         author: 'A.I',
@@ -286,7 +286,7 @@ const studios = [
     name: 'Movement Plus PILATES & FITNESS',
     image: '/images/studios/movement-plus-nishinomiya.webp',
     rating: 4.6,
-    reviewCount: 85,
+    reviewCount: 21,
     reviews: [
       {
         author: 'N.T',

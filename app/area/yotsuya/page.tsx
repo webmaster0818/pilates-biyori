@@ -21,7 +21,7 @@ const studios = [
     name: 'STUDIO IVY 四谷三丁目店',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
-    reviewCount: 95,
+    reviewCount: 3,
     reviews: [
       {
         author: 'S.K',

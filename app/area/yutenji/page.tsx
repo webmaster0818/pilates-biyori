@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 祐天寺スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 190,
+    reviewCount: 21,
     reviews: [
       {
         author: 'S.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'NATURAglam 祐天寺スタジオ',
     image: '/images/studios/naturaglam.webp',
     rating: 4.6,
-    reviewCount: 135,
+    reviewCount: 6,
     reviews: [
       {
         author: 'R.N',

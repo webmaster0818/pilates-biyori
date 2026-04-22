@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 八重洲スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 220,
+    reviewCount: 35,
     reviews: [
       {
         author: 'S.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'Beat Pilates 日本橋小伝馬町店',
     image: '/images/studios/beat-pilates-nihonbashi.webp',
     rating: 4.7,
-    reviewCount: 130,
+    reviewCount: 19,
     reviews: [
       {
         author: 'R.N',
@@ -128,7 +128,7 @@ const studios = [
     name: 'マシンピラティス ウィング 東京日本橋',
     image: '/images/studios/wing-pilates-nihonbashi.webp',
     rating: 4.9,
-    reviewCount: 85,
+    reviewCount: 20,
     reviews: [
       {
         author: 'T.W',

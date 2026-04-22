@@ -21,7 +21,7 @@ const studios = [
     name: 'アーバンクラシックピラティス 関内店',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.6,
-    reviewCount: 118,
+    reviewCount: 14,
     reviews: [
       {
         author: 'M.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'zen place pilates 横浜元町スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 185,
+    reviewCount: 18,
     reviews: [
       {
         author: 'K.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'マシンピラティスあるく 関内・馬車道店',
     image: '/images/studios/aruku-kannai.webp',
     rating: 4.8,
-    reviewCount: 72,
+    reviewCount: 15,
     reviews: [
       {
         author: 'E.M',
@@ -180,7 +180,7 @@ const studios = [
     name: 'Cachette（カシェット）関内',
     image: '/images/studios/cachette-kannai.webp',
     rating: 4.7,
-    reviewCount: 65,
+    reviewCount: 20,
     reviews: [
       {
         author: 'C.S',
@@ -233,7 +233,7 @@ const studios = [
     name: 'スタジオ・ヨギー 横浜',
     image: '/images/studios/studio-yoggy.webp',
     rating: 4.5,
-    reviewCount: 158,
+    reviewCount: 30,
     reviews: [
       {
         author: 'Y.N',

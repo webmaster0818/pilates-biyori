@@ -21,7 +21,7 @@ const studios = [
     name: 'the SILK 広尾店',
     image: '/images/studios/the-silk.webp',
     rating: 4.8,
-    reviewCount: 178,
+    reviewCount: 280,
     reviews: [
       {
         author: 'M.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'STUDIO IVY 広尾店',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
-    reviewCount: 112,
+    reviewCount: 6,
     reviews: [
       {
         author: 'Y.S',
@@ -127,7 +127,7 @@ const studios = [
     name: 'Habit Pilates studio 広尾店',
     image: '/images/studios/habit-pilates.webp',
     rating: 4.7,
-    reviewCount: 95,
+    reviewCount: 9,
     reviews: [
       {
         author: 'E.M',
@@ -180,7 +180,7 @@ const studios = [
     name: 'zen place pilates 恵比寿スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 215,
+    reviewCount: 15,
     reviews: [
       {
         author: 'T.H',
@@ -233,7 +233,7 @@ const studios = [
     name: 'ピラティスミラー 中目黒スタジオ',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.6,
-    reviewCount: 142,
+    reviewCount: 45,
     reviews: [
       {
         author: 'C.Y',

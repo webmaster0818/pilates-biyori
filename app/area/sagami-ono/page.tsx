@@ -21,7 +21,7 @@ const studios = [
     name: 'ピラティスK 相模大野店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 182,
+    reviewCount: 224,
     reviews: [
       {
         author: 'M.S',
@@ -74,7 +74,7 @@ const studios = [
     name: 'CLUB PILATES 相模大野店',
     image: '/images/studios/club-pilates.webp',
     rating: 4.7,
-    reviewCount: 145,
+    reviewCount: 138,
     reviews: [
       {
         author: 'H.M',
@@ -127,7 +127,7 @@ const studios = [
     name: 'zen place pilates 相模大野スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 120,
+    reviewCount: 12,
     reviews: [
       {
         author: 'K.I',
@@ -180,7 +180,7 @@ const studios = [
     name: 'roll UP pilates studio 相模大野',
     image: '/images/studios/rollup-pilates-sagamiono.webp',
     rating: 4.6,
-    reviewCount: 85,
+    reviewCount: 10,
     reviews: [
       {
         author: 'T.M',
@@ -233,7 +233,7 @@ const studios = [
     name: 'スタジオBYK ボーノ相模大野店',
     image: '/images/studios/studio-byk-sagamiono.webp',
     rating: 4.5,
-    reviewCount: 72,
+    reviewCount: 22,
     reviews: [
       {
         author: 'A.Y',

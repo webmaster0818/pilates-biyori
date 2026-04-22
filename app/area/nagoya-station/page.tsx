@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 名駅',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 210,
+    reviewCount: 22,
     reviews: [
       { author: 'S.K', rating: 5, date: '1週間前', text: '名古屋駅ミヤコ2出口から徒歩1分で抜群のアクセス。マットもマシンも両方受けられるのが嬉しいです。インストラクターの質が高く毎回新しい気づきがあります。' },
       { author: 'Y.T', rating: 5, date: '2週間前', text: 'マットグループ1回3,300円とリーズナブル。マシンも5,000円で受けられます。全国展開なので出張先でも通えるのが便利。' },
@@ -42,7 +42,7 @@ const studios = [
     name: 'ピラティス&ジム 1to1 名古屋駅店',
     image: '/images/studios/pilates-gym-1to1.webp',
     rating: 4.9,
-    reviewCount: 95,
+    reviewCount: 11,
     reviews: [
       { author: 'R.N', rating: 5, date: '1週間前', text: '完全パーソナルなので自分の悩みに合わせてメニューを組んでもらえます。名古屋駅1番出口から徒歩3分で通いやすいです。' },
       { author: 'A.H', rating: 5, date: '2週間前', text: 'マンツーマンの指導が丁寧で、身体の使い方が根本から変わりました。ピラティスだけでなくジムトレーニングも組み合わせられるのが魅力。' },
@@ -63,7 +63,7 @@ const studios = [
     name: 'ルルト 名駅店',
     image: '/images/studios/luluto.webp',
     rating: 4.9,
-    reviewCount: 78,
+    reviewCount: 19,
     reviews: [
       { author: 'T.W', rating: 5, date: '5日前', text: '理学療法士が監修しているので、身体の不調改善にも対応してくれます。完全マンツーマンで安心感があります。' },
       { author: 'H.I', rating: 5, date: '1週間前', text: '名古屋駅から徒歩5分。肩こりや腰痛が改善されて驚きました。医学的な知識に基づいた指導で信頼できます。' },
@@ -84,7 +84,7 @@ const studios = [
     name: 'Rintosull 名古屋',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 120,
+    reviewCount: 173,
     reviews: [
       { author: 'K.T', rating: 5, date: '2週間前', text: '女性専用なので安心して通えます。月4回8,800円〜はマシンピラティスとしてはかなりリーズナブル。' },
       { author: 'E.O', rating: 4, date: '3週間前', text: 'スクリーン映像とインストラクターのダブル指導で、初心者でも正しいフォームを身につけられます。' },

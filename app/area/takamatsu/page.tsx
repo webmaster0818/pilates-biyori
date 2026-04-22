@@ -21,7 +21,7 @@ const studios = [
     name: 'Rintosull（リントスル）高松店',
     image: '/images/studios/rintosull.webp',
     rating: 4.7,
-    reviewCount: 156,
+    reviewCount: 113,
     reviews: [
       {
         author: 'M.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'GRANLAB（グランラボ）高松丸の内',
     image: '/images/studios/granlab-takamatsu.webp',
     rating: 4.6,
-    reviewCount: 88,
+    reviewCount: 26,
     reviews: [
       {
         author: 'K.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'La pilates（ラピラティス）高松店',
     image: '/images/studios/la-pilates.webp',
     rating: 4.7,
-    reviewCount: 102,
+    reviewCount: 22,
     reviews: [
       {
         author: 'E.M',
@@ -180,7 +180,7 @@ const studios = [
     name: 'ピラティススタジオDEP 高松店',
     image: '/images/studios/pilates-studio-dep.webp',
     rating: 4.8,
-    reviewCount: 78,
+    reviewCount: 5,
     reviews: [
       {
         author: 'T.A',
@@ -233,7 +233,7 @@ const studios = [
     name: 'd.branch studio（ディ・ブランチ スタジオ）',
     image: '/images/studios/d-branch-takamatsu.webp',
     rating: 4.5,
-    reviewCount: 65,
+    reviewCount: 26,
     reviews: [
       {
         author: 'M.I',

@@ -21,7 +21,7 @@ const studios = [
     name: 'Pilates Mee 西中島南方・新大阪店',
     image: '/images/studios/pilates-mee.webp',
     rating: 4.7,
-    reviewCount: 112,
+    reviewCount: 29,
     reviews: [
       {
         author: 'K.N',
@@ -74,7 +74,7 @@ const studios = [
     name: 'ピラティスアヴニール 新大阪・西中島店',
     image: '/images/studios/pilates-avenir-shinosaka.webp',
     rating: 4.8,
-    reviewCount: 95,
+    reviewCount: 19,
     reviews: [
       {
         author: 'Y.H',
@@ -127,7 +127,7 @@ const studios = [
     name: 'IMPROVE 西中島南方・新大阪',
     image: '/images/studios/improve-shinosaka.webp',
     rating: 4.6,
-    reviewCount: 88,
+    reviewCount: 30,
     reviews: [
       {
         author: 'E.T',
@@ -180,7 +180,7 @@ const studios = [
     name: 'zen place pilates 江坂スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 142,
+    reviewCount: 24,
     reviews: [
       {
         author: 'H.Y',

@@ -21,7 +21,7 @@ const studios = [
     name: 'SOELU 南越谷店',
     image: '/images/studios/soelu-minamikoshigaya.webp',
     rating: 4.6,
-    reviewCount: 95,
+    reviewCount: 12,
     reviews: [
       {
         author: 'K.M',
@@ -73,7 +73,7 @@ const studios = [
     name: 'Fun Vie（ファンヴィ）',
     image: '/images/studios/fun-vie-koshigaya.webp',
     rating: 4.5,
-    reviewCount: 68,
+    reviewCount: 29,
     reviews: [
       {
         author: 'M.N',
@@ -125,7 +125,7 @@ const studios = [
     name: 'Tomomi Pilates Studio',
     image: '/images/studios/luluto.webp',
     rating: 4.7,
-    reviewCount: 42,
+    reviewCount: 16,
     reviews: [
       {
         author: 'E.Y',
@@ -177,7 +177,7 @@ const studios = [
     name: 'M-Neutral（エム・ニュートラル）',
     image: '/images/studios/pilates-mee.webp',
     rating: 4.6,
-    reviewCount: 38,
+    reviewCount: 18,
     reviews: [
       {
         author: 'H.A',

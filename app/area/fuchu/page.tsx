@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 府中スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 152,
+    reviewCount: 24,
     reviews: [
       {
         author: 'K.S',
@@ -127,7 +127,7 @@ const studios = [
     name: 'studio 6sense（スタジオシックスセンス）',
     image: '/images/studios/studio-6sense-fuchu.webp',
     rating: 4.5,
-    reviewCount: 45,
+    reviewCount: 22,
     reviews: [
       {
         author: 'S.M',
@@ -178,7 +178,7 @@ const studios = [
     name: 'PERSONAL TRAINING STUDIO U 府中女性専門店',
     image: '/images/studios/element.webp',
     rating: 4.6,
-    reviewCount: 62,
+    reviewCount: 14,
     reviews: [
       {
         author: 'Y.K',

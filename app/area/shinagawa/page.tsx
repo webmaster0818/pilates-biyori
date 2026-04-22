@@ -21,7 +21,7 @@ const studios = [
     name: 'Rintosull 品川店',
     image: '/images/studios/rintosull.webp',
     rating: 4.7,
-    reviewCount: 80,
+    reviewCount: 179,
     reviews: [
       {
         author: 'S.K',
@@ -73,7 +73,7 @@ const studios = [
     name: 'zen place pilates 五反田東口スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 180,
+    reviewCount: 28,
     reviews: [
       {
         author: 'R.N',
@@ -126,7 +126,7 @@ const studios = [
     name: 'zen place pilates 大井町スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 155,
+    reviewCount: 28,
     reviews: [
       {
         author: 'T.W',

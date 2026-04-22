@@ -21,7 +21,7 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 明大前店',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.6,
-    reviewCount: 110,
+    reviewCount: 240,
     reviews: [
       {
         author: 'Y.M',
@@ -73,7 +73,7 @@ const studios = [
     name: 'zen place pilates 明大前（近隣）',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 200,
+    reviewCount: 22,
     reviews: [
       {
         author: 'R.K',
@@ -126,7 +126,7 @@ const studios = [
     name: 'Re&Pilates 明大前（近隣）',
     image: '/images/studios/re-and-pilates.webp',
     rating: 4.7,
-    reviewCount: 60,
+    reviewCount: 24,
     reviews: [
       {
         author: 'T.I',
@@ -178,7 +178,7 @@ const studios = [
     name: 'ピラティスK 明大前（近隣）',
     image: '/images/studios/pilates-k.webp',
     rating: 4.6,
-    reviewCount: 160,
+    reviewCount: 197,
     reviews: [
       {
         author: 'W.K',
@@ -230,7 +230,7 @@ const studios = [
     name: 'ELEMENT 明大前（近隣）',
     image: '/images/studios/element.webp',
     rating: 4.7,
-    reviewCount: 130,
+    reviewCount: 14,
     reviews: [
       {
         author: 'D.H',

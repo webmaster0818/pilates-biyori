@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 銀座二丁目スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 265,
+    reviewCount: 16,
     reviews: [
       {
         author: 'S.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'ピラティスK 銀座店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 186,
+    reviewCount: 239,
     reviews: [
       {
         author: 'T.W',
@@ -127,7 +127,7 @@ const studios = [
     name: 'the SILK 銀座店',
     image: '/images/studios/the-silk.webp',
     rating: 4.8,
-    reviewCount: 195,
+    reviewCount: 312,
     reviews: [
       {
         author: 'R.N',

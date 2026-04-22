@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 目黒',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 132,
+    reviewCount: 18,
     reviews: [
       {
         author: 'M.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'the SILK 目黒エリア',
     image: '/images/studios/the-silk.webp',
     rating: 4.8,
-    reviewCount: 95,
+    reviewCount: 335,
     reviews: [
       {
         author: 'E.M',
@@ -127,7 +127,7 @@ const studios = [
     name: 'ピラティスミラー 中目黒',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.6,
-    reviewCount: 72,
+    reviewCount: 14,
     reviews: [
       {
         author: 'A.T',
@@ -180,7 +180,7 @@ const studios = [
     name: 'Pilates Legacy Studio',
     image: '/images/studios/pilates-legacy-meguro.webp',
     rating: 4.8,
-    reviewCount: 48,
+    reviewCount: 18,
     reviews: [
       {
         author: 'K.N',
@@ -233,7 +233,7 @@ const studios = [
     name: 'STUDIO IVY 目黒エリア',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.9,
-    reviewCount: 56,
+    reviewCount: 4,
     reviews: [
       {
         author: 'T.H',

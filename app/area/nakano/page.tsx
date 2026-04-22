@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 中野',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
-    reviewCount: 150,
+    reviewCount: 19,
     reviews: [
       {
         author: 'T.M',
@@ -75,7 +75,7 @@ const studios = [
     name: 'PILATES STUDIO noa 中野スタジオ',
     image: '/images/studios/pilates-studio-noa.webp',
     rating: 4.7,
-    reviewCount: 130,
+    reviewCount: 12,
     reviews: [
       {
         author: 'S.K',
@@ -127,7 +127,7 @@ const studios = [
     name: 'ピラティスミラー 中野',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.8,
-    reviewCount: 85,
+    reviewCount: 14,
     reviews: [
       {
         author: 'M.Y',
@@ -179,7 +179,7 @@ const studios = [
     name: 'STUDIO IVY 中野',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
-    reviewCount: 95,
+    reviewCount: 12,
     reviews: [
       {
         author: 'R.N',
@@ -232,7 +232,7 @@ const studios = [
     name: 'CLUB PILATES 中野',
     image: '/images/studios/club-pilates.webp',
     rating: 4.5,
-    reviewCount: 110,
+    reviewCount: 107,
     reviews: [
       {
         author: 'H.K',
@@ -285,7 +285,7 @@ const studios = [
     name: 'Rintosull 中野（近隣）',
     image: '/images/studios/rintosull.webp',
     rating: 4.4,
-    reviewCount: 70,
+    reviewCount: 79,
     reviews: [
       {
         author: 'E.W',
@@ -337,7 +337,7 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 中野',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.3,
-    reviewCount: 60,
+    reviewCount: 110,
     reviews: [
       {
         author: 'J.S',
@@ -390,7 +390,7 @@ const studios = [
     name: 'ELEMENT 中野',
     image: '/images/studios/element.webp',
     rating: 4.6,
-    reviewCount: 80,
+    reviewCount: 17,
     reviews: [
       {
         author: 'D.H',
@@ -443,7 +443,7 @@ const studios = [
     name: 'NATURAglam 中野（近隣）',
     image: '/images/studios/naturaglam.webp',
     rating: 4.3,
-    reviewCount: 55,
+    reviewCount: 9,
     reviews: [
       {
         author: 'W.K',
@@ -496,7 +496,7 @@ const studios = [
     name: 'CALDO 中野',
     image: '/images/studios/caldo.webp',
     rating: 4.3,
-    reviewCount: 90,
+    reviewCount: 98,
     reviews: [
       {
         author: 'I.R',

@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 銀座四丁目スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 210,
+    reviewCount: 26,
     reviews: [
       {
         author: 'K.T',
@@ -74,7 +74,7 @@ const studios = [
     name: 'Pilates Mee 築地店',
     image: '/images/studios/pilates-mee.webp',
     rating: 4.7,
-    reviewCount: 142,
+    reviewCount: 7,
     reviews: [
       {
         author: 'S.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'Pilasuru 東銀座',
     image: '/images/studios/pilasuru-seijo.webp',
     rating: 4.7,
-    reviewCount: 98,
+    reviewCount: 13,
     reviews: [
       {
         author: 'E.M',
@@ -180,7 +180,7 @@ const studios = [
     name: 'Star Pilates 築地',
     image: '/images/studios/star-pilates-hakata.webp',
     rating: 4.8,
-    reviewCount: 76,
+    reviewCount: 13,
     reviews: [
       {
         author: 'H.S',
@@ -233,7 +233,7 @@ const studios = [
     name: 'BIRTH pilates studio 銀座',
     image: '/images/studios/birth-pilates-ginza.webp',
     rating: 4.8,
-    reviewCount: 88,
+    reviewCount: 16,
     reviews: [
       {
         author: 'M.Y',
@@ -286,7 +286,7 @@ const studios = [
     name: 'STUDIO IVY 銀座新富町店',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.6,
-    reviewCount: 105,
+    reviewCount: 8,
     reviews: [
       {
         author: 'K.N',

@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 恵比寿',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 234,
+    reviewCount: 19,
     reviews: [
       {
         author: 'S.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'BDC PILATES 恵比寿スタジオ',
     image: '/images/studios/bdc-pilates.webp',
     rating: 4.8,
-    reviewCount: 198,
+    reviewCount: 11,
     reviews: [
       {
         author: 'M.T',
@@ -127,7 +127,7 @@ const studios = [
     name: 'CLUB PILATES 恵比寿ガーデンプレイス店',
     image: '/images/studios/club-pilates.webp',
     rating: 4.7,
-    reviewCount: 167,
+    reviewCount: 81,
     reviews: [
       {
         author: 'E.K',
@@ -180,7 +180,7 @@ const studios = [
     name: 'the SILK 恵比寿店',
     image: '/images/studios/the-silk.webp',
     rating: 4.7,
-    reviewCount: 145,
+    reviewCount: 310,
     reviews: [
       {
         author: 'S.M',
@@ -233,7 +233,7 @@ const studios = [
     name: 'Pilates Mee 恵比寿店',
     image: '/images/studios/pilates-mee.webp',
     rating: 4.6,
-    reviewCount: 123,
+    reviewCount: 3,
     reviews: [
       {
         author: 'H.T',
@@ -286,7 +286,7 @@ const studios = [
     name: 'ルルト 恵比寿店',
     image: '/images/studios/luluto.webp',
     rating: 4.9,
-    reviewCount: 87,
+    reviewCount: 12,
     reviews: [
       {
         author: 'C.Y',
@@ -339,7 +339,7 @@ const studios = [
     name: 'the SILK 広尾店',
     image: '/images/studios/the-silk.webp',
     rating: 4.8,
-    reviewCount: 156,
+    reviewCount: 280,
     reviews: [
       {
         author: 'A.M',
@@ -392,7 +392,7 @@ const studios = [
     name: 'ピラティスミラー 中目黒',
     image: '/images/studios/pilates-mirror.webp',
     rating: 4.6,
-    reviewCount: 108,
+    reviewCount: 14,
     reviews: [
       {
         author: 'T.I',

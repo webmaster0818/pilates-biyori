@@ -21,7 +21,7 @@ const studios = [
     name: 'TOKI PILATES STUDIO（トキピラティス）',
     image: '/images/studios/toki-pilates-kobe.webp',
     rating: 4.8,
-    reviewCount: 156,
+    reviewCount: 12,
     reviews: [
       {
         author: 'Y.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'Pilates Mee 神戸元町店',
     image: '/images/studios/pilates-mee.webp',
     rating: 4.7,
-    reviewCount: 128,
+    reviewCount: 18,
     reviews: [
       {
         author: 'S.O',
@@ -127,7 +127,7 @@ const studios = [
     name: 'STUDIO BRAVE（スタジオブレイブ）',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.6,
-    reviewCount: 98,
+    reviewCount: 30,
     reviews: [
       {
         author: 'T.M',
@@ -180,7 +180,7 @@ const studios = [
     name: 'Studio douce（スタジオドゥース）',
     image: '/images/studios/pilates-studio-dep.webp',
     rating: 4.7,
-    reviewCount: 74,
+    reviewCount: 16,
     reviews: [
       {
         author: 'E.M',
@@ -233,7 +233,7 @@ const studios = [
     name: 'ラピラティス 神戸元町店',
     image: '/images/studios/rintosull.webp',
     rating: 4.5,
-    reviewCount: 62,
+    reviewCount: 3,
     reviews: [
       {
         author: 'M.R',
@@ -286,7 +286,7 @@ const studios = [
     name: 'zen place pilates 三宮スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 178,
+    reviewCount: 28,
     reviews: [
       {
         author: 'K.O',

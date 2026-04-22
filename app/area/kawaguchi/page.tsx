@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 川口',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 130,
+    reviewCount: 31,
     reviews: [
       {
         author: 'K.S',
@@ -74,7 +74,7 @@ const studios = [
     name: 'ピラティスK かわぐちキャスティ店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 155,
+    reviewCount: 232,
     reviews: [
       {
         author: 'Y.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 川口',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.6,
-    reviewCount: 100,
+    reviewCount: 136,
     reviews: [
       {
         author: 'E.M',
@@ -180,7 +180,7 @@ const studios = [
     name: 'Pilates Mee 川口店',
     image: '/images/studios/pilates-mee.webp',
     rating: 4.7,
-    reviewCount: 80,
+    reviewCount: 7,
     reviews: [
       {
         author: 'H.S',
@@ -233,7 +233,7 @@ const studios = [
     name: 'ELEMENT 川口店',
     image: '/images/studios/element.webp',
     rating: 4.7,
-    reviewCount: 70,
+    reviewCount: 18,
     reviews: [
       {
         author: 'Y.H',
@@ -286,7 +286,7 @@ const studios = [
     name: 'PILATES KASANE イオンモール川口前川店',
     image: '/images/studios/pilates-kasane.webp',
     rating: 4.5,
-    reviewCount: 65,
+    reviewCount: 35,
     reviews: [
       {
         author: 'T.N',

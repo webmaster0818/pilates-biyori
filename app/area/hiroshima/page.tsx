@@ -21,7 +21,7 @@ const studios = [
     name: 'ピラティスK 広島店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.0,
-    reviewCount: 178,
+    reviewCount: 146,
     reviews: [
       {
         author: 'A.M',
@@ -74,7 +74,7 @@ const studios = [
     name: 'zen place pilates 広島',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.2,
-    reviewCount: 214,
+    reviewCount: 22,
     reviews: [
       {
         author: 'K.T',
@@ -127,7 +127,7 @@ const studios = [
     name: 'CLUB PILATES 広島店',
     image: '/images/studios/club-pilates.webp',
     rating: 4.0,
-    reviewCount: 132,
+    reviewCount: 155,
     reviews: [
       {
         author: 'T.S',
@@ -180,7 +180,7 @@ const studios = [
     name: 'La pilates 広島店',
     image: '/images/studios/la-pilates.webp',
     rating: 4.2,
-    reviewCount: 96,
+    reviewCount: 18,
     reviews: [
       {
         author: 'E.K',
@@ -233,7 +233,7 @@ const studios = [
     name: 'Rintosull 広島八丁堀店',
     image: '/images/studios/rintosull.webp',
     rating: 4.0,
-    reviewCount: 145,
+    reviewCount: 42,
     reviews: [
       {
         author: 'M.T',
@@ -285,7 +285,7 @@ const studios = [
     name: 'PILATES STUDIO MJ',
     image: '/images/studios/pilates-mj-hiroshima.webp',
     rating: 4.1,
-    reviewCount: 68,
+    reviewCount: 10,
     reviews: [
       {
         author: 'F.H',
@@ -337,7 +337,7 @@ const studios = [
     name: 'juncus pilates & conditioning',
     image: '/images/studios/juncus-pilates-hiroshima.webp',
     rating: 4.2,
-    reviewCount: 87,
+    reviewCount: 18,
     reviews: [
       {
         author: 'P.K',

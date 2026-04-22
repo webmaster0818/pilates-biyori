@@ -21,7 +21,7 @@ const studios = [
     name: 'BDC PILATES 表参道スタジオ',
     image: '/images/studios/bdc-pilates.webp',
     rating: 4.8,
-    reviewCount: 234,
+    reviewCount: 17,
     reviews: [
       {
         author: 'M.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'ピラティスK 表参道店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 178,
+    reviewCount: 217,
     reviews: [
       {
         author: 'S.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'A・CORE（アコア）',
     image: '/images/studios/a-core-pilates.webp',
     rating: 4.9,
-    reviewCount: 156,
+    reviewCount: 3,
     reviews: [
       {
         author: 'C.M',
@@ -180,7 +180,7 @@ const studios = [
     name: 'Sky Pilates Tokyo',
     image: '/images/studios/sky-pilates-tokyo.webp',
     rating: 4.8,
-    reviewCount: 112,
+    reviewCount: 16,
     reviews: [
       {
         author: 'E.K',
@@ -233,7 +233,7 @@ const studios = [
     name: 'Pilates KASANE 表参道店',
     image: '/images/studios/pilates-kasane.webp',
     rating: 4.7,
-    reviewCount: 134,
+    reviewCount: 12,
     reviews: [
       {
         author: 'S.Y',
@@ -286,7 +286,7 @@ const studios = [
     name: 'zen place pilates 六本木',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 189,
+    reviewCount: 15,
     reviews: [
       {
         author: 'D.M',
@@ -339,7 +339,7 @@ const studios = [
     name: 'a.pilates（エードットピラティス）',
     image: '/images/studios/a-pilates-omotesando.webp',
     rating: 4.9,
-    reviewCount: 67,
+    reviewCount: 4,
     reviews: [
       {
         author: 'L.S',

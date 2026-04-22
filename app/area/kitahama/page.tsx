@@ -21,7 +21,7 @@ const studios = [
     name: 'ビーキューブ（B-Cube）',
     image: '/images/studios/bbbcube-kitahama.webp',
     rating: 4.8,
-    reviewCount: 186,
+    reviewCount: 26,
     reviews: [
       {
         author: 'M.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'Pilates Bodywork Studio 大阪北浜淀屋橋本店',
     image: '/images/studios/pilates-bodywork-kitahama.webp',
     rating: 4.7,
-    reviewCount: 152,
+    reviewCount: 13,
     reviews: [
       {
         author: 'A.M',
@@ -127,7 +127,7 @@ const studios = [
     name: 'ピラティススタジオ進化',
     image: '/images/studios/studio-shinka-kitahama.webp',
     rating: 4.7,
-    reviewCount: 98,
+    reviewCount: 30,
     reviews: [
       {
         author: 'R.S',
@@ -180,7 +180,7 @@ const studios = [
     name: 'Ua pilates 北浜（韓国式ピラティス）',
     image: '/images/studios/ua-pilates-kitahama.webp',
     rating: 4.6,
-    reviewCount: 78,
+    reviewCount: 19,
     reviews: [
       {
         author: 'E.T',
@@ -233,7 +233,7 @@ const studios = [
     name: 'zen place pilates 南森町',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 142,
+    reviewCount: 18,
     reviews: [
       {
         author: 'K.S',
@@ -286,7 +286,7 @@ const studios = [
     name: 'SHIN pilates studio 堺筋本町店',
     image: '/images/studios/shin-pilates.webp',
     rating: 4.6,
-    reviewCount: 88,
+    reviewCount: 5,
     reviews: [
       {
         author: 'J.M',

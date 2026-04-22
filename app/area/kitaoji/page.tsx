@@ -21,7 +21,7 @@ const studios = [
     name: 'REIBELLE 京都北山店',
     image: '/images/studios/reibelle-kyoto.webp',
     rating: 4.8,
-    reviewCount: 98,
+    reviewCount: 4,
     reviews: [
       {
         author: 'M.K',
@@ -127,7 +127,7 @@ const studios = [
     name: 'zen place pilates 京都スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 168,
+    reviewCount: 30,
     reviews: [
       {
         author: 'E.Y',
@@ -180,7 +180,7 @@ const studios = [
     name: 'style pilates 京都',
     image: '/images/studios/style-pilates-kyoto.webp',
     rating: 4.7,
-    reviewCount: 72,
+    reviewCount: 10,
     reviews: [
       {
         author: 'T.K',

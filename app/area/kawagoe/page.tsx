@@ -21,7 +21,7 @@ const studios = [
     name: 'ピラティスK 川越店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 145,
+    reviewCount: 89,
     reviews: [
       {
         author: 'M.S',
@@ -74,7 +74,7 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 川越店',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.7,
-    reviewCount: 128,
+    reviewCount: 255,
     reviews: [
       {
         author: 'K.H',
@@ -127,7 +127,7 @@ const studios = [
     name: 'Rintosull 本川越店',
     image: '/images/studios/rintosull.webp',
     rating: 4.6,
-    reviewCount: 98,
+    reviewCount: 179,
     reviews: [
       {
         author: 'E.T',
@@ -180,7 +180,7 @@ const studios = [
     name: 'La pilates 川越店',
     image: '/images/studios/la-pilates.webp',
     rating: 4.7,
-    reviewCount: 72,
+    reviewCount: 14,
     reviews: [
       {
         author: 'H.Y',
@@ -232,7 +232,7 @@ const studios = [
     name: 'ELEMENT 川越店',
     image: '/images/studios/element.webp',
     rating: 4.6,
-    reviewCount: 65,
+    reviewCount: 7,
     reviews: [
       {
         author: 'K.T',

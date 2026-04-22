@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 池袋スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 235,
+    reviewCount: 20,
     reviews: [
       {
         author: 'K.M',
@@ -74,7 +74,7 @@ const studios = [
     name: 'ピラティスK 池袋店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 198,
+    reviewCount: 239,
     reviews: [
       {
         author: 'M.N',
@@ -127,7 +127,7 @@ const studios = [
     name: 'the SILK 池袋東口店',
     image: '/images/studios/the-silk.webp',
     rating: 4.7,
-    reviewCount: 165,
+    reviewCount: 234,
     reviews: [
       {
         author: 'E.Y',
@@ -180,7 +180,7 @@ const studios = [
     name: 'CLUB PILATES 目白店',
     image: '/images/studios/club-pilates.webp',
     rating: 4.7,
-    reviewCount: 128,
+    reviewCount: 74,
     reviews: [
       {
         author: 'H.A',
@@ -233,7 +233,7 @@ const studios = [
     name: 'BDC PILATES 池袋スタジオ',
     image: '/images/studios/bdc-pilates.webp',
     rating: 4.6,
-    reviewCount: 95,
+    reviewCount: 11,
     reviews: [
       {
         author: 'Y.K',

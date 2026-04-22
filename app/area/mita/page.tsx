@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 三田スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 128,
+    reviewCount: 17,
     reviews: [
       {
         author: 'M.T',
@@ -74,7 +74,7 @@ const studios = [
     name: 'the SILK 田町エリア',
     image: '/images/studios/the-silk.webp',
     rating: 4.8,
-    reviewCount: 95,
+    reviewCount: 180,
     reviews: [
       {
         author: 'Y.K',
@@ -127,7 +127,7 @@ const studios = [
     name: 'CLUB PILATES 田町店',
     image: '/images/studios/club-pilates.webp',
     rating: 4.7,
-    reviewCount: 102,
+    reviewCount: 154,
     reviews: [
       {
         author: 'H.T',
@@ -180,7 +180,7 @@ const studios = [
     name: 'Pilates Studio B&B 田町店',
     image: '/images/studios/pilates-bb.webp',
     rating: 4.9,
-    reviewCount: 67,
+    reviewCount: 22,
     reviews: [
       {
         author: 'E.S',
@@ -234,7 +234,7 @@ const studios = [
     name: 'ピラティススタジオhibi',
     image: '/images/studios/pilates-hibi-mita.webp',
     rating: 4.8,
-    reviewCount: 45,
+    reviewCount: 8,
     reviews: [
       {
         author: 'Y.T',

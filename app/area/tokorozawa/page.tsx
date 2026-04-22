@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 所沢スタジオ',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 168,
+    reviewCount: 20,
     reviews: [
       {
         author: 'K.T',
@@ -74,7 +74,7 @@ const studios = [
     name: 'ピラティスK 所沢店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 195,
+    reviewCount: 147,
     reviews: [
       {
         author: 'M.H',
@@ -127,7 +127,7 @@ const studios = [
     name: 'the SILK 所沢店',
     image: '/images/studios/the-silk.webp',
     rating: 4.7,
-    reviewCount: 142,
+    reviewCount: 233,
     reviews: [
       {
         author: 'E.N',
@@ -180,7 +180,7 @@ const studios = [
     name: 'CLUB PILATES 所沢店',
     image: '/images/studios/club-pilates.webp',
     rating: 4.7,
-    reviewCount: 118,
+    reviewCount: 110,
     reviews: [
       {
         author: 'H.K',

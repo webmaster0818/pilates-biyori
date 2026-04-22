@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 赤坂',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
-    reviewCount: 128,
+    reviewCount: 12,
     reviews: [
       {
         author: 'M.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'the SILK 赤坂見附店',
     image: '/images/studios/the-silk.webp',
     rating: 4.8,
-    reviewCount: 95,
+    reviewCount: 368,
     reviews: [
       {
         author: 'E.M',
@@ -127,7 +127,7 @@ const studios = [
     name: 'ピラティススタジオnoa 赤坂',
     image: '/images/studios/pilates-studio-noa.webp',
     rating: 4.7,
-    reviewCount: 82,
+    reviewCount: 22,
     reviews: [
       {
         author: 'A.T',
@@ -180,7 +180,7 @@ const studios = [
     name: 'Lume（ルーメ）赤坂',
     image: '/images/studios/lume-akasaka.webp',
     rating: 4.9,
-    reviewCount: 56,
+    reviewCount: 6,
     reviews: [
       {
         author: 'K.N',
@@ -233,7 +233,7 @@ const studios = [
     name: 'STUDIO IVY 赤坂エリア',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
-    reviewCount: 43,
+    reviewCount: 8,
     reviews: [
       {
         author: 'T.H',

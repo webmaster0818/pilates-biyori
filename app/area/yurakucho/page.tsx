@@ -21,7 +21,7 @@ const studios = [
     name: 'ピラティスK 銀座店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.0,
-    reviewCount: 186,
+    reviewCount: 239,
     reviews: [
       {
         author: 'T.W',
@@ -74,7 +74,7 @@ const studios = [
     name: 'zen place pilates 銀座二丁目',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.3,
-    reviewCount: 245,
+    reviewCount: 29,
     reviews: [
       {
         author: 'S.K',
@@ -127,7 +127,7 @@ const studios = [
     name: 'the SILK 銀座店',
     image: '/images/studios/the-silk.webp',
     rating: 4.5,
-    reviewCount: 172,
+    reviewCount: 312,
     reviews: [
       {
         author: 'R.N',
@@ -180,7 +180,7 @@ const studios = [
     name: 'BDC PILATES 銀座スタジオ',
     image: '/images/studios/bdc-pilates.webp',
     rating: 4.6,
-    reviewCount: 138,
+    reviewCount: 7,
     reviews: [
       {
         author: 'K.Y',
@@ -233,7 +233,7 @@ const studios = [
     name: 'Rintosull 銀座店',
     image: '/images/studios/rintosull.webp',
     rating: 4.4,
-    reviewCount: 95,
+    reviewCount: 128,
     reviews: [
       {
         author: 'M.T',

@@ -21,7 +21,7 @@ const studios = [
     name: 'Rintosull 京都桂店',
     image: '/images/studios/rintosull.webp',
     rating: 4.8,
-    reviewCount: 142,
+    reviewCount: 157,
     reviews: [
       {
         author: 'M.S',
@@ -74,7 +74,7 @@ const studios = [
     name: 'ピラティススタジオDEP 京都桂店',
     image: '/images/studios/pilates-studio-dep.webp',
     rating: 4.9,
-    reviewCount: 168,
+    reviewCount: 17,
     reviews: [
       {
         author: 'A.K',
@@ -127,7 +127,7 @@ const studios = [
     name: 'Studio ViV（スタジオヴィヴ）',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.8,
-    reviewCount: 76,
+    reviewCount: 30,
     reviews: [
       {
         author: 'T.Y',
@@ -180,7 +180,7 @@ const studios = [
     name: 'STUDIO IVY 四条大宮店',
     image: '/images/studios/studio-ivy.webp',
     rating: 4.7,
-    reviewCount: 134,
+    reviewCount: 8,
     reviews: [
       {
         author: 'M.Y',
@@ -233,7 +233,7 @@ const studios = [
     name: 'Rintosull 京都四条烏丸店',
     image: '/images/studios/rintosull.webp',
     rating: 4.7,
-    reviewCount: 165,
+    reviewCount: 158,
     reviews: [
       {
         author: 'S.K',

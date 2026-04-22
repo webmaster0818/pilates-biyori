@@ -21,7 +21,7 @@ const studios = [
     name: 'zen place pilates 本郷三丁目店',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
-    reviewCount: 265,
+    reviewCount: 23,
     reviews: [
       {
         author: 'M.K',
@@ -74,7 +74,7 @@ const studios = [
     name: 'ピラティスK 神保町店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,
-    reviewCount: 204,
+    reviewCount: 177,
     reviews: [
       {
         author: 'A.T',
@@ -127,7 +127,7 @@ const studios = [
     name: 'YARD 御茶ノ水スタジオ',
     image: '/images/studios/yard.webp',
     rating: 4.6,
-    reviewCount: 186,
+    reviewCount: 4,
     reviews: [
       {
         author: 'K.M',
