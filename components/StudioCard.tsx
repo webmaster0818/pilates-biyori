@@ -85,23 +85,18 @@ export function StudioCard({ studio, index }: StudioCardProps) {
               <div className="space-y-3">
                 {studio.reviews.slice(0, 3).map((review, i) => (
                   <div key={i} className="bg-white border border-warm-200 rounded p-3">
-                    <div className="flex items-center justify-between mb-2">
-                      <div>
-                        <p className="font-medium text-warm-900 text-sm">{review.author}</p>
-                        <div className="flex items-center mt-1">
-                          <div className="flex">
-                            {[...Array(5)].map((_, starIndex) => (
-                              <span
-                                key={starIndex}
-                                className={starIndex < review.rating ? 'text-yellow-500' : 'text-warm-300'}
-                              >
-                                ★
-                              </span>
-                            ))}
-                          </div>
-                          <span className="text-warm-500 text-xs ml-2">{review.date}</span>
-                        </div>
+                    <div className="flex items-center mb-2">
+                      <div className="flex">
+                        {[...Array(5)].map((_, starIndex) => (
+                          <span
+                            key={starIndex}
+                            className={starIndex < review.rating ? 'text-yellow-500' : 'text-warm-300'}
+                          >
+                            ★
+                          </span>
+                        ))}
                       </div>
+                      <span className="text-warm-500 text-xs ml-2">{review.date}</span>
                     </div>
                     <p className="text-warm-700 text-sm leading-relaxed">{review.text}</p>
                   </div>
