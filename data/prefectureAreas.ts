@@ -159,11 +159,41 @@ export const prefectureAreas = [
     ],
   },
   {
+    prefecture: '長野県',
+    areas: [
+      { slug: 'nagano', name: '長野' },
+    ],
+  },
+  {
+    prefecture: '富山県',
+    areas: [
+      { slug: 'toyama', name: '富山' },
+    ],
+  },
+  {
+    prefecture: '岐阜県',
+    areas: [
+      { slug: 'gifu', name: '岐阜' },
+    ],
+  },
+  {
     prefecture: '愛知県',
     areas: [
       { slug: 'nagoya', name: '名古屋' },
       { slug: 'nagoya-station', name: '名古屋駅' },
       { slug: 'sakae', name: '栄' },
+      { slug: 'fujigaoka', name: '藤が丘' },
+      { slug: 'ichinomiya', name: '一宮' },
+      { slug: 'toyohashi', name: '豊橋' },
+      { slug: 'chikusa', name: '千種' },
+      { slug: 'kakuozan', name: '覚王山' },
+      { slug: 'yagoto', name: '八事' },
+    ],
+  },
+  {
+    prefecture: '三重県',
+    areas: [
+      { slug: 'yokkaichi', name: '四日市' },
     ],
   },
   {
@@ -179,6 +209,12 @@ export const prefectureAreas = [
     ],
   },
   {
+    prefecture: '滋賀県',
+    areas: [
+      { slug: 'otsu', name: '大津' },
+    ],
+  },
+  {
     prefecture: '大阪府',
     areas: [
       { slug: 'osaka', name: '大阪' },
@@ -191,6 +227,10 @@ export const prefectureAreas = [
       { slug: 'kitahama', name: '北浜・淀屋橋' },
       { slug: 'abeno', name: '阿倍野' },
       { slug: 'shin-osaka', name: '新大阪' },
+      { slug: 'hirakata', name: '枚方' },
+      { slug: 'ibaraki', name: '茨木' },
+      { slug: 'sakai', name: '堺' },
+      { slug: 'izumi', name: '和泉' },
     ],
   },
   {
@@ -199,6 +239,16 @@ export const prefectureAreas = [
       { slug: 'kobe', name: '神戸' },
       { slug: 'nishinomiya', name: '西宮' },
       { slug: 'sannomiya', name: '三宮' },
+      { slug: 'himeji', name: '姫路' },
+      { slug: 'akashi', name: '明石' },
+      { slug: 'itami', name: '伊丹' },
+      { slug: 'amagasaki', name: '尼崎' },
+    ],
+  },
+  {
+    prefecture: '奈良県',
+    areas: [
+      { slug: 'nara', name: '奈良' },
     ],
   },
   {
