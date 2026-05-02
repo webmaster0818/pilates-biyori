@@ -7,6 +7,7 @@ import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
 import { FAQSchema } from '@/components/FAQSchema'
+import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 
@@ -147,6 +148,11 @@ export default function NagoyaStationPage() {
     <>
       <FAQSchema faqs={faqs} />
       <Navigation />
+      <BreadcrumbSchema items={[
+        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
+        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
+        { name: '名古屋駅', url: 'https://pilates-biyori.com/area/nagoya-station/' },
+      ]} />
 
       <main className="pt-20 bg-white">
         {/* Hero Section */}

@@ -7,6 +7,7 @@ import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
 import { FAQSchema } from '@/components/FAQSchema'
+import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 
@@ -385,6 +386,11 @@ export default function KitahamaPage() {
     <>
       <FAQSchema faqs={faqs} />
       <Navigation />
+      <BreadcrumbSchema items={[
+        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
+        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
+        { name: '北浜・淀屋橋', url: 'https://pilates-biyori.com/area/kitahama/' },
+      ]} />
 
       <main className="pt-20 bg-white">
         {/* Hero Section */}

@@ -7,6 +7,7 @@ import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
 import { FAQSchema } from '@/components/FAQSchema'
+import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 
@@ -640,6 +641,11 @@ export default function ShimbashiPage() {
     <>
       <FAQSchema faqs={faqs} />
       <Navigation />
+      <BreadcrumbSchema items={[
+        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
+        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
+        { name: '新橋', url: 'https://pilates-biyori.com/area/shimbashi/' },
+      ]} />
 
       <main className="pt-20 bg-white">
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">

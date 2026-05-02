@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { Navigation } from '@/components/Navigation'
 import { SiteFooter } from '@/components/SiteFooter'
+import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import Script from 'next/script'
 
 export const metadata = {
@@ -187,6 +188,10 @@ export default function AreaPage() {
   return (
     <>
       <Navigation />
+      <BreadcrumbSchema items={[
+        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
+        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
+      ]} />
 
       <main className="pt-20">
         {/* Hero Section */}

@@ -820,10 +820,305 @@ export default function Home() {
           </div>
         </section>
 
-        <button 
-          id="backToTop" 
-          onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} 
-          aria-label="ページの先頭へ" 
+        {/* Area Links - エリア別おすすめピラティス */}
+        <section className="py-20 md:py-28 bg-white" id="area-links">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <div className="text-center mb-14 fade-up">
+              <p className="section-en text-warm-400 mb-3 font-medium">Area Guide</p>
+              <h2 className="text-2xl md:text-3xl font-light text-warm-900 tracking-tight">エリア別おすすめピラティス</h2>
+              <div className="divider mx-auto mt-4"></div>
+              <p className="text-warm-500 text-sm font-light mt-4 max-w-lg mx-auto leading-relaxed">
+                全国227エリアのピラティススタジオ情報を掲載中。お住まいの地域からぴったりのスタジオを見つけましょう。
+              </p>
+            </div>
+
+            {/* 北海道・東北 */}
+            <div className="mb-10 fade-up">
+              <h3 className="text-sm font-medium text-warm-800 mb-4 pb-2 border-b border-warm-200 uppercase tracking-[0.1em]">北海道・東北</h3>
+              <div className="flex flex-wrap gap-2">
+                {[
+                  { name: '札幌', slug: 'sapporo' },
+                  { name: '仙台', slug: 'sendai' },
+                ].map((a) => (
+                  <Link key={a.slug} href={`/area/${a.slug}/`} className="text-xs text-warm-600 hover:text-warm-900 border border-warm-200 px-3 py-1.5 hover:border-warm-400 transition-colors bg-warm-50">{a.name}</Link>
+                ))}
+              </div>
+            </div>
+
+            {/* 関東（東京以外） */}
+            <div className="mb-10 fade-up">
+              <h3 className="text-sm font-medium text-warm-800 mb-4 pb-2 border-b border-warm-200 uppercase tracking-[0.1em]">関東（東京以外）</h3>
+              <div className="flex flex-wrap gap-2">
+                {[
+                  { name: '横浜', slug: 'yokohama' },
+                  { name: '川崎', slug: 'kawasaki' },
+                  { name: '関内', slug: 'kannai' },
+                  { name: '藤沢', slug: 'fujisawa' },
+                  { name: '武蔵小杉', slug: 'musashikosugi' },
+                  { name: '本厚木', slug: 'honatsugi' },
+                  { name: '湘南・辻堂', slug: 'shonan' },
+                  { name: '鎌倉', slug: 'kamakura' },
+                  { name: '相模大野', slug: 'sagami-ono' },
+                  { name: '大宮', slug: 'omiya' },
+                  { name: '浦和', slug: 'urawa' },
+                  { name: '川越', slug: 'kawagoe' },
+                  { name: '越谷', slug: 'koshigaya' },
+                  { name: '所沢', slug: 'tokorozawa' },
+                  { name: '千葉', slug: 'chiba' },
+                  { name: '船橋', slug: 'funabashi' },
+                  { name: '柏', slug: 'kashiwa' },
+                  { name: 'つくば', slug: 'tsukuba' },
+                ].map((a) => (
+                  <Link key={a.slug} href={`/area/${a.slug}/`} className="text-xs text-warm-600 hover:text-warm-900 border border-warm-200 px-3 py-1.5 hover:border-warm-400 transition-colors bg-warm-50">{a.name}</Link>
+                ))}
+              </div>
+            </div>
+
+            {/* 東京23区（山手線沿線） */}
+            <div className="mb-10 fade-up">
+              <h3 className="text-sm font-medium text-warm-800 mb-4 pb-2 border-b border-warm-200 uppercase tracking-[0.1em]">東京23区（山手線沿線）</h3>
+              <div className="flex flex-wrap gap-2">
+                {[
+                  { name: '新宿', slug: 'shinjuku' },
+                  { name: '渋谷', slug: 'shibuya' },
+                  { name: '池袋', slug: 'ikebukuro' },
+                  { name: '東京駅', slug: 'tokyo-station' },
+                  { name: '品川', slug: 'shinagawa' },
+                  { name: '新橋', slug: 'shimbashi' },
+                  { name: '有楽町', slug: 'yurakucho' },
+                  { name: '上野', slug: 'ueno' },
+                  { name: '秋葉原', slug: 'akihabara' },
+                  { name: '日暮里', slug: 'nippori' },
+                  { name: '赤羽', slug: 'akabane' },
+                  { name: '大塚', slug: 'otsuka' },
+                  { name: '巣鴨', slug: 'sugamo' },
+                  { name: '高田馬場', slug: 'takadanobaba' },
+                  { name: '田町', slug: 'tamachi' },
+                  { name: '浜松町', slug: 'hamamatsucho' },
+                  { name: '五反田', slug: 'gotanda' },
+                  { name: '目黒', slug: 'meguro' },
+                  { name: '恵比寿', slug: 'ebisu' },
+                ].map((a) => (
+                  <Link key={a.slug} href={`/area/${a.slug}/`} className="text-xs text-warm-600 hover:text-warm-900 border border-warm-200 px-3 py-1.5 hover:border-warm-400 transition-colors bg-warm-50">{a.name}</Link>
+                ))}
+              </div>
+            </div>
+
+            {/* 東京23区（地下鉄沿線） */}
+            <div className="mb-10 fade-up">
+              <h3 className="text-sm font-medium text-warm-800 mb-4 pb-2 border-b border-warm-200 uppercase tracking-[0.1em]">東京23区（地下鉄沿線）</h3>
+              <div className="flex flex-wrap gap-2">
+                {[
+                  { name: '銀座', slug: 'ginza' },
+                  { name: '表参道', slug: 'omotesando' },
+                  { name: '六本木', slug: 'roppongi' },
+                  { name: '赤坂', slug: 'akasaka' },
+                  { name: '永田町', slug: 'nagatacho' },
+                  { name: '麻布十番', slug: 'azabujuban' },
+                  { name: '白金高輪', slug: 'shirokanedai' },
+                  { name: '大手町', slug: 'otemachi' },
+                  { name: '丸の内', slug: 'marunouchi' },
+                  { name: '日本橋', slug: 'nihonbashi' },
+                  { name: '飯田橋', slug: 'iidabashi' },
+                  { name: '神楽坂', slug: 'kagurazaka' },
+                  { name: '水道橋', slug: 'suidobashi' },
+                  { name: '後楽園', slug: 'korakuen' },
+                  { name: '四ツ谷', slug: 'yotsuya' },
+                  { name: '青山一丁目', slug: 'aoyama-itchome' },
+                  { name: '三田', slug: 'mita' },
+                  { name: '門前仲町', slug: 'monzen-nakacho' },
+                  { name: '豊洲', slug: 'toyosu' },
+                  { name: '錦糸町', slug: 'kinshicho' },
+                  { name: '亀戸', slug: 'kameido' },
+                  { name: '北千住', slug: 'kita-senju' },
+                  { name: '西日暮里', slug: 'nishi-nippori' },
+                  { name: '押上', slug: 'oshiage' },
+                  { name: '築地', slug: 'tsukiji' },
+                  { name: '虎ノ門', slug: 'toranomon' },
+                  { name: '蔵前', slug: 'kuramae' },
+                ].map((a) => (
+                  <Link key={a.slug} href={`/area/${a.slug}/`} className="text-xs text-warm-600 hover:text-warm-900 border border-warm-200 px-3 py-1.5 hover:border-warm-400 transition-colors bg-warm-50">{a.name}</Link>
+                ))}
+              </div>
+            </div>
+
+            {/* 東京23区（東急・小田急・京王沿線） */}
+            <div className="mb-10 fade-up">
+              <h3 className="text-sm font-medium text-warm-800 mb-4 pb-2 border-b border-warm-200 uppercase tracking-[0.1em]">東京23区（東急・小田急・京王沿線）</h3>
+              <div className="flex flex-wrap gap-2">
+                {[
+                  { name: '中目黒', slug: 'nakameguro' },
+                  { name: '代々木上原', slug: 'yoyogi-uehara' },
+                  { name: '三軒茶屋', slug: 'sangenjaya' },
+                  { name: '下北沢', slug: 'shimokitazawa' },
+                  { name: '自由が丘', slug: 'jiyugaoka' },
+                  { name: '二子玉川', slug: 'futakotamagawa' },
+                  { name: '学芸大学', slug: 'gakugei-daigaku' },
+                  { name: '都立大学', slug: 'toritsudaigaku' },
+                  { name: '祐天寺', slug: 'yutenji' },
+                  { name: '武蔵小山', slug: 'musashikoyama' },
+                  { name: '代官山', slug: 'daikanyama' },
+                  { name: '広尾', slug: 'hiroo' },
+                  { name: '蒲田', slug: 'kamata' },
+                  { name: '田園調布', slug: 'denenchofu' },
+                  { name: '用賀・駒沢', slug: 'yoga-komazawa' },
+                  { name: '大井町', slug: 'oimachi' },
+                ].map((a) => (
+                  <Link key={a.slug} href={`/area/${a.slug}/`} className="text-xs text-warm-600 hover:text-warm-900 border border-warm-200 px-3 py-1.5 hover:border-warm-400 transition-colors bg-warm-50">{a.name}</Link>
+                ))}
+              </div>
+            </div>
+
+            {/* 東京23区（中央線沿線） */}
+            <div className="mb-10 fade-up">
+              <h3 className="text-sm font-medium text-warm-800 mb-4 pb-2 border-b border-warm-200 uppercase tracking-[0.1em]">東京（中央線・その他）</h3>
+              <div className="flex flex-wrap gap-2">
+                {[
+                  { name: '東京', slug: 'tokyo' },
+                  { name: '中野', slug: 'nakano' },
+                  { name: '高円寺', slug: 'koenji' },
+                  { name: '阿佐ヶ谷', slug: 'asagaya' },
+                  { name: '荻窪', slug: 'ogikubo' },
+                  { name: '西荻窪', slug: 'nishi-ogikubo' },
+                  { name: '吉祥寺', slug: 'kichijoji' },
+                  { name: '三鷹', slug: 'mitaka' },
+                  { name: '新大久保', slug: 'shin-okubo' },
+                  { name: '御茶ノ水', slug: 'ochanomizu' },
+                  { name: '原宿', slug: 'harajuku' },
+                  { name: '代々木', slug: 'yoyogi' },
+                  { name: '成城学園前', slug: 'seijo-gakuenmae' },
+                  { name: '調布', slug: 'chofu' },
+                  { name: '町田', slug: 'machida' },
+                  { name: '立川', slug: 'tachikawa' },
+                  { name: '府中', slug: 'fuchu' },
+                  { name: '八王子', slug: 'hachioji' },
+                  { name: '浅草', slug: 'asakusa' },
+                  { name: '練馬', slug: 'nerima' },
+                  { name: '王子', slug: 'oji' },
+                  { name: '中野坂上', slug: 'nakano-sakaue' },
+                  { name: '笹塚', slug: 'sasazuka' },
+                ].map((a) => (
+                  <Link key={a.slug} href={`/area/${a.slug}/`} className="text-xs text-warm-600 hover:text-warm-900 border border-warm-200 px-3 py-1.5 hover:border-warm-400 transition-colors bg-warm-50">{a.name}</Link>
+                ))}
+              </div>
+            </div>
+
+            {/* 中部 */}
+            <div className="mb-10 fade-up">
+              <h3 className="text-sm font-medium text-warm-800 mb-4 pb-2 border-b border-warm-200 uppercase tracking-[0.1em]">中部</h3>
+              <div className="flex flex-wrap gap-2">
+                {[
+                  { name: '名古屋', slug: 'nagoya' },
+                  { name: '名古屋駅', slug: 'nagoya-station' },
+                  { name: '栄', slug: 'sakae' },
+                  { name: '藤が丘', slug: 'fujigaoka' },
+                  { name: '一宮', slug: 'ichinomiya' },
+                  { name: '豊橋', slug: 'toyohashi' },
+                  { name: '千種', slug: 'chikusa' },
+                  { name: '覚王山', slug: 'kakuozan' },
+                  { name: '八事', slug: 'yagoto' },
+                  { name: '静岡', slug: 'shizuoka' },
+                  { name: '浜松', slug: 'hamamatsu' },
+                  { name: '新潟', slug: 'niigata' },
+                  { name: '長野', slug: 'nagano' },
+                  { name: '富山', slug: 'toyama' },
+                  { name: '岐阜', slug: 'gifu' },
+                  { name: '金沢', slug: 'kanazawa' },
+                  { name: '四日市', slug: 'yokkaichi' },
+                ].map((a) => (
+                  <Link key={a.slug} href={`/area/${a.slug}/`} className="text-xs text-warm-600 hover:text-warm-900 border border-warm-200 px-3 py-1.5 hover:border-warm-400 transition-colors bg-warm-50">{a.name}</Link>
+                ))}
+              </div>
+            </div>
+
+            {/* 近畿 */}
+            <div className="mb-10 fade-up">
+              <h3 className="text-sm font-medium text-warm-800 mb-4 pb-2 border-b border-warm-200 uppercase tracking-[0.1em]">近畿</h3>
+              <div className="flex flex-wrap gap-2">
+                {[
+                  { name: '大阪', slug: 'osaka' },
+                  { name: '梅田', slug: 'umeda' },
+                  { name: 'なんば', slug: 'namba' },
+                  { name: '心斎橋', slug: 'shinsaibashi' },
+                  { name: '天王寺', slug: 'tennoji' },
+                  { name: '本町', slug: 'honmachi' },
+                  { name: '江坂', slug: 'esaka' },
+                  { name: '北浜・淀屋橋', slug: 'kitahama' },
+                  { name: '阿倍野', slug: 'abeno' },
+                  { name: '新大阪', slug: 'shin-osaka' },
+                  { name: '枚方', slug: 'hirakata' },
+                  { name: '茨木', slug: 'ibaraki' },
+                  { name: '堺', slug: 'sakai' },
+                  { name: '和泉', slug: 'izumi' },
+                  { name: '京都', slug: 'kyoto' },
+                  { name: '京都駅', slug: 'kyoto-station' },
+                  { name: '烏丸御池', slug: 'karasuma-oike' },
+                  { name: '四条河原町', slug: 'shijo-kawaramachi' },
+                  { name: '京都市役所前', slug: 'kyoto-shiyakusho-mae' },
+                  { name: '北大路', slug: 'kitaoji' },
+                  { name: '祇園四条', slug: 'gion-shijo' },
+                  { name: '神戸', slug: 'kobe' },
+                  { name: '西宮', slug: 'nishinomiya' },
+                  { name: '三宮', slug: 'sannomiya' },
+                  { name: '姫路', slug: 'himeji' },
+                  { name: '明石', slug: 'akashi' },
+                  { name: '伊丹', slug: 'itami' },
+                  { name: '尼崎', slug: 'amagasaki' },
+                  { name: '奈良', slug: 'nara' },
+                  { name: '大津', slug: 'otsu' },
+                ].map((a) => (
+                  <Link key={a.slug} href={`/area/${a.slug}/`} className="text-xs text-warm-600 hover:text-warm-900 border border-warm-200 px-3 py-1.5 hover:border-warm-400 transition-colors bg-warm-50">{a.name}</Link>
+                ))}
+              </div>
+            </div>
+
+            {/* 中国・四国 */}
+            <div className="mb-10 fade-up">
+              <h3 className="text-sm font-medium text-warm-800 mb-4 pb-2 border-b border-warm-200 uppercase tracking-[0.1em]">中国・四国</h3>
+              <div className="flex flex-wrap gap-2">
+                {[
+                  { name: '広島', slug: 'hiroshima' },
+                  { name: '岡山', slug: 'okayama' },
+                  { name: '高松', slug: 'takamatsu' },
+                ].map((a) => (
+                  <Link key={a.slug} href={`/area/${a.slug}/`} className="text-xs text-warm-600 hover:text-warm-900 border border-warm-200 px-3 py-1.5 hover:border-warm-400 transition-colors bg-warm-50">{a.name}</Link>
+                ))}
+              </div>
+            </div>
+
+            {/* 九州・沖縄 */}
+            <div className="mb-10 fade-up">
+              <h3 className="text-sm font-medium text-warm-800 mb-4 pb-2 border-b border-warm-200 uppercase tracking-[0.1em]">九州・沖縄</h3>
+              <div className="flex flex-wrap gap-2">
+                {[
+                  { name: '福岡', slug: 'fukuoka' },
+                  { name: '天神', slug: 'tenjin' },
+                  { name: '博多', slug: 'hakata' },
+                  { name: '薬院', slug: 'yakuin' },
+                  { name: '西新', slug: 'nishijin' },
+                  { name: '小倉', slug: 'kokura' },
+                  { name: '熊本', slug: 'kumamoto' },
+                  { name: '鹿児島', slug: 'kagoshima' },
+                  { name: '沖縄', slug: 'okinawa' },
+                  { name: '那覇', slug: 'naha' },
+                ].map((a) => (
+                  <Link key={a.slug} href={`/area/${a.slug}/`} className="text-xs text-warm-600 hover:text-warm-900 border border-warm-200 px-3 py-1.5 hover:border-warm-400 transition-colors bg-warm-50">{a.name}</Link>
+                ))}
+              </div>
+            </div>
+
+            <div className="text-center mt-8 fade-up">
+              <Link href="/area/" className="inline-block border border-warm-800 text-warm-800 px-10 py-3.5 text-xs font-medium uppercase tracking-[0.15em] hover:bg-warm-800 hover:text-white transition-all btn-minimal">
+                すべてのエリアを見る
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        <button
+          id="backToTop"
+          onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}
+          aria-label="ページの先頭へ"
           className="fixed bottom-6 right-6 w-10 h-10 bg-warm-800/80 backdrop-blur text-white rounded-full flex items-center justify-center opacity-0 pointer-events-none transition-all hover:bg-warm-900 z-40"
         >
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

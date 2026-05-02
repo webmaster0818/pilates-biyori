@@ -7,6 +7,7 @@ import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
 import { FAQSchema } from '@/components/FAQSchema'
+import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 
@@ -237,6 +238,11 @@ export default function ShirokanatakanwaPage() {
     <>
       <FAQSchema faqs={faqs} />
       <Navigation />
+      <BreadcrumbSchema items={[
+        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
+        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
+        { name: '白金高輪', url: 'https://pilates-biyori.com/area/shirokanatakanawa/' },
+      ]} />
       <main className="pt-20 bg-white">
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス白金高輪おすすめ12選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1></div></section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">白金高輪</span></nav></div></section>

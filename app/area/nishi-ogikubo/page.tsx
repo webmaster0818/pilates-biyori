@@ -7,6 +7,7 @@ import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
 import { FAQSchema } from '@/components/FAQSchema'
+import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 
@@ -388,6 +389,11 @@ export default function NishiOgikuboAreaPage() {
     <>
       <FAQSchema faqs={faqs} />
       <Navigation />
+      <BreadcrumbSchema items={[
+        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
+        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
+        { name: '西荻窪', url: 'https://pilates-biyori.com/area/nishi-ogikubo/' },
+      ]} />
       <Script
         id="structured-data"
         type="application/ld+json"
