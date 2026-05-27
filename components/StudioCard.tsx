@@ -20,7 +20,7 @@ type Studio = {
   trial: string
   features: string[]
   description: string
-  access: string
+  access?: string
   address?: string
   mapImage?: string
   popularPlan?: {

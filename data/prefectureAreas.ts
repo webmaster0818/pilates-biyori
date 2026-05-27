@@ -299,4 +299,54 @@ export const prefectureAreas = [
       { slug: 'naha', name: '那覇' },
     ],
   },
+  {
+    prefecture: '青森県',
+    areas: [
+      { slug: 'aomori', name: '青森' },
+      { slug: 'hirosaki', name: '弘前' },
+      { slug: 'hachinohe', name: '八戸' },
+    ],
+  },
+  {
+    prefecture: '岩手県',
+    areas: [
+      { slug: 'morioka', name: '盛岡' },
+    ],
+  },
+  {
+    prefecture: '秋田県',
+    areas: [
+      { slug: 'akita', name: '秋田' },
+    ],
+  },
+  {
+    prefecture: '山形県',
+    areas: [
+      { slug: 'yamagata', name: '山形' },
+    ],
+  },
+  {
+    prefecture: '福島県',
+    areas: [
+      { slug: 'fukushima', name: '福島' },
+    ],
+  },
+  {
+    prefecture: '栃木県',
+    areas: [
+      { slug: 'utsunomiya', name: '宇都宮' },
+    ],
+  },
+  {
+    prefecture: '群馬県',
+    areas: [
+      { slug: 'takasaki', name: '高崎' },
+    ],
+  },
+  {
+    prefecture: '山梨県',
+    areas: [
+      { slug: 'kofu', name: '甲府' },
+    ],
+  },
 ]
