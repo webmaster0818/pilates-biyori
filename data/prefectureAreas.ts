@@ -4,6 +4,10 @@ export const prefectureAreas = [
     prefecture: '北海道',
     areas: [
       { slug: 'sapporo', name: '札幌' },
+      { slug: 'asahikawa', name: '旭川' },
+      { slug: 'hakodate', name: '函館' },
+      { slug: 'tomakomai', name: '苫小牧' },
+      { slug: 'obihiro', name: '帯広' },
     ],
   },
   {
@@ -38,6 +42,11 @@ export const prefectureAreas = [
       { slug: 'kawagoe', name: '川越' },
       { slug: 'koshigaya', name: '越谷' },
       { slug: 'tokorozawa', name: '所沢' },
+      { slug: 'ageo', name: '上尾' },
+      { slug: 'wako', name: '和光市' },
+      { slug: 'musashi-urawa', name: '武蔵浦和' },
+      { slug: 'honkawagoe', name: '本川越' },
+      { slug: 'fujimino', name: 'ふじみ野' },
     ],
   },
   {
@@ -46,6 +55,10 @@ export const prefectureAreas = [
       { slug: 'chiba', name: '千葉' },
       { slug: 'funabashi', name: '船橋' },
       { slug: 'kashiwa', name: '柏' },
+      { slug: 'matsudo', name: '松戸' },
+      { slug: 'ichikawa', name: '市川' },
+      { slug: 'nagareyama', name: '流山' },
+      { slug: 'yachiyo', name: '八千代' },
     ],
   },
   {
@@ -149,6 +162,11 @@ export const prefectureAreas = [
       { slug: 'shonan', name: '湘南・辻堂' },
       { slug: 'kamakura', name: '鎌倉' },
       { slug: 'sagami-ono', name: '相模大野' },
+      { slug: 'chigasaki', name: '茅ヶ崎' },
+      { slug: 'hiratsuka', name: '平塚' },
+      { slug: 'ebina', name: '海老名' },
+      { slug: 'yokosuka', name: '横須賀' },
+      { slug: 'tama-plaza', name: 'たまプラーザ' },
     ],
   },
   {
@@ -156,12 +174,17 @@ export const prefectureAreas = [
     areas: [
       { slug: 'shizuoka', name: '静岡' },
       { slug: 'hamamatsu', name: '浜松' },
+      { slug: 'numazu', name: '沼津' },
+      { slug: 'fuji', name: '富士' },
+      { slug: 'mishima', name: '三島' },
     ],
   },
   {
     prefecture: '長野県',
     areas: [
       { slug: 'nagano', name: '長野' },
+      { slug: 'matsumoto', name: '松本' },
+      { slug: 'karuizawa', name: '軽井沢' },
     ],
   },
   {
@@ -174,6 +197,9 @@ export const prefectureAreas = [
     prefecture: '岐阜県',
     areas: [
       { slug: 'gifu', name: '岐阜' },
+      { slug: 'ogaki', name: '大垣' },
+      { slug: 'kakamigahara', name: '各務原' },
+      { slug: 'tajimi', name: '多治見' },
     ],
   },
   {
@@ -188,6 +214,10 @@ export const prefectureAreas = [
       { slug: 'chikusa', name: '千種' },
       { slug: 'kakuozan', name: '覚王山' },
       { slug: 'yagoto', name: '八事' },
+      { slug: 'toyota', name: '豊田' },
+      { slug: 'okazaki', name: '岡崎' },
+      { slug: 'kasugai', name: '春日井' },
+      { slug: 'kariya', name: '刈谷' },
     ],
   },
   {
@@ -206,12 +236,18 @@ export const prefectureAreas = [
       { slug: 'kyoto-shiyakusho-mae', name: '京都市役所前' },
       { slug: 'kitaoji', name: '北大路' },
       { slug: 'gion-shijo', name: '祇園四条' },
+      { slug: 'demachiyanagi', name: '出町柳' },
+      { slug: 'higashiyama', name: '東山' },
+      { slug: 'arashiyama', name: '嵐山' },
     ],
   },
   {
     prefecture: '滋賀県',
     areas: [
       { slug: 'otsu', name: '大津' },
+      { slug: 'kusatsu', name: '草津' },
+      { slug: 'hikone', name: '彦根' },
+      { slug: 'omihachiman', name: '近江八幡' },
     ],
   },
   {
@@ -231,6 +267,11 @@ export const prefectureAreas = [
       { slug: 'ibaraki', name: '茨木' },
       { slug: 'sakai', name: '堺' },
       { slug: 'izumi', name: '和泉' },
+      { slug: 'takatsuki', name: '高槻' },
+      { slug: 'toyonaka', name: '豊中' },
+      { slug: 'higashi-osaka', name: '東大阪' },
+      { slug: 'yao', name: '八尾' },
+      { slug: 'neyagawa', name: '寝屋川' },
     ],
   },
   {
@@ -243,24 +284,36 @@ export const prefectureAreas = [
       { slug: 'akashi', name: '明石' },
       { slug: 'itami', name: '伊丹' },
       { slug: 'amagasaki', name: '尼崎' },
+      { slug: 'sanda', name: '三田' },
+      { slug: 'kakogawa', name: '加古川' },
+      { slug: 'takarazuka', name: '宝塚' },
+      { slug: 'ashiya', name: '芦屋' },
+      { slug: 'kawanishi', name: '川西' },
     ],
   },
   {
     prefecture: '奈良県',
     areas: [
       { slug: 'nara', name: '奈良' },
+      { slug: 'kashihara', name: '橿原' },
+      { slug: 'ikoma', name: '生駒' },
     ],
   },
   {
     prefecture: '岡山県',
     areas: [
       { slug: 'okayama', name: '岡山' },
+      { slug: 'kurashiki', name: '倉敷' },
+      { slug: 'tsuyama', name: '津山' },
     ],
   },
   {
     prefecture: '広島県',
     areas: [
       { slug: 'hiroshima', name: '広島' },
+      { slug: 'fukuyama', name: '福山' },
+      { slug: 'kure', name: '呉' },
+      { slug: 'higashi-hiroshima', name: '東広島' },
     ],
   },
   {
@@ -278,18 +331,23 @@ export const prefectureAreas = [
       { slug: 'yakuin', name: '薬院' },
       { slug: 'nishijin', name: '西新' },
       { slug: 'kokura', name: '小倉' },
+      { slug: 'kurume', name: '久留米' },
+      { slug: 'kasuga', name: '春日' },
+      { slug: 'kashii', name: '香椎' },
     ],
   },
   {
     prefecture: '熊本県',
     areas: [
       { slug: 'kumamoto', name: '熊本' },
+      { slug: 'yatsushiro', name: '八代' },
     ],
   },
   {
     prefecture: '鹿児島県',
     areas: [
       { slug: 'kagoshima', name: '鹿児島' },
+      { slug: 'kirishima', name: '霧島' },
     ],
   },
   {
@@ -347,6 +405,12 @@ export const prefectureAreas = [
     prefecture: '山梨県',
     areas: [
       { slug: 'kofu', name: '甲府' },
+    ],
+  },
+  {
+    prefecture: '山口県',
+    areas: [
+      { slug: 'shimonoseki', name: '下関' },
     ],
   },
 ]
