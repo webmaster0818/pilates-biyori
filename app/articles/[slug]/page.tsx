@@ -62,9 +62,32 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://pilates-biyori-deploy.pages.dev/articles/${slug}/`,
+      '@id': `https://biyori-pilates.com/articles/${slug}/`,
     },
   }
+
+  // パンくず構造化データ
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'ホーム', item: 'https://biyori-pilates.com/' },
+      { '@type': 'ListItem', position: 2, name: '記事一覧', item: 'https://biyori-pilates.com/articles/' },
+      { '@type': 'ListItem', position: 3, name: frontmatter.title, item: `https://biyori-pilates.com/articles/${slug}/` },
+    ],
+  }
+
+  // FAQ構造化データ（frontmatter.faq がある場合）
+  const faqItems: { q: string; a: string }[] = Array.isArray(frontmatter.faq) ? frontmatter.faq : []
+  const faqLd = faqItems.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqItems.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  } : null
 
   return (
     <>
@@ -73,6 +96,16 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
+      {faqLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
+        />
+      )}
 
       <Navigation />
 
@@ -115,10 +148,33 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
               )}
             </header>
 
+            {/* E-E-A-T: 編集・監修ノート */}
+            <div className="border border-warm-100 bg-warm-50 rounded-lg p-5 mb-10 text-sm text-warm-600 leading-relaxed">
+              本記事は<Link href="/editors/" className="text-warm-800 underline hover:text-warm-600">Pilates-Biyori編集部</Link>が、ピラティスの一般的な知見にもとづいて作成しています。記載の効果には個人差があり、料金・サービス内容は各スタジオの最新情報をご確認ください。体調や持病に不安がある場合は医療機関にご相談ください。
+            </div>
+
             {/* 記事本文 */}
             <div className="prose prose-lg max-w-none mb-16 article-content">
               <MDXRemote source={content} />
             </div>
+
+            {/* よくある質問 */}
+            {faqItems.length > 0 && (
+              <section className="mb-16">
+                <h2 className="text-2xl md:text-3xl font-light text-warm-900 mb-8 tracking-tight">よくある質問</h2>
+                <div className="space-y-3">
+                  {faqItems.map((f) => (
+                    <details key={f.q} className="border border-warm-100 rounded-lg bg-white overflow-hidden">
+                      <summary className="flex items-center justify-between p-5 font-medium text-warm-800 cursor-pointer text-sm">
+                        <span className="pr-4">{f.q}</span>
+                        <span className="text-warm-400 flex-shrink-0">＋</span>
+                      </summary>
+                      <div className="px-5 pb-5 text-sm text-warm-600 leading-relaxed">{f.a}</div>
+                    </details>
+                  ))}
+                </div>
+              </section>
+            )}
 
             {/* CTA */}
             <div className="bg-warm-800 text-white rounded-lg p-10 text-center mb-16">

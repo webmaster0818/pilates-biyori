@@ -11,6 +11,7 @@ export interface ArticleFrontmatter {
   thumbnailAlt?: string
   keywords?: string[]
   relatedArticles?: string[]
+  faq?: { q: string; a: string }[]
 }
 
 export interface Article {
