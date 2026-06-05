@@ -162,7 +162,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pachira Pilates Studio 青森店',
-        image: '/images/pilates1.jpg',
+        image: '/images/studios/pachira-pilates-aomori.webp',
         rating: 4.5,
         price: '体験レッスン要問合せ',
         trial: '初回カウンセリング含む50分セッション',
@@ -173,7 +173,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K シーナシーナ青森店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-k-aomori.webp',
         rating: 4.5,
         price: 'マンスリー4メンバー 11,220円/月',
         trial: '体験レッスン0円',
@@ -185,7 +185,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'YOGA STUDIO oNeself',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/yoga-oneself-aomori.webp',
         rating: 4.4,
         price: '要問合せ',
         trial: '要問合せ',
@@ -196,7 +196,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates Ao',
-        image: '/images/pilates4.jpg',
+        image: '/images/studios/pilates-ao-aomori.webp',
         rating: 4.3,
         price: '初回お試し 3,500円(税込)',
         trial: '初回お試しレッスン 3,500円',
@@ -217,7 +217,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'STUDIO IVY PILATES 盛岡店',
-        image: '/images/pilates1.jpg',
+        image: '/images/studios/personal-morioka.webp',
         rating: 4.5,
         price: '1レッスン 6,500円～',
         trial: '初回体験無料(0円)',
@@ -228,7 +228,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ルルト盛岡店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/luluto-morioka.webp',
         rating: 4.4,
         price: '要問合せ',
         trial: '初回体験レッスンあり',
@@ -240,7 +240,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Smooth Pilates Studio',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/gre318-morioka.webp',
         rating: 4.3,
         price: 'マシンピラティス 8,000円/60分',
         trial: 'マシンピラティス初回体験 5,000円/60分',
@@ -252,7 +252,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Studio -Roots- MORIOKA',
-        image: '/images/pilates4.jpg',
+        image: '/images/studios/roots-morioka-morioka.webp',
         rating: 4.3,
         price: '要問合せ',
         trial: '要問合せ',
@@ -272,7 +272,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'マシンピラティススタジオRintosull イオンモール秋田店',
-        image: '/images/pilates1.jpg',
+        image: '/images/studios/rintosull-akita.webp',
         rating: 4.5,
         price: '月会費 8,800円～16,800円',
         trial: '体験レッスン0円',
@@ -284,7 +284,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'STUDIO CAMAKURA',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/studio-camakura-akita.webp',
         rating: 4.6,
         price: 'ライト11,000円/月～プレミアム15,400円/月',
         trial: '無料体験レッスン',
@@ -296,7 +296,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'BEAT PILATES 秋田店',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/beat-pilates-akita.webp',
         rating: 4.3,
         price: '公式サイト記載(画像)',
         trial: '体験セッション予約あり',
@@ -316,7 +316,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: '山形ピラティススタジオ シェリ',
-        image: '/images/pilates1.jpg',
+        image: '/images/studios/cheri-yamagata.webp',
         rating: 4.5,
         price: '月額使い放題 11,000円(キャンペーン価格)',
         trial: '要問合せ',
@@ -327,7 +327,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'STUDIO AIMER (スタジオエメ)',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/studio-aimer-yamagata.webp',
         rating: 4.4,
         price: '月2回14,400円～月4回26,000円',
         trial: '初回体験 6,500円',
@@ -338,7 +338,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティススタジオDEP 山形店',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/dep-pilates-yamagata.webp',
         rating: 4.5,
         price: 'ライト14,800円/月～プレミアム47,600円/月',
         trial: '初回体験 2,980円(通常9,900円)',
@@ -350,7 +350,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Pilates Mee Life 山形本町店',
-        image: '/images/pilates4.jpg',
+        image: '/images/studios/m-pilates-yamagata.webp',
         rating: 4.4,
         price: '月2回8,800円～通い放題24,600円',
         trial: '体験レッスン 0円(キャンペーン)',
@@ -371,7 +371,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Amigo マシンピラティススタジオ',
-        image: '/images/pilates1.jpg',
+        image: '/images/studios/amigo-pilates-fukushima.webp',
         rating: 4.4,
         price: '月4回 8,800円～通い放題フル 13,700円',
         trial: '初回無料体験(約60分)',
@@ -382,7 +382,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ホットヨガ&マシンピラティスLAVA 福島黒岩店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/yoga-lava-fukushima.webp',
         rating: 4.5,
         price: '4・フルタイム 8,800円/月～16,800円/月',
         trial: '0円体験レッスン(ヨガ/マシンピラティス選択)',
@@ -394,7 +394,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'マシンピラティススタジオRintosull 福島黒岩店',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/rintosull-fukushima.webp',
         rating: 4.5,
         price: '4・フルタイム 8,800円/月～16,800円/月',
         trial: '体験レッスン0円',
@@ -406,7 +406,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ELEMENTピラティス 福島店',
-        image: '/images/pilates4.jpg',
+        image: '/images/studios/kosupapilates-fukushima.webp',
         rating: 4.3,
         price: '月4回 22,000円～通い放題 55,000円',
         trial: '体験 3,300円',
@@ -418,7 +418,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Pilates room PEONIA',
-        image: '/images/pilates1.jpg',
+        image: '/images/studios/select-type-fukushima.webp',
         rating: 4.4,
         price: '要問合せ',
         trial: '初回カウンセリング(要予約)',
@@ -441,7 +441,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'TOMOMIピラティススタジオ',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/tomomipilates-hirosaki.webp',
         rating: 4.8,
         price: '無料体験あり',
         trial: '無料体験レッスンあり',
@@ -452,7 +452,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K シーナシーナ弘前店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-k-hirosaki.webp',
         rating: 4.6,
         price: 'マンスリー4 ¥11,220/月〜',
         trial: '体験レッスン無料',
@@ -463,7 +463,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ボディスイッチ',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/body-switch-hirosaki.webp',
         rating: 4.5,
         price: '完全予約制',
         trial: 'インソール無料体験あり',
@@ -474,7 +474,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティススタジオDEP 弘前店 Felice',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/dep-pilates-hirosaki.webp',
         rating: 4.7,
         price: 'ライト 月2回 ¥14,800〜',
         trial: '初回体験 ¥2,980（LINEクーポン適用）',
@@ -496,7 +496,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'ピラティススタジオLEI',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-studio-lei-hachinohe.webp',
         rating: 4.7,
         price: '1セッション45分 ¥8,800',
         trial: '初回体験 ¥6,600（45分）',
@@ -507,7 +507,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティススタジオピース',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilatesstudiopeace-hachinohe.webp',
         rating: 4.6,
         price: '月4回 ¥9,680〜',
         trial: 'マットピラティス体験 ¥3,300／リフォーマー体験 ¥4,400',
@@ -518,7 +518,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ホットヨガロイブ八戸店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/hotyoga-loive-hachinohe.webp',
         rating: 4.4,
         price: '月4回会員 ¥8,910/月〜',
         trial: '手ぶら体験 0円（ウェア・タオル・水付き）',
@@ -540,7 +540,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'pilates K 宇都宮店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-k-utsunomiya.webp',
         rating: 4.7,
         price: 'マンスリー4 ¥11,220/月〜',
         trial: '体験レッスン無料',
@@ -551,7 +551,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティススタジオDEP 宇都宮店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/dep-pilates-utsunomiya.webp',
         rating: 4.8,
         price: 'ライト 月2回 ¥17,000〜',
         trial: '初回体験 ¥2,980（LINE限定・全額返金保証付き）',
@@ -562,7 +562,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'CLUB PILATES 宇都宮店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/clubpilates-utsunomiya.webp',
         rating: 4.6,
         price: '月4回 ¥11,990〜',
         trial: '無料体験30分',
@@ -573,7 +573,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'TSUTAYA Conditioning PILATES 宇都宮駅東口店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/tc-utsunomiya.webp',
         rating: 4.5,
         price: 'サブスク会員 ¥8,800/月〜',
         trial: '体験レッスン 0円',
@@ -584,7 +584,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティススタジオ ルルト 宇都宮店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/luluto-utsunomiya.webp',
         rating: 4.6,
         price: '営業時間 9:00〜21:00',
         trial: '体験レッスンあり',
@@ -606,7 +606,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'ラピラティス 高崎店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/la-pilates-takasaki.webp',
         rating: 4.7,
         price: 'サブスク月1回 ¥12,000〜',
         trial: '初回体験 ¥3,000（マシンピラティス×骨膜整体®90分）',
@@ -617,7 +617,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K 高崎店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-k-takasaki.webp',
         rating: 4.6,
         price: 'マンスリー4 ¥11,220/月〜',
         trial: '体験レッスン無料',
@@ -628,7 +628,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Rintosull 高崎店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/rintosull-takasaki.webp',
         rating: 4.5,
         price: 'マシンピラティス月4回 ¥8,800/月',
         trial: '無料体験あり',
@@ -639,7 +639,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'THE POSTURE PILATES',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/theposture-pilates-takasaki.webp',
         rating: 4.7,
         price: '料金は公式サイト要問合せ',
         trial: '体験レッスンあり',
@@ -650,7 +650,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Pilates Studio Obra 高崎あら町店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/obra-pilates-takasaki.webp',
         rating: 4.7,
         price: 'マンスリープランあり（公式要問合せ）',
         trial: '体験レッスン受付中',
@@ -672,7 +672,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'studio by iluty 甲府駅前店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/studio-iluty-kofu.webp',
         rating: 4.6,
         price: '料金は公式サイト要問合せ',
         trial: '体験レッスン申込ページあり',
@@ -683,7 +683,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'studio by iluty 甲府徳行店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/studio-iluty-kofu-2.webp',
         rating: 4.5,
         price: '料金は公式サイト要問合せ',
         trial: '体験レッスン申込ページあり',
@@ -694,7 +694,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Studio Rinto',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/studio-rinto-kofu.webp',
         rating: 4.7,
         price: '体験レッスン受付中',
         trial: '体験レッスン受付中',
@@ -705,7 +705,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Rephysio（リフィジオ）甲府店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/rephysio-pilates-kofu.webp',
         rating: 4.7,
         price: '50分 ¥8,000／10回券 ¥6,000/回',
         trial: '初回体験 70分 ¥3,000',
@@ -716,7 +716,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Pilates Studio KIZUKI',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-kizuki-kofu.webp',
         rating: 4.6,
         price: '公式サイト要問合せ',
         trial: '公式サイト要問合せ',
@@ -740,7 +740,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'zen place pilates 茅ヶ崎',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/zenplace-chigasaki.webp',
         rating: 4.6,
         price: 'マットフリー ¥14,960/月〜',
         trial: '体験レッスン予約可',
@@ -751,7 +751,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Rintosull 茅ヶ崎店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/rintosull-chigasaki.webp',
         rating: 4.5,
         price: 'マンスリー4 ¥8,800/月〜',
         trial: '体験会0円',
@@ -762,7 +762,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'URBAN CLASSIC PILATES 茅ヶ崎店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/urbanclassic-chigasaki.webp',
         rating: 4.5,
         price: 'マンスリー4 ¥7,800/月〜',
         trial: '無料体験予約可',
@@ -773,7 +773,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティスミラー 茅ヶ崎',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/konami-chigasaki.webp',
         rating: 4.4,
         price: '月会費 ¥11,000（月6回まで）',
         trial: '体験レッスン 通常¥2,200 → 0円',
@@ -784,7 +784,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'YUZU 茅ヶ崎店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/yuzu-pilates-chigasaki.webp',
         rating: 4.6,
         price: '月2回 ¥16,800〜',
         trial: '初回体験 ¥500（60分）',
@@ -806,7 +806,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Studio U.',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-studiou-hiratsuka.webp',
         rating: 4.7,
         price: '月額コース ¥14,000〜',
         trial: '初回体験 ¥7,500（約50分）',
@@ -817,7 +817,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティスKASANE 平塚店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-kasane-hiratsuka.webp',
         rating: 4.6,
         price: 'グループ月会費制／パーソナル月4回¥39,600〜',
         trial: '50分体験レッスン無料',
@@ -828,7 +828,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Rintosull 平塚店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/rintosull-hiratsuka.webp',
         rating: 4.5,
         price: '4・フルタイム ¥8,800/月〜',
         trial: '体験会0円（30〜45分）',
@@ -850,7 +850,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'URBAN CLASSIC PILATES 海老名店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/urbanclassic-ebina.webp',
         rating: 4.5,
         price: 'マンスリー4 ¥8,580/月（税込）',
         trial: '無料体験予約可',
@@ -861,7 +861,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Melluna Pilates 海老名',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/melluna-pilates-ebina.webp',
         rating: 4.7,
         price: '公式サイトに料金記載なし（体験申込ページで確認）',
         trial: '体験レッスン受付中',
@@ -872,7 +872,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ボタニカルピラティス 海老名店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/botanical-pilates-ebina.webp',
         rating: 4.6,
         price: 'マンスリー月2回 ¥16,280〜',
         trial: '0円体験トレーニング（通常¥5,500）',
@@ -894,7 +894,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Rintosull 横須賀中央店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/rintosull-yokosuka.webp',
         rating: 4.5,
         price: '4・フルタイム ¥8,800/月〜',
         trial: '体験会0円（約30分）',
@@ -905,7 +905,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'LAVA 横須賀中央アネックス店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/yoga-lava-yokosuka.webp',
         rating: 4.4,
         price: '4・フルタイム ¥8,800/月〜',
         trial: '0円体験予約可',
@@ -916,7 +916,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Body Care Pilates Curari',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/aso2022-yokosuka.webp',
         rating: 4.6,
         price: '公式サイトに月額記載なし（60分通常¥4,400）',
         trial: '初回限定60分 ¥1,100（税込）',
@@ -927,7 +927,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Studio Kakera',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/studiokakera-yokosuka.webp',
         rating: 4.7,
         price: '公式サイトに料金記載なし',
         trial: '体験レッスン予約フォームあり（現在キャンセル待ち）',
@@ -949,7 +949,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Rintosull たまプラーザ店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/rintosull-tamaplaza.webp',
         rating: 4.5,
         price: '月4回プラン ¥8,800/月〜',
         trial: '無料体験会（30〜45分）',
@@ -960,7 +960,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティスミラー たまプラーザ',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/konami-tamaplaza.webp',
         rating: 4.4,
         price: '月会費 ¥11,000（月6回まで）',
         trial: '体験レッスン 通常¥2,200 → 0円',
@@ -971,7 +971,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: '8-LAYERS たまプラーザ',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/8-layers-tamaplaza.webp',
         rating: 4.7,
         price: '4回¥33,600（90日有効）〜',
         trial: '体験¥7,000（通常¥8,000）',
@@ -993,7 +993,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'pilates K 松戸店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-k-matsudo.webp',
         rating: 4.6,
         price: 'マンスリー4 ¥13,420/月',
         trial: '体験レッスン¥0',
@@ -1004,7 +1004,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティスKASANE 松戸店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-kasane-matsudo.webp',
         rating: 4.6,
         price: 'グループ月会費制／パーソナル月4回¥39,600〜',
         trial: '50分体験レッスン無料（一部店舗¥980）',
@@ -1015,7 +1015,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'B arrow 松戸',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-matsudo-matsudo.webp',
         rating: 4.7,
         price: '公式サイトに月額記載なし',
         trial: '初回パーソナルレッスン（約70分）',
@@ -1037,7 +1037,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'ウェル・ピラティス 市川店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/well-pilates-ichikawa.webp',
         rating: 4.7,
         price: 'ライト月2回 ¥17,920/月〜（キャンペーン価格）',
         trial: '体験50分 通常¥11,000 → キャンペーン¥980',
@@ -1048,7 +1048,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'クラブピラティス 市川店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/clubpilates-ichikawa.webp',
         rating: 4.6,
         price: 'EFT4（月4回）¥11,990〜',
         trial: '30分の体験レッスン無料',
@@ -1059,7 +1059,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'URBAN CLASSIC PILATES 市川店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/urbanclassic-ichikawa.webp',
         rating: 4.5,
         price: 'マンスリー4 ¥8,580/月（税込）',
         trial: '無料見学予約可',
@@ -1070,7 +1070,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'OLUTANA pilates 市川店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/olutana-pilates-ichikawa.webp',
         rating: 4.5,
         price: '公式サイトに料金記載なし（体験申込ページで確認）',
         trial: '体験レッスン申込可',
@@ -1092,7 +1092,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'zen place pilates 流山おおたかの森',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/zenplace-nagareyama.webp',
         rating: 4.6,
         price: 'マットフリー ¥14,960/月〜',
         trial: '体験レッスン予約可（所要約2時間）',
@@ -1103,7 +1103,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'YARD おおたかの森スタジオ',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/yard-yp-nagareyama.webp',
         rating: 4.6,
         price: '公式サイトに料金記載なし（料金ページ参照）',
         trial: '【期間限定】無料体験予約可',
@@ -1125,7 +1125,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Rintosull フルルガーデン八千代店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/rintosull-yachiyo.webp',
         rating: 4.5,
         price: '月4回プラン ¥8,800/月〜',
         trial: '無料体験あり（手ぶらセット付）',
@@ -1136,7 +1136,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'リアン八千代緑が丘スタジオ',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/yachiyomidorigaoka-yachiyo.webp',
         rating: 4.7,
         price: 'ピラティスグループ月謝¥11,000〜',
         trial: '体験申込フォームあり',
@@ -1147,7 +1147,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'WELL-FIT 八千代店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/well-fit-gym-yachiyo.webp',
         rating: 4.6,
         price: '若返りコース月4回 ¥15,400',
         trial: '通常¥3,300 → 0円（5/31までのキャンペーン）',
@@ -1169,7 +1169,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'ピラティススタジオ Reha fit 上尾店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/ka-rada-ageo.webp',
         rating: 4.7,
         price: 'パーソナル50分¥11,000／マットフリー会員¥10,000',
         trial: 'パーソナル初回60分¥5,500／マット初回¥1,100',
@@ -1180,7 +1180,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティススタジオ ルルト 上尾店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/luluto-ageo.webp',
         rating: 4.7,
         price: '月4回 ¥38,400（1回¥9,600）',
         trial: '現在定員満了・新規受付停止中',
@@ -1191,7 +1191,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Kkot Pilates 上尾店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/kkotpilates-ageo.webp',
         rating: 4.5,
         price: '公式サイトに料金記載なし',
         trial: '体験レッスン受付中',
@@ -1213,7 +1213,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Rintosull 和光市店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/rintosull-wakoshi.webp',
         rating: 4.5,
         price: '4・フルタイム ¥8,800/月〜',
         trial: '0円無料体験会（約30分）',
@@ -1224,7 +1224,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K 和光市店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-k-wakoshi.webp',
         rating: 4.6,
         price: 'マンスリー4 ¥13,420/月',
         trial: '体験レッスン¥0',
@@ -1235,7 +1235,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ボタニカルピラティス 和光市店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/botanical-pilates-wakoshi.webp',
         rating: 4.6,
         price: 'マンスリーライト40分 ¥16,280〜',
         trial: '0円体験トレーニング（通常¥5,500）',
@@ -1257,7 +1257,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Rintosull 武蔵浦和店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/rintosull-musashiurawa.webp',
         rating: 4.5,
         price: 'フォー・フルタイム ¥8,800/月〜',
         trial: '無料体験会あり',
@@ -1268,7 +1268,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Pilates Studio M',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilatesstudiom7576-musashiurawa.webp',
         rating: 4.6,
         price: 'おまかせコース60分 ¥8,000〜',
         trial: '初回限定ベーシックコース60分 ¥7,000',
@@ -1290,7 +1290,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Rintosull 本川越店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/rintosull-honkawagoe.webp',
         rating: 4.5,
         price: '4・フルタイム ¥8,800/月〜',
         trial: '無料体験会（リフォーマー体験）',
@@ -1301,7 +1301,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K 川越店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-k-honkawagoe.webp',
         rating: 4.6,
         price: 'マンスリー4 ¥13,420/月',
         trial: '体験レッスン¥0',
@@ -1323,7 +1323,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'ピラティスミラー ふじみ野',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/konami-fujimino.webp',
         rating: 4.4,
         price: '月会費 ¥11,000（月6回まで）',
         trial: '通常¥2,200 → 0円（2026/6/3〜6/20）',
@@ -1334,7 +1334,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Rintosull ふじみ野店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/rintosull-fujimino.webp',
         rating: 4.5,
         price: '月4回プラン ¥8,800/月〜',
         trial: '無料体験会（30〜45分）',
@@ -1345,7 +1345,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ホットヨガロイブ ふじみ野店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/hotyoga-loive-fujimino.webp',
         rating: 4.4,
         price: '月4回会員 ¥8,910／フルタイム ¥13,420',
         trial: '手ぶら体験0円（ウェア・タオル・水付）',
@@ -1367,7 +1367,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'zen place pilates 高槻',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/zenplace-takatsuki.webp',
         rating: 4.6,
         price: 'マットフリー ¥14,960/月〜',
         trial: 'グループ体験 ¥1,000',
@@ -1378,7 +1378,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティスミラー 高槻',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/konami-takatsuki.webp',
         rating: 4.4,
         price: '月会費 ¥11,000（月6回まで）',
         trial: '通常¥2,200 → 0円',
@@ -1389,7 +1389,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Rintosull 高槻店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/rintosull-takatsuki.webp',
         rating: 4.5,
         price: 'マシン月4回 ¥8,800/月〜',
         trial: '無料体験（30〜45分）',
@@ -1411,7 +1411,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'zen place pilates 豊中',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/zenplace-toyonaka.webp',
         rating: 4.6,
         price: 'マットフリー ¥14,960/月〜',
         trial: 'ウェブから体験予約可（所要約2時間）',
@@ -1422,7 +1422,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Rintosull 豊中店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/rintosull-toyonaka.webp',
         rating: 4.5,
         price: '4・フルタイム ¥8,800/月〜',
         trial: '無料体験会（約30分）',
@@ -1433,7 +1433,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'CoreSTA（コアスタ）',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/coresta-pilates-toyonaka.webp',
         rating: 4.7,
         price: 'グループ月謝¥13,200／プライベート月2回¥17,600',
         trial: 'グループ体験3回 ¥9,900',
@@ -1455,7 +1455,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Rintosull 布施店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/rintosull-higashiosaka.webp',
         rating: 4.5,
         price: '4・フルタイム ¥8,800/月〜',
         trial: '体験会0円（約30分）',
@@ -1466,7 +1466,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Pilates Synergy 河内小阪スタジオ',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-synergy-higashiosaka.webp',
         rating: 4.7,
         price: '月4回 ¥34,100（1回¥8,525）',
         trial: '体験¥6,600／入会金¥11,000',
@@ -1488,7 +1488,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'pilates K 八尾店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-k-yao.webp',
         rating: 4.6,
         price: 'マンスリー4 ¥11,220/月',
         trial: '体験レッスン¥0',
@@ -1499,7 +1499,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Rintosull 近鉄八尾店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/rintosull-yao.webp',
         rating: 4.5,
         price: '月4回プラン ¥8,800/月〜',
         trial: '無料体験あり',
@@ -1510,7 +1510,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティスアヴニール 八尾店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-yao.webp',
         rating: 4.6,
         price: '公式サイトに月額記載なし',
         trial: '90分体験 ¥2,980（マンツーマン）',
@@ -1532,7 +1532,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Rintosull 寝屋川店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/rintosull-neyagawa.webp',
         rating: 4.5,
         price: '月4回プラン ¥8,800/月〜',
         trial: '無料体験（約30〜45分）',
@@ -1543,7 +1543,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K ビバモール寝屋川店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-k-neyagawa.webp',
         rating: 4.6,
         price: 'マンスリー4 ¥11,220/月',
         trial: '体験レッスン¥0',
@@ -1554,7 +1554,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'studio shanti',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/studio-shanti-0401-neyagawa.webp',
         rating: 4.5,
         price: 'グループ60分 ¥2,000／パーソナル60分 ¥5,500',
         trial: '体験¥1,500（無料キャンペーンあり）',
@@ -1576,7 +1576,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Studio キラリ',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-studio-kirari-sanda.webp',
         rating: 4.7,
         price: '月会費 ¥12,500／入会金 ¥10,000',
         trial: '体験レッスン ¥8,500',
@@ -1587,7 +1587,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Pilates muku',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilatesmuku-sanda.webp',
         rating: 4.7,
         price: '1回 ¥7,900／4回 ¥30,800〜',
         trial: '体験60分 ¥6,000（姿勢・動作分析込）',
@@ -1609,7 +1609,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'ピラティススタジオ iU 加古川店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-ivy-kakogawa.webp',
         rating: 4.6,
         price: '月4回 ¥21,780／月8回 ¥39,600',
         trial: '初回体験あり（料金は公式サイト確認）',
@@ -1631,7 +1631,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Rintosull ソリオ宝塚店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/rintosull-takarazuka.webp',
         rating: 4.5,
         price: '4・フルタイム ¥8,800/月〜',
         trial: '無料体験会',
@@ -1642,7 +1642,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'むすびピラティス宝塚',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/musubi-pilates-takarazuka.webp',
         rating: 4.7,
         price: '公式サイトに料金記載なし',
         trial: '体験レッスン受付中',
@@ -1664,7 +1664,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'ipset',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/ipset-ashiya.webp',
         rating: 4.6,
         price: '公式サイトに料金記載なし',
         trial: '公式サイトに記載なし',
@@ -1675,7 +1675,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Appel（アペル）',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/appel-pilates-ashiya.webp',
         rating: 4.6,
         price: '公式サイトに料金記載なし',
         trial: 'キャンペーン実施中（体験予約可）',
@@ -1686,7 +1686,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Vivo Bearsi 芦屋',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/s-vivo-ashiya.webp',
         rating: 4.5,
         price: '公式サイトに料金記載なし（料金案内ページ参照）',
         trial: '見学・体験予約可',
@@ -1708,7 +1708,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'URBAN CLASSIC PILATES 川西店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/urbanclassic-kawanishi.webp',
         rating: 4.5,
         price: 'マンスリー4 ¥8,580/月（税込）',
         trial: '無料体験予約可',
@@ -1719,7 +1719,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Rintosull 川西能勢口店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/rintosull-kawanishi.webp',
         rating: 4.5,
         price: 'フォープラン ¥8,800/月〜',
         trial: '0円体験（リフォーマー・約30分）',
@@ -1730,7 +1730,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティスアヴニール 川西能勢口店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-kawanishi.webp',
         rating: 4.6,
         price: '公式サイトに月額記載なし（料金表ページ参照）',
         trial: '体験90分 ¥2,980（マンツーマン）',
@@ -1756,7 +1756,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'studio For me（移転中）',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/studioforme-demachiyanagi.webp',
         rating: 4.6,
         price: '公式サイトの料金ページで確認',
         trial: '公式サイトの予約ページで確認',
@@ -1803,7 +1803,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Rintosull 京都桂店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/rintosull-arashiyama.webp',
         rating: 4.5,
         price: '4・フルタイム ¥8,800/月〜',
         trial: '体験会0円（姿勢診断付き）',
@@ -1814,7 +1814,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'zen place pilates 京都西院',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/zenplace-arashiyama.webp',
         rating: 4.6,
         price: 'マットフリー ¥16,940/月〜',
         trial: '体験レッスン予約可',
@@ -1836,7 +1836,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Rintosull ツインゲート橿原店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/rintosull-kashihara.webp',
         rating: 4.5,
         price: '4・フルタイム ¥8,800/月〜',
         trial: '体験会0円（リフォーマー体験）',
@@ -1847,7 +1847,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K イオンモール橿原店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-k-kashihara.webp',
         rating: 4.6,
         price: 'マンスリー4 ¥11,220/月',
         trial: '体験レッスン¥0',
@@ -1858,7 +1858,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Pilates Studio niu',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilatesstudioniu-kashihara.webp',
         rating: 4.6,
         price: '公式サイトに料金記載なし（Price/Ticketページ参照）',
         trial: '体験レッスン可（LINE予約）',
@@ -1879,7 +1879,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'ピラティススタジオGRANDY 生駒店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/grandy-pt-ikoma.webp',
         rating: 4.3,
         price: 'リフォーマーグループ 月4回 13,200円〜',
         trial: 'マットグループ体験 1,100円 / リフォーマー体験 2,200円',
@@ -1890,7 +1890,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティスアヴニール生駒店',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/pilates-ikoma.webp',
         rating: 4.2,
         price: '料金は公式料金表参照',
         trial: '体験レッスン90分 2,980円',
@@ -1901,7 +1901,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K イオンモール奈良登美ヶ丘店',
-        image: '/images/pilates4.jpg',
+        image: '/images/studios/pilates-k-ikoma.webp',
         rating: 4.1,
         price: 'マンスリー4 11,220円〜 / マンスリー8 15,070円',
         trial: '体験 無料',
@@ -1920,7 +1920,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'スタジオvivi 草津東口',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/studiovivi-kusatsu.webp',
         rating: 4.4,
         price: 'グループレッスン 月4回 13,636円',
         trial: '体験レッスン 無料（通常2,200円）',
@@ -1930,7 +1930,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K 南草津店',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/pilates-k-kusatsu.webp',
         rating: 4.1,
         price: 'マンスリー4 11,220円〜 / マンスリー8 15,070円',
         trial: '体験 無料',
@@ -1941,7 +1941,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'BEAT PILATES 滋賀草津店',
-        image: '/images/pilates4.jpg',
+        image: '/images/studios/beat-pilates-kusatsu.webp',
         rating: 4.2,
         price: '料金は公式予約サイト参照',
         trial: '体験は予約ページから',
@@ -1959,7 +1959,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'PHIピラティススタジオCalm 彦根',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/hikone-hikone.webp',
         rating: 4.0,
         price: '料金は公式コース案内参照',
         trial: '詳細は公式サイト要問い合わせ',
@@ -1968,7 +1968,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Pilates Synergy 彦根スタジオ',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/prtimes-hikone.webp',
         rating: 4.2,
         price: '料金は公式サイト要問い合わせ',
         trial: '詳細は公式サイト要問い合わせ',
@@ -1977,7 +1977,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Pilates and Relaxation nun',
-        image: '/images/pilates4.jpg',
+        image: '/images/studios/nun-pilates-relaxation-hikone.webp',
         rating: 4.1,
         price: '料金は公式サイト要問い合わせ',
         trial: '詳細は公式サイト要問い合わせ',
@@ -1996,7 +1996,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'ピラティススタジオS',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-studio-swan-omihachiman.webp',
         rating: 4.3,
         price: '料金は公式サイト要問い合わせ',
         trial: '詳細は公式サイト要問い合わせ',
@@ -2007,7 +2007,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Pilates & Conditioning Studio レジリエンス',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/resilience-pilates-omihachiman.webp',
         rating: 4.4,
         price: '料金は公式サイト要問い合わせ',
         trial: 'プライベート体験 5,500円 / 少人数マット体験 2,750円',
@@ -2025,7 +2025,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'pilates K マルナカマスカット倉敷店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-k-kurashiki.webp',
         rating: 4.1,
         price: 'マンスリー4 11,220円〜 / マンスリー8 15,070円',
         trial: '体験 無料',
@@ -2036,7 +2036,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'マシンピラティススタジオRintosull アリオ倉敷店',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/rintosull-kurashiki.webp',
         rating: 4.2,
         price: '月4回 8,800円〜 / 通い放題 13,800円',
         trial: '体験会 無料',
@@ -2054,7 +2054,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Studio excel 豊田店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-excel-toyota.webp',
         rating: 4.3,
         price: 'マンスリー4 9,900円〜 / フルタイム 12,650円',
         trial: '体験 無料（約2時間・手ぶらOK）',
@@ -2065,7 +2065,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'メディカルフィットネス natural peak',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/naturalpeak-toyota.webp',
         rating: 4.2,
         price: '料金は公式サイト要問い合わせ',
         trial: '詳細は公式サイト要問い合わせ',
@@ -2075,7 +2075,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'LIFETIME Pilates',
-        image: '/images/pilates4.jpg',
+        image: '/images/studios/lifetimepilates-toyota.webp',
         rating: 4.1,
         price: '料金は公式サイト要問い合わせ',
         trial: '詳細は公式サイト要問い合わせ',
@@ -2092,7 +2092,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'ピラティスプラス 岡崎',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-plus-okazaki-okazaki.webp',
         rating: 4.2,
         price: '料金は公式サイト要問い合わせ',
         trial: 'ホットペッパービューティーから予約',
@@ -2102,7 +2102,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'マシンピラティススタジオRintosull 岡崎店',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/rintosull-okazaki.webp',
         rating: 4.1,
         price: '月4回 8,800円 / 通い放題 13,800円',
         trial: '体験 無料',
@@ -2113,7 +2113,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Studio MⅡ',
-        image: '/images/pilates4.jpg',
+        image: '/images/studios/pilates-studiom2-okazaki.webp',
         rating: 4.2,
         price: '料金は公式サイト要問い合わせ',
         trial: '詳細は公式サイト要問い合わせ',
@@ -2130,7 +2130,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'ピラティススタジオSKY 春日井店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-sky-kasugai.webp',
         rating: 4.4,
         price: '料金は公式コース案内参照',
         trial: '詳細は公式サイト要問い合わせ（電話0568-41-8550）',
@@ -2140,7 +2140,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K イオン春日井店',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/pilates-k-kasugai.webp',
         rating: 4.1,
         price: 'マンスリー4 11,220円 / マンスリー8 15,070円',
         trial: '体験 無料',
@@ -2151,7 +2151,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Ciel Pilates 勝川スタジオ',
-        image: '/images/pilates4.jpg',
+        image: '/images/studios/ciel-pilates-kasugai.webp',
         rating: 4.0,
         price: '月額5,500円〜',
         trial: '初回40分 0円体験',
@@ -2168,7 +2168,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee 刈谷店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/m-pilates-kariya.webp',
         rating: 4.6,
         price: 'セミパーソナル 月2回 11,000円〜 / 通い放題 37,500円',
         trial: '体験 無料（2026年6月30日まで）',
@@ -2179,7 +2179,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティススタジオ Swan 刈谷店',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/pilates-studio-swan-kariya.webp',
         rating: 4.3,
         price: '料金は公式サイト要問い合わせ',
         trial: '初回体験あり',
@@ -2188,7 +2188,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'FRANKLIN METHOD STUDIO KARIYA',
-        image: '/images/pilates4.jpg',
+        image: '/images/studios/franklin-method-studio-kariya-kariya.webp',
         rating: 4.2,
         price: '料金は公式サイト要問い合わせ',
         trial: '詳細は公式サイト要問い合わせ',
@@ -2206,7 +2206,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'ポンテ・マル・スパッツィオ',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pontiamo-numazu.webp',
         rating: 4.4,
         price: '入会金・月謝0円（都度払い）',
         trial: '詳細は公式サイト要問い合わせ',
@@ -2216,7 +2216,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'PILATES ONE 沼津店',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/pilatesone2024-numazu.webp',
         rating: 4.3,
         price: '月額15,000円（2回～）/ 1回7,500円〜',
         trial: '初回 無料',
@@ -2226,7 +2226,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'マシンピラティススタジオRintosull ららぽーと沼津店',
-        image: '/images/pilates4.jpg',
+        image: '/images/studios/rintosull-numazu.webp',
         rating: 4.2,
         price: '月4回 8,800円 / 2店舗通い放題 13,800円',
         trial: '体験会 無料',
@@ -2244,7 +2244,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Classical Pilates E-studio',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/e-studio-2022-fuji.webp',
         rating: 4.3,
         price: '料金は公式サイト要問い合わせ',
         trial: '体験レッスンあり',
@@ -2254,7 +2254,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティスKASANE 富士店',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/pilates-kasane-fuji.webp',
         rating: 4.4,
         price: 'グループ月会費制 / パーソナル月4回 39,600円〜',
         trial: '体験 無料',
@@ -2273,7 +2273,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'T\'s Pilates',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/ts-pilates-mishima.webp',
         rating: 4.5,
         price: '月額プラン制（入会金・解約料なし）',
         trial: '詳細は公式サイト要問い合わせ',
@@ -2284,7 +2284,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Pilatesmile 三島スタジオ',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/pilatesmile-mishima.webp',
         rating: 4.3,
         price: '料金は公式サイト要問い合わせ',
         trial: '詳細は公式サイト要問い合わせ',
@@ -2294,7 +2294,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'PILATES ONE 三島広小路店',
-        image: '/images/pilates4.jpg',
+        image: '/images/studios/pilatesone-mishima.webp',
         rating: 4.2,
         price: '月額15,000円（2回～）',
         trial: '体験受付停止中（既存店）',
@@ -2312,7 +2312,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'M\'sピラティス',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/mspilates-ogaki.webp',
         rating: 4.1,
         price: '料金は公式サイト要問い合わせ',
         trial: '詳細は公式サイト要問い合わせ',
@@ -2322,7 +2322,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティス＆ヨガスタジオ priya',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/ai-priya-ogaki.webp',
         rating: 4.3,
         price: '料金は公式サイト要問い合わせ',
         trial: '公式LINEまたは電話',
@@ -2333,7 +2333,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'マシンピラティススタジオRintosull イオンモール大垣店',
-        image: '/images/pilates4.jpg',
+        image: '/images/studios/rintosull-ogaki.webp',
         rating: 4.1,
         price: '月4回 8,800円 / フルタイム 16,800円',
         trial: '体験 無料',
@@ -2343,7 +2343,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'LIFEMAKE 岐阜大垣店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/personalkoba2019-ogaki.webp',
         rating: 4.2,
         price: '月額11,000円〜（30分コース）',
         trial: '体験 1,000円',
@@ -2361,7 +2361,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'マシンピラティススタジオRintosull イオンモール各務原店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/rintosull-kakamigahara.webp',
         rating: 4.2,
         price: '月4回 8,800円 / 2店舗通い放題 13,800円',
         trial: '体験会 無料',
@@ -2372,7 +2372,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'LIFEMAKE 各務原鵜沼店',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/personalkoba2019-kakamigahara.webp',
         rating: 4.3,
         price: '月額11,000円〜（30分コース）',
         trial: '体験 1,000円（通常11,000円）',
@@ -2382,7 +2382,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ホットヨガロイブ各務原店',
-        image: '/images/pilates4.jpg',
+        image: '/images/studios/loive-kakamigahara.webp',
         rating: 4.0,
         price: '料金は公式サイト要問い合わせ',
         trial: '手ぶら体験 0円',
@@ -2399,7 +2399,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Studio fluffy 多治見店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/p-fluffy-tajimi.webp',
         rating: 4.3,
         price: '料金は公式サイト要問い合わせ',
         trial: 'グループレッスン体験 無料キャンペーン中',
@@ -2409,7 +2409,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティススタジオn',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/pilates-tajimi.webp',
         rating: 4.5,
         price: '月謝制（公式予約サイト要確認）',
         trial: '詳細は公式サイト要問い合わせ',
@@ -2419,7 +2419,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'V BODY STUDIO 多治見店',
-        image: '/images/pilates4.jpg',
+        image: '/images/studios/v-body-studio-tajimi.webp',
         rating: 4.1,
         price: '料金は公式COURSE参照',
         trial: '体験 2,500円（通常5,000円）',
@@ -2436,7 +2436,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'ピラティススタジオDEP 長野松本店 Noah',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/dep-pilates-matsumoto.webp',
         rating: 4.5,
         price: 'ライト 14,800円/月 / スタンダード 28,800円 / プレミアム 47,600円',
         trial: '体験 2,980円（通常9,900円・70%OFF）',
@@ -2447,7 +2447,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティススタジオFLEXI 松本店',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/flexi-pilates-matsumoto.webp',
         rating: 4.3,
         price: '料金はコースページ参照',
         trial: '詳細は公式サイト要問い合わせ',
@@ -2457,7 +2457,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Pilates Studio L',
-        image: '/images/pilates4.jpg',
+        image: '/images/studios/pilates-studio-l-matsumoto.webp',
         rating: 4.2,
         price: '月4回 16,000円（1回4,000円）/ 月2回 8,600円',
         trial: '詳細は公式サイト要問い合わせ',
@@ -2475,7 +2475,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: '505 Care Core Pilates（御代田町）',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/505ccp-karuizawa.webp',
         rating: 4.4,
         price: 'プライベートパーソナル60分 7,800円 / カスタムCare&Pilates 8,200円',
         trial: '体験ピラティス30分 2,000円 / ストレッチ&ピラティス体験60分 2,000円',
@@ -2494,7 +2494,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'PILATES Body Make Studio ānuenue',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilatesanuenue-asahikawa.webp',
         rating: 4.4,
         price: 'パーソナル60分 7,500円 / グループ50分 2,500円',
         trial: 'パーソナル体験60分 6,500円',
@@ -2504,7 +2504,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'マシンピラティススタジオRintosull イオン旭川春光店',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/rintosull-asahikawa.webp',
         rating: 4.2,
         price: '月4回 8,800円 / 2店舗通い放題 13,800円',
         trial: '体験会 無料',
@@ -2515,7 +2515,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ホットヨガロイブ旭川店',
-        image: '/images/pilates4.jpg',
+        image: '/images/studios/loive-asahikawa.webp',
         rating: 4.0,
         price: '料金は公式サイト要問い合わせ',
         trial: '手ぶら体験 0円',
@@ -2532,7 +2532,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'pilates K 函館店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-k-hakodate.webp',
         rating: 4.2,
         price: 'マンスリー4 11,220円 / マンスリー8 15,070円',
         trial: '体験 無料',
@@ -2543,7 +2543,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ルルト 函館店',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/luluto-hakodate.webp',
         rating: 4.3,
         price: '料金は公式サイト要問い合わせ',
         trial: '詳細は公式サイト要問い合わせ',
@@ -2553,7 +2553,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'K.pilates',
-        image: '/images/pilates4.jpg',
+        image: '/images/studios/kpilates-hakodate.webp',
         rating: 4.1,
         price: '料金は公式サイト要問い合わせ',
         trial: '詳細は公式サイト要問い合わせ',
@@ -2570,7 +2570,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'PILATES STUDIO RiSE 三光店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilatesstudiorise-tomakomai.webp',
         rating: 4.4,
         price: '月4回 24,000円（1回6,000円）/ 単発1回 7,500円',
         trial: '無料キャンペーン中（通常2,200円）',
@@ -2580,7 +2580,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ホットヨガロイブ苫小牧店',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/hotyoga-loive-tomakomai.webp',
         rating: 4.1,
         price: '月4回 8,910円 / フルタイム 12,320円〜',
         trial: '手ぶら体験 0円',
@@ -2591,7 +2591,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'パーソナルジムDELIGHT AKENO ROOM',
-        image: '/images/pilates4.jpg',
+        image: '/images/studios/personal-gym-delight-tomakomai.webp',
         rating: 4.3,
         price: 'マシン4回 30,800円 / 8回 52,800円 / ペア1回 10,000円',
         trial: '詳細は公式サイト要問い合わせ',
@@ -2609,7 +2609,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'マシンピラティススタジオRintosull 帯広店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/rintosull-obihiro.webp',
         rating: 4.2,
         price: '月4回 8,800円 / 2店舗通い放題 10,800円',
         trial: '体験 無料（3ヶ月CP 1,980円/月）',
@@ -2620,7 +2620,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'LAVA 帯広店（マシンピラティス＆ホットヨガ）',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/lava-obihiro.webp',
         rating: 4.1,
         price: '通い放題 11,000〜15,000円程度',
         trial: '詳細は公式サイト要問い合わせ',
@@ -2638,7 +2638,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'ピラティススタジオDEP 福山店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/dep-pilates-fukuyama.webp',
         rating: 4.5,
         price: 'ライト 14,800円/月 / スタンダード 28,800円 / プレミアム 47,600円',
         trial: '体験 2,980円（LINE予約割・通常9,900円）',
@@ -2649,7 +2649,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'BEAT PILATES 広島福山店',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/beat-pilates-fukuyama.webp',
         rating: 4.2,
         price: '料金は公式サイト要問い合わせ',
         trial: '詳細は公式サイト要問い合わせ',
@@ -2659,7 +2659,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'StudioTAIKA',
-        image: '/images/pilates4.jpg',
+        image: '/images/studios/studio-fukuyama.webp',
         rating: 4.4,
         price: '1回 9,000円',
         trial: '体験 5,000円（1日3組限定）',
@@ -2677,7 +2677,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilatestown',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilatestown-kure.webp',
         rating: 4.4,
         price: '料金は料金ページ参照',
         trial: '即日入会で体験料金0円',
@@ -2687,7 +2687,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'LUIRE PILATES STUDIO 呉店',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/sites-kure.webp',
         rating: 4.3,
         price: '料金はPrice&Reservationページ参照',
         trial: '詳細は公式サイト要問い合わせ',
@@ -2697,7 +2697,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'LAVA 呉店（ホットヨガ&マシンピラティス）',
-        image: '/images/pilates4.jpg',
+        image: '/images/studios/lava-kure.webp',
         rating: 4.1,
         price: '料金は公式サイト要問い合わせ',
         trial: '詳細は公式サイト要問い合わせ',
@@ -2716,7 +2716,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'A8Pilates',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/a8pilates-higashihiroshima.webp',
         rating: 4.3,
         price: '料金は公式予約ページ参照',
         trial: '詳細は公式サイト要問い合わせ',
@@ -2727,7 +2727,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'SteadyGo 東広島',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/steadygo-hiroshima-higashihiroshima.webp',
         rating: 4.2,
         price: '料金は公式サイト要問い合わせ',
         trial: '詳細は公式サイト要問い合わせ',
@@ -2736,7 +2736,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Mana Pilates Studio',
-        image: '/images/pilates4.jpg',
+        image: '/images/studios/mana-pilates-studio-higashihiroshima.webp',
         rating: 4.2,
         price: '料金は公式サイト要問い合わせ',
         trial: '詳細は公式サイト要問い合わせ',
@@ -2753,7 +2753,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'luluto（ルルト）津山店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/kosupapilates-tsuyama.webp',
         rating: 4.4,
         price: '月3回 29,700円 / 月4回 38,400円 / 月6回 55,800円',
         trial: '体験 平日1,000円 / 土日祝5,000円',
@@ -2764,7 +2764,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティス教室 ルアナ',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/ruanapilates-tsuyama.webp',
         rating: 4.2,
         price: '1レッスン 1,500円 / 4回チケット 5,500円',
         trial: '体験 1,000円（次回使用可500円チケット付）',
@@ -2782,7 +2782,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'pilates K シーモール下関店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-k-shimonoseki.webp',
         rating: 4.1,
         price: 'マンスリー4 11,220円 / マンスリー8 15,070円',
         trial: '体験 無料',
@@ -2793,7 +2793,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Pilates & Yoga Studio G',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/py-studio-g-shimonoseki.webp',
         rating: 4.3,
         price: 'ベーシック1回 3,000円 / パーソナル 8,000円 / 月4回 10,250円',
         trial: '体験受付終了',
@@ -2803,7 +2803,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティスKASANE ゆめシティ下関店',
-        image: '/images/pilates4.jpg',
+        image: '/images/studios/pilates-kasane-shimonoseki.webp',
         rating: 4.2,
         price: 'グループ月会費制 / パーソナル月4回 39,600円',
         trial: '体験 無料',
@@ -2823,7 +2823,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'pilates K 久留米店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-k-kurume.webp',
         rating: 4.1,
         price: 'マンスリー4 11,220円 / マンスリー8 15,070円',
         trial: '体験 無料',
@@ -2834,7 +2834,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティススタジオ晴れるや',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/hareruyapilates-kurume.webp',
         rating: 4.4,
         price: '料金はメニューページ参照',
         trial: '体験レッスンあり',
@@ -2845,7 +2845,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Pilates Mee Life 西鉄久留米店',
-        image: '/images/pilates4.jpg',
+        image: '/images/studios/m-pilates-kurume.webp',
         rating: 4.6,
         price: '月2回 8,800円 / 月4回 14,800円 / 通い放題 24,600円',
         trial: '体験 無料（6月30日まで・通常9,800円）',
@@ -2864,7 +2864,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'スポーツクラブ&サウナスパ ルネサンス 春日24',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/s-re-kasuga.webp',
         rating: 4.0,
         price: '料金は公式サイト要問い合わせ',
         trial: '体験 2,200円',
@@ -2874,7 +2874,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'luluto 大野城春日原店',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/kosupapilates-kasuga.webp',
         rating: 4.4,
         price: '月3回 29,700円 / 月4回 38,400円 / 月6回 55,800円',
         trial: '体験 平日1,000円 / 土日祝5,000円',
@@ -2885,7 +2885,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'フィジオピラティス（春日駅徒歩2分）',
-        image: '/images/pilates4.jpg',
+        image: '/images/studios/coubic-kasuga.webp',
         rating: 4.3,
         price: '料金は公式予約ページ参照',
         trial: '詳細は公式サイト要問い合わせ',
@@ -2903,7 +2903,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Studio tete（スタジオテテ）',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/studiotetefk-kashii.webp',
         rating: 4.3,
         price: '料金は公式サイト要問い合わせ',
         trial: '詳細は公式サイト要問い合わせ',
@@ -2913,7 +2913,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'S\'aimer（セメ）',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/saimer-kashii.webp',
         rating: 4.4,
         price: '料金は公式サイト要問い合わせ',
         trial: '詳細は公式サイト要問い合わせ',
@@ -2924,7 +2924,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Pilates & Yoga Studio SUN9（サンク）',
-        image: '/images/pilates4.jpg',
+        image: '/images/studios/studio-sun9-kashii.webp',
         rating: 4.5,
         price: '料金はプログラムページ参照',
         trial: '体験 通常2,200円→キャンペーン500円',
@@ -2935,7 +2935,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'マシンピラティススタジオRintosull 香椎店',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/rintosull-kashii.webp',
         rating: 4.2,
         price: '月4・フルタイム 8,800円 / ライト 13,800円 / プレミアム 16,800円',
         trial: '体験会 0円',
@@ -2954,7 +2954,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Spira Spera（スピラスペラ）',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/kumaon-yatsushiro.webp',
         rating: 4.3,
         price: 'パーソナル60分 7,700円 / 90分 9,900円 / グループ60分 2,000円',
         trial: '体験60分 3,500円',
@@ -2964,7 +2964,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ホットヨガロイブ ゆめタウン八代店',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/hotyoga-loive-yatsushiro.webp',
         rating: 4.1,
         price: '月4回 8,910円 / フルタイム 12,320円 / フルタイムプラス 17,600円',
         trial: '手ぶら体験 0円',
@@ -2983,7 +2983,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'machine pilates mill',
-        image: '/images/pilates2.jpg',
+        image: '/images/studios/pilates-mill-kirishima.webp',
         rating: 4.4,
         price: 'セミプライベート1回 4,800円 / 3回 14,470円 / プライベート1回 7,700円',
         trial: 'セミプライベート体験4,400円→0円（即日入会） / プライベート5,500円→0円',
@@ -2994,7 +2994,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Venus Lab（ヴィーナスラボ）',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/venuslab-kirishima.webp',
         rating: 4.3,
         price: '料金は料金体制ページ参照',
         trial: '詳細は公式サイト要問い合わせ',
