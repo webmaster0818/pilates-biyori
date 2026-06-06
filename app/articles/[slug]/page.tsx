@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { Navigation } from '@/components/Navigation'
 import { SiteFooter } from '@/components/SiteFooter'
+import { articleComponents } from '@/components/articles/ArticleFigures'
 import Script from 'next/script'
 
 export async function generateStaticParams() {
@@ -155,7 +156,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
             {/* 記事本文 */}
             <div className="prose prose-lg max-w-none mb-16 article-content">
-              <MDXRemote source={content} />
+              <MDXRemote source={content} components={articleComponents} />
             </div>
 
             {/* よくある質問 */}
