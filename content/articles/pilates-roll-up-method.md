@@ -9,6 +9,7 @@ tags:
   - "腹筋"
   - "柔軟性"
 publishedAt: "2026-05-11"
+updatedAt: "2026-06-06"
 author: "編集部"
 keywords:
   - "ピラティス ロールアップ"
@@ -39,6 +40,10 @@ relatedArticles:
 - ハムストリングス（裏もも）の柔軟性向上
 - 姿勢改善・猫背の予防
 - 腰痛の予防・改善（[腰痛改善ピラティス](/articles/pilates-back-pain/)も参照）
+
+ロールアップで背骨を一つずつ動かすときも、土台となるのは下図の深層筋です。
+
+<InnerMuscleDiagram />
 
 ## ロールアップのやり方【6ステップ】
 

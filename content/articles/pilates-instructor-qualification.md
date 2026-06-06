@@ -9,6 +9,7 @@ tags:
   - "BASI"
   - "STOTT"
 publishedAt: "2026-05-11"
+updatedAt: "2026-06-06"
 author: "編集部"
 keywords:
   - "ピラティスインストラクター 資格"
@@ -47,6 +48,10 @@ relatedArticles:
 [クラシカル vs コンテンポラリー](/articles/pilates-classical-vs-contemporary/)で詳細を解説。
 
 ## 資格の種類
+
+なお当サイトが全国211スタジオを調査したところ、理学療法士など医療系の有資格者が監修・在籍するスタジオは約11%。資格や専門性は通う側のスタジオ選びの基準にもなっています。
+
+<FeatureAdoptionChart />
 
 各団体は通常、以下のような段階的な資格を用意しています：
 

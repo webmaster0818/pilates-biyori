@@ -467,6 +467,192 @@ export function ActivityGuideNote() {
   )
 }
 
+// 13. 脚のアライメント図解（正常／O脚／X脚） -----------------------------
+function LegSilhouette({ type }: { type: 'normal' | 'o' | 'x' }) {
+  // 正面シルエットの脚2本
+  const paths: Record<string, [string, string]> = {
+    normal: ['M40 6 L38 96', 'M60 6 L62 96'],
+    o: ['M40 6 C26 40, 26 60, 40 96', 'M60 6 C74 40, 74 60, 60 96'],
+    x: ['M40 6 C58 38, 36 64, 30 96', 'M60 6 C42 38, 64 64, 70 96'],
+  }
+  const [l, r] = paths[type]
+  return (
+    <svg viewBox="0 0 100 110" width="100%" height="120" role="img" aria-label={`${type}脚のイメージ`}>
+      {/* 骨盤 */}
+      <rect x={34} y={0} width={32} height={10} rx={3} fill={ACCENT_SOFT} />
+      <path d={l} fill="none" stroke={ACCENT} strokeWidth={7} strokeLinecap="round" />
+      <path d={r} fill="none" stroke={ACCENT} strokeWidth={7} strokeLinecap="round" />
+    </svg>
+  )
+}
+export function LegAlignmentDiagram() {
+  const cols: { t: 'normal' | 'o' | 'x'; label: string; desc: string }[] = [
+    { t: 'normal', label: '正常', desc: '太もも・膝・ふくらはぎ・くるぶしが軽く接する' },
+    { t: 'o', label: 'O脚', desc: '膝が外に開き、すねが弓なり。内ももが使えていない' },
+    { t: 'x', label: 'X脚', desc: '膝が内に入り、くるぶしが離れる。股関節の内旋' },
+  ]
+  return (
+    <Figure title="脚のアライメント（正常・O脚・X脚）" note={<p className="not-prose text-xs text-warm-400 mt-1">多くは骨の変形ではなく筋肉・姿勢のクセによる「機能的」なもの。ピラティスで内もも・お尻・股関節を整える対象になる。</p>}>
+      <div className="not-prose grid grid-cols-3 gap-3">
+        {cols.map((c, i) => (
+          <div key={i} className="rounded-lg border border-warm-100 bg-warm-50 p-3 flex flex-col items-center gap-1.5">
+            <LegSilhouette type={c.t} />
+            <div className="text-sm font-semibold" style={{ color: ACCENT }}>{c.label}</div>
+            <div className="text-[11px] text-warm-600 text-center leading-snug">{c.desc}</div>
+          </div>
+        ))}
+      </div>
+    </Figure>
+  )
+}
+
+// 14. ピラティスの基本原則 図解 -------------------------------------------
+export function PrinciplesDiagram() {
+  const items = [
+    { jp: '集中', en: 'Concentration', d: '動かす部位に意識を向ける' },
+    { jp: 'コントロール', en: 'Control', d: '反動を使わず制御して動く' },
+    { jp: '中心（コア）', en: 'Centering', d: '体の中心＝パワーハウスから動く' },
+    { jp: '呼吸', en: 'Breathing', d: '動きと胸式呼吸を連動させる' },
+    { jp: '正確性', en: 'Precision', d: '一回一回を正しいフォームで' },
+    { jp: '流れ', en: 'Flow', d: 'なめらかに連続して動く' },
+  ]
+  return (
+    <Figure title="ピラティスの6つの基本原則" note={<p className="not-prose text-xs text-warm-400 mt-1">創始者ジョセフ・ピラティスの考え方に基づく古典的な6原則（流派により8原則とする場合もある）。</p>}>
+      <div className="not-prose grid grid-cols-2 md:grid-cols-3 gap-3">
+        {items.map((it, i) => (
+          <div key={i} className="rounded-lg border border-warm-100 p-3" style={{ background: i % 2 ? BG : '#f7f3ee' }}>
+            <div className="flex items-baseline gap-2">
+              <span className="text-base font-semibold" style={{ color: ACCENT }}>{it.jp}</span>
+              <span className="text-[10px] uppercase tracking-wider text-warm-400">{it.en}</span>
+            </div>
+            <div className="text-xs text-warm-600 mt-1 leading-snug">{it.d}</div>
+          </div>
+        ))}
+      </div>
+    </Figure>
+  )
+}
+
+// 15. 服装ガイド図解（おすすめ／避けたい） --------------------------------
+export function ClothingDiagram() {
+  return (
+    <Figure title="ピラティスの服装：おすすめ と 避けたい" note={<p className="not-prose text-xs text-warm-400 mt-1">体のラインが見え、動きを妨げないものを。マシン系は紐・ジッパー・装飾が引っかからない服が安心。</p>}>
+      <div className="not-prose grid grid-cols-2 gap-4">
+        <div className="rounded-lg border border-warm-100 p-4" style={{ background: '#f7f3ee' }}>
+          <div className="text-sm font-semibold mb-2" style={{ color: ACCENT }}>◎ おすすめ</div>
+          <ul className="flex flex-col gap-1.5">
+            {['体にフィットしたトップス', 'レギンス・動けるパンツ', '伸縮性のある素材', '滑り止め付き靴下（5本指）'].map((p, j) => (
+              <li key={j} className="text-xs text-warm-700 flex gap-1.5"><span style={{ color: ACCENT }}>•</span><span>{p}</span></li>
+            ))}
+          </ul>
+        </div>
+        <div className="rounded-lg border border-warm-100 bg-warm-50 p-4">
+          <div className="text-sm font-semibold mb-2 text-warm-500">△ 避けたい</div>
+          <ul className="flex flex-col gap-1.5">
+            {['ダボっとした服（フォームが見えない）', 'ジッパー・フード・装飾付き', '滑りやすい靴下・裸足NGの所も', '締め付けの強すぎる下着'].map((p, j) => (
+              <li key={j} className="text-xs text-warm-600 flex gap-1.5"><span className="text-warm-400">•</span><span>{p}</span></li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </Figure>
+  )
+}
+
+// 16. 食事バランス図解 ----------------------------------------------------
+export function MealBalanceDiagram() {
+  const rows = [
+    { label: 'たんぱく質を増やす', value: 90, sub: '筋肉の材料（肉・魚・卵・大豆）' },
+    { label: '野菜・食物繊維', value: 80, sub: 'ビタミン・満腹感・腸内環境' },
+    { label: '糖質・脂質は適量', value: 45, sub: '抜きすぎず質と量を調整' },
+  ]
+  return (
+    <Figure title="ピラティス効果を高める食事の優先度" note={<p className="not-prose text-xs text-warm-400 mt-1">極端な制限ではなく「たんぱく質を足し、野菜を増やす」が基本。効果には個人差があります。</p>}>
+      <div className="not-prose flex flex-col gap-3">
+        {rows.map((r, i) => (
+          <div key={i}>
+            <div className="flex justify-between text-xs mb-1">
+              <span className="font-medium text-warm-700">{r.label}</span>
+              <span className="text-warm-400">{r.sub}</span>
+            </div>
+            <div className="h-3 rounded bg-warm-100 overflow-hidden">
+              <div className="h-full rounded" style={{ width: `${r.value}%`, background: i === 2 ? ACCENT_SOFT : ACCENT }} />
+            </div>
+          </div>
+        ))}
+      </div>
+    </Figure>
+  )
+}
+
+// 17. 注意喚起ボックス（医療・安全） --------------------------------------
+export function CautionNote({ title, children }: { title?: string; children: React.ReactNode }) {
+  return (
+    <aside className="not-prose my-6 rounded-lg border border-warm-200 overflow-hidden">
+      <div className="flex items-center gap-2 px-4 py-2" style={{ background: '#f1ebe2' }}>
+        <span className="text-[10px] tracking-[0.15em] uppercase font-medium text-white bg-[#8B7355] rounded-full px-2.5 py-0.5">安全のために</span>
+        <span className="text-xs font-medium text-warm-700">{title ?? '取り組む前に確認'}</span>
+      </div>
+      <div className="px-4 py-3 text-sm text-warm-700 leading-relaxed">{children}</div>
+    </aside>
+  )
+}
+
+// 18. 汎用2カラム比較（内部ヘルパー） ------------------------------------
+function TwoCol({ left, right, caption, title }: { left: { title: string; items: string[] }; right: { title: string; items: string[] }; caption?: string; title?: string }) {
+  const col = (c: { title: string; items: string[] }, hi: boolean) => (
+    <div className="rounded-lg border border-warm-100 p-4 flex flex-col gap-2" style={{ background: hi ? '#f7f3ee' : BG }}>
+      <div className="text-sm font-semibold text-center" style={{ color: ACCENT }}>{c.title}</div>
+      <ul className="flex flex-col gap-1.5">
+        {c.items.map((p, j) => (
+          <li key={j} className="text-xs text-warm-600 flex gap-1.5"><span style={{ color: ACCENT }}>•</span><span>{p}</span></li>
+        ))}
+      </ul>
+    </div>
+  )
+  return (
+    <Figure title={title} note={caption ? <p className="not-prose text-xs text-warm-400 mt-1">{caption}</p> : undefined}>
+      <div className="not-prose grid grid-cols-2 gap-4">
+        {col(left, true)}
+        {col(right, false)}
+      </div>
+    </Figure>
+  )
+}
+
+export function MorningNightDiagram() {
+  return (
+    <TwoCol
+      title="朝ピラティス と 夜ピラティス"
+      left={{ title: '朝ピラティス', items: ['体を目覚めさせ活動的に', '日中の姿勢・不調予防', '習慣化しやすい', '活動的なメニュー向き'] }}
+      right={{ title: '夜ピラティス', items: ['1日のこわばりをリセット', 'リラックスで睡眠の質UP', '仕事帰りに通いやすい', '呼吸中心のメニュー向き'] }}
+      caption="どちらが優れているかではなく目的の違い。就寝直前の激しい動きは逆効果。"
+    />
+  )
+}
+
+export function ClassicalContemporaryDiagram() {
+  return (
+    <TwoCol
+      title="クラシカル（古典）と コンテンポラリー（現代）"
+      left={{ title: 'クラシカル', items: ['ジョセフ・ピラティスの順番・種目を忠実に踏襲', '伝統的なフローを重視', '型を学べる', '流派の一貫性が高い'] }}
+      right={{ title: 'コンテンポラリー', items: ['解剖学・運動学を取り入れ改良', '個人の状態に合わせ柔軟に調整', 'リハビリ・初心者にも対応', 'スタジオごとに内容が多様'] }}
+      caption="優劣ではなく方針の違い。初心者はどちらでも、指導の丁寧さで選んでOK。"
+    />
+  )
+}
+
+export function OnlineStudioDiagram() {
+  return (
+    <TwoCol
+      title="オンライン と 通学（スタジオ）"
+      left={{ title: 'オンライン', items: ['料金が安い・自宅で完結', '好きな時間にできる', 'マシンは使えない', 'フォーム修正が届きにくい'] }}
+      right={{ title: '通学（スタジオ）', items: ['対面でフォームを直してもらえる', 'マシン（リフォーマー）が使える', '集中できて継続しやすい', '料金・通う手間はかかる'] }}
+      caption="初心者はまず通学で基礎を作り、慣れたらオンライン併用が効率的。"
+    />
+  )
+}
+
 // MDXに渡すコンポーネントマップ -------------------------------------------
 export const articleComponents = {
   SurveyNote,
@@ -482,4 +668,12 @@ export const articleComponents = {
   BreathingDiagram,
   GroupVsPersonalDiagram,
   ActivityGuideNote,
+  LegAlignmentDiagram,
+  PrinciplesDiagram,
+  ClothingDiagram,
+  MealBalanceDiagram,
+  CautionNote,
+  MorningNightDiagram,
+  ClassicalContemporaryDiagram,
+  OnlineStudioDiagram,
 }

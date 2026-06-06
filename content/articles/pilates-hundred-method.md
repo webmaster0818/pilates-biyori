@@ -9,6 +9,7 @@ tags:
   - "コア"
   - "腹筋"
 publishedAt: "2026-05-11"
+updatedAt: "2026-06-06"
 author: "編集部"
 keywords:
   - "ピラティス ハンドレッド"
@@ -39,6 +40,10 @@ relatedArticles:
 - 呼吸と動きの連動を体得
 - 軽い有酸素効果（心拍数アップ）
 - 集中力・自律神経の安定
+
+ハンドレッドで狙うのは、表層ではなく下図の深層筋（コア）です。
+
+<InnerMuscleDiagram />
 
 [ピラティスの呼吸法](/articles/pilates-breathing/)を先にマスターしておくと、ハンドレッドの効果が一気に高まります。
 
