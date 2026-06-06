@@ -653,6 +653,15 @@ export function OnlineStudioDiagram() {
   )
 }
 
+// MDXの表を「枠で囲った」スクロール可能なテーブルに ----------------------
+function MdxTable(props: React.HTMLAttributes<HTMLTableElement>) {
+  return (
+    <div className="not-prose my-8 overflow-x-auto rounded-xl border border-warm-200 shadow-sm">
+      <table className="w-full border-collapse text-sm article-table" {...props} />
+    </div>
+  )
+}
+
 // MDXに渡すコンポーネントマップ -------------------------------------------
 export const articleComponents = {
   SurveyNote,
@@ -676,4 +685,5 @@ export const articleComponents = {
   MorningNightDiagram,
   ClassicalContemporaryDiagram,
   OnlineStudioDiagram,
+  table: MdxTable,
 }

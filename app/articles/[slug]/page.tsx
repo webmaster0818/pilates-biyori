@@ -1,5 +1,6 @@
 import { getArticleBySlug, getArticleSlugs } from '@/lib/mdx'
 import { MDXRemote } from 'next-mdx-remote/rsc'
+import remarkGfm from 'remark-gfm'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { Navigation } from '@/components/Navigation'
@@ -156,7 +157,11 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
             {/* 記事本文 */}
             <div className="prose prose-lg max-w-none mb-16 article-content">
-              <MDXRemote source={content} components={articleComponents} />
+              <MDXRemote
+                source={content}
+                components={articleComponents}
+                options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }}
+              />
             </div>
 
             {/* よくある質問 */}
