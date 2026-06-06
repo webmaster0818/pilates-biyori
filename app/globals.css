@@ -65,6 +65,26 @@
     opacity: 1;
     transform: translateY(0);
   }
+
+  /* 記事本文：スクロールで各要素がふわっと出現（JS有効時のみ初期非表示にしてチラつき防止） */
+  html.js .article-content.reveal-on > * {
+    opacity: 0;
+    transform: translateY(22px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+    will-change: opacity, transform;
+  }
+  html.js .article-content.reveal-on > *.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .fade-up,
+    html.js .article-content.reveal-on > * {
+      opacity: 1 !important;
+      transform: none !important;
+      transition: none !important;
+    }
+  }
   
   .img-cover {
     object-fit: cover;
@@ -139,20 +159,39 @@
   }
   
   /* 記事本文スタイリング */
+  /* H1：最上位。太字＋アクセント色の太い下線 */
   .article-content h1 {
-    @apply text-3xl md:text-4xl font-light text-warm-900 tracking-tight mt-12 mb-6 pb-4 border-b border-warm-200;
+    @apply text-3xl md:text-4xl font-bold text-warm-900 tracking-tight mt-12 mb-6 pb-3;
+    border-bottom: 3px solid #8B7355;
   }
-  
+
+  /* H2：セクション。セミボールド＋下線（左にアクセントの帯） */
   .article-content h2 {
-    @apply text-2xl md:text-3xl font-light text-warm-800 tracking-tight mt-10 mb-4;
+    @apply text-2xl md:text-3xl font-semibold text-warm-800 tracking-tight mt-12 mb-5 pb-2;
+    position: relative;
+    border-bottom: 2px solid #e7e5e4;
   }
-  
+  .article-content h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 3rem;
+    height: 2px;
+    background: #8B7355;
+  }
+
+  /* H3：サブ見出し。左にアクセントバー＋細い下線で中位の強調 */
   .article-content h3 {
-    @apply text-xl md:text-2xl font-medium text-warm-800 mt-8 mb-3;
+    @apply text-xl md:text-2xl font-medium text-warm-800 mt-9 mb-3 pl-3 pb-1;
+    border-left: 4px solid #8B7355;
+    border-bottom: 1px solid #e7e5e4;
   }
-  
+
+  /* H4：最小。細い点線下線で控えめに */
   .article-content h4 {
-    @apply text-lg md:text-xl font-medium text-warm-700 mt-6 mb-2;
+    @apply text-lg md:text-xl font-medium text-warm-700 mt-6 mb-2 pb-1;
+    border-bottom: 1px dotted #d6d3d1;
   }
   
   .article-content p {

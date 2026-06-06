@@ -127,6 +127,10 @@ export default function RootLayout({
   return (
     <html lang="ja" className={`${notoSansJP.variable} ${cormorant.variable}`}>
       <head>
+        {/* JS有効時のみ <html> に js クラスを付与（描画前に実行・初期非表示のチラつき防止） */}
+        <script
+          dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}

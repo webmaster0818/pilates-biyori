@@ -6,6 +6,7 @@ import { notFound } from 'next/navigation'
 import { Navigation } from '@/components/Navigation'
 import { SiteFooter } from '@/components/SiteFooter'
 import { articleComponents } from '@/components/articles/ArticleFigures'
+import ArticleScrollReveal from '@/components/articles/ArticleScrollReveal'
 import Script from 'next/script'
 
 export async function generateStaticParams() {
@@ -156,13 +157,14 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             </div>
 
             {/* 記事本文 */}
-            <div className="prose prose-lg max-w-none mb-16 article-content">
+            <div className="prose prose-lg max-w-none mb-16 article-content reveal-on">
               <MDXRemote
                 source={content}
                 components={articleComponents}
                 options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }}
               />
             </div>
+            <ArticleScrollReveal />
 
             {/* よくある質問 */}
             {faqItems.length > 0 && (
