@@ -58,6 +58,8 @@ faq:
 
 より詳しい比較は[マットとマシンの違い](/articles/mat-machine-difference/)をご覧ください。
 
+<MatVsMachineDiagram />
+
 ## リフォーマーで得られる効果
 
 - **正しいフォームを補助** → 狙った筋肉に効き、効果が出やすい

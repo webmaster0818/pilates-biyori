@@ -375,6 +375,98 @@ export function MatVsMachineDiagram() {
   )
 }
 
+// 10. 呼吸法の違い図解（胸式 vs 腹式） ------------------------------------
+export function BreathingDiagram() {
+  return (
+    <Figure title="ピラティスの胸式呼吸と腹式呼吸の違い" note={<p className="not-prose text-xs text-warm-400 mt-1">ピラティスは主に胸式（ラテラル）呼吸。肋骨を横に広げ、お腹は薄く保ったまま行うことで体幹が働く。</p>}>
+      <div className="not-prose grid grid-cols-2 gap-4">
+        {/* 胸式 */}
+        <div className="rounded-lg border border-warm-100 p-4 flex flex-col items-center gap-2" style={{ background: '#f7f3ee' }}>
+          <svg viewBox="0 0 140 130" width="100%" height="120" role="img" aria-label="胸式呼吸：肋骨が横に広がる">
+            {/* 胴体 */}
+            <path d="M45 20 q25 -8 50 0 l-4 95 q-21 7 -42 0 Z" fill="#fff" stroke={ACCENT} strokeWidth={2} />
+            {/* 肋骨（拡張） */}
+            {[0, 1, 2, 3].map((i) => (
+              <path key={i} d={`M48 ${36 + i * 12} q22 ${10 + i} 44 0`} fill="none" stroke={ACCENT} strokeWidth={2} />
+            ))}
+            {/* 横方向の矢印 */}
+            <line x1={30} y1={52} x2={44} y2={52} stroke={ACCENT} strokeWidth={2} />
+            <path d="M30 52 l6 -3 v6 Z" fill={ACCENT} />
+            <line x1={110} y1={52} x2={96} y2={52} stroke={ACCENT} strokeWidth={2} />
+            <path d="M110 52 l-6 -3 v6 Z" fill={ACCENT} />
+          </svg>
+          <div className="text-sm font-semibold" style={{ color: ACCENT }}>胸式呼吸（ピラティス）</div>
+          <div className="text-xs text-warm-600 text-center leading-snug">肋骨を左右に広げる。お腹は引き締めたまま → 体幹が働く・交感神経が優位で活動的に</div>
+        </div>
+        {/* 腹式 */}
+        <div className="rounded-lg border border-warm-100 bg-warm-50 p-4 flex flex-col items-center gap-2">
+          <svg viewBox="0 0 140 130" width="100%" height="120" role="img" aria-label="腹式呼吸：お腹がふくらむ">
+            <path d="M45 20 q25 -8 50 0 l-2 70 q5 30 -23 30 q-28 0 -23 -30 l-2 -70 Z" fill="#fff" stroke={FAINT} strokeWidth={2} />
+            {/* お腹のふくらみ */}
+            <ellipse cx={70} cy={98} rx={22} ry={18} fill="none" stroke={FAINT} strokeWidth={2} />
+            {/* 下向き矢印 */}
+            <line x1={70} y1={70} x2={70} y2={86} stroke={SUB} strokeWidth={2} />
+            <path d="M70 88 l-3 -6 h6 Z" fill={SUB} />
+          </svg>
+          <div className="text-sm font-semibold text-warm-600">腹式呼吸（ヨガ等）</div>
+          <div className="text-xs text-warm-600 text-center leading-snug">横隔膜を下げお腹をふくらませる → リラックス・副交感神経が優位に</div>
+        </div>
+      </div>
+    </Figure>
+  )
+}
+
+// 11. グループ vs パーソナル 図解 -----------------------------------------
+export function GroupVsPersonalDiagram() {
+  const cols = [
+    { head: 'グループレッスン', icon: '◍◍◍', points: ['1回あたり安い（3,000〜5,000円目安）', '定員5〜15名で受講', '仲間ができ継続しやすい', '個別の細かい修正は少なめ'] },
+    { head: 'パーソナル / 個室', icon: '◍', points: ['完全マンツーマン指導', '体の悩みに合わせて設計', '効果・フォーム習得が早い', '料金は高め（8,000〜15,000円目安）'] },
+  ]
+  return (
+    <Figure
+      title="グループレッスン と パーソナル（個別）"
+      note={<SurveyNote extra={`当サイト調査では全国211スタジオの約44%がパーソナル・完全個室に対応していました。`} />}
+    >
+      <div className="not-prose grid grid-cols-2 gap-4">
+        {cols.map((c, i) => (
+          <div key={i} className="rounded-lg border border-warm-100 p-4 flex flex-col gap-3" style={{ background: i === 1 ? '#f7f3ee' : BG }}>
+            <div className="text-center text-2xl tracking-widest" style={{ color: i === 1 ? ACCENT : ACCENT_SOFT }}>{c.icon}</div>
+            <div className="text-sm font-semibold text-center" style={{ color: ACCENT }}>{c.head}</div>
+            <ul className="flex flex-col gap-1.5">
+              {c.points.map((p, j) => (
+                <li key={j} className="text-xs text-warm-600 flex gap-1.5">
+                  <span style={{ color: ACCENT }}>•</span>
+                  <span>{p}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </Figure>
+  )
+}
+
+// 12. 外部一次情報の引用ボックス（厚労省ガイド2023） ----------------------
+export function ActivityGuideNote() {
+  return (
+    <aside className="not-prose my-6 rounded-lg border border-warm-200 bg-warm-50 overflow-hidden">
+      <div className="flex items-center gap-2 px-4 py-2 border-b border-warm-100" style={{ background: '#f1ebe2' }}>
+        <span className="text-[10px] tracking-[0.15em] uppercase font-medium text-white bg-[#8B7355] rounded-full px-2.5 py-0.5">一次情報</span>
+        <span className="text-xs font-medium text-warm-700">公的機関の運動推奨</span>
+      </div>
+      <div className="px-4 py-3 text-sm text-warm-700 leading-relaxed">
+        厚生労働省「健康づくりのための身体活動・運動ガイド2023」は、成人に対し
+        <strong>歩行などの身体活動を1日60分以上（週23メッツ・時以上）</strong>に加え、
+        <strong>筋力トレーニングを週2〜3日</strong>行うことを推奨しています。ピラティスは筋力・体幹に働きかける運動として、この「週2〜3日の筋トレ」に位置づけて取り入れやすい運動です。
+        <a href="https://www.e-healthnet.mhlw.go.jp/information/policy/p-005.html" target="_blank" rel="noopener noreferrer" className="block mt-2 text-xs text-warm-500 underline hover:text-warm-700">
+          出典：厚生労働省 e-ヘルスネット「健康づくりのための身体活動・運動ガイド2023」
+        </a>
+      </div>
+    </aside>
+  )
+}
+
 // MDXに渡すコンポーネントマップ -------------------------------------------
 export const articleComponents = {
   SurveyNote,
@@ -387,4 +479,7 @@ export const articleComponents = {
   PostureDiagram,
   EffectTimeline,
   MatVsMachineDiagram,
+  BreathingDiagram,
+  GroupVsPersonalDiagram,
+  ActivityGuideNote,
 }

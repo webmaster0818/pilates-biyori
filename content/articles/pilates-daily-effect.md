@@ -8,6 +8,7 @@ tags:
   - "頻度"
   - "毎日ピラティス"
 publishedAt: "2026-03-28"
+updatedAt: "2026-06-06"
 author: "編集部"
 keywords:
   - "ピラティス 毎日 効果"
@@ -80,6 +81,8 @@ relatedArticles:
 **継続率：**
 - 週2回：80%
 - 毎日：30%
+
+<ActivityGuideNote />
 
 ## ピラティスの最適な頻度は？
 

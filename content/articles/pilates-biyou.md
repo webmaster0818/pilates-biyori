@@ -44,6 +44,8 @@ faq:
 ### 姿勢が整い、見た目が若返る
 [姿勢改善](/articles/pilates-posture-effect/)で猫背が直ると、首が長く見え、デコルテ・フェイスラインの印象が上向きに。バストの位置にも好影響です。
 
+<PostureDiagram />
+
 ### しなやかなボディライン
 [内側から引き締まり](/articles/pilates-yaseru-shikumi/)、メリハリのある体に近づきます。
 
