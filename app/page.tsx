@@ -47,10 +47,16 @@ export default function Home() {
         { threshold: 0.05, rootMargin: '0px 0px 80px 0px' }
       )
       fadeEls.forEach((el) => obs.observe(el))
-      
-      setTimeout(() => {
-        fadeEls.forEach((el) => el.classList.add('visible'))
-      }, 2500)
+      // 一括表示タイマーは廃止（スクロール演出が下部で消えるため）。
+      // ビューに入った要素だけ順次表示。初期ビュー内の取りこぼしは次フレームで救済。
+      requestAnimationFrame(() => {
+        const vh = window.innerHeight || document.documentElement.clientHeight
+        fadeEls.forEach((el) => {
+          if (el.classList.contains('visible')) return
+          const r = el.getBoundingClientRect()
+          if (r.top < vh * 0.95 && r.bottom > 0) el.classList.add('visible')
+        })
+      })
     } else {
       fadeEls.forEach((el) => el.classList.add('visible'))
     }
