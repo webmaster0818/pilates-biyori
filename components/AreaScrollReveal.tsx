@@ -9,8 +9,13 @@ import { useEffect } from 'react'
  */
 export default function AreaScrollReveal() {
   useEffect(() => {
+    // セクション単位だと、スタジオ一覧や料金表など「中身の長いセクション」は
+    // 箱ごと一度に表示され途中から演出が止まって見える。
+    // → セクション内の各ブロック＋スタジオカードを個別に対象にして、最後まで順次フェードインさせる
     const sections = Array.from(
-      document.querySelectorAll('.area-reveal main > section'),
+      document.querySelectorAll(
+        '.area-reveal main section > div > *, .area-reveal main .space-y-8 > *',
+      ),
     ) as HTMLElement[]
     if (sections.length === 0) return
 
