@@ -147,11 +147,11 @@ export default function Home() {
           </div>
           <div className="relative z-10 max-w-6xl mx-auto px-6 lg:px-8 w-full">
             <div className="max-w-xl">
-              <p className="section-en text-warm-400 mb-4 font-medium">Find your ideal pilates</p>
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light text-warm-900 leading-[1.2] mb-6 tracking-tight">
+              <p className="section-en text-warm-400 mb-4 font-medium fade-up">Find your ideal pilates</p>
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light text-warm-900 leading-[1.2] mb-6 tracking-tight fade-up" style={{ transitionDelay: '0.12s' }}>
                 あなたに最適な<br/>ピラティスが見つかる
               </h1>
-              <p className="text-warm-500 text-sm md:text-base leading-relaxed mb-10 font-light max-w-md">
+              <p className="text-warm-500 text-sm md:text-base leading-relaxed mb-10 font-light max-w-md fade-up" style={{ transitionDelay: '0.24s' }}>
                 初心者から経験者まで。基礎知識からスタジオ選びまで、<br className="hidden md:block"/>あなたのピラティスライフを徹底サポートします。
               </p>
             </div>
