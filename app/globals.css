@@ -77,9 +77,22 @@
     opacity: 1;
     transform: translateY(0);
   }
+  /* エリアページ：セクション単位でスクロールフェードイン */
+  html.js .area-reveal main > section {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+    will-change: opacity, transform;
+  }
+  html.js .area-reveal main > section.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
   @media (prefers-reduced-motion: reduce) {
     .fade-up,
-    html.js .article-content.reveal-on > * {
+    html.js .article-content.reveal-on > *,
+    html.js .area-reveal main > section {
       opacity: 1 !important;
       transform: none !important;
       transition: none !important;
