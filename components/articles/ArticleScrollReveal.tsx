@@ -29,15 +29,26 @@ export default function ArticleScrollReveal() {
           }
         })
       },
-      { threshold: 0.06, rootMargin: '0px 0px -8% 0px' },
+      // 要素が下から少し入ったら発火。ページ全体でスクロールに追従させる
+      { threshold: 0, rootMargin: '0px 0px -10% 0px' },
     )
     els.forEach((el) => obs.observe(el))
 
-    // 保険：何らかの理由で発火しない場合も一定時間後に必ず表示
-    const t = setTimeout(revealAll, 3000)
+    // フォールバック：ページ全体がビューに収まる短いコンテンツで取りこぼした分だけ救済
+    // （スクロール演出を殺さないよう一括表示はしない。ビューポート内に残っている未表示要素のみ）
+    const rescueInView = () => {
+      const vh = window.innerHeight || document.documentElement.clientHeight
+      els.forEach((el) => {
+        if (el.classList.contains('visible')) return
+        const r = el.getBoundingClientRect()
+        if (r.top < vh && r.bottom > 0) el.classList.add('visible')
+      })
+    }
+    window.addEventListener('load', rescueInView)
+
     return () => {
       obs.disconnect()
-      clearTimeout(t)
+      window.removeEventListener('load', rescueInView)
     }
   }, [])
 

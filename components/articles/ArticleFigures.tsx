@@ -68,20 +68,32 @@ function HBars({
     <div className="not-prose flex flex-col gap-3">
       {rows.map((r, i) => {
         const w = Math.max(2, Math.round((r.value / max) * 100))
+        const label = `${r.value}${unit}${r.sub ? ` ${r.sub}` : ''}`
+        // バーが十分に長いときだけラベルをバー内（白）に。短いときはバー外（濃色）に置いて見切れ防止
+        const inside = w >= 55
         return (
           <div key={i} className="flex items-center gap-3">
-            <div className="w-40 shrink-0 text-xs text-warm-600 leading-snug text-right">{r.label}</div>
-            <div className="flex-1 h-7 rounded bg-warm-100 overflow-hidden">
+            <div className="w-32 sm:w-40 shrink-0 text-xs text-warm-600 leading-snug text-right">{r.label}</div>
+            <div className="flex-1 h-7 rounded bg-warm-100 relative">
               <div
-                className="h-full rounded flex items-center justify-end pr-2"
+                className="h-full rounded"
                 style={{ width: `${w}%`, background: i === 0 ? ACCENT : ACCENT_SOFT }}
-              >
-                <span className="text-[11px] font-semibold text-white whitespace-nowrap">
-                  {r.value}
-                  {unit}
-                  {r.sub ? ` ${r.sub}` : ''}
+              />
+              {inside ? (
+                <span
+                  className="absolute top-1/2 -translate-y-1/2 text-[11px] font-semibold text-white whitespace-nowrap"
+                  style={{ left: `calc(${w}% - 0.5rem)`, transform: 'translate(-100%, -50%)' }}
+                >
+                  {label}
                 </span>
-              </div>
+              ) : (
+                <span
+                  className="absolute top-1/2 -translate-y-1/2 text-[11px] font-semibold text-warm-700 whitespace-nowrap"
+                  style={{ left: `calc(${w}% + 0.375rem)` }}
+                >
+                  {label}
+                </span>
+              )}
             </div>
           </div>
         )
