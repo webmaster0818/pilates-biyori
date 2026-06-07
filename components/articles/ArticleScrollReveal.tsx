@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect } from 'react'
+import { usePathname } from 'next/navigation'
 
 /**
  * 記事本文の直下要素を、スクロールでビューに入った順にふわっと表示する。
@@ -8,6 +9,8 @@ import { useEffect } from 'react'
  * ここで `.visible` を付けて出現させる（iOS Safari でも動くIntersectionObserver方式）。
  */
 export default function ArticleScrollReveal() {
+  // URLが変わるたび（クリック遷移）に再実行。これがないと遷移先で非表示のまま＝白化けする
+  const pathname = usePathname()
   useEffect(() => {
     const root = document.querySelector('.article-content.reveal-on')
     if (!root) return
@@ -45,12 +48,15 @@ export default function ArticleScrollReveal() {
       })
     }
     window.addEventListener('load', rescueInView)
+    // クリック遷移直後はloadが発火しないため、次フレームでビュー内要素を一度救済
+    const raf = requestAnimationFrame(rescueInView)
 
     return () => {
       obs.disconnect()
       window.removeEventListener('load', rescueInView)
+      cancelAnimationFrame(raf)
     }
-  }, [])
+  }, [pathname])
 
   return null
 }
