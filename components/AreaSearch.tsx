@@ -14,7 +14,7 @@ export function AreaSearch() {
   return (
     <section className="py-16 md:py-20 bg-warm-50 border-y border-warm-100" id="area-search">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 fade-up">
           <p className="text-xs uppercase tracking-[0.2em] font-medium text-warm-400 mb-3">
             Search by Area
           </p>
@@ -26,7 +26,7 @@ export function AreaSearch() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 fade-up" style={{ transitionDelay: '0.1s' }}>
           {prefectureAreas.map((pref) => (
             <div
               key={pref.prefecture}
@@ -79,7 +79,7 @@ export function AreaSearch() {
           ))}
         </div>
 
-        <div className="text-center mt-10">
+        <div className="text-center mt-10 fade-up">
           <Link
             href="/area/"
             className="inline-block text-sm text-warm-700 hover:text-warm-900 underline font-light"
