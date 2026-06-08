@@ -77,10 +77,10 @@ const STATIC_PAGES = [
 const TODAY = new Date().toISOString().slice(0, 10) // 2026-05-08
 const LASTMOD = {
   top: TODAY,
-  t1: TODAY,                  // tier-1 cities + index pages
-  t2: '2026-05-05',            // tier-2 stations + main category
-  t3: '2026-04-28',            // tier-3 stations
-  article: '2026-05-02',
+  t1: TODAY,                   // tier-1 cities + index pages
+  t2: '2026-06-07',            // tier-2 stations + main category（フェードイン改修で更新）
+  t3: '2026-06-07',            // tier-3 stations（同上）
+  article: '2026-06-06',       // 全57記事を一次情報・図解・独自データで強化した日
   static: '2026-04-12',
 }
 
