@@ -73,6 +73,7 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 代々木上原店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.7,
     reviewCount: 271,

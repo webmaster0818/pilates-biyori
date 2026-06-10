@@ -336,6 +336,7 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 中野',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.3,
     reviewCount: 110,
@@ -389,6 +390,7 @@ const studios = [
   },
   {
     name: 'ELEMENT 中野',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=U11199J.1.V154352I.U1357808',
     image: '/images/studios/element.webp',
     rating: 4.6,
     reviewCount: 17,

@@ -126,6 +126,7 @@ const studios = [
   },
   {
     name: 'ELEMENT 調布店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=U11199J.1.V154352I.U1357808',
     image: '/images/studios/element.webp',
     rating: 4.8,
     reviewCount: 11,

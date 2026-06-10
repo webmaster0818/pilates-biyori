@@ -20,6 +20,7 @@ export const metadata = {
 const studios = [
   {
     name: 'URBAN CLASSIC PILATES 明大前店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.6,
     reviewCount: 240,
@@ -229,6 +230,7 @@ const studios = [
   },
   {
     name: 'ELEMENT 明大前（近隣）',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=U11199J.1.V154352I.U1357808',
     image: '/images/studios/element.webp',
     rating: 4.7,
     reviewCount: 14,

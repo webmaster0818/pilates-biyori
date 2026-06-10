@@ -77,6 +77,7 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 青葉台',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.5, reviewCount: 94,
     reviews: [

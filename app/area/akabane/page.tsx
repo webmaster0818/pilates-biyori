@@ -125,6 +125,7 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 赤羽店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.6,
     price: '月額 7,800円〜（通い放題 14,080円）',

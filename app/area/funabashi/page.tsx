@@ -126,6 +126,7 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 船橋店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.6,
     reviewCount: 243,

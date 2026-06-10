@@ -39,6 +39,7 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 二俣川店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/default-studio.webp',
     rating: 4.5,
     reviewCount: 35,

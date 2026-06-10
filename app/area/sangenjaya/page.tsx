@@ -125,6 +125,7 @@ const studios = [
   },
   {
     name: 'ELEMENT 三軒茶屋本店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=U11199J.1.V154352I.U1357808',
     image: '/images/studios/element.webp',
     rating: 4.7,
     reviewCount: 22,
@@ -484,6 +485,7 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 三軒茶屋（近隣）',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
     rating: 4.5,
     reviewCount: 127,
