@@ -19,6 +19,19 @@ export const metadata = {
 
 const studios = [
   {
+    name: 'BREST PILATES & BODYMAKE 相模大野',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=C11549B.1.G1597032.U1357808',
+    image: '/images/studios/brest.webp',
+    price: '月4回 22,880円〜（パーソナル）',
+    trial: '体験レッスンあり（詳細は公式サイト参照）',
+    features: ['マシンピラティス', 'ウェイトトレーニング', 'パーソナル', '約30分集中'],
+    description: 'マシンピラティスとウェイトトレーニングを組み合わせたパーソナルスタジオ。インナーマッスルとアウターマッスルの両方にアプローチし、約30分の効率的なセッションでボディメイクを目指せます。全国展開のURBAN CLASSIC PILATESの姉妹ブランドで、初心者にもトレーナーが丁寧に対応。相模大野エリアの店舗です。',
+    access: '相模大野エリア（詳細は公式サイト参照）',
+    address: '神奈川県相模原市南区（詳細は公式サイト参照）',
+    popularPlan: { name: 'Personal M4（月4回）', description: 'マシンピラティス×ウェイトのパーソナル。月4回で習慣化しやすいプラン。', price: '月4回 22,880円（税込）' },
+    basicInfo: { hours: '詳細は公式サイト参照', closed: '詳細は公式サイト参照', facilities: ['マシンピラティス', 'パーソナル', '更衣室', 'ウェイトエリア'] },
+  },
+  {
     name: 'ピラティスK 相模大野店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.7,

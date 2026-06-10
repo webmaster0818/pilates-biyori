@@ -65,6 +65,7 @@ export const prefectureAreas = [
     prefecture: '東京都',
     areas: [
       { slug: 'tokyo', name: '東京' },
+      { slug: 'hongo-sanchome', name: '本郷三丁目' },
       { slug: 'tokyo-station', name: '東京駅' },
       { slug: 'shinjuku', name: '新宿' },
       { slug: 'shibuya', name: '渋谷' },
@@ -254,6 +255,7 @@ export const prefectureAreas = [
     prefecture: '大阪府',
     areas: [
       { slug: 'osaka', name: '大阪' },
+      { slug: 'awaji', name: '淡路' },
       { slug: 'umeda', name: '梅田' },
       { slug: 'namba', name: 'なんば' },
       { slug: 'shinsaibashi', name: '心斎橋' },
@@ -326,6 +328,7 @@ export const prefectureAreas = [
     prefecture: '福岡県',
     areas: [
       { slug: 'fukuoka', name: '福岡' },
+      { slug: 'gofukumachi', name: '呉服町' },
       { slug: 'tenjin', name: '天神' },
       { slug: 'hakata', name: '博多' },
       { slug: 'yakuin', name: '薬院' },
