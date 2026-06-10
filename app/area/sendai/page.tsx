@@ -19,6 +19,22 @@ export const metadata = {
 
 const studios = [
   {
+    name: 'Celestia（セレスティア）仙台店',
+    officialUrl: 'https://t.hatmiso.net/fmcl?ak=U114734.1.W158213V.U1357808',
+    image: '/images/studios/celestia.webp',
+    price: '詳細は公式サイト参照',
+    trial: '体験レッスンあり（詳細は公式サイト参照）',
+    features: ['マシンピラティス', 'セミパーソナル', '少人数制', '美しさ重視'],
+    description: '「本来の輝きを引き出す」をコンセプトにしたセミパーソナルのマシンピラティス専門スタジオ。美しさと健康を両立する洗練された空間で、少人数制のレッスンを提供しています。契約プランの範囲で系列店を相互利用でき、仙台店もその一つです。',
+    access: '仙台駅周辺（詳細は公式サイト参照）',
+    address: '宮城県（詳細は公式サイト参照）',
+    basicInfo: {
+      hours: '詳細は公式サイト参照',
+      closed: '詳細は公式サイト参照',
+      facilities: ['マシンピラティス', 'セミパーソナル', '更衣室', '女性も通いやすい'],
+    },
+  },
+  {
     name: 'ピラティスK 仙台PARCO2店',
     image: '/images/studios/pilates-k.webp',
     rating: 4.0,

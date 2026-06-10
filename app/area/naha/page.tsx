@@ -19,6 +19,22 @@ export const metadata = {
 
 const studios = [
   {
+    name: 'ルキナ マシンピラティス 那覇新都心店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=Q113418.1.21564097.U1357808',
+    image: '/images/studios/lucina.webp',
+    price: '詳細は公式サイト参照',
+    trial: '体験レッスンあり（詳細は公式サイト参照）',
+    features: ['マシンピラティス', '少人数制', 'パーソナル可', '姿勢改善'],
+    description: 'ピラティスリフォーマーによる少人数制レッスンで、姿勢改善やボディメイクを効率よく目指せるルキナのマシンピラティス専用スタジオ。個室でのパーソナルトレーニングにも対応しています。ホットヨガ＆コラーゲンスタジオを展開するLucinaグループのピラティス専門業態で、那覇新都心エリアにあります。',
+    access: '那覇新都心エリア（詳細は公式サイト参照）',
+    address: '沖縄県那覇市（詳細は公式サイト参照）',
+    basicInfo: {
+      hours: '詳細は公式サイト参照',
+      closed: '詳細は公式サイト参照',
+      facilities: ['マシンピラティス', 'リフォーマー', '個室パーソナル', '更衣室'],
+    },
+  },
+  {
     name: 'Rintosull（リントスル）那覇新都心店',
     image: '/images/studios/rintosull.webp',
     rating: 4.7,

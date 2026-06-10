@@ -14,7 +14,7 @@ type Studio = {
   name: string
   officialUrl?: string
   image: string
-  rating: number
+  rating?: number
   reviewCount?: number
   reviews?: Review[]
   price: string
@@ -60,16 +60,18 @@ export function StudioCard({ studio, index }: StudioCardProps) {
         <div className="md:w-2/3 p-6">
           <div className="flex items-center justify-between mb-3">
             <h3 className="text-xl font-bold text-warm-900">{index + 1}. {studio.name}</h3>
-            <button
-              onClick={() => setShowReviews(!showReviews)}
-              className="flex items-center cursor-pointer hover:opacity-70 transition-opacity"
-              title="口コミを表示"
-            >
-              <span className="text-yellow-500 mr-1">★</span>
-              <span className="font-bold text-warm-800">{studio.rating}</span>
-              {studio.reviewCount && <span className="text-warm-400 text-xs ml-1">({studio.reviewCount})</span>}
-              <svg className={`w-3 h-3 ml-1 text-warm-400 transition-transform ${showReviews ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
-            </button>
+            {studio.rating != null && (
+              <button
+                onClick={() => setShowReviews(!showReviews)}
+                className="flex items-center cursor-pointer hover:opacity-70 transition-opacity"
+                title="口コミを表示"
+              >
+                <span className="text-yellow-500 mr-1">★</span>
+                <span className="font-bold text-warm-800">{studio.rating}</span>
+                {studio.reviewCount && <span className="text-warm-400 text-xs ml-1">({studio.reviewCount})</span>}
+                <svg className={`w-3 h-3 ml-1 text-warm-400 transition-transform ${showReviews ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
+              </button>
+            )}
           </div>
 
           {showReviews && studio.reviews && studio.reviews.length > 0 && (
