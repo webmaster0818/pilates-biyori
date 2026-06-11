@@ -377,7 +377,7 @@ export default function KameidoPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="亀戸" />
+        <TableOfContents areaName="亀戸" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

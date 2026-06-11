@@ -364,7 +364,7 @@ export default function KyotoShiyakushoMaePage() {
           </div>
         </section>
 
-        <TableOfContents areaName="京都市役所前" />
+        <TableOfContents areaName="京都市役所前" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

@@ -368,7 +368,7 @@ export default function MarunouchiPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="丸の内" />
+        <TableOfContents areaName="丸の内" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

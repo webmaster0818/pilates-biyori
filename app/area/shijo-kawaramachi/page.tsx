@@ -358,7 +358,7 @@ export default function ShijoKawaramachiPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="四条河原町" />
+        <TableOfContents areaName="四条河原町" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

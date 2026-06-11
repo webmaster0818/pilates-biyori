@@ -468,7 +468,7 @@ export default function HiroshimaAreaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="広島" />
+        <TableOfContents areaName="広島" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

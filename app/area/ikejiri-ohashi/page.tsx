@@ -6,11 +6,12 @@ import { RelatedAreas } from '@/components/RelatedAreas'
 import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
+import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 export const metadata = {
-  title: '【2026最新】ピラティス池尻大橋おすすめ6選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年6月最新】ピラティス池尻大橋おすすめ6選！料金・体験レッスン・マシン対応を比較！',
   description: '池尻大橋エリアのおすすめピラティススタジオ6��を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,池尻大橋,東京,世田谷区,目黒区,スタジオ,おすすめ,マシンピラティ��,体験レッス���,料金,比較',
 }
@@ -171,7 +172,7 @@ export default function IkejiriOhashiPage() {
       <main className="pt-20 bg-white">
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年04月21日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026��新】ピラティス池尻大橋おすすめ6選！<br className="hidden md:block" />人気スタジオの料金プランを簡単���較！</h1></div></section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">池尻大橋</span></nav></div></section>
-        <TableOfContents areaName="池尻大橋" />
+        <TableOfContents areaName="池尻大橋" studioNames={studios.map((s) => s.name)} />
         <section className="py-12 bg-white"><div className="max-w-4xl mx-auto px-6 lg:px-8">
           <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p><p className="text-warm-600 leading-relaxed mb-6">Pilates-Biyori編集部です！</p><p className="text-warm-600 leading-relaxed mb-6">あなたは、</p><p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p><p className="text-warm-600 leading-relaxed mb-6">「池尻大橋で人気のピラティススタジオを知りたい」</p><p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
           <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、東急田園都市線「池尻大橋駅」周辺でおすすめのピラティススタジオ6選をまとめました。池尻大橋は渋谷まで1駅という好立地ながら、落ち着いた住宅街の雰囲気も持つバランスの良いエリアです。産婦人科医監修の女性専用スタジオから、少人数制のアットホームなスタジオまで幅広くご紹介��ます。</p>
@@ -179,6 +180,7 @@ export default function IkejiriOhashiPage() {
           <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
         </div></section>
         <PriceComparisonTable studios={studios} areaName="池尻大橋" />
+        <AreaMarketComparison studios={studios} areaName="池尻大橋" />
         <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">池尻大橋のおすすめピラティススタジオ6選</h2><div className="space-y-8">{studios.map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
         <section className="py-16 bg-white" id="kodawari"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">目的別おすすめスタジオ</h2><div className="grid grid-cols-1 md:grid-cols-3 gap-8"><div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3><p className="text-warm-600 text-sm mb-4">月額1万円前後で通えるスタジオ。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li><li className="text-warm-700">• ピラティスK（月4回 11,220円〜）</li></ul></div><div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">女性専用パ��ソナル</h3><p className="text-warm-600 text-sm mb-4">産後ケアやボディメイクに。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• AruPilates（産婦人科医監修）</li><li className="text-warm-700">• YUZU（有資格者40名以上）</li><li className="text-warm-700">• ELEMENT（30分パーソナル）</li></ul></div><div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">少人数アットホーム</h3><p className="text-warm-600 text-sm mb-4">丁寧な指導を重視。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• Habit Pilates（最大5名少人数制）</li></ul></div></div></div></section>
         <section className="py-16 bg-warm-50" id="price-market"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">池尻大橋のピラティス料金相場【2026年4月最新】</h2><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">種別</th><th className="px-4 py-3 text-left">料金相場</th></tr></thead><tbody><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4回）</td><td className="px-4 py-3">9,625円〜11,220円</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">パーソナルレッスン</td><td className="px-4 py-3">1回 7,200円〜 / 月4回 22,000円</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">1,000円〜3,300円</td></tr></tbody></table></div><p className="text-warm-600 mt-4 text-sm leading-relaxed">池尻大橋は渋谷まで田園都市線で1駅という好アクセスながら、落ち着いた住宅街の雰囲気を持つエリアです。AruPilatesやYUZUなど女性専用パーソナルスタジオが充実しているのが特徴。三軒茶屋方面のスタジオも徒歩圏内なので、選択肢が広いのも魅力です。</p></div></section>

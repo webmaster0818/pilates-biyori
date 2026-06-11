@@ -6,13 +6,14 @@ import { RelatedAreas } from '@/components/RelatedAreas'
 import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
+import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス巣鴨おすすめ7選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年6月最新】ピラティス巣鴨おすすめ7選！料金・体験レッスン・マシン対応を比較！',
   description: '巣鴨エリアのおすすめピラティススタジオ7選を徹底比較。駅徒歩1分の好立地スタジオ多数。マシンピラティス、体験レッスン、料金相場、アクセスまで完全ガイド。',
   keywords: 'ピラティス,巣鴨,東京,豊島区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -493,7 +494,7 @@ export default function SugamoAreaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="巣鴨" />
+        <TableOfContents areaName="巣鴨" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">
@@ -551,6 +552,7 @@ export default function SugamoAreaPage() {
         </section>
 
         <PriceComparisonTable studios={studios} areaName="巣鴨" />
+        <AreaMarketComparison studios={studios} areaName="巣鴨" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">

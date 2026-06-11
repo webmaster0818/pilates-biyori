@@ -6,13 +6,14 @@ import { RelatedAreas } from '@/components/RelatedAreas'
 import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
+import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス仙川おすすめ5選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年6月最新】ピラティス仙川おすすめ5選！料金・体験レッスン・マシン対応を比較！',
   description: '仙川エリアのおすすめピラティススタジオ5選を徹底比較。URBAN CLASSIC PILATES仙川・ピラティスミラー仙川・CLUB PILATES仙川・PERSONAL TRAINING STUDIO U・zen place pilatesなど実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
   keywords: 'ピラティス,仙川,東京,調布,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,URBAN CLASSIC,CLUB PILATES,ピラティスミラー',
 }
@@ -157,7 +158,7 @@ export default function SengawaPage() {
           </div>
         </section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">仙川</span></nav></div></section>
-        <TableOfContents areaName="仙川" />
+        <TableOfContents areaName="仙川" studioNames={studios.map((s) => s.name)} />
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p>
@@ -182,6 +183,7 @@ export default function SengawaPage() {
           </div>
         </section>
         <PriceComparisonTable studios={studios} areaName="仙川" />
+        <AreaMarketComparison studios={studios} areaName="仙川" />
         <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">仙川のおすすめピラティススタジオ5選</h2><div className="space-y-8">{studios.map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
 
         <section className="py-16 bg-white" id="price-market">

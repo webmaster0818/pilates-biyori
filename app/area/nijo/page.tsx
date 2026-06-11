@@ -417,7 +417,7 @@ export default function NijoPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="二条" />
+        <TableOfContents areaName="二条" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

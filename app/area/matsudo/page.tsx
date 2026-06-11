@@ -417,7 +417,7 @@ export default function MatsudoPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="松戸" />
+        <TableOfContents areaName="松戸" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

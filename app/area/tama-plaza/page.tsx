@@ -6,13 +6,14 @@ import { RelatedAreas } from '@/components/RelatedAreas'
 import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
+import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 
 export const metadata = {
-  title: '【2026最新】ピラティスたまプラーザおすすめ5選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年6月最新】ピラティスたまプラーザおすすめ5選！料金・体験レッスン・マシン対応を比較！',
   description: 'たまプラーザエリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,たまプラーザ,青葉区,横浜市,神奈川,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -159,7 +160,7 @@ export default function TamaPlazaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="たまプラーザ" />
+        <TableOfContents areaName="たまプラーザ" studioNames={studios.map((s) => s.name)} />
 
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -185,6 +186,7 @@ export default function TamaPlazaPage() {
         </section>
 
         <PriceComparisonTable studios={studios} areaName="たまプラーザ" />
+        <AreaMarketComparison studios={studios} areaName="たまプラーザ" />
 
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">

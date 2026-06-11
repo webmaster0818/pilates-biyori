@@ -311,7 +311,7 @@ export default function HakataPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="博多" />
+        <TableOfContents areaName="博多" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

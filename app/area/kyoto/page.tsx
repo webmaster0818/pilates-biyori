@@ -364,7 +364,7 @@ export default function KyotoPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="京都" />
+        <TableOfContents areaName="京都" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

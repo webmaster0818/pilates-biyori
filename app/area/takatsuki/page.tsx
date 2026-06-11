@@ -6,13 +6,14 @@ import { RelatedAreas } from '@/components/RelatedAreas'
 import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
+import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス高槻おすすめ6選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年6月最新】ピラティス高槻おすすめ6選！料金・体験レッスン・マシン対応を比較！',
   description: '高槻エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。JR高槻駅・阪急高槻市駅から通いやすいスタジオが見つかります。',
   keywords: 'ピラティス,高槻,高槻市,大阪,京都,ベッドタウン,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -184,7 +185,7 @@ export default function TakatsukiPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="高槻" />
+        <TableOfContents areaName="高槻" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">
@@ -213,6 +214,7 @@ export default function TakatsukiPage() {
         </section>
 
         <PriceComparisonTable studios={studios} areaName="高槻" />
+        <AreaMarketComparison studios={studios} areaName="高槻" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">

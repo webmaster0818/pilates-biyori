@@ -311,7 +311,7 @@ export default function KitaojiPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="北大路" />
+        <TableOfContents areaName="北大路" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

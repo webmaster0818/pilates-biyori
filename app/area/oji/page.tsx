@@ -311,7 +311,7 @@ export default function OjiPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="王子" />
+        <TableOfContents areaName="王子" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

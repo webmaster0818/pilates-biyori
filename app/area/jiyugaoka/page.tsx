@@ -364,7 +364,7 @@ export default function JiyugaokaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="自由が丘" />
+        <TableOfContents areaName="自由が丘" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

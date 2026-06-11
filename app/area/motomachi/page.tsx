@@ -417,7 +417,7 @@ export default function MotomachiPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="元町" />
+        <TableOfContents areaName="元町" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

@@ -521,7 +521,7 @@ export default async function OkayamaAreaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="岡山" />
+        <TableOfContents areaName="岡山" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

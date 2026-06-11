@@ -364,7 +364,7 @@ export default function TakamatsuPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="高松" />
+        <TableOfContents areaName="高松" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

@@ -5,9 +5,10 @@ interface TocItem {
 
 interface TableOfContentsProps {
   areaName: string
+  studioNames?: string[]
 }
 
-export function TableOfContents({ areaName }: TableOfContentsProps) {
+export function TableOfContents({ areaName, studioNames }: TableOfContentsProps) {
   const items: TocItem[] = [
     { id: 'studios', title: `${areaName}のおすすめピラティススタジオ` },
     { id: 'kodawari', title: 'こだわりから探す' },
@@ -34,12 +35,28 @@ export function TableOfContents({ areaName }: TableOfContentsProps) {
                 <span className="text-warm-400 font-light min-w-[1.5rem]">
                   {String(index + 1).padStart(2, '0')}
                 </span>
-                <a
-                  href={`#${item.id}`}
-                  className="text-warm-700 hover:text-warm-900 hover:underline transition flex-1"
-                >
-                  {item.title}
-                </a>
+                <div className="flex-1">
+                  <a
+                    href={`#${item.id}`}
+                    className="text-warm-700 hover:text-warm-900 hover:underline transition"
+                  >
+                    {item.title}
+                  </a>
+                  {item.id === 'studios' && studioNames && studioNames.length > 0 && (
+                    <ul className="mt-1.5 space-y-1">
+                      {studioNames.map((name, i) => (
+                        <li key={name}>
+                          <a
+                            href={`#studio-${i + 1}`}
+                            className="text-xs text-warm-600 hover:text-warm-900 hover:underline transition"
+                          >
+                            {i + 1}. {name}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
               </li>
             ))}
           </ol>

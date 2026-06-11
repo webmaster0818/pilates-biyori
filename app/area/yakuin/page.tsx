@@ -312,7 +312,7 @@ export default function YakuinPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="薬院" />
+        <TableOfContents areaName="薬院" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

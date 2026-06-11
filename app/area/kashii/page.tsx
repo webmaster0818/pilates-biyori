@@ -81,7 +81,7 @@ export default function Page() {
           </div>
         </section>
 
-        <TableOfContents areaName="香椎" />
+        <TableOfContents areaName="香椎" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

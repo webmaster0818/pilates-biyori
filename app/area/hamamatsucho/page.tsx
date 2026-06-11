@@ -364,7 +364,7 @@ export default function HamamatsuchoPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="浜松町" />
+        <TableOfContents areaName="浜松町" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

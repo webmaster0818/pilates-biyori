@@ -307,7 +307,7 @@ export default function KoshigayaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="越谷" />
+        <TableOfContents areaName="越谷" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

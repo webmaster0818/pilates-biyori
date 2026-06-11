@@ -309,7 +309,7 @@ export default function MusashikoyamaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="武蔵小山" />
+        <TableOfContents areaName="武蔵小山" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

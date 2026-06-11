@@ -364,7 +364,7 @@ export default function GotandaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="五反田" />
+        <TableOfContents areaName="五反田" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

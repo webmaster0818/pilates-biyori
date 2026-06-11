@@ -363,7 +363,7 @@ export default function TsukubaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="つくば" />
+        <TableOfContents areaName="つくば" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

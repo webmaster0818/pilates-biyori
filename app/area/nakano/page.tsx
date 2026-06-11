@@ -6,13 +6,14 @@ import { RelatedAreas } from '@/components/RelatedAreas'
 import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
+import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス中野おすすめ12選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年6月最新】ピラティス中野おすすめ12選！料金・体験レッスン・マシン対応を比較！',
   description: '中野エリアのおすすめピラティススタジオ12選を徹底比較。マシンピラティス、マットピラティス、パーソナル、グループレッスン、体験レッスン、料金相場、選び方まで完全ガイド。',
   keywords: 'ピラティス,中野,東京,スタジオ,おすすめ,マシンピラティス,マットピラティス,パーソナル,体験レッスン,料金,比較',
 }
@@ -638,7 +639,7 @@ export default function NakanoPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="中野" />
+        <TableOfContents areaName="中野" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">
@@ -696,6 +697,7 @@ export default function NakanoPage() {
         </section>
 
         <PriceComparisonTable studios={studios} areaName="中野" />
+        <AreaMarketComparison studios={studios} areaName="中野" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">

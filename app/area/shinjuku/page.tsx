@@ -6,13 +6,14 @@ import { RelatedAreas } from '@/components/RelatedAreas'
 import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
+import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス新宿おすすめ12選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年6月最新】ピラティス新宿おすすめ12選！料金・体験レッスン・マシン対応を比較！',
   description: '【2026年4月最新】新宿のおすすめピラティススタジオ12選を徹底比較。グループ月4回9,625円〜、パーソナル30分4,400円〜の料金相場、マシン専門・女性専用・体験無料のスタジオ情報、選び方の注意点まで完全網羅。',
   keywords: 'ピラティス,新宿,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -737,7 +738,7 @@ export default function ShinjukuPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="新宿" />
+        <TableOfContents areaName="新宿" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">
@@ -802,6 +803,7 @@ export default function ShinjukuPage() {
         </section>
 
         <PriceComparisonTable studios={studios} areaName="新宿" />
+        <AreaMarketComparison studios={studios} areaName="新宿" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">

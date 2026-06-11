@@ -183,7 +183,7 @@ export default function SuitaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="吹田" />
+        <TableOfContents areaName="吹田" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

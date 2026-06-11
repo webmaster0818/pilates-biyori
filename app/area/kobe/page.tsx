@@ -470,7 +470,7 @@ export default async function KobeAreaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="神戸" />
+        <TableOfContents areaName="神戸" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

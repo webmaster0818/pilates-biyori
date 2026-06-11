@@ -410,7 +410,7 @@ export default function OchanomizuPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="御茶ノ水・神保町" />
+        <TableOfContents areaName="御茶ノ水・神保町" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

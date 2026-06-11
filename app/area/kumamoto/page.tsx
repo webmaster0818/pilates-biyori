@@ -364,7 +364,7 @@ export default function KumamotoPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="熊本" />
+        <TableOfContents areaName="熊本" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

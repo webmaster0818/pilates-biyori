@@ -523,7 +523,7 @@ export default function ShizuokaAreaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="静岡" />
+        <TableOfContents areaName="静岡" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

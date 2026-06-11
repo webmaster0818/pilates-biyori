@@ -364,7 +364,7 @@ export default function KyotoStationPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="京都駅" />
+        <TableOfContents areaName="京都駅" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

@@ -6,11 +6,12 @@ import { RelatedAreas } from '@/components/RelatedAreas'
 import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
+import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 export const metadata = {
-  title: '【2026最新】ピラティス茨木おすすめ5選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年6月最新】ピラティス茨木おすすめ5選！料金・体験レッスン・マシン対応を比較！',
   description: '茨木エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。JR茨木駅・阪急茨木市駅周辺の初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,茨木,茨木市,大阪,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -161,7 +162,7 @@ export default function IbarakiPage() {
             </nav>
           </div>
         </section>
-        <TableOfContents areaName="茨木" />
+        <TableOfContents areaName="茨木" studioNames={studios.map((s) => s.name)} />
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p>
@@ -185,6 +186,7 @@ export default function IbarakiPage() {
           </div>
         </section>
         <PriceComparisonTable studios={studios} areaName="茨木" />
+        <AreaMarketComparison studios={studios} areaName="茨木" />
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">茨木のおすすめピラティススタジオ5選</h2>

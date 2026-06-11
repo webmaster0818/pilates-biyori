@@ -364,7 +364,7 @@ export default function YurakuchoPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="有楽町" />
+        <TableOfContents areaName="有楽町" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

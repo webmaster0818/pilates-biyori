@@ -841,7 +841,7 @@ export default function OkinawaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="沖縄" />
+        <TableOfContents areaName="沖縄" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

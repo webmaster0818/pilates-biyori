@@ -308,7 +308,7 @@ export default function GakugeiDaigakuPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="学芸大学" />
+        <TableOfContents areaName="学芸大学" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

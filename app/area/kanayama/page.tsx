@@ -417,7 +417,7 @@ export default function KanayamaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="金山" />
+        <TableOfContents areaName="金山" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

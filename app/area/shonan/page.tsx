@@ -363,7 +363,7 @@ export default function ShonanPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="湘南・辻堂" />
+        <TableOfContents areaName="湘南・辻堂" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

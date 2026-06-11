@@ -446,7 +446,7 @@ export default function OgikuboAreaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="荻窪" />
+        <TableOfContents areaName="荻窪" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

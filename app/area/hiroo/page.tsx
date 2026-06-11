@@ -364,7 +364,7 @@ export default function HirooPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="広尾" />
+        <TableOfContents areaName="広尾" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

@@ -185,7 +185,7 @@ export default function AzabujubanPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="麻布十番" />
+        <TableOfContents areaName="麻布十番" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

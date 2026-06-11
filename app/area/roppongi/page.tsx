@@ -6,13 +6,14 @@ import { RelatedAreas } from '@/components/RelatedAreas'
 import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
+import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス六本木おすすめ12選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年6月最新】ピラティス六本木おすすめ12選！料金・体験レッスン・マシン対応を比較！',
   description: '【2026年4月最新】六本木のおすすめピラティススタジオ12選を徹底比較。グループ月4回9,625円〜、パーソナル1回4,400円〜の料金相場、女性専用・マシン充実のスタジオ情報、選び方の注意点まで完全網羅。',
   keywords: 'ピラティス,六本木,東京,港区,スタジオ,おすすめ,マシンピラティス,パーソナル,体験レッスン,料金,比較',
 }
@@ -473,6 +474,7 @@ export default function RoppongiPage() {
         </section>
 
         <PriceComparisonTable studios={studios} areaName="六本木" />
+        <AreaMarketComparison studios={studios} areaName="六本木" />
         <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">六本木のおすすめピラティススタジオ12選</h2><div className="space-y-8">{studios.map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
         <section className="py-16 bg-white"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">目的別おすすめスタジオ</h2><div className="grid grid-cols-1 md:grid-cols-3 gap-8"><div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3><p className="text-warm-600 text-sm mb-4">月額1万円前後から通えるスタジオ。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• zen place pilates（マット月4回 9,625円〜）</li><li className="text-warm-700">• CLUB PILATES（月4回 10,890円〜）</li><li className="text-warm-700">• ピラティスK（月4回 11,220円〜）</li></ul></div><div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル専門</h3><p className="text-warm-600 text-sm mb-4">マンツーマンで丁寧な指導を受けたい方に。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• STUDIO IVY（1回 6,500円〜）</li><li className="text-warm-700">• All Present Pilates（1回 6,600円〜）</li><li className="text-warm-700">• スタジオMiiA（プライベート専門）</li><li className="text-warm-700">• BLC Personal Gym（1回 9,000円〜）</li><li className="text-warm-700">• ELEMENT（30分 月4回 22,000円）</li></ul></div><div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">女性専用スタジオ</h3><p className="text-warm-600 text-sm mb-4">女性だけの安心空間でトレーニング。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• ピラティスK（月4回 11,220円〜）</li><li className="text-warm-700">• Rintosull（LAVA系列）</li><li className="text-warm-700">• ピラティスミラー（30分 4,400円〜）</li></ul></div></div></div></section>
         <section className="py-16 bg-warm-50"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">おすすめの期間・頻度</h2><div className="bg-white rounded-lg p-8 border border-warm-200"><h3 className="text-xl font-bold text-warm-900 mb-4">初心者の方</h3><p className="text-warm-600 leading-relaxed mb-6">週1〜2回からスタート。最低2〜3ヶ月継続で効果を実感できます。</p><h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイク目的の方</h3><p className="text-warm-600 leading-relaxed mb-6">週2〜3回がおすすめ。3〜6ヶ月で目に見える変化が期待できます。</p><h3 className="text-xl font-bold text-warm-900 mb-4">健康管理目的の方</h3><p className="text-warm-600 leading-relaxed">週1回のペースで無理なく継続しましょう。</p></div></div></section>

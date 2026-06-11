@@ -6,13 +6,14 @@ import { RelatedAreas } from '@/components/RelatedAreas'
 import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
+import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス新橋おすすめ12選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年6月最新】ピラティス新橋おすすめ12選！料金・体験レッスン・マシン対応を比較！',
   description: '新橋・銀座エリアのおすすめピラティススタジオ12選を徹底比較。マシンピラティス、パーソナル、女性専用、24時間セルフまで網羅。料金相場・体験レッスン・選び方を完全ガイド。JR新橋駅・銀座線・都営浅草線沿線で仕事帰りに通えるスタジオが見つかります。',
   keywords: 'ピラティス,新橋,銀座,港区,スタジオ,おすすめ,マシンピラティス,パーソナル,女性専用,体験レッスン,料金,比較',
 }
@@ -696,6 +697,7 @@ export default function ShimbashiPage() {
         </section>
 
         <PriceComparisonTable studios={studios} areaName="新橋" />
+        <AreaMarketComparison studios={studios} areaName="新橋" />
 
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">

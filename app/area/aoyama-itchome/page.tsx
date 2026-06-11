@@ -470,7 +470,7 @@ export default function AoyamaItchomePage() {
           </div>
         </section>
 
-        <TableOfContents areaName="青山一丁目" />
+        <TableOfContents areaName="青山一丁目" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

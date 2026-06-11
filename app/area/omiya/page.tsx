@@ -522,7 +522,7 @@ export default async function OmiyaAreaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="大宮" />
+        <TableOfContents areaName="大宮" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

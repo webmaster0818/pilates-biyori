@@ -365,7 +365,7 @@ export default function MitakaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="三鷹" />
+        <TableOfContents areaName="三鷹" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

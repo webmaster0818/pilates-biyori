@@ -335,7 +335,7 @@ export default function GinzaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="銀座" />
+        <TableOfContents areaName="銀座" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

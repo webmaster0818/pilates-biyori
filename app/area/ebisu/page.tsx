@@ -523,7 +523,7 @@ export default function EbisuPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="恵比寿" />
+        <TableOfContents areaName="恵比寿" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

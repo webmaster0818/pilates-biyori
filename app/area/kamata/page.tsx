@@ -164,7 +164,7 @@ export default function KamataPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="蒲田" />
+        <TableOfContents areaName="蒲田" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

@@ -468,7 +468,7 @@ export default function SeijoGakuenmaeAreaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="成城学園前" />
+        <TableOfContents areaName="成城学園前" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

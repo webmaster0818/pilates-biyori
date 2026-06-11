@@ -517,7 +517,7 @@ export default function FukuokaAreaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="福岡" />
+        <TableOfContents areaName="福岡" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

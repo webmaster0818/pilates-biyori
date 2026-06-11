@@ -364,7 +364,7 @@ export default function KichijojiPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="吉祥寺" />
+        <TableOfContents areaName="吉祥寺" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

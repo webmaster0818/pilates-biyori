@@ -523,7 +523,7 @@ export default function YokohamaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="横浜" />
+        <TableOfContents areaName="横浜" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

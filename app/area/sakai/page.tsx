@@ -160,7 +160,7 @@ export default function SakaiPage() {
             </nav>
           </div>
         </section>
-        <TableOfContents areaName="堺" />
+        <TableOfContents areaName="堺" studioNames={studios.map((s) => s.name)} />
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p>

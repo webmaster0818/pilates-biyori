@@ -364,7 +364,7 @@ export default function GionShijoPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="祇園四条" />
+        <TableOfContents areaName="祇園四条" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

@@ -202,7 +202,7 @@ export default function KyobashiOsakaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="京橋（大阪）" />
+        <TableOfContents areaName="京橋（大阪）" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

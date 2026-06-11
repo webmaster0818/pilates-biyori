@@ -364,7 +364,7 @@ export default function ToranomonPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="虎ノ門" />
+        <TableOfContents areaName="虎ノ門" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

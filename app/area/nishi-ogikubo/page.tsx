@@ -444,7 +444,7 @@ export default function NishiOgikuboAreaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="西荻窪" />
+        <TableOfContents areaName="西荻窪" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

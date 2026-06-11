@@ -364,7 +364,7 @@ export default function KatsuraPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="桂" />
+        <TableOfContents areaName="桂" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

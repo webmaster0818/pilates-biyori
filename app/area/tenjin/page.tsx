@@ -311,7 +311,7 @@ export default function TenjinPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="天神" />
+        <TableOfContents areaName="天神" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

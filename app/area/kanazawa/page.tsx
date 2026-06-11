@@ -364,7 +364,7 @@ export default function KanazawaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="金沢" />
+        <TableOfContents areaName="金沢" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

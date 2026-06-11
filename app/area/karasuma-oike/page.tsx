@@ -364,7 +364,7 @@ export default function KarasumaOikePage() {
           </div>
         </section>
 
-        <TableOfContents areaName="烏丸御池" />
+        <TableOfContents areaName="烏丸御池" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

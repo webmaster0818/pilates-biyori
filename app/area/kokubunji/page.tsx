@@ -6,13 +6,14 @@ import { RelatedAreas } from '@/components/RelatedAreas'
 import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
+import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス国分寺おすすめ5選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年6月最新】ピラティス国分寺おすすめ5選！料金・体験レッスン・マシン対応を比較！',
   description: '国分寺エリアのおすすめピラティススタジオ5選を徹底比較。pilates K国分寺店・zen place pilates国分寺・ピラティスミラー国分寺・URBAN CLASSIC PILATES国分寺店・Rintosull国分寺店など実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
   keywords: 'ピラティス,国分寺,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,pilates K,zen place,ピラティスミラー,URBAN CLASSIC',
 }
@@ -365,7 +366,7 @@ export default function KokubunjiPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="国分寺" />
+        <TableOfContents areaName="国分寺" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">
@@ -412,6 +413,7 @@ export default function KokubunjiPage() {
         </section>
 
         <PriceComparisonTable studios={studios} areaName="国分寺" />
+        <AreaMarketComparison studios={studios} areaName="国分寺" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">

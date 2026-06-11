@@ -215,7 +215,7 @@ export default function ShirokanedaiPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="白金高輪" />
+        <TableOfContents areaName="白金高輪" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

@@ -364,7 +364,7 @@ export default function KagurazakaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="神楽坂" />
+        <TableOfContents areaName="神楽坂" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

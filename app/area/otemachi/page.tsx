@@ -280,7 +280,7 @@ export default function OtemachiPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="大手町" />
+        <TableOfContents areaName="大手町" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

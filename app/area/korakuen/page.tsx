@@ -364,7 +364,7 @@ export default function KorakuenPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="後楽園" />
+        <TableOfContents areaName="後楽園" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

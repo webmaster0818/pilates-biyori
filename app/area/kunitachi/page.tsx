@@ -360,7 +360,7 @@ export default function KunitachiPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="国立" />
+        <TableOfContents areaName="国立" studioNames={studios.map((s) => s.name)} />
 
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">

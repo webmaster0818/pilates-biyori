@@ -364,7 +364,7 @@ export default function HonmachiPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="本町" />
+        <TableOfContents areaName="本町" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

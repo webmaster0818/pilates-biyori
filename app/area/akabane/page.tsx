@@ -6,13 +6,14 @@ import { RelatedAreas } from '@/components/RelatedAreas'
 import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
+import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス赤羽おすすめ4選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年6月最新】ピラティス赤羽おすすめ4選！料金・体験レッスン・マシン対応を比較！',
   description: '赤羽エリアのおすすめピラティススタジオ4選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。',
   keywords: 'ピラティス,赤羽,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -216,7 +217,7 @@ export default function AkabanePage() {
           </div>
         </section>
 
-        <TableOfContents areaName="赤羽" />
+        <TableOfContents areaName="赤羽" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">
@@ -270,6 +271,7 @@ export default function AkabanePage() {
         </section>
 
         <PriceComparisonTable studios={studios} areaName="赤羽" />
+        <AreaMarketComparison studios={studios} areaName="赤羽" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">

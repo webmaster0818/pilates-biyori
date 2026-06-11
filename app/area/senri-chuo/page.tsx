@@ -164,7 +164,7 @@ export default function SenriChuoPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="千里中央" />
+        <TableOfContents areaName="千里中央" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

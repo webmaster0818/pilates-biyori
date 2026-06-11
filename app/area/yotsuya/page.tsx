@@ -174,7 +174,7 @@ export default function YotsuyaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="四ツ谷" />
+        <TableOfContents areaName="四ツ谷" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

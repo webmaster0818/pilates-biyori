@@ -523,7 +523,7 @@ export default function AkasakaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="赤坂" />
+        <TableOfContents areaName="赤坂" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

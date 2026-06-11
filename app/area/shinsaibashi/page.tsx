@@ -288,7 +288,7 @@ export default function ShinsaibashiPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="心斎橋" />
+        <TableOfContents areaName="心斎橋" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

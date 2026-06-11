@@ -470,7 +470,7 @@ export default function YoyogiPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="代々木" />
+        <TableOfContents areaName="代々木" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

@@ -292,7 +292,7 @@ export default function ToritsudaigakuPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="都立大学" />
+        <TableOfContents areaName="都立大学" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

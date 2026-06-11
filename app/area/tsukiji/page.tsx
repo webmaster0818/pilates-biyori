@@ -417,7 +417,7 @@ export default function TsukijiPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="築地" />
+        <TableOfContents areaName="築地" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

@@ -288,7 +288,7 @@ export default function NambaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="なんば" />
+        <TableOfContents areaName="なんば" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

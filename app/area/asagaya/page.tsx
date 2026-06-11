@@ -421,7 +421,7 @@ export default function AsagayaAreaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="阿佐ヶ谷" />
+        <TableOfContents areaName="阿佐ヶ谷" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

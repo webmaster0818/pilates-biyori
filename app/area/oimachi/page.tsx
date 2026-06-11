@@ -363,7 +363,7 @@ export default function OimachiPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="大井町" />
+        <TableOfContents areaName="大井町" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">

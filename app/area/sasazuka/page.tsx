@@ -6,13 +6,14 @@ import { RelatedAreas } from '@/components/RelatedAreas'
 import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
+import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス笹塚おすすめ5選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年6月最新】ピラティス笹塚おすすめ5選！料金・体験レッスン・マシン対応を比較！',
   description: '笹塚エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,笹塚,渋谷区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -365,7 +366,7 @@ export default function SasazukaPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="笹塚" />
+        <TableOfContents areaName="笹塚" studioNames={studios.map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">
@@ -423,6 +424,7 @@ export default function SasazukaPage() {
         </section>
 
         <PriceComparisonTable studios={studios} areaName="笹塚" />
+        <AreaMarketComparison studios={studios} areaName="笹塚" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">
