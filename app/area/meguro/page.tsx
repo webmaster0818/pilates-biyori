@@ -12,8 +12,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス目黒おすすめ5選！人気スタジオの料金プランを簡単比較！',
-  description: '目黒エリアのおすすめピラティススタジオ5選を徹底比較。zen place pilates、the SILK、ピラティスミラー、Pilates Legacy Studio、STUDIO IVYなど実在スタジオの料金・体験レッスン・アクセスを完全ガイド。グループ・女性専用・完全パーソナルまで。',
+  title: '【2026最新】ピラティス目黒おすすめ7選！人気スタジオの料金プランを簡単比較！',
+  description: '目黒エリアのおすすめピラティススタジオ7選を徹底比較。zen place pilates、the SILK、ピラティスミラー、Pilates Legacy Studio、STUDIO IVYなど実在スタジオの料金・体験レッスン・アクセスを完全ガイド。グループ・女性専用・完全パーソナルまで。',
   keywords: 'ピラティス,目黒,中目黒,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place pilates,the SILK,ピラティスミラー,Pilates Legacy Studio,STUDIO IVY',
 }
 
@@ -283,6 +283,28 @@ const studios = [
       facilities: ['リフォーマーマシン', '完全個室', '更衣室'],
     },
   },
+  {
+    name: 'Dr.ピラティス 目黒店',
+    officialUrl: 'https://drpilates.drtraining.jp/',
+    image: '/images/studios/dr-pilates.webp',
+    price: '月4回(45分) 29,700円〜 / 月4回(60分) 39,600円〜',
+    trial: '体験トレーニング 7,100円（無料キャンペーン実施店舗あり）',
+    features: ['マンツーマン（パーソナル）', 'マシン・マット両対応', '医師推奨パーソナルジムNo.1受賞'],
+    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオ。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せる。目黒エリア（詳細は公式サイト参照）。',
+    access: '目黒エリア（詳細は公式サイト参照）',
+    address: '東京都（詳細は公式サイト参照）',
+  },
+  {
+    name: 'the SILK 目黒店',
+    officialUrl: 'https://the-silk.co.jp/',
+    image: '/images/studios/the-silk.webp',
+    price: 'グループ月4回(Standard4) 14,370〜15,280円 / 通い放題 19,980〜22,280円（別途施設利用料月700円）/ パーソナル月2回 22,000円〜',
+    trial: '体験レッスン 無料',
+    features: ['女性専用', 'マシンピラティス専門', 'グループ＋パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴。目黒駅から徒歩2分。',
+    access: '目黒駅から徒歩2分',
+    address: '東京都品川区上大崎二丁目12番2号 ミズホビル2階',
+  },
 ]
 
 const faqs = [
@@ -336,7 +358,7 @@ export default function MeguroPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス目黒おすすめ5選！
+              【2026最新】ピラティス目黒おすすめ7選！
               <br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
@@ -371,7 +393,7 @@ export default function MeguroPage() {
               目黒はJR山手線・東急目黒線・南北線・三田線が乗り入れるターミナル駅で、渋谷まで約5分、品川まで約10分という好アクセスのエリア。おしゃれなカフェや飲食店が並ぶ目黒川沿いも魅力の街です。そんな目黒エリアには、大手チェーンのグループレッスンから完全プライベートパーソナルまで、多彩なピラティススタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、目黒エリアでおすすめの実在するピラティススタジオ5選をまとめました。
+              そこでこの記事では、目黒エリアでおすすめの実在するピラティススタジオ7選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -408,7 +430,7 @@ export default function MeguroPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              目黒のおすすめピラティススタジオ5選
+              目黒のおすすめピラティススタジオ7選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (
@@ -692,7 +714,7 @@ export default function MeguroPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は目黒エリアのおすすめピラティススタジオ5選をご紹介しました。
+              今回は目黒エリアのおすすめピラティススタジオ7選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               目黒はJR山手線をはじめ複数路線が乗り入れるターミナル駅で、アクセス抜群のエリア。全国150店舗相互利用のzen place pilates（月4回10,450円〜・グループ体験1,000円）、女性専用・音楽レッスンのthe SILK（月3回12,980円〜・体験無料）、コナミスポーツ運営のピラティスミラー（月6回11,000円・30分レッスン）、少人数制のPilates Legacy Studio（駅徒歩2分）、完全パーソナルのSTUDIO IVY（月2回15,000円〜・オーダーメイド）と、それぞれ特徴の異なるスタジオが揃っています。

@@ -389,6 +389,17 @@ const studios = [
       facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'マシン完備'],
     },
   },
+  {
+    name: '24/7ピラティス 川崎店',
+    officialUrl: 'https://247-sports.jp/pilates/',
+    image: '/images/studios/247-pilates.webp',
+    price: '月2回 14,500円〜 / 月4回 27,000円〜 / 月8回 52,000円〜（税込）',
+    trial: '体験レッスン 無料（50分・手ぶらOK）',
+    features: ['女性専用', '完全個室パーソナル', '入会金不要・月謝制'],
+    description: '完全個室・マンツーマンの女性専用パーソナルピラティススタジオ。入会金不要の月謝制で、一人ひとりに合わせたオリジナルプログラムを提供。川崎駅から徒歩7分。',
+    access: '川崎駅から徒歩7分',
+    address: '神奈川県川崎市川崎区小川町2-7-8 昼間ビルIVY TOWER 9階',
+  },
 ]
 
 const faqs = [

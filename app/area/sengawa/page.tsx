@@ -13,8 +13,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026年6月最新】ピラティス仙川おすすめ5選！料金・体験レッスン・マシン対応を比較！',
-  description: '仙川エリアのおすすめピラティススタジオ5選を徹底比較。URBAN CLASSIC PILATES仙川・ピラティスミラー仙川・CLUB PILATES仙川・PERSONAL TRAINING STUDIO U・zen place pilatesなど実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
+  title: '【2026年6月最新】ピラティス仙川おすすめ6選！料金・体験レッスン・マシン対応を比較！',
+  description: '仙川エリアのおすすめピラティススタジオ6選を徹底比較。URBAN CLASSIC PILATES仙川・ピラティスミラー仙川・CLUB PILATES仙川・PERSONAL TRAINING STUDIO U・zen place pilatesなど実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
   keywords: 'ピラティス,仙川,東京,調布,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,URBAN CLASSIC,CLUB PILATES,ピラティスミラー',
 }
 
@@ -125,6 +125,17 @@ const studios = [
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'] },
     basicInfo: { hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00（店舗により異なる）', closed: '不定休', facilities: ['リフォーマー', 'チェア', 'バレル', 'シャワー', 'ロッカー'] },
   },
+  {
+    name: 'Pilates Mee仙川店',
+    officialUrl: 'https://m-pilates.com/',
+    image: '/images/studios/pilates-mee.webp',
+    price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
+    trial: '体験 9,800円（キャンペーンで0円・2026/6/30まで）',
+    features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。仙川駅から徒歩4分。',
+    access: '仙川駅から徒歩4分',
+    address: '東京都調布市仙川町2丁目18-8 ハイツ斉藤202',
+  },
 ]
 
 const faqs = [
@@ -154,7 +165,7 @@ export default function SengawaPage() {
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月21日</p>
-            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス仙川おすすめ5選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1>
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス仙川おすすめ6選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1>
           </div>
         </section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">仙川</span></nav></div></section>
@@ -168,7 +179,7 @@ export default function SengawaPage() {
             <p className="text-warm-600 leading-relaxed mb-6">「仙川で人気のピラティススタジオを知りたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
             <p className="text-warm-600 leading-relaxed mb-8">仙川は京王線沿線で、新宿まで約20分の好アクセスエリア。桐朋学園や白百合女子大学があり、文化的な雰囲気が漂う街です。駅前にはクイーンズ伊勢丹や島忠ホームズなど商業施設も充実。そんな仙川には、世界最大級のCLUB PILATESから予約不要のURBAN CLASSICまで、多彩なスタジオが揃っています。</p>
-            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、仙川エリアでおすすめの実在するピラティススタジオ5選をまとめました。</p>
+            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、仙川エリアでおすすめの実在するピラティススタジオ6選をまとめました。</p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
               <ul className="space-y-2 text-warm-700">
@@ -184,7 +195,7 @@ export default function SengawaPage() {
         </section>
         <PriceComparisonTable studios={studios} areaName="仙川" />
         <AreaMarketComparison studios={studios} areaName="仙川" />
-        <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">仙川のおすすめピラティススタジオ5選</h2><div className="space-y-8">{studios.map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
+        <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">仙川のおすすめピラティススタジオ6選</h2><div className="space-y-8">{studios.map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
 
         <section className="py-16 bg-white" id="price-market">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -268,7 +279,7 @@ export default function SengawaPage() {
         <section className="py-16 bg-warm-50" id="summary">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
-            <p className="text-warm-600 leading-relaxed mb-6">今回は仙川エリアのおすすめピラティススタジオ5選をご紹介しました。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">今回は仙川エリアのおすすめピラティススタジオ6選をご紹介しました。</p>
             <p className="text-warm-600 leading-relaxed mb-6">仙川は京王線沿線の中でもピラティススタジオの選択肢が豊富。URBAN CLASSIC PILATES仙川（予約不要・月4回8,580円）、ピラティスミラー仙川（コナミ運営・ミラー活用）、CLUB PILATES仙川（全米最大級・4段階レベル分け）、STUDIO U仙川（パーソナル×トレーニング）、zen place pilates（全店舗利用可能）と個性豊かなスタジオが揃っています。</p>
             <p className="text-warm-600 leading-relaxed mb-6">まずはzen placeの体験1,000円やURBAN CLASSICの体験レッスンから試してみましょう。</p>
             <p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p>

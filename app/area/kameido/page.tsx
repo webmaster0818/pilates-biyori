@@ -12,8 +12,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス亀戸おすすめ5選！人気スタジオの料金プランを簡単比較！',
-  description: '亀戸エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026最新】ピラティス亀戸おすすめ6選！人気スタジオの料金プランを簡単比較！',
+  description: '亀戸エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,亀戸,錦糸町,江東区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -283,6 +283,17 @@ const studios = [
       facilities: ['マット', 'ヨガマット', '更衣室'],
     },
   },
+  {
+    name: 'Pilates Mee亀戸店',
+    officialUrl: 'https://m-pilates.com/',
+    image: '/images/studios/pilates-mee.webp',
+    price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
+    trial: '体験 9,800円（キャンペーンで0円・2026/6/30まで）',
+    features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。亀戸駅から徒歩2分。',
+    access: '亀戸駅から徒歩2分',
+    address: '東京都江東区亀戸5丁目5-11 204号室',
+  },
 ]
 
 const faqs = [
@@ -347,7 +358,7 @@ export default function KameidoPage() {
               更新日 @2026年04月17日
             </p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス亀戸おすすめ5選！
+              【2026最新】ピラティス亀戸おすすめ6選！
               <br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
@@ -401,7 +412,7 @@ export default function KameidoPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、亀戸・錦糸町エリアでおすすめのピラティススタジオ5選をまとめました。
+              そこでこの記事では、亀戸・錦糸町エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">
@@ -442,7 +453,7 @@ export default function KameidoPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              亀戸のおすすめピラティススタジオ5選
+              亀戸のおすすめピラティススタジオ6選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (

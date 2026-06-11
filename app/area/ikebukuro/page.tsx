@@ -13,8 +13,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026年6月最新】ピラティス池袋おすすめ5選！料金・体験レッスン・マシン対応を比較！',
-  description: '【2026年4月最新】池袋のおすすめピラティススタジオ5選を徹底比較。グループ月4回10,450円〜、マシン専門・女性専用のスタジオ情報、料金相場・体験レッスンの流れまで完全網羅。',
+  title: '【2026年6月最新】ピラティス池袋おすすめ9選！料金・体験レッスン・マシン対応を比較！',
+  description: '【2026年4月最新】池袋のおすすめピラティススタジオ9選を徹底比較。グループ月4回10,450円〜、マシン専門・女性専用のスタジオ情報、料金相場・体験レッスンの流れまで完全網羅。',
   keywords: 'ピラティス,池袋,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -300,6 +300,39 @@ const studios = [
       facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'],
     },
   },
+  {
+    name: 'Dr.ピラティス 池袋店',
+    officialUrl: 'https://drpilates.drtraining.jp/',
+    image: '/images/studios/dr-pilates.webp',
+    price: '月4回(45分) 29,700円〜 / 月4回(60分) 39,600円〜',
+    trial: '体験トレーニング 7,100円（無料キャンペーン実施店舗あり）',
+    features: ['マンツーマン（パーソナル）', 'マシン・マット両対応', '医師推奨パーソナルジムNo.1受賞'],
+    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオ。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せる。池袋エリア（詳細は公式サイト参照）。',
+    access: '池袋エリア（詳細は公式サイト参照）',
+    address: '東京都（詳細は公式サイト参照）',
+  },
+  {
+    name: 'the SILK 池袋西口店',
+    officialUrl: 'https://the-silk.co.jp/',
+    image: '/images/studios/the-silk.webp',
+    price: 'グループ月4回(Standard4) 14,370〜15,280円 / 通い放題 19,980〜22,280円（別途施設利用料月700円）/ パーソナル月2回 22,000円〜',
+    trial: '体験レッスン 無料',
+    features: ['女性専用', 'マシンピラティス専門', 'グループ＋パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴。池袋駅から徒歩1分。',
+    access: '池袋駅から徒歩1分',
+    address: '東京都豊島区西池袋1-21-2 ハイブリッヂ西池袋6階',
+  },
+  {
+    name: '24/7ピラティス 池袋東口店',
+    officialUrl: 'https://247-sports.jp/pilates/',
+    image: '/images/studios/247-pilates.webp',
+    price: '月2回 14,500円〜 / 月4回 27,000円〜 / 月8回 52,000円〜（税込）',
+    trial: '体験レッスン 無料（50分・手ぶらOK）',
+    features: ['女性専用', '完全個室パーソナル', '入会金不要・月謝制'],
+    description: '完全個室・マンツーマンの女性専用パーソナルピラティススタジオ。入会金不要の月謝制で、一人ひとりに合わせたオリジナルプログラムを提供。東池袋駅から徒歩3分。',
+    access: '東池袋駅から徒歩3分',
+    address: '東京都豊島区東池袋4丁目29-12 サンフラット佐藤2F',
+  },
 ]
 
 const faqs = [
@@ -362,7 +395,7 @@ export default function IkebukuroPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス池袋おすすめ5選！<br className="hidden md:block" />
+              【2026最新】ピラティス池袋おすすめ9選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -405,7 +438,7 @@ export default function IkebukuroPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、池袋エリアでおすすめのピラティススタジオ5選をまとめました。
+              そこでこの記事では、池袋エリアでおすすめのピラティススタジオ9選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -445,7 +478,7 @@ export default function IkebukuroPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              池袋のおすすめピラティススタジオ5選
+              池袋のおすすめピラティススタジオ9選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (

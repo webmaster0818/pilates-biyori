@@ -12,8 +12,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス都立大学おすすめ4選！人気スタジオの料金プランを簡単比較！',
-  description: '都立大学エリアのおすすめピラティススタジオ4選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。',
+  title: '【2026最新】ピラティス都立大学おすすめ5選！人気スタジオの料金プランを簡単比較！',
+  description: '都立大学エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。',
   keywords: 'ピラティス,都立大学,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -227,6 +227,17 @@ const studios = [
       facilities: ['マシン完備', 'ロッカー', 'シャワー', 'パウダールーム'],
     },
   },
+  {
+    name: 'Pilates Mee都立大学店',
+    officialUrl: 'https://m-pilates.com/',
+    image: '/images/studios/pilates-mee.webp',
+    price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
+    trial: '体験 9,800円（キャンペーンで0円・2026/6/30まで）',
+    features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。都立大学駅から徒歩30秒。',
+    access: '都立大学駅から徒歩30秒',
+    address: '東京都目黒区平町1丁目26-17 301号室',
+  },
 ]
 
 const faqs = [
@@ -273,7 +284,7 @@ export default function ToritsudaigakuPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス都立大学おすすめ4選！<br className="hidden md:block" />
+              【2026最新】ピラティス都立大学おすすめ5選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -316,7 +327,7 @@ export default function ToritsudaigakuPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、東急東横線「都立大学駅」周辺でおすすめのピラティススタジオ4選をまとめました。
+              そこでこの記事では、東急東横線「都立大学駅」周辺でおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -351,7 +362,7 @@ export default function ToritsudaigakuPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              都立大学のおすすめピラティススタジオ4選
+              都立大学のおすすめピラティススタジオ5選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (
@@ -662,7 +673,7 @@ export default function ToritsudaigakuPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は都立大学のおすすめピラティススタジオ4選をご紹介しました。
+              今回は都立大学のおすすめピラティススタジオ5選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               都立大学は東急東横線沿線の閑静な住宅街で、自由が丘や中目黒にも近いエリア。zen placeのマット月4回9,625円〜から、noaのマシン専門、STUDIO IVYのパーソナル、コナミ運営のピラティスミラーまで、目的や予算に合わせて選べるスタジオが揃っています。

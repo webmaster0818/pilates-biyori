@@ -12,8 +12,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス梅田おすすめ15選！人気スタジオの料金プランを簡単比較！',
-  description: '【2026年4月最新】梅田のおすすめピラティススタジオ15選を徹底比較。グループ月4回13,200円〜の料金相場、マシン専門・女性専用のスタジオ情報、体験レッスンの持ち物まで完全網羅。',
+  title: '【2026最新】ピラティス梅田おすすめ9選！人気スタジオの料金プランを簡単比較！',
+  description: '【2026年4月最新】梅田のおすすめピラティススタジオ9選を徹底比較。グループ月4回13,200円〜の料金相場、マシン専門・女性専用のスタジオ情報、体験レッスンの持ち物まで完全網羅。',
   keywords: 'ピラティス,梅田,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -207,6 +207,39 @@ const studios = [
     description: 'ダンサー御用達の本格的なピラティススタジオ。梅田駅から徒歩5分。ダンサーやアスリートも通う質の高いレッスンが特徴。身体の使い方を根本から学べる本格的なプログラムで、美しい姿勢と柔軟な身体を手に入れられます。',
     access: '梅田駅から徒歩5分',
   },
+  {
+    name: 'Dr.ピラティス 梅田店',
+    officialUrl: 'https://drpilates.drtraining.jp/',
+    image: '/images/studios/dr-pilates.webp',
+    price: '月4回(45分) 29,700円〜 / 月4回(60分) 39,600円〜',
+    trial: '体験トレーニング 7,100円（無料キャンペーン実施店舗あり）',
+    features: ['マンツーマン（パーソナル）', 'マシン・マット両対応', '医師推奨パーソナルジムNo.1受賞'],
+    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオ。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せる。梅田エリア（詳細は公式サイト参照）。',
+    access: '梅田エリア（詳細は公式サイト参照）',
+    address: '大阪府（詳細は公式サイト参照）',
+  },
+  {
+    name: 'the SILK 大阪梅田店',
+    officialUrl: 'https://the-silk.co.jp/',
+    image: '/images/studios/the-silk.webp',
+    price: 'グループ月4回(Standard4) 14,370〜15,280円 / 通い放題 19,980〜22,280円（別途施設利用料月700円）/ パーソナル月2回 22,000円〜',
+    trial: '体験レッスン 無料',
+    features: ['女性専用', 'マシンピラティス専門', 'グループ＋パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴。梅田駅から徒歩3分。',
+    access: '梅田駅から徒歩3分',
+    address: '大阪府大阪市北区芝田1丁目4-14 芝田町ビル9階F・G室',
+  },
+  {
+    name: 'DAYS PILATES DAYS PILATES 梅田',
+    officialUrl: 'https://dayspilates.com/',
+    image: '/images/studios/days-pilates.webp',
+    price: '月3回 11,990円 / 月4回 12,860円 / 通い放題 17,350円（税込）',
+    trial: '初回体験 0円（通常5,500円）',
+    features: ['女性専用', 'マシンピラティス（リフォーマー）', 'グループレッスン中心'],
+    description: '女性専用のマシンピラティス（リフォーマー）グループレッスンスタジオ。リーズナブルな月額で通いやすいのが特徴。東梅田駅から徒歩2分。',
+    access: '東梅田駅から徒歩2分',
+    address: '大阪府大阪市北区太融寺町8-2 エーワンビル4階',
+  },
 ]
 
 const faqs = [
@@ -269,7 +302,7 @@ export default function UmedaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス梅田おすすめ15選！<br className="hidden md:block" />
+              【2026最新】ピラティス梅田おすすめ9選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -312,7 +345,7 @@ export default function UmedaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、梅田エリアでおすすめのピラティススタジオ15選をまとめました。
+              そこでこの記事では、梅田エリアでおすすめのピラティススタジオ9選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -351,7 +384,7 @@ export default function UmedaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              梅田のおすすめピラティススタジオ15選
+              梅田のおすすめピラティススタジオ9選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (

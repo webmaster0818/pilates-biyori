@@ -10,8 +10,8 @@ import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 export const metadata = {
-  title: '【2026最新】ピラティス春日部おすすめ5選！人気スタジオの料金プランを簡単比較！',
-  description: '春日部エリアのおすすめピラティススタジオ5選を徹底比較。Le Mieux（ルミュー）・さんはぴ 春日部店（2026年5月OPEN）・exeed pilates 春日部など実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
+  title: '【2026最新】ピラティス春日部おすすめ6選！人気スタジオの料金プランを簡単比較！',
+  description: '春日部エリアのおすすめピラティススタジオ6選を徹底比較。Le Mieux（ルミュー）・さんはぴ 春日部店（2026年5月OPEN）・exeed pilates 春日部など実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
   keywords: 'ピラティス,春日部,埼玉県春日部市,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -180,7 +180,18 @@ const studios = [
       closed: '不定休',
       facilities: ['リフォーマー', '更衣室', 'ロッカー'],
     },
-  }
+  },
+  {
+    name: 'Pilates Mee Life春日部店',
+    officialUrl: 'https://m-pilates.com/',
+    image: '/images/studios/pilates-mee.webp',
+    price: '5人制少人数 月4回 14,800円〜（税込）',
+    trial: '体験 9,800円（キャンペーンで0円・2026/6/30まで）',
+    features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。春日部駅から徒歩3分。',
+    access: '春日部駅から徒歩3分',
+    address: '埼玉県春日部市中央1丁目9-4 高元ビル5階A-1',
+  },
 ]
 
 const faqs = [
@@ -207,20 +218,20 @@ export default function KasukabePage() {
         { name: '春日部', url: 'https://pilates-biyori.com/area/kasukabe/' },
       ]} />
       <main className="pt-20 bg-white">
-        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年04月21日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス春日部おすすめ5選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1></div></section>
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年04月21日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス春日部おすすめ6選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1></div></section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">春日部</span></nav></div></section>
         <TableOfContents areaName="春日部" studioNames={studios.map((s) => s.name)} />
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p><p className="text-warm-600 leading-relaxed mb-6">Pilates-Biyori編集部です！</p><p className="text-warm-600 leading-relaxed mb-6">あなたは、</p><p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p><p className="text-warm-600 leading-relaxed mb-6">「春日部で人気のピラティススタジオを知りたい」</p><p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
             <p className="text-warm-600 leading-relaxed mb-8">春日部は東武スカイツリーライン・東武アーバンパークラインが利用でき、北千住まで東武スカイツリーラインで約30分の好アクセスエリア。東武スカイツリーラインと東武アーバンパークラインの2路線が利用可能。「クレヨンしんちゃん」の舞台として全国的に知られる街。近年は商業施設の充実でファミリー層に人気。そんな春日部エリアには、多彩なピラティススタジオが揃っています。</p>
-            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、春日部エリアでおすすめの実在するピラティススタジオ5選をまとめました。</p>
+            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、春日部エリアでおすすめの実在するピラティススタジオ6選をまとめました。</p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8"><h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2><ul className="space-y-2 text-warm-700"><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>春日部でピラティススタジオを探している</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>コスパの良いスタジオを知りたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>東武スカイツリーライン・東武アーバンパークライン沿線で通いやすいスタジオがいい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較したい</span></li></ul></div>
             <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
           </div>
         </section>
         <PriceComparisonTable studios={studios} areaName="春日部" />
-        <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">春日部のおすすめピラティススタジオ5選</h2><div className="space-y-8">{studios.map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
+        <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">春日部のおすすめピラティススタジオ6選</h2><div className="space-y-8">{studios.map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
 
         <section className="py-16 bg-white" id="price-market">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -262,7 +273,7 @@ export default function KasukabePage() {
 
         <section className="py-16 bg-white" id="faq"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">よくある質問</h2><div className="space-y-6">{faqs.map((faq, index) => (<div key={index} className="border border-warm-200 rounded-lg overflow-hidden"><details className="group"><summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition"><h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3><svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" /></svg></summary><div className="px-6 pb-6 text-warm-600 leading-relaxed">{faq.answer}</div></details></div>))}</div></div></section>
 
-        <section className="py-16 bg-warm-50" id="summary"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2><p className="text-warm-600 leading-relaxed mb-6">今回は春日部エリアのおすすめピラティススタジオ5選をご紹介しました。</p><p className="text-warm-600 leading-relaxed mb-6">春日部は東武スカイツリーライン・東武アーバンパークラインで北千住まで東武スカイツリーラインで約30分の好アクセスエリア。Le Mieux、さんはぴ 春日部店、exeed pilates 春日部など個性豊かなスタジオが揃っています。</p><p className="text-warm-600 leading-relaxed mb-6">まずは体験レッスンから始めてみましょう。</p><p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p></div></section>
+        <section className="py-16 bg-warm-50" id="summary"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2><p className="text-warm-600 leading-relaxed mb-6">今回は春日部エリアのおすすめピラティススタジオ6選をご紹介しました。</p><p className="text-warm-600 leading-relaxed mb-6">春日部は東武スカイツリーライン・東武アーバンパークラインで北千住まで東武スカイツリーラインで約30分の好アクセスエリア。Le Mieux、さんはぴ 春日部店、exeed pilates 春日部など個性豊かなスタジオが揃っています。</p><p className="text-warm-600 leading-relaxed mb-6">まずは体験レッスンから始めてみましょう。</p><p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p></div></section>
 
         <section className="py-16 bg-warm-800 text-white" id="contact"><div className="max-w-4xl mx-auto px-6 lg:px-8 text-center"><h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2><p className="text-warm-200 mb-8 leading-relaxed">まずは気軽に体験してみましょう。</p><Link href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded">おすすめスタジオ一覧に戻る</Link></div></section>
       </main>

@@ -12,8 +12,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス越谷おすすめ4選！人気スタジオの料金プランを簡単比較！',
-  description: '越谷エリアのおすすめピラティススタジオ4選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026最新】ピラティス越谷おすすめ5選！人気スタジオの料金プランを簡単比較！',
+  description: '越谷エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,越谷,埼玉,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -226,6 +226,17 @@ const studios = [
       facilities: ['リフォーマー', 'マシンピラティス器具', '完全個室', '更衣室'],
     },
   },
+  {
+    name: 'Pilates Mee Life越谷店',
+    officialUrl: 'https://m-pilates.com/',
+    image: '/images/studios/pilates-mee.webp',
+    price: '5人制少人数 月4回 14,800円〜（税込）',
+    trial: '体験 9,800円（キャンペーンで0円・2026/6/30まで）',
+    features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。越谷駅から徒歩3分。',
+    access: '越谷駅から徒歩3分',
+    address: '埼玉県越谷市越ヶ谷1丁目1-12 エガワプラザビル6B',
+  },
 ]
 
 const faqs = [
@@ -288,7 +299,7 @@ export default function KoshigayaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス越谷おすすめ8選！<br className="hidden md:block" />
+              【2026最新】ピラティス越谷おすすめ5選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -331,7 +342,7 @@ export default function KoshigayaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、越谷エリアでおすすめのピラティススタジオ8選をまとめました。
+              そこでこの記事では、越谷エリアでおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -370,7 +381,7 @@ export default function KoshigayaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              越谷のおすすめピラティススタジオ8選
+              越谷のおすすめピラティススタジオ5選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (

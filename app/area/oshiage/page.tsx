@@ -12,8 +12,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス押上おすすめ7選！人気スタジオの料金プランを簡単比較！',
-  description: '押上エリアのおすすめピラティススタジオ7選を徹底比較。スカイツリーの下のマシンピラティス、女性専用パーソナルなど。体験レッスン、料金相場、アクセスまで完全ガイド。',
+  title: '【2026最新】ピラティス押上おすすめ5選！人気スタジオの料金プランを簡単比較！',
+  description: '押上エリアのおすすめピラティススタジオ5選を徹底比較。スカイツリーの下のマシンピラティス、女性専用パーソナルなど。体験レッスン、料金相場、アクセスまで完全ガイド。',
   keywords: 'ピラティス,押上,東京,墨田区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -232,6 +232,17 @@ const studios = [
       facilities: ['ロッカー', '更衣室（男女別）', 'ウォーターサーバー', 'ピラティス専用マシン完備'],
     },
   },
+  {
+    name: 'Pilates Mee押上店',
+    officialUrl: 'https://m-pilates.com/',
+    image: '/images/studios/pilates-mee.webp',
+    price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
+    trial: '体験 9,800円（キャンペーンで0円・2026/6/30まで）',
+    features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。押上駅から徒歩5分。',
+    access: '押上駅から徒歩5分',
+    address: '東京都墨田区押上2丁目9-3 カワシマビル2F',
+  },
 ]
 
 const faqs = [
@@ -318,7 +329,7 @@ export default function OshiageAreaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス押上おすすめ7選！<br className="hidden md:block" />
+              【2026最新】ピラティス押上おすすめ5選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -361,7 +372,7 @@ export default function OshiageAreaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、東京メトロ半蔵門線・都営浅草線・京成線・東武スカイツリーライン押上駅周辺のおすすめピラティススタジオ7選をまとめました。東京スカイツリーのお膝元、墨田区エリアの個性的なスタジオを厳選しています。
+              そこでこの記事では、東京メトロ半蔵門線・都営浅草線・京成線・東武スカイツリーライン押上駅周辺のおすすめピラティススタジオ5選をまとめました。東京スカイツリーのお膝元、墨田区エリアの個性的なスタジオを厳選しています。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -400,7 +411,7 @@ export default function OshiageAreaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              押上エリアのおすすめピラティススタジオ7選
+              押上エリアのおすすめピラティススタジオ5選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (

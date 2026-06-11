@@ -12,8 +12,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス横浜おすすめ8選！人気スタジオの料金プランを簡単比較！',
-  description: '【2026年4月最新】横浜のおすすめピラティススタジオ8選を徹底比較。グループ月4回9,625円〜の料金相場、駅近・女性専用・パーソナル対応のスタジオ情報、体験レッスンの持ち物まで完全網羅。',
+  title: '【2026最新】ピラティス横浜おすすめ11選！人気スタジオの料金プランを簡単比較！',
+  description: '【2026年4月最新】横浜のおすすめピラティススタジオ11選を徹底比較。グループ月4回9,625円〜の料金相場、駅近・女性専用・パーソナル対応のスタジオ情報、体験レッスンの持ち物まで完全網羅。',
   keywords: 'ピラティス,横浜,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -442,6 +442,39 @@ const studios = [
       facilities: ['マシンピラティス器具', 'ウェイトトレーニング機器', '完全個室', 'カウンセリングルーム'],
     },
   },
+  {
+    name: 'Dr.ピラティス 横浜店',
+    officialUrl: 'https://drpilates.drtraining.jp/',
+    image: '/images/studios/dr-pilates.webp',
+    price: '月4回(45分) 29,700円〜 / 月4回(60分) 39,600円〜',
+    trial: '体験トレーニング 7,100円（無料キャンペーン実施店舗あり）',
+    features: ['マンツーマン（パーソナル）', 'マシン・マット両対応', '医師推奨パーソナルジムNo.1受賞'],
+    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオ。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せる。横浜エリア（詳細は公式サイト参照）。',
+    access: '横浜エリア（詳細は公式サイト参照）',
+    address: '神奈川県（詳細は公式サイト参照）',
+  },
+  {
+    name: 'the SILK 横浜パーソナル店',
+    officialUrl: 'https://the-silk.co.jp/',
+    image: '/images/studios/the-silk.webp',
+    price: 'グループ月4回(Standard4) 14,370〜15,280円 / 通い放題 19,980〜22,280円（別途施設利用料月700円）/ パーソナル月2回 22,000円〜',
+    trial: '体験レッスン 無料',
+    features: ['女性専用', 'マシンピラティス専門', 'グループ＋パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴。横浜駅から徒歩3分。',
+    access: '横浜駅から徒歩3分',
+    address: '神奈川県横浜市西区北幸1-2-13 横浜西共同ビル6階',
+  },
+  {
+    name: 'Pilates Mee横浜店',
+    officialUrl: 'https://m-pilates.com/',
+    image: '/images/studios/pilates-mee.webp',
+    price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
+    trial: '体験 9,800円（キャンペーンで0円・2026/6/30まで）',
+    features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。横浜駅から徒歩5分。',
+    access: '横浜駅から徒歩5分',
+    address: '神奈川県横浜市神奈川区台町9-13 ルックハイツ横浜台町502',
+  },
 ]
 
 const faqs = [
@@ -504,7 +537,7 @@ export default function YokohamaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス横浜おすすめ8選！<br className="hidden md:block" />
+              【2026最新】ピラティス横浜おすすめ11選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -547,7 +580,7 @@ export default function YokohamaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、横浜エリアでおすすめのピラティススタジオ8選をまとめました。
+              そこでこの記事では、横浜エリアでおすすめのピラティススタジオ11選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -586,7 +619,7 @@ export default function YokohamaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              横浜のおすすめピラティススタジオ8選
+              横浜のおすすめピラティススタジオ11選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (

@@ -12,8 +12,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス千葉おすすめ8選！人気スタジオの料金プランを簡単比較！',
-  description: '千葉エリアのおすすめピラティススタジオ8選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026最新】ピラティス千葉おすすめ9選！人気スタジオの料金プランを簡単比較！',
+  description: '千葉エリアのおすすめピラティススタジオ9選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,千葉,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -416,7 +416,7 @@ const studios = [
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['初心者向け', '女性専用', '東京・千葉展開', '丁寧な指導'],
-    description: '東京・千葉の初心者向け女性専用マシンピラティススタジオ。初心者の方でも安心して通えるよう、丁寧な指導を心がけています。女性専用スタジオなので、男性の目を気にせず集中してトレーニングできます。亀戸店が「江東区ピラティスおすすめ6選」に紹介されるなど、評価の高いスタジオです。',
+    description: '東京・千葉の初心者向け女性専用マシンピラティススタジオ。初心者の方でも安心して通えるよう、丁寧な指導を心がけています。女性専用スタジオなので、男性の目を気にせず集中してトレーニングできます。亀戸店が「江東区ピラティスおすすめ9選」に紹介されるなど、評価の高いスタジオです。',
     access: '千葉エリア（詳細は公式サイト参照）',
     address: '千葉県（詳細は公式サイト参照）',
     popularPlan: {
@@ -440,6 +440,17 @@ const studios = [
       closed: '詳細は公式サイト参照',
       facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', '女性専用'],
     },
+  },
+  {
+    name: 'the SILK 千葉店',
+    officialUrl: 'https://the-silk.co.jp/',
+    image: '/images/studios/the-silk.webp',
+    price: 'グループ月4回(Standard4) 14,370〜15,280円 / 通い放題 19,980〜22,280円（別途施設利用料月700円）/ パーソナル月2回 22,000円〜',
+    trial: '体験レッスン 無料',
+    features: ['女性専用', 'マシンピラティス専門', 'グループ＋パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴。千葉駅から徒歩1分。',
+    access: '千葉駅から徒歩1分',
+    address: '千葉県千葉市中央区富士見2-2-3 吉田興業第一ビル4F',
   },
 ]
 
@@ -503,7 +514,7 @@ export default function ChibaAreaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス千葉おすすめ8選！<br className="hidden md:block" />
+              【2026最新】ピラティス千葉おすすめ9選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -546,7 +557,7 @@ export default function ChibaAreaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、千葉エリアでおすすめのピラティススタジオ8選をまとめました。
+              そこでこの記事では、千葉エリアでおすすめのピラティススタジオ9選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -585,7 +596,7 @@ export default function ChibaAreaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              千葉のおすすめピラティススタジオ8選
+              千葉のおすすめピラティススタジオ9選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (

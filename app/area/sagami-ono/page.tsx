@@ -13,8 +13,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026年6月最新】ピラティス相模大野おすすめ5選！料金・体験レッスン・マシン対応を比較！',
-  description: '相模大野エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年6月最新】ピラティス相模大野おすすめ7選！料金・体験レッスン・マシン対応を比較！',
+  description: '相模大野エリアのおすすめピラティススタジオ7選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,相模大野,神奈川,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -297,6 +297,17 @@ const studios = [
       facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'],
     },
   },
+  {
+    name: 'Pilates Mee相模大野店',
+    officialUrl: 'https://m-pilates.com/',
+    image: '/images/studios/pilates-mee.webp',
+    price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
+    trial: '体験 9,800円（キャンペーンで0円・2026/6/30まで）',
+    features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。相模大野駅から徒歩1分。',
+    access: '相模大野駅から徒歩1分',
+    address: '神奈川県相模原市南区相模大野3丁目12-9 LSビル3階',
+  },
 ]
 
 const faqs = [
@@ -359,7 +370,7 @@ export default function SagamiOnoPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス相模大野おすすめ10選！<br className="hidden md:block" />
+              【2026最新】ピラティス相模大野おすすめ7選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -402,7 +413,7 @@ export default function SagamiOnoPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、相模大野エリアでおすすめのピラティススタジオ10選をまとめました。
+              そこでこの記事では、相模大野エリアでおすすめのピラティススタジオ7選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -442,7 +453,7 @@ export default function SagamiOnoPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              相模大野のおすすめピラティススタジオ10選
+              相模大野のおすすめピラティススタジオ7選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (

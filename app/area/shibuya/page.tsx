@@ -13,8 +13,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026年6月最新】ピラティス渋谷おすすめ12選！料金・体験レッスン・マシン対応を比較！',
-  description: '【2026年4月最新】渋谷のおすすめピラティススタジオ12選を徹底比較。グループ月4回8,800円〜、パーソナル30分4,400円〜の料金相場、女性専用・マシン専門・体験無料のスタジオ情報、選び方のコツまで完全網羅。',
+  title: '【2026年6月最新】ピラティス渋谷おすすめ15選！料金・体験レッスン・マシン対応を比較！',
+  description: '【2026年4月最新】渋谷のおすすめピラティススタジオ15選を徹底比較。グループ月4回8,800円〜、パーソナル30分4,400円〜の料金相場、女性専用・マシン専門・体験無料のスタジオ情報、選び方のコツまで完全網羅。',
   keywords: 'ピラティス,渋谷,東京,スタジオ,おすすめ,マシンピラティス,パーソナル,女性専用,体験レッスン,料金,比較',
 }
 
@@ -248,6 +248,39 @@ const studios = [
     userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性85% / 男性15%', purpose: ['デトックス', 'ダイエット', '冷え性改善', 'ボディメイク'] },
     basicInfo: { hours: '平日 10:00〜22:30 / 土日祝 10:00〜20:00', closed: '不定休', facilities: ['ホットスタジオ', 'ピラティススタジオ', 'ジムエリア', 'ロッカー', '更衣室'] },
   },
+  {
+    name: 'Dr.ピラティス 渋谷店',
+    officialUrl: 'https://drpilates.drtraining.jp/',
+    image: '/images/studios/dr-pilates.webp',
+    price: '月4回(45分) 29,700円〜 / 月4回(60分) 39,600円〜',
+    trial: '体験トレーニング 7,100円（無料キャンペーン実施店舗あり）',
+    features: ['マンツーマン（パーソナル）', 'マシン・マット両対応', '医師推奨パーソナルジムNo.1受賞'],
+    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオ。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せる。渋谷エリア（詳細は公式サイト参照）。',
+    access: '渋谷エリア（詳細は公式サイト参照）',
+    address: '東京都（詳細は公式サイト参照）',
+  },
+  {
+    name: 'the SILK 渋谷店',
+    officialUrl: 'https://the-silk.co.jp/',
+    image: '/images/studios/the-silk.webp',
+    price: 'グループ月4回(Standard4) 14,370〜15,280円 / 通い放題 19,980〜22,280円（別途施設利用料月700円）/ パーソナル月2回 22,000円〜',
+    trial: '体験レッスン 無料',
+    features: ['女性専用', 'マシンピラティス専門', 'グループ＋パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴。渋谷駅から徒歩2分。',
+    access: '渋谷駅から徒歩2分',
+    address: '東京都渋谷区神南1丁目11-1 渋谷市野ビル6階',
+  },
+  {
+    name: '24/7ピラティス 渋谷・南青山店',
+    officialUrl: 'https://247-sports.jp/pilates/',
+    image: '/images/studios/247-pilates.webp',
+    price: '月2回 14,500円〜 / 月4回 27,000円〜 / 月8回 52,000円〜（税込）',
+    trial: '体験レッスン 無料（50分・手ぶらOK）',
+    features: ['女性専用', '完全個室パーソナル', '入会金不要・月謝制'],
+    description: '完全個室・マンツーマンの女性専用パーソナルピラティススタジオ。入会金不要の月謝制で、一人ひとりに合わせたオリジナルプログラムを提供。渋谷駅から徒歩7分。',
+    access: '渋谷駅から徒歩7分',
+    address: '東京都渋谷区渋谷2丁目6-12 ベルデ青山1F',
+  },
 ]
 
 const faqs = [
@@ -280,7 +313,7 @@ export default function ShibuyaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス渋谷おすすめ12選！<br className="hidden md:block" />
+              【2026最新】ピラティス渋谷おすすめ15選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -323,7 +356,7 @@ export default function ShibuyaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、JR山手線・東急東横線・東京メトロ銀座線・半蔵門線が乗り入れる渋谷駅周辺でおすすめのピラティススタジオ12選をまとめました。MIYASHITA PARKや渋谷スクランブルスクエアなど商業施設が集まる渋谷エリアは、仕事帰りや買い物ついでにも通いやすいピラティス激戦区です。
+              そこでこの記事では、JR山手線・東急東横線・東京メトロ銀座線・半蔵門線が乗り入れる渋谷駅周辺でおすすめのピラティススタジオ15選をまとめました。MIYASHITA PARKや渋谷スクランブルスクエアなど商業施設が集まる渋谷エリアは、仕事帰りや買い物ついでにも通いやすいピラティス激戦区です。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -363,7 +396,7 @@ export default function ShibuyaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              渋谷のおすすめピラティススタジオ12選
+              渋谷のおすすめピラティススタジオ15選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (
@@ -670,7 +703,7 @@ export default function ShibuyaPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は渋谷のおすすめピラティススタジオ12選をご紹介しました。
+              今回は渋谷のおすすめピラティススタジオ15選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               渋谷はJR山手線・東急東横線・東京メトロ銀座線・半蔵門線など複数路線が乗り入れる東京を代表するターミナル駅。若者の街として知られる渋谷区には、MIYASHITA PARK正面のzen place pilates、音楽×マシンのthe SILK、月4回8,800円〜のRintosull、無料体験ありのCLUB PILATES、完全個室のSTUDIO IVY、30分集中のELEMENTなど、個性豊かなスタジオが揃っています。

@@ -13,8 +13,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026年6月最新】ピラティスたまプラーザおすすめ5選！料金・体験レッスン・マシン対応を比較！',
-  description: 'たまプラーザエリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年6月最新】ピラティスたまプラーザおすすめ6選！料金・体験レッスン・マシン対応を比較！',
+  description: 'たまプラーザエリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,たまプラーザ,青葉区,横浜市,神奈川,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -115,6 +115,17 @@ const studios = [
     userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性85% / 男性15%', purpose: ['ボディメイク', 'ダイエット', '運動不足解消', '体幹強化'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマーマシン', 'TRX', '更衣室', 'ロッカー'] },
   },
+  {
+    name: 'Dr.ピラティス たまプラーザ店',
+    officialUrl: 'https://drpilates.drtraining.jp/',
+    image: '/images/studios/dr-pilates.webp',
+    price: '月4回(45分) 29,700円〜 / 月4回(60分) 39,600円〜',
+    trial: '体験トレーニング 7,100円（無料キャンペーン実施店舗あり）',
+    features: ['マンツーマン（パーソナル）', 'マシン・マット両対応', '医師推奨パーソナルジムNo.1受賞'],
+    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオ。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せる。たまプラーザエリア（詳細は公式サイト参照）。',
+    access: 'たまプラーザエリア（詳細は公式サイト参照）',
+    address: '神奈川県（詳細は公式サイト参照）',
+  },
 ]
 
 const faqs = [
@@ -146,7 +157,7 @@ export default function TamaPlazaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティスたまプラーザおすすめ5選！<br className="hidden md:block" />
+              【2026最新】ピラティスたまプラーザおすすめ6選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -170,7 +181,7 @@ export default function TamaPlazaPage() {
             <p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">「たまプラーザで人気のピラティススタジオを知りたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
-            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、たまプラーザエリアでおすすめのピラティススタジオ5選をまとめました。</p>
+            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、たまプラーザエリアでおすすめのピラティススタジオ6選をまとめました。</p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
               <ul className="space-y-2 text-warm-700">
@@ -190,7 +201,7 @@ export default function TamaPlazaPage() {
 
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">たまプラーザのおすすめピラティススタジオ5選</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">たまプラーザのおすすめピラティススタジオ6選</h2>
             <div className="space-y-8">{studios.map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div>
           </div>
         </section>

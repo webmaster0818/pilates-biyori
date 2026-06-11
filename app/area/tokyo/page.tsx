@@ -12,8 +12,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】東京のピラティススタジオおすすめ8選｜料金・体験レッスン徹底比較',
-  description: '東京都のおすすめピラティススタジオ8選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026最新】東京のピラティススタジオおすすめ9選｜料金・体験レッスン徹底比較',
+  description: '東京都のおすすめピラティススタジオ9選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -441,6 +441,17 @@ const studios = [
       facilities: ['理学療法士監修', 'オンライン対応', 'ロッカー', 'パウダールーム'],
     },
   },
+  {
+    name: 'the SILK 東京八重洲店',
+    officialUrl: 'https://the-silk.co.jp/',
+    image: '/images/studios/the-silk.webp',
+    price: 'グループ月4回(Standard4) 14,370〜15,280円 / 通い放題 19,980〜22,280円（別途施設利用料月700円）/ パーソナル月2回 22,000円〜',
+    trial: '体験レッスン 無料',
+    features: ['女性専用', 'マシンピラティス専門', 'グループ＋パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴。東京駅から徒歩5分。',
+    access: '東京駅から徒歩5分',
+    address: '東京都中央区八重洲1-5-9 八重洲加藤ビルディング5階',
+  },
 ]
 
 const faqs = [
@@ -504,7 +515,7 @@ export default async function TokyoAreaPage() {
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】東京のピラティススタジオ<br className="hidden md:block" />
-              おすすめ8選｜料金・体験レッスン徹底比較
+              おすすめ9選｜料金・体験レッスン徹底比較
             </h1>
           </div>
         </section>
@@ -546,7 +557,7 @@ export default async function TokyoAreaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、東京都内でおすすめのピラティススタジオ8選をまとめました。
+              そこでこの記事では、東京都内でおすすめのピラティススタジオ9選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -694,7 +705,7 @@ export default async function TokyoAreaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              東京のおすすめピラティススタジオ8選
+              東京のおすすめピラティススタジオ9選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (

@@ -12,8 +12,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス福岡おすすめ8選！人気スタジオの料金プランを簡単比較！',
-  description: '【2026年4月最新】福岡のおすすめピラティススタジオ8選を徹底比較。グループ月4回9,625円〜の料金相場、天神・博多エリアのスタジオ情報、体験レッスンの持ち物・服装まで完全網羅。',
+  title: '【2026最新】ピラティス福岡おすすめ9選！人気スタジオの料金プランを簡単比較！',
+  description: '【2026年4月最新】福岡のおすすめピラティススタジオ9選を徹底比較。グループ月4回9,625円〜の料金相場、天神・博多エリアのスタジオ情報、体験レッスンの持ち物・服装まで完全網羅。',
   keywords: 'ピラティス,福岡,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -436,6 +436,17 @@ const studios = [
       facilities: ['ロッカー', 'パウダールーム', '整体施術', '女性専用', '明るいスタジオ'],
     },
   },
+  {
+    name: 'Pilates Mee Life志免店',
+    officialUrl: 'https://m-pilates.com/',
+    image: '/images/studios/pilates-mee.webp',
+    price: '5人制少人数 月4回 14,800円〜（税込）',
+    trial: '体験 9,800円（キャンペーンで0円・2026/6/30まで）',
+    features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。福岡空港駅から徒歩8分。',
+    access: '福岡空港駅から徒歩8分',
+    address: '福岡県糟屋郡志免町別府2丁目22-3 MODERN PALAZZO空港前CIEL 1F',
+  },
 ]
 
 const faqs = [
@@ -498,7 +509,7 @@ export default function FukuokaAreaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス福岡おすすめ8選！<br className="hidden md:block" />
+              【2026最新】ピラティス福岡おすすめ9選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -541,7 +552,7 @@ export default function FukuokaAreaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、福岡エリアでおすすめのピラティススタジオ8選をまとめました。
+              そこでこの記事では、福岡エリアでおすすめのピラティススタジオ9選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -580,7 +591,7 @@ export default function FukuokaAreaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              福岡のおすすめピラティススタジオ8選
+              福岡のおすすめピラティススタジオ9選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (

@@ -12,8 +12,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス田園調布おすすめ5選！人気スタジオの料金プランを簡単比較！',
-  description: '田園調布エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026最新】ピラティス田園調布おすすめ6選！人気スタジオの料金プランを簡単比較！',
+  description: '田園調布エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,田園調布,奥沢,大田区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -113,6 +113,17 @@ const studios = [
     userProfile: { ageRange: '30代〜60代が中心', genderRatio: '女性70% / 男性30%', purpose: ['姿勢改善', 'リハビリ', '痛み改善', 'パフォーマンス向上'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'トレーニング機器', '完全個室', '更衣室'] },
   },
+  {
+    name: 'Pilates Mee田園調布店',
+    officialUrl: 'https://m-pilates.com/',
+    image: '/images/studios/pilates-mee.webp',
+    price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
+    trial: '体験 9,800円（キャンペーンで0円・2026/6/30まで）',
+    features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。田園調布駅から徒歩2分。',
+    access: '田園調布駅から徒歩2分',
+    address: '東京都大田区田園調布3丁目4-5 202',
+  },
 ]
 
 const faqs = [
@@ -145,7 +156,7 @@ export default function DenenchofuPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス田園調布おすすめ5選！<br className="hidden md:block" />
+              【2026最新】ピラティス田園調布おすすめ6選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -188,7 +199,7 @@ export default function DenenchofuPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、田園調布・奥沢エリアでおすすめのピラティススタジオ5選をまとめました。
+              そこでこの記事では、田園調布・奥沢エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -227,7 +238,7 @@ export default function DenenchofuPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              田園調布のおすすめピラティススタジオ5選
+              田園調布のおすすめピラティススタジオ6選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (

@@ -12,8 +12,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス学芸大学おすすめ4選！人気スタジオの料金プランを簡単比較！',
-  description: '学芸大学エリアのおすすめピラティススタジオ4選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。',
+  title: '【2026最新】ピラティス学芸大学おすすめ5選！人気スタジオの料金プランを簡単比較！',
+  description: '学芸大学エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。',
   keywords: 'ピラティス,学芸大学,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -227,6 +227,17 @@ const studios = [
       facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi'],
     },
   },
+  {
+    name: 'Dr.ピラティス 学芸大学店',
+    officialUrl: 'https://drpilates.drtraining.jp/',
+    image: '/images/studios/dr-pilates.webp',
+    price: '月4回(45分) 29,700円〜 / 月4回(60分) 39,600円〜',
+    trial: '体験トレーニング 7,100円（無料キャンペーン実施店舗あり）',
+    features: ['マンツーマン（パーソナル）', 'マシン・マット両対応', '医師推奨パーソナルジムNo.1受賞'],
+    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオ。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せる。学芸大学エリア（詳細は公式サイト参照）。',
+    access: '学芸大学エリア（詳細は公式サイト参照）',
+    address: '東京都（詳細は公式サイト参照）',
+  },
 ]
 
 const faqs = [
@@ -289,7 +300,7 @@ export default function GakugeiDaigakuPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス学芸大学おすすめ4選！<br className="hidden md:block" />
+              【2026最新】ピラティス学芸大学おすすめ5選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -335,7 +346,7 @@ export default function GakugeiDaigakuPage() {
               東急東横線「学芸大学駅」は、おしゃれなカフェやパン屋が並ぶ住みたい街として人気のエリア。そんな学芸大学には、コスパの良いスタジオからパーソナル専門、子連れOKのスタジオまで、個性豊かなピラティススタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、学芸大学エリアでおすすめのピラティススタジオ4選をまとめました。
+              そこでこの記事では、学芸大学エリアでおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -370,7 +381,7 @@ export default function GakugeiDaigakuPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              学芸大学のおすすめピラティススタジオ4選
+              学芸大学のおすすめピラティススタジオ5選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (

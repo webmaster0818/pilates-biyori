@@ -12,8 +12,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス銀座おすすめ10選！人気スタジオの料金プランを簡単比較！',
-  description: '【2026年4月最新】銀座のおすすめピラティススタジオ10選を徹底比較。グループ月4回9,625円〜、パーソナル1回6,600円〜の料金相場、女性専用・マシン充実のスタジオ情報、選び方まで完全網羅。',
+  title: '【2026最新】ピラティス銀座おすすめ11選！人気スタジオの料金プランを簡単比較！',
+  description: '【2026年4月最新】銀座のおすすめピラティススタジオ11選を徹底比較。グループ月4回9,625円〜、パーソナル1回6,600円〜の料金相場、女性専用・マシン充実のスタジオ情報、選び方まで完全網羅。',
   keywords: 'ピラティス,銀座,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -254,6 +254,17 @@ const studios = [
     access: '銀座駅より徒歩圏内',
     address: '東京都中央区銀座',
   },
+  {
+    name: 'Dr.ピラティス 銀座店',
+    officialUrl: 'https://drpilates.drtraining.jp/',
+    image: '/images/studios/dr-pilates.webp',
+    price: '月4回(45分) 29,700円〜 / 月4回(60分) 39,600円〜',
+    trial: '体験トレーニング 7,100円（無料キャンペーン実施店舗あり）',
+    features: ['マンツーマン（パーソナル）', 'マシン・マット両対応', '医師推奨パーソナルジムNo.1受賞'],
+    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオ。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せる。銀座エリア（詳細は公式サイト参照）。',
+    access: '銀座エリア（詳細は公式サイト参照）',
+    address: '東京都（詳細は公式サイト参照）',
+  },
 ]
 
 const faqs = [
@@ -316,7 +327,7 @@ export default function GinzaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス銀座おすすめ10選！<br className="hidden md:block" />
+              【2026最新】ピラティス銀座おすすめ11選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -359,7 +370,7 @@ export default function GinzaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、銀座エリアでおすすめのピラティススタジオ10選をまとめました。
+              そこでこの記事では、銀座エリアでおすすめのピラティススタジオ11選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -398,7 +409,7 @@ export default function GinzaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              銀座のおすすめピラティススタジオ10選
+              銀座のおすすめピラティススタジオ11選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (

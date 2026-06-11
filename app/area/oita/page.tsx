@@ -10,8 +10,8 @@ import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 export const metadata = {
-  title: '【2026最新】ピラティス大分おすすめ5選！人気スタジオの料金プランを簡単比較！',
-  description: '大分エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026最新】ピラティス大分おすすめ6選！人気スタジオの料金プランを簡単比較！',
+  description: '大分エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,大分,大分市,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -121,6 +121,17 @@ const studios = [
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['健康維持', '姿勢改善', 'ボディメイク', 'リフレッシュ'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', 'ヨガスタジオ', '更衣室'] },
   },
+  {
+    name: '24/7ピラティス 大分店',
+    officialUrl: 'https://247-sports.jp/pilates/',
+    image: '/images/studios/247-pilates.webp',
+    price: '月2回 14,500円〜 / 月4回 27,000円〜 / 月8回 52,000円〜（税込）',
+    trial: '体験レッスン 無料（50分・手ぶらOK）',
+    features: ['女性専用', '完全個室パーソナル', '入会金不要・月謝制'],
+    description: '完全個室・マンツーマンの女性専用パーソナルピラティススタジオ。入会金不要の月謝制で、一人ひとりに合わせたオリジナルプログラムを提供。大分駅から徒歩11分。',
+    access: '大分駅から徒歩11分',
+    address: '大分県大分市高砂町1-30 S-Fort高砂町201',
+  },
 ]
 
 const faqs = [
@@ -150,7 +161,7 @@ export default function OitaPage() {
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月26日</p>
-            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス大分おすすめ5選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1>
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス大分おすすめ6選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1>
           </div>
         </section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">大分</span></nav></div></section>
@@ -163,7 +174,7 @@ export default function OitaPage() {
             <p className="text-warm-600 leading-relaxed font-medium mb-6">「大分でピラティスを始めてみたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">「大分市内で通いやすいピラティススタジオを知りたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
-            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、大分エリアでおすすめのピラティススタジオ5選をまとめました。</p>
+            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、大分エリアでおすすめのピラティススタジオ6選をまとめました。</p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
               <ul className="space-y-2 text-warm-700">
@@ -178,7 +189,7 @@ export default function OitaPage() {
           </div>
         </section>
         <PriceComparisonTable studios={studios} areaName="大分" />
-        <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">大分のおすすめピラティススタジオ5選</h2><div className="space-y-8">{studios.map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
+        <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">大分のおすすめピラティススタジオ6選</h2><div className="space-y-8">{studios.map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
 
         <section className="py-16 bg-white" id="price-market">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">

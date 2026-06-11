@@ -12,8 +12,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス大宮おすすめ8選！人気スタジオの料金プランを簡単比較！',
-  description: '大宮エリアのおすすめピラティススタジオ8選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026最新】ピラティス大宮おすすめ11選！人気スタジオの料金プランを簡単比較！',
+  description: '大宮エリアのおすすめピラティススタジオ11選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,大宮,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -441,6 +441,39 @@ const studios = [
       facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', 'LAVA併設'],
     },
   },
+  {
+    name: 'the SILK 大宮店',
+    officialUrl: 'https://the-silk.co.jp/',
+    image: '/images/studios/the-silk.webp',
+    price: 'グループ月4回(Standard4) 14,370〜15,280円 / 通い放題 19,980〜22,280円（別途施設利用料月700円）/ パーソナル月2回 22,000円〜',
+    trial: '体験レッスン 無料',
+    features: ['女性専用', 'マシンピラティス専門', 'グループ＋パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴。大宮駅から徒歩2分。',
+    access: '大宮駅から徒歩2分',
+    address: '埼玉県さいたま市大宮区大門町1-69 武蔵屋ビル4階',
+  },
+  {
+    name: '24/7ピラティス 大宮門街店',
+    officialUrl: 'https://247-sports.jp/pilates/',
+    image: '/images/studios/247-pilates.webp',
+    price: '月2回 14,500円〜 / 月4回 27,000円〜 / 月8回 52,000円〜（税込）',
+    trial: '体験レッスン 無料（50分・手ぶらOK）',
+    features: ['女性専用', '完全個室パーソナル', '入会金不要・月謝制'],
+    description: '完全個室・マンツーマンの女性専用パーソナルピラティススタジオ。入会金不要の月謝制で、一人ひとりに合わせたオリジナルプログラムを提供。大宮駅から徒歩3分。',
+    access: '大宮駅から徒歩3分',
+    address: '埼玉県さいたま市大宮区大門町2-118 大宮門街WEST 2F',
+  },
+  {
+    name: 'Pilates Mee大宮店',
+    officialUrl: 'https://m-pilates.com/',
+    image: '/images/studios/pilates-mee.webp',
+    price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
+    trial: '体験 9,800円（キャンペーンで0円・2026/6/30まで）',
+    features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。大宮駅から徒歩5分。',
+    access: '大宮駅から徒歩5分',
+    address: '埼玉県さいたま市大宮区大門町3丁目22-22 2号棟3階',
+  },
 ]
 
 const faqs = [
@@ -503,7 +536,7 @@ export default async function OmiyaAreaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス大宮おすすめ8選！<br className="hidden md:block" />
+              【2026最新】ピラティス大宮おすすめ11選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -546,7 +579,7 @@ export default async function OmiyaAreaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、大宮エリアでおすすめのピラティススタジオ8選をまとめました。
+              そこでこの記事では、大宮エリアでおすすめのピラティススタジオ11選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -585,7 +618,7 @@ export default async function OmiyaAreaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              大宮のおすすめピラティススタジオ8選
+              大宮のおすすめピラティススタジオ11選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (

@@ -12,8 +12,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス関内おすすめ5選！人気スタジオの料金プランを簡単比較！',
-  description: '関内エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026最新】ピラティス関内おすすめ7選！人気スタジオの料金プランを簡単比較！',
+  description: '関内エリアのおすすめピラティススタジオ7選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,関内,馬車道,横浜,神奈川,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -283,6 +283,28 @@ const studios = [
       facilities: ['マット', 'ヨガマット', '更衣室', 'ロッカー'],
     },
   },
+  {
+    name: '24/7ピラティス 関内店',
+    officialUrl: 'https://247-sports.jp/pilates/',
+    image: '/images/studios/247-pilates.webp',
+    price: '月2回 14,500円〜 / 月4回 27,000円〜 / 月8回 52,000円〜（税込）',
+    trial: '体験レッスン 無料（50分・手ぶらOK）',
+    features: ['女性専用', '完全個室パーソナル', '入会金不要・月謝制'],
+    description: '完全個室・マンツーマンの女性専用パーソナルピラティススタジオ。入会金不要の月謝制で、一人ひとりに合わせたオリジナルプログラムを提供。関内駅から徒歩5分。',
+    access: '関内駅から徒歩5分',
+    address: '神奈川県横浜市中区羽衣町3丁目76-3 アクセラ21ビル8F',
+  },
+  {
+    name: 'Pilates Mee関内店',
+    officialUrl: 'https://m-pilates.com/',
+    image: '/images/studios/pilates-mee.webp',
+    price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
+    trial: '体験 9,800円（キャンペーンで0円・2026/6/30まで）',
+    features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。関内駅から徒歩1分。',
+    access: '関内駅から徒歩1分',
+    address: '神奈川県横浜市中区尾上町3丁目43 横浜パークサイド関内4D',
+  },
 ]
 
 const faqs = [
@@ -345,7 +367,7 @@ export default function KannaiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス関内おすすめ5選！<br className="hidden md:block" />
+              【2026最新】ピラティス関内おすすめ7選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -388,7 +410,7 @@ export default function KannaiPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、関内・馬車道エリアでおすすめのピラティススタジオ5選をまとめました。
+              そこでこの記事では、関内・馬車道エリアでおすすめのピラティススタジオ7選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -427,7 +449,7 @@ export default function KannaiPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              関内のおすすめピラティススタジオ5選
+              関内のおすすめピラティススタジオ7選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (

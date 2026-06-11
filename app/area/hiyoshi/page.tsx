@@ -12,8 +12,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス日吉おすすめ5選！人気スタジオの料金プランを簡単比較！',
-  description: '日吉エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026最新】ピラティス日吉おすすめ6選！人気スタジオの料金プランを簡単比較！',
+  description: '日吉エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,日吉,元住吉,港北区,横浜市,神奈川,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -113,6 +113,17 @@ const studios = [
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性75% / 男性25%', purpose: ['体幹強化', '姿勢改善', 'ボディメイク', 'パフォーマンス向上'] },
     basicInfo: { hours: '月〜金 7:00-21:00 / 土日 7:00-18:00', closed: '不定休', facilities: ['リフォーマー', 'スプリングボード', 'TRX', 'チェア', 'Bosu'] },
   },
+  {
+    name: 'Pilates Mee日吉店',
+    officialUrl: 'https://m-pilates.com/',
+    image: '/images/studios/pilates-mee.webp',
+    price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
+    trial: '体験 9,800円（キャンペーンで0円・2026/6/30まで）',
+    features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。日吉駅から徒歩3分。',
+    access: '日吉駅から徒歩3分',
+    address: '神奈川県横浜市港北区日吉2丁目6-20 ビーハイヴ303',
+  },
 ]
 
 const faqs = [
@@ -145,7 +156,7 @@ export default function HiyoshiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス日吉おすすめ5選！<br className="hidden md:block" />
+              【2026最新】ピラティス日吉おすすめ6選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -176,7 +187,7 @@ export default function HiyoshiPage() {
             <p className="text-warm-600 leading-relaxed mb-6">「日吉で人気のピラティススタジオを知りたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、日吉・元住吉エリアでおすすめのピラティススタジオ5選をまとめました。
+              そこでこの記事では、日吉・元住吉エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -197,7 +208,7 @@ export default function HiyoshiPage() {
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">日吉のおすすめピラティススタジオ5選</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">日吉のおすすめピラティススタジオ6選</h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}
             </div>

@@ -13,8 +13,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026年6月最新】ピラティス巣鴨おすすめ7選！料金・体験レッスン・マシン対応を比較！',
-  description: '巣鴨エリアのおすすめピラティススタジオ7選を徹底比較。駅徒歩1分の好立地スタジオ多数。マシンピラティス、体験レッスン、料金相場、アクセスまで完全ガイド。',
+  title: '【2026年6月最新】ピラティス巣鴨おすすめ9選！料金・体験レッスン・マシン対応を比較！',
+  description: '巣鴨エリアのおすすめピラティススタジオ9選を徹底比較。駅徒歩1分の好立地スタジオ多数。マシンピラティス、体験レッスン、料金相場、アクセスまで完全ガイド。',
   keywords: 'ピラティス,巣鴨,東京,豊島区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -389,6 +389,28 @@ const studios = [
       facilities: ['パウダールーム', 'ロッカー', 'ウォーターサーバー', 'リファ'],
     },
   },
+  {
+    name: 'the SILK 巣鴨店',
+    officialUrl: 'https://the-silk.co.jp/',
+    image: '/images/studios/the-silk.webp',
+    price: 'グループ月4回(Standard4) 14,370〜15,280円 / 通い放題 19,980〜22,280円（別途施設利用料月700円）/ パーソナル月2回 22,000円〜',
+    trial: '体験レッスン 無料',
+    features: ['女性専用', 'マシンピラティス専門', 'グループ＋パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴。巣鴨駅から徒歩1分。',
+    access: '巣鴨駅から徒歩1分',
+    address: '東京都豊島区巣鴨1-14-3 藤ビル2階',
+  },
+  {
+    name: 'Pilates Mee巣鴨店',
+    officialUrl: 'https://m-pilates.com/',
+    image: '/images/studios/pilates-mee.webp',
+    price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
+    trial: '体験 9,800円（キャンペーンで0円・2026/6/30まで）',
+    features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。巣鴨駅から徒歩5分。',
+    access: '巣鴨駅から徒歩5分',
+    address: '東京都豊島区北大塚1丁目2 MAN巣鴨303',
+  },
 ]
 
 const faqs = [
@@ -475,7 +497,7 @@ export default function SugamoAreaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス巣鴨おすすめ7選！<br className="hidden md:block" />
+              【2026最新】ピラティス巣鴨おすすめ9選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -518,7 +540,7 @@ export default function SugamoAreaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、JR山手線・都営三田線巣鴨駅周辺（豊島区）でおすすめのピラティススタジオ7選をまとめました。「おばあちゃんの原宿」として親しまれる巣鴨地蔵通り商店街のある落ち着いたエリアで、駅徒歩1分〜5分の好立地スタジオが揃っています。
+              そこでこの記事では、JR山手線・都営三田線巣鴨駅周辺（豊島区）でおすすめのピラティススタジオ9選をまとめました。「おばあちゃんの原宿」として親しまれる巣鴨地蔵通り商店街のある落ち着いたエリアで、駅徒歩1分〜5分の好立地スタジオが揃っています。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -558,7 +580,7 @@ export default function SugamoAreaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              巣鴨のおすすめピラティススタジオ7選
+              巣鴨のおすすめピラティススタジオ9選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (

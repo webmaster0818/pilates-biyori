@@ -12,8 +12,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス心斎橋おすすめ15選！人気スタジオの料金プランを簡単比較！',
-  description: '心斎橋エリアのおすすめピラティススタジオ15選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026最新】ピラティス心斎橋おすすめ8選！人気スタジオの料金プランを簡単比較！',
+  description: '心斎橋エリアのおすすめピラティススタジオ8選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,心斎橋,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -207,6 +207,28 @@ const studios = [
     description: 'ダンサー御用達の本格的なピラティススタジオ。心斎橋駅から徒歩5分。ダンサーやアスリートも通う質の高いレッスンが特徴。身体の使い方を根本から学べる本格的なプログラムで、美しい姿勢と柔軟な身体を手に入れられます。',
     access: '心斎橋駅から徒歩5分',
   },
+  {
+    name: 'Dr.ピラティス 心斎橋店',
+    officialUrl: 'https://drpilates.drtraining.jp/',
+    image: '/images/studios/dr-pilates.webp',
+    price: '月4回(45分) 29,700円〜 / 月4回(60分) 39,600円〜',
+    trial: '体験トレーニング 7,100円（無料キャンペーン実施店舗あり）',
+    features: ['マンツーマン（パーソナル）', 'マシン・マット両対応', '医師推奨パーソナルジムNo.1受賞'],
+    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオ。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せる。心斎橋エリア（詳細は公式サイト参照）。',
+    access: '心斎橋エリア（詳細は公式サイト参照）',
+    address: '大阪府（詳細は公式サイト参照）',
+  },
+  {
+    name: 'DAYS PILATES DAYS PILATES 心斎橋',
+    officialUrl: 'https://dayspilates.com/',
+    image: '/images/studios/days-pilates.webp',
+    price: '月3回 11,990円 / 月4回 12,860円 / 通い放題 17,350円（税込）',
+    trial: '初回体験 0円（通常5,500円）',
+    features: ['女性専用', 'マシンピラティス（リフォーマー）', 'グループレッスン中心'],
+    description: '女性専用のマシンピラティス（リフォーマー）グループレッスンスタジオ。リーズナブルな月額で通いやすいのが特徴。心斎橋駅から徒歩2分。',
+    access: '心斎橋駅から徒歩2分',
+    address: '大阪市中央区西心斎橋1-1-10 プレリー心斎橋ビル5階',
+  },
 ]
 
 const faqs = [
@@ -269,7 +291,7 @@ export default function ShinsaibashiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス心斎橋おすすめ15選！<br className="hidden md:block" />
+              【2026最新】ピラティス心斎橋おすすめ8選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -312,7 +334,7 @@ export default function ShinsaibashiPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、心斎橋エリアでおすすめのピラティススタジオ15選をまとめました。
+              そこでこの記事では、心斎橋エリアでおすすめのピラティススタジオ8選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -351,7 +373,7 @@ export default function ShinsaibashiPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              心斎橋のおすすめピラティススタジオ15選
+              心斎橋のおすすめピラティススタジオ8選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (

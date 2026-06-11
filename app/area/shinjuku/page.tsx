@@ -13,8 +13,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026年6月最新】ピラティス新宿おすすめ12選！料金・体験レッスン・マシン対応を比較！',
-  description: '【2026年4月最新】新宿のおすすめピラティススタジオ12選を徹底比較。グループ月4回9,625円〜、パーソナル30分4,400円〜の料金相場、マシン専門・女性専用・体験無料のスタジオ情報、選び方の注意点まで完全網羅。',
+  title: '【2026年6月最新】ピラティス新宿おすすめ14選！料金・体験レッスン・マシン対応を比較！',
+  description: '【2026年4月最新】新宿のおすすめピラティススタジオ14選を徹底比較。グループ月4回9,625円〜、パーソナル30分4,400円〜の料金相場、マシン専門・女性専用・体験無料のスタジオ情報、選び方の注意点まで完全網羅。',
   keywords: 'ピラティス,新宿,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -657,6 +657,28 @@ const studios = [
       facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'ホットスタジオ'],
     },
   },
+  {
+    name: 'Dr.ピラティス 新宿店',
+    officialUrl: 'https://drpilates.drtraining.jp/',
+    image: '/images/studios/dr-pilates.webp',
+    price: '月4回(45分) 29,700円〜 / 月4回(60分) 39,600円〜',
+    trial: '体験トレーニング 7,100円（無料キャンペーン実施店舗あり）',
+    features: ['マンツーマン（パーソナル）', 'マシン・マット両対応', '医師推奨パーソナルジムNo.1受賞'],
+    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオ。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せる。新宿エリア（詳細は公式サイト参照）。',
+    access: '新宿エリア（詳細は公式サイト参照）',
+    address: '東京都（詳細は公式サイト参照）',
+  },
+  {
+    name: 'the SILK 新宿店',
+    officialUrl: 'https://the-silk.co.jp/',
+    image: '/images/studios/the-silk.webp',
+    price: 'グループ月4回(Standard4) 14,370〜15,280円 / 通い放題 19,980〜22,280円（別途施設利用料月700円）/ パーソナル月2回 22,000円〜',
+    trial: '体験レッスン 無料',
+    features: ['女性専用', 'マシンピラティス専門', 'グループ＋パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴。新宿西口駅から徒歩1分。',
+    access: '新宿西口駅から徒歩1分',
+    address: '東京都新宿区西新宿7-1-8 ヒノデビル6階',
+  },
 ]
 
 const faqs = [
@@ -719,7 +741,7 @@ export default function ShinjukuPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス新宿おすすめ12選！<br className="hidden md:block" />
+              【2026最新】ピラティス新宿おすすめ14選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -765,7 +787,7 @@ export default function ShinjukuPage() {
               新宿は、JR山手線・中央線・小田急線・京王線・東京メトロ丸ノ内線・副都心線・都営大江戸線・都営新宿線など多数の路線が集まる日本最大のターミナル駅。仕事帰りや買い物のついでにも通いやすいエリアです。新宿区内にはマシンピラティス専門、女性専用、パーソナル、予約不要など、多彩なスタジオが集結しています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、新宿エリアでおすすめのピラティススタジオ12選をまとめました。
+              そこでこの記事では、新宿エリアでおすすめのピラティススタジオ14選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -809,7 +831,7 @@ export default function ShinjukuPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              新宿のおすすめピラティススタジオ12選
+              新宿のおすすめピラティススタジオ14選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (
@@ -1145,7 +1167,7 @@ export default function ShinjukuPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は新宿のおすすめピラティススタジオ12選をご紹介してきましたが、いかがでしたか？
+              今回は新宿のおすすめピラティススタジオ14選をご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               新宿はJR山手線・中央線・小田急線・京王線・東京メトロ丸ノ内線・副都心線・都営大江戸線など、多数の路線が集まる日本最大のターミナル駅。大手チェーンから女性専用スタジオ、完全個室パーソナル、予約不要のカジュアルスタジオまで、多彩なスタジオが集まるエリアです。

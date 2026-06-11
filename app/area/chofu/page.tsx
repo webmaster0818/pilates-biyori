@@ -13,8 +13,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026年6月最新】ピラティス調布おすすめ4選！料金・体験レッスン・マシン対応を比較！',
-  description: '調布エリアのおすすめピラティススタジオ4選を徹底比較。ピラティスミラー調布・Rintosull調布店・ELEMENT調布店・zen place pilatesなど実在スタジオの料金・体験レッスン・アクセスを完全ガイド。コナミ運営・女性専用・通い放題パーソナルまで。',
+  title: '【2026年6月最新】ピラティス調布おすすめ5選！料金・体験レッスン・マシン対応を比較！',
+  description: '調布エリアのおすすめピラティススタジオ5選を徹底比較。ピラティスミラー調布・Rintosull調布店・ELEMENT調布店・zen place pilatesなど実在スタジオの料金・体験レッスン・アクセスを完全ガイド。コナミ運営・女性専用・通い放題パーソナルまで。',
   keywords: 'ピラティス,調布,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,ピラティスミラー,Rintosull,ELEMENT,zen place',
 }
 
@@ -233,6 +233,17 @@ const studios = [
       facilities: ['リフォーマー', 'チェア', 'バレル', 'シャワー', 'ロッカー', 'Wi-Fi'],
     },
   },
+  {
+    name: 'Pilates Mee調布店',
+    officialUrl: 'https://m-pilates.com/',
+    image: '/images/studios/pilates-mee.webp',
+    price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
+    trial: '体験 9,800円（キャンペーンで0円・2026/6/30まで）',
+    features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。調布駅から徒歩3分。',
+    access: '調布駅から徒歩3分',
+    address: '東京都調布市布田1丁目26-7 やまとみビル101',
+  },
 ]
 
 const faqs = [
@@ -294,7 +305,7 @@ export default function ChofuPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026年6月最新】ピラティス調布おすすめ4選！
+              【2026年6月最新】ピラティス調布おすすめ5選！
               <br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！
             </h1>
@@ -329,7 +340,7 @@ export default function ChofuPage() {
               調布は京王線「調布駅」が最寄りで、新宿まで京王線特急で約15分という好アクセスのエリア。映画の街として知られ、深大寺や神代植物公園など自然豊かな環境も魅力の街です。そんな調布エリアには、コナミ運営のスタジオから女性専用マシンピラティス、通い放題型パーソナルまで、多彩なピラティススタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、調布エリアでおすすめの実在するピラティススタジオ4選をまとめました。
+              そこでこの記事では、調布エリアでおすすめの実在するピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -367,7 +378,7 @@ export default function ChofuPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              調布のおすすめピラティススタジオ4選
+              調布のおすすめピラティススタジオ5選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (
@@ -652,7 +663,7 @@ export default function ChofuPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は調布エリアのおすすめピラティススタジオ4選をご紹介しました。
+              今回は調布エリアのおすすめピラティススタジオ5選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               調布は京王線特急で新宿まで約15分の好立地で、映画の街・自然豊かなエリアとして人気の街です。コナミ運営のピラティスミラー調布（月6回11,000円）、女性専用のRintosull調布店（体験無料）、通い放題型パーソナルのELEMENT調布店（1回2,750円〜）、全国展開のzen place pilates（京王線沿線利用可）と、それぞれ特徴の異なるスタジオが揃っています。

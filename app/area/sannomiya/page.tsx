@@ -12,8 +12,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス三宮おすすめ4選！人気スタジオの料金プランを簡単比較！',
-  description: '三宮エリアのおすすめピラティススタジオ4選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026最新】ピラティス三宮おすすめ5選！人気スタジオの料金プランを簡単比較！',
+  description: '三宮エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,三宮,神戸,兵庫,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -230,6 +230,17 @@ const studios = [
       facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'],
     },
   },
+  {
+    name: 'Dr.ピラティス 神戸三宮店',
+    officialUrl: 'https://drpilates.drtraining.jp/',
+    image: '/images/studios/dr-pilates.webp',
+    price: '月4回(45分) 29,700円〜 / 月4回(60分) 39,600円〜',
+    trial: '体験トレーニング 7,100円（無料キャンペーン実施店舗あり）',
+    features: ['マンツーマン（パーソナル）', 'マシン・マット両対応', '医師推奨パーソナルジムNo.1受賞'],
+    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオ。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せる。三宮エリア（詳細は公式サイト参照）。',
+    access: '三宮エリア（詳細は公式サイト参照）',
+    address: '兵庫県（詳細は公式サイト参照）',
+  },
 ]
 
 const faqs = [
@@ -292,7 +303,7 @@ export default function SannomiyaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス三宮おすすめ8選！<br className="hidden md:block" />
+              【2026最新】ピラティス三宮おすすめ5選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -335,7 +346,7 @@ export default function SannomiyaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、三宮エリアでおすすめのピラティススタジオ8選をまとめました。
+              そこでこの記事では、三宮エリアでおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -374,7 +385,7 @@ export default function SannomiyaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              三宮のおすすめピラティススタジオ8選
+              三宮のおすすめピラティススタジオ5選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (
