@@ -12,8 +12,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス大阪おすすめ10選！人気スタジオの料金プランを簡単比較！',
-  description: '大阪エリアのおすすめピラティススタジオ10選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026最新】ピラティス大阪おすすめ11選！人気スタジオの料金プランを簡単比較！',
+  description: '大阪エリアのおすすめピラティススタジオ11選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,大阪,梅田,難波,心斎橋,天王寺,御堂筋線,JR大阪駅,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -464,6 +464,17 @@ const studios = [
     access: '大阪上本町駅から徒歩3分',
     address: '大阪府大阪市天王寺区上汐3丁目8-4 313',
   },
+  {
+    name: 'zen place pilates 梅田',
+    officialUrl: 'https://www.zenplace.co.jp/',
+    image: '/images/studios/zenplace.webp',
+    price: 'マットグループ月4回 9,625円〜/フリープラン 14,960円〜（グレードにより異なる・税込）',
+    trial: 'マットグループ体験 2,200円〜（グレードにより異なる）/マシングループ体験 5,000円',
+    features: ['マット＋マシン（リフォーマー）', 'グループ＋プライベート', '男性も利用可'],
+    description: '全国100店舗以上を展開するピラティス専門スタジオ。マットグループ・マシン（リフォーマー）グループ・プライベートを提供し、男性も利用可。全国の系列スタジオを相互利用できる。JR「大阪駅」「北新地駅」徒歩3分。',
+    access: 'JR「大阪駅」「北新地駅」徒歩3分',
+    address: '大阪府（詳細は公式サイト参照）',
+  },
 ]
 
 const faqs = [
@@ -526,7 +537,7 @@ export default async function OsakaAreaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス大阪おすすめ10選！<br className="hidden md:block" />
+              【2026最新】ピラティス大阪おすすめ11選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -569,7 +580,7 @@ export default async function OsakaAreaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、大阪エリアでおすすめのピラティススタジオ10選をまとめました。
+              そこでこの記事では、大阪エリアでおすすめのピラティススタジオ11選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -717,7 +728,7 @@ export default async function OsakaAreaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              大阪のおすすめピラティススタジオ10選
+              大阪のおすすめピラティススタジオ11選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (

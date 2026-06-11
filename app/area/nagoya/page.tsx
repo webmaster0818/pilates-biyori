@@ -12,8 +12,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス名古屋おすすめ8選！人気スタジオの料金プランを簡単比較！',
-  description: '【2026年4月最新】名古屋のおすすめピラティススタジオ8選を徹底比較。グループ月4回13,420円〜の料金相場、マシン専門・女性専用・理学療法士監修のスタジオ情報、体験レッスンの持ち物まで完全網羅。',
+  title: '【2026最新】ピラティス名古屋おすすめ9選！人気スタジオの料金プランを簡単比較！',
+  description: '【2026年4月最新】名古屋のおすすめピラティススタジオ9選を徹底比較。グループ月4回13,420円〜の料金相場、マシン専門・女性専用・理学療法士監修のスタジオ情報、体験レッスンの持ち物まで完全網羅。',
   keywords: 'ピラティス,名古屋,愛知,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -107,7 +107,7 @@ const studios = [
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['少人数制', '最大8名', '女性に人気', 'ピラティスアカデミー運営'],
-    description: '名古屋で女性に人気のピラティススタジオ7選に紹介されたスタジオ。最大8名までの少人数制グループレッスンが特徴で、一人ひとりに的確な指導が行き届くよう配慮。誰でも通いやすいピラティススタジオです。まずは体験レッスンからお気軽にお申し込みください。',
+    description: '名古屋で女性に人気のピラティススタジオ9選に紹介されたスタジオ。最大8名までの少人数制グループレッスンが特徴で、一人ひとりに的確な指導が行き届くよう配慮。誰でも通いやすいピラティススタジオです。まずは体験レッスンからお気軽にお申し込みください。',
     access: '名古屋市内（詳細は公式サイト参照）',
     address: '愛知県名古屋市（詳細は公式サイト参照）',
     popularPlan: {
@@ -321,6 +321,17 @@ const studios = [
       facilities: ['姿勢矯正専門', 'パーソナル空間', 'トレーニング設備', 'マシン完備'],
     },
   },
+  {
+    name: 'zen place pilates 名駅',
+    officialUrl: 'https://www.zenplace.co.jp/',
+    image: '/images/studios/zenplace.webp',
+    price: 'マットグループ月4回 9,625円〜/フリープラン 14,960円〜（グレードにより異なる・税込）',
+    trial: 'マットグループ体験 2,200円〜（グレードにより異なる）/マシングループ体験 5,000円',
+    features: ['マット＋マシン（リフォーマー）', 'グループ＋プライベート', '男性も利用可'],
+    description: '全国100店舗以上を展開するピラティス専門スタジオ。マットグループ・マシン（リフォーマー）グループ・プライベートを提供し、男性も利用可。全国の系列スタジオを相互利用できる。「名古屋駅」ミヤコ2出口徒歩1分。',
+    access: '「名古屋駅」ミヤコ2出口徒歩1分',
+    address: '愛知県（詳細は公式サイト参照）',
+  },
 ]
 
 const faqs = [
@@ -383,7 +394,7 @@ export default function NagoyaAreaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス名古屋おすすめ8選！<br className="hidden md:block" />
+              【2026最新】ピラティス名古屋おすすめ9選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -426,7 +437,7 @@ export default function NagoyaAreaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、名古屋エリアでおすすめのピラティススタジオ8選をまとめました。
+              そこでこの記事では、名古屋エリアでおすすめのピラティススタジオ9選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -465,7 +476,7 @@ export default function NagoyaAreaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              名古屋のおすすめピラティススタジオ8選
+              名古屋のおすすめピラティススタジオ9選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (
