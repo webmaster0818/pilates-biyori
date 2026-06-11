@@ -53,6 +53,7 @@ export const prefectureAreas = [
       { slug: 'shiki', name: '志木' },
       { slug: 'soka', name: '草加' },
       { slug: 'wakoshi', name: '和光市' },
+      { slug: 'warabi', name: '蕨' },
     ],
   },
   {
@@ -65,6 +66,9 @@ export const prefectureAreas = [
       { slug: 'ichikawa', name: '市川' },
       { slug: 'nagareyama', name: '流山' },
       { slug: 'yachiyo', name: '八千代' },
+      { slug: 'tsudanuma', name: '津田沼' },
+      { slug: 'motoyawata', name: '本八幡' },
+      { slug: 'shin-urayasu', name: '新浦安' },
     ],
   },
   {
@@ -177,6 +181,11 @@ export const prefectureAreas = [
       { slug: 'tama-center', name: '多摩センター' },
       { slug: 'tanashi', name: '田無' },
       { slug: 'toritsu-daigaku', name: '都立大学' },
+      { slug: 'oizumigakuen', name: '大泉学園' },
+      { slug: 'omori', name: '大森' },
+      { slug: 'komagome', name: '駒込' },
+      { slug: 'nishikasai', name: '西葛西' },
+      { slug: 'ayase', name: '綾瀬' },
     ],
   },
   {
@@ -206,6 +215,8 @@ export const prefectureAreas = [
       { slug: 'shin-yurigaoka', name: '新百合ヶ丘' },
       { slug: 'totsuka', name: '戸塚' },
       { slug: 'tsunashima', name: '綱島' },
+      { slug: 'kamiooka', name: '上大岡' },
+      { slug: 'shonandai', name: '湘南台' },
     ],
   },
   {
@@ -318,6 +329,8 @@ export const prefectureAreas = [
       { slug: 'kyobashi-osaka', name: '京橋（大阪）' },
       { slug: 'senri-chuo', name: '千里中央' },
       { slug: 'suita', name: '吹田' },
+      { slug: 'sakaihigashi', name: '堺東' },
+      { slug: 'minamimorimachi', name: '南森町' },
     ],
   },
   {
@@ -336,6 +349,7 @@ export const prefectureAreas = [
       { slug: 'ashiya', name: '芦屋' },
       { slug: 'kawanishi', name: '川西' },
       { slug: 'motomachi', name: '元町' },
+      { slug: 'shukugawa', name: '夙川' },
     ],
   },
   {

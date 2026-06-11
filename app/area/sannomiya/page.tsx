@@ -12,8 +12,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス三宮おすすめ5選！人気スタジオの料金プランを簡単比較！',
-  description: '三宮エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026最新】ピラティス三宮おすすめ6選！人気スタジオの料金プランを簡単比較！',
+  description: '三宮エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,三宮,神戸,兵庫,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -241,6 +241,17 @@ const studios = [
     access: '三宮エリア（詳細は公式サイト参照）',
     address: '兵庫県（詳細は公式サイト参照）',
   },
+  {
+    name: '24/7ピラティス 三宮店',
+    officialUrl: 'https://247-sports.jp/pilates/',
+    image: '/images/studios/247-pilates.webp',
+    price: '月2回 14,500円〜 / 月4回 27,000円〜（税込）',
+    trial: '体験レッスン 無料（50分・手ぶらOK）',
+    features: ['女性専用', '完全個室パーソナル', '入会金不要・月謝制'],
+    description: '完全個室・マンツーマンの女性専用パーソナルピラティススタジオ。入会金不要の月謝制で、一人ひとりに合わせたオリジナルプログラムを提供。JR三ノ宮駅から徒歩6分。',
+    access: 'JR三ノ宮駅から徒歩6分',
+    address: '兵庫県神戸市中央区八幡通4丁目2-14 トロア神戸ビル6F',
+  },
 ]
 
 const faqs = [
@@ -303,7 +314,7 @@ export default function SannomiyaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス三宮おすすめ5選！<br className="hidden md:block" />
+              【2026最新】ピラティス三宮おすすめ6選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -346,7 +357,7 @@ export default function SannomiyaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、三宮エリアでおすすめのピラティススタジオ5選をまとめました。
+              そこでこの記事では、三宮エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -385,7 +396,7 @@ export default function SannomiyaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              三宮のおすすめピラティススタジオ5選
+              三宮のおすすめピラティススタジオ6選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (
