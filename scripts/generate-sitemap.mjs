@@ -67,6 +67,7 @@ const STATIC_PAGES = [
   { path: '/benefits/', priority: '0.5', changefreq: 'weekly', tier: 't2' },
   { path: '/sitemap/', priority: '0.3', changefreq: 'monthly', tier: 'static' },
   { path: '/about/', priority: '0.3', changefreq: 'monthly', tier: 'static' },
+  { path: '/contact/', priority: '0.3', changefreq: 'monthly', tier: 'static' },
   { path: '/editors/', priority: '0.3', changefreq: 'monthly', tier: 'static' },
   { path: '/content-policy/', priority: '0.3', changefreq: 'monthly', tier: 'static' },
   { path: '/privacy-policy/', priority: '0.3', changefreq: 'monthly', tier: 'static' },
