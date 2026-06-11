@@ -26,7 +26,7 @@ const studios = [
       { author: 'B.M', rating: 5, date: '2週間前', text: '和光市エリアで女性専用が魅力のスタジオ。通いやすい立地で続けやすいです。' },
       { author: 'C.O', rating: 4, date: '3週間前', text: '初心者でも安心して通えます。インストラクターの指導が丁寧で、体の変化を実感できています。' },
     ],
-    price: '月4回 11,220���〜',
+    price: '月4回 11,220円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', 'マシンピラティス専門', '体験0円', '和光市駅徒歩2分'],
     description: '女性専用マシンピラティス専門。和光市駅から徒歩2分。月4回11,220円〜。インストラクター全員女性。',
@@ -35,7 +35,7 @@ const studios = [
     popularPlan: {
       name: '女性専用プラン',
       description: '女性専用マシンピラティス専門。和光市駅から徒歩2分。月4回11,220円〜。インストラクター全員女性。',
-      price: '月4回 11,220���〜',
+      price: '月4回 11,220円（税込）〜',
     },
     options: ['女性専用', 'マシンピラティス専門', '体験0円', '和光市駅徒歩2分', '体験レッスン 0円'],
     userProfile: {
@@ -63,8 +63,8 @@ const studios = [
     trial: '体験無料キャンペーン実施中',
     features: ['女性専用', 'マシンピラティス', '駅徒歩1分', 'LAVA系列'],
     description: 'LAVA系列の女性専用マシンピラティス。和光市駅徒歩1分の好立地。体験無料キャンペーン中。',
-    access: '東武東上線・東京メトロ「和光市駅��から徒歩1分',
-    address: '埼玉県和光市（詳細は��式サイトでご確認ください）',
+    access: '東武東上線・東京メトロ「和光市駅」から徒歩1分',
+    address: '埼玉県和光市（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: '女性専用プラン',
       description: 'LAVA系列の女性専用マシンピラティス。和光市駅徒歩1分の好立地。体験無料キャンペーン中。',
@@ -96,7 +96,7 @@ const studios = [
     trial: '体験レッスンあり',
     features: ['総合スポーツクラブ', 'マットピラティス', '豊富なプログラム', 'プール・ジム併設'],
     description: '明治が運営する総合スポーツクラブ。マットピラティスをはじめ、ヨガやエアロビクスなど豊富なプログラム。ジムやプールも併設で総合的な運動が可能。',
-    access: '東武東上線・東京メトロ「和光市��」から徒歩圏内',
+    access: '東武東上線・東京メトロ「和光市駅」から徒歩圏内',
     address: '埼玉県和光市（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: '総合スポーツクラブプラン',
@@ -130,7 +130,7 @@ const studios = [
     features: ['女性専用', '完全個別レッスン', 'パーソナル専門', '初心者〜経験者'],
     description: '女性専用の完全個別パーソナルピラティス。一人ひとりの体に合わせたサポートで初心者〜経験者まで対応。',
     access: '東武東上線・東京メトロ「和光市駅」から徒歩圏内',
-    address: '埼��県和光市（���細は公式サイトでご確認ください）',
+    address: '埼玉県和光市（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: '女性専用プラン',
       description: '女性専用の完全個別パーソナルピラティス。一人ひとりの体に合わせたサポートで初心者〜経験者まで対応。',
@@ -158,16 +158,16 @@ const studios = [
       { author: 'N.Q', rating: 5, date: '2週間前', text: '和光市エリアで全国展開大手が魅力のスタジオ。通いやすい立地で続けやすいです。' },
       { author: 'O.S', rating: 4, date: '3週間前', text: '初心者でも安心して通えます。インストラクターの指導が丁寧で、体の変化を実感できています。' },
     ],
-    price: '月4回 13,200円��',
+    price: '月4回 13,200円〜',
     trial: '体験レッスン 1,000円',
     features: ['全国展開大手', 'マット&マシン完備', '全店舗利用可能', '男女共用'],
     description: '全国130店舗以上の大手。東上線沿線のスタジオを利用可能。全店舗利用可能プランで柔軟に通えます。',
     access: '東武東上線沿線のスタジオを利用可能',
-    address: '東上線沿線各スタジオ（詳細は公式サイトでご確認くだ���い）',
+    address: '東上線沿線各スタジオ（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: '全国展開大手プラン',
       description: '全国130店舗以上の大手。東上線沿線のスタジオを利用可能。全店舗利用可能プランで柔軟に通えます。',
-      price: '月4回 13,200円��',
+      price: '月4回 13,200円（税込）',
     },
     options: ['全国展開大手', 'マット&マシン完備', '全店舗利用可能', '男女共用', '体験レッスン 1,000円'],
     userProfile: {
@@ -186,12 +186,12 @@ const studios = [
 const faqs = [
   { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！和光市エリアのスタジオは初心者歓迎がほとんど。pilates K 和光市店は女性専用で安心。まずは体験レッスンから始めてみましょう。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマーなどの専用マシンを使います。マシンはバネで負荷調整ができ初心者にもおすすめ。和光市エリアではマシンピラティス対応スタジオが充実しています。' },
-  { question: '和光市のピラティスの料金相場は？', answer: 'Rintosull 和光市店はプレミアムプラン 月額10,978円（税込）、ザバススポーツクラブ和光は月額8,000円〜（施設利用料込）、zen place pilates（東上線沿線）は月4回 13,200円��。目的と頻度に合わせて選びましょう。' },
+  { question: '和光市のピラティスの料金相場は？', answer: 'Rintosull 和光市店はプレミアムプラン 月額10,978円（税込）、ザバススポーツクラブ和光は月額8,000円〜（施設利用料込）、zen place pilates（東上線沿線）は月4回 13,200円〜です。目的と頻度に合わせて選びましょう。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめ。慣れてきたら週2〜3回に。最低2〜3ヶ月は継続しましょう。' },
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えて基礎代謝が上がり、太りにくい体質に変わります。2〜3ヶ月の継続で効果を実感する方が多いです。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。pilates K 和光市店は体験レッスン 0円、Rintosull 和光市店は体験無料キャンペーン実施中。' },
-  { question: '男性でも通えるスタジオはありますか��', answer: 'ザバススポーツクラブ和光、zen place pilates（東上線沿線）は男性もOKです。は女性専用です。' },
-  { question: '和光市駅からのアクセスは？', answer: '和光市駅は東武東上線・東京メトロ有楽町線/副都心線が利用でき、池袋まで東武東上線で約15分、有楽町線で都心直結。各スタジオとも駅から徒歩圏内でアクセス良好です��' },
+  { question: '男性でも通えるスタジオはありますか？', answer: 'ザバススポーツクラブ和光、zen place pilates（東上線沿線）は男性もOKです。は女性専用です。' },
+  { question: '和光市駅からのアクセスは？', answer: '和光市駅は東武東上線・東京メトロ有楽町線/副都心線が利用でき、池袋まで東武東上線で約15分、有楽町線で都心直結。各スタジオとも駅から徒歩圏内でアクセス良好です。' },
   { question: 'パーソナルレッスンを受けたいのですが？', answer: 'パーソナルマシンピラティスSAKURA 和光市がパーソナルレッスンに対応しています。' },
   { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '個人差はありますが、2ヶ月を過ぎた頃から変化を実感する方が多いです。週1〜2回で最低2〜3ヶ月の継続がおすすめです。' },
 ]
@@ -207,15 +207,15 @@ export default function WakoshiPage() {
         { name: '和光市', url: 'https://pilates-biyori.com/area/wakoshi/' },
       ]} />
       <main className="pt-20 bg-white">
-        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年04月21日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラテ��ス和光市おすすめ5選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比��！</h1></div></section>
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年04月21日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス和光市おすすめ5選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1></div></section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">和光市</span></nav></div></section>
         <TableOfContents areaName="和光市" studioNames={studios.map((s) => s.name)} />
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p><p className="text-warm-600 leading-relaxed mb-6">Pilates-Biyori編集部です！</p><p className="text-warm-600 leading-relaxed mb-6">あなたは、</p><p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p><p className="text-warm-600 leading-relaxed mb-6">「和光市で人気のピラティススタジオを知���たい」</p><p className="text-warm-600 leading-relaxed mb-6">と思っていま��んか？</p>
-            <p className="text-warm-600 leading-relaxed mb-8">和光市は東武東上線・東京メトロ有楽町線/副都心線が利用でき、池袋まで東武東上線で約15分、有楽町線で都心直結の好アクセスエリア。東武東上線と東���メトロ有楽町線・副都心線が乗り入れ、都心へのアクセス抜群。理化学研究所や国立保健医療科学院がある学術都市。そんな和光市エリアには、多彩なピラティススタジオが揃っています。</p>
-            <p className="text-warm-600 leading-relaxed mb-8">そこでこの��事では、和光市エリアでおすすめの実在するピラティススタジオ5選をまとめました。</p>
-            <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8"><h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2><ul className="space-y-2 text-warm-700"><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>和光市でピラティススタジオを探している</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみた��</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>コスパの良いスタジオを知りた��</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>東武東上線・東京メトロ有楽町線/副都心線沿線で通いやすいスタジオがいい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較したい</span></li></ul></div>
+            <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p><p className="text-warm-600 leading-relaxed mb-6">Pilates-Biyori編集部です！</p><p className="text-warm-600 leading-relaxed mb-6">あなたは、</p><p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p><p className="text-warm-600 leading-relaxed mb-6">「和光市で人気のピラティススタジオを知りたい」</p><p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
+            <p className="text-warm-600 leading-relaxed mb-8">和光市は東武東上線・東京メトロ有楽町線/副都心線が利用でき、池袋まで東武東上線で約15分、有楽町線で都心直結の好アクセスエリア。東武東上線と東京メトロ有楽町線・副都心線が乗り入れ、都心へのアクセス抜群。理化学研究所や国立保健医療科学院がある学術都市。そんな和光市エリアには、多彩なピラティススタジオが揃っています。</p>
+            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、和光市エリアでおすすめの実在するピラティススタジオ5選をまとめました。</p>
+            <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8"><h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2><ul className="space-y-2 text-warm-700"><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>和光市でピラティススタジオを探している</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>コスパの良いスタジオを知りたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>東武東上線・東京メトロ有楽町線/副都心線沿線で通いやすいスタジオがいい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較したい</span></li></ul></div>
             <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
           </div>
         </section>
@@ -232,15 +232,15 @@ export default function WakoshiPage() {
 
         <section className="py-16 bg-warm-50" id="cautions"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">和光市でスタジオを選ぶ際の注意点</h2><div className="space-y-6">
           <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">駅からのアクセスを事前確認</h3><p className="text-warm-600 leading-relaxed">和光市駅は東武東上線・東京メトロ有楽町線/副都心線が乗り入れます。各スタジオとも駅から徒歩圏内ですが、初回訪問時は余裕を持って出発し、ルートを確認しておきましょう。</p></div>
-          <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">女性専用と男女共用の違いに注意</h3><p className="text-warm-600 leading-relaxed">和光市エリアには女性専用スタジオと男女共用スタジオの両方があります。カップルで通いたい場合は男女共用を、女性だけの環境を希望する方は女性専用を選びましょう��</p></div>
+          <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">女性専用と男女共用の違いに注意</h3><p className="text-warm-600 leading-relaxed">和光市エリアには女性専用スタジオと男女共用スタジオの両方があります。カップルで通いたい場合は男女共用を、女性だけの環境を希望する方は女性専用を選びましょう。</p></div>
           <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">郊外エリアのスタジオ数に注意</h3><p className="text-warm-600 leading-relaxed">和光市は都心と比べてスタジオの選択肢が限られるため、人気の時間帯は予約が埋まりやすい場合があります。早めの予約がおすすめ。沿線の他駅のスタジオも選択肢に入れましょう。</p></div>
           <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">体験レッスンで複数比較を</h3><p className="text-warm-600 leading-relaxed">スタジオの雰囲気やインストラクターとの相性は、実際に足を運んで初めてわかるもの。2〜3スタジオの体験を受けてから決めるのが失敗しないコツです。</p></div>
         </div></div></section>
 
-        <section className="py-16 bg-white" id="trial-guide"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">体験レッスン当日の持ち物・服装ガイド</h2><div className="bg-warm-50 rounded-lg p-8 border border-warm-200"><div className="grid grid-cols-1 md:grid-cols-2 gap-8"><div><h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3><ul className="space-y-3 text-warm-600"><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。</span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong></span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong></span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong></span></li></ul></div><div><h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3><ul className="space-y-3 text-warm-600"><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう���</span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>でフォーム確認。</span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。事前に確認を。</span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おき���しょう。</span></li></ul></div></div><div className="mt-6 p-4 bg-white rounded border border-warm-200"><p className="text-sm text-warm-600"><strong>和光市エリアの豆知識：</strong>和光市は東武東上線と東���メトロ有楽町線・副都心線が乗り入れ、都心へのアクセス抜群。理化学研究所や国立保健医療科学院がある学術都市。ピラティス帰りに周辺を散策するのもおすすめです。</p></div></div></div></section>
+        <section className="py-16 bg-white" id="trial-guide"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">体験レッスン当日の持ち物・服装ガイド</h2><div className="bg-warm-50 rounded-lg p-8 border border-warm-200"><div className="grid grid-cols-1 md:grid-cols-2 gap-8"><div><h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3><ul className="space-y-3 text-warm-600"><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。</span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong></span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong></span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong></span></li></ul></div><div><h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3><ul className="space-y-3 text-warm-600"><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。</span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>でフォーム確認。</span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。事前に確認を。</span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。</span></li></ul></div></div><div className="mt-6 p-4 bg-white rounded border border-warm-200"><p className="text-sm text-warm-600"><strong>和光市エリアの豆知識：</strong>和光市は東武東上線と東京メトロ有楽町線・副都心線が乗り入れ、都心へのアクセス抜群。理化学研究所や国立保健医療科学院がある学術都市。ピラティス帰りに周辺を散策するのもおすすめです。</p></div></div></div></section>
 
         <section className="py-16 bg-white" id="kodawari"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">目的別おすすめスタジオ</h2><div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3><p className="text-warm-600 text-sm mb-4">リーズナブルに始めたい方に。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• pilates K 和光市店（月4回 11,220���〜）</li><li className="text-warm-700">• Rintosull 和光市店（プレミアムプラン 月額10,978円）</li></ul></div>
+          <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3><p className="text-warm-600 text-sm mb-4">リーズナブルに始めたい方に。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• pilates K 和光市店（月4回 11,220円〜）</li><li className="text-warm-700">• Rintosull 和光市店（プレミアムプラン 月額10,978円）</li></ul></div>
           <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3><p className="text-warm-600 text-sm mb-4">マンツーマンで丁寧な指導。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• パーソナルマシンピラティスSAKURA 和光市</li></ul></div>
           <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">女性専用・安心</h3><p className="text-warm-600 text-sm mb-4">女性だけの空間で安心。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• pilates K 和光市店</li><li className="text-warm-700">• Rintosull 和光市店</li><li className="text-warm-700">• パーソナルマシンピラティスSAKURA 和光市</li></ul></div>
         </div></div></section>
@@ -256,11 +256,11 @@ export default function WakoshiPage() {
         <section className="py-16 bg-warm-50" id="how-to-choose"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">失敗しないスタジオの選び方</h2><div className="space-y-8">
           <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span><h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3></div><p className="text-warm-600 leading-relaxed">ダイエット、姿勢改善、健康維持など、目的によって最適なスタジオは変わります。</p></div>
           <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">レッスン形式を選ぶ</h3></div><p className="text-warm-600 leading-relaxed">グループ、パーソナル、セミパーソナルなど。好みと予算に合わせて選びましょう。</p></div>
-          <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行��</h3></div><p className="text-warm-600 leading-relaxed">スタジオの雰囲気やインストラクターとの相性を確認。2〜3スタジオ比較がおすすめ。</p></div>
-          <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div><p className="text-warm-600 leading-relaxed">和光市駅から徒歩圏内のスタジオが多数。通勤経路に合わせて選ぶと長続きし��す。</p></div>
+          <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">スタジオの雰囲気やインストラクターとの相性を確認。2〜3スタジオ比較がおすすめ。</p></div>
+          <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div><p className="text-warm-600 leading-relaxed">和光市駅から徒歩圏内のスタジオが多数。通勤経路に合わせて選ぶと長続きします。</p></div>
         </div></div></section>
 
-        <section className="py-16 bg-white" id="faq"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">よく��る質問</h2><div className="space-y-6">{faqs.map((faq, index) => (<div key={index} className="border border-warm-200 rounded-lg overflow-hidden"><details className="group"><summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition"><h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3><svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" /></svg></summary><div className="px-6 pb-6 text-warm-600 leading-relaxed">{faq.answer}</div></details></div>))}</div></div></section>
+        <section className="py-16 bg-white" id="faq"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">よくある質問</h2><div className="space-y-6">{faqs.map((faq, index) => (<div key={index} className="border border-warm-200 rounded-lg overflow-hidden"><details className="group"><summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition"><h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3><svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" /></svg></summary><div className="px-6 pb-6 text-warm-600 leading-relaxed">{faq.answer}</div></details></div>))}</div></div></section>
 
         <section className="py-16 bg-warm-50" id="summary"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2><p className="text-warm-600 leading-relaxed mb-6">今回は和光市エリアのおすすめピラティススタジオ5選をご紹介しました。</p><p className="text-warm-600 leading-relaxed mb-6">和光市は東武東上線・東京メトロ有楽町線/副都心線で池袋まで東武東上線で約15分、有楽町線で都心直結の好アクセスエリア。pilates K 和光市店、Rintosull 和光市店、ザバススポーツクラブ和光など個性豊かなスタジオが揃っています。</p><p className="text-warm-600 leading-relaxed mb-6">まずは体験レッスンから始めてみましょう。</p><p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p></div></section>
 

@@ -12,8 +12,8 @@ import Script from 'next/script'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス金山おすすめ6選！人気スタジ���の料金プランを簡単比較！',
-  description: '名古屋金山エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験��ッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026最新】ピラティス金山おすすめ6選！人気スタジオの料金プランを簡単比較！',
+  description: '名古屋金山エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,金山,名古屋,愛知,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -28,7 +28,7 @@ const studios = [
         author: 'T.K',
         rating: 5,
         date: '1週間前',
-        text: '金山駅2番出口から��歩5分。グレード01（最上位）のスタジオで設備が充実。マット・マシン・プライベートの3タイプが選べます。',
+        text: '金山駅2番出口から徒歩5分。グレード01（最上位）のスタジオで設備が充実。マット・マシン・プライベートの3タイプが選べます。',
       },
       {
         author: 'S.N',
@@ -109,7 +109,7 @@ const studios = [
     },
     options: [
       'マシンピラティス2店舗通い放題（13,800円）',
-      'マシンピラ��ィス全国通い放題（16,800円）',
+      'マシンピラティス全国通い放題（16,800円）',
       'ピラティス&ホットヨガ&暗闇キックボクシング通い放題（18,800円）',
       '体験レッスン0円',
     ],
@@ -270,7 +270,7 @@ const studios = [
       '体験レッスン',
       '月額会員プラン',
       'ホットヨガ',
-      'ピラティス���ログラム',
+      'ピラティスプログラム',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
@@ -328,7 +328,7 @@ const studios = [
     userProfile: {
       ageRange: '30代〜50代が中心',
       genderRatio: '女性80% / 男性20%',
-      purpose: ['姿勢改善', '腰痛改善', '体��強化', '健康維持'],
+      purpose: ['姿勢改善', '腰痛改善', '体幹強化', '健康維持'],
     },
     basicInfo: {
       hours: '完全予約制（公式サイトでご確認ください）',
@@ -429,7 +429,7 @@ export default function KanayamaPage() {
             <p className="text-warm-600 leading-relaxed mb-6">「金山で人気のピラティススタジオを知りたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、名古屋金山エリアでおすすめのピラティススタ��オ6選をまとめました。
+              そこでこの記事では、名古屋金山エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -509,7 +509,7 @@ export default function KanayamaPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              金山はJR・名鉄・地下鉄の3路線が乗り入れる名古屋南部のターミナル駅。名古屋駅や栄と比べて家賃が抑えられるため、スタジオの料金もやや低めの傾向���あります。大手チェーンのzen placeやRintosullに加え、セミパーソナルのPilates Meeや独自のセルフフリープランを提供するPPPスタジオなど、バリエーション豊富。名古屋駅からJRで約5分、栄から地下鉄で約10分とアクセスも良く、仕事帰りの立ち寄りにも便利なエリアです。
+              金山はJR・名鉄・地下鉄の3路線が乗り入れる名古屋南部のターミナル駅。名古屋駅や栄と比べて家賃が抑えられるため、スタジオの料金もやや低めの傾向にあります。大手チェーンのzen placeやRintosullに加え、セミパーソナルのPilates Meeや独自のセルフフリープランを提供するPPPスタジオなど、バリエーション豊富。名古屋駅からJRで約5分、栄から地下鉄で約10分とアクセスも良く、仕事帰りの立ち寄りにも便利なエリアです。
             </p>
           </div>
         </section>
@@ -566,7 +566,7 @@ export default function KanayamaPage() {
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>金山エリアの豆知識：</strong>金山はJR・名鉄・地下鉄の3路線が集まる名古屋南部のターミナル駅。金山総合駅周辺にはショッピングモールや飲食店が充実しており、レッ��ン前後の時間も有���活用できます。名古屋駅からJRで約5分、栄から地下鉄で約10分と、名古屋市内のどこからでもアクセスしやすいのが金山の強みです。
+                  <strong>金山エリアの豆知識：</strong>金山はJR・名鉄・地下鉄の3路線が集まる名古屋南部のターミナル駅。金山総合駅周辺にはショッピングモールや飲食店が充実しており、レッスン前後の時間も有効活用できます。名古屋駅からJRで約5分、栄から地下鉄で約10分と、名古屋市内のどこからでもアクセスしやすいのが金山の強みです。
                 </p>
               </div>
             </div>
@@ -580,7 +580,7 @@ export default function KanayamaPage() {
             <div className="space-y-8">
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span><h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3></div>
-                <p className="text-warm-600 leading-relaxed">ダイエット、姿��改善、体幹強化など目的によって最適なスタジオは変わります。ホット環境でのデトックスならCALDO、本格マシンピラティスならzen place。</p>
+                <p className="text-warm-600 leading-relaxed">ダイエット、姿勢改善、体幹強化など目的によって最適なスタジオは変わります。ホット環境でのデトックスならCALDO、本格マシンピラティスならzen place。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">予算を決める</h3></div>
@@ -625,7 +625,7 @@ export default function KanayamaPage() {
             <p className="text-warm-600 leading-relaxed mb-6">今回は名古屋金山エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？</p>
             <p className="text-warm-600 leading-relaxed mb-6">金山は3路線が集まるターミナル駅で、大手チェーンから個性的な個人スタジオまで選択肢が豊富。セミパーソナルやセルフフリーなど、ユニークなプランを提供するスタジオもあり、自分に合ったスタイルで通えます。</p>
             <p className="text-warm-600 leading-relaxed mb-6">ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。</p>
-            <p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願���ています。</p>
+            <p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p>
           </div>
         </section>
 
@@ -633,7 +633,7 @@ export default function KanayamaPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2>
-            <p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスン無料〜3,000円。<br />まずは気軽に��験してみましょう。</p>
+            <p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスン無料〜3,000円。<br />まずは気軽に体験してみましょう。</p>
             <Link href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded">おすすめスタジオ一覧に戻る</Link>
           </div>
         </section>

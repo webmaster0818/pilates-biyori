@@ -1028,14 +1028,14 @@ export default function ShinjukuPage() {
                   <p className="text-sm text-warm-600">zen place pilatesのマット月4回9,625円〜が最安クラス。ピラティスKは11,220円〜、the SILKは15,070円〜。CLUB PILATESは10,890円〜で無料体験ありとコスパに優れています。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
-                  <h3 className="font-bold text-warm-900 mb-3">パー���ナルレッスン</h3>
+                  <h3 className="font-bold text-warm-900 mb-3">パーソナルレッスン</h3>
                   <p className="text-3xl font-bold text-warm-800 mb-2">4,400円〜22,000円</p>
-                  <p className="text-sm text-warm-600">ピラティスミラーは30分4,400円〜で都内最安レベル���STUDIO IVYは完全個室で月2回15,000円〜。ELEMENTは30分マンツーマン月4回22,000円。個室・時間・頻度で選びましょう。</p>
+                  <p className="text-sm text-warm-600">ピラティスミラーは30分4,400円〜で都内最安レベル。STUDIO IVYは完全個室で月2回15,000円〜。ELEMENTは30分マンツーマン月4回22,000円。個室・時間・頻度で選びましょう。</p>
                 </div>
               </div>
               <div className="bg-white rounded-lg p-5 border border-warm-200">
                 <h3 className="font-bold text-warm-900 mb-3">入会金・体験レッスン費用</h3>
-                <p className="text-sm text-warm-600">入会金は5,000円〜30,000円台が一般的ですが、キャンペーン期間中は0円になるケースが多いです。体験レッスンはCLUB PILATESが無料、zen placeは1,000円〜、新規オープン店舗は特別価格で体験できることも。複数スタジオで体験して比較するのがベストで���。</p>
+                <p className="text-sm text-warm-600">入会金は5,000円〜30,000円台が一般的ですが、キャンペーン期間中は0円になるケースが多いです。体験レッスンはCLUB PILATESが無料、zen placeは1,000円〜、新規オープン店舗は特別価格で体験できることも。複数スタジオで体験して比較するのがベストです。</p>
               </div>
             </div>
           </div>
@@ -1069,7 +1069,7 @@ export default function ShinjukuPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">複数店舗利用できるかもチェック</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  zen placeは全国140以上のスタジオを相互利用可能。休日は自宅近くのスタジオ、平日は新宿のスタジオと使い分けることで通いやすさが格段に上がります。CLUB PILATESも全国の店舗で利用可能です。ライフスタイルに合わせて柔軟に通え��スタジオを選びましょう。
+                  zen placeは全国140以上のスタジオを相互利用可能。休日は自宅近くのスタジオ、平日は新宿のスタジオと使い分けることで通いやすさが格段に上がります。CLUB PILATESも全国の店舗で利用可能です。ライフスタイルに合わせて柔軟に通えるスタジオを選びましょう。
                 </p>
               </div>
             </div>
@@ -1080,24 +1080,24 @@ export default function ShinjukuPage() {
         <section className="py-16 bg-white" id="trial-guide">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              体験レッスン���日の持ち物・服��ガイド
+              体験レッスン当日の持ち物・服装ガイド
             </h2>
             <div className="bg-warm-50 rounded-lg p-8 border border-warm-200">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが基本。ゆったりしすぎる服はマシンに挟まる恐れがあるので避けましょ���。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが基本。ゆったりしすぎる服はマシンに挟まる恐れがあるので避けましょう。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml以上）</strong>：レッスン中は想像以上に汗をかきます。水は必ず持参しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用に1枚は必須。マシン用タ��ルはスタジオ側で用意され���ことが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用に1枚は必須。マシン用タオルはスタジオ側で用意されることが多いです。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>グリップソックス</strong>：マシンピラティスでは靴下着用が必須のスタジオがほとんど。滑り止め付きのグリップソックスを用意しましょう。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸��性のある素材</strong>が必須。ピラティスでは脚を高く上げたり体をひねる動きが多いため、動きを妨げない服を選びましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フィット感のあるトップス</strong>がおすすめ。逆さまの姿勢になることもあるため、めくれ上がりにくい服を選ぶと安心で���。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>が必須。ピラティスでは脚を高く上げたり体をひねる動きが多いため、動きを妨げない服を選びましょう。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フィット感のあるトップス</strong>がおすすめ。逆さまの姿勢になることもあるため、めくれ上がりにくい服を選ぶと安心です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル対応</strong>のスタジオも。the SILKやピラティスKは手ぶら体験OKの場合があるので事前に確認を。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリーは外して</strong>参加しましょう。マシンのスプリングやストラップに引っかかる危険があります。</span></li>
                   </ul>
@@ -1105,7 +1105,7 @@ export default function ShinjukuPage() {
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>新宿エリアの豆知���：</strong>新宿駅周辺はスタジオ密度が高いため、1日で2〜3スタジオをはしごして体験する方もいます。体験後はルミネやNEWoManでランチ・ショッピングを楽しむのもおすすめ。西口エリアはビジネス街で静かな環境、東口エリアは活気ある雰囲気とエリアの個性もスタジオ選びの参考に。
+                  <strong>新宿エリアの豆知識：</strong>新宿駅周辺はスタジオ密度が高いため、1日で2〜3スタジオをはしごして体験する方もいます。体験後はルミネやNEWoManでランチ・ショッピングを楽しむのもおすすめ。西口エリアはビジネス街で静かな環境、東口エリアは活気ある雰囲気とエリアの個性もスタジオ選びの参考に。
                 </p>
               </div>
             </div>

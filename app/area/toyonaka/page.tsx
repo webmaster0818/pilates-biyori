@@ -61,13 +61,13 @@ const studios = [
     image: '/images/studios/pilates-kasane-osaka.webp',
     rating: 4.8, reviewCount: 74,
     reviews: [
-      { author: 'Y.K', rating: 5, date: '1週間前', text: '曽根駅から徒歩2分の好立地。ピラティスマシン完備でプライベートレッスンが受けられます。アスリートから高齢者まで幅広��対応。' },
+      { author: 'Y.K', rating: 5, date: '1週間前', text: '曽根駅から徒歩2分の好立地。ピラティスマシン完備でプライベートレッスンが受けられます。アスリートから高齢者まで幅広く対応。' },
       { author: 'T.M', rating: 5, date: '2週間前', text: '丁寧なカウンセリングから始まり、自分の体に合ったプログラムを組んでもらえます。腰痛が劇的に改善しました。' },
       { author: 'H.S', rating: 4, date: '3週間前', text: 'アットホームな雰囲気で通いやすい。インストラクターの知識が豊富で信頼できます。' },
     ],
     price: 'パーソナル 1回 7,500円〜', trial: '体験レッスンあり',
     features: ['曽根駅徒歩2分', 'パーソナル対応', 'マシン完備', '幅広い年齢対応'],
-    description: '阪急宝塚線曽根駅から徒歩2分のピラティス専門スタジオ。ピラティ��マシンを完備し、プライベートレッスンを提供。アスリートから高齢者まで幅広いニーズに対応。丁寧なカウンセリングで個々の体の状態に合わせた指導。',
+    description: '阪急宝塚線曽根駅から徒歩2分のピラティス専門スタジオ。ピラティスマシンを完備し、プライベートレッスンを提供。アスリートから高齢者まで幅広いニーズに対応。丁寧なカウンセリングで個々の体の状態に合わせた指導。',
     access: '阪急宝塚線「曽根駅」徒歩2分',
     address: '大阪府豊中市曽根エリア（詳細は公式サイトでご確認ください）',
     popularPlan: { name: 'パーソナルレッスン', description: 'マシンピラティスのマンツーマン指導。幅広い年齢対応。', price: '1回 7,500円〜（税込）' },
@@ -100,7 +100,7 @@ const studios = [
     rating: 4.5, reviewCount: 78,
     reviews: [
       { author: 'K.T', rating: 5, date: '1週間前', text: 'コナミスポーツクラブが展開する女性専用スタジオ。鏡を見ながらフォームを確認できるので効果的です。1回30分で手軽。' },
-      { author: 'S.M', rating: 5, date: '2週間前', text: '豊中駅か���徒歩7分。月額11,000円で月6回通えるのでコスパが良い。少人数制で丁寧に見てもらえます。' },
+      { author: 'S.M', rating: 5, date: '2週間前', text: '豊中駅から徒歩7分。月額11,000円で月6回通えるのでコスパが良い。少人数制で丁寧に見てもらえます。' },
       { author: 'A.H', rating: 4, date: '3週間前', text: '施設がきれいで清潔感がある。女性専用なので安心して通えます。定休日は水曜なので注意。' },
     ],
     price: '月額 11,000円（月6回）', trial: '体験レッスン 2,200円',
@@ -195,7 +195,7 @@ export default function ToyonakaPage() {
             <p className="text-warm-600 leading-relaxed mb-6">「豊中で人気のピラティススタジオを知りたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、豊中エリアでおすすめのピラティススタジオ6選をまとめました。豊中は阪急宝塚線沿線の閑静な住宅地���、大阪空港にも近接。落ち着いた環境でピラティスを楽しめるスタジオが充実しています。
+              そこでこの記事では、豊中エリアでおすすめのピラティススタジオ6選をまとめました。豊中は阪急宝塚線沿線の閑静な住宅地で、大阪空港にも近接。落ち着いた環境でピラティスを楽しめるスタジオが充実しています。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -289,7 +289,7 @@ export default function ToyonakaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">住宅地ならではの落ち着いた環境</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  豊中は閑���な住宅地のため、スタジオも落ち着いた雰囲気が多いです。都心の喧騒を離れてリラックスしてレッスンに集中したい方に向いています。駐車場のあるスタジオもあるので、車で通いたい方は事前に確認しましょう。
+                  豊中は閑静な住宅地のため、スタジオも落ち着いた雰囲気が多いです。都心の喧騒を離れてリラックスしてレッスンに集中したい方に向いています。駐車場のあるスタジオもあるので、車で通いたい方は事前に確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

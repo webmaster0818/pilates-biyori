@@ -64,7 +64,7 @@ const studios = [
     rating: 4.5,
     reviewCount: 48,
     reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '女性専用のマシンピラティススタジオ。加圧BFRを組み合わせた独自のプログラムでエクササイズ効果を高める。。通いやすくて気に入っています。' },
+      { author: 'M.S', rating: 5, date: '1週間前', text: '女性専用のマシンピラティススタジオ。加圧BFRを組み合わせた独自のプログラムでエクササイズ効果を高める。通いやすくて気に入っています。' },
       { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧。初心者でも安心して通えます。' },
       { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
     ],

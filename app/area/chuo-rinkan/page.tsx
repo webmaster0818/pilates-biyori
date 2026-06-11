@@ -10,9 +10,9 @@ import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 export const metadata = {
-  title: '【2026最新】ピラティス中央林��おすすめ5選！人気スタジオの料金プランを簡単比較！',
-  description: '中央林��エリアのおすすめピラティススタジオ5選を徹底比較。Rintosull 中央林間店・Lucio 中央林間店・INSIGHT ピラティス＆トレーニング 中央林間など実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
-  keywords: 'ピラティス,中央林��,神奈川県大和市,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
+  title: '【2026最新】ピラティス中央林間おすすめ5選！人気スタジオの料金プランを簡単比較！',
+  description: '中央林間エリアのおすすめピラティススタジオ5選を徹底比較。Rintosull 中央林間店・Lucio 中央林間店・INSIGHT ピラティス＆トレーニング 中央林間など実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
+  keywords: 'ピラティス,中央林間,神奈川県大和市,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
 const studios = [
@@ -23,7 +23,7 @@ const studios = [
     reviewCount: 119,
     reviews: [
       { author: 'A.K', rating: 5, date: '1週間前', text: 'LAVA系列の女性専用マシンピラティス。中央林間駅より徒歩2分。多彩なプログラム。体験無料。' },
-      { author: 'B.M', rating: 5, date: '2週間前', text: '中央林��エリアで女性専用が魅力のスタジオ。通いやすい立地で続けやすいです。' },
+      { author: 'B.M', rating: 5, date: '2週間前', text: '中央林間エリアで女性専用が魅力のスタジオ。通いやすい立地で続けやすいです。' },
       { author: 'C.O', rating: 4, date: '3週間前', text: '初心者でも安心して通えます。インストラクターの指導が丁寧で、体の変化を実感できています。' },
     ],
     price: 'プレミアムプラン 月額10,978円（税込）',
@@ -56,15 +56,15 @@ const studios = [
     reviewCount: 13,
     reviews: [
       { author: 'D.L', rating: 5, date: '1週間前', text: '2026年1月オープンの完全個室パーソナルマシンピラティス。週1回45分で結果を出すプログラム。運動初心者向け。' },
-      { author: 'E.N', rating: 5, date: '2週間前', text: '中央林��エリアで完全個室パーソナルが魅力のスタジオ。通いやすい立地で続けやすいです。' },
+      { author: 'E.N', rating: 5, date: '2週間前', text: '中央林間エリアで完全個室パーソナルが魅力のスタジオ。通いやすい立地で続けやすいです。' },
       { author: 'F.P', rating: 4, date: '3週間前', text: '初心者でも安心して通えます。インストラクターの指導が丁寧で、体の変化を実感できています。' },
     ],
     price: 'パーソナルレッスン（公式サイトで確認）',
     trial: '体験レッスンあり',
     features: ['完全個室パーソナル', '2026年1月OPEN', '駅徒歩2分', 'オーダーメイド'],
     description: '2026年1月オープンの完全個室パーソナルマシンピラティス。週1回45分で結果を出すプログラム。運動初心者向け。',
-    access: '東急田園都市線・小田急江ノ島線「中央林間駅��から徒歩2分',
-    address: '��奈川県大和市中央林間3-11-12 東総ビル202',
+    access: '東急田園都市線・小田急江ノ島線「中央林間駅」から徒歩2分',
+    address: '神奈川県大和市中央林間3-11-12 東総ビル202',
     popularPlan: {
       name: '完全個室パーソナルプラン',
       description: '2026年1月オープンの完全個室パーソナルマシンピラティス。週1回45分で結果を出すプログラム。運動初心者向け。',
@@ -89,14 +89,14 @@ const studios = [
     reviewCount: 29,
     reviews: [
       { author: 'G.M', rating: 5, date: '1週間前', text: '理学療法士監修のプログラム。マシンピラティスで身体機能の向上を重視。肩こりや腰痛の根本改善におすすめ。' },
-      { author: 'H.O', rating: 5, date: '2週間前', text: '中央林��エリアで理学療法士監修が魅力のスタジオ。通いやすい立地で続けやすいです。' },
+      { author: 'H.O', rating: 5, date: '2週間前', text: '中央林間エリアで理学療法士監修が魅力のスタジオ。通いやすい立地で続けやすいです。' },
       { author: 'I.Q', rating: 4, date: '3週間前', text: '初心者でも安心して通えます。インストラクターの指導が丁寧で、体の変化を実感できています。' },
     ],
     price: 'レッスン料は公式サイトでご確認ください',
     trial: '体験レッスンあり',
     features: ['理学療法士監修', 'マシンピラティス', '根本改善', '肩こり・腰痛対応'],
     description: '理学療法士監修のプログラム。マシンピラティスで身体機能の向上を重視。肩こりや腰痛の根本改善におすすめ。',
-    access: '「中央���間駅」から徒歩圏内',
+    access: '「中央林間駅」から徒歩圏内',
     address: '神奈川県大和市中央林間（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: '理学療法士監修プラン',
@@ -122,7 +122,7 @@ const studios = [
     reviewCount: 6,
     reviews: [
       { author: 'J.N', rating: 5, date: '1週間前', text: '全国展開のホットヨガスタジオ。ピラティスプログラムも充実。初心者でも安心して始められる環境。' },
-      { author: 'K.P', rating: 5, date: '2週間前', text: '中央林��エリアでホットヨガ&ピラティスが魅力のスタジオ。通いやすい立地で続けやすいです。' },
+      { author: 'K.P', rating: 5, date: '2週間前', text: '中央林間エリアでホットヨガ&ピラティスが魅力のスタジオ。通いやすい立地で続けやすいです。' },
       { author: 'L.R', rating: 4, date: '3週間前', text: '初心者でも安心して通えます。インストラクターの指導が丁寧で、体の変化を実感できています。' },
     ],
     price: '月額8,800円〜',
@@ -130,7 +130,7 @@ const studios = [
     features: ['ホットヨガ&ピラティス', '全国展開大手', '豊富なプログラム', '初心者歓迎'],
     description: '全国展開のホットヨガスタジオ。ピラティスプログラムも充実。初心者でも安心して始められる環境。',
     access: '「中央林間駅」から徒歩圏内',
-    address: '神奈川県大和市中央林間（詳��は公式サイトでご確認ください）',
+    address: '神奈川県大和市中央林間（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'ホットヨガ&ピラティスプラン',
       description: '全国展開のホットヨガスタジオ。ピラティスプログラムも充実。初心者でも安心して始められる環境。',
@@ -155,7 +155,7 @@ const studios = [
     reviewCount: 17,
     reviews: [
       { author: 'M.O', rating: 5, date: '1週間前', text: '全国130店舗以上の大手。田園都市線沿線のスタジオを利用可能。全店舗利用可能プランで柔軟に通えます。' },
-      { author: 'N.Q', rating: 5, date: '2週間前', text: '中央林��エリアで全国展開大手が魅力のスタジオ。通いやすい立地で続けやすいです。' },
+      { author: 'N.Q', rating: 5, date: '2週間前', text: '中央林間エリアで全国展開大手が魅力のスタジオ。通いやすい立地で続けやすいです。' },
       { author: 'O.S', rating: 4, date: '3週間前', text: '初心者でも安心して通えます。インストラクターの指導が丁寧で、体の変化を実感できています。' },
     ],
     price: '月4回 13,200円〜',
@@ -184,14 +184,14 @@ const studios = [
 ]
 
 const faqs = [
-  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！中央林��エリアのスタジオは初心者歓迎がほとんど。Rintosull 中央林間店は女性専用で安心。まずは体験レッスンから始めてみましょう。' },
-  { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマーなどの専用マシンを使います。マシンはバネで負荷調整ができ初心者にもおすすめ。中央林��エリアではマシンピラティス対応スタジオが充実しています。' },
-  { question: '中央林��のピラティスの料金相場は？', answer: 'Rintosull 中央林間店はプレミアムプラン 月額10,978円（税込）、LAVA 中央林間店は月額8,800円〜、zen place pilates（田園都市線沿線）は月4回 13,200円〜。目的と頻度に合わせて選びましょう。' },
+  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！中央林間エリアのスタジオは初心者歓迎がほとんど。Rintosull 中央林間店は女性専用で安心。まずは体験レッスンから始めてみましょう。' },
+  { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマーなどの専用マシンを使います。マシンはバネで負荷調整ができ初心者にもおすすめ。中央林間エリアではマシンピラティス対応スタジオが充実しています。' },
+  { question: '中央林間のピラティスの料金相場は？', answer: 'Rintosull 中央林間店はプレミアムプラン 月額10,978円（税込）、LAVA 中央林間店は月額8,800円〜、zen place pilates（田園都市線沿線）は月4回 13,200円〜。目的と頻度に合わせて選びましょう。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめ。慣れてきたら週2〜3回に。最低2〜3ヶ月は継続しましょう。' },
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えて基礎代謝が上がり、太りにくい体質に変わります。2〜3ヶ月の継続で効果を実感する方が多いです。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。Rintosull 中央林間店は体験無料キャンペーン実施中、zen place pilates（田園都市線沿線）は体験レッスン 1,000円。' },
-  { question: '男性でも通えるスタジオはありますか��', answer: 'Lucio 中央林間店、INSIGHT ピラティス＆トレーニング 中央林間、LAVA 中央林間店、zen place pilates（田園都市線沿線）は男性もOKです。は女性専用です。' },
-  { question: '中央林��駅からのアクセスは？', answer: '中央林��駅は東急田園都市線・小田急江ノ���線が利用でき、渋谷まで田園都市線で約40分。各スタジオとも駅から徒歩圏内でアクセス良好です��' },
+  { question: '男性でも通えるスタジオはありますか？', answer: 'Lucio 中央林間店、INSIGHT ピラティス＆トレーニング 中央林間、LAVA 中央林間店、zen place pilates（田園都市線沿線）は男性もOKです。は女性専用です。' },
+  { question: '中央林間駅からのアクセスは？', answer: '中央林間駅は東急田園都市線・小田急江ノ島線が利用でき、渋谷まで田園都市線で約40分。各スタジオとも駅から徒歩圏内でアクセス良好です。' },
   { question: 'パーソナルレッスンを受けたいのですが？', answer: 'Lucio 中央林間店がパーソナルレッスンに対応しています。' },
   { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '個人差はありますが、2ヶ月を過ぎた頃から変化を実感する方が多いです。週1〜2回で最低2〜3ヶ月の継続がおすすめです。' },
 ]
@@ -204,40 +204,40 @@ export default function ChuoRinkanPage() {
       <BreadcrumbSchema items={[
         { name: 'ホーム', url: 'https://pilates-biyori.com/' },
         { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '中央林��', url: 'https://pilates-biyori.com/area/chuo-rinkan/' },
+        { name: '中央林間', url: 'https://pilates-biyori.com/area/chuo-rinkan/' },
       ]} />
       <main className="pt-20 bg-white">
-        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年04月21日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラテ��ス中央林��おすすめ5選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比��！</h1></div></section>
-        <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">中央林��</span></nav></div></section>
-        <TableOfContents areaName="中央林��" studioNames={studios.map((s) => s.name)} />
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年04月21日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス中央林間おすすめ5選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1></div></section>
+        <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">中央林間</span></nav></div></section>
+        <TableOfContents areaName="中央林間" studioNames={studios.map((s) => s.name)} />
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p><p className="text-warm-600 leading-relaxed mb-6">Pilates-Biyori編集部です！</p><p className="text-warm-600 leading-relaxed mb-6">あなたは、</p><p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p><p className="text-warm-600 leading-relaxed mb-6">「中央林��で人気のピラティススタジオを知���たい」</p><p className="text-warm-600 leading-relaxed mb-6">と思っていま��んか？</p>
-            <p className="text-warm-600 leading-relaxed mb-8">中央林��は東急田園都市線・小田急江ノ���線が利用でき、渋谷まで田園都市線で約40分の好アクセスエリア。東急田園都市線と小田急江ノ島線の2路線が利用可能な利便性の高い街。閑静な住宅街でファミリー層に人気。そんな中央林��エリアには、多彩なピラティススタジオが揃っています。</p>
-            <p className="text-warm-600 leading-relaxed mb-8">そこでこの��事では、中央林��エリアでおすすめの実在するピラティススタジオ5選をまとめました。</p>
-            <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8"><h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2><ul className="space-y-2 text-warm-700"><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>中央林��でピラティススタジオを探している</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみた��</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>コスパの良いスタジオを知りた��</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>東急田園都市線・小田急江ノ���線沿線で通いやすいスタジオがいい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較したい</span></li></ul></div>
+            <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p><p className="text-warm-600 leading-relaxed mb-6">Pilates-Biyori編集部です！</p><p className="text-warm-600 leading-relaxed mb-6">あなたは、</p><p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p><p className="text-warm-600 leading-relaxed mb-6">「中央林間で人気のピラティススタジオを知りたい」</p><p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
+            <p className="text-warm-600 leading-relaxed mb-8">中央林間は東急田園都市線・小田急江ノ島線が利用でき、渋谷まで田園都市線で約40分の好アクセスエリア。東急田園都市線と小田急江ノ島線の2路線が利用可能な利便性の高い街。閑静な住宅街でファミリー層に人気。そんな中央林間エリアには、多彩なピラティススタジオが揃っています。</p>
+            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、中央林間エリアでおすすめの実在するピラティススタジオ5選をまとめました。</p>
+            <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8"><h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2><ul className="space-y-2 text-warm-700"><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>中央林間でピラティススタジオを探している</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>コスパの良いスタジオを知りたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>東急田園都市線・小田急江ノ島線沿線で通いやすいスタジオがいい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較したい</span></li></ul></div>
             <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
           </div>
         </section>
-        <PriceComparisonTable studios={studios} areaName="中央林��" />
-        <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">中央林��のおすすめピラティススタジオ5選</h2><div className="space-y-8">{studios.map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
+        <PriceComparisonTable studios={studios} areaName="中央林間" />
+        <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">中央林間のおすすめピラティススタジオ5選</h2><div className="space-y-8">{studios.map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
 
         <section className="py-16 bg-white" id="price-market">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">中央林��のピラティス料金相場【2026年4月最新】</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">中央林間のピラティス料金相場【2026年4月最新】</h2>
             <div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">種別</th><th className="px-4 py-3 text-left">料金相場</th></tr></thead><tbody><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4回）</td><td className="px-4 py-3">8,800円〜13,200円</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">パーソナルレッスン</td><td className="px-4 py-3">1回 4,400円〜9,900円</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">無料〜2,200円</td></tr></tbody></table></div>
-            <p className="text-warm-600 mt-4 text-sm leading-relaxed">中央林��エリアは都心と比較して料金がリーズナブルな傾向。近隣の<a href="/area/tama-plaza">たまプラーザ</a>や<a href="/area/machida">町田</a>エリアと合わせて検討するのもおすすめです。</p>
+            <p className="text-warm-600 mt-4 text-sm leading-relaxed">中央林間エリアは都心と比較して料金がリーズナブルな傾向。近隣の<a href="/area/tama-plaza">たまプラーザ</a>や<a href="/area/machida">町田</a>エリアと合わせて検討するのもおすすめです。</p>
           </div>
         </section>
 
-        <section className="py-16 bg-warm-50" id="cautions"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">中央林��でスタジオを選ぶ際の注意点</h2><div className="space-y-6">
-          <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">駅からのアクセスを事前確認</h3><p className="text-warm-600 leading-relaxed">中央林��駅は東急田園都市線・小田急江ノ���線が乗り入れます。各スタジオとも駅から徒歩圏内ですが、初回訪問時は余裕を持って出発し、ルートを確認しておきましょう。</p></div>
-          <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">女性専用と男女共用の違いに注意</h3><p className="text-warm-600 leading-relaxed">中央林��エリアには女性専用スタジオと男女共用スタジオの両方があります。カップルで通いたい場合は男女共用を、女性だけの環境を希望する方は女性専用を選びましょう��</p></div>
-          <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">郊外エリアのスタジオ数に注意</h3><p className="text-warm-600 leading-relaxed">中央林��は都心と比べてスタジオの選択肢が限られるため、人気の時間帯は予約が埋まりやすい場合があります。早めの予約がおすすめ。沿線の他駅のスタジオも選択肢に入れましょう。</p></div>
+        <section className="py-16 bg-warm-50" id="cautions"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">中央林間でスタジオを選ぶ際の注意点</h2><div className="space-y-6">
+          <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">駅からのアクセスを事前確認</h3><p className="text-warm-600 leading-relaxed">中央林間駅は東急田園都市線・小田急江ノ島線が乗り入れます。各スタジオとも駅から徒歩圏内ですが、初回訪問時は余裕を持って出発し、ルートを確認しておきましょう。</p></div>
+          <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">女性専用と男女共用の違いに注意</h3><p className="text-warm-600 leading-relaxed">中央林間エリアには女性専用スタジオと男女共用スタジオの両方があります。カップルで通いたい場合は男女共用を、女性だけの環境を希望する方は女性専用を選びましょう。</p></div>
+          <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">郊外エリアのスタジオ数に注意</h3><p className="text-warm-600 leading-relaxed">中央林間は都心と比べてスタジオの選択肢が限られるため、人気の時間帯は予約が埋まりやすい場合があります。早めの予約がおすすめ。沿線の他駅のスタジオも選択肢に入れましょう。</p></div>
           <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">体験レッスンで複数比較を</h3><p className="text-warm-600 leading-relaxed">スタジオの雰囲気やインストラクターとの相性は、実際に足を運んで初めてわかるもの。2〜3スタジオの体験を受けてから決めるのが失敗しないコツです。</p></div>
         </div></div></section>
 
-        <section className="py-16 bg-white" id="trial-guide"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">体験レッスン当日の持ち物・服装ガイド</h2><div className="bg-warm-50 rounded-lg p-8 border border-warm-200"><div className="grid grid-cols-1 md:grid-cols-2 gap-8"><div><h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3><ul className="space-y-3 text-warm-600"><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。</span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong></span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong></span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong></span></li></ul></div><div><h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3><ul className="space-y-3 text-warm-600"><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう���</span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>でフォーム確認。</span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。事前に確認を。</span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おき���しょう。</span></li></ul></div></div><div className="mt-6 p-4 bg-white rounded border border-warm-200"><p className="text-sm text-warm-600"><strong>中央林��エリアの豆知識：</strong>中央林��は東急田園都市線と小田急江ノ島線の2路線が利用可能な利便性の高い街。閑静な住宅街でファミリー層に人気。ピラティス帰りに周辺を散策するのもおすすめです。</p></div></div></div></section>
+        <section className="py-16 bg-white" id="trial-guide"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">体験レッスン当日の持ち物・服装ガイド</h2><div className="bg-warm-50 rounded-lg p-8 border border-warm-200"><div className="grid grid-cols-1 md:grid-cols-2 gap-8"><div><h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3><ul className="space-y-3 text-warm-600"><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。</span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong></span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong></span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong></span></li></ul></div><div><h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3><ul className="space-y-3 text-warm-600"><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。</span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>でフォーム確認。</span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。事前に確認を。</span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。</span></li></ul></div></div><div className="mt-6 p-4 bg-white rounded border border-warm-200"><p className="text-sm text-warm-600"><strong>中央林間エリアの豆知識：</strong>中央林間は東急田園都市線と小田急江ノ島線の2路線が利用可能な利便性の高い街。閑静な住宅街でファミリー層に人気。ピラティス帰りに周辺を散策するのもおすすめです。</p></div></div></div></section>
 
         <section className="py-16 bg-white" id="kodawari"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">目的別おすすめスタジオ</h2><div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3><p className="text-warm-600 text-sm mb-4">リーズナブルに始めたい方に。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• Rintosull 中央林間店（プレミアムプラン 月額10,978円）</li><li className="text-warm-700">• LAVA 中央林間店（月額8,800円〜）</li></ul></div>
@@ -256,13 +256,13 @@ export default function ChuoRinkanPage() {
         <section className="py-16 bg-warm-50" id="how-to-choose"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">失敗しないスタジオの選び方</h2><div className="space-y-8">
           <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span><h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3></div><p className="text-warm-600 leading-relaxed">ダイエット、姿勢改善、健康維持など、目的によって最適なスタジオは変わります。</p></div>
           <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">レッスン形式を選ぶ</h3></div><p className="text-warm-600 leading-relaxed">グループ、パーソナル、セミパーソナルなど。好みと予算に合わせて選びましょう。</p></div>
-          <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行��</h3></div><p className="text-warm-600 leading-relaxed">スタジオの雰囲気やインストラクターとの相性を確認。2〜3スタジオ比較がおすすめ。</p></div>
-          <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div><p className="text-warm-600 leading-relaxed">中央林��駅から徒歩圏内のスタジオが多数。通勤経路に合わせて選ぶと長続きし��す。</p></div>
+          <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">スタジオの雰囲気やインストラクターとの相性を確認。2〜3スタジオ比較がおすすめ。</p></div>
+          <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div><p className="text-warm-600 leading-relaxed">中央林間駅から徒歩圏内のスタジオが多数。通勤経路に合わせて選ぶと長続きします。</p></div>
         </div></div></section>
 
-        <section className="py-16 bg-white" id="faq"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">よく��る質問</h2><div className="space-y-6">{faqs.map((faq, index) => (<div key={index} className="border border-warm-200 rounded-lg overflow-hidden"><details className="group"><summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition"><h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3><svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" /></svg></summary><div className="px-6 pb-6 text-warm-600 leading-relaxed">{faq.answer}</div></details></div>))}</div></div></section>
+        <section className="py-16 bg-white" id="faq"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">よくある質問</h2><div className="space-y-6">{faqs.map((faq, index) => (<div key={index} className="border border-warm-200 rounded-lg overflow-hidden"><details className="group"><summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition"><h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3><svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" /></svg></summary><div className="px-6 pb-6 text-warm-600 leading-relaxed">{faq.answer}</div></details></div>))}</div></div></section>
 
-        <section className="py-16 bg-warm-50" id="summary"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2><p className="text-warm-600 leading-relaxed mb-6">今回は中央林��エリアのおすすめピラティススタジオ5選をご紹介しました。</p><p className="text-warm-600 leading-relaxed mb-6">中央林��は東急田園都市線・小田急江ノ���線で渋谷まで田園都市線で約40分の好アクセスエリア。Rintosull 中央林間店、Lucio 中央林間店、INSIGHT ピラティス＆トレーニング 中央林間など個性豊かなスタジオが揃っています。</p><p className="text-warm-600 leading-relaxed mb-6">まずは体験レッスンから始めてみましょう。</p><p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p></div></section>
+        <section className="py-16 bg-warm-50" id="summary"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2><p className="text-warm-600 leading-relaxed mb-6">今回は中央林間エリアのおすすめピラティススタジオ5選をご紹介しました。</p><p className="text-warm-600 leading-relaxed mb-6">中央林間は東急田園都市線・小田急江ノ島線で渋谷まで田園都市線で約40分の好アクセスエリア。Rintosull 中央林間店、Lucio 中央林間店、INSIGHT ピラティス＆トレーニング 中央林間など個性豊かなスタジオが揃っています。</p><p className="text-warm-600 leading-relaxed mb-6">まずは体験レッスンから始めてみましょう。</p><p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p></div></section>
 
         <section className="py-16 bg-warm-800 text-white" id="contact"><div className="max-w-4xl mx-auto px-6 lg:px-8 text-center"><h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2><p className="text-warm-200 mb-8 leading-relaxed">まずは気軽に体験してみましょう。</p><Link href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded">おすすめスタジオ一覧に戻る</Link></div></section>
       </main>
