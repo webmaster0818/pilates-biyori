@@ -26,3 +26,12 @@ MediaXAI「phase0進めてください」(2026-06-11 13:35)→実施。
 - **⚠️数値検証で2バグ修正**（事実ベース原則）: ①`includes('0円')`は「3,300円」にマッチ（末尾00円）→無料判定は『無料』のみ＋parseYen \d{1,6}で「0円」を0円体験として拾う ②月額最安に「2,750円/回」回数券が混入→/月(額|\s*\d+回)/必須に。**生成数値は必ずビルド出力をgrepして元データと突合する**（minified HTMLは`<!-- -->`が挟まるためreplaceしてから）
 - 注: エリアページは既に比較表(PriceComparisonTable)・FAQ schema完備で質が高い。今回の追加価値は「独自データ(一次情報)による差別化」
 - デプロイ: out/→rsync→pilates-biyori-deploy 両repo push済
+
+### 2026-06-11 Phase 1実装（MediaXAI「phase1もすすめたい！」）
+`scripts/enhance-area-phase1.py`（冪等）で3点:
+- **A. prefectureAreas.ts未登録54エリアを登録**（最高順位の光が丘も未登録＝相互リンク圏外だった）。エリア名はtitle・都道府県は掲載スタジオ住所の最頻値から抽出。⚠️抽出名4件手修正: kasukabe=春日部/soka=草加/chuo-rinkan=中央林間/**mizonokuchi=溝の口**（「の」がregexの区切りと衝突）
+- **B. ToCスタジオ名ジャンプリンク**: TableOfContents に `studioNames?` prop追加→283ページで `studios.map((s)=>s.name)` を渡す。StudioCardの既存 `id="studio-N"` アンカーへリンク＝スタジオ名×駅の指名検索対策
+- **C. AreaMarketComparison＋title改修を全62提携エリアへ横展開**（Phase0の15は冪等スキップ）
+- 検証: hikarigaokaの関連リンク106本/二子玉川ToCアンカー18本(BDC含む)/渋谷・新宿に独自データ枠/タイトル正常
+
+**⚠️発見: 19エリアページの本文にU+FFFD文字化けが大量に存在（計1,100カ所超）**: oita/komazawa-daigaku/ikejiri-ohashi/chuo-rinkan/tsunashima/kasukabe/wakoshi/chitose-funabashi/kyodo/toyonaka/kugayama/kanayama/honancho/nijo/shinjuku/shin-yurigaoka/fujimino/sakura-shinmachi/soka。**ページ生成時（初回コミット時点）から壊れており**git履歴に正常版なし→修復は文脈からの推定置換が必要（「よく��る質問」→「よくある質問」等）。未対応・要修復タスク。
