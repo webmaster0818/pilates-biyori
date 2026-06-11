@@ -40,7 +40,8 @@ MediaXAI「phase0進めてください」(2026-06-11 13:35)→実施。
 - ⚠️ハマり: ①既存配列の最終要素に末尾カンマが無いページがあり挿入後に構文エラー→`}\n{name:`間にカンマ補修パス ②薄いページ(`const studios = areaStudios[...]`)は文字列'const studios'を含むためA/B判定は**配列リテラル regex**で行う
 - **zen place追加（同日MediaXAI追加依頼）**: 全133店舗取得=`data/new-brands-zenplace-stores.json`＋`scripts/add-zenplace-202606.py`。未掲載3エリア(nagoya/osaka/shirokanedai)に追加・107エリアは掲載済みスキップ（同エリア重複掲載防止のため「ページにzen placeが1つでもあればスキップ」の保守判定）
 - **新規エリア第1弾完了（同日）**: `scripts/gen-new-areas-batch1.py`＝hongo-sanchomeテンプレをドナーに14エリア生成（sakaihigashi/minamimorimachi/oizumigakuen/omori/komagome/nishikasai/kamiooka/shonandai/tsudanuma/motoyawata/shin-urayasu/warabi/ayase/shukugawa）。各エリア=新ブランド店舗＋Web調査で実在確認した併設スタジオ2-3件（pilates K/Rintosull/URBAN CLASSIC/CLUB PILATES/個人系。エージェント3体で公式サイト確認済み）。area-studios.ts＋page.tsx＋prefectureAreas＋sitemap(375URL)。札幌3店舗はsapporoページへ統合、24/7三宮店は既存sannomiyaへ追加
-- **残バックログ: 約85エリア**（Pilates Mee中心。circles: 円山公園/大通→札幌統合済み。乗換系・郊外駅）。`/opt/homebrew/bin/python3`でバックログ再計算可（CLAUDE.md本節のスクリプト参照）。**次バッチはこのbatch1スクリプトを複製してAREASを差し替えるのが最速**。⚠️新規スラッグは必ず既存ディレクトリ・prefectureAreas両方と衝突確認（sannomiyaは既存ページがあり登録済みだった）
+- **新規エリア第2弾完了（2026-06-12未明、MediaXAI「明日分進めて」で前倒し）**: `scripts/gen-new-areas-batch2.py`で20エリア生成（shin-koiwa/kanamachi/takenotsuka/hibarigaoka/musashisakai/ningyocho/asakusabashi/jujo/mejiro/hatanodai/tsurumi/center-kita/kikuna/saginuma/yachiyodai/makuharihongo/abiko/saiin/tsukaguchi/nishitanabe）。併設スタジオは4エージェント並列調査（公式fetch確認済み・受付停止中のルルト鶴見と公式404の折は除外）。sitemap 395URL・Indexing API 20件
+- **残バックログ: 約65エリア**（Pilates Mee中心。circles: 円山公園/大通→札幌統合済み。乗換系・郊外駅）。`/opt/homebrew/bin/python3`でバックログ再計算可（CLAUDE.md本節のスクリプト参照）。**次バッチはこのbatch1スクリプトを複製してAREASを差し替えるのが最速**。⚠️新規スラッグは必ず既存ディレクトリ・prefectureAreas両方と衝突確認（sannomiyaは既存ページがあり登録済みだった）
 
 ### 2026-06-11 問い合わせシステム構築（peatbidパターン移植）
 - `/contact/`（app/contact/page.tsx＋components/ContactForm.tsx）→ POST `/api/contact` → pilates-biyori-deploy の `functions/api/contact.js` → Discord Webhook通知（MediaXAI＋tomomiメンション）
