@@ -12,7 +12,7 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス丸の内おすすめ5選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  title: '【2026最新】ピラティス丸の内おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: '丸の内エリアのおすすめピラティススタジオ5選を徹底比較。zen place pilates、the SILK、CLUB PILATES、Pilates Mee、STUDIO IVYなど実在スタジオの料金・体験レッスン・アクセスを完全ガイド。グループ・セミパーソナル・完全パーソナルまで。',
   keywords: 'ピラティス,丸の内,千代田区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place pilates,the SILK,CLUB PILATES,Pilates Mee,STUDIO IVY',
 }

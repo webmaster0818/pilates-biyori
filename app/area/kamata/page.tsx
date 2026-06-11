@@ -12,7 +12,7 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス蒲田おすすめ5選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  title: '【2026最新】ピラティス蒲田おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: '蒲田エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,蒲田,京急蒲田,大田区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

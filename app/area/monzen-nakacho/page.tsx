@@ -12,7 +12,7 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス門前仲町おすすめ5選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  title: '【2026最新】ピラティス門前仲町おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: '門前仲町エリアのおすすめピラティススタジオ5選を徹底比較。zen place pilates、the SILK、ピラティススタジオDIVA、YARD清澄白河、スタジオプラス清澄白河など実在スタジオの料金・体験レッスン・アクセスを完全ガイド。グループ・パーソナル・マットピラティスまで。',
   keywords: 'ピラティス,門前仲町,江東区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place pilates,the SILK,DIVA,YARD,スタジオプラス',
 }

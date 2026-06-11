@@ -10,7 +10,7 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import { areaStudios } from '@/data/area-studios'
 
 export const metadata = {
-  title: '【2026最新】ピラティス刈谷おすすめスタジオ｜料金プランを徹底比較！｜Pilates-Biyori',
+  title: '【2026最新】ピラティス刈谷おすすめスタジオ｜料金プランを徹底比較！',
   description: '刈谷（愛知県）のおすすめピラティススタジオを比較。JR刈谷駅周辺の料金相場、マシン・パーソナル・女性専用の特徴、体験レッスン情報をまとめて掲載。',
   keywords: 'ピラティス,刈谷,愛知県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

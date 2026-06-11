@@ -10,7 +10,7 @@ import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 export const metadata = {
-  title: '【2026最新】ピラティス綱島おすすめ5選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  title: '【2026最新】ピラティス綱島おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: '綱島エリアのおすすめピラティススタジオ5選を徹底比較。zen place pilates綱島・pilates K綱島店・FlexFit綱島・STUDIO TT綱島店など実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
   keywords: 'ピラティス,綱島,横浜,港北区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place,pilates K,FlexFit',
 }

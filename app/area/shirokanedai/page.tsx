@@ -12,7 +12,7 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス白金高輪・白金台おすすめ4選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  title: '【2026最新】ピラティス白金高輪・白金台おすすめ4選！人気スタジオの料金プランを簡単比較！',
   description: '白金高輪・白金台エリアのおすすめピラティススタジオ4選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。',
   keywords: 'ピラティス,白金高輪,白金台,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

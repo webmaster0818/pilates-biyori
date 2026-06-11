@@ -12,7 +12,7 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス三田おすすめ5選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  title: '【2026最新】ピラティス三田おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: '三田エリアのおすすめピラティススタジオ5選を徹底比較。zen place pilates、the SILK、CLUB PILATES、Pilates Studio B&B、ピラティススタジオhibiなど実在スタジオの料金・体験レッスン・アクセスを完全ガイド。グループ・パーソナル・女性専用まで。',
   keywords: 'ピラティス,三田,港区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place pilates,the SILK,CLUB PILATES,Pilates Studio B&B,ピラティススタジオhibi',
 }

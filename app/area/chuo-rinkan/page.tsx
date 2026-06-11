@@ -10,7 +10,7 @@ import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 export const metadata = {
-  title: '【2026最新】ピラティス中央林��おすすめ5選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  title: '【2026最新】ピラティス中央林��おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: '中央林��エリアのおすすめピラティススタジオ5選を徹底比較。Rintosull 中央林間店・Lucio 中央林間店・INSIGHT ピラティス＆トレーニング 中央林間など実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
   keywords: 'ピラティス,中央林��,神奈川県大和市,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

@@ -10,7 +10,7 @@ import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 export const metadata = {
-  title: '【2026最新】ピラティス新百合ヶ丘おすすめ5選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  title: '【2026最新】ピラティス新百合ヶ丘おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: '新百合ヶ丘エリアのおすすめピラティススタジオ5選を徹底比較。zen place pilates 新百合ヶ��・pilates K 新百合ヶ丘店・sincere pilates 新百合ヶ丘など実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
   keywords: 'ピラティス,新百合ヶ丘,川崎市麻生区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

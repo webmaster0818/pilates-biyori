@@ -12,7 +12,7 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス武蔵小山おすすめ5選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  title: '【2026最新】ピラティス武蔵小山おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: '武蔵小山エリアのおすすめピラティススタジオ5選を徹底比較。zen place pilates、ピラティスミラー、STUDIO IVY、アトリオドゥーエNext、Two Threeなど実在スタジオの料金・体験レッスン・アクセスを完全ガイド。グループ・マシン・完全パーソナルまで。',
   keywords: 'ピラティス,武蔵小山,品川区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place pilates,ピラティスミラー,STUDIO IVY,アトリオドゥーエNext,Two Three',
 }

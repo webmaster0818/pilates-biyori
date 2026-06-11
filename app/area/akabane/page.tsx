@@ -12,7 +12,7 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス赤羽おすすめ4選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  title: '【2026最新】ピラティス赤羽おすすめ4選！人気スタジオの料金プランを簡単比較！',
   description: '赤羽エリアのおすすめピラティススタジオ4選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。',
   keywords: 'ピラティス,赤羽,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

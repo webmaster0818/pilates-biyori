@@ -12,7 +12,7 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス池袋おすすめ5選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  title: '【2026最新】ピラティス池袋おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: '【2026年4月最新】池袋のおすすめピラティススタジオ5選を徹底比較。グループ月4回10,450円〜、マシン専門・女性専用のスタジオ情報、料金相場・体験レッスンの流れまで完全網羅。',
   keywords: 'ピラティス,池袋,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

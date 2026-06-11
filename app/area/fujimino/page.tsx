@@ -10,7 +10,7 @@ import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 export const metadata = {
-  title: '【2026最新】ピラティスふじみ野おすすめ5選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  title: '【2026最新】ピラティスふじみ野おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: 'ふじみ野エリアのおすすめピラティススタジオ5選を徹底比較。SAKURA ふじみ野店・さんはぴ ふじみ野店・ホットヨガロイブ ふじみ野店など実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
   keywords: 'ピラティス,ふじみ野,埼玉県ふじみ野市,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

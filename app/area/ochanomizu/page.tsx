@@ -12,7 +12,7 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】御茶ノ水・神保町のピラティススタジオおすすめ8選！料金・アクセス徹底比較｜Pilates-Biyori',
+  title: '【2026最新】御茶ノ水・神保町のピラティススタジオおすすめ8選！料金・アクセス徹底比較',
   description: '御茶ノ水・神保町エリアのピラティススタジオ8選を徹底比較。zen place、ピラティスK、YARDなど実在スタジオの料金、体験レッスン、アクセス情報を詳しく紹介。',
   keywords: 'ピラティス,御茶ノ水,神保町,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

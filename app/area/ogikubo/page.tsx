@@ -12,7 +12,7 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス荻窪おすすめ7選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  title: '【2026最新】ピラティス荻窪おすすめ7選！人気スタジオの料金プランを簡単比較！',
   description: '荻窪エリアのおすすめピラティススタジオ7選を徹底比較。2024年11月拡張移転の最新スタジオも。マシンピラティス、体験レッスン、料金相場、アクセスまで完全ガイド。',
   keywords: 'ピラティス,荻窪,東京,杉並区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

@@ -10,7 +10,7 @@ import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 export const metadata = {
-  title: '【2026最新】ピラティス草��おすすめ5選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  title: '【2026最新】ピラティス草��おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: '草��エリアのおすすめピラティススタジオ5選を徹底比較。Rintosull 草加店・Pilates Mee 草加店・exeed pilates studio 草加店など実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
   keywords: 'ピラティス,草��,埼玉県草加市,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

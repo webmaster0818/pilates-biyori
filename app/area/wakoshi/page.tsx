@@ -10,7 +10,7 @@ import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 export const metadata = {
-  title: '【2026最新】ピラティス和光市おすすめ5選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  title: '【2026最新】ピラティス和光市おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: '和光市エリアのおすすめピラティススタジオ5選を徹底比較。pilates K 和光市店・Rintosull 和光市店・ザバススポーツクラブ和光など実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
   keywords: 'ピラティス,和光市,埼玉県和光市,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

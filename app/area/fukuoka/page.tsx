@@ -12,7 +12,7 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス福岡おすすめ8選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  title: '【2026最新】ピラティス福岡おすすめ8選！人気スタジオの料金プランを簡単比較！',
   description: '【2026年4月最新】福岡のおすすめピラティススタジオ8選を徹底比較。グループ月4回9,625円〜の料金相場、天神・博多エリアのスタジオ情報、体験レッスンの持ち物・服装まで完全網羅。',
   keywords: 'ピラティス,福岡,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

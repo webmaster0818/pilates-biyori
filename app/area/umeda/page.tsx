@@ -12,7 +12,7 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス梅田おすすめ15選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  title: '【2026最新】ピラティス梅田おすすめ15選！人気スタジオの料金プランを簡単比較！',
   description: '【2026年4月最新】梅田のおすすめピラティススタジオ15選を徹底比較。グループ月4回13,200円〜の料金相場、マシン専門・女性専用のスタジオ情報、体験レッスンの持ち物まで完全網羅。',
   keywords: 'ピラティス,梅田,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

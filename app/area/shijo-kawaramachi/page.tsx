@@ -12,7 +12,7 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス四条河原町おすすめ5選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  title: '【2026最新】ピラティス四条河原町おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: '四条河原町エリアのおすすめピラティススタジオ5選を徹底比較。zen place pilates、ピラティスK、アーバンクラシックピラティス、Rintosull、Pilates MUSEなど実在スタジオの料金・体験レッスン・アクセスを完全ガイド。グループ・マシン専門・サーキット形式・パーソナルまで。',
   keywords: 'ピラティス,四条河原町,京都,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place pilates,ピラティスK,アーバンクラシックピラティス,Rintosull,Pilates MUSE',
 }

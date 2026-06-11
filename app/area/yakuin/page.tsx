@@ -12,7 +12,7 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス薬院おすすめ4選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  title: '【2026最新】ピラティス薬院おすすめ4選！人気スタジオの料金プランを簡単比較！',
   description: '薬院エリアのおすすめピラティススタジオ4選を徹底比較。zen place pilates福岡薬院・CLUB PILATES福岡赤坂薬院店・AR pilates・edgy pilates studioなど実在スタジオの料金・体験レッスン・アクセスを完全ガイド。マシンピラティス・女性専用・完全プライベートまで。',
   keywords: 'ピラティス,薬院,福岡,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place,CLUB PILATES,AR pilates,edgy pilates',
 }

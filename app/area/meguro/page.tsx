@@ -12,7 +12,7 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス目黒おすすめ5選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  title: '【2026最新】ピラティス目黒おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: '目黒エリアのおすすめピラティススタジオ5選を徹底比較。zen place pilates、the SILK、ピラティスミラー、Pilates Legacy Studio、STUDIO IVYなど実在スタジオの料金・体験レッスン・アクセスを完全ガイド。グループ・女性専用・完全パーソナルまで。',
   keywords: 'ピラティス,目黒,中目黒,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place pilates,the SILK,ピラティスミラー,Pilates Legacy Studio,STUDIO IVY',
 }

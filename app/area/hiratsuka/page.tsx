@@ -10,7 +10,7 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import { areaStudios } from '@/data/area-studios'
 
 export const metadata = {
-  title: '【2026最新】ピラティス平塚おすすめスタジオ｜料金プランを徹底比較！｜Pilates-Biyori',
+  title: '【2026最新】ピラティス平塚おすすめスタジオ｜料金プランを徹底比較！',
   description: '平塚（神奈川県）のおすすめピラティススタジオを比較。JR平塚駅周辺の料金相場、マシン・パーソナル・女性専用の特徴、体験レッスン情報をまとめて掲載。',
   keywords: 'ピラティス,平塚,神奈川県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

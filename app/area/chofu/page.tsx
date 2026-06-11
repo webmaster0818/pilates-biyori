@@ -13,7 +13,7 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026年6月最新】ピラティス調布おすすめ4選！料金・体験レッスン・マシン対応を比較！｜Pilates-Biyori',
+  title: '【2026年6月最新】ピラティス調布おすすめ4選！料金・体験レッスン・マシン対応を比較！',
   description: '調布エリアのおすすめピラティススタジオ4選を徹底比較。ピラティスミラー調布・Rintosull調布店・ELEMENT調布店・zen place pilatesなど実在スタジオの料金・体験レッスン・アクセスを完全ガイド。コナミ運営・女性専用・通い放題パーソナルまで。',
   keywords: 'ピラティス,調布,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,ピラティスミラー,Rintosull,ELEMENT,zen place',
 }

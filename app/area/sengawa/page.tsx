@@ -12,7 +12,7 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス仙川おすすめ5選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  title: '【2026最新】ピラティス仙川おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: '仙川エリアのおすすめピラティススタジオ5選を徹底比較。URBAN CLASSIC PILATES仙川・ピラティスミラー仙川・CLUB PILATES仙川・PERSONAL TRAINING STUDIO U・zen place pilatesなど実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
   keywords: 'ピラティス,仙川,東京,調布,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,URBAN CLASSIC,CLUB PILATES,ピラティスミラー',
 }

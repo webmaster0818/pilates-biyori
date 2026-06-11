@@ -10,7 +10,7 @@ import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 export const metadata = {
-  title: '【2026最新】ピラティス春日��おすすめ5選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  title: '【2026最新】ピラティス春日��おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: '春日��エリアのおすすめピラティススタジオ5選を徹底比較。Le Mieux（ルミュー）・さんはぴ 春日部店（2026年5月OPEN）・exeed pilates 春日部など実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
   keywords: 'ピラティス,春日��,埼玉県春日部市,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

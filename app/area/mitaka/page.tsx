@@ -12,7 +12,7 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス三鷹おすすめ5選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  title: '【2026最新】ピラティス三鷹おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: '三鷹エリアのおすすめピラティススタジオ5選を徹底比較。ピラティスミラー、YUZU、zen place pilates、COCOLANCE、Pilaticiseなど実在スタジオの料金・体験レッスン・アクセスを完全ガイド。グループ・パーソナル・女性専用まで。',
   keywords: 'ピラティス,三鷹,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,ピラティスミラー,YUZU,zen place pilates,COCOLANCE,Pilaticise',
 }
