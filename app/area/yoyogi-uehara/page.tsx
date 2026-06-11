@@ -6,13 +6,14 @@ import { RelatedAreas } from '@/components/RelatedAreas'
 import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
+import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス代々木上原おすすめ12選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  title: '【2026年6月最新】ピラティス代々木上原おすすめ12選！料金・体験レッスン・マシン対応を比較！｜Pilates-Biyori',
   description: '代々木上原エリアのおすすめピラティススタジオ12選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。代々木公園・代々木八幡・下北沢の近隣スタジオも紹介。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,代々木上原,東京,渋谷区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,代々木公園,代々木八幡,下北沢',
 }
@@ -422,6 +423,7 @@ export default function YoyogiUeharaPage() {
         </section>
 
         <PriceComparisonTable studios={studios} areaName="代々木上原" />
+        <AreaMarketComparison studios={studios} areaName="代々木上原" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">

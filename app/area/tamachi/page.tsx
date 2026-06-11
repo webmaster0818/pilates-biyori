@@ -6,13 +6,14 @@ import { RelatedAreas } from '@/components/RelatedAreas'
 import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
+import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス田町・三田おすすめ12選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  title: '【2026年6月最新】ピラティス田町・三田おすすめ12選！料金・体験レッスン・マシン対応を比較！｜Pilates-Biyori',
   description: '田町・三田エリアのおすすめピラティススタジオ12選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,田町,三田,芝浦,品川,港区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -604,6 +605,7 @@ export default function TamachiPage() {
         </section>
 
         <PriceComparisonTable studios={studios} areaName="田町・三田" />
+        <AreaMarketComparison studios={studios} areaName="田町・三田" />
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">田町・三田のおすすめピラティススタジオ12選</h2>

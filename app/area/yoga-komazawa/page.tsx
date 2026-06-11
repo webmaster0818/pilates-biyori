@@ -6,13 +6,14 @@ import { RelatedAreas } from '@/components/RelatedAreas'
 import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
+import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス用賀・駒沢おすすめ6選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  title: '【2026年6月最新】ピラティス用賀・駒沢おすすめ6選！料金・体験レッスン・マシン対応を比較！｜Pilates-Biyori',
   description: '用賀・駒沢エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,用賀,駒沢,世田谷,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -474,6 +475,7 @@ export default function YogaKomazawaPage() {
         </section>
 
         <PriceComparisonTable studios={studios} areaName="用賀・駒沢" />
+        <AreaMarketComparison studios={studios} areaName="用賀・駒沢" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">

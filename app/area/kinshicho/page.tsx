@@ -6,13 +6,14 @@ import { RelatedAreas } from '@/components/RelatedAreas'
 import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
+import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス錦糸町おすすめ15選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
+  title: '【2026年6月最新】ピラティス錦糸町おすすめ15選！料金・体験レッスン・マシン対応を比較！｜Pilates-Biyori',
   description: '錦糸町エリアのおすすめピラティススタジオ15選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,錦糸町,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -871,6 +872,7 @@ export default function KinshichoPage() {
         </section>
 
         <PriceComparisonTable studios={studios} areaName="錦糸町" />
+        <AreaMarketComparison studios={studios} areaName="錦糸町" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">
