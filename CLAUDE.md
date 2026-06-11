@@ -34,6 +34,12 @@ MediaXAI「phase0進めてください」(2026-06-11 13:35)→実施。
 - **C. AreaMarketComparison＋title改修を全62提携エリアへ横展開**（Phase0の15は冪等スキップ）
 - 検証: hikarigaokaの関連リンク106本/二子玉川ToCアンカー18本(BDC含む)/渋谷・新宿に独自データ枠/タイトル正常
 
+### 2026-06-11 5ブランド掲載（MediaXAI依頼）
+対象: Dr.ピラティス(29店)/the SILK(44店)/24/7ピラティス(34店)/DAYS PILATES(2店)/**Pilates Mee=m-pilates.comの正式名**(132店)。全データ公式サイト取得=`data/new-brands-202606.json`＋`data/new-brands-mee-stores.json`。
+- **第1弾完了: 既存エリア169店舗分**（新規挿入144＝page.tsx 126＋area-studios.ts 9、既掲載25スキップ）。`scripts/add-brands-202606.py`（冪等。駅名×都道府県一致で突合/rating・reviews付けない=捏造回避/挿入後に「おすすめN選」を実数へ更新）。ブランド画像=公式キャプチャ→`public/images/studios/{brand}.webp`
+- ⚠️ハマり: ①既存配列の最終要素に末尾カンマが無いページがあり挿入後に構文エラー→`}\n{name:`間にカンマ補修パス ②薄いページ(`const studios = areaStudios[...]`)は文字列'const studios'を含むためA/B判定は**配列リテラル regex**で行う
+- **残: 新規72エリア**（Pilates Mee 61/24-7 9/SILK 2: 蕨・本八幡・綾瀬・湘南台・すすきの・三ノ宮等）。品質基準=各エリアの実在併設スタジオも調査して同梱。段階作成（1日15-20）をMediaXAIに提案済み
+
 ### 2026-06-11 問い合わせシステム構築（peatbidパターン移植）
 - `/contact/`（app/contact/page.tsx＋components/ContactForm.tsx）→ POST `/api/contact` → pilates-biyori-deploy の `functions/api/contact.js` → Discord Webhook通知（MediaXAI＋tomomiメンション）
 - footer「お問い合わせ（広告出稿・掲載）」（旧/#aboutアンカーを置換）/sitemapに/contact/追加
