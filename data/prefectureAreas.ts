@@ -69,6 +69,9 @@ export const prefectureAreas = [
       { slug: 'tsudanuma', name: '津田沼' },
       { slug: 'motoyawata', name: '本八幡' },
       { slug: 'shin-urayasu', name: '新浦安' },
+      { slug: 'yachiyodai', name: '八千代台' },
+      { slug: 'makuharihongo', name: '幕張本郷' },
+      { slug: 'abiko', name: '我孫子' },
     ],
   },
   {
@@ -186,6 +189,16 @@ export const prefectureAreas = [
       { slug: 'komagome', name: '駒込' },
       { slug: 'nishikasai', name: '西葛西' },
       { slug: 'ayase', name: '綾瀬' },
+      { slug: 'shin-koiwa', name: '新小岩' },
+      { slug: 'kanamachi', name: '金町' },
+      { slug: 'takenotsuka', name: '竹ノ塚' },
+      { slug: 'hibarigaoka', name: 'ひばりヶ丘' },
+      { slug: 'musashisakai', name: '武蔵境' },
+      { slug: 'ningyocho', name: '人形町' },
+      { slug: 'asakusabashi', name: '浅草橋' },
+      { slug: 'jujo', name: '十条' },
+      { slug: 'mejiro', name: '目白' },
+      { slug: 'hatanodai', name: '旗の台' },
     ],
   },
   {
@@ -217,6 +230,10 @@ export const prefectureAreas = [
       { slug: 'tsunashima', name: '綱島' },
       { slug: 'kamiooka', name: '上大岡' },
       { slug: 'shonandai', name: '湘南台' },
+      { slug: 'tsurumi', name: '鶴見' },
+      { slug: 'center-kita', name: 'センター北' },
+      { slug: 'kikuna', name: '菊名' },
+      { slug: 'saginuma', name: '鷺沼' },
     ],
   },
   {
@@ -292,6 +309,7 @@ export const prefectureAreas = [
       { slug: 'arashiyama', name: '嵐山' },
       { slug: 'katsura', name: '桂' },
       { slug: 'nijo', name: '二条' },
+      { slug: 'saiin', name: '西院' },
     ],
   },
   {
@@ -331,6 +349,7 @@ export const prefectureAreas = [
       { slug: 'suita', name: '吹田' },
       { slug: 'sakaihigashi', name: '堺東' },
       { slug: 'minamimorimachi', name: '南森町' },
+      { slug: 'nishitanabe', name: '西田辺' },
     ],
   },
   {
@@ -350,6 +369,7 @@ export const prefectureAreas = [
       { slug: 'kawanishi', name: '川西' },
       { slug: 'motomachi', name: '元町' },
       { slug: 'shukugawa', name: '夙川' },
+      { slug: 'tsukaguchi', name: '塚口' },
     ],
   },
   {
