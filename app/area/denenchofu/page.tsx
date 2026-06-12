@@ -23,7 +23,7 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7, reviewCount: 145,
     reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '田園調布駅から徒歩3分で通いやすい。マットもマシンも両方受けられるのが魅力。全国150店舗以上で相互利用可能なので出張時にも便利。' },
+      { author: 'M.K', rating: 5, date: '1週間前', text: '田園調布駅から徒歩3分で通いやすい。マットもマシンも両方受けられるのが魅力。全国150店舗以上で他店利用可能なので出張時にも便利。' },
       { author: 'S.T', rating: 5, date: '2週間前', text: 'インストラクターの質が高く丁寧な指導。20年以上の実績があり安心感がある。グループ体験1,000円で気軽に試せました。' },
       { author: 'R.N', rating: 4, date: '3週間前', text: '閑静な住宅街にあり落ち着いた雰囲気。男性もOKなので夫婦で通っています。プライベートレッスンも充実。' },
     ],

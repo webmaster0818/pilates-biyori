@@ -24,7 +24,7 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7, reviewCount: 148,
     reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: 'JR高槻駅南口から徒歩2分、阪急高槻市駅からも徒歩3分で通いやすい。国際資格を持つインストラクターが在籍しています。' },
+      { author: 'M.K', rating: 5, date: '1週間前', text: 'JR高槻駅南口から徒歩2分、阪急高槻市駅からも徒歩3分で通いやすい。国際資格を持つエデュケーターが在籍しています。' },
       { author: 'S.T', rating: 5, date: '2週間前', text: 'マットもマシンも両方受けられる。全国150店舗以上で相互利用可能なので京都や梅田でも通えるのが便利。' },
       { author: 'R.N', rating: 4, date: '3週間前', text: '初回体験1,000円で気軽に試せました。レッスンの種類が豊富で初心者から上級者まで対応しています。' },
     ],

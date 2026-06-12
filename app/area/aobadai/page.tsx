@@ -24,7 +24,7 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7, reviewCount: 142,
     reviews: [
-      { author: 'K.S', rating: 5, date: '1週間前', text: '青葉台駅北口から徒歩2分で通いやすい。マットもマシンも両方受けられる。全国150店舗以上で相互利用可能なので出張時にも便利。' },
+      { author: 'K.S', rating: 5, date: '1週間前', text: '青葉台駅北口から徒歩2分で通いやすい。マットもマシンも両方受けられる。全国150店舗以上で他店利用可能なので出張時にも便利。' },
       { author: 'Y.N', rating: 5, date: '2週間前', text: 'BASIピラティスをベースにした質の高い指導。グループ体験1,000円で気軽に試せます。男性もOK。' },
       { author: 'A.M', rating: 4, date: '3週間前', text: 'インストラクターの知識が豊富で体の変化を早く実感。落ち着いた雰囲気のスタジオで集中できます。' },
     ],

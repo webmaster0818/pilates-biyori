@@ -23,7 +23,7 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7, reviewCount: 168,
     reviews: [
-      { author: 'K.N', rating: 5, date: '1週間前', text: '溝の口駅から徒歩2分で抜群のアクセス。マットもマシンも両方受けられるのが魅力。全国150店舗以上で相互利用可能。' },
+      { author: 'K.N', rating: 5, date: '1週間前', text: '溝の口駅から徒歩2分で抜群のアクセス。マットもマシンも両方受けられるのが魅力。全国150店舗以上で他店利用可能。' },
       { author: 'Y.M', rating: 4, date: '2週間前', text: 'グループ体験1,000円で気軽に試せました。体験当日入会で入会金無料。ピラティス専門で20年以上の実績があり安心。' },
       { author: 'A.S', rating: 5, date: '3週間前', text: 'インストラクターの質が高く体の変化を実感。オンラインレッスンも充実していて忙しい日も自宅で受けられます。' },
     ],

@@ -23,7 +23,7 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8, reviewCount: 175,
     reviews: [
-      { author: 'S.K', rating: 5, date: '2週間前', text: '高輪ゲートウェイ駅から徒歩6分、泉岳寺駅からは徒歩4分。マットもマシンも両方受けられるのが嬉しい。全国150店舗以上で相互利用可能。' },
+      { author: 'S.K', rating: 5, date: '2週間前', text: '高輪ゲートウェイ駅から徒歩6分、泉岳寺駅からは徒歩4分。マットもマシンも両方受けられるのが嬉しい。全国150店舗以上で他店利用可能。' },
       { author: 'Y.T', rating: 5, date: '1ヶ月前', text: 'グレード01のスタジオで設備が充実。少人数制で丁寧な指導を受けられます。白金高輪からも通いやすい距離です。' },
       { author: 'K.H', rating: 4, date: '3週間前', text: '男性もOKなので夫婦で通えます。体験500円で気軽に始められました。落ち着いた雰囲気のスタジオです。' },
     ],

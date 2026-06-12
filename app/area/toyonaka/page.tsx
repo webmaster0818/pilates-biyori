@@ -23,7 +23,7 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7, reviewCount: 142,
     reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '阪急豊中駅東口から徒歩5分。マットもマシンも両方受けられるのが魅力。全国150店舗以上で相互利用できるのが便利です。' },
+      { author: 'M.K', rating: 5, date: '1週間前', text: '阪急豊中駅東口から徒歩5分。マットもマシンも両方受けられるのが魅力。全国150店舗以上で他店利用できるのが便利です。' },
       { author: 'S.T', rating: 5, date: '2週間前', text: 'インストラクターの質が高く丁寧な指導。初回体験1,000円で気軽に試せました。男性もOKなので夫婦で通っています。' },
       { author: 'R.N', rating: 4, date: '3週間前', text: '住宅地の中にある落ち着いた雰囲気のスタジオ。グループレッスンの種類が豊富で飽きずに通えます。' },
     ],

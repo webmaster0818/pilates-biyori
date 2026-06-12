@@ -23,7 +23,7 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7, reviewCount: 156,
     reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '江坂駅から徒歩1分で通いやすい。マットもマシンも両方受けられるのが魅力。全国150店舗以上で相互利用可能なので出張時にも便利。' },
+      { author: 'M.K', rating: 5, date: '1週間前', text: '江坂駅から徒歩1分で通いやすい。マットもマシンも両方受けられるのが魅力。全国150店舗以上で他店利用可能なので出張時にも便利。' },
       { author: 'S.T', rating: 5, date: '2週間前', text: 'インストラクターの質が高く丁寧な指導。初回体験1,000円で気軽に試せました。グループレッスンの種類も豊富です。' },
       { author: 'R.N', rating: 4, date: '3週間前', text: '北摂エリアの玄関口・江坂にあるので梅田方面からもアクセス良好。男性もOKなので夫婦で通っています。' },
     ],

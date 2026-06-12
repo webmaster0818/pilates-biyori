@@ -34,7 +34,7 @@ const studios = [
   {
     name: 'zen place pilates 尼崎', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 25,
     reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'ピラティス専門の大手スタジオ。全国150店舗以上で相互利用可能。マットグループ・マシングループ・プライベートの。気に入っています。' },
+      { author: 'M.S', rating: 5, date: '1週間前', text: 'ピラティス専門の大手スタジオ。全国150店舗以上で他店利用可能。マットグループ・マシングループ・プライベートの。気に入っています。' },
       { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
       { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
     ],

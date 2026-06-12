@@ -23,7 +23,7 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7, reviewCount: 138,
     reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '千里中央駅北口から徒歩3分。マットもマシンも両方受けられるのが魅力。全国150店舗以上で相互利用可能なので梅田でも通えます。' },
+      { author: 'M.K', rating: 5, date: '1週間前', text: '千里中央駅北口から徒歩3分。マットもマシンも両方受けられるのが魅力。全国150店舗以上で他店利用可能なので梅田でも通えます。' },
       { author: 'S.T', rating: 5, date: '2週間前', text: 'インストラクターの質が高く丁寧な指導。初回体験1,000円で気軽に試せました。千里ニュータウンの方に人気のスタジオです。' },
       { author: 'R.N', rating: 4, date: '3週間前', text: '北大阪急行で梅田方面へのアクセスも良好。レッスンの種類が豊富で飽きません。男性もOKなのが嬉しい。' },
     ],
