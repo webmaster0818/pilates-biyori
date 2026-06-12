@@ -12,8 +12,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス浦和おすすめ7選！人気スタジオの料金プランを簡単比較！',
-  description: '浦和エリアのおすすめピラティススタジオ7選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026最新】ピラティス浦和おすすめ8選！人気スタジオの料金プランを簡単比較！',
+  description: '浦和エリアのおすすめピラティススタジオ8選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,浦和,埼玉,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -305,6 +305,17 @@ const studios = [
     access: '浦和駅から徒歩3分',
     address: '埼玉県さいたま市浦和区東高砂町18-11 チェリーハイツ101',
   },
+  {
+    name: 'ルキナ 北浦和店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=Q113418.1.21564097.U1357808',
+    image: '/images/studios/lucina.webp',
+    price: 'マシンピラティス 月4回 10,450円／月8回 13,750円（税込）',
+    trial: '体験レッスンあり（料金・空き状況は公式サイト参照）',
+    features: ['コラーゲントリートメントランプ', 'マシンピラティス（リフォーマー）', 'ホットヨガ併設', '女性専用'],
+    description: 'エステでも使われるコラーゲントリートメントランプを設置した女性専用スタジオ。リフォーマーを使ったマシンピラティスのグループレッスンとホットヨガを提供。浦和エリアの北浦和駅前。JR京浜東北線北浦和駅西口から徒歩1分。',
+    access: 'JR京浜東北線北浦和駅西口から徒歩1分',
+    address: '埼玉県さいたま市浦和区北浦和4-3-18 北浦和四丁目ビル5F',
+  },
 ]
 
 const faqs = [
@@ -367,7 +378,7 @@ export default function UrawaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス浦和おすすめ7選！<br className="hidden md:block" />
+              【2026最新】ピラティス浦和おすすめ8選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -410,7 +421,7 @@ export default function UrawaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、浦和エリアでおすすめのピラティススタジオ7選をまとめました。
+              そこでこの記事では、浦和エリアでおすすめのピラティススタジオ8選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -449,7 +460,7 @@ export default function UrawaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              浦和のおすすめピラティススタジオ7選
+              浦和のおすすめピラティススタジオ8選
             </h2>
             <div className="space-y-8">
               {studios.map((studio, index) => (
