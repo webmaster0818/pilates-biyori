@@ -54,7 +54,7 @@ MediaXAI「phase0進めてください」(2026-06-11 13:35)→実施。
 - `/contact/`（app/contact/page.tsx＋components/ContactForm.tsx）→ POST `/api/contact` → pilates-biyori-deploy の `functions/api/contact.js` → Discord Webhook通知（MediaXAI＋tomomiメンション）
 - footer「お問い合わせ（広告出稿・掲載）」（旧/#aboutアンカーを置換）/sitemapに/contact/追加
 - **⚠️rsyncは`--exclude="functions"`必須**（--deleteでFunction消失。他Botがpilatesをデプロイする時も同様）
-- 要手動設定: pilatesチャンネル(1487358680671326259)でWebhook作成→pilates-biyori-deployのCF env var `DISCORD_WEBHOOK_URL`(Secret)→再デプロイ。**CFアカウントはMediaXAIに要確認**（peatbid=webmaster0818だった。思い込み禁止）
+- **✅稼働開始(2026-06-12 15:18)**: MediaXAIがWebhook作成＋CF env var設定＋再デプロイ→tomomiテストPOST 200・Discord通知着弾確認。全経路正常。返信は webmaster@mediax.biz（差出人名=Pilates-Biyori編集部、gsc-api/send_reply.py --from-name）
 - 返信メールは既存の webmaster@mediax.biz 基盤を共用（`gsc-api/send_reply.py --from-name "Pilates-Biyori編集部"`）
 
 **⚠️発見: 19エリアページの本文にU+FFFD文字化けが大量に存在（計1,100カ所超）**: oita/komazawa-daigaku/ikejiri-ohashi/chuo-rinkan/tsunashima/kasukabe/wakoshi/chitose-funabashi/kyodo/toyonaka/kugayama/kanayama/honancho/nijo/shinjuku/shin-yurigaoka/fujimino/sakura-shinmachi/soka。**ページ生成時（初回コミット時点）から壊れており**git履歴に正常版なし。
