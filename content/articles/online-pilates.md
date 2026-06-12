@@ -17,13 +17,13 @@ keywords:
   - "ピラティス 自宅 オンライン"
   - "オンラインピラティス 効果"
 relatedArticles:
-  - "online-pilates-osusume"
+  - "pilates-online"
   - "online-pilates-koka"
   - "online-pilates-ryokin"
   - "online-vs-studio-pilates"
   - "online-pilates-shoshinsha"
-  - "pilates-beginner-home"
-  - "mat-machine-difference"
+  - "online-pilates-live-video"
+  - "pilates-ryokin-hakusho"
 faq:
   - q: "オンラインピラティスでも効果はありますか？"
     a: "継続できれば、体幹強化・姿勢改善・柔軟性向上といったピラティス本来の効果は十分に期待できます。鍵は「正しいフォームで」「無理なく続ける」こと。ライブ型でトレーナーにフォームを見てもらう、最初の数回だけスタジオで基本を習うなどで、自己流による効果の頭打ちを防げます。"
@@ -114,6 +114,21 @@ faq:
 - フォームを細かく直してほしい（特に痛みや不調がある）
 - マシンピラティスを本格的にやりたい
 - 一人だと続かず、スタジオの環境で頑張りたい
+
+## もっと詳しく — オンラインピラティス徹底ガイド
+
+このガイドを起点に、テーマ別の詳細記事で深掘りできます。
+
+| 知りたいこと | 記事 |
+| --- | --- |
+| どのサービスがいい？ | [おすすめ7選比較（全サービス公式確認済み）](/articles/pilates-online/) |
+| 本当に効果ある？ | [効果と続け方・フォームの落とし穴](/articles/online-pilates-koka/) |
+| いくらかかる？ | [料金相場と無料で試す方法](/articles/online-pilates-ryokin/) |
+| スタジオとどっちが良い？ | [オンラインvsスタジオ徹底比較](/articles/online-vs-studio-pilates/) |
+| 何から始めれば？ | [初心者向けの始め方（必要なもの・4週間プラン）](/articles/online-pilates-shoshinsha/) |
+| ライブとビデオの違いは？ | [ライブ型vsビデオ型・マンツーマンの選び方](/articles/online-pilates-live-video/) |
+
+スタジオの料金実態は[全国ピラティス料金白書（211スタジオ調査）](/articles/pilates-ryokin-hakusho/)で公開しています。
 
 ## まとめ
 
