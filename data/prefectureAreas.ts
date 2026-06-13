@@ -26,6 +26,7 @@ export const prefectureAreas = [
     prefecture: '茨城県',
     areas: [
       { slug: 'tsukuba', name: 'つくば' },
+      { slug: 'moriya', name: '守谷' },
     ],
   },
   {
@@ -73,6 +74,7 @@ export const prefectureAreas = [
       { slug: 'makuharihongo', name: '幕張本郷' },
       { slug: 'abiko', name: '我孫子' },
       { slug: 'shin-kemigawa', name: '新検見川' },
+      { slug: 'sakura', name: '佐倉' },
     ],
   },
   {
@@ -303,6 +305,8 @@ export const prefectureAreas = [
       { slug: 'kasugai', name: '春日井' },
       { slug: 'kariya', name: '刈谷' },
       { slug: 'kanayama', name: '金山' },
+      { slug: 'anjo', name: '安城' },
+      { slug: 'shinsakaemachi', name: '新栄町' },
     ],
   },
   {
@@ -368,6 +372,10 @@ export const prefectureAreas = [
       { slug: 'sakaihigashi', name: '堺東' },
       { slug: 'minamimorimachi', name: '南森町' },
       { slug: 'nishitanabe', name: '西田辺' },
+      { slug: 'miyakojima', name: '都島' },
+      { slug: 'gamoyonchome', name: '蒲生四丁目' },
+      { slug: 'tsukamoto', name: '塚本' },
+      { slug: 'fukaebashi', name: '深江橋' },
     ],
   },
   {
@@ -436,6 +444,9 @@ export const prefectureAreas = [
       { slug: 'kashii', name: '香椎' },
       { slug: 'kitakyushu', name: '北九州' },
       { slug: 'ohashi', name: '大橋' },
+      { slug: 'ohorikoen', name: '大濠公園' },
+      { slug: 'nishitetsu-futsukaichi', name: '西鉄二日市' },
+      { slug: 'chayama', name: '茶山' },
     ],
   },
   {
