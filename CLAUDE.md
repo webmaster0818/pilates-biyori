@@ -50,7 +50,11 @@ MediaXAI「phase0進めてください」(2026-06-11 13:35)→実施。
 - **新規エリア第2弾完了（2026-06-12未明、MediaXAI「明日分進めて」で前倒し）**: `scripts/gen-new-areas-batch2.py`で20エリア生成（shin-koiwa/kanamachi/takenotsuka/hibarigaoka/musashisakai/ningyocho/asakusabashi/jujo/mejiro/hatanodai/tsurumi/center-kita/kikuna/saginuma/yachiyodai/makuharihongo/abiko/saiin/tsukaguchi/nishitanabe）。併設スタジオは4エージェント並列調査（公式fetch確認済み・受付停止中のルルト鶴見と公式404の折は除外）。sitemap 395URL・Indexing API 20件
 - **残バックログ: 約65エリア**（Pilates Mee中心。circles: 円山公園/大通→札幌統合済み。乗換系・郊外駅）。`/opt/homebrew/bin/python3`でバックログ再計算可（CLAUDE.md本節のスクリプト参照）。**次バッチはこのbatch1スクリプトを複製してAREASを差し替えるのが最速**。⚠️新規スラッグは必ず既存ディレクトリ・prefectureAreas両方と衝突確認（sannomiyaは既存ページがあり登録済みだった）
 
-### 2026-06-11 問い合わせシステム構築（peatbidパターン移植）
+### 2026-06-12 Phase 2実行（MediaXAI「進めよう！」）
+- **①オンラインクラスター完成（ピラー+6本）**: ピラー=/articles/online-pilates/（本文に6記事へのクラスター導線表を追加・relatedArticles修正）。新規5本=`online-pilates-koka`(効果)/`online-pilates-ryokin`(料金・211調査比較)/`online-vs-studio-pilates`(比較)/`online-pilates-shoshinsha`(始め方)/`online-pilates-live-video`(形式比較)。**比較記事は新規でなく既存`pilates-online`を全面リライト**（旧8選=★捏造評価・終了済みサービス・古い料金を含んでいた→調査エージェントが公式確認した7サービスに刷新。YOGATIVE/Olulu終了も正直に記載。LEAN BODY料金は公式403で確認不可→「公式参照」表記。**zen place言及はエデュケーター等レギュレーション準拠**）
+- **②全国ピラティス料金白書2026**: `/articles/pilates-ryokin-hakusho/`＝site-survey.ts(211スタジオ)の全データをメソドロジー・チャート4種(体験/月額/設備/評価)・「出典明記で引用歓迎」セクション付きで公開＝被リンク資産。月額二極化(〜1万38% vs 1.3-1.6万34%)を主見出しに
+- sitemap 401URL・Indexing API 8/8成功。⚠️ピラーのrelatedArticlesにあった`online-pilates-osusume`は未作成slugだった→pilates-onlineに差し替え
+- 残: バックログ新規エリア約65（並走継続）。白書の被リンク営業（相互リンク交渉時の提案素材）は問い合わせフォーム経由で運用
 - `/contact/`（app/contact/page.tsx＋components/ContactForm.tsx）→ POST `/api/contact` → pilates-biyori-deploy の `functions/api/contact.js` → Discord Webhook通知（MediaXAI＋tomomiメンション）
 - footer「お問い合わせ（広告出稿・掲載）」（旧/#aboutアンカーを置換）/sitemapに/contact/追加
 - **⚠️rsyncは`--exclude="functions"`必須**（--deleteでFunction消失。他Botがpilatesをデプロイする時も同様）

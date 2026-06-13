@@ -72,6 +72,7 @@ export const prefectureAreas = [
       { slug: 'yachiyodai', name: '八千代台' },
       { slug: 'makuharihongo', name: '幕張本郷' },
       { slug: 'abiko', name: '我孫子' },
+      { slug: 'shin-kemigawa', name: '新検見川' },
     ],
   },
   {
@@ -199,6 +200,17 @@ export const prefectureAreas = [
       { slug: 'jujo', name: '十条' },
       { slug: 'mejiro', name: '目白' },
       { slug: 'hatanodai', name: '旗の台' },
+      { slug: 'higashikurume', name: '東久留米' },
+      { slug: 'kiyose', name: '清瀬' },
+      { slug: 'kumegawa', name: '久米川' },
+      { slug: 'kitami', name: '喜多見' },
+      { slug: 'aomono-yokocho', name: '青物横丁' },
+      { slug: 'shintomicho', name: '新富町' },
+      { slug: 'hakusan', name: '白山' },
+      { slug: 'nishi-ojima', name: '西大島' },
+      { slug: 'minowa', name: '三ノ輪' },
+      { slug: 'keisei-koiwa', name: '京成小岩' },
+      { slug: 'keisei-tateishi', name: '京成立石' },
     ],
   },
   {
@@ -234,6 +246,10 @@ export const prefectureAreas = [
       { slug: 'center-kita', name: 'センター北' },
       { slug: 'kikuna', name: '菊名' },
       { slug: 'saginuma', name: '鷺沼' },
+      { slug: 'nakayama', name: '中山' },
+      { slug: 'hodogaya', name: '保土ヶ谷' },
+      { slug: 'maita', name: '蒔田' },
+      { slug: 'kamonomiya', name: '鴨宮' },
     ],
   },
   {
@@ -244,6 +260,7 @@ export const prefectureAreas = [
       { slug: 'numazu', name: '沼津' },
       { slug: 'fuji', name: '富士' },
       { slug: 'mishima', name: '三島' },
+      { slug: 'atami', name: '熱海' },
     ],
   },
   {
@@ -310,6 +327,7 @@ export const prefectureAreas = [
       { slug: 'katsura', name: '桂' },
       { slug: 'nijo', name: '二条' },
       { slug: 'saiin', name: '西院' },
+      { slug: 'kyoto-yawata', name: '京都八幡' },
     ],
   },
   {

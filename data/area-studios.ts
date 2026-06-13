@@ -3,7 +3,7 @@
 type Studio = {
   name: string
   officialUrl?: string
-  image: string
+  image?: string
   rating?: number
   price: string
   trial: string
@@ -3324,7 +3324,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'ピラティススタジオDEP 南森町店',
         officialUrl: 'https://dep-pilates.com/shop/kinki/minamimorimachi-espoir',
-        image: '/images/studios/pilates-k.webp',
         price: '月2回 17,000円／月4回 32,000円',
         trial: '体験 通常9,900円（キャンペーンあり）',
         features: ['マシンピラティス専門', '完全個室マンツーマン', '理学療法士・作業療法士在籍'],
@@ -3335,7 +3334,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'Pilates Studio Leben',
         officialUrl: 'https://leben-pilates.com/',
-        image: '/images/studios/pilates-k.webp',
         price: 'グループ月4回 14,800円／パーソナル1回 9,900円',
         trial: '初回体験 500円（約90分）',
         features: ['女性専用', 'マシンピラティス', 'グループ＋パーソナル', '理学療法士監修'],
@@ -3376,7 +3374,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'ピラティスミラー 大泉学園',
         officialUrl: 'https://www.konami.com/sportsclub/pilatesmirror/oizumigakuen/',
-        image: '/images/studios/pilates-k.webp',
         price: '月会費 11,000円（月6回まで）・1回チケット 2,750円',
         trial: '体験 通常2,200円（キャンペーンあり）',
         features: ['マシン（リフォーマー）', '最大7名少人数グループ', '女性専用'],
@@ -3398,7 +3395,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'SAKURA 大泉学園店',
         officialUrl: 'https://sakura-pilates.jp/studios/oizumigakuen/',
-        image: '/images/studios/pilates-k.webp',
         price: '月4回 33,000円／月8回 63,800円',
         trial: '体験 5,500円',
         features: ['マシンピラティス', '完全個室マンツーマン', '女性専用'],
@@ -3450,7 +3446,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'ピラティス＆ヨガスタジオ Olulu 大森山王スタジオ',
         officialUrl: 'https://olulu-yoga.com/',
-        image: '/images/studios/pilates-k.webp',
         price: 'グループ月4回 8,800円／全日通い放題 13,200円（税込）',
         trial: '体験 グループ1,000円',
         features: ['マット中心', 'ヨガ併設', '少人数グループ＋プライベート'],
@@ -3461,7 +3456,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'FLATTE 大森店',
         officialUrl: 'https://flatte.jp/pilates/location/omori/',
-        image: '/images/studios/pilates-k.webp',
         price: '月2回 16,500円／月4回 29,700円（税込）',
         trial: '無料体験表記あり（詳細は公式サイト参照）',
         features: ['マシンピラティス', '完全パーソナル50分', '男女利用可'],
@@ -3524,7 +3518,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'COCOLANCE 駒込店',
         officialUrl: 'https://cocolance.jp/location/komagome/',
-        image: '/images/studios/pilates-k.webp',
         price: '月4回 35,200円（税込）',
         trial: '体験 通常7,700円（初回限定キャンペーンあり）',
         features: ['マシンピラティス', '完全個室マンツーマン', '女性専用'],
@@ -3576,7 +3569,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'マピラ（mapila）西葛西店',
         officialUrl: 'https://pilates-mapila.jp/nishikasai/',
-        image: '/images/studios/pilates-k.webp',
         price: 'マンスリー4 7,700円／フルタイム 14,300円',
         trial: '詳細は公式サイト参照',
         features: ['マシン（リフォーマー）グループ', 'ホットヨガ併設'],
@@ -3587,7 +3579,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'La Pilates 西葛西店',
         officialUrl: 'https://la-pilates.jp/studio/nishikasai/',
-        image: '/images/studios/pilates-k.webp',
         price: 'パーソナル月2回 22,000円／月4回 40,000円',
         trial: '体験 3,000円（通常14,000円）',
         features: ['整体×マシンピラティス', 'パーソナル', '女性専用'],
@@ -3691,7 +3682,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'Pilates Studio Licotto 湘南台店',
         officialUrl: 'https://studio-licotto.jp/shonandai/',
-        image: '/images/studios/pilates-k.webp',
         price: '月4回 13,200円／受け放題 22,000円（税込月額）',
         trial: '体験 無料',
         features: ['女性専用', 'マシン＋マット両対応', '最大6名少人数グループ'],
@@ -3702,7 +3692,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'ピラティススタジオ ルルト 湘南台店',
         officialUrl: 'https://luluto.kabushikigaisya-rigakubody.co.jp/tenpo/pilates_shonandai/',
-        image: '/images/studios/pilates-k.webp',
         price: '月4回 38,400円（税込）',
         trial: '体験制度あり（受付状況は公式サイト参照）',
         features: ['マンツーマン専門', 'リフォーマー・キャデラック・チェア完備', '理学療法士監修'],
@@ -3806,7 +3795,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'ピラティスAXE 本八幡駅前店',
         officialUrl: 'https://pilatesaxe.jp/motoyawata-ekimae/',
-        image: '/images/studios/pilates-k.webp',
         price: 'グループ月4回 10,780円／パーソナル月4回 33,000円',
         trial: '体験 グループ2,750円／パーソナル4,400円（キャンペーンあり）',
         features: ['マシンピラティス専門', 'グループ（女性限定）＋パーソナル（男女可）'],
@@ -3836,7 +3824,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'OLUTANA pilates 新浦安店',
         officialUrl: 'https://www.olutana-pilates.com/',
-        image: '/images/studios/pilates-k.webp',
         price: '月25回 15,400円／月15回 13,200円（税込）ほか',
         trial: '体験あり（料金は公式サイト参照）',
         features: ['女性専用', 'マシン（リフォーマー）', '30分完結グループ', '完全予約制'],
@@ -3847,7 +3834,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'Mami Pilates Studio',
         officialUrl: 'https://mamipilates.net/',
-        image: '/images/studios/pilates-k.webp',
         price: 'プライベート3回 25,000円／グループ10回チケット 20,000円（税込）',
         trial: '体験あり（料金は公式サイト参照）',
         features: ['マシン＋マット両対応', 'プライベート＆少人数グループ', '女性専用'],
@@ -3899,7 +3885,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'Bump Up 蕨店',
         officialUrl: 'https://bumpup-japan.com/warabi/',
-        image: '/images/studios/pilates-k.webp',
         price: 'パーソナル月4回 30,800円／グループ月4回 19,800円',
         trial: '体験 5,000円（カウンセリング無料）',
         features: ['マシンピラティス×筋トレ', 'パーソナル＋少人数グループ', '理学療法士監修'],
@@ -3951,7 +3936,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'SOELU スタジオ 綾瀬店',
         officialUrl: 'https://lp.soelu.com/new_ayase/index.html',
-        image: '/images/studios/pilates-k.webp',
         price: 'スタンダード 7,678円／ピラティス4 9,878円（税込月額）',
         trial: '初回予約者は無料',
         features: ['マシンピラティスレッスンあり', '低価格'],
@@ -3981,7 +3965,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'ピラティスミラー 夙川店',
         officialUrl: 'https://www.konami.com/sportsclub/pilatesmirror/shukugawa/',
-        image: '/images/studios/pilates-k.webp',
         price: '月会費 11,000円（月6回まで）',
         trial: '体験 通常2,200円（キャンペーンあり）',
         features: ['女性専用', 'リフォーマー', '最大6名少人数グループ', '30分'],
@@ -3992,7 +3975,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'グッドデイフィールピラティス',
         officialUrl: 'https://www.gooddaypilates.jp/',
-        image: '/images/studios/pilates-k.webp',
         price: 'プライベート1回 15,600円／4回コース 57,600円',
         trial: '体験 4,400円',
         features: ['リフォーマー専門', '完全個室マンツーマン'],
@@ -4003,7 +3985,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'Studio HARURU 夙川',
         officialUrl: 'https://beauty.hotpepper.jp/kr/slnH000728274/',
-        image: '/images/studios/pilates-k.webp',
         price: '料金は掲載ページ参照',
         trial: '体験 2,000円（その場入会で無料）',
         features: ['女性専用', 'マシン＋マット＋ヨガ', 'グループ／パーソナル両対応'],
@@ -4055,7 +4036,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'ウェルピラティス 新小岩店',
         officialUrl: 'https://well-pilates.jp/location/shinkoiwa/',
-        image: '/images/studios/pilates-k.webp',
         price: '月2回 17,920円／月4回 34,920円（税込）',
         trial: '体験 980円（キャンペーン）',
         features: ['マシンピラティス', 'マンツーマンパーソナル', '男性利用可'],
@@ -4085,7 +4065,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'ASFiT 金町店',
         officialUrl: 'https://pilates-asfit.tokyo/',
-        image: '/images/studios/pilates-k.webp',
         price: '月4回 16,000円／月8回 30,000円（税込）',
         trial: '体験 2,178円（120分・LINE予約で無料）',
         features: ['マシンピラティス×パーソナル', '個室マンツーマン', '医療提携'],
@@ -4096,7 +4075,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'nu pilatesstudio 金町スタジオ',
         officialUrl: 'https://www.nupilatesstudio.com/',
-        image: '/images/studios/pilates-k.webp',
         price: 'プライベート60分 8,800円／リフォーマーグループ45分 4,380円〜',
         trial: '体験 6,300円（60分）',
         features: ['マシン（STOTT機材）＋マット', 'パーソナル＋少人数グループ'],
@@ -4107,7 +4085,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'ココピラティス',
         officialUrl: 'https://co-co-pilates.com/',
-        image: '/images/studios/pilates-k.webp',
         price: '料金は公式サイト参照',
         trial: '体験あり（料金は公式サイト参照）',
         features: ['マシンピラティス専門', 'パーソナル／最大3名少人数', '初心者専用'],
@@ -4148,7 +4125,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'ASFiT 竹ノ塚店',
         officialUrl: 'https://pilates-asfit.tokyo/takenotsuka_access/',
-        image: '/images/studios/pilates-k.webp',
         price: '月4回 16,000円／月8回 30,000円（税込）',
         trial: '体験 2,178円（120分・LINE予約で無料）',
         features: ['マシンピラティス×パーソナル', '個室マンツーマン', '医療提携・子連れ可'],
@@ -4178,7 +4154,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'ピラティススタジオRENO',
         officialUrl: 'https://pilates-studio-reno.com/',
-        image: '/images/studios/pilates-k.webp',
         price: '月4回 15,400円／月8回 22,000円（税込）',
         trial: '体験 通常3,300円（キャンペーンあり）',
         features: ['マシンピラティス', '最大5名少人数グループ', '女性専用'],
@@ -4189,7 +4164,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'exeed Pilates studio ひばりヶ丘店',
         officialUrl: 'https://www.exeed-pilates-hibarigaoka.com/',
-        image: '/images/studios/pilates-k.webp',
         price: '都度 8,800円（50分）／4回券 32,800円〜',
         trial: '体験 5,500円（当日入会で0円）',
         features: ['マシン（リフォーマー・チェア・タワー）', '完全個室パーソナル専門'],
@@ -4230,7 +4204,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'ピラティスミラー 武蔵境',
         officialUrl: 'https://www.konami.com/sportsclub/pilatesmirror/musashisakai/',
-        image: '/images/studios/pilates-k.webp',
         price: '月会費 11,000円（月6回まで）',
         trial: '体験 通常2,200円（キャンペーンあり）',
         features: ['女性専用', '最大10名少人数＋パーソナル', '30分レッスン'],
@@ -4241,7 +4214,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'パーソナルマシンピラティスYUZU 武蔵境店',
         officialUrl: 'https://yuzu-pilates.com/studios/musashi-sakai/',
-        image: '/images/studios/pilates-k.webp',
         price: '月2回 16,800円／月4回 31,200円（税込）',
         trial: '体験 初回500円',
         features: ['マシンピラティス', '完全個室パーソナル専門', '女性スタッフ100%'],
@@ -4271,7 +4243,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'YARD 人形町スタジオ',
         officialUrl: 'https://yard-yp.com/studio/ningyocho/',
-        image: '/images/studios/pilates-k.webp',
         price: '月4回 9,680円／月8回 13,860円（税込）',
         trial: '体験 無料（グループ1回）',
         features: ['常温ヨガ＆ピラティス', '少人数制', '子連れ可プログラムあり'],
@@ -4293,7 +4264,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'B-holic 人形町',
         officialUrl: 'https://pilates-nihombashi.com/',
-        image: '/images/studios/pilates-k.webp',
         price: '回数券5回 45,000円〜',
         trial: '体験 9,800円（60分）',
         features: ['ピラティス×加圧トレーニング', 'マンツーマン専門'],
@@ -4323,7 +4293,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'ピラティススタジオRAS',
         officialUrl: 'https://www.pt-pilatesstudio.com/',
-        image: '/images/studios/pilates-k.webp',
         price: '料金は公式サイト参照',
         trial: '体験あり（料金は公式サイト参照）',
         features: ['理学療法士監修', 'リフォーマー・キャデラック・チェア', '最大3名セミプライベート'],
@@ -4334,7 +4303,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'Feel Body 浅草橋',
         officialUrl: 'https://feelbody.jp/',
-        image: '/images/studios/pilates-k.webp',
         price: '月1〜4回 9,900〜35,200円（税込）',
         trial: '体験 初回5,500円',
         features: ['マシンパーソナル', '完全マンツーマン', '骨格・姿勢評価'],
@@ -4345,7 +4313,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'ピラティススタジオ ルルト 蔵前浅草橋店',
         officialUrl: 'https://luluto.kabushikigaisya-rigakubody.co.jp/tenpo/pilates_kuramaeasakusabashi/',
-        image: '/images/studios/pilates-k.webp',
         price: '月4回 38,400円（税込）',
         trial: '体験 期間限定1,000円（45分）',
         features: ['理学療法士監修', 'マンツーマン専門', 'リフォーマー・キャデラック・チェア'],
@@ -4375,7 +4342,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'pilateshaus',
         officialUrl: 'https://www.pilateshaus.net/',
-        image: '/images/studios/pilates-k.webp',
         price: '料金は公式サイト参照',
         trial: '体験あり（プライベート体験の案内あり）',
         features: ['プライベート中心＋マットグループ', 'マタニティ・産後対応', '子連れOK'],
@@ -4386,7 +4352,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'FIT LABO 東十条店',
         officialUrl: 'https://fitlabo-gym.com/higashijujo/',
-        image: '/images/studios/pilates-k.webp',
         price: '月4回 12,100円／通い放題 19,800円（税込）',
         trial: '体験あり（料金は公式サイト参照）',
         features: ['セミパーソナル', 'マシン＋マット＋トレーニング'],
@@ -4427,7 +4392,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'Pilates Studio Licotto 目白',
         officialUrl: 'https://studio-licotto.jp/',
-        image: '/images/studios/pilates-k.webp',
         price: '月4回 13,200円／受け放題 22,000円（税込）',
         trial: '体験 無料（1人1回）',
         features: ['女性専用', 'マット＋マシン両対応', '少人数グループ'],
@@ -4438,7 +4402,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'SPRINGS PILATES STUDIO',
         officialUrl: 'https://springs-pilates.com/',
-        image: '/images/studios/pilates-k.webp',
         price: '料金は公式サイト参照',
         trial: '体験あり（料金は公式サイト参照）',
         features: ['理学療法士多数在籍', 'プライベート＋最大5名少人数', 'ジャイロトニック対応'],
@@ -4509,7 +4472,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'マハロピラティス鶴見',
         officialUrl: 'https://mahalo-pilates.jp/',
-        image: '/images/studios/pilates-k.webp',
         price: 'プライベート月4回 33,000円／グループ受け放題 月11,000円',
         trial: '体験 マシンプライベート5,500円・マットグループ1,100円',
         features: ['マシンプライベート＋マットグループ', '未経験者8割以上'],
@@ -4572,7 +4534,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'Nピラティス 横浜センター北店',
         officialUrl: 'https://npilates.jp/yokohama/',
-        image: '/images/studios/pilates-k.webp',
         price: '料金は公式サイト参照',
         trial: '体験あり（料金は公式サイト参照）',
         features: ['パーソナルマシンピラティス専門', '理学療法士の解剖学ベース指導'],
@@ -4602,7 +4563,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'Studio TAIKA 横浜菊名店',
         officialUrl: 'https://taika-yokohama.com/',
-        image: '/images/studios/pilates-k.webp',
         price: '料金は公式サイト参照',
         trial: '体験 初回（料金・条件は公式サイト参照）',
         features: ['パーソナルマシンピラティス', '理学療法士含む有資格者', '産前産後対応'],
@@ -4613,7 +4573,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'レ・フルール ピラティス＆ヨガスタジオ',
         officialUrl: 'https://les-fleurs.net/kikuna/',
-        image: '/images/studios/pilates-k.webp',
         price: '都度払い プライベート6,000円／グループ2,000円',
         trial: '体験 グループ1,500円〜',
         features: ['女性専用', '都度払い制（月額契約なし）', '子連れ可（パーソナル）'],
@@ -4643,7 +4602,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'ピラティスミラー 鷺沼',
         officialUrl: 'https://www.konami.com/sportsclub/pilatesmirror/saginuma/',
-        image: '/images/studios/pilates-k.webp',
         price: '月会費 11,000円（月6回まで）',
         trial: '体験 通常2,200円（キャンペーンあり）',
         features: ['女性専用', '最大7名少人数', '30分レッスン'],
@@ -4654,7 +4612,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'Y plus PILATES',
         officialUrl: 'https://www.ypluspilates.com/',
-        image: '/images/studios/pilates-k.webp',
         price: '料金は公式サイト参照',
         trial: '体験あり（料金は公式サイト参照）',
         features: ['1対1パーソナル専門', '完全個室', 'マタニティ・産後・子連れ対応'],
@@ -4684,7 +4641,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'マシンピラティスジムWELL-FIT 八千代店',
         officialUrl: 'https://well-fit-gym.com/pilatesyachiyo/',
-        image: '/images/studios/pilates-k.webp',
         price: '月4回 15,400円（60歳以上限定コース）ほか／詳細は公式サイト参照',
         trial: '体験 通常3,300円（キャンペーンあり）',
         features: ['完全予約制・完全個室', 'パーソナルマシンピラティス', '子連れ対応'],
@@ -4714,7 +4670,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'V-pilates 幕張本郷店',
         officialUrl: 'https://v-fit-gym.com/pilates-makuhari/',
-        image: '/images/studios/pilates-k.webp',
         price: '月4回（40分）26,400円／月8回（40分）48,400円（税込）',
         trial: '体験 通常3,300円（キャンペーンあり）',
         features: ['女性専用', '完全個室パーソナル', '子連れ可'],
@@ -4725,7 +4680,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'ラルーチェボディスタジオ',
         officialUrl: 'https://www.laluce-body.com/',
-        image: '/images/studios/pilates-k.webp',
         price: '料金は公式サイト参照',
         trial: '体験あり（料金は公式サイト参照）',
         features: ['女性専用', 'マットピラティス・ヨガ', 'マタニティ対応'],
@@ -4766,7 +4720,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'パーソナルマシンピラティスREGUTS 我孫子店',
         officialUrl: 'https://reguts-pilates-abiko.com/',
-        image: '/images/studios/pilates-k.webp',
         price: '30分コース月4回 19,800円／50分コース月4回 30,800円（税込）',
         trial: '体験 2,000円（30分・通常5,500円）',
         features: ['運動初心者専門', 'マンツーマンパーソナル', '駐車場完備'],
@@ -4818,7 +4771,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'STUDIO IVY 西院店',
         officialUrl: 'https://www.pilates-ivy.jp/studio/saiin',
-        image: '/images/studios/pilates-k.webp',
         price: '月2回 15,000円／月4回 28,000円（税込）',
         trial: '体験 通常4,500円（キャンペーンあり）',
         features: ['パーソナル専門', '完全プライベート', 'マシンピラティス'],
@@ -4848,7 +4800,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'ピラティスミラー 塚口',
         officialUrl: 'https://www.konami.com/sportsclub/pilatesmirror/tsukaguchi/',
-        image: '/images/studios/pilates-k.webp',
         price: '月会費 11,000円（月6回まで）',
         trial: '体験 通常2,200円（キャンペーンあり）',
         features: ['女性専用', '最大7名少人数', '30分レッスン・手ぶらOK'],
@@ -4859,7 +4810,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'Pilates Studio Limone',
         officialUrl: 'https://pilatesstudiolimone.com/',
-        image: '/images/studios/pilates-k.webp',
         price: '料金は公式サイト参照',
         trial: '体験あり（料金は公式サイト参照）',
         features: ['医療系国家資格保持者在籍', 'パーソナル＋最大5名グループ', 'マシンピラティス'],
@@ -4870,7 +4820,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'ピラティススタジオiU 尼崎塚口店',
         officialUrl: 'https://pilates-ivy.com/',
-        image: '/images/studios/pilates-k.webp',
         price: '月4回 21,780円（30分・税込）',
         trial: '体験 姿勢診断付き（キャンペーンあり）',
         features: ['完全マンツーマン', '個室パーソナル', '手ぶらOK'],
@@ -4900,7 +4849,6 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'トトヤセ 西田辺店',
         officialUrl: 'https://www.totoyase.com/nishitanabe/',
-        image: '/images/studios/pilates-k.webp',
         price: '月2回 19,800円／月4回 35,200円',
         trial: '体験 1,000円（骨格診断付き60分）',
         features: ['女性専用', '完全個室・完全予約制', '整体×マシンピラティス'],
@@ -4911,13 +4859,622 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'NOA yoga & pilates studio',
         officialUrl: 'https://noayoga.jp/',
-        image: '/images/studios/pilates-k.webp',
         price: '料金は公式サイト参照',
         trial: '体験あり（当日入会で入会金無料）',
         features: ['ヨガ・ピラティス', '男女兼用', '地域密着'],
         description: 'ヨガとピラティスを提供する地域密着スタジオ。20〜70代まで幅広い世代が通う。西田辺駅3番出口徒歩5分。',
         access: '西田辺駅3番出口徒歩5分',
         address: '大阪府大阪市阿倍野区播磨町1-22-10 2F',
+      },
+    ],
+  },
+
+  'higashikurume': {
+    name: '東久留米',
+    region: '関東',
+    description: '西武池袋線の東久留米は緑の多い住宅エリア。駅北口徒歩1分にコラーゲンスタジオ併設型と大手マシンピラティスが並びます。',
+    studios: [
+      {
+        name: 'ホットヨガ＆コラーゲンスタジオ Lucina（ルキナ）東久留米店',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=Q113418.1.21564097.U1357808',
+        image: '/images/studios/lucina.webp',
+        price: 'マシンピラティス単体 マンスリー4 10,835円／マンスリー8 16,800円（税込）。ホット併用 プレミアム4 10,950円。入会金5,500円＋事務手数料3,300円',
+        trial: '体験レッスンあり（料金・空き状況は公式サイト参照）',
+        features: ['コラーゲントリートメントランプ', 'マシンピラティス（グループリフォーマー）', 'ホットヨガ併設', '女性専用'],
+        description: 'エステでも使われるコラーゲントリートメントランプを備えた女性専用スタジオ。リフォーマーのグループレッスン（初級・中級）とホットヨガを提供。東久留米駅北口徒歩1分。',
+        access: '東久留米駅北口徒歩1分',
+        address: '東京都東久留米市東本町1-3 秋田ビル2F',
+      },
+      {
+        name: 'CLUB PILATES 東久留米',
+        officialUrl: 'https://clubpilates.co.jp/studio/higashikurume/',
+        image: '/images/studios/club-pilates.webp',
+        price: '月4回 11,990円／月8回 21,890円／通い放題 36,190円（税込・入会金5,500円）',
+        trial: '体験 30分無料',
+        features: ['マシンピラティス専門', 'グループ最大12名＋プライベート', '男女利用可'],
+        description: '世界最大級のマシンピラティスブランドの2025年9月開業スタジオ。最大12名のグループとプライベートに対応。東久留米駅北口徒歩1分。',
+        access: '東久留米駅北口徒歩1分',
+        address: '東京都東久留米市東本町1-4 ジンドービル三番館2F',
+      },
+    ],
+  },
+
+  'kiyose': {
+    name: '清瀬',
+    region: '関東',
+    description: '西武池袋線の清瀬は清瀬市の中心駅。駅徒歩30秒〜3分にセミパーソナル型とホットヨガ併設型が揃います。',
+    studios: [
+      {
+        name: 'Pilates Mee清瀬店',
+        officialUrl: 'https://m-pilates.com/',
+        image: '/images/studios/pilates-mee.webp',
+        price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
+        trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
+        features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+        description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯。清瀬駅から徒歩3分。',
+        access: '清瀬駅から徒歩3分',
+        address: '東京都清瀬市松山1丁目4-20 松東ビル501',
+      },
+      {
+        name: 'ホットヨガスタジオ カルド清瀬',
+        officialUrl: 'https://www.hotyoga-caldo.com/kiyose/',
+        image: '/images/studios/caldo.webp',
+        price: 'マンスリー4 8,910円／フルタイム 11,110円／プレミアム 13,750円（税込）',
+        trial: '体験 0円（Web予約）',
+        features: ['ホットヨガ＋マシンピラティス', 'グループ', '女性専用'],
+        description: '女性専用のホットヨガスタジオ。マシンピラティス（マピラ）はプレミアム以上のプランで受講可（1日1本まで）。清瀬駅南口徒歩30秒。',
+        access: '清瀬駅南口徒歩30秒',
+        address: '東京都清瀬市松山1-4-1',
+      },
+    ],
+  },
+
+  'kumegawa': {
+    name: '久米川',
+    region: '関東',
+    description: '西武新宿線の久米川は東村山市の商店街エリア。駅徒歩30秒〜3分に女性専用のフィットネス・ホットヨガ・セミパーソナルが集まります。',
+    studios: [
+      {
+        name: 'Pilates Mee久米川店',
+        officialUrl: 'https://m-pilates.com/',
+        image: '/images/studios/pilates-mee.webp',
+        price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
+        trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
+        features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+        description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯。久米川駅から徒歩2分。',
+        access: '久米川駅から徒歩2分',
+        address: '東京都東村山市栄町2丁目21-29 吉岡ビル2F',
+      },
+      {
+        name: 'Freedom women\'s fitness 久米川店',
+        officialUrl: 'https://freedom-gym.com/',
+        price: 'マンスリー4 7,040円／レギュラー 9,790円／トップ 11,990円（税込）',
+        trial: 'おためし体験あり（料金は公式サイト参照）',
+        features: ['女性専用', 'スタッフ全員女性', 'マット系ピラティスプログラム', 'グループ'],
+        description: '女性専用フィットネス。ボール・リング・チューブを使うマット系ピラティスのグループプログラムを複数提供。久米川駅徒歩3分。',
+        access: '久米川駅徒歩3分',
+        address: '東京都東村山市栄町2-32-13 CSビル2F',
+      },
+      {
+        name: 'ホットヨガスタジオ カルド久米川',
+        officialUrl: 'https://www.hotyoga-caldo.com/kumegawa/',
+        image: '/images/studios/caldo.webp',
+        price: 'マンスリー4 8,800円／フルタイム 11,110円／プレミアム 13,750円（税込）',
+        trial: '体験 0円',
+        features: ['ホットヨガ＋マシンピラティス', 'グループ', '女性専用'],
+        description: '女性専用のホットヨガスタジオ。マシンピラティスはプレミアム以上のプランで受講可。久米川駅南口徒歩30秒。',
+        access: '久米川駅南口徒歩30秒',
+        address: '東京都東村山市栄町2-2-7 TMビル3F',
+      },
+    ],
+  },
+
+  'kitami': {
+    name: '喜多見',
+    region: '関東',
+    description: '小田急線の喜多見は世田谷区と狛江市の境の住宅エリア。セミパーソナル型と本格マシン完備のパーソナルが徒歩圏に揃います。',
+    studios: [
+      {
+        name: 'Pilates Mee喜多見店',
+        officialUrl: 'https://m-pilates.com/',
+        image: '/images/studios/pilates-mee.webp',
+        price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
+        trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
+        features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+        description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯。喜多見駅から徒歩5分。',
+        access: '喜多見駅から徒歩5分',
+        address: '東京都狛江市岩戸北4丁目17-16 1階',
+      },
+      {
+        name: 'VARYS Pilates&Personal Training GYM 狛江店',
+        officialUrl: 'https://varys-gym.com/',
+        price: 'ライト40分 月32,780円〜／スタンダード60分 月39,600円〜（税込・月4回〜）',
+        trial: '体験 通常5,000円（キャンペーンで0円）',
+        features: ['マシン完備（リフォーマー・タワー・キャデラック）', '完全マンツーマン', '男女利用可'],
+        description: 'リフォーマー・タワー・キャデラックを備えた完全マンツーマンのピラティス×パーソナルジム。公式アクセスは狛江駅徒歩6分（喜多見駅からも徒歩圏の岩戸北エリア）。',
+        access: '狛江駅徒歩6分（喜多見駅からも徒歩圏）',
+        address: '東京都狛江市岩戸北1-7 コミュニティトーケン307',
+      },
+    ],
+  },
+
+  'aomono-yokocho': {
+    name: '青物横丁',
+    region: '関東',
+    description: '京急本線の青物横丁は品川区南品川のエリア。駅徒歩1〜2分に女性専用グループ型とセミパーソナル型、徒歩圏にパーソナル専門が揃います。',
+    studios: [
+      {
+        name: 'Pilates Mee青物横丁店',
+        officialUrl: 'https://m-pilates.com/',
+        image: '/images/studios/pilates-mee.webp',
+        price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
+        trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
+        features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+        description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯。青物横丁駅から徒歩1分。',
+        access: '青物横丁駅から徒歩1分',
+        address: '東京都品川区南品川3丁目5-4 TSスクウェアビル2階201',
+      },
+      {
+        name: 'Rintosull 青物横丁店',
+        officialUrl: 'https://rintosull.jp/shop/tokyo/aomonoyokocho/',
+        image: '/images/studios/rintosull.webp',
+        price: 'マンスリー4 8,800円／プレミアムフリー 16,800円（税込月額）',
+        trial: '体験 0円',
+        features: ['マシンピラティス専門', 'グループ', '女性専用'],
+        description: 'LAVA系列のマシンピラティス専門・女性専用スタジオ。青物横丁駅正面出口徒歩2分。',
+        access: '青物横丁駅正面出口徒歩2分',
+        address: '東京都品川区南品川2-4-7 アサミビル3F',
+      },
+      {
+        name: 'STUDIO IVY 品川青物横丁店',
+        officialUrl: 'https://www.pilates-ivy.jp/studio/aomonoyokocho',
+        image: '/images/studios/studio-ivy.webp',
+        price: 'BASIC月2回 15,000円／STANDARD月4回 28,000円（税込）',
+        trial: '体験 4,500円（50分）',
+        features: ['マシン（リフォーマー）', '完全パーソナル（1対1）', '男女利用可'],
+        description: 'リフォーマーを使う完全パーソナル専門スタジオ。青物横丁駅徒歩9分・新馬場駅徒歩7分。',
+        access: '青物横丁駅徒歩9分／新馬場駅徒歩7分',
+        address: '東京都品川区南品川2-14-16 モデリアブリュット南品川101',
+      },
+    ],
+  },
+
+  'shintomicho': {
+    name: '新富町',
+    region: '関東',
+    description: '有楽町線の新富町は銀座・築地に隣接する中央区のオフィス・住宅エリア。駅徒歩2〜3分に骨格矯正系パーソナルとセミパーソナルが揃います。',
+    studios: [
+      {
+        name: 'Pilates Mee新富町店',
+        officialUrl: 'https://m-pilates.com/',
+        image: '/images/studios/pilates-mee.webp',
+        price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
+        trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
+        features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+        description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯。新富町駅から徒歩3分。',
+        access: '新富町駅から徒歩3分',
+        address: '東京都中央区湊3丁目5-1 4階',
+      },
+      {
+        name: 'Pilates Alim（アリム）新富スタジオ',
+        officialUrl: 'https://studiomiey.com/',
+        price: 'パーソナル月2回 19,000円／月4回 35,200円／月6回 50,400円（税込）',
+        trial: '体験 7,700円（1人1回限り・当日入会で入会金割引）',
+        features: ['マシン（リフォーマー・タワー・ラダーバレル）', 'パーソナル専門', '女性専用（男性は会員紹介のみ）'],
+        description: '骨格矯正ピラティスmiey監修のパーソナル専門スタジオ。リフォーマー・タワー・ラダーバレルを完備。新富町駅徒歩3分・八丁堀駅徒歩5分。',
+        access: '新富町駅徒歩3分／八丁堀駅徒歩5分',
+        address: '東京都中央区入船3-1-4 S.Rビル7F',
+      },
+      {
+        name: 'STUDIO IVY 銀座新富町店',
+        officialUrl: 'https://www.pilates-ivy.jp/studio/ginzashintomicho',
+        image: '/images/studios/studio-ivy.webp',
+        price: 'BASIC月2回 15,000円／STANDARD月4回 28,000円（税込）',
+        trial: '体験 4,500円（50分）',
+        features: ['マシン（リフォーマー）', '完全パーソナル（1対1）', '男女利用可'],
+        description: 'リフォーマーを使う完全パーソナル専門スタジオ。新富町駅徒歩2分。',
+        access: '新富町駅徒歩2分',
+        address: '東京都中央区新富2-5-4 アソシエイトタワー4F',
+      },
+    ],
+  },
+
+  'hakusan': {
+    name: '白山',
+    region: '関東',
+    description: '都営三田線の白山は文京区の文教・住宅エリア。駅出口すぐと徒歩2分に、独自メソッドのスタジオとセミパーソナル型が揃います。',
+    studios: [
+      {
+        name: 'Pilates Mee白山店',
+        officialUrl: 'https://m-pilates.com/',
+        image: '/images/studios/pilates-mee.webp',
+        price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
+        trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
+        features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+        description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯。白山駅から徒歩2分。',
+        access: '白山駅から徒歩2分',
+        address: '東京都文京区白山1丁目31-9 小林ビル6階',
+      },
+      {
+        name: 'HERO pilates',
+        officialUrl: 'https://hero-pilates.com/',
+        price: 'マンスリー4 13,500円／通い放題 22,000円〜（税込・先着キャンペーンあり）',
+        trial: '2回無料体験キャンペーン実施中（40分）',
+        features: ['独自メソッド「五軸回旋ピラティス」', 'グループ＋プライベート', '男女利用可'],
+        description: '独自の「五軸回旋ピラティス」を掲げるスタジオ。グループ中心にプライベート（会員8,800円/回）も提供。白山駅A1出口すぐ。',
+        access: '白山駅A1出口すぐ',
+        address: '東京都文京区白山5-36-9 白山麻の実ビル7F',
+      },
+    ],
+  },
+
+  'nishi-ojima': {
+    name: '西大島',
+    region: '関東',
+    description: '都営新宿線の西大島は江東区大島の住宅エリア。駅徒歩2分のセミパーソナル型と、看護師資格者によるパーソナル専門が揃います。',
+    studios: [
+      {
+        name: 'Pilates Mee西大島店',
+        officialUrl: 'https://m-pilates.com/',
+        image: '/images/studios/pilates-mee.webp',
+        price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
+        trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
+        features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+        description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯。西大島駅から徒歩2分。',
+        access: '西大島駅から徒歩2分',
+        address: '東京都江東区大島2丁目41-13 第二吉田ビル301号室',
+      },
+      {
+        name: 'YOMOGI pilates',
+        officialUrl: 'https://yomogi-pilates.jp/',
+        price: 'ライト月2回 19,600円／レギュラー月4回 38,000円（税込）',
+        trial: '初回限定無料（通常11,000円・50分・1回限り）',
+        features: ['マシンピラティス', '完全パーソナル', '看護師資格インストラクター'],
+        description: '看護師資格を持つインストラクターによる完全パーソナルのマシンピラティス。西大島駅徒歩約10分。',
+        access: '西大島駅徒歩約10分',
+        address: '東京都江東区北砂3-1-12 201',
+      },
+    ],
+  },
+
+  'minowa': {
+    name: '三ノ輪',
+    region: '関東',
+    description: '日比谷線の三ノ輪は荒川区・台東区にまたがる下町エリア。駅徒歩1〜3分にコラーゲンスタジオ併設型と複合パーソナルが揃います。',
+    studios: [
+      {
+        name: 'ホットヨガ＆コラーゲンスタジオ Lucina（ルキナ）三ノ輪店',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=Q113418.1.21564097.U1357808',
+        image: '/images/studios/lucina.webp',
+        price: 'マシンピラティス単体 マンスリー4 11,000円／マンスリー8 14,300円（税込）。ホット併用 マンスリー4 7,480円。入会金5,500円＋事務手数料3,300円',
+        trial: '体験レッスンあり（料金・空き状況は公式サイト参照）',
+        features: ['コラーゲントリートメントランプ', 'マシンピラティス（グループリフォーマー）', 'ホットヨガ併設', '女性専用'],
+        description: 'コラーゲントリートメントランプを備えた女性専用スタジオ。リフォーマーのグループレッスン（初級・中級）とホットヨガを提供。2024年6月に移転グランドオープン。三ノ輪駅徒歩3分。',
+        access: '三ノ輪駅徒歩3分',
+        address: '東京都荒川区東日暮里1-8-1 偕楽ビル2F',
+      },
+      {
+        name: 'Studio MOVES 三ノ輪',
+        officialUrl: 'https://studio-moves.com/',
+        price: '月会費 8,800円〜28,600円（プラン別・税込）',
+        trial: '体験 パーソナル5,500円／セミパーソナル7,700円',
+        features: ['マシン・マット両対応', 'パーソナル中心', 'ジャイロトニック等複合プログラム'],
+        description: 'ピラティスに加えジャイロトニックやバンジーなど複合プログラムを提供するパーソナル中心のスタジオ。三ノ輪駅徒歩1分。',
+        access: '三ノ輪駅徒歩1分',
+        address: '東京都台東区根岸5-20-9 5F',
+      },
+    ],
+  },
+
+  'keisei-koiwa': {
+    name: '京成小岩',
+    region: '関東',
+    description: '京成線の京成小岩は江戸川区北小岩の住宅エリア。駅徒歩1分にセミパーソナル型と24時間フィットネス併設型が並びます。',
+    studios: [
+      {
+        name: 'Pilates Mee京成小岩店',
+        officialUrl: 'https://m-pilates.com/',
+        image: '/images/studios/pilates-mee.webp',
+        price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
+        trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
+        features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+        description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯。京成小岩駅から徒歩1分。',
+        access: '京成小岩駅から徒歩1分',
+        address: '東京都江戸川区北小岩6丁目13-4 コスモビル3階',
+      },
+      {
+        name: 'マシンピラティス＆フィットネス ソエル小岩店',
+        officialUrl: 'https://lp.soelu.com/studio_new_koiwa/index.html',
+        price: 'スタンダード 7,678円／ピラティス4プラン 9,878円／プレミアム 13,178円（税込月額・施設維持費550〜880円別）',
+        trial: '初回体験 無料',
+        features: ['マシンピラティス', 'グループ', '24時間フィットネス併設'],
+        description: 'マシンピラティスのグループレッスンと24時間フィットネスを組み合わせたスタジオ。京成小岩駅北出口徒歩1分。',
+        access: '京成小岩駅北出口徒歩1分',
+        address: '東京都江戸川区北小岩6-14-5 第15平沼ビル2F',
+      },
+    ],
+  },
+
+  'keisei-tateishi': {
+    name: '京成立石',
+    region: '関東',
+    description: '京成押上線の京成立石は葛飾区の下町情緒あふれるエリア。セミパーソナル型と古民家スタジオが駅徒歩2〜4分に揃います。',
+    studios: [
+      {
+        name: 'Pilates Mee京成立石店',
+        officialUrl: 'https://m-pilates.com/',
+        image: '/images/studios/pilates-mee.webp',
+        price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
+        trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
+        features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+        description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯。京成立石駅から徒歩4分。',
+        access: '京成立石駅から徒歩4分',
+        address: '東京都葛飾区立石7丁目3-4 おおくまビル3階',
+      },
+      {
+        name: 'HITOTOKI yoga & pilates',
+        officialUrl: 'https://hitotoki-tokyo.com/',
+        price: '料金は公式サイト参照',
+        trial: 'どのクラスも初回体験可能（料金は公式サイト参照）',
+        features: ['ヨガ・ピラティス専門', '少人数グループ', '古民家リノベ・カフェ併設'],
+        description: '古民家をリノベーションしたヨガ・ピラティス専門スタジオ。少人数グループ制でカフェ併設。京成立石駅徒歩2分。',
+        access: '京成立石駅徒歩2分',
+        address: '東京都葛飾区東立石4-49-7 2F',
+      },
+    ],
+  },
+
+  'shin-kemigawa': {
+    name: '新検見川',
+    region: '関東',
+    description: 'JR総武線の新検見川は千葉市花見川区の住宅エリア。駅徒歩1分のセミパーソナル型と治療院併設のマンツーマン型が揃います。',
+    studios: [
+      {
+        name: 'Pilates Mee新検見川店',
+        officialUrl: 'https://m-pilates.com/',
+        image: '/images/studios/pilates-mee.webp',
+        price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
+        trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
+        features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+        description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯。新検見川駅から徒歩1分。',
+        access: '新検見川駅から徒歩1分',
+        address: '千葉県千葉市花見川区南花園1丁目44-11 玉ビル2階',
+      },
+      {
+        name: 'アンドコンディショニングルーム 新検見川',
+        officialUrl: 'https://and-room.com/',
+        price: '料金は公式サイト参照（要問い合わせ）',
+        trial: '体験情報は公式サイト参照',
+        features: ['マシンピラティス', 'お1人様専用・完全予約制', '鍼灸・マッサージ併設'],
+        description: '鍼灸・マッサージ・酸素ルームを併設する、お1人様専用・完全予約制のマシンピラティス。新検見川駅すぐのクリニックガーデン花園内。',
+        access: '新検見川駅すぐ（徒歩分数は公式サイト参照）',
+        address: '千葉県千葉市花見川区花園1-9-18 クリニックガーデン花園1F',
+      },
+    ],
+  },
+
+  'atami': {
+    name: '熱海',
+    region: '中部',
+    description: '温泉リゾートの熱海。ホテル内の会員制フィットネス（リフォーマー2台）と少人数プライベートスタジオが選択肢です。',
+    studios: [
+      {
+        name: 'フィットネス ルキナ熱海（熱海パールスターホテル内）',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=Q113418.1.21564097.U1357808',
+        image: '/images/studios/lucina.webp',
+        price: '入会金22,000円／月会費 17,600円〜35,200円・ビジター5,500円/回（税込・公式資料による。最新は公式サイトでご確認ください）',
+        trial: '体験レッスンの記載なし（施設内覧予約・資料請求フォームあり）',
+        features: ['ピラティスリフォーマー2台', 'ホットヨガ兼常温スタジオ', '会員制フィットネス', '男女利用可'],
+        description: '熱海パールスターホテル3Fの会員制フィットネス。他のルキナ（女性専用ホットヨガ）と異なり男女利用可の総合型で、リフォーマー2台とスタジオプログラム（ヨガ・ピラティス）を備えます。熱海駅徒歩10分。',
+        access: '熱海駅より徒歩10分（タクシー5分）',
+        address: '静岡県熱海市東海岸町6-45 熱海パールスターホテル3F',
+      },
+      {
+        name: 'SOLICパーソナルコンディショニングセンター',
+        officialUrl: 'https://solic.biz/',
+        price: '料金は公式サイトへお問い合わせください',
+        trial: '無料カウンセリングの紹介情報あり（詳細は公式サイト参照）',
+        features: ['プライベートピラティス・ヨガ（最大4名）', 'パーソナルトレーニング併設'],
+        description: '最大4名の少人数プライベート形式でピラティス・ヨガを提供するコンディショニング施設。詳細・最新情報は公式サイトでご確認ください。',
+        access: '熱海市内（アクセスは公式サイト参照）',
+        address: '静岡県熱海市（詳細は公式サイト参照）',
+      },
+    ],
+  },
+
+  'nakayama': {
+    name: '中山',
+    region: '関東',
+    description: 'JR横浜線・グリーンラインの中山は横浜市緑区の生活エリア。セミパーソナル型に加え、総合クラブ・公営施設のピラティスプログラムが徒歩5分圏にあります。',
+    studios: [
+      {
+        name: 'Pilates Mee中山店',
+        officialUrl: 'https://m-pilates.com/',
+        image: '/images/studios/pilates-mee.webp',
+        price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
+        trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
+        features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+        description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯。中山駅から徒歩2分。',
+        access: '中山駅から徒歩2分',
+        address: '神奈川県横浜市緑区中山1丁目21-17 ランドール中山201',
+      },
+      {
+        name: 'スポーツクラブNAS 中山',
+        officialUrl: 'https://www.nas-club.co.jp/nakayama/',
+        price: '料金は公式サイト参照',
+        trial: '施設見学 随時（Web予約可）',
+        features: ['総合スポーツクラブ', 'ピラティス・調整系プログラム', 'グループ・男女共用'],
+        description: '総合スポーツクラブのスタジオプログラムに体幹・骨盤調整中心のピラティス系クラスあり。中山駅徒歩5分。',
+        access: '中山駅徒歩5分',
+        address: '神奈川県横浜市緑区台村町135-5 パーシモンプラザ3F',
+      },
+      {
+        name: '横浜市緑スポーツセンター 木曜ピラティス',
+        officialUrl: 'https://yokohama-sport.jp/midori-sc-ysa/regular/684/',
+        price: '料金は公式サイト参照（公営価格）',
+        trial: '定期教室のため体験制度なし（木曜11:00〜・定員40名）',
+        features: ['公営スポーツセンター', 'マット系グループ', '男女共用'],
+        description: '横浜市の公営スポーツセンターで開講される定期ピラティス教室。手頃に始めたい人の選択肢。中山駅徒歩約5分。',
+        access: '中山駅徒歩約5分',
+        address: '神奈川県横浜市緑区中山1-29-7',
+      },
+    ],
+  },
+
+  'hodogaya': {
+    name: '保土ヶ谷',
+    region: '関東',
+    description: 'JR横須賀線の保土ヶ谷は横浜市の住宅エリア。駅徒歩30秒〜2分にセミパーソナル型・プライベート専門・ホットヨガ型が揃います。',
+    studios: [
+      {
+        name: 'Pilates Mee保土ヶ谷店',
+        officialUrl: 'https://m-pilates.com/',
+        image: '/images/studios/pilates-mee.webp',
+        price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
+        trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
+        features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+        description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯。保土ヶ谷駅から徒歩30秒。',
+        access: '保土ヶ谷駅から徒歩30秒',
+        address: '神奈川県横浜市保土ケ谷区帷子町1丁目39 第3サイトービル2階',
+      },
+      {
+        name: 'Soleil Pilates & Yoga',
+        officialUrl: 'https://sites.google.com/view/soleilpilatesyoga/',
+        price: '料金は公式サイト参照（入会キャンペーンあり）',
+        trial: '体験あり（公式サイト/LINEから予約）',
+        features: ['ピラティス＆ヨガ', 'プライベート専門（マンツーマン）', '男性は紹介制'],
+        description: '2025年5月開業のプライベート専門スタジオ。マンツーマンでピラティスとヨガを提供（男性は既存客の紹介制）。保土ヶ谷駅徒歩2分。',
+        access: '保土ヶ谷駅徒歩2分',
+        address: '神奈川県横浜市保土ケ谷区（詳細は公式サイト参照）',
+      },
+      {
+        name: 'ホットヨガスタジオLAVA 保土ヶ谷店',
+        officialUrl: 'https://yoga-lava.com/shop/kanagawa/hodogaya/',
+        price: 'マンスリー4 8,800円／プレミアムフリー 16,800円（税込月額・運営管理費680円別）',
+        trial: '体験 0円（ウェア・タオル・水無料）',
+        features: ['ホットピラティス（60分）あり', 'マット系グループ', '女性専用'],
+        description: '女性専用ホットヨガスタジオ。公式プログラムに「ホットピラティス」（60分）あり。保土ケ谷駅徒歩1分。',
+        access: '保土ケ谷駅徒歩1分',
+        address: '神奈川県横浜市保土ケ谷区（詳細は公式サイト参照）',
+      },
+    ],
+  },
+
+  'maita': {
+    name: '蒔田',
+    region: '関東',
+    description: 'ブルーラインの蒔田は横浜市南区の住宅エリア。駅徒歩3〜5分のセミパーソナル型・総合クラブに加え、2駅先の上大岡に専門スタジオがあります。',
+    studios: [
+      {
+        name: 'Pilates Mee蒔田店',
+        officialUrl: 'https://m-pilates.com/',
+        image: '/images/studios/pilates-mee.webp',
+        price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
+        trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
+        features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+        description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯。蒔田駅から徒歩5分。',
+        access: '蒔田駅から徒歩5分',
+        address: '神奈川県横浜市南区榎町1丁目2',
+      },
+      {
+        name: 'スポーツクラブ＆サウナスパ ルネサンス 蒔田24',
+        officialUrl: 'https://www.s-re.jp/maita/',
+        price: 'おためし会員 月5,500円〜（詳細は公式サイト参照）',
+        trial: '無料施設見学会あり',
+        features: ['総合スポーツクラブ', 'ピラティス／Essential Pilatesプログラム', 'グループ・男女共用'],
+        description: '総合スポーツクラブのスタジオプログラムにピラティス（30/45分）とツールを使うEssential Pilates（45分）あり。蒔田駅徒歩3分。',
+        access: '蒔田駅徒歩3分',
+        address: '神奈川県横浜市南区花之木町3-48-1 VIERRA蒔田3F',
+      },
+      {
+        name: 'zen place pilates 上大岡（蒔田から2駅）',
+        officialUrl: 'https://www.zenplace.co.jp/studios/pilates-kamiooka',
+        image: '/images/studios/zenplace.webp',
+        price: 'マットグループフリー 16,940円/月（税込）ほか',
+        trial: '体験あり（WEB/電話予約・所要約2時間）',
+        features: ['マット＆マシン（リフォーマー）', 'グループ＆プライベート', '男女利用可'],
+        description: 'ピラティス専門スタジオ。マットとリフォーマーのグループ・プライベートの両方に対応し、男性も利用可。上大岡駅徒歩1分（蒔田駅からブルーラインで2駅）。',
+        access: '上大岡駅徒歩1分（蒔田駅から2駅）',
+        address: '神奈川県横浜市港南区上大岡西1-6-1 ゆめおおおかオフィスタワー18F',
+      },
+    ],
+  },
+
+  'kamonomiya': {
+    name: '鴨宮',
+    region: '関東',
+    description: 'JR東海道線の鴨宮は小田原市東部の生活エリア。駅徒歩5分のセミパーソナル型と、車アクセスのホットスタジオ系が選択肢です。',
+    studios: [
+      {
+        name: 'Pilates Mee鴨宮店',
+        officialUrl: 'https://m-pilates.com/',
+        image: '/images/studios/pilates-mee.webp',
+        price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
+        trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
+        features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+        description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯。鴨宮駅から徒歩5分。',
+        access: '鴨宮駅から徒歩5分',
+        address: '神奈川県小田原市南鴨宮3丁目12-4 南鴨宮ビル302',
+      },
+      {
+        name: 'ibs インナービューティースタジオ ダイナシティ店',
+        officialUrl: 'https://www.ib-studio.net/',
+        price: 'マンスリー4 9,680円／マンスリーフリー 14,300円（月額・入会金5,500円。税込表記は公式サイトでご確認ください）',
+        trial: 'ホットスタジオ体験 1,100円（新規1回限り・タオルセット付）',
+        features: ['ホットヨガ中心', 'ピラティス・ヨガのプライベートレッスンあり', '女性向け'],
+        description: 'ダイナシティ内のホットスタジオ。ピラティス・ヨガのプライベートレッスンも提供。車アクセス向け（駐車場あり）。',
+        access: 'ダイナシティ内（鴨宮駅からのアクセスは公式サイト参照）',
+        address: '神奈川県小田原市中里208 ダイナシティ内',
+      },
+      {
+        name: 'ホットヨガスタジオLAVA フレスポ小田原シティーモール店',
+        officialUrl: 'https://yoga-lava.com/shop/kanagawa/frespo_odawara/',
+        price: '料金は公式サイト参照（LAVA共通の月額制）',
+        trial: '体験あり（Web予約可）',
+        features: ['ホットピラティス（60分）あり', 'マット系グループ', '女性専用'],
+        description: '女性専用ホットヨガスタジオ。公式プログラムに「ホットピラティス」（60分）あり。鴨宮駅南口からバス「シティーモール北」下車。',
+        access: '鴨宮駅南口からバス「シティーモール北」下車',
+        address: '神奈川県小田原市前川120 南館2F',
+      },
+    ],
+  },
+
+  'kyoto-yawata': {
+    name: '京都八幡',
+    region: '近畿',
+    description: '京都府八幡市は石清水八幡宮の門前町。温泉併設の大型スタジオ（駐車場185台）が核で、隣駅・樟葉駅前の専門スタジオも徒歩圏の選択肢です。',
+    studios: [
+      {
+        name: 'コラーゲンスタジオ ルキナ京都八幡店',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=Q113418.1.21564097.U1357808',
+        image: '/images/studios/lucina.webp',
+        price: 'マシンピラティス マンスリー4 10,780円（単体）／7,480円（ホットヨガ会員併用）。ホットヨガ マンスリー4 7,700円〜（税込）。入会金5,500円＋事務手数料3,300円',
+        trial: '体験 500円（ホットヨガ/リフォーマーピラティス各1回・天然温泉無料チケット付）',
+        features: ['マシンピラティス（定員5名の少人数）', 'ホットヨガ併設', '天然温泉「竹取温泉灯りの湯」併設', '駐車場185台'],
+        description: '天然温泉併設の大型スタジオ。リフォーマーピラティスは定員5名の少人数制（初級〜中級）。樟葉駅から京阪バス約10分「松里」下車すぐ・無料送迎バスも毎日運行。',
+        access: '樟葉駅から京阪バス約10分「松里」下車すぐ（無料送迎バスあり）',
+        address: '京都府八幡市八幡中ノ山82-1',
+      },
+      {
+        name: 'pilates K くずはモール店（隣駅・樟葉駅前）',
+        officialUrl: 'https://pilates-k.jp/studio/osaka/kuzuha',
+        image: '/images/studios/pilates-k.webp',
+        price: 'マンスリー4 11,220円／マンスリー8 15,070円（税込・初期費用13,530円）',
+        trial: '体験 0円',
+        features: ['マシンピラティス（リフォーマー）', 'グループ', '女性専用'],
+        description: '女性専用のマシンピラティス専門スタジオ。八幡市の隣駅・樟葉駅（大阪府枚方市）徒歩4分のくずはモール内。',
+        access: '樟葉駅徒歩4分（くずはモール南館1F）',
+        address: '大阪府枚方市楠葉花園町（くずはモール南館ヒカリノモール1F）',
+      },
+      {
+        name: 'pilates yoga studio Laksmi（隣駅・樟葉駅前）',
+        officialUrl: 'https://yoga-studio-laksmi.jp/',
+        price: '料金は公式サイト参照',
+        trial: '体験情報は公式サイト参照',
+        features: ['ヨガ×ピラティス融合プログラム', 'セミパーソナル', '女性専用'],
+        description: 'ヨガとピラティスを融合したプログラムを提供する女性専用のセミパーソナルスタジオ。樟葉駅徒歩2分。',
+        access: '樟葉駅徒歩2分',
+        address: '大阪府枚方市町楠葉1-2-14 3F',
       },
     ],
   },

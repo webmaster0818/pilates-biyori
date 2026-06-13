@@ -13,7 +13,7 @@ type Review = {
 type Studio = {
   name: string
   officialUrl?: string
-  image: string
+  image?: string
   rating?: number
   reviewCount?: number
   reviews?: Review[]
@@ -54,10 +54,12 @@ export function StudioCard({ studio, index }: StudioCardProps) {
   return (
     <div id={`studio-${index + 1}`} className="bg-white border border-warm-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow scroll-mt-24">
       <div className="md:flex">
+        {studio.image && (
         <div className="md:w-1/3">
           <img src={studio.image.replace(/.jpg$/, ".webp").replace(/.png$/, ".webp")} alt={studio.name} className="w-full aspect-[16/10] object-contain bg-warm-50" width="800" height="600" loading="lazy" />
         </div>
-        <div className="md:w-2/3 p-6">
+        )}
+        <div className={studio.image ? "md:w-2/3 p-6" : "p-6"}>
           <div className="flex items-center justify-between mb-3">
             <h3 className="text-xl font-bold text-warm-900">{index + 1}. {studio.name}</h3>
             {studio.rating != null && (
