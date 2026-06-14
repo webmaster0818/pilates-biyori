@@ -713,6 +713,20 @@ export default function HonatsugiPage() {
           </div>
         </section>
       </main>
+        {/* boost-nav-202606 */}
+        <section className="py-12 bg-white">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <div className="bg-warm-50 border border-warm-200 rounded-lg p-6">
+              <h2 className="text-lg font-bold text-warm-900 mb-3">📍 近隣エリア・料金データで比較する</h2>
+              <p className="text-warm-600 text-sm mb-4">通勤・生活圏のスタジオもあわせて比べると、自分に合った1校が見つかりやすくなります。</p>
+              <div className="flex flex-wrap gap-3">
+                <Link href="/area/ebina/" className="inline-block bg-white border border-warm-200 rounded-full px-4 py-2 text-sm text-warm-700 hover:border-warm-400 hover:text-warm-900 transition">海老名</Link>
+                <Link href="/articles/pilates-ryokin-hakusho/" className="inline-block bg-white border border-warm-200 rounded-full px-4 py-2 text-sm text-warm-700 hover:border-warm-400 hover:text-warm-900 transition">全国ピラティス料金白書2026</Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
 
       <RelatedAreas currentSlug="honatsugi" />
       <SiteFooter />

@@ -303,7 +303,7 @@ export default function ChofuPage() {
         {/* Hero */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年06月14日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026年6月最新】ピラティス調布おすすめ5選！
               <br className="hidden md:block" />
@@ -393,7 +393,7 @@ export default function ChofuPage() {
         <section className="py-16 bg-white" id="price-market">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              調布のピラティス料金相場【2026年4月最新】
+              調布のピラティス料金相場【2026年6月最新】
             </h2>
             <div className="overflow-x-auto">
               <table className="w-full text-sm border-collapse">
@@ -692,6 +692,23 @@ export default function ChofuPage() {
           </div>
         </section>
       </main>
+        {/* boost-nav-202606 */}
+        <section className="py-12 bg-white">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <div className="bg-warm-50 border border-warm-200 rounded-lg p-6">
+              <h2 className="text-lg font-bold text-warm-900 mb-3">📍 近隣エリア・料金データで比較する</h2>
+              <p className="text-warm-600 text-sm mb-4">通勤・生活圏のスタジオもあわせて比べると、自分に合った1校が見つかりやすくなります。</p>
+              <div className="flex flex-wrap gap-3">
+                <Link href="/area/sengawa/" className="inline-block bg-white border border-warm-200 rounded-full px-4 py-2 text-sm text-warm-700 hover:border-warm-400 hover:text-warm-900 transition">仙川</Link>
+                <Link href="/area/kichijoji/" className="inline-block bg-white border border-warm-200 rounded-full px-4 py-2 text-sm text-warm-700 hover:border-warm-400 hover:text-warm-900 transition">吉祥寺</Link>
+                <Link href="/area/mitaka/" className="inline-block bg-white border border-warm-200 rounded-full px-4 py-2 text-sm text-warm-700 hover:border-warm-400 hover:text-warm-900 transition">三鷹</Link>
+                <Link href="/area/musashisakai/" className="inline-block bg-white border border-warm-200 rounded-full px-4 py-2 text-sm text-warm-700 hover:border-warm-400 hover:text-warm-900 transition">武蔵境</Link>
+                <Link href="/articles/pilates-ryokin-hakusho/" className="inline-block bg-white border border-warm-200 rounded-full px-4 py-2 text-sm text-warm-700 hover:border-warm-400 hover:text-warm-900 transition">全国ピラティス料金白書2026</Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
       <RelatedAreas currentSlug="chofu" />
       <SiteFooter />
       <Script src="https://unpkg.com/lucide@latest" strategy="lazyOnload" />
