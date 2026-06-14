@@ -14,6 +14,7 @@ export const prefectureAreas = [
     prefecture: '宮城県',
     areas: [
       { slug: 'sendai', name: '仙台' },
+      { slug: 'omachi-nishi-koen', name: '大町西公園' },
     ],
   },
   {
@@ -56,6 +57,7 @@ export const prefectureAreas = [
       { slug: 'wakoshi', name: '和光市' },
       { slug: 'warabi', name: '蕨' },
       { slug: 'kamifukuoka', name: '上福岡' },
+      { slug: 'gamo', name: '蒲生' },
     ],
   },
   {
@@ -77,6 +79,7 @@ export const prefectureAreas = [
       { slug: 'shin-kemigawa', name: '新検見川' },
       { slug: 'sakura', name: '佐倉' },
       { slug: 'higashi-funabashi', name: '東船橋' },
+      { slug: 'chiba-chuo', name: '千葉中央' },
     ],
   },
   {
@@ -218,6 +221,8 @@ export const prefectureAreas = [
       { slug: 'shin-nakano', name: '新中野' },
       { slug: 'higashi-nakano', name: '東中野' },
       { slug: 'fujimidai', name: '富士見台' },
+      { slug: 'keisei-takasago', name: '京成高砂' },
+      { slug: 'shin-akitsu', name: '新秋津' },
     ],
   },
   {
@@ -456,6 +461,8 @@ export const prefectureAreas = [
       { slug: 'nishitetsu-futsukaichi', name: '西鉄二日市' },
       { slug: 'chayama', name: '茶山' },
       { slug: 'nishitetsu-kurume', name: '西鉄久留米' },
+      { slug: 'zasshonokuma', name: '雑餉隈' },
+      { slug: 'shimo-ori', name: '下大利' },
     ],
   },
   {
