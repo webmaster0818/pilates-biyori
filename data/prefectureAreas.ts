@@ -55,6 +55,7 @@ export const prefectureAreas = [
       { slug: 'soka', name: '草加' },
       { slug: 'wakoshi', name: '和光市' },
       { slug: 'warabi', name: '蕨' },
+      { slug: 'kamifukuoka', name: '上福岡' },
     ],
   },
   {
@@ -213,6 +214,9 @@ export const prefectureAreas = [
       { slug: 'minowa', name: '三ノ輪' },
       { slug: 'keisei-koiwa', name: '京成小岩' },
       { slug: 'keisei-tateishi', name: '京成立石' },
+      { slug: 'shin-nakano', name: '新中野' },
+      { slug: 'higashi-nakano', name: '東中野' },
+      { slug: 'fujimidai', name: '富士見台' },
     ],
   },
   {
@@ -252,6 +256,7 @@ export const prefectureAreas = [
       { slug: 'hodogaya', name: '保土ヶ谷' },
       { slug: 'maita', name: '蒔田' },
       { slug: 'kamonomiya', name: '鴨宮' },
+      { slug: 'wadamachi', name: '和田町' },
     ],
   },
   {
@@ -376,6 +381,7 @@ export const prefectureAreas = [
       { slug: 'gamoyonchome', name: '蒲生四丁目' },
       { slug: 'tsukamoto', name: '塚本' },
       { slug: 'fukaebashi', name: '深江橋' },
+      { slug: 'osaka-uehommachi', name: '大阪上本町' },
     ],
   },
   {
@@ -396,6 +402,7 @@ export const prefectureAreas = [
       { slug: 'motomachi', name: '元町' },
       { slug: 'shukugawa', name: '夙川' },
       { slug: 'tsukaguchi', name: '塚口' },
+      { slug: 'hankyu-itami', name: '阪急伊丹' },
     ],
   },
   {
@@ -447,6 +454,7 @@ export const prefectureAreas = [
       { slug: 'ohorikoen', name: '大濠公園' },
       { slug: 'nishitetsu-futsukaichi', name: '西鉄二日市' },
       { slug: 'chayama', name: '茶山' },
+      { slug: 'nishitetsu-kurume', name: '西鉄久留米' },
     ],
   },
   {
@@ -508,6 +516,7 @@ export const prefectureAreas = [
     prefecture: '栃木県',
     areas: [
       { slug: 'utsunomiya', name: '宇都宮' },
+      { slug: 'oyama', name: '小山' },
     ],
   },
   {
