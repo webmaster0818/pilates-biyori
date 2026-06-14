@@ -76,6 +76,7 @@ export const prefectureAreas = [
       { slug: 'abiko', name: '我孫子' },
       { slug: 'shin-kemigawa', name: '新検見川' },
       { slug: 'sakura', name: '佐倉' },
+      { slug: 'higashi-funabashi', name: '東船橋' },
     ],
   },
   {
