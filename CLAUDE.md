@@ -65,3 +65,10 @@ MediaXAI「phase0進めてください」(2026-06-11 13:35)→実施。
 
 **⚠️発見: 19エリアページの本文にU+FFFD文字化けが大量に存在（計1,100カ所超）**: oita/komazawa-daigaku/ikejiri-ohashi/chuo-rinkan/tsunashima/kasukabe/wakoshi/chitose-funabashi/kyodo/toyonaka/kugayama/kanayama/honancho/nijo/shinjuku/shin-yurigaoka/fujimino/sakura-shinmachi/soka。**ページ生成時（初回コミット時点）から壊れており**git履歴に正常版なし。
 **✅修復完了(2026-06-11 15:50頃、MediaXAI承認後)**: `scripts/repair-mojibake.py`＝クリーン271ページをコーパスに化け箇所の前後文脈で照合復元（候補が単一or80%+収束時のみ採用）→固有名詞辞書→残り74カ所は文脈で個別辞書化。**全489run修復・FFFD残ゼロ**、本番5ページで確認済み。副次修正:「。。」重複句点3ファイル10カ所(nara/otsu等、化けとは別の既存問題)。教訓: 同型テンプレページ群なら壊れページはサイト自身の正常文から復元できる（捏造回避）。
+
+### 2026-06-14 ①準勝ち筋押し上げ＋②新規エリア第5弾＋ブルーオーシャン横展開（MediaXAI「①→②→横展開」）
+- **①準勝ち筋5エリア押し上げ**（豊洲/高円寺/調布/代々木上原/海老名＝20〜30位）: `scripts/boost-winners-202606.py`（冪等）。レバー=(a)近隣18ページ→ターゲットへの内部リンクcallout(`boost-nav-202606`マーカー、`.kicker`等は使わずchip型Link) (b)料金白書`content/articles/pilates-ryokin-hakusho.md`に「エリア別の料金を詳しく見る」節追加で5エリアへ相互リンク (c)更新日→2026年06月14日・料金相場見出し→6月。**JSXコメント`{/* */}`は本番HTMLで消える**のでマーカーcountは0になる→見出しテキストで描画検証。
+- **②新規エリア第5弾9エリア**: `scripts/gen-new-areas-batch5.py`（batch4方式）。小山/上福岡/新中野/東中野/富士見台/和田町/大阪上本町/阪急伊丹/西鉄久留米。**東船橋はMee単独(徒歩15分圏に他0)で一旦SKIP**。Life店(小山/西鉄久留米/雑餉隈/下大利)はMEE_OVERRIDEで料金上書き。
+- **東船橋→ブルーオーシャン転換**（MediaXAI「1店だけ＝逆に低競合では？」）: 薄い1店ページは回避しつつ、**「駅すぐMee＋徒歩圏の近隣駅クラスタを正直な距離表記で掲載＋同県RelatedAreas相互リンク」**構成なら低競合クエリを取れる。東船橋=funabashiクラスタ流用で作成。さらに横展開=`scripts/gen-blueocean-202606.py`で7駅（京成高砂/新秋津/雑餉隈/下大利/蒲生/千葉中央/大町西公園）。各駅、**4体調査エージェントで近隣実在スタジオ＋"対象駅からの正直な距離(○駅・徒歩○分、徒歩圏外なら明記)"を確認**してから掲載。
+- **累計エリア80**（30→80）。残Mee単独駅は酒田等地方少数のみ＝面拡大は一区切り。次は6月末GSCで①押し上げの効果測定。
+- **Indexing API**: `~/.openclaw/workspace/secrets/gsc-token.json`はindexingスコープ込み→`AuthorizedSession(creds).post("https://indexing.googleapis.com/v3/urlNotifications:publish",json={"url":U,"type":"URL_UPDATED"})`で送信可（全バッチで使用）。詳細はメモリ gsc-indexing-and-inspection-api 参照。
