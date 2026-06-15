@@ -6222,7 +6222,7 @@ export const areaStudios: Record<string, AreaData> = {
         address: '兵庫県伊丹市中央1丁目8-1 3F',
       },
       {
-        name: 'マシンピラティス&パーソナルトレーニングジムemovere（エモベーレ）',
+        name: 'emovere（エモベーレ）',
         officialUrl: 'https://emovere.co.jp',
         image: '/images/studios/emovere.webp',
         price: '25分間パーソナルトレーニング 月2回〜月8回（8,000円〜29,600円）／50分間パーソナルトレーニング 月2回〜月8回（15,200円〜56,000円）／グループトレーニング（最大3名）月2回〜月8回（6,200円〜20,000円）',
