@@ -101,7 +101,9 @@ export default function Home() {
       <nav className="navbar fixed top-0 w-full z-50 bg-transparent transition-all duration-400" id="navbar" aria-label="メインナビゲーション">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
-            <Link href="/" className="group">
+            <Link href="/" className="group flex items-center gap-2.5">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/pb-logo.png" alt="Pilates-Biyori" className="h-9 w-auto" width="40" height="40" />
               <span className="font-serif text-2xl font-light tracking-wider text-warm-800 group-hover:text-warm-600 transition-colors">Pilates-Biyori</span>
             </Link>
             <div className="hidden md:flex items-center gap-10">
