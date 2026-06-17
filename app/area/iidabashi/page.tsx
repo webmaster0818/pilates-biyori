@@ -778,6 +778,23 @@ export default function IidabashiPage() {
           </div>
         </section>
       </main>
+        {/* boost-nav-202606 */}
+        <section className="py-12 bg-white">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <div className="bg-warm-50 border border-warm-200 rounded-lg p-6">
+              <h2 className="text-lg font-bold text-warm-900 mb-3">📍 料金相場・近隣エリアと比べる</h2>
+              <p className="text-warm-600 text-sm mb-4">全国の料金データや他エリアの人気スタジオも見ると、自分に合った1校が選びやすくなります。</p>
+              <div className="flex flex-wrap gap-3">
+                <Link href="/articles/pilates-ryokin-hakusho/" className="inline-block bg-white border border-warm-200 rounded-full px-4 py-2 text-sm text-warm-700 hover:border-warm-400 hover:text-warm-900 transition">全国の料金相場</Link>
+                <Link href="/area/" className="inline-block bg-white border border-warm-200 rounded-full px-4 py-2 text-sm text-warm-700 hover:border-warm-400 hover:text-warm-900 transition">全国のエリア一覧</Link>
+                <Link href="/area/asakusa/" className="inline-block bg-white border border-warm-200 rounded-full px-4 py-2 text-sm text-warm-700 hover:border-warm-400 hover:text-warm-900 transition">浅草のピラティス</Link>
+                <Link href="/area/shibuya/" className="inline-block bg-white border border-warm-200 rounded-full px-4 py-2 text-sm text-warm-700 hover:border-warm-400 hover:text-warm-900 transition">渋谷のピラティス</Link>
+                <Link href="/area/oji/" className="inline-block bg-white border border-warm-200 rounded-full px-4 py-2 text-sm text-warm-700 hover:border-warm-400 hover:text-warm-900 transition">王子のピラティス</Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
 
       <RelatedAreas currentSlug="iidabashi" />
       <SiteFooter />
