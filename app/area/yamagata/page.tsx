@@ -10,8 +10,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import { areaStudios } from '@/data/area-studios'
 
 export const metadata = {
-  title: '【2026最新】ピラティス山形おすすめスタジオ｜料金プランを徹底比較！',
-  description: '山形（山形県）のおすすめピラティススタジオを比較。JR山形駅周辺の料金相場、マシン・パーソナル・女性専用の特徴、体験レッスン情報をまとめて掲載。',
+  title: '山形のピラティス｜初心者OK・無料体験で選ぶ料金比較【2026年6月】',
+  description: '山形エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,山形,山形県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 

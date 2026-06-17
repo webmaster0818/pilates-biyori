@@ -10,8 +10,8 @@ import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 export const metadata = {
-  title: '【2026最新】ピラティス指宿おすすめ5選！人気スタジオの料金プランを簡単比較！',
-  description: '指宿エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '指宿のピラティス｜初心者OK・無料体験で選ぶ料金比較【2026年6月】',
+  description: '指宿エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,指宿,鹿児島県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 

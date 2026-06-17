@@ -12,8 +12,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス薬院おすすめ4選！人気スタジオの料金プランを簡単比較！',
-  description: '薬院エリアのおすすめピラティススタジオ4選を徹底比較。zen place pilates福岡薬院・CLUB PILATES福岡赤坂薬院店・AR pilates・edgy pilates studioなど実在スタジオの料金・体験レッスン・アクセスを完全ガイド。マシンピラティス・女性専用・完全プライベートまで。',
+  title: '薬院のピラティス｜初心者OK・無料体験で選ぶ料金比較【2026年6月】',
+  description: '薬院エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,薬院,福岡,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place,CLUB PILATES,AR pilates,edgy pilates',
 }
 

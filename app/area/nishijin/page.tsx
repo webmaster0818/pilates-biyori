@@ -12,8 +12,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス西新おすすめ4選！人気スタジオの料金プランを簡単比較！',
-  description: '西新エリアのおすすめピラティススタジオ4選を徹底比較。CLUB PILATES、ピラティススタジオ Live、Rintosull、zen place pilatesの料金・体験レッスン情報。福岡市早良区の文教エリアで通いやすいスタジオが見つかります。',
+  title: '西新のピラティス｜初心者OK・無料体験で選ぶ料金比較【2026年6月】',
+  description: '西新エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,西新,福岡,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,早良区',
 }
 
