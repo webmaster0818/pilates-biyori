@@ -72,3 +72,15 @@ MediaXAI「phase0進めてください」(2026-06-11 13:35)→実施。
 - **東船橋→ブルーオーシャン転換**（MediaXAI「1店だけ＝逆に低競合では？」）: 薄い1店ページは回避しつつ、**「駅すぐMee＋徒歩圏の近隣駅クラスタを正直な距離表記で掲載＋同県RelatedAreas相互リンク」**構成なら低競合クエリを取れる。東船橋=funabashiクラスタ流用で作成。さらに横展開=`scripts/gen-blueocean-202606.py`で7駅（京成高砂/新秋津/雑餉隈/下大利/蒲生/千葉中央/大町西公園）。各駅、**4体調査エージェントで近隣実在スタジオ＋"対象駅からの正直な距離(○駅・徒歩○分、徒歩圏外なら明記)"を確認**してから掲載。
 - **累計エリア80**（30→80）。残Mee単独駅は酒田等地方少数のみ＝面拡大は一区切り。次は6月末GSCで①押し上げの効果測定。
 - **Indexing API**: `~/.openclaw/workspace/secrets/gsc-token.json`はindexingスコープ込み→`AuthorizedSession(creds).post("https://indexing.googleapis.com/v3/urlNotifications:publish",json={"url":U,"type":"URL_UPDATED"})`で送信可（全バッチで使用）。詳細はメモリ gsc-indexing-and-inspection-api 参照。
+  - ⚠️gsc-token.jsonは**OAuthユーザー資格**（service_accountではない）。`from google.oauth2.credentials import Credentials`＋`Credentials(token,refresh_token,token_uri,client_id,client_secret,scopes)`で読む。実行Pythonは`~/.openclaw/workspace/gsc-api/venv/bin/python`（google lib入り）。
+
+### 2026-06-17 ③指名/エリアクエリ回収＝内部リンク・クラスタ化（MediaXAI「進めよう」）
+- 上位機会15エリア（hamamatsucho/akihabara/meguro/aoyama-itchome/futakotamagawa/shimokitazawa/iidabashi/asakusa/shibuya/oji/esaka/seijo-gakuenmae/kagurazaka/nakano-sakaue/ochanomizu）の`<RelatedAreas>`直前に**相互リンクcalloutセクション**を挿入（料金白書＋全エリア索引＋近隣上位3駅へのchip型Link、`boost-nav-202606`マーカー）。既設3ページ(shimokitazawa/shibuya/nakano-sakaue)は冪等スキップ→**12ページ挿入**。描画検証=「料金相場・近隣エリアと比べる」見出しでgrep。Indexing API 12/12送信。
+- **⚠️デプロイ機構の実体（重要）**: CF Pagesは**deploy repo `webmaster0818/pilates-biyori-deploy`**（SSHエイリアス`github.com-webmaster0818-pilates-biyori-deploy`）に直結。ソースrepo `pilates-biyori`へpushしても本番は更新されない。**必ず out/→rsync(--exclude=functions)→deploy repoでcommit&push**。今回deploy dirの`.git`が消失していた→`git init`→`git remote add origin <上記URL>`→`git fetch`→`git reset origin/main`(mixed)→`git add -A && commit && git push origin HEAD:main`で復元。次回も.git無ければこの手順。
+
+### 2026-06-20 集客再策定(フルフュージョン)→P1/P2実行（MediaXAI「フルフュージョンで」「進めて」）
+GSC28日=クリック99・表示13,575・平均39.1位（表示増だが大半3-6ページ目）。**フルフュージョン(claude+codex+gemini)で再策定→「被リンクより先に機会ページへの選択と集中」で3者合意**。
+- **P1(トリアージ＋カニバリ監査)**: 機会ページを表示×1ページ目への近さでスコア化(最優先=hamamatsucho 578imp/14.8、pos<20の勝ち筋=yagoto/kitaoji/chatan/toranomon/izumi/oji/ebina/ochanomizu/kitahama)。**カニバリ41件=主因①trailing-slash重複(/area/kamata と /area/kamata/ 両方index)②隣接エリア食い合い(飯田橋→iidabashi/kagurazaka 等)**。
+- **P2(白書一次データ注入)**: 機会ページの多くが`AreaMarketComparison`(白書211調査対比=体験無料率/平均評価/月額最安)未注入だった→勝ち筋19エリアに一括注入(phase0の注入ロジック・冪等・PriceComparisonTable直後)。Indexing 19/19・本番確認。
+- ⚠️**デプロイ事故と教訓**: `rsync -a --delete out/ ../pilates-biyori-deploy/` で**`--exclude='.git'`を付け忘れ deploy repoの.gitを削除**→「not a git repository」。復元=git init→remote add(git@github.com-webmaster0818-pilates-biyori-deploy:webmaster0818/pilates-biyori-deploy.git)→fetch→reset --mixed origin/main→commit→push origin HEAD:main。**今後pilatesのrsyncは必ず `--exclude='.git' --exclude='functions'` 両方付ける**。CF Pagesはdeploy repo直結。
+- 残: P2続き(結論ファースト＋無料体験/料金/初心者の意図別CTA)・trailing-slash統一・記事クラスタ→機会ページ内部リンク・P5被リンク営業(高品質化後)。効果は1-2週GSC測定。

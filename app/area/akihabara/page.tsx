@@ -6,6 +6,8 @@ import { RelatedAreas } from '@/components/RelatedAreas'
 import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
+import { AreaMarketComparison } from '@/components/AreaMarketComparison'
+import { AreaConclusion } from '@/components/AreaConclusion'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
@@ -469,6 +471,8 @@ export default function AkihabaraPage() {
             </nav>
           </div>
         </section>
+        <AreaConclusion studios={studios} areaName="秋葉原" />
+
 
         <TableOfContents areaName="秋葉原" studioNames={studios.map((s) => s.name)} />
 
@@ -528,6 +532,7 @@ export default function AkihabaraPage() {
         </section>
 
         <PriceComparisonTable studios={studios} areaName="秋葉原" />
+        <AreaMarketComparison studios={studios} areaName="秋葉原" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">

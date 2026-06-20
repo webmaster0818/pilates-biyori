@@ -6,6 +6,8 @@ import { RelatedAreas } from '@/components/RelatedAreas'
 import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
+import { AreaMarketComparison } from '@/components/AreaMarketComparison'
+import { AreaConclusion } from '@/components/AreaConclusion'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
@@ -409,6 +411,8 @@ export default function OchanomizuPage() {
             </nav>
           </div>
         </section>
+        <AreaConclusion studios={studios} areaName="御茶ノ水・神保町" />
+
 
         <TableOfContents areaName="御茶ノ水・神保町" studioNames={studios.map((s) => s.name)} />
 
@@ -468,6 +472,7 @@ export default function OchanomizuPage() {
         </section>
 
         <PriceComparisonTable studios={studios} areaName="スタジオ" />
+        <AreaMarketComparison studios={studios} areaName="スタジオ" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">

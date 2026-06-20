@@ -6,6 +6,8 @@ import { RelatedAreas } from '@/components/RelatedAreas'
 import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
+import { AreaMarketComparison } from '@/components/AreaMarketComparison'
+import { AreaConclusion } from '@/components/AreaConclusion'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
@@ -310,6 +312,8 @@ export default function OjiPage() {
             </nav>
           </div>
         </section>
+        <AreaConclusion studios={studios} areaName="王子" />
+
 
         <TableOfContents areaName="王子" studioNames={studios.map((s) => s.name)} />
 
@@ -369,6 +373,7 @@ export default function OjiPage() {
         </section>
 
         <PriceComparisonTable studios={studios} areaName="王子" />
+        <AreaMarketComparison studios={studios} areaName="王子" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">

@@ -6,6 +6,8 @@ import { RelatedAreas } from '@/components/RelatedAreas'
 import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
+import { AreaMarketComparison } from '@/components/AreaMarketComparison'
+import { AreaConclusion } from '@/components/AreaConclusion'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
@@ -416,6 +418,8 @@ export default function KitahamaPage() {
             </nav>
           </div>
         </section>
+        <AreaConclusion studios={studios} areaName="北浜・淀屋橋" />
+
 
         <TableOfContents areaName="北浜・淀屋橋" studioNames={studios.map((s) => s.name)} />
 
@@ -475,6 +479,7 @@ export default function KitahamaPage() {
         </section>
 
         <PriceComparisonTable studios={studios} areaName="北浜・淀屋橋" />
+        <AreaMarketComparison studios={studios} areaName="北浜・淀屋橋" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">

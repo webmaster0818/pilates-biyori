@@ -7,6 +7,7 @@ import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
 import { AreaMarketComparison } from '@/components/AreaMarketComparison'
+import { AreaConclusion } from '@/components/AreaConclusion'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
@@ -695,6 +696,8 @@ export default function KoenjiPage() {
             </nav>
           </div>
         </section>
+        <AreaConclusion studios={studios} areaName="高円寺" />
+
 
         <TableOfContents areaName="高円寺" studioNames={studios.map((s) => s.name)} />
 
