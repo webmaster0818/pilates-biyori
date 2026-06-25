@@ -84,3 +84,10 @@ GSC28日=クリック99・表示13,575・平均39.1位（表示増だが大半3-
 - **P2(白書一次データ注入)**: 機会ページの多くが`AreaMarketComparison`(白書211調査対比=体験無料率/平均評価/月額最安)未注入だった→勝ち筋19エリアに一括注入(phase0の注入ロジック・冪等・PriceComparisonTable直後)。Indexing 19/19・本番確認。
 - ⚠️**デプロイ事故と教訓**: `rsync -a --delete out/ ../pilates-biyori-deploy/` で**`--exclude='.git'`を付け忘れ deploy repoの.gitを削除**→「not a git repository」。復元=git init→remote add(git@github.com-webmaster0818-pilates-biyori-deploy:webmaster0818/pilates-biyori-deploy.git)→fetch→reset --mixed origin/main→commit→push origin HEAD:main。**今後pilatesのrsyncは必ず `--exclude='.git' --exclude='functions'` 両方付ける**。CF Pagesはdeploy repo直結。
 - 残: P2続き(結論ファースト＋無料体験/料金/初心者の意図別CTA)・trailing-slash統一・記事クラスタ→機会ページ内部リンク・P5被リンク営業(高品質化後)。効果は1-2週GSC測定。
+
+### 2026-06-20 ①結論ファースト＋検索意図別CTA注入（MediaXAI「①進めよう」）
+- `components/AreaConclusion.tsx`新設＝**結論ファースト要約ボックス**(「まず結論」バッジ＋「{エリア}のピラティスは{N}社を比較。{free}社が無料体験に対応、月額は最安{min}円〜。」をstudios実データから集計＝AreaMarketComparison同様の安全パース・捏造なし)＋**検索意図別CTA3つ**(無料体験で選ぶ→#trial-guide／料金で比較する→#price-comparison／初心者の選び方→#how-to-choose)。サーバーコンポーネント(アンカージャンプのみ・client不要)。
+- `scripts/add-area-conclusion-202606.py`(冪等)で機会**23エリア**に挿入(import＝AreaMarketComparison import直後／本体＝`<TableOfContents`直前)。areaNameは既存の`areaName="..."`から抽出。23/23成功・skip0。
+- 検証: ビルドEXIT0／全23でアンカー先(#trial-guide/#price-comparison/#how-to-choose)存在確認／本番3ページで「N社を比較・無料体験M社・月額最安」描画＆数値妥当(hamamatsucho 5社/2社/10,450円・akihabara 7社/1社・esaka 8社/3社)確認。
+- デプロイ: 方式B(rsync **--exclude='.git' --exclude='functions'** 厳守→functions/contact.js保全確認)。⚠️deploy repoのローカルブランチは`master`・リモートは`main`→`git push origin HEAD:main`(0 behind/1 ahead・FF)。source+deploy両push・Indexing API 23/23。
+- 次候補: trailing-slash統一(canonical)・記事クラスタ→機会ページ内部リンク・効果は1-2週GSC測定。

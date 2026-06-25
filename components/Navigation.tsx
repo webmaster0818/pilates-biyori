@@ -49,7 +49,7 @@ export function Navigation() {
               <a href="/#studios" className="nav-link text-warm-500 hover:text-warm-800 text-xs font-medium uppercase tracking-[0.15em]">Studios</a>
               <a href="/#faq" className="nav-link text-warm-500 hover:text-warm-800 text-xs font-medium uppercase tracking-[0.15em]">FAQ</a>
               <a href="/#about" className="nav-link text-warm-500 hover:text-warm-800 text-xs font-medium uppercase tracking-[0.15em]">About</a>
-              <a href="/#studios" className="border border-warm-800 text-warm-800 px-6 py-2.5 text-xs font-medium uppercase tracking-[0.15em] hover:bg-warm-800 hover:text-white transition-all">体験予約</a>
+              <a href="/ai-soudan/" className="border border-warm-800 bg-warm-800 text-white px-6 py-2.5 text-xs font-medium uppercase tracking-[0.15em] hover:bg-warm-900 transition-all">AIスタジオ相談</a>
             </div>
             <button className="md:hidden p-2" onClick={toggleMenu} aria-label="メニューを開く" id="menuBtn" aria-expanded="false">
               <svg className="w-5 h-5 text-warm-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -77,6 +77,7 @@ export function Navigation() {
             <a href="/#studios" className="text-warm-600 text-sm tracking-[0.2em] uppercase hover:text-warm-900 transition" onClick={toggleMenu}>Studios</a>
             <a href="/#faq" className="text-warm-600 text-sm tracking-[0.2em] uppercase hover:text-warm-900 transition" onClick={toggleMenu}>FAQ</a>
             <a href="/#about" className="text-warm-600 text-sm tracking-[0.2em] uppercase hover:text-warm-900 transition" onClick={toggleMenu}>About</a>
+            <a href="/ai-soudan/" className="text-warm-900 text-sm tracking-[0.2em] uppercase font-medium hover:text-warm-600 transition" onClick={toggleMenu}>AIスタジオ相談</a>
             <div className="divider mt-4"></div>
             <a href="/#studios" className="border border-warm-800 text-warm-800 px-6 py-3 text-xs font-medium uppercase tracking-[0.15em] text-center hover:bg-warm-800 hover:text-white transition-all" onClick={toggleMenu}>体験予約はこちら</a>
           </div>
