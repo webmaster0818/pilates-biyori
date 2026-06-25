@@ -103,3 +103,8 @@ GSC28日=クリック99・表示13,575・平均39.1位（表示増だが大半3-
 - **v2**: ①エリア選択を3段階化（地方→**都道府県**→エリア）＝`lib/consult.ts`に`prefecturesIn/areasInPrefecture`追加。②スクロール改善＝チャットログを`max-h-[42vh] overflow-y-auto`＋`logRef`自動最下部スクロール、選択ボタンは常時見える位置に固定。
 - **v3**: ①「出てないエリアがある」→原因はarea一覧を`area-studios.ts`掲載分(~154)に絞っていたため。**prefectureAreas全域(370エリア)＋ハードコードの全47県→地方マップ`PREF_REGION`**で全エリアを出すよう変更。掲載スタジオデータが無いエリアは診断結果で`/area/{slug}/`へ誘導。②**現在地優先表示**＝`pilates-biyori-deploy/functions/api/geo.js`新設（CFの`request.cf`が返す国/地域/regionCode/緯度経度を返却＝外部API・コスト不要）。widgetが`/api/geo`をfetch→`JP_CODE_PREF`(ISO 3166-2:JP番号→県)で現在地県を判定→最初の画面に「📍現在地から探す：◯◯県」ショートカット表示。テストで神奈川/横浜を正しく検出。
 - ⚠️deployのrsyncは`--exclude='functions'`必須（geo.js/contact.js保全）。geo.jsはdeploy repo側に直接置く（functionsはrsync対象外のため）。次候補=(a)アフィリリンク差替(b)案B自然会話(無料Workers AI)(c)全ページ常設ウィジェット化。
+
+### 2026-06-25 AI相談プロト v4（MediaXAI「現在地は県が限界？近いエリア順に」）
+- **全エリア座標化**：`/tmp/geocode_areas.py`で国土地理院 住所検索API（無料・キー不要 `https://msearch.gsi.go.jp/address-search/AddressSearch?q=`）を使い、掲載スタジオ住所(高精度)／無い所はprefecture+エリア名で**349/370エリアを座標化→`data/area-coords.json`**。
+- `lib/consult.ts`：`AREA_COORDS`(json import・`as unknown as Record<string,[number,number]>`でtuple化必須)＋haversine＋`nearestArea(lat,lon)`＋`sortAreasByDistance(areas,lat,lon)`。
+- widget：`/api/geo`の緯度経度を保持→**「📍現在地に最も近いエリア：◯◯（約◦km）」をワンタップ最上部表示**(jumpToArea＝region/pref/area飛ばしてgoalsへ)＋**県選択後のエリア一覧を近い順に並べ替え**(各エリアに約◦km表示)。海外/位置不明は通常フォールバック。全部外部API課金ゼロ。
