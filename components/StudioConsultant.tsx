@@ -13,7 +13,6 @@ import {
   JP_CODE_PREF,
   type Answers,
   type Scored,
-  type NearestArea,
 } from '@/lib/consult'
 
 type Bubble = { who: 'ai' | 'user'; text: string }
@@ -25,6 +24,22 @@ const chip =
   'inline-flex items-center rounded-full border border-warm-300 bg-white px-4 py-2 text-sm text-warm-800 transition hover:border-warm-800 hover:bg-warm-800 hover:text-white'
 const chipActive =
   'inline-flex items-center rounded-full border border-warm-800 bg-warm-800 px-4 py-2 text-sm text-white'
+
+// AIの回答を1文字ずつ表示（タイピング風）。マウント時に一度だけアニメーション。
+function Typed({ text }: { text: string }) {
+  const [n, setN] = useState(0)
+  useEffect(() => {
+    setN(0)
+    let i = 0
+    const id = window.setInterval(() => {
+      i += 1
+      setN(i)
+      if (i >= text.length) window.clearInterval(id)
+    }, 20)
+    return () => window.clearInterval(id)
+  }, [text])
+  return <>{text.slice(0, n)}</>
+}
 
 export default function StudioConsultant() {
   const [step, setStep] = useState<Step>('region')
@@ -41,12 +56,13 @@ export default function StudioConsultant() {
   const [results, setResults] = useState<Scored[] | null>(null)
   const [geo, setGeo] = useState<{ region: string; prefecture: string } | null>(null)
   const [coords, setCoords] = useState<{ lat: number; lon: number } | null>(null)
-  const [near, setNear] = useState<NearestArea | null>(null)
+  const [locating, setLocating] = useState(false)
 
   const logRef = useRef<HTMLDivElement>(null)
   const optionsRef = useRef<HTMLDivElement>(null)
 
-  // Cloudflareの無料ジオ情報から現在地の都道府県・緯度経度を取得し、最も近いエリアも算出（外部API・コスト不要）
+  // Cloudflareの無料ジオ情報から現在地の都道府県を取得（IPベース＝都道府県の目安）。
+  // 緯度経度は粗いため、最寄りエリアの特定にはブラウザの位置情報(GPS/WiFi)を使う。
   useEffect(() => {
     fetch('/api/geo')
       .then((r) => (r.ok ? r.json() : null))
@@ -60,13 +76,35 @@ export default function StudioConsultant() {
         }
         const lat = Number(g.latitude)
         const lon = Number(g.longitude)
-        if (Number.isFinite(lat) && Number.isFinite(lon)) {
-          setCoords({ lat, lon })
-          setNear(nearestArea(lat, lon))
-        }
+        if (Number.isFinite(lat) && Number.isFinite(lon)) setCoords({ lat, lon })
       })
       .catch(() => {})
   }, [])
+
+  // ブラウザの正確な位置情報（許可制）で最寄りエリアを特定して直行する
+  function useGps() {
+    if (typeof navigator === 'undefined' || !navigator.geolocation) {
+      if (geo) jumpToPrefecture(geo.region, geo.prefecture)
+      return
+    }
+    setLocating(true)
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        setLocating(false)
+        const { latitude, longitude } = pos.coords
+        setCoords({ lat: latitude, lon: longitude })
+        const n = nearestArea(latitude, longitude)
+        if (n) jumpToArea(n.region, n.prefecture, n.key, n.name)
+        else if (geo) jumpToPrefecture(geo.region, geo.prefecture)
+      },
+      () => {
+        // 拒否・取得失敗 → IPの都道府県にフォールバック
+        setLocating(false)
+        if (geo) jumpToPrefecture(geo.region, geo.prefecture)
+      },
+      { enableHighAccuracy: true, timeout: 8000, maximumAge: 60000 }
+    )
+  }
 
   function jumpToPrefecture(r: string, p: string) {
     setRegion(r)
@@ -185,7 +223,7 @@ export default function StudioConsultant() {
                 }
               >
                 {b.who === 'ai' && <span className="mr-1" aria-hidden>🤖</span>}
-                {b.text}
+                {b.who === 'ai' ? <Typed text={b.text} /> : b.text}
               </div>
             </div>
           ))}
@@ -194,12 +232,13 @@ export default function StudioConsultant() {
         {/* options（常に見える位置に固定的に表示） */}
         <div ref={optionsRef} className="mt-4 border-t border-warm-200 pt-4">
           <div className="flex flex-wrap gap-2">
-            {step === 'region' && near && (
+            {step === 'region' && (
               <button
-                className="mb-1 w-full rounded-xl border border-warm-800 bg-warm-800 px-4 py-2.5 text-left text-sm font-medium text-white hover:bg-warm-900"
-                onClick={() => jumpToArea(near.region, near.prefecture, near.key, near.name)}
+                className="mb-1 w-full rounded-xl border border-warm-800 bg-warm-800 px-4 py-2.5 text-left text-sm font-medium text-white hover:bg-warm-900 disabled:opacity-60"
+                onClick={useGps}
+                disabled={locating}
               >
-                📍 現在地に最も近いエリア：{near.name}（{near.prefecture}・約{Math.round(near.km)}km）→ ここで探す
+                {locating ? '📍 現在地を取得中…' : '📍 現在地から最寄りエリアを探す（位置情報を許可）'}
               </button>
             )}
             {step === 'region' && geo && (
@@ -207,7 +246,7 @@ export default function StudioConsultant() {
                 className="mb-1 w-full rounded-xl border border-warm-300 bg-white px-4 py-2.5 text-left text-sm font-medium text-warm-800 hover:border-warm-800"
                 onClick={() => jumpToPrefecture(geo.region, geo.prefecture)}
               >
-                📍 現在地の都道府県から探す：{geo.prefecture}（{geo.region}）
+                現在地の都道府県から探す：{geo.prefecture}（{geo.region}）
               </button>
             )}
             {step === 'region' &&
@@ -233,7 +272,6 @@ export default function StudioConsultant() {
               ).map((a) => (
                 <button key={a.key} className={chip} onClick={() => pickArea(a.key, a.name)}>
                   {a.name}
-                  {a.km != null ? `（約${Math.round(a.km)}km）` : `（${a.count}）`}
                 </button>
               ))}
 
