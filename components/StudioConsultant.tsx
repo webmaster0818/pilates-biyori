@@ -36,23 +36,23 @@ function AiAvatar({ size = 26 }: { size?: number }) {
       aria-label="案内担当"
       className="mr-1.5 inline-block shrink-0 align-[-0.35em]"
     >
-      <circle cx="20" cy="20" r="20" fill="#f5e9e2" />
-      {/* 後ろ髪 */}
-      <path d="M7 23 Q7 7 20 7 Q33 7 33 23 L33 36 Q27.5 31 20 31 Q12.5 31 7 36 Z" fill="#7a5640" />
+      <circle cx="20" cy="20" r="20" fill="#f3eee6" />
+      {/* サイドポニーテール（右） */}
+      <path d="M30 13 Q34 16 33 24 Q32 30 30 31 L29 18 Z" fill="#8a6a45" />
       {/* 首 */}
-      <rect x="17.5" y="25" width="5" height="6" rx="2" fill="#f2c6a3" />
+      <rect x="17.5" y="24" width="5" height="6" rx="2" fill="#f2c6a3" />
       {/* 顔 */}
       <circle cx="20" cy="19" r="9" fill="#f6cda9" />
-      {/* 前髪（中央分け） */}
-      <path d="M11 19 Q11 8.5 20 8.5 Q29 8.5 29 19 Q27 13.5 20.6 13.5 L20.6 19.5 Q20 16 19.4 19.5 L19.4 13.5 Q13 13.5 11 19 Z" fill="#7a5640" />
+      {/* 前髪 */}
+      <path d="M11 19 Q11 8.5 20 8.5 Q29 8.5 29 19 Q27 13 20 13 Q14 13 12 17 Q11.5 18 11 19 Z" fill="#8a6a45" />
       {/* 目 */}
       <circle cx="16.4" cy="19.2" r="1.25" fill="#3b2a20" />
       <circle cx="23.6" cy="19.2" r="1.25" fill="#3b2a20" />
       {/* 笑顔 */}
-      <path d="M16.6 22.8 Q20 25.6 23.4 22.8" stroke="#c07a60" strokeWidth="1.3" fill="none" strokeLinecap="round" />
+      <path d="M16.6 22.8 Q20 25.4 23.4 22.8" stroke="#c07a60" strokeWidth="1.3" fill="none" strokeLinecap="round" />
       {/* チーク */}
-      <circle cx="14.2" cy="21.6" r="1.4" fill="#f2a98a" opacity="0.55" />
-      <circle cx="25.8" cy="21.6" r="1.4" fill="#f2a98a" opacity="0.55" />
+      <circle cx="14.2" cy="21.6" r="1.4" fill="#f2a98a" opacity="0.5" />
+      <circle cx="25.8" cy="21.6" r="1.4" fill="#f2a98a" opacity="0.5" />
     </svg>
   )
 }
