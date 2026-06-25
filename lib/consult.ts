@@ -2,6 +2,7 @@
 // 既存の実在データ（data/area-studios.ts）だけを根拠に推薦し、リンクは各スタジオの
 // officialUrl をそのまま使う（＝捏造ゼロ・将来アフィリリンクに差し替えれば自動で反映）。
 import { areaStudios } from '@/data/area-studios'
+import { prefectureAreas } from '@/data/prefectureAreas'
 
 export type FlatStudio = {
   areaKey: string
@@ -69,23 +70,62 @@ const REGION_ORDER = [
   '九州・沖縄',
 ]
 
+// 地方 → 都道府県 → エリア の3段階。都道府県はprefectureAreas、地方は各エリアのregionから導出。
+const studioCount = new Map<string, number>()
+const regionByArea = new Map<string, string>()
+flatStudios.forEach((s) => {
+  studioCount.set(s.areaKey, (studioCount.get(s.areaKey) || 0) + 1)
+  regionByArea.set(s.areaKey, s.region)
+})
+
+export type Pref = {
+  prefecture: string
+  region: string
+  areas: { key: string; name: string; count: number }[]
+}
+
+export const prefectures: Pref[] = prefectureAreas
+  .map((p) => {
+    const areas = p.areas
+      .filter((a) => studioCount.has(a.slug))
+      .map((a) => ({ key: a.slug, name: a.name, count: studioCount.get(a.slug) as number }))
+      .sort((a, b) => b.count - a.count)
+    const rc = new Map<string, number>()
+    areas.forEach((a) => {
+      const r = regionByArea.get(a.key)
+      if (r) rc.set(r, (rc.get(r) || 0) + 1)
+    })
+    let region = ''
+    let max = 0
+    rc.forEach((c, r) => {
+      if (c > max) {
+        max = c
+        region = r
+      }
+    })
+    return { prefecture: p.prefecture, region, areas }
+  })
+  .filter((p) => p.areas.length > 0 && p.region)
+
 export function regions(): string[] {
-  const set = new Set(flatStudios.map((s) => s.region))
+  const set = new Set(prefectures.map((p) => p.region))
   const ordered = REGION_ORDER.filter((r) => set.has(r))
   const rest = [...set].filter((r) => !REGION_ORDER.includes(r))
   return [...ordered, ...rest]
 }
 
-export function areasIn(region: string) {
-  const m = new Map<string, { key: string; name: string; count: number }>()
-  flatStudios
-    .filter((s) => s.region === region)
-    .forEach((s) => {
-      const e = m.get(s.areaKey) || { key: s.areaKey, name: s.areaName, count: 0 }
-      e.count++
-      m.set(s.areaKey, e)
-    })
-  return [...m.values()].sort((a, b) => b.count - a.count)
+export function prefecturesIn(region: string): Pref[] {
+  return prefectures
+    .filter((p) => p.region === region)
+    .sort(
+      (a, b) =>
+        b.areas.reduce((s, x) => s + x.count, 0) - a.areas.reduce((s, x) => s + x.count, 0)
+    )
+}
+
+export function areasInPrefecture(prefecture: string) {
+  const p = prefectures.find((x) => x.prefecture === prefecture)
+  return p ? p.areas : []
 }
 
 export const GOALS: { id: string; label: string; kw: RegExp }[] = [

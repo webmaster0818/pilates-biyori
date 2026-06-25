@@ -1,9 +1,10 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import {
   regions,
-  areasIn,
+  prefecturesIn,
+  areasInPrefecture,
   recommend,
   GOALS,
   type Answers,
@@ -12,7 +13,7 @@ import {
 
 type Bubble = { who: 'ai' | 'user'; text: string }
 
-const STEPS = ['region', 'area', 'goals', 'type', 'trial', 'budget', 'result'] as const
+const STEPS = ['region', 'prefecture', 'area', 'goals', 'type', 'trial', 'budget', 'result'] as const
 type Step = (typeof STEPS)[number]
 
 const chip =
@@ -29,15 +30,33 @@ export default function StudioConsultant() {
     },
   ])
   const [region, setRegion] = useState<string | null>(null)
+  const [prefecture, setPrefecture] = useState<string | null>(null)
   const [ans, setAns] = useState<Partial<Answers>>({ goals: [] })
   const [results, setResults] = useState<Scored[] | null>(null)
+
+  const logRef = useRef<HTMLDivElement>(null)
+  const optionsRef = useRef<HTMLDivElement>(null)
+
+  // チャットログは内部スクロールで最新へ。ページ全体が下に流れて操作部が見えなくなるのを防ぐ。
+  useEffect(() => {
+    logRef.current?.scrollTo({ top: logRef.current.scrollHeight, behavior: 'smooth' })
+  }, [log])
+  useEffect(() => {
+    optionsRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
+  }, [step])
 
   const say = (b: Bubble) => setLog((l) => [...l, b])
 
   function pickRegion(r: string) {
     setRegion(r)
     say({ who: 'user', text: r })
-    say({ who: 'ai', text: `${r}ですね。具体的にはどのエリアでお探しですか？` })
+    say({ who: 'ai', text: `${r}ですね。都道府県をえらんでください。` })
+    setStep('prefecture')
+  }
+  function pickPrefecture(p: string) {
+    setPrefecture(p)
+    say({ who: 'user', text: p })
+    say({ who: 'ai', text: `${p}の中で、お探しのエリアはどこですか？` })
     setStep('area')
   }
   function pickArea(key: string, name: string) {
@@ -81,7 +100,7 @@ export default function StudioConsultant() {
     say({
       who: 'ai',
       text: recs.length
-        ? `${(ans as Answers).areaKey ? '' : ''}条件をもとに、あなたに合いそうなスタジオを${recs.length}件えらびました！下のカードをご覧ください。`
+        ? `条件をもとに、あなたに合いそうなスタジオを${recs.length}件えらびました！下のカードをご覧ください。`
         : '申し訳ありません、その条件に合うスタジオが見つかりませんでした。条件をゆるめてもう一度お試しください。',
     })
     setStep('result')
@@ -89,21 +108,21 @@ export default function StudioConsultant() {
   function reset() {
     setStep('region')
     setRegion(null)
+    setPrefecture(null)
     setAns({ goals: [] })
     setResults(null)
-    setLog([
-      {
-        who: 'ai',
-        text: 'もう一度はじめます。お探しのエリアはどの地方ですか？',
-      },
-    ])
+    setLog([{ who: 'ai', text: 'もう一度はじめます。お探しのエリアはどの地方ですか？' }])
   }
 
   return (
     <div className="mx-auto max-w-2xl">
       <div className="rounded-2xl border border-warm-200 bg-warm-50/60 p-4 sm:p-6">
-        {/* chat log */}
-        <div className="space-y-3">
+        {/* chat log（内部スクロール・高さ上限） */}
+        <div
+          ref={logRef}
+          className="max-h-[42vh] space-y-3 overflow-y-auto pr-1"
+          aria-live="polite"
+        >
           {log.map((b, i) => (
             <div key={i} className={b.who === 'ai' ? 'flex justify-start' : 'flex justify-end'}>
               <div
@@ -120,88 +139,107 @@ export default function StudioConsultant() {
           ))}
         </div>
 
-        {/* options */}
-        <div className="mt-5 flex flex-wrap gap-2">
-          {step === 'region' &&
-            regions().map((r) => (
-              <button key={r} className={chip} onClick={() => pickRegion(r)}>
-                {r}
-              </button>
-            ))}
+        {/* options（常に見える位置に固定的に表示） */}
+        <div ref={optionsRef} className="mt-4 border-t border-warm-200 pt-4">
+          <div className="flex flex-wrap gap-2">
+            {step === 'region' &&
+              regions().map((r) => (
+                <button key={r} className={chip} onClick={() => pickRegion(r)}>
+                  {r}
+                </button>
+              ))}
 
-          {step === 'area' &&
-            region &&
-            areasIn(region).map((a) => (
-              <button key={a.key} className={chip} onClick={() => pickArea(a.key, a.name)}>
-                {a.name}（{a.count}）
-              </button>
-            ))}
+            {step === 'prefecture' &&
+              region &&
+              prefecturesIn(region).map((p) => (
+                <button key={p.prefecture} className={chip} onClick={() => pickPrefecture(p.prefecture)}>
+                  {p.prefecture}
+                </button>
+              ))}
 
-          {step === 'goals' && (
-            <div className="w-full">
-              <div className="flex flex-wrap gap-2">
-                {GOALS.map((g) => (
-                  <button
-                    key={g.id}
-                    className={(ans.goals || []).includes(g.id) ? chipActive : chip}
-                    onClick={() => toggleGoal(g.id)}
-                  >
-                    {(ans.goals || []).includes(g.id) ? '✓ ' : ''}
-                    {g.label}
-                  </button>
-                ))}
+            {step === 'area' &&
+              prefecture &&
+              areasInPrefecture(prefecture).map((a) => (
+                <button key={a.key} className={chip} onClick={() => pickArea(a.key, a.name)}>
+                  {a.name}（{a.count}）
+                </button>
+              ))}
+
+            {step === 'goals' && (
+              <div className="w-full">
+                <div className="flex flex-wrap gap-2">
+                  {GOALS.map((g) => (
+                    <button
+                      key={g.id}
+                      className={(ans.goals || []).includes(g.id) ? chipActive : chip}
+                      onClick={() => toggleGoal(g.id)}
+                    >
+                      {(ans.goals || []).includes(g.id) ? '✓ ' : ''}
+                      {g.label}
+                    </button>
+                  ))}
+                </div>
+                <button
+                  className="mt-4 rounded-full bg-warm-800 px-6 py-2.5 text-sm font-medium text-white hover:bg-warm-900"
+                  onClick={confirmGoals}
+                >
+                  {(ans.goals || []).length ? 'これで進む →' : '特にこだわらない →'}
+                </button>
               </div>
+            )}
+
+            {step === 'type' && (
+              <>
+                <button className={chip} onClick={() => pickType('machine', 'マシンピラティス')}>
+                  マシンピラティス
+                </button>
+                <button className={chip} onClick={() => pickType('mat', 'マットピラティス')}>
+                  マットピラティス
+                </button>
+                <button className={chip} onClick={() => pickType('either', 'どちらでもよい')}>
+                  どちらでもよい
+                </button>
+              </>
+            )}
+
+            {step === 'trial' && (
+              <>
+                <button className={chip} onClick={() => pickTrial(true, '無料体験を重視する')}>
+                  無料体験を重視する
+                </button>
+                <button className={chip} onClick={() => pickTrial(false, 'こだわらない')}>
+                  こだわらない
+                </button>
+              </>
+            )}
+
+            {step === 'budget' && (
+              <>
+                <button className={chip} onClick={() => pickBudget('low', 'なるべく抑えたい')}>
+                  なるべく抑えたい
+                </button>
+                <button className={chip} onClick={() => pickBudget('normal', '標準的でよい')}>
+                  標準的でよい
+                </button>
+                <button className={chip} onClick={() => pickBudget('any', 'こだわらない')}>
+                  こだわらない
+                </button>
+              </>
+            )}
+
+            {step === 'result' && (
               <button
-                className="mt-4 rounded-full bg-warm-800 px-6 py-2.5 text-sm font-medium text-white hover:bg-warm-900"
-                onClick={confirmGoals}
+                className="rounded-full border border-warm-300 px-5 py-2 text-sm font-medium text-warm-700 hover:border-warm-800"
+                onClick={reset}
               >
-                {(ans.goals || []).length ? 'これで進む →' : '特にこだわらない →'}
+                ↺ もう一度相談する
               </button>
-            </div>
-          )}
-
-          {step === 'type' && (
-            <>
-              <button className={chip} onClick={() => pickType('machine', 'マシンピラティス')}>
-                マシンピラティス
-              </button>
-              <button className={chip} onClick={() => pickType('mat', 'マットピラティス')}>
-                マットピラティス
-              </button>
-              <button className={chip} onClick={() => pickType('either', 'どちらでもよい')}>
-                どちらでもよい
-              </button>
-            </>
-          )}
-
-          {step === 'trial' && (
-            <>
-              <button className={chip} onClick={() => pickTrial(true, '無料体験を重視する')}>
-                無料体験を重視する
-              </button>
-              <button className={chip} onClick={() => pickTrial(false, 'こだわらない')}>
-                こだわらない
-              </button>
-            </>
-          )}
-
-          {step === 'budget' && (
-            <>
-              <button className={chip} onClick={() => pickBudget('low', 'なるべく抑えたい')}>
-                なるべく抑えたい
-              </button>
-              <button className={chip} onClick={() => pickBudget('normal', '標準的でよい')}>
-                標準的でよい
-              </button>
-              <button className={chip} onClick={() => pickBudget('any', 'こだわらない')}>
-                こだわらない
-              </button>
-            </>
-          )}
+            )}
+          </div>
         </div>
 
         {/* results */}
-        {step === 'result' && results && (
+        {step === 'result' && results && results.length > 0 && (
           <div className="mt-5 space-y-4">
             {results.map(({ s, reasons }, i) => (
               <div key={i} className="rounded-xl border border-warm-200 bg-white p-4 shadow-sm">
@@ -268,12 +306,6 @@ export default function StudioConsultant() {
             <p className="text-xs leading-relaxed text-warm-400">
               ※ご提案は当サイト掲載の公開情報をもとにした目安です。料金・体験条件・キャンペーンは変更される場合があるため、最新・正確な内容は各公式サイトでご確認ください。「公式サイトで詳細」ボタンは広告（アフィリエイトリンク）を含みます。
             </p>
-            <button
-              className="rounded-full border border-warm-300 px-5 py-2 text-sm font-medium text-warm-700 hover:border-warm-800"
-              onClick={reset}
-            >
-              ↺ もう一度相談する
-            </button>
           </div>
         )}
       </div>
