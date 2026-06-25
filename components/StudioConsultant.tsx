@@ -58,6 +58,24 @@ export default function StudioConsultant() {
   const [coords, setCoords] = useState<{ lat: number; lon: number } | null>(null)
   const [locating, setLocating] = useState(false)
 
+  type Snapshot = {
+    step: Step; log: Bubble[]; region: string | null; prefecture: string | null;
+    areaName: string; ans: Partial<Answers>; results: Scored[] | null;
+  }
+  const [history, setHistory] = useState<Snapshot[]>([])
+  function pushHistory() {
+    setHistory((h) => [...h, { step, log, region, prefecture, areaName, ans, results }])
+  }
+  function goBack() {
+    setHistory((h) => {
+      if (!h.length) return h
+      const p = h[h.length - 1]
+      setStep(p.step); setLog(p.log); setRegion(p.region); setPrefecture(p.prefecture)
+      setAreaName(p.areaName); setAns(p.ans); setResults(p.results)
+      return h.slice(0, -1)
+    })
+  }
+
   const logRef = useRef<HTMLDivElement>(null)
   const optionsRef = useRef<HTMLDivElement>(null)
 
@@ -107,6 +125,7 @@ export default function StudioConsultant() {
   }
 
   function jumpToPrefecture(r: string, p: string) {
+    pushHistory()
     setRegion(r)
     setPrefecture(p)
     say({ who: 'user', text: `現在地から：${p}` })
@@ -114,6 +133,7 @@ export default function StudioConsultant() {
     setStep('area')
   }
   function jumpToArea(r: string, p: string, key: string, name: string) {
+    pushHistory()
     setRegion(r)
     setPrefecture(p)
     setAns((a) => ({ ...a, areaKey: key }))
@@ -137,18 +157,21 @@ export default function StudioConsultant() {
   const say = (b: Bubble) => setLog((l) => [...l, b])
 
   function pickRegion(r: string) {
+    pushHistory()
     setRegion(r)
     say({ who: 'user', text: r })
     say({ who: 'ai', text: `${r}ですね。都道府県をえらんでください。` })
     setStep('prefecture')
   }
   function pickPrefecture(p: string) {
+    pushHistory()
     setPrefecture(p)
     say({ who: 'user', text: p })
     say({ who: 'ai', text: `${p}の中で、お探しのエリアはどこですか？` })
     setStep('area')
   }
   function pickArea(key: string, name: string) {
+    pushHistory()
     setAns((a) => ({ ...a, areaKey: key }))
     setAreaName(name)
     say({ who: 'user', text: name })
@@ -165,24 +188,28 @@ export default function StudioConsultant() {
     })
   }
   function confirmGoals() {
+    pushHistory()
     const labels = (ans.goals || []).map((id) => GOALS.find((g) => g.id === id)?.label).filter(Boolean)
     say({ who: 'user', text: labels.length ? labels.join('・') : '特にこだわらない' })
     say({ who: 'ai', text: 'レッスンのタイプの希望はありますか？' })
     setStep('type')
   }
   function pickType(t: 'machine' | 'mat' | 'either', label: string) {
+    pushHistory()
     setAns((a) => ({ ...a, type: t }))
     say({ who: 'user', text: label })
     say({ who: 'ai', text: '「無料体験があるか」は重視しますか？' })
     setStep('trial')
   }
   function pickTrial(v: boolean, label: string) {
+    pushHistory()
     setAns((a) => ({ ...a, trial: v }))
     say({ who: 'user', text: label })
     say({ who: 'ai', text: '最後に、料金の希望をおしえてください。' })
     setStep('budget')
   }
   function pickBudget(b: 'low' | 'normal' | 'any', label: string) {
+    pushHistory()
     const finalAns = { ...ans, budget: b } as Answers
     say({ who: 'user', text: label })
     const recs = recommend(finalAns)
@@ -196,6 +223,7 @@ export default function StudioConsultant() {
     setStep('result')
   }
   function reset() {
+    setHistory([])
     setStep('region')
     setRegion(null)
     setPrefecture(null)
@@ -231,6 +259,14 @@ export default function StudioConsultant() {
 
         {/* options（常に見える位置に固定的に表示） */}
         <div ref={optionsRef} className="mt-4 border-t border-warm-200 pt-4">
+          {history.length > 0 && (
+            <button
+              onClick={goBack}
+              className="mb-3 inline-flex items-center text-sm font-medium text-warm-500 hover:text-warm-800"
+            >
+              ← 一つ前の質問にもどる
+            </button>
+          )}
           <div className="flex flex-wrap gap-2">
             {step === 'region' && (
               <button
