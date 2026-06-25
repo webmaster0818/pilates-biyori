@@ -98,3 +98,8 @@ GSC28日=クリック99・表示13,575・平均39.1位（表示増だが大半3-
 - **事実ベース厳守**: 推薦・リンクは実データのみ＝ハルシネーション/誤送客ゼロ。CTAは各studioの`officialUrl`を`rel="noopener noreferrer sponsored"`で（将来アフィリリンクに差し替えれば自動反映）。料金は「目安・公式で確認」明記＋広告開示表示。
 - 割り切り（拡張余地）: 選択式対話（自由文会話=案B＝CF Workers AI無料枠で後付け可）／公式URL欠落店はエリア詳細へ誘導／常設フローティングは本採用後。
 - デプロイ: 方式B（rsync **--exclude='.git' --exclude='functions'**→deploy repo `git push origin HEAD:main`）・本番200・widget描画＆contact.js保全確認。MediaXAIにフィードバック依頼中（質問順・選択肢・見せ方）。次=(a)アフィリ差替(b)案B自然会話(c)常設ウィジェット。
+
+### 2026-06-25 AI相談プロト v2/v3（MediaXAIフィードバック反映）
+- **v2**: ①エリア選択を3段階化（地方→**都道府県**→エリア）＝`lib/consult.ts`に`prefecturesIn/areasInPrefecture`追加。②スクロール改善＝チャットログを`max-h-[42vh] overflow-y-auto`＋`logRef`自動最下部スクロール、選択ボタンは常時見える位置に固定。
+- **v3**: ①「出てないエリアがある」→原因はarea一覧を`area-studios.ts`掲載分(~154)に絞っていたため。**prefectureAreas全域(370エリア)＋ハードコードの全47県→地方マップ`PREF_REGION`**で全エリアを出すよう変更。掲載スタジオデータが無いエリアは診断結果で`/area/{slug}/`へ誘導。②**現在地優先表示**＝`pilates-biyori-deploy/functions/api/geo.js`新設（CFの`request.cf`が返す国/地域/regionCode/緯度経度を返却＝外部API・コスト不要）。widgetが`/api/geo`をfetch→`JP_CODE_PREF`(ISO 3166-2:JP番号→県)で現在地県を判定→最初の画面に「📍現在地から探す：◯◯県」ショートカット表示。テストで神奈川/横浜を正しく検出。
+- ⚠️deployのrsyncは`--exclude='functions'`必須（geo.js/contact.js保全）。geo.jsはdeploy repo側に直接置く（functionsはrsync対象外のため）。次候補=(a)アフィリリンク差替(b)案B自然会話(無料Workers AI)(c)全ページ常設ウィジェット化。
