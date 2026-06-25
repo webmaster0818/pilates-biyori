@@ -26,7 +26,8 @@ const chipActive =
   'inline-flex items-center rounded-full border border-warm-800 bg-warm-800 px-4 py-2 text-sm text-white'
 
 // AIの回答を1文字ずつ表示（タイピング風）。マウント時に一度だけアニメーション。
-function Typed({ text }: { text: string }) {
+// 文字が増えるたびに onTick で親のログを最下部へスクロール（最後の行が隠れないように）。
+function Typed({ text, onTick }: { text: string; onTick?: () => void }) {
   const [n, setN] = useState(0)
   useEffect(() => {
     setN(0)
@@ -34,9 +35,11 @@ function Typed({ text }: { text: string }) {
     const id = window.setInterval(() => {
       i += 1
       setN(i)
+      onTick?.()
       if (i >= text.length) window.clearInterval(id)
     }, 20)
     return () => window.clearInterval(id)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [text])
   return <>{text.slice(0, n)}</>
 }
@@ -147,6 +150,9 @@ export default function StudioConsultant() {
   }
 
   // チャットログは内部スクロールで最新へ。ページ全体が下に流れて操作部が見えなくなるのを防ぐ。
+  const scrollLogBottom = () => {
+    if (logRef.current) logRef.current.scrollTop = logRef.current.scrollHeight
+  }
   useEffect(() => {
     logRef.current?.scrollTo({ top: logRef.current.scrollHeight, behavior: 'smooth' })
   }, [log])
@@ -250,8 +256,8 @@ export default function StudioConsultant() {
                     : 'max-w-[85%] rounded-2xl rounded-tr-sm bg-warm-800 px-4 py-3 text-sm leading-relaxed text-white'
                 }
               >
-                {b.who === 'ai' && <span className="mr-1" aria-hidden>🤖</span>}
-                {b.who === 'ai' ? <Typed text={b.text} /> : b.text}
+                {b.who === 'ai' && <span className="mr-1" aria-hidden>💁‍♀️</span>}
+                {b.who === 'ai' ? <Typed text={b.text} onTick={scrollLogBottom} /> : b.text}
               </div>
             </div>
           ))}
