@@ -7,10 +7,13 @@ import {
   areasInPrefecture,
   prefectures,
   recommend,
+  nearestArea,
+  sortAreasByDistance,
   GOALS,
   JP_CODE_PREF,
   type Answers,
   type Scored,
+  type NearestArea,
 } from '@/lib/consult'
 
 type Bubble = { who: 'ai' | 'user'; text: string }
@@ -37,11 +40,13 @@ export default function StudioConsultant() {
   const [ans, setAns] = useState<Partial<Answers>>({ goals: [] })
   const [results, setResults] = useState<Scored[] | null>(null)
   const [geo, setGeo] = useState<{ region: string; prefecture: string } | null>(null)
+  const [coords, setCoords] = useState<{ lat: number; lon: number } | null>(null)
+  const [near, setNear] = useState<NearestArea | null>(null)
 
   const logRef = useRef<HTMLDivElement>(null)
   const optionsRef = useRef<HTMLDivElement>(null)
 
-  // Cloudflareの無料ジオ情報から現在地の都道府県を推定（外部API・コスト不要）
+  // Cloudflareの無料ジオ情報から現在地の都道府県・緯度経度を取得し、最も近いエリアも算出（外部API・コスト不要）
   useEffect(() => {
     fetch('/api/geo')
       .then((r) => (r.ok ? r.json() : null))
@@ -49,9 +54,16 @@ export default function StudioConsultant() {
         if (!g || g.country !== 'JP') return
         const code = String(g.regionCode || '').replace(/^JP-?/, '').padStart(2, '0')
         const pref = JP_CODE_PREF[code]
-        if (!pref) return
-        const p = prefectures.find((x) => x.prefecture === pref)
-        if (p) setGeo({ region: p.region, prefecture: pref })
+        if (pref) {
+          const p = prefectures.find((x) => x.prefecture === pref)
+          if (p) setGeo({ region: p.region, prefecture: pref })
+        }
+        const lat = Number(g.latitude)
+        const lon = Number(g.longitude)
+        if (Number.isFinite(lat) && Number.isFinite(lon)) {
+          setCoords({ lat, lon })
+          setNear(nearestArea(lat, lon))
+        }
       })
       .catch(() => {})
   }, [])
@@ -62,6 +74,18 @@ export default function StudioConsultant() {
     say({ who: 'user', text: `現在地から：${p}` })
     say({ who: 'ai', text: `${p}ですね。お探しのエリアはどこですか？` })
     setStep('area')
+  }
+  function jumpToArea(r: string, p: string, key: string, name: string) {
+    setRegion(r)
+    setPrefecture(p)
+    setAns((a) => ({ ...a, areaKey: key }))
+    setAreaName(name)
+    say({ who: 'user', text: `現在地に近い：${name}（${p}）` })
+    say({
+      who: 'ai',
+      text: `${name}ですね！ピラティスで特に叶えたいことはありますか？（複数選べます。なければ「特にこだわらない」へ）`,
+    })
+    setStep('goals')
   }
 
   // チャットログは内部スクロールで最新へ。ページ全体が下に流れて操作部が見えなくなるのを防ぐ。
@@ -170,12 +194,20 @@ export default function StudioConsultant() {
         {/* options（常に見える位置に固定的に表示） */}
         <div ref={optionsRef} className="mt-4 border-t border-warm-200 pt-4">
           <div className="flex flex-wrap gap-2">
-            {step === 'region' && geo && (
+            {step === 'region' && near && (
               <button
                 className="mb-1 w-full rounded-xl border border-warm-800 bg-warm-800 px-4 py-2.5 text-left text-sm font-medium text-white hover:bg-warm-900"
+                onClick={() => jumpToArea(near.region, near.prefecture, near.key, near.name)}
+              >
+                📍 現在地に最も近いエリア：{near.name}（{near.prefecture}・約{Math.round(near.km)}km）→ ここで探す
+              </button>
+            )}
+            {step === 'region' && geo && (
+              <button
+                className="mb-1 w-full rounded-xl border border-warm-300 bg-white px-4 py-2.5 text-left text-sm font-medium text-warm-800 hover:border-warm-800"
                 onClick={() => jumpToPrefecture(geo.region, geo.prefecture)}
               >
-                📍 現在地から探す：{geo.prefecture}（{geo.region}）→ すぐ選ぶ
+                📍 現在地の都道府県から探す：{geo.prefecture}（{geo.region}）
               </button>
             )}
             {step === 'region' &&
@@ -195,9 +227,13 @@ export default function StudioConsultant() {
 
             {step === 'area' &&
               prefecture &&
-              areasInPrefecture(prefecture).map((a) => (
+              (coords
+                ? sortAreasByDistance(areasInPrefecture(prefecture), coords.lat, coords.lon)
+                : areasInPrefecture(prefecture).map((a) => ({ ...a, km: null as number | null }))
+              ).map((a) => (
                 <button key={a.key} className={chip} onClick={() => pickArea(a.key, a.name)}>
-                  {a.name}（{a.count}）
+                  {a.name}
+                  {a.km != null ? `（約${Math.round(a.km)}km）` : `（${a.count}）`}
                 </button>
               ))}
 

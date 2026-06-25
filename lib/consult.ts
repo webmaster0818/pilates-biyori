@@ -132,6 +132,48 @@ export function areasInPrefecture(prefecture: string) {
   return p ? p.areas : []
 }
 
+// 各エリアの座標（国土地理院APIで取得）。現在地からの距離計算に使う。
+import areaCoordsJson from '@/data/area-coords.json'
+const AREA_COORDS = areaCoordsJson as unknown as Record<string, [number, number]>
+
+const AREA_INFO = new Map<string, { name: string; prefecture: string; region: string }>()
+prefectures.forEach((p) =>
+  p.areas.forEach((a) => AREA_INFO.set(a.key, { name: a.name, prefecture: p.prefecture, region: p.region }))
+)
+
+function haversineKm(lat1: number, lon1: number, lat2: number, lon2: number): number {
+  const R = 6371
+  const dLat = ((lat2 - lat1) * Math.PI) / 180
+  const dLon = ((lon2 - lon1) * Math.PI) / 180
+  const a =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos((lat1 * Math.PI) / 180) * Math.cos((lat2 * Math.PI) / 180) * Math.sin(dLon / 2) ** 2
+  return 2 * R * Math.asin(Math.sqrt(a))
+}
+
+export type NearestArea = { key: string; name: string; prefecture: string; region: string; km: number }
+
+export function nearestArea(lat: number, lon: number): NearestArea | null {
+  let best: NearestArea | null = null
+  for (const [key, c] of Object.entries(AREA_COORDS)) {
+    const info = AREA_INFO.get(key)
+    if (!info) continue
+    const km = haversineKm(lat, lon, c[0], c[1])
+    if (!best || km < best.km) best = { key, name: info.name, prefecture: info.prefecture, region: info.region, km }
+  }
+  return best
+}
+
+// 県内エリアを現在地から近い順に。座標が無いエリアは末尾。
+export function sortAreasByDistance<T extends { key: string }>(areas: T[], lat: number, lon: number): (T & { km: number | null })[] {
+  return areas
+    .map((a) => {
+      const c = AREA_COORDS[a.key]
+      return { ...a, km: c ? haversineKm(lat, lon, c[0], c[1]) : null }
+    })
+    .sort((a, b) => (a.km ?? Infinity) - (b.km ?? Infinity))
+}
+
 export const GOALS: { id: string; label: string; kw: RegExp }[] = [
   { id: 'posture', label: '姿勢改善・体幹強化', kw: /姿勢|体幹|猫背|骨格|コア|インナーマッスル/ },
   { id: 'diet', label: 'ダイエット・ボディメイク', kw: /ダイエット|ボディメイク|痩|シェイプ|引き締|脂肪|くびれ/ },
