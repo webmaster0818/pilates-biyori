@@ -25,6 +25,38 @@ const chip =
 const chipActive =
   'inline-flex items-center rounded-full border border-warm-800 bg-warm-800 px-4 py-2 text-sm text-white'
 
+// 自作の女性コンシェルジュ・アバター（絵文字ではなくSVGで一から作成）。
+function AiAvatar({ size = 26 }: { size?: number }) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 40 40"
+      role="img"
+      aria-label="案内担当"
+      className="mr-1.5 inline-block shrink-0 align-[-0.35em]"
+    >
+      <circle cx="20" cy="20" r="20" fill="#f5e9e2" />
+      {/* 後ろ髪 */}
+      <path d="M7 23 Q7 7 20 7 Q33 7 33 23 L33 36 Q27.5 31 20 31 Q12.5 31 7 36 Z" fill="#7a5640" />
+      {/* 首 */}
+      <rect x="17.5" y="25" width="5" height="6" rx="2" fill="#f2c6a3" />
+      {/* 顔 */}
+      <circle cx="20" cy="19" r="9" fill="#f6cda9" />
+      {/* 前髪（中央分け） */}
+      <path d="M11 19 Q11 8.5 20 8.5 Q29 8.5 29 19 Q27 13.5 20.6 13.5 L20.6 19.5 Q20 16 19.4 19.5 L19.4 13.5 Q13 13.5 11 19 Z" fill="#7a5640" />
+      {/* 目 */}
+      <circle cx="16.4" cy="19.2" r="1.25" fill="#3b2a20" />
+      <circle cx="23.6" cy="19.2" r="1.25" fill="#3b2a20" />
+      {/* 笑顔 */}
+      <path d="M16.6 22.8 Q20 25.6 23.4 22.8" stroke="#c07a60" strokeWidth="1.3" fill="none" strokeLinecap="round" />
+      {/* チーク */}
+      <circle cx="14.2" cy="21.6" r="1.4" fill="#f2a98a" opacity="0.55" />
+      <circle cx="25.8" cy="21.6" r="1.4" fill="#f2a98a" opacity="0.55" />
+    </svg>
+  )
+}
+
 // AIの回答を1文字ずつ表示（タイピング風）。マウント時に一度だけアニメーション。
 // 文字が増えるたびに onTick で親のログを最下部へスクロール（最後の行が隠れないように）。
 function Typed({ text, onTick }: { text: string; onTick?: () => void }) {
@@ -256,7 +288,7 @@ export default function StudioConsultant() {
                     : 'max-w-[85%] rounded-2xl rounded-tr-sm bg-warm-800 px-4 py-3 text-sm leading-relaxed text-white'
                 }
               >
-                {b.who === 'ai' && <span className="mr-1" aria-hidden>💁‍♀️</span>}
+                {b.who === 'ai' && <AiAvatar />}
                 {b.who === 'ai' ? <Typed text={b.text} onTick={scrollLogBottom} /> : b.text}
               </div>
             </div>
