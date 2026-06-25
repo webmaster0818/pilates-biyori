@@ -91,3 +91,10 @@ GSC28日=クリック99・表示13,575・平均39.1位（表示増だが大半3-
 - 検証: ビルドEXIT0／全23でアンカー先(#trial-guide/#price-comparison/#how-to-choose)存在確認／本番3ページで「N社を比較・無料体験M社・月額最安」描画＆数値妥当(hamamatsucho 5社/2社/10,450円・akihabara 7社/1社・esaka 8社/3社)確認。
 - デプロイ: 方式B(rsync **--exclude='.git' --exclude='functions'** 厳守→functions/contact.js保全確認)。⚠️deploy repoのローカルブランチは`master`・リモートは`main`→`git push origin HEAD:main`(0 behind/1 ahead・FF)。source+deploy両push・Indexing API 23/23。
 - 次候補: trailing-slash統一(canonical)・記事クラスタ→機会ページ内部リンク・効果は1-2週GSC測定。
+
+### 2026-06-25 AIスタジオ相談プロトA（MediaXAI「A案のプロトタイプ作って」）
+- **本番 /ai-soudan/**（ヘッダーCTA「AIスタジオ相談」desktop+mobile・sitemap 448URL）。ルールベースの会話型診断ウィザード＝**完全無料・APIゼロ・クライアント完結**（コスト§1.4クリア）。
+- 構成: `lib/consult.ts`（areaStudios 211店をflat化＝types[machine/mat]・hasFreeTrial・priceMinYen・purposeText派生＋regions/areasIn/recommend スコアリング）＋`components/StudioConsultant.tsx`（'use client' チャットUI: 地方→エリア→目的(複数)→タイプ→無料体験→料金→上位3提示）＋`app/ai-soudan/page.tsx`。
+- **事実ベース厳守**: 推薦・リンクは実データのみ＝ハルシネーション/誤送客ゼロ。CTAは各studioの`officialUrl`を`rel="noopener noreferrer sponsored"`で（将来アフィリリンクに差し替えれば自動反映）。料金は「目安・公式で確認」明記＋広告開示表示。
+- 割り切り（拡張余地）: 選択式対話（自由文会話=案B＝CF Workers AI無料枠で後付け可）／公式URL欠落店はエリア詳細へ誘導／常設フローティングは本採用後。
+- デプロイ: 方式B（rsync **--exclude='.git' --exclude='functions'**→deploy repo `git push origin HEAD:main`）・本番200・widget描画＆contact.js保全確認。MediaXAIにフィードバック依頼中（質問順・選択肢・見せ方）。次=(a)アフィリ差替(b)案B自然会話(c)常設ウィジェット。
