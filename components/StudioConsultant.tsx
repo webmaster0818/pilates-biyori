@@ -5,8 +5,10 @@ import {
   regions,
   prefecturesIn,
   areasInPrefecture,
+  prefectures,
   recommend,
   GOALS,
+  JP_CODE_PREF,
   type Answers,
   type Scored,
 } from '@/lib/consult'
@@ -31,11 +33,36 @@ export default function StudioConsultant() {
   ])
   const [region, setRegion] = useState<string | null>(null)
   const [prefecture, setPrefecture] = useState<string | null>(null)
+  const [areaName, setAreaName] = useState<string>('')
   const [ans, setAns] = useState<Partial<Answers>>({ goals: [] })
   const [results, setResults] = useState<Scored[] | null>(null)
+  const [geo, setGeo] = useState<{ region: string; prefecture: string } | null>(null)
 
   const logRef = useRef<HTMLDivElement>(null)
   const optionsRef = useRef<HTMLDivElement>(null)
+
+  // Cloudflareの無料ジオ情報から現在地の都道府県を推定（外部API・コスト不要）
+  useEffect(() => {
+    fetch('/api/geo')
+      .then((r) => (r.ok ? r.json() : null))
+      .then((g) => {
+        if (!g || g.country !== 'JP') return
+        const code = String(g.regionCode || '').replace(/^JP-?/, '').padStart(2, '0')
+        const pref = JP_CODE_PREF[code]
+        if (!pref) return
+        const p = prefectures.find((x) => x.prefecture === pref)
+        if (p) setGeo({ region: p.region, prefecture: pref })
+      })
+      .catch(() => {})
+  }, [])
+
+  function jumpToPrefecture(r: string, p: string) {
+    setRegion(r)
+    setPrefecture(p)
+    say({ who: 'user', text: `現在地から：${p}` })
+    say({ who: 'ai', text: `${p}ですね。お探しのエリアはどこですか？` })
+    setStep('area')
+  }
 
   // チャットログは内部スクロールで最新へ。ページ全体が下に流れて操作部が見えなくなるのを防ぐ。
   useEffect(() => {
@@ -61,6 +88,7 @@ export default function StudioConsultant() {
   }
   function pickArea(key: string, name: string) {
     setAns((a) => ({ ...a, areaKey: key }))
+    setAreaName(name)
     say({ who: 'user', text: name })
     say({
       who: 'ai',
@@ -142,6 +170,14 @@ export default function StudioConsultant() {
         {/* options（常に見える位置に固定的に表示） */}
         <div ref={optionsRef} className="mt-4 border-t border-warm-200 pt-4">
           <div className="flex flex-wrap gap-2">
+            {step === 'region' && geo && (
+              <button
+                className="mb-1 w-full rounded-xl border border-warm-800 bg-warm-800 px-4 py-2.5 text-left text-sm font-medium text-white hover:bg-warm-900"
+                onClick={() => jumpToPrefecture(geo.region, geo.prefecture)}
+              >
+                📍 現在地から探す：{geo.prefecture}（{geo.region}）→ すぐ選ぶ
+              </button>
+            )}
             {step === 'region' &&
               regions().map((r) => (
                 <button key={r} className={chip} onClick={() => pickRegion(r)}>
@@ -306,6 +342,21 @@ export default function StudioConsultant() {
             <p className="text-xs leading-relaxed text-warm-400">
               ※ご提案は当サイト掲載の公開情報をもとにした目安です。料金・体験条件・キャンペーンは変更される場合があるため、最新・正確な内容は各公式サイトでご確認ください。「公式サイトで詳細」ボタンは広告（アフィリエイトリンク）を含みます。
             </p>
+          </div>
+        )}
+
+        {step === 'result' && results && results.length === 0 && (
+          <div className="mt-5 rounded-xl border border-warm-200 bg-white p-4">
+            <p className="mb-1 font-bold text-warm-900">{areaName}エリアの詳細ページをご覧ください</p>
+            <p className="mb-3 text-xs text-warm-500">
+              このエリアは個別の比較ページに掲載があります。条件に合うスタジオはそちらでご確認いただけます。
+            </p>
+            <a
+              href={`/area/${ans.areaKey}/`}
+              className="inline-block rounded-full bg-warm-800 px-5 py-2 text-sm font-medium text-white hover:bg-warm-900"
+            >
+              {areaName}のピラティススタジオを見る →
+            </a>
           </div>
         )}
       </div>

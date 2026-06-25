@@ -58,17 +58,32 @@ export const flatStudios: FlatStudio[] = Object.entries(areaStudios).flatMap(
     })
 )
 
-const REGION_ORDER = [
-  '北海道・東北',
-  '東北',
-  '関東',
-  '中部',
-  '関西',
-  '近畿',
-  '中国・四国',
-  '九州',
-  '九州・沖縄',
-]
+const REGION_ORDER = ['北海道・東北', '関東', '中部', '近畿', '中国・四国', '九州・沖縄']
+
+// 全47都道府県 → 地方（これにより掲載データの有無に関わらず全エリアを出せる）
+const PREF_REGION: Record<string, string> = {
+  北海道: '北海道・東北', 青森県: '北海道・東北', 岩手県: '北海道・東北', 宮城県: '北海道・東北',
+  秋田県: '北海道・東北', 山形県: '北海道・東北', 福島県: '北海道・東北',
+  茨城県: '関東', 栃木県: '関東', 群馬県: '関東', 埼玉県: '関東', 千葉県: '関東', 東京都: '関東', 神奈川県: '関東',
+  新潟県: '中部', 富山県: '中部', 石川県: '中部', 福井県: '中部', 山梨県: '中部', 長野県: '中部',
+  岐阜県: '中部', 静岡県: '中部', 愛知県: '中部',
+  三重県: '近畿', 滋賀県: '近畿', 京都府: '近畿', 大阪府: '近畿', 兵庫県: '近畿', 奈良県: '近畿', 和歌山県: '近畿',
+  鳥取県: '中国・四国', 島根県: '中国・四国', 岡山県: '中国・四国', 広島県: '中国・四国', 山口県: '中国・四国',
+  徳島県: '中国・四国', 香川県: '中国・四国', 愛媛県: '中国・四国', 高知県: '中国・四国',
+  福岡県: '九州・沖縄', 佐賀県: '九州・沖縄', 長崎県: '九州・沖縄', 熊本県: '九州・沖縄', 大分県: '九州・沖縄',
+  宮崎県: '九州・沖縄', 鹿児島県: '九州・沖縄', 沖縄県: '九州・沖縄',
+}
+
+// CFのregionCode（ISO 3166-2:JP の番号）→ 都道府県（現在地の優先表示用）
+export const JP_CODE_PREF: Record<string, string> = {
+  '01': '北海道', '02': '青森県', '03': '岩手県', '04': '宮城県', '05': '秋田県', '06': '山形県', '07': '福島県',
+  '08': '茨城県', '09': '栃木県', '10': '群馬県', '11': '埼玉県', '12': '千葉県', '13': '東京都', '14': '神奈川県',
+  '15': '新潟県', '16': '富山県', '17': '石川県', '18': '福井県', '19': '山梨県', '20': '長野県', '21': '岐阜県',
+  '22': '静岡県', '23': '愛知県', '24': '三重県', '25': '滋賀県', '26': '京都府', '27': '大阪府', '28': '兵庫県',
+  '29': '奈良県', '30': '和歌山県', '31': '鳥取県', '32': '島根県', '33': '岡山県', '34': '広島県', '35': '山口県',
+  '36': '徳島県', '37': '香川県', '38': '愛媛県', '39': '高知県', '40': '福岡県', '41': '佐賀県', '42': '長崎県',
+  '43': '熊本県', '44': '大分県', '45': '宮崎県', '46': '鹿児島県', '47': '沖縄県',
+}
 
 // 地方 → 都道府県 → エリア の3段階。都道府県はprefectureAreas、地方は各エリアのregionから導出。
 const studioCount = new Map<string, number>()
@@ -84,28 +99,17 @@ export type Pref = {
   areas: { key: string; name: string; count: number }[]
 }
 
+// prefectureAreasの全エリアを採用（掲載データの有無で絞らない＝全エリアを出す）。
+// countは掲載スタジオ数（0でも表示し、推薦が無いエリアはエリアページへ誘導する）。
 export const prefectures: Pref[] = prefectureAreas
   .map((p) => {
     const areas = p.areas
-      .filter((a) => studioCount.has(a.slug))
-      .map((a) => ({ key: a.slug, name: a.name, count: studioCount.get(a.slug) as number }))
+      .map((a) => ({ key: a.slug, name: a.name, count: studioCount.get(a.slug) || 0 }))
       .sort((a, b) => b.count - a.count)
-    const rc = new Map<string, number>()
-    areas.forEach((a) => {
-      const r = regionByArea.get(a.key)
-      if (r) rc.set(r, (rc.get(r) || 0) + 1)
-    })
-    let region = ''
-    let max = 0
-    rc.forEach((c, r) => {
-      if (c > max) {
-        max = c
-        region = r
-      }
-    })
+    const region = PREF_REGION[p.prefecture] || 'その他'
     return { prefecture: p.prefecture, region, areas }
   })
-  .filter((p) => p.areas.length > 0 && p.region)
+  .filter((p) => p.areas.length > 0)
 
 export function regions(): string[] {
   const set = new Set(prefectures.map((p) => p.region))
