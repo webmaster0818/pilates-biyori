@@ -6259,6 +6259,7 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: '姿勢改善専門スタジオ ネコノビ',
         officialUrl: 'https://nekonobi.online/',
+        image: '/images/studios/nekonobi.webp',
         price: '月4回 20,000円／月3回 16,500円／月2回 12,000円／月1回 6,600円',
         trial: '体験 3,000円',
         features: ['姿勢改善専門', '柔道整復師（国家資格）×トレーナー', 'マシンピラティス／マットピラティス／整体', '完全マンツーマン', '阪急伊丹駅 徒歩1分', '男女利用可'],
