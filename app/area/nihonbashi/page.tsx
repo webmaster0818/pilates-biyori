@@ -279,7 +279,7 @@ export default function NihonbashiPage() {
           </div>
         </section>
 
-        <TableOfContents areaName="日本橋" studioNames={studios.map((s) => s.name)} />
+        <TableOfContents areaName="日本橋" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">
@@ -314,7 +314,7 @@ export default function NihonbashiPage() {
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">日本橋のおすすめピラティススタジオ5選</h2>
             <div className="space-y-8">
-              {studios.map((studio, index) => (
+              {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
                 <StudioCard key={index} studio={studio} index={index} />
               ))}
             </div>

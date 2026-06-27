@@ -500,7 +500,7 @@ export default function ShinOkuboAreaPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'ItemList',
-            itemListElement: studios.map((studio, index) => ({
+            itemListElement: [...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => ({
               '@type': 'ListItem',
               position: index + 1,
               item: {
@@ -552,7 +552,7 @@ export default function ShinOkuboAreaPage() {
         <AreaConclusion studios={studios} areaName="新大久保・新宿" />
 
 
-        <TableOfContents areaName="新大久保・新宿" studioNames={studios.map((s) => s.name)} />
+        <TableOfContents areaName="新大久保・新宿" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">
@@ -619,7 +619,7 @@ export default function ShinOkuboAreaPage() {
               新大久保・新宿のおすすめピラティススタジオ8選
             </h2>
             <div className="space-y-8">
-              {studios.map((studio, index) => (
+              {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
                 <StudioCard key={index} studio={studio} index={index} />
               ))}
             </div>

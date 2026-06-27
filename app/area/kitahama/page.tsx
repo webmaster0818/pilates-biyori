@@ -421,7 +421,7 @@ export default function KitahamaPage() {
         <AreaConclusion studios={studios} areaName="北浜・淀屋橋" />
 
 
-        <TableOfContents areaName="北浜・淀屋橋" studioNames={studios.map((s) => s.name)} />
+        <TableOfContents areaName="北浜・淀屋橋" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">
@@ -488,7 +488,7 @@ export default function KitahamaPage() {
               北浜・淀屋橋のおすすめピラティススタジオ6選
             </h2>
             <div className="space-y-8">
-              {studios.map((studio, index) => (
+              {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
                 <StudioCard key={index} studio={studio} index={index} />
               ))}
             </div>

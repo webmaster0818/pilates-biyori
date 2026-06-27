@@ -527,7 +527,7 @@ export default function EsakaPage() {
         <AreaConclusion studios={studios} areaName="江坂" />
 
 
-        <TableOfContents areaName="江坂" studioNames={studios.map((s) => s.name)} />
+        <TableOfContents areaName="江坂" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">
@@ -594,7 +594,7 @@ export default function EsakaPage() {
               江坂のおすすめピラティススタジオ8選
             </h2>
             <div className="space-y-8">
-              {studios.map((studio, index) => (
+              {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
                 <StudioCard key={index} studio={studio} index={index} />
               ))}
             </div>

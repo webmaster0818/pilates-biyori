@@ -365,7 +365,7 @@ export default function OchanomizuPage() {
             name: '御茶ノ水・神保町のピラティススタジオ',
             description: '御茶ノ水・神保町エリアのおすすめピラティススタジオ一覧',
             numberOfItems: studios.length,
-            itemListElement: studios.map((studio, index) => ({
+            itemListElement: [...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => ({
               '@type': 'ListItem',
               position: index + 1,
               item: {
@@ -414,7 +414,7 @@ export default function OchanomizuPage() {
         <AreaConclusion studios={studios} areaName="御茶ノ水・神保町" />
 
 
-        <TableOfContents areaName="御茶ノ水・神保町" studioNames={studios.map((s) => s.name)} />
+        <TableOfContents areaName="御茶ノ水・神保町" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
 
         {/* Introduction */}
         <section className="py-12 bg-white">
@@ -481,7 +481,7 @@ export default function OchanomizuPage() {
               御茶ノ水・神保町のおすすめピラティススタジオ8選
             </h2>
             <div className="space-y-8">
-              {studios.map((studio, index) => (
+              {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
                 <StudioCard key={index} studio={studio} index={index} />
               ))}
             </div>
