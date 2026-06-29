@@ -12,12 +12,28 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026最新】ピラティス栄おすすめ4選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026最新】ピラティス栄おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: '栄エリアのおすすめピラティススタジオ4選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,栄,名古屋,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
 const studios = [
+  {
+    name: 'メルメイク 伏見店【マシンピラティス】',
+    officialUrl: 'https://mermake.co.jp/fusimi-pilates/',
+    image: '/images/studios/mermake.webp',
+    price: '月謝制（50分）プライベート2 17,300円／プライベート4 33,000円／プライベート6 47,100円（税込）',
+    trial: '体験レッスン（50分）5,500円（税込・当日入会で無料）',
+    features: ['マシンピラティス', '完全個室・パーソナル（マンツーマン）', '24時間営業', 'ウェア・タオル無料レンタル', '水素水飲み放題', '地下鉄東山線・鶴舞線「伏見駅」E出口徒歩30秒／「栄駅」徒歩7分'],
+    description: '完全個室のパーソナルジム＆マシンピラティスを展開するメルメイクの伏見店。完全個室のマンツーマン指導、24時間営業、ウェア・タオル無料レンタル、セッション中の水素水飲み放題、管理栄養士監修の食事アドバイス付き。ダイエット・ボディメイク・姿勢矯正（反り腰・巻き肩・猫背・骨盤矯正）に対応します。',
+    access: '地下鉄東山線・鶴舞線「伏見駅」E出口徒歩30秒／「栄駅」徒歩7分',
+    address: '〒460-0003 愛知県名古屋市中区錦2丁目13-31 H-2 VIVACE',
+    popularPlan: { name: 'プライベート4（月4回・50分）', description: '完全個室のパーソナルマシンピラティスを月4回のペースで継続したい方向けの人気プラン。姿勢矯正・インナーマッスル強化を中心に一人ひとりに合わせて指導します。', price: '月額 33,000円（税込・1回あたり8,250円）' },
+    options: ['体験レッスン（50分）5,500円（当日入会で無料）', '月謝制プライベート2（月2回・50分）17,300円／プライベート6（月6回・50分）47,100円（税込）', '75分月謝制 プライベート2 22,800円／プライベート4 44,000円／プライベート6 63,600円（税込）', '単発（都度）1回50分 9,050円／75分 11,800円（税込）', '入会金・事務手数料 33,000円（カウンセリング時の入会で無料）', 'インストラクター指名料 550円（税込）'],
+    userProfile: { ageRange: '男女・年代問わず利用可', genderRatio: '男女利用可', purpose: ['ダイエット・ボディメイク', '姿勢矯正（反り腰・巻き肩・猫背）', '骨盤矯正', 'マシンピラティス'] },
+    basicInfo: { hours: '24時間営業（電話受付 平日10:00〜19:00）', closed: '年中無休', facilities: ['マシンピラティス', '完全個室', 'シャワー・更衣スペース', 'ウェア・タオル無料レンタル', '水素水'] },
+  },
+
   {
     name: 'zen place pilates 栄',
     image: '/images/studios/zen-place-pilates.webp',
@@ -131,7 +147,7 @@ export default function SakaePage() {
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p>
-            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス栄おすすめ4選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1>
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス栄おすすめ5選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1>
           </div>
         </section>
         <section className="bg-white py-3 border-b border-warm-100">
