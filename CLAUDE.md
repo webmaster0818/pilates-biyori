@@ -116,3 +116,10 @@ GSC28日=クリック99・表示13,575・平均39.1位（表示増だが大半3-
 - **おすすめN選はハードコード(studios.length不使用)→実数に更新必須**。⚠️studio数カウントは`officialUrl:`では不可(既存studioはofficialUrl無しがある)。**`access:`/`address:`/`popularPlan:`が1studio=1**（または`awk '/const studios/{f=1}f&&/^  \{/{c++}'`）。
 - 事実ベース除外: 新横浜/横浜日吉/豊田=公式「人員不足にて停止」、パーソナル専門店(名駅店等)=ピラティス非対応。
 - 🚨**重大教訓: functions/ が deploy repo の作業ツリーから欠落していた**（2026-06-25のネコノビ掲載デプロイ cf2ca3224 で削除されていた）→今回のデプロイでCFが再ビルドし**/api/contact が404化**。**functions/api/{contact,geo}.js を履歴(bfd7c9233)から復元＋恒久コミット**で解消(POST=400で稼働確認、GET404はonRequestPostのみゆえ正常)。`--exclude='functions'`は「作業ツリーにfunctions/が在る場合のみ」保護＝**欠落していたら無力**。**今後pilatesデプロイ前に`ls pilates-biyori-deploy/functions/api/`で存在確認必須**（今回コミット済なので以後は維持される）。
+
+### 2026-07-01 🚨canonical重大バグ修正＋勝ち筋強化（MediaXAI「①②③進めて」＝押し上げ戦略）
+フュージョン(next-lever-strategy-2026-07-01.md)＝「エリア拡張より勝ち筋の1ページ目押し上げ」。実装中に**サイト全体を止めていた重大バグ発見**：
+- **全403ページのcanonicalがホームページを指していた**＝`app/layout.tsx`の`alternates.canonical:'https://biyori-pilates.com/'`を全ページが継承→エリアページ全部が「正規URL=トップ」とGoogleに宣言＝**個別ページが評価されずトップに集約**。**pos40問題(表示多いが順位深い)のサイト全体の根本原因の可能性大**。
+- **修正**：layoutの`alternates.canonical`ブロックを削除→**全ページ自己canonical化**(タグ無し=Googleが各URLを自己正規化)。本番でhamamatsuchoのホームcanonical消失を確認(CF伝播で2回目のcurlで確認・1回目はキャッシュ)。⚠️**今後area/記事ページはlayoutで静的canonicalを設定しない**(継承で全ページ誤canonical化する)。
+- **勝ち筋強化**：gion-shijo(祇園四条)が唯一AreaMarketComparison/AreaConclusion未挿入だった→enhance-area-phase0.py/add-area-conclusion-202606.pyのSLUGS/TARGETSに追加して実行(冪等)。hamamatsucho/yagoto/ochanomizu/ojiは既に独自データ枠あり。
+- 方式Bデプロイ(--exclude .git/functions・functions保全OK)・両push。**残=内部リンク集約(yagoto被リンク1本のみ)＋yagoto boost-nav**。効果1-2週GSC(canonicalは全エリアに効く最大レバー)。

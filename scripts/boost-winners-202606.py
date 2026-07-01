@@ -22,6 +22,8 @@ TARGETS = {
     "chofu": ["sengawa","kichijoji","mitaka","musashisakai"],
     "yoyogi-uehara": ["yoyogi","shimokitazawa","shibuya","sasazuka"],
     "ebina": ["honatsugi","sagami-ono"],
+    "yagoto": ["nagoya","sakae","kanayama"],
+    "gion-shijo": ["kyoto","kyoto-shiyakusho-mae","karasuma-oike"],
 }
 HAKUSHO = "/articles/pilates-ryokin-hakusho/"
 TODAY = "2026年06月14日"
