@@ -10,6 +10,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
 SLUGS = [
+    'gion-shijo',
     'toyosu', 'shimokitazawa', 'asakusa', 'nakano-sakaue', 'ebina',
     'koenji', 'tamachi', 'takadanobaba', 'chofu', 'yoga-komazawa',
     'nippori', 'otsuka', 'nishi-nippori', 'kinshicho', 'yoyogi-uehara',

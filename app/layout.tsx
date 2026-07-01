@@ -36,9 +36,6 @@ export const metadata: Metadata = {
   description: '【2026年最新】初心者から経験者まで、あなたに最適なピラティススタジオが見つかるメディア。マシンピラティス・マットピラティスの基礎知識からスタジオ比較まで徹底サポート。',
   keywords: ['ピラティス', 'マシンピラティス', 'スタジオ', '比較', '初心者', '効果', 'おすすめ', '2026'],
   authors: [{ name: 'Pilates-Biyori編集部' }],
-  alternates: {
-    canonical: 'https://biyori-pilates.com/',
-  },
   openGraph: {
     type: 'website',
     locale: 'ja_JP',

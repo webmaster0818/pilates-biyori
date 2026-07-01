@@ -108,3 +108,11 @@ GSC28日=クリック99・表示13,575・平均39.1位（表示増だが大半3-
 - **全エリア座標化**：`/tmp/geocode_areas.py`で国土地理院 住所検索API（無料・キー不要 `https://msearch.gsi.go.jp/address-search/AddressSearch?q=`）を使い、掲載スタジオ住所(高精度)／無い所はprefecture+エリア名で**349/370エリアを座標化→`data/area-coords.json`**。
 - `lib/consult.ts`：`AREA_COORDS`(json import・`as unknown as Record<string,[number,number]>`でtuple化必須)＋haversine＋`nearestArea(lat,lon)`＋`sortAreasByDistance(areas,lat,lon)`。
 - widget：`/api/geo`の緯度経度を保持→**「📍現在地に最も近いエリア：◯◯（約◦km）」をワンタップ最上部表示**(jumpToArea＝region/pref/area飛ばしてgoalsへ)＋**県選択後のエリア一覧を近い順に並べ替え**(各エリアに約◦km表示)。海外/位置不明は通常フォールバック。全部外部API課金ゼロ。
+
+### 2026-06-29 メルメイク掲載（MediaXAI「メルメイク掲載してほしい」mermake.co.jp）
+メルメイク＝完全個室パーソナルジム＆マシン/マットピラティス（24h・ダイエット/姿勢矯正）。**ピラティス対応の稼働店3つを公式実データで掲載**：女性専用・名古屋駅店【マシンピラティス】→/area/nagoya-station/、伏見店【マシンピラティス】→/area/sakae/（伏見エリア無→栄が最寄り）、西新店【マットピラティス】→/area/nishijin/。
+- データ取得=公式 f-nagoya-pilates/fusimi-pilates/f-fukuoka-pilates/menu-pilates をfetch。料金=50分月謝制プライベート2/4/6=17,300/33,000/47,100円・体験5,500円(当日入会で無料)・単発9,050円・入会金33,000円(入会で無料)・指名料550円。StudioCard5タブ全項目を実データ記入。公式キャプチャ→public/images/studios/mermake.webp(目視確認)。
+- **これらのエリアはstudiosが area-studios.ts でなく page.tsx 内の`const studios = [`にインライン定義**(全エリアが area-studios.ts にあるわけではない)。挿入は page.tsx の `const studios = [` 直後。
+- **おすすめN選はハードコード(studios.length不使用)→実数に更新必須**。⚠️studio数カウントは`officialUrl:`では不可(既存studioはofficialUrl無しがある)。**`access:`/`address:`/`popularPlan:`が1studio=1**（または`awk '/const studios/{f=1}f&&/^  \{/{c++}'`）。
+- 事実ベース除外: 新横浜/横浜日吉/豊田=公式「人員不足にて停止」、パーソナル専門店(名駅店等)=ピラティス非対応。
+- 🚨**重大教訓: functions/ が deploy repo の作業ツリーから欠落していた**（2026-06-25のネコノビ掲載デプロイ cf2ca3224 で削除されていた）→今回のデプロイでCFが再ビルドし**/api/contact が404化**。**functions/api/{contact,geo}.js を履歴(bfd7c9233)から復元＋恒久コミット**で解消(POST=400で稼働確認、GET404はonRequestPostのみゆえ正常)。`--exclude='functions'`は「作業ツリーにfunctions/が在る場合のみ」保護＝**欠落していたら無力**。**今後pilatesデプロイ前に`ls pilates-biyori-deploy/functions/api/`で存在確認必須**（今回コミット済なので以後は維持される）。
