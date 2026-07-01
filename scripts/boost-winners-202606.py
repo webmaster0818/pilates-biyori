@@ -9,7 +9,7 @@ BASE = os.path.expanduser("~/projects/pilates-biyori")
 AREA = f"{BASE}/app/area"
 
 NAME = {
-    "nagoya":"名古屋","sakae":"栄","kanayama":"金山","kyoto":"京都","kyoto-shiyakusho-mae":"京都市役所前","karasuma-oike":"烏丸御池",
+    "yagoto":"八事","gion-shijo":"祇園四条","nagoya":"名古屋","sakae":"栄","kanayama":"金山","kyoto":"京都","kyoto-shiyakusho-mae":"京都市役所前","karasuma-oike":"烏丸御池",
     "toyosu":"豊洲","monzen-nakacho":"門前仲町","shintomicho":"新富町","ginza":"銀座",
     "koenji":"高円寺","nakano":"中野","asagaya":"阿佐ヶ谷","ogikubo":"荻窪","nishi-ogikubo":"西荻窪","nakano-sakaue":"中野坂上",
     "chofu":"調布","sengawa":"仙川","kichijoji":"吉祥寺","mitaka":"三鷹","musashisakai":"武蔵境",
