@@ -10,6 +10,7 @@ import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 export const metadata = {
+  alternates: { canonical: 'https://biyori-pilates.com/area/otsu/' },
   title: '【2026最新】ピラティス大津おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: '大津エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。JR「大津駅」/ 京阪「大津京駅」周辺の初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,大津,滋賀県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',

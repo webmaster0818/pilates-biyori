@@ -3,6 +3,7 @@ import { Navigation } from '@/components/Navigation'
 import { SiteFooter } from '@/components/SiteFooter'
 
 export const metadata = {
+  alternates: { canonical: 'https://biyori-pilates.com/terms-of-service/' },
   title: '利用規約 | Pilates-Biyori',
   description: 'Pilates-Biyoriの利用規約ページです。',
 }

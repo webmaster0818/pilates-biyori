@@ -13,7 +13,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026年6月最新】ピラティス国分寺おすすめ5選！料金・体験レッスン・マシン対応を比較！',
+  alternates: { canonical: 'https://biyori-pilates.com/area/kokubunji/' },
+  title: '【2026年7月最新】ピラティス国分寺おすすめ5選！料金・体験レッスン・マシン対応を比較！',
   description: '国分寺エリアのおすすめピラティススタジオ5選を徹底比較。pilates K国分寺店・zen place pilates国分寺・ピラティスミラー国分寺・URBAN CLASSIC PILATES国分寺店・Rintosull国分寺店など実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
   keywords: 'ピラティス,国分寺,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,pilates K,zen place,ピラティスミラー,URBAN CLASSIC',
 }

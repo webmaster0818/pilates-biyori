@@ -13,7 +13,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026年6月最新】ピラティス祐天寺おすすめ4選！料金・体験レッスン・マシン対応を比較！',
+  alternates: { canonical: 'https://biyori-pilates.com/area/yutenji/' },
+  title: '【2026年7月最新】ピラティス祐天寺おすすめ4選！料金・体験レッスン・マシン対応を比較！',
   description: '祐天寺エリアのおすすめピラティススタジオ4選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。',
   keywords: 'ピラティス,祐天寺,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

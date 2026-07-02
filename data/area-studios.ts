@@ -3383,7 +3383,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'URBAN CLASSIC PILATES 大泉学園店',
-        officialUrl: 'https://urbanclassic.jp/pilates-studio/oizumigakuen/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
         image: '/images/studios/urban-classic-pilates.webp',
         price: 'マンスリー4 8,580円／通い放題 12,980円（税込月額）',
         trial: '無料体験あり（要事前予約）',
@@ -3506,7 +3506,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ELEMENT 駒込店',
-        officialUrl: 'https://element-gym.com/element-top/pilates/pilates-all/komagome/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=U11199J.1.V154352I.U1357808',
         image: '/images/studios/element.webp',
         price: '月4回 22,000円〜（詳細は公式サイト参照）',
         trial: '体験当日入会で体験費用無料',
@@ -3670,7 +3670,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'URBAN CLASSIC PILATES 湘南台店',
-        officialUrl: 'https://urbanclassic.jp/shonandai/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
         image: '/images/studios/urban-classic-pilates.webp',
         price: 'マンスリー4 8,580円／通い放題 12,980円（税込月額）',
         trial: '体験 無料（要予約）',
@@ -3783,7 +3783,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'URBAN CLASSIC PILATES 本八幡店',
-        officialUrl: 'https://urbanclassic.jp/motoyawata/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
         image: '/images/studios/urban-classic-pilates.webp',
         price: 'マンスリー4 8,580円／通い放題 12,980円（税込月額）',
         trial: '体験 無料（要予約）',
@@ -3873,7 +3873,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'URBAN CLASSIC PILATES 蕨',
-        officialUrl: 'https://urbanclassic.jp/warabi/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
         image: '/images/studios/urban-classic-pilates.webp',
         price: 'マンスリー4 8,580円／通い放題 12,980円（税込月額）',
         trial: '無料体験予約あり',
@@ -3924,7 +3924,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'URBAN CLASSIC PILATES 綾瀬店',
-        officialUrl: 'https://urbanclassic.jp/ayase/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
         image: '/images/studios/urban-classic-pilates.webp',
         price: 'マンスリー4 8,580円／通い放題 12,980円（税込月額）',
         trial: '無料体験あり',
@@ -4013,7 +4013,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'URBAN CLASSIC PILATES 新小岩店',
-        officialUrl: 'https://urbanclassic.jp/shinkoiwa/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
         image: '/images/studios/urban-classic-pilates.webp',
         price: 'マンスリー4 8,580円／通い放題 12,980円（税込月額）',
         trial: '体験 無料',
@@ -4113,7 +4113,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'URBAN CLASSIC PILATES 竹ノ塚店',
-        officialUrl: 'https://urbanclassic.jp/pilates-studio/takenotsuka/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
         image: '/images/studios/urban-classic-pilates.webp',
         price: 'マンスリー4 8,580円／通い放題 12,980円（税込月額）',
         trial: '体験 無料',
@@ -4252,7 +4252,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ELEMENT 人形町店',
-        officialUrl: 'https://element-gym.com/element-top/pilates/pilates-all/ningyocho-pilates/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=U11199J.1.V154352I.U1357808',
         image: '/images/studios/element.webp',
         price: '月4回 22,000円〜（詳細は公式サイト参照）',
         trial: '体験 3,300円（当日入会で無料）',
@@ -4441,7 +4441,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'URBAN CLASSIC PILATES 旗の台店',
-        officialUrl: 'https://urbanclassic.jp/pilates-studio/hatanodai/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
         image: '/images/studios/urban-classic-pilates.webp',
         price: '月4回 8,580円／通い放題 12,980円（税込月額）',
         trial: '体験 無料（予約制）',
@@ -4481,7 +4481,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'URBAN CLASSIC PILATES 鶴見店',
-        officialUrl: 'https://urbanclassic.jp/tsurumi/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
         image: '/images/studios/urban-classic-pilates.webp',
         price: '月4回 8,580円／通い放題 12,980円（税込月額）',
         trial: '体験あり（公式サイトから予約）',
@@ -4759,7 +4759,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'URBAN CLASSIC PILATES 西院店',
-        officialUrl: 'https://urbanclassic.jp/pilates-studio/saiin/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
         image: '/images/studios/urban-classic-pilates.webp',
         price: '月4回 8,580円／通い放題 12,980円（税込月額）',
         trial: '無料体験あり（要予約）',
@@ -5997,7 +5997,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'URBAN CLASSIC PILATES 中野坂上店',
-        officialUrl: 'https://urbanclassic.jp/nakanosakaue/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
         price: 'マンスリー4 8,580円／マンスリー8 10,780円／通い放題 12,980円',
         trial: '体験は公式サイト参照',
         features: ['サーキット形式', 'マシン＋ファンクショナル', '初心者向け', '低価格'],

@@ -3,6 +3,7 @@ import { Navigation } from '@/components/Navigation'
 import { SiteFooter } from '@/components/SiteFooter'
 
 export const metadata = {
+  alternates: { canonical: 'https://biyori-pilates.com/privacy-policy/' },
   title: 'プライバシーポリシー | Pilates-Biyori',
   description: 'Pilates-Biyoriのプライバシーポリシーページです。',
 }

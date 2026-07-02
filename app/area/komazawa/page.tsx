@@ -13,7 +13,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026年6月最新】ピラティス駒沢おすすめ6選！料金・体験レッスン・マシン対応を比較！',
+  alternates: { canonical: 'https://biyori-pilates.com/area/komazawa/' },
+  title: '【2026年7月最新】ピラティス駒沢おすすめ6選！料金・体験レッスン・マシン対応を比較！',
   description: '駒沢エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。駒沢公園近くで初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,駒沢,東京,世田谷区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

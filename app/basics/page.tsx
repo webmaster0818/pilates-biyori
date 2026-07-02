@@ -5,6 +5,7 @@ import { SiteFooter } from '@/components/SiteFooter'
 import Script from 'next/script'
 
 export const metadata = {
+  alternates: { canonical: 'https://biyori-pilates.com/basics/' },
   title: 'ピラティス基礎知識｜Pilates-Biyori',
   description: 'ピラティスの基礎知識を初心者向けにわかりやすく解説。ヨガとの違い、マットとマシンの違い、最適な頻度など、ピラティスを始める前に知っておきたい情報をまとめています。',
   keywords: 'ピラティス,基礎知識,初心者,ヨガとの違い,マシンピラティス,マットピラティス',

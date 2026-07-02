@@ -10,8 +10,9 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import { areaStudios } from '@/data/area-studios'
 
 export const metadata = {
-  title: '【2026最新】ピラティス寝屋川おすすめスタジオ｜料金プランを徹底比較！',
-  description: '寝屋川（大阪府）のおすすめピラティススタジオを比較。京阪寝屋川市駅周辺の料金相場、マシン・パーソナル・女性専用の特徴、体験レッスン情報をまとめて掲載。',
+  alternates: { canonical: 'https://biyori-pilates.com/area/neyagawa/' },
+  title: '寝屋川のピラティススタジオおすすめ比較｜無料体験・料金で比較【2026年7月】',
+  description: '寝屋川のピラティススタジオの料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
   keywords: 'ピラティス,寝屋川,大阪府,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 

@@ -10,6 +10,7 @@ import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 export const metadata = {
+  alternates: { canonical: 'https://biyori-pilates.com/area/tanashi/' },
   title: '【2026最新】ピラティス田無おすすめ6選！人気スタジオの料金プランを簡単比較！',
   description: '田無エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,田無,東京都西東京市,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',

@@ -5,6 +5,7 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import Script from 'next/script'
 
 export const metadata = {
+  alternates: { canonical: 'https://biyori-pilates.com/area/' },
   title: '地域別ピラティススタジオ｜Pilates-Biyori',
   description: '全国の主要エリアのピラティススタジオを地域別に検索。東京、大阪、名古屋、福岡など、お住まいの地域で最適なスタジオを見つけましょう。',
   keywords: 'ピラティス,スタジオ,地域別,東京,大阪,名古屋,福岡,エリア',

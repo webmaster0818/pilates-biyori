@@ -12,8 +12,9 @@ import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 export const metadata = {
-  title: '和泉のピラティス｜初心者OK・無料体験で選ぶ料金比較【2026年6月】',
-  description: '和泉エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  alternates: { canonical: 'https://biyori-pilates.com/area/izumi/' },
+  title: '和泉中央・和泉市のピラティススタジオおすすめ5選｜無料体験・料金で比較【2026年7月】',
+  description: '和泉のピラティススタジオ5社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
   keywords: 'ピラティス,和泉,大阪府,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 

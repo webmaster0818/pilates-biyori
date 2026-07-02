@@ -11,7 +11,8 @@ import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 export const metadata = {
-  title: '【2026年6月最新】ピラティス久我山おすすめ5選！料金・体験レッスン・マシン対応を比較！',
+  alternates: { canonical: 'https://biyori-pilates.com/area/kugayama/' },
+  title: '【2026年7月最新】ピラティス久我山おすすめ5選！料金・体験レッスン・マシン対応を比較！',
   description: '久我山エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,久我山,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

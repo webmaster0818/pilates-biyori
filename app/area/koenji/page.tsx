@@ -14,7 +14,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '高円寺のピラティス｜初心者OK・無料体験で選ぶ料金比較【2026年6月】',
+  alternates: { canonical: 'https://biyori-pilates.com/area/koenji/' },
+  title: '高円寺のピラティス｜初心者OK・無料体験で選ぶ料金比較【2026年7月】',
   description: '高円寺エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,高円寺,杉並区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,CLUB PILATES,zen place pilates,NATURAglam,Rintosull,STUDIO IVY,ELEMENT,chocoZAP',
 }
@@ -677,7 +678,7 @@ export default function KoenjiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年06月14日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026年6月最新】ピラティス高円寺おすすめ12選！
+              【2026年7月最新】ピラティス高円寺おすすめ12選！
               <br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！
             </h1>
@@ -767,7 +768,7 @@ export default function KoenjiPage() {
         <section className="py-16 bg-white" id="price-market">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              高円寺のピラティス料金相場【2026年6月最新】
+              高円寺のピラティス料金相場【2026年7月最新】
             </h2>
             <div className="overflow-x-auto">
               <table className="w-full text-sm border-collapse">

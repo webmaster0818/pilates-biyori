@@ -10,6 +10,7 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import { areaStudios } from '@/data/area-studios'
 
 export const metadata = {
+  alternates: { canonical: 'https://biyori-pilates.com/area/kashihara/' },
   title: '【2026最新】ピラティス橿原おすすめスタジオ｜料金プランを徹底比較！',
   description: '橿原（奈良県）のおすすめピラティススタジオを比較。近鉄大和八木駅周辺の料金相場、マシン・パーソナル・女性専用の特徴、体験レッスン情報をまとめて掲載。',
   keywords: 'ピラティス,橿原,奈良県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',

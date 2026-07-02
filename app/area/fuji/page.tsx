@@ -10,6 +10,7 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import { areaStudios } from '@/data/area-studios'
 
 export const metadata = {
+  alternates: { canonical: 'https://biyori-pilates.com/area/fuji/' },
   title: '【2026最新】ピラティス富士おすすめスタジオ｜料金プランを徹底比較！',
   description: '富士（静岡県）のおすすめピラティススタジオを比較。JR富士駅周辺の料金相場、マシン・パーソナル・女性専用の特徴、体験レッスン情報をまとめて掲載。',
   keywords: 'ピラティス,富士,静岡県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',

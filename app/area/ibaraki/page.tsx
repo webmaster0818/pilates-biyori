@@ -11,7 +11,8 @@ import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 export const metadata = {
-  title: '【2026年6月最新】ピラティス茨木おすすめ7選！料金・体験レッスン・マシン対応を比較！',
+  alternates: { canonical: 'https://biyori-pilates.com/area/ibaraki/' },
+  title: '【2026年7月最新】ピラティス茨木おすすめ7選！料金・体験レッスン・マシン対応を比較！',
   description: '茨木エリアのおすすめピラティススタジオ7選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。JR茨木駅・阪急茨木市駅周辺の初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,茨木,茨木市,大阪,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

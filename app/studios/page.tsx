@@ -5,6 +5,7 @@ import { SiteFooter } from '@/components/SiteFooter'
 import Script from 'next/script'
 
 export const metadata = {
+  alternates: { canonical: 'https://biyori-pilates.com/studios/' },
   title: 'ピラティススタジオ選び｜Pilates-Biyori',
   description: 'ピラティススタジオの選び方を徹底ガイド。料金相場、体験レッスン、オンラインピラティスなど、初心者におすすめのスタジオ選びのポイントを解説します。',
   keywords: 'ピラティス,スタジオ選び,料金,体験レッスン,オンライン,初心者',

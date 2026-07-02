@@ -10,6 +10,7 @@ import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 export const metadata = {
+  alternates: { canonical: 'https://biyori-pilates.com/area/hashimoto/' },
   title: '【2026最新】ピラティス橋本おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: '橋本エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,橋本,神奈川県相模原市,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',

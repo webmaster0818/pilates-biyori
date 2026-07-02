@@ -12,6 +12,7 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
+  alternates: { canonical: 'https://biyori-pilates.com/area/sapporo/' },
   title: '【2026最新】ピラティス札幌おすすめ11選！人気スタジオの料金プランを簡単比較！',
   description: '【2026年4月最新】札幌のおすすめピラティススタジオ11選を徹底比較。グループ月2回5,500円〜の料金相場、マシン専門・女性専用のスタジオ情報、体験レッスンの持ち物・冬場の注意点まで完全網羅。',
   keywords: 'ピラティス,札幌,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',

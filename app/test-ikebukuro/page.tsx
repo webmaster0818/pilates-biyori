@@ -5,6 +5,7 @@ import { StudioCard } from '@/components/StudioCard'
 import Script from 'next/script'
 
 export const metadata = {
+  alternates: { canonical: 'https://biyori-pilates.com/test-ikebukuro/' },
   title: '【2026最新】ピラティス池袋おすすめ15選！人気スタジオの料金プランを簡単比較！｜Pilates-Biyori',
   description: '池袋エリアのおすすめピラティススタジオ15選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,池袋,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',

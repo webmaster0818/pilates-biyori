@@ -13,7 +13,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026年6月最新】ピラティス高槻おすすめ8選！料金・体験レッスン・マシン対応を比較！',
+  alternates: { canonical: 'https://biyori-pilates.com/area/takatsuki/' },
+  title: '【2026年7月最新】ピラティス高槻おすすめ8選！料金・体験レッスン・マシン対応を比較！',
   description: '高槻エリアのおすすめピラティススタジオ8選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。JR高槻駅・阪急高槻市駅から通いやすいスタジオが見つかります。',
   keywords: 'ピラティス,高槻,高槻市,大阪,京都,ベッドタウン,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

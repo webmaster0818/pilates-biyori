@@ -11,7 +11,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import { areaStudios } from '@/data/area-studios'
 
 export const metadata = {
-  title: '【2026年6月最新】ピラティス大町西公園おすすめスタジオ｜料金プランを徹底比較！',
+  alternates: { canonical: 'https://biyori-pilates.com/area/omachi-nishi-koen/' },
+  title: '【2026年7月最新】ピラティス大町西公園おすすめスタジオ｜料金プランを徹底比較！',
   description: '大町西公園（宮城県）のおすすめピラティススタジオを比較。大町西公園駅周辺の料金相場、マシン・パーソナル・女性専用の特徴、体験レッスン情報をまとめて掲載。',
   keywords: 'ピラティス,大町西公園,宮城県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -60,7 +61,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年06月</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026年6月最新】ピラティス大町西公園おすすめスタジオ<br className="hidden md:block" />
+              【2026年7月最新】ピラティス大町西公園おすすめスタジオ<br className="hidden md:block" />
               人気スタジオの料金プランを徹底比較！
             </h1>
             <p className="text-warm-700 text-sm md:text-base leading-relaxed mt-4">

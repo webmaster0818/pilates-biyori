@@ -122,4 +122,19 @@ GSC28日=クリック99・表示13,575・平均39.1位（表示増だが大半3-
 - **全403ページのcanonicalがホームページを指していた**＝`app/layout.tsx`の`alternates.canonical:'https://biyori-pilates.com/'`を全ページが継承→エリアページ全部が「正規URL=トップ」とGoogleに宣言＝**個別ページが評価されずトップに集約**。**pos40問題(表示多いが順位深い)のサイト全体の根本原因の可能性大**。
 - **修正**：layoutの`alternates.canonical`ブロックを削除→**全ページ自己canonical化**(タグ無し=Googleが各URLを自己正規化)。本番でhamamatsuchoのホームcanonical消失を確認(CF伝播で2回目のcurlで確認・1回目はキャッシュ)。⚠️**今後area/記事ページはlayoutで静的canonicalを設定しない**(継承で全ページ誤canonical化する)。
 - **勝ち筋強化**：gion-shijo(祇園四条)が唯一AreaMarketComparison/AreaConclusion未挿入だった→enhance-area-phase0.py/add-area-conclusion-202606.pyのSLUGS/TARGETSに追加して実行(冪等)。hamamatsucho/yagoto/ochanomizu/ojiは既に独自データ枠あり。
-- 方式Bデプロイ(--exclude .git/functions・functions保全OK)・両push。**残=内部リンク集約(yagoto被リンク1本のみ)＋yagoto boost-nav**。効果1-2週GSC(canonicalは全エリアに効く最大レバー)。
+- 方式Bデプロイ(--exclude .git/functions・functions保全OK)・両push。効果1-2週GSC(canonicalは全エリアに効く最大レバー)。
+
+### 2026-07-01 ②内部リンク集約（勝ち筋の被リンク強化・MediaXAI「進めて」）
+フュージョン戦略の②(striking-distanceページへ内部リンク集約)を実行。被リンクが薄かった勝ち筋2本を強化：
+- **yagoto(八事)=被リンク1本のみ→4本 / gion-shijo(祇園四条)=2本→5本**。`scripts/boost-winners-202606.py`のTARGETSに`"yagoto":["nagoya","sakae","kanayama"]`＋`"gion-shijo":["kyoto","kyoto-shiyakusho-mae","karasuma-oike"]`追加。①ターゲット側=近隣+白書へのboost-nav callout挿入 ②近隣6ページ側=ターゲットへの相互内部リンクcallout挿入(双方向)。
+- ⚠️**NAME辞書に新規スラッグの表示名(八事/祇園四条/名古屋/栄/金山/京都/京都市役所前/烏丸御池)を追加しないとKeyErrorで挿入失敗**する(script part1/part2両方でNAME参照)。追加後に冪等再実行で全8ページ挿入完了。
+- 方式Bデプロイ(functions保全OK)・両push・本番で「近隣エリア」節の描画を4ページ確認。**Indexing APIは本日クォータ超過(429)＝他サイト作業と合算で枯渇→sitemap任せ＋翌日再送**。効果1-2週GSC。
+
+### 2026-07-02 成長戦略再策定（MediaXAI「fable5で最短・最大の実行計画を」）
+GSC診断(28d 6/3-7/1): クリック90(前月比+88%)・表示14,104(2.8倍)・平均40.5位・CTR0.64%。**6/22以降 日次表示600-700→350-450に減速**(大量新規エリアの再評価疑い・2週監視)。
+- 勝ちパターン=低競合エリア(指宿5.0位/八事9.2位/光が丘)。都市部大型エリアは30-60位で停滞=**最大制約はドメインオーソリティ**(オンページは6月にやり切った)
+- 機会バンド(8-30位×表示30+)=29ページ。筆頭hamamatsucho 575imp/14.6位/CTR0.3%
+- **未開拓インテント発見: ブランド×店舗×口コミ/レビュー系クエリに受け皿ゼロで表示中**(BDC二子玉川/恵比寿/表参道 計83imp 42-58位、kasane店舗レビュー19-40位、the silk レビュー等)
+- 技術: **canonicalタグが全ページ無し**(継承バグ修正時に根こそぎ削除された模様)＋GSC上slash重複31組(308リダイレクトはあり)
+
+**戦略4本柱(Discord報告済)**: P0=canonical自己参照+機会29ページtitle/CTR改修+内部リンク集中+AI相談アフィリ差替(今週) / P1=ブランド評判レイヤー/brands/12-15社・出典付き口コミ(2-3週・最大上振れ・yoga-db方式) / P2=料金白書で監修者獲得・被リンク営業(並行・費用ゼロ) / P3=エリア面拡大は凍結→押し上げ専念。KPI=8月末300クリック/10月末1,000。

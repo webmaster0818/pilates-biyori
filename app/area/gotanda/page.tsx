@@ -12,6 +12,7 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
+  alternates: { canonical: 'https://biyori-pilates.com/area/gotanda/' },
   title: '【2026最新】ピラティス五反田おすすめ6選！人気スタジオの料金プランを簡単比較！',
   description: '五反田エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,五反田,品川,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',

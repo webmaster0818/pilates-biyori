@@ -13,7 +13,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '【2026年6月最新】ピラティス笹塚おすすめ6選！料金・体験レッスン・マシン対応を比較！',
+  alternates: { canonical: 'https://biyori-pilates.com/area/sasazuka/' },
+  title: '【2026年7月最新】ピラティス笹塚おすすめ6選！料金・体験レッスン・マシン対応を比較！',
   description: '笹塚エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,笹塚,渋谷区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

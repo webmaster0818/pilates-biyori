@@ -12,7 +12,8 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: 'つくばのピラティス｜初心者OK・無料体験で選ぶ料金比較【2026年6月】',
+  alternates: { canonical: 'https://biyori-pilates.com/area/tsukuba/' },
+  title: 'つくばのピラティス｜初心者OK・無料体験で選ぶ料金比較【2026年7月】',
   description: 'つくばエリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,つくば,茨城,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

@@ -12,6 +12,7 @@ import Script from 'next/script'
 
 
 export const metadata = {
+  alternates: { canonical: 'https://biyori-pilates.com/area/kanayama/' },
   title: '【2026最新】ピラティス金山おすすめ8選！人気スタジオの料金プランを簡単比較！',
   description: '名古屋金山エリアのおすすめピラティススタジオ8選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,金山,名古屋,愛知,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',

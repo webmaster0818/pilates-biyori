@@ -14,8 +14,9 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
-  title: '秋葉原のピラティス｜初心者OK・無料体験で選ぶ料金比較【2026年6月】',
-  description: '秋葉原エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  alternates: { canonical: 'https://biyori-pilates.com/area/akihabara/' },
+  title: '秋葉原のピラティススタジオおすすめ7選｜無料体験・料金で比較【2026年7月】',
+  description: '秋葉原のピラティススタジオ7社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
   keywords: 'ピラティス,秋葉原,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 

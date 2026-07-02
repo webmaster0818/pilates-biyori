@@ -12,6 +12,7 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 
 export const metadata = {
+  alternates: { canonical: 'https://biyori-pilates.com/area/mizonokuchi/' },
   title: '【2026最新】ピラティス溝の口おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: '溝の口エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,溝の口,武蔵溝ノ口,高津区,川崎市,神奈川,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',

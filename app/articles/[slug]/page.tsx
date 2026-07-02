@@ -30,6 +30,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: `${article.frontmatter.title} | Pilates-Biyori`,
     description: article.frontmatter.description,
     keywords: article.frontmatter.keywords,
+    alternates: { canonical: `https://biyori-pilates.com/articles/${slug}/` },
   }
 }
 

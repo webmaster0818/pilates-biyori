@@ -10,6 +10,7 @@ import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 export const metadata = {
+  alternates: { canonical: 'https://biyori-pilates.com/area/toyama/' },
   title: '【2026最新】ピラティス富山おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: '富山エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。JR「富山駅」/ あいの風とやま鉄道「富山駅」周辺の初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,富山,富山県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
