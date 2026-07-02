@@ -1,0 +1,122 @@
+[
+  {
+    "brand": "element",
+    "text": "サービスへの満足度は5点中4〜5点が9割を獲得",
+    "attribute": "累計会員10,000名突破時の利用者調査",
+    "source_label": "PR TIMES（株式会社MIGRIDS）「パーソナルジム『ELEMENT』、サービス提供開始5年で累計会員数10,000名突破！」2025年11月25日",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000055.000053718.html",
+    "type": "survey"
+  },
+  {
+    "brand": "element",
+    "text": "ELEMENTに通い続ける理由について調査したところ、最も多かったのは「トレーナーが親身にサポートしてくれるから」",
+    "attribute": "継続理由アンケートの最多回答",
+    "source_label": "PR TIMES（株式会社MIGRIDS）「パーソナルジム『ELEMENT』、サービス提供開始5年で累計会員数10,000名突破！」2025年11月25日",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000055.000053718.html",
+    "type": "survey"
+  },
+  {
+    "brand": "urban-classic",
+    "text": "丁寧な指導のもと、毎日の食事の栄養バランスを考えて調整し、ピラティスでトレーニングを積み重ねていったところ、みるみる体脂肪が落ちていってびっくりしました",
+    "attribute": "30代男性",
+    "source_label": "URBAN CLASSIC PILATES公式サイト「お客様の声」",
+    "source_url": "https://urbanclassic.jp/voice/",
+    "type": "voice"
+  },
+  {
+    "brand": "urban-classic",
+    "text": "予約がいらず、サーキット形式で自分のタイミングで入れて、30分で完結する為、継続が苦手な私でも続けられています",
+    "attribute": "40代女性",
+    "source_label": "URBAN CLASSIC PILATES公式サイト「お客様の声」",
+    "source_url": "https://urbanclassic.jp/voice/",
+    "type": "voice"
+  },
+  {
+    "brand": "urban-classic",
+    "text": "意識しなくてもお腹の筋肉が使えるようになって、姿勢が正しくなりました。肩こりも減りました",
+    "attribute": "20代女性",
+    "source_label": "URBAN CLASSIC PILATES公式サイト「お客様の声」",
+    "source_url": "https://urbanclassic.jp/voice/",
+    "type": "voice"
+  },
+  {
+    "brand": "urban-classic",
+    "text": "セミパーソナルなので声も掛けてもらえてサボれない。励ましてくれるとテンションも上がるので楽しく運動出来ています",
+    "attribute": "20代女性",
+    "source_label": "URBAN CLASSIC PILATES公式サイト「お客様の声」",
+    "source_url": "https://urbanclassic.jp/voice/",
+    "type": "voice"
+  },
+  {
+    "brand": "brest",
+    "text": "運動が苦手でジムに通うのは初めてだったので続けられるか不安でしたが、トレーナーの皆さんはピラティス初心者の私でもわかるように動き方や姿勢、意識する筋肉をアドバイスしてくださるので、心強いですし、効果を実感しやすいです。",
+    "attribute": "40代女性",
+    "source_label": "BREST PILATES & BODYMAKE公式サイト「お客様の声」",
+    "source_url": "https://brest-gym.jp/",
+    "type": "voice"
+  },
+  {
+    "brand": "brest",
+    "text": "マシンピラティスとウェイトトレーニングを組み合わせて、トレーナーさんが目標に合わせたメニューを組んでくれるので、自分に合ったトレーニングができます！",
+    "attribute": "30代女性",
+    "source_label": "BREST PILATES & BODYMAKE公式サイト「お客様の声」",
+    "source_url": "https://brest-gym.jp/",
+    "type": "voice"
+  },
+  {
+    "brand": "lucina",
+    "text": "ルキナのスタジオに通うようになってからお肌がツルツルになりました。腰痛も改善されお腹周りがサイズダウンしました。",
+    "attribute": "T・Y様（50代）",
+    "source_label": "ホットヨガ＆コラーゲンスタジオLucina公式サイト「体験者の声」",
+    "source_url": "https://www.collagenstudio-lucina.jp/voice.html",
+    "type": "voice"
+  },
+  {
+    "brand": "lucina",
+    "text": "仕事帰りに健康とストレス解消の為、週3～4回通っています。この間の健康診断では腹囲−6cmでした。",
+    "attribute": "M・S様（40代）",
+    "source_label": "ホットヨガ＆コラーゲンスタジオLucina公式サイト「体験者の声」",
+    "source_url": "https://www.collagenstudio-lucina.jp/voice.html",
+    "type": "voice"
+  },
+  {
+    "brand": "lucina",
+    "text": "今まで1年半くらいヨガをやっています。肩こりがすっかりなくなって疲れにくくなりました。仕事をしている時も姿勢が良くなりました。",
+    "attribute": "T・T様（40代）",
+    "source_label": "ホットヨガ＆コラーゲンスタジオLucina公式サイト「体験者の声」",
+    "source_url": "https://www.collagenstudio-lucina.jp/voice.html",
+    "type": "voice"
+  },
+  {
+    "brand": "lucina",
+    "text": "ルキナに通い始めて4ヶ月になります。会う友人に『肌が綺麗になったね！』と言われることが多くなり、肌診断を受けてみると、なんとマイナス8才でした！",
+    "attribute": "K・M様（40代）",
+    "source_label": "ホットヨガ＆コラーゲンスタジオLucina公式サイト「体験者の声」",
+    "source_url": "https://www.collagenstudio-lucina.jp/voice.html",
+    "type": "voice"
+  },
+  {
+    "brand": "celestia",
+    "text": "長時間のデスクワークで慢性的な肩こりに悩んでいたのですが、ピラティスを始めて1ヶ月ほどで、明らかに姿勢が良くなり、身体が軽く感じるようになりました。",
+    "attribute": "30代・男性・会社員",
+    "source_label": "Celestia（セレスティア）公式サイト「ご利用者様のコメント」",
+    "source_url": "https://celes-pilates.jp/",
+    "type": "voice"
+  },
+  {
+    "brand": "celestia",
+    "text": "これまで運動が続いたことがなかった私でも、先生が優しくリードしてくれるので安心でした。特に腰痛や冷えが改善して、今では毎朝快調！",
+    "attribute": "30代・主婦・女性",
+    "source_label": "Celestia（セレスティア）公式サイト「ご利用者様のコメント」",
+    "source_url": "https://celes-pilates.jp/",
+    "type": "voice"
+  },
+  {
+    "brand": "celestia",
+    "text": "デスクワークで肩こりや猫背がひどく、軽い気持ちで体験に申し込みました。丁寧に指導してもらえて、通うたびに体が軽くなるのが実感できました。気づけばウエストもスッキリして、友達からも褒められるように。",
+    "attribute": "30代・会社員・女性",
+    "source_label": "Celestia（セレスティア）公式サイト「ご利用者様のコメント」",
+    "source_url": "https://celes-pilates.jp/",
+    "type": "voice"
+  }
+]

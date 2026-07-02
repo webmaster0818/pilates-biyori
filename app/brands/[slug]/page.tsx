@@ -6,6 +6,16 @@ import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import { BRANDS, getBrand } from '@/data/brands'
 import brandStores from '@/data/brands-aggregate.json'
+import brandVoices from '@/data/brand-voices.json'
+
+type Voice = {
+  brand: string
+  text: string
+  attribute: string | null
+  source_label: string
+  source_url: string
+  type: string
+}
 
 type Store = {
   name: string
@@ -232,6 +242,29 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
               ※エリア名をタップすると、そのエリアの比較ページで周辺スタジオとあわせて確認できます。
             </p>
           </section>
+
+          {/* 利用者の声（出典付き） */}
+          {(brandVoices as Voice[]).filter((v) => v.brand === brand.slug).length > 0 && (
+            <section className="mb-10">
+              <h2 className="text-xl font-light text-warm-900 border-b border-warm-200 pb-2 mb-4">{brand.name}の口コミ・利用者の声（出典付き）</h2>
+              <div className="space-y-4">
+                {(brandVoices as Voice[]).filter((v) => v.brand === brand.slug).map((v, i) => (
+                  <figure key={i} className="bg-white border border-warm-200 p-5">
+                    <blockquote className="text-sm text-warm-700 font-light leading-relaxed">「{v.text}」</blockquote>
+                    <figcaption className="mt-3 text-xs text-warm-500">
+                      {v.attribute ? `${v.attribute}｜` : ''}出典:{' '}
+                      <a href={v.source_url} target="_blank" rel="noopener noreferrer" className="underline decoration-warm-300 hover:text-warm-800">
+                        {v.source_label}
+                      </a>
+                    </figcaption>
+                  </figure>
+                ))}
+              </div>
+              <p className="text-[11px] text-warm-400 mt-3 leading-relaxed">
+                ※上記は各ブランドの公式サイト・公式発表等で公開されている利用者の声・調査結果からの引用です（原文まま・出典リンク付き）。当サイトが独自に取得した口コミではありません。感じ方には個人差があります。
+              </p>
+            </section>
+          )}
 
           {/* FAQ */}
           <section className="mb-10">

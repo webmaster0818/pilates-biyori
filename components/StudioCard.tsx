@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Image from 'next/image'
+import { brandSlugOf } from '@/lib/brandLink'
 
 type Review = {
   author: string
@@ -357,6 +358,14 @@ export function StudioCard({ studio, index }: StudioCardProps) {
             >
               公式サイトを見てみる
             </a>
+            {brandSlugOf(studio.name) && (
+              <a
+                href={`/brands/${brandSlugOf(studio.name)}/`}
+                className="inline-block ml-3 text-xs text-warm-600 underline decoration-warm-300 hover:text-warm-900 align-middle"
+              >
+                このブランドの料金・店舗一覧を見る
+              </a>
+            )}
           </div>
         </div>
       </div>

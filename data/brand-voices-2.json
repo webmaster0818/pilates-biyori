@@ -1,0 +1,74 @@
+[
+  {
+    "brand": "pilates-mee",
+    "text": "グループレッスンの時はどう動いたらいいかわからなかったんですが、正しい身体の使い方を教えてもらうことによって、一回一回の効果がすごく感じられるようになりました。",
+    "attribute": "田無店・30代女性",
+    "source_label": "Pilates Mee公式サイト「お客様の声」",
+    "source_url": "https://m-pilates.com/",
+    "type": "voice"
+  },
+  {
+    "brand": "pilates-mee",
+    "text": "3ヶ月くらい経ってから、身体のラインが綺麗になって、太りづらくなりました。洋服を着るのも楽しくなって、人生が今までよりも豊かに、楽しくなったと思っています。",
+    "attribute": "松戸店・20代女性（ボディメイク目的）",
+    "source_label": "Pilates Mee公式サイト「お客様の声」",
+    "source_url": "https://m-pilates.com/",
+    "type": "voice"
+  },
+  {
+    "brand": "pilates-mee",
+    "text": "どこのスタジオも先生がとても丁寧に教えてくださります。整体院の先生からも『巻き肩も改善されたね』って言われ、適度な疲労感で満足しています。",
+    "attribute": "西荻窪店・40代女性（姿勢改善・巻き肩改善目的）",
+    "source_label": "Pilates Mee公式サイト「お客様の声」",
+    "source_url": "https://m-pilates.com/",
+    "type": "voice"
+  },
+  {
+    "brand": "dr-pilates",
+    "text": "情報の伝達が徹底されていてどのトレーナーさんでも目的や状況をしっかり把握されているので感動。人柄も良く◎",
+    "attribute": "K.W様・40代男性（ゴルフのパフォーマンスアップ・可動域UP目的）",
+    "source_label": "Dr.ピラティス公式サイト「お客様の声」",
+    "source_url": "https://drpilates.drtraining.jp/review/%e3%81%82/",
+    "type": "voice"
+  },
+  {
+    "brand": "dr-pilates",
+    "text": "その日の体調や調子をよく気にかけて下さり、トレーニングメニューも深い知識と経験をもとに策定してくださるだけでなく、種目の取組む順序や目的を論理的に説明してくださるのでとても頼りにしております。",
+    "attribute": "F.Y様・40代男性（健康増進目的・週1ペースで1年以上継続）",
+    "source_label": "Dr.ピラティス公式サイト「お客様の声」",
+    "source_url": "https://drpilates.drtraining.jp/review/3-3/",
+    "type": "voice"
+  },
+  {
+    "brand": "kasane",
+    "text": "「指導が丁寧」「姿勢が変わった」「空間が心地よい」などSNS・口コミで支持が広がり、いま注目を集める“次世代のピラティススタジオ”として存在感を高めています。",
+    "attribute": null,
+    "source_label": "PR TIMES（株式会社ワールドフィット プレスリリース・2025年11月1日）",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000124.000081179.html",
+    "type": "media"
+  },
+  {
+    "brand": "bdc",
+    "text": "最初は“これって本当に効いてるの？”と半信半疑。でも10回ほど通った頃から、“こういうことか！”と体感できるようになって、今ではやめられません",
+    "attribute": "Narikoさん・医師",
+    "source_label": "BDC PILATES公式サイト インタビュー",
+    "source_url": "https://bdcpilates.com/interview/nariko%e3%81%95%e3%82%93%ef%bc%88%e5%8c%bb%e5%b8%ab%ef%bc%89",
+    "type": "voice"
+  },
+  {
+    "brand": "bdc",
+    "text": "マッサージに行かなくても大丈夫になったんです！自分で自分の身体を整えられる喜びを感じています。",
+    "attribute": "ヤンヒさん・会社員（2018年から週1回以上受講）",
+    "source_label": "BDC PILATES公式サイト インタビュー",
+    "source_url": "https://bdcpilates.com/interview/%e3%83%a4%e3%83%b3%e3%83%92%e3%81%95%e3%82%93",
+    "type": "voice"
+  },
+  {
+    "brand": "bdc",
+    "text": "ピラティスを始めてからは全く通わなくて良くなって、今は肩こりを感じないですし、ずっと座っていても腰が痛くなることがなくなった",
+    "attribute": "ありささん・会社員（受講100回達成）",
+    "source_label": "BDC PILATES公式サイト インタビュー",
+    "source_url": "https://bdcpilates.com/interview/%e3%81%82%e3%82%8a%e3%81%95%e3%81%95%e3%82%93",
+    "type": "voice"
+  }
+]

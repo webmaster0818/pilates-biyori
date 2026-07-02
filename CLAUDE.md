@@ -145,3 +145,12 @@ GSC診断(28d 6/3-7/1): クリック90(前月比+88%)・表示14,104(2.8倍)・�
 - **③内部リンク集中**: HomeClient.tsxのエリアガイド先頭に「注目エリア」ブロック=機会上位10(浜松町・大門/秋葉原/北浜・淀屋橋/御茶ノ水/王子/和泉中央/新大阪/八事/代々木上原/新大久保)へ強調チップリンク
 - **④アフィリ差し替え**: data/area-studios.tsの素URL13件をfelmatへ(URBAN CLASSIC11件=Z11337L共通/ELEMENT2件=U11199J共通)。AI相談ツールはofficialUrl参照なので自動反映。the SILK/pilates K等は非提携のため公式URLのまま(正しい)
 - デプロイ方式B(--exclude .git/functions厳守・contact.js保全確認)・両repo push・本番curl確認(canonical/7月title/注目エリア)・**Indexing API 30/30**(機会29+ホーム)。効果測定は1-2週GSC(スラッシュ重複31組の解消・CTR・注目エリア10の順位)
+
+### 2026-07-02 P1実行（MediaXAI「p1進めて」）＝ブランド評判レイヤー /brands/ 新設
+- **データ基盤**: `scripts/aggregate-brands-202607.py`＝系統A(インラインstudios)+系統B(area-studios.ts)から**15ブランド714店舗**をブランド別集計→`data/brands-aggregate.json`(name/price/trial/rating/officialUrl/areaSlug/areaName)。kasaneはpilates-K誤爆防止で先判定。price/trial取得率100%
+- **編集データ**: `data/brands.ts`＝15ブランドの特徴/料金注記/体験注記/FAQ/CTA。**レギュレーション準拠**(SILK=情報引用元リンク+第三者言い回し/24-7=マット言及なし・料金〜・体験無料約60分・入会金不要/Mee=通常9,800円毎月先着30名限定・Mee Life別業態・RiAGEL/zen place=エデュケーター等の語彙・小文字)。KASANE/BDCは公式ドメイン未確認のためCTA無し(捏造回避)
+- **ページ**: `app/brands/[slug]/page.tsx`(generateStaticParams15＋動的canonical)＝結論ボックス(掲載店舗数/代表プラン/無料体験店舗数/平均評価※rating n≥5のみ表示・出典注記)+特徴+料金表(掲載データの頻度集計)+体験+店舗一覧表(**全店舗→エリアページへ内部リンク**=zen place160本等)+FAQ(FAQPage schema)+BreadcrumbList+他ブランド相互リンク。`app/brands/page.tsx`=ハブ。titleは評価データ十分なブランドのみ「評判」使用(useHyoban)
+- **導線**: Navigation(PC+モバイル)に「Brands」・SiteFooterに「ブランド別ガイド」追加。sitemap生成器にlistBrands()追加=463URL(+16)
+- 提携CTA=felmat/hatmiso(rel sponsored+PR表記)、非提携=公式サイト(rel noopener)。BREST=店舗別リンクのためブランドCTA無し
+- ビルド469p・方式Bデプロイ・両push・本番200確認・Indexing API 16/16+sitemap再送信
+- **v2候補(未着手)**: 出典付き口コミ収集(取材/公開レビュー引用)・エリアページ→ブランドページの逆リンク・ブランド×エリアクエリ(「BDC 二子玉川」等)の個別受け皿
