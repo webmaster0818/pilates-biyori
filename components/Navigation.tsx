@@ -47,6 +47,7 @@ export function Navigation() {
               <a href="/#articles" className="nav-link text-warm-500 hover:text-warm-800 text-xs font-medium uppercase tracking-[0.15em]">Articles</a>
               <a href="/#categories" className="nav-link text-warm-500 hover:text-warm-800 text-xs font-medium uppercase tracking-[0.15em]">Categories</a>
               <a href="/#studios" className="nav-link text-warm-500 hover:text-warm-800 text-xs font-medium uppercase tracking-[0.15em]">Studios</a>
+              <a href="/brands/" className="nav-link text-warm-500 hover:text-warm-800 text-xs font-medium uppercase tracking-[0.15em]">Brands</a>
               <a href="/#faq" className="nav-link text-warm-500 hover:text-warm-800 text-xs font-medium uppercase tracking-[0.15em]">FAQ</a>
               <a href="/#about" className="nav-link text-warm-500 hover:text-warm-800 text-xs font-medium uppercase tracking-[0.15em]">About</a>
               <a href="/ai-soudan/" className="border border-warm-800 bg-warm-800 text-white px-6 py-2.5 text-xs font-medium uppercase tracking-[0.15em] hover:bg-warm-900 transition-all">AIスタジオ相談</a>
@@ -75,6 +76,7 @@ export function Navigation() {
             <a href="/#articles" className="text-warm-600 text-sm tracking-[0.2em] uppercase hover:text-warm-900 transition" onClick={toggleMenu}>Articles</a>
             <a href="/#categories" className="text-warm-600 text-sm tracking-[0.2em] uppercase hover:text-warm-900 transition" onClick={toggleMenu}>Categories</a>
             <a href="/#studios" className="text-warm-600 text-sm tracking-[0.2em] uppercase hover:text-warm-900 transition" onClick={toggleMenu}>Studios</a>
+            <a href="/brands/" className="text-warm-600 text-sm tracking-[0.2em] uppercase hover:text-warm-900 transition" onClick={toggleMenu}>Brands</a>
             <a href="/#faq" className="text-warm-600 text-sm tracking-[0.2em] uppercase hover:text-warm-900 transition" onClick={toggleMenu}>FAQ</a>
             <a href="/#about" className="text-warm-600 text-sm tracking-[0.2em] uppercase hover:text-warm-900 transition" onClick={toggleMenu}>About</a>
             <a href="/ai-soudan/" className="text-warm-900 text-sm tracking-[0.2em] uppercase font-medium hover:text-warm-600 transition" onClick={toggleMenu}>AIスタジオ相談</a>

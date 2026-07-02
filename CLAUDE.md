@@ -138,3 +138,10 @@ GSC診断(28d 6/3-7/1): クリック90(前月比+88%)・表示14,104(2.8倍)・�
 - 技術: **canonicalタグが全ページ無し**(継承バグ修正時に根こそぎ削除された模様)＋GSC上slash重複31組(308リダイレクトはあり)
 
 **戦略4本柱(Discord報告済)**: P0=canonical自己参照+機会29ページtitle/CTR改修+内部リンク集中+AI相談アフィリ差替(今週) / P1=ブランド評判レイヤー/brands/12-15社・出典付き口コミ(2-3週・最大上振れ・yoga-db方式) / P2=料金白書で監修者獲得・被リンク営業(並行・費用ゼロ) / P3=エリア面拡大は凍結→押し上げ専念。KPI=8月末300クリック/10月末1,000。
+
+### 2026-07-02 P0実行（MediaXAI「P0進めて」）
+- **①canonical全ページ**: `scripts/add-canonical-202607.py`(冪等)で378ページに`alternates:{canonical}`挿入＋articles/[slug]のgenerateMetadataに動的canonical＋**app/page.tsxは'use client'のためHomeClient.tsx分離でサーバー化**してcanonical付与。ビルド後out/ 448HTML全てにcanonical確認。layoutにmetadataBase既存(相対でも解決可だが絶対URLで統一)
+- **②CTR改修**: `scripts/p0-title-ctr-202607.py`＝機会29ページをtitle「{エリア}のピラティススタジオおすすめN選｜無料体験・料金で比較【2026年7月】」(N=既存「おすすめN選」見出しから抽出=捏造なし)＋description意図刷新。複合エリア名は手動修正(hamamatsucho=浜松町・大門/izumi=和泉中央・和泉市)。他219ページは【2026年6月】→7月バンプのみ
+- **③内部リンク集中**: HomeClient.tsxのエリアガイド先頭に「注目エリア」ブロック=機会上位10(浜松町・大門/秋葉原/北浜・淀屋橋/御茶ノ水/王子/和泉中央/新大阪/八事/代々木上原/新大久保)へ強調チップリンク
+- **④アフィリ差し替え**: data/area-studios.tsの素URL13件をfelmatへ(URBAN CLASSIC11件=Z11337L共通/ELEMENT2件=U11199J共通)。AI相談ツールはofficialUrl参照なので自動反映。the SILK/pilates K等は非提携のため公式URLのまま(正しい)
+- デプロイ方式B(--exclude .git/functions厳守・contact.js保全確認)・両repo push・本番curl確認(canonical/7月title/注目エリア)・**Indexing API 30/30**(機会29+ホーム)。効果測定は1-2週GSC(スラッシュ重複31組の解消・CTR・注目エリア10の順位)

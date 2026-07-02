@@ -18,6 +18,7 @@ export function SiteFooter() {
               <li><a href="/#categories" className="text-warm-500 hover:text-white transition font-light">効果・メリット</a></li>
               <li><a href="/#categories" className="text-warm-500 hover:text-white transition font-light">スタジオ選び</a></li>
               <li><a href="/#categories" className="text-warm-500 hover:text-white transition font-light">地域別</a></li>
+              <li><Link href="/brands/" className="text-warm-500 hover:text-white transition font-light">ブランド別ガイド</Link></li>
             </ul>
           </div>
           <div>

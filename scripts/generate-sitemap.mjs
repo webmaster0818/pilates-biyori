@@ -103,6 +103,11 @@ function listArticles() {
     .map((f) => f.replace(/\.(md|mdx)$/, ''))
 }
 
+function listBrands() {
+  const src = fs.readFileSync(path.join(ROOT, 'data', 'brands.ts'), 'utf-8')
+  return [...src.matchAll(/^    slug: '([a-z0-9-]+)',$/gm)].map((m) => m[1])
+}
+
 function tierForArea(slug) {
   if (TIER1_CITIES.has(slug)) return { priority: '0.9', changefreq: 'weekly', lastmod: LASTMOD.t1 }
   if (TIER2_AREAS.has(slug)) return { priority: '0.7', changefreq: 'weekly', lastmod: LASTMOD.t2 }
@@ -134,6 +139,12 @@ function build() {
   const articles = listArticles().sort()
   for (const slug of articles) {
     lines.push(urlEntry(`/articles/${slug}/`, LASTMOD.article, 'weekly', '0.7'))
+  }
+
+  // Brands (data/brands.ts と同期)
+  lines.push(urlEntry('/brands/', TODAY, 'weekly', '0.7'))
+  for (const slug of listBrands()) {
+    lines.push(urlEntry(`/brands/${slug}/`, TODAY, 'weekly', '0.7'))
   }
 
   lines.push('</urlset>', '')
