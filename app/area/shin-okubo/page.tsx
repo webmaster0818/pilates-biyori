@@ -10,6 +10,7 @@ import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { AreaConclusion } from '@/components/AreaConclusion'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
+import ConsultantSection from '@/components/ConsultantSection'
 
 
 
@@ -967,6 +968,9 @@ export default function ShinOkuboAreaPage() {
           </div>
         </section>
       </main>
+
+      {/* AIスタジオ相談（遅延ロード・エリア自動セット） */}
+      <ConsultantSection areaKey="shin-okubo" areaName="新大久保・新宿" />
 
       <RelatedAreas currentSlug="shin-okubo" />
       <SiteFooter />

@@ -9,6 +9,7 @@ import { PriceComparisonTable } from '@/components/PriceComparisonTable'
 import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
+import ConsultantSection from '@/components/ConsultantSection'
 
 
 
@@ -596,6 +597,9 @@ export default function RoppongiPage() {
         <section className="py-16 bg-white"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2><p className="text-warm-600 leading-relaxed mb-6">今回は六本木のおすすめピラティススタジオ12選をご紹介しました。</p><p className="text-warm-600 leading-relaxed mb-6">六本木は東京メトロ日比谷線・都営大江戸線が利用でき、六本木ヒルズや東京ミッドタウンに近い港区の国際色豊かなエリア。zen place pilates 六本木のようなグループ対応の大手スタジオから、STUDIO IVY・All Present Pilates・スタジオMiiA・BLC Personal Gymのパーソナル専門スタジオ、ELEMENT六本木の効率的な30分マンツーマン、ダンサー御用達のBDC PILATES、女性専用のピラティスK・Rintosull・ピラティスミラー、さらにホットヨガとの両立ができるCALDOまで多彩な選択肢があります。</p><p className="text-warm-600 leading-relaxed mb-6">ぜひ自分に合うピラティススタジオを見つけてくださいね。</p><p className="text-warm-700 font-medium text-center">あなたにぴったりのスタジオが見つかることを願っています。</p></div></section>
         <section className="py-16 bg-warm-800 text-white" id="contact"><div className="max-w-4xl mx-auto px-6 lg:px-8 text-center"><h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2><p className="text-warm-200 mb-8 leading-relaxed">各スタジオで体験レッスン実施中。<br />まずは気軽に体験してみましょう。</p><Link href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded">おすすめスタジオ一覧に戻る</Link></div></section>
       </main>
+      {/* AIスタジオ相談（遅延ロード・エリア自動セット） */}
+      <ConsultantSection areaKey="roppongi" areaName="六本木" />
+
       <RelatedAreas currentSlug="roppongi" />
       <SiteFooter />
       <Script src="https://unpkg.com/lucide@latest" strategy="lazyOnload" />

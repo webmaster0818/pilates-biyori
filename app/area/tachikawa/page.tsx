@@ -8,6 +8,7 @@ import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
+import ConsultantSection from '@/components/ConsultantSection'
 
 
 
@@ -719,6 +720,9 @@ export default function TachikawaPage() {
           </div>
         </section>
       </main>
+
+      {/* AIスタジオ相談（遅延ロード・エリア自動セット） */}
+      <ConsultantSection areaKey="tachikawa" areaName="立川" />
 
       <RelatedAreas currentSlug="tachikawa" />
       <SiteFooter />

@@ -9,6 +9,7 @@ import { PriceComparisonTable } from '@/components/PriceComparisonTable'
 import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
+import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/ibaraki/' },
@@ -341,6 +342,9 @@ export default function IbarakiPage() {
           </div>
         </section>
       </main>
+      {/* AIスタジオ相談（遅延ロード・エリア自動セット） */}
+      <ConsultantSection areaKey="ibaraki" areaName="茨木" />
+
       <RelatedAreas currentSlug="ibaraki" />
       <SiteFooter />
       <Script src="https://unpkg.com/lucide@latest" strategy="lazyOnload" />

@@ -8,6 +8,7 @@ import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
+import ConsultantSection from '@/components/ConsultantSection'
 
 
 
@@ -850,6 +851,9 @@ export default function NagoyaAreaPage() {
           </div>
         </section>
 
+
+      {/* AIスタジオ相談（遅延ロード・エリア自動セット） */}
+      <ConsultantSection areaKey="nagoya" areaName="名古屋" />
 
       <RelatedAreas currentSlug="nagoya" />
       <SiteFooter />

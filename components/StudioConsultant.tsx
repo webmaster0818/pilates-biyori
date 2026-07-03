@@ -9,6 +9,7 @@ import {
   recommend,
   nearestArea,
   sortAreasByDistance,
+  areaInfo,
   GOALS,
   JP_CODE_PREF,
   type Answers,
@@ -76,18 +77,27 @@ function Typed({ text, onTick }: { text: string; onTick?: () => void }) {
   return <>{text.slice(0, n)}</>
 }
 
-export default function StudioConsultant() {
-  const [step, setStep] = useState<Step>('region')
+export default function StudioConsultant({ initialAreaKey }: { initialAreaKey?: string }) {
+  // エリアページ埋め込み時はそのエリアを自動セットし、「目的」の質問から開始する
+  const init = initialAreaKey ? areaInfo(initialAreaKey) : null
+  const [step, setStep] = useState<Step>(init ? 'goals' : 'region')
   const [log, setLog] = useState<Bubble[]>([
-    {
-      who: 'ai',
-      text: 'こんにちは！ピラティススタジオ選びをお手伝いします。いくつか質問するだけで、あなたに合いそうなスタジオをご提案します。まず、お探しのエリアはどの地方ですか？',
-    },
+    init
+      ? {
+          who: 'ai',
+          text: `こんにちは！${init.name}エリアのスタジオ選びをお手伝いします。ピラティスで特に叶えたいことはありますか？（複数選べます。なければ「特にこだわらない」へ）`,
+        }
+      : {
+          who: 'ai',
+          text: 'こんにちは！ピラティススタジオ選びをお手伝いします。いくつか質問するだけで、あなたに合いそうなスタジオをご提案します。まず、お探しのエリアはどの地方ですか？',
+        },
   ])
-  const [region, setRegion] = useState<string | null>(null)
-  const [prefecture, setPrefecture] = useState<string | null>(null)
-  const [areaName, setAreaName] = useState<string>('')
-  const [ans, setAns] = useState<Partial<Answers>>({ goals: [] })
+  const [region, setRegion] = useState<string | null>(init?.region ?? null)
+  const [prefecture, setPrefecture] = useState<string | null>(init?.prefecture ?? null)
+  const [areaName, setAreaName] = useState<string>(init?.name ?? '')
+  const [ans, setAns] = useState<Partial<Answers>>(
+    init && initialAreaKey ? { goals: [], areaKey: initialAreaKey } : { goals: [] }
+  )
   const [results, setResults] = useState<Scored[] | null>(null)
   const [geo, setGeo] = useState<{ region: string; prefecture: string } | null>(null)
   const [coords, setCoords] = useState<{ lat: number; lon: number } | null>(null)
@@ -219,6 +229,14 @@ export default function StudioConsultant() {
     })
     setStep('goals')
   }
+  // エリア自動セットで開始した場合に、別のエリアへ切り替えたいとき用
+  function changeArea() {
+    pushHistory()
+    say({ who: 'user', text: '別のエリアで探したい' })
+    say({ who: 'ai', text: 'かしこまりました。お探しのエリアはどの地方ですか？' })
+    setAns((a) => ({ ...a, areaKey: undefined }))
+    setStep('region')
+  }
   function toggleGoal(id: string) {
     setAns((a) => {
       const g = a.goals || []
@@ -349,6 +367,14 @@ export default function StudioConsultant() {
                 </button>
               ))}
 
+            {step === 'goals' && init && history.length === 0 && (
+              <button
+                className="mb-2 w-full text-left text-xs text-warm-500 underline hover:text-warm-800"
+                onClick={changeArea}
+              >
+                {areaName}以外のエリアで探す
+              </button>
+            )}
             {step === 'goals' && (
               <div className="w-full">
                 <div className="flex flex-wrap gap-2">

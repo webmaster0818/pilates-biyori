@@ -141,6 +141,11 @@ prefectures.forEach((p) =>
   p.areas.forEach((a) => AREA_INFO.set(a.key, { name: a.name, prefecture: p.prefecture, region: p.region }))
 )
 
+// エリアスラッグ→表示名/都道府県/地方。埋め込みウィジェットの「エリア自動セット」に使う。
+export function areaInfo(key: string): { name: string; prefecture: string; region: string } | null {
+  return AREA_INFO.get(key) ?? null
+}
+
 function haversineKm(lat1: number, lon1: number, lat2: number, lon2: number): number {
   const R = 6371
   const dLat = ((lat2 - lat1) * Math.PI) / 180

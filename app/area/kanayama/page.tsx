@@ -8,6 +8,7 @@ import { PriceComparisonTable } from '@/components/PriceComparisonTable'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import Script from 'next/script'
+import ConsultantSection from '@/components/ConsultantSection'
 
 
 
@@ -675,6 +676,9 @@ export default function KanayamaPage() {
           </div>
         </section>
 
+
+      {/* AIスタジオ相談（遅延ロード・エリア自動セット） */}
+      <ConsultantSection areaKey="kanayama" areaName="金山" />
 
       <RelatedAreas currentSlug="kanayama" />
       <SiteFooter />

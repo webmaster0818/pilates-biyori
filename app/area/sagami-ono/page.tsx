@@ -9,6 +9,7 @@ import { PriceComparisonTable } from '@/components/PriceComparisonTable'
 import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
+import ConsultantSection from '@/components/ConsultantSection'
 
 
 
@@ -811,6 +812,9 @@ export default function SagamiOnoPage() {
           </div>
         </section>
 
+
+      {/* AIスタジオ相談（遅延ロード・エリア自動セット） */}
+      <ConsultantSection areaKey="sagami-ono" areaName="相模大野" />
 
       <RelatedAreas currentSlug="sagami-ono" />
       <SiteFooter />

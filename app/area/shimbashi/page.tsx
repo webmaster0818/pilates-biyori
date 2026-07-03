@@ -9,6 +9,7 @@ import { PriceComparisonTable } from '@/components/PriceComparisonTable'
 import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
+import ConsultantSection from '@/components/ConsultantSection'
 
 
 
@@ -986,6 +987,9 @@ export default function ShimbashiPage() {
           </div>
         </section>
       </main>
+
+      {/* AIスタジオ相談（遅延ロード・エリア自動セット） */}
+      <ConsultantSection areaKey="shimbashi" areaName="新橋" />
 
       <RelatedAreas currentSlug="shimbashi" />
       <SiteFooter />

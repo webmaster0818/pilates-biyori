@@ -4,6 +4,7 @@ import { useEffect } from 'react'
 import Link from 'next/link'
 import Script from "next/script"
 import { AreaSearch } from "@/components/AreaSearch"
+import ConsultantSection from "@/components/ConsultantSection"
 
 export function HomeClient() {
   useEffect(() => {
@@ -168,6 +169,9 @@ export function HomeClient() {
 
         {/* Area Search */}
         <AreaSearch />
+
+        {/* AIスタジオ相談（遅延ロード埋め込み） */}
+        <ConsultantSection />
 
         {/* Featured Articles */}
         <section className="py-20 md:py-28 bg-warm-50" id="articles">

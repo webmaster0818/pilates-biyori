@@ -10,6 +10,7 @@ import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { AreaConclusion } from '@/components/AreaConclusion'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
+import ConsultantSection from '@/components/ConsultantSection'
 
 
 
@@ -902,6 +903,9 @@ export default function AkihabaraPage() {
           </div>
         </section>
 
+
+      {/* AIスタジオ相談（遅延ロード・エリア自動セット） */}
+      <ConsultantSection areaKey="akihabara" areaName="秋葉原" />
 
       <RelatedAreas currentSlug="akihabara" />
       <SiteFooter />

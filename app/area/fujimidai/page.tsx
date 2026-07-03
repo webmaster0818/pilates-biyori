@@ -9,6 +9,7 @@ import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import { areaStudios } from '@/data/area-studios'
+import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/fujimidai/' },
@@ -306,6 +307,9 @@ export default function Page() {
           </div>
         </section>
       </main>
+
+      {/* AIスタジオ相談（遅延ロード・エリア自動セット） */}
+      <ConsultantSection areaKey="fujimidai" areaName="富士見台" />
 
       <RelatedAreas currentSlug="fujimidai" />
       <SiteFooter />

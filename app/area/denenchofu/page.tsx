@@ -8,6 +8,7 @@ import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
+import ConsultantSection from '@/components/ConsultantSection'
 
 
 
@@ -580,6 +581,9 @@ export default function DenenchofuPage() {
           </div>
         </section>
       </main>
+
+      {/* AIスタジオ相談（遅延ロード・エリア自動セット） */}
+      <ConsultantSection areaKey="denenchofu" areaName="田園調布" />
 
       <RelatedAreas currentSlug="denenchofu" />
       <SiteFooter />

@@ -10,6 +10,7 @@ import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { AreaConclusion } from '@/components/AreaConclusion'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
+import ConsultantSection from '@/components/ConsultantSection'
 
 
 
@@ -789,6 +790,9 @@ export default function KyotoShiyakushoMaePage() {
           </div>
         </section>
 
+
+      {/* AIスタジオ相談（遅延ロード・エリア自動セット） */}
+      <ConsultantSection areaKey="kyoto-shiyakusho-mae" areaName="京都市役所前" />
 
       <RelatedAreas currentSlug="kyoto-shiyakusho-mae" />
       <SiteFooter />

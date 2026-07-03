@@ -10,6 +10,7 @@ import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { AreaConclusion } from '@/components/AreaConclusion'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
+import ConsultantSection from '@/components/ConsultantSection'
 
 
 
@@ -1091,6 +1092,9 @@ export default function KoenjiPage() {
             </div>
           </div>
         </section>
+
+      {/* AIスタジオ相談（遅延ロード・エリア自動セット） */}
+      <ConsultantSection areaKey="koenji" areaName="高円寺" />
 
       <RelatedAreas currentSlug="koenji" />
       <SiteFooter />

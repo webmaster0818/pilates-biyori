@@ -9,6 +9,7 @@ import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import { areaStudios } from '@/data/area-studios'
+import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/omachi-nishi-koen/' },
@@ -306,6 +307,9 @@ export default function Page() {
           </div>
         </section>
       </main>
+
+      {/* AIスタジオ相談（遅延ロード・エリア自動セット） */}
+      <ConsultantSection areaKey="omachi-nishi-koen" areaName="大町西公園" />
 
       <RelatedAreas currentSlug="omachi-nishi-koen" />
       <SiteFooter />

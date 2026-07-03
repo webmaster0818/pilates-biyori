@@ -7,6 +7,7 @@ import { Navigation } from '@/components/Navigation'
 import { SiteFooter } from '@/components/SiteFooter'
 import { articleComponents } from '@/components/articles/ArticleFigures'
 import ArticleScrollReveal from '@/components/articles/ArticleScrollReveal'
+import ConsultantSection from '@/components/ConsultantSection'
 import Script from 'next/script'
 
 export async function generateStaticParams() {
@@ -193,6 +194,9 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
                 おすすめスタジオを見る
               </a>
             </div>
+
+            {/* AIスタジオ相談（遅延ロード埋め込み） */}
+            <ConsultantSection bare />
 
             {/* 関連記事 */}
             {frontmatter.relatedArticles && frontmatter.relatedArticles.length > 0 && (

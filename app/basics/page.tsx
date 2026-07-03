@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { getAllArticles } from '@/lib/mdx'
 import { Navigation } from '@/components/Navigation'
 import { SiteFooter } from '@/components/SiteFooter'
+import ConsultantSection from '@/components/ConsultantSection'
 import Script from 'next/script'
 
 export const metadata = {
@@ -118,6 +119,9 @@ export default function BasicsPage() {
             </Link>
           </div>
         </section>
+
+        {/* AIスタジオ相談（遅延ロード埋め込み） */}
+        <ConsultantSection />
       </main>
 
       <SiteFooter />
