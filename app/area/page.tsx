@@ -232,7 +232,7 @@ export default function AreaPage() {
                     <div key={area.slug}>
                       {area.available ? (
                         <Link
-                          href={`/area/${area.slug}`}
+                          href={`/area/${area.slug}/`}
                           className="block border border-warm-200 p-4 text-center hover:border-warm-400 transition-colors card-hover bg-warm-50"
                         >
                           <span className="text-sm font-medium text-warm-800 hover:text-warm-600 transition-colors">
@@ -266,7 +266,7 @@ export default function AreaPage() {
               現在は、全国共通のスタジオ選び情報をご覧ください。
             </p>
             <Link 
-              href="/studios" 
+              href="/studios/" 
               className="inline-block bg-warm-800 text-white px-10 py-4 text-xs font-medium uppercase tracking-[0.15em] hover:bg-warm-900 transition-all"
             >
               スタジオ選びガイドを見る

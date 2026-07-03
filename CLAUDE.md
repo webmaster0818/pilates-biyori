@@ -155,8 +155,12 @@ GSC診断(28d 6/3-7/1): クリック90(前月比+88%)・表示14,104(2.8倍)・�
 - ビルド469p・方式Bデプロイ・両push・本番200確認・Indexing API 16/16+sitemap再送信
 - **v2候補(未着手)**: 出典付き口コミ収集(取材/公開レビュー引用)・エリアページ→ブランドページの逆リンク・ブランド×エリアクエリ(「BDC 二子玉川」等)の個別受け皿
 
-### 2026-07-03 AI相談ウィジェット全ページ搭載の依頼（MediaXAI・回答済み/指示待ち）
-「/ai-soudan/ をリンク誘導でなくTOP・エリア全ページ・know系ページに搭載できる？」→**可能と回答**。注意点=ai-soudanチャンクは211店舗データ込み388KB→直埋めは全ページCWV悪化。**遅延ロード必須**(軽いパネル/ボタン→タップ時にdynamic import)。提案=A案:ページ内セクション埋め込み(エリアページはareaを自動セットして目的から開始・推奨)/B案:全ページ右下フローティング(layout1ファイル)。A+B併用可。**MediaXAIの方式選択待ち**。
+### 2026-07-03 AI相談ウィジェット全ページ搭載（MediaXAI「Aで進めて」→✅完了・本番反映済み）
+「/ai-soudan/ をリンク誘導でなくTOP・エリア全ページ・know系ページに搭載」。A案=ページ内セクション埋め込みで実装:
+- **`components/ConsultantSection.tsx`新設**='use client'。誘導パネル(見出し/コピー/「無料診断を始める」ボタン/広告開示)＋**next/dynamicでStudioConsultant(384KBチャンク)をタップ時のみ読込**=設置ページのCWV影響ゼロ(本体チャンクがページHTMLから未参照を確認)。`bare` propで記事本文内はsectionラッパー無し
+- **エリア自動セット**: StudioConsultantに`initialAreaKey` prop追加(lib/consult.tsに`areaInfo(key)`export)。エリアページは「{エリア}で無料診断を始める」→エリア選択スキップでgoalsから開始＋「{エリア}以外のエリアで探す」で通常フロー切替
+- 設置: TOP=HomeClientのAreaSearch直下 / エリア370ページ=`scripts/add-consultant-section-202607.py`(冪等・`<RelatedAreas`直前・areaName抽出+prefectureAreasフォールバック) / 記事=articles/[slug]テンプレのCTA後(bare) / basics=末尾
+- 方式Bデプロイ・両repo push・本番4ページタイプ確認・/api/contact POST=400(正常)確認。B案(フローティング)は不採用(ヘッダーCTAと重複のため)・必要になれば後付け可
 
 ### 2026-07-02 ブランドレイヤーv2（MediaXAI「v2進めて」）
 - **①出典付き口コミ42件**: エージェント3体で各ブランド**公式サイトの声/公式PR/公式インタビュー**から原文引用収集(`data/brand-voices-{1,2,3}.json`→`brand-voices.json`統合)。**Googleマップレビューは規約リスクで不使用**。24/7=公式に声なし→正直に0件(非表示)。the SILK=声ページなし→NEXER共同調査等survey型で代替。ブランドページに「口コミ・利用者の声(出典付き)」セクション(blockquote+属性+出典リンク+「公式公開情報からの引用」注記)

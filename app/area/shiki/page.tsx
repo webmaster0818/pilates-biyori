@@ -372,7 +372,7 @@ export default function ShikiPage() {
             <nav className="text-sm text-warm-400">
               <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
               {' > '}
-              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              <Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>
               {' > '}
               <span className="text-warm-600">志木</span>
             </nav>
@@ -484,7 +484,7 @@ export default function ShikiPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              志木エリアは東武東上線沿線の中でもリーズナブルなスタジオが多く、URBAN CLASSIC PILATESは月4回7,800円〜と非常にコスパが高いエリアです。都心のスタジオと比較して3〜5割安い料金設定のスタジオもあり、初めてピラティスを始める方にとって敷居が低い点が魅力。近隣の<Link href="/area/urawa" className="text-warm-700 underline hover:text-warm-900">浦和</Link>や<Link href="/area/ikebukuro" className="text-warm-700 underline hover:text-warm-900">池袋</Link>エリアのスタジオとも比較検討してみましょう。
+              志木エリアは東武東上線沿線の中でもリーズナブルなスタジオが多く、URBAN CLASSIC PILATESは月4回7,800円〜と非常にコスパが高いエリアです。都心のスタジオと比較して3〜5割安い料金設定のスタジオもあり、初めてピラティスを始める方にとって敷居が低い点が魅力。近隣の<Link href="/area/urawa/" className="text-warm-700 underline hover:text-warm-900">浦和</Link>や<Link href="/area/ikebukuro/" className="text-warm-700 underline hover:text-warm-900">池袋</Link>エリアのスタジオとも比較検討してみましょう。
             </p>
           </div>
         </section>
@@ -517,7 +517,7 @@ export default function ShikiPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">朝霞台・朝霞エリアも視野に入れよう</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  志木駅の隣にある<Link href="/area/asaka" className="text-warm-700 underline hover:text-warm-900">朝霞台・朝霞</Link>エリアにもピラティススタジオがあります。東武東上線で1駅なので、通勤経路やライフスタイルに合わせて両エリアを比較検討すると、選択肢が広がります。
+                  志木駅の隣にある<Link href="/area/asaka/" className="text-warm-700 underline hover:text-warm-900">朝霞台・朝霞</Link>エリアにもピラティススタジオがあります。東武東上線で1駅なので、通勤経路やライフスタイルに合わせて両エリアを比較検討すると、選択肢が広がります。
                 </p>
               </div>
             </div>

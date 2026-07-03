@@ -50,7 +50,7 @@ export function ArticlesSection() {
                   const gradient = categoryGradients[category] || 'from-gray-200 to-gray-100'
                   
                   return (
-                    <Link key={slug} href={`/articles/${slug}`} className="group fade-up">
+                    <Link key={slug} href={`/articles/${slug}/`} className="group fade-up">
                       <div className="card-hover bg-white overflow-hidden border border-warm-100">
                         <div className={`aspect-[4/3] overflow-hidden bg-gradient-to-br ${gradient}`}></div>
                         <div className="p-6">

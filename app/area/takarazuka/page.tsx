@@ -412,7 +412,7 @@ export default function TakarazukaPage() {
             <nav className="text-sm text-warm-400">
               <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
               {' > '}
-              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              <Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>
               {' > '}
               <span className="text-warm-600">宝塚</span>
             </nav>
@@ -597,7 +597,7 @@ export default function TakarazukaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも視野に入れて選択肢を広げよう</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  宝塚エリアだけでなく、近隣の<Link href="/area/nishinomiya" className="text-warm-700 underline hover:text-warm-900">西宮</Link>、<Link href="/area/sannomiya" className="text-warm-700 underline hover:text-warm-900">三宮</Link>、<Link href="/area/umeda" className="text-warm-700 underline hover:text-warm-900">梅田</Link>エリアにも多数のスタジオがあります。阪急宝塚線を利用すれば梅田まで約30分。通勤・通学ルート上のスタジオも検討すると、選択肢が大きく広がります。
+                  宝塚エリアだけでなく、近隣の<Link href="/area/nishinomiya/" className="text-warm-700 underline hover:text-warm-900">西宮</Link>、<Link href="/area/sannomiya/" className="text-warm-700 underline hover:text-warm-900">三宮</Link>、<Link href="/area/umeda/" className="text-warm-700 underline hover:text-warm-900">梅田</Link>エリアにも多数のスタジオがあります。阪急宝塚線を利用すれば梅田まで約30分。通勤・通学ルート上のスタジオも検討すると、選択肢が大きく広がります。
                 </p>
               </div>
             </div>

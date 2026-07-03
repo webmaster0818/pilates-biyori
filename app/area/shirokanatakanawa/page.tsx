@@ -247,7 +247,7 @@ export default function ShirokanatakanwaPage() {
       ]} />
       <main className="pt-20 bg-white">
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年04月17日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス白金高輪おすすめ12選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1></div></section>
-        <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">白金高輪</span></nav></div></section>
+        <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">白金高輪</span></nav></div></section>
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p><p className="text-warm-600 leading-relaxed mb-6">Pilates-Biyori編集部です！</p><p className="text-warm-600 leading-relaxed mb-6">あなたは、</p><p className="text-warm-600 leading-relaxed font-medium mb-6">「白金高輪でピラティスを始めたい」</p><p className="text-warm-600 leading-relaxed mb-6">「閑静な住宅街の落ち着いたスタジオに通いたい」</p><p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p><p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、白金高輪エリアでおすすめのピラティススタジオ12選をまとめました。白金台・高輪・麻布十番など近隣エリアのスタジオも含めてご紹介します。</p>
@@ -326,7 +326,7 @@ export default function ShirokanatakanwaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  白金高輪エリアだけでなく、近隣の<Link href="/area/azabujuban" className="text-warm-700 underline hover:text-warm-900">麻布十番</Link>、<Link href="/area/shirokanedai" className="text-warm-700 underline hover:text-warm-900">白金台</Link>、<Link href="/area/mita" className="text-warm-700 underline hover:text-warm-900">三田</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  白金高輪エリアだけでなく、近隣の<Link href="/area/azabujuban/" className="text-warm-700 underline hover:text-warm-900">麻布十番</Link>、<Link href="/area/shirokanedai/" className="text-warm-700 underline hover:text-warm-900">白金台</Link>、<Link href="/area/mita/" className="text-warm-700 underline hover:text-warm-900">三田</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
                 </p>
               </div>
             </div>

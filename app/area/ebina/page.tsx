@@ -362,7 +362,7 @@ export default function EbinaPage() {
             <nav className="text-sm text-warm-400">
               <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
               {' > '}
-              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              <Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>
               {' > '}
               <span className="text-warm-600">海老名</span>
             </nav>
@@ -441,7 +441,7 @@ export default function EbinaPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              海老名エリアは小田急線・相鉄線・JR相模線の3路線が乗り入れるターミナル駅で、ららぽーと海老名やビナウォークなど商業施設も充実。都心部と比べて料金がリーズナブルで、URBAN CLASSIC PILATESは月4回7,800円〜と非常にコスパが高い。近隣の<Link href="/area/honatsugi" className="text-warm-700 underline hover:text-warm-900">本厚木</Link>や<Link href="/area/sagami-ono" className="text-warm-700 underline hover:text-warm-900">相模大野</Link>エリアのスタジオとも比較検討するのがおすすめです。
+              海老名エリアは小田急線・相鉄線・JR相模線の3路線が乗り入れるターミナル駅で、ららぽーと海老名やビナウォークなど商業施設も充実。都心部と比べて料金がリーズナブルで、URBAN CLASSIC PILATESは月4回7,800円〜と非常にコスパが高い。近隣の<Link href="/area/honatsugi/" className="text-warm-700 underline hover:text-warm-900">本厚木</Link>や<Link href="/area/sagami-ono/" className="text-warm-700 underline hover:text-warm-900">相模大野</Link>エリアのスタジオとも比較検討するのがおすすめです。
             </p>
           </div>
         </section>
@@ -465,7 +465,7 @@ export default function EbinaPage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも視野に入れて比較検討</h3>
-                <p className="text-warm-600 leading-relaxed">海老名から<Link href="/area/sagami-ono" className="text-warm-700 underline hover:text-warm-900">相模大野</Link>まで小田急線で約15分、<Link href="/area/honatsugi" className="text-warm-700 underline hover:text-warm-900">本厚木</Link>まで約5分。通勤経路や生活圏に合わせて複数エリアを比較検討すると、自分に合ったスタジオが見つかりやすくなります。</p>
+                <p className="text-warm-600 leading-relaxed">海老名から<Link href="/area/sagami-ono/" className="text-warm-700 underline hover:text-warm-900">相模大野</Link>まで小田急線で約15分、<Link href="/area/honatsugi/" className="text-warm-700 underline hover:text-warm-900">本厚木</Link>まで約5分。通勤経路や生活圏に合わせて複数エリアを比較検討すると、自分に合ったスタジオが見つかりやすくなります。</p>
               </div>
             </div>
           </div>

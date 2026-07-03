@@ -157,7 +157,7 @@ export default function AobadaiPage() {
         <section className="bg-white py-3 border-b border-warm-100">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <nav className="text-sm text-warm-400">
-              <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">青葉台</span>
+              <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">青葉台</span>
             </nav>
           </div>
         </section>
@@ -211,7 +211,7 @@ export default function AobadaiPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              青葉台は東急田園都市線沿線の落ち着いた住宅街。大手チェーンが充実しており、コスパの良いスタジオからプレミアムなスタジオまで幅広く選べます。近隣の<Link href="/area/tama-plaza" className="text-warm-700 underline hover:text-warm-900">たまプラーザ</Link>（1駅）と合わせて比較検討する方も多いです。
+              青葉台は東急田園都市線沿線の落ち着いた住宅街。大手チェーンが充実しており、コスパの良いスタジオからプレミアムなスタジオまで幅広く選べます。近隣の<Link href="/area/tama-plaza/" className="text-warm-700 underline hover:text-warm-900">たまプラーザ</Link>（1駅）と合わせて比較検討する方も多いです。
             </p>
           </div>
         </section>
@@ -222,7 +222,7 @@ export default function AobadaiPage() {
             <div className="space-y-6">
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">田園都市線沿線のスタジオも視野に</h3>
-                <p className="text-warm-600 leading-relaxed">青葉台から<Link href="/area/tama-plaza" className="text-warm-700 underline hover:text-warm-900">たまプラーザ</Link>（1駅）、<Link href="/area/mizonokuchi" className="text-warm-700 underline hover:text-warm-900">溝の口</Link>方面にもスタジオが充実。通勤路線上のスタジオも検討すると選択肢が広がります。</p>
+                <p className="text-warm-600 leading-relaxed">青葉台から<Link href="/area/tama-plaza/" className="text-warm-700 underline hover:text-warm-900">たまプラーザ</Link>（1駅）、<Link href="/area/mizonokuchi/" className="text-warm-700 underline hover:text-warm-900">溝の口</Link>方面にもスタジオが充実。通勤路線上のスタジオも検討すると選択肢が広がります。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">女性専用と男女共用を確認</h3>

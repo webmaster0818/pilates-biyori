@@ -159,7 +159,7 @@ export default function MizonokuchiPage() {
             <nav className="text-sm text-warm-400">
               <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
               {' > '}
-              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              <Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>
               {' > '}
               <span className="text-warm-600">溝の口</span>
             </nav>
@@ -270,7 +270,7 @@ export default function MizonokuchiPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              溝の口は東急田園都市線・JR南武線が交差する交通の要衝で、大手チェーンのスタジオが充実しています。Rintosullの月4回8,800円から、CLUB PILATESの通い放題28,490円まで幅広い選択肢があり、予算に合わせて選びやすいエリアです。近隣の<Link href="/area/futakotamagawa" className="text-warm-700 underline hover:text-warm-900">二子玉川</Link>や<Link href="/area/musashikosugi" className="text-warm-700 underline hover:text-warm-900">武蔵小杉</Link>エリアと比較検討する方も多いです。
+              溝の口は東急田園都市線・JR南武線が交差する交通の要衝で、大手チェーンのスタジオが充実しています。Rintosullの月4回8,800円から、CLUB PILATESの通い放題28,490円まで幅広い選択肢があり、予算に合わせて選びやすいエリアです。近隣の<Link href="/area/futakotamagawa/" className="text-warm-700 underline hover:text-warm-900">二子玉川</Link>や<Link href="/area/musashikosugi/" className="text-warm-700 underline hover:text-warm-900">武蔵小杉</Link>エリアと比較検討する方も多いです。
             </p>
           </div>
         </section>
@@ -303,7 +303,7 @@ export default function MizonokuchiPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">田園都市線沿線のスタジオも視野に</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  溝の口から田園都市線で<Link href="/area/futakotamagawa" className="text-warm-700 underline hover:text-warm-900">二子玉川</Link>（1駅）、<Link href="/area/aobadai" className="text-warm-700 underline hover:text-warm-900">青葉台</Link>方面にもスタジオが充実。通勤・通学路線上のスタジオも検討すると選択肢が広がります。
+                  溝の口から田園都市線で<Link href="/area/futakotamagawa/" className="text-warm-700 underline hover:text-warm-900">二子玉川</Link>（1駅）、<Link href="/area/aobadai/" className="text-warm-700 underline hover:text-warm-900">青葉台</Link>方面にもスタジオが充実。通勤・通学路線上のスタジオも検討すると選択肢が広がります。
                 </p>
               </div>
             </div>

@@ -77,7 +77,7 @@ export default function Page() {
             <nav className="text-sm text-warm-400">
               <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
               {' > '}
-              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              <Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>
               {' > '}
               <span className="text-warm-600">淡路</span>
             </nav>

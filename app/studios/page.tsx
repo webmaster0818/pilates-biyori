@@ -60,7 +60,7 @@ export default function StudiosPage() {
                   const slug = article.frontmatter.slug
                   
                   return (
-                    <Link key={slug} href={`/articles/${slug}`} className="group">
+                    <Link key={slug} href={`/articles/${slug}/`} className="group">
                       <div className="card-hover bg-white border border-warm-100 overflow-hidden h-full flex flex-col">
                         <div className="aspect-[4/3] overflow-hidden">
                           <img 

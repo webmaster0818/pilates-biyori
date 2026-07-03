@@ -434,7 +434,7 @@ export default function KanayamaPage() {
             <nav className="text-sm text-warm-400">
               <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
               {' > '}
-              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              <Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>
               {' > '}
               <span className="text-warm-600">金山</span>
             </nav>
@@ -557,7 +557,7 @@ export default function KanayamaPage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも視野に入れよう</h3>
-                <p className="text-warm-600 leading-relaxed">金山エリアだけでなく、<Link href="/area/nagoya-station" className="text-warm-700 underline hover:text-warm-900">名古屋駅</Link>や<Link href="/area/sakae" className="text-warm-700 underline hover:text-warm-900">栄</Link>エリアにも多数のスタジオがあります。金山からのアクセスも良好なので、通勤ルート上のスタジオも検討すると選択肢が広がります。</p>
+                <p className="text-warm-600 leading-relaxed">金山エリアだけでなく、<Link href="/area/nagoya-station/" className="text-warm-700 underline hover:text-warm-900">名古屋駅</Link>や<Link href="/area/sakae/" className="text-warm-700 underline hover:text-warm-900">栄</Link>エリアにも多数のスタジオがあります。金山からのアクセスも良好なので、通勤ルート上のスタジオも検討すると選択肢が広がります。</p>
               </div>
             </div>
           </div>

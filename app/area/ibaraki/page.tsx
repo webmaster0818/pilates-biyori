@@ -182,7 +182,7 @@ export default function IbarakiPage() {
         <section className="bg-white py-3 border-b border-warm-100">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <nav className="text-sm text-warm-400">
-              <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">茨木</span>
+              <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">茨木</span>
             </nav>
           </div>
         </section>
@@ -273,7 +273,7 @@ export default function IbarakiPage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較検討</h3>
-                <p className="text-warm-600 leading-relaxed">茨木だけでなく、<Link href="/area/takatsuki" className="text-warm-700 underline hover:text-warm-900">高槻</Link>や<Link href="/area/suita" className="text-warm-700 underline hover:text-warm-900">吹田</Link>、<Link href="/area/esaka" className="text-warm-700 underline hover:text-warm-900">江坂</Link>エリアも比較すると選択肢が広がります。</p>
+                <p className="text-warm-600 leading-relaxed">茨木だけでなく、<Link href="/area/takatsuki/" className="text-warm-700 underline hover:text-warm-900">高槻</Link>や<Link href="/area/suita/" className="text-warm-700 underline hover:text-warm-900">吹田</Link>、<Link href="/area/esaka/" className="text-warm-700 underline hover:text-warm-900">江坂</Link>エリアも比較すると選択肢が広がります。</p>
               </div>
             </div>
           </div>

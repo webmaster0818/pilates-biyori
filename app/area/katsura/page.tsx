@@ -359,7 +359,7 @@ export default function KatsuraPage() {
             <nav className="text-sm text-warm-400">
               <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
               {' > '}
-              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              <Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>
               {' > '}
               <span className="text-warm-600">桂</span>
             </nav>
@@ -480,7 +480,7 @@ export default function KatsuraPage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも視野に入れよう</h3>
-                <p className="text-warm-600 leading-relaxed">桂エリアだけでなく、<Link href="/area/nijo" className="text-warm-700 underline hover:text-warm-900">二条</Link>や<Link href="/area/shijo-kawaramachi" className="text-warm-700 underline hover:text-warm-900">四条河原町</Link>、<Link href="/area/kyoto-station" className="text-warm-700 underline hover:text-warm-900">京都駅</Link>エリアにもスタジオがあります。阪急京都線を利用すれば四条大宮まで約6分。通勤ルート上のスタジオも検討してみましょう。</p>
+                <p className="text-warm-600 leading-relaxed">桂エリアだけでなく、<Link href="/area/nijo/" className="text-warm-700 underline hover:text-warm-900">二条</Link>や<Link href="/area/shijo-kawaramachi/" className="text-warm-700 underline hover:text-warm-900">四条河原町</Link>、<Link href="/area/kyoto-station/" className="text-warm-700 underline hover:text-warm-900">京都駅</Link>エリアにもスタジオがあります。阪急京都線を利用すれば四条大宮まで約6分。通勤ルート上のスタジオも検討してみましょう。</p>
               </div>
             </div>
           </div>

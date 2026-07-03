@@ -355,7 +355,7 @@ export default function KunitachiPage() {
             <nav className="text-sm text-warm-400">
               <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
               {' > '}
-              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              <Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>
               {' > '}
               <span className="text-warm-600">国立</span>
             </nav>
@@ -419,7 +419,7 @@ export default function KunitachiPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              国立エリアは文教都市らしく質の高いスタジオが揃っています。個人スタジオならではのきめ細かい指導も魅力。隣駅の<Link href="/area/kokubunji" className="text-warm-700 underline hover:text-warm-900">国分寺</Link>にはURBAN CLASSIC PILATESなど月4回8,580円からの格安スタジオもあるので、合わせて検討するのもおすすめです。
+              国立エリアは文教都市らしく質の高いスタジオが揃っています。個人スタジオならではのきめ細かい指導も魅力。隣駅の<Link href="/area/kokubunji/" className="text-warm-700 underline hover:text-warm-900">国分寺</Link>にはURBAN CLASSIC PILATESなど月4回8,580円からの格安スタジオもあるので、合わせて検討するのもおすすめです。
             </p>
           </div>
         </section>
@@ -442,7 +442,7 @@ export default function KunitachiPage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも選択肢に</h3>
-                <p className="text-warm-600 leading-relaxed">隣駅の<Link href="/area/kokubunji" className="text-warm-700 underline hover:text-warm-900">国分寺</Link>や<Link href="/area/tachikawa" className="text-warm-700 underline hover:text-warm-900">立川</Link>にもスタジオが多数。zen placeなら全店舗利用可能プランで複数エリアのスタジオを使い分けられます。</p>
+                <p className="text-warm-600 leading-relaxed">隣駅の<Link href="/area/kokubunji/" className="text-warm-700 underline hover:text-warm-900">国分寺</Link>や<Link href="/area/tachikawa/" className="text-warm-700 underline hover:text-warm-900">立川</Link>にもスタジオが多数。zen placeなら全店舗利用可能プランで複数エリアのスタジオを使い分けられます。</p>
               </div>
             </div>
           </div>

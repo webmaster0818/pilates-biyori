@@ -412,7 +412,7 @@ export default function NijoPage() {
             <nav className="text-sm text-warm-400">
               <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
               {' > '}
-              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              <Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>
               {' > '}
               <span className="text-warm-600">二条</span>
             </nav>
@@ -597,7 +597,7 @@ export default function NijoPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較検討を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  二条エリアだけでなく、<Link href="/area/shijo-kawaramachi" className="text-warm-700 underline hover:text-warm-900">四条河原町</Link>や<Link href="/area/kyoto-station" className="text-warm-700 underline hover:text-warm-900">京都駅</Link>、<Link href="/area/katsura" className="text-warm-700 underline hover:text-warm-900">桂</Link>エリアにもピラティススタジオがあります。地下鉄東西線を使えば二条から烏丸御池まで約3分。エリアをまたいで検討すると選択肢が広がります。
+                  二条エリアだけでなく、<Link href="/area/shijo-kawaramachi/" className="text-warm-700 underline hover:text-warm-900">四条河原町</Link>や<Link href="/area/kyoto-station/" className="text-warm-700 underline hover:text-warm-900">京都駅</Link>、<Link href="/area/katsura/" className="text-warm-700 underline hover:text-warm-900">桂</Link>エリアにもピラティススタジオがあります。地下鉄東西線を使えば二条から烏丸御池まで約3分。エリアをまたいで検討すると選択肢が広がります。
                 </p>
               </div>
             </div>

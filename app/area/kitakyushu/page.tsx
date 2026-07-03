@@ -188,7 +188,7 @@ export default function KitakyushuPage() {
             <nav className="text-sm text-warm-400">
               <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
               {' > '}
-              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              <Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>
               {' > '}
               <span className="text-warm-600">北九州</span>
             </nav>
@@ -271,7 +271,7 @@ export default function KitakyushuPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">博多・天神エリアとの比較も検討を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  北九州エリアだけでなく、<Link href="/area/hakata" className="text-warm-700 underline hover:text-warm-900">博多</Link>や<Link href="/area/tenjin" className="text-warm-700 underline hover:text-warm-900">天神</Link>、<Link href="/area/kokura" className="text-warm-700 underline hover:text-warm-900">小倉</Link>エリアのスタジオも選択肢に。新幹線通勤の方は博多駅周辺のスタジオも視野に入れてみましょう。
+                  北九州エリアだけでなく、<Link href="/area/hakata/" className="text-warm-700 underline hover:text-warm-900">博多</Link>や<Link href="/area/tenjin/" className="text-warm-700 underline hover:text-warm-900">天神</Link>、<Link href="/area/kokura/" className="text-warm-700 underline hover:text-warm-900">小倉</Link>エリアのスタジオも選択肢に。新幹線通勤の方は博多駅周辺のスタジオも視野に入れてみましょう。
                 </p>
               </div>
             </div>

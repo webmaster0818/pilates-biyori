@@ -580,7 +580,7 @@ export default function TamachiPage() {
         </section>
         <section className="bg-white py-3 border-b border-warm-100">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">田町</span></nav>
+            <nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">田町</span></nav>
           </div>
         </section>
         <section className="py-12 bg-white">
@@ -679,7 +679,7 @@ export default function TamachiPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  田町・三田エリアだけでなく、近隣の<Link href="/area/mita" className="text-warm-700 underline hover:text-warm-900">三田</Link>、<Link href="/area/shinagawa" className="text-warm-700 underline hover:text-warm-900">品川</Link>、<Link href="/area/hamamatsucho" className="text-warm-700 underline hover:text-warm-900">浜松町</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  田町・三田エリアだけでなく、近隣の<Link href="/area/mita/" className="text-warm-700 underline hover:text-warm-900">三田</Link>、<Link href="/area/shinagawa/" className="text-warm-700 underline hover:text-warm-900">品川</Link>、<Link href="/area/hamamatsucho/" className="text-warm-700 underline hover:text-warm-900">浜松町</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
                 </p>
               </div>
             </div>

@@ -178,7 +178,7 @@ export default function ToyonakaPage() {
             <nav className="text-sm text-warm-400">
               <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
               {' > '}
-              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              <Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>
               {' > '}
               <span className="text-warm-600">豊中</span>
             </nav>
@@ -264,7 +264,7 @@ export default function ToyonakaPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              豊中は北摂エリアの住宅地で、梅田に比べて料金がリーズナブル。特にパーソナルレッスンは1回7,500円〜と、都心部に比べてお手頃です。近隣の<Link href="/area/senri-chuo" className="text-warm-700 underline hover:text-warm-900">千里中央</Link>や<Link href="/area/esaka" className="text-warm-700 underline hover:text-warm-900">江坂</Link>エリアと比較検討する方も多いです。
+              豊中は北摂エリアの住宅地で、梅田に比べて料金がリーズナブル。特にパーソナルレッスンは1回7,500円〜と、都心部に比べてお手頃です。近隣の<Link href="/area/senri-chuo/" className="text-warm-700 underline hover:text-warm-900">千里中央</Link>や<Link href="/area/esaka/" className="text-warm-700 underline hover:text-warm-900">江坂</Link>エリアと比較検討する方も多いです。
             </p>
           </div>
         </section>
@@ -297,7 +297,7 @@ export default function ToyonakaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">阪急沿線の便も活用しよう</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  阪急宝塚線で梅田まで約15分。zen placeなら全国相互利用で梅田のスタジオにも通えます。また、<Link href="/area/senri-chuo" className="text-warm-700 underline hover:text-warm-900">千里中央</Link>方面へはモノレールやバスでアクセス可能。選択肢を広げて最適なスタジオを見つけましょう。
+                  阪急宝塚線で梅田まで約15分。zen placeなら全国相互利用で梅田のスタジオにも通えます。また、<Link href="/area/senri-chuo/" className="text-warm-700 underline hover:text-warm-900">千里中央</Link>方面へはモノレールやバスでアクセス可能。選択肢を広げて最適なスタジオを見つけましょう。
                 </p>
               </div>
             </div>

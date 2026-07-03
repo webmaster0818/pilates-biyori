@@ -186,7 +186,7 @@ export function HomeClient() {
             <div className="mb-16">
               <h3 className="text-xl font-medium text-warm-800 mb-6 pb-3 border-b border-warm-200">基礎知識</h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <Link href="/articles/pilates-yoga-difference" className="group fade-up">
+                <Link href="/articles/pilates-yoga-difference/" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
                       <img src="/images/articles/pilates-yoga-difference.webp" alt="ピラティスとヨガの違いを比較するイメージ" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
@@ -203,7 +203,7 @@ export function HomeClient() {
                   </div>
                 </Link>
 
-                <Link href="/articles/mat-machine-difference" className="group fade-up">
+                <Link href="/articles/mat-machine-difference/" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
                       <img src="/images/articles/mat-machine-difference.webp" alt="マットピラティスとマシンピラティスの比較" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
@@ -220,7 +220,7 @@ export function HomeClient() {
                   </div>
                 </Link>
 
-                <Link href="/articles/machine-pilates-beginner" className="group fade-up">
+                <Link href="/articles/machine-pilates-beginner/" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
                       <img src="/images/articles/machine-pilates-beginner.webp" alt="マシンピラティス初心者向けレッスン" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
@@ -237,7 +237,7 @@ export function HomeClient() {
                   </div>
                 </Link>
 
-                <Link href="/articles/pilates-frequency" className="group fade-up">
+                <Link href="/articles/pilates-frequency/" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
                       <img src="/images/articles/pilates-frequency.webp" alt="ピラティスの頻度・通うペース" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
@@ -254,7 +254,7 @@ export function HomeClient() {
                   </div>
                 </Link>
 
-                <Link href="/articles/pilates-beginner-home" className="group fade-up">
+                <Link href="/articles/pilates-beginner-home/" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
                       <img src="/images/articles/pilates-beginner-home.webp" alt="自宅でできるピラティス初心者向け" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
@@ -277,7 +277,7 @@ export function HomeClient() {
             <div className="mb-16">
               <h3 className="text-xl font-medium text-warm-800 mb-6 pb-3 border-b border-warm-200">効果・メリット</h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <Link href="/articles/pilates-effect-when" className="group fade-up">
+                <Link href="/articles/pilates-effect-when/" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
                       <img src="/images/articles/pilates-effect-when.webp" alt="ピラティスの効果が出るまでの期間" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
@@ -294,7 +294,7 @@ export function HomeClient() {
                   </div>
                 </Link>
 
-                <Link href="/articles/pilates-daily-effect" className="group fade-up">
+                <Link href="/articles/pilates-daily-effect/" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
                       <img src="/images/articles/pilates-daily-effect.webp" alt="毎日のピラティスで得られる効果" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
@@ -311,7 +311,7 @@ export function HomeClient() {
                   </div>
                 </Link>
 
-                <Link href="/articles/pilates-diet-effect" className="group fade-up">
+                <Link href="/articles/pilates-diet-effect/" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
                       <img src="/images/articles/pilates-diet-effect.webp" alt="ピラティスのダイエット効果" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
@@ -328,7 +328,7 @@ export function HomeClient() {
                   </div>
                 </Link>
 
-                <Link href="/articles/pilates-posture-effect" className="group fade-up">
+                <Link href="/articles/pilates-posture-effect/" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
                       <img src="/images/articles/pilates-posture-effect.webp" alt="ピラティスによる姿勢改善効果" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
@@ -345,7 +345,7 @@ export function HomeClient() {
                   </div>
                 </Link>
 
-                <Link href="/articles/pilates-back-pain" className="group fade-up">
+                <Link href="/articles/pilates-back-pain/" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
                       <img src="/images/articles/pilates-back-pain.webp" alt="ピラティスで腰痛改善" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
@@ -362,7 +362,7 @@ export function HomeClient() {
                   </div>
                 </Link>
 
-                <Link href="/articles/pilates-shoulder-pain" className="group fade-up">
+                <Link href="/articles/pilates-shoulder-pain/" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
                       <img src="/images/articles/pilates-shoulder-pain.webp" alt="ピラティスで肩こり改善" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
@@ -385,7 +385,7 @@ export function HomeClient() {
             <div className="mb-16">
               <h3 className="text-xl font-medium text-warm-800 mb-6 pb-3 border-b border-warm-200">スタジオ選び</h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <Link href="/articles/pilates-beginner-studio" className="group fade-up">
+                <Link href="/articles/pilates-beginner-studio/" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
                       <img src="/images/articles/pilates-beginner-studio.webp" alt="初心者向けピラティススタジオ" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
@@ -402,7 +402,7 @@ export function HomeClient() {
                   </div>
                 </Link>
 
-                <Link href="/articles/pilates-price" className="group fade-up">
+                <Link href="/articles/pilates-price/" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
                       <img src="/images/articles/pilates-price.webp" alt="ピラティスの料金相場" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
@@ -419,7 +419,7 @@ export function HomeClient() {
                   </div>
                 </Link>
 
-                <Link href="/articles/pilates-trial-lesson" className="group fade-up">
+                <Link href="/articles/pilates-trial-lesson/" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
                       <img src="/images/articles/pilates-trial-lesson.webp" alt="ピラティス体験レッスン" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
@@ -436,7 +436,7 @@ export function HomeClient() {
                   </div>
                 </Link>
 
-                <Link href="/articles/pilates-online" className="group fade-up">
+                <Link href="/articles/pilates-online/" className="group fade-up">
                   <div className="card-hover bg-white overflow-hidden border border-warm-100">
                     <div className="aspect-[4/3] overflow-hidden">
                       <img src="/images/articles/pilates-online.webp" alt="オンラインピラティスレッスン" className="w-full h-full img-cover group-hover:scale-105 transition-transform duration-700" width="400" height="300" loading="lazy" />
@@ -467,7 +467,7 @@ export function HomeClient() {
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 fade-up">
-              <Link href="/basics" className="group">
+              <Link href="/basics/" className="group">
                 <div className="border border-warm-200 p-6 sm:p-8 text-center hover:border-warm-400 transition-colors card-hover bg-warm-50">
                   <div className="w-12 h-12 mx-auto mb-5 flex items-center justify-center">
                     <i data-lucide="book-open" className="w-6 h-6 text-warm-400 group-hover:text-warm-600 transition-colors"></i>
@@ -476,7 +476,7 @@ export function HomeClient() {
                   <p className="text-warm-400 text-xs font-light">ピラティスの基本を学ぶ</p>
                 </div>
               </Link>
-              <Link href="/benefits" className="group">
+              <Link href="/benefits/" className="group">
                 <div className="border border-warm-200 p-8 text-center hover:border-warm-400 transition-colors card-hover bg-warm-50">
                   <div className="w-12 h-12 mx-auto mb-5 flex items-center justify-center">
                     <i data-lucide="heart" className="w-6 h-6 text-warm-400 group-hover:text-warm-600 transition-colors"></i>
@@ -485,7 +485,7 @@ export function HomeClient() {
                   <p className="text-warm-400 text-xs font-light">期待できる効果を知る</p>
                 </div>
               </Link>
-              <Link href="/studios" className="group">
+              <Link href="/studios/" className="group">
                 <div className="border border-warm-200 p-8 text-center hover:border-warm-400 transition-colors card-hover bg-warm-50">
                   <div className="w-12 h-12 mx-auto mb-5 flex items-center justify-center">
                     <i data-lucide="building-2" className="w-6 h-6 text-warm-400 group-hover:text-warm-600 transition-colors"></i>
@@ -494,7 +494,7 @@ export function HomeClient() {
                   <p className="text-warm-400 text-xs font-light">最適なスタジオを比較</p>
                 </div>
               </Link>
-              <Link href="/area" className="group">
+              <Link href="/area/" className="group">
                 <div className="border border-warm-200 p-8 text-center hover:border-warm-400 transition-colors card-hover bg-warm-50">
                   <div className="w-12 h-12 mx-auto mb-5 flex items-center justify-center">
                     <i data-lucide="map-pin" className="w-6 h-6 text-warm-400 group-hover:text-warm-600 transition-colors"></i>
@@ -1173,27 +1173,27 @@ export function HomeClient() {
             <div>
               <h4 className="text-[10px] uppercase tracking-[0.2em] font-medium text-warm-300 mb-5">Categories</h4>
               <ul className="space-y-3 text-xs">
-                <li><Link href="/basics" className="text-warm-500 hover:text-white transition font-light">基礎知識</Link></li>
-                <li><Link href="/benefits" className="text-warm-500 hover:text-white transition font-light">効果・メリット</Link></li>
-                <li><Link href="/studios" className="text-warm-500 hover:text-white transition font-light">スタジオ選び</Link></li>
-                <li><Link href="/area" className="text-warm-500 hover:text-white transition font-light">地域別</Link></li>
+                <li><Link href="/basics/" className="text-warm-500 hover:text-white transition font-light">基礎知識</Link></li>
+                <li><Link href="/benefits/" className="text-warm-500 hover:text-white transition font-light">効果・メリット</Link></li>
+                <li><Link href="/studios/" className="text-warm-500 hover:text-white transition font-light">スタジオ選び</Link></li>
+                <li><Link href="/area/" className="text-warm-500 hover:text-white transition font-light">地域別</Link></li>
               </ul>
             </div>
             <div>
               <h4 className="text-[10px] uppercase tracking-[0.2em] font-medium text-warm-300 mb-5">Information</h4>
               <ul className="space-y-3 text-xs">
                 <li><a href="#" className="text-warm-500 hover:text-white transition font-light">運営者情報</a></li>
-                <li><Link href="/privacy-policy" className="text-warm-500 hover:text-white transition font-light">プライバシーポリシー</Link></li>
-                <li><Link href="/terms-of-service" className="text-warm-500 hover:text-white transition font-light">利用規約</Link></li>
-                <li><Link href="/content-policy" className="text-warm-500 hover:text-white transition font-light">記事制作ポリシー</Link></li>
+                <li><Link href="/privacy-policy/" className="text-warm-500 hover:text-white transition font-light">プライバシーポリシー</Link></li>
+                <li><Link href="/terms-of-service/" className="text-warm-500 hover:text-white transition font-light">利用規約</Link></li>
+                <li><Link href="/content-policy/" className="text-warm-500 hover:text-white transition font-light">記事制作ポリシー</Link></li>
                 <li><a href="#" className="text-warm-500 hover:text-white transition font-light">お問い合わせ</a></li>
               </ul>
             </div>
             <div>
               <h4 className="text-[10px] uppercase tracking-[0.2em] font-medium text-warm-300 mb-5">Popular</h4>
               <ul className="space-y-3 text-xs">
-                <li><Link href="/articles/pilates-yoga-difference" className="text-warm-500 hover:text-white transition font-light">ピラティスとヨガの違い</Link></li>
-                <li><Link href="/articles/mat-machine-difference" className="text-warm-500 hover:text-white transition font-light">マットとマシンの違い</Link></li>
+                <li><Link href="/articles/pilates-yoga-difference/" className="text-warm-500 hover:text-white transition font-light">ピラティスとヨガの違い</Link></li>
+                <li><Link href="/articles/mat-machine-difference/" className="text-warm-500 hover:text-white transition font-light">マットとマシンの違い</Link></li>
               </ul>
             </div>
           </div>

@@ -159,7 +159,7 @@ export default function SenriChuoPage() {
             <nav className="text-sm text-warm-400">
               <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
               {' > '}
-              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              <Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>
               {' > '}
               <span className="text-warm-600">千里中央</span>
             </nav>
@@ -271,7 +271,7 @@ export default function SenriChuoPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              千里中央は北摂エリアの中心地で、梅田に比べて料金はやや抑えめ。WECLEの24時間通い放題やRintosullの月額8,800円〜など、コスパの良い選択肢が揃っています。近隣の<Link href="/area/toyonaka" className="text-warm-700 underline hover:text-warm-900">豊中</Link>エリアと比較検討する方も多いです。
+              千里中央は北摂エリアの中心地で、梅田に比べて料金はやや抑えめ。WECLEの24時間通い放題やRintosullの月額8,800円〜など、コスパの良い選択肢が揃っています。近隣の<Link href="/area/toyonaka/" className="text-warm-700 underline hover:text-warm-900">豊中</Link>エリアと比較検討する方も多いです。
             </p>
           </div>
         </section>

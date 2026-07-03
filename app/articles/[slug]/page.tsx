@@ -209,7 +209,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
                     return (
                       <Link 
                         key={slug} 
-                        href={`/articles/${slug}`}
+                        href={`/articles/${slug}/`}
                         className="group card-hover bg-warm-50 border border-warm-100 p-6 transition-all"
                       >
                         <div className="text-[10px] uppercase tracking-[0.2em] text-warm-400 font-medium mb-3">

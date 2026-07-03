@@ -31,7 +31,7 @@ export function ArticleCard({
   }
 
   return (
-    <Link href={`/articles/${slug}`}>
+    <Link href={`/articles/${slug}/`}>
       <Card className="hover:shadow-lg transition-shadow h-full">
         {thumbnail ? (
           <div className="relative w-full h-48">

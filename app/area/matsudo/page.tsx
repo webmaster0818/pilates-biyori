@@ -434,7 +434,7 @@ export default function MatsudoPage() {
             <nav className="text-sm text-warm-400">
               <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
               {' > '}
-              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              <Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>
               {' > '}
               <span className="text-warm-600">松戸</span>
             </nav>
@@ -573,7 +573,7 @@ export default function MatsudoPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">常磐線沿線の複数エリアを比較検討</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  松戸は常磐線沿線の中心的なエリアですが、近隣の<Link href="/area/kashiwa" className="text-warm-700 underline hover:text-warm-900">柏</Link>や<Link href="/area/kita-senju" className="text-warm-700 underline hover:text-warm-900">北千住</Link>エリアにもピラティススタジオが充実しています。通勤経路や生活圏に合わせて、複数エリアのスタジオを比較してみると、より自分に合ったスタジオが見つかりやすくなります。
+                  松戸は常磐線沿線の中心的なエリアですが、近隣の<Link href="/area/kashiwa/" className="text-warm-700 underline hover:text-warm-900">柏</Link>や<Link href="/area/kita-senju/" className="text-warm-700 underline hover:text-warm-900">北千住</Link>エリアにもピラティススタジオが充実しています。通勤経路や生活圏に合わせて、複数エリアのスタジオを比較してみると、より自分に合ったスタジオが見つかりやすくなります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

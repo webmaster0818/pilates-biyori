@@ -42,7 +42,7 @@ export default function ContactPage() {
             </ul>
             <p className="text-xs text-warm-500 mb-10">
               ※営業目的の自動送信・無関係な勧誘はご遠慮ください。いただいた個人情報は
-              <Link href="/privacy-policy" className="underline hover:text-warm-700">
+              <Link href="/privacy-policy/" className="underline hover:text-warm-700">
                 プライバシーポリシー
               </Link>
               に基づき、お問い合わせへの対応のみに使用します。

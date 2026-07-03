@@ -178,7 +178,7 @@ export default function SuitaPage() {
             <nav className="text-sm text-warm-400">
               <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
               {' > '}
-              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              <Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>
               {' > '}
               <span className="text-warm-600">吹田</span>
             </nav>
@@ -294,7 +294,7 @@ export default function SuitaPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              吹田市は北摂エリアの中心地で、<Link href="/area/umeda" className="text-warm-700 underline hover:text-warm-900">梅田</Link>と比べて料金がやや抑えめなのが特徴です。御堂筋線沿線では<Link href="/area/esaka" className="text-warm-700 underline hover:text-warm-900">江坂</Link>にスタジオが集中しており、北摂在住の方に通いやすいエリアです。
+              吹田市は北摂エリアの中心地で、<Link href="/area/umeda/" className="text-warm-700 underline hover:text-warm-900">梅田</Link>と比べて料金がやや抑えめなのが特徴です。御堂筋線沿線では<Link href="/area/esaka/" className="text-warm-700 underline hover:text-warm-900">江坂</Link>にスタジオが集中しており、北摂在住の方に通いやすいエリアです。
             </p>
           </div>
         </section>

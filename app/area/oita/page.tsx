@@ -166,7 +166,7 @@ export default function OitaPage() {
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス大分おすすめ6選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1>
           </div>
         </section>
-        <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">大分</span></nav></div></section>
+        <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">大分</span></nav></div></section>
         <TableOfContents areaName="大分" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -216,7 +216,7 @@ export default function OitaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">車での通いやすさを優先的にチェック</h3><p className="text-warm-600 leading-relaxed">大分は車社会のため、駐車場の有無や近隣のコインパーキング情報を事前に確認しましょう。pilates Kはトキハ内の駐車場が利用できます。</p></div>
               <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">予約制スタジオが多いため事前確認を</h3><p className="text-warm-600 leading-relaxed">大分のピラティススタジオはパーソナル・少人数制が多く、完全予約制の場合がほとんど。希望の日時で予約が取れるか、キャンセルポリシーも確認しておきましょう。</p></div>
               <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">目的に合ったスタジオ選びが重要</h3><p className="text-warm-600 leading-relaxed">大分には理学療法士が運営するリハビリ寄りのスタジオから、ボディメイク特化のスタジオまで特色が異なります。自分の目的を明確にしてからスタジオ選びをしましょう。</p></div>
-              <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">近隣の別府エリアも選択肢に</h3><p className="text-warm-600 leading-relaxed">大分市内だけでなく、<Link href="/area/beppu" className="text-warm-700 underline hover:text-warm-900">別府</Link>エリアにもピラティススタジオがあります。温泉地ならではのリラクゼーションと組み合わせた利用も検討してみましょう。</p></div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">近隣の別府エリアも選択肢に</h3><p className="text-warm-600 leading-relaxed">大分市内だけでなく、<Link href="/area/beppu/" className="text-warm-700 underline hover:text-warm-900">別府</Link>エリアにもピラティススタジオがあります。温泉地ならではのリラクゼーションと組み合わせた利用も検討してみましょう。</p></div>
             </div>
           </div>
         </section>

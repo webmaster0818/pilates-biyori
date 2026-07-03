@@ -361,7 +361,7 @@ export default function KokubunjiPage() {
             <nav className="text-sm text-warm-400">
               <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
               {' > '}
-              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              <Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>
               {' > '}
               <span className="text-warm-600">国分寺</span>
             </nav>
@@ -462,7 +462,7 @@ export default function KokubunjiPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              国分寺エリアは都心のターミナル駅と比較してテナント賃料が抑えめのため、質の高いレッスンをリーズナブルに受けられる傾向があります。特にURBAN CLASSIC PILATESの月4回8,580円は都内でもかなり安い水準。5スタジオ全てがマシンピラティスに対応しているので、目的と予算に合わせて選びましょう。隣駅の<Link href="/area/kunitachi" className="text-warm-700 underline hover:text-warm-900">国立</Link>エリアと合わせて検討するのもおすすめです。
+              国分寺エリアは都心のターミナル駅と比較してテナント賃料が抑えめのため、質の高いレッスンをリーズナブルに受けられる傾向があります。特にURBAN CLASSIC PILATESの月4回8,580円は都内でもかなり安い水準。5スタジオ全てがマシンピラティスに対応しているので、目的と予算に合わせて選びましょう。隣駅の<Link href="/area/kunitachi/" className="text-warm-700 underline hover:text-warm-900">国立</Link>エリアと合わせて検討するのもおすすめです。
             </p>
           </div>
         </section>
@@ -495,7 +495,7 @@ export default function KokubunjiPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  国分寺だけでなく、隣駅の<Link href="/area/kunitachi" className="text-warm-700 underline hover:text-warm-900">国立</Link>や<Link href="/area/tachikawa" className="text-warm-700 underline hover:text-warm-900">立川</Link>、<Link href="/area/kichijoji" className="text-warm-700 underline hover:text-warm-900">吉祥寺</Link>エリアにもピラティススタジオがあります。zen placeなら全店舗利用可能プランで複数エリアのスタジオを使い分けられます。
+                  国分寺だけでなく、隣駅の<Link href="/area/kunitachi/" className="text-warm-700 underline hover:text-warm-900">国立</Link>や<Link href="/area/tachikawa/" className="text-warm-700 underline hover:text-warm-900">立川</Link>、<Link href="/area/kichijoji/" className="text-warm-700 underline hover:text-warm-900">吉祥寺</Link>エリアにもピラティススタジオがあります。zen placeなら全店舗利用可能プランで複数エリアのスタジオを使い分けられます。
                 </p>
               </div>
             </div>

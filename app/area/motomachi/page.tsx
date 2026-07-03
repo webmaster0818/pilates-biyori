@@ -423,7 +423,7 @@ export default function MotomachiPage() {
             <nav className="text-sm text-warm-400">
               <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
               {' > '}
-              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              <Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>
               {' > '}
               <span className="text-warm-600">元町</span>
             </nav>
@@ -602,7 +602,7 @@ export default function MotomachiPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">三宮エリアとの比較検討がおすすめ</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  元町と<Link href="/area/sannomiya" className="text-warm-700 underline hover:text-warm-900">三宮</Link>は徒歩圏内。三宮にはピラティスKやCLUB PILATESなどの大手チェーンもあります。元町のアットホームなスタジオと三宮のチェーン店、両方の体験レッスンを受けて比較するのが賢い選び方です。
+                  元町と<Link href="/area/sannomiya/" className="text-warm-700 underline hover:text-warm-900">三宮</Link>は徒歩圏内。三宮にはピラティスKやCLUB PILATESなどの大手チェーンもあります。元町のアットホームなスタジオと三宮のチェーン店、両方の体験レッスンを受けて比較するのが賢い選び方です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

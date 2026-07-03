@@ -411,7 +411,7 @@ export default function KomazawaPage() {
             <nav className="text-sm text-warm-400">
               <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
               {' > '}
-              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              <Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>
               {' > '}
               <span className="text-warm-600">駒沢</span>
             </nav>
@@ -606,7 +606,7 @@ export default function KomazawaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオも選択肢に入れよう</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  駒沢エリアだけでなく、近隣の<Link href="/area/sangenjaya" className="text-warm-700 underline hover:text-warm-900">三軒茶屋</Link>、<Link href="/area/gakugei-daigaku" className="text-warm-700 underline hover:text-warm-900">学芸大学</Link>、<Link href="/area/sakura-shinmachi" className="text-warm-700 underline hover:text-warm-900">桜新町</Link>エリアにもピラティススタジオがあります。田園都市線沿線で通いやすいスタジオを探すのもおすすめです。
+                  駒沢エリアだけでなく、近隣の<Link href="/area/sangenjaya/" className="text-warm-700 underline hover:text-warm-900">三軒茶屋</Link>、<Link href="/area/gakugei-daigaku/" className="text-warm-700 underline hover:text-warm-900">学芸大学</Link>、<Link href="/area/sakura-shinmachi/" className="text-warm-700 underline hover:text-warm-900">桜新町</Link>エリアにもピラティススタジオがあります。田園都市線沿線で通いやすいスタジオを探すのもおすすめです。
                 </p>
               </div>
             </div>

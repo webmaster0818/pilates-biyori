@@ -170,7 +170,7 @@ export default function DenenchofuPage() {
             <nav className="text-sm text-warm-400">
               <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
               {' > '}
-              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              <Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>
               {' > '}
               <span className="text-warm-600">田園調布</span>
             </nav>
@@ -282,7 +282,7 @@ export default function DenenchofuPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              田園調布は閑静な高級住宅街で、質の高いサービスを提供するスタジオが多いのが特徴です。グループレッスンの料金は都心部と同程度ですが、パーソナルやセミパーソナルの選択肢が豊富で、個々のニーズに合わせた丁寧な指導を受けられます。近隣の<Link href="/area/jiyugaoka" className="text-warm-700 underline hover:text-warm-900">自由が丘</Link>エリアと比較検討する方も多いです。
+              田園調布は閑静な高級住宅街で、質の高いサービスを提供するスタジオが多いのが特徴です。グループレッスンの料金は都心部と同程度ですが、パーソナルやセミパーソナルの選択肢が豊富で、個々のニーズに合わせた丁寧な指導を受けられます。近隣の<Link href="/area/jiyugaoka/" className="text-warm-700 underline hover:text-warm-900">自由が丘</Link>エリアと比較検討する方も多いです。
             </p>
           </div>
         </section>
@@ -315,7 +315,7 @@ export default function DenenchofuPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  田園調布エリアだけでなく、近隣の<Link href="/area/jiyugaoka" className="text-warm-700 underline hover:text-warm-900">自由が丘</Link>、<Link href="/area/futakotamagawa" className="text-warm-700 underline hover:text-warm-900">二子玉川</Link>エリアにもピラティススタジオが充実しています。東横線・目黒線で1-2駅の距離なので、複数エリアで体験レッスンを受けてみるのもおすすめです。
+                  田園調布エリアだけでなく、近隣の<Link href="/area/jiyugaoka/" className="text-warm-700 underline hover:text-warm-900">自由が丘</Link>、<Link href="/area/futakotamagawa/" className="text-warm-700 underline hover:text-warm-900">二子玉川</Link>エリアにもピラティススタジオが充実しています。東横線・目黒線で1-2駅の距離なので、複数エリアで体験レッスンを受けてみるのもおすすめです。
                 </p>
               </div>
             </div>

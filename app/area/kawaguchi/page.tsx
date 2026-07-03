@@ -426,7 +426,7 @@ export default function KawaguchiPage() {
             <nav className="text-sm text-warm-400">
               <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
               {' > '}
-              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              <Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>
               {' > '}
               <span className="text-warm-600">川口</span>
             </nav>
@@ -503,7 +503,7 @@ export default function KawaguchiPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              川口エリアはJR京浜東北線で東京駅まで約30分、赤羽まで1駅というアクセスの良さが魅力。都心部と比べて料金はリーズナブルで、URBAN CLASSIC PILATESは月4回7,800円〜と非常にコスパが高い。近隣の<Link href="/area/urawa" className="text-warm-700 underline hover:text-warm-900">浦和</Link>や<Link href="/area/akabane" className="text-warm-700 underline hover:text-warm-900">赤羽</Link>エリアのスタジオとも比較検討するのがおすすめです。
+              川口エリアはJR京浜東北線で東京駅まで約30分、赤羽まで1駅というアクセスの良さが魅力。都心部と比べて料金はリーズナブルで、URBAN CLASSIC PILATESは月4回7,800円〜と非常にコスパが高い。近隣の<Link href="/area/urawa/" className="text-warm-700 underline hover:text-warm-900">浦和</Link>や<Link href="/area/akabane/" className="text-warm-700 underline hover:text-warm-900">赤羽</Link>エリアのスタジオとも比較検討するのがおすすめです。
             </p>
           </div>
         </section>
@@ -519,7 +519,7 @@ export default function KawaguchiPage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">京浜東北線1本で都心スタジオも視野に</h3>
-                <p className="text-warm-600 leading-relaxed">川口はJR京浜東北線で<Link href="/area/akabane" className="text-warm-700 underline hover:text-warm-900">赤羽</Link>まで1駅、<Link href="/area/urawa" className="text-warm-700 underline hover:text-warm-900">浦和</Link>まで約10分。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、自分に合ったスタジオが見つかりやすくなります。zen placeは全国相互利用可能なので、エリアをまたいで通うこともできます。</p>
+                <p className="text-warm-600 leading-relaxed">川口はJR京浜東北線で<Link href="/area/akabane/" className="text-warm-700 underline hover:text-warm-900">赤羽</Link>まで1駅、<Link href="/area/urawa/" className="text-warm-700 underline hover:text-warm-900">浦和</Link>まで約10分。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、自分に合ったスタジオが見つかりやすくなります。zen placeは全国相互利用可能なので、エリアをまたいで通うこともできます。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">車通いなら郊外型スタジオも検討</h3>

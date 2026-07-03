@@ -158,7 +158,7 @@ export default function NaraPage() {
         <section className="bg-white py-3 border-b border-warm-100">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <nav className="text-sm text-warm-400">
-              <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">奈良</span>
+              <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">奈良</span>
             </nav>
           </div>
         </section>

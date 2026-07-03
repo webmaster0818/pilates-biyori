@@ -170,7 +170,7 @@ export default function SengawaPage() {
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス仙川おすすめ6選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1>
           </div>
         </section>
-        <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">仙川</span></nav></div></section>
+        <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">仙川</span></nav></div></section>
         <TableOfContents areaName="仙川" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -211,7 +211,7 @@ export default function SengawaPage() {
                 </tbody>
               </table>
             </div>
-            <p className="text-warm-600 mt-4 text-sm leading-relaxed">仙川は京王線沿線の中でもピラティススタジオの選択肢が豊富なエリア。URBAN CLASSICの月4回8,580円は都内でもトップクラスのコスパ。世界最大級のCLUB PILATESもあり、初心者から上級者まで満足できます。近隣の<Link href="/area/chofu" className="text-warm-700 underline hover:text-warm-900">調布</Link>エリアと合わせて検討するのもおすすめです。</p>
+            <p className="text-warm-600 mt-4 text-sm leading-relaxed">仙川は京王線沿線の中でもピラティススタジオの選択肢が豊富なエリア。URBAN CLASSICの月4回8,580円は都内でもトップクラスのコスパ。世界最大級のCLUB PILATESもあり、初心者から上級者まで満足できます。近隣の<Link href="/area/chofu/" className="text-warm-700 underline hover:text-warm-900">調布</Link>エリアと合わせて検討するのもおすすめです。</p>
           </div>
         </section>
 
@@ -222,7 +222,7 @@ export default function SengawaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">各駅停車のみの停車駅</h3><p className="text-warm-600 leading-relaxed">仙川駅は京王線の各駅停車駅です。急行や特急は停車しないため、乗り換えが必要な場合があります。通勤経路と合わせてアクセスを確認しておきましょう。</p></div>
               <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">予約制と予約不要の違いに注意</h3><p className="text-warm-600 leading-relaxed">URBAN CLASSICは予約不要でいつでも行ける手軽さがあり、CLUB PILATESやピラティスミラーは事前予約制。ライフスタイルに合った形式を選びましょう。</p></div>
               <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">CLUB PILATESのレベル分けを確認</h3><p className="text-warm-600 leading-relaxed">CLUB PILATESは4段階のレベル分けがあり、自分に合ったクラスを選ぶことが大切。初心者はレベル1からスタートし、徐々にステップアップしていきましょう。</p></div>
-              <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較検討を</h3><p className="text-warm-600 leading-relaxed">近隣の<Link href="/area/chofu" className="text-warm-700 underline hover:text-warm-900">調布</Link>や<Link href="/area/chitose-funabashi" className="text-warm-700 underline hover:text-warm-900">千歳船橋</Link>エリアにもスタジオがあります。zen placeなら全店舗利用可能プランで複数エリアを使い分けられます。</p></div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較検討を</h3><p className="text-warm-600 leading-relaxed">近隣の<Link href="/area/chofu/" className="text-warm-700 underline hover:text-warm-900">調布</Link>や<Link href="/area/chitose-funabashi/" className="text-warm-700 underline hover:text-warm-900">千歳船橋</Link>エリアにもスタジオがあります。zen placeなら全店舗利用可能プランで複数エリアを使い分けられます。</p></div>
             </div>
           </div>
         </section>

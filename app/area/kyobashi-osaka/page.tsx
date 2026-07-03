@@ -197,7 +197,7 @@ export default function KyobashiOsakaPage() {
             <nav className="text-sm text-warm-400">
               <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
               {' > '}
-              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              <Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>
               {' > '}
               <span className="text-warm-600">京橋（大阪）</span>
             </nav>
@@ -309,7 +309,7 @@ export default function KyobashiOsakaPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              京橋は大阪のターミナル駅でありながら、<Link href="/area/umeda" className="text-warm-700 underline hover:text-warm-900">梅田</Link>や<Link href="/area/shinsaibashi" className="text-warm-700 underline hover:text-warm-900">心斎橋</Link>と比べて料金がやや抑えめなのが特徴です。通い放題プランが充実しているスタジオが多く、コスパ良くピラティスを続けたい方におすすめのエリアです。
+              京橋は大阪のターミナル駅でありながら、<Link href="/area/umeda/" className="text-warm-700 underline hover:text-warm-900">梅田</Link>や<Link href="/area/shinsaibashi/" className="text-warm-700 underline hover:text-warm-900">心斎橋</Link>と比べて料金がやや抑えめなのが特徴です。通い放題プランが充実しているスタジオが多く、コスパ良くピラティスを続けたい方におすすめのエリアです。
             </p>
           </div>
         </section>

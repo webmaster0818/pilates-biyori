@@ -13,10 +13,10 @@ export function Header() {
             </span>
           </Link>
           <nav className="hidden md:flex gap-6 text-warm-700">
-            <Link href="/basics" className="hover:text-accent transition-colors">基礎知識</Link>
-            <Link href="/benefits" className="hover:text-accent transition-colors">効果</Link>
-            <Link href="/studios" className="hover:text-accent transition-colors">スタジオ選び</Link>
-            <Link href="/area" className="hover:text-accent transition-colors">地域別</Link>
+            <Link href="/basics/" className="hover:text-accent transition-colors">基礎知識</Link>
+            <Link href="/benefits/" className="hover:text-accent transition-colors">効果</Link>
+            <Link href="/studios/" className="hover:text-accent transition-colors">スタジオ選び</Link>
+            <Link href="/area/" className="hover:text-accent transition-colors">地域別</Link>
           </nav>
         </div>
       </div>

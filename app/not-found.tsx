@@ -48,7 +48,7 @@ export default function NotFound() {
                 </p>
               </Link>
               <Link
-                href="/articles/pilates-yoga-difference"
+                href="/articles/pilates-yoga-difference/"
                 className="block bg-warm-50 border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"
               >
                 <h3 className="text-lg font-bold text-warm-900 mb-3">ピラティスとヨガの違い</h3>
@@ -57,7 +57,7 @@ export default function NotFound() {
                 </p>
               </Link>
               <Link
-                href="/articles/mat-machine-difference"
+                href="/articles/mat-machine-difference/"
                 className="block bg-warm-50 border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"
               >
                 <h3 className="text-lg font-bold text-warm-900 mb-3">マットとマシンの違い</h3>

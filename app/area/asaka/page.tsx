@@ -359,7 +359,7 @@ export default function AsakaPage() {
             <nav className="text-sm text-warm-400">
               <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
               {' > '}
-              <Link href="/area" className="hover:text-warm-800 transition">地域別</Link>
+              <Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>
               {' > '}
               <span className="text-warm-600">朝霞</span>
             </nav>
@@ -470,7 +470,7 @@ export default function AsakaPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              朝霞エリアは東武東上線とJR武蔵野線の2路線が利用でき、都心へのアクセスも良好なベッドタウンです。都心部と比べてテナント賃料が抑えめのため、料金はリーズナブル。SOELUの月額7,678円〜はエリア最安水準です。接骨院併設のピラティスなど、朝霞ならではの選択肢も魅力。近隣の<Link href="/area/shiki" className="text-warm-700 underline hover:text-warm-900">志木</Link>エリアのスタジオも合わせて検討するのがおすすめです。
+              朝霞エリアは東武東上線とJR武蔵野線の2路線が利用でき、都心へのアクセスも良好なベッドタウンです。都心部と比べてテナント賃料が抑えめのため、料金はリーズナブル。SOELUの月額7,678円〜はエリア最安水準です。接骨院併設のピラティスなど、朝霞ならではの選択肢も魅力。近隣の<Link href="/area/shiki/" className="text-warm-700 underline hover:text-warm-900">志木</Link>エリアのスタジオも合わせて検討するのがおすすめです。
             </p>
           </div>
         </section>
@@ -497,7 +497,7 @@ export default function AsakaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">東上線沿線の近隣エリアと比較検討しよう</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  朝霞は東武東上線で<Link href="/area/shiki" className="text-warm-700 underline hover:text-warm-900">志木</Link>まで1駅、<Link href="/area/ikebukuro" className="text-warm-700 underline hover:text-warm-900">池袋</Link>まで約20分。近隣エリアにもピラティススタジオが充実しているので、通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかります。
+                  朝霞は東武東上線で<Link href="/area/shiki/" className="text-warm-700 underline hover:text-warm-900">志木</Link>まで1駅、<Link href="/area/ikebukuro/" className="text-warm-700 underline hover:text-warm-900">池袋</Link>まで約20分。近隣エリアにもピラティススタジオが充実しているので、通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
