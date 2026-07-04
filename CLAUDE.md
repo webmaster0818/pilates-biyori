@@ -162,7 +162,17 @@ GSC診断(28d 6/3-7/1): クリック90(前月比+88%)・表示14,104(2.8倍)・�
 - 設置: TOP=HomeClientのAreaSearch直下 / エリア370ページ=`scripts/add-consultant-section-202607.py`(冪等・`<RelatedAreas`直前・areaName抽出+prefectureAreasフォールバック) / 記事=articles/[slug]テンプレのCTA後(bare) / basics=末尾
 - 方式Bデプロイ・両repo push・本番4ページタイプ確認・/api/contact POST=400(正常)確認。B案(フローティング)は不採用(ヘッダーCTAと重複のため)・必要になれば後付け可
 
+### 2026-07-03 trailing-slash統一（MediaXAI「この要因何？」→「実施して」）
+GSC「ページにリダイレクトがあります」141件=全て末尾スラッシュ無しURL(+http1件)。原因=**内部リンク529+箇所がスラッシュ無しhref**（trailingSlash:trueなので308で正規版へ転送→GSCが重複バリアントとして計上。エラーではない）。`scripts/fix-trailing-slash-202607.py`(冪等)で**942箇所/384ファイル**修正（href="…"・href="…#anchor"・テンプレリテラル href={`/x/${v}`}・MDX内の](/path) 全対応。拡張子付き・"/"単体・外部は除外）。ビルドHTMLで非スラッシュ内部リンクゼロ確認→方式Bデプロイ・両push・本番確認(渋谷138本全スラッシュ付き)。GSCの141件は再クロールで数週かけ自然減。
+
 ### 2026-07-02 ブランドレイヤーv2（MediaXAI「v2進めて」）
 - **①出典付き口コミ42件**: エージェント3体で各ブランド**公式サイトの声/公式PR/公式インタビュー**から原文引用収集(`data/brand-voices-{1,2,3}.json`→`brand-voices.json`統合)。**Googleマップレビューは規約リスクで不使用**。24/7=公式に声なし→正直に0件(非表示)。the SILK=声ページなし→NEXER共同調査等survey型で代替。ブランドページに「口コミ・利用者の声(出典付き)」セクション(blockquote+属性+出典リンク+「公式公開情報からの引用」注記)
 - **②エリア→ブランド逆リンク**: `lib/brandLink.ts`(brandSlugOf=aggregate-brandsと同一判定・kasane先判定)+StudioCardの公式ボタン横に「このブランドの料金・店舗一覧を見る」→**全エリアで計1,036本**の逆リンク自動生成
 - 両repo push・本番確認・Indexing 16/16。v3候補: ブランド×エリアクエリ受け皿(BDC二子玉川等)・体験取材
+
+### 2026-07-04 P0実行（MediaXAI「p0進めて」）✅本番反映済み
+成長戦略再策定(2026-07-03)のP0を実行。
+- **①BDC×エリア受け皿3本**（`/brands/bdc-futakotamagawa/` `/bdc-ebisu/` `/bdc-omotesando/`）: 指名クエリ「BDC ピラティス {エリア}」147imp(40-58位)の受け皿ゼロを解消。`components/BrandAreaReceiver.tsx`＋`data/bdc-stores.ts`新設。**実店舗データはbrands-aggregate.json一致・架空ゼロ**（恵比寿は公式が詳細住所非開示→正直にその旨表記・LocalBusinessはareaServedで代替）。結論box＋店舗情報table＋BDCブランド編集データ(getBrand)＋周辺エリア比較＋FAQ。**LocalBusiness(HealthClub)/Breadcrumb/FAQ schema＋自己canonical**。⚠️**静的パス`bdc-*`は`[slug]`動的ルート(brand=bdc)と競合しない**(静的優先・generateStaticParamsにbdc-*含まれず)＝既存/brands/bdc/健在確認済
+- **②TOP→ブランドハブ導線**: HomeClientの注目エリア直後に「ブランドから探す」ブロック(ハブ＋主要6ブランド＋新BDC受け皿3本)＝ブランド層(7/2新設16p・表示ゼロ)のインデックス促進
+- **③浜松町のとどめ**(563imp/14位): 「注意点」節に**芝公園・御成門の意図セクション**追加(架空スタジオなし・大門隣接の正直な距離表記)＋**近隣6ページ(mita/tokyo-station/toranomon/roppongi/ginza/shinagawa)から浜松町への内部リンクcallout**注入(`boost-hamamatsucho-202607`マーカー・冪等・`<RelatedAreas`直前)
+- sitemap生成器に受け皿3URL明示追加(466URL)。build EXIT0(NODE_OPTIONS 8192)・方式B(rsync **--exclude .git/functions**・functions保全確認)・両push・BDC受け皿/浜松町 本番200＆自己canonical＆HealthClub schema確認・**Indexing API 21/21**(受け皿3＋全ブランド16＋TOP＋ハブ＋浜松町)。効果=指名クエリ147impの刈り取り・浜松町の1ページ目化・ブランド層インデックスを1-2週GSC測定。次=P1(機会バンド残11ページ意図充足)
