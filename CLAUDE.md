@@ -176,3 +176,10 @@ GSC「ページにリダイレクトがあります」141件=全て末尾スラ�
 - **②TOP→ブランドハブ導線**: HomeClientの注目エリア直後に「ブランドから探す」ブロック(ハブ＋主要6ブランド＋新BDC受け皿3本)＝ブランド層(7/2新設16p・表示ゼロ)のインデックス促進
 - **③浜松町のとどめ**(563imp/14位): 「注意点」節に**芝公園・御成門の意図セクション**追加(架空スタジオなし・大門隣接の正直な距離表記)＋**近隣6ページ(mita/tokyo-station/toranomon/roppongi/ginza/shinagawa)から浜松町への内部リンクcallout**注入(`boost-hamamatsucho-202607`マーカー・冪等・`<RelatedAreas`直前)
 - sitemap生成器に受け皿3URL明示追加(466URL)。build EXIT0(NODE_OPTIONS 8192)・方式B(rsync **--exclude .git/functions**・functions保全確認)・両push・BDC受け皿/浜松町 本番200＆自己canonical＆HealthClub schema確認・**Indexing API 21/21**(受け皿3＋全ブランド16＋TOP＋ハブ＋浜松町)。効果=指名クエリ147impの刈り取り・浜松町の1ページ目化・ブランド層インデックスを1-2週GSC測定。次=P1(機会バンド残11ページ意図充足)
+
+### 2026-07-04 P1実行（MediaXAI「p1進めよう」）✅本番反映済み
+機会バンド(8-30位×表示30+)の意図完全充足。**GSC実数(28d 6/6-7/3・sc-domain)で対象特定**＝akihabara278/29.7・kitahama157/22.4・ochanomizu152/20.1・oji123/17・izumi101/23.7・yoyogi-uehara80/27.1・shin-osaka80/22.8・shin-okubo72/18.8・toranomon61/12.8・otemachi57/23.2・gion-shijo57/18.7。
+- **データ欠落解消**: otemachi=AreaMarketComparison(独自データ211調査対比)+AreaConclusion(結論ファースト)を追加/yoyogi-uehara=AreaConclusion追加(add-area-conclusion TARGETSに2つ追加・冪等)。他9ページは3コンポーネント既充足を点検確認
+- **内部リンク集中9本**(近隣→機会ページ・`boost-p1-{target}-202607`マーカー冪等・`<RelatedAreas`直前): umeda/honmachi→kitahama, sakai→izumi, umeda/esaka→shin-osaka, shinjuku/takadanobaba→shin-okubo, tokyo-station/marunouchi→otemachi
+- **TOP注目エリア+3**: 虎ノ門/大手町・東京駅/祇園四条(ホームページ被リンク=残りの機会ページも全て注目エリア掲載に)
+- build EXIT0・方式B(functions保全確認)・両push・otemachi独自データ/結論 本番反映確認・**Indexing API 12/12**。効果1-2週GSC測定。次=P2(記事勝ち筋クラスタ)・P3(白書被リンク営業/送客計測)
