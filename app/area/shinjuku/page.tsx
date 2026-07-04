@@ -1209,6 +1209,13 @@ export default function ShinjukuPage() {
       {/* AIスタジオ相談（遅延ロード・エリア自動セット） */}
       <ConsultantSection areaKey="shinjuku" areaName="新宿" />
 
+            {/* boost-p1-shin-okubo-202607 */}
+            <div className="my-8 bg-white border border-warm-200 p-5">
+              <p className="text-xs text-warm-400 uppercase tracking-[0.15em] mb-2">近隣エリア</p>
+              <p className="text-sm text-warm-700 font-light leading-relaxed">
+                近隣の<Link href="/area/shin-okubo/" className="text-warm-800 underline decoration-warm-300 hover:text-warm-900">新大久保エリアのピラティススタジオ比較</Link>もあわせて検討できます。無料体験・料金・アクセスをまとめて確認できます。
+              </p>
+            </div>
       <RelatedAreas currentSlug="shinjuku" />
       <SiteFooter />
       <Script src="https://unpkg.com/lucide@latest" strategy="lazyOnload" />

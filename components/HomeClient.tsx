@@ -859,6 +859,9 @@ export function HomeClient() {
                   { name: '八事', slug: 'yagoto' },
                   { name: '代々木上原', slug: 'yoyogi-uehara' },
                   { name: '新大久保', slug: 'shin-okubo' },
+                  { name: '虎ノ門', slug: 'toranomon' },
+                  { name: '大手町・東京駅', slug: 'otemachi' },
+                  { name: '祇園四条', slug: 'gion-shijo' },
                 ].map((a) => (
                   <Link key={a.slug} href={`/area/${a.slug}/`} className="text-xs text-warm-800 hover:text-warm-900 border border-warm-400 px-3 py-1.5 hover:border-warm-600 transition-colors bg-white font-medium">{a.name}</Link>
                 ))}

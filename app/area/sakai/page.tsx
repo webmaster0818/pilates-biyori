@@ -320,6 +320,13 @@ export default function SakaiPage() {
       {/* AIスタジオ相談（遅延ロード・エリア自動セット） */}
       <ConsultantSection areaKey="sakai" areaName="堺" />
 
+            {/* boost-p1-izumi-202607 */}
+            <div className="my-8 bg-white border border-warm-200 p-5">
+              <p className="text-xs text-warm-400 uppercase tracking-[0.15em] mb-2">近隣エリア</p>
+              <p className="text-sm text-warm-700 font-light leading-relaxed">
+                近隣の<Link href="/area/izumi/" className="text-warm-800 underline decoration-warm-300 hover:text-warm-900">和泉中央エリアのピラティススタジオ比較</Link>もあわせて検討できます。無料体験・料金・アクセスをまとめて確認できます。
+              </p>
+            </div>
       <RelatedAreas currentSlug="sakai" />
       <SiteFooter />
       <Script src="https://unpkg.com/lucide@latest" strategy="lazyOnload" />
