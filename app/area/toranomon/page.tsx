@@ -781,6 +781,13 @@ export default function ToranomonPage() {
       {/* AIスタジオ相談（遅延ロード・エリア自動セット） */}
       <ConsultantSection areaKey="toranomon" areaName="虎ノ門" />
 
+            {/* boost-hamamatsucho-202607 */}
+            <div className="my-8 bg-white border border-warm-200 p-5">
+              <p className="text-xs text-warm-400 uppercase tracking-[0.15em] mb-2">近隣エリア</p>
+              <p className="text-sm text-warm-700 font-light leading-relaxed">
+                オフィス街で仕事帰りに通うなら、<Link href="/area/hamamatsucho/" className="text-warm-800 underline decoration-warm-300 hover:text-warm-900">浜松町・大門エリアのピラティススタジオ比較</Link>もあわせて検討できます。無料体験・料金・アクセスをまとめて比較できます。
+              </p>
+            </div>
       <RelatedAreas currentSlug="toranomon" />
       <SiteFooter />
       <Script src="https://unpkg.com/lucide@latest" strategy="lazyOnload" />

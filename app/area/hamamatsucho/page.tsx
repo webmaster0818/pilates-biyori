@@ -507,6 +507,12 @@ export default function HamamatsuchoPage() {
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">芝公園・御成門方面から通う場合のアクセス</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  芝公園・御成門エリアは大門駅に隣接しており、浜松町・大門周辺のスタジオへは徒歩圏内で通えます。都営三田線「芝公園駅」「御成門駅」を利用する方は、大門駅方面のスタジオも選択肢に入れて比較するとよいでしょう。芝公園エリア単独ではスタジオ数が限られるため、大門・浜松町のスタジオとあわせて体験レッスンの空き状況・料金を確認するのがおすすめです。
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
                 <p className="text-warm-600 leading-relaxed">
                   浜松町エリアだけでなく、近隣の<Link href="/area/shimbashi/" className="text-warm-700 underline hover:text-warm-900">新橋</Link>、<Link href="/area/tamachi/" className="text-warm-700 underline hover:text-warm-900">田町</Link>、<Link href="/area/tokyo-station/" className="text-warm-700 underline hover:text-warm-900">東京駅</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。

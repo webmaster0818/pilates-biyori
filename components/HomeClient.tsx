@@ -865,6 +865,33 @@ export function HomeClient() {
               </div>
             </div>
 
+            {/* ブランドから探す（P0②ブランドハブ導線・インデックス促進） */}
+            <div className="mb-10 fade-up">
+              <h3 className="text-sm font-medium text-warm-800 mb-4 pb-2 border-b border-warm-200 uppercase tracking-[0.1em]">ブランドから探す</h3>
+              <div className="flex flex-wrap gap-2">
+                <Link href="/brands/" className="text-xs text-warm-800 hover:text-warm-900 border border-warm-400 px-3 py-1.5 hover:border-warm-600 transition-colors bg-white font-medium">ブランド一覧・比較</Link>
+                {[
+                  { name: 'zen place', slug: 'zen-place' },
+                  { name: 'pilates K', slug: 'pilates-k' },
+                  { name: 'BDC PILATES', slug: 'bdc' },
+                  { name: 'the SILK', slug: 'the-silk' },
+                  { name: 'Pilates Mee', slug: 'pilates-mee' },
+                  { name: 'CLUB PILATES', slug: 'club-pilates' },
+                ].map((b) => (
+                  <Link key={b.slug} href={`/brands/${b.slug}/`} className="text-xs text-warm-700 hover:text-warm-900 border border-warm-300 px-3 py-1.5 hover:border-warm-500 transition-colors bg-white">{b.name}</Link>
+                ))}
+              </div>
+              <div className="flex flex-wrap gap-2 mt-2">
+                {[
+                  { name: 'BDC 二子玉川', slug: 'bdc-futakotamagawa' },
+                  { name: 'BDC 恵比寿', slug: 'bdc-ebisu' },
+                  { name: 'BDC 表参道', slug: 'bdc-omotesando' },
+                ].map((b) => (
+                  <Link key={b.slug} href={`/brands/${b.slug}/`} className="text-xs text-warm-600 hover:text-warm-900 border border-warm-200 px-3 py-1.5 hover:border-warm-400 transition-colors bg-warm-50">{b.name}</Link>
+                ))}
+              </div>
+            </div>
+
             {/* 北海道・東北 */}
             <div className="mb-10 fade-up">
               <h3 className="text-sm font-medium text-warm-800 mb-4 pb-2 border-b border-warm-200 uppercase tracking-[0.1em]">北海道・東北</h3>

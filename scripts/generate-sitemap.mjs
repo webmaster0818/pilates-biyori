@@ -146,6 +146,10 @@ function build() {
   for (const slug of listBrands()) {
     lines.push(urlEntry(`/brands/${slug}/`, TODAY, 'weekly', '0.7'))
   }
+  // ブランド×エリア受け皿（P0①・data/brands.ts外の静的ページ）
+  for (const slug of ['bdc-futakotamagawa', 'bdc-ebisu', 'bdc-omotesando']) {
+    lines.push(urlEntry(`/brands/${slug}/`, TODAY, 'weekly', '0.6'))
+  }
 
   lines.push('</urlset>', '')
   return lines.join('\n')
