@@ -15,8 +15,9 @@ keywords:
   - "胸式呼吸 やり方"
   - "ピラティス 呼吸 コツ"
 relatedArticles:
-  - "pilates-yoga-difference"
-  - "pilates-beginner-home"
+  - "pilates-8-principles"
+  - "pilates-hundred-method"
+  - "joseph-pilates"
 ---
 
 # ピラティスの呼吸法を徹底解説

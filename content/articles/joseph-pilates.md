@@ -17,8 +17,8 @@ keywords:
   - "コントロロジー"
 relatedArticles:
   - "pilates-8-principles"
+  - "pilates-hundred-method"
   - "pilates-classical-vs-contemporary"
-  - "pilates-yoga-difference"
 ---
 
 # ジョセフ・ピラティスとは — 創始者の生涯と思想

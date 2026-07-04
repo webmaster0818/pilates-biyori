@@ -17,7 +17,7 @@ keywords:
 relatedArticles:
   - "pilates-hundred-method"
   - "pilates-roll-up-method"
-  - "joseph-pilates"
+  - "pilates-8-principles"
 ---
 
 # ピラティス代表エクササイズ20選

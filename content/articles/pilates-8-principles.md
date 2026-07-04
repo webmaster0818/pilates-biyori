@@ -15,8 +15,8 @@ keywords:
   - "ピラティス 原則"
   - "コントロロジー 原則"
 relatedArticles:
+  - "pilates-hundred-method"
   - "joseph-pilates"
-  - "pilates-classical-vs-contemporary"
   - "pilates-breathing"
 ---
 

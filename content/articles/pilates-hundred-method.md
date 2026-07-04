@@ -16,9 +16,9 @@ keywords:
   - "ハンドレッド やり方"
   - "ピラティス 代表エクササイズ"
 relatedArticles:
-  - "pilates-breathing"
+  - "pilates-8-principles"
   - "pilates-roll-up-method"
-  - "pilates-who-suits"
+  - "pilates-20-exercises"
 ---
 
 # ピラティスのハンドレッドのやり方

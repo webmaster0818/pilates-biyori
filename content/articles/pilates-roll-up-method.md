@@ -17,8 +17,8 @@ keywords:
   - "ピラティス 腹筋"
 relatedArticles:
   - "pilates-hundred-method"
-  - "pilates-breathing"
-  - "pilates-back-pain"
+  - "pilates-20-exercises"
+  - "pilates-8-principles"
 ---
 
 # ピラティスのロールアップのやり方
