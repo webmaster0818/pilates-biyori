@@ -209,3 +209,10 @@ jiro-2策定の集客戦略（GSC診断: 166click/20,988imp/CTR0.79%＝「巨大
 - build EXIT0(478p)・方式B(functions保全)・両push・本番200＋Dataset schema(value11220)＋7月更新見出し＋月次12,980円 確認・Indexing API 200。効果=相場クエリのfeatured snippet/AI引用獲得を1-2週GSC測定。
 - **⚠️月次cronは未設定**（refresh script単体はMD編集のみ・反映にはbuild+deploy要）。無人の月次build+deployは要判断→MediaXAIに提案中。当面は手動 or 承認後にcron化。
 - **jiro-2戦略の未実施差分は全消化**（P1title即答化7/6・P2 CLUB PILATES受け皿7/6・P5月次AEO7/6）。
+
+### 2026-07-06 P5月次AEOのcron自動化（MediaXAI「cron自動化で進めて欲しい」）✅稼働開始
+P5料金白書の月次更新を**launchd恒久cron化**（CronCreateはセッション限定・7日失効で月次に不適）。
+- **`scripts/monthly-hakusho.sh`**（冪等・全実データ）: ①refresh-hakusho-monthly.py（主要ブランド集計＋版日付＋updatedAt更新）②build（型チェック失敗で中止）③sitemap再生成→out/④方式Bデプロイ（**functions存在をrsync前後で検証・欠落時は中止**／--exclude .git/functions／source+deploy両push）⑤Indexing API⑥Discord通知。失敗時は各段で🚨通知して中止。ログ=/tmp/pilates-monthly-hakusho.log
+- **`~/Library/LaunchAgents/com.pilates.monthly-hakusho.plist`**: 毎月1日4:17実行。launchctl load済み・**テスト実行で一気通貫成功**（median=12980/free=76/total=714抽出・LastExitStatus=0）。
+- ⚠️**通知先**=「各サイト週次集計」ch(1485072787935592468)のwebhook流用（botがpilates ch 1487358680671326259のMANAGE_WEBHOOKS権限なし＝pilates chへの専用webhook作成不可）。メッセージに[Pilates料金白書]プレフィクス付き。pilates ch通知が必要ならMediaXAIがwebhook発行orbot権限付与要。
+- 冪等性: データ無変更月は「no change」で再デプロイのみ（commitはnothing to commitでskip）。効果=白書の鮮度シグナル（updatedAt月次更新）＋主要ブランド相場の自動最新化でAEO維持。

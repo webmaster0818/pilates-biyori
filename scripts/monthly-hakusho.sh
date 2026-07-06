@@ -41,8 +41,8 @@ rsync -a --delete --exclude='.git' --exclude='functions' out/ "$DEPLOY/" || { ec
 if [ ! -f "$DEPLOY/functions/api/contact.js" ]; then echo "functions消失→中止"; exit 1; fi
 
 # source + deploy 両push
-git add -A && git commit -q -m "月次: 料金白書AEO自動更新（$STAMP）" 2>/dev/null && git push -q origin HEAD 2>/dev/null
-cd "$DEPLOY" && git add -A && git commit -q -m "月次: 料金白書 deploy（$STAMP）" 2>/dev/null && git push -q origin HEAD:main 2>/dev/null
+git add -A && git commit -q -m "monthly: hakusho AEO auto-refresh" 2>/dev/null && git push -q origin HEAD 2>/dev/null
+cd "$DEPLOY" && git add -A && git commit -q -m "monthly: hakusho deploy" 2>/dev/null && git push -q origin HEAD:main 2>/dev/null
 cd "$SRC"
 
 # 5) Indexing API
