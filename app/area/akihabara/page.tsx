@@ -16,7 +16,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/akihabara/' },
-  title: '秋葉原のピラティススタジオおすすめ7選｜無料体験・料金で比較【2026年7月】',
+  title: '秋葉原のピラティス14社を比較｜無料体験1社・月額最安8,800円〜【2026年7月】',
   description: '秋葉原のピラティススタジオ7社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
   keywords: 'ピラティス,秋葉原,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

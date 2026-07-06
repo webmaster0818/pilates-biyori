@@ -16,7 +16,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/toyosu/' },
-  title: '豊洲のピラティス｜初心者OK・無料体験で選ぶ料金比較【2026年7月】',
+  title: '豊洲のピラティス12社を比較｜無料体験2社・月額最安7,800円〜【2026年7月】',
   description: '豊洲エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,豊洲,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,月島,有明',
 }

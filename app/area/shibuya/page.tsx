@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/shibuya/' },
-  title: '渋谷のピラティス｜初心者OK・無料体験で選ぶ料金比較【2026年7月】',
+  title: '渋谷のピラティス27社を比較｜無料体験4社・月額最安4,400円〜【2026年7月】',
   description: '渋谷エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,渋谷,東京,スタジオ,おすすめ,マシンピラティス,パーソナル,女性専用,体験レッスン,料金,比較',
 }

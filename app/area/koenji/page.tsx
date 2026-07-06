@@ -16,7 +16,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/koenji/' },
-  title: '高円寺のピラティス｜初心者OK・無料体験で選ぶ料金比較【2026年7月】',
+  title: '高円寺のピラティス23社を比較｜無料体験2社・月額最安7,700円〜【2026年7月】',
   description: '高円寺エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,高円寺,杉並区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,CLUB PILATES,zen place pilates,NATURAglam,Rintosull,STUDIO IVY,ELEMENT,chocoZAP',
 }
