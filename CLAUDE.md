@@ -198,3 +198,14 @@ jiro-2策定の集客戦略（GSC診断: 166click/20,988imp/CTR0.79%＝「巨大
 - sitemap生成器の受け皿リストにclub-pilates6追加(475URL)。⚠️静的パス`club-pilates-*`は`[slug]`動的ルート(brand=club-pilates)と競合せず＝ハブ`/brands/club-pilates/`健在確認済(BDC同様)。
 - build EXIT0(heap8192)・方式B(--exclude .git/functions・functions{contact,geo}.js保全確認)・両push・本番6/6が200＋自己canonical＋HealthClub schema確認・**Indexing API 6/6**。効果=クラブピラティス指名クエリの刈り取りを1-2週GSC測定。
 - **残る未実施差分**: P5料金相場レポート月次AEO(白書の月次更新版で相場クエリのAEO/引用獲得)。次候補。
+
+### 2026-07-06 jiro-2戦略P5=料金相場レポートの月次AEO（MediaXAI「p5進めて」）✅本番反映済み
+料金白書`/articles/pilates-ryokin-hakusho/`をAEO資産化（回答エンジン/featured snippet向け）。GSC料金系クエリは大半がエリア×体験(エリアページ管轄)・純相場クエリ「ピラティス 価格」等は白書が深順位→答えファースト＋構造化＋鮮度で押し上げ。
+- **①答えファースト「30秒でわかる料金相場【2026年7月更新】」**: 記事冒頭に相場一覧表(月額中央値11,220/平均13,679/体験無料61%/有料体験2,980/マシン54%/評価4.41)＋断定要約blockquote。全数値はsite-survey.ts(211調査)単一ソース＝捏造ゼロ。
+- **②Dataset構造化データ**（`app/articles/[slug]`にslug==='pilates-ryokin-hakusho'限定で注入）: schema.org/Dataset＋variableMeasured 6指標(月額中央値/平均/体験無料率/有料体験中央値/マシン率/評価)。**AI/回答エンジンが数値を機械抽出・引用可能に**＝AEOの核。値はSURVEYから(11220等)。既存Article/FAQPage/Breadcrumbと併存。
+- **③主要ブランド月次スナップショット**（月次の実体）: 「主要ブランドの月額プラン相場【月次更新:2026年7月】」=**data/brands-aggregate.json実集計**(主要15ブランド714店/月額表記628件→中央値12,980・平均13,861・体験無料76%)。**211調査(全業態・個人含む・中央値11,220)とは母集団が別**と明示し使い分けを注記(混同回避)。この数値は掲載店増で毎月変わる＝真の月次更新。
+- **④月次更新スクリプト`scripts/refresh-hakusho-monthly.py`**（冪等・cron候補）: brands-aggregateを再集計→月次スナップ本文＋版日付(30秒サマリー見出し/AEO脚注/月次見出し)＋frontmatter updatedAtを実行月に自動更新。python datetime。**手書き初版と完全一致(冪等確認済)**。211調査は別母集団のため触らない。
+- frontmatter: updatedAt→2026-07-06・AEOキーワード4追加(月額平均/月謝相場/体験いくら/価格)・AEO向けFAQ3追加(月謝平均/体験何円/個人vsチェーン=いずれも実数)。
+- build EXIT0(478p)・方式B(functions保全)・両push・本番200＋Dataset schema(value11220)＋7月更新見出し＋月次12,980円 確認・Indexing API 200。効果=相場クエリのfeatured snippet/AI引用獲得を1-2週GSC測定。
+- **⚠️月次cronは未設定**（refresh script単体はMD編集のみ・反映にはbuild+deploy要）。無人の月次build+deployは要判断→MediaXAIに提案中。当面は手動 or 承認後にcron化。
+- **jiro-2戦略の未実施差分は全消化**（P1title即答化7/6・P2 CLUB PILATES受け皿7/6・P5月次AEO7/6）。
