@@ -9,6 +9,7 @@ import { articleComponents } from '@/components/articles/ArticleFigures'
 import ArticleScrollReveal from '@/components/articles/ArticleScrollReveal'
 import ConsultantSection from '@/components/ConsultantSection'
 import Script from 'next/script'
+import { SURVEY } from '@/data/site-survey'
 
 export async function generateStaticParams() {
   const slugs = getArticleSlugs()
@@ -94,9 +95,37 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     })),
   } : null
 
+  // Dataset構造化データ（料金白書のみ・AEO/回答エンジンが数値を引用可能にする。数値は site-survey.ts 単一ソース）
+  const datasetLd = slug === 'pilates-ryokin-hakusho' ? {
+    '@context': 'https://schema.org',
+    '@type': 'Dataset',
+    name: '全国ピラティス料金相場データ（211スタジオ独自調査）',
+    description: '全国71エリア・211スタジオの公式情報を集計したピラティスの体験料金・月額相場・設備・評価データ。出典明記で引用可。',
+    creator: { '@type': 'Organization', name: 'Pilates-Biyori' },
+    url: `https://biyori-pilates.com/articles/${slug}/`,
+    isAccessibleForFree: true,
+    dateModified: frontmatter.updatedAt || frontmatter.publishedAt,
+    temporalCoverage: '2026-06',
+    keywords: ['ピラティス', '料金', '相場', '月額', '体験レッスン'],
+    variableMeasured: [
+      { '@type': 'PropertyValue', name: '月額（月4回）の中央値', value: SURVEY.monthly.median, unitText: 'JPY' },
+      { '@type': 'PropertyValue', name: '月額（月4回）の平均', value: SURVEY.monthly.avg, unitText: 'JPY' },
+      { '@type': 'PropertyValue', name: '体験レッスン無料率', value: SURVEY.trial.freePct, unitText: 'P1' },
+      { '@type': 'PropertyValue', name: '有料体験の中央値', value: SURVEY.trial.paidMedian, unitText: 'JPY' },
+      { '@type': 'PropertyValue', name: 'マシン導入率', value: 54, unitText: 'P1' },
+      { '@type': 'PropertyValue', name: '平均評価（5点満点）', value: SURVEY.rating.avg, minValue: 1, maxValue: 5 },
+    ],
+  } : null
+
   return (
     <>
       {/* 構造化データ */}
+      {datasetLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetLd) }}
+        />
+      )}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
