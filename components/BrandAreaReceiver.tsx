@@ -6,11 +6,13 @@ import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { getBrand } from "@/data/brands";
 import type { BdcStore } from "@/data/bdc-stores";
 
-// P0①: BDC×エリア受け皿。指名クエリ「BDC ピラティス {エリア}」の受け皿。
-// 実店舗データ（brands-aggregate.json一致）＋BDCブランド編集データ＋ブランド/エリアへの三角リンク。
-export function BrandAreaReceiver({ store }: { store: BdcStore }) {
-  const brand = getBrand("bdc");
-  const brandName = brand?.name ?? "BDC PILATES";
+// ブランド×エリア受け皿。指名クエリ「{ブランド} ピラティス {エリア}」の受け皿。
+// 実店舗データ（brands-aggregate.json一致）＋ブランド編集データ＋ブランド/エリアへの三角リンク。
+// brandSlug でBDC以外のブランド（club-pilates等）にも汎用対応。
+export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStore; brandSlug?: string }) {
+  const brand = getBrand(brandSlug);
+  const brandName = brand?.name ?? brandSlug.toUpperCase();
+  const brandHref = `/brands/${brandSlug}/`;
 
   const faqs = [
     {
@@ -43,7 +45,7 @@ export function BrandAreaReceiver({ store }: { store: BdcStore }) {
         items={[
           { name: "ホーム", url: "https://biyori-pilates.com/" },
           { name: "ブランド一覧", url: "https://biyori-pilates.com/brands/" },
-          { name: brandName, url: "https://biyori-pilates.com/brands/bdc/" },
+          { name: brandName, url: `https://biyori-pilates.com${brandHref}` },
           { name: `${store.areaQuery}`, url: `https://biyori-pilates.com/brands/${store.urlSlug}/` },
         ]}
       />
@@ -54,7 +56,7 @@ export function BrandAreaReceiver({ store }: { store: BdcStore }) {
             <span className="mx-2">›</span>
             <Link href="/brands/" className="hover:text-warm-800">ブランド一覧</Link>
             <span className="mx-2">›</span>
-            <Link href="/brands/bdc/" className="hover:text-warm-800">{brandName}</Link>
+            <Link href={brandHref} className="hover:text-warm-800">{brandName}</Link>
             <span className="mx-2">›</span>
             <span className="text-warm-800">{store.areaQuery}</span>
           </nav>
@@ -84,8 +86,8 @@ export function BrandAreaReceiver({ store }: { store: BdcStore }) {
                 <p className="text-xs text-warm-500 mt-1">{store.rating ? "掲載時点の評価" : "評価準備中"}</p>
               </div>
               <div>
-                <p className="text-lg font-light text-warm-900">徒歩2分</p>
-                <p className="text-xs text-warm-500 mt-1">最寄駅から</p>
+                <p className="text-lg font-light text-warm-900">{store.areaLabel}</p>
+                <p className="text-xs text-warm-500 mt-1">エリア</p>
               </div>
             </div>
           </section>
@@ -123,7 +125,7 @@ export function BrandAreaReceiver({ store }: { store: BdcStore }) {
               ))}
             </div>
             <p className="text-sm">
-              <Link href="/brands/bdc/" className="text-warm-800 underline decoration-warm-300 hover:text-warm-900">
+              <Link href={brandHref} className="text-warm-800 underline decoration-warm-300 hover:text-warm-900">
                 → {brandName}の料金・評判・全店舗一覧を見る
               </Link>
             </p>
@@ -163,7 +165,7 @@ export function BrandAreaReceiver({ store }: { store: BdcStore }) {
           {/* 関連リンク */}
           <section className="border-t border-warm-200 pt-8">
             <div className="flex flex-wrap gap-3">
-              <Link href="/brands/bdc/" className="text-xs text-warm-800 underline decoration-warm-300 hover:text-warm-900">{brandName}ブランドガイド</Link>
+              <Link href={brandHref} className="text-xs text-warm-800 underline decoration-warm-300 hover:text-warm-900">{brandName}ブランドガイド</Link>
               <Link href="/brands/" className="text-xs text-warm-800 underline decoration-warm-300 hover:text-warm-900">ブランド一覧</Link>
               <Link href={`/area/${store.areaSlug}/`} className="text-xs text-warm-800 underline decoration-warm-300 hover:text-warm-900">{store.areaLabel}のエリア比較</Link>
               <Link href="/articles/pilates-ryokin-hakusho/" className="text-xs text-warm-800 underline decoration-warm-300 hover:text-warm-900">全国ピラティス料金白書2026</Link>

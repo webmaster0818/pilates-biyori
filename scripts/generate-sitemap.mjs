@@ -146,8 +146,12 @@ function build() {
   for (const slug of listBrands()) {
     lines.push(urlEntry(`/brands/${slug}/`, TODAY, 'weekly', '0.7'))
   }
-  // ブランド×エリア受け皿（P0①・data/brands.ts外の静的ページ）
-  for (const slug of ['bdc-futakotamagawa', 'bdc-ebisu', 'bdc-omotesando']) {
+  // ブランド×エリア受け皿（P0①/P2・data/brands.ts外の静的ページ）
+  for (const slug of [
+    'bdc-futakotamagawa', 'bdc-ebisu', 'bdc-omotesando',
+    'club-pilates-nishinomiyakitaguchi', 'club-pilates-daikanyama', 'club-pilates-nakano-sakaue',
+    'club-pilates-toyosu', 'club-pilates-tamachi', 'club-pilates-kagurazaka',
+  ]) {
     lines.push(urlEntry(`/brands/${slug}/`, TODAY, 'weekly', '0.6'))
   }
 
