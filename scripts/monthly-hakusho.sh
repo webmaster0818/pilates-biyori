@@ -8,7 +8,13 @@ export PATH=/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin
 SRC="/Users/takashi.hasegawa/projects/pilates-biyori"
 DEPLOY="/Users/takashi.hasegawa/projects/pilates-biyori-deploy"
 GSC_PY="/Users/takashi.hasegawa/.openclaw/workspace/gsc-api/venv/bin/python"
-WEBHOOK=$(cat /Users/takashi.hasegawa/.openclaw/workspace/secrets/gsc-weekly-webhook.txt 2>/dev/null | tr -d '\n')
+# pilates専用webhook（=問い合わせフォームと同じpilates chのwebhook）があれば優先、無ければ週次集計chへ
+PILATES_WH=/Users/takashi.hasegawa/.openclaw/workspace/secrets/pilates-contact-webhook.txt
+if [ -f "$PILATES_WH" ]; then
+  WEBHOOK=$(cat "$PILATES_WH" 2>/dev/null | tr -d '\n ')
+else
+  WEBHOOK=$(cat /Users/takashi.hasegawa/.openclaw/workspace/secrets/gsc-weekly-webhook.txt 2>/dev/null | tr -d '\n')
+fi
 STAMP=$(date +"%Y-%m-%d %H:%M")
 cd "$SRC" || exit 1
 
