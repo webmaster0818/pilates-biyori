@@ -183,3 +183,10 @@ GSC「ページにリダイレクトがあります」141件=全て末尾スラ�
 - **内部リンク集中9本**(近隣→機会ページ・`boost-p1-{target}-202607`マーカー冪等・`<RelatedAreas`直前): umeda/honmachi→kitahama, sakai→izumi, umeda/esaka→shin-osaka, shinjuku/takadanobaba→shin-okubo, tokyo-station/marunouchi→otemachi
 - **TOP注目エリア+3**: 虎ノ門/大手町・東京駅/祇園四条(ホームページ被リンク=残りの機会ページも全て注目エリア掲載に)
 - build EXIT0・方式B(functions保全確認)・両push・otemachi独自データ/結論 本番反映確認・**Indexing API 12/12**。効果1-2週GSC測定。次=P2(記事勝ち筋クラスタ)・P3(白書被リンク営業/送客計測)
+
+### 2026-07-06 jiro-2戦略の未実施差分①=エリアtitle即答化（MediaXAI「こちらの戦略を参考に改善実行」）
+jiro-2策定の集客戦略（GSC診断: 166click/20,988imp/CTR0.79%＝「巨大な表示をクリックに変換が最短」）を参照。P0浜松町/機会バンド/メソッド記事は7/4に実施済み(私)。**未実施差分のP1=全エリアtitle即答化**を実行:
+- 高imp・低CTRの**25エリア**(浜松町528/目黒337/秋葉原267/渋谷185…大半CTR0%)のtitleを、掲載studiosの実データ算出値で即答型に: 「{エリア}のピラティス{N}社を比較｜無料体験{M}社・月額最安{X}円〜【2026年7月】」
+- `scratchpad/pilates_title_ctr.py`: inline studios から name数=N/trial「無料」=M/price最安(回数券除外・parseYen)=X を集計。**全て実データ・捏造なし・不確実ページはスキップ**設計
+- build EXIT0・方式B(functions保全)・両push・本番反映(目黒12社等)・Indexing 25/25。効果2-4週GSCでCTR測定
+- **残る未実施差分**: P2スタジオ指名面(club pilates/zen place受け皿・BDCと同型)・P5料金相場レポート月次AEO。次候補
