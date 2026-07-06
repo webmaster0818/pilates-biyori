@@ -190,3 +190,11 @@ jiro-2策定の集客戦略（GSC診断: 166click/20,988imp/CTR0.79%＝「巨大
 - `scratchpad/pilates_title_ctr.py`: inline studios から name数=N/trial「無料」=M/price最安(回数券除外・parseYen)=X を集計。**全て実データ・捏造なし・不確実ページはスキップ**設計
 - build EXIT0・方式B(functions保全)・両push・本番反映(目黒12社等)・Indexing 25/25。効果2-4週GSCでCTR測定
 - **残る未実施差分**: P2スタジオ指名面(club pilates/zen place受け皿・BDCと同型)・P5料金相場レポート月次AEO。次候補
+
+### 2026-07-06 jiro-2戦略P2=スタジオ指名面（CLUB PILATES×エリア受け皿）（MediaXAI「P2から進めて」）✅本番反映済み
+- **GSCで指名×エリア需要を実測特定**: club pilates/クラブピラティス指名クエリ=西宮北口10imp/代官山6/中野坂上3/豊洲2/田町1(pos9)/神楽坂1(pos11)等。**zen place/ゼンプレイスは指名×エリア需要ほぼゼロ**(唯一"疲労回復株式会社ゼンプレイス"1impの誤クエリのみ)→受け皿価値なしで**対象外**(正直に見送り)。
+- **BrandAreaReceiver汎用化**: BDCハードコード(getBrand("bdc")/`/brands/bdc/`4箇所)を`brandSlug`propで一般化(default"bdc"でBDC受け皿は無変更)。結論box4欄目の「徒歩2分」ハードコード=住所非開示店で捏造になるため`store.areaLabel`表示に変更。
+- **CLUB PILATES受け皿6本**(`/brands/club-pilates-{nishinomiyakitaguchi|daikanyama|nakano-sakaue|toyosu|tamachi|kagurazaka}/`): `data/club-pilates-stores.ts`(BdcStore型再利用)。**全データbrands-aggregate.json一致・架空ゼロ**。住所非開示3店(西宮北口/中野坂上/田町)はaddressIsVagueで正直表記・**評価は店舗別一次データ無しのため付けない**(捏造回避)。結論box＋店舗table＋getBrand("club-pilates")編集データ＋周辺エリア比較＋FAQ(FAQPage)＋HealthClub/Breadcrumb schema＋自己canonical。
+- sitemap生成器の受け皿リストにclub-pilates6追加(475URL)。⚠️静的パス`club-pilates-*`は`[slug]`動的ルート(brand=club-pilates)と競合せず＝ハブ`/brands/club-pilates/`健在確認済(BDC同様)。
+- build EXIT0(heap8192)・方式B(--exclude .git/functions・functions{contact,geo}.js保全確認)・両push・本番6/6が200＋自己canonical＋HealthClub schema確認・**Indexing API 6/6**。効果=クラブピラティス指名クエリの刈り取りを1-2週GSC測定。
+- **残る未実施差分**: P5料金相場レポート月次AEO(白書の月次更新版で相場クエリのAEO/引用獲得)。次候補。
