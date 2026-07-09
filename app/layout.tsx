@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Noto_Sans_JP, Cormorant_Garamond } from 'next/font/google'
 import './globals.css'
+import { OutboundClickTracker } from '@/components/OutboundClickTracker'
 
 const notoSansJP = Noto_Sans_JP({
   weight: ['300', '400', '500', '600', '700'],
@@ -142,6 +143,7 @@ export default function RootLayout({
           <style>{`.fade-up{opacity:1!important;transform:none!important}`}</style>
         </noscript>
         {children}
+        <OutboundClickTracker />
       </body>
     </html>
   )
