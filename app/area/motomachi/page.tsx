@@ -9,13 +9,14 @@ import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import Script from 'next/script'
 import ConsultantSection from '@/components/ConsultantSection'
+import { AreaConclusion } from '@/components/AreaConclusion'
 
 
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/motomachi/' },
-  title: '【2026最新】ピラティス元町おすすめ7選！人気スタジオの料金プランを簡単比較！',
-  description: '神戸元町エリアのおすすめピラティススタジオ7選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '元町のピラティススタジオおすすめ7選｜無料体験・料金で比較【2026年7月】',
+  description: '元町のピラティススタジオ7社を無料体験・料金・マシン対応で比較。各スタジオの料金プラン・アクセス・選び方のポイントを実データでまとめました。',
   keywords: 'ピラティス,元町,神戸,兵庫,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -429,6 +430,9 @@ export default function MotomachiPage() {
             </nav>
           </div>
         </section>
+        <AreaConclusion studios={studios} areaName="元町" />
+
+
 
         <TableOfContents areaName="元町" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
 

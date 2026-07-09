@@ -42,13 +42,9 @@ export function AreaConclusion({ areaName, studios }: { areaName: string; studio
           </p>
           <h2 className="text-lg md:text-xl font-bold text-warm-900 mb-3 leading-relaxed">
             {areaName}のピラティスは{total}社を比較。
-            {freeCount > 0 && <>{freeCount}社が無料体験に対応</>}
-            {monthlyMin !== null && (
-              <>
-                {freeCount > 0 ? '、' : '。'}月額は最安{monthlyMin.toLocaleString()}円〜
-              </>
-            )}
-            。目的から選べます。
+            {freeCount > 0 && <>{freeCount}社が無料体験に対応{monthlyMin !== null ? '、' : '。'}</>}
+            {monthlyMin !== null && <>月額は最安{monthlyMin.toLocaleString()}円〜。</>}
+            目的から選べます。
           </h2>
           <p className="text-sm text-warm-600 mb-5 leading-relaxed">
             「まず無料で試したい」「料金で選びたい」「初心者で不安」——あなたの目的に合わせて、下のボタンから読みたい比較に飛べます。料金・無料体験の有無・マシン対応は各スタジオの公式情報をもとに比較しています。

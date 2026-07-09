@@ -6,6 +6,7 @@ import { RelatedAreas } from '@/components/RelatedAreas'
 import { TableOfContents } from '@/components/TableOfContents'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
 import { AreaMarketComparison } from '@/components/AreaMarketComparison'
+import { AreaConclusion } from '@/components/AreaConclusion'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import { areaStudios } from '@/data/area-studios'
@@ -13,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/minamimorimachi/' },
-  title: '【2026年7月最新】ピラティス南森町おすすめスタジオ｜料金プランを徹底比較！',
-  description: '南森町（大阪府）のおすすめピラティススタジオを比較。南森町駅周辺の料金相場、マシン・パーソナル・女性専用の特徴、体験レッスン情報をまとめて掲載。',
+  title: '南森町のピラティススタジオおすすめ5選｜無料体験・料金で比較【2026年7月】',
+  description: '南森町のピラティススタジオ5社を無料体験・料金・マシン対応で比較。各スタジオの料金プラン・アクセス・選び方のポイントを実データでまとめました。',
   keywords: 'ピラティス,南森町,大阪府,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -83,6 +84,9 @@ export default function Page() {
             </nav>
           </div>
         </section>
+        <AreaConclusion studios={studios} areaName="南森町" />
+
+
 
         <TableOfContents areaName="南森町" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
 
