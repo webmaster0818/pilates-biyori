@@ -18,6 +18,7 @@ relatedArticles:
   - "pilates-hundred-method"
   - "joseph-pilates"
   - "pilates-breathing"
+  - "pilates-beginner-studio"
 ---
 
 # ピラティス8つの原則

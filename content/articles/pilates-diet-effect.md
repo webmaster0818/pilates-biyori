@@ -18,6 +18,7 @@ relatedArticles:
   - "pilates-effect-when"
   - "pilates-daily-effect"
   - "pilates-posture-effect"
+  - "pilates-hundred-method"
 ---
 
 # ピラティスダイエットの効果を徹底解説【2026年最新】3ヶ月で-5kg痩せる方法

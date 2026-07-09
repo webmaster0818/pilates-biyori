@@ -17,6 +17,7 @@ keywords:
 relatedArticles:
   - "pilates-effect-when"
   - "mat-machine-difference"
+  - "pilates-hundred-method"
 ---
 
 # ピラティスを毎日やると効果は上がる？週何回が最適？頻度と効果の関係

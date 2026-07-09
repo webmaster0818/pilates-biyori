@@ -20,6 +20,7 @@ relatedArticles:
   - "pilates-frequency"
   - "pilates-merit-demerit"
   - "pilates-yaseru-shikumi"
+  - "pilates-8-principles"
 faq:
   - q: "ピラティスはどのくらいで効果が出ますか？"
     a: "週1〜2回の継続で、姿勢や体の軽さは1ヶ月前後、見た目・サイズの変化は3ヶ月が一つの目安です。月1回程度では変化を感じにくくなります。"

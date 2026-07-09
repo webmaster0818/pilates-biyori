@@ -19,6 +19,7 @@ relatedArticles:
   - "pilates-8-principles"
   - "pilates-roll-up-method"
   - "pilates-20-exercises"
+  - "pilates-beginner-home"
 ---
 
 # ピラティスのハンドレッドのやり方

@@ -18,6 +18,7 @@ relatedArticles:
   - "mat-machine-difference"
   - "pilates-beginner-studio"
   - "pilates-effect-when"
+  - "pilates-8-principles"
 ---
 
 # マシンピラティス初心者完全ガイド

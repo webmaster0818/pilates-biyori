@@ -18,6 +18,7 @@ relatedArticles:
   - "pilates-effect-when"
   - "pilates-daily-effect"
   - "pilates-diet-effect"
+  - "pilates-hundred-method"
 ---
 
 # ピラティスは週何回が最適？【2026年最新】目的別の頻度と継続のコツ

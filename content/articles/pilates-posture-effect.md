@@ -18,6 +18,7 @@ relatedArticles:
   - "pilates-effect-when"
   - "pilates-back-pain"
   - "machine-pilates-beginner"
+  - "pilates-8-principles"
 ---
 
 # ピラティスの姿勢改善効果を徹底解説【2026年最新】

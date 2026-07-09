@@ -21,6 +21,7 @@ relatedArticles:
   - "pilates-effect-when"
   - "pilates-yoga-difference"
   - "pilates-koukanai-riyuu"
+  - "pilates-8-principles"
 faq:
   - q: "ピラティスのデメリットは何ですか？"
     a: "主なデメリットは(1)即効性がなく継続が必要、(2)パーソナル中心だと費用がかかる、(3)自己流ではフォームが崩れて効果が出にくい、(4)有酸素運動ほどカロリーを消費しない、の4点です。いずれも始め方を工夫すれば対策できます。"

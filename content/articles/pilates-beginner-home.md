@@ -17,6 +17,7 @@ keywords:
 relatedArticles:
   - "mat-machine-difference"
   - "pilates-effect-when"
+  - "pilates-hundred-method"
 ---
 
 # ピラティス初心者が自宅で始めるための完全ガイド

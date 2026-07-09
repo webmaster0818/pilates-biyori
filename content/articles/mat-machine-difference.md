@@ -17,6 +17,7 @@ keywords:
 relatedArticles:
   - "pilates-yoga-difference"
   - "pilates-effect-when"
+  - "pilates-hundred-method"
 ---
 
 # マットピラティスとマシンピラティスの違いとは？初心者におすすめの選び方

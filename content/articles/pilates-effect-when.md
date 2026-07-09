@@ -17,6 +17,7 @@ keywords:
 relatedArticles:
   - "pilates-yoga-difference"
   - "mat-machine-difference"
+  - "pilates-8-principles"
 ---
 
 # ピラティスの効果はいつから出る？週1回でも身体が変わる期間と頻度の目安

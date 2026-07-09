@@ -18,6 +18,7 @@ relatedArticles:
   - "pilates-yoga-difference"
   - "mat-machine-difference"
   - "pilates-price"
+  - "pilates-8-principles"
 ---
 
 # ピラティス初心者におすすめのスタジオ選び完全ガイド
