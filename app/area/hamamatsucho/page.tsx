@@ -482,6 +482,35 @@ export default function HamamatsuchoPage() {
         </section>
 
         {/* Cautions Section */}
+        {/* 大門駅の検索意図受け皿（大門 無料体験・初心者クエリ）*/}
+        <section className="py-16 bg-white" id="daimon">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">
+              大門駅でピラティスを探すなら（無料体験・初心者向け）
+            </h2>
+            <p className="text-warm-600 leading-relaxed text-center mb-8 max-w-2xl mx-auto">
+              浜松町駅と大門駅は地下通路でつながる同じエリアで、スタジオはどちらの駅からも徒歩数分の圏内に集まっています。「大門駅」「大門」でピラティスを探している場合も、このページで比較している浜松町・大門エリアのスタジオがそのまま候補になります。
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-warm-50 rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">大門で無料体験できるスタジオ</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  このページで比較しているスタジオのうち、体験レッスンが無料のスタジオは2社です。たとえば「the SILK 大門浜松町店」は都営浅草線・大江戸線「大門駅」A2出口から徒歩1分・体験レッスン無料で、ウェアやタオルの無料貸出があり手ぶらで体験できます（無料体験の最新の条件は各スタジオの公式サイトでご確認ください／情報引用元: the SILK公式サイト）。
+                </p>
+              </div>
+              <div className="bg-warm-50 rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">大門・浜松町で初心者が選ぶポイント</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  はじめての方は「未経験者が多いか」「手ぶらで通えるか」を目安にすると安心です。たとえば the SILK 大門浜松町店は体験者の約8割がピラティス未経験からのスタートで、初心者でも始めやすい環境です。まずは無料体験で雰囲気を確かめ、大門駅・浜松町駅のどちらから通いやすいか、時間帯の予約の取りやすさもあわせて選びましょう。
+                </p>
+              </div>
+            </div>
+            <p className="text-center mt-8">
+              <a href="#studios" className="inline-block bg-warm-800 text-white rounded-full px-6 py-3 text-sm font-medium hover:bg-warm-900 transition">大門・浜松町のスタジオを料金で比較する</a>
+            </p>
+          </div>
+        </section>
+
         <section className="py-16 bg-warm-50" id="cautions">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
