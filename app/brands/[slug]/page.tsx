@@ -40,7 +40,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const brand = getBrand(slug)
   if (!brand) return { title: 'ブランドが見つかりません' }
   const stores = STORES[slug] ?? []
-  const kw = brand.useHyoban ? '料金・評判・店舗一覧' : '料金・体験・店舗一覧'
+  // the SILKは「店舗一覧」クエリで上位表示実績があるため店舗意図を前方に
+  const kw = brand.slug === 'the-silk' ? '店舗一覧・料金・評判' : brand.useHyoban ? '料金・評判・店舗一覧' : '料金・体験・店舗一覧'
   return {
     title: `${brand.name}の${kw}【2026年7月】｜掲載${stores.length}店舗を比較`,
     description: `${brand.name}の料金プラン・体験レッスン・店舗一覧を掲載データから整理。${brand.tagline}。掲載${stores.length}店舗のエリア別リンク付きで、近くの店舗がすぐ見つかります。`,

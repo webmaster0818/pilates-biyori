@@ -149,6 +149,7 @@ function build() {
   // ブランド×エリア受け皿（P0①/P2・data/brands.ts外の静的ページ）
   for (const slug of [
     'bdc-futakotamagawa', 'bdc-ebisu', 'bdc-omotesando',
+    'kasane-hirakata', 'kasane-hamamatsu', 'kasane-kinshicho', 'kasane-okinawa-toyosaki', 'kasane-kawaguchi-maekawa',
     'club-pilates-nishinomiyakitaguchi', 'club-pilates-daikanyama', 'club-pilates-nakano-sakaue',
     'club-pilates-toyosu', 'club-pilates-tamachi', 'club-pilates-kagurazaka',
   ]) {
