@@ -216,3 +216,6 @@ P5料金白書の月次更新を**launchd恒久cron化**（CronCreateはセッ�
 - **`~/Library/LaunchAgents/com.pilates.monthly-hakusho.plist`**: 毎月1日4:17実行。launchctl load済み・**テスト実行で一気通貫成功**（median=12980/free=76/total=714抽出・LastExitStatus=0）。
 - ⚠️**通知先**=「各サイト週次集計」ch(1485072787935592468)のwebhook流用（botがpilates ch 1487358680671326259のMANAGE_WEBHOOKS権限なし＝pilates chへの専用webhook作成不可）。メッセージに[Pilates料金白書]プレフィクス付き。pilates ch通知が必要ならMediaXAIがwebhook発行orbot権限付与要。
 - 冪等性: データ無変更月は「no change」で再デプロイのみ（commitはnothing to commitでskip）。効果=白書の鮮度シグナル（updatedAt月次更新）＋主要ブランド相場の自動最新化でAEO維持。
+
+### 2026-07-11 更新日の常時最新化ルール（MediaXAI指示・恒久運用）
+**🔁運用ルール: pilatesで何か更新してデプロイする際は、必ず `python3 scripts/refresh-updated-dates.py` をビルド前に実行**（全ページの「更新日 @YYYY年MM月DD日」表記とMD frontmatter updatedAtを当日に最新化・冪等）。初回実行で435ファイル(tsx371+md64)を2026-07-11に統一済み。タイトルの【YYYY年M月】鮮度タグは別管理（月次/施策時にバンプ）。
