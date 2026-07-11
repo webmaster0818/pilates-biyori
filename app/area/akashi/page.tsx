@@ -49,6 +49,21 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
+    name: 'luluto（ルルト）明石店', image: '/images/studios/luluto.webp', rating: 4.8, reviewCount: 18,
+    reviews: [
+      { author: 'M.S', rating: 5, date: '1週間前', text: '完全マンツーマンのマシンピラティススタジオ。理学療法士監修のプログラムで一人ひとりに合わせた指導。気に入っています。' },
+      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
+      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
+    ],
+    price: '月3回 29,700円〜', trial: '体験レッスンあり', features: ['完全マンツーマン','理学療法士監修','高品質指導','カスタマイズ'],
+    description: '完全マンツーマンのマシンピラティススタジオ。理学療法士監修のプログラムで一人ひとりに合わせた指導',
+    access: '明石市内（詳細は公式サイトでご確認ください）', address: '兵庫県明石市（詳細は公式サイトでご確認ください）',
+    popularPlan: { name: '人気プラン', description: '完全マンツーマンのマシンピラティススタジオ。理学療法士監修のプログラム', price: '月3回 29,700円〜' },
+    options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
+    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
+  },
+  {
     name: 'ふたつき ピラティス', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 20,
     reviews: [
       { author: 'M.S', rating: 5, date: '1週間前', text: '理学療法士が運営するピラティススタジオ。体の仕組みを理解した指導で肩こりや腰痛、姿勢の悩みを抱える方も安心して。気に入っています。' },
@@ -74,21 +89,6 @@ const studios = [
     description: '大阪・奈良に複数店舗を展開する女性専用ピラティススタジオの兵庫県初出店。マシンピラティスとマットピラティスの両方に対応',
     access: '国道2号線沿い樽屋町', address: '兵庫県明石市樽屋町',
     popularPlan: { name: '人気プラン', description: '大阪・奈良に複数店舗を展開する女性専用ピラティススタジオの兵庫県初出店', price: '月額制（詳細は公式サイト）' },
-    options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
-  },
-  {
-    name: 'luluto（ルルト）明石店', image: '/images/studios/luluto.webp', rating: 4.8, reviewCount: 18,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '完全マンツーマンのマシンピラティススタジオ。理学療法士監修のプログラムで一人ひとりに合わせた指導。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
-    price: '月3回 29,700円〜', trial: '体験レッスンあり', features: ['完全マンツーマン','理学療法士監修','高品質指導','カスタマイズ'],
-    description: '完全マンツーマンのマシンピラティススタジオ。理学療法士監修のプログラムで一人ひとりに合わせた指導',
-    access: '明石市内（詳細は公式サイトでご確認ください）', address: '兵庫県明石市（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: '人気プラン', description: '完全マンツーマンのマシンピラティススタジオ。理学療法士監修のプログラム', price: '月3回 29,700円〜' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },

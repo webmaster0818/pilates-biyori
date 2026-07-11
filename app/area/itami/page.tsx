@@ -49,6 +49,21 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
+    name: 'luluto（ルルト）伊丹店', image: '/images/studios/luluto.webp', rating: 4.8, reviewCount: 15,
+    reviews: [
+      { author: 'M.S', rating: 5, date: '1週間前', text: '完全マンツーマンのマシンピラティススタジオ。理学療法士監修で一人ひとりの体に合わせた指導。気に入っています。' },
+      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
+      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
+    ],
+    price: '月3回 29,700円〜', trial: '体験レッスンあり', features: ['完全マンツーマン','理学療法士監修','高品質指導','カスタマイズ'],
+    description: '完全マンツーマンのマシンピラティススタジオ。理学療法士監修で一人ひとりの体に合わせた指導',
+    access: '伊丹市内（詳細は公式サイトでご確認ください）', address: '兵庫県伊丹市（詳細は公式サイトでご確認ください）',
+    popularPlan: { name: '人気プラン', description: '完全マンツーマンのマシンピラティススタジオ。理学療法士監修で一人ひとり', price: '月3回 29,700円〜' },
+    options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
+    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
+  },
+  {
     name: 'ピラティスアヴニール 伊丹店', image: '/images/studios/zen-place-pilates.webp', rating: 4.6, reviewCount: 28,
     reviews: [
       { author: 'M.S', rating: 5, date: '1週間前', text: 'カウンセリング・姿勢チェック・姿勢分析を経て最適なトレーニングプランを立てるパーソナルピラティススタジオ。気に入っています。' },
@@ -74,21 +89,6 @@ const studios = [
     description: '女性専用のマシンピラティススタジオ。リフォーマーを使った10名ほどの少人数制グループレッスンで初心者向けプログラムが豊富',
     access: '伊丹市内（詳細は公式サイトでご確認ください）', address: '兵庫県伊丹市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '人気プラン', description: '女性専用のマシンピラティススタジオ。リフォーマーを使った10名ほどの少', price: '月額制（詳細は公式サイト）' },
-    options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
-  },
-  {
-    name: 'luluto（ルルト）伊丹店', image: '/images/studios/luluto.webp', rating: 4.8, reviewCount: 15,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '完全マンツーマンのマシンピラティススタジオ。理学療法士監修で一人ひとりの体に合わせた指導。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
-    price: '月3回 29,700円〜', trial: '体験レッスンあり', features: ['完全マンツーマン','理学療法士監修','高品質指導','カスタマイズ'],
-    description: '完全マンツーマンのマシンピラティススタジオ。理学療法士監修で一人ひとりの体に合わせた指導',
-    access: '伊丹市内（詳細は公式サイトでご確認ください）', address: '兵庫県伊丹市（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: '人気プラン', description: '完全マンツーマンのマシンピラティススタジオ。理学療法士監修で一人ひとり', price: '月3回 29,700円〜' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },

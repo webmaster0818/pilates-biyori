@@ -49,6 +49,21 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
+    name: 'luluto（ルルト）名古屋大曽根店', image: '/images/studios/luluto.webp', rating: 4.8, reviewCount: 18,
+    reviews: [
+      { author: 'M.S', rating: 5, date: '1週間前', text: '完全マンツーマンのマシンピラティス。理学療法士監修で千種エリアからもアクセス良好。気に入っています。' },
+      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
+      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
+    ],
+    price: '月3回 29,700円〜', trial: '体験レッスンあり', features: ['完全マンツーマン','理学療法士監修','高品質指導','千種区近く'],
+    description: '完全マンツーマンのマシンピラティス。理学療法士監修で千種エリアからもアクセス良好',
+    access: 'JR「大曽根駅」徒歩圏内', address: '名古屋市（詳細は公式サイトでご確認ください）',
+    popularPlan: { name: '人気プラン', description: '完全マンツーマンのマシンピラティス。理学療法士監修で千種エリアからもア', price: '月3回 29,700円〜' },
+    options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
+    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
+  },
+  {
     name: 'Pilates Arts（ピラティスアーツ）', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 20,
     reviews: [
       { author: 'M.S', rating: 5, date: '1週間前', text: '名古屋市千種区池下町にある世界基準のピラティス専門スタジオ。本格的なピラティス指導が受けられる。気に入っています。' },
@@ -74,21 +89,6 @@ const studios = [
     description: 'マシンピラティスとサウナを備えたスタジオ。今池駅近くでピラティスとリラクゼーションの両方を楽しめる',
     access: '東山線「今池駅」徒歩圏内', address: '名古屋市千種区（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '人気プラン', description: 'マシンピラティスとサウナを備えたスタジオ。今池駅近くでピラティスとリラ', price: '月額制（詳細は公式サイト）' },
-    options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
-  },
-  {
-    name: 'luluto（ルルト）名古屋大曽根店', image: '/images/studios/luluto.webp', rating: 4.8, reviewCount: 18,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '完全マンツーマンのマシンピラティス。理学療法士監修で千種エリアからもアクセス良好。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
-    price: '月3回 29,700円〜', trial: '体験レッスンあり', features: ['完全マンツーマン','理学療法士監修','高品質指導','千種区近く'],
-    description: '完全マンツーマンのマシンピラティス。理学療法士監修で千種エリアからもアクセス良好',
-    access: 'JR「大曽根駅」徒歩圏内', address: '名古屋市（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: '人気プラン', description: '完全マンツーマンのマシンピラティス。理学療法士監修で千種エリアからもア', price: '月3回 29,700円〜' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
