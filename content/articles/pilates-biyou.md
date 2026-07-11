@@ -8,7 +8,7 @@ tags:
   - "美容"
   - "むくみ"
 publishedAt: "2026-06-06"
-updatedAt: "2026-06-06"
+updatedAt: "2026-07-11"
 author: "編集部"
 keywords:
   - "ピラティス 美容"

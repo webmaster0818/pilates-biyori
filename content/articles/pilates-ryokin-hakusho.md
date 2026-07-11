@@ -8,7 +8,7 @@ tags:
   - "独自調査"
   - "データ"
 publishedAt: "2026-06-12"
-updatedAt: "2026-07-06"
+updatedAt: "2026-07-11"
 author: "編集部"
 keywords:
   - "ピラティス 料金 相場"

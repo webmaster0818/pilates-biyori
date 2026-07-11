@@ -8,7 +8,7 @@ tags:
   - "初心者向け"
   - "料金比較"
 publishedAt: "2026-03-30"
-updatedAt: "2026-06-06"
+updatedAt: "2026-07-11"
 author: "編集部"
 keywords:
   - "ピラティス 初心者 おすすめ スタジオ"
