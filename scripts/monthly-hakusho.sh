@@ -31,6 +31,7 @@ echo "$REFRESH"
 
 # 1.5) 全ページの更新日表記を当日に最新化（恒久運用ルール 2026-07-11）
 python3 scripts/refresh-updated-dates.py || echo "date refresh skipped(継続)"
+python3 scripts/gen-widget-pilates.py || echo "widget gen skipped(継続)"
 
 # 2) build
 echo "--- build ---"
