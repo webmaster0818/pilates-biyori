@@ -26,9 +26,11 @@ notify() { # $1=message
 echo "===== [$STAMP] monthly-hakusho start ====="
 
 # 1) 白書リフレッシュ（主要ブランド集計＋版日付＋updatedAt）
-REFRESH=$(python3 scripts/refresh-hakusho-monthly.py
-python3 scripts/refresh-updated-dates.py 2>&1) || { echo "refresh FAILED: $REFRESH"; notify "🚨[Pilates料金白書] 月次更新の集計に失敗しました（$STAMP）。ログ確認要。"; exit 1; }
+REFRESH=$(python3 scripts/refresh-hakusho-monthly.py 2>&1) || { echo "refresh FAILED: $REFRESH"; notify "🚨[Pilates料金白書] 月次更新の集計に失敗しました（$STAMP）。ログ確認要。"; exit 1; }
 echo "$REFRESH"
+
+# 1.5) 全ページの更新日表記を当日に最新化（恒久運用ルール 2026-07-11）
+python3 scripts/refresh-updated-dates.py || echo "date refresh skipped(継続)"
 
 # 2) build
 echo "--- build ---"
