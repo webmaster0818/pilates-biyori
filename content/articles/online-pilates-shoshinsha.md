@@ -8,7 +8,7 @@ tags:
   - "初心者"
   - "始め方"
 publishedAt: "2026-06-12"
-updatedAt: "2026-07-11"
+updatedAt: "2026-07-12"
 author: "編集部"
 keywords:
   - "オンラインピラティス 始め方"
@@ -16,6 +16,7 @@ keywords:
   - "ピラティス 自宅 必要なもの"
 relatedArticles:
   - "online-pilates"
+  - "online-pilates-koka"
   - "online-pilates-live-video"
   - "online-pilates-ryokin"
   - "pilates-beginner-home"
@@ -69,7 +70,7 @@ faq:
 3. **受けたい時間帯にクラスがあるか** — 朝型/夜型と時間割の相性
 4. **無料体験の条件** — 期間・回数・解約方法
 
-タイプ別の違いは[ライブ型とビデオ型の違い](/articles/online-pilates-live-video/)、実在サービスの比較は[おすすめ比較](/articles/pilates-online/)で確認できます。
+タイプ別の違いは[ライブ型とビデオ型の違い](/articles/online-pilates-live-video/)、実在サービスの比較は[おすすめ比較](/articles/pilates-online/)で確認できます。「初心者が画面越しで本当に効果が出るのか」が不安な方は[オンラインピラティスは効果ある？](/articles/online-pilates-koka/)に結論をまとめています。
 
 ## STEP 4: 挫折しない「最初の4週間」プラン
 
@@ -82,7 +83,7 @@ faq:
 | 3週目 | 20〜30分×2回 | 種目のレパートリーを増やす |
 | 4週目 | 30分×2〜3回 | 週の固定スケジュール化 |
 
-ポイントは2週目に一度**ライブ型でフォック（フォームチェック）を挟む**こと。自己流のクセは早いうちほど直しやすいためです。
+ポイントは2週目に一度**ライブ型でフォームチェックを挟む**こと。自己流のクセは早いうちほど直しやすいためです。
 
 ## 初心者がやりがちなNG 5つ
 

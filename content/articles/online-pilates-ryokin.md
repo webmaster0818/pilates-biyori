@@ -8,7 +8,7 @@ tags:
   - "料金"
   - "無料体験"
 publishedAt: "2026-06-12"
-updatedAt: "2026-07-11"
+updatedAt: "2026-07-12"
 author: "編集部"
 keywords:
   - "オンラインピラティス 料金"
@@ -16,6 +16,7 @@ keywords:
   - "オンラインピラティス 安い"
 relatedArticles:
   - "online-pilates"
+  - "online-pilates-koka"
   - "pilates-online"
   - "online-vs-studio-pilates"
   - "pilates-price"
@@ -67,7 +68,7 @@ faq:
 | ライブ型グループ | 約3,000〜7,000円 | **約1/2〜1/3** |
 | 通学スタジオ（月4回） | 中央値11,220円 | — |
 
-**「まず安く始めて習慣化したい」ならオンライン、「フォーム習得・マシン種目」ならスタジオ**という住み分けが、費用面からも妥当です。詳しい使い分けは[オンラインとスタジオはどっちが良い？](/articles/online-vs-studio-pilates/)をどうぞ。
+**「まず安く始めて習慣化したい」ならオンライン、「フォーム習得・マシン種目」ならスタジオ**という住み分けが、費用面からも妥当です。詳しい使い分けは[オンラインとスタジオはどっちが良い？](/articles/online-vs-studio-pilates/)を、「安くても効果が出るのか」が気になる方は[オンラインピラティスは効果ある？](/articles/online-pilates-koka/)をどうぞ。
 
 ## 無料・格安で試す3つの方法
 

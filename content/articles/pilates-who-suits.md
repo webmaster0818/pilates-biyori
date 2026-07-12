@@ -8,7 +8,7 @@ tags:
   - "向き不向き"
   - "初心者向け"
 publishedAt: "2026-05-02"
-updatedAt: "2026-07-11"
+updatedAt: "2026-07-12"
 author: "編集部"
 keywords:
   - "ピラティス 向いている人"

@@ -8,7 +8,7 @@ tags:
   - "呼吸法"
   - "胸式呼吸"
 publishedAt: "2026-05-02"
-updatedAt: "2026-07-11"
+updatedAt: "2026-07-12"
 author: "編集部"
 keywords:
   - "ピラティス 呼吸法"

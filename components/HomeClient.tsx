@@ -271,6 +271,14 @@ export function HomeClient() {
                   </div>
                 </Link>
               </div>
+              <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
+                <span className="text-warm-400 text-[10px] uppercase tracking-[0.2em] font-medium">メソッドを学ぶ</span>
+                <Link href="/articles/pilates-8-principles/" className="text-warm-600 hover:text-warm-800 underline underline-offset-4 decoration-warm-300 transition-colors">8つの原則</Link>
+                <Link href="/articles/pilates-hundred-method/" className="text-warm-600 hover:text-warm-800 underline underline-offset-4 decoration-warm-300 transition-colors">ハンドレッド</Link>
+                <Link href="/articles/pilates-roll-up-method/" className="text-warm-600 hover:text-warm-800 underline underline-offset-4 decoration-warm-300 transition-colors">ロールアップ</Link>
+                <Link href="/articles/pilates-breathing/" className="text-warm-600 hover:text-warm-800 underline underline-offset-4 decoration-warm-300 transition-colors">呼吸法</Link>
+                <Link href="/articles/online-pilates-koka/" className="text-warm-600 hover:text-warm-800 underline underline-offset-4 decoration-warm-300 transition-colors">オンラインの効果</Link>
+              </div>
             </div>
 
             {/* 効果・メリット */}
