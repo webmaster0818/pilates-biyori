@@ -142,6 +142,7 @@ export default function RootLayout({
         <noscript>
           <style>{`.fade-up{opacity:1!important;transform:none!important}`}</style>
         </noscript>
+        <p className="bg-warm-100 text-warm-500 text-[11px] text-center py-1 px-4">本ページはPRを含みます</p>
         {children}
         <OutboundClickTracker />
       </body>

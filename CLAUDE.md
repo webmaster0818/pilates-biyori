@@ -217,5 +217,10 @@ P5料金白書の月次更新を**launchd恒久cron化**（CronCreateはセッ�
 - ⚠️**通知先**=「各サイト週次集計」ch(1485072787935592468)のwebhook流用（botがpilates ch 1487358680671326259のMANAGE_WEBHOOKS権限なし＝pilates chへの専用webhook作成不可）。メッセージに[Pilates料金白書]プレフィクス付き。pilates ch通知が必要ならMediaXAIがwebhook発行orbot権限付与要。
 - 冪等性: データ無変更月は「no change」で再デプロイのみ（commitはnothing to commitでskip）。効果=白書の鮮度シグナル（updatedAt月次更新）＋主要ブランド相場の自動最新化でAEO維持。
 
+### 2026-07-12 N-2実行＋問い合わせフォーム実地確認（MediaXAI「n-2進めて。あと、問い合わせフォーム有効か確認して」）✅本番反映済み
+- **フォーム確認**: /contact/ 200・POST /api/contact テストデータで**200 {"ok":true}**（必須フィールド=name/email/**type**/message・categoryではない）。フロントのname属性とAPI検証の一致も確認。有効。
+- **N-2=オンラインクラスタとどめ**: ①koka未リンク2記事(online-pilates-ryokin/online-pilates-shoshinsha)に本文文脈リンク+relatedArticles追加→クラスタ全記事からkokaへ集中 ②TOP基礎知識セクション末尾に「メソッドを学ぶ」チップ5本(8原則/ハンドレッド/ロールアップ/呼吸法/オンラインの効果)=メソッドハブへのTOP導線 ③誤字修正(shoshinsha「フォック」→「フォームチェック」)
+- refresh-updated-dates.py実行(435ファイル→07-12)→build EXIT0→方式B(functions4本=click/clicks/contact/geo保全確認)→両push→本番3ページ描画確認(エッジ伝播ラグあり=?v=クエリで確認)→Indexing 4/4。⚠️gsc-token.jsonの実体は`~/.openclaw/workspace/secrets/gsc-token.json`（gsc-api/直下ではない）
+
 ### 2026-07-11 更新日の常時最新化ルール（MediaXAI指示・恒久運用）
 **🔁運用ルール: pilatesで何か更新してデプロイする際は、必ず `python3 scripts/refresh-updated-dates.py` をビルド前に実行**（全ページの「更新日 @YYYY年MM月DD日」表記とMD frontmatter updatedAtを当日に最新化・冪等）。初回実行で435ファイル(tsx371+md64)を2026-07-11に統一済み。タイトルの【YYYY年M月】鮮度タグは別管理（月次/施策時にバンプ）。
