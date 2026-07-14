@@ -1,3 +1,7 @@
+'use client'
+
+import { useEffect, useState } from 'react'
+
 interface TocItem {
   id: string
   title: string
@@ -9,7 +13,7 @@ interface TableOfContentsProps {
 }
 
 export function TableOfContents({ areaName, studioNames }: TableOfContentsProps) {
-  const items: TocItem[] = [
+  const allItems: TocItem[] = [
     { id: 'studios', title: `${areaName}のおすすめピラティススタジオ` },
     { id: 'kodawari', title: 'こだわりから探す' },
     { id: 'frequency', title: 'おすすめの期間・頻度' },
@@ -18,6 +22,12 @@ export function TableOfContents({ areaName, studioNames }: TableOfContentsProps)
     { id: 'faq', title: 'よくある質問' },
     { id: 'summary', title: 'まとめ' },
   ]
+  // ページに実在するセクションのみ表示（生成ページはセクション構成が異なるため）
+  const [items, setItems] = useState<TocItem[]>(allItems)
+  useEffect(() => {
+    setItems(allItems.filter((it) => document.getElementById(it.id) !== null))
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   return (
     <section className="py-8 bg-white">

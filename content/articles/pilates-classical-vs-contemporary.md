@@ -32,7 +32,7 @@ relatedArticles:
 |----------|----------------|
 | ジョセフ・ピラティスのオリジナルを忠実に継承 | 解剖学・運動学の最新研究を取り入れ進化させたバージョン |
 
-詳しくは[ジョセフ・ピラティスの生涯](/joseph-pilates/)も参照。
+詳しくは[ジョセフ・ピラティスの生涯](/articles/joseph-pilates/)も参照。
 
 <ClassicalContemporaryDiagram />
 
