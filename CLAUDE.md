@@ -224,3 +224,10 @@ P5料金白書の月次更新を**launchd恒久cron化**（CronCreateはセッ�
 
 ### 2026-07-11 更新日の常時最新化ルール（MediaXAI指示・恒久運用）
 **🔁運用ルール: pilatesで何か更新してデプロイする際は、必ず `python3 scripts/refresh-updated-dates.py` をビルド前に実行**（全ページの「更新日 @YYYY年MM月DD日」表記とMD frontmatter updatedAtを当日に最新化・冪等）。初回実行で435ファイル(tsx371+md64)を2026-07-11に統一済み。タイトルの【YYYY年M月】鮮度タグは別管理（月次/施策時にバンプ）。
+
+### 2026-07-14 フッター・全サイトリンク総点検（MediaXAI「フッターリンク直して」「他もあるよ」）✅本番反映済み
+- **①フッターCategories 4本**: 基礎知識/効果/スタジオ選び/地域別が全て/#categories行き→/basics/ /benefits/ /studios/ /area/へ修正。古い「2026年3月31日時点」注記も恒久表現化
+- **②目次(ToC)の死にアンカー大量検出**: TableOfContentsが固定7項目をハードコード→生成系エリアページに無いセクションへのアンカーが#price-guide=190p/#frequency=185p/#kodawari=151p等→**'use client'化+useEffectでdocument.getElementById実在フィルタ**(恒久解・ページ個別修正不要)
+- **③記事誤リンク**: /joseph-pilates/→/articles/joseph-pilates/(2記事)
+- **④再発防止**: `scripts/check-links.py`(out/全ページのパス+アンカー整合チェッカー・動的ToCアンカーは除外)を新設しmonthly-hakusho.shの3.5)に組込(壊れ検知でDiscord警告)
+- 検証: 480ページ全リンク再走査でパス切れゼロ確認。教訓=**「リンクが機能していない」報告はhref 404だけでなく同一ページ内アンカーの不在を疑う**(クリックして何も起きない=ユーザーには全部「壊れたリンク」)
