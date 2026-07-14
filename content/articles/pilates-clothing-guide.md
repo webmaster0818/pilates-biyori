@@ -9,7 +9,7 @@ tags:
   - "持ち物"
   - "初心者向け"
 publishedAt: "2026-05-02"
-updatedAt: "2026-07-13"
+updatedAt: "2026-07-14"
 author: "編集部"
 keywords:
   - "ピラティス 服装"

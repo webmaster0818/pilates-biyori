@@ -14,10 +14,10 @@ export function SiteFooter() {
           <div>
             <h4 className="text-[10px] uppercase tracking-[0.2em] font-medium text-warm-300 mb-5">Categories</h4>
             <ul className="space-y-3 text-xs">
-              <li><a href="/#categories" className="text-warm-500 hover:text-white transition font-light">基礎知識</a></li>
-              <li><a href="/#categories" className="text-warm-500 hover:text-white transition font-light">効果・メリット</a></li>
-              <li><a href="/#categories" className="text-warm-500 hover:text-white transition font-light">スタジオ選び</a></li>
-              <li><a href="/#categories" className="text-warm-500 hover:text-white transition font-light">地域別</a></li>
+              <li><Link href="/basics/" className="text-warm-500 hover:text-white transition font-light">基礎知識</Link></li>
+              <li><Link href="/benefits/" className="text-warm-500 hover:text-white transition font-light">効果・メリット</Link></li>
+              <li><Link href="/studios/" className="text-warm-500 hover:text-white transition font-light">スタジオ選び</Link></li>
+              <li><Link href="/area/" className="text-warm-500 hover:text-white transition font-light">地域別</Link></li>
               <li><Link href="/brands/" className="text-warm-500 hover:text-white transition font-light">ブランド別ガイド</Link></li>
             </ul>
           </div>
@@ -44,7 +44,7 @@ export function SiteFooter() {
         <div className="border-t border-warm-800 mt-12 pt-8 text-center">
           <p className="text-warm-600 text-xs font-light">&copy; 2026 Pilates-Biyori. All rights reserved.</p>
           <p className="text-warm-700 text-[10px] font-light mt-2">
-            ※掲載情報は2026年3月31日時点のものです。最新情報は各公式サイトでご確認ください。
+            ※掲載情報は各ページ記載の更新日時点のものです。最新情報は各公式サイトでご確認ください。
           </p>
         </div>
       </div>
