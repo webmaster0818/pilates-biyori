@@ -43,6 +43,11 @@ fi
 # 3) sitemap 再生成 → out/ へ反映
 node scripts/generate-sitemap.mjs > /dev/null 2>&1 && cp public/sitemap.xml out/sitemap.xml 2>/dev/null
 
+# 3.5) 内部リンク・アンカー整合チェック（壊れあり=警告通知・デプロイは継続）
+if ! python3 scripts/check-links.py > /tmp/pilates-linkcheck.log 2>&1; then
+  notify "⚠️[Pilates料金白書] リンク切れを検知（$STAMP）: $(head -3 /tmp/pilates-linkcheck.log | tr '\n' ' ')"
+fi
+
 # 4) 方式Bデプロイ（functions保全確認必須）
 if [ ! -f "$DEPLOY/functions/api/contact.js" ]; then
   echo "functions欠落→中止"; notify "🚨[Pilates料金白書] deploy repoのfunctions欠落を検知。デプロイ中止（$STAMP）。"; exit 1
