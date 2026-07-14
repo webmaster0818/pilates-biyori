@@ -231,3 +231,8 @@ P5料金白書の月次更新を**launchd恒久cron化**（CronCreateはセッ�
 - **③記事誤リンク**: /joseph-pilates/→/articles/joseph-pilates/(2記事)
 - **④再発防止**: `scripts/check-links.py`(out/全ページのパス+アンカー整合チェッカー・動的ToCアンカーは除外)を新設しmonthly-hakusho.shの3.5)に組込(壊れ検知でDiscord警告)
 - 検証: 480ページ全リンク再走査でパス切れゼロ確認。教訓=**「リンクが機能していない」報告はhref 404だけでなく同一ページ内アンカーの不在を疑う**(クリックして何も起きない=ユーザーには全部「壊れたリンク」)
+
+### 2026-07-15 フッターリンク「トップへ飛ぶ」誤挙動の解消（MediaXAI報告）✅本番反映済み
+- **要因**: `html{scroll-behavior:smooth}`(globals.css)が、Next.jsクライアント遷移時のスクロール位置リセット(トップへ)までアニメーション化→旧ページ上で「ページ内リンクでトップに飛んだ」ように見える(縦長のTOP×フッターからの遷移で顕著)
+- **修正**: CSSのグローバルsmooth撤去+`components/SmoothAnchors.tsx`新設(委譲クリックハンドラで**同一ページ内の#アンカーのみ**scrollIntoView smooth・layout組込・全ページ適用)。ページ遷移は即時・アンカーは滑らかを両立
+- 教訓: **html{scroll-behavior:smooth}はNext.js(App Router)のLink遷移と相性が悪い**(遷移時スクロールリセットが旧ページ上で再生される)。スムース化はJSでアンカー限定にするのが正解
