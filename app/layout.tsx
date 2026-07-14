@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Noto_Sans_JP, Cormorant_Garamond } from 'next/font/google'
 import './globals.css'
+import { SmoothAnchors } from '@/components/SmoothAnchors'
 import { OutboundClickTracker } from '@/components/OutboundClickTracker'
 
 const notoSansJP = Noto_Sans_JP({
@@ -144,6 +145,7 @@ export default function RootLayout({
         </noscript>
         <p className="bg-warm-100 text-warm-500 text-[11px] text-center py-1 px-4">本ページはPRを含みます</p>
         {children}
+        <SmoothAnchors />
         <OutboundClickTracker />
       </body>
     </html>

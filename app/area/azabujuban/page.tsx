@@ -177,7 +177,7 @@ export default function AzabujubanPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年07月14日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年07月15日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス麻布十番おすすめ5選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
