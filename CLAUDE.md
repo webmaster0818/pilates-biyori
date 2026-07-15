@@ -236,3 +236,8 @@ P5料金白書の月次更新を**launchd恒久cron化**（CronCreateはセッ�
 - **要因**: `html{scroll-behavior:smooth}`(globals.css)が、Next.jsクライアント遷移時のスクロール位置リセット(トップへ)までアニメーション化→旧ページ上で「ページ内リンクでトップに飛んだ」ように見える(縦長のTOP×フッターからの遷移で顕著)
 - **修正**: CSSのグローバルsmooth撤去+`components/SmoothAnchors.tsx`新設(委譲クリックハンドラで**同一ページ内の#アンカーのみ**scrollIntoView smooth・layout組込・全ページ適用)。ページ遷移は即時・アンカーは滑らかを両立
 - 教訓: **html{scroll-behavior:smooth}はNext.js(App Router)のLink遷移と相性が悪い**(遷移時スクロールリセットが旧ページ上で再生される)。スムース化はJSでアンカー限定にするのが正解
+
+### 2026-07-15 「運営者情報→/#」の真因解消（MediaXAI再指摘）✅本番反映済み
+- **真因**: TOPだけSiteFooter不使用で**HomeClient内にフッターが重複実装**されており、運営者情報/お問い合わせが`href="#"`プレースホルダーのまま。前日の修正は共通SiteFooter側のみ有効だった
+- **修正**: TOP独自フッターを削除し`<SiteFooter />`に統一(単一情報源化)。check-links.pyに素の`href="#"`検出を追加(前回走査の盲点)
+- 教訓: **共通コンポーネントを直しても、ページ固有の重複実装が残っていることがある**。「直したのに直ってない」報告が来たら、該当ページのHTML実物をgrepして同名UIの重複実装を疑う
