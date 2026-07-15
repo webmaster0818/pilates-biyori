@@ -871,6 +871,15 @@ export function HomeClient() {
                   { name: '虎ノ門', slug: 'toranomon' },
                   { name: '大手町・東京駅', slug: 'otemachi' },
                   { name: '祇園四条', slug: 'gion-shijo' },
+                  { name: '銀座', slug: 'ginza' },
+                  { name: '丸の内', slug: 'marunouchi' },
+                  { name: '三軒茶屋', slug: 'sangenjaya' },
+                  { name: '新橋', slug: 'shimbashi' },
+                  { name: '高田馬場', slug: 'takadanobaba' },
+                  { name: '水道橋', slug: 'suidobashi' },
+                  { name: '笹塚', slug: 'sasazuka' },
+                  { name: '田園調布', slug: 'denenchofu' },
+                  { name: '桂', slug: 'katsura' },
                 ].map((a) => (
                   <Link key={a.slug} href={`/area/${a.slug}/`} className="text-xs text-warm-800 hover:text-warm-900 border border-warm-400 px-3 py-1.5 hover:border-warm-600 transition-colors bg-white font-medium">{a.name}</Link>
                 ))}
