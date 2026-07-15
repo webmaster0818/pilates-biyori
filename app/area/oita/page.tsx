@@ -12,7 +12,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/oita/' },
-  title: '【2026最新】ピラティス大分おすすめ6選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年7月最新】ピラティス大分おすすめ6選！人気スタジオの料金プランを簡単比較！',
   description: '大分エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,大分,大分市,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

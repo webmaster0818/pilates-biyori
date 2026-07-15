@@ -12,7 +12,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/higashi-osaka/' },
-  title: '【2026最新】ピラティス東大阪おすすめスタジオ｜料金プランを徹底比較！',
+  title: '【2026年7月最新】ピラティス東大阪おすすめスタジオ｜料金プランを徹底比較！',
   description: '東大阪（大阪府）のおすすめピラティススタジオを比較。近鉄布施駅周辺の料金相場、マシン・パーソナル・女性専用の特徴、体験レッスン情報をまとめて掲載。',
   keywords: 'ピラティス,東大阪,大阪府,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

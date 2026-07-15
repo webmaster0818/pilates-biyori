@@ -12,7 +12,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kirishima/' },
-  title: '【2026最新】ピラティス霧島おすすめスタジオ｜料金プランを徹底比較！',
+  title: '【2026年7月最新】ピラティス霧島おすすめスタジオ｜料金プランを徹底比較！',
   description: '霧島（鹿児島県）のおすすめピラティススタジオを比較。JR国分駅周辺の料金相場、マシン・パーソナル・女性専用の特徴、体験レッスン情報をまとめて掲載。',
   keywords: 'ピラティス,霧島,鹿児島県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

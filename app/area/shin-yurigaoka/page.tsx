@@ -12,7 +12,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/shin-yurigaoka/' },
-  title: '【2026最新】ピラティス新百合ヶ丘おすすめ5選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年7月最新】ピラティス新百合ヶ丘おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: '新百合ヶ丘エリアのおすすめピラティススタジオ5選を徹底比較。zen place pilates 新百合ヶ丘・pilates K 新百合ヶ丘店・sincere pilates 新百合ヶ丘など実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
   keywords: 'ピラティス,新百合ヶ丘,川崎市麻生区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

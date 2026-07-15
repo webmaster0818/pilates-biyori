@@ -14,7 +14,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/fukuoka/' },
-  title: '【2026最新】ピラティス福岡おすすめ9選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年7月最新】ピラティス福岡おすすめ9選！人気スタジオの料金プランを簡単比較！',
   description: '【2026年4月最新】福岡のおすすめピラティススタジオ9選を徹底比較。グループ月4回9,625円〜の料金相場、天神・博多エリアのスタジオ情報、体験レッスンの持ち物・服装まで完全網羅。',
   keywords: 'ピラティス,福岡,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

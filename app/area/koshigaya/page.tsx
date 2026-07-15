@@ -14,7 +14,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/koshigaya/' },
-  title: '越谷のピラティス｜初心者OK・無料体験で選ぶ料金比較【2026年7月】',
+  title: '【2026年7月最新】越谷のピラティス｜初心者OK・無料体験で選ぶ料金比較',
   description: '越谷エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,越谷,埼玉,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

@@ -12,7 +12,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/hikarigaoka/' },
-  title: '【2026最新】ピラティス光が丘おすすめ5選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年7月最新】ピラティス光が丘おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: '光が丘エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,光が丘,東京都練馬区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

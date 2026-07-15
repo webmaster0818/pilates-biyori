@@ -14,7 +14,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kyobashi-osaka/' },
-  title: '【2026最新】ピラティス京橋（大阪）おすすめ7選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年7月最新】ピラティス京橋（大阪）おすすめ7選！人気スタジオの料金プランを簡単比較！',
   description: '京橋（大阪）エリアのおすすめピラティススタジオ7選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。JR・京阪京橋駅から通いやすいスタジオが見つかります。',
   keywords: 'ピラティス,京橋,大阪,都島区,城東区,大阪ビジネスパーク,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

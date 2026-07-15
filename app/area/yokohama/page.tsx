@@ -14,7 +14,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/yokohama/' },
-  title: '【2026最新】ピラティス横浜おすすめ11選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年7月最新】ピラティス横浜おすすめ11選！人気スタジオの料金プランを簡単比較！',
   description: '【2026年4月最新】横浜のおすすめピラティススタジオ11選を徹底比較。グループ月4回9,625円〜の料金相場、駅近・女性専用・パーソナル対応のスタジオ情報、体験レッスンの持ち物まで完全網羅。',
   keywords: 'ピラティス,横浜,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

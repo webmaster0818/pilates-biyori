@@ -12,7 +12,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/soka/' },
-  title: '【2026最新】ピラティス草加おすすめ6選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年7月最新】ピラティス草加おすすめ6選！人気スタジオの料金プランを簡単比較！',
   description: '草加エリアのおすすめピラティススタジオ6選を徹底比較。Rintosull 草加店・Pilates Mee 草加店・exeed pilates studio 草加店など実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
   keywords: 'ピラティス,草加,埼玉県草加市,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

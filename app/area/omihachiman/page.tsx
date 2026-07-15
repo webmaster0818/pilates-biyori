@@ -12,7 +12,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/omihachiman/' },
-  title: '【2026最新】ピラティス近江八幡おすすめスタジオ｜料金プランを徹底比較！',
+  title: '【2026年7月最新】ピラティス近江八幡おすすめスタジオ｜料金プランを徹底比較！',
   description: '近江八幡（滋賀県）のおすすめピラティススタジオを比較。JR近江八幡駅周辺の料金相場、マシン・パーソナル・女性専用の特徴、体験レッスン情報をまとめて掲載。',
   keywords: 'ピラティス,近江八幡,滋賀県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

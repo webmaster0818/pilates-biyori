@@ -12,7 +12,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/chitose-funabashi/' },
-  title: '【2026最新】ピラティス千歳船橋おすすめ5選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年7月最新】ピラティス千歳船橋おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: '千歳船橋エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,千歳船橋,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

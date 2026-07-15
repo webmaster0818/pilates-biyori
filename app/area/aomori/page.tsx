@@ -12,7 +12,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/aomori/' },
-  title: '【2026最新】ピラティス青森おすすめスタジオ｜料金プランを徹底比較！',
+  title: '【2026年7月最新】ピラティス青森おすすめスタジオ｜料金プランを徹底比較！',
   description: '青森（青森県）のおすすめピラティススタジオを比較。JR青森駅周辺の料金相場、マシン・パーソナル・女性専用の特徴、体験レッスン情報をまとめて掲載。',
   keywords: 'ピラティス,青森,青森県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

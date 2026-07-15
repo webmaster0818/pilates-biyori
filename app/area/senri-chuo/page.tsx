@@ -14,7 +14,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/senri-chuo/' },
-  title: '【2026最新】ピラティス千里中央おすすめ5選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年7月最新】ピラティス千里中央おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: '千里中央エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。千里ニュータウンで初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,千里中央,豊中,千里ニュータウン,北摂,大阪,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

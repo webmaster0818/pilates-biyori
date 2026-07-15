@@ -12,7 +12,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/wakoshi/' },
-  title: '和光市のピラティススタジオおすすめ5選｜無料体験・料金で比較【2026年7月】',
+  title: '【2026年7月最新】和光市のピラティススタジオおすすめ5選｜無料体験・料金で比較',
   description: '和光市のピラティススタジオ5社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
   keywords: 'ピラティス,和光市,埼玉県和光市,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

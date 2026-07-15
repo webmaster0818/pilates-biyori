@@ -16,7 +16,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/shin-okubo/' },
-  title: '新大久保・新宿のピラティススタジオおすすめ8選｜無料体験・料金で比較【2026年7月】',
+  title: '【2026年7月最新】新大久保・新宿のピラティススタジオおすすめ8選｜無料体験・料金で比較',
   description: '新大久保・新宿のピラティススタジオ8社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
   keywords: 'ピラティス,新大久保,新宿,高田馬場,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

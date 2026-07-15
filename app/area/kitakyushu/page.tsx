@@ -14,7 +14,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kitakyushu/' },
-  title: '【2026最新】ピラティス北九州おすすめ6選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年7月最新】ピラティス北九州おすすめ6選！人気スタジオの料金プランを簡単比較！',
   description: '北九州エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。小倉・八幡エリアで初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,北九州,小倉,八幡,福岡,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

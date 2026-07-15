@@ -12,7 +12,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/chuo-rinkan/' },
-  title: '【2026最新】ピラティス中央林間おすすめ6選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年7月最新】ピラティス中央林間おすすめ6選！人気スタジオの料金プランを簡単比較！',
   description: '中央林間エリアのおすすめピラティススタジオ6選を徹底比較。Rintosull 中央林間店・Lucio 中央林間店・INSIGHT ピラティス＆トレーニング 中央林間など実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
   keywords: 'ピラティス,中央林間,神奈川県大和市,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

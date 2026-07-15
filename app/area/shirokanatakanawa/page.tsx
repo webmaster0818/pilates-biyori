@@ -14,7 +14,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/shirokanatakanawa/' },
-  title: '【2026最新】ピラティス白金高輪おすすめ12選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年7月最新】ピラティス白金高輪おすすめ12選！人気スタジオの料金プランを簡単比較！',
   description: '白金高輪エリアのおすすめピラティススタジオ12選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。白金台・高輪・麻布十番の周辺スタジオも紹介。',
   keywords: 'ピラティス,白金高輪,港区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,白金台,高輪',
 }

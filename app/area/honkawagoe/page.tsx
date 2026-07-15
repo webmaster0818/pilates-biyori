@@ -12,7 +12,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/honkawagoe/' },
-  title: '【2026最新】ピラティス本川越おすすめスタジオ｜料金プランを徹底比較！',
+  title: '【2026年7月最新】ピラティス本川越おすすめスタジオ｜料金プランを徹底比較！',
   description: '本川越（埼玉県）のおすすめピラティススタジオを比較。西武新宿線本川越駅周辺の料金相場、マシン・パーソナル・女性専用の特徴、体験レッスン情報をまとめて掲載。',
   keywords: 'ピラティス,本川越,埼玉県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

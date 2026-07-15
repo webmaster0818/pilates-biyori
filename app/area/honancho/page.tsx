@@ -14,7 +14,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/honancho/' },
-  title: '方南町のピラティススタジオおすすめ5選｜無料体験・料金で比較【2026年7月】',
+  title: '【2026年7月最新】方南町のピラティススタジオおすすめ5選｜無料体験・料金で比較',
   description: '方南町のピラティススタジオ5社を無料体験・料金・マシン対応で比較。各スタジオの料金プラン・アクセス・選び方のポイントを実データでまとめました。',
   keywords: 'ピラティス,方南町,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

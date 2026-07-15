@@ -14,7 +14,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/ginza/' },
-  title: '【2026最新】ピラティス銀座おすすめ11選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年7月最新】ピラティス銀座おすすめ11選！人気スタジオの料金プランを簡単比較！',
   description: '【2026年4月最新】銀座のおすすめピラティススタジオ11選を徹底比較。グループ月4回9,625円〜、パーソナル1回6,600円〜の料金相場、女性専用・マシン充実のスタジオ情報、選び方まで完全網羅。',
   keywords: 'ピラティス,銀座,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

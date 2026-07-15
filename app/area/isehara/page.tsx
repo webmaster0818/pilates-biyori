@@ -13,7 +13,7 @@ import { AreaConclusion } from '@/components/AreaConclusion'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/isehara/' },
-  title: '伊勢原のピラティススタジオおすすめ5選｜体験レッスン・料金で比較【2026年7月】',
+  title: '【2026年7月最新】伊勢原のピラティススタジオおすすめ5選｜体験レッスン・料金で比較',
   description: '伊勢原のピラティススタジオ5社を体験レッスン・料金・マシン対応で比較。各スタジオの料金プラン・アクセス・選び方のポイントを実データでまとめました。',
   keywords: 'ピラティス,伊勢原,神奈川県伊勢原市,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

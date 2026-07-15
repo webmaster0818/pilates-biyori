@@ -14,7 +14,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/yoyogi/' },
-  title: '【2026最新】ピラティス代々木おすすめ7選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年7月最新】ピラティス代々木おすすめ7選！人気スタジオの料金プランを簡単比較！',
   description: '代々木・南新宿エリアのおすすめピラティススタジオ7選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,代々木,南新宿,新宿,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

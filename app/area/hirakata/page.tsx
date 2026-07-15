@@ -14,7 +14,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/hirakata/' },
-  title: '枚方のピラティス12社を比較｜無料体験2社・月額最安11,220円〜【2026年7月】',
+  title: '【2026年7月最新】枚方のピラティス12社を比較｜無料体験2社・月額最安11,220円〜',
   description: '枚方エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,枚方,枚方市,くずは,大阪,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

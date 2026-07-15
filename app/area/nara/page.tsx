@@ -12,7 +12,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/nara/' },
-  title: '【2026最新】ピラティス奈良おすすめ5選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年7月最新】ピラティス奈良おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: '奈良エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。近鉄「近鉄奈良駅」/ JR「奈良駅」周辺の初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,奈良,奈良県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

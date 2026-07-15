@@ -12,7 +12,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/shimonoseki/' },
-  title: '【2026最新】ピラティス下関おすすめスタジオ｜料金プランを徹底比較！',
+  title: '【2026年7月最新】ピラティス下関おすすめスタジオ｜料金プランを徹底比較！',
   description: '下関（山口県）のおすすめピラティススタジオを比較。JR下関駅周辺の料金相場、マシン・パーソナル・女性専用の特徴、体験レッスン情報をまとめて掲載。',
   keywords: 'ピラティス,下関,山口県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

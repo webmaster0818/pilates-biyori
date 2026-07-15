@@ -16,7 +16,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kitahama/' },
-  title: '北浜・淀屋橋のピラティス12社を比較｜無料体験2社・月額最安10,450円〜【2026年7月】',
+  title: '【2026年7月最新】北浜・淀屋橋のピラティス12社を比較｜無料体験2社・月額最安10,450円〜',
   description: '北浜・淀屋橋のピラティススタジオ6社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
   keywords: 'ピラティス,北浜,淀屋橋,大阪,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
