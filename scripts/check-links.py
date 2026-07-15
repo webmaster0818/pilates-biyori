@@ -24,6 +24,13 @@ for p in pages:
         tp = p if tp_raw in ("", src.rstrip("/"), src) else OUT / (tp_raw.strip("/") + "/index.html")
         if not tp.exists(): continue
         if anchor not in ids_of(tp): broken_anchors.setdefault((tp_raw or "(self)", anchor), set()).add(src)
+# 素のhref="#"(プレースホルダ)も壊れとして検出
+for p in pages:
+    html = p.read_text(encoding="utf-8", errors="ignore")
+    src = "/" + str(p.parent.relative_to(OUT)) + "/"
+    import re as _re
+    n = len(_re.findall(r'href="#"', html))
+    if n: broken_paths.setdefault("(placeholder #)", set()).add(f"{src}×{n}")
 # ToCはクライアント側フィルタで非表示になるため、既知の動的フィルタ対象アンカーは除外
 DYNAMIC_TOC = {"kodawari","frequency","price-guide","how-to-choose","faq","summary","studios","trial-guide","price-comparison"}
 broken_anchors = {k:v for k,v in broken_anchors.items() if not (k[0]=="(self)" and k[1] in DYNAMIC_TOC)}
