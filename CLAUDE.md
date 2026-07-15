@@ -241,3 +241,10 @@ P5料金白書の月次更新を**launchd恒久cron化**（CronCreateはセッ�
 - **真因**: TOPだけSiteFooter不使用で**HomeClient内にフッターが重複実装**されており、運営者情報/お問い合わせが`href="#"`プレースホルダーのまま。前日の修正は共通SiteFooter側のみ有効だった
 - **修正**: TOP独自フッターを削除し`<SiteFooter />`に統一(単一情報源化)。check-links.pyに素の`href="#"`検出を追加(前回走査の盲点)
 - 教訓: **共通コンポーネントを直しても、ページ固有の重複実装が残っていることがある**。「直したのに直ってない」報告が来たら、該当ページのHTML実物をgrepして同名UIの重複実装を疑う
+
+### 2026-07-15 伸び悩み徹底調査＋canonical残存被害の回復オペ（MediaXAI「徹底的に洗って」）✅実行済み
+- **全370エリアをURL Inspection APIで完全走査**(/tmp/pilates_inspect.json): indexed348のうち**修正後クロール済み160/修正前のまま188(54%)**・**🚨TOP複製扱いで非インデックス9**(ginza/marunouchi/sangenjaya/shimbashi/takadanobaba/suidobashi/sasazuka/denenchofu/katsura)・その他未インデックス15
+- **結論**: 下落トリガー=June Spam Update(6/22週▲36%・完全一致)×回復阻害=canonical修正の浸透54%止まり(Update後の再評価を破損状態で受けた)。ブランド層+189imp成長=サイト全体ペナルティではない
+- **回復オペ**: 非インデックス9をTOP注目エリアチップ追加+全日付リフレッシュ+sitemap再送信+**Indexing API 212件一括送信(200×212・クォータ収まった)**
+- **🔁1週間後(7/22頃)に再走査して「修正後クロール率」の回復を定点報告すること**(走査スクリプトは/tmp/pilates_fullscan.logの手順・結果JSON=/tmp/pilates_inspect.json形式)
+- 教訓: **canonical一括修正後は「Googleが再クロールするまで直っていない」**。修正デプロイ+Inspection APIでの浸透率測定+Indexing API一括送信までがセット
