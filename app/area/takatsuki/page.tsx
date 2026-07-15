@@ -61,7 +61,7 @@ const studios = [
     basicInfo: { hours: '平日 9:30-21:30 / 土祝 9:30-19:30', closed: '日曜日', facilities: ['リフォーマー', 'TRX', 'ロッカー', '更衣室'] },
   },
   {
-    name: 'luluto（ルルト）高槻店',
+    name: 'luluto（ルルト）高槻店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
     image: '/images/studios/luluto.webp',
     rating: 4.7, reviewCount: 72,
     reviews: [

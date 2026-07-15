@@ -49,7 +49,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'luluto（ルルト）長野店', image: '/images/studios/luluto.webp', rating: 4.8, reviewCount: 18,
+    name: 'luluto（ルルト）長野店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808', image: '/images/studios/luluto.webp', rating: 4.8, reviewCount: 18,
     reviews: [
       { author: 'M.S', rating: 5, date: '1週間前', text: '長野市高田に位置する完全マンツーマンマシンピラティス。長野駅から車で10分。理学療法士が考案した医学的アプロー。気に入っています。' },
       { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },

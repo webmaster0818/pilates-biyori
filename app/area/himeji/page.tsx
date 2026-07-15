@@ -34,7 +34,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'luluto（ルルト）姫路店', image: '/images/studios/luluto.webp', rating: 4.8, reviewCount: 22,
+    name: 'luluto（ルルト）姫路店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808', image: '/images/studios/luluto.webp', rating: 4.8, reviewCount: 22,
     reviews: [
       { author: 'M.S', rating: 5, date: '1週間前', text: '全国展開の完全マンツーマンマシンピラティススタジオ。理学療法士が監修し実技試験に合格したトレーナーが指導。気に入っています。' },
       { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },

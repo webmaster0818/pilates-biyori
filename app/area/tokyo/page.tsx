@@ -127,7 +127,7 @@ const studios = [
     },
   },
   {
-    name: 'ルルト（luluto）',
+    name: 'ルルト（luluto）', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
     image: '/images/studios/luluto.webp',
     rating: 4.3,
     reviewCount: 26,

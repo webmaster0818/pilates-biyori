@@ -61,7 +61,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
   },
   {
-    name: 'ルルト 戸塚',
+    name: 'ルルト 戸塚', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
     image: '/images/studios/default-studio.webp',
     rating: 4.8,
     reviewCount: 12,

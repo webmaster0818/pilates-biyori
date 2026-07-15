@@ -127,7 +127,7 @@ const studios = [
     },
   },
   {
-    name: 'ルルト 横浜店',
+    name: 'ルルト 横浜店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
     image: '/images/studios/luluto.webp',
     rating: 4.9,
     reviewCount: 4,

@@ -127,7 +127,7 @@ const studios = [
     },
   },
   {
-    name: 'luluto（ルルト）那覇小禄店',
+    name: 'luluto（ルルト）那覇小禄店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
     image: '/images/studios/luluto.webp',
     rating: 4.4,
     reviewCount: 12,

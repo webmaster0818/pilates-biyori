@@ -128,6 +128,7 @@ const studios = [
   },
   {
     name: 'luluto 千葉2号店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
     image: '/images/studios/luluto.webp',
     rating: 4.3,
     reviewCount: 30,

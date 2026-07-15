@@ -59,7 +59,7 @@ const studios = [
   },
 
   {
-    name: 'ルルト 名駅店',
+    name: 'ルルト 名駅店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
     image: '/images/studios/luluto.webp',
     rating: 4.9,
     reviewCount: 19,

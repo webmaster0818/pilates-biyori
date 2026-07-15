@@ -61,7 +61,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'luluto（ルルト）大津店',
+    name: 'luluto（ルルト）大津店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
     image: '/images/studios/luluto.webp',
     rating: 4.8,
     reviewCount: 20,
