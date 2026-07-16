@@ -8,7 +8,7 @@ tags:
   - "効果"
   - "エクササイズ"
 publishedAt: "2026-03-30"
-updatedAt: "2026-07-15"
+updatedAt: "2026-07-17"
 author: "編集部"
 keywords:
   - "ピラティス 肩こり 改善"

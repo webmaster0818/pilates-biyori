@@ -9,7 +9,7 @@ tags:
   - "コントロロジー"
   - "知識"
 publishedAt: "2026-05-11"
-updatedAt: "2026-07-15"
+updatedAt: "2026-07-17"
 author: "編集部"
 keywords:
   - "ジョセフ・ピラティス"

@@ -8,7 +8,7 @@ tags:
   - "柔軟性"
   - "体が硬い"
 publishedAt: "2026-06-06"
-updatedAt: "2026-07-15"
+updatedAt: "2026-07-17"
 author: "編集部"
 keywords:
   - "ピラティス 柔軟性"

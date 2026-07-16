@@ -294,7 +294,7 @@ export default function OjiPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年07月15日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年07月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス王子おすすめ8選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
@@ -429,6 +429,34 @@ export default function OjiPage() {
         </section>
 
         {/* Cautions Section */}
+        <section className="py-16 bg-white" id="machine">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">
+              王子でマシンピラティス・リフォーマーを探すなら
+            </h2>
+            <p className="text-warm-600 leading-relaxed text-center mb-8 max-w-2xl mx-auto">
+              「王子 マシンピラティス」「リフォーマーピラティス 王子」で探している方に向けて、王子駅周辺でマシン（リフォーマー）を使えるスタジオを整理します。王子エリアはマシン専門・マシン併設のスタジオが揃っており、負荷調整がしやすいマシンピラティスは初心者にもおすすめです。
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-warm-50 rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">マシン専門で通うなら（リントスル王子）</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  「リントスル（Rintosull）王子店」はマシンピラティス専門の女性専用スタジオで、リフォーマーの台数が多く、体験0円・月4回13,420円〜、通い放題プランも用意されています。「リントスル 王子」で探している方はこのスタジオが該当します。まずは体験0円でマシンの動きを試すのがおすすめです。
+                </p>
+              </div>
+              <div className="bg-warm-50 rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">プライベートでマシンを使うなら</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  マンツーマンでリフォーマー・チェア・マットを組み合わせた本格的な指導を受けたい方は「Pilates Studio M」のプライベートレッスンが選択肢です。グループが苦手な方や、体の悩みに合わせてじっくり調整したい方に向いています。マシン専門のリントスルと、プライベート中心のStudio Mを、料金と通い方で比較して選びましょう。
+                </p>
+              </div>
+            </div>
+            <p className="text-center mt-8">
+              <a href="#studios" className="inline-block bg-warm-800 text-white rounded-full px-6 py-3 text-sm font-medium hover:bg-warm-900 transition">王子のスタジオを料金で比較する</a>
+            </p>
+          </div>
+        </section>
+
         <section className="py-16 bg-warm-50" id="cautions">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">

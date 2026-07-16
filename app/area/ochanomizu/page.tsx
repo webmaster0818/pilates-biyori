@@ -313,6 +313,10 @@ const studios = [
 
 const faqs = [
   {
+    question: '神保町駅の近くにピラティススタジオはありますか？',
+    answer: 'あります。神保町駅から徒歩1〜2分圏内に「zen place pilates 神保町店」（A7出口徒歩1分・マシン完備・男性可）、「ピラティスK 神保町店」（徒歩2分・女性専用・体験0円）があり、さらに完全プライベート専門の「PILATES STUDIO ZERO 神保町店」、中国語対応の「Z&Z Pilates Studio 神保町店」など、目的別に選べるスタジオが揃っています。いずれも御茶ノ水駅からも徒歩圏内です。',
+  },
+  {
     question: 'ピラティス初心者でも大丈夫ですか？',
     answer: '大丈夫です！御茶ノ水・神保町エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。YARD御茶ノ水は会員の7割が初心者スタート、zen placeも初心者歓迎なので、運動が苦手な方でも安心して始められますよ。',
   },
@@ -393,7 +397,7 @@ export default function OchanomizuPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年07月15日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年07月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】御茶ノ水・神保町の<br className="hidden md:block" />
               ピラティススタジオおすすめ8選！
@@ -528,6 +532,34 @@ export default function OchanomizuPage() {
         </section>
 
         {/* Cautions Section */}
+        <section className="py-16 bg-white" id="jimbocho">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">
+              神保町駅周辺でピラティスを探すなら
+            </h2>
+            <p className="text-warm-600 leading-relaxed text-center mb-8 max-w-2xl mx-auto">
+              御茶ノ水駅と神保町駅は徒歩圏内の隣接エリアで、スタジオはどちらの駅からも通える距離に集まっています。「神保町」「神保町駅」でピラティスを探している場合も、このページで比較しているスタジオがそのまま候補になります。神保町駅周辺には、女性専用・完全プライベート・多言語対応など特徴の異なるスタジオが揃っています。
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-warm-50 rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">神保町駅すぐのスタジオ（徒歩1〜2分）</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  神保町駅から特に近いのは「zen place pilates 神保町店」（A7出口より徒歩1分・マシン完備・男性も利用可）と「ピラティスK 神保町店」（徒歩2分・女性専用・体験0円）です。どちらも新御茶ノ水・御茶ノ水駅からも徒歩7分ほどで、御茶ノ水方面から通う方にも便利です。最新の営業時間・体験条件は各スタジオ公式サイトでご確認ください。
+                </p>
+              </div>
+              <div className="bg-warm-50 rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">目的で選ぶ神保町のピラティス</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  マンツーマンでじっくり通いたい方は完全プライベート専門の「PILATES STUDIO ZERO 神保町店」、中国語での指導に対応してほしい方は国際認証インストラクター在籍の「Z&amp;Z Pilates Studio 神保町店」が選択肢になります。女性専用・グループ中心ならピラティスK、他店利用や男性もOKの通いやすさならzen placeと、目的に合わせて比較するのがおすすめです。
+                </p>
+              </div>
+            </div>
+            <p className="text-center mt-8">
+              <a href="#studios" className="inline-block bg-warm-800 text-white rounded-full px-6 py-3 text-sm font-medium hover:bg-warm-900 transition">御茶ノ水・神保町のスタジオを料金で比較する</a>
+            </p>
+          </div>
+        </section>
+
         <section className="py-16 bg-warm-50" id="cautions">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">

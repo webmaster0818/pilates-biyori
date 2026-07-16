@@ -8,7 +8,7 @@ tags:
   - "初心者向け"
   - "リフォーマー"
 publishedAt: "2026-03-30"
-updatedAt: "2026-07-15"
+updatedAt: "2026-07-17"
 author: "編集部"
 keywords:
   - "マシンピラティス 初心者 おすすめ"

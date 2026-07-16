@@ -291,6 +291,10 @@ const studios = [
 
 const faqs = [
   {
+    question: '浜松町・大門で無料体験できるピラティススタジオはありますか？',
+    answer: 'あります。このページで比較している浜松町・大門エリアのスタジオのうち、体験レッスンが無料のスタジオは2社です。たとえば「the SILK 大門浜松町店」は都営浅草線・大江戸線「大門駅」A2出口から徒歩1分で体験レッスン無料、ウェア・タオルの無料貸出があり手ぶらで体験できます。「浜松町 ピラティス 無料体験」「大門駅 ピラティス」で探している方は、まず無料体験で雰囲気を確かめるのがおすすめです（最新の無料体験の条件は各スタジオ公式サイトでご確認ください）。',
+  },
+  {
     question: 'ピラティス初心者でも大丈夫ですか？',
     answer: '大丈夫です！浜松町エリアのスタジオはほとんどが初心者歓迎。the SILKは体験者の約8割がピラティス未経験者、CLUB PILATESは4段階のレベル分けがあります。',
   },
@@ -347,7 +351,7 @@ export default function HamamatsuchoPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年07月15日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年07月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス浜松町おすすめ5選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
