@@ -344,6 +344,10 @@ const studios = [
 
 const faqs = [
   {
+    question: '淀屋橋の近くにピラティススタジオはありますか？',
+    answer: 'あります。北浜駅と淀屋橋駅は徒歩数分の隣接エリアで、このページで比較しているスタジオはどちらの駅からも通えます。たとえば「Pilates Bodywork Studio 大阪北浜淀屋橋本店」は北浜・淀屋橋の両エリアを商圏とし、リフォーマーを使ったグループレッスンに対応しています。「淀屋橋 ピラティス」で探している方も、北浜エリアのスタジオを候補に料金・体験レッスンを比較するのがおすすめです。',
+  },
+  {
     question: 'ピラティス初心者でも大丈夫ですか？',
     answer: '大丈夫です！北浜・淀屋橋エリアのスタジオはほとんどが初心者歓迎。ビーキューブは姿勢分析からスタート、ピラティススタジオ進化は定員6名の少人数制で安心です。',
   },
@@ -535,6 +539,34 @@ export default function KitahamaPage() {
         </section>
 
         {/* Cautions Section */}
+        <section className="py-16 bg-white" id="yodoyabashi">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">
+              淀屋橋駅周辺でピラティスを探すなら
+            </h2>
+            <p className="text-warm-600 leading-relaxed text-center mb-8 max-w-2xl mx-auto">
+              北浜駅と淀屋橋駅は御堂筋・土佐堀通をはさんで隣接する徒歩数分のエリアで、スタジオはどちらの駅からも通える距離に集まっています。「淀屋橋 ピラティス」「淀屋橋駅 ピラティス」で探している場合も、このページで比較している北浜・淀屋橋エリアのスタジオがそのまま候補になります。
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-warm-50 rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">北浜・淀屋橋の両方から通えるスタジオ</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  「Pilates Bodywork Studio 大阪北浜淀屋橋本店」は店名のとおり北浜・淀屋橋の両エリアを商圏とするスタジオで、リフォーマーを使ったグループレッスンに対応しています。淀屋橋駅から通う場合も、北浜駅から通う場合も徒歩圏内。ビジネス街の立地で、仕事帰りに通いやすいのが特徴です。
+                </p>
+              </div>
+              <div className="bg-warm-50 rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">淀屋橋エリアで選ぶポイント</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  淀屋橋・北浜はオフィスワーカーが多いエリアのため、朝や仕事帰りの時間帯に予約が集中しやすい傾向があります。通いたい時間帯にレッスン枠があるか、マシン（リフォーマー）中心かマット中心か、体験レッスンの料金を、北浜エリアのスタジオとあわせて比較するのがおすすめです。
+                </p>
+              </div>
+            </div>
+            <p className="text-center mt-8">
+              <a href="#studios" className="inline-block bg-warm-800 text-white rounded-full px-6 py-3 text-sm font-medium hover:bg-warm-900 transition">北浜・淀屋橋のスタジオを料金で比較する</a>
+            </p>
+          </div>
+        </section>
+
         <section className="py-16 bg-warm-50" id="cautions">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">

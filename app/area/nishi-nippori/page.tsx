@@ -339,6 +339,34 @@ export default function NishiNipporiPage() {
         </section>
 
         {/* Cautions Section */}
+        <section className="py-16 bg-white" id="machine-nippori">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">
+              西日暮里でマシンピラティス・日暮里エリアを探すなら
+            </h2>
+            <p className="text-warm-600 leading-relaxed text-center mb-8 max-w-2xl mx-auto">
+              西日暮里駅周辺には、リフォーマーなどのマシンを使うスタジオが揃っています。「マシンピラティス 西日暮里」で探している方は、負荷調整がしやすく初心者にも向くマシンピラティス対応のスタジオを候補にするとよいでしょう。西日暮里と日暮里は隣接エリアのため、両エリアのスタジオを比較するのがおすすめです。
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-warm-50 rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">西日暮里でマシンピラティスに通うなら</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  マシン中心で通いたい方は「パーソナルマシンピラティスYUZU」（マンツーマンのマシン指導）や、リフォーマーグループに対応する「URBAN CLASSIC PILATES 日暮里店」が候補です。マシンピラティスは強度を細かく調整できるため、運動が久しぶりの方や体の悩みがある方でも始めやすいのが特徴です。
+                </p>
+              </div>
+              <div className="bg-warm-50 rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">日暮里駅周辺をお探しの方へ</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  西日暮里駅と日暮里駅はJR・地下鉄で1駅隣の近接エリアです。日暮里駅を最寄りにお探しの場合は、<Link href="/area/nippori/" className="text-warm-800 underline hover:text-warm-900">日暮里のピラティススタジオ比較ページ</Link>もあわせてご覧ください。どちらの駅からも通えるスタジオが多いため、両ページを見比べて通いやすい方を選ぶのがおすすめです。
+                </p>
+              </div>
+            </div>
+            <p className="text-center mt-8">
+              <a href="#studios" className="inline-block bg-warm-800 text-white rounded-full px-6 py-3 text-sm font-medium hover:bg-warm-900 transition">西日暮里のスタジオを料金で比較する</a>
+            </p>
+          </div>
+        </section>
+
         <section className="py-16 bg-warm-50" id="cautions">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">

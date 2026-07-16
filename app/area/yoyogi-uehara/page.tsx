@@ -283,6 +283,10 @@ const studios = [
 
 const faqs = [
   {
+    question: '代々木八幡・代々木公園からピラティスに通えますか？',
+    answer: '通えます。代々木上原駅は小田急線で隣の代々木八幡駅、千代田線の代々木公園駅と徒歩圏でつながっており、このページで比較しているスタジオはこれらの駅からも徒歩圏内です。「zen place pilates 代々木上原スタジオ」や「URBAN CLASSIC PILATES 代々木上原店」などが候補になります。代々木八幡・代々木公園エリアをお探しの方も、代々木上原のスタジオを候補に料金・体験を比較するのがおすすめです。',
+  },
+  {
     question: 'ピラティス初心者でも大丈夫ですか？',
     answer: '大丈夫です！代々木上原エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。経験豊富なインストラクターが基礎から丁寧に指導してくれるので、運動が苦手な方でも安心して始められますよ。',
   },
@@ -482,6 +486,34 @@ export default function YoyogiUeharaPage() {
         </section>
 
         {/* Cautions Section */}
+        <section className="py-16 bg-white" id="yoyogi-hachiman">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">
+              代々木八幡・代々木公園エリアから通うなら
+            </h2>
+            <p className="text-warm-600 leading-relaxed text-center mb-8 max-w-2xl mx-auto">
+              代々木上原駅は、小田急線で隣の代々木八幡駅、東京メトロ千代田線の代々木公園駅と徒歩圏でつながるエリアです。「代々木八幡 ピラティス」「代々木公園 ピラティス」で探している場合も、このページで比較している代々木上原エリアのスタジオが徒歩圏内の候補になります。
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-warm-50 rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">代々木八幡から徒歩で通えるスタジオ</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  代々木上原駅周辺のスタジオは、小田急線で1駅隣の代々木八幡駅からも徒歩圏内です。「zen place pilates 代々木上原スタジオ」（マット・マシン対応・全国相互利用可）や「URBAN CLASSIC PILATES 代々木上原店」（通い放題プランあり）は、代々木八幡方面から通う方の候補になります。最新のアクセス・営業時間は各スタジオ公式サイトでご確認ください。
+                </p>
+              </div>
+              <div className="bg-warm-50 rounded-lg p-6 border border-warm-200">
+                <h3 className="text-lg font-bold text-warm-900 mb-3">代々木公園エリアで選ぶポイント</h3>
+                <p className="text-warm-600 leading-relaxed">
+                  代々木公園・代々木上原は落ち着いた住宅地で、通い放題プランやプライベート中心のスタジオが揃っています。運動習慣として週数回通いたい方は通い放題、じっくり体を整えたい方はパーソナルと、通い方に合わせて代々木上原エリアのスタジオを料金で比較するのがおすすめです。
+                </p>
+              </div>
+            </div>
+            <p className="text-center mt-8">
+              <a href="#studios" className="inline-block bg-warm-800 text-white rounded-full px-6 py-3 text-sm font-medium hover:bg-warm-900 transition">代々木上原エリアのスタジオを料金で比較する</a>
+            </p>
+          </div>
+        </section>
+
         <section className="py-16 bg-warm-50" id="cautions">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
