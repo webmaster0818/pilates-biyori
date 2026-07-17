@@ -227,6 +227,37 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             {/* AIスタジオ相談（遅延ロード埋め込み） */}
             <ConsultantSection bare />
 
+            {/* 地域からスタジオを探す（注目エリア） */}
+            <section className="mb-16" aria-label="注目エリアからピラティススタジオを探す">
+              <h2 className="text-2xl md:text-3xl font-light text-warm-900 mb-3 tracking-tight">地域からスタジオを探す</h2>
+              <p className="text-sm text-warm-500 font-light mb-6">編集部が注目する主要エリアのピラティススタジオ比較です。お近くのエリアからスタジオの料金・体験レッスンを比べられます。</p>
+              <div className="flex flex-wrap gap-2.5">
+                {[
+                  { slug: 'hamamatsucho', name: '浜松町・大門' },
+                  { slug: 'ochanomizu', name: '御茶ノ水・神保町' },
+                  { slug: 'oji', name: '王子' },
+                  { slug: 'nishi-nippori', name: '西日暮里' },
+                  { slug: 'yoyogi-uehara', name: '代々木上原' },
+                  { slug: 'kitahama', name: '北浜・淀屋橋' },
+                  { slug: 'yagoto', name: '八事（名古屋）' },
+                ].map((a) => (
+                  <Link
+                    key={a.slug}
+                    href={`/area/${a.slug}/`}
+                    className="inline-block bg-warm-50 border border-warm-200 text-warm-700 text-sm px-4 py-2 rounded-full hover:bg-warm-100 hover:border-warm-300 transition-all"
+                  >
+                    {a.name}のピラティス
+                  </Link>
+                ))}
+                <Link
+                  href="/area/"
+                  className="inline-block bg-warm-800 text-white text-sm px-4 py-2 rounded-full hover:bg-warm-900 transition-all"
+                >
+                  全エリア一覧 →
+                </Link>
+              </div>
+            </section>
+
             {/* 関連記事 */}
             {frontmatter.relatedArticles && frontmatter.relatedArticles.length > 0 && (
               <section>
