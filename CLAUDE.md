@@ -248,3 +248,12 @@ P5料金白書の月次更新を**launchd恒久cron化**（CronCreateはセッ�
 - **回復オペ**: 非インデックス9をTOP注目エリアチップ追加+全日付リフレッシュ+sitemap再送信+**Indexing API 212件一括送信(200×212・クォータ収まった)**
 - **🔁1週間後(7/22頃)に再走査して「修正後クロール率」の回復を定点報告すること**(走査スクリプトは/tmp/pilates_fullscan.logの手順・結果JSON=/tmp/pilates_inspect.json形式)
 - 教訓: **canonical一括修正後は「Googleが再クロールするまで直っていない」**。修正デプロイ+Inspection APIでの浸透率測定+Indexing API一括送信までがセット
+
+### 2026-07-19 Week1実行（フルフュージョンKW拡張戦略・MediaXAI「進めてください」）✅本番反映済み
+フルフュージョン(claude+codex+gemini 3者一致)で「対策KW拡張戦略」策定→**結論=拡張でなく回収**(1,044クエリ・1万表示の85%がpos31+=評価不足)。深化70/拡張30・修飾子はエリア内セクション・平均順位はKPIにしない。Week1着手分:
+- **`components/AreaModifierSections.tsx`新設**=検索意図の修飾子軸(「マシンピラティス」「初心者」)をエリアページ内セクションで受ける共通C。GSCで「大門 ピラティス 初心者」pos10.1・「マシンピラティス 尼崎/厚木/つくば」・「ピラティス初心者」69imp等の修飾子需要が既存ページに専用受け皿ゼロだった。**掲載studiosの実データ(features/description/facilities)からマシン対応/初心者向けを判定**・該当無しは正直にその旨表示(捏造なし)・#machine/#beginnerアンカー+#studiosへのCTA。
+- **striking-6ページに注入**(yagoto8.9/hamamatsucho・大門10.1/ochanomizu16/gion-shijo16.5/tokyo21.8/otemachi24.6): 冪等スクリプトでimport+`</main>`直前に挿入・areaNameは既存areaName=""から抽出。
+- **記事→エリア内部リンクモジュール拡張**(app/articles/[slug]/page.tsx「地域からスタジオを探す」): 未リンクの otemachi/tokyo/gion-shijo を追加(既存7→10)。全記事(57本)からstriking系へ内部リンク面拡大。
+- refresh-updated-dates→build EXIT0→方式B(rsync **--exclude .git/functions**・functions{click,clicks,contact,geo}保全前後確認)→両push→本番6/6が200＆両セクション描画確認(tokyoはエッジ伝播ラグで再確認)＆/api/contact 400(正常)→**Indexing API 6/6(200)**。
+- ⚠️検証時のzsh word-split罠に注意(別サイトで`for s in $SLUGS`が非分割→誤検出。inline列挙で回避)。
+- **残Week1差分(次回)**: ①既存1ページ目53クエリのtitle/メタCTR磨き ②tokyo/tokyo-stationのカニバリ(canonical統合) ③飯田橋モデルケース→深部17本へ横展開(Week2-3)。KPI=固定24クエリ(striking6+深部18)の週次追跡・30日でstriking6中2本未満なら見直し。
