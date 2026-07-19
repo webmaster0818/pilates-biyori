@@ -8,6 +8,7 @@ import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
 import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { AreaConclusion } from '@/components/AreaConclusion'
+import { AreaModifierSections } from '@/components/AreaModifierSections'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import ConsultantSection from '@/components/ConsultantSection'
@@ -263,7 +264,7 @@ export default function OtemachiPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年07月17日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年07月19日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス大手町・東京駅おすすめ5選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
@@ -694,6 +695,7 @@ export default function OtemachiPage() {
             </Link>
           </div>
         </section>
+              <AreaModifierSections studios={studios} areaName="大手町" />
       </main>
 
       {/* AIスタジオ相談（遅延ロード・エリア自動セット） */}

@@ -240,6 +240,9 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
                   { slug: 'yoyogi-uehara', name: '代々木上原' },
                   { slug: 'kitahama', name: '北浜・淀屋橋' },
                   { slug: 'yagoto', name: '八事（名古屋）' },
+                  { slug: 'otemachi', name: '大手町' },
+                  { slug: 'tokyo', name: '東京駅' },
+                  { slug: 'gion-shijo', name: '祇園四条（京都）' },
                 ].map((a) => (
                   <Link
                     key={a.slug}

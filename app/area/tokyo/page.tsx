@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Navigation } from '@/components/Navigation'
+import { AreaModifierSections } from '@/components/AreaModifierSections'
 import { SiteFooter } from '@/components/SiteFooter'
 import { StudioCard } from '@/components/StudioCard'
 import { RelatedAreas } from '@/components/RelatedAreas'
@@ -514,7 +515,7 @@ export default async function TokyoAreaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年07月17日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年07月19日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】東京のピラティススタジオ<br className="hidden md:block" />
               おすすめ9選｜料金・体験レッスン徹底比較
@@ -986,6 +987,7 @@ export default async function TokyoAreaPage() {
             </nav>
           </div>
         </section>
+              <AreaModifierSections studios={studios} areaName="東京" />
       </main>
 
       {/* AIスタジオ相談（遅延ロード・エリア自動セット） */}

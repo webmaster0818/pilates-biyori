@@ -8,7 +8,7 @@ tags:
   - "効果が出るまで"
   - "継続のコツ"
 publishedAt: "2026-03-28"
-updatedAt: "2026-07-17"
+updatedAt: "2026-07-19"
 author: "編集部"
 keywords:
   - "ピラティス 効果 いつから"

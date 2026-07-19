@@ -8,7 +8,7 @@ tags:
   - "頻度"
   - "毎日ピラティス"
 publishedAt: "2026-03-28"
-updatedAt: "2026-07-17"
+updatedAt: "2026-07-19"
 author: "編集部"
 keywords:
   - "ピラティス 毎日 効果"
