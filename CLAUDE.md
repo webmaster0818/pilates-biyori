@@ -257,3 +257,10 @@ P5料金白書の月次更新を**launchd恒久cron化**（CronCreateはセッ�
 - refresh-updated-dates→build EXIT0→方式B(rsync **--exclude .git/functions**・functions{click,clicks,contact,geo}保全前後確認)→両push→本番6/6が200＆両セクション描画確認(tokyoはエッジ伝播ラグで再確認)＆/api/contact 400(正常)→**Indexing API 6/6(200)**。
 - ⚠️検証時のzsh word-split罠に注意(別サイトで`for s in $SLUGS`が非分割→誤検出。inline列挙で回避)。
 - **残Week1差分(次回)**: ①既存1ページ目53クエリのtitle/メタCTR磨き ②tokyo/tokyo-stationのカニバリ(canonical統合) ③飯田橋モデルケース→深部17本へ横展開(Week2-3)。KPI=固定24クエリ(striking6+深部18)の週次追跡・30日でstriking6中2本未満なら見直し。
+
+### 2026-07-20 Week2 ①CTR磨き＋②tokyoカニバリ統合（MediaXAI「①②進めてください」）✅本番反映済み
+GSC実測で対象特定→改修。
+- **①1ページ目CTR磨き**: hamamatsuchoが「浜松町/大門 ピラティス 無料体験」で**pos7〜8・計166imp・0click**（title先頭が「10社を比較」で無料体験意図が弱かった）→title「浜松町・大門で**無料体験できる**ピラティス10社｜大門駅すぐ・料金比較」に。yagotoも「八事 ピラティス」pos8.6/49imp/0click→「八事のピラティス5社を比較｜**無料体験・八事駅すぐ**・マシン対応」に。description も意図前出しに刷新。
+- **②tokyo/tokyo-stationカニバリ統合**: 実測で**/area/tokyo/は表示0（休眠）**・tokyo-stationが「東京駅 ピラティス」(37imp/pos20)を保持。カニバリでなく休眠重複→**/area/tokyo/のcanonicalをtokyo-stationへ**向けて統合（equity集約）。
+- refresh-dates→build EXIT0→方式B(functions保全)→両push→本番hamamatsucho新title＆tokyo canonical=tokyo-station確認→Indexing 4/4。効果1-2週GSC(無料体験クエリのCTR転換)。
+- 残Week2: 「飯田橋」モデルケース化→深部17本テンプレ横展開（未着手）。
