@@ -8,7 +8,7 @@ tags:
   - "脚やせ"
   - "むくみ"
 publishedAt: "2026-06-06"
-updatedAt: "2026-07-19"
+updatedAt: "2026-07-20"
 author: "編集部"
 keywords:
   - "ピラティス 脚やせ"

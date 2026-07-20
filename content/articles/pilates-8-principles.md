@@ -8,7 +8,7 @@ tags:
   - "コントロロジー"
   - "基本哲学"
 publishedAt: "2026-05-11"
-updatedAt: "2026-07-19"
+updatedAt: "2026-07-20"
 author: "編集部"
 keywords:
   - "ピラティス 8つの原則"
