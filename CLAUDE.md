@@ -264,3 +264,10 @@ GSC実測で対象特定→改修。
 - **②tokyo/tokyo-stationカニバリ統合**: 実測で**/area/tokyo/は表示0（休眠）**・tokyo-stationが「東京駅 ピラティス」(37imp/pos20)を保持。カニバリでなく休眠重複→**/area/tokyo/のcanonicalをtokyo-stationへ**向けて統合（equity集約）。
 - refresh-dates→build EXIT0→方式B(functions保全)→両push→本番hamamatsucho新title＆tokyo canonical=tokyo-station確認→Indexing 4/4。効果1-2週GSC(無料体験クエリのCTR転換)。
 - 残Week2: 「飯田橋」モデルケース化→深部17本テンプレ横展開（未着手）。
+
+### 2026-07-22 Week2 飯田橋モデルケース化（MediaXAI「この内容で進めよう」）✅本番反映済み
+深部横展開の勝ちテンプレを飯田橋(87imp/pos52・独自データ枠未搭載だった)で確定。
+- **7点フル実装**: ①AreaConclusion(結論box) ②AreaMarketComparison(211集計データ+SVG) ③AreaModifierSections(初心者/マシン) ④意図前出しtitle「飯田橋・神楽坂のピラティス11社を比較｜無料体験3社・駅すぐ・月額最安10,450円〜」+description刷新(211調査言及) ⑤地域特性(components内蔵) ⑥FAQ+schema(既存) ⑦記事module(app/articles/[slug])にiidabashi追加。**⚠️同時に記事moduleのtokyo→tokyo-station修正**(先日canonical統合した休眠slugを指していた)。
+- 実装法=既存冪等スクリプト再利用: enhance-area-phase0.py(SLUGS)にiidabashi追加→AreaMarketComparison+title / add-area-conclusion-202606.py(TARGETS)にiidabashi追加→AreaConclusion / AreaModifierSectionsは手動injector(import後+`</main>`前)。
+- refresh-dates→build EXIT0→方式B(functions保全)→両push→本番4/4コンポーネント描画確認→Indexing 200。
+- **次=深部17本へテンプレ横展開**(豊洲/関内/厚木/枚方/尼崎/豊橋/錦糸町/心斎橋/金沢/姫路/赤羽/つくば/日暮里/王子/目黒等)。飯田橋の効果初動(1-2週GSC)を見てからバッチ実行予定。スクリプトのSLUGS/TARGETSに追加＋modifier injectorをループ化すれば一括可能。
