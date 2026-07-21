@@ -4,7 +4,7 @@
 import re, sys
 from pathlib import Path
 
-TARGETS = ["otemachi","yoyogi-uehara","gion-shijo","hamamatsucho","akihabara","izumi","oji","yagoto","ochanomizu","akasaka",
+TARGETS = ["iidabashi","otemachi","yoyogi-uehara","gion-shijo","hamamatsucho","akihabara","izumi","oji","yagoto","ochanomizu","akasaka",
 "aoyama-itchome","seijo-gakuenmae","esaka","kitahama","shonan","shin-osaka","kitaoji",
 "toranomon","chatan","nishijin","kyoto-shiyakusho-mae","shin-okubo","toyosu","koenji",
 "ebina","nakano-sakaue"]

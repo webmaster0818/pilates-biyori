@@ -6,6 +6,9 @@ import { RelatedAreas } from '@/components/RelatedAreas'
 import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
+import { AreaMarketComparison } from '@/components/AreaMarketComparison'
+import { AreaConclusion } from '@/components/AreaConclusion'
+import { AreaModifierSections } from '@/components/AreaModifierSections'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import ConsultantSection from '@/components/ConsultantSection'
@@ -14,8 +17,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/iidabashi/' },
-  title: '【2026年7月最新】飯田橋のピラティス11社を比較｜無料体験3社・月額最安10,450円〜',
-  description: '飯田橋エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  title: '【2026年7月最新】飯田橋・神楽坂のピラティス11社を比較｜無料体験3社・駅すぐ・月額最安10,450円〜',
+  description: '飯田橋・神楽坂でピラティスの無料体験ができるスタジオを厳選。11社の料金・マシン対応・4路線からのアクセスを比較。初心者向けの選び方と全国211スタジオ調査に基づく料金相場も2026年7月最新でわかります。',
   keywords: 'ピラティス,飯田橋,神楽坂,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -356,10 +359,10 @@ export default function IidabashiPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年07月20日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年07月22日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス飯田橋・神楽坂おすすめ6選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026年6月最新】ピラティス飯田橋・神楽坂おすすめ6選！<br className="hidden md:block" />
+              料金・体験レッスン・マシン対応を比較！
             </h1>
           </div>
         </section>
@@ -376,6 +379,8 @@ export default function IidabashiPage() {
             </nav>
           </div>
         </section>
+        <AreaConclusion studios={studios} areaName="飯田橋・神楽坂" />
+
 
         <TableOfContents areaName="飯田橋・神楽坂" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
 
@@ -435,6 +440,7 @@ export default function IidabashiPage() {
         </section>
 
         <PriceComparisonTable studios={studios} areaName="飯田橋・神楽坂" />
+        <AreaMarketComparison studios={studios} areaName="飯田橋・神楽坂" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">
@@ -779,6 +785,7 @@ export default function IidabashiPage() {
             </Link>
           </div>
         </section>
+              <AreaModifierSections studios={studios} areaName="飯田橋・神楽坂" />
       </main>
         {/* boost-nav-202606 */}
         <section className="py-12 bg-white">

@@ -8,7 +8,7 @@ tags:
   - "コスパ"
   - "スタジオ比較"
 publishedAt: "2026-03-30"
-updatedAt: "2026-07-20"
+updatedAt: "2026-07-22"
 author: "編集部"
 keywords:
   - "ピラティス 料金 相場"
