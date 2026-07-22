@@ -271,3 +271,10 @@ GSC実測で対象特定→改修。
 - 実装法=既存冪等スクリプト再利用: enhance-area-phase0.py(SLUGS)にiidabashi追加→AreaMarketComparison+title / add-area-conclusion-202606.py(TARGETS)にiidabashi追加→AreaConclusion / AreaModifierSectionsは手動injector(import後+`</main>`前)。
 - refresh-dates→build EXIT0→方式B(functions保全)→両push→本番4/4コンポーネント描画確認→Indexing 200。
 - **次=深部17本へテンプレ横展開**(豊洲/関内/厚木/枚方/尼崎/豊橋/錦糸町/心斎橋/金沢/姫路/赤羽/つくば/日暮里/王子/目黒等)。飯田橋の効果初動(1-2週GSC)を見てからバッチ実行予定。スクリプトのSLUGS/TARGETSに追加＋modifier injectorをループ化すれば一括可能。
+
+### 2026-07-22 Week2 深部15ページへ勝ちテンプレ横展開（MediaXAI「進めてください」）✅本番反映済み
+飯田橋で確定した勝ちテンプレ(結論box+211データ+初心者/マシン)を深部高需要ページ(pos31+×表示45-87)へ一括展開。
+- **対象15**: toyosu/kannai/honatsugi(本厚木)/hirakata/amagasaki/toyohashi/kinshicho/shinsaibashi/kanazawa/himeji/akabane/tsukuba/nippori/oji/meguro。監査で不足分だけ注入(冪等)=AreaConclusion 13追加・AreaMarketComparison 既存分スキップ+不足追加・AreaModifierSections 15全注入。最終全15がC=1/MC=1/MD=1。
+- 実装=enhance-area-phase0.py SLUGS＋add-area-conclusion-202606.py TARGETSに15追加して実行＋modifier injectorを15ループ。**⚠️zsh word-split罠再発**(`for s in $TARGETS`非分割→inline列挙で回避)。**atsugi=honatsugi(本厚木)**が実slug。
+- refresh-dates→build EXIT0→方式B(functions保全)→両push→本番sample 4/4描画確認(edge伝播ラグで一部node遅延=?cb再確認)→**Indexing 15/15**。効果1-2週GSC(深部pos31+→クリック圏への浮上)。
+- **これでpilates Week2完了**(①CTR磨き②tokyo統合③飯田橋モデル④深部15横展開)。KPI=固定24クエリ週次追跡・30日でstriking6中2本未満なら見直し。次候補=新規エリア量産解禁(1ページ目シェア10%超が条件・現3.9%→まだ早い)or 効果測定後の残深部展開。
