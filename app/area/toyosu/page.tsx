@@ -8,6 +8,7 @@ import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
 import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { AreaConclusion } from '@/components/AreaConclusion'
+import { AreaModifierSections } from '@/components/AreaModifierSections'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import ConsultantSection from '@/components/ConsultantSection'
@@ -830,6 +831,7 @@ export default function ToyosuPage() {
             </Link>
           </div>
         </section>
+              <AreaModifierSections studios={studios} areaName="豊洲" />
       </main>
         {/* boost-nav-202606 */}
         <section className="py-12 bg-white">

@@ -7,6 +7,8 @@ import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
 import { AreaMarketComparison } from '@/components/AreaMarketComparison'
+import { AreaConclusion } from '@/components/AreaConclusion'
+import { AreaModifierSections } from '@/components/AreaModifierSections'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import ConsultantSection from '@/components/ConsultantSection'
@@ -230,6 +232,8 @@ export default function NipporiPage() {
             </nav>
           </div>
         </section>
+        <AreaConclusion studios={studios} areaName="日暮里" />
+
 
         <TableOfContents areaName="日暮里" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
 
@@ -586,6 +590,7 @@ export default function NipporiPage() {
             </Link>
           </div>
         </section>
+              <AreaModifierSections studios={studios} areaName="日暮里" />
       </main>
 
       {/* AIスタジオ相談（遅延ロード・エリア自動セット） */}
