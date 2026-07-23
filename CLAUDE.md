@@ -278,3 +278,6 @@ GSC実測で対象特定→改修。
 - 実装=enhance-area-phase0.py SLUGS＋add-area-conclusion-202606.py TARGETSに15追加して実行＋modifier injectorを15ループ。**⚠️zsh word-split罠再発**(`for s in $TARGETS`非分割→inline列挙で回避)。**atsugi=honatsugi(本厚木)**が実slug。
 - refresh-dates→build EXIT0→方式B(functions保全)→両push→本番sample 4/4描画確認(edge伝播ラグで一部node遅延=?cb再確認)→**Indexing 15/15**。効果1-2週GSC(深部pos31+→クリック圏への浮上)。
 - **これでpilates Week2完了**(①CTR磨き②tokyo統合③飯田橋モデル④深部15横展開)。KPI=固定24クエリ週次追跡・30日でstriking6中2本未満なら見直し。次候補=新規エリア量産解禁(1ページ目シェア10%超が条件・現3.9%→まだ早い)or 効果測定後の残深部展開。
+
+### 2026-07-23 深部展開第2弾24ページ（MediaXAI「深部ページへの展開進めよう」）✅本番反映済み
+第1弾15に続く高需要深部(pos22+×表示20+)24ページへ勝ちテンプレ一括適用: asakusa(191)/akihabara(178)/nishi-nippori(147)/aoyama-itchome/kagurazaka/shibuya/seijo-gakuenmae/shimokitazawa/umeda/akasaka/kitahama/koenji/yoga-komazawa/nishijin/omiya/izumi/otsuka/nihonbashi/kyoto-station/nakano-sakaue/yoyogi-uehara/itami/fujisawa/ogikubo。冪等スクリプト(enhance-phase0 SLUGS+add-conclusion TARGETS)+modifier injector。全24 C/MC/MD完備確認。build EXIT0・方式B(functions保全)・両push・本番asakusa確認・Indexing 24/24。**累計深部展開=飯田橋モデル+第1弾15+第2弾24=40ページ**。効果1-2週GSC。残候補=さらに深いpos40+(shibuya60/omiya71/osaka73等・低順位で効果は逓減)。
