@@ -8,7 +8,7 @@ tags:
   - "初心者向け"
   - "スタジオ比較"
 publishedAt: "2026-03-30"
-updatedAt: "2026-07-22"
+updatedAt: "2026-07-23"
 author: "編集部"
 keywords:
   - "ピラティス 体験レッスン おすすめ"

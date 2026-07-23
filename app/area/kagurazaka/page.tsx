@@ -6,6 +6,9 @@ import { RelatedAreas } from '@/components/RelatedAreas'
 import { TableOfContents } from '@/components/TableOfContents'
 import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
+import { AreaMarketComparison } from '@/components/AreaMarketComparison'
+import { AreaConclusion } from '@/components/AreaConclusion'
+import { AreaModifierSections } from '@/components/AreaModifierSections'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import ConsultantSection from '@/components/ConsultantSection'
@@ -367,10 +370,10 @@ export default function KagurazakaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年07月22日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年07月23日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス神楽坂おすすめ7選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026年6月最新】ピラティス神楽坂おすすめ7選！<br className="hidden md:block" />
+              料金・体験レッスン・マシン対応を比較！
             </h1>
           </div>
         </section>
@@ -387,6 +390,8 @@ export default function KagurazakaPage() {
             </nav>
           </div>
         </section>
+        <AreaConclusion studios={studios} areaName="神楽坂" />
+
 
         <TableOfContents areaName="神楽坂" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
 
@@ -446,6 +451,7 @@ export default function KagurazakaPage() {
         </section>
 
         <PriceComparisonTable studios={studios} areaName="神楽坂" />
+        <AreaMarketComparison studios={studios} areaName="神楽坂" />
 
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">
@@ -790,6 +796,7 @@ export default function KagurazakaPage() {
             </Link>
           </div>
         </section>
+              <AreaModifierSections studios={studios} areaName="神楽坂" />
       </main>
         {/* boost-nav-202606 */}
         <section className="py-12 bg-white">
