@@ -5,6 +5,16 @@
 
 export type BrandFaq = { q: string; a: string }
 
+// 公式に確認できた全国店舗数（一次情報のみ。確認できないブランドはundefinedのまま＝表示しない）
+export type OfficialStores = {
+  count: number
+  kind: '公式明記' | '一覧実数' // 公式サイトに数字の明記あり／公式店舗一覧を実際に数えた
+  approx?: boolean // 「◯店舗以上」等の表現の場合true
+  caveat?: string // 数字の但し書き（例: LAVA店内スタジオ含む）。誇張回避のため必ず表示する
+  sourceUrl: string
+  asOf: string // 取得時点（表示用・例: 2026年7月）
+}
+
 export type BrandInfo = {
   slug: string
   name: string
@@ -18,6 +28,7 @@ export type BrandInfo = {
   ctaUrl?: string
   ctaLabel?: string
   officialRef?: { label: string; url: string }
+  officialStores?: OfficialStores
   isPartner: boolean
   note?: string
   useHyoban: boolean // 掲載評価データが十分（n>=5）な場合のみtitleに「評判」を使う
@@ -45,6 +56,7 @@ export const BRANDS: BrandInfo[] = [
     ctaLabel: '公式サイトで詳細を見る',
     officialRef: { label: 'zen place公式サイト', url: 'https://www.zenplace.co.jp/' },
     isPartner: false,
+    officialStores: { count: 136, kind: '一覧実数', sourceUrl: 'https://www.zenplace.co.jp/studios', asOf: '2026年7月', caveat: 'ピラティススタジオの一覧掲載数です。ヨガ等を含むzen placeグループ全体では全国150店舗と公式サイトに記載されています。' },
     useHyoban: true,
   },
   {
@@ -68,6 +80,7 @@ export const BRANDS: BrandInfo[] = [
     ctaLabel: '公式サイトで詳細を見る',
     officialRef: { label: 'pilates K公式サイト', url: 'https://pilates-k.jp/' },
     isPartner: false,
+    officialStores: { count: 176, kind: '一覧実数', sourceUrl: 'https://pilates-k.jp/studio', asOf: '2026年7月', caveat: 'サブブランドのpilates K_smart 3店舗を含みます。' },
     useHyoban: true,
   },
   {
@@ -91,6 +104,7 @@ export const BRANDS: BrandInfo[] = [
     ctaLabel: '公式サイトで詳細を見る',
     officialRef: { label: 'Rintosull公式サイト', url: 'https://rintosull.jp/' },
     isPartner: false,
+    officialStores: { count: 260, kind: '公式明記', sourceUrl: 'https://rintosull.jp/', asOf: '2026年7月', caveat: '公式サイトの記載に基づく数字で、LAVA店内スタジオを含みます。' },
     useHyoban: true,
   },
   {
@@ -114,6 +128,7 @@ export const BRANDS: BrandInfo[] = [
     ctaLabel: '公式サイトで詳細を見る',
     officialRef: { label: 'the SILK公式サイト', url: 'https://the-silk.co.jp/' },
     isPartner: false,
+    officialStores: { count: 44, kind: '一覧実数', sourceUrl: 'https://the-silk.co.jp/studios/', asOf: '2026年7月' },
     useHyoban: true,
   },
   {
@@ -137,6 +152,7 @@ export const BRANDS: BrandInfo[] = [
     ctaLabel: '公式サイトで詳細を見る',
     officialRef: { label: 'CLUB PILATES公式サイト', url: 'https://clubpilates.co.jp/' },
     isPartner: false,
+    officialStores: { count: 86, kind: '一覧実数', sourceUrl: 'https://clubpilates.co.jp/studio/', asOf: '2026年7月' },
     useHyoban: true,
   },
   {
@@ -160,6 +176,7 @@ export const BRANDS: BrandInfo[] = [
     ctaLabel: '公式サイトで詳細を見る',
     officialRef: { label: 'ピラティスミー公式サイト', url: 'https://m-pilates.com/' },
     isPartner: false,
+    officialStores: { count: 142, kind: '一覧実数', sourceUrl: 'https://m-pilates.com/shop/', asOf: '2026年7月' },
     useHyoban: true,
   },
   {
@@ -268,6 +285,7 @@ export const BRANDS: BrandInfo[] = [
       { q: '体験レッスンはありますか？', a: '体験レッスンを実施しており、980円〜3,000円の掲載例があります。' },
     ],
     isPartner: false,
+    officialStores: { count: 42, kind: '一覧実数', sourceUrl: 'https://pilates-kasane.jp/studio/', asOf: '2026年7月' },
     useHyoban: true,
   },
   {

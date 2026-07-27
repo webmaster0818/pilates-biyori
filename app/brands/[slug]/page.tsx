@@ -40,8 +40,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const brand = getBrand(slug)
   if (!brand) return { title: 'ブランドが見つかりません' }
   const stores = STORES[slug] ?? []
-  // the SILKは「店舗一覧」クエリで上位表示実績があるため店舗意図を前方に
-  const kw = brand.slug === 'the-silk' ? '店舗一覧・料金・評判' : brand.useHyoban ? '料金・評判・店舗一覧' : '料金・体験・店舗一覧'
+  // the SILKは「店舗一覧」、pilates Kは「店舗数/店舗一覧」クエリで上位表示実績があるため店舗意図を前方に
+  const kw =
+    brand.slug === 'the-silk' ? '店舗一覧・料金・評判'
+    : brand.slug === 'pilates-k' ? '店舗一覧・店舗数・料金'
+    : brand.useHyoban ? '料金・評判・店舗一覧' : '料金・体験・店舗一覧'
   return {
     title: `${brand.name}の${kw}【2026年7月】｜掲載${stores.length}店舗を比較`,
     description: `${brand.name}の料金プラン・体験レッスン・店舗一覧を掲載データから整理。${brand.tagline}。掲載${stores.length}店舗のエリア別リンク付きで、近くの店舗がすぐ見つかります。`,
@@ -62,6 +65,13 @@ function priceSummary(stores: Store[]): { label: string; count: number }[] {
     .map(([label, count]) => ({ label, count }))
 }
 
+// 「3,300円」が文字列として「0円」を含むため、無料判定は『無料』表記＋金額パース0円のみ
+function isFreeTrial(trial: string): boolean {
+  if (trial.includes('無料')) return true
+  const m = trial.replace(/,/g, '').match(/(\d{1,6})円/)
+  return m ? parseInt(m[1], 10) === 0 : false
+}
+
 function ratingSummary(stores: Store[]): { avg: string; n: number } | null {
   const rated = stores.filter((s) => s.rating != null)
   if (rated.length < 5) return null
@@ -76,12 +86,25 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
   const stores = (STORES[slug] ?? []).slice().sort((a, b) => a.areaSlug.localeCompare(b.areaSlug))
   const prices = priceSummary(stores)
   const rating = ratingSummary(stores)
-  const freeTrial = stores.filter((s) => s.trial && (s.trial.includes('無料') || s.trial.includes('0円'))).length
+  const freeTrial = stores.filter((s) => s.trial && isFreeTrial(s.trial)).length
+
+  const os = brand.officialStores
+  const storeCountLabel = os ? `全国${os.count}店舗${os.approx ? '以上' : ''}` : null
+  // 店舗数FAQ（公式一次情報が確認できたブランドのみ動的に追加＝FAQSchemaと本文が常に同期）
+  const faqs = os
+    ? [
+        {
+          q: `${brand.name}の店舗数は？`,
+          a: `${os.asOf}時点で${storeCountLabel}です（${os.kind === '公式明記' ? '公式サイトの記載' : '公式サイトの店舗一覧の掲載数'}に基づく）。${os.caveat ?? ''}当サイトではうち${stores.length}店舗をエリアページ付きで掲載しています。`,
+        },
+        ...brand.faq,
+      ]
+    : brand.faq
 
   return (
     <>
       <Navigation />
-      <FAQSchema faqs={brand.faq.map((f) => ({ question: f.q, answer: f.a }))} />
+      <FAQSchema faqs={faqs.map((f) => ({ question: f.q, answer: f.a }))} />
       <BreadcrumbSchema
         items={[
           { name: 'ホーム', url: 'https://biyori-pilates.com/' },
@@ -110,8 +133,8 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
             <p className="text-xs font-medium text-warm-400 uppercase tracking-[0.15em] mb-3">まず結論</p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
               <div>
-                <p className="text-2xl font-light text-warm-900">{stores.length}</p>
-                <p className="text-xs text-warm-500 mt-1">当サイト掲載店舗</p>
+                <p className="text-2xl font-light text-warm-900">{os ? `${os.count}${os.approx ? '+' : ''}` : stores.length}</p>
+                <p className="text-xs text-warm-500 mt-1">{os ? `全国店舗数（${os.asOf}時点）` : '当サイト掲載店舗'}</p>
               </div>
               <div>
                 <p className="text-2xl font-light text-warm-900">{prices[0] ? prices[0].label.replace(/（.*?）/g, '').split(/[／/]/)[0].trim() : '公式参照'}</p>
@@ -129,6 +152,15 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
             {rating && (
               <p className="text-[11px] text-warm-400 mt-3 leading-relaxed">
                 ※平均評価は当サイトの各店舗ページに掲載している評価を集計したものです（{rating.n}店舗・調査時点）。
+              </p>
+            )}
+            {os && (
+              <p className="text-[11px] text-warm-400 mt-3 leading-relaxed">
+                ※全国店舗数は
+                <a href={os.sourceUrl} target="_blank" rel="noopener noreferrer" className="underline decoration-warm-300 hover:text-warm-800">
+                  公式サイト
+                </a>
+                の{os.kind === '公式明記' ? '記載' : '店舗一覧の掲載数'}に基づきます（{os.asOf}時点）。{os.caveat ?? ''}当サイトではうち{stores.length}店舗をエリアページ付きで掲載しています。
               </p>
             )}
           </section>
@@ -233,7 +265,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                           {s.areaName}
                         </Link>
                       </td>
-                      <td className="px-4 py-3 text-warm-600 whitespace-nowrap">{s.trial ? (s.trial.includes('無料') || s.trial.includes('0円') ? '無料あり' : 'あり') : '—'}</td>
+                      <td className="px-4 py-3 text-warm-600 whitespace-nowrap">{s.trial ? (isFreeTrial(s.trial) ? '無料あり' : 'あり') : '—'}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -271,7 +303,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
           <section className="mb-10">
             <h2 className="text-xl font-light text-warm-900 border-b border-warm-200 pb-2 mb-4">よくある質問</h2>
             <div className="space-y-4">
-              {brand.faq.map((f) => (
+              {faqs.map((f) => (
                 <div key={f.q} className="bg-white border border-warm-200 p-5">
                   <p className="text-sm font-medium text-warm-900 mb-2">Q. {f.q}</p>
                   <p className="text-sm text-warm-700 font-light leading-relaxed">A. {f.a}</p>
