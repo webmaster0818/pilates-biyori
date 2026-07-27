@@ -10,6 +10,7 @@ export type BdcStore = {
   price: string;
   trial: string;
   rating?: number;
+  prefecture?: string; // 構造化データareaServed用（住所非開示店。例: 兵庫県）
   areaSlug: string; // 周辺エリア比較 /area/{areaSlug}/
   areaLabel: string;
   nearby: { slug: string; label: string }[]; // 近隣エリアへの内部リンク
@@ -39,6 +40,7 @@ export const bdcStores: BdcStore[] = [
     storeName: "BDC PILATES 恵比寿スタジオ",
     address: "東京都渋谷区恵比寿エリア（詳細な所在地は公式サイトでご確認ください）",
     addressIsVague: true,
+    prefecture: "東京都",
     access: "恵比寿駅周辺 / 代官山からも徒歩圏内",
     price: "月4回 11,220円〜",
     trial: "体験レッスン 0円",

@@ -279,5 +279,13 @@ GSC実測で対象特定→改修。
 - refresh-dates→build EXIT0→方式B(functions保全)→両push→本番sample 4/4描画確認(edge伝播ラグで一部node遅延=?cb再確認)→**Indexing 15/15**。効果1-2週GSC(深部pos31+→クリック圏への浮上)。
 - **これでpilates Week2完了**(①CTR磨き②tokyo統合③飯田橋モデル④深部15横展開)。KPI=固定24クエリ週次追跡・30日でstriking6中2本未満なら見直し。次候補=新規エリア量産解禁(1ページ目シェア10%超が条件・現3.9%→まだ早い)or 効果測定後の残深部展開。
 
+### 2026-07-28 do/know/go戦略v2 Phase1実行（MediaXAI 7/27「進めて」）✅本番反映済み
+戦略v2（`~/.openclaw/workspace/pilates-strategy-do-know-go-2026-07-27.md`＝投資順序をgo>do圏内>knowに並べ替え）のPhase1。
+- **D1/D2: 無料体験セクション新設**: `AreaModifierSections`に「{エリア}で無料体験できるピラティススタジオ」軸を追加(id=free-trial)→搭載済み全55エリアに自動反映。無料判定は『無料』表記＋parseYen==0のみ(0円誤マッチ回避)。無料ゼロのエリアは正直にその旨＋体験安い順TOP3。数値突合OK(浜松町2/秋葉原2/東京駅3=元データ一致)
+- **圏内9エリアに勝ちテンプレ注入**: tokyo-station(3点フル)/shin-osaka/shin-okubo/esaka/shonan/ebina/futakotamagawa/chofu/takadanobaba。`scripts/inject-modifier-202607.py`(冪等)新設＋既存enhance-area-phase0.py/add-area-conclusion-202606.pyのリスト追加。Indexing 54/54
+- **G2: ブランド公式店舗数(一次情報)**: エージェント調査で7社の公式店舗数を検証取得→`brands.ts`に`officialStores`型(count/kind=公式明記|一覧実数/caveat/sourceUrl/asOf)追加: pilates-k176/rintosull260(公式明記・LAVA店内含む注記)/zen-place136(グループ150は別記)/club-pilates86/kasane42/pilates-mee142/the-silk44。ブランドページ=結論box1欄目を全国店舗数化+出典リンク注記+「店舗数は？」FAQ自動追加(FAQSchema同期)。pilates-k titleを「店舗一覧・店舗数・料金」前方に
+- **🐛重大バグ修正**: brands/[slug]の無料体験判定`includes('0円')`が「1,000円/3,300円」に誤マッチ→**zen placeが149店無料表示(実際11店)**などの過大表示を修正(isFreeTrial=『無料』+parseYen==0)。AreaMarketComparisonと同型バグの残存だった。教訓: 過去に潰したバグパターンは後発コードにも必ずgrep(`includes('0円')`)
+- 方式Bデプロイ×2(functions保全確認)・両push・本番確認・Indexing計70送信。KPI=週次クリック35→100(3ヶ月)・do/know/go別週次観測。**残Phase2=G1店舗別ページ30店(gym-lumi手法)/Phase3=know刈込+独自データ記事+週次計測**
+
 ### 2026-07-23 深部展開第2弾24ページ（MediaXAI「深部ページへの展開進めよう」）✅本番反映済み
 第1弾15に続く高需要深部(pos22+×表示20+)24ページへ勝ちテンプレ一括適用: asakusa(191)/akihabara(178)/nishi-nippori(147)/aoyama-itchome/kagurazaka/shibuya/seijo-gakuenmae/shimokitazawa/umeda/akasaka/kitahama/koenji/yoga-komazawa/nishijin/omiya/izumi/otsuka/nihonbashi/kyoto-station/nakano-sakaue/yoyogi-uehara/itami/fujisawa/ogikubo。冪等スクリプト(enhance-phase0 SLUGS+add-conclusion TARGETS)+modifier injector。全24 C/MC/MD完備確認。build EXIT0・方式B(functions保全)・両push・本番asakusa確認・Indexing 24/24。**累計深部展開=飯田橋モデル+第1弾15+第2弾24=40ページ**。効果1-2週GSC。残候補=さらに深いpos40+(shibuya60/omiya71/osaka73等・低順位で効果は逓減)。

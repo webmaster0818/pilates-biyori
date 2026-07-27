@@ -32,7 +32,7 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
     name: store.storeName,
     url: `https://biyori-pilates.com/brands/${store.urlSlug}/`,
     ...(store.addressIsVague
-      ? { areaServed: `${store.areaQuery}（東京都）` }
+      ? { areaServed: store.prefecture ? `${store.areaQuery}（${store.prefecture}）` : store.areaQuery }
       : { address: { "@type": "PostalAddress", streetAddress: store.address, addressCountry: "JP" } }),
     parentOrganization: { "@type": "Organization", name: brandName },
   };
@@ -110,6 +110,14 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
             <p className="text-[11px] text-warm-400 mt-3 leading-relaxed">
               ※料金・体験条件は当サイト掲載時点の情報であり、金額を保証するものではありません。最新の料金・空き状況・キャンペーンは公式サイトでご確認ください。
               {store.addressIsVague && "所在地の詳細は公式サイトでご確認ください。"}
+              {brand?.officialRef && (
+                <>
+                  {" "}情報引用元:{" "}
+                  <a href={brand.officialRef.url} target="_blank" rel="noopener noreferrer" className="underline decoration-warm-300 hover:text-warm-700">
+                    {brand.officialRef.label}
+                  </a>
+                </>
+              )}
             </p>
           </section>
 

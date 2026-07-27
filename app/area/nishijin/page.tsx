@@ -572,6 +572,15 @@ export default function NishijinPage() {
       {/* AIスタジオ相談（遅延ロード・エリア自動セット） */}
       <ConsultantSection areaKey="nishijin" areaName="西新" />
 
+                  {/* g1-link-202607 */}
+            <div className="my-8 bg-white border border-warm-200 p-5">
+              <p className="text-xs text-warm-400 uppercase tracking-[0.15em] mb-2">店舗別ガイド</p>
+              <p className="text-sm text-warm-700 font-light leading-relaxed mb-3">このエリアの店舗別に料金・体験レッスン・アクセスを整理した詳細ページがあります。</p>
+              <div className="flex flex-wrap gap-2">
+                <Link href="/brands/rintosull-nishijin/" className="text-xs text-warm-800 border border-warm-300 bg-white px-3 py-1.5 hover:border-warm-500 transition-colors">Rintosull 西新店の料金・体験を見る</Link>
+                <Link href="/brands/club-pilates-fukuoka-nishijin/" className="text-xs text-warm-800 border border-warm-300 bg-white px-3 py-1.5 hover:border-warm-500 transition-colors">CLUB PILATES 福岡西新店の料金・体験を見る</Link>
+              </div>
+            </div>
       <RelatedAreas currentSlug="nishijin" />
       <SiteFooter />
       <Script src="https://unpkg.com/lucide@latest" strategy="lazyOnload" />

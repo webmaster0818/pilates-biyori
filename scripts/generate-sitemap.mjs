@@ -155,6 +155,11 @@ function build() {
   ]) {
     lines.push(urlEntry(`/brands/${slug}/`, TODAY, 'weekly', '0.6'))
   }
+  // G1店舗別ページ（data/g1-stores.ts から動的抽出＝追加店舗は自動でsitemap収録）
+  const g1Src = fs.readFileSync(new URL('../data/g1-stores.ts', import.meta.url), 'utf8')
+  for (const m of g1Src.matchAll(/urlSlug: "([a-z0-9-]+)"/g)) {
+    lines.push(urlEntry(`/brands/${m[1]}/`, TODAY, 'weekly', '0.6'))
+  }
 
   lines.push('</urlset>', '')
   return lines.join('\n')
