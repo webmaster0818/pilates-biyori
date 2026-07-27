@@ -17,8 +17,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/hamamatsucho/' },
-  title: '【2026年7月最新】浜松町・大門で無料体験できるピラティス10社｜大門駅すぐ・料金比較',
-  description: '浜松町・大門でピラティスの無料体験ができるスタジオを厳選。10社の料金・マシン対応・大門駅／浜松町駅からのアクセスを比較。初心者向けの選び方と体験当日の流れも2026年7月最新でわかります。',
+  title: '【2026年7月最新】浜松町・大門で無料体験できるピラティス5社｜大門駅すぐ・料金比較',
+  description: '浜松町・大門でピラティスの無料体験ができるスタジオを厳選。5社の料金・マシン対応・大門駅／浜松町駅からのアクセスを比較。初心者向けの選び方と体験当日の流れも2026年7月最新でわかります。',
   keywords: 'ピラティス,浜松町,大門,田町,三田,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 

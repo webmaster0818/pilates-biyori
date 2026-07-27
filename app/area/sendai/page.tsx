@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/sendai/' },
-  title: '【2026年7月最新】ピラティス仙台おすすめ8選！料金・体験レッスン・マシン対応を比較！',
+  title: '【2026年7月最新】ピラティス仙台おすすめ9選！料金・体験レッスン・マシン対応を比較！',
   description: '仙台エリアのおすすめピラティススタジオ8選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,仙台,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

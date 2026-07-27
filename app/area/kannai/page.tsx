@@ -17,7 +17,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kannai/' },
-  title: '【2026年7月最新】関内のピラティス12社を比較｜無料体験2社・月額最安9,680円〜',
+  title: '【2026年7月最新】関内のピラティス7社を比較｜無料体験2社・月額最安9,680円〜',
   description: '関内エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,関内,馬車道,横浜,神奈川,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

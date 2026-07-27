@@ -14,7 +14,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kashiwa/' },
-  title: '【2026年7月最新】柏のピラティス11社を比較｜無料体験2社・月額最安7,700円〜',
+  title: '【2026年7月最新】柏のピラティス6社を比較｜無料体験2社・月額最安7,700円〜',
   description: '柏エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,柏,千葉,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

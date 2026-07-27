@@ -17,8 +17,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/oji/' },
-  title: '【2026年7月最新】王子のピラティス8社を比較｜月額最安8,800円〜・料金と体験',
-  description: '王子のピラティススタジオ8社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
+  title: '【2026年7月最新】王子のピラティス4社を比較｜月額最安8,800円〜・料金と体験',
+  description: '王子のピラティススタジオ4社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
   keywords: 'ピラティス,王子,東京,北区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 

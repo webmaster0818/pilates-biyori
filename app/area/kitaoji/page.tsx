@@ -16,8 +16,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kitaoji/' },
-  title: '【2026年7月最新】北大路のピラティススタジオおすすめ5選｜無料体験・料金で比較',
-  description: '北大路のピラティススタジオ5社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
+  title: '【2026年7月最新】北大路のピラティススタジオおすすめ4選｜無料体験・料金で比較',
+  description: '北大路のピラティススタジオ4社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
   keywords: 'ピラティス,北大路,北山,京都,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 

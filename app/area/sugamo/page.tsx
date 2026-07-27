@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/sugamo/' },
-  title: '【2026年7月最新】巣鴨のピラティス16社を比較｜無料体験4社・月額最安2,200円〜',
+  title: '【2026年7月最新】巣鴨のピラティス9社を比較｜無料体験4社・月額最安2,200円〜',
   description: '巣鴨エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,巣鴨,東京,豊島区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
