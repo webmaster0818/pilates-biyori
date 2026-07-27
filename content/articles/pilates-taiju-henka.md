@@ -8,7 +8,7 @@ tags:
   - "体重"
   - "ダイエット"
 publishedAt: "2026-06-06"
-updatedAt: "2026-07-23"
+updatedAt: "2026-07-28"
 author: "編集部"
 keywords:
   - "ピラティス 体重"

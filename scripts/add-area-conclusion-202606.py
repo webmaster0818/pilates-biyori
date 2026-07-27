@@ -4,7 +4,7 @@
 import re, sys
 from pathlib import Path
 
-TARGETS = ["ogikubo","fujisawa","itami","kyoto-station","nihonbashi","otsuka","omiya","yoga-komazawa","umeda","shimokitazawa","shibuya","kagurazaka","nishi-nippori","asakusa","meguro","nippori","tsukuba","akabane","himeji","kanazawa","shinsaibashi","kinshicho","toyohashi","amagasaki","hirakata","honatsugi","kannai","iidabashi","otemachi","yoyogi-uehara","gion-shijo","hamamatsucho","akihabara","izumi","oji","yagoto","ochanomizu","akasaka",
+TARGETS = ["tokyo-station","futakotamagawa","chofu","takadanobaba","ogikubo","fujisawa","itami","kyoto-station","nihonbashi","otsuka","omiya","yoga-komazawa","umeda","shimokitazawa","shibuya","kagurazaka","nishi-nippori","asakusa","meguro","nippori","tsukuba","akabane","himeji","kanazawa","shinsaibashi","kinshicho","toyohashi","amagasaki","hirakata","honatsugi","kannai","iidabashi","otemachi","yoyogi-uehara","gion-shijo","hamamatsucho","akihabara","izumi","oji","yagoto","ochanomizu","akasaka",
 "aoyama-itchome","seijo-gakuenmae","esaka","kitahama","shonan","shin-osaka","kitaoji",
 "toranomon","chatan","nishijin","kyoto-shiyakusho-mae","shin-okubo","toyosu","koenji",
 "ebina","nakano-sakaue"]
