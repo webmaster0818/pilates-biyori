@@ -456,7 +456,7 @@ export function HomeClient() {
                         <time dateTime="2026-03-30" className="text-warm-300 text-xs">2026.3.30</time>
                       </div>
                       <h4 className="text-sm font-medium text-warm-800 leading-relaxed group-hover:text-warm-600 transition-colors mb-2 line-clamp-2">
-                        オンラインピラティスおすすめ8選【料金・効果を徹底比較】
+                        オンラインピラティスおすすめ7選【料金・効果を徹底比較】
                       </h4>
                     </div>
                   </div>
