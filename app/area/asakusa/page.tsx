@@ -25,6 +25,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 浅草',
+    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 16,
@@ -292,6 +293,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 錦糸町（近隣エリア）',
+    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8,
     reviewCount: 31,
@@ -346,6 +348,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 上野（近隣エリア）',
+    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.7,
     reviewCount: 21,
@@ -480,7 +483,7 @@ export default function AsakusaAreaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年07月28日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年07月29日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026年7月最新】ピラティス浅草おすすめ9選！<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！

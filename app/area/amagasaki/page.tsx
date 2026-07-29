@@ -38,6 +38,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 尼崎', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 25,
+    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     reviews: [
       { author: 'M.S', rating: 5, date: '1週間前', text: 'ピラティス専門の大手スタジオ。全国150店舗以上で他店利用可能。マットグループ・マシングループ・プライベートの。気に入っています。' },
       { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
@@ -122,7 +123,7 @@ export default function AmagasakiPage() {
         { name: '尼崎', url: 'https://pilates-biyori.com/area/amagasaki/' },
       ]} />
       <main className="pt-20 bg-white">
-        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年07月28日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026年6月最新】ピラティス尼崎おすすめ5選！<br className="hidden md:block" />料金・体験レッスン・マシン対応を比較！</h1></div></section>
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年07月29日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026年6月最新】ピラティス尼崎おすすめ5選！<br className="hidden md:block" />料金・体験レッスン・マシン対応を比較！</h1></div></section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">尼崎</span></nav></div></section>
         <AreaConclusion studios={studios} areaName="尼崎" />
 

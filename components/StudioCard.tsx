@@ -358,6 +358,11 @@ export function StudioCard({ studio, index }: StudioCardProps) {
             >
               公式サイトを見てみる
             </a>
+            {/* A8インプレッション計測(zen place) */}
+            {studio.officialUrl?.includes('a8mat=4B650J+3SXRGI+4LQ4+5YJRM') && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src="https://www14.a8.net/0.gif?a8mat=4B650J+3SXRGI+4LQ4+5YJRM" width={1} height={1} alt="" className="inline-block" />
+            )}
             {brandSlugOf(studio.name) && (
               <a
                 href={`/brands/${brandSlugOf(studio.name)}/`}

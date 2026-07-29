@@ -287,5 +287,14 @@ GSC実測で対象特定→改修。
 - **🐛重大バグ修正**: brands/[slug]の無料体験判定`includes('0円')`が「1,000円/3,300円」に誤マッチ→**zen placeが149店無料表示(実際11店)**などの過大表示を修正(isFreeTrial=『無料』+parseYen==0)。AreaMarketComparisonと同型バグの残存だった。教訓: 過去に潰したバグパターンは後発コードにも必ずgrep(`includes('0円')`)
 - 方式Bデプロイ×2(functions保全確認)・両push・本番確認・Indexing計70送信。KPI=週次クリック35→100(3ヶ月)・do/know/go別週次観測。**残Phase2=G1店舗別ページ30店(gym-lumi手法)/Phase3=know刈込+独自データ記事+週次計測**
 
+### 2026-07-28 Phase2=G1店舗別ページ18本（MediaXAI「phase2進めて」）✅本番反映済み
+戦略v2のPhase2。GSCで表示実績のあったブランド×店舗クエリの受け皿を量産(既存受け皿14→計32店舗)。
+- **`scripts/gen-g1-stores-202607.py`**(冪等)=brands-aggregate.jsonの検証済み実データから`data/g1-stores.ts`+`app/brands/{slug}/page.tsx`を生成。**新規調査なし=転記のみで捏造リスクゼロ**。⚠️候補選択は「具体住所優先」(最初はaddress最長で選び、Mee大井町が曖昧住所の重複エントリを拾った→修正)。⚠️「王子店」は「八王子店」に前方文字検査で誤マッチ回避
+- **新規18店**: リントスル11(天王寺/本厚木/豊橋/明石/高松/天神/西新/大井町/王子/茨木/阿佐ヶ谷)+クラブピラティス3(辻堂/福岡西新/江坂)+the SILK大門浜松町+KASANEつくば+Mee大井町+ピラティスK八王子。湘南台KASANE・シルク横浜はaggregateに該当なし=正直に見送り
+- **BrandAreaReceiver改修**: ①LD areaServedの「（東京都）」ハードコード修正(西宮北口が東京都表記になっていた事実誤り→`prefecture?`フィールド新設・既存vague店4件に付与) ②情報引用元リンク表示(the SILKレギュレーション対応・全ブランドで公式officialRefを表示)
+- **内部リンク**: 全32受け皿の対応エリア30ページに「店舗別ガイド」callout注入(`g1-link-202607`マーカー冪等)。既存受け皿が50位台に沈む一因=エリアページからのリンクゼロ(sitemapのみ)だったのを解消
+- **sitemap生成器をg1-stores.ts動的抽出化**=今後の店舗追加は自動収録。495URL
+- build EXIT0・数値/誤マッチ検査OK・方式B(functions4本保全)・両push・本番200・Indexing 18/18+sitemap再送信。効果1-2週GSC(店舗指名クエリpos10-40の刈り取り)
+
 ### 2026-07-23 深部展開第2弾24ページ（MediaXAI「深部ページへの展開進めよう」）✅本番反映済み
 第1弾15に続く高需要深部(pos22+×表示20+)24ページへ勝ちテンプレ一括適用: asakusa(191)/akihabara(178)/nishi-nippori(147)/aoyama-itchome/kagurazaka/shibuya/seijo-gakuenmae/shimokitazawa/umeda/akasaka/kitahama/koenji/yoga-komazawa/nishijin/omiya/izumi/otsuka/nihonbashi/kyoto-station/nakano-sakaue/yoyogi-uehara/itami/fujisawa/ogikubo。冪等スクリプト(enhance-phase0 SLUGS+add-conclusion TARGETS)+modifier injector。全24 C/MC/MD完備確認。build EXIT0・方式B(functions保全)・両push・本番asakusa確認・Indexing 24/24。**累計深部展開=飯田橋モデル+第1弾15+第2弾24=40ページ**。効果1-2週GSC。残候補=さらに深いpos40+(shibuya60/omiya71/osaka73等・低順位で効果は逓減)。

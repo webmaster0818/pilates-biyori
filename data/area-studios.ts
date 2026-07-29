@@ -45,6 +45,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'zen place pilates 札幌スタジオ',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
         image: '/images/pilates2.jpg',
         rating: 4.2,
         price: '月4回 13,200円〜',
@@ -108,6 +109,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'zen place pilates 仙台スタジオ',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
         image: '/images/pilates2.jpg',
         rating: 4.1,
         price: '月4回 13,200円〜',
@@ -806,6 +808,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'zen place pilates 茅ヶ崎',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
         image: '/images/studios/zenplace-chigasaki.webp',
         rating: 4.6,
         price: 'マットフリー ¥14,960/月〜',
@@ -1180,6 +1183,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'zen place pilates 流山おおたかの森',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
         image: '/images/studios/zenplace-nagareyama.webp',
         rating: 4.6,
         price: 'マットフリー ¥14,960/月〜',
@@ -1477,6 +1481,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'zen place pilates 高槻',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
         image: '/images/studios/zenplace-takatsuki.webp',
         rating: 4.6,
         price: 'マットフリー ¥14,960/月〜',
@@ -1521,6 +1526,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'zen place pilates 豊中',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
         image: '/images/studios/zenplace-toyonaka.webp',
         rating: 4.6,
         price: 'マットフリー ¥14,960/月〜',
@@ -1924,6 +1930,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'zen place pilates 京都西院',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
         image: '/images/studios/zenplace-arashiyama.webp',
         rating: 4.6,
         price: 'マットフリー ¥16,940/月〜',
@@ -3156,6 +3163,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'zen place pilates 本郷三丁目',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
         image: '/images/studios/zen-place-pilates.webp',
         price: '詳細は公式サイト参照',
         trial: '体験レッスンあり（詳細は公式サイト参照）',
@@ -3249,7 +3257,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'zen place pilates 堺東',
-        officialUrl: 'https://www.zenplace.co.jp/',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
         image: '/images/studios/zenplace.webp',
         price: 'マットグループ月4回 9,625円〜/フリープラン 14,960円〜（グレードにより異なる・税込）',
         trial: 'マットグループ体験 2,200円〜（グレードにより異なる）/マシングループ体験 5,000円',
@@ -3301,7 +3309,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'zen place pilates 南森町',
-        officialUrl: 'https://www.zenplace.co.jp/',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
         image: '/images/studios/zenplace.webp',
         price: 'マットグループ月4回 9,625円〜/フリープラン 14,960円〜（グレードにより異なる・税込）',
         trial: 'マットグループ体験 2,200円〜（グレードにより異なる）/マシングループ体験 5,000円',
@@ -3362,7 +3370,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'zen place pilates 大泉学園',
-        officialUrl: 'https://www.zenplace.co.jp/',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
         image: '/images/studios/zenplace.webp',
         price: 'マットグループ月4回 9,625円〜/フリープラン 14,960円〜（グレードにより異なる・税込）',
         trial: 'マットグループ体験 2,200円〜（グレードにより異なる）/マシングループ体験 5,000円',
@@ -3423,7 +3431,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'zen place pilates 大森',
-        officialUrl: 'https://www.zenplace.co.jp/',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
         image: '/images/studios/zenplace.webp',
         price: 'マットグループ月4回 9,625円〜/フリープラン 14,960円〜（グレードにより異なる・税込）',
         trial: 'マットグループ体験 2,200円〜（グレードにより異なる）/マシングループ体験 5,000円',
@@ -3484,7 +3492,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'zen place pilates 駒込',
-        officialUrl: 'https://www.zenplace.co.jp/',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
         image: '/images/studios/zenplace.webp',
         price: 'マットグループ月4回 9,625円〜/フリープラン 14,960円〜（グレードにより異なる・税込）',
         trial: 'マットグループ体験 2,200円〜（グレードにより異なる）/マシングループ体験 5,000円',
@@ -3546,7 +3554,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'zen place pilates 西葛西',
-        officialUrl: 'https://www.zenplace.co.jp/',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
         image: '/images/studios/zenplace.webp',
         price: 'マットグループ月4回 9,625円〜/フリープラン 14,960円〜（グレードにより異なる・税込）',
         trial: 'マットグループ体験 2,200円〜（グレードにより異なる）/マシングループ体験 5,000円',
@@ -3607,7 +3615,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'zen place pilates 上大岡',
-        officialUrl: 'https://www.zenplace.co.jp/',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
         image: '/images/studios/zenplace.webp',
         price: 'マットグループ月4回 9,625円〜/フリープラン 14,960円〜（グレードにより異なる・税込）',
         trial: 'マットグループ体験 2,200円〜（グレードにより異なる）/マシングループ体験 5,000円',
@@ -3659,7 +3667,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'zen place pilates 湘南台',
-        officialUrl: 'https://www.zenplace.co.jp/',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
         image: '/images/studios/zenplace.webp',
         price: 'マットグループ月4回 9,625円〜/フリープラン 14,960円〜（グレードにより異なる・税込）',
         trial: 'マットグループ体験 2,200円〜（グレードにより異なる）/マシングループ体験 5,000円',
@@ -3709,7 +3717,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'zen place pilates 津田沼',
-        officialUrl: 'https://www.zenplace.co.jp/',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
         image: '/images/studios/zenplace.webp',
         price: 'マットグループ月4回 9,625円〜/フリープラン 14,960円〜（グレードにより異なる・税込）',
         trial: 'マットグループ体験 2,200円〜（グレードにより異なる）/マシングループ体験 5,000円',
@@ -4737,7 +4745,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'zen place pilates 京都西院',
-        officialUrl: 'https://www.zenplace.co.jp/',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
         image: '/images/studios/zenplace.webp',
         price: 'マットグループ月4回 9,625円〜/フリープラン 14,960円〜（グレードにより異なる・税込）',
         trial: 'マットグループ体験 2,200円〜（グレードにより異なる）/マシングループ体験 5,000円',
@@ -4788,7 +4796,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'zen place pilates 塚口',
-        officialUrl: 'https://www.zenplace.co.jp/',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
         image: '/images/studios/zenplace.webp',
         price: 'マットグループ月4回 9,625円〜/フリープラン 14,960円〜（グレードにより異なる・税込）',
         trial: 'マットグループ体験 2,200円〜（グレードにより異なる）/マシングループ体験 5,000円',
@@ -5388,7 +5396,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'zen place pilates 上大岡（蒔田から2駅）',
-        officialUrl: 'https://www.zenplace.co.jp/studios/pilates-kamiooka',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
         image: '/images/studios/zenplace.webp',
         price: 'マットグループフリー 16,940円/月（税込）ほか',
         trial: '体験あり（WEB/電話予約・所要約2時間）',
@@ -5674,7 +5682,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'zen place pilates 栄',
-        officialUrl: 'https://www.zenplace.co.jp/studios/pilates-sakae',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
         image: '/images/studios/zenplace.webp',
         price: 'マットグループ 月4回 10,450円／リフォーマーグループ 月4回 15,400円（税込）',
         trial: '体験あり（料金は公式サイト参照）',
@@ -6549,7 +6557,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'zen place ピラティス 所沢',
-        officialUrl: 'https://www.zenplace.co.jp/studios/pilates-tokorozawa',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
         image: '/images/studios/zenplace.webp',
         price: 'マットグループ 月14,960円／リフォーマーグループ 月15,400円',
         trial: '体験は公式サイト参照',
@@ -6806,7 +6814,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'zen place pilates 仙台',
-        officialUrl: 'https://www.zenplace.co.jp/studios/pilates-sendai',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
         image: '/images/studios/zenplace.webp',
         price: 'マットグループ 月14,960円／リフォーマーグループ 月15,400円／プライベート月4回33,880円',
         trial: '体験は公式サイト参照',
