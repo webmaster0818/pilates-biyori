@@ -196,10 +196,10 @@ export const BRANDS: BrandInfo[] = [
       { q: '入会金はかかりますか？', a: '入会金は不要です。' },
       { q: 'レッスンはグループですか？', a: '24/7ピラティスはマシンを使ったマンツーマン指導が基本です。' },
     ],
-    ctaUrl: 'https://247-sports.jp/',
+    ctaUrl: 'https://t.felmat.net/fmcl?ak=J11817X.1.B1620582.U1357808',
     ctaLabel: '公式サイトで詳細を見る',
     officialRef: { label: '24/7ピラティス公式サイト', url: 'https://247-sports.jp/' },
-    isPartner: false,
+    isPartner: true,
     useHyoban: false,
   },
   {

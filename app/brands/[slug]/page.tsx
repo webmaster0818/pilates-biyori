@@ -253,6 +253,20 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                   {/* eslint-enable @next/next/no-img-element */}
                 </div>
               )}
+              {brand.slug === '24-7pilates' && (
+                <div className="mt-6 flex flex-col items-center gap-4">
+                  {/* eslint-disable @next/next/no-img-element */}
+                  {/* CTAテキストリンク(B1620582)のインプレッション計測 */}
+                  <img src="https://t.felmat.net/fmimp/J11817X.B1620582.U1357808" width={1} height={1} alt="" style={{ border: 'none' }} />
+                  <a href="https://t.felmat.net/fmcl?ak=J11817X.1.6162671D.U1357808" target="_blank" rel="nofollow noopener noreferrer sponsored" className="hidden md:inline-block">
+                    <img width={300} height={250} alt="24/7ピラティス" className="max-w-full h-auto" src="https://t.felmat.net/fmimg/J11817X.6162671D.U1357808" />
+                  </a>
+                  <a href="https://t.felmat.net/fmcl?ak=J11817X.1.F162669F.U1357808" target="_blank" rel="nofollow noopener noreferrer sponsored" className="md:hidden inline-block">
+                    <img width={320} height={50} alt="24/7ピラティス" className="max-w-full h-auto" src="https://t.felmat.net/fmimg/J11817X.F162669F.U1357808" />
+                  </a>
+                  {/* eslint-enable @next/next/no-img-element */}
+                </div>
+              )}
               {brand.slug === 'dr-pilates' && (
                 <div className="mt-6 flex flex-col items-center gap-4">
                   {/* eslint-disable @next/next/no-img-element */}

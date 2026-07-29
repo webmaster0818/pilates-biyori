@@ -445,7 +445,7 @@ const studios = [
   },
   {
     name: '24/7ピラティス 札幌店',
-    officialUrl: 'https://247-sports.jp/pilates/',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=J11817X.1.B1620582.U1357808',
     image: '/images/studios/247-pilates.webp',
     price: '月2回 14,500円〜 / 月4回 27,000円〜（税込）',
     trial: '体験レッスン 無料（説明含め約60分・手ぶらOK）',

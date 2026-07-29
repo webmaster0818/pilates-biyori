@@ -266,7 +266,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
           {
         name: '24/7ピラティス 盛岡店',
-        officialUrl: 'https://247-sports.jp/pilates/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=J11817X.1.B1620582.U1357808',
         image: '/images/studios/247-pilates.webp',
         price: '月2回 14,500円〜 / 月4回 27,000円〜 / 月8回 52,000円〜（税込）',
         trial: '体験レッスン 無料（説明含め約60分・手ぶらOK）',
@@ -620,7 +620,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: '24/7ピラティス 宇都宮店',
-        officialUrl: 'https://247-sports.jp/pilates/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=J11817X.1.B1620582.U1357808',
         image: '/images/studios/247-pilates.webp',
         price: '月2回 14,500円〜 / 月4回 27,000円〜 / 月8回 52,000円〜（税込）',
         trial: '体験レッスン 無料（説明含め約60分・手ぶらOK）',
@@ -763,7 +763,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
           {
         name: '24/7ピラティス 甲府店',
-        officialUrl: 'https://247-sports.jp/pilates/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=J11817X.1.B1620582.U1357808',
         image: '/images/studios/247-pilates.webp',
         price: '月2回 14,500円〜 / 月4回 27,000円〜 / 月8回 52,000円〜（税込）',
         trial: '体験レッスン 無料（説明含め約60分・手ぶらOK）',
@@ -3246,7 +3246,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: '24/7ピラティス 堺東店',
-        officialUrl: 'https://247-sports.jp/pilates/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=J11817X.1.B1620582.U1357808',
         image: '/images/studios/247-pilates.webp',
         price: '月2回 14,500円〜 / 月4回 27,000円〜 / 月8回 52,000円〜（税込）',
         trial: '体験レッスン 無料（説明含め約60分・手ぶらOK）',

@@ -368,6 +368,11 @@ export function StudioCard({ studio, index }: StudioCardProps) {
               // eslint-disable-next-line @next/next/no-img-element
               <img src="https://t.felmat.net/fmimp/Z11979O.Z164554L.U1357808" width={1} height={1} alt="" className="inline-block" style={{ border: 'none' }} />
             )}
+            {/* felmatインプレッション計測(24/7ピラティス) */}
+            {studio.officialUrl?.includes('J11817X.1.B1620582') && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src="https://t.felmat.net/fmimp/J11817X.B1620582.U1357808" width={1} height={1} alt="" className="inline-block" style={{ border: 'none' }} />
+            )}
             {brandSlugOf(studio.name) && (
               <a
                 href={`/brands/${brandSlugOf(studio.name)}/`}

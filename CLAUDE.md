@@ -280,7 +280,8 @@ GSC実測で対象特定→改修。
 - **これでpilates Week2完了**(①CTR磨き②tokyo統合③飯田橋モデル④深部15横展開)。KPI=固定24クエリ週次追跡・30日でstriking6中2本未満なら見直し。次候補=新規エリア量産解禁(1ページ目シェア10%超が条件・現3.9%→まだ早い)or 効果測定後の残深部展開。
 
 ### 2026-07-29 Dr.ピラティス felmatアフィリ設置（MediaXAI URL共有）✅本番反映済み
-- `scripts/add-drpilates-felmat-202607.py`(冪等・zen place版と同ロジック)=**全29店ブロックにofficialUrl設置**(公式URL差替28+挿入1)。felmatはピクセル不要
+- `scripts/add-drpilates-felmat-202607.py`(冪等・zen place版と同ロジック)=**全29店ブロックにofficialUrl設置**(公式URL差替28+挿入1)
+- **⚠️訂正あり(同日)**: 初回は静的PNG+テキスト用クリックURLでバナー実装→MediaXAIが正規タグを再共有。正=**バナーごとに専用ak**(250×250=51645873/300×250=V164586G/320×50=X164585F・画像はt.felmat.net/fmimg/)+**テキストリンクにfmimpインプレッションピクセル必須**。StudioCard(officialUrlにZ164554L含む場合)とブランドCTA下にfmimp設置済み。**教訓: felmatにも案件によりピクセルがある。バナーは必ず提供タグのクリック/画像URLペアをそのまま使う**
 - brands.ts dr-pilates: ctaUrl→felmat/isPartner→true(PR表記)。officialRefは公式のまま
 - /brands/dr-pilates/ にバナー: 300×250(md以上)+320×50(モバイル)。250×250は300×250と重複のため不採用
 - 掲載URL=エリア29+ブランド1=30件(本文直貼りで共有・MediaXAIはファイル添付でなく本文希望)
