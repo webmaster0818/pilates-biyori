@@ -279,6 +279,13 @@ GSC実測で対象特定→改修。
 - refresh-dates→build EXIT0→方式B(functions保全)→両push→本番sample 4/4描画確認(edge伝播ラグで一部node遅延=?cb再確認)→**Indexing 15/15**。効果1-2週GSC(深部pos31+→クリック圏への浮上)。
 - **これでpilates Week2完了**(①CTR磨き②tokyo統合③飯田橋モデル④深部15横展開)。KPI=固定24クエリ週次追跡・30日でstriking6中2本未満なら見直し。次候補=新規エリア量産解禁(1ページ目シェア10%超が条件・現3.9%→まだ早い)or 効果測定後の残深部展開。
 
+### 2026-07-29 Dr.ピラティス felmatアフィリ設置（MediaXAI URL共有）✅本番反映済み
+- `scripts/add-drpilates-felmat-202607.py`(冪等・zen place版と同ロジック)=**全29店ブロックにofficialUrl設置**(公式URL差替28+挿入1)。felmatはピクセル不要
+- brands.ts dr-pilates: ctaUrl→felmat/isPartner→true(PR表記)。officialRefは公式のまま
+- /brands/dr-pilates/ にバナー: 300×250(md以上)+320×50(モバイル)。250×250は300×250と重複のため不採用
+- 掲載URL=エリア29+ブランド1=30件(本文直貼りで共有・MediaXAIはファイル添付でなく本文希望)
+- ⚠️アフィリ未掲載残: Mee164/pilatesK156/Rintosull144/CP94/SILK88/24-7 29/BDC22/メルメイク3/DAYS3 + 提携済一部未設置(URBAN11/Lucina3/ELEMENT1/Celestia1)
+
 ### 2026-07-29 zen place A8アフィリエイト設置（MediaXAI 3パターン共有「適切にすべて掲載」）✅本番反映済み
 - **テキストリンク(a8mat=4B650J+3SXRGI+4LQ4+5YJRM)**: `scripts/add-zenplace-a8-202607.py`(冪等)で**zen place全220スタジオブロックにofficialUrl設置**(既存zenplace.co.jp差替18+新規挿入202・想定外URLはスキップ設計)→StudioCard「公式サイトを見てみる」が自動でrel=sponsoredアフィリ化(191エリアページ)。AI相談ツールもofficialUrl参照で自動反映
 - **StudioCardにA8計測ピクセル**: officialUrlが当該a8mat含む場合のみ1x1画像を描画

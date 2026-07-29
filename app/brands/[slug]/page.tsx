@@ -256,11 +256,13 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
               {brand.slug === 'dr-pilates' && (
                 <div className="mt-6 flex flex-col items-center gap-4">
                   {/* eslint-disable @next/next/no-img-element */}
-                  <a href="https://t.felmat.net/fmcl?ak=Z11979O.1.Z164554L.U1357808" target="_blank" rel="noopener noreferrer sponsored" className="hidden md:inline-block">
-                    <img width={300} height={250} alt="Dr.ピラティス" className="max-w-full h-auto" src="https://img.felmat.net/11979/11979-1779760306.7451-4.png" />
+                  {/* CTAテキストリンク(Z164554L)のインプレッション計測 */}
+                  <img src="https://t.felmat.net/fmimp/Z11979O.Z164554L.U1357808" width={1} height={1} alt="" style={{ border: 'none' }} />
+                  <a href="https://t.felmat.net/fmcl?ak=Z11979O.1.V164586G.U1357808" target="_blank" rel="nofollow noopener noreferrer sponsored" className="hidden md:inline-block">
+                    <img width={300} height={250} alt="Dr.PILATES(ドクターピラティス)" className="max-w-full h-auto" src="https://t.felmat.net/fmimg/Z11979O.V164586G.U1357808" />
                   </a>
-                  <a href="https://t.felmat.net/fmcl?ak=Z11979O.1.Z164554L.U1357808" target="_blank" rel="noopener noreferrer sponsored" className="md:hidden inline-block">
-                    <img width={320} height={50} alt="Dr.ピラティス" className="max-w-full h-auto" src="https://img.felmat.net/11979/11979-1779760306.7453-4.png" />
+                  <a href="https://t.felmat.net/fmcl?ak=Z11979O.1.X164585F.U1357808" target="_blank" rel="nofollow noopener noreferrer sponsored" className="md:hidden inline-block">
+                    <img width={320} height={50} alt="Dr.PILATES(ドクターピラティス)" className="max-w-full h-auto" src="https://t.felmat.net/fmimg/Z11979O.X164585F.U1357808" />
                   </a>
                   {/* eslint-enable @next/next/no-img-element */}
                 </div>
