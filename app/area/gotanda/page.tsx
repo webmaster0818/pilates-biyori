@@ -289,7 +289,7 @@ const studios = [
   },
   {
     name: 'Dr.ピラティス 五反田店',
-    officialUrl: 'https://drpilates.drtraining.jp/',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=Z11979O.1.Z164554L.U1357808',
     image: '/images/studios/dr-pilates.webp',
     price: '月4回(45分) 29,700円〜 / 月4回(60分) 39,600円〜',
     trial: '体験トレーニング 7,100円（無料キャンペーン実施店舗あり）',

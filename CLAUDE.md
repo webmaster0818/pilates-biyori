@@ -279,6 +279,13 @@ GSC実測で対象特定→改修。
 - refresh-dates→build EXIT0→方式B(functions保全)→両push→本番sample 4/4描画確認(edge伝播ラグで一部node遅延=?cb再確認)→**Indexing 15/15**。効果1-2週GSC(深部pos31+→クリック圏への浮上)。
 - **これでpilates Week2完了**(①CTR磨き②tokyo統合③飯田橋モデル④深部15横展開)。KPI=固定24クエリ週次追跡・30日でstriking6中2本未満なら見直し。次候補=新規エリア量産解禁(1ページ目シェア10%超が条件・現3.9%→まだ早い)or 効果測定後の残深部展開。
 
+### 2026-07-29 zen place A8アフィリエイト設置（MediaXAI 3パターン共有「適切にすべて掲載」）✅本番反映済み
+- **テキストリンク(a8mat=4B650J+3SXRGI+4LQ4+5YJRM)**: `scripts/add-zenplace-a8-202607.py`(冪等)で**zen place全220スタジオブロックにofficialUrl設置**(既存zenplace.co.jp差替18+新規挿入202・想定外URLはスキップ設計)→StudioCard「公式サイトを見てみる」が自動でrel=sponsoredアフィリ化(191エリアページ)。AI相談ツールもofficialUrl参照で自動反映
+- **StudioCardにA8計測ピクセル**: officialUrlが当該a8mat含む場合のみ1x1画像を描画
+- **brands.ts zen-place**: ctaUrl→A8/isPartner→true(PR表記自動表示)。officialRef(情報引用元)は公式のまま=zen placeレギュレーション維持
+- **バナー2種**: /brands/zen-place/ CTA節にslug限定で300x250+468x60(mdのみ表示)+各ピクセル・rel="nofollow noopener noreferrer sponsored"
+- 掲載URL一覧=エリア191+ブランド1=192(scratchpad/zenplace-urls.txt→Discord共有済み)。方式B両push・本番確認
+
 ### 2026-07-28 do/know/go戦略v2 Phase1実行（MediaXAI 7/27「進めて」）✅本番反映済み
 戦略v2（`~/.openclaw/workspace/pilates-strategy-do-know-go-2026-07-27.md`＝投資順序をgo>do圏内>knowに並べ替え）のPhase1。
 - **D1/D2: 無料体験セクション新設**: `AreaModifierSections`に「{エリア}で無料体験できるピラティススタジオ」軸を追加(id=free-trial)→搭載済み全55エリアに自動反映。無料判定は『無料』表記＋parseYen==0のみ(0円誤マッチ回避)。無料ゼロのエリアは正直にその旨＋体験安い順TOP3。数値突合OK(浜松町2/秋葉原2/東京駅3=元データ一致)

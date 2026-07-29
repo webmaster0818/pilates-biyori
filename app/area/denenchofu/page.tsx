@@ -99,6 +99,7 @@ const studios = [
   },
   {
     name: 'Dr.ピラティス 田園調布店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=Z11979O.1.Z164554L.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     rating: 4.8, reviewCount: 72,
     reviews: [

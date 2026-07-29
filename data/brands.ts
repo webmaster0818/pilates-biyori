@@ -262,10 +262,10 @@ export const BRANDS: BrandInfo[] = [
       { q: 'Dr.ピラティスはグループレッスンがありますか？', a: 'パーソナル特化のブランドのため、マンツーマンのセッションが基本です。' },
       { q: '体験はできますか？', a: '体験トレーニング7,100円で受けられます。無料キャンペーンを実施している店舗もあるため、公式サイトでご確認ください。' },
     ],
-    ctaUrl: 'https://drpilates.drtraining.jp/',
+    ctaUrl: 'https://t.felmat.net/fmcl?ak=Z11979O.1.Z164554L.U1357808',
     ctaLabel: '公式サイトで詳細を見る',
     officialRef: { label: 'Dr.ピラティス公式サイト', url: 'https://drpilates.drtraining.jp/' },
-    isPartner: false,
+    isPartner: true,
     useHyoban: false,
   },
   {

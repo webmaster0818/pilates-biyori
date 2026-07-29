@@ -253,6 +253,18 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                   {/* eslint-enable @next/next/no-img-element */}
                 </div>
               )}
+              {brand.slug === 'dr-pilates' && (
+                <div className="mt-6 flex flex-col items-center gap-4">
+                  {/* eslint-disable @next/next/no-img-element */}
+                  <a href="https://t.felmat.net/fmcl?ak=Z11979O.1.Z164554L.U1357808" target="_blank" rel="noopener noreferrer sponsored" className="hidden md:inline-block">
+                    <img width={300} height={250} alt="Dr.ピラティス" className="max-w-full h-auto" src="https://img.felmat.net/11979/11979-1779760306.7451-4.png" />
+                  </a>
+                  <a href="https://t.felmat.net/fmcl?ak=Z11979O.1.Z164554L.U1357808" target="_blank" rel="noopener noreferrer sponsored" className="md:hidden inline-block">
+                    <img width={320} height={50} alt="Dr.ピラティス" className="max-w-full h-auto" src="https://img.felmat.net/11979/11979-1779760306.7453-4.png" />
+                  </a>
+                  {/* eslint-enable @next/next/no-img-element */}
+                </div>
+              )}
             </section>
           )}
 
