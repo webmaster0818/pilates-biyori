@@ -8,7 +8,7 @@ tags:
   - "効果が出ない"
   - "続け方"
 publishedAt: "2026-06-06"
-updatedAt: "2026-07-29"
+updatedAt: "2026-08-01"
 author: "編集部"
 keywords:
   - "ピラティス 効果 出ない"

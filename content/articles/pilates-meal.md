@@ -8,7 +8,7 @@ tags:
   - "食事"
   - "ダイエット"
 publishedAt: "2026-06-06"
-updatedAt: "2026-07-29"
+updatedAt: "2026-08-01"
 author: "編集部"
 keywords:
   - "ピラティス 食事"

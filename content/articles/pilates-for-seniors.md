@@ -9,7 +9,7 @@ tags:
   - "70代"
   - "健康維持"
 publishedAt: "2026-05-11"
-updatedAt: "2026-07-29"
+updatedAt: "2026-08-01"
 author: "編集部"
 keywords:
   - "シニア ピラティス"

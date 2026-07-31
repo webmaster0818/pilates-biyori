@@ -14,7 +14,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kunitachi/' },
-  title: '【2026年7月最新】ピラティス国立おすすめ5選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年8月最新】ピラティス国立おすすめ5選！人気スタジオの料金プランを簡単比較！',
   description: '国立エリアのおすすめピラティススタジオ5選を徹底比較。zen place pilates国立・Rintosull国立店・ピラティスミラー国立・YU\'s PILATES・COCOLANCE国立店など実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
   keywords: 'ピラティス,国立,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place,Rintosull,ピラティスミラー',
 }
@@ -342,7 +342,7 @@ export default function KunitachiPage() {
       <main className="pt-20 bg-white">
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年07月29日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年08月01日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス国立おすすめ5選！
               <br className="hidden md:block" />

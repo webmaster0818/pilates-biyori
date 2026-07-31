@@ -8,7 +8,7 @@ tags:
   - "ライブレッスン"
   - "ビデオレッスン"
 publishedAt: "2026-06-12"
-updatedAt: "2026-07-29"
+updatedAt: "2026-08-01"
 author: "編集部"
 keywords:
   - "オンラインピラティス ライブ ビデオ 違い"

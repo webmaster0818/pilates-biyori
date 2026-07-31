@@ -9,7 +9,7 @@ tags:
   - "産後"
   - "改善エクササイズ"
 publishedAt: "2026-05-11"
-updatedAt: "2026-07-29"
+updatedAt: "2026-08-01"
 author: "編集部"
 keywords:
   - "骨盤矯正 ピラティス"

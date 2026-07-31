@@ -13,7 +13,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/fujimidai/' },
-  title: '【2026年7月最新】ピラティス富士見台おすすめスタジオ｜料金プランを徹底比較！',
+  title: '【2026年8月最新】ピラティス富士見台おすすめスタジオ｜料金プランを徹底比較！',
   description: '富士見台（東京都）のおすすめピラティススタジオを比較。富士見台駅周辺の料金相場、マシン・パーソナル・女性専用の特徴、体験レッスン情報をまとめて掲載。',
   keywords: 'ピラティス,富士見台,東京都,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -60,7 +60,7 @@ export default function Page() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年07月29日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年08月01日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026年7月最新】ピラティス富士見台おすすめスタジオ<br className="hidden md:block" />
               人気スタジオの料金プランを徹底比較！

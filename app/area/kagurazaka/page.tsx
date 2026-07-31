@@ -17,7 +17,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kagurazaka/' },
-  title: '【2026年7月最新】神楽坂のピラティス7社を比較｜無料体験3社・月額最安10,450円〜',
+  title: '【2026年8月最新】神楽坂のピラティス7社を比較｜無料体験3社・月額最安10,450円〜',
   description: '神楽坂エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,神楽坂,飯田橋,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -371,7 +371,7 @@ export default function KagurazakaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年07月29日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年08月01日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026年6月最新】ピラティス神楽坂おすすめ7選！<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！

@@ -17,7 +17,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/yoyogi-uehara/' },
-  title: '【2026年7月最新】代々木上原のピラティススタジオおすすめ12選｜無料体験・料金で比較',
+  title: '【2026年8月最新】代々木上原のピラティススタジオおすすめ12選｜無料体験・料金で比較',
   description: '代々木上原のピラティススタジオ12社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
   keywords: 'ピラティス,代々木上原,東京,渋谷区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,代々木公園,代々木八幡,下北沢',
 }
@@ -350,7 +350,7 @@ export default function YoyogiUeharaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年07月29日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年08月01日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026年6月最新】ピラティス代々木上原おすすめ12選！<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！
