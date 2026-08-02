@@ -21,6 +21,58 @@ export const metadata = {
 
 const studios = [
   {
+    name: 'studio COLERE 靱公園スタジオ',
+    officialUrl: 'https://pilates-colere.com/',
+    price: '月4回 27,200円（税込）',
+    trial: '初回体験レッスン（45分）4,000円 ※オープン記念キャンペーンで無料予約可（実施状況は公式サイトでご確認ください）',
+    features: ['女性専用', '完全個室・マンツーマン', 'タワーリフォーマー', '全店舗利用可'],
+    description: '女性専用のパーソナルマシンピラティススタジオ。タワーリフォーマーを使った55分のマンツーマンレッスンで、一人ひとりの身体や目的に合わせて指導します（グループレッスンは実施していません）。大阪市内に5店舗を展開し、会員はどの店舗も利用できます。',
+    access: '大阪メトロ中央線 阿波座駅①番出口から徒歩5分',
+    address: '大阪府大阪市西区京町堀2丁目14-26 RE-007 203号室',
+    popularPlan: {
+      name: '月4回券',
+      description: 'タワーリフォーマーを使ったパーソナルレッスン（1回55分）。会員はどのスタジオでも利用可能。',
+      price: '27,200円（税込・有効期限1ヶ月）',
+    },
+    options: ['月2回券 14,000円（税込・有効期限1ヶ月）', '月8回券 50,400円（税込・有効期限1ヶ月）', '10回券 68,000円（税込・有効期限3ヶ月）'],
+    userProfile: {
+      ageRange: '公式サイトでご確認ください',
+      genderRatio: '女性100%（女性専用）',
+      purpose: ['姿勢改善', 'ボディメイク', '体幹強化'],
+    },
+    basicInfo: {
+      hours: '8:00〜21:00',
+      closed: 'お盆（8月14日〜16日）、年末年始',
+      facilities: ['タワーリフォーマー', '完全個室・プライベート空間'],
+    },
+  },
+  {
+    name: 'studio COLERE 谷町四丁目スタジオ',
+    officialUrl: 'https://pilates-colere.com/',
+    price: '月4回 27,200円（税込）',
+    trial: '初回体験レッスン（45分）4,000円 ※オープン記念キャンペーンで無料予約可（実施状況は公式サイトでご確認ください）',
+    features: ['女性専用', '完全個室・マンツーマン', 'タワーリフォーマー', '全店舗利用可'],
+    description: '女性専用のパーソナルマシンピラティススタジオ。タワーリフォーマーを使った55分のマンツーマンレッスンで、一人ひとりの身体や目的に合わせて指導します（グループレッスンは実施していません）。大阪市内に5店舗を展開し、会員はどの店舗も利用できます。',
+    access: '大阪メトロ谷町線 谷町四丁目駅③番出口から徒歩3分30秒',
+    address: '大阪府大阪市中央区内本町1丁目4-15 クリスタルブライト本町東 403号室',
+    popularPlan: {
+      name: '月4回券',
+      description: 'タワーリフォーマーを使ったパーソナルレッスン（1回55分）。会員はどのスタジオでも利用可能。',
+      price: '27,200円（税込・有効期限1ヶ月）',
+    },
+    options: ['月2回券 14,000円（税込・有効期限1ヶ月）', '月8回券 50,400円（税込・有効期限1ヶ月）', '10回券 68,000円（税込・有効期限3ヶ月）'],
+    userProfile: {
+      ageRange: '公式サイトでご確認ください',
+      genderRatio: '女性100%（女性専用）',
+      purpose: ['姿勢改善', 'ボディメイク', '体幹強化'],
+    },
+    basicInfo: {
+      hours: '8:00〜21:00',
+      closed: 'お盆（8月14日〜16日）、年末年始',
+      facilities: ['タワーリフォーマー', '完全個室・プライベート空間'],
+    },
+  },
+  {
     name: 'スタジオカラーズ',
     image: '/images/studios/studio-colors-honmachi.webp',
     rating: 4.8,
@@ -348,7 +400,7 @@ export default function HonmachiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年08月01日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス本町おすすめ5選！<br className="hidden md:block" />
+              【2026最新】ピラティス本町おすすめ6選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
