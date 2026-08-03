@@ -6211,6 +6211,7 @@ export const areaStudios: Record<string, AreaData> = {
         address: '大阪市中央区東平2-5-6 プロスピリティー谷九駅前ビル5F',
       },      {
         name: 'studio COLERE 上町台スタジオ',
+        image: '/images/studios/studio-colere.webp',
         officialUrl: 'https://pilates-colere.com/',
         price: '月4回 27,200円（税込・有効期限1ヶ月）',
         trial: '初回体験レッスン（45分）4,000円 ※オープン記念キャンペーンで無料予約可（実施状況は公式サイトでご確認ください）',
@@ -6221,6 +6222,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'studio COLERE 谷9上本町スタジオ',
+        image: '/images/studios/studio-colere.webp',
         officialUrl: 'https://pilates-colere.com/',
         price: '月4回 27,200円（税込・有効期限1ヶ月）',
         trial: '初回体験レッスン（45分）4,000円 ※オープン記念キャンペーンで無料予約可（実施状況は公式サイトでご確認ください）',

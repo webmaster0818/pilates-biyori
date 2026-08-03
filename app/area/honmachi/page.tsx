@@ -287,6 +287,7 @@ const studios = [
     },
   },  {
     name: 'studio COLERE 靱公園スタジオ',
+    image: '/images/studios/studio-colere.webp',
     officialUrl: 'https://pilates-colere.com/',
     price: '月4回 27,200円（税込）',
     trial: '初回体験レッスン（45分）4,000円 ※オープン記念キャンペーンで無料予約可（実施状況は公式サイトでご確認ください）',
@@ -313,6 +314,7 @@ const studios = [
   },
   {
     name: 'studio COLERE 谷町四丁目スタジオ',
+    image: '/images/studios/studio-colere.webp',
     officialUrl: 'https://pilates-colere.com/',
     price: '月4回 27,200円（税込）',
     trial: '初回体験レッスン（45分）4,000円 ※オープン記念キャンペーンで無料予約可（実施状況は公式サイトでご確認ください）',
