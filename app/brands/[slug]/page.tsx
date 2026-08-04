@@ -31,6 +31,10 @@ type Store = {
 
 const STORES: Record<string, Store[]> = brandStores as Record<string, Store[]>
 
+// 月表記は自動更新（手動更新は陳腐化するため）
+const _now = new Date()
+const MONTH_TAG = `【${_now.getFullYear()}年${_now.getMonth() + 1}月】`
+
 export function generateStaticParams() {
   return BRANDS.map((b) => ({ slug: b.slug }))
 }
@@ -46,7 +50,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     : brand.slug === 'pilates-k' ? '店舗一覧・店舗数・料金'
     : brand.useHyoban ? '料金・評判・店舗一覧' : '料金・体験・店舗一覧'
   return {
-    title: `${brand.name}の${kw}【2026年7月】｜掲載${stores.length}店舗を比較`,
+    title: `${brand.name}の${kw}${MONTH_TAG}｜掲載${stores.length}店舗を比較`,
     description: `${brand.name}の料金プラン・体験レッスン・店舗一覧を掲載データから整理。${brand.tagline}。掲載${stores.length}店舗のエリア別リンク付きで、近くの店舗がすぐ見つかります。`,
     alternates: { canonical: `https://biyori-pilates.com/brands/${slug}/` },
   }

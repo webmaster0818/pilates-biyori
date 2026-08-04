@@ -9,6 +9,10 @@ import type { BdcStore } from "@/data/bdc-stores";
 // ブランド×エリア受け皿。指名クエリ「{ブランド} ピラティス {エリア}」の受け皿。
 // 実店舗データ（brands-aggregate.json一致）＋ブランド編集データ＋ブランド/エリアへの三角リンク。
 // brandSlug でBDC以外のブランド（club-pilates等）にも汎用対応。
+// 月表記は自動更新（手動更新は陳腐化するため）
+const _now = new Date()
+const MONTH_TAG = `【${_now.getFullYear()}年${_now.getMonth() + 1}月】`
+
 export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStore; brandSlug?: string }) {
   const brand = getBrand(brandSlug);
   const brandName = brand?.name ?? brandSlug.toUpperCase();
@@ -63,11 +67,17 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
 
           <p className="section-en text-warm-400 mb-2 font-medium">Brand × Area</p>
           <h1 className="text-2xl md:text-3xl font-light text-warm-900 tracking-tight mb-3">
-            {brandName} {store.areaQuery}の料金・体験・アクセス
+            {store.areaQuery}の{brandName}｜料金・体験・アクセス
             <span className="block text-base text-warm-500 mt-2 font-light">
-              マシンピラティス専門「{store.storeName}」を当サイト掲載データで整理【2026年7月】
+              マシンピラティス専門「{store.storeName}」を当サイト掲載データで整理{MONTH_TAG}
             </span>
           </h1>
+
+          <div className="border border-warm-300 bg-warm-50 px-4 py-3 mb-8 text-sm text-warm-800">
+            🔀 {brandName}全体の<strong>料金プラン・口コミ・全店舗一覧</strong>をお探しの方は{" "}
+            <Link href={brandHref} className="underline decoration-warm-400 hover:text-warm-900 font-medium">{brandName}のブランドガイド</Link>
+            {" "}をご覧ください（このページは{store.areaQuery}店の情報です）。
+          </div>
 
           {/* 結論ボックス */}
           <section className="bg-white border border-warm-200 p-6 mb-10">
