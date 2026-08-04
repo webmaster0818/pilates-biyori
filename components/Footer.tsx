@@ -42,6 +42,7 @@ export function Footer() {
           © 2026 Pilates-Biyori. All rights reserved.
         </div>
       </div>
+        <p className="text-center text-xs mt-3 opacity-80">本サイトはプロモーション(PR)を含みます。</p>
     </footer>
   )
 }
