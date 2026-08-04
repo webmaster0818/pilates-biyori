@@ -44,14 +44,18 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const brand = getBrand(slug)
   if (!brand) return { title: 'ブランドが見つかりません' }
   const stores = STORES[slug] ?? []
-  // the SILKは「店舗一覧」、pilates Kは「店舗数/店舗一覧」クエリで上位表示実績があるため店舗意図を前方に
+  // P2(2026-08-04): 「{ブランド} 店舗数/店舗一覧」で親ページが上位を取れる型を全ブランドへ標準装備。
+  // 実測: pilates K「店舗数」7.2位・「店舗 一覧」7.0位 / the SILK「店舗」4.8〜5.0位＝いずれも親ページが受けている。
+  // 一方で料金・口コミ系は50〜90位と弱いため、勝てている店舗意図を前方に置く。
+  // ⚠️「店舗数」を名乗るのは公式店舗数を確認できたブランドのみ（未確認ブランドで数を主張しない）。
+  const hasOfficialCount = !!brand.officialStores
   const kw =
-    brand.slug === 'the-silk' ? '店舗一覧・料金・評判'
-    : brand.slug === 'pilates-k' ? '店舗一覧・店舗数・料金'
-    : brand.useHyoban ? '料金・評判・店舗一覧' : '料金・体験・店舗一覧'
+    hasOfficialCount
+      ? '店舗一覧・店舗数・料金'
+      : brand.useHyoban ? '店舗一覧・料金・評判' : '店舗一覧・料金・体験'
   return {
     title: `${brand.name}の${kw}${MONTH_TAG}｜掲載${stores.length}店舗を比較`,
-    description: `${brand.name}の料金プラン・体験レッスン・店舗一覧を掲載データから整理。${brand.tagline}。掲載${stores.length}店舗のエリア別リンク付きで、近くの店舗がすぐ見つかります。`,
+    description: `${brand.name}の店舗一覧${brand.officialStores && brand.officialStores.count >= stores.length ? `（${brand.officialStores.asOf}時点で全国${brand.officialStores.count}店舗${brand.officialStores.approx ? '以上' : ''}）` : ''}・料金プラン・体験レッスンを掲載データから整理。${brand.tagline}。当サイト掲載${stores.length}店舗のエリア別リンク付きで、近くの店舗がすぐ見つかります。`,
     alternates: { canonical: `https://biyori-pilates.com/brands/${slug}/` },
   }
 }
@@ -128,7 +132,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
 
           <p className="section-en text-warm-400 mb-2 font-medium">Brand Guide</p>
           <h1 className="text-2xl md:text-3xl font-light text-warm-900 tracking-tight mb-3">
-            {brand.name}の{brand.useHyoban ? '料金・評判・店舗一覧' : '料金・体験・店舗一覧'}
+            {brand.name}の{brand.officialStores ? '店舗一覧・店舗数・料金' : brand.useHyoban ? '店舗一覧・料金・評判' : '店舗一覧・料金・体験'}
             <span className="block text-base text-warm-500 mt-2 font-light">{brand.tagline}</span>
           </h1>
 
@@ -291,7 +295,11 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
           {/* 店舗一覧 */}
           <section className="mb-10">
             <h2 className="text-xl font-light text-warm-900 border-b border-warm-200 pb-2 mb-4">
-              {brand.name}の店舗一覧（当サイト掲載{stores.length}店舗）
+              {/* 公式店舗数は「当サイト掲載数以上」のときだけ併記する。
+                  逆転しているブランド（the SILK 44 vs 68 / zen place 136 vs 160）は
+                  公式値か当サイトデータのどちらかが古く、並べると矛盾して見えるため出さない。
+                  数値の突き合わせが済んだらこの条件を外すこと。 */}
+              {brand.name}の店舗一覧{os && os.count >= stores.length ? `（全国${os.count}店舗${os.approx ? '以上' : ''}・当サイト掲載${stores.length}店舗）` : `（当サイト掲載${stores.length}店舗）`}
             </h2>
             <div className="bg-white border border-warm-200 overflow-x-auto">
               <table className="w-full text-sm">
