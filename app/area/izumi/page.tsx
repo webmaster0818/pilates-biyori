@@ -15,8 +15,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/izumi/' },
-  title: '【2026年8月最新】和泉中央・和泉市のピラティススタジオおすすめ5選｜無料体験・料金で比較',
-  description: '和泉のピラティススタジオ5社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
+  title: '【2026年8月最新】和泉中央・和泉府中のピラティススタジオおすすめ5選｜リントスルほか料金比較',
+  description: '和泉中央・和泉府中エリアのピラティススタジオ5社の料金・無料体験・マシン対応を徹底比較。リントスル（Rintosull）など掲載スタジオの料金プラン、初心者向けの選び方、体験レッスン当日の流れまで最新情報でわかります。',
   keywords: 'ピラティス,和泉,大阪府,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
