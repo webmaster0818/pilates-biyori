@@ -376,7 +376,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
           {
         name: 'Pilates Mee Life山形本町店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: '5人制少人数 月4回 14,800円〜（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -864,7 +864,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
           {
         name: 'Pilates Mee茅ヶ崎店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -919,7 +919,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
           {
         name: 'Pilates Mee平塚店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -1250,7 +1250,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
           {
         name: 'Pilates Mee八千代台店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -1305,7 +1305,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
           {
         name: 'Pilates Mee上尾店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -2315,7 +2315,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
           {
         name: 'Pilates Mee刈谷店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -3298,7 +3298,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee南森町店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -3359,7 +3359,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee大泉学園店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -3420,7 +3420,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee大森店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -3481,7 +3481,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee駒込店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -3543,7 +3543,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee西葛西店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -3604,7 +3604,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee上大岡店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -3656,7 +3656,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee湘南台店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -3769,7 +3769,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee本八幡店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -3859,7 +3859,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee蕨店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -3910,7 +3910,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee綾瀬店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -3961,7 +3961,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee夙川店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -4010,7 +4010,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee新小岩店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -4061,7 +4061,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee金町店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -4110,7 +4110,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee竹ノ塚店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -4150,7 +4150,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Meeひばりヶ丘店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -4189,7 +4189,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee武蔵境店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -4239,7 +4239,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee人形町店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -4289,7 +4289,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee浅草橋店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -4338,7 +4338,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee十条店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -4377,7 +4377,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee目白店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -4427,7 +4427,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee旗の台店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -4468,7 +4468,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee鶴見店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -4508,7 +4508,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Meeセンター北店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -4559,7 +4559,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee菊名店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -4598,7 +4598,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee鷺沼店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -4637,7 +4637,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee八千代台店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -4666,7 +4666,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee幕張本郷店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -4705,7 +4705,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee我孫子店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -4845,7 +4845,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee西田辺店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -4914,7 +4914,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee清瀬店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -4944,7 +4944,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee久米川店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -4984,7 +4984,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee喜多見店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -5013,7 +5013,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee青物横丁店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -5054,7 +5054,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee新富町店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -5094,7 +5094,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee白山店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -5123,7 +5123,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee西大島店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -5181,7 +5181,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee京成小岩店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -5210,7 +5210,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee京成立石店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -5239,7 +5239,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee新検見川店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -5297,7 +5297,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee中山店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -5336,7 +5336,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee保土ヶ谷店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -5375,7 +5375,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee蒔田店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -5415,7 +5415,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee鴨宮店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -5494,7 +5494,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee大阪都島店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -5534,7 +5534,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee蒲生四丁目店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -5563,7 +5563,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee塚本店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -5602,7 +5602,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee深江橋店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -5631,7 +5631,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee安城店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -5671,7 +5671,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee新栄・東桜店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -5711,7 +5711,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee Life佐倉店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: '5人制少人数 月4回 14,800円〜（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -5740,7 +5740,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee守谷店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -5779,7 +5779,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee大濠公園店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -5808,7 +5808,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee Life西鉄二日市店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: '5人制少人数 月4回 14,800円〜（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -5837,7 +5837,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee別府店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -5866,7 +5866,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee Life小山店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: '月2回 8,800円〜／通い放題 24,600円（5人制少人数・税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -5915,7 +5915,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee上福岡店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -5974,7 +5974,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee新中野店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -6023,7 +6023,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee東中野・落合店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -6082,7 +6082,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee富士見台店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -6121,7 +6121,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee和田町店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -6160,7 +6160,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee上本町店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -6242,7 +6242,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee伊丹店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -6372,7 +6372,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee Life西鉄久留米店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: '5人制少人数 月額制（料金は公式サイト参照）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -6431,7 +6431,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee東船橋店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -6479,7 +6479,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee京成高砂店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -6538,7 +6538,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee新秋津店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -6598,7 +6598,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee Life雑餉隈店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: '月2回8,800円／月4回14,800円／通い放題24,600円（5人制少人数・税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -6647,7 +6647,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee Life大野城店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: '月2回8,800円／月4回14,800円／通い放題24,600円（5人制少人数・税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -6696,7 +6696,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee蒲生店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -6746,7 +6746,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee千葉中央店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
@@ -6805,7 +6805,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee仙台店',
-        officialUrl: 'https://m-pilates.com/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/pilates-mee.webp',
         price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
         trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',

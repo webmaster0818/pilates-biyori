@@ -414,7 +414,7 @@ const studios = [
   },
   {
     name: 'Pilates Mee浅草橋店',
-    officialUrl: 'https://m-pilates.com/',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
     price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
     trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',

@@ -441,7 +441,7 @@ const studios = [
   },
   {
     name: 'Pilates Mee Life志免店',
-    officialUrl: 'https://m-pilates.com/',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
     price: '5人制少人数 月4回 14,800円〜（税込）',
     trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
