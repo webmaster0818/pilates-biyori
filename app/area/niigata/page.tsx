@@ -234,111 +234,6 @@ const studios = [
     },
   },
   {
-    name: 'Pilates Mee 新潟（あれば）',
-    image: '/images/studios/pilates-mee.webp',
-    rating: 4.0,
-    reviewCount: 22,
-    reviews: [
-      {
-        author: 'I.R',
-        rating: 4,
-        date: '10日前',
-        text: 'セミパーソナルで最大3名なので、グループよりしっかり見てもらえるのにパーソナルより安い。新潟市内でコスパ良くピラティスを続けたい方にぴったりです。',
-      },
-      {
-        author: 'U.K',
-        rating: 4,
-        date: '3週間前',
-        text: '少人数制なのでインストラクターの目が行き届いていて安心。新潟駅から少し距離がありますが、静かな環境で集中できるのが良いです。',
-      },
-      {
-        author: 'O.M',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '女性中心のアットホームな雰囲気で通いやすいです。万代エリアから車で10分ほど。料金も良心的で長く続けやすいと思います。',
-      },
-    ],
-    price: '要問合せ',
-    trial: '体験レッスン あり',
-    features: ['セミパーソナル', '最大3名', 'コスパ良', '女性中心'],
-    description: 'セミパーソナル専門のピラティススタジオ。最大3名の少人数制で、一人ひとりに丁寧な指導を提供。価格とクオリティの両立を実現し、コスパが良いと評判。女性を中心に人気のスタジオです。',
-    access: '新潟市内（詳細は公式サイト参照）',
-    address: '新潟県新潟市（詳細は公式サイト参照）',
-    popularPlan: {
-      name: 'セミパーソナルレッスン',
-      description: '最大3名の少人数制。価格とクオリティ両立のコスパ良好プラン。',
-      price: '要問合せ',
-    },
-    options: [
-      'セミパーソナルレッスン（最大3名）',
-      'プライベートレッスン',
-      '女性中心',
-      'コスパ重視',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性90% / 男性10%',
-      purpose: ['コスパ重視', '少人数希望', 'ボディメイク', '仲間と運動'],
-    },
-    basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '詳細は公式サイト参照',
-      facilities: ['ロッカー', 'パウダールーム', '少人数制', 'コスパ良'],
-    },
-  },
-  {
-    name: 'Two Three 新潟（あれば）',
-    image: '/images/studios/two-three-pilates.webp',
-    rating: 4.0,
-    reviewCount: 21,
-    reviews: [
-      {
-        author: 'B.T',
-        rating: 4,
-        date: '5日前',
-        text: '最大8名の少人数制なので、グループレッスンでもしっかり指導してもらえます。リフォーマーやスパインコレクターなどマシンが充実していて本格的です。',
-      },
-      {
-        author: 'V.S',
-        rating: 4,
-        date: '2週間前',
-        text: '全国展開のスタジオなので安心感があります。新潟では珍しいマシンの種類も揃っていて、バスセンター方面からも通いやすい立地です。',
-      },
-      {
-        author: 'Q.N',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '体験レッスンでスパインコレクターを初めて使いましたが、背骨が伸びる感覚が気持ちよかったです。古町からもアクセスしやすいので続けやすいです。',
-      },
-    ],
-    price: '要問合せ',
-    trial: '体験レッスン あり',
-    features: ['少人数制', '最大8名', '全国展開', 'ピラティスアカデミー運営'],
-    description: '全国展開のピラティススタジオ Two Three。最大8名までの少人数制グループレッスンが特徴で、一人ひとりに的確な指導が行き届くよう配慮。誰でも通いやすいピラティススタジオです。まずは体験レッスンからお気軽にお申し込みください。',
-    access: '新潟市内（詳細は公式サイト参照）',
-    address: '新潟県新潟市（詳細は公式サイト参照）',
-    popularPlan: {
-      name: 'グループレッスン（最大8名）',
-      description: '少人数制で一人ひとりに的確な指導。初心者からベテランまで対応。',
-      price: '要問合せ',
-    },
-    options: [
-      'プライベートレッスン',
-      'グループレッスン',
-      'リフォーマー・スパインコレクター・コンビチェア・タワーなど充実',
-    ],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性85% / 男性15%',
-      purpose: ['美しいカラダづくり', '姿勢改善', 'ボディメイク', '体幹強化'],
-    },
-    basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '詳細は公式サイト参照',
-      facilities: ['リフォーマー', 'スパインコレクター', 'コンビチェア', 'タワー', 'マシン充実'],
-    },
-  },
-  {
     name: '24/7ピラティス 新潟店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=J11817X.1.B1620582.U1357808',
     image: '/images/studios/247-pilates.webp',
@@ -626,7 +521,6 @@ export default function NiigataAreaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates 新潟（月4回 9,625円〜）</li>
-                  <li className="text-warm-700">• Pilates Mee 新潟（セミパーソナル・コスパ良）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -691,7 +585,6 @@ export default function NiigataAreaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates 新潟（9,625円〜）</li>
-                  <li>• Pilates Mee 新潟（コスパ良）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
