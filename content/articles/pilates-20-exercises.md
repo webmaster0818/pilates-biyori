@@ -15,6 +15,12 @@ keywords:
   - "ピラティス 種類"
   - "ピラティス 代表"
 relatedArticles:
+  - "pilates-roll-over-method"
+  - "pilates-double-leg-stretch-method"
+  - "pilates-spine-stretch-method"
+  - "pilates-saw-method"
+  - "pilates-side-kick-method"
+  - "pilates-shoulder-bridge-method"
   - "pilates-hundred-method"
   - "pilates-roll-up-method"
   - "pilates-8-principles"
@@ -70,6 +76,8 @@ relatedArticles:
 
 **効果**: 腹筋全体、コアコントロール
 
+→ [ダブルレッグストレッチのやり方](/articles/pilates-double-leg-stretch-method/)
+
 ### 7. キャットアンドカウ（Cat & Cow）
 
 四つん這いで、背中を反らせる・丸める。
@@ -84,11 +92,15 @@ relatedArticles:
 
 **効果**: 背骨の伸長、ハムストリングス柔軟
 
+→ [スパインストレッチのやり方](/articles/pilates-spine-stretch-method/)
+
 ### 9. ソウ（Saw / 鋸）
 
 長座で開脚し、両腕を肩の高さで広げ、対角線上のつま先に手を伸ばす（ノコギリで切る動き）。
 
 **効果**: 体側の伸長、回旋の柔軟性
+
+→ [ソウのやり方](/articles/pilates-saw-method/)
 
 ### 10. スワン（Swan）
 
@@ -143,6 +155,8 @@ V字バランスから両脚で円を描く。
 仰向けで両脚を頭の後ろまで持ち上げ、つま先で床に触れる。
 
 **効果**: 背骨の柔軟性、腹筋強化
+
+→ [ロールオーバーのやり方（首を守る手順）](/articles/pilates-roll-over-method/)
 
 ### 18. ジャックナイフ（Jackknife）
 

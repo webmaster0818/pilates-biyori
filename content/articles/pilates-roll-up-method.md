@@ -16,6 +16,12 @@ keywords:
   - "ロールアップ やり方"
   - "ピラティス 腹筋"
 relatedArticles:
+  - "pilates-roll-over-method"
+  - "pilates-double-leg-stretch-method"
+  - "pilates-spine-stretch-method"
+  - "pilates-saw-method"
+  - "pilates-side-kick-method"
+  - "pilates-shoulder-bridge-method"
   - "pilates-teaser-method"
   - "pilates-swan-method"
   - "pilates-single-leg-stretch-method"
