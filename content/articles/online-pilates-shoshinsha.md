@@ -15,6 +15,7 @@ keywords:
   - "オンラインピラティス 初心者"
   - "ピラティス 自宅 必要なもの"
 relatedArticles:
+  - "pilates-online"
   - "online-pilates"
   - "online-pilates-koka"
   - "online-pilates-live-video"
