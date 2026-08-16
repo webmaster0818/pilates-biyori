@@ -4,7 +4,7 @@ import { SiteFooter } from '@/components/SiteFooter'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/privacy-policy/' },
-  title: 'プライバシーポリシー | Pilates-Biyori',
+  title: 'プライバシーポリシー',
   description: 'Pilates-Biyoriのプライバシーポリシーページです。',
 }
 

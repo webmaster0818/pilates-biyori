@@ -6,7 +6,7 @@ import Script from 'next/script'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/benefits/' },
-  title: 'ピラティスの効果・メリット｜Pilates-Biyori',
+  title: 'ピラティスの効果・メリット',
   description: 'ピラティスで得られる効果とメリットを徹底解説。ダイエット効果、姿勢改善、腰痛・肩こり改善など、科学的根拠に基づいた効果を紹介します。',
   keywords: 'ピラティス,効果,メリット,ダイエット,姿勢改善,腰痛改善,肩こり',
 }

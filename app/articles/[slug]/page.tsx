@@ -29,7 +29,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   }
 
   return {
-    title: `${article.frontmatter.title} | Pilates-Biyori`,
+    // ⚠️ サイト名は app/layout.tsx の title.template（'%s | Pilates-Biyori'）が付ける。
+    //    ここで足すと二重になる。実際に64記事中63件が「| Pilates-Biyori | Pilates-Biyori」になっていた。
+    title: article.frontmatter.title,
     description: article.frontmatter.description,
     keywords: article.frontmatter.keywords,
     alternates: { canonical: `https://biyori-pilates.com/articles/${slug}/` },
