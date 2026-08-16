@@ -15,6 +15,10 @@ keywords:
   - "ピラティス 種類"
   - "ピラティス 代表"
 relatedArticles:
+  - "pilates-cat-cow-method"
+  - "pilates-single-leg-circle-method"
+  - "pilates-rolling-like-a-ball-method"
+  - "pilates-scissors-method"
   - "pilates-roll-over-method"
   - "pilates-double-leg-stretch-method"
   - "pilates-spine-stretch-method"
@@ -56,11 +60,15 @@ relatedArticles:
 
 **効果**: 股関節モビリティ、コア安定性
 
+→ [シングルレッグサークルのやり方](/articles/pilates-single-leg-circle-method/)
+
 ### 4. ローリングライクアボール（Rolling Like a Ball）
 
 膝を抱えてボールのように丸まり、前後に転がる。
 
 **効果**: 背骨のマッサージ、コアコントロール
+
+→ [ローリングライクアボールのやり方](/articles/pilates-rolling-like-a-ball-method/)
 
 ### 5. シングルレッグストレッチ（Single Leg Stretch）
 
@@ -85,6 +93,8 @@ relatedArticles:
 **効果**: 背骨の柔軟性、ウォームアップ
 
 ## 中級レベル（3〜6ヶ月）
+
+→ [キャットアンドカウのやり方](/articles/pilates-cat-cow-method/)
 
 ### 8. スパインストレッチフォワード（Spine Stretch Forward）
 
@@ -121,6 +131,8 @@ relatedArticles:
 仰向けで両脚を天井に上げ、左右の脚を前後に振る。
 
 **効果**: 腹筋、股関節の柔軟性
+
+→ [シザーズのやり方](/articles/pilates-scissors-method/)
 
 ### 13. バイシクル（Bicycle）
 

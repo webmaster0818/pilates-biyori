@@ -16,6 +16,10 @@ keywords:
   - "ハンドレッド やり方"
   - "ピラティス 代表エクササイズ"
 relatedArticles:
+  - "pilates-cat-cow-method"
+  - "pilates-single-leg-circle-method"
+  - "pilates-rolling-like-a-ball-method"
+  - "pilates-scissors-method"
   - "pilates-roll-over-method"
   - "pilates-double-leg-stretch-method"
   - "pilates-spine-stretch-method"
