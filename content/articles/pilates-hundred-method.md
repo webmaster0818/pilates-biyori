@@ -16,6 +16,9 @@ keywords:
   - "ハンドレッド やり方"
   - "ピラティス 代表エクササイズ"
 relatedArticles:
+  - "pilates-teaser-method"
+  - "pilates-swan-method"
+  - "pilates-single-leg-stretch-method"
   - "pilates-8-principles"
   - "pilates-roll-up-method"
   - "pilates-20-exercises"

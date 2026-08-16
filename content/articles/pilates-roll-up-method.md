@@ -16,6 +16,9 @@ keywords:
   - "ロールアップ やり方"
   - "ピラティス 腹筋"
 relatedArticles:
+  - "pilates-teaser-method"
+  - "pilates-swan-method"
+  - "pilates-single-leg-stretch-method"
   - "pilates-hundred-method"
   - "pilates-20-exercises"
   - "pilates-8-principles"

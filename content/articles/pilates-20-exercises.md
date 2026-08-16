@@ -62,6 +62,8 @@ relatedArticles:
 
 **効果**: 腹横筋強化、片脚運動の安定
 
+→ [シングルレッグストレッチのやり方](/articles/pilates-single-leg-stretch-method/)
+
 ### 6. ダブルレッグストレッチ（Double Leg Stretch）
 
 仰向けで両膝を胸に抱え、両腕両脚を同時に外側に伸ばす。
@@ -94,6 +96,8 @@ relatedArticles:
 
 **効果**: 背中の筋肉、姿勢改善
 
+→ [スワンのやり方（腰を痛めない手順）](/articles/pilates-swan-method/)
+
 ### 11. シングルレッグキック（Single Leg Kick）
 
 うつ伏せで前腕で支え、片脚をかかとへキックする。
@@ -125,6 +129,8 @@ V字バランスから両脚で円を描く。
 仰向けから両腕と両脚を同時に持ち上げ、V字バランス。
 
 **効果**: 全腹筋総動員、コアの極限強化
+
+→ [ティーザーのやり方（段階練習つき）](/articles/pilates-teaser-method/)
 
 ### 16. スワンダイブ（Swan Dive）
 
