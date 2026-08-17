@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Image from 'next/image'
+import { STUDIO_REVIEWS } from '@/data/studio-reviews'
 import { brandSlugOf } from '@/lib/brandLink'
 
 type Review = {
@@ -349,6 +350,29 @@ export function StudioCard({ studio, index }: StudioCardProps) {
             )}
           </div>
 
+          {(() => {
+            const rev = STUDIO_REVIEWS[studio.name]
+            if (!rev) return null
+            return (
+              <div className="mt-4 bg-warm-50 border border-warm-200 rounded-lg p-4">
+                <div className="flex items-center gap-2 flex-wrap">
+                  <span className="text-sm font-bold text-warm-800">Googleの評価</span>
+                  <span className="text-sm font-bold text-warm-900">★{rev.rating}</span>
+                  <span className="text-xs text-warm-600">（{rev.userRatings}件）</span>
+                </div>
+                <p className="text-sm text-warm-700 mt-2 leading-relaxed">{rev.summary}</p>
+                <p className="text-[11px] text-warm-500 mt-2">
+                  Googleマップに投稿された口コミをもとに編集部が要約しました（{rev.fetchedAt}時点）。
+                  口コミ本文は転載していません。
+                  {' '}
+                  <a href={rev.mapsUri} target="_blank" rel="noopener noreferrer" className="underline hover:text-warm-700">
+                    出典：Googleマップの口コミを見る
+                  </a>
+                </p>
+              </div>
+            )
+          })()}
+
           <div className="mt-4">
             <a
               href={studio.officialUrl || `https://www.google.com/search?q=${encodeURIComponent(`${studio.name.replace(/（[^）]*）/g, '').trim()} ピラティス 公式サイト`)}`}
@@ -359,7 +383,8 @@ export function StudioCard({ studio, index }: StudioCardProps) {
               公式サイトを見てみる
             </a>
             {/*
-              口コミは当サイトでは掲載せず、Googleマップの実際の口コミへ誘導する。
+              口コミは「Google口コミをもとにした編集部の要約」＋出典リンクで掲載する。
+              要約が用意できていない店舗は、Googleマップへの導線だけを出す。
               ⚠️ 以前ここには編集部が用意した口コミ文が並んでいたが、
                  同じ本文が別スタジオにも使い回されており、実在の利用者の声ではなかった。
                  実在の口コミを転載するにはGoogleの利用規約上の制約があるため、
