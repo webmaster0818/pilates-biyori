@@ -319,3 +319,10 @@ GSC実測で対象特定→改修。
 
 ### 2026-07-23 深部展開第2弾24ページ（MediaXAI「深部ページへの展開進めよう」）✅本番反映済み
 第1弾15に続く高需要深部(pos22+×表示20+)24ページへ勝ちテンプレ一括適用: asakusa(191)/akihabara(178)/nishi-nippori(147)/aoyama-itchome/kagurazaka/shibuya/seijo-gakuenmae/shimokitazawa/umeda/akasaka/kitahama/koenji/yoga-komazawa/nishijin/omiya/izumi/otsuka/nihonbashi/kyoto-station/nakano-sakaue/yoyogi-uehara/itami/fujisawa/ogikubo。冪等スクリプト(enhance-phase0 SLUGS+add-conclusion TARGETS)+modifier injector。全24 C/MC/MD完備確認。build EXIT0・方式B(functions保全)・両push・本番asakusa確認・Indexing 24/24。**累計深部展開=飯田橋モデル+第1弾15+第2弾24=40ページ**。効果1-2週GSC。残候補=さらに深いpos40+(shibuya60/omiya71/osaka73等・低順位で効果は逓減)。
+
+### 2026-08-17 口コミ要約の照合厳格化＋functions欠落の再発を修復（MediaXAI「まだ終わってない対象進めよう」）✅本番反映済み
+- **公開済み130件を監査→13件が別の店の口コミ要約だった**（例: 掲載「ピラティス sloths」(名古屋・八事)→Google「Rintosull 戸越公園店」／「PILATES × YOGA」(大阪本町)→「La pilates 目黒店」／「CLUB PILATES 渋谷」→「代官山店」）。原因＝`verify-match.py` の judge() が **総称語（ピラティス/スタジオ）でもブランド一致と判定**していたこと。13件削除。
+- **照合を3段構えに作り直し**（`~/.openclaw/workspace/places-api/verify-match.py` judge_strict）: ①掲載名が総称語のみ/プラン名（月4回プラン等）は不採用 ②英字ブランドが両方にあれば一致必須（ピラティスK と Dr.ピラティス を弾く）③Google側の地名が掲載名にもページのエリア名にも無ければ不採用（`pick-candidates.py` の area_conflict。「STUDIO SLOW」(本厚木)→「studio Slow 自由が丘」＝レンタル撮影スタジオを止めた）。採用 735→682件
+- 要約37店舗追加（計154）。追記は `places-api/add-summaries.py`（★評価・件数・出典URLはjsonの実データから入れる＝手入力しない）
+- **🚨 functions/ 欠落が再発していた**: deploy repoの **8/10コミット `63e82cd56`「Pilates Mee 計測リンク設置を反映」で functions/api/{click,clicks,contact,geo}.js が全削除**され、本番で `POST /api/contact`=405・`/api/geo`=404・`/api/click`=404（＝**問い合わせフォームと送客クリック計測が8/10から停止**）。`git checkout 63e82cd56^ -- functions` で復元しデプロイ→400/200を確認。**教訓の再確認: rsyncの`--exclude=functions`は「在る場合のみ」保護。デプロイ前に `ls ../pilates-biyori-deploy/functions/api/` と本番 `/api/contact` の実測を必ずやる**
+- 未処理: **同一店を別表記で二重掲載している組が37組**（「the SILK 八重洲店」と「the SILK 東京八重洲店」等）。今回は片方のみ要約。残り要約 約490件
