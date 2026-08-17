@@ -333,7 +333,7 @@ export default async function OmiyaAreaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年08月17日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年08月18日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026年6月最新】ピラティス大宮おすすめ10選！<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！

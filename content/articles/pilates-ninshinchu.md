@@ -8,7 +8,7 @@ tags:
   - "マタニティ"
   - "妊娠中"
 publishedAt: "2026-06-06"
-updatedAt: "2026-08-17"
+updatedAt: "2026-08-18"
 author: "編集部"
 keywords:
   - "妊娠中 ピラティス"
