@@ -21,11 +21,6 @@ const studios = [
   {
     name: 'zen place pilates 藤が丘', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 30,
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '藤が丘駅1出口から徒歩2分。マットグループ・マシングループ・プライベートの3タイプのレッスン。全国150店舗以。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 10,450円〜', trial: 'グループ体験 1,000円', features: ['藤が丘駅徒歩2分','男性OK','全国相互利用','マット＆マシン'],
     description: '藤が丘駅1出口から徒歩2分。マットグループ・マシングループ・プライベートの3タイプのレッスン。全国150店舗以上で相互利用可能',
     access: '名古屋市営地下鉄東山線「藤が丘駅」1番出口 徒歩2分', address: '名古屋市名東区明が丘124-2 ami ami annex3F',
@@ -36,11 +31,6 @@ const studios = [
   },
   {
     name: 'Excel（エクセル）藤が丘店', image: '/images/studios/zen-place-pilates.webp', rating: 4.5, reviewCount: 25,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '女性専用のマシンピラティススタジオ。初心者から対応しており、一人ひとりに合わせた指導が特徴。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['女性専用','マシンピラティス','初心者対応','藤が丘エリア'],
     description: '女性専用のマシンピラティススタジオ。初心者から対応しており、一人ひとりに合わせた指導が特徴',
     access: '藤が丘エリア（詳細は公式サイトでご確認ください）', address: '名古屋市名東区（詳細は公式サイトでご確認ください）',
@@ -51,11 +41,6 @@ const studios = [
   },
   {
     name: 'ピラティス&ジム 1to1 藤が丘店', image: '/images/studios/zen-place-pilates.webp', rating: 4.6, reviewCount: 20,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '藤が丘駅から徒歩2分の女性専用完全個室スタジオ。マシンピラティスと「ゆるトレ」を融合させたトレーニング。月4回。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 8,800円〜', trial: '体験レッスンあり', features: ['藤が丘駅徒歩2分','完全個室','女性専用','マシンピラティス×ゆるトレ'],
     description: '藤が丘駅から徒歩2分の女性専用完全個室スタジオ。マシンピラティスと「ゆるトレ」を融合させたトレーニング。月4回8,800円〜とリーズナブル',
     access: '東山線「藤が丘駅」徒歩2分', address: '名古屋市名東区（詳細は公式サイトでご確認ください）',
@@ -66,11 +51,6 @@ const studios = [
   },
   {
     name: 'スタジオアクセ（Studio Achse）', image: '/images/studios/zen-place-pilates.webp', rating: 4.6, reviewCount: 12,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '完全予約制の女性専用スタジオ。オーダーメイドのマシンパーソナルと超少人数制グループレッスン。よもぎ蒸しも併設。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['完全予約制','女性専用','よもぎ蒸し併設','子連れOK'],
     description: '完全予約制の女性専用スタジオ。オーダーメイドのマシンパーソナルと超少人数制グループレッスン。よもぎ蒸しも併設',
     access: '東山線「藤が丘駅」徒歩8分', address: '名古屋市名東区（詳細は公式サイトでご確認ください）',
@@ -81,11 +61,6 @@ const studios = [
   },
   {
     name: 'Pilates Nag Studio 星が丘テラス店', image: '/images/studios/zen-place-pilates.webp', rating: 4.5, reviewCount: 45,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '東海エリア初のマシンピラティスグループレッスン専門スタジオ。星が丘テラス店は藤が丘からも通いやすい立地。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['東海エリア初','全店相互利用','マシングループ専門','男女共用'],
     description: '東海エリア初のマシンピラティスグループレッスン専門スタジオ。星が丘テラス店は藤が丘からも通いやすい立地',
     access: '東山線「星ヶ丘駅」直結（星が丘テラス内）', address: '名古屋市千種区 星が丘テラス内',

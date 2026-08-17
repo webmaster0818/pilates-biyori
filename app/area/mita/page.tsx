@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates 三田スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 17,
-    reviews: [
-      {
-        author: 'M.T',
-        rating: 5,
-        date: '1週間前',
-        text: '三田駅A3出口直結でアクセス抜群。雨の日も濡れずに通えます。全国150店舗他店利用できるので出張先でもレッスンを受けられて便利です。',
-      },
-      {
-        author: 'K.S',
-        rating: 5,
-        date: '2週間前',
-        text: 'グループ体験が1,000円で気軽に試せました。月4回10,450円〜とリーズナブルで続けやすい。男性会員もいるので夫婦で通っています。',
-      },
-      {
-        author: 'A.N',
-        rating: 4,
-        date: '3週間前',
-        text: 'インストラクターの質が高く、体の変化を実感できます。田町駅からも徒歩1分なので通勤帰りにも便利。スタジオの雰囲気も落ち着いていて好きです。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['駅直結', '全国150店舗相互利用', '男性OK', '体験1,000円'],
@@ -77,28 +55,6 @@ const studios = [
   {
     name: 'the SILK 田町エリア',
     image: '/images/studios/the-silk.webp',
-    rating: 4.8,
-    reviewCount: 180,
-    reviews: [
-      {
-        author: 'Y.K',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用なので安心して通えます。音楽に合わせたレッスンが楽しくてあっという間に時間が過ぎます。体験無料なのも嬉しい。',
-      },
-      {
-        author: 'R.M',
-        rating: 5,
-        date: '2週間前',
-        text: '手ぶらOKなので仕事帰りにそのまま通えます。朝7:30から夜22:00まで営業しているので、自分のスケジュールに合わせやすい。',
-      },
-      {
-        author: 'S.H',
-        rating: 4,
-        date: '3週間前',
-        text: '月3回12,980円〜で始められるので、初めてのピラティスにちょうどいい。スタジオもおしゃれで清潔感があります。',
-      },
-    ],
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '音楽レッスン', '手ぶらOK', '体験無料'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'CLUB PILATES 田町店',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.7,
-    reviewCount: 154,
-    reviews: [
-      {
-        author: 'H.T',
-        rating: 5,
-        date: '1週間前',
-        text: '世界最大級のピラティスブランドで安心。15種類の器具を使った多彩なレッスンは毎回刺激があります。体験無料30分で気軽に試せました。',
-      },
-      {
-        author: 'N.Y',
-        rating: 5,
-        date: '2週間前',
-        text: '4段階のレベル分けで初心者でも安心。インストラクター全員が500時間以上の研修を受けた有資格者で指導の質が高い。',
-      },
-      {
-        author: 'T.K',
-        rating: 4,
-        date: '3週間前',
-        text: '田町駅から徒歩6分。男性も通えるので性別関係なく利用できます。月4回14,190円〜で本格マシンピラティスが受けられるのは魅力的。',
-      },
-    ],
     price: '月4回 14,190円〜',
     trial: '体験レッスン 0円（30分）',
     features: ['世界最大級チェーン', '15種類の器具', '男性OK', '体験0円'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'Pilates Studio B&B 田町店',
     image: '/images/studios/pilates-bb.webp',
-    rating: 4.9,
-    reviewCount: 22,
-    reviews: [
-      {
-        author: 'E.S',
-        rating: 5,
-        date: '1週間前',
-        text: '田町駅東口から徒歩4分で通いやすい。キッズスペース完備なので子連れで通えるのが本当にありがたい。産前産後ケアにも対応してくれます。',
-      },
-      {
-        author: 'M.H',
-        rating: 5,
-        date: '2週間前',
-        text: 'パーソナル1回8,250円〜で丁寧なマンツーマン指導が受けられます。少人数制なのでしっかりフォームを見てもらえて効果を実感。',
-      },
-      {
-        author: 'K.A',
-        rating: 5,
-        date: '3週間前',
-        text: '産後の体型戻しで通い始めました。インストラクターが産前産後ケアに詳しく安心。子供がキッズスペースで遊んでくれるので集中できます。',
-      },
-    ],
     price: 'パーソナル 1回 8,250円〜',
     trial: '体験レッスンあり',
     features: ['パーソナル専門', 'キッズスペース完備', '産前産後ケア', '少人数制'],
@@ -237,28 +149,6 @@ const studios = [
   {
     name: 'ピラティススタジオhibi',
     image: '/images/studios/pilates-hibi-mita.webp',
-    rating: 4.8,
-    reviewCount: 8,
-    reviews: [
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1週間前',
-        text: '完全プライベートスタジオなので周りの目を気にせず集中できます。田町駅・三田駅から徒歩4分で通いやすい。パーソナル専門で指導の質が高い。',
-      },
-      {
-        author: 'R.K',
-        rating: 5,
-        date: '2週間前',
-        text: '自分だけのプライベート空間でレッスンを受けられるので、初心者でも恥ずかしくありません。体の悩みに合わせたオーダーメイドのプログラムが魅力。',
-      },
-      {
-        author: 'A.M',
-        rating: 4,
-        date: '3週間前',
-        text: 'パーソナル専門なので一人ひとりに寄り添った指導が受けられます。完全予約制で待ち時間もなく、時間を有効に使えます。',
-      },
-    ],
     price: 'パーソナル専門（詳細は公式サイト参照）',
     trial: '体験レッスンあり',
     features: ['完全プライベート', 'パーソナル専門', '駅徒歩4分', '完全予約制'],

@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'the SILK 広尾店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.8,
-    reviewCount: 280,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '1週間前',
-        text: '広尾駅から徒歩4分。女性専用で清潔感のある内装がとても素敵。音楽に合わせてリフォーマーを使うレッスンが楽しく、あっという間に50分が過ぎます。',
-      },
-      {
-        author: 'S.T',
-        rating: 5,
-        date: '2週間前',
-        text: '本館と別館の2フロアあるので予約が取りやすい。手ぶらで体験できるのが嬉しかった。ウェア・タオル無料貸出、ウォーターサーバーも完備。',
-      },
-      {
-        author: 'R.N',
-        rating: 4,
-        date: '3週間前',
-        text: '朝7:30から夜22:00まで営業で仕事前後に通える。体験者の8割がピラティス未経験者とのことで初心者も安心です。',
-      },
-    ],
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '広尾駅徒歩4分', '2フロア', '手ぶら体験OK'],
@@ -76,28 +54,6 @@ const studios = [
   {
     name: 'STUDIO IVY 広尾店',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.8,
-    reviewCount: 6,
-    reviews: [
-      {
-        author: 'Y.S',
-        rating: 5,
-        date: '1週間前',
-        text: '完全プライベート空間でオーダーメイドレッスン。リフォーマーを使って体の癖に合わせた指導をしてもらえます。月謝制で1レッスン6,250円〜とパーソナルとしてはリーズナブル。',
-      },
-      {
-        author: 'A.M',
-        rating: 5,
-        date: '2週間前',
-        text: '姿勢改善と肩こり解消が目的で通い始めました。3ヶ月で体の変化を実感。インストラクターの知識が深くて安心感があります。',
-      },
-      {
-        author: 'K.T',
-        rating: 4,
-        date: '3週間前',
-        text: 'マンツーマンなので周りの目を気にせず集中できる。体験4,500円で丁寧なカウンセリングから始まるので初心者でも安心。',
-      },
-    ],
     price: '月2回 15,000円〜',
     trial: '体験レッスン 4,500円',
     features: ['完全パーソナル', 'マシン完備', '広尾エリア', '月謝制'],
@@ -129,28 +85,6 @@ const studios = [
   {
     name: 'Habit Pilates studio 広尾店',
     image: '/images/studios/habit-pilates.webp',
-    rating: 4.7,
-    reviewCount: 9,
-    reviews: [
-      {
-        author: 'E.M',
-        rating: 5,
-        date: '1週間前',
-        text: '広尾駅から徒歩2分！1クラス最大5名の少人数制で、セミパーソナルならではの丁寧な指導。1レッスン3,200円〜とコスパも良い。',
-      },
-      {
-        author: 'N.K',
-        rating: 5,
-        date: '2週間前',
-        text: 'レンタルウェア完備で手ぶらで通えます。少人数制なのでインストラクターにしっかり見てもらえる。マシンピラティス初心者でも安心。',
-      },
-      {
-        author: 'H.Y',
-        rating: 4,
-        date: '3週間前',
-        text: '月2回9,800円から始められるので無理なく続けられます。通い放題29,800円もあるのでしっかり通いたい人にもおすすめ。',
-      },
-    ],
     price: '月2回 9,800円〜',
     trial: '体験レッスンあり',
     features: ['最大5名少人数制', '広尾駅徒歩2分', 'セミパーソナル', '手ぶらOK'],
@@ -183,28 +117,6 @@ const studios = [
     name: 'zen place pilates 恵比寿スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 15,
-    reviews: [
-      {
-        author: 'T.H',
-        rating: 5,
-        date: '1週間前',
-        text: '恵比寿駅西口から徒歩5分、広尾エリアにあるスタジオ。マットもマシンも両方受けられるのが魅力。全国150店舗以上で他店利用できるのも便利。',
-      },
-      {
-        author: 'M.S',
-        rating: 4,
-        date: '2週間前',
-        text: '男性も通えるスタジオ。朝7時からレッスンがあり出勤前に通えます。インストラクターの質が高く、体の変化を早く実感できました。',
-      },
-      {
-        author: 'K.A',
-        rating: 5,
-        date: '3週間前',
-        text: 'グループ体験2,000円で気軽に試せました。ピラティス専門で20年以上の実績があり安心。広尾の静かな環境で集中してレッスンに取り組めます。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 2,000円',
     features: ['広尾エリア', '男性OK', 'マット&マシン', '全国相互利用'],
@@ -236,28 +148,6 @@ const studios = [
   {
     name: 'ピラティスミラー 中目黒スタジオ',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.6,
-    reviewCount: 45,
-    reviews: [
-      {
-        author: 'C.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '広尾からも通いやすい中目黒のスタジオ。マシンピラティスのグループレッスンが充実。鏡を使ったフォームチェックで正しい姿勢が身につきます。',
-      },
-      {
-        author: 'Y.T',
-        rating: 4,
-        date: '2週間前',
-        text: '少人数制でインストラクターの目が行き届く。料金もリーズナブルでコスパが良い。おしゃれな空間でモチベーションが上がります。',
-      },
-      {
-        author: 'A.N',
-        rating: 5,
-        date: '3週間前',
-        text: '体験レッスンでマシンピラティスの楽しさに目覚めました。中目黒の落ち着いた雰囲気のスタジオで、通うのが楽しみになっています。',
-      },
-    ],
     price: '月4回 11,000円〜',
     trial: '体験レッスンあり',
     features: ['少人数制', '中目黒', 'マシン専門', 'コスパ◎'],

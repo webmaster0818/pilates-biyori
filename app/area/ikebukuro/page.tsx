@@ -41,28 +41,6 @@ const studios = [
     name: 'zen place pilates 池袋スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 20,
-    reviews: [
-      {
-        author: 'K.M',
-        rating: 5,
-        date: '1週間前',
-        text: '池袋駅東口から徒歩2分。グレード01の上位スタジオでリフォーマー・キャデラック・チェア・ラダーバレルなどマシンが充実。体験当日入会で入会金無料。',
-      },
-      {
-        author: 'Y.S',
-        rating: 5,
-        date: '2週間前',
-        text: '全国150店舗以上で相互利用可能なので出張先でも通える。マットもマシンも両方受けられるのが魅力。男性もOK。',
-      },
-      {
-        author: 'A.T',
-        rating: 4,
-        date: '3週間前',
-        text: '朝7時からレッスンがあるので出勤前に通えます。インストラクターの質が高く、ピラティス専門で20年以上の実績がある。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['池袋駅徒歩2分', 'グレード01', '男性OK', '全国相互利用'],
@@ -94,28 +72,6 @@ const studios = [
   {
     name: 'ピラティスK 池袋店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 239,
-    reviews: [
-      {
-        author: 'M.N',
-        rating: 5,
-        date: '1週間前',
-        text: '池袋駅東口33番出口から徒歩1分！女性専用で安心。音楽に合わせたリフォーマーレッスンが楽しくて毎回あっという間。部位別ボディメイクプログラムが充実。',
-      },
-      {
-        author: 'S.H',
-        rating: 5,
-        date: '2週間前',
-        text: '体験2,000円で気軽に試せました。月4回13,420円とコスパも良い。商業ビル内でアクセス抜群。',
-      },
-      {
-        author: 'R.K',
-        rating: 4,
-        date: '3週間前',
-        text: '朝9:30から夜22:00まで営業で通いやすい。マシンピラティス専門なのでリフォーマーの台数が多く予約が取りやすい。',
-      },
-    ],
     price: '月4回 13,420円〜',
     trial: '体験レッスン 2,000円',
     features: ['女性専用', '池袋駅徒歩1分', '部位別プログラム', 'マシン専門'],
@@ -147,28 +103,6 @@ const studios = [
   {
     name: 'the SILK 池袋東口店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.7,
-    reviewCount: 234,
-    reviews: [
-      {
-        author: 'E.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '池袋駅東口41番出口から徒歩1分。女性専用で清潔感のある内装がおしゃれ。音楽に合わせたレッスンが楽しい。手ぶら体験無料で気軽に試せました。',
-      },
-      {
-        author: 'N.M',
-        rating: 5,
-        date: '2週間前',
-        text: '朝7:30から夜21:30まで営業で通いやすい。ウェア・タオル無料貸出やウォーターサーバーも完備。池袋西口にも店舗があるので予約が取りやすい。',
-      },
-      {
-        author: 'T.K',
-        rating: 4,
-        date: '3週間前',
-        text: '体験者の8割がピラティス未経験者とのこと。初心者向けプログラムが充実していて安心。月3回12,980円〜と始めやすい。',
-      },
-    ],
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '池袋駅徒歩1分', '手ぶら体験OK', '2店舗あり'],
@@ -200,28 +134,6 @@ const studios = [
   {
     name: 'CLUB PILATES 目白店',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.7,
-    reviewCount: 74,
-    reviews: [
-      {
-        author: 'H.A',
-        rating: 5,
-        date: '1週間前',
-        text: '目白駅から徒歩1分、池袋からも徒歩圏内。世界最大級のブランドで15種類の器具を使った本格レッスン。無料の30分イントロクラスで雰囲気がわかります。',
-      },
-      {
-        author: 'C.S',
-        rating: 4,
-        date: '2週間前',
-        text: '4段階のレベル分けで初心者でも安心。男性会員も多く、カップルで通っています。インストラクター全員が500時間以上の研修を受けた資格保持者。',
-      },
-      {
-        author: 'M.T',
-        rating: 5,
-        date: '3週間前',
-        text: '月4回14,190円〜。8つのプログラムがあり飽きずに続けられます。朝7時から営業で出勤前にも通える。',
-      },
-    ],
     price: '月4回 14,190円〜',
     trial: '体験レッスン 無料（30分イントロクラス）',
     features: ['世界最大級', '目白駅徒歩1分', '15種類の器具', '男性OK'],
@@ -253,28 +165,6 @@ const studios = [
   {
     name: 'BDC PILATES 池袋スタジオ',
     image: '/images/studios/bdc-pilates.webp',
-    rating: 4.6,
-    reviewCount: 11,
-    reviews: [
-      {
-        author: 'Y.K',
-        rating: 5,
-        date: '1週間前',
-        text: 'ダンサーのためのピラティスから生まれたスタジオ。マシンピラティスのグループレッスンが充実。リフォーマーを使ったダイナミックなレッスンが特徴。',
-      },
-      {
-        author: 'A.N',
-        rating: 4,
-        date: '2週間前',
-        text: '少人数制で一人ひとりの動きをしっかりチェックしてもらえる。体の使い方が上手くなるのを実感。インストラクターの指導が丁寧。',
-      },
-      {
-        author: 'R.M',
-        rating: 5,
-        date: '3週間前',
-        text: '池袋エリアでBDC PILATESのレッスンが受けられるのは嬉しい。体験レッスンで雰囲気を確認できました。',
-      },
-    ],
     price: '月4回 14,520円〜',
     trial: '体験レッスン 3,850円',
     features: ['ダンサー発祥', '少人数制', 'マシングループ', '池袋エリア'],

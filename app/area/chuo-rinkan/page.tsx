@@ -21,13 +21,6 @@ const studios = [
   {
     name: 'Rintosull 中央林間店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.6,
-    reviewCount: 119,
-    reviews: [
-      { author: 'A.K', rating: 5, date: '1週間前', text: 'LAVA系列の女性専用マシンピラティス。中央林間駅より徒歩2分。多彩なプログラム。体験無料。' },
-      { author: 'B.M', rating: 5, date: '2週間前', text: '中央林間エリアで女性専用が魅力のスタジオ。通いやすい立地で続けやすいです。' },
-      { author: 'C.O', rating: 4, date: '3週間前', text: '初心者でも安心して通えます。インストラクターの指導が丁寧で、体の変化を実感できています。' },
-    ],
     price: 'プレミアムプラン 月額10,978円（税込）',
     trial: '体験無料キャンペーン実施中',
     features: ['女性専用', 'マシンピラティス', '駅徒歩2分', 'LAVA系列'],
@@ -54,13 +47,6 @@ const studios = [
   {
     name: 'Lucio 中央林間店',
     image: '/images/studios/element.webp',
-    rating: 4.7,
-    reviewCount: 13,
-    reviews: [
-      { author: 'D.L', rating: 5, date: '1週間前', text: '2026年1月オープンの完全個室パーソナルマシンピラティス。週1回45分で結果を出すプログラム。運動初心者向け。' },
-      { author: 'E.N', rating: 5, date: '2週間前', text: '中央林間エリアで完全個室パーソナルが魅力のスタジオ。通いやすい立地で続けやすいです。' },
-      { author: 'F.P', rating: 4, date: '3週間前', text: '初心者でも安心して通えます。インストラクターの指導が丁寧で、体の変化を実感できています。' },
-    ],
     price: 'パーソナルレッスン（公式サイトで確認）',
     trial: '体験レッスンあり',
     features: ['完全個室パーソナル', '2026年1月OPEN', '駅徒歩2分', 'オーダーメイド'],
@@ -87,13 +73,6 @@ const studios = [
   {
     name: 'INSIGHT ピラティス＆トレーニング 中央林間',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.5,
-    reviewCount: 29,
-    reviews: [
-      { author: 'G.M', rating: 5, date: '1週間前', text: '理学療法士監修のプログラム。マシンピラティスで身体機能の向上を重視。肩こりや腰痛の根本改善におすすめ。' },
-      { author: 'H.O', rating: 5, date: '2週間前', text: '中央林間エリアで理学療法士監修が魅力のスタジオ。通いやすい立地で続けやすいです。' },
-      { author: 'I.Q', rating: 4, date: '3週間前', text: '初心者でも安心して通えます。インストラクターの指導が丁寧で、体の変化を実感できています。' },
-    ],
     price: 'レッスン料は公式サイトでご確認ください',
     trial: '体験レッスンあり',
     features: ['理学療法士監修', 'マシンピラティス', '根本改善', '肩こり・腰痛対応'],
@@ -120,13 +99,6 @@ const studios = [
   {
     name: 'LAVA 中央林間店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.4,
-    reviewCount: 6,
-    reviews: [
-      { author: 'J.N', rating: 5, date: '1週間前', text: '全国展開のホットヨガスタジオ。ピラティスプログラムも充実。初心者でも安心して始められる環境。' },
-      { author: 'K.P', rating: 5, date: '2週間前', text: '中央林間エリアでホットヨガ&ピラティスが魅力のスタジオ。通いやすい立地で続けやすいです。' },
-      { author: 'L.R', rating: 4, date: '3週間前', text: '初心者でも安心して通えます。インストラクターの指導が丁寧で、体の変化を実感できています。' },
-    ],
     price: '月額8,800円〜',
     trial: '体験レッスンあり',
     features: ['ホットヨガ&ピラティス', '全国展開大手', '豊富なプログラム', '初心者歓迎'],
@@ -154,13 +126,6 @@ const studios = [
     name: 'zen place pilates（田園都市線沿線）',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 17,
-    reviews: [
-      { author: 'M.O', rating: 5, date: '1週間前', text: '全国130店舗以上の大手。田園都市線沿線のスタジオを利用可能。全店舗利用可能プランで柔軟に通えます。' },
-      { author: 'N.Q', rating: 5, date: '2週間前', text: '中央林間エリアで全国展開大手が魅力のスタジオ。通いやすい立地で続けやすいです。' },
-      { author: 'O.S', rating: 4, date: '3週間前', text: '初心者でも安心して通えます。インストラクターの指導が丁寧で、体の変化を実感できています。' },
-    ],
     price: '月4回 13,200円〜',
     trial: '体験レッスン 1,000円',
     features: ['全国展開大手', 'マット&マシン完備', '全店舗利用可能', '男女共用'],

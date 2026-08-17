@@ -22,13 +22,7 @@ export const metadata = {
 const studios = [
   {
     name: 'the SILK 蒲田店',
-    image: '/images/studios/the-silk.webp',
-    rating: 4.7, reviewCount: 165,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '蒲田駅東口から徒歩1分！女性専用で清潔感のある内装。音楽に合わせたリフォーマーレッスンが楽しい。手ぶらで無料体験できるのが嬉しい。' },
-      { author: 'S.T', rating: 5, date: '2週間前', text: 'パウダールームにメイクアップミラーやアイロンも完備。仕事前にレッスンを受けてそのまま出勤できます。ウェア・タオル無料貸出。' },
-      { author: 'R.N', rating: 4, date: '3週間前', text: '朝8:00から夜22:00まで営業で通いやすい。体験者の8割がピラティス未経験者なので初心者でも安心。月3回12,980円〜。' },
-    ],
+    image: '/images/studios/the-silk.webp', reviewCount: 165,
     price: '月3回 12,980円〜', trial: '体験レッスン 無料',
     features: ['女性専用', '蒲田駅徒歩1分', '手ぶら体験OK', '朝8時〜夜22時'],
     description: '女性専用マシンピラティススタジオ。蒲田駅東口から徒歩1分。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。パウダールームにメイクアップミラー・アイロン完備で仕事前後の利用に便利。',
@@ -42,13 +36,7 @@ const studios = [
   {
     name: 'zen place pilates 蒲田スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7, reviewCount: 178,
-    reviews: [
-      { author: 'K.N', rating: 5, date: '1週間前', text: '蒲田駅東口から徒歩4分。マットもマシンも両方受けられるのが魅力。全国150店舗以上で他店利用可能。男性もOK。' },
-      { author: 'Y.M', rating: 4, date: '2週間前', text: 'グループ体験1,000円で気軽に試せました。体験当日入会で入会金無料。ピラティス専門で20年以上の実績があり安心。' },
-      { author: 'A.S', rating: 5, date: '3週間前', text: 'インストラクターの質が高く体の変化を早く実感。京急蒲田駅からも徒歩6分でアクセス良好。' },
-    ],
+    image: '/images/studios/zen-place-pilates.webp', reviewCount: 178,
     price: '月4回 10,450円〜', trial: 'グループ体験 1,000円',
     features: ['蒲田駅徒歩4分', '男性OK', 'マット&マシン', '全国相互利用'],
     description: 'ピラティス専門の大手スタジオ。蒲田駅東口から徒歩4分、京急蒲田駅西口から徒歩6分。マットグループ・マシングループ・プライベートの3タイプ。全国150店舗以上で相互利用可能。男性も歓迎。',
@@ -61,13 +49,7 @@ const studios = [
   },
   {
     name: 'Rintosull 蒲田店',
-    image: '/images/studios/rintosull.webp',
-    rating: 4.6, reviewCount: 132,
-    reviews: [
-      { author: 'E.M', rating: 5, date: '1週間前', text: '蒲田駅から徒歩1分！LAVA系列で安心。月4回8,800円〜とマシンピラティスでは破格。無料体験で気軽に試せました。' },
-      { author: 'N.K', rating: 4, date: '2週間前', text: '女性専用・女性インストラクターのみで安心。初心者が87%以上とのことで未経験でも始めやすい。' },
-      { author: 'H.Y', rating: 5, date: '3週間前', text: 'プレミアムフリーフルタイム16,800円でLAVA等系列店も全国で利用可能。ピラティスとヨガ両方やりたい人におすすめ。' },
-    ],
+    image: '/images/studios/rintosull.webp', reviewCount: 132,
     price: '月4回 8,800円〜', trial: '体験レッスン 無料',
     features: ['LAVA系列', '女性専用', '蒲田駅徒歩1分', 'コスパ抜群'],
     description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオ。蒲田駅から徒歩1分。月4回8,800円のリーズナブルな料金。87%以上が初心者で未経験者も安心。プレミアムフリーフルタイム16,800円でLAVA等全店利用可能。',
@@ -80,13 +62,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 蒲田店',
-    image: '/images/studios/club-pilates.webp',
-    rating: 4.7, reviewCount: 108,
-    reviews: [
-      { author: 'T.M', rating: 5, date: '1週間前', text: '京急蒲田駅から徒歩5分、JR蒲田駅から徒歩7分。世界最大級のブランドで15種類の器具を使った本格レッスン。無料の30分イントロクラスあり。' },
-      { author: 'C.Y', rating: 4, date: '2週間前', text: '4段階のレベル分けで初心者でも安心。男性会員も多い。朝7時から営業で仕事前にも通える。' },
-      { author: 'K.S', rating: 5, date: '3週間前', text: '8つのプログラムがあり飽きずに続けられます。インストラクター全員が500時間以上の研修を受けた資格保持者。' },
-    ],
+    image: '/images/studios/club-pilates.webp', reviewCount: 108,
     price: '月4回 14,190円〜', trial: '体験レッスン 無料（30分イントロクラス）',
     features: ['世界最大級', '京急蒲田徒歩5分', '15種類の器具', '男性OK'],
     description: '世界最大級のマシンピラティスブランド。京急蒲田駅から徒歩5分、JR蒲田駅から徒歩7分。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類の器具を完備。8つのプログラムと4段階のレベル分け。',
@@ -99,13 +75,7 @@ const studios = [
   },
   {
     name: 'アーバンクラシックピラティス 蒲田店',
-    image: '/images/studios/urban-classic-pilates.webp',
-    rating: 4.5, reviewCount: 92,
-    reviews: [
-      { author: 'A.K', rating: 5, date: '1週間前', text: 'マシンピラティスとファンクショナルトレーニングを組み合わせたサーキット形式。30分で効率よく全身を鍛えられる。予約不要で気軽に通える。' },
-      { author: 'Y.N', rating: 4, date: '2週間前', text: '月額制の通い放題で好きな時に通える。短時間で効果的なので忙しい日でも無理なく続けられます。' },
-      { author: 'M.H', rating: 5, date: '3週間前', text: '蒲田駅近くで通いやすい。マシンとファンクショナルトレーニングの組み合わせで飽きずに続けられる。' },
-    ],
+    image: '/images/studios/urban-classic-pilates.webp', reviewCount: 92,
     price: '月額 9,680円〜（通い放題）', trial: '体験レッスンあり',
     features: ['サーキット形式', '30分レッスン', '予約不要', '通い放題'],
     description: 'マシンピラティスとファンクショナルトレーニングを組み合わせたサーキット形式のボディメイクスタジオ。30分で効率よく全身を鍛えられる。予約不要の通い放題で忙しい方にもおすすめ。',

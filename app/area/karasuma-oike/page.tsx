@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'CLUB PILATES 烏丸御池店',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.7,
-    reviewCount: 139,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '1週間前',
-        text: '烏丸御池駅から徒歩1分！世界最大級のブランドで15種類の器具を使った本格レッスン。無料の30分イントロクラスで雰囲気がわかります。',
-      },
-      {
-        author: 'S.T',
-        rating: 5,
-        date: '2週間前',
-        text: '4段階のレベル分けで初心者でも安心。男性会員もいるのでカップルで通えます。8つのプログラムで飽きずに続けられる。',
-      },
-      {
-        author: 'R.N',
-        rating: 4,
-        date: '3週間前',
-        text: '朝7時から営業で仕事前にも通える。インストラクター全員が500時間以上の研修を受けた資格保持者。京都の中心地でアクセス抜群。',
-      },
-    ],
     price: '月4回 14,190円〜',
     trial: '体験レッスン 無料（30分イントロクラス）',
     features: ['世界最大級', '烏丸御池駅徒歩1分', '15種類の器具', '男性OK'],
@@ -77,28 +55,6 @@ const studios = [
     name: 'zen place pilates 京都スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 30,
-    reviews: [
-      {
-        author: 'K.N',
-        rating: 5,
-        date: '1週間前',
-        text: '烏丸御池エリアからもアクセス良好。マットもマシンも両方受けられるのが魅力。全国150店舗以上で他店利用可能。男性もOK。',
-      },
-      {
-        author: 'Y.M',
-        rating: 4,
-        date: '2週間前',
-        text: 'グループ体験1,000円で気軽に試せました。ピラティス専門で20年以上の実績があり安心。京都の落ち着いた雰囲気で集中できます。',
-      },
-      {
-        author: 'A.S',
-        rating: 5,
-        date: '3週間前',
-        text: 'インストラクターの質が高く体の変化を早く実感。体験当日入会で入会金無料になるキャンペーンも。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['京都市内', '男性OK', 'マット&マシン', '全国相互利用'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'ルルト 烏丸御池店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
     image: '/images/studios/luluto.webp',
-    rating: 4.8,
-    reviewCount: 28,
-    reviews: [
-      {
-        author: 'E.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '烏丸御池駅から徒歩3分。理学療法士が監修、STOTT PILATES公認インストラクターが指導。女性専用で「整えるピラティス」がコンセプト。',
-      },
-      {
-        author: 'H.M',
-        rating: 5,
-        date: '2週間前',
-        text: '体験1,000円（通常12,000円）で試せました。満足できなければ全額返金保証あり。パーソナルなので体の状態に合わせた丁寧な指導。',
-      },
-      {
-        author: 'N.K',
-        rating: 4,
-        date: '3週間前',
-        text: '朝9時から夜21時まで営業。京都の中心地で通いやすい。マシンピラティスで姿勢改善の効果を早く実感できました。',
-      },
-    ],
     price: '月3回 29,700円〜',
     trial: '体験レッスン 1,000円（通常12,000円）',
     features: ['理学療法士監修', '女性専用', '烏丸御池徒歩3分', '全額返金保証'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'STUDIO IVY 烏丸御池店',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.7,
-    reviewCount: 9,
-    reviews: [
-      {
-        author: 'T.K',
-        rating: 5,
-        date: '1週間前',
-        text: '烏丸御池駅から徒歩4分。完全プライベートのマシンピラティス。一対一でオーダーメイドのプログラムが受けられる。月謝制で1レッスン6,250円〜。',
-      },
-      {
-        author: 'C.M',
-        rating: 4,
-        date: '2週間前',
-        text: '体験4,500円で丁寧なカウンセリングから始まります。体の癖や改善ポイントを詳しく教えてもらえた。',
-      },
-      {
-        author: 'Y.A',
-        rating: 5,
-        date: '3週間前',
-        text: '朝8時から夜21時まで営業。リフォーマー・キャデラック・チェアなど本格マシン完備。男性も歓迎。',
-      },
-    ],
     price: '月2回 15,000円〜',
     trial: '体験レッスン 4,500円',
     features: ['完全パーソナル', '烏丸御池徒歩4分', 'マシン完備', '月謝制'],
@@ -236,28 +148,6 @@ const studios = [
   {
     name: 'Rintosull 京都四条烏丸店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.6,
-    reviewCount: 158,
-    reviews: [
-      {
-        author: 'R.H',
-        rating: 5,
-        date: '1週間前',
-        text: '四条烏丸エリアにあり烏丸御池からも近い。LAVA系列で安心。月4回8,800円とマシンピラティスでは破格の安さ。',
-      },
-      {
-        author: 'A.M',
-        rating: 4,
-        date: '2週間前',
-        text: '女性専用で初心者が87%以上。未経験でも始めやすい環境。プレミアムフリーフルタイムでLAVA等系列店も利用可能。',
-      },
-      {
-        author: 'S.T',
-        rating: 5,
-        date: '3週間前',
-        text: '施設がきれいで清潔感がある。リフォーマーマシンを使った本格レッスンがこの価格で受けられるのはありがたい。',
-      },
-    ],
     price: '月4回 8,800円〜',
     trial: '体験レッスン 無料',
     features: ['LAVA系列', '女性専用', '四条烏丸エリア', 'コスパ抜群'],

@@ -21,13 +21,6 @@ const studios = [
   {
     name: 'Shiori Ballet Class ピラティス',
     image: '/images/studios/default-studio.webp',
-    rating: 4.6,
-    reviewCount: 18,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '久米川駅北口徒歩3分。バレエスクール併設のピラティス教室。親子での参加もOK。初心者でも丁寧な指導。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["バレエ併設", "駅徒歩3分", "親子参加OK", "丁寧な指導"],
@@ -42,13 +35,6 @@ const studios = [
   {
     name: 'プラスピラティス（Plus Pilates）',
     image: '/images/studios/default-studio.webp',
-    rating: 4.7,
-    reviewCount: 15,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '女性専用・少人数・完全予約制。1対1のパーソナルと2人までのセミパーソナル。ママクラスは子連れOK。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["女性専用", "ママクラス", "子連れOK", "完全予約制"],
@@ -64,13 +50,6 @@ const studios = [
     name: 'zen place pilates 所沢',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/default-studio.webp',
-    rating: 4.5,
-    reviewCount: 45,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '東村山から西武線で2駅の所沢。全国150店舗以上展開。マット・マシン両方に対応。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
     features: ["全国150店舗", "マット&マシン", "男性OK", "AI姿勢分析"],
@@ -85,13 +64,6 @@ const studios = [
   {
     name: 'LAVA 東村山店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.4,
-    reviewCount: 72,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '全国400店舗以上のホットヨガスタジオ。ピラティスプログラムも充実。女性専用で安心。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月4回 9,800円〜',
     trial: '体験レッスン 0円',
     features: ["ホットヨガ", "ピラティスプログラム", "女性専用", "全国チェーン"],
@@ -106,13 +78,6 @@ const studios = [
   {
     name: '東村山市民ステーション サンパルネ',
     image: '/images/studios/default-studio.webp',
-    rating: 4.3,
-    reviewCount: 25,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '東村山駅直結の市民施設。ピラティスクリニックを定期開催。少人数制で個人に合わせたアドバイス。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '低価格（市民施設）',
     trial: '参加可',
     features: ["市民施設", "ピラティスクリニック", "少人数制", "低価格"],

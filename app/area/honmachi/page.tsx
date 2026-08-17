@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'スタジオカラーズ',
     image: '/images/studios/studio-colors-honmachi.webp',
-    rating: 4.8,
-    reviewCount: 15,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '1週間前',
-        text: '本町駅3番出口から徒歩3分。マンツーマンレッスンが基本で、カウンセリング後に自分の体の状態に合わせたプログラムを組んでもらえます。',
-      },
-      {
-        author: 'Y.S',
-        rating: 5,
-        date: '2週間前',
-        text: 'ピラティス・ボディコード・ジャイロキネシス・ヨガを融合させたオリジナルメソッドが魅力。マシンの種類が豊富でリフォーマー以外にも色々体験できます。',
-      },
-      {
-        author: 'A.T',
-        rating: 4,
-        date: '3週間前',
-        text: 'デュエットレッスン（2人組）もあるので友達と一緒に参加できるのが嬉しい。グループレッスンもあり、自分のスタイルに合わせて選べます。',
-      },
-    ],
     price: 'パーソナル 1回 8,800円〜',
     trial: '体験レッスンあり',
     features: ['マンツーマン基本', '本町駅徒歩3分', '多彩なメソッド', 'マシン豊富'],
@@ -76,28 +54,6 @@ const studios = [
   {
     name: 'STABE 本町スタジオ',
     image: '/images/studios/stabe-honmachi.webp',
-    rating: 4.7,
-    reviewCount: 24,
-    reviews: [
-      {
-        author: 'S.N',
-        rating: 5,
-        date: '1週間前',
-        text: '四つ橋線本町駅から徒歩3分。理学療法士と健康管理士が監修したプログラムが受けられる。最大6名の少人数制で丁寧な指導。',
-      },
-      {
-        author: 'K.M',
-        rating: 5,
-        date: '2週間前',
-        text: 'カナダから直輸入したマシンを使ったレッスンが本格的。シルクサスペンションもあって他では体験できないプログラムが魅力。',
-      },
-      {
-        author: 'R.H',
-        rating: 4,
-        date: '3週間前',
-        text: '産前産後ケアにも対応しているので安心。ストットピラティス公認のインストラクターが在籍していて指導の質が高い。',
-      },
-    ],
     price: 'グループ 1回 3,300円〜',
     trial: '体験レッスンあり',
     features: ['理学療法士監修', '最大6名少人数制', '四つ橋線本町徒歩3分', '産前産後対応'],
@@ -129,28 +85,6 @@ const studios = [
   {
     name: 'ヴィオラトリコロール 本町リフォーマースタジオ',
     image: '/images/studios/viola-honmachi.webp',
-    rating: 4.7,
-    reviewCount: 17,
-    reviews: [
-      {
-        author: 'E.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '2005年創業の老舗ヨガ・ピラティススタジオのリフォーマー専用スタジオ。本町駅からも堺筋本町駅からもアクセス良好。体験3,000円で本格レッスンが受けられます。',
-      },
-      {
-        author: 'T.K',
-        rating: 4,
-        date: '2週間前',
-        text: 'インストラクター養成スクールも運営しているので指導の質が非常に高い。リフォーマー専用スタジオなのでマシンの台数が多く予約が取りやすい。',
-      },
-      {
-        author: 'N.M',
-        rating: 5,
-        date: '3週間前',
-        text: 'グループレッスンでもしっかりフォームを見てもらえる。初心者クラスがあるので安心して始められました。',
-      },
-    ],
     price: '月4回 12,100円〜',
     trial: '体験レッスン 3,000円',
     features: ['老舗20年', 'リフォーマー専用', '3路線アクセス', 'インストラクター養成'],
@@ -183,28 +117,6 @@ const studios = [
     name: 'zen place pilates 本町スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.6,
-    reviewCount: 35,
-    reviews: [
-      {
-        author: 'H.N',
-        rating: 5,
-        date: '1週間前',
-        text: '本町駅7番出口から徒歩5分、堺筋本町駅からも徒歩3分。全国展開の大手で安心感がある。マットもマシンも両方受けられるのが魅力。',
-      },
-      {
-        author: 'M.A',
-        rating: 4,
-        date: '2週間前',
-        text: 'グループ体験1,000円と手頃。男性も通えるスタジオ。全国80店舗以上で相互利用できるので出張時にも便利。',
-      },
-      {
-        author: 'Y.K',
-        rating: 5,
-        date: '3週間前',
-        text: 'インストラクター養成も行っている本格派。朝7時からレッスンがあるので出勤前に通えます。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['全国展開', '男性OK', 'マット&マシン', '堺筋本町徒歩3分'],
@@ -236,28 +148,6 @@ const studios = [
   {
     name: 'SHIN pilates studio 堺筋本町店',
     image: '/images/studios/shin-pilates-honmachi.webp',
-    rating: 4.7,
-    reviewCount: 5,
-    reviews: [
-      {
-        author: 'C.S',
-        rating: 5,
-        date: '1週間前',
-        text: '堺筋本町エリアのピラティス専門スタジオ。グループもプライベートも選べて、自分のペースで進められます。スタジオの雰囲気がおしゃれ。',
-      },
-      {
-        author: 'K.T',
-        rating: 5,
-        date: '2週間前',
-        text: 'プライベートレッスンでしっかり体の癖を見てもらえました。マシンを使った本格的なレッスンで、体の変化を早く実感できます。',
-      },
-      {
-        author: 'R.M',
-        rating: 4,
-        date: '3週間前',
-        text: 'グループレッスンも少人数制で丁寧。インストラクターが一人ひとりをしっかりサポートしてくれます。',
-      },
-    ],
     price: 'グループ 1回 3,300円〜',
     trial: '体験レッスンあり',
     features: ['ピラティス専門', '堺筋本町エリア', 'グループ&プライベート', '少人数制'],

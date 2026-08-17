@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates 武蔵小杉店',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 13,
-    reviews: [
-      {
-        author: 'M.S',
-        rating: 5,
-        date: '1週間前',
-        text: 'JR武蔵小杉駅北口から徒歩1分で通いやすさ抜群。全国150店舗が他店利用できるので、出張先でもレッスンを受けられるのが便利です。',
-      },
-      {
-        author: 'T.K',
-        rating: 5,
-        date: '2週間前',
-        text: 'マットもマシンも両方受けられるので飽きません。月4回10,450円〜とリーズナブルで、グループ体験が1,000円で試せるのも嬉しい。',
-      },
-      {
-        author: 'R.H',
-        rating: 4,
-        date: '3週間前',
-        text: '男性も通えるスタジオなので夫婦で通っています。インストラクターの質が高く、初心者でも丁寧に指導してもらえます。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['駅徒歩1分', '全国150店舗相互利用', '男性OK', 'マット&マシン対応'],
@@ -77,28 +55,6 @@ const studios = [
   {
     name: 'CLUB PILATES 武蔵小杉店',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.8,
-    reviewCount: 108,
-    reviews: [
-      {
-        author: 'A.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '世界最大級のピラティスブランドで安心感があります。15種類の器具を使ったレッスンは毎回新鮮で飽きません。体験が無料なのも嬉しいポイント。',
-      },
-      {
-        author: 'K.T',
-        rating: 5,
-        date: '2週間前',
-        text: '4段階のレベル分けがあるので初心者でも安心して始められました。男性会員もいるので夫婦で通っています。インストラクターの質が高い。',
-      },
-      {
-        author: 'N.M',
-        rating: 4,
-        date: '3週間前',
-        text: 'インストラクター全員が500時間以上の研修を受けた資格保持者。最大12名の少人数制でしっかり見てもらえます。月4回14,190円〜で本格レッスン。',
-      },
-    ],
     price: '月4回 14,190円〜',
     trial: '体験レッスン 0円（30分）',
     features: ['世界最大級チェーン', '15種類の器具', '男性OK', '体験0円'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'the SILK 武蔵小杉エリア',
     image: '/images/studios/the-silk.webp',
-    rating: 4.6,
-    reviewCount: 205,
-    reviews: [
-      {
-        author: 'Y.O',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用なので安心して通えます。音楽に合わせたレッスンが楽しく、エクササイズしている感覚が軽い。手ぶらOKなので仕事帰りにそのまま行けます。',
-      },
-      {
-        author: 'E.S',
-        rating: 5,
-        date: '2週間前',
-        text: '月3回12,980円〜で始めやすい価格帯。体験が無料なので気軽に試せました。朝7:30から夜22:00まで営業しているので通いやすいです。',
-      },
-      {
-        author: 'H.N',
-        rating: 4,
-        date: '3週間前',
-        text: '音楽に合わせて楽しくトレーニングできるのが他のスタジオとの大きな違い。おしゃれな空間でモチベーションが上がります。',
-      },
-    ],
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '音楽レッスン', '手ぶらOK', '体験無料'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'STUDIO IVY 武蔵小杉店',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.9,
-    reviewCount: 4,
-    reviews: [
-      {
-        author: 'S.M',
-        rating: 5,
-        date: '1週間前',
-        text: '完全パーソナルなので自分だけのオーダーメイドレッスンが受けられます。完全プライベート空間で周りを気にせず集中できるのが良い。',
-      },
-      {
-        author: 'T.N',
-        rating: 5,
-        date: '2週間前',
-        text: '月2回15,000円〜で本格的なパーソナルピラティスが受けられるのはコスパが良い。体の悩みに合わせたプログラムを組んでくれます。',
-      },
-      {
-        author: 'K.A',
-        rating: 5,
-        date: '3週間前',
-        text: '体験レッスン4,500円で受けられます。インストラクターが丁寧にカウンセリングしてくれて、自分に合ったトレーニングを提案してくれました。',
-      },
-    ],
     price: '月2回 15,000円〜',
     trial: '体験レッスン 4,500円',
     features: ['完全パーソナル', 'オーダーメイド', '完全プライベート空間', '月2回〜'],
@@ -236,28 +148,6 @@ const studios = [
   {
     name: 'Lucio 武蔵小杉店',
     image: '/images/studios/lucio-musashikosugi.webp',
-    rating: 4.7,
-    reviewCount: 5,
-    reviews: [
-      {
-        author: 'A.K',
-        rating: 5,
-        date: '1週間前',
-        text: 'パーソナルマシンピラティスとジムが一体になったスタジオ。施設がとてもきれいで、気持ちよくトレーニングできます。',
-      },
-      {
-        author: 'M.T',
-        rating: 5,
-        date: '2週間前',
-        text: '駅から近くて通いやすい。スケジュールも柔軟に対応してくれるので、忙しい人でも無理なく続けられます。',
-      },
-      {
-        author: 'Y.I',
-        rating: 4,
-        date: '3週間前',
-        text: 'ピラティスだけでなくジムトレーニングもできるので、総合的にボディメイクしたい方におすすめ。インストラクターが親切です。',
-      },
-    ],
     price: '公式サイトでご確認ください',
     trial: '体験レッスンあり',
     features: ['パーソナルマシンピラティス', 'ジム併設', '駅近', '施設がきれい'],

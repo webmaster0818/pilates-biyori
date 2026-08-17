@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates 天王寺',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 21,
-    reviews: [
-      {
-        author: 'M.Y',
-        rating: 5,
-        date: '2週間前',
-        text: '大阪阿部野橋駅から徒歩3分で通いやすいです。マットもマシンも両方受けられるのが魅力。エデュケーターの質が高く、身体の使い方を丁寧に教えてくれます。',
-      },
-      {
-        author: 'K.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: 'リフォーマーグループレッスンが楽しい！少人数制なので丁寧に見てもらえます。男性もOKなので夫婦で通っています。天王寺公園の近くでレッスン後の散歩も気持ちいい。',
-      },
-      {
-        author: 'A.H',
-        rating: 4,
-        date: '3週間前',
-        text: '全国展開しているので出張先でも通えるのが便利。体験レッスンが1,000円とお手頃で始めやすかったです。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
     features: ['マット&マシン', '男性OK', '大阪阿部野橋駅徒歩3分', '全国相互利用可'],
@@ -77,28 +55,6 @@ const studios = [
   {
     name: 'pilates K 天王寺店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 131,
-    reviews: [
-      {
-        author: 'T.W',
-        rating: 5,
-        date: '5日前',
-        text: '音楽に合わせてリフォーマーを使うグループレッスンが楽しい！きんえいアポロビルの中にあるので、天王寺でのショッピング帰りに通えます。',
-      },
-      {
-        author: 'H.I',
-        rating: 4,
-        date: '1週間前',
-        text: '女性専用なので周りを気にせず集中できます。マンスリー4回で11,220円はこのエリアでは安い方。体験0円で始められたのも嬉しかった。',
-      },
-      {
-        author: 'S.N',
-        rating: 5,
-        date: '2週間前',
-        text: 'インストラクターが明るくて雰囲気がいいです。あべのハルカス近くなのでレッスン後にカフェやショッピングも楽しめます。',
-      },
-    ],
     price: 'マンスリー4 11,220円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', 'マシン専門', '体験0円', 'きんえいアポロビル'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'Rintosull（リントスル）天王寺店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.6,
-    reviewCount: 74,
-    reviews: [
-      {
-        author: 'R.M',
-        rating: 5,
-        date: '1週間前',
-        text: 'LAVAが運営しているので安心感があります。大画面スクリーンを見ながらレッスンできるので分かりやすい。アベノセンタービルの中で天王寺駅から近いです。',
-      },
-      {
-        author: 'Y.K',
-        rating: 4,
-        date: '2週間前',
-        text: '30分のレッスンもあるので忙しい日でも通いやすいです。女性専用なのも嬉しいポイント。インストラクターのサポートが手厚い。',
-      },
-      {
-        author: 'N.S',
-        rating: 5,
-        date: '3週間前',
-        text: 'マシンピラティス初心者でしたが、映像とインストラクターのダブル指導で安心してレッスンを受けられました。天王寺公園の近くで通いやすい。',
-      },
-    ],
     price: '月額 9,800円〜',
     trial: '体験レッスン 150円',
     features: ['LAVA運営', '女性専用', '大画面映像レッスン', '30分レッスンあり'],
@@ -183,7 +117,6 @@ const studios = [
   {
     name: 'La pilates 天王寺店',
     image: '/images/studios/la-pilates.webp',
-    rating: 4.8,
     price: '月額 9,900円〜',
     trial: '体験レッスン 3,000円',
     features: ['整体×ピラティス', '女性専用', 'プライベート', '天王寺駅徒歩1分'],
@@ -194,7 +127,6 @@ const studios = [
   {
     name: 'Pilates Studio soRa',
     image: '/images/studios/pilates-sora-tennoji.webp',
-    rating: 4.7,
     price: '1回 3,520円〜',
     trial: '体験レッスン 2,500円',
     features: ['STOTT認定', 'マット&マシン', '上本町駅徒歩5分', 'プライベートあり'],
@@ -205,7 +137,6 @@ const studios = [
   {
     name: 'Pilates studio Sonare',
     image: '/images/studios/pilates-sonare-tennoji.webp',
-    rating: 4.8,
     price: '1回 9,350円〜',
     trial: '体験レッスン あり',
     features: ['完全プライベート', 'マシン完備', '桃谷駅徒歩5分', 'オーダーメイド'],
@@ -216,7 +147,6 @@ const studios = [
   {
     name: 'fis.pilates 天王寺店',
     image: '/images/studios/fis-pilates.webp',
-    rating: 4.7,
     price: '月額 3,000円台〜（分割払い）',
     trial: '体験レッスン 4,000円',
     features: ['女性専用', '完全個室', '女性トレーナー', 'お子様連れOK'],
@@ -227,7 +157,6 @@ const studios = [
   {
     name: 'ピラティスアヴニール 天王寺店',
     image: '/images/studios/pilates-avenir-tennoji.webp',
-    rating: 4.6,
     price: '都度払い・月額制あり',
     trial: '体験レッスン あり',
     features: ['完全個室', 'マンツーマン', 'あべのベルタ', '阿倍野駅徒歩1分'],
@@ -238,7 +167,6 @@ const studios = [
   {
     name: 'Hain pilates 天王寺店',
     image: '/images/studios/hain-pilates.webp',
-    rating: 4.6,
     price: '月4回プランあり',
     trial: '体験レッスン 2,200円',
     features: ['女性専用', '30分レッスン', '女性インストラクター', '天王寺駅徒歩3分'],
@@ -249,7 +177,6 @@ const studios = [
   {
     name: 'PILATES & PERSONAL GYM LAULE\'A',
     image: '/images/pilates2.webp',
-    rating: 4.7,
     price: 'チケット制',
     trial: '体験レッスン あり',
     features: ['ピラティス×パーソナル', 'お子様連れOK', '阿倍野駅徒歩10秒', 'グループあり'],
@@ -260,7 +187,6 @@ const studios = [
   {
     name: 'ピラティス・トトヤセ 天王寺店',
     image: '/images/studios/pilates-totoyase-tennoji.webp',
-    rating: 4.8,
     price: 'パーソナルプラン',
     trial: '体験レッスン あり',
     features: ['整体×ピラティス', '女性専用', '完全個室', '手ぶらOK'],
@@ -271,7 +197,6 @@ const studios = [
   {
     name: 'Belluna Pilates',
     image: '/images/studios/belluna-pilates-tennoji.webp',
-    rating: 4.5,
     price: '1回 2,000円〜',
     trial: '体験レッスン あり',
     features: ['リーズナブル', 'グループレッスン', '少人数制', '寺田町駅徒歩3分'],

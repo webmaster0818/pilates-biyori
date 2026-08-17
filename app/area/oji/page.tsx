@@ -26,28 +26,6 @@ const studios = [
   {
     name: 'Rintosull 王子店',
     image: '\/images\/studios\/rintosull.webp',
-    rating: 4.7,
-    reviewCount: 45,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '1週間前',
-        text: '王子駅から徒歩1分で通いやすい。LAVA系列で安心感がある。大型スクリーンを見ながらのレッスンが初心者でもわかりやすい。体験0円で気軽に試せました。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '2週間前',
-        text: '女性専用なので安心して通えます。30分のレッスンで隙間時間に通える。月額8,800円〜とリーズナブル。',
-      },
-      {
-        author: 'A.S',
-        rating: 4,
-        date: '3週間前',
-        text: '87%が初心者とのことで、運動が苦手な私でも楽しく続けられています。LAVAやBurnesStyleとの相互利用もできるのが嬉しい。',
-      },
-    ],
     price: '月額 8,800円〜',
     trial: '体験レッスン 0円',
     features: ['王子駅徒歩1分', '女性専用', 'LAVA系列', '30分レッスン'],
@@ -79,28 +57,6 @@ const studios = [
   {
     name: 'Pilates Studio M',
     image: '\/images\/studios\/pilates-studio-m-oji.webp',
-    rating: 4.8,
-    reviewCount: 3,
-    reviews: [
-      {
-        author: 'S.N',
-        rating: 5,
-        date: '1週間前',
-        text: '完全プライベートで一人ひとりに合わせたオーダーメイドレッスンが魅力。BASI PilatesとPHI Pilatesの資格を持つインストラクターの指導が的確。',
-      },
-      {
-        author: 'K.H',
-        rating: 5,
-        date: '2週間前',
-        text: '10代から70代まで幅広い年齢層が通っている。機能改善に特化したアプローチで、腰痛が改善しました。',
-      },
-      {
-        author: 'R.Y',
-        rating: 4,
-        date: '3週間前',
-        text: 'リフォーマー、チェア、マットを使った本格的なプライベートレッスン。グループが苦手な方にぴったり。',
-      },
-    ],
     price: '1回 8,600円〜',
     trial: '体験レッスン 6,000円',
     features: ['完全プライベート', '国際資格保持', '機能改善特化', '幅広い年齢層'],
@@ -133,28 +89,6 @@ const studios = [
     name: 'zen place pilates 駒込スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '\/images\/studios\/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 21,
-    reviews: [
-      {
-        author: 'T.M',
-        rating: 5,
-        date: '1週間前',
-        text: '駒込駅から徒歩4分で王子からもアクセスしやすい。全国150店舗以上で他店利用できるのが便利。マットもマシンも両方受けられる。',
-      },
-      {
-        author: 'H.S',
-        rating: 5,
-        date: '2週間前',
-        text: 'ピラティス専門20年以上の実績。インストラクターの質が高く、体験当日入会で入会金無料。男性もOK。',
-      },
-      {
-        author: 'N.K',
-        rating: 4,
-        date: '3週間前',
-        text: 'グループ体験1,000円とリーズナブル。マットグループ、マシングループ、プライベートの3タイプから選べる。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['駒込駅徒歩4分', '全国相互利用', '男性OK', '20年以上の実績'],
@@ -186,28 +120,6 @@ const studios = [
   {
     name: 'ピラティスK 王子（近隣エリア）',
     image: '\/images\/studios\/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 136,
-    reviews: [
-      {
-        author: 'E.M',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用で安心。音楽に合わせたリフォーマーレッスンが楽しくて毎回あっという間。部位別ボディメイクプログラムが充実。',
-      },
-      {
-        author: 'C.T',
-        rating: 5,
-        date: '2週間前',
-        text: '体験2,000円で気軽に試せた。月4回13,420円とコスパも良い。マシンピラティス専門なのでリフォーマーの台数が多い。',
-      },
-      {
-        author: 'A.Y',
-        rating: 4,
-        date: '3週間前',
-        text: '朝から夜まで営業で通いやすい。予約が取りやすく、インストラクターの指導も丁寧。',
-      },
-    ],
     price: '月4回 13,420円〜',
     trial: '体験レッスン 2,000円',
     features: ['女性専用', '部位別プログラム', 'マシン専門', '通い放題あり'],

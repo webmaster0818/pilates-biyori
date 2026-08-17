@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates 新宿南口スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 32,
-    reviews: [
-      {
-        author: 'K.S',
-        rating: 5,
-        date: '1週間前',
-        text: 'JR代々木駅から徒歩8分、新宿駅ミライナタワー改札から徒歩3分。マット・マシン・プライベートの3タイプが選べて、全国150店舗以上で他店利用可能なのが便利。',
-      },
-      {
-        author: 'Y.N',
-        rating: 5,
-        date: '2週間前',
-        text: 'グループ体験が1,000円で気軽に試せました。インストラクターがピラティス専門で20年以上の実績があり、指導の質が高い。男性もOKなので夫婦で通っています。',
-      },
-      {
-        author: 'A.M',
-        rating: 4,
-        date: '3週間前',
-        text: '朝7時から営業しているので出勤前に通えます。体験当日入会で入会金無料のキャンペーンがあるのも嬉しい。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['新宿駅徒歩3分', '代々木駅徒歩8分', '男性OK', '全国相互利用'],
@@ -77,28 +55,6 @@ const studios = [
   {
     name: 'the SILK 新宿店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.7,
-    reviewCount: 371,
-    reviews: [
-      {
-        author: 'E.T',
-        rating: 5,
-        date: '1週間前',
-        text: '新宿西口駅D5出口から徒歩1分で駅近。女性専用で清潔感のあるスタジオ。音楽に合わせたリフォーマーレッスンが楽しくて、あっという間に時間が過ぎます。',
-      },
-      {
-        author: 'N.K',
-        rating: 5,
-        date: '2週間前',
-        text: '手ぶらで無料体験できるのが嬉しい。ウェア・タオル無料貸出、ウォーターサーバーも完備。体験者の8割がピラティス未経験者なので初心者でも安心。',
-      },
-      {
-        author: 'R.S',
-        rating: 4,
-        date: '3週間前',
-        text: '月3回12,980円〜と始めやすい。仕事帰りに気軽に通えるのが魅力。スタッフも親切で丁寧に教えてくれます。',
-      },
-    ],
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '新宿西口駅徒歩1分', '手ぶら体験OK', '初心者歓迎'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'ピラティスK 新宿店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 113,
-    reviews: [
-      {
-        author: 'M.H',
-        rating: 5,
-        date: '1週間前',
-        text: '新宿三丁目駅から徒歩1分！女性専用マシンピラティス専門。音楽に合わせたリフォーマーレッスンが楽しい。部位別ボディメイクプログラムが充実しています。',
-      },
-      {
-        author: 'S.Y',
-        rating: 5,
-        date: '2週間前',
-        text: '体験2,000円で気軽に試せました。月4回13,420円〜とコスパも良い。予約システムが使いやすくて、スムーズに通えています。',
-      },
-      {
-        author: 'R.A',
-        rating: 4,
-        date: '3週間前',
-        text: '平日は10時から22時まで営業で仕事帰りにも通える。マシンの台数が多く予約が取りやすいのが嬉しい。',
-      },
-    ],
     price: '月4回 13,420円〜',
     trial: '体験レッスン 2,000円',
     features: ['女性専用', '新宿三丁目駅徒歩1分', '部位別プログラム', 'マシン専門'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'Mapila（マピラ）新宿店',
     image: '/images/studios/mapila-shinjuku.webp',
-    rating: 4.6,
-    reviewCount: 12,
-    reviews: [
-      {
-        author: 'H.K',
-        rating: 5,
-        date: '1週間前',
-        text: '新宿三丁目駅E6出口直結でアクセス抜群。月額8,800円〜と代々木・新宿エリアでは最安クラス。マシンピラティスとホットヨガの両方が楽しめるのが嬉しい。',
-      },
-      {
-        author: 'T.M',
-        rating: 4,
-        date: '2週間前',
-        text: '体験当日入会で事務手数料が無料に。ウェア上下・バスタオル・ピラティス用靴下付きの体験セットが便利でした。',
-      },
-      {
-        author: 'A.S',
-        rating: 5,
-        date: '3週間前',
-        text: '土日は朝8:30からオープンしているので、休日の朝活にぴったり。平日は22:30まで営業で仕事帰りも余裕。',
-      },
-    ],
     price: '月額 8,800円〜',
     trial: '体験レッスンあり',
     features: ['新宿三丁目駅直結', '月額8,800円〜', 'ホットヨガ併設', '手ぶら体験OK'],
@@ -236,28 +148,6 @@ const studios = [
   {
     name: 'Rintosull（リントスル）新宿西口駅前店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.6,
-    reviewCount: 166,
-    reviews: [
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1週間前',
-        text: '新宿駅から徒歩3分、新宿西口駅から徒歩2分。姿勢診断付きの無料体験レッスンがあり、自分の体の状態を知ることから始められる。',
-      },
-      {
-        author: 'M.S',
-        rating: 4,
-        date: '2週間前',
-        text: 'マシンピラティスだけでなくホットヨガやキックボクシングなど多彩なクラスがあるのが魅力。飽きずに続けられます。',
-      },
-      {
-        author: 'K.A',
-        rating: 5,
-        date: '3週間前',
-        text: 'LAVA系列なので安心感がある。スタッフの対応も丁寧で、初心者でも安心してレッスンを受けられました。',
-      },
-    ],
     price: '月額 9,800円〜',
     trial: '体験レッスン 無料（姿勢診断付き）',
     features: ['新宿駅徒歩3分', '姿勢診断付き体験', '多彩なクラス', 'LAVA系列'],
@@ -289,28 +179,6 @@ const studios = [
   {
     name: 'exeed Pilates studio 新宿・代々木店',
     image: '/images/studios/exeed-pilates-yoyogi.webp',
-    rating: 4.7,
-    reviewCount: 14,
-    reviews: [
-      {
-        author: 'C.N',
-        rating: 5,
-        date: '1週間前',
-        text: '代々木駅から徒歩4分、南新宿駅から徒歩2分。完全個室のプライベートレッスンで、人目を気にせず集中できる。理学療法士が監修したプログラムで安心。',
-      },
-      {
-        author: 'H.Y',
-        rating: 5,
-        date: '2週間前',
-        text: 'ピラティスとパーソナルトレーニングの両方ができるので効率的。朝8時から夜23時まで営業しているのも嬉しい。',
-      },
-      {
-        author: 'R.T',
-        rating: 4,
-        date: '3週間前',
-        text: 'リフォーマーを使った本格的なマシンピラティスが体験できる。完全個室なので他の人と接触がなく、初心者でも恥ずかしくない。',
-      },
-    ],
     price: 'パーソナル 月8回 52,800円〜',
     trial: '体験レッスンあり',
     features: ['完全個室', '代々木駅徒歩4分', '理学療法士監修', '23時まで営業'],
@@ -342,28 +210,6 @@ const studios = [
   {
     name: 'Studio Forward（スタジオフォワード）代々木',
     image: '/images/studios/studio-forward-yoyogi.webp',
-    rating: 4.6,
-    reviewCount: 12,
-    reviews: [
-      {
-        author: 'T.K',
-        rating: 5,
-        date: '1週間前',
-        text: '代々木駅北口から徒歩4分、南新宿駅から徒歩2分。40代以上の男性でも通いやすいピラティス専門スタジオ。腰痛・肩こりの改善を実感。',
-      },
-      {
-        author: 'M.O',
-        rating: 4,
-        date: '2週間前',
-        text: '年中無休で朝8時から夜22時まで営業。仕事帰りでもゆっくり通える。プライベートレッスンで自分のペースで進められるのが良い。',
-      },
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '3週間前',
-        text: '体験レッスン60分4,000円で内容も充実。加圧トレーニングも併設しているので、ピラティスと組み合わせて効率的にトレーニングできる。',
-      },
-    ],
     price: 'プライベート 1回 8,000円〜',
     trial: '体験レッスン 4,000円（60分）',
     features: ['代々木駅徒歩4分', '男性歓迎', '年中無休', '加圧トレーニング併設'],

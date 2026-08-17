@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'SOELU 朝霞店',
     image: '/images/studios/soelu-minamikoshigaya.webp',
-    rating: 4.7,
-    reviewCount: 7,
-    reviews: [
-      {
-        author: 'K.N',
-        rating: 5,
-        date: '1週間前',
-        text: '朝霞駅から徒歩2分で通いやすい！マシンピラティス、ヨガ、よもぎ蒸しが全部楽しめる。女性専用なので安心して通えます。',
-      },
-      {
-        author: 'M.S',
-        rating: 5,
-        date: '2週間前',
-        text: '月額7,678円〜という驚きの価格。プレミアムプラン13,178円で全サービス使い放題はコスパ最高。オンラインレッスンも自宅で受けられて便利。',
-      },
-      {
-        author: 'A.T',
-        rating: 4,
-        date: '3週間前',
-        text: 'よもぎ蒸しで体を温めてからピラティスするのが最高。冷え性が改善されてきた気がします。スタッフの対応も丁寧。',
-      },
-    ],
     price: '月額 7,678円〜',
     trial: '無料体験あり',
     features: ['女性専用', '朝霞駅徒歩2分', 'よもぎ蒸し', 'オンライン併用'],
@@ -77,28 +55,6 @@ const studios = [
     name: 'zen place pilates 朝霞台',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 12,
-    reviews: [
-      {
-        author: 'Y.K',
-        rating: 5,
-        date: '1週間前',
-        text: 'ピラティス専門の大手スタジオ。マットもマシンも両方受けられるのが魅力。全国150店舗以上で他店利用可能で出張先でも通える。',
-      },
-      {
-        author: 'S.H',
-        rating: 4,
-        date: '2週間前',
-        text: 'インストラクターの質が高く、20年以上の実績がある安心感。グループ体験1,000円で気軽に試せた。男性もOK。',
-      },
-      {
-        author: 'R.M',
-        rating: 5,
-        date: '3週間前',
-        text: '月4回10,450円〜とリーズナブル。体験当日入会で入会金33,000円が無料になるのでお得。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['男性OK', '全国相互利用', 'マット＆マシン', '20年の実績'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'ジュリピラティススタジオ',
     image: '/images/studios/a-core-pilates.webp',
-    rating: 4.8,
-    reviewCount: 29,
-    reviews: [
-      {
-        author: 'E.N',
-        rating: 5,
-        date: '1週間前',
-        text: '完全個室の一軒家スタジオ。女性インストラクターによる女性専門パーソナルで、誰にも見られずに通えるのが嬉しい。駐車場完備で車通いに便利。',
-      },
-      {
-        author: 'T.K',
-        rating: 5,
-        date: '2週間前',
-        text: '隠れ家的な雰囲気で落ち着いてレッスンできます。マンツーマンなので自分のペースで進められる。体の不調にも丁寧に対応してくれます。',
-      },
-      {
-        author: 'M.Y',
-        rating: 4,
-        date: '3週間前',
-        text: '和光市駅から徒歩17分で少し遠いですが、駐車場があるので車で通えば問題なし。完全パーソナルの質の高さは駅近スタジオにはない魅力。',
-      },
-    ],
     price: '1回 8,800円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', '完全個室', '駐車場完備', '一軒家スタジオ'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'スポーツクラブ ルネサンス 北朝霞24',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.5,
-    reviewCount: 11,
-    reviews: [
-      {
-        author: 'H.S',
-        rating: 5,
-        date: '1週間前',
-        text: 'ジム・スタジオ・プール・温浴施設・テニスコートまで揃った総合スポーツクラブ。ピラティスレッスンもスタジオプログラムの一つとして受けられます。',
-      },
-      {
-        author: 'C.T',
-        rating: 4,
-        date: '2週間前',
-        text: 'ピラティス以外にもダンスやスイミングなど約50プログラムが選べる。運動を総合的に楽しみたい方におすすめ。24時間営業で便利。',
-      },
-      {
-        author: 'N.M',
-        rating: 4,
-        date: '3週間前',
-        text: '北朝霞駅から徒歩3分。施設が充実していて、ピラティスの前にプールで泳いだり、レッスン後にお風呂に入れるのが嬉しい。',
-      },
-    ],
     price: '月額 8,800円〜',
     trial: '体験あり',
     features: ['24時間営業', '総合スポーツクラブ', 'プール・温浴付き', '約50プログラム'],
@@ -236,28 +148,6 @@ const studios = [
   {
     name: 'よしだ接骨院 ピラティス',
     image: '/images/studios/a-core-pilates.webp',
-    rating: 4.6,
-    reviewCount: 29,
-    reviews: [
-      {
-        author: 'Y.A',
-        rating: 5,
-        date: '1週間前',
-        text: '柔道整復師の先生がピラティスを教えてくれるので、体の不調がある方には特におすすめ。治療とピラティスを組み合わせたアプローチが効果的。',
-      },
-      {
-        author: 'K.M',
-        rating: 5,
-        date: '2週間前',
-        text: '朝霞台駅から近く通いやすい。接骨院ならではの医療的な視点でのピラティス指導が安心。腰痛改善のために通い始めました。',
-      },
-      {
-        author: 'S.N',
-        rating: 4,
-        date: '3週間前',
-        text: 'バランスボールやダンベルも使ったエクササイズも取り入れてくれる。体の痛みを相談しながらレッスンできるのが他のスタジオにはない魅力。',
-      },
-    ],
     price: '1回 5,500円〜',
     trial: '初回カウンセリングあり',
     features: ['柔道整復師指導', '医療的アプローチ', '治療併用可', '朝霞台駅近'],

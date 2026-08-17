@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'ピラティスK 千葉店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.0,
-    reviewCount: 130,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '1週間前',
-        text: '千葉駅から近くて仕事帰りに通っています。暗闘×音楽のレッスンが楽しくて、毎回あっという間。女性専用なので周りを気にせず集中できます。',
-      },
-      {
-        author: 'S.T',
-        rating: 4,
-        date: '2週間前',
-        text: 'ペリエ千葉で買い物した帰りに寄れるのが便利。お腹やお尻など部位別のプログラムが充実していて、気になるところを集中的に鍛えられます。',
-      },
-      {
-        author: 'Y.N',
-        rating: 4,
-        date: '3週間前',
-        text: '月4回13,420円はコスパが良いと思います。音楽に合わせて動くので飽きずに続けられる。JR総武線の千葉駅からすぐなので通いやすいです。',
-      },
-    ],
     price: '月4回 13,420円〜',
     trial: '無料体験レッスン',
     features: ['音楽×マシン', '女性専用', '駅近アクセス', '暗闇レッスン'],
@@ -76,28 +54,6 @@ const studios = [
   {
     name: 'CLUB PILATES 千葉',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.1,
-    reviewCount: 151,
-    reviews: [
-      {
-        author: 'A.H',
-        rating: 5,
-        date: '5日前',
-        text: 'アメリカ発の本格メソッドを千葉で受けられるのが嬉しい。インストラクターの専門知識が豊富で、自分の体の癖に合わせたレッスンをしてくれます。',
-      },
-      {
-        author: 'R.I',
-        rating: 4,
-        date: '2週間前',
-        text: '初心者でも安心して通えます。グループとプライベートの両方あるので、目的に合わせて選べるのが良い。京成線からもアクセスしやすいです。',
-      },
-      {
-        author: 'K.M',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '世界最大級のチェーンだけあって、メソッドがしっかりしています。千葉駅周辺で本格的なピラティスを探しているならここがおすすめ。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['アメリカ発', '世界最大級', 'グループ＆プライベート', '初心者歓迎'],
@@ -130,28 +86,6 @@ const studios = [
     name: 'luluto 千葉2号店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
     image: '/images/studios/luluto.webp',
-    rating: 4.3,
-    reviewCount: 30,
-    reviews: [
-      {
-        author: 'T.A',
-        rating: 5,
-        date: '3日前',
-        text: 'JR千葉駅から徒歩1分という最高の立地。理学療法士が考案したプログラムなので、医学的に正しいアプローチで身体を整えてもらえます。',
-      },
-      {
-        author: 'R.S',
-        rating: 5,
-        date: '1週間前',
-        text: '身体の不調を根本から見てもらえるのが他のスタジオとの違い。マンツーマンなので自分のペースで無理なく進められます。',
-      },
-      {
-        author: 'N.K',
-        rating: 4,
-        date: '3週間前',
-        text: '仕事帰りに通えるのが便利。夜間でも予約が取りやすいです。理学療法士の視点でのアドバイスが的確で、デスクワークでの姿勢の改善に役立っています。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['理学療法士考案', '千葉駅徒歩1分', 'マンツーマン', '医療的視点'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'Rintosull 千葉店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.0,
-    reviewCount: 64,
-    reviews: [
-      {
-        author: 'T.S',
-        rating: 5,
-        date: '1週間前',
-        text: 'LAVAのホットヨガと併用できるのが最大のメリット。ピラティスで筋力をつけて、ヨガで柔軟性を高められるので相乗効果を感じています。',
-      },
-      {
-        author: 'N.Y',
-        rating: 4,
-        date: '3週間前',
-        text: '初心者87%という安心感。インストラクターが丁寧にサポートしてくれるので、運動経験がなくても大丈夫でした。千葉駅から通いやすい場所にあります。',
-      },
-      {
-        author: 'H.M',
-        rating: 4,
-        date: '1ヶ月前',
-        text: 'LAVA全店とRintosull全店を相互利用できるプランがお得。そごう千葉の近くなので、買い物のついでに通えるのも便利です。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['LAVA運営', 'ホットヨガ併用可', '初心者87%', '相互利用可'],
@@ -235,28 +147,6 @@ const studios = [
   {
     name: 'STUDIO IVY 千葉店',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.2,
-    reviewCount: 3,
-    reviews: [
-      {
-        author: 'E.K',
-        rating: 5,
-        date: '10日前',
-        text: '完全プライベートなので人目を気にせず集中できます。インストラクターが自分の体の状態を丁寧に分析してくれて、オーダーメイドのメニューを組んでくれました。',
-      },
-      {
-        author: 'C.W',
-        rating: 4,
-        date: '2週間前',
-        text: 'マンツーマンなので自分のペースで進められるのが良い。千葉駅周辺でパーソナルのピラティスを探していたのでぴったりでした。',
-      },
-      {
-        author: 'J.O',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '短期間で効果を実感できました。姿勢が改善されて周りからも「背筋が伸びたね」と言われるようになりました。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['パーソナル専門', '完全プライベート', '1対1指導', '人目を気にせず'],
@@ -288,28 +178,6 @@ const studios = [
   {
     name: 'La pilates 千葉店',
     image: '/images/studios/la-pilates.webp',
-    rating: 4.1,
-    reviewCount: 19,
-    reviews: [
-      {
-        author: 'M.H',
-        rating: 5,
-        date: '5日前',
-        text: '整体とピラティスの組み合わせが他にはないアプローチ。長年悩んでいた腰痛が改善されました。千葉中央駅から徒歩4分で通いやすいです。',
-      },
-      {
-        author: 'K.S',
-        rating: 4,
-        date: '2週間前',
-        text: 'ウッド調の内装がおしゃれでリラックスできます。女性専用なので安心。肩こりが楽になって、姿勢も良くなりました。',
-      },
-      {
-        author: 'A.N',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '月1回12,000円から始められるので、お試し感覚でスタートできました。JR総武線の千葉駅からも徒歩8分で行けます。',
-      },
-    ],
     price: '月1回 12,000円〜',
     trial: '体験レッスン 3,000円',
     features: ['整体×ピラティス', '女性専用', '千葉駅徒歩8分', '千葉中央駅徒歩4分'],
@@ -341,28 +209,6 @@ const studios = [
   {
     name: 'Pilates Studio re.fel',
     image: '/images/studios/pilates-refel-chiba.webp',
-    rating: 4.0,
-    reviewCount: 7,
-    reviews: [
-      {
-        author: 'Y.I',
-        rating: 5,
-        date: '1週間前',
-        text: '整体とピラティスの両方を受けられるのが気に入っています。千葉駅から徒歩5分で、千葉市中央区登戸の落ち着いた雰囲気の中でトレーニングできます。',
-      },
-      {
-        author: 'S.M',
-        rating: 4,
-        date: '2週間前',
-        text: 'アットホームなスタジオで居心地が良いです。身体の歪みを整えながらトレーニングできるので、腰の痛みが和らぎました。',
-      },
-      {
-        author: 'F.T',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '地域密着型の丁寧な対応が魅力。大手にはないきめ細やかなサポートで、安心して通えます。京成線の千葉中央駅からも近いです。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['整体×ピラティス', '千葉駅徒歩5分', '千葉市中央区登戸', '融合スタジオ'],
@@ -394,28 +240,6 @@ const studios = [
   {
     name: 'OLUTANA pilates',
     image: '/images/studios/olutana-pilates.webp',
-    rating: 4.1,
-    reviewCount: 8,
-    reviews: [
-      {
-        author: 'L.K',
-        rating: 5,
-        date: '5日前',
-        text: '初心者向けの丁寧な指導が嬉しいです。女性専用なのでリラックスして通えます。ピラティスが初めてでも全く問題ありませんでした。',
-      },
-      {
-        author: 'D.N',
-        rating: 4,
-        date: '2週間前',
-        text: '東京と千葉に展開しているので、都内に出た時も利用できるのが便利。マシンピラティスの基礎からしっかり教えてもらえます。',
-      },
-      {
-        author: 'P.H',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '亀戸店がメディアで紹介されていて気になって千葉の店舗に通い始めました。評判通り、初心者に寄り添った指導で安心感があります。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['初心者向け', '女性専用', '東京・千葉展開', '丁寧な指導'],

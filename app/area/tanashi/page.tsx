@@ -21,13 +21,6 @@ const studios = [
   {
     name: 'Rintosull 田無店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.5,
-    reviewCount: 55,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: 'LAVA系列の女性専用マシンピラティス。田無駅徒歩4分。月4回8,800円〜。87%以上が初心者で安心。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月4回 8,800円〜',
     trial: '体験レッスン 無料',
     features: ["LAVA系列", "女性専用", "月4回8,800円〜", "多彩なプログラム"],
@@ -43,13 +36,6 @@ const studios = [
     name: 'zen place pilates 田無',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/default-studio.webp',
-    rating: 4.5,
-    reviewCount: 42,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '田無駅南口徒歩3分。全国150店舗以上展開。マット・マシン・グループ・プライベートすべてに対応。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
     features: ["全国150店舗", "マット&マシン", "男性OK", "AI姿勢分析"],
@@ -64,13 +50,6 @@ const studios = [
   {
     name: 'CLUB PILATES 田無店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.6,
-    reviewCount: 48,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '世界1000店舗以上展開。1人1台マシン完備。15種類の器具と4段階レベル分け。無料体験30分あり。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月4回 14,190円〜',
     trial: '体験レッスン 無料（30分）',
     features: ["世界最大級", "15種類の器具", "男性OK", "無料体験"],
@@ -85,13 +64,6 @@ const studios = [
   {
     name: 'SPEED FITNESS 田無店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.4,
-    reviewCount: 12,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '電磁パルス×ピラティスの新感覚スタジオ。AI姿勢分析付き初回体験2,980円。2025年12月プレオープン。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '初回体験 2,980円（AI姿勢分析付き）',
     features: ["電磁パルス×ピラティス", "AI姿勢分析", "新店舗", "体験2,980円"],
@@ -106,13 +78,6 @@ const studios = [
   {
     name: 'LAVA 田無店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.4,
-    reviewCount: 88,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '全国400店舗以上のホットヨガスタジオ。ピラティスプログラムも充実。Rintosullとの併用も可能。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月4回 9,800円〜',
     trial: '体験レッスン 0円',
     features: ["ホットヨガ", "ピラティスプログラム", "女性専用", "全国チェーン"],

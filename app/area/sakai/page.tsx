@@ -21,13 +21,6 @@ const studios = [
   {
     name: 'ピラティスK 堺東店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 165,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '女性専用マシンピラティス専門スタジオ。南海高野線「堺東駅」より徒歩1分。音楽に合わせた楽しいレッスンとボディメイクに特化。通いやすくて気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧。初心者でも安心して通えます。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 11,220円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '堺東駅徒歩1分', 'マシン専門', '体験無料'],
@@ -42,13 +35,6 @@ const studios = [
   {
     name: 'スリールピラティス',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 35,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '南海堺駅南口より徒歩2分の完全個室・女性専用マシンピラティススタジオ。マンツーマンのパーソナルトレーニング形式で初心者も。通いやすくて気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧。初心者でも安心して通えます。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: 'パーソナル制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['完全個室', '女性専用', '堺駅徒歩2分', 'マンツーマン'],
@@ -63,13 +49,6 @@ const studios = [
   {
     name: 'Ciao! Pilates アクロスモール泉北店',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.5,
-    reviewCount: 48,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '女性専用のマシンピラティススタジオ。加圧BFRを組み合わせた独自のプログラムでエクササイズ効果を高める。通いやすくて気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧。初心者でも安心して通えます。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月額制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['女性専用', '加圧BFR', 'マシンピラティス', 'アクロスモール内'],
@@ -84,13 +63,6 @@ const studios = [
   {
     name: 'Rintosull（リントスル）堺東店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.5,
-    reviewCount: 120,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'ホットヨガLAVAの姉妹ブランド。堺東駅から徒歩30秒の好立地。月4回8,800円〜と低価格でLAVA全店との相互利用も。通いやすくて気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧。初心者でも安心して通えます。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 8,800円〜',
     trial: '体験レッスンあり',
     features: ['低価格', 'LAVA相互利用', '堺東駅徒歩30秒', 'マシン専門'],
@@ -105,13 +77,6 @@ const studios = [
   {
     name: 'Pilates Studio Lusso',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.6,
-    reviewCount: 22,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '完全予約制の女性専用スタジオ。マシンを使用したマンツーマンプライベートレッスン。鍼灸院が併設されており体のトータルケアが。通いやすくて気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧。初心者でも安心して通えます。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: 'パーソナル制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['完全予約制', '女性専用', 'マンツーマン', '鍼灸院併設'],

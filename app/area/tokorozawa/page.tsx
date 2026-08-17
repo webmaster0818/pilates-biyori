@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates 所沢スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 20,
-    reviews: [
-      {
-        author: 'K.T',
-        rating: 5,
-        date: '1週間前',
-        text: '所沢駅西口から徒歩3分。いせきビル3階にあるアクセス抜群のスタジオ。マット・マシン・プライベートと3タイプのレッスンが選べます。男性もOK。',
-      },
-      {
-        author: 'Y.M',
-        rating: 5,
-        date: '2週間前',
-        text: '全国150店舗以上で相互利用可能なので出張先でも通える。ピラティス専門で20年以上の実績がある信頼のブランド。',
-      },
-      {
-        author: 'A.S',
-        rating: 4,
-        date: '3週間前',
-        text: '体験当日入会で入会金無料。インストラクターの質が高く、身体の変化を実感できます。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['所沢駅徒歩3分', 'ピラティス専門', '男性OK', '全国相互利用'],
@@ -77,28 +55,6 @@ const studios = [
   {
     name: 'ピラティスK 所沢店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 147,
-    reviews: [
-      {
-        author: 'M.H',
-        rating: 5,
-        date: '1週間前',
-        text: '所沢駅西口から徒歩2分！プロぺ商店街にあり買い物ついでに通えます。女性専用で安心。音楽に合わせたレッスンが楽しい。',
-      },
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '体験0円で気軽にスタートできました。月4回13,420円とコスパ良し。部位別プログラムが充実。',
-      },
-      {
-        author: 'R.T',
-        rating: 4,
-        date: '3週間前',
-        text: '火〜金は22時まで営業で仕事帰りにも通いやすい。マシン専門なのでリフォーマーの台数が多く予約も取りやすい。',
-      },
-    ],
     price: '月4回 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', '所沢駅徒歩2分', '部位別プログラム', 'マシン専門'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'the SILK 所沢店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.7,
-    reviewCount: 233,
-    reviews: [
-      {
-        author: 'E.N',
-        rating: 5,
-        date: '1週間前',
-        text: '所沢駅から徒歩2分。女性専用で清潔感のある内装がおしゃれ。音楽に合わせたレッスンが楽しい。手ぶら体験無料で気軽に試せました。',
-      },
-      {
-        author: 'N.Y',
-        rating: 5,
-        date: '2週間前',
-        text: '朝7:30から夜21:00まで営業で通いやすい。ウェア・タオル無料貸出やウォーターサーバーも完備。',
-      },
-      {
-        author: 'T.S',
-        rating: 4,
-        date: '3週間前',
-        text: '初心者向けプログラムが充実。月3回12,980円〜と始めやすい料金設定。入会キャンペーンも魅力。',
-      },
-    ],
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '所沢駅徒歩2分', '手ぶら体験OK', 'おしゃれ空間'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'CLUB PILATES 所沢店',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.7,
-    reviewCount: 110,
-    reviews: [
-      {
-        author: 'H.K',
-        rating: 5,
-        date: '1週間前',
-        text: '所沢駅西口から徒歩1分！世界最大級のブランドで15種類の器具を使った本格レッスン。無料体験クラスで雰囲気がわかります。',
-      },
-      {
-        author: 'C.M',
-        rating: 4,
-        date: '2週間前',
-        text: '4段階のレベル分けで初心者でも安心。男性会員も多く、カップルで通っています。インストラクター全員が資格保持者。',
-      },
-      {
-        author: 'M.A',
-        rating: 5,
-        date: '3週間前',
-        text: '月4回11,990円〜とリーズナブル。8つのプログラムがあり飽きずに続けられます。朝7時から営業。',
-      },
-    ],
     price: '月4回 11,990円〜',
     trial: '体験レッスン 無料',
     features: ['世界最大級', '所沢駅徒歩1分', '15種類の器具', '男性OK'],

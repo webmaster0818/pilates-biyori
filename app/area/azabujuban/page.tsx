@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates 麻布十番スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 12,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '麻布十番駅7番出口から徒歩1分！マットもマシンも両方受けられるのが嬉しい。全国150店舗以上で他店利用可能。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '少人数制で丁寧な指導。麻布十番の落ち着いた雰囲気のなかでリラックスしてレッスンを受けられます。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: '男性もOKなので夫婦で通えます。体験500円で気軽に始められました。',
-      },
-    ],
     price: 'マットグループ 月4回 9,625円〜',
     trial: '体験レッスン 500円〜',
     features: ['マット&マシン', '麻布十番駅徒歩1分', '男性OK', '全国相互利用'],
@@ -77,7 +55,6 @@ const studios = [
   {
     name: 'STUDIO IVY 麻布十番店',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.8,
     price: '1回 6,250円〜',
     trial: '体験レッスンあり',
     features: ['パーソナル専門', 'マシンピラティス', '麻布十番エリア', '全国展開'],
@@ -88,7 +65,6 @@ const studios = [
   {
     name: 'LAGREE MICRO studio 麻布十番',
     image: '/images/studios/lagree-micro-studio.webp',
-    rating: 4.7,
     price: '1回 3,612円〜',
     trial: '体験レッスン 2,200円',
     features: ['ラグリーフィットネス', '麻布十番エリア', 'グループレッスン', '高強度'],
@@ -99,7 +75,6 @@ const studios = [
   {
     name: 'STUDIO LUCE 麻布十番',
     image: '/images/studios/studio-luce-azabujuban.webp',
-    rating: 4.6,
     price: 'お問い合わせください',
     trial: '体験レッスンあり',
     features: ['ピラティス&バレエ', '麻布十番エリア', '女性向け', 'エレガント'],

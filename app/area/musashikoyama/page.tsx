@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates 武蔵小山',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 18,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '1週間前',
-        text: '武蔵小山駅東口から徒歩1分で通いやすい。全国150店舗で他店利用できるので、出先でもレッスンが受けられるのが嬉しいポイント。',
-      },
-      {
-        author: 'S.T',
-        rating: 5,
-        date: '2週間前',
-        text: 'マットもマシンも両方受けられるので飽きずに続けられます。男性もOKなので夫婦で通っています。グループ体験1,000円はお得。',
-      },
-      {
-        author: 'R.N',
-        rating: 4,
-        date: '3週間前',
-        text: 'インストラクターの質が安定していて、初心者でも丁寧に教えてもらえます。月4回10,450円〜で手軽に始められるのもいい。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['全国150店舗相互利用', 'マット&マシン対応', '男性OK', '駅徒歩1分'],
@@ -78,28 +56,6 @@ const studios = [
   {
     name: 'ピラティスミラー 武蔵小山',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.6,
-    reviewCount: 16,
-    reviews: [
-      {
-        author: 'E.M',
-        rating: 5,
-        date: '1週間前',
-        text: 'コナミスポーツが運営しているので安心感があります。天井にミラーがあり、自分のフォームを確認しながらレッスンできるのが良い。',
-      },
-      {
-        author: 'N.K',
-        rating: 4,
-        date: '2週間前',
-        text: '30分のレッスンなので仕事帰りでも気軽に通えます。月6回11,000円はコスパがいい。レッスン前20分のセルフトレーニングも活用しています。',
-      },
-      {
-        author: 'H.Y',
-        rating: 5,
-        date: '3週間前',
-        text: '体験2,200円で本格的なマシンピラティスを試せました。天井ミラーのおかげで正しい姿勢が身につきやすいです。',
-      },
-    ],
     price: '月6回 11,000円',
     trial: '体験レッスン 2,200円',
     features: ['コナミスポーツ運営', '天井ミラー', '30分レッスン', 'セルフトレーニング可'],
@@ -131,28 +87,6 @@ const studios = [
   {
     name: 'STUDIO IVY 武蔵小山店',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.9,
-    reviewCount: 17,
-    reviews: [
-      {
-        author: 'A.T',
-        rating: 5,
-        date: '1週間前',
-        text: '完全パーソナルなので自分だけの空間で集中してレッスンできます。オーダーメイドプログラムで効率的にボディメイクできています。',
-      },
-      {
-        author: 'Y.S',
-        rating: 5,
-        date: '2週間前',
-        text: '月2回15,000円〜でパーソナルレッスンが受けられるのは良心的。完全プライベート空間なので人目が気になりません。',
-      },
-      {
-        author: 'K.M',
-        rating: 5,
-        date: '3週間前',
-        text: '体験4,500円で丁寧なカウンセリングと本格レッスン。自分の体の課題が明確になり、通い続けるモチベーションになりました。',
-      },
-    ],
     price: '月2回 15,000円〜',
     trial: '体験レッスン 4,500円',
     features: ['完全パーソナル', '完全プライベート空間', 'オーダーメイド', '月2回15,000円〜'],
@@ -185,28 +119,6 @@ const studios = [
   {
     name: 'Two Three 武蔵小山',
     image: '/images/studios/two-three-pilates.webp',
-    rating: 4.7,
-    reviewCount: 18,
-    reviews: [
-      {
-        author: 'T.H',
-        rating: 5,
-        date: '1週間前',
-        text: 'マシンピラティス専門で、正確な姿勢を重視した指導が素晴らしい。最大8名のグループなのでしっかりフォームを見てもらえます。',
-      },
-      {
-        author: 'M.O',
-        rating: 5,
-        date: '2週間前',
-        text: '姿勢の正確さにこだわったレッスンが受けられるので、他のスタジオとは一味違います。体の変化を実感しやすいです。',
-      },
-      {
-        author: 'C.K',
-        rating: 4,
-        date: '3週間前',
-        text: 'マシンピラティス専門だけあって、リフォーマーの使い方を丁寧に教えてもらえます。最大8名なので適度な緊張感もあり良い。',
-      },
-    ],
     price: '公式サイトでご確認ください',
     trial: '体験レッスンあり',
     features: ['マシンピラティス専門', '最大8名グループ', '正確な姿勢重視', '丁寧な指導'],

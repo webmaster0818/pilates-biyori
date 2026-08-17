@@ -23,13 +23,7 @@ export const metadata = {
 const studios = [
   {
     name: 'Rintosull たまプラーザ店',
-    image: '/images/studios/rintosull.webp',
-    rating: 4.6, reviewCount: 134,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: 'たまプラーザ駅から徒歩3分。LAVA系列で安心。月4回8,800円〜とマシンピラティスでは破格のコスパ。無料体験あり。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '女性専用で清潔感抜群。初心者が87%以上で未経験でも始めやすい。大画面映像に合わせてレッスンが進むので分かりやすい。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'プレミアムフリーフルタイム18,800円でLAVA等系列店も全国で利用可能。ヨガとピラティス両方できて最高。' },
-    ],
+    image: '/images/studios/rintosull.webp', reviewCount: 134,
     price: '月4回 8,800円〜', trial: '体験レッスン 無料',
     features: ['LAVA系列', '女性専用', 'たまプラーザ駅徒歩3分', 'コスパ抜群'],
     description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオ。たまプラーザ駅から徒歩3分。月4回8,800円のリーズナブルな料金。大型スクリーン映像に合わせてレッスンが進み、87%以上が初心者で安心。',
@@ -42,13 +36,7 @@ const studios = [
   },
   {
     name: 'スタジオBYK たまプラーザ店',
-    image: '/images/studios/studio-byk-sagamiono.webp',
-    rating: 4.8, reviewCount: 76,
-    reviews: [
-      { author: 'A.Y', rating: 5, date: '1週間前', text: 'たまプラーザ駅から徒歩3分。完全個室のパーソナルピラティスで、10代から90代まで幅広い年齢層に対応。丁寧なカウンセリングが魅力。' },
-      { author: 'K.M', rating: 5, date: '2週間前', text: '自分だけのプログラムを組んでもらえるので効果を実感しやすい。スタッフが親切で初心者でも安心して通えます。' },
-      { author: 'N.S', rating: 4, date: '3週間前', text: '完全個室なので周りを気にせずレッスンに集中できる。体の状態に合わせた指導が受けられるのが嬉しい。' },
-    ],
+    image: '/images/studios/studio-byk-sagamiono.webp', reviewCount: 76,
     price: 'パーソナル 1回 8,800円〜', trial: '体験レッスンあり',
     features: ['完全個室', 'パーソナル専門', 'たまプラーザ駅徒歩3分', '全年齢対応'],
     description: 'たまプラーザ駅から徒歩3分の完全個室パーソナルピラティス専門スタジオ。10代から90代まで多くの方に選ばれている。個々の体の状態に合わせたオーダーメイドプログラムで確実に効果を実感。',
@@ -61,13 +49,7 @@ const studios = [
   },
   {
     name: 'the SILK たまプラーザ店',
-    image: '/images/studios/the-silk.webp',
-    rating: 4.7, reviewCount: 118,
-    reviews: [
-      { author: 'Y.K', rating: 5, date: '1週間前', text: '女性専用で清潔感のある内装。音楽に合わせたリフォーマーレッスンが楽しい。手ぶらで無料体験できるのが嬉しい。' },
-      { author: 'T.M', rating: 5, date: '2週間前', text: 'パウダールーム完備。ウェア・タオル無料貸出で荷物なしで通えます。朝8時から営業で子どもを送った後に通える。' },
-      { author: 'H.S', rating: 4, date: '3週間前', text: '初心者の割合が高いので未経験でも安心。月3回12,980円〜始められて、たまプラーザの主婦層に人気。' },
-    ],
+    image: '/images/studios/the-silk.webp', reviewCount: 118,
     price: '月3回 12,980円〜', trial: '体験レッスン 無料',
     features: ['女性専用', '手ぶら体験OK', '音楽レッスン', 'パウダールーム完備'],
     description: '女性専用マシンピラティススタジオ。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。パウダールームにメイクアップミラー・アイロン完備で外出前後の利用に便利。',
@@ -81,13 +63,7 @@ const studios = [
   {
     name: 'zen place pilates たまプラーザ近隣スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7, reviewCount: 148,
-    reviews: [
-      { author: 'K.N', rating: 5, date: '1週間前', text: '全国150店舗以上で他店利用可能なので、たまプラーザ近隣のスタジオも使える。マットもマシンも両方受けられるのが魅力。' },
-      { author: 'Y.M', rating: 4, date: '2週間前', text: 'グループ体験1,000円で気軽に試せます。体験当日入会で入会金無料。ピラティス専門で20年以上の実績があり安心。' },
-      { author: 'A.S', rating: 5, date: '3週間前', text: 'インストラクターの質が高い。男性もOKなので家族で通えます。オンラインレッスンも充実。' },
-    ],
+    image: '/images/studios/zen-place-pilates.webp', reviewCount: 148,
     price: '月4回 10,450円〜', trial: 'グループ体験 1,000円',
     features: ['男性OK', 'マット&マシン', '全国相互利用', '20年以上の実績'],
     description: 'ピラティス専門の大手スタジオ。全国150店舗以上で相互利用可能。マットグループ・マシングループ・プライベートの3タイプから選べます。BASIピラティスをベースにした本格指導。たまプラーザエリアからもアクセス良好。',
@@ -101,13 +77,7 @@ const studios = [
   {
     name: 'URBAN CLASSIC PILATES たまプラーザ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
-    image: '/images/studios/urban-classic-pilates.webp',
-    rating: 4.5, reviewCount: 86,
-    reviews: [
-      { author: 'S.K', rating: 5, date: '1週間前', text: 'マシンピラティスとTRXを組み合わせたサーキット形式。30分で全身を鍛えられる。予約不要で思い立ったら即通える。' },
-      { author: 'M.H', rating: 4, date: '2週間前', text: '月額通い放題で9,680円〜。好きな時に通えてコスパ抜群。短時間なので家事の合間にも通いやすい。' },
-      { author: 'R.Y', rating: 5, date: '3週間前', text: 'たまプラーザ駅近くで通いやすい。マシンとファンクショナルトレーニングの組み合わせで飽きない。' },
-    ],
+    image: '/images/studios/urban-classic-pilates.webp', reviewCount: 86,
     price: '月額 9,680円〜（通い放題）', trial: '体験レッスンあり',
     features: ['サーキット形式', '30分レッスン', '予約不要', '通い放題'],
     description: 'マシンピラティスとTRXを使ったファンクショナルトレーニングのサーキット形式スタジオ。30分で効率よく全身を鍛えられる。予約不要の通い放題で忙しい方にもおすすめ。',

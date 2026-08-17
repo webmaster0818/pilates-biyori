@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates 中目黒スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 14,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '中目黒駅から徒歩7分。目黒川沿いの落ち着いた雰囲気のなかでリラックスしてレッスンを受けられます。マットもマシンも両方あるのが嬉しい。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '少人数制で丁寧に見てもらえます。全国の店舗が利用可能なので、出張先でも通えるのが便利。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: '池尻大橋駅からも徒歩7分でアクセスしやすい。体験500円からなので気軽に始められました。',
-      },
-    ],
     price: 'マットグループ 月4回 9,625円〜',
     trial: '体験レッスン 500円〜',
     features: ['マット&マシン', '初心者歓迎', '中目黒駅徒歩7分', '男性OK'],
@@ -77,28 +55,6 @@ const studios = [
   {
     name: 'the SILK 中目黒店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.8,
-    reviewCount: 162,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: '中目黒駅から徒歩すぐで通いやすい！女性専用なので安心。スタジオがとてもおしゃれで気分が上がります。',
-      },
-      {
-        author: 'A.H',
-        rating: 5,
-        date: '2週間前',
-        text: '無料体験レッスンがあるので気軽に始められました。音楽に合わせたレッスンが楽しいです。',
-      },
-      {
-        author: 'M.M',
-        rating: 4,
-        date: '3週間前',
-        text: '中目黒のおしゃれな雰囲気にマッチしたスタジオ。レッスン後にカフェに立ち寄るのが楽しみです。',
-      },
-    ],
     price: 'Standard4 15,070円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'マシンピラティス専門', '中目黒駅すぐ', '音楽×マシン'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'ピラティスミラー 中目黒',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.7,
-    reviewCount: 14,
-    reviews: [
-      {
-        author: 'T.W',
-        rating: 5,
-        date: '5日前',
-        text: '月6回11,000円で1回あたり1,833円はコスパ最高。7回目以降も1,100円で追加できるので通い放題に近い感覚で使えます。',
-      },
-      {
-        author: 'H.I',
-        rating: 4,
-        date: '1週間前',
-        text: 'コナミスポーツが運営しているので安心感があります。プライベートレッスンも30分4,400円からとリーズナブル。',
-      },
-      {
-        author: 'S.N',
-        rating: 5,
-        date: '2週間前',
-        text: '朝7時からやっているので出勤前に通えるのが嬉しい。中目黒のおしゃれなスタジオで気持ちよくトレーニングできます。',
-      },
-    ],
     price: '月会費 11,000円（月6回まで）',
     trial: '体験レッスン 2,200円',
     features: ['コナミ運営', '月6回定額', '中目黒駅近', '朝7時から'],
@@ -183,7 +117,6 @@ const studios = [
   {
     name: 'STUDIO IVY 中目黒店',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.8,
     price: '1レッスン 6,250円〜',
     trial: '体験レッスンあり',
     features: ['パーソナル専門', 'マシンピラティス', '中目黒駅徒歩2分', '全国展開'],
@@ -194,7 +127,6 @@ const studios = [
   {
     name: 'NATURAglam 中目黒スタジオ',
     image: '/images/studios/naturaglam.webp',
-    rating: 4.6,
     price: 'お問い合わせください',
     trial: '体験レッスンあり',
     features: ['ヨガ&ピラティス', '7スタジオ利用可能', '中目黒エリア', 'アットホーム'],
@@ -205,7 +137,6 @@ const studios = [
   {
     name: 'BDC PILATES 恵比寿スタジオ',
     image: '/images/studios/bdc-pilates.webp',
-    rating: 4.7,
     price: 'グループ 月額 15,400円〜',
     trial: '体験レッスン 3,850円',
     features: ['プロダンサー養成校プロデュース', '少人数制', '恵比寿駅近', '本格的'],

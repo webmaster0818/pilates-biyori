@@ -27,28 +27,6 @@ const studios = [
     name: 'zen place pilates 下北沢',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 33,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '下北沢駅から近くて通いやすい。マットもマシンも両方受けられるのが嬉しい。AIによる姿勢分析で体の変化が数値で分かります。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '少人数制で丁寧な指導。全国150店舗以上で相互利用可能なので、出先でも通えるのが便利。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: 'マシングループ体験3,000円で手ぶらセット付き。体験当日入会で入会金無料なのがお得でした。',
-      },
-    ],
     price: 'マットグループ 月4回 9,625円〜',
     trial: '体験レッスン 500円〜',
     features: ['マット&マシン', '下北沢駅近', 'AI姿勢分析', '男性OK'],
@@ -80,28 +58,6 @@ const studios = [
   {
     name: 'NATURAglam 下北沢',
     image: '/images/studios/naturaglam.webp',
-    rating: 4.6,
-    reviewCount: 7,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: '1回あたり1,073円〜は本当にコスパ最強！女性専用なので安心して通えます。体験も1,000円で気軽でした。',
-      },
-      {
-        author: 'A.H',
-        rating: 4,
-        date: '2週間前',
-        text: 'アットホームな雰囲気で初心者でも安心。7スタジオ相互利用可能なので都合に合わせて通えるのが便利。',
-      },
-      {
-        author: 'M.M',
-        rating: 5,
-        date: '3週間前',
-        text: '下北沢・祐天寺・三軒茶屋・中目黒・高円寺・戸越銀座・経堂の7スタジオどこでも追加料金なし。',
-      },
-    ],
     price: '1回 1,073円〜',
     trial: '体験レッスン 1,000円',
     features: ['女性専用', '圧倒的低価格', '7スタジオ相互利用', 'マットピラティス'],
@@ -133,28 +89,6 @@ const studios = [
   {
     name: 'ピラティスミラー 下北沢',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.7,
-    reviewCount: 19,
-    reviews: [
-      {
-        author: 'E.S',
-        rating: 5,
-        date: '2週間前',
-        text: '月6回11,000円はマシンピラティスとしてはかなりお得。7回目以降も1回1,100円で追加できるのが嬉しい。',
-      },
-      {
-        author: 'T.K',
-        rating: 4,
-        date: '1ヶ月前',
-        text: 'コナミ運営で安心感がある。グループもマンツーマンも選べるので自分のペースで続けられます。',
-      },
-      {
-        author: 'Y.I',
-        rating: 5,
-        date: '3週間前',
-        text: '体験2,200円で雰囲気が分かった。プライベートレッスン30分4,400円もリーズナブル。',
-      },
-    ],
     price: '月6回 11,000円',
     trial: '体験レッスン 2,200円',
     features: ['マシンピラティス', 'グループ&マンツーマン', 'コナミ運営', '月6回定額'],
@@ -186,28 +120,6 @@ const studios = [
   {
     name: 'STUDIO IVY 下北沢',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.8,
-    reviewCount: 3,
-    reviews: [
-      {
-        author: 'M.T',
-        rating: 5,
-        date: '1週間前',
-        text: '完全個室なので周りの目を気にせず集中できる。オーダーメイドプログラムで自分に合ったトレーニングができます。',
-      },
-      {
-        author: 'K.S',
-        rating: 5,
-        date: '2週間前',
-        text: '月2回15,000円〜で始められるので、パーソナルとしてはリーズナブル。1レッスン6,250円〜の計算。',
-      },
-      {
-        author: 'R.O',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '全国展開で引越し後も通えるのが安心。インストラクターの質が高い。',
-      },
-    ],
     price: '1レッスン 6,250円〜',
     trial: '体験レッスンあり',
     features: ['完全個室パーソナル', 'マシンピラティス', 'オーダーメイド', '全国展開'],
@@ -239,22 +151,6 @@ const studios = [
   {
     name: 'Pilates Studio Muni',
     image: '/images/studios/pilates-muni-shimokitazawa.webp',
-    rating: 4.7,
-    reviewCount: 30,
-    reviews: [
-      {
-        author: 'H.N',
-        rating: 5,
-        date: '2週間前',
-        text: 'パーソナルマシンで丁寧に教えてもらえる。体験3,300円で初回から充実した内容でした。',
-      },
-      {
-        author: 'S.A',
-        rating: 5,
-        date: '1ヶ月前',
-        text: 'アットホームな雰囲気で居心地がいい。下北沢の隠れ家的スタジオ。',
-      },
-    ],
     price: '1回 7,850円〜',
     trial: '体験レッスン 3,300円',
     features: ['パーソナルマシン', 'アットホーム', '下北沢エリア', '丁寧な指導'],
@@ -265,22 +161,6 @@ const studios = [
   {
     name: 'CLUB PILATES 下北沢（近隣）',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.5,
-    reviewCount: 88,
-    reviews: [
-      {
-        author: 'A.K',
-        rating: 5,
-        date: '1週間前',
-        text: '最大12名のグループレッスンで楽しく続けられる。月4回10,890円〜はマシンとしてはリーズナブル。',
-      },
-      {
-        author: 'N.Y',
-        rating: 4,
-        date: '3週間前',
-        text: 'アメリカ発の世界最大級ピラティスブランド。インストラクターの質が安定している。',
-      },
-    ],
     price: '月4回 10,890円〜',
     trial: '体験レッスンあり',
     features: ['最大12名グループ', '世界最大級ブランド', 'マシンピラティス', '豊富なクラス'],
@@ -291,22 +171,6 @@ const studios = [
   {
     name: 'ピラティスK 下北沢（近隣）',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.5,
-    reviewCount: 202,
-    reviews: [
-      {
-        author: 'C.M',
-        rating: 5,
-        date: '2週間前',
-        text: '女性専用で安心。マシンピラティスが月4回11,220円〜で始められる。スタジオもおしゃれ。',
-      },
-      {
-        author: 'L.T',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '音楽に合わせたレッスンが楽しい。気分転換にもなります。',
-      },
-    ],
     price: '月4回 11,220円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', 'マシンピラティス', 'おしゃれな空間', '音楽×ピラティス'],
@@ -317,22 +181,6 @@ const studios = [
   {
     name: 'Rintosull 下北沢（近隣）',
     image: '/images/studios/rintosull.webp',
-    rating: 4.4,
-    reviewCount: 48,
-    reviews: [
-      {
-        author: 'P.H',
-        rating: 5,
-        date: '3週間前',
-        text: 'LAVA系列なのでホットヨガとの併用も可能。女性専用マシンピラティスで安心感がある。',
-      },
-      {
-        author: 'M.K',
-        rating: 4,
-        date: '1ヶ月前',
-        text: 'リフォーマーを使ったレッスンが充実。初心者向けクラスも多い。',
-      },
-    ],
     price: '月額制（プランにより異なる）',
     trial: '体験レッスンあり',
     features: ['女性専用', 'マシンピラティス', 'LAVA系列', 'ホットヨガ併用可'],
@@ -344,22 +192,6 @@ const studios = [
     name: 'ELEMENT 下北沢（近隣）',
     officialUrl: 'https://t.felmat.net/fmcl?ak=U11199J.1.V154352I.U1357808',
     image: '/images/studios/element.webp',
-    rating: 4.6,
-    reviewCount: 16,
-    reviews: [
-      {
-        author: 'D.S',
-        rating: 5,
-        date: '2週間前',
-        text: '1回30分のマンツーマンで効率的。忙しい人にぴったり。月4回22,000円は納得の内容。',
-      },
-      {
-        author: 'J.W',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '短時間でも集中できるので仕事終わりに通いやすい。パーソナルなので自分のペースで進められる。',
-      },
-    ],
     price: '月4回 22,000円',
     trial: '体験レッスンあり',
     features: ['マンツーマン30分', 'パーソナル', '短時間集中', '手ぶらOK'],
@@ -371,22 +203,6 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 下北沢（近隣）',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
-    rating: 4.3,
-    reviewCount: 274,
-    reviews: [
-      {
-        author: 'F.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '予約不要30分で気軽に通える。月4回9,680円はマシンピラティスとしてはかなり安い。',
-      },
-      {
-        author: 'G.T',
-        rating: 4,
-        date: '2週間前',
-        text: '思い立った時にすぐ行ける手軽さが最高。30分なので集中力が途切れない。',
-      },
-    ],
     price: '月4回 9,680円',
     trial: '体験レッスンあり',
     features: ['予約不要', '30分レッスン', 'マシンピラティス', '気軽に通える'],
@@ -397,22 +213,6 @@ const studios = [
   {
     name: 'CALDO 下北沢（近隣）',
     image: '/images/studios/caldo.webp',
-    rating: 4.3,
-    reviewCount: 94,
-    reviews: [
-      {
-        author: 'B.I',
-        rating: 4,
-        date: '2週間前',
-        text: 'ホットヨガがメインだけどピラティスプログラムもある。温かい環境で体がほぐれやすい。',
-      },
-      {
-        author: 'W.S',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '施設がきれいで広い。ホットヨガとピラティスを両方楽しめるのが嬉しい。',
-      },
-    ],
     price: '月額制（プランにより異なる）',
     trial: '体験レッスンあり',
     features: ['ホットヨガ&ピラティス', '広い施設', '予約不要クラスあり', '初心者歓迎'],

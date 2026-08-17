@@ -23,13 +23,7 @@ const studios = [
   {
     name: 'zen place pilates 日吉スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7, reviewCount: 156,
-    reviews: [
-      { author: 'K.M', rating: 5, date: '1週間前', text: '日吉駅西口から徒歩2分で通いやすい。マットもマシンも両方受けられるのが魅力。全国150店舗以上で他店利用可能。' },
-      { author: 'Y.T', rating: 5, date: '2週間前', text: 'BASIピラティスをベースにした質の高い指導。グループ体験1,000円で気軽に試せます。体験当日入会で入会金無料。' },
-      { author: 'A.N', rating: 4, date: '3週間前', text: 'インストラクターが丁寧で体の変化を実感。男性もOKなので夫婦で通っています。オンラインレッスンも充実。' },
-    ],
+    image: '/images/studios/zen-place-pilates.webp', reviewCount: 156,
     price: '月4回 10,450円〜', trial: 'グループ体験 1,000円',
     features: ['日吉駅徒歩2分', '男性OK', 'マット&マシン', '全国相互利用'],
     description: 'ピラティス専門の大手スタジオ。日吉駅西口から徒歩2分の好立地。マットグループ・マシングループ・プライベートの3タイプから選べます。全国150店舗以上で相互利用可能。BASIピラティスをベースにした本格指導。',
@@ -42,13 +36,7 @@ const studios = [
   },
   {
     name: 'the SILK 日吉店',
-    image: '/images/studios/the-silk.webp',
-    rating: 4.7, reviewCount: 138,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '日吉駅西口から徒歩3分。女性専用で清潔感のある内装。音楽に合わせたリフォーマーレッスンが楽しい。手ぶらで無料体験できる！' },
-      { author: 'S.Y', rating: 5, date: '2週間前', text: 'パウダールームが充実。仕事前にレッスンを受けてそのまま出勤できます。ウェア・タオル無料貸出で荷物なしで通える。' },
-      { author: 'R.M', rating: 4, date: '3週間前', text: '初心者の割合が高いので未経験でも安心。月3回12,980円〜始められるのでお財布にも優しい。' },
-    ],
+    image: '/images/studios/the-silk.webp', reviewCount: 138,
     price: '月3回 12,980円〜', trial: '体験レッスン 無料',
     features: ['女性専用', '日吉駅徒歩3分', '手ぶら体験OK', '音楽レッスン'],
     description: '女性専用マシンピラティススタジオ。日吉駅西口から徒歩3分。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。パウダールーム完備で仕事前後の利用に便利。',
@@ -61,13 +49,7 @@ const studios = [
   },
   {
     name: 'Rintosull 日吉店',
-    image: '/images/studios/rintosull.webp',
-    rating: 4.6, reviewCount: 118,
-    reviews: [
-      { author: 'E.K', rating: 5, date: '1週間前', text: 'LAVA系列で安心。月4回8,800円〜とマシンピラティスでは破格のコスパ。無料体験で気軽に始められました。' },
-      { author: 'N.H', rating: 4, date: '2週間前', text: '女性専用で初心者が87%以上。大画面映像に合わせてレッスンが進むので分かりやすい。インストラクターの個別サポートも丁寧。' },
-      { author: 'H.M', rating: 5, date: '3週間前', text: 'プレミアムフリーフルタイム16,800円でLAVA等系列店も全国で利用可能。ヨガもピラティスも両方できて最高。' },
-    ],
+    image: '/images/studios/rintosull.webp', reviewCount: 118,
     price: '月4回 8,800円〜', trial: '体験レッスン 無料',
     features: ['LAVA系列', '女性専用', 'コスパ抜群', '初心者87%'],
     description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオ。月4回8,800円のリーズナブルな料金。大型スクリーン映像に合わせてレッスンが進み、87%以上が初心者で未経験者も安心。',
@@ -80,13 +62,7 @@ const studios = [
   },
   {
     name: 'パーソナルマシンピラティス YUZU 日吉店',
-    image: '/images/studios/yuzu-pilates.webp',
-    rating: 4.8, reviewCount: 68,
-    reviews: [
-      { author: 'T.K', rating: 5, date: '1週間前', text: '2025年3月オープンの新しいスタジオ。パーソナル専門で丁寧に体の使い方を教えてもらえます。体験500円は破格！' },
-      { author: 'M.N', rating: 5, date: '2週間前', text: '完全予約制のパーソナルなので周りを気にせずレッスンに集中できます。インストラクターが優しくて初心者でも安心。' },
-      { author: 'A.T', rating: 4, date: '3週間前', text: '日吉駅から近くて通いやすい。マンツーマンだから自分のペースで進められるのが嬉しい。' },
-    ],
+    image: '/images/studios/yuzu-pilates.webp', reviewCount: 68,
     price: 'パーソナル 1回 8,800円〜', trial: '体験レッスン 500円',
     features: ['パーソナル専門', '2025年オープン', '体験500円', '完全予約制'],
     description: '2025年3月オープンのパーソナルマシンピラティス専門スタジオ。完全予約制で1対1の丁寧な指導。体験レッスンが500円と破格で気軽に試せる。日吉駅から好アクセス。',
@@ -99,13 +75,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 日吉店',
-    image: '/images/studios/club-pilates.webp',
-    rating: 4.7, reviewCount: 102,
-    reviews: [
-      { author: 'C.S', rating: 5, date: '1週間前', text: '世界最大級のマシンピラティスブランド。15種類の器具を使った本格レッスン。無料の30分イントロクラスで気軽に体験。' },
-      { author: 'K.H', rating: 4, date: '2週間前', text: '4段階のレベル分けがあり初心者でも安心。男性も通えます。インストラクターは500時間以上の研修を受けたプロ。' },
-      { author: 'Y.K', rating: 5, date: '3週間前', text: '8つのプログラムで飽きずに続けられる。最大12名の少人数制。日吉駅からアクセス良好。' },
-    ],
+    image: '/images/studios/club-pilates.webp', reviewCount: 102,
     price: '月4回 14,190円〜', trial: '体験レッスン 無料（30分イントロクラス）',
     features: ['世界最大級', '15種類の器具', '男性OK', '4段階レベル分け'],
     description: '世界最大級のマシンピラティスブランド。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類の器具を完備。8つのプログラムと4段階のレベル分け。',

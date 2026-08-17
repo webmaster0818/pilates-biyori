@@ -23,13 +23,6 @@ const studios = [
   {
     name: 'CLUB PILATES 小倉店',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.7,
-    reviewCount: 146,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '世界最大級のブランドで15種類の器具を使った本格レッスン。最大12名のグループで1人1台マシン完備。無料の30分体験あり。' },
-      { author: 'S.T', rating: 5, date: '2週間前', text: '4段階のレベル分けで初心者でも安心。男性会員も多い。8つのプログラムで飽きずに続けられる。' },
-      { author: 'R.N', rating: 4, date: '3週間前', text: 'インストラクター全員が500時間以上の研修を受けた資格保持者。北九州で本格マシンピラティスが受けられるのは嬉しい。' },
-    ],
     price: '月4回 14,190円〜',
     trial: '体験レッスン 無料（30分）',
     features: ['世界最大級', '15種類の器具', '男性OK', '4段階レベル'],
@@ -44,13 +37,6 @@ const studios = [
   {
     name: 'Rintosull 小倉店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.6,
-    reviewCount: 116,
-    reviews: [
-      { author: 'K.N', rating: 5, date: '1週間前', text: 'LAVA系列で安心。月4回8,800円とマシンピラティスでは破格の安さ。大型スクリーンを使ったレッスンが分かりやすい。' },
-      { author: 'Y.M', rating: 4, date: '2週間前', text: '無料体験で気軽に始められた。女性専用で初心者87%以上。豊富なプログラムが目的に合わせて選べる。' },
-      { author: 'A.S', rating: 5, date: '3週間前', text: 'プレミアムフリーフルタイムでLAVA等系列のヨガスタジオも全国で利用可能。コスパ最強。' },
-    ],
     price: '月4回 8,800円〜',
     trial: '体験レッスン 無料',
     features: ['LAVA系列', '女性専用', 'コスパ抜群', '大型スクリーン'],
@@ -65,13 +51,6 @@ const studios = [
   {
     name: 'pilates K イオンモール八幡東店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.5,
-    reviewCount: 82,
-    reviews: [
-      { author: 'M.T', rating: 5, date: '1週間前', text: 'イオンモール内で買い物ついでに通えて便利。女性専用で安心。音楽に合わせたレッスンが楽しい。' },
-      { author: 'H.K', rating: 4, date: '2週間前', text: '30歳からのボディメイクがコンセプト。脚・お尻・二の腕など部位別プログラムが充実。' },
-      { author: 'S.N', rating: 5, date: '3週間前', text: '1人1台リフォーマー完備。グループでも効果的にトレーニングできる。駐車場無料なのも嬉しい。' },
-    ],
     price: '月4回 13,420円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'イオンモール内', '駐車場無料', '部位別プログラム'],
@@ -86,13 +65,6 @@ const studios = [
   {
     name: 'スターピラティス 小倉駅前スタジオ',
     image: '/images/studios/star-pilates-kokura.webp',
-    rating: 4.7,
-    reviewCount: 9,
-    reviews: [
-      { author: 'E.M', rating: 5, date: '1週間前', text: '小倉駅直結でアクセス抜群！サウナと個室シャワーも完備。雨の日でも快適に通える。月額5,500円〜とリーズナブル。' },
-      { author: 'N.K', rating: 5, date: '2週間前', text: '女性専用のマシンピラティス。リフォーマーを使った本格的なグループレッスン。初心者でも丁寧に教えてもらえる。' },
-      { author: 'H.Y', rating: 4, date: '3週間前', text: '北九州エリアでサウナ付きのピラティススタジオは珍しい。レッスン後にサウナでリラックスできるのが嬉しい。' },
-    ],
     price: '月額 5,500円〜',
     trial: '体験レッスンあり',
     features: ['小倉駅直結', 'サウナ完備', '女性専用', '個室シャワー'],
@@ -107,13 +79,6 @@ const studios = [
   {
     name: 'ピラティススタジオDEP 小倉店',
     image: '/images/studios/dep-kokura.webp',
-    rating: 4.9,
-    reviewCount: 35,
-    reviews: [
-      { author: 'T.S', rating: 5, date: '1週間前', text: '理学療法士や作業療法士がインストラクター。身体の専門家による指導で安心感が違う。' },
-      { author: 'K.M', rating: 5, date: '2週間前', text: '完全マンツーマンのパーソナルレッスン。自分の身体の悩みに合わせたオーダーメイドプログラム。' },
-      { author: 'Y.H', rating: 5, date: '3週間前', text: '姿勢改善や腰痛対策に効果的。医療系資格者ならではの的確なアドバイスが魅力。' },
-    ],
     price: '1回 8,800円〜',
     trial: '体験レッスン 5,500円',
     features: ['理学療法士在籍', '完全パーソナル', 'オーダーメイド', '医療系資格者'],
@@ -128,13 +93,6 @@ const studios = [
   {
     name: 'Heart&Body Studio Lead',
     image: '/images/studios/studio-lead-kokura.webp',
-    rating: 4.6,
-    reviewCount: 23,
-    reviews: [
-      { author: 'A.K', rating: 5, date: '1週間前', text: '小倉南区にあるヨガ・ピラティス・シルクサスペンションのスタジオ。少人数制で多彩なプログラム。' },
-      { author: 'Y.N', rating: 4, date: '2週間前', text: 'シルクサスペンションが体験できるのは珍しい。ピラティスとヨガの両方が楽しめる。' },
-      { author: 'M.H', rating: 5, date: '3週間前', text: 'アットホームな雰囲気で通いやすい。インストラクターが丁寧で初心者でも安心。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ['少人数制', 'シルクサスペンション', 'ヨガ&ピラティス', '小倉南区'],

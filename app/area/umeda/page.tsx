@@ -27,28 +27,6 @@ const studios = [
     name: 'zen place pilates 梅田スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 29,
-    reviews: [
-      {
-        author: 'Y.K',
-        rating: 5,
-        date: '2週間前',
-        text: '梅田駅から徒歩3分で通いやすいです。大阪最大のターミナル駅で、JR・阪急・阪神・地下鉄全て使えます。グランフロントや阪急百貨店も近くて、レッスン後のショッピングも楽しめます。',
-      },
-      {
-        author: 'M.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '少人数制なので丁寧に見てもらえます。マシンの種類も豊富で、自分のレベルに合わせて進められます。キタの中心で、オフィス・商業の一大拠点です。',
-      },
-      {
-        author: 'S.H',
-        rating: 4,
-        date: '3週間前',
-        text: '全国展開しているので出張先でも通えます。梅田は大阪の玄関口で、いつも活気がある街です。',
-      },
-    ],
     price: '月4回 13,200円〜',
     trial: '体験レッスン 1,000円',
     features: ['マシン完備', '初心者歓迎', '梅田駅徒歩3分', 'インストラクター養成'],
@@ -80,28 +58,6 @@ const studios = [
   {
     name: 'WECLE 梅田',
     image: '/images/studios/wecle-pilates.webp',
-    rating: 4.7,
-    reviewCount: 55,
-    reviews: [
-      {
-        author: 'K.N',
-        rating: 5,
-        date: '1週間前',
-        text: 'AI姿勢分析が面白い！自分の体の癖が数値で分かるので改善しやすいです。梅田駅から近くて、グランフロントでの買い物ついでに通えます。',
-      },
-      {
-        author: 'R.H',
-        rating: 4,
-        date: '2週間前',
-        text: '女性専用なので気兼ねなく通えます。マシンが新しくて使いやすい。体験が500円なので気軽に始められました。',
-      },
-      {
-        author: 'A.M',
-        rating: 5,
-        date: '3週間前',
-        text: '科学的なアプローチで効果が実感できます。梅田はキタの中心で、オフィス街なので仕事帰りに通いやすいです。',
-      },
-    ],
     price: '月4回 14,800円〜',
     trial: '体験レッスン 500円',
     features: ['AI姿勢分析', '最新マシン', '梅田駅近', '女性専用'],
@@ -133,28 +89,6 @@ const studios = [
   {
     name: 'ピラティスK 梅田',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.6,
-    reviewCount: 165,
-    reviews: [
-      {
-        author: 'H.W',
-        rating: 5,
-        date: '5日前',
-        text: '暗闇×音楽で楽しく続けられます！梅田でリフレッシュできるのが嬉しい。無料体験があって始めやすかったです。',
-      },
-      {
-        author: 'T.I',
-        rating: 4,
-        date: '1週間前',
-        text: '音楽に合わせて動くので飽きない。女性専用で周りを気にせず集中できます。インストラクターが明るくて楽しい雰囲気。',
-      },
-      {
-        author: 'N.N',
-        rating: 5,
-        date: '2週間前',
-        text: 'グループレッスンですが丁寧に見てくれます。暗闇なので初心者でも恥ずかしくない。2ヶ月で体が引き締まってきました。',
-      },
-    ],
     price: '月4回 15,070円〜',
     trial: '無料体験レッスン',
     features: ['音楽×マシン', '女性専用', '暗闇レッスン', 'グループレッスン'],
@@ -186,7 +120,6 @@ const studios = [
   {
     name: 'the SILK 梅田',
     image: '/images/studios/the-silk.webp',
-    rating: 4.8,
     price: '月4回 15,070円〜',
     trial: '体験レッスン 無料',
     features: ['暗闇マシン', '音楽', '梅田駅近', '女性専用'],
@@ -196,7 +129,6 @@ const studios = [
   {
     name: 'CLUB PILATES 梅田',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.7,
     price: '月4回 14,190円〜',
     trial: '体験レッスン 無料',
     features: ['アメリカ発', 'グループ&プライベート', '梅田駅近', '初心者歓迎'],
@@ -206,7 +138,6 @@ const studios = [
   {
     name: 'BDC PILATES 梅田',
     image: '/images/studios/bdc-pilates.webp',
-    rating: 4.7,
     price: '1回 3,850円〜',
     trial: '体験レッスン 2,200円',
     features: ['ダンサー御用達', 'グループレッスン', '梅田駅近', '本格的'],

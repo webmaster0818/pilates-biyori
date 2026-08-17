@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates 福岡天神',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.2,
-    reviewCount: 21,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '2週間前',
-        text: '天神駅から近くて仕事帰りに通いやすいです。マットもマシンも選べるので、気分や体調に合わせてレッスンを変えられるのが嬉しい。全国展開なので出張先でも通えます。',
-      },
-      {
-        author: 'Y.H',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '福岡県で2スタジオ目ということで期待して入会しました。インストラクターの質が高く、初心者でも丁寧に指導してもらえます。西鉄福岡駅からも歩ける距離です。',
-      },
-      {
-        author: 'S.T',
-        rating: 4,
-        date: '3週間前',
-        text: 'リフォーマーグループが人気でなかなか予約が取れないこともありますが、レッスン自体は大満足。地下鉄空港線で通えるのも便利です。',
-      },
-    ],
     price: '月4回 9,625円〜',
     trial: '体験レッスン あり',
     features: ['全国150店舗', 'マット＆マシン', '男性OK', '福岡県2スタジオ目'],
@@ -77,28 +55,6 @@ const studios = [
   {
     name: 'ピラティスラボ 福岡（薬院）',
     image: '/images/studios/pilates-lab-fukuoka.webp',
-    rating: 4.1,
-    reviewCount: 30,
-    reviews: [
-      {
-        author: 'A.N',
-        rating: 5,
-        date: '1週間前',
-        text: '少人数制なので一人ひとりしっかり見てもらえます。薬院駅から近くて、西鉄沿線の方には特に通いやすいです。マシンも最大6名なので安心。',
-      },
-      {
-        author: 'K.S',
-        rating: 4,
-        date: '2週間前',
-        text: '東京の代官山にもあるスタジオと聞いて体験しました。少人数だから質問もしやすく、自分のペースで進められます。天神からも歩ける距離です。',
-      },
-      {
-        author: 'R.O',
-        rating: 4,
-        date: '1ヶ月前',
-        text: 'マット最大8名、マシン最大6名の少人数制がとても良いです。インストラクターの目が行き届いているので、フォームの修正もすぐにしてもらえます。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['薬院', '少人数制', 'マット＆マシン', '東京代官山・南青山にも展開'],
@@ -129,28 +85,6 @@ const studios = [
   {
     name: 'ピラティススタジオ エアー（今泉）',
     image: '/images/studios/pilates-air-fukuoka.webp',
-    rating: 4.0,
-    reviewCount: 24,
-    reviews: [
-      {
-        author: 'H.M',
-        rating: 5,
-        date: '10日前',
-        text: '天神の今泉エリアにあるので買い物ついでに通えます。マンツーマンなので自分の悩みに合わせたレッスンが受けられて、姿勢が目に見えて変わりました。',
-      },
-      {
-        author: 'T.Y',
-        rating: 4,
-        date: '3週間前',
-        text: '20代後半から通い始めました。麗なライン作りというコンセプトが気に入っています。西鉄福岡駅から歩いて行ける距離です。',
-      },
-      {
-        author: 'N.I',
-        rating: 4,
-        date: '1ヶ月前',
-        text: 'マンツーマンなので人目を気にせずレッスンに集中できます。インストラクターが丁寧に姿勢を見てくれるので、効果を実感しやすいです。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['今泉', 'マンツーマン', '20-40代向け', '麗なライン作り'],
@@ -181,28 +115,6 @@ const studios = [
   {
     name: 'PILATES JAPAN（大名）',
     image: '/images/studios/pilates-japan-daimyo.webp',
-    rating: 4.2,
-    reviewCount: 19,
-    reviews: [
-      {
-        author: 'E.K',
-        rating: 5,
-        date: '1週間前',
-        text: '福岡大名の老舗スタジオ。セミプライベートなので少人数で丁寧に教えてもらえます。天神駅から歩ける距離で、キャナルシティ博多にも近いです。',
-      },
-      {
-        author: 'C.W',
-        rating: 4,
-        date: '2週間前',
-        text: '長年の実績があるスタジオだけあって、インストラクターの質が高い。マシン専門なので本格的にピラティスを学びたい方におすすめです。',
-      },
-      {
-        author: 'F.U',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '地下鉄空港線の天神駅から徒歩圏内。セミプライベートなのでグループより丁寧に見てもらえて、パーソナルよりお手頃です。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['福岡大名', '老舗', 'セミプライベート', 'マシン専門'],
@@ -233,28 +145,6 @@ const studios = [
   {
     name: 'kuon ピラティススタジオ（六本松・桜坂）',
     image: '/images/studios/kuon-pilates-fukuoka.webp',
-    rating: 4.0,
-    reviewCount: 6,
-    reviews: [
-      {
-        author: 'J.A',
-        rating: 5,
-        date: '5日前',
-        text: '六本松駅から近くて通いやすい。予約制なので待ち時間もなく、落ち着いた環境でレッスンを受けられます。地下鉄七隈線沿線の方に特におすすめ。',
-      },
-      {
-        author: 'D.M',
-        rating: 4,
-        date: '2週間前',
-        text: 'グループとパーソナルの両方があるので、その日の気分で選べます。マシンピラティス専門なので設備がしっかりしています。',
-      },
-      {
-        author: 'L.S',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '桜坂の静かな環境で集中してレッスンできます。予約制なので混雑もなく、自分のペースで通えるのが気に入っています。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['六本松・桜坂', '予約制', 'グループ＆パーソナル', 'マシン専門'],
@@ -285,28 +175,6 @@ const studios = [
   {
     name: 'STUDIO IVY 福岡大橋店',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.1,
-    reviewCount: 9,
-    reviews: [
-      {
-        author: 'P.N',
-        rating: 5,
-        date: '1週間前',
-        text: '完全プライベート制なので人目を気にせずレッスンに集中できます。西鉄大橋駅から近くて、西鉄沿線で通いやすいのもポイントです。',
-      },
-      {
-        author: 'G.T',
-        rating: 4,
-        date: '3週間前',
-        text: 'パーソナルでマシンピラティスを受けられるのが嬉しい。インストラクターが自分の体の癖をしっかり見てくれて、効果的なトレーニングを提案してくれます。',
-      },
-      {
-        author: 'B.H',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '博多駅方面からも西鉄で通えます。完全1対1なので初心者でも恥ずかしくない。自分だけの時間に集中できる環境が気に入っています。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['福岡大橋', 'パーソナル専門', '完全プライベート', '人目を気にせず'],
@@ -337,28 +205,6 @@ const studios = [
   {
     name: 'スタジオKANON（大濠）',
     image: '/images/studios/studio-kanon-ohori.webp',
-    rating: 4.0,
-    reviewCount: 15,
-    reviews: [
-      {
-        author: 'W.K',
-        rating: 5,
-        date: '10日前',
-        text: '大濠公園のすぐ近くにあるアットホームなスタジオ。ピラティスもヨガも両方できるのが嬉しいです。地下鉄空港線の大濠公園駅から近くて便利。',
-      },
-      {
-        author: 'V.S',
-        rating: 4,
-        date: '2週間前',
-        text: 'ヨガとピラティスを両方楽しめるのが魅力。少人数で和やかな雰囲気なので、初めてでもリラックスして参加できました。',
-      },
-      {
-        author: 'U.O',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '大手門エリアにあり、天神からもバスで通えます。アットホームな雰囲気で先生との距離が近く、質問しやすい環境です。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['大濠', 'ピラティス＆ヨガ', '大手門', 'アットホーム'],
@@ -389,28 +235,6 @@ const studios = [
   {
     name: 'La pilates 福岡店',
     image: '/images/studios/la-pilates.webp',
-    rating: 4.2,
-    reviewCount: 20,
-    reviews: [
-      {
-        author: 'I.F',
-        rating: 5,
-        date: '5日前',
-        text: '赤坂駅から徒歩3分で通いやすい！整体とマシンピラティスの組み合わせは他にないアプローチ。女性専用なので安心して通えます。天神駅からも歩ける距離です。',
-      },
-      {
-        author: 'O.R',
-        rating: 4,
-        date: '2週間前',
-        text: '身体の歪みを整えてからピラティスをするので、効果を感じやすいです。博多駅方面からも地下鉄空港線で赤坂まで一本で来られます。',
-      },
-      {
-        author: 'Q.L',
-        rating: 5,
-        date: '3週間前',
-        text: '整体×マシンピラティスという独自メソッドが効果的。サブスクプランなので月々の予算が立てやすいのも魅力。キャナルシティ帰りに通うこともあります。',
-      },
-    ],
     price: 'サブスク月1回 12,000円〜',
     trial: '体験レッスン 3,000円',
     features: ['整体×マシンピラティス', '赤坂駅徒歩3分', '女性専用', '天神駅徒歩7分'],

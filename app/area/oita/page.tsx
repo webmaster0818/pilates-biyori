@@ -21,13 +21,6 @@ const studios = [
   {
     name: 'pilates K トキハ大分店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.5,
-    reviewCount: 68,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'トキハ内で買い物ついでに通える。女性専用で音楽に合わせたレッスンが楽しい。' },
-      { author: 'K.T', rating: 4, date: '2週間前', text: '部位別プログラムが充実。お尻や二の腕など気になるパーツに集中できる。' },
-      { author: 'Y.N', rating: 5, date: '3週間前', text: '1人1台リフォーマー完備。グループでも効果的にトレーニングできる。' },
-    ],
     price: '月4回 13,420円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'トキハ内', '部位別プログラム', '1人1台マシン'],
@@ -42,13 +35,6 @@ const studios = [
   {
     name: 'Reed Green',
     image: '/images/studios/reed-green-oita.webp',
-    rating: 4.8,
-    reviewCount: 32,
-    reviews: [
-      { author: 'A.M', rating: 5, date: '1週間前', text: 'トレーナー全員が理学療法士の資格保持者。身体の専門家による指導で安心感が違う。' },
-      { author: 'S.K', rating: 5, date: '2週間前', text: '大分駅から徒歩9分でアクセス良好。個別の身体評価に基づいたオーダーメイドプログラム。' },
-      { author: 'H.T', rating: 4, date: '3週間前', text: '姿勢改善や腰痛対策に効果的。医療系資格者ならではの的確なアドバイスが魅力。' },
-    ],
     price: '1回 8,000円〜',
     trial: '体験レッスンあり',
     features: ['理学療法士在籍', 'パーソナル', '大分駅徒歩9分', 'オーダーメイド'],
@@ -63,13 +49,6 @@ const studios = [
   {
     name: 'Kyoumo Pilates',
     image: '/images/studios/kyoumo-pilates-oita.webp',
-    rating: 4.7,
-    reviewCount: 18,
-    reviews: [
-      { author: 'R.M', rating: 5, date: '1週間前', text: 'マット×マシンの組み合わせレッスンが効率的。一人ひとりに寄り添ったプライベートレッスン。' },
-      { author: 'N.S', rating: 5, date: '2週間前', text: '姿勢改善に特化したプログラムが魅力。丁寧なカウンセリングから始まるので安心。' },
-      { author: 'T.K', rating: 4, date: '3週間前', text: 'アットホームな雰囲気で通いやすい。毎回身体の変化を感じられる。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ['プライベート', 'マット×マシン', '姿勢改善特化', 'カウンセリング'],
@@ -84,13 +63,6 @@ const studios = [
   {
     name: 'Ciieliante（シエリアンテ）',
     image: '/images/studios/ciieliante-oita.webp',
-    rating: 4.8,
-    reviewCount: 15,
-    reviews: [
-      { author: 'K.Y', rating: 5, date: '1週間前', text: '理学療法士が運営。ピラティス×理学療法×分子栄養学の独自メソッドで不調を根本改善。' },
-      { author: 'M.H', rating: 5, date: '2週間前', text: '2025年1月オープンの新しいスタジオ。設備がきれいで清潔感がある。' },
-      { author: 'A.T', rating: 4, date: '3週間前', text: '栄養面からもアドバイスがもらえるのが他にない特徴。トータルケアが魅力。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ['理学療法士運営', '分子栄養学', '2025年オープン', 'トータルケア'],
@@ -105,13 +77,6 @@ const studios = [
   {
     name: 'seuse（セウス）',
     image: '/images/studios/seuse-oita.webp',
-    rating: 4.6,
-    reviewCount: 42,
-    reviews: [
-      { author: 'E.S', rating: 5, date: '1週間前', text: 'トレーナー・治療家・理学療法士・管理栄養士が在籍。多角的なサポートが魅力。' },
-      { author: 'Y.M', rating: 4, date: '2週間前', text: 'ピラティスとヨガの両方が受けられる。気分や体調に合わせてレッスンを選べる。' },
-      { author: 'R.K', rating: 5, date: '3週間前', text: '一流のスタッフ陣。身体の悩みに対して的確なアドバイスがもらえる。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ['多職種スタッフ', 'ピラティス&ヨガ', '管理栄養士在籍', 'トータルサポート'],

@@ -27,28 +27,6 @@ const studios = [
     name: 'zen place pilates 八重洲スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 35,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '日本橋駅から徒歩3分で通いやすいです。銀座線・東西線・浅草線と複数路線使えるのでどこからでもアクセスしやすい。マットもマシンも両方受けられるのが嬉しいです。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '少人数制なので丁寧に見てもらえます。AIによる背骨ムーブメント解析が面白く、デスクワークの癖が分かりました。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: '全国展開しているので出張先でも通えるのが便利。日本橋の落ち着いた雰囲気のなかで集中してレッスンを受けられます。',
-      },
-    ],
     price: 'マットグループ 月4回 10,450円〜',
     trial: '体験レッスン 500円〜',
     features: ['マット&マシン', '初心者歓迎', '日本橋駅徒歩3分', '男性OK'],
@@ -80,28 +58,6 @@ const studios = [
   {
     name: 'Beat Pilates 日本橋小伝馬町店',
     image: '/images/studios/beat-pilates-nihonbashi.webp',
-    rating: 4.7,
-    reviewCount: 19,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: '暗闇×音楽のマシンピラティスが最高に楽しい！女性専用なので周りを気にせず集中できます。小伝馬町駅からすぐ。',
-      },
-      {
-        author: 'A.H',
-        rating: 5,
-        date: '2週間前',
-        text: '月3回9,600円からというリーズナブルな料金が嬉しい。暗闇なので初心者でも恥ずかしくないです。',
-      },
-      {
-        author: 'M.M',
-        rating: 4,
-        date: '3週間前',
-        text: '音楽に合わせて動くので飽きない。体験1,500円で気軽に始められました。2ヶ月で体が引き締まってきた実感があります。',
-      },
-    ],
     price: '月3回 9,600円〜',
     trial: '体験レッスン 1,500円（キャンペーン価格）',
     features: ['暗闇×音楽', '女性専用', '小伝馬町駅徒歩4分', 'マシンピラティス専門'],
@@ -134,28 +90,6 @@ const studios = [
   {
     name: 'マシンピラティス ウィング 東京日本橋',
     image: '/images/studios/wing-pilates-nihonbashi.webp',
-    rating: 4.9,
-    reviewCount: 20,
-    reviews: [
-      {
-        author: 'T.W',
-        rating: 5,
-        date: '5日前',
-        text: '完全個室のパーソナルなので、自分だけのオーダーメイドレッスンが受けられます。インストラクターの知識が豊富で信頼できます。',
-      },
-      {
-        author: 'H.I',
-        rating: 5,
-        date: '1週間前',
-        text: '姿勢改善に特化しているだけあって、3ヶ月で周りから「姿勢が良くなった」と言われるようになりました。',
-      },
-      {
-        author: 'S.N',
-        rating: 5,
-        date: '2週間前',
-        text: '世界最高峰のマシンを使ったレッスン。国際ライセンス保持のインストラクターなので安心感があります。',
-      },
-    ],
     price: 'お問い合わせください',
     trial: '体験レッスンあり',
     features: ['完全個室', 'パーソナル専門', '三越前駅徒歩6分', '姿勢改善特化'],
@@ -185,7 +119,6 @@ const studios = [
   {
     name: 'the SILK 東京八重洲店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.7,
     price: 'Standard4 12,980円〜',
     trial: '体験レッスン（グループ）3,850円',
     features: ['女性専用', 'マシンピラティス専門', '東京駅徒歩3分', '音楽×マシン'],
@@ -196,7 +129,6 @@ const studios = [
   {
     name: 'ピラティスK 銀座店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
     price: 'マンスリー4メンバー 13,420円',
     trial: '体験レッスン 2,000円',
     features: ['女性専用', 'マシンピラティス専門', '銀座一丁目駅徒歩1分', 'グループレッスン'],

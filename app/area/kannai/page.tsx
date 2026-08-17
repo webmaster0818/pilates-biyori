@@ -26,28 +26,6 @@ const studios = [
   {
     name: 'アーバンクラシックピラティス 関内店',
     image: '/images/studios/urban-classic-pilates.webp',
-    rating: 4.6,
-    reviewCount: 14,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '1週間前',
-        text: '関内駅から徒歩1分、マリナード地下街内でアクセス抜群！マシンピラティスとファンクショナルトレーニングを組み合わせたサーキット形式で30分完結。',
-      },
-      {
-        author: 'S.T',
-        rating: 4,
-        date: '2週間前',
-        text: '予約不要で通い放題。仕事帰りにそのまま立ち寄れるのが便利。短時間で全身効率よく鍛えられます。',
-      },
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '3週間前',
-        text: '月4回から通い放題まで選べるプランが嬉しい。初心者でもマシンの使い方を丁寧に教えてもらえます。',
-      },
-    ],
     price: '月4回 9,680円〜',
     trial: '体験レッスンあり',
     features: ['関内駅徒歩1分', 'サーキット形式', '30分完結', '予約不要'],
@@ -80,28 +58,6 @@ const studios = [
     name: 'zen place pilates 横浜元町スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 18,
-    reviews: [
-      {
-        author: 'K.N',
-        rating: 5,
-        date: '1週間前',
-        text: '関内駅からも徒歩圏内。マットもマシンも両方受けられるのが魅力。全国150店舗以上で他店利用可能。男性もOK。',
-      },
-      {
-        author: 'Y.M',
-        rating: 4,
-        date: '2週間前',
-        text: 'グループ体験1,000円で気軽に試せました。ピラティス専門で20年以上の実績があり安心。元町の落ち着いた雰囲気で集中できます。',
-      },
-      {
-        author: 'A.S',
-        rating: 5,
-        date: '3週間前',
-        text: 'インストラクターの質が高く体の変化を早く実感。体験当日入会で入会金無料になるキャンペーンも。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['元町エリア', '男性OK', 'マット&マシン', '全国相互利用'],
@@ -133,28 +89,6 @@ const studios = [
   {
     name: 'マシンピラティスあるく 関内・馬車道店',
     image: '/images/studios/aruku-kannai.webp',
-    rating: 4.8,
-    reviewCount: 15,
-    reviews: [
-      {
-        author: 'E.M',
-        rating: 5,
-        date: '1週間前',
-        text: '理学療法士によるパーソナルレッスン。1500名以上のリハビリ実績がある先生が、一人ひとりに合わせたメニューを組んでくれます。完全プライベート空間で安心。',
-      },
-      {
-        author: 'N.K',
-        rating: 5,
-        date: '2週間前',
-        text: '馬車道駅から徒歩5分。女性専用で清潔感のあるスタジオ。体の痛みや不調がある方にもおすすめ。医学的な知識に基づいた指導。',
-      },
-      {
-        author: 'H.Y',
-        rating: 4,
-        date: '3週間前',
-        text: '日本大通り駅からも徒歩5分。パーソナル専門なのでしっかり見てもらえる。運動が苦手な方にも丁寧に指導。',
-      },
-    ],
     price: 'パーソナル（要問合せ）',
     trial: '体験レッスンあり',
     features: ['理学療法士', '女性専用', '完全プライベート', '馬車道徒歩5分'],
@@ -186,28 +120,6 @@ const studios = [
   {
     name: 'Cachette（カシェット）関内',
     image: '/images/studios/cachette-kannai.webp',
-    rating: 4.7,
-    reviewCount: 20,
-    reviews: [
-      {
-        author: 'C.S',
-        rating: 5,
-        date: '1週間前',
-        text: '関内駅から徒歩5分の女性専用パーソナルスタジオ。カウンセリングに基づいた丁寧なレッスンで、自分の体に合ったプログラムが受けられます。',
-      },
-      {
-        author: 'T.M',
-        rating: 5,
-        date: '2週間前',
-        text: 'トリガーポイントやピラティスリングなど様々な道具を使ったレッスンが面白い。体の変化を早く実感できました。',
-      },
-      {
-        author: 'A.K',
-        rating: 4,
-        date: '3週間前',
-        text: 'パーソナル専門なので周りを気にせず集中できる。おしゃれなスタジオで通うのが楽しみ。',
-      },
-    ],
     price: 'パーソナル 1回 8,800円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', '関内駅徒歩5分', 'パーソナル専門', 'カウンセリング充実'],
@@ -239,28 +151,6 @@ const studios = [
   {
     name: 'スタジオ・ヨギー 横浜',
     image: '/images/studios/studio-yoggy.webp',
-    rating: 4.5,
-    reviewCount: 30,
-    reviews: [
-      {
-        author: 'Y.N',
-        rating: 5,
-        date: '1週間前',
-        text: '横浜駅近くで関内からもアクセス可能。ヨガ・ピラティス・ビューティペルヴィスの30以上のクラスが受けられる。大手なので安心感がある。',
-      },
-      {
-        author: 'M.H',
-        rating: 4,
-        date: '2週間前',
-        text: 'マットピラティスが中心だが、ヨガとの組み合わせで柔軟性と体幹を同時に鍛えられるのが魅力。月額制で通い放題。',
-      },
-      {
-        author: 'K.T',
-        rating: 5,
-        date: '3週間前',
-        text: 'インストラクター養成スクールも運営しているので指導の質が高い。初心者向けクラスが充実していて安心。',
-      },
-    ],
     price: '月額 11,000円〜',
     trial: '体験レッスンあり',
     features: ['ヨガ&ピラティス', '30以上のクラス', '横浜駅近く', '月額通い放題'],

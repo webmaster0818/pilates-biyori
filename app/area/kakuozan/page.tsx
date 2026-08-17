@@ -20,11 +20,6 @@ export const metadata = {
 const studios = [
   {
     name: 'Pilates Plus Kakuozan', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 25,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '28歳以上の女性に特化したマシンピラティススタジオ。最大5名の少人数制グループレッスン。デイタイム限定なら月2。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月2回 7,800円〜', trial: '体験レッスンあり', features: ['28歳以上女性限定','少人数制5名','覚王山駅徒歩6分','デイタイム割引'],
     description: '28歳以上の女性に特化したマシンピラティススタジオ。最大5名の少人数制グループレッスン。デイタイム限定なら月2回7,800円〜',
     access: '東山線「覚王山駅」3番出口 徒歩6分', address: '名古屋市千種区覚王山',
@@ -35,11 +30,6 @@ const studios = [
   },
   {
     name: 'ATLAS pilates&yoga studio', image: '/images/studios/zen-place-pilates.webp', rating: 4.6, reviewCount: 18,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '覚王山駅より徒歩1分の女性専用スタジオ。肩こりや腰痛の緩和・自律神経の調整に合わせた丁寧な指導。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['覚王山駅徒歩1分','女性専用','肩こり・腰痛対応','自律神経調整'],
     description: '覚王山駅より徒歩1分の女性専用スタジオ。肩こりや腰痛の緩和・自律神経の調整に合わせた丁寧な指導',
     access: '東山線「覚王山駅」徒歩1分', address: '名古屋市千種区覚王山',
@@ -50,11 +40,6 @@ const studios = [
   },
   {
     name: 'POLARIS Beauty', image: '/images/studios/zen-place-pilates.webp', rating: 4.5, reviewCount: 15,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '身体と呼吸を整えるヨガとピラティスの両方が選べるスタジオ。医療従事者監修のメニューで心身をケア。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['ヨガ＆ピラティス','医療従事者監修','覚王山エリア','心身ケア'],
     description: '身体と呼吸を整えるヨガとピラティスの両方が選べるスタジオ。医療従事者監修のメニューで心身をケア',
     access: '覚王山エリア', address: '名古屋市千種区覚王山',
@@ -65,11 +50,6 @@ const studios = [
   },
   {
     name: 'Pilates Nag Studio 星が丘テラス店', image: '/images/studios/zen-place-pilates.webp', rating: 4.5, reviewCount: 45,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '東海エリア初のマシンピラティスグループレッスン専門スタジオ。覚王山から東山線1駅の星が丘テラス内。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['東海エリア初','全店相互利用','マシングループ専門','男女共用'],
     description: '東海エリア初のマシンピラティスグループレッスン専門スタジオ。覚王山から東山線1駅の星が丘テラス内',
     access: '東山線「星ヶ丘駅」直結（星が丘テラス内）', address: '名古屋市千種区 星が丘テラス内',
@@ -81,11 +61,6 @@ const studios = [
   {
     name: 'zen place pilates 名古屋', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 30,
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'ピラティス専門大手スタジオ。覚王山エリアからもアクセスしやすい名古屋市内店舗。全国150店舗以上で他店利用可能。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 10,450円〜', trial: 'グループ体験 1,000円', features: ['大手の安心感','全国相互利用','男性OK','マット＆マシン'],
     description: 'ピラティス専門大手スタジオ。覚王山エリアからもアクセスしやすい名古屋市内店舗。全国150店舗以上で相互利用可能',
     access: '名古屋市内（詳細は公式サイトでご確認ください）', address: '名古屋市（詳細は公式サイトでご確認ください）',

@@ -25,28 +25,6 @@ const studios = [
     name: 'zen place pilates 新橋（銀座近隣）',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 12,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: '新橋からも通いやすい立地です。マットもマシンも両方受けられるのが嬉しい。仕事帰りに通っています。',
-      },
-      {
-        author: 'A.H',
-        rating: 4,
-        date: '2週間前',
-        text: '少人数制なので丁寧に指導してもらえます。男性もOKなので夫婦で通えるのが良い。',
-      },
-      {
-        author: 'M.M',
-        rating: 5,
-        date: '3週間前',
-        text: '全国140スタジオで相互利用できるのが便利。出張先でも別店舗が利用できます。',
-      },
-    ],
     price: 'マットグループ 月4回 9,625円〜',
     trial: '体験レッスン 500円〜',
     features: ['マット&マシン', '全国140スタジオ相互利用', '男性OK', '初心者歓迎'],
@@ -78,28 +56,6 @@ const studios = [
   {
     name: 'the SILK 新橋（近隣）',
     image: '/images/studios/the-silk.webp',
-    rating: 4.8,
-    reviewCount: 249,
-    reviews: [
-      {
-        author: 'T.W',
-        rating: 5,
-        date: '5日前',
-        text: '新橋からも歩ける距離です。女性専用で安心。スタジオがとてもおしゃれでモチベーションが上がります。',
-      },
-      {
-        author: 'H.I',
-        rating: 5,
-        date: '1週間前',
-        text: '音楽に合わせたレッスンが楽しい！他のスタジオにはない独自の雰囲気があります。',
-      },
-      {
-        author: 'S.N',
-        rating: 4,
-        date: '2週間前',
-        text: 'リフォーマーマシンを使ったレッスンで効果を実感。仕事帰りに体を動かすのが日課になりました。',
-      },
-    ],
     price: '月4回 12,980円〜',
     trial: '体験レッスン実施中',
     features: ['女性専用', 'マシンピラティス専門', '音楽×ピラティス', 'おしゃれ空間'],
@@ -131,28 +87,6 @@ const studios = [
   {
     name: 'ピラティスK 新橋（銀座近隣）',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 202,
-    reviews: [
-      {
-        author: 'K.M',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用なので安心して通えます。マシングループレッスンの雰囲気が良く、モチベーションが続きます。',
-      },
-      {
-        author: 'Y.S',
-        rating: 4,
-        date: '2週間前',
-        text: '月4回 11,220円〜はマシンピラティスとしてはかなりコスパが良い。初心者にも丁寧に教えてくれます。',
-      },
-      {
-        author: 'A.T',
-        rating: 5,
-        date: '3週間前',
-        text: '新橋から銀座エリアへのアクセスも良く、仕事帰りに通いやすいです。',
-      },
-    ],
     price: '月4回 11,220円〜',
     trial: '体験レッスン実施中',
     features: ['女性専用', 'マシングループ専門', 'コスパ良好', '初心者歓迎'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'CLUB PILATES 新橋（近隣）',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.7,
-    reviewCount: 140,
-    reviews: [
-      {
-        author: 'D.K',
-        rating: 5,
-        date: '1週間前',
-        text: '最大12名のグループレッスンで、少人数すぎず適度な活気があります。インストラクターの質が高い。',
-      },
-      {
-        author: 'M.T',
-        rating: 4,
-        date: '2週間前',
-        text: '世界的なブランドだけあって、プログラムがしっかりしています。月4回 10,890円〜は良心的。',
-      },
-      {
-        author: 'S.Y',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '男性も通えるのが嬉しい。レベル別にクラスが分かれているので、自分のペースで上達できます。',
-      },
-    ],
     price: '月4回 10,890円〜',
     trial: '体験レッスン実施中',
     features: ['最大12名グループ', '世界的ブランド', '男性OK', 'レベル別クラス'],
@@ -235,28 +147,6 @@ const studios = [
   {
     name: 'CREA パーソナルピラティス 新橋・銀座店',
     image: '/images/studios/crea-pilates-shimbashi.webp',
-    rating: 4.9,
-    reviewCount: 23,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '新橋駅から近くて通いやすいです。パーソナルなので、自分のペースでじっくりレッスンを受けられます。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '体の悩みに合わせたオーダーメイドのレッスンが受けられます。姿勢が良くなったと周りから言われるようになりました。',
-      },
-      {
-        author: 'K.H',
-        rating: 5,
-        date: '3週間前',
-        text: '1回3,300円〜とパーソナルとしては驚きの価格。本格的なレッスンをこの値段で受けられるのはお得。',
-      },
-    ],
     price: '1回 3,300円〜',
     trial: '体験レッスン実施中',
     features: ['パーソナル専門', '1回3,300円〜', '新橋・銀座エリア', 'オーダーメイド'],
@@ -286,28 +176,6 @@ const studios = [
   {
     name: 'STUDIO IVY 新橋（近隣）',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.8,
-    reviewCount: 3,
-    reviews: [
-      {
-        author: 'N.K',
-        rating: 5,
-        date: '1週間前',
-        text: '完全個室のパーソナルなので、周りを気にせずレッスンに集中できます。インストラクターの質が非常に高い。',
-      },
-      {
-        author: 'R.M',
-        rating: 5,
-        date: '2週間前',
-        text: 'プライベート空間で受けられるのが最大の魅力。月2回 15,000円〜で無理なく通えます。',
-      },
-      {
-        author: 'E.S',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '完全個室なので、初心者でも恥ずかしさを感じず始められました。丁寧なカウンセリングも好印象。',
-      },
-    ],
     price: '月2回 15,000円〜',
     trial: '体験レッスン実施中',
     features: ['完全個室', 'パーソナル専門', '月2回から', '高品質指導'],
@@ -339,28 +207,6 @@ const studios = [
     name: 'ELEMENT 新橋（近隣）',
     officialUrl: 'https://t.felmat.net/fmcl?ak=U11199J.1.V154352I.U1357808',
     image: '/images/studios/element.webp',
-    rating: 4.7,
-    reviewCount: 16,
-    reviews: [
-      {
-        author: 'T.O',
-        rating: 5,
-        date: '1週間前',
-        text: '30分のマンツーマンレッスンなので、忙しいビジネスパーソンにぴったり。短時間でも効果を感じます。',
-      },
-      {
-        author: 'K.S',
-        rating: 4,
-        date: '2週間前',
-        text: '新橋エリアで30分のパーソナルピラティスが受けられるのは嬉しい。仕事の合間に通えます。',
-      },
-      {
-        author: 'M.H',
-        rating: 5,
-        date: '3週間前',
-        text: '月4回 22,000円でマンツーマン。短い時間で集中して取り組めるので効率的です。',
-      },
-    ],
     price: '月4回 22,000円',
     trial: '体験レッスン実施中',
     features: ['マンツーマン', '30分レッスン', '忙しい方向け', '効率的'],
@@ -391,28 +237,6 @@ const studios = [
   {
     name: 'ピラティスミラー 新橋（近隣）',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.6,
-    reviewCount: 33,
-    reviews: [
-      {
-        author: 'C.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用で安心。プライベート30分 4,400円〜はとてもリーズナブルだと思います。',
-      },
-      {
-        author: 'A.K',
-        rating: 4,
-        date: '2週間前',
-        text: '短い時間のプライベートレッスンが気軽に受けられるので、初心者にもおすすめです。',
-      },
-      {
-        author: 'Y.N',
-        rating: 5,
-        date: '3週間前',
-        text: '女性専用なので、周りの目を気にせずレッスンに集中できます。新橋エリアから通いやすいです。',
-      },
-    ],
     price: 'プライベート30分 4,400円〜',
     trial: '体験レッスン実施中',
     features: ['女性専用', 'プライベート30分', 'リーズナブル', '短時間集中'],
@@ -443,28 +267,6 @@ const studios = [
   {
     name: 'Rintosull 新橋（近隣）',
     image: '/images/studios/rintosull.webp',
-    rating: 4.6,
-    reviewCount: 78,
-    reviews: [
-      {
-        author: 'H.T',
-        rating: 5,
-        date: '1週間前',
-        text: 'LAVA系列なので安心感があります。女性専用のマシンピラティスで、ホットヨガとの相乗効果も期待できます。',
-      },
-      {
-        author: 'M.K',
-        rating: 4,
-        date: '2週間前',
-        text: 'LAVA会員なら特典もあるので、ヨガと併用している方にはおすすめです。',
-      },
-      {
-        author: 'S.A',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '女性専用で清潔感のある空間。インストラクターの指導も丁寧で通いやすいです。',
-      },
-    ],
     price: 'お問い合わせください',
     trial: '体験レッスン実施中',
     features: ['女性専用', 'マシンピラティス', 'LAVA系列', '安心の大手'],
@@ -496,28 +298,6 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 新橋（近隣）',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
-    rating: 4.5,
-    reviewCount: 108,
-    reviews: [
-      {
-        author: 'J.T',
-        rating: 5,
-        date: '1週間前',
-        text: '予約不要で30分のレッスンが受けられるのが最大の魅力。忙しい日でもふらっと立ち寄れます。',
-      },
-      {
-        author: 'R.I',
-        rating: 4,
-        date: '2週間前',
-        text: '月4回 9,680円はかなりリーズナブル。予約不要なので仕事帰りの気分で通えます。',
-      },
-      {
-        author: 'N.M',
-        rating: 5,
-        date: '3週間前',
-        text: '30分でサクッと終わるので、忙しいビジネスパーソンにぴったりのスタジオです。',
-      },
-    ],
     price: '月4回 9,680円',
     trial: '体験レッスン実施中',
     features: ['予約不要', '30分レッスン', 'コスパ抜群', '気軽に通える'],
@@ -548,28 +328,6 @@ const studios = [
   {
     name: 'CALDO 新橋（近隣）',
     image: '/images/studios/caldo.webp',
-    rating: 4.5,
-    reviewCount: 289,
-    reviews: [
-      {
-        author: 'L.S',
-        rating: 4,
-        date: '1週間前',
-        text: 'ホットヨガとピラティスの両方が受けられるのが魅力。気分に合わせてプログラムを選べます。',
-      },
-      {
-        author: 'P.K',
-        rating: 5,
-        date: '2週間前',
-        text: '大手ならではの施設充実度。シャワーやロッカーも完備で仕事帰りでも快適に利用できます。',
-      },
-      {
-        author: 'W.H',
-        rating: 4,
-        date: '3週間前',
-        text: 'ホットヨガのCALDOブランドで安心。ピラティスプログラムも充実しています。',
-      },
-    ],
     price: 'お問い合わせください',
     trial: '体験レッスン実施中',
     features: ['ホットヨガ&ピラティス', '施設充実', '大手ブランド', '多彩なプログラム'],

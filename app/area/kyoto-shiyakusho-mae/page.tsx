@@ -26,28 +26,6 @@ const studios = [
     name: 'zen place pilates 京都スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 30,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '1週間前',
-        text: '四条駅12番出口から徒歩1分で通いやすい。全国150店舗他店利用できるので出張先でも通えるのが便利。グループ体験1,000円で気軽に試せる。',
-      },
-      {
-        author: 'S.T',
-        rating: 5,
-        date: '2週間前',
-        text: '男性も通えるスタジオ。マットもマシンも両方あり、自分に合ったレッスンを選べる。インストラクターの質が高い。',
-      },
-      {
-        author: 'R.N',
-        rating: 4,
-        date: '3週間前',
-        text: '京都市役所前からも地下鉄で簡単にアクセスできる。月4回10,450円〜とリーズナブル。継続しやすい料金設定。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['全国150店舗相互利用', '男性OK', '四条駅徒歩1分', 'マット&マシン両対応'],
@@ -79,28 +57,6 @@ const studios = [
   {
     name: 'ピラティスK 京都四条烏丸店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.6,
-    reviewCount: 191,
-    reviews: [
-      {
-        author: 'K.N',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用のマシン専門スタジオ。音楽に合わせたレッスンが楽しくてあっという間に時間が過ぎる。体験0円で気軽に試せた。',
-      },
-      {
-        author: 'Y.M',
-        rating: 4,
-        date: '2週間前',
-        text: 'リフォーマーマシン専門で本格的。女性専用なので周りの目を気にせず集中できる。京都市役所前から地下鉄ですぐ。',
-      },
-      {
-        author: 'A.S',
-        rating: 5,
-        date: '3週間前',
-        text: '月4回13,420円〜。音楽レッスンが他にはない楽しさ。インストラクターも丁寧で初心者でも安心。',
-      },
-    ],
     price: '月4回 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', 'マシン専門', '音楽レッスン', '体験0円'],
@@ -132,28 +88,6 @@ const studios = [
   {
     name: 'Rintosull 京都四条烏丸店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.5,
-    reviewCount: 158,
-    reviews: [
-      {
-        author: 'E.M',
-        rating: 5,
-        date: '1週間前',
-        text: 'LAVA系列で安心感がある。月4回8,800円はマシンピラティスとしてはかなりリーズナブル。初心者が87%以上で雰囲気も良い。',
-      },
-      {
-        author: 'N.K',
-        rating: 5,
-        date: '2週間前',
-        text: '無料体験でパーソナル姿勢診断もしてもらえた。女性専用なので安心。リフォーマーを使った本格レッスン。',
-      },
-      {
-        author: 'H.Y',
-        rating: 4,
-        date: '3週間前',
-        text: 'プレミアムフリーフルタイムでLAVA等系列のヨガスタジオも利用可能。ピラティスとヨガ両方やりたい人におすすめ。',
-      },
-    ],
     price: '月4回 8,800円〜',
     trial: '体験レッスン 無料',
     features: ['LAVA系列', '女性専用', '初心者87%以上', '月4回8,800円〜'],
@@ -185,28 +119,6 @@ const studios = [
   {
     name: 'CLUB PILATES 烏丸御池店',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.7,
-    reviewCount: 139,
-    reviews: [
-      {
-        author: 'T.M',
-        rating: 5,
-        date: '1週間前',
-        text: '世界最大級のピラティスブランド。烏丸御池駅徒歩1分で京都市役所前の隣駅。15種類の器具を使った本格レッスンが体験無料。',
-      },
-      {
-        author: 'C.Y',
-        rating: 5,
-        date: '2週間前',
-        text: '4段階のレベル分けで初心者から上級者まで対応。男性会員も多く、夫婦で通っている方も。8つのプログラムで飽きない。',
-      },
-      {
-        author: 'K.S',
-        rating: 4,
-        date: '3週間前',
-        text: 'インストラクター全員が500時間以上の研修済み。有酸素運動を含むレッスンもあり、ダイエット目的にも最適。',
-      },
-    ],
     price: '月4回 14,190円〜',
     trial: '体験レッスン 無料',
     features: ['世界最大級', '15種類の器具', '男性OK', '烏丸御池駅徒歩1分'],
@@ -238,28 +150,6 @@ const studios = [
   {
     name: 'アーバンクラシックピラティス 四条河原町店',
     image: '/images/studios/urban-classic-pilates.webp',
-    rating: 4.5,
-    reviewCount: 13,
-    reviews: [
-      {
-        author: 'A.K',
-        rating: 5,
-        date: '1週間前',
-        text: '阪急京都河原町駅から徒歩3分。30分で完結するサーキット形式が忙しい日でもちょうどいい。予約不要でふらっと行ける。',
-      },
-      {
-        author: 'Y.N',
-        rating: 4,
-        date: '2週間前',
-        text: '月4回9,680円〜とリーズナブル。マシンとフロアを交互に行うサーキット形式で効率よく全身を鍛えられる。',
-      },
-      {
-        author: 'M.H',
-        rating: 5,
-        date: '3週間前',
-        text: '予約不要なのが最大の魅力。思い立った時にすぐ行ける。30分で終わるので仕事帰りにもサクッと通える。',
-      },
-    ],
     price: '月4回 9,680円〜',
     trial: '体験レッスンあり',
     features: ['予約不要', '30分完結', 'サーキット形式', '河原町駅徒歩3分'],

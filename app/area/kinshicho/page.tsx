@@ -27,28 +27,6 @@ const studios = [
     name: 'zen place pilates 錦糸町',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 18,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '錦糸町駅南口から徒歩4分で通いやすいです。JR総武線と半蔵門線どちらからもアクセス抜群。マットもマシンも充実していて、自分のペースで続けられます。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '少人数制なので丁寧に見てもらえます。マシンの種類も豊富で、自分のレベルに合わせて進められます。墨田区エリアでは一番バランスの良いスタジオだと思います。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: '全国展開しているので出張先でも通えます。錦糸町は駅前に商業施設も多くて、レッスン前後に買い物もできて便利です。',
-      },
-    ],
     price: 'マットグループ月4回 9,625円〜',
     trial: '体験レッスン 1,000円',
     features: ['マット&マシン完備', '初心者歓迎', '錦糸町駅南口徒歩4分', 'インストラクター養成'],
@@ -80,28 +58,6 @@ const studios = [
   {
     name: 'ピラティスK オリナス錦糸町店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 213,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: 'オリナス内にあるので買い物ついでに通えて便利！女性専用なので気兼ねなくレッスンに集中できます。錦糸町駅北口から近いのもポイント。',
-      },
-      {
-        author: 'A.H',
-        rating: 4,
-        date: '2週間前',
-        text: '女性専用なので周りの目を気にせず通えます。マシンが新しくて使いやすい。月4回のプランがコスパ良いです。',
-      },
-      {
-        author: 'M.M',
-        rating: 5,
-        date: '3週間前',
-        text: '音楽に合わせたグループレッスンが楽しい！オリナスのショッピングモール内なので雨の日も濡れずに通えます。',
-      },
-    ],
     price: '月4回 11,220円〜',
     trial: '無料体験レッスン',
     features: ['女性専用', 'マシンピラティス', '錦糸町駅北口徒歩4分', 'オリナス内'],
@@ -134,28 +90,6 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 錦糸町',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
-    rating: 4.6,
-    reviewCount: 211,
-    reviews: [
-      {
-        author: 'T.W',
-        rating: 5,
-        date: '5日前',
-        text: '予約不要で30分でサクッと通えるのが最高！仕事帰りに錦糸町で気軽にトレーニングできます。通い放題プランがコスパ抜群。',
-      },
-      {
-        author: 'H.I',
-        rating: 4,
-        date: '1週間前',
-        text: 'サーキット形式で飽きない。30分で全身しっかり動かせます。予約不要なので思い立ったらすぐ行けるのが便利。',
-      },
-      {
-        author: 'S.N',
-        rating: 5,
-        date: '2週間前',
-        text: '通い放題で月14,080円はかなりお得。30分完結なので忙しい日でも無理なく続けられます。',
-      },
-    ],
     price: '月4回 9,680円 / 通い放題 14,080円',
     trial: '体験レッスンあり',
     features: ['予約不要', '30分サーキット', '通い放題あり', '錦糸町駅近'],
@@ -187,22 +121,6 @@ const studios = [
   {
     name: 'ピラティス&ジム 1to1 錦糸町',
     image: '/images/studios/pilates-gym-1to1.webp',
-    rating: 4.9,
-    reviewCount: 19,
-    reviews: [
-      {
-        author: 'M.S',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用の完全個室なので人目を気にせず集中できます。40分のパーソナルで1回6,600円はコスパが良いと思います。',
-      },
-      {
-        author: 'K.Y',
-        rating: 5,
-        date: '2週間前',
-        text: '完全個室で先生とマンツーマン。自分の悩みに合わせたメニューを組んでもらえるので、短期間で効果を実感できました。',
-      },
-    ],
     price: '40分 6,600円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', '完全個室', 'パーソナル', '錦糸町駅近'],
@@ -233,22 +151,6 @@ const studios = [
   {
     name: 'Pilates KASANE 錦糸町店',
     image: '/images/studios/pilates-kasane.webp',
-    rating: 4.7,
-    reviewCount: 24,
-    reviews: [
-      {
-        author: 'T.K',
-        rating: 5,
-        date: '10日前',
-        text: 'セミパーソナルの少人数制なので、グループよりしっかり見てもらえてパーソナルより安い。男性OKなので夫婦で通っています。',
-      },
-      {
-        author: 'N.O',
-        rating: 4,
-        date: '3週間前',
-        text: '少人数制でインストラクターの目が行き届いています。錦糸町エリアで男性も通えるスタジオは貴重です。',
-      },
-    ],
     price: '月4回 15,400円',
     trial: '体験レッスンあり',
     features: ['セミパーソナル', '少人数制', '男性OK', '錦糸町駅近'],
@@ -279,22 +181,6 @@ const studios = [
   {
     name: 'La pilates 錦糸町',
     image: '/images/studios/la-pilates.webp',
-    rating: 4.8,
-    reviewCount: 19,
-    reviews: [
-      {
-        author: 'Y.S',
-        rating: 5,
-        date: '1週間前',
-        text: '骨膜セラピーとの併用が他にはないアプローチ。ピラティスだけでは改善しきれなかった体の不調が和らぎました。',
-      },
-      {
-        author: 'E.M',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '女性専用パーソナルで安心。骨膜セラピーを組み合わせた独自メソッドが効果的。錦糸町で唯一の施術です。',
-      },
-    ],
     price: '月1回 12,000円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', 'パーソナル', '骨膜セラピー', '錦糸町駅近'],
@@ -325,22 +211,6 @@ const studios = [
   {
     name: 'STUDIO IVY 錦糸町',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.7,
-    reviewCount: 9,
-    reviews: [
-      {
-        author: 'A.T',
-        rating: 5,
-        date: '5日前',
-        text: '完全個室でマンツーマン。1回あたり6,250円で個室パーソナルはかなりお得だと思います。錦糸町駅からも近くて通いやすい。',
-      },
-      {
-        author: 'R.K',
-        rating: 4,
-        date: '2週間前',
-        text: 'インストラクターの質が高い。しっかり体の癖を見抜いてくれて、効果的なトレーニングメニューを組んでくれます。',
-      },
-    ],
     price: '月2回 15,000円〜（1回あたり6,250円）',
     trial: '体験レッスンあり',
     features: ['完全個室', 'パーソナル', 'コスパ良好', '錦糸町駅近'],
@@ -372,22 +242,6 @@ const studios = [
     name: 'ELEMENT 錦糸町',
     officialUrl: 'https://t.felmat.net/fmcl?ak=U11199J.1.V154352I.U1357808',
     image: '/images/studios/element.webp',
-    rating: 4.8,
-    reviewCount: 16,
-    reviews: [
-      {
-        author: 'K.M',
-        rating: 5,
-        date: '3日前',
-        text: 'マンツーマン30分で効率が良い。短時間集中型なので忙しい日でも通いやすい。インストラクターの指導が的確です。',
-      },
-      {
-        author: 'S.Y',
-        rating: 4,
-        date: '1週間前',
-        text: '30分のマンツーマンでしっかり効果が出ます。通い放題プランは高めですが、毎日通えるなら元が取れます。',
-      },
-    ],
     price: '月4回 22,000円 / 通い放題 55,000円',
     trial: '体験レッスンあり',
     features: ['マンツーマン', '30分集中', '通い放題あり', '錦糸町駅近'],
@@ -419,22 +273,6 @@ const studios = [
     name: '24/7 Pilates 錦糸町四ツ目通り',
     officialUrl: 'https://t.felmat.net/fmcl?ak=J11817X.1.B1620582.U1357808',
     image: '/images/studios/247-pilates-kinshicho.webp',
-    rating: 4.7,
-    reviewCount: 27,
-    reviews: [
-      {
-        author: 'Y.H',
-        rating: 5,
-        date: '1週間前',
-        text: '完全個室で人目を気にせずトレーニングできます。月2回14,500円は個室パーソナルとしては始めやすい価格帯。',
-      },
-      {
-        author: 'M.K',
-        rating: 4,
-        date: '3週間前',
-        text: '四ツ目通り沿いでわかりやすい場所にあります。パーソナルなので自分のペースでしっかり鍛えられます。',
-      },
-    ],
     price: '月2回 14,500円〜',
     trial: '体験レッスンあり',
     features: ['完全個室', 'パーソナル', '錦糸町四ツ目通り', '初心者歓迎'],
@@ -465,22 +303,6 @@ const studios = [
   {
     name: 'Pilates Studio B&B 錦糸町',
     image: '/images/studios/pilates-bb.webp',
-    rating: 4.9,
-    reviewCount: 10,
-    reviews: [
-      {
-        author: 'C.T',
-        rating: 5,
-        date: '5日前',
-        text: '完全カスタマイズのパーソナルレッスン。自分の体の状態に合わせてメニューを組んでくれるので効果が出やすい。錦糸町では一番質が高いと思います。',
-      },
-      {
-        author: 'J.N',
-        rating: 5,
-        date: '2週間前',
-        text: 'リハビリ目的で通い始めましたが、インストラクターの知識が豊富で安心して任せられます。1回10,725円は高めですが、それだけの価値があります。',
-      },
-    ],
     price: '1回 10,725円',
     trial: '体験レッスン 5,500円',
     features: ['完全カスタマイズ', 'パーソナル', '高品質指導', '錦糸町駅近'],
@@ -511,22 +333,6 @@ const studios = [
   {
     name: 'SOU+ 錦糸町',
     image: '/images/studios/sou-plus-kinshicho.webp',
-    rating: 4.6,
-    reviewCount: 28,
-    reviews: [
-      {
-        author: 'L.M',
-        rating: 5,
-        date: '10日前',
-        text: 'マットピラティスとシルクサスペンションが両方できるのが嬉しい。少人数制で丁寧に教えてもらえます。通い放題19,800円はお得。',
-      },
-      {
-        author: 'H.S',
-        rating: 4,
-        date: '1ヶ月前',
-        text: 'シルクサスペンションは初めてでしたが、新しい感覚で楽しかったです。インストラクターが優しくて初心者でも安心。',
-      },
-    ],
     price: '通い放題 19,800円',
     trial: '体験レッスンあり',
     features: ['マット中心', 'シルクサスペンション', '少人数制', '通い放題'],
@@ -557,22 +363,6 @@ const studios = [
   {
     name: 'OLUTANA ピラティス 菊川',
     image: '/images/studios/olutana-pilates.webp',
-    rating: 4.7,
-    reviewCount: 20,
-    reviews: [
-      {
-        author: 'P.A',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用で30分完結というのが魅力。月4回8,800円はかなりリーズナブル。菊川駅からすぐで、錦糸町エリアからも通いやすいです。',
-      },
-      {
-        author: 'F.T',
-        rating: 4,
-        date: '3週間前',
-        text: '30分で無理なく全身を動かせます。料金も手頃で続けやすい。女性専用なのでリラックスして通えます。',
-      },
-    ],
     price: '月4回 8,800円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', '30分完結', 'リーズナブル', '菊川駅近'],
@@ -603,22 +393,6 @@ const studios = [
   {
     name: 'SEPILA 錦糸町',
     image: '/images/studios/sepila-kinshicho.webp',
-    rating: 4.5,
-    reviewCount: 30,
-    reviews: [
-      {
-        author: 'D.K',
-        rating: 5,
-        date: '5日前',
-        text: 'セルフマシンの完全個室！自分のペースで好きな時間にトレーニングできるのが最高。早朝6時から深夜まで使えるのも助かります。',
-      },
-      {
-        author: 'W.N',
-        rating: 4,
-        date: '2週間前',
-        text: '月6回8,980円でセルフマシンが使えるのはかなりコスパが良い。動画ガイド付きなので初心者でも安心です。',
-      },
-    ],
     price: '月6回 8,980円',
     trial: '体験レッスンあり',
     features: ['セルフマシン', '完全個室', '早朝〜深夜営業', 'コスパ抜群'],
@@ -649,22 +423,6 @@ const studios = [
   {
     name: 'My Machine Pilates 錦糸町',
     image: '/images/studios/my-machine-pilates-kinshicho.webp',
-    rating: 4.6,
-    reviewCount: 7,
-    reviews: [
-      {
-        author: 'I.R',
-        rating: 5,
-        date: '1週間前',
-        text: '24時間使えるセルフマシンスタジオ。女性専用で安心。通い放題12,100円で好きな時にトレーニングできるのが最高です。',
-      },
-      {
-        author: 'U.E',
-        rating: 4,
-        date: '3週間前',
-        text: '深夜でも使えるので夜勤明けに通っています。女性専用なのでセキュリティも安心。自分のペースでできるのがいい。',
-      },
-    ],
     price: '通い放題 12,100円',
     trial: '体験レッスンあり',
     features: ['24時間営業', 'セルフマシン', '女性専用', '通い放題'],
@@ -695,22 +453,6 @@ const studios = [
   {
     name: 'CALDO 錦糸町',
     image: '/images/studios/caldo.webp',
-    rating: 4.5,
-    reviewCount: 101,
-    reviews: [
-      {
-        author: 'G.O',
-        rating: 5,
-        date: '3日前',
-        text: 'ホットヨガとピラティスの両方ができるのが良い。月4回8,250円からとリーズナブル。錦糸町駅から近くて通いやすいです。',
-      },
-      {
-        author: 'B.W',
-        rating: 4,
-        date: '2週間前',
-        text: 'ホットヨガの施設でピラティスも受けられるのがお得。汗をかきながらのトレーニングはデトックス効果も感じます。',
-      },
-    ],
     price: '月4回 8,250円〜',
     trial: '体験レッスンあり',
     features: ['ホットヨガ&ピラティス', 'リーズナブル', '錦糸町駅近', '大型施設'],

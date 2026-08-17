@@ -27,28 +27,6 @@ const studios = [
     name: 'zen place pilates 高田馬場スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 29,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '高田馬場駅から徒歩5分で通いやすいです。マットもマシンも両方受けられるのが嬉しい。全国150店舗以上で他店利用可能なのも出張時に便利。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '少人数制で丁寧な指導をしてもらえます。体験500円で気軽に始められました。学生が多いエリアですが、スタジオ内は落ち着いた雰囲気です。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: '男性もOKなので夫婦で通えます。インストラクターの質が高く、身体の使い方を丁寧に教えてくれます。',
-      },
-    ],
     price: 'マットグループ月4回 9,625円〜',
     trial: '体験レッスン 500円〜',
     features: ['マット&マシン', '高田馬場駅徒歩5分', '男性OK', '全国相互利用'],
@@ -80,28 +58,6 @@ const studios = [
   {
     name: 'the SILK 高田馬場店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.7,
-    reviewCount: 151,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用で安心して通えます。体験レッスンが無料なので気軽に始められました。音楽に合わせたレッスンが楽しい！',
-      },
-      {
-        author: 'A.H',
-        rating: 5,
-        date: '2週間前',
-        text: '1回約3,768円はこのエリアではコスパが良いです。スタジオがおしゃれでモチベーションが上がります。',
-      },
-      {
-        author: 'M.M',
-        rating: 4,
-        date: '3週間前',
-        text: '仕事帰りに高田馬場で通えるのが便利。女性専用なので周りを気にせず集中できます。',
-      },
-    ],
     price: 'Standard4 15,070円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'マシンピラティス専門', '高田馬場駅近', '音楽×マシン'],
@@ -133,28 +89,6 @@ const studios = [
   {
     name: 'CLUB PILATES 早稲田店',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.7,
-    reviewCount: 65,
-    reviews: [
-      {
-        author: 'T.M',
-        rating: 5,
-        date: '1週間前',
-        text: '世界2,000店舗以上展開のグローバルブランドの安心感があります。少人数グループで丁寧に指導してくれます。早稲田駅から近くて通いやすいです。',
-      },
-      {
-        author: 'N.K',
-        rating: 5,
-        date: '2週間前',
-        text: 'リフォーマー以外にも多彩なマシンを使えるのが魅力。レベル別クラスがあるので無理なくステップアップできます。',
-      },
-      {
-        author: 'H.S',
-        rating: 4,
-        date: '3週間前',
-        text: '体験無料なので気軽に試せました。インストラクターが国際資格保有者なので指導レベルが高いです。',
-      },
-    ],
     price: '月4回 10,890円〜',
     trial: '体験レッスン 無料',
     features: ['世界展開ブランド', '男性OK', '多彩なマシン', '早稲田駅近'],
@@ -186,28 +120,6 @@ const studios = [
   {
     name: 'ピラティスK 新宿店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 113,
-    reviews: [
-      {
-        author: 'T.W',
-        rating: 5,
-        date: '5日前',
-        text: '音楽に合わせて楽しくトレーニングできます！高田馬場から山手線で2駅の新宿三丁目にあって通いやすい。女性専用なので集中できます。',
-      },
-      {
-        author: 'H.I',
-        rating: 4,
-        date: '1週間前',
-        text: 'マシンピラティス専門なので設備が充実しています。月4回11,220円はコスパ良いです。',
-      },
-      {
-        author: 'S.N',
-        rating: 5,
-        date: '2週間前',
-        text: '「30歳からの本気ボディメイク」というコンセプトに惹かれて入会。2ヶ月で体が引き締まってきました。',
-      },
-    ],
     price: '月4回 11,220円〜',
     trial: '体験レッスン 2,000円',
     features: ['女性専用マシンピラティス', '新宿三丁目駅近く', '音楽×マシン', 'ボディメイク'],
@@ -239,28 +151,6 @@ const studios = [
   {
     name: 'STUDIO IVY 高田馬場店',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.8,
-    reviewCount: 12,
-    reviews: [
-      {
-        author: 'C.Y',
-        rating: 5,
-        date: '1週間前',
-        text: 'パーソナル専門なので自分に合ったプログラムを組んでもらえます。完全プライベート空間で集中できるのが良い。',
-      },
-      {
-        author: 'E.M',
-        rating: 5,
-        date: '2週間前',
-        text: '月謝制で1回6,250円〜はパーソナルとしてはかなりリーズナブル。インストラクターの質も高いです。',
-      },
-      {
-        author: 'K.T',
-        rating: 4,
-        date: '3週間前',
-        text: '高田馬場駅から近くて通いやすい。マシンピラティスのパーソナルを探していたので理想的でした。',
-      },
-    ],
     price: '1回 6,250円〜',
     trial: '体験レッスンあり',
     features: ['パーソナル専門', 'マシンピラティス', '高田馬場駅近', '完全個室'],
@@ -293,28 +183,6 @@ const studios = [
     name: 'ELEMENT 高田馬場店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=U11199J.1.V154352I.U1357808',
     image: '/images/studios/element.webp',
-    rating: 4.6,
-    reviewCount: 11,
-    reviews: [
-      {
-        author: 'M.S',
-        rating: 5,
-        date: '1週間前',
-        text: '30分のパーソナルレッスンなので忙しくても通いやすい！高田馬場駅から近くて便利です。ウェアも貸してくれるので手ぶらでOK。',
-      },
-      {
-        author: 'R.T',
-        rating: 4,
-        date: '2週間前',
-        text: 'ピラティスと筋トレを組み合わせたメニューが新鮮。短時間で効率よくトレーニングできます。',
-      },
-      {
-        author: 'Y.O',
-        rating: 5,
-        date: '3週間前',
-        text: '月額制でパーソナルが受けられるのは嬉しい。インストラクターが毎回しっかりカルテを見てくれるので安心。',
-      },
-    ],
     price: '月4回 22,000円〜',
     trial: '体験レッスンあり',
     features: ['パーソナル', '30分レッスン', '手ぶらOK', '高田馬場駅近'],
@@ -346,28 +214,6 @@ const studios = [
   {
     name: 'Rintosull 目白店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.6,
-    reviewCount: 145,
-    reviews: [
-      {
-        author: 'A.K',
-        rating: 5,
-        date: '1週間前',
-        text: 'LAVA系列なので安心感があります。マシンピラティスとホットヨガの両方が受けられるのが魅力。目白駅から近くて高田馬場からも1駅。',
-      },
-      {
-        author: 'S.M',
-        rating: 4,
-        date: '2週間前',
-        text: '女性専用なので安心です。月4回8,800円〜はこのエリアでは最安クラス。初心者が87%以上で安心して始められました。',
-      },
-      {
-        author: 'N.O',
-        rating: 5,
-        date: '3週間前',
-        text: 'ピラティスとホットヨガを組み合わせて受けられるので飽きずに続けられています。スタジオも清潔感があります。',
-      },
-    ],
     price: '月4回 8,800円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', 'LAVA系列', 'コスパ抜群', '目白駅近（高田馬場隣駅）'],
@@ -399,28 +245,6 @@ const studios = [
   {
     name: 'ピラティスミラー 高田馬場店',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.5,
-    reviewCount: 17,
-    reviews: [
-      {
-        author: 'K.N',
-        rating: 5,
-        date: '1週間前',
-        text: '鏡の前でフォームを確認しながらレッスンを受けられるのが良い。1回4,400円〜でパーソナル感覚のレッスンが受けられます。',
-      },
-      {
-        author: 'M.I',
-        rating: 4,
-        date: '2週間前',
-        text: 'マシンピラティスの少人数制レッスンなので丁寧に見てもらえます。高田馬場駅からのアクセスも良いです。',
-      },
-      {
-        author: 'Y.S',
-        rating: 5,
-        date: '3週間前',
-        text: '初心者でも安心して通える雰囲気。インストラクターが身体の状態を見ながら的確にアドバイスしてくれます。',
-      },
-    ],
     price: '1回 4,400円〜',
     trial: '体験レッスンあり',
     features: ['マシンピラティス', '少人数制', '高田馬場駅近', 'ミラーでフォーム確認'],
@@ -453,28 +277,6 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 高田馬場店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
-    rating: 4.5,
-    reviewCount: 247,
-    reviews: [
-      {
-        author: 'L.W',
-        rating: 5,
-        date: '1週間前',
-        text: '予約不要で30分のサーキット形式なので、思い立ったらすぐ通えるのが嬉しい。高田馬場駅から近くて便利。',
-      },
-      {
-        author: 'A.T',
-        rating: 4,
-        date: '2週間前',
-        text: '月4回9,680円はマシンピラティスとしてはかなりお得。予約不要なので自分のペースで通えます。',
-      },
-      {
-        author: 'R.K',
-        rating: 5,
-        date: '3週間前',
-        text: '30分で全身をバランスよく鍛えられるサーキット形式が気に入っています。忙しい学生にもおすすめ。',
-      },
-    ],
     price: '月4回 9,680円〜',
     trial: '体験レッスンあり',
     features: ['予約不要', '30分サーキット', 'コスパ抜群', '高田馬場駅近'],
@@ -506,28 +308,6 @@ const studios = [
   {
     name: 'CALDO 高田馬場店',
     image: '/images/studios/caldo.webp',
-    rating: 4.5,
-    reviewCount: 117,
-    reviews: [
-      {
-        author: 'F.H',
-        rating: 5,
-        date: '1週間前',
-        text: 'ホットヨガがメインですがピラティスプログラムも充実しています。大きな施設でシャワーやアメニティも充実。月額も手頃。',
-      },
-      {
-        author: 'J.K',
-        rating: 4,
-        date: '2週間前',
-        text: '高田馬場駅から近くて通いやすい。ホットヨガとピラティスを組み合わせて受けられるのが嬉しい。',
-      },
-      {
-        author: 'P.M',
-        rating: 4,
-        date: '3週間前',
-        text: '予約不要で気軽に通えるのが良い。ピラティスのレッスンも初心者向けから経験者向けまで幅広くあります。',
-      },
-    ],
     price: '月4回 9,900円〜',
     trial: '体験レッスンあり',
     features: ['ホットヨガ&ピラティス', '大型施設', '予約不要', '高田馬場駅近'],
@@ -559,28 +339,6 @@ const studios = [
   {
     name: 'NATURAglam 高田馬場スタジオ',
     image: '/images/studios/naturaglam.webp',
-    rating: 4.6,
-    reviewCount: 14,
-    reviews: [
-      {
-        author: 'W.N',
-        rating: 5,
-        date: '1週間前',
-        text: '少人数制のアットホームなスタジオ。インストラクターの方が親切で、初心者でも安心して通えます。料金もリーズナブル。',
-      },
-      {
-        author: 'D.S',
-        rating: 5,
-        date: '2週間前',
-        text: 'マットピラティスのグループレッスンが充実。ヨガとピラティスの両方を受けられるのが嬉しい。',
-      },
-      {
-        author: 'T.K',
-        rating: 4,
-        date: '3週間前',
-        text: '高田馬場駅から近くてアクセス良好。少人数制なので丁寧に見てもらえます。',
-      },
-    ],
     price: '月4回 8,800円〜',
     trial: '体験レッスンあり',
     features: ['少人数制', 'アットホーム', 'ヨガ&ピラティス', '高田馬場駅近'],

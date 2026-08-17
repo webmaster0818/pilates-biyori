@@ -24,13 +24,7 @@ const studios = [
   {
     name: 'zen place pilates 青葉台スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7, reviewCount: 142,
-    reviews: [
-      { author: 'K.S', rating: 5, date: '1週間前', text: '青葉台駅北口から徒歩2分で通いやすい。マットもマシンも両方受けられる。全国150店舗以上で他店利用可能なので出張時にも便利。' },
-      { author: 'Y.N', rating: 5, date: '2週間前', text: 'BASIピラティスをベースにした質の高い指導。グループ体験1,000円で気軽に試せます。男性もOK。' },
-      { author: 'A.M', rating: 4, date: '3週間前', text: 'インストラクターの知識が豊富で体の変化を早く実感。落ち着いた雰囲気のスタジオで集中できます。' },
-    ],
+    image: '/images/studios/zen-place-pilates.webp', reviewCount: 142,
     price: '月4回 10,450円〜', trial: 'グループ体験 1,000円',
     features: ['青葉台駅徒歩2分', '男性OK', 'マット&マシン', '全国相互利用'],
     description: 'ピラティス専門の大手スタジオ。青葉台駅北口から徒歩2分の好立地。マットグループ・マシングループ・プライベートの3タイプから選べます。全国150店舗以上で相互利用可能。',
@@ -43,13 +37,7 @@ const studios = [
   },
   {
     name: 'Rintosull 青葉台店',
-    image: '/images/studios/rintosull.webp',
-    rating: 4.6, reviewCount: 126,
-    reviews: [
-      { author: 'E.T', rating: 5, date: '1週間前', text: 'LAVA系列で安心。月4回8,800円〜とマシンピラティスでは破格のコスパ。無料体験で気軽に始められました。' },
-      { author: 'N.S', rating: 4, date: '2週間前', text: '女性専用で初心者が87%以上。大画面映像に合わせてレッスンが進むので分かりやすく、インストラクターの個別サポートも丁寧。' },
-      { author: 'H.K', rating: 5, date: '3週間前', text: 'プレミアムフリーフルタイム18,800円でLAVA等系列店も全国で利用可能。ピラティスとヨガ両方楽しめます。' },
-    ],
+    image: '/images/studios/rintosull.webp', reviewCount: 126,
     price: '月4回 8,800円〜', trial: '体験レッスン 無料',
     features: ['LAVA系列', '女性専用', 'コスパ抜群', '初心者87%'],
     description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオ。月4回8,800円のリーズナブルな料金。大型スクリーン映像に合わせてレッスンが進み、87%以上が初心者で未経験者も安心。',
@@ -62,13 +50,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 青葉台',
-    image: '/images/studios/pilates-mirror.webp',
-    rating: 4.5, reviewCount: 88,
-    reviews: [
-      { author: 'A.K', rating: 5, date: '1週間前', text: '天井に鏡があるので自分のフォームを確認しながらレッスンできる。最大9名の少人数制で月6回11,000円とコスパ良し。' },
-      { author: 'Y.H', rating: 4, date: '2週間前', text: '女性専用で清潔感のある空間。KONAMI運営で安心感がある。30分レッスンなので隙間時間に通いやすい。' },
-      { author: 'M.T', rating: 5, date: '3週間前', text: 'ミラーで自分の動きを確認できるのでフォームが崩れにくい。初心者でも安心してレッスンを受けられます。' },
-    ],
+    image: '/images/studios/pilates-mirror.webp', reviewCount: 88,
     price: '月6回 11,000円', trial: '体験レッスンあり',
     features: ['天井ミラー', '女性専用', '少人数制', '30分レッスン'],
     description: 'KONAMI運営の女性専用マシンピラティススタジオ。天井に設置されたミラーで自身の動きを確認しながらトレーニング。最大9名の少人数制で1レッスン30分。気軽に参加できる。',
@@ -82,13 +64,7 @@ const studios = [
   {
     name: 'URBAN CLASSIC PILATES 青葉台',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
-    image: '/images/studios/urban-classic-pilates.webp',
-    rating: 4.5, reviewCount: 94,
-    reviews: [
-      { author: 'S.N', rating: 5, date: '1週間前', text: '青葉台駅から徒歩3分。マシンピラティスとTRXを組み合わせたサーキット形式で30分で効率よく全身を鍛えられる。予約不要で通いやすい。' },
-      { author: 'K.M', rating: 4, date: '2週間前', text: '月額制の通い放題で好きな時に通える。短時間で効果的なので仕事帰りにサクッと通えて便利。' },
-      { author: 'R.T', rating: 5, date: '3週間前', text: 'マシンとファンクショナルトレーニングの組み合わせで飽きずに続けられる。スタッフも親切。' },
-    ],
+    image: '/images/studios/urban-classic-pilates.webp', reviewCount: 94,
     price: '月額 9,680円〜（通い放題）', trial: '体験レッスンあり',
     features: ['サーキット形式', '30分レッスン', '予約不要', '青葉台駅徒歩3分'],
     description: 'マシンピラティスとTRXを使ったファンクショナルトレーニングのサーキット形式スタジオ。青葉台駅から徒歩3分。30分で効率よく全身を鍛えられる。予約不要の通い放題で忙しい方にもおすすめ。',
@@ -101,13 +77,7 @@ const studios = [
   },
   {
     name: 'the SILK 青葉台店',
-    image: '/images/studios/the-silk.webp',
-    rating: 4.7, reviewCount: 110,
-    reviews: [
-      { author: 'M.Y', rating: 5, date: '1週間前', text: '女性専用で清潔感のある内装。音楽に合わせたリフォーマーレッスンが楽しい。手ぶらで無料体験できるのが嬉しい。' },
-      { author: 'S.H', rating: 5, date: '2週間前', text: 'パウダールーム完備。ウェア・タオル無料貸出で荷物なしで通えます。朝8時から営業で仕事前にも通える。' },
-      { author: 'R.A', rating: 4, date: '3週間前', text: '初心者の割合が高いので未経験でも安心。月3回12,980円〜とリーズナブルに始められます。' },
-    ],
+    image: '/images/studios/the-silk.webp', reviewCount: 110,
     price: '月3回 12,980円〜', trial: '体験レッスン 無料',
     features: ['女性専用', '手ぶら体験OK', '音楽レッスン', 'パウダールーム完備'],
     description: '女性専用マシンピラティススタジオ。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。パウダールームにメイクアップミラー・アイロン完備で仕事前後の利用に便利。',

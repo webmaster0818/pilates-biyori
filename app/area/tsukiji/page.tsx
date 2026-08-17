@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates 銀座四丁目スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 26,
-    reviews: [
-      {
-        author: 'K.T',
-        rating: 5,
-        date: '1週間前',
-        text: '東銀座駅5番出口から徒歩1分。築地駅からも徒歩圏内でアクセス抜群。マットもマシンも両方受けられるのが魅力。全国150店舗以上で他店利用可能。',
-      },
-      {
-        author: 'M.S',
-        rating: 5,
-        date: '2週間前',
-        text: '男性もOKでカップルで通っています。インストラクターの質が高く、ピラティス専門で20年以上の実績がある大手スタジオ。',
-      },
-      {
-        author: 'A.Y',
-        rating: 4,
-        date: '3週間前',
-        text: '体験当日入会で入会金無料キャンペーンあり。グループ体験1,000円で気軽に試せました。朝10時から夜21時まで営業で通いやすい。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['東銀座駅徒歩1分', '男性OK', '全国相互利用', 'マット&マシン'],
@@ -77,28 +55,6 @@ const studios = [
   {
     name: 'Pilates Mee 築地店',
     image: '/images/studios/pilates-mee.webp',
-    rating: 4.7,
-    reviewCount: 7,
-    reviews: [
-      {
-        author: 'S.N',
-        rating: 5,
-        date: '1週間前',
-        text: '築地駅から徒歩3分。最大3名のセミパーソナルで一人ひとりに合わせた指導が受けられる。女性専用で安心して通えます。',
-      },
-      {
-        author: 'Y.H',
-        rating: 5,
-        date: '2週間前',
-        text: '通い放題で月額37,500円。毎日通えば1回1,250円程度とコスパ抜群。当日予約・当日キャンセルOKでペナルティなし。',
-      },
-      {
-        author: 'R.T',
-        rating: 4,
-        date: '3週間前',
-        text: 'オーダーメイドプログラムで自分の目標に合わせてもらえる。リフォーマー、チェア、バレルなど多彩なマシンを使ったレッスン。',
-      },
-    ],
     price: '月4回 13,200円〜',
     trial: '体験レッスン 3,300円',
     features: ['女性専用', '築地駅徒歩3分', 'セミパーソナル', '当日予約OK'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'Pilasuru 東銀座',
     image: '/images/studios/pilasuru-seijo.webp',
-    rating: 4.7,
-    reviewCount: 13,
-    reviews: [
-      {
-        author: 'E.M',
-        rating: 5,
-        date: '1週間前',
-        text: '築地駅2番出口から徒歩2分。1レッスンで3つのマシン（リフォーマー・バレル・チェア）を体験できるのが他にない魅力。',
-      },
-      {
-        author: 'N.K',
-        rating: 5,
-        date: '2週間前',
-        text: '最大3名のセミパーソナルで丁寧に指導してもらえる。女性専用で50名限定の会員制なので、レッスン予約も取りやすい。',
-      },
-      {
-        author: 'C.O',
-        rating: 4,
-        date: '3週間前',
-        text: 'セミパーソナル通い放題があるのでコスパが良い。不定期コースもあり、ライフスタイルに合わせやすい。',
-      },
-    ],
     price: 'セミパーソナル通い放題あり',
     trial: '体験レッスンあり',
     features: ['女性専用', '築地駅徒歩2分', '50名限定', '3マシン体験'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'Star Pilates 築地',
     image: '/images/studios/star-pilates-hakata.webp',
-    rating: 4.8,
-    reviewCount: 13,
-    reviews: [
-      {
-        author: 'H.S',
-        rating: 5,
-        date: '1週間前',
-        text: '完全個室でプライベートレッスンが受けられる。キャデラック、リフォーマー、チェア、バレルなど全マシン完備。英語レッスンも対応。',
-      },
-      {
-        author: 'T.M',
-        rating: 5,
-        date: '2週間前',
-        text: '東銀座駅から徒歩3分、築地駅から徒歩4分。朝8時から夜21:30まで営業で、出勤前も仕事帰りも通える。',
-      },
-      {
-        author: 'A.K',
-        rating: 4,
-        date: '3週間前',
-        text: 'セミプライベート（ペアレッスン）もあり、友人と一緒に通えるのが嬉しい。1回5,750円〜とペアなら割安。',
-      },
-    ],
     price: 'プライベート月4回 36,000円',
     trial: '体験レッスンあり',
     features: ['完全個室', '築地駅徒歩4分', '全マシン完備', '英語OK'],
@@ -236,28 +148,6 @@ const studios = [
   {
     name: 'BIRTH pilates studio 銀座',
     image: '/images/studios/birth-pilates-ginza.webp',
-    rating: 4.8,
-    reviewCount: 16,
-    reviews: [
-      {
-        author: 'M.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '東銀座駅A7出口から徒歩4分、新富町駅から徒歩4分。STOTT PILATES認定の有資格インストラクターによる本格レッスン。',
-      },
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '個室空間でのマンツーマンレッスン。腰痛や肩こりなど体の不調にも対応。マタニティ・産後ケアも安心。',
-      },
-      {
-        author: 'R.N',
-        rating: 4,
-        date: '3週間前',
-        text: '初回90分の体験が4,500円。しっかりカウンセリングしてくれるので自分の体の状態がよくわかる。',
-      },
-    ],
     price: 'パーソナル 1回 12,100円〜',
     trial: '体験レッスン 4,500円（90分）',
     features: ['完全個室', '東銀座駅徒歩4分', 'STOTT認定', 'マタニティ対応'],
@@ -289,28 +179,6 @@ const studios = [
   {
     name: 'STUDIO IVY 銀座新富町店',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.6,
-    reviewCount: 8,
-    reviews: [
-      {
-        author: 'K.N',
-        rating: 5,
-        date: '1週間前',
-        text: '新富町駅から徒歩2分、築地駅からも徒歩圏内。パーソナルマシンピラティスで自分だけのプログラムを組んでもらえる。',
-      },
-      {
-        author: 'Y.M',
-        rating: 4,
-        date: '2週間前',
-        text: '朝8時から夜21時まで営業。1回30分のレッスンで時間効率が良い。月2回15,000円〜と始めやすい料金設定。',
-      },
-      {
-        author: 'H.T',
-        rating: 5,
-        date: '3週間前',
-        text: '都度払い8,800円もあるので、不定期でも通いやすい。インストラクターが丁寧で初心者にも安心。',
-      },
-    ],
     price: '月2回 15,000円〜',
     trial: '体験レッスンあり',
     features: ['新富町駅徒歩2分', 'パーソナル専門', '30分レッスン', '都度払いOK'],

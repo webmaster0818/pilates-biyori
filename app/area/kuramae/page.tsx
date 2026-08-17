@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates 浅草スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '\/images\/studios\/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 18,
-    reviews: [
-      {
-        author: 'K.T',
-        rating: 5,
-        date: '1週間前',
-        text: '都営浅草線浅草駅A2a出口から徒歩1分。蔵前からもアクセス良好。大きな窓から隅田川やスカイツリーが見える開放的なスタジオ。2023年7月オープンの新しい施設。',
-      },
-      {
-        author: 'M.S',
-        rating: 5,
-        date: '2週間前',
-        text: '全国150店舗以上で相互利用可能。マットもマシンも両方受けられる。男性OK。体験当日入会で入会金無料。',
-      },
-      {
-        author: 'A.H',
-        rating: 4,
-        date: '3週間前',
-        text: 'ピラティス専門20年以上の実績で安心。インストラクターの質が高く、初心者でも丁寧に教えてもらえる。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['浅草駅徒歩1分', '隅田川ビュー', '男性OK', '全国相互利用'],
@@ -77,28 +55,6 @@ const studios = [
   {
     name: 'YARD 浅草・蔵前スタジオ',
     image: '\/images\/studios\/yard.webp',
-    rating: 4.7,
-    reviewCount: 21,
-    reviews: [
-      {
-        author: 'S.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '都営浅草線浅草駅A2-b出口から徒歩3分、蔵前駅A7出口から徒歩5分。他店舗も追加料金なしで利用できるのが魅力。ヨガもピラティスも両方受けられる。',
-      },
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '2週間前',
-        text: '初回体験0円キャンペーン中だったので気軽に試せました。エアフローヨガなどユニークなプログラムもあり飽きない。',
-      },
-      {
-        author: 'T.A',
-        rating: 4,
-        date: '3週間前',
-        text: '1Fにあるので入りやすい。グループレッスンとパーソナルの両方に対応。平日は夜22時まで営業。',
-      },
-    ],
     price: '月額プランあり',
     trial: '体験レッスン 0円〜',
     features: ['蔵前駅徒歩5分', '他店舗利用可', 'ヨガ&ピラティス', 'パーソナル対応'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'luluto 蔵前浅草橋店',
     image: '\/images\/studios\/luluto.webp',
-    rating: 4.8,
-    reviewCount: 6,
-    reviews: [
-      {
-        author: 'H.M',
-        rating: 5,
-        date: '1週間前',
-        text: '理学療法士が監修した完全マンツーマンのマシンピラティス。国家資格を持つスタッフが多く在籍していて、身体の悩みに的確にアプローチしてくれる。',
-      },
-      {
-        author: 'K.A',
-        rating: 5,
-        date: '2週間前',
-        text: '体験1,000円のキャンペーン中に入会。医学的な知識に基づいた指導で、他のスタジオとは一味違う。',
-      },
-      {
-        author: 'N.T',
-        rating: 4,
-        date: '3週間前',
-        text: '完全個室でプライベート感があり集中できる。浅草橋駅からのアクセスも良い。',
-      },
-    ],
     price: '1回 12,000円〜',
     trial: '体験レッスン 1,000円（キャンペーン）',
     features: ['理学療法士監修', '完全マンツーマン', '国家資格保持者', '完全個室'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'ピラティスアクス 浅草蔵前店',
     image: '\/images\/studios\/pilates-axe.webp',
-    rating: 4.6,
-    reviewCount: 21,
-    reviews: [
-      {
-        author: 'E.K',
-        rating: 5,
-        date: '1週間前',
-        text: '蔵前駅A1a出口から徒歩3分。女性限定のマンツーマンレッスンで安心。インストラクターが一人ひとりの身体に合わせて指導してくれる。',
-      },
-      {
-        author: 'M.Y',
-        rating: 4,
-        date: '2週間前',
-        text: '月2回16,500円からと通いやすい料金設定。平日は夜22時まで営業で仕事帰りにも通える。',
-      },
-      {
-        author: 'S.T',
-        rating: 4,
-        date: '3週間前',
-        text: '土日祝も20時まで営業。体験レッスン4,400円で事前にスタジオの雰囲気を確認できた。',
-      },
-    ],
     price: '月2回 16,500円〜',
     trial: '体験レッスン 4,400円',
     features: ['蔵前駅徒歩3分', '女性限定', 'マンツーマン', '夜22時まで'],
@@ -236,28 +148,6 @@ const studios = [
   {
     name: 'the SILK 浅草（近隣エリア）',
     image: '\/images\/studios\/the-silk.webp',
-    rating: 4.7,
-    reviewCount: 349,
-    reviews: [
-      {
-        author: 'Y.M',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用で清潔感のある内装がおしゃれ。音楽に合わせたレッスンが楽しい。手ぶら体験無料で気軽に試せました。',
-      },
-      {
-        author: 'C.H',
-        rating: 5,
-        date: '2週間前',
-        text: 'ウェア・タオル無料貸出やウォーターサーバーも完備。体験者の8割がピラティス未経験者。初心者にぴったり。',
-      },
-      {
-        author: 'R.S',
-        rating: 4,
-        date: '3週間前',
-        text: '月3回12,980円〜と始めやすい価格。蔵前からもアクセスしやすい浅草エリア。',
-      },
-    ],
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '手ぶら体験OK', '初心者8割', 'ウェア無料貸出'],

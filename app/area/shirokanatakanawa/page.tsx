@@ -23,13 +23,7 @@ const studios = [
   {
     name: 'zen place pilates 高輪スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8, reviewCount: 175,
-    reviews: [
-      { author: 'S.K', rating: 5, date: '2週間前', text: '高輪ゲートウェイ駅から徒歩6分、泉岳寺駅からは徒歩4分。マットもマシンも両方受けられるのが嬉しい。全国150店舗以上で他店利用可能。' },
-      { author: 'Y.T', rating: 5, date: '1ヶ月前', text: 'グレード01のスタジオで設備が充実。少人数制で丁寧な指導を受けられます。白金高輪からも通いやすい距離です。' },
-      { author: 'K.H', rating: 4, date: '3週間前', text: '男性もOKなので夫婦で通えます。体験500円で気軽に始められました。落ち着いた雰囲気のスタジオです。' },
-    ],
+    image: '/images/studios/zen-place-pilates.webp', reviewCount: 175,
     price: 'マットグループ 月4回 9,625円〜', trial: '体験レッスン 500円〜',
     features: ['マット&マシン', '泉岳寺駅徒歩4分', '男性OK', '全国相互利用'],
     description: '全国150店舗以上展開の大手ピラティススタジオ。泉岳寺駅A2出口から徒歩4分、高輪ゲートウェイ駅から徒歩6分の好立地。グレード01の充実設備で、マットグループ、マシン（リフォーマー）グループ、プライベートレッスンに対応。全国の店舗で相互利用可能。',
@@ -42,13 +36,7 @@ const studios = [
   },
   {
     name: 'Premium Yoga&Pilates 白金高輪',
-    image: '/images/studios/premium-yoga-shirokanetakanawa.webp',
-    rating: 4.9, reviewCount: 120,
-    reviews: [
-      { author: 'R.N', rating: 5, date: '1週間前', text: '白金高輪駅から徒歩1分！少人数制で一人ひとりに合わせた丁寧な指導が受けられます。3年以上の指導経験あるインストラクターのみ在籍。' },
-      { author: 'A.H', rating: 5, date: '2週間前', text: 'ウェア・マット・タオルのレンタル無料なので手ぶらで通えます。白金高輪に2店舗あるのも便利。' },
-      { author: 'M.M', rating: 5, date: '3週間前', text: '初心者から本格派まで対応。閑静な白金高輪の雰囲気にぴったりの上質なスタジオです。' },
-    ],
+    image: '/images/studios/premium-yoga-shirokanetakanawa.webp', reviewCount: 120,
     price: 'お問い合わせください', trial: '体験レッスンあり',
     features: ['少人数制', '白金高輪駅徒歩1分', '手ぶらOK', '2店舗展開'],
     description: '白金高輪駅から徒歩1分の少人数制ヨガ・ピラティススタジオ。近隣に2店舗を展開。3年以上の指導経験があるインストラクターのみ在籍し、初心者から本格的な方まで安心して利用可能。ウェア・マット・タオルのレンタル無料で手ぶら通いOK。',
@@ -61,12 +49,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 広尾店',
-    image: '/images/studios/studio-ivy.webp',
-    rating: 4.8, reviewCount: 95,
-    reviews: [
-      { author: 'T.S', rating: 5, date: '1週間前', text: '完全プライベート空間でオーダーメイドのレッスンが受けられます。白金高輪からも通いやすいです。' },
-      { author: 'K.M', rating: 5, date: '2週間前', text: '月謝制で1レッスン6,250円〜。パーソナルとしてはリーズナブル。インストラクターの質が高い。' },
-    ],
+    image: '/images/studios/studio-ivy.webp', reviewCount: 95,
     price: '1回 6,250円〜', trial: '体験レッスンあり',
     features: ['パーソナル専門', 'マシンピラティス', '完全個室', '全国112店舗'],
     description: '全国112店舗展開のパーソナルマシンピラティス専門スタジオ。港区内に4店舗を展開し、広尾店は白金高輪エリアからもアクセス良好。完全プライベート空間でオーダーメイドのプログラムを提供。「なりたい自分になれる場所」をコンセプトに、姿勢改善と理想のボディラインを実現。',
@@ -79,12 +62,7 @@ const studios = [
   },
   {
     name: 'Habit Pilates studio 白金高輪店',
-    image: '/images/studios/habit-pilates.webp',
-    rating: 4.7, reviewCount: 68,
-    reviews: [
-      { author: 'N.Y', rating: 5, date: '2週間前', text: '1クラス最大5名の少人数制で、一人ひとりに合わせたレッスンが受けられます。白金高輪駅から徒歩5分で通いやすい。' },
-      { author: 'H.K', rating: 4, date: '1ヶ月前', text: 'マシンピラティス専門で本格的なレッスンが受けられます。アットホームな雰囲気も魅力。' },
-    ],
+    image: '/images/studios/habit-pilates.webp', reviewCount: 68,
     price: 'お問い合わせください', trial: '体験レッスンあり',
     features: ['少人数制（最大5名）', '白金高輪駅徒歩5分', 'マシンピラティス専門', 'アットホーム'],
     description: '白金高輪駅から徒歩5分の少人数制マシンピラティススタジオ。1クラス最大5名の少人数レッスンで、一人ひとりに合わせた丁寧な指導を提供。アットホームな雰囲気のなかで本格的なマシンピラティスを楽しめます。',
@@ -97,12 +75,7 @@ const studios = [
   },
   {
     name: 'Pilates Studio eleven 白金台',
-    image: '/images/studios/pilates-eleven-shirokanedai.webp',
-    rating: 4.8, reviewCount: 72,
-    reviews: [
-      { author: 'E.S', rating: 5, date: '1週間前', text: '白金台のおしゃれなスタジオ。マシンピラティス専門で質の高いレッスンが受けられます。' },
-      { author: 'Y.M', rating: 5, date: '3週間前', text: '白金高輪からも近く通いやすい。落ち着いた雰囲気で集中してレッスンに取り組めます。' },
-    ],
+    image: '/images/studios/pilates-eleven-shirokanedai.webp', reviewCount: 72,
     price: 'お問い合わせください', trial: '体験レッスンあり',
     features: ['マシンピラティス専門', '白金台エリア', '上質な空間', 'パーソナル対応'],
     description: '港区白金台のマシンピラティス専門スタジオ。白金高輪駅・白金台駅の両方からアクセス可能。閑静な高級住宅街に位置し、上質な空間で本格的なマシンピラティスを提供。パーソナルレッスンにも対応。',
@@ -115,12 +88,7 @@ const studios = [
   },
   {
     name: 'Premium Machine Pilates 白金高輪',
-    image: '/images/studios/premium-machine-shirokanetakanawa.webp',
-    rating: 4.7, reviewCount: 55,
-    reviews: [
-      { author: 'M.T', rating: 5, date: '2週間前', text: '白金高輪駅から徒歩2分！マシンピラティス専用スタジオで設備が素晴らしい。' },
-      { author: 'A.K', rating: 4, date: '1ヶ月前', text: 'Premium Yoga&Pilatesの系列でマシン専用スタジオ。リフォーマーを使ったレッスンが充実しています。' },
-    ],
+    image: '/images/studios/premium-machine-shirokanetakanawa.webp', reviewCount: 55,
     price: 'お問い合わせください', trial: '体験レッスンあり',
     features: ['マシン専用', '白金高輪駅徒歩2分', 'リフォーマー充実', '少人数制'],
     description: '白金高輪駅から徒歩2分のマシンピラティス専用スタジオ。Premium Yoga&Pilatesの系列店として、マシン（リフォーマー）に特化したレッスンを提供。少人数制で丁寧な指導が受けられます。',
@@ -133,12 +101,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 港区エリア',
-    image: '/images/studios/club-pilates.webp',
-    rating: 4.6, reviewCount: 110,
-    reviews: [
-      { author: 'R.T', rating: 5, date: '1週間前', text: '世界最大級のマシンピラティススタジオ。8種類のクラスが4段階のレベルに分かれていて、初心者でも安心。' },
-      { author: 'S.N', rating: 4, date: '2週間前', text: '国際基準のインストラクターが在籍。白金高輪から通えるエリアに店舗があります。' },
-    ],
+    image: '/images/studios/club-pilates.webp', reviewCount: 110,
     price: 'お問い合わせください', trial: '体験レッスンあり',
     features: ['世界最大級', '8種類のクラス', '4段階レベル', '国際基準インストラクター'],
     description: '世界最大級のマシンピラティススタジオ。8種類のクラスを4段階の難易度レベルで提供し、初心者から上級者まで幅広く対応。国際基準の教育を受けたインストラクターが在籍。白金高輪エリアからもアクセス可能な港区内の店舗で本格的なピラティスを体験できます。',
@@ -151,12 +114,7 @@ const studios = [
   },
   {
     name: 'Rintosull（リントスル）港区エリア',
-    image: '/images/studios/rintosull.webp',
-    rating: 4.5, reviewCount: 88,
-    reviews: [
-      { author: 'Y.I', rating: 5, date: '2週間前', text: 'LAVA系列のマシンピラティス専門スタジオ。リフォーマーを使ったレッスンが予約不要で受けられるのが便利。' },
-      { author: 'C.T', rating: 4, date: '1ヶ月前', text: '東京に133店舗展開で通いやすい。体幹を効率的に鍛えられます。' },
-    ],
+    image: '/images/studios/rintosull.webp', reviewCount: 88,
     price: 'お問い合わせください', trial: '体験レッスンあり',
     features: ['LAVA系列', 'マシンピラティス専門', '予約不要', '都内133店舗'],
     description: 'ホットヨガLAVA系列のマシンピラティス専門スタジオ。東京に133店舗を展開し、白金高輪エリアからも通いやすい店舗あり。リフォーマーを使って体幹と柔軟性を効率的にトレーニング。急速に店舗数を拡大中。',
@@ -169,12 +127,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 表参道店',
-    image: '/images/studios/pilates-k.webp',
-    rating: 4.6, reviewCount: 130,
-    reviews: [
-      { author: 'M.N', rating: 5, date: '1週間前', text: '女性専用のマシンピラティス。音楽に合わせたグループレッスンが楽しい！白金高輪からも通える距離。' },
-      { author: 'K.S', rating: 4, date: '3週間前', text: '当日予約もOK。全国122店舗展開でコスパも良い。おしゃれな空間で気分が上がります。' },
-    ],
+    image: '/images/studios/pilates-k.webp', reviewCount: 130,
     price: 'マンスリー4メンバー 13,420円〜', trial: '体験レッスンあり',
     features: ['女性専用', '音楽×ピラティス', '当日予約OK', '全国122店舗'],
     description: '女性専用のマシンピラティス専門スタジオ。全国122店舗展開。音楽に合わせたグループレッスンが特徴で、楽しみながらボディメイクが可能。当日予約も対応。表参道店は白金高輪エリアからもアクセスしやすい港区内の人気店舗。',
@@ -187,12 +140,7 @@ const studios = [
   },
   {
     name: 'the SILK（ザ シルク）港区エリア',
-    image: '/images/studios/the-silk.webp',
-    rating: 4.5, reviewCount: 95,
-    reviews: [
-      { author: 'A.M', rating: 5, date: '2週間前', text: '女性専用で清潔感があり安心。ライト付きメイクミラーやヘアアイロンなどパウダールームが充実しています。' },
-      { author: 'R.K', rating: 4, date: '1ヶ月前', text: '音楽に合わせてリフォーマーを使うレッスンが楽しい。初心者でも無理なく始められました。' },
-    ],
+    image: '/images/studios/the-silk.webp', reviewCount: 95,
     price: 'お問い合わせください', trial: '体験レッスンあり',
     features: ['女性専用', 'マシン専門', 'パウダールーム充実', '音楽×ピラティス'],
     description: '女性専用のマシンピラティス専門スタジオ。音楽に合わせてリフォーマーを使うレッスンが特徴。ライト付きメイクミラー、ヘアアイロン、ドライヤー完備のパウダールームなど、女性に嬉しい設備が充実。ウォーターサーバーも無料。白金高輪エリアからもアクセス可能な港区内店舗。',
@@ -205,12 +153,7 @@ const studios = [
   },
   {
     name: 'CORAL 白金 マシンピラティススタジオ',
-    image: '/images/studios/coral-shirokane.webp',
-    rating: 4.8, reviewCount: 45,
-    reviews: [
-      { author: 'S.Y', rating: 5, date: '1週間前', text: '南麻布のおしゃれなマシンピラティススタジオ。パーソナルで一人ひとりに合わせた丁寧な指導が受けられます。' },
-      { author: 'K.T', rating: 5, date: '3週間前', text: '白金高輪駅から近くて便利。落ち着いた空間でじっくりピラティスに取り組めます。' },
-    ],
+    image: '/images/studios/coral-shirokane.webp', reviewCount: 45,
     price: 'お問い合わせください', trial: '体験レッスンあり',
     features: ['パーソナル対応', '南麻布エリア', 'マシンピラティス専門', '上質な空間'],
     description: '港区南麻布のマシンピラティス専門スタジオ。白金高輪駅からもアクセス可能な好立地。パーソナルトレーニングを中心に、一人ひとりの体の状態に合わせたオーダーメイドのプログラムを提供。落ち着いた上質な空間でピラティスを楽しめます。',

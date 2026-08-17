@@ -21,13 +21,6 @@ const studios = [
   {
     name: 'ピラティスK 大津テラス店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.6,
-    reviewCount: 110,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '女性専用マシンピラティス専門スタジオ。大津テラス内に位置し、買い物ついでに通える便利さが魅力。通いやすくて気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧。初心者でも安心して通えます。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 11,220円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '大津テラス内', 'マシン専門', '体験無料'],
@@ -42,13 +35,6 @@ const studios = [
   {
     name: 'B.walk（ビーウォーク）瀬田店',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 25,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '瀬田駅徒歩3分のマシンピラティス×少人数ヨガスタジオ。完全個室のプライベート空間で自分だけの時間を楽しめる。通いやすくて気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧。初心者でも安心して通えます。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: 'パーソナル制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['瀬田駅徒歩3分', '完全個室', '女性専用', 'ヨガ併設'],
@@ -63,13 +49,6 @@ const studios = [
   {
     name: 'luluto（ルルト）大津店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
     image: '/images/studios/luluto.webp',
-    rating: 4.8,
-    reviewCount: 20,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '完全マンツーマンのマシンピラティススタジオ。理学療法士監修のプログラムで一人ひとりに合わせた指導。通いやすくて気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧。初心者でも安心して通えます。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月3回 29,700円〜',
     trial: '体験レッスンあり',
     features: ['完全マンツーマン', '理学療法士監修', '高品質指導', 'カスタマイズ'],
@@ -84,13 +63,6 @@ const studios = [
   {
     name: '美ボディクラブ紬',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.5,
-    reviewCount: 18,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '初めてでも体が硬くても大丈夫なヨガ・ピラティス教室。補助具を使い「気持ちいい・やりやすい」レッスンが特徴。通いやすくて気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧。初心者でも安心して通えます。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月額制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['初心者歓迎', 'マットピラティス', '補助具使用', 'アットホーム'],
@@ -105,13 +77,6 @@ const studios = [
   {
     name: 'Rintosull（リントスル）大津店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.5,
-    reviewCount: 75,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'ホットヨガLAVAの姉妹ブランド。月4回8,800円〜と低価格でLAVA全店との相互利用も可能。通いやすくて気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧。初心者でも安心して通えます。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 8,800円〜',
     trial: '体験レッスンあり',
     features: ['低価格', 'LAVA相互利用', 'マシン専門', '映像レッスン'],

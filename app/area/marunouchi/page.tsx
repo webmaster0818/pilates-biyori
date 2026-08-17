@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates 八重洲スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 35,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '1週間前',
-        text: '全国150店舗以上あるので出張先でも通えるのが便利。マットとマシンの両方に対応していて、自分の体調に合わせてレッスンを選べます。男性も多いので通いやすい。',
-      },
-      {
-        author: 'S.T',
-        rating: 5,
-        date: '2週間前',
-        text: '大手町駅B10出口から徒歩7分、東京駅八重洲北口から徒歩5分とアクセス抜群。グループ体験が1,000円で気軽に試せました。インストラクターの質が高いです。',
-      },
-      {
-        author: 'R.N',
-        rating: 4,
-        date: '3週間前',
-        text: '月4回10,450円〜とリーズナブル。相互利用で全国の店舗が使えるのが最大の魅力。仕事帰りに通えるので継続しやすいです。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['全国150店舗相互利用', 'マット&マシン対応', '男性OK', '体験1,000円'],
@@ -78,28 +56,6 @@ const studios = [
   {
     name: 'the SILK 八重洲店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.8,
-    reviewCount: 335,
-    reviews: [
-      {
-        author: 'E.M',
-        rating: 5,
-        date: '1週間前',
-        text: '音楽に合わせたピラティスレッスンが楽しい！女性専用なので安心して通えます。体験が無料なので気軽に試せました。PMA加盟団体監修で本格的。',
-      },
-      {
-        author: 'N.K',
-        rating: 5,
-        date: '2週間前',
-        text: '手ぶらOKなので仕事帰りにそのまま通えるのが最高。大手町駅から徒歩5分、東京駅からも徒歩5分とアクセスも抜群です。',
-      },
-      {
-        author: 'H.Y',
-        rating: 4,
-        date: '3週間前',
-        text: '月3回12,980円〜で始められるので、初めてのピラティスにぴったり。スタジオがおしゃれで気分が上がります。インストラクターも丁寧。',
-      },
-    ],
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '音楽レッスン', '体験無料', '手ぶらOK'],
@@ -132,28 +88,6 @@ const studios = [
   {
     name: 'CLUB PILATES',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.7,
-    reviewCount: 118,
-    reviews: [
-      {
-        author: 'A.T',
-        rating: 5,
-        date: '1週間前',
-        text: '世界最大級のピラティスブランドで安心感があります。15種類の器具を使ったレッスンは毎回新鮮で飽きません。体験が無料30分なのも嬉しいポイント。',
-      },
-      {
-        author: 'Y.S',
-        rating: 5,
-        date: '2週間前',
-        text: '4段階のレベル分けがあるので初心者でも安心して始められました。男性会員もいるので夫婦で通っています。インストラクターの質が高い。',
-      },
-      {
-        author: 'K.M',
-        rating: 4,
-        date: '3週間前',
-        text: 'インストラクター全員が500時間以上の研修を受けた資格保持者。月4回14,190円〜で本格的なマシンピラティスが受けられます。',
-      },
-    ],
     price: '月4回 14,190円〜',
     trial: '体験レッスン 0円（30分）',
     features: ['世界最大級チェーン', '15種類の器具', '男性OK', '体験0円'],
@@ -185,28 +119,6 @@ const studios = [
   {
     name: 'Pilates Mee 築地店',
     image: '/images/studios/pilates-mee.webp',
-    rating: 4.8,
-    reviewCount: 7,
-    reviews: [
-      {
-        author: 'K.N',
-        rating: 5,
-        date: '1週間前',
-        text: '最大3名のセミパーソナルで1レッスン1,250円〜は驚きの価格。パーソナルに近い丁寧な指導をグループ価格で受けられます。女性専用で安心。',
-      },
-      {
-        author: 'Y.M',
-        rating: 5,
-        date: '2週間前',
-        text: '当日予約OKなので急な予定変更にも対応できます。丸の内からもアクセスしやすい立地で仕事帰りに通えます。',
-      },
-      {
-        author: 'A.S',
-        rating: 4,
-        date: '3週間前',
-        text: 'インストラクターが丁寧で初心者にも優しい。最大3名なのでしっかりフォームを見てもらえます。コスパ最強です。',
-      },
-    ],
     price: '1回 1,250円〜（通い放題）',
     trial: '体験レッスンあり',
     features: ['女性専用', 'セミパーソナル最大3名', '1回1,250円〜', '当日予約OK'],
@@ -239,28 +151,6 @@ const studios = [
   {
     name: 'STUDIO IVY',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.9,
-    reviewCount: 9,
-    reviews: [
-      {
-        author: 'T.H',
-        rating: 5,
-        date: '1週間前',
-        text: '完全プライベート空間でのパーソナルレッスンなので、周りの目を気にせず集中できます。オーダーメイドのプログラムで自分だけのレッスンを受けられます。',
-      },
-      {
-        author: 'M.S',
-        rating: 5,
-        date: '2週間前',
-        text: '月2回15,000円〜で本格的なパーソナルピラティスが受けられます。完全個室なので人目を気にせずリラックスして取り組めます。',
-      },
-      {
-        author: 'Y.K',
-        rating: 5,
-        date: '3週間前',
-        text: '体験は4,500円ですが、しっかりカウンセリングしてもらえて自分の体の課題が明確になりました。結果にこだわりたい方におすすめです。',
-      },
-    ],
     price: '月2回 15,000円〜',
     trial: '体験レッスン 4,500円',
     features: ['完全パーソナル', '完全プライベート空間', 'オーダーメイド', '月2回15,000円〜'],

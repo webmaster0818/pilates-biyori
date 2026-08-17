@@ -358,6 +358,21 @@ export function StudioCard({ studio, index }: StudioCardProps) {
             >
               公式サイトを見てみる
             </a>
+            {/*
+              口コミは当サイトでは掲載せず、Googleマップの実際の口コミへ誘導する。
+              ⚠️ 以前ここには編集部が用意した口コミ文が並んでいたが、
+                 同じ本文が別スタジオにも使い回されており、実在の利用者の声ではなかった。
+                 実在の口コミを転載するにはGoogleの利用規約上の制約があるため、
+                 「当サイトには載せず、一次情報へ送る」形にしている。
+            */}
+            <a
+              href={`https://www.google.com/maps/search/${encodeURIComponent(studio.name.replace(/（[^）]*）/g, '').trim())}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block ml-3 text-sm text-warm-700 underline hover:text-warm-900 transition"
+            >
+              Googleマップで口コミを見る
+            </a>
             {/* A8インプレッション計測(zen place) */}
             {studio.officialUrl?.includes('a8mat=4B650J+3SXRGI+4LQ4+5YJRM') && (
               // eslint-disable-next-line @next/next/no-img-element

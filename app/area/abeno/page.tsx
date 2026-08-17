@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'pilates K 天王寺店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 131,
-    reviews: [
-      {
-        author: 'M.N',
-        rating: 5,
-        date: '1週間前',
-        text: '大阪メトロ天王寺駅14号出口から徒歩1分！きんえいアポロビル6階。女性専用で安心。音楽に合わせたリフォーマーレッスンが楽しい。部位別ボディメイクプログラムが充実。',
-      },
-      {
-        author: 'S.H',
-        rating: 5,
-        date: '2週間前',
-        text: '月4回11,220円とコスパ良好。体験2,000円で気軽に試せました。キャンペーン時は体験無料のことも。',
-      },
-      {
-        author: 'R.K',
-        rating: 4,
-        date: '3週間前',
-        text: '脚・お尻・お腹・二の腕・背中の5パートに分けた全身プログラムが効果的。マシンピラティス専門なのでリフォーマーの台数が多い。',
-      },
-    ],
     price: '月4回 11,220円〜',
     trial: '体験レッスン 2,000円',
     features: ['女性専用', '天王寺駅徒歩1分', '部位別プログラム', 'マシン専門'],
@@ -77,28 +55,6 @@ const studios = [
     name: 'zen place pilates 天王寺スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 19,
-    reviews: [
-      {
-        author: 'K.M',
-        rating: 5,
-        date: '1週間前',
-        text: 'JR天王寺駅南口から徒歩5分、大阪阿倍野橋駅から徒歩3分。マットグループ・マシングループ・プライベートの3タイプから選べる。全国150店舗以上で他店利用可能。',
-      },
-      {
-        author: 'Y.S',
-        rating: 5,
-        date: '2週間前',
-        text: 'ピラティス専門20年以上の実績。体験当日入会で入会金無料。男性もOK。平日9時から22時まで営業で通いやすい。',
-      },
-      {
-        author: 'A.T',
-        rating: 4,
-        date: '3週間前',
-        text: 'ヨガレッスンも受講可能。インストラクターの質が高く、丁寧に教えてもらえます。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['阿倍野橋駅徒歩3分', '男性OK', '全国相互利用', 'ヨガも受講可'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'Rintosull（リントスル）天王寺店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.5,
-    reviewCount: 74,
-    reviews: [
-      {
-        author: 'E.Y',
-        rating: 5,
-        date: '1週間前',
-        text: 'JR天王寺駅から徒歩3分、アベノセンタービル4F。LAVAが運営する女性専用マシンピラティス。大画面映像を見ながらリフォーマーでトレーニング。',
-      },
-      {
-        author: 'N.M',
-        rating: 4,
-        date: '2週間前',
-        text: '月4回8,800円〜とリーズナブル。通い放題でも13,800円。初心者でも映像ガイドで安心してレッスンできます。',
-      },
-      {
-        author: 'T.K',
-        rating: 4,
-        date: '3週間前',
-        text: 'LAVAのホットヨガと併用できるプランもあるので、ピラティスとヨガの両方楽しめます。',
-      },
-    ],
     price: '月4回 8,800円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', '天王寺駅徒歩3分', 'LAVA運営', 'リーズナブル'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'PILATES & PERSONAL GYM LAULE\'A',
     image: '/images/studios/laulea-tennoji.webp',
-    rating: 4.7,
-    reviewCount: 75,
-    reviews: [
-      {
-        author: 'H.A',
-        rating: 5,
-        date: '1週間前',
-        text: '阿倍野駅から徒歩10秒！天王寺駅からも徒歩5分。完全オーダーメイドのパーソナルレッスンが受けられるピラティス＆パーソナルジム。',
-      },
-      {
-        author: 'C.S',
-        rating: 5,
-        date: '2週間前',
-        text: 'グループレッスンは最大4名の少人数制。一人ひとりに合わせた丁寧な指導。チケット制で通いやすい。',
-      },
-      {
-        author: 'M.T',
-        rating: 4,
-        date: '3週間前',
-        text: '2023年オープンの比較的新しいスタジオ。設備がきれいで清潔感がある。パーソナルトレーニングも同時に受けられるのが魅力。',
-      },
-    ],
     price: 'チケット制（公式サイト）',
     trial: '体験レッスンあり',
     features: ['阿倍野駅徒歩10秒', 'パーソナル', '少人数制', 'ジム併設'],
@@ -236,28 +148,6 @@ const studios = [
   {
     name: 'スタジオバランス あべの店',
     image: '/images/studios/studio-balance-abeno.webp',
-    rating: 4.5,
-    reviewCount: 18,
-    reviews: [
-      {
-        author: 'Y.K',
-        rating: 5,
-        date: '1週間前',
-        text: 'あべのベルタ地下1階。天王寺駅から徒歩5分。ピラティスだけでなくヨガ・フラ・ミュージカルなど20種類以上のプログラム。月4回6,380円と非常にリーズナブル。',
-      },
-      {
-        author: 'A.N',
-        rating: 4,
-        date: '2週間前',
-        text: '無料体験を随時開催中。フリープランでも月9,790円と通いやすい価格。複数のジャンルを楽しめるのが他にない魅力。',
-      },
-      {
-        author: 'R.M',
-        rating: 4,
-        date: '3週間前',
-        text: 'ピラティス以外にもヨガやフラダンスもできるので飽きずに続けられます。アットホームな雰囲気。',
-      },
-    ],
     price: '月4回 6,380円〜',
     trial: '無料体験あり',
     features: ['天王寺駅徒歩5分', '20種類以上', '格安', '無料体験'],

@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'ピラティスアヴニール 宝塚店',
     image: '/images/studios/pilates-avenir-shinosaka.webp',
-    rating: 4.8,
-    reviewCount: 13,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '1週間前',
-        text: '宝塚駅から徒歩2分で通いやすい！完全個室のマンツーマンレッスンなので、人目を気にせず集中できます。子連れOKなのも嬉しいポイント。',
-      },
-      {
-        author: 'S.T',
-        rating: 5,
-        date: '2週間前',
-        text: '朝7時から夜23時まで営業しているので、仕事前や仕事後にも通えて便利。駐車場も完備しているので車でも安心。',
-      },
-      {
-        author: 'A.N',
-        rating: 4,
-        date: '3週間前',
-        text: '体験レッスン90分が2,980円で受けられました。インストラクターが丁寧にカウンセリングしてくれて、自分の体の状態がよくわかりました。',
-      },
-    ],
     price: '月額 14,800円〜',
     trial: '体験レッスン 2,980円（90分）',
     features: ['宝塚駅徒歩2分', '完全個室', 'マンツーマン', '子連れOK'],
@@ -76,28 +54,6 @@ const studios = [
   {
     name: 'PALES（パレス）宝塚店',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 4,
-    reviews: [
-      {
-        author: 'R.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '宝塚南口駅から徒歩6分。ピラティスだけでなくキックボクシングやトレーニングもできるので、飽きずに続けられます。',
-      },
-      {
-        author: 'K.M',
-        rating: 5,
-        date: '2週間前',
-        text: '体験60分が無料キャンペーン中だったので気軽に試せました。駐車場代も店舗負担なのが嬉しい。',
-      },
-      {
-        author: 'T.S',
-        rating: 4,
-        date: '3週間前',
-        text: '姿勢改善を目的に通い始めましたが、3ヶ月で肩こりがかなり楽になりました。トレーナーの指導が的確。',
-      },
-    ],
     price: '月額 要問い合わせ',
     trial: '体験レッスン 無料（キャンペーン中）',
     features: ['宝塚南口駅徒歩6分', 'ピラティス＋トレーニング', '駐車場無料', '姿勢改善特化'],
@@ -129,28 +85,6 @@ const studios = [
   {
     name: 'studio Y i-grek（スタジオイグレック）',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.9,
-    reviewCount: 22,
-    reviews: [
-      {
-        author: 'H.M',
-        rating: 5,
-        date: '1週間前',
-        text: '宝塚南口駅から徒歩5分。完全予約制のプライベートレッスンで、バレエのためのピラティスも受けられます。インストラクターの技術が素晴らしい。',
-      },
-      {
-        author: 'E.O',
-        rating: 5,
-        date: '2週間前',
-        text: '一人ひとりの体に合わせたオーダーメイドレッスン。肩こりと腰痛が改善されて驚きました。',
-      },
-      {
-        author: 'C.K',
-        rating: 5,
-        date: '3週間前',
-        text: '宝塚歌劇のファンで近くに来た際に通い始めました。バレエダンサー向けのピラティスがあるのが珍しい。',
-      },
-    ],
     price: '1回 要問い合わせ',
     trial: '体験レッスンあり（要問い合わせ）',
     features: ['宝塚南口駅徒歩5分', '完全予約制', 'バレエ向けピラティス', 'オーダーメイド'],
@@ -182,28 +116,6 @@ const studios = [
   {
     name: 'マシンピラティスサロン Jiku',
     image: '/images/studios/pilates-mee.webp',
-    rating: 4.7,
-    reviewCount: 12,
-    reviews: [
-      {
-        author: 'N.I',
-        rating: 5,
-        date: '1週間前',
-        text: '初心者専門のスタジオということで安心して通い始めました。女性専用＆完全個室なので、人目を気にせずレッスンに集中できます。',
-      },
-      {
-        author: 'Y.T',
-        rating: 4,
-        date: '2週間前',
-        text: '逆瀬川駅から徒歩10分とやや歩きますが、閑静な住宅街にある隠れ家的な雰囲気が気に入っています。',
-      },
-      {
-        author: 'K.A',
-        rating: 5,
-        date: '3週間前',
-        text: '体験当日入会で入会金無料になりました。インストラクターがとても親切で、運動が苦手な私でも楽しくレッスンできました。',
-      },
-    ],
     price: '要問い合わせ',
     trial: '体験レッスンあり',
     features: ['女性専用', '完全個室', '初心者専門', 'パーソナル'],
@@ -235,28 +147,6 @@ const studios = [
   {
     name: 'PILATES AURA（ピラティスアウラ）宝塚',
     image: '/images/studios/rintosull.webp',
-    rating: 4.6,
-    reviewCount: 26,
-    reviews: [
-      {
-        author: 'L.H',
-        rating: 5,
-        date: '1週間前',
-        text: '宝塚南口駅から徒歩6分。アットホームな雰囲気のスタジオで、リラックスしてレッスンを受けられます。',
-      },
-      {
-        author: 'M.S',
-        rating: 4,
-        date: '2週間前',
-        text: '少人数制のグループレッスンがあるので、パーソナルよりリーズナブルに通えます。インストラクターの目が行き届いて安心。',
-      },
-      {
-        author: 'R.K',
-        rating: 4,
-        date: '3週間前',
-        text: '宝塚の落ち着いた環境で、心も体もリフレッシュできるスタジオです。継続して通いたいと思えるアットホームさ。',
-      },
-    ],
     price: '要問い合わせ',
     trial: '体験レッスンあり',
     features: ['宝塚南口駅徒歩6分', 'アットホーム', '少人数制', 'マシンピラティス'],
@@ -288,28 +178,6 @@ const studios = [
   {
     name: 'むすびピラティス宝塚',
     image: '/images/studios/pilates-studio-dep.webp',
-    rating: 4.8,
-    reviewCount: 9,
-    reviews: [
-      {
-        author: 'J.O',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用のボディメイク専門スタジオ。マシンピラティスとマスターストレッチを組み合わせたレッスンが受けられます。',
-      },
-      {
-        author: 'A.Y',
-        rating: 5,
-        date: '2週間前',
-        text: '完全予約制のプライベートレッスンなので、自分のペースで無理なく進められます。しなやかな体づくりを目指せる。',
-      },
-      {
-        author: 'S.M',
-        rating: 4,
-        date: '3週間前',
-        text: '宝塚駅から徒歩10分。閑静な住宅街にあるプライベートスタジオ。バスやタクシーでもアクセス可能。',
-      },
-    ],
     price: '要問い合わせ',
     trial: '体験レッスンあり（要問い合わせ）',
     features: ['女性専用', 'ボディメイク専門', 'マスターストレッチ', '完全予約制'],

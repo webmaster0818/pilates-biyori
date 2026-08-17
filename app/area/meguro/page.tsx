@@ -27,28 +27,6 @@ const studios = [
     name: 'zen place pilates 目黒',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 18,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '1週間前',
-        text: '目黒駅から徒歩2分で通いやすい。全国150店舗以上を他店利用できるので、出張先でもレッスンが受けられて便利です。マシンが豊富で飽きません。',
-      },
-      {
-        author: 'S.T',
-        rating: 5,
-        date: '2週間前',
-        text: '男性も通えるスタジオなので夫婦で入会しました。グループ体験が1,000円で気軽に試せるのが良かったです。インストラクターの質が高い。',
-      },
-      {
-        author: 'R.N',
-        rating: 4,
-        date: '3週間前',
-        text: '月4回10,450円〜とリーズナブル。リフォーマーやチェアなどマシンが豊富に揃っていて、毎回違うレッスンを楽しめます。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['全国150店舗相互利用', 'マシン豊富', '男性OK', '駅徒歩2分'],
@@ -80,28 +58,6 @@ const studios = [
   {
     name: 'the SILK 目黒エリア',
     image: '/images/studios/the-silk.webp',
-    rating: 4.8,
-    reviewCount: 335,
-    reviews: [
-      {
-        author: 'E.M',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用なので安心して通えます。音楽に合わせたレッスンが楽しくて、運動嫌いの私でも続けられています。手ぶらで通えるのも嬉しい。',
-      },
-      {
-        author: 'N.K',
-        rating: 5,
-        date: '2週間前',
-        text: '体験が無料なので気軽に試せました。朝7:30からレッスンがあるので出勤前に通えて便利。スタジオの雰囲気もおしゃれで気分が上がります。',
-      },
-      {
-        author: 'H.Y',
-        rating: 4,
-        date: '3週間前',
-        text: '月3回12,980円〜で始められるので、初めてのピラティスにちょうど良い価格帯。音楽レッスンは他では体験できない独自のプログラムです。',
-      },
-    ],
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '音楽レッスン', '手ぶらOK', '体験無料'],
@@ -133,28 +89,6 @@ const studios = [
   {
     name: 'ピラティスミラー 中目黒',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.6,
-    reviewCount: 14,
-    reviews: [
-      {
-        author: 'A.T',
-        rating: 5,
-        date: '1週間前',
-        text: 'コナミスポーツが運営しているので安心感があります。天井のミラーで自分のフォームを確認しながらレッスンできるのが画期的。30分で完結するのも忙しい人向け。',
-      },
-      {
-        author: 'Y.S',
-        rating: 4,
-        date: '2週間前',
-        text: '月6回11,000円は大手ジム運営ならではの価格設定。30分の短時間レッスンなので集中力が途切れず効率的にトレーニングできます。',
-      },
-      {
-        author: 'K.M',
-        rating: 5,
-        date: '3週間前',
-        text: '天井ミラーがあるので、インストラクターの指示に従いながら自分のフォームをリアルタイムで確認できます。体験2,200円で雰囲気も分かりました。',
-      },
-    ],
     price: '月6回 11,000円',
     trial: '体験レッスン 2,200円',
     features: ['コナミスポーツ運営', '天井ミラー', '30分レッスン', '月6回11,000円'],
@@ -186,28 +120,6 @@ const studios = [
   {
     name: 'Pilates Legacy Studio',
     image: '/images/studios/pilates-legacy-meguro.webp',
-    rating: 4.8,
-    reviewCount: 18,
-    reviews: [
-      {
-        author: 'K.N',
-        rating: 5,
-        date: '1週間前',
-        text: '目黒駅から徒歩2分と好立地。少人数制のグループレッスンなのでしっかりフォームを見てもらえます。マットとマシン両方のクラスがあるのも魅力。',
-      },
-      {
-        author: 'Y.M',
-        rating: 5,
-        date: '2週間前',
-        text: 'マットクラスとマシンクラスの両方を受けられるので、気分や目的に合わせて選べます。少人数制なので質問もしやすい環境です。',
-      },
-      {
-        author: 'A.S',
-        rating: 4,
-        date: '3週間前',
-        text: 'アットホームな雰囲気で居心地が良い。インストラクターが一人ひとりの体の状態を把握してくれていて、安心感があります。',
-      },
-    ],
     price: '詳細は公式サイト参照',
     trial: '体験レッスンあり',
     features: ['少人数制グループ', '駅徒歩2分', 'マット&マシン対応', 'アットホーム'],
@@ -239,28 +151,6 @@ const studios = [
   {
     name: 'STUDIO IVY 目黒エリア',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.9,
-    reviewCount: 4,
-    reviews: [
-      {
-        author: 'T.H',
-        rating: 5,
-        date: '1週間前',
-        text: '完全パーソナルなので他の人の目を気にせず集中できます。自分だけのオーダーメイドメニューで効率よく体を変えられています。',
-      },
-      {
-        author: 'M.S',
-        rating: 5,
-        date: '2週間前',
-        text: '完全プライベート空間でリラックスしてレッスンを受けられます。月2回15,000円〜で始められるので、パーソナルとしてはコスパが良いと思います。',
-      },
-      {
-        author: 'C.W',
-        rating: 5,
-        date: '3週間前',
-        text: 'オーダーメイドのレッスンで、自分の弱点や目標に合わせたプログラムを組んでもらえます。体験4,500円で質の高さを実感できました。',
-      },
-    ],
     price: '月2回 15,000円〜',
     trial: '体験レッスン 4,500円',
     features: ['完全パーソナル', '完全プライベート空間', 'オーダーメイド', '月2回15,000円〜'],

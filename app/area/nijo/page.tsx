@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'STUDIO IVY 四条大宮店',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.8,
-    reviewCount: 8,
-    reviews: [
-      {
-        author: 'M.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '四条大宮駅から徒歩5分。完全プライベート空間でのマシンピラティスが受けられます。オーダーメイドプログラムで自分の悩みにピンポイントで対応。',
-      },
-      {
-        author: 'K.H',
-        rating: 5,
-        date: '2週間前',
-        text: '月謝制で1レッスン6,250円〜と継続しやすい価格設定。清潔感のある洗練された空間で気持ちよくレッスンできます。',
-      },
-      {
-        author: 'A.T',
-        rating: 4,
-        date: '3週間前',
-        text: '二条からも通いやすい立地。パーソナル専門なので初心者でも自分のペースで進められるのが安心。',
-      },
-    ],
     price: '1回 6,250円〜',
     trial: '体験レッスンあり',
     features: ['四条大宮駅徒歩5分', 'パーソナル専門', 'オーダーメイド', '月謝制'],
@@ -76,28 +54,6 @@ const studios = [
   {
     name: 'Rintosull 京都四条烏丸店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.7,
-    reviewCount: 158,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '1週間前',
-        text: '烏丸駅から徒歩2分！ホットヨガLAVAが運営するマシンピラティス専門スタジオ。大画面スクリーンを使った最新スタイルのレッスンが新鮮。',
-      },
-      {
-        author: 'R.M',
-        rating: 5,
-        date: '2週間前',
-        text: '体験0円で気軽にスタート。87%以上が初心者とのことで安心。月額13,800円〜とリーズナブル。',
-      },
-      {
-        author: 'Y.N',
-        rating: 4,
-        date: '3週間前',
-        text: '二条からも電車ですぐ。女性専用で清潔感のあるスタジオ。お悩み部位にピンポイントでアプローチできるのが良い。',
-      },
-    ],
     price: '月額 13,800円〜',
     trial: '体験レッスン 0円',
     features: ['烏丸駅徒歩2分', '女性専用', '体験0円', 'LAVA運営'],
@@ -130,28 +86,6 @@ const studios = [
     name: 'zen place pilates 京都スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 30,
-    reviews: [
-      {
-        author: 'T.O',
-        rating: 5,
-        date: '1週間前',
-        text: '烏丸御池駅から徒歩4分。マット・マシン・プライベートの3タイプが選べる。全国150店舗以上で他店利用可能なのが便利。',
-      },
-      {
-        author: 'H.S',
-        rating: 5,
-        date: '2週間前',
-        text: 'ピラティス専門で20年以上の実績。グループ体験1,000円で気軽に試せました。インストラクターの質が高い。',
-      },
-      {
-        author: 'N.T',
-        rating: 4,
-        date: '3週間前',
-        text: '二条城が近くにあるエリア。レッスン後の散歩も気持ちいい。体験当日入会で入会金無料になりました。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['烏丸御池駅徒歩4分', 'マシンピラティス専門', '男性OK', '全国相互利用'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'SOU PILATES STUDIO（ソウピラティス）',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.7,
-    reviewCount: 7,
-    reviews: [
-      {
-        author: 'A.K',
-        rating: 5,
-        date: '1週間前',
-        text: '烏丸エリアにあるマシンピラティス専門スタジオ。トレーナーの指導が丁寧で、楽しく続けられます。',
-      },
-      {
-        author: 'M.I',
-        rating: 5,
-        date: '2週間前',
-        text: '体のアライメント（姿勢の並び）を整えるレッスンで、根本的な体づくりを目指せる。一人ひとりに合わせた指導が嬉しい。',
-      },
-      {
-        author: 'R.O',
-        rating: 4,
-        date: '3週間前',
-        text: 'ビルの上階にあるスタジオ。清潔感があり、二条からも通いやすい立地です。',
-      },
-    ],
     price: '要問い合わせ',
     trial: '体験レッスンあり',
     features: ['烏丸エリア', 'マシン専門', 'アライメント重視', 'パーソナル対応'],
@@ -236,28 +148,6 @@ const studios = [
   {
     name: 'Pilates MUSE 京都四条大宮',
     image: '/images/studios/pilates-mee.webp',
-    rating: 4.6,
-    reviewCount: 27,
-    reviews: [
-      {
-        author: 'E.S',
-        rating: 5,
-        date: '1週間前',
-        text: '「パーソナル指導×24時間スタジオ使い放題」のハイブリッド型が画期的。有資格トレーナーのレッスン後、自分でも復習できるのが良い。',
-      },
-      {
-        author: 'C.M',
-        rating: 4,
-        date: '2週間前',
-        text: '女性専用の結果重視スタジオ。四条大宮駅から近くて通いやすい。韓国風のおしゃれな内装も気分が上がります。',
-      },
-      {
-        author: 'Y.K',
-        rating: 4,
-        date: '3週間前',
-        text: '24時間使い放題のスタジオはなかなか珍しい。自分のペースで練習できるので上達が早い気がします。',
-      },
-    ],
     price: '70分6チケット＋24h使い放題 61,000円',
     trial: '体験レッスンあり',
     features: ['四条大宮駅近', '女性専用', '24h使い放題', '有資格トレーナー'],
@@ -289,28 +179,6 @@ const studios = [
   {
     name: 'style pilates 京都',
     image: '/images/studios/style-pilates-kyoto.webp',
-    rating: 4.5,
-    reviewCount: 10,
-    reviews: [
-      {
-        author: 'L.T',
-        rating: 5,
-        date: '1週間前',
-        text: '完全プライベート空間の韓国風スタジオ。おしゃれな内装でSNS映えします。レッスンの質も高くて大満足。',
-      },
-      {
-        author: 'N.A',
-        rating: 4,
-        date: '2週間前',
-        text: '韓国のピラティススタジオのような洗練された空間。二条エリアからもアクセスしやすい場所にあります。',
-      },
-      {
-        author: 'H.K',
-        rating: 4,
-        date: '3週間前',
-        text: 'インスタで見つけて体験に行きました。雰囲気がとても良く、レッスンも丁寧。定期的に通いたいスタジオです。',
-      },
-    ],
     price: '要問い合わせ',
     trial: '体験レッスンあり',
     features: ['韓国風スタジオ', '完全プライベート', 'おしゃれ空間', 'マシンピラティス'],

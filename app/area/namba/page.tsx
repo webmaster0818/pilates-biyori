@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates なんばスタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 21,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: 'なんば駅から徒歩3分で通いやすいです。ミナミの中心で、地下鉄・近鉄・南海全て使えます。道頓堀や心斎橋も近くて、レッスン後の観光も楽しめます。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '少人数制なので丁寧に見てもらえます。マシンの種類も豊富で、自分のレベルに合わせて進められます。ミナミは商業・娯楽の一大拠点で、いつも賑やかです。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: '全国展開しているので出張先でも通えます。なんばは若者や観光客が多く、活気がある街です。',
-      },
-    ],
     price: '月4回 13,200円〜',
     trial: '体験レッスン 1,000円',
     features: ['マシン完備', '初心者歓迎', 'なんば駅徒歩3分', 'インストラクター養成'],
@@ -77,28 +55,6 @@ const studios = [
   {
     name: 'WECLE なんば',
     image: '/images/studios/wecle-pilates.webp',
-    rating: 4.7,
-    reviewCount: 34,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: 'AI姿勢分析が面白い！自分の体の癖が数値で分かるので改善しやすいです。なんば駅から近くて、道頓堀での食事ついでに通えます。',
-      },
-      {
-        author: 'A.H',
-        rating: 4,
-        date: '2週間前',
-        text: '女性専用なので気兼ねなく通えます。マシンが新しくて使いやすい。体験が500円なので気軽に始められました。',
-      },
-      {
-        author: 'M.M',
-        rating: 5,
-        date: '3週間前',
-        text: '科学的なアプローチで効果が実感できます。なんばはミナミの中心で、ショッピングも楽しめます。',
-      },
-    ],
     price: '月4回 14,800円〜',
     trial: '体験レッスン 500円',
     features: ['AI姿勢分析', '最新マシン', 'なんば駅近', '女性専用'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'ピラティスK なんば',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.6,
-    reviewCount: 187,
-    reviews: [
-      {
-        author: 'T.W',
-        rating: 5,
-        date: '5日前',
-        text: '暗闇×音楽で楽しく続けられます！なんばでリフレッシュできるのが嬉しい。無料体験があって始めやすかったです。',
-      },
-      {
-        author: 'H.I',
-        rating: 4,
-        date: '1週間前',
-        text: '音楽に合わせて動くので飽きない。女性専用で周りを気にせず集中できます。インストラクターが明るくて楽しい雰囲気。',
-      },
-      {
-        author: 'S.N',
-        rating: 5,
-        date: '2週間前',
-        text: 'グループレッスンですが丁寧に見てくれます。暗闇なので初心者でも恥ずかしくない。2ヶ月で体が引き締まってきました。',
-      },
-    ],
     price: '月4回 15,070円〜',
     trial: '無料体験レッスン',
     features: ['音楽×マシン', '女性専用', '暗闇レッスン', 'グループレッスン'],
@@ -183,7 +117,6 @@ const studios = [
   {
     name: 'the SILK なんば',
     image: '/images/studios/the-silk.webp',
-    rating: 4.8,
     price: '月4回 15,070円〜',
     trial: '体験レッスン 無料',
     features: ['暗闇マシン', '音楽', 'なんば駅近', '女性専用'],
@@ -193,7 +126,6 @@ const studios = [
   {
     name: 'CLUB PILATES なんば',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.7,
     price: '月4回 14,190円〜',
     trial: '体験レッスン 無料',
     features: ['アメリカ発', 'グループ&プライベート', 'なんば駅近', '初心者歓迎'],
@@ -203,7 +135,6 @@ const studios = [
   {
     name: 'BDC PILATES なんば',
     image: '/images/studios/bdc-pilates.webp',
-    rating: 4.7,
     price: '1回 3,850円〜',
     trial: '体験レッスン 2,200円',
     features: ['ダンサー御用達', 'グループレッスン', 'なんば駅近', '本格的'],

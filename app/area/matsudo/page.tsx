@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'ピラティスK 松戸店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.8,
-    reviewCount: 123,
-    reviews: [
-      {
-        author: 'K.M',
-        rating: 5,
-        date: '1週間前',
-        text: '松戸駅から徒歩1分で通いやすい！女性専用なので安心して通えます。音楽に合わせたレッスンが楽しくて、あっという間に60分が過ぎます。',
-      },
-      {
-        author: 'S.T',
-        rating: 5,
-        date: '2週間前',
-        text: '0円体験で気軽に試せました。月4回11,220円〜とコスパが良い。部位別ボディメイクプログラムが充実しています。',
-      },
-      {
-        author: 'A.N',
-        rating: 4,
-        date: '3週間前',
-        text: '仕事帰りに通えるのが嬉しい。マシンピラティス専門なのでリフォーマーの台数が多く予約が取りやすいです。',
-      },
-    ],
     price: '月4回 11,220円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', '松戸駅徒歩1分', '部位別プログラム', '0円体験'],
@@ -76,28 +54,6 @@ const studios = [
   {
     name: 'the SILK 松戸店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.7,
-    reviewCount: 317,
-    reviews: [
-      {
-        author: 'Y.K',
-        rating: 5,
-        date: '1週間前',
-        text: '松戸駅から徒歩1分。女性専用で清潔感のある内装がおしゃれ。音楽に合わせたレッスンが楽しい。手ぶら体験無料で気軽に試せました。',
-      },
-      {
-        author: 'M.H',
-        rating: 5,
-        date: '2週間前',
-        text: '朝7:30から営業で通いやすい。ウェア・タオル無料貸出やウォーターサーバーも完備。パウダールームにはメイクアップミラーやアイロンもあって便利。',
-      },
-      {
-        author: 'R.S',
-        rating: 4,
-        date: '3週間前',
-        text: '月3回12,980円〜と始めやすい価格設定。レッスンの種類が豊富で飽きずに続けられます。初心者の8割がピラティス未経験者なので安心。',
-      },
-    ],
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '松戸駅徒歩1分', '手ぶら体験OK', '朝7:30〜'],
@@ -129,28 +85,6 @@ const studios = [
   {
     name: 'Pilates Mee 松戸店',
     image: '/images/studios/pilates-mee.webp',
-    rating: 4.7,
-    reviewCount: 7,
-    reviews: [
-      {
-        author: 'E.T',
-        rating: 5,
-        date: '1週間前',
-        text: '松戸駅から徒歩3分。最大3名のセミパーソナル形式でマシンピラティスを受けられる。一人ひとりに合わせた丁寧な指導が魅力。',
-      },
-      {
-        author: 'N.S',
-        rating: 4,
-        date: '2週間前',
-        text: '女性専用で安心。少人数制なのでインストラクターにしっかり見てもらえる。体験レッスン無料キャンペーン中でお得に始められた。',
-      },
-      {
-        author: 'H.K',
-        rating: 5,
-        date: '3週間前',
-        text: '9:00〜21:15まで営業で通いやすい。月2回11,000円〜とプランが豊富で自分に合ったペースで通える。',
-      },
-    ],
     price: '月2回 11,000円〜',
     trial: '体験レッスン 無料（キャンペーン中）',
     features: ['女性専用', '松戸駅徒歩3分', 'セミパーソナル', '最大3名'],
@@ -182,28 +116,6 @@ const studios = [
   {
     name: 'Rintosull（リントスル）松戸店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.6,
-    reviewCount: 80,
-    reviews: [
-      {
-        author: 'C.M',
-        rating: 5,
-        date: '1週間前',
-        text: 'LAVAが運営するマシンピラティス専門スタジオ。ホットヨガとの併用もできるので、ピラティスとヨガ両方楽しみたい人にぴったり。',
-      },
-      {
-        author: 'A.S',
-        rating: 4,
-        date: '2週間前',
-        text: '料金がリーズナブルで続けやすい。女性専用なので気兼ねなくレッスンに集中できます。インストラクターが丁寧に教えてくれます。',
-      },
-      {
-        author: 'K.Y',
-        rating: 5,
-        date: '3週間前',
-        text: 'LAVA会員だったので、追加でマシンピラティスも始めました。相互利用できるのが便利。松戸駅からのアクセスも良好。',
-      },
-    ],
     price: '月額 9,800円〜',
     trial: '体験レッスン 150円',
     features: ['女性専用', 'LAVA運営', 'ヨガ併用可', 'リーズナブル'],
@@ -235,28 +147,6 @@ const studios = [
   {
     name: 'lafimo 松戸店',
     image: '/images/studios/lafimo-yokohama.webp',
-    rating: 4.6,
-    reviewCount: 12,
-    reviews: [
-      {
-        author: 'T.N',
-        rating: 5,
-        date: '1週間前',
-        text: '松戸駅から徒歩2分。少人数制のマシンピラティスに加えて、ホットヨガやジムエリアも利用できる。岩盤浴付きで疲労回復にも最適。',
-      },
-      {
-        author: 'M.K',
-        rating: 4,
-        date: '2週間前',
-        text: '24時間営業で手ぶらで通えるのが便利。多彩な料金プランがあるので自分に合ったプランを選べます。',
-      },
-      {
-        author: 'Y.S',
-        rating: 5,
-        date: '3週間前',
-        text: 'ピラティス以外にもヨガやジムが使えるので飽きない。女性専用エリアもあり安心して利用できます。',
-      },
-    ],
     price: '月額 8,800円〜',
     trial: '体験レッスンあり',
     features: ['松戸駅徒歩2分', '24時間営業', 'ジム・ヨガ併設', '岩盤浴あり'],
@@ -288,28 +178,6 @@ const studios = [
   {
     name: 'PILATES KASANE 松戸店',
     image: '/images/studios/pilates-kasane.webp',
-    rating: 4.5,
-    reviewCount: 14,
-    reviews: [
-      {
-        author: 'R.M',
-        rating: 5,
-        date: '1週間前',
-        text: 'イオンモール松戸に入っているので買い物ついでに通える便利さ。マシンピラティス専門で初心者でも安心のプログラムが充実。',
-      },
-      {
-        author: 'K.A',
-        rating: 4,
-        date: '2週間前',
-        text: '料金がリーズナブルで続けやすい。駐車場が使えるので車で通えるのも便利。スタッフの対応が丁寧です。',
-      },
-      {
-        author: 'Y.T',
-        rating: 4,
-        date: '3週間前',
-        text: '清潔感のあるスタジオで気持ちよくレッスンできます。体験レッスンの案内が丁寧で入会を決めました。',
-      },
-    ],
     price: '月4回 11,880円〜',
     trial: '体験レッスン 500円',
     features: ['イオンモール内', '駐車場あり', 'マシン専門', '初心者歓迎'],

@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'ピラティスK 福岡天神店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 240,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '天神駅からすぐ。女性専用で安心。音楽に合わせたレッスンが楽しくて続けられる。体験0円で始めやすい。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '部位別プログラムが充実。お腹・脚・ヒップなど目的に合わせてレッスンを選べるのが良い。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: '天神の中心地にあってアクセス抜群。仕事帰りに通えるのが便利です。',
-      },
-    ],
     price: 'マンスリー4メンバー 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', '天神駅近', 'マシンピラティス専門', '体験0円'],
@@ -77,28 +55,6 @@ const studios = [
     name: 'zen place pilates 福岡天神スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 27,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: 'マットもマシンも両方受けられる。全国150店舗以上で他店利用可能。体験1,000円で気軽。',
-      },
-      {
-        author: 'A.H',
-        rating: 5,
-        date: '2週間前',
-        text: '男性もOKなので夫婦で通っています。少人数制で丁寧な指導。天神の便利な立地。',
-      },
-      {
-        author: 'M.M',
-        rating: 4,
-        date: '3週間前',
-        text: '1回約2,125円〜はコスパが良い。インストラクターの質が高い。',
-      },
-    ],
     price: 'マットグループ 月4回 9,625円〜',
     trial: '体験レッスン 1,000円〜',
     features: ['マット&マシン', '天神エリア', '男性OK', '全国相互利用'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'ルルト 福岡天神店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
     image: '/images/studios/luluto.webp',
-    rating: 4.9,
-    reviewCount: 15,
-    reviews: [
-      {
-        author: 'H.O',
-        rating: 5,
-        date: '1週間前',
-        text: '理学療法士の先生が担当してくれるので、腰痛の原因を根本から分析してもらえました。3ヶ月で長年の腰痛がかなり改善。全額返金保証があるので安心して始められました。',
-      },
-      {
-        author: 'A.S',
-        rating: 5,
-        date: '3週間前',
-        text: '完全マンツーマンなので自分のペースで進められます。毎回体の状態を見て内容を調整してくれるのが他のスタジオとは違うところです。',
-      },
-      {
-        author: 'R.I',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '体験1,000円で理学療法士のカウンセリングが受けられるのはお得。姿勢分析も詳しくて、自分の体の癖がよくわかりました。',
-      },
-    ],
     price: '月3回 29,700円〜',
     trial: '体験レッスン 1,000円',
     features: ['理学療法士監修', '完全マンツーマン', '天神エリア', '全額返金保証'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'Rintosull 天神店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.6,
-    reviewCount: 51,
-    reviews: [
-      {
-        author: 'N.S',
-        rating: 5,
-        date: '1週間前',
-        text: 'LAVA会員なので気軽に始められました。スクリーン映像とインストラクターのダブル指導で初心者でも安心。月4回8,800円は天神エリアで最安クラスです。',
-      },
-      {
-        author: 'T.K',
-        rating: 4,
-        date: '2週間前',
-        text: '女性専用なので周りを気にせずレッスンに集中できます。マシンの使い方も丁寧に教えてもらえるので、初めてでも問題なかったです。',
-      },
-      {
-        author: 'M.Y',
-        rating: 5,
-        date: '1ヶ月前',
-        text: 'ホットヨガと併用して通っています。ピラティスで体幹を鍛えてからヨガをするとポーズが安定するようになりました。',
-      },
-    ],
     price: '月4回 8,800円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', 'マシンピラティス', '天神エリア', 'LAVA系列'],

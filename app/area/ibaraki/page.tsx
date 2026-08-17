@@ -22,13 +22,6 @@ const studios = [
   {
     name: 'ピラティスK 茨木店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 156,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'JR茨木駅東口から徒歩1分！女性専用で音楽に合わせたリフォーマーレッスンが楽しい。体験無料で気軽に始められました。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: '月4回11,220円〜とコスパ抜群。部位別ボディメイクプログラムも充実。駅近で通いやすい。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: 'サンプラザ茨木駅前ビル2階にあり、初心者向けから上級者向けまでクラスが豊富。' },
-    ],
     price: '月4回 11,220円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'JR茨木駅徒歩1分', 'マシン専門', '体験無料'],
@@ -43,13 +36,6 @@ const studios = [
   {
     name: 'ma-eum（マウム）ピラティス JR茨木店',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 45,
-    reviews: [
-      { author: 'H.N', rating: 5, date: '1週間前', text: 'JR茨木駅から徒歩3分。医療系国家資格を持つインストラクターが在籍していて安心感がある。' },
-      { author: 'R.A', rating: 5, date: '2週間前', text: 'プライベート・セミプライベート・グループの3パターンから選べるのが嬉しい。体の状態に合わせて柔軟に対応してくれる。' },
-      { author: 'T.M', rating: 4, date: '3週間前', text: '阪急茨木市駅にも店舗があり、通いやすい方を選べる。インストラクターの知識が豊富。' },
-    ],
     price: '月額制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['医療系国家資格保有', 'JR茨木駅徒歩3分', '3パターンのレッスン', '2店舗展開'],
@@ -64,13 +50,6 @@ const studios = [
   {
     name: 'VITARISE（ビタライズ）茨木店',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 32,
-    reviews: [
-      { author: 'E.K', rating: 5, date: '1週間前', text: '理学療法士の国家資格保有者が在籍。整形外科クリニックと提携していて医学的なアプローチが受けられる。' },
-      { author: 'N.S', rating: 4, date: '2週間前', text: '体の痛みや不調に悩んでいたが、専門的な知識に基づいた指導で改善を実感。安心感が違う。' },
-      { author: 'Y.T', rating: 5, date: '3週間前', text: 'マシンピラティスで正しいフォームを丁寧に教えてもらえる。リハビリ的な要素もあり効果的。' },
-    ],
     price: 'パーソナル制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['理学療法士在籍', '整形外科提携', 'メディカル対応', '南茨木駅近く'],
@@ -85,13 +64,6 @@ const studios = [
   {
     name: 'Rintosull（リントスル）茨木店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.5,
-    reviewCount: 88,
-    reviews: [
-      { author: 'S.M', rating: 5, date: '1週間前', text: 'LAVAの姉妹ブランドで安心感がある。月4回8,800円〜と茨木エリアでは最安クラス。' },
-      { author: 'K.Y', rating: 4, date: '2週間前', text: 'LAVA全店も相互利用可能で、ピラティスとヨガの両方楽しめる。コスパ最高。' },
-      { author: 'M.H', rating: 4, date: '3週間前', text: '大型スクリーンの映像に合わせたレッスンで、グループでも一人ひとりサポートしてもらえる。' },
-    ],
     price: '月4回 8,800円〜',
     trial: '体験レッスンあり（予約制）',
     features: ['低価格', 'LAVA相互利用', 'マシン専門', '映像レッスン'],
@@ -107,13 +79,6 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 茨木店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
-    rating: 4.5,
-    reviewCount: 40,
-    reviews: [
-      { author: 'A.I', rating: 5, date: '1週間前', text: 'マシンピラティスとファンクショナルトレーニングを組み合わせたサーキット形式が新鮮。一人ずつ違う動きをするので周りを気にせずマイペースに取り組める。' },
-      { author: 'Y.M', rating: 4, date: '2週間前', text: '運動久しぶりでも無理なく始められた。インストラクターが個別にフォームを修正してくれる。' },
-      { author: 'R.N', rating: 4, date: '3週間前', text: '予約不要で通えるのが便利。仕事帰りにふらっと寄れる。' },
-    ],
     price: '月額制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['サーキット形式', '予約不要', '個別ペース', 'ファンクショナルトレーニング'],

@@ -26,28 +26,6 @@ const studios = [
   {
     name: 'ビーキューブ（B-Cube）',
     image: '/images/studios/bbbcube-kitahama.webp',
-    rating: 4.8,
-    reviewCount: 26,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '1週間前',
-        text: '西日本最大級のピラティス専門スタジオ。ピラティス専用の大型器具と姿勢分析の機械が豊富に揃っていて、本格的に取り組めます。北浜駅から徒歩3分で通いやすい。',
-      },
-      {
-        author: 'S.T',
-        rating: 5,
-        date: '2週間前',
-        text: 'インストラクターの質がとても高い。一人ひとりの体の状態に合わせた指導をしてくれるので、確実に効果を実感できます。',
-      },
-      {
-        author: 'Y.N',
-        rating: 4,
-        date: '3週間前',
-        text: '開放感のあるスタジオで気持ちよくレッスンできる。人気スタジオなのでウエイティングリストに登録が必要な場合も。',
-      },
-    ],
     price: '都度利用制',
     trial: '無料コンサルティング（要確認）',
     features: ['北浜駅徒歩3分', '西日本最大級', '姿勢分析機器完備', '本格指導'],
@@ -79,28 +57,6 @@ const studios = [
   {
     name: 'Pilates Bodywork Studio 大阪北浜淀屋橋本店',
     image: '/images/studios/pilates-bodywork-kitahama.webp',
-    rating: 4.7,
-    reviewCount: 13,
-    reviews: [
-      {
-        author: 'A.M',
-        rating: 5,
-        date: '1週間前',
-        text: '北浜駅から徒歩1分の好立地。キャデラック、リフォーマー、シルクサスペンション、マスターストレッチなど日本でも珍しいほど幅広いアイテムを導入。リフォーマーグループレッスンが受けられます。',
-      },
-      {
-        author: 'T.Y',
-        rating: 5,
-        date: '2週間前',
-        text: '東京・京都・名古屋にも展開している実績のあるスタジオ。レッスンの質が非常に高く、身体の変化を実感できます。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: '入会金・初月度無料キャンペーンがあり始めやすい（4か月継続が条件）。平日は22時まで営業で仕事帰りにも通える。',
-      },
-    ],
     price: '月額制（詳細は公式サイト）',
     trial: '入会金・初月度無料キャンペーンあり',
     features: ['北浜駅徒歩1分', '豊富なマシン', '平日22時まで', '全国展開'],
@@ -132,28 +88,6 @@ const studios = [
   {
     name: 'ピラティススタジオ進化',
     image: '/images/studios/studio-shinka-kitahama.webp',
-    rating: 4.7,
-    reviewCount: 30,
-    reviews: [
-      {
-        author: 'R.S',
-        rating: 5,
-        date: '1週間前',
-        text: '北浜駅から徒歩3分。50分で姿勢を変えるリフォーマーグループレッスンが特徴。定員6名の少人数制で丁寧な指導が受けられます。',
-      },
-      {
-        author: 'N.K',
-        rating: 5,
-        date: '2週間前',
-        text: '全国でも希少なリフォーマーのグループレッスンが受けられるスタジオ。姿勢改善に特化したプログラムで効果を実感。',
-      },
-      {
-        author: 'H.M',
-        rating: 4,
-        date: '3週間前',
-        text: '月4回17,160円。1回あたり4,290円と個人レッスンよりお得。少人数なので一人ひとりしっかり見てもらえます。',
-      },
-    ],
     price: '月4回 17,160円',
     trial: '体験レッスンあり（要問合せ）',
     features: ['北浜駅徒歩3分', '姿勢改善特化', '定員6名', 'リフォーマーグループ'],
@@ -185,28 +119,6 @@ const studios = [
   {
     name: 'Ua pilates 北浜（韓国式ピラティス）',
     image: '/images/studios/ua-pilates-kitahama.webp',
-    rating: 4.6,
-    reviewCount: 19,
-    reviews: [
-      {
-        author: 'E.T',
-        rating: 5,
-        date: '1週間前',
-        text: '北浜駅から徒歩3分。本場韓国の難関国際資格保有のインストラクターによる、姿勢分析×体型分析で一人ひとりに合ったレッスン。女性限定で安心。',
-      },
-      {
-        author: 'M.O',
-        rating: 5,
-        date: '2週間前',
-        text: 'Ua独自メソッド「ballet × pilates」が新しい。韓国式ピラティスで、しなやかな韓国人ボディを目指せます。スタジオの雰囲気もおしゃれ。',
-      },
-      {
-        author: 'C.I',
-        rating: 4,
-        date: '3週間前',
-        text: '女性らしいしなやかな身体づくりに特化。姿勢分析から始まるので、自分の体の状態を把握してからレッスンに入れます。',
-      },
-    ],
     price: 'パーソナル制（詳細は公式サイト）',
     trial: '初回体験 6,000円',
     features: ['女性限定', '北浜駅徒歩3分', '韓国式ピラティス', 'バレエ×ピラティス'],
@@ -239,28 +151,6 @@ const studios = [
     name: 'zen place pilates 南森町',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 18,
-    reviews: [
-      {
-        author: 'K.S',
-        rating: 5,
-        date: '1週間前',
-        text: '北浜・淀屋橋から最も近いzen placeスタジオ。全国150店舗以上で他店利用可能。マットもマシンも両方受けられるのが魅力。男性もOK。',
-      },
-      {
-        author: 'Y.H',
-        rating: 5,
-        date: '2週間前',
-        text: 'ピラティス専門で20年以上の実績がある大手。インストラクターの質が高く、体験グループ1,000円で気軽に試せます。',
-      },
-      {
-        author: 'A.K',
-        rating: 4,
-        date: '3週間前',
-        text: 'グレード制でスタジオの設備レベルがわかりやすい。月4回10,450円〜とコスパも良い。体験当日入会で入会金無料。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['全国相互利用', '男性OK', '大手の安心感', 'コスパ良好'],
@@ -292,28 +182,6 @@ const studios = [
   {
     name: 'SHIN pilates studio 堺筋本町店',
     image: '/images/studios/shin-pilates.webp',
-    rating: 4.6,
-    reviewCount: 5,
-    reviews: [
-      {
-        author: 'J.M',
-        rating: 5,
-        date: '1週間前',
-        text: '北浜・淀屋橋から1駅の堺筋本町にあるピラティススタジオ。グループレッスンもプライベートレッスンも充実。アットホームな雰囲気が良い。',
-      },
-      {
-        author: 'P.A',
-        rating: 4,
-        date: '2週間前',
-        text: '少人数制で丁寧に指導してもらえる。体の使い方が根本から変わるのを実感。初心者にも優しい。',
-      },
-      {
-        author: 'L.K',
-        rating: 5,
-        date: '3週間前',
-        text: '大阪市中央区にあり北浜エリアからもアクセスしやすい。リフォーマーを使った本格的なレッスンが受けられます。',
-      },
-    ],
     price: '月額制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['堺筋本町駅近く', 'グループ&プライベート', '少人数制', 'アットホーム'],

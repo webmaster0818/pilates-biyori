@@ -27,28 +27,6 @@ const studios = [
     name: 'zen place pilates 江坂',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 21,
-    reviews: [
-      {
-        author: 'M.S',
-        rating: 5,
-        date: '2週間前',
-        text: '江坂駅から徒歩1分！全国150以上のスタジオが他店利用できるのが魅力。マット・マシン・プライベートすべて対応。体験当日入会で入会金無料でした。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: 'マットグループ月4回9,625円からとリーズナブル。エデュケーターの質が高く、体の変化を実感。男性もOK。',
-      },
-      {
-        author: 'K.N',
-        rating: 4,
-        date: '3週間前',
-        text: '平日は22時まで営業で仕事帰りにも通えます。土日祝は朝7時から。ライフスタイルに合わせやすい。',
-      },
-    ],
     price: '月4回 9,625円〜',
     trial: '体験レッスンあり（当日入会で入会金無料）',
     features: ['マシン完備', '男性OK', '江坂駅徒歩1分', '全国相互利用可'],
@@ -80,28 +58,6 @@ const studios = [
   {
     name: 'CLUB PILATES 江坂店',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.7,
-    reviewCount: 79,
-    reviews: [
-      {
-        author: 'R.K',
-        rating: 5,
-        date: '1週間前',
-        text: '世界最大級のマシンピラティスブランド。30分の無料体験で雰囲気がわかりました。15種類の器具を1人1台使えるのが贅沢。レベル分けがあるので初心者も安心。',
-      },
-      {
-        author: 'A.M',
-        rating: 4,
-        date: '2週間前',
-        text: '江坂駅から近くて便利。月4回14,190円。資格保持のインストラクターが丁寧に指導。朝7時から営業で仕事前にも通えます。',
-      },
-      {
-        author: 'S.Y',
-        rating: 5,
-        date: '3週間前',
-        text: '最大12名の少人数制でしっかり見てもらえます。8つのプログラムと4段階のレベル分けで自分に合ったクラスが選べる。男性もOK。',
-      },
-    ],
     price: '月4回 14,190円〜',
     trial: '体験レッスン 無料（30分イントロクラス）',
     features: ['世界最大級', '15種類の器具', '江坂駅近', '男性OK'],
@@ -133,28 +89,6 @@ const studios = [
   {
     name: 'Rintosull 江坂店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.6,
-    reviewCount: 162,
-    reviews: [
-      {
-        author: 'Y.N',
-        rating: 5,
-        date: '5日前',
-        text: '江坂駅4番出口から徒歩1分！LAVA系列で安心。月4回8,800円とマシンピラティスでは破格。新規キャンペーンで最初の3ヶ月が月額1,980円でした。',
-      },
-      {
-        author: 'K.M',
-        rating: 4,
-        date: '1週間前',
-        text: '2店舗通い放題プラン13,800円もお得。平日は朝8時から夜22:30まで営業で時間の融通が効きます。',
-      },
-      {
-        author: 'S.A',
-        rating: 4,
-        date: '2週間前',
-        text: '女性専用で周りを気にせず集中できます。施設がきれい。プレミアムフリーならLAVAのホットヨガも通い放題に。',
-      },
-    ],
     price: '月4回 8,800円〜',
     trial: 'キャンペーン価格あり（3ヶ月 月額1,980円）',
     features: ['女性専用', 'LAVA系列', '江坂駅徒歩1分', 'コスパ抜群'],
@@ -186,28 +120,6 @@ const studios = [
   {
     name: 'ピラティスアクス 江坂店',
     image: '/images/studios/pilates-axe.webp',
-    rating: 4.6,
-    reviewCount: 26,
-    reviews: [
-      {
-        author: 'H.T',
-        rating: 5,
-        date: '1週間前',
-        text: '江坂駅8番出口から徒歩1分。ピラティス会員なら月4回+バーチャル通い放題で9,680円とコスパ抜群。バーチャルレッスンは24時間利用可能で好きな時間に自宅でも練習できます。',
-      },
-      {
-        author: 'M.K',
-        rating: 4,
-        date: '2週間前',
-        text: 'グランドピラティス会員なら24時間ジムも使い放題で10,780円。ピラティスとジムを組み合わせたい方にぴったり。体験レッスンが1,000円で気軽に試せます。',
-      },
-      {
-        author: 'R.S',
-        rating: 4,
-        date: '3週間前',
-        text: '月2回のライト会員8,580円もあって、無理のないペースで始められます。スタッフが親切で雰囲気が良いスタジオです。',
-      },
-    ],
     price: '月4回 9,680円〜',
     trial: '体験レッスン 1,000円',
     features: ['バーチャルレッスン付き', '24時間ジム併設', '江坂駅徒歩1分', 'コスパ抜群'],
@@ -239,28 +151,6 @@ const studios = [
   {
     name: 'La pilates 江坂店',
     image: '/images/studios/la-pilates.webp',
-    rating: 4.8,
-    reviewCount: 9,
-    reviews: [
-      {
-        author: 'C.N',
-        rating: 5,
-        date: '5日前',
-        text: '江坂駅から徒歩2分の女性専用プライベートスタジオ。整体×マシンピラティスの融合で、姿勢改善の効果を実感。女性インストラクターで安心です。',
-      },
-      {
-        author: 'H.M',
-        rating: 5,
-        date: '1週間前',
-        text: '産前産後OKなのが嬉しい。朝9時から夜21時まで年中無休。初心者歓迎の雰囲気で無理なく始められました。',
-      },
-      {
-        author: 'R.O',
-        rating: 4,
-        date: '2週間前',
-        text: '月1回12,000円からパーソナルが受けられます。整体と組み合わせたアプローチで体の不調が改善しました。',
-      },
-    ],
     price: '月1回 12,000円〜',
     trial: '無料体験あり',
     features: ['女性専用', '整体×ピラティス', '江坂駅徒歩2分', '産前産後OK'],
@@ -292,28 +182,6 @@ const studios = [
   {
     name: 'バスコ（BASCO）江坂店',
     image: '/images/studios/basco-esaka.webp',
-    rating: 4.5,
-    reviewCount: 30,
-    reviews: [
-      {
-        author: 'S.M',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用のピラティス&24時間ボディメイクジム。加圧トレーニング×ピラティスという独自のスタイルが効果的。少人数制グループで丁寧に見てもらえます。',
-      },
-      {
-        author: 'Y.K',
-        rating: 4,
-        date: '2週間前',
-        text: '月5回目以降は1,100円/回で受け放題なのがお得！初回体験は1,100円で気軽に試せました。ジム設備も充実していてピラティス以外にも鍛えられます。',
-      },
-      {
-        author: 'A.N',
-        rating: 4,
-        date: '3週間前',
-        text: '加圧してからピラティスという独自メソッドで、短時間で効率的にトレーニングできます。女性専用なので安心して通えます。',
-      },
-    ],
     price: '5回目以降 1,100円/回〜',
     trial: '初回体験 1,100円',
     features: ['女性専用', '加圧×ピラティス', '24時間ジム併設', '少人数制'],
@@ -345,28 +213,6 @@ const studios = [
   {
     name: 'Yon Pilates 江坂',
     image: '/images/studios/yon-pilates-esaka.webp',
-    rating: 4.7,
-    reviewCount: 19,
-    reviews: [
-      {
-        author: 'E.H',
-        rating: 5,
-        date: '1週間前',
-        text: '江坂駅から徒歩5分。完全パーソナルでリフォーマー・ラダーバレル・スパインコレクター・チェアの4つのマシンを使用。マシンピラティス×美腸というユニークなコンセプト。',
-      },
-      {
-        author: 'M.O',
-        rating: 5,
-        date: '2週間前',
-        text: '月2回16,000円からパーソナルが受けられます。LINE登録で初回体験が3,500円に割引。丁寧な指導で体の変化を実感しています。',
-      },
-      {
-        author: 'T.N',
-        rating: 4,
-        date: '3週間前',
-        text: 'こじんまりとしたアットホームなスタジオ。インストラクターとの距離が近く、何でも相談しやすい雰囲気です。',
-      },
-    ],
     price: '月2回 16,000円〜',
     trial: '体験レッスン 3,500円（LINE登録割引）',
     features: ['完全パーソナル', '4種マシン完備', '美腸×ピラティス', '江坂駅徒歩5分'],
@@ -398,28 +244,6 @@ const studios = [
   {
     name: 'ピラティスミラー 江坂',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.5,
-    reviewCount: 34,
-    reviews: [
-      {
-        author: 'D.S',
-        rating: 4,
-        date: '1週間前',
-        text: 'コナミスポーツクラブ運営で安心感があります。月会費11,000円で月6回まで通えてコスパ良好。鏡を使ったフォーム確認が特徴的。',
-      },
-      {
-        author: 'R.H',
-        rating: 4,
-        date: '2週間前',
-        text: 'プライベートレッスンも30分4,400円と手頃。体験レッスンが2,200円で気軽に試せました。初心者でも安心のマシンピラティス。',
-      },
-      {
-        author: 'Y.O',
-        rating: 5,
-        date: '3週間前',
-        text: '大手コナミの施設なので清潔感があり快適。江坂エリアで気軽にマシンピラティスを始めたい方におすすめです。',
-      },
-    ],
     price: '月会費 11,000円（月6回）',
     trial: '体験レッスン 2,200円',
     features: ['コナミ運営', 'マシン専門', '月6回制', 'ミラー設備'],

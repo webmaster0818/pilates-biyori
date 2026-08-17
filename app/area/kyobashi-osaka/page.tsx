@@ -22,13 +22,7 @@ export const metadata = {
 const studios = [
   {
     name: 'Rintosull（リントスル）京橋店',
-    image: '/images/studios/rintosull.webp',
-    rating: 4.6, reviewCount: 132,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '京橋駅から徒歩1分で通いやすい。女性専用なので安心してレッスンに集中できます。大型スクリーンの映像で分かりやすい指導が受けられます。' },
-      { author: 'S.T', rating: 5, date: '2週間前', text: '通い放題プランが月額8,800円〜とリーズナブル。LAVAと同じ系列で安心感があります。マシンピラティス初心者にもおすすめ。' },
-      { author: 'R.N', rating: 4, date: '3週間前', text: 'インストラクターと映像のハイブリッドレッスンが新鮮。スタジオも清潔感があって気持ちよく通えます。' },
-    ],
+    image: '/images/studios/rintosull.webp', reviewCount: 132,
     price: '月額 8,800円〜', trial: '体験レッスンあり',
     features: ['京橋駅徒歩1分', '女性専用', '通い放題あり', '映像×インストラクター'],
     description: 'ホットヨガLAVAが手がける女性専用マシンピラティススタジオ。京橋駅から徒歩1分の好立地。大型スクリーンの映像とインストラクターのハイブリッドレッスンで初心者でも安心。月額8,800円〜とリーズナブルな通い放題プランが魅力。',
@@ -41,13 +35,7 @@ const studios = [
   },
   {
     name: 'YO・GAN（ヨガン）京橋',
-    image: '/images/studios/pilates-kasane-osaka.webp',
-    rating: 4.7, reviewCount: 98,
-    reviews: [
-      { author: 'A.Y', rating: 5, date: '1週間前', text: '京阪モールホテル館7Fのホテルライクな空間。少人数制（最大7名）で丁寧に見てもらえます。岩盤浴も併設で贅沢な時間が過ごせます。' },
-      { author: 'K.S', rating: 5, date: '2週間前', text: '女性専用でシャワー室やパウダールームが充実。ピラティス後にリラクゼーションルームでくつろげるのが最高。' },
-      { author: 'N.M', rating: 4, date: '3週間前', text: '京橋駅から徒歩1分で通いやすい。インストラクターの指導が丁寧で初心者でも安心して通えます。' },
-    ],
+    image: '/images/studios/pilates-kasane-osaka.webp', reviewCount: 98,
     price: '月額 11,000円〜', trial: '体験レッスンあり',
     features: ['女性専用', '少人数制（最大7名）', '岩盤浴併設', '京橋駅徒歩1分'],
     description: '京阪モールホテル館7Fに位置する女性専用ピラティス・ヨガ・岩盤浴スタジオ。京橋駅から徒歩1分。少人数制（最大7名）のマシンピラティスレッスンを提供。ホテルライクな館内にシャワー室・パウダールーム・リラクゼーションルームを完備。',
@@ -60,13 +48,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 京橋店',
-    image: '/images/studios/club-pilates.webp',
-    rating: 4.7, reviewCount: 105,
-    reviews: [
-      { author: 'Y.K', rating: 5, date: '1週間前', text: '全米600店舗以上展開の世界最大級ピラティススタジオ。4段階のレベル分けで自分に合ったクラスが選べます。' },
-      { author: 'T.M', rating: 5, date: '2週間前', text: '多種多様なマシンを使ったレッスンが充実。初心者向けから上級者向けまで幅広いプログラムがあるのが魅力。' },
-      { author: 'H.S', rating: 4, date: '3週間前', text: '男性もOKなので夫婦で通っています。インストラクターの質が高く、毎回新しい発見があります。' },
-    ],
+    image: '/images/studios/club-pilates.webp', reviewCount: 105,
     price: '月4回 11,990円〜', trial: '体験レッスン 無料',
     features: ['世界最大級', '4段階レベル分け', '男性OK', '体験無料'],
     description: '全米に600店舗以上展開する世界最大級のマシンピラティス専門スタジオ。初心者から上級者まで4段階のレベル分けで最適なクラスを提供。リフォーマー・チェア・バレル・TRXなど多種多様なマシンを使用した本格的なレッスン。',
@@ -79,13 +61,7 @@ const studios = [
   },
   {
     name: 'pilates K（ピラティスケー）京橋店',
-    image: '/images/studios/pilates-k.webp',
-    rating: 4.5, reviewCount: 118,
-    reviews: [
-      { author: 'E.N', rating: 5, date: '1週間前', text: '女性専用でおしゃれな内装が気分を上げてくれます。マシンピラティス専門でグループレッスンのコスパが良い。' },
-      { author: 'R.K', rating: 5, date: '2週間前', text: '音楽に合わせたレッスンが楽しい！ボディメイク効果を実感しています。駅近で仕事帰りにも通いやすいです。' },
-      { author: 'M.A', rating: 4, date: '3週間前', text: '体験レッスン無料で気軽に始められました。スタジオの雰囲気がよく、スタッフも明るくて通うのが楽しみです。' },
-    ],
+    image: '/images/studios/pilates-k.webp', reviewCount: 118,
     price: '月4回 13,420円〜', trial: '体験レッスン 無料',
     features: ['女性専用', '音楽×ピラティス', '駅近', '体験無料'],
     description: '女性専用のマシンピラティス専門スタジオ。音楽に合わせたグループレッスンが特徴で、楽しみながらボディメイクできると人気。おしゃれなスタジオ空間でモチベーションもアップ。初回体験無料。',
@@ -98,13 +74,7 @@ const studios = [
   },
   {
     name: 'the SILK（ザ シルク）京橋店',
-    image: '/images/studios/the-silk.webp',
-    rating: 4.6, reviewCount: 88,
-    reviews: [
-      { author: 'K.T', rating: 5, date: '1週間前', text: '白を基調とした美しい空間で気分が上がります。女性専用で少人数制なのが嬉しい。マシンピラティスとストレッチの組み合わせが効果的。' },
-      { author: 'S.M', rating: 5, date: '2週間前', text: 'インストラクターが優しくて初心者でも安心。体験レッスン後にすぐ入会を決めました。通い放題プランがお得です。' },
-      { author: 'A.H', rating: 4, date: '3週間前', text: 'ボディメイクに特化したプログラムが充実。音楽に合わせたレッスンも楽しくて続けやすいです。' },
-    ],
+    image: '/images/studios/the-silk.webp', reviewCount: 88,
     price: '月3回 12,980円〜', trial: '体験レッスンあり',
     features: ['女性専用', 'おしゃれ空間', '少人数制', 'ボディメイク特化'],
     description: '女性専用のマシンピラティススタジオ。白を基調とした洗練された空間でリフォーマーを使ったグループレッスンを提供。ボディメイクに特化したプログラムと音楽を取り入れたレッスンで楽しく継続できる。',
@@ -117,13 +87,7 @@ const studios = [
   },
   {
     name: 'STUDIO TOU（スタジオトウ）京橋',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8, reviewCount: 72,
-    reviews: [
-      { author: 'Y.N', rating: 5, date: '1週間前', text: 'グループもプライベートも選べるのが良い。月謝制・チケット制の両方に対応していて柔軟。男性もOKです。' },
-      { author: 'K.M', rating: 5, date: '2週間前', text: 'インストラクターの質が高く、体の状態を丁寧に見てくれます。アットホームな雰囲気で通いやすいです。' },
-      { author: 'T.K', rating: 4, date: '3週間前', text: '少人数制のグループレッスンで、ほぼセミパーソナルのような指導が受けられます。' },
-    ],
+    image: '/images/studios/zen-place-pilates.webp', reviewCount: 72,
     price: '月4回 10,000円〜', trial: '体験レッスンあり',
     features: ['グループ＆プライベート', '男性OK', 'チケット制あり', 'アットホーム'],
     description: '京橋エリアのピラティス専門スタジオ。グループレッスンとプライベートレッスンの両方に対応。月謝制・チケット制と柔軟な料金体系で通いやすい。男女問わず利用可能で、アットホームな雰囲気の中で丁寧な指導を受けられる。',
@@ -136,13 +100,7 @@ const studios = [
   },
   {
     name: 'SOELU（ソエル）京橋店',
-    image: '/images/studios/soelu-minamikoshigaya.webp',
-    rating: 4.5, reviewCount: 65,
-    reviews: [
-      { author: 'R.S', rating: 5, date: '1週間前', text: 'マシンピラティスとファンクショナルトレーニングが融合したプログラムが新鮮。30分レッスンで忙しい方にもおすすめ。' },
-      { author: 'M.T', rating: 4, date: '2週間前', text: 'オンラインレッスンも充実しているので、スタジオに行けない日も自宅で続けられるのが嬉しい。' },
-      { author: 'Y.H', rating: 4, date: '3週間前', text: '料金がリーズナブルで続けやすい。スタッフが親切で初心者でも安心して通えます。' },
-    ],
+    image: '/images/studios/soelu-minamikoshigaya.webp', reviewCount: 65,
     price: '月額 9,878円〜', trial: '体験レッスンあり',
     features: ['マシン×ファンクショナル', 'オンライン併用可', '30分レッスン', 'リーズナブル'],
     description: 'マシンピラティスとファンクショナルトレーニングを融合したフィットネススタジオ。1回30分の短時間レッスンで効率的にボディメイク。オンラインレッスンも充実しており、スタジオとオンラインを組み合わせた柔軟な通い方が可能。',

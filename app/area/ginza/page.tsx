@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates 銀座二丁目スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 16,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '銀座一丁目駅から徒歩1分で通いやすいです。銀座線・丸ノ内線・日比谷線・有楽町線と複数路線使えるので、どこからでもアクセスしやすい。マットもマシンも両方受けられるのが嬉しいです。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '少人数制なので丁寧に見てもらえます。マシンの種類も豊富で、自分のレベルに合わせて進められます。仕事帰りに通えるのが便利。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: '全国展開しているので出張先でも通えます。銀座のスタジオは落ち着いた雰囲気で集中できます。',
-      },
-    ],
     price: 'マットグループ 月4回 9,625円〜',
     trial: '体験レッスン 500円〜',
     features: ['マット&マシン', '初心者歓迎', '銀座一丁目駅徒歩1分', '男性OK'],
@@ -77,28 +55,6 @@ const studios = [
   {
     name: 'ピラティスK 銀座店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 239,
-    reviews: [
-      {
-        author: 'T.W',
-        rating: 5,
-        date: '5日前',
-        text: '音楽に合わせて楽しくトレーニングできます！銀座一丁目駅からすぐで通いやすい。体験レッスンが2,000円で始めやすかったです。',
-      },
-      {
-        author: 'H.I',
-        rating: 4,
-        date: '1週間前',
-        text: '女性専用で周りを気にせず集中できます。インストラクターが明るくて楽しい雰囲気。仕事帰りに通っています。',
-      },
-      {
-        author: 'S.N',
-        rating: 5,
-        date: '2週間前',
-        text: 'グループレッスンですが丁寧に見てくれます。2ヶ月で体が引き締まってきました。銀座でこの料金はコスパ良いです。',
-      },
-    ],
     price: 'マンスリー4メンバー 13,420円',
     trial: '体験レッスン 2,000円',
     features: ['マシンピラティス専門', '女性専用', '銀座一丁目駅徒歩1分', 'グループレッスン'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'the SILK 銀座店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.8,
-    reviewCount: 312,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: '銀座駅から徒歩2分で立地最高。女性専用で安心して通えます。スタジオの雰囲気がとてもおしゃれで、モチベーションが上がります。',
-      },
-      {
-        author: 'A.H',
-        rating: 5,
-        date: '2週間前',
-        text: '音楽に合わせたレッスンが楽しい！体験レッスンが無料なので気軽に始められました。',
-      },
-      {
-        author: 'M.M',
-        rating: 4,
-        date: '3週間前',
-        text: 'リフォーマーマシンを使ったレッスンで効果を実感。銀座でレッスン後にショッピングも楽しめます。',
-      },
-    ],
     price: 'Standard4 15,070円〜',
     trial: '体験レッスン 無料',
     features: ['マシンピラティス専門', '女性専用', '銀座駅徒歩2分', '音楽×マシン'],
@@ -183,7 +117,6 @@ const studios = [
   {
     name: 'BDC PILATES 銀座スタジオ',
     image: '/images/studios/bdc-pilates.webp',
-    rating: 4.7,
     price: 'グループ 月額 15,400円〜',
     trial: '体験レッスン 3,850円',
     features: ['プロダンサー養成校プロデュース', '少人数制（最大8名）', '銀座一丁目駅徒歩1分', '本格的'],
@@ -194,7 +127,6 @@ const studios = [
   {
     name: 'BIRTH Pilates Studio（バースピラティス）',
     image: '/images/studios/birth-pilates-ginza.webp',
-    rating: 4.9,
     price: '1回 9,600円',
     trial: '体験レッスン 平日4,500円 / 土日祝5,500円',
     features: ['完全個室', 'パーソナル専門', 'マシンピラティス', 'マタニティ対応'],
@@ -205,7 +137,6 @@ const studios = [
   {
     name: 'ピラティス&ジム 1to1 銀座店',
     image: '/images/studios/pilates-gym-1to1.webp',
-    rating: 4.7,
     price: '1回 6,600円〜',
     trial: '体験レッスン 無料',
     features: ['パーソナル', 'マシンピラティス&ゆるトレ', '銀座一丁目駅徒歩1分', '入会金無料'],
@@ -217,7 +148,6 @@ const studios = [
     name: 'zen place pilates 銀座四丁目スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
     price: 'マットグループ 月4回 9,625円〜',
     trial: '体験レッスン 500円〜',
     features: ['マット&マシン', '東銀座駅徒歩1分', '男性OK', '初心者歓迎'],
@@ -228,7 +158,6 @@ const studios = [
   {
     name: 'the SILK 銀座一丁目店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.7,
     price: 'Standard4 15,070円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'マシンピラティス', '銀座一丁目駅徒歩2分', '音楽×マシン'],
@@ -239,7 +168,6 @@ const studios = [
   {
     name: 'BDC PILATES 銀座並木スタジオ',
     image: '/images/studios/bdc-pilates.webp',
-    rating: 4.7,
     price: 'グループ 月額 15,400円〜',
     trial: '体験レッスン 3,850円',
     features: ['マシンピラティス専門', '少人数制', '銀座エリア', 'スタイリッシュ空間'],
@@ -250,7 +178,6 @@ const studios = [
   {
     name: 'Bloom Pilates 銀座スタジオ',
     image: '/images/studios/bloom-pilates.webp',
-    rating: 4.6,
     price: 'お問い合わせください',
     trial: '体験レッスンあり',
     features: ['マシンピラティス', '銀座エリア', '個室あり', '丁寧な指導'],

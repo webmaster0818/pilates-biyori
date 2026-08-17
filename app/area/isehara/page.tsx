@@ -22,13 +22,6 @@ const studios = [
   {
     name: 'HARMONIE（アルモニ）伊勢原',
     image: '/images/studios/default-studio.webp',
-    rating: 4.6,
-    reviewCount: 32,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '月160本以上のヨガ・ピラティスレッスン。10代から70代まで男女が通う。定員8名の見晴らしの良いスタジオ。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["月160本レッスン", "10代〜70代", "男女OK", "見晴らし良好"],
@@ -43,13 +36,6 @@ const studios = [
   {
     name: 'eneインナービューティ',
     image: '/images/studios/default-studio.webp',
-    rating: 4.7,
-    reviewCount: 15,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '伊勢原駅北口徒歩3分の予約制プライベートサロン。美脚美姿勢をテーマにした女性向けピラティス。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["予約制プライベート", "美脚美姿勢", "女性向け", "駅徒歩3分"],
@@ -64,13 +50,6 @@ const studios = [
   {
     name: 'ALA Dance Studio',
     image: '/images/studios/default-studio.webp',
-    rating: 4.5,
-    reviewCount: 12,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: 'ダンスメインのスタジオにピラティスメニューあり。グループ月4回×50分。プライベートレッスンも対応。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["ダンス併設", "グループ月4回", "プライベートあり", "駅徒歩5分"],
@@ -85,13 +64,6 @@ const studios = [
   {
     name: 'セントラルスポーツ ジムスタ 伊勢原駅前',
     image: '/images/studios/default-studio.webp',
-    rating: 4.3,
-    reviewCount: 55,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '伊勢原駅前の総合フィットネス。ピラティステクニックの効果を体を動かしながら感じる「フィール」レッスン。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月額制',
     trial: '体験レッスンあり',
     features: ["総合フィットネス", "ジム&スタジオ", "ピラティス", "駅前"],
@@ -106,13 +78,6 @@ const studios = [
   {
     name: 'トータルフィットネススタジオファースト',
     image: '/images/studios/default-studio.webp',
-    rating: 4.5,
-    reviewCount: 22,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: 'ヨガ・ピラティス・パーソナルトレーニングの総合スタジオ。豊富な料金プランで学生でも通いやすい。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["ヨガ&ピラティス", "マシントレーニング", "多料金プラン", "学生OK"],

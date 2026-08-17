@@ -23,13 +23,6 @@ const studios = [
   {
     name: 'ピラティスアクス 北谷店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.6,
-    reviewCount: 32,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: 'マシンピラティス専門スタジオ。入会金11,000円がキャンペーン中は無料に。本格的なマシンピラティスが受けられる。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["マシン専門", "キャンペーン", "入会金無料", "本格レッスン"],
@@ -44,13 +37,6 @@ const studios = [
   {
     name: 'Pilates Studio gg',
     image: '/images/studios/default-studio.webp',
-    rating: 4.8,
-    reviewCount: 22,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '完全マンツーマンのパーソナルピラティス。女性インストラクターが担当。マットとマシン両方に対応。よもぎ蒸しサービスも。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["完全マンツーマン", "女性インストラクター", "マット&マシン", "よもぎ蒸し"],
@@ -65,13 +51,6 @@ const studios = [
   {
     name: 'ピラティスアクス 那覇新都心店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.5,
-    reviewCount: 45,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '北谷からもアクセス可能な那覇新都心のマシンピラティス専門スタジオ。アクス系列で北谷店と併用も可能。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["マシン専門", "那覇新都心", "複数店舗", "初心者歓迎"],
@@ -86,13 +65,6 @@ const studios = [
   {
     name: 'ルキナ那覇新都心',
     image: '/images/studios/default-studio.webp',
-    rating: 4.5,
-    reviewCount: 38,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: 'マシンピラティス専用コラーゲンスタジオ。少人数制でパーソナルトレーニングも。リフォーマーによる効率的なレッスン。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["コラーゲンスタジオ", "少人数制", "パーソナル対応", "リフォーマー"],
@@ -107,13 +79,6 @@ const studios = [
   {
     name: 'LAVA 那覇新都心店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.4,
-    reviewCount: 112,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '全国400店舗以上のホットヨガスタジオ。ピラティスプログラムも充実。北谷からもアクセス可能。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月4回 9,800円〜',
     trial: '体験レッスン 0円',
     features: ["ホットヨガ", "ピラティスプログラム", "女性専用", "全国チェーン"],

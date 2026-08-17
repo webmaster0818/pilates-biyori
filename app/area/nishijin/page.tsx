@@ -42,13 +42,6 @@ const studios = [
   {
     name: 'CLUB PILATES 福岡西新店',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.8,
-    reviewCount: 68,
-    reviews: [
-      { author: 'S.K', rating: 5, date: '2週間前', text: '世界最大級のピラティスチェーンだけあって、プログラムの質が高いです。グループもプライベートも選べるのが良い。西新駅から近くて通いやすいです。' },
-      { author: 'Y.T', rating: 5, date: '1ヶ月前', text: '無料体験で雰囲気がよく分かりました。インストラクターが丁寧で、初心者でも安心。西南学院大学の近くで、大学帰りにも寄れます。' },
-      { author: 'K.H', rating: 4, date: '3週間前', text: 'グループレッスンの種類が豊富で飽きません。レベル別にクラスが分かれているので、自分に合ったペースで進められます。' },
-    ],
     price: '月4回 14,190円〜',
     trial: '体験レッスン 無料',
     features: ['世界最大級チェーン', 'グループ&プライベート', '体験無料', '初心者歓迎'],
@@ -63,13 +56,6 @@ const studios = [
   {
     name: 'ピラティススタジオ Live 西新店',
     image: '/images/studios/pilates-live-nishijin.webp',
-    rating: 4.7,
-    reviewCount: 22,
-    reviews: [
-      { author: 'R.N', rating: 5, date: '1週間前', text: '最短30分のレッスンがあるので、忙しい日でも通えて助かります。少人数制で丁寧に見てもらえます。' },
-      { author: 'A.H', rating: 4, date: '2週間前', text: '初心者歓迎とうたっている通り、基礎から丁寧に教えてもらえました。西新の文教エリアにあって落ち着いた雰囲気です。' },
-      { author: 'M.M', rating: 5, date: '3週間前', text: '少人数制なのでインストラクターとの距離が近く、フォームの修正もすぐにしてもらえます。短時間で効率的にトレーニングできるのが魅力。' },
-    ],
     price: '月4回 12,000円〜',
     trial: '体験レッスンあり',
     features: ['最短30分', '少人数制', '初心者歓迎', '効率的'],
@@ -84,13 +70,6 @@ const studios = [
   {
     name: 'Rintosull 西新店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.6,
-    reviewCount: 115,
-    reviews: [
-      { author: 'T.W', rating: 5, date: '5日前', text: '女性専用なので周りを気にせず集中できます。マシンピラティスが1回2,200円〜はかなりリーズナブル。体験0円で気軽に始められました。' },
-      { author: 'H.I', rating: 4, date: '1週間前', text: '女性専用のマシンピラティススタジオ。清潔感があって居心地が良いです。料金も手頃で継続しやすい。' },
-      { author: 'S.N', rating: 5, date: '2週間前', text: '体験が0円だったので気軽に行けました。マシンピラティスが初めてでしたが、丁寧に教えてもらえて安心。コスパが非常に良いです。' },
-    ],
     price: '1回 2,200円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', 'マシンピラティス', '体験0円', '1回2,200円〜'],
@@ -106,7 +85,6 @@ const studios = [
     name: 'zen place pilates',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
     price: 'マットグループ 月4回 9,625円〜',
     trial: '体験レッスン 500円〜',
     features: ['マット&マシン', '全国展開', '男性OK', '福岡エリアで利用可能'],

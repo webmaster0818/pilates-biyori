@@ -26,28 +26,6 @@ const studios = [
   {
     name: 'ピラティスK くずはモール店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 180,
-    reviews: [
-      {
-        author: 'M.S',
-        rating: 5,
-        date: '1週間前',
-        text: 'くずはモール内にあり、京阪樟葉駅から直結で通いやすい。女性専用で音楽に合わせたリフォーマーレッスンが楽しい。体験無料！',
-      },
-      {
-        author: 'A.Y',
-        rating: 5,
-        date: '2週間前',
-        text: '月4回11,220円〜とコスパ抜群。部位別ボディメイクプログラムも充実していて飽きない。買い物ついでに通えるのが最高。',
-      },
-      {
-        author: 'K.T',
-        rating: 4,
-        date: '3週間前',
-        text: 'マシンピラティス専門なのでリフォーマーの台数が多く予約が取りやすい。初心者向けから上級者向けまでクラスが豊富。',
-      },
-    ],
     price: '月4回 11,220円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'くずはモール内', '京阪樟葉駅直結', '体験無料'],
@@ -79,28 +57,6 @@ const studios = [
   {
     name: 'Pilates KASANE 枚方店',
     image: '/images/studios/pilates-kasane.webp',
-    rating: 4.6,
-    reviewCount: 42,
-    reviews: [
-      {
-        author: 'H.N',
-        rating: 5,
-        date: '1週間前',
-        text: 'パーソナルとグループの両方があり、マシンもマットも受けられる。4名以下の少人数制で丁寧に指導してもらえます。',
-      },
-      {
-        author: 'R.A',
-        rating: 5,
-        date: '2週間前',
-        text: '体験レッスン3,000円で気軽に試せました。インストラクターの質が高く、体の悩みに寄り添った指導。1回3,025円〜とコスパも良い。',
-      },
-      {
-        author: 'T.M',
-        rating: 4,
-        date: '3週間前',
-        text: '少人数制なので一人ひとりしっかり見てもらえる。枚方市駅からも近くて通いやすいです。',
-      },
-    ],
     price: '1回 3,025円〜',
     trial: '体験レッスン 3,000円',
     features: ['少人数制（4名以下）', 'マシン＆マット', 'パーソナルあり', '枚方市駅近く'],
@@ -132,28 +88,6 @@ const studios = [
   {
     name: 'luluto（ルルト）枚方店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
     image: '/images/studios/luluto.webp',
-    rating: 4.8,
-    reviewCount: 28,
-    reviews: [
-      {
-        author: 'S.M',
-        rating: 5,
-        date: '1週間前',
-        text: 'マンツーマンレッスンで丁寧に指導してもらえる。理学療法士監修のプログラムで体の不調改善にも効果的。',
-      },
-      {
-        author: 'K.Y',
-        rating: 5,
-        date: '2週間前',
-        text: '実技試験に合格したプロのトレーナーだけが指導。一人ひとりの体に合わせたカスタマイズレッスンが受けられる。',
-      },
-      {
-        author: 'M.H',
-        rating: 4,
-        date: '3週間前',
-        text: '体験レッスン後にしっかりカウンセリングしてくれる。料金は高めだが質の高さは間違いない。',
-      },
-    ],
     price: '月3回 29,700円〜',
     trial: '体験レッスン 12,000円',
     features: ['完全マンツーマン', '理学療法士監修', '高品質指導', 'カスタマイズ'],
@@ -185,28 +119,6 @@ const studios = [
   {
     name: 'kiraris（キラリス）枚方市駅前店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.5,
-    reviewCount: 35,
-    reviews: [
-      {
-        author: 'E.K',
-        rating: 5,
-        date: '1週間前',
-        text: '枚方市内に5店舗展開するピラティス・ヨガ教室。駅前店は枚方市駅からすぐで通いやすい。美容と運動を両立できるプログラムが魅力。',
-      },
-      {
-        author: 'N.S',
-        rating: 4,
-        date: '2週間前',
-        text: 'ピラティスだけでなくヨガやハーブテントもあり、トータルで体を整えられる。アットホームな雰囲気で初心者でも安心。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '3週間前',
-        text: '市内複数店舗で通えるので、自宅や職場の近くを選べて便利。インストラクターが親切で丁寧。',
-      },
-    ],
     price: '月額制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['枚方市内5店舗', '美容×運動', 'ヨガ併設', 'アットホーム'],
@@ -238,28 +150,6 @@ const studios = [
   {
     name: 'ピラティスK 枚方T-SITE店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.6,
-    reviewCount: 95,
-    reviews: [
-      {
-        author: 'A.I',
-        rating: 5,
-        date: '1週間前',
-        text: '枚方T-SITE内にあり、枚方市駅から徒歩すぐ。女性専用で清潔感のあるスタジオ。体験レッスン無料で始めやすい。',
-      },
-      {
-        author: 'Y.M',
-        rating: 5,
-        date: '2週間前',
-        text: '音楽に合わせたレッスンが楽しくてあっという間に50分が終わる。ボディメイクに特化したプログラムが充実。',
-      },
-      {
-        author: 'R.N',
-        rating: 4,
-        date: '3週間前',
-        text: 'T-SITE内なのでレッスン後にカフェや書店を楽しめる。施設がきれいでモチベーションが上がります。',
-      },
-    ],
     price: '月4回 11,220円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '枚方市駅すぐ', '枚方T-SITE内', '体験無料'],
@@ -291,28 +181,6 @@ const studios = [
   {
     name: 'Studio K（スタジオK）',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.5,
-    reviewCount: 18,
-    reviews: [
-      {
-        author: 'N.T',
-        rating: 5,
-        date: '1週間前',
-        text: 'JR長尾駅徒歩3分のアットホームなスタジオ。ピラティスだけでなくリンパケアやシルクサスペンションも受けられる。',
-      },
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '少人数制で丁寧に教えてもらえる。体のメンテナンスにピラティスとリンパを組み合わせると効果的。',
-      },
-      {
-        author: 'H.Y',
-        rating: 4,
-        date: '3週間前',
-        text: '地域密着型の温かいスタジオ。初心者でも気軽に参加できる雰囲気が良い。',
-      },
-    ],
     price: '回数券制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['JR長尾駅徒歩3分', 'リンパケア併設', 'シルクサスペンション', '少人数制'],

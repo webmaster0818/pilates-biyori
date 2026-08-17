@@ -24,13 +24,7 @@ const studios = [
   {
     name: 'zen place pilates 高槻',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7, reviewCount: 148,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: 'JR高槻駅南口から徒歩2分、阪急高槻市駅からも徒歩3分で通いやすい。国際資格を持つエデュケーターが在籍しています。' },
-      { author: 'S.T', rating: 5, date: '2週間前', text: 'マットもマシンも両方受けられる。全国150店舗以上で相互利用可能なので京都や梅田でも通えるのが便利。' },
-      { author: 'R.N', rating: 4, date: '3週間前', text: '初回体験1,000円で気軽に試せました。レッスンの種類が豊富で初心者から上級者まで対応しています。' },
-    ],
+    image: '/images/studios/zen-place-pilates.webp', reviewCount: 148,
     price: '月4回 9,625円〜', trial: 'グループ体験 1,000円',
     features: ['JR高槻駅徒歩2分', '阪急徒歩3分', '男性OK', '全国相互利用'],
     description: 'ピラティス専門の大手スタジオ。JR高槻駅南口から徒歩2分、阪急高槻市駅から徒歩3分の好立地。国際資格を持つ経験豊富なインストラクターが在籍。マットグループ・マシングループ・プライベートの3タイプから選べる。',
@@ -44,13 +38,7 @@ const studios = [
   {
     name: 'URBAN CLASSIC PILATES 高槻店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
-    image: '/images/studios/urban-classic-pilates.webp',
-    rating: 4.5, reviewCount: 95,
-    reviews: [
-      { author: 'A.Y', rating: 5, date: '1週間前', text: '2024年9月オープンの新しいスタジオ。マシンピラティスとTRXを融合したサーキットトレーニングが新鮮。予約不要で通えるのが便利。' },
-      { author: 'K.S', rating: 5, date: '2週間前', text: '月額7,800円〜と高槻エリアではリーズナブル。30分のレッスンで忙しい方にもおすすめです。' },
-      { author: 'N.M', rating: 4, date: '3週間前', text: 'JR高槻駅から徒歩5分。一人ずつ違う動きをするので周りを気にせずマイペースでできます。' },
-    ],
+    image: '/images/studios/urban-classic-pilates.webp', reviewCount: 95,
     price: '月額 7,800円〜', trial: '体験レッスンあり',
     features: ['月額7,800円〜', '予約不要', 'サーキット形式', '2024年オープン'],
     description: '2024年9月グランドオープン。マシンピラティスとファンクショナルトレーニング（TRX）を組み合わせたサーキット形式のボディメイクスタジオ。予約不要で1回30分。一人ずつ違う動きを行うため周りを気にせずトレーニング可能。',
@@ -63,13 +51,7 @@ const studios = [
   },
   {
     name: 'luluto（ルルト）高槻店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
-    image: '/images/studios/luluto.webp',
-    rating: 4.7, reviewCount: 72,
-    reviews: [
-      { author: 'K.T', rating: 5, date: '1週間前', text: '理学療法士が監修する安心のスタジオ。完全マンツーマンで体の不調に合わせたプログラムを組んでもらえます。' },
-      { author: 'S.M', rating: 5, date: '2週間前', text: '初回体験1,000円でとても丁寧にカウンセリングしてもらえました。リハビリ目的で通い始めましたが効果を実感しています。' },
-      { author: 'A.H', rating: 4, date: '3週間前', text: '医学的な知識に基づいた指導が安心感があります。痛みのある部位を考慮しながら進めてくれます。' },
-    ],
+    image: '/images/studios/luluto.webp', reviewCount: 72,
     price: 'パーソナル 1回 8,800円〜', trial: '体験レッスン 1,000円',
     features: ['理学療法士監修', '完全マンツーマン', '体験1,000円', 'リハビリ対応'],
     description: '理学療法士が監修する完全マンツーマンのパーソナルピラティススタジオ。医学的知識に基づいた安心の指導で、体の不調やリハビリにも対応。初回体験1,000円とリーズナブルに試せるのも魅力。',
@@ -82,13 +64,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 高槻',
-    image: '/images/studios/pilates-mirror.webp',
-    rating: 4.6, reviewCount: 82,
-    reviews: [
-      { author: 'Y.K', rating: 5, date: '1週間前', text: 'コナミスポーツクラブが展開する女性専用スタジオ。最大7名の少人数制で丁寧に見てもらえます。鏡を活用したレッスンが効果的。' },
-      { author: 'T.M', rating: 5, date: '2週間前', text: '1回30分で手軽に通えます。月額11,000円で月6回までなのでコスパも良い。初心者でも安心です。' },
-      { author: 'H.S', rating: 4, date: '3週間前', text: '施設がきれいで清潔感がある。インストラクターがきめ細やかにサポートしてくれるので運動が苦手な方にもおすすめ。' },
-    ],
+    image: '/images/studios/pilates-mirror.webp', reviewCount: 82,
     price: '月額 11,000円（月6回）', trial: '体験レッスン 2,200円',
     features: ['女性専用', 'コナミ運営', '最大7名', '1回30分'],
     description: 'コナミスポーツクラブが展開する女性専用マシンピラティススタジオ。最大7名の少人数制でインストラクターがきめ細やかにサポート。「鏡」を活用したレッスンで自分のフォームを確認しながら効果的にトレーニング。',
@@ -101,13 +77,7 @@ const studios = [
   },
   {
     name: 'なちゅーるピラティススタジオ',
-    image: '/images/studios/pilates-kasane.webp',
-    rating: 4.8, reviewCount: 65,
-    reviews: [
-      { author: 'E.N', rating: 5, date: '1週間前', text: '完全マンツーマンのパーソナルレッスン。肩こりや腰痛の改善に効果的で、自分と向き合いながら集中できます。' },
-      { author: 'R.K', rating: 5, date: '2週間前', text: '産前産後のケアにも対応しているのが嬉しい。インストラクターが体の状態をしっかり把握して的確に指導してくれます。' },
-      { author: 'M.A', rating: 4, date: '3週間前', text: 'アットホームな雰囲気で通いやすい。パーソナル専門なので予約が取りやすいのも良いです。' },
-    ],
+    image: '/images/studios/pilates-kasane.webp', reviewCount: 65,
     price: 'パーソナル 1回 7,200円〜', trial: '体験レッスン 7,000円',
     features: ['完全マンツーマン', '肩こり・腰痛改善', '産前産後対応', 'アットホーム'],
     description: '高槻の完全マンツーマンパーソナルピラティススタジオ。肩こりや腰痛を抱える方、産前産後の体力づくりなど、目的に合わせて丁寧な指導を提供。完全プライベートで自分と向き合いながらレッスンに集中できる環境。',
@@ -120,13 +90,7 @@ const studios = [
   },
   {
     name: 'SOELU（ソエル）高槻店',
-    image: '/images/studios/soelu-minamikoshigaya.webp',
-    rating: 4.5, reviewCount: 68,
-    reviews: [
-      { author: 'Y.N', rating: 5, date: '1週間前', text: 'マシンピラティスとファンクショナルトレーニングが融合したプログラム。30分レッスンで効率的にボディメイクできます。' },
-      { author: 'K.M', rating: 4, date: '2週間前', text: 'オンラインレッスンも併用できるので、天気が悪い日は自宅で受けられて便利。料金もリーズナブルです。' },
-      { author: 'T.K', rating: 4, date: '3週間前', text: 'スタッフが親切で初心者でも安心。高槻エリアでは比較的新しいスタジオできれいです。' },
-    ],
+    image: '/images/studios/soelu-minamikoshigaya.webp', reviewCount: 68,
     price: '月額 9,878円〜', trial: '体験レッスンあり',
     features: ['マシン×ファンクショナル', 'オンライン併用可', '30分レッスン', 'リーズナブル'],
     description: 'マシンピラティスとファンクショナルトレーニングを融合したフィットネススタジオ。1回30分の短時間レッスンで効率的にボディメイク。オンラインレッスンも充実しており、スタジオとオンラインを組み合わせた柔軟な通い方が可能。',

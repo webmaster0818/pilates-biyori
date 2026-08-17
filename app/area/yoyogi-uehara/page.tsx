@@ -27,28 +27,6 @@ const studios = [
     name: 'zen place pilates 代々木上原スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 24,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '代々木上原駅から徒歩2分で通いやすいです。小田急線と千代田線の両方使えるので、どこからでもアクセスしやすい。マットもマシンも両方受けられるのが嬉しいです。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '少人数制なので丁寧に見てもらえます。マシンの種類も豊富で、自分のレベルに合わせて進められます。代々木上原の落ち着いた雰囲気も気に入っています。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: '全国展開しているので出張先でも通えるのが便利です。インストラクターの質が高く、体の使い方を丁寧に教えてくれます。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: '体験レッスン 500円〜',
     features: ['マット&マシン', '初心者歓迎', '代々木上原駅徒歩2分', '男性OK'],
@@ -81,28 +59,6 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 代々木上原店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
-    rating: 4.7,
-    reviewCount: 271,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: '予約不要で30分で終わるので、仕事帰りにサクッと通えるのが最高です。代々木上原駅から徒歩1分なので雨の日も楽。',
-      },
-      {
-        author: 'A.H',
-        rating: 4,
-        date: '2週間前',
-        text: 'サーキット形式で効率よくトレーニングできます。月額も手頃で続けやすい。マシンピラティス初心者でも分かりやすい。',
-      },
-      {
-        author: 'M.M',
-        rating: 5,
-        date: '3週間前',
-        text: '通い放題プランがコスパ最強です。30分で全身しっかり動かせるので、時間がない人にぴったり。',
-      },
-    ],
     price: '月額 7,800円〜（通い放題 14,080円）',
     trial: '体験レッスン 3,800円',
     features: ['予約不要', '30分サーキット', '代々木上原駅徒歩1分', 'マシン完備'],
@@ -134,28 +90,6 @@ const studios = [
   {
     name: 'Olaピラティススタジオ',
     image: '/images/studios/ola-pilates-yoyogiuehara.webp',
-    rating: 4.9,
-    reviewCount: 20,
-    reviews: [
-      {
-        author: 'T.W',
-        rating: 5,
-        date: '5日前',
-        text: '少人数制で丁寧に指導してもらえます。代々木上原駅から徒歩3分でアクセスも良い。ピラティス専門スタジオならではの質の高さを感じます。',
-      },
-      {
-        author: 'H.I',
-        rating: 5,
-        date: '1週間前',
-        text: '10回コースで通っています。回を重ねるごとに姿勢が良くなっているのを実感。インストラクターの知識がとても豊富です。',
-      },
-      {
-        author: 'S.N',
-        rating: 5,
-        date: '2週間前',
-        text: 'ピラティス専門スタジオならではの専門性の高さ。体の使い方が根本から変わりました。',
-      },
-    ],
     price: '10回 45,000円〜',
     trial: 'お問い合わせください',
     features: ['ピラティス専門', '少人数制', '代々木上原駅徒歩3分', '丁寧な指導'],
@@ -185,7 +119,6 @@ const studios = [
   {
     name: 'PILATES YOGA &a（アンドエー）代々木上原店',
     image: '/images/studios/pilates-and-a-yoga.webp',
-    rating: 4.8,
     price: '1回 約9,075円〜',
     trial: '体験レッスン 5,500円',
     features: ['プライベート専門', 'マシンピラティス', '代々木上原駅徒歩2分', '空間デザインにこだわり'],
@@ -196,7 +129,6 @@ const studios = [
   {
     name: 'Econa pilates studio 代々木上原',
     image: '/images/studios/econa-pilates-yoyogiuehara.webp',
-    rating: 4.8,
     price: '1回 8,900円〜',
     trial: '体験レッスン 0円',
     features: ['完全マンツーマン', '完全個室', '40代〜対応', '姿勢改善特化'],
@@ -207,7 +139,6 @@ const studios = [
   {
     name: 'パーソナルマシンピラティスYUZU 代々木上原店',
     image: '/images/studios/yuzu-pilates.webp',
-    rating: 4.7,
     price: 'お問い合わせください',
     trial: '体験レッスン あり',
     features: ['全員女性インストラクター', 'キッズスペース完備', '代々木上原駅徒歩5分', 'パーソナル'],
@@ -218,7 +149,6 @@ const studios = [
   {
     name: '3731BODYWORX',
     image: '/images/studios/3731bodyworx-yoyogiuehara.webp',
-    rating: 4.7,
     price: '1回 8,600円〜',
     trial: '体験レッスン 8,800円',
     features: ['理学療法士・トレーナー在籍', 'マシンピラティス&筋トレ', '代々木上原駅徒歩2分', 'パーソナル'],
@@ -229,7 +159,6 @@ const studios = [
   {
     name: 'studio GOD 代々木上原',
     image: '/images/studios/studio-god-yoyogiuehara.webp',
-    rating: 4.6,
     price: 'チケット制',
     trial: '初回体験キャンペーンあり',
     features: ['ヨガ&ピラティス', 'チケット制', '代々木上原駅徒歩1分', '入会金なし'],
@@ -240,7 +169,6 @@ const studios = [
   {
     name: 'Wellness Hub TOKYO 代々木上原',
     image: '/images/studios/wellness-hub-yoyogiuehara.webp',
-    rating: 4.6,
     price: 'お問い合わせください',
     trial: '初回体験 3,300円',
     features: ['少人数制（最大6名）', 'ヨガ&ピラティス', '代々木上原駅徒歩1分', 'よもぎ蒸しあり'],
@@ -252,7 +180,6 @@ const studios = [
     name: 'zen place pilates 下北沢スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
     price: '月4回 10,450円〜',
     trial: '体験レッスン 500円〜',
     features: ['マット&マシン', '初心者歓迎', '下北沢駅徒歩2分', '男性OK'],
@@ -263,7 +190,6 @@ const studios = [
   {
     name: 'the SILK 渋谷店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.7,
     price: '月4回 15,070円〜',
     trial: '体験レッスン あり',
     features: ['女性専用', 'マシンピラティス', '渋谷駅徒歩5分', '音楽×ピラティス'],
@@ -274,7 +200,6 @@ const studios = [
   {
     name: 'BDC PILATES 代々木公園スタジオ',
     image: '/images/studios/bdc-pilates.webp',
-    rating: 4.8,
     price: '1回 3,850円〜',
     trial: '体験レッスン 3,850円',
     features: ['マシンピラティス', 'グループ&プライベート', '代々木公園駅徒歩3分', 'バレエ要素'],

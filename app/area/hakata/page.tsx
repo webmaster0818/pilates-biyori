@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'CLUB PILATES 博多店',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.7,
-    reviewCount: 62,
-    reviews: [
-      {
-        author: 'M.S',
-        rating: 5,
-        date: '1週間前',
-        text: '博多駅から徒歩5分。世界最大級のマシンピラティスブランドで安心。30分の無料体験で雰囲気がわかりました。15種類の器具を1人1台使えるのが贅沢。',
-      },
-      {
-        author: 'Y.T',
-        rating: 4,
-        date: '2週間前',
-        text: '朝7時から営業で仕事前にも通えます。8つのプログラムと4段階のレベル分けで自分に合ったクラスが選べる。男性もOK。',
-      },
-      {
-        author: 'K.N',
-        rating: 5,
-        date: '3週間前',
-        text: '資格保持のインストラクターが丁寧に指導。最大12名の少人数制でしっかり見てもらえます。福岡で本格マシンピラティスが受けられて嬉しい。',
-      },
-    ],
     price: '月4回 14,190円〜',
     trial: '体験レッスン 無料（30分イントロクラス）',
     features: ['世界最大級', '15種類の器具', '博多駅徒歩5分', '男性OK'],
@@ -76,28 +54,6 @@ const studios = [
   {
     name: 'Rintosull 博多店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.6,
-    reviewCount: 115,
-    reviews: [
-      {
-        author: 'R.K',
-        rating: 5,
-        date: '5日前',
-        text: '博多駅筑紫口から徒歩1分！LAVA系列で安心。月4回8,800円とマシンピラティスでは破格。新規キャンペーンもお得。',
-      },
-      {
-        author: 'A.M',
-        rating: 4,
-        date: '1週間前',
-        text: '地下鉄空港線の博多駅東5出口からも徒歩1分でアクセス抜群。2店舗通い放題プラン13,800円もお得。',
-      },
-      {
-        author: 'S.T',
-        rating: 4,
-        date: '2週間前',
-        text: '施設がきれいで清潔感があります。福岡県初出店のリントスルで、リフォーマーマシンで本格ピラティスが楽しめます。',
-      },
-    ],
     price: '月4回 8,800円〜',
     trial: 'キャンペーン価格あり',
     features: ['LAVA系列', 'マシン専門', '博多駅徒歩1分', 'コスパ抜群'],
@@ -129,28 +85,6 @@ const studios = [
   {
     name: 'スターピラティス 博多マルイスタジオ',
     image: '/images/studios/star-pilates-hakata.webp',
-    rating: 4.7,
-    reviewCount: 3,
-    reviews: [
-      {
-        author: 'N.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '博多マルイ7Fにあるのでアクセス抜群！月額5,500円からとマシンピラティスでは驚きの安さ。女性専用で安心して通えます。',
-      },
-      {
-        author: 'E.S',
-        rating: 4,
-        date: '2週間前',
-        text: '月2回からのチケット制で無理なく始められます。博多駅直結の商業施設内なので、買い物ついでにも便利。',
-      },
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '3週間前',
-        text: 'リフォーマーマシンを使った本格的なグループレッスン。初心者でも丁寧に教えてもらえます。博多マルイの営業時間内に通えるのが便利。',
-      },
-    ],
     price: '月額 5,500円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', '博多マルイ内', '月額5,500円〜', 'チケット制'],
@@ -182,28 +116,6 @@ const studios = [
   {
     name: 'STUDIO IVY 福岡赤坂店',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.7,
-    reviewCount: 4,
-    reviews: [
-      {
-        author: 'E.T',
-        rating: 5,
-        date: '1週間前',
-        text: '完全プライベート空間でオーダーメイドレッスン。月謝制で1レッスン6,250円〜とパーソナルとしてはリーズナブル。博多からも地下鉄でアクセスしやすい。',
-      },
-      {
-        author: 'M.K',
-        rating: 4,
-        date: '2週間前',
-        text: '月2回15,000円から始められるので負担が少ない。体験レッスン4,500円で丁寧にカウンセリングしてもらえました。',
-      },
-      {
-        author: 'Y.A',
-        rating: 5,
-        date: '3週間前',
-        text: 'リフォーマー・キャデラック・チェアなど本格マシン完備。インストラクターの指導が的確で、体の変化を早く実感。',
-      },
-    ],
     price: '月2回 15,000円〜',
     trial: '体験レッスン 4,500円',
     features: ['完全パーソナル', 'マシン完備', '福岡赤坂', '月謝制'],

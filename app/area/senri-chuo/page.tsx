@@ -23,13 +23,7 @@ const studios = [
   {
     name: 'zen place pilates 千里中央',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7, reviewCount: 138,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '千里中央駅北口から徒歩3分。マットもマシンも両方受けられるのが魅力。全国150店舗以上で他店利用可能なので梅田でも通えます。' },
-      { author: 'S.T', rating: 5, date: '2週間前', text: 'インストラクターの質が高く丁寧な指導。初回体験1,000円で気軽に試せました。千里ニュータウンの方に人気のスタジオです。' },
-      { author: 'R.N', rating: 4, date: '3週間前', text: '北大阪急行で梅田方面へのアクセスも良好。レッスンの種類が豊富で飽きません。男性もOKなのが嬉しい。' },
-    ],
+    image: '/images/studios/zen-place-pilates.webp', reviewCount: 138,
     price: '月4回 9,625円〜', trial: 'グループ体験 1,000円',
     features: ['千里中央駅徒歩3分', '男性OK', 'マット&マシン', '全国相互利用'],
     description: 'ピラティス専門の大手スタジオ。千里中央駅北口から徒歩3分の好立地。マットグループ・マシングループ・プライベートの3タイプから選べます。全国150店舗以上で相互利用可能。科学的知見に基づいた質の高い指導が特徴。',
@@ -42,13 +36,7 @@ const studios = [
   },
   {
     name: 'WECLE（ウィークル）せんちゅうパル店',
-    image: '/images/studios/wecle-pilates.webp',
-    rating: 4.5, reviewCount: 105,
-    reviews: [
-      { author: 'A.Y', rating: 5, date: '1週間前', text: '千里中央駅直結で超便利！24時間営業なので自分のペースで通えます。1回30分のサーキット形式で忙しい人にもぴったり。' },
-      { author: 'K.S', rating: 5, date: '2週間前', text: '予約不要・着替え不要で気軽に通えるのが最高。スキマ時間に立ち寄れるので習慣化しやすいです。' },
-      { author: 'N.M', rating: 4, date: '3週間前', text: 'セルフ形式ですがトレーナーがサポートしてくれるので安心。料金もリーズナブルで続けやすいです。' },
-    ],
+    image: '/images/studios/wecle-pilates.webp', reviewCount: 105,
     price: '月額 9,800円〜', trial: '体験レッスンあり',
     features: ['駅直結', '24時間営業', '予約不要', '1回30分'],
     description: '千里中央駅直結・せんちゅうパル内のマシンピラティス専門スタジオ。24時間営業で予約不要・着替え不要。1回30分のサーキット形式で、忙しい方でもスキマ時間に通える。セミパーソナル形式でトレーナーのサポートあり。',
@@ -61,13 +49,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 千里中央',
-    image: '/images/studios/pilates-mirror.webp',
-    rating: 4.6, reviewCount: 82,
-    reviews: [
-      { author: 'Y.K', rating: 5, date: '1週間前', text: 'コナミスポーツクラブが展開する女性専用スタジオ。鏡を活用したレッスンで自分のフォームを確認しやすいです。' },
-      { author: 'T.M', rating: 5, date: '2週間前', text: '1回30分で手軽。少人数制なのでインストラクターに見てもらいやすい。女性専用で安心感があります。' },
-      { author: 'H.S', rating: 4, date: '3週間前', text: '月額11,000円で月6回まで通えるのでコスパが良い。施設もきれいで気持ちよく通えます。' },
-    ],
+    image: '/images/studios/pilates-mirror.webp', reviewCount: 82,
     price: '月額 11,000円（月6回）', trial: '体験レッスン 2,200円',
     features: ['女性専用', 'コナミ運営', '1回30分', '鏡活用レッスン'],
     description: 'コナミスポーツクラブが展開する女性専用マシンピラティススタジオ。「鏡」を活用したレッスンで自分のフォームを確認しながら効果的にトレーニング。1回30分の少人数制で初心者にもおすすめ。',
@@ -80,13 +62,7 @@ const studios = [
   },
   {
     name: 'the SILK（ザ シルク）千里中央店',
-    image: '/images/studios/the-silk.webp',
-    rating: 4.6, reviewCount: 76,
-    reviews: [
-      { author: 'E.N', rating: 5, date: '1週間前', text: '白を基調とした美しい空間でテンションが上がる。女性専用で少人数制なのが嬉しいです。ボディメイク効果を実感しています。' },
-      { author: 'R.K', rating: 5, date: '2週間前', text: '音楽に合わせたレッスンが楽しくて続けやすい。千里中央エリアではおしゃれ度No.1のスタジオだと思います。' },
-      { author: 'M.A', rating: 4, date: '3週間前', text: '体験レッスンでスタジオの雰囲気に惹かれて即入会。通い放題プランでしっかり通っています。' },
-    ],
+    image: '/images/studios/the-silk.webp', reviewCount: 76,
     price: '月3回 12,980円〜', trial: '体験レッスンあり',
     features: ['女性専用', 'おしゃれ空間', '少人数制', '音楽×ピラティス'],
     description: '女性専用のマシンピラティススタジオ。白を基調とした洗練された空間でリフォーマーを使ったグループレッスンを提供。音楽を取り入れたレッスンで楽しみながらボディメイク。千里ニュータウンのファミリー層にも人気。',
@@ -99,13 +75,7 @@ const studios = [
   },
   {
     name: 'Rintosull（リントスル）千里中央店',
-    image: '/images/studios/rintosull.webp',
-    rating: 4.5, reviewCount: 92,
-    reviews: [
-      { author: 'K.T', rating: 5, date: '1週間前', text: '女性専用で安心。映像×インストラクターのハイブリッドレッスンで初心者でも分かりやすいです。月額8,800円〜はお得！' },
-      { author: 'S.M', rating: 5, date: '2週間前', text: 'LAVAと同じ系列なので安心感があります。通い放題プランで週3回通っています。スタジオもきれいです。' },
-      { author: 'A.H', rating: 4, date: '3週間前', text: '千里中央駅から近くて通いやすい。レッスンの種類も豊富で飽きずに続けられています。' },
-    ],
+    image: '/images/studios/rintosull.webp', reviewCount: 92,
     price: '月額 8,800円〜', trial: '体験レッスンあり',
     features: ['女性専用', '通い放題あり', '映像×インストラクター', 'LAVA系列'],
     description: 'ホットヨガLAVAが手がける女性専用マシンピラティススタジオ。大型スクリーンの映像とインストラクターのハイブリッドレッスンで初心者でも安心。月額8,800円〜とリーズナブルな通い放題プランが魅力。',

@@ -21,13 +21,6 @@ const studios = [
   {
     name: 'ピラティスK 奈良大安寺店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.6,
-    reviewCount: 98,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '女性専用マシンピラティス専門スタジオ。音楽に合わせたテンポの良いレッスンが特徴。部位別に特化した多彩なプログラムあり。通いやすくて気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧。初心者でも安心して通えます。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 11,220円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'マシン専門', '体験無料', '部位別プログラム'],
@@ -42,13 +35,6 @@ const studios = [
   {
     name: 'ピラティススタジオDEP 奈良店',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 32,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '理学療法士監修のマシンピラティススタジオ。完全個室で集中しやすい環境。24時間のオンラインサポートもあり初心者も安心。通いやすくて気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧。初心者でも安心して通えます。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: 'パーソナル制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['理学療法士監修', '完全個室', '24時間サポート', 'マシン専門'],
@@ -63,13 +49,6 @@ const studios = [
   {
     name: 'studio Kulah（スタジオクーラ）',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 28,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '近鉄学園前駅徒歩4分のピラティス・ヨガ専門スタジオ。少人数制のグループレッスンからプライベートレッスンまで提供。通いやすくて気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧。初心者でも安心して通えます。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月額制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['学園前駅徒歩4分', '少人数制', 'ヨガ併設', 'プライベートあり'],
@@ -84,13 +63,6 @@ const studios = [
   {
     name: 'Pilates butterfly',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.6,
-    reviewCount: 15,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '近鉄奈良駅徒歩3分、奈良小西さくら通りにある女性専用完全予約制のプライベートピラティススタジオ。通いやすくて気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧。初心者でも安心して通えます。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: 'パーソナル制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['近鉄奈良駅徒歩3分', '女性専用', '完全予約制', 'プライベート'],
@@ -105,13 +77,6 @@ const studios = [
   {
     name: 'GRANDY PILATES STUDIO 学園前店',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 20,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '奈良市のプライベート専門ピラティススタジオ。リフォーマーを用いたマシンピラティスやマットピラティスを提供。男性やお子様連。通いやすくて気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧。初心者でも安心して通えます。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: 'パーソナル制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['プライベート専門', 'マシン＆マット', '男性OK', '子連れ歓迎'],

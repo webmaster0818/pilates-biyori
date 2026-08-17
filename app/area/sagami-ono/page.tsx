@@ -37,28 +37,6 @@ const studios = [
   {
     name: 'ピラティスK 相模大野店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 224,
-    reviews: [
-      {
-        author: 'M.S',
-        rating: 5,
-        date: '1週間前',
-        text: '相模大野駅から徒歩1分！ジョイモアーズ6階にあり買い物ついでに通えます。女性専用で安心。音楽に合わせたリフォーマーレッスンが楽しい。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '2週間前',
-        text: '体験0円で気軽にスタートできました。月4回13,420円とコスパ良し。部位別プログラムでお腹周りに集中できるのが嬉しい。',
-      },
-      {
-        author: 'A.K',
-        rating: 4,
-        date: '3週間前',
-        text: '火〜金は22時まで営業で仕事帰りでも通いやすい。マシン専門なのでリフォーマーの台数が多く予約も取りやすいです。',
-      },
-    ],
     price: '月4回 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', '相模大野駅徒歩1分', '部位別プログラム', 'マシン専門'],
@@ -90,28 +68,6 @@ const studios = [
   {
     name: 'CLUB PILATES 相模大野店',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.7,
-    reviewCount: 138,
-    reviews: [
-      {
-        author: 'H.M',
-        rating: 5,
-        date: '1週間前',
-        text: '相模大野駅北口から徒歩3分。世界最大級のブランドで15種類の器具を使った本格レッスン。無料体験クラスがあるので気軽にスタートできました。',
-      },
-      {
-        author: 'C.Y',
-        rating: 4,
-        date: '2週間前',
-        text: '4段階のレベル分けで初心者でも安心。男性会員もいます。インストラクター全員が500時間以上の研修を受けた資格保持者。',
-      },
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '3週間前',
-        text: '朝7時から営業で出勤前にも通える。8つのプログラムがあり飽きずに続けられます。',
-      },
-    ],
     price: '月4回 11,990円〜',
     trial: '体験レッスン 無料',
     features: ['世界最大級', '相模大野駅徒歩3分', '15種類の器具', '男性OK'],
@@ -144,28 +100,6 @@ const studios = [
     name: 'zen place pilates 相模大野スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 12,
-    reviews: [
-      {
-        author: 'K.I',
-        rating: 5,
-        date: '1週間前',
-        text: '相模大野駅から徒歩3分。マット・マシン・プライベートと3タイプのレッスンがあり自分に合ったスタイルを選べる。全国150店舗以上で他店利用可能。',
-      },
-      {
-        author: 'S.O',
-        rating: 5,
-        date: '2週間前',
-        text: 'ピラティス専門で20年以上の実績がある老舗。インストラクターの質が高く、丁寧に指導してもらえる。男性もOK。',
-      },
-      {
-        author: 'N.H',
-        rating: 4,
-        date: '3週間前',
-        text: '体験当日入会で入会金無料。グループ体験1,000円〜と試しやすい。月4回10,450円〜でコスパも良い。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['相模大野駅徒歩3分', 'ピラティス専門', '男性OK', '全国相互利用'],
@@ -197,28 +131,6 @@ const studios = [
   {
     name: 'roll UP pilates studio 相模大野',
     image: '/images/studios/rollup-pilates-sagamiono.webp',
-    rating: 4.6,
-    reviewCount: 10,
-    reviews: [
-      {
-        author: 'T.M',
-        rating: 5,
-        date: '1週間前',
-        text: '相模大野駅南口から徒歩3分。ココカラ相模大野1Fにあるアクセス抜群のスタジオ。経験豊富なインストラクターが一人ひとりに合わせた指導をしてくれます。',
-      },
-      {
-        author: 'E.S',
-        rating: 4,
-        date: '2週間前',
-        text: '体験0円で気軽に試せました。月4回11,000円〜とリーズナブル。都度払い2,200円もあるので気軽に始められます。',
-      },
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '3週間前',
-        text: 'マシンピラティス専門で、リフォーマーを使った本格レッスンが受けられる。少人数制で丁寧に見てもらえるのが嬉しい。',
-      },
-    ],
     price: '月4回 11,000円〜',
     trial: '体験レッスン 0円',
     features: ['相模大野駅徒歩3分', 'マシン専門', '都度払いあり', '少人数制'],
@@ -250,28 +162,6 @@ const studios = [
   {
     name: 'スタジオBYK ボーノ相模大野店',
     image: '/images/studios/studio-byk-sagamiono.webp',
-    rating: 4.5,
-    reviewCount: 22,
-    reviews: [
-      {
-        author: 'A.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '相模大野駅北口サンデッキ直結で徒歩3分。ボーノ相模大野2Fにあるので雨の日も安心。マシンとマット両方受けられるのが魅力。',
-      },
-      {
-        author: 'K.N',
-        rating: 4,
-        date: '2週間前',
-        text: 'パーソナルレッスンが充実。マシンピラティスのプライベートレッスンで身体の癖をしっかり矯正してもらえました。',
-      },
-      {
-        author: 'R.I',
-        rating: 5,
-        date: '3週間前',
-        text: 'グループレッスンとパーソナルの両方を提供。体験は4,400円とやや高めだが、質の高い指導が受けられます。',
-      },
-    ],
     price: '1回 3,300円〜',
     trial: '体験レッスン 4,400円',
     features: ['ボーノ相模大野内', '駅直結', 'パーソナル充実', 'マシン＆マット'],

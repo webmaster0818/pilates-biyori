@@ -22,13 +22,6 @@ const studios = [
   {
     name: 'CLUB PILATES 福岡大橋店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.7,
-    reviewCount: 88,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '世界1000店舗以上展開のマシンピラティス。最大12名の少人数制で15種類の器具を完備。4段階のレベル分け。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月4回 14,190円〜',
     trial: '体験レッスン 無料（30分）',
     features: ["世界最大級", "15種類の器具", "男性OK", "4段階レベル"],
@@ -43,13 +36,6 @@ const studios = [
   {
     name: 'STUDIO IVY 福岡大橋店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.8,
-    reviewCount: 32,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '完全プライベート制のマシンピラティス。最新マシンを使用したパーソナルで理想的なボディメイクを実現。月謝制で1回6,250円〜。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '1回 6,250円〜',
     trial: '体験レッスンあり',
     features: ["完全プライベート", "最新マシン", "月謝制", "1回6,250円〜"],
@@ -65,13 +51,6 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 大橋店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/default-studio.webp',
-    rating: 4.5,
-    reviewCount: 45,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '西鉄大橋駅徒歩2分。30分で完結のサーキット形式。マシンピラティスとファンクショナルトレーニングを組み合わせ。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月額制',
     trial: '体験レッスンあり',
     features: ["駅徒歩2分", "30分サーキット", "予約不要", "マシン&TRX"],
@@ -86,13 +65,6 @@ const studios = [
   {
     name: 'Studio Breathing 大橋店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.7,
-    reviewCount: 28,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: 'PMA認定のNCPT資格保持インストラクターが在籍。2016年開業の実績あるスタジオ。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["PMA認定", "NCPT資格", "優秀なインストラクター", "2016年開業"],
@@ -107,13 +79,6 @@ const studios = [
   {
     name: 'ボッちピラティス',
     image: '/images/studios/default-studio.webp',
-    rating: 4.6,
-    reviewCount: 18,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '女性専用の個室マシンピラティススタジオ。周りの目を気にせず安心してレッスンを受けられる。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["女性専用", "個室", "パーソナル", "プライバシー重視"],

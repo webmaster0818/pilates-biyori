@@ -20,11 +20,6 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK MEGAドン・キホーテ長野店', image: '/images/studios/pilates-k.webp', rating: 4.6, reviewCount: 55,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '女性専用マシンピラティス専門スタジオ。MEGAドン・キホーテ長野店1Fに位置し駐車場完備。音楽に合わせた楽しい。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 11,220円〜', trial: '体験レッスン 無料', features: ['女性専用','MEGAドンキ1F','マシン専門','体験無料'],
     description: '女性専用マシンピラティス専門スタジオ。MEGAドン・キホーテ長野店1Fに位置し駐車場完備。音楽に合わせた楽しいレッスン',
     access: '長野市高田（MEGAドン・キホーテ長野店1F）', address: '長野県長野市高田 MEGAドン・キホーテ長野店1F',
@@ -35,11 +30,6 @@ const studios = [
   },
   {
     name: 'K Plus Pilates', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 20,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '長野駅から徒歩5分のパーソナルピラティススタジオ。完全個室で最新のマシンを導入し効果的なトレーニングを実現。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['長野駅徒歩5分','完全個室','最新マシン','パーソナル'],
     description: '長野駅から徒歩5分のパーソナルピラティススタジオ。完全個室で最新のマシンを導入し効果的なトレーニングを実現',
     access: 'JR「長野駅」徒歩5分', address: '長野県長野市（詳細は公式サイトでご確認ください）',
@@ -50,11 +40,6 @@ const studios = [
   },
   {
     name: 'luluto（ルルト）長野店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808', image: '/images/studios/luluto.webp', rating: 4.8, reviewCount: 18,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '長野市高田に位置する完全マンツーマンマシンピラティス。長野駅から車で10分。理学療法士が考案した医学的アプロー。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月3回 29,700円〜', trial: '体験レッスンあり', features: ['完全マンツーマン','理学療法士監修','長野駅車10分','カスタマイズ'],
     description: '長野市高田に位置する完全マンツーマンマシンピラティス。長野駅から車で10分。理学療法士が考案した医学的アプローチ',
     access: '長野駅から車で約10分', address: '長野県長野市高田',
@@ -65,11 +50,6 @@ const studios = [
   },
   {
     name: 'Rintosull（リントスル）長野店', image: '/images/studios/rintosull.webp', rating: 4.5, reviewCount: 45,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'ホットヨガLAVAの姉妹ブランド。月4回8,800円〜と低価格でLAVA全店との相互利用も可能。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 8,800円〜', trial: '体験レッスンあり', features: ['低価格','LAVA相互利用','マシン専門','映像レッスン'],
     description: 'ホットヨガLAVAの姉妹ブランド。月4回8,800円〜と低価格でLAVA全店との相互利用も可能',
     access: '長野市内（詳細は公式サイトでご確認ください）', address: '長野県長野市（詳細は公式サイトでご確認ください）',
@@ -80,11 +60,6 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 長野店', image: '/images/studios/club-pilates.webp', rating: 4.6, reviewCount: 30,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '世界最大級のマシンピラティスブランド。15種類の器具を使った本格レッスン。4段階のレベル分けで初心者から上級者。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 14,190円〜', trial: '体験レッスン 無料（30分イントロクラス）', features: ['世界最大級','15種類の器具','4段階レベル分け','男性OK'],
     description: '世界最大級のマシンピラティスブランド。15種類の器具を使った本格レッスン。4段階のレベル分けで初心者から上級者まで対応',
     access: '長野市内（詳細は公式サイトでご確認ください）', address: '長野県長野市（詳細は公式サイトでご確認ください）',

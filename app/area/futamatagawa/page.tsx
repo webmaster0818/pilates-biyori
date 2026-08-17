@@ -22,13 +22,6 @@ const studios = [
   {
     name: 'pilates K ドン・キホーテ二俣川店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.5,
-    reviewCount: 55,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '女性限定マシンピラティス専門。ドン・キホーテ二俣川内で買い物ついでに通える。部位別プログラムが充実。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月4回 13,420円〜',
     trial: '体験レッスン 無料',
     features: ["女性専用", "駅近", "部位別プログラム", "1人1台マシン"],
@@ -44,13 +37,6 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 二俣川店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/default-studio.webp',
-    rating: 4.5,
-    reviewCount: 35,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '二俣川駅徒歩4分。30分サーキット形式でマシンピラティスとTRXを組み合わせ。予約不要で通いやすい。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月額制',
     trial: '体験レッスンあり',
     features: ["30分サーキット", "マシン&TRX", "駅徒歩4分", "予約不要"],
@@ -65,13 +51,6 @@ const studios = [
   {
     name: 'SOELU 二俣川店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.4,
-    reviewCount: 28,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '女性専用フィットネススタジオ。マット・マシンピラティスが受け放題でコスパが良い。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月額制',
     trial: '体験レッスンあり',
     features: ["女性専用", "マット&マシン", "受け放題", "コスパ"],
@@ -86,13 +65,6 @@ const studios = [
   {
     name: 'studio-luana ルアナ',
     image: '/images/studios/default-studio.webp',
-    rating: 4.6,
-    reviewCount: 18,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '二俣川駅徒歩5分の少人数ヨガ・ピラティス・ストレッチスタジオ。アットホームな雰囲気で通いやすい。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["少人数", "ヨガ&ピラティス&ストレッチ", "アットホーム", "地域密着"],
@@ -107,13 +79,6 @@ const studios = [
   {
     name: 'ピラティスステーションライト 二俣川',
     image: '/images/studios/default-studio.webp',
-    rating: 4.5,
-    reviewCount: 15,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '運動苦手な初心者でも安心して通える少人数制のピラティス専門店。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["少人数制", "運動苦手OK", "初心者専門", "女性向け"],

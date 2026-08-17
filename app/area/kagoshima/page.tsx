@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'ピラティスK イオンモール鹿児島店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 181,
-    reviews: [
-      {
-        author: 'M.H',
-        rating: 5,
-        date: '1週間前',
-        text: '鹿児島初上陸の女性専用マシンピラティス専門スタジオ。イオンモール鹿児島2階にあるので買い物ついでに通える。体験レッスン0円で気軽に試せました。',
-      },
-      {
-        author: 'Y.K',
-        rating: 5,
-        date: '2週間前',
-        text: '音楽に合わせたグループレッスンが楽しい。部位別ボディメイクプログラムが充実していて飽きない。当日入会で入会金・登録料0円。',
-      },
-      {
-        author: 'A.N',
-        rating: 4,
-        date: '3週間前',
-        text: '火・水・金は22時まで営業で仕事帰りにも通いやすい。月4回13,420円とマシンピラティスとしてはコスパが良い。',
-      },
-    ],
     price: '月4回 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', 'イオンモール内', '体験0円', '部位別プログラム'],
@@ -76,28 +54,6 @@ const studios = [
   {
     name: 'Pilates KASANE 鹿児島天文館店',
     image: '/images/studios/kasane-kagoshima.webp',
-    rating: 4.6,
-    reviewCount: 18,
-    reviews: [
-      {
-        author: 'S.M',
-        rating: 5,
-        date: '1週間前',
-        text: '天文館通駅から徒歩5分の好立地。4名以下の少人数制でインストラクターが一人ひとりに寄り添ったレッスン。レンタルウェア・ソックスも無料で手ぶらで通える。',
-      },
-      {
-        author: 'K.Y',
-        rating: 5,
-        date: '2週間前',
-        text: '和を基調とした落ち着いた空間が素敵。ビギナー向けからステップアップまでプログラムが豊富。月8回で1回あたり3,025円とコスパも良い。',
-      },
-      {
-        author: 'R.T',
-        rating: 4,
-        date: '3週間前',
-        text: 'パウダールームも完備で仕事前後にも便利。初心者でも安心して始められる雰囲気。',
-      },
-    ],
     price: '月4回 15,400円〜',
     trial: '体験レッスン 3,000円',
     features: ['天文館徒歩5分', '少人数制4名', 'レンタル無料', '和の空間'],
@@ -129,28 +85,6 @@ const studios = [
   {
     name: 'STUDIO IVY（スタジオアイビー）鹿児島店',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.8,
-    reviewCount: 18,
-    reviews: [
-      {
-        author: 'E.K',
-        rating: 5,
-        date: '1週間前',
-        text: '鹿児島中央駅から徒歩5分。完全個室でオーダーメイドのパーソナルレッスン。月額制で1回約6,500円〜と続けやすい価格。',
-      },
-      {
-        author: 'N.S',
-        rating: 5,
-        date: '2週間前',
-        text: '「なりたい自分になれる場所」というコンセプト通り、自分の目標に合わせたプログラムを組んでもらえる。インストラクターの質が高い。',
-      },
-      {
-        author: 'T.H',
-        rating: 4,
-        date: '3週間前',
-        text: '完全プライベートなので周りを気にせず集中できる。マンツーマンだから初心者でも安心。',
-      },
-    ],
     price: '月2回 15,000円〜',
     trial: '体験レッスンあり',
     features: ['鹿児島中央駅徒歩5分', '完全個室', 'オーダーメイド', 'パーソナル専門'],
@@ -182,28 +116,6 @@ const studios = [
   {
     name: 'Coralful Journey（コーラルフルジャーニー）',
     image: '/images/studios/coralful-journey-kagoshima.webp',
-    rating: 4.5,
-    reviewCount: 13,
-    reviews: [
-      {
-        author: 'H.M',
-        rating: 5,
-        date: '1週間前',
-        text: '鹿児島中央駅から徒歩1分で最高のアクセス。市内最大級10名以上のインストラクターが在籍。無料体験レッスンがあるので気軽に始められる。',
-      },
-      {
-        author: 'Y.A',
-        rating: 4,
-        date: '2週間前',
-        text: 'ヨガとピラティスの両方が受けられる。ベビーシッター在籍でママさんも安心して通える。通い放題プランもあり。',
-      },
-      {
-        author: 'C.N',
-        rating: 4,
-        date: '3週間前',
-        text: '体験レッスン1,100円が今なら0円。当日入会で入会金5,500円も無料。初心者から経験者まで楽しめるレッスン内容。',
-      },
-    ],
     price: '月額制（プラン複数あり）',
     trial: '体験レッスン 0円',
     features: ['中央駅徒歩1分', '体験0円', 'ベビーシッター在籍', 'ヨガ&ピラティス'],
@@ -235,28 +147,6 @@ const studios = [
   {
     name: 'Pilates KASANE 鹿児島中央駅前店',
     image: '/images/studios/pilates-kasane.webp',
-    rating: 4.6,
-    reviewCount: 22,
-    reviews: [
-      {
-        author: 'L.K',
-        rating: 5,
-        date: '1週間前',
-        text: '天文館店と合わせて鹿児島に2店舗展開。中央駅前で駅近アクセス抜群。少人数制で丁寧な指導が受けられる。',
-      },
-      {
-        author: 'M.T',
-        rating: 4,
-        date: '2週間前',
-        text: '和の雰囲気が落ち着く。レンタル無料で手ぶらで通えるのが嬉しい。ビギナープログラムが充実。',
-      },
-      {
-        author: 'S.Y',
-        rating: 5,
-        date: '3週間前',
-        text: '天文館店と両方利用できるので予約が取りやすい。スタッフの対応も丁寧で安心。',
-      },
-    ],
     price: '月4回 15,400円〜',
     trial: '体験レッスン 3,000円',
     features: ['中央駅前', '2店舗展開', '少人数制', 'レンタル無料'],

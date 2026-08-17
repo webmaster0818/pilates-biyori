@@ -25,28 +25,6 @@ const studios = [
     name: 'zen place pilates 駒沢',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 30,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '2週間前',
-        text: '駒沢大学駅から徒歩4分で通いやすいです。マットもマシンも両方受けられるのが嬉しい。エデュケーターの質が高く、体の使い方を丁寧に教えてくれます。',
-      },
-      {
-        author: 'A.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '駒沢公園の近くでロケーション抜群。レッスン後に公園を散歩するのが日課になりました。全国の店舗が使えるのも便利です。',
-      },
-      {
-        author: 'R.S',
-        rating: 4,
-        date: '3週間前',
-        text: '体験レッスン1,000円で気軽に始められました。少人数制で丁寧に指導してもらえるので初心者にもおすすめです。',
-      },
-    ],
     price: 'マットグループ月4回 9,625円〜',
     trial: '体験レッスン 1,000円',
     features: ['マット&マシン', '初心者歓迎', '駒沢大学駅徒歩4分', '男性OK'],
@@ -78,28 +56,6 @@ const studios = [
   {
     name: 'PILATES STUDIO noa 駒沢',
     image: '/images/studios/pilates-noa.webp',
-    rating: 4.7,
-    reviewCount: 12,
-    reviews: [
-      {
-        author: 'S.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用なので安心して通えます。マシンピラティス専門で、リフォーマーを使った本格的なレッスンが受けられます。',
-      },
-      {
-        author: 'K.M',
-        rating: 4,
-        date: '2週間前',
-        text: '駒沢大学駅西口から徒歩3分と駅近で便利。月2回6,600円〜と始めやすい料金設定も魅力です。',
-      },
-      {
-        author: 'N.H',
-        rating: 5,
-        date: '3週間前',
-        text: 'Intro、BODY MAKE、Conditioningの3つのプログラムから選べるので、その日の体調に合わせてレッスンを選べるのが良いです。',
-      },
-    ],
     price: '月2回 6,600円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', 'マシンピラティス専門', '駒沢大学駅徒歩3分', '月2回6,600円〜'],
@@ -131,28 +87,6 @@ const studios = [
   {
     name: 'Pilates Mee 駒沢大学店',
     image: '/images/studios/pilates-mee.webp',
-    rating: 4.8,
-    reviewCount: 15,
-    reviews: [
-      {
-        author: 'T.N',
-        rating: 5,
-        date: '5日前',
-        text: '最大3名のセミパーソナルなので、グループより丁寧に見てもらえてパーソナルより安い。ちょうどいいバランスです。',
-      },
-      {
-        author: 'Y.S',
-        rating: 5,
-        date: '1週間前',
-        text: '当日予約・当日キャンセルOKなので、予定が変わりやすい私にはぴったり。月2回11,000円で始められました。',
-      },
-      {
-        author: 'H.K',
-        rating: 4,
-        date: '2週間前',
-        text: 'インストラクターが一人ずつ見てくれるので、初心者でも安心。マシンの使い方も丁寧に教えてもらえます。',
-      },
-    ],
     price: '月2回 11,000円〜',
     trial: '体験レッスン 無料キャンペーン中',
     features: ['最大3名セミパーソナル', '当日予約OK', '当日キャンセルOK', '駒沢大学駅近'],
@@ -184,28 +118,6 @@ const studios = [
   {
     name: 'I PILATES（アイピラティス）駒沢公園',
     image: '/images/studios/i-pilates.webp',
-    rating: 4.9,
-    reviewCount: 12,
-    reviews: [
-      {
-        author: 'E.W',
-        rating: 5,
-        date: '3日前',
-        text: '駒沢公園横のロケーションが最高です。大きな窓から緑が見えてリラックスしながらレッスンを受けられます。管理栄養士の栄養相談もあるのが珍しい。',
-      },
-      {
-        author: 'L.O',
-        rating: 5,
-        date: '1週間前',
-        text: 'マンツーマンのプライベートレッスンで自分の体に合わせたプログラムを組んでもらえます。臨床心理士のカウンセリングもあって心身両面からケアしてもらえます。',
-      },
-      {
-        author: 'F.T',
-        rating: 5,
-        date: '2週間前',
-        text: '緑豊かな環境で都会の喧騒を忘れてトレーニングに集中できます。インストラクターの知識が豊富で信頼できます。',
-      },
-    ],
     price: 'プライベートレッスン 要問合せ',
     trial: '体験レッスンあり',
     features: ['駒沢公園横', '管理栄養士在籍', '臨床心理士在籍', 'プライベートレッスン'],
@@ -237,28 +149,6 @@ const studios = [
     name: 'ELEMENT 駒沢（近隣）',
     officialUrl: 'https://t.felmat.net/fmcl?ak=U11199J.1.V154352I.U1357808',
     image: '/images/studios/element.webp',
-    rating: 4.7,
-    reviewCount: 16,
-    reviews: [
-      {
-        author: 'D.K',
-        rating: 5,
-        date: '4日前',
-        text: '30分のパーソナルレッスンなので、忙しい日でもサクッと通えます。マンツーマンなので集中できて効果を実感しています。',
-      },
-      {
-        author: 'P.M',
-        rating: 4,
-        date: '1週間前',
-        text: 'マシンピラティスのパーソナルジムで、トレーナーさんがフォームをしっかり見てくれます。月4回22,000円はパーソナルとしてはコスパが良い。',
-      },
-      {
-        author: 'G.N',
-        rating: 5,
-        date: '2週間前',
-        text: '駒沢エリアからもアクセスしやすく通いやすい。短時間で効率的にトレーニングできるのが魅力です。',
-      },
-    ],
     price: '月4回 22,000円',
     trial: '体験レッスン 3,300円',
     features: ['マンツーマン30分', '月4回 22,000円', '体験3,300円', '駒沢近隣'],
@@ -289,28 +179,6 @@ const studios = [
   {
     name: 'CLUB PILATES 駒沢（近隣）',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.6,
-    reviewCount: 160,
-    reviews: [
-      {
-        author: 'C.A',
-        rating: 5,
-        date: '1週間前',
-        text: 'アメリカ発の本格的なマシンピラティスが受けられます。レベル別にクラスが分かれているので初心者でも安心です。',
-      },
-      {
-        author: 'J.H',
-        rating: 4,
-        date: '2週間前',
-        text: '最大12名のグループレッスンですが、一人ずつしっかり見てもらえます。月4回10,890円〜とコスパ抜群です。',
-      },
-      {
-        author: 'B.S',
-        rating: 5,
-        date: '3週間前',
-        text: 'リフォーマーを使ったグループレッスンが楽しい。プログラムの質が高く、毎回新しい発見があります。',
-      },
-    ],
     price: '月4回 10,890円〜',
     trial: '体験レッスンあり',
     features: ['最大12名グループ', 'リフォーマー使用', '月4回 10,890円〜', '駒沢近隣'],

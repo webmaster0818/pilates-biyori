@@ -23,13 +23,7 @@ const studios = [
   {
     name: 'zen place pilates 豊中スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7, reviewCount: 142,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '阪急豊中駅東口から徒歩5分。マットもマシンも両方受けられるのが魅力。全国150店舗以上で他店利用できるのが便利です。' },
-      { author: 'S.T', rating: 5, date: '2週間前', text: 'インストラクターの質が高く丁寧な指導。初回体験1,000円で気軽に試せました。男性もOKなので夫婦で通っています。' },
-      { author: 'R.N', rating: 4, date: '3週間前', text: '住宅地の中にある落ち着いた雰囲気のスタジオ。グループレッスンの種類が豊富で飽きずに通えます。' },
-    ],
+    image: '/images/studios/zen-place-pilates.webp', reviewCount: 142,
     price: '月4回 9,625円〜', trial: 'グループ体験 1,000円',
     features: ['豊中駅徒歩5分', '男性OK', 'マット&マシン', '全国相互利用'],
     description: 'ピラティス専門の大手スタジオ。阪急宝塚線「豊中駅」東口から徒歩5分。マットグループ・マシングループ・プライベートの3タイプから選べます。全国150店舗以上で相互利用可能。正統派ピラティスの質の高い指導が特徴。',
@@ -42,13 +36,7 @@ const studios = [
   },
   {
     name: 'studio Pilates remove（ピラティス リムーブ）',
-    image: '/images/studios/pilates-kasane.webp',
-    rating: 4.9, reviewCount: 86,
-    reviews: [
-      { author: 'A.Y', rating: 5, date: '1週間前', text: '10種類以上・約25台のマシンを完備した本格派スタジオ。日本では珍しいマシンもあり、プライベートレッスンで丁寧に指導してもらえます。' },
-      { author: 'K.S', rating: 5, date: '2週間前', text: '阪急豊中駅から徒歩5分。パーソナル専門なので自分の体の状態に合わせた最適なプログラムを組んでもらえます。' },
-      { author: 'N.M', rating: 5, date: '3週間前', text: 'マットだけでなくマシンピラティスも基礎から丁寧に教えてもらえる。設備の充実度は北摂エリアNo.1だと思います。' },
-    ],
+    image: '/images/studios/pilates-kasane.webp', reviewCount: 86,
     price: 'パーソナル 1回 8,500円〜', trial: '体験レッスンあり',
     features: ['パーソナル専門', '10種類以上のマシン', '豊中駅徒歩5分', '本格派'],
     description: 'プライベートレッスン専門のピラティススタジオ。阪急豊中駅から徒歩5分。日本では珍しいピラティスマシンを含む10種類以上・約25台を完備。マットからマシンまで基礎から丁寧に指導。北摂エリア屈指の設備充実度。',
@@ -61,13 +49,7 @@ const studios = [
   },
   {
     name: 'Doux pilates studio（ドゥ・ピラティス・スタジオ）',
-    image: '/images/studios/pilates-kasane-osaka.webp',
-    rating: 4.8, reviewCount: 74,
-    reviews: [
-      { author: 'Y.K', rating: 5, date: '1週間前', text: '曽根駅から徒歩2分の好立地。ピラティスマシン完備でプライベートレッスンが受けられます。アスリートから高齢者まで幅広く対応。' },
-      { author: 'T.M', rating: 5, date: '2週間前', text: '丁寧なカウンセリングから始まり、自分の体に合ったプログラムを組んでもらえます。腰痛が劇的に改善しました。' },
-      { author: 'H.S', rating: 4, date: '3週間前', text: 'アットホームな雰囲気で通いやすい。インストラクターの知識が豊富で信頼できます。' },
-    ],
+    image: '/images/studios/pilates-kasane-osaka.webp', reviewCount: 74,
     price: 'パーソナル 1回 7,500円〜', trial: '体験レッスンあり',
     features: ['曽根駅徒歩2分', 'パーソナル対応', 'マシン完備', '幅広い年齢対応'],
     description: '阪急宝塚線曽根駅から徒歩2分のピラティス専門スタジオ。ピラティスマシンを完備し、プライベートレッスンを提供。アスリートから高齢者まで幅広いニーズに対応。丁寧なカウンセリングで個々の体の状態に合わせた指導。',
@@ -80,13 +62,7 @@ const studios = [
   },
   {
     name: 'STANCE（スタンス）豊中',
-    image: '/images/studios/the-silk.webp',
-    rating: 4.6, reviewCount: 92,
-    reviews: [
-      { author: 'E.N', rating: 5, date: '1週間前', text: '曽根駅から徒歩1分！女性専用で6人制のグループレッスン。周りを気にせず体を動かせるのが嬉しいです。' },
-      { author: 'R.K', rating: 5, date: '2週間前', text: 'ヨガとピラティスの両方が受けられるのが魅力。少人数制なのでしっかり見てもらえます。' },
-      { author: 'M.A', rating: 4, date: '3週間前', text: '女性専用で清潔感のあるスタジオ。料金も良心的で続けやすいです。スタッフの対応も丁寧。' },
-    ],
+    image: '/images/studios/the-silk.webp', reviewCount: 92,
     price: '月4回 8,800円〜', trial: '体験レッスンあり',
     features: ['女性専用', '曽根駅徒歩1分', '6人制少人数', 'ヨガ＆ピラティス'],
     description: '阪急宝塚線曽根駅から徒歩1分の女性専用スタジオ。グループレッスンは6人制の少人数で、周りを気にせず体を動かせる。ヨガとピラティスの両方のレッスンが受けられ、気分や目的に合わせて選べるのが魅力。',
@@ -99,13 +75,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 豊中',
-    image: '/images/studios/pilates-mirror.webp',
-    rating: 4.5, reviewCount: 78,
-    reviews: [
-      { author: 'K.T', rating: 5, date: '1週間前', text: 'コナミスポーツクラブが展開する女性専用スタジオ。鏡を見ながらフォームを確認できるので効果的です。1回30分で手軽。' },
-      { author: 'S.M', rating: 5, date: '2週間前', text: '豊中駅から徒歩7分。月額11,000円で月6回通えるのでコスパが良い。少人数制で丁寧に見てもらえます。' },
-      { author: 'A.H', rating: 4, date: '3週間前', text: '施設がきれいで清潔感がある。女性専用なので安心して通えます。定休日は水曜なので注意。' },
-    ],
+    image: '/images/studios/pilates-mirror.webp', reviewCount: 78,
     price: '月額 11,000円（月6回）', trial: '体験レッスン 2,200円',
     features: ['女性専用', 'コナミ運営', '1回30分', '鏡活用レッスン'],
     description: 'コナミスポーツクラブが展開する女性専用マシンピラティススタジオ。阪急豊中駅から徒歩7分。「鏡」を活用したレッスンで自分のフォームを確認しながら効果的にトレーニング。1回30分の少人数制。',
@@ -118,13 +88,7 @@ const studios = [
   },
   {
     name: 'Rintosull（リントスル）豊中店',
-    image: '/images/studios/rintosull.webp',
-    rating: 4.5, reviewCount: 85,
-    reviews: [
-      { author: 'Y.N', rating: 5, date: '1週間前', text: '女性専用で安心。映像×インストラクターのハイブリッドレッスンが分かりやすくて初心者にもおすすめ。' },
-      { author: 'K.M', rating: 5, date: '2週間前', text: '月額8,800円〜の通い放題がコスパ最高。LAVAと同じ系列で信頼感もあります。' },
-      { author: 'T.K', rating: 4, date: '3週間前', text: 'スタジオがきれいで気持ちよく通えます。レッスンの種類も豊富で飽きません。' },
-    ],
+    image: '/images/studios/rintosull.webp', reviewCount: 85,
     price: '月額 8,800円〜', trial: '体験レッスンあり',
     features: ['女性専用', '通い放題あり', '映像×インストラクター', 'LAVA系列'],
     description: 'ホットヨガLAVAが手がける女性専用マシンピラティススタジオ。大型スクリーンの映像とインストラクターのハイブリッドレッスンで初心者でも安心。月額8,800円〜とリーズナブルな通い放題プランが魅力。',

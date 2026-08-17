@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates 自由が丘 第1スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 12,
-    reviews: [
-      {
-        author: 'K.N',
-        rating: 5,
-        date: '1週間前',
-        text: '自由が丘駅から徒歩2分。マットもマシンも両方受けられるのが魅力。全国150店舗以上で他店利用可能。自由が丘に第2スタジオ（奥沢）もあるので予約が取りやすい。',
-      },
-      {
-        author: 'M.T',
-        rating: 5,
-        date: '2週間前',
-        text: '男性もOKで夫婦で通っています。朝7時からレッスンがあり週末の朝活にも最適。カトレア通りの近くでおしゃれな街並みを楽しみながら通えます。',
-      },
-      {
-        author: 'A.S',
-        rating: 4,
-        date: '3週間前',
-        text: 'ピラティス専門で20年以上の実績。インストラクターの質が高く、体の変化を早く実感できました。体験当日入会で入会金無料。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['自由が丘駅徒歩2分', '男性OK', 'マット&マシン', '2スタジオ展開'],
@@ -77,28 +55,6 @@ const studios = [
   {
     name: 'the SILK 自由が丘店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.7,
-    reviewCount: 156,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '1週間前',
-        text: '自由が丘駅から徒歩4分。女性専用で清潔感のあるおしゃれな内装。音楽に合わせたリフォーマーレッスンが楽しい。手ぶらで体験無料は嬉しい。',
-      },
-      {
-        author: 'Y.M',
-        rating: 5,
-        date: '2週間前',
-        text: '朝7:30から夜21:00まで営業。ウェア・タオル無料貸出やウォーターサーバーも完備。体験者の8割がピラティス未経験者なので初心者でも安心。',
-      },
-      {
-        author: 'R.T',
-        rating: 4,
-        date: '3週間前',
-        text: '月3回12,980円〜と始めやすい料金。入会キャンペーンで入会金・登録手数料も無料になることが多い。',
-      },
-    ],
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '自由が丘駅徒歩4分', '手ぶら体験OK', '音楽レッスン'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'ピラティスミラー 自由が丘',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.6,
-    reviewCount: 10,
-    reviews: [
-      {
-        author: 'E.M',
-        rating: 5,
-        date: '1週間前',
-        text: 'コナミスポーツ運営で安心。天井の鏡で自分のフォームを確認しながらレッスンできるのが画期的。30分のレッスンなので忙しい日でも通いやすい。',
-      },
-      {
-        author: 'N.K',
-        rating: 4,
-        date: '2週間前',
-        text: '月6回11,000円と手頃な価格。7回目以降も1回1,100円で追加できるので柔軟に通える。体験2,200円で雰囲気がわかります。',
-      },
-      {
-        author: 'H.Y',
-        rating: 5,
-        date: '3週間前',
-        text: '6〜10名のグループレッスンでリフォーマーを使用。プライベートレッスンも30分4,400円〜とリーズナブル。',
-      },
-    ],
     price: '月6回 11,000円',
     trial: '体験レッスン 2,200円',
     features: ['コナミ運営', '天井ミラー', '30分レッスン', '月6回11,000円'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'CLUB PILATES 自由が丘店',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.7,
-    reviewCount: 118,
-    reviews: [
-      {
-        author: 'T.M',
-        rating: 5,
-        date: '1週間前',
-        text: '世界最大級のブランドで設備が充実。リフォーマー・スプリングボード・TRXなど15種類の器具を使えるのは他にない。無料の30分イントロクラスで雰囲気がわかる。',
-      },
-      {
-        author: 'C.Y',
-        rating: 4,
-        date: '2週間前',
-        text: '4段階のレベル分けで初心者でも安心。男性会員も多い。8つのプログラムがあり飽きずに続けられます。',
-      },
-      {
-        author: 'K.S',
-        rating: 5,
-        date: '3週間前',
-        text: 'インストラクター全員が500時間以上の教育を受けた資格保持者。指導の質が高く、体の変化を早く実感できる。',
-      },
-    ],
     price: '月4回 14,190円〜',
     trial: '体験レッスン 無料（30分イントロクラス）',
     features: ['世界最大級', '15種類の器具', '男性OK', '4段階レベル'],
@@ -236,28 +148,6 @@ const studios = [
   {
     name: '自由が丘ピラティススタジオ',
     image: '/images/studios/jiyugaoka-pilates.webp',
-    rating: 4.8,
-    reviewCount: 14,
-    reviews: [
-      {
-        author: 'A.K',
-        rating: 5,
-        date: '1週間前',
-        text: '自由が丘で唯一の全ピラティスマシン完備スタジオ。リフォーマー・キャデラック・チェア・バレルすべて揃っているのはここだけ。パーソナルの質が非常に高い。',
-      },
-      {
-        author: 'Y.N',
-        rating: 5,
-        date: '2週間前',
-        text: '託児サービスがあるので小さい子供がいても安心して通えます。産後のボディケアに最適。インストラクターの指導がとても丁寧。',
-      },
-      {
-        author: 'M.H',
-        rating: 4,
-        date: '3週間前',
-        text: '少人数制で一人ひとりをしっかり見てもらえる。自由が丘と武蔵小山に店舗があるので通い分けも可能。',
-      },
-    ],
     price: 'パーソナル 1回 8,800円〜',
     trial: '体験レッスンあり',
     features: ['全マシン完備', '託児サービス', '少人数制', 'パーソナル充実'],

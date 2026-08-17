@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'Rintosull（リントスル）高松店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.7,
-    reviewCount: 113,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '1週間前',
-        text: 'LAVA運営のマシンピラティス専門スタジオ。マシンピラティス業界で最安値レベルの料金設定。初心者から上級者まで目的に合わせたプログラムが豊富。',
-      },
-      {
-        author: 'Y.H',
-        rating: 5,
-        date: '2週間前',
-        text: '見学会当日の入会で入会金・登録金0円。通い放題プランが3ヶ月1,980円のキャンペーンもあり、始めやすい。',
-      },
-      {
-        author: 'A.S',
-        rating: 4,
-        date: '3週間前',
-        text: 'ハローズ仏生山店の1Fにあり、買い物ついでに通える。国道193号線沿いでアクセスも良い。',
-      },
-    ],
     price: '月額 13,800円〜',
     trial: '見学会参加で特別価格あり',
     features: ['LAVA運営', '業界最安級', '通い放題あり', '全国相互利用'],
@@ -76,28 +54,6 @@ const studios = [
   {
     name: 'GRANLAB（グランラボ）高松丸の内',
     image: '/images/studios/granlab-takamatsu.webp',
-    rating: 4.6,
-    reviewCount: 26,
-    reviews: [
-      {
-        author: 'K.N',
-        rating: 5,
-        date: '1週間前',
-        text: '片原町駅徒歩1分で駅近。地域最大級のマシン数とレッスン数。体験レッスン0円で気軽に試せました。エリア最安値の月8,500円〜。',
-      },
-      {
-        author: 'S.T',
-        rating: 5,
-        date: '2週間前',
-        text: '30分と50分のプログラムが選べる。シャワールーム・水素水サーバー・プロテインサーバー完備で手ぶらで通える。',
-      },
-      {
-        author: 'R.I',
-        rating: 4,
-        date: '3週間前',
-        text: '2025年6月オープンの新しいスタジオ。設備が綺麗で気持ちいい。インドアゴルフやAIフィットネスも併設。',
-      },
-    ],
     price: '月額 8,500円〜',
     trial: '体験レッスン 0円',
     features: ['片原町駅徒歩1分', '地域最大級', '体験0円', 'エリア最安'],
@@ -129,28 +85,6 @@ const studios = [
   {
     name: 'La pilates（ラピラティス）高松店',
     image: '/images/studios/la-pilates.webp',
-    rating: 4.7,
-    reviewCount: 22,
-    reviews: [
-      {
-        author: 'E.M',
-        rating: 5,
-        date: '1週間前',
-        text: '整体とマシンピラティスを融合したオリジナルメソッドが魅力。理学療法士が監修するプログラムで、美脚骨ピラティス・猫背骨ピラティスなど目的別メニューが充実。',
-      },
-      {
-        author: 'N.Y',
-        rating: 5,
-        date: '2週間前',
-        text: '女性専用で安心。ウェアのレンタル無料で手ぶらで通える。パーソナルなので自分のペースでレッスンを受けられる。',
-      },
-      {
-        author: 'C.K',
-        rating: 4,
-        date: '3週間前',
-        text: 'サン・フラワー通り沿いで無料駐車場あり。体験レッスン3,000円で試せました。',
-      },
-    ],
     price: '1回 9,000円〜',
     trial: '体験レッスン 3,000円',
     features: ['女性専用', '整体×ピラティス', '理学療法士監修', 'ウェア無料'],
@@ -182,28 +116,6 @@ const studios = [
   {
     name: 'ピラティススタジオDEP 高松店',
     image: '/images/studios/pilates-studio-dep.webp',
-    rating: 4.8,
-    reviewCount: 5,
-    reviews: [
-      {
-        author: 'T.A',
-        rating: 5,
-        date: '1週間前',
-        text: '全スタッフ有資格者で指導の質が高い。完全個室でのパーソナルレッスンなので周りを気にせず集中できる。初回90分2,980円で体験可能。',
-      },
-      {
-        author: 'H.K',
-        rating: 5,
-        date: '2週間前',
-        text: '松縄町に移転してからさらにアクセスしやすくなった。1,000種類以上のプログラムから自分に合ったメニューを提案してもらえる。',
-      },
-      {
-        author: 'Y.M',
-        rating: 4,
-        date: '3週間前',
-        text: '姿勢改善に効果を実感。パーソナルなので初心者でも安心。初期費用0円で始められるのも嬉しい。',
-      },
-    ],
     price: '月額 14,800円〜',
     trial: '初回パーソナル90分 2,980円',
     features: ['完全個室', '有資格者のみ', '初期費用0円', '1,000種類以上'],
@@ -235,28 +147,6 @@ const studios = [
   {
     name: 'd.branch studio（ディ・ブランチ スタジオ）',
     image: '/images/studios/d-branch-takamatsu.webp',
-    rating: 4.5,
-    reviewCount: 26,
-    reviews: [
-      {
-        author: 'M.I',
-        rating: 5,
-        date: '1週間前',
-        text: '定員6名の少人数セミプライベートレッスン。体験1回500円と気軽に試せる。入会金5,000円、年会費無料でシンプルな料金体系。',
-      },
-      {
-        author: 'K.O',
-        rating: 4,
-        date: '2週間前',
-        text: 'ピラティスだけでなくヨガやストレッチポールも受けられる。マタニティ・産後ピラティスもあり、ママさんにも人気。',
-      },
-      {
-        author: 'S.N',
-        rating: 4,
-        date: '3週間前',
-        text: '月4回4,600円と高松で最もリーズナブル。完全予約制で落ち着いた雰囲気のスタジオ。',
-      },
-    ],
     price: '月4回 4,600円',
     trial: '体験レッスン 500円',
     features: ['少人数制6名', '体験500円', '月4回4,600円', 'マタニティ対応'],

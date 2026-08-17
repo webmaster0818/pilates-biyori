@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates 浦和スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 34,
-    reviews: [
-      {
-        author: 'K.T',
-        rating: 5,
-        date: '1週間前',
-        text: '浦和駅西口から徒歩4分。グレード01の上位スタジオでリフォーマー・キャデラック・チェアなどマシンが充実。2024年7月に拡張移転リニューアルしたばかり。',
-      },
-      {
-        author: 'M.S',
-        rating: 5,
-        date: '2週間前',
-        text: '全国150店舗以上で相互利用可能。マットもマシンも両方受けられるのが魅力。男性もOKなのが嬉しい。',
-      },
-      {
-        author: 'A.Y',
-        rating: 4,
-        date: '3週間前',
-        text: '平日10時から21時まで営業で仕事帰りに通えます。インストラクターの質が高く、ピラティス専門で20年以上の実績がある。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['浦和駅徒歩4分', 'グレード01', '男性OK', '全国相互利用'],
@@ -77,28 +55,6 @@ const studios = [
   {
     name: 'ピラティスK 浦和PARCO店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 222,
-    reviews: [
-      {
-        author: 'Y.N',
-        rating: 5,
-        date: '1週間前',
-        text: '浦和駅東口から徒歩1分！浦和PARCOの6階にあるので買い物ついでに通える。女性専用で安心。音楽に合わせたリフォーマーレッスンが楽しい。',
-      },
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '0円体験で気軽に試せました。月4回11,220円とコスパが良い。部位別ボディメイクプログラムが充実。',
-      },
-      {
-        author: 'R.T',
-        rating: 4,
-        date: '3週間前',
-        text: '火〜金は22時まで営業で仕事帰りに通いやすい。マシンピラティス専門なのでリフォーマーの台数が多く予約が取りやすい。',
-      },
-    ],
     price: '月4回 11,220円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', '浦和駅徒歩1分', '部位別プログラム', '浦和PARCO内'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'the SILK 浦和店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.7,
-    reviewCount: 324,
-    reviews: [
-      {
-        author: 'E.M',
-        rating: 5,
-        date: '1週間前',
-        text: '浦和駅西口から徒歩2分。女性専用で清潔感のある内装がおしゃれ。音楽に合わせたレッスンが楽しい。手ぶら体験無料で気軽に試せました。',
-      },
-      {
-        author: 'N.K',
-        rating: 5,
-        date: '2週間前',
-        text: '朝7:30から夜21:00まで営業で通いやすい。ウェア・タオル無料貸出やウォーターサーバーも完備。初心者の8割がピラティス未経験者。',
-      },
-      {
-        author: 'T.S',
-        rating: 4,
-        date: '3週間前',
-        text: '月3回12,980円〜と始めやすい価格設定。レッスンの種類が豊富で飽きずに続けられます。',
-      },
-    ],
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '浦和駅徒歩2分', '手ぶら体験OK', '朝7:30〜'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'CLUB PILATES 浦和店',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.7,
-    reviewCount: 136,
-    reviews: [
-      {
-        author: 'H.S',
-        rating: 5,
-        date: '1週間前',
-        text: '浦和駅から徒歩5分。世界最大級のブランドで15種類の器具を使った本格レッスン。無料の30分イントロクラスで雰囲気がわかります。',
-      },
-      {
-        author: 'C.M',
-        rating: 4,
-        date: '2週間前',
-        text: '4段階のレベル分けで初心者でも安心。男性会員も多く、カップルで通っています。インストラクター全員が500時間以上の研修を受けた資格保持者。',
-      },
-      {
-        author: 'M.A',
-        rating: 5,
-        date: '3週間前',
-        text: '月4回13,090円〜。8つのプログラムがあり飽きずに続けられます。朝7時から営業で出勤前にも通える。',
-      },
-    ],
     price: '月4回 13,090円〜',
     trial: '体験レッスン 無料（30分イントロクラス）',
     features: ['世界最大級', '浦和駅徒歩5分', '15種類の器具', '男性OK'],
@@ -236,28 +148,6 @@ const studios = [
   {
     name: 'Pilates Mee 浦和店',
     image: '/images/studios/pilates-mee.webp',
-    rating: 4.6,
-    reviewCount: 18,
-    reviews: [
-      {
-        author: 'Y.H',
-        rating: 5,
-        date: '1週間前',
-        text: '浦和駅から徒歩3分。最大3名のセミパーソナル形式でマシンピラティスを受けられる。一人ひとりに合わせた丁寧な指導が魅力。',
-      },
-      {
-        author: 'A.K',
-        rating: 4,
-        date: '2週間前',
-        text: '女性専用で安心。少人数制なのでインストラクターにしっかり見てもらえる。体験レッスン無料キャンペーン中でお得に始められた。',
-      },
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '3週間前',
-        text: '9:00〜21:15まで営業で通いやすい。月2回11,000円〜とプランが豊富で自分に合ったペースで通える。',
-      },
-    ],
     price: '月2回 11,000円〜',
     trial: '体験レッスン 無料（キャンペーン中）',
     features: ['女性専用', '浦和駅徒歩3分', 'セミパーソナル', '最大3名'],

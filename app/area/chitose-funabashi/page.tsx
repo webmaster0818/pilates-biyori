@@ -21,13 +21,6 @@ const studios = [
   {
     name: 'CLUB PILATES 千歳船橋',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.7,
-    reviewCount: 76,
-    reviews: [
-      { author: 'A.B', rating: 5, date: '1週間前', text: 'CLUB PILATES 千歳船橋は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
-      { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
-      { author: 'E.F', rating: 5, date: '3週間前', text: 'スタジオの雰囲気が良く、リラックスしてレッスンを受けられます。' },
-    ],
     price: '月4回 10,890円〜',
     trial: '体験レッスンあり',
     features: ['千歳船橋駅徒歩1分','リフォーマー使用','4段階レベル分け','最大12名'],
@@ -42,13 +35,6 @@ const studios = [
   {
     name: 'ピラティスミラー 千歳船橋',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.7,
-    reviewCount: 33,
-    reviews: [
-      { author: 'A.B', rating: 5, date: '1週間前', text: 'ピラティスミラー 千歳船橋は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
-      { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
-      { author: 'E.F', rating: 5, date: '3週間前', text: 'スタジオの雰囲気が良く、リラックスしてレッスンを受けられます。' },
-    ],
     price: 'プライベート30分 4,400円〜',
     trial: '体験レッスンあり',
     features: ['女性専用','天井ミラー','30分レッスン','コナミ運営'],
@@ -63,13 +49,6 @@ const studios = [
   {
     name: 'COCOLANCE 千歳船橋（近隣）',
     image: '/images/studios/cocolance.webp',
-    rating: 4.8,
-    reviewCount: 19,
-    reviews: [
-      { author: 'A.B', rating: 5, date: '1週間前', text: 'COCOLANCE 千歳船橋（近隣）は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
-      { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
-      { author: 'E.F', rating: 5, date: '3週間前', text: 'スタジオの雰囲気が良く、リラックスしてレッスンを受けられます。' },
-    ],
     price: '料金は店舗にお問い合わせください',
     trial: '体験レッスン 無料キャンペーン中',
     features: ['女性専用','完全個室','パーソナル','女性インストラクター'],
@@ -85,13 +64,6 @@ const studios = [
     name: 'zen place pilates 千歳船橋（近隣）',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 30,
-    reviews: [
-      { author: 'A.B', rating: 5, date: '1週間前', text: 'zen place pilates 千歳船橋（近隣）は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
-      { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
-      { author: 'E.F', rating: 5, date: '3週間前', text: 'スタジオの雰囲気が良く、リラックスしてレッスンを受けられます。' },
-    ],
     price: 'マットグループ月4回 9,625円〜',
     trial: '体験レッスン 1,000円',
     features: ['マット&マシン','全国150店舗','体験1,000円','男性OK'],
@@ -106,13 +78,6 @@ const studios = [
   {
     name: 'ピラティスK 千歳船橋（近隣）',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.6,
-    reviewCount: 185,
-    reviews: [
-      { author: 'A.B', rating: 5, date: '1週間前', text: 'ピラティスK 千歳船橋（近隣）は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
-      { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
-      { author: 'E.F', rating: 5, date: '3週間前', text: 'スタジオの雰囲気が良く、リラックスしてレッスンを受けられます。' },
-    ],
     price: '月4回 11,220円〜',
     trial: '体験レッスンあり',
     features: ['女性専用','マシンピラティス','月4回 11,220円〜','千歳船橋近隣'],

@@ -27,28 +27,6 @@ const studios = [
     name: 'zen place pilates 飯田橋スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 13,
-    reviews: [
-      {
-        author: 'K.S',
-        rating: 5,
-        date: '1週間前',
-        text: '飯田橋駅B4b出口から徒歩1分！マットもマシンも両方受けられるのが魅力。全国150店舗以上で他店利用できるので出張先でも通えます。',
-      },
-      {
-        author: 'M.T',
-        rating: 4,
-        date: '2週間前',
-        text: '男性もOKで夫婦で通っています。朝7時からレッスンがあり出勤前に一汗かけるのが嬉しい。インストラクターの質が高い。',
-      },
-      {
-        author: 'A.Y',
-        rating: 5,
-        date: '3週間前',
-        text: '体験3,300円で体験当日入会すると入会金33,000円が無料に。4路線使えるアクセスの良さが最高。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 3,300円',
     features: ['飯田橋駅徒歩1分', '男性OK', 'マット&マシン', '全国相互利用'],
@@ -80,28 +58,6 @@ const studios = [
   {
     name: 'CLUB PILATES 神楽坂店',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.7,
-    reviewCount: 82,
-    reviews: [
-      {
-        author: 'S.N',
-        rating: 5,
-        date: '1週間前',
-        text: '神楽坂駅1A出口から徒歩30秒！世界最大級のブランドで設備が充実。リフォーマー・スプリングボード・TRXなど15種類の器具を使えるのは他にない体験。',
-      },
-      {
-        author: 'Y.K',
-        rating: 5,
-        date: '2週間前',
-        text: '無料の30分イントロクラスで雰囲気がわかります。4段階のレベル分けで初心者でも安心。男性会員も多い。',
-      },
-      {
-        author: 'E.M',
-        rating: 4,
-        date: '3週間前',
-        text: '8つのプログラムがあり飽きずに続けられます。インストラクター全員が500時間以上の教育を受けた資格保持者で指導の質が高い。',
-      },
-    ],
     price: '月4回 14,190円〜',
     trial: '体験レッスン 無料（30分イントロクラス）',
     features: ['世界最大級', '神楽坂駅徒歩30秒', '15種類の器具', '男性OK'],
@@ -133,28 +89,6 @@ const studios = [
   {
     name: 'ルルト 飯田橋・神楽坂店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
     image: '/images/studios/luluto.webp',
-    rating: 4.8,
-    reviewCount: 10,
-    reviews: [
-      {
-        author: 'T.K',
-        rating: 5,
-        date: '1週間前',
-        text: '理学療法士が指導してくれる完全マンツーマンのパーソナルスタジオ。体の状態を医学的に見てもらえるので安心感が違います。満足できなければ全額返金保証あり。',
-      },
-      {
-        author: 'H.M',
-        rating: 5,
-        date: '2週間前',
-        text: '体験1,000円（通常12,000円）で試せました。カウンセリングが丁寧で、自分の体の癖や改善ポイントを詳しく教えてもらえます。',
-      },
-      {
-        author: 'Y.A',
-        rating: 4,
-        date: '3週間前',
-        text: '飯田橋B1出口から徒歩6分。パーソナル専門なので周りを気にせず集中できる。月3回29,700円と少し高めだが効果は抜群。',
-      },
-    ],
     price: '月3回 29,700円〜',
     trial: '体験レッスン 1,000円（通常12,000円）',
     features: ['理学療法士指導', '完全マンツーマン', '全額返金保証', '体験1,000円'],
@@ -186,28 +120,6 @@ const studios = [
   {
     name: 'Repilates 飯田橋神楽坂店',
     image: '/images/studios/repilates.webp',
-    rating: 4.6,
-    reviewCount: 18,
-    reviews: [
-      {
-        author: 'R.H',
-        rating: 5,
-        date: '1週間前',
-        text: '飯田橋駅東口から徒歩1分の女性専用マシンピラティス。1レッスン3,300円〜と手頃な価格。少人数制で丁寧に指導してもらえます。',
-      },
-      {
-        author: 'N.T',
-        rating: 4,
-        date: '2週間前',
-        text: '朝7:30から夜21:00まで営業で通いやすい。女性専用なので安心して集中できます。初心者でも楽しめるプログラムが充実。',
-      },
-      {
-        author: 'M.S',
-        rating: 5,
-        date: '3週間前',
-        text: 'マシン専門スタジオなのでリフォーマーの台数が多く予約が取りやすい。月額プランの選択肢も多くて自分に合ったプランを選べます。',
-      },
-    ],
     price: '1回 3,300円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', '飯田橋駅徒歩1分', '1回3,300円〜', 'マシン専門'],
@@ -239,28 +151,6 @@ const studios = [
   {
     name: 'the SILK 飯田橋店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.7,
-    reviewCount: 214,
-    reviews: [
-      {
-        author: 'C.N',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用で音楽に合わせたリフォーマーレッスンが楽しい。手ぶらで体験できるのが嬉しい。内装がおしゃれでモチベーションが上がります。',
-      },
-      {
-        author: 'A.K',
-        rating: 5,
-        date: '2週間前',
-        text: '朝7:30から夜22:00まで営業で仕事前後に通える。体験者の8割がピラティス未経験者なので初心者でも安心。',
-      },
-      {
-        author: 'R.S',
-        rating: 4,
-        date: '3週間前',
-        text: '月3回12,980円〜と通いやすい料金。ウェア・タオル無料貸出やウォーターサーバーも完備で手ぶら通い可能。',
-      },
-    ],
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '手ぶら体験OK', '音楽レッスン', '朝7:30〜夜22:00'],

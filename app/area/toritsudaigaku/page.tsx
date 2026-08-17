@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates 都立大学',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 29,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '都立大学駅から近くて通いやすい。マットもマシンも両方受けられるのが嬉しい。エデュケーターが丁寧で初心者でも安心。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '少人数制で一人ひとり見てもらえる。閑静な住宅街にあるので落ち着いた雰囲気でレッスンに集中できます。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: 'マットグループ月4回9,625円〜はコスパ良い。体験1,000円で手軽に始められました。全国店舗の相互利用もできて便利。',
-      },
-    ],
     price: 'マットグループ 月4回 9,625円〜',
     trial: '体験レッスン 1,000円',
     features: ['マット&マシン', '都立大学駅近', '少人数制', '男性OK'],
@@ -77,28 +55,6 @@ const studios = [
   {
     name: 'PILATES STUDIO noa 都立大',
     image: '/images/studios/pilates-studio-noa.webp',
-    rating: 4.7,
-    reviewCount: 14,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: 'マシンピラティス専門なので設備が充実。リフォーマーの台数が多くて予約も取りやすいです。',
-      },
-      {
-        author: 'A.H',
-        rating: 4,
-        date: '2週間前',
-        text: '月4回11,000円でマシンピラティスが受けられるのはお得。都立大学駅から歩いて通えるので便利。',
-      },
-      {
-        author: 'M.M',
-        rating: 5,
-        date: '3週間前',
-        text: 'マシン専門ならではの専門性の高さ。インストラクターの技術が高く、体の変化を実感できます。',
-      },
-    ],
     price: '月4回 11,000円',
     trial: '体験レッスンあり',
     features: ['マシンピラティス専門', '都立大学駅徒歩圏内', 'リフォーマー完備', '女性人気'],
@@ -129,28 +85,6 @@ const studios = [
   {
     name: 'STUDIO IVY',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.9,
-    reviewCount: 9,
-    reviews: [
-      {
-        author: 'T.S',
-        rating: 5,
-        date: '1週間前',
-        text: 'パーソナルなので自分の体に合わせたメニューを組んでもらえる。1回6,250円〜は都内のパーソナルとしては良心的。',
-      },
-      {
-        author: 'H.K',
-        rating: 5,
-        date: '2週間前',
-        text: 'マンツーマンだから集中できる。姿勢の癖を細かく指導してもらえて、短期間で効果を実感しました。',
-      },
-      {
-        author: 'N.Y',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '完全予約制で待ち時間なし。プライベート空間でリラックスしてレッスンを受けられます。',
-      },
-    ],
     price: '1回 6,250円〜',
     trial: '体験レッスンあり',
     features: ['パーソナル専門', '完全予約制', 'オーダーメイド指導', '短期集中OK'],
@@ -181,28 +115,6 @@ const studios = [
   {
     name: 'ピラティスミラー',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.6,
-    reviewCount: 11,
-    reviews: [
-      {
-        author: 'M.T',
-        rating: 5,
-        date: '2週間前',
-        text: 'コナミ運営なので安心感がある。月6回11,000円はマシンピラティスとしてはかなりお得。施設もきれい。',
-      },
-      {
-        author: 'K.S',
-        rating: 4,
-        date: '3週間前',
-        text: '大手ならではの設備の充実度。マシンも新しくて気持ちよく使えます。スタッフの対応も丁寧。',
-      },
-      {
-        author: 'Y.M',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '月6回通えるので週1〜2回のペースで無理なく続けられる。コナミの他施設との連携も便利。',
-      },
-    ],
     price: '月6回 11,000円',
     trial: '体験レッスンあり',
     features: ['コナミ運営', '月6回プラン', 'マシン完備', '大手の安心感'],

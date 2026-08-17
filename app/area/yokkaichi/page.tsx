@@ -20,11 +20,6 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティススタジオDEP 四日市店', image: '/images/studios/zen-place-pilates.webp', rating: 4.8, reviewCount: 28,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'インストラクター全員が理学・作業療法士。高品質のピラティスマシン完備で1000種類以上の運動からカスタマイズさ。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['理学・作業療法士','高品質マシン','1000種類以上','カスタマイズ'],
     description: 'インストラクター全員が理学・作業療法士。高品質のピラティスマシン完備で1000種類以上の運動からカスタマイズされたレッスン',
     access: '四日市市内（詳細は公式サイトでご確認ください）', address: '三重県四日市市（詳細は公式サイトでご確認ください）',
@@ -35,11 +30,6 @@ const studios = [
   },
   {
     name: 'Pilates Days', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 22,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'JR四日市駅から徒歩5分。ジョセフ・ピラティス直系の本物のピラティスを提供。県下最大規模の広さを誇る。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['JR四日市駅徒歩5分','創始者直系','県下最大規模','本格ピラティス'],
     description: 'JR四日市駅から徒歩5分。ジョセフ・ピラティス直系の本物のピラティスを提供。県下最大規模の広さを誇る',
     access: 'JR「四日市駅」徒歩5分', address: '三重県四日市市（詳細は公式サイトでご確認ください）',
@@ -50,11 +40,6 @@ const studios = [
   },
   {
     name: 'luluto（ルルト）四日市店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808', image: '/images/studios/luluto.webp', rating: 4.8, reviewCount: 15,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '完全マンツーマンのマシンピラティス。理学療法士監修プログラムでプロフェッショナルなトレーナーが指導。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月3回 29,700円〜', trial: '体験レッスンあり', features: ['完全マンツーマン','理学療法士監修','高品質指導','カスタマイズ'],
     description: '完全マンツーマンのマシンピラティス。理学療法士監修プログラムでプロフェッショナルなトレーナーが指導',
     access: '四日市市内（詳細は公式サイトでご確認ください）', address: '三重県四日市市（詳細は公式サイトでご確認ください）',
@@ -65,11 +50,6 @@ const studios = [
   },
   {
     name: 'pilates studio coco', image: '/images/studios/zen-place-pilates.webp', rating: 4.5, reviewCount: 20,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '四日市で最安値クラスのマシンピラティススタジオ。手ぶらで来れる環境で初心者にも丁寧に指導。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '最安クラス（詳細は公式サイト）', trial: '体験レッスンあり', features: ['四日市最安クラス','手ぶらOK','丁寧な指導','初心者歓迎'],
     description: '四日市で最安値クラスのマシンピラティススタジオ。手ぶらで来れる環境で初心者にも丁寧に指導',
     access: '四日市市内（詳細は公式サイトでご確認ください）', address: '三重県四日市市（詳細は公式サイトでご確認ください）',
@@ -80,11 +60,6 @@ const studios = [
   },
   {
     name: 'ピラティススタジオSwan', image: '/images/studios/zen-place-pilates.webp', rating: 4.6, reviewCount: 18,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '大人女性の見た目痩せを専門とするマシンピラティススタジオ。1対1のパーソナルレッスンで女性専用。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '1回 約7,000円', trial: '体験レッスンあり', features: ['女性専用','見た目痩せ専門','パーソナル','大人女性向け'],
     description: '大人女性の見た目痩せを専門とするマシンピラティススタジオ。1対1のパーソナルレッスンで女性専用',
     access: '四日市市内（詳細は公式サイトでご確認ください）', address: '三重県四日市市（詳細は公式サイトでご確認ください）',

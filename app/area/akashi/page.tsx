@@ -20,11 +20,6 @@ export const metadata = {
 const studios = [
   {
     name: 'Rintosull（リントスル）明石店', image: '/images/studios/rintosull.webp', rating: 4.5, reviewCount: 95,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'ホットヨガLAVAの姉妹ブランドの女性専用マシンピラティス専門スタジオ。大型スクリーンの映像に合わせたレッスン。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 8,800円〜', trial: '体験レッスンあり', features: ['女性専用','低価格','LAVA相互利用','マシン専門'],
     description: 'ホットヨガLAVAの姉妹ブランドの女性専用マシンピラティス専門スタジオ。大型スクリーンの映像に合わせたレッスンで月4回8,800円〜と低価格',
     access: '明石市内（詳細は公式サイトでご確認ください）', address: '兵庫県明石市（詳細は公式サイトでご確認ください）',
@@ -35,11 +30,6 @@ const studios = [
   },
   {
     name: 'Two Three ピラティススタジオ明石', image: '/images/studios/zen-place-pilates.webp', rating: 4.6, reviewCount: 25,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'プライベートレッスンとグループレッスンを提供するマシンピラティススタジオ。体験レッスン3,300円で気軽に始め。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '1回 3,850円〜', trial: '体験レッスン 3,300円', features: ['プライベート＆グループ','マシンピラティス','明石駅近く','丁寧な指導'],
     description: 'プライベートレッスンとグループレッスンを提供するマシンピラティススタジオ。体験レッスン3,300円で気軽に始められる',
     access: 'JR「明石駅」徒歩圏内', address: '兵庫県明石市（詳細は公式サイトでご確認ください）',
@@ -50,11 +40,6 @@ const studios = [
   },
   {
     name: 'luluto（ルルト）明石店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808', image: '/images/studios/luluto.webp', rating: 4.8, reviewCount: 18,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '完全マンツーマンのマシンピラティススタジオ。理学療法士監修のプログラムで一人ひとりに合わせた指導。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月3回 29,700円〜', trial: '体験レッスンあり', features: ['完全マンツーマン','理学療法士監修','高品質指導','カスタマイズ'],
     description: '完全マンツーマンのマシンピラティススタジオ。理学療法士監修のプログラムで一人ひとりに合わせた指導',
     access: '明石市内（詳細は公式サイトでご確認ください）', address: '兵庫県明石市（詳細は公式サイトでご確認ください）',
@@ -65,11 +50,6 @@ const studios = [
   },
   {
     name: 'ふたつき ピラティス', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 20,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '理学療法士が運営するピラティススタジオ。体の仕組みを理解した指導で肩こりや腰痛、姿勢の悩みを抱える方も安心して。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['理学療法士運営','マンツーマン','痛み改善','少人数制'],
     description: '理学療法士が運営するピラティススタジオ。体の仕組みを理解した指導で肩こりや腰痛、姿勢の悩みを抱える方も安心してトレーニング可能',
     access: '明石市内（詳細は公式サイトでご確認ください）', address: '兵庫県明石市（詳細は公式サイトでご確認ください）',
@@ -80,11 +60,6 @@ const studios = [
   },
   {
     name: 'Pilates base Irori. 明石店', image: '/images/studios/zen-place-pilates.webp', rating: 4.5, reviewCount: 12,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '大阪・奈良に複数店舗を展開する女性専用ピラティススタジオの兵庫県初出店。マシンピラティスとマットピラティスの両。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['女性専用','マシン＆マット','兵庫初出店','2号線沿い'],
     description: '大阪・奈良に複数店舗を展開する女性専用ピラティススタジオの兵庫県初出店。マシンピラティスとマットピラティスの両方に対応',
     access: '国道2号線沿い樽屋町', address: '兵庫県明石市樽屋町',

@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'pilates KASANE 静岡店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.2,
-    reviewCount: 15,
-    reviews: [
-      {
-        author: 'A.M',
-        rating: 5,
-        date: '2週間前',
-        text: '少人数制なので一人ひとりしっかり見てもらえます。呉服町通り方面からもアクセスしやすく、静岡駅からも歩ける距離です。体験レッスンが手ぶらOKなのも嬉しいポイント。',
-      },
-      {
-        author: 'K.S',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '表参道・松戸にも展開しているスタジオで信頼感があります。インストラクターが丁寧で、初心者の私でも安心して通えています。駿府城公園の近くで雰囲気も良いです。',
-      },
-      {
-        author: 'Y.N',
-        rating: 5,
-        date: '3週間前',
-        text: '一度の体験レッスンでもピラティスの効果を実感できました。少人数制なので質問もしやすく、自分のペースで進められます。紺屋町からも近くて便利。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン あり（手ぶらOK）',
     features: ['少人数制', '表参道・松戸展開', '健康美を引き出す', '丁寧な指導'],
@@ -76,28 +54,6 @@ const studios = [
   {
     name: 'ピラティスK 静岡店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.0,
-    reviewCount: 80,
-    reviews: [
-      {
-        author: 'R.T',
-        rating: 5,
-        date: '1週間前',
-        text: '新静岡駅から徒歩1分なので仕事帰りにサクッと通えます。JR東海道線の静岡駅からも歩ける距離。暗闘×音楽のレッスンが楽しくて、ストレス発散にもなっています。',
-      },
-      {
-        author: 'M.H',
-        rating: 4,
-        date: '2週間前',
-        text: '女性専用なので周りの目を気にせずトレーニングに集中できます。呉服町通りでのショッピング帰りにも寄れて便利。無料体験があるので気軽に始められました。',
-      },
-      {
-        author: 'S.O',
-        rating: 5,
-        date: '3週間前',
-        text: 'お腹、お尻、二の腕など部位に特化したプログラムが充実しています。月4回13,420円で通えるのはコスパが良いと思います。紺屋町エリアからもアクセス抜群。',
-      },
-    ],
     price: '月4回 13,420円〜',
     trial: '無料体験レッスン',
     features: ['音楽×マシン', '女性専用', '新静岡駅徒歩1分', '暗闇レッスン'],
@@ -130,28 +86,6 @@ const studios = [
     name: 'zen place pilates 静岡',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.2,
-    reviewCount: 32,
-    reviews: [
-      {
-        author: 'T.K',
-        rating: 5,
-        date: '1週間前',
-        text: 'JR東海道線の静岡駅から徒歩11分。全国150店舗以上あるので出張先でも通えるのが便利です。マットもマシンも充実していて、自分のレベルに合わせて選べます。',
-      },
-      {
-        author: 'N.I',
-        rating: 4,
-        date: '3週間前',
-        text: '新静岡駅からも徒歩12分で通えます。駿府城公園の近くなので、レッスン後に散歩するのが日課になりました。インストラクターの質が高いです。',
-      },
-      {
-        author: 'H.Y',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '全店舗相互利用できるのが最大のメリット。月4回9,625円からとリーズナブルで、マットからマシンまで幅広いレッスンが受けられます。呉服町通り方面からもアクセス可能。',
-      },
-    ],
     price: '月4回 9,625円〜',
     trial: '体験レッスン あり',
     features: ['全国150店舗', 'マット＆マシン', '男性OK', '全店相互利用可'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'ピラティス-8810-',
     image: '/images/studios/pilates-8810-shizuoka.webp',
-    rating: 4.0,
-    reviewCount: 27,
-    reviews: [
-      {
-        author: 'E.W',
-        rating: 5,
-        date: '2週間前',
-        text: '静岡市内で長く愛されているスタジオです。アットホームな雰囲気で、初心者でもリラックスして通えます。紺屋町方面からも近くて便利。',
-      },
-      {
-        author: 'C.M',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '地域密着型で、一人ひとりに合わせた丁寧な指導が魅力。駿府城公園の近くにあるので、レッスン前後の散策も楽しめます。',
-      },
-      {
-        author: 'J.T',
-        rating: 4,
-        date: '3週間前',
-        text: 'インストラクターが親切で質問しやすい環境です。静岡駅からも歩ける距離で、JR東海道線利用者にも通いやすいスタジオだと思います。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['静岡市内', '地域密着', 'アットホーム', '丁寧な指導'],
@@ -236,28 +148,6 @@ const studios = [
   {
     name: 'ピラティススタジオMAEDA',
     image: '/images/studios/pilates-maeda-shizuoka.webp',
-    rating: 4.1,
-    reviewCount: 28,
-    reviews: [
-      {
-        author: 'P.K',
-        rating: 5,
-        date: '5日前',
-        text: '静岡駅前徒歩6分で通いやすい！JR東海道線で通勤している私にはぴったりのロケーション。少人数グループレッスン2,200円はかなりリーズナブルです。',
-      },
-      {
-        author: 'L.S',
-        rating: 4,
-        date: '2週間前',
-        text: 'let\'s jumpなど多彩なレッスンが楽しい。呉服町通りでの買い物帰りに寄れるのも便利。アットホームな雰囲気で初心者にもおすすめ。',
-      },
-      {
-        author: 'D.H',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '2,200円でしっかりしたレッスンが受けられるのは静岡エリアでは最安クラス。紺屋町からも近く、駿府城公園の散歩ついでに通っています。',
-      },
-    ],
     price: '少人数グループレッスン 2,200円',
     trial: '体験レッスン あり',
     features: ['静岡駅前徒歩6分', '少人数制', 'let\'s jump', 'リーズナブル'],
@@ -289,28 +179,6 @@ const studios = [
   {
     name: 'pilates Light 静岡',
     image: '/images/studios/pilates-light-shizuoka.webp',
-    rating: 4.2,
-    reviewCount: 18,
-    reviews: [
-      {
-        author: 'F.A',
-        rating: 5,
-        date: '1週間前',
-        text: 'マシン専門のプライベートスタジオで、完全マンツーマンの指導が受けられます。産後の体型戻しで通い始めましたが、丁寧に寄り添ってくれるので安心です。',
-      },
-      {
-        author: 'G.R',
-        rating: 5,
-        date: '3週間前',
-        text: 'Lolita\'s Legacy認定のインストラクターなので指導の質が高いです。静岡駅からJR東海道線で通っていますが、リラックスできる空間が気に入っています。',
-      },
-      {
-        author: 'B.U',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '1対1でじっくり話を聞いてもらえるのが嬉しい。駿府城公園の近くで、レッスン後の散歩も癒しの時間になっています。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['マシン専門プライベート', '2022年夏OPEN', '2児の母', 'Lolita\'s Legacy認定'],
@@ -342,28 +210,6 @@ const studios = [
   {
     name: 'Natural Soma',
     image: '/images/studios/natural-soma-shizuoka.webp',
-    rating: 4.1,
-    reviewCount: 11,
-    reviews: [
-      {
-        author: 'W.K',
-        rating: 5,
-        date: '10日前',
-        text: '3回体験プランがあるので、じっくり試してから入会できました。静岡市駿河区にあり、静岡駅からJR東海道線でアクセスしやすいです。マシン専門で本格的。',
-      },
-      {
-        author: 'V.M',
-        rating: 4,
-        date: '2週間前',
-        text: 'マシンピラティス専門なので設備が充実しています。3回体験で効果を実感できたので入会を決めました。紺屋町方面からも車で通いやすいです。',
-      },
-      {
-        author: 'O.S',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '健康な身体づくりをテーマにしたスタジオ。インストラクターが体の状態をしっかり見てくれます。駿府城公園の近くで環境も良いです。',
-      },
-    ],
     price: '3回体験プランあり',
     trial: '3回体験プラン あり',
     features: ['静岡市駿河区', 'マシン専門', '健康な身体づくり', 'お得な体験プラン'],
@@ -395,28 +241,6 @@ const studios = [
   {
     name: 'Repilates 富士宮店',
     image: '/images/studios/repilates.webp',
-    rating: 4.0,
-    reviewCount: 5,
-    reviews: [
-      {
-        author: 'I.N',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用のマシンピラティススタジオで安心して通えます。口コミ限定キャンペーンでピラティスソックスがもらえました。富士宮市で本格的なマシンピラティスが受けられるのは嬉しい。',
-      },
-      {
-        author: 'U.T',
-        rating: 4,
-        date: '3週間前',
-        text: '都内にも展開しているスタジオなので指導の質が高いです。静岡駅からはJR東海道線で少し距離がありますが、富士宮エリアの方にはぴったりのスタジオです。',
-      },
-      {
-        author: 'Q.H',
-        rating: 4,
-        date: '1ヶ月前',
-        text: 'グループレッスンが楽しい！女性専用なのでリラックスしてトレーニングに集中できます。呉服町通りのスタジオと迷いましたが、地元で通えるのが決め手でした。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン あり（口コミ限定キャンペーン）',
     features: ['女性専用', '富士宮市', 'グループレッスン', 'ソックスプレゼント'],

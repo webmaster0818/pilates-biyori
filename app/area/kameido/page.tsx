@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'the SILK 亀戸店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.7,
-    reviewCount: 165,
-    reviews: [
-      {
-        author: 'M.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '亀戸駅東口から徒歩1分！女性専用で清潔感のあるおしゃれな内装。音楽に合わせたリフォーマーレッスンが楽しくてあっという間。手ぶら無料体験で気軽に試せました。',
-      },
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '朝7:30から夜22:00まで営業で通いやすい。ウェア・タオル無料貸出やウォーターサーバーも完備。体験者の8割が未経験者なので安心。',
-      },
-      {
-        author: 'R.T',
-        rating: 4,
-        date: '3週間前',
-        text: '月3回12,980円〜と始めやすい料金。入会キャンペーンで入会金・登録手数料無料になることが多い。パウダールームも充実。',
-      },
-    ],
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '亀戸駅徒歩1分', '手ぶら体験OK', '朝7:30〜夜22:00'],
@@ -76,28 +54,6 @@ const studios = [
   {
     name: 'OLUTANA pilates 亀戸店',
     image: '/images/studios/olutana-pilates.webp',
-    rating: 4.6,
-    reviewCount: 11,
-    reviews: [
-      {
-        author: 'E.M',
-        rating: 5,
-        date: '1週間前',
-        text: '亀戸駅から徒歩1分の女性専用マシンピラティス。30分完結のレッスンなので忙しい日でも通いやすい。女性のカラダに合わせたプログラムが魅力。',
-      },
-      {
-        author: 'N.K',
-        rating: 4,
-        date: '2週間前',
-        text: 'グループレッスンとパーソナルレッスンの両方に対応。リーズナブルな月額制で気軽に始められました。',
-      },
-      {
-        author: 'H.Y',
-        rating: 5,
-        date: '3週間前',
-        text: '施設がきれいで居心地が良い。インストラクターが丁寧に教えてくれるので初心者でも安心。30分で全身しっかり鍛えられます。',
-      },
-    ],
     price: '月額制（リーズナブル）',
     trial: '体験レッスンあり',
     features: ['女性専用', '亀戸駅徒歩1分', '30分完結', 'グループ&パーソナル'],
@@ -130,28 +86,6 @@ const studios = [
     name: 'zen place pilates 錦糸町スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 13,
-    reviews: [
-      {
-        author: 'K.S',
-        rating: 5,
-        date: '1週間前',
-        text: '錦糸町駅南口から徒歩4分、亀戸からも近い。マットもマシンも両方受けられるのが魅力。全国150店舗以上で他店利用可能。男性もOK。',
-      },
-      {
-        author: 'Y.M',
-        rating: 4,
-        date: '2週間前',
-        text: 'グループ体験1,000円で気軽に試せました。ピラティス専門で20年以上の実績があり安心。インストラクターの質が高い。',
-      },
-      {
-        author: 'A.T',
-        rating: 5,
-        date: '3週間前',
-        text: '半蔵門線からも徒歩4分。朝7時からレッスンがあり出勤前に通えます。体験当日入会で入会金無料。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['錦糸町駅徒歩4分', '男性OK', 'マット&マシン', '全国相互利用'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'ピラティスK オリナス錦糸町店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.6,
-    reviewCount: 213,
-    reviews: [
-      {
-        author: 'C.N',
-        rating: 5,
-        date: '1週間前',
-        text: 'オリナス錦糸町内にあるので買い物ついでにも便利。女性専用で音楽に合わせたリフォーマーレッスンが楽しい。部位別ボディメイクプログラムが充実。',
-      },
-      {
-        author: 'A.K',
-        rating: 4,
-        date: '2週間前',
-        text: '月4回13,420円とコスパ良好。30歳からの本気ボディメイクがコンセプトで、大人の女性にぴったり。',
-      },
-      {
-        author: 'R.S',
-        rating: 5,
-        date: '3週間前',
-        text: 'マシンピラティス専門で初心者クラスも充実。商業施設内でアクセス抜群。体験レッスンも手頃な価格。',
-      },
-    ],
     price: '月4回 13,420円〜',
     trial: '体験レッスン 2,000円',
     features: ['女性専用', 'オリナス錦糸町内', '部位別プログラム', 'マシン専門'],
@@ -236,28 +148,6 @@ const studios = [
   {
     name: 'ピラティス＆うごくスタジオ health fit',
     image: '/images/studios/healthfit-kameido.webp',
-    rating: 4.7,
-    reviewCount: 20,
-    reviews: [
-      {
-        author: 'Y.K',
-        rating: 5,
-        date: '1週間前',
-        text: '亀戸駅近くの地域密着型スタジオ。姿勢改善ピラティスとヨガが両方受けられる。少人数制でアットホームな雰囲気。',
-      },
-      {
-        author: 'T.N',
-        rating: 5,
-        date: '2週間前',
-        text: '体力づくりからピラティスまで幅広いプログラム。大手スタジオにはないきめ細やかな指導が魅力。',
-      },
-      {
-        author: 'M.S',
-        rating: 4,
-        date: '3週間前',
-        text: '地域の方に愛されているスタジオ。マットピラティスが中心で、体の使い方を丁寧に教えてもらえます。',
-      },
-    ],
     price: '1回 2,200円〜',
     trial: '体験レッスンあり',
     features: ['地域密着型', '少人数制', 'ヨガ&ピラティス', 'アットホーム'],

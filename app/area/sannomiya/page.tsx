@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates 三宮スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 28,
-    reviews: [
-      {
-        author: 'K.O',
-        rating: 5,
-        date: '1週間前',
-        text: '三宮・花時計前駅4番出口から徒歩1分！京町筋安田ビル4Fにあるアクセス抜群のスタジオ。マット・マシン・プライベートと3タイプ選べます。男性もOK。',
-      },
-      {
-        author: 'Y.I',
-        rating: 5,
-        date: '2週間前',
-        text: '全国150店舗以上で相互利用可能。ピラティス専門で20年以上の実績があり、インストラクターの質が高い。',
-      },
-      {
-        author: 'A.W',
-        rating: 4,
-        date: '3週間前',
-        text: '体験当日入会で入会金無料。グレード02で設備も充実。JR三ノ宮駅からも徒歩8分で通えます。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['花時計前駅徒歩1分', 'ピラティス専門', '男性OK', '全国相互利用'],
@@ -77,28 +55,6 @@ const studios = [
   {
     name: 'ピラティスK 神戸三宮店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 235,
-    reviews: [
-      {
-        author: 'M.T',
-        rating: 5,
-        date: '1週間前',
-        text: '阪急神戸三宮駅西口から徒歩3分！クレフィ三宮7階にあり買い物ついでに通えます。女性専用で安心。音楽に合わせたレッスンが楽しい。',
-      },
-      {
-        author: 'S.N',
-        rating: 5,
-        date: '2週間前',
-        text: '体験0円で気軽にスタートできました。月4回13,420円とコスパ良し。部位別プログラムが充実していて飽きません。',
-      },
-      {
-        author: 'R.A',
-        rating: 4,
-        date: '3週間前',
-        text: '火〜金は22時まで営業で仕事帰りにも通いやすい。花時計前駅からも徒歩1分でアクセス抜群。',
-      },
-    ],
     price: '月4回 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', '神戸三宮駅徒歩3分', '部位別プログラム', 'マシン専門'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'STUDIO TOU 神戸三宮',
     image: '/images/studios/studio-tou-sannomiya.webp',
-    rating: 4.6,
-    reviewCount: 5,
-    reviews: [
-      {
-        author: 'T.H',
-        rating: 5,
-        date: '1週間前',
-        text: '阪急三宮駅前ビル7F・8Fにあるおしゃれなスタジオ。プライベートレッスンが充実していて、一人ひとりに合わせた丁寧な指導が受けられます。',
-      },
-      {
-        author: 'E.K',
-        rating: 4,
-        date: '2週間前',
-        text: '東京・大阪にも展開するピラティス専門スタジオ。マシンを使った本格レッスンで身体の変化を実感。予約制なので待ち時間なし。',
-      },
-      {
-        author: 'M.O',
-        rating: 5,
-        date: '3週間前',
-        text: '体験レッスンで雰囲気を確認できました。インストラクターの質が高く、身体の使い方が上手くなるのを実感。',
-      },
-    ],
     price: '1回 6,000円〜',
     trial: '体験レッスンあり',
     features: ['阪急三宮駅前', 'プライベート充実', 'マシン専門', '予約制'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'Skywalk（スカイウォーク）三宮',
     image: '/images/studios/skywalk-sannomiya.webp',
-    rating: 4.5,
-    reviewCount: 13,
-    reviews: [
-      {
-        author: 'A.M',
-        rating: 5,
-        date: '1週間前',
-        text: '三ノ宮駅から徒歩2分。スタッフ全員が理学療法士や作業療法士などの国家資格保有者。医療に基づいたピラティス指導が受けられます。',
-      },
-      {
-        author: 'K.S',
-        rating: 4,
-        date: '2週間前',
-        text: '体験は2,200円で60分レッスンを2回受けられるのでお得。身体の不調がある方にもおすすめ。定休日なしで通いやすい。',
-      },
-      {
-        author: 'R.H',
-        rating: 5,
-        date: '3週間前',
-        text: '医療資格を持つインストラクターなので安心して身体を任せられる。腰痛改善のために通い始めましたが効果を実感しています。',
-      },
-    ],
     price: '要問い合わせ',
     trial: '体験 2,200円（60分×2回）',
     features: ['三ノ宮駅徒歩2分', '国家資格保有者', '医療ベース', '定休日なし'],

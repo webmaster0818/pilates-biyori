@@ -21,13 +21,6 @@ const studios = [
   {
     name: 'Le Mieux（ルミュー）',
     image: '/images/studios/element.webp',
-    rating: 4.7,
-    reviewCount: 10,
-    reviews: [
-      { author: 'A.K', rating: 5, date: '1週間前', text: '春日部駅東口徒歩1分のプライベートピラティス。保健体育教諭の資格を持つインストラクターが在籍。マシンとマットを組み合わせた指導。' },
-      { author: 'B.M', rating: 5, date: '2週間前', text: '春日部エリアでプライベート専門が魅力のスタジオ。通いやすい立地で続けやすいです。' },
-      { author: 'C.O', rating: 4, date: '3週間前', text: '初心者でも安心して通えます。インストラクターの指導が丁寧で、体の変化を実感できています。' },
-    ],
     price: 'プライベートレッスン（公式サイトで確認）',
     trial: '体験レッスンあり',
     features: ['プライベート専門', '駅徒歩1分', '保健体育教諭資格', 'マシン&マット'],
@@ -54,13 +47,6 @@ const studios = [
   {
     name: 'さんはぴ 春日部店（2026年5月OPEN）',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.6,
-    reviewCount: 14,
-    reviews: [
-      { author: 'D.L', rating: 5, date: '1週間前', text: '2026年5月オープン予定の完全個室パーソナルピラティス。手ぶらで通え、40〜60代の会員が多数。継続率90%以上。' },
-      { author: 'E.N', rating: 5, date: '2週間前', text: '春日部エリアで2026年5月OPENが魅力のスタジオ。通いやすい立地で続けやすいです。' },
-      { author: 'F.P', rating: 4, date: '3週間前', text: '初心者でも安心して通えます。インストラクターの指導が丁寧で、体の変化を実感できています。' },
-    ],
     price: 'パーソナルレッスン（公式サイトで確認）',
     trial: '体験レッスンあり',
     features: ['2026年5月OPEN', '完全個室パーソナル', '手ぶらOK', '40〜60代にも人気'],
@@ -87,13 +73,6 @@ const studios = [
   {
     name: 'exeed pilates 春日部',
     image: '/images/studios/exeed-pilates-yoyogi.webp',
-    rating: 4.8,
-    reviewCount: 13,
-    reviews: [
-      { author: 'G.M', rating: 5, date: '1週間前', text: '完全個室パーソナル。リフォーマー・チェア・タワーなどフルアイテム完備。500種類以上のエクササイズからオーダーメイド。' },
-      { author: 'H.O', rating: 5, date: '2週間前', text: '春日部エリアで完全個室パーソナルが魅力のスタジオ。通いやすい立地で続けやすいです。' },
-      { author: 'I.Q', rating: 4, date: '3週間前', text: '初心者でも安心して通えます。インストラクターの指導が丁寧で、体の変化を実感できています。' },
-    ],
     price: 'パーソナルレッスン（公式サイトで確認）',
     trial: '体験レッスンあり',
     features: ['完全個室パーソナル', 'フルアイテム完備', '500種以上のメニュー', 'オーダーメイド'],
@@ -120,13 +99,6 @@ const studios = [
   {
     name: 'Renne（レン）ピラティススタジオ',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.5,
-    reviewCount: 7,
-    reviews: [
-      { author: 'J.N', rating: 5, date: '1週間前', text: '完全予約制のプライベートレッスン中心。マットとマシンを併用し一人ひとりに合わせたプログラム。運動初心者も安心。' },
-      { author: 'K.P', rating: 5, date: '2週間前', text: '春日部エリアで完全予約制が魅力のスタジオ。通いやすい立地で続けやすいです。' },
-      { author: 'L.R', rating: 4, date: '3週間前', text: '初心者でも安心して通えます。インストラクターの指導が丁寧で、体の変化を実感できています。' },
-    ],
     price: 'プライベートレッスン（公式サイトで確認）',
     trial: '体験レッスンあり',
     features: ['完全予約制', 'プライベート中心', 'マット&マシン併用', '運動初心者歓迎'],
@@ -153,13 +125,6 @@ const studios = [
   {
     name: 'Rintosull（東武沿線）',
     image: '/images/studios/rintosull.webp',
-    rating: 4.6,
-    reviewCount: 104,
-    reviews: [
-      { author: 'M.O', rating: 5, date: '1週間前', text: 'LAVA系列の女性専用マシンピラティス。東武沿線の店舗を利用可能。体験無料キャンペーン中。' },
-      { author: 'N.Q', rating: 5, date: '2週間前', text: '春日部エリアで女性専用が魅力のスタジオ。通いやすい立地で続けやすいです。' },
-      { author: 'O.S', rating: 4, date: '3週間前', text: '初心者でも安心して通えます。インストラクターの指導が丁寧で、体の変化を実感できています。' },
-    ],
     price: 'プレミアムプラン 月額10,978円（税込）',
     trial: '体験無料キャンペーン実施中',
     features: ['女性専用', 'マシンピラティス', '体験無料', 'LAVA系列'],

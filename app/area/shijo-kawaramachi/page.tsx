@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates 京都スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 30,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '1週間前',
-        text: '四条駅12番出口から徒歩1分で通いやすさ抜群。全国150店舗で他店利用できるので、出張先でもレッスンを受けられます。マットもマシンも両方対応しているのが魅力。',
-      },
-      {
-        author: 'S.T',
-        rating: 5,
-        date: '2週間前',
-        text: '男性も通えるスタジオなので夫婦で通っています。グループ体験が1,000円と手頃なので気軽に始められました。インストラクターの質が高く丁寧な指導です。',
-      },
-      {
-        author: 'R.N',
-        rating: 4,
-        date: '3週間前',
-        text: '月4回10,450円〜とリーズナブル。河原町駅からも徒歩1分なので仕事帰りに通えます。マット&マシン両方のレッスンがあり飽きません。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['全国150店舗相互利用', 'マット&マシン対応', '男性OK', '駅徒歩1分'],
@@ -78,28 +56,6 @@ const studios = [
   {
     name: 'ピラティスK 京都四条烏丸店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.6,
-    reviewCount: 191,
-    reviews: [
-      {
-        author: 'E.M',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用なので安心して通えます。マシン専門スタジオで音楽に合わせてレッスンするのが楽しい。体験0円で気軽に始められました。',
-      },
-      {
-        author: 'N.K',
-        rating: 5,
-        date: '2週間前',
-        text: '5パート別のボディメイクプログラムがあり、気になる部位を集中的に鍛えられます。月4回13,420円〜で本格マシンピラティスができるのはコスパが良い。',
-      },
-      {
-        author: 'H.Y',
-        rating: 4,
-        date: '3週間前',
-        text: '音楽レッスンがテンション上がります。女性専用でマシン専門なので、効率的にボディメイクできます。スタッフも親切で初心者でも安心。',
-      },
-    ],
     price: '月4回 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', 'マシン専門', '音楽レッスン', '体験0円'],
@@ -131,28 +87,6 @@ const studios = [
   {
     name: 'アーバンクラシックピラティス 四条河原町店',
     image: '/images/studios/urban-classic-pilates.webp',
-    rating: 4.5,
-    reviewCount: 13,
-    reviews: [
-      {
-        author: 'A.T',
-        rating: 5,
-        date: '1週間前',
-        text: '30分完結のサーキット形式なので忙しくても通いやすい。予約不要で思い立った時にすぐ行けるのが最高です。月4回9,680円〜とコスパも抜群。',
-      },
-      {
-        author: 'Y.S',
-        rating: 4,
-        date: '2週間前',
-        text: '阪急京都河原町駅から徒歩3分で通いやすい。サーキット形式で効率よくトレーニングできるので、仕事帰りにサクッと寄れます。',
-      },
-      {
-        author: 'K.M',
-        rating: 5,
-        date: '3週間前',
-        text: '予約不要なのが本当に便利。急に時間ができた時にふらっと行けます。30分で全身しっかり動かせるので短時間でも効果を実感。',
-      },
-    ],
     price: '月4回 9,680円〜',
     trial: '体験レッスンあり',
     features: ['サーキット形式', '30分完結', '予約不要', '駅徒歩3分'],
@@ -185,28 +119,6 @@ const studios = [
   {
     name: 'Rintosull 京都四条烏丸店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.6,
-    reviewCount: 158,
-    reviews: [
-      {
-        author: 'K.N',
-        rating: 5,
-        date: '1週間前',
-        text: 'LAVA系列なのでサービスの質が安定しています。月4回8,800円〜はかなりリーズナブル。女性専用で安心して通えます。',
-      },
-      {
-        author: 'Y.M',
-        rating: 4,
-        date: '2週間前',
-        text: '初心者が87%以上というだけあって、レッスンは丁寧でわかりやすい。体験無料なのでハードルが低く始めやすかったです。',
-      },
-      {
-        author: 'A.S',
-        rating: 5,
-        date: '3週間前',
-        text: 'LAVA系列でヨガスタジオとの併用も可能。ピラティスとヨガ両方やりたい人に最適。初心者向けの丁寧な指導で安心。',
-      },
-    ],
     price: '月4回 8,800円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'LAVA系列', '初心者87%以上', '体験無料'],
@@ -238,28 +150,6 @@ const studios = [
   {
     name: 'Pilates MUSE 京都四条大宮',
     image: '/images/studios/pilates-muse.webp',
-    rating: 4.8,
-    reviewCount: 27,
-    reviews: [
-      {
-        author: 'C.H',
-        rating: 5,
-        date: '1週間前',
-        text: '有資格トレーナーによるパーソナル指導が素晴らしい。結果重視のプログラムで、姿勢改善の効果を実感しています。女性専用で安心。',
-      },
-      {
-        author: 'T.O',
-        rating: 5,
-        date: '2週間前',
-        text: '24時間使い放題なので、自分のスケジュールに合わせて通えるのが最高。セルフトレーニングもできるので、パーソナルと組み合わせて効率的。',
-      },
-      {
-        author: 'M.I',
-        rating: 4,
-        date: '3週間前',
-        text: 'パーソナルとセルフの両方ができるのが魅力。トレーナーが全員有資格者なので指導の質が高い。結果にこだわりたい方におすすめ。',
-      },
-    ],
     price: 'パーソナル&セルフ（詳細は公式サイト参照）',
     trial: '体験レッスンあり',
     features: ['女性専用', '有資格トレーナー', '24時間使い放題', '結果重視'],

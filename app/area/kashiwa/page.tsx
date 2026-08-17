@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'ピラティスK 柏店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 131,
-    reviews: [
-      {
-        author: 'Y.M',
-        rating: 5,
-        date: '1週間前',
-        text: '柏駅東口から徒歩3分。女性専用で安心。音楽に合わせたリフォーマーレッスンが楽しくて毎回あっという間。部位別ボディメイクプログラムが充実。',
-      },
-      {
-        author: 'S.T',
-        rating: 5,
-        date: '2週間前',
-        text: '0円体験で気軽に試せました。月4回13,420円で通える。カジュアルでスタイリッシュな店内が素敵。',
-      },
-      {
-        author: 'R.K',
-        rating: 4,
-        date: '3週間前',
-        text: 'お腹、お尻、二の腕、脚、背中の部位に特化したプログラムが選べるのが良い。通い放題16,170円もコスパが良い。',
-      },
-    ],
     price: '月4回 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', '柏駅徒歩3分', '部位別プログラム', '0円体験'],
@@ -77,28 +55,6 @@ const studios = [
     name: 'zen place pilates 柏スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 22,
-    reviews: [
-      {
-        author: 'K.S',
-        rating: 5,
-        date: '1週間前',
-        text: '柏駅から徒歩1分。2025年1月にオープンした新しいスタジオ。マットもマシンも両方受けられるのが魅力。男性もOK。',
-      },
-      {
-        author: 'M.T',
-        rating: 5,
-        date: '2週間前',
-        text: '全国150店舗以上で相互利用可能。朝7時から夜22時までレッスンがあるので生活スタイルに合わせて通える。',
-      },
-      {
-        author: 'A.N',
-        rating: 4,
-        date: '3週間前',
-        text: 'ピラティス専門で20年以上の実績。体験当日入会で入会金無料。インストラクターの質が高い。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['柏駅徒歩1分', '2025年新規OPEN', '男性OK', '全国相互利用'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'the SILK 柏店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.7,
-    reviewCount: 370,
-    reviews: [
-      {
-        author: 'E.H',
-        rating: 5,
-        date: '1週間前',
-        text: '柏駅から徒歩1分。女性専用で清潔感のある内装がおしゃれ。音楽に合わせたレッスンが楽しい。手ぶら体験無料で気軽に試せました。',
-      },
-      {
-        author: 'N.Y',
-        rating: 5,
-        date: '2週間前',
-        text: '朝7:30から夜21:00まで営業で通いやすい。ウェア・タオル無料貸出やウォーターサーバーも完備。パウダールームも充実。',
-      },
-      {
-        author: 'T.K',
-        rating: 4,
-        date: '3週間前',
-        text: '初心者が8割のスタジオなので安心して始められました。難易度別・部位別にレッスンが分かれていて自分に合ったクラスが見つかる。',
-      },
-    ],
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '柏駅徒歩1分', '手ぶら体験OK', '初心者8割'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'Mapila（マピラ）柏店',
     image: '/images/studios/mapila-shinjuku.webp',
-    rating: 4.6,
-    reviewCount: 20,
-    reviews: [
-      {
-        author: 'Y.K',
-        rating: 5,
-        date: '1週間前',
-        text: '柏駅東口から徒歩1分。女性専用でタワー付きリフォーマー完備。月会費7,700円〜と柏エリアで最もリーズナブル。予約不要で通えるのが便利。',
-      },
-      {
-        author: 'A.S',
-        rating: 4,
-        date: '2週間前',
-        text: '部位別・目的別に特化したレッスンが予約不要で受講可能。柏モア2階にあるのでアクセス抜群。ハーフタワーを地域最多数導入。',
-      },
-      {
-        author: 'R.M',
-        rating: 5,
-        date: '3週間前',
-        text: '月会費7,700円〜で始められるのが嬉しい。多彩な動きで全身を美しく鍛えるプログラムが充実。コスパ最強。',
-      },
-    ],
     price: '月会費 7,700円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', '柏駅徒歩1分', '予約不要', 'コスパ最強'],
@@ -236,28 +148,6 @@ const studios = [
   {
     name: 'KASHIWA DE PILATES SHIP',
     image: '/images/studios/pilates-ship-kashiwa.webp',
-    rating: 4.8,
-    reviewCount: 12,
-    reviews: [
-      {
-        author: 'H.T',
-        rating: 5,
-        date: '1週間前',
-        text: '柏駅エリア唯一の理学療法士によるマシンピラティス専門スタジオ。完全プライベートレッスンで一人ひとりに合わせた安全で効果的なトレーニング。',
-      },
-      {
-        author: 'C.K',
-        rating: 5,
-        date: '2週間前',
-        text: '理学療法士の資格を持つオーナーが直接指導。医学的知識に基づいた安全なレッスン。腰痛や肩こりなど体の不調にもアプローチしてくれる。',
-      },
-      {
-        author: 'M.Y',
-        rating: 4,
-        date: '3週間前',
-        text: '柏駅から近くて通いやすい。プライベートレッスンなので自分のペースで進められる。体の使い方が根本から変わった実感がある。',
-      },
-    ],
     price: 'プライベートレッスン（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['理学療法士', 'プライベート専門', '柏駅近く', '医学的アプローチ'],

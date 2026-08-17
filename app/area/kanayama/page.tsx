@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates 金山',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 16,
-    reviews: [
-      {
-        author: 'T.K',
-        rating: 5,
-        date: '1週間前',
-        text: '金山駅2番出口から徒歩5分。グレード01（最上位）のスタジオで設備が充実。マット・マシン・プライベートの3タイプが選べます。',
-      },
-      {
-        author: 'S.N',
-        rating: 5,
-        date: '2週間前',
-        text: 'ピラティス専門で20年以上の実績。全国150店舗以上で相互利用可能。出張先でもレッスンを受けられて便利。',
-      },
-      {
-        author: 'M.A',
-        rating: 4,
-        date: '3週間前',
-        text: '体験はマットグループ1,000円。体験当日入会で入会金無料。男性も通えるので夫婦で通い始めました。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'マットグループ体験 1,000円',
     features: ['金山駅徒歩5分', 'グレード01', '男性OK', '全国相互利用'],
@@ -77,28 +55,6 @@ const studios = [
   {
     name: 'Rintosull 金山店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.7,
-    reviewCount: 49,
-    reviews: [
-      {
-        author: 'Y.M',
-        rating: 5,
-        date: '1週間前',
-        text: '金山駅南口から徒歩2分！ホットヨガLAVAが運営するマシンピラティス専門スタジオ。体験0円で気軽に始められました。',
-      },
-      {
-        author: 'K.S',
-        rating: 5,
-        date: '2週間前',
-        text: '大画面スクリーンを使ったグループレッスンが楽しい。女性専用なので安心。月額13,800円〜で通い放題はコスパ良し。',
-      },
-      {
-        author: 'A.H',
-        rating: 4,
-        date: '3週間前',
-        text: '日曜定休以外は毎日通えるので、仕事帰りに立ち寄りやすい。リフォーマーを使ったレッスンで部位別にアプローチできます。',
-      },
-    ],
     price: '月額 13,800円〜',
     trial: '体験レッスン 0円',
     features: ['金山駅南口徒歩2分', '女性専用', '体験0円', 'LAVA運営'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'Pilates Mee 名古屋金山店',
     image: '/images/studios/pilates-mee.webp',
-    rating: 4.7,
-    reviewCount: 14,
-    reviews: [
-      {
-        author: 'R.K',
-        rating: 5,
-        date: '1週間前',
-        text: '金山駅から徒歩3分。最大3名のセミパーソナル形式で、パーソナルに近い手厚い指導が受けられます。女性専用で安心。',
-      },
-      {
-        author: 'M.T',
-        rating: 5,
-        date: '2週間前',
-        text: 'セミパーソナル定額制で1回あたり1,250円〜というコスパの良さ。インストラクターが一人ひとりしっかり見てくれます。',
-      },
-      {
-        author: 'E.Y',
-        rating: 4,
-        date: '3週間前',
-        text: 'パーソナルは高いけどグループだと物足りない…という方にぴったり。3名までなので待ち時間もなくスムーズ。',
-      },
-    ],
     price: '1回あたり 1,250円〜',
     trial: '体験レッスンあり',
     features: ['金山駅徒歩3分', '女性専用', 'セミパーソナル', '最大3名'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'PPPスタジオ 金山',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.6,
-    reviewCount: 4,
-    reviews: [
-      {
-        author: 'N.S',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用・完全予約制のピラティススタジオ。キャデラックとリフォーマーが2台ずつあり、設備が充実しています。',
-      },
-      {
-        author: 'H.O',
-        rating: 4,
-        date: '2週間前',
-        text: '撮影OKなのが珍しい。フォームの確認に使えて便利。パーソナルレッスンとセルフフリーピラティスの組み合わせプランがユニーク。',
-      },
-      {
-        author: 'Y.K',
-        rating: 4,
-        date: '3週間前',
-        text: 'ピラティス経験者にはセルフフリーの通い放題プランがおすすめ。初心者はパーソナルレッスンからスタートできます。',
-      },
-    ],
     price: '要問い合わせ',
     trial: '体験レッスンあり',
     features: ['金山駅周辺', '女性専用', '撮影OK', 'セルフフリー通い放題'],
@@ -236,28 +148,6 @@ const studios = [
   {
     name: 'CALDO（カルド）金山',
     image: '/images/studios/caldo.webp',
-    rating: 4.5,
-    reviewCount: 207,
-    reviews: [
-      {
-        author: 'A.M',
-        rating: 5,
-        date: '1週間前',
-        text: '室温40度・湿度55%のホット環境でヨガやピラティスが受けられます。プログラム数が豊富で飽きません。金山駅からアクセス良好。',
-      },
-      {
-        author: 'K.T',
-        rating: 4,
-        date: '2週間前',
-        text: 'ホット環境でのピラティスは大量に汗をかけてデトックス効果あり。料金もリーズナブルで続けやすい。',
-      },
-      {
-        author: 'R.S',
-        rating: 4,
-        date: '3週間前',
-        text: 'ヨガメインですがピラティスプログラムも充実。予約不要で気軽に通えるのが良いところ。',
-      },
-    ],
     price: '月額 要問い合わせ',
     trial: '体験レッスンあり',
     features: ['ホット環境', 'プログラム豊富', '予約不要', 'ヨガ＆ピラティス'],
@@ -289,28 +179,6 @@ const studios = [
   {
     name: 'A.STUDIO 金山',
     image: '/images/studios/pilates-studio-dep.webp',
-    rating: 4.6,
-    reviewCount: 18,
-    reviews: [
-      {
-        author: 'L.M',
-        rating: 5,
-        date: '1週間前',
-        text: '金山駅から徒歩5分のパーソナルマシンピラティススタジオ。完全予約制で一人ひとりに合わせた丁寧なレッスン。',
-      },
-      {
-        author: 'S.A',
-        rating: 4,
-        date: '2週間前',
-        text: 'マンツーマンで自分のペースで進められるのが安心。インストラクターの説明がわかりやすくて初心者でも楽しめました。',
-      },
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '3週間前',
-        text: 'アットホームな雰囲気のプライベートスタジオ。大手チェーンにはない温かさがあります。',
-      },
-    ],
     price: '要問い合わせ',
     trial: '体験レッスンあり',
     features: ['金山駅徒歩5分', 'パーソナル専門', '完全予約制', 'アットホーム'],

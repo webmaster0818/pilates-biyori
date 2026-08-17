@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates 札幌',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.2,
-    reviewCount: 24,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '2週間前',
-        text: '札幌駅直結のJRタワー内なので、冬場の雪の日でも天候を気にせず通えます。マットもマシンも両方揃っていて、その日の気分で選べるのが良いです。',
-      },
-      {
-        author: 'S.T',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '全国展開なので出張先でも通えるのが便利。札幌店は駅直結で立地が最高。インストラクターの質も安定しています。',
-      },
-      {
-        author: 'A.N',
-        rating: 4,
-        date: '3週間前',
-        text: '体験レッスン1,000円で気軽に試せました。スタッフの対応が丁寧で、初心者の私でも安心して通えています。JRタワー8Fからの眺めも良いです。',
-      },
-    ],
     price: 'グループ体験 1,000円',
     trial: '体験レッスン 1,000円',
     features: ['マット＆マシン', '全国展開', '札幌駅直結', 'インストラクター養成'],
@@ -77,28 +55,6 @@ const studios = [
   {
     name: 'ピラティスK 札幌駅前店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.0,
-    reviewCount: 114,
-    reviews: [
-      {
-        author: 'Y.M',
-        rating: 5,
-        date: '1週間前',
-        text: '暗闘×音楽のレッスンが楽しすぎて毎週通っています。女性専用なので周りの目を気にせず汗をかけます。札幌駅から地下直結なのも嬉しい。',
-      },
-      {
-        author: 'R.S',
-        rating: 4,
-        date: '2週間前',
-        text: 'アスティ45ビル内なので冬の札幌でも寒さを感じずに通えます。月4回プランで無理なく続けられています。',
-      },
-      {
-        author: 'K.I',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '無料体験があるので気軽に試せました。レッスンの雰囲気が明るくて、運動嫌いだった私も楽しく続けられています。すすきのからも地下鉄ですぐです。',
-      },
-    ],
     price: '月4回 13,420円〜',
     trial: '無料体験レッスン',
     features: ['音楽×マシン', '女性専用', '暗闇レッスン', '札幌駅直結'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'CLUB PILATES 札幌',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.1,
-    reviewCount: 102,
-    reviews: [
-      {
-        author: 'H.O',
-        rating: 5,
-        date: '1週間前',
-        text: '全米No.1のメソッドが札幌で受けられるのは嬉しい。地下鉄東豊線さっぽろ駅15番出口直結で、雪の日もストレスなく通えます。',
-      },
-      {
-        author: 'T.Y',
-        rating: 4,
-        date: '3週間前',
-        text: '初回無料体験で入会を決めました。レベル別のクラスが充実していて、自分のペースで上達できます。さつきた8・1内で清潔感のある施設です。',
-      },
-      {
-        author: 'N.K',
-        rating: 4,
-        date: '1ヶ月前',
-        text: 'グループでもプライベートでも対応してくれるのが良い。北8条のオフィス街にあるので仕事帰りに通いやすいです。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン 無料',
     features: ['アメリカ発', '世界最大級', 'グループ＆プライベート', '地下鉄直結'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'スターピラティス 札幌駅前スタジオ',
     image: '/images/studios/star-pilates-sapporo.webp',
-    rating: 4.3,
-    reviewCount: 28,
-    reviews: [
-      {
-        author: 'E.H',
-        rating: 5,
-        date: '5日前',
-        text: '月2回5,500円から始められるのは本当にありがたい。チカホ直結の札幌グランドホテル別館内で、冬でも快適に通えます。セルフエステも無料で使えてお得。',
-      },
-      {
-        author: 'C.M',
-        rating: 4,
-        date: '2週間前',
-        text: '初心者専用プログラムが充実していて安心。85%が初心者スタートと聞いて入会しましたが、本当に丁寧に教えてもらえます。',
-      },
-      {
-        author: 'J.W',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '酸素カプセルや水素吸入も利用できるのが他のスタジオにはない魅力。コワーキングスペースもあるので、仕事と運動を両立できます。',
-      },
-    ],
     price: '月2回 5,500円〜',
     trial: '体験レッスン あり',
     features: ['業界最安値級', 'チカホ直結', '酸素カプセル', 'セルフエステ無料'],
@@ -236,28 +148,6 @@ const studios = [
   {
     name: 'La pilates 札幌店',
     image: '/images/studios/la-pilates.webp',
-    rating: 4.2,
-    reviewCount: 11,
-    reviews: [
-      {
-        author: 'K.S',
-        rating: 5,
-        date: '1週間前',
-        text: '整体とマシンピラティスの組み合わせが本当に効きます。長年悩んでいた肩こりが大通駅近くで改善できるとは思いませんでした。ウッド調の内装もリラックスできます。',
-      },
-      {
-        author: 'M.I',
-        rating: 4,
-        date: '3週間前',
-        text: '大通駅34番出口から徒歩1分で通いやすい。女性専用なので安心して施術を受けられます。骨膜整体は他では受けられない独自メソッドです。',
-      },
-      {
-        author: 'Y.O',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '月6回コースにしていますが、回数が増えるほど単価が下がるのが嬉しい。プライベート空間なので自分のペースでトレーニングできます。',
-      },
-    ],
     price: '月1回 12,000円〜',
     trial: '体験レッスン 3,000円',
     features: ['整体×ピラティス', '女性専用', '大通駅徒歩1分', '骨膜整体'],
@@ -289,28 +179,6 @@ const studios = [
   {
     name: 'LATECO（ラティコ）',
     image: '/images/studios/lateco-sapporo.webp',
-    rating: 4.1,
-    reviewCount: 29,
-    reviews: [
-      {
-        author: 'R.T',
-        rating: 5,
-        date: '10日前',
-        text: '加圧×マシンピラティスの組み合わせは北海道初。成長ホルモンの分泌促進で美肌効果も感じています。AI姿勢解析で自分の姿勢を数値で確認できるのも面白い。',
-      },
-      {
-        author: 'F.N',
-        rating: 4,
-        date: '2週間前',
-        text: '女性専用で8名限定の少人数制なので、インストラクターの目が行き届きます。大通駅から徒歩3分で通いやすいです。',
-      },
-      {
-        author: 'P.H',
-        rating: 4,
-        date: '1ヶ月前',
-        text: 'サプリメントサーバーやプロテイン自動調合が無料なのが嬉しい。50分のレッスンで効率よくトレーニングできます。',
-      },
-    ],
     price: '月4回 15,400円',
     trial: '体験レッスン 2,000円',
     features: ['加圧×ピラティス', '女性専用', 'AI姿勢解析', '大通駅徒歩3分'],
@@ -342,28 +210,6 @@ const studios = [
   {
     name: 'BodySoul（ボディソウル）',
     image: '/images/studios/bodysoul-sapporo.webp',
-    rating: 4.3,
-    reviewCount: 29,
-    reviews: [
-      {
-        author: 'W.S',
-        rating: 5,
-        date: '1週間前',
-        text: '2004年開設の北海道初のマットピラティス専門スタジオ。20年以上の実績があり、インストラクターの指導力は折り紙付きです。1回のレッスンで体の変化を実感できました。',
-      },
-      {
-        author: 'L.K',
-        rating: 4,
-        date: '3週間前',
-        text: 'FTP認定のインストラクター養成コースもあり、将来ピラティスの仕事をしたい方にもおすすめ。少人数制で丁寧な指導が受けられます。',
-      },
-      {
-        author: 'D.M',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '腰痛改善のために通い始めましたが、3ヶ月で驚くほど改善しました。40代以上の方が多く、同世代の仲間と楽しく続けられています。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['北海道初', 'マット専門', '2004年開設', 'インストラクター養成'],
@@ -394,28 +240,6 @@ const studios = [
   {
     name: 'Repilates 札幌円山店',
     image: '/images/studios/repilates.webp',
-    rating: 4.0,
-    reviewCount: 26,
-    reviews: [
-      {
-        author: 'G.A',
-        rating: 4,
-        date: '2週間前',
-        text: '円山エリアの閑静な環境で落ち着いてトレーニングできます。マシン専門なので初心者でも正しいフォームで効果的に鍛えられます。porocoにも掲載されていて安心。',
-      },
-      {
-        author: 'B.U',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '女性専用でマシン専門のスタジオは円山エリアでは貴重。「30回ですべてが変わる」というコンセプト通り、3ヶ月で姿勢が大きく改善しました。',
-      },
-      {
-        author: 'I.E',
-        rating: 4,
-        date: '3週間前',
-        text: '体験レッスン3,300円で60分しっかり体験できました。北1条西20丁目の岸本ビルにあり、円山公園の散歩がてら通えるのも良いです。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン 3,300円',
     features: ['女性専用', 'マシン専門', '円山エリア', 'ボディリメイク'],

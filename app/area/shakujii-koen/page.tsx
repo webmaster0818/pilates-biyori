@@ -21,13 +21,6 @@ const studios = [
   {
     name: 'Happiness Club',
     image: '/images/studios/default-studio.webp',
-    rating: 4.6,
-    reviewCount: 28,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '石神井公園駅西口徒歩1分。ピラティス・ヨガ・アロマなど多彩なプログラム。ベビーカー入室可でママにも優しい。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["駅徒歩1分", "多彩なプログラム", "ベビーカーOK", "アットホーム"],
@@ -42,13 +35,6 @@ const studios = [
   {
     name: 'CALDO 石神井公園',
     image: '/images/studios/default-studio.webp',
-    rating: 4.4,
-    reviewCount: 85,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '石神井公園駅中央口から徒歩30秒。月額制・予約不要のホットヨガスタジオ。ピラティスプログラムも充実。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月額制',
     trial: '体験レッスンあり',
     features: ["駅徒歩30秒", "予約不要", "銀イオンスチーム", "ホットヨガ&ピラティス"],
@@ -63,13 +49,6 @@ const studios = [
   {
     name: 'リムヨガ',
     image: '/images/studios/default-studio.webp',
-    rating: 4.6,
-    reviewCount: 22,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '一般向けヨガ・ピラティスのほか、マタニティヨガ、産後ヨガ、キッズヨガなど多彩。ママに嬉しいスタジオ。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["産後ヨガ", "キッズヨガ", "マタニティ", "ピラティス"],
@@ -84,13 +63,6 @@ const studios = [
   {
     name: 'ルネサンス石神井公園',
     image: '/images/studios/default-studio.webp',
-    rating: 4.3,
-    reviewCount: 95,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '石神井公園駅北口徒歩2分の総合スポーツクラブ。週約150本のレッスンが受け放題。ピラティスプログラムも充実。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月額制',
     trial: '体験レッスンあり',
     features: ["総合スポーツクラブ", "週150本レッスン", "プール&ジム", "ピラティス"],
@@ -105,13 +77,6 @@ const studios = [
   {
     name: 'CLUB PILATES 練馬店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.6,
-    reviewCount: 72,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '世界1000店舗以上展開。石神井公園から練馬駅は2駅約5分。15種類の器具と4段階レベルで本格マシンピラティス。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月4回 14,190円〜',
     trial: '体験レッスン 無料（30分）',
     features: ["世界最大級", "15種類の器具", "男性OK", "4段階レベル"],

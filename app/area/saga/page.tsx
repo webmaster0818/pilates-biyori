@@ -21,13 +21,6 @@ const studios = [
   {
     name: 'ピラティスステーションライト 佐賀',
     image: '/images/studios/default-studio.webp',
-    rating: 4.7,
-    reviewCount: 28,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '女性専用ピラティスステーション。回数券制で好きなタイミングで通える。グループレッスンとマシンプライベートの両方に対応。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '回数券制',
     trial: '体験レッスンあり',
     features: ["女性専用", "回数券制", "グループ&プライベート", "少人数制"],
@@ -42,13 +35,6 @@ const studios = [
   {
     name: 'Chura Making',
     image: '/images/studios/default-studio.webp',
-    rating: 4.6,
-    reviewCount: 22,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: 'ストレッチ整体、マシンピラティス、パーソナルトレーニングを組み合わせた総合ボディケアスタジオ。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["ストレッチ整体", "マシンピラティス", "パーソナル", "総合ボディケア"],
@@ -63,13 +49,6 @@ const studios = [
   {
     name: 'Trim 佐賀店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.5,
-    reviewCount: 18,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '腰痛や肩こり、疲労回復や姿勢改善など体の悩みに合わせたストレッチ&ピラティスで改善に導く。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["ストレッチ&ピラティス", "腰痛改善", "肩こり改善", "姿勢改善"],
@@ -84,13 +63,6 @@ const studios = [
   {
     name: 'LAVA 佐賀店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.4,
-    reviewCount: 95,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '全国400店舗以上展開のホットヨガスタジオ。ピラティスプログラムも充実。女性専用で安心。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月4回 9,800円〜',
     trial: '体験レッスン 0円',
     features: ["ホットヨガ", "ピラティスプログラム", "女性専用", "全国チェーン"],
@@ -105,13 +77,6 @@ const studios = [
   {
     name: 'Wellness life 佐賀',
     image: '/images/studios/default-studio.webp',
-    rating: 4.5,
-    reviewCount: 15,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: 'オンラインレッスンにも対応したピラティススタジオ。グループレッスンでアットホームな雰囲気。初心者歓迎。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["オンラインレッスン", "グループ", "アットホーム", "初心者歓迎"],

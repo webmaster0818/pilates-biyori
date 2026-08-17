@@ -26,13 +26,7 @@ const studios = [
   {
     name: 'zen place pilates 渋谷',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7, reviewCount: 14,
-    reviews: [
-      { author: 'Y.S', rating: 5, date: '2ヶ月前', text: 'エデュケーターがいつも明るく丁寧に指導してくれます。動き方のクセを観察して的確にアドバイスしてもらえるので、毎回新しい発見があります。' },
-      { author: 'M.T', rating: 5, date: '3ヶ月前', text: '渋谷駅B1出口から徒歩2分で通いやすく、朝ピラティスのクラスで生活リズムが整いました。コツコツ続けて体の変化を実感しています。' },
-      { author: 'K.A', rating: 4, date: '4ヶ月前', text: '初心者でも親切に説明してくださり安心でした。予約が少し取りづらい時間帯もありますが、スタジオの雰囲気は癒しの空間で気に入っています。' },
-    ],
+    image: '/images/studios/zen-place-pilates.webp', reviewCount: 14,
     price: '月4回 9,625円〜', trial: '体験レッスンあり',
     features: ['マットグループ', 'MIYASHITA PARK正面5F', '男性OK', '全国140スタジオ相互利用可'],
     description: '全国140スタジオ以上を展開するzen placeの渋谷スタジオ。MIYASHITA PARK正面5Fに位置し、マットピラティスとマシンピラティスの両方が受けられる総合型スタジオ。男性も利用可能で、月4回9,625円〜とリーズナブル。全国のzen placeスタジオを相互利用できるのも大きな魅力。',
@@ -45,13 +39,7 @@ const studios = [
   },
   {
     name: 'the SILK 渋谷',
-    image: '/images/studios/the-silk.webp',
-    rating: 4.8, reviewCount: 290,
-    reviews: [
-      { author: 'R.N', rating: 5, date: '2ヶ月前', text: 'スタジオが綺麗で清潔感があり、ReFaのヘアアイロンなどアメニティも充実していて通いやすいです。会社帰りにそのまま立ち寄れるのが助かります。' },
-      { author: 'A.K', rating: 5, date: '3ヶ月前', text: '予約も取りやすく、ホワイト基調の清潔感ある空間でモチベーションが上がります。インストラクターの質も高くて満足しています。' },
-      { author: 'M.S', rating: 4, date: '4ヶ月前', text: '女性専用で安心して通えます。ドライヤーや飲み物も無料で、施設のホスピタリティが素晴らしいです。人気のため体験予約が取りづらい時期もあります。' },
-    ],
+    image: '/images/studios/the-silk.webp', reviewCount: 290,
     price: '月4回 12,980円〜', trial: '体験レッスンあり',
     features: ['女性専用マシン', '渋谷駅徒歩2分', '音楽×ピラティス', '月4回12,980円〜'],
     description: '音楽とマシンピラティスを融合した女性専用スタジオ。渋谷駅徒歩2分の好立地で、暗闇×音楽の非日常空間で楽しみながらボディメイク。リフォーマーを使用した本格マシンピラティスを月4回12,980円〜で提供。',
@@ -64,13 +52,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 渋谷店',
-    image: '/images/studios/pilates-k.webp',
-    rating: 4.6, reviewCount: 107,
-    reviews: [
-      { author: 'H.W', rating: 5, date: '2ヶ月前', text: 'スタジオに大きな鏡があってフォーム確認がしやすく、窓からは渋谷の街並みが見えて開放的です。音楽に合わせて動けるのでキツく感じにくいです。' },
-      { author: 'S.I', rating: 5, date: '3ヶ月前', text: '初めての体験でしたが、話しやすいスタッフさんばかりで安心して通えそうだと感じました。先生が盛り上げてくれるので頑張れます。' },
-      { author: 'T.M', rating: 4, date: '5ヶ月前', text: '楽しく続けられるマシンピラティススタジオです。渋谷駅A0出口から徒歩5分で通いやすいですが、受付の混雑が少し気になることもあります。' },
-    ],
+    image: '/images/studios/pilates-k.webp', reviewCount: 107,
     price: '月4回 11,220円〜', trial: '体験レッスンあり',
     features: ['女性専用マシングループ', '月4回11,220円〜', 'ボディメイク特化', '渋谷駅近'],
     description: '女性専用のマシンピラティス専門グループレッスンスタジオ。全国展開の実績あるスタジオで、ボディメイクに特化したプログラムが豊富。月4回11,220円〜のリーズナブルな価格設定。',
@@ -83,13 +65,7 @@ const studios = [
   },
   {
     name: 'Rintosull 渋谷',
-    image: '/images/studios/rintosull.webp',
-    rating: 4.5, reviewCount: 82,
-    reviews: [
-      { author: 'K.O', rating: 5, date: '2ヶ月前', text: 'グループレッスンでもサポートが行き届いていて、大型スクリーンの映像で正しいフォームが分かりやすいです。レッスン後の爽快感が気持ちいいです。' },
-      { author: 'E.T', rating: 4, date: '3ヶ月前', text: '施設は清潔で雰囲気が良く、初心者でも安心して始められました。ただ人気の時間帯は予約の待ちリストが長くなることがあります。' },
-      { author: 'N.H', rating: 3, date: '5ヶ月前', text: '料金は渋谷エリアでは手頃ですが、マシンの間隔がやや狭く感じることがあります。体験時の契約の説明がもう少し丁寧だと良いと思いました。' },
-    ],
+    image: '/images/studios/rintosull.webp', reviewCount: 82,
     price: '月4回 8,800円〜', trial: '体験レッスンあり',
     features: ['女性専用マシン', 'LAVA系列', '月4回8,800円〜', 'スクリーン指導'],
     description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオ。大型スクリーンの映像とインストラクターのダブル指導で、正しいフォームを習得できる独自メソッド。月4回8,800円〜と渋谷エリア最安クラスの価格設定。',
@@ -102,13 +78,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 渋谷',
-    image: '/images/studios/club-pilates.webp',
-    rating: 4.6, reviewCount: 157,
-    reviews: [
-      { author: 'D.M', rating: 5, date: '2ヶ月前', text: '雰囲気がとても良く、体験レッスンでもインナーマッスルに効かせる動きを丁寧に教えてもらえました。スタッフの説明も非常に分かりやすかったです。' },
-      { author: 'R.Y', rating: 5, date: '3ヶ月前', text: '回数を重ねるごとに姿勢が綺麗になっていくのを実感しています。インストラクターが皆さん熱心で、レベル別のプログラムが充実しています。' },
-      { author: 'Y.K', rating: 4, date: '4ヶ月前', text: '唯一長く続いている運動です。更衣室が少し狭いのが気になりますが、レッスンの質と窓からの景色が良く通うのが楽しいです。' },
-    ],
+    image: '/images/studios/club-pilates.webp', reviewCount: 157,
     price: '月4回 10,890円〜', trial: '無料体験',
     features: ['最大12名グループ', '月4回10,890円〜', '無料体験あり', '世界的ブランド'],
     description: 'アメリカ発の世界的ピラティスブランド。最大12名のグループレッスンで、レベル別にクラスが分かれているため初心者から上級者まで対応。月4回10,890円〜。無料体験レッスンあり。',
@@ -121,13 +91,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 渋谷',
-    image: '/images/studios/studio-ivy.webp',
-    rating: 4.8, reviewCount: 566,
-    reviews: [
-      { author: 'S.W', rating: 5, date: '2ヶ月前', text: 'スタジオがとてもおしゃれで清潔感があり、完全個室なので集中してレッスンに取り組めます。トレーナーが体の状態に合わせたメニューを組んでくれます。' },
-      { author: 'K.M', rating: 5, date: '3ヶ月前', text: 'マンツーマンなので筋肉の使い方や呼吸法を丁寧に修正してもらえます。姿勢が改善されて疲れにくくなりました。' },
-      { author: 'M.I', rating: 4, date: '5ヶ月前', text: '1回あたりの料金は相場より安めで個室環境も良いです。ただ夕方の人気時間帯は予約が取りづらいことがあります。' },
-    ],
+    image: '/images/studios/studio-ivy.webp', reviewCount: 566,
     price: '月2回 15,000円〜', trial: '体験レッスンあり',
     features: ['完全個室パーソナル', '月2回15,000円〜', 'マンツーマン指導', 'オーダーメイドプログラム'],
     description: '完全個室のパーソナルピラティススタジオ。一人ひとりの体の状態や目標に合わせたオーダーメイドプログラムを提供。月2回15,000円〜で、プライベートな空間で本格的なマシンピラティスが受けられる。',
@@ -141,13 +105,7 @@ const studios = [
   {
     name: 'ELEMENT 渋谷',
     officialUrl: 'https://t.felmat.net/fmcl?ak=U11199J.1.V154352I.U1357808',
-    image: '/images/studios/element.webp',
-    rating: 4.7, reviewCount: 85, /* ※GoogleMaps未確認 */
-    reviews: [
-      { author: 'T.N', rating: 5, date: '2ヶ月前', text: '30分でもしっかり筋肉痛になるくらいレッスンが充実しています。パーソナルなので個別にアドバイスをもらえて効率的です。' },
-      { author: 'A.H', rating: 5, date: '3ヶ月前', text: 'ウェアやタオル、ドリンクが全て無料で手ぶらで通えるのが最高です。通い放題だと行けば行くほどお得になる仕組みも魅力的。' },
-      { author: 'H.K', rating: 4, date: '4ヶ月前', text: '短時間で集中できるので忙しい日でも通いやすいです。ただ人気の時間帯は予約が取りづらいことがあるので、早めの予約がおすすめです。' },
-    ],
+    image: '/images/studios/element.webp', reviewCount: 85, /* ※GoogleMaps未確認 */
     price: '月4回 22,000円', trial: '体験レッスンあり',
     features: ['マンツーマン30分', '月4回22,000円', '短時間集中', '効率重視'],
     description: 'マンツーマン30分の短時間集中型ピラティススタジオ。忙しい方でも効率よくトレーニングできる。月4回22,000円で、パーソナルならではの丁寧な指導が受けられる。',
@@ -160,13 +118,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 渋谷',
-    image: '/images/studios/pilates-mirror.webp',
-    rating: 4.5, reviewCount: 65, /* ※GoogleMaps未確認（全店舗平均4.5） */
-    reviews: [
-      { author: 'N.Y', rating: 5, date: '2ヶ月前', text: '駅から近くて通いやすく、インストラクターが気さくで知識も豊富です。天井のミラーで自分の姿を確認しながらレッスンできるので理解しやすいです。' },
-      { author: 'R.T', rating: 4, date: '3ヶ月前', text: 'リーズナブルな価格で月6回通えるスタジオはなかなかありません。最大8名の少人数制なのでインストラクターの目が行き届いています。' },
-      { author: 'Y.I', rating: 4, date: '5ヶ月前', text: '女性専用で安心して通えます。平日夕方以降は予約が取りにくいことがありますが、スタジオの清潔感と丁寧な指導には満足しています。' },
-    ],
+    image: '/images/studios/pilates-mirror.webp', reviewCount: 65, /* ※GoogleMaps未確認（全店舗平均4.5） */
     price: 'プライベート30分 4,400円〜', trial: '体験レッスンあり',
     features: ['女性専用', 'プライベート30分4,400円〜', '都度払い可', 'リーズナブル'],
     description: '女性専用のピラティススタジオ。プライベートレッスン30分4,400円〜と、パーソナルピラティスとしてはリーズナブルな価格設定。短時間で効率よくトレーニングしたい女性におすすめ。',
@@ -179,13 +131,7 @@ const studios = [
   },
   {
     name: 'YUZU 渋谷',
-    image: '/images/studios/yuzu-pilates.webp',
-    rating: 4.6, reviewCount: 50, /* ※reviewCount GoogleMaps未確認 */
-    reviews: [
-      { author: 'L.K', rating: 5, date: '2ヶ月前', text: '回数券制なので自分のペースで通えるのが嬉しいです。スタジオがとても綺麗で落ち着く空間です。トレーナーが体の状態に合わせてメニューを考えてくれます。' },
-      { author: 'K.S', rating: 5, date: '3ヶ月前', text: '筋肉の使い方や呼吸法を丁寧に修正してもらえて、姿勢が良くなり疲れにくくなりました。完全個室なのでリラックスして受けられます。' },
-      { author: 'A.N', rating: 4, date: '5ヶ月前', text: 'インストラクターは親切で知識豊富ですが、専門用語が多く初回は少し分かりづらい部分もありました。慣れれば問題ないです。' },
-    ],
+    image: '/images/studios/yuzu-pilates.webp', reviewCount: 50, /* ※reviewCount GoogleMaps未確認 */
     price: 'お問い合わせ', trial: '体験レッスンあり',
     features: ['パーソナルマシン', '女性専用', 'オーダーメイド', '丁寧な指導'],
     description: '女性専用のパーソナルマシンピラティススタジオ。一人ひとりの体の状態に合わせたオーダーメイドプログラムを提供。マシンを使ったマンツーマン指導で効果的なトレーニングが可能。',
@@ -198,13 +144,7 @@ const studios = [
   },
   {
     name: 'BDC PILATES 渋谷（近隣）',
-    image: '/images/studios/bdc-pilates.webp',
-    rating: 4.7, reviewCount: 233,
-    reviews: [
-      { author: 'P.K', rating: 5, date: '2ヶ月前', text: '他のマシンピラティスのスタジオに比べて、かなり丁寧に一人ひとりを見てもらえます。姿勢や腰痛が改善されて、体幹の安定を実感しています。' },
-      { author: 'M.A', rating: 5, date: '3ヶ月前', text: 'スタジオが清潔で少人数制なので、インストラクターの目が行き届いています。肩こりが楽になり、日常の動きも変わってきました。' },
-      { author: 'R.I', rating: 4, date: '5ヶ月前', text: 'レッスンの質は間違いなく高いです。ただ平日夜や週末は3週間前でも満員になることがあるので、早めの予約が必要です。' },
-    ],
+    image: '/images/studios/bdc-pilates.webp', reviewCount: 233,
     price: 'お問い合わせ', trial: '体験レッスンあり',
     features: ['ダンサー御用達', '高品質指導', '渋谷近隣', '本格派'],
     description: 'ダンサー御用達の本格ピラティススタジオ。渋谷近隣エリアに位置し、プロのダンサーやパフォーマーも通う高品質な指導が特徴。ピラティスの本質を追求したい方におすすめ。',
@@ -217,13 +157,7 @@ const studios = [
   },
   {
     name: 'NATURAglam 渋谷（近隣）',
-    image: '/images/studios/naturaglam.webp',
-    rating: 4.4, reviewCount: 60, /* ※GoogleMaps未確認（全店舗評価4.4） */
-    reviews: [
-      { author: 'J.T', rating: 5, date: '2ヶ月前', text: '月額料金がリーズナブルで予約システムも使いやすく、どの店舗でも通えるのが便利です。インストラクターの質が高く、他では教わらないポーズも学べます。' },
-      { author: 'T.H', rating: 4, date: '4ヶ月前', text: 'ヨガとピラティスの両方が受けられて、リラックスから体幹トレーニングまで気分に合わせて選べます。アットホームな雰囲気が心地よいです。' },
-      { author: 'S.M', rating: 4, date: '5ヶ月前', text: '少人数制で丁寧に教えてもらえるので初心者でも安心です。個人的な体の悩みにも対応してくれます。通い放題プランがないのが少し残念です。' },
-    ],
+    image: '/images/studios/naturaglam.webp', reviewCount: 60, /* ※GoogleMaps未確認（全店舗評価4.4） */
     price: 'お問い合わせ', trial: '体験レッスンあり',
     features: ['女性専用', 'ヨガ&ピラティス', '少人数制', '渋谷近隣'],
     description: '女性専用のヨガ&ピラティススタジオ。渋谷近隣エリアに位置し、少人数制でアットホームな雰囲気が魅力。ヨガとピラティスの両方を楽しめるので、気分や目的に合わせてレッスンを選べる。',
@@ -236,13 +170,7 @@ const studios = [
   },
   {
     name: 'CALDO 渋谷',
-    image: '/images/studios/caldo.webp',
-    rating: 4.4, reviewCount: 114,
-    reviews: [
-      { author: 'F.S', rating: 5, date: '2ヶ月前', text: 'インストラクターの説明が分かりやすく、レッスン内容も多彩です。4年通って基礎体温が上がり風邪を引きにくくなりました。ジムエリアも使えてコスパが良いです。' },
-      { author: 'W.T', rating: 4, date: '3ヶ月前', text: '渋谷駅八公口から徒歩5分でアクセスしやすいです。バリ島の溶岩石を使ったホットスタジオで体の芯から温まり、柔軟性が上がりました。' },
-      { author: 'C.K', rating: 4, date: '5ヶ月前', text: 'レッスン後のシャワーが2室しかなく混み合うことがあります。ただ施設全体は充実していて、ホットヨガとピラティスを組み合わせて受けられるのは魅力的です。' },
-    ],
+    image: '/images/studios/caldo.webp', reviewCount: 114,
     price: 'お問い合わせ', trial: '体験レッスンあり',
     features: ['ホットヨガ&ピラティス', '温熱環境', '施設充実', '渋谷駅近'],
     description: 'ホットヨガ&ピラティスの総合スタジオ。温かい環境でのピラティスは体がほぐれやすく効果的。ホットヨガとピラティスを組み合わせたプログラムで、デトックスとボディメイクを同時に実現。',

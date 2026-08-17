@@ -23,13 +23,7 @@ const studios = [
   {
     name: 'zen place pilates 溝の口スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7, reviewCount: 168,
-    reviews: [
-      { author: 'K.N', rating: 5, date: '1週間前', text: '溝の口駅から徒歩2分で抜群のアクセス。マットもマシンも両方受けられるのが魅力。全国150店舗以上で他店利用可能。' },
-      { author: 'Y.M', rating: 4, date: '2週間前', text: 'グループ体験1,000円で気軽に試せました。体験当日入会で入会金無料。ピラティス専門で20年以上の実績があり安心。' },
-      { author: 'A.S', rating: 5, date: '3週間前', text: 'インストラクターの質が高く体の変化を実感。オンラインレッスンも充実していて忙しい日も自宅で受けられます。' },
-    ],
+    image: '/images/studios/zen-place-pilates.webp', reviewCount: 168,
     price: '月4回 10,450円〜', trial: 'グループ体験 1,000円',
     features: ['溝の口駅徒歩2分', '男性OK', 'マット&マシン', '全国相互利用'],
     description: 'ピラティス専門の大手スタジオ。溝の口駅から徒歩2分の好立地。マットグループ・マシングループ・プライベートの3タイプから選べます。全国150店舗以上で相互利用可能。BASIピラティスをベースにした本格指導。',
@@ -42,13 +36,7 @@ const studios = [
   },
   {
     name: 'pilates K 溝の口店',
-    image: '/images/studios/pilates-k.webp',
-    rating: 4.6, reviewCount: 154,
-    reviews: [
-      { author: 'M.T', rating: 5, date: '1週間前', text: '溝の口駅東口から徒歩3分。女性専用で音楽に合わせた楽しいグループレッスン。1人1台マシンを使えて本格的。体験無料！' },
-      { author: 'S.K', rating: 5, date: '2週間前', text: '30歳からのボディメイクがコンセプト。スタイリッシュな空間でモチベーションが上がります。月4回13,420円でコスパも良い。' },
-      { author: 'R.H', rating: 4, date: '3週間前', text: 'マシン専門なので初心者でも安心。インストラクターが丁寧にフォームを教えてくれます。追加受講1回2,200円で柔軟に通える。' },
-    ],
+    image: '/images/studios/pilates-k.webp', reviewCount: 154,
     price: '月4回 13,420円〜', trial: '体験レッスン 無料',
     features: ['女性専用', '溝の口駅徒歩3分', 'マシン専門', '音楽レッスン'],
     description: '「30歳からの本気ボディメイク」がコンセプトの女性専用マシンピラティススタジオ。溝の口駅東口から徒歩3分。1人1台のリフォーマーを使い、音楽に合わせた楽しいグループレッスンが特徴。',
@@ -61,13 +49,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 溝の口店',
-    image: '/images/studios/club-pilates.webp',
-    rating: 4.7, reviewCount: 122,
-    reviews: [
-      { author: 'T.N', rating: 5, date: '1週間前', text: '世界最大級のマシンピラティスブランド。15種類の器具を使った本格レッスンが魅力。無料の30分イントロクラスで気軽に体験できます。' },
-      { author: 'C.M', rating: 4, date: '2週間前', text: '4段階のレベル分けで初心者でも安心。男性も通えるので夫婦で入会しました。インストラクターは500時間以上の研修済み。' },
-      { author: 'K.Y', rating: 5, date: '3週間前', text: '8つのプログラムがあり飽きずに続けられます。最大12名の少人数制でしっかり見てもらえる。溝の口駅からのアクセスも良好。' },
-    ],
+    image: '/images/studios/club-pilates.webp', reviewCount: 122,
     price: '月4回 14,190円〜', trial: '体験レッスン 無料（30分イントロクラス）',
     features: ['世界最大級', '15種類の器具', '男性OK', '4段階レベル分け'],
     description: '世界最大級のマシンピラティスブランド。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類の器具を完備。8つのプログラムと4段階のレベル分けで初心者から上級者まで対応。',
@@ -80,13 +62,7 @@ const studios = [
   },
   {
     name: 'ピラティスミラー 溝の口',
-    image: '/images/studios/pilates-mirror.webp',
-    rating: 4.5, reviewCount: 96,
-    reviews: [
-      { author: 'A.N', rating: 5, date: '1週間前', text: '天井に鏡があるので自分のフォームを確認しながらレッスンできるのが新感覚。最大9名の少人数制で月6回11,000円とコスパ良し。' },
-      { author: 'Y.S', rating: 4, date: '2週間前', text: '女性専用で清潔感のある空間。KONAMIが運営しているので安心感がある。初心者向けプログラムが充実しています。' },
-      { author: 'M.K', rating: 5, date: '3週間前', text: '30分レッスンなので隙間時間に通いやすい。ミラーで自分の動きを確認できるのでフォームが崩れにくい。' },
-    ],
+    image: '/images/studios/pilates-mirror.webp', reviewCount: 96,
     price: '月6回 11,000円', trial: '体験レッスンあり',
     features: ['天井ミラー', '女性専用', '少人数制', 'KONAMI運営'],
     description: 'KONAMI運営の女性専用マシンピラティススタジオ。天井に設置されたミラーで自身の動きを確認しながらトレーニングできる独自のシステム。最大9名の少人数制。1レッスン30分で気軽に参加可能。',
@@ -99,13 +75,7 @@ const studios = [
   },
   {
     name: 'Rintosull 溝の口店',
-    image: '/images/studios/rintosull.webp',
-    rating: 4.6, reviewCount: 108,
-    reviews: [
-      { author: 'E.M', rating: 5, date: '1週間前', text: 'LAVA系列で安心。月4回8,800円〜とマシンピラティスでは破格のコスパ。無料体験あり。女性専用で清潔感抜群。' },
-      { author: 'N.K', rating: 4, date: '2週間前', text: '初心者が87%以上とのことで未経験でも始めやすい。大画面映像に合わせてレッスンが進むので分かりやすい。' },
-      { author: 'H.Y', rating: 5, date: '3週間前', text: 'プレミアムフリーフルタイム16,800円でLAVA等系列店も全国で利用可能。ピラティスとヨガ両方やりたい人に最適。' },
-    ],
+    image: '/images/studios/rintosull.webp', reviewCount: 108,
     price: '月4回 8,800円〜', trial: '体験レッスン 無料',
     features: ['LAVA系列', '女性専用', 'コスパ抜群', '初心者87%'],
     description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオ。月4回8,800円のリーズナブルな料金。大型スクリーン映像に合わせてレッスンが進み、インストラクターが個別サポート。87%以上が初心者で未経験者も安心。',

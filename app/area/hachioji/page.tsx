@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'ピラティスK 八王子オクトーレ店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 155,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '1週間前',
-        text: '八王子駅直結のオクトーレ6F。女性専用で安心。音楽に合わせたリフォーマーレッスンが楽しくて毎回あっという間。部位別ボディメイクプログラムが充実。',
-      },
-      {
-        author: 'S.Y',
-        rating: 5,
-        date: '2週間前',
-        text: '体験レッスンが無料で気軽に試せました。月4回13,420円とコスパも良い。駅直結でアクセス抜群。',
-      },
-      {
-        author: 'R.H',
-        rating: 4,
-        date: '3週間前',
-        text: 'マシンピラティス専門なのでリフォーマーの台数が多く予約が取りやすい。朝10時から営業。',
-      },
-    ],
     price: '月4回 13,420円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '八王子駅直結', '部位別プログラム', 'マシン専門'],
@@ -76,28 +54,6 @@ const studios = [
   {
     name: 'the SILK 八王子店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.7,
-    reviewCount: 236,
-    reviews: [
-      {
-        author: 'E.T',
-        rating: 5,
-        date: '1週間前',
-        text: '八王子駅から徒歩2分。女性専用で清潔感のある内装がおしゃれ。音楽に合わせたレッスンが楽しい。手ぶら体験無料で気軽に試せました。',
-      },
-      {
-        author: 'N.K',
-        rating: 5,
-        date: '2週間前',
-        text: 'ウェア・タオル無料貸出やウォーターサーバーも完備。初心者向けプログラムが充実していて安心。',
-      },
-      {
-        author: 'T.S',
-        rating: 4,
-        date: '3週間前',
-        text: '体験者の8割がピラティス未経験者とのこと。月3回12,980円〜と始めやすい。京王八王子駅からも徒歩6分。',
-      },
-    ],
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '八王子駅徒歩2分', '手ぶら体験OK', 'アメニティ充実'],
@@ -129,28 +85,6 @@ const studios = [
   {
     name: 'Rintosull（リントスル）八王子店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.5,
-    reviewCount: 110,
-    reviews: [
-      {
-        author: 'A.M',
-        rating: 5,
-        date: '1週間前',
-        text: '八王子駅北口から徒歩1分。LAVA系列の女性専用マシンピラティスで安心感がある。月4回8,800円〜と続けやすい価格。',
-      },
-      {
-        author: 'K.T',
-        rating: 4,
-        date: '2週間前',
-        text: '全国のスタジオで相互利用可能。キャンペーン中は3ヶ月間月額1,980円で通い放題なのでお得に始められました。',
-      },
-      {
-        author: 'Y.N',
-        rating: 5,
-        date: '3週間前',
-        text: 'レッスンプログラムが豊富で飽きない。初心者向けのBasicから上級者向けまでレベルに合わせて選べる。',
-      },
-    ],
     price: '月4回 8,800円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '八王子駅徒歩1分', 'LAVA系列', '月4回8,800円〜'],
@@ -182,28 +116,6 @@ const studios = [
   {
     name: 'STUDIO IVY 八王子店',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.6,
-    reviewCount: 9,
-    reviews: [
-      {
-        author: 'H.S',
-        rating: 5,
-        date: '1週間前',
-        text: '完全マンツーマンのパーソナルマシンピラティス。自分の悩みに合わせたオーダーメイドプログラムを組んでもらえる。',
-      },
-      {
-        author: 'C.K',
-        rating: 5,
-        date: '2週間前',
-        text: '姿勢改善目的で通い始めて3ヶ月。デスクワークの肩こりが改善されました。洗練された空間で気分も上がります。',
-      },
-      {
-        author: 'M.N',
-        rating: 4,
-        date: '3週間前',
-        text: 'パーソナルなので周りを気にせず集中できる。インストラクターが丁寧に指導してくれるので初心者でも安心。',
-      },
-    ],
     price: '月額 6,250円〜/回',
     trial: '体験レッスン 4,500円',
     features: ['パーソナル専門', '八王子駅近', 'オーダーメイド', '完全マンツーマン'],
@@ -233,28 +145,6 @@ const studios = [
   {
     name: 'Studio TAKT EIGHT（タクトエイト）',
     image: '/images/studios/takt8-tokyo.webp',
-    rating: 4.6,
-    reviewCount: 13,
-    reviews: [
-      {
-        author: 'Y.M',
-        rating: 5,
-        date: '1週間前',
-        text: '理学療法士が立ち上げたスタジオ。医療現場の知見を活かした「身体を正しく使う」ピラティスが受けられる。八王子駅から徒歩3分。',
-      },
-      {
-        author: 'S.K',
-        rating: 4,
-        date: '2週間前',
-        text: '少人数制のグループレッスンで丁寧に教えてもらえる。パーソナルレッスンも対応。オンラインレッスンもあるので在宅時にも。',
-      },
-      {
-        author: 'T.H',
-        rating: 5,
-        date: '3週間前',
-        text: '2011年から続く老舗スタジオ。経験豊富なインストラクターが多く、体の不調を根本から改善できる。',
-      },
-    ],
     price: '公式サイトでご確認ください',
     trial: '体験レッスンあり',
     features: ['理学療法士監修', '八王子駅徒歩3分', '少人数制', 'オンラインあり'],

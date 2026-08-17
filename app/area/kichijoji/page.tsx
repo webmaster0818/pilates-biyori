@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates 吉祥寺スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 24,
-    reviews: [
-      {
-        author: 'K.M',
-        rating: 5,
-        date: '1週間前',
-        text: '吉祥寺駅から近く通いやすい。リフォーマー・キャデラック・チェア・ラダーバレルなど充実のマシン設備。マットもマシンも両方受けられる。',
-      },
-      {
-        author: 'Y.S',
-        rating: 5,
-        date: '2週間前',
-        text: '男性もOKで夫婦で通っています。全国150店舗以上で相互利用可能。体験当日入会で入会金無料のキャンペーンも。',
-      },
-      {
-        author: 'A.T',
-        rating: 4,
-        date: '3週間前',
-        text: 'ピラティス専門で20年以上の実績。インストラクターの質が高く、朝7時からレッスンがあるので出勤前に通えます。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['吉祥寺駅近', '男性OK', 'マシン充実', '全国相互利用'],
@@ -77,28 +55,6 @@ const studios = [
   {
     name: 'ピラティスK 吉祥寺店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 85,
-    reviews: [
-      {
-        author: 'M.N',
-        rating: 5,
-        date: '1週間前',
-        text: '吉祥寺駅近く。女性専用で音楽に合わせたリフォーマーレッスンが楽しい。脚・お尻・お腹・二の腕・背中の5パート別プログラムが充実。',
-      },
-      {
-        author: 'S.H',
-        rating: 5,
-        date: '2週間前',
-        text: '月4回13,420円とコスパ良好。マシンピラティス専門なのでリフォーマーの台数が多く予約が取りやすい。',
-      },
-      {
-        author: 'R.K',
-        rating: 4,
-        date: '3週間前',
-        text: '初心者向けクラスも充実。体験レッスンで雰囲気を確認できました。商業エリアにあるのでレッスン後の買い物も楽しめる。',
-      },
-    ],
     price: '月4回 13,420円〜',
     trial: '体験レッスン 2,000円',
     features: ['女性専用', '5パート別プログラム', 'マシン専門', '吉祥寺駅近'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'the SILK 吉祥寺店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.7,
-    reviewCount: 358,
-    reviews: [
-      {
-        author: 'E.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用で清潔感のあるおしゃれな内装。音楽に合わせたリフォーマーレッスンが楽しい。手ぶら無料体験で気軽に試せました。',
-      },
-      {
-        author: 'N.M',
-        rating: 5,
-        date: '2週間前',
-        text: 'ウェア・タオル無料貸出やウォーターサーバーも完備。体験者の8割がピラティス未経験者なので初心者でも安心。',
-      },
-      {
-        author: 'T.K',
-        rating: 4,
-        date: '3週間前',
-        text: '月3回12,980円〜と始めやすい料金。入会キャンペーンで入会金無料になることが多い。',
-      },
-    ],
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '手ぶら体験OK', '音楽レッスン', '吉祥寺エリア'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'ピラティスミラー 吉祥寺',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.6,
-    reviewCount: 39,
-    reviews: [
-      {
-        author: 'C.Y',
-        rating: 5,
-        date: '1週間前',
-        text: 'コナミスポーツ運営で安心。天井の鏡で自分のフォームを確認しながらレッスンできるのが画期的。30分のレッスンで効率的。',
-      },
-      {
-        author: 'H.M',
-        rating: 4,
-        date: '2週間前',
-        text: '月6回11,000円と手頃な価格。7回目以降も1回1,100円で追加OK。レッスン前の20分セルフトレーニングも可能。',
-      },
-      {
-        author: 'A.K',
-        rating: 5,
-        date: '3週間前',
-        text: '体験2,200円で雰囲気がわかる。プライベートレッスンも30分4,400円〜とリーズナブル。',
-      },
-    ],
     price: '月6回 11,000円',
     trial: '体験レッスン 2,200円',
     features: ['コナミ運営', '天井ミラー', '30分レッスン', '月6回11,000円'],
@@ -236,28 +148,6 @@ const studios = [
   {
     name: 'STUDIO IVY 吉祥寺店',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.7,
-    reviewCount: 15,
-    reviews: [
-      {
-        author: 'Y.K',
-        rating: 5,
-        date: '1週間前',
-        text: '吉祥寺駅近くの完全パーソナルマシンピラティス。月謝制で1レッスン6,250円〜とパーソナルとしてはリーズナブル。体の癖に合わせたオーダーメイドレッスン。',
-      },
-      {
-        author: 'M.T',
-        rating: 4,
-        date: '2週間前',
-        text: '体験4,500円で丁寧なカウンセリング。マンツーマンなので周りを気にせず集中できる。3ヶ月で体の変化を実感。',
-      },
-      {
-        author: 'K.S',
-        rating: 5,
-        date: '3週間前',
-        text: 'リフォーマー・キャデラック・チェアなど本格マシン完備。男性もOK。朝8時から夜21時まで営業。',
-      },
-    ],
     price: '月2回 15,000円〜',
     trial: '体験レッスン 4,500円',
     features: ['完全パーソナル', '吉祥寺駅近', 'マシン完備', '月謝制'],

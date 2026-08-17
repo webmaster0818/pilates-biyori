@@ -26,28 +26,6 @@ const studios = [
   {
     name: 'Pilates Mee 西中島南方・新大阪店',
     image: '/images/studios/pilates-mee.webp',
-    rating: 4.7,
-    reviewCount: 29,
-    reviews: [
-      {
-        author: 'K.N',
-        rating: 5,
-        date: '1週間前',
-        text: '新大阪駅から徒歩7分、西中島南方駅から徒歩6分。最大3名のセミパーソナル形式で1回あたり1,250円〜と破格の安さ。定額制で当日予約・当日キャンセルOK。',
-      },
-      {
-        author: 'M.Y',
-        rating: 5,
-        date: '2週間前',
-        text: 'セミパーソナルなのでインストラクターがしっかりフォームを見てくれます。一般的なパーソナル（1万円〜）に比べて圧倒的にコスパが良い。',
-      },
-      {
-        author: 'S.T',
-        rating: 4,
-        date: '3週間前',
-        text: 'チケットの持ち越しもOKなので月によって通う回数を調整しやすい。リフォーマーを使った本格レッスン。',
-      },
-    ],
     price: '月2回 11,000円〜',
     trial: '体験レッスンあり',
     features: ['新大阪駅徒歩7分', 'セミパーソナル', '1回1,250円〜', '当日予約OK'],
@@ -79,28 +57,6 @@ const studios = [
   {
     name: 'ピラティスアヴニール 新大阪・西中島店',
     image: '/images/studios/pilates-avenir-shinosaka.webp',
-    rating: 4.8,
-    reviewCount: 19,
-    reviews: [
-      {
-        author: 'Y.H',
-        rating: 5,
-        date: '1週間前',
-        text: '新大阪駅7番出口から徒歩5分、西中島南方駅1番出口から徒歩5分。完全個室のマンツーマンレッスン。朝7時から夜23時まで営業で仕事前後に通いやすい。',
-      },
-      {
-        author: 'R.S',
-        rating: 5,
-        date: '2週間前',
-        text: '90分の体験レッスンが2,980円で試せます。完全個室なので周りを気にせず集中できる。初心者にも丁寧に教えてもらえました。',
-      },
-      {
-        author: 'A.M',
-        rating: 4,
-        date: '3週間前',
-        text: 'マンツーマン1回7,700円（税込8,470円）。月4回28,000円（税込30,800円）。ペアやセミプランもあるので友人と一緒に通えます。',
-      },
-    ],
     price: '月4回 30,800円〜（税込）',
     trial: '90分体験 2,980円',
     features: ['新大阪駅徒歩5分', '完全個室', '7:00〜23:00', 'ペア可'],
@@ -132,28 +88,6 @@ const studios = [
   {
     name: 'IMPROVE 西中島南方・新大阪',
     image: '/images/studios/improve-shinosaka.webp',
-    rating: 4.6,
-    reviewCount: 30,
-    reviews: [
-      {
-        author: 'E.T',
-        rating: 5,
-        date: '1週間前',
-        text: '西中島南方駅1番出口から徒歩1分！ピラティス・ヨガ・シルクサスペンション・TRXが受けられる総合スタジオ。少人数制で全インストラクターが有資格者。',
-      },
-      {
-        author: 'N.K',
-        rating: 4,
-        date: '2週間前',
-        text: 'よもぎ蒸しや小顔矯正もあるので、ピラティス以外のメニューも楽しめます。会員は10%割引で通常3,200円/回。',
-      },
-      {
-        author: 'T.A',
-        rating: 4,
-        date: '3週間前',
-        text: 'ヨガ・ピラティス・シルクサスペンション・TRXの4種類から選べるので飽きずに続けられます。',
-      },
-    ],
     price: '1回 3,200円〜（会員）',
     trial: '体験レッスンあり',
     features: ['西中島南方駅徒歩1分', '4種類のプログラム', '少人数制', 'よもぎ蒸しあり'],
@@ -186,28 +120,6 @@ const studios = [
     name: 'zen place pilates 江坂スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 24,
-    reviews: [
-      {
-        author: 'H.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '江坂駅4番出口から徒歩1分、新大阪から御堂筋線で4分。全国150店舗以上で他店利用可能。マット・マシン・プライベートの3タイプから選べる。男性もOK。',
-      },
-      {
-        author: 'C.M',
-        rating: 5,
-        date: '2週間前',
-        text: 'ピラティス専門20年以上の実績。月4回10,450円〜とコスパ良好。体験当日入会で入会金無料。新大阪からのアクセスも良い。',
-      },
-      {
-        author: 'R.I',
-        rating: 4,
-        date: '3週間前',
-        text: 'ヨガレッスンも受講可能。リフォーマーの台数が充実していて予約が取りやすい。インストラクターの質が高い。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['江坂駅徒歩1分', '新大阪4分', '男性OK', '全国相互利用'],
@@ -239,28 +151,6 @@ const studios = [
   {
     name: 'Rintosull（リントスル）江坂店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.5,
-    reviewCount: 98,
-    reviews: [
-      {
-        author: 'M.S',
-        rating: 5,
-        date: '1週間前',
-        text: '江坂駅4番出口から徒歩1分。LAVAが運営する女性専用マシンピラティス。新大阪からも御堂筋線で4分とアクセス抜群。月4回8,800円〜とリーズナブル。',
-      },
-      {
-        author: 'K.T',
-        rating: 4,
-        date: '2週間前',
-        text: '大画面映像を見ながらリフォーマーでトレーニング。インストラクターが巡回してフォームチェックしてくれるので初心者でも安心。',
-      },
-      {
-        author: 'Y.A',
-        rating: 4,
-        date: '3週間前',
-        text: 'LAVAのホットヨガ会員なら相互利用できるプランも。ピラティスとヨガの両方楽しめます。',
-      },
-    ],
     price: '月4回 8,800円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', '江坂駅徒歩1分', 'LAVA運営', 'リーズナブル'],

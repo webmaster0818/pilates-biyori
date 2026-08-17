@@ -20,13 +20,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティススタジオ Shape 長崎店',
-    image: '/images/studios/shape-nagasaki.webp',
-    rating: 4.8, reviewCount: 45,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '理学療法士・鍼灸師など医療系国家資格者が在籍。長崎県唯一の種類と数を誇るピラティス専用マシンを完備。' },
-      { author: 'S.T', rating: 5, date: '2週間前', text: '国際ライセンス取得インストラクターによる本格指導。マシンの種類が豊富。' },
-      { author: 'R.N', rating: 4, date: '3週間前', text: '長崎県内に4店舗展開。医療系資格者ならではの安心感がある。' },
-    ],
+    image: '/images/studios/shape-nagasaki.webp', reviewCount: 45,
     price: '要問合せ', trial: '体験レッスンあり',
     features: ['医療系資格者', '豊富なマシン', '県内4店舗', '国際ライセンス'],
     description: '医療系国家資格者及び国際ライセンス取得インストラクターが在籍。長崎県唯一の種類と数のリフォーマーやラダーバレルなど専用マシンを完備。県内4店舗展開。',
@@ -38,13 +32,7 @@ const studios = [
   },
   {
     name: 'Lien（リアン）長崎駅前スタジオ',
-    image: '/images/studios/lien-nagasaki.webp',
-    rating: 4.7, reviewCount: 38,
-    reviews: [
-      { author: 'K.N', rating: 5, date: '1週間前', text: '長崎駅より徒歩3分。少人数スクール制でひとりひとりに最適なプログラム。' },
-      { author: 'Y.M', rating: 4, date: '2週間前', text: 'ピラティスとヨガ両方が受けられる。アットホームな雰囲気で通いやすい。' },
-      { author: 'A.S', rating: 5, date: '3週間前', text: '少人数制でインストラクターの目が行き届く。初心者でも安心。' },
-    ],
+    image: '/images/studios/lien-nagasaki.webp', reviewCount: 38,
     price: '要問合せ', trial: '体験レッスンあり',
     features: ['長崎駅徒歩3分', '少人数制', 'ピラティス&ヨガ', 'スクール制'],
     description: '長崎駅より徒歩3分の少人数スクール制ピラティス＆ヨガスタジオ。ひとりひとりに最適なレッスンプログラムを提供。',
@@ -56,13 +44,7 @@ const studios = [
   },
   {
     name: 'Two Three ピラティススタジオ長崎',
-    image: '/images/studios/twothree-nagasaki.webp',
-    rating: 4.6, reviewCount: 22,
-    reviews: [
-      { author: 'E.M', rating: 5, date: '1週間前', text: '長崎駅より徒歩5分。マシンピラティス専門で体幹強化と姿勢改善に効果的。' },
-      { author: 'N.K', rating: 4, date: '2週間前', text: 'リフォーマーを使ったレッスンが中心。初心者でも丁寧に指導してもらえる。' },
-      { author: 'H.Y', rating: 5, date: '3週間前', text: '駅近で仕事帰りに通いやすい。マシンピラティスの効果を実感できる。' },
-    ],
+    image: '/images/studios/twothree-nagasaki.webp', reviewCount: 22,
     price: '要問合せ', trial: '体験レッスンあり',
     features: ['マシン専門', '長崎駅徒歩5分', '体幹強化', '姿勢改善'],
     description: '長崎駅より徒歩5分のマシンピラティス専門スタジオ。リフォーマーを使ったレッスンで体幹強化・姿勢改善を目指す。',
@@ -74,13 +56,7 @@ const studios = [
   },
   {
     name: 'Pilates Studio Blue',
-    image: '/images/studios/blue-nagasaki.webp',
-    rating: 4.5, reviewCount: 18,
-    reviews: [
-      { author: 'T.M', rating: 5, date: '1週間前', text: '明るくて気持ちのいいスタジオ。経験豊富なインストラクターが在籍。' },
-      { author: 'C.Y', rating: 4, date: '2週間前', text: 'オンラインクラスもあるので自宅でも続けられる。' },
-      { author: 'K.S', rating: 5, date: '3週間前', text: 'アットホームな雰囲気。初めてのピラティスでも楽しく続けられる。' },
-    ],
+    image: '/images/studios/blue-nagasaki.webp', reviewCount: 18,
     price: '要問合せ', trial: '体験レッスンあり',
     features: ['明るいスタジオ', 'オンライン対応', '経験豊富な講師', 'アットホーム'],
     description: '明るく気持ちの良い空間で、経験豊富なインストラクターが指導。オンラインクラスにも対応。',
@@ -92,13 +68,7 @@ const studios = [
   },
   {
     name: 'ヨギフィール東長崎',
-    image: '/images/studios/yogifeel-nagasaki.webp',
-    rating: 4.6, reviewCount: 28,
-    reviews: [
-      { author: 'A.K', rating: 5, date: '1週間前', text: '東長崎エリアで通いやすい。ヨガとピラティス両方が楽しめる。' },
-      { author: 'Y.N', rating: 4, date: '2週間前', text: '地域密着型で温かい雰囲気。初心者にも優しい。' },
-      { author: 'M.H', rating: 5, date: '3週間前', text: '体の硬い人でも安心。無理のないペースで進めてもらえる。' },
-    ],
+    image: '/images/studios/yogifeel-nagasaki.webp', reviewCount: 28,
     price: '要問合せ', trial: '体験レッスンあり',
     features: ['東長崎', 'ヨガ&ピラティス', '地域密着', '初心者歓迎'],
     description: '東長崎エリアのヨガ・ピラティススタジオ。地域密着型の温かい雰囲気で初心者でも安心。',

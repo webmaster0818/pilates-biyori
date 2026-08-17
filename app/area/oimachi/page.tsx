@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates 大井町スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 28,
-    reviews: [
-      {
-        author: 'K.T',
-        rating: 5,
-        date: '1週間前',
-        text: '大井町駅C出口から徒歩3分。balanced body製のマシンが充実。マットグループ・マシングループ・プライベートと3タイプのレッスンが選べる。',
-      },
-      {
-        author: 'S.Y',
-        rating: 5,
-        date: '2週間前',
-        text: '全国150店舗以上で相互利用可能。品川・五反田・蒲田エリアの店舗も使えるのが便利。男性もOK。',
-      },
-      {
-        author: 'M.A',
-        rating: 4,
-        date: '3週間前',
-        text: 'グループ体験1,000円で気軽に試せました。インストラクターの質が高く、体験当日入会で入会金無料。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['大井町駅徒歩3分', 'balanced body製マシン', '男性OK', '全国相互利用'],
@@ -77,28 +55,6 @@ const studios = [
   {
     name: 'Rintosull 大井町店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.7,
-    reviewCount: 139,
-    reviews: [
-      {
-        author: 'E.K',
-        rating: 5,
-        date: '1週間前',
-        text: '大井町駅から徒歩3分の女性専用スタジオ。大画面モニターを見ながらグループでマシンピラティスができる。月額8,800円〜とコスパ抜群。',
-      },
-      {
-        author: 'N.H',
-        rating: 5,
-        date: '2週間前',
-        text: 'LAVA系列なので安心感がある。姿勢診断で自分の体の状態を把握してからレッスンに入れるのが良い。',
-      },
-      {
-        author: 'R.M',
-        rating: 4,
-        date: '3週間前',
-        text: '初心者向けのプログラムが充実。女性専用なので安心して通えます。キャンペーンで入会すると初月がお得。',
-      },
-    ],
     price: '月4回 8,800円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', '大井町駅徒歩3分', 'LAVA系列', '姿勢診断あり'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'Pilates Mee 大井町店',
     image: '/images/studios/pilates-mee.webp',
-    rating: 4.6,
-    reviewCount: 13,
-    reviews: [
-      {
-        author: 'A.S',
-        rating: 5,
-        date: '1週間前',
-        text: '1レッスン最大3名のセミパーソナルで1回1,250円〜。グループより丁寧に見てもらえて、パーソナルより手頃な価格帯が魅力。',
-      },
-      {
-        author: 'Y.N',
-        rating: 4,
-        date: '2週間前',
-        text: 'マシンピラティスをこの価格で受けられるのはすごい。インストラクターが一人ひとり丁寧にフォームを確認してくれる。',
-      },
-      {
-        author: 'C.T',
-        rating: 5,
-        date: '3週間前',
-        text: '初心者でも安心。少人数制なので質問もしやすく、体の変化を実感できます。',
-      },
-    ],
     price: '1回 1,250円〜',
     trial: '体験レッスン 9,800円',
     features: ['セミパーソナル', '最大3名', '1回1,250円〜', '大井町駅近く'],
@@ -182,28 +116,6 @@ const studios = [
   {
     name: 'SAKURA 大井町店',
     image: '/images/studios/sakura-pilates-gotanda.webp',
-    rating: 4.8,
-    reviewCount: 22,
-    reviews: [
-      {
-        author: 'H.M',
-        rating: 5,
-        date: '1週間前',
-        text: '大井町駅から徒歩4分の女性専用パーソナルスタジオ。完全個室で1回7,975円とパーソナルなのにコスパが良い。',
-      },
-      {
-        author: 'T.K',
-        rating: 5,
-        date: '2週間前',
-        text: '完全個室のプライベート空間で人目を気にせずレッスンできます。ダイエット・姿勢改善・むくみ・冷え性など目的に合わせたメニュー。',
-      },
-      {
-        author: 'M.S',
-        rating: 4,
-        date: '3週間前',
-        text: '2024年8月オープンの新しいスタジオ。清潔感があり設備もきれい。インストラクターの指導が丁寧で初心者にもおすすめ。',
-      },
-    ],
     price: '1回 7,975円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', '完全個室', 'パーソナル', '大井町駅徒歩4分'],
@@ -235,28 +147,6 @@ const studios = [
   {
     name: 'STUDIO MUNI 大井町',
     image: '/images/studios/pilates-muni-shimokitazawa.webp',
-    rating: 4.7,
-    reviewCount: 14,
-    reviews: [
-      {
-        author: 'R.A',
-        rating: 5,
-        date: '1週間前',
-        text: '品川大井町にあるパーソナル＆少人数制の常温ヨガ・ピラティススタジオ。整形外科医によるコンディショニングクラスもあり専門性が高い。',
-      },
-      {
-        author: 'K.Y',
-        rating: 4,
-        date: '2週間前',
-        text: 'ヨガとピラティスの両方が受けられるのが嬉しい。少人数制で丁寧な指導が受けられます。',
-      },
-      {
-        author: 'N.T',
-        rating: 5,
-        date: '3週間前',
-        text: '2026年4月から整形外科医によるコンディショニングクラスがスタート。医学的なアプローチで体をケアできる。',
-      },
-    ],
     price: 'パーソナル 要問合せ',
     trial: '体験レッスンあり',
     features: ['パーソナル', '少人数制', '整形外科医監修', 'ヨガも可能'],

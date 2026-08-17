@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'PILATES STUDIO noa 原宿スタジオ',
     image: '/images/studios/pilates-studio-noa.webp',
-    rating: 4.8,
-    reviewCount: 13,
-    reviews: [
-      {
-        author: 'K.M',
-        rating: 5,
-        date: '1週間前',
-        text: 'JR原宿駅竹下口から徒歩0分！ダンススクールNOAが運営するマシンピラティス専門スタジオ。月6,600円〜とリーズナブルで続けやすい。',
-      },
-      {
-        author: 'Y.S',
-        rating: 5,
-        date: '2週間前',
-        text: '白を基調とした明るいスタジオで気持ちよくレッスンできます。Intro・BODY MAKE・Conditioningの3カテゴリから選べるのが良い。',
-      },
-      {
-        author: 'A.T',
-        rating: 4,
-        date: '3週間前',
-        text: '回数制で繰越無制限なので無駄がない。系列のヨガやバレエのレッスンも共通で受けられるのがお得。シャワールーム完備で仕事前後にも通えます。',
-      },
-    ],
     price: '月2回 6,600円〜',
     trial: '体験レッスン 無料',
     features: ['原宿駅徒歩0分', 'マシン専門', '月6,600円〜', '繰越無制限'],
@@ -76,28 +54,6 @@ const studios = [
   {
     name: 'ピラティスK 表参道店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 217,
-    reviews: [
-      {
-        author: 'M.N',
-        rating: 5,
-        date: '1週間前',
-        text: '表参道駅から徒歩2分！女性専用で安心。音楽に合わせたリフォーマーレッスンが楽しくて毎回あっという間。部位別ボディメイクプログラムが充実。',
-      },
-      {
-        author: 'S.H',
-        rating: 5,
-        date: '2週間前',
-        text: 'スタジオからの眺めが良くて気分が上がります。体験2,000円で気軽に試せました。お腹・脚・お尻など目的別にクラスを選べるのが嬉しい。',
-      },
-      {
-        author: 'R.K',
-        rating: 4,
-        date: '3週間前',
-        text: '手ぶら体験ができるので仕事帰りにそのまま行けました。マシンピラティス専門なのでリフォーマーの台数が多く予約が取りやすい。',
-      },
-    ],
     price: '月4回 13,420円〜',
     trial: '体験レッスン 2,000円',
     features: ['女性専用', '表参道駅徒歩2分', '部位別プログラム', 'マシン専門'],
@@ -129,28 +85,6 @@ const studios = [
   {
     name: 'BDC PILATES 表参道スタジオ',
     image: '/images/studios/bdc-pilates.webp',
-    rating: 4.7,
-    reviewCount: 17,
-    reviews: [
-      {
-        author: 'Y.K',
-        rating: 5,
-        date: '1週間前',
-        text: '日本初のマシンピラティス専門スタジオ。40年以上の実績を持つBDCがプロデュース。表参道駅から徒歩2〜5分。少人数制でしっかり見てもらえます。',
-      },
-      {
-        author: 'A.N',
-        rating: 4,
-        date: '2週間前',
-        text: 'ダンサーのためのピラティスから生まれたスタジオなので、体の使い方を根本から改善できる。インストラクターの質が非常に高い。',
-      },
-      {
-        author: 'R.M',
-        rating: 5,
-        date: '3週間前',
-        text: 'A studioとB studioの2スタジオ体制で予約が取りやすい。男性もOKなので夫婦で通っています。',
-      },
-    ],
     price: '月4回 15,400円〜',
     trial: '体験レッスン 3,850円',
     features: ['日本初マシン専門', '表参道駅徒歩2分', '少人数制', '男性OK'],
@@ -182,28 +116,6 @@ const studios = [
   {
     name: 'Pilates KASANE 表参道店',
     image: '/images/studios/pilates-kasane.webp',
-    rating: 4.8,
-    reviewCount: 12,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '1週間前',
-        text: '明治神宮前駅・原宿駅から徒歩5分。少人数4名以下のクラスからグループまで選べます。体験がたった980円で気軽に試せました。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '2週間前',
-        text: 'オリジナルウェアの無料レンタルがあるので手ぶらで通えます。月4回15,400円で充実した内容。キャンペーンで入会金・初月無料でした。',
-      },
-      {
-        author: 'H.M',
-        rating: 4,
-        date: '3週間前',
-        text: 'パーソナルとグループ両方受けられるプランがあるのが魅力。インストラクターが丁寧で初心者でも安心。',
-      },
-    ],
     price: '月4回 15,400円〜',
     trial: '体験レッスン 980円',
     features: ['原宿駅徒歩5分', '少人数制', 'ウェア無料', '体験980円'],
@@ -235,28 +147,6 @@ const studios = [
   {
     name: 'Sky Pilates Tokyo',
     image: '/images/studios/sky-pilates-tokyo.webp',
-    rating: 4.8,
-    reviewCount: 16,
-    reviews: [
-      {
-        author: 'M.A',
-        rating: 5,
-        date: '1週間前',
-        text: '南青山の落ち着いた雰囲気のプライベートスタジオ。表参道駅・外苑前駅から徒歩7分。一人ひとりに合わせたパーソナルレッスンで効果を実感。',
-      },
-      {
-        author: 'T.S',
-        rating: 5,
-        date: '2週間前',
-        text: '朝8時から営業しているので出勤前に通えます。インストラクターのランク別に料金が設定されていて、5,500円〜7,000円/60分と明朗会計。',
-      },
-      {
-        author: 'N.K',
-        rating: 4,
-        date: '3週間前',
-        text: 'マシンを使ったパーソナルレッスンで姿勢が劇的に改善しました。キャンペーン利用で入会金無料になったのも嬉しい。',
-      },
-    ],
     price: '1回 5,500円〜',
     trial: 'キャンペーンで入会金無料',
     features: ['南青山', 'パーソナル専門', '朝8時〜', '都度払い'],
@@ -287,28 +177,6 @@ const studios = [
   {
     name: 'PILATES YOGA &a 北参道',
     image: '/images/studios/pilates-and-a-yoga.webp',
-    rating: 4.7,
-    reviewCount: 14,
-    reviews: [
-      {
-        author: 'E.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '北参道駅から徒歩1分。理学療法士や柔道整復師など医療系国家資格を持つトレーナーが在籍。カウンセリングが丁寧で安心感がある。',
-      },
-      {
-        author: 'N.M',
-        rating: 5,
-        date: '2週間前',
-        text: '完全予約制のプライベートレッスンなので、自分のペースでじっくり取り組めます。体験当日に回数券購入で体験5,500円・入会金無料。',
-      },
-      {
-        author: 'T.K',
-        rating: 4,
-        date: '3週間前',
-        text: 'ヨガとピラティスの両方が受けられるのが魅力。トレーナーが身体の状態をしっかり評価してくれるので効果を実感しやすい。',
-      },
-    ],
     price: '1回 5,500円〜',
     trial: '体験レッスン 5,500円（回数券購入時）',
     features: ['北参道駅徒歩1分', '国家資格保持者', '完全予約制', 'パーソナル'],
@@ -339,28 +207,6 @@ const studios = [
   {
     name: 'Pilates salon CROWN',
     image: '/images/studios/pilates-crown-harajuku.webp',
-    rating: 4.6,
-    reviewCount: 24,
-    reviews: [
-      {
-        author: 'C.M',
-        rating: 5,
-        date: '1週間前',
-        text: '原宿駅から徒歩2分の完全個室パーソナルスタジオ。マシンピラティスとヨガを融合させたアプローチが新しい。女性専用で安心。',
-      },
-      {
-        author: 'K.A',
-        rating: 5,
-        date: '2週間前',
-        text: '骨格から美しさを追求するコンセプトに惹かれて入会。1対1なので自分の身体に合わせたレッスンを受けられる。初回クーポンで5,700円。',
-      },
-      {
-        author: 'S.T',
-        rating: 4,
-        date: '3週間前',
-        text: 'セミパーソナル（2名まで）なら1人5,000円とリーズナブル。友人と一緒に通っています。完全予約制で待ち時間なし。',
-      },
-    ],
     price: '1回 7,700円（60分）',
     trial: '初回クーポン 2,000円OFF',
     features: ['女性専用', '原宿駅徒歩2分', '完全個室', 'ヨガ融合'],

@@ -23,11 +23,6 @@ export const metadata = {
 const studios = [
   {
     name: 'Rintosull（リントスル）阪神尼崎店', image: '/images/studios/rintosull.webp', rating: 4.5, reviewCount: 88,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'ホットヨガLAVAの姉妹ブランド。体験レッスンではAI姿勢分析アプリを使った姿勢診断が受けられる。月4回8,8。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 8,800円〜', trial: '体験レッスンあり（AI姿勢診断付き）', features: ['低価格','AI姿勢分析','LAVA相互利用','マシン専門'],
     description: 'ホットヨガLAVAの姉妹ブランド。体験レッスンではAI姿勢分析アプリを使った姿勢診断が受けられる。月4回8,800円〜と低価格',
     access: '阪神「尼崎駅」徒歩圏内', address: '兵庫県尼崎市（詳細は公式サイトでご確認ください）',
@@ -39,11 +34,6 @@ const studios = [
   {
     name: 'zen place pilates 尼崎', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 25,
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'ピラティス専門の大手スタジオ。全国150店舗以上で他店利用可能。マットグループ・マシングループ・プライベートの。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 10,450円〜', trial: 'グループ体験 1,000円', features: ['大手の安心感','全国相互利用','男性OK','マット＆マシン'],
     description: 'ピラティス専門の大手スタジオ。全国150店舗以上で相互利用可能。マットグループ・マシングループ・プライベートの3タイプ',
     access: '尼崎市内（詳細は公式サイトでご確認ください）', address: '兵庫県尼崎市（詳細は公式サイトでご確認ください）',
@@ -54,11 +44,6 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 尼崎店', image: '/images/studios/urban-classic-pilates.webp', rating: 4.5, reviewCount: 45,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'マシンピラティスとファンクショナルトレーニングを組み合わせたサーキット形式。一人ずつ違う動きを行うため運動久し。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['サーキット形式','予約不要','個別ペース','ファンクショナルトレーニング'],
     description: 'マシンピラティスとファンクショナルトレーニングを組み合わせたサーキット形式。一人ずつ違う動きを行うため運動久しぶりの方も安心',
     access: '尼崎市内（詳細は公式サイトでご確認ください）', address: '兵庫県尼崎市（詳細は公式サイトでご確認ください）',
@@ -69,11 +54,6 @@ const studios = [
   },
   {
     name: 'ピラティスアヴニール 尼崎武庫之荘店', image: '/images/studios/zen-place-pilates.webp', rating: 4.6, reviewCount: 30,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'キッズスペース付き完全個室を完備。医療国家資格を持つ実績豊富なトレーナーが個々に合ったトレーニングを提供。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['キッズスペース付き','完全個室','医療国家資格保有','子連れOK'],
     description: 'キッズスペース付き完全個室を完備。医療国家資格を持つ実績豊富なトレーナーが個々に合ったトレーニングを提供',
     access: '阪急「武庫之荘駅」徒歩圏内', address: '兵庫県尼崎市武庫之荘（詳細は公式サイトでご確認ください）',
@@ -84,11 +64,6 @@ const studios = [
   },
   {
     name: 'SynerGym（シナジム）塚口本店', image: '/images/studios/zen-place-pilates.webp', rating: 4.4, reviewCount: 55,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'マシンピラティス受け放題が月額16,500円で尼崎エリア最安級。ジムも併設されており総合的にボディメイクが可能。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月額 16,500円（通い放題）', trial: '体験レッスンあり', features: ['マシンピラティス受け放題','最安級','ジム併設','塚口駅近く'],
     description: 'マシンピラティス受け放題が月額16,500円で尼崎エリア最安級。ジムも併設されており総合的にボディメイクが可能',
     access: '阪急「塚口駅」徒歩圏内', address: '兵庫県尼崎市（詳細は公式サイトでご確認ください）',

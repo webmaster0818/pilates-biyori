@@ -27,28 +27,6 @@ const studios = [
     name: 'zen place pilates 本郷三丁目店',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 23,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '2週間前',
-        text: '本郷三丁目駅から徒歩3分で通いやすいです。マットもマシンも両方できるので自分のペースで続けられます。',
-      },
-      {
-        author: 'Y.H',
-        rating: 5,
-        date: '1ヶ月前',
-        text: 'インストラクターが丁寧で初心者でも安心。全国の店舗が使えるので出張先でも通えて便利です。',
-      },
-      {
-        author: 'S.N',
-        rating: 4,
-        date: '3週間前',
-        text: '10周年を迎えた老舗スタジオ。経験豊富なエデュケーターが多く、質の高いレッスンが受けられます。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
     features: ['マシン完備', '初心者歓迎', '本郷三丁目駅徒歩3分', '全国150店舗相互利用'],
@@ -80,28 +58,6 @@ const studios = [
   {
     name: 'ピラティスK 神保町店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 177,
-    reviews: [
-      {
-        author: 'A.T',
-        rating: 5,
-        date: '1週間前',
-        text: '2025年7月オープンの新しいスタジオ。駅から徒歩2分で通いやすく、設備も綺麗です！',
-      },
-      {
-        author: 'M.S',
-        rating: 4,
-        date: '2週間前',
-        text: '音楽に合わせて楽しくレッスン。女性専用なので気兼ねなく集中できます。体験が0円で始めやすかったです。',
-      },
-      {
-        author: 'R.I',
-        rating: 5,
-        date: '3週間前',
-        text: 'インストラクターが明るくて雰囲気が良い。ボディメイクに特化したプログラムが充実しています。',
-      },
-    ],
     price: '月4回 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['音楽×マシン', '女性専用', '神保町駅徒歩2分', 'ボディメイク特化'],
@@ -133,28 +89,6 @@ const studios = [
   {
     name: 'YARD 御茶ノ水スタジオ',
     image: '/images/studios/yard.webp',
-    rating: 4.6,
-    reviewCount: 4,
-    reviews: [
-      {
-        author: 'K.M',
-        rating: 5,
-        date: '5日前',
-        text: 'モノトーン×ピンクのお洒落なスタジオ。ヨガもピラティスも両方できるのが嬉しい。',
-      },
-      {
-        author: 'H.N',
-        rating: 4,
-        date: '1週間前',
-        text: '淡路町駅から徒歩1分の好立地。会員の7割が初心者からスタートしているので安心して通えます。',
-      },
-      {
-        author: 'Y.K',
-        rating: 5,
-        date: '2週間前',
-        text: '全米ヨガアライアンス200時間卒業のインストラクターが多数在籍。質の高いレッスンです。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
     features: ['ヨガ＆ピラティス', 'お洒落空間', '淡路町駅徒歩1分', '初心者歓迎'],
@@ -187,7 +121,6 @@ const studios = [
     name: 'zen place pilates 神保町店',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
     price: '月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
     features: ['マシン完備', '神保町駅徒歩1分', '全国他店利用', '男性OK'],
@@ -218,7 +151,6 @@ const studios = [
   {
     name: 'rcu リチュ 御茶ノ水',
     image: '/images/studios/rcu-ochanomizu.webp',
-    rating: 4.5,
     price: '要問い合わせ',
     trial: '体験レッスン あり',
     features: ['常温ヨガ＆ピラティス', 'マシンピラティス', '御茶ノ水駅徒歩4分', '森の景色'],
@@ -249,7 +181,6 @@ const studios = [
   {
     name: 'PILATES STUDIO ZERO 神保町店',
     image: '/images/studios/pilates-zero-jimbocho.webp',
-    rating: 4.8,
     price: '月4回 37,200円〜',
     trial: '体験レッスン 4,400円（当日入会で無料）',
     features: ['完全プライベート', 'マシンピラティス', '神保町駅近', 'パーソナル専門'],
@@ -282,7 +213,6 @@ const studios = [
   {
     name: 'Z&Z Pilates Studio 神保町店',
     image: '/images/studios/zz-pilates-jimbocho.webp',
-    rating: 4.6,
     price: '月4回 19,900円〜',
     trial: '団体体験 4,000円 / 私教体験 8,000円',
     features: ['中国語対応', '小班＋私教', '神保町駅1分', '国際認証'],

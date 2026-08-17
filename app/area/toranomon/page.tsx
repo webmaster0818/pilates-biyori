@@ -25,28 +25,6 @@ const studios = [
   {
     name: 'Studio-BMP 虎ノ門店',
     image: '/images/studios/studio-bmp-akasaka.webp',
-    rating: 4.8,
-    reviewCount: 11,
-    reviews: [
-      {
-        author: 'K.M',
-        rating: 5,
-        date: '1週間前',
-        text: '溜池山王駅9番出口から徒歩1分。理学療法士や柔道整復師などの国家資格保持者が監修したプログラムで安心。ボディメイクに特化したオリジナルメソッド。',
-      },
-      {
-        author: 'Y.S',
-        rating: 5,
-        date: '2週間前',
-        text: '完全個室のプライベート空間でパーソナルレッスンが受けられる。マットとマシンの両方対応。グループレッスンもあり。',
-      },
-      {
-        author: 'A.T',
-        rating: 4,
-        date: '3週間前',
-        text: '平日21時まで、土日祝も18時まで営業で仕事帰りにも通いやすい。虎ノ門駅からも徒歩5分。',
-      },
-    ],
     price: 'チケット制（公式サイトで確認）',
     trial: '体験レッスンあり',
     features: ['溜池山王駅徒歩1分', '国家資格者監修', '完全個室', 'グループあり'],
@@ -78,28 +56,6 @@ const studios = [
   {
     name: 'Lume Pilates 赤坂',
     image: '/images/studios/lume-akasaka.webp',
-    rating: 4.7,
-    reviewCount: 7,
-    reviews: [
-      {
-        author: 'E.M',
-        rating: 5,
-        date: '1週間前',
-        text: '赤坂駅から徒歩30秒！タワーリフォーマー、チェア、キャデラック、ラダーバレルなど多彩なマシン完備。少人数制で丁寧な指導。',
-      },
-      {
-        author: 'N.K',
-        rating: 5,
-        date: '2週間前',
-        text: '2025年10月オープンの新しいスタジオ。清潔感のある空間で気持ちよくレッスンできる。溜池山王・虎ノ門からもアクセス可能。',
-      },
-      {
-        author: 'C.O',
-        rating: 4,
-        date: '3週間前',
-        text: '平日22時まで営業で仕事帰りにも通える。経験豊富なインストラクターが多く在籍。パーソナルレッスンが充実。',
-      },
-    ],
     price: '体験 4,750円〜',
     trial: '体験レッスン 4,750円',
     features: ['赤坂駅徒歩30秒', '少人数制', 'タワーリフォーマー', '夜22時まで'],
@@ -131,28 +87,6 @@ const studios = [
   {
     name: 'ピラティスK 銀座店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 239,
-    reviews: [
-      {
-        author: 'M.N',
-        rating: 5,
-        date: '1週間前',
-        text: '銀座駅A9番出口から徒歩5分。女性専用で安心。音楽に合わせたリフォーマーレッスンが楽しくて毎回あっという間。部位別ボディメイクプログラムが充実。',
-      },
-      {
-        author: 'S.H',
-        rating: 5,
-        date: '2週間前',
-        text: '体験2,000円で気軽に試せました。月4回11,220円〜とコスパも良い。虎ノ門エリアからも銀座線ですぐ。',
-      },
-      {
-        author: 'R.K',
-        rating: 4,
-        date: '3週間前',
-        text: '朝9:30から夜22:00まで営業で通いやすい。マシンピラティス専門なのでリフォーマーの台数が多く予約が取りやすい。',
-      },
-    ],
     price: '月4回 11,220円〜',
     trial: '体験レッスン 2,000円',
     features: ['女性専用', '銀座駅徒歩5分', '部位別プログラム', 'マシン専門'],
@@ -184,28 +118,6 @@ const studios = [
   {
     name: 'the SILK 銀座店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.7,
-    reviewCount: 312,
-    reviews: [
-      {
-        author: 'E.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '銀座駅B5番出口から徒歩2分。女性専用で清潔感のある内装がおしゃれ。音楽に合わせたレッスンが楽しい。手ぶら体験無料で気軽に試せました。',
-      },
-      {
-        author: 'N.M',
-        rating: 5,
-        date: '2週間前',
-        text: 'ウェア・タオル無料貸出やウォーターサーバーも完備。虎ノ門からも銀座線1本でアクセス便利。',
-      },
-      {
-        author: 'T.K',
-        rating: 4,
-        date: '3週間前',
-        text: '体験者の8割がピラティス未経験者とのこと。初心者向けプログラムが充実していて安心。月3回12,980円〜と始めやすい。',
-      },
-    ],
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '銀座駅徒歩2分', '手ぶら体験OK', '初心者8割'],
@@ -237,28 +149,6 @@ const studios = [
   {
     name: 'CREA Pilates 新橋/銀座店',
     image: '/images/studios/crea-pilates-shimbashi.webp',
-    rating: 4.6,
-    reviewCount: 16,
-    reviews: [
-      {
-        author: 'H.A',
-        rating: 5,
-        date: '1週間前',
-        text: '新橋駅から徒歩4分、銀座駅から徒歩6分。完全個室のパーソナルレッスン。女性専用で安心して通えます。',
-      },
-      {
-        author: 'C.S',
-        rating: 4,
-        date: '2週間前',
-        text: '体験レッスン3,300円で90分じっくりカウンセリングとレッスン。一人ひとりの体に合わせたオーダーメイドプログラム。',
-      },
-      {
-        author: 'M.T',
-        rating: 5,
-        date: '3週間前',
-        text: '虎ノ門から新橋経由でアクセスしやすい。朝8時から夜20時まで営業。ペアトレーニングもあるので友人と一緒に通えます。',
-      },
-    ],
     price: 'パーソナル 1回 12,100円〜',
     trial: '体験レッスン 3,300円（90分）',
     features: ['女性専用', '新橋駅徒歩4分', '完全個室', 'ペアトレあり'],

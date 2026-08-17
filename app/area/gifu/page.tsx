@@ -20,11 +20,6 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK モレラ岐阜店', image: '/images/studios/pilates-k.webp', rating: 4.6, reviewCount: 70,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '女性専用マシンピラティス専門スタジオ。モレラ岐阜1階に位置し通い放題でも月12,320円〜とリーズナブル。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 11,220円〜', trial: '体験レッスン 無料', features: ['女性専用','モレラ岐阜内','通い放題12,320円〜','体験無料'],
     description: '女性専用マシンピラティス専門スタジオ。モレラ岐阜1階に位置し通い放題でも月12,320円〜とリーズナブル',
     access: '樽見鉄道「モレラ岐阜駅」徒歩圏内（モレラ岐阜1F）', address: '岐阜県本巣市 モレラ岐阜1F',
@@ -35,11 +30,6 @@ const studios = [
   },
   {
     name: 'LIFEMAKE Pilates 岐阜駅前店', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 28,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '岐阜駅から徒歩約10分のパーソナルマシンピラティススタジオ。理学療法士監修で完全個室の集中しやすい環境。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['岐阜駅徒歩10分','理学療法士監修','完全個室','パーソナル'],
     description: '岐阜駅から徒歩約10分のパーソナルマシンピラティススタジオ。理学療法士監修で完全個室の集中しやすい環境',
     access: 'JR「岐阜駅」徒歩約10分', address: '岐阜県岐阜市（詳細は公式サイトでご確認ください）',
@@ -51,11 +41,6 @@ const studios = [
   {
     name: 'zen place pilates 岐阜', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 22,
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'リフォーマーに加えキャデラックやチェアなど多様なマシンを導入。全国150店舗以上で他店利用可能。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 10,450円〜', trial: 'グループ体験 1,000円', features: ['大手の安心感','多様なマシン完備','全国相互利用','男性OK'],
     description: 'リフォーマーに加えキャデラックやチェアなど多様なマシンを導入。全国150店舗以上で相互利用可能',
     access: '岐阜市内（詳細は公式サイトでご確認ください）', address: '岐阜県岐阜市（詳細は公式サイトでご確認ください）',
@@ -66,11 +51,6 @@ const studios = [
   },
   {
     name: 'Rintosull（リントスル）イオンモール各務原店', image: '/images/studios/rintosull.webp', rating: 4.5, reviewCount: 60,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'ホットヨガLAVAの姉妹ブランド。イオンモール各務原内に位置し月4回8,800円〜と低価格。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 8,800円〜', trial: '体験レッスンあり', features: ['低価格','LAVA相互利用','イオンモール内','マシン専門'],
     description: 'ホットヨガLAVAの姉妹ブランド。イオンモール各務原内に位置し月4回8,800円〜と低価格',
     access: 'イオンモール各務原内', address: '岐阜県各務原市 イオンモール各務原内',
@@ -81,11 +61,6 @@ const studios = [
   },
   {
     name: 'ピラティススタジオn', image: '/images/studios/zen-place-pilates.webp', rating: 4.6, reviewCount: 15,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '整骨院併設のパーソナルピラティススタジオ。体の不調にも対応できる専門的な指導が特徴。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['パーソナル専門','整骨院併設','姿勢改善','体の不調対応'],
     description: '整骨院併設のパーソナルピラティススタジオ。体の不調にも対応できる専門的な指導が特徴',
     access: '岐阜市内（詳細は公式サイトでご確認ください）', address: '岐阜県岐阜市（詳細は公式サイトでご確認ください）',

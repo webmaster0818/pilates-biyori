@@ -40,13 +40,6 @@ const studios = [
     name: 'zen place pilates 栄',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 21,
-    reviews: [
-      { author: 'S.K', rating: 5, date: '2週間前', text: '栄駅から近くて通いやすいです。マットもマシンも両方受けられるので、その日の気分で選べるのが嬉しい。エデュケーターの指導が丁寧で初心者でも安心。' },
-      { author: 'Y.T', rating: 5, date: '1ヶ月前', text: '体験3,300円で本格的なレッスンを受けられました。名古屋最大の繁華街にあるのでアクセス抜群。少人数制で丁寧に見てもらえます。' },
-      { author: 'K.H', rating: 4, date: '3週間前', text: '全国展開しているので安心感があります。1回あたり約2,125円〜とコスパも良い。栄の買い物ついでに通えるのが便利。' },
-    ],
     price: '1回約2,125円〜',
     trial: '体験レッスン 3,300円',
     features: ['マット&マシン', '初心者歓迎', '栄駅近', '全国展開'],
@@ -61,13 +54,6 @@ const studios = [
   {
     name: 'ピラティスK 久屋大通パーク店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 148,
-    reviews: [
-      { author: 'R.N', rating: 5, date: '1週間前', text: '女性専用なので気兼ねなく通えます。マシンピラティス専門で設備が充実。体験0円で気軽に始められました！' },
-      { author: 'A.H', rating: 4, date: '2週間前', text: '久屋大通パーク沿いのおしゃれなスタジオ。音楽に合わせたレッスンが楽しくて、飽きずに続けられます。' },
-      { author: 'M.M', rating: 5, date: '3週間前', text: '1回約3,355円〜でマシンピラティスが受けられるのはコスパ良し。栄駅からも歩いて行けるので便利です。' },
-    ],
     price: '1回約3,355円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', 'マシンピラティス専門', '体験無料', '久屋大通パーク'],
@@ -82,13 +68,6 @@ const studios = [
   {
     name: 'Rintosull 栄店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.6,
-    reviewCount: 84,
-    reviews: [
-      { author: 'T.W', rating: 5, date: '5日前', text: '女性専用のマシンピラティスで安心して通えます。月4回8,800円〜はとてもリーズナブル。栄の中心にあるのでアクセスも便利。' },
-      { author: 'H.I', rating: 4, date: '1週間前', text: 'ホットヨガのLAVA系列なので安心感がある。マシンピラティスが月4回8,800円で始められるのは嬉しい。' },
-      { author: 'S.N', rating: 5, date: '2週間前', text: 'グループレッスンだけど丁寧に見てくれます。コスパ重視の方にはかなりおすすめ。' },
-    ],
     price: '月4回 8,800円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', 'マシンピラティス', 'コスパ抜群', 'LAVA系列'],
@@ -103,13 +82,6 @@ const studios = [
   {
     name: 'Pilates Mee 名古屋栄店',
     image: '/images/studios/pilates-mee.webp',
-    rating: 4.8,
-    reviewCount: 24,
-    reviews: [
-      { author: 'N.K', rating: 5, date: '1週間前', text: '完全パーソナルなので自分のペースで集中できます。マシンピラティスの指導がとても丁寧。栄の中心部にあって通いやすい。' },
-      { author: 'C.Y', rating: 5, date: '2週間前', text: 'マンツーマンで自分の体の癖や弱点を的確に見てもらえる。姿勢が改善されて肩こりが楽になりました。' },
-      { author: 'E.S', rating: 4, date: '3週間前', text: 'パーソナルなので予約が取りやすく、スケジュール調整がしやすいです。インストラクターの質が高い。' },
-    ],
     price: 'パーソナル料金',
     trial: '体験レッスンあり',
     features: ['パーソナル専門', 'マシンピラティス', '栄駅近', 'オーダーメイド'],

@@ -21,13 +21,6 @@ const studios = [
   {
     name: 'pilates K 宮崎店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.5,
-    reviewCount: 72,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '30歳からの本気ボディメイクがコンセプト。宮交シティ内で買い物ついでに通える。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月4回 13,420円〜',
     trial: '体験レッスン 無料',
     features: ["女性専用", "宮交シティ内", "部位別プログラム", "1人1台マシン"],
@@ -42,13 +35,6 @@ const studios = [
   {
     name: 'La pilates 宮崎店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.7,
-    reviewCount: 28,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '整体xマシンピラティスで姿勢改善。お客様の悩みに沿ったオーダーメイドレッスン。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["整体xピラティス", "オーダーメイド", "姿勢改善", "女性専用"],
@@ -63,13 +49,6 @@ const studios = [
   {
     name: 'Physical Studio Loop',
     image: '/images/studios/default-studio.webp',
-    rating: 4.6,
-    reviewCount: 32,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: 'リフォーマー・チェア・バレルを使ったマシンピラティスもマットも提供。宮崎市と門川町に展開。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["マシンandマット", "プライベートandグループ", "複数店舗", "男性OK"],
@@ -84,13 +63,6 @@ const studios = [
   {
     name: 'Progress パーソナルトレーニングandピラティス',
     image: '/images/studios/default-studio.webp',
-    rating: 4.7,
-    reviewCount: 18,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '正しい姿勢と動作を身に付けることでカラダの悩みを根本から解決する専門スタジオ。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["パーソナル専門", "姿勢・動作改善", "根本改善", "男性OK"],
@@ -105,13 +77,6 @@ const studios = [
   {
     name: 'ピラティス教室アイリス',
     image: '/images/studios/default-studio.webp',
-    rating: 4.5,
-    reviewCount: 15,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '年齢問わず運動が苦手な方でも気軽に始められる。体のゆがみを取り除き姿勢を改善。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["運動苦手OK", "年齢不問", "姿勢改善", "アットホーム"],

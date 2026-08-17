@@ -21,13 +21,6 @@ const studios = [
   {
     name: 'Rintosull 草加店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.6,
-    reviewCount: 139,
-    reviews: [
-      { author: 'A.K', rating: 5, date: '1週間前', text: 'LAVA系列の女性専用マシンピラティス。草加駅西口より徒歩1分。最安値級の料金。多彩なプログラム。' },
-      { author: 'B.M', rating: 5, date: '2週間前', text: '草加エリアで女性専用が魅力のスタジオ。通いやすい立地で続けやすいです。' },
-      { author: 'C.O', rating: 4, date: '3週間前', text: '初心者でも安心して通えます。インストラクターの指導が丁寧で、体の変化を実感できています。' },
-    ],
     price: 'プレミアムプラン 月額10,978円（税込）',
     trial: '体験無料キャンペーン実施中',
     features: ['女性専用', 'マシンピラティス', '駅徒歩1分', 'LAVA系列'],
@@ -54,13 +47,6 @@ const studios = [
   {
     name: 'Pilates Mee 草加店',
     image: '/images/studios/pilates-mee.webp',
-    rating: 4.7,
-    reviewCount: 12,
-    reviews: [
-      { author: 'D.L', rating: 5, date: '1週間前', text: 'セミパーソナル形式で最大3名までの少人数レッスン。一人ひとりに目が行き届く丁寧な指導。' },
-      { author: 'E.N', rating: 5, date: '2週間前', text: '草加エリアでセミパーソナルが魅力のスタジオ。通いやすい立地で続けやすいです。' },
-      { author: 'F.P', rating: 4, date: '3週間前', text: '初心者でも安心して通えます。インストラクターの指導が丁寧で、体の変化を実感できています。' },
-    ],
     price: 'セミパーソナル（公式サイトで確認）',
     trial: '体験レッスンあり',
     features: ['セミパーソナル', '最大3名少人数制', 'マシンピラティス', '体験無料キャンペーン'],
@@ -87,13 +73,6 @@ const studios = [
   {
     name: 'exeed pilates studio 草加店',
     image: '/images/studios/exeed-pilates-yoyogi.webp',
-    rating: 4.8,
-    reviewCount: 5,
-    reviews: [
-      { author: 'G.M', rating: 5, date: '1週間前', text: '完全個室パーソナル。リフォーマー・チェア・タワーなどフルアイテム完備。500種類以上のエクササイズからオーダーメイド。お子様連れOK。' },
-      { author: 'H.O', rating: 5, date: '2週間前', text: '草加エリアで完全個室パーソナルが魅力のスタジオ。通いやすい立地で続けやすいです。' },
-      { author: 'I.Q', rating: 4, date: '3週間前', text: '初心者でも安心して通えます。インストラクターの指導が丁寧で、体の変化を実感できています。' },
-    ],
     price: 'パーソナルレッスン（公式サイトで確認）',
     trial: '体験レッスンあり',
     features: ['完全個室パーソナル', 'フルアイテム完備', 'お子様連れOK', '500種以上のエクササイズ'],
@@ -120,13 +99,6 @@ const studios = [
   {
     name: 'NeBoMo ピラティススタジオ',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.5,
-    reviewCount: 8,
-    reviews: [
-      { author: 'J.N', rating: 5, date: '1週間前', text: '草加の地域密着型ピラティススタジオ。少人数制で一人ひとりに合わせた丁寧な指導が特徴。' },
-      { author: 'K.P', rating: 5, date: '2週間前', text: '草加エリアで少人数制が魅力のスタジオ。通いやすい立地で続けやすいです。' },
-      { author: 'L.R', rating: 4, date: '3週間前', text: '初心者でも安心して通えます。インストラクターの指導が丁寧で、体の変化を実感できています。' },
-    ],
     price: 'レッスン料は公式サイトでご確認ください',
     trial: '体験レッスンあり',
     features: ['少人数制', '丁寧な指導', 'アットホーム', '草加地域密着'],
@@ -153,13 +125,6 @@ const studios = [
   {
     name: 'La pilates 草加店',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.6,
-    reviewCount: 17,
-    reviews: [
-      { author: 'M.O', rating: 5, date: '1週間前', text: '整体×ピラティスの独自アプローチ。草加駅徒歩3分。体の不調の根本改善を目指すスタジオ。' },
-      { author: 'N.Q', rating: 5, date: '2週間前', text: '草加エリアで整体×ピラティスが魅力のスタジオ。通いやすい立地で続けやすいです。' },
-      { author: 'O.S', rating: 4, date: '3週間前', text: '初心者でも安心して通えます。インストラクターの指導が丁寧で、体の変化を実感できています。' },
-    ],
     price: 'レッスン料は公式サイトでご確認ください',
     trial: '体験レッスンあり',
     features: ['整体×ピラティス', '駅徒歩3分', '根本改善', '体の不調対応'],

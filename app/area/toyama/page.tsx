@@ -20,11 +20,6 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK 富山店', image: '/images/studios/pilates-k.webp', rating: 4.6, reviewCount: 65,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '女性専用マシンピラティス専門スタジオ。音楽に合わせた楽しいレッスンとボディメイクに特化したプログラムが充実。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 11,220円〜', trial: '体験レッスン 無料', features: ['女性専用','マシン専門','体験無料','部位別プログラム'],
     description: '女性専用マシンピラティス専門スタジオ。音楽に合わせた楽しいレッスンとボディメイクに特化したプログラムが充実',
     access: '富山市内（詳細は公式サイトでご確認ください）', address: '富山県富山市（詳細は公式サイトでご確認ください）',
@@ -35,11 +30,6 @@ const studios = [
   },
   {
     name: 'luluto（ルルト）富山店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808', image: '/images/studios/luluto.webp', rating: 4.8, reviewCount: 18,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '完全マンツーマンのマシンピラティス。理学療法士監修プログラムでプロフェッショナルなトレーナーが指導。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月3回 29,700円〜', trial: '体験レッスンあり', features: ['完全マンツーマン','理学療法士監修','高品質指導','カスタマイズ'],
     description: '完全マンツーマンのマシンピラティス。理学療法士監修プログラムでプロフェッショナルなトレーナーが指導',
     access: '富山市内（詳細は公式サイトでご確認ください）', address: '富山県富山市（詳細は公式サイトでご確認ください）',
@@ -50,11 +40,6 @@ const studios = [
   },
   {
     name: 'Rintosull（リントスル）マイプラザ南富山店', image: '/images/studios/rintosull.webp', rating: 4.5, reviewCount: 50,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'ホットヨガLAVAの姉妹ブランド。マイプラザ南富山内に位置し月4回8,800円〜と低価格。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 8,800円〜', trial: '体験レッスンあり', features: ['低価格','LAVA相互利用','マイプラザ内','マシン専門'],
     description: 'ホットヨガLAVAの姉妹ブランド。マイプラザ南富山内に位置し月4回8,800円〜と低価格',
     access: 'マイプラザ南富山内', address: '富山県富山市 マイプラザ南富山内',
@@ -65,11 +50,6 @@ const studios = [
   },
   {
     name: 'PAW（パウ）富山店', image: '/images/studios/zen-place-pilates.webp', rating: 4.5, reviewCount: 35,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '女性専用の24時間フィットネスジム。ピラティスとワークアウトを組み合わせ姿勢改善や脂肪燃焼をサポート。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['女性専用','24時間フィットネス','ピラティス×ワークアウト','姿勢改善'],
     description: '女性専用の24時間フィットネスジム。ピラティスとワークアウトを組み合わせ姿勢改善や脂肪燃焼をサポート',
     access: '富山市内（詳細は公式サイトでご確認ください）', address: '富山県富山市（詳細は公式サイトでご確認ください）',
@@ -80,11 +60,6 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 富山店', image: '/images/studios/club-pilates.webp', rating: 4.7, reviewCount: 30,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '世界最大級のマシンピラティスブランド。15種類の器具を使った本格レッスン。4段階のレベル分けで初心者から上級者。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 14,190円〜', trial: '体験レッスン 無料（30分イントロクラス）', features: ['世界最大級','15種類の器具','4段階レベル分け','男性OK'],
     description: '世界最大級のマシンピラティスブランド。15種類の器具を使った本格レッスン。4段階のレベル分けで初心者から上級者まで対応',
     access: '富山市内（詳細は公式サイトでご確認ください）', address: '富山県富山市（詳細は公式サイトでご確認ください）',

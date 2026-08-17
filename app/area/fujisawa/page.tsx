@@ -27,28 +27,6 @@ const studios = [
     name: 'zen place pilates 藤沢',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 32,
-    reviews: [
-      {
-        author: 'M.S',
-        rating: 5,
-        date: '2週間前',
-        text: '藤沢駅南口から徒歩2分！全国150以上のスタジオが他店利用可能。マット・マシン・プライベートすべて対応。体験当日入会で入会金無料でした。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: 'マットグループ月4回9,625円からとリーズナブル。リフォーマー以外にチェアやキャデラックなど豊富なマシン完備。男性もOK。',
-      },
-      {
-        author: 'K.N',
-        rating: 4,
-        date: '3週間前',
-        text: '平日は22時まで営業で仕事帰りにも通える。江ノ島や辻堂エリアからもアクセスしやすい。',
-      },
-    ],
     price: '月4回 9,625円〜',
     trial: '体験レッスン 500円〜',
     features: ['マシン完備', '男性OK', '藤沢駅徒歩2分', '全国相互利用可'],
@@ -80,28 +58,6 @@ const studios = [
   {
     name: 'the SILK 湘南・藤沢店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.8,
-    reviewCount: 180,
-    reviews: [
-      {
-        author: 'N.Y',
-        rating: 5,
-        date: '5日前',
-        text: '藤沢駅から徒歩1分！女性専用で安心。体験レッスンが無料で手ぶらOK。音楽に合わせた50分のレッスンが楽しい。朝8時から夜21時まで営業。',
-      },
-      {
-        author: 'E.S',
-        rating: 5,
-        date: '1週間前',
-        text: '初心者が80%なので気負わず始められました。PMA加盟団体のプロ監修レッスン。パウダールーム完備でレッスン後のお出かけにも便利。',
-      },
-      {
-        author: 'M.K',
-        rating: 4,
-        date: '2週間前',
-        text: 'Light3プランなら月3回13,280円。おしゃれな空間で気分が上がります。湘南の海のある街で、ピラティス後の散歩も楽しめます。',
-      },
-    ],
     price: '月3回 13,280円〜',
     trial: '体験レッスン 0円（50分・手ぶらOK）',
     features: ['女性専用', 'マシン専門', '藤沢駅徒歩1分', 'PMA監修'],
@@ -133,28 +89,6 @@ const studios = [
   {
     name: 'ピラティス&ジム 1to1 藤沢店',
     image: '/images/studios/pilates-gym-1to1.webp',
-    rating: 4.7,
-    reviewCount: 11,
-    reviews: [
-      {
-        author: 'H.T',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用の完全個室で安心。マシンピラティスとゆるトレのハイブリッド型。体験レッスンが5,500円で丁寧にカウンセリングしてもらえます。朝7時から夜23時まで営業。',
-      },
-      {
-        author: 'S.I',
-        rating: 4,
-        date: '2週間前',
-        text: '40分6,600円からとパーソナルとしてはリーズナブル。レンタルウェア・シューズ無料なのも嬉しい。ダイエットコースではLINE栄養指導付き。',
-      },
-      {
-        author: 'N.Y',
-        rating: 5,
-        date: '1ヶ月前',
-        text: 'プロトレーナーが丁寧に指導。マシンピラティスとウェイトトレーニングを効率よく組み合わせられます。',
-      },
-    ],
     price: '1回 6,600円〜（40分）',
     trial: '体験レッスン 5,500円',
     features: ['女性専用', '完全個室', 'ハイブリッド型', '朝7時〜夜23時'],
@@ -186,28 +120,6 @@ const studios = [
   {
     name: 'Pilates Mee 藤沢店',
     image: '/images/studios/pilates-mee.webp',
-    rating: 4.6,
-    reviewCount: 5,
-    reviews: [
-      {
-        author: 'T.M',
-        rating: 5,
-        date: '5日前',
-        text: '最大3名のセミパーソナル型で丁寧に見てもらえます。定額制で1回あたり1,250円〜は驚き！当日予約・当日キャンセルOKで気軽に通えます。',
-      },
-      {
-        author: 'K.A',
-        rating: 4,
-        date: '1週間前',
-        text: '藤沢駅から徒歩5分。通い放題プランなら月10回通えば1回3,750円！マシンピラティスでこの価格は破格。初心者でも安心。',
-      },
-      {
-        author: 'R.S',
-        rating: 5,
-        date: '2週間前',
-        text: '女性専用のセミパーソナルスタジオ。インストラクターが丁寧にフォローしてくれるので初めてでも安心でした。',
-      },
-    ],
     price: '1回 1,250円〜（定額制）',
     trial: '体験レッスンあり',
     features: ['セミパーソナル', '最大3名', '藤沢駅徒歩5分', 'コスパ抜群'],
@@ -239,28 +151,6 @@ const studios = [
   {
     name: 'LOrena（ロレナ）藤沢店',
     image: '/images/studios/lorena-fujisawa.webp',
-    rating: 4.7,
-    reviewCount: 12,
-    reviews: [
-      {
-        author: 'C.N',
-        rating: 5,
-        date: '1週間前',
-        text: '韓国で人気のリフォーマーを採用！最大4名のセミパーソナル式で丁寧に見てもらえます。女性専用でピラティスだけでなくジムも使える。',
-      },
-      {
-        author: 'H.M',
-        rating: 4,
-        date: '2週間前',
-        text: '藤沢駅北口から徒歩9分。4,400円からレッスンが受けられます。TRXやスウェディッシュバーなどピラティス以外のトレーニングも充実。',
-      },
-      {
-        author: 'R.O',
-        rating: 5,
-        date: '3週間前',
-        text: '清潔感のあるおしゃれなスタジオ。女性のためのTRX・有酸素マシンも完備で、ピラティスとジムを効率よく組み合わせられます。',
-      },
-    ],
     price: '1回 4,400円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', '韓国式リフォーマー', 'ジム併設', 'セミパーソナル'],
@@ -292,28 +182,6 @@ const studios = [
   {
     name: 'N pilates studio 藤沢',
     image: '/images/studios/n-pilates-fujisawa.webp',
-    rating: 4.8,
-    reviewCount: 14,
-    reviews: [
-      {
-        author: 'J.K',
-        rating: 5,
-        date: '1週間前',
-        text: '藤沢駅南口から徒歩4分の完全予約制プライベートスタジオ。一人ひとりにセッション内容をプログラミングしてくれるので、効果を実感しやすい。産前産後の方にも対応。',
-      },
-      {
-        author: 'S.A',
-        rating: 5,
-        date: '2週間前',
-        text: 'お子様連れOKなのが嬉しい！初心者からアスリートまで幅広く対応。55分のセッションでしっかりと体を整えてもらえます。',
-      },
-      {
-        author: 'M.I',
-        rating: 4,
-        date: '1ヶ月前',
-        text: 'アットホームな雰囲気で通いやすい。インストラクターとの距離が近く、何でも相談しやすいプライベートスタジオです。',
-      },
-    ],
     price: '要確認（完全パーソナル）',
     trial: '体験レッスンあり',
     features: ['完全プライベート', '予約制', '藤沢駅徒歩4分', '子連れOK'],
@@ -345,28 +213,6 @@ const studios = [
   {
     name: 'La pilates 藤沢店',
     image: '/images/studios/la-pilates.webp',
-    rating: 4.7,
-    reviewCount: 21,
-    reviews: [
-      {
-        author: 'E.T',
-        rating: 5,
-        date: '5日前',
-        text: '整体×マシンピラティスの融合スタジオ。女性専用で安心。女性インストラクターが丁寧に指導してくれます。産前産後にも対応。年中無休で朝9時から夜21時まで営業。',
-      },
-      {
-        author: 'Y.N',
-        rating: 4,
-        date: '1週間前',
-        text: '月1回12,000円からパーソナルが受けられます。整体と組み合わせたアプローチで姿勢改善の効果を実感しています。',
-      },
-      {
-        author: 'K.M',
-        rating: 5,
-        date: '2週間前',
-        text: '無料体験があるので気軽に試せました。パーソナルなので自分のペースで進められるのが良い。',
-      },
-    ],
     price: '月1回 12,000円〜',
     trial: '無料体験あり',
     features: ['女性専用', '整体×ピラティス', '年中無休', '産前産後OK'],

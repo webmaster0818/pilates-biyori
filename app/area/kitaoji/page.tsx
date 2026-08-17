@@ -25,28 +25,6 @@ const studios = [
   {
     name: 'REIBELLE 京都北山店',
     image: '/images/studios/reibelle-kyoto.webp',
-    rating: 4.8,
-    reviewCount: 4,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '1週間前',
-        text: '北山駅から徒歩5分。女性専用で地域最大級のマシンと豊富なレッスン数。エステ・ホワイトニングも併設されていて一箇所で美容もケアできる。',
-      },
-      {
-        author: 'S.T',
-        rating: 5,
-        date: '2週間前',
-        text: '朝10時から夜22時まで営業。ピラティス初心者でも無理なく始められるプログラムが充実。おしゃれなスタジオで通うのが楽しい。',
-      },
-      {
-        author: 'R.N',
-        rating: 4,
-        date: '3週間前',
-        text: 'マシンピラティスとエステが融合した新しいスタイル。レッスン後にエステも受けられるのは京都でここだけ。',
-      },
-    ],
     price: '月4回 13,200円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', '北山駅徒歩5分', 'エステ併設', '地域最大級マシン'],
@@ -78,28 +56,6 @@ const studios = [
   {
     name: 'BeTRY\'s（ビートライズ）',
     image: '/images/pilates3.webp',
-    rating: 4.7,
-    reviewCount: 65,
-    reviews: [
-      {
-        author: 'K.N',
-        rating: 5,
-        date: '1週間前',
-        text: '鞍馬口にあるパーソナルスタジオ。ダイエットとマシンピラティスの両方ができる。北大路・今出川・下鴨エリアからも通いやすい。',
-      },
-      {
-        author: 'Y.M',
-        rating: 5,
-        date: '2週間前',
-        text: 'パーソナルなので一人ひとりに合わせたプログラム。ダイエット目的で通い始めて3ヶ月で目に見える変化が。',
-      },
-      {
-        author: 'A.S',
-        rating: 4,
-        date: '3週間前',
-        text: 'トレーニングとピラティスが一箇所でできるのが効率的。インストラクターの指導が丁寧で安心感がある。',
-      },
-    ],
     price: 'パーソナル（要問合せ）',
     trial: '体験レッスンあり',
     features: ['パーソナル', 'ダイエット&ピラティス', '鞍馬口エリア', '完全個室'],
@@ -132,28 +88,6 @@ const studios = [
     name: 'zen place pilates 京都スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 30,
-    reviews: [
-      {
-        author: 'E.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '四条駅12番出口から徒歩1分。北大路からも地下鉄1本でアクセス可能。マットもマシンも両方受けられる。全国150店舗以上で他店利用可能。',
-      },
-      {
-        author: 'H.M',
-        rating: 4,
-        date: '2週間前',
-        text: 'グループ体験1,000円で気軽に試せた。男性もOK。ピラティス専門20年以上の実績で安心。',
-      },
-      {
-        author: 'N.K',
-        rating: 5,
-        date: '3週間前',
-        text: 'インストラクターの質が高く体の変化を早く実感。京都の中心地でアクセス良好。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['四条駅徒歩1分', '男性OK', 'マット&マシン', '全国相互利用'],
@@ -185,28 +119,6 @@ const studios = [
   {
     name: 'style pilates 京都',
     image: '/images/studios/style-pilates-kyoto.webp',
-    rating: 4.7,
-    reviewCount: 10,
-    reviews: [
-      {
-        author: 'T.K',
-        rating: 5,
-        date: '1週間前',
-        text: '完全プライベート空間の韓国風スタジオ。おしゃれな空間でモチベーションが上がる。マンツーマンで丁寧な指導。',
-      },
-      {
-        author: 'C.M',
-        rating: 5,
-        date: '2週間前',
-        text: '経験豊かなインストラクターが自分のペースに合わせてサポート。初心者でも安心して通えます。',
-      },
-      {
-        author: 'Y.A',
-        rating: 4,
-        date: '3週間前',
-        text: '完全個室なので人目を気にせず集中できる。韓国ピラティスの洗練された雰囲気が素敵。',
-      },
-    ],
     price: 'パーソナル 1回 8,800円〜',
     trial: '体験レッスンあり',
     features: ['完全プライベート', '韓国風スタジオ', 'マンツーマン', 'おしゃれ空間'],

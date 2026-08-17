@@ -23,13 +23,6 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 成増',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/default-studio.webp',
-    rating: 4.5,
-    reviewCount: 52,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '成増駅徒歩2分。30分サーキット形式でインナーとアウターを効率的に鍛える。予約不要で通いやすい。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月額制',
     trial: '体験レッスンあり',
     features: ["駅徒歩2分", "30分サーキット", "予約不要", "コスパ"],
@@ -44,13 +37,6 @@ const studios = [
   {
     name: 'Rintosull 成増店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.5,
-    reviewCount: 68,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: 'LAVA系列の女性専用マシンピラティス。月4回8,800円〜のリーズナブルな料金。87%以上が初心者。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月4回 8,800円〜',
     trial: '体験レッスン 無料',
     features: ["LAVA系列", "女性専用", "月4回8,800円〜", "大型スクリーン"],
@@ -65,13 +51,6 @@ const studios = [
   {
     name: 'マピラ成増店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.6,
-    reviewCount: 28,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: 'マシンピラティスとホットヨガを併設。光・音楽・アロマの演出。月会費7,700円〜のコスパ。成増駅南口徒歩2分。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月7,700円〜',
     trial: '体験レッスンあり',
     features: ["マシンピラティス", "ホットヨガ併設", "アロマ", "月7,700円〜"],
@@ -86,13 +65,6 @@ const studios = [
   {
     name: 'H ampersand 成増',
     image: '/images/studios/default-studio.webp',
-    rating: 4.5,
-    reviewCount: 22,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '成増駅徒歩1分の24時間ジム併設スタジオ。スマートピラティス「スマピ」で深層筋を効率的に鍛える。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["24時間ジム", "スマピ", "駅徒歩1分", "深層筋"],
@@ -107,13 +79,6 @@ const studios = [
   {
     name: 'studio hourglass',
     image: '/images/studios/default-studio.webp',
-    rating: 4.7,
-    reviewCount: 15,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: 'パーソナルマシンレッスンとグループマットレッスンを提供。アットホームな雰囲気の少人数スタジオ。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["パーソナル専門", "マシン", "マット", "アットホーム"],

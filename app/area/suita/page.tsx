@@ -23,13 +23,7 @@ const studios = [
   {
     name: 'zen place pilates 江坂スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7, reviewCount: 156,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '江坂駅から徒歩1分で通いやすい。マットもマシンも両方受けられるのが魅力。全国150店舗以上で他店利用可能なので出張時にも便利。' },
-      { author: 'S.T', rating: 5, date: '2週間前', text: 'インストラクターの質が高く丁寧な指導。初回体験1,000円で気軽に試せました。グループレッスンの種類も豊富です。' },
-      { author: 'R.N', rating: 4, date: '3週間前', text: '北摂エリアの玄関口・江坂にあるので梅田方面からもアクセス良好。男性もOKなので夫婦で通っています。' },
-    ],
+    image: '/images/studios/zen-place-pilates.webp', reviewCount: 156,
     price: '月4回 9,625円〜', trial: 'グループ体験 1,000円',
     features: ['江坂駅徒歩1分', '男性OK', 'マット&マシン', '全国相互利用'],
     description: 'ピラティス専門の大手スタジオ。江坂駅から徒歩1分の好立地。マットグループ・マシングループ・プライベートの3タイプから選べます。全国150店舗以上で相互利用可能。正統派ピラティスをベースにした質の高い指導が特徴。',
@@ -42,13 +36,7 @@ const studios = [
   },
   {
     name: 'La pilates（ラピラティス）江坂店',
-    image: '/images/studios/la-pilates.webp',
-    rating: 4.8, reviewCount: 92,
-    reviews: [
-      { author: 'A.Y', rating: 5, date: '1週間前', text: '整体×マシンピラティスの融合で初回から効果を実感！女性専用で落ち着いた空間。姿勢改善に特化したWメソッドが画期的です。' },
-      { author: 'K.S', rating: 5, date: '2週間前', text: '江坂駅から徒歩2分で通いやすい。パーソナル形式なので自分のペースで進められます。スタッフの方がとても親切。' },
-      { author: 'N.M', rating: 4, date: '3週間前', text: '整体で体を整えてからピラティスで鍛えるので効率的。肩こりや腰痛が劇的に改善しました。' },
-    ],
+    image: '/images/studios/la-pilates.webp', reviewCount: 92,
     price: 'パーソナル 1回 8,800円〜', trial: '体験レッスンあり',
     features: ['女性専用', '整体×ピラティス', 'パーソナル専門', '江坂駅徒歩2分'],
     description: '整体×マシンピラティスを融合した女性専用プライベートスタジオ。江坂駅から徒歩2分。姿勢改善に特化したWメソッドで、整体で体を整えてからピラティスで鍛える効率的なアプローチ。リラックスできる空間設計が特徴。',
@@ -61,13 +49,7 @@ const studios = [
   },
   {
     name: 'ピラティス コアセンス 千里丘',
-    image: '/images/studios/pilates-kasane.webp',
-    rating: 4.6, reviewCount: 78,
-    reviews: [
-      { author: 'Y.K', rating: 5, date: '1週間前', text: '2025年リニューアルオープンしたばかりで設備がきれい。パーソナルトレーニングでマシンピラティスを丁寧に指導してもらえます。' },
-      { author: 'T.M', rating: 5, date: '2週間前', text: '千里丘駅前で通いやすい。肩こりや腰痛の改善だけでなく、小学生の体幹トレーニングにも対応しているのが珍しい。' },
-      { author: 'H.S', rating: 4, date: '3週間前', text: '初心者にも丁寧に指導してくれます。パーソナルなので周りを気にせずレッスンに集中できるのが良い。' },
-    ],
+    image: '/images/studios/pilates-kasane.webp', reviewCount: 78,
     price: 'パーソナル 1回 7,000円〜', trial: '体験レッスンあり',
     features: ['千里丘駅前', 'パーソナル専門', '2025年リニューアル', '子ども対応'],
     description: '2025年リニューアルオープンしたパーソナルピラティス＆トレーニングスタジオ。千里丘駅前の好立地。マシンピラティスのパーソナルレッスンで肩こり・腰痛改善から体幹強化まで対応。小学生の体幹トレーニングにも対応。',
@@ -80,13 +62,7 @@ const studios = [
   },
   {
     name: 'Rintosull（リントスル）吹田店',
-    image: '/images/studios/rintosull.webp',
-    rating: 4.5, reviewCount: 88,
-    reviews: [
-      { author: 'E.N', rating: 5, date: '1週間前', text: '女性専用で安心。映像×インストラクターのハイブリッドレッスンが分かりやすくて初心者でも安心して受けられます。' },
-      { author: 'R.K', rating: 5, date: '2週間前', text: '月額8,800円〜の通い放題がコスパ最高。LAVAと同じ系列で信頼感もあります。スタジオもきれいです。' },
-      { author: 'M.A', rating: 4, date: '3週間前', text: '仕事帰りに通いやすい立地。レッスンの種類も豊富で飽きずに続けられています。' },
-    ],
+    image: '/images/studios/rintosull.webp', reviewCount: 88,
     price: '月額 8,800円〜', trial: '体験レッスンあり',
     features: ['女性専用', '通い放題あり', '映像×インストラクター', 'LAVA系列'],
     description: 'ホットヨガLAVAが手がける女性専用マシンピラティススタジオ。大型スクリーンの映像とインストラクターのハイブリッドレッスンで初心者でも安心。月額8,800円〜とリーズナブルな通い放題プランが魅力。',
@@ -99,13 +75,7 @@ const studios = [
   },
   {
     name: 'pilates K（ピラティスケー）江坂店',
-    image: '/images/studios/pilates-k.webp',
-    rating: 4.5, reviewCount: 95,
-    reviews: [
-      { author: 'K.T', rating: 5, date: '1週間前', text: '女性専用でおしゃれな空間。音楽に合わせたマシンピラティスが楽しい！ボディメイク効果をしっかり実感できています。' },
-      { author: 'S.M', rating: 5, date: '2週間前', text: '体験レッスン無料で気軽に始められました。江坂駅から近くて仕事帰りに通いやすいです。スタッフも明るくて好印象。' },
-      { author: 'A.H', rating: 4, date: '3週間前', text: 'グループレッスンですが少人数制なのでしっかり見てもらえます。通い放題プランがお得。' },
-    ],
+    image: '/images/studios/pilates-k.webp', reviewCount: 95,
     price: '月4回 13,420円〜', trial: '体験レッスン 無料',
     features: ['女性専用', '音楽×ピラティス', '江坂駅近く', '体験無料'],
     description: '女性専用のマシンピラティス専門スタジオ。音楽に合わせたグループレッスンが特徴で、楽しみながらボディメイクできると人気。おしゃれなスタジオ空間でモチベーションもアップ。初回体験無料。',
@@ -118,13 +88,7 @@ const studios = [
   },
   {
     name: 'BASCO PILATES 江坂',
-    image: '/images/studios/basco-esaka.webp',
-    rating: 4.7, reviewCount: 68,
-    reviews: [
-      { author: 'Y.N', rating: 5, date: '1週間前', text: 'アットホームな雰囲気のスタジオ。少人数制で丁寧に見てもらえるのが嬉しい。江坂エリアでは穴場的な存在です。' },
-      { author: 'K.M', rating: 5, date: '2週間前', text: 'インストラクターの質が高く、体の状態をしっかり見てくれます。マットもマシンも選べるのが良い。' },
-      { author: 'T.K', rating: 4, date: '3週間前', text: '少人数制なのでグループでもセミパーソナルのような感覚。料金も良心的で続けやすいです。' },
-    ],
+    image: '/images/studios/basco-esaka.webp', reviewCount: 68,
     price: '月4回 10,000円〜', trial: '体験レッスンあり',
     features: ['少人数制', 'アットホーム', 'マット&マシン', '良心的料金'],
     description: '江坂エリアのアットホームなピラティススタジオ。少人数制のグループレッスンで、セミパーソナルのような丁寧な指導が受けられる。マットとマシンの両方に対応し、良心的な料金設定で継続しやすい。',

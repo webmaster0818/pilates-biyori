@@ -26,28 +26,6 @@ const studios = [
   {
     name: 'ピラティススタジオDEP 金沢店 近岡スタジオ',
     image: '/images/studios/dep-kanazawa.webp',
-    rating: 4.8,
-    reviewCount: 14,
-    reviews: [
-      {
-        author: 'K.T',
-        rating: 5,
-        date: '1週間前',
-        text: '理学療法士の資格を持つインストラクターが在籍。半個室で1,000種類以上のレッスンプログラムがあり、自分の悩みに合わせたオーダーメイドレッスンが魅力。',
-      },
-      {
-        author: 'M.S',
-        rating: 5,
-        date: '2週間前',
-        text: '初回パーソナル90分が2,980円で体験できました。完全個室なので周りを気にせず集中できる。姿勢改善の効果を実感。',
-      },
-      {
-        author: 'Y.N',
-        rating: 4,
-        date: '3週間前',
-        text: '金沢に近岡と鳴和の2店舗あるので予約が取りやすい。全スタッフ有資格者で指導の質が高い。',
-      },
-    ],
     price: '月額 14,800円〜',
     trial: '初回パーソナル90分 2,980円',
     features: ['完全個室', '有資格者のみ', '2店舗展開', 'オーダーメイド'],
@@ -79,28 +57,6 @@ const studios = [
   {
     name: 'ウェルネス・ラボ 金沢駅西',
     image: '/images/studios/wellness-lab-kanazawa.webp',
-    rating: 4.6,
-    reviewCount: 17,
-    reviews: [
-      {
-        author: 'A.K',
-        rating: 5,
-        date: '1週間前',
-        text: '24時間営業でいつでも通えるのが最大のメリット。マシンピラティスとAIフィットネスの両方が月7,980円で使い放題。コスパ最強。',
-      },
-      {
-        author: 'R.M',
-        rating: 4,
-        date: '2週間前',
-        text: 'お手本動画を見ながらサーキット型でマシンピラティスができる。1回30分で全身鍛えられるので忙しい人にも最適。',
-      },
-      {
-        author: 'H.Y',
-        rating: 4,
-        date: '3週間前',
-        text: '無料駐車場完備で車通いしやすい。県道沿いで仕事帰りにも便利。ゲーム感覚で楽しくトレーニングできる。',
-      },
-    ],
     price: '月額 8,778円（税込）〜',
     trial: '見学・体験あり',
     features: ['24時間営業', '駐車場無料', 'AI×ピラティス', 'サーキット型'],
@@ -132,28 +88,6 @@ const studios = [
   {
     name: 'LYFE（ライフ）金沢',
     image: '/images/studios/lyfe-kanazawa.webp',
-    rating: 4.7,
-    reviewCount: 25,
-    reviews: [
-      {
-        author: 'S.O',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用のプライベートスタジオで安心。経験10年以上のインストラクターが4名在籍。マシンピラティスだけでなくヨガやマインドフルネスも受けられる。',
-      },
-      {
-        author: 'N.K',
-        rating: 5,
-        date: '2週間前',
-        text: '1対1のパーソナルレッスンなので自分のペースで進められる。身体の状態に合わせたオーダーメイドプログラムが嬉しい。',
-      },
-      {
-        author: 'T.M',
-        rating: 4,
-        date: '3週間前',
-        text: '月2回13,200円から始められる。落ち着いた空間でリラックスしながらレッスンを受けられます。',
-      },
-    ],
     price: '月2回 13,200円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', 'パーソナル専門', '経験豊富な講師', 'ヨガも可能'],
@@ -185,28 +119,6 @@ const studios = [
   {
     name: 'AND STUDIO（アンドスタジオ）金沢',
     image: '/images/studios/pilates-studio-dep.webp',
-    rating: 4.5,
-    reviewCount: 19,
-    reviews: [
-      {
-        author: 'E.S',
-        rating: 5,
-        date: '1週間前',
-        text: '20名の経験豊かなインストラクターによる多彩なクラスが魅力。ヨガ・ホットヨガ・エアリアルヨガ・ピラティスと幅広いプログラム。',
-      },
-      {
-        author: 'C.H',
-        rating: 4,
-        date: '2週間前',
-        text: '金沢のスタジオでは唯一の通い放題システム。月会費8,680円からと最安級の価格設定が嬉しい。',
-      },
-      {
-        author: 'M.A',
-        rating: 4,
-        date: '3週間前',
-        text: '初心者向けのクラスも充実。ピラティスだけでなくヨガも含めて自由に選べるのがいい。',
-      },
-    ],
     price: '月額 8,680円〜',
     trial: '体験レッスンあり',
     features: ['通い放題あり', '20名の講師', 'ヨガ＆ピラティス', '最安級'],
@@ -238,28 +150,6 @@ const studios = [
   {
     name: 'ピラティス教室Hirameき',
     image: '/images/studios/pilates-studio-dep.webp',
-    rating: 4.5,
-    reviewCount: 3,
-    reviews: [
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1週間前',
-        text: '各クラス8名までの少人数制で丁寧な指導が受けられる。入会金・年会費なしで月4回6,000円と金沢で最もリーズナブル。',
-      },
-      {
-        author: 'K.S',
-        rating: 4,
-        date: '2週間前',
-        text: '初心者でもわかりやすく指導してくれる。少人数制なので一人ひとりの動きをしっかり見てもらえる。',
-      },
-      {
-        author: 'A.M',
-        rating: 4,
-        date: '3週間前',
-        text: '月謝制でシンプルな料金体系。余計な費用がかからないのが安心。アットホームな雰囲気で続けやすい。',
-      },
-    ],
     price: '月4回 6,000円',
     trial: '体験レッスンあり',
     features: ['少人数制8名', '入会金なし', '月謝6,000円', 'アットホーム'],

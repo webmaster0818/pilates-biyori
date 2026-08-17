@@ -23,11 +23,6 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティス sloths（スロース）', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 25,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '名古屋市瑞穂区のSTOTT PILATES認定スタジオ。名古屋最大級のマシン数を備えグループとプライベートの両。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['STOTT PILATES','名古屋最大級マシン数','グループ＆プライベート','瑞穂区'],
     description: '名古屋市瑞穂区のSTOTT PILATES認定スタジオ。名古屋最大級のマシン数を備えグループとプライベートの両方に対応',
     access: '八事エリア・瑞穂区（詳細は公式サイトでご確認ください）', address: '名古屋市瑞穂区（詳細は公式サイトでご確認ください）',
@@ -38,11 +33,6 @@ const studios = [
   },
   {
     name: 'アイレクス・ライト24+ 名古屋八事', image: '/images/studios/zen-place-pilates.webp', rating: 4.4, reviewCount: 55,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '24時間営業の総合フィットネスクラブ。ピラティスやヨガのスタジオプログラムからジムエリアまで月額料金で全て参加。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月額制（全プログラム参加可）', trial: '体験レッスンあり', features: ['24時間営業','ジム＆スタジオ','ピラティスプログラム','総合フィットネス'],
     description: '24時間営業の総合フィットネスクラブ。ピラティスやヨガのスタジオプログラムからジムエリアまで月額料金で全て参加可能',
     access: '地下鉄「八事駅」徒歩圏内', address: '名古屋市昭和区（詳細は公式サイトでご確認ください）',
@@ -53,11 +43,6 @@ const studios = [
   },
   {
     name: 'スタジオヴィータ', image: '/images/studios/zen-place-pilates.webp', rating: 4.5, reviewCount: 18,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '0才から80才まで通うアットホームなスタジオ。ピラティス・ヨガ・バレエ・ストレッチなど多彩なレッスンを提供。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['0才〜80才対応','アットホーム','ピラティス・ヨガ・バレエ','八事エリア'],
     description: '0才から80才まで通うアットホームなスタジオ。ピラティス・ヨガ・バレエ・ストレッチなど多彩なレッスンを提供',
     access: '八事エリア（詳細は公式サイトでご確認ください）', address: '名古屋市（詳細は公式サイトでご確認ください）',
@@ -68,11 +53,6 @@ const studios = [
   },
   {
     name: 'Pilates Nag Studio 星が丘テラス店', image: '/images/studios/zen-place-pilates.webp', rating: 4.5, reviewCount: 45,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '東海エリア初のマシンピラティスグループレッスン専門スタジオ。八事から地下鉄で数分の星が丘テラス内。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['東海エリア初','全店相互利用','マシングループ専門','男女共用'],
     description: '東海エリア初のマシンピラティスグループレッスン専門スタジオ。八事から地下鉄で数分の星が丘テラス内',
     access: '東山線「星ヶ丘駅」直結（星が丘テラス内）', address: '名古屋市千種区 星が丘テラス内',
@@ -83,11 +63,6 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 瑞穂店', image: '/images/studios/urban-classic-pilates.webp', rating: 4.5, reviewCount: 35,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'マシンピラティスとファンクショナルトレーニングを組み合わせたサーキット形式。八事エリアからアクセスしやすい瑞穂。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['サーキット形式','予約不要','個別ペース','八事近く'],
     description: 'マシンピラティスとファンクショナルトレーニングを組み合わせたサーキット形式。八事エリアからアクセスしやすい瑞穂に位置',
     access: '瑞穂区（八事エリアからアクセス良好）', address: '名古屋市瑞穂区（詳細は公式サイトでご確認ください）',

@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates 町田',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 33,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '1週間前',
-        text: 'マット&マシン両方対応で自分のペースで進められる。全国150店舗以上で他店利用できるのが出張時にも便利。グループ体験1,000円で気軽に試せた。',
-      },
-      {
-        author: 'S.T',
-        rating: 5,
-        date: '2週間前',
-        text: '男性も通えるスタジオ。月4回10,450円〜とマシンピラティスとしてはリーズナブル。インストラクターの質が高く、初心者でも安心。',
-      },
-      {
-        author: 'R.N',
-        rating: 4,
-        date: '3週間前',
-        text: '全国150店舗相互利用が便利。出張先でもレッスンが受けられる。マットもマシンも選べるのが良い。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['マット&マシン対応', '男性OK', '全国150店舗相互利用', 'グループ体験1,000円'],
@@ -77,28 +55,6 @@ const studios = [
   {
     name: 'ピラティスK 町田店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.6,
-    reviewCount: 138,
-    reviews: [
-      {
-        author: 'K.N',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用のマシン専門スタジオ。音楽に合わせたレッスンが楽しい！体験0円で始めやすく、5パート別ボディメイクで気になる部位を集中ケアできる。',
-      },
-      {
-        author: 'Y.M',
-        rating: 4,
-        date: '2週間前',
-        text: '「30歳からの本気ボディメイク」のコンセプトに共感。月4回13,420円〜で本格マシンピラティス。音楽レッスンでモチベーションが上がる。',
-      },
-      {
-        author: 'A.S',
-        rating: 5,
-        date: '3週間前',
-        text: '体験0円なのでハードルが低い。5パート別プログラムで二の腕やウエストなど部位別にアプローチできるのが良い。',
-      },
-    ],
     price: '月4回 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', 'マシン専門', '音楽レッスン', '体験0円'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'the SILK 町田店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.7,
-    reviewCount: 300,
-    reviews: [
-      {
-        author: 'E.M',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用でおしゃれな内装。音楽に合わせたリフォーマーレッスンが楽しい。手ぶら無料体験で気軽に試せる。朝7:30から夜22:00まで営業で通いやすい。',
-      },
-      {
-        author: 'N.K',
-        rating: 5,
-        date: '2週間前',
-        text: 'ウェア・タオル無料貸出やウォーターサーバーも完備。体験者の8割が未経験者。月3回12,980円〜で始めやすい。',
-      },
-      {
-        author: 'H.Y',
-        rating: 4,
-        date: '3週間前',
-        text: '手ぶらで通えるのが本当に便利。パウダールームもしっかり完備されていて、仕事帰りにも寄りやすい。',
-      },
-    ],
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '手ぶらOK', '音楽レッスン', '7:30-22:00営業'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'Rintosull 町田エリア',
     image: '/images/studios/rintosull.webp',
-    rating: 4.6,
-    reviewCount: 30,
-    reviews: [
-      {
-        author: 'A.K',
-        rating: 5,
-        date: '1週間前',
-        text: 'LAVA系列で安心感がある。月4回8,800円とマシンピラティスでは破格の安さ。無料体験でパーソナル姿勢診断もしてもらえた。',
-      },
-      {
-        author: 'Y.N',
-        rating: 5,
-        date: '2週間前',
-        text: '女性専用で初心者が87%以上だから安心。リフォーマーを使った本格レッスンなのにこの価格はすごい。',
-      },
-      {
-        author: 'M.H',
-        rating: 4,
-        date: '3週間前',
-        text: 'プレミアムフリーフルタイムでLAVA等系列のヨガスタジオも利用可能。ピラティスとヨガ両方やりたい人におすすめ。',
-      },
-    ],
     price: '月4回 8,800円〜',
     trial: '体験レッスン 無料',
     features: ['LAVA系列', '女性専用', '初心者87%以上', '月4回8,800円〜'],

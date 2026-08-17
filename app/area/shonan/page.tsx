@@ -26,28 +26,6 @@ const studios = [
   {
     name: 'CLUB PILATES 辻堂店',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.8,
-    reviewCount: 73,
-    reviews: [
-      {
-        author: 'K.S',
-        rating: 5,
-        date: '1週間前',
-        text: 'テラスモール湘南内にあり辻堂駅直結で便利。世界最大級のピラティスブランドで15種類の器具を使った本格レッスン。無料イントロクラスで気軽に試せます。',
-      },
-      {
-        author: 'M.T',
-        rating: 5,
-        date: '2週間前',
-        text: '4段階のレベル分けで初心者でも安心。インストラクター全員が500時間以上の研修を受けた資格保持者。男性もOKです。',
-      },
-      {
-        author: 'A.Y',
-        rating: 4,
-        date: '3週間前',
-        text: '8つのプログラムがあり飽きずに続けられます。朝7時から営業で出勤前にも通える。湘南エリアで最も充実した設備。',
-      },
-    ],
     price: '月4回 14,190円〜',
     trial: '体験レッスン 無料（30分イントロクラス）',
     features: ['辻堂駅直結', '世界最大級', '15種類の器具', '男性OK'],
@@ -79,28 +57,6 @@ const studios = [
   {
     name: 'Rintosull（リントスル）辻堂店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.6,
-    reviewCount: 82,
-    reviews: [
-      {
-        author: 'Y.N',
-        rating: 5,
-        date: '1週間前',
-        text: 'Luz湘南辻堂6Fにあり、辻堂駅北口から徒歩3分。大画面の映像を見ながらリフォーマーでトレーニングでき、インストラクターがフォームをチェックしてくれます。',
-      },
-      {
-        author: 'R.I',
-        rating: 4,
-        date: '2週間前',
-        text: 'LAVAが運営するマシンピラティス専門スタジオ。女性専用で安心。月4回8,800円〜とリーズナブルな価格設定が魅力。',
-      },
-      {
-        author: 'S.K',
-        rating: 4,
-        date: '3週間前',
-        text: '映像と音楽に合わせてレッスンが進むので初心者でも迷わずできます。買い物帰りに通えるのが便利。',
-      },
-    ],
     price: '月4回 8,800円〜',
     trial: '体験レッスン あり（キャンペーン時無料）',
     features: ['女性専用', '辻堂駅徒歩3分', 'LAVA運営', 'リーズナブル'],
@@ -132,28 +88,6 @@ const studios = [
   {
     name: 'VIE PILATES STUDIO 湘南辻堂',
     image: '/images/studios/vie-pilates-shonan.webp',
-    rating: 4.7,
-    reviewCount: 27,
-    reviews: [
-      {
-        author: 'E.M',
-        rating: 5,
-        date: '1週間前',
-        text: '資格保有の経験豊富なインストラクターによる少人数制レッスンが魅力。ピラティス・ヨガ・TRXの3つのプログラムでバランスよくトレーニングできます。',
-      },
-      {
-        author: 'H.K',
-        rating: 5,
-        date: '2週間前',
-        text: 'グループレッスンは最大5〜8名の少人数制。1回55分でしっかり効果を実感。体験レッスン1,650円で気軽に試せました。',
-      },
-      {
-        author: 'N.S',
-        rating: 4,
-        date: '3週間前',
-        text: 'STOTT PILATES認定のインストラクター養成コースも併設。指導の質が非常に高いです。',
-      },
-    ],
     price: '1回 2,500円〜',
     trial: '体験レッスン 1,650円',
     features: ['少人数制', '3プログラム', 'STOTT認定', '養成コース併設'],
@@ -185,28 +119,6 @@ const studios = [
   {
     name: 'TSUTAYA Conditioning PILATES 湘南T-SITE店',
     image: '/images/studios/tsutaya-conditioning-pilates-shonan.webp',
-    rating: 4.5,
-    reviewCount: 26,
-    reviews: [
-      {
-        author: 'C.M',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用で少人数制のマシンピラティス。周りの目を気にせず自分のペースで集中できるのが嬉しい。湘南T-SITEの雰囲気も素敵。',
-      },
-      {
-        author: 'K.T',
-        rating: 4,
-        date: '2週間前',
-        text: '1回3,300円で都度払い可能。定額制ではないので自分のペースで通えます。予約不要ではなく事前予約制。',
-      },
-      {
-        author: 'A.O',
-        rating: 4,
-        date: '3週間前',
-        text: 'TSUTAYAが運営する新しいスタイルのピラティス。藤沢駅からバス15分と少し距離がありますが、湘南T-SITEでの買い物と合わせて楽しめます。',
-      },
-    ],
     price: '1回 3,300円',
     trial: '体験レッスンあり',
     features: ['女性専用', '少人数制', '都度払い可', '湘南T-SITE内'],
@@ -238,28 +150,6 @@ const studios = [
     name: 'zen place pilates 藤沢スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 30,
-    reviews: [
-      {
-        author: 'T.H',
-        rating: 5,
-        date: '1週間前',
-        text: '藤沢駅から徒歩2分とアクセス抜群。全国150店舗以上で他店利用可能なので出張先でも通える。マットもマシンも両方受けられます。',
-      },
-      {
-        author: 'Y.M',
-        rating: 5,
-        date: '2週間前',
-        text: 'ピラティス専門で20年以上の実績。インストラクターの質が高く、マットグループ・マシングループ・プライベートの3タイプから選べる。',
-      },
-      {
-        author: 'R.A',
-        rating: 4,
-        date: '3週間前',
-        text: '月4回10,450円〜と湘南エリアではコスパ良好。体験当日入会で入会金無料。男性もOKで夫婦で通っています。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['藤沢駅徒歩2分', '全国相互利用', '男性OK', '20年以上の実績'],

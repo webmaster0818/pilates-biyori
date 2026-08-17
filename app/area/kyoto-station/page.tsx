@@ -26,28 +26,6 @@ const studios = [
   {
     name: 'Rintosull 京都駅前店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.6,
-    reviewCount: 146,
-    reviews: [
-      {
-        author: 'K.N',
-        rating: 5,
-        date: '1週間前',
-        text: '京都駅から徒歩5分！2026年2月オープンの新しいスタジオ。LAVA系列で安心。月4回8,800円とマシンピラティスでは破格の安さ。',
-      },
-      {
-        author: 'Y.M',
-        rating: 4,
-        date: '2週間前',
-        text: '無料体験でパーソナル姿勢診断もしてもらえた。女性専用で初心者が87%以上。リフォーマーを使った本格レッスン。',
-      },
-      {
-        author: 'A.S',
-        rating: 5,
-        date: '3週間前',
-        text: 'プレミアムフリーフルタイムでLAVA等系列のヨガスタジオも利用可能。ピラティスとヨガ両方やりたい人におすすめ。',
-      },
-    ],
     price: '月4回 8,800円〜',
     trial: '体験レッスン 無料',
     features: ['LAVA系列', '女性専用', '京都駅徒歩5分', '2026年2月OPEN'],
@@ -79,28 +57,6 @@ const studios = [
   {
     name: 'STUDIO IVY 京都駅前店',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.8,
-    reviewCount: 8,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '1週間前',
-        text: '完全パーソナルなので周りを気にせず集中できる。オーダーメイドのプログラムで自分だけのメニューを組んでもらえます。',
-      },
-      {
-        author: 'S.T',
-        rating: 5,
-        date: '2週間前',
-        text: '完全プライベート空間でマシンピラティスを受けられる。インストラクターが丁寧で初心者にも分かりやすい指導。',
-      },
-      {
-        author: 'R.N',
-        rating: 4,
-        date: '3週間前',
-        text: '月2回15,000円〜とパーソナルにしてはリーズナブル。体験は4,500円で本格レッスンを試せる。',
-      },
-    ],
     price: '月2回 15,000円〜',
     trial: '体験レッスン 4,500円',
     features: ['完全パーソナル', 'マシンピラティス', 'オーダーメイド', '完全プライベート空間'],
@@ -133,28 +89,6 @@ const studios = [
     name: 'zen place pilates 京都スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 30,
-    reviews: [
-      {
-        author: 'E.M',
-        rating: 5,
-        date: '1週間前',
-        text: '四条駅12番出口から徒歩1分でアクセス抜群。京都駅から地下鉄1本で通える。全国150店舗以上で他店利用できるのが便利。',
-      },
-      {
-        author: 'N.K',
-        rating: 5,
-        date: '2週間前',
-        text: '男性もOKなので夫婦で通っています。グループ体験が1,000円で気軽に試せる。月4回10,450円〜とコスパも良い。',
-      },
-      {
-        author: 'H.Y',
-        rating: 4,
-        date: '3週間前',
-        text: 'マットとマシン両方のレッスンがあるのが魅力。インストラクターの質が高く、解剖学に基づいた指導。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['全国150店舗相互利用', '男性OK', '四条駅徒歩1分', 'マット&マシン'],
@@ -186,28 +120,6 @@ const studios = [
   {
     name: 'ピラティスK 京都四条烏丸店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.6,
-    reviewCount: 191,
-    reviews: [
-      {
-        author: 'A.K',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用のマシン専門スタジオ。音楽に合わせたレッスンが楽しくて初心者でも楽しく続けられる。体験0円で気軽に試せる。',
-      },
-      {
-        author: 'Y.N',
-        rating: 5,
-        date: '2週間前',
-        text: '京都駅から地下鉄でアクセスしやすい。月4回13,420円〜。リフォーマー専門でしっかりボディメイクできる。',
-      },
-      {
-        author: 'M.H',
-        rating: 4,
-        date: '3週間前',
-        text: 'スタジオがおしゃれで清潔感がある。インストラクターも明るくて楽しいレッスン。音楽レッスンが他にはない魅力。',
-      },
-    ],
     price: '月4回 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', 'マシン専門', '音楽レッスン', '体験0円'],
@@ -239,28 +151,6 @@ const studios = [
   {
     name: 'Hain pilates 京都駅店',
     image: '/images/studios/hain-pilates.webp',
-    rating: 4.7,
-    reviewCount: 11,
-    reviews: [
-      {
-        author: 'T.M',
-        rating: 5,
-        date: '1週間前',
-        text: '1回30分のパーソナルマシンピラティス専門。短時間で効率的にトレーニングできるので忙しい人にぴったり。女性専用で安心。',
-      },
-      {
-        author: 'C.Y',
-        rating: 4,
-        date: '2週間前',
-        text: '30分という短さが逆にちょうどいい。集中して取り組めるので効果を実感しやすい。京都駅近くで通いやすい。',
-      },
-      {
-        author: 'K.S',
-        rating: 5,
-        date: '3週間前',
-        text: 'パーソナルなのでインストラクターがしっかりフォームを見てくれる。マシンピラティス専門で初心者でも安心。',
-      },
-    ],
     price: '公式サイト参照',
     trial: '体験レッスンあり',
     features: ['女性専用', '1回30分', 'パーソナル専門', 'マシンピラティス'],

@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates 都立大学',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 29,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '都立大学駅北口から徒歩3分で通いやすい。マットもマシンも両方受けられるのが嬉しい。BASIピラティスの世界基準の指導が受けられて満足です。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '少人数制で一人ひとり見てもらえる。閑静な住宅街にあるので落ち着いた雰囲気でレッスンに集中できます。全国店舗の相互利用もできて便利。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: 'マットグループ月4回10,450円〜はコスパ良い。体験1,000円で手軽に始められました。AI姿勢分析で変化が数値でわかるのがモチベーションになります。',
-      },
-    ],
     price: 'マットグループ 月4回 10,450円〜',
     trial: '体験レッスン 1,000円〜',
     features: ['マット&マシン', '都立大学駅徒歩3分', '少人数制', '男性OK'],
@@ -77,28 +55,6 @@ const studios = [
   {
     name: 'Pilates Mee 都立大学店',
     image: '/images/studios/pilates-mee.webp',
-    rating: 4.7,
-    reviewCount: 5,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: '都立大学駅から徒歩30秒！雨の日でもほぼ濡れずに通えます。最大3名のセミパーソナルなのでしっかり見てもらえて安心。',
-      },
-      {
-        author: 'A.H',
-        rating: 5,
-        date: '2週間前',
-        text: '女性専用なので周りを気にせずレッスンに集中できます。セミパーソナルでこの料金はお得だと思います。',
-      },
-      {
-        author: 'M.M',
-        rating: 4,
-        date: '3週間前',
-        text: '月2回11,000円から始められて、通い放題37,500円もある。マシンが新しくてきれい。インストラクターの質が高い。',
-      },
-    ],
     price: 'セミパーソナル 月2回 11,000円〜',
     trial: '体験レッスンあり',
     features: ['セミパーソナル（最大3名）', '都立大学駅徒歩30秒', '女性専用', 'マシン完備'],
@@ -129,28 +85,6 @@ const studios = [
   {
     name: 'PILATES STUDIO noa 都立大校',
     image: '/images/studios/pilates-studio-noa.webp',
-    rating: 4.6,
-    reviewCount: 14,
-    reviews: [
-      {
-        author: 'T.S',
-        rating: 5,
-        date: '1週間前',
-        text: '2025年1月オープンの新しいスタジオで設備がピカピカ。音楽に合わせて楽しくエクササイズできるプログラムが楽しい！',
-      },
-      {
-        author: 'H.K',
-        rating: 4,
-        date: '2週間前',
-        text: '都立大学駅から徒歩1分で通いやすい。シャワールーム完備なので仕事帰りに寄れるのが嬉しい。',
-      },
-      {
-        author: 'N.Y',
-        rating: 5,
-        date: '3週間前',
-        text: '女性専用なので安心。パーソナルも月2回22,000円から受けられる。セミパーソナルなら月2回11,000円でお手頃。',
-      },
-    ],
     price: 'セミパーソナル 月2回 11,000円〜',
     trial: '体験レッスンあり',
     features: ['マシンピラティス専門', '都立大学駅徒歩1分', '女性専用', 'シャワー完備'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'LAVIA 都立大学店',
     image: '/images/studios/lavia-toritsudaigaku.webp',
-    rating: 4.9,
-    reviewCount: 27,
-    reviews: [
-      {
-        author: 'M.T',
-        rating: 5,
-        date: '1週間前',
-        text: '都立大学駅から徒歩0分！会員40名限定なので予約が取れないということがない。完全プライベートで安心してレッスンに集中できます。',
-      },
-      {
-        author: 'K.S',
-        rating: 5,
-        date: '2週間前',
-        text: '女性専用で女性インストラクターのみ在籍。優しい雰囲気で運動が苦手な私でもリラックスして通えています。',
-      },
-      {
-        author: 'Y.M',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '完全マンツーマンで自分の体に合わせたプログラムを組んでもらえる。入会キャンペーンでピラティス用靴下ももらえました。',
-      },
-    ],
     price: '月額サブスクプランあり',
     trial: '体験レッスンあり（当日入会で入会金0円）',
     features: ['完全パーソナル', '女性専用', '都立大学駅徒歩0分', '会員40名限定'],
@@ -235,28 +147,6 @@ const studios = [
   {
     name: 'personal studio SUNNY',
     image: '/images/studios/studio-sunny-toritsudaigaku.webp',
-    rating: 4.8,
-    reviewCount: 29,
-    reviews: [
-      {
-        author: 'L.M',
-        rating: 5,
-        date: '1週間前',
-        text: '都立大学駅から徒歩15秒！完全個室でマシンピラティスだけでなくバレエやストレッチも取り入れたオリジナルメソッドが新鮮。',
-      },
-      {
-        author: 'P.K',
-        rating: 5,
-        date: '2週間前',
-        text: '一人ひとりの体の状態に合わせたオーダーメイドのプログラム。体の変化を細かく見てくれるので安心感があります。',
-      },
-      {
-        author: 'Q.R',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '1回60分11,000円のパーソナル。少し高めだけど、バレエメソッドも学べてお得感あり。姿勢が劇的に改善しました。',
-      },
-    ],
     price: 'パーソナル 1回60分 11,000円',
     trial: '体験レッスンあり',
     features: ['完全パーソナル', '都立大学駅徒歩15秒', 'バレエメソッド', '完全個室'],
@@ -286,28 +176,6 @@ const studios = [
   {
     name: 'ピラティスアラベスク',
     image: '/images/studios/pilates-arabesque-toritsudaigaku.webp',
-    rating: 4.5,
-    reviewCount: 12,
-    reviews: [
-      {
-        author: 'A.M',
-        rating: 5,
-        date: '2週間前',
-        text: '都立大学駅から徒歩2分。1レッスン2,000円という破格の安さ！2004年からの実績があるので安心して通えます。',
-      },
-      {
-        author: 'B.N',
-        rating: 4,
-        date: '3週間前',
-        text: '1回ずつの予約制で縛りがないのが嬉しい。マットピラティスをリーズナブルに続けたい方にぴったり。',
-      },
-      {
-        author: 'C.O',
-        rating: 5,
-        date: '1ヶ月前',
-        text: 'アットホームな雰囲気で少人数制。ベリーダンスのクラスもあって楽しい。体験1,000円でまず試せます。',
-      },
-    ],
     price: '1レッスン 2,000円',
     trial: '体験レッスン 1,000円',
     features: ['マットピラティス', '1回2,000円の安さ', '都立大学駅徒歩2分', '予約制・縛りなし'],
@@ -337,28 +205,6 @@ const studios = [
   {
     name: 'STUDIO IVY 学芸大学店',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.8,
-    reviewCount: 6,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: '完全パーソナルなので自分のペースで進められる。学芸大学駅から徒歩3分、都立大学からも東横線で1駅。',
-      },
-      {
-        author: 'D.H',
-        rating: 5,
-        date: '2週間前',
-        text: '月2回15,000円から始められるのが手軽。マシンを使ったマンツーマン指導で効果を実感しています。',
-      },
-      {
-        author: 'E.M',
-        rating: 4,
-        date: '3週間前',
-        text: '月4回28,000円で1回7,000円。パーソナルマシンピラティスとしてはコスパが良い。体験50分4,500円で試せます。',
-      },
-    ],
     price: '月2回 15,000円〜 / 月4回 28,000円〜',
     trial: '体験レッスン 50分 4,500円',
     features: ['パーソナル専門', 'マシンピラティス', '学芸大学駅徒歩3分', '月謝制'],
@@ -389,28 +235,6 @@ const studios = [
   {
     name: 'ピラティスミラー 学芸大学',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.6,
-    reviewCount: 22,
-    reviews: [
-      {
-        author: 'F.T',
-        rating: 5,
-        date: '2週間前',
-        text: 'コナミ運営なので安心感がある。月6回11,000円はマシンピラティスとしてはかなりお得。都立大学からも徒歩圏内です。',
-      },
-      {
-        author: 'G.S',
-        rating: 4,
-        date: '3週間前',
-        text: '大手ならではの設備の充実度。マシンも新しくて気持ちよく使えます。7回目以降は1回1,100円で追加できるのも嬉しい。',
-      },
-      {
-        author: 'H.M',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '月6回通えるので週1〜2回のペースで無理なく続けられる。体験2,200円でまず試せます。',
-      },
-    ],
     price: '月6回 11,000円',
     trial: '体験レッスン 2,200円',
     features: ['コナミ運営', '月6回定額', '学芸大学エリア', '7回目以降1,100円/回'],
@@ -442,28 +266,6 @@ const studios = [
   {
     name: 'the SILK 自由が丘店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.7,
-    reviewCount: 156,
-    reviews: [
-      {
-        author: 'I.K',
-        rating: 5,
-        date: '1週間前',
-        text: '自由が丘駅から徒歩4分。女性専用で落ち着いた雰囲気のスタジオ。無料体験があるのでまず試せて良かったです。',
-      },
-      {
-        author: 'J.L',
-        rating: 5,
-        date: '2週間前',
-        text: '月3回12,980円から始められる。リフォーマー専用でしっかりマシンピラティスを学べます。スタジオがおしゃれでモチベーション上がります。',
-      },
-      {
-        author: 'K.M',
-        rating: 4,
-        date: '3週間前',
-        text: '通い放題20,680円で毎日通える。自由が丘は都立大学から東横線1駅で便利。入会キャンペーンで入会金無料でした。',
-      },
-    ],
     price: '月3回 12,980円〜',
     trial: '無料体験レッスン',
     features: ['女性専用', '無料体験', '自由が丘駅徒歩4分', 'リフォーマー専用'],
@@ -495,28 +297,6 @@ const studios = [
   {
     name: 'ピラティスミラー 自由が丘',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.5,
-    reviewCount: 10,
-    reviews: [
-      {
-        author: 'L.N',
-        rating: 5,
-        date: '2週間前',
-        text: 'コナミ運営で安心。月6回11,000円は自由が丘エリアでは最もコスパが良い。都立大学からも通いやすいです。',
-      },
-      {
-        author: 'M.O',
-        rating: 4,
-        date: '3週間前',
-        text: '清潔感のあるスタジオで気持ちよくレッスンできます。プライベートレッスン30分4,400円も手軽に試せる。',
-      },
-      {
-        author: 'N.P',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '7回目以降も1回1,100円で追加できるので、月の後半にもう1回通いたいときに便利。',
-      },
-    ],
     price: '月6回 11,000円',
     trial: '体験レッスン 2,200円',
     features: ['コナミ運営', '月6回定額', '自由が丘エリア', 'コスパ抜群'],
@@ -549,28 +329,6 @@ const studios = [
     name: 'zen place pilates 自由が丘',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 17,
-    reviews: [
-      {
-        author: 'O.Q',
-        rating: 5,
-        date: '1週間前',
-        text: '自由が丘駅から徒歩2分。全国の店舗を他店利用できるので都立大学店と使い分けられて便利。マットもマシンも充実。',
-      },
-      {
-        author: 'P.R',
-        rating: 5,
-        date: '2週間前',
-        text: '体験3,000円でマシングループレッスンを受けられる。インストラクターの質が高く、初心者でも安心してレッスンを受けられました。',
-      },
-      {
-        author: 'Q.S',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '自由が丘に第1・第2スタジオがあり、レッスン枠が多いので予約が取りやすい。リフォーマー専門の第2スタジオも歩いて行ける距離。',
-      },
-    ],
     price: 'マットグループ 月4回 10,450円〜',
     trial: 'マシングループ体験 3,000円',
     features: ['マット&マシン', '自由が丘駅徒歩2分', '全国店舗相互利用', '男性OK'],
@@ -602,28 +360,6 @@ const studios = [
   {
     name: 'PILATES YOGA &a（アンドエー）自由が丘店',
     image: '/images/studios/pilates-and-a-yoga.webp',
-    rating: 4.8,
-    reviewCount: 17,
-    reviews: [
-      {
-        author: 'R.T',
-        rating: 5,
-        date: '2週間前',
-        text: '医療系国家資格を持つトレーナーが在籍していて安心感がすごい。リフォーマーだけでなくキャデラックなど全マシン完備。',
-      },
-      {
-        author: 'S.U',
-        rating: 5,
-        date: '3週間前',
-        text: '体の状態を丁寧にカウンセリングしてからプログラムを作ってくれる。本格的なマシンピラティスを学びたい方におすすめ。',
-      },
-      {
-        author: 'T.V',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '自由が丘駅から徒歩10分ほどかかるが、その分落ち着いた住宅街にあって集中できる環境。質を重視する方に。',
-      },
-    ],
     price: 'パーソナル（料金は要問い合わせ）',
     trial: '体験レッスンあり',
     features: ['全マシン完備', '医療系資格保有トレーナー', '本格派', 'パーソナル対応'],

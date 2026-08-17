@@ -27,28 +27,6 @@ const studios = [
     name: 'zen place pilates つくばスタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 21,
-    reviews: [
-      {
-        author: 'K.M',
-        rating: 5,
-        date: '1週間前',
-        text: '2026年1月オープンの茨城県初のzen placeスタジオ。つくば駅から徒歩5分。マットグループ・リフォーマーグループ・プライベートの3タイプ。',
-      },
-      {
-        author: 'Y.S',
-        rating: 5,
-        date: '2週間前',
-        text: '全国150店舗以上で相互利用可能。マットもマシンも両方受けられるのが魅力。男性もOK。体験当日入会で入会金無料。',
-      },
-      {
-        author: 'A.T',
-        rating: 4,
-        date: '3週間前',
-        text: 'ピラティス専門で20年以上の実績がある大手スタジオ。インストラクターの質が高く初心者でも安心して通えます。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['つくば駅徒歩5分', '茨城県初', '男性OK', '全国相互利用'],
@@ -80,28 +58,6 @@ const studios = [
   {
     name: 'CLUB PILATES つくば店',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.7,
-    reviewCount: 153,
-    reviews: [
-      {
-        author: 'H.N',
-        rating: 5,
-        date: '1週間前',
-        text: 'つくば駅から徒歩3分のクレオ3F。世界最大級のブランドで15種類の器具を使った本格レッスン。無料の30分イントロクラスで雰囲気がわかります。',
-      },
-      {
-        author: 'Y.A',
-        rating: 4,
-        date: '2週間前',
-        text: '4段階のレベル分けで初心者でも安心。12名のグループレッスンで丁寧に見てもらえる。朝7時から営業で出勤前にも通える。',
-      },
-      {
-        author: 'R.T',
-        rating: 5,
-        date: '3週間前',
-        text: '8つのプログラムがあり飽きずに続けられます。インストラクター全員が500時間以上の研修を受けた資格保持者。',
-      },
-    ],
     price: '月4回 11,990円〜',
     trial: '体験レッスン 無料（30分イントロクラス）',
     features: ['世界最大級', 'つくば駅徒歩3分', '15種類の器具', '男性OK'],
@@ -133,28 +89,6 @@ const studios = [
   {
     name: 'Pilates KASANE つくば店',
     image: '/images/studios/pilates-kasane.webp',
-    rating: 4.6,
-    reviewCount: 37,
-    reviews: [
-      {
-        author: 'S.M',
-        rating: 5,
-        date: '1週間前',
-        text: 'イオンモールつくば2Fにあるので買い物のついでに通える。少人数制のセミパーソナルレッスンで丁寧に教えてもらえる。',
-      },
-      {
-        author: 'K.I',
-        rating: 4,
-        date: '2週間前',
-        text: 'ウェア・レギンス・ソックスが無料レンタルなので手ぶらで通える。初回体験が無料なのも嬉しい。',
-      },
-      {
-        author: 'T.N',
-        rating: 5,
-        date: '3週間前',
-        text: '呼吸や姿勢、体の使い方を重視したプログラム。月4回15,400円で、追加チケットも購入可能。',
-      },
-    ],
     price: '月4回 15,400円',
     trial: '体験レッスン 無料',
     features: ['イオンモール内', '手ぶらOK', 'セミパーソナル', '無料体験あり'],
@@ -186,28 +120,6 @@ const studios = [
   {
     name: 'モナピラティス（MONA PILATES）',
     image: '/images/studios/monapila-tsukuba.webp',
-    rating: 4.5,
-    reviewCount: 9,
-    reviews: [
-      {
-        author: 'E.Y',
-        rating: 5,
-        date: '1週間前',
-        text: 'つくば市みどりのにある女性専用スタジオ。マットピラティス・リフォーマー・ヨガ・TRXなど多彩なプログラム。月4回7,480円〜とリーズナブル。',
-      },
-      {
-        author: 'N.M',
-        rating: 4,
-        date: '2週間前',
-        text: '無料駐車場30台分完備なので車で通いやすい。平日は22時まで営業しているので仕事帰りにも。体験1,100円。',
-      },
-      {
-        author: 'T.K',
-        rating: 5,
-        date: '3週間前',
-        text: '月8回11,440円なら1回あたり1,430円。回数が多いほどお得。入会金11,000円はキャンペーンで無料になることも。',
-      },
-    ],
     price: '月4回 7,480円〜',
     trial: '体験レッスン 1,100円',
     features: ['女性専用', '駐車場30台', '多彩なプログラム', '月4回7,480円〜'],
@@ -239,28 +151,6 @@ const studios = [
   {
     name: 'La pilates（ラピラティス）つくば店',
     image: '/images/studios/la-pilates.webp',
-    rating: 4.6,
-    reviewCount: 5,
-    reviews: [
-      {
-        author: 'Y.K',
-        rating: 5,
-        date: '1週間前',
-        text: '整体とマシンピラティスを融合させたユニークなスタジオ。完全マンツーマンのオーダーメイドレッスンで体の不調を根本から改善。',
-      },
-      {
-        author: 'M.S',
-        rating: 5,
-        date: '2週間前',
-        text: '女性専用の完全プライベートスタジオ。一人ひとりの悩みに寄り添った丁寧な指導が受けられます。',
-      },
-      {
-        author: 'A.H',
-        rating: 4,
-        date: '3週間前',
-        text: '整体の技術も活かした独自のアプローチが特徴。姿勢改善や慢性的な不調の改善に効果を感じています。',
-      },
-    ],
     price: '月1回 10,000円〜',
     trial: '体験レッスンあり',
     features: ['整体×ピラティス', '女性専用', '完全マンツーマン', 'オーダーメイド'],

@@ -23,11 +23,6 @@ export const metadata = {
 const studios = [
   {
     name: 'Rintosull（リントスル）豊橋店', image: '/images/studios/rintosull.webp', rating: 4.5, reviewCount: 75,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '大型スクリーンとインストラクターの指導を併用したハイブリッド型のレッスンで姿勢改善とボディメイクを目指せるマシ。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 8,800円〜', trial: '体験レッスンあり', features: ['低価格','LAVA相互利用','マシン専門','ハイブリッド型レッスン'],
     description: '大型スクリーンとインストラクターの指導を併用したハイブリッド型のレッスンで姿勢改善とボディメイクを目指せるマシンピラティス',
     access: '豊橋市内（詳細は公式サイトでご確認ください）', address: '愛知県豊橋市（詳細は公式サイトでご確認ください）',
@@ -38,11 +33,6 @@ const studios = [
   },
   {
     name: 'Share of Pilates', image: '/images/studios/zen-place-pilates.webp', rating: 4.6, reviewCount: 30,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'NYスタイルのマシン専用ピラティススタジオ。1回1,870円〜とリーズナブルで体験レッスンは1,100円。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '1回 1,870円〜', trial: '体験レッスン 1,100円', features: ['NYスタイル','マシン専用','1回1,870円〜','体験1,100円'],
     description: 'NYスタイルのマシン専用ピラティススタジオ。1回1,870円〜とリーズナブルで体験レッスンは1,100円',
     access: '豊橋市内（詳細は公式サイトでご確認ください）', address: '愛知県豊橋市（詳細は公式サイトでご確認ください）',
@@ -53,11 +43,6 @@ const studios = [
   },
   {
     name: 'luluto（ルルト）豊橋店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808', image: '/images/studios/luluto.webp', rating: 4.8, reviewCount: 18,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '完全マンツーマンのマシンピラティススタジオ。理学療法士監修のプログラムでプロフェッショナルなトレーナーが指導。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月3回 29,700円〜', trial: '体験レッスンあり', features: ['完全マンツーマン','理学療法士監修','高品質指導','カスタマイズ'],
     description: '完全マンツーマンのマシンピラティススタジオ。理学療法士監修のプログラムでプロフェッショナルなトレーナーが指導',
     access: '豊橋市内（詳細は公式サイトでご確認ください）', address: '愛知県豊橋市（詳細は公式サイトでご確認ください）',
@@ -68,11 +53,6 @@ const studios = [
   },
   {
     name: 'ピラティスK 豊橋店', image: '/images/studios/pilates-k.webp', rating: 4.6, reviewCount: 65,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '女性専用マシンピラティス専門スタジオ。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 11,220円〜', trial: '体験レッスン 無料', features: ['女性専用','マシン専門','体験無料','部位別プログラム'],
     description: '女性専用マシンピラティス専門スタジオ。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実',
     access: '豊橋市内（詳細は公式サイトでご確認ください）', address: '愛知県豊橋市（詳細は公式サイトでご確認ください）',
@@ -83,11 +63,6 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 豊橋店', image: '/images/studios/club-pilates.webp', rating: 4.7, reviewCount: 40,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '世界最大級のマシンピラティスブランド。15種類の器具を使った本格レッスン。4段階のレベル分けで初心者から上級者。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 14,190円〜', trial: '体験レッスン 無料（30分イントロクラス）', features: ['世界最大級','15種類の器具','4段階レベル分け','男性OK'],
     description: '世界最大級のマシンピラティスブランド。15種類の器具を使った本格レッスン。4段階のレベル分けで初心者から上級者まで対応',
     access: '豊橋市内（詳細は公式サイトでご確認ください）', address: '愛知県豊橋市（詳細は公式サイトでご確認ください）',

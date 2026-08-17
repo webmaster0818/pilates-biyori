@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'SOELU 南越谷店',
     image: '/images/studios/soelu-minamikoshigaya.webp',
-    rating: 4.6,
-    reviewCount: 12,
-    reviews: [
-      {
-        author: 'K.M',
-        rating: 5,
-        date: '1週間前',
-        text: 'マシンピラティス・ヨガ・フィットネスが全部受けられる。スタンダードプランは月額7,678円で通い放題。コスパ最強。',
-      },
-      {
-        author: 'Y.S',
-        rating: 5,
-        date: '2週間前',
-        text: 'オンラインレッスンも月額に含まれているので、自宅でもスタジオでも両方楽しめる。よもぎ蒸しも受けられるのが嬉しい。',
-      },
-      {
-        author: 'A.T',
-        rating: 4,
-        date: '3週間前',
-        text: 'マシンピラティスは都度チケット1,500円または月4回プラン9,878円。ピアシティ南越谷2階にあるので買い物のついでに通えます。',
-      },
-    ],
     price: '月額 7,678円〜',
     trial: '体験レッスンあり',
     features: ['マシン&マット', 'オンラインあり', 'よもぎ蒸し', 'フィットネス複合'],
@@ -75,28 +53,6 @@ const studios = [
   {
     name: 'Fun Vie（ファンヴィ）',
     image: '/images/studios/fun-vie-koshigaya.webp',
-    rating: 4.5,
-    reviewCount: 29,
-    reviews: [
-      {
-        author: 'M.N',
-        rating: 5,
-        date: '1週間前',
-        text: '大袋駅東口徒歩1分で通いやすい。リフォーマーに特化したレッスンが受けられる。マットや有酸素系まで多彩なメニューも。',
-      },
-      {
-        author: 'S.H',
-        rating: 4,
-        date: '2週間前',
-        text: 'スプリングボードも使える。ライフスタイルに合わせた多彩なプランが用意されていて続けやすい。',
-      },
-      {
-        author: 'R.K',
-        rating: 5,
-        date: '3週間前',
-        text: 'ピラティスマシンのレンタルもあるので、自主練習も可能。スタジオの雰囲気が良くて通うのが楽しい。',
-      },
-    ],
     price: '1回 2,750円〜',
     trial: '体験レッスンあり',
     features: ['大袋駅徒歩1分', 'リフォーマー特化', '多彩なメニュー', 'マシンレンタル'],
@@ -127,28 +83,6 @@ const studios = [
   {
     name: 'Tomomi Pilates Studio',
     image: '/images/studios/luluto.webp',
-    rating: 4.7,
-    reviewCount: 16,
-    reviews: [
-      {
-        author: 'E.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '新越谷駅から徒歩1分。ポールスター認定のトレーナーによる本格パーソナルピラティス。姿勢改善・O脚改善・骨盤矯正まで対応。',
-      },
-      {
-        author: 'N.M',
-        rating: 5,
-        date: '2週間前',
-        text: '完全予約制のパーソナル専門。一人ひとりの状態に合わせたきめ細かい指導が受けられる。女性専門で安心。',
-      },
-      {
-        author: 'T.K',
-        rating: 4,
-        date: '3週間前',
-        text: 'マシンピラティスのパーソナルレッスンで、体の使い方が根本から変わった。肩こりや腰痛が改善されました。',
-      },
-    ],
     price: 'パーソナルレッスン（要問合せ）',
     trial: '体験レッスンあり',
     features: ['新越谷駅徒歩1分', 'パーソナル専門', 'ポールスター認定', '女性専門'],
@@ -179,28 +113,6 @@ const studios = [
   {
     name: 'M-Neutral（エム・ニュートラル）',
     image: '/images/studios/pilates-mee.webp',
-    rating: 4.6,
-    reviewCount: 18,
-    reviews: [
-      {
-        author: 'H.A',
-        rating: 5,
-        date: '1週間前',
-        text: '越谷駅から徒歩5分の女性専用プライベートスタジオ。完全個室のマンツーマンレッスンで周りを気にせず集中できる。',
-      },
-      {
-        author: 'C.S',
-        rating: 4,
-        date: '2週間前',
-        text: '経験豊富なインストラクターが一人ひとりに合わせたオーダーメイドメニューを組んでくれる。体の変化を実感。',
-      },
-      {
-        author: 'M.T',
-        rating: 5,
-        date: '3週間前',
-        text: '完全個室なのでリラックスして自分のペースでレッスンが受けられる。マイペースに通いたい方におすすめ。',
-      },
-    ],
     price: 'パーソナルレッスン（要問合せ）',
     trial: '体験レッスンあり',
     features: ['越谷駅徒歩5分', '女性専用', '完全個室', 'マンツーマン'],

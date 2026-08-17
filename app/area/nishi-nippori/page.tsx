@@ -27,28 +27,6 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 日暮里店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
-    rating: 4.7,
-    reviewCount: 103,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '日暮里駅から徒歩1分で西日暮里からも1駅。予約不要で30分サーキットなので仕事帰りにサクッと通えます。月額7,800円〜。',
-      },
-      {
-        author: 'Y.T',
-        rating: 4,
-        date: '1ヶ月前',
-        text: 'マシンピラティスとファンクショナルトレーニングの組み合わせで効率よくトレーニング。自分のペースで進められるのが良い。',
-      },
-      {
-        author: 'K.H',
-        rating: 5,
-        date: '3週間前',
-        text: '通い放題14,080円で毎日通える。30分で終わるので朝活にも使えます。',
-      },
-    ],
     price: '月額 7,800円〜（通い放題 14,080円）',
     trial: '体験レッスン 3,800円',
     features: ['予約不要', '30分サーキット', '日暮里駅徒歩1分', '西日暮里から1駅'],
@@ -81,28 +59,6 @@ const studios = [
     name: 'zen place pilates 千駄木スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 22,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: '千駄木駅から徒歩1分。西日暮里からも千代田線で1駅。マットもマシンも両方受けられる。体験500円で気軽。',
-      },
-      {
-        author: 'A.H',
-        rating: 5,
-        date: '2週間前',
-        text: '少人数制で丁寧な指導。全国150店舗以上で相互利用可能。谷根千の落ち着いた雰囲気が好き。',
-      },
-      {
-        author: 'M.M',
-        rating: 4,
-        date: '3週間前',
-        text: '男性もOK。インストラクターの質が高い。',
-      },
-    ],
     price: 'マットグループ 月4回 9,625円〜',
     trial: '体験レッスン 500円〜',
     features: ['マット&マシン', '千駄木駅徒歩1分', '西日暮里から千代田線1駅', '男性OK'],
@@ -134,7 +90,6 @@ const studios = [
   {
     name: 'パーソナルマシンピラティスYUZU',
     image: '/images/studios/yuzu-pilates.webp',
-    rating: 4.8,
     price: 'お問い合わせください',
     trial: '体験レッスンあり',
     features: ['全員女性インストラクター', 'パーソナル専門', 'キッズスペース完備', '完全個室'],
@@ -145,7 +100,6 @@ const studios = [
   {
     name: 'ピラティスK 池袋店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
     price: 'マンスリー4メンバー 13,420円',
     trial: '体験レッスン 2,000円',
     features: ['女性専用', 'マシンピラティス専門', '池袋エリア', '西日暮里から山手線で近い'],

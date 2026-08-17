@@ -26,28 +26,6 @@ const studios = [
   {
     name: 'the SILK 八重洲店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.7,
-    reviewCount: 335,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '東京駅八重洲北口から徒歩5分で通勤帰りに最適。女性専用で安心。開放感のある大きな窓と真っ白なリフォーマーが並ぶスタイリッシュな空間です。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '初心者が8割とのことで、体が硬い私でも無理なく始められました。音楽に合わせたレッスンが楽しくて50分があっという間です。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: '仕事帰りに通っています。PMA加盟団体監修のレッスンで本格的。入会金無料キャンペーンで始められました。',
-      },
-    ],
     price: 'Standard4 12,980円〜',
     trial: '体験レッスン 0円（キャンペーン中）',
     features: ['女性専用', 'マシンピラティス専門', '東京駅徒歩5分', '音楽×マシン'],
@@ -80,28 +58,6 @@ const studios = [
     name: 'zen place pilates 八重洲スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 35,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: '東京駅から徒歩5分、日本橋駅から徒歩3分。マットもマシンも両方受けられるのが嬉しい。AI背骨ムーブメント解析が面白いです。',
-      },
-      {
-        author: 'A.H',
-        rating: 4,
-        date: '2週間前',
-        text: '少人数制で丁寧な指導。男性もOKなので夫婦で通っています。体験1,000円で気軽に始められました。',
-      },
-      {
-        author: 'M.M',
-        rating: 5,
-        date: '3週間前',
-        text: '全国135店舗以上で相互利用可能。出張が多いので助かっています。八重洲はビジネス街なので平日夜が程よい人数です。',
-      },
-    ],
     price: 'マットグループ 月4回 10,450円〜',
     trial: '体験レッスン 1,000円〜',
     features: ['マット&マシン', '東京駅徒歩5分', '男性OK', 'AI背骨解析'],
@@ -133,28 +89,6 @@ const studios = [
   {
     name: 'ルルト 銀座店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
     image: '/images/studios/luluto.webp',
-    rating: 4.8,
-    reviewCount: 22,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '1週間前',
-        text: '理学療法士監修のパーソナルレッスンで、腰痛が劇的に改善しました。医学的根拠に基づいた指導なので安心感が違います。',
-      },
-      {
-        author: 'Y.S',
-        rating: 5,
-        date: '2週間前',
-        text: '銀座一丁目駅から徒歩1分。東京駅からも近くて通いやすい。完全マンツーマンなので自分のペースで進められます。',
-      },
-      {
-        author: 'H.N',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '肩こりと猫背で悩んでいましたが、3ヶ月で姿勢が見違えるほど改善。周囲から「姿勢良くなったね」と言われます。',
-      },
-    ],
     price: 'パーソナル 月4回 32,560円〜',
     trial: '体験レッスン 4,000円〜',
     features: ['完全パーソナル', '理学療法士監修', '銀座一丁目駅徒歩1分', '医学的アプローチ'],
@@ -165,28 +99,6 @@ const studios = [
   {
     name: 'ピラティスK 銀座店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 239,
-    reviews: [
-      {
-        author: 'N.S',
-        rating: 5,
-        date: '1週間前',
-        text: '銀座一丁目駅6番出口から徒歩1分。東京駅から有楽町線で1駅なので仕事帰りにピッタリ。音楽に合わせたレッスンで楽しく続けられます。',
-      },
-      {
-        author: 'A.M',
-        rating: 4,
-        date: '2週間前',
-        text: 'ボディメイクプログラムが充実していて、お腹・お尻・二の腕・脚・背中と部位別に選べるのが嬉しい。',
-      },
-      {
-        author: 'T.K',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '体験レッスン2,000円で気軽に始められました。女性専用なので周りの目を気にせず集中できます。',
-      },
-    ],
     price: 'マンスリー4メンバー 13,420円',
     trial: '体験レッスン 2,000円',
     features: ['女性専用', 'マシンピラティス専門', '銀座一丁目駅徒歩1分', 'ボディメイク特化'],
@@ -218,28 +130,6 @@ const studios = [
   {
     name: 'BDC PILATES 銀座スタジオ',
     image: '/images/studios/bdc-pilates.webp',
-    rating: 4.7,
-    reviewCount: 7,
-    reviews: [
-      {
-        author: 'E.S',
-        rating: 5,
-        date: '2週間前',
-        text: 'プロダンサー養成校プロデュースだけあって指導の質が高い。最大8名の少人数制で一人ひとりしっかり見てもらえます。',
-      },
-      {
-        author: 'K.O',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '銀座一丁目駅から徒歩1分。有楽町駅からも歩ける距離で、東京駅からのアクセスも良好。スタジオの雰囲気が素敵。',
-      },
-      {
-        author: 'M.T',
-        rating: 4,
-        date: '3週間前',
-        text: '40年以上の実績があるBDCのメソッドで、身体の使い方が根本から変わりました。',
-      },
-    ],
     price: 'グループ月4回 15,400円〜',
     trial: '体験レッスン 3,850円',
     features: ['プロダンサー養成校プロデュース', '少人数制（最大8名）', '銀座一丁目駅徒歩1分', '本格メソッド'],
@@ -270,28 +160,6 @@ const studios = [
   {
     name: 'the SILK 銀座店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.6,
-    reviewCount: 312,
-    reviews: [
-      {
-        author: 'H.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '銀座駅A3出口から徒歩2分という好立地。東京駅から銀座線で1駅。パウダールームが充実していてレッスン後そのままお出かけできます。',
-      },
-      {
-        author: 'R.I',
-        rating: 4,
-        date: '3週間前',
-        text: '八重洲店と迷いましたが、銀座でのショッピング帰りに立ち寄れるこちらに決めました。スタジオの雰囲気が素敵です。',
-      },
-      {
-        author: 'C.N',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '体験レッスンが無料だったので気軽に始められました。インストラクターの指導が丁寧で初心者でも安心。',
-      },
-    ],
     price: 'Standard4 12,980円〜',
     trial: '体験レッスン 0円（キャンペーン中）',
     features: ['女性専用', 'マシンピラティス専門', '銀座駅徒歩2分', 'パウダールーム充実'],
@@ -303,28 +171,6 @@ const studios = [
     name: 'zen place pilates 銀座二丁目スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 16,
-    reviews: [
-      {
-        author: 'Y.A',
-        rating: 5,
-        date: '2週間前',
-        text: '銀座一丁目駅から徒歩3分。八重洲スタジオと他店利用できるので、その日の予定に合わせて使い分けています。',
-      },
-      {
-        author: 'T.M',
-        rating: 4,
-        date: '1ヶ月前',
-        text: 'マットとマシンの両方のレッスンがあり、その日の体調に合わせて選べるのが良い。男性もいるので夫婦でも通いやすい。',
-      },
-      {
-        author: 'S.O',
-        rating: 5,
-        date: '3週間前',
-        text: '平日朝7時台からレッスンがあるので出勤前に通えます。東京駅周辺のビジネスマンにもおすすめ。',
-      },
-    ],
     price: 'マットグループ 月4回 10,450円〜',
     trial: '体験レッスン 1,000円〜',
     features: ['マット&マシン', '銀座一丁目駅徒歩3分', '男性OK', '早朝レッスンあり'],
@@ -335,28 +181,6 @@ const studios = [
   {
     name: 'ピラティスガーデン銀座',
     image: '/images/studios/pilates-garden-ginza.webp',
-    rating: 4.6,
-    reviewCount: 5,
-    reviews: [
-      {
-        author: 'K.A',
-        rating: 5,
-        date: '2週間前',
-        text: '東銀座駅から徒歩2分。マットもマシンも両方あるのに月4回10,200円はコスパ抜群。フリー会員なら月15,300円で通い放題。',
-      },
-      {
-        author: 'N.M',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '女性専用で安心。営業時間が長く、平日22時まで開いているので仕事帰りに余裕を持って通えます。',
-      },
-      {
-        author: 'A.K',
-        rating: 5,
-        date: '3週間前',
-        text: '月8回プランだと1回あたり1,530円。週2回通いたい方にはとてもお得です。',
-      },
-    ],
     price: '月4回 10,200円〜',
     trial: '体験レッスン お問い合わせ',
     features: ['女性専用', 'マット&マシン', '東銀座駅徒歩2分', 'コスパ抜群'],
@@ -367,28 +191,6 @@ const studios = [
   {
     name: 'バース ピラティス スタジオ 銀座',
     image: '/images/studios/birth-pilates-ginza-station.webp',
-    rating: 4.8,
-    reviewCount: 10,
-    reviews: [
-      {
-        author: 'E.T',
-        rating: 5,
-        date: '1週間前',
-        text: '完全個室のパーソナルレッスン。周りを気にせず集中できる環境が最高です。インストラクターの知識が豊富で毎回新しい発見があります。',
-      },
-      {
-        author: 'S.H',
-        rating: 5,
-        date: '3週間前',
-        text: '膝の痛みがあって不安でしたが、個々の身体の状態に合わせたプログラムを組んでくれるので安心して通えています。',
-      },
-      {
-        author: 'R.W',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '銀座駅から徒歩6分。東京駅からも地下鉄ですぐ。個室空間でリラックスしてレッスンを受けられます。',
-      },
-    ],
     price: 'パーソナル 1回 8,800円〜',
     trial: '初回体験レッスン 4,500円',
     features: ['完全個室パーソナル', '身体の不調対応', '銀座駅徒歩6分', 'オーダーメイド'],
@@ -399,28 +201,6 @@ const studios = [
   {
     name: 'Pilates Studio excel 日本橋店',
     image: '/images/studios/pilates-excel-nihonbashi.webp',
-    rating: 4.6,
-    reviewCount: 29,
-    reviews: [
-      {
-        author: 'T.Y',
-        rating: 5,
-        date: '2週間前',
-        text: '日本橋駅から近くて通いやすい。少人数制のグループレッスンで、インストラクターが丁寧にフォームを修正してくれます。',
-      },
-      {
-        author: 'M.H',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '東京駅から歩ける距離。マシンピラティスの質が高く、初心者でも安心して受けられるプログラムが充実。',
-      },
-      {
-        author: 'K.S',
-        rating: 5,
-        date: '3週間前',
-        text: 'アットホームな雰囲気で居心地が良い。大手スタジオにはない温かさがあります。',
-      },
-    ],
     price: 'グループ 月4回 13,200円〜',
     trial: '体験レッスン 3,300円',
     features: ['少人数制', 'アットホーム', '日本橋駅近く', '丁寧な指導'],
@@ -431,28 +211,6 @@ const studios = [
   {
     name: 'the SILK 銀座一丁目店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.6,
-    reviewCount: 312,
-    reviews: [
-      {
-        author: 'Y.K',
-        rating: 5,
-        date: '1週間前',
-        text: '銀座一丁目駅から徒歩2分。京橋駅からも近いので東京駅方面からのアクセスが便利。他のthe SILK店舗とも相互利用可能です。',
-      },
-      {
-        author: 'M.I',
-        rating: 4,
-        date: '2週間前',
-        text: '八重洲店・銀座店と3店舗あるので、予約の取りやすさで選べるのが良い。どの店舗もスタジオが綺麗です。',
-      },
-      {
-        author: 'A.S',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '手ぶらで体験できるキャンペーンがあり、ウェアやタオルを持っていく必要がなくて助かりました。',
-      },
-    ],
     price: 'Standard4 12,980円〜',
     trial: '体験レッスン 0円（キャンペーン中）',
     features: ['女性専用', 'マシンピラティス専門', '銀座一丁目駅徒歩2分', '手ぶら体験OK'],
@@ -463,28 +221,6 @@ const studios = [
   {
     name: 'Bloom Pilates 銀座スタジオ',
     image: '/images/studios/bloom-pilates.webp',
-    rating: 4.7,
-    reviewCount: 12,
-    reviews: [
-      {
-        author: 'N.T',
-        rating: 5,
-        date: '2週間前',
-        text: '銀座エリアでマシンピラティスのパーソナルレッスンを探していてここに決めました。インストラクターのレベルが高くて満足です。',
-      },
-      {
-        author: 'R.K',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '東京駅からも近いのでランチタイムに通っています。短時間でも効果を実感できるプログラムが嬉しい。',
-      },
-      {
-        author: 'Y.N',
-        rating: 4,
-        date: '3週間前',
-        text: 'きれいなスタジオで気分が上がります。丁寧なカウンセリングで自分に合ったプランを提案してくれました。',
-      },
-    ],
     price: 'パーソナル 1回 9,900円〜',
     trial: '体験レッスン お問い合わせ',
     features: ['マシンピラティス', 'パーソナル対応', '銀座エリア', '丁寧なカウンセリング'],

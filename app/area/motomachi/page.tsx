@@ -24,28 +24,6 @@ const studios = [
   {
     name: 'TOKI PILATES STUDIO（トキピラティス）',
     image: '/images/studios/toki-pilates-kobe.webp',
-    rating: 4.8,
-    reviewCount: 12,
-    reviews: [
-      {
-        author: 'Y.K',
-        rating: 5,
-        date: '1週間前',
-        text: 'JR元町駅から徒歩2〜3分！WESTとEASTの2店舗があり、骨盤をテーマにしたピラティスが受けられます。少人数制（最大6名）で丁寧な指導。',
-      },
-      {
-        author: 'M.H',
-        rating: 5,
-        date: '2週間前',
-        text: '全インストラクターが世界的なピラティス資格を取得済み。産前産後のクラスやベビーシッター付きプランがあるのが嬉しい。',
-      },
-      {
-        author: 'A.S',
-        rating: 4,
-        date: '3週間前',
-        text: '体験レッスンは3,500円。1回あたり約4,500円〜とパーソナルより割安。呼吸を深めるレッスンで体の内側から変わる感覚がありました。',
-      },
-    ],
     price: '1回 4,500円〜',
     trial: '体験レッスン 3,500円',
     features: ['元町駅徒歩2分', '少人数制', '産前産後対応', '世界資格保有'],
@@ -77,28 +55,6 @@ const studios = [
   {
     name: 'Pilates Mee 神戸元町店',
     image: '/images/studios/pilates-mee.webp',
-    rating: 4.7,
-    reviewCount: 18,
-    reviews: [
-      {
-        author: 'S.O',
-        rating: 5,
-        date: '1週間前',
-        text: 'みなと元町駅から徒歩2分。最大3名のセミパーソナル形式なので、グループより手厚い指導が受けられます。女性専用で安心。',
-      },
-      {
-        author: 'K.T',
-        rating: 5,
-        date: '2週間前',
-        text: '月4回コースで19,800円。1回あたり4,950円でセミパーソナルが受けられるのはコスパが良い。インストラクターが丁寧。',
-      },
-      {
-        author: 'R.N',
-        rating: 4,
-        date: '3週間前',
-        text: '月2回コースもあるので、忙しい月でも無理なく通えます。清潔感のあるスタジオで気持ちよくレッスンできました。',
-      },
-    ],
     price: '月2回 11,000円〜',
     trial: '体験レッスンあり',
     features: ['みなと元町駅徒歩2分', '女性専用', 'セミパーソナル', '最大3名'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'STUDIO BRAVE（スタジオブレイブ）',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.6,
-    reviewCount: 30,
-    reviews: [
-      {
-        author: 'T.M',
-        rating: 5,
-        date: '1週間前',
-        text: '会員の80%が初心者とのことで安心して入会。難易度や目的に合わせて選べるレッスンが豊富。少人数制で細やかな指導が受けられます。',
-      },
-      {
-        author: 'H.Y',
-        rating: 4,
-        date: '2週間前',
-        text: '元町エリアでピラティスとヨガの両方が楽しめるのが魅力。気分に合わせてレッスンを選べるので飽きません。',
-      },
-      {
-        author: 'N.K',
-        rating: 4,
-        date: '3週間前',
-        text: 'スタジオの雰囲気がとても良く、インストラクターも明るく親切。継続的に通いたいと思えるスタジオです。',
-      },
-    ],
     price: '要問い合わせ',
     trial: '体験レッスンあり',
     features: ['初心者歓迎', '少人数制', 'ピラティス＆ヨガ', '目的別レッスン'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'Studio douce（スタジオドゥース）',
     image: '/images/studios/pilates-studio-dep.webp',
-    rating: 4.7,
-    reviewCount: 16,
-    reviews: [
-      {
-        author: 'E.M',
-        rating: 5,
-        date: '1週間前',
-        text: '理学療法士がインストラクターなので、体の仕組みに基づいた的確な指導が受けられます。入会費・更新費が0円なのも嬉しい。',
-      },
-      {
-        author: 'C.H',
-        rating: 5,
-        date: '2週間前',
-        text: '通常料金が安価で長く続けやすい。腰痛改善のために通い始めましたが、3ヶ月でかなり楽になりました。',
-      },
-      {
-        author: 'Y.A',
-        rating: 4,
-        date: '3週間前',
-        text: 'アットホームな雰囲気で、一人ひとりに寄り添った指導。理学療法士ならではの安全で効果的なレッスンが特徴。',
-      },
-    ],
     price: '入会費・更新費 0円',
     trial: '体験レッスンあり',
     features: ['理学療法士指導', '入会費0円', 'リーズナブル', '腰痛改善'],
@@ -236,28 +148,6 @@ const studios = [
   {
     name: 'ラピラティス 神戸元町店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.5,
-    reviewCount: 3,
-    reviews: [
-      {
-        author: 'M.R',
-        rating: 5,
-        date: '1週間前',
-        text: '整体×マシンピラティスの組み合わせが新しい。体の歪みを整えてからピラティスを行うので、効果を実感しやすいです。',
-      },
-      {
-        author: 'K.Y',
-        rating: 4,
-        date: '2週間前',
-        text: '元町駅からアクセスしやすい立地。整体の知識を活かしたアプローチで、根本的な体の改善を目指せます。',
-      },
-      {
-        author: 'S.H',
-        rating: 4,
-        date: '3週間前',
-        text: '肩こりや腰痛など体の不調がある方に特におすすめ。整体とピラティスの相乗効果を感じられるスタジオ。',
-      },
-    ],
     price: '要問い合わせ',
     trial: '体験レッスンあり',
     features: ['整体×ピラティス', '元町駅近', '体の歪み改善', 'マシンピラティス'],
@@ -290,28 +180,6 @@ const studios = [
     name: 'zen place pilates 三宮スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 28,
-    reviews: [
-      {
-        author: 'K.O',
-        rating: 5,
-        date: '1週間前',
-        text: '元町からも通える三宮・花時計前駅徒歩1分の大手スタジオ。マット・マシン・プライベートと3タイプ選べます。全国150店舗以上で他店利用可能。',
-      },
-      {
-        author: 'Y.I',
-        rating: 5,
-        date: '2週間前',
-        text: 'ピラティス専門で20年以上の実績。インストラクターの質が高く、グループでもしっかり指導してもらえます。',
-      },
-      {
-        author: 'A.W',
-        rating: 4,
-        date: '3週間前',
-        text: '体験当日入会で入会金無料。月4回10,450円〜とリーズナブル。JR元町駅からも徒歩圏内です。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['花時計前駅徒歩1分', 'ピラティス専門', '男性OK', '全国相互利用'],

@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates 国立',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 15,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '1週間前',
-        text: '国立駅南口から徒歩3分で通いやすい。正統派のピラティスを学べて、体の深い部分から変わっていく感覚があります。エデュケーターの知識が豊富。',
-      },
-      {
-        author: 'T.S',
-        rating: 5,
-        date: '2週間前',
-        text: 'マットもマシンも両方受けられるのが魅力。全店舗利用可能プランで中央線沿線の別店舗にも通えて便利です。',
-      },
-      {
-        author: 'A.H',
-        rating: 4,
-        date: '3週間前',
-        text: '文教都市・国立の雰囲気に合った落ち着いたスタジオ。男性もOKなので夫婦で通っています。体験1,000円でした。',
-      },
-    ],
     price: '月4回 13,200円〜',
     trial: '体験レッスン 1,000円',
     features: ['全国展開大手', 'マット&マシン完備', '男女共用', '全店舗利用可能'],
@@ -77,28 +55,6 @@ const studios = [
   {
     name: 'Rintosull 国立店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.6,
-    reviewCount: 71,
-    reviews: [
-      {
-        author: 'Y.M',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用で安心。リフォーマーを使ったレッスンで気になる部位に集中的にアプローチできます。体験無料で入会を決めました。',
-      },
-      {
-        author: 'K.A',
-        rating: 5,
-        date: '2週間前',
-        text: 'LAVA系列なので品質が安定しています。プレミアムフリーフルタイムプランでLAVAのヨガも楽しめるのがお得。',
-      },
-      {
-        author: 'N.T',
-        rating: 4,
-        date: '3週間前',
-        text: '初心者が多くて安心して始められました。国立駅から近くて通いやすい。プログラムの種類が豊富で飽きません。',
-      },
-    ],
     price: 'プレミアムプラン 月額10,978円（税込）',
     trial: '体験無料キャンペーン実施中',
     features: ['女性専用', 'マシンピラティス', '体験無料', 'LAVA系列'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'ピラティスミラー 国立',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.5,
-    reviewCount: 42,
-    reviews: [
-      {
-        author: 'S.N',
-        rating: 5,
-        date: '1週間前',
-        text: 'コナミ運営で信頼できます。天井の鏡で自分のフォームを客観的に確認できるのが良い。1レッスン30分で忙しくても通えます。',
-      },
-      {
-        author: 'H.Y',
-        rating: 4,
-        date: '2週間前',
-        text: '少人数制で丁寧に見てもらえます。月6回プランで週1〜2回ペースで無理なく続けています。',
-      },
-      {
-        author: 'M.O',
-        rating: 4,
-        date: '3週間前',
-        text: '初心者や運動が苦手な人にも安心のスタジオ。体への意識が向けやすく、効果を実感しやすいです。',
-      },
-    ],
     price: '月6回 11,000円',
     trial: '体験レッスン 2,200円',
     features: ['コナミ運営', '少人数制', '1レッスン30分', 'ミラー完備'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: "YU's PILATES",
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 45,
-    reviews: [
-      {
-        author: 'R.K',
-        rating: 5,
-        date: '1週間前',
-        text: '国立駅南口から徒歩2分でアクセス抜群。ネバダ州立大学公認インストラクターの本格指導が受けられます。少人数制で丁寧。',
-      },
-      {
-        author: 'E.S',
-        rating: 5,
-        date: '2週間前',
-        text: '女性限定のアットホームなスタジオ。アロマの香りでリラックスしながらピラティスできます。一人ひとりに合わせた指導が嬉しい。',
-      },
-      {
-        author: 'C.M',
-        rating: 5,
-        date: '3週間前',
-        text: '少人数制なので細かいところまで見てもらえます。体の使い方が変わったと実感しています。',
-      },
-    ],
     price: 'レッスン料は公式サイトでご確認ください',
     trial: '体験レッスンあり',
     features: ['女性限定', '少人数制', 'ネバダ州立大学公認', '国立駅徒歩2分'],
@@ -235,28 +147,6 @@ const studios = [
   {
     name: 'COCOLANCE 国立店',
     image: '/images/studios/cocolance-mitaka.webp',
-    rating: 4.7,
-    reviewCount: 17,
-    reviews: [
-      {
-        author: 'A.T',
-        rating: 5,
-        date: '1週間前',
-        text: '完全個室のパーソナルなので周りを気にせず集中できます。女性専用で安心。コスパも良いと思います。',
-      },
-      {
-        author: 'Y.N',
-        rating: 5,
-        date: '2週間前',
-        text: 'マンツーマンで体の悩みに合わせたメニューを組んでもらえます。姿勢が良くなったと周りに言われました。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: '完全個室なのでリラックスして受けられます。マシンピラティスが初めてでも安心のサポート。',
-      },
-    ],
     price: 'パーソナルレッスン（料金は公式サイトでご確認ください）',
     trial: '体験レッスンあり',
     features: ['完全個室', '女性専用', 'パーソナル', 'マシンピラティス'],

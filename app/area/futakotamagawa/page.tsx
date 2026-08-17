@@ -48,28 +48,6 @@ const studios = [
     name: 'zen place pilates 二子玉川',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 32,
-    reviews: [
-      {
-        author: 'M.S',
-        rating: 5,
-        date: '2週間前',
-        text: '二子玉川駅から徒歩4分。全国150以上のスタジオが他店利用可能。マット・マシン・プライベートすべて対応。体験当日入会で入会金無料でした。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: 'マットグループ月額10,450円から。エデュケーターの質が高く体の変化を実感。1Fのスタジオで開放感があります。男性もOK。',
-      },
-      {
-        author: 'K.N',
-        rating: 4,
-        date: '3週間前',
-        text: '平日は22時まで営業で仕事帰りにも通える。用賀や溝の口からもアクセスしやすい。',
-      },
-    ],
     price: '月額 10,450円〜',
     trial: '体験レッスンあり（当日入会で入会金無料）',
     features: ['マシン完備', '男性OK', '二子玉川駅徒歩4分', '全国相互利用可'],
@@ -101,28 +79,6 @@ const studios = [
   {
     name: 'the SILK 二子玉川店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.8,
-    reviewCount: 356,
-    reviews: [
-      {
-        author: 'N.Y',
-        rating: 5,
-        date: '5日前',
-        text: '二子玉川駅西口から徒歩5分。女性専用で安心。体験レッスンが無料で手ぶらOK。グループレッスンだけでなくパーソナルレッスンも受けられるのが嬉しい。',
-      },
-      {
-        author: 'E.S',
-        rating: 5,
-        date: '1週間前',
-        text: '初心者が80%で気負わず始められました。ライト3プランなら月3回12,980円。PMA加盟団体のプロ監修レッスンが受けられます。',
-      },
-      {
-        author: 'M.K',
-        rating: 4,
-        date: '2週間前',
-        text: '朝8時から夜21時まで営業。パーソナルレッスンもあるのがこの店舗の特徴。パウダールーム完備で買い物ついでにも通えます。',
-      },
-    ],
     price: '月3回 12,980円〜',
     trial: '体験レッスン 0円（50分・手ぶらOK）',
     features: ['女性専用', 'マシン専門', '二子玉川駅徒歩5分', 'パーソナルあり'],
@@ -154,28 +110,6 @@ const studios = [
   {
     name: 'BDC PILATES 二子玉川',
     image: '/images/studios/bdc-pilates.webp',
-    rating: 4.7,
-    reviewCount: 13,
-    reviews: [
-      {
-        author: 'R.K',
-        rating: 5,
-        date: '1週間前',
-        text: '二子玉川駅から徒歩2分！日本初のマシンピラティス専門スタジオ。認定資格を持つ講師の質が高い。体験レッスンが3,850円。グループもプライベートも充実。',
-      },
-      {
-        author: 'A.M',
-        rating: 4,
-        date: '2週間前',
-        text: '月4回15,400円。ダンサーやアスリートも通う本格的なスタジオ。身体の使い方を根本から学べます。6Fからの眺めも良い。',
-      },
-      {
-        author: 'S.T',
-        rating: 5,
-        date: '3週間前',
-        text: '平日は10時から20時、土日は9:30から17時まで。プライベートレッスンで完全カスタマイズしてもらえます。',
-      },
-    ],
     price: '月4回 15,400円〜',
     trial: '体験レッスン 3,850円',
     features: ['日本初マシン専門', '二子玉川駅徒歩2分', '認定講師', 'グループ&プライベート'],
@@ -207,28 +141,6 @@ const studios = [
   {
     name: 'CLUB PILATES 二子玉川店',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.7,
-    reviewCount: 123,
-    reviews: [
-      {
-        author: 'E.K',
-        rating: 5,
-        date: '5日前',
-        text: '二子玉川駅西口から徒歩3分。世界最大級のブランドで安心。30分の無料体験で雰囲気がわかりました。入会金も体験当日なら無料に。',
-      },
-      {
-        author: 'T.M',
-        rating: 4,
-        date: '1週間前',
-        text: '15種類の器具を1人1台使えるのが贅沢。8つのプログラムと4段階のレベル分け。月4回14,190円。朝7時から営業で仕事前にも通えます。',
-      },
-      {
-        author: 'N.Y',
-        rating: 5,
-        date: '2週間前',
-        text: '資格保持のインストラクターが丁寧に指導。最大12名の少人数制でしっかり見てもらえます。男性もOK。',
-      },
-    ],
     price: '月4回 14,190円〜',
     trial: '体験レッスン 無料（当日入会で入会金無料）',
     features: ['世界最大級', '15種類の器具', '二子玉川駅徒歩3分', '男性OK'],
@@ -260,28 +172,6 @@ const studios = [
   {
     name: 'ピラティスミラー 二子玉川',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.6,
-    reviewCount: 15,
-    reviews: [
-      {
-        author: 'T.I',
-        rating: 5,
-        date: '1週間前',
-        text: 'コナミスポーツクラブ運営で安心。月会費11,000円で月6回まで通えてコスパ良好。7回目以降は1回1,100円で追加可能。鏡を使ったフォーム確認が特徴的。',
-      },
-      {
-        author: 'Y.W',
-        rating: 4,
-        date: '2週間前',
-        text: '平日は朝8時から夜22時まで営業。プライベートレッスンも月2回19,800円から。体験当日入会で入会金11,000円が無料になりました。',
-      },
-      {
-        author: 'M.S',
-        rating: 4,
-        date: '3週間前',
-        text: '二子玉川ライズの近くにあってアクセス便利。グループもパーソナルも選べて、初心者でも安心のマシンピラティス。',
-      },
-    ],
     price: '月会費 11,000円（月6回）',
     trial: '体験レッスンあり（当日入会で入会金無料）',
     features: ['コナミ運営', 'マシン専門', 'パーソナルあり', 'ミラー設備'],

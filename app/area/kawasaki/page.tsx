@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'ピラティスK 川崎店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.8,
-    reviewCount: 239,
-    reviews: [
-      {
-        author: 'M.S',
-        rating: 5,
-        date: '1週間前',
-        text: '京急川崎駅から徒歩2分で通いやすい！音楽に合わせたレッスンが楽しくて続けられます。体験レッスンが0円なので気軽に始められました。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '2週間前',
-        text: '女性専用で安心です。マシンピラティス専門なので効果を実感しやすい。インストラクターさんが優しく指導してくれます。',
-      },
-      {
-        author: 'R.K',
-        rating: 4,
-        date: '3週間前',
-        text: 'スタイリッシュな店内でモチベーションが上がります。部位に特化したプログラムが豊富で、目的に合わせて選べるのが良いです。',
-      },
-    ],
     price: '月4回 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', 'マシン完備', '京急川崎駅徒歩2分', '音楽レッスン'],
@@ -77,28 +55,6 @@ const studios = [
     name: 'zen place pilates 川崎',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 34,
-    reviews: [
-      {
-        author: 'S.T',
-        rating: 5,
-        date: '2週間前',
-        text: '京急川崎駅から徒歩5分で通いやすい。全国150店舗が他店利用できるので出張先でも通えます。エデュケーターの質が高く、体の変化を実感できました。',
-      },
-      {
-        author: 'N.K',
-        rating: 5,
-        date: '1ヶ月前',
-        text: 'マットとマシン両方受講できます。少人数制なので丁寧に見てもらえます。男性も利用可能なので家族で通えるのが嬉しい。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: '医療機関も推奨している本格的なピラティス。体験レッスンが1,000円で受けられるので気軽に始められました。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
     features: ['マット&マシン', '全国150店舗相互利用', '男性OK', '医療機関推奨'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'Rintosull 川崎店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.6,
-    reviewCount: 115,
-    reviews: [
-      {
-        author: 'H.M',
-        rating: 5,
-        date: '1週間前',
-        text: 'AI姿勢分析が面白い！自分の体の癖が数値で分かるので改善しやすいです。2025年5月オープンの新しいスタジオで設備も綺麗。',
-      },
-      {
-        author: 'Y.K',
-        rating: 4,
-        date: '2週間前',
-        text: '通い放題プランでホットヨガと暗闇キックボクシングも利用できる。LAVAとも連携していてお得感があります。',
-      },
-      {
-        author: 'M.T',
-        rating: 5,
-        date: '3週間前',
-        text: 'JR川崎駅から徒歩5分。女性専用で安心して通えます。体験会が無料なので気軽に始められました。',
-      },
-    ],
     price: '月4回 14,800円〜',
     trial: '体験レッスン 無料',
     features: ['AI姿勢分析', 'LAVA連携', '女性専用', 'JR川崎駅徒歩5分'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'the SILK 川崎店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.7,
-    reviewCount: 178,
-    reviews: [
-      {
-        author: 'R.S',
-        rating: 5,
-        date: '1週間前',
-        text: '京急川崎駅から徒歩2分で通いやすい。音楽に合わせたレッスンが楽しくて時間があっという間。2024年7月オープンの新しいスタジオで綺麗です。',
-      },
-      {
-        author: 'N.Y',
-        rating: 4,
-        date: '2週間前',
-        text: '初回体験が無料で手ぶらで受けられました。PMA加盟団体の監修プログラムで質が高い。女性限定で安心です。',
-      },
-      {
-        author: 'K.T',
-        rating: 5,
-        date: '3週間前',
-        text: 'リフォーマー専門で50分のレッスン。インストラクターが明るく親切で続けやすい。日常の不調が改善してきました。',
-      },
-    ],
     price: '月4回 14,370円〜',
     trial: '体験レッスン 無料',
     features: ['音楽×マシン', '女性限定', '京急川崎駅徒歩2分', 'PMA加盟'],
@@ -236,28 +148,6 @@ const studios = [
   {
     name: 'STUZIO ONCE 川崎店',
     image: '/images/studios/stuzio-once-kawasaki.webp',
-    rating: 4.8,
-    reviewCount: 3,
-    reviews: [
-      {
-        author: 'A.K',
-        rating: 5,
-        date: '1週間前',
-        text: '完全個室のプライベートレッスンで集中できます。川崎駅西口から徒歩5分。マンツーマン指導で効果を実感しやすい。',
-      },
-      {
-        author: 'M.H',
-        rating: 5,
-        date: '2週間前',
-        text: '初心者でも安心して始められました。インストラクターが細やかな気遣いで丁寧に教えてくれます。体のラインが綺麗になってきました。',
-      },
-      {
-        author: 'Y.N',
-        rating: 4,
-        date: '3週間前',
-        text: 'パーソナルレッスンなので自分のペースで進められます。価格は高めですが、短期間で結果が出るので満足です。',
-      },
-    ],
     price: '1回 8,800円〜',
     trial: '体験レッスン 5,500円',
     features: ['完全プライベート', 'マシン完備', '川崎駅西口徒歩5分', 'マンツーマン'],
@@ -289,28 +179,6 @@ const studios = [
   {
     name: 'TSUTAYA Conditioning PILATES 川崎駅前店',
     image: '/images/studios/tsutaya-pilates-kawasaki.webp',
-    rating: 4.5,
-    reviewCount: 25,
-    reviews: [
-      {
-        author: 'S.M',
-        rating: 5,
-        date: '1週間前',
-        text: '京急川崎駅から徒歩1分で便利。少人数制なので丁寧に見てもらえます。TSUTAYAの蔦屋書店に併設されていて買い物ついでに通えます。',
-      },
-      {
-        author: 'T.Y',
-        rating: 4,
-        date: '2週間前',
-        text: '女性専用で安心。楽々ピラティスのコンセプトで初心者でも無理なく始められました。インストラクターが優しくて続けやすい。',
-      },
-      {
-        author: 'N.I',
-        rating: 5,
-        date: '3週間前',
-        text: '少人数制グループレッスンで質問しやすい。駅近で通いやすく、仕事帰りに寄れるのが嬉しい。',
-      },
-    ],
     price: '月4回 13,200円〜',
     trial: '体験レッスン 1,000円',
     features: ['女性専用', '少人数制', '京急川崎駅徒歩1分', 'TSUTAYA併設'],
@@ -342,28 +210,6 @@ const studios = [
   {
     name: 'CLUB PILATES 川崎',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.6,
-    reviewCount: 76,
-    reviews: [
-      {
-        author: 'K.S',
-        rating: 5,
-        date: '1週間前',
-        text: 'アメリカ発の世界最大級ピラティスチェーン。川崎駅東口から徒歩3分。グループとプライベート両方受けられるのが嬉しい。',
-      },
-      {
-        author: 'M.R',
-        rating: 4,
-        date: '2週間前',
-        text: '全米No.1のピラティスメソッド。初心者から上級者まで幅広くプログラムがあります。体験が無料で始めやすかった。',
-      },
-      {
-        author: 'Y.H',
-        rating: 5,
-        date: '3週間前',
-        text: 'インストラクターの質が高い。世界800店舗以上展開していて出張先でも通えます。効果を実感しやすいプログラムです。',
-      },
-    ],
     price: '月4回 14,190円〜',
     trial: '体験レッスン 無料',
     features: ['アメリカ発', 'グループ&プライベート', '川崎駅東口徒歩3分', '世界800店舗'],

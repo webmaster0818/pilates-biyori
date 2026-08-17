@@ -25,13 +25,6 @@ const studios = [
     name: 'zen place pilates 六本木',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 15,
-    reviews: [
-      { author: 'S.K', rating: 5, date: '2週間前', text: '六本木駅2番出口から徒歩2分で通いやすい。マットもマシンも両方受けられるのが嬉しいです。全国の店舗で他店利用できるのも便利。' },
-      { author: 'Y.T', rating: 5, date: '1ヶ月前', text: '少人数制で丁寧に指導してもらえます。男性もOKなので夫婦で通っています。六本木ヒルズが近く、レッスン後にカフェに寄れるのも気に入っています。' },
-      { author: 'K.H', rating: 4, date: '3週間前', text: 'マットグループが月4回9,625円〜と続けやすい価格帯。マシングループも月4回15,400円〜で本格的。インストラクターの質が高いです。' },
-    ],
     price: 'マットグループ月4回 9,625円〜（税込）',
     trial: '体験レッスンあり',
     features: ['マット&マシン', '六本木駅徒歩2分', '男性OK', '全国相互利用'],
@@ -63,13 +56,6 @@ const studios = [
   {
     name: 'STUDIO IVY 麻布台',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.9,
-    reviewCount: 8,
-    reviews: [
-      { author: 'R.N', rating: 5, date: '1週間前', text: '完全個室のプライベート空間なので周りを気にせず集中できます。インストラクターが一人ひとりに合わせたプログラムを組んでくれるのが嬉しい。' },
-      { author: 'A.H', rating: 5, date: '2週間前', text: '体験レッスンが4,500円で手軽に試せました。パーソナル専門ならではの丁寧な指導に感動。' },
-      { author: 'M.M', rating: 5, date: '3週間前', text: '1回6,500円〜、月2回15,000円〜とパーソナルとしてはリーズナブル。六本木エリアで質の高いパーソナルピラティスを探している方におすすめです。' },
-    ],
     price: '1回 6,500円〜',
     trial: '体験レッスン 4,500円',
     features: ['完全個室パーソナル', 'マシンピラティス', '麻布台エリア', 'オーダーメイド'],
@@ -101,13 +87,6 @@ const studios = [
   {
     name: 'BDC PILATES 六本木',
     image: '/images/studios/bdc-pilates.webp',
-    rating: 4.7,
-    reviewCount: 8,
-    reviews: [
-      { author: 'E.Y', rating: 5, date: '1週間前', text: 'プロダンサー養成校がプロデュースしているだけあって、動きの質にこだわったレッスン。ダンサー御用達なだけあり、体の使い方を徹底的に学べます。' },
-      { author: 'C.T', rating: 5, date: '2週間前', text: 'グループもプライベートも選べるのが魅力。インストラクターのレベルが高く、毎回新しい発見があります。' },
-      { author: 'S.O', rating: 4, date: '1ヶ月前', text: '六本木エリアでダンサー養成の知見を活かしたレッスンが受けられる貴重なスタジオ。グループ&プライベート両方あり。' },
-    ],
     price: 'グループ&プライベートあり',
     trial: '体験レッスンあり',
     features: ['ダンサー御用達', 'グループ&プライベート', '六本木エリア', '高品質指導'],
@@ -139,13 +118,6 @@ const studios = [
   {
     name: 'スタジオMiiA 六本木',
     image: '/images/studios/studio-miia-roppongi.webp',
-    rating: 4.7,
-    reviewCount: 12,
-    reviews: [
-      { author: 'M.Y', rating: 5, date: '1週間前', text: 'プライベート専門なので、自分のペースでじっくりレッスンを受けられます。六本木駅近くでアクセスも抜群。' },
-      { author: 'K.S', rating: 5, date: '2週間前', text: '丁寧なカウンセリングの後、一人ひとりに合ったプログラムを組んでもらえます。プライベート専門ならではの質の高さ。' },
-      { author: 'R.T', rating: 4, date: '1ヶ月前', text: '六本木駅から近く通いやすい。プライベート専門のスタジオなので落ち着いた雰囲気で集中できます。' },
-    ],
     price: 'プライベート専門（料金はお問い合わせ）',
     trial: '体験レッスンあり',
     features: ['プライベート専門', '六本木駅近く', 'マンツーマン', '丁寧な指導'],
@@ -176,13 +148,6 @@ const studios = [
   {
     name: 'BLC Personal Gym',
     image: '/images/studios/blc-roppongi.webp',
-    rating: 4.6,
-    reviewCount: 25,
-    reviews: [
-      { author: 'Y.N', rating: 5, date: '1週間前', text: 'パーソナルマシンピラティスを体験5,500円で試せました。1回9,000円〜と本格的なパーソナルレッスンが受けられます。' },
-      { author: 'S.H', rating: 4, date: '2週間前', text: 'ジムとピラティスが融合した感じで、しっかりトレーニングできます。六本木エリアで本格パーソナルを探している方におすすめ。' },
-      { author: 'A.K', rating: 5, date: '1ヶ月前', text: 'マシンを使ったパーソナルレッスンの質が高い。体の変化を実感できます。' },
-    ],
     price: '1回 9,000円〜',
     trial: '体験レッスン 5,500円',
     features: ['パーソナルマシン', '六本木エリア', '体験5,500円', '本格指導'],
@@ -213,13 +178,6 @@ const studios = [
   {
     name: 'CLUB PILATES 六本木（近隣）',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.6,
-    reviewCount: 98,
-    reviews: [
-      { author: 'M.T', rating: 5, date: '1週間前', text: '最大12名のグループレッスンで楽しく通えます。月4回10,890円〜と続けやすい価格帯が魅力。' },
-      { author: 'K.Y', rating: 4, date: '2週間前', text: 'アメリカ発の大手スタジオ。レベル別のクラスがあるので初心者でも安心。グループならではの一体感が楽しいです。' },
-      { author: 'R.M', rating: 5, date: '3週間前', text: '六本木近隣で通いやすい立地。リフォーマーを使った本格グループレッスンがこの価格で受けられるのはお得。' },
-    ],
     price: '月4回 10,890円〜（税込）',
     trial: '体験レッスンあり',
     features: ['最大12名グループ', '月4回10,890円〜', 'レベル別クラス', 'アメリカ発'],
@@ -251,13 +209,6 @@ const studios = [
   {
     name: 'ピラティスK 六本木（近隣）',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.5,
-    reviewCount: 138,
-    reviews: [
-      { author: 'Y.S', rating: 5, date: '1週間前', text: '女性専用なので安心して通えます。マシンピラティスが月4回11,220円〜とリーズナブル。清潔感のあるスタジオが好印象。' },
-      { author: 'H.K', rating: 4, date: '2週間前', text: '女性専用のマシンピラティススタジオ。おしゃれな空間でモチベーションが上がります。六本木近隣で通いやすいです。' },
-      { author: 'N.M', rating: 5, date: '1ヶ月前', text: 'グループでマシンピラティスができる女性専用スタジオ。月額制で通いやすく、継続しやすいのが魅力。' },
-    ],
     price: '月4回 11,220円〜（税込）',
     trial: '体験レッスンあり',
     features: ['女性専用', 'マシンピラティス', '月4回11,220円〜', 'おしゃれ空間'],
@@ -288,13 +239,6 @@ const studios = [
   {
     name: 'Rintosull 六本木（近隣）',
     image: '/images/studios/rintosull.webp',
-    rating: 4.5,
-    reviewCount: 76,
-    reviews: [
-      { author: 'A.T', rating: 5, date: '1週間前', text: 'LAVA系列なので安心感があります。女性専用のマシンピラティスで、ホットヨガとの併用もできるのが嬉しい。' },
-      { author: 'M.K', rating: 4, date: '2週間前', text: 'LAVA会員だったので気軽に始められました。女性専用で清潔なスタジオ。マシンピラティス初心者にもおすすめ。' },
-      { author: 'S.Y', rating: 5, date: '3週間前', text: '六本木近隣で女性専用のマシンピラティスが受けられるのが嬉しい。LAVA系列の安心感も大きいです。' },
-    ],
     price: 'LAVA系列（料金はお問い合わせ）',
     trial: '体験レッスンあり',
     features: ['女性専用', 'マシンピラティス', 'LAVA系列', '安心の大手'],
@@ -326,13 +270,6 @@ const studios = [
     name: 'ELEMENT 六本木',
     officialUrl: 'https://t.felmat.net/fmcl?ak=U11199J.1.V154352I.U1357808',
     image: '/images/studios/element.webp',
-    rating: 4.6,
-    reviewCount: 15,
-    reviews: [
-      { author: 'T.K', rating: 5, date: '1週間前', text: 'マンツーマン30分のレッスンで忙しい人にもぴったり。月4回22,000円で質の高いパーソナル指導を受けられます。' },
-      { author: 'Y.M', rating: 4, date: '2週間前', text: '30分という短時間で効率的にトレーニングできるのが魅力。仕事帰りにサクッと通えます。' },
-      { author: 'H.S', rating: 5, date: '1ヶ月前', text: '六本木エリアでマンツーマン30分のピラティスが受けられる。時間が短くても効果はしっかり実感できます。' },
-    ],
     price: '月4回 22,000円（税込）',
     trial: '体験レッスンあり',
     features: ['マンツーマン30分', '月4回22,000円', '効率的', '六本木エリア'],
@@ -363,13 +300,6 @@ const studios = [
   {
     name: 'ピラティスミラー 六本木（近隣）',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.5,
-    reviewCount: 27,
-    reviews: [
-      { author: 'R.K', rating: 5, date: '2週間前', text: '女性専用で安心。プライベート30分4,400円〜とリーズナブルにパーソナルレッスンが受けられるのが嬉しいです。' },
-      { author: 'M.H', rating: 4, date: '3週間前', text: '30分のプライベートレッスンが4,400円〜は六本木エリアではかなりお得。女性専用なので気兼ねなく通えます。' },
-      { author: 'A.S', rating: 5, date: '1ヶ月前', text: '短時間のプライベートレッスンなので忙しい方にもおすすめ。料金もリーズナブルで継続しやすいです。' },
-    ],
     price: 'プライベート30分 4,400円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', 'プライベート30分', '4,400円〜', 'リーズナブル'],
@@ -400,13 +330,6 @@ const studios = [
   {
     name: 'CALDO 六本木（近隣）',
     image: '/images/studios/caldo.webp',
-    rating: 4.4,
-    reviewCount: 213,
-    reviews: [
-      { author: 'K.M', rating: 4, date: '1週間前', text: 'ホットヨガがメインですがピラティスのクラスもあります。暖かい環境で体が柔らかくなり、ピラティスの効果も高まる気がします。' },
-      { author: 'N.T', rating: 5, date: '2週間前', text: 'ホットヨガとピラティスの両方を楽しめるのが魅力。月額制で通い放題のプランもあり、コスパが良いです。' },
-      { author: 'Y.K', rating: 4, date: '1ヶ月前', text: '六本木近隣で手軽にホットヨガ&ピラティスができるスタジオ。大手なので施設も充実しています。' },
-    ],
     price: 'ホットヨガ&ピラティス（料金はお問い合わせ）',
     trial: '体験レッスンあり',
     features: ['ホットヨガ&ピラティス', '大手スタジオ', '施設充実', '通い放題あり'],

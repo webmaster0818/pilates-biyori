@@ -23,13 +23,7 @@ const studios = [
   {
     name: 'zen place pilates 田園調布スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7, reviewCount: 145,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '田園調布駅から徒歩3分で通いやすい。マットもマシンも両方受けられるのが魅力。全国150店舗以上で他店利用可能なので出張時にも便利。' },
-      { author: 'S.T', rating: 5, date: '2週間前', text: 'インストラクターの質が高く丁寧な指導。20年以上の実績があり安心感がある。グループ体験1,000円で気軽に試せました。' },
-      { author: 'R.N', rating: 4, date: '3週間前', text: '閑静な住宅街にあり落ち着いた雰囲気。男性もOKなので夫婦で通っています。プライベートレッスンも充実。' },
-    ],
+    image: '/images/studios/zen-place-pilates.webp', reviewCount: 145,
     price: '月4回 10,450円〜', trial: 'グループ体験 1,000円',
     features: ['田園調布駅徒歩3分', '男性OK', 'マット&マシン', '全国相互利用'],
     description: 'ピラティス専門の大手スタジオ。田園調布駅から徒歩3分。マットグループ・マシングループ・プライベートの3タイプから選べます。全国150店舗以上で相互利用可能。BASIピラティスをベースにした質の高い指導が特徴。',
@@ -42,13 +36,7 @@ const studios = [
   },
   {
     name: 'TSUTAYA Conditioning PILATES 田園調布店',
-    image: '/images/studios/tsutaya-conditioning-pilates-shonan.webp',
-    rating: 4.6, reviewCount: 98,
-    reviews: [
-      { author: 'A.Y', rating: 5, date: '1週間前', text: '2025年1月オープンの新しいスタジオ。田園調布駅東口から徒歩2分で清潔感抜群。女性専用で少人数制なので丁寧に見てもらえます。' },
-      { author: 'K.S', rating: 5, date: '2週間前', text: '最新のリフォーマーマシンが揃っていて設備が充実。TSUTAYAブランドならではのおしゃれな空間でモチベーションが上がります。' },
-      { author: 'N.M', rating: 4, date: '3週間前', text: '体験レッスン無料で気軽に始められました。初心者向けのクラスが充実していて安心。スタッフの対応も丁寧です。' },
-    ],
+    image: '/images/studios/tsutaya-conditioning-pilates-shonan.webp', reviewCount: 98,
     price: '月4回 11,000円〜', trial: '体験レッスン 無料',
     features: ['女性専用', '田園調布駅徒歩2分', '少人数制', '2025年オープン'],
     description: '2025年1月グランドオープンの女性専用マシンピラティススタジオ。田園調布駅東口から徒歩2分。TSUTAYAブランドが手がけるコンディショニング特化型で、少人数制の丁寧な指導が魅力。最新設備を完備。',
@@ -61,13 +49,7 @@ const studios = [
   },
   {
     name: 'Pilates Mee 田園調布店',
-    image: '/images/studios/pilates-mee.webp',
-    rating: 4.7, reviewCount: 112,
-    reviews: [
-      { author: 'Y.K', rating: 5, date: '1週間前', text: '最大3名のセミパーソナル形式で、ほぼマンツーマンのような丁寧な指導が受けられます。田園調布駅から徒歩2分で通いやすい。' },
-      { author: 'T.M', rating: 5, date: '2週間前', text: '通い放題プランだと1回あたり1,250円とコスパ抜群。当日予約・当日キャンセルOKで融通が利くのが嬉しい。' },
-      { author: 'H.S', rating: 4, date: '3週間前', text: '女性専用で落ち着いた雰囲気。セミパーソナルなので自分のペースで進められます。チケット持ち越しもできて便利。' },
-    ],
+    image: '/images/studios/pilates-mee.webp', reviewCount: 112,
     price: '月2回 11,000円〜', trial: '体験レッスン 9,800円',
     features: ['セミパーソナル', '最大3名', '女性専用', '当日予約OK'],
     description: '最大3名までの少人数セミパーソナル形式の女性専用マシンピラティススタジオ。田園調布駅から徒歩2分。当日予約・当日キャンセルが可能で忙しい方にも柔軟に対応。通い放題プランなら1回あたり1,250円のコスパ。',
@@ -80,13 +62,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 奥沢店',
-    image: '/images/studios/studio-ivy.webp',
-    rating: 4.8, reviewCount: 86,
-    reviews: [
-      { author: 'E.N', rating: 5, date: '1週間前', text: '完全プライベート空間でオーダーメイドレッスン。自分の体の状態に合わせた指導が受けられて効果を実感しやすい。' },
-      { author: 'R.K', rating: 5, date: '2週間前', text: '月謝制で1レッスン6,250円からとプライベートにしてはリーズナブル。奥沢駅から近くて通いやすいです。' },
-      { author: 'M.A', rating: 4, date: '3週間前', text: '完全個室なので周りを気にせずレッスンに集中できます。インストラクターが体の癖を見抜いて的確にアドバイスしてくれます。' },
-    ],
+    image: '/images/studios/studio-ivy.webp', reviewCount: 86,
     price: '月4回 25,000円〜（1回6,250円〜）', trial: '体験レッスンあり',
     features: ['完全プライベート', 'オーダーメイド', '奥沢駅近く', '月謝制'],
     description: '完全プライベート空間で1人ひとりに合わせたオーダーメイドレッスンを提供するマシンピラティス専門スタジオ。奥沢駅近く、田園調布エリアからもアクセス良好。月謝制で継続しやすい料金設定。',
@@ -100,13 +76,7 @@ const studios = [
   {
     name: 'Dr.ピラティス 田園調布店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11979O.1.Z164554L.U1357808',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8, reviewCount: 72,
-    reviews: [
-      { author: 'K.T', rating: 5, date: '1週間前', text: '田園調布駅から徒歩30秒！医学的根拠に基づいたアプローチが特徴。全米認定トレーナーが在籍していて安心感がある。' },
-      { author: 'S.M', rating: 5, date: '2週間前', text: '2025年2月オープンの新しいスタジオ。ピラティスとトレーニングを組み合わせた二段階アプローチで効果を実感。' },
-      { author: 'A.H', rating: 4, date: '3週間前', text: '駅から30秒は本当に便利。パーソナル専門なので自分に合ったプログラムを組んでもらえます。' },
-    ],
+    image: '/images/studios/zen-place-pilates.webp', reviewCount: 72,
     price: 'パーソナル 1回 8,800円〜', trial: '体験レッスンあり',
     features: ['駅徒歩30秒', '医学的アプローチ', 'パーソナル専門', '2025年オープン'],
     description: '2025年2月オープンのパーソナルピラティスジム。田園調布駅から徒歩30秒という最高の立地。医学的根拠に基づいたピラティスとトレーニングの二段階アプローチ。全米アスレティックトレーナーズ協会認定トレーナー在籍。',

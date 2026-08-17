@@ -23,11 +23,6 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK ゆめタウン姫路店', image: '/images/studios/pilates-k.webp', rating: 4.6, reviewCount: 130,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '女性専用マシンピラティス専門スタジオ。ゆめタウン姫路内に位置し買い物ついでに通える。音楽に合わせた楽しいレッス。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 11,220円〜', trial: '体験レッスン 無料', features: ['女性専用','ゆめタウン姫路内','マシン専門','体験無料'],
     description: '女性専用マシンピラティス専門スタジオ。ゆめタウン姫路内に位置し買い物ついでに通える。音楽に合わせた楽しいレッスンが特徴',
     access: 'JR「英賀保駅」徒歩圏内（ゆめタウン姫路内）', address: '兵庫県姫路市 ゆめタウン姫路内',
@@ -38,11 +33,6 @@ const studios = [
   },
   {
     name: 'luluto（ルルト）姫路店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808', image: '/images/studios/luluto.webp', rating: 4.8, reviewCount: 22,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '全国展開の完全マンツーマンマシンピラティススタジオ。理学療法士が監修し実技試験に合格したトレーナーが指導。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月3回 29,700円〜', trial: '体験レッスンあり', features: ['完全マンツーマン','理学療法士監修','高品質指導','カスタマイズ'],
     description: '全国展開の完全マンツーマンマシンピラティススタジオ。理学療法士が監修し実技試験に合格したトレーナーが指導',
     access: '姫路市内（詳細は公式サイトでご確認ください）', address: '兵庫県姫路市（詳細は公式サイトでご確認ください）',
@@ -53,11 +43,6 @@ const studios = [
   },
   {
     name: 'Mstyle（エムスタイル）ピラティス', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 28,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '姫路市初のピラティス専用マシン完備の専門スタジオ。代表は助産師の資格を持つインストラクターで女性のライフステー。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['助産師資格保有','はりま勝原駅近く','女性専門','マシン完備'],
     description: '姫路市初のピラティス専用マシン完備の専門スタジオ。代表は助産師の資格を持つインストラクターで女性のライフステージに寄り添った指導が特徴',
     access: 'JR「はりま勝原駅」徒歩圏内', address: '兵庫県姫路市（詳細は公式サイトでご確認ください）',
@@ -68,11 +53,6 @@ const studios = [
   },
   {
     name: 'ピラティススタジオ Rinc', image: '/images/studios/zen-place-pilates.webp', rating: 4.6, reviewCount: 18,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'アメリカから輸入した本格マシンを使用する姫路のピラティススタジオ。PHIピラティスの本格的なレッスンとペアレッ。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['本格PHIピラティス','ペアレッスン可','アメリカ輸入マシン','姿勢改善'],
     description: 'アメリカから輸入した本格マシンを使用する姫路のピラティススタジオ。PHIピラティスの本格的なレッスンとペアレッスンも可能',
     access: '姫路市内（詳細は公式サイトでご確認ください）', address: '兵庫県姫路市（詳細は公式サイトでご確認ください）',
@@ -83,11 +63,6 @@ const studios = [
   },
   {
     name: 'TONING UP', image: '/images/studios/zen-place-pilates.webp', rating: 4.5, reviewCount: 15,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'グループレッスン最大6名の少人数制スタジオ。レベル別・効果別など様々なスタイルでレッスンを提供。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['最大6名少人数制','レベル別クラス','プライベートあり','姫路駅近く'],
     description: 'グループレッスン最大6名の少人数制スタジオ。レベル別・効果別など様々なスタイルでレッスンを提供',
     access: '姫路市内（詳細は公式サイトでご確認ください）', address: '兵庫県姫路市（詳細は公式サイトでご確認ください）',

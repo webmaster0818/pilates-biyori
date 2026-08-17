@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'ピラティスK 大阪（複数店舗）',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.0,
-    reviewCount: 159,
-    reviews: [
-      {
-        author: 'A.M',
-        rating: 5,
-        date: '1週間前',
-        text: '梅田店に通っています。音楽×暗闘レッスンが楽しくて、毎回テンション上がります。JR大阪駅からも近くて通いやすいです。女性専用なので安心。',
-      },
-      {
-        author: 'S.K',
-        rating: 4,
-        date: '2週間前',
-        text: '難波店を利用中。お尻と二の腕に特化したプログラムが充実していて、3ヶ月でボディラインが変わりました。御堂筋線で1本なので便利です。',
-      },
-      {
-        author: 'Y.N',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '無料体験で雰囲気を確認してから入会しました。スタイリッシュな内装でモチベーションが上がります。心斎橋エリアからもアクセスしやすいです。',
-      },
-    ],
     price: '月4回 13,420円〜',
     trial: '無料体験レッスン',
     features: ['音楽×マシン', '女性専用', '大阪府内複数店舗', '暗闇レッスン'],
@@ -76,28 +54,6 @@ const studios = [
   {
     name: 'fis.pilates（フィスピラティス）',
     image: '/images/studios/fis-pilates.webp',
-    rating: 4.3,
-    reviewCount: 6,
-    reviews: [
-      {
-        author: 'R.T',
-        rating: 5,
-        date: '5日前',
-        text: '梅田店で完全個室パーソナルを受けています。女性トレーナーが丁寧に指導してくれるので、身体の悩みを相談しやすいです。JR大阪駅から徒歩圏内で通いやすい。',
-      },
-      {
-        author: 'M.H',
-        rating: 5,
-        date: '2週間前',
-        text: '天王寺店を利用。12店舗あるので自宅と職場の最寄りを使い分けられるのが便利です。肩こりと腰痛が3ヶ月で改善しました。',
-      },
-      {
-        author: 'K.O',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '難波エリアの店舗に通っています。完全個室なので周りの目を気にせず集中できます。御堂筋線沿いでアクセス抜群。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['女性専用', 'マシン専門パーソナル', '大阪府下12店舗', '個室マンツーマン'],
@@ -129,28 +85,6 @@ const studios = [
   {
     name: 'La pilates 天王寺店',
     image: '/images/studios/la-pilates.webp',
-    rating: 4.2,
-    reviewCount: 13,
-    reviews: [
-      {
-        author: 'H.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '天王寺駅からすぐで通いやすいです。整体とピラティスの組み合わせが最高。身体の歪みを整えてからトレーニングするので効果がすごく出ます。',
-      },
-      {
-        author: 'N.S',
-        rating: 4,
-        date: '3週間前',
-        text: 'スタジオの雰囲気が明るくて、毎回レッスンが楽しみです。JR天王寺駅・御堂筋線天王寺駅どちらからも近いのがポイント。',
-      },
-      {
-        author: 'E.K',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '体験レッスン3,000円で整体×ピラティスを試せました。他にはないアプローチで、腰痛が改善してきています。',
-      },
-    ],
     price: 'サブスク月1回 12,000円〜',
     trial: '体験レッスン 3,000円',
     features: ['整体×マシンピラティス', '駅近', '明るいスタジオ', '楽しいレッスン'],
@@ -182,28 +116,6 @@ const studios = [
   {
     name: 'DAYS PILATES（デイズピラティス）',
     image: '/images/studios/days-pilates-osaka.webp',
-    rating: 4.1,
-    reviewCount: 22,
-    reviews: [
-      {
-        author: 'C.M',
-        rating: 5,
-        date: '1週間前',
-        text: '心斎橋店に通っています。女性専用で設備がとても綺麗。フリーロッカー・パウダーコーナー完備で、仕事帰りでも気軽に立ち寄れます。',
-      },
-      {
-        author: 'T.A',
-        rating: 4,
-        date: '2週間前',
-        text: '梅田店を利用中。JR大阪駅から近くて便利です。マシン専門なので初心者でも正しいフォームで効率よくトレーニングできます。',
-      },
-      {
-        author: 'L.W',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '御堂筋線沿いの心斎橋と梅田の2店舗があるので、その日の予定に合わせて選べるのが良いです。インストラクターも丁寧で安心。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['女性専用', 'マシン専門', '心斎橋・梅田', '充実設備'],
@@ -235,28 +147,6 @@ const studios = [
   {
     name: 'CLUB PILATES 大阪',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.0,
-    reviewCount: 68,
-    reviews: [
-      {
-        author: 'J.T',
-        rating: 5,
-        date: '5日前',
-        text: '世界800店舗以上の実績があるだけあって、プログラムの質が高いです。梅田エリアで本格的なピラティスが学べます。無料体験がありがたい。',
-      },
-      {
-        author: 'P.S',
-        rating: 4,
-        date: '2週間前',
-        text: 'グループレッスンとプライベートの両方を使い分けています。JR大阪駅からアクセスしやすく、インストラクターの指導が的確です。',
-      },
-      {
-        author: 'D.N',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '初心者でも安心して通えます。世界最大級のネットワークで、出張先でもレッスンを受けられるのが便利。御堂筋線からもアクセス良好。',
-      },
-    ],
     price: '要問合せ',
     trial: '無料体験レッスン',
     features: ['アメリカ発', '世界800店舗以上', 'グループ＆プライベート', '初心者歓迎'],
@@ -288,28 +178,6 @@ const studios = [
   {
     name: 'STUDIO IVY 大阪',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.1,
-    reviewCount: 3,
-    reviews: [
-      {
-        author: 'W.K',
-        rating: 5,
-        date: '1週間前',
-        text: '大阪府内3店舗あるので、職場近くと自宅近くを使い分けています。マシンピラティスの質が高く、インストラクターの知識も豊富です。',
-      },
-      {
-        author: 'F.Y',
-        rating: 4,
-        date: '3週間前',
-        text: '難波エリアの店舗に通っています。初心者でも丁寧に教えてもらえるので安心。御堂筋線からすぐでアクセスも良いです。',
-      },
-      {
-        author: 'B.M',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '継続しやすい立地が魅力。通いやすさは続けるうえで本当に大事だと実感しています。3店舗相互利用ができるのもポイント。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['大阪府3店舗', '通いやすい立地', 'マシン完備', '選べる店舗'],
@@ -341,28 +209,6 @@ const studios = [
   {
     name: 'STABE 本町',
     image: '/images/studios/stabe-osaka.webp',
-    rating: 4.2,
-    reviewCount: 14,
-    reviews: [
-      {
-        author: 'G.S',
-        rating: 5,
-        date: '10日前',
-        text: '御堂筋線本町駅から近くて通いやすいです。ピラティス×ヨガの融合プログラムが他にない魅力。背骨の柔軟性が明らかに上がりました。',
-      },
-      {
-        author: 'O.H',
-        rating: 4,
-        date: '3週間前',
-        text: '心斎橋エリアからも通える立地。マシン完備で本格的なピラティスが学べます。ヨガも同時にできるのでお得感があります。',
-      },
-      {
-        author: 'I.T',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '背骨の柔軟性を高めるプログラムが素晴らしい。デスクワークで凝り固まった身体がほぐれていくのを実感しています。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['大阪本町', 'マシン専門', 'PILATES × YOGA', '背骨の柔軟性'],
@@ -394,28 +240,6 @@ const studios = [
   {
     name: 'PILATES KASANE 大阪',
     image: '/images/studios/pilates-kasane-osaka.webp',
-    rating: 4.0,
-    reviewCount: 38,
-    reviews: [
-      {
-        author: 'U.N',
-        rating: 5,
-        date: '1週間前',
-        text: '体験料金2,200円で気軽に始められました。少人数制なので一人一人丁寧に見てもらえます。梅田エリアからもアクセスしやすいです。',
-      },
-      {
-        author: 'V.K',
-        rating: 4,
-        date: '2週間前',
-        text: '「健康美を引き出す」というコンセプトが気に入っています。無理のないペースで続けられるのが嬉しい。難波からも通える距離です。',
-      },
-      {
-        author: 'Z.R',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '少人数制のグループレッスンで、初心者でも安心して参加できました。インストラクターが温かい雰囲気で、毎回楽しく通えています。',
-      },
-    ],
     price: '体験 2,200円',
     trial: '体験レッスン 2,200円',
     features: ['お手頃体験料金', '少人数制', '健康美を引き出す', '丁寧な指導'],

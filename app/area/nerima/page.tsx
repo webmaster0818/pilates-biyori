@@ -25,28 +25,6 @@ const studios = [
     name: 'zen place pilates 練馬スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 35,
-    reviews: [
-      {
-        author: 'M.H',
-        rating: 5,
-        date: '1週間前',
-        text: '練馬駅中央口から徒歩1分。西武池袋線・都営大江戸線の2路線利用可能で通いやすい。少人数制で丁寧な指導が受けられる。',
-      },
-      {
-        author: 'K.A',
-        rating: 5,
-        date: '2週間前',
-        text: '全国150店舗以上で相互利用可能。池袋方面の店舗も使えるのが便利。マットもマシンも両方受けられる。',
-      },
-      {
-        author: 'Y.T',
-        rating: 4,
-        date: '3週間前',
-        text: 'グループ体験1,000円で試せました。体験当日入会で入会金無料。男性もOKなので夫婦で通っています。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['練馬駅徒歩1分', '2路線利用可', '男性OK', '全国相互利用'],
@@ -78,28 +56,6 @@ const studios = [
   {
     name: 'ピラティスミラー 練馬',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.7,
-    reviewCount: 44,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '1週間前',
-        text: '練馬駅から徒歩5分。コナミスポーツが運営する安心のスタジオ。30分レッスンで鏡を見ながらフォームを確認できるのが良い。',
-      },
-      {
-        author: 'A.Y',
-        rating: 4,
-        date: '2週間前',
-        text: '月額11,000円で月6回まで通える。7回目以降は1回1,100円の追加で利用可能。短時間で効率的にトレーニングできる。',
-      },
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '3週間前',
-        text: 'プライベートレッスンも30分4,400円〜で追加可能。体験は2,200円で気軽に試せます。',
-      },
-    ],
     price: '月額 11,000円（月6回）',
     trial: '体験レッスン 2,200円',
     features: ['練馬駅徒歩5分', 'コナミ運営', '30分レッスン', '鏡でフォーム確認'],
@@ -131,28 +87,6 @@ const studios = [
   {
     name: 'Olulu 練馬スタジオ',
     image: '/images/studios/olulu-nerima.webp',
-    rating: 4.7,
-    reviewCount: 22,
-    reviews: [
-      {
-        author: 'N.M',
-        rating: 5,
-        date: '1週間前',
-        text: '練馬駅から徒歩1分！入会金0円キャンペーン中。月2回5,500円〜と練馬エリアで最もリーズナブル。お子様連れヨガ＆ピラティスもあり。',
-      },
-      {
-        author: 'E.S',
-        rating: 5,
-        date: '2週間前',
-        text: '産後の体ケアで通い始めました。子連れOKのクラスがあるのが本当にありがたい。インストラクターも優しくて安心。',
-      },
-      {
-        author: 'T.H',
-        rating: 4,
-        date: '3週間前',
-        text: 'マシンピラティスのスタジオも併設。オールタイム通い放題16,500円で好きなだけ通える。平日通い放題なら11,000円。',
-      },
-    ],
     price: '月2回 5,500円〜',
     trial: '体験レッスンあり',
     features: ['練馬駅徒歩1分', '入会金0円', '子連れOK', '月5,500円〜'],
@@ -184,28 +118,6 @@ const studios = [
   {
     name: 'Rintosull 練馬店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.6,
-    reviewCount: 47,
-    reviews: [
-      {
-        author: 'H.K',
-        rating: 5,
-        date: '1週間前',
-        text: '練馬駅から徒歩2分の女性専用スタジオ。LAVA系列で安心感がある。大画面モニターを見ながらグループでマシンピラティスができる。',
-      },
-      {
-        author: 'M.I',
-        rating: 4,
-        date: '2週間前',
-        text: '月4回8,800円〜でコスパが良い。姿勢診断で自分の体の状態を把握できるのが嬉しい。初心者でも分かりやすい。',
-      },
-      {
-        author: 'C.A',
-        rating: 5,
-        date: '3週間前',
-        text: '女性専用なので安心。LAVA会員特典もあり、ホットヨガとの併用もできる。',
-      },
-    ],
     price: '月4回 8,800円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', '練馬駅徒歩2分', 'LAVA系列', '姿勢診断あり'],
@@ -237,28 +149,6 @@ const studios = [
   {
     name: 'Pilates Mee 練馬店',
     image: '/images/studios/pilates-mee.webp',
-    rating: 4.6,
-    reviewCount: 21,
-    reviews: [
-      {
-        author: 'A.T',
-        rating: 5,
-        date: '1週間前',
-        text: '1レッスン最大3名のセミパーソナルで1回1,250円〜とコスパ最強。マシンピラティスをこの価格で受けられるのはすごい。',
-      },
-      {
-        author: 'Y.K',
-        rating: 4,
-        date: '2週間前',
-        text: '少人数制なのでインストラクターにしっかり見てもらえます。初心者でも安心してレッスンを受けられる。',
-      },
-      {
-        author: 'R.H',
-        rating: 5,
-        date: '3週間前',
-        text: '予約も取りやすく通いやすい。セミパーソナルなのでグループより丁寧に指導してもらえる。',
-      },
-    ],
     price: '1回 1,250円〜',
     trial: '体験レッスン 9,800円',
     features: ['セミパーソナル', '最大3名', '1回1,250円〜', '練馬駅近く'],
@@ -290,28 +180,6 @@ const studios = [
     name: 'ELEMENT 練馬店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=U11199J.1.V154352I.U1357808',
     image: '/images/studios/element.webp',
-    rating: 4.6,
-    reviewCount: 21,
-    reviews: [
-      {
-        author: 'K.M',
-        rating: 5,
-        date: '1週間前',
-        text: '練馬駅近くでマンツーマンのマシンピラティスが受けられる。1回30分の短時間レッスンで忙しい人にもぴったり。通い放題もあり。',
-      },
-      {
-        author: 'S.T',
-        rating: 4,
-        date: '2週間前',
-        text: '完全マンツーマンで自分の体に合わせたメニューを組んでもらえる。初心者でも安心して通える。',
-      },
-      {
-        author: 'N.A',
-        rating: 5,
-        date: '3週間前',
-        text: 'パーソナルなのに通い放題プランがあるのが魅力。好きなだけ通えるので効果を実感しやすい。',
-      },
-    ],
     price: '月額 38,280円〜（通い放題）',
     trial: '体験レッスンあり',
     features: ['マンツーマン', '30分レッスン', '通い放題', '練馬駅近く'],

@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'CLUB PILATES 熊本駅前店',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.7,
-    reviewCount: 90,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '1週間前',
-        text: '世界最大級のブランドで15種類の器具を使った本格レッスン。最大12名のグループレッスンで1人1台マシン完備。無料の30分体験あり。',
-      },
-      {
-        author: 'S.T',
-        rating: 5,
-        date: '2週間前',
-        text: '4段階のレベル分けで初心者でも安心。男性会員も多い。8つのプログラムで飽きずに続けられる。高強度クラスもありダイエットにも最適。',
-      },
-      {
-        author: 'R.N',
-        rating: 4,
-        date: '3週間前',
-        text: 'インストラクター全員が500時間以上の研修を受けた資格保持者。有酸素運動を含むレッスンもあり多彩。',
-      },
-    ],
     price: '月4回 14,190円〜',
     trial: '体験レッスン 無料（30分）',
     features: ['世界最大級', '15種類の器具', '男性OK', '4段階レベル分け'],
@@ -76,28 +54,6 @@ const studios = [
   {
     name: 'ピラティスK 熊本店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.6,
-    reviewCount: 143,
-    reviews: [
-      {
-        author: 'K.N',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用のマシン専門スタジオ。音楽に合わせたリフォーマーレッスンが楽しい。月4回13,420円で始められるのも魅力。',
-      },
-      {
-        author: 'Y.M',
-        rating: 4,
-        date: '2週間前',
-        text: '体験0円で気軽に試せた。5パート別ボディメイクプログラムで部位ごとに集中トレーニングできるのが良い。',
-      },
-      {
-        author: 'A.S',
-        rating: 5,
-        date: '3週間前',
-        text: 'マシン専門なのでリフォーマーのレッスンが充実。女性専用で安心して通える。清潔感のある空間。',
-      },
-    ],
     price: '月4回 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', 'マシン専門', '音楽レッスン', '5パート別ボディメイク'],
@@ -129,28 +85,6 @@ const studios = [
   {
     name: 'Rintosull ゆめタウンサンピアン店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.5,
-    reviewCount: 50,
-    reviews: [
-      {
-        author: 'E.M',
-        rating: 5,
-        date: '1週間前',
-        text: 'LAVA系列で安心。月4回8,800円とマシンピラティスでは破格の安さ。初心者が87%以上なので気後れせず通える。',
-      },
-      {
-        author: 'N.K',
-        rating: 5,
-        date: '2週間前',
-        text: '無料体験でパーソナル姿勢診断もしてもらえた。女性専用で清潔感がある。ゆめタウン内なので買い物ついでに通えて便利。',
-      },
-      {
-        author: 'H.Y',
-        rating: 4,
-        date: '3週間前',
-        text: 'プレミアムフリーフルタイムでLAVA等系列のヨガスタジオも利用可能。ピラティスとヨガ両方やりたい人におすすめ。',
-      },
-    ],
     price: '月4回 8,800円〜',
     trial: '体験レッスン 無料',
     features: ['LAVA系列', '女性専用', '初心者87%以上', '熊本エリア'],
@@ -182,28 +116,6 @@ const studios = [
   {
     name: 'STUDIO IVY 熊本大江店',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.8,
-    reviewCount: 13,
-    reviews: [
-      {
-        author: 'T.M',
-        rating: 5,
-        date: '1週間前',
-        text: '完全パーソナルで自分だけのオーダーメイドレッスン。完全プライベート空間なので人目を気にせず集中できる。',
-      },
-      {
-        author: 'C.Y',
-        rating: 5,
-        date: '2週間前',
-        text: '月2回15,000円から始められるパーソナル。体の状態に合わせたプログラムを組んでもらえるので効率が良い。',
-      },
-      {
-        author: 'K.S',
-        rating: 4,
-        date: '3週間前',
-        text: '体験は4,500円だけどしっかりカウンセリングもあり価値あり。インストラクターの質が高い。',
-      },
-    ],
     price: '月2回 15,000円〜',
     trial: '体験レッスン 4,500円',
     features: ['完全パーソナル', '完全プライベート空間', 'オーダーメイド', '月2回から'],
@@ -235,28 +147,6 @@ const studios = [
   {
     name: 'Pilates & Gym 1to1 熊本店',
     image: '/images/studios/pilates-gym-1to1.webp',
-    rating: 4.7,
-    reviewCount: 29,
-    reviews: [
-      {
-        author: 'A.K',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用の完全個室パーソナル。1回6,600円〜でパーソナルが受けられるのはコスパが良い。入会金無料もありがたい。',
-      },
-      {
-        author: 'Y.N',
-        rating: 5,
-        date: '2週間前',
-        text: '食事プラン付きで運動と食事の両面からサポートしてもらえる。手ぶらOKなので仕事帰りにも通いやすい。',
-      },
-      {
-        author: 'M.H',
-        rating: 4,
-        date: '3週間前',
-        text: '完全個室なので周りを気にせずレッスンに集中できる。インストラクターが丁寧で初心者でも安心。',
-      },
-    ],
     price: 'パーソナル 1回6,600円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', '完全個室', '入会金無料', '食事プラン付き'],

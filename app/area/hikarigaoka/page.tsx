@@ -21,13 +21,6 @@ const studios = [
   {
     name: 'ピラティス青空',
     image: '/images/studios/default-studio.webp',
-    rating: 4.7,
-    reviewCount: 18,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '練馬・光が丘にある専用マシンの揃うプライベートピラティススタジオ。少人数で丁寧な指導。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["プライベートスタジオ", "専用マシン", "少人数", "アットホーム"],
@@ -42,13 +35,6 @@ const studios = [
   {
     name: 'CLUB PILATES 練馬店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.6,
-    reviewCount: 72,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '世界1000店舗以上展開。15種類の器具と4段階レベル分けで初心者から上級者まで対応。光が丘からもアクセス可能。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月4回 14,190円〜',
     trial: '体験レッスン 無料（30分）',
     features: ["世界最大級", "15種類の器具", "男性OK", "4段階レベル"],
@@ -63,13 +49,6 @@ const studios = [
   {
     name: 'ピラティススタジオcococara',
     image: '/images/studios/default-studio.webp',
-    rating: 4.7,
-    reviewCount: 22,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: 'マシン×マンツーマンのオーダーメイド指導。少人数制マットレッスンもあり。光が丘の静かな環境でリラックス。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["マシン×マンツーマン", "オーダーメイド", "静かな環境", "少人数マット"],
@@ -85,13 +64,6 @@ const studios = [
     name: 'zen place pilates 練馬',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/default-studio.webp',
-    rating: 4.5,
-    reviewCount: 48,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '全国150店舗以上展開。マット・マシン・グループ・プライベートすべてに対応。光が丘から練馬駅はバスで約15分。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
     features: ["全国150店舗", "マット&マシン", "男性OK", "AI姿勢分析"],
@@ -106,13 +78,6 @@ const studios = [
   {
     name: 'PALES ピラティス練馬・練馬春日町店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.6,
-    reviewCount: 15,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '完全予約制のマンツーマンピラティス。1回30分4,950円〜と都内では比較的安価。光が丘からバスでアクセス可能。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '1回 4,950円〜',
     trial: '体験レッスンあり',
     features: ["完全予約制", "マンツーマン", "30分4,950円〜", "体幹強化"],

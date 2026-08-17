@@ -21,13 +21,6 @@ const studios = [
   {
     name: 'pilates K 久留米店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.5,
-    reviewCount: 58,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '女性限定マシンピラティス専門スタジオ。無料駐車場完備で車通いに最適。部位別プログラムが充実。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月4回 13,420円〜',
     trial: '体験レッスン 無料',
     features: ["女性専用", "無料駐車場", "部位別プログラム", "1人1台マシン"],
@@ -42,13 +35,6 @@ const studios = [
   {
     name: 'リアン久留米スタジオ',
     image: '/images/studios/default-studio.webp',
-    rating: 4.7,
-    reviewCount: 35,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '解剖学・運動科学に基づいたアプローチが特長。少人数専門プライベートスタジオ。ピラティス&ヨガを提供。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["解剖学ベース", "少人数制", "プライベート", "ピラティス&ヨガ"],
@@ -63,13 +49,6 @@ const studios = [
   {
     name: 'ピラティススタジオNOA',
     image: '/images/studios/default-studio.webp',
-    rating: 4.8,
-    reviewCount: 25,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '整形外科と産婦人科の双方が監修に携わる久留米市最大級のマシンピラティススタジオ。鍼灸院・整骨院も併設。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["医療監修", "整形外科監修", "産婦人科監修", "鍼灸院併設"],
@@ -84,13 +63,6 @@ const studios = [
   {
     name: 'Pilates Studio egal',
     image: '/images/studios/default-studio.webp',
-    rating: 4.6,
-    reviewCount: 20,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '国際資格トレーナーが指導する女性専用スタジオ。20代〜70代まで幅広い会員。個別指導で初心者も安心。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["国際資格トレーナー", "女性専用", "20代〜70代", "個別指導"],
@@ -105,13 +77,6 @@ const studios = [
   {
     name: '晴れるや',
     image: '/images/studios/default-studio.webp',
-    rating: 4.7,
-    reviewCount: 15,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '初心者専門の女性専用マシンピラティススタジオ。1対1のパーソナルと2人までのセミパーソナルレッスン。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["初心者専門", "女性専用", "パーソナル&セミパーソナル", "1対1"],

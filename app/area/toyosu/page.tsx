@@ -26,28 +26,6 @@ const studios = [
   {
     name: 'CLUB PILATES 豊洲店',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.8,
-    reviewCount: 113,
-    reviews: [
-      {
-        author: 'A.K',
-        rating: 5,
-        date: '1週間前',
-        text: '有楽町線豊洲駅から徒歩3分。豊洲セイルパーク1Fで通いやすい。世界1000店舗以上展開の安心ブランドで、8種類のクラスから選べます。',
-      },
-      {
-        author: 'M.S',
-        rating: 5,
-        date: '2週間前',
-        text: '4段階のレベル分けで初心者から上級者まで対応。15種類の器具を使った本格レッスン。無料の30分イントロクラスで雰囲気がわかる。',
-      },
-      {
-        author: 'T.H',
-        rating: 4,
-        date: '3週間前',
-        text: '朝7時から営業で出勤前にも通える。インストラクター全員が500時間以上の研修を受けた資格保持者。男性会員も多い。',
-      },
-    ],
     price: '月4回 14,190円〜',
     trial: '無料イントロクラス（30分）',
     features: ['豊洲駅徒歩3分', '世界最大級', '男性OK', '無料体験あり'],
@@ -80,28 +58,6 @@ const studios = [
     name: 'ELEMENT 豊洲ピラティス専門店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=U11199J.1.V154352I.U1357808',
     image: '/images/studios/element.webp',
-    rating: 4.7,
-    reviewCount: 7,
-    reviews: [
-      {
-        author: 'Y.M',
-        rating: 5,
-        date: '1週間前',
-        text: '豊洲駅から徒歩1分！1回30分のパーソナルマシンピラティスが通い放題。ウェア・タオル・ドリンク全て無料で手ぶら通い。',
-      },
-      {
-        author: 'R.T',
-        rating: 5,
-        date: '2週間前',
-        text: '入会者の90%が運動初心者で安心。マンツーマンなので自分のペースで進められる。週5回通えば1回あたり約2,750円とコスパ最強。',
-      },
-      {
-        author: 'K.N',
-        rating: 4,
-        date: '3週間前',
-        text: '完全個室のプライベート空間。朝10時から夜22時まで営業で仕事帰りにも通える。プロテインも無料でうれしい。',
-      },
-    ],
     price: '月額 55,000円（通い放題）',
     trial: '体験レッスン 3,300円',
     features: ['豊洲駅徒歩1分', 'パーソナル専門', '通い放題', '手ぶらOK'],
@@ -133,28 +89,6 @@ const studios = [
   {
     name: 'follow Pilates Yoga Studio',
     image: '/images/studios/follow-pilates-toyosu.webp',
-    rating: 4.6,
-    reviewCount: 10,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '1週間前',
-        text: '豊洲駅1c出口から徒歩1分！豊洲フォレシア1階の緑が多い開放的なスタジオ。ピラティス・ヨガ・エアリアルヨガが全部楽しめる。',
-      },
-      {
-        author: 'N.H',
-        rating: 4,
-        date: '2週間前',
-        text: 'Merrithew SPX Maxリフォーマーを使ったマシンピラティスが本格的。理学療法士が監修するプログラムで安心。',
-      },
-      {
-        author: 'E.O',
-        rating: 5,
-        date: '3週間前',
-        text: '受け放題月額22,000円でマットピラティス・ヨガ・エアリアルが全て受けられる。マシンピラティスはセミパーソナルで丁寧に指導してもらえます。',
-      },
-    ],
     price: '受け放題 月額22,000円',
     trial: '体験レッスン 2,200円〜',
     features: ['豊洲駅徒歩1分', 'ヨガも受講可', 'マシンピラティス', 'エアリアルヨガ'],
@@ -186,28 +120,6 @@ const studios = [
   {
     name: 'Rintosull 月島店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.6,
-    reviewCount: 176,
-    reviews: [
-      {
-        author: 'C.M',
-        rating: 5,
-        date: '1週間前',
-        text: 'LAVA運営の女性専用マシンピラティス。月4回8,800円は豊洲エリアで最安クラス！月島駅から徒歩6分。',
-      },
-      {
-        author: 'H.Y',
-        rating: 4,
-        date: '2週間前',
-        text: '2025年10月にオープンしたばかりの新しいスタジオ。設備がきれい。リフォーマーを使ったグループレッスンが中心。',
-      },
-      {
-        author: 'A.S',
-        rating: 5,
-        date: '3週間前',
-        text: 'LAVAの会員特典で併用利用も可能。ホットヨガとマシンピラティスの両方を楽しめるのが魅力。',
-      },
-    ],
     price: '月4回 8,800円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '月島駅徒歩6分', 'LAVA運営', '低価格'],
@@ -240,28 +152,6 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 月島店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
-    rating: 4.5,
-    reviewCount: 148,
-    reviews: [
-      {
-        author: 'J.T',
-        rating: 5,
-        date: '1週間前',
-        text: '月島駅2番出口から徒歩1分！マシンピラティスとファンクショナルトレーニングのサーキット形式が新鮮。月額7,800円〜で通えるのが嬉しい。',
-      },
-      {
-        author: 'L.K',
-        rating: 4,
-        date: '2週間前',
-        text: '予約不要で好きな時間に通えるのが便利。1回30分のサーキットだから忙しくても続けやすい。平日は21:30まで営業。',
-      },
-      {
-        author: 'M.O',
-        rating: 4,
-        date: '3週間前',
-        text: 'リフォーマーとファンクショナルトレーニングを交互に行うので飽きない。初心者でも映像ガイドがあるから安心。',
-      },
-    ],
     price: '月額 7,800円〜',
     trial: '体験レッスン あり',
     features: ['月島駅徒歩1分', '予約不要', 'サーキット式', '低価格'],
@@ -293,28 +183,6 @@ const studios = [
   {
     name: 'Pilates Studio Refi',
     image: '/images/studios/pilates-studio-refi.webp',
-    rating: 4.7,
-    reviewCount: 12,
-    reviews: [
-      {
-        author: 'T.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '現役の作業療法士が運営するスタジオ。整体とピラティスを組み合わせたメニューが他にはない魅力。東雲エリアで豊洲からもアクセスしやすい。',
-      },
-      {
-        author: 'K.I',
-        rating: 5,
-        date: '2週間前',
-        text: 'パーソナル60分6,600円で丁寧な指導。体の歪みや姿勢の問題を根本から改善できる。リハビリ的なアプローチが安心。',
-      },
-      {
-        author: 'S.N',
-        rating: 4,
-        date: '3週間前',
-        text: 'マットグループ60分2,750円とリーズナブル。少人数制で一人ひとりしっかり見てもらえる。ペアレッスンもあるので友人と通えます。',
-      },
-    ],
     price: 'マットグループ 2,750円/回〜',
     trial: '体験レッスンあり',
     features: ['作業療法士監修', '整体×ピラティス', 'パーソナル対応', '少人数制'],

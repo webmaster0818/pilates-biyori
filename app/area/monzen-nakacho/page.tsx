@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates 門前仲町スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 20,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '1週間前',
-        text: 'zen placeで唯一キッズルームが併設されているスタジオ。子連れでも安心して通えます。balanced body製のマシンが揃っていて本格的です。',
-      },
-      {
-        author: 'S.T',
-        rating: 5,
-        date: '2週間前',
-        text: '全国150店舗以上を相互利用できるのが便利。出張先でもレッスンを受けられます。男性OKなので夫婦で通っています。',
-      },
-      {
-        author: 'R.N',
-        rating: 4,
-        date: '3週間前',
-        text: 'グループ体験が1,000円で気軽にお試しできました。月4回10,450円〜とコスパも良く、インストラクターの指導も丁寧です。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['キッズルーム併設', 'balanced body製マシン', '男性OK', '全国150店舗相互利用'],
@@ -78,28 +56,6 @@ const studios = [
   {
     name: 'the SILK',
     image: '/images/studios/the-silk.webp',
-    rating: 4.8,
-    reviewCount: 300,
-    reviews: [
-      {
-        author: 'E.M',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用で音楽に合わせたレッスンが楽しい！手ぶらOKなので仕事帰りにそのまま通えます。体験が無料なのも嬉しい。',
-      },
-      {
-        author: 'N.K',
-        rating: 5,
-        date: '2週間前',
-        text: '朝7:30から夜22:00まで営業しているので、早朝や仕事終わりでも通いやすいです。月3回12,980円〜で始められます。',
-      },
-      {
-        author: 'H.Y',
-        rating: 4,
-        date: '3週間前',
-        text: '音楽に乗りながらのピラティスは新感覚。楽しく続けられるので運動嫌いの私でも3ヶ月続いています。女性専用で安心。',
-      },
-    ],
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '音楽レッスン', '手ぶらOK', '体験無料'],
@@ -131,28 +87,6 @@ const studios = [
   {
     name: 'ピラティススタジオDIVA',
     image: '/images/studios/pilates-diva-monzennakacho.webp',
-    rating: 4.9,
-    reviewCount: 6,
-    reviews: [
-      {
-        author: 'A.T',
-        rating: 5,
-        date: '1週間前',
-        text: '門前仲町駅から徒歩3分で通いやすい。1対1の60分パーソナルセッションで、自分の体の状態に合わせたオーダーメイドのレッスンが受けられます。',
-      },
-      {
-        author: 'Y.S',
-        rating: 5,
-        date: '2週間前',
-        text: '越中島駅からも徒歩7分でアクセス良好。完全パーソナルなので初心者でも安心。体の悩みに寄り添った丁寧な指導が魅力です。',
-      },
-      {
-        author: 'K.M',
-        rating: 5,
-        date: '3週間前',
-        text: '60分のマンツーマンレッスンで、毎回自分の体調に合わせてメニューを組んでもらえます。肩こりや腰痛が改善されました。',
-      },
-    ],
     price: 'パーソナル（詳細は公式サイト参照）',
     trial: '体験レッスンあり',
     features: ['完全パーソナル', '駅徒歩3分', '60分セッション', 'オーダーメイド'],
@@ -184,28 +118,6 @@ const studios = [
   {
     name: 'YARD 清澄白河',
     image: '/images/studios/yard.webp',
-    rating: 4.6,
-    reviewCount: 19,
-    reviews: [
-      {
-        author: 'K.N',
-        rating: 5,
-        date: '1週間前',
-        text: 'ヨガとピラティスの専門スタジオで40種類以上のプログラムがあり飽きません。マットピラティスのクラスが充実しています。',
-      },
-      {
-        author: 'Y.M',
-        rating: 4,
-        date: '2週間前',
-        text: 'ホイールヨガやエアフローヨガなど珍しいプログラムも体験できます。ピラティスだけでなくヨガも楽しめるのが魅力。',
-      },
-      {
-        author: 'A.S',
-        rating: 5,
-        date: '3週間前',
-        text: '清澄白河のおしゃれなエリアにあり、通うのが楽しい。プログラムの種類が豊富で、自分に合ったレッスンを選べます。',
-      },
-    ],
     price: '公式サイトでご確認ください',
     trial: '体験レッスンあり',
     features: ['ヨガ&ピラティス専門', '40種類以上のプログラム', 'マットピラティス', 'ホイールヨガあり'],
@@ -238,28 +150,6 @@ const studios = [
   {
     name: 'スタジオプラス 清澄白河',
     image: '/images/studios/studio-plus-kiyosumi.webp',
-    rating: 4.7,
-    reviewCount: 21,
-    reviews: [
-      {
-        author: 'M.T',
-        rating: 5,
-        date: '1週間前',
-        text: 'ピラティスとエアリアルヨガの両方ができる珍しいスタジオ。1階のカフェでレッスン後にゆっくりくつろげるのも嬉しい。',
-      },
-      {
-        author: 'R.S',
-        rating: 5,
-        date: '2週間前',
-        text: '清澄白河駅と森下駅の両方から通えてアクセス便利。カフェ併設でおしゃれな雰囲気。エアリアルヨガは新感覚で楽しい。',
-      },
-      {
-        author: 'Y.K',
-        rating: 4,
-        date: '3週間前',
-        text: 'カフェ併設のスタジオはなかなかないので、レッスン前後のひとときも楽しめます。ピラティスもエアリアルヨガも初心者向けクラスあり。',
-      },
-    ],
     price: '公式サイトでご確認ください',
     trial: '体験レッスンあり',
     features: ['ピラティス&エアリアルヨガ', 'カフェ併設', '2駅利用可能', '初心者歓迎'],

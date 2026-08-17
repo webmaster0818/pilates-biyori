@@ -21,13 +21,6 @@ const studios = [
   {
     name: 'スタジオ インテグレ',
     image: '/images/studios/default-studio.webp',
-    rating: 4.7,
-    reviewCount: 35,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '別府駅から徒歩5〜7分。マシン×マットのピラティスに加え、TRXやAnimal Flowなど多彩なプログラムを提供。体験1,500円。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスン 1,500円',
     features: ["マシン×マット", "TRX", "Animal Flow", "別府駅近"],
@@ -42,13 +35,6 @@ const studios = [
   {
     name: 'ホットヨガロイブ トキハ別府店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.5,
-    reviewCount: 68,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '女性専用ホットヨガスタジオ。ピラティスやエクササイズなどプログラム豊富。シャワー・パウダールーム完備。手ぶら体験0円。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月額制',
     trial: '手ぶら体験 0円',
     features: ["女性専用", "ホットヨガ", "ピラティスプログラム", "シャワー完備"],
@@ -63,13 +49,6 @@ const studios = [
   {
     name: 'CLUB 30',
     image: '/images/studios/default-studio.webp',
-    rating: 4.6,
-    reviewCount: 18,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '別府駅から徒歩5分。ピラティスレッスンが受けられるパーソナルジム。オンラインとスタジオの両方に対応。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["パーソナルジム", "ピラティス", "オンライン対応", "体の硬い方OK"],
@@ -84,13 +63,6 @@ const studios = [
   {
     name: 'BALANS',
     image: '/images/studios/default-studio.webp',
-    rating: 4.5,
-    reviewCount: 12,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '別府の地域密着型ヨガ&ピラティススタジオ。少人数制のアットホームな雰囲気で初心者も安心。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["少人数制", "アットホーム", "ヨガ&ピラティス", "地域密着"],
@@ -105,13 +77,6 @@ const studios = [
   {
     name: 'seuse（セウス）大分',
     image: '/images/studios/default-studio.webp',
-    rating: 4.6,
-    reviewCount: 42,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: 'トレーナー・理学療法士・管理栄養士が在籍。別府から電車約15分の大分市内。多角的なサポート体制。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["多職種スタッフ", "管理栄養士", "トータルサポート", "ピラティス&ヨガ"],

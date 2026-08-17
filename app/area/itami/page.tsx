@@ -23,11 +23,6 @@ export const metadata = {
 const studios = [
   {
     name: 'Rintosull（リントスル）イオンモール伊丹店', image: '/images/studios/rintosull.webp', rating: 4.5, reviewCount: 110,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'ホットヨガLAVAの姉妹ブランド。伊丹駅より徒歩1分のイオンモール内。月4回10,000円程度で通い放題は15。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 10,000円程度', trial: '体験レッスンあり', features: ['伊丹駅徒歩1分','LAVA相互利用','低価格','イオンモール内'],
     description: 'ホットヨガLAVAの姉妹ブランド。伊丹駅より徒歩1分のイオンモール内。月4回10,000円程度で通い放題は15,000円程度と低価格',
     access: 'JR「伊丹駅」/ 阪急「伊丹駅」徒歩1分（イオンモール伊丹内）', address: '兵庫県伊丹市 イオンモール伊丹内',
@@ -38,11 +33,6 @@ const studios = [
   },
   {
     name: '姿勢改善専門スタジオ ネコノビ', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 35,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '阪急伊丹駅徒歩1分。神経整体×ピラティスで猫背・反り腰・肩こり・腰痛などの慢性症状に対応する専門スタジオ。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['阪急伊丹駅徒歩1分','神経整体×ピラティス','猫背改善','肩こり対応'],
     description: '阪急伊丹駅徒歩1分。神経整体×ピラティスで猫背・反り腰・肩こり・腰痛などの慢性症状に対応する専門スタジオ',
     access: '阪急伊丹線「伊丹駅」徒歩1分', address: '兵庫県伊丹市（詳細は公式サイトでご確認ください）',
@@ -53,11 +43,6 @@ const studios = [
   },
   {
     name: 'luluto（ルルト）伊丹店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808', image: '/images/studios/luluto.webp', rating: 4.8, reviewCount: 15,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '完全マンツーマンのマシンピラティススタジオ。理学療法士監修で一人ひとりの体に合わせた指導。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月3回 29,700円〜', trial: '体験レッスンあり', features: ['完全マンツーマン','理学療法士監修','高品質指導','カスタマイズ'],
     description: '完全マンツーマンのマシンピラティススタジオ。理学療法士監修で一人ひとりの体に合わせた指導',
     access: '伊丹市内（詳細は公式サイトでご確認ください）', address: '兵庫県伊丹市（詳細は公式サイトでご確認ください）',
@@ -68,11 +53,6 @@ const studios = [
   },
   {
     name: 'ピラティスアヴニール 伊丹店', image: '/images/studios/zen-place-pilates.webp', rating: 4.6, reviewCount: 28,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'カウンセリング・姿勢チェック・姿勢分析を経て最適なトレーニングプランを立てるパーソナルピラティススタジオ。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['カスタマイズトレーニング','姿勢チェック','初心者〜上級者','丁寧な指導'],
     description: 'カウンセリング・姿勢チェック・姿勢分析を経て最適なトレーニングプランを立てるパーソナルピラティススタジオ',
     access: '伊丹市内（詳細は公式サイトでご確認ください）', address: '兵庫県伊丹市（詳細は公式サイトでご確認ください）',
@@ -83,11 +63,6 @@ const studios = [
   },
   {
     name: 'STAR Pilates（スターピラティス）伊丹', image: '/images/studios/zen-place-pilates.webp', rating: 4.5, reviewCount: 42,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '女性専用のマシンピラティススタジオ。リフォーマーを使った10名ほどの少人数制グループレッスンで初心者向けプログ。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['女性専用','リフォーマー専門','少人数制10名','初心者向け'],
     description: '女性専用のマシンピラティススタジオ。リフォーマーを使った10名ほどの少人数制グループレッスンで初心者向けプログラムが豊富',
     access: '伊丹市内（詳細は公式サイトでご確認ください）', address: '兵庫県伊丹市（詳細は公式サイトでご確認ください）',

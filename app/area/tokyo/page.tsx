@@ -25,28 +25,6 @@ const studios = [
     name: 'zen place pilates',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.3,
-    reviewCount: 34,
-    reviews: [
-      {
-        author: 'M.T',
-        rating: 5,
-        date: '2週間前',
-        text: '全国150店舗以上を展開しているだけあって、どの店舗でもエデュケーターの質が高いです。22年の実績と累計500万回のレッスンは伊達じゃないですね。姿勢が良くなって肩こりも改善しました。',
-      },
-      {
-        author: 'Y.S',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '全店舗相互利用可能なのが本当に便利！自宅近くの店舗と職場近くの店舗を使い分けています。マットもマシンも充実していて、自分のペースで続けられます。',
-      },
-      {
-        author: 'K.N',
-        rating: 4,
-        date: '3週間前',
-        text: '医療機関も推奨しているだけあって、身体の仕組みを理解した上での指導が受けられます。料金もマットグループなら月4回9,625円からと始めやすい価格帯です。',
-      },
-    ],
     price: '月4回 9,625円〜',
     trial: '体験レッスン あり',
     features: ['全国150店舗', 'マット＆マシン', '男性OK', '全店相互利用可'],
@@ -78,28 +56,6 @@ const studios = [
   {
     name: 'ピラティスK',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.0,
-    reviewCount: 234,
-    reviews: [
-      {
-        author: 'S.T',
-        rating: 5,
-        date: '5日前',
-        text: '暗闘×音楽で楽しく続けられます！周りを気にせず思いっきり動けるのでストレス発散にもなります。3ヶ月で体重が3kg減りました。Forbes Japan Women Award受賞も納得の質です。',
-      },
-      {
-        author: 'M.K',
-        rating: 4,
-        date: '1週間前',
-        text: '女性専用なので安心感があります。中目黒、池袋、銀座など都内に多数展開しているので通いやすいです。音楽に合わせて動くので飽きません。',
-      },
-      {
-        author: 'E.H',
-        rating: 5,
-        date: '2週間前',
-        text: 'グループレッスンですが丁寧に見てくれます。暗闇なので初心者でも恥ずかしくない。楽しく続けられて、姿勢も良くなってきた気がします。',
-      },
-    ],
     price: '月4回 13,420円〜',
     trial: '無料体験レッスン',
     features: ['音楽×マシン', '女性専用', '暗闇レッスン', '東京都内多数'],
@@ -131,28 +87,6 @@ const studios = [
   {
     name: 'ルルト（luluto）', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
     image: '/images/studios/luluto.webp',
-    rating: 4.3,
-    reviewCount: 26,
-    reviews: [
-      {
-        author: 'D.M',
-        rating: 5,
-        date: '1週間前',
-        text: '理学療法士が考案しただけあって、身体の仕組みを深く理解した上での指導が受けられます。リハビリ目的で通い始めましたが、身体が正しく動くようになって感動しました。',
-      },
-      {
-        author: 'F.T',
-        rating: 5,
-        date: '2週間前',
-        text: '一人ひとりの身体の状態に合わせたオーダーメイドプログラムが素晴らしい。「ただ動く」のではなく「正しく動かす」ことの大切さを実感しています。',
-      },
-      {
-        author: 'B.Y',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '医療的視点からのアプローチが他のスタジオとは全く違います。腰痛で悩んでいましたが、原因を丁寧に説明してくれて改善プログラムを組んでもらえました。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['理学療法士考案', '医療的視点', '身体の専門家', 'オーダーメイド'],
@@ -184,28 +118,6 @@ const studios = [
   {
     name: 'CLUB PILATES',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.1,
-    reviewCount: 118,
-    reviews: [
-      {
-        author: 'A.M',
-        rating: 5,
-        date: '1週間前',
-        text: 'アメリカ発の世界最大級のメソッドを日本で体験できるのが魅力です。グループもプライベートも選べて、自分のレベルに合わせて進められます。',
-      },
-      {
-        author: 'T.Y',
-        rating: 4,
-        date: '2週間前',
-        text: '体験レッスンが無料なので気軽に始められました。インストラクターの質が高く、全米No.1のメソッドは本当に効果を実感できます。',
-      },
-      {
-        author: 'R.S',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '世界800店舗以上展開しているだけあって、プログラムの質は素晴らしいです。初心者から上級者まで幅広く対応してくれるのが良いですね。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン 無料',
     features: ['アメリカ発', '世界最大級', 'グループ＆プライベート', '東京都内多数'],
@@ -237,28 +149,6 @@ const studios = [
   {
     name: 'ピラティスミラー',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.2,
-    reviewCount: 11,
-    reviews: [
-      {
-        author: 'N.H',
-        rating: 5,
-        date: '1週間前',
-        text: 'コナミスポーツクラブが運営しているので安心感があります。天井の鏡で自分の動きを確認できるのが画期的。初心者の私でもフォームを意識しながらトレーニングできました。',
-      },
-      {
-        author: 'C.I',
-        rating: 4,
-        date: '2週間前',
-        text: '短時間でも効果的にエクササイズできるのが忙しい身にはありがたい。インナーマッスルに働きかける感覚がよくわかります。',
-      },
-      {
-        author: 'J.O',
-        rating: 4,
-        date: '3週間前',
-        text: 'コナミの施設を使えるので設備が充実しています。天井鏡システムは他のスタジオにはない独自の仕組みで、正しいフォームが身につきます。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['KONAMI運営', '天井鏡', '初心者向け', '短時間効果的'],
@@ -289,28 +179,6 @@ const studios = [
   {
     name: 'Studio Yoggy',
     image: '/images/studios/studio-yoggy.webp',
-    rating: 4.1,
-    reviewCount: 28,
-    reviews: [
-      {
-        author: 'H.W',
-        rating: 5,
-        date: '1週間前',
-        text: 'ヨガとピラティスの両方を楽しめるのが嬉しい。すべてのスタジオが駅徒歩5分圏内なので通いやすく、清潔で開放感のある空間でリラックスできます。',
-      },
-      {
-        author: 'P.A',
-        rating: 4,
-        date: '2週間前',
-        text: '室温が一年通して適温に保たれていて快適です。初心者向けのクラスも充実していて、経験がなくても安心して始められました。',
-      },
-      {
-        author: 'L.K',
-        rating: 4,
-        date: '1ヶ月前',
-        text: '全国展開しているので引っ越しても同じクオリティのレッスンが受けられます。ヨガの呼吸法とピラティスを組み合わせたレッスンが気に入っています。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['ヨガ＆ピラティス', '全国展開', '駅徒歩5分', '清潔な空間'],
@@ -342,28 +210,6 @@ const studios = [
   {
     name: 'K Village Pilates',
     image: '/images/studios/k-village-pilates-tokyo.webp',
-    rating: 4.2,
-    reviewCount: 27,
-    reviews: [
-      {
-        author: 'G.S',
-        rating: 5,
-        date: '1週間前',
-        text: '新宿西口から徒歩3分の好立地で通いやすいです。完全マンツーマンなので自分のペースで進められて、効果の実感が早いです。',
-      },
-      {
-        author: 'W.K',
-        rating: 4,
-        date: '3週間前',
-        text: 'パーソナル専門なので、グループレッスンでは物足りない方にぴったり。TK新都心ビル地下1階の静かな環境で集中してトレーニングできます。',
-      },
-      {
-        author: 'V.N',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '一人ひとりの目的に合わせたオーダーメイドレッスンが受けられます。初心者から上級者まで対応しているので、レベルアップしても長く通えます。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['パーソナル専門', '新宿西口徒歩3分', 'マンツーマン', '初心者歓迎'],
@@ -395,28 +241,6 @@ const studios = [
   {
     name: 'タクトエイト（takt8）',
     image: '/images/studios/takt8-tokyo.webp',
-    rating: 4.1,
-    reviewCount: 8,
-    reviews: [
-      {
-        author: 'U.R',
-        rating: 5,
-        date: '2週間前',
-        text: '2011年に理学療法士が立ち上げたスタジオということで、身体の使い方を根本から教えてもらえます。オンラインレッスンも受けられるので自宅からも参加できて便利です。',
-      },
-      {
-        author: 'I.E',
-        rating: 4,
-        date: '3週間前',
-        text: '八王子エリアでは貴重なヨガ・ピラティス専門スタジオ。医療現場の知見を活かした指導が安心感があります。',
-      },
-      {
-        author: 'O.A',
-        rating: 4,
-        date: '1ヶ月前',
-        text: 'ヨガとピラティスの両方を学べるのが魅力。オンラインレッスンの選択肢もあるので、天気が悪い日も自宅から受講できて助かります。',
-      },
-    ],
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['理学療法士立ち上げ', '八王子', 'ヨガ＆ピラティス', 'オンライン対応'],

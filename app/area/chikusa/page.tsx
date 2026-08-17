@@ -20,11 +20,6 @@ export const metadata = {
 const studios = [
   {
     name: 'STUDIO LUNA', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 35,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '池下駅徒歩1分の女性専用ピラティススタジオ。医療国家資格と国際基準資格を持つインストラクターが指導。助産師監修。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['池下駅徒歩1分','女性専用','医療国家資格保有','助産師監修'],
     description: '池下駅徒歩1分の女性専用ピラティススタジオ。医療国家資格と国際基準資格を持つインストラクターが指導。助産師監修',
     access: '名古屋市営地下鉄東山線「池下駅」徒歩1分', address: '名古屋市千種区（詳細は公式サイトでご確認ください）',
@@ -35,11 +30,6 @@ const studios = [
   },
   {
     name: 'Rintosull（リントスル）イオンタウン千種店', image: '/images/studios/rintosull.webp', rating: 4.5, reviewCount: 70,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'ホットヨガLAVAの姉妹ブランド。イオンタウン千種内に位置し月4回8,800円〜と低価格。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 8,800円〜', trial: '体験レッスンあり', features: ['低価格','LAVA相互利用','イオンタウン内','マシン専門'],
     description: 'ホットヨガLAVAの姉妹ブランド。イオンタウン千種内に位置し月4回8,800円〜と低価格',
     access: 'イオンタウン千種内', address: '名古屋市千種区 イオンタウン千種内',
@@ -50,11 +40,6 @@ const studios = [
   },
   {
     name: 'luluto（ルルト）名古屋大曽根店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808', image: '/images/studios/luluto.webp', rating: 4.8, reviewCount: 18,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '完全マンツーマンのマシンピラティス。理学療法士監修で千種エリアからもアクセス良好。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月3回 29,700円〜', trial: '体験レッスンあり', features: ['完全マンツーマン','理学療法士監修','高品質指導','千種区近く'],
     description: '完全マンツーマンのマシンピラティス。理学療法士監修で千種エリアからもアクセス良好',
     access: 'JR「大曽根駅」徒歩圏内', address: '名古屋市（詳細は公式サイトでご確認ください）',
@@ -65,11 +50,6 @@ const studios = [
   },
   {
     name: 'Pilates Arts（ピラティスアーツ）', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 20,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '名古屋市千種区池下町にある世界基準のピラティス専門スタジオ。本格的なピラティス指導が受けられる。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['池下町','世界基準','ピラティス専門','本格指導'],
     description: '名古屋市千種区池下町にある世界基準のピラティス専門スタジオ。本格的なピラティス指導が受けられる',
     access: '東山線「池下駅」徒歩圏内', address: '名古屋市千種区池下町',
@@ -80,11 +60,6 @@ const studios = [
   },
   {
     name: 'Atelier Arl（アトリエアール）', image: '/images/studios/zen-place-pilates.webp', rating: 4.5, reviewCount: 15,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'マシンピラティスとサウナを備えたスタジオ。今池駅近くでピラティスとリラクゼーションの両方を楽しめる。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['マシンピラティス','サウナ併設','今池駅近く','リラクゼーション'],
     description: 'マシンピラティスとサウナを備えたスタジオ。今池駅近くでピラティスとリラクゼーションの両方を楽しめる',
     access: '東山線「今池駅」徒歩圏内', address: '名古屋市千種区（詳細は公式サイトでご確認ください）',

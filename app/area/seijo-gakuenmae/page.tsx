@@ -27,28 +27,6 @@ const studios = [
     name: 'zen place pilates 成城学園前',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 13,
-    reviews: [
-      {
-        author: 'K.M',
-        rating: 5,
-        date: '1週間前',
-        text: '成城学園前駅から徒歩圏内で通いやすいです。全国150店舗他店利用できるので、出張先でも継続できます。',
-      },
-      {
-        author: 'Y.H',
-        rating: 5,
-        date: '2週間前',
-        text: 'ピラティス、常温ヨガ、ホットヨガすべてのレッスンを受けることができます。ライフスタイルに合わせて自由に楽しめます。',
-      },
-      {
-        author: 'S.T',
-        rating: 4,
-        date: '3週間前',
-        text: '男女共用なので家族で通えます。喜多見・狛江・和泉多摩川・祖師谷大蔵からもアクセス良好です。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
     features: ['男女共用', '全国150店舗相互利用', 'マット&マシン', 'ヨガ併用可'],
@@ -81,28 +59,6 @@ const studios = [
   {
     name: 'ピラティスミラー 成城学園前',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.7,
-    reviewCount: 40,
-    reviews: [
-      {
-        author: 'M.Y',
-        rating: 5,
-        date: '1週間前',
-        text: 'コナミスポーツ運営のスタジオ。スタジオの天井に鏡があるので、自分の身体の動きを確認しながら取り組めます。',
-      },
-      {
-        author: 'K.T',
-        rating: 4,
-        date: '2週間前',
-        text: '1レッスン30分で「気軽に」参加でき、音楽をかけながら「楽しく」動けます。短い時間でも達成感と効果を感じられます。',
-      },
-      {
-        author: 'R.S',
-        rating: 5,
-        date: '3週間前',
-        text: '少人数制なので初めての方でも安心。レッスン前の20分はリフォーマーでセルフトレーニングも可能です。',
-      },
-    ],
     price: '月6回 11,000円',
     trial: '体験レッスンあり',
     features: ['KONAMI運営', '天井鏡', '30分レッスン', '少人数制'],
@@ -134,28 +90,6 @@ const studios = [
   {
     name: 'CLUB PILATES 成城学園前',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.8,
-    reviewCount: 113,
-    reviews: [
-      {
-        author: 'N.K',
-        rating: 5,
-        date: '1週間前',
-        text: '成城学園前駅から徒歩1分の好立地。世界800店舗以上展開する世界最大級のピラティススタジオです。',
-      },
-      {
-        author: 'Y.M',
-        rating: 5,
-        date: '2週間前',
-        text: '500時間以上の研修を経た質の高いインストラクターが在籍。初心者から上級者まで安心して受けられる4段階のレベル分け。',
-      },
-      {
-        author: 'S.H',
-        rating: 4,
-        date: '3週間前',
-        text: '豊富な専門知識と観察力で、一人ひとりの動き方やクセに合わせた的確なレッスンを行ってくれます。',
-      },
-    ],
     price: '月4回 13,090円',
     trial: '体験レッスンあり',
     features: ['世界最大級', '駅徒歩1分', '800店舗以上', '4段階レベル分け'],
@@ -187,28 +121,6 @@ const studios = [
   {
     name: 'STUDIO IVY 成城学園前',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.7,
-    reviewCount: 18,
-    reviews: [
-      {
-        author: 'E.N',
-        rating: 5,
-        date: '2週間前',
-        text: '成城学園前駅から徒歩圏で通えるパーソナル専門のマシンピラティススタジオ。洗練された清潔感のある完全プライベートな空間です。',
-      },
-      {
-        author: 'T.K',
-        rating: 4,
-        date: '3週間前',
-        text: '美しいボディラインを作りたい、姿勢改善したいなどお客様のさまざまなお悩みに沿ったオーダーメイドのプログラムを提供してくれます。',
-      },
-      {
-        author: 'M.S',
-        rating: 5,
-        date: '1ヶ月前',
-        text: 'ピラティス専用マシン「リフォーマー」を使い、効率よくインナーマッスルを鍛えられます。しなやかで美しいカラダ作りをサポートしてくれます。',
-      },
-    ],
     price: '初回 4,500円〜',
     trial: '体験レッスンあり',
     features: ['パーソナル専門', '完全プライベート', 'オーダーメイド', 'リフォーマー'],
@@ -239,28 +151,6 @@ const studios = [
   {
     name: 'Evolv 成城学園前店',
     image: '/images/studios/evolv-seijo.webp',
-    rating: 4.6,
-    reviewCount: 24,
-    reviews: [
-      {
-        author: 'K.H',
-        rating: 5,
-        date: '1週間前',
-        text: '成城学園前駅から徒歩1分という好立地。マシンピラティス×EMSで20分ボディメイクができます。',
-      },
-      {
-        author: 'M.T',
-        rating: 4,
-        date: '2週間前',
-        text: '祖師ヶ谷大蔵・経堂・喜多見などの周辺駅からも1〜2駅圏内でアクセスできるため、通いやすさは抜群です。',
-      },
-      {
-        author: 'Y.N',
-        rating: 4,
-        date: '3週間前',
-        text: '短時間で効率的にトレーニングできるので、忙しい人にもおすすめです。無料会員限定イベントもあります。',
-      },
-    ],
     price: '詳細は公式サイト参照',
     trial: '体験レッスンあり',
     features: ['マシンピラティス×EMS', '20分ボディメイク', '駅徒歩1分', '短時間効率'],
@@ -291,28 +181,6 @@ const studios = [
   {
     name: 'Pilasuru 成城学園前店',
     image: '/images/studios/pilasuru-seijo.webp',
-    rating: 4.5,
-    reviewCount: 21,
-    reviews: [
-      {
-        author: 'L.K',
-        rating: 5,
-        date: '2週間前',
-        text: 'マシンピラティス専門のスタジオ。一人ひとりに合わせた丁寧な指導が受けられます。',
-      },
-      {
-        author: 'F.H',
-        rating: 4,
-        date: '3週間前',
-        text: '少人数制なので、初心者でも安心して通えます。インストラクターが丁寧に教えてくれます。',
-      },
-      {
-        author: 'M.Y',
-        rating: 4,
-        date: '1ヶ月前',
-        text: 'マシンピラティス専門なので、効率的にトレーニングできます。成城学園前駅から近くて便利です。',
-      },
-    ],
     price: '詳細は公式サイト参照',
     trial: '体験レッスンあり',
     features: ['マシンピラティス専門', '少人数制', '一人ひとりに合わせた指導', '成城学園前駅近'],
@@ -343,28 +211,6 @@ const studios = [
   {
     name: 'ピラティスミラー 千歳船橋（近隣エリア）',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.7,
-    reviewCount: 29,
-    reviews: [
-      {
-        author: 'N.A',
-        rating: 5,
-        date: '1週間前',
-        text: '成城学園前から小田急線で2駅の千歳船橋駅。コナミスポーツ運営のピラティスミラーで、天井鏡を使った30分レッスンが受けられます。',
-      },
-      {
-        author: 'T.M',
-        rating: 4,
-        date: '2週間前',
-        text: '1レッスン30分で「気軽に」参加でき、音楽をかけながら「楽しく」動けます。少人数制なので初めての方でも安心です。',
-      },
-      {
-        author: 'K.S',
-        rating: 5,
-        date: '3週間前',
-        text: 'レッスン前の20分はリフォーマーでセルフトレーニングも可能。短い時間でも達成感と効果を感じられます。',
-      },
-    ],
     price: '月6回 11,000円',
     trial: '体験レッスンあり',
     features: ['KONAMI運営', '天井鏡', '30分レッスン', '千歳船橋駅近'],

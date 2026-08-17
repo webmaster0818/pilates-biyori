@@ -21,13 +21,6 @@ const studios = [
   {
     name: 'warabi pilates',
     image: '/images/studios/default-studio.webp',
-    rating: 4.8,
-    reviewCount: 28,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: 'ピラティスと整体を組み合わせた独自メソッドで姿勢改善と体質改善をサポート。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["整体併設", "姿勢改善", "体質改善", "個別対応"],
@@ -42,13 +35,6 @@ const studios = [
   {
     name: 'LAVA イオンモール鹿児島店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.4,
-    reviewCount: 156,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '全国展開のホットヨガスタジオ。ピラティスプログラムも充実。イオンモール鹿児島内。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月4回 9,800円〜',
     trial: '体験レッスン 0円',
     features: ["ホットヨガ", "ピラティスプログラム", "イオンモール内", "女性専用"],
@@ -64,13 +50,6 @@ const studios = [
     name: 'zen place pilates 鹿児島',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/default-studio.webp',
-    rating: 4.6,
-    reviewCount: 42,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '全国150店舗以上展開のピラティス専門スタジオ。指宿からの日帰り利用も可能。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
     features: ["全国150店舗", "マットandマシン", "男性OK", "AI姿勢分析"],
@@ -85,13 +64,6 @@ const studios = [
   {
     name: 'ピラティススタジオ Flow 鹿児島',
     image: '/images/studios/default-studio.webp',
-    rating: 4.7,
-    reviewCount: 19,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '少人数制の丁寧な指導が特徴。パーソナルレッスンにも対応。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["少人数制", "パーソナル対応", "アットホーム", "初心者歓迎"],
@@ -106,13 +78,6 @@ const studios = [
   {
     name: 'CLUB PILATES 鹿児島店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.6,
-    reviewCount: 35,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '世界1000店舗以上展開の本格マシンピラティス。15種類の器具と4段階レベル分け。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月4回 14,190円〜',
     trial: '体験レッスン 無料（30分）',
     features: ["世界最大級", "15種類の器具", "4段階レベル", "男性OK"],

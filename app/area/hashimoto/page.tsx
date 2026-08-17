@@ -21,13 +21,6 @@ const studios = [
   {
     name: 'La pilates 橋本店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.7,
-    reviewCount: 25,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '骨膜整体×マシンピラティスで肩こり・腰痛・姿勢の悩みを根本ケア。橋本駅徒歩4分。最新設備と清潔な環境。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["骨膜整体×ピラティス", "最新設備", "女性の不調改善", "清潔"],
@@ -42,13 +35,6 @@ const studios = [
   {
     name: 'Well Pilates 橋本',
     image: '/images/studios/default-studio.webp',
-    rating: 4.8,
-    reviewCount: 18,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '理学療法士や医師の監修。橋本駅徒歩1分の好立地。専用マシンを使ったマンツーマンパーソナルピラティス。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["理学療法士監修", "医師監修", "パーソナル", "駅徒歩1分"],
@@ -63,13 +49,6 @@ const studios = [
   {
     name: 'Pilates Bonita',
     image: '/images/studios/default-studio.webp',
-    rating: 4.6,
-    reviewCount: 15,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '女性専用のプライベートピラティススタジオ。個人の目的に合わせてエクササイズをカスタマイズ。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["女性専用", "プライベート", "カスタマイズ", "少人数"],
@@ -84,13 +63,6 @@ const studios = [
   {
     name: 'ルネサンス 橋本',
     image: '/images/studios/default-studio.webp',
-    rating: 4.3,
-    reviewCount: 85,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '地域最大級の総合型スポーツクラブ。ピラティスプログラムのほかジム・プール・サウナも完備。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月額制',
     trial: '体験レッスンあり',
     features: ["総合スポーツクラブ", "ジム&プール", "ピラティス", "サウナ"],
@@ -105,13 +77,6 @@ const studios = [
   {
     name: 'LAVA 橋本店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.4,
-    reviewCount: 78,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '全国400店舗以上のホットヨガスタジオ。ピラティスプログラムも充実。0円体験あり。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月4回 9,800円〜',
     trial: '体験レッスン 0円',
     features: ["ホットヨガ", "ピラティスプログラム", "女性専用", "0円体験"],

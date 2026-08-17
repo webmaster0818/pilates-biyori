@@ -21,11 +21,6 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティス&ジム 1to1 一宮店', image: '/images/studios/zen-place-pilates.webp', rating: 4.6, reviewCount: 25,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '女性専用完全個室のボディメイクスタジオ。マシンピラティスと「ゆるトレ」を融合。月額6,600円〜とリーズナブル。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 6,600円〜', trial: '体験レッスンあり', features: ['月4回6,600円〜','完全個室','女性専用','マシンピラティス×ゆるトレ'],
     description: '女性専用完全個室のボディメイクスタジオ。マシンピラティスと「ゆるトレ」を融合。月額6,600円〜とリーズナブル',
     access: '一宮市内（詳細は公式サイトでご確認ください）', address: '愛知県一宮市（詳細は公式サイトでご確認ください）',
@@ -36,11 +31,6 @@ const studios = [
   },
   {
     name: 'Pilates cocowa', image: '/images/studios/zen-place-pilates.webp', rating: 4.5, reviewCount: 18,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'マットピラティスのグループレッスンを中心に展開するリーズナブルなスタジオ。回数券制で1回1,200円〜と通いや。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '回数券制 1回1,200円〜', trial: '体験レッスンあり', features: ['1回1,200円〜','子連れ対応','マットピラティス','リーズナブル'],
     description: 'マットピラティスのグループレッスンを中心に展開するリーズナブルなスタジオ。回数券制で1回1,200円〜と通いやすい',
     access: '一宮市九品町エリア', address: '愛知県一宮市九品町',
@@ -51,11 +41,6 @@ const studios = [
   },
   {
     name: 'ピラティスK イオンモール木曽川店', image: '/images/studios/pilates-k.webp', rating: 4.6, reviewCount: 80,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '女性専用マシンピラティス専門スタジオ。イオンモール木曽川3Fに位置し黒田駅から徒歩3分。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 11,220円〜', trial: '体験レッスン 無料', features: ['女性専用','イオンモール内','黒田駅徒歩3分','体験無料'],
     description: '女性専用マシンピラティス専門スタジオ。イオンモール木曽川3Fに位置し黒田駅から徒歩3分',
     access: '名鉄「黒田駅」徒歩3分（イオンモール木曽川3F）', address: '愛知県一宮市木曽川町 イオンモール木曽川3F',
@@ -66,11 +51,6 @@ const studios = [
   },
   {
     name: 'Rintosull（リントスル）一宮店', image: '/images/studios/rintosull.webp', rating: 4.5, reviewCount: 55,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: 'ホットヨガLAVAの姉妹ブランド。月4回8,800円〜と低価格でLAVA全店との相互利用も可能。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: '月4回 8,800円〜', trial: '体験レッスンあり', features: ['低価格','LAVA相互利用','マシン専門','映像レッスン'],
     description: 'ホットヨガLAVAの姉妹ブランド。月4回8,800円〜と低価格でLAVA全店との相互利用も可能',
     access: '一宮市内（詳細は公式サイトでご確認ください）', address: '愛知県一宮市（詳細は公式サイトでご確認ください）',
@@ -81,11 +61,6 @@ const studios = [
   },
   {
     name: 'パーソナルマシンピラティス 一宮', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 10,
-    reviews: [
-      { author: 'M.S', rating: 5, date: '1週間前', text: '完全予約制のパーソナル専門マシンピラティススタジオ。一人ひとりの体に合わせたカスタマイズレッスン。気に入っています。' },
-      { author: 'A.Y', rating: 5, date: '2週間前', text: 'インストラクターの指導が丁寧で初心者でも安心。' },
-      { author: 'K.T', rating: 4, date: '3週間前', text: '清潔感のあるスタジオで気持ちよくレッスンできます。' },
-    ],
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['完全予約制','パーソナル専門','妙興寺駅近く','カスタマイズ'],
     description: '完全予約制のパーソナル専門マシンピラティススタジオ。一人ひとりの体に合わせたカスタマイズレッスン',
     access: '名鉄「妙興寺駅」車7分', address: '愛知県一宮市（詳細は公式サイトでご確認ください）',

@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'Rintosull 京都桂店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.8,
-    reviewCount: 157,
-    reviews: [
-      {
-        author: 'M.S',
-        rating: 5,
-        date: '1週間前',
-        text: '桂駅西口から徒歩1分！ホットヨガLAVAが運営するマシンピラティス専門スタジオ。体験0円で気軽に始められました。87%以上が初心者とのこと。',
-      },
-      {
-        author: 'Y.H',
-        rating: 5,
-        date: '2週間前',
-        text: '美尻・美脚に特化したレッスンが豊富。大画面スクリーンを使った最新スタイルで楽しくレッスンできます。月額13,800円〜とリーズナブル。',
-      },
-      {
-        author: 'K.N',
-        rating: 4,
-        date: '3週間前',
-        text: '女性専用で安心。定休日は日曜だけなので平日も土曜も通えます。桂駅のすぐそばなので雨の日も便利。',
-      },
-    ],
     price: '月額 13,800円〜',
     trial: '体験レッスン 0円',
     features: ['桂駅西口徒歩1分', '女性専用', '体験0円', 'LAVA運営'],
@@ -76,28 +54,6 @@ const studios = [
   {
     name: 'ピラティススタジオDEP 京都桂店',
     image: '/images/studios/pilates-studio-dep.webp',
-    rating: 4.9,
-    reviewCount: 17,
-    reviews: [
-      {
-        author: 'A.K',
-        rating: 5,
-        date: '1週間前',
-        text: 'Google口コミ2,000件以上で平均4.96の超高評価スタジオ。国家資格保有のインストラクターによるオーダーメイドピラティスが受けられます。',
-      },
-      {
-        author: 'S.M',
-        rating: 5,
-        date: '2週間前',
-        text: '体験レッスンが2,980円（キャンペーン価格）。1,000種類以上のエクササイズから自分に合ったプログラムを組んでもらえます。',
-      },
-      {
-        author: 'R.T',
-        rating: 5,
-        date: '3週間前',
-        text: 'インストラクターが理学療法士の国家資格を持っているので安心。桂駅から車で5分、徒歩だと15分ほどかかりますが、質の高いレッスンは価値あり。',
-      },
-    ],
     price: '月額 14,800円〜',
     trial: '体験レッスン 2,980円（キャンペーン）',
     features: ['国家資格保有', '口コミ4.96', '1,000種類以上', 'オーダーメイド'],
@@ -129,28 +85,6 @@ const studios = [
   {
     name: 'Studio ViV（スタジオヴィヴ）',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.8,
-    reviewCount: 30,
-    reviews: [
-      {
-        author: 'T.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '桂駅西口から徒歩2分！理学療法士が指導する完全予約制のパーソナルマシンピラティス。6種類のマシンを完備していて本格的。',
-      },
-      {
-        author: 'N.O',
-        rating: 5,
-        date: '2週間前',
-        text: '入会金・年会費がかからないのが嬉しい。完全個室・完全プライベートなので人目を気にせずレッスンに集中できます。',
-      },
-      {
-        author: 'H.M',
-        rating: 4,
-        date: '3週間前',
-        text: 'ピラティス初心者でも6種類のマシンを使い分けることで、心身の変化を実感できます。理学療法士ならではの安全な指導。',
-      },
-    ],
     price: '入会金・年会費 0円',
     trial: '体験レッスンあり',
     features: ['桂駅西口徒歩2分', '理学療法士指導', '6種類マシン完備', '入会金0円'],
@@ -182,28 +116,6 @@ const studios = [
   {
     name: 'STUDIO IVY 四条大宮店',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.7,
-    reviewCount: 8,
-    reviews: [
-      {
-        author: 'M.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '桂から阪急で1駅の四条大宮駅から徒歩5分。完全プライベートでオーダーメイドプログラムが受けられます。月謝制で1回6,250円〜。',
-      },
-      {
-        author: 'K.H',
-        rating: 5,
-        date: '2週間前',
-        text: '清潔感のある洗練された空間。パーソナル専門なので初心者でも安心。桂から通っている方も多いそうです。',
-      },
-      {
-        author: 'A.T',
-        rating: 4,
-        date: '3週間前',
-        text: '8時から21時まで営業で通いやすい。入会金は20,000円ですが、体験レッスンで雰囲気を確認できます。',
-      },
-    ],
     price: '1回 6,250円〜',
     trial: '体験レッスンあり',
     features: ['四条大宮駅徒歩5分', 'パーソナル専門', 'オーダーメイド', '月謝制'],
@@ -235,28 +147,6 @@ const studios = [
   {
     name: 'Rintosull 京都四条烏丸店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.7,
-    reviewCount: 158,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '1週間前',
-        text: '桂から阪急で烏丸駅まで約10分。Rintosull桂店と相互利用できるので、2店舗通い放題プランがお得。',
-      },
-      {
-        author: 'R.M',
-        rating: 5,
-        date: '2週間前',
-        text: '烏丸駅から徒歩2分。桂店と合わせて週2回ペースで通っています。桂店が日曜定休なので四条烏丸店と使い分けています。',
-      },
-      {
-        author: 'Y.N',
-        rating: 4,
-        date: '3週間前',
-        text: '女性専用でマシンピラティス専門。お悩み部位にピンポイントでアプローチできるのが良い。',
-      },
-    ],
     price: '月額 13,800円〜',
     trial: '体験レッスン 0円',
     features: ['烏丸駅徒歩2分', '女性専用', '2店舗相互利用', 'LAVA運営'],

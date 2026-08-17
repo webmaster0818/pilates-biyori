@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'ピラティスミラー 学芸大学',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.7,
-    reviewCount: 22,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: 'コナミ運営なので安心感がある。月6回11,000円で通えるのでコスパがいい。プライベートレッスンも30分4,400円でリーズナブル。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '学芸大学駅から近くて通いやすい。マシンがきれいで清潔感があります。スタッフの対応も丁寧。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: '体験2,200円で気軽に試せました。7回目以降も1回1,100円なのが嬉しい。初心者にもおすすめ。',
-      },
-    ],
     price: '月会費 11,000円（月6回まで）',
     trial: '体験レッスン 2,200円',
     features: ['コナミ運営', '月6回定額', '学芸大学駅近', 'プライベートあり'],
@@ -75,28 +53,6 @@ const studios = [
   {
     name: 'STUDIO IVY 学芸大学店',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.8,
-    reviewCount: 6,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: '完全パーソナルなので自分のペースで進められる。学芸大学駅からすぐなので仕事帰りに通いやすい。',
-      },
-      {
-        author: 'A.H',
-        rating: 5,
-        date: '2週間前',
-        text: '月2回15,000円から始められるのが手軽。マシンを使ったマンツーマン指導で効果を実感しています。',
-      },
-      {
-        author: 'M.M',
-        rating: 4,
-        date: '3週間前',
-        text: '月4回28,000円で1回7,000円。パーソナルとしてはコスパが良い。インストラクターの質が高い。',
-      },
-    ],
     price: '月2回 15,000円〜 / 月4回 28,000円〜',
     trial: '体験レッスンあり',
     features: ['パーソナル専門', 'マシンピラティス', '学芸大学駅近', '月謝制'],
@@ -127,28 +83,6 @@ const studios = [
   {
     name: 'YUZU 学芸大学店',
     image: '/images/studios/yuzu-pilates.webp',
-    rating: 4.7,
-    reviewCount: 3,
-    reviews: [
-      {
-        author: 'T.W',
-        rating: 5,
-        date: '5日前',
-        text: '女性インストラクターなので安心して通えます。キッズスペースがあるので子連れでも気兼ねなくレッスンできました。',
-      },
-      {
-        author: 'H.I',
-        rating: 5,
-        date: '1週間前',
-        text: 'パーソナルなので子供が泣いても周りを気にしなくていい。産後の体型戻しに通っています。',
-      },
-      {
-        author: 'S.N',
-        rating: 4,
-        date: '2週間前',
-        text: 'アットホームな雰囲気。インストラクターさんが親身になって体の悩みを聞いてくれます。',
-      },
-    ],
     price: 'パーソナル（料金は要問い合わせ）',
     trial: '体験レッスンあり',
     features: ['パーソナル', '女性インストラクター', 'キッズスペース', '産後ケア'],
@@ -180,28 +114,6 @@ const studios = [
     name: 'zen place pilates（東横線沿線）',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 17,
-    reviews: [
-      {
-        author: 'L.M',
-        rating: 5,
-        date: '1週間前',
-        text: '東横線沿線の店舗を他店利用できるので便利。学芸大学から中目黒・渋谷の店舗にも通えます。マットもマシンも両方受けられる。',
-      },
-      {
-        author: 'P.K',
-        rating: 5,
-        date: '2週間前',
-        text: '全国展開で安定したクオリティ。有資格インストラクターの指導が丁寧。AI姿勢分析で変化を実感。',
-      },
-      {
-        author: 'Q.R',
-        rating: 4,
-        date: '3週間前',
-        text: 'マットグループは月4回9,625円〜でコスパ良い。リフォーマーグループもあり本格的。',
-      },
-    ],
     price: 'マットグループ 月4回 9,625円〜',
     trial: '体験レッスン 500円〜',
     features: ['マット&マシン', '東横線沿線で相互利用', 'AI姿勢分析', '男性OK'],

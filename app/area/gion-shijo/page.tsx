@@ -27,28 +27,6 @@ const studios = [
     name: 'zen place pilates 京都',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 20,
-    reviews: [
-      {
-        author: 'M.S',
-        rating: 5,
-        date: '2週間前',
-        text: '四条駅12番出口から徒歩1分！全国150以上のスタジオが他店利用可能。マット・マシン・プライベートすべて対応。体験当日入会で入会金無料でした。京都の中心で通いやすい。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: 'マットグループ月額10,450円からとリーズナブル。平日は朝7時から夜22時まで営業で仕事前後にも通えます。男性もOK。',
-      },
-      {
-        author: 'K.N',
-        rating: 4,
-        date: '3週間前',
-        text: '1Fがファミリーマートのビルの9F。エデュケーターの質が高く、少人数制で丁寧に見てもらえます。祇園や河原町からも歩ける距離。',
-      },
-    ],
     price: '月額 10,450円〜',
     trial: '体験レッスンあり（当日入会で入会金無料）',
     features: ['マシン完備', '男性OK', '四条駅徒歩1分', '全国相互利用可'],
@@ -80,28 +58,6 @@ const studios = [
   {
     name: 'ピラティスK 京都四条烏丸店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 191,
-    reviews: [
-      {
-        author: 'A.W',
-        rating: 5,
-        date: '5日前',
-        text: '阪急烏丸駅から徒歩1分！体験レッスンが0円で始めやすい。女性専用で安心。音楽に合わせたマシンピラティスが楽しくて続けられます。1回約3,355円とコスパ抜群。',
-      },
-      {
-        author: 'Y.I',
-        rating: 4,
-        date: '1週間前',
-        text: 'お腹・お尻・脚など部位特化のプログラムが充実。京都証券ビル6Fのスタイリッシュな店内でモチベーションが上がります。',
-      },
-      {
-        author: 'M.N',
-        rating: 5,
-        date: '2週間前',
-        text: 'インストラクターが明るくて丁寧に教えてくれます。祇園や河原町での買い物ついでにも通えて便利。',
-      },
-    ],
     price: '月4回 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', 'マシン専門', '烏丸駅徒歩1分', '音楽レッスン'],
@@ -133,28 +89,6 @@ const studios = [
   {
     name: 'Rintosull 京都四条烏丸店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.6,
-    reviewCount: 158,
-    reviews: [
-      {
-        author: 'Y.N',
-        rating: 5,
-        date: '5日前',
-        text: '烏丸駅15番出口から徒歩2分！LAVA系列で安心。月4回8,800円とマシンピラティスでは破格。キャンペーンで月額2,980円から始められました。',
-      },
-      {
-        author: 'K.M',
-        rating: 4,
-        date: '1週間前',
-        text: '2店舗通い放題プラン13,800円もお得。キャッシュレス専用店舗なので現金は使えませんが、スマートに通えます。',
-      },
-      {
-        author: 'S.A',
-        rating: 4,
-        date: '2週間前',
-        text: '四条駅1番出口からも徒歩5分。祇園四条エリアからも歩ける距離。施設がきれいで清潔感があります。',
-      },
-    ],
     price: '月4回 8,800円〜',
     trial: 'キャンペーン価格あり',
     features: ['LAVA系列', 'マシン専門', '烏丸駅徒歩2分', 'コスパ抜群'],
@@ -186,28 +120,6 @@ const studios = [
   {
     name: 'Pilates MUSE 京都四条大宮',
     image: '/images/studios/pilates-muse.webp',
-    rating: 4.7,
-    reviewCount: 27,
-    reviews: [
-      {
-        author: 'C.N',
-        rating: 5,
-        date: '1週間前',
-        text: '四条大宮駅から徒歩1分！24時間利用可能なのが革命的。月額10,000円でセルフマシンピラティス使い放題。好きな時間に通えるので忙しい方にぴったり。',
-      },
-      {
-        author: 'H.M',
-        rating: 5,
-        date: '2週間前',
-        text: '全レッスンを有資格トレーナーが担当する結果重視のスタジオ。女性専用で安心。初回グループレッスン3,000円で体験できます。',
-      },
-      {
-        author: 'R.O',
-        rating: 4,
-        date: '3週間前',
-        text: '24時間セルフ利用とトレーナー付きレッスンの両方を提供。自分のペースでトレーニングしたい方におすすめ。',
-      },
-    ],
     price: '月額 10,000円〜（24時間使い放題）',
     trial: '初回グループレッスン 3,000円',
     features: ['女性専用', '24時間営業', '四条大宮駅徒歩1分', '有資格トレーナー'],
@@ -239,28 +151,6 @@ const studios = [
   {
     name: 'Pilates KASANE 四条烏丸店',
     image: '/images/studios/pilates-kasane.webp',
-    rating: 4.7,
-    reviewCount: 21,
-    reviews: [
-      {
-        author: 'S.Y',
-        rating: 5,
-        date: '1週間前',
-        text: '最大4名の少人数制セミパーソナルで丁寧に見てもらえます。有資格インストラクターがカルテで管理してくれるので毎回のレッスンが最適化されています。',
-      },
-      {
-        author: 'K.N',
-        rating: 4,
-        date: '2週間前',
-        text: '年中無休で朝8時から夜21時まで営業。レンタルウェア完備で手ぶらで通える。京都の中心部で買い物ついでにも便利。',
-      },
-      {
-        author: 'M.T',
-        rating: 5,
-        date: '3週間前',
-        text: '体験レッスンが980円とお手頃。1回あたり3,000円台とリーズナブルで続けやすい。四条烏丸エリアで祇園からも近い。',
-      },
-    ],
     price: '月4回 15,400円〜',
     trial: '体験レッスン 980円',
     features: ['少人数制', 'カルテ管理', '手ぶらOK', '年中無休'],

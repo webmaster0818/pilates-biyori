@@ -24,28 +24,6 @@ const studios = [
     name: 'zen place pilates 府中スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 24,
-    reviews: [
-      {
-        author: 'K.S',
-        rating: 5,
-        date: '1週間前',
-        text: '府中駅南口から徒歩4分。マットグループ・リフォーマーグループ・プライベートの3タイプから選べる。体験当日入会で入会金無料。',
-      },
-      {
-        author: 'M.T',
-        rating: 5,
-        date: '2週間前',
-        text: '全国150店舗以上で相互利用可能。マットもマシンも両方受けられるのが魅力。男性もOKで夫婦で通っています。',
-      },
-      {
-        author: 'A.Y',
-        rating: 4,
-        date: '3週間前',
-        text: 'インストラクターの質が高く、ピラティス専門で20年以上の実績がある。平日は22時まで営業で仕事帰りにも通えます。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['府中駅徒歩4分', '男性OK', '全国相互利用', 'マット&マシン'],
@@ -77,28 +55,6 @@ const studios = [
   {
     name: 'CLUB PILATES 府中店',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.7,
-    reviewCount: 98,
-    reviews: [
-      {
-        author: 'H.N',
-        rating: 5,
-        date: '1週間前',
-        text: '府中駅から徒歩4分。世界最大級のブランドで15種類の器具を使った本格レッスン。無料の30分イントロクラスで雰囲気がわかります。',
-      },
-      {
-        author: 'Y.A',
-        rating: 4,
-        date: '2週間前',
-        text: '4段階のレベル分けで初心者でも安心。12名のグループレッスンで丁寧に見てもらえる。インストラクター全員が500時間以上の研修を受けた資格保持者。',
-      },
-      {
-        author: 'R.T',
-        rating: 5,
-        date: '3週間前',
-        text: '月4回11,990円〜。8つのプログラムがあり飽きずに続けられます。都度払い3,850円もあるので無理なく通える。',
-      },
-    ],
     price: '月4回 11,990円〜',
     trial: '体験レッスン 無料（30分イントロクラス）',
     features: ['世界最大級', '府中駅徒歩4分', '15種類の器具', '男性OK'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'studio 6sense（スタジオシックスセンス）',
     image: '/images/studios/studio-6sense-fuchu.webp',
-    rating: 4.5,
-    reviewCount: 22,
-    reviews: [
-      {
-        author: 'S.M',
-        rating: 5,
-        date: '1週間前',
-        text: 'アットホームな雰囲気のマットピラティス教室。月会費6,000円で通い放題はとてもお得。年齢問わず参加しやすい。',
-      },
-      {
-        author: 'K.I',
-        rating: 4,
-        date: '2週間前',
-        text: '少人数制で先生が丁寧に見てくれます。体の不調が改善されてきました。チケット制もあるので自分のペースで通える。',
-      },
-      {
-        author: 'T.N',
-        rating: 5,
-        date: '3週間前',
-        text: '府中学園通り沿いでわかりやすい場所。「5年後、10年後もイキイキと楽しい日々を送る」というコンセプトが素敵。',
-      },
-    ],
     price: '月額 6,000円（通い放題）',
     trial: '体験レッスン 1,000円',
     features: ['通い放題6,000円', 'マットピラティス', 'アットホーム', '少人数制'],
@@ -181,28 +115,6 @@ const studios = [
   {
     name: 'PERSONAL TRAINING STUDIO U 府中女性専門店',
     image: '/images/studios/element.webp',
-    rating: 4.6,
-    reviewCount: 14,
-    reviews: [
-      {
-        author: 'Y.K',
-        rating: 5,
-        date: '1週間前',
-        text: '府中駅から徒歩3分の完全個室。マシンピラティスとパーソナルトレーニングの組み合わせで効率的にボディメイクできます。',
-      },
-      {
-        author: 'M.S',
-        rating: 5,
-        date: '2週間前',
-        text: '週1回50分で結果を出すというコンセプト通り、3ヶ月で体型が変わりました。完全予約制で待ち時間もなし。',
-      },
-      {
-        author: 'A.H',
-        rating: 4,
-        date: '3週間前',
-        text: '女性専用なので安心して通えます。トレーナーが丁寧にカウンセリングしてくれて自分に合ったメニューを組んでもらえる。',
-      },
-    ],
     price: '月2回 22,000円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', '府中駅徒歩3分', '完全個室', 'パーソナル'],

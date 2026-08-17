@@ -26,28 +26,6 @@ const studios = [
   {
     name: 'CLUB PILATES 高円寺',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.7,
-    reviewCount: 120,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '1週間前',
-        text: '世界最大級のピラティスブランドで安心感があります。15種類の器具を使ったレッスンは毎回新鮮で飽きません。体験が無料なのも嬉しいポイント。',
-      },
-      {
-        author: 'S.T',
-        rating: 5,
-        date: '2週間前',
-        text: '4段階のレベル分けがあるので初心者でも安心して始められました。男性会員もいるので夫婦で通っています。インストラクターの質が高い。',
-      },
-      {
-        author: 'R.N',
-        rating: 4,
-        date: '3週間前',
-        text: 'インストラクター全員が500時間以上の研修を受けた資格保持者。有酸素運動を含むクラスもあり、ダイエット目的の方にもおすすめです。',
-      },
-    ],
     price: '月4回 10,890円〜',
     trial: '体験レッスン 0円（30分）',
     features: ['世界最大級チェーン', '最大12名グループ', '男性OK', '体験0円'],
@@ -79,28 +57,6 @@ const studios = [
   {
     name: 'Pilates Mee 高円寺',
     image: '/images/studios/pilates-mee.webp',
-    rating: 4.8,
-    reviewCount: 20,
-    reviews: [
-      {
-        author: 'E.M',
-        rating: 5,
-        date: '1週間前',
-        text: '最大3名のセミパーソナルで丁寧に見てもらえます。女性限定なので周りの目を気にせず集中できるのがいい。月4回11,000円はコスパ最高。',
-      },
-      {
-        author: 'N.K',
-        rating: 5,
-        date: '2週間前',
-        text: '少人数で一人ひとりしっかりフォームを直してもらえます。高円寺駅からも近くて通いやすい。',
-      },
-      {
-        author: 'H.Y',
-        rating: 4,
-        date: '3週間前',
-        text: 'インストラクターが丁寧で初心者にも優しい。最大3名なのでほぼパーソナルに近い環境です。',
-      },
-    ],
     price: '月4回 11,000円〜',
     trial: '体験レッスンあり（詳細は公式サイト）',
     features: ['女性限定', 'セミパーソナル最大3名', '月4回11,000円〜', '丁寧な指導'],
@@ -133,28 +89,6 @@ const studios = [
     name: 'zen place pilates 高円寺',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7,
-    reviewCount: 25,
-    reviews: [
-      {
-        author: 'A.T',
-        rating: 5,
-        date: '1週間前',
-        text: 'BASI認定のエデュケーターが揃っていて指導の質が高い。AI分析で自分の体の癖を可視化してもらえるのが新鮮でした。',
-      },
-      {
-        author: 'Y.S',
-        rating: 5,
-        date: '2週間前',
-        text: 'マットグループ月4回9,625円で本格的なピラティスが受けられるのは嬉しい。高円寺駅からのアクセスも良好です。',
-      },
-      {
-        author: 'K.M',
-        rating: 4,
-        date: '3週間前',
-        text: '全国に100店舗以上あるので引越しても通い続けられるのが安心。プライベートレッスンも充実しています。',
-      },
-    ],
     price: 'マットグループ月4回 9,625円〜',
     trial: '体験レッスンあり（詳細は公式サイト）',
     features: ['BASI認定インストラクター', 'AI姿勢分析', 'マット&マシン対応', '全国100店舗以上'],
@@ -186,28 +120,6 @@ const studios = [
   {
     name: 'NATURAglam 高円寺',
     image: '/images/studios/naturaglam.webp',
-    rating: 4.6,
-    reviewCount: 6,
-    reviews: [
-      {
-        author: 'K.N',
-        rating: 5,
-        date: '1週間前',
-        text: '高円寺駅徒歩1分で通いやすい！ヨガもピラティスもダンスも受けられるので飽きません。月4回7,700円は杉並区で最安級。',
-      },
-      {
-        author: 'Y.M',
-        rating: 4,
-        date: '2週間前',
-        text: '女性専用なのでリラックスして受講できます。ピラティスだけでなくヨガやダンスも気分で選べるのが楽しい。',
-      },
-      {
-        author: 'A.S',
-        rating: 5,
-        date: '3週間前',
-        text: 'とにかく駅近で月額も安い。仕事帰りにサクッと通えて、運動習慣がつきました。スタッフも温かい雰囲気です。',
-      },
-    ],
     price: '月4回 7,700円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', 'ヨガ&ピラティス&ダンス', '駅徒歩1分', '月4回7,700円〜'],
@@ -239,28 +151,6 @@ const studios = [
   {
     name: 'Rintosull 高円寺店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.5,
-    reviewCount: 51,
-    reviews: [
-      {
-        author: 'M.T',
-        rating: 5,
-        date: '1週間前',
-        text: '2026年1月にオープンしたばかりで設備がきれい！LAVA系列なのでサービスの質が安定しています。高円寺駅徒歩1分は最高の立地。',
-      },
-      {
-        author: 'R.I',
-        rating: 4,
-        date: '2週間前',
-        text: '女性専用のマシンピラティスで安心。LAVA会員なら系列店も利用できるのがお得。新しいスタジオなので清潔感があります。',
-      },
-      {
-        author: 'C.H',
-        rating: 5,
-        date: '3週間前',
-        text: '無料体験でパーソナル姿勢診断もしてもらえました。初心者が多いので気兼ねなく通えます。',
-      },
-    ],
     price: '月額プランあり（詳細は公式サイト）',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'マシンピラティス', '駅徒歩1分', '2026年1月OPEN', 'LAVA系列'],
@@ -293,28 +183,6 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 高円寺',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
-    rating: 4.4,
-    reviewCount: 231,
-    reviews: [
-      {
-        author: 'S.O',
-        rating: 5,
-        date: '1週間前',
-        text: '予約不要で30分のサーキット形式。仕事帰りにふらっと寄れるのが最高です。月4回9,680円で手軽に始められます。',
-      },
-      {
-        author: 'T.K',
-        rating: 4,
-        date: '2週間前',
-        text: '予約なしで通えるので、急に時間が空いた時にも行けるのがいい。30分で終わるので忙しい人にぴったり。',
-      },
-      {
-        author: 'M.H',
-        rating: 4,
-        date: '3週間前',
-        text: 'サーキット形式で効率よく全身を鍛えられます。初心者でも動画を見ながら進められるので安心。',
-      },
-    ],
     price: '月4回 9,680円',
     trial: '体験レッスンあり',
     features: ['予約不要', '30分サーキット', '月4回9,680円', '気軽に通える'],
@@ -346,28 +214,6 @@ const studios = [
   {
     name: 'STUDIO IVY 高円寺',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.9,
-    reviewCount: 4,
-    reviews: [
-      {
-        author: 'A.W',
-        rating: 5,
-        date: '1週間前',
-        text: '完全個室のパーソナルなので人目を気にせず集中できます。月2回15,000円〜で本格的なマンツーマン指導が受けられるのはお得。',
-      },
-      {
-        author: 'K.S',
-        rating: 5,
-        date: '2週間前',
-        text: '自分の体の悩みに合わせたオーダーメイドのレッスン。猫背が改善されて周囲から姿勢が良くなったと言われるようになりました。',
-      },
-      {
-        author: 'N.M',
-        rating: 5,
-        date: '3週間前',
-        text: '完全個室で清潔感のあるプライベート空間。インストラクターの知識が豊富で、毎回新しい発見があります。',
-      },
-    ],
     price: '月2回 15,000円〜',
     trial: '体験レッスンあり',
     features: ['完全個室パーソナル', '月2回15,000円〜', 'オーダーメイドレッスン', '高品質な指導'],
@@ -400,28 +246,6 @@ const studios = [
     name: 'ELEMENT 高円寺',
     officialUrl: 'https://t.felmat.net/fmcl?ak=U11199J.1.V154352I.U1357808',
     image: '/images/studios/element.webp',
-    rating: 4.6,
-    reviewCount: 16,
-    reviews: [
-      {
-        author: 'J.T',
-        rating: 5,
-        date: '1週間前',
-        text: 'マンツーマン30分で集中して追い込めます。月4回22,000円は他のパーソナルと比べてもリーズナブル。短時間で効果を実感。',
-      },
-      {
-        author: 'R.O',
-        rating: 4,
-        date: '2週間前',
-        text: '30分のマンツーマンレッスンは忙しいビジネスパーソンにちょうどいい。効率よく体を鍛えられます。',
-      },
-      {
-        author: 'Y.K',
-        rating: 5,
-        date: '3週間前',
-        text: 'パーソナルなのに手頃な価格。インストラクターが親身に指導してくれるので、毎回のレッスンが楽しみです。',
-      },
-    ],
     price: '月4回 22,000円',
     trial: '体験レッスンあり',
     features: ['マンツーマン30分', '月4回22,000円', '効率的なパーソナル', '短時間集中'],
@@ -453,28 +277,6 @@ const studios = [
   {
     name: 'ピラティスミラー 高円寺',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.5,
-    reviewCount: 39,
-    reviews: [
-      {
-        author: 'S.M',
-        rating: 5,
-        date: '1週間前',
-        text: 'マシンピラティスのグループレッスンとパーソナルの両方があるので、自分の気分や目的で使い分けられるのが便利。',
-      },
-      {
-        author: 'E.K',
-        rating: 4,
-        date: '2週間前',
-        text: '高円寺にマシンピラティスの選択肢が増えて嬉しい。スタジオの雰囲気も明るくて通いやすいです。',
-      },
-      {
-        author: 'A.N',
-        rating: 4,
-        date: '3週間前',
-        text: 'グループでもパーソナルでも対応してくれるので、まずはグループで試してからパーソナルに切り替えました。',
-      },
-    ],
     price: '詳細は公式サイトでご確認ください',
     trial: '体験レッスンあり',
     features: ['マシンピラティス', 'グループ&パーソナル', '高円寺駅近く', '初心者歓迎'],
@@ -506,28 +308,6 @@ const studios = [
   {
     name: 'CALDO 高円寺',
     image: '/images/studios/caldo.webp',
-    rating: 4.4,
-    reviewCount: 168,
-    reviews: [
-      {
-        author: 'H.T',
-        rating: 5,
-        date: '1週間前',
-        text: 'ホットヨガメインですがピラティスのクラスもあります。月4回8,250円〜でホットヨガもピラティスも受けられるのはお得。',
-      },
-      {
-        author: 'M.S',
-        rating: 4,
-        date: '2週間前',
-        text: '杉並区で手頃にヨガとピラティスの両方を楽しみたい人におすすめ。施設もきれいで居心地がいいです。',
-      },
-      {
-        author: 'K.Y',
-        rating: 4,
-        date: '3週間前',
-        text: '予約なしで通えるレッスンも多くて便利。高円寺の駅からも近く、仕事帰りに通いやすい立地です。',
-      },
-    ],
     price: '月4回 8,250円〜',
     trial: '体験レッスンあり',
     features: ['ホットヨガ&ピラティス', '月4回8,250円〜', '駅近', '施設充実'],
@@ -559,28 +339,6 @@ const studios = [
   {
     name: 'ピラティスK 高円寺（近隣エリア利用）',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.5,
-    reviewCount: 83,
-    reviews: [
-      {
-        author: 'L.K',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用のマシンピラティスで、音楽に合わせたグループレッスンが楽しい。高円寺から近隣店舗に通えます。',
-      },
-      {
-        author: 'N.T',
-        rating: 4,
-        date: '2週間前',
-        text: 'おしゃれな空間で気分が上がります。レッスンプログラムも豊富で飽きずに続けられます。',
-      },
-      {
-        author: 'Y.H',
-        rating: 4,
-        date: '3週間前',
-        text: '女性専用なので安心。マシンピラティスが初めてでも丁寧に教えてもらえました。',
-      },
-    ],
     price: '詳細は公式サイトでご確認ください',
     trial: '体験レッスンあり',
     features: ['女性専用', 'マシンピラティス', '音楽×ピラティス', '近隣エリア店舗利用'],

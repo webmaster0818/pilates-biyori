@@ -22,13 +22,6 @@ const studios = [
   {
     name: 'ピラティスミラー 桜新町',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.7,
-    reviewCount: 11,
-    reviews: [
-      { author: 'A.B', rating: 5, date: '1週間前', text: 'ピラティスミラー 桜新町は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
-      { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
-      { author: 'E.F', rating: 5, date: '3週間前', text: 'スタジオの雰囲気が良く、リラックスしてレッスンを受けられます。' },
-    ],
     price: 'プライベート30分 4,400円〜',
     trial: '体験レッスンあり',
     features: ['女性専用','天井ミラー','30分レッスン','少人数6名制'],
@@ -43,13 +36,6 @@ const studios = [
   {
     name: 'ピラティス スタジオ・クラール',
     image: '/images/studios/klar-pilates.webp',
-    rating: 4.9,
-    reviewCount: 22,
-    reviews: [
-      { author: 'A.B', rating: 5, date: '1週間前', text: 'ピラティス スタジオ・クラールは初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
-      { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
-      { author: 'E.F', rating: 5, date: '3週間前', text: 'スタジオの雰囲気が良く、リラックスしてレッスンを受けられます。' },
-    ],
     price: '料金は店舗にお問い合わせください',
     trial: '体験レッスンあり',
     features: ['本格プライベート','落ち着いた空間','桜新町エリア','オーダーメイド'],
@@ -64,13 +50,6 @@ const studios = [
   {
     name: 'パーソナルマシンピラティスYUZU 桜新町（近隣）',
     image: '/images/studios/yuzu-pilates.webp',
-    rating: 4.8,
-    reviewCount: 9,
-    reviews: [
-      { author: 'A.B', rating: 5, date: '1週間前', text: 'パーソナルマシンピラティスYUZU 桜新町（近隣）は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
-      { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
-      { author: 'E.F', rating: 5, date: '3週間前', text: 'スタジオの雰囲気が良く、リラックスしてレッスンを受けられます。' },
-    ],
     price: '1回 7,200円〜',
     trial: '体験レッスンあり',
     features: ['パーソナル専門','有資格者多数','キッズスペース完備','レンタルウェア完備'],
@@ -86,13 +65,6 @@ const studios = [
     name: 'zen place pilates 桜新町（近隣）',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 18,
-    reviews: [
-      { author: 'A.B', rating: 5, date: '1週間前', text: 'zen place pilates 桜新町（近隣）は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
-      { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
-      { author: 'E.F', rating: 5, date: '3週間前', text: 'スタジオの雰囲気が良く、リラックスしてレッスンを受けられます。' },
-    ],
     price: 'マットグループ月4回 9,625円〜',
     trial: '体験レッスン 1,000円',
     features: ['マット&マシン','AIによる姿勢分析','全国店舗利用可','男性OK'],
@@ -108,13 +80,6 @@ const studios = [
     name: 'ELEMENT 桜新町（近隣）',
     officialUrl: 'https://t.felmat.net/fmcl?ak=U11199J.1.V154352I.U1357808',
     image: '/images/studios/element.webp',
-    rating: 4.7,
-    reviewCount: 24,
-    reviews: [
-      { author: 'A.B', rating: 5, date: '1週間前', text: 'ELEMENT 桜新町（近隣）は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
-      { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
-      { author: 'E.F', rating: 5, date: '3週間前', text: 'スタジオの雰囲気が良く、リラックスしてレッスンを受けられます。' },
-    ],
     price: '月4回 22,000円',
     trial: '体験レッスン 3,300円',
     features: ['マンツーマン30分','月4回 22,000円','体験3,300円','桜新町近隣'],
@@ -129,13 +94,6 @@ const studios = [
   {
     name: 'ピラティスK 桜新町（近隣）',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.6,
-    reviewCount: 221,
-    reviews: [
-      { author: 'A.B', rating: 5, date: '1週間前', text: 'ピラティスK 桜新町（近隣）は初心者にも通いやすいスタジオです。丁寧な指導で効果を実感しています。' },
-      { author: 'C.D', rating: 4, date: '2週間前', text: 'アクセスも良く、続けやすい環境。レッスンの質が高いです。' },
-      { author: 'E.F', rating: 5, date: '3週間前', text: 'スタジオの雰囲気が良く、リラックスしてレッスンを受けられます。' },
-    ],
     price: '月4回 11,220円〜',
     trial: '体験レッスンあり',
     features: ['女性専用','マシンピラティス','月4回 11,220円〜','桜新町近隣'],

@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'ピラティスK 阪急西宮ガーデンズ店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 229,
-    reviews: [
-      {
-        author: 'M.S',
-        rating: 5,
-        date: '1週間前',
-        text: '阪急西宮ガーデンズ プラス館8Fにあり、西宮北口駅から直結デッキで徒歩約3分。女性専用で安心。音楽に合わせたリフォーマーレッスンが楽しい。体験レッスン無料！',
-      },
-      {
-        author: 'A.Y',
-        rating: 5,
-        date: '2週間前',
-        text: '月4回11,220円〜と西宮エリアではコスパ抜群。部位別ボディメイクプログラムも充実。買い物ついでに通えるのが最高。',
-      },
-      {
-        author: 'K.T',
-        rating: 4,
-        date: '3週間前',
-        text: 'マシンピラティス専門なのでリフォーマーの台数が多く予約が取りやすい。初心者向けから上級者向けまでクラスが豊富。',
-      },
-    ],
     price: '月4回 11,220円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '西宮北口駅徒歩3分', '阪急西宮ガーデンズ内', '体験無料'],
@@ -77,28 +55,6 @@ const studios = [
     name: 'zen place pilates 西宮北口',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 13,
-    reviews: [
-      {
-        author: 'H.N',
-        rating: 5,
-        date: '1週間前',
-        text: '西宮北口駅から徒歩2分。ピラティス専門で20年以上の実績。マットもマシンも両方受けられる。全国150店舗以上で他店利用可能なので出張先でも通える。',
-      },
-      {
-        author: 'R.A',
-        rating: 5,
-        date: '2週間前',
-        text: 'グループ体験1,000円で気軽に試せました。インストラクターの質が高く、丁寧な指導。月4回10,450円〜とコスパも良い。男性もOK。',
-      },
-      {
-        author: 'T.M',
-        rating: 4,
-        date: '3週間前',
-        text: '体験当日入会で入会金無料。朝7時からレッスンがあるので出勤前に通えます。にしきた公園の近くで環境も良い。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['西宮北口駅徒歩2分', '男性OK', '全国相互利用', '大手の安心感'],
@@ -130,28 +86,6 @@ const studios = [
   {
     name: 'CLUB PILATES 西宮北口店',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.7,
-    reviewCount: 63,
-    reviews: [
-      {
-        author: 'E.K',
-        rating: 5,
-        date: '1週間前',
-        text: '世界最大級のマシンピラティスブランド。西宮北口駅から徒歩5分。15種類の器具を使った本格レッスンが受けられる。無料の30分イントロクラスで雰囲気がわかります。',
-      },
-      {
-        author: 'N.S',
-        rating: 4,
-        date: '2週間前',
-        text: '4段階のレベル分けで初心者でも安心。8つのプログラムがあり飽きずに続けられる。インストラクター全員が500時間以上の研修修了。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '3週間前',
-        text: '最大12名の少人数制グループレッスン。リフォーマー・スプリングボード・TRX・チェアなど設備が充実。男性もOK。',
-      },
-    ],
     price: '月4回 14,190円〜',
     trial: '体験レッスン 無料（30分イントロクラス）',
     features: ['世界最大級', '西宮北口駅徒歩5分', '15種類の器具', '男性OK'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'Rintosull（リントスル）西宮北口店',
     image: '/images/studios/rintosull.webp',
-    rating: 4.5,
-    reviewCount: 155,
-    reviews: [
-      {
-        author: 'S.M',
-        rating: 5,
-        date: '1週間前',
-        text: '西宮北口駅南改札口から徒歩1分！ホットヨガLAVAから生まれたマシンピラティススタジオ。月4回8,800円〜と西宮エリア最安クラス。',
-      },
-      {
-        author: 'K.Y',
-        rating: 4,
-        date: '2週間前',
-        text: 'LAVAの全店舗も相互利用可能なので、ピラティスとヨガの両方楽しめるのが嬉しい。清潔で快適なスタジオ。',
-      },
-      {
-        author: 'M.H',
-        rating: 4,
-        date: '3週間前',
-        text: '通い放題でも月13,800円とリーズナブル。体験レッスンは予約制。駅近で通いやすい。',
-      },
-    ],
     price: '月4回 8,800円〜',
     trial: '体験レッスンあり（予約制）',
     features: ['西宮北口駅徒歩1分', 'LAVA相互利用', '低価格', 'マシン専門'],
@@ -236,28 +148,6 @@ const studios = [
   {
     name: 'La pilates（ラピラティス）西宮北口店',
     image: '/images/studios/la-pilates.webp',
-    rating: 4.6,
-    reviewCount: 6,
-    reviews: [
-      {
-        author: 'A.I',
-        rating: 5,
-        date: '1週間前',
-        text: '西宮北口駅南西口から徒歩4分。整体×マシンピラティスの女性専用プライベートスタジオ。骨膜整体とマシンピラティスを組み合わせた独自プログラムが特徴。',
-      },
-      {
-        author: 'Y.M',
-        rating: 5,
-        date: '2週間前',
-        text: 'ウッド調の自然を感じさせるおしゃれな内装。完全個室でリラックスしてレッスンを受けられる。肩こりや腰痛の改善に効果を実感。',
-      },
-      {
-        author: 'R.N',
-        rating: 4,
-        date: '3週間前',
-        text: 'ビフォーアフターの写真を見せてもらいながら丁寧に説明してもらえる。体の変化が目で見えるのでモチベーションが上がります。',
-      },
-    ],
     price: 'パーソナル制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['女性専用', '西宮北口駅徒歩4分', '整体×ピラティス', '完全個室'],
@@ -289,28 +179,6 @@ const studios = [
   {
     name: 'Movement Plus PILATES & FITNESS',
     image: '/images/studios/movement-plus-nishinomiya.webp',
-    rating: 4.6,
-    reviewCount: 21,
-    reviews: [
-      {
-        author: 'N.T',
-        rating: 5,
-        date: '1週間前',
-        text: '西宮北口駅から徒歩2分。マットピラティス月4回11,000円〜とリーズナブル。リフォーマーグループは定員3名の超少人数制で丁寧な指導。',
-      },
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: 'リフォーマー、マット、サーキットフュージョンの3タイプのレッスンがある。入会金3,300円と始めやすい。マット体験1,650円で気軽に試せました。',
-      },
-      {
-        author: 'H.Y',
-        rating: 4,
-        date: '3週間前',
-        text: 'マットグループは5〜7名の少人数制。リフォーマーとフィットネスを組み合わせたサーキットフュージョンが新しくて楽しい。',
-      },
-    ],
     price: 'マット月4回 11,000円〜',
     trial: 'マット体験 1,650円 / リフォーマー体験 4,400円',
     features: ['西宮北口駅徒歩2分', '定員3名リフォーマー', '低価格', '3タイプのレッスン'],

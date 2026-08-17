@@ -21,13 +21,7 @@ const studios = [
   {
     name: 'zen place pilates 綱島',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.7, reviewCount: 135,
-    reviews: [
-      { author: 'S.K', rating: 5, date: '1週間前', text: '2025年に拡張移転したばかりの綺麗なスタジオ。綱島駅北口から徒歩2分でアクセス抜群。マットもマシンも充実しています。' },
-      { author: 'M.A', rating: 5, date: '2週間前', text: '男性もOKで夫婦で通っています。インストラクターの質が高く、解剖学に基づいた指導で体が変わりました。' },
-      { author: 'K.N', rating: 4, date: '3週間前', text: '全店舗利用可能プランで東横線沿線の別店舗にも通えて便利。体験1,000円で気軽に試せました。' },
-    ],
+    image: '/images/studios/zen-place-pilates.webp', reviewCount: 135,
     price: '月4回 13,200円〜', trial: '体験レッスン 1,000円',
     features: ['全国展開大手', 'マット&マシン完備', '2025年拡張移転', '綱島駅徒歩2分'],
     description: '全国130店舗以上を展開する大手ピラティススタジオ。2025年5月に拡張移転し、綱島駅北口徒歩2分の新スタジオへ。マットグループ・マシングループ・プライベートの3形態に対応。解剖学ベースの科学的アプローチが特徴。',
@@ -40,13 +34,7 @@ const studios = [
   },
   {
     name: 'pilates K 綱島店',
-    image: '/images/studios/pilates-k.webp',
-    rating: 4.6, reviewCount: 92,
-    reviews: [
-      { author: 'Y.T', rating: 5, date: '1週間前', text: '女性専用で安心して通えます。音楽に合わせたグループレッスンが楽しい。駅から近くて便利。' },
-      { author: 'A.M', rating: 5, date: '2週間前', text: '体験0円で気軽に始められました。1人1台リフォーマーでしっかり効果を実感。月4回プランから始めています。' },
-      { author: 'N.S', rating: 4, date: '3週間前', text: 'ボディメイクに特化したプログラムが充実。インストラクターが明るくてモチベーションが上がります。' },
-    ],
+    image: '/images/studios/pilates-k.webp', reviewCount: 92,
     price: '月4回 11,220円〜', trial: '体験レッスン 0円',
     features: ['女性専用', 'マシンピラティス専門', '体験0円', '駅近'],
     description: '女性専用マシンピラティス専門スタジオ。「30歳からの本気ボディメイク」をコンセプトに、1人1台のリフォーマーで音楽に合わせてトレーニング。体験0円で気軽にスタート。月4回11,220円〜。',
@@ -59,13 +47,7 @@ const studios = [
   },
   {
     name: 'FlexFit ピラティス・ワークアウト 綱島',
-    image: '/images/studios/element.webp',
-    rating: 4.8, reviewCount: 58,
-    reviews: [
-      { author: 'H.K', rating: 5, date: '1週間前', text: '綱島駅から30秒！ピラティス×ウェイトの複合プログラムが他にない。AI姿勢分析もあって科学的にアプローチできる。' },
-      { author: 'R.M', rating: 5, date: '2週間前', text: 'リフォーマー、キャデラック、チェアなど多彩なマシン完備。全員有資格者のインストラクターで質が高い。' },
-      { author: 'T.Y', rating: 4, date: '3週間前', text: '駅目の前で雨の日も濡れずに通えます。ピラティスとウェイトトレーニングを組み合わせた効率的なプログラムが魅力。' },
-    ],
+    image: '/images/studios/element.webp', reviewCount: 58,
     price: 'レッスン料は公式サイトでご確認ください', trial: '体験レッスンあり',
     features: ['駅徒歩30秒', 'ピラティス×ウェイト', 'AI姿勢分析', '全員有資格者'],
     description: '綱島駅から徒歩30秒の好立地。ピラティス×ウェイトトレーニングの複合プログラムが特徴。リフォーマー・キャデラック・チェアなど多彩なマシン完備。全員有資格のインストラクターとAI姿勢分析で科学的にボディメイク。',
@@ -78,13 +60,7 @@ const studios = [
   },
   {
     name: 'STUDIO TT 綱島店',
-    image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.5, reviewCount: 48,
-    reviews: [
-      { author: 'E.H', rating: 5, date: '1週間前', text: '木目調の落ち着いた雰囲気のスタジオ。体験1,100円でリーズナブルに試せました。' },
-      { author: 'C.T', rating: 4, date: '2週間前', text: 'アットホームな雰囲気で初心者にも通いやすいスタジオ。インストラクターが丁寧に教えてくれます。' },
-      { author: 'M.I', rating: 4, date: '3週間前', text: '少人数制のレッスンでしっかり見てもらえます。綱島駅からのアクセスも良好。' },
-    ],
+    image: '/images/studios/zen-place-pilates.webp', reviewCount: 48,
     price: 'レッスン料は公式サイトでご確認ください', trial: '体験レッスン 1,100円',
     features: ['木目調の落ち着く空間', '体験1,100円', '少人数制', 'アットホーム'],
     description: '木目調の落ち着いた雰囲気のピラティススタジオ。少人数制のレッスンで一人ひとりに合わせた丁寧な指導が特徴。体験レッスン1,100円でリーズナブルに試せます。アットホームな空間で初心者も安心。',
@@ -97,13 +73,7 @@ const studios = [
   },
   {
     name: 'Rintosull 綱島エリア（東横線沿線）',
-    image: '/images/studios/rintosull.webp',
-    rating: 4.6, reviewCount: 80,
-    reviews: [
-      { author: 'Y.S', rating: 5, date: '1週間前', text: '女性専用で安心。LAVA系列なのでサービスの質が安定しています。東横線沿線の店舗を利用できるのが便利。' },
-      { author: 'K.O', rating: 5, date: '2週間前', text: '体験無料キャンペーンで入会を決めました。マシンピラティスが初めてでも丁寧に教えてもらえます。' },
-      { author: 'N.M', rating: 4, date: '3週間前', text: 'プレミアムプランでLAVAのヨガも利用可能。ピラティスとヨガ両方楽しめるのがお得。' },
-    ],
+    image: '/images/studios/rintosull.webp', reviewCount: 80,
     price: 'プレミアムプラン 月額10,978円（税込）', trial: '体験無料キャンペーン実施中',
     features: ['女性専用', 'マシンピラティス', '体験無料', 'LAVA系列'],
     description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオ。東横線沿線の店舗を利用可能。リフォーマーを使ったレッスンで効率よくボディメイク。体験無料キャンペーン実施中。プレミアムフリーフルタイムプランならLAVA等系列店も利用可能。',

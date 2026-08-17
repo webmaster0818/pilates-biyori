@@ -16,28 +16,6 @@ const studios = [
   {
     name: 'zen place pilates 池袋スタジオ',
     image: '/images/pilates2.webp',
-    rating: 4.3,
-    reviewCount: 187,
-    reviews: [
-      {
-        author: 'M.T',
-        rating: 5,
-        date: '2週間前',
-        text: 'インストラクターの知識が豊富で、体の使い方を根本から学べます。3ヶ月通って姿勢が良くなり、肩こりも改善しました。池袋駅から近くて通いやすいです。',
-      },
-      {
-        author: 'Y.S',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '少人数制なので丁寧に見てもらえます。マシンの種類も豊富で、自分の課題に合わせたメニューを組んでくれるのが良いです。スタジオも清潔で快適です。',
-      },
-      {
-        author: 'K.N',
-        rating: 4,
-        date: '3週間前',
-        text: '全国どこでも通えるのが便利。出張先でもレッスンを受けられるので継続しやすいです。料金は少し高めですが、質を考えると納得できます。',
-      },
-    ],
     price: '月4回 13,200円〜',
     trial: '体験レッスン 1,000円',
     features: ['マシン完備', '初心者歓迎', '池袋駅徒歩3分', 'インストラクター養成'],
@@ -69,28 +47,6 @@ const studios = [
   {
     name: 'WECLE 池袋',
     image: '/images/pilates3.webp',
-    rating: 4.2,
-    reviewCount: 94,
-    reviews: [
-      {
-        author: 'A.Y',
-        rating: 5,
-        date: '1週間前',
-        text: 'AI姿勢分析が面白い！自分の体の癖が可視化されるので、何を改善すべきか明確になります。駅直結で雨の日も濡れずに通えるのが便利です。',
-      },
-      {
-        author: 'R.M',
-        rating: 4,
-        date: '2週間前',
-        text: '女性専用なので気兼ねなく通えます。マシンが新しくて使いやすい。体験レッスンが安いので気軽に始められました。2ヶ月で体型が変わってきた実感があります。',
-      },
-      {
-        author: 'H.K',
-        rating: 5,
-        date: '3週間前',
-        text: '科学的なアプローチが気に入っています。データで効果が見えるとモチベーションが上がります。インストラクターも親切で質問しやすい雰囲気です。',
-      },
-    ],
     price: '月4回 14,800円〜',
     trial: '体験レッスン 500円',
     features: ['AI姿勢分析', '最新マシン', '池袋駅直結', '女性専用'],
@@ -122,28 +78,6 @@ const studios = [
   {
     name: 'ピラティスK 池袋',
     image: '/images/pilates4.webp',
-    rating: 4.1,
-    reviewCount: 128,
-    reviews: [
-      {
-        author: 'S.T',
-        rating: 5,
-        date: '5日前',
-        text: '暗闇×音楽で楽しく続けられます！周りを気にせず思いっきり動けるのでストレス発散にもなります。3ヶ月で体重が3kg減りました。',
-      },
-      {
-        author: 'M.K',
-        rating: 4,
-        date: '1週間前',
-        text: '音楽に合わせて動くので飽きない。女性専用で安心感があります。インストラクターが明るくて楽しい雰囲気。無料体験があるので気軽に始められました。',
-      },
-      {
-        author: 'E.H',
-        rating: 5,
-        date: '2週間前',
-        text: 'グループレッスンですが丁寧に見てくれます。暗闇なので初心者でも恥ずかしくない。楽しく続けられて、姿勢も良くなってきた気がします。',
-      },
-    ],
     price: '月4回 15,070円〜',
     trial: '無料体験レッスン',
     features: ['音楽×マシン', '女性専用', '暗闇レッスン', 'グループレッスン'],
@@ -175,7 +109,6 @@ const studios = [
   {
     name: 'the SILK 池袋',
     image: '/images/pilates2.webp',
-    rating: 4.7,
     price: '月4回 15,070円〜',
     trial: '体験レッスン 無料',
     features: ['暗闇マシン', '音楽', '池袋駅近', '女性専用'],
@@ -185,7 +118,6 @@ const studios = [
   {
     name: 'CLUB PILATES 池袋',
     image: '/images/pilates3.webp',
-    rating: 4.5,
     price: '月4回 14,190円〜',
     trial: '体験レッスン 無料',
     features: ['アメリカ発', 'グループ&プライベート', '池袋駅西口', '初心者歓迎'],
@@ -195,7 +127,6 @@ const studios = [
   {
     name: 'ピラティススタジオ B-line 池袋',
     image: '/images/pilates4.webp',
-    rating: 4.8,
     price: '1回 8,800円〜',
     trial: '体験レッスン 5,500円',
     features: ['完全プライベート', 'マシン完備', '池袋駅東口', 'オーダーメイド'],
@@ -205,7 +136,6 @@ const studios = [
   {
     name: 'Reformer Pilates Ikebukuro',
     image: '/images/pilates2.webp',
-    rating: 4.6,
     price: '月4回 13,200円〜',
     trial: '体験レッスン 1,000円',
     features: ['リフォーマー専門', '少人数制', '東池袋', '初心者歓迎'],
@@ -215,7 +145,6 @@ const studios = [
   {
     name: 'Urban Pilates 池袋',
     image: '/images/pilates3.webp',
-    rating: 4.5,
     price: '月額 16,500円（通い放題）',
     trial: '体験レッスン 無料',
     features: ['24時間営業', '池袋駅西口', '通い放題', 'マシン完備'],
@@ -225,7 +154,6 @@ const studios = [
   {
     name: 'Pilates Studio M 池袋',
     image: '/images/pilates4.webp',
-    rating: 4.7,
     price: '月4回 12,980円〜',
     trial: '体験レッスン 1,000円',
     features: ['女性専用', '少人数制', '南池袋', 'マット&マシン'],
@@ -235,7 +163,6 @@ const studios = [
   {
     name: 'BDC PILATES 池袋',
     image: '/images/pilates2.webp',
-    rating: 4.6,
     price: '1回 3,850円〜',
     trial: '体験レッスン 2,200円',
     features: ['ダンサー御用達', 'グループレッスン', '池袋駅近', '本格的'],
@@ -245,7 +172,6 @@ const studios = [
   {
     name: 'Pilates Lab 池袋',
     image: '/images/pilates3.webp',
-    rating: 4.8,
     price: '月4回 14,300円〜',
     trial: '体験レッスン 3,300円',
     features: ['理学療法士監修', 'リハビリ対応', '池袋駅北口', 'プライベート'],
@@ -255,7 +181,6 @@ const studios = [
   {
     name: 'FLOW PILATES 池袋',
     image: '/images/pilates4.webp',
-    rating: 4.5,
     price: '月4回 13,200円〜',
     trial: '体験レッスン 1,000円',
     features: ['ヨガ×ピラティス', 'リラックス', '東池袋', '初心者歓迎'],
@@ -265,7 +190,6 @@ const studios = [
   {
     name: 'Body Make Studio Pilates+ 池袋',
     image: '/images/pilates2.webp',
-    rating: 4.6,
     price: '月4回 14,850円〜',
     trial: '体験レッスン 1,500円',
     features: ['ボディメイク特化', 'マシン完備', '池袋駅西口', 'パーソナル'],
@@ -275,7 +199,6 @@ const studios = [
   {
     name: 'Pilates Studio Harmony 池袋',
     image: '/images/pilates3.webp',
-    rating: 4.7,
     price: '月4回 12,100円〜',
     trial: '体験レッスン 無料',
     features: ['アットホーム', '少人数制', '南池袋', 'マット中心'],
@@ -285,7 +208,6 @@ const studios = [
   {
     name: 'Pilates & Wellness 池袋',
     image: '/images/pilates4.webp',
-    rating: 4.5,
     price: '月4回 13,750円〜',
     trial: '体験レッスン 1,000円',
     features: ['ウェルネス', 'マインドフルネス', '池袋駅北口', '女性専用'],

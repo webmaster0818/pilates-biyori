@@ -22,13 +22,6 @@ const studios = [
     name: 'zen place pilates 戸塚',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/default-studio.webp',
-    rating: 4.6,
-    reviewCount: 55,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '戸塚駅東口徒歩3分の駅直結ビル。全国150店舗以上展開。マット・マシン・グループ・プライベートすべてに対応。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
     features: ["全国150店舗", "マット&マシン", "男性OK", "駅直結ビル"],
@@ -43,13 +36,6 @@ const studios = [
   {
     name: 'Rintosull 戸塚店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.5,
-    reviewCount: 48,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: 'LAVA系列の女性専用マシンピラティス。月4回8,800円〜のコスパ。87%以上が初心者で安心。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月4回 8,800円〜',
     trial: '体験レッスン 無料',
     features: ["LAVA系列", "女性専用", "月4回8,800円〜", "初心者87%"],
@@ -64,13 +50,6 @@ const studios = [
   {
     name: 'ルルト 戸塚', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
     image: '/images/studios/default-studio.webp',
-    rating: 4.8,
-    reviewCount: 12,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '2025年7月オープン。理学療法士監修の完全マンツーマン・マシンピラティス。専門家による個別設計プログラム。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["理学療法士監修", "完全マンツーマン", "2025年オープン", "オーダーメイド"],
@@ -85,13 +64,6 @@ const studios = [
   {
     name: 'ORBe（オルビー）戸塚',
     image: '/images/studios/default-studio.webp',
-    rating: 4.7,
-    reviewCount: 18,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '2024年12月オープン。女性専用マシンピラティス×パーソナルジム。戸塚駅西口徒歩5分。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["女性専用", "マシンピラティス×パーソナルジム", "2024年オープン", "西口"],
@@ -106,13 +78,6 @@ const studios = [
   {
     name: 'LAVA 戸塚店',
     image: '/images/studios/default-studio.webp',
-    rating: 4.4,
-    reviewCount: 95,
-    reviews: [
-      { author: 'M.K', rating: 5, date: '1週間前', text: '全国400店舗以上のホットヨガスタジオ。ピラティスプログラムも充実。Rintosullとの併用も可能。' },
-      { author: 'S.T', rating: 4, date: '2週間前', text: '初心者でも安心して通える。インストラクターが丁寧に指導してくれる。' },
-      { author: 'R.N', rating: 5, date: '3週間前', text: 'アクセスも良く通いやすい。レッスン後は身体がすっきりする。' },
-    ],
     price: '月4回 9,800円〜',
     trial: '体験レッスン 0円',
     features: ["ホットヨガ", "ピラティスプログラム", "女性専用", "0円体験"],

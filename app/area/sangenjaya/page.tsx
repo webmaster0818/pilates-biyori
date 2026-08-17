@@ -25,28 +25,6 @@ const studios = [
     name: 'zen place pilates 三軒茶屋',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 32,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '三軒茶屋駅から徒歩3分で通いやすいです。マットもマシンも両方受けられるのが嬉しい。エデュケーターの質が高く、身体の使い方を丁寧に教えてくれます。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '少人数制なので丁寧に見てもらえます。マシンの種類も豊富で、自分のレベルに合わせて進められます。男性も通えるので夫婦で利用しています。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: '全国展開しているので出張先でも通えるのが便利です。三軒茶屋はカフェも多く、レッスン後のリフレッシュも楽しめます。',
-      },
-    ],
     price: 'マットグループ月4回 9,625円〜',
     trial: '体験レッスン 3,300円',
     features: ['マット&マシン', '初心者歓迎', '三軒茶屋駅世田谷通り口徒歩3分', '男性OK'],
@@ -78,28 +56,6 @@ const studios = [
   {
     name: 'luluto（ルルト）三軒茶屋', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
     image: '/images/studios/luluto.webp',
-    rating: 4.9,
-    reviewCount: 6,
-    reviews: [
-      {
-        author: 'T.W',
-        rating: 5,
-        date: '5日前',
-        text: '理学療法士が監修しているので、身体の状態をしっかり見てもらえます。完全マンツーマンなので、自分だけのプログラムで進められるのが嬉しい。',
-      },
-      {
-        author: 'H.I',
-        rating: 5,
-        date: '1週間前',
-        text: '体験が1,000円で、しかも体験当日に入会すると入会金が無料になるのでお得でした。丁寧なカウンセリングで安心感があります。',
-      },
-      {
-        author: 'S.N',
-        rating: 5,
-        date: '2週間前',
-        text: '腰痛が改善しました。理学療法士の知識に基づいた指導なので、身体の不調にしっかり向き合ってもらえます。料金は高めですが価値があります。',
-      },
-    ],
     price: '月3回 29,700円〜',
     trial: '体験レッスン 1,000円',
     features: ['理学療法士監修', '完全マンツーマン', '体験1,000円', '三軒茶屋駅近'],
@@ -131,28 +87,6 @@ const studios = [
     name: 'ELEMENT 三軒茶屋本店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=U11199J.1.V154352I.U1357808',
     image: '/images/studios/element.webp',
-    rating: 4.7,
-    reviewCount: 22,
-    reviews: [
-      {
-        author: 'K.S',
-        rating: 5,
-        date: '3日前',
-        text: '30分のパーソナルレッスンなので、忙しい日でもサクッと通えます。体験3,300円で試せました。マンツーマンなので集中できます。',
-      },
-      {
-        author: 'M.T',
-        rating: 4,
-        date: '1週間前',
-        text: 'マシンピラティスのパーソナルジムなので、トレーナーさんがしっかりフォームを見てくれます。30分でも十分効果を感じられます。',
-      },
-      {
-        author: 'Y.K',
-        rating: 5,
-        date: '2週間前',
-        text: '三軒茶屋駅から近くて通いやすい。月4回22,000円でパーソナルが受けられるのはコスパが良いです。',
-      },
-    ],
     price: '月4回 22,000円',
     trial: '体験レッスン 3,300円',
     features: ['マンツーマン30分', '月4回 22,000円', '体験3,300円', '三軒茶屋駅近'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'NATURAglam 三軒茶屋',
     image: '/images/studios/naturaglam.webp',
-    rating: 4.6,
-    reviewCount: 17,
-    reviews: [
-      {
-        author: 'R.M',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用で安心して通えます。ヨガとピラティスの両方が受けられるのが嬉しい。1回あたり1,071円〜と驚きのコスパです。',
-      },
-      {
-        author: 'A.S',
-        rating: 4,
-        date: '2週間前',
-        text: '体験1,000円で気軽に始められました。レッスンの種類が豊富で飽きずに通えています。',
-      },
-      {
-        author: 'C.T',
-        rating: 5,
-        date: '3週間前',
-        text: 'アットホームな雰囲気で初心者でもリラックスしてレッスンを受けられます。少人数制なのも良いです。',
-      },
-    ],
     price: '1回 1,071円〜',
     trial: '体験レッスン 1,000円',
     features: ['女性専用', 'ヨガ&ピラティス', '体験1,000円', '1回1,071円〜'],
@@ -234,28 +146,6 @@ const studios = [
   {
     name: 'ピラティスミラー 三軒茶屋',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.7,
-    reviewCount: 42,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用で安心感があります。プライベートレッスンが30分4,400円〜とリーズナブルで、気軽にパーソナルを受けられます。',
-      },
-      {
-        author: 'A.H',
-        rating: 4,
-        date: '2週間前',
-        text: 'プライベート30分4,400円というのは他のスタジオと比べてもかなりお手頃。短時間でサクッと通えるのが気に入っています。',
-      },
-      {
-        author: 'M.M',
-        rating: 5,
-        date: '3週間前',
-        text: '女性専用なので周りを気にせずレッスンに集中できます。設備も綺麗で清潔感があります。',
-      },
-    ],
     price: 'プライベート30分 4,400円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', 'プライベート30分 4,400円〜', '清潔な設備', '三軒茶屋駅近'],
@@ -284,28 +174,6 @@ const studios = [
   {
     name: 'STUDIO IVY 三軒茶屋',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.7,
-    reviewCount: 8,
-    reviews: [
-      {
-        author: 'D.T',
-        rating: 5,
-        date: '4日前',
-        text: '完全個室のパーソナルなので、人目を気にせずトレーニングに集中できます。月2回15,000円〜とパーソナルとしては始めやすい料金設定です。',
-      },
-      {
-        author: 'P.K',
-        rating: 5,
-        date: '1週間前',
-        text: 'トレーナーさんの指導がとても丁寧。個室空間で自分のペースで進められるのが気に入っています。',
-      },
-      {
-        author: 'J.M',
-        rating: 4,
-        date: '2週間前',
-        text: '完全個室なのでリラックスして受けられます。月2回から始められるので、まずはお試し感覚で通い始めました。',
-      },
-    ],
     price: '月2回 15,000円〜',
     trial: '体験レッスンあり',
     features: ['完全個室', 'パーソナル', '月2回 15,000円〜', '三軒茶屋駅近'],
@@ -335,28 +203,6 @@ const studios = [
   {
     name: 'CLUB PILATES 三軒茶屋（近隣）',
     image: '/images/studios/club-pilates.webp',
-    rating: 4.6,
-    reviewCount: 104,
-    reviews: [
-      {
-        author: 'F.H',
-        rating: 5,
-        date: '1週間前',
-        text: '最大12名のグループレッスンで、ワイワイ楽しくピラティスができます。月4回10,890円〜はコスパ抜群です。',
-      },
-      {
-        author: 'G.W',
-        rating: 4,
-        date: '2週間前',
-        text: 'アメリカ発のピラティスブランドで、プログラムの質が高い。レベル別にクラスが分かれているので初心者でも安心です。',
-      },
-      {
-        author: 'B.N',
-        rating: 5,
-        date: '3週間前',
-        text: 'リフォーマーを使ったグループレッスンが楽しい。みんなで一緒にやると モチベーションも上がります。',
-      },
-    ],
     price: '月4回 10,890円〜',
     trial: '体験レッスンあり',
     features: ['最大12名グループ', 'リフォーマー使用', '月4回 10,890円〜', '三軒茶屋近隣'],
@@ -387,28 +233,6 @@ const studios = [
   {
     name: 'ピラティスK 三軒茶屋（近隣）',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.6,
-    reviewCount: 117,
-    reviews: [
-      {
-        author: 'W.A',
-        rating: 5,
-        date: '5日前',
-        text: '女性専用のマシンピラティススタジオで安心して通えます。月4回11,220円〜とコスパが良い。スタジオもおしゃれで気分が上がります。',
-      },
-      {
-        author: 'U.R',
-        rating: 4,
-        date: '2週間前',
-        text: 'グループでのマシンピラティスが楽しい。月4回プランから始めて、慣れてきたら回数を増やしました。',
-      },
-      {
-        author: 'Q.T',
-        rating: 5,
-        date: '3週間前',
-        text: 'ボディメイクに特化したプログラムが多く、身体の変化を実感しています。女性専用なので気兼ねなく通えます。',
-      },
-    ],
     price: '月4回 11,220円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', 'マシンピラティス', '月4回 11,220円〜', '三軒茶屋近隣'],
@@ -439,28 +263,6 @@ const studios = [
   {
     name: 'Rintosull 三軒茶屋（近隣）',
     image: '/images/studios/rintosull.webp',
-    rating: 4.5,
-    reviewCount: 44,
-    reviews: [
-      {
-        author: 'V.N',
-        rating: 5,
-        date: '1週間前',
-        text: 'LAVA系列なので安心感があります。女性専用マシンピラティスで、ホットヨガとの併用もできるのが嬉しい。',
-      },
-      {
-        author: 'X.M',
-        rating: 4,
-        date: '2週間前',
-        text: 'マシンピラティス初心者でしたが、丁寧に教えてもらえました。LAVA会員なら割引もあってお得です。',
-      },
-      {
-        author: 'Z.K',
-        rating: 4,
-        date: '3週間前',
-        text: 'スタジオが綺麗で清潔感があります。女性専用なので安心して通えます。',
-      },
-    ],
     price: '料金は店舗にお問い合わせください',
     trial: '体験レッスンあり',
     features: ['女性専用', 'マシンピラティス', 'LAVA系列', '三軒茶屋近隣'],
@@ -491,28 +293,6 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 三軒茶屋（近隣）',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
-    rating: 4.5,
-    reviewCount: 127,
-    reviews: [
-      {
-        author: 'O.H',
-        rating: 5,
-        date: '1週間前',
-        text: '予約不要で30分のレッスンが受けられるのが最高。仕事帰りにふらっと寄れます。月4回9,680円はかなりコスパが良い。',
-      },
-      {
-        author: 'I.S',
-        rating: 4,
-        date: '2週間前',
-        text: '予約なしで通えるのがとにかく便利。急にスケジュールが空いた時にもサッと行けます。',
-      },
-      {
-        author: 'E.T',
-        rating: 5,
-        date: '3週間前',
-        text: '30分のレッスンなので負担が少なく、続けやすいです。月4回9,680円で無理なく通えています。',
-      },
-    ],
     price: '月4回 9,680円',
     trial: '体験レッスンあり',
     features: ['予約不要', '30分レッスン', '月4回 9,680円', '三軒茶屋近隣'],
@@ -543,28 +323,6 @@ const studios = [
   {
     name: 'CALDO 三軒茶屋（近隣）',
     image: '/images/studios/caldo.webp',
-    rating: 4.4,
-    reviewCount: 86,
-    reviews: [
-      {
-        author: 'T.A',
-        rating: 5,
-        date: '5日前',
-        text: 'ホットヨガとピラティスの両方が受けられるのが良いです。温かい環境でのピラティスは身体がほぐれやすく、効果を感じます。',
-      },
-      {
-        author: 'M.R',
-        rating: 4,
-        date: '1週間前',
-        text: '施設が綺麗で広い。ホットヨガが有名ですが、ピラティスのプログラムも充実しています。',
-      },
-      {
-        author: 'K.N',
-        rating: 4,
-        date: '2週間前',
-        text: 'コスパが良く、レッスンの種類も多いので飽きずに通えます。予約なしで通えるのも便利です。',
-      },
-    ],
     price: '料金は店舗にお問い合わせください',
     trial: '体験レッスンあり',
     features: ['ホットヨガ&ピラティス', '予約不要', '充実の施設', '三軒茶屋近隣'],

@@ -25,28 +25,6 @@ const studios = [
     name: 'zen place pilates 祐天寺スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 21,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '祐天寺駅から近くて通いやすい。マットもマシンも両方受けられるのが魅力。少人数制で丁寧に指導してもらえます。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '全国150店舗以上で相互利用可能なので、出張先でも通えて便利。祐天寺は落ち着いた住宅街で集中しやすい環境です。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: 'マシングループ体験が手ぶらセット付きでお得。体験当日入会で入会金無料になりました。インストラクターの質が高い。',
-      },
-    ],
     price: 'マットグループ 月4回 9,625円〜',
     trial: '体験レッスン 1,000円',
     features: ['マット&マシン', '東急東横線祐天寺駅近', '少人数制', '男性OK'],
@@ -78,28 +56,6 @@ const studios = [
   {
     name: 'NATURAglam 祐天寺スタジオ',
     image: '/images/studios/naturaglam.webp',
-    rating: 4.6,
-    reviewCount: 6,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: '月4回4,800円（税別）は本当に安い！マットピラティスで気軽に始められました。体験も1,000円でお得です。',
-      },
-      {
-        author: 'A.H',
-        rating: 4,
-        date: '2週間前',
-        text: 'アットホームな雰囲気で初心者でも安心。7スタジオ相互利用できるので、下北沢や三軒茶屋でも通えて便利。',
-      },
-      {
-        author: 'M.M',
-        rating: 5,
-        date: '3週間前',
-        text: '1回あたり1,000円台はコスパ最強。祐天寺の落ち着いた街並みに馴染む居心地の良いスタジオです。',
-      },
-    ],
     price: '月4回 4,800円〜（税別）',
     trial: '体験レッスン 1,000円',
     features: ['圧倒的低価格', '7スタジオ相互利用', 'マットピラティス', 'アットホーム'],
@@ -131,7 +87,6 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 祐天寺',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
-    rating: 4.5,
     price: '1回 1,485円〜',
     trial: '体験レッスンあり',
     features: ['予約不要', '30分サーキット', '祐天寺駅近', '通い放題あり'],
@@ -142,7 +97,6 @@ const studios = [
   {
     name: 'GRACE pilates&yoga studio',
     image: '/images/studios/grace-yutenji.webp',
-    rating: 4.7,
     price: '1回 2,000円〜',
     trial: '体験レッスンあり',
     features: ['ピラティス&ヨガ', 'アットホーム', '祐天寺エリア', '少人数制'],

@@ -27,28 +27,6 @@ const studios = [
     name: 'zen place pilates 八重洲スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 35,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '東京駅から徒歩5分、大手町からも歩ける距離で便利です。仕事帰りに通っています。マットもマシンも両方受けられるのが嬉しい。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '少人数制なので丁寧に見てもらえます。AIによる背骨ムーブメント解析が面白く、自分の身体の状態を客観的に知れました。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: '全国展開しているので出張先でも通えるのが便利。八重洲のスタジオはビジネス街の中にあり、落ち着いた雰囲気です。',
-      },
-    ],
     price: 'マットグループ 月4回 10,450円〜',
     trial: '体験レッスン 500円〜',
     features: ['マット&マシン', '初心者歓迎', '東京駅徒歩5分', '男性OK'],
@@ -80,28 +58,6 @@ const studios = [
   {
     name: 'the SILK 東京八重洲店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.7,
-    reviewCount: 378,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: '東京駅八重洲北口から徒歩3分で通いやすい！女性専用なので安心。開放感のある大きな窓が気持ちいいスタジオです。',
-      },
-      {
-        author: 'A.H',
-        rating: 5,
-        date: '2週間前',
-        text: '初心者が8割というだけあって、体が硬い私でも無理なく始められました。音楽に合わせたレッスンが楽しいです。',
-      },
-      {
-        author: 'M.M',
-        rating: 4,
-        date: '3週間前',
-        text: '仕事帰りに通っています。スタジオがおしゃれで、モチベーションが上がります。入会金無料キャンペーンで始められました。',
-      },
-    ],
     price: 'Standard4 12,980円〜',
     trial: '体験レッスン（グループ）3,850円',
     features: ['女性専用', 'マシンピラティス専門', '東京駅徒歩3分', '音楽×マシン'],
@@ -133,28 +89,6 @@ const studios = [
   {
     name: 'Pilates Mee 築地店',
     image: '/images/studios/pilates-mee.webp',
-    rating: 4.8,
-    reviewCount: 7,
-    reviews: [
-      {
-        author: 'T.W',
-        rating: 5,
-        date: '5日前',
-        text: 'セミパーソナルで通い放題が月37,500円はコスパ最高。1回あたり1,250円で本格マシンピラティスが受けられます。',
-      },
-      {
-        author: 'H.I',
-        rating: 5,
-        date: '1週間前',
-        text: '少人数のセミパーソナルなので、グループレッスンより丁寧に見てもらえます。大手町から日比谷線で2駅、通いやすいです。',
-      },
-      {
-        author: 'S.N',
-        rating: 4,
-        date: '2週間前',
-        text: '月4回プランで通っています。セミパーソナルなのでインストラクターとの距離が近く、フォームを細かく修正してもらえます。',
-      },
-    ],
     price: 'セミパーソナル 月2回 11,000円〜',
     trial: 'お問い合わせください',
     features: ['セミパーソナル', '通い放題あり', '築地駅徒歩3分', 'コスパ抜群'],
@@ -186,7 +120,6 @@ const studios = [
   {
     name: 'ピラティスK 銀座店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
     price: 'マンスリー4メンバー 13,420円',
     trial: '体験レッスン 2,000円',
     features: ['女性専用', 'マシンピラティス専門', '銀座一丁目駅徒歩1分', 'グループレッスン'],
@@ -197,7 +130,6 @@ const studios = [
   {
     name: 'BDC PILATES 銀座スタジオ',
     image: '/images/studios/bdc-pilates.webp',
-    rating: 4.7,
     price: 'グループ 月額 15,400円〜',
     trial: '体験レッスン 3,850円',
     features: ['プロダンサー養成校プロデュース', '少人数制（最大8名）', '銀座一丁目駅徒歩1分', '本格的'],

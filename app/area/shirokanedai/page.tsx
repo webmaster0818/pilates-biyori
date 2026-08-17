@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'Habit Pilates studio 白金高輪店',
     image: '/images/studios/habit-pilates.webp',
-    rating: 4.8,
-    reviewCount: 21,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '白金高輪駅から近くて通いやすい。パーソナルもグループもあるので目的に合わせて選べます。体験1,980円でお手頃。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '少人数制のセミパーソナルが良い。1回4,500円〜はコスパが良いです。丁寧に見てもらえます。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: 'マシンピラティスを始めたくて通い始めました。白金高輪の落ち着いた雰囲気でリラックスできます。',
-      },
-    ],
     price: '1回 4,500円〜',
     trial: '体験レッスン 1,980円',
     features: ['パーソナル&グループ', '白金高輪駅近', 'マシンピラティス', 'コスパ◎'],
@@ -75,28 +53,6 @@ const studios = [
   {
     name: 'Premium Yoga&Pilates 白金高輪駅前店',
     image: '/images/studios/premium-yoga-shirokanedai.webp',
-    rating: 4.7,
-    reviewCount: 11,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: '少人数制でヨガとピラティスの両方が受けられるのが嬉しい。白金高輪駅前で通いやすい。',
-      },
-      {
-        author: 'A.H',
-        rating: 4,
-        date: '2週間前',
-        text: 'マシンとマット両方に対応。プライベートレッスンも受けられるので、グループと使い分けています。',
-      },
-      {
-        author: 'M.M',
-        rating: 5,
-        date: '3週間前',
-        text: '白金高輪の上品な雰囲気にマッチしたスタジオ。インストラクターの質が高いです。',
-      },
-    ],
     price: 'お問い合わせください',
     trial: '体験レッスン 5,500円',
     features: ['ヨガ&ピラティス', '少人数制', '白金高輪駅前', 'マシン&マット'],
@@ -128,7 +84,6 @@ const studios = [
   {
     name: 'SOU PILATES STUDIO 高輪台店',
     image: '/images/studios/sou-pilates-takanawadai.webp',
-    rating: 4.9,
     price: 'お問い合わせください',
     trial: '体験レッスン 5,500円',
     features: ['パーソナル専門', 'マシンピラティス', '高輪台駅近', '国際ライセンス'],

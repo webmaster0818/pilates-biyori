@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'ピラティスK 浜松メイワン店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
-    reviewCount: 174,
-    reviews: [
-      {
-        author: 'K.S',
-        rating: 5,
-        date: '1週間前',
-        text: 'JR浜松駅直結のメイワン6階。女性専用マシンピラティス専門スタジオ。体験レッスン0円で気軽に始められました。当日入会で入会金・登録料0円。',
-      },
-      {
-        author: 'M.Y',
-        rating: 5,
-        date: '2週間前',
-        text: '音楽に合わせたグループレッスンが楽しい。部位別ボディメイクプログラムが充実。平日は21:30まで営業で仕事帰りにも通える。',
-      },
-      {
-        author: 'A.T',
-        rating: 4,
-        date: '3週間前',
-        text: '月4回13,420円とマシンピラティスとしてはリーズナブル。駅直結なので天候を気にせず通えるのが嬉しい。',
-      },
-    ],
     price: '月4回 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', '浜松駅直結', '体験0円', '部位別プログラム'],
@@ -76,28 +54,6 @@ const studios = [
   {
     name: 'Pilates KASANE 浜松プラザフレスポ店',
     image: '/images/studios/kasane-hamamatsu.webp',
-    rating: 4.6,
-    reviewCount: 21,
-    reviews: [
-      {
-        author: 'R.N',
-        rating: 5,
-        date: '1週間前',
-        text: '2025年8月オープンの新しいスタジオ。和を基調とした落ち着いた空間で4名以下の少人数制。インストラクターが一人ひとりに寄り添ったレッスンが魅力。',
-      },
-      {
-        author: 'Y.O',
-        rating: 5,
-        date: '2週間前',
-        text: '浜松プラザフレスポ1階にあり買い物ついでに通える。レンタルウェア無料で手ぶらOK。8:00〜21:00で年中無休。',
-      },
-      {
-        author: 'H.K',
-        rating: 4,
-        date: '3週間前',
-        text: '月4回15,400円から。月8回で1回3,025円とコスパも良い。ビギナーからステップアップまでプログラムが豊富。',
-      },
-    ],
     price: '月4回 15,400円〜',
     trial: '体験レッスン 3,000円',
     features: ['少人数制4名', 'レンタル無料', '年中無休', '和の空間'],
@@ -129,28 +85,6 @@ const studios = [
   {
     name: 'ピラティススタジオ ルーエ',
     image: '/images/studios/pilates-ruhe-hamamatsu.webp',
-    rating: 4.8,
-    reviewCount: 11,
-    reviews: [
-      {
-        author: 'T.M',
-        rating: 5,
-        date: '1週間前',
-        text: 'アメリカから輸入した本格的なピラティスマシンを完備。リフォーマー・キャデラック・チェア・バレルなど充実の設備。アメリカと同等レベルのレッスンが受けられる。',
-      },
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '初心者からマタニティ、上級者まで幅広く対応。ハンモックピラティスという珍しいプログラムもある。',
-      },
-      {
-        author: 'N.A',
-        rating: 4,
-        date: '3週間前',
-        text: 'ホワイトストリート沿いで浜松駅から車で10分。パーソナルレッスンで自分のペースで進められる。',
-      },
-    ],
     price: '1回 4,400円〜',
     trial: '体験レッスン 4,400円',
     features: ['本格マシン完備', 'マタニティ対応', 'ハンモックピラティス', 'パーソナル'],
@@ -182,28 +116,6 @@ const studios = [
   {
     name: 'HELSTA（ヘルスタ）浜松',
     image: '/images/studios/helsta-hamamatsu.webp',
-    rating: 4.5,
-    reviewCount: 28,
-    reviews: [
-      {
-        author: 'E.S',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用のピラティス・ヨガ・バレエスタジオ。40代・50代・60代の女性に特化したプログラムが魅力。マシンピラティス通い放題が月8,800円と非常にリーズナブル。',
-      },
-      {
-        author: 'C.M',
-        rating: 4,
-        date: '2週間前',
-        text: 'マットピラティス、マシンピラティス、ヨガ、バレエなど多彩なプログラム。オンラインレッスンもあるので自宅からも参加できる。',
-      },
-      {
-        author: 'M.N',
-        rating: 4,
-        date: '3週間前',
-        text: '文化芸術大学東側に移転してから綺麗な施設に。駐車場もあり車で通いやすい。',
-      },
-    ],
     price: '月額 8,800円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', '40-60代歓迎', '通い放題8,800円', 'ヨガ&バレエも'],
@@ -235,28 +147,6 @@ const studios = [
   {
     name: 'ピラティスK MEGAドン・キホーテUNY浜松泉町店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.6,
-    reviewCount: 137,
-    reviews: [
-      {
-        author: 'Y.I',
-        rating: 5,
-        date: '1週間前',
-        text: '浜松に2店舗目のピラティスK。MEGAドンキ内にあるので買い物ついでに通える。メイワン店と同じく女性専用マシンピラティス専門。',
-      },
-      {
-        author: 'R.H',
-        rating: 4,
-        date: '2週間前',
-        text: '2店舗あるので予約が取りやすい。メイワン店は駅直結、泉町店は駐車場が広くて車で通いやすい。',
-      },
-      {
-        author: 'A.K',
-        rating: 5,
-        date: '3週間前',
-        text: '同じピラティスKなので料金もプログラムもメイワン店と同じ。生活圏に合わせて選べるのが便利。',
-      },
-    ],
     price: '月4回 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', 'ドンキ内', '体験0円', '2店舗展開'],

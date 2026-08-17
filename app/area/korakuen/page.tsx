@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'ピラティスミラー 後楽園',
     image: '/images/studios/pilates-mirror.webp',
-    rating: 4.7,
-    reviewCount: 24,
-    reviews: [
-      {
-        author: 'M.K',
-        rating: 5,
-        date: '1週間前',
-        text: 'コナミスポーツ運営で安心感がある。天井ミラーで自分のフォームを確認しながらレッスンできるのが画期的。30分レッスンなのでサクッと通える。',
-      },
-      {
-        author: 'S.T',
-        rating: 5,
-        date: '2週間前',
-        text: '春日駅A3口から徒歩1分、後楽園駅5番口から徒歩2分と駅近で通いやすい。最大6名の少人数制で丁寧に見てもらえる。',
-      },
-      {
-        author: 'R.N',
-        rating: 4,
-        date: '3週間前',
-        text: '月6回11,000円でコスパ良し。体験レッスン2,200円で気軽に試せる。文京ガーデン ザ サウス内で施設もきれい。',
-      },
-    ],
     price: '月6回 11,000円',
     trial: '体験レッスン 2,200円',
     features: ['コナミスポーツ運営', '天井ミラー', '30分レッスン', '最大6名少人数制'],
@@ -76,28 +54,6 @@ const studios = [
   {
     name: 'STUDIO IVY 後楽園店',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.8,
-    reviewCount: 11,
-    reviews: [
-      {
-        author: 'K.N',
-        rating: 5,
-        date: '1週間前',
-        text: '完全パーソナルなので自分のペースで集中できる。マシンピラティスの指導が丁寧で、体の変化を実感できる。',
-      },
-      {
-        author: 'Y.M',
-        rating: 5,
-        date: '2週間前',
-        text: '完全プライベート空間なので周りの目を気にせずレッスンに集中できる。月2回15,000円〜で本格パーソナルが受けられる。',
-      },
-      {
-        author: 'A.S',
-        rating: 4,
-        date: '3週間前',
-        text: '体験4,500円でパーソナルマシンピラティスを試せる。インストラクターの質が高く、個別の悩みに対応してもらえる。',
-      },
-    ],
     price: '月2回 15,000円〜',
     trial: '体験レッスン 4,500円',
     features: ['完全パーソナル', 'マシンピラティス', '完全プライベート空間', '個別指導'],
@@ -130,28 +86,6 @@ const studios = [
     name: 'zen place pilates',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.6,
-    reviewCount: 34,
-    reviews: [
-      {
-        author: 'E.M',
-        rating: 5,
-        date: '1週間前',
-        text: '後楽園・水道橋エリアからアクセスしやすい。全国150店舗以上で他店利用できるので出張先でも通える。男性もOK。',
-      },
-      {
-        author: 'N.K',
-        rating: 5,
-        date: '2週間前',
-        text: 'グループ体験1,000円で気軽に試せた。月4回10,450円〜とリーズナブル。インストラクターの質が高い。',
-      },
-      {
-        author: 'H.Y',
-        rating: 4,
-        date: '3週間前',
-        text: 'マットもマシンも両方受けられる。グループとプライベートを組み合わせられるのが良い。全国の店舗が使えるのも便利。',
-      },
-    ],
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['全国150店舗相互利用', '男性OK', 'マット&マシン', 'グループ体験1,000円'],
@@ -183,28 +117,6 @@ const studios = [
   {
     name: 'the SILK',
     image: '/images/studios/the-silk.webp',
-    rating: 4.7,
-    reviewCount: 300,
-    reviews: [
-      {
-        author: 'A.K',
-        rating: 5,
-        date: '1週間前',
-        text: '女性専用でおしゃれな内装。音楽に合わせたリフォーマーレッスンが楽しい。手ぶら無料体験で気軽に試せる。',
-      },
-      {
-        author: 'Y.N',
-        rating: 5,
-        date: '2週間前',
-        text: 'ウェア・タオル無料貸出やウォーターサーバーも完備。体験者の8割が未経験者。月3回12,980円〜。',
-      },
-      {
-        author: 'M.H',
-        rating: 4,
-        date: '3週間前',
-        text: '朝7:30から夜22:00まで営業。入会キャンペーンも充実。パウダールームもしっかり完備。',
-      },
-    ],
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '手ぶら体験OK', '音楽レッスン', '朝7:30〜夜22:00'],
@@ -236,28 +148,6 @@ const studios = [
   {
     name: 'Rintosull',
     image: '/images/studios/rintosull.webp',
-    rating: 4.6,
-    reviewCount: 164,
-    reviews: [
-      {
-        author: 'K.A',
-        rating: 5,
-        date: '1週間前',
-        text: 'LAVA系列で安心感がある。月4回8,800円とマシンピラティスでは破格の安さ。初心者が87%以上で初めてでも安心。',
-      },
-      {
-        author: 'Y.S',
-        rating: 4,
-        date: '2週間前',
-        text: '無料体験でパーソナル姿勢診断もしてもらえた。女性専用でリラックスしてレッスンできる。リフォーマーを使った本格レッスン。',
-      },
-      {
-        author: 'M.T',
-        rating: 5,
-        date: '3週間前',
-        text: 'プレミアムフリーフルタイムでLAVA等系列のヨガスタジオも利用可能。ピラティスとヨガ両方やりたい人におすすめ。',
-      },
-    ],
     price: '月4回 8,800円〜',
     trial: '体験レッスン 無料',
     features: ['LAVA系列', '女性専用', '初心者87%以上', '月4回8,800円〜'],

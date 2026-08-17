@@ -23,28 +23,6 @@ const studios = [
   {
     name: 'STUDIO IVY 四谷三丁目店',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.8,
-    reviewCount: 3,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '四谷三丁目駅から近くて便利。完全パーソナルなので自分のペースで集中してレッスンを受けられます。1回6,250円〜はパーソナルとしてはリーズナブル。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: 'オーダーメイドのプログラムで、自分の身体の課題にしっかり向き合えます。姿勢が改善されてきたと実感。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: '体験レッスンで丁寧にカウンセリングしてもらえました。インストラクターの知識が豊富で信頼できます。',
-      },
-    ],
     price: '1回 6,250円〜',
     trial: '体験レッスンあり',
     features: ['パーソナル専門', 'マシンピラティス', '四谷三丁目駅近', '全国展開'],
@@ -77,7 +55,6 @@ const studios = [
     name: 'zen place pilates 飯田橋スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
     price: 'マットグループ 月4回 9,625円〜',
     trial: '体験レッスン 500円〜',
     features: ['マット&マシン', '飯田橋駅徒歩1分', '男性OK', '四ツ谷から2駅'],
@@ -88,7 +65,6 @@ const studios = [
   {
     name: 'ピラティスK 新宿店',
     image: '/images/studios/pilates-k.webp',
-    rating: 4.7,
     price: 'マンスリー4メンバー 13,420円〜',
     trial: '体験レッスン 2,000円',
     features: ['女性専用', 'マシンピラティス専門', '新宿エリア', '四ツ谷から丸ノ内線で近い'],

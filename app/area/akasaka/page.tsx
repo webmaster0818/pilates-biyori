@@ -27,28 +27,6 @@ const studios = [
     name: 'zen place pilates 赤坂',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
-    rating: 4.8,
-    reviewCount: 12,
-    reviews: [
-      {
-        author: 'S.K',
-        rating: 5,
-        date: '2週間前',
-        text: '赤坂見附駅10番出口から徒歩3分で通いやすいです。窓が大きく明るい開放的なスタジオで気持ちよくレッスンできます。全国150以上のスタジオが他店利用できるのも魅力。',
-      },
-      {
-        author: 'Y.T',
-        rating: 5,
-        date: '1ヶ月前',
-        text: 'マットもリフォーマーも選べるのが嬉しい。エデュケーター（インストラクター）の質が高く、体の変化を実感できました。体験当日入会で入会金無料でした。',
-      },
-      {
-        author: 'K.H',
-        rating: 4,
-        date: '3週間前',
-        text: '赤坂駅からも徒歩4分でアクセス抜群。25歳以下や70歳以上の割引制度もあって幅広い年齢層が通っています。男性も受講できるので夫婦で通っています。',
-      },
-    ],
     price: '月4回 9,625円〜',
     trial: '体験レッスンあり（当日入会で入会金無料）',
     features: ['マシン完備', '男性OK', '赤坂見附駅徒歩3分', '全国相互利用可'],
@@ -80,28 +58,6 @@ const studios = [
   {
     name: 'the SILK 赤坂見附店',
     image: '/images/studios/the-silk.webp',
-    rating: 4.8,
-    reviewCount: 368,
-    reviews: [
-      {
-        author: 'A.M',
-        rating: 5,
-        date: '1週間前',
-        text: '赤坂見附駅10番出口から徒歩30秒！雨の日でもほぼ濡れずに通えます。おしゃれなスタジオで気分が上がります。体験レッスンが無料で手ぶらOKだったので気軽に始められました。',
-      },
-      {
-        author: 'R.S',
-        rating: 5,
-        date: '2週間前',
-        text: '女性専用で安心。音楽に合わせた50分のレッスンがあっという間です。パウダールームにアイロンやドライヤー完備で、レッスン後のお出かけにも便利。',
-      },
-      {
-        author: 'N.K',
-        rating: 4,
-        date: '3週間前',
-        text: 'Light3プランなら月3回13,280円で始められるのが嬉しい。プロフェッショナルグレードのリフォーマーで本格的なレッスンが受けられます。初心者が80%なので気負わず通えます。',
-      },
-    ],
     price: '月3回 13,280円〜',
     trial: '体験レッスン 0円（50分・手ぶらOK）',
     features: ['女性専用', 'マシン専門', '赤坂見附駅徒歩30秒', 'おしゃれ空間'],
@@ -133,28 +89,6 @@ const studios = [
   {
     name: 'PILATES STUDIO noa 赤坂',
     image: '/images/studios/pilates-studio-noa.webp',
-    rating: 4.7,
-    reviewCount: 32,
-    reviews: [
-      {
-        author: 'M.H',
-        rating: 5,
-        date: '5日前',
-        text: '赤坂駅1番出口を出て徒歩0分！駅直結レベルの近さです。月6,600円から通えるのでコスパ最強。回数繰越が無制限なのも嬉しいポイント。',
-      },
-      {
-        author: 'T.Y',
-        rating: 4,
-        date: '1週間前',
-        text: '2025年3月にオープンした新しいスタジオで設備がきれい。女性専用なので安心。シャワールームも完備されていてレッスン後も快適です。',
-      },
-      {
-        author: 'K.S',
-        rating: 5,
-        date: '2週間前',
-        text: 'Intro・BODY MAKE・Conditioningの3つのプログラムから選べるので目的に合わせやすい。体験レッスンが550円と格安で、スタッフの対応も丁寧でした。',
-      },
-    ],
     price: '月額 6,600円〜',
     trial: '体験レッスン 550円',
     features: ['女性専用', 'マシン専門', '赤坂駅徒歩0分', '回数繰越無制限'],
@@ -186,28 +120,6 @@ const studios = [
   {
     name: 'STUDIO IVY 赤坂店',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.7,
-    reviewCount: 11,
-    reviews: [
-      {
-        author: 'E.T',
-        rating: 5,
-        date: '1週間前',
-        text: '完全パーソナルなので自分のペースで進められます。赤坂見附駅から徒歩3分で通いやすい。朝8時から21時まで営業しているので仕事前後に通えます。',
-      },
-      {
-        author: 'M.K',
-        rating: 4,
-        date: '2週間前',
-        text: '月2回コースなら15,000円で始められるので、パーソナルとしてはリーズナブル。体験レッスンが4,500円で丁寧にカウンセリングしてもらえました。',
-      },
-      {
-        author: 'Y.A',
-        rating: 5,
-        date: '3週間前',
-        text: '赤坂にANNEX店もあって2店舗展開。インストラクターの指導が的確で、体の変化を早く実感できました。回数が増えるほど1回あたりの単価が下がるのもお得。',
-      },
-    ],
     price: '月2回 15,000円〜',
     trial: '体験レッスン 4,500円',
     features: ['完全パーソナル', 'マシン完備', '赤坂見附駅徒歩3分', '赤坂2店舗'],
@@ -239,28 +151,6 @@ const studios = [
   {
     name: 'STUDIO IVY 赤坂ANNEX店',
     image: '/images/studios/studio-ivy.webp',
-    rating: 4.6,
-    reviewCount: 12,
-    reviews: [
-      {
-        author: 'C.N',
-        rating: 5,
-        date: '1週間前',
-        text: '赤坂駅から徒歩3分。本店と同じクオリティのパーソナルレッスンが受けられます。完全個室で周りを気にせず集中できるのが良い。',
-      },
-      {
-        author: 'H.O',
-        rating: 4,
-        date: '2週間前',
-        text: '清潔感のあるスタジオで快適。インストラクターが毎回体の状態を確認してくれるので、無理なく進められます。',
-      },
-      {
-        author: 'R.I',
-        rating: 5,
-        date: '1ヶ月前',
-        text: '赤坂に2店舗あるので予約が取りやすい。仕事帰りに通えて便利です。体の歪みが改善されて姿勢が良くなりました。',
-      },
-    ],
     price: '月2回 15,000円〜',
     trial: '体験レッスン 4,500円',
     features: ['完全パーソナル', 'マシン完備', '赤坂駅徒歩3分', '完全個室'],
@@ -292,28 +182,6 @@ const studios = [
   {
     name: 'Studio-BMP 赤坂店',
     image: '/images/studios/studio-bmp-akasaka.webp',
-    rating: 4.8,
-    reviewCount: 30,
-    reviews: [
-      {
-        author: 'J.M',
-        rating: 5,
-        date: '5日前',
-        text: '赤坂駅6番出口から徒歩2分で通いやすい。BMP式スタイルupトレーニングが独特で、ピラティスと整体を組み合わせたアプローチが効果的。BESJピラティス認定のインストラクターで安心。',
-      },
-      {
-        author: 'S.T',
-        rating: 5,
-        date: '2週間前',
-        text: 'パーソナル50分11,000円とプライベートレッスンとしてはリーズナブル。全身矯正・小顔矯正付きの80分コースも人気。体験レッスンで効果を実感できました。',
-      },
-      {
-        author: 'M.Y',
-        rating: 4,
-        date: '3週間前',
-        text: 'グループレッスンもあるので予算に合わせて選べます。フルタイム月額17,600円でグループ通い放題はお得。少人数制なのでしっかり見てもらえます。',
-      },
-    ],
     price: 'グループ月額 15,400円〜',
     trial: 'パーソナル体験 6,600円（50分）',
     features: ['BMP式メソッド', 'パーソナル&グループ', '赤坂駅徒歩2分', '整体×ピラティス'],
@@ -345,28 +213,6 @@ const studios = [
   {
     name: 'Rintosull 赤坂見附',
     image: '/images/studios/rintosull.webp',
-    rating: 4.5,
-    reviewCount: 141,
-    reviews: [
-      {
-        author: 'Y.W',
-        rating: 5,
-        date: '1週間前',
-        text: 'LAVA系列なので安心感があります。マシンピラティス専門でしっかりトレーニングできます。プレミアムフリーフルタイムならLAVAのホットヨガも通い放題なのが嬉しい。',
-      },
-      {
-        author: 'K.A',
-        rating: 4,
-        date: '2週間前',
-        text: '新規入会キャンペーンで最初の3ヶ月が月額1,980円とお得に始められました。施設がきれいで清潔感があります。',
-      },
-      {
-        author: 'T.M',
-        rating: 4,
-        date: '3週間前',
-        text: 'マンスリー4プランで月4回通えます。予約件数は3件までですが、十分に使えます。LAVA・BurnesStyleなど系列店も利用できるのが便利。',
-      },
-    ],
     price: 'マンスリー4 要確認',
     trial: 'キャンペーン価格あり',
     features: ['LAVA系列', 'マシン専門', '赤坂見附', '系列店相互利用'],
@@ -398,28 +244,6 @@ const studios = [
   {
     name: 'WECLE 赤坂',
     image: '/images/studios/wecle-pilates.webp',
-    rating: 4.6,
-    reviewCount: 19,
-    reviews: [
-      {
-        author: 'A.H',
-        rating: 5,
-        date: '1週間前',
-        text: '30分のストレッチピラティスなので忙しいビジネスパーソンにぴったり。赤坂エリアで仕事帰りにサクッと通えます。予約不要で好きな時間に行けるのが便利。',
-      },
-      {
-        author: 'N.S',
-        rating: 4,
-        date: '2週間前',
-        text: '通い放題で月額9,680円からとコスパが良い。マシンに乗ってストレッチする感覚で、ピラティス初心者でも無理なく始められました。',
-      },
-      {
-        author: 'R.T',
-        rating: 4,
-        date: '3週間前',
-        text: 'スタッフが常駐してフォームを確認してくれるので安心。自分のペースで進められるのが良いです。仕事のストレス解消にもなっています。',
-      },
-    ],
     price: '月額 9,680円〜（通い放題）',
     trial: '体験レッスンあり',
     features: ['30分ストレッチピラティス', '予約不要', '通い放題', '赤坂エリア'],
