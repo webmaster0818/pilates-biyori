@@ -177,37 +177,6 @@ const studios = [
     },
   },
   {
-    name: 'Studio Yoggy',
-    image: '/images/studios/studio-yoggy.webp',
-    price: '要問合せ',
-    trial: '体験レッスン あり',
-    features: ['ヨガ＆ピラティス', '全国展開', '駅徒歩5分', '清潔な空間'],
-    description: '全国展開のヨガ・ピラティス専門スタジオ。すべてのスタジオが駅徒歩5分圏内。清潔で開放感のある空間で、のびのびと深い呼吸を楽しめます。一年を通して運動に適した室温に保たれたスタジオ。ヨガとピラティスの両方を楽しめるのが魅力。初心者から経験者まで幅広く対応。',
-    access: '東京都内多数（全店舗駅徒歩5分圏内）',
-    address: '東京都内（詳細は公式サイト参照）',
-    popularPlan: {
-      name: 'ヨガ＆ピラティスプラン',
-      description: 'ヨガとピラティスの両方を楽しめるプラン。多様なクラスから選択可能。',
-      price: '要問合せ',
-    },
-    options: [
-      'ヨガクラス',
-      'ピラティスクラス',
-      'パーソナルトレーニング',
-      '全店相互利用可能',
-    ],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性90% / 男性10%',
-      purpose: ['ヨガ＆ピラティス両方', '柔軟性向上', 'リラックス', 'ボディメイク'],
-    },
-    basicInfo: {
-      hours: '店舗により異なる',
-      closed: '店舗により異なる',
-      facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', '清潔な空間', '適温管理'],
-    },
-  },
-  {
     name: 'K Village Pilates',
     image: '/images/studios/k-village-pilates-tokyo.webp',
     price: '要問合せ',
@@ -343,7 +312,7 @@ export default async function TokyoAreaPage() {
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年08月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】東京のピラティススタジオ<br className="hidden md:block" />
-              おすすめ9選｜料金・体験レッスン徹底比較
+              おすすめ8選｜料金・体験レッスン徹底比較
             </h1>
           </div>
         </section>
@@ -603,7 +572,6 @@ export default async function TokyoAreaPage() {
                   ヨガとピラティスどちらも楽しみたい方に。柔軟性と筋力を同時に向上。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Studio Yoggy</li>
                 </ul>
               </div>
             </div>

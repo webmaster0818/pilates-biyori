@@ -211,37 +211,6 @@ const studios = [
     },
   },
   {
-    name: 'Studio Yoggy 大宮',
-    image: '/images/studios/studio-yoggy.webp',
-    price: '要問合せ',
-    trial: '体験レッスン あり',
-    features: ['ヨガ＆ピラティス', '大宮駅徒歩4分', '清潔な空間', '開放的'],
-    description: '全国展開のヨガ・ピラティス専門スタジオ。大宮駅から徒歩4分。清潔で開放的な空間で、のびのびと深い呼吸を楽しめます。大きな窓のある開放的なスタジオで、自分だけのとっておきの時間を過ごせます。ヨガとピラティスの両方を楽しめるのが魅力。',
-    access: '大宮駅から徒歩4分',
-    address: '埼玉県さいたま市大宮区（詳細は公式サイト参照）',
-    popularPlan: {
-      name: 'ヨガ＆ピラティスプラン',
-      description: 'ヨガとピラティスの両方を楽しめるプラン。多様なクラスから選択可能。',
-      price: '要問合せ',
-    },
-    options: [
-      'ヨガクラス',
-      'ピラティスクラス',
-      'パーソナルトレーニング',
-      '全店相互利用可能',
-    ],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性90% / 男性10%',
-      purpose: ['ヨガ＆ピラティス両方', '柔軟性向上', 'リラックス', 'ボディメイク'],
-    },
-    basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '詳細は公式サイト参照',
-      facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', '清潔な空間', '開放的なスタジオ'],
-    },
-  },
-  {
     name: 'Rintosull 大宮',
     image: '/images/studios/rintosull.webp',
     price: '要問合せ',
@@ -333,7 +302,7 @@ const faqs = [
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。大宮ではStudio Yoggyのようにヨガとピラティスの両方を楽しめるスタジオもありますので、目的に合わせて選びましょう。',
+    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。大宮では目的に合わせて選びましょう。',
   },
   {
     question: 'ピラティスで肩こりや腰痛は改善しますか？',
@@ -366,7 +335,7 @@ export default async function OmiyaAreaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年08月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026年6月最新】ピラティス大宮おすすめ11選！<br className="hidden md:block" />
+              【2026年6月最新】ピラティス大宮おすすめ10選！<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！
             </h1>
           </div>
@@ -606,7 +575,6 @@ export default async function OmiyaAreaPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• the SILK 大宮（駅徒歩2分）</li>
                   <li className="text-warm-700">• ピラティスK 大宮店（駅徒歩3分）</li>
-                  <li className="text-warm-700">• Studio Yoggy 大宮（駅徒歩4分）</li>
                 </ul>
               </div>
             </div>
