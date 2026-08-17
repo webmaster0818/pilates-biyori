@@ -8,7 +8,7 @@ tags:
   - "自宅ピラティス"
   - "料金比較"
 publishedAt: "2026-03-30"
-updatedAt: "2026-08-01"
+updatedAt: "2026-08-17"
 author: "編集部"
 keywords:
   - "オンラインピラティス おすすめ"

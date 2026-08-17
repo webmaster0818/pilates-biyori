@@ -8,7 +8,7 @@ tags:
   - "猫背"
   - "効果"
 publishedAt: "2026-03-30"
-updatedAt: "2026-08-01"
+updatedAt: "2026-08-17"
 author: "編集部"
 keywords:
   - "ピラティス 姿勢改善 効果"
