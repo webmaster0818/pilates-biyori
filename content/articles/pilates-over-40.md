@@ -8,7 +8,7 @@ tags:
   - "50代ピラティス"
   - "ミドル世代"
 publishedAt: "2026-05-02"
-updatedAt: "2026-08-18"
+updatedAt: "2026-08-19"
 author: "編集部"
 keywords:
   - "ピラティス 40代"

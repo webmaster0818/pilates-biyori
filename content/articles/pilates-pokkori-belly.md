@@ -9,7 +9,7 @@ tags:
   - "腹横筋"
   - "内臓下垂"
 publishedAt: "2026-05-11"
-updatedAt: "2026-08-18"
+updatedAt: "2026-08-19"
 author: "編集部"
 keywords:
   - "ピラティス ぽっこりお腹"

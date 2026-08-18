@@ -9,7 +9,7 @@ tags:
   - "骨盤"
   - "初級"
 publishedAt: "2026-08-17"
-updatedAt: "2026-08-18"
+updatedAt: "2026-08-19"
 author: "編集部"
 keywords:
   - "ピラティス シングルレッグサークル"

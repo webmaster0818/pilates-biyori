@@ -8,7 +8,7 @@ tags:
   - "睡眠"
   - "リラックス"
 publishedAt: "2026-06-06"
-updatedAt: "2026-08-18"
+updatedAt: "2026-08-19"
 author: "編集部"
 keywords:
   - "ピラティス 睡眠"
