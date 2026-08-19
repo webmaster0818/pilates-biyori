@@ -8,7 +8,7 @@ tags:
   - "ヨガとの違い"
   - "初心者向け"
 publishedAt: "2026-03-28"
-updatedAt: "2026-08-19"
+updatedAt: "2026-08-20"
 author: "編集部"
 keywords:
   - "ピラティス ヨガ 違い"

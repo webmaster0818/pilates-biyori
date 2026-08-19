@@ -8,7 +8,7 @@ tags:
   - "体幹"
   - "インナーマッスル"
 publishedAt: "2026-06-06"
-updatedAt: "2026-08-19"
+updatedAt: "2026-08-20"
 author: "編集部"
 keywords:
   - "ピラティス 体幹"

@@ -9,7 +9,7 @@ tags:
   - "背骨"
   - "初級"
 publishedAt: "2026-08-17"
-updatedAt: "2026-08-19"
+updatedAt: "2026-08-20"
 author: "編集部"
 keywords:
   - "ピラティス ローリングライクアボール"
