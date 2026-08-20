@@ -326,3 +326,13 @@ GSC実測で対象特定→改修。
 - 要約37店舗追加（計154）。追記は `places-api/add-summaries.py`（★評価・件数・出典URLはjsonの実データから入れる＝手入力しない）
 - **🚨 functions/ 欠落が再発していた**: deploy repoの **8/10コミット `63e82cd56`「Pilates Mee 計測リンク設置を反映」で functions/api/{click,clicks,contact,geo}.js が全削除**され、本番で `POST /api/contact`=405・`/api/geo`=404・`/api/click`=404（＝**問い合わせフォームと送客クリック計測が8/10から停止**）。`git checkout 63e82cd56^ -- functions` で復元しデプロイ→400/200を確認。**教訓の再確認: rsyncの`--exclude=functions`は「在る場合のみ」保護。デプロイ前に `ls ../pilates-biyori-deploy/functions/api/` と本番 `/api/contact` の実測を必ずやる**
 - 未処理: **同一店を別表記で二重掲載している組が37組**（「the SILK 八重洲店」と「the SILK 東京八重洲店」等）。今回は片方のみ要約。残り要約 約490件
+
+### 2026-08-20 口コミ要約を照合済み全店へ完了（MediaXAI「引き続き進めて」×多数）✅本番反映済み
+- **109 → 569店舗（+460）／要約カード 264 → 662枚**。`pick-candidates.py` の「残り」= **0件**（照合済み・要約なし＝ゼロ）。バッチ37〜50を13前後ずつ、口コミ本文を全読みして作成。
+- **除外リスト `~/.openclaw/workspace/places-api/skip-names.txt` を新設**（pick-candidates.py が読み込み、`name<TAB>理由` 形式）。毎回手で外していた店を恒久化＝**44件**。内訳: Dr.ピラティス各店(Google名=Dr.トレーニング)/Le Mieux(実体はアロマサロン)/NOA(久留米ページだがGoogleは新宿)/Flow鹿児島(口コミが全て駒沢公園)/ピラティスK新橋(支店名なしで特定不可・ZENの話が混在)/★のみで本文なし4件/**サイトのどのページにも掲載が無い旧データ22件**(OUTLINE・UNDEUX・ビーコンセプト等)。
+- ⚠️ `PILATES & PERSONAL GYM LAULE\` は掲載名にバックスラッシュが含まれ、TS書き出し時のエスケープ差で done 判定を毎回すり抜ける→skip登録で解決。
+- ⚠️ **重複掲載組**（「Pilates Mee 川口店」と「Pilates Mee川口店」等）は `done_places` の place_id 重複スキップで2つ目が候補に出ない。**両方に同じ要約を明示的に書く**必要がある（今回11組対応）。
+- **編集方針（維持）**: 口コミ本文の転載はしない／個人名（インストラクター名）は載せない／★のみの店は正直に「判断材料が少ない」と書く／効果は盛らず「劇的に痩せたわけではないが〜」等の段階表現をそのまま拾う／低評価は提携ブランドでも同基準で掲載（URBAN CLASSIC青葉台★2・川口★4を掲載。MediaXAIに方針確認済みとして報告）。
+- **要約から抽出された横断論点**（比較記事の素材）: ①解約8件（条件/手続き未処理で3か月請求継続/来店必須・電話不可/退会後2年半引き落とし継続=LAVA佐賀）②予約（受け放題なのに取れない=Rintosull日吉・戸塚・国分寺/BDC恵比寿・池袋/ピラティスK新百合ヶ丘/Mee横浜/Rintosull豊中 ⇔ 解消例=Rintosull川崎マシン増設/Mee松戸3か月繰越/the SILK高田馬場は新店で取りやすい）③料金体系変更（YUZU学芸大学がチケット制→サブスク制）④月額に個別指導が含まれない（URBAN CLASSICは追加3,300円）⑤良い例（noa駒沢=違約金なし・回数券繰越無期限／NATURAglam経堂=自分で退会できる／the SILK川崎=無理な引き止めなし）⑥医療背景の受け皿（理学療法士系=INSIGHT中央林間/juncus広島/DEP岡山、術後リハビリ=Studio Breathing大橋/Rintosull大井町68歳）。
+- **健康上の注意を1件挿入**: ホットヨガロイブ別府の口コミに「腎機能低下でホットヨガが不適と後から知った（公式に医師相談の記載あり）」→要約に「持病がある場合は事前に主治医に確認したい」を明記。
+- 毎バッチ: `add-summaries.py` → `refresh-updated-dates.py` → build → 方式B(rsync **--exclude .git/functions**) → 両push → **本番=ビルドの要約カード数一致をページ単位でcurl検証** → Indexing API。⚠️CFエッジ伝播に数十秒〜数分ラグがあるので、件数不一致は即バグとせず `?v=$RANDOM` で再確認する。⚠️`grep -c` は行数（minified HTMLは1行）なので **`grep -o ... | wc -l`** を使う。
