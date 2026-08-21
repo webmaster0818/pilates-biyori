@@ -20,6 +20,7 @@ relatedArticles:
   - "pilates-single-leg-circle-method"
   - "pilates-corkscrew-method"
   - "pilates-20-exercises"
+  - "pilates-hip-circles-prep-method"
 faq:
   - q: "手首が痛くて後ろに手をつけません"
     a: "手のひらではなく前腕をマットにつけて支える形（肘つき）に替えてください。それでも痛む場合はこの種目を行わず、仰向けで行うシングルレッグサークルに替えると同じ目的を安全に練習できます。"

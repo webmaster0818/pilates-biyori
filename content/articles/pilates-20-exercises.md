@@ -29,6 +29,7 @@ relatedArticles:
   - "pilates-roll-up-method"
   - "pilates-8-principles"
   - "pilates-boomerang-method"
+  - "pilates-hip-circles-prep-method"
 ---
 
 # ピラティス代表エクササイズ20選
@@ -247,6 +248,27 @@ V字バランスから両脚で円を描く。
 ### 週末の30分フルプログラム（中級）
 
 上記初級10分 + 中級7本（順序通り）
+
+## オリジナル34本のうち、この記事に載せていない種目
+
+この記事は代表的な20本を扱っています。オリジナル34本には、ここに載せていない種目もあります。いずれも**上級寄り**で、順序としては上の20本のあとに位置づけられます。個別のやり方は各記事にまとめました。
+
+| 種目 | どの種目の発展形か | 記事 |
+| --- | --- | --- |
+| ネックプル | ロールアップ | [ネックプルのやり方](/articles/pilates-neck-pull-method/) |
+| ヒップサークル（プレップ） | シングルレッグサークル | [ヒップサークル（プレップ）のやり方](/articles/pilates-hip-circles-prep-method/) |
+| スイミング | スワン | [スイミングのやり方](/articles/pilates-swimming-method/) |
+| レッグプルフロント | 支持姿勢（プランク） | [レッグプルフロントのやり方](/articles/pilates-leg-pull-front-method/) |
+| レッグプルバック | ショルダーブリッジ | [レッグプルバックのやり方](/articles/pilates-leg-pull-back-method/) |
+| サイドベンド | サイドキック | [サイドベンドのやり方](/articles/pilates-side-bend-method/) |
+| シール | ローリングライクアボール | [シールのやり方](/articles/pilates-seal-method/) |
+| クラブ | シール | [クラブのやり方](/articles/pilates-crab-method/) |
+| ロッキング | スワンダイブ | [ロッキングのやり方](/articles/pilates-rocking-method/) |
+| コントロールバランス | ジャックナイフ | [コントロールバランスのやり方](/articles/pilates-control-balance-method/) |
+| プッシュアップ | ロールアップ＋支持姿勢 | [プッシュアップのやり方](/articles/pilates-push-up-method/) |
+| ブーメラン | ロールオーバー＋ティーザー | [ブーメランのやり方](/articles/pilates-boomerang-method/) |
+
+**発展形の種目は、元になる種目ができてから**行ってください。順番を飛ばすと、崩れた形のまま負荷だけが上がります。
 
 ## まとめ
 

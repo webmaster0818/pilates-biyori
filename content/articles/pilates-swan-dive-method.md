@@ -20,6 +20,7 @@ relatedArticles:
   - "pilates-single-leg-kick-method"
   - "pilates-shoulder-bridge-method"
   - "pilates-20-exercises"
+  - "pilates-rocking-method"
 faq:
   - q: "スワンダイブはやらないほうがよい人がいますか？"
     a: "腰椎に既往がある方、椎間板の症状がある方、妊娠中の方は行わないでください。背中を反らせた状態で体重を前後に移す動きのため、腰への負担が大きい種目です。医師から反る動きを止められている場合も対象外です。"

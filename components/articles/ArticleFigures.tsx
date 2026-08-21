@@ -804,6 +804,63 @@ export function BoomerangSequenceDiagram() {
   )
 }
 
+// 支持系（プランク型）：一直線が基準。落ちる・上がるの両方が崩れ。
+export function PlankLineDiagram() {
+  const rows = [
+    { ok: true,  label: '一直線', d: 'M28 96 L 152 96', hip: 96, note: '肩・骨盤・かかとが並ぶ' },
+    { ok: false, label: '腰が落ちる', d: 'M28 84 Q 90 118, 152 92', hip: 112, note: '腰の反りで支えている' },
+    { ok: false, label: 'お尻が上がる', d: 'M28 104 Q 90 66, 152 100', hip: 74, note: '体重が腕へ逃げている' },
+  ]
+  return (
+    <Figure
+      title="支える姿勢の基準：肩・骨盤・かかとが一直線"
+      badge="安全基準"
+      note={<p className="not-prose text-xs text-warm-400 mt-1">長く保てることより、一直線を保てることが基準。崩れたら秒数の途中でも終わりにする。</p>}
+    >
+      <div className="not-prose grid grid-cols-1 sm:grid-cols-3 gap-4">
+        {rows.map((r, i) => (
+          <div key={i} className="flex flex-col items-center gap-1.5">
+            <svg viewBox="0 0 180 150" width="100%" height="130" role="img" aria-label={r.label}>
+              <line x1={20} y1={128} x2={160} y2={128} stroke={LINE} strokeWidth={5} strokeLinecap="round" />
+              <line x1={28} y1={96} x2={152} y2={96} stroke={LINE} strokeWidth={1} strokeDasharray="4 4" />
+              <path d={r.d} fill="none" stroke={r.ok ? ACCENT : FAINT} strokeWidth={9} strokeLinecap="round" />
+              <circle cx={24} cy={r.ok ? 96 : (r.hip > 96 ? 84 : 104)} r={10} fill={r.ok ? ACCENT : FAINT} />
+              {!r.ok && <circle cx={90} cy={r.hip} r={14} fill="none" stroke={SUB} strokeWidth={2} strokeDasharray="4 3" />}
+            </svg>
+            <span className="text-xs font-medium" style={{ color: r.ok ? ACCENT : SUB }}>{r.ok ? '○ ' : '× '}{r.label}</span>
+            <span className="text-[11px] text-warm-400 text-center leading-relaxed">{r.note}</span>
+          </div>
+        ))}
+      </div>
+    </Figure>
+  )
+}
+
+// 転がる種目：背中のどこまで転がってよいか（首まで行かない）
+export function RollingRangeDiagram() {
+  return (
+    <Figure
+      title="転がってよい範囲：背中の中ほどまで／首までは行かない"
+      badge="安全基準"
+      note={<p className="not-prose text-xs text-warm-400 mt-1">深く転がるほど上級ではない。首まで体重が届いた時点で、その回は範囲を越えている。</p>}
+    >
+      <div className="not-prose">
+        <svg viewBox="0 0 340 160" width="100%" height="160" role="img" aria-label="転がってよい範囲の図">
+          <line x1={20} y1={132} x2={320} y2={132} stroke={LINE} strokeWidth={6} strokeLinecap="round" />
+          <rect x={20} y={88} width={78} height={44} rx={8} fill={BG} stroke={SUB} strokeWidth={1.5} strokeDasharray="5 4" />
+          <text x={59} y={114} textAnchor="middle" fontSize={11} fill={SUB}>首・後頭部</text>
+          <rect x={100} y={88} width={120} height={44} rx={8} fill="#f3efe8" stroke={ACCENT} strokeWidth={1.5} />
+          <text x={160} y={114} textAnchor="middle" fontSize={11} fill={ACCENT}>肩甲骨〜背中の中ほど</text>
+          <path d="M118 78 a 46 46 0 1 1 92 0" fill="none" stroke={ACCENT_SOFT} strokeWidth={3} strokeDasharray="6 5" />
+          <circle cx={164} cy={40} r={16} fill="none" stroke={ACCENT} strokeWidth={7} />
+          <text x={59} y={154} textAnchor="middle" fontSize={11} fill={SUB}>× ここまで転がらない</text>
+          <text x={160} y={154} textAnchor="middle" fontSize={11} fill={ACCENT}>○ ここで折り返す</text>
+        </svg>
+      </div>
+    </Figure>
+  )
+}
+
 function MdxTable(props: React.HTMLAttributes<HTMLTableElement>) {
   return (
     <div className="not-prose my-8 overflow-x-auto rounded-xl border border-warm-200 shadow-sm">
@@ -839,5 +896,7 @@ export const articleComponents = {
   JackknifeWeightDiagram,
   CorkscrewCircleDiagram,
   BoomerangSequenceDiagram,
+  PlankLineDiagram,
+  RollingRangeDiagram,
   table: MdxTable,
 }

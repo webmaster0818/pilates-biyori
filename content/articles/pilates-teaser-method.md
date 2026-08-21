@@ -22,6 +22,7 @@ relatedArticles:
   - "pilates-8-principles"
   - "pilates-hip-twist-method"
   - "pilates-boomerang-method"
+  - "pilates-neck-pull-method"
 faq:
   - q: "ティーザーができません。何が足りないのですか？"
     a: "多くの場合、腹筋の力ではなく「背骨を1本ずつ動かす能力」が不足しています。ロールアップで背骨を順番に動かす感覚が身についていないと、ティーザーでは反動に頼ることになります。まずロールアップを反動なしでできるようにするのが近道です。"

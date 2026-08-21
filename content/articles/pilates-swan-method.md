@@ -22,6 +22,8 @@ relatedArticles:
   - "pilates-roll-up-method"
   - "pilates-swan-dive-method"
   - "pilates-single-leg-kick-method"
+  - "pilates-swimming-method"
+  - "pilates-rocking-method"
 faq:
   - q: "スワンをすると腰が痛くなります"
     a: "腰だけで反っている可能性が高いです。スワンは腰ではなく胸椎（背中の上のほう）から伸ばす種目です。持ち上げる高さを半分に下げ、恥骨をマットに押しつけたまま行ってみてください。痛みが続く場合は中止し、医療機関にご相談ください。"

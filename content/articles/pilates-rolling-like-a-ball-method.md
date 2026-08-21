@@ -20,6 +20,8 @@ relatedArticles:
   - "pilates-teaser-method"
   - "pilates-hundred-method"
   - "pilates-20-exercises"
+  - "pilates-seal-method"
+  - "pilates-crab-method"
 faq:
   - q: "転がったまま起き上がれません"
     a: "戻る力を反動に頼っているためです。転がる深さを浅くし、肩甲骨の下あたりまでで止めてください。浅く転がって確実に戻るほうが、深く転がって起き上がれないより正しい練習です。"

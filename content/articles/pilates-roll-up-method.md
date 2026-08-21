@@ -32,6 +32,8 @@ relatedArticles:
   - "pilates-hundred-method"
   - "pilates-20-exercises"
   - "pilates-8-principles"
+  - "pilates-neck-pull-method"
+  - "pilates-push-up-method"
 ---
 
 # ピラティスのロールアップのやり方

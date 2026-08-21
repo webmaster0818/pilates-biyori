@@ -20,6 +20,7 @@ relatedArticles:
   - "pilates-shoulder-bridge-method"
   - "pilates-teaser-method"
   - "pilates-20-exercises"
+  - "pilates-control-balance-method"
 faq:
   - q: "ジャックナイフはやらないほうがよい人がいますか？"
     a: "頸椎に既往がある方、高血圧・眼圧に不安がある方、妊娠中の方は行わないでください。頭より下に体重が集まり、首に負担がかかりやすい種目です。首に違和感が出た時点で中止してください。"
