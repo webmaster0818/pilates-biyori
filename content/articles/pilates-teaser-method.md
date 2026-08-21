@@ -9,7 +9,7 @@ tags:
   - "コア"
   - "上級"
 publishedAt: "2026-08-16"
-updatedAt: "2026-08-20"
+updatedAt: "2026-08-21"
 author: "編集部"
 keywords:
   - "ピラティス ティーザー"
@@ -20,6 +20,8 @@ relatedArticles:
   - "pilates-roll-up-method"
   - "pilates-20-exercises"
   - "pilates-8-principles"
+  - "pilates-hip-twist-method"
+  - "pilates-boomerang-method"
 faq:
   - q: "ティーザーができません。何が足りないのですか？"
     a: "多くの場合、腹筋の力ではなく「背骨を1本ずつ動かす能力」が不足しています。ロールアップで背骨を順番に動かす感覚が身についていないと、ティーザーでは反動に頼ることになります。まずロールアップを反動なしでできるようにするのが近道です。"

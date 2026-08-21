@@ -8,7 +8,7 @@ tags:
   - "実技解説"
   - "オリジナル34"
 publishedAt: "2026-05-11"
-updatedAt: "2026-08-20"
+updatedAt: "2026-08-21"
 author: "編集部"
 keywords:
   - "ピラティス エクササイズ"
@@ -28,6 +28,7 @@ relatedArticles:
   - "pilates-hundred-method"
   - "pilates-roll-up-method"
   - "pilates-8-principles"
+  - "pilates-boomerang-method"
 ---
 
 # ピラティス代表エクササイズ20選
@@ -126,6 +127,9 @@ relatedArticles:
 
 **効果**: ハムストリングス、お尻、姿勢
 
+→ [シングルレッグキックのやり方](/articles/pilates-single-leg-kick-method/)
+
+
 ### 12. シザーズ（Scissors）
 
 仰向けで両脚を天井に上げ、左右の脚を前後に振る。
@@ -140,11 +144,17 @@ relatedArticles:
 
 **効果**: 腹斜筋、コアコントロール
 
+→ [バイシクルのやり方](/articles/pilates-bicycle-method/)
+
+
 ### 14. ヒップツイスト（Hip Twist）
 
 V字バランスから両脚で円を描く。
 
 **効果**: 腹斜筋、体側強化
+
+→ [ヒップツイストのやり方](/articles/pilates-hip-twist-method/)
+
 
 ## 上級レベル（6ヶ月以上）
 
@@ -162,6 +172,9 @@ V字バランスから両脚で円を描く。
 
 **効果**: 背中・お尻・コアの統合
 
+→ [スワンダイブのやり方](/articles/pilates-swan-dive-method/)
+
+
 ### 17. ロールオーバー（Roll Over）
 
 仰向けで両脚を頭の後ろまで持ち上げ、つま先で床に触れる。
@@ -176,11 +189,17 @@ V字バランスから両脚で円を描く。
 
 **効果**: 腹筋・背中の連動
 
+→ [ジャックナイフのやり方](/articles/pilates-jackknife-method/)
+
+
 ### 19. コークスクリュー（Corkscrew）
 
 仰向けで両脚を天井に上げ、空中で大きく円を描く。
 
 **効果**: 腹斜筋、コアの極限コントロール
+
+→ [コークスクリューのやり方](/articles/pilates-corkscrew-method/)
+
 
 ### 20. メリーゴーランド（Boomerang）
 

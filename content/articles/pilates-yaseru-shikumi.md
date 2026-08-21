@@ -8,7 +8,7 @@ tags:
   - "ダイエット"
   - "痩せる仕組み"
 publishedAt: "2026-06-06"
-updatedAt: "2026-08-20"
+updatedAt: "2026-08-21"
 author: "編集部"
 keywords:
   - "ピラティス 痩せる"

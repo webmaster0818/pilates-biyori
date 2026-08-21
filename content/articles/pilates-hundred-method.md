@@ -9,7 +9,7 @@ tags:
   - "コア"
   - "腹筋"
 publishedAt: "2026-05-11"
-updatedAt: "2026-08-20"
+updatedAt: "2026-08-21"
 author: "編集部"
 keywords:
   - "ピラティス ハンドレッド"
@@ -33,6 +33,7 @@ relatedArticles:
   - "pilates-roll-up-method"
   - "pilates-20-exercises"
   - "pilates-beginner-home"
+  - "pilates-bicycle-method"
 ---
 
 # ピラティスのハンドレッドのやり方

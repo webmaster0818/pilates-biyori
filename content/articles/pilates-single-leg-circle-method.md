@@ -9,7 +9,7 @@ tags:
   - "骨盤"
   - "初級"
 publishedAt: "2026-08-17"
-updatedAt: "2026-08-20"
+updatedAt: "2026-08-21"
 author: "編集部"
 keywords:
   - "ピラティス シングルレッグサークル"
@@ -20,6 +20,8 @@ relatedArticles:
   - "pilates-single-leg-stretch-method"
   - "pilates-shoulder-bridge-method"
   - "pilates-20-exercises"
+  - "pilates-corkscrew-method"
+  - "pilates-hip-twist-method"
 faq:
   - q: "脚を回すと骨盤が一緒に動きます"
     a: "円が大きすぎます。骨盤が動かない範囲まで円を小さくしてください。小さい円で骨盤が静止しているほうが、大きい円で揺れているより正しい練習です。"

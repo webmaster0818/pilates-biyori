@@ -9,7 +9,7 @@ tags:
   - "お尻"
   - "骨盤"
 publishedAt: "2026-08-17"
-updatedAt: "2026-08-20"
+updatedAt: "2026-08-21"
 author: "編集部"
 keywords:
   - "ピラティス サイドキック"
@@ -20,6 +20,7 @@ relatedArticles:
   - "pilates-single-leg-stretch-method"
   - "pilates-20-exercises"
   - "pilates-8-principles"
+  - "pilates-single-leg-kick-method"
 faq:
   - q: "どこに効くのが正解ですか？"
     a: "動かす脚の付け根まわり（お尻の横）と、下側になっている体側の安定筋です。前ももばかりに効く場合は、脚を体より前に振りすぎているか、骨盤が後ろに倒れています。"

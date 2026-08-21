@@ -9,7 +9,7 @@ tags:
   - "背骨"
   - "上級"
 publishedAt: "2026-08-17"
-updatedAt: "2026-08-20"
+updatedAt: "2026-08-21"
 author: "編集部"
 keywords:
   - "ピラティス ロールオーバー"
@@ -20,6 +20,8 @@ relatedArticles:
   - "pilates-hundred-method"
   - "pilates-teaser-method"
   - "pilates-20-exercises"
+  - "pilates-jackknife-method"
+  - "pilates-corkscrew-method"
 faq:
   - q: "首が痛くなります。続けてよいですか？"
     a: "続けないでください。ロールオーバーは首に体重を乗せる種目ではありません。首に負担を感じる時点で、肩甲骨や上背部で支えられていないサインです。脚を頭上まで運ばない範囲に戻すか、この種目を一度やめてロールアップに戻してください。痛みが続く場合は医療機関にご相談ください。"

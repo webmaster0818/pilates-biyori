@@ -8,7 +8,7 @@ tags:
   - "料金"
   - "無料体験"
 publishedAt: "2026-06-12"
-updatedAt: "2026-08-20"
+updatedAt: "2026-08-21"
 author: "編集部"
 keywords:
   - "オンラインピラティス 料金"

@@ -666,6 +666,144 @@ export function OnlineStudioDiagram() {
 }
 
 // MDXの表を「枠で囲った」スクロール可能なテーブルに ----------------------
+/* ------------------------------------------------------------------
+ * 上級エクササイズ用の図解（スワンダイブ／ジャックナイフ／コークスクリュー／ブーメラン）
+ * 上級種目は「どこまでが安全な範囲か」を文章だけで伝えるのが難しいため、
+ * 危険域と安全域を面で示すことを主目的にしている。
+ * ⚠️ MDXからは props なしで呼ぶ（object を prop で渡すとMDXが解釈できない）。
+ * ------------------------------------------------------------------ */
+
+// 反る位置：胸椎で反る（安全） vs 腰椎で折る（危険）
+export function SwanDiveArcDiagram() {
+  return (
+    <Figure
+      title="どこで反るか：胸椎のカーブと腰椎の折れ"
+      badge="安全基準"
+      note={<p className="not-prose text-xs text-warm-400 mt-1">高さではなく、反りが背中のどこで起きているかを見る。恥骨がマットから離れたら、腰で稼いだ高さ。</p>}
+    >
+      <div className="not-prose grid grid-cols-1 sm:grid-cols-2 gap-6">
+        {[
+          { ok: true, label: '胸椎でゆるやかに反る', d: 'M20 150 C 60 148, 100 120, 150 84', note: '背中全体がなだらかな弧。恥骨はマットに残る' },
+          { ok: false, label: '腰椎で折れている', d: 'M20 150 C 70 152, 78 150, 92 120 C 104 96, 128 88, 150 84', note: '一点で角度が変わる。恥骨が浮き、腰に集中する' },
+        ].map((c, i) => (
+          <div key={i} className="flex flex-col items-center gap-2">
+            <svg viewBox="0 0 170 170" width="100%" height="150" role="img" aria-label={c.label}>
+              <line x1={10} y1={158} x2={160} y2={158} stroke={LINE} strokeWidth={6} strokeLinecap="round" />
+              <path d={c.d} fill="none" stroke={c.ok ? ACCENT : FAINT} strokeWidth={9} strokeLinecap="round" />
+              <circle cx={150} cy={84} r={12} fill={c.ok ? ACCENT : FAINT} />
+              {!c.ok && <circle cx={92} cy={120} r={16} fill="none" stroke={SUB} strokeWidth={2} strokeDasharray="4 3" />}
+            </svg>
+            <span className="text-xs font-medium" style={{ color: c.ok ? ACCENT : SUB }}>
+              {c.ok ? '○ ' : '× '}{c.label}
+            </span>
+            <span className="text-[11px] text-warm-500 text-center leading-relaxed">{c.note}</span>
+          </div>
+        ))}
+      </div>
+    </Figure>
+  )
+}
+
+// 体重が乗ってよい位置（肩甲骨まで）と、乗ってはいけない位置（首）
+export function JackknifeWeightDiagram() {
+  return (
+    <Figure
+      title="体重が乗ってよい範囲：肩甲骨まで／首は不可"
+      badge="安全基準"
+      note={<p className="not-prose text-xs text-warm-400 mt-1">首に体重が乗った時点で、その回は中止。脚が頭を越える必要はない。</p>}
+    >
+      <div className="not-prose">
+        <svg viewBox="0 0 360 170" width="100%" height="170" role="img" aria-label="体重が乗ってよい範囲の図">
+          <line x1={20} y1={140} x2={340} y2={140} stroke={LINE} strokeWidth={6} strokeLinecap="round" />
+          {/* 危険域（首・頭） */}
+          <rect x={20} y={96} width={70} height={44} rx={8} fill={BG} stroke={SUB} strokeWidth={1.5} strokeDasharray="5 4" />
+          <text x={55} y={122} textAnchor="middle" fontSize={11} fill={SUB}>首・頭</text>
+          {/* 安全域（肩甲骨〜背中） */}
+          <rect x={92} y={96} width={96} height={44} rx={8} fill="#f3efe8" stroke={ACCENT} strokeWidth={1.5} />
+          <text x={140} y={122} textAnchor="middle" fontSize={11} fill={ACCENT}>肩甲骨〜背中</text>
+          {/* 体 */}
+          <circle cx={55} cy={80} r={13} fill={FAINT} />
+          <path d="M70 92 L 150 108 L 230 92" fill="none" stroke={INK} strokeWidth={9} strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M230 92 L 250 40" fill="none" stroke={ACCENT} strokeWidth={9} strokeLinecap="round" />
+          <text x={55} y={166} textAnchor="middle" fontSize={11} fill={SUB}>× 乗せない</text>
+          <text x={140} y={166} textAnchor="middle" fontSize={11} fill={ACCENT}>○ ここで支える</text>
+          <text x={266} y={38} fontSize={11} fill={ACCENT}>脚は天井方向</text>
+        </svg>
+      </div>
+    </Figure>
+  )
+}
+
+// 円の大きさ＝難易度。骨盤が動いた時点で狙いから外れる。
+export function CorkscrewCircleDiagram() {
+  const circles = [
+    { r: 22, label: '小さい円', level: 'やさしい', who: '腰が浮きやすい人・初めて', color: ACCENT },
+    { r: 38, label: '中くらい', level: '標準', who: '腰を保てるようになった人', color: ACCENT_SOFT },
+    { r: 54, label: '大きい円', level: '難しい', who: '骨盤がまったく揺れない人のみ', color: FAINT },
+  ]
+  return (
+    <Figure
+      title="円の大きさで難易度が決まる（脚の軌道を上から見た図）"
+      badge="難易度の目安"
+      note={<p className="not-prose text-xs text-warm-400 mt-1">大きい円が上級ではない。骨盤が左右に転がった時点で、腹部から負荷が抜けている。</p>}
+    >
+      <div className="not-prose grid grid-cols-3 gap-3">
+        {circles.map((c, i) => (
+          <div key={i} className="flex flex-col items-center gap-1.5">
+            <svg viewBox="0 0 130 130" width="100%" height="120" role="img" aria-label={c.label}>
+              <line x1={65} y1={12} x2={65} y2={118} stroke={LINE} strokeWidth={1} strokeDasharray="4 4" />
+              <line x1={12} y1={65} x2={118} y2={65} stroke={LINE} strokeWidth={1} strokeDasharray="4 4" />
+              <circle cx={65} cy={65} r={c.r} fill="none" stroke={c.color} strokeWidth={4} />
+              <circle cx={65} cy={65 - c.r} r={5} fill={c.color} />
+            </svg>
+            <span className="text-xs font-medium" style={{ color: c.color === FAINT ? SUB : ACCENT }}>{c.label}</span>
+            <span className="text-[11px] text-warm-500">{c.level}</span>
+            <span className="text-[11px] text-warm-400 text-center leading-relaxed">{c.who}</span>
+          </div>
+        ))}
+      </div>
+    </Figure>
+  )
+}
+
+// 連結種目の順番。どこで止まってよいかを示す。
+export function BoomerangSequenceDiagram() {
+  const steps = [
+    { n: 1, t: '長座から転がる', d: '脚を組んだまま後方へ。背骨を順に床へ預ける', stop: false },
+    { n: 2, t: 'ロールオーバーの位置', d: '脚が頭の向こうへ。体重は肩甲骨まで', stop: true },
+    { n: 3, t: '脚を組み替える', d: '止まった状態で上下を入れ替える', stop: false },
+    { n: 4, t: 'ティーザーへ起き上がる', d: '背骨を順に戻しV字で止まる', stop: true },
+    { n: 5, t: '前屈で締める', d: '腕を後ろで組み、上体を脚へ', stop: false },
+  ]
+  return (
+    <Figure
+      title="ブーメランの流れ（5つの局面）"
+      badge="動作の連結"
+      note={<p className="not-prose text-xs text-warm-400 mt-1">★の2か所は既存種目そのもの。ここで形が崩れるなら、通しでは行わず単体に戻す。</p>}
+    >
+      <ol className="not-prose flex flex-col gap-3">
+        {steps.map((s) => (
+          <li key={s.n} className="flex items-start gap-3">
+            <span
+              className="shrink-0 w-7 h-7 rounded-full grid place-items-center text-xs font-semibold text-white"
+              style={{ background: s.stop ? ACCENT : ACCENT_SOFT }}
+            >
+              {s.n}
+            </span>
+            <div>
+              <div className="text-sm font-medium text-warm-800">
+                {s.t}
+                {s.stop && <span className="ml-2 text-[11px]" style={{ color: ACCENT }}>★ここで止まれること</span>}
+              </div>
+              <div className="text-xs text-warm-500 leading-relaxed">{s.d}</div>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </Figure>
+  )
+}
+
 function MdxTable(props: React.HTMLAttributes<HTMLTableElement>) {
   return (
     <div className="not-prose my-8 overflow-x-auto rounded-xl border border-warm-200 shadow-sm">
@@ -697,5 +835,9 @@ export const articleComponents = {
   MorningNightDiagram,
   ClassicalContemporaryDiagram,
   OnlineStudioDiagram,
+  SwanDiveArcDiagram,
+  JackknifeWeightDiagram,
+  CorkscrewCircleDiagram,
+  BoomerangSequenceDiagram,
   table: MdxTable,
 }

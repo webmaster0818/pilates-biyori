@@ -9,7 +9,7 @@ tags:
   - "コア"
   - "中級"
 publishedAt: "2026-08-17"
-updatedAt: "2026-08-20"
+updatedAt: "2026-08-21"
 author: "編集部"
 keywords:
   - "ピラティス シザーズ"
@@ -20,6 +20,7 @@ relatedArticles:
   - "pilates-hundred-method"
   - "pilates-double-leg-stretch-method"
   - "pilates-20-exercises"
+  - "pilates-bicycle-method"
 faq:
   - q: "脚を替えると腰が浮きます"
     a: "下ろす脚が低すぎます。床に近づけるほど腰は反ります。腰がマットに保てる高さまでで止めてください。低く下ろせることは上達の指標ではありません。"

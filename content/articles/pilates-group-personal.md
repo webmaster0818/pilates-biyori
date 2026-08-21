@@ -8,7 +8,7 @@ tags:
   - "レッスン形態"
   - "選び方"
 publishedAt: "2026-06-06"
-updatedAt: "2026-08-20"
+updatedAt: "2026-08-21"
 author: "編集部"
 keywords:
   - "ピラティス グループ パーソナル"

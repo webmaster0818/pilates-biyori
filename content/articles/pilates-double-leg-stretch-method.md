@@ -9,7 +9,7 @@ tags:
   - "コア"
   - "中級"
 publishedAt: "2026-08-17"
-updatedAt: "2026-08-20"
+updatedAt: "2026-08-21"
 author: "編集部"
 keywords:
   - "ピラティス ダブルレッグストレッチ"

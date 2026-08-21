@@ -8,7 +8,7 @@ tags:
   - "初心者向け"
   - "運動が苦手"
 publishedAt: "2026-06-06"
-updatedAt: "2026-08-20"
+updatedAt: "2026-08-21"
 author: "編集部"
 keywords:
   - "ピラティス 運動苦手"
