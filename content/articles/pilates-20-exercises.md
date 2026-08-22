@@ -8,7 +8,7 @@ tags:
   - "実技解説"
   - "オリジナル34"
 publishedAt: "2026-05-11"
-updatedAt: "2026-08-21"
+updatedAt: "2026-08-22"
 author: "編集部"
 keywords:
   - "ピラティス エクササイズ"

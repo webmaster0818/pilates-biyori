@@ -861,6 +861,133 @@ export function RollingRangeDiagram() {
   )
 }
 
+/* ------------------------------------------------------------------
+ * マシン（器具）別の解説用の図解
+ * ------------------------------------------------------------------ */
+
+// リフォーマーの各部。名前が分かるとレッスン中の指示が聞き取れる。
+export function ReformerPartsDiagram() {
+  const parts = [
+    { n: 'キャリッジ', d: 'レールの上を滑る台。ここに乗って動く' },
+    { n: 'フットバー', d: '足や手をかけるバー。位置を数段階で変えられる' },
+    { n: 'スプリング', d: '台の下。本数と強さで負荷が変わる' },
+    { n: 'ストラップ', d: '手足にかけるひも。長さを調整できる' },
+    { n: 'ヘッドレスト', d: '頭を置く部分。上げ下げして首の角度を変える' },
+    { n: 'ショルダーレスト', d: '肩を当てて体が流れるのを止める' },
+  ]
+  return (
+    <Figure
+      title="リフォーマーの各部の名前"
+      badge="用語"
+      note={<p className="not-prose text-xs text-warm-400 mt-1">レッスン中の指示はこの名前で飛んでくる。先に覚えておくと初回の負担が減る。</p>}
+    >
+      <div className="not-prose">
+        <svg viewBox="0 0 360 150" width="100%" height="150" role="img" aria-label="リフォーマーの構造図">
+          <rect x={20} y={92} width={320} height={12} rx={4} fill={LINE} />
+          <rect x={60} y={62} width={170} height={30} rx={6} fill={ACCENT_SOFT} />
+          <text x={145} y={82} textAnchor="middle" fontSize={11} fill="#fff">キャリッジ</text>
+          <rect x={54} y={60} width={10} height={34} rx={3} fill={ACCENT} />
+          <path d="M300 46 L 300 92" stroke={ACCENT} strokeWidth={7} strokeLinecap="round" />
+          <path d="M290 46 L 340 46" stroke={ACCENT} strokeWidth={7} strokeLinecap="round" />
+          <text x={316} y={38} fontSize={11} fill={ACCENT}>フットバー</text>
+          <path d="M232 104 q 12 12 24 0 q 12 -12 24 0" fill="none" stroke={SUB} strokeWidth={3} />
+          <text x={256} y={128} textAnchor="middle" fontSize={11} fill={SUB}>スプリング</text>
+          <path d="M40 40 q 20 20 20 34" fill="none" stroke={SUB} strokeWidth={3} />
+          <text x={30} y={32} fontSize={11} fill={SUB}>ストラップ</text>
+          <text x={92} y={56} fontSize={11} fill={SUB}>ショルダーレスト／ヘッドレスト</text>
+        </svg>
+        <ul className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-1.5">
+          {parts.map((p, i) => (
+            <li key={i} className="text-xs text-warm-600 leading-relaxed">
+              <span className="font-medium text-warm-800">{p.n}</span>：{p.d}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </Figure>
+  )
+}
+
+// スプリングは「強い＝きつい」ではない。動きの向きで逆になる。
+export function SpringLoadDiagram() {
+  const rows = [
+    { move: 'キャリッジを押し出す動き（フットワークなど）', strong: 'きつくなる', weak: 'やさしくなる', note: 'スプリングに逆らって押すため' },
+    { move: 'キャリッジを引き戻す動き（アームワークなど）', strong: 'やさしくなる', weak: 'きつくなる', note: 'スプリングが戻す力を助けてくれるため' },
+    { move: '止めて支える動き（プランク系）', strong: 'やさしくなる', weak: 'きつくなる', note: '台が動きにくいほど支えやすい' },
+  ]
+  return (
+    <Figure
+      title="スプリングは「強い＝きつい」ではない"
+      badge="よくある誤解"
+      note={<p className="not-prose text-xs text-warm-400 mt-1">同じ強さでも、動きの向きで難易度は逆転する。強くしてほしいと頼む前に、どの動きかを伝えるのが早い。</p>}
+    >
+      <div className="not-prose overflow-x-auto">
+        <table className="w-full text-xs border-collapse">
+          <thead>
+            <tr className="bg-warm-50">
+              <th className="text-left font-medium text-warm-700 px-3 py-2 border-b border-warm-200">動きの種類</th>
+              <th className="text-left font-medium text-warm-700 px-3 py-2 border-b border-warm-200">スプリングが強いと</th>
+              <th className="text-left font-medium text-warm-700 px-3 py-2 border-b border-warm-200">弱いと</th>
+            </tr>
+          </thead>
+          <tbody>
+            {rows.map((r, i) => (
+              <tr key={i} className="align-top">
+                <td className="px-3 py-2 border-b border-warm-100 text-warm-700">
+                  {r.move}
+                  <div className="text-[11px] text-warm-400 mt-0.5">{r.note}</div>
+                </td>
+                <td className="px-3 py-2 border-b border-warm-100" style={{ color: ACCENT }}>{r.strong}</td>
+                <td className="px-3 py-2 border-b border-warm-100 text-warm-500">{r.weak}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </Figure>
+  )
+}
+
+// 4機種の位置づけ。どれが上位という関係ではない。
+export function MachineMapDiagram() {
+  const items = [
+    { n: 'リフォーマー', x: 30, y: 30, d: '全身・支えも負荷も' },
+    { n: 'キャデラック', x: 26, y: 74, d: '支えが最も強い' },
+    { n: 'チェア', x: 76, y: 68, d: '支えが少なく難しい' },
+    { n: 'バレル', x: 74, y: 26, d: '背骨のカーブを作る' },
+  ]
+  return (
+    <Figure
+      title="4機種の位置づけ（上位・下位の関係ではない）"
+      badge="全体像"
+      note={<p className="not-prose text-xs text-warm-400 mt-1">縦軸＝体を支えてくれる度合い、横軸＝全身で使うか部位を狙うか。目的が違うだけで、優劣ではない。</p>}
+    >
+      <div className="not-prose">
+        <svg viewBox="0 0 300 220" width="100%" height="220" role="img" aria-label="ピラティスマシン4機種の位置づけ">
+          <line x1={40} y1={20} x2={40} y2={190} stroke={LINE} strokeWidth={1.5} />
+          <line x1={40} y1={190} x2={280} y2={190} stroke={LINE} strokeWidth={1.5} />
+          <text x={16} y={26} fontSize={10} fill={SUB}>支えが</text>
+          <text x={16} y={38} fontSize={10} fill={SUB}>少ない</text>
+          <text x={16} y={182} fontSize={10} fill={SUB}>強い</text>
+          <text x={44} y={208} fontSize={10} fill={SUB}>全身</text>
+          <text x={248} y={208} fontSize={10} fill={SUB}>部位</text>
+          {items.map((it, i) => {
+            const cx = 40 + (it.x / 100) * 230
+            const cy = 20 + (it.y / 100) * 165
+            return (
+              <g key={i}>
+                <circle cx={cx} cy={cy} r={7} fill={ACCENT} />
+                <text x={cx + 12} y={cy - 1} fontSize={11} fill={INK}>{it.n}</text>
+                <text x={cx + 12} y={cy + 12} fontSize={9.5} fill={FAINT}>{it.d}</text>
+              </g>
+            )
+          })}
+        </svg>
+      </div>
+    </Figure>
+  )
+}
+
 function MdxTable(props: React.HTMLAttributes<HTMLTableElement>) {
   return (
     <div className="not-prose my-8 overflow-x-auto rounded-xl border border-warm-200 shadow-sm">
@@ -898,5 +1025,8 @@ export const articleComponents = {
   BoomerangSequenceDiagram,
   PlankLineDiagram,
   RollingRangeDiagram,
+  ReformerPartsDiagram,
+  SpringLoadDiagram,
+  MachineMapDiagram,
   table: MdxTable,
 }

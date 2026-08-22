@@ -8,7 +8,7 @@ tags:
   - "脂肪燃焼"
   - "有酸素運動"
 publishedAt: "2026-06-06"
-updatedAt: "2026-08-21"
+updatedAt: "2026-08-22"
 author: "編集部"
 keywords:
   - "ピラティス 脂肪燃焼"

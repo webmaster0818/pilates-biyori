@@ -9,7 +9,7 @@ tags:
   - "お尻"
   - "背骨"
 publishedAt: "2026-08-17"
-updatedAt: "2026-08-21"
+updatedAt: "2026-08-22"
 author: "編集部"
 keywords:
   - "ピラティス ショルダーブリッジ"
@@ -22,6 +22,7 @@ relatedArticles:
   - "pilates-20-exercises"
   - "pilates-jackknife-method"
   - "pilates-leg-pull-back-method"
+  - "pilates-magic-circle"
 faq:
   - q: "腰が痛くなります"
     a: "腰を反らせて持ち上げている可能性が高いです。ショルダーブリッジは腰を反る種目ではなく、尾骨から順に床を離れていく種目です。高さを半分に下げ、恥骨をやや天井へ向ける意識で行ってください。痛みが続く場合は中止し医療機関にご相談ください。"

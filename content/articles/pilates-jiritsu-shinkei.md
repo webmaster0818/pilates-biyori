@@ -8,7 +8,7 @@ tags:
   - "自律神経"
   - "呼吸"
 publishedAt: "2026-06-06"
-updatedAt: "2026-08-21"
+updatedAt: "2026-08-22"
 author: "編集部"
 keywords:
   - "ピラティス 自律神経"
