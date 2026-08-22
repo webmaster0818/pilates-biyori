@@ -20,6 +20,7 @@ relatedArticles:
   - "pilates-saw-method"
   - "pilates-hundred-method"
   - "pilates-20-exercises"
+  - "pilates-reformer-short-box"
 faq:
   - q: "前屈ストレッチと何が違うのですか？"
     a: "前屈は「どれだけ遠くまで手が届くか」を見ますが、スパインストレッチは「背骨を上から順に丸められるか」を見ます。手が届かなくても、背骨が1つずつ動いていれば目的は達成しています。到達点ではなく過程が目的の種目です。"

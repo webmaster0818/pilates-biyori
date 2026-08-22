@@ -23,6 +23,11 @@ relatedArticles:
   - "pilates-wunda-chair"
   - "pilates-ladder-barrel"
   - "pilates-magic-circle"
+  - "pilates-reformer-footwork"
+  - "pilates-reformer-long-stretch"
+  - "pilates-reformer-elephant"
+  - "pilates-reformer-knee-stretch"
+  - "pilates-reformer-short-box"
 ---
 
 # マシンピラティス初心者完全ガイド
@@ -202,6 +207,17 @@ relatedArticles:
 - モチベーション維持しやすい
 
 ## 初心者向けリフォーマーの基本動作
+
+リフォーマーの代表種目は、それぞれ個別に解説記事を用意しています。**設定（スプリング・フットバーの位置）は指導者が決めるもの**なので、下記はレッスンで何を見られているかを理解するための記事です。
+
+| 種目 | どんな種目か | 記事 |
+| --- | --- | --- |
+| フットワーク | レッスン冒頭。その日の体を確認する | [フットワークとは](/articles/pilates-reformer-footwork/) |
+| ロングストレッチ | 動く台の上で一直線を保つ | [ロングストレッチとは](/articles/pilates-reformer-long-stretch/) |
+| エレファント | 背中を丸めた形を保って台を動かす | [エレファントとは](/articles/pilates-reformer-elephant/) |
+| ニーストレッチ | 膝をついて腹部で台を動かす | [ニーストレッチとは](/articles/pilates-reformer-knee-stretch/) |
+| ショートボックス | 箱に座って背骨を4方向へ動かす | [ショートボックスとは](/articles/pilates-reformer-short-box/) |
+
 
 ### 1. フットワーク（Footwork）
 

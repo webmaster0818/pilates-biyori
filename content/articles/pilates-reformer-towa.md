@@ -23,6 +23,9 @@ relatedArticles:
   - "pilates-cadillac"
   - "pilates-wunda-chair"
   - "pilates-ladder-barrel"
+  - "pilates-reformer-footwork"
+  - "pilates-reformer-long-stretch"
+  - "pilates-reformer-elephant"
 faq:
   - q: "リフォーマーとマットピラティスはどちらが効果的ですか？"
     a: "目的によります。リフォーマーはスプリングで負荷と補助を調整できるため、初心者でも正しいフォームで効かせやすく効果を実感しやすいです。マットは自重のみで手軽ですがフォーム維持が難しめ。初心者はリフォーマーから始めるのがおすすめです。"

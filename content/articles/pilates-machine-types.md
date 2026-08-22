@@ -25,6 +25,7 @@ relatedArticles:
   - "pilates-ladder-barrel"
   - "pilates-spine-corrector"
   - "pilates-magic-circle"
+  - "pilates-reformer-footwork"
 faq:
   - q: "ピラティスマシンは何種類ありますか？"
     a: "代表的なのはリフォーマー・キャデラック（トラピーズテーブル）・チェア・バレルの4種類です。このほかにもスプリングボードやスパインコレクターなど補助器具があります。多くのスタジオはリフォーマーが中心です。"

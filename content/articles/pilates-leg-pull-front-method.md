@@ -20,6 +20,7 @@ relatedArticles:
   - "pilates-push-up-method"
   - "pilates-side-bend-method"
   - "pilates-20-exercises"
+  - "pilates-reformer-long-stretch"
 faq:
   - q: "何秒くらい保てばよいですか？"
     a: "秒数は基準になりません。肩・骨盤・かかとが一直線を保てている間だけです。崩れたら10秒でも終わりにしてください。"
