@@ -8,7 +8,7 @@ tags:
   - "O脚"
   - "骨盤"
 publishedAt: "2026-06-06"
-updatedAt: "2026-08-22"
+updatedAt: "2026-08-24"
 author: "編集部"
 keywords:
   - "ピラティス O脚"
