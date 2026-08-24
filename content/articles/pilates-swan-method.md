@@ -9,7 +9,7 @@ tags:
   - "姿勢改善"
   - "背中"
 publishedAt: "2026-08-16"
-updatedAt: "2026-08-22"
+updatedAt: "2026-08-24"
 author: "編集部"
 keywords:
   - "ピラティス スワン"
