@@ -8,7 +8,7 @@ tags:
   - "時間帯"
   - "朝活"
 publishedAt: "2026-06-06"
-updatedAt: "2026-08-24"
+updatedAt: "2026-08-22"
 author: "編集部"
 keywords:
   - "ピラティス 朝 夜"

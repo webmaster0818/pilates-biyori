@@ -8,7 +8,7 @@ tags:
   - "マシンピラティス"
   - "マシンの種類"
 publishedAt: "2026-06-06"
-updatedAt: "2026-08-24"
+updatedAt: "2026-08-22"
 author: "編集部"
 keywords:
   - "ピラティス マシン 種類"

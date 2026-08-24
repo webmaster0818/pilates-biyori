@@ -14,7 +14,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/yoyogi/' },
-  title: '【2026年8月最新】ピラティス代々木おすすめ8選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年8月最新】ピラティス代々木おすすめ7選！人気スタジオの料金プランを簡単比較！',
   description: '代々木・南新宿エリアのおすすめピラティススタジオ7選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,代々木,南新宿,新宿,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -237,19 +237,6 @@ const studios = [
       closed: '年中無休',
       facilities: ['リフォーマー', '加圧トレーニング器具', '更衣室'],
     },
-  },  {
-    name: 'ELEMENT 代々木店',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=U11199J.1.V154352I.U1357808',
-    image: '/images/studios/element.webp',
-    price: '月4回 22,000円〜', trial: 'カウンセリング＋体験3,300円',
-    features: ['マンツーマン', '1回30分', '通い放題プランあり', '手ぶらOK', '代々木駅 徒歩5分'],
-    description: '代々木駅から徒歩5分のパーソナルマシンピラティススタジオ。1対1のマンツーマン指導で1回30分から。ウェア・シューズ・タオル・ドリンク・プロテインが無料レンタルのため手ぶらで通えます。月4回から全日通い放題まで、通う頻度に合わせてプランを選べます。',
-    access: '代々木駅から徒歩5分',
-    address: '〒151-0053 東京都渋谷区代々木2-26-1 桑野ビル3階 3C号室',
-    popularPlan: { name: '月4回フルタイムプラン', description: '1対1のマンツーマン指導。1回30分のレッスンを月4回、全日10:00〜22:00の枠で利用できます。', price: '月額22,000円（税込）' },
-    options: ['月4回ミックスプラン 25,500円（30分×3・50分×1）', '月6回ミックスプラン 40,000円', '月8回フルタイムプラン 40,000円（デイプラン36,000円）', '全日通い放題プラン 55,000円（1日1回まで）', '食事指導オプション 16,500円/月', '入会金33,000円（初回体験後の入会で半額16,500円）'],
-    userProfile: { ageRange: '公式サイトでご確認ください', genderRatio: '公式サイトでご確認ください', purpose: ['ボディメイク', '運動習慣づくり', '姿勢改善'] },
-    basicInfo: { hours: '10:00〜22:00（月〜日・祝）', closed: '公式サイトでご確認ください', facilities: ['マンツーマン専用スペース', 'ピラティスマシン', 'ウェア・シューズ・タオル無料レンタル', 'ドリンク・プロテイン無料', 'アメニティ'] },
   },
 ]
 
@@ -311,9 +298,9 @@ export default function YoyogiPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年08月24日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年08月22日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス代々木おすすめ8選！<br className="hidden md:block" />
+              【2026最新】ピラティス代々木おすすめ7選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>

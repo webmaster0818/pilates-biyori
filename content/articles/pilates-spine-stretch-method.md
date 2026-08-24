@@ -9,7 +9,7 @@ tags:
   - "背骨"
   - "姿勢改善"
 publishedAt: "2026-08-17"
-updatedAt: "2026-08-24"
+updatedAt: "2026-08-22"
 author: "編集部"
 keywords:
   - "ピラティス スパインストレッチ"

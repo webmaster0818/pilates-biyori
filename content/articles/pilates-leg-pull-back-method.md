@@ -9,7 +9,7 @@ tags:
   - "背中"
   - "上級"
 publishedAt: "2026-08-21"
-updatedAt: "2026-08-24"
+updatedAt: "2026-08-22"
 author: "編集部"
 keywords:
   - "ピラティス レッグプルバック"
