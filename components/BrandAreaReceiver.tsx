@@ -5,6 +5,7 @@ import { FAQSchema } from "@/components/FAQSchema";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { getBrand } from "@/data/brands";
 import type { BdcStore } from "@/data/bdc-stores";
+import { STUDIO_REVIEWS } from "@/data/studio-reviews";
 
 // ブランド×エリア受け皿。指名クエリ「{ブランド} ピラティス {エリア}」の受け皿。
 // 実店舗データ（brands-aggregate.json一致）＋ブランド編集データ＋ブランド/エリアへの三角リンク。
@@ -14,6 +15,14 @@ const _now = new Date()
 const MONTH_TAG = `【${_now.getFullYear()}年${_now.getMonth() + 1}月】`
 
 export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStore; brandSlug?: string }) {
+  /* 店舗名で口コミ要約を引く。無い店舗では何も出さない（別の店の要約を出さないため）。
+     ⚠️ 要約は編集部が書いたもので、口コミ本文の転載ではない。出典リンクを必ず添える。 */
+  /* ⚠️ 掲載名と要約データのキーは表記ゆれがある（「Pilates Mee大井町店」と「Pilates Mee 大井町店」等）。
+     完全一致で引けないときだけ、空白を無視した一致で拾う。それでも無ければ何も出さない。 */
+  const norm = (s: string) => s.replace(/[\s　]/g, "");
+  const rev =
+    STUDIO_REVIEWS[store.storeName] ??
+    Object.values(STUDIO_REVIEWS).find((r) => norm(r.name) === norm(store.storeName));
   const brand = getBrand(brandSlug);
   const brandName = brand?.name ?? brandSlug.toUpperCase();
   const brandHref = `/brands/${brandSlug}/`;
@@ -92,8 +101,12 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
                 <p className="text-xs text-warm-500 mt-1">体験レッスン</p>
               </div>
               <div>
-                <p className="text-lg font-light text-warm-900">{store.rating ? `★${store.rating.toFixed(1)}` : "—"}</p>
-                <p className="text-xs text-warm-500 mt-1">{store.rating ? "掲載時点の評価" : "評価準備中"}</p>
+                <p className="text-lg font-light text-warm-900">
+                  {rev ? `★${rev.rating}` : store.rating ? `★${store.rating.toFixed(1)}` : "—"}
+                </p>
+                <p className="text-xs text-warm-500 mt-1">
+                  {rev ? `Googleの評価（${rev.userRatings}件）` : store.rating ? "掲載時点の評価" : "評価準備中"}
+                </p>
               </div>
               <div>
                 <p className="text-lg font-light text-warm-900">{store.areaLabel}</p>
@@ -101,6 +114,30 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
               </div>
             </div>
           </section>
+
+          {/* 口コミ要約（Googleの口コミをもとにした編集部の要約＋出典リンク。本文は転載しない） */}
+          {rev && (
+            <section className="mb-10">
+              <h2 className="text-xl font-light text-warm-900 border-b border-warm-200 pb-2 mb-4">
+                {store.storeName}の口コミ・評判
+              </h2>
+              <div className="bg-warm-50 border border-warm-200 rounded-lg p-5">
+                <div className="flex items-center gap-2 flex-wrap">
+                  <span className="text-sm font-bold text-warm-800">Googleの評価</span>
+                  <span className="text-sm font-bold text-warm-900">★{rev.rating}</span>
+                  <span className="text-xs text-warm-600">（{rev.userRatings}件）</span>
+                </div>
+                <p className="text-sm text-warm-700 mt-3 leading-relaxed">{rev.summary}</p>
+                <p className="text-[11px] text-warm-500 mt-3">
+                  Googleマップに投稿された口コミをもとに編集部が要約しました（{rev.fetchedAt}時点）。
+                  口コミ本文は転載していません。{" "}
+                  <a href={rev.mapsUri} target="_blank" rel="noopener noreferrer" className="underline hover:text-warm-700">
+                    出典：Googleマップの口コミを見る
+                  </a>
+                </p>
+              </div>
+            </section>
+          )}
 
           {/* 店舗情報 */}
           <section className="mb-10">

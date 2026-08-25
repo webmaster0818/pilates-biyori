@@ -8,7 +8,7 @@ tags:
   - "マシン解説"
   - "トラピーズテーブル"
 publishedAt: "2026-08-22"
-updatedAt: "2026-08-24"
+updatedAt: "2026-08-25"
 author: "編集部"
 keywords:
   - "ピラティス キャデラック"

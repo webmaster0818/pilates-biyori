@@ -5,6 +5,21 @@ import type { BdcStore } from "@/data/bdc-stores";
 
 export const g1Stores: BdcStore[] = [
   {
+    // 2026-08-25 追加: GSCで「マシンピラティスrintosull 京都桂店 京都市 レビュー」等が
+    // 合計60表示・pos10.3・0クリックでエリアページに着地していたため、店舗単位の受け皿を新設。
+    // データは /area/katsura/ の検証済み掲載データからの転記。
+    urlSlug: "rintosull-katsura",
+    areaQuery: "京都桂",
+    storeName: "Rintosull 京都桂店",
+    address: "京都府京都市西京区川島有栖川町50-2 ECS第24ビル3F",
+    access: "阪急京都線・嵐山線「桂駅」西口 徒歩1分",
+    price: "月額 13,800円〜",
+    trial: "体験レッスン 0円",
+    areaSlug: "katsura",
+    areaLabel: "桂",
+    nearby: [{ slug: "kyoto", label: "京都" }, { slug: "kyoto-station", label: "京都駅" }, { slug: "karasuma-oike", label: "烏丸御池" }],
+  },
+  {
     urlSlug: "rintosull-tennoji",
     areaQuery: "天王寺",
     storeName: "Rintosull（リントスル）天王寺店",
@@ -238,6 +253,7 @@ export const g1Stores: BdcStore[] = [
 ];
 
 export const g1BrandOf: Record<string, string> = {
+  "rintosull-katsura": "rintosull",
   "rintosull-tennoji": "rintosull",
   "rintosull-honatsugi": "rintosull",
   "rintosull-toyohashi": "rintosull",

@@ -8,7 +8,7 @@ tags:
   - "産後ダイエット"
   - "骨盤矯正"
 publishedAt: "2026-05-02"
-updatedAt: "2026-08-24"
+updatedAt: "2026-08-25"
 author: "編集部"
 keywords:
   - "産後 ピラティス いつから"
