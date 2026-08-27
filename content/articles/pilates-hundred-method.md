@@ -9,7 +9,7 @@ tags:
   - "コア"
   - "腹筋"
 publishedAt: "2026-05-11"
-updatedAt: "2026-08-25"
+updatedAt: "2026-08-27"
 author: "編集部"
 keywords:
   - "ピラティス ハンドレッド"

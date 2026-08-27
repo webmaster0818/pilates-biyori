@@ -6,8 +6,8 @@ const SLUG = "rintosull-nishijin";
 const store = getG1Store(SLUG)!;
 
 export const metadata: Metadata = {
-  title: `Rintosull（リントスル） ${store.areaQuery}の料金・体験・アクセス【2026年7月】｜マシンピラティス`,
-  description: `Rintosull（リントスル） ${store.areaQuery}（${store.storeName}）の料金・体験レッスン・アクセスを当サイト掲載データで整理。${store.access}。${store.areaQuery}周辺のピラティス比較・ブランド全店舗一覧へのリンク付き。`,
+  title: `${store.areaQuery}のRintosull（リントスル）｜料金・体験・アクセスと店舗情報【2026年8月】`,
+  description: `${store.areaQuery}のRintosull（リントスル）（${store.storeName}）の料金・体験レッスン・アクセスを当サイト掲載データで整理。${store.access}。${store.areaQuery}周辺のピラティス比較・ブランド全店舗一覧へのリンク付き。`,
   alternates: { canonical: `https://biyori-pilates.com/brands/${SLUG}/` },
 };
 

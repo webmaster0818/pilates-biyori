@@ -7,6 +7,7 @@ import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import { BRANDS, getBrand } from '@/data/brands'
 import brandStores from '@/data/brands-aggregate.json'
 import brandVoices from '@/data/brand-voices.json'
+import { BrandReviewDigest } from '@/components/BrandReviewDigest'
 
 type Voice = {
   brand: string
@@ -343,6 +344,9 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
               ※エリア名をタップすると、そのエリアの比較ページで周辺スタジオとあわせて確認できます。
             </p>
           </section>
+
+          {/* Googleマップ口コミの集約（569件の資産をブランド単位で俯瞰。2026-08-27） */}
+          <BrandReviewDigest brandSlug={brand.slug} brandName={brand.name} />
 
           {/* 利用者の声（出典付き） */}
           {(brandVoices as Voice[]).filter((v) => v.brand === brand.slug).length > 0 && (

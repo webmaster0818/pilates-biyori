@@ -9,7 +9,7 @@ tags:
   - "デメリット"
   - "始め方"
 publishedAt: "2026-06-06"
-updatedAt: "2026-08-25"
+updatedAt: "2026-08-27"
 author: "編集部"
 keywords:
   - "ピラティス メリット"
