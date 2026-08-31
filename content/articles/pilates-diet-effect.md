@@ -8,7 +8,7 @@ tags:
   - "痩せる"
   - "効果"
 publishedAt: "2026-03-30"
-updatedAt: "2026-08-27"
+updatedAt: "2026-08-31"
 author: "編集部"
 keywords:
   - "ピラティス ダイエット 効果"

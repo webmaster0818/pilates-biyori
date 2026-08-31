@@ -25,22 +25,25 @@ const studios = [
   {
     name: 'REIBELLE 京都北山店',
     image: '/images/studios/reibelle-kyoto.webp',
-    price: '月4回 13,200円〜',
-    trial: '体験レッスンあり',
+    price: '通い放題 月額12,980円〜（税込）',
+    trial: '体験レッスン 無料（1回）',
     features: ['女性専用', '北山駅徒歩5分', 'エステ併設', '地域最大級マシン'],
     description: '女性専用マシンピラティススタジオ。北山駅から徒歩5分。地域最大級のマシンと豊富なレッスン数。エステ・ホワイトニング・脱毛マシンも完備し、ピラティスと美容を一箇所でケア。初心者も安心。',
     access: '京都市営地下鉄烏丸線「北山駅」徒歩5分',
     address: '京都府京都市左京区下鴨神殿町9',
     popularPlan: {
-      name: 'グループレッスン月4回',
-      description: '女性専用マシンピラティス月4回。エステ併設で美容もトータルケア。',
-      price: '月4回 13,200円〜（税込）',
+      name: '通い放題-休日プラン-',
+      description: '土日祝が全時間通い放題（1日最大1枠）。回数制ではなく月額の通い放題プランです。平日に通うなら「お昼」「平日ナイト」、時間を選ばないなら「全日」があります。',
+      price: '月額12,980円（税込）〜 ※全日プランは17,380円（税込）',
     },
     options: [
-      '通い放題プラン',
-      'エステプラン',
-      'ホワイトニング',
-      '体験レッスンあり',
+      '通い放題-休日プラン- 月額12,980円（税込）',
+      '通い放題-お昼プラン- 月額15,180円（税込）',
+      '通い放題-平日ナイトプラン- 月額15,180円（税込）',
+      '通い放題-全日プラン- 月額17,380円（税込）',
+      '学割あり（休日 月額10,980円（税込）〜）',
+      'パーソナルパッケージ（会員限定・通常1回8,800円 税込）',
+      'エステ・ホワイトニング併設',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
@@ -160,7 +163,7 @@ const faqs = [
   },
   {
     question: '北大路エリアの料金相場は？',
-    answer: 'グループ月4回で10,450円〜13,200円程度。LAVAは月額9,800円〜で通い放題。パーソナルは8,800円〜/回。',
+    answer: 'zen place京都はグループ月4回10,450円〜。REIBELLEは回数制ではなく通い放題で月額12,980円（税込）〜。LAVAは月額9,800円〜で通い放題。パーソナルは8,800円〜/回。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -207,7 +210,7 @@ export default function KitaojiPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年08月27日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年08月31日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス北大路おすすめ5選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
@@ -497,12 +500,12 @@ export default function KitaojiPage() {
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜15,000円</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
+                <p className="text-3xl font-bold text-warm-800 mb-4">通い放題</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン専門スタジオ。
+                  マシン専門スタジオ。回数制ではなく月額の通い放題です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• REIBELLE（13,200円〜）</li>
+                  <li>• REIBELLE（休日プラン 月額12,980円〜/税込）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -542,7 +545,7 @@ export default function KitaojiPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  北大路の料金相場はグループ月4回で10,450円〜13,200円。パーソナルは1回8,800円〜。
+                  北大路の料金相場は、回数制のグループが月4回10,450円〜、通い放題が月額9,800円〜17,380円（税込）。パーソナルは1回8,800円〜。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

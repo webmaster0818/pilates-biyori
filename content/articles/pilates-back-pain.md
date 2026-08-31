@@ -8,7 +8,7 @@ tags:
   - "効果"
   - "エクササイズ"
 publishedAt: "2026-03-30"
-updatedAt: "2026-08-27"
+updatedAt: "2026-08-31"
 author: "編集部"
 keywords:
   - "ピラティス 腰痛 改善"

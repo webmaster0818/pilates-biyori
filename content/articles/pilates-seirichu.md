@@ -8,7 +8,7 @@ tags:
   - "生理中"
   - "体調"
 publishedAt: "2026-06-06"
-updatedAt: "2026-08-27"
+updatedAt: "2026-08-31"
 author: "編集部"
 keywords:
   - "ピラティス 生理中"

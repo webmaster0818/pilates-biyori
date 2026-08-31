@@ -9,7 +9,7 @@ tags:
   - "体側"
   - "上級"
 publishedAt: "2026-08-21"
-updatedAt: "2026-08-27"
+updatedAt: "2026-08-31"
 author: "編集部"
 keywords:
   - "ピラティス サイドベンド"

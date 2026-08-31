@@ -9,7 +9,7 @@ tags:
   - "お尻"
   - "骨盤"
 publishedAt: "2026-08-17"
-updatedAt: "2026-08-27"
+updatedAt: "2026-08-31"
 author: "編集部"
 keywords:
   - "ピラティス サイドキック"
