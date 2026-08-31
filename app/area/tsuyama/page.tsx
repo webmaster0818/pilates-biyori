@@ -13,7 +13,7 @@ import { AreaConclusion } from '@/components/AreaConclusion'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/tsuyama/' },
-  title: '【2026年8月最新】津山のピラティススタジオ比較｜体験レッスン・料金ガイド',
+  title: '【2026年9月最新】津山のピラティススタジオ比較｜体験レッスン・料金ガイド',
   description: '津山のピラティススタジオを体験レッスン・料金・マシン対応で比較。各スタジオの料金プラン・アクセス・選び方のポイントを実データでまとめました。',
   keywords: 'ピラティス,津山,岡山県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -60,7 +60,7 @@ export default function Page() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年08月31日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月01日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス津山おすすめスタジオ<br className="hidden md:block" />
               人気スタジオの料金プランを徹底比較！

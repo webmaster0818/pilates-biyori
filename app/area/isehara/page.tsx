@@ -13,7 +13,7 @@ import { AreaConclusion } from '@/components/AreaConclusion'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/isehara/' },
-  title: '【2026年8月最新】伊勢原のピラティススタジオおすすめ5選｜体験レッスン・料金で比較',
+  title: '【2026年9月最新】伊勢原のピラティススタジオおすすめ5選｜体験レッスン・料金で比較',
   description: '伊勢原のピラティススタジオ5社を体験レッスン・料金・マシン対応で比較。各スタジオの料金プラン・アクセス・選び方のポイントを実データでまとめました。',
   keywords: 'ピラティス,伊勢原,神奈川県伊勢原市,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -115,7 +115,7 @@ export default function IseharaPage() {
         { name: '伊勢原', url: 'https://pilates-biyori.com/area/isehara/' },
       ]} />
       <main className="pt-20 bg-white">
-        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年08月31日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス伊勢原おすすめ5選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1></div></section>
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年09月01日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス伊勢原おすすめ5選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1></div></section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">伊勢原</span></nav></div></section>
         <AreaConclusion studios={studios} areaName="伊勢原" />
 

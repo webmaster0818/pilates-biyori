@@ -9,7 +9,7 @@ tags:
   - "コア"
   - "初級"
 publishedAt: "2026-08-16"
-updatedAt: "2026-08-31"
+updatedAt: "2026-09-01"
 author: "編集部"
 keywords:
   - "ピラティス シングルレッグストレッチ"

@@ -15,7 +15,7 @@ import { AreaConclusion } from '@/components/AreaConclusion'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/motomachi/' },
-  title: '【2026年8月最新】元町のピラティススタジオおすすめ7選｜無料体験・料金で比較',
+  title: '【2026年9月最新】元町のピラティススタジオおすすめ7選｜無料体験・料金で比較',
   description: '元町のピラティススタジオ7社を無料体験・料金・マシン対応で比較。各スタジオの料金プラン・アクセス・選び方のポイントを実データでまとめました。',
   keywords: 'ピラティス,元町,神戸,兵庫,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -279,7 +279,7 @@ export default function MotomachiPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年08月31日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月01日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス元町おすすめ7選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！

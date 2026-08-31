@@ -9,7 +9,7 @@ tags:
   - "コア"
   - "上級"
 publishedAt: "2026-08-21"
-updatedAt: "2026-08-31"
+updatedAt: "2026-09-01"
 author: "編集部"
 keywords:
   - "ピラティス クラブ"

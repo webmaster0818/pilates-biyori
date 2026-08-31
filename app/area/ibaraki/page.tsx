@@ -13,7 +13,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/ibaraki/' },
-  title: '【2026年8月最新】ピラティス茨木おすすめ7選！料金・体験レッスン・マシン対応を比較！',
+  title: '【2026年9月最新】ピラティス茨木おすすめ7選！料金・体験レッスン・マシン対応を比較！',
   description: '茨木エリアのおすすめピラティススタジオ7選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。JR茨木駅・阪急茨木市駅周辺の初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,茨木,茨木市,大阪,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -140,7 +140,7 @@ export default function IbarakiPage() {
       <main className="pt-20 bg-white">
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年08月31日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月01日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス茨木おすすめ7選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1>
           </div>
         </section>

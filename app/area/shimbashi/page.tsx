@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/shimbashi/' },
-  title: '【2026年8月最新】ピラティス新橋おすすめ11選！料金・体験レッスン・マシン対応を比較！',
+  title: '【2026年9月最新】ピラティス新橋おすすめ11選！料金・体験レッスン・マシン対応を比較！',
   description: '新橋・銀座エリアのおすすめピラティススタジオ12選を徹底比較。マシンピラティス、パーソナル、女性専用、24時間セルフまで網羅。料金相場・体験レッスン・選び方を完全ガイド。JR新橋駅・銀座線・都営浅草線沿線で仕事帰りに通えるスタジオが見つかります。',
   keywords: 'ピラティス,新橋,銀座,港区,スタジオ,おすすめ,マシンピラティス,パーソナル,女性専用,体験レッスン,料金,比較',
 }
@@ -414,7 +414,7 @@ export default function ShimbashiPage() {
       <main className="pt-20 bg-white">
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年08月31日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月01日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス新橋おすすめ12選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
