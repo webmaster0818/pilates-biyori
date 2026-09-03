@@ -36,7 +36,18 @@ function Badge({ active, label }: { active: boolean; label: string }) {
   )
 }
 
-export function PriceComparisonTable({ studios, areaName }: Props) {
+// 目次・本文のスタジオカードと同じ並び順にする。
+// ⚠️ 呼び出し側（app/area/*/page.tsx）は目次と本文にだけこの並べ替えを適用していて、
+//    比較表には素の配列を渡していたため、表だけ順番が違っていた（2026-09-03 指摘）。
+//    ページ側を全部書き換えるのではなく、ここで揃える（冪等なので二重ソートでも同じ結果）。
+function inPageOrder(studios: Studio[]): Studio[] {
+  const isPartner = (s: Studio) =>
+    String((s as { officialUrl?: unknown }).officialUrl ?? '').includes('felmat') ? 1 : 0
+  return [...studios].sort((a, b) => isPartner(b) - isPartner(a))
+}
+
+export function PriceComparisonTable({ studios: rawStudios, areaName }: Props) {
+  const studios = inPageOrder(rawStudios)
   return (
     <section className="py-8 bg-white" id="price-comparison">
       <div className="max-w-6xl mx-auto px-4 lg:px-8">
