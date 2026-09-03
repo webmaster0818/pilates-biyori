@@ -8,7 +8,7 @@ tags:
   - "スタジオ"
   - "比較"
 publishedAt: "2026-06-12"
-updatedAt: "2026-09-01"
+updatedAt: "2026-09-04"
 author: "編集部"
 keywords:
   - "オンラインピラティス スタジオ どっち"

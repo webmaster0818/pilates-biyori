@@ -9,7 +9,7 @@ tags:
   - "背中"
   - "上級"
 publishedAt: "2026-08-21"
-updatedAt: "2026-09-01"
+updatedAt: "2026-09-04"
 author: "編集部"
 keywords:
   - "ピラティス ロッキング"

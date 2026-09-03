@@ -8,7 +8,7 @@ tags:
   - "マシン解説"
   - "背骨"
 publishedAt: "2026-08-22"
-updatedAt: "2026-09-01"
+updatedAt: "2026-09-04"
 author: "編集部"
 keywords:
   - "ピラティス ラダーバレル"

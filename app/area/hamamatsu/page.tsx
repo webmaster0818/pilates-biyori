@@ -181,10 +181,28 @@ const studios = [
     image: '/images/studios/247-pilates.webp',
     price: '月2回 14,500円〜 / 月4回 27,000円〜 / 月8回 52,000円〜（税込）',
     trial: '体験レッスン 無料（説明含め約60分・手ぶらOK）',
-    features: ['女性専用', '完全個室パーソナル', '入会金不要・月謝制'],
-    description: '完全個室・マンツーマンの女性専用パーソナルピラティススタジオ。入会金不要の月謝制で、一人ひとりに合わせたオリジナルプログラムを提供。浜松駅から徒歩9分。',
+    features: ['マシンピラティス', '女性専用', '完全個室パーソナル', '入会金不要・月謝制'],
+    description: '完全個室・マンツーマンの女性専用パーソナルピラティススタジオ。入会金不要の月謝制で、一人ひとりに合わせたオリジナルプログラムを提供。浜松駅から徒歩9分。※一部のご案内やサポート対応は、男性スタッフが行う場合がございます。※24/7Workout併設店舗のため、パーソナルトレーニングの男性会員様がご来店される場合もございます。',
     access: '浜松駅から徒歩9分',
     address: '静岡県浜松市中区鍛冶町15 ザザシティ浜松西館3F 302号',
+    popularPlan: {
+      name: '月4回プラン',
+      description: '完全個室でマシンを使ったマンツーマン指導。入会金不要の月謝制。',
+      price: '月4回 27,000円〜（税込）',
+    },
+    options: [
+      'なし',
+    ],
+    userProfile: {
+      ageRange: '20代〜50代と幅広い',
+      genderRatio: '女性専用',
+      purpose: ['ボディメイク', 'ダイエット', '姿勢改善', '健康維持'],
+    },
+    basicInfo: {
+      hours: '8:00〜21:00',
+      closed: '年中無休',
+      facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi'],
+    },
   },
 ]
 
@@ -246,7 +264,7 @@ export default function HamamatsuPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月04日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス浜松おすすめ6選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！

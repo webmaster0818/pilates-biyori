@@ -270,37 +270,6 @@ const studios = [
     },
   },
   {
-    name: '24/7 Pilates 錦糸町四ツ目通り',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=J11817X.1.B1620582.U1357808',
-    image: '/images/studios/247-pilates-kinshicho.webp',
-    price: '月2回 14,500円〜',
-    trial: '体験レッスンあり',
-    features: ['完全個室', 'パーソナル', '錦糸町四ツ目通り', '初心者歓迎'],
-    description: '完全個室のパーソナルピラティススタジオ。錦糸町エリア・四ツ目通り沿いに位置。月2回から始められるリーズナブルな料金設定。初心者でも安心のマンツーマン指導で、確実に効果を実感できます。',
-    access: '錦糸町駅から徒歩6分（四ツ目通り沿い）',
-    address: '東京都墨田区太平4丁目 四ツ目通り沿い',
-    popularPlan: {
-      name: '月4回プラン',
-      description: '完全個室パーソナル。月2回から気軽に始められる。',
-      price: '月4回 26,400円（税込）',
-    },
-    options: [
-      '月2回プラン（14,500円）',
-      '月8回プラン（48,000円）',
-      'ウェアレンタル無料',
-    ],
-    userProfile: {
-      ageRange: '20代〜50代と幅広い',
-      genderRatio: '女性85% / 男性15%',
-      purpose: ['ボディメイク', 'ダイエット', '姿勢改善', '健康維持'],
-    },
-    basicInfo: {
-      hours: '平日 7:00〜23:00 / 土日祝 7:00〜20:00',
-      closed: '不定休',
-      facilities: ['完全個室', 'ロッカー', '更衣室', 'ウェアレンタル'],
-    },
-  },
-  {
     name: 'Pilates Studio B&B 錦糸町',
     image: '/images/studios/pilates-bb.webp',
     price: '1回 10,725円',
@@ -484,13 +453,31 @@ const studios = [
   {
     name: '24/7ピラティス 錦糸町四ツ目通店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=J11817X.1.B1620582.U1357808',
-    image: '/images/studios/247-pilates.webp',
+    image: '/images/studios/247-pilates-kinshicho.webp',
     price: '月2回 14,500円〜 / 月4回 27,000円〜 / 月8回 52,000円〜（税込）',
-    trial: '体験レッスン 無料（説明含め約60分・手ぶらOK）',
-    features: ['女性専用', '完全個室パーソナル', '入会金不要・月謝制'],
-    description: '完全個室・マンツーマンの女性専用パーソナルピラティススタジオ。入会金不要の月謝制で、一人ひとりに合わせたオリジナルプログラムを提供。錦糸町駅から徒歩5分。',
+    trial: '体験レッスン 無料（説明20分＋体験40分の約60分・手ぶらOK）',
+    features: ['マシンピラティス', '女性専用', '完全個室パーソナル', '入会金不要・月謝制'],
+    description: '完全個室・マンツーマンの女性専用パーソナルピラティススタジオ。入会金不要の月謝制で、一人ひとりに合わせたオリジナルプログラムを提供。錦糸町駅から徒歩5分。※一部のご案内やサポート対応は、男性スタッフが行う場合がございます。※24/7Workout併設店舗のため、パーソナルトレーニングの男性会員様がご来店される場合もございます。',
     access: '錦糸町駅から徒歩5分',
     address: '東京都墨田区江東橋4丁目15-1 第六小崎ビル1F',
+    popularPlan: {
+      name: '月4回プラン',
+      description: '完全個室でマシンを使ったマンツーマン指導。入会金不要の月謝制。',
+      price: '月4回 27,000円〜（税込）',
+    },
+    options: [
+      'なし',
+    ],
+    userProfile: {
+      ageRange: '20代〜50代と幅広い',
+      genderRatio: '女性専用',
+      purpose: ['ボディメイク', 'ダイエット', '姿勢改善', '健康維持'],
+    },
+    basicInfo: {
+      hours: '8:00〜21:00',
+      closed: '年中無休',
+      facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi'],
+    },
   },
 ]
 
@@ -552,9 +539,9 @@ export default function KinshichoPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月04日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026年7月最新】ピラティス錦糸町おすすめ16選！<br className="hidden md:block" />
+              【2026年7月最新】ピラティス錦糸町おすすめ15選！<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！
             </h1>
           </div>
