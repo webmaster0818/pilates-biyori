@@ -75,8 +75,14 @@ agg = {slug: [] for slug, _ in BRANDS}
 seen = set()  # (brand, name) 重複防止(A/B両方に載る場合)
 
 # 系統B
+# ⚠️ 2026-09-04 修正: 配列の終端を `\n  ]`(スペース2) で探していたが、
+#    area-studios.ts の実体は `\n    ],`(スペース4＋カンマ)。
+#    このため **この正規表現は一度もマッチせず、152エリア・約300店舗が
+#    ずっと集計から漏れていた**（ブランドページの店舗数・一覧・口コミ集約が3割少なかった）。
+#    終端を実体に合わせ、インデントに依存しないよう括弧の対応で切り出す。
+# 教訓: 生成物の件数は「前回と同じ」で安心せず、必ず元データの実数と突き合わせる。
 bsrc = (ROOT / "data" / "area-studios.ts").read_text(encoding="utf-8")
-for area_m in re.finditer(r"'([a-z0-9-]+)': \{[\s\S]*?studios: \[([\s\S]*?)\n  \]", bsrc):
+for area_m in re.finditer(r"'([a-z0-9-]+)': \{[\s\S]*?studios: \[([\s\S]*?)\n    \],", bsrc):
     aslug, body = area_m.group(1), area_m.group(2)
     for rec in parse_studios(body):
         b = brand_of(rec["name"])
