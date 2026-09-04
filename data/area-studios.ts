@@ -5818,6 +5818,43 @@ export const areaStudios: Record<string, AreaData> = {
         address: '福岡県筑紫野市二日市北3丁目1-15 サリイビル2階A号室',
       },
       {
+        // 出典: URBAN CLASSIC PILATES公式 https://urbanclassic.jp/pilates-studio/futsukaichi/ ・
+        //       開店告知 https://urbanclassic.jp/news/3222/ （2026-09-04 取得）
+        // ⚠️ 公式に記載が無い項目（設備・利用者層など）は推測で埋めず「公式サイトでご確認ください」とする。
+        //    StudioCardはタブ未設定だと架空のダミー値を描画するため、5タブとも明示指定すること。
+        name: 'URBAN CLASSIC PILATES 西鉄二日市店',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
+        image: '/images/studios/urban-classic-pilates.webp',
+        price: '月4回 8,580円〜／通い放題 12,980円（税込月額）',
+        trial: '無料体験あり',
+        features: ['マシンピラティス', 'サーキット型', '通い放題プランあり', '西鉄二日市駅 徒歩3分'],
+        description:
+          'マシンピラティスとファンクショナルトレーニングを組み合わせたサーキット型のスタジオ。一人ひとり異なる動きに取り組む形式のため、周りを気にせず始めやすいのが特徴です。2026年7月21日オープン。月4回8,580円〜、通い放題12,980円（税込）と続けやすい価格帯です。',
+        access: '西鉄天神大牟田線・西鉄太宰府線「西鉄二日市駅」徒歩3分',
+        address: '福岡県筑紫野市二日市北1-3-1 M・黒崎ビル1F',
+        popularPlan: {
+          name: 'レギュラー（通い放題）',
+          price: '月額 11,800円（税込12,980円）',
+          description:
+            '1日1回まで通い放題のプラン。月4回の「マンスリー4」は7,800円（税込8,580円）、月8回の「マンスリー8」は9,800円（税込10,780円）です。',
+        },
+        options: [
+          '水素水プラス 1,080円（税込）',
+          '入会時の施設利用料 2,000円（税込2,200円）',
+          '3ヶ月目より毎月 480円（税込）',
+        ],
+        userProfile: {
+          ageRange: '公式サイトに記載なし',
+          genderRatio: '公式サイトに記載なし',
+          purpose: ['ボディメイク', '初心者の運動習慣づくり'],
+        },
+        basicInfo: {
+          hours: '平日 10:00〜21:00 / 土祝 10:00〜20:00',
+          closed: '日曜日',
+          facilities: ['公式サイトでご確認ください'],
+        },
+      },
+      {
         name: 'ホットヨガスタジオLAVA 西鉄二日市店',
         officialUrl: 'https://yoga-lava.com/shop/fukuoka/futsukaichi/',
         price: '月4回 8,800円／ライト 10,800円／プレミアム 16,800円（税込月額）',
