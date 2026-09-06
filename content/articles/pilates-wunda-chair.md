@@ -8,7 +8,7 @@ tags:
   - "マシン解説"
   - "コンボチェア"
 publishedAt: "2026-08-22"
-updatedAt: "2026-09-04"
+updatedAt: "2026-09-06"
 author: "編集部"
 keywords:
   - "ピラティス チェア"

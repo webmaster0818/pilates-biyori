@@ -8,7 +8,7 @@ tags:
   - "週何回"
   - "継続のコツ"
 publishedAt: "2026-03-30"
-updatedAt: "2026-09-04"
+updatedAt: "2026-09-06"
 author: "編集部"
 keywords:
   - "ピラティス 週何回"

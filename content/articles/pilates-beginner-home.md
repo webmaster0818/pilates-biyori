@@ -8,7 +8,7 @@ tags:
   - "初心者向け"
   - "ピラティス道具"
 publishedAt: "2026-03-28"
-updatedAt: "2026-09-04"
+updatedAt: "2026-09-06"
 author: "編集部"
 keywords:
   - "ピラティス 初心者 自宅"

@@ -9,7 +9,7 @@ tags:
   - "始め方"
   - "効果"
 publishedAt: "2026-05-11"
-updatedAt: "2026-09-04"
+updatedAt: "2026-09-06"
 author: "編集部"
 keywords:
   - "ピラティス 男性"

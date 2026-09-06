@@ -8,7 +8,7 @@ tags:
   - "効果"
   - "続け方"
 publishedAt: "2026-06-12"
-updatedAt: "2026-09-04"
+updatedAt: "2026-09-06"
 author: "編集部"
 keywords:
   - "オンラインピラティス 効果"

@@ -15,12 +15,48 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/takatsuki/' },
-  title: '【2026年9月最新】ピラティス高槻おすすめ8選！料金・体験レッスン・マシン対応を比較！',
+  title: '【2026年9月最新】ピラティス高槻おすすめ9選！料金・体験レッスン・マシン対応を比較！',
   description: '高槻エリアのおすすめピラティススタジオ8選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。JR高槻駅・阪急高槻市駅から通いやすいスタジオが見つかります。',
   keywords: 'ピラティス,高槻,高槻市,大阪,京都,ベッドタウン,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
 const studios = [
+  {
+    // 出典: 店舗責任者 原坂様よりメールでご提供（2026-09-05）＋ブランド公式
+    //       https://la-pilates.jp/studio/takatsuki/ （2026-09-06 取得）で照合
+    // ⚠️ 5タブは全て明示指定する。未設定だとStudioCardが架空のダミー値を描画する。
+    name: 'La pilates（ラピラティス）高槻店',
+    officialUrl: 'https://la-pilates.jp/studio/takatsuki/',
+    price: '月1回 12,000円〜（税込）',
+    trial: '初回トライアル 3,000円',
+    features: ['女性専用', '整体×マシンピラティス', '阪急高槻市駅 徒歩1分', '2026年8月24日オープン'],
+    description:
+      '整体とマシンピラティスを組み合わせたパーソナルセッションを行う女性専用スタジオ。1回50分のセッションで、姿勢や身体の悩みにアプローチします。阪急京都線「高槻市駅」から徒歩1分、JR「高槻駅」からも徒歩圏内。2026年8月24日オープンの新店舗です。',
+    access: '阪急京都線「高槻市駅」徒歩1分 / JR京都線「高槻駅」南口 徒歩5分',
+    address: '〒569-0802 大阪府高槻市北園町14-11 G.R.高槻ビル3F',
+    popularPlan: {
+      name: 'サブスク月4回',
+      description: '整体×マシンピラティスのパーソナルセッション（1回50分）を月4回。1回あたり10,000円で、回数が増えるほど1回あたりの料金が下がります。',
+      price: '月額 40,000円（税込・1回10,000円）',
+    },
+    options: [
+      'サブスク月1回 12,000円（税込）',
+      'サブスク月2回 22,000円（税込・1回11,000円）',
+      'サブスク月6回 54,000円（税込）',
+      '一般通常コース 14,000円（税込）',
+      '年払いコースあり',
+    ],
+    userProfile: {
+      ageRange: '公式サイトに記載なし',
+      genderRatio: '女性専用',
+      purpose: ['姿勢改善', '肩こり・腰痛のケア', 'ボディメイク'],
+    },
+    basicInfo: {
+      hours: '9:00〜21:00（最終受付 20:00）',
+      closed: '年末年始',
+      facilities: ['更衣室', 'ロッカー', 'パウダールーム', 'レンタルウェア'],
+    },
+  },
   {
     name: 'zen place pilates 高槻',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
@@ -171,9 +207,9 @@ export default function TakatsukiPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月04日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月06日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス高槻おすすめ8選！<br className="hidden md:block" />
+              【2026最新】ピラティス高槻おすすめ9選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>

@@ -8,7 +8,7 @@ tags:
   - "セミパーソナル"
   - "レッスン形態"
 publishedAt: "2026-06-06"
-updatedAt: "2026-09-04"
+updatedAt: "2026-09-06"
 author: "編集部"
 keywords:
   - "セミパーソナル ピラティス"

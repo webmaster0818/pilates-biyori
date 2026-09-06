@@ -9,7 +9,7 @@ tags:
   - "裏もも"
   - "中級"
 publishedAt: "2026-08-21"
-updatedAt: "2026-09-04"
+updatedAt: "2026-09-06"
 author: "編集部"
 keywords:
   - "ピラティス シングルレッグキック"

@@ -9,7 +9,7 @@ tags:
   - "腹筋"
   - "柔軟性"
 publishedAt: "2026-05-11"
-updatedAt: "2026-09-04"
+updatedAt: "2026-09-06"
 author: "編集部"
 keywords:
   - "ピラティス ロールアップ"
