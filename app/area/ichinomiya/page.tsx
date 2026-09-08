@@ -93,7 +93,7 @@ const studios = [
       purpose: ['ボディメイク', 'ダイエット', '姿勢改善', '健康維持'],
     },
     basicInfo: {
-      hours: '8:00〜21:00',
+      hours: '10:00〜21:00',
       closed: '年中無休',
       facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi'],
     },
