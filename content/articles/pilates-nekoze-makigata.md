@@ -9,7 +9,7 @@ tags:
   - "姿勢改善"
   - "デスクワーク"
 publishedAt: "2026-05-11"
-updatedAt: "2026-09-06"
+updatedAt: "2026-09-08"
 author: "編集部"
 keywords:
   - "ピラティス 猫背"

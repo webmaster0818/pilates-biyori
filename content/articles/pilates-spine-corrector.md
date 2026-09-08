@@ -8,7 +8,7 @@ tags:
   - "マシン解説"
   - "アークバレル"
 publishedAt: "2026-08-22"
-updatedAt: "2026-09-06"
+updatedAt: "2026-09-08"
 author: "編集部"
 keywords:
   - "スパインコレクター ピラティス"

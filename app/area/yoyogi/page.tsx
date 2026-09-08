@@ -14,12 +14,49 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/yoyogi/' },
-  title: '【2026年9月最新】ピラティス代々木おすすめ7選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年9月最新】ピラティス代々木おすすめ8選！人気スタジオの料金プランを簡単比較！',
   description: '代々木・南新宿エリアのおすすめピラティススタジオ7選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,代々木,南新宿,新宿,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
 const studios = [
+  {
+    // 出典: 店舗責任者 北村様よりメールでご提供（2026-08-26）＋
+    //       ELEMENT公式 https://element-gym.com/element-top/pilates/pilates-all/yoyogi/（2026-09-08 取得）で照合。
+    //       両者は料金・営業時間・体験料まで一致。設備と電話番号は公式側で補完した。
+    // ⚠️ 5タブは全て明示指定する（未設定だとStudioCardが架空のダミー値を描画する）。
+    name: 'ELEMENT 代々木店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=U11199J.1.V154352I.U1357808',
+    price: '月4回 22,000円〜（税込）',
+    trial: '体験トレーニング 3,300円（当日入会で無料）',
+    features: ['マンツーマン', '1回30分', '通い放題プランあり', '男女利用可', '手ぶらOK'],
+    description:
+      'パーソナルマシンピラティスとパーソナルトレーニングのマンツーマン専門店。1回30分のレッスンを中心に、月額制の通い放題プランにも対応しています。ウェア・靴・タオル・プロテイン・ドリンク・アメニティがすべて無料レンタルで、シャワーも完備。JR「代々木駅」から徒歩5分です。女性専用ではなく、男女ともに利用できます。',
+    access: 'JR山手線・中央総武線／都営大江戸線「代々木駅」徒歩5分 / 「南新宿駅」徒歩4分 / 「新宿駅」徒歩7分',
+    address: '〒151-0053 東京都渋谷区代々木2丁目26-1 1桑野ビル 3階 3C号室',
+    popularPlan: {
+      name: '月4回フルタイムプラン',
+      description: 'マンツーマンのマシンピラティスを月4回。全時間帯で予約できるプランです。時間帯を限定したミックスプランや、回数の多いプランも選べます。',
+      price: '月額 22,000円（税込）',
+    },
+    options: [
+      '月4回ミックスプラン 25,500円（税込）',
+      '月6回ミックスプラン 40,000円（税込）',
+      '月8回フルタイムプラン 40,000円（税込）',
+      '全日通い放題プラン 55,000円（税込）',
+      'カウンセリングのみは無料',
+    ],
+    userProfile: {
+      ageRange: '公式サイトでご確認ください',
+      genderRatio: '男女利用可（男性の利用実績も多数）',
+      purpose: ['ボディメイク', '姿勢改善', '運動習慣づくり'],
+    },
+    basicInfo: {
+      hours: '月〜日・祝 10:00〜22:00',
+      closed: 'なし',
+      facilities: ['シャワー', 'ウェアレンタル（無料）', '靴・タオル（無料）', 'プロテイン・ドリンク（無料）', 'アメニティ'],
+    },
+  },
   {
     name: 'zen place pilates 新宿南口スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
@@ -298,9 +335,9 @@ export default function YoyogiPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月06日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月08日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス代々木おすすめ7選！<br className="hidden md:block" />
+              【2026最新】ピラティス代々木おすすめ8選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>

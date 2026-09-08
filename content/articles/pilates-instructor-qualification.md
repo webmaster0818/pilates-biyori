@@ -9,7 +9,7 @@ tags:
   - "BASI"
   - "STOTT"
 publishedAt: "2026-05-11"
-updatedAt: "2026-09-06"
+updatedAt: "2026-09-08"
 author: "編集部"
 keywords:
   - "ピラティスインストラクター 資格"
