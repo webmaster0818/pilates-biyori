@@ -8,7 +8,7 @@ tags:
   - "マシンピラティス"
   - "リフォーマー"
 publishedAt: "2026-06-06"
-updatedAt: "2026-09-08"
+updatedAt: "2026-09-11"
 author: "編集部"
 keywords:
   - "リフォーマー とは"

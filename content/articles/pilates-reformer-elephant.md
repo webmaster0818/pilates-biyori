@@ -8,7 +8,7 @@ tags:
   - "リフォーマー"
   - "マシン種目"
 publishedAt: "2026-08-22"
-updatedAt: "2026-09-08"
+updatedAt: "2026-09-11"
 author: "編集部"
 keywords:
   - "リフォーマー エレファント"
