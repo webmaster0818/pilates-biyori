@@ -34,6 +34,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオDEP 奈良店',
+    image: '/images/studios/pilates-studio-dep.webp',
     price: 'パーソナル制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['理学療法士監修', '完全個室', '24時間サポート', 'マシン専門'],

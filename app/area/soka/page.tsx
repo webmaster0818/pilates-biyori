@@ -129,6 +129,7 @@ const studios = [
   },
   {
     name: 'La pilates 草加店',
+    image: '/images/studios/la-pilates.webp',
     price: 'レッスン料は公式サイトでご確認ください',
     trial: '体験レッスンあり',
     features: ['整体×ピラティス', '駅徒歩3分', '根本改善', '体の不調対応'],

@@ -19,7 +19,8 @@ export const metadata = {
 
 const studios = [
   {
-    name: 'ピラティススタジオDEP 四日市店', rating: 4.8, reviewCount: 28,
+    name: 'ピラティススタジオDEP 四日市店',
+    image: '/images/studios/pilates-studio-dep.webp', rating: 4.8, reviewCount: 28,
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['理学・作業療法士','高品質マシン','1000種類以上','カスタマイズ'],
     description: 'インストラクター全員が理学・作業療法士。高品質のピラティスマシン完備で1000種類以上の運動からカスタマイズされたレッスン',
     access: '四日市市内（詳細は公式サイトでご確認ください）', address: '三重県四日市市（詳細は公式サイトでご確認ください）',

@@ -146,6 +146,7 @@ const studios = [
   },
   {
     name: 'ラピラティス 神戸元町店',
+    image: '/images/studios/la-pilates.webp',
     price: '要問い合わせ',
     trial: '体験レッスンあり',
     features: ['整体×ピラティス', '元町駅近', '体の歪み改善', 'マシンピラティス'],
