@@ -48,7 +48,8 @@ const studios = [
     },
   },
   {
-    name: 'ピラティス&ジム 1to1 一宮店', rating: 4.6, reviewCount: 25,
+    name: 'ピラティス&ジム 1to1 一宮店',
+    image: '/images/studios/pilates-gym-1to1.webp', rating: 4.6, reviewCount: 25,
     price: '月4回 6,600円〜', trial: '体験レッスンあり', features: ['月4回6,600円〜','完全個室','女性専用','マシンピラティス×ゆるトレ'],
     description: '女性専用完全個室のボディメイクスタジオ。マシンピラティスと「ゆるトレ」を融合。月額6,600円〜とリーズナブル',
     access: '一宮市内（詳細は公式サイトでご確認ください）', address: '愛知県一宮市（詳細は公式サイトでご確認ください）',

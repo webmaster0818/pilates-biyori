@@ -81,6 +81,7 @@ const studios = [
   },
   {
     name: 'Dr.ピラティス 田園調布店',
+    image: '/images/studios/dr-pilates.webp',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11979O.1.Z164554L.U1357808', reviewCount: 72,
     price: 'パーソナル 1回 8,800円〜', trial: '体験レッスンあり',
     features: ['駅徒歩30秒', '医学的アプローチ', 'パーソナル専門', '2025年オープン'],

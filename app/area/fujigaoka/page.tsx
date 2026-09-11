@@ -40,7 +40,8 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'ピラティス&ジム 1to1 藤が丘店', rating: 4.6, reviewCount: 20,
+    name: 'ピラティス&ジム 1to1 藤が丘店',
+    image: '/images/studios/pilates-gym-1to1.webp', rating: 4.6, reviewCount: 20,
     price: '月4回 8,800円〜', trial: '体験レッスンあり', features: ['藤が丘駅徒歩2分','完全個室','女性専用','マシンピラティス×ゆるトレ'],
     description: '藤が丘駅から徒歩2分の女性専用完全個室スタジオ。マシンピラティスと「ゆるトレ」を融合させたトレーニング。月4回8,800円〜とリーズナブル',
     access: '東山線「藤が丘駅」徒歩2分', address: '名古屋市名東区（詳細は公式サイトでご確認ください）',
