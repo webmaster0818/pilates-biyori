@@ -14,12 +14,40 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/sapporo/' },
-  title: '【2026年9月最新】ピラティス札幌おすすめ11選！人気スタジオの料金プランを簡単比較！',
+  title: '【2026年9月最新】ピラティス札幌おすすめ12選！人気スタジオの料金プランを簡単比較！',
   description: '【2026年4月最新】札幌のおすすめピラティススタジオ11選を徹底比較。グループ月2回5,500円〜の料金相場、マシン専門・女性専用のスタジオ情報、体験レッスンの持ち物・冬場の注意点まで完全網羅。',
   keywords: 'ピラティス,札幌,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
 const studios = [
+  {
+    name: 'Pilates Mee 札幌大通り店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
+    image: '/images/studios/pilates-mee.webp',
+    price: 'セミパーソナル 月4回 19,800円〜（税込）',
+    trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
+    features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。大通駅 徒歩6分。',
+    access: '大通駅 徒歩6分',
+    address: '〒060-0062 北海道札幌市中央区南2条西6丁目5-3 住友狸小路プラザハウス 504',
+    options: [
+      'セミパーソナル 月2回 11,000円（1回5,500円・税込）',
+      'セミパーソナル 月4回 19,800円（1回4,950円・税込）',
+      'パーソナル 月2回 22,000円／月4回 39,600円（税込）',
+      '体験当日の入会で入会金 33,000円 → 0円',
+      '体験当日の入会で月会費がずっと10%OFF（セミパーソナル月4回 17,600円）',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性100%（女性専用）',
+      purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '運動習慣づくり'],
+    },
+    basicInfo: {
+      hours: '9:00〜21:15',
+      closed: '不定休',
+      facilities: ['女性専用トイレ', '着替えスペース', '全身鏡'],
+    },
+  },
   {
     name: 'zen place pilates 札幌',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
@@ -387,7 +415,7 @@ export default async function SapporoAreaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス札幌おすすめ11選！<br className="hidden md:block" />
+              【2026最新】ピラティス札幌おすすめ12選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>

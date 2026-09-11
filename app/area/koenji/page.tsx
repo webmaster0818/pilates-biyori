@@ -55,7 +55,8 @@ const studios = [
     },
   },
   {
-    name: 'Pilates Mee 高円寺',
+    name: 'Pilates Mee 高円寺店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
     price: '月4回 11,000円〜',
     trial: '体験レッスンあり（詳細は公式サイト）',

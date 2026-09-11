@@ -86,7 +86,8 @@ const studios = [
     },
   },
   {
-    name: 'Pilates Mee',
+    name: 'Pilates Mee 西荻窪店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
     price: '詳細は公式サイト参照',
     trial: '体験レッスンあり',

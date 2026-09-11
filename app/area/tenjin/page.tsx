@@ -21,6 +21,34 @@ export const metadata = {
 
 const studios = [
   {
+    name: 'Pilates Mee 福岡天神・赤坂店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
+    image: '/images/studios/pilates-mee.webp',
+    price: 'セミパーソナル 月4回 19,800円〜（税込）',
+    trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
+    features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。赤坂駅 徒歩3分。',
+    access: '赤坂駅 徒歩3分',
+    address: '〒810-0041 福岡県福岡市中央区大名1丁目9−45 藤和大名コープ 509',
+    options: [
+      'セミパーソナル 月2回 11,000円（1回5,500円・税込）',
+      'セミパーソナル 月4回 19,800円（1回4,950円・税込）',
+      'パーソナル 月2回 22,000円／月4回 39,600円（税込）',
+      '体験当日の入会で入会金 33,000円 → 0円',
+      '体験当日の入会で月会費がずっと10%OFF（セミパーソナル月4回 17,600円）',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性100%（女性専用）',
+      purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '運動習慣づくり'],
+    },
+    basicInfo: {
+      hours: '9:00〜21:15',
+      closed: '不定休',
+      facilities: ['女性専用トイレ', '着替えスペース', '全身鏡'],
+    },
+  },
+  {
     name: 'ピラティスK 福岡天神店',
     image: '/images/studios/pilates-k.webp',
     price: 'マンスリー4メンバー 13,420円〜',
@@ -218,7 +246,7 @@ export default function TenjinPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス天神おすすめ5選！<br className="hidden md:block" />
+              【2026最新】ピラティス天神おすすめ6選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>

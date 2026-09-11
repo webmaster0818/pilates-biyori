@@ -21,6 +21,34 @@ export const metadata = {
 
 const studios = [
   {
+    name: 'Pilates Mee Life 博多南店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
+    image: '/images/studios/pilates-mee.webp',
+    price: '5人制少人数 月4回 14,800円〜（税込）',
+    trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
+    features: ['女性専用', 'マシンピラティス専門', '最大5名セミパーソナル＋完全パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大5名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。博多南駅 徒歩3分。',
+    access: '博多南駅 徒歩3分',
+    address: '〒811-1213 福岡県那珂川市中原２丁目１６１ クローネ博多南 202',
+    options: [
+      '月2回コース 8,800円（1回4,400円・税込）',
+      '月8回コース 22,000円（1回2,750円・税込）',
+      '通い放題コース（人数限定）24,600円（税込）',
+      '体験当日の入会で入会金33,000円→0円',
+      '体験当日の入会で月会費がずっと10%OFF（月4回13,200円・通い放題22,000円）',
+    ],
+    userProfile: {
+      ageRange: '20代〜50代が中心',
+      genderRatio: '女性100%（女性専用）',
+      purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '運動習慣づくり'],
+    },
+    basicInfo: {
+      hours: '9:00〜21:15',
+      closed: '不定休',
+      facilities: ['女性専用トイレ', '着替えスペース', '全身鏡'],
+    },
+  },
+  {
     name: 'CLUB PILATES 博多店',
     image: '/images/studios/club-pilates.webp',
     price: '月4回 14,190円〜',
@@ -264,7 +292,7 @@ export default function HakataPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス博多おすすめ6選！<br className="hidden md:block" />
+              【2026最新】ピラティス博多おすすめ7選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
