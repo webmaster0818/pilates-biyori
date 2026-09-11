@@ -82,7 +82,6 @@ const studios = [
   },
   {
     name: 'Tomomi Pilates Studio',
-    image: '/images/studios/luluto.webp',
     price: 'パーソナルレッスン（要問合せ）',
     trial: '体験レッスンあり',
     features: ['新越谷駅徒歩1分', 'パーソナル専門', 'ポールスター認定', '女性専門'],
