@@ -118,7 +118,6 @@ const studios = [
   },
   {
     name: 'kiraris（キラリス）枚方市駅前店',
-    image: '/images/studios/pilates-k.webp',
     price: '月額制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['枚方市内5店舗', '美容×運動', 'ヨガ併設', 'アットホーム'],
@@ -180,7 +179,6 @@ const studios = [
   },
   {
     name: 'Studio K（スタジオK）',
-    image: '/images/studios/zen-place-pilates.webp',
     price: '回数券制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['JR長尾駅徒歩3分', 'リンパケア併設', 'シルクサスペンション', '少人数制'],

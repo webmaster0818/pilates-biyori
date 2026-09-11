@@ -32,7 +32,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'Pilates Studio Plaisir（プレジール）', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 20,
+    name: 'Pilates Studio Plaisir（プレジール）', rating: 4.7, reviewCount: 20,
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['光明池駅徒歩5分','女性専門','パーソナル','マシン完備'],
     description: '光明池駅から徒歩5分の女性専門パーソナルピラティススタジオ。リフォーマーやチェアなどのマシンピラティスを提供',
     access: '泉北高速鉄道「光明池駅」徒歩5分', address: '兵庫県和泉市伏屋町',
@@ -42,7 +42,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'STUDIO TOU', image: '/images/studios/zen-place-pilates.webp', rating: 4.5, reviewCount: 18,
+    name: 'STUDIO TOU', rating: 4.5, reviewCount: 18,
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['マシンピラティス','部位別プログラム','個性的なインストラクター','初心者歓迎'],
     description: 'マシンピラティスを軸に部位別や基礎用などさまざまなプログラムを提供。個性豊かなインストラクターが一人ひとりをサポート',
     access: '和泉市内（詳細は公式サイトでご確認ください）', address: '大阪府和泉市（詳細は公式サイトでご確認ください）',
@@ -52,7 +52,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'Joie ピラティス', image: '/images/studios/zen-place-pilates.webp', rating: 4.5, reviewCount: 12,
+    name: 'Joie ピラティス', rating: 4.5, reviewCount: 12,
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['マシンパーソナル','未経験者歓迎','シニアクラス','丁寧な指導'],
     description: 'マシンピラティスパーソナルレッスンを提供。未経験でも安心のトレーニング内容。シニアグループストレッチクラスもあり',
     access: '和泉市内（詳細は公式サイトでご確認ください）', address: '大阪府和泉市（詳細は公式サイトでご確認ください）',
@@ -62,7 +62,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'Aloha ピラティス', image: '/images/studios/zen-place-pilates.webp', rating: 4.4, reviewCount: 15,
+    name: 'Aloha ピラティス', rating: 4.4, reviewCount: 15,
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['初心者向け','女性専用','床暖房完備','10代〜80代'],
     description: '初心者向け女性専用スタジオ。床暖房・ウォーターサーバー完備。レッスン生は10代〜80代と幅広い年代が利用',
     access: '和泉市内（詳細は公式サイトでご確認ください）', address: '大阪府和泉市（詳細は公式サイトでご確認ください）',

@@ -30,7 +30,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'Excel（エクセル）藤が丘店', image: '/images/studios/zen-place-pilates.webp', rating: 4.5, reviewCount: 25,
+    name: 'Excel（エクセル）藤が丘店', rating: 4.5, reviewCount: 25,
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['女性専用','マシンピラティス','初心者対応','藤が丘エリア'],
     description: '女性専用のマシンピラティススタジオ。初心者から対応しており、一人ひとりに合わせた指導が特徴',
     access: '藤が丘エリア（詳細は公式サイトでご確認ください）', address: '名古屋市名東区（詳細は公式サイトでご確認ください）',
@@ -40,7 +40,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'ピラティス&ジム 1to1 藤が丘店', image: '/images/studios/zen-place-pilates.webp', rating: 4.6, reviewCount: 20,
+    name: 'ピラティス&ジム 1to1 藤が丘店', rating: 4.6, reviewCount: 20,
     price: '月4回 8,800円〜', trial: '体験レッスンあり', features: ['藤が丘駅徒歩2分','完全個室','女性専用','マシンピラティス×ゆるトレ'],
     description: '藤が丘駅から徒歩2分の女性専用完全個室スタジオ。マシンピラティスと「ゆるトレ」を融合させたトレーニング。月4回8,800円〜とリーズナブル',
     access: '東山線「藤が丘駅」徒歩2分', address: '名古屋市名東区（詳細は公式サイトでご確認ください）',
@@ -50,7 +50,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'スタジオアクセ（Studio Achse）', image: '/images/studios/zen-place-pilates.webp', rating: 4.6, reviewCount: 12,
+    name: 'スタジオアクセ（Studio Achse）', rating: 4.6, reviewCount: 12,
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['完全予約制','女性専用','よもぎ蒸し併設','子連れOK'],
     description: '完全予約制の女性専用スタジオ。オーダーメイドのマシンパーソナルと超少人数制グループレッスン。よもぎ蒸しも併設',
     access: '東山線「藤が丘駅」徒歩8分', address: '名古屋市名東区（詳細は公式サイトでご確認ください）',
@@ -60,7 +60,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'Pilates Nag Studio 星が丘テラス店', image: '/images/studios/zen-place-pilates.webp', rating: 4.5, reviewCount: 45,
+    name: 'Pilates Nag Studio 星が丘テラス店', rating: 4.5, reviewCount: 45,
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['東海エリア初','全店相互利用','マシングループ専門','男女共用'],
     description: '東海エリア初のマシンピラティスグループレッスン専門スタジオ。星が丘テラス店は藤が丘からも通いやすい立地',
     access: '東山線「星ヶ丘駅」直結（星が丘テラス内）', address: '名古屋市千種区 星が丘テラス内',

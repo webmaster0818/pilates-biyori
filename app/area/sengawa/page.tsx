@@ -66,7 +66,6 @@ const studios = [
   },
   {
     name: 'PERSONAL TRAINING STUDIO U 仙川',
-    image: '/images/studios/element.webp',
     price: 'パーソナルレッスン（料金は公式サイトでご確認ください）',
     trial: '体験レッスンあり',
     features: ['パーソナル専門', 'ピラティス×トレーニング', '仙川駅徒歩2分', '週1回50分'],

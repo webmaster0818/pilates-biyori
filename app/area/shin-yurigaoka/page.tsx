@@ -73,7 +73,6 @@ const studios = [
   },
   {
     name: 'sincere pilates 新百合ヶ丘',
-    image: '/images/studios/zen-place-pilates.webp',
     price: '1回約2,300円〜',
     trial: '体験レッスン 1,000円',
     features: ['グループ&マンツーマン', 'マットピラティス', '体験1,000円', 'アットホーム'],
@@ -99,7 +98,6 @@ const studios = [
   },
   {
     name: 'PERSONAL TRAINING STUDIO U 新百合ヶ丘',
-    image: '/images/studios/element.webp',
     price: 'パーソナルレッスン（公式サイトで確認）',
     trial: '体験レッスンあり',
     features: ['パーソナル専門', 'ピラティス×トレーニング', '駅徒歩2分', '完全マンツーマン'],

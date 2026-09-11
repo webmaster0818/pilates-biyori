@@ -19,7 +19,7 @@ export const metadata = {
 
 const studios = [
   {
-    name: 'Pilates Plus Kakuozan', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 25,
+    name: 'Pilates Plus Kakuozan', rating: 4.7, reviewCount: 25,
     price: '月2回 7,800円〜', trial: '体験レッスンあり', features: ['28歳以上女性限定','少人数制5名','覚王山駅徒歩6分','デイタイム割引'],
     description: '28歳以上の女性に特化したマシンピラティススタジオ。最大5名の少人数制グループレッスン。デイタイム限定なら月2回7,800円〜',
     access: '東山線「覚王山駅」3番出口 徒歩6分', address: '名古屋市千種区覚王山',
@@ -29,7 +29,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'ATLAS pilates&yoga studio', image: '/images/studios/zen-place-pilates.webp', rating: 4.6, reviewCount: 18,
+    name: 'ATLAS pilates&yoga studio', rating: 4.6, reviewCount: 18,
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['覚王山駅徒歩1分','女性専用','肩こり・腰痛対応','自律神経調整'],
     description: '覚王山駅より徒歩1分の女性専用スタジオ。肩こりや腰痛の緩和・自律神経の調整に合わせた丁寧な指導',
     access: '東山線「覚王山駅」徒歩1分', address: '名古屋市千種区覚王山',
@@ -39,7 +39,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'POLARIS Beauty', image: '/images/studios/zen-place-pilates.webp', rating: 4.5, reviewCount: 15,
+    name: 'POLARIS Beauty', rating: 4.5, reviewCount: 15,
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['ヨガ＆ピラティス','医療従事者監修','覚王山エリア','心身ケア'],
     description: '身体と呼吸を整えるヨガとピラティスの両方が選べるスタジオ。医療従事者監修のメニューで心身をケア',
     access: '覚王山エリア', address: '名古屋市千種区覚王山',
@@ -49,7 +49,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'Pilates Nag Studio 星が丘テラス店', image: '/images/studios/zen-place-pilates.webp', rating: 4.5, reviewCount: 45,
+    name: 'Pilates Nag Studio 星が丘テラス店', rating: 4.5, reviewCount: 45,
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['東海エリア初','全店相互利用','マシングループ専門','男女共用'],
     description: '東海エリア初のマシンピラティスグループレッスン専門スタジオ。覚王山から東山線1駅の星が丘テラス内',
     access: '東山線「星ヶ丘駅」直結（星が丘テラス内）', address: '名古屋市千種区 星が丘テラス内',

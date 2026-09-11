@@ -117,7 +117,6 @@ const studios = [
   },
   {
     name: 'PPPスタジオ 金山',
-    image: '/images/studios/club-pilates.webp',
     price: '要問い合わせ',
     trial: '体験レッスンあり',
     features: ['金山駅周辺', '女性専用', '撮影OK', 'セルフフリー通い放題'],
@@ -179,7 +178,6 @@ const studios = [
   },
   {
     name: 'A.STUDIO 金山',
-    image: '/images/studios/pilates-studio-dep.webp',
     price: '要問い合わせ',
     trial: '体験レッスンあり',
     features: ['金山駅徒歩5分', 'パーソナル専門', '完全予約制', 'アットホーム'],

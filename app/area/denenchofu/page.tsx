@@ -81,8 +81,7 @@ const studios = [
   },
   {
     name: 'Dr.ピラティス 田園調布店',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=Z11979O.1.Z164554L.U1357808',
-    image: '/images/studios/zen-place-pilates.webp', reviewCount: 72,
+    officialUrl: 'https://t.felmat.net/fmcl?ak=Z11979O.1.Z164554L.U1357808', reviewCount: 72,
     price: 'パーソナル 1回 8,800円〜', trial: '体験レッスンあり',
     features: ['駅徒歩30秒', '医学的アプローチ', 'パーソナル専門', '2025年オープン'],
     description: '2025年2月オープンのパーソナルピラティスジム。田園調布駅から徒歩30秒という最高の立地。医学的根拠に基づいたピラティスとトレーニングの二段階アプローチ。全米アスレティックトレーナーズ協会認定トレーナー在籍。',

@@ -22,7 +22,7 @@ export const metadata = {
 
 const studios = [
   {
-    name: 'ピラティス sloths（スロース）', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 25,
+    name: 'ピラティス sloths（スロース）', rating: 4.7, reviewCount: 25,
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['STOTT PILATES','名古屋最大級マシン数','グループ＆プライベート','瑞穂区'],
     description: '名古屋市瑞穂区のSTOTT PILATES認定スタジオ。名古屋最大級のマシン数を備えグループとプライベートの両方に対応',
     access: '八事エリア・瑞穂区（詳細は公式サイトでご確認ください）', address: '名古屋市瑞穂区（詳細は公式サイトでご確認ください）',
@@ -32,7 +32,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'アイレクス・ライト24+ 名古屋八事', image: '/images/studios/zen-place-pilates.webp', rating: 4.4, reviewCount: 55,
+    name: 'アイレクス・ライト24+ 名古屋八事', rating: 4.4, reviewCount: 55,
     price: '月額制（全プログラム参加可）', trial: '体験レッスンあり', features: ['24時間営業','ジム＆スタジオ','ピラティスプログラム','総合フィットネス'],
     description: '24時間営業の総合フィットネスクラブ。ピラティスやヨガのスタジオプログラムからジムエリアまで月額料金で全て参加可能',
     access: '地下鉄「八事駅」徒歩圏内', address: '名古屋市昭和区（詳細は公式サイトでご確認ください）',
@@ -42,7 +42,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'スタジオヴィータ', image: '/images/studios/zen-place-pilates.webp', rating: 4.5, reviewCount: 18,
+    name: 'スタジオヴィータ', rating: 4.5, reviewCount: 18,
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['0才〜80才対応','アットホーム','ピラティス・ヨガ・バレエ','八事エリア'],
     description: '0才から80才まで通うアットホームなスタジオ。ピラティス・ヨガ・バレエ・ストレッチなど多彩なレッスンを提供',
     access: '八事エリア（詳細は公式サイトでご確認ください）', address: '名古屋市（詳細は公式サイトでご確認ください）',
@@ -52,7 +52,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'Pilates Nag Studio 星が丘テラス店', image: '/images/studios/zen-place-pilates.webp', rating: 4.5, reviewCount: 45,
+    name: 'Pilates Nag Studio 星が丘テラス店', rating: 4.5, reviewCount: 45,
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['東海エリア初','全店相互利用','マシングループ専門','男女共用'],
     description: '東海エリア初のマシンピラティスグループレッスン専門スタジオ。八事から地下鉄で数分の星が丘テラス内',
     access: '東山線「星ヶ丘駅」直結（星が丘テラス内）', address: '名古屋市千種区 星が丘テラス内',

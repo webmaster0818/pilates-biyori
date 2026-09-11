@@ -35,8 +35,7 @@ const studios = [
     basicInfo: { hours: '月〜金 10:00〜20:00 / 土日祝 10:00〜16:00', closed: '不定休', facilities: ['リフォーマー', 'マット', 'ロッカー', '更衣室'] },
   },
   {
-    name: 'studio Pilates remove（ピラティス リムーブ）',
-    image: '/images/studios/pilates-kasane.webp', reviewCount: 86,
+    name: 'studio Pilates remove（ピラティス リムーブ）', reviewCount: 86,
     price: 'パーソナル 1回 8,500円〜', trial: '体験レッスンあり',
     features: ['パーソナル専門', '10種類以上のマシン', '豊中駅徒歩5分', '本格派'],
     description: 'プライベートレッスン専門のピラティススタジオ。阪急豊中駅から徒歩5分。日本では珍しいピラティスマシンを含む10種類以上・約25台を完備。マットからマシンまで基礎から丁寧に指導。北摂エリア屈指の設備充実度。',
@@ -61,8 +60,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'キャデラック', 'チェア', '更衣室'] },
   },
   {
-    name: 'STANCE（スタンス）豊中',
-    image: '/images/studios/the-silk.webp', reviewCount: 92,
+    name: 'STANCE（スタンス）豊中', reviewCount: 92,
     price: '月4回 8,800円〜', trial: '体験レッスンあり',
     features: ['女性専用', '曽根駅徒歩1分', '6人制少人数', 'ヨガ＆ピラティス'],
     description: '阪急宝塚線曽根駅から徒歩1分の女性専用スタジオ。グループレッスンは6人制の少人数で、周りを気にせず体を動かせる。ヨガとピラティスの両方のレッスンが受けられ、気分や目的に合わせて選べるのが魅力。',

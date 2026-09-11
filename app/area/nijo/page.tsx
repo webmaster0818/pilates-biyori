@@ -116,7 +116,6 @@ const studios = [
   },
   {
     name: 'SOU PILATES STUDIO（ソウピラティス）',
-    image: '/images/studios/club-pilates.webp',
     price: '要問い合わせ',
     trial: '体験レッスンあり',
     features: ['烏丸エリア', 'マシン専門', 'アライメント重視', 'パーソナル対応'],
@@ -147,7 +146,6 @@ const studios = [
   },
   {
     name: 'Pilates MUSE 京都四条大宮',
-    image: '/images/studios/pilates-mee.webp',
     price: '70分6チケット＋24h使い放題 61,000円',
     trial: '体験レッスンあり',
     features: ['四条大宮駅近', '女性専用', '24h使い放題', '有資格トレーナー'],

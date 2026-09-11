@@ -32,7 +32,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: '姿勢改善専門スタジオ ネコノビ', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 35,
+    name: '姿勢改善専門スタジオ ネコノビ', rating: 4.7, reviewCount: 35,
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['阪急伊丹駅徒歩1分','神経整体×ピラティス','猫背改善','肩こり対応'],
     description: '阪急伊丹駅徒歩1分。神経整体×ピラティスで猫背・反り腰・肩こり・腰痛などの慢性症状に対応する専門スタジオ',
     access: '阪急伊丹線「伊丹駅」徒歩1分', address: '兵庫県伊丹市（詳細は公式サイトでご確認ください）',
@@ -52,7 +52,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'ピラティスアヴニール 伊丹店', image: '/images/studios/zen-place-pilates.webp', rating: 4.6, reviewCount: 28,
+    name: 'ピラティスアヴニール 伊丹店', rating: 4.6, reviewCount: 28,
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['カスタマイズトレーニング','姿勢チェック','初心者〜上級者','丁寧な指導'],
     description: 'カウンセリング・姿勢チェック・姿勢分析を経て最適なトレーニングプランを立てるパーソナルピラティススタジオ',
     access: '伊丹市内（詳細は公式サイトでご確認ください）', address: '兵庫県伊丹市（詳細は公式サイトでご確認ください）',
@@ -62,7 +62,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'STAR Pilates（スターピラティス）伊丹', image: '/images/studios/zen-place-pilates.webp', rating: 4.5, reviewCount: 42,
+    name: 'STAR Pilates（スターピラティス）伊丹', rating: 4.5, reviewCount: 42,
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['女性専用','リフォーマー専門','少人数制10名','初心者向け'],
     description: '女性専用のマシンピラティススタジオ。リフォーマーを使った10名ほどの少人数制グループレッスンで初心者向けプログラムが豊富',
     access: '伊丹市内（詳細は公式サイトでご確認ください）', address: '兵庫県伊丹市（詳細は公式サイトでご確認ください）',

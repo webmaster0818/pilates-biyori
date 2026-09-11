@@ -72,7 +72,6 @@ const studios = [
   },
   {
     name: 'ザバススポーツクラブ和光',
-    image: '/images/studios/pilates-mirror.webp',
     price: '月額8,000円〜（施設利用料込）',
     trial: '体験レッスンあり',
     features: ['総合スポーツクラブ', 'マットピラティス', '豊富なプログラム', 'プール・ジム併設'],

@@ -114,7 +114,6 @@ const studios = [
   },
   {
     name: 'PERSONAL TRAINING STUDIO U 府中女性専門店',
-    image: '/images/studios/element.webp',
     price: '月2回 22,000円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', '府中駅徒歩3分', '完全個室', 'パーソナル'],

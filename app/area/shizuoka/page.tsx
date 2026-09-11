@@ -22,7 +22,7 @@ export const metadata = {
 const studios = [
   {
     name: 'pilates KASANE 静岡店',
-    image: '/images/studios/pilates-k.webp',
+    image: '/images/studios/pilates-kasane.webp',
     price: '要問合せ',
     trial: '体験レッスン あり（手ぶらOK）',
     features: ['少人数制', '表参道・松戸展開', '健康美を引き出す', '丁寧な指導'],

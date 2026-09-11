@@ -104,7 +104,6 @@ const studios = [
   },
   {
     name: 'NeBoMo ピラティススタジオ',
-    image: '/images/studios/zen-place-pilates.webp',
     price: 'レッスン料は公式サイトでご確認ください',
     trial: '体験レッスンあり',
     features: ['少人数制', '丁寧な指導', 'アットホーム', '草加地域密着'],
@@ -130,7 +129,6 @@ const studios = [
   },
   {
     name: 'La pilates 草加店',
-    image: '/images/studios/pilates-mirror.webp',
     price: 'レッスン料は公式サイトでご確認ください',
     trial: '体験レッスンあり',
     features: ['整体×ピラティス', '駅徒歩3分', '根本改善', '体の不調対応'],

@@ -29,7 +29,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'K Plus Pilates', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 20,
+    name: 'K Plus Pilates', rating: 4.7, reviewCount: 20,
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['長野駅徒歩5分','完全個室','最新マシン','パーソナル'],
     description: '長野駅から徒歩5分のパーソナルピラティススタジオ。完全個室で最新のマシンを導入し効果的なトレーニングを実現',
     access: 'JR「長野駅」徒歩5分', address: '長野県長野市（詳細は公式サイトでご確認ください）',

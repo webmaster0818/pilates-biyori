@@ -118,7 +118,6 @@ const studios = [
   },
   {
     name: 'AND STUDIO（アンドスタジオ）金沢',
-    image: '/images/studios/pilates-studio-dep.webp',
     price: '月額 8,680円〜',
     trial: '体験レッスンあり',
     features: ['通い放題あり', '20名の講師', 'ヨガ＆ピラティス', '最安級'],
@@ -149,7 +148,6 @@ const studios = [
   },
   {
     name: 'ピラティス教室Hirameき',
-    image: '/images/studios/pilates-studio-dep.webp',
     price: '月4回 6,000円',
     trial: '体験レッスンあり',
     features: ['少人数制8名', '入会金なし', '月謝6,000円', 'アットホーム'],

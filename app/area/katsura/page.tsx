@@ -84,7 +84,6 @@ const studios = [
   },
   {
     name: 'Studio ViV（スタジオヴィヴ）',
-    image: '/images/studios/studio-ivy.webp',
     price: '入会金・年会費 0円',
     trial: '体験レッスンあり',
     features: ['桂駅西口徒歩2分', '理学療法士指導', '6種類マシン完備', '入会金0円'],

@@ -53,7 +53,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'ピラティスアヴニール 尼崎武庫之荘店', image: '/images/studios/zen-place-pilates.webp', rating: 4.6, reviewCount: 30,
+    name: 'ピラティスアヴニール 尼崎武庫之荘店', rating: 4.6, reviewCount: 30,
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['キッズスペース付き','完全個室','医療国家資格保有','子連れOK'],
     description: 'キッズスペース付き完全個室を完備。医療国家資格を持つ実績豊富なトレーナーが個々に合ったトレーニングを提供',
     access: '阪急「武庫之荘駅」徒歩圏内', address: '兵庫県尼崎市武庫之荘（詳細は公式サイトでご確認ください）',
@@ -63,7 +63,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'SynerGym（シナジム）塚口本店', image: '/images/studios/zen-place-pilates.webp', rating: 4.4, reviewCount: 55,
+    name: 'SynerGym（シナジム）塚口本店', rating: 4.4, reviewCount: 55,
     price: '月額 16,500円（通い放題）', trial: '体験レッスンあり', features: ['マシンピラティス受け放題','最安級','ジム併設','塚口駅近く'],
     description: 'マシンピラティス受け放題が月額16,500円で尼崎エリア最安級。ジムも併設されており総合的にボディメイクが可能',
     access: '阪急「塚口駅」徒歩圏内', address: '兵庫県尼崎市（詳細は公式サイトでご確認ください）',

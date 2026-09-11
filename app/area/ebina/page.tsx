@@ -88,7 +88,6 @@ const studios = [
   },
   {
     name: 'RINNE 海老名スタジオ',
-    image: '/images/studios/pilates-mee.webp',
     price: '1回 7,700円〜',
     trial: '体験レッスンあり',
     features: ['パーソナル専門', '2026年オープン', 'マンツーマン', '新築スタジオ'],
@@ -119,7 +118,6 @@ const studios = [
   },
   {
     name: 'スポーツクラブ ルネサンス 海老名',
-    image: '/images/studios/pilates-mirror.webp',
     price: '月額 8,800円〜',
     trial: '体験あり',
     features: ['総合スポーツクラブ', 'プール・ジム併設', '少人数制', '多彩なプログラム'],

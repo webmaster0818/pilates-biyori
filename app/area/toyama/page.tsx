@@ -49,7 +49,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'PAW（パウ）富山店', image: '/images/studios/zen-place-pilates.webp', rating: 4.5, reviewCount: 35,
+    name: 'PAW（パウ）富山店', rating: 4.5, reviewCount: 35,
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['女性専用','24時間フィットネス','ピラティス×ワークアウト','姿勢改善'],
     description: '女性専用の24時間フィットネスジム。ピラティスとワークアウトを組み合わせ姿勢改善や脂肪燃焼をサポート',
     access: '富山市内（詳細は公式サイトでご確認ください）', address: '富山県富山市（詳細は公式サイトでご確認ください）',

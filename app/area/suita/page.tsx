@@ -48,8 +48,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', '整体ベッド', '完全個室', '更衣室'] },
   },
   {
-    name: 'ピラティス コアセンス 千里丘',
-    image: '/images/studios/pilates-kasane.webp', reviewCount: 78,
+    name: 'ピラティス コアセンス 千里丘', reviewCount: 78,
     price: 'パーソナル 1回 7,000円〜', trial: '体験レッスンあり',
     features: ['千里丘駅前', 'パーソナル専門', '2025年リニューアル', '子ども対応'],
     description: '2025年リニューアルオープンしたパーソナルピラティス＆トレーニングスタジオ。千里丘駅前の好立地。マシンピラティスのパーソナルレッスンで肩こり・腰痛改善から体幹強化まで対応。小学生の体幹トレーニングにも対応。',

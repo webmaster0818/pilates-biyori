@@ -86,8 +86,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', '更衣室', 'ロッカー', 'パウダールーム'] },
   },
   {
-    name: 'STUDIO TOU（スタジオトウ）京橋',
-    image: '/images/studios/zen-place-pilates.webp', reviewCount: 72,
+    name: 'STUDIO TOU（スタジオトウ）京橋', reviewCount: 72,
     price: '月4回 10,000円〜', trial: '体験レッスンあり',
     features: ['グループ＆プライベート', '男性OK', 'チケット制あり', 'アットホーム'],
     description: '京橋エリアのピラティス専門スタジオ。グループレッスンとプライベートレッスンの両方に対応。月謝制・チケット制と柔軟な料金体系で通いやすい。男女問わず利用可能で、アットホームな雰囲気の中で丁寧な指導を受けられる。',

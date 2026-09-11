@@ -29,7 +29,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'LIFEMAKE Pilates 岐阜駅前店', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 28,
+    name: 'LIFEMAKE Pilates 岐阜駅前店', rating: 4.7, reviewCount: 28,
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['岐阜駅徒歩10分','理学療法士監修','完全個室','パーソナル'],
     description: '岐阜駅から徒歩約10分のパーソナルマシンピラティススタジオ。理学療法士監修で完全個室の集中しやすい環境',
     access: 'JR「岐阜駅」徒歩約10分', address: '岐阜県岐阜市（詳細は公式サイトでご確認ください）',
@@ -60,7 +60,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'ピラティススタジオn', image: '/images/studios/zen-place-pilates.webp', rating: 4.6, reviewCount: 15,
+    name: 'ピラティススタジオn', rating: 4.6, reviewCount: 15,
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['パーソナル専門','整骨院併設','姿勢改善','体の不調対応'],
     description: '整骨院併設のパーソナルピラティススタジオ。体の不調にも対応できる専門的な指導が特徴',
     access: '岐阜市内（詳細は公式サイトでご確認ください）', address: '岐阜県岐阜市（詳細は公式サイトでご確認ください）',

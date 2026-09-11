@@ -76,8 +76,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'ミラー', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'なちゅーるピラティススタジオ',
-    image: '/images/studios/pilates-kasane.webp', reviewCount: 65,
+    name: 'なちゅーるピラティススタジオ', reviewCount: 65,
     price: 'パーソナル 1回 7,200円〜', trial: '体験レッスン 7,000円',
     features: ['完全マンツーマン', '肩こり・腰痛改善', '産前産後対応', 'アットホーム'],
     description: '高槻の完全マンツーマンパーソナルピラティススタジオ。肩こりや腰痛を抱える方、産前産後の体力づくりなど、目的に合わせて丁寧な指導を提供。完全プライベートで自分と向き合いながらレッスンに集中できる環境。',

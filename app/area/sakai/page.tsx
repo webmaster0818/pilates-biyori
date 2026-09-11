@@ -34,7 +34,6 @@ const studios = [
   },
   {
     name: 'スリールピラティス',
-    image: '/images/studios/zen-place-pilates.webp',
     price: 'パーソナル制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['完全個室', '女性専用', '堺駅徒歩2分', 'マンツーマン'],
@@ -48,7 +47,6 @@ const studios = [
   },
   {
     name: 'Ciao! Pilates アクロスモール泉北店',
-    image: '/images/studios/zen-place-pilates.webp',
     price: '月額制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['女性専用', '加圧BFR', 'マシンピラティス', 'アクロスモール内'],
@@ -76,7 +74,6 @@ const studios = [
   },
   {
     name: 'Pilates Studio Lusso',
-    image: '/images/studios/zen-place-pilates.webp',
     price: 'パーソナル制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['完全予約制', '女性専用', 'マンツーマン', '鍼灸院併設'],

@@ -48,7 +48,7 @@ const studios = [
     },
   },
   {
-    name: 'ピラティス&ジム 1to1 一宮店', image: '/images/studios/zen-place-pilates.webp', rating: 4.6, reviewCount: 25,
+    name: 'ピラティス&ジム 1to1 一宮店', rating: 4.6, reviewCount: 25,
     price: '月4回 6,600円〜', trial: '体験レッスンあり', features: ['月4回6,600円〜','完全個室','女性専用','マシンピラティス×ゆるトレ'],
     description: '女性専用完全個室のボディメイクスタジオ。マシンピラティスと「ゆるトレ」を融合。月額6,600円〜とリーズナブル',
     access: '一宮市内（詳細は公式サイトでご確認ください）', address: '愛知県一宮市（詳細は公式サイトでご確認ください）',
@@ -58,7 +58,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'Pilates cocowa', image: '/images/studios/zen-place-pilates.webp', rating: 4.5, reviewCount: 18,
+    name: 'Pilates cocowa', rating: 4.5, reviewCount: 18,
     price: '回数券制 1回1,200円〜', trial: '体験レッスンあり', features: ['1回1,200円〜','子連れ対応','マットピラティス','リーズナブル'],
     description: 'マットピラティスのグループレッスンを中心に展開するリーズナブルなスタジオ。回数券制で1回1,200円〜と通いやすい',
     access: '一宮市九品町エリア', address: '愛知県一宮市九品町',
@@ -88,7 +88,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'パーソナルマシンピラティス 一宮', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 10,
+    name: 'パーソナルマシンピラティス 一宮', rating: 4.7, reviewCount: 10,
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['完全予約制','パーソナル専門','妙興寺駅近く','カスタマイズ'],
     description: '完全予約制のパーソナル専門マシンピラティススタジオ。一人ひとりの体に合わせたカスタマイズレッスン',
     access: '名鉄「妙興寺駅」車7分', address: '愛知県一宮市（詳細は公式サイトでご確認ください）',

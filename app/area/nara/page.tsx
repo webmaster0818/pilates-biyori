@@ -34,7 +34,6 @@ const studios = [
   },
   {
     name: 'ピラティススタジオDEP 奈良店',
-    image: '/images/studios/zen-place-pilates.webp',
     price: 'パーソナル制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['理学療法士監修', '完全個室', '24時間サポート', 'マシン専門'],
@@ -48,7 +47,6 @@ const studios = [
   },
   {
     name: 'studio Kulah（スタジオクーラ）',
-    image: '/images/studios/zen-place-pilates.webp',
     price: '月額制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['学園前駅徒歩4分', '少人数制', 'ヨガ併設', 'プライベートあり'],
@@ -62,7 +60,6 @@ const studios = [
   },
   {
     name: 'Pilates butterfly',
-    image: '/images/studios/zen-place-pilates.webp',
     price: 'パーソナル制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['近鉄奈良駅徒歩3分', '女性専用', '完全予約制', 'プライベート'],
@@ -76,7 +73,6 @@ const studios = [
   },
   {
     name: 'GRANDY PILATES STUDIO 学園前店',
-    image: '/images/studios/zen-place-pilates.webp',
     price: 'パーソナル制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['プライベート専門', 'マシン＆マット', '男性OK', '子連れ歓迎'],

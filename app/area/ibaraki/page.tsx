@@ -35,7 +35,6 @@ const studios = [
   },
   {
     name: 'ma-eum（マウム）ピラティス JR茨木店',
-    image: '/images/studios/zen-place-pilates.webp',
     price: '月額制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['医療系国家資格保有', 'JR茨木駅徒歩3分', '3パターンのレッスン', '2店舗展開'],
@@ -49,7 +48,6 @@ const studios = [
   },
   {
     name: 'VITARISE（ビタライズ）茨木店',
-    image: '/images/studios/zen-place-pilates.webp',
     price: 'パーソナル制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['理学療法士在籍', '整形外科提携', 'メディカル対応', '南茨木駅近く'],

@@ -46,7 +46,6 @@ const studios = [
   },
   {
     name: 'Lucio 中央林間店',
-    image: '/images/studios/element.webp',
     price: 'パーソナルレッスン（公式サイトで確認）',
     trial: '体験レッスンあり',
     features: ['完全個室パーソナル', '2026年1月OPEN', '駅徒歩2分', 'オーダーメイド'],
@@ -72,7 +71,6 @@ const studios = [
   },
   {
     name: 'INSIGHT ピラティス＆トレーニング 中央林間',
-    image: '/images/studios/zen-place-pilates.webp',
     price: 'レッスン料は公式サイトでご確認ください',
     trial: '体験レッスンあり',
     features: ['理学療法士監修', 'マシンピラティス', '根本改善', '肩こり・腰痛対応'],
@@ -98,7 +96,6 @@ const studios = [
   },
   {
     name: 'LAVA 中央林間店',
-    image: '/images/studios/rintosull.webp',
     price: '月額8,800円〜',
     trial: '体験レッスンあり',
     features: ['ホットヨガ&ピラティス', '全国展開大手', '豊富なプログラム', '初心者歓迎'],

@@ -20,7 +20,6 @@ export const metadata = {
 const studios = [
   {
     name: 'Le Mieux（ルミュー）',
-    image: '/images/studios/element.webp',
     price: 'プライベートレッスン（公式サイトで確認）',
     trial: '体験レッスンあり',
     features: ['プライベート専門', '駅徒歩1分', '保健体育教諭資格', 'マシン&マット'],
@@ -46,7 +45,6 @@ const studios = [
   },
   {
     name: 'さんはぴ 春日部店（2026年5月OPEN）',
-    image: '/images/studios/zen-place-pilates.webp',
     price: 'パーソナルレッスン（公式サイトで確認）',
     trial: '体験レッスンあり',
     features: ['2026年5月OPEN', '完全個室パーソナル', '手ぶらOK', '40〜60代にも人気'],
@@ -98,7 +96,6 @@ const studios = [
   },
   {
     name: 'Renne（レン）ピラティススタジオ',
-    image: '/images/studios/pilates-mirror.webp',
     price: 'プライベートレッスン（公式サイトで確認）',
     trial: '体験レッスンあり',
     features: ['完全予約制', 'プライベート中心', 'マット&マシン併用', '運動初心者歓迎'],

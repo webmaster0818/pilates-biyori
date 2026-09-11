@@ -46,7 +46,6 @@ const studios = [
   },
   {
     name: 'さんはぴ ふじみ野店',
-    image: '/images/studios/element.webp',
     price: 'パーソナルレッスン（公式サイトで確認）',
     trial: '体験レッスンあり',
     features: ['完全個室', 'お子様同伴OK', '手ぶらOK', '駅徒歩5分'],
@@ -72,7 +71,6 @@ const studios = [
   },
   {
     name: 'ホットヨガロイブ ふじみ野店',
-    image: '/images/studios/rintosull.webp',
     price: '月額8,910円〜',
     trial: '手ぶら体験 0円',
     features: ['女性専用', 'ヨガ&ピラティス', '手ぶら体験0円', 'トナリエ内'],

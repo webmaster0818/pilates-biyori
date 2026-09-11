@@ -86,7 +86,6 @@ const studios = [
   },
   {
     name: 'STUDIO BRAVE（スタジオブレイブ）',
-    image: '/images/studios/zen-place-pilates.webp',
     price: '要問い合わせ',
     trial: '体験レッスンあり',
     features: ['初心者歓迎', '少人数制', 'ピラティス＆ヨガ', '目的別レッスン'],
@@ -117,7 +116,6 @@ const studios = [
   },
   {
     name: 'Studio douce（スタジオドゥース）',
-    image: '/images/studios/pilates-studio-dep.webp',
     price: '入会費・更新費 0円',
     trial: '体験レッスンあり',
     features: ['理学療法士指導', '入会費0円', 'リーズナブル', '腰痛改善'],
@@ -148,7 +146,6 @@ const studios = [
   },
   {
     name: 'ラピラティス 神戸元町店',
-    image: '/images/studios/rintosull.webp',
     price: '要問い合わせ',
     trial: '体験レッスンあり',
     features: ['整体×ピラティス', '元町駅近', '体の歪み改善', 'マシンピラティス'],

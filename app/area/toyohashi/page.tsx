@@ -32,7 +32,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'Share of Pilates', image: '/images/studios/zen-place-pilates.webp', rating: 4.6, reviewCount: 30,
+    name: 'Share of Pilates', rating: 4.6, reviewCount: 30,
     price: '1回 1,870円〜', trial: '体験レッスン 1,100円', features: ['NYスタイル','マシン専用','1回1,870円〜','体験1,100円'],
     description: 'NYスタイルのマシン専用ピラティススタジオ。1回1,870円〜とリーズナブルで体験レッスンは1,100円',
     access: '豊橋市内（詳細は公式サイトでご確認ください）', address: '愛知県豊橋市（詳細は公式サイトでご確認ください）',

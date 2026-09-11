@@ -42,7 +42,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'Mstyle（エムスタイル）ピラティス', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 28,
+    name: 'Mstyle（エムスタイル）ピラティス', rating: 4.7, reviewCount: 28,
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['助産師資格保有','はりま勝原駅近く','女性専門','マシン完備'],
     description: '姫路市初のピラティス専用マシン完備の専門スタジオ。代表は助産師の資格を持つインストラクターで女性のライフステージに寄り添った指導が特徴',
     access: 'JR「はりま勝原駅」徒歩圏内', address: '兵庫県姫路市（詳細は公式サイトでご確認ください）',
@@ -52,7 +52,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'ピラティススタジオ Rinc', image: '/images/studios/zen-place-pilates.webp', rating: 4.6, reviewCount: 18,
+    name: 'ピラティススタジオ Rinc', rating: 4.6, reviewCount: 18,
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['本格PHIピラティス','ペアレッスン可','アメリカ輸入マシン','姿勢改善'],
     description: 'アメリカから輸入した本格マシンを使用する姫路のピラティススタジオ。PHIピラティスの本格的なレッスンとペアレッスンも可能',
     access: '姫路市内（詳細は公式サイトでご確認ください）', address: '兵庫県姫路市（詳細は公式サイトでご確認ください）',
@@ -62,7 +62,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'TONING UP', image: '/images/studios/zen-place-pilates.webp', rating: 4.5, reviewCount: 15,
+    name: 'TONING UP', rating: 4.5, reviewCount: 15,
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['最大6名少人数制','レベル別クラス','プライベートあり','姫路駅近く'],
     description: 'グループレッスン最大6名の少人数制スタジオ。レベル別・効果別など様々なスタイルでレッスンを提供',
     access: '姫路市内（詳細は公式サイトでご確認ください）', address: '兵庫県姫路市（詳細は公式サイトでご確認ください）',

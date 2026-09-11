@@ -116,7 +116,6 @@ const studios = [
   },
   {
     name: 'スポーツクラブ ルネサンス 北朝霞24',
-    image: '/images/studios/pilates-mirror.webp',
     price: '月額 8,800円〜',
     trial: '体験あり',
     features: ['24時間営業', '総合スポーツクラブ', 'プール・温浴付き', '約50プログラム'],

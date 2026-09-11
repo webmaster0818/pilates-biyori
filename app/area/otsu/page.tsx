@@ -34,7 +34,6 @@ const studios = [
   },
   {
     name: 'B.walk（ビーウォーク）瀬田店',
-    image: '/images/studios/zen-place-pilates.webp',
     price: 'パーソナル制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['瀬田駅徒歩3分', '完全個室', '女性専用', 'ヨガ併設'],
@@ -62,7 +61,6 @@ const studios = [
   },
   {
     name: '美ボディクラブ紬',
-    image: '/images/studios/zen-place-pilates.webp',
     price: '月額制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['初心者歓迎', 'マットピラティス', '補助具使用', 'アットホーム'],

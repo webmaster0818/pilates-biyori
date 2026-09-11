@@ -81,7 +81,6 @@ const studios = [
   },
   {
     name: 'PALES（パレス）宝塚店',
-    image: '/images/studios/zen-place-pilates.webp',
     price: '月額 要問い合わせ',
     trial: '体験レッスン 無料（キャンペーン中）',
     features: ['宝塚南口駅徒歩6分', 'ピラティス＋トレーニング', '駐車場無料', '姿勢改善特化'],
@@ -112,7 +111,6 @@ const studios = [
   },
   {
     name: 'studio Y i-grek（スタジオイグレック）',
-    image: '/images/studios/club-pilates.webp',
     price: '1回 要問い合わせ',
     trial: '体験レッスンあり（要問い合わせ）',
     features: ['宝塚南口駅徒歩5分', '完全予約制', 'バレエ向けピラティス', 'オーダーメイド'],
@@ -143,7 +141,6 @@ const studios = [
   },
   {
     name: 'マシンピラティスサロン Jiku',
-    image: '/images/studios/pilates-mee.webp',
     price: '要問い合わせ',
     trial: '体験レッスンあり',
     features: ['女性専用', '完全個室', '初心者専門', 'パーソナル'],
@@ -174,7 +171,6 @@ const studios = [
   },
   {
     name: 'PILATES AURA（ピラティスアウラ）宝塚',
-    image: '/images/studios/rintosull.webp',
     price: '要問い合わせ',
     trial: '体験レッスンあり',
     features: ['宝塚南口駅徒歩6分', 'アットホーム', '少人数制', 'マシンピラティス'],
@@ -205,7 +201,6 @@ const studios = [
   },
   {
     name: 'むすびピラティス宝塚',
-    image: '/images/studios/pilates-studio-dep.webp',
     price: '要問い合わせ',
     trial: '体験レッスンあり（要問い合わせ）',
     features: ['女性専用', 'ボディメイク専門', 'マスターストレッチ', '完全予約制'],

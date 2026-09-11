@@ -29,7 +29,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'Two Three ピラティススタジオ明石', image: '/images/studios/zen-place-pilates.webp', rating: 4.6, reviewCount: 25,
+    name: 'Two Three ピラティススタジオ明石', rating: 4.6, reviewCount: 25,
     price: '1回 3,850円〜', trial: '体験レッスン 3,300円', features: ['プライベート＆グループ','マシンピラティス','明石駅近く','丁寧な指導'],
     description: 'プライベートレッスンとグループレッスンを提供するマシンピラティススタジオ。体験レッスン3,300円で気軽に始められる',
     access: 'JR「明石駅」徒歩圏内', address: '兵庫県明石市（詳細は公式サイトでご確認ください）',
@@ -49,7 +49,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'ふたつき ピラティス', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 20,
+    name: 'ふたつき ピラティス', rating: 4.7, reviewCount: 20,
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['理学療法士運営','マンツーマン','痛み改善','少人数制'],
     description: '理学療法士が運営するピラティススタジオ。体の仕組みを理解した指導で肩こりや腰痛、姿勢の悩みを抱える方も安心してトレーニング可能',
     access: '明石市内（詳細は公式サイトでご確認ください）', address: '兵庫県明石市（詳細は公式サイトでご確認ください）',
@@ -59,7 +59,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'Pilates base Irori. 明石店', image: '/images/studios/zen-place-pilates.webp', rating: 4.5, reviewCount: 12,
+    name: 'Pilates base Irori. 明石店', rating: 4.5, reviewCount: 12,
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['女性専用','マシン＆マット','兵庫初出店','2号線沿い'],
     description: '大阪・奈良に複数店舗を展開する女性専用ピラティススタジオの兵庫県初出店。マシンピラティスとマットピラティスの両方に対応',
     access: '国道2号線沿い樽屋町', address: '兵庫県明石市樽屋町',

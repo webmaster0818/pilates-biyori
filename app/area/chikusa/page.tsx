@@ -19,7 +19,7 @@ export const metadata = {
 
 const studios = [
   {
-    name: 'STUDIO LUNA', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 35,
+    name: 'STUDIO LUNA', rating: 4.7, reviewCount: 35,
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['池下駅徒歩1分','女性専用','医療国家資格保有','助産師監修'],
     description: '池下駅徒歩1分の女性専用ピラティススタジオ。医療国家資格と国際基準資格を持つインストラクターが指導。助産師監修',
     access: '名古屋市営地下鉄東山線「池下駅」徒歩1分', address: '名古屋市千種区（詳細は公式サイトでご確認ください）',
@@ -49,7 +49,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'Pilates Arts（ピラティスアーツ）', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 20,
+    name: 'Pilates Arts（ピラティスアーツ）', rating: 4.7, reviewCount: 20,
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['池下町','世界基準','ピラティス専門','本格指導'],
     description: '名古屋市千種区池下町にある世界基準のピラティス専門スタジオ。本格的なピラティス指導が受けられる',
     access: '東山線「池下駅」徒歩圏内', address: '名古屋市千種区池下町',
@@ -59,7 +59,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'Atelier Arl（アトリエアール）', image: '/images/studios/zen-place-pilates.webp', rating: 4.5, reviewCount: 15,
+    name: 'Atelier Arl（アトリエアール）', rating: 4.5, reviewCount: 15,
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['マシンピラティス','サウナ併設','今池駅近く','リラクゼーション'],
     description: 'マシンピラティスとサウナを備えたスタジオ。今池駅近くでピラティスとリラクゼーションの両方を楽しめる',
     access: '東山線「今池駅」徒歩圏内', address: '名古屋市千種区（詳細は公式サイトでご確認ください）',

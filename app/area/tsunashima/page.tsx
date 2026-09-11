@@ -46,8 +46,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'FlexFit ピラティス・ワークアウト 綱島',
-    image: '/images/studios/element.webp', reviewCount: 58,
+    name: 'FlexFit ピラティス・ワークアウト 綱島', reviewCount: 58,
     price: 'レッスン料は公式サイトでご確認ください', trial: '体験レッスンあり',
     features: ['駅徒歩30秒', 'ピラティス×ウェイト', 'AI姿勢分析', '全員有資格者'],
     description: '綱島駅から徒歩30秒の好立地。ピラティス×ウェイトトレーニングの複合プログラムが特徴。リフォーマー・キャデラック・チェアなど多彩なマシン完備。全員有資格のインストラクターとAI姿勢分析で科学的にボディメイク。',
@@ -59,8 +58,7 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'キャデラック', 'チェア', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'STUDIO TT 綱島店',
-    image: '/images/studios/zen-place-pilates.webp', reviewCount: 48,
+    name: 'STUDIO TT 綱島店', reviewCount: 48,
     price: 'レッスン料は公式サイトでご確認ください', trial: '体験レッスン 1,100円',
     features: ['木目調の落ち着く空間', '体験1,100円', '少人数制', 'アットホーム'],
     description: '木目調の落ち着いた雰囲気のピラティススタジオ。少人数制のレッスンで一人ひとりに合わせた丁寧な指導が特徴。体験レッスン1,100円でリーズナブルに試せます。アットホームな空間で初心者も安心。',
