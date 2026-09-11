@@ -339,6 +339,16 @@
       "access": "東急田園都市線「駒沢大学駅」東口 徒歩5分",
       "areaSlug": "yoga-komazawa",
       "areaName": "用賀・駒沢"
+    },
+    {
+      "name": "ELEMENT 代々木店",
+      "price": "月4回 22,000円〜（税込）",
+      "trial": "体験トレーニング 3,300円（当日入会で無料）",
+      "officialUrl": "https://t.felmat.net/fmcl?ak=U11199J.1.V154352I.U1357808",
+      "address": "〒151-0053 東京都渋谷区代々木2丁目26-1 1桑野ビル 3階 3C号室",
+      "access": "JR山手線・中央総武線／都営大江戸線「代々木駅」徒歩5分 / 「南新宿駅」徒歩4分 / 「新宿駅」徒歩7分",
+      "areaSlug": "yoyogi",
+      "areaName": "代々木"
     }
   ],
   "urban-classic": [

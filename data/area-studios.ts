@@ -430,18 +430,6 @@ export const areaStudios: Record<string, AreaData> = {
         address: '福島県福島市黒岩字中沖42-2(LAVA福島黒岩店内)',
       },
       {
-        name: 'ELEMENTピラティス 福島店',
-        image: '/images/studios/kosupapilates-fukushima.webp',
-        rating: 4.3,
-        price: '月4回 22,000円～通い放題 55,000円',
-        trial: '体験 3,300円',
-        features: ['マシンピラティス通い放題', 'マンツーマン指導', '手ぶらOK'],
-        description:
-          'マシンピラティスの通い放題型ジム。ウェア・タオル・ドリンク・プロテインが無料レンタル。マンツーマン指導。',
-        access: '福島駅から車で8分',
-        address: '福島県福島市鳥谷野字岩田52-1',
-      },
-      {
         name: 'Pilates room PEONIA',
         image: '/images/studios/select-type-fukushima.webp',
         rating: 4.4,
