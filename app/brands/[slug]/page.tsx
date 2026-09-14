@@ -262,6 +262,14 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                   {/* eslint-enable @next/next/no-img-element */}
                 </div>
               )}
+              {brand.slug === 'the-silk' && (
+                <div className="mt-6 flex flex-col items-center gap-4">
+                  {/* eslint-disable @next/next/no-img-element */}
+                  {/* CTAテキストリンク(E162842X)のインプレッション計測 */}
+                  <img src="https://t.felmat.net/fmimp/X10489B.E162842X.U1357808" width={1} height={1} alt="" style={{ border: 'none' }} />
+                  {/* eslint-enable @next/next/no-img-element */}
+                </div>
+              )}
               {brand.slug === '24-7pilates' && (
                 <div className="mt-6 flex flex-col items-center gap-4">
                   {/* eslint-disable @next/next/no-img-element */}
