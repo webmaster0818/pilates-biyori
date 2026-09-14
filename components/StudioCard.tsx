@@ -15,6 +15,9 @@ type Review = {
 type Studio = {
   name: string
   officialUrl?: string
+  /** 相互リンクの取り決めで、通常リンク（rel に sponsored を付けない）にする店舗だけ true。
+   *  ⚠️ アフィリエイトリンクを設置している店舗には付けないこと（広告表示の観点で sponsored が必要）。 */
+  dofollow?: boolean
   image?: string
   rating?: number
   reviewCount?: number
@@ -377,7 +380,7 @@ export function StudioCard({ studio, index }: StudioCardProps) {
             <a
               href={studio.officialUrl || `https://www.google.com/search?q=${encodeURIComponent(`${studio.name.replace(/（[^）]*）/g, '').trim()} ピラティス 公式サイト`)}`}
               target="_blank"
-              rel={studio.officialUrl ? 'noopener noreferrer sponsored' : 'noopener noreferrer'}
+              rel={studio.officialUrl && !studio.dofollow ? 'noopener noreferrer sponsored' : 'noopener noreferrer'}
               className="inline-block bg-warm-800 text-white px-6 py-2 rounded text-sm hover:bg-warm-900 transition"
             >
               公式サイトを見てみる
