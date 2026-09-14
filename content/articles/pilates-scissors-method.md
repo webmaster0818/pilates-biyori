@@ -9,7 +9,7 @@ tags:
   - "コア"
   - "中級"
 publishedAt: "2026-08-17"
-updatedAt: "2026-09-11"
+updatedAt: "2026-09-14"
 author: "編集部"
 keywords:
   - "ピラティス シザーズ"

@@ -93,8 +93,8 @@ const studios = [
     trial: '体験レッスンあり',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
     description: '西荻窪でパーソナルorセミパーソナルピラティスを探しているなら、第一の選択肢となるスタジオ。最大3名・女性専用スタジオなので価格とクオリティの両方を兼ね備えています。セミパーソナルなので、グループレッスンより丁寧な指導が受けられ、パーソナルより手頃な価格で通えます。少人数制なので一人ひとりしっかり見てもらえるのが魅力です。',
-    access: '西荻窪駅より徒歩圏内',
-    address: '東京都杉並区（西荻窪エリア、詳細住所は公式サイト参照）',
+    access: '西荻窪駅 徒歩2分',
+    address: '〒167-0042 東京都杉並区西荻北2丁目3−1 シンセンビル201',
     popularPlan: {
       name: 'セミパーソナルレッスン',
       description: '最大3名のセミパーソナル指導',
@@ -293,7 +293,7 @@ export default function NishiOgikuboAreaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月14日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス西荻窪おすすめ7選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！

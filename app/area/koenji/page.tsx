@@ -62,8 +62,8 @@ const studios = [
     trial: '体験レッスンあり（詳細は公式サイト）',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
     description: '女性限定のセミパーソナル形式マシンピラティススタジオ。最大3名の超少人数制で、パーソナルに近い丁寧な指導を受けられます。月4回11,000円〜と手頃な価格帯で、高円寺エリアでコスパよくマシンピラティスを始めたい女性におすすめ。',
-    access: 'JR中央線・総武線「高円寺駅」周辺',
-    address: '東京都杉並区高円寺エリア（詳細は公式サイトでご確認ください）',
+    access: '高円寺駅 徒歩5分',
+    address: '〒166-0002 東京都杉並区高円寺北3丁目35-3 アーバネスト高円寺 100号室',
     popularPlan: {
       name: 'セミパーソナル月4回',
       description: '最大3名のセミパーソナルマシンピラティス。女性限定の安心空間。',
@@ -428,7 +428,7 @@ export default function KoenjiPage() {
         {/* Hero */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月14日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026年7月最新】ピラティス高円寺おすすめ12選！
               <br className="hidden md:block" />

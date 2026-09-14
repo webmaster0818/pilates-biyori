@@ -362,6 +362,34 @@ const studios = [
     },
 
   },
+  {
+    name: 'Pilates Mee新中野店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
+    image: '/images/studios/pilates-mee.webp',
+    price: 'セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）',
+    trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
+    features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
+    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。新中野駅から徒歩2分。',
+    access: '新中野駅 徒歩2分',
+    address: '〒164-0012 東京都中野区本町4-21-8 八木ビル2B',
+    options: [
+      'セミパーソナル 月2回 11,000円（1回5,500円・税込）',
+      'セミパーソナル 月4回 19,800円（1回4,950円・税込）',
+      'パーソナル 月2回 22,000円／月4回 39,600円（税込）',
+      '体験当日の入会で入会金 33,000円 → 0円',
+      '体験当日の入会で月会費がずっと10%OFF（セミパーソナル月4回 17,600円）',
+    ],
+    userProfile: {
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性100%（女性専用）',
+      purpose: ['ボディメイク', '姿勢改善', '柔軟性向上', 'ダイエット'],
+    },
+    basicInfo: {
+      hours: '9:00〜21:15',
+      closed: '不定休',
+      facilities: ['女性専用トイレ', '着替えスペース', '全身鏡'],
+    },
+  },
 ]
 
 const faqs = [
@@ -430,7 +458,7 @@ export default function NakanoPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月14日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス中野おすすめ12選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！

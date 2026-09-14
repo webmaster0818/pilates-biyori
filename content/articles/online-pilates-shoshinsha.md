@@ -8,7 +8,7 @@ tags:
   - "初心者"
   - "始め方"
 publishedAt: "2026-06-12"
-updatedAt: "2026-09-11"
+updatedAt: "2026-09-14"
 author: "編集部"
 keywords:
   - "オンラインピラティス 始め方"

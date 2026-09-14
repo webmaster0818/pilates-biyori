@@ -63,7 +63,7 @@ const studios = [
     address: '〒104-0045 東京都中央区築地7丁目6-7 松田ビル 302',
     popularPlan: {
       name: 'セミパーソナル通い放題',
-      description: '最大3名のセミパーソナルレッスンが通い放題。毎日通えば1回1,250円〜。',
+      description: '最大3名のセミパーソナルレッスンが通い放題。毎日通えば1回1,250円（※37,500円の通い放題コースで30日通った場合）〜。',
       price: '月額 37,500円（税込）',
     },
     options: [
@@ -268,7 +268,7 @@ export default function TsukijiPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月14日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス築地おすすめ7選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
