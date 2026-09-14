@@ -86,6 +86,7 @@ const studios = [
   },
   {
     name: 'the SILK 五反田店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
     price: '月3回 13,280円〜',
     trial: '体験レッスン 0円（50分・手ぶらOK）',

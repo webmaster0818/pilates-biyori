@@ -140,6 +140,7 @@ const studios = [
   },
   {
     name: 'the SILK（ザ シルク）港区エリア',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp', reviewCount: 95,
     price: 'お問い合わせください', trial: '体験レッスンあり',
     features: ['女性専用', 'マシン専門', 'パウダールーム充実', '音楽×ピラティス'],

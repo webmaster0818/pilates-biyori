@@ -74,6 +74,7 @@ const studios = [
   },
   {
     name: 'the SILK（ザ シルク）京橋店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp', reviewCount: 88,
     price: '月3回 12,980円〜', trial: '体験レッスンあり',
     features: ['女性専用', 'おしゃれ空間', '少人数制', 'ボディメイク特化'],

@@ -3862,7 +3862,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'the SILK 新浦安店',
-        officialUrl: 'https://the-silk.co.jp/studios/chiba/shinurayasu/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
         image: '/images/studios/the-silk.webp',
         price: '月4回（Standard4）14,370円／通い放題（Full）19,980円（税込月額）',
         trial: '体験レッスン 無料（50分）',
@@ -6611,6 +6611,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'the SILK 船橋店',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
         price: '月3回 12,980円〜',
         trial: '体験レッスン 無料',
         features: ['女性専用', '船橋駅徒歩3分', '手ぶら体験OK', '自然光スタジオ'],
@@ -7044,7 +7045,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'the SILK 千葉店',
-        officialUrl: 'https://the-silk.co.jp/studios/chiba/chiba/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
         price: 'フル19,980円／スタンダード4 14,370円／ライト3 12,280円（月額）',
         trial: '初回体験 0円',
         features: ['女性専用', '50分グループリフォーマー', 'PMA認定', '手ぶら体験OK'],

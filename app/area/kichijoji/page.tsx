@@ -85,6 +85,7 @@ const studios = [
   },
   {
     name: 'the SILK 吉祥寺店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',

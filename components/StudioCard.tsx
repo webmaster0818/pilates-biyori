@@ -413,6 +413,10 @@ export function StudioCard({ studio, index }: StudioCardProps) {
               // eslint-disable-next-line @next/next/no-img-element
               <img src="https://t.felmat.net/fmimp/J11817X.B1620582.U1357808" width={1} height={1} alt="" className="inline-block" style={{ border: 'none' }} />
             )}
+            {studio.officialUrl?.includes('X10489B.1.E162842X') && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src="https://t.felmat.net/fmimp/X10489B.E162842X.U1357808" width={1} height={1} alt="" className="inline-block" style={{ border: 'none' }} />
+            )}
             {brandSlugOf(studio.name) && (
               <a
                 href={`/brands/${brandSlugOf(studio.name)}/`}

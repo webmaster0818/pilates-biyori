@@ -147,6 +147,7 @@ const studios = [
   },
   {
     name: 'the SILK 恵比寿店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
     price: 'パーソナル体験 2,000円〜',
     trial: '初回限定パーソナル 9,900円→2,000円',
@@ -210,6 +211,7 @@ const studios = [
   },
   {
     name: 'the SILK 広尾店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
     price: '月3回 13,280円〜',
     trial: '体験レッスン 0円（50分・手ぶらOK）',

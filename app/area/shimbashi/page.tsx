@@ -55,6 +55,7 @@ const studios = [
   },
   {
     name: 'the SILK 新橋（近隣）',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
     price: '月4回 12,980円〜',
     trial: '体験レッスン実施中',

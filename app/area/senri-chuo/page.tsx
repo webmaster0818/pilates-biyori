@@ -62,6 +62,7 @@ const studios = [
   },
   {
     name: 'the SILK（ザ シルク）千里中央店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp', reviewCount: 76,
     price: '月3回 12,980円〜', trial: '体験レッスンあり',
     features: ['女性専用', 'おしゃれ空間', '少人数制', '音楽×ピラティス'],

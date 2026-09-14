@@ -22,6 +22,7 @@ export const metadata = {
 const studios = [
   {
     name: 'the SILK 蒲田店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp', reviewCount: 165,
     price: '月3回 12,980円〜', trial: '体験レッスン 無料',
     features: ['女性専用', '蒲田駅徒歩1分', '手ぶら体験OK', '朝8時〜夜22時'],

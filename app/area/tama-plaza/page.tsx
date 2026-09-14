@@ -49,6 +49,7 @@ const studios = [
   },
   {
     name: 'the SILK たまプラーザ店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp', reviewCount: 118,
     price: '月3回 12,980円〜', trial: '体験レッスン 無料',
     features: ['女性専用', '手ぶら体験OK', '音楽レッスン', 'パウダールーム完備'],

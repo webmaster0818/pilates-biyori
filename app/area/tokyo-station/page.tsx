@@ -25,6 +25,7 @@ export const metadata = {
 const studios = [
   {
     name: 'the SILK 八重洲店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
     price: 'Standard4 12,980円〜',
     trial: '体験レッスン 0円（キャンペーン中）',
@@ -159,6 +160,7 @@ const studios = [
   },
   {
     name: 'the SILK 銀座店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
     price: 'Standard4 12,980円〜',
     trial: '体験レッスン 0円（キャンペーン中）',
@@ -210,6 +212,7 @@ const studios = [
   },
   {
     name: 'the SILK 銀座一丁目店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
     price: 'Standard4 12,980円〜',
     trial: '体験レッスン 0円（キャンペーン中）',

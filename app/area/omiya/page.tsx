@@ -119,6 +119,7 @@ const studios = [
   },
   {
     name: 'the SILK 大宮',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
     price: '要問合せ',
     trial: '体験レッスン あり',
@@ -242,7 +243,7 @@ const studios = [
   },
   {
     name: 'the SILK 大宮店',
-    officialUrl: 'https://the-silk.co.jp/',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
     price: 'グループ月4回(Standard4) 14,370〜15,280円 / 通い放題 19,980〜22,280円（別途施設利用料月700円）/ パーソナル月2回 22,000円〜',
     trial: '体験レッスン 無料',
