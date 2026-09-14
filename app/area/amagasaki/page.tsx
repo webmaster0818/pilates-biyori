@@ -44,6 +44,7 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 尼崎店', image: '/images/studios/urban-classic-pilates.webp', rating: 4.5, reviewCount: 45,
+    officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['サーキット形式','予約不要','個別ペース','ファンクショナルトレーニング'],
     description: 'マシンピラティスとファンクショナルトレーニングを組み合わせたサーキット形式。一人ずつ違う動きを行うため運動久しぶりの方も安心',
     access: '尼崎市内（詳細は公式サイトでご確認ください）', address: '兵庫県尼崎市（詳細は公式サイトでご確認ください）',

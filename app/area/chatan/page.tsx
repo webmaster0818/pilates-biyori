@@ -64,6 +64,7 @@ const studios = [
   },
   {
     name: 'ルキナ那覇新都心',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=Q113418.1.21564097.U1357808',
     image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',

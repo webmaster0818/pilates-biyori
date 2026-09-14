@@ -85,6 +85,7 @@ const studios = [
   },
   {
     name: 'luluto 蔵前浅草橋店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
     image: '\/images\/studios\/luluto.webp',
     price: '1回 12,000円〜',
     trial: '体験レッスン 1,000円（キャンペーン）',

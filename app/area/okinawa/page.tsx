@@ -115,6 +115,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオ ルキナ那覇新都心',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=Q113418.1.21564097.U1357808',
     image: '/images/studios/lucina-naha.webp',
     price: '月3回 9,900円〜',
     trial: '体験レッスン 1,100円',

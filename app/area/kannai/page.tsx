@@ -25,6 +25,7 @@ export const metadata = {
 const studios = [
   {
     name: 'アーバンクラシックピラティス 関内店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
     price: '月4回 9,680円〜',
     trial: '体験レッスンあり',

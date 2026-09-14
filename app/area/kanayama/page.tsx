@@ -85,6 +85,7 @@ const studios = [
   },
   {
     name: 'Pilates Mee 名古屋金山店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
     price: '1回あたり 1,250円〜',
     trial: '体験レッスンあり',

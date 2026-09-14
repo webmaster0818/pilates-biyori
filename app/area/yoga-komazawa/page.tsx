@@ -150,6 +150,7 @@ const studios = [
   },
   {
     name: 'Pilates Mee 駒沢大学店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
     price: '1回 1,250円〜',
     trial: '体験レッスン 9,800円',

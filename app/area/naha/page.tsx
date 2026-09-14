@@ -70,6 +70,7 @@ const studios = [
   },
   {
     name: 'ルキナ 那覇新都心',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=Q113418.1.21564097.U1357808',
     image: '/images/studios/lucina-naha.webp',
     price: '要問い合わせ',
     trial: '体験レッスン 1,100円',

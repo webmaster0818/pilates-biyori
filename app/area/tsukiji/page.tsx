@@ -54,6 +54,7 @@ const studios = [
   },
   {
     name: 'Pilates Mee 築地店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
     price: '月4回 13,200円〜',
     trial: '体験レッスン 3,300円',

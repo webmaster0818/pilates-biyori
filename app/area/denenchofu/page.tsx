@@ -49,6 +49,7 @@ const studios = [
   },
   {
     name: 'Pilates Mee 田園調布店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp', reviewCount: 112,
     price: '月2回 11,000円〜', trial: '体験レッスン 9,800円',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],

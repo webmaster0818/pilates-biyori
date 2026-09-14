@@ -417,6 +417,10 @@ export function StudioCard({ studio, index }: StudioCardProps) {
               // eslint-disable-next-line @next/next/no-img-element
               <img src="https://t.felmat.net/fmimp/X10489B.E162842X.U1357808" width={1} height={1} alt="" className="inline-block" style={{ border: 'none' }} />
             )}
+            {studio.officialUrl?.includes('F10273P.1.9146255O') && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src="https://t.felmat.net/fmimp/F10273P.9146255O.U1357808" width={1} height={1} alt="" className="inline-block" style={{ border: 'none' }} />
+            )}
             {brandSlugOf(studio.name) && (
               <a
                 href={`/brands/${brandSlugOf(studio.name)}/`}

@@ -76,6 +76,7 @@ const studios = [
   },
   {
     name: 'アーバンクラシックピラティス 蒲田店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp', reviewCount: 92,
     price: '月額 9,680円〜（通い放題）', trial: '体験レッスンあり',
     features: ['サーキット形式', '30分レッスン', '予約不要', '通い放題'],

@@ -46,6 +46,7 @@ const studios = [
   },
   {
     name: 'Pilates Mee 草加店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
     price: 'セミパーソナル（公式サイトで確認）',
     trial: '体験レッスンあり',

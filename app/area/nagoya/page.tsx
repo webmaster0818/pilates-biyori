@@ -53,6 +53,7 @@ const studios = [
   },
   {
     name: 'luluto 名古屋（名駅店・栄店・金山店・大曽根店）',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
     image: '/images/studios/luluto.webp',
     price: '要問合せ',
     trial: '体験レッスン あり',

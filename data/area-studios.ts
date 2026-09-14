@@ -231,6 +231,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ルルト盛岡店',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
         image: '/images/studios/luluto-morioka.webp',
         rating: 4.4,
         price: '要問合せ',
@@ -364,6 +365,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Pilates Mee Life 山形本町店',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/m-pilates-yamagata.webp',
         rating: 4.4,
         price: '月2回8,800円～通い放題24,600円',
@@ -611,6 +613,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティススタジオ ルルト 宇都宮店',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
         image: '/images/studios/luluto-utsunomiya.webp',
         rating: 4.6,
         price: '営業時間 9:00〜21:00',
@@ -855,6 +858,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'URBAN CLASSIC PILATES 茅ヶ崎店',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
         image: '/images/studios/urbanclassic-chigasaki.webp',
         rating: 4.5,
         price: 'マンスリー4 ¥7,800/月〜',
@@ -965,6 +969,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'URBAN CLASSIC PILATES 海老名店',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
         image: '/images/studios/urbanclassic-ebina.webp',
         rating: 4.5,
         price: 'マンスリー4 ¥8,580/月（税込）',
@@ -1174,6 +1179,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'URBAN CLASSIC PILATES 市川店',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
         image: '/images/studios/urbanclassic-ichikawa.webp',
         rating: 4.5,
         price: 'マンスリー4 ¥8,580/月（税込）',
@@ -1307,6 +1313,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティススタジオ ルルト 上尾店',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
         image: '/images/studios/luluto-ageo.webp',
         rating: 4.7,
         price: '月4回 ¥38,400（1回¥9,600）',
@@ -1848,6 +1855,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'URBAN CLASSIC PILATES 川西店',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
         image: '/images/studios/urbanclassic-kawanishi.webp',
         rating: 4.5,
         price: 'マンスリー4 ¥8,580/月（税込）',
@@ -2309,6 +2317,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Pilates Mee 刈谷店',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/m-pilates-kariya.webp',
         rating: 4.6,
         price: 'セミパーソナル 月2回 11,000円〜 / 通い放題 37,500円',
@@ -2695,6 +2704,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ルルト 函館店',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
         image: '/images/studios/luluto-hakodate.webp',
         rating: 4.3,
         price: '料金は公式サイト要問い合わせ',
@@ -2905,6 +2915,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'luluto（ルルト）津山店',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
         image: '/images/studios/kosupapilates-tsuyama.webp',
         rating: 4.4,
         price: '月3回 29,700円 / 月4回 38,400円 / 月6回 55,800円',
@@ -2997,6 +3008,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Pilates Mee Life 西鉄久留米店',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
         image: '/images/studios/m-pilates-kurume.webp',
         rating: 4.6,
         price: '月2回 8,800円 / 月4回 14,800円 / 通い放題 24,600円',
@@ -3044,6 +3056,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'luluto 大野城春日原店',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
         image: '/images/studios/kosupapilates-kasuga.webp',
         rating: 4.4,
         price: '月3回 29,700円 / 月4回 38,400円 / 月6回 55,800円',
@@ -3741,7 +3754,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティススタジオ ルルト 湘南台店',
-        officialUrl: 'https://luluto.kabushikigaisya-rigakubody.co.jp/tenpo/pilates_shonandai/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
         price: '月4回 38,400円（税込）',
         trial: '体験制度あり（受付状況は公式サイト参照）',
         features: ['マンツーマン専門', 'リフォーマー・キャデラック・チェア完備', '理学療法士監修'],
@@ -4362,7 +4375,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティススタジオ ルルト 蔵前浅草橋店',
-        officialUrl: 'https://luluto.kabushikigaisya-rigakubody.co.jp/tenpo/pilates_kuramaeasakusabashi/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
         price: '月4回 38,400円（税込）',
         trial: '体験 期間限定1,000円（45分）',
         features: ['理学療法士監修', 'マンツーマン専門', 'リフォーマー・キャデラック・チェア'],
@@ -6833,7 +6846,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティススタジオ ルルト 大野城春日原店',
-        officialUrl: 'https://luluto.kabushikigaisya-rigakubody.co.jp/tenpo/pilates_onojokasugabaru/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
         price: '月3回29,700円〜月8回72,000円（入会金22,000円・体験当日入会で無料）',
         trial: '初回体験 1,000円',
         features: ['理学療法士監修', 'マンツーマン専門', 'マシンピラティス', '姿勢改善'],
@@ -6900,7 +6913,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティススタジオ ルルト 大野城春日原店',
-        officialUrl: 'https://luluto.kabushikigaisya-rigakubody.co.jp/tenpo/pilates_onojokasugabaru/',
+        officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
         price: '月3回29,700円〜月8回72,000円（入会金22,000円・体験当日入会で無料）',
         trial: '初回体験 1,000円',
         features: ['理学療法士監修', 'マンツーマン専門', 'マシンピラティス', '姿勢改善'],

@@ -81,6 +81,7 @@ const studios = [
   },
   {
     name: 'Pilates Mee 名古屋栄店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
     price: 'パーソナル料金',
     trial: '体験レッスンあり',

@@ -63,6 +63,7 @@ const studios = [
   },
   {
     name: 'URBAN CLASSIC PILATES 瑞穂店', image: '/images/studios/urban-classic-pilates.webp', rating: 4.5, reviewCount: 35,
+    officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['サーキット形式','予約不要','個別ペース','八事近く'],
     description: 'マシンピラティスとファンクショナルトレーニングを組み合わせたサーキット形式。八事エリアからアクセスしやすい瑞穂に位置',
     access: '瑞穂区（八事エリアからアクセス良好）', address: '名古屋市瑞穂区（詳細は公式サイトでご確認ください）',
