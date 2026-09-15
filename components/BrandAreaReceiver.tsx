@@ -169,6 +169,44 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
             </p>
           </section>
 
+          {/* store-cta-202609
+              ⚠️ 店舗ページには公式サイトへの導線が1本も無かった（2026-09-15実測）。
+                 情報引用元のテキストリンクしか無く、送客もアフィリエイト計測もできていなかった。
+                 ブランド共通のCTA（提携ブランドはアフィリエイトURL）をここに置く。
+              ⚠️ 情報引用元（officialRef）は公式URLのまま別に残す。引用元をアフィリにしない。 */}
+          {brand?.ctaUrl && (
+            <section className="mb-10 bg-white border border-warm-200 p-6 text-center">
+              <p className="text-sm text-warm-700 font-light mb-4 leading-relaxed">
+                {store.storeName}の体験レッスンの空き状況・最新のキャンペーンは公式サイトで確認できます。
+              </p>
+              <a
+                href={brand.ctaUrl}
+                target="_blank"
+                rel={brand.isPartner ? "noopener noreferrer sponsored" : "noopener noreferrer"}
+                className="inline-block border border-warm-800 bg-warm-800 text-white px-8 py-3 text-xs font-medium uppercase tracking-[0.15em] hover:bg-warm-900 transition-all"
+              >
+                {brand.ctaLabel ?? "公式サイトを見る"}
+              </a>
+              {brand.isPartner && (
+                <p className="text-[10px] text-warm-400 mt-3">［PR］当サイトはアフィリエイトプログラムを利用しています</p>
+              )}
+              {/* eslint-disable @next/next/no-img-element */}
+              {brand.ctaUrl.includes("X10489B.1.E162842X") && (
+                <img src="https://t.felmat.net/fmimp/X10489B.E162842X.U1357808" width={1} height={1} alt="" style={{ border: "none" }} />
+              )}
+              {brand.ctaUrl.includes("F10273P.1.9146255O") && (
+                <img src="https://t.felmat.net/fmimp/F10273P.9146255O.U1357808" width={1} height={1} alt="" style={{ border: "none" }} />
+              )}
+              {brand.ctaUrl.includes("J11817X.1.B1620582") && (
+                <img src="https://t.felmat.net/fmimp/J11817X.B1620582.U1357808" width={1} height={1} alt="" style={{ border: "none" }} />
+              )}
+              {brand.ctaUrl.includes("Z11979O.1.Z164554L") && (
+                <img src="https://t.felmat.net/fmimp/Z11979O.Z164554L.U1357808" width={1} height={1} alt="" style={{ border: "none" }} />
+              )}
+              {/* eslint-enable @next/next/no-img-element */}
+            </section>
+          )}
+
           {/* ブランドの特徴 → ブランドページへ */}
           <section className="mb-10">
             <h2 className="text-xl font-light text-warm-900 border-b border-warm-200 pb-2 mb-4">{brandName}とは（{store.areaQuery}で通う前に）</h2>

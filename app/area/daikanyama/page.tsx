@@ -170,7 +170,7 @@ export default function DaikanyamaPage() {
       <main className="pt-20 bg-white">
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月14日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月15日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス代官山おすすめ7選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
@@ -454,6 +454,15 @@ export default function DaikanyamaPage() {
                 <Link href="/brands/club-pilates-daikanyama/" className="text-xs text-warm-800 border border-warm-300 bg-white px-3 py-1.5 hover:border-warm-500 transition-colors">CLUB PILATES 代官山店の料金・体験を見る</Link>
               </div>
             </div>
+      {/* g1-link-202609 */}
+      <div className="my-8 bg-white border border-warm-200 p-5">
+        <p className="text-xs text-warm-400 uppercase tracking-[0.15em] mb-2">店舗別ガイド</p>
+        <p className="text-sm text-warm-700 font-light leading-relaxed mb-3">このエリアの店舗別に料金・体験レッスン・アクセスを整理した詳細ページがあります。</p>
+        <div className="flex flex-wrap gap-2">
+          <Link href="/brands/the-silk-nakameguro/" className="text-xs text-warm-800 border border-warm-300 bg-white px-3 py-1.5 hover:border-warm-500 transition-colors">the SILK 中目黒店の料金・体験を見る</Link>
+        </div>
+      </div>
+
       <RelatedAreas currentSlug="daikanyama" />
       <SiteFooter />
       <Script src="https://unpkg.com/lucide@latest" strategy="lazyOnload" />

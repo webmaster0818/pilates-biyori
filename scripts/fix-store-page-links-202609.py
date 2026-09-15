@@ -19,11 +19,11 @@ MARK = "g1-link-202609"
 def store_pages() -> list:
     """データファイルから (urlSlug, storeName, areaSlug) を集める。"""
     out = []
-    for f in ("bdc-stores.ts", "club-pilates-stores.ts", "g1-stores.ts", "kasane-stores.ts"):
+    for f in ("bdc-stores.ts", "club-pilates-stores.ts", "g1-stores.ts", "kasane-stores.ts", "the-silk-stores.ts"):
         src = (ROOT / "data" / f).read_text(encoding="utf-8")
         for m in re.finditer(
-            r'urlSlug:\s*["\']([^"\']+)["\'][\s\S]{0,600}?storeName:\s*["\']([^"\']+)["\']'
-            r'[\s\S]{0,900}?areaSlug:\s*["\']([^"\']+)["\']', src):
+            r'"?urlSlug"?:\s*["\']([^"\']+)["\'][\s\S]{0,600}?"?storeName"?:\s*["\']([^"\']+)["\']'
+            r'[\s\S]{0,900}?"?areaSlug"?:\s*["\']([^"\']+)["\']', src):
             out.append(m.groups())
     return out
 

@@ -12,10 +12,11 @@ import { bdcStores } from '../data/bdc-stores'
 import { clubPilatesStores } from '../data/club-pilates-stores'
 import { g1Stores } from '../data/g1-stores'
 import { kasaneStores } from '../data/kasane-stores'
+import { theSilkStores } from '../data/the-silk-stores'
 
 export type StorePage = { urlSlug: string; storeName: string; areaSlug: string; areaLabel: string }
 
-const ALL: StorePage[] = [...bdcStores, ...clubPilatesStores, ...g1Stores, ...kasaneStores].map((s) => ({
+const ALL: StorePage[] = [...bdcStores, ...clubPilatesStores, ...g1Stores, ...kasaneStores, ...theSilkStores].map((s) => ({
   urlSlug: s.urlSlug,
   storeName: s.storeName,
   areaSlug: s.areaSlug,
