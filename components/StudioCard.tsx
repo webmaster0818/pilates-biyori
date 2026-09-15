@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { storePageOf } from '@/lib/storePages'
 import Image from 'next/image'
 import { STUDIO_REVIEWS } from '@/data/studio-reviews'
 import { brandSlugOf } from '@/lib/brandLink'
@@ -424,6 +425,19 @@ export function StudioCard({ studio, index }: StudioCardProps) {
               // eslint-disable-next-line @next/next/no-img-element
               <img src="https://t.felmat.net/fmimp/F10273P.9146255O.U1357808" width={1} height={1} alt="" className="inline-block" style={{ border: 'none' }} />
             )}
+            {/* この店舗の詳細ページがある場合は、まずそこへ送る。
+                ⚠️ 店舗ページの被リンクがエリアページからの1本だけで孤立していたため追加（2026-09-15） */}
+            {(() => {
+              const sp = storePageOf(studio.name)
+              return sp ? (
+                <a
+                  href={`/brands/${sp.urlSlug}/`}
+                  className="inline-block ml-3 text-xs text-warm-700 underline decoration-warm-300 hover:text-warm-900 align-middle"
+                >
+                  {studio.name}の詳細（料金・アクセス・口コミ）
+                </a>
+              ) : null
+            })()}
             {brandSlugOf(studio.name) && (
               <a
                 href={`/brands/${brandSlugOf(studio.name)}/`}

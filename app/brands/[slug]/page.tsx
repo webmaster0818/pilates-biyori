@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { storePageOf } from '@/lib/storePages'
 import { notFound } from 'next/navigation'
 import { Navigation } from '@/components/Navigation'
 import { SiteFooter } from '@/components/SiteFooter'
@@ -336,7 +337,20 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                 <tbody>
                   {stores.map((s) => (
                     <tr key={`${s.areaSlug}-${s.name}`} className="border-b border-warm-100 last:border-0">
-                      <td className="px-4 py-3 text-warm-800">{s.name}</td>
+                      <td className="px-4 py-3 text-warm-800">
+                        {/* 店舗ページがある店はそこへ。無い店は従来どおりテキストのまま。
+                            ⚠️ ブランド→店舗の導線が無かったため、店舗ページが孤立していた（2026-09-15） */}
+                        {(() => {
+                          const sp = storePageOf(s.name)
+                          return sp ? (
+                            <Link href={`/brands/${sp.urlSlug}/`} className="text-warm-700 underline decoration-warm-300 hover:text-warm-900">
+                              {s.name}
+                            </Link>
+                          ) : (
+                            s.name
+                          )
+                        })()}
+                      </td>
                       <td className="px-4 py-3 whitespace-nowrap">
                         <Link href={`/area/${s.areaSlug}/`} className="text-warm-600 underline decoration-warm-300 hover:text-warm-900">
                           {s.areaName}
@@ -349,7 +363,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
               </table>
             </div>
             <p className="text-[11px] text-warm-400 mt-3 leading-relaxed">
-              ※エリア名をタップすると、そのエリアの比較ページで周辺スタジオとあわせて確認できます。
+              ※店舗名に下線があるものは、その店舗の詳細ページ（料金・アクセス・口コミ要約）に移動します。エリア名をタップすると、そのエリアの比較ページで周辺スタジオとあわせて確認できます。
             </p>
           </section>
 

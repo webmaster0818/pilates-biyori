@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { siblingStorePages } from "@/lib/storePages"
 import { Navigation } from "@/components/Navigation";
 import { SiteFooter } from "@/components/SiteFooter";
 import { FAQSchema } from "@/components/FAQSchema";
@@ -203,6 +204,39 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
               ))}
             </div>
           </section>
+
+          {/* 同ブランドの他店舗ページ。
+              ⚠️ 店舗ページ同士が繋がっておらず、それぞれ被リンク1本で孤立していた（2026-09-15） */}
+          {(() => {
+            const siblings = siblingStorePages(store.urlSlug, `${brandSlug}-`)
+            if (!siblings.length) return null
+            return (
+              <section className="mb-10">
+                <h2 className="text-xl font-light text-warm-900 border-b border-warm-200 pb-2 mb-4">
+                  同じブランドの他店舗
+                </h2>
+                <p className="text-sm text-warm-700 leading-relaxed mb-4 font-light">
+                  料金プランや体験レッスンの条件は店舗によって異なる場合があります。他の店舗の詳細も確認できます。
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {siblings.map((sp) => (
+                    <Link
+                      key={sp.urlSlug}
+                      href={`/brands/${sp.urlSlug}/`}
+                      className="text-xs text-warm-700 border border-warm-200 bg-white px-3 py-1.5 hover:border-warm-400 transition-colors"
+                    >
+                      {sp.storeName}
+                    </Link>
+                  ))}
+                </div>
+                <p className="text-[11px] text-warm-400 mt-3">
+                  <Link href={`/brands/${brandSlug}/`} className="underline decoration-warm-300">
+                    このブランドの全店舗一覧を見る
+                  </Link>
+                </p>
+              </section>
+            )
+          })()}
 
           {/* FAQ */}
           <section className="mb-10">
