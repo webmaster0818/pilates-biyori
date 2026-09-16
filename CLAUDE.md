@@ -636,3 +636,20 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
   the SILK 44本すべてにアフィリリンクと計測ピクセル・41本に口コミ要約。Indexing 45件・sitemap再送信204。
 - **次: 2〜3週で効果測定**。the SILK 852impのうち何impが店舗ページに移り何クリック取れたか。
   動かなければ Phase2以降（Pilates Mee 133本）は作らない。
+
+### 2026-09-16 🚨料金白書が2か月間404本文だった／canonical全数点検／店舗ページのCTA
+- 🚨 **`/articles/pilates-ryokin-hakusho/` が「ページが見つかりません」を返していた**（2026-07-11〜・約2か月）。
+  原因は `content/articles/pilates-ryokin-hakusho.md` の**frontmatter内にウィジェット案内のMarkdown行が
+  挿入され、YAMLが壊れて記事が取得できなくなっていた**こと（commit 098dc99c「N-1被リンク装置」）。
+  本文へ移動して復旧。Dataset schema・canonical・タイトルの描画を本番で確認。
+  ⚠️ **frontmatterに本文を書かない**。記事を足す/直すスクリプトは、書き込み後に
+  「`---`で挟まれた範囲の全行が `key:` 形式か」を検査する（今回の検査コードはこのログの手順）。
+  ⚠️ 月次cron（monthly-hakusho.sh）はこのページを更新し続けていたが、**404のまま気づけなかった**。
+     cronの検証に「本文が期待する見出しを含むか」を入れないと、壊れたまま回り続ける。
+- **canonical 全583枚を点検**: 自己canonical 580 / 無し2（404・白書＝上記で修正）/ 他を指す1（`/area/tokyo/`→
+  `/area/tokyo-station/` ＝2026-07-20の統合で意図的）。**実装は各ページの `alternates.canonical` で個別指定**。
+  layout.tsx には置かない（置くと全ページがトップを指す事故になる）。
+- **店舗ページのCTA**: 76本中45本がアフィリエイトリンク（the SILK 44・Pilates Mee 1）。
+  残31本は**ブランド自体が非提携**（Rintosull/CLUB PILATES/ピラティスK＝公式リンク、BDC/KASANE＝リンク無しだった）。
+  BDC(www.bdcpilates.com)とKASANE(pilates-kasane.jp)は**公式ドメインを実機確認して公式CTAを追加**。
+  → 外部リンクが1本も無い店舗ページはゼロになった。
