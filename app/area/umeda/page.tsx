@@ -170,7 +170,7 @@ const studios = [
     address: '大阪府大阪市北区芝田1丁目4-14 芝田町ビル9階F・G室',
   },
   {
-    name: 'DAYS PILATES DAYS PILATES 梅田',
+    name: 'DAYS PILATES 梅田店',
     officialUrl: 'https://t.afi-b.com/visit.php?a=H16011O-W518522Z&p=E9887623',
     image: '/images/studios/days-pilates.webp',
     price: '月3回 11,990円 / 月4回 12,860円 / 通い放題 17,350円（税込）',

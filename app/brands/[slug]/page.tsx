@@ -263,6 +263,21 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                   {/* eslint-enable @next/next/no-img-element */}
                 </div>
               )}
+              {brand.slug === 'days-pilates' && (
+                <div className="mt-6 flex flex-col items-center gap-4">
+                  {/* eslint-disable @next/next/no-img-element */}
+                  <img src="https://t.afi-b.com/lead/H16011O/E9887623/W518522Z" width={1} height={1} alt="" style={{ border: 'none' }} />
+                  <a href="https://t.afi-b.com/visit.php?a=H16011O-j519244C&p=E9887623" target="_blank" rel="nofollow noopener noreferrer sponsored" className="hidden md:inline-block">
+                    <img width={468} height={60} alt="DAYS PILATES" className="max-w-full h-auto" src="https://www.afi-b.com/upload_image/16011-1752093641-3.png" />
+                  </a>
+                  <img src="https://t.afi-b.com/lead/H16011O/E9887623/j519244C" width={1} height={1} alt="" style={{ border: 'none' }} />
+                  <a href="https://t.afi-b.com/visit.php?a=H16011O-M519245R&p=E9887623" target="_blank" rel="nofollow noopener noreferrer sponsored" className="md:hidden inline-block">
+                    <img width={300} height={250} alt="DAYS PILATES" className="max-w-full h-auto" src="https://www.afi-b.com/upload_image/16011-1758509241-3.png" />
+                  </a>
+                  <img src="https://t.afi-b.com/lead/H16011O/E9887623/M519245R" width={1} height={1} alt="" style={{ border: 'none' }} />
+                  {/* eslint-enable @next/next/no-img-element */}
+                </div>
+              )}
               {brand.slug === 'pilates-k' && (
                 <div className="mt-6 flex flex-col items-center gap-4">
                   {/* eslint-disable @next/next/no-img-element */}

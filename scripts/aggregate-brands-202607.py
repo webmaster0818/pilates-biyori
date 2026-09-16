@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parent.parent
 APP_AREA = ROOT / "app" / "area"
 
 BRANDS = [
+    ("days-pilates",  r"DAYS ?PILATES|デイズピラティス"),
     ("element",       r"^ELEMENT\b"),
     ("urban-classic", r"URBAN CLASSIC"),
     ("brest",         r"BREST"),

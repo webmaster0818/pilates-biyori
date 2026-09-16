@@ -3,6 +3,7 @@
 
 const RULES: Array<{ slug: string; test: (n: string) => boolean }> = [
   { slug: 'kasane', test: (n) => /kasane/i.test(n) }, // pilates Kより先に判定（誤爆防止）
+  { slug: 'days-pilates', test: (n) => /DAYS ?PILATES|デイズピラティス/i.test(n) },
   { slug: 'element', test: (n) => /^ELEMENT\b/.test(n) },
   { slug: 'urban-classic', test: (n) => /URBAN CLASSIC/i.test(n) },
   { slug: 'brest', test: (n) => /BREST/.test(n) },
