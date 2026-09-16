@@ -275,6 +275,7 @@ const studios = [
   },
   {
     name: 'BDC PILATES 新宿（近隣）',
+    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590',
     image: '/images/studios/bdc-pilates.webp',
     price: '月4回 14,300円〜',
     trial: '体験レッスンあり',

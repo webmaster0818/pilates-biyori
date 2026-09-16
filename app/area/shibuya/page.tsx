@@ -146,6 +146,7 @@ const studios = [
   },
   {
     name: 'BDC PILATES 渋谷（近隣）',
+    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590',
     image: '/images/studios/bdc-pilates.webp', reviewCount: 233,
     price: 'お問い合わせ', trial: '体験レッスンあり',
     features: ['ダンサー御用達', '高品質指導', '渋谷近隣', '本格派'],

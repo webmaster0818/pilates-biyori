@@ -309,10 +309,10 @@ export const BRANDS: BrandInfo[] = [
       { q: '体験レッスンはありますか？', a: '体験レッスンを実施しており、2,200円〜3,850円の掲載例があります。' },
     ],
     // 公式ドメインを実機で確認（2026-09-16）。提携はしていないのでアフィリリンクではない。
-    ctaUrl: 'https://www.bdcpilates.com/',
+    ctaUrl: 'https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590',
     ctaLabel: '公式サイトで詳細を見る',
     officialRef: { label: 'BDC PILATES公式サイト', url: 'https://www.bdcpilates.com/' },
-    isPartner: false,
+    isPartner: true,
     useHyoban: true,
   },
   {

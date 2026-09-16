@@ -263,6 +263,21 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                   {/* eslint-enable @next/next/no-img-element */}
                 </div>
               )}
+              {brand.slug === 'bdc' && (
+                <div className="mt-6 flex flex-col items-center gap-4">
+                  {/* eslint-disable @next/next/no-img-element */}
+                  <img src="https://i.moshimo.com/af/i/impression?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590" width={1} height={1} alt="" style={{ border: 'none' }} loading="lazy" />
+                  <a href="https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40596" target="_blank" rel="nofollow noopener noreferrer sponsored" className="hidden md:inline-block">
+                    <img width={468} height={60} alt="BDC PILATES" className="max-w-full h-auto" src="https://image.moshimo.com/af-img/2413/000000040596.jpg" />
+                  </a>
+                  <img src="https://i.moshimo.com/af/i/impression?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40596" width={1} height={1} alt="" style={{ border: 'none' }} loading="lazy" />
+                  <a href="https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40593" target="_blank" rel="nofollow noopener noreferrer sponsored" className="md:hidden inline-block">
+                    <img width={250} height={250} alt="BDC PILATES" className="max-w-full h-auto" src="https://image.moshimo.com/af-img/2413/000000040593.jpg" />
+                  </a>
+                  <img src="https://i.moshimo.com/af/i/impression?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40593" width={1} height={1} alt="" style={{ border: 'none' }} loading="lazy" />
+                  {/* eslint-enable @next/next/no-img-element */}
+                </div>
+              )}
               {brand.slug === 'rintosull' && (
                 <div className="mt-6 flex flex-col items-center gap-4">
                   {/* eslint-disable @next/next/no-img-element */}

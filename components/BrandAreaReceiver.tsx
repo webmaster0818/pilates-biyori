@@ -206,6 +206,9 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
               {brand.ctaUrl.includes("pl_id=75683") && (
                 <img src="https://i.moshimo.com/af/i/impression?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683" width={1} height={1} alt="" style={{ border: "none" }} loading="lazy" />
               )}
+              {brand.ctaUrl.includes("pl_id=40590") && (
+                <img src="https://i.moshimo.com/af/i/impression?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590" width={1} height={1} alt="" style={{ border: "none" }} loading="lazy" />
+              )}
               {/* eslint-enable @next/next/no-img-element */}
             </section>
           )}

@@ -200,6 +200,7 @@ const studios = [
   },
   {
     name: 'BDC PILATES 代々木公園スタジオ',
+    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590',
     image: '/images/studios/bdc-pilates.webp',
     price: '1回 3,850円〜',
     trial: '体験レッスン 3,850円',
