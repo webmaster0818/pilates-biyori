@@ -54,6 +54,7 @@ const studios = [
   },
   {
     name: 'pilates K 天王寺店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
     price: 'マンスリー4 11,220円〜',
     trial: '体験レッスン 0円',

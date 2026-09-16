@@ -21,6 +21,7 @@ export const metadata = {
 const studios = [
   {
     name: 'pilates K ドン・キホーテ二俣川店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/default-studio.webp',
     price: '月4回 13,420円〜',
     trial: '体験レッスン 無料',

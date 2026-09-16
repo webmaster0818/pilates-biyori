@@ -263,6 +263,36 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                   {/* eslint-enable @next/next/no-img-element */}
                 </div>
               )}
+              {brand.slug === 'pilates-k' && (
+                <div className="mt-6 flex flex-col items-center gap-4">
+                  {/* eslint-disable @next/next/no-img-element */}
+                  <img src="https://t.afi-b.com/lead/O11543l/E9887623/G384824n" width={1} height={1} alt="" style={{ border: 'none' }} />
+                  <a href="https://t.afi-b.com/visit.php?a=O11543l-G386644A&p=E9887623" target="_blank" rel="nofollow noopener noreferrer sponsored" className="hidden md:inline-block">
+                    <img width={650} height={250} alt="pilates K" className="max-w-full h-auto" src="https://www.afi-b.com/upload_image/11543-1580989406-3.gif" />
+                  </a>
+                  <img src="https://t.afi-b.com/lead/O11543l/E9887623/G386644A" width={1} height={1} alt="" style={{ border: 'none' }} />
+                  <a href="https://t.afi-b.com/visit.php?a=O11543l-B386658N&p=E9887623" target="_blank" rel="nofollow noopener noreferrer sponsored" className="md:hidden inline-block">
+                    <img width={350} height={80} alt="pilates K" className="max-w-full h-auto" src="https://www.afi-b.com/upload_image/11543-1581080307-3.gif" />
+                  </a>
+                  <img src="https://t.afi-b.com/lead/O11543l/E9887623/B386658N" width={1} height={1} alt="" style={{ border: 'none' }} />
+                  {/* eslint-enable @next/next/no-img-element */}
+                </div>
+              )}
+              {brand.slug === 'kasane' && (
+                <div className="mt-6 flex flex-col items-center gap-4">
+                  {/* eslint-disable @next/next/no-img-element */}
+                  <img src="https://t.afi-b.com/lead/T15562j/E9887623/7505717Y" width={1} height={1} alt="" style={{ border: 'none' }} />
+                  <a href="https://t.afi-b.com/visit.php?a=T15562j-P505650j&p=E9887623" target="_blank" rel="nofollow noopener noreferrer sponsored" className="hidden md:inline-block">
+                    <img width={728} height={90} alt="Pilates KASANE" className="max-w-full h-auto" src="https://www.afi-b.com/upload_image/15562-1736341713-3.jpg" />
+                  </a>
+                  <img src="https://t.afi-b.com/lead/T15562j/E9887623/P505650j" width={1} height={1} alt="" style={{ border: 'none' }} />
+                  <a href="https://t.afi-b.com/visit.php?a=T15562j-I505657Z&p=E9887623" target="_blank" rel="nofollow noopener noreferrer sponsored" className="md:hidden inline-block">
+                    <img width={300} height={250} alt="Pilates KASANE" className="max-w-full h-auto" src="https://www.afi-b.com/upload_image/15562-1735970114-3.jpg" />
+                  </a>
+                  <img src="https://t.afi-b.com/lead/T15562j/E9887623/I505657Z" width={1} height={1} alt="" style={{ border: 'none' }} />
+                  {/* eslint-enable @next/next/no-img-element */}
+                </div>
+              )}
               {brand.slug === 'bdc' && (
                 <div className="mt-6 flex flex-col items-center gap-4">
                   {/* eslint-disable @next/next/no-img-element */}

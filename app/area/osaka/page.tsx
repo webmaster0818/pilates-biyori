@@ -22,6 +22,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK 大阪（複数店舗）',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
     price: '月4回 13,420円〜',
     trial: '無料体験レッスン',
@@ -115,6 +116,7 @@ const studios = [
   },
   {
     name: 'DAYS PILATES（デイズピラティス）',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=H16011O-W518522Z&p=E9887623',
     image: '/images/studios/days-pilates-osaka.webp',
     price: '要問合せ',
     trial: '体験レッスン あり',
@@ -239,6 +241,7 @@ const studios = [
   },
   {
     name: 'PILATES KASANE 大阪',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=T15562j-7505717Y&p=E9887623',
     image: '/images/studios/pilates-kasane-osaka.webp',
     price: '体験 2,200円',
     trial: '体験レッスン 2,200円',

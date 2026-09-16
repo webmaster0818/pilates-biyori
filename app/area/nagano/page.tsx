@@ -20,6 +20,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK MEGAドン・キホーテ長野店', image: '/images/studios/pilates-k.webp', rating: 4.6, reviewCount: 55,
+    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     price: '月4回 11,220円〜', trial: '体験レッスン 無料', features: ['女性専用','MEGAドンキ1F','マシン専門','体験無料'],
     description: '女性専用マシンピラティス専門スタジオ。MEGAドン・キホーテ長野店1Fに位置し駐車場完備。音楽に合わせた楽しいレッスン',
     access: '長野市高田（MEGAドン・キホーテ長野店1F）', address: '長野県長野市高田 MEGAドン・キホーテ長野店1F',

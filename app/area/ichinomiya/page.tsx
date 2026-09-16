@@ -70,6 +70,7 @@ const studios = [
   },
   {
     name: 'ピラティスK イオンモール木曽川店', image: '/images/studios/pilates-k.webp', rating: 4.6, reviewCount: 80,
+    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     price: '月4回 11,220円〜', trial: '体験レッスン 無料', features: ['女性専用','イオンモール内','黒田駅徒歩3分','体験無料'],
     description: '女性専用マシンピラティス専門スタジオ。イオンモール木曽川3Fに位置し黒田駅から徒歩3分',
     access: '名鉄「黒田駅」徒歩3分（イオンモール木曽川3F）', address: '愛知県一宮市木曽川町 イオンモール木曽川3F',

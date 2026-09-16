@@ -128,6 +128,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 表参道店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp', reviewCount: 130,
     price: 'マンスリー4メンバー 13,420円〜', trial: '体験レッスンあり',
     features: ['女性専用', '音楽×ピラティス', '当日予約OK', '全国122店舗'],

@@ -36,6 +36,7 @@ const studios = [
   },
   {
     name: 'pilates K 溝の口店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp', reviewCount: 154,
     price: '月4回 13,420円〜', trial: '体験レッスン 無料',
     features: ['女性専用', '溝の口駅徒歩3分', 'マシン専門', '音楽レッスン'],

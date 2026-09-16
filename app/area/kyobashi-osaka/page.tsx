@@ -62,6 +62,7 @@ const studios = [
   },
   {
     name: 'pilates K（ピラティスケー）京橋店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp', reviewCount: 118,
     price: '月4回 13,420円〜', trial: '体験レッスン 無料',
     features: ['女性専用', '音楽×ピラティス', '駅近', '体験無料'],

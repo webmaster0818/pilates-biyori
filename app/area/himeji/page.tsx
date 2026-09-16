@@ -23,6 +23,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK ゆめタウン姫路店', image: '/images/studios/pilates-k.webp', rating: 4.6, reviewCount: 130,
+    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     price: '月4回 11,220円〜', trial: '体験レッスン 無料', features: ['女性専用','ゆめタウン姫路内','マシン専門','体験無料'],
     description: '女性専用マシンピラティス専門スタジオ。ゆめタウン姫路内に位置し買い物ついでに通える。音楽に合わせた楽しいレッスンが特徴',
     access: 'JR「英賀保駅」徒歩圏内（ゆめタウン姫路内）', address: '兵庫県姫路市 ゆめタウン姫路内',

@@ -22,6 +22,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK イオンモール鹿児島店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
     price: '月4回 13,420円〜',
     trial: '体験レッスン 0円',
@@ -53,6 +54,7 @@ const studios = [
   },
   {
     name: 'Pilates KASANE 鹿児島天文館店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=T15562j-7505717Y&p=E9887623',
     image: '/images/studios/kasane-kagoshima.webp',
     price: '月4回 15,400円〜',
     trial: '体験レッスン 3,000円',
@@ -146,6 +148,7 @@ const studios = [
   },
   {
     name: 'Pilates KASANE 鹿児島中央駅前店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=T15562j-7505717Y&p=E9887623',
     image: '/images/studios/pilates-kasane.webp',
     price: '月4回 15,400円〜',
     trial: '体験レッスン 3,000円',

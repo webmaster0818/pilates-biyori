@@ -88,6 +88,7 @@ const studios = [
   },
   {
     name: 'Pilates KASANE つくば店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=T15562j-7505717Y&p=E9887623',
     image: '/images/studios/pilates-kasane.webp',
     price: '月4回 15,400円',
     trial: '体験レッスン 無料',

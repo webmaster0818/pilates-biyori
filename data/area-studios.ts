@@ -57,6 +57,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティスK 札幌',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/pilates3.jpg',
         rating: 4.0,
         price: '月4回 15,070円〜',
@@ -121,6 +122,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティスK 仙台',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/pilates3.jpg',
         rating: 3.9,
         price: '月4回 15,070円〜',
@@ -176,6 +178,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K シーナシーナ青森店',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/studios/pilates-k-aomori.webp',
         rating: 4.5,
         price: 'マンスリー4メンバー 11,220円/月',
@@ -505,6 +508,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K シーナシーナ弘前店',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/studios/pilates-k-hirosaki.webp',
         rating: 4.6,
         price: 'マンスリー4 ¥11,220/月〜',
@@ -593,6 +597,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'pilates K 宇都宮店',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/studios/pilates-k-utsunomiya.webp',
         rating: 4.7,
         price: 'マンスリー4 ¥11,220/月〜',
@@ -682,6 +687,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K 高崎店',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/studios/pilates-k-takasaki.webp',
         rating: 4.6,
         price: 'マンスリー4 ¥11,220/月〜',
@@ -929,6 +935,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティスKASANE 平塚店',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=T15562j-7505717Y&p=E9887623',
         image: '/images/studios/pilates-kasane-hiratsuka.webp',
         rating: 4.6,
         price: 'グループ月会費制／パーソナル月4回¥39,600〜',
@@ -1120,6 +1127,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'pilates K 松戸店',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/studios/pilates-k-matsudo.webp',
         rating: 4.6,
         price: 'マンスリー4 ¥13,420/月',
@@ -1131,6 +1139,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティスKASANE 松戸店',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=T15562j-7505717Y&p=E9887623',
         image: '/images/studios/pilates-kasane-matsudo.webp',
         rating: 4.6,
         price: 'グループ月会費制／パーソナル月4回¥39,600〜',
@@ -1378,6 +1387,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K 和光市店',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/studios/pilates-k-wakoshi.webp',
         rating: 4.6,
         price: 'マンスリー4 ¥13,420/月',
@@ -1457,6 +1467,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K 川越店',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/studios/pilates-k-honkawagoe.webp',
         rating: 4.6,
         price: 'マンスリー4 ¥13,420/月',
@@ -1650,6 +1661,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'pilates K 八尾店',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/studios/pilates-k-yao.webp',
         rating: 4.6,
         price: 'マンスリー4 ¥11,220/月',
@@ -1707,6 +1719,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K ビバモール寝屋川店',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/studios/pilates-k-neyagawa.webp',
         rating: 4.6,
         price: 'マンスリー4 ¥11,220/月',
@@ -2017,6 +2030,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K イオンモール橿原店',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/studios/pilates-k-kashihara.webp',
         rating: 4.6,
         price: 'マンスリー4 ¥11,220/月',
@@ -2071,6 +2085,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K イオンモール奈良登美ヶ丘店',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/studios/pilates-k-ikoma.webp',
         rating: 4.1,
         price: 'マンスリー4 11,220円〜 / マンスリー8 15,070円',
@@ -2100,6 +2115,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K 南草津店',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/studios/pilates-k-kusatsu.webp',
         rating: 4.1,
         price: 'マンスリー4 11,220円〜 / マンスリー8 15,070円',
@@ -2195,6 +2211,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'pilates K マルナカマスカット倉敷店',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/studios/pilates-k-kurashiki.webp',
         rating: 4.1,
         price: 'マンスリー4 11,220円〜 / マンスリー8 15,070円',
@@ -2312,6 +2329,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K イオン春日井店',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/studios/pilates-k-kasugai.webp',
         rating: 4.1,
         price: 'マンスリー4 11,220円 / マンスリー8 15,070円',
@@ -2439,6 +2457,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティスKASANE 富士店',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=T15562j-7505717Y&p=E9887623',
         image: '/images/studios/pilates-kasane-fuji.webp',
         rating: 4.4,
         price: 'グループ月会費制 / パーソナル月4回 39,600円〜',
@@ -2720,6 +2739,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'pilates K 函館店',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/studios/pilates-k-hakodate.webp',
         rating: 4.2,
         price: 'マンスリー4 11,220円 / マンスリー8 15,070円',
@@ -2973,6 +2993,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'pilates K シーモール下関店',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/studios/pilates-k-shimonoseki.webp',
         rating: 4.1,
         price: 'マンスリー4 11,220円 / マンスリー8 15,070円',
@@ -2994,6 +3015,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティスKASANE ゆめシティ下関店',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=T15562j-7505717Y&p=E9887623',
         image: '/images/studios/pilates-kasane-shimonoseki.webp',
         rating: 4.2,
         price: 'グループ月会費制 / パーソナル月4回 39,600円',
@@ -3014,6 +3036,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'pilates K 久留米店',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/studios/pilates-k-kurume.webp',
         rating: 4.1,
         price: 'マンスリー4 11,220円 / マンスリー8 15,070円',
@@ -3353,7 +3376,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K 堺東店',
-        officialUrl: 'https://pilates-k.jp/studio/osaka/sakaihigashi',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/studios/pilates-k.webp',
         price: 'マンスリー4 13,420円／マンスリー8 16,170円（税込月額）',
         trial: '体験レッスン 無料',
@@ -3527,7 +3550,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K 大森店',
-        officialUrl: 'https://pilates-k.jp/studio/tokyo/omori',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/studios/pilates-k.webp',
         price: 'マンスリー4 13,420円／マンスリー8 16,170円（税込月額）',
         trial: '体験レッスン 無料',
@@ -3711,7 +3734,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K 上大岡店',
-        officialUrl: 'https://pilates-k.jp/studio/kanagawa/kamiooka',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/studios/pilates-k.webp',
         price: 'マンスリー4 13,420円／マンスリー8 16,170円（税込月額）',
         trial: '体験レッスン 無料',
@@ -3813,7 +3836,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K 津田沼ビート店',
-        officialUrl: 'https://pilates-k.jp/studio/chiba-ken/tsudanuma',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/studios/pilates-k.webp',
         price: 'マンスリー4 13,420円／マンスリー8 16,170円（税込月額）',
         trial: '体験レッスン 無料',
@@ -3955,7 +3978,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K 蕨店',
-        officialUrl: 'https://pilates-k.jp/studio/saitama/warabi',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/studios/pilates-k.webp',
         price: 'マンスリー4 13,420円／マンスリー8 16,170円（税込月額）',
         trial: '体験レッスン 無料（ウェアレンタル込み）',
@@ -4006,7 +4029,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K 綾瀬店',
-        officialUrl: 'https://pilates-k.jp/studio/tokyo/ayase',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/studios/pilates-k.webp',
         price: 'マンスリー4 13,420円／マンスリー8 16,170円（税込月額）',
         trial: '体験レッスン 無料',
@@ -4604,7 +4627,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K センター北店',
-        officialUrl: 'https://pilates-k.jp/studio/kanagawa/center-kita',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/studios/pilates-k.webp',
         price: 'マンスリー4 13,420円／マンスリー8 16,170円（税込月額）',
         trial: '体験 無料',
@@ -4801,7 +4824,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K あびこショッピングプラザ店',
-        officialUrl: 'https://pilates-k.jp/studio/chiba-ken/abiko',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/studios/pilates-k.webp',
         price: 'マンスリー4 13,420円／マンスリー8 16,170円（税込月額）',
         trial: '体験 無料',
@@ -5550,7 +5573,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K くずはモール店（隣駅・樟葉駅前）',
-        officialUrl: 'https://pilates-k.jp/studio/osaka/kuzuha',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         image: '/images/studios/pilates-k.webp',
         price: 'マンスリー4 11,220円／マンスリー8 15,070円（税込・初期費用13,530円）',
         trial: '体験 0円',
@@ -6809,7 +6832,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K 所沢店',
-        officialUrl: 'https://pilates-k.jp/studio/saitama/tokorozawa',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         price: '月額13,420〜18,920円／都度2,200円〜',
         trial: '体験 0円',
         features: ['女性専用', 'リフォーマー専門', 'グループ', 'ボディメイク特化'],
@@ -7099,7 +7122,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K 千葉店',
-        officialUrl: 'https://pilates-k.jp/studio/chiba-ken/chiba',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         price: 'マンスリー4 13,420円／8 16,170円／プレミアム18,920円（税込）',
         trial: '体験 0円',
         features: ['女性専用', 'リフォーマーグループ', '17種プログラム', 'ボディメイク特化'],
@@ -7187,7 +7210,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'pilates K 仙台PARCO2店',
-        officialUrl: 'https://pilates-k.jp/studio/miyagi/sendaiparco',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
         price: '月4回13,420円／月8回16,170円／プレミアム18,920円',
         trial: '体験は公式サイト参照',
         features: ['女性専用', '音楽連動リフォーマーグループ', '部位特化プログラム', '駅近'],

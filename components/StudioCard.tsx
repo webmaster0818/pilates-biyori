@@ -435,6 +435,19 @@ export function StudioCard({ studio, index }: StudioCardProps) {
               // eslint-disable-next-line @next/next/no-img-element
               <img src="https://i.moshimo.com/af/i/impression?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590" width={1} height={1} alt="" className="inline-block" style={{ border: 'none' }} loading="lazy" />
             )}
+            {/* アフィリエイトB（afi-b）。クリックURLと lead の組を崩さない */}
+            {studio.officialUrl?.includes('a=O11543l-G384824n') && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src="https://t.afi-b.com/lead/O11543l/E9887623/G384824n" width={1} height={1} alt="" className="inline-block" style={{ border: 'none' }} />
+            )}
+            {studio.officialUrl?.includes('a=T15562j-7505717Y') && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src="https://t.afi-b.com/lead/T15562j/E9887623/7505717Y" width={1} height={1} alt="" className="inline-block" style={{ border: 'none' }} />
+            )}
+            {studio.officialUrl?.includes('a=H16011O-W518522Z') && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src="https://t.afi-b.com/lead/H16011O/E9887623/W518522Z" width={1} height={1} alt="" className="inline-block" style={{ border: 'none' }} />
+            )}
             {/* この店舗の詳細ページがある場合は、まずそこへ送る。
                 ⚠️ 店舗ページの被リンクがエリアページからの1本だけで孤立していたため追加（2026-09-15） */}
             {(() => {

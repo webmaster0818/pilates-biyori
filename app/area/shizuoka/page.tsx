@@ -22,6 +22,7 @@ export const metadata = {
 const studios = [
   {
     name: 'pilates KASANE 静岡店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=T15562j-7505717Y&p=E9887623',
     image: '/images/studios/pilates-kasane.webp',
     price: '要問合せ',
     trial: '体験レッスン あり（手ぶらOK）',
@@ -53,6 +54,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 静岡店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
     price: '月4回 13,420円〜',
     trial: '無料体験レッスン',

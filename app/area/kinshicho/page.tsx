@@ -57,6 +57,7 @@ const studios = [
   },
   {
     name: 'ピラティスK オリナス錦糸町店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
     price: '月4回 11,220円〜',
     trial: '無料体験レッスン',
@@ -150,6 +151,7 @@ const studios = [
   },
   {
     name: 'Pilates KASANE 錦糸町店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=T15562j-7505717Y&p=E9887623',
     image: '/images/studios/pilates-kasane.webp',
     price: '月4回 15,400円',
     trial: '体験レッスンあり',

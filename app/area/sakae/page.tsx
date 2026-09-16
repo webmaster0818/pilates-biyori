@@ -53,6 +53,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 久屋大通パーク店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
     price: '1回約3,355円〜',
     trial: '体験レッスン 0円',

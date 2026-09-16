@@ -341,6 +341,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 高円寺（近隣エリア利用）',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
     price: '詳細は公式サイトでご確認ください',
     trial: '体験レッスンあり',

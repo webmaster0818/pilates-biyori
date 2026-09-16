@@ -20,6 +20,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK 富山店', image: '/images/studios/pilates-k.webp', rating: 4.6, reviewCount: 65,
+    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     price: '月4回 11,220円〜', trial: '体験レッスン 無料', features: ['女性専用','マシン専門','体験無料','部位別プログラム'],
     description: '女性専用マシンピラティス専門スタジオ。音楽に合わせた楽しいレッスンとボディメイクに特化したプログラムが充実',
     access: '富山市内（詳細は公式サイトでご確認ください）', address: '富山県富山市（詳細は公式サイトでご確認ください）',

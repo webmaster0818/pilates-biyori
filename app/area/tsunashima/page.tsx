@@ -34,6 +34,7 @@ const studios = [
   },
   {
     name: 'pilates K 綱島店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp', reviewCount: 92,
     price: '月4回 11,220円〜', trial: '体験レッスン 0円',
     features: ['女性専用', 'マシンピラティス専門', '体験0円', '駅近'],

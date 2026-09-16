@@ -25,6 +25,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK くずはモール店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
     price: '月4回 11,220円〜',
     trial: '体験レッスン 無料',
@@ -56,6 +57,7 @@ const studios = [
   },
   {
     name: 'Pilates KASANE 枚方店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=T15562j-7505717Y&p=E9887623',
     image: '/images/studios/pilates-kasane.webp',
     price: '1回 3,025円〜',
     trial: '体験レッスン 3,000円',
@@ -148,6 +150,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 枚方T-SITE店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
     price: '月4回 11,220円〜',
     trial: '体験レッスン 無料',

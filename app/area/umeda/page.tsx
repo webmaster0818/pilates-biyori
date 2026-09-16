@@ -88,6 +88,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 梅田',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
     price: '月4回 15,070円〜',
     trial: '無料体験レッスン',
@@ -170,7 +171,7 @@ const studios = [
   },
   {
     name: 'DAYS PILATES DAYS PILATES 梅田',
-    officialUrl: 'https://dayspilates.com/',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=H16011O-W518522Z&p=E9887623',
     image: '/images/studios/days-pilates.webp',
     price: '月3回 11,990円 / 月4回 12,860円 / 通い放題 17,350円（税込）',
     trial: '初回体験 0円（通常5,500円）',

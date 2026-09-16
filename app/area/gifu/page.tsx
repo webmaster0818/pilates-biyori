@@ -20,6 +20,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスK モレラ岐阜店', image: '/images/studios/pilates-k.webp', rating: 4.6, reviewCount: 70,
+    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     price: '月4回 11,220円〜', trial: '体験レッスン 無料', features: ['女性専用','モレラ岐阜内','通い放題12,320円〜','体験無料'],
     description: '女性専用マシンピラティス専門スタジオ。モレラ岐阜1階に位置し通い放題でも月12,320円〜とリーズナブル',
     access: '樽見鉄道「モレラ岐阜駅」徒歩圏内（モレラ岐阜1F）', address: '岐阜県本巣市 モレラ岐阜1F',

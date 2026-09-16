@@ -209,6 +209,15 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
               {brand.ctaUrl.includes("pl_id=40590") && (
                 <img src="https://i.moshimo.com/af/i/impression?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590" width={1} height={1} alt="" style={{ border: "none" }} loading="lazy" />
               )}
+              {brand.ctaUrl.includes("a=O11543l-G384824n") && (
+                <img src="https://t.afi-b.com/lead/O11543l/E9887623/G384824n" width={1} height={1} alt="" style={{ border: "none" }} />
+              )}
+              {brand.ctaUrl.includes("a=T15562j-7505717Y") && (
+                <img src="https://t.afi-b.com/lead/T15562j/E9887623/7505717Y" width={1} height={1} alt="" style={{ border: "none" }} />
+              )}
+              {brand.ctaUrl.includes("a=H16011O-W518522Z") && (
+                <img src="https://t.afi-b.com/lead/H16011O/E9887623/W518522Z" width={1} height={1} alt="" style={{ border: "none" }} />
+              )}
               {/* eslint-enable @next/next/no-img-element */}
             </section>
           )}

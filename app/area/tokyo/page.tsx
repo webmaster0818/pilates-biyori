@@ -55,6 +55,7 @@ const studios = [
   },
   {
     name: 'ピラティスK',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
     price: '月4回 13,420円〜',
     trial: '無料体験レッスン',

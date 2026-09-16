@@ -53,6 +53,7 @@ const studios = [
   },
   {
     name: 'ピラティスK 渋谷店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp', reviewCount: 107,
     price: '月4回 11,220円〜', trial: '体験レッスンあり',
     features: ['女性専用マシングループ', '月4回11,220円〜', 'ボディメイク特化', '渋谷駅近'],
