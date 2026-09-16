@@ -284,6 +284,10 @@ export const BRANDS: BrandInfo[] = [
       { q: 'Pilates KASANEの料金はいくらですか？', a: '当サイト掲載店舗では月4回15,400円〜が代表的です。店舗により異なるため公式情報をご確認ください。' },
       { q: '体験レッスンはありますか？', a: '体験レッスンを実施しており、980円〜3,000円の掲載例があります。' },
     ],
+    // 公式ドメインを実機で確認（2026-09-16）。提携はしていないのでアフィリリンクではない。
+    ctaUrl: 'https://pilates-kasane.jp/',
+    ctaLabel: '公式サイトで詳細を見る',
+    officialRef: { label: 'Pilates KASANE公式サイト', url: 'https://pilates-kasane.jp/' },
     isPartner: false,
     officialStores: { count: 42, kind: '一覧実数', sourceUrl: 'https://pilates-kasane.jp/studio/', asOf: '2026年7月' },
     useHyoban: true,
@@ -304,6 +308,10 @@ export const BRANDS: BrandInfo[] = [
       { q: 'BDC PILATESは月額制ですか？', a: '月額制に加えて1回ごとのチケット制の掲載例があります。店舗によりプランが異なるため公式情報をご確認ください。' },
       { q: '体験レッスンはありますか？', a: '体験レッスンを実施しており、2,200円〜3,850円の掲載例があります。' },
     ],
+    // 公式ドメインを実機で確認（2026-09-16）。提携はしていないのでアフィリリンクではない。
+    ctaUrl: 'https://www.bdcpilates.com/',
+    ctaLabel: '公式サイトで詳細を見る',
+    officialRef: { label: 'BDC PILATES公式サイト', url: 'https://www.bdcpilates.com/' },
     isPartner: false,
     useHyoban: true,
   },
