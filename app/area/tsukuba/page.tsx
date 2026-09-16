@@ -178,6 +178,39 @@ const studios = [
       facilities: ['リフォーマー', '整体設備', '完全個室', '更衣室'],
     },
   },
+  {
+    name: 'マシンピラティススタジオReMore（リモア）',
+    officialUrl: 'http://studio-remore.com',
+    image: '/images/studios/remore.webp',
+    price: 'パーソナル 4回 36,000円（税込）',
+    trial: '体験レッスン 3,000円（通常5,000円・オープニングキャンペーン）',
+    features: ['女性専用', '完全個室', 'マンツーマン', '駐車場あり'],
+    description: '2026年9月10日に流山市からつくば市へ移転オープンした女性専用のマシンピラティススタジオ。完全個室・完全予約制で、インストラクターとマンツーマンのオーダーメイド指導を受けられる。つくば駅・研究学園駅から車で10分、洞峰公園から徒歩5分。駐車場・駐輪場あり。',
+    access: 'つくば駅・研究学園駅から車で10分／洞峰公園から徒歩5分',
+    address: '茨城県つくば市二の宮3-25-25 HappyOrange302号室',
+    popularPlan: {
+      name: 'パーソナル 4回',
+      description: '完全個室でインストラクターとマンツーマン。一人ひとりに合わせたオーダーメイド指導。',
+      price: '4回 36,000円（税込）',
+    },
+    options: [
+      'パーソナル 8回 68,000円／12回 96,000円（税込）',
+      'ペアトレーニング 4回 22,000円（1名につき・税込）',
+      'ペアトレーニング 8回 40,000円（1名につき・税込）',
+      'ボディメイク×ピラティス養成講座 150,000円（モニター価格 100,000円・定員あり）',
+      '体験レッスン 3,000円（通常5,000円／初めての方のみ・60分・カウンセリングと姿勢分析つき）',
+    ],
+    userProfile: {
+      ageRange: '公式サイトに記載なし',
+      genderRatio: '女性100%（女性専用）',
+      purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '歪みの改善'],
+    },
+    basicInfo: {
+      hours: '9:30〜19:30',
+      closed: '年末年始',
+      facilities: ['更衣スペース', '駐車場', '駐輪場'],
+    },
+  },
 ]
 
 const faqs = [
@@ -238,9 +271,9 @@ export default function TsukubaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月15日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月16日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026年6月最新】ピラティスつくばおすすめ10選！<br className="hidden md:block" />
+              【2026年6月最新】ピラティスつくばおすすめ6選！<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！
             </h1>
           </div>
@@ -285,7 +318,7 @@ export default function TsukubaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、つくばエリアでおすすめのピラティススタジオ10選をまとめました。
+              そこでこの記事では、つくばエリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -325,7 +358,7 @@ export default function TsukubaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              つくばのおすすめピラティススタジオ10選
+              つくばのおすすめピラティススタジオ6選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (

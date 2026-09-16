@@ -9,7 +9,7 @@ tags:
   - "比較"
   - "選び方"
 publishedAt: "2026-06-10"
-updatedAt: "2026-09-15"
+updatedAt: "2026-09-16"
 author: "編集部"
 keywords:
   - "オンライン ピラティス"
