@@ -180,6 +180,7 @@ const studios = [
   },
   {
     name: 'Rintosull 下北沢（近隣）',
+    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
     price: '月額制（プランにより異なる）',
     trial: '体験レッスンあり',

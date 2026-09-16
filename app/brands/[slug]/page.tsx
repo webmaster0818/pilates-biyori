@@ -263,6 +263,22 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                   {/* eslint-enable @next/next/no-img-element */}
                 </div>
               )}
+              {brand.slug === 'rintosull' && (
+                <div className="mt-6 flex flex-col items-center gap-4">
+                  {/* eslint-disable @next/next/no-img-element */}
+                  {/* もしもアフィリエイト。クリックURL・画像・計測は pl_id ごとに対で使う */}
+                  <img src="https://i.moshimo.com/af/i/impression?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683" width={1} height={1} alt="" style={{ border: 'none' }} loading="lazy" />
+                  <a href="https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=81643" target="_blank" rel="nofollow noopener noreferrer sponsored" className="hidden md:inline-block">
+                    <img width={300} height={250} alt="Rintosull（リントスル）" className="max-w-full h-auto" src="https://image.moshimo.com/af-img/1870/000000081643.jpg" />
+                  </a>
+                  <img src="https://i.moshimo.com/af/i/impression?a_id=5718892&p_id=5919&pc_id=16494&pl_id=81643" width={1} height={1} alt="" style={{ border: 'none' }} loading="lazy" />
+                  <a href="https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=81644" target="_blank" rel="nofollow noopener noreferrer sponsored" className="md:hidden inline-block">
+                    <img width={250} height={250} alt="Rintosull（リントスル）" className="max-w-full h-auto" src="https://image.moshimo.com/af-img/1870/000000081644.jpg" />
+                  </a>
+                  <img src="https://i.moshimo.com/af/i/impression?a_id=5718892&p_id=5919&pc_id=16494&pl_id=81644" width={1} height={1} alt="" style={{ border: 'none' }} loading="lazy" />
+                  {/* eslint-enable @next/next/no-img-element */}
+                </div>
+              )}
               {brand.slug === 'the-silk' && (
                 <div className="mt-6 flex flex-col items-center gap-4">
                   {/* eslint-disable @next/next/no-img-element */}

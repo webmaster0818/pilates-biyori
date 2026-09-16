@@ -23,6 +23,7 @@ export const metadata = {
 const studios = [
   {
     name: 'Rintosull（リントスル）豊橋店', image: '/images/studios/rintosull.webp', rating: 4.5, reviewCount: 75,
+    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     price: '月4回 8,800円〜', trial: '体験レッスンあり', features: ['低価格','LAVA相互利用','マシン専門','ハイブリッド型レッスン'],
     description: '大型スクリーンとインストラクターの指導を併用したハイブリッド型のレッスンで姿勢改善とボディメイクを目指せるマシンピラティス',
     access: '豊橋市内（詳細は公式サイトでご確認ください）', address: '愛知県豊橋市（詳細は公式サイトでご確認ください）',

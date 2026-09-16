@@ -23,6 +23,7 @@ export const metadata = {
 const studios = [
   {
     name: 'Rintosull（リントスル）阪神尼崎店', image: '/images/studios/rintosull.webp', rating: 4.5, reviewCount: 88,
+    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     price: '月4回 8,800円〜', trial: '体験レッスンあり（AI姿勢診断付き）', features: ['低価格','AI姿勢分析','LAVA相互利用','マシン専門'],
     description: 'ホットヨガLAVAの姉妹ブランド。体験レッスンではAI姿勢分析アプリを使った姿勢診断が受けられる。月4回8,800円〜と低価格',
     access: '阪神「尼崎駅」徒歩圏内', address: '兵庫県尼崎市（詳細は公式サイトでご確認ください）',

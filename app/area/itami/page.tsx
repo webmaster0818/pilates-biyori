@@ -23,6 +23,7 @@ export const metadata = {
 const studios = [
   {
     name: 'Rintosull（リントスル）イオンモール伊丹店', image: '/images/studios/rintosull.webp', rating: 4.5, reviewCount: 110,
+    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     price: '月4回 10,000円程度', trial: '体験レッスンあり', features: ['伊丹駅徒歩1分','LAVA相互利用','低価格','イオンモール内'],
     description: 'ホットヨガLAVAの姉妹ブランド。伊丹駅より徒歩1分のイオンモール内。月4回10,000円程度で通い放題は15,000円程度と低価格',
     access: 'JR「伊丹駅」/ 阪急「伊丹駅」徒歩1分（イオンモール伊丹内）', address: '兵庫県伊丹市 イオンモール伊丹内',

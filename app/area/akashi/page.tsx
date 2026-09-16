@@ -20,6 +20,7 @@ export const metadata = {
 const studios = [
   {
     name: 'Rintosull（リントスル）明石店', image: '/images/studios/rintosull.webp', rating: 4.5, reviewCount: 95,
+    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     price: '月4回 8,800円〜', trial: '体験レッスンあり', features: ['女性専用','低価格','LAVA相互利用','マシン専門'],
     description: 'ホットヨガLAVAの姉妹ブランドの女性専用マシンピラティス専門スタジオ。大型スクリーンの映像に合わせたレッスンで月4回8,800円〜と低価格',
     access: '明石市内（詳細は公式サイトでご確認ください）', address: '兵庫県明石市（詳細は公式サイトでご確認ください）',

@@ -23,6 +23,7 @@ export const metadata = {
 const studios = [
   {
     name: 'Rintosull（リントスル）エコール・いずみ店', image: '/images/studios/rintosull.webp', rating: 4.5, reviewCount: 65,
+    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     price: '月4回 8,800円〜', trial: '体験レッスンあり', features: ['和泉中央駅直結','LAVA相互利用','低価格','駐車場完備'],
     description: 'ホットヨガLAVAの姉妹ブランド。泉北高速鉄道「和泉中央駅」直結のエコール・いずみ東館3Fに位置し駐車場・駐輪場も完備',
     access: '泉北高速鉄道「和泉中央駅」直結（エコール・いずみ東館3F）', address: '兵庫県和泉市 エコール・いずみ東館3F',

@@ -30,6 +30,7 @@ const studios = [
   },
   {
     name: 'Rintosull（リントスル）イオンタウン千種店', image: '/images/studios/rintosull.webp', rating: 4.5, reviewCount: 70,
+    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     price: '月4回 8,800円〜', trial: '体験レッスンあり', features: ['低価格','LAVA相互利用','イオンタウン内','マシン専門'],
     description: 'ホットヨガLAVAの姉妹ブランド。イオンタウン千種内に位置し月4回8,800円〜と低価格',
     access: 'イオンタウン千種内', address: '名古屋市千種区 イオンタウン千種内',

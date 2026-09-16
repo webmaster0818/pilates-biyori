@@ -114,6 +114,7 @@ const studios = [
   },
   {
     name: 'Rintosull（リントスル）港区エリア',
+    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp', reviewCount: 88,
     price: 'お問い合わせください', trial: '体験レッスンあり',
     features: ['LAVA系列', 'マシンピラティス専門', '予約不要', '都内133店舗'],

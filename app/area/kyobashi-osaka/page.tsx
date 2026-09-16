@@ -22,6 +22,7 @@ export const metadata = {
 const studios = [
   {
     name: 'Rintosull（リントスル）京橋店',
+    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp', reviewCount: 132,
     price: '月額 8,800円〜', trial: '体験レッスンあり',
     features: ['京橋駅徒歩1分', '女性専用', '通い放題あり', '映像×インストラクター'],

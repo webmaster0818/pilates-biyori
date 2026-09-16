@@ -287,6 +287,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'マシンピラティススタジオRintosull イオンモール秋田店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-akita.webp',
         rating: 4.5,
         price: '月会費 8,800円～16,800円',
@@ -457,6 +458,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'マシンピラティススタジオRintosull 福島黒岩店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-fukushima.webp',
         rating: 4.5,
         price: '4・フルタイム 8,800円/月～16,800円/月',
@@ -691,6 +693,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Rintosull 高崎店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-takasaki.webp',
         rating: 4.5,
         price: 'マシンピラティス月4回 ¥8,800/月',
@@ -847,6 +850,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Rintosull 茅ヶ崎店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-chigasaki.webp',
         rating: 4.5,
         price: 'マンスリー4 ¥8,800/月〜',
@@ -936,6 +940,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Rintosull 平塚店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-hiratsuka.webp',
         rating: 4.5,
         price: '4・フルタイム ¥8,800/月〜',
@@ -1014,6 +1019,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Rintosull 横須賀中央店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-yokosuka.webp',
         rating: 4.5,
         price: '4・フルタイム ¥8,800/月〜',
@@ -1069,6 +1075,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Rintosull たまプラーザ店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-tamaplaza.webp',
         rating: 4.5,
         price: '月4回プラン ¥8,800/月〜',
@@ -1247,6 +1254,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Rintosull フルルガーデン八千代店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-yachiyo.webp',
         rating: 4.5,
         price: '月4回プラン ¥8,800/月〜',
@@ -1358,6 +1366,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Rintosull 和光市店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-wakoshi.webp',
         rating: 4.5,
         price: '4・フルタイム ¥8,800/月〜',
@@ -1402,6 +1411,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Rintosull 武蔵浦和店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-musashiurawa.webp',
         rating: 4.5,
         price: 'フォー・フルタイム ¥8,800/月〜',
@@ -1435,6 +1445,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Rintosull 本川越店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-honkawagoe.webp',
         rating: 4.5,
         price: '4・フルタイム ¥8,800/月〜',
@@ -1479,6 +1490,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Rintosull ふじみ野店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-fujimino.webp',
         rating: 4.5,
         price: '月4回プラン ¥8,800/月〜',
@@ -1535,6 +1547,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Rintosull 高槻店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-takatsuki.webp',
         rating: 4.5,
         price: 'マシン月4回 ¥8,800/月〜',
@@ -1569,6 +1582,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Rintosull 豊中店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-toyonaka.webp',
         rating: 4.5,
         price: '4・フルタイム ¥8,800/月〜',
@@ -1602,6 +1616,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Rintosull 布施店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-higashiosaka.webp',
         rating: 4.5,
         price: '4・フルタイム ¥8,800/月〜',
@@ -1646,6 +1661,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Rintosull 近鉄八尾店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-yao.webp',
         rating: 4.5,
         price: '月4回プラン ¥8,800/月〜',
@@ -1679,6 +1695,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Rintosull 寝屋川店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-neyagawa.webp',
         rating: 4.5,
         price: '月4回プラン ¥8,800/月〜',
@@ -1778,6 +1795,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Rintosull ソリオ宝塚店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-takarazuka.webp',
         rating: 4.5,
         price: '4・フルタイム ¥8,800/月〜',
@@ -1867,6 +1885,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Rintosull 川西能勢口店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-kawanishi.webp',
         rating: 4.5,
         price: 'フォープラン ¥8,800/月〜',
@@ -1951,6 +1970,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Rintosull 京都桂店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-arashiyama.webp',
         rating: 4.5,
         price: '4・フルタイム ¥8,800/月〜',
@@ -1985,6 +2005,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'Rintosull ツインゲート橿原店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-kashihara.webp',
         rating: 4.5,
         price: '4・フルタイム ¥8,800/月〜',
@@ -2185,6 +2206,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'マシンピラティススタジオRintosull アリオ倉敷店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-kurashiki.webp',
         rating: 4.2,
         price: '月4回 8,800円〜 / 通い放題 13,800円',
@@ -2251,6 +2273,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'マシンピラティススタジオRintosull 岡崎店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-okazaki.webp',
         rating: 4.1,
         price: '月4回 8,800円 / 通い放題 13,800円',
@@ -2387,6 +2410,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'マシンピラティススタジオRintosull ららぽーと沼津店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-numazu.webp',
         rating: 4.2,
         price: '月4回 8,800円 / 2店舗通い放題 13,800円',
@@ -2494,6 +2518,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'マシンピラティススタジオRintosull イオンモール大垣店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-ogaki.webp',
         rating: 4.1,
         price: '月4回 8,800円 / フルタイム 16,800円',
@@ -2522,6 +2547,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'マシンピラティススタジオRintosull イオンモール各務原店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-kakamigahara.webp',
         rating: 4.2,
         price: '月4回 8,800円 / 2店舗通い放題 13,800円',
@@ -2665,6 +2691,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'マシンピラティススタジオRintosull イオン旭川春光店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-asahikawa.webp',
         rating: 4.2,
         price: '月4回 8,800円 / 2店舗通い放題 13,800円',
@@ -2771,6 +2798,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'マシンピラティススタジオRintosull 帯広店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-obihiro.webp',
         rating: 4.2,
         price: '月4回 8,800円 / 2店舗通い放題 10,800円',
@@ -3118,6 +3146,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'マシンピラティススタジオRintosull 香椎店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull-kashii.webp',
         rating: 4.2,
         price: '月4・フルタイム 8,800円 / ライト 13,800円 / プレミアム 16,800円',
@@ -3207,6 +3236,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Rintosull（リントスル）本郷三丁目店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull.webp',
         price: '詳細は公式サイト参照',
         trial: '体験レッスンあり（詳細は公式サイト参照）',
@@ -3334,7 +3364,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Rintosull 堺東店',
-        officialUrl: 'https://rintosull.jp/shop/osaka/sakaihigashi/',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull.webp',
         price: '月4回 8,800円／通い放題 13,800円〜（税込）',
         trial: '体験レッスン 無料（約30分）',
@@ -3558,7 +3588,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Rintosull 駒込店',
-        officialUrl: 'https://rintosull.jp/shop/tokyo/komagome/',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull.webp',
         price: '月4回 8,800円／プレミアムフリー 16,800円（税込）',
         trial: '体験レッスン 無料',
@@ -3692,7 +3722,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Rintosull 上大岡店',
-        officialUrl: 'https://rintosull.jp/shop/kanagawa/kamioooka/',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull.webp',
         price: '月4回 8,800円／プレミアムフリー 16,800円（税込月額）',
         trial: '無料体験会あり',
@@ -3805,7 +3835,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Rintosull 津田沼店',
-        officialUrl: 'https://rintosull.jp/shop/chiba/tsudanuma/',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull.webp',
         price: '月4回 8,800円／プレミアムフリー 16,800円（税込月額）',
         trial: '体験 無料',
@@ -3835,7 +3865,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Rintosull 本八幡店',
-        officialUrl: 'https://rintosull.jp/shop/chiba/motoyawata/',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull.webp',
         price: '月4回 8,800円／2店舗通い放題 13,800円（税込）',
         trial: '無料体験会あり',
@@ -4087,7 +4117,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Rintosull 新小岩店',
-        officialUrl: 'https://rintosull.jp/shop/tokyo/shinkoiwa/',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull.webp',
         price: '月4回 8,800円／プレミアムフリー 16,800円（税込月額）',
         trial: '体験 無料',
@@ -5079,7 +5109,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Rintosull 青物横丁店',
-        officialUrl: 'https://rintosull.jp/shop/tokyo/aomonoyokocho/',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull.webp',
         price: 'マンスリー4 8,800円／プレミアムフリー 16,800円（税込月額）',
         trial: '体験 0円',
@@ -5697,7 +5727,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'マシンピラティス Rintosull ららぽーと安城店',
-        officialUrl: 'https://rintosull.jp/shop/aichi/lp_anjyo/',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull.webp',
         price: '月4回 8,800円／プレミアムフリー 16,800円（税込月額）',
         trial: '無料体験会あり',
@@ -6327,7 +6357,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'マシンピラティススタジオ Rintosull 大阪上本町店',
-        officialUrl: 'https://rintosull.jp/shop/osaka/osakauehonmachi/',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull.webp',
         price: '月4回8,800円／通い放題13,800円／全店通い放題16,800円',
         trial: '無料体験会あり',
@@ -6489,7 +6519,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'マシンピラティススタジオ Rintosull イオンモール伊丹店',
-        officialUrl: 'https://rintosull.jp/shop/hyogo/aeon_itami/',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull.webp',
         price: '月4回8,800円／通い放題13,800円／全店通い放題16,800円（運営管理費680円/月）',
         trial: '無料体験会あり',
@@ -6644,6 +6674,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'マシンピラティス Rintosull 船橋店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull.webp',
         price: '月4回 8,800円〜',
         trial: '体験レッスン 1,000円',
@@ -6980,7 +7011,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'マシンピラティススタジオ Rintosull 南越谷店',
-        officialUrl: 'https://rintosull.jp/shop/saitama/minami-koshigaya/',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
         image: '/images/studios/rintosull.webp',
         price: '月4回 8,800円／ライト13,800円／プレミアムフリー16,800円（運営管理費680円/月）',
         trial: '無料体験会あり',

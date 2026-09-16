@@ -40,6 +40,7 @@ const studios = [
   },
   {
     name: 'Rintosull（リントスル）マイプラザ南富山店', image: '/images/studios/rintosull.webp', rating: 4.5, reviewCount: 50,
+    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     price: '月4回 8,800円〜', trial: '体験レッスンあり', features: ['低価格','LAVA相互利用','マイプラザ内','マシン専門'],
     description: 'ホットヨガLAVAの姉妹ブランド。マイプラザ南富山内に位置し月4回8,800円〜と低価格',
     access: 'マイプラザ南富山内', address: '富山県富山市 マイプラザ南富山内',

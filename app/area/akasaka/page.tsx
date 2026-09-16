@@ -213,6 +213,7 @@ const studios = [
   },
   {
     name: 'Rintosull 赤坂見附',
+    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
     price: 'マンスリー4 要確認',
     trial: 'キャンペーン価格あり',
