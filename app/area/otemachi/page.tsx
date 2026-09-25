@@ -110,7 +110,7 @@ const studios = [
       '体験当日の入会で月会費がずっと10%OFF（セミパーソナル月4回 17,600円）',
     ],
     userProfile: {
-      ageRange: '20代〜50代が中心',
+      ageRange: '20代〜40代が中心',
       genderRatio: '女性100%（女性専用）',
       purpose: ['ボディメイク', '姿勢改善', 'コスパ重視', '継続的な運動'],
     },
@@ -202,7 +202,7 @@ export default function OtemachiPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月16日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月18日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス大手町・東京駅おすすめ5選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！

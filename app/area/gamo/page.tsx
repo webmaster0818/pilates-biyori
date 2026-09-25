@@ -60,13 +60,13 @@ export default function Page() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月16日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月18日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026年7月最新】ピラティス蒲生おすすめスタジオ<br className="hidden md:block" />
               人気スタジオの料金プランを徹底比較！
             </h1>
             <p className="text-warm-700 text-sm md:text-base leading-relaxed mt-4">
-              東武スカイツリーラインの蒲生は越谷市のエリアで、徒歩約10分の新越谷・南越谷（大型乗換駅）と一体です。駅近はPilates Mee蒲生店、本格的な比較は新越谷・南越谷駅前にマシンピラティス専門店が集まります。主要駅は蒲生駅。本ページでは蒲生エリア（駅近＋徒歩圏・近隣駅）で公式情報をもとに比較できるピラティススタジオをまとめました。
+              東武スカイツリーラインの蒲生は越谷市のエリアで、徒歩約10分の新越谷・南越谷（大型乗換駅）と一体です。蒲生駅の駅前にスタジオはないため、実際の比較対象は新越谷・南越谷駅前に集まるマシンピラティス専門店になります。主要駅は蒲生駅。本ページでは蒲生エリア（駅近＋徒歩圏・近隣駅）で公式情報をもとに比較できるピラティススタジオをまとめました。
             </p>
           </div>
         </section>

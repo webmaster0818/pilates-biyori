@@ -202,9 +202,9 @@ export default function MusashikoyamaPage() {
         {/* Hero */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月16日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月18日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス武蔵小山おすすめ5選！
+              【2026最新】ピラティス武蔵小山おすすめ4選！
               <br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
@@ -239,7 +239,7 @@ export default function MusashikoyamaPage() {
               武蔵小山は東急目黒線で目黒まで約3分、大井町線も利用可能な便利なエリア。パルム商店街をはじめ活気ある商店街が魅力の街です。そんな武蔵小山エリアには、大手チェーンのグループレッスンから完全パーソナルまで、多彩なピラティススタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、武蔵小山エリアでおすすめの実在するピラティススタジオ5選をまとめました。
+              そこでこの記事では、武蔵小山エリアでおすすめの実在するピラティススタジオ4選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -276,7 +276,7 @@ export default function MusashikoyamaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              武蔵小山のおすすめピラティススタジオ5選
+              武蔵小山のおすすめピラティススタジオ4選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -560,7 +560,7 @@ export default function MusashikoyamaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は武蔵小山エリアのおすすめピラティススタジオ5選をご紹介しました。
+              今回は武蔵小山エリアのおすすめピラティススタジオ4選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               武蔵小山は東急目黒線で目黒まで約3分の好立地で、パルム商店街をはじめ活気ある街です。全国150店舗で相互利用可能なzen place pilates（体験1,000円・駅徒歩1分）、コナミスポーツ運営のピラティスミラー（月6回11,000円・30分レッスン）、完全パーソナルのSTUDIO IVY（月2回15,000円〜・オーダーメイド）、駅直結のアトリオドゥーエNext（少人数制・総合施設）、マシンピラティス専門のTwo Three（最大8名・正確な姿勢重視）と、それぞれ特徴の異なるスタジオが揃っています。

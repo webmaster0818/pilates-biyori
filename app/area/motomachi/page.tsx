@@ -15,7 +15,7 @@ import { AreaConclusion } from '@/components/AreaConclusion'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/motomachi/' },
-  title: '【2026年9月最新】元町のピラティススタジオおすすめ7選｜無料体験・料金で比較',
+  title: '【2026年9月最新】元町のピラティススタジオおすすめ6選｜無料体験・料金で比較',
   description: '元町のピラティススタジオ7社を無料体験・料金・マシン対応で比較。各スタジオの料金プラン・アクセス・選び方のポイントを実データでまとめました。',
   keywords: 'ピラティス,元町,神戸,兵庫,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -268,9 +268,9 @@ export default function MotomachiPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月16日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月18日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス元町おすすめ7選！<br className="hidden md:block" />
+              【2026最新】ピラティス元町おすすめ6選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -316,7 +316,7 @@ export default function MotomachiPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、神戸元町エリアでおすすめのピラティススタジオ7選をまとめました。
+              そこでこの記事では、神戸元町エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -355,7 +355,7 @@ export default function MotomachiPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              元町のおすすめピラティススタジオ7選
+              元町のおすすめピラティススタジオ6選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (

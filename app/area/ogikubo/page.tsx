@@ -297,9 +297,9 @@ export default function OgikuboAreaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月16日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月18日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026年6月最新】ピラティス荻窪おすすめ7選！<br className="hidden md:block" />
+              【2026年6月最新】ピラティス荻窪おすすめ6選！<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！
             </h1>
           </div>
@@ -344,7 +344,7 @@ export default function OgikuboAreaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、JR中央線・総武線・東京メトロ丸ノ内線荻窪駅周辺でおすすめのピラティススタジオ7選をまとめました。杉並区の中心に位置し、ラーメンの街としても知られる荻窪エリア。ルミネ荻窪をはじめとする商業施設が充実した便利な街で、2024年に拡張移転やオープンした最新スタジオも含め、厳選してご紹介します。
+              そこでこの記事では、JR中央線・総武線・東京メトロ丸ノ内線荻窪駅周辺でおすすめのピラティススタジオ6選をまとめました。杉並区の中心に位置し、ラーメンの街としても知られる荻窪エリア。ルミネ荻窪をはじめとする商業施設が充実した便利な街で、2024年に拡張移転やオープンした最新スタジオも含め、厳選してご紹介します。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -384,7 +384,7 @@ export default function OgikuboAreaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              荻窪のおすすめピラティススタジオ7選
+              荻窪のおすすめピラティススタジオ6選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (

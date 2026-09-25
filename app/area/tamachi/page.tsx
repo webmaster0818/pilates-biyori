@@ -358,8 +358,8 @@ export default function TamachiPage() {
       <main className="pt-20 bg-white">
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月16日</p>
-            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026年7月最新】ピラティス田町・三田おすすめ12選！<br className="hidden md:block" />料金・体験レッスン・マシン対応を比較！</h1>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月18日</p>
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026年7月最新】ピラティス田町・三田おすすめ10選！<br className="hidden md:block" />料金・体験レッスン・マシン対応を比較！</h1>
           </div>
         </section>
         <section className="bg-white py-3 border-b border-warm-100">
@@ -375,7 +375,7 @@ export default function TamachiPage() {
             <p className="text-warm-600 leading-relaxed font-medium mb-6">「田町・三田でピラティスを始めたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">「駅近で通いやすいスタジオを知りたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
-            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、田町・三田・芝浦・品川エリアでおすすめのピラティススタジオ12選をまとめました。JR山手線・京浜東北線「田町駅」や都営浅草線・三田線「三田駅」周辺のスタジオを中心に、オフィス街・港区エリアで通いやすいスタジオを厳選しています。</p>
+            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、田町・三田・芝浦・品川エリアでおすすめのピラティススタジオ10選をまとめました。JR山手線・京浜東北線「田町駅」や都営浅草線・三田線「三田駅」周辺のスタジオを中心に、オフィス街・港区エリアで通いやすいスタジオを厳選しています。</p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
               <ul className="space-y-2 text-warm-700">
@@ -394,7 +394,7 @@ export default function TamachiPage() {
         <AreaMarketComparison studios={studios} areaName="田町・三田" />
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">田町・三田のおすすめピラティススタジオ12選</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">田町・三田のおすすめピラティススタジオ10選</h2>
             <div className="space-y-8">{[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div>
           </div>
         </section>
@@ -612,7 +612,7 @@ export default function TamachiPage() {
         <section className="py-16 bg-warm-50">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
-            <p className="text-warm-600 leading-relaxed mb-6">今回は田町・三田・芝浦エリアのおすすめピラティススタジオ12選をご紹介しましたが、いかがでしたか？</p>
+            <p className="text-warm-600 leading-relaxed mb-6">今回は田町・三田・芝浦エリアのおすすめピラティススタジオ10選をご紹介しましたが、いかがでしたか？</p>
             <p className="text-warm-600 leading-relaxed mb-6">田町はJR山手線・京浜東北線と都営三田線・浅草線が利用でき、港区のオフィス街として仕事帰りに通いやすいエリアです。zen placeが2店舗（三田・田町）あるほか、CLUB PILATESやthe SILKなどの大手チェーンも充実。B&BやSTUDIO IVY、hibiなどのパーソナル専門スタジオも豊富で、月額3,278円のchocoZAPから通い放題43,780円のELEMENTまで幅広い選択肢があります。</p>
             <p className="text-warm-600 leading-relaxed mb-6">ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。</p>
             <p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p>

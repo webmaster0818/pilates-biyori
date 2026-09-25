@@ -2860,16 +2860,6 @@
       "areaName": "下大利"
     },
     {
-      "name": "Pilates Mee蒲生店",
-      "price": "セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）",
-      "trial": "初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）",
-      "officialUrl": "https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808",
-      "address": "埼玉県越谷市蒲生西町2丁目8-7 信用第二ビル105号室",
-      "access": "蒲生駅から徒歩7分",
-      "areaSlug": "gamo",
-      "areaName": "蒲生"
-    },
-    {
       "name": "Pilates Mee千葉中央店",
       "price": "セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）",
       "trial": "初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）",
@@ -2878,16 +2868,6 @@
       "access": "葭川公園駅 徒歩3分／京成千葉線 千葉中央駅東口 徒歩5分／JR千葉駅東口 徒歩15分",
       "areaSlug": "chiba-chuo",
       "areaName": "千葉中央"
-    },
-    {
-      "name": "Pilates Mee仙台店",
-      "price": "セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）",
-      "trial": "初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）",
-      "officialUrl": "https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808",
-      "address": "宮城県仙台市青葉区立町2-7 COVER TACHIMACHI 302",
-      "access": "大町西公園駅から徒歩5分",
-      "areaSlug": "omachi-nishi-koen",
-      "areaName": "大町西公園"
     },
     {
       "name": "Pilates Mee赤羽店",
@@ -3328,16 +3308,6 @@
       "access": "仙川駅 徒歩4分",
       "areaSlug": "sengawa",
       "areaName": "仙川"
-    },
-    {
-      "name": "Pilates Mee志木店",
-      "price": "セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）",
-      "trial": "初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）",
-      "officialUrl": "https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808",
-      "address": "埼玉県新座市東北2丁目34-15 ホワイトハイツ小峰302",
-      "access": "志木駅から徒歩4分",
-      "areaSlug": "shiki",
-      "areaName": "志木"
     },
     {
       "name": "Pilates Mee 西中島南方・新大阪店",

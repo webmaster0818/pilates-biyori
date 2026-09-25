@@ -153,7 +153,7 @@ export default function NagoyaStationPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月16日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月18日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス名古屋駅おすすめ5選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
@@ -198,7 +198,7 @@ export default function NagoyaStationPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、名古屋駅エリアでおすすめのピラティススタジオ4選をまとめました。JR・名鉄・近鉄・地下鉄東山線・桜通線が集まる中部地方最大のターミナル駅である名古屋駅周辺には、マット&マシン両対応のスタジオからパーソナル専門、理学療法士監修の本格スタジオまで、さまざまなピラティススタジオがあります。
+              そこでこの記事では、名古屋駅エリアでおすすめのピラティススタジオ5選をまとめました。JR・名鉄・近鉄・地下鉄東山線・桜通線が集まる中部地方最大のターミナル駅である名古屋駅周辺には、マット&マシン両対応のスタジオからパーソナル専門、理学療法士監修の本格スタジオまで、さまざまなピラティススタジオがあります。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -237,7 +237,7 @@ export default function NagoyaStationPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              名古屋駅のおすすめピラティススタジオ4選
+              名古屋駅のおすすめピラティススタジオ5選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -545,7 +545,7 @@ export default function NagoyaStationPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は名古屋駅のおすすめピラティススタジオ4選をご紹介しました。
+              今回は名古屋駅のおすすめピラティススタジオ5選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               名古屋駅はJR・名鉄・近鉄・地下鉄東山線・桜通線が集まる中部地方最大のターミナル駅。マット&マシン両対応のzen place pilates名駅、パーソナル専門の1to1名古屋駅店、理学療法士監修のルルト名駅店、女性専用のRintosull名古屋と、それぞれ特徴の異なるスタジオが揃っています。

@@ -16,7 +16,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/shimbashi/' },
   title: '【2026年9月最新】ピラティス新橋おすすめ11選！料金・体験レッスン・マシン対応を比較！',
-  description: '新橋・銀座エリアのおすすめピラティススタジオ12選を徹底比較。マシンピラティス、パーソナル、女性専用、24時間セルフまで網羅。料金相場・体験レッスン・選び方を完全ガイド。JR新橋駅・銀座線・都営浅草線沿線で仕事帰りに通えるスタジオが見つかります。',
+  description: '新橋・銀座エリアのおすすめピラティススタジオ11選を徹底比較。マシンピラティス、パーソナル、女性専用、24時間セルフまで網羅。料金相場・体験レッスン・選び方を完全ガイド。JR新橋駅・銀座線・都営浅草線沿線で仕事帰りに通えるスタジオが見つかります。',
   keywords: 'ピラティス,新橋,銀座,港区,スタジオ,おすすめ,マシンピラティス,パーソナル,女性専用,体験レッスン,料金,比較',
 }
 
@@ -417,9 +417,9 @@ export default function ShimbashiPage() {
       <main className="pt-20 bg-white">
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月16日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月18日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス新橋おすすめ12選！<br className="hidden md:block" />
+              【2026最新】ピラティス新橋おすすめ11選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -445,7 +445,7 @@ export default function ShimbashiPage() {
             <p className="text-warm-600 leading-relaxed font-medium mb-6">「新橋周辺でピラティスを始めたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">「仕事帰りに通えるピラティススタジオを知りたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
-            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、新橋エリア（港区）でおすすめのピラティススタジオ12選をまとめました。JR山手線・京浜東北線・東海道線新橋駅、東京メトロ銀座線、都営浅草線、ゆりかもめ沿線で通えるスタジオを厳選しています。</p>
+            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、新橋エリア（港区）でおすすめのピラティススタジオ11選をまとめました。JR山手線・京浜東北線・東海道線新橋駅、東京メトロ銀座線、都営浅草線、ゆりかもめ沿線で通えるスタジオを厳選しています。</p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
               <ul className="space-y-2 text-warm-700">
@@ -465,7 +465,7 @@ export default function ShimbashiPage() {
 
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">新橋エリアのおすすめピラティススタジオ12選</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">新橋エリアのおすすめピラティススタジオ11選</h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
                 <StudioCard key={index} studio={studio} index={index} />
@@ -734,7 +734,7 @@ export default function ShimbashiPage() {
         <section className="py-16 bg-warm-50">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
-            <p className="text-warm-600 leading-relaxed mb-6">今回は新橋エリア（港区）のおすすめピラティススタジオ12選についてご紹介してきましたが、いかがでしたか？</p>
+            <p className="text-warm-600 leading-relaxed mb-6">今回は新橋エリア（港区）のおすすめピラティススタジオ11選についてご紹介してきましたが、いかがでしたか？</p>
             <p className="text-warm-600 leading-relaxed mb-6">新橋はJR山手線・京浜東北線・東海道線、東京メトロ銀座線、都営浅草線、ゆりかもめと多くの路線が利用でき、銀座エリアも徒歩圏内という抜群のアクセス。月額3,278円のセルフマシンから、パーソナル専門、女性専用、24時間営業まで、多彩なスタジオが揃っています。</p>
             <p className="text-warm-600 leading-relaxed mb-6">ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。</p>
             <p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p>

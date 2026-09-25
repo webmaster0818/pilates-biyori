@@ -60,13 +60,13 @@ export default function Page() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月16日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月18日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026年7月最新】ピラティス大町西公園おすすめスタジオ<br className="hidden md:block" />
               人気スタジオの料金プランを徹底比較！
             </h1>
             <p className="text-warm-700 text-sm md:text-base leading-relaxed mt-4">
-              仙台市地下鉄東西線の大町西公園は仙台市青葉区のエリアで、一番町商店街・仙台駅も徒歩圏。駅近のPilates Mee仙台店に加え、一番町・仙台駅周辺にマシンピラティス専門店が集まる充実エリアです。主要駅は大町西公園駅。本ページでは大町西公園エリア（駅近＋徒歩圏・近隣駅）で公式情報をもとに比較できるピラティススタジオをまとめました。
+              仙台市地下鉄東西線の大町西公園は仙台市青葉区のエリアで、一番町商店街・仙台駅も徒歩圏。一番町・仙台駅周辺にマシンピラティス専門店が集まる充実エリアです。主要駅は大町西公園駅。本ページでは大町西公園エリア（駅近＋徒歩圏・近隣駅）で公式情報をもとに比較できるピラティススタジオをまとめました。
             </p>
           </div>
         </section>

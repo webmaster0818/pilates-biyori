@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/sakae/' },
   title: '【2026年9月最新】ピラティス栄おすすめ5選！人気スタジオの料金プランを簡単比較！',
-  description: '栄エリアのおすすめピラティススタジオ4選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  description: '栄エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,栄,名古屋,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -99,7 +99,7 @@ const studios = [
       '体験当日の入会で入会金 33,000円 → 0円',
       '体験当日の入会で月会費がずっと10%OFF（セミパーソナル月4回 17,600円）',
     ],
-    userProfile: { ageRange: '20代〜50代', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', '肩こり腰痛改善', '体幹強化'] },
+    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['姿勢改善', 'ボディメイク', '肩こり腰痛改善', '体幹強化'] },
     basicInfo: { hours: '9:00〜21:15', closed: '不定休', facilities: ['女性専用トイレ', '着替えスペース', '全身鏡'] },
   },
 ]
@@ -130,7 +130,7 @@ export default function SakaePage() {
       <main className="pt-20 bg-white">
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月16日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月18日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス栄おすすめ5選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1>
           </div>
         </section>
@@ -145,7 +145,7 @@ export default function SakaePage() {
             <p className="text-warm-600 leading-relaxed font-medium mb-6">「栄でピラティスを始めたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">「名古屋の中心部で通いやすいスタジオを知りたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
-            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、栄エリアでおすすめのピラティススタジオ4選をまとめました。</p>
+            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、栄エリアでおすすめのピラティススタジオ5選をまとめました。</p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
               <ul className="space-y-2 text-warm-700">
@@ -163,7 +163,7 @@ export default function SakaePage() {
         <PriceComparisonTable studios={studios} areaName="栄" />
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">栄エリアのおすすめピラティススタジオ4選</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">栄エリアのおすすめピラティススタジオ5選</h2>
             <div className="space-y-8">{[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div>
           </div>
         </section>
@@ -383,7 +383,7 @@ export default function SakaePage() {
         <section className="py-16 bg-warm-50">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
-            <p className="text-warm-600 leading-relaxed mb-6">今回は栄エリアのおすすめピラティススタジオ4選をご紹介しました。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">今回は栄エリアのおすすめピラティススタジオ5選をご紹介しました。</p>
             <p className="text-warm-600 leading-relaxed mb-6">栄は名古屋市の中心繁華街で、地下鉄東山線・名城線「栄駅」から好アクセス。名古屋最大の商業エリアなので、買い物や食事ついでに通えるのが魅力です。コスパ重視ならRintosull（月4回8,800円〜）、体験無料で始めたいならピラティスK、マット&マシン両方ならzen place、パーソナルならPilates Meeと、目的に合わせて選べます。</p>
             <p className="text-warm-600 leading-relaxed mb-6">ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。</p>
             <p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p>

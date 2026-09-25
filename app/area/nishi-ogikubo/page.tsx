@@ -108,8 +108,8 @@ const studios = [
       '体験当日の入会で月会費がずっと10%OFF（セミパーソナル月4回 17,600円）',
     ],
     userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性専用',
+      ageRange: '20代〜40代が中心',
+      genderRatio: '女性100%（女性専用）',
       purpose: ['ボディメイク', '姿勢改善', 'ダイエット', '運動不足解消'],
     },
     basicInfo: {
@@ -293,9 +293,9 @@ export default function NishiOgikuboAreaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月16日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月18日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス西荻窪おすすめ7選！<br className="hidden md:block" />
+              【2026最新】ピラティス西荻窪おすすめ6選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -338,7 +338,7 @@ export default function NishiOgikuboAreaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、JR中央線・総武線西荻窪駅周辺と中央線沿線（荻窪・阿佐ヶ谷）のおすすめピラティススタジオ7選をまとめました。杉並区のアンティークの街として知られる西荻窪は、善福寺公園も近く、落ち着いた雰囲気の中で通えるスタジオが揃っています。
+              そこでこの記事では、JR中央線・総武線西荻窪駅周辺と中央線沿線（荻窪・阿佐ヶ谷）のおすすめピラティススタジオ6選をまとめました。杉並区のアンティークの街として知られる西荻窪は、善福寺公園も近く、落ち着いた雰囲気の中で通えるスタジオが揃っています。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -377,7 +377,7 @@ export default function NishiOgikuboAreaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              西荻窪のおすすめピラティススタジオ7選
+              西荻窪のおすすめピラティススタジオ6選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (

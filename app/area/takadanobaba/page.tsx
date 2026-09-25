@@ -429,9 +429,9 @@ export default function TakadanobabaPage() {
         {/* Hero */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月16日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月18日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026年7月最新】ピラティス高田馬場おすすめ12選！<br className="hidden md:block" />
+              【2026年7月最新】ピラティス高田馬場おすすめ11選！<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！
             </h1>
           </div>
@@ -464,7 +464,7 @@ export default function TakadanobabaPage() {
             <p className="text-warm-600 leading-relaxed mb-6">「駅近でコスパの良いスタジオを知りたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、高田馬場駅を中心に早稲田・目白・新大久保など近隣エリアも含めたおすすめピラティススタジオ12選をまとめました。
+              そこでこの記事では、高田馬場駅を中心に早稲田・目白・新大久保など近隣エリアも含めたおすすめピラティススタジオ11選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -486,7 +486,7 @@ export default function TakadanobabaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              高田馬場のおすすめピラティススタジオ12選
+              高田馬場のおすすめピラティススタジオ11選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -806,7 +806,7 @@ export default function TakadanobabaPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は高田馬場のおすすめピラティススタジオ12選をご紹介してきましたが、いかがでしたか？
+              今回は高田馬場のおすすめピラティススタジオ11選をご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               高田馬場はJR山手線・西武新宿線・東京メトロ東西線の3路線が利用でき、新宿まで2駅・池袋まで3駅という好アクセス。早稲田大学が近く学生の街としても知られるこのエリアには、月額3,278円のchocoZAPから本格パーソナルのSTUDIO IVYまで、幅広い価格帯のスタジオが揃っています。

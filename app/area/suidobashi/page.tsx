@@ -16,7 +16,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/suidobashi/' },
   title: '【2026年9月最新】ピラティス水道橋・後楽園おすすめ11選！料金・体験レッスン・マシン対応を比較！',
-  description: '水道橋・後楽園エリアのおすすめピラティススタジオ12選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。飯田橋・神保町の近隣スタジオも紹介。',
+  description: '水道橋・後楽園エリアのおすすめピラティススタジオ11選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。飯田橋・神保町の近隣スタジオも紹介。',
   keywords: 'ピラティス,水道橋,後楽園,飯田橋,神保町,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -423,9 +423,9 @@ export default function SuidobashiPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月16日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年09月18日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス水道橋・後楽園おすすめ12選！<br className="hidden md:block" />
+              【2026最新】ピラティス水道橋・後楽園おすすめ11選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -471,7 +471,7 @@ export default function SuidobashiPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、水道橋・後楽園エリアとその周辺（飯田橋・神保町・神楽坂・秋葉原）のおすすめピラティススタジオ12選をまとめました。JR中央・総武線水道橋駅や都営三田線水道橋駅から通いやすいスタジオを厳選しています。
+              そこでこの記事では、水道橋・後楽園エリアとその周辺（飯田橋・神保町・神楽坂・秋葉原）のおすすめピラティススタジオ11選をまとめました。JR中央・総武線水道橋駅や都営三田線水道橋駅から通いやすいスタジオを厳選しています。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -511,7 +511,7 @@ export default function SuidobashiPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              水道橋・後楽園のおすすめピラティススタジオ12選
+              水道橋・後楽園のおすすめピラティススタジオ11選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -780,7 +780,7 @@ export default function SuidobashiPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は水道橋・後楽園エリアとその周辺のおすすめピラティススタジオ12選をご紹介しました。
+              今回は水道橋・後楽園エリアとその周辺のおすすめピラティススタジオ11選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               水道橋・後楽園エリアはJR中央・総武線と都営三田線が交差し、飯田橋・神保町・神楽坂も隣駅で徒歩圏内。東京ドーム近くの文京区・千代田区を中心に、コスパ抜群のchocoZAPやピラティスミラーから、パーソナル専門のSTUDIO IVYやピラティススタジオ ゼロまで、幅広いニーズに応えるスタジオが揃っています。

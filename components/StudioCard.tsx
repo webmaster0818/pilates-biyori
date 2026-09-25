@@ -340,7 +340,11 @@ export function StudioCard({ studio, index }: StudioCardProps) {
                 {studio.address && (
                   <div>
                     <a
-                      href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${studio.name} ${studio.address}`)}`}
+                      href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+                        // ⚠️ 〒番号を入れるとGoogleマップが郵便エリアの中心に寄ることがあるので外す。
+                        //    店名＋番地・ビル名だけにしたほうが目的の建物に落ちる。
+                        `${studio.name} ${studio.address.replace(/〒?\d{3}-?\d{4}\s*/, '').trim()}`,
+                      )}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center justify-center w-full bg-warm-800 text-white px-4 py-3 rounded text-sm font-medium hover:bg-warm-900 transition"
