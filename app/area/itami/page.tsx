@@ -22,6 +22,32 @@ export const metadata = {
 
 const studios = [
   {
+    // 2026-09-25 掲載依頼→返信→先方回答（①〜⑤）を受けて掲載。回答された内容だけを載せる。
+    // ⚠️ 体験レッスンの有無・設備・年齢層は回答が無いので作らない（StudioCardは未設定だと
+    //    架空の既定値を出すため、空文字ではなく「記載なし」「空配列」を明示して渡す）。
+    name: 'マシンピラティス&パーソナルトレーニングジム emovere',
+    officialUrl: 'https://emovere.co.jp',
+    price: '25分コース 2回 8,000円〜 / 50分コース 2回 15,200円〜',
+    trial: '公式サイトでご確認ください',
+    features: ['阪急伊丹駅徒歩2分', 'マシンピラティス', 'パーソナルトレーニング', '男女利用可'],
+    description: '阪急伊丹駅から徒歩2分。マシンピラティスとパーソナルトレーニングを組み合わせ、一人ひとりの体や目標に合わせて指導するジム。運動が初めての方から、姿勢改善・健康維持を目的とする方まで男女問わず利用できます。',
+    access: '阪急伊丹線「伊丹駅」徒歩2分',
+    address: '兵庫県伊丹市中央2丁目2-16 1F',
+    popularPlan: {
+      name: '25分コース',
+      description: 'マシンピラティスとパーソナルトレーニングを組み合わせた短時間のコース。回数券制。',
+      price: '2回 8,000円 / 4回 15,600円 / 6回 22,800円 / 8回 29,600円',
+    },
+    options: [
+      '50分コース 2回 15,200円',
+      '50分コース 4回 29,600円',
+      '50分コース 6回 43,200円',
+      '50分コース 8回 56,000円',
+    ],
+    userProfile: { ageRange: '公式サイトに記載なし', genderRatio: '男女ご利用可', purpose: [] },
+    basicInfo: { hours: '平日・土曜 8:00〜22:00 / 日曜・祝日 8:00〜20:00', closed: '公式サイトに記載なし', facilities: [] },
+  },
+  {
     name: 'Rintosull（リントスル）イオンモール伊丹店', image: '/images/studios/rintosull.webp', rating: 4.5, reviewCount: 110,
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     price: '月4回 10,000円程度', trial: '体験レッスンあり', features: ['伊丹駅徒歩1分','LAVA相互利用','低価格','イオンモール内'],
@@ -127,15 +153,15 @@ export default function ItamiPage() {
         { name: '伊丹', url: 'https://pilates-biyori.com/area/itami/' },
       ]} />
       <main className="pt-20 bg-white">
-        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年09月18日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026年6月最新】ピラティス伊丹おすすめ6選！<br className="hidden md:block" />料金・体験レッスン・マシン対応を比較！</h1></div></section>
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年09月18日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026年6月最新】ピラティス伊丹おすすめ7選！<br className="hidden md:block" />料金・体験レッスン・マシン対応を比較！</h1></div></section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">伊丹</span></nav></div></section>
         <AreaConclusion studios={studios} areaName="伊丹" />
 
         <TableOfContents areaName="伊丹" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
-        <section className="py-12 bg-white"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p><p className="text-warm-600 leading-relaxed mb-6">Pilates-Biyori編集部です！</p><p className="text-warm-600 leading-relaxed mb-6">あなたは、</p><p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p><p className="text-warm-600 leading-relaxed mb-6">「伊丹で人気のピラティススタジオを知りたい」</p><p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p><p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、伊丹エリアでおすすめのピラティススタジオ6選をまとめました。</p><div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8"><h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2><ul className="space-y-2 text-warm-700"><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>伊丹でピラティススタジオを探している</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>無料体験や格安体験のスタジオを知りたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>阪急「伊丹駅」/ JR「伊丹駅」から通いやすいスタジオがいい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較したい</span></li></ul></div><p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p></div></section>
+        <section className="py-12 bg-white"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p><p className="text-warm-600 leading-relaxed mb-6">Pilates-Biyori編集部です！</p><p className="text-warm-600 leading-relaxed mb-6">あなたは、</p><p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p><p className="text-warm-600 leading-relaxed mb-6">「伊丹で人気のピラティススタジオを知りたい」</p><p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p><p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、伊丹エリアでおすすめのピラティススタジオ7選をまとめました。</p><div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8"><h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2><ul className="space-y-2 text-warm-700"><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>伊丹でピラティススタジオを探している</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>無料体験や格安体験のスタジオを知りたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>阪急「伊丹駅」/ JR「伊丹駅」から通いやすいスタジオがいい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較したい</span></li></ul></div><p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p></div></section>
         <PriceComparisonTable studios={studios} areaName="伊丹" />
         <AreaMarketComparison studios={studios} areaName="伊丹" />
-        <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">伊丹のおすすめピラティススタジオ6選</h2><div className="space-y-8">{[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
+        <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">伊丹のおすすめピラティススタジオ7選</h2><div className="space-y-8">{[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
         <section className="py-16 bg-white" id="kodawari"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">目的別おすすめスタジオ</h2><div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
