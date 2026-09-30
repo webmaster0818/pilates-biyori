@@ -8,7 +8,7 @@ tags:
   - "冷え"
   - "むくみ"
 publishedAt: "2026-06-06"
-updatedAt: "2026-09-18"
+updatedAt: "2026-10-01"
 author: "編集部"
 keywords:
   - "ピラティス 冷え性"

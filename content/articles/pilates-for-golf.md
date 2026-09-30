@@ -9,7 +9,7 @@ tags:
   - "腰痛予防"
   - "スポーツピラティス"
 publishedAt: "2026-05-11"
-updatedAt: "2026-09-18"
+updatedAt: "2026-10-01"
 author: "編集部"
 keywords:
   - "ピラティス ゴルフ"
