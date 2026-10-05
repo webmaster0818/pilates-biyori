@@ -258,9 +258,9 @@ export default function KashiwaPage() {
       <FAQSchema faqs={faqs} />
       <Navigation />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '柏', url: 'https://pilates-biyori.com/area/kashiwa/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '柏', url: 'https://biyori-pilates.com/area/kashiwa/' },
       ]} />
 
       <main className="pt-20 bg-white">

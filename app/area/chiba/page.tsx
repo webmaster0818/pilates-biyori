@@ -332,9 +332,9 @@ export default function ChibaAreaPage() {
       <FAQSchema faqs={faqs} />
       <Navigation />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '千葉', url: 'https://pilates-biyori.com/area/chiba/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '千葉', url: 'https://biyori-pilates.com/area/chiba/' },
       ]} />
 
       <main className="pt-20 bg-white">
@@ -806,19 +806,19 @@ export default function ChibaAreaPage() {
                 '@type': 'ListItem',
                 position: 1,
                 name: 'ホーム',
-                item: 'https://pilates-biyori.com',
+                item: 'https://biyori-pilates.com',
               },
               {
                 '@type': 'ListItem',
                 position: 2,
                 name: 'エリアから探す',
-                item: 'https://pilates-biyori.com/area',
+                item: 'https://biyori-pilates.com/area',
               },
               {
                 '@type': 'ListItem',
                 position: 3,
                 name: '千葉',
-                item: 'https://pilates-biyori.com/area/chiba',
+                item: 'https://biyori-pilates.com/area/chiba',
               },
             ],
           }),

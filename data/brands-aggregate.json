@@ -5275,8 +5275,8 @@
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "埼玉県和光市本町1-1 和光フロントワン 2F",
       "access": "東武東上線「和光市駅」南口より徒歩2分",
-      "areaSlug": "yachiyo",
-      "areaName": "八千代"
+      "areaSlug": "wakoshi",
+      "areaName": "和光市"
     },
     {
       "name": "pilates K 川越店",
@@ -6724,8 +6724,8 @@
       "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683",
       "address": "神奈川県横浜市青葉区美しが丘1-4-16 オークスビル2階",
       "access": "東急田園都市線「たまプラーザ駅」より徒歩3分",
-      "areaSlug": "tamaplaza",
-      "areaName": "tamaplaza"
+      "areaSlug": "tama-plaza",
+      "areaName": "たまプラーザ"
     },
     {
       "name": "Rintosull フルルガーデン八千代店",
@@ -6746,8 +6746,8 @@
       "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683",
       "address": "埼玉県和光市本町3-13 タウンコートエクセル2F",
       "access": "東武東上線「和光市駅」南口より徒歩1分",
-      "areaSlug": "yachiyo",
-      "areaName": "八千代"
+      "areaSlug": "wakoshi",
+      "areaName": "和光市"
     },
     {
       "name": "Rintosull 武蔵浦和店",
@@ -6757,8 +6757,8 @@
       "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683",
       "address": "埼玉県さいたま市南区白幡5-18-19 MID KUDOS TERRACE 2F",
       "access": "JR「武蔵浦和駅」東口より徒歩2分",
-      "areaSlug": "musashiurawa",
-      "areaName": "musashiurawa"
+      "areaSlug": "musashi-urawa",
+      "areaName": "武蔵浦和"
     },
     {
       "name": "Rintosull 本川越店",
@@ -6812,8 +6812,8 @@
       "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683",
       "address": "大阪府東大阪市長堂2-1-23 布施FUKU BLD 6F",
       "access": "近鉄大阪線・奈良線「布施駅」東北出口より徒歩2分",
-      "areaSlug": "higashiosaka",
-      "areaName": "higashiosaka"
+      "areaSlug": "higashi-osaka",
+      "areaName": "東大阪"
     },
     {
       "name": "Rintosull 近鉄八尾店",

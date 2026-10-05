@@ -226,9 +226,9 @@ export default function NiigataAreaPage() {
       <FAQSchema faqs={faqs} />
       <Navigation />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '新潟', url: 'https://pilates-biyori.com/area/niigata/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '新潟', url: 'https://biyori-pilates.com/area/niigata/' },
       ]} />
 
       <main className="pt-20 bg-white">
@@ -678,19 +678,19 @@ export default function NiigataAreaPage() {
                 '@type': 'ListItem',
                 position: 1,
                 name: 'ホーム',
-                item: 'https://pilates-biyori.com',
+                item: 'https://biyori-pilates.com',
               },
               {
                 '@type': 'ListItem',
                 position: 2,
                 name: 'エリアから探す',
-                item: 'https://pilates-biyori.com/area',
+                item: 'https://biyori-pilates.com/area',
               },
               {
                 '@type': 'ListItem',
                 position: 3,
                 name: '新潟',
-                item: 'https://pilates-biyori.com/area/niigata',
+                item: 'https://biyori-pilates.com/area/niigata',
               },
             ],
           }),

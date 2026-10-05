@@ -239,9 +239,9 @@ export default function JiyugaokaPage() {
       <FAQSchema faqs={faqs} />
       <Navigation />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '自由が丘', url: 'https://pilates-biyori.com/area/jiyugaoka/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '自由が丘', url: 'https://biyori-pilates.com/area/jiyugaoka/' },
       ]} />
 
       <main className="pt-20 bg-white">

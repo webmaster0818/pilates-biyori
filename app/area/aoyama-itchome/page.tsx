@@ -295,9 +295,9 @@ export default function AoyamaItchomePage() {
       <FAQSchema faqs={faqs} />
       <Navigation />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '青山一丁目', url: 'https://pilates-biyori.com/area/aoyama-itchome/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '青山一丁目', url: 'https://biyori-pilates.com/area/aoyama-itchome/' },
       ]} />
 
       <main className="pt-20 bg-white">

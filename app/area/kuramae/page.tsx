@@ -229,9 +229,9 @@ export default function KuramaePage() {
       <FAQSchema faqs={faqs} />
       <Navigation />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '蔵前', url: 'https://pilates-biyori.com/area/kuramae/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '蔵前', url: 'https://biyori-pilates.com/area/kuramae/' },
       ]} />
 
       <main className="pt-20 bg-white">

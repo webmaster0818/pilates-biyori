@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { Navigation } from '@/components/Navigation'
 import { SiteFooter } from '@/components/SiteFooter'
 import { prefectureAreas } from '@/data/prefectureAreas'
+import { getAllArticles } from '@/lib/mdx'
 
 export const metadata = {
   title: 'サイトマップ',
@@ -11,23 +12,7 @@ export const metadata = {
   },
 }
 
-const articles = [
-  { slug: 'pilates-yoga-difference', title: 'ピラティスとヨガの違い' },
-  { slug: 'mat-machine-difference', title: 'マットとマシンの違い' },
-  { slug: 'machine-pilates-beginner', title: 'マシンピラティス初心者向け' },
-  { slug: 'pilates-frequency', title: 'ピラティスの頻度・通うペース' },
-  { slug: 'pilates-beginner-home', title: '自宅でできるピラティス' },
-  { slug: 'pilates-effect-when', title: 'ピラティスの効果が出る期間' },
-  { slug: 'pilates-daily-effect', title: '毎日のピラティス効果' },
-  { slug: 'pilates-diet-effect', title: 'ピラティスのダイエット効果' },
-  { slug: 'pilates-posture-effect', title: 'ピラティスの姿勢改善効果' },
-  { slug: 'pilates-back-pain', title: 'ピラティスで腰痛改善' },
-  { slug: 'pilates-shoulder-pain', title: 'ピラティスで肩こり改善' },
-  { slug: 'pilates-beginner-studio', title: '初心者向けスタジオの選び方' },
-  { slug: 'pilates-price', title: 'ピラティスの料金相場' },
-  { slug: 'pilates-trial-lesson', title: '体験レッスンのすすめ' },
-  { slug: 'pilates-online', title: 'オンラインピラティスレッスン' },
-]
+const articles = getAllArticles().map((a) => ({ slug: a.frontmatter.slug, title: a.frontmatter.title }))
 
 export default function SitemapPage() {
   return (
@@ -69,13 +54,16 @@ export default function SitemapPage() {
                 <li><Link href="/benefits/" className="text-warm-700 hover:text-warm-900 hover:underline">効果・メリット</Link></li>
                 <li><Link href="/studios/" className="text-warm-700 hover:text-warm-900 hover:underline">スタジオ選び</Link></li>
                 <li><Link href="/area/" className="text-warm-700 hover:text-warm-900 hover:underline">エリア一覧</Link></li>
+                <li><Link href="/articles/" className="text-warm-700 hover:text-warm-900 hover:underline">記事一覧</Link></li>
+                <li><Link href="/ai-soudan/" className="text-warm-700 hover:text-warm-900 hover:underline">AIスタジオ相談</Link></li>
+                <li><Link href="/widget/" className="text-warm-700 hover:text-warm-900 hover:underline">料金相場ウィジェット</Link></li>
               </ul>
             </div>
 
             {/* 記事 */}
             <div>
               <h2 className="text-xl font-bold text-warm-900 mb-4 pb-2 border-b border-warm-200">
-                記事一覧（15記事）
+                記事一覧（{articles.length}記事）
               </h2>
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
                 {articles.map((article) => (

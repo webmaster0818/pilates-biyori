@@ -441,9 +441,9 @@ export default function ToritsuDaigakuPage() {
       <FAQSchema faqs={faqs} />
       <Navigation />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '都立大学', url: 'https://pilates-biyori.com/area/toritsu-daigaku/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '都立大学', url: 'https://biyori-pilates.com/area/toritsu-daigaku/' },
       ]} />
 
       <main className="pt-20 bg-white">

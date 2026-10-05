@@ -331,9 +331,9 @@ export default function NagoyaAreaPage() {
       <FAQSchema faqs={faqs} />
       <Navigation />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '名古屋', url: 'https://pilates-biyori.com/area/nagoya/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '名古屋', url: 'https://biyori-pilates.com/area/nagoya/' },
       ]} />
 
       <main className="pt-20 bg-white">
@@ -816,19 +816,19 @@ export default function NagoyaAreaPage() {
                 '@type': 'ListItem',
                 position: 1,
                 name: 'ホーム',
-                item: 'https://pilates-biyori.com',
+                item: 'https://biyori-pilates.com',
               },
               {
                 '@type': 'ListItem',
                 position: 2,
                 name: 'エリアから探す',
-                item: 'https://pilates-biyori.com/area',
+                item: 'https://biyori-pilates.com/area',
               },
               {
                 '@type': 'ListItem',
                 position: 3,
                 name: '名古屋',
-                item: 'https://pilates-biyori.com/area/nagoya',
+                item: 'https://biyori-pilates.com/area/nagoya',
               },
             ],
           }),

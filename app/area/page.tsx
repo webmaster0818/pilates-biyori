@@ -18,6 +18,8 @@ const regions = [
     areas: [
       { name: '札幌', slug: 'sapporo', available: true },
       { name: '仙台', slug: 'sendai', available: true },
+      { name: '福島', slug: 'fukushima', available: true },
+      { name: '秋田', slug: 'akita', available: true },
     ],
   },
   {
@@ -130,6 +132,7 @@ const regions = [
       { name: '青葉台', slug: 'aobadai', available: true },
       { name: 'たまプラーザ', slug: 'tama-plaza', available: true },
       { name: '大宮', slug: 'omiya', available: true },
+      { name: '高崎', slug: 'takasaki', available: true },
       { name: '千葉', slug: 'chiba', available: true },
     ],
   },
@@ -180,6 +183,8 @@ const regions = [
       { name: '西新', slug: 'nishijin', available: true },
       { name: '小倉', slug: 'kokura', available: true },
       { name: '熊本', slug: 'kumamoto', available: true },
+      { name: '佐賀', slug: 'saga', available: true },
+      { name: '長崎', slug: 'nagasaki', available: true },
       { name: '沖縄', slug: 'okinawa', available: true },
     ],
   },
@@ -190,8 +195,8 @@ export default function AreaPage() {
     <>
       <Navigation />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
       ]} />
 
       <main className="pt-20">

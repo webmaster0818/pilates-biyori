@@ -152,6 +152,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             <nav className="text-sm text-warm-400 mb-8">
               <Link href="/" className="hover:text-warm-800 transition">ホーム</Link>
               {' > '}
+              <Link href="/articles/" className="hover:text-warm-800 transition">記事一覧</Link>
+              {' > '}
               <span className="text-warm-600">{frontmatter.title}</span>
             </nav>
 
@@ -193,7 +195,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             <div className="prose prose-lg max-w-none mb-16 article-content reveal-on">
               <MDXRemote
                 source={content}
-                components={articleComponents}
+                // 本文先頭の「# 見出し」は記事タイトルと重複して h1 が2個になるため h2 で描画する
+                components={{ ...articleComponents, h1: (props: React.ComponentProps<'h2'>) => <h2 {...props} /> }}
                 options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }}
               />
             </div>

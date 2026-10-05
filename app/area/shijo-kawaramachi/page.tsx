@@ -224,9 +224,9 @@ export default function ShijoKawaramachiPage() {
       <FAQSchema faqs={faqs} />
       <Navigation />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '四条河原町', url: 'https://pilates-biyori.com/area/shijo-kawaramachi/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '四条河原町', url: 'https://biyori-pilates.com/area/shijo-kawaramachi/' },
       ]} />
       <main className="pt-20 bg-white">
         {/* Hero */}

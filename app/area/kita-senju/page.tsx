@@ -261,9 +261,9 @@ export default function KitaSenjuPage() {
       <FAQSchema faqs={faqs} />
       <Navigation />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '北千住', url: 'https://pilates-biyori.com/area/kita-senju/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '北千住', url: 'https://biyori-pilates.com/area/kita-senju/' },
       ]} />
 
       <main className="pt-20 bg-white">

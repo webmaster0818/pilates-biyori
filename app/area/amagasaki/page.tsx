@@ -95,9 +95,9 @@ export default function AmagasakiPage() {
       <FAQSchema faqs={faqs} />
       <Navigation />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '尼崎', url: 'https://pilates-biyori.com/area/amagasaki/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '尼崎', url: 'https://biyori-pilates.com/area/amagasaki/' },
       ]} />
       <main className="pt-20 bg-white">
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年10月01日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026年6月最新】ピラティス尼崎おすすめ5選！<br className="hidden md:block" />料金・体験レッスン・マシン対応を比較！</h1></div></section>

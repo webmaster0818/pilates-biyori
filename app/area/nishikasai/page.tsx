@@ -50,9 +50,9 @@ export default function Page() {
     <>
       <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '西葛西', url: 'https://pilates-biyori.com/area/nishikasai/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '西葛西', url: 'https://biyori-pilates.com/area/nishikasai/' },
       ]} />
       <Navigation />
 

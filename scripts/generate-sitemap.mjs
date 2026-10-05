@@ -65,6 +65,8 @@ const STATIC_PAGES = [
   { path: '/studios/', priority: '0.5', changefreq: 'weekly', tier: 't2' },
   { path: '/basics/', priority: '0.5', changefreq: 'weekly', tier: 't2' },
   { path: '/benefits/', priority: '0.5', changefreq: 'weekly', tier: 't2' },
+  { path: '/ai-soudan/', priority: '0.5', changefreq: 'monthly', tier: 'static' },
+  { path: '/widget/', priority: '0.3', changefreq: 'monthly', tier: 'static' },
   { path: '/sitemap/', priority: '0.3', changefreq: 'monthly', tier: 'static' },
   { path: '/about/', priority: '0.3', changefreq: 'monthly', tier: 'static' },
   { path: '/contact/', priority: '0.3', changefreq: 'monthly', tier: 'static' },
@@ -85,6 +87,8 @@ const LASTMOD = {
   static: '2026-04-12',
 }
 
+const CANONICAL_ELSEWHERE = new Set(['tokyo'])
+
 // ---- collectors ---------------------------------------------------------------
 
 function listAreas() {
@@ -93,6 +97,8 @@ function listAreas() {
     .readdirSync(dir, { withFileTypes: true })
     .filter((e) => e.isDirectory() && !e.name.startsWith('_') && !e.name.startsWith('['))
     .map((e) => e.name)
+    // canonical が別ページを指すエリアは載せない（/area/tokyo/ → /area/tokyo-station/）
+    .filter((slug) => !CANONICAL_ELSEWHERE.has(slug))
 }
 
 function listArticles() {

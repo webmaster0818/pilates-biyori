@@ -279,9 +279,9 @@ export default function TennojiPage() {
       <FAQSchema faqs={faqs} />
       <Navigation />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '天王寺', url: 'https://pilates-biyori.com/area/tennoji/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '天王寺', url: 'https://biyori-pilates.com/area/tennoji/' },
       ]} />
 
       <main className="pt-20 bg-white">

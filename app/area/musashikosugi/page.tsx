@@ -220,9 +220,9 @@ export default function MusashikosugiPage() {
       <FAQSchema faqs={faqs} />
       <Navigation />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '武蔵小杉', url: 'https://pilates-biyori.com/area/musashikosugi/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '武蔵小杉', url: 'https://biyori-pilates.com/area/musashikosugi/' },
       ]} />
       <main className="pt-20 bg-white">
         {/* Hero */}

@@ -230,9 +230,9 @@ export default function MonzenNakachoPage() {
       <FAQSchema faqs={faqs} />
       <Navigation />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '門前仲町', url: 'https://pilates-biyori.com/area/monzen-nakacho/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '門前仲町', url: 'https://biyori-pilates.com/area/monzen-nakacho/' },
       ]} />
       <main className="pt-20 bg-white">
         {/* Hero */}

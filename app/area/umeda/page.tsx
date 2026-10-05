@@ -231,9 +231,9 @@ export default function UmedaPage() {
       <FAQSchema faqs={faqs} />
       <Navigation />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '梅田', url: 'https://pilates-biyori.com/area/umeda/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '梅田', url: 'https://biyori-pilates.com/area/umeda/' },
       ]} />
 
       <main className="pt-20 bg-white">

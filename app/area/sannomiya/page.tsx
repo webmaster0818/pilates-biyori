@@ -237,9 +237,9 @@ export default function SannomiyaPage() {
       <FAQSchema faqs={faqs} />
       <Navigation />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '三宮', url: 'https://pilates-biyori.com/area/sannomiya/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '三宮', url: 'https://biyori-pilates.com/area/sannomiya/' },
       ]} />
 
       <main className="pt-20 bg-white">

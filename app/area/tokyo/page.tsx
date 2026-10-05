@@ -301,9 +301,9 @@ export default async function TokyoAreaPage() {
       <FAQSchema faqs={faqs} />
       <Navigation />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '東京', url: 'https://pilates-biyori.com/area/tokyo/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '東京', url: 'https://biyori-pilates.com/area/tokyo/' },
       ]} />
 
       <main className="pt-20 bg-white">
@@ -802,19 +802,19 @@ export default async function TokyoAreaPage() {
                 '@type': 'ListItem',
                 position: 1,
                 name: 'ホーム',
-                item: 'https://pilates-biyori.com',
+                item: 'https://biyori-pilates.com',
               },
               {
                 '@type': 'ListItem',
                 position: 2,
                 name: 'エリアから探す',
-                item: 'https://pilates-biyori.com/area',
+                item: 'https://biyori-pilates.com/area',
               },
               {
                 '@type': 'ListItem',
                 position: 3,
                 name: '東京',
-                item: 'https://pilates-biyori.com/area/tokyo',
+                item: 'https://biyori-pilates.com/area/tokyo',
               },
             ],
           }),

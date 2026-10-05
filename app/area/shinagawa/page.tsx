@@ -198,9 +198,9 @@ export default function ShinagawaPage() {
       <FAQSchema faqs={faqs} />
       <Navigation />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '品川', url: 'https://pilates-biyori.com/area/shinagawa/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '品川', url: 'https://biyori-pilates.com/area/shinagawa/' },
       ]} />
 
       <main className="pt-20 bg-white">

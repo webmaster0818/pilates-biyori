@@ -276,9 +276,9 @@ export default function FunabashiPage() {
       <FAQSchema faqs={faqs} />
       <Navigation />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '船橋', url: 'https://pilates-biyori.com/area/funabashi/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '船橋', url: 'https://biyori-pilates.com/area/funabashi/' },
       ]} />
 
       <main className="pt-20 bg-white">

@@ -233,9 +233,9 @@ export default function GionShijoPage() {
       <FAQSchema faqs={faqs} />
       <Navigation />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '祇園四条', url: 'https://pilates-biyori.com/area/gion-shijo/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '祇園四条', url: 'https://biyori-pilates.com/area/gion-shijo/' },
       ]} />
 
       <main className="pt-20 bg-white">

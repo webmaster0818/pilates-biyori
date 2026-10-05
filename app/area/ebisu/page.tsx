@@ -336,9 +336,9 @@ export default function EbisuPage() {
       <FAQSchema faqs={faqs} />
       <Navigation />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '恵比寿', url: 'https://pilates-biyori.com/area/ebisu/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '恵比寿', url: 'https://biyori-pilates.com/area/ebisu/' },
       ]} />
 
       <main className="pt-20 bg-white">

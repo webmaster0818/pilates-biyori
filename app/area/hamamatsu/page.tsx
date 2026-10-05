@@ -258,9 +258,9 @@ export default function HamamatsuPage() {
       <FAQSchema faqs={faqs} />
       <Navigation />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '浜松', url: 'https://pilates-biyori.com/area/hamamatsu/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '浜松', url: 'https://biyori-pilates.com/area/hamamatsu/' },
       ]} />
 
       <main className="pt-20 bg-white">

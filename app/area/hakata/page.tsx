@@ -282,9 +282,9 @@ export default function HakataPage() {
       <FAQSchema faqs={faqs} />
       <Navigation />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '博多', url: 'https://pilates-biyori.com/area/hakata/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '博多', url: 'https://biyori-pilates.com/area/hakata/' },
       ]} />
 
       <main className="pt-20 bg-white">

@@ -263,9 +263,9 @@ export default function ToyosuPage() {
       <FAQSchema faqs={faqs} />
       <Navigation />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '豊洲', url: 'https://pilates-biyori.com/area/toyosu/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '豊洲', url: 'https://biyori-pilates.com/area/toyosu/' },
       ]} />
 
       <main className="pt-20 bg-white">

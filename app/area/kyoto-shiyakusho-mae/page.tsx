@@ -232,9 +232,9 @@ export default function KyotoShiyakushoMaePage() {
       <FAQSchema faqs={faqs} />
       <Navigation />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '京都市役所前', url: 'https://pilates-biyori.com/area/kyoto-shiyakusho-mae/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '京都市役所前', url: 'https://biyori-pilates.com/area/kyoto-shiyakusho-mae/' },
       ]} />
 
       <main className="pt-20 bg-white">

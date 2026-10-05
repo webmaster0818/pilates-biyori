@@ -320,9 +320,9 @@ export default async function OkayamaAreaPage() {
       <FAQSchema faqs={faqs} />
       <Navigation />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '岡山', url: 'https://pilates-biyori.com/area/okayama/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '岡山', url: 'https://biyori-pilates.com/area/okayama/' },
       ]} />
 
       <main className="pt-20 bg-white">

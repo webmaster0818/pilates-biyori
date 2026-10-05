@@ -49,9 +49,9 @@ export default function Page() {
     <>
       <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={[
-        { name: 'ホーム', url: 'https://pilates-biyori.com/' },
-        { name: '地域別', url: 'https://pilates-biyori.com/area/' },
-        { name: '近江八幡', url: 'https://pilates-biyori.com/area/omihachiman/' },
+        { name: 'ホーム', url: 'https://biyori-pilates.com/' },
+        { name: '地域別', url: 'https://biyori-pilates.com/area/' },
+        { name: '近江八幡', url: 'https://biyori-pilates.com/area/omihachiman/' },
       ]} />
       <Navigation />
 
