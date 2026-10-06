@@ -62,7 +62,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月01日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026年7月最新】ピラティス蕨おすすめスタジオ<br className="hidden md:block" />
+              【2026年10月最新】ピラティス蕨おすすめスタジオ<br className="hidden md:block" />
               人気スタジオの料金プランを徹底比較！
             </h1>
             <p className="text-warm-700 text-sm md:text-base leading-relaxed mt-4">

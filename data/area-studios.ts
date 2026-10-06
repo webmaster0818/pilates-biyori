@@ -3998,16 +3998,8 @@ export const areaStudios: Record<string, AreaData> = {
         access: '蕨駅徒歩2分',
         address: '埼玉県蕨市（詳細は公式サイト参照）',
       },
-      {
-        name: 'Bump Up 蕨店',
-        officialUrl: 'https://bumpup-japan.com/warabi/',
-        price: 'パーソナル月4回 30,800円／グループ月4回 19,800円',
-        trial: '体験 5,000円（カウンセリング無料）',
-        features: ['マシンピラティス×筋トレ', 'パーソナル＋少人数グループ', '理学療法士監修'],
-        description: 'マシンピラティスと筋力トレーニングを組み合わせたパーソナル専門スタジオ。理学療法士監修・韓国メソッド。蕨駅徒歩1分。',
-        access: '蕨駅徒歩1分',
-        address: '埼玉県蕨市（詳細は公式サイト参照）',
-      },
+      // 2026-10-06 「Bump Up 蕨店」を削除。Prima蕨店からの訂正依頼（10/5）で閉店を把握。
+      // 公式 https://bumpup-japan.com/warabi/ は500、本家の店舗一覧にも蕨が無いことを確認。
     ],
   },
 
