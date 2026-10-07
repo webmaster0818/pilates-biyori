@@ -1,4 +1,7 @@
-'use client'
+// ⚠️ 'use client' を付けない（Server Component のまま）。
+//    hooks を使っていないのに Client Component になっていたため、props の studios 配列が
+//    丸ごと RSC ペイロードとして HTML に埋め込まれ、表示していない年齢層・男女比・「不定休」まで
+//    ページに載っていた（2026-10-07）。Server Component なら使う項目しか HTML に出ない。
 
 type Studio = {
   name: string
