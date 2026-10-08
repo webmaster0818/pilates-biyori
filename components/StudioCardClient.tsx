@@ -61,6 +61,8 @@ export type StudioInput = Omit<Studio, 'userProfile' | 'basicInfo'> & {
   basicInfo?: {
     hours?: string
     closed?: string
+    /** 「不定休」は出典の無い旧既定値として表示側で落とす。運営者からの指示など出典がある場合だけ true にして残す（2026-10-08 Pilates Mee 駒沢大学店）。 */
+    closedVerified?: boolean
     facilities?: string[]
   }
 }

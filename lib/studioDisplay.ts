@@ -36,10 +36,13 @@ export function genderLabel(v?: string | null): string | undefined {
   return '女性専用'
 }
 
-export function closedLabel(v?: string | null): string | undefined {
+export function closedLabel(v?: string | null, verified = false): string | undefined {
   if (!v) return undefined
   const t = v.trim()
-  if (!t || t === '不定休' || PLACEHOLDER.test(t)) return undefined
+  if (!t || PLACEHOLDER.test(t)) return undefined
+  // 「不定休」は旧既定値のコピーが968件あり出典が無いので落とす。
+  // ただし運営者から「不定休」と指示があった店舗は closedVerified: true で残す（2026-10-08 Pilates Mee 駒沢大学店・MediaXAI経由）。
+  if (t === '不定休' && !verified) return undefined
   return t
 }
 
@@ -51,7 +54,7 @@ export function hoursLabel(v?: string | null): string | undefined {
 }
 
 type UserProfileIn = { ageRange?: string; genderRatio?: string; purpose?: string[] }
-type BasicInfoIn = { hours?: string; closed?: string; facilities?: string[] }
+type BasicInfoIn = { hours?: string; closed?: string; closedVerified?: boolean; facilities?: string[] }
 
 export function toDisplayUserProfile(p?: UserProfileIn | null): DisplayUserProfile | undefined {
   if (!p) return undefined
@@ -68,7 +71,7 @@ export function toDisplayBasicInfo(b?: BasicInfoIn | null): DisplayBasicInfo | u
   const out: DisplayBasicInfo = {}
   const h = hoursLabel(b.hours)
   if (h) out.hours = h
-  const c = closedLabel(b.closed)
+  const c = closedLabel(b.closed, b.closedVerified === true)
   if (c) out.closed = c
   if (b.facilities && b.facilities.length > 0) out.facilities = b.facilities
   return Object.keys(out).length > 0 ? out : undefined

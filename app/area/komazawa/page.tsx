@@ -113,7 +113,8 @@ const studios = [
     },
     basicInfo: {
       hours: '9:00〜21:15',
-      closed: '店舗にお問い合わせください',
+      closed: '不定休',
+      closedVerified: true, // 2026-10-08 運営者指示（MediaXAI経由・AUN qw76jm）
       facilities: ['女性専用トイレ', '着替えスペース', '全身鏡'],
     },
   },

@@ -53,7 +53,7 @@ const studios = [
       '体験当日の入会で月会費がずっと10%OFF（セミパーソナル月4回 17,600円）',
     ],
     userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
-    basicInfo: { hours: '9:00〜21:15', closed: '店舗にお問い合わせください', facilities: ['女性専用トイレ', '着替えスペース', '全身鏡'] },
+    basicInfo: { hours: '9:00〜21:15', closed: '不定休', closedVerified: true /* 2026-10-08 運営者指示（MediaXAI経由・AUN qw76jm） */, facilities: ['女性専用トイレ', '着替えスペース', '全身鏡'] },
   },
   {
     name: 'PILATES STUDIO noa 駒沢',
