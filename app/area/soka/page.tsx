@@ -50,7 +50,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
     price: 'セミパーソナル（公式サイトで確認）',
-    trial: '体験レッスンあり',
+    trial: '初回体験 9,800円→0円',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
     description: 'セミパーソナル形式で最大3名までの少人数レッスン。一人ひとりに目が行き届く丁寧な指導です。',
     access: '草加駅 徒歩3分',

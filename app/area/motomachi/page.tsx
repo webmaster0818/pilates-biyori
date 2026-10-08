@@ -57,7 +57,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
     price: '月2回 11,000円〜',
-    trial: '体験レッスンあり',
+    trial: '初回体験 9,800円→0円',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
     description: '最大3名までの少人数セミパーソナル形式の女性専用マシンピラティススタジオ。みなと元町駅から徒歩2分。インストラクターが一人ひとりに十分に対応できるセミパーソナル定額制。',
     access: 'みなと元町駅 徒歩2分／元町駅 徒歩6分',

@@ -90,7 +90,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
     price: '1回 1,250円〜',
-    trial: '体験レッスンあり',
+    trial: '初回体験 9,800円→0円',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
     description: '女性専用セミパーソナルマシンピラティススタジオ。最大3名の少人数制で1レッスン1,250円〜の高コスパ。当日予約・当日キャンセルOK。チケット繰り越し可能で無駄なく通える。',
     access: '北千住駅 徒歩3分',
