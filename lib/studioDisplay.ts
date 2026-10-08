@@ -18,6 +18,7 @@ const PLACEHOLDER = /^(詳細は公式サイト参照|公式サイトでご確�
 const WOMEN_ONLY = /女性専用|女性100%|女性限定|女性専門/
 
 export type DisplayUserProfile = {
+  ageRange?: string
   /** '女性専用' か '女性専用（18歳以上）' のような補足付きのみ。パーセント表記は出さない。 */
   genderRatio?: string
   purpose?: string[]
@@ -53,7 +54,7 @@ export function hoursLabel(v?: string | null): string | undefined {
   return t
 }
 
-type UserProfileIn = { ageRange?: string; genderRatio?: string; purpose?: string[] }
+type UserProfileIn = { ageRange?: string; ageRangeVerified?: boolean; genderRatio?: string; purpose?: string[] }
 type BasicInfoIn = { hours?: string; closed?: string; closedVerified?: boolean; facilities?: string[] }
 
 export function toDisplayUserProfile(p?: UserProfileIn | null): DisplayUserProfile | undefined {
@@ -62,7 +63,8 @@ export function toDisplayUserProfile(p?: UserProfileIn | null): DisplayUserProfi
   const g = genderLabel(p.genderRatio)
   if (g) out.genderRatio = g
   if (p.purpose && p.purpose.length > 0) out.purpose = p.purpose
-  // ageRange は出典が無いので常に落とす
+  // ageRange は出典が無いので落とす。運営者から指示のあった店舗（ageRangeVerified）だけ残す（2026-10-08 Pilates Mee Life）
+  if (p.ageRangeVerified === true && p.ageRange && p.ageRange.trim()) out.ageRange = p.ageRange.trim()
   return Object.keys(out).length > 0 ? out : undefined
 }
 

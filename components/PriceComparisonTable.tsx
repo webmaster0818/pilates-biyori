@@ -10,6 +10,9 @@ type Studio = {
   features: string[]
   rating?: number
   reviewCount?: number
+  /** 比較表「パーソナル」の明示指定。未指定なら features の文言から判定する。
+   *  Pilates Mee Life は「セミパーソナル」の語を含むがパーソナルプランが無い（2026-10-08 運営者指示）。 */
+  personal?: boolean
   [key: string]: unknown
 }
 
@@ -66,7 +69,7 @@ export function PriceComparisonTable({ studios: rawStudios, areaName }: Props) {
           {studios.map((studio, i) => {
             const isWomen = extractWomenOnly(studio.features)
             const isMachine = extractMachine(studio.features)
-            const isPersonal = extractPersonal(studio.features)
+            const isPersonal = studio.personal ?? extractPersonal(studio.features)
             return (
               <a
                 key={i}

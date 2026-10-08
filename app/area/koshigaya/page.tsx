@@ -141,11 +141,12 @@ const studios = [
   },
   {
     name: 'Pilates Mee Life越谷店',
+    personal: false, // 2026-10-08 運営者指示（MediaXAI経由・AUN nwy7eb） Life店舗にパーソナルプランは無い
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
     price: '5人制少人数 月4回 14,800円〜（税込）',
     trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
-    features: ['女性専用', 'マシンピラティス専門', '最大5名セミパーソナル＋完全パーソナル'],
+    features: ['女性専用', 'マシンピラティス専門', '最大5名セミパーソナル'],
     description: '女性専用のマシンピラティス専門スタジオ。1セッション最大5名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。越谷駅から徒歩3分。',
     access: '越谷駅から徒歩3分',
     address: '埼玉県越谷市越ヶ谷1丁目1-12 エガワプラザビル6B',
@@ -157,7 +158,8 @@ const studios = [
       '体験当日の入会で月会費がずっと10%OFF（月4回13,200円・通い放題22,000円）',
     ],
     userProfile: {
-      ageRange: '20代〜50代が中心',
+      ageRange: '20代〜40代が中心',
+      ageRangeVerified: true, // 2026-10-08 運営者指示（MediaXAI経由・AUN nwy7eb）
       genderRatio: '女性100%（女性専用）',
       purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '運動習慣づくり'],
     },

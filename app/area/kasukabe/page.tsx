@@ -148,11 +148,13 @@ const studios = [
   },
   {
     name: 'Pilates Mee Life春日部店',
+    personal: false, // 2026-10-08 運営者指示（MediaXAI経由・AUN nwy7eb） Life店舗にパーソナルプランは無い
+    mapUrl: 'https://www.google.com/maps/place/Pilates+Mee+Life%E6%98%A5%E6%97%A5%E9%83%A8%E5%BA%97/@35.9787327,139.7501818,17z/data=!3m1!5s0x6018b936466e76c1:0xb4de20915680c482!4m10!1m2!2m1!1zUGlsYXRlcyBNZWUgTGlmZeaYpeaXpemDqOW6lyDln7znjonnnIzmmKXml6Xpg6jluILkuK3lpK4x5LiB55uuOS00IOmrmOWFg-ODk-ODqzXpmo5BLTE!3m6!1s0x6018b9dbdd11f923:0x93e4d43b4ed660e4!8m2!3d35.979431!4d139.7508863!15sClZQaWxhdGVzIE1lZSBMaWZl5pil5pel6YOo5bqXIOWfvOeOieecjOaYpeaXpemDqOW4guS4reWkrjHkuIHnm645LTQg6auY5YWD44OT44OrNemajkEtMVpmImRwaWxhdGVzIG1lZSBsaWZlIOaYpeaXpemDqCDlupcg5Z-8546JIOecjCDmmKXml6Xpg6gg5biCIOS4reWkriAxIOS4geebriA5IDQg6auYIOWFgyDjg5Pjg6sgNSDpmo4gYSAxkgEOcGlsYXRlc19zdHVkaW_gAQA!16s%2Fg%2F11z7g_xt0z?entry=ttu&g_ep=EgoyMDI2MDkyOS4wIKXMDSoASAFQAw%3D%3D',
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
     price: '5人制少人数 月4回 14,800円〜（税込）',
     trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
-    features: ['女性専用', 'マシンピラティス専門', '最大5名セミパーソナル＋完全パーソナル'],
+    features: ['女性専用', 'マシンピラティス専門', '最大5名セミパーソナル'],
     description: '女性専用のマシンピラティス専門スタジオ。1セッション最大5名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。春日部駅から徒歩3分。',
     access: '春日部駅から徒歩3分',
     address: '埼玉県春日部市中央1丁目9-4 高元ビル5階A-1',
@@ -164,7 +166,8 @@ const studios = [
       '体験当日の入会で月会費がずっと10%OFF（月4回13,200円・通い放題22,000円）',
     ],
     userProfile: {
-      ageRange: '20代〜50代が中心',
+      ageRange: '20代〜40代が中心',
+      ageRangeVerified: true, // 2026-10-08 運営者指示（MediaXAI経由・AUN nwy7eb）
       genderRatio: '女性100%（女性専用）',
       purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '運動習慣づくり'],
     },

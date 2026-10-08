@@ -38,8 +38,14 @@ type Studio = {
     price: string
   }
   options?: string[]
+  /** 店舗固有の Google マップURL（運営者から指定があった店舗だけ）。無ければ店名＋住所で検索する。 */
+  mapUrl?: string
+  /** 比較表「パーソナル」の明示指定（PriceComparisonTable 参照） */
+  personal?: boolean
   /** 表示用。StudioCard（サーバー側）が lib/studioDisplay.ts で出典の無い項目を落とした後の形。 */
   userProfile?: {
+    /** 出典あり（ageRangeVerified）のときだけ残る */
+    ageRange?: string
     genderRatio?: string
     purpose?: string[]
   }
@@ -55,6 +61,8 @@ type Studio = {
 export type StudioInput = Omit<Studio, 'userProfile' | 'basicInfo'> & {
   userProfile?: {
     ageRange?: string
+    /** 年齢層は旧既定値のコピーが多く出典が無いので落とす。運営者からの指示など出典がある店舗だけ true にして残す（2026-10-08 Pilates Mee Life）。 */
+    ageRangeVerified?: boolean
     genderRatio?: string
     purpose?: string[]
   }
@@ -76,7 +84,7 @@ export function StudioCardClient({ studio, index }: StudioCardProps) {
   const [activeTab, setActiveTab] = useState<'plan' | 'options' | 'users' | 'basic' | 'map'>('plan')
   const [showReviews, setShowReviews] = useState(false)
   // 出せる値が無いタブは出さない（既定値で埋めない。2026-10-07）
-  const hasUsers = !!(studio.userProfile?.genderRatio || (studio.userProfile?.purpose?.length ?? 0) > 0)
+  const hasUsers = !!(studio.userProfile?.ageRange || studio.userProfile?.genderRatio || (studio.userProfile?.purpose?.length ?? 0) > 0)
   // ⚠️ 以前はオプション・設備・人気プラン名に架空の既定値（ウェアレンタル月額2,200円／シャワー・ロッカー・
   //    パウダールーム・Wi-Fi／「月4回プラン」）を出していた。データが無い店舗は行ごと出さない（2026-10-08）
   const hasOptions = (studio.options?.length ?? 0) > 0
@@ -283,7 +291,13 @@ export function StudioCardClient({ studio, index }: StudioCardProps) {
               <div>
                 <h4 className="font-bold text-warm-900 mb-3">利用者層</h4>
                 <div className="space-y-3 text-sm">
-                  {/* 年齢層は出典が無いので出さない。男女比は「女性専用」の事実だけ（StudioCard 側で絞り込み済み） */}
+                  {/* 年齢層は出典のある店舗（ageRangeVerified）だけ StudioCard 側で残す。男女比は「女性専用」の事実だけ */}
+                  {studio.userProfile?.ageRange && (
+                    <div>
+                      <span className="text-warm-500 font-medium">年齢層：</span>
+                      <span className="text-warm-800 ml-2">{studio.userProfile.ageRange}</span>
+                    </div>
+                  )}
                   {studio.userProfile?.genderRatio && (
                     <div>
                       <span className="text-warm-500 font-medium">男女比：</span>
@@ -373,7 +387,7 @@ export function StudioCardClient({ studio, index }: StudioCardProps) {
                 {studio.address && (
                   <div>
                     <a
-                      href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+                      href={studio.mapUrl ?? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
                         // ⚠️ 〒番号を入れるとGoogleマップが郵便エリアの中心に寄ることがあるので外す。
                         //    店名＋番地・ビル名だけにしたほうが目的の建物に落ちる。
                         `${studio.name} ${studio.address.replace(/〒?\d{3}-?\d{4}\s*/, '').trim()}`,

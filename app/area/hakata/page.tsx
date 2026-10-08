@@ -22,11 +22,12 @@ export const metadata = {
 const studios = [
   {
     name: 'Pilates Mee Life 博多南店',
+    personal: false, // 2026-10-08 運営者指示（MediaXAI経由・AUN nwy7eb） Life店舗にパーソナルプランは無い
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
     price: '5人制少人数 月4回 14,800円〜（税込）',
     trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
-    features: ['女性専用', 'マシンピラティス専門', '最大5名セミパーソナル＋完全パーソナル'],
+    features: ['女性専用', 'マシンピラティス専門', '最大5名セミパーソナル'],
     description: '女性専用のマシンピラティス専門スタジオ。1セッション最大5名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。博多南駅 徒歩3分。',
     access: '博多南駅 徒歩3分',
     address: '〒811-1213 福岡県那珂川市中原２丁目１６１ クローネ博多南 202',
@@ -38,7 +39,8 @@ const studios = [
       '体験当日の入会で月会費がずっと10%OFF（月4回13,200円・通い放題22,000円）',
     ],
     userProfile: {
-      ageRange: '20代〜50代が中心',
+      ageRange: '20代〜40代が中心',
+      ageRangeVerified: true, // 2026-10-08 運営者指示（MediaXAI経由・AUN nwy7eb）
       genderRatio: '女性100%（女性専用）',
       purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '運動習慣づくり'],
     },
@@ -204,11 +206,12 @@ const studios = [
   },
   {
     name: 'Pilates Mee Life博多・住吉店',
+    personal: false, // 2026-10-08 運営者指示（MediaXAI経由・AUN nwy7eb） Life店舗にパーソナルプランは無い
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
     price: '5人制少人数 月4回 14,800円〜（税込）',
     trial: '初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）',
-    features: ['女性専用', 'マシンピラティス専門', '最大5名セミパーソナル＋完全パーソナル'],
+    features: ['女性専用', 'マシンピラティス専門', '最大5名セミパーソナル'],
     description: '女性専用のマシンピラティス専門スタジオ。1セッション最大5名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。博多駅から徒歩6分。',
     access: '博多駅から徒歩6分',
     address: '福岡県福岡市博多区博多駅前3丁目6-1 小森ビル本館201',
@@ -220,7 +223,8 @@ const studios = [
       '体験当日の入会で月会費がずっと10%OFF（月4回13,200円・通い放題22,000円）',
     ],
     userProfile: {
-      ageRange: '20代〜50代が中心',
+      ageRange: '20代〜40代が中心',
+      ageRangeVerified: true, // 2026-10-08 運営者指示（MediaXAI経由・AUN nwy7eb）
       genderRatio: '女性100%（女性専用）',
       purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '運動習慣づくり'],
     },
