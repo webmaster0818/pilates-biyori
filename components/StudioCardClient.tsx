@@ -25,6 +25,8 @@ type Studio = {
   reviews?: Review[]
   price: string
   trial: string
+  /** 体験レッスンの申込フォーム（公式）。先方から案内があった店舗だけ設定する。 */
+  trialUrl?: string
   features: string[]
   description: string
   access?: string
@@ -73,6 +75,10 @@ export function StudioCardClient({ studio, index }: StudioCardProps) {
   const [showReviews, setShowReviews] = useState(false)
   // 出せる値が無いタブは出さない（既定値で埋めない。2026-10-07）
   const hasUsers = !!(studio.userProfile?.genderRatio || (studio.userProfile?.purpose?.length ?? 0) > 0)
+  // ⚠️ 以前はオプション・設備・人気プラン名に架空の既定値（ウェアレンタル月額2,200円／シャワー・ロッカー・
+  //    パウダールーム・Wi-Fi／「月4回プラン」）を出していた。データが無い店舗は行ごと出さない（2026-10-08）
+  const hasOptions = (studio.options?.length ?? 0) > 0
+  const hasBasic = !!(studio.basicInfo?.hours || studio.basicInfo?.closed || studio.access || (studio.basicInfo?.facilities?.length ?? 0) > 0)
 
   return (
     <div id={`studio-${index + 1}`} className="bg-white border border-warm-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow scroll-mt-24">
@@ -169,6 +175,7 @@ export function StudioCardClient({ studio, index }: StudioCardProps) {
               >
                 人気プラン
               </button>
+              {hasOptions && (
               <button
                 onClick={() => setActiveTab('options')}
                 className={`px-4 py-2 text-sm font-medium whitespace-nowrap transition-colors ${
@@ -179,6 +186,7 @@ export function StudioCardClient({ studio, index }: StudioCardProps) {
               >
                 オプション
               </button>
+              )}
               {hasUsers && (
               <button
                 onClick={() => setActiveTab('users')}
@@ -191,6 +199,7 @@ export function StudioCardClient({ studio, index }: StudioCardProps) {
                 ユーザー層
               </button>
               )}
+              {hasBasic && (
               <button
                 onClick={() => setActiveTab('basic')}
                 className={`px-4 py-2 text-sm font-medium whitespace-nowrap transition-colors ${
@@ -201,6 +210,7 @@ export function StudioCardClient({ studio, index }: StudioCardProps) {
               >
                 基本情報
               </button>
+              )}
               <button
                 onClick={() => setActiveTab('map')}
                 className={`px-4 py-2 text-sm font-medium whitespace-nowrap transition-colors ${
@@ -218,13 +228,15 @@ export function StudioCardClient({ studio, index }: StudioCardProps) {
           <div className="bg-warm-50 border border-warm-200 rounded p-4 min-h-[160px]">
             {activeTab === 'plan' && (
               <div>
+                {/* プラン名・説明はデータがある店舗だけ出す（「月4回プラン」「一番人気のプラン」という既定文は架空だった） */}
                 <h4 className="font-bold text-warm-900 mb-2">
-                  {studio.popularPlan?.name || '月4回プラン'}
+                  {studio.popularPlan?.name || '料金・体験'}
                 </h4>
-                <p className="text-warm-700 text-sm mb-3">
-                  {studio.popularPlan?.description || 
-                    `${studio.name}で一番人気のプラン。初心者から経験者まで無理なく続けられる回数設定。`}
-                </p>
+                {studio.popularPlan?.description && (
+                  <p className="text-warm-700 text-sm mb-3">
+                    {studio.popularPlan.description}
+                  </p>
+                )}
                 <div className="space-y-2">
                   <div className="flex items-center text-sm">
                     <span className="text-warm-500 font-medium w-24">料金：</span>
@@ -234,20 +246,28 @@ export function StudioCardClient({ studio, index }: StudioCardProps) {
                     <span className="text-warm-500 font-medium w-24">体験：</span>
                     <span className="text-warm-800 font-bold">{studio.trial}</span>
                   </div>
+                  {studio.trialUrl && (
+                    <div className="flex items-center text-sm">
+                      <span className="text-warm-500 font-medium w-24">申込：</span>
+                      <a
+                        href={studio.trialUrl}
+                        target="_blank"
+                        rel={studio.dofollow ? 'noopener noreferrer' : 'noopener noreferrer sponsored'}
+                        className="text-warm-700 underline hover:text-warm-900"
+                      >
+                        公式サイトの申込フォーム
+                      </a>
+                    </div>
+                  )}
                 </div>
               </div>
             )}
 
-            {activeTab === 'options' && (
+            {activeTab === 'options' && hasOptions && (
               <div>
                 <h4 className="font-bold text-warm-900 mb-3">追加オプション</h4>
                 <ul className="space-y-2 text-sm text-warm-700">
-                  {(studio.options || [
-                    'ウェアレンタル（月額 2,200円）',
-                    'タオルレンタル（月額 1,100円）',
-                    'プライベートレッスン追加（1回 8,800円〜）',
-                    'パーソナル栄養指導（月額 5,500円）',
-                  ]).map((option, i) => (
+                  {(studio.options ?? []).map((option, i) => (
                     <li key={i} className="flex items-start">
                       <span className="text-warm-400 mr-2">•</span>
                       <span>{option}</span>
@@ -284,7 +304,7 @@ export function StudioCardClient({ studio, index }: StudioCardProps) {
               </div>
             )}
 
-            {activeTab === 'basic' && (
+            {activeTab === 'basic' && hasBasic && (
               <div>
                 <h4 className="font-bold text-warm-900 mb-3">基本情報</h4>
                 <div className="space-y-3 text-sm">
@@ -307,21 +327,18 @@ export function StudioCardClient({ studio, index }: StudioCardProps) {
                       <span className="text-warm-800 ml-2">{studio.access}</span>
                     </div>
                   )}
+                  {(studio.basicInfo?.facilities?.length ?? 0) > 0 && (
                   <div>
                     <span className="text-warm-500 font-medium">設備：</span>
                     <div className="mt-2 flex flex-wrap gap-2">
-                      {(studio.basicInfo?.facilities || [
-                        'シャワー',
-                        'ロッカー',
-                        'パウダールーム',
-                        'Wi-Fi',
-                      ]).map((facility, i) => (
+                      {(studio.basicInfo?.facilities ?? []).map((facility, i) => (
                         <span key={i} className="bg-white text-warm-700 px-3 py-1 rounded-full text-xs border border-warm-200">
                           {facility}
                         </span>
                       ))}
                     </div>
                   </div>
+                  )}
                 </div>
               </div>
             )}

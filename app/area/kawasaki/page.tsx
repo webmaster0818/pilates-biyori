@@ -111,8 +111,8 @@ const studios = [
       purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'AI分析'],
     },
     basicInfo: {
-      hours: '平日 7:00〜22:00 / 土日祝 9:00〜20:00',
-      closed: '毎週木曜',
+      // 営業時間: 公式（rintosull.jp/shop/kanagawa/kawasaki/）に営業時間の記載が無いため非表示（2026-10-08）
+      closed: '毎週日曜・第4木曜',
       facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'AI姿勢分析システム', '女性専用'],
     },
   },
