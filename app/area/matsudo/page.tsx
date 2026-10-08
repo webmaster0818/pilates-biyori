@@ -594,7 +594,7 @@ export default function MatsudoPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（16,170円/通い放題）</li>
                   <li>• the SILK（20,680円/通い放題）</li>
-                  <li>• Pilates Mee（37,400円/通い放題）</li>
+                  <li>• Pilates Mee（37,500円/通い放題）</li>
                 </ul>
               </div>
             </div>
