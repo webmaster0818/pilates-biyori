@@ -142,7 +142,7 @@ export function PriceComparisonTable({ studios: rawStudios, areaName }: Props) {
                   <td className="px-3 py-2 text-center text-warm-700 text-xs">{studio.trial}</td>
                   <td className="px-3 py-2 text-center">{extractWomenOnly(studio.features) ? <span className="text-pink-500 font-bold">○</span> : <span className="text-warm-300">-</span>}</td>
                   <td className="px-3 py-2 text-center">{extractMachine(studio.features) ? <span className="text-blue-500 font-bold">○</span> : <span className="text-warm-300">-</span>}</td>
-                  <td className="px-3 py-2 text-center">{extractPersonal(studio.features) ? <span className="text-green-500 font-bold">○</span> : <span className="text-warm-300">-</span>}</td>
+                  <td className="px-3 py-2 text-center">{(studio.personal ?? extractPersonal(studio.features)) ? <span className="text-green-500 font-bold">○</span> : <span className="text-warm-300">-</span>}</td>
                 </tr>
               ))}
             </tbody>
