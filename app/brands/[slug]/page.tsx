@@ -9,6 +9,7 @@ import { BRANDS, getBrand } from '@/data/brands'
 import brandStores from '@/data/brands-aggregate.json'
 import brandVoices from '@/data/brand-voices.json'
 import { BrandReviewDigest } from '@/components/BrandReviewDigest'
+import { BrandReviewThemes } from '@/components/BrandReviewThemes'
 
 type Voice = {
   brand: string
@@ -51,10 +52,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   // 一方で料金・口コミ系は50〜90位と弱いため、勝てている店舗意図を前方に置く。
   // ⚠️「店舗数」を名乗るのは公式店舗数を確認できたブランドのみ（未確認ブランドで数を主張しない）。
   const hasOfficialCount = !!brand.officialStores
+  // 2026-10-08: 口コミテーマ節（reviewThemes）を持つブランドだけ末尾に「口コミ評判」を足す（「{ブランド} 口コミ」= Rintosull 13位の受け皿化）
   const kw =
-    hasOfficialCount
+    (hasOfficialCount
       ? '店舗一覧・店舗数・料金'
-      : brand.useHyoban ? '店舗一覧・料金・評判' : '店舗一覧・料金・体験'
+      : brand.useHyoban ? '店舗一覧・料金・評判' : '店舗一覧・料金・体験') + (brand.reviewThemes ? '・口コミ評判' : '')
   return {
     title: `${brand.name}の${kw}${MONTH_TAG}｜掲載${stores.length}店舗を比較`,
     description: `${brand.name}の店舗一覧${brand.officialStores && brand.officialStores.count >= stores.length ? `（${brand.officialStores.asOf}時点で全国${brand.officialStores.count}店舗${brand.officialStores.approx ? '以上' : ''}）` : ''}・料金プラン・体験レッスンを掲載データから整理。${brand.tagline}。当サイト掲載${stores.length}店舗のエリア別リンク付きで、近くの店舗がすぐ見つかります。`,
@@ -134,7 +136,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
 
           <p className="section-en text-warm-400 mb-2 font-medium">Brand Guide</p>
           <h1 className="text-2xl md:text-3xl font-light text-warm-900 tracking-tight mb-3">
-            {brand.name}の{brand.officialStores ? '店舗一覧・店舗数・料金' : brand.useHyoban ? '店舗一覧・料金・評判' : '店舗一覧・料金・体験'}
+            {brand.name}の{brand.officialStores ? '店舗一覧・店舗数・料金' : brand.useHyoban ? '店舗一覧・料金・評判' : '店舗一覧・料金・体験'}{brand.reviewThemes ? '・口コミ評判' : ''}
             <span className="block text-base text-warm-500 mt-2 font-light">{brand.tagline}</span>
           </h1>
 
@@ -445,6 +447,9 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
 
           {/* Googleマップ口コミの集約（569件の資産をブランド単位で俯瞰。2026-08-27） */}
           <BrandReviewDigest brandSlug={brand.slug} brandName={brand.name} />
+
+          {/* 口コミに多いテーマと注意点（2026-10-08・店舗要約を横断して整理。stores は STUDIO_REVIEWS のキー） */}
+          {brand.reviewThemes && <BrandReviewThemes brandName={brand.name} themes={brand.reviewThemes} />}
 
           {/* 利用者の声（出典付き） */}
           {(brandVoices as Voice[]).filter((v) => v.brand === brand.slug).length > 0 && (
