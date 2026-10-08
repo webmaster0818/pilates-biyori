@@ -58,16 +58,16 @@ const studios = [
     name: 'Pilates Mee 高円寺店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
-    price: '月4回 11,000円〜',
-    trial: '体験レッスンあり（詳細は公式サイト）',
+    price: '月4回 19,800円',
+    trial: '初回体験 9,800円→0円',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '女性限定のセミパーソナル形式マシンピラティススタジオ。最大3名の超少人数制で、パーソナルに近い丁寧な指導を受けられます。月4回11,000円〜と手頃な価格帯で、高円寺エリアでコスパよくマシンピラティスを始めたい女性におすすめ。',
+    description: '女性限定のセミパーソナル形式マシンピラティススタジオ。最大3名の超少人数制で、パーソナルに近い丁寧な指導を受けられます。月4回19,800円で、高円寺エリアでコスパよくマシンピラティスを始めたい女性におすすめ。',
     access: '高円寺駅 徒歩5分',
     address: '〒166-0002 東京都杉並区高円寺北3丁目35-3 アーバネスト高円寺 100号室',
     popularPlan: {
       name: 'セミパーソナル月4回',
       description: '最大3名のセミパーソナルマシンピラティス。女性限定の安心空間。',
-      price: '月4回 11,000円〜（税込）',
+      price: '月4回 19,800円（税込）',
     },
     options: [
       'セミパーソナル 月2回 11,000円（1回5,500円・税込）',
@@ -710,7 +710,7 @@ export default function KoenjiPage() {
                 <p className="text-sm text-warm-600 mb-4">週1回ペースで着実に成果。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• CLUB PILATES（10,890円〜/月4回）</li>
-                  <li>• Pilates Mee（11,000円〜/月4回）</li>
+                  <li>• Pilates Mee（19,800円/月4回）</li>
                   <li>• STUDIO IVY（15,000円〜/月2回）</li>
                 </ul>
               </div>
