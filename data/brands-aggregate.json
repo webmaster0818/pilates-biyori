@@ -392,8 +392,8 @@
       "officialUrl": "https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808",
       "address": "神奈川県茅ヶ崎市新栄町8-5 山藤ビル 4F",
       "access": "JR茅ヶ崎駅より徒歩2分",
-      "areaSlug": "kofu",
-      "areaName": "甲府"
+      "areaSlug": "chigasaki",
+      "areaName": "茅ヶ崎"
     },
     {
       "name": "URBAN CLASSIC PILATES 海老名店",
@@ -403,8 +403,8 @@
       "officialUrl": "https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808",
       "address": "神奈川県海老名市中央1-4-1 ビナウォーク 2F",
       "access": "小田急線・相鉄本線「海老名」駅より徒歩5分",
-      "areaSlug": "kofu",
-      "areaName": "甲府"
+      "areaSlug": "ebina",
+      "areaName": "海老名"
     },
     {
       "name": "URBAN CLASSIC PILATES 市川店",
@@ -919,8 +919,8 @@
       "officialUrl": "https://t.felmat.net/fmcl?ak=C11549B.1.E159704V.U1357808",
       "address": "神奈川県茅ヶ崎市（詳細は公式サイト参照）",
       "access": "茅ヶ崎エリア（詳細は公式サイト参照）",
-      "areaSlug": "kofu",
-      "areaName": "甲府"
+      "areaSlug": "chigasaki",
+      "areaName": "茅ヶ崎"
     },
     {
       "name": "BREST PILATES & BODYMAKE 本郷三丁目",
@@ -2124,8 +2124,8 @@
       "officialUrl": "https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808",
       "address": "神奈川県茅ヶ崎市東海岸北3丁目9-7 寺子屋茅ヶ崎ビル101号室",
       "access": "茅ヶ崎駅から徒歩7分",
-      "areaSlug": "kofu",
-      "areaName": "甲府"
+      "areaSlug": "chigasaki",
+      "areaName": "茅ヶ崎"
     },
     {
       "name": "Pilates Mee平塚店",
@@ -2134,8 +2134,8 @@
       "officialUrl": "https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808",
       "address": "神奈川県平塚市紅谷町12-9 平塚ビル2階",
       "access": "平塚駅から徒歩3分",
-      "areaSlug": "kofu",
-      "areaName": "甲府"
+      "areaSlug": "hiratsuka",
+      "areaName": "平塚"
     },
     {
       "name": "Pilates Mee八千代台店",
@@ -2154,8 +2154,8 @@
       "officialUrl": "https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808",
       "address": "埼玉県上尾市宮本町3-1 第2大松ビル4F B",
       "access": "上尾駅から徒歩1分",
-      "areaSlug": "yachiyo",
-      "areaName": "八千代"
+      "areaSlug": "ageo",
+      "areaName": "上尾"
     },
     {
       "name": "Pilates Mee 刈谷店",
@@ -2922,7 +2922,7 @@
     {
       "name": "Pilates Mee 恵比寿店",
       "price": "1回 1,250円〜（定額制）",
-      "trial": "体験レッスンあり",
+      "trial": "初回体験 9,800円→0円",
       "officialUrl": "https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808",
       "address": "〒150-0013 東京都渋谷区恵比寿1丁目21−11",
       "access": "恵比寿駅 徒歩5分",
@@ -2942,7 +2942,7 @@
     {
       "name": "Pilates Mee 藤沢店",
       "price": "1回 1,250円〜（定額制）",
-      "trial": "体験レッスンあり",
+      "trial": "初回体験 9,800円→0円",
       "officialUrl": "https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808",
       "address": "〒251-0023 神奈川県藤沢市鵠沼花沢町11-1　1階",
       "access": "藤沢駅 徒歩5分",
@@ -3012,7 +3012,7 @@
     {
       "name": "Pilates Mee 神楽坂・飯田橋店",
       "price": "1回 1,250円〜",
-      "trial": "体験レッスンあり",
+      "trial": "初回体験 9,800円→0円",
       "officialUrl": "https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808",
       "address": "〒162-0816 東京都新宿区白銀町1−15 SEKビル4階",
       "access": "神楽坂駅 徒歩3分／牛込神楽坂駅 徒歩2分／飯田橋駅 徒歩5分",
@@ -3042,7 +3042,7 @@
     {
       "name": "Pilates Mee 名古屋金山店",
       "price": "1回あたり 1,250円〜",
-      "trial": "体験レッスンあり",
+      "trial": "初回体験 9,800円→0円",
       "officialUrl": "https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808",
       "address": "〒456-0018 愛知県名古屋市熱田区新尾頭1丁目6-11 プレミール金山702",
       "access": "金山駅 徒歩3分",
@@ -3112,7 +3112,7 @@
     {
       "name": "Pilates Mee 北千住店",
       "price": "1回 1,250円〜",
-      "trial": "体験レッスンあり",
+      "trial": "初回体験 9,800円→0円",
       "officialUrl": "https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808",
       "address": "〒120-0034 東京都足立区千住3丁目7 平松HMビル502",
       "access": "北千住駅 徒歩3分",
@@ -3121,8 +3121,8 @@
     },
     {
       "name": "Pilates Mee 高円寺店",
-      "price": "月4回 11,000円〜",
-      "trial": "体験レッスンあり（詳細は公式サイト）",
+      "price": "月4回 19,800円",
+      "trial": "初回体験 9,800円→0円",
       "officialUrl": "https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808",
       "address": "〒166-0002 東京都杉並区高円寺北3丁目35-3 アーバネスト高円寺 100号室",
       "access": "高円寺駅 徒歩5分",
@@ -3162,7 +3162,7 @@
     {
       "name": "Pilates Mee 築地店",
       "price": "1回 1,250円〜（通い放題）",
-      "trial": "体験レッスンあり",
+      "trial": "初回体験 9,800円→0円",
       "officialUrl": "https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808",
       "address": "〒104-0045 東京都中央区築地7丁目6-7 松田ビル 302",
       "access": "築地駅 徒歩3分／新富町駅 徒歩7分",
@@ -3182,7 +3182,7 @@
     {
       "name": "Pilates Mee 神戸元町店",
       "price": "月2回 11,000円〜",
-      "trial": "体験レッスンあり",
+      "trial": "初回体験 9,800円→0円",
       "officialUrl": "https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808",
       "address": "〒650-0022 兵庫県神戸市中央区元町通4丁目1-13-2 2階",
       "access": "みなと元町駅 徒歩2分／元町駅 徒歩6分",
@@ -3202,7 +3202,7 @@
     {
       "name": "Pilates Mee 西荻窪店",
       "price": "詳細は公式サイト参照",
-      "trial": "体験レッスンあり",
+      "trial": "初回体験 9,800円→0円",
       "officialUrl": "https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808",
       "address": "〒167-0042 東京都杉並区西荻北2丁目3−1 シンセンビル201",
       "access": "西荻窪駅 徒歩2分",
@@ -3262,7 +3262,7 @@
     {
       "name": "Pilates Mee 名古屋栄店",
       "price": "パーソナル料金",
-      "trial": "体験レッスンあり",
+      "trial": "初回体験 9,800円→0円",
       "officialUrl": "https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808",
       "address": "〒460-0002 愛知県名古屋市中区丸の内3丁目23-6 丸の内セントラルハイツ 401号室",
       "access": "丸の内駅 徒歩5分／久屋大通駅 徒歩8分",
@@ -3312,7 +3312,7 @@
     {
       "name": "Pilates Mee 西中島南方・新大阪店",
       "price": "月2回 11,000円〜",
-      "trial": "体験レッスンあり",
+      "trial": "初回体験 9,800円→0円",
       "officialUrl": "https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808",
       "address": "〒532-0011 大阪府大阪市淀川区西中島６丁目９−２０ 新大阪GHビル3階 303号室",
       "access": "新大阪駅 徒歩7分／西中島南方駅 徒歩6分／南方駅 徒歩8分",
@@ -3332,7 +3332,7 @@
     {
       "name": "Pilates Mee 草加店",
       "price": "セミパーソナル（公式サイトで確認）",
-      "trial": "体験レッスンあり",
+      "trial": "初回体験 9,800円→0円",
       "officialUrl": "https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808",
       "address": "〒340-0015 埼玉県草加市高砂2-18-24 ノースビル302",
       "access": "草加駅 徒歩3分",
@@ -3392,7 +3392,7 @@
     {
       "name": "Pilates Mee 都立大学店",
       "price": "セミパーソナル 月2回 11,000円〜",
-      "trial": "体験レッスンあり",
+      "trial": "初回体験 9,800円→0円",
       "officialUrl": "https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808",
       "address": "〒152-0032 東京都目黒区平町1丁目26−17 ソシアル都立大学駅前 301号室",
       "access": "都立大学駅 徒歩30秒",
@@ -3449,8 +3449,8 @@
       "officialUrl": "https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM",
       "address": "神奈川県茅ケ崎市新栄町7-5 CHIGASAKI Biz-Naz 4階3室",
       "access": "JR茅ヶ崎駅北口より徒歩5分",
-      "areaSlug": "kofu",
-      "areaName": "甲府"
+      "areaSlug": "chigasaki",
+      "areaName": "茅ヶ崎"
     },
     {
       "name": "zen place pilates 流山おおたかの森",
@@ -5253,8 +5253,8 @@
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "群馬県高崎市八島町17-3 SJ八島町ビル 3階",
       "access": "JR高崎駅西口より徒歩4分",
-      "areaSlug": "utsunomiya",
-      "areaName": "宇都宮"
+      "areaSlug": "takasaki",
+      "areaName": "高崎"
     },
     {
       "name": "pilates K 松戸店",
@@ -6335,8 +6335,8 @@
       "officialUrl": "https://t.afi-b.com/visit.php?a=T15562j-7505717Y&p=E9887623",
       "address": "神奈川県平塚市宝町2-1 ホーメスト平塚共同ビル3階",
       "access": "JR平塚駅北口より徒歩1分",
-      "areaSlug": "kofu",
-      "areaName": "甲府"
+      "areaSlug": "hiratsuka",
+      "areaName": "平塚"
     },
     {
       "name": "ピラティスKASANE 松戸店",
@@ -6658,8 +6658,8 @@
       "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683",
       "address": "秋田県秋田市御所野地蔵田1-1-3 イオンモール秋田 バスロータリー横外部棟",
       "access": "秋田駅東口5番バス「イオンモール秋田」下車すぐ",
-      "areaSlug": "morioka",
-      "areaName": "盛岡"
+      "areaSlug": "akita",
+      "areaName": "秋田"
     },
     {
       "name": "マシンピラティススタジオRintosull 福島黒岩店",
@@ -6669,8 +6669,8 @@
       "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683",
       "address": "福島県福島市黒岩字中沖42-2(LAVA福島黒岩店内)",
       "access": "南福島駅徒歩10分",
-      "areaSlug": "yamagata",
-      "areaName": "山形"
+      "areaSlug": "fukushima",
+      "areaName": "福島"
     },
     {
       "name": "Rintosull 高崎店",
@@ -6680,8 +6680,8 @@
       "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683",
       "address": "群馬県高崎市飯塚町375-2 1F",
       "access": "高崎駅西口より「東金井」バス停下車徒歩4分／JR北高崎駅北口より徒歩11分",
-      "areaSlug": "utsunomiya",
-      "areaName": "宇都宮"
+      "areaSlug": "takasaki",
+      "areaName": "高崎"
     },
     {
       "name": "Rintosull 茅ヶ崎店",
@@ -6691,8 +6691,8 @@
       "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683",
       "address": "神奈川県茅ケ崎市新栄町11-8 BLiX茅ヶ崎 6F",
       "access": "JR茅ヶ崎駅北口より徒歩5分",
-      "areaSlug": "kofu",
-      "areaName": "甲府"
+      "areaSlug": "chigasaki",
+      "areaName": "茅ヶ崎"
     },
     {
       "name": "Rintosull 平塚店",
@@ -6702,8 +6702,8 @@
       "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683",
       "address": "神奈川県平塚市紅谷町4-3 中秋ビル 6F",
       "access": "JR平塚駅北口より徒歩2分",
-      "areaSlug": "kofu",
-      "areaName": "甲府"
+      "areaSlug": "hiratsuka",
+      "areaName": "平塚"
     },
     {
       "name": "Rintosull 横須賀中央店",
@@ -6715,17 +6715,6 @@
       "access": "京急「横須賀中央駅」東口より徒歩3分",
       "areaSlug": "yokosuka",
       "areaName": "横須賀"
-    },
-    {
-      "name": "Rintosull たまプラーザ店",
-      "price": "月4回プラン ¥8,800/月〜",
-      "trial": "無料体験会（30〜45分）",
-      "rating": 4.5,
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683",
-      "address": "神奈川県横浜市青葉区美しが丘1-4-16 オークスビル2階",
-      "access": "東急田園都市線「たまプラーザ駅」より徒歩3分",
-      "areaSlug": "tama-plaza",
-      "areaName": "たまプラーザ"
     },
     {
       "name": "Rintosull フルルガーデン八千代店",
@@ -6748,17 +6737,6 @@
       "access": "東武東上線「和光市駅」南口より徒歩1分",
       "areaSlug": "wakoshi",
       "areaName": "和光市"
-    },
-    {
-      "name": "Rintosull 武蔵浦和店",
-      "price": "フォー・フルタイム ¥8,800/月〜",
-      "trial": "無料体験会あり",
-      "rating": 4.5,
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683",
-      "address": "埼玉県さいたま市南区白幡5-18-19 MID KUDOS TERRACE 2F",
-      "access": "JR「武蔵浦和駅」東口より徒歩2分",
-      "areaSlug": "musashi-urawa",
-      "areaName": "武蔵浦和"
     },
     {
       "name": "Rintosull 本川越店",
@@ -6803,17 +6781,6 @@
       "access": "阪急宝塚線「豊中駅」北改札出口より徒歩1分",
       "areaSlug": "toyonaka",
       "areaName": "豊中"
-    },
-    {
-      "name": "Rintosull 布施店",
-      "price": "4・フルタイム ¥8,800/月〜",
-      "trial": "体験会0円（約30分）",
-      "rating": 4.5,
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683",
-      "address": "大阪府東大阪市長堂2-1-23 布施FUKU BLD 6F",
-      "access": "近鉄大阪線・奈良線「布施駅」東北出口より徒歩2分",
-      "areaSlug": "higashi-osaka",
-      "areaName": "東大阪"
     },
     {
       "name": "Rintosull 近鉄八尾店",
@@ -6908,8 +6875,8 @@
       "rating": 4.2,
       "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683",
       "address": "静岡県沼津市東椎路字東荒301-3 ららぽーと沼津1F",
-      "areaSlug": "kariya",
-      "areaName": "刈谷"
+      "areaSlug": "numazu",
+      "areaName": "沼津"
     },
     {
       "name": "マシンピラティススタジオRintosull イオンモール大垣店",
@@ -7862,6 +7829,16 @@
       "access": "多摩センター駅周辺",
       "areaSlug": "tama-center",
       "areaName": "多摩センター"
+    },
+    {
+      "name": "Rintosull たまプラーザ店",
+      "price": "月4回 8,800円〜",
+      "trial": "体験レッスン 無料",
+      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683",
+      "address": "神奈川県横浜市青葉区美しが丘エリア（詳細は公式サイトでご確認ください）",
+      "access": "東急田園都市線「たまプラーザ駅」徒歩3分",
+      "areaSlug": "tama-plaza",
+      "areaName": "たまプラーザ"
     },
     {
       "name": "Rintosull（リントスル）品川店",
@@ -9016,6 +8993,381 @@
       "officialUrl": "https://t.felmat.net/fmcl?ak=Z11979O.1.Z164554L.U1357808",
       "address": "神奈川県（詳細は公式サイト参照）",
       "access": "横浜エリア（詳細は公式サイト参照）",
+      "areaSlug": "yokohama",
+      "areaName": "横浜"
+    }
+  ],
+  "luluto": [
+    {
+      "name": "ルルト盛岡店",
+      "price": "要問合せ",
+      "trial": "初回体験レッスンあり",
+      "rating": 4.4,
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "岩手県盛岡市本宮4-1-32 ラ・ボーヌ101",
+      "access": "バス停「盛南大橋南」徒歩3分",
+      "areaSlug": "morioka",
+      "areaName": "盛岡"
+    },
+    {
+      "name": "ピラティススタジオ ルルト 宇都宮店",
+      "price": "営業時間 9:00〜21:00",
+      "trial": "体験レッスンあり",
+      "rating": 4.6,
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "栃木県宇都宮市菊水町8-1 亀和田第二ビル4F",
+      "access": "南宇都宮駅より徒歩約9分（駐車場あり）",
+      "areaSlug": "utsunomiya",
+      "areaName": "宇都宮"
+    },
+    {
+      "name": "ピラティススタジオ ルルト 上尾店",
+      "price": "月4回 ¥38,400（1回¥9,600）",
+      "trial": "現在定員満了・新規受付停止中",
+      "rating": 4.7,
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "埼玉県上尾市上町1-1-13 新宏ビル2-5号室",
+      "access": "JR上尾駅より徒歩3分",
+      "areaSlug": "ageo",
+      "areaName": "上尾"
+    },
+    {
+      "name": "ルルト 函館店",
+      "price": "料金は公式サイト要問い合わせ",
+      "trial": "詳細は公式サイト要問い合わせ",
+      "rating": 4.3,
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "access": "五稜郭駅より車で10分",
+      "areaSlug": "hakodate",
+      "areaName": "函館"
+    },
+    {
+      "name": "luluto（ルルト）津山店",
+      "price": "月3回 29,700円 / 月4回 38,400円 / 月6回 55,800円",
+      "trial": "体験 平日1,000円 / 土日祝5,000円",
+      "rating": 4.4,
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "岡山県津山市東一宮31-16 1F",
+      "access": "津山駅より車で15分",
+      "areaSlug": "tsuyama",
+      "areaName": "津山"
+    },
+    {
+      "name": "luluto 大野城春日原店",
+      "price": "月3回 29,700円 / 月4回 38,400円 / 月6回 55,800円",
+      "trial": "体験 平日1,000円 / 土日祝5,000円",
+      "rating": 4.4,
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "大野城市雑餉隈町4丁目2-16 石橋ビル302",
+      "access": "西鉄春日原駅 徒歩2分",
+      "areaSlug": "kasuga",
+      "areaName": "春日"
+    },
+    {
+      "name": "ピラティススタジオ ルルト 湘南台店",
+      "price": "月4回 38,400円（税込）",
+      "trial": "体験制度あり（受付状況は公式サイト参照）",
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "神奈川県藤沢市（詳細は公式サイト参照）",
+      "access": "湘南台駅徒歩3分",
+      "areaSlug": "shonandai",
+      "areaName": "湘南台"
+    },
+    {
+      "name": "ピラティススタジオ ルルト 蔵前浅草橋店",
+      "price": "月4回 38,400円（税込）",
+      "trial": "体験 期間限定1,000円（45分）",
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "東京都台東区浅草橋5-16-3 オカジマビル2F",
+      "access": "浅草橋駅徒歩6分",
+      "areaSlug": "asakusabashi",
+      "areaName": "浅草橋"
+    },
+    {
+      "name": "ピラティススタジオ ルルト 大野城春日原店",
+      "price": "月3回29,700円〜月8回72,000円（入会金22,000円・体験当日入会で無料）",
+      "trial": "初回体験 1,000円",
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "福岡県大野城市雑餉隈町4丁目",
+      "access": "雑餉隈駅から西鉄で1駅・春日原駅徒歩2分（雑餉隈/南福岡からは徒歩圏外・1駅利用が現実的）",
+      "areaSlug": "zasshonokuma",
+      "areaName": "雑餉隈"
+    },
+    {
+      "name": "luluto（ルルト）明石店",
+      "price": "月3回 29,700円〜",
+      "trial": "体験レッスンあり",
+      "rating": 4.8,
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "兵庫県明石市（詳細は公式サイトでご確認ください）",
+      "access": "明石市内（詳細は公式サイトでご確認ください）",
+      "areaSlug": "akashi",
+      "areaName": "明石"
+    },
+    {
+      "name": "luluto 千葉2号店",
+      "price": "要問合せ",
+      "trial": "体験レッスン あり",
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "千葉県千葉市（詳細は公式サイト参照）",
+      "access": "JR千葉駅徒歩1分",
+      "areaSlug": "chiba",
+      "areaName": "千葉"
+    },
+    {
+      "name": "luluto（ルルト）名古屋大曽根店",
+      "price": "月3回 29,700円〜",
+      "trial": "体験レッスンあり",
+      "rating": 4.8,
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "名古屋市（詳細は公式サイトでご確認ください）",
+      "access": "JR「大曽根駅」徒歩圏内",
+      "areaSlug": "chikusa",
+      "areaName": "千種"
+    },
+    {
+      "name": "ルルト 恵比寿店",
+      "price": "月3回 29,700円〜",
+      "trial": "体験レッスン 平日1,000円 / 土日祝5,000円",
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "東京都渋谷区恵比寿エリア（2店舗展開）",
+      "access": "恵比寿駅西口 徒歩5分 / 代官山駅からも徒歩圏内",
+      "areaSlug": "ebisu",
+      "areaName": "恵比寿"
+    },
+    {
+      "name": "luluto（ルルト）姫路店",
+      "price": "月3回 29,700円〜",
+      "trial": "体験レッスンあり",
+      "rating": 4.8,
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "兵庫県姫路市（詳細は公式サイトでご確認ください）",
+      "access": "姫路市内（詳細は公式サイトでご確認ください）",
+      "areaSlug": "himeji",
+      "areaName": "姫路"
+    },
+    {
+      "name": "luluto（ルルト）枚方店",
+      "price": "月3回 29,700円〜",
+      "trial": "体験レッスン 12,000円",
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "大阪府枚方市（詳細は公式サイトでご確認ください）",
+      "access": "京阪本線「枚方市駅」徒歩圏内",
+      "areaSlug": "hirakata",
+      "areaName": "枚方"
+    },
+    {
+      "name": "ルルト 飯田橋・神楽坂店",
+      "price": "月3回 29,700円〜",
+      "trial": "体験レッスン 1,000円（通常12,000円）",
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "東京都新宿区筑土八幡町5-12 相川ビル 2F",
+      "access": "東京メトロ「飯田橋駅」B1出口 徒歩6分 / JR東口 徒歩7分 / 都営大江戸線「牛込神楽坂駅」徒歩5分",
+      "areaSlug": "iidabashi",
+      "areaName": "飯田橋・神楽坂"
+    },
+    {
+      "name": "luluto（ルルト）伊丹店",
+      "price": "月3回 29,700円〜",
+      "trial": "体験レッスンあり",
+      "rating": 4.8,
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "兵庫県伊丹市（詳細は公式サイトでご確認ください）",
+      "access": "伊丹市内（詳細は公式サイトでご確認ください）",
+      "areaSlug": "itami",
+      "areaName": "伊丹"
+    },
+    {
+      "name": "ルルト 烏丸御池店",
+      "price": "月3回 29,700円〜",
+      "trial": "体験レッスン 1,000円（通常12,000円）",
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "京都府京都市中京区烏丸御池エリア（詳細は公式サイトでご確認ください）",
+      "access": "京都市営地下鉄「烏丸御池駅」徒歩3分",
+      "areaSlug": "karasuma-oike",
+      "areaName": "烏丸御池"
+    },
+    {
+      "name": "luluto 神戸店",
+      "price": "要問合せ",
+      "trial": "体験レッスン あり",
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "兵庫県神戸市（詳細は公式サイト参照）",
+      "access": "神戸市内（詳細は公式サイト参照）",
+      "areaSlug": "kobe",
+      "areaName": "神戸"
+    },
+    {
+      "name": "luluto 蔵前浅草橋店",
+      "price": "1回 12,000円〜",
+      "trial": "体験レッスン 1,000円（キャンペーン）",
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "東京都台東区浅草橋5-16-3 オカジマビル 2F",
+      "access": "都営浅草線「蔵前駅」徒歩圏内 / JR総武線「浅草橋駅」徒歩圏内",
+      "areaSlug": "kuramae",
+      "areaName": "蔵前"
+    },
+    {
+      "name": "luluto（ルルト）長野店",
+      "price": "月3回 29,700円〜",
+      "trial": "体験レッスンあり",
+      "rating": 4.8,
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "長野県長野市高田",
+      "access": "長野駅から車で約10分",
+      "areaSlug": "nagano",
+      "areaName": "長野"
+    },
+    {
+      "name": "luluto 名古屋（名駅店・栄店・金山店・大曽根店）",
+      "price": "要問合せ",
+      "trial": "体験レッスン あり",
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "愛知県名古屋市（詳細は公式サイト参照）",
+      "access": "名駅・栄・金山・大曽根（各駅近）",
+      "areaSlug": "nagoya",
+      "areaName": "名古屋"
+    },
+    {
+      "name": "ルルト 名駅店",
+      "price": "パーソナルレッスン（料金は要問合せ）",
+      "trial": "体験レッスンあり",
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "愛知県名古屋市中村区（名古屋駅徒歩5分）",
+      "access": "名古屋駅 徒歩5分",
+      "areaSlug": "nagoya-station",
+      "areaName": "名古屋駅"
+    },
+    {
+      "name": "luluto（ルルト）那覇小禄店",
+      "price": "月2回 29,700円〜",
+      "trial": "体験レッスン 1,000円",
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "沖縄県那覇市田原1-4-5 サニーハウス101",
+      "access": "ゆいレール小禄駅から徒歩4分",
+      "areaSlug": "okinawa",
+      "areaName": "沖縄"
+    },
+    {
+      "name": "luluto 大宮店",
+      "price": "要問合せ",
+      "trial": "体験レッスン あり",
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "埼玉県さいたま市大宮区（詳細は公式サイト参照）",
+      "access": "大宮エリア",
+      "areaSlug": "omiya",
+      "areaName": "大宮"
+    },
+    {
+      "name": "luluto（ルルト）大津店",
+      "price": "月3回 29,700円〜",
+      "trial": "体験レッスンあり",
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "滋賀県大津市（詳細は公式サイトでご確認ください）",
+      "access": "大津市内（詳細は公式サイトでご確認ください）",
+      "areaSlug": "otsu",
+      "areaName": "大津"
+    },
+    {
+      "name": "luluto（ルルト）三軒茶屋",
+      "price": "月3回 29,700円〜",
+      "trial": "体験レッスン 1,000円",
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "東京都世田谷区三軒茶屋（三軒茶屋駅徒歩圏内）",
+      "access": "東急田園都市線・世田谷線「三軒茶屋駅」徒歩圏内",
+      "areaSlug": "sangenjaya",
+      "areaName": "三軒茶屋"
+    },
+    {
+      "name": "luluto（ルルト）高槻店",
+      "price": "パーソナル 1回 8,800円〜",
+      "trial": "体験レッスン 1,000円",
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "大阪府高槻市内（詳細は公式サイトでご確認ください）",
+      "access": "高槻エリア（詳細は公式サイトでご確認ください）",
+      "areaSlug": "takatsuki",
+      "areaName": "高槻"
+    },
+    {
+      "name": "ルルト 福岡天神店",
+      "price": "月3回 29,700円〜",
+      "trial": "体験レッスン 1,000円",
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "福岡市中央区天神（天神エリア）",
+      "access": "地下鉄空港線「天神駅」徒歩圏内",
+      "areaSlug": "tenjin",
+      "areaName": "天神"
+    },
+    {
+      "name": "ルルト（luluto）",
+      "price": "要問合せ",
+      "trial": "体験レッスン あり",
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "東京都内（詳細は公式サイト参照）",
+      "access": "東京都内",
+      "areaSlug": "tokyo",
+      "areaName": "東京"
+    },
+    {
+      "name": "ルルト 銀座店",
+      "price": "パーソナル 月4回 32,560円〜",
+      "trial": "体験レッスン 4,000円〜",
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "東京都中央区銀座2-11-9 三和産工ビル6F",
+      "access": "有楽町線「銀座一丁目駅」徒歩1分 / 丸ノ内線「銀座駅」徒歩4分",
+      "areaSlug": "tokyo-station",
+      "areaName": "東京駅"
+    },
+    {
+      "name": "ルルト 戸塚",
+      "price": "要問合せ",
+      "trial": "体験レッスンあり",
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "神奈川県横浜市戸塚区（戸塚駅徒歩7分）",
+      "access": "戸塚駅徒歩7分",
+      "areaSlug": "totsuka",
+      "areaName": "戸塚"
+    },
+    {
+      "name": "luluto（ルルト）富山店",
+      "price": "月3回 29,700円〜",
+      "trial": "体験レッスンあり",
+      "rating": 4.8,
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "富山県富山市（詳細は公式サイトでご確認ください）",
+      "access": "富山市内（詳細は公式サイトでご確認ください）",
+      "areaSlug": "toyama",
+      "areaName": "富山"
+    },
+    {
+      "name": "luluto（ルルト）豊橋店",
+      "price": "月3回 29,700円〜",
+      "trial": "体験レッスンあり",
+      "rating": 4.8,
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "愛知県豊橋市（詳細は公式サイトでご確認ください）",
+      "access": "豊橋市内（詳細は公式サイトでご確認ください）",
+      "areaSlug": "toyohashi",
+      "areaName": "豊橋"
+    },
+    {
+      "name": "luluto（ルルト）四日市店",
+      "price": "月3回 29,700円〜",
+      "trial": "体験レッスンあり",
+      "rating": 4.8,
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "三重県四日市市（詳細は公式サイトでご確認ください）",
+      "access": "四日市市内（詳細は公式サイトでご確認ください）",
+      "areaSlug": "yokkaichi",
+      "areaName": "四日市"
+    },
+    {
+      "name": "ルルト 横浜店",
+      "price": "1回 要問合せ（完全パーソナル）",
+      "trial": "体験レッスン 平日3,000円 / 土日祝5,000円",
+      "officialUrl": "https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808",
+      "address": "神奈川県横浜市神奈川区鶴屋町3丁目28-3 松原ダイヤモンドマンション 202号室",
+      "access": "横浜駅 徒歩5分 / 神奈川駅 徒歩5分",
       "areaSlug": "yokohama",
       "areaName": "横浜"
     }

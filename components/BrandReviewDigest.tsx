@@ -14,7 +14,14 @@ import { brandSlugOf } from '@/lib/brandLink'
 //    （並び順は口コミ件数＝母数の多い順。評価順にすると高評価店だけが上に来る）。
 
 export function BrandReviewDigest({ brandSlug, brandName }: { brandSlug: string; brandName: string }) {
-  const rows = Object.values(STUDIO_REVIEWS).filter((r) => brandSlugOf(r.name) === brandSlug)
+  // 同じ店舗が表記ゆれ（空白の有無など）で2キーある場合に二重計上しないよう、Googleマップの出典URLで1店舗にまとめる（2026-10-09 Pilates Mee で5店舗の重複を確認）
+  const seen = new Set<string>()
+  const rows = Object.values(STUDIO_REVIEWS).filter((r) => {
+    const place = r.mapsUri.match(/cid=(\d+)/)?.[1] ?? r.mapsUri
+    if (brandSlugOf(r.name) !== brandSlug || seen.has(place)) return false
+    seen.add(place)
+    return true
+  })
   if (rows.length < 3) return null // 3店舗未満は「ブランドの傾向」と言えないので出さない
 
   const totalReviews = rows.reduce((n, r) => n + r.userRatings, 0)

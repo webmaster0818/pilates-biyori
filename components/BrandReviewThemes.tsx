@@ -7,6 +7,11 @@ import type { ReviewTheme, ReviewThemes } from '@/data/brands'
  * 良い点／注意点に分けて示す。根拠の店舗は STUDIO_REVIEWS のキーで持ち、出典リンク（Googleマップ）に解決する。
  * キーが STUDIO_REVIEWS に無い店舗は表示しない（存在しない出典を出さないため）。
  */
+// 出典リンクの表示名からブランド名を外す（同じブランドのページ内なので店舗名だけで足りる）。
+// 2026-10-09: 全提携ブランドに対応（以前は Rintosull／the SILK／BDC のみ）
+const BRAND_PREFIX =
+  /^(Rintosull（リントスル）|Rintosull |the SILK |BDC PILATES |zen place pilates |ピラティスK |pilates K |Pilates Mee (?!Life)|URBAN CLASSIC PILATES |ELEMENT（[^）]*）|ELEMENT |Pilates KASANE |PILATES KASANE |pilates KASANE |24\/7ピラティス |Dr\.ピラティス |DAYS PILATES |BREST PILATES & BODYMAKE |Celestia |ルキナ |luluto（ルルト）|luluto |ルルト |ピラティススタジオ ルルト )/
+
 function Theme({ t, tone }: { t: ReviewTheme; tone: 'good' | 'caution' }) {
   const refs = t.stores.map((k) => STUDIO_REVIEWS[k]).filter(Boolean)
   return (
@@ -20,7 +25,7 @@ function Theme({ t, tone }: { t: ReviewTheme; tone: 'good' | 'caution' }) {
             <span key={r.name}>
               {i > 0 && '／'}
               <a href={r.mapsUri} target="_blank" rel="noopener noreferrer" className="underline decoration-warm-300 hover:text-warm-800">
-                {r.name.replace(/^(Rintosull（リントスル）|Rintosull |the SILK |BDC PILATES )/, '')}
+                {r.name.replace(BRAND_PREFIX, '') || r.name}
               </a>
               <span className="text-warm-400">（★{r.rating}・{r.userRatings.toLocaleString()}件）</span>
             </span>

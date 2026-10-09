@@ -26,6 +26,7 @@ BRANDS = [
     ("rintosull",     r"Rintosull|リントスル"),
     ("club-pilates",  r"CLUB PILATES|Club Pilates|club pilates"),
     ("dr-pilates",    r"Dr\.?ピラティス|ドクターピラティス"),
+    ("luluto",        r"ルルト|luluto"),  # 2026-10-09 追加（felmat L12015F）
 ]
 
 def brand_of(name):
@@ -85,6 +86,10 @@ seen = set()  # (brand, name) 重複防止(A/B両方に載る場合)
 bsrc = (ROOT / "data" / "area-studios.ts").read_text(encoding="utf-8")
 for area_m in re.finditer(r"'([a-z0-9-]+)': \{[\s\S]*?studios: \[([\s\S]*?)\n    \],", bsrc):
     aslug, body = area_m.group(1), area_m.group(2)
+    # 2026-10-09: ページ（app/area/<slug>/page.tsx）が無いキーは集計しない（リンク切れになる。
+    #   同じ店舗がページのあるエリアにも載っていれば系統Aで拾われる）
+    if not (APP_AREA / aslug / "page.tsx").exists():
+        continue
     for rec in parse_studios(body):
         b = brand_of(rec["name"])
         if b and (b, rec["name"]) not in seen:

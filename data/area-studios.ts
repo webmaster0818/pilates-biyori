@@ -282,7 +282,7 @@ export const areaStudios: Record<string, AreaData> = {
         access: '盛岡（バス停津志田）から徒歩10分',
         address: '岩手県盛岡市津志田13地割18-2',
       },
-],
+    ],
   },
 
   'akita': {
@@ -430,7 +430,7 @@ export const areaStudios: Record<string, AreaData> = {
         },
 
       },
-],
+    ],
   },
 
   'fukushima': {
@@ -666,7 +666,7 @@ export const areaStudios: Record<string, AreaData> = {
         access: '宇都宮駅から徒歩5分',
         address: '栃木県宇都宮市駅前通り2丁目3-5 ユニマット宇都宮ビル1F・2F',
       },
-],
+    ],
   },
 
   // ---------------------------------------------------------------
@@ -811,7 +811,7 @@ export const areaStudios: Record<string, AreaData> = {
         access: '甲府駅から徒歩7分',
         address: '山梨県甲府市丸の内1-16-10 トラストワンビル19 408号室',
       },
-],
+    ],
   },
 
 
@@ -914,7 +914,7 @@ export const areaStudios: Record<string, AreaData> = {
         access: '茅ヶ崎駅から徒歩7分',
         address: '神奈川県茅ヶ崎市東海岸北3丁目9-7 寺子屋茅ヶ崎ビル101号室',
       },
-],
+    ],
   },
 
   // ---------------------------------------------------------------
@@ -971,7 +971,7 @@ export const areaStudios: Record<string, AreaData> = {
         access: '平塚駅から徒歩3分',
         address: '神奈川県平塚市紅谷町12-9 平塚ビル2階',
       },
-],
+    ],
   },
 
   // ---------------------------------------------------------------
@@ -1309,7 +1309,7 @@ export const areaStudios: Record<string, AreaData> = {
         access: '八千代台駅から徒歩1分',
         address: '千葉県八千代市八千代台北1丁目4-11 朝陽ビルB201',
       },
-],
+    ],
   },
 
   // ---------------------------------------------------------------
@@ -1365,7 +1365,7 @@ export const areaStudios: Record<string, AreaData> = {
         access: '上尾駅から徒歩1分',
         address: '埼玉県上尾市宮本町3-1 第2大松ビル4F B',
       },
-],
+    ],
   },
 
   // ---------------------------------------------------------------
@@ -2401,7 +2401,7 @@ export const areaStudios: Record<string, AreaData> = {
         access: '刈谷駅から徒歩3分',
         address: '愛知県刈谷市相生町1丁目31 第5セントラルビル4階D号室',
       },
-],
+    ],
   },
 
   'numazu': {

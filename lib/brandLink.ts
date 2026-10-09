@@ -18,6 +18,7 @@ const RULES: Array<{ slug: string; test: (n: string) => boolean }> = [
   { slug: 'rintosull', test: (n) => /Rintosull|リントスル/i.test(n) },
   { slug: 'club-pilates', test: (n) => /CLUB PILATES/i.test(n) },
   { slug: 'dr-pilates', test: (n) => /Dr\.?ピラティス|ドクターピラティス/.test(n) },
+  { slug: 'luluto', test: (n) => /ルルト|luluto/i.test(n) }, // 2026-10-09 追加。aggregate-brands-202607.py と同じ判定
 ]
 
 export function brandSlugOf(studioName: string): string | null {
