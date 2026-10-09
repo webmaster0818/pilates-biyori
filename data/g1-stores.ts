@@ -233,7 +233,7 @@ export const g1Stores: BdcStore[] = [
     address: "東京都品川区大井1丁目11-6 寺崎ビル6階",
     access: "大井町駅から徒歩2分",
     price: "セミパーソナル月4回 19,800円 / パーソナル月4回 39,600円（税込）",
-    trial: "初回体験 無料キャンペーンあり（通常9,800円・毎月先着30名限定）",
+    trial: "初回体験レッスン 0円（公式サイト表記・2026年10月9日確認）",
     areaSlug: "oimachi",
     areaLabel: "大井町",
     nearby: [{ slug: "tokyo", label: "東京" }, { slug: "hongo-sanchome", label: "本郷三丁目" }, { slug: "tokyo-station", label: "東京駅" }],

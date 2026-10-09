@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/okinawa/' },
-  title: '【2026年10月最新】ピラティス沖縄おすすめ14選！人気スタジオの料金プランを簡単比較！',
-  description: '沖縄エリアのおすすめピラティススタジオ14選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス沖縄おすすめ12選！人気スタジオの料金プランを簡単比較！',
+  description: '沖縄エリアのおすすめピラティススタジオ12選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,沖縄,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -112,69 +112,6 @@ const studios = [
       hours: '9:00〜21:00',
       closed: '不定休',
       facilities: ['完全個室', 'ロッカー', 'リフォーマー', 'キャデラック'],
-    },
-  },
-  {
-    name: 'ピラティススタジオ ルキナ那覇新都心',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=Q113418.1.21564097.U1357808',
-    image: '/images/studios/lucina-naha.webp',
-    price: '月3回 9,900円〜',
-    trial: '体験レッスン 1,100円',
-    features: ['女性専用', 'コラーゲンスタジオ', 'グループ&パーソナル', '美容効果'],
-    description: 'マシンピラティス専用のコラーゲンスタジオ。リフォーマーによる少人数制レッスンで姿勢改善やボディメイクを効率よく実現。コラーゲンドリンクやビューティーランプなど美容面も充実。個室でのパーソナルトレーニングにも対応しています。',
-    access: '那覇新都心エリア（詳細は公式サイト参照）',
-    address: '沖縄県那覇市上之屋1-20-9 フジヤオーシャンビル103',
-    popularPlan: {
-      name: 'グループレッスン月3回',
-      description: 'コラーゲンスタジオでの少人数制グループレッスン。美容効果も期待できる。',
-      price: '月3回 9,900円（税込）',
-    },
-    options: [
-      'パーソナルレッスン（月4回 31,000円〜）',
-      'パーソナル体験（1回 4,400円）',
-      'コラーゲンドリンクサービス',
-      'ビューティーランプ施術',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', '美容', '姿勢改善', 'ダイエット'],
-    },
-    basicInfo: {
-      hours: '平日 10:00〜22:00 / 土日祝 10:00〜19:00',
-      closed: '不定休',
-      facilities: ['ロッカー', 'パウダールーム', '女性専用', 'コラーゲンスタジオ', 'ビューティーランプ'],
-    },
-  },
-  {
-    name: 'セレスティア 沖縄那覇店',
-    image: '/images/studios/celestia-okinawa.webp',
-    price: '要問合せ',
-    trial: '体験レッスン 3,000円',
-    features: ['セミパーソナル', '最大2名', '古島駅徒歩3分', '早朝〜深夜'],
-    description: 'セミパーソナル制のマシンピラティス専門スタジオ。最大2名までの少人数制で一人ひとりに合わせた丁寧な指導が特徴。プロのインストラクターが目的や身体の状態に合わせて個別プログラムを作成。7:00〜23:00の幅広い営業時間で通いやすい。',
-    access: 'ゆいレール古島駅から徒歩3分',
-    address: '沖縄県那覇市銘苅1-19-1 アクロスプラザ古島駅前2F',
-    popularPlan: {
-      name: 'セミパーソナルプラン',
-      description: '最大2名の少人数制。個別プログラムで効率よくボディメイク。',
-      price: '詳細は公式サイト参照',
-    },
-    options: [
-      '通い放題プラン（ウェア・水提供付き）',
-      'チケット繰り越し可能',
-      '体験レッスン 30分 3,000円',
-      '詳細は公式サイト参照',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性85% / 男性15%',
-      purpose: ['ボディメイク', '姿勢改善', '不調改善', 'ダイエット'],
-    },
-    basicInfo: {
-      hours: '7:00〜23:00',
-      closed: '不定休',
-      facilities: ['ロッカー', 'パウダールーム', 'ウェア提供あり', 'ウォーターサーバー'],
     },
   },
   {
@@ -482,7 +419,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。マットやタオルはスタジオでレンタルできることが多いです。セレスティアやピラティスisMなど手ぶらOKのスタジオもあります。詳細は各スタジオの体験レッスン案内で確認してくださいね。',
+    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。マットやタオルはスタジオでレンタルできることが多いです。ピラティスisMなど手ぶらOKのスタジオもあります。詳細は各スタジオの体験レッスン案内で確認してくださいね。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
@@ -498,7 +435,7 @@ const faqs = [
   },
   {
     question: '沖縄は車社会ですが、駅近のスタジオはありますか？',
-    answer: 'はい、ゆいレール沿線にはいくつかのスタジオがあります。おもろまち駅徒歩3分のRintosull、古島駅徒歩3分のセレスティア、旭橋駅徒歩3分のピラティスisMなどが駅近です。北谷や豊崎エリアのスタジオは車でのアクセスが便利で、無料駐車場完備のところが多いですよ。',
+    answer: 'はい、ゆいレール沿線にはいくつかのスタジオがあります。おもろまち駅徒歩3分のRintosull、旭橋駅徒歩3分のピラティスisMなどが駅近です。北谷や豊崎エリアのスタジオは車でのアクセスが便利で、無料駐車場完備のところが多いですよ。',
   },
 ]
 
@@ -519,7 +456,7 @@ export default function OkinawaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月01日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス沖縄おすすめ14選！<br className="hidden md:block" />
+              【2026最新】ピラティス沖縄おすすめ12選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -562,7 +499,7 @@ export default function OkinawaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、沖縄エリアでおすすめのピラティススタジオ14選をまとめました。
+              そこでこの記事では、沖縄エリアでおすすめのピラティススタジオ12選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -601,7 +538,7 @@ export default function OkinawaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              沖縄のおすすめピラティススタジオ14選
+              沖縄のおすすめピラティススタジオ12選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -734,7 +671,6 @@ export default function OkinawaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull 那覇新都心（月4回 8,800円〜）</li>
-                  <li className="text-warm-700">• ルキナ那覇新都心（月3回 9,900円〜）</li>
                   <li className="text-warm-700">• ピラティスアクス（月4回 10,780円〜）</li>
                 </ul>
               </div>
@@ -745,7 +681,6 @@ export default function OkinawaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull 那覇新都心（LAVA系列）</li>
-                  <li className="text-warm-700">• ルキナ那覇新都心（コラーゲンスタジオ）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -755,7 +690,6 @@ export default function OkinawaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull（おもろまち駅徒歩3分）</li>
-                  <li className="text-warm-700">• セレスティア（古島駅徒歩3分）</li>
                   <li className="text-warm-700">• ピラティスisM（旭橋駅徒歩3分）</li>
                 </ul>
               </div>
@@ -871,7 +805,7 @@ export default function OkinawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  沖縄は車社会なので、駐車場の有無も重要なポイント。ゆいレール沿線ならRintosull（おもろまち駅）やセレスティア（古島駅）が便利。車移動が中心の方は、Pilates KASANEやピラティスアクス北谷店など駐車場完備のスタジオがおすすめです。
+                  沖縄は車社会なので、駐車場の有無も重要なポイント。ゆいレール沿線ならRintosull（おもろまち駅）が便利。車移動が中心の方は、Pilates KASANEやピラティスアクス北谷店など駐車場完備のスタジオがおすすめです。
                 </p>
               </div>
             </div>

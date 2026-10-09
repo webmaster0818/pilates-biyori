@@ -15,28 +15,12 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/naha/' },
-  title: '【2026年10月最新】ピラティス那覇おすすめ6選！料金・体験レッスン・マシン対応を比較！',
-  description: '那覇エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス那覇おすすめ5選！料金・体験レッスン・マシン対応を比較！',
+  description: '那覇エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,那覇,沖縄,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
 const studios = [
-  {
-    name: 'ルキナ マシンピラティス 那覇新都心店',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=Q113418.1.21564097.U1357808',
-    image: '/images/studios/lucina.webp',
-    price: '詳細は公式サイト参照',
-    trial: '体験レッスンあり（詳細は公式サイト参照）',
-    features: ['マシンピラティス', '少人数制', 'パーソナル可', '姿勢改善'],
-    description: 'ピラティスリフォーマーによる少人数制レッスンで、姿勢改善やボディメイクを効率よく目指せるルキナのマシンピラティス専用スタジオ。個室でのパーソナルトレーニングにも対応しています。ホットヨガ＆コラーゲンスタジオを展開するLucinaグループのピラティス専門業態で、那覇新都心エリアにあります。',
-    access: '那覇新都心エリア（詳細は公式サイト参照）',
-    address: '沖縄県那覇市（詳細は公式サイト参照）',
-    basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '詳細は公式サイト参照',
-      facilities: ['マシンピラティス', 'リフォーマー', '個室パーソナル', '更衣室'],
-    },
-  },
   {
     name: 'Rintosull（リントスル）那覇新都心店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
@@ -70,7 +54,7 @@ const studios = [
     },
   },
   {
-    name: 'ルキナ 那覇新都心',
+    name: 'ピラティススタジオ ルキナ那覇新都心',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Q113418.1.21564097.U1357808',
     image: '/images/studios/lucina-naha.webp',
     price: '要問い合わせ',
@@ -96,8 +80,8 @@ const studios = [
       purpose: ['ボディメイク', '美容', '姿勢改善', 'ダイエット'],
     },
     basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '不定休',
+      hours: '平日 10:00-22:00／土日祝 10:00-19:00（公式サイト・2026年10月9日確認）',
+      closed: '毎週月曜日',
       facilities: ['リフォーマー', 'コラーゲンランプ', '更衣室', 'ロッカー', '個室'],
     },
   },
@@ -256,7 +240,7 @@ export default function NahaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月01日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス那覇おすすめ6選！<br className="hidden md:block" />
+              【2026最新】ピラティス那覇おすすめ5選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -299,7 +283,7 @@ export default function NahaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、那覇エリアでおすすめのピラティススタジオ6選をまとめました。
+              そこでこの記事では、那覇エリアでおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -339,7 +323,7 @@ export default function NahaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              那覇のおすすめピラティススタジオ6選
+              那覇のおすすめピラティススタジオ5選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
