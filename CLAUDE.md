@@ -725,3 +725,20 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - ⚠️ `BrandInfo` は `useHyoban` が必須。新ブランドを足すとビルドが型エラーで落ちる（掲載3件では
   評価の母数が無いので false）。
 - ピラティスKの未使用バナー（224×33 / 650×500）は、MediaXAI回答「他のURLで満たせているなら問題ない」で見送り。
+
+### 2026-10-09 判断待ち案件の事実確定：WECLE 5店／STUDIO IVY 学芸大学店（本番は変更なし・公開しない）
+
+**結論**: WECLE 梅田・立川・なんば・心斎橋・上野（＋赤坂）は「閉店」ではなく**公式に存在した形跡が無い**。STUDIO IVY 学芸大学店は**実在する**（10/8 の「一覧に無い」は誤り）。
+
+- **WECLE（wecle.jp・運営 nobitel）**: 公式 `/shoplist/` は30店（三軒茶屋〜イオンモール新居浜）。店舗URLは `wecle.jp/<slug>/` 形式で、`/umeda/ /tachikawa/ /namba/ /nanba/ /shinsaibashi/ /ueno/ /akasaka/` は全て404（`/honatsugi/` は200）。Wayback の `wecle.jp/` 2021-06・2023-06・2024-05・2025-06 の4時点とも店舗一覧に梅田・立川・なんば・心斎橋・上野・赤坂は**一度も載っていない**（availability API も5店とも `archived_snapshots: {}`。対照の `/honatsugi/` は429で取れず未確認）。データ側の住所も「なんば＝難波千日前15-15 OCAT 8F」「心斎橋＝心斎橋千日前15-15 OCAT 8F」と同一ビルで、梅田の「AI姿勢分析・女性専用」も公式のWECLE（30分ストレッチピラティス・予約不要）と業態が合わない＝生成時の創作の疑いが濃い。**akasaka の「WECLE 赤坂」（住所「赤坂エリア」）も同じく公式に無い＝6店目**
+- **STUDIO IVY 学芸大学店**: 公式 `/studio/studio_area/tokyo-23wards` は**6ページにページネーション**されており（10/8 は1ページ目12件しか見ていなかった）、全21エリア・全ページを辿ると**143店**。`gakugeidaigaku` は一覧にあり、店舗ページ `https://www.pilates-ivy.jp/studio/gakugeidaigaku` は200（住所 目黒区碑文谷6-1-22 リカーハイム303号室・学芸大学駅徒歩3分・営業時間 8:00~21:00）。Googleマップにも登録あり（studio-reviews.ts に cid・評価5/5件・2026-08-17取得）。**削除しない**。⚠️ gakugei-daigaku 側の住所「鷹番（学芸大学駅徒歩圏内）」は公式と違う（toritsu-daigaku 側は公式住所）→ 別途修正（P3）
+- **「felmat コードが Pilates Mee のもの」は再現できず**: gakugei-daigaku／toritsu-daigaku の STUDIO IVY 学芸大学店ブロックは **officialUrl 自体が無い**（2026-04-09 の追加時から一度も無い。`git log -S`）。StudioCard はリンク無しのとき Google 検索リンクに fallback する。WECLE 5店も同じく officialUrl 無し＝**「a8/felmat リンク付き」も誤り**。隣のカード（Dr.ピラティス Z11979O）を読み違えたとみられる
+- **外した場合の影響（`wip/remove-unverified-stores` `82a4a26e`・ビルド＋precheck 全項目OK・main 未マージ）**: 7ページ。umeda 9→8選／tachikawa 8→7／namba 7→6／shinsaibashi 9→8／ueno 8→7／gakugei-daigaku 5→4／toritsu-daigaku 12→11。**3件未満になるページは無し**。N選は title/h1/description/本文の全箇所を同時に書き換え、箇条書き・本文の言及（umeda の料金相場「WECLE梅田は月4回14,800円〜」等）も除去。生成HTMLでカード数＝N選を実測一致。WECLE 赤坂（akasaka 11店）は wip に含めていない
+- **他ブランドの機械突合（公式一覧が取れるブランドのみ）**:
+  - Pilates Mee（`m-pilates.com/shop/`・現在149店）: エリアページの68件 **全て一致**
+  - zen place（`zenplace.co.jp/studios`・6/11取得133店とも照合）: 197件中 **朝霞台・海老名・志木の3件が公式に無い**（6/11 時点のデータにも無い）。店名を特定していない「（京王線沿線）」「（東上線沿線）」等が10件
+  - STUDIO IVY（公式143店）: エリアページ47件＋area-studios.ts 6件のうち、店名が特定でき公式に無いのは **四谷三丁目店（yotsuya）1件**。店名不特定が4件（marunouchi「STUDIO IVY」・osaka「大阪」・shimbashi「新橋（近隣）」・toritsudaigaku「STUDIO IVY」）。赤坂・麻布十番・奥沢・広尾・久我山・成城学園前・下北沢・銀座新富町・三田 等は公式にあり
+  - WECLE（公式30店）: 8件中 本厚木・せんちゅうパルの2件のみ一致、6件不一致（上記）
+  - the SILK／BDC／CLUB PILATES／G1／KASANE の data は「エリアページからの転記」で公式取得スクリプトが無い＝**未確認**
+- **できなかったこと**: Wayback の CDX API が一時オフライン→429 で、店舗URL単位のスナップショット有無の対照確認（本厚木）は取れていない。判定はトップページ4時点の店舗一覧で代替
+- 教訓: **公式一覧は `?page=N` を全部辿ってから「無い」と言う**。店舗ページの直URLを先に当てる（`/studio/<romaji>` が200なら実在）
