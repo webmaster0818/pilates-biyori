@@ -24,6 +24,9 @@ type Studio = {
   reviewCount?: number
   reviews?: Review[]
   price: string
+  /** カードの「料金」欄に1行ずつ出す料金一覧。あれば price の代わりに出す（比較表は price のまま）。
+   *  2026-10-09 Pilates Mee（クライアント指示: 一番上に「体験レッスン無料」＋公式の通常料金）。 */
+  priceList?: string[]
   trial: string
   /** 体験レッスンの申込フォーム（公式）。先方から案内があった店舗だけ設定する。 */
   trialUrl?: string
@@ -248,10 +251,21 @@ export function StudioCardClient({ studio, index }: StudioCardProps) {
                   </p>
                 )}
                 <div className="space-y-2">
-                  <div className="flex items-center text-sm">
-                    <span className="text-warm-500 font-medium w-24">料金：</span>
-                    <span className="text-warm-800 font-bold">{studio.price}</span>
-                  </div>
+                  {studio.priceList && studio.priceList.length > 0 ? (
+                    <div className="flex items-start text-sm">
+                      <span className="text-warm-500 font-medium w-24 shrink-0">料金：</span>
+                      <ul className="text-warm-800 font-bold space-y-1">
+                        {studio.priceList.map((line, i) => (
+                          <li key={i}>{line}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  ) : (
+                    <div className="flex items-center text-sm">
+                      <span className="text-warm-500 font-medium w-24">料金：</span>
+                      <span className="text-warm-800 font-bold">{studio.price}</span>
+                    </div>
+                  )}
                   <div className="flex items-center text-sm">
                     <span className="text-warm-500 font-medium w-24">体験：</span>
                     <span className="text-warm-800 font-bold">{studio.trial}</span>

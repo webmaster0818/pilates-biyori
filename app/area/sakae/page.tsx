@@ -86,19 +86,13 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
     price: 'パーソナル料金',
-    trial: '初回体験レッスン 0円（公式サイト表記・2026年10月9日確認）',
+    priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
+    trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
     description: 'パーソナルマシンピラティス専門スタジオ。名古屋栄エリアに展開。一人ひとりの体型・目標に合わせたオーダーメイドのマシンピラティスレッスンを提供。完全マンツーマン指導で初心者でも安心。姿勢改善やボディメイクを効率的に目指せます。',
     access: '丸の内駅 徒歩5分／久屋大通駅 徒歩8分',
     address: '〒460-0002 愛知県名古屋市中区丸の内3丁目23-6 丸の内セントラルハイツ 401号室',
     popularPlan: { name: 'パーソナルコース', description: '完全マンツーマンのマシンピラティス。オーダーメイドプログラム。', price: 'お問い合わせください' },
-    options: [
-      'セミパーソナル 月2回 11,000円（1回5,500円・税込）',
-      'セミパーソナル 月4回 19,800円（1回4,950円・税込）',
-      'パーソナル 月2回 22,000円／月4回 39,600円（税込）',
-      '体験当日の入会で入会金 33,000円 → 0円',
-      '体験当日の入会で月会費がずっと10%OFF（セミパーソナル月4回 17,600円）',
-    ],
     userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['姿勢改善', 'ボディメイク', '肩こり腰痛改善', '体幹強化'] },
     basicInfo: { hours: '9:00〜21:15', closed: '不定休', facilities: ['女性専用トイレ', '着替えスペース', '全身鏡'] },
   },
@@ -392,7 +386,7 @@ export default function SakaePage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2>
-            <p className="text-warm-200 mb-8 leading-relaxed">体験レッスン0円〜3,300円。<br />まずは気軽に体験してみましょう。</p>
+            <p className="text-warm-200 mb-8 leading-relaxed">体験レッスン無料〜3,300円。<br />まずは気軽に体験してみましょう。</p>
             <Link href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded">おすすめスタジオ一覧に戻る</Link>
           </div>
         </section>

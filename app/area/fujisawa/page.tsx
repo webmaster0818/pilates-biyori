@@ -122,24 +122,18 @@ const studios = [
     name: 'Pilates Mee 藤沢店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
-    price: '1回 1,250円〜（定額制）',
-    trial: '初回体験レッスン 0円（公式サイト表記・2026年10月9日確認）',
+    price: '1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合',
+    priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
+    trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '1人のインストラクターにつき最大3名のセミパーソナル型マシンピラティススタジオ。藤沢駅から徒歩5分。定額制で1回あたり1,250円（※37,500円の通い放題コースで30日通った場合）〜と驚きのコスパ。当日予約・当日キャンセルOKと柔軟な予約対応。女性専用。',
+    description: '1人のインストラクターにつき最大3名のセミパーソナル型マシンピラティススタジオ。藤沢駅から徒歩5分。定額制で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と驚きのコスパ。当日予約・当日キャンセルOKと柔軟な予約対応。女性専用。',
     access: '藤沢駅 徒歩5分',
     address: '〒251-0023 神奈川県藤沢市鵠沼花沢町11-1　1階',
     popularPlan: {
       name: '定額制プラン',
-      description: 'セミパーソナルのマシンピラティス。通い放題で1回あたり1,250円〜。',
+      description: 'セミパーソナルのマシンピラティス。通い放題で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）。',
       price: '定額制（詳細は公式サイト参照）',
     },
-    options: [
-      'セミパーソナル 月2回 11,000円（1回5,500円・税込）',
-      'セミパーソナル 月4回 19,800円（1回4,950円・税込）',
-      'パーソナル 月2回 22,000円／月4回 39,600円（税込）',
-      '体験当日の入会で入会金 33,000円 → 0円',
-      '体験当日の入会で月会費がずっと10%OFF（セミパーソナル月4回 17,600円）',
-    ],
     userProfile: {
       ageRange: '20代〜40代が中心',
       genderRatio: '女性100%（女性専用）',
@@ -268,7 +262,7 @@ const faqs = [
   },
   {
     question: '藤沢のピラティススタジオの料金相場は？',
-    answer: 'グループ月4回で9,600円〜15,300円程度。Pilates Meeは定額制で1回1,250円〜。パーソナルは1回6,600円〜が相場です。',
+    answer: 'グループ月4回で9,600円〜15,300円程度。Pilates Meeは定額制で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）。パーソナルは1回6,600円〜が相場です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -434,7 +428,7 @@ export default function FujisawaPage() {
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回 1,250円〜12,000円</td>
+                    <td className="px-4 py-3">1回あたり2,500円〜12,000円（※Pilates Meeは37,500円の通い放題コースで15日通った場合）</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
@@ -534,7 +528,7 @@ export default function FujisawaPage() {
                   月額1万円以下で通えるリーズナブルなスタジオ。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Pilates Mee（1回1,250円〜）</li>
+                  <li className="text-warm-700">• Pilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）</li>
                   <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
                   <li className="text-warm-700">• LOrena（1回 4,400円〜）</li>
                 </ul>
@@ -602,7 +596,7 @@ export default function FujisawaPage() {
                   グループ・セミパーソナル中心。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Pilates Mee（定額1,250円〜/回）</li>
+                  <li>• Pilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）</li>
                   <li>• zen place（9,625円〜/月4回）</li>
                 </ul>
               </div>

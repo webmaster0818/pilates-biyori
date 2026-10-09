@@ -51,19 +51,12 @@ const studios = [
     name: 'Pilates Mee 田園調布店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp', reviewCount: 112,
-    price: '月2回 11,000円〜', trial: '初回体験レッスン 0円（公式サイト表記・2026年10月9日確認）',
+    price: '月2回 11,000円〜', priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'], trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '最大3名までの少人数セミパーソナル形式の女性専用マシンピラティススタジオ。田園調布駅から徒歩2分。当日予約・当日キャンセルが可能で忙しい方にも柔軟に対応。通い放題プランなら1回あたり1,250円のコスパ（※37,500円の通い放題コースで30日通った場合）。',
+    description: '最大3名までの少人数セミパーソナル形式の女性専用マシンピラティススタジオ。田園調布駅から徒歩2分。当日予約・当日キャンセルが可能で忙しい方にも柔軟に対応。通い放題プランなら1回あたり2,500円のコスパ（※37,500円の通い放題コースで15日通った場合）。',
     access: '田園調布駅 徒歩2分',
     address: '〒145-0071 東京都大田区田園調布3丁目4-5 田園プラザサイトウビル 202',
     popularPlan: { name: '月4回プラン', description: 'セミパーソナル形式のマシンピラティス。最大3名の少人数制。', price: '月4回 19,800円（税込）' },
-    options: [
-      'セミパーソナル 月2回 11,000円（1回5,500円・税込）',
-      'セミパーソナル 月4回 19,800円（1回4,950円・税込）',
-      'パーソナル 月2回 22,000円／月4回 39,600円（税込）',
-      '体験当日の入会で入会金 33,000円 → 0円',
-      '体験当日の入会で月会費がずっと10%OFF（セミパーソナル月4回 17,600円）',
-    ],
     userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', '姿勢改善', '柔軟性向上', 'ダイエット'] },
     basicInfo: { hours: '9:00〜21:15', closed: '不定休', facilities: ['女性専用トイレ', '着替えスペース', '全身鏡'] },
   },
@@ -277,7 +270,7 @@ export default function DenenchofuPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">体験レッスンの料金差に注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  田園調布エリアのスタジオは体験レッスンの料金はスタジオにより幅があります。TSUTAYA Conditioningは無料、zen placeは1,000円、Pilates Meeは公式サイトで初回体験レッスン0円と表記されています（2026年10月9日確認）。事前に確認してから予約しましょう。
+                  田園調布エリアのスタジオは体験レッスンの料金はスタジオにより幅があります。TSUTAYA Conditioningは無料、zen placeは1,000円、Pilates Meeは体験レッスン無料です。事前に確認してから予約しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

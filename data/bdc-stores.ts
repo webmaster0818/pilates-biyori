@@ -8,6 +8,8 @@ export type BdcStore = {
   addressIsVague?: boolean; // 公式が詳細住所非開示のエリア（誇張しない）
   access: string;
   price: string;
+  /** 基本情報の「料金」欄に1行ずつ出す一覧（あれば price の代わり）。2026-10-09 Pilates Mee（クライアント指示） */
+  priceList?: string[];
   trial: string;
   rating?: number;
   prefecture?: string; // 構造化データareaServed用（住所非開示店。例: 兵庫県）

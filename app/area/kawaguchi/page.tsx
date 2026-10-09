@@ -122,9 +122,10 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
     price: '月2回 11,000円〜',
-    trial: '体験レッスン 無料（キャンペーン中）',
+    priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
+    trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '女性専用マシンピラティススタジオ。川口駅から徒歩8分。1レッスン最大3名のセミパーソナル形式で、一人ひとりに合わせた丁寧な指導が特徴。通い放題プランなら1回あたり1,250円（※37,500円の通い放題コースで30日通った場合）〜。',
+    description: '女性専用マシンピラティススタジオ。川口駅から徒歩8分。1レッスン最大3名のセミパーソナル形式で、一人ひとりに合わせた丁寧な指導が特徴。通い放題プランなら1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）。',
     access: '川口駅 徒歩5分',
     address: '〒332-0016 埼玉県川口市幸町3丁目9-31 メゾン・ド・ボヌール 204',
     popularPlan: {
@@ -132,13 +133,6 @@ const studios = [
       description: 'セミパーソナル（最大3名）マシンピラティス月4回。',
       price: '月4回 19,800円（税込）',
     },
-    options: [
-      'セミパーソナル 月2回 11,000円（1回5,500円・税込）',
-      'セミパーソナル 月4回 19,800円（1回4,950円・税込）',
-      'パーソナル 月2回 22,000円／月4回 39,600円（税込）',
-      '体験当日の入会で入会金 33,000円 → 0円',
-      '体験当日の入会で月会費がずっと10%OFF（セミパーソナル月4回 17,600円）',
-    ],
     userProfile: {
       ageRange: '20代〜40代が中心',
       genderRatio: '女性100%（女性専用）',
@@ -235,7 +229,7 @@ const faqs = [
   },
   {
     question: '無料で体験できるスタジオはどこですか？',
-    answer: 'ピラティスK（0円体験）、URBAN CLASSIC PILATES（0円体験）、Pilates Mee（キャンペーン中無料）が無料体験可能。zen placeはグループ体験1,100円、KASANEは500円です。',
+    answer: 'ピラティスK（0円体験）、URBAN CLASSIC PILATES（0円体験）、Pilates Mee（体験レッスン無料）が無料体験可能。zen placeはグループ体験1,100円、KASANEは500円です。',
   },
   {
     question: '車で通えるスタジオはありますか？',
@@ -542,7 +536,7 @@ export default function KawaguchiPage() {
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span>
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
-                <p className="text-warm-600 leading-relaxed">ピラティスK、URBAN CLASSICは0円体験。Pilates Meeもキャンペーン中は無料。zen placeは1,100円。まずは体験してみましょう。</p>
+                <p className="text-warm-600 leading-relaxed">ピラティスK、URBAN CLASSICは0円体験。Pilates Meeも体験レッスン無料。zen placeは1,100円。まずは体験してみましょう。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4">

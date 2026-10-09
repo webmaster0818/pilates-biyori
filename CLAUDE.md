@@ -766,3 +766,11 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - ③ DAYS: umeda/shinsaibashi/osaka の掲載料金を公式料金ページ（割引後・税込）に統一
 - ④ Dr.ピラティス 西宮店: Google側「Dr.トレーニング 西宮店」、口コミ5件ともトレーニングジムの内容→要約を削除・照合取消
 - ⑤ Celestia 沖縄那覇店: 公式店舗一覧に無し・店舗ページ /okinawa/ が404（2025-12開業のPRあり、閉店告知は見当たらず）→掲載を外した（okinawa 13→12選）
+
+### 2026-10-09 Pilates Mee 掲載修正（クライアント指示・期限 10/13 11:00・MediaXAI #1487358680671326259）
+- 背景: 消費者庁からキャンペーン訴求の指摘（期限後も同条件＝有利誤認の疑い）→ **Mee/Mee Life のキャンペーン訴求は全削除**。シート140URL（エリア138＋/brands/pilates-mee/＋/brands/pilates-mee-oimachi/）。作業記録・スクリプト一式は `~/.openclaw/workspace/tasks/mee-1013/`（transform.py＝店舗データ一括・body_fix.py＝本文・scan.py＝検証・done.csv・verify.txt）
+- ルール: 体験は「体験レッスン無料」のみ（9,800円・0円表記・入会金0円・10%OFF・期限・先着・（人数限定）を出さない）／料金は公式の通常価格／1回あたりは **Mee＝2,500円（37,500円通い放題で15日）・Life＝1,640円（24,600円で15日）**（旧1,250円/30日・820円は不可）
+- **StudioCard に `priceList?: string[]` を追加**（あればカードの「料金」欄に1行ずつ出す。比較表は price のまま）。Mee 店舗は `['体験レッスン無料', 'セミパーソナル：…', 'パーソナル：…']`。Mee 店舗の `options`（入会金0円・10%OFF 行を含む）は削除
+- 追記プラン＝シートの指定プラン ∪ 既存掲載プラン。「可能であれば」行は公式店舗ページ（m-pilates.com/shop/*/ 149店を取得＝Mee店は セミ3＋パーソナル3、Life店は 5人制4＋パーソナル3）
+- ブランド: `BrandInfo.priceList`（料金プラン欄の先頭）・`noCampaignWording`（注記/CTAから「キャンペーン」の語を外す）・`subBrandWord`（店舗ページで店名に Life を含まないとき Life の文・FAQを出さない）／`BdcStore.priceList`（g1-stores の大井町）。⚠️ g1-stores.ts は gen-g1-stores-202607.py の生成物＝再生成するなら priceList/trial を戻さないこと
+- ⚠️ **シート外で Mee の旧表記が残るのは /area/soka/・/area/nishi-ogikubo/ の2ページ**（初回体験レッスン 0円＋options の入会金・10%OFF）→ 判断待ち

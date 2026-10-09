@@ -88,24 +88,18 @@ const studios = [
     name: 'Pilates Mee 名古屋金山店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
-    price: '1回あたり 1,250円〜',
-    trial: '初回体験レッスン 0円（公式サイト表記・2026年10月9日確認）',
+    price: '1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合',
+    priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
+    trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '最大3名までの少人数セミパーソナル形式の女性専用マシンピラティススタジオ。金山駅から徒歩3分。インストラクターが一人ひとりに十分に対応できるセミパーソナル定額制で、1回あたり1,250円（※37,500円の通い放題コースで30日通った場合）〜の高コスパ。',
+    description: '最大3名までの少人数セミパーソナル形式の女性専用マシンピラティススタジオ。金山駅から徒歩3分。インストラクターが一人ひとりに十分に対応できるセミパーソナル定額制で、1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）の高コスパ。',
     access: '金山駅 徒歩3分',
     address: '〒456-0018 愛知県名古屋市熱田区新尾頭1丁目6-11 プレミール金山702',
     popularPlan: {
       name: 'セミパーソナル定額制',
       description: '最大3名のセミパーソナルマシンピラティス。',
-      price: '1回あたり 1,250円〜（税込）',
+      price: '1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合',
     },
-    options: [
-      'セミパーソナル 月2回 11,000円（1回5,500円・税込）',
-      'セミパーソナル 月4回 19,800円（1回4,950円・税込）',
-      'パーソナル 月2回 22,000円／月4回 39,600円（税込）',
-      '体験当日の入会で入会金 33,000円 → 0円',
-      '体験当日の入会で月会費がずっと10%OFF（セミパーソナル月4回 17,600円）',
-    ],
     userProfile: {
       ageRange: '20代〜40代が中心',
       genderRatio: '女性100%（女性専用）',
@@ -246,7 +240,7 @@ const faqs = [
   },
   {
     question: '金山のピラティスの料金相場は？',
-    answer: 'グループ月4回で10,450円〜。通い放題は13,800円〜（Rintosull）。セミパーソナルのPilates Meeは1回あたり1,250円〜と高コスパ。',
+    answer: 'グループ月4回で10,450円〜。通い放題は13,800円〜（Rintosull）。セミパーソナルのPilates Meeは1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と高コスパ。',
   },
   {
     question: '金山駅から最も近いスタジオはどこですか？',
@@ -370,7 +364,7 @@ export default function KanayamaPage() {
                 <p className="text-warm-600 text-sm mb-4">月額1万円台で通えるスタジオ。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• Pilates Mee（1回 1,250円〜）</li>
+                  <li className="text-warm-700">• Pilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -404,8 +398,8 @@ export default function KanayamaPage() {
                 <thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">種別</th><th className="px-4 py-3 text-left">料金相場</th></tr></thead>
                 <tbody>
                   <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4回）</td><td className="px-4 py-3">10,450円〜16,940円</td></tr>
-                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">セミパーソナルレッスン</td><td className="px-4 py-3">1回 1,250円〜5,000円</td></tr>
-                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">0円〜3,000円</td></tr>
+                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">セミパーソナルレッスン</td><td className="px-4 py-3">1回あたり2,500円〜5,000円（※Pilates Meeは37,500円の通い放題コースで15日通った場合）</td></tr>
+                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">無料〜3,000円</td></tr>
                 </tbody>
               </table>
             </div>
@@ -485,7 +479,7 @@ export default function KanayamaPage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">予算を決める</h3></div>
-                <p className="text-warm-600 leading-relaxed">金山の相場はグループ月4回で10,450円〜。Pilates Meeは1回1,250円〜と高コスパ。Rintosullは通い放題13,800円〜。</p>
+                <p className="text-warm-600 leading-relaxed">金山の相場はグループ月4回で10,450円〜。Pilates Meeは1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と高コスパ。Rintosullは通い放題13,800円〜。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div>

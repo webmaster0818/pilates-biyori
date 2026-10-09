@@ -121,24 +121,18 @@ const studios = [
     name: 'Pilates Mee 神楽坂・飯田橋店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
-    price: '1回 1,250円〜',
-    trial: '初回体験レッスン 0円（公式サイト表記・2026年10月9日確認）',
+    price: '1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合',
+    priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円（税込）'],
+    trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '女性専用セミパーソナルマシンピラティススタジオ。神楽坂駅から徒歩3分、牛込神楽坂A3出口から徒歩2分。最大3名の少人数制で1レッスン1,250円〜の高コスパ。当日予約・当日キャンセルOK。チケット繰り越し可能。',
+    description: '女性専用セミパーソナルマシンピラティススタジオ。神楽坂駅から徒歩3分、牛込神楽坂A3出口から徒歩2分。最大3名の少人数制で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）の高コスパ。当日予約・当日キャンセルOK。チケット繰り越し可能。',
     access: '神楽坂駅 徒歩3分／牛込神楽坂駅 徒歩2分／飯田橋駅 徒歩5分',
     address: '〒162-0816 東京都新宿区白銀町1−15 SEKビル4階',
     popularPlan: {
       name: '月額定額プラン',
-      description: '最大3名のセミパーソナルマシンピラティス。1回あたり1,250円（※37,500円の通い放題コースで30日通った場合）〜。',
+      description: '最大3名のセミパーソナルマシンピラティス。1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）。',
       price: '月額制（公式サイト参照）',
     },
-    options: [
-      'セミパーソナル 月2回 11,000円（1回5,500円・税込）',
-      'セミパーソナル 月4回 19,800円（1回4,950円・税込）',
-      'パーソナル 月2回 22,000円／月4回 39,600円（税込）',
-      '体験当日の入会で入会金 33,000円 → 0円',
-      '体験当日の入会で月会費がずっと10%OFF（セミパーソナル月4回 17,600円）',
-    ],
     userProfile: {
       ageRange: '20代〜40代が中心',
       genderRatio: '女性100%（女性専用）',
@@ -205,7 +199,7 @@ const faqs = [
   },
   {
     question: '神楽坂エリアの料金相場は？',
-    answer: 'セミパーソナルのPilates Meeは1回1,250円〜と格安。グループ月4回で10,450円〜14,190円程度。パーソナルはルルトが月3回29,700円〜。',
+    answer: 'セミパーソナルのPilates Meeは1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と格安。グループ月4回で10,450円〜14,190円程度。パーソナルはルルトが月3回29,700円〜。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -225,7 +219,7 @@ const faqs = [
   },
   {
     question: '一番コスパが良いスタジオは？',
-    answer: 'Pilates Meeは1回1,250円〜と圧倒的なコスパ。最大3名のセミパーソナルで、パーソナルに近い指導を格安で受けられます。',
+    answer: 'Pilates Meeは1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と圧倒的なコスパ。最大3名のセミパーソナルで、パーソナルに近い指導を格安で受けられます。',
   },
   {
     question: '理学療法士の指導を受けられるスタジオは？',
@@ -367,7 +361,7 @@ export default function KagurazakaPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">1,250円〜29,700円</td>
+                    <td className="px-4 py-3">1回あたり2,500円〜29,700円（※Pilates Meeは37,500円の通い放題コースで15日通った場合）</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -381,7 +375,7 @@ export default function KagurazakaPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              神楽坂は商業施設やオフィスが集まる繁華街エリアのため、駅近の好立地スタジオが多く、やや高めの料金設定が目立ちます。一方で大手チェーンの進出も多いため、キャンペーンや月額通い放題プランを上手に活用すれば、実質的なコストを抑えることも可能です。近隣の飯田橋エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
+              神楽坂は商業施設やオフィスが集まる繁華街エリアのため、駅近の好立地スタジオが多く、やや高めの料金設定が目立ちます。一方で大手チェーンの進出も多いため、月額通い放題プランを上手に活用すれば、実質的なコストを抑えることも可能です。近隣の飯田橋エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
             </p>
           </div>
         </section>
@@ -468,10 +462,10 @@ export default function KagurazakaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  1回1,250円〜のスタジオも。
+                  1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合のスタジオも。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Pilates Mee（1回 1,250円〜）</li>
+                  <li className="text-warm-700">• Pilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）</li>
                   <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
                 </ul>
               </div>
@@ -536,7 +530,7 @@ export default function KagurazakaPage() {
                   少人数制で高コスパ。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Pilates Mee（1,250円〜/回）</li>
+                  <li>• Pilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）</li>
                   <li>• Repilates（3,300円〜/回）</li>
                 </ul>
               </div>
@@ -588,7 +582,7 @@ export default function KagurazakaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  神楽坂の料金相場はセミパーソナル1回1,250円〜、グループ月4回10,450円〜14,190円。入会金やキャンペーンも確認。
+                  神楽坂の料金相場はセミパーソナル1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）、グループ月4回10,450円〜14,190円。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

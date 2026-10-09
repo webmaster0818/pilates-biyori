@@ -27,6 +27,14 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
   const brand = getBrand(brandSlug);
   const brandName = brand?.name ?? brandSlug.toUpperCase();
   const brandHref = `/brands/${brandSlug}/`;
+  /* 別業態（例: Pilates Mee Life）の説明は、その業態でない店舗のページでは出さない（2026-10-09 Pilates Mee大井町店・クライアント指示） */
+  const sub = brand?.subBrandWord;
+  const dropSub = !!sub && !store.storeName.includes(sub.replace(/^.*\s/, ""));
+  const intro = (brand?.intro ?? [])
+    .map((p) => (dropSub ? p.split(/(?<=。)/).filter((x) => !x.includes(sub!)).join("") : p))
+    .filter((p) => p.trim());
+  const brandFaq = (brand?.faq ?? []).filter((f) => !(dropSub && (f.q.includes(sub!) || f.a.includes(sub!))));
+  const noCampaign = brand?.noCampaignWording === true;
 
   const faqs = [
     {
@@ -37,7 +45,7 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
       q: `${brandName} ${store.areaQuery}へのアクセスは？`,
       a: `${store.access}です。${store.addressIsVague ? "詳細な所在地は公式サイトでご確認ください。" : `所在地は${store.address}です。`}`,
     },
-    ...(brand?.faq ?? []),
+    ...brandFaq,
   ];
 
   const localLd = {
@@ -149,14 +157,14 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
                   <tr className="border-b border-warm-100"><th className="px-4 py-3 text-left text-warm-500 font-medium whitespace-nowrap w-28">店舗</th><td className="px-4 py-3 text-warm-800">{store.storeName}</td></tr>
                   <tr className="border-b border-warm-100"><th className="px-4 py-3 text-left text-warm-500 font-medium">所在地</th><td className="px-4 py-3 text-warm-800">{store.address}</td></tr>
                   <tr className="border-b border-warm-100"><th className="px-4 py-3 text-left text-warm-500 font-medium">アクセス</th><td className="px-4 py-3 text-warm-800">{store.access}</td></tr>
-                  <tr className="border-b border-warm-100"><th className="px-4 py-3 text-left text-warm-500 font-medium">料金</th><td className="px-4 py-3 text-warm-800">{store.price}</td></tr>
+                  <tr className="border-b border-warm-100"><th className="px-4 py-3 text-left text-warm-500 font-medium">料金</th><td className="px-4 py-3 text-warm-800">{store.priceList && store.priceList.length > 0 ? (<ul className="space-y-1">{store.priceList.map((line) => <li key={line}>{line}</li>)}</ul>) : store.price}</td></tr>
                   <tr className="border-b border-warm-100"><th className="px-4 py-3 text-left text-warm-500 font-medium">体験</th><td className="px-4 py-3 text-warm-800">{store.trial}</td></tr>
                   {store.rating && <tr><th className="px-4 py-3 text-left text-warm-500 font-medium">評価</th><td className="px-4 py-3 text-warm-800">★{store.rating.toFixed(1)}（当サイト掲載時点）</td></tr>}
                 </tbody>
               </table>
             </div>
             <p className="text-[11px] text-warm-400 mt-3 leading-relaxed">
-              ※料金・体験条件は当サイト掲載時点の情報であり、金額を保証するものではありません。最新の料金・空き状況・キャンペーンは公式サイトでご確認ください。
+              ※料金・体験条件は当サイト掲載時点の情報であり、金額を保証するものではありません。{noCampaign ? "最新の料金・空き状況は公式サイトでご確認ください。" : "最新の料金・空き状況・キャンペーンは公式サイトでご確認ください。"}
               {store.addressIsVague && "所在地の詳細は公式サイトでご確認ください。"}
               {brand?.officialRef && (
                 <>
@@ -177,7 +185,7 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
           {brand?.ctaUrl && (
             <section className="mb-10 bg-white border border-warm-200 p-6 text-center">
               <p className="text-sm text-warm-700 font-light mb-4 leading-relaxed">
-                {store.storeName}の体験レッスンの空き状況・最新のキャンペーンは公式サイトで確認できます。
+                {store.storeName}の体験レッスンの空き状況{noCampaign ? "" : "・最新のキャンペーン"}は公式サイトで確認できます。
               </p>
               <a
                 href={brand.ctaUrl}
@@ -225,7 +233,7 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
           {/* ブランドの特徴 → ブランドページへ */}
           <section className="mb-10">
             <h2 className="text-xl font-light text-warm-900 border-b border-warm-200 pb-2 mb-4">{brandName}とは（{store.areaQuery}で通う前に）</h2>
-            {(brand?.intro ?? []).map((p, i) => (
+            {intro.map((p, i) => (
               <p key={i} className="text-sm text-warm-700 leading-relaxed mb-3 font-light">{p}</p>
             ))}
             <div className="flex flex-wrap gap-2 mb-4">

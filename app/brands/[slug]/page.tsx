@@ -195,6 +195,13 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
           {/* 料金 */}
           <section className="mb-10">
             <h2 className="text-xl font-light text-warm-900 border-b border-warm-200 pb-2 mb-4">{brand.name}の料金プラン</h2>
+            {brand.priceList && brand.priceList.length > 0 && (
+              <ul className="bg-white border border-warm-200 px-4 py-3 mb-4 space-y-1 text-sm text-warm-800">
+                {brand.priceList.map((line) => (
+                  <li key={line}>{line}</li>
+                ))}
+              </ul>
+            )}
             <p className="text-sm text-warm-700 leading-relaxed mb-4 font-light">{brand.pricingNote}</p>
             {prices.length > 0 && (
               <div className="bg-white border border-warm-200 overflow-x-auto">
@@ -217,7 +224,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
               </div>
             )}
             <p className="text-[11px] text-warm-400 mt-3 leading-relaxed">
-              ※料金は当サイト掲載時点の情報の集計であり、金額を保証するものではありません。最新の料金・キャンペーンは公式サイトでご確認ください。
+              ※料金は当サイト掲載時点の情報の集計であり、金額を保証するものではありません。{brand.noCampaignWording ? '最新の料金は公式サイトでご確認ください。' : '最新の料金・キャンペーンは公式サイトでご確認ください。'}
             </p>
           </section>
 
@@ -242,7 +249,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
           {/* CTA */}
           {brand.ctaUrl && (
             <section className="mb-10 text-center bg-white border border-warm-200 p-8">
-              <p className="text-sm text-warm-600 mb-4 font-light">体験レッスンの空き状況・最新キャンペーンは公式サイトから確認できます。</p>
+              <p className="text-sm text-warm-600 mb-4 font-light">{brand.noCampaignWording ? '体験レッスンの空き状況は公式サイトから確認できます。' : '体験レッスンの空き状況・最新キャンペーンは公式サイトから確認できます。'}</p>
               <a
                 href={brand.ctaUrl}
                 target="_blank"
