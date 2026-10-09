@@ -747,3 +747,15 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - `data/brands.ts` の the-silk / bdc に `reviewThemes`（STUDIO_REVIEWS の店舗要約から整理・出典は店舗キー）＋FAQ各2問。`components/BrandReviewThemes.tsx` の店名プレフィックス除去に the SILK／BDC PILATES を追加
 - ⚠️ title の末尾付与は `officialStores` 無し×`useHyoban` のとき「・口コミ」（「評判・口コミ評判」の重複回避）。それ以外は「・口コミ評判」
 - デプロイ: 方式B（rsync --exclude .git/functions）・precheck ✅・source 8801b588・deploy ce009c79c6・Indexing API 2/2。次候補＝pilates K（imp3051）・Pilates Mee（imp635）
+
+## 2026-10-09 成長ルーチン C工程: 提携13ブランドの口コミテーマ節＋/brands/luluto/ 新設
+- 対象: pilates K・Pilates Mee・zen place・DAYS・24/7・ELEMENT・URBAN CLASSIC・Dr.ピラティス・KASANE・BREST・Lucina・Celestia ＋ ルルト（新設）。
+  各ページに `reviewThemes`（STUDIO_REVIEWS の店舗要約から・出典は店舗キー）＋FAQ（多い不満／解約・休会または体験の条件＝**公式で確認できたことだけ**）。低評価が要約に無いブランドは caution を空にした（作らない）
+- **zen place は要約が1店舗しか無かった**: google-reviews.json に160店舗取得済みだが、照合が「zen place pilates」と Google 側「zen place ピラティス」の表記ゆれで全部落ちていた。ブランド表記ゆれ＋店舗地名一致で手動照合し、29店舗の要約を追加（★4.5未満の店舗も同じ基準で選んだ）。同様にルルト11店舗（『ルルト』表記）・DAYS 2店舗。照合した分は google-reviews.json の match_ok/match_note を更新済み
+  - ⚠️ 照合NGのまま残したもの: 京都スタジオ→京都西院、横浜スタジオ→資格コース横浜校、下北沢→第1、なんば→心斎橋 等の別店舗ヒット
+- **ルルト**: 公式は https://luluto.kabushikigaisya-rigakubody.co.jp/（luluto.jp は存在しない）。料金・入会金・指名料・体験・規約の金額に**税表記が無い**ので「税込」を付けない。公式表記は「理学療法士が考案／監修」で全店在籍とは書いていない→「理学療法士が指導」と書かない。felmat L12015F の掲載規約はログイン必須で未確認
+- 公式と食い違っていた既存記述を修正: ELEMENT（公式は「マンツーマンのみ」）・URBAN（公式トップ マンスリー4 7,800円＝税込8,580円）・KASANE（体験0円／表参道980円）・Celestia（最大2名セミパーソナル・体験30分3,000円）・BREST（店舗別料金・URBAN通い放題付帯）・DAYS（料金ページの割引後価格）・Dr.（無料キャンペーンは公式に掲載なし）
+- 🚨 **area-studios.ts の閉じ括弧 `],` がインデント0の箇所が8つあり、aggregate の正規表現が次のエリアまで読み進めていた**＝茅ヶ崎の店舗が /area/kofu/ にリンクされる等、ブランドページの店舗一覧のエリアリンクが誤っていた。インデントを `    ],` に揃え、aggregate は**ページ（app/area/<slug>/page.tsx）の無いキーを集計しない**ように変更（リンク切れ3件が precheck で出たため）。Rintosull 掲載 129→127
+- BrandReviewDigest: 同一店舗が空白違いで2キーあると二重計上していた（Mee 5店舗）→ cid で1店舗に
+- 未対応（判断待ち）: Celestia 沖縄那覇店は公式店舗一覧に無い／Lucina 那覇新都心が4エリアに重複掲載（実7店舗）／DAYS のエリア掲載料金（11,990等）が公式と不一致／Dr. 西宮店は Google 名が「Dr.トレーニング 西宮店」（テーマ根拠からは除外）
+- precheck ✅ 全項目OK（585ページ）・source 3bc03d9b・deploy ceeade5d9f・本番 title 反映 約3.5分・/api/contact POST 400（関数保全）・Indexing API 14/14
