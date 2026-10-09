@@ -395,29 +395,6 @@ export const areaStudios: Record<string, AreaData> = {
         },
 
       },
-          {
-        name: 'Pilates Mee Life山形本町店',
-        officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
-        image: '/images/studios/pilates-mee.webp',
-        price: '5人制少人数 月4回 14,800円〜（税込）',
-        priceList: ['体験レッスン無料', '5人制少人数：月2回 8,800円／月4回 14,800円／月8回 22,000円／通い放題 24,600円（税込）'],
-        trial: '体験レッスン無料',
-        features: ['女性専用', 'マシンピラティス専門', '最大5名セミパーソナル＋完全パーソナル'],
-        description: '女性専用のマシンピラティス専門スタジオ。1セッション最大5名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。山形駅から徒歩20分。',
-        access: '山形駅 徒歩20分',
-        address: '〒990-0043 山形県山形市本町２丁目４−１５ アーチスセンゾクヤ 3F -D号室',
-        userProfile: {
-          ageRange: '20代〜50代が中心',
-          genderRatio: '女性100%（女性専用）',
-          purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '運動習慣づくり'],
-        },
-        basicInfo: {
-          hours: '9:00〜21:15',
-          closed: '不定休',
-          facilities: ['女性専用トイレ', '着替えスペース', '全身鏡'],
-        },
-
-      },
     ],
   },
 
