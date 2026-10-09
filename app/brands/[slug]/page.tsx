@@ -56,7 +56,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const kw =
     (hasOfficialCount
       ? '店舗一覧・店舗数・料金'
-      : brand.useHyoban ? '店舗一覧・料金・評判' : '店舗一覧・料金・体験') + (brand.reviewThemes ? '・口コミ評判' : '')
+      : brand.useHyoban ? '店舗一覧・料金・評判' : '店舗一覧・料金・体験') +
+    (brand.reviewThemes ? (!hasOfficialCount && brand.useHyoban ? '・口コミ' : '・口コミ評判') : '') // 「評判・口コミ評判」の重複回避（2026-10-09 BDC で発生）
   return {
     title: `${brand.name}の${kw}${MONTH_TAG}｜掲載${stores.length}店舗を比較`,
     description: `${brand.name}の店舗一覧${brand.officialStores && brand.officialStores.count >= stores.length ? `（${brand.officialStores.asOf}時点で全国${brand.officialStores.count}店舗${brand.officialStores.approx ? '以上' : ''}）` : ''}・料金プラン・体験レッスンを掲載データから整理。${brand.tagline}。当サイト掲載${stores.length}店舗のエリア別リンク付きで、近くの店舗がすぐ見つかります。`,
@@ -136,7 +137,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
 
           <p className="section-en text-warm-400 mb-2 font-medium">Brand Guide</p>
           <h1 className="text-2xl md:text-3xl font-light text-warm-900 tracking-tight mb-3">
-            {brand.name}の{brand.officialStores ? '店舗一覧・店舗数・料金' : brand.useHyoban ? '店舗一覧・料金・評判' : '店舗一覧・料金・体験'}{brand.reviewThemes ? '・口コミ評判' : ''}
+            {brand.name}の{brand.officialStores ? '店舗一覧・店舗数・料金' : brand.useHyoban ? '店舗一覧・料金・評判' : '店舗一覧・料金・体験'}{brand.reviewThemes ? (!brand.officialStores && brand.useHyoban ? '・口コミ' : '・口コミ評判') : ''}
             <span className="block text-base text-warm-500 mt-2 font-light">{brand.tagline}</span>
           </h1>
 

@@ -20,7 +20,7 @@ function Theme({ t, tone }: { t: ReviewTheme; tone: 'good' | 'caution' }) {
             <span key={r.name}>
               {i > 0 && '／'}
               <a href={r.mapsUri} target="_blank" rel="noopener noreferrer" className="underline decoration-warm-300 hover:text-warm-800">
-                {r.name.replace(/^Rintosull（リントスル）|^Rintosull /, '')}
+                {r.name.replace(/^(Rintosull（リントスル）|Rintosull |the SILK |BDC PILATES )/, '')}
               </a>
               <span className="text-warm-400">（★{r.rating}・{r.userRatings.toLocaleString()}件）</span>
             </span>
