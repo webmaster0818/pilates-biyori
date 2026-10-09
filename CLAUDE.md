@@ -742,3 +742,8 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
   - the SILK／BDC／CLUB PILATES／G1／KASANE の data は「エリアページからの転記」で公式取得スクリプトが無い＝**未確認**
 - **できなかったこと**: Wayback の CDX API が一時オフライン→429 で、店舗URL単位のスナップショット有無の対照確認（本厚木）は取れていない。判定はトップページ4時点の店舗一覧で代替
 - 教訓: **公式一覧は `?page=N` を全部辿ってから「無い」と言う**。店舗ページの直URLを先に当てる（`/studio/<romaji>` が200なら実在）
+
+## 2026-10-09 成長ルーチン: the SILK・BDC に口コミテーマ節
+- `data/brands.ts` の the-silk / bdc に `reviewThemes`（STUDIO_REVIEWS の店舗要約から整理・出典は店舗キー）＋FAQ各2問。`components/BrandReviewThemes.tsx` の店名プレフィックス除去に the SILK／BDC PILATES を追加
+- ⚠️ title の末尾付与は `officialStores` 無し×`useHyoban` のとき「・口コミ」（「評判・口コミ評判」の重複回避）。それ以外は「・口コミ評判」
+- デプロイ: 方式B（rsync --exclude .git/functions）・precheck ✅・source 8801b588・deploy ce009c79c6・Indexing API 2/2。次候補＝pilates K（imp3051）・Pilates Mee（imp635）
