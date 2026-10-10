@@ -224,7 +224,8 @@ const studios = [
       purpose: ['ボディメイク', '姿勢改善', 'ダイエット', '体幹強化'],
     },
     basicInfo: {
-      // 営業時間: 公式サイト（pilates-ivy.jp）の店舗一覧に学芸大学店が無く確認できないため非表示（2026-10-08）
+      // 住所・アクセス・営業時間: 公式店舗ページ https://www.pilates-ivy.jp/studio/gakugeidaigaku で確認（2026-10-10）
+      hours: '8:00〜21:00',
       closed: '不定休',
       facilities: ['マシン完備', 'ロッカー', '完全個室'],
     },
