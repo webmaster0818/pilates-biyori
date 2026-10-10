@@ -21,37 +21,6 @@ export const metadata = {
 
 const studios = [
   {
-    name: 'STUDIO IVY 四谷三丁目店',
-    image: '/images/studios/studio-ivy.webp',
-    price: '1回 6,250円〜',
-    trial: '体験レッスンあり',
-    features: ['パーソナル専門', 'マシンピラティス', '四谷三丁目駅近', '全国展開'],
-    description: '全国展開のパーソナルマシンピラティス専門スタジオ。四谷三丁目駅から徒歩圏内。一人ひとりの体型や目標に合わせたオーダーメイドのトレーニングを提供。月謝制で1レッスン6,250円〜とパーソナルとしてはリーズナブル。',
-    access: '丸ノ内線「四谷三丁目駅」徒歩圏内',
-    address: '東京都新宿区（四谷三丁目エリア）',
-    popularPlan: {
-      name: '月4回コース',
-      description: '完全パーソナルのマシンピラティス。1回あたり6,250円〜。',
-      price: '月4回 25,000円〜（税込）',
-    },
-    options: [
-      '月2回コース（15,000円〜）',
-      '月4回コース（25,000円〜）',
-      '月8回コース（48,000円〜）',
-      '都度利用（8,800円）',
-    ],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性75% / 男性25%',
-      purpose: ['姿勢改善', 'ボディメイク', '肩こり腰痛改善', '体幹強化'],
-    },
-    basicInfo: {
-      hours: '8:00〜21:00',
-      closed: '不定休',
-      facilities: ['リフォーマー', 'キャデラック', '完全プライベート空間'],
-    },
-  },
-  {
     name: 'zen place pilates 飯田橋スタジオ',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
     image: '/images/studios/zen-place-pilates.webp',
@@ -135,7 +104,7 @@ export default function YotsuyaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス四ツ谷おすすめ3選！<br className="hidden md:block" />
+              【2026最新】ピラティス四ツ谷おすすめ2選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -178,14 +147,17 @@ export default function YotsuyaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、四ツ谷エリアから通えるおすすめのピラティススタジオ3選をまとめました。
+              そこでこの記事では、四ツ谷エリアから通えるおすすめのピラティススタジオ2選をまとめました。
+            </p>
+            <p className="text-warm-700 leading-relaxed mb-8 bg-warm-50 border border-warm-200 rounded p-4 text-sm">
+              ※掲載の2店はどちらも四ツ谷駅・四谷三丁目駅の周辺にある店舗ではありません（zen place pilates 飯田橋スタジオは飯田橋駅、ピラティスK 新宿店は新宿エリア）。四ツ谷から電車で通える近隣の店舗として紹介しています。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
-                  <span>四ツ谷・四谷三丁目でピラティススタジオを探している</span>
+                  <span>四ツ谷から電車で通えるピラティススタジオを探している</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -213,8 +185,9 @@ export default function YotsuyaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              四ツ谷エリアのおすすめピラティススタジオ3選
+              四ツ谷エリアのおすすめピラティススタジオ2選
             </h2>
+            <p className="text-warm-600 text-sm text-center mb-8">※掲載の2店はどちらも四ツ谷駅・四谷三丁目駅の周辺にある店舗ではありません（zen place pilates 飯田橋スタジオは飯田橋駅、ピラティスK 新宿店は新宿エリア）。四ツ谷から電車で通える近隣の店舗として紹介しています。</p>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
                 <StudioCard key={index} studio={studio} index={index} />
@@ -255,7 +228,7 @@ export default function YotsuyaPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              四ツ谷は商業施設やオフィスが集まる繁華街エリアのため、駅近の好立地スタジオが多く、やや高めの料金設定が目立ちます。一方で大手チェーンの進出も多いため、キャンペーンや月額通い放題プランを上手に活用すれば、実質的なコストを抑えることも可能です。近隣の新宿エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
+              上の表は掲載2店（zen place pilates 飯田橋スタジオ・ピラティスK 新宿店）の料金から作っています。どちらも四ツ谷駅周辺の店舗ではないため、近隣の新宿・飯田橋エリアのページもあわせて比較してみてください。
             </p>
           </div>
         </section>
@@ -268,9 +241,9 @@ export default function YotsuyaPage() {
             </h2>
             <div className="space-y-6">
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">丸ノ内線「四谷三丁目駅」からのアクセスを事前確認</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">四ツ谷からの乗り換えと出口を事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  四ツ谷エリアのスタジオは四谷三丁目駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。四谷三丁目駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  掲載の2店は四ツ谷駅周辺ではなく、飯田橋駅（南北線で2駅）と新宿エリア（丸ノ内線）にあります。初回訪問時は余裕を持って10分前に到着できるよう、乗り換えと出口を事前に確認しておきましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -338,17 +311,7 @@ export default function YotsuyaPage() {
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
               目的別おすすめスタジオ
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
-                <p className="text-warm-600 text-sm mb-4">
-                  マンツーマン指導で効果を最大化。
-                </p>
-                <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• STUDIO IVY（1回6,250円〜）</li>
-                  <li className="text-warm-700">• Grand Chariot（30分5,000円〜）</li>
-                </ul>
-              </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">グループ・コスパ重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
@@ -365,7 +328,6 @@ export default function YotsuyaPage() {
                   丸ノ内線・南北線・中央線で近隣にもアクセス。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• STUDIO IVY（四谷三丁目駅近）</li>
                   <li className="text-warm-700">• zen place 飯田橋（南北線で2駅）</li>
                   <li className="text-warm-700">• ピラティスK（丸ノ内線で新宿方面）</li>
                 </ul>
@@ -480,7 +442,7 @@ export default function YotsuyaPage() {
               今回は四ツ谷エリアのおすすめピラティススタジオについてご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              四ツ谷はJR中央線・丸ノ内線・南北線が利用でき、新宿・飯田橋方面にも好アクセス。パーソナル専門のスタジオが充実しており、じっくり丁寧に指導してもらいたい方におすすめのエリアです。
+              四ツ谷はJR中央線・丸ノ内線・南北線が利用でき、新宿・飯田橋方面にも好アクセス。当サイトの掲載店は四ツ谷駅周辺には無く、飯田橋駅・新宿エリアの2店を紹介しています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。

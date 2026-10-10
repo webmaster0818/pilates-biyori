@@ -15,8 +15,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/shiki/' },
-  title: '【2026年10月最新】ピラティス志木おすすめ5選！料金・体験レッスン・マシン対応を比較！',
-  description: '志木エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス志木おすすめ4選！料金・体験レッスン・マシン対応を比較！',
+  description: '志木エリアのおすすめピラティススタジオ4選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,志木,埼玉,新座,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -146,38 +146,6 @@ const studios = [
       facilities: ['リフォーマーマシン', 'ヨガスタジオ', 'よもぎ蒸し', '更衣室', 'ロッカー'],
     },
   },
-  {
-    name: 'zen place pilates 志木',
-    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
-    image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 10,450円〜',
-    trial: 'グループ体験 1,000円',
-    features: ['男性OK', '全国相互利用', 'マット＆マシン', '20年の実績'],
-    description: 'ピラティス専門の大手スタジオ。マットグループ・マシングループ・プライベートの3タイプのレッスンを提供。全国150店舗以上で相互利用可能。男性も利用OK。',
-    access: '東武東上線「志木駅」徒歩4分',
-    address: '埼玉県新座市東北2丁目',
-    popularPlan: {
-      name: 'フリープラン（マットグループ）',
-      description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。',
-      price: '月額 16,940円（税込）',
-    },
-    options: [
-      '月4回プラン（10,450円〜）',
-      'マシングループ体験（3,000円）',
-      'プライベートレッスン（体験 9,900円）',
-      '体験当日入会で入会金無料',
-    ],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性75% / 男性25%',
-      purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
-    },
-    basicInfo: {
-      hours: '平日 10:00〜21:00 / 土日祝 9:00〜18:00',
-      closed: '不定休',
-      facilities: ['リフォーマー', 'チェア', 'マット', 'ロッカー'],
-    },
-  },
 ]
 
 const faqs = [
@@ -191,15 +159,15 @@ const faqs = [
   },
   {
     question: '志木駅から近いスタジオはどこですか？',
-    answer: 'SAKURA志木店が徒歩1分で最寄り。URBAN CLASSIC PILATESとピラティスミラーがともに徒歩2分。SOELUは徒歩3分、zen placeは徒歩4分です。',
+    answer: 'SAKURA志木店が徒歩1分で最寄り。URBAN CLASSIC PILATESとピラティスミラーがともに徒歩2分。SOELUは徒歩3分です。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'URBAN CLASSIC PILATES志木店、ピラティスミラー志木、zen place pilates志木は男性も利用可能。SAKURA志木店とSOELU志木は女性専用です。',
+    answer: 'URBAN CLASSIC PILATES志木店、ピラティスミラー志木は男性も利用可能。SAKURA志木店とSOELU志木は女性専用です。',
   },
   {
     question: '無料で体験できるスタジオはどこですか？',
-    answer: 'URBAN CLASSIC PILATES（0円体験）とSOELU（無料体験）が無料体験可能。zen placeはグループ体験1,000円、ピラティスミラーは体験2,200円です。',
+    answer: 'URBAN CLASSIC PILATES（0円体験）とSOELU（無料体験）が無料体験可能。ピラティスミラーは体験2,200円です。',
   },
   {
     question: '予約不要で通えるスタジオはありますか？',
@@ -207,7 +175,7 @@ const faqs = [
   },
   {
     question: 'パーソナルレッスンが受けられるスタジオは？',
-    answer: 'SAKURA志木店は完全パーソナル専門で1回7,975円〜。ピラティスミラーは30分4,400円でプライベートレッスン可能。zen placeもプライベートレッスンを提供しています。',
+    answer: 'SAKURA志木店は完全パーソナル専門で1回7,975円〜。ピラティスミラーは30分4,400円でプライベートレッスン可能。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -215,7 +183,7 @@ const faqs = [
   },
   {
     question: 'ピラティスとヨガ両方楽しめるスタジオは？',
-    answer: 'SOELUはマシンピラティスとヨガの両方が楽しめ、よもぎ蒸しも利用可能。zen placeもヨガスタジオを運営しており両方体験できます。',
+    answer: 'SOELUはマシンピラティスとヨガの両方が楽しめ、よもぎ蒸しも利用可能。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -240,7 +208,7 @@ export default function ShikiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス志木おすすめ5選！<br className="hidden md:block" />
+              【2026最新】ピラティス志木おすすめ4選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -283,7 +251,7 @@ export default function ShikiPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、志木エリアでおすすめのピラティススタジオ5選をまとめました。
+              そこでこの記事では、志木エリアでおすすめのピラティススタジオ4選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -323,7 +291,7 @@ export default function ShikiPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              志木のおすすめピラティススタジオ5選
+              志木のおすすめピラティススタジオ4選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -385,7 +353,7 @@ export default function ShikiPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">サーキット形式とスタジオ形式の違いを理解しよう</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  志木にはサーキット形式（URBAN CLASSIC PILATES）とスタジオ形式（ピラティスミラー、zen place等）の異なるタイプのスタジオがあります。サーキット形式は予約不要で自分のペースで進められますが、スタジオ形式はインストラクターの指導をしっかり受けられます。体験で両方試してみるのがおすすめです。
+                  志木にはサーキット形式（URBAN CLASSIC PILATES）とスタジオ形式（ピラティスミラー等）の異なるタイプのスタジオがあります。サーキット形式は予約不要で自分のペースで進められますが、スタジオ形式はインストラクターの指導をしっかり受けられます。体験で両方試してみるのがおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -455,7 +423,6 @@ export default function ShikiPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• URBAN CLASSIC（月4回 7,800円〜）</li>
                   <li className="text-warm-700">• SOELU（月額 7,678円〜）</li>
-                  <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -532,7 +499,6 @@ export default function ShikiPage() {
                   充実の設備で本格レッスン。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place（10,450円〜/月4回）</li>
                   <li>• ピラティスミラー（11,000円/月6回）</li>
                   <li>• URBAN CLASSIC（14,080円/通い放題）</li>
                 </ul>
@@ -544,7 +510,6 @@ export default function ShikiPage() {
                   マンツーマン指導で確実に効果。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place（16,940円/通い放題）</li>
                   <li>• SAKURA（63,800円/月8回パーソナル）</li>
                 </ul>
               </div>
@@ -583,7 +548,7 @@ export default function ShikiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  URBAN CLASSIC PILATESとSOELUは無料体験。zen placeは1,000円。まずは気になるスタジオで体験してみましょう。
+                  URBAN CLASSIC PILATESとSOELUは無料体験。まずは気になるスタジオで体験してみましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
