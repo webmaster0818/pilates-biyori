@@ -774,3 +774,14 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - 追記プラン＝シートの指定プラン ∪ 既存掲載プラン。「可能であれば」行は公式店舗ページ（m-pilates.com/shop/*/ 149店を取得＝Mee店は セミ3＋パーソナル3、Life店は 5人制4＋パーソナル3）
 - ブランド: `BrandInfo.priceList`（料金プラン欄の先頭）・`noCampaignWording`（注記/CTAから「キャンペーン」の語を外す）・`subBrandWord`（店舗ページで店名に Life を含まないとき Life の文・FAQを出さない）／`BdcStore.priceList`（g1-stores の大井町）。⚠️ g1-stores.ts は gen-g1-stores-202607.py の生成物＝再生成するなら priceList/trial を戻さないこと
 - ⚠️ **シート外で Mee の旧表記が残るのは /area/soka/・/area/nishi-ogikubo/ の2ページ**（初回体験レッスン 0円＋options の入会金・10%OFF）→ 判断待ち
+
+### 2026-10-10 朝ルーチン: 公式に無い4店の確定（wip）／STUDIO IVY 学芸大学店の住所訂正（本番）／KASANE 突合
+- **本番反映**: STUDIO IVY 学芸大学店の住所「目黒区鷹番（学芸大学駅徒歩圏内）」→ 公式店舗ページ（https://www.pilates-ivy.jp/studio/gakugeidaigaku・2026-10-10取得）の「目黒区碑文谷6-1-22 リカーハイム303号室」、アクセス「徒歩3分」、営業時間 8:00〜21:00 を復活（10/8 の「一覧に無いので非表示」コメントは誤りだったので撤去）。gakugei-daigaku・toritsu-daigaku の2ブロック。source 15520a63／deploy e0c2e4737b・precheck ✅ 585ページ
+  - ⚠️ 同ページの **ピラティスミラー 学芸大学** の住所も「鷹番（学芸大学駅徒歩圏内）」（未確認・範囲外）。IVY の料金「月2回15,000円〜／月4回28,000円」も公式未確認のまま
+- **zen place 朝霞台・海老名・志木＝公式に存在した形跡なし（元から無い）**: 公式 `/studios`（ページネーション無し・166リンク）・`/studios/saitama`（「現在4スタジオ」＝大宮・川口・所沢・浦和）・`/studios/kanagawa`（「現在22スタジオ」・海老名なし）。直URL `pilates-asakadai/asaka/kitaasaka/shiki/ebina` 全て404。Wayback CDX の `zenplace.co.jp/studios/` prefix 全履歴（pilates-* slug 199種）に asaka/shiki/ebina 系は一度も無い。Wayback 2026-07-26 の saitama も「現在4スタジオ」。Google Places でも該当無し（別店舗ヒット）。3件とも 2026-04-21 `229959ed` のエリアページ新設時に追加＝生成時の創作の疑い
+- **STUDIO IVY 四谷三丁目店＝公式に存在した形跡なし**: 東京23区一覧 `?page=1〜6`（63店）に無し。`/studio/yotsuya*` 4通り404。Wayback CDX `pilates-ivy.jp/studio/` prefix（2024-08〜・111 slug）にも無し。最寄りの公式店は **新宿曙橋店**（市谷仲之町3-17・曙橋駅徒歩6分）で別店舗。2026-04-08 `67ae2630` で追加
+- **wip `wip/remove-unverified-stores-1010`（`3b3898cc`・main 未マージ・ビルド＋precheck ✅）**: asaka 5→4選・ebina 5→4選（title/description「5社」も）・shiki 5→4選・**yotsuya 3→2選（3件未満）**。本文・FAQ・目的別/予算別リスト・体験の言及も除去、brands-aggregate から3件・brands.ts「全国176店舗」→173。生成HTMLでカード数＝N選一致・4店の名前が残るHTML 0件
+  - ⚠️ 旧 `wip/remove-unverified-stores`（82a4a26e）は **実在する IVY 学芸大学店まで外している**ので、そのままマージしない（WECLE 分だけ使う）
+  - ⚠️ yotsuya は IVY を外すと残りが zen place 飯田橋・ピラティスK 新宿の2つ＝四ツ谷所在の店が0。目的別に「Grand Chariot（30分5,000円〜）」というカードに無い店名もある
+- **KASANE 突合**（公式 https://pilates-kasane.jp/studio/ ・49店・ページネーション無し）: 掲載17件中、公式に無い **2件**＝「Pilates KASANE 鹿児島中央駅前店」（直URL 404・鹿児島は天文館店のみ）、「PILATES KASANE 松戸店（イオンモール松戸内）」（公式の松戸店は本町1-12 日発ビル4階＝別掲の方が正）。店名不特定1件（「PILATES KASANE 大阪」）。修正はしていない
+- 気づき: main の `data/brands-aggregate.json` は 10/9 の Mee 修正後に再集計されておらず、旧 trial 文言（「初回体験レッスン 0円…」等）が JSON に残る。生成HTMLには出ていない（grep 0件）が、次に aggregate を回すと差分が大きく出る
