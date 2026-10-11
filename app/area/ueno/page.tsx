@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/ueno/' },
-  title: '【2026年10月最新】ピラティス上野おすすめ8選！人気スタジオの料金プランを簡単比較！',
-  description: '上野エリアのおすすめピラティススタジオ8選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス上野おすすめ7選！人気スタジオの料金プランを簡単比較！',
+  description: '上野エリアのおすすめピラティススタジオ7選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,上野,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -50,37 +50,6 @@ const studios = [
       hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
       closed: '不定休',
       facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'ウォーターサーバー'],
-    },
-  },
-  {
-    name: 'WECLE 上野',
-    image: '/images/studios/wecle-pilates.webp',
-    price: '月4回 14,800円〜',
-    trial: '体験レッスン 500円',
-    features: ['AI姿勢分析', '最新マシン', '上野駅近', '女性専用'],
-    description: 'AI姿勢分析を導入した最新型ピラティススタジオ。上野駅広小路口から徒歩4分。最新のマシンと科学的なアプローチで効果的なボディメイクを実現。女性専用なので安心して通えます。上野公園や美術館からもアクセス良好。',
-    access: '上野駅広小路口から徒歩4分',
-    address: '東京都台東区上野4-8-6 御徒町ビル 7F',
-    popularPlan: {
-      name: 'スタンダード4（月4回）',
-      description: 'AI姿勢分析付き。最新マシンで効率的にボディメイク。女性専用で安心。',
-      price: '月4回 14,800円（税込）※AI分析無料',
-    },
-    options: [
-      'AI姿勢分析レポート（月1回無料、追加 1,100円）',
-      'パーソナルトレーニング（1回 11,000円〜）',
-      'ウェア・タオルセット（月額 2,750円）',
-      '栄養カウンセリング（月額 5,500円）',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心（全体の85%）',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'AI分析'],
-    },
-    basicInfo: {
-      // 営業時間: 公式サイト（wecle.jp）の店舗一覧に当店が無く確認できないため非表示（2026-10-08）
-      closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'AI姿勢分析システム', '女性専用'],
     },
   },
   {
@@ -246,7 +215,7 @@ export default function UenoPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月01日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス上野おすすめ8選！<br className="hidden md:block" />
+              【2026最新】ピラティス上野おすすめ7選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -289,7 +258,7 @@ export default function UenoPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、上野エリアでおすすめのピラティススタジオ8選をまとめました。
+              そこでこの記事では、上野エリアでおすすめのピラティススタジオ7選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -328,7 +297,7 @@ export default function UenoPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              上野のおすすめピラティススタジオ8選
+              上野のおすすめピラティススタジオ7選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -472,7 +441,6 @@ export default function UenoPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates 上野</li>
-                  <li className="text-warm-700">• WECLE 上野</li>
                   <li className="text-warm-700">• the SILK 上野</li>
                 </ul>
               </div>

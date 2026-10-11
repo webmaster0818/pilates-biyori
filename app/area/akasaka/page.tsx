@@ -243,37 +243,6 @@ const studios = [
       facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'シャワー'],
     },
   },
-  {
-    name: 'WECLE 赤坂',
-    image: '/images/studios/wecle-pilates.webp',
-    price: '月額 9,680円〜（通い放題）',
-    trial: '体験レッスンあり',
-    features: ['30分ストレッチピラティス', '予約不要', '通い放題', '赤坂エリア'],
-    description: '30分のストレッチピラティス専門スタジオ。予約不要で好きな時間にサクッと通える手軽さが魅力。通い放題月額9,680円からとリーズナブル。マシンに乗ってストレッチする感覚で、初心者でも無理なく始められます。スタッフが常駐してフォームを確認してくれるので安心。忙しいビジネスパーソンにもおすすめ。',
-    access: '赤坂エリア（詳細は公式サイトでご確認ください）',
-    address: '東京都港区赤坂エリア',
-    popularPlan: {
-      name: '通い放題プラン',
-      description: '予約不要で何度でも通える定額プラン。30分のストレッチピラティスで手軽にボディケア。',
-      price: '月額 9,680円〜（税込）',
-    },
-    options: [
-      '通い放題プラン（月額9,680円〜）',
-      '体験レッスンあり',
-      '予約不要',
-      'スタッフ常駐のフォーム確認サービス',
-    ],
-    userProfile: {
-      ageRange: '20代〜50代が中心（全体の75%）',
-      genderRatio: '女性80% / 男性20%',
-      purpose: ['ストレッチ', '姿勢改善', 'リフレッシュ', '運動不足解消'],
-    },
-    basicInfo: {
-      hours: '平日 10:00〜21:00 / 土日 10:00〜19:00（店舗により異なる）',
-      closed: '不定休',
-      facilities: ['ストレッチマシン', '更衣室', 'ロッカー'],
-    },
-  },
 ]
 
 const faqs = [
@@ -336,7 +305,7 @@ export default function AkasakaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月01日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026年6月最新】ピラティス赤坂おすすめ8選！<br className="hidden md:block" />
+              【2026年6月最新】ピラティス赤坂おすすめ7選！<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！
             </h1>
           </div>
@@ -381,7 +350,7 @@ export default function AkasakaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、赤坂エリアでおすすめのピラティススタジオ8選をまとめました。
+              そこでこの記事では、赤坂エリアでおすすめのピラティススタジオ7選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -421,7 +390,7 @@ export default function AkasakaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              赤坂のおすすめピラティススタジオ8選
+              赤坂のおすすめピラティススタジオ7選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -555,7 +524,6 @@ export default function AkasakaPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• PILATES STUDIO noa（月額6,600円〜）</li>
                   <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
-                  <li className="text-warm-700">• WECLE（通い放題 9,680円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -623,7 +591,6 @@ export default function AkasakaPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• PILATES STUDIO noa（6,600円〜）</li>
                   <li>• zen place pilates（9,625円〜）</li>
-                  <li>• WECLE（9,680円〜通い放題）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
