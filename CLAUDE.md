@@ -785,3 +785,12 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
   - ⚠️ yotsuya は IVY を外すと残りが zen place 飯田橋・ピラティスK 新宿の2つ＝四ツ谷所在の店が0。目的別に「Grand Chariot（30分5,000円〜）」というカードに無い店名もある
 - **KASANE 突合**（公式 https://pilates-kasane.jp/studio/ ・49店・ページネーション無し）: 掲載17件中、公式に無い **2件**＝「Pilates KASANE 鹿児島中央駅前店」（直URL 404・鹿児島は天文館店のみ）、「PILATES KASANE 松戸店（イオンモール松戸内）」（公式の松戸店は本町1-12 日発ビル4階＝別掲の方が正）。店名不特定1件（「PILATES KASANE 大阪」）。修正はしていない
 - 気づき: main の `data/brands-aggregate.json` は 10/9 の Mee 修正後に再集計されておらず、旧 trial 文言（「初回体験レッスン 0円…」等）が JSON に残る。生成HTMLには出ていない（grep 0件）が、次に aggregate を回すと差分が大きく出る
+
+## 2026-10-11 12:00 成長ルーチン（area 3＋brand template＋オンライン記事）
+- **izumi**: 公式でリントスル**和泉府中店（2026/10/1 OPEN・JR和泉府中駅東口徒歩2分・フチュール和泉4F）**を発見→追加。studio MUER（和泉府中駅徒歩4分・月4回28,000円・体験6,000円・税表記なし）追加。5→7選、駅別早見表 `#by-station`。住所「兵庫県和泉市」2件→大阪府に訂正。エコール・いずみ店の住所・定休日を公式値に
+- **denenchofu**: ピラティスステーションライト田園調布stn.（WATT回数券制）追加。Dr.ピラティスの料金を公式（都度45分8,300円・体験7,100円・入会金35,600円・住所2-50-9）に訂正、「2025年オープン」表記を除去。5→6選
+- **aoyama-itchome**: 掲載7社がすべて表参道・六本木側だった→青山一丁目駅徒歩3分の Viel・B&B南青山 を追加（7→9社）＋徒歩3分の表
+- **brands/[slug]**: 結論ボックスに `#store-list` への導線、店舗一覧を都道府県順＋都道府県列、`officialStores.byPref` があれば都道府県別店舗数節。pilates K は公式 /studio の住所を数えた39都道府県・176店舗（asOf 2026年10月）
+- **pilates-online**: zen place オンライン会員の料金が改定済み（現行 月2回3,300〜月8回13,200円・マットグループのみ）→表・本文を訂正。フォームチェック/配信時間の表（SOELU・zen placeのみ公式確認）
+- ⚠️ 未対応（要判断）: **zen place 田園調布スタジオは公式 /studios に存在しない**（直URL 404、最寄りは自由が丘第2（奥沢））＝denenchofu の zen place カード・FAQは創作の疑い。**the SILK 八王子店は公式一覧のリンクが404**（/brands/the-silk-hachioji/ あり）。the SILK 公式一覧は重複URL込み48→実47（八王子含む）。BDC表参道とピラティスK表参道の住所が同一（aoyama-itchome）＝どちらか誤りの疑い。TSUTAYA Conditioning PILATES 田園調布店は公式店舗一覧がJS描画で未確認
+- source b93726e3／deploy b06f7f7655・precheck ✅ 585ページ・Indexing 5/5・/api/contact 400
