@@ -451,7 +451,7 @@ export const BRANDS: BrandInfo[] = [
     ctaLabel: '公式サイトで詳細を見る',
     officialRef: { label: 'ピラティスミー公式サイト', url: 'https://m-pilates.com/' },
     isPartner: true,
-    officialStores: { count: 142, kind: '一覧実数', sourceUrl: 'https://m-pilates.com/shop/', asOf: '2026年7月' },
+    officialStores: { count: 149, kind: '一覧実数', sourceUrl: 'https://m-pilates.com/shop/', asOf: '2026年10月', caveat: '5人制のPilates Mee Life 23店舗を含みます（各店舗ページに住所・営業時間の掲載があり、オープン予定の表記がある店舗はありませんでした）。', byPref: [{ pref: '東京都', count: 54 }, { pref: '神奈川県', count: 24 }, { pref: '埼玉県', count: 14 }, { pref: '千葉県', count: 13 }, { pref: '福岡県', count: 13 }, { pref: '大阪府', count: 10 }, { pref: '愛知県', count: 7 }, { pref: '兵庫県', count: 5 }, { pref: '北海道', count: 3 }, { pref: '茨城県', count: 2 }, { pref: '山形県', count: 2 }, { pref: '静岡県', count: 1 }, { pref: '栃木県', count: 1 }] },
     useHyoban: true,
   },
   {
