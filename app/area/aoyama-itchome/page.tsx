@@ -17,8 +17,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/aoyama-itchome/' },
-  title: '【2026年10月最新】青山一丁目のピラティス7社を比較｜無料体験1社・月額最安9,625円〜',
-  description: '青山一丁目エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  title: '【2026年10月最新】青山一丁目のピラティス9社を比較｜駅徒歩3分のスタジオも・月額最安9,625円〜',
+  description: '青山一丁目エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年10月時点の情報でわかります。青山一丁目駅から徒歩3分のViel・B&B南青山も掲載。',
   keywords: 'ピラティス,青山一丁目,表参道,外苑前,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -244,6 +244,58 @@ const studios = [
       facilities: ['タワーリフォーマー', 'ラダーバレル', 'スパインコレクター', '完全プライベート空間'],
     },
   },
+  {
+    name: 'Pilates & BodyMake Studio Viel Aoyama',
+    price: 'マンスリー2回 26,000円〜',
+    trial: '体験レッスン 8,800円（60分・女性）',
+    features: ['青山一丁目駅徒歩3分', '完全予約制マンツーマン', 'ピラティス＋筋トレ', '女性はレンタルウェア込み'],
+    description: '青山一丁目駅から徒歩3分の、マシンピラティスと筋力トレーニングを組み合わせる完全予約制のマンツーマンスタジオ。レッスンは50分（着替え込み60分）。マンスリーコースには水・プロテインスムージー・食事アドバイスが含まれ、女性はレンタルウェアも込み。公式サイトでは妊娠中の方も医師の許可があれば受講できると案内されています（公式サイト・2026年10月11日確認。税込・税抜の表記はありません）。',
+    access: '東京メトロ・都営「青山一丁目駅」徒歩3分',
+    address: '東京都港区北青山一丁目4-5 VORT青山一丁目Dual’s 303',
+    popularPlan: {
+      name: 'マンスリー4回コース（女性）',
+      description: 'マンツーマンのマシンピラティス＆トレーニング。使わなかった枠は1回分のみ翌月に繰り越し可。',
+      price: '月4回 50,000円',
+    },
+    options: [
+      '女性 月2回 26,000円／月8回 98,000円',
+      '女性 都度チケット 13,200円',
+      '男性 月4回 88,000円／都度 22,000円',
+      '入会金 33,000円（初月のみ）',
+    ],
+    basicInfo: {
+      hours: '9:00〜21:00',
+      closed: '不定休',
+      closedVerified: true,
+      facilities: ['マシン', 'ダンベル等のトレーニング器具', 'レンタルウェア（女性）'],
+    },
+  },
+  {
+    name: 'ピラティススタジオB&B南青山',
+    price: '1回 13,500円〜（回数券で1回10,000円〜）',
+    trial: '体験 9,000円（50分プライベート）',
+    features: ['青山一丁目駅徒歩3分', 'プライベートセッション専門', '産前産後ピラティス', 'コアアライン導入'],
+    description: '青山一丁目駅4番南出口から徒歩3分、乃木坂駅から徒歩5分。レッスンはすべてプライベートセッション（50分）で、リフォーマーのほかタワー・チェア・バレル、美脚目的の「コアアライン」を使います。産前産後ピラティスや、カウンセリングと姿勢チェックから入る「Re:Bodyピラティス」もあります。料金は1回13,500円、回数券なら4回50,000円〜24回240,000円（1回あたり12,500円〜10,000円）（公式料金ページ・税込・2026年10月11日確認）。',
+    access: '東京メトロ銀座線・半蔵門線・都営大江戸線「青山一丁目駅」4番南出口 徒歩3分／千代田線「乃木坂駅」3番出口 徒歩5分',
+    address: '〒107-0062 東京都港区南青山1-9-3 廣澤ビル3階',
+    popularPlan: {
+      name: '4回 回数券（50分プライベート）',
+      description: '有効期限は初回レッスン日から1年間。インストラクター指名は1回1,000円。',
+      price: '4回 50,000円（1回あたり12,500円・税込）',
+    },
+    options: [
+      '8回 92,000円／12回 126,000円／24回 240,000円',
+      '体験 9,000円＋入会金 22,000円',
+      '指名料 1回1,000円',
+      'キャンセルは前日の営業時間以降100%',
+    ],
+    basicInfo: {
+      hours: '平日 10:00〜21:00／土日祝 10:00〜18:00',
+      closed: '不定休',
+      closedVerified: true,
+      facilities: ['リフォーマー', 'コアアライン', 'タワー', 'チェア', 'バレル'],
+    },
+  },
 ]
 
 const faqs = [
@@ -304,9 +356,9 @@ export default function AoyamaItchomePage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026年6月最新】ピラティス青山一丁目おすすめ7選！<br className="hidden md:block" />
+              【2026年10月最新】ピラティス青山一丁目おすすめ9選！<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！
             </h1>
           </div>
@@ -351,7 +403,7 @@ export default function AoyamaItchomePage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、青山一丁目・表参道・外苑前エリアでおすすめのピラティススタジオ7選をまとめました。
+              そこでこの記事では、青山一丁目・表参道・外苑前エリアでおすすめのピラティススタジオ9選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -384,6 +436,30 @@ export default function AoyamaItchomePage() {
           </div>
         </section>
 
+        <section className="py-12 bg-white" id="by-station">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">青山一丁目駅から徒歩3分のスタジオ</h2>
+            <p className="text-warm-600 leading-relaxed mb-6 text-sm">青山一丁目駅の徒歩圏で探すか、表参道・外苑前まで足を延ばすかで候補が変わります。徒歩分数・体験料金は各スタジオの公式サイトの表記です（2026年10月11日確認）。</p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm border-collapse">
+                <thead>
+                  <tr className="bg-warm-800 text-white">
+                    <th className="px-4 py-3 text-left">スタジオ</th>
+                    <th className="px-4 py-3 text-left">最寄り駅・徒歩</th>
+                    <th className="px-4 py-3 text-left">形式</th>
+                    <th className="px-4 py-3 text-left">体験</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Viel Aoyama</td><td className="px-4 py-3">青山一丁目駅 徒歩3分</td><td className="px-4 py-3">マンツーマン（ピラティス＋筋トレ）</td><td className="px-4 py-3">8,800円（60分・女性）</td></tr>
+                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">B&B南青山</td><td className="px-4 py-3">青山一丁目駅 4番南出口 徒歩3分</td><td className="px-4 py-3">プライベート専門</td><td className="px-4 py-3">9,000円（50分）</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="text-warm-600 leading-relaxed mt-4 text-sm">青山一丁目駅から徒歩5分以内で通えるのは、掲載スタジオではViel・B&B南青山の2つで、どちらもマンツーマン（1回1万円台〜）です。月1万円台のグループレッスンで探すなら、銀座線で1駅の外苑前・2駅の表参道側（BDC PILATES・ピラティスK・Pilates KASANE など）まで広げると選択肢が増えます。</p>
+          </div>
+        </section>
+
         <PriceComparisonTable studios={studios} areaName="青山一丁目" />
         <AreaMarketComparison studios={studios} areaName="青山一丁目" />
 
@@ -391,7 +467,7 @@ export default function AoyamaItchomePage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              青山一丁目のおすすめピラティススタジオ7選
+              青山一丁目のおすすめピラティススタジオ9選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -406,7 +482,7 @@ export default function AoyamaItchomePage() {
         <section className="py-16 bg-white" id="price-market">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              青山一丁目のピラティス料金相場【2026年4月最新】
+              青山一丁目のピラティス料金相場【2026年10月最新】
             </h2>
             <div className="overflow-x-auto">
               <table className="w-full text-sm border-collapse">

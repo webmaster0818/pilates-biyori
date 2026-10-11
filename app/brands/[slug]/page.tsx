@@ -6,6 +6,7 @@ import { SiteFooter } from '@/components/SiteFooter'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import { BRANDS, getBrand } from '@/data/brands'
+import { prefectureAreas } from '@/data/prefectureAreas'
 import brandStores from '@/data/brands-aggregate.json'
 import brandVoices from '@/data/brand-voices.json'
 import { BrandReviewDigest } from '@/components/BrandReviewDigest'
@@ -33,6 +34,10 @@ type Store = {
 }
 
 const STORES: Record<string, Store[]> = brandStores as Record<string, Store[]>
+
+// エリアslug → 都道府県（並び順は prefectureAreas の定義順）。店舗一覧を都道府県ごとに並べるため（2026-10-11 「{ブランド} 店舗」検索の受け皿）
+const PREF_OF: Record<string, { pref: string; order: number }> = {}
+prefectureAreas.forEach((p, i) => p.areas.forEach((a) => { if (!PREF_OF[a.slug]) PREF_OF[a.slug] = { pref: p.prefecture, order: i } }))
 
 // 月表記は自動更新（手動更新は陳腐化するため）
 const _now = new Date()
@@ -96,7 +101,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
   const { slug } = await params
   const brand = getBrand(slug)
   if (!brand) notFound()
-  const stores = (STORES[slug] ?? []).slice().sort((a, b) => a.areaSlug.localeCompare(b.areaSlug))
+  const stores = (STORES[slug] ?? []).slice().sort((a, b) => (PREF_OF[a.areaSlug]?.order ?? 999) - (PREF_OF[b.areaSlug]?.order ?? 999) || a.areaSlug.localeCompare(b.areaSlug))
   const prices = priceSummary(stores)
   const rating = ratingSummary(stores)
   const freeTrial = stores.filter((s) => s.trial && isFreeTrial(s.trial)).length
@@ -176,7 +181,34 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                 の{os.kind === '公式明記' ? '記載' : '店舗一覧の掲載数'}に基づきます（{os.asOf}時点）。{os.caveat ?? ''}当サイトではうち{stores.length}店舗をエリアページ付きで掲載しています。
               </p>
             )}
+            {stores.length > 0 && (
+              <p className="mt-4 text-center">
+                <a href="#store-list" className="inline-block border border-warm-300 px-5 py-2 text-xs text-warm-800 hover:border-warm-600 transition">
+                  店舗一覧（都道府県順・当サイト掲載{stores.length}店舗）へ移動 ↓
+                </a>
+              </p>
+            )}
           </section>
+
+          {os?.byPref && os.byPref.length > 0 && (
+            <section className="mb-10">
+              <h2 className="text-xl font-light text-warm-900 border-b border-warm-200 pb-2 mb-4">{brand.name}の都道府県別店舗数（公式・{os.asOf}時点）</h2>
+              <p className="text-sm text-warm-600 font-light leading-relaxed mb-4">
+                公式サイトの店舗一覧に載っている{os.count}店舗を、住所の都道府県ごとに数えました（{os.byPref.length}都道府県）。{os.caveat ?? ''}
+                最も多いのは{os.byPref[0].pref}の{os.byPref[0].count}店舗です。
+              </p>
+              <ul className="flex flex-wrap gap-2">
+                {os.byPref.map((p) => (
+                  <li key={p.pref} className="text-xs text-warm-700 border border-warm-200 bg-white px-3 py-1.5">
+                    {p.pref} <span className="font-medium text-warm-900">{p.count}</span>
+                  </li>
+                ))}
+              </ul>
+              <p className="text-[11px] text-warm-400 mt-3 leading-relaxed">
+                ※出典：<a href={os.sourceUrl} target="_blank" rel="noopener noreferrer" className="underline decoration-warm-300 hover:text-warm-800">公式サイトの店舗一覧</a>（{os.asOf}に当編集部が集計）。新規オープン・閉店で変わるため、最新は公式でご確認ください。
+              </p>
+            </section>
+          )}
 
           {/* 特徴 */}
           <section className="mb-10">
@@ -403,7 +435,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
           )}
 
           {/* 店舗一覧 */}
-          <section className="mb-10">
+          <section className="mb-10 scroll-mt-24" id="store-list">
             <h2 className="text-xl font-light text-warm-900 border-b border-warm-200 pb-2 mb-4">
               {/* 公式店舗数は「当サイト掲載数以上」のときだけ併記する。
                   逆転しているブランド（the SILK 44 vs 68 / zen place 136 vs 160）は
@@ -416,6 +448,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                 <thead>
                   <tr className="border-b border-warm-200 text-left">
                     <th className="px-4 py-3 text-xs font-medium text-warm-500 uppercase tracking-wider">店舗</th>
+                    <th className="px-4 py-3 text-xs font-medium text-warm-500 uppercase tracking-wider whitespace-nowrap">都道府県</th>
                     <th className="px-4 py-3 text-xs font-medium text-warm-500 uppercase tracking-wider whitespace-nowrap">エリア</th>
                     <th className="px-4 py-3 text-xs font-medium text-warm-500 uppercase tracking-wider whitespace-nowrap">体験</th>
                   </tr>
@@ -437,6 +470,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                           )
                         })()}
                       </td>
+                      <td className="px-4 py-3 text-warm-500 text-xs whitespace-nowrap">{PREF_OF[s.areaSlug]?.pref ?? '—'}</td>
                       <td className="px-4 py-3 whitespace-nowrap">
                         <Link href={`/area/${s.areaSlug}/`} className="text-warm-600 underline decoration-warm-300 hover:text-warm-900">
                           {s.areaName}

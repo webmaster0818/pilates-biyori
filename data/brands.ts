@@ -13,6 +13,8 @@ export type OfficialStores = {
   caveat?: string // 数字の但し書き（例: LAVA店内スタジオ含む）。誇張回避のため必ず表示する
   sourceUrl: string
   asOf: string // 取得時点（表示用・例: 2026年7月）
+  /** 都道府県別の公式店舗数（公式店舗一覧の住所を数えたもの。合計は count と一致させる）。「{ブランド} 店舗」検索の受け皿（2026-10-11） */
+  byPref?: { pref: string; count: number }[]
 }
 
 export type BrandInfo = {
@@ -198,7 +200,7 @@ export const BRANDS: BrandInfo[] = [
     ctaLabel: '公式サイトで詳細を見る',
     officialRef: { label: 'pilates K公式サイト', url: 'https://pilates-k.jp/' },
     isPartner: true,
-    officialStores: { count: 176, kind: '一覧実数', sourceUrl: 'https://pilates-k.jp/studio', asOf: '2026年7月', caveat: 'サブブランドのpilates K_smart 3店舗を含みます。' },
+    officialStores: { count: 176, kind: '一覧実数', sourceUrl: 'https://pilates-k.jp/studio', asOf: '2026年10月', caveat: 'サブブランドのpilates K_smart 3店舗を含みます。', byPref: [{ pref: '東京都', count: 24 }, { pref: '大阪府', count: 17 }, { pref: '神奈川県', count: 10 }, { pref: '埼玉県', count: 9 }, { pref: '千葉県', count: 9 }, { pref: '北海道', count: 9 }, { pref: '愛知県', count: 9 }, { pref: '福岡県', count: 9 }, { pref: '三重県', count: 6 }, { pref: '兵庫県', count: 5 }, { pref: '滋賀県', count: 5 }, { pref: '広島県', count: 5 }, { pref: '群馬県', count: 4 }, { pref: '宮城県', count: 4 }, { pref: '奈良県', count: 4 }, { pref: '新潟県', count: 4 }, { pref: '熊本県', count: 4 }, { pref: '青森県', count: 3 }, { pref: '静岡県', count: 3 }, { pref: '栃木県', count: 2 }, { pref: '茨城県', count: 2 }, { pref: '福島県', count: 2 }, { pref: '石川県', count: 2 }, { pref: '富山県', count: 2 }, { pref: '長野県', count: 2 }, { pref: '岐阜県', count: 2 }, { pref: '山口県', count: 2 }, { pref: '岡山県', count: 2 }, { pref: '徳島県', count: 2 }, { pref: '愛媛県', count: 2 }, { pref: '鹿児島県', count: 2 }, { pref: '宮崎県', count: 2 }, { pref: '秋田県', count: 1 }, { pref: '京都府', count: 1 }, { pref: '和歌山県', count: 1 }, { pref: '山梨県', count: 1 }, { pref: '福井県', count: 1 }, { pref: '香川県', count: 1 }, { pref: '大分県', count: 1 }] },
     useHyoban: true,
   },
   {

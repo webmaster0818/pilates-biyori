@@ -8,7 +8,7 @@ tags:
   - "マットピラティス"
   - "マシンピラティス"
 publishedAt: "2026-03-28"
-updatedAt: "2026-10-01"
+updatedAt: "2026-10-11"
 author: "編集部"
 keywords:
   - "マットピラティス マシンピラティス 違い"

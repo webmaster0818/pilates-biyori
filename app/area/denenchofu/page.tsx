@@ -14,7 +14,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/denenchofu/' },
-  title: '【2026年10月最新】田園調布のピラティススタジオおすすめ5選｜無料体験・料金で比較',
+  title: '【2026年10月最新】田園調布のピラティススタジオおすすめ6選｜駅徒歩2分圏・料金で比較',
   description: '田園調布のピラティススタジオ6社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
   keywords: 'ピラティス,田園調布,奥沢,大田区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -77,28 +77,39 @@ const studios = [
     name: 'Dr.ピラティス 田園調布店',
     image: '/images/studios/dr-pilates.webp',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11979O.1.Z164554L.U1357808', reviewCount: 72,
-    price: 'パーソナル 1回 8,800円〜', trial: '体験レッスンあり',
-    features: ['駅徒歩30秒', '医学的アプローチ', 'パーソナル専門', '2025年オープン'],
-    description: '2025年2月オープンのパーソナルピラティスジム。田園調布駅から徒歩30秒という最高の立地。医学的根拠に基づいたピラティスとトレーニングの二段階アプローチ。全米アスレティックトレーナーズ協会認定トレーナー在籍。',
+    price: 'パーソナル 45分 8,300円〜（都度払い）', trial: '体験トレーニング 7,100円',
+    features: ['駅徒歩30秒', '医学的アプローチ', 'マンツーマン専門', '9:00〜22:00営業'],
+    description: '田園調布駅（東口）から徒歩30秒、「Rehello by BOOKOFF 田園調布店」の2階にあるマンツーマン専門のパーソナルピラティスジム。「ピラティスで整えて、トレーニングで鍛える」二段階アプローチが特徴で、公式サイトでは、アメリカの準医療資格（ATC）やメジャーリーグでの指導経験をもとにメソッドを構築したと紹介されています。料金は都度払い（45分 8,300円／60分 11,000円）、月4回・月8回の定額制、16〜32回のチケット制から選べます（公式店舗ページ・税込・2026年10月11日確認）。',
     access: '東急東横線・目黒線「田園調布駅」徒歩30秒',
-    address: '東京都大田区田園調布エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'パーソナルレッスン', description: '医学的根拠に基づいたオーダーメイドピラティス＆トレーニング。', price: '1回 8,800円〜（税込）' },
-    options: ['回数券プランあり', '月額プランあり', '体験レッスンあり', '全米認定トレーナー在籍'],
-    userProfile: { ageRange: '30代〜60代が中心', genderRatio: '女性70% / 男性30%', purpose: ['姿勢改善', 'リハビリ', '痛み改善', 'パフォーマンス向上'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'トレーニング機器', '完全個室', '更衣室'] },
+    address: '〒145-0071 東京都大田区田園調布2-50-9 第二開発ビル 2F',
+    popularPlan: { name: 'ライフメイクプラン（月4回）', description: 'マンツーマンの定額制。45分なら1回あたり7,425円、60分なら9,900円。', price: '月4回 45分 29,700円／60分 39,600円（税込）' },
+    options: ['月8回プラン（45分 57,600円／60分 76,800円）', 'スポット 60分 11,000円／90分 16,500円', '回数チケット（16・24・32回）', '入会金 35,600円', '指名料 1,100円〜5,500円', 'レンタルウェア上下 500円'],
+    userProfile: { purpose: ['姿勢改善', '肩こり・腰痛ケア', 'ボディメイク', 'トレーニングとの併用'] },
+    basicInfo: { hours: '9:00〜22:00', facilities: ['個室', '更衣室', 'シャワールーム', '体組成計', '水素水サーバー', 'レンタルウェア・タオル'] },
+  },
+  {
+    name: 'ピラティスステーションライト 田園調布stn.',
+    price: 'グループ 1回 2,850円〜3,500円（回数券制）', trial: '体験レッスンあり',
+    features: ['田園調布駅徒歩2分', '定員3名のマシングループ', '月謝なしの回数券制', 'フルイクイップメント'],
+    description: '2022年5月オープンのピラティス専門スタジオ。田園調布駅から徒歩2分（公式表記）。リフォーマーなどのフルイクイップメントを備え、定員3名のリフォーマーグループ（45分・60分）、2〜3名のセミプライベート、マシンプライベートから選べます。料金は月謝ではなく、全店舗・全レッスン共通の回数券「WATT」制（1WATT 3,500円／10WATT 30,500円／30WATT 88,500円／60WATT 171,000円・税込）で、グループは1回2,850〜3,500円、プライベートは1回8,550〜10,500円が目安です（公式店舗ページ・2026年10月11日確認）。',
+    access: '東急東横線・目黒線「田園調布駅」徒歩2分',
+    address: '〒145-0071 東京都大田区田園調布2丁目51-4 フランス屋ビル2F',
+    popularPlan: { name: 'リフォーマーグループ（定員3名）', description: '4種のテーマから選べる少人数のマシングループ。45分・60分。', price: '1回 2,850円〜3,500円（税込・回数券の枚数による）' },
+    options: ['マシンプライベート 1回 8,550円〜10,500円', 'セミプライベート（2〜3名）1人 5,700円〜7,000円', '指名プライベート 1回 11,400円〜14,000円', '回数券は会員同士でシェア可'],
+    basicInfo: { facilities: ['リフォーマー', 'フルイクイップメント'] },
   },
 ]
 
 const faqs = [
   { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！田園調布エリアのスタジオはほとんどが初心者歓迎。TSUTAYA Conditioningは初心者向けクラスが充実、zen placeは丁寧な指導で定評があります。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。田園調布はマシン専門スタジオが充実しています。' },
-  { question: '田園調布のピラティスの料金相場は？', answer: 'グループ月4回で10,450円〜19,800円程度。zen placeが月4回10,450円〜、TSUTAYA Conditioningが月4回11,000円〜。パーソナルは1回8,800円〜25,000円。' },
+  { question: '田園調布のピラティスの料金相場は？', answer: 'グループ月4回で10,450円〜19,800円程度。zen placeが月4回10,450円〜、TSUTAYA Conditioningが月4回11,000円〜。パーソナルは1回8,300円〜25,000円。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に増やすと効果的です。Pilates Meeの通い放題プランなら毎日でも通えます。' },
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続で体の変化を実感する方が多いです。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。TSUTAYA Conditioningは体験無料、zen placeはグループ1,000円で体験できます。靴下（グリップソックス推奨）も忘れずに。' },
   { question: '男性でも通えるスタジオはありますか？', answer: 'zen place田園調布とDr.ピラティスは男性も通えます。TSUTAYA ConditioningとPilates Meeは女性専用です。' },
   { question: 'パーソナルレッスンとグループレッスンどちらがおすすめ？', answer: '初心者や体の悩みがある方はパーソナルがおすすめ。Dr.ピラティスやSTUDIO IVYで個別指導を受けられます。コスパ重視ならグループレッスンのzen placeやTSUTAYA Conditioning。' },
-  { question: '田園調布駅から近いスタジオは？', answer: 'Dr.ピラティスが駅徒歩30秒で最寄り。TSUTAYA ConditioningとPilates Meeが徒歩2分、zen placeが徒歩3分です。' },
+  { question: '田園調布駅から近いスタジオは？', answer: 'Dr.ピラティスが駅徒歩30秒で最寄り。TSUTAYA Conditioning・Pilates Mee・ピラティスステーションライトが徒歩2分、zen placeが徒歩3分です。' },
   { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。姿勢改善は比較的早く、ボディメイクは3ヶ月程度の継続がおすすめです。' },
 ]
 
@@ -117,9 +128,9 @@ export default function DenenchofuPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス田園調布おすすめ5選！<br className="hidden md:block" />
+              【2026年10月最新】ピラティス田園調布おすすめ6選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -162,7 +173,7 @@ export default function DenenchofuPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、田園調布・奥沢エリアでおすすめのピラティススタジオ5選をまとめました。
+              そこでこの記事では、田園調布・奥沢エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -201,7 +212,7 @@ export default function DenenchofuPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              田園調布のおすすめピラティススタジオ5選
+              田園調布のおすすめピラティススタジオ6選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -216,7 +227,7 @@ export default function DenenchofuPage() {
         <section className="py-16 bg-white" id="price-market">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              田園調布のピラティス料金相場【2026年4月最新】
+              田園調布のピラティス料金相場【2026年10月最新】
             </h2>
             <div className="overflow-x-auto">
               <table className="w-full text-sm border-collapse">
@@ -233,7 +244,7 @@ export default function DenenchofuPage() {
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回 8,800円〜25,000円</td>
+                    <td className="px-4 py-3">1回 8,300円〜25,000円</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
@@ -353,7 +364,7 @@ export default function DenenchofuPage() {
                   個別指導で確実に効果を。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Dr.ピラティス（1回 8,800円〜）</li>
+                  <li className="text-warm-700">• Dr.ピラティス（45分 8,300円〜）</li><li className="text-warm-700">• ピラティスステーションライト（プライベート 1回 8,550円〜）</li>
                   <li className="text-warm-700">• STUDIO IVY（1回 6,250円〜）</li>
                 </ul>
               </div>
@@ -451,7 +462,7 @@ export default function DenenchofuPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  田園調布の料金相場はグループ月4回で10,450円〜19,800円。パーソナルは1回8,800円〜。入会金やキャンペーンも確認しましょう。
+                  田園調布の料金相場はグループ月4回で10,450円〜19,800円。パーソナルは1回8,300円〜。入会金やキャンペーンも確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
