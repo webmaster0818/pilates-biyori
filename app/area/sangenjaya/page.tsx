@@ -168,7 +168,7 @@ const studios = [
     basicInfo: {
       hours: '施設により異なる',
       closed: '施設により異なる',
-      facilities: ['ロッカー', 'マシン完備'],
+      facilities: ['マシン完備', 'フィッティングルーム（カーテン仕切り）', '荷物置きBOX（鍵なし）'],
     },
   },
   {
@@ -422,7 +422,7 @@ export default function SangenjayaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス三軒茶屋おすすめ12選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！

@@ -114,7 +114,7 @@ const studios = [
     basicInfo: {
       hours: '平日 10:00〜21:00 / 土日祝 10:00〜18:00',
       closed: '施設に準ずる',
-      facilities: ['マシン完備', 'ロッカー', 'シャワー'],
+      facilities: ['マシン完備', 'フィッティングルーム（カーテン仕切り）', '荷物置きBOX（鍵なし）'],
     },
   },
   {
@@ -293,7 +293,7 @@ export default function ShimokitazawaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026年7月最新】ピラティス下北沢おすすめ12選！<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！

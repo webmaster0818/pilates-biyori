@@ -174,7 +174,7 @@ const studios = [
     basicInfo: {
       hours: 'コナミ施設により異なる',
       closed: 'コナミ施設により異なる',
-      facilities: ['天井鏡', '専用マシン', 'ロッカー', 'シャワー'],
+      facilities: ['天井鏡', '専用マシン', 'フィッティングルーム（カーテン仕切り）', '荷物置きBOX（鍵なし）'],
     },
   },
   {
@@ -310,7 +310,7 @@ export default async function TokyoAreaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】東京のピラティススタジオ<br className="hidden md:block" />
               おすすめ8選｜料金・体験レッスン徹底比較

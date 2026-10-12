@@ -112,7 +112,7 @@ const studios = [
     basicInfo: {
       hours: '施設の営業時間に準ずる（公式サイトでご確認ください）',
       closed: '施設休館日に準ずる',
-      facilities: ['ミラー', 'リフォーマー', '更衣室', 'ロッカー'],
+      facilities: ['ミラー', 'リフォーマー', 'フィッティングルーム（カーテン仕切り）', '荷物置きBOX（鍵なし）'],
     },
   },
   {
@@ -233,7 +233,7 @@ export default function KunitachiPage() {
       <main className="pt-20 bg-white">
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス国立おすすめ5選！
               <br className="hidden md:block" />

@@ -115,7 +115,7 @@ const studios = [
     basicInfo: {
       hours: '公式サイトでご確認ください',
       closed: '不定休',
-      facilities: ['リフォーマーマシン', '天井ミラー', '更衣室', 'ロッカー'],
+      facilities: ['リフォーマーマシン', '天井ミラー', 'フィッティングルーム（カーテン仕切り）', '荷物置きBOX（鍵なし）'],
     },
   },
   {
@@ -253,7 +253,7 @@ export default function MeguroPage() {
         {/* Hero */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026年6月最新】ピラティス目黒おすすめ7選！
               <br className="hidden md:block" />

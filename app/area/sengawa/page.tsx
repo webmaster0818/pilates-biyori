@@ -48,7 +48,7 @@ const studios = [
     popularPlan: { name: '月6回プラン', description: 'コナミ運営。ミラーを使った独自のレッスンスタイル。', price: '月6回 11,000円（税込）' },
     options: ['月6回プラン（11,000円/月）', 'プライベートレッスン（30分 4,400円）', '体験レッスン 2,200円', 'コナミ施設との併用可能'],
     userProfile: { ageRange: '30代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['健康維持', '姿勢改善', '体幹強化', 'リフレッシュ'] },
-    basicInfo: { hours: '施設の営業時間に準ずる', closed: '施設休館日に準ずる', facilities: ['ミラー', 'リフォーマー', '更衣室', 'ロッカー'] },
+    basicInfo: { hours: '施設の営業時間に準ずる', closed: '施設休館日に準ずる', facilities: ['ミラー', 'リフォーマー', 'フィッティングルーム（カーテン仕切り）', '荷物置きBOX（鍵なし）'] },
   },
   {
     name: 'CLUB PILATES 仙川',
@@ -143,7 +143,7 @@ export default function SengawaPage() {
       <main className="pt-20 bg-white">
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス仙川おすすめ6選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1>
           </div>
         </section>

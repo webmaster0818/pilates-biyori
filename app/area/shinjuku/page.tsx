@@ -271,7 +271,7 @@ const studios = [
     basicInfo: {
       hours: '平日 10:00〜21:00 / 土日祝 9:00〜18:00',
       closed: '不定休',
-      facilities: ['ロッカー', 'パウダールーム', '女性専用'],
+      facilities: ['女性専用', 'フィッティングルーム（カーテン仕切り）', '荷物置きBOX（鍵なし）'],
     },
   },
   {
@@ -482,7 +482,7 @@ export default function ShinjukuPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス新宿おすすめ14選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！

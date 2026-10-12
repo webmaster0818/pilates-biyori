@@ -130,7 +130,7 @@ const studios = [
     popularPlan: { name: 'プライベート30分', description: '女性専用のマンツーマンレッスン。', price: 'プライベート30分 4,400円（税込）〜' },
     options: ['プライベート30分（4,400円〜）', '月額プラン', '回数券', '体験レッスン'],
     userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', 'ダイエット', '姿勢改善', '美容'] },
-    basicInfo: { hours: 'お問い合わせください', closed: '不定休', facilities: ['プライベートスペース', 'ピラティス器具', 'ロッカー', '更衣室'] },
+    basicInfo: { hours: 'お問い合わせください', closed: '不定休', facilities: ['プライベートスペース', 'ピラティス器具', 'フィッティングルーム（カーテン仕切り）', '荷物置きBOX（鍵なし）'] },
   },
   {
     name: 'YUZU 渋谷',
@@ -266,7 +266,7 @@ export default function ShibuyaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026年6月最新】ピラティス渋谷おすすめ15選！<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！

@@ -98,7 +98,7 @@ const studios = [
     popularPlan: { name: '月会費プラン（月6回）', description: 'マシンピラティス月6回まで。コナミ運営の安心感。', price: '月会費 11,000円（税込）' },
     options: ['入会金 11,000円', 'プライベートレッスン30分（4,400円）', 'プライベートレッスン50分（6,600円）', '体験レッスン（2,200円）'],
     userProfile: { ageRange: '20代〜50代が中心（全体の75%）', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', '健康維持', '運動不足解消'] },
-    basicInfo: { hours: '平日 7:00〜21:00 / 土 8:00〜18:00 / 日 8:00〜19:00', closed: '毎週木曜日', facilities: ['リフォーマーマシン', 'ミラー設備', '更衣室', 'ロッカー'] },
+    basicInfo: { hours: '平日 7:00〜21:00 / 土 8:00〜18:00 / 日 8:00〜19:00', closed: '毎週木曜日', facilities: ['リフォーマーマシン', 'ミラー設備', 'フィッティングルーム（カーテン仕切り）', '荷物置きBOX（鍵なし）'] },
   },
   {
     name: 'Pilates en Rose（ピラティスアンローズ）',
@@ -171,7 +171,7 @@ export default function DaikanyamaPage() {
       <main className="pt-20 bg-white">
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス代官山おすすめ8選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！

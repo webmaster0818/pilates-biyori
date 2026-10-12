@@ -58,7 +58,7 @@ const studios = [
     popularPlan: { name: '月会員プラン', description: '女性専用。鏡を活用した30分マシンピラティス。月6回まで。', price: '月額 11,000円（税込）' },
     options: ['月6回まで利用可能', '7回目以降 1回1,100円', '体験レッスン2,200円', '入会金11,000円'],
     userProfile: { ageRange: '30代〜60代が中心', genderRatio: '女性100%（女性専用）', purpose: ['姿勢改善', 'ボディメイク', '健康維持', '運動不足解消'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'ミラー', '更衣室', 'ロッカー'] },
+    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'ミラー', 'フィッティングルーム（カーテン仕切り）', '荷物置きBOX（鍵なし）'] },
   },
   {
     name: 'the SILK（ザ シルク）千里中央店',
@@ -118,7 +118,7 @@ export default function SenriChuoPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス千里中央おすすめ5選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
