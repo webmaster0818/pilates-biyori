@@ -796,3 +796,11 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - source b93726e3／deploy b06f7f7655・precheck ✅ 585ページ・Indexing 5/5・/api/contact 400
 - **追加（同日・コーディネーター指示）**: ①honancho 全カードを公式値に（NORI 1回550円→月4回11,000円・体験1,000円／COCOLANCE ペア52,800→月4回35,200円・体験0円／SYNC. 月4回34,760円・ペア24,640円／zen place は**方南町スタジオ 2026-10-24オープン**（和泉4-47-22・駅徒歩4分・公式告知）に特定／ELEMENT は最寄りの**笹塚店**に特定＝ピラティスは通い放題会員の月1回のみと明記）＋早見表 ②`aggregate-brands-202607.py` 再実行（リントスル和泉府中店 +1・Mee Life山形本町の重複 -1・Mee trial文言は10/9修正後の値に） ③pilates-online 残り5サービス公式確認→title【2026年10月】（LEAN BODY 2,178円／12ヶ月1,628円、UCHIYOGA+ 体験の記載なし・3ヶ月目から解約可、torcia 体験記載なし、フォームチェック表を7サービスに） ④**BDC表参道の住所が誤り**（ピラティスK表参道の「北青山3-12-7 秋月ビル」をコピーしていた）→公式 A studio 南青山5-7-17 青山小原ビル8F／B studio 神宮前4-9-1 神宮前AKビル201 に（aoyama-itchome・omotesando・bdc-stores.ts） ⑤Pilates Mee 公式 /shop/ 149店舗（全ページ取得・住所重複なし・オープン予定表記なし・Life 23店舗含む）＋都道府県別
 - source 5aad87ff／deploy 23e38d46a3・precheck ✅・Indexing 10/10
+
+## 2026-10-12 朝ルーチン
+- **WECLE 6店を外して本番へ（ルール⑤既定案）**: `wip/remove-wecle-1011`(33642809) を main にマージ（衝突なし）→ umeda 9→8／tachikawa 8→7／namba 7→6／shinsaibashi 9→8／ueno 8→7／akasaka 8→7。本番6ページで WECLE 0件・h1/title の N選一致・更新日10/12。source 41f5b7db／deploy e4ad839321・precheck ✅・Indexing 6/6・/api/contact POST 400
+  - 気づき: umeda/shinsaibashi/akasaka の h1 が「【2026年6月最新】」のまま（title は10月）。未修正
+- **emovere 相互リンク**: 10/12 もヘッドレス描画で2本ともトップ（https://biyori-pilates.com/）のまま。/area/itami/ に未変更。⚠️ macOS に `timeout` コマンドは無い → `perl -e 'alarm 90; exec @ARGV' chrome ...` で包む
+- **KASANE 公式に無い2件を確定（wip `wip/kasane-unlisted-1012` 3e66651c・本番未反映）**: 公式 /studio/ は49店（/page/2/・/page/3/ は同じ一覧、/page/20/ 404）。鹿児島＝天文館店のみ、松戸店＝本町1-12 日発ビル4階（駐車場なし）。推測URL（kagoshima_chuo 等・aeonmall_matsudo）404。Wayback の一覧（2024-07〜2026-05）・松戸店ページ（2024-06〜）にも鹿児島中央駅前・イオンモール松戸は一度も無い。wip は kagoshima 5→4・matsudo 7→6（本文の KASANE 駐車場・相場・アクセス言及も削除）
+- **ピラティスミラーの設備**: 公式FAQ（pilatesmirror-faq.konamisportsclub.jp「更衣室はありますか」・JS描画）＝フィッティングルーム（カーテン仕切り）＋荷物置きBOX（鍵なし）、**パウダールーム・シャワーなし**。各店に駐車場は基本なし。都立大学2ページ（toritsu-daigaku の学芸大学・自由が丘、toritsudaigaku）の3件のみ修正して本番へ（c0692143／deploy 91dd9b86e2）。**他の約40ページのミラー facilities にロッカー/シャワー/パウダールーム/駐車場（調布）が残る**＝未修正
+  - toritsudaigaku のミラーは店名なし・住所「都立大学エリア」・営業時間も未確認（公式に都立大学店は無い。目黒区は中目黒・学芸大学・自由が丘）
