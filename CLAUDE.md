@@ -828,3 +828,6 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - （同日）1to1 再発行コード 45E3Q1+1E0H4Y（バナー wid=003＝このサイト番号）を採用 → 9掲載カード＋OneToOnePR を pilates-diet-effect.md「よくある質問」前に。初回 1E0FLE（wid=001＝ジム系）は不使用。**A8 は bgt の wid でサイトを見分けられる（このサイト=003）**
 - （同日）CLUB PILATES もしも（a_id=5805739 p_id=4728 pc_id=12432）: 店舗別テキスト86本＋共通62359（data/clubpilates-moshimo-links.tsv）。scripts/add-clubpilates-moshimo-202610.py で店名キー完全一致→店舗別52／不一致・【使用不可】→共通39。impressionは StudioCardClient で officialUrl から導出。brands.ts ctaUrl=共通・isPartner true、ブランドページに 300×250（75478）。75479・62565 バナーは未使用
 - 【使用不可】店舗（福岡大橋・西新・赤坂薬院・小倉・博多・千葉・浦和・江坂・二子玉川・代官山・恵比寿GP・センター北・高円寺 等）は掲載継続の可否を MediaXAI に確認中
+
+### 2026-10-13 YOURBODY 西荻窪店 掲載依頼（フォーム）
+- 相互リンク依頼の返信メールを MediaXAI 承認後に送信（info@yourbody.jp・Gmail thread 1a134b304fd38188）。掲載は先方の承認＋情報回答待ち。対象ページ /area/nishi-ogikubo/（現在6選）
