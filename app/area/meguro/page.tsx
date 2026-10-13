@@ -255,7 +255,7 @@ export default function MeguroPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026年6月最新】ピラティス目黒おすすめ7選！
+              ピラティス目黒おすすめ7選！
               <br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！
             </h1>
