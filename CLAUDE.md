@@ -826,3 +826,5 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - （同日）A8: DEP（4B650J+3U4MO2+5IM0+5YJRM）17掲載・Repilates（3TJ72A+5FZU+5YJRM）5掲載のカード officialUrl に設置＋StudioCardClient に0.gif。SOELU（3WID36、オンライン案件）は実店舗カードに付けず SoeluPR を pilates-online.md・online-pilates-live-video.md に。scripts/add-a8-dep-repilates-soelu-202610.py
 - ⚠️ 1to1 のコードは a8mat=45E3Q1（gym-lumi・woman-gym のメディアID）＝このサイト（4B650J）の提携ではない → 未設置。4B650J のコード待ち
 - （同日）1to1 再発行コード 45E3Q1+1E0H4Y（バナー wid=003＝このサイト番号）を採用 → 9掲載カード＋OneToOnePR を pilates-diet-effect.md「よくある質問」前に。初回 1E0FLE（wid=001＝ジム系）は不使用。**A8 は bgt の wid でサイトを見分けられる（このサイト=003）**
+- （同日）CLUB PILATES もしも（a_id=5805739 p_id=4728 pc_id=12432）: 店舗別テキスト86本＋共通62359（data/clubpilates-moshimo-links.tsv）。scripts/add-clubpilates-moshimo-202610.py で店名キー完全一致→店舗別52／不一致・【使用不可】→共通39。impressionは StudioCardClient で officialUrl から導出。brands.ts ctaUrl=共通・isPartner true、ブランドページに 300×250（75478）。75479・62565 バナーは未使用
+- 【使用不可】店舗（福岡大橋・西新・赤坂薬院・小倉・博多・千葉・浦和・江坂・二子玉川・代官山・恵比寿GP・センター北・高円寺 等）は掲載継続の可否を MediaXAI に確認中
