@@ -146,6 +146,7 @@ const studios = [
   },
   {
     name: 'Pilates & Gym 1to1 北千住店',
+    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=45E3Q1+1E0H4Y+5G1I+5YJRM',
     image: '/images/studios/pilates-gym-1to1.webp',
     price: 'パーソナル 1回 6,600円〜',
     trial: '体験レッスンあり',

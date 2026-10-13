@@ -999,6 +999,7 @@ function MdxTable(props: React.HTMLAttributes<HTMLTableElement>) {
 // MDXに渡すコンポーネントマップ -------------------------------------------
 export const articleComponents = {
   SurveyNote,
+  OneToOnePR,
   SoeluPR,
   TheSilkPR,
   ZenPlaceYogaPR,
@@ -1101,6 +1102,27 @@ export function SoeluPR() {
       <p className="mt-3 text-sm">
         <a href="https://px.a8.net/svt/ejp?a8mat=4B650J+3WID36+4EPM+5YRHE" rel="nofollow sponsored" target="_blank" className="underline">いつでも、どこでも、よりソエル。オンラインヨガ  ソエル</a>
         <img width={1} height={1} alt="" style={{ border: 0 }} src="https://www13.a8.net/0.gif?a8mat=4B650J+3WID36+4EPM+5YRHE" />
+      </p>
+      {/* eslint-enable @next/next/no-img-element */}
+    </div>
+  )
+}
+
+/*
+ * ピラティス＆ジム1to1（A8 45E3Q1+1E0H4Y・このサイト分）の紹介枠。痩身目的の記事で使う。
+ */
+export function OneToOnePR() {
+  return (
+    <div className="not-prose my-8 border border-warm-200 bg-warm-50 p-5 text-center">
+      <p className="text-xs text-warm-500 mb-3">［PR］マシンピラティス×筋トレのパーソナルジム</p>
+      {/* eslint-disable @next/next/no-img-element */}
+      <a href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1E0H4Y+5G1I+5YZ75" rel="nofollow sponsored" target="_blank">
+        <img width={300} height={250} alt="ピラティス＆ジム1to1" className="mx-auto max-w-full h-auto" style={{ border: 0 }} src="https://www23.a8.net/svt/bgt?aid=250920793084&wid=003&eno=01&mid=s00000025407001003000&mc=1" />
+      </a>
+      <img width={1} height={1} alt="" style={{ border: 0 }} src="https://www15.a8.net/0.gif?a8mat=45E3Q1+1E0H4Y+5G1I+5YZ75" />
+      <p className="mt-3 text-sm">
+        <a href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1E0H4Y+5G1I+5YRHE" rel="nofollow sponsored" target="_blank" className="underline">【ピラティス＆ジム1to1】</a>
+        <img width={1} height={1} alt="" style={{ border: 0 }} src="https://www12.a8.net/0.gif?a8mat=45E3Q1+1E0H4Y+5G1I+5YRHE" />
       </p>
       {/* eslint-enable @next/next/no-img-element */}
     </div>

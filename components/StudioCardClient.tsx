@@ -476,6 +476,10 @@ export function StudioCardClient({ studio, index }: StudioCardProps) {
               // eslint-disable-next-line @next/next/no-img-element
               <img src="https://www12.a8.net/0.gif?a8mat=4B650J+3TJ72A+5FZU+5YJRM" width={1} height={1} alt="" className="inline-block" />
             )}
+            {studio.officialUrl?.includes('a8mat=45E3Q1+1E0H4Y+5G1I+5YJRM') && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src="https://www14.a8.net/0.gif?a8mat=45E3Q1+1E0H4Y+5G1I+5YJRM" width={1} height={1} alt="" className="inline-block" />
+            )}
             {/* felmatインプレッション計測(zen place pilates) */}
             {studio.officialUrl?.includes('T98993.1.K142573W') && (
               // eslint-disable-next-line @next/next/no-img-element

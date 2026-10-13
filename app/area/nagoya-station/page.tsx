@@ -69,6 +69,7 @@ const studios = [
 
   {
     name: 'ピラティス&ジム 1to1 名古屋駅店',
+    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=45E3Q1+1E0H4Y+5G1I+5YJRM',
     image: '/images/studios/pilates-gym-1to1.webp',
     price: 'パーソナルレッスン（料金は要問合せ）',
     trial: '体験レッスンあり',

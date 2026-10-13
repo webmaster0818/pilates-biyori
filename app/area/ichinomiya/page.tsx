@@ -43,6 +43,7 @@ const studios = [
   },
   {
     name: 'ピラティス&ジム 1to1 一宮店',
+    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=45E3Q1+1E0H4Y+5G1I+5YJRM',
     image: '/images/studios/pilates-gym-1to1.webp', rating: 4.6, reviewCount: 25,
     price: '月4回 6,600円〜', trial: '体験レッスンあり', features: ['月4回6,600円〜','完全個室','女性専用','マシンピラティス×ゆるトレ'],
     description: '女性専用完全個室のボディメイクスタジオ。マシンピラティスと「ゆるトレ」を融合。月額6,600円〜とリーズナブル',

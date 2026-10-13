@@ -1,10 +1,12 @@
 # 2026-10-13 MediaXAI: DEP・Repilates（A8）を全掲載のスタジオカードに、SOELU（オンライン案件）をオンライン記事に設置。冪等。
-# 1to1 のコードは a8mat=45E3Q1（ジム系サイトのメディアID）で、このサイトの 4B650J と違うため未設置。
+# 1to1 は最初のコード（45E3Q1+1E0FLE・wid=001＝ジム系サイト）ではなく、再発行の 45E3Q1+1E0H4Y（wid=003）を使う。
 import pathlib, re
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 LINKS = {
     'DEP': (re.compile(r'DEP'), 'https://px.a8.net/svt/ejp?a8mat=4B650J+3U4MO2+5IM0+5YJRM'),
     'Repilates': (re.compile(r'[Rr]epilates'), 'https://px.a8.net/svt/ejp?a8mat=4B650J+3TJ72A+5FZU+5YJRM'),
+    # 1to1 は 45E3Q1 系だが、2回目にもらったコード（1E0H4Y・バナー wid=003）がこのサイト分
+    '1to1': (re.compile(r'1to1'), 'https://px.a8.net/svt/ejp?a8mat=45E3Q1+1E0H4Y+5G1I+5YJRM'),
 }
 files = list((ROOT / 'app/area').rglob('page.tsx')) + [ROOT / 'data/area-studios.ts']
 total = {k: 0 for k in LINKS}

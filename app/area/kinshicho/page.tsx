@@ -121,6 +121,7 @@ const studios = [
   },
   {
     name: 'ピラティス&ジム 1to1 錦糸町',
+    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=45E3Q1+1E0H4Y+5G1I+5YJRM',
     image: '/images/studios/pilates-gym-1to1.webp',
     price: '40分 6,600円〜',
     trial: '体験レッスンあり',
