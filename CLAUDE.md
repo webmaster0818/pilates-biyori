@@ -823,3 +823,5 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - zen place yoga（S101447）: ArticleFigures に ZenPlaceYogaPR（300×300 11615716＋テキスト 1145233L＋pixel）→ pilates-yoga-difference.md の「ヨガがおすすめな人」直後のみ
 - the SILK は felmat 2案件（パーソナル/グループ）のうち X10489B の1つだけ設置。もう一方のコードは未受領
 - （同日）the SILK の2案件が判明: X10489B=グループレッスン（既存の全掲載）／S12007S=パーソナルレッスン。S12007S を設置: ブランドページ（テキスト U165095J＋300×250 B1657725、グループ 336×280 P150216J も）・pilates-group-personal.md（TheSilkPR group=250×250 7150219T／personal）・StudioCardClient で price に「パーソナル」がある the SILK カードのみテキスト＋pixel（18店）。out 20頁で link/pixel 一致。deploy 674d1a4605
+- （同日）A8: DEP（4B650J+3U4MO2+5IM0+5YJRM）17掲載・Repilates（3TJ72A+5FZU+5YJRM）5掲載のカード officialUrl に設置＋StudioCardClient に0.gif。SOELU（3WID36、オンライン案件）は実店舗カードに付けず SoeluPR を pilates-online.md・online-pilates-live-video.md に。scripts/add-a8-dep-repilates-soelu-202610.py
+- ⚠️ 1to1 のコードは a8mat=45E3Q1（gym-lumi・woman-gym のメディアID）＝このサイト（4B650J）の提携ではない → 未設置。4B650J のコード待ち
