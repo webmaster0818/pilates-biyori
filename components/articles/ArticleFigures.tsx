@@ -999,6 +999,7 @@ function MdxTable(props: React.HTMLAttributes<HTMLTableElement>) {
 // MDXに渡すコンポーネントマップ -------------------------------------------
 export const articleComponents = {
   SurveyNote,
+  TheSilkPR,
   ZenPlaceYogaPR,
   RatingDistChart,
   TrialPriceChart,
@@ -1049,6 +1050,37 @@ export function ZenPlaceYogaPR() {
         <img src="https://t.felmat.net/fmimp/S101447.1145233L.U1357808" width={1} height={1} alt="" style={{ border: 'none' }} />
       </p>
       {/* eslint-enable @next/next/no-img-element */}
+    </div>
+  )
+}
+
+/*
+ * the SILK の紹介枠（felmat）。グループ＝X10489B、パーソナル＝S12007S。提供コードのまま使う。
+ * the SILK のレギュレーションにより、情報引用元として公式サイトURLを素のリンクで併記する。
+ */
+export function TheSilkPR({ type }: { type: 'group' | 'personal' }) {
+  const isGroup = type === 'group'
+  return (
+    <div className="not-prose my-8 border border-warm-200 bg-warm-50 p-5 text-center">
+      <p className="text-xs text-warm-500 mb-3">［PR］女性専用マシンピラティススタジオ the SILK の{isGroup ? 'グループレッスン' : 'パーソナルレッスン'}</p>
+      {/* eslint-disable @next/next/no-img-element */}
+      {isGroup ? (
+        <a href="https://t.felmat.net/fmcl?ak=X10489B.1.7150219T.U1357808" target="_blank" rel="nofollow noopener sponsored">
+          <img src="https://t.felmat.net/fmimg/X10489B.7150219T.U1357808" width={250} height={250} alt="the SILK グループレッスン" className="mx-auto max-w-full h-auto" style={{ border: 'none' }} />
+        </a>
+      ) : (
+        <>
+          <a href="https://t.felmat.net/fmcl?ak=S12007S.1.B1657725.U1357808" target="_blank" rel="nofollow noopener sponsored">
+            <img src="https://t.felmat.net/fmimg/S12007S.B1657725.U1357808" width={300} height={250} alt="the SILK パーソナルレッスン" className="mx-auto max-w-full h-auto" style={{ border: 'none' }} />
+          </a>
+          <p className="mt-3 text-sm">
+            <a href="https://t.felmat.net/fmcl?ak=S12007S.1.U165095J.U1357808" target="_blank" rel="nofollow noopener sponsored" className="underline">女性専用マシンピラティススタジオ : パーソナルレッスン【the SILK（ザ シルク）】</a>
+            <img src="https://t.felmat.net/fmimp/S12007S.U165095J.U1357808" width={1} height={1} alt="" style={{ border: 'none' }} />
+          </p>
+        </>
+      )}
+      {/* eslint-enable @next/next/no-img-element */}
+      <p className="mt-2 text-[11px] text-warm-400">情報引用元: <a href="https://the-silk.co.jp/" target="_blank" rel="noopener noreferrer" className="underline">the SILK公式サイト</a></p>
     </div>
   )
 }

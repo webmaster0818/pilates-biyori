@@ -386,6 +386,17 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                   {/* eslint-disable @next/next/no-img-element */}
                   {/* CTAテキストリンク(E162842X)のインプレッション計測 */}
                   <img src="https://t.felmat.net/fmimp/X10489B.E162842X.U1357808" width={1} height={1} alt="" style={{ border: 'none' }} />
+                  {/* グループレッスン案件(X10489B)のバナー */}
+                  <a href="https://t.felmat.net/fmcl?ak=X10489B.1.P150216J.U1357808" target="_blank" rel="nofollow noopener noreferrer sponsored">
+                    <img src="https://t.felmat.net/fmimg/X10489B.P150216J.U1357808" width={336} height={280} alt="the SILK グループレッスン" className="max-w-full h-auto" style={{ border: 'none' }} />
+                  </a>
+                  {/* パーソナルレッスン案件(S12007S) */}
+                  <p className="text-sm text-warm-700 mt-2">パーソナルレッスンを検討している方はこちら</p>
+                  <a href="https://t.felmat.net/fmcl?ak=S12007S.1.B1657725.U1357808" target="_blank" rel="nofollow noopener noreferrer sponsored">
+                    <img src="https://t.felmat.net/fmimg/S12007S.B1657725.U1357808" width={300} height={250} alt="the SILK パーソナルレッスン" className="max-w-full h-auto" style={{ border: 'none' }} />
+                  </a>
+                  <a href="https://t.felmat.net/fmcl?ak=S12007S.1.U165095J.U1357808" target="_blank" rel="nofollow noopener noreferrer sponsored" className="text-sm underline text-warm-700">女性専用マシンピラティススタジオ : パーソナルレッスン【the SILK（ザ シルク）】</a>
+                  <img src="https://t.felmat.net/fmimp/S12007S.U165095J.U1357808" width={1} height={1} alt="" style={{ border: 'none' }} />
                   {/* eslint-enable @next/next/no-img-element */}
                 </div>
               )}

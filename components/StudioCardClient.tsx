@@ -486,6 +486,14 @@ export function StudioCardClient({ studio, index }: StudioCardProps) {
               // eslint-disable-next-line @next/next/no-img-element
               <img src="https://t.felmat.net/fmimp/X10489B.E162842X.U1357808" width={1} height={1} alt="" className="inline-block" style={{ border: 'none' }} />
             )}
+            {/* the SILK パーソナルレッスン案件(felmat S12007S)。パーソナルの料金がある店舗だけ */}
+            {studio.officialUrl?.includes('X10489B.1.E162842X') && studio.price?.includes('パーソナル') && (
+              <p className="mt-2 text-xs">
+                <a href="https://t.felmat.net/fmcl?ak=S12007S.1.U165095J.U1357808" target="_blank" rel="nofollow noopener sponsored" className="underline text-warm-700 hover:text-warm-900">女性専用マシンピラティススタジオ : パーソナルレッスン【the SILK（ザ シルク）】</a>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="https://t.felmat.net/fmimp/S12007S.U165095J.U1357808" width={1} height={1} alt="" style={{ border: 'none' }} />
+              </p>
+            )}
             {studio.officialUrl?.includes('F10273P.1.9146255O') && (
               // eslint-disable-next-line @next/next/no-img-element
               <img src="https://t.felmat.net/fmimp/F10273P.9146255O.U1357808" width={1} height={1} alt="" className="inline-block" style={{ border: 'none' }} />
