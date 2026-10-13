@@ -822,3 +822,4 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - scripts/switch-zenplace-felmat-202610.py（冪等）: A8 5YJRM 397箇所→felmat T98993.1.K142573W。StudioCardClient/BrandAreaReceiver/brandページに fmimp/T98993.K142573W。ブランドページのバナーは felmat 300×300(X1533926)・728×90(X1533893)。out で A8(4LQ4) 0件・felmat link/pixel 192頁
 - zen place yoga（S101447）: ArticleFigures に ZenPlaceYogaPR（300×300 11615716＋テキスト 1145233L＋pixel）→ pilates-yoga-difference.md の「ヨガがおすすめな人」直後のみ
 - the SILK は felmat 2案件（パーソナル/グループ）のうち X10489B の1つだけ設置。もう一方のコードは未受領
+- （同日）the SILK の2案件が判明: X10489B=グループレッスン（既存の全掲載）／S12007S=パーソナルレッスン。S12007S を設置: ブランドページ（テキスト U165095J＋300×250 B1657725、グループ 336×280 P150216J も）・pilates-group-personal.md（TheSilkPR group=250×250 7150219T／personal）・StudioCardClient で price に「パーソナル」がある the SILK カードのみテキスト＋pixel（18店）。out 20頁で link/pixel 一致。deploy 674d1a4605
