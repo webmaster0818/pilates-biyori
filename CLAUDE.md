@@ -825,3 +825,4 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - （同日）the SILK の2案件が判明: X10489B=グループレッスン（既存の全掲載）／S12007S=パーソナルレッスン。S12007S を設置: ブランドページ（テキスト U165095J＋300×250 B1657725、グループ 336×280 P150216J も）・pilates-group-personal.md（TheSilkPR group=250×250 7150219T／personal）・StudioCardClient で price に「パーソナル」がある the SILK カードのみテキスト＋pixel（18店）。out 20頁で link/pixel 一致。deploy 674d1a4605
 - （同日）A8: DEP（4B650J+3U4MO2+5IM0+5YJRM）17掲載・Repilates（3TJ72A+5FZU+5YJRM）5掲載のカード officialUrl に設置＋StudioCardClient に0.gif。SOELU（3WID36、オンライン案件）は実店舗カードに付けず SoeluPR を pilates-online.md・online-pilates-live-video.md に。scripts/add-a8-dep-repilates-soelu-202610.py
 - ⚠️ 1to1 のコードは a8mat=45E3Q1（gym-lumi・woman-gym のメディアID）＝このサイト（4B650J）の提携ではない → 未設置。4B650J のコード待ち
+- （同日）1to1 再発行コード 45E3Q1+1E0H4Y（バナー wid=003＝このサイト番号）を採用 → 9掲載カード＋OneToOnePR を pilates-diet-effect.md「よくある質問」前に。初回 1E0FLE（wid=001＝ジム系）は不使用。**A8 は bgt の wid でサイトを見分けられる（このサイト=003）**
