@@ -817,3 +817,8 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - `scripts/generate-sitemap.mjs`: ブランド＝brands.ts の該当ブロック（`git log -L`）とテンプレ・データ（BRAND_DEPS）の新しい方／店舗ページ＝データファイル／記事＝md と記事テンプレ／主要エリア＝エリアdirと area-studios.ts。未コミットなら TODAY
 - **ビルド前にコミットすること**（未コミットのファイルは今日扱いになる）。中身の変わらないデプロイで refresh-updated-dates.py を回すと全ページが「今日更新」に戻るので注意
 - source 9b49acad／deploy 89934699d7・precheck ✅ 585頁・sitemap 再送信 204
+
+### 2026-10-13 zen place pilates を A8→felmat 切替＋zen place yoga 設置（MediaXAI）
+- scripts/switch-zenplace-felmat-202610.py（冪等）: A8 5YJRM 397箇所→felmat T98993.1.K142573W。StudioCardClient/BrandAreaReceiver/brandページに fmimp/T98993.K142573W。ブランドページのバナーは felmat 300×300(X1533926)・728×90(X1533893)。out で A8(4LQ4) 0件・felmat link/pixel 192頁
+- zen place yoga（S101447）: ArticleFigures に ZenPlaceYogaPR（300×300 11615716＋テキスト 1145233L＋pixel）→ pilates-yoga-difference.md の「ヨガがおすすめな人」直後のみ
+- the SILK は felmat 2案件（パーソナル/グループ）のうち X10489B の1つだけ設置。もう一方のコードは未受領
