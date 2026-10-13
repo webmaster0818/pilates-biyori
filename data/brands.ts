@@ -123,7 +123,7 @@ export const BRANDS: BrandInfo[] = [
         },
       ],
     },
-    ctaUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
+    ctaUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     ctaLabel: '公式サイトで詳細を見る',
     officialRef: { label: 'zen place公式サイト', url: 'https://www.zenplace.co.jp/' },
     isPartner: true,

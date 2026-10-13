@@ -199,6 +199,9 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
                 <p className="text-[10px] text-warm-400 mt-3">［PR］当サイトはアフィリエイトプログラムを利用しています</p>
               )}
               {/* eslint-disable @next/next/no-img-element */}
+              {brand.ctaUrl.includes("T98993.1.K142573W") && (
+                <img src="https://t.felmat.net/fmimp/T98993.K142573W.U1357808" width={1} height={1} alt="" style={{ border: "none" }} />
+              )}
               {brand.ctaUrl.includes("X10489B.1.E162842X") && (
                 <img src="https://t.felmat.net/fmimp/X10489B.E162842X.U1357808" width={1} height={1} alt="" style={{ border: "none" }} />
               )}

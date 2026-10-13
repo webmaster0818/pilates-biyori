@@ -294,14 +294,14 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
               {brand.slug === 'zen-place' && (
                 <div className="mt-6 flex flex-col items-center gap-4">
                   {/* eslint-disable @next/next/no-img-element */}
-                  <a href="https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+609HT" target="_blank" rel="nofollow noopener noreferrer sponsored">
-                    <img width={300} height={250} alt="zen place pilates" className="max-w-full h-auto" src="https://www25.a8.net/svt/bgt?aid=260626915230&wid=003&eno=01&mid=s00000021478001009000&mc=1" />
+                  {/* CTAテキストリンク(K142573W)のインプレッション計測 */}
+                  <img src="https://t.felmat.net/fmimp/T98993.K142573W.U1357808" width={1} height={1} alt="" style={{ border: 'none' }} />
+                  <a href="https://t.felmat.net/fmcl?ak=T98993.1.X1533926.U1357808" target="_blank" rel="nofollow noopener noreferrer sponsored">
+                    <img src="https://t.felmat.net/fmimg/T98993.X1533926.U1357808" width={300} height={300} alt="zen place pilates" className="max-w-full h-auto" style={{ border: 'none' }} />
                   </a>
-                  <img width={1} height={1} alt="" src="https://www18.a8.net/0.gif?a8mat=4B650J+3SXRGI+4LQ4+609HT" />
-                  <a href="https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5ZU29" target="_blank" rel="nofollow noopener noreferrer sponsored" className="hidden md:inline-block">
-                    <img width={468} height={60} alt="zen place pilates 体験レッスン" className="max-w-full h-auto" src="https://www27.a8.net/svt/bgt?aid=260626915230&wid=003&eno=01&mid=s00000021478001007000&mc=1" />
+                  <a href="https://t.felmat.net/fmcl?ak=T98993.1.X1533893.U1357808" target="_blank" rel="nofollow noopener noreferrer sponsored" className="hidden md:inline-block">
+                    <img src="https://t.felmat.net/fmimg/T98993.X1533893.U1357808" width={728} height={90} alt="zen place pilates 体験レッスン" className="max-w-full h-auto" style={{ border: 'none' }} />
                   </a>
-                  <img width={1} height={1} alt="" src="https://www15.a8.net/0.gif?a8mat=4B650J+3SXRGI+4LQ4+5ZU29" />
                   {/* eslint-enable @next/next/no-img-element */}
                 </div>
               )}

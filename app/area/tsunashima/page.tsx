@@ -20,7 +20,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 綱島',
-    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp', reviewCount: 135,
     price: '月4回 13,200円〜', trial: '体験レッスン 1,000円',
     features: ['全国展開大手', 'マット&マシン完備', '2025年拡張移転', '綱島駅徒歩2分'],

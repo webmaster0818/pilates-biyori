@@ -41,7 +41,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 岐阜', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 22,
-    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     price: '月4回 10,450円〜', trial: 'グループ体験 1,000円', features: ['大手の安心感','多様なマシン完備','全国相互利用','男性OK'],
     description: 'リフォーマーに加えキャデラックやチェアなど多様なマシンを導入。全国150店舗以上で相互利用可能',
     access: '岐阜市内（詳細は公式サイトでご確認ください）', address: '岐阜県岐阜市（詳細は公式サイトでご確認ください）',

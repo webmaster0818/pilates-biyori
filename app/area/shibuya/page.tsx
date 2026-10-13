@@ -25,7 +25,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 渋谷',
-    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp', reviewCount: 14,
     price: '月4回 9,625円〜', trial: '体験レッスンあり',
     features: ['マットグループ', 'MIYASHITA PARK正面5F', '男性OK', '全国140スタジオ相互利用可'],

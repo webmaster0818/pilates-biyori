@@ -23,7 +23,7 @@ export const metadata = {
 const studios = [
   {
     name: 'zen place pilates 高槻',
-    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp', reviewCount: 148,
     price: '月4回 9,625円〜', trial: 'グループ体験 1,000円',
     features: ['JR高槻駅徒歩2分', '阪急徒歩3分', '男性OK', '全国相互利用'],

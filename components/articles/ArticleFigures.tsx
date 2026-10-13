@@ -999,6 +999,7 @@ function MdxTable(props: React.HTMLAttributes<HTMLTableElement>) {
 // MDXに渡すコンポーネントマップ -------------------------------------------
 export const articleComponents = {
   SurveyNote,
+  ZenPlaceYogaPR,
   RatingDistChart,
   TrialPriceChart,
   FeatureAdoptionChart,
@@ -1029,4 +1030,25 @@ export const articleComponents = {
   SpringLoadDiagram,
   MachineMapDiagram,
   table: MdxTable,
+}
+
+/*
+ * zen place yoga（felmat S101447）の紹介枠。ヨガを選ぶ人向けの記事で使う。
+ * 提供コードのまま（文言・リンク・計測画像を改変しない）。
+ */
+export function ZenPlaceYogaPR() {
+  return (
+    <div className="not-prose my-8 border border-warm-200 bg-warm-50 p-5 text-center">
+      <p className="text-xs text-warm-500 mb-3">［PR］ヨガから始めたい方向けのスタジオ</p>
+      {/* eslint-disable @next/next/no-img-element */}
+      <a href="https://t.felmat.net/fmcl?ak=S101447.1.11615716.U1357808" target="_blank" rel="nofollow noopener sponsored">
+        <img src="https://t.felmat.net/fmimg/S101447.11615716.U1357808" width={300} height={300} alt="zen place yoga" className="mx-auto max-w-full h-auto" style={{ border: 'none' }} />
+      </a>
+      <p className="mt-3 text-sm">
+        <a href="https://t.felmat.net/fmcl?ak=S101447.1.1145233L.U1357808" target="_blank" rel="nofollow noopener sponsored" className="underline">zen place yoga</a>
+        <img src="https://t.felmat.net/fmimp/S101447.1145233L.U1357808" width={1} height={1} alt="" style={{ border: 'none' }} />
+      </p>
+      {/* eslint-enable @next/next/no-img-element */}
+    </div>
+  )
 }

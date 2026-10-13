@@ -53,7 +53,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 五反田東口スタジオ',
-    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: 'マットグループ 月4回 10,450円〜',
     trial: '体験レッスン 1,000円〜',
@@ -85,7 +85,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 大井町スタジオ',
-    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: 'マットグループ 月4回 9,625円〜',
     trial: '体験レッスン 1,000円〜',
@@ -117,7 +117,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 五反田西口スタジオ',
-    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: 'マットグループ 月4回 10,450円〜',
     trial: '体験レッスン 1,000円〜',

@@ -34,7 +34,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 尼崎', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 25,
-    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     price: '月4回 10,450円〜', trial: 'グループ体験 1,000円', features: ['大手の安心感','全国相互利用','男性OK','マット＆マシン'],
     description: 'ピラティス専門の大手スタジオ。全国150店舗以上で相互利用可能。マットグループ・マシングループ・プライベートの3タイプ',
     access: '尼崎市内（詳細は公式サイトでご確認ください）', address: '兵庫県尼崎市（詳細は公式サイトでご確認ください）',

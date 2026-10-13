@@ -325,7 +325,7 @@ const studios = [
   },
   {
     name: 'zen place pilates 梅田',
-    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3SXRGI+4LQ4+5YJRM',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zenplace.webp',
     price: 'マットグループ月4回 9,625円〜/フリープラン 14,960円〜（グレードにより異なる・税込）',
     trial: 'マットグループ体験 2,200円〜（グレードにより異なる）/マシングループ体験 5,000円',
