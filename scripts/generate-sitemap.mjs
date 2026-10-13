@@ -12,6 +12,7 @@
 
 import fs from 'node:fs'
 import path from 'node:path'
+import { execFileSync } from 'node:child_process'
 import { fileURLToPath } from 'node:url'
 
 const __filename = fileURLToPath(import.meta.url)
@@ -87,6 +88,47 @@ const LASTMOD = {
   static: '2026-04-12',
 }
 
+// ---- lastmod = 実際に中身が変わった日（git の最終コミット日）---------------------
+// ビルド日（TODAY）を全ページに付けると毎日「全部更新」になり、Google が lastmod を信用しなくなる。
+// 2026-10-13 成長ルーチン: 10/9 に直したブランドページが 10/13 時点でも修正前のクロールのまま
+// （the-silk 10/4・bdc 9/24 等）だったため、gakki・peatbid・takushoku（10/12）と同じ方式に変更。
+const gitCache = new Map()
+function gitDate(...paths) {
+  const key = paths.join('\0')
+  if (gitCache.has(key)) return gitCache.get(key)
+  let d = ''
+  try {
+    // 未コミットの変更があるなら今日（ビルドに含まれる＝今日変わった）
+    const dirty = execFileSync('git', ['status', '--porcelain', '--', ...paths], { cwd: ROOT, encoding: 'utf8' }).trim()
+    d = dirty ? TODAY : execFileSync('git', ['log', '-1', '--format=%cs', '--', ...paths], { cwd: ROOT, encoding: 'utf8' }).trim()
+  } catch {}
+  gitCache.set(key, d || TODAY)
+  return d || TODAY
+}
+const maxDate = (...ds) => ds.filter(Boolean).sort().at(-1)
+
+// ブランドページ（app/brands/[slug]）が読むテンプレートとデータ
+const BRAND_DEPS = [
+  'app/brands/[slug]/page.tsx', 'lib/storePages.ts', 'data/area-studios.ts',
+  'data/brands-aggregate.json', 'data/brand-voices.json',
+  'components/BrandReviewDigest.tsx', 'components/BrandReviewThemes.tsx',
+]
+// data/brands.ts のうち、そのブランドのブロック（{ … slug: 'x' … }）が最後に変わった日
+const BRANDS_SRC_LINES = fs.readFileSync(path.join(ROOT, 'data', 'brands.ts'), 'utf-8').split('\n')
+function brandBlockDate(slug) {
+  const i = BRANDS_SRC_LINES.findIndex((l) => l === `    slug: '${slug}',`)
+  if (i < 0) return TODAY
+  let s = i
+  while (s > 0 && !/^  \{/.test(BRANDS_SRC_LINES[s])) s--
+  let e = i
+  while (e < BRANDS_SRC_LINES.length - 1 && !/^  \},?$/.test(BRANDS_SRC_LINES[e])) e++
+  const dirty = execFileSync('git', ['status', '--porcelain', '--', 'data/brands.ts'], { cwd: ROOT, encoding: 'utf8' }).trim()
+  if (dirty) return TODAY
+  try {
+    return execFileSync('git', ['log', '-1', '--format=%cs', '--no-patch', '-L', `${s + 1},${e + 1}:data/brands.ts`], { cwd: ROOT, encoding: 'utf8' }).trim() || TODAY
+  } catch { return TODAY }
+}
+
 const CANONICAL_ELSEWHERE = new Set(['tokyo'])
 
 // ---- collectors ---------------------------------------------------------------
@@ -115,7 +157,7 @@ function listBrands() {
 }
 
 function tierForArea(slug) {
-  if (TIER1_CITIES.has(slug)) return { priority: '0.9', changefreq: 'weekly', lastmod: LASTMOD.t1 }
+  if (TIER1_CITIES.has(slug)) return { priority: '0.9', changefreq: 'weekly', lastmod: gitDate(`app/area/${slug}`, 'data/area-studios.ts') }
   if (TIER2_AREAS.has(slug)) return { priority: '0.7', changefreq: 'weekly', lastmod: LASTMOD.t2 }
   return { priority: '0.5', changefreq: 'monthly', lastmod: LASTMOD.t3 }
 }
@@ -144,13 +186,15 @@ function build() {
   // Articles (real ones — no [slug] placeholder)
   const articles = listArticles().sort()
   for (const slug of articles) {
-    lines.push(urlEntry(`/articles/${slug}/`, LASTMOD.article, 'weekly', '0.7'))
+    const file = ['md', 'mdx'].map((x) => `content/articles/${slug}.${x}`).find((f) => fs.existsSync(path.join(ROOT, f)))
+    lines.push(urlEntry(`/articles/${slug}/`, gitDate(file, 'app/articles/[slug]/page.tsx'), 'weekly', '0.7'))
   }
 
   // Brands (data/brands.ts と同期)
-  lines.push(urlEntry('/brands/', TODAY, 'weekly', '0.7'))
+  const brandDeps = gitDate(...BRAND_DEPS)
+  lines.push(urlEntry('/brands/', gitDate('app/brands/page.tsx', 'data/brands.ts'), 'weekly', '0.7'))
   for (const slug of listBrands()) {
-    lines.push(urlEntry(`/brands/${slug}/`, TODAY, 'weekly', '0.7'))
+    lines.push(urlEntry(`/brands/${slug}/`, maxDate(brandBlockDate(slug), brandDeps), 'weekly', '0.7'))
   }
   // ブランド×エリア受け皿（P0①/P2・data/brands.ts外の静的ページ）
   for (const slug of [
@@ -159,13 +203,13 @@ function build() {
     'club-pilates-nishinomiyakitaguchi', 'club-pilates-daikanyama', 'club-pilates-nakano-sakaue',
     'club-pilates-toyosu', 'club-pilates-tamachi', 'club-pilates-kagurazaka',
   ]) {
-    lines.push(urlEntry(`/brands/${slug}/`, TODAY, 'weekly', '0.6'))
+    lines.push(urlEntry(`/brands/${slug}/`, gitDate(`app/brands/${slug}`), 'weekly', '0.6'))
   }
   // 店舗別ページ（データファイルから動的抽出＝追加店舗は自動でsitemap収録）
   for (const f of ['g1-stores.ts', 'the-silk-stores.ts']) {
     const src = fs.readFileSync(new URL(`../data/${f}`, import.meta.url), 'utf8')
     for (const m of src.matchAll(/"?urlSlug"?:\s*"([a-z0-9-]+)"/g)) {
-      lines.push(urlEntry(`/brands/${m[1]}/`, TODAY, 'weekly', '0.6'))
+      lines.push(urlEntry(`/brands/${m[1]}/`, gitDate(`data/${f}`, 'lib/storePages.ts', 'app/brands/[slug]/page.tsx'), 'weekly', '0.6'))
     }
   }
 
