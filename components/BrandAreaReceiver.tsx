@@ -214,6 +214,9 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
               {brand.ctaUrl.includes("Z11979O.1.Z164554L") && (
                 <img src="https://t.felmat.net/fmimp/Z11979O.Z164554L.U1357808" width={1} height={1} alt="" style={{ border: "none" }} />
               )}
+              {brand.ctaUrl.includes("p_id=4728&pc_id=12432&pl_id=62359") && (
+                <img src="https://i.moshimo.com/af/i/impression?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359" width={1} height={1} alt="" style={{ border: "none" }} loading="lazy" />
+              )}
               {brand.ctaUrl.includes("pl_id=75683") && (
                 <img src="https://i.moshimo.com/af/i/impression?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683" width={1} height={1} alt="" style={{ border: "none" }} loading="lazy" />
               )}

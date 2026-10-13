@@ -250,6 +250,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 西新宿店',
+    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=73079',
     image: '/images/studios/club-pilates.webp',
     price: '詳細は公式サイト参照',
     trial: '体験レッスンあり',

@@ -86,6 +86,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 広島店',
+    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=80149',
     image: '/images/studios/club-pilates.webp',
     price: '要問合せ',
     trial: '無料体験レッスン（30分）',

@@ -118,6 +118,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 新橋（近隣）',
+    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
     image: '/images/studios/club-pilates.webp',
     price: '月4回 10,890円〜',
     trial: '体験レッスン実施中',

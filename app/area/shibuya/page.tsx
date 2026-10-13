@@ -81,6 +81,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 渋谷',
+    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
     image: '/images/studios/club-pilates.webp', reviewCount: 157,
     price: '月4回 10,890円〜', trial: '無料体験',
     features: ['最大12名グループ', '月4回10,890円〜', '無料体験あり', '世界的ブランド'],

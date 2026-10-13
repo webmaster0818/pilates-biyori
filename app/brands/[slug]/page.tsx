@@ -381,6 +381,18 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                   {/* eslint-enable @next/next/no-img-element */}
                 </div>
               )}
+              {brand.slug === 'club-pilates' && (
+                <div className="mt-6 flex flex-col items-center gap-4">
+                  {/* eslint-disable @next/next/no-img-element */}
+                  {/* CTA（全店舗共通用 62359）のインプレッション計測 */}
+                  <img src="https://i.moshimo.com/af/i/impression?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359" width={1} height={1} alt="" style={{ border: 'none' }} loading="lazy" />
+                  <a href="https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=75478" rel="nofollow sponsored" referrerPolicy="no-referrer-when-downgrade" target="_blank">
+                    <img src="https://image.moshimo.com/af-img/4316/000000075478.jpg" width={300} height={250} alt="CLUB PILATES" className="max-w-full h-auto" style={{ border: 'none' }} />
+                  </a>
+                  <img src="https://i.moshimo.com/af/i/impression?a_id=5805739&p_id=4728&pc_id=12432&pl_id=75478" width={1} height={1} alt="" style={{ border: 'none' }} loading="lazy" />
+                  {/* eslint-enable @next/next/no-img-element */}
+                </div>
+              )}
               {brand.slug === 'the-silk' && (
                 <div className="mt-6 flex flex-col items-center gap-4">
                   {/* eslint-disable @next/next/no-img-element */}

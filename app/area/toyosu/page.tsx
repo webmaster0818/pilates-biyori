@@ -25,6 +25,7 @@ export const metadata = {
 const studios = [
   {
     name: 'CLUB PILATES 豊洲店',
+    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=87579',
     image: '/images/studios/club-pilates.webp',
     price: '月4回 14,190円〜',
     trial: '無料イントロクラス（30分）',

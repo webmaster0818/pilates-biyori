@@ -480,6 +480,11 @@ export function StudioCardClient({ studio, index }: StudioCardProps) {
               // eslint-disable-next-line @next/next/no-img-element
               <img src="https://www14.a8.net/0.gif?a8mat=45E3Q1+1E0H4Y+5G1I+5YJRM" width={1} height={1} alt="" className="inline-block" />
             )}
+            {/* もしもアフィリエイト（CLUB PILATES）。店舗別の pl_id ごとにインプレッションURLが対になる */}
+            {studio.officialUrl?.includes('p_id=4728&pc_id=12432') && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src={studio.officialUrl.replace('/af/c/click?', '/af/i/impression?').replace('https://af.moshimo.com', 'https://i.moshimo.com')} width={1} height={1} alt="" style={{ border: 'none' }} loading="lazy" />
+            )}
             {/* felmatインプレッション計測(zen place pilates) */}
             {studio.officialUrl?.includes('T98993.1.K142573W') && (
               // eslint-disable-next-line @next/next/no-img-element

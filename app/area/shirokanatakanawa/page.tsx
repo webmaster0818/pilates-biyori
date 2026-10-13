@@ -101,6 +101,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 港区エリア',
+    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
     image: '/images/studios/club-pilates.webp', reviewCount: 110,
     price: 'お問い合わせください', trial: '体験レッスンあり',
     features: ['世界最大級', '8種類のクラス', '4段階レベル', '国際基準インストラクター'],

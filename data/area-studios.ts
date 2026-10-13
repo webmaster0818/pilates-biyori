@@ -73,6 +73,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'CLUB PILATES 札幌',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=80844',
         image: '/images/pilates4.jpg',
         rating: 4.1,
         price: '月4回 14,190円〜',
@@ -138,6 +139,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'CLUB PILATES 仙台',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
         image: '/images/pilates4.jpg',
         rating: 4.0,
         price: '月4回 14,190円〜',
@@ -603,6 +605,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'CLUB PILATES 宇都宮店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=75200',
         image: '/images/studios/clubpilates-utsunomiya.webp',
         rating: 4.6,
         price: '月4回 ¥11,990〜',
@@ -1157,6 +1160,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'クラブピラティス 市川店',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=80771',
         image: '/images/studios/clubpilates-ichikawa.webp',
         rating: 4.6,
         price: 'EFT4（月4回）¥11,990〜',
@@ -3402,7 +3406,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'CLUB PILATES 南森町店',
-        officialUrl: 'https://clubpilates.co.jp/studio/minamimorimachi/',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62409',
         image: '/images/studios/club-pilates.webp',
         price: '月4回 13,090円／月8回 24,090円（税込）',
         trial: '30分体験レッスン 無料',
@@ -3651,7 +3655,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'CLUB PILATES 西葛西',
-        officialUrl: 'https://clubpilates.co.jp/studio/nishikasai/',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62401',
         image: '/images/studios/club-pilates.webp',
         price: '月4回 13,090円／月8回 24,090円',
         trial: '無料体験（30分）',
@@ -3827,7 +3831,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'CLUB PILATES 津田沼',
-        officialUrl: 'https://clubpilates.co.jp/studio/tsudanuma/',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=87958',
         image: '/images/studios/club-pilates.webp',
         price: '月4回 11,990円／月8回 15,290円／通い放題 18,590円（税込）',
         trial: '体験 無料（30分）',
@@ -4289,7 +4293,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'CLUB PILATES 武蔵境',
-        officialUrl: 'https://clubpilates.co.jp/studio/musashisakai/',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=81776',
         image: '/images/studios/club-pilates.webp',
         price: '月4回 13,090円／月8回 24,090円（税込）',
         trial: '体験 30分無料',
@@ -4481,7 +4485,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'CLUB PILATES 目白店',
-        officialUrl: 'https://clubpilates.co.jp/studio/mejiro/',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62402',
         image: '/images/studios/club-pilates.webp',
         price: '月4回 14,190円／月8回 26,290円（税込）',
         trial: '体験 30分無料',
@@ -4532,7 +4536,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'CLUB PILATES 旗の台店',
-        officialUrl: 'https://clubpilates.co.jp/studio/hatanodai/',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=69846',
         image: '/images/studios/club-pilates.webp',
         price: '月4回 13,090円／月8回 24,090円（税込）',
         trial: '体験 30分無料',
@@ -4626,7 +4630,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'CLUB PILATES センター北',
-        officialUrl: 'https://clubpilates.co.jp/studio/center-kita/',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
         image: '/images/studios/club-pilates.webp',
         price: '月4回 11,990円／月8回 21,890円（税込）',
         trial: '体験 30分無料',
@@ -4857,7 +4861,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'CLUB PILATES 西院店',
-        officialUrl: 'https://clubpilates.co.jp/studio/saiin/',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=82299',
         image: '/images/studios/club-pilates.webp',
         price: '月4回 11,990円／月8回 17,490円（税込）',
         trial: '体験 30分無料',
@@ -4997,7 +5001,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'CLUB PILATES 東久留米',
-        officialUrl: 'https://clubpilates.co.jp/studio/higashikurume/',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=89494',
         image: '/images/studios/club-pilates.webp',
         price: '月4回 11,990円／月8回 21,890円／通い放題 36,190円（税込・入会金5,500円）',
         trial: '体験 30分無料',
@@ -6195,7 +6199,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'クラブピラティス中野坂上店（CLUB PILATES 中野坂上）',
-        officialUrl: 'https://clubpilates.co.jp/studio/nakanosakaue/',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=82081',
         price: '月4回13,090円／月8回24,090円／通い放題37,290円',
         trial: '無料体験あり（当日入会で入会金無料）',
         features: ['世界最大級チェーン', '最大12名グループ', '15種のマシン', 'グループ＋プライベート'],
@@ -6375,7 +6379,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'CLUB PILATES 大阪上本町店',
-        officialUrl: 'https://clubpilates.co.jp/studio/osakauehommachi/',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=79077',
         price: '月4回13,090円／月8回24,090円／通い放題37,290円（入会金5,500円）',
         trial: '無料体験あり',
         features: ['世界1000店舗超のグローバルブランド', '最大12名グループ', '有資格者のみ在籍', '朝7時〜夜9時'],
@@ -6824,7 +6828,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'CLUB PILATES 所沢店',
-        officialUrl: 'https://clubpilates.co.jp/studio/tokorozawa/',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=74248',
         price: '月4回11,990円／月8回21,890円／通い放題36,190円（入会金5,500円）',
         trial: '体験 無料',
         features: ['世界最大級チェーン', '最大12名グループ', 'プライベート対応', '初心者〜上級者'],
@@ -7071,7 +7075,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'クラブピラティス千葉店（CLUB PILATES）',
-        officialUrl: 'https://clubpilates.co.jp/studio/chiba/',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
         price: 'EFT4 11,990円／EFT8 15,290円／通い放題18,590円（入会金5,500円）',
         trial: '体験 無料',
         features: ['世界1000店舗超', '最大12名グループ', 'プライベート対応', '初心者〜上級者'],

@@ -64,6 +64,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 蒲田店',
+    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=72997',
     image: '/images/studios/club-pilates.webp', reviewCount: 108,
     price: '月4回 14,190円〜', trial: '体験レッスン 無料（30分イントロクラス）',
     features: ['世界最大級', '京急蒲田徒歩5分', '15種類の器具', '男性OK'],

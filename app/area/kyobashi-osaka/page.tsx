@@ -49,6 +49,7 @@ const studios = [
   },
   {
     name: 'CLUB PILATES 京橋店',
+    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
     image: '/images/studios/club-pilates.webp', reviewCount: 105,
     price: '月4回 11,990円〜', trial: '体験レッスン 無料',
     features: ['世界最大級', '4段階レベル分け', '男性OK', '体験無料'],
