@@ -467,6 +467,15 @@ export function StudioCardClient({ studio, index }: StudioCardProps) {
             >
               Googleマップで口コミを見る
             </a>
+            {/* A8インプレッション計測(DEP / Repilates) */}
+            {studio.officialUrl?.includes('a8mat=4B650J+3U4MO2+5IM0+5YJRM') && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src="https://www19.a8.net/0.gif?a8mat=4B650J+3U4MO2+5IM0+5YJRM" width={1} height={1} alt="" className="inline-block" />
+            )}
+            {studio.officialUrl?.includes('a8mat=4B650J+3TJ72A+5FZU+5YJRM') && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src="https://www12.a8.net/0.gif?a8mat=4B650J+3TJ72A+5FZU+5YJRM" width={1} height={1} alt="" className="inline-block" />
+            )}
             {/* felmatインプレッション計測(zen place pilates) */}
             {studio.officialUrl?.includes('T98993.1.K142573W') && (
               // eslint-disable-next-line @next/next/no-img-element

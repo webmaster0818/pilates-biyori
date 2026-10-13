@@ -20,6 +20,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティススタジオDEP 四日市店',
+    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3U4MO2+5IM0+5YJRM',
     image: '/images/studios/pilates-studio-dep.webp', rating: 4.8, reviewCount: 28,
     price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['理学・作業療法士','高品質マシン','1000種類以上','カスタマイズ'],
     description: 'インストラクター全員が理学・作業療法士。高品質のピラティスマシン完備で1000種類以上の運動からカスタマイズされたレッスン',

@@ -54,6 +54,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオDEP 神戸店 Resho',
+    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3U4MO2+5IM0+5YJRM',
     image: '/images/studios/pilates-studio-dep.webp',
     price: 'パーソナルレッスン 90分 2,980円〜',
     trial: '体験レッスン 2,980円',

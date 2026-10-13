@@ -226,6 +226,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオDEP 仙台店 Calm',
+    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3U4MO2+5IM0+5YJRM',
     image: '/images/studios/pilates-studio-dep.webp',
     price: '要問合せ',
     trial: '体験レッスン あり',
@@ -257,6 +258,7 @@ const studios = [
   },
   {
     name: 'Repilates 仙台泉大沢店',
+    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3TJ72A+5FZU+5YJRM',
     image: '/images/studios/repilates.webp',
     price: '3ヶ月通い放題 5,000円（キャンペーン）',
     trial: '無料体験会・内覧会受付中',

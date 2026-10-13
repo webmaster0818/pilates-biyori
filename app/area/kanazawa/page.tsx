@@ -25,6 +25,7 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティススタジオDEP 金沢店 近岡スタジオ',
+    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3U4MO2+5IM0+5YJRM',
     image: '/images/studios/dep-kanazawa.webp',
     price: '月額 14,800円〜',
     trial: '初回パーソナル90分 2,980円',

@@ -262,6 +262,7 @@ const studios = [
   },
   {
     name: 'Repilates 札幌円山店',
+    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3TJ72A+5FZU+5YJRM',
     image: '/images/studios/repilates.webp',
     price: '要問合せ',
     trial: '体験レッスン 3,300円',

@@ -999,6 +999,7 @@ function MdxTable(props: React.HTMLAttributes<HTMLTableElement>) {
 // MDXに渡すコンポーネントマップ -------------------------------------------
 export const articleComponents = {
   SurveyNote,
+  SoeluPR,
   TheSilkPR,
   ZenPlaceYogaPR,
   RatingDistChart,
@@ -1081,6 +1082,27 @@ export function TheSilkPR({ type }: { type: 'group' | 'personal' }) {
       )}
       {/* eslint-enable @next/next/no-img-element */}
       <p className="mt-2 text-[11px] text-warm-400">情報引用元: <a href="https://the-silk.co.jp/" target="_blank" rel="noopener noreferrer" className="underline">the SILK公式サイト</a></p>
+    </div>
+  )
+}
+
+/*
+ * SOELU（A8 4B650J+3WID36）の紹介枠。オンライン案件なので、オンラインの記事でだけ使う（実店舗のカードには付けない）。
+ */
+export function SoeluPR() {
+  return (
+    <div className="not-prose my-8 border border-warm-200 bg-warm-50 p-5 text-center">
+      <p className="text-xs text-warm-500 mb-3">［PR］オンラインヨガ・フィットネス SOELU</p>
+      {/* eslint-disable @next/next/no-img-element */}
+      <a href="https://px.a8.net/svt/ejp?a8mat=4B650J+3WID36+4EPM+63OY9" rel="nofollow sponsored" target="_blank">
+        <img width={300} height={250} alt="SOELU" className="mx-auto max-w-full h-auto" style={{ border: 0 }} src="https://www29.a8.net/svt/bgt?aid=260626915236&wid=003&eno=01&mid=s00000020569001025000&mc=1" />
+      </a>
+      <img width={1} height={1} alt="" style={{ border: 0 }} src="https://www12.a8.net/0.gif?a8mat=4B650J+3WID36+4EPM+63OY9" />
+      <p className="mt-3 text-sm">
+        <a href="https://px.a8.net/svt/ejp?a8mat=4B650J+3WID36+4EPM+5YRHE" rel="nofollow sponsored" target="_blank" className="underline">いつでも、どこでも、よりソエル。オンラインヨガ  ソエル</a>
+        <img width={1} height={1} alt="" style={{ border: 0 }} src="https://www13.a8.net/0.gif?a8mat=4B650J+3WID36+4EPM+5YRHE" />
+      </p>
+      {/* eslint-enable @next/next/no-img-element */}
     </div>
   )
 }

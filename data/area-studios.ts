@@ -361,6 +361,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティススタジオDEP 山形店',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3U4MO2+5IM0+5YJRM',
         image: '/images/studios/dep-pilates-yamagata.webp',
         rating: 4.5,
         price: 'ライト14,800円/月～プレミアム47,600円/月',
@@ -499,6 +500,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティススタジオDEP 弘前店 Felice',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3U4MO2+5IM0+5YJRM',
         image: '/images/studios/dep-pilates-hirosaki.webp',
         rating: 4.7,
         price: 'ライト 月2回 ¥14,800〜',
@@ -577,6 +579,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティススタジオDEP 宇都宮店',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3U4MO2+5IM0+5YJRM',
         image: '/images/studios/dep-pilates-utsunomiya.webp',
         rating: 4.8,
         price: 'ライト 月2回 ¥17,000〜',
@@ -2616,6 +2619,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'ピラティススタジオDEP 長野松本店 Noah',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3U4MO2+5IM0+5YJRM',
         image: '/images/studios/dep-pilates-matsumoto.webp',
         rating: 4.5,
         price: 'ライト 14,800円/月 / スタンダード 28,800円 / プレミアム 47,600円',
@@ -2822,6 +2826,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'ピラティススタジオDEP 福山店',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3U4MO2+5IM0+5YJRM',
         image: '/images/studios/dep-pilates-fukuyama.webp',
         rating: 4.5,
         price: 'ライト 14,800円/月 / スタンダード 28,800円 / プレミアム 47,600円',
@@ -3408,7 +3413,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティススタジオDEP 南森町店',
-        officialUrl: 'https://dep-pilates.com/shop/kinki/minamimorimachi-espoir',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3U4MO2+5IM0+5YJRM',
         price: '月2回 17,000円／月4回 32,000円',
         trial: '体験 通常9,900円（キャンペーンあり）',
         features: ['マシンピラティス専門', '完全個室マンツーマン', '理学療法士・作業療法士在籍'],
@@ -7094,7 +7099,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ピラティススタジオ DEP 仙台店 Calm',
-        officialUrl: 'https://dep-pilates.com/shop/tohoku/sendai-calm/',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3U4MO2+5IM0+5YJRM',
         price: '月2回17,000円／月4回32,000円／月7回54,600円',
         trial: '初回体験 2,980円',
         features: ['完全個室', '理学療法士中心', '予防医学', 'マシンピラティス'],

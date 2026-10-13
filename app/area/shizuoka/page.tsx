@@ -242,6 +242,7 @@ const studios = [
   },
   {
     name: 'Repilates 富士宮店',
+    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3TJ72A+5FZU+5YJRM',
     image: '/images/studios/repilates.webp',
     price: '要問合せ',
     trial: '体験レッスン あり（口コミ限定キャンペーン）',

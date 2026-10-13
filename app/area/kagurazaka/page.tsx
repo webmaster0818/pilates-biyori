@@ -146,6 +146,7 @@ const studios = [
   },
   {
     name: 'Repilates 飯田橋神楽坂店',
+    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3TJ72A+5FZU+5YJRM',
     image: '/images/studios/repilates.webp',
     price: '1回 3,300円〜',
     trial: '体験レッスンあり',

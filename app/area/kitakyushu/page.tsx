@@ -80,6 +80,7 @@ const studios = [
   },
   {
     name: 'ピラティススタジオDEP 小倉店',
+    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3U4MO2+5IM0+5YJRM',
     image: '/images/studios/dep-kokura.webp',
     price: '1回 8,800円〜',
     trial: '体験レッスン 5,500円',
