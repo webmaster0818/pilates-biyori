@@ -811,3 +811,9 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
   - 残り: h2「◯◯のピラティス料金相場【2026年6月最新】」が4ページ（gion-shijo・yagoto・yoyogi-uehara・ebina）。h1 の「【2026年7月最新】」92ページ・「【2026最新】」237ページは未対応。yotsuya 等の description に「2026年6月の最新情報で」が残る
 - **wip `wip/remove-unverified-stores-1013`（20575e76・origin に push・main 未マージ・本番未反映）**: 旧 1010（3b3898cc）を 10/13 main に cherry-pick。衝突は ebina h1 のみ（「ピラティス海老名おすすめ4選！」で解消）。brands-aggregate は再集計と完全一致（zen place 176→173）。yotsuya 2選＋「2店は四ツ谷駅・四谷三丁目駅周辺の店舗ではない（飯田橋駅／新宿エリア）」を導入と一覧見出し直下に明記、「四谷三丁目駅周辺に集中」「パーソナル専門が充実」「繁華街で駅近が多い」の記述とカードに無い Grand Chariot を除去。build EXIT0・precheck ✅・生成HTMLで h3 カード数＝N選（4/4/4/2）・3店の zen place 名 0件
   - ⚠️ yotsuya の料金相場表「パーソナルレッスン 1回 9,625円〜13,420円」はグループ月額の数字の流用（未修正・要公式確認）
+
+## 2026-10-13 成長ルーチン: sitemap lastmod を最終コミット日に
+- 10/9 に直したブランドページ（the-silk・bdc 等）が 10/13 時点で修正前クロールのまま。sitemap がブランド・記事・主要エリアを毎ビルド TODAY にしていた（Google が lastmod を信用しなくなる）
+- `scripts/generate-sitemap.mjs`: ブランド＝brands.ts の該当ブロック（`git log -L`）とテンプレ・データ（BRAND_DEPS）の新しい方／店舗ページ＝データファイル／記事＝md と記事テンプレ／主要エリア＝エリアdirと area-studios.ts。未コミットなら TODAY
+- **ビルド前にコミットすること**（未コミットのファイルは今日扱いになる）。中身の変わらないデプロイで refresh-updated-dates.py を回すと全ページが「今日更新」に戻るので注意
+- source 9b49acad／deploy 89934699d7・precheck ✅ 585頁・sitemap 再送信 204
