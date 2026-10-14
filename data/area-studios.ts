@@ -7102,7 +7102,7 @@ export const areaStudios: Record<string, AreaData> = {
         address: '宮城県仙台市青葉区一番町3-11-14 丸和ビル2F',
       },
       {
-        name: 'ピラティススタジオ DEP 仙台店 Calm',
+        name: 'ピラティススタジオDEP 仙台店 Calm',
         officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3U4MO2+5IM0+5YJRM',
         price: '月2回17,000円／月4回32,000円／月7回54,600円',
         trial: '初回体験 2,980円',

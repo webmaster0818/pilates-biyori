@@ -145,6 +145,9 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
             {brand.name}の{brand.officialStores ? '店舗一覧・店舗数・料金' : brand.useHyoban ? '店舗一覧・料金・評判' : '店舗一覧・料金・体験'}{brand.reviewThemes ? (!brand.officialStores && brand.useHyoban ? '・口コミ' : '・口コミ評判') : ''}
             <span className="block text-base text-warm-500 mt-2 font-light">{brand.tagline}</span>
           </h1>
+          {brand.checkedAt && (
+            <p className="text-xs text-warm-500 mb-6">料金・店舗数・規約の公式確認日: {brand.checkedAt}／口コミはGoogleマップの店舗ごとの要約（出典リンク付き）</p>
+          )}
 
           {/* 結論ボックス */}
           <section className="bg-white border border-warm-200 p-6 mb-10">
@@ -235,7 +238,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
               </ul>
             )}
             <p className="text-sm text-warm-700 leading-relaxed mb-4 font-light">{brand.pricingNote}</p>
-            {prices.length > 0 && (
+            {prices.length > 0 && !brand.hideListedPriceTable && (
               <div className="bg-white border border-warm-200 overflow-x-auto">
                 <table className="w-full text-sm">
                   <thead>
@@ -391,6 +394,13 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                   </a>
                   <img src="https://i.moshimo.com/af/i/impression?a_id=5805739&p_id=4728&pc_id=12432&pl_id=75478" width={1} height={1} alt="" style={{ border: 'none' }} loading="lazy" />
                   {/* eslint-enable @next/next/no-img-element */}
+                </div>
+              )}
+              {/* A8（2026-10-14）: CTAテキストリンクのインプレッション計測。クリックURL（brands.ts ctaUrl）と同じ a8mat を対で使う */}
+              {(['dep', '1to1', 'repilates'] as const).includes(brand.slug as 'dep') && brand.ctaUrl?.includes('a8mat=') && (
+                <div className="mt-2 flex justify-center">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={`https://${brand.slug === 'dep' ? 'www19' : brand.slug === 'repilates' ? 'www12' : 'www14'}.a8.net/0.gif?a8mat=${brand.ctaUrl.split('a8mat=')[1]}`} width={1} height={1} alt="" style={{ border: 'none' }} />
                 </div>
               )}
               {brand.slug === 'the-silk' && (

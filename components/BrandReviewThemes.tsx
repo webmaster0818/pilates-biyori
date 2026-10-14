@@ -10,7 +10,7 @@ import type { ReviewTheme, ReviewThemes } from '@/data/brands'
 // 出典リンクの表示名からブランド名を外す（同じブランドのページ内なので店舗名だけで足りる）。
 // 2026-10-09: 全提携ブランドに対応（以前は Rintosull／the SILK／BDC のみ）
 const BRAND_PREFIX =
-  /^(Rintosull（リントスル）|Rintosull |the SILK |BDC PILATES |zen place pilates |ピラティスK |pilates K |Pilates Mee (?!Life)|URBAN CLASSIC PILATES |ELEMENT（[^）]*）|ELEMENT |Pilates KASANE |PILATES KASANE |pilates KASANE |24\/7ピラティス |Dr\.ピラティス |DAYS PILATES |BREST PILATES & BODYMAKE |Celestia |ルキナ |luluto（ルルト）|luluto |ルルト |ピラティススタジオ ルルト )/
+  /^(Rintosull（リントスル）|Rintosull |the SILK |BDC PILATES |zen place pilates |ピラティスK |pilates K |Pilates Mee (?!Life)|URBAN CLASSIC PILATES |ELEMENT（[^）]*）|ELEMENT |Pilates KASANE |PILATES KASANE |pilates KASANE |24\/7ピラティス |Dr\.ピラティス |DAYS PILATES |BREST PILATES & BODYMAKE |Celestia |ルキナ |luluto（ルルト）|luluto |ルルト |ピラティススタジオ ルルト |ピラティススタジオ ?DEP |ピラティス&ジム 1to1 |Pilates & Gym 1to1 |Repilates |CLUB PILATES )/
 
 function Theme({ t, tone }: { t: ReviewTheme; tone: 'good' | 'caution' }) {
   const refs = t.stores.map((k) => STUDIO_REVIEWS[k]).filter(Boolean)
@@ -41,7 +41,7 @@ export function BrandReviewThemes({ brandName, themes }: { brandName: string; th
   const caution = themes.caution.filter((t) => t.stores.some((k) => STUDIO_REVIEWS[k]))
   if (good.length === 0 && caution.length === 0) return null
   return (
-    <section className="mb-10">
+    <section className="mb-10 scroll-mt-24" id="review-themes">
       <h2 className="text-xl font-light text-warm-900 border-b border-warm-200 pb-2 mb-4">
         {brandName}の口コミに多いテーマと注意点
       </h2>

@@ -35,7 +35,7 @@ export function BrandReviewDigest({ brandSlug, brandName }: { brandSlug: string;
   const low = rows.filter((r) => r.rating < 4.0).length
 
   return (
-    <section className="mb-10">
+    <section className="mb-10 scroll-mt-24" id="reviews">
       <h2 className="text-xl font-light text-warm-900 border-b border-warm-200 pb-2 mb-4">
         {brandName}の口コミ・評判（Googleマップ {rows.length}店舗ぶんの要約）
       </h2>

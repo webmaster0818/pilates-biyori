@@ -19,6 +19,10 @@ const RULES: Array<{ slug: string; test: (n: string) => boolean }> = [
   { slug: 'club-pilates', test: (n) => /CLUB PILATES/i.test(n) },
   { slug: 'dr-pilates', test: (n) => /Dr\.?ピラティス|ドクターピラティス/.test(n) },
   { slug: 'luluto', test: (n) => /ルルト|luluto/i.test(n) }, // 2026-10-09 追加。aggregate-brands-202607.py と同じ判定
+  // 2026-10-14 追加（A8 提携）。aggregate-brands-202607.py と同じ判定
+  { slug: 'dep', test: (n) => /ピラティススタジオ ?DEP/i.test(n) },
+  { slug: '1to1', test: (n) => /1to1/i.test(n) },
+  { slug: 'repilates', test: (n) => /Repilates|(?<!ジュ)リピラティス/i.test(n) }, // 「ジュリピラティス」を拾わない
 ]
 
 export function brandSlugOf(studioName: string): string | null {

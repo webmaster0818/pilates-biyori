@@ -27,6 +27,10 @@ BRANDS = [
     ("club-pilates",  r"CLUB PILATES|Club Pilates|club pilates"),
     ("dr-pilates",    r"Dr\.?ピラティス|ドクターピラティス"),
     ("luluto",        r"ルルト|luluto"),  # 2026-10-09 追加（felmat L12015F）
+    # 2026-10-14 追加（A8 DEP 5IM0／1to1 5G1I／Repilates 5FZU）。lib/brandLink.ts と同じ判定
+    ("dep",           r"ピラティススタジオ ?DEP"),
+    ("1to1",          r"1to1"),
+    ("repilates",     r"Repilates|(?<!ジュ)リピラティス"),  # 「ジュリピラティス」を拾わない
 ]
 
 def brand_of(name):

@@ -7,6 +7,7 @@ import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { getBrand } from "@/data/brands";
 import type { BdcStore } from "@/data/bdc-stores";
 import { STUDIO_REVIEWS } from "@/data/studio-reviews";
+import { brandSlugOf } from "@/lib/brandLink";
 
 // ブランド×エリア受け皿。指名クエリ「{ブランド} ピラティス {エリア}」の受け皿。
 // 実店舗データ（brands-aggregate.json一致）＋ブランド編集データ＋ブランド/エリアへの三角リンク。
@@ -35,6 +36,16 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
     .filter((p) => p.trim());
   const brandFaq = (brand?.faq ?? []).filter((f) => !(dropSub && (f.q.includes(sub!) || f.a.includes(sub!))));
   const noCampaign = brand?.noCampaignWording === true;
+  /* ブランド全体の口コミ集約（親ページ #reviews）への導線用の実数（2026-10-14: 「BDC 口コミ」の着地が店舗ページ止まりだったため、
+     店舗の口コミ要約の直後から親ページの全店舗集約へ誘導する。数え方は BrandReviewDigest と同じ＝cid で1店舗） */
+  const brandRevSeen = new Set<string>();
+  const brandRevRows = Object.values(STUDIO_REVIEWS).filter((r) => {
+    const place = r.mapsUri.match(/cid=(\d+)/)?.[1] ?? r.mapsUri;
+    if (brandSlugOf(r.name) !== brandSlug || brandRevSeen.has(place)) return false;
+    brandRevSeen.add(place);
+    return true;
+  });
+  const brandRevTotal = brandRevRows.reduce((n, r) => n + r.userRatings, 0);
 
   const faqs = [
     {
@@ -145,6 +156,14 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
                   </a>
                 </p>
               </div>
+              {brandRevRows.length >= 3 && (
+                <p className="mt-4 border border-warm-300 bg-white px-4 py-3 text-sm text-warm-800 leading-relaxed">
+                  この店舗だけでなく{brandName}全体の口コミ傾向を知りたい方は →{" "}
+                  <Link href={`${brandHref}#reviews`} className="underline decoration-warm-400 hover:text-warm-900 font-medium">
+                    {brandName}の口コミ・評判まとめ（Googleマップ{brandRevRows.length}店舗・{brandRevTotal.toLocaleString()}件の要約{brand?.reviewThemes ? "と、口コミに多いテーマ・注意点" : ""}）
+                  </Link>
+                </p>
+              )}
             </section>
           )}
 
