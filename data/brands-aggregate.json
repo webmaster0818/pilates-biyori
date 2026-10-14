@@ -9467,8 +9467,8 @@
     },
     {
       "name": "ピラティススタジオDEP 小倉店",
-      "price": "1回 8,800円〜",
-      "trial": "体験レッスン 5,500円",
+      "price": "ライト 月2回 14,800円〜（税込）",
+      "trial": "初回体験 2,980円（税込・通常9,900円・LINE予約限定）",
       "officialUrl": "https://px.a8.net/svt/ejp?a8mat=4B650J+3U4MO2+5IM0+5YJRM",
       "address": "福岡県北九州市小倉北区（詳細は公式サイトでご確認ください）",
       "access": "JR「小倉駅」周辺",
@@ -9477,8 +9477,8 @@
     },
     {
       "name": "ピラティススタジオDEP 神戸店 Resho",
-      "price": "パーソナルレッスン 90分 2,980円〜",
-      "trial": "体験レッスン 2,980円",
+      "price": "ライト 月2回 17,000円〜（税込）",
+      "trial": "初回体験 2,980円（税込・通常9,900円・LINE予約限定）",
       "officialUrl": "https://px.a8.net/svt/ejp?a8mat=4B650J+3U4MO2+5IM0+5YJRM",
       "address": "兵庫県神戸市（詳細は公式サイト参照）",
       "access": "神戸市内（詳細は公式サイト参照）",
@@ -9507,8 +9507,8 @@
     },
     {
       "name": "ピラティススタジオDEP 岡山店",
-      "price": "パーソナルレッスン 90分 2,980円〜",
-      "trial": "体験レッスン 2,980円",
+      "price": "ライト 月2回 14,800円〜（税込）",
+      "trial": "初回体験 2,980円（税込・通常9,900円・LINE予約限定）",
       "officialUrl": "https://px.a8.net/svt/ejp?a8mat=4B650J+3U4MO2+5IM0+5YJRM",
       "address": "岡山県岡山市（詳細は公式サイト参照）",
       "access": "岡山市内（詳細は公式サイト参照）",
@@ -9540,32 +9540,31 @@
   "1to1": [
     {
       "name": "ピラティス&ジム 1to1 一宮店",
-      "price": "月4回 6,600円〜",
-      "trial": "体験レッスンあり",
-      "rating": 4.6,
+      "price": "都度払い 40分 6,600円〜（税込）",
+      "trial": "体験レッスン 無料（カウンセリング＋20分・通常5,500円・公式表示は2026年10月31日まで）",
       "officialUrl": "https://px.a8.net/svt/ejp?a8mat=45E3Q1+1E0H4Y+5G1I+5YJRM",
-      "address": "愛知県一宮市（詳細は公式サイトでご確認ください）",
-      "access": "一宮市内（詳細は公式サイトでご確認ください）",
+      "address": "愛知県一宮市栄4-1-5 aaaビル6F Bフロア",
+      "access": "JR尾張一宮駅・名鉄一宮駅 徒歩1分",
       "areaSlug": "ichinomiya",
       "areaName": "一宮"
     },
     {
       "name": "ピラティス&ジム 1to1 錦糸町",
-      "price": "40分 6,600円〜",
-      "trial": "体験レッスンあり",
+      "price": "都度払い 40分 6,600円〜（税込）",
+      "trial": "体験レッスン 無料（カウンセリング＋20分・通常5,500円・公式表示は2026年10月31日まで）",
       "officialUrl": "https://px.a8.net/svt/ejp?a8mat=45E3Q1+1E0H4Y+5G1I+5YJRM",
-      "address": "東京都墨田区江東橋3丁目",
-      "access": "錦糸町駅から徒歩5分",
+      "address": "東京都墨田区錦糸1丁目11-2 日本住宅錦糸町ビル5F Bフロア",
+      "access": "JR総武線・半蔵門線 錦糸町駅 北口 徒歩6分",
       "areaSlug": "kinshicho",
       "areaName": "錦糸町"
     },
     {
       "name": "ピラティス&ジム 1to1 名古屋駅店",
-      "price": "パーソナルレッスン（料金は要問合せ）",
-      "trial": "体験レッスンあり",
+      "price": "都度払い 40分 6,600円〜（税込）",
+      "trial": "体験レッスン 無料（カウンセリング＋20分・通常5,500円・公式表示は2026年10月31日まで）",
       "officialUrl": "https://px.a8.net/svt/ejp?a8mat=45E3Q1+1E0H4Y+5G1I+5YJRM",
-      "address": "愛知県名古屋市中村区（名古屋駅1番出口徒歩3分）",
-      "access": "名古屋駅1番出口 徒歩3分",
+      "address": "愛知県名古屋市中村区椿町1-3 チサンマンション名古屋第一ビル8F Bフロア",
+      "access": "JR名古屋駅 太閤通口 徒歩3分",
       "areaSlug": "nagoya-station",
       "areaName": "名古屋駅"
     },
@@ -9583,8 +9582,8 @@
   "repilates": [
     {
       "name": "Repilates 飯田橋神楽坂店",
-      "price": "1回 3,300円〜",
-      "trial": "体験レッスンあり",
+      "price": "月3回 12,900円〜（公式表記・税表記なし）",
+      "trial": "体験レッスン 0円（通常3,300円・60分・初回1回）",
       "officialUrl": "https://px.a8.net/svt/ejp?a8mat=4B650J+3TJ72A+5FZU+5YJRM",
       "address": "東京都新宿区下宮比町1-4 飯田橋御幸ビル B1F",
       "access": "JR「飯田橋駅」東口 徒歩1分",
@@ -9593,8 +9592,8 @@
     },
     {
       "name": "Repilates 札幌円山店",
-      "price": "要問合せ",
-      "trial": "体験レッスン 3,300円",
+      "price": "月3回 12,900円〜（公式表記・税表記なし）",
+      "trial": "体験レッスン 0円（通常3,300円・60分・初回1回）",
       "officialUrl": "https://px.a8.net/svt/ejp?a8mat=4B650J+3TJ72A+5FZU+5YJRM",
       "address": "北海道札幌市中央区北１条西２０丁目３ 岸本ビル１F",
       "access": "円山エリア",
@@ -9603,21 +9602,21 @@
     },
     {
       "name": "Repilates 仙台泉大沢店",
-      "price": "3ヶ月通い放題 5,000円（キャンペーン）",
-      "trial": "無料体験会・内覧会受付中",
+      "price": "月3回 12,900円〜（公式表記・税表記なし）",
+      "trial": "体験レッスン 0円（通常3,300円・60分・初回1回）",
       "officialUrl": "https://px.a8.net/svt/ejp?a8mat=4B650J+3TJ72A+5FZU+5YJRM",
-      "address": "宮城県仙台市泉区大沢1丁目5-1 イオンタウン仙台泉大沢店",
+      "address": "宮城県仙台市泉区大沢1丁目5-1 イオンタウン仙台泉大沢 2F",
       "access": "イオンタウン仙台泉大沢内",
       "areaSlug": "sendai",
       "areaName": "仙台"
     },
     {
       "name": "Repilates 富士宮店",
-      "price": "要問合せ",
-      "trial": "体験レッスン あり（口コミ限定キャンペーン）",
+      "price": "月3回 12,900円〜（公式表記・税表記なし）",
+      "trial": "体験レッスン 0円（通常3,300円・60分・初回1回）",
       "officialUrl": "https://px.a8.net/svt/ejp?a8mat=4B650J+3TJ72A+5FZU+5YJRM",
-      "address": "静岡県富士宮市（詳細は公式サイト参照）",
-      "access": "富士宮市（詳細は公式サイト参照）",
+      "address": "静岡県富士宮市浅間町1-8 イオンモール富士宮 2F",
+      "access": "イオンモール富士宮 2F",
       "areaSlug": "shizuoka",
       "areaName": "静岡"
     }

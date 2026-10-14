@@ -119,16 +119,16 @@ const studios = [
     name: 'ピラティススタジオDEP 岡山店',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3U4MO2+5IM0+5YJRM',
     image: '/images/studios/pilates-studio-dep.webp',
-    price: 'パーソナルレッスン 90分 2,980円〜',
-    trial: '体験レッスン 2,980円',
+    price: 'ライト 月2回 14,800円〜（税込）',
+    trial: '初回体験 2,980円（税込・通常9,900円・LINE予約限定）',
     features: ['理学療法士監修', '完全個室', '国家資格者指導', '姿勢改善専門'],
     description: 'ピラティススタジオDEP 岡山店。完全個室＆国家資格者による指導。理学療法士が監修する完全個室のマシンピラティススタジオ。国家資格者による指導で、姿勢改善・猫背改善・腰痛改善に特化。一人ひとりの身体に合わせた丁寧な指導を提供。',
     access: '岡山市内（詳細は公式サイト参照）',
     address: '岡山県岡山市（詳細は公式サイト参照）',
     popularPlan: {
-      name: 'パーソナルレッスン',
-      description: '理学療法士監修の完全個室パーソナルレッスン。姿勢・腰痛改善に特化。',
-      price: '平日限定 パーソナルレッスン 90分 2,980円',
+      name: '月額会員プラン',
+      description: '50分のパーソナルレッスン（初回は90〜120分）。ライト月2回・スタンダード月4回・プレミアム月7回。',
+      price: 'ライト 14,800円／スタンダード 28,800円／プレミアム 47,600円（税込）',
     },
     options: [
       'パーソナルレッスン',
@@ -284,7 +284,7 @@ const faqs = [
   },
   {
     question: '岡山で一番安いピラティススタジオはどこですか？',
-    answer: 'ピラティススタジオDEP 岡山店が平日限定パーソナルレッスン90分2,980円で最もリーズナブルです。また、zen place pilates 岡山は月4回9,625円で通えます。体験レッスンはピラティスK 岡山店とCLUB PILATES 岡山店が無料で受けられます。',
+    answer: 'zen place pilates 岡山の月4回9,625円が最もリーズナブルです。パーソナルならピラティススタジオDEP 岡山店が月2回14,800円〜（税込）、初回体験は2,980円（税込・LINE予約限定）です。体験レッスンはピラティスK 岡山店とCLUB PILATES 岡山店が無料で受けられます。',
   },
   {
     question: '女性専用のピラティススタジオはありますか？',
@@ -434,7 +434,7 @@ export default async function OkayamaAreaPage() {
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回 2,980円〜</td>
+                    <td className="px-4 py-3">1回 9,900円〜</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
@@ -548,7 +548,7 @@ export default async function OkayamaAreaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates 岡山（月4回 9,625円〜）</li>
-                  <li className="text-warm-700">• ピラティススタジオDEP 岡山店（パーソナル 2,980円）</li>
+                  <li className="text-warm-700">• ピラティススタジオDEP 岡山店（初回体験 2,980円）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -615,7 +615,6 @@ export default async function OkayamaAreaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates 岡山（9,625円〜）</li>
-                  <li>• ピラティススタジオDEP（2,980円/回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">

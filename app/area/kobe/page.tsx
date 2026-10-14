@@ -56,16 +56,16 @@ const studios = [
     name: 'ピラティススタジオDEP 神戸店 Resho',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3U4MO2+5IM0+5YJRM',
     image: '/images/studios/pilates-studio-dep.webp',
-    price: 'パーソナルレッスン 90分 2,980円〜',
-    trial: '体験レッスン 2,980円',
+    price: 'ライト 月2回 17,000円〜（税込）',
+    trial: '初回体験 2,980円（税込・通常9,900円・LINE予約限定）',
     features: ['理学療法士監修', '完全個室', '姿勢改善専門', '腰痛改善'],
     description: 'ピラティススタジオDEP 神戸店 Resho。理学療法士が監修する完全個室のマシンピラティススタジオ。クリニック勤務経験を活かし、自分自身を救ってくれたピラティスの力を、今度は自分が伝えることで、沢山の方の生活を豊かに導きたいと強く想い、地元神戸の方へもDEPのサービスを届けたいとオープン。姿勢改善・猫背改善・腰痛改善に特化。',
     access: '神戸市内（詳細は公式サイト参照）',
     address: '兵庫県神戸市（詳細は公式サイト参照）',
     popularPlan: {
-      name: 'パーソナルレッスン',
-      description: '理学療法士監修の完全個室パーソナルレッスン。姿勢・腰痛改善に特化。',
-      price: '平日限定 パーソナルレッスン 90分 2,980円',
+      name: '月額会員プラン',
+      description: '50分のパーソナルレッスン（初回は90〜120分）。ライト月2回・スタンダード月4回・プレミアム月7回。',
+      price: 'ライト 17,000円／スタンダード 32,000円／プレミアム 54,600円（税込）',
     },
     options: [
       'パーソナルレッスン',
@@ -254,7 +254,7 @@ const faqs = [
   },
   {
     question: '神戸のピラティススタジオの料金相場は？',
-    answer: '神戸エリアのピラティススタジオの料金相場は、グループレッスンで月4回13,000円〜15,000円程度。パーソナルレッスンは1回2,980円〜12,000円と幅広い価格帯です。ピラティスK 神戸三宮店の月4回13,420円が一つの目安になります。',
+    answer: '神戸エリアのピラティススタジオの料金相場は、グループレッスンで月4回13,000円〜15,000円程度。パーソナルレッスンはピラティススタジオDEP 神戸店 Reshoの月2回17,000円〜（都度払いは1回12,000円）やLa pilatesのサブスク月1回12,000円〜が目安です。ピラティスK 神戸三宮店の月4回13,420円が一つの目安になります。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -413,11 +413,11 @@ export default async function KobeAreaPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">2,980円〜13,420円</td>
+                    <td className="px-4 py-3">13,420円〜</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回 2,980円〜12,000円</td>
+                    <td className="px-4 py-3">1回 12,000円〜</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
@@ -514,10 +514,10 @@ export default async function KobeAreaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  リーズナブルに始められるスタジオ。パーソナルでも月額2,980円〜と手頃な価格帯。
+                  まず体験で試しやすいスタジオ。DEPは初回体験2,980円（税込・LINE予約限定）。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• ピラティススタジオDEP 神戸店（90分 2,980円〜）</li>
+                  <li className="text-warm-700">• ピラティススタジオDEP 神戸店（初回体験 2,980円）</li>
                   <li className="text-warm-700">• La pilates 神戸元町店（月1回 12,000円〜）</li>
                   <li className="text-warm-700">• ピラティスK 神戸三宮店（月4回 13,420円〜）</li>
                 </ul>
@@ -582,10 +582,10 @@ export default async function KobeAreaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜5,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">単発〜月1回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  パーソナルレッスンを手頃な価格で体験。平日限定プランなどが狙い目。
+                  パーソナルレッスンを手頃な価格で体験。初回限定の体験料金が狙い目。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• DEP 神戸店（90分 2,980円〜）</li>
+                  <li>• DEP 神戸店 初回体験（2,980円）</li>
                   <li>• La pilates 体験（3,000円）</li>
                 </ul>
               </div>

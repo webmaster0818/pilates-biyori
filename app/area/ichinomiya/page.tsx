@@ -44,14 +44,14 @@ const studios = [
   {
     name: 'ピラティス&ジム 1to1 一宮店',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=45E3Q1+1E0H4Y+5G1I+5YJRM',
-    image: '/images/studios/pilates-gym-1to1.webp', rating: 4.6, reviewCount: 25,
-    price: '月4回 6,600円〜', trial: '体験レッスンあり', features: ['月4回6,600円〜','完全個室','女性専用','マシンピラティス×ゆるトレ'],
-    description: '女性専用完全個室のボディメイクスタジオ。マシンピラティスと「ゆるトレ」を融合。月額6,600円〜とリーズナブル',
-    access: '一宮市内（詳細は公式サイトでご確認ください）', address: '愛知県一宮市（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: '人気プラン', description: '女性専用完全個室のボディメイクスタジオ。マシンピラティスと「ゆるトレ」', price: '月4回 6,600円〜' },
-    options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
+    image: '/images/studios/pilates-gym-1to1.webp',
+    price: '都度払い 40分 6,600円〜（税込）', trial: '体験レッスン 無料（カウンセリング＋20分・通常5,500円・公式表示は2026年10月31日まで）', features: ['40分6,600円〜','完全個室','女性専用','マシンピラティス×ゆるトレ'],
+    description: '女性専用完全個室のボディメイクスタジオ。マシンピラティスと「ゆるトレ」を融合。都度払いは40分6,600円（税込）から、2ヶ月のダイエットコース（LINE食事指導つき）もあります',
+    access: 'JR尾張一宮駅・名鉄一宮駅 徒歩1分', address: '愛知県一宮市栄4-1-5 aaaビル6F Bフロア',
+    popularPlan: { name: 'ダイエットコース', description: '60分×16回（体験当日の入会で2回追加・計18回）、LINEでの食事指導つき。', price: '2ヶ月 179,685円（税込・計18回の場合）' },
+    options: ['体験レッスン無料（20分）', '都度払い 40分6,600円／60分9,900円／80分13,200円（税込・回数券として購入可）', 'ダイエットコース（2ヶ月）', '入会金無料'],
+    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性100%（女性専用）', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    basicInfo: { hours: '7:00〜23:00', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
     name: 'Pilates cocowa', rating: 4.5, reviewCount: 18,
@@ -163,7 +163,7 @@ export default function IchinomiyaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">料金重視で選ぶなら。</p>
-                <ul className="space-y-2 text-sm"><li className="text-warm-700">• Pilates cocowa（1回 1,200円〜）</li><li className="text-warm-700">• 1to1（月4回 6,600円〜）</li></ul>
+                <ul className="space-y-2 text-sm"><li className="text-warm-700">• Pilates cocowa（1回 1,200円〜）</li><li className="text-warm-700">• 1to1（40分 6,600円〜）</li></ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>

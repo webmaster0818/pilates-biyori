@@ -83,14 +83,14 @@ const studios = [
     name: 'ピラティススタジオDEP 小倉店',
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3U4MO2+5IM0+5YJRM',
     image: '/images/studios/dep-kokura.webp',
-    price: '1回 8,800円〜',
-    trial: '体験レッスン 5,500円',
+    price: 'ライト 月2回 14,800円〜（税込）',
+    trial: '初回体験 2,980円（税込・通常9,900円・LINE予約限定）',
     features: ['理学療法士在籍', '完全パーソナル', 'オーダーメイド', '医療系資格者'],
     description: '理学療法士・作業療法士などの医療系国家資格保持者が指導する完全パーソナルピラティススタジオ。身体のプロによるオーダーメイドプログラムで、姿勢改善や痛み改善に効果的。',
     access: 'JR「小倉駅」周辺',
     address: '福岡県北九州市小倉北区（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'パーソナルレッスン', description: '医療系資格者による完全マンツーマンレッスン。', price: '1回 8,800円〜（税込）' },
-    options: ['回数券あり', 'オーダーメイドプログラム', '姿勢分析あり', '体験レッスン 5,500円'],
+    popularPlan: { name: '月額会員プラン', description: '医療系資格者によるマンツーマンレッスン（50分）。ライト月2回・スタンダード月4回・プレミアム月7回。', price: 'ライト 14,800円／スタンダード 28,800円／プレミアム 47,600円（税込）' },
+    options: ['都度払い 1回 9,900円', 'オーダーメイドプログラム', '姿勢分析あり', '初回体験 2,980円（税込・LINE予約限定）'],
     userProfile: { ageRange: '30代〜60代が中心', genderRatio: '女性70% / 男性30%', purpose: ['姿勢改善', '痛み改善', 'リハビリ', '体幹強化'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'チェア', 'バレル', '各種ピラティス器具'] },
   },
@@ -203,7 +203,7 @@ export default function KitakyushuPage() {
                 <thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">種別</th><th className="px-4 py-3 text-left">料金相場</th></tr></thead>
                 <tbody>
                   <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4回）</td><td className="px-4 py-3">5,500円〜14,190円</td></tr>
-                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">パーソナルレッスン</td><td className="px-4 py-3">1回 8,800円〜</td></tr>
+                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">パーソナルレッスン</td><td className="px-4 py-3">1回 9,900円〜</td></tr>
                   <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">無料〜5,500円</td></tr>
                 </tbody>
               </table>
@@ -344,10 +344,10 @@ export default function KitakyushuPage() {
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">パーソナル</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">1回8,800円〜</p>
+                <p className="text-3xl font-bold text-warm-800 mb-4">1回9,900円〜</p>
                 <p className="text-sm text-warm-600 mb-4">専門家による個別指導。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• DEP（1回 8,800円〜）</li>
+                  <li>• DEP（1回 9,900円・月2回 14,800円〜）</li>
                   <li>• CLUB PILATES（1回 9,900円〜）</li>
                 </ul>
               </div>
