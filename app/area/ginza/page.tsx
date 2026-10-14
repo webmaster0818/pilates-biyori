@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/ginza/' },
-  title: '【2026年10月最新】ピラティス銀座おすすめ11選！人気スタジオの料金プランを簡単比較！',
-  description: '【2026年4月最新】銀座のおすすめピラティススタジオ11選を徹底比較。グループ月4回9,625円〜、パーソナル1回6,600円〜の料金相場、女性専用・マシン充実のスタジオ情報、選び方まで完全網羅。',
+  title: '【2026年10月最新】ピラティス銀座おすすめ10選！人気スタジオの料金プランを簡単比較！',
+  description: '【2026年4月最新】銀座のおすすめピラティススタジオ10選を徹底比較。グループ月4回9,625円〜の料金相場、女性専用・マシン充実のスタジオ情報、選び方まで完全網羅。',
   keywords: 'ピラティス,銀座,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -138,17 +138,6 @@ const studios = [
     address: '東京都中央区銀座1-20-5 銀座清和ビル6F',
   },
   {
-    name: 'ピラティス&ジム 1to1 銀座店',
-    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=45E3Q1+1E0H4Y+5G1I+5YJRM',
-    image: '/images/studios/pilates-gym-1to1.webp',
-    price: '1回 6,600円〜',
-    trial: '体験レッスン 無料',
-    features: ['パーソナル', 'マシンピラティス&ゆるトレ', '銀座一丁目駅徒歩1分', '入会金無料'],
-    description: 'マシンピラティスとゆるトレを組み合わせた女性のためのボディメイクスタジオ。銀座一丁目駅10番出口から徒歩1分。入会金無料で月額6,600円から通えるリーズナブルな料金設定。無料カウンセリング&体験レッスンあり。',
-    access: '有楽町線「銀座一丁目駅」10番出口 徒歩1分 / 日比谷線「銀座駅」A13出口 徒歩3分 / JR「有楽町駅」徒歩6分',
-    address: '東京都中央区銀座1-15-13 VORT銀座807',
-  },
-  {
     name: 'zen place pilates 銀座四丁目スタジオ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
@@ -215,7 +204,7 @@ const faqs = [
   },
   {
     question: '銀座のピラティススタジオの料金相場は？',
-    answer: '銀座エリアのピラティススタジオの料金相場は、グループレッスン月4回で9,000円〜16,000円程度。パーソナルレッスンは1回6,600円〜10,000円が相場です。体験レッスンは無料〜3,850円と幅があるので、まずは体験で試してみるのがおすすめです。',
+    answer: '銀座エリアのピラティススタジオの料金相場は、グループレッスン月4回で9,000円〜16,000円程度。パーソナルレッスンはBIRTH Pilates Studioが1回9,600円、Dr.ピラティスが月4回(45分)29,700円〜です。体験レッスンは無料〜3,850円と幅があるので、まずは体験で試してみるのがおすすめです。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -264,7 +253,7 @@ export default function GinzaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス銀座おすすめ11選！<br className="hidden md:block" />
+              【2026最新】ピラティス銀座おすすめ10選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -307,7 +296,7 @@ export default function GinzaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、銀座エリアでおすすめのピラティススタジオ11選をまとめました。
+              そこでこの記事では、銀座エリアでおすすめのピラティススタジオ10選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -346,7 +335,7 @@ export default function GinzaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              銀座のおすすめピラティススタジオ11選
+              銀座のおすすめピラティススタジオ10選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -370,7 +359,6 @@ export default function GinzaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（マット月4回 9,625円〜）</li>
-                  <li className="text-warm-700">• ピラティス&ジム 1to1（1回 6,600円〜）</li>
                   <li className="text-warm-700">• ピラティスK（月4回 13,420円）</li>
                 </ul>
               </div>
@@ -381,7 +369,6 @@ export default function GinzaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• BIRTH Pilates Studio（完全個室）</li>
-                  <li className="text-warm-700">• ピラティス&ジム 1to1（体験無料）</li>
                   <li className="text-warm-700">• zen place pilates（プライベートあり）</li>
                 </ul>
               </div>
@@ -462,7 +449,6 @@ export default function GinzaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• BIRTH Pilates（1回 9,600円）</li>
-                  <li>• 1to1 銀座（1回 6,600円〜）</li>
                 </ul>
               </div>
             </div>
@@ -491,7 +477,7 @@ export default function GinzaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  銀座エリアの料金相場は、グループレッスン月4回で9,000円〜16,000円程度、パーソナルは1回6,600円〜10,000円程度。無理なく継続できる予算を決めましょう。料金だけでなく、入会金やレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  銀座エリアの料金相場は、グループレッスン月4回で9,000円〜16,000円程度、パーソナルはBIRTH Pilates Studioで1回9,600円、Dr.ピラティスで月4回(45分)29,700円〜。無理なく継続できる予算を決めましょう。料金だけでなく、入会金やレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -534,8 +520,8 @@ export default function GinzaPage() {
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">パーソナルレッスン</h3>
-                  <p className="text-3xl font-bold text-warm-800 mb-2">6,600円〜9,600円/回</p>
-                  <p className="text-sm text-warm-600">ピラティス&ジム 1to1は1回6,600円〜と銀座エリアではリーズナブル。BIRTH Pilates Studioは完全個室で1回9,600円。zen placeのプライベートレッスンも人気です。</p>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">9,600円/回</p>
+                  <p className="text-sm text-warm-600">BIRTH Pilates Studioは完全個室で1回9,600円。Dr.ピラティスはマンツーマンで月4回(45分)29,700円〜。zen placeのプライベートレッスンも人気です。</p>
                 </div>
               </div>
               <div className="bg-white rounded-lg p-5 border border-warm-200">
@@ -568,7 +554,7 @@ export default function GinzaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">プライベートとグループのバランスを考えて</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  銀座エリアはプライベート（パーソナル）レッスンが充実しているのが特徴です。BIRTH Pilates StudioやBloom Pilates、ピラティス&ジム 1to1などパーソナル専門スタジオが豊富。最初はグループで基礎を身につけ、目的が明確になったらパーソナルに切り替えると効率的です。
+                  銀座エリアはプライベート（パーソナル）レッスンが充実しているのが特徴です。BIRTH Pilates StudioやBloom Pilates、Dr.ピラティスなどパーソナル対応のスタジオが豊富。最初はグループで基礎を身につけ、目的が明確になったらパーソナルに切り替えると効率的です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

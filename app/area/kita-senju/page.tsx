@@ -145,38 +145,6 @@ const studios = [
     },
   },
   {
-    name: 'Pilates & Gym 1to1 北千住店',
-    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=45E3Q1+1E0H4Y+5G1I+5YJRM',
-    image: '/images/studios/pilates-gym-1to1.webp',
-    price: 'パーソナル 1回 6,600円〜',
-    trial: '体験レッスンあり',
-    features: ['女性専用', '完全個室', '入会金無料', '食事プラン付き'],
-    description: '女性専用の完全個室パーソナルスタジオ。リフォーマーを使ったマシンピラティスと軽いトレーニングの組み合わせ。全国17店舗展開。1回6,600円〜、入会金無料。食事プランの提案もあり。',
-    access: '「北千住駅」周辺',
-    address: '東京都足立区北千住エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: {
-      name: 'パーソナルレッスン',
-      description: 'マシンピラティス＋トレーニングの完全個室パーソナル。',
-      price: '1回 6,600円〜（税込）',
-    },
-    options: [
-      '入会金無料',
-      '食事プラン提案',
-      '手ぶらで通える',
-      '回数券プランあり',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ダイエット', 'ボディメイク', '姿勢改善', '体幹強化'],
-    },
-    basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '不定休',
-      facilities: ['リフォーマー', 'トレーニング機器', '完全個室', '更衣室'],
-    },
-  },
-  {
     name: '24/7ピラティス 北千住店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=J11817X.1.B1620582.U1357808',
     image: '/images/studios/247-pilates.webp',
@@ -226,15 +194,15 @@ const faqs = [
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。1to1は食事プラン提案もあり。',
+    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。the SILKは手ぶらで無料体験可能。1to1も手ぶらOK。',
+    answer: '動きやすい服装と飲み物があればOK。the SILKは手ぶらで無料体験可能。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'zen place北千住とELEMENTは男性も通えます。the SILK・Pilates Mee・1to1は女性専用。',
+    answer: 'zen place北千住とELEMENTは男性も通えます。the SILK・Pilates Meeは女性専用。',
   },
   {
     question: '一番安いスタジオは？',
@@ -267,7 +235,7 @@ export default function KitaSenjuPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス北千住おすすめ6選！<br className="hidden md:block" />
+              【2026最新】ピラティス北千住おすすめ5選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -310,7 +278,7 @@ export default function KitaSenjuPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、北千住エリアでおすすめのピラティススタジオ6選をまとめました。
+              そこでこの記事では、北千住エリアでおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -350,7 +318,7 @@ export default function KitaSenjuPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              北千住のおすすめピラティススタジオ6選
+              北千住のおすすめピラティススタジオ5選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -382,7 +350,7 @@ export default function KitaSenjuPage() {
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回 5,500円〜6,600円</td>
+                    <td className="px-4 py-3">1回 5,500円〜</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
@@ -494,7 +462,6 @@ export default function KitaSenjuPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
                   <li className="text-warm-700">• Pilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）</li>
-                  <li className="text-warm-700">• 1to1（1回 6,600円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -504,7 +471,6 @@ export default function KitaSenjuPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ELEMENT（月額 5,500円〜）</li>
-                  <li className="text-warm-700">• 1to1（1回 6,600円〜）</li>
                 </ul>
               </div>
             </div>
@@ -565,13 +531,13 @@ export default function KitaSenjuPage() {
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 6,600円〜/回</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 27,000円〜/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">パーソナル</p>
                 <p className="text-sm text-warm-600 mb-4">
                   完全個室。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• 1to1（6,600円〜/回・入会金無料）</li>
+                  <li>• 24/7ピラティス（月4回 27,000円〜・入会金不要）</li>
                 </ul>
               </div>
             </div>

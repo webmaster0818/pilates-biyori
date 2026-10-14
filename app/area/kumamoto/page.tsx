@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kumamoto/' },
-  title: '【2026年10月最新】ピラティス熊本おすすめ5選！人気スタジオの料金プランを簡単比較！',
-  description: '熊本エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス熊本おすすめ4選！人気スタジオの料金プランを簡単比較！',
+  description: '熊本エリアのおすすめピラティススタジオ4選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,熊本,熊本市,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -147,38 +147,6 @@ const studios = [
       facilities: ['リフォーマー', 'プライベートルーム', '更衣室'],
     },
   },
-  {
-    name: 'Pilates & Gym 1to1 熊本店',
-    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=45E3Q1+1E0H4Y+5G1I+5YJRM',
-    image: '/images/studios/pilates-gym-1to1.webp',
-    price: 'パーソナル 1回6,600円〜',
-    trial: '体験レッスンあり',
-    features: ['女性専用', '完全個室', '入会金無料', '食事プラン付き'],
-    description: '女性専用の完全個室パーソナルピラティス&ジム。1回6,600円〜のリーズナブルなパーソナルレッスン。入会金無料。食事プラン付きで運動と食事の両面からサポート。手ぶらOK。',
-    access: '熊本市内（詳細は公式サイトでご確認ください）',
-    address: '熊本県熊本市エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: {
-      name: 'パーソナルレッスン',
-      description: '完全個室でのマンツーマンピラティス&ジム。食事プラン付き。',
-      price: '1回 6,600円〜（税込）',
-    },
-    options: [
-      '回数券プラン',
-      '食事サポートプラン',
-      '入会金無料',
-      '手ぶらOK（ウェア・タオル貸出）',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ダイエット', 'ボディメイク', '姿勢改善', '食事改善'],
-    },
-    basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '不定休',
-      facilities: ['リフォーマー', 'ジム設備', '完全個室', '更衣室', 'シャワー'],
-    },
-  },
 ]
 
 const faqs = [
@@ -192,7 +160,7 @@ const faqs = [
   },
   {
     question: '熊本のピラティスの料金相場は？',
-    answer: 'Rintosullは月4回8,800円。ピラティスKは月4回13,420円。CLUB PILATESは月4回14,190円。パーソナルは1回6,600円〜15,000円。',
+    answer: 'Rintosullは月4回8,800円。ピラティスKは月4回13,420円。CLUB PILATESは月4回14,190円。パーソナルはSTUDIO IVYが月2回15,000円〜。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -200,23 +168,23 @@ const faqs = [
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。ピラティスKは5パート別ボディメイク、1to1は食事プラン付きでダイエットに効果的。',
+    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。ピラティスKは5パート別ボディメイクでダイエットに効果的。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。CLUB PILATESとRintosullは無料体験。ピラティスKも体験0円。1to1は手ぶらOK。',
+    answer: '動きやすい服装と飲み物があればOK。CLUB PILATESとRintosullは無料体験。ピラティスKも体験0円。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'CLUB PILATES熊本駅前とSTUDIO IVY熊本大江は男性も通えます。ピラティスK・Rintosull・1to1は女性専用。',
+    answer: 'CLUB PILATES熊本駅前とSTUDIO IVY熊本大江は男性も通えます。ピラティスK・Rintosullは女性専用。',
   },
   {
     question: '一番安いスタジオは？',
-    answer: 'グループレッスンではRintosullが月4回8,800円で最安。パーソナルではPilates & Gym 1to1が1回6,600円〜でコスパが良い。',
+    answer: 'グループレッスンではRintosullが月4回8,800円で最安。',
   },
   {
     question: 'パーソナルレッスンを受けたい場合は？',
-    answer: 'STUDIO IVY（月2回15,000円〜）は完全プライベート空間。1to1（1回6,600円〜）は完全個室で食事プラン付き。CLUB PILATESもプライベートレッスンあり。',
+    answer: 'STUDIO IVY（月2回15,000円〜）は完全プライベート空間。CLUB PILATESもプライベートレッスンあり。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -241,7 +209,7 @@ export default function KumamotoPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス熊本おすすめ5選！<br className="hidden md:block" />
+              【2026最新】ピラティス熊本おすすめ4選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -284,7 +252,7 @@ export default function KumamotoPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、熊本エリアでおすすめのピラティススタジオ5選をまとめました。
+              そこでこの記事では、熊本エリアでおすすめのピラティススタジオ4選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -323,7 +291,7 @@ export default function KumamotoPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              熊本のおすすめピラティススタジオ5選
+              熊本のおすすめピラティススタジオ4選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -355,7 +323,7 @@ export default function KumamotoPage() {
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回 6,600円〜15,000円</td>
+                    <td className="px-4 py-3">月2回 15,000円〜</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
@@ -457,7 +425,6 @@ export default function KumamotoPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li>
                   <li className="text-warm-700">• ピラティスK（月4回 13,420円〜）</li>
-                  <li className="text-warm-700">• 1to1（1回 6,600円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -467,7 +434,6 @@ export default function KumamotoPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• STUDIO IVY（完全プライベート空間）</li>
-                  <li className="text-warm-700">• 1to1（完全個室・食事プラン付き）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -478,7 +444,6 @@ export default function KumamotoPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK（マシン専門）</li>
                   <li className="text-warm-700">• Rintosull（LAVA系列）</li>
-                  <li className="text-warm-700">• 1to1（完全個室）</li>
                 </ul>
               </div>
             </div>
@@ -538,13 +503,12 @@ export default function KumamotoPage() {
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">1回 6,600円〜</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">月2回 15,000円〜</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">パーソナル</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マンツーマンで高コスパ。
+                  マンツーマンで本格指導。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• 1to1（6,600円〜/回）</li>
                   <li>• STUDIO IVY（15,000円〜/月2回）</li>
                 </ul>
               </div>
@@ -574,7 +538,7 @@ export default function KumamotoPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  熊本はグループ月4回8,800円〜、パーソナル1回6,600円〜と幅広い価格帯。
+                  熊本はグループ月4回8,800円〜、パーソナル月2回15,000円〜と幅広い価格帯。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

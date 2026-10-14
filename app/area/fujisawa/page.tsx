@@ -88,38 +88,6 @@ const studios = [
     },
   },
   {
-    name: 'ピラティス&ジム 1to1 藤沢店',
-    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=45E3Q1+1E0H4Y+5G1I+5YJRM',
-    image: '/images/studios/pilates-gym-1to1.webp',
-    price: '1回 6,600円〜（40分）',
-    trial: '体験レッスン 5,500円',
-    features: ['女性専用', '完全個室', 'ハイブリッド型', '朝7時〜夜23時'],
-    description: '女性専用・完全個室のパーソナルジム。マシンピラティスとゆるトレを組み合わせた「ハイブリッド型」で効率的なボディメイク。朝7時から夜23時まで営業で忙しい方にも最適。レンタルウェア・シューズ無料。',
-    access: '藤沢駅から徒歩圏内',
-    address: '神奈川県藤沢市（詳細は公式サイトでご確認ください）',
-    popularPlan: {
-      name: '60分セッション',
-      description: 'マシンピラティス×ゆるトレのハイブリッドパーソナルトレーニング。',
-      price: '1回 9,900円（税込）',
-    },
-    options: [
-      '40分セッション（6,600円）',
-      '80分セッション（13,200円）',
-      'ダイエットコース 2ヶ月18回（179,685円・LINE栄養指導付き）',
-      'レンタルウェア・シューズ無料',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ダイエット', 'ボディメイク', '体力向上', '姿勢改善'],
-    },
-    basicInfo: {
-      hours: '7:00〜23:00',
-      closed: '不定休',
-      facilities: ['マシンピラティス器具', 'ウェイトトレーニング機器', '完全個室', 'カウンセリングルーム'],
-    },
-  },
-  {
     name: 'Pilates Mee 藤沢店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
@@ -263,7 +231,7 @@ const faqs = [
   },
   {
     question: '藤沢のピラティススタジオの料金相場は？',
-    answer: 'グループ月4回で9,600円〜15,300円程度。Pilates Meeは定額制で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）。パーソナルは1回6,600円〜が相場です。',
+    answer: 'グループ月4回で9,600円〜15,300円程度。Pilates Meeは定額制で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）。パーソナルはLa pilatesなら月1回12,000円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -291,7 +259,7 @@ const faqs = [
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'パーソナルは1to1やN pilates studioで効果的な指導を。グループはzen placeなら月4回9,625円から。まずは体験で両方試してみましょう。',
+    answer: 'パーソナルはN pilates studioやLa pilatesで効果的な指導を。グループはzen placeなら月4回9,625円から。まずは体験で両方試してみましょう。',
   },
 ]
 
@@ -312,7 +280,7 @@ export default function FujisawaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス藤沢おすすめ8選！<br className="hidden md:block" />
+              ピラティス藤沢おすすめ7選！<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！
             </h1>
           </div>
@@ -357,7 +325,7 @@ export default function FujisawaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、藤沢エリアでおすすめのピラティススタジオ8選をまとめました。
+              そこでこの記事では、藤沢エリアでおすすめのピラティススタジオ7選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -397,7 +365,7 @@ export default function FujisawaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              藤沢のおすすめピラティススタジオ8選
+              藤沢のおすすめピラティススタジオ7選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -433,7 +401,7 @@ export default function FujisawaPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">無料〜5,500円</td>
+                    <td className="px-4 py-3">無料〜500円</td>
                   </tr>
                 </tbody>
               </table>
@@ -540,7 +508,6 @@ export default function FujisawaPage() {
                   完全マンツーマンで効果的に。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• 1to1（ハイブリッド型）</li>
                   <li className="text-warm-700">• N pilates studio（子連れOK）</li>
                   <li className="text-warm-700">• La pilates（整体×ピラティス）</li>
                 </ul>
