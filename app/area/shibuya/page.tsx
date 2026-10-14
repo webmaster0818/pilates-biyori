@@ -83,13 +83,13 @@ const studios = [
     name: 'CLUB PILATES 渋谷',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
     image: '/images/studios/club-pilates.webp', reviewCount: 157,
-    price: '月4回 10,890円〜', trial: '無料体験',
-    features: ['最大12名グループ', '月4回10,890円〜', '無料体験あり', '世界的ブランド'],
-    description: 'アメリカ発の世界的ピラティスブランド。最大12名のグループレッスンで、レベル別にクラスが分かれているため初心者から上級者まで対応。月4回10,890円〜。無料体験レッスンあり。',
+    price: '料金は店舗により異なる（公式の店舗ページで確認）', trial: '無料体験',
+    features: ['最大12名グループ', '料金は店舗ごと', '無料体験あり', '世界的ブランド'],
+    description: 'アメリカ発の世界的ピラティスブランド。最大12名のグループレッスンで、レベル別にクラスが分かれているため初心者から上級者まで対応。料金は店舗により異なります。無料体験レッスンあり。',
     access: '渋谷駅 徒歩圏内',
     address: '東京都渋谷区（渋谷駅徒歩圏内）',
-    popularPlan: { name: '月4回プラン', description: '最大12名のグループレッスン。レベル別クラス。', price: '月4回 10,890円（税込）〜' },
-    options: ['月4回プラン（10,890円〜）', '月8回プラン', '通い放題プラン', '無料体験レッスン'],
+    popularPlan: { name: '月4回プラン', description: '最大12名のグループレッスン。レベル別クラス。', price: '店舗により異なる（公式の店舗ページで確認）' },
+    options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性75% / 男性25%', purpose: ['体幹強化', '姿勢改善', 'ボディメイク', '柔軟性向上'] },
     basicInfo: { hours: '平日 7:00〜21:00 / 土日祝 8:00〜18:00', closed: '不定休', facilities: ['リフォーマーマシン', '各種ピラティス器具', 'ロッカー', '更衣室'] },
   },
@@ -541,7 +541,7 @@ export default function ShibuyaPage() {
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
                   <p className="text-3xl font-bold text-warm-800 mb-2">8,800円〜12,980円</p>
-                  <p className="text-sm text-warm-600">最安はRintosull（LAVA系列）の月4回8,800円。the SILKは音楽×マシンの付加価値で12,980円。CLUB PILATESは10,890円で無料体験ありとバランスが良い価格帯です。</p>
+                  <p className="text-sm text-warm-600">最安はRintosull（LAVA系列）の月4回8,800円。the SILKは音楽×マシンの付加価値で12,980円。CLUB PILATESは月4回 10,890〜17,050円（店舗により異なる）で無料体験ありとバランスが良い価格帯です。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">パーソナルレッスン</h3>

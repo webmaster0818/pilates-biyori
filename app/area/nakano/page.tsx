@@ -149,23 +149,18 @@ const studios = [
     name: 'CLUB PILATES 中野',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
     image: '/images/studios/club-pilates.webp',
-    price: '月4回 10,890円〜',
+    price: '料金は店舗により異なる（公式の店舗ページで確認）',
     trial: '体験レッスンあり',
     features: ['世界最大級チェーン', '最大12名グループ', 'レベル別クラス', '中野エリア'],
-    description: '世界最大級のピラティスチェーン「CLUB PILATES」の中野スタジオ。最大12名のグループレッスンで月4回10,890円〜。リフォーマーをはじめ多彩なマシンを使用。レベル別クラスで初心者も安心。',
+    description: '世界最大級のピラティスチェーン「CLUB PILATES」の中野スタジオ。最大12名のグループレッスン。料金は店舗により異なります。リフォーマーをはじめ多彩なマシンを使用。レベル別クラスで初心者も安心。',
     access: 'JR中央線・総武線「中野駅」徒歩圏内',
     address: '東京都中野区中野（中野エリア）',
     popularPlan: {
       name: 'EFT4プラン（月4回）',
       description: '世界基準のグループマシンピラティス。月4回。',
-      price: '月4回 10,890円〜（税込）',
+      price: '店舗により異なる（公式の店舗ページで確認）',
     },
-    options: [
-      '月4回（10,890円〜）',
-      '月8回プラン',
-      '通い放題プラン',
-      '体験レッスン',
-    ],
+    options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
     userProfile: {
       ageRange: '20代〜50代',
       genderRatio: '女性80% / 男性20%',
@@ -752,7 +747,7 @@ export default function NakanoPage() {
                   本格マシンピラティスを体験。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• CLUB PILATES（月4回 10,890円〜）</li>
+                  <li>• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
                   <li>• zen place マシン（月4回 15,400円〜）</li>
                   <li>• STUDIO IVY（月2回 15,000円〜）</li>
                 </ul>

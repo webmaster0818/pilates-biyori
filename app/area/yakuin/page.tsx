@@ -57,7 +57,7 @@ const studios = [
     name: 'CLUB PILATES 福岡赤坂薬院店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
     image: '/images/studios/club-pilates.webp',
-    price: '月4回 11,990円〜',
+    price: '料金は店舗により異なる（公式の店舗ページで確認）',
     trial: '体験レッスンあり（公式サイトで確認）',
     features: ['世界最大級チェーン', '薬院大通駅徒歩9分', '8種類のマシン', 'レベル別クラス'],
     description: '世界最大級のピラティスチェーン「CLUB PILATES」の福岡赤坂薬院店。薬院大通駅から徒歩9分の立地。リフォーマーをはじめ8種類の本格マシンを使ったグループレッスンを提供。レベル1（初心者）からレベル2.5（上級）まで段階別のクラス構成で、自分のペースでステップアップ可能。海外研修を受けた質の高いインストラクターが在籍しています。',
@@ -66,14 +66,9 @@ const studios = [
     popularPlan: {
       name: 'EFTプラン（月4回）',
       description: '世界最大級チェーンの本格マシンピラティス。レベル別クラスで初心者でも安心。',
-      price: '月4回 11,990円〜（税込）',
+      price: '店舗により異なる（公式の店舗ページで確認）',
     },
-    options: [
-      'EFTプラン（月4回）',
-      'EFTプラン（月8回）',
-      'フリープラン（通い放題）',
-      '体験レッスンあり',
-    ],
+    options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
     userProfile: {
       ageRange: '20代〜40代が中心（全体の75%）',
       genderRatio: '女性80% / 男性20%',
@@ -160,7 +155,7 @@ const faqs = [
   },
   {
     question: '薬院のピラティスの料金相場は？',
-    answer: 'zen place pilates福岡薬院は月4回10,450円〜、CLUB PILATES福岡赤坂薬院店は月4回11,990円〜、edgy pilates studioは月4回12,100円〜、AR pilatesは都度利用で1回8,800円〜です。目的と頻度に合わせて選びましょう。',
+    answer: 'zen place pilates福岡薬院は月4回10,450円〜、CLUB PILATES福岡赤坂薬院店は月4回 10,890〜17,050円（店舗により異なる）、edgy pilates studioは月4回12,100円〜、AR pilatesは都度利用で1回8,800円〜です。目的と頻度に合わせて選びましょう。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -409,7 +404,7 @@ export default function YakuinPage() {
                 <p className="text-warm-600 text-sm mb-4">月額1万円台からスタート。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• CLUB PILATES（月4回 11,990円〜）</li>
+                  <li className="text-warm-700">• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
                   <li className="text-warm-700">• edgy pilates studio（月4回 12,100円〜）</li>
                 </ul>
               </div>
@@ -475,7 +470,7 @@ export default function YakuinPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">マシンピラティスで着実に成果。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• CLUB PILATES（11,990円〜/月4回）</li>
+                  <li>• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
                   <li>• edgy pilates studio（12,100円〜/月4回）</li>
                 </ul>
               </div>
@@ -567,7 +562,7 @@ export default function YakuinPage() {
               今回は薬院エリアのおすすめピラティススタジオ4選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              薬院は天神に隣接するおしゃれなカフェやレストランが並ぶ人気エリアで、西鉄天神大牟田線・地下鉄七隈線の2路線が利用できる交通至便な街です。全国展開のzen place pilates福岡薬院（月4回10,450円〜）、世界最大級チェーンのCLUB PILATES福岡赤坂薬院店（月4回11,990円〜）、女性専用・完全プライベートのAR pilates（都度利用8,800円〜）、マシンピラティス専門のedgy pilates studio（月4回12,100円〜）と、それぞれ特徴の異なるスタジオが揃っています。
+              薬院は天神に隣接するおしゃれなカフェやレストランが並ぶ人気エリアで、西鉄天神大牟田線・地下鉄七隈線の2路線が利用できる交通至便な街です。全国展開のzen place pilates福岡薬院（月4回10,450円〜）、世界最大級チェーンのCLUB PILATES福岡赤坂薬院店（月4回 10,890〜17,050円・店舗により異なる）、女性専用・完全プライベートのAR pilates（都度利用8,800円〜）、マシンピラティス専門のedgy pilates studio（月4回12,100円〜）と、それぞれ特徴の異なるスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               まずは体験1,000円のzen place pilates福岡薬院や、各スタジオの体験レッスンから試してみるのがおすすめです。ぜひこの記事を参考に、自分に合うピラティススタジオを見つけてくださいね。

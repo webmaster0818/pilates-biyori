@@ -120,7 +120,7 @@ const studios = [
     name: 'CLUB PILATES 新橋（近隣）',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
     image: '/images/studios/club-pilates.webp',
-    price: '月4回 10,890円〜',
+    price: '料金は店舗により異なる（公式の店舗ページで確認）',
     trial: '体験レッスン実施中',
     features: ['最大12名グループ', '世界的ブランド', '男性OK', 'レベル別クラス'],
     description: '世界最大級のピラティススタジオブランド。最大12名のグループレッスンで、リフォーマーをはじめとした多彩なマシンを使用。レベル別にクラスが分かれているので初心者も安心。新橋エリアからもアクセスしやすい。',
@@ -129,13 +129,9 @@ const studios = [
     popularPlan: {
       name: 'EFT4（月4回）',
       description: '最大12名のグループリフォーマーレッスン。月4回プラン。',
-      price: '月4回 10,890円（税込）〜',
+      price: '店舗により異なる（公式の店舗ページで確認）',
     },
-    options: [
-      'EFT4（月4回 10,890円〜）',
-      'EFT8（月8回）',
-      'Unlimited（通い放題）',
-    ],
+    options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
     userProfile: {
       ageRange: '20代〜50代が中心',
       genderRatio: '女性80% / 男性20%',
@@ -655,7 +651,7 @@ export default function ShimbashiPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">グループ</p>
                 <p className="text-sm text-warm-600 mb-4">マシン完備の大手スタジオ。グループレッスン月4回。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• CLUB PILATES（月4回 10,890円〜）</li>
+                  <li>• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
                   <li>• ピラティスK（月4回 11,220円〜）</li>
                   <li>• the SILK（月4回 12,980円〜）</li>
                 </ul>

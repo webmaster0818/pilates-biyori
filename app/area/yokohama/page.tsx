@@ -151,7 +151,7 @@ const studios = [
     name: 'CLUB PILATES 横浜店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=74527',
     image: '/images/studios/club-pilates.webp',
-    price: '月4回 13,090円〜',
+    price: '月4回 13,090円／月8回 24,090円／通い放題 37,290円（公式店舗ページ・税表記なし）',
     trial: '体験レッスン 無料（30分イントロクラス）',
     features: ['世界最大級', '15種類の器具', '横浜駅徒歩5分', '男性OK'],
     description: '世界最大級のマシンピラティスブランド。横浜駅きた西口から徒歩5分。最大12名の少人数制グループレッスンで、リフォーマー・スプリングボード・TRX・チェア・Bosuなど15種類のマシン・器具を1人1台完備。資格保持インストラクターのみ在籍し、初級から上級まで多様なクラスを提供。男性も受講可能です。',
@@ -160,14 +160,9 @@ const studios = [
     popularPlan: {
       name: '月4回プラン',
       description: '15種類の器具を使った本格グループレッスン。初級〜上級まで多彩なクラスから選択可能。',
-      price: '月4回 13,090円（税込）',
+      price: '月4回 13,090円（税表記なし）',
     },
-    options: [
-      '月8回プラン（24,090円）',
-      '通い放題プラン（37,290円）',
-      '入会金 5,500円（キャンペーン時無料）',
-      '無料イントロクラス（30分）',
-    ],
+    options: ['月8回 24,090円', '通い放題 37,290円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
     userProfile: {
       ageRange: '20代〜50代が中心（全体の75%）',
       genderRatio: '女性80% / 男性20%',
@@ -488,7 +483,7 @@ export default function YokohamaPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
                   <li className="text-warm-700">• lafimo 横浜東口店（月4回 10,560円〜）</li>
-                  <li className="text-warm-700">• CLUB PILATES（月4回 13,090円〜）</li>
+                  <li className="text-warm-700">• CLUB PILATES（月4回 13,090円）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -566,7 +561,7 @@ export default function YokohamaPage() {
                   マシン完備の大手スタジオ。グループレッスンが充実。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• CLUB PILATES（13,090円〜）</li>
+                  <li>• CLUB PILATES（月4回 13,090円）</li>
                   <li>• ピラティスK（13,420円〜）</li>
                   <li>• the SILK（13,280円〜）</li>
                 </ul>
@@ -647,7 +642,7 @@ export default function YokohamaPage() {
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
                   <p className="text-3xl font-bold text-warm-800 mb-2">9,625円〜15,300円</p>
-                  <p className="text-sm text-warm-600">zen place pilatesのマット月4回9,625円〜が最安。lafimoは月4回10,560円〜でSPA付き。CLUB PILATESは月4回13,090円〜、ピラティスKは月4回13,420円〜。the SILKは月4回15,280円〜＋施設利用料700円。</p>
+                  <p className="text-sm text-warm-600">zen place pilatesのマット月4回9,625円〜が最安。lafimoは月4回10,560円〜でSPA付き。CLUB PILATESは月4回 13,090円、ピラティスKは月4回13,420円〜。the SILKは月4回15,280円〜＋施設利用料700円。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">パーソナルレッスン</h3>

@@ -101,7 +101,7 @@ const studios = [
     name: 'CLUB PILATES 梅田',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
     image: '/images/studios/club-pilates.webp',
-    price: '月4回 14,190円〜',
+    price: '料金は店舗により異なる（公式の店舗ページで確認）',
     trial: '体験レッスン 無料',
     features: ['アメリカ発', 'グループ&プライベート', '梅田駅近', '初心者歓迎'],
     description: 'アメリカ発の世界最大級ピラティススタジオチェーン。梅田駅から徒歩3分。グループレッスンからプライベートレッスンまで幅広く対応。全米No.1のピラティスメソッドで、初心者から上級者まで満足できるプログラムを提供。',
@@ -480,7 +480,7 @@ export default function UmedaPage() {
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
                   <p className="text-3xl font-bold text-warm-800 mb-2">13,200円〜15,070円</p>
-                  <p className="text-sm text-warm-600">zen place pilates梅田の月4回13,200円〜が最安クラス。CLUB PILATESは月4回14,190円〜。ピラティスK・the SILKは月4回15,070円〜。BDC PILATESは1回3,850円〜の都度払いも可能です。</p>
+                  <p className="text-sm text-warm-600">zen place pilates梅田の月4回13,200円〜が最安クラス。CLUB PILATESは月4回 10,890〜17,050円（店舗により異なる）。ピラティスK・the SILKは月4回15,070円〜。BDC PILATESは1回3,850円〜の都度払いも可能です。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">パーソナル・プライベートレッスン</h3>

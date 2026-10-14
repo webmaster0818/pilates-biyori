@@ -56,7 +56,7 @@ const studios = [
     name: 'CLUB PILATES 巣鴨',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62404',
     image: '/images/studios/club-pilates.webp',
-    price: '月4回 13,090円〜',
+    price: '月4回 13,090円／月8回 24,090円／通い放題 37,290円（公式店舗ページ・税表記なし）',
     trial: '体験レッスン 無料（30分）',
     features: ['世界最大級', '4段階レベル分け', '最大12名少人数制', 'プライベートレッスンあり'],
     description: '世界各国で800店舗以上展開している世界最大級のマシンピラティス専門スタジオ。初心者から上級者まで幅広いレベルに対応できる4段階のレベル分けで、未経験でもステップアップしながら通えます。最大12名のグループレッスンを主体とし、インストラクターが会員様を直接フォローしながら進めるため、初心者でも楽しくレッスンを続けられます。',
@@ -65,14 +65,9 @@ const studios = [
     popularPlan: {
       name: 'EFT4 MEMBERSHIP（月4回）',
       description: '月4回通えるプラン。ライフバランスも考え、無理なく続けたい方に',
-      price: '13,090円/月（税込）+ 入会金5,500円 + 事務手数料2,200円',
+      price: '月4回 13,090円（税表記なし）',
     },
-    options: [
-      'EFT8 MEMBERSHIP（月8回）: 24,090円/月',
-      'UNLIMITED MEMBERSHIP（通い放題）: 37,290円/月',
-      'プライベートレッスンあり',
-      '当日入会で入会金無料キャンペーン',
-    ],
+    options: ['月8回 24,090円', '通い放題 37,290円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
     userProfile: {
       ageRange: '30代〜60代まで幅広い',
       genderRatio: '女性70% / 男性30%',
@@ -572,7 +567,7 @@ export default function SugamoAreaPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスミラー 巣鴨（月6回 11,000円）</li>
                   <li className="text-warm-700">• zen place pilates 池袋（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• CLUB PILATES 巣鴨（月4回 13,090円〜）</li>
+                  <li className="text-warm-700">• CLUB PILATES 巣鴨（月4回 13,090円）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -639,7 +634,7 @@ export default function SugamoAreaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスミラー（月6回 11,000円）</li>
-                  <li>• CLUB PILATES（月4回 13,090円〜）</li>
+                  <li>• CLUB PILATES（月4回 13,090円）</li>
                   <li>• zen place pilates（月4回 10,450円〜）</li>
                 </ul>
               </div>

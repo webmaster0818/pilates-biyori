@@ -120,7 +120,7 @@ const studios = [
     name: 'CLUB PILATES 浦和店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
     image: '/images/studios/club-pilates.webp',
-    price: '月4回 13,090円〜',
+    price: '月4回 14,300円／月8回 17,600円／通い放題 26,950円（公式店舗ページ・税表記なし）',
     trial: '体験レッスン 無料（30分イントロクラス）',
     features: ['世界最大級', '浦和駅徒歩5分', '15種類の器具', '男性OK'],
     description: '世界最大級のマシンピラティスブランド。浦和駅から徒歩5分。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類のマシン・器具を完備。8つのプログラムと4段階のレベル分け。',
@@ -129,14 +129,9 @@ const studios = [
     popularPlan: {
       name: 'グループ月4回プラン',
       description: '15種類の器具を使った本格グループレッスン。4段階のレベル分けで安心。',
-      price: '月4回 13,090円（税込）',
+      price: '月4回 14,300円（税表記なし）',
     },
-    options: [
-      '月8回プラン（24,090円）',
-      '通い放題プラン（37,290円）',
-      'プライベートレッスン（1回 9,900円〜）',
-      '入会金 5,500円',
-    ],
+    options: ['月8回 17,600円', '通い放題 26,950円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
     userProfile: {
       ageRange: '20代〜50代が中心',
       genderRatio: '女性80% / 男性20%',
@@ -571,7 +566,7 @@ export default function UrawaPage() {
                   充実の設備・少人数制。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• CLUB PILATES（13,090円〜）</li>
+                  <li>• CLUB PILATES（月4回 14,300円）</li>
                   <li>• the SILK（15,070円〜/月4回）</li>
                   <li>• Pilates Mee（19,800円〜/月4回）</li>
                 </ul>
@@ -584,7 +579,7 @@ export default function UrawaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（16,170円/通い放題）</li>
-                  <li>• CLUB PILATES（37,290円/通い放題）</li>
+                  <li>• CLUB PILATES（通い放題 26,950円）</li>
                 </ul>
               </div>
             </div>

@@ -162,10 +162,10 @@ const studios = [
     name: 'CLUB PILATES 下北沢（近隣）',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
     image: '/images/studios/club-pilates.webp',
-    price: '月4回 10,890円〜',
+    price: '料金は店舗により異なる（公式の店舗ページで確認）',
     trial: '体験レッスンあり',
     features: ['最大12名グループ', '世界最大級ブランド', 'マシンピラティス', '豊富なクラス'],
-    description: 'アメリカ発の世界最大級マシンピラティスブランド。最大12名のグループレッスンで、月4回10,890円〜。レベル別のクラスが豊富で初心者から上級者まで対応。下北沢近隣エリアで通いやすい。',
+    description: 'アメリカ発の世界最大級マシンピラティスブランド。最大12名のグループレッスンで、料金は店舗により異なります。レベル別のクラスが豊富で初心者から上級者まで対応。下北沢近隣エリアで通いやすい。',
     access: '下北沢駅から近隣エリア',
     address: '東京都世田谷区（下北沢近隣）',
   },
@@ -597,7 +597,7 @@ export default function ShimokitazawaPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（マット月4回 9,625円〜）</li>
                   <li>• URBAN CLASSIC PILATES（月4回 9,680円）</li>
-                  <li>• CLUB PILATES（月4回 10,890円〜）</li>
+                  <li>• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
                   <li>• ピラティスミラー（月6回 11,000円）</li>
                   <li>• ピラティスK（月4回 11,220円〜）</li>
                 </ul>

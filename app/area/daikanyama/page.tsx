@@ -46,14 +46,14 @@ const studios = [
     name: 'CLUB PILATES 代官山店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
     image: '/images/studios/club-pilates.webp',
-    price: '月4回 14,190円〜',
+    price: '月4回 14,190円／月8回 26,290円／通い放題 40,590円（公式店舗ページ・税表記なし）',
     trial: '体験レッスン 無料（30分イントロクラス）',
     features: ['世界最大級', '15種類の器具', '代官山駅徒歩1分', '男性OK'],
     description: '世界最大級のマシンピラティスブランド。代官山駅から徒歩1分の好立地。最大12名の少人数制グループレッスンで、リフォーマー・スプリングボード・TRX・チェアなど15種類のマシン・器具を1人1台完備。資格保持インストラクターのみ在籍し、初級から上級まで多様なクラスを提供。男性も受講可能。',
     access: '東急東横線「代官山駅」徒歩1分',
     address: '東京都渋谷区恵比寿西1-35-17 JMFビル代官山02 B1F',
-    popularPlan: { name: 'グループ月4回プラン', description: '15種類の器具を使った本格グループレッスン。初級〜上級まで多彩なクラスから選択可能。', price: '月4回 14,190円（税込）' },
-    options: ['月8回プラン（26,290円）', '通い放題プラン（40,590円）', '入会金 5,500円（キャンペーン時無料）', '無料イントロクラス（30分）'],
+    popularPlan: { name: 'グループ月4回プラン', description: '15種類の器具を使った本格グループレッスン。初級〜上級まで多彩なクラスから選択可能。', price: '月4回 14,190円（税表記なし）' },
+    options: ['月8回 26,290円', '通い放題 40,590円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
     userProfile: { ageRange: '20代〜50代が中心（全体の75%）', genderRatio: '女性80% / 男性20%', purpose: ['体幹強化', '姿勢改善', 'ボディメイク', 'パフォーマンス向上'] },
     basicInfo: { hours: '月〜金 7:00-21:00 / 土 7:00-16:00 / 日 8:00-17:30', closed: '不定休', facilities: ['リフォーマー', 'スプリングボード', 'TRX', 'チェア', 'Bosu'] },
   },
@@ -388,7 +388,7 @@ export default function DaikanyamaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜16,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">マシン完備のスタジオ。女性専用も充実。</p>
-                <ul className="text-sm text-warm-700 space-y-1"><li>• the SILK（13,280円〜）</li><li>• CLUB PILATES（14,190円〜）</li><li>• zen place リフォーマー（15,400円〜）</li></ul>
+                <ul className="text-sm text-warm-700 space-y-1"><li>• the SILK（13,280円〜）</li><li>• CLUB PILATES（月4回 14,190円）</li><li>• zen place リフォーマー（15,400円〜）</li></ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 30,000円〜</h3>

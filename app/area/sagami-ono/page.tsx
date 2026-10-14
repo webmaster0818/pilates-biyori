@@ -70,7 +70,7 @@ const studios = [
     name: 'CLUB PILATES 相模大野店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=70206',
     image: '/images/studios/club-pilates.webp',
-    price: '月4回 11,990円〜',
+    price: '月4回 11,990円／月8回 21,890円／通い放題 36,190円（公式店舗ページ・税表記なし）',
     trial: '体験レッスン 無料',
     features: ['世界最大級', '相模大野駅徒歩3分', '15種類の器具', '男性OK'],
     description: '世界最大級のマシンピラティスブランド。相模大野駅北口から徒歩3分。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類のマシン・器具を完備。8つのプログラムと4段階のレベル分け。',
@@ -79,14 +79,9 @@ const studios = [
     popularPlan: {
       name: 'グループ月4回プラン',
       description: '15種類の器具を使った本格グループレッスン。4段階のレベル分けで安心。',
-      price: '月4回 11,990円（税込）',
+      price: '月4回 11,990円（税表記なし）',
     },
-    options: [
-      '月8回プラン（21,890円）',
-      '通い放題プラン（36,190円）',
-      'プライベートレッスン（1回 9,900円〜）',
-      '入会金 5,500円',
-    ],
+    options: ['月8回 21,890円', '通い放題 36,190円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
     userProfile: {
       ageRange: '20代〜50代が中心',
       genderRatio: '女性80% / 男性20%',
@@ -228,7 +223,7 @@ const faqs = [
   },
   {
     question: '相模大野のピラティスの料金相場は？',
-    answer: 'グループ月4回で10,450円〜13,420円程度。zen placeが月4回10,450円〜で最もリーズナブル。roll UPは月4回11,000円〜、CLUB PILATESは月4回11,990円〜。',
+    answer: 'グループ月4回で10,450円〜13,420円程度。zen placeが月4回10,450円〜で最もリーズナブル。roll UPは月4回11,000円〜、CLUB PILATESは月4回 11,990円。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -571,7 +566,7 @@ export default function SagamiOnoPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（13,420円〜）</li>
-                  <li>• CLUB PILATES（14,190円〜）</li>
+                  <li>• CLUB PILATES（月4回 11,990円）</li>
                   <li>• BDC PILATES（14,520円〜）</li>
                 </ul>
               </div>
@@ -583,7 +578,7 @@ export default function SagamiOnoPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（16,170円/通い放題）</li>
-                  <li>• CLUB PILATES（28,490円/通い放題）</li>
+                  <li>• CLUB PILATES（通い放題 36,190円）</li>
                 </ul>
               </div>
             </div>

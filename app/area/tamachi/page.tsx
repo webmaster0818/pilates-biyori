@@ -89,7 +89,7 @@ const studios = [
     name: 'CLUB PILATES 田町店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=68438',
     image: '/images/studios/club-pilates.webp',
-    price: 'グループレッスン 月4回 11,990円〜',
+    price: '月4回 14,190円／月8回 26,290円／通い放題 40,590円（公式店舗ページ・税表記なし）',
     trial: '体験レッスン 無料',
     features: ['世界最大級', 'マシンピラティス', '田町駅徒歩6分', '男女共用'],
     description: '全世界800店舗以上展開の世界最大級マシンピラティススタジオ。リフォーマーをはじめ15種類以上の専用器具を完備。8つのプログラムと4段階のレベル分けで初心者から上級者まで対応。12名のグループレッスンで楽しく続けられる。',
@@ -98,14 +98,9 @@ const studios = [
     popularPlan: {
       name: 'グループレッスン（月4回）',
       description: '最大12名のグループレッスン。リフォーマーなど多彩な器具を使用。4レベル8プログラムから選択。',
-      price: '月4回 11,990円（税込）〜',
+      price: '月4回 14,190円（税表記なし）',
     },
-    options: [
-      'グループ月4回（11,990円〜）',
-      'グループ月8回（21,890円〜）',
-      'グループ通い放題（36,190円〜）',
-      'プライベートレッスン（別途料金）',
-    ],
+    options: ['月8回 26,290円', '通い放題 40,590円', '入会金 5,500円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
     userProfile: {
       ageRange: '20代〜50代が中心',
       genderRatio: '女性75% / 男性25%',
@@ -573,7 +568,7 @@ export default function TamachiPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 12,000〜21,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">グループ</p>
                 <p className="text-sm text-warm-600 mb-4">マシンピラティスのグループレッスン。</p>
-                <ul className="text-sm text-warm-700 space-y-1"><li>• CLUB PILATES（月4回 11,990円〜）</li><li>• the SILK（月3回 12,980円〜）</li><li>• zen place リフォーマー（月4回 15,400円〜）</li><li>• the SILK Full（通い放題 20,680円）</li></ul>
+                <ul className="text-sm text-warm-700 space-y-1"><li>• CLUB PILATES（月4回 14,190円）</li><li>• the SILK（月3回 12,980円〜）</li><li>• zen place リフォーマー（月4回 15,400円〜）</li><li>• the SILK Full（通い放題 20,680円）</li></ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 25,000円〜/月</h3>

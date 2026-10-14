@@ -98,7 +98,7 @@ const studios = [
     name: 'CLUB PILATES 立川',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
     image: '/images/studios/club-pilates.webp',
-    price: '月4回 14,190円〜',
+    price: '料金は店舗により異なる（公式の店舗ページで確認）',
     trial: '体験レッスン 無料',
     features: ['アメリカ発', 'グループ&プライベート', '立川駅近', '初心者歓迎'],
     description: 'アメリカ発の世界最大級ピラティススタジオチェーン。立川駅北口から徒歩3分。グループレッスンからプライベートレッスンまで幅広く対応。全米No.1のピラティスメソッドで、初心者から上級者まで満足できるプログラムを提供。',

@@ -66,13 +66,13 @@ const studios = [
     name: 'CLUB PILATES 蒲田店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=72997',
     image: '/images/studios/club-pilates.webp', reviewCount: 108,
-    price: '月4回 14,190円〜', trial: '体験レッスン 無料（30分イントロクラス）',
+    price: '月4回 13,090円／月8回 24,090円／通い放題 37,290円（公式店舗ページ・税表記なし）', trial: '体験レッスン 無料（30分イントロクラス）',
     features: ['世界最大級', '京急蒲田徒歩5分', '15種類の器具', '男性OK'],
     description: '世界最大級のマシンピラティスブランド。京急蒲田駅から徒歩5分、JR蒲田駅から徒歩7分。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類の器具を完備。8つのプログラムと4段階のレベル分け。',
     access: '京急本線「京急蒲田駅」徒歩5分 / JR「蒲田駅」徒歩7分',
     address: '東京都大田区蒲田4-21-2 コンフォリア蒲田 1F',
-    popularPlan: { name: 'グループ月4回プラン', description: '15種類の器具を使った本格グループレッスン。4段階のレベル分けで安心。', price: '月4回 14,190円（税込）' },
-    options: ['月8回プラン（25,190円）', '通い放題プラン（28,490円）', 'プライベートレッスン（1回 9,900円〜）', '入会金 5,500円'],
+    popularPlan: { name: 'グループ月4回プラン', description: '15種類の器具を使った本格グループレッスン。4段階のレベル分けで安心。', price: '月4回 13,090円（税表記なし）' },
+    options: ['月8回 24,090円', '通い放題 37,290円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['体幹強化', '姿勢改善', 'ボディメイク', 'パフォーマンス向上'] },
     basicInfo: { hours: '月〜金 7:00-21:00 / 土日 7:00-18:00', closed: '不定休', facilities: ['リフォーマー', 'スプリングボード', 'TRX', 'チェア', 'Bosu'] },
   },
@@ -437,7 +437,7 @@ export default function KamataPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• the SILK（12,980円〜）</li>
-                  <li>• CLUB PILATES（14,190円〜）</li>
+                  <li>• CLUB PILATES（月4回 13,090円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">

@@ -91,7 +91,7 @@ const studios = [
     name: 'CLUB PILATES 早稲田店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
     image: '/images/studios/club-pilates.webp',
-    price: '月4回 10,890円〜',
+    price: '料金は店舗により異なる（公式の店舗ページで確認）',
     trial: '体験レッスン 無料',
     features: ['世界展開ブランド', '男性OK', '多彩なマシン', '早稲田駅近'],
     description: '世界2,000店舗以上を展開するグローバルピラティスブランド。東京メトロ東西線「早稲田駅」から徒歩圏内。リフォーマーだけでなくスプリングボード、チェアなど多彩なマシンを使用。レベル1〜2.5のクラス分けで初心者から上級者まで対応。国際資格保有のインストラクターが指導。男性も利用可能。',
@@ -100,14 +100,9 @@ const studios = [
     popularPlan: {
       name: 'EFT4（月4回）',
       description: '月4回のグループマシンピラティス。リフォーマーを中心に多彩なマシンを使用するベーシックプラン。',
-      price: '月4回 10,890円（税込）〜',
+      price: '店舗により異なる（公式の店舗ページで確認）',
     },
-    options: [
-      'EFT4（月4回 10,890円〜）',
-      'EFT8（月8回 19,690円〜）',
-      'Unlimited（通い放題 29,590円〜）',
-      '体験レッスン無料',
-    ],
+    options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
     userProfile: {
       ageRange: '20代〜50代が中心',
       genderRatio: '女性75% / 男性25%',
@@ -705,7 +700,7 @@ export default function TakadanobabaPage() {
                   マシン完備の本格レッスンで効率的にボディメイク。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• CLUB PILATES（月4回 10,890円〜）</li>
+                  <li>• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
                   <li>• ピラティスK（月4回 11,220円〜）</li>
                   <li>• the SILK（月4回 15,070円〜）</li>
                   <li>• zen place リフォーマー（月4回 15,400円〜）</li>

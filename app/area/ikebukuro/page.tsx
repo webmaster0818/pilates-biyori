@@ -137,7 +137,7 @@ const studios = [
     name: 'CLUB PILATES 目白店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62402',
     image: '/images/studios/club-pilates.webp',
-    price: '月4回 14,190円〜',
+    price: '月4回 14,190円／月8回 26,290円／通い放題 40,590円（公式店舗ページ・税表記なし）',
     trial: '体験レッスン 無料（30分イントロクラス）',
     features: ['世界最大級', '目白駅徒歩1分', '15種類の器具', '男性OK'],
     description: '世界最大級のマシンピラティスブランド。目白駅から徒歩1分、池袋からも徒歩圏内。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類のマシン・器具を完備。8つのプログラムと4段階のレベル分け。',
@@ -146,14 +146,9 @@ const studios = [
     popularPlan: {
       name: 'グループ月4回プラン',
       description: '15種類の器具を使った本格グループレッスン。4段階のレベル分けで安心。',
-      price: '月4回 14,190円（税込）',
+      price: '月4回 14,190円（税表記なし）',
     },
-    options: [
-      '月8回プラン（25,190円）',
-      '通い放題プラン（28,490円）',
-      'プライベートレッスン（1回 9,900円〜）',
-      '入会金 5,500円',
-    ],
+    options: ['月8回 26,290円', '通い放題 40,590円', '入会金 5,500円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
     userProfile: {
       ageRange: '20代〜50代が中心',
       genderRatio: '女性80% / 男性20%',
@@ -495,7 +490,7 @@ export default function IkebukuroPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（13,420円〜）</li>
-                  <li>• CLUB PILATES（14,190円〜）</li>
+                  <li>• CLUB PILATES（月4回 14,190円）</li>
                   <li>• BDC PILATES（14,520円〜）</li>
                 </ul>
               </div>
@@ -507,7 +502,7 @@ export default function IkebukuroPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（16,170円/通い放題）</li>
-                  <li>• CLUB PILATES（28,490円/通い放題）</li>
+                  <li>• CLUB PILATES（通い放題 40,590円）</li>
                 </ul>
               </div>
             </div>
@@ -575,7 +570,7 @@ export default function IkebukuroPage() {
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
                   <p className="text-3xl font-bold text-warm-800 mb-2">10,450円〜15,070円</p>
-                  <p className="text-sm text-warm-600">zen place pilatesのマットグループ月4回10,450円〜が最安。ピラティスK 月4回13,420円〜、the SILK月4回15,070円〜、CLUB PILATES目白店が月4回14,190円〜。BDC PILATESは14,520円〜でダンスメソッド融合の少人数制レッスンが受けられます。</p>
+                  <p className="text-sm text-warm-600">zen place pilatesのマットグループ月4回10,450円〜が最安。ピラティスK 月4回13,420円〜、the SILK月4回15,070円〜、CLUB PILATES目白店が月4回 14,190円。BDC PILATESは14,520円〜でダンスメソッド融合の少人数制レッスンが受けられます。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">通い放題プラン</h3>

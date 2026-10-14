@@ -177,22 +177,18 @@ const studios = [
     name: 'CLUB PILATES 駒沢（近隣）',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
     image: '/images/studios/club-pilates.webp',
-    price: '月4回 10,890円〜',
+    price: '料金は店舗により異なる（公式の店舗ページで確認）',
     trial: '体験レッスンあり',
-    features: ['最大12名グループ', 'リフォーマー使用', '月4回 10,890円〜', '駒沢近隣'],
-    description: 'アメリカ発のマシンピラティス専門スタジオ。最大12名のグループレッスンで、リフォーマーを使った本格的なマシンピラティスを体験できます。月4回10,890円〜とグループならではのリーズナブルな料金。レベル別にクラスが分かれているので初心者も安心です。',
+    features: ['最大12名グループ', 'リフォーマー使用', '料金は店舗ごと', '駒沢近隣'],
+    description: 'アメリカ発のマシンピラティス専門スタジオ。最大12名のグループレッスンで、リフォーマーを使った本格的なマシンピラティスを体験できます。料金は店舗により異なります（公式の店舗ページで確認）。レベル別にクラスが分かれているので初心者も安心です。',
     access: '駒沢エリアからアクセス可能',
     address: '東京都世田谷区（駒沢近隣）',
     popularPlan: {
       name: '月4回プラン',
       description: '最大12名のグループリフォーマーレッスン。',
-      price: '月4回 10,890円〜（税込）',
+      price: '店舗により異なる（公式の店舗ページで確認）',
     },
-    options: [
-      '月4回プラン（10,890円〜）',
-      '月8回プラン（料金は店舗にお問い合わせ）',
-      'フリープラン（料金は店舗にお問い合わせ）',
-    ],
+    options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
     userProfile: {
       ageRange: '20代〜40代が中心',
       genderRatio: '女性80% / 男性20%',
@@ -378,7 +374,7 @@ export default function KomazawaPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
                   <li className="text-warm-700">• PILATES STUDIO noa（月2回 6,600円〜）</li>
-                  <li className="text-warm-700">• CLUB PILATES（月4回 10,890円〜）</li>
+                  <li className="text-warm-700">• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">

@@ -27,7 +27,7 @@ const studios = [
     name: 'CLUB PILATES 高円寺',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
     image: '/images/studios/club-pilates.webp',
-    price: '月4回 10,890円〜',
+    price: '月4回 11,990円／月8回 21,890円／通い放題 36,190円（公式店舗ページ・税表記なし）',
     trial: '体験レッスン 0円（30分）',
     features: ['世界最大級チェーン', '最大12名グループ', '男性OK', '体験0円'],
     description: '世界最大級のマシンピラティスブランド「CLUB PILATES」の高円寺店。最大12名の少人数グループレッスンで、リフォーマー・スプリングボード・TRX・チェアなど15種類の器具を完備。8つのプログラムと4段階のレベル分けで、初心者から上級者まで対応。インストラクター全員が500時間以上の研修を受けた有資格者で、質の高い指導を受けられます。30分の無料体験レッスンで気軽にお試し可能。',
@@ -36,14 +36,9 @@ const studios = [
     popularPlan: {
       name: 'グループレッスン月4回',
       description: '最大12名の少人数制。15種類の器具を使った本格グループレッスン。4段階のレベル分けで初心者も安心。',
-      price: '月4回 10,890円〜（税込）',
+      price: '月4回 11,990円（税表記なし）',
     },
-    options: [
-      '月4回プラン（10,890円〜）',
-      '月8回・通い放題プランあり',
-      '体験レッスン 0円（30分）',
-      '入会金あり（詳細は公式サイト参照）',
-    ],
+    options: ['月8回 21,890円', '通い放題 36,190円', '入会金 5,500円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
     userProfile: {
       ageRange: '20代〜50代が中心',
       genderRatio: '女性80% / 男性20%',
@@ -379,7 +374,7 @@ const faqs = [
   },
   {
     question: '高円寺のピラティスの料金相場は？',
-    answer: '最安はchocoZAPの月額3,278円（セルフ式）。スタジオレッスンではNATURAglamの月4回7,700円〜、CALDOの月4回8,250円〜が手頃。グループレッスンはzen place pilatesの月4回9,625円〜、CLUB PILATESの月4回10,890円〜。パーソナルはSTUDIO IVYの月2回15,000円〜、ELEMENTの月4回22,000円。目的と予算に合わせて選びましょう。',
+    answer: '最安はchocoZAPの月額3,278円（セルフ式）。スタジオレッスンではNATURAglamの月4回7,700円〜、CALDOの月4回8,250円〜が手頃。グループレッスンはzen place pilatesの月4回9,625円〜、CLUB PILATESの月4回 11,990円。パーソナルはSTUDIO IVYの月2回15,000円〜、ELEMENTの月4回22,000円。目的と予算に合わせて選びましょう。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -704,7 +699,7 @@ export default function KoenjiPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">週1回ペースで着実に成果。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• CLUB PILATES（10,890円〜/月4回）</li>
+                  <li>• CLUB PILATES（月4回 11,990円）</li>
                   <li>• Pilates Mee（19,800円/月4回）</li>
                   <li>• STUDIO IVY（15,000円〜/月2回）</li>
                 </ul>

@@ -144,7 +144,7 @@ const studios = [
     name: 'CLUB PILATES 二子玉川店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
     image: '/images/studios/club-pilates.webp',
-    price: '月4回 14,190円〜',
+    price: '料金は店舗により異なる（公式の店舗ページで確認）',
     trial: '体験レッスン 無料（当日入会で入会金無料）',
     features: ['世界最大級', '15種類の器具', '二子玉川駅徒歩3分', '男性OK'],
     description: '世界最大級のマシンピラティスブランド。二子玉川駅西口から徒歩3分。最大12名の少人数制グループレッスンで、15種類のマシン・器具を1人1台完備。8つのプログラムと4段階のレベルに分けたクラスから選択可能。',
@@ -153,14 +153,9 @@ const studios = [
     popularPlan: {
       name: 'グループ月4回プラン',
       description: '15種類の器具を使った本格グループレッスン。4段階のレベル分けで安心。',
-      price: '月4回 14,190円（税込）',
+      price: '店舗により異なる（公式の店舗ページで確認）',
     },
-    options: [
-      '月8回プラン（26,290円）',
-      '通い放題プラン（40,590円）',
-      '入会金 5,500円（体験当日入会で無料）',
-      '無料体験レッスン',
-    ],
+    options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
     userProfile: {
       ageRange: '20代〜50代が中心',
       genderRatio: '女性80% / 男性20%',
@@ -563,7 +558,7 @@ export default function FutakotamagawaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• the SILK（12,980円〜）</li>
-                  <li>• CLUB PILATES（14,190円〜）</li>
+                  <li>• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
                   <li>• BDC PILATES（15,400円〜）</li>
                 </ul>
               </div>

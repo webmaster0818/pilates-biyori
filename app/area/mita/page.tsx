@@ -88,7 +88,7 @@ const studios = [
     name: 'CLUB PILATES 田町店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=68438',
     image: '/images/studios/club-pilates.webp',
-    price: '月4回 14,190円〜',
+    price: '月4回 14,190円／月8回 26,290円／通い放題 40,590円（公式店舗ページ・税表記なし）',
     trial: '体験レッスン 0円（30分）',
     features: ['世界最大級チェーン', '15種類の器具', '男性OK', '体験0円'],
     description: '世界最大級のマシンピラティスブランド「CLUB PILATES」の田町店。最大12名の少人数グループレッスンで、リフォーマー・スプリングボード・TRX・チェアなど15種類の器具を完備。8つのプログラムと4段階のレベル分けで、初心者から上級者まで対応。インストラクター全員が500時間以上の研修を受けた有資格者。体験レッスンは0円（30分）で気軽にお試し可能。田町駅徒歩6分。',
@@ -97,14 +97,9 @@ const studios = [
     popularPlan: {
       name: 'グループレッスン月4回',
       description: '最大12名の少人数制。15種類の器具を使った本格グループレッスン。4段階のレベル分けで初心者も安心。',
-      price: '月4回 14,190円〜（税込）',
+      price: '月4回 14,190円（税表記なし）',
     },
-    options: [
-      'グループレッスン（月4回 14,190円〜）',
-      '月8回・通い放題プランあり',
-      '体験レッスン 0円（30分）',
-      '入会金あり（詳細は公式サイト参照）',
-    ],
+    options: ['月8回 26,290円', '通い放題 40,590円', '入会金 5,500円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
     userProfile: {
       ageRange: '20代〜50代が中心',
       genderRatio: '女性80% / 男性20%',
@@ -192,7 +187,7 @@ const faqs = [
   },
   {
     question: '三田のピラティスの料金相場は？',
-    answer: 'zen place pilatesは月4回10,450円〜、the SILKは月3回12,980円〜、CLUB PILATESは月4回14,190円〜、Pilates Studio B&Bはパーソナル1回8,250円〜。目的と頻度に合わせて選びましょう。',
+    answer: 'zen place pilatesは月4回10,450円〜、the SILKは月3回12,980円〜、CLUB PILATESは月4回 14,190円、Pilates Studio B&Bはパーソナル1回8,250円〜。目的と頻度に合わせて選びましょう。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -442,7 +437,7 @@ export default function MitaPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
                   <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
-                  <li className="text-warm-700">• CLUB PILATES（月4回 14,190円〜）</li>
+                  <li className="text-warm-700">• CLUB PILATES（月4回 14,190円）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -508,7 +503,7 @@ export default function MitaPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">週1回ペースで着実に成果。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• CLUB PILATES（14,190円/月4回）</li>
+                  <li>• CLUB PILATES（月4回 14,190円）</li>
                   <li>• zen place pilates（10,450円/月4回）</li>
                 </ul>
               </div>

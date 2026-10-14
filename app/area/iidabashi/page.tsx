@@ -59,7 +59,7 @@ const studios = [
     name: 'CLUB PILATES 神楽坂店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62397',
     image: '/images/studios/club-pilates.webp',
-    price: '月4回 14,190円〜',
+    price: '月4回 14,190円／月8回 26,290円／通い放題 40,590円（公式店舗ページ・税表記なし）',
     trial: '体験レッスン 無料（30分イントロクラス）',
     features: ['世界最大級', '神楽坂駅徒歩30秒', '15種類の器具', '男性OK'],
     description: '世界最大級のマシンピラティスブランド。神楽坂駅1A出口から徒歩30秒。最大12名の少人数制グループレッスンで、リフォーマー・スプリングボード・TRX・チェアなど15種類のマシン・器具を1人1台完備。8つのプログラムと4段階のレベル分け。',
@@ -68,14 +68,9 @@ const studios = [
     popularPlan: {
       name: 'グループ月4回プラン',
       description: '15種類の器具を使った本格グループレッスン。4段階のレベル分けで安心。',
-      price: '月4回 14,190円（税込）',
+      price: '月4回 14,190円（税表記なし）',
     },
-    options: [
-      '月8回プラン（25,190円）',
-      '通い放題プラン（28,490円）',
-      'プライベートレッスン（1回 9,900円〜）',
-      '入会金 5,500円',
-    ],
+    options: ['月8回 26,290円', '通い放題 40,590円', '入会金 5,500円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
     userProfile: {
       ageRange: '20代〜50代が中心',
       genderRatio: '女性80% / 男性20%',
@@ -549,7 +544,7 @@ export default function IidabashiPage() {
                   大手マシン専門。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• CLUB PILATES（14,190円〜）</li>
+                  <li>• CLUB PILATES（月4回 14,190円）</li>
                   <li>• the SILK（15,070円/月4回）</li>
                 </ul>
               </div>

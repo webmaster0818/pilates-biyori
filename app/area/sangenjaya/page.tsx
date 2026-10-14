@@ -204,22 +204,18 @@ const studios = [
     name: 'CLUB PILATES 三軒茶屋（近隣）',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62407',
     image: '/images/studios/club-pilates.webp',
-    price: '月4回 10,890円〜',
+    price: '月4回 13,090円／月8回 24,090円／通い放題 37,290円（公式店舗ページ・税表記なし）',
     trial: '体験レッスンあり',
-    features: ['最大12名グループ', 'リフォーマー使用', '月4回 10,890円〜', '三軒茶屋近隣'],
-    description: 'アメリカ発のマシンピラティス専門スタジオ。最大12名のグループレッスンで、リフォーマーを使った本格的なマシンピラティスを体験できます。月4回10,890円〜とグループならではのリーズナブルな料金。レベル別にクラスが分かれているので初心者も安心です。',
+    features: ['最大12名グループ', 'リフォーマー使用', '月4回13,090円', '三軒茶屋近隣'],
+    description: 'アメリカ発のマシンピラティス専門スタジオ。最大12名のグループレッスンで、リフォーマーを使った本格的なマシンピラティスを体験できます。月4回13,090円（公式店舗ページ）とグループならではのリーズナブルな料金。レベル別にクラスが分かれているので初心者も安心です。',
     access: '三軒茶屋駅から近隣エリア',
     address: '東京都世田谷区（三軒茶屋近隣）',
     popularPlan: {
       name: '月4回プラン',
       description: '最大12名のグループリフォーマーレッスン。',
-      price: '月4回 10,890円〜（税込）',
+      price: '月4回 13,090円（税表記なし）',
     },
-    options: [
-      '月4回プラン（10,890円〜）',
-      '月8回プラン（料金は店舗にお問い合わせ）',
-      'フリープラン（料金は店舗にお問い合わせ）',
-    ],
+    options: ['月8回 24,090円', '通い放題 37,290円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
     userProfile: {
       ageRange: '20代〜40代が中心',
       genderRatio: '女性80% / 男性20%',
@@ -646,7 +642,7 @@ export default function SangenjayaPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
                   <li className="text-warm-700">• URBAN CLASSIC PILATES（月4回 9,680円）</li>
-                  <li className="text-warm-700">• CLUB PILATES（月4回 10,890円〜）</li>
+                  <li className="text-warm-700">• CLUB PILATES（月4回 13,090円）</li>
                   <li className="text-warm-700">• NATURAglam（1回 1,071円〜）</li>
                 </ul>
               </div>
@@ -718,7 +714,7 @@ export default function SangenjayaPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates（月4回 9,625円〜）</li>
                   <li>• URBAN CLASSIC PILATES（月4回 9,680円）</li>
-                  <li>• CLUB PILATES（月4回 10,890円〜）</li>
+                  <li>• CLUB PILATES（月4回 13,090円）</li>
                   <li>• ピラティスK（月4回 11,220円〜）</li>
                 </ul>
               </div>

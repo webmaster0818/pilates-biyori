@@ -79,13 +79,13 @@ const studios = [
     name: 'CLUB PILATES 日吉店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
     image: '/images/studios/club-pilates.webp', reviewCount: 102,
-    price: '月4回 14,190円〜', trial: '体験レッスン 無料（30分イントロクラス）',
+    price: '料金は店舗により異なる（公式の店舗ページで確認）', trial: '体験レッスン 無料（30分イントロクラス）',
     features: ['世界最大級', '15種類の器具', '男性OK', '4段階レベル分け'],
     description: '世界最大級のマシンピラティスブランド。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類の器具を完備。8つのプログラムと4段階のレベル分け。',
     access: '東急東横線・市営グリーンライン「日吉駅」徒歩4分',
     address: '神奈川県横浜市港北区日吉エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'グループ月4回プラン', description: '15種類の器具を使った本格グループレッスン。4段階のレベル分けで安心。', price: '月4回 14,190円（税込）' },
-    options: ['月8回プラン（25,190円）', '通い放題プラン（28,490円）', 'プライベートレッスン（1回 9,900円〜）', '入会金 5,500円'],
+    popularPlan: { name: 'グループ月4回プラン', description: '15種類の器具を使った本格グループレッスン。4段階のレベル分けで安心。', price: '店舗により異なる（公式の店舗ページで確認）' },
+    options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性75% / 男性25%', purpose: ['体幹強化', '姿勢改善', 'ボディメイク', 'パフォーマンス向上'] },
     basicInfo: { hours: '月〜金 7:00-21:00 / 土日 7:00-18:00', closed: '不定休', facilities: ['リフォーマー', 'スプリングボード', 'TRX', 'チェア', 'Bosu'] },
   },
@@ -306,7 +306,7 @@ export default function HiyoshiPage() {
                 <p className="text-warm-600 text-sm mb-4">マンツーマンで確実に効果。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• YUZU（体験500円・1回8,800円〜）</li>
-                  <li className="text-warm-700">• CLUB PILATES（プライベート9,900円〜）</li>
+                  <li className="text-warm-700">• CLUB PILATES（プライベートレッスンあり・料金は店舗で確認）</li>
                 </ul>
               </div>
             </div>
@@ -349,7 +349,7 @@ export default function HiyoshiPage() {
                 <p className="text-sm text-warm-600 mb-4">大手チェーンの充実レッスン。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• the SILK（12,980円〜）</li>
-                  <li>• CLUB PILATES（14,190円〜）</li>
+                  <li>• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">

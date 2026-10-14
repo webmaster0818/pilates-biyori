@@ -559,7 +559,7 @@ export default function HachiojiPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（13,420円〜）</li>
-                  <li>• CLUB PILATES（14,190円〜）</li>
+                  <li>• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
                   <li>• BDC PILATES（14,520円〜）</li>
                 </ul>
               </div>
@@ -571,7 +571,7 @@ export default function HachiojiPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（16,170円/通い放題）</li>
-                  <li>• CLUB PILATES（28,490円/通い放題）</li>
+                  <li>• CLUB PILATES（通い放題 17,490〜40,590円・店舗により異なる）</li>
                 </ul>
               </div>
             </div>

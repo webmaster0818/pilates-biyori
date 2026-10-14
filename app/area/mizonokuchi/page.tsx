@@ -52,13 +52,13 @@ const studios = [
     name: 'CLUB PILATES 溝の口店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=67546',
     image: '/images/studios/club-pilates.webp', reviewCount: 122,
-    price: '月4回 14,190円〜', trial: '体験レッスン 無料（30分イントロクラス）',
+    price: '月4回 13,090円／月8回 24,090円／通い放題 37,290円（公式店舗ページ・税表記なし）', trial: '体験レッスン 無料（30分イントロクラス）',
     features: ['世界最大級', '15種類の器具', '男性OK', '4段階レベル分け'],
     description: '世界最大級のマシンピラティスブランド。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類の器具を完備。8つのプログラムと4段階のレベル分けで初心者から上級者まで対応。',
     access: '東急田園都市線「溝の口駅」徒歩4分',
     address: '神奈川県川崎市高津区溝口エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'グループ月4回プラン', description: '15種類の器具を使った本格グループレッスン。4段階のレベル分けで安心。', price: '月4回 14,190円（税込）' },
-    options: ['月8回プラン（25,190円）', '通い放題プラン（28,490円）', 'プライベートレッスン（1回 9,900円〜）', '入会金 5,500円'],
+    popularPlan: { name: 'グループ月4回プラン', description: '15種類の器具を使った本格グループレッスン。4段階のレベル分けで安心。', price: '月4回 13,090円（税表記なし）' },
+    options: ['月8回 24,090円', '通い放題 37,290円', '入会金 5,500円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性75% / 男性25%', purpose: ['体幹強化', '姿勢改善', 'ボディメイク', 'パフォーマンス向上'] },
     basicInfo: { hours: '月〜金 7:00-21:00 / 土日 7:00-18:00', closed: '不定休', facilities: ['リフォーマー', 'スプリングボード', 'TRX', 'チェア', 'Bosu'] },
   },
@@ -94,7 +94,7 @@ const studios = [
 const faqs = [
   { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！溝の口エリアのスタジオはほとんどが初心者歓迎。Rintosullは87%以上が初心者、CLUB PILATESは4段階のレベル分けがあります。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。溝の口はマシン専門スタジオが特に充実しています。' },
-  { question: '溝の口のピラティスの料金相場は？', answer: 'グループ月4回で8,800円〜14,190円程度。Rintosullが月4回8,800円で最安級。通い放題ならpilates K 16,170円、CLUB PILATES 28,490円。' },
+  { question: '溝の口のピラティスの料金相場は？', answer: 'グループ月4回で8,800円〜14,190円程度。Rintosullが月4回8,800円で最安級。通い放題ならpilates K 16,170円、CLUB PILATES 通い放題 37,290円。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。通い放題プランなら好きなだけ通えます。' },
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。pilates K・Rintosull・CLUB PILATESは無料体験。zen placeはグループ1,000円で体験できます。' },
@@ -244,7 +244,7 @@ export default function MizonokuchiPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              溝の口は東急田園都市線・JR南武線が交差する交通の要衝で、大手チェーンのスタジオが充実しています。Rintosullの月4回8,800円から、CLUB PILATESの通い放題28,490円まで幅広い選択肢があり、予算に合わせて選びやすいエリアです。近隣の<Link href="/area/futakotamagawa/" className="text-warm-700 underline hover:text-warm-900">二子玉川</Link>や<Link href="/area/musashikosugi/" className="text-warm-700 underline hover:text-warm-900">武蔵小杉</Link>エリアと比較検討する方も多いです。
+              溝の口は東急田園都市線・JR南武線が交差する交通の要衝で、大手チェーンのスタジオが充実しています。Rintosullの月4回8,800円から、CLUB PILATESの通い放題 37,290円まで幅広い選択肢があり、予算に合わせて選びやすいエリアです。近隣の<Link href="/area/futakotamagawa/" className="text-warm-700 underline hover:text-warm-900">二子玉川</Link>や<Link href="/area/musashikosugi/" className="text-warm-700 underline hover:text-warm-900">武蔵小杉</Link>エリアと比較検討する方も多いです。
             </p>
           </div>
         </section>
@@ -411,7 +411,7 @@ export default function MizonokuchiPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• pilates K（13,420円〜）</li>
-                  <li>• CLUB PILATES（14,190円〜）</li>
+                  <li>• CLUB PILATES（月4回 13,090円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -422,7 +422,7 @@ export default function MizonokuchiPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• pilates K Full（16,170円）</li>
-                  <li>• CLUB PILATES（28,490円）</li>
+                  <li>• CLUB PILATES（通い放題 37,290円）</li>
                 </ul>
               </div>
             </div>

@@ -54,14 +54,14 @@ const studios = [
     name: 'CLUB PILATES 仙川',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62399',
     image: '/images/studios/club-pilates.webp',
-    price: '月4回 11,990円〜',
+    price: '月4回 13,090円／月8回 24,090円／通い放題 37,290円（公式店舗ページ・税表記なし）',
     trial: '体験レッスンあり',
     features: ['全米最大級', '4段階レベル分け', '多彩なマシン', '男女共用'],
     description: '全米に600店舗以上展開する世界最大級のマシンピラティス専門スタジオ。4段階（初級〜上級）のレベル分けで初心者から上級者まで対応。リフォーマーに加え、TRX・バレル・チェアなど多彩なマシンを使ったバリエーション豊かなレッスンが特徴。',
     access: '京王線「仙川駅」から徒歩圏内',
     address: '東京都調布市仙川町（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'マンスリー4', description: '世界最大級のピラティスチェーン。4段階レベル分けで安心。', price: '月4回 11,990円〜（税込）' },
-    options: ['マンスリー4（月4回 11,990円〜）', 'マンスリー8（月8回）', 'アンリミテッド（通い放題）', '体験レッスンあり'],
+    popularPlan: { name: 'マンスリー4', description: '世界最大級のピラティスチェーン。4段階レベル分けで安心。', price: '月4回 13,090円（税表記なし）' },
+    options: ['月8回 24,090円', '通い放題 37,290円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['体幹強化', 'ボディメイク', '姿勢改善', 'パフォーマンス向上'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'TRX', 'バレル', 'チェア', '更衣室', 'ロッカー'] },
   },
@@ -121,7 +121,7 @@ const studios = [
 const faqs = [
   { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！仙川エリアのスタジオは初心者歓迎。CLUB PILATES仙川は4段階のレベル分けで安心、ピラティスミラー仙川は最大7名の少人数制、URBAN CLASSIC PILATESは予約不要で気軽に始められます。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットピラティスは自重エクササイズ、マシンピラティスはリフォーマーなどの専用マシンを使用。仙川エリアはマシンピラティス対応スタジオが充実しており、CLUB PILATESはリフォーマー以外にTRXやバレルも使えます。' },
-  { question: '仙川のピラティスの料金相場は？', answer: 'URBAN CLASSICは月4回8,580円で最安級。ピラティスミラーは月6回11,000円、CLUB PILATESは月4回11,990円〜、zen placeは月4回13,200円〜。仙川は選択肢が多く、予算に合わせやすいエリアです。' },
+  { question: '仙川のピラティスの料金相場は？', answer: 'URBAN CLASSICは月4回8,580円で最安級。ピラティスミラーは月6回11,000円、CLUB PILATESは月4回 13,090円、zen placeは月4回13,200円〜。仙川は選択肢が多く、予算に合わせやすいエリアです。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめ。URBAN CLASSICの通い放題プラン（12,980円）なら毎日でも通えます。最低2〜3ヶ月は継続しましょう。' },
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がります。STUDIO Uのトレーニング×ピラティスの複合プログラムなら効率的にボディメイクが可能です。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。zen placeは体験1,000円でウェアレンタルあり。ピラティスミラーは体験2,200円。まずは気軽に体験してみましょう。' },
@@ -222,7 +222,7 @@ export default function SengawaPage() {
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">目的別おすすめスタジオ</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3><p className="text-warm-600 text-sm mb-4">月額1万円以下からスタート。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• URBAN CLASSIC（月4回 8,580円）</li><li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li><li className="text-warm-700">• CLUB PILATES（月4回 11,990円〜）</li></ul></div>
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3><p className="text-warm-600 text-sm mb-4">月額1万円以下からスタート。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• URBAN CLASSIC（月4回 8,580円）</li><li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li><li className="text-warm-700">• CLUB PILATES（月4回 13,090円）</li></ul></div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">本格派・上級者</h3><p className="text-warm-600 text-sm mb-4">世界基準の本格レッスン。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• CLUB PILATES（4段階レベル・多彩なマシン）</li><li className="text-warm-700">• zen place（解剖学ベース・全店利用可）</li><li className="text-warm-700">• STUDIO U（パーソナル×トレーニング）</li></ul></div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">忙しい方・時短</h3><p className="text-warm-600 text-sm mb-4">短時間で効率的に。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• URBAN CLASSIC（予約不要・30分）</li><li className="text-warm-700">• ピラティスミラー（30分レッスン）</li><li className="text-warm-700">• STUDIO U（週1回50分で結果）</li></ul></div>
             </div>
@@ -236,7 +236,7 @@ export default function SengawaPage() {
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">予算別の料金相場</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center"><h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円/月</h3><p className="text-3xl font-bold text-warm-800 mb-4">月4回</p><p className="text-sm text-warm-600 mb-4">手軽に始めたい方に。</p><ul className="text-sm text-warm-700 space-y-1"><li>• URBAN CLASSIC（8,580円/月4回）</li></ul></div>
-              <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50"><div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div><h3 className="text-lg font-bold text-warm-900 mb-2">予算 11,000〜12,000円/月</h3><p className="text-3xl font-bold text-warm-800 mb-4">月4〜6回</p><p className="text-sm text-warm-600 mb-4">週1〜2回で着実に成果。</p><ul className="text-sm text-warm-700 space-y-1"><li>• ピラティスミラー（11,000円/月6回）</li><li>• CLUB PILATES（11,990円〜/月4回）</li></ul></div>
+              <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50"><div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div><h3 className="text-lg font-bold text-warm-900 mb-2">予算 11,000〜12,000円/月</h3><p className="text-3xl font-bold text-warm-800 mb-4">月4〜6回</p><p className="text-sm text-warm-600 mb-4">週1〜2回で着実に成果。</p><ul className="text-sm text-warm-700 space-y-1"><li>• ピラティスミラー（11,000円/月6回）</li><li>• CLUB PILATES（月4回 13,090円）</li></ul></div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center"><h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000円〜/月</h3><p className="text-3xl font-bold text-warm-800 mb-4">月4回〜通い放題</p><p className="text-sm text-warm-600 mb-4">本格派の方に。</p><ul className="text-sm text-warm-700 space-y-1"><li>• URBAN CLASSIC通い放題（12,980円）</li><li>• zen place（13,200円〜/月4回）</li></ul></div>
             </div>
           </div>

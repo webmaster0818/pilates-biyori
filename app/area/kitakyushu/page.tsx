@@ -24,14 +24,14 @@ const studios = [
     name: 'CLUB PILATES 小倉店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
     image: '/images/studios/club-pilates.webp',
-    price: '月4回 14,190円〜',
+    price: '料金は店舗により異なる（公式の店舗ページで確認）',
     trial: '体験レッスン 無料（30分）',
     features: ['世界最大級', '15種類の器具', '男性OK', '4段階レベル'],
     description: '世界最大級のマシンピラティスブランド。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類の器具を完備。8つのプログラムと4段階のレベル分けで初心者から上級者まで対応。',
     access: 'JR「小倉駅」周辺',
     address: '福岡県北九州市小倉北区（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'グループ月4回プラン', description: '15種類の器具を使った本格グループレッスン。', price: '月4回 14,190円（税込）' },
-    options: ['月8回プラン（26,290円）', '通い放題プラン（40,590円）', 'プライベートレッスン（1回 9,900円〜）', '入会金 5,500円'],
+    popularPlan: { name: 'グループ月4回プラン', description: '15種類の器具を使った本格グループレッスン。', price: '店舗により異なる（公式の店舗ページで確認）' },
+    options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['体幹強化', '姿勢改善', 'ボディメイク', 'パフォーマンス向上'] },
     basicInfo: { hours: '月〜金 7:00-21:00 / 土日 7:00-18:00', closed: '不定休', facilities: ['リフォーマー', 'スプリングボード', 'TRX', 'チェア', 'Bosu'] },
   },
@@ -112,14 +112,14 @@ const studios = [
 
 const faqs = [
   { question: '北九州でピラティス初心者におすすめのスタジオは？', answer: 'Rintosull小倉店は会員の87%以上が初心者で、月4回8,800円とリーズナブル。CLUB PILATESは4段階のレベル分けで段階的にステップアップできます。' },
-  { question: '北九州のピラティスの料金相場は？', answer: 'スターピラティスは月額5,500円〜と最安級。Rintosullは月4回8,800円、pilates Kは月4回13,420円、CLUB PILATESは月4回14,190円が目安です。' },
+  { question: '北九州のピラティスの料金相場は？', answer: 'スターピラティスは月額5,500円〜と最安級。Rintosullは月4回8,800円、pilates Kは月4回13,420円、CLUB PILATESは月4回 10,890〜17,050円（店舗により異なる）が目安です。' },
   { question: 'マシンピラティスとマットピラティスの違いは？', answer: 'マシンピラティスはリフォーマー等の専用マシンを使い、負荷調整しやすく初心者にもおすすめ。マットピラティスは自重中心のエクササイズです。' },
   { question: '男性が通えるスタジオはありますか？', answer: 'CLUB PILATES小倉店とピラティススタジオDEP、Heart&Body Studio Leadは男性も受講可能です。' },
   { question: '体験レッスンは何を持っていけばいい？', answer: '動きやすい服装、飲み物、フェイスタオル、滑り止め付き靴下があればOK。CLUB PILATESとRintosullは無料体験を実施中。' },
   { question: '車で通えるスタジオはありますか？', answer: 'pilates Kイオンモール八幡東店は駐車場無料。スターピラティスはセントシティ地下駐車場3時間無料。他のスタジオも周辺にコインパーキングがあります。' },
   { question: 'どのくらいの頻度で通えばいい？', answer: '初心者は週1〜2回がおすすめ。慣れてきたら週2〜3回に増やすと効果を実感しやすいです。最低2〜3ヶ月の継続が大切。' },
   { question: '小倉駅から近いスタジオは？', answer: 'スターピラティスは小倉駅直結。CLUB PILATES・Rintosullも小倉駅周辺にあり、徒歩圏内でアクセス良好です。' },
-  { question: 'パーソナルレッスンが受けられるスタジオは？', answer: 'ピラティススタジオDEPは理学療法士による完全マンツーマンレッスン。CLUB PILATESもプライベートレッスン（1回9,900円〜）を提供しています。' },
+  { question: 'パーソナルレッスンが受けられるスタジオは？', answer: 'ピラティススタジオDEPは理学療法士による完全マンツーマンレッスン。CLUB PILATESもプライベートレッスンを提供しています（料金は店舗で確認）。' },
   { question: 'ピラティスはどのくらいで効果が出る？', answer: '個人差はありますが、2ヶ月を過ぎた頃から効果を実感する方が多いです。姿勢改善は比較的早く、ボディメイクは3〜6ヶ月の継続が目安です。' },
 ]
 
@@ -339,7 +339,7 @@ export default function KitakyushuPage() {
                 <p className="text-sm text-warm-600 mb-4">大手マシン専門。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• pilates K（13,420円〜）</li>
-                  <li>• CLUB PILATES（14,190円〜）</li>
+                  <li>• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -348,7 +348,7 @@ export default function KitakyushuPage() {
                 <p className="text-sm text-warm-600 mb-4">専門家による個別指導。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• DEP（1回 9,900円・月2回 14,800円〜）</li>
-                  <li>• CLUB PILATES（1回 9,900円〜）</li>
+                  <li>• CLUB PILATES（プライベートレッスンあり・料金は店舗で確認）</li>
                 </ul>
               </div>
             </div>
