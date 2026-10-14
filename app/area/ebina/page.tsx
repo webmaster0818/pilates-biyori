@@ -17,8 +17,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/ebina/' },
-  title: '【2026年10月最新】海老名のピラティススタジオおすすめ5選｜無料体験・料金で比較',
-  description: '海老名のピラティススタジオ5社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
+  title: '【2026年10月最新】海老名のピラティススタジオおすすめ4選｜無料体験・料金で比較',
+  description: '海老名のピラティススタジオ4社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
   keywords: 'ピラティス,海老名,神奈川,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -146,38 +146,6 @@ const studios = [
       facilities: ['スタジオ', 'ジム', 'プール', 'サウナ', 'ロッカー'],
     },
   },
-  {
-    name: 'zen place pilates 海老名',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 10,450円〜',
-    trial: 'グループ体験 1,000円',
-    features: ['男性OK', '全国相互利用', 'マット＆マシン', '20年の実績'],
-    description: 'ピラティス専門の大手スタジオ。マットグループ・マシングループ・プライベートの3タイプのレッスン。全国150店舗以上で相互利用可能。男性も利用OK。体験当日入会で入会金無料。',
-    access: '小田急小田原線・相鉄本線「海老名駅」徒歩5分',
-    address: '神奈川県海老名市中央1丁目',
-    popularPlan: {
-      name: 'フリープラン（マットグループ）',
-      description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。',
-      price: '月額 16,940円（税込）',
-    },
-    options: [
-      '月4回プラン（10,450円〜）',
-      'マシングループ体験（3,000円）',
-      'プライベートレッスン（体験 9,900円）',
-      '体験当日入会で入会金無料',
-    ],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性75% / 男性25%',
-      purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
-    },
-    basicInfo: {
-      hours: '平日 10:00〜21:00 / 土日祝 9:00〜18:00',
-      closed: '不定休',
-      facilities: ['リフォーマー', 'チェア', 'マット', 'ロッカー'],
-    },
-  },
 ]
 
 const faqs = [
@@ -191,11 +159,11 @@ const faqs = [
   },
   {
     question: '海老名駅から近いスタジオはどこですか？',
-    answer: 'URBAN CLASSIC PILATES海老名店が徒歩4分。zen placeとRINNEが徒歩5分。ルネサンスが徒歩7分。Mellunaは徒歩10分です。',
+    answer: 'URBAN CLASSIC PILATES海老名店が徒歩4分。RINNEが徒歩5分。ルネサンスが徒歩7分。Mellunaは徒歩10分です。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'URBAN CLASSIC PILATES、RINNE、ルネサンス、zen placeは男性も利用可能。Melluna Pilatesは女性専用です。',
+    answer: 'URBAN CLASSIC PILATES、RINNE、ルネサンスは男性も利用可能。Melluna Pilatesは女性専用です。',
   },
   {
     question: '子連れで通えるスタジオはありますか？',
@@ -207,7 +175,7 @@ const faqs = [
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。zen placeは両方体験できます。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -240,7 +208,7 @@ export default function EbinaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス海老名おすすめ5選！<br className="hidden md:block" />
+              ピラティス海老名おすすめ4選！<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！
             </h1>
           </div>
@@ -272,7 +240,7 @@ export default function EbinaPage() {
             <p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">「海老名で人気のピラティススタジオを知りたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
-            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、海老名エリアでおすすめのピラティススタジオ5選をまとめました。</p>
+            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、海老名エリアでおすすめのピラティススタジオ4選をまとめました。</p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
               <ul className="space-y-2 text-warm-700">
@@ -293,7 +261,7 @@ export default function EbinaPage() {
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">海老名のおすすめピラティススタジオ5選</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">海老名のおすすめピラティススタジオ4選</h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
                 <StudioCard key={index} studio={studio} index={index} />
@@ -406,7 +374,6 @@ export default function EbinaPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• URBAN CLASSIC（月4回 7,800円〜）</li>
                   <li className="text-warm-700">• ルネサンス（月額 8,800円〜）</li>
-                  <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -422,7 +389,6 @@ export default function EbinaPage() {
                 <p className="text-warm-600 text-sm mb-4">手軽に通えるスタジオ。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• URBAN CLASSIC（徒歩4分・予約不要）</li>
-                  <li className="text-warm-700">• zen place（徒歩5分）</li>
                   <li className="text-warm-700">• RINNE（徒歩5分）</li>
                 </ul>
               </div>
@@ -465,9 +431,7 @@ export default function EbinaPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回〜通い放題</p>
                 <p className="text-sm text-warm-600 mb-4">本格レッスンで効果実感。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place（10,450円〜/月4回）</li>
                   <li>• URBAN CLASSIC（14,080円/通い放題）</li>
-                  <li>• zen place（16,940円/通い放題）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -507,7 +471,7 @@ export default function EbinaPage() {
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span>
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
-                <p className="text-warm-600 leading-relaxed">URBAN CLASSIC PILATESは0円体験。zen placeは1,000円。まずは気になるスタジオで体験してみましょう。</p>
+                <p className="text-warm-600 leading-relaxed">URBAN CLASSIC PILATESは0円体験。まずは気になるスタジオで体験してみましょう。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4">

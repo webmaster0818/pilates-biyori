@@ -3699,16 +3699,6 @@
       "areaName": "阿佐ヶ谷"
     },
     {
-      "name": "zen place pilates 朝霞台",
-      "price": "月4回 10,450円〜",
-      "trial": "グループ体験 1,000円",
-      "officialUrl": "https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808",
-      "address": "埼玉県朝霞市東弁財1丁目",
-      "access": "東武東上線「朝霞台駅」/ JR武蔵野線「北朝霞駅」徒歩3分",
-      "areaSlug": "asaka",
-      "areaName": "朝霞"
-    },
-    {
       "name": "zen place pilates 浅草",
       "price": "月4回 10,450円〜",
       "trial": "体験レッスン 1,000円",
@@ -3797,16 +3787,6 @@
       "access": "東急東横線・目黒線「田園調布駅」徒歩3分",
       "areaSlug": "denenchofu",
       "areaName": "田園調布"
-    },
-    {
-      "name": "zen place pilates 海老名",
-      "price": "月4回 10,450円〜",
-      "trial": "グループ体験 1,000円",
-      "officialUrl": "https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808",
-      "address": "神奈川県海老名市中央1丁目",
-      "access": "小田急小田原線・相鉄本線「海老名駅」徒歩5分",
-      "areaSlug": "ebina",
-      "areaName": "海老名"
     },
     {
       "name": "zen place pilates 恵比寿",
@@ -4710,16 +4690,6 @@
       "access": "MIYASHITA PARK正面 5F",
       "areaSlug": "shibuya",
       "areaName": "渋谷"
-    },
-    {
-      "name": "zen place pilates 志木",
-      "price": "月4回 10,450円〜",
-      "trial": "グループ体験 1,000円",
-      "officialUrl": "https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808",
-      "address": "埼玉県新座市東北2丁目",
-      "access": "東武東上線「志木駅」徒歩4分",
-      "areaSlug": "shiki",
-      "areaName": "志木"
     },
     {
       "name": "zen place pilates 新橋（銀座近隣）",

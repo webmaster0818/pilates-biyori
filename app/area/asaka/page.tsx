@@ -52,38 +52,6 @@ const studios = [
     },
   },
   {
-    name: 'zen place pilates 朝霞台',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 10,450円〜',
-    trial: 'グループ体験 1,000円',
-    features: ['男性OK', '全国相互利用', 'マット＆マシン', '20年の実績'],
-    description: 'ピラティス専門の大手スタジオ。朝霞台エリアで展開。マットグループ・マシングループ・プライベートの3タイプのレッスン。全国150店舗以上で相互利用可能。体験当日入会で入会金無料。',
-    access: '東武東上線「朝霞台駅」/ JR武蔵野線「北朝霞駅」徒歩3分',
-    address: '埼玉県朝霞市東弁財1丁目',
-    popularPlan: {
-      name: 'フリープラン（マットグループ）',
-      description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。',
-      price: '月額 16,940円（税込）',
-    },
-    options: [
-      '月4回プラン（10,450円〜）',
-      'マシングループ体験（3,000円）',
-      'プライベートレッスン（体験 9,900円）',
-      '体験当日入会で入会金無料',
-    ],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性75% / 男性25%',
-      purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
-    },
-    basicInfo: {
-      hours: '平日 10:00〜21:00 / 土日祝 9:00〜18:00',
-      closed: '不定休',
-      facilities: ['リフォーマー', 'チェア', 'マット', 'ロッカー'],
-    },
-  },
-  {
     name: 'ジュリピラティススタジオ',
     image: '/images/studios/a-core-pilates.webp',
     price: '1回 8,800円〜',
@@ -180,19 +148,19 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも朝霞のスタジオに通えますか？',
-    answer: '大丈夫です！朝霞エリアのスタジオはほとんどが初心者歓迎。SOELUはヨガとの複合型で運動初心者でも始めやすく、zen placeは段階的なレベル設定で安心してステップアップできます。',
+    answer: '大丈夫です！朝霞エリアのスタジオはほとんどが初心者歓迎。SOELUはヨガとの複合型で運動初心者でも始めやすいスタジオです。',
   },
   {
     question: '朝霞のピラティスの料金相場はどのくらいですか？',
-    answer: 'グループレッスンは月額7,678円〜10,450円程度。SOELUが月額7,678円〜で最もリーズナブル。zen placeは月4回10,450円〜。パーソナルはよしだ接骨院が1回5,500円〜と手頃です。',
+    answer: 'グループレッスンはSOELUが月額7,678円〜、ルネサンスが月額8,800円〜。パーソナルはよしだ接骨院が1回5,500円〜と手頃です。',
   },
   {
     question: '朝霞駅と朝霞台駅、どちらが便利ですか？',
-    answer: 'SOELUは朝霞駅徒歩2分。zen place、ルネサンス、よしだ接骨院は朝霞台駅（北朝霞駅）から徒歩2〜3分。東武東上線利用なら両駅とも便利ですが、JR武蔵野線利用なら北朝霞駅近くのスタジオがおすすめです。',
+    answer: 'SOELUは朝霞駅徒歩2分。ルネサンス、よしだ接骨院は朝霞台駅（北朝霞駅）から徒歩2〜3分。東武東上線利用なら両駅とも便利ですが、JR武蔵野線利用なら北朝霞駅近くのスタジオがおすすめです。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'zen place朝霞台、ルネサンス北朝霞24、よしだ接骨院は男性も利用可能。SOELU朝霞店とジュリピラティスは女性専用です。',
+    answer: 'ルネサンス北朝霞24、よしだ接骨院は男性も利用可能。SOELU朝霞店とジュリピラティスは女性専用です。',
   },
   {
     question: '車で通えるスタジオはありますか？',
@@ -237,7 +205,7 @@ export default function AsakaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス朝霞おすすめ5選！<br className="hidden md:block" />
+              【2026最新】ピラティス朝霞おすすめ4選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -280,7 +248,7 @@ export default function AsakaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、朝霞エリアでおすすめのピラティススタジオ5選をまとめました。
+              そこでこの記事では、朝霞エリアでおすすめのピラティススタジオ4選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -319,7 +287,7 @@ export default function AsakaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              朝霞のおすすめピラティススタジオ5選
+              朝霞のおすすめピラティススタジオ4選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -375,13 +343,13 @@ export default function AsakaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">「朝霞駅」と「朝霞台駅」を間違えないように注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  朝霞エリアには「朝霞駅」（東武東上線）と「朝霞台駅」（東武東上線）/ 「北朝霞駅」（JR武蔵野線）の2つのエリアがあります。SOELUは朝霞駅近く、zen placeやルネサンスは朝霞台駅近くです。初回訪問時は最寄り駅を間違えないよう事前に確認しておきましょう。
+                  朝霞エリアには「朝霞駅」（東武東上線）と「朝霞台駅」（東武東上線）/ 「北朝霞駅」（JR武蔵野線）の2つのエリアがあります。SOELUは朝霞駅近く、ルネサンスは朝霞台駅近くです。初回訪問時は最寄り駅を間違えないよう事前に確認しておきましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">総合型か専門型かで通い方が変わる</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  朝霞エリアにはピラティス専門スタジオ（zen place）、複合型（SOELU、ルネサンス）、医療系（よしだ接骨院、ジュリピラティス）と異なるタイプがあります。ピラティスだけに集中したいか、ヨガやプールも楽しみたいかで選び方が変わります。
+                  朝霞エリアには複合型（SOELU、ルネサンス）と医療系（よしだ接骨院、ジュリピラティス）の異なるタイプがあります。ピラティスだけに集中したいか、ヨガやプールも楽しみたいかで選び方が変わります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -451,7 +419,6 @@ export default function AsakaPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• SOELU（月額 7,678円〜）</li>
                   <li className="text-warm-700">• ルネサンス（月額 8,800円〜）</li>
-                  <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -527,9 +494,7 @@ export default function AsakaPage() {
                   充実の設備で本格レッスン。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place（10,450円〜/月4回）</li>
                   <li>• SOELU プレミアム（13,178円/使い放題）</li>
-                  <li>• zen place フリー（16,940円/通い放題）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -578,7 +543,7 @@ export default function AsakaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  SOELUは無料体験。zen placeはグループ体験1,000円。まずは気になるスタジオで体験してみましょう。
+                  SOELUは無料体験。まずは気になるスタジオで体験してみましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
