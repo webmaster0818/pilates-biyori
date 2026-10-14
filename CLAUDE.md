@@ -837,3 +837,16 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - 朝霞4選／海老名4選／志木4選／四ツ谷2選（2店が四ツ谷所在でない旨を明記）。zen place 全国173店舗。本番で削除店0件・N選とカード数一致を確認。Indexing API 5/5（4エリア＋/brands/zen-place/）
 - ⚠️tier3 エリアの sitemap lastmod は固定値 2026-06-07 のまま（git 最終コミット日方式は主要エリアのみ）
 - brands-aggregate.json は CLUB PILATES もしも設置分が未再集計（再集計すると officialUrl 約40件が変わる）
+
+## 2026-10-14 12:00 成長ルーチン: DEP・1to1・Repilates 新設／CLUB PILATES 口コミ評判強化／1to1 公式に無い5店を外す
+- **新設** /brands/dep/・/brands/1to1/・/brands/repilates/（brands.ts 追加＝動的ルート。aggregate-brands-202607.py と lib/brandLink.ts の両方に判定追加。Repilates は `(?<!ジュ)リピラティス`＝「ジュリピラティス」誤爆防止）。title/h1「店舗一覧・店舗数・料金・口コミ評判」
+  - 公式（2026-10-14 確認）: DEP=dep-pilates.com・株式会社DEP・**一覧57店舗/36都道府県**（PR TIMES の「55店舗目」と不一致を caveat に）・月定額はエリアA/B/S（会員ページで税込）・体験9,900→2,980円（LINE予約限定・全額返金保証）・入会金/年会費/退会費0・解約は決済前月まで・休会は記載なし・資格は「理学療法士**または**作業療法士」／1to1=azure-collaboration.co.jp・株式会社アジュールコラボレーション・**一覧16店舗**（横浜はページ残存だが一覧/予約フォームに無し＝含めず）・女性専用・手稲のみマット・体験5,500→0円（10/31まで表示）・ダイエットコース179,685円（18回）・都度40/60/80分 6,600/9,900/13,200円（税込）・**退会/休会/返金の規定は公式に無い**／Repilates=repilates.jp・repilates株式会社・**営業中27店舗＋予定12**・女性限定・16歳以上・料金に税表記なし（特商法「店舗により異なる」）・退会は前々月10日まで来店・休会最長3か月月1,000円（税込）・キャンセル期限は店舗別（規約とFAQで一部不一致）
+  - 口コミテーマ節: DEP 9店舗921件／1to1 4店舗62件／Repilates 4店舗645件（STUDIO_REVIEWS から）。Repilates 飯田橋は「地名不一致」で照合落ち→公式の飯田橋店は1つなので手動照合OK＋要約追加。**DEP 神戸店 Resho の照合を取消**（Google は三宮店Resho＝公式に神戸店・三宮店が別にある）
+  - `BrandInfo.hideListedPriceTable`（掲載値の頻度表を出さない。掲載値にキャンペーン表記や不正確な値が混じるため）・`checkedAt`（公式確認日をh1下に表示。ビルド日で自動更新しない）。brandページCTA下に A8 0.gif 計測
+  - DEP 仙台店 Calm の表記ゆれ（「ピラティススタジオ DEP」）を統一→掲載16店舗
+- **CLUB PILATES**: 公式88店舗・都道府県別（18都府県）、店舗別料金例（西船橋 EFT4 11,990／雪が谷大塚 13,090、通い放題 20,790〜37,290＝税表記なし）、退会（前月10日・日割り返金なし・途中解約手数料）・休会（年4か月・1,500円税別）・キャンセル（12時間前／通い放題1,000・1,500円税別）・無料体験30分の内訳、口コミテーマ節（46店舗7,499件・良5／注意5）・FAQ7
+- **店舗ページ→親**: BrandAreaReceiver の口コミ要約直後に「{ブランド}の口コミ・評判まとめ（N店舗・M件）」→ `/brands/{slug}/#reviews`（BrandReviewDigest に id=reviews、BrandReviewThemes に id=review-themes）。BDC表参道等すべての店舗ページに効く
+- **1to1 公式に無い5店を外した**（コーディネーター指示）: 銀座・北千住・藤が丘・藤沢・熊本（公式 /studios/<slug>/ 404・WP pages API に無し）。N選 藤が丘6→5・藤沢8→7・銀座11→10・北千住6→5・熊本5→4、FAQ・目的別/予算別・相場の言及も除去（bbfe2258）
+  - ⚠️ 残: 一宮店カード「月4回 6,600円〜」は公式（都度40分6,600円）と形態が違う／Repilates 飯田橋カードの options・料金・仙台「3ヶ月通い放題5,000円（キャンペーン）」等、エリアページ側の掲載値は未修正（指定外）
+- ASP規約: affiliate-knowledge・asp-restricted-analysis に DEP/1to1/Repilates/CLUB PILATES の記載なし＝**規約未確認**
+- source bbfe2258・2a869efe・f363a5d4（sitemap 586URL）／deploy 4717096fe4・precheck ✅ 588ページ・本番 11URL 200・/api/contact POST 400・Indexing API 11/11
