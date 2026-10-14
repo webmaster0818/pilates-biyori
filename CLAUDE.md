@@ -831,3 +831,9 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 
 ### 2026-10-13 YOURBODY 西荻窪店 掲載依頼（フォーム）
 - 相互リンク依頼の返信メールを MediaXAI 承認後に送信（info@yourbody.jp・Gmail thread 1a134b304fd38188）。掲載は先方の承認＋情報回答待ち。対象ページ /area/nishi-ogikubo/（現在6選）
+
+### 2026-10-14 公式に存在しない4店を外す（10/13 既定案の実行）
+- zen place 朝霞台・海老名・志木／STUDIO IVY 四谷三丁目店を削除。wip/remove-unverified-stores-1013（20575e76）を main にマージ（376b8dc4・衝突は felmat 差替後の削除対象 officialUrl のみ）→ sitemap 04b9f2c0 → deploy 8781e94909
+- 朝霞4選／海老名4選／志木4選／四ツ谷2選（2店が四ツ谷所在でない旨を明記）。zen place 全国173店舗。本番で削除店0件・N選とカード数一致を確認。Indexing API 5/5（4エリア＋/brands/zen-place/）
+- ⚠️tier3 エリアの sitemap lastmod は固定値 2026-06-07 のまま（git 最終コミット日方式は主要エリアのみ）
+- brands-aggregate.json は CLUB PILATES もしも設置分が未再集計（再集計すると officialUrl 約40件が変わる）
