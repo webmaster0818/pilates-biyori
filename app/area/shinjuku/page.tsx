@@ -367,7 +367,7 @@ const faqs = [
   },
   {
     question: '新宿のピラティススタジオの料金相場は？',
-    answer: '新宿エリアのピラティススタジオの料金相場は、グループレッスン月4回で9,625円〜15,000円程度。zen place pilatesの月4回9,625円からthe SILKの月4回15,070円まで幅があります。パーソナルレッスンはピラティスミラーの30分4,400円からSTUDIO IVYの月2回15,000円など、スタジオにより異なります。体験レッスンは無料〜2,000円程度なので、まずは体験で試してみるのがおすすめです。',
+    answer: '新宿エリアのピラティススタジオの料金相場は、グループレッスン月4回で9,625円〜15,000円程度。パーソナルレッスンはピラティスミラーの30分4,400円からSTUDIO IVYの月2回15,000円など、スタジオにより異なります。体験レッスンは無料〜2,000円程度なので、まずは体験で試してみるのがおすすめです。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -416,7 +416,7 @@ export default function ShinjukuPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス新宿おすすめ14選！<br className="hidden md:block" />
+              【2026最新】ピラティス新宿おすすめ12選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -462,7 +462,7 @@ export default function ShinjukuPage() {
               新宿は、JR山手線・中央線・小田急線・京王線・東京メトロ丸ノ内線・副都心線・都営大江戸線・都営新宿線など多数の路線が集まる日本最大のターミナル駅。仕事帰りや買い物のついでにも通いやすいエリアです。新宿区内にはマシンピラティス専門、女性専用、パーソナル、予約不要など、多彩なスタジオが集結しています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、新宿エリアでおすすめのピラティススタジオ14選をまとめました。
+              そこでこの記事では、新宿エリアでおすすめのピラティススタジオ12選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -506,7 +506,7 @@ export default function ShinjukuPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              新宿のおすすめピラティススタジオ14選
+              新宿のおすすめピラティススタジオ12選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -721,7 +721,7 @@ export default function ShinjukuPage() {
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
                   <p className="text-3xl font-bold text-warm-800 mb-2">9,625円〜15,070円</p>
-                  <p className="text-sm text-warm-600">zen place pilatesのマット月4回9,625円〜が最安クラス。ピラティスKは11,220円〜、the SILKは15,070円〜。CLUB PILATESは月4回 10,890〜17,050円（店舗により異なる）で無料体験ありとコスパに優れています。</p>
+                  <p className="text-sm text-warm-600">zen place pilatesのマット月4回9,625円〜が最安クラス。ピラティスKは11,220円〜。CLUB PILATESは月4回 10,890〜17,050円（店舗により異なる）で無料体験ありとコスパに優れています。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">パーソナルレッスン</h3>
@@ -841,7 +841,7 @@ export default function ShinjukuPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は新宿のおすすめピラティススタジオ14選をご紹介してきましたが、いかがでしたか？
+              今回は新宿のおすすめピラティススタジオ12選をご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               新宿はJR山手線・中央線・小田急線・京王線・東京メトロ丸ノ内線・副都心線・都営大江戸線など、多数の路線が集まる日本最大のターミナル駅。大手チェーンから女性専用スタジオ、完全個室パーソナル、予約不要のカジュアルスタジオまで、多彩なスタジオが集まるエリアです。

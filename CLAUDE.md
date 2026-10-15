@@ -869,3 +869,15 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - 結果（エリア369）: 旧＝6/7 固定356・10/14 13 → 新＝7/3 58・7/15 2・8/17 30・9/4 2・9/11 19・9/15 9・9/25 6・10/8 1・10/9 90・10/11 5・10/12 22・10/14 125。朝霞・海老名・志木・四ツ谷＝10/14。TODAY のままなのは / ・/area/・/articles/ の3つだけ
 - `SITEMAP_REPORT=/tmp/x.tsv node scripts/generate-sitemap.mjs` でエリア別（slug・lastmod・page日・data日）を出せる。**ビルド前にコミット**（未コミットの area-studios.ts は全参照エリアが今日になる）
 - source 21fbade0／deploy 1e7694fdaa・precheck ✅ 588頁・本番 sitemap で4エリア 10/14 確認・GSC sitemap 再送信（sc-domain:biyori-pilates.com のみ）
+
+## 2026-10-15 5ブランドの掲載店舗を公式の店舗一覧に合わせて訂正（the SILK・zen place・BDC・ルルト・Rintosull）
+- 照合元: 公式店舗一覧（2026-10-15 取得・/tmp/g1015/<slug>-official.md）。ASP計測リンクは開いていない
+- **方針**: ①公式に無い店舗のカードは削除 ②「〇〇エリア」「（近隣）」「〇〇線沿線」「店名なし」など特定できない行も削除（ただし実在1店舗に確定するものは公式店名・住所に直して残した＝the SILK 浅草店（近隣エリア）@kuramae・池袋東口店（近隣エリア）@sugamo・田町店@mita、zen place 荻窪/西荻窪/阿佐ヶ谷/錦糸町/上野/池袋（近隣エリア）） ③同じページ内の同一店舗2枚は住所が具体的な方を残す ④残す店舗の住所は公式値に（曖昧住所・誤住所とも。area-studios.ts のページ未使用キー＝AI相談用も同様）
+- **削除カード**: the SILK 23（公式に無い11＝青葉台・八王子・日吉・飯田橋・京橋・町田・武蔵小杉・なんば・千里中央・心斎橋・たまプラーザ／曖昧4＝korakuen・monzen-nakacho の店名なし・新橋（近隣）・港区エリア／同一ページ重複8＝目黒エリア・大宮・渋谷・立川・上野・梅田・新宿・湘南・藤沢店）、zen place 31、BDC 9（なんば・六本木・渋谷（近隣）・新宿（近隣）・心斎橋・立川・上野・梅田・代々木公園）、ルルト 5（明石・伊丹・大津・tokyo の総称行・nagoya の4店集約行）、Rintosull 22。計90枚・71エリアページ。0枚になったエリアは無し（最少 korakuen 2枚）
+- エリアページ本文（FAQ・目的別/予算別リスト・まとめ・meta・店舗ページへのLink）から削除店舗の言及を除去、N選・「N社」をカード数に。iidabashi・meguro は title の「無料体験N社」を削除した無料体験カードの分だけ減らした
+- **ブランドページ**: `aggregate-brands-202607.py` に同一店舗の統合を追加（店名を正規化＝括弧内・ブランド名より前・「ピラティス」「スタジオ」・空白・末尾「店」を除去して同じなら1行。住所が具体的な方を残し、同点は「近隣/エリア」でない店名→先勝ち。**両方とも番地まである住所で番地が食い違う場合は統合しない**＝pilates K 松戸店・KASANE 松戸店は2行のまま）。他ブランドへの影響は重複除去のみ（ELEMENT 35→34・Pilates Mee 133→130・pilates K 109→102、残った行は元の順序のまま）
+- 掲載数（ブランドページ）: the SILK 69→43／zen place 173→113／BDC 15→6／ルルト 36→29／Rintosull 128→98（＝公式店舗との照合で「該当あり」の数と一致・全行が別々の公式店舗）
+- `brands.ts` officialStores（asOf 2026年10月）: the SILK 46（東京32・千葉5・神奈川4・埼玉3・大阪2）／zen place 136（オープン予定2＝方南町10/24・新横浜11/8、グループ全体150は caveat）／BDC 8（東京7・埼玉1・新設）／ルルト 100（本八幡11月オープン予定を含む）／Rintosull 公式明記270＋byPref は一覧実数299（オープン予定22含む）。`OfficialStores` に `byPrefTotal`・`byPrefNote` を追加し、都道府県別の見出し文が count と食い違わないようにした。店舗一覧見出しの「公式数≥掲載数」条件は残した（5ブランドとも満たす）
+- 口コミ要約: `the SILK 湘南・藤沢店`→`藤沢店`、`八重洲店`→`東京八重洲店`、`Rintosull 神戸（4店舗）`→`神戸店`（Google 照合先の店名）に付け替え、`the SILK 八王子店`（公式に無い）は削除。the SILK の口コミ母数 43店舗13,199件→42店舗13,030件
+- 受け皿: the-silk-stores.ts・g1-stores.ts（Rintosull 12店）・bdc-stores.ts の住所を公式値に（曖昧住所フラグを外した）。**/brands/the-silk-hachioji/ は公式に無い店舗の受け皿＝未処理（削除は要判断）**
+- ⚠️ 残: 削除カード由来の料金相場の下限/上限（例: korakuen・senri-chuo 8,800円〜、suita、tsunashima、shibuya 8,800〜12,980 等）は数値を作らないため据え置き／カードが無いのに the SILK・zen place・BDC が予算別リストに出るテンプレ由来のページ（abeno・fuchu・hamamatsu・kagoshima・kanazawa 等 約25ページ）は今回の削除と無関係のため未処理／area-studios.ts のキー名とページ slug が違う3件（higashiosaka→higashi-osaka・higashihiroshima→higashi-hiroshima・musashiurawa→musashi-urawa）はブランド集計に入っていない（例: Rintosull 布施店・武蔵浦和店。既存の仕様・未変更）

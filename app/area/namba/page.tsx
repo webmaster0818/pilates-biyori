@@ -135,7 +135,7 @@ export default function NambaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティスなんばおすすめ6選！<br className="hidden md:block" />
+              【2026最新】ピラティスなんばおすすめ3選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -178,7 +178,7 @@ export default function NambaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、なんばエリアでおすすめのピラティススタジオ6選をまとめました。
+              そこでこの記事では、なんばエリアでおすすめのピラティススタジオ3選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -217,7 +217,7 @@ export default function NambaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              なんばのおすすめピラティススタジオ6選
+              なんばのおすすめピラティススタジオ3選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -342,7 +342,7 @@ export default function NambaPage() {
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
               目的別おすすめスタジオ
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
@@ -355,24 +355,12 @@ export default function NambaPage() {
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">マシン完備</h3>
-                <p className="text-warm-600 text-sm mb-4">
-                  最新のリフォーマーマシンを完備。マシンピラティスを本格的に学びたい方におすすめ。
-                </p>
-                <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates なんば</li>
-                  <li className="text-warm-700">• the SILK なんば</li>
-                </ul>
-              </div>
-              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・ミナミの中心</h3>
                 <p className="text-warm-600 text-sm mb-4">
                   なんば駅から徒歩3分以内。道頓堀・心斎橋に隣接し、ショッピングや食事も楽しめる。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Urban Pilates なんば（駅徒歩1分）</li>
-                  <li className="text-warm-700">• the SILK なんば（駅徒歩2分）</li>
-                  <li className="text-warm-700">• zen place pilates なんば（駅徒歩3分）</li>
                 </ul>
               </div>
             </div>
@@ -428,9 +416,7 @@ export default function NambaPage() {
                   マシン完備の大手スタジオ。グループ・プライベート選択可。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates</li>
                   <li>• ピラティスK</li>
-                  <li>• the SILK</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">

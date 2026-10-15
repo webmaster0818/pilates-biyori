@@ -12,8 +12,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/fujimino/' },
-  title: '【2026年10月最新】ピラティスふじみ野おすすめ5選！人気スタジオの料金プランを簡単比較！',
-  description: 'ふじみ野エリアのおすすめピラティススタジオ5選を徹底比較。SAKURA ふじみ野店・さんはぴ ふじみ野店・ホットヨガロイブ ふじみ野店など実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
+  title: '【2026年10月最新】ピラティスふじみ野おすすめ3選！人気スタジオの料金プランを簡単比較！',
+  description: 'ふじみ野エリアのおすすめピラティススタジオ3選を徹底比較。SAKURA ふじみ野店・さんはぴ ふじみ野店・ホットヨガロイブ ふじみ野店など実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
   keywords: 'ピラティス,ふじみ野,埼玉県ふじみ野市,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -94,70 +94,16 @@ const studios = [
       facilities: ['リフォーマー', '更衣室', 'ロッカー'],
     },
   },
-  {
-    name: 'Rintosull ふじみ野エリア（東上線沿線）',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
-    image: '/images/studios/rintosull.webp',
-    price: 'プレミアムプラン 月額10,978円（税込）',
-    trial: '体験無料キャンペーン実施中',
-    features: ['女性専用', 'マシンピラティス', '体験無料', 'LAVA系列'],
-    description: 'LAVA系列の女性専用マシンピラティス。東上線沿線の店舗を利用可能。体験無料キャンペーン中。',
-    access: '東武東上線沿線の店舗を利用可能',
-    address: '東上線沿線各店舗（詳細は公式サイトでご確認ください）',
-    popularPlan: {
-      name: '女性専用プラン',
-      description: 'LAVA系列の女性専用マシンピラティス。東上線沿線の店舗を利用可能。体験無料キャンペーン中。',
-      price: 'プレミアムプラン 月額10,978円（税込）',
-    },
-    options: ['女性専用', 'マシンピラティス', '体験無料', 'LAVA系列', '体験無料キャンペーン実施中'],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'],
-    },
-    basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '不定休',
-      facilities: ['リフォーマー', '更衣室', 'ロッカー'],
-    },
-  },
-  {
-    name: 'zen place pilates（東上線沿線）',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['全国展開大手', 'マット&マシン完備', '全店舗利用可能', '男女共用'],
-    description: '全国130店舗以上の大手。東上線沿線のスタジオを利用可能。全店舗利用可能プランで柔軟に通えます。',
-    access: '東武東上線沿線のスタジオを利用可能',
-    address: '東上線沿線各スタジオ（詳細は公式サイトでご確認ください）',
-    popularPlan: {
-      name: '全国展開大手プラン',
-      description: '全国130店舗以上の大手。東上線沿線のスタジオを利用可能。全店舗利用可能プランで柔軟に通えます。',
-      price: '月4回 13,200円〜',
-    },
-    options: ['全国展開大手', 'マット&マシン完備', '全店舗利用可能', '男女共用', '体験レッスン 1,000円'],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
-      purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'],
-    },
-    basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '不定休',
-      facilities: ['リフォーマー', '更衣室', 'ロッカー'],
-    },
-  }
 ]
 
 const faqs = [
   { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！ふじみ野エリアのスタジオは初心者歓迎がほとんど。SAKURA ふじみ野店はパーソナル専門で安心。まずは体験レッスンから始めてみましょう。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマーなどの専用マシンを使います。マシンはバネで負荷調整ができ初心者にもおすすめ。ふじみ野エリアではマシンピラティス対応スタジオが充実しています。' },
-  { question: 'ふじみ野のピラティスの料金相場は？', answer: 'ホットヨガロイブ ふじみ野店は月額8,910円〜、Rintosull ふじみ野エリア（東上線沿線）はプレミアムプラン 月額10,978円（税込）、zen place pilates（東上線沿線）は月4回 13,200円〜。目的と頻度に合わせて選びましょう。' },
+  { question: 'ふじみ野のピラティスの料金相場は？', answer: 'ホットヨガロイブ ふじみ野店は月額8,910円〜。目的と頻度に合わせて選びましょう。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめ。慣れてきたら週2〜3回に。最低2〜3ヶ月は継続しましょう。' },
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えて基礎代謝が上がり、太りにくい体質に変わります。2〜3ヶ月の継続で効果を実感する方が多いです。' },
-  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。ホットヨガロイブ ふじみ野店は手ぶら体験 0円、Rintosull ふじみ野エリア（東上線沿線）は体験無料キャンペーン実施中。' },
-  { question: '男性でも通えるスタジオはありますか？', answer: 'さんはぴ ふじみ野店、zen place pilates（東上線沿線）は男性もOKです。は女性専用です。' },
+  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。ホットヨガロイブ ふじみ野店は手ぶら体験 0円。' },
+  { question: '男性でも通えるスタジオはありますか？', answer: 'さんはぴ ふじみ野店は男性もOKです。' },
   { question: 'ふじみ野駅からのアクセスは？', answer: 'ふじみ野駅は東武東上線が利用でき、池袋まで東武東上線で約30分。各スタジオとも駅から徒歩圏内でアクセス良好です。' },
   { question: 'パーソナルレッスンを受けたいのですが？', answer: 'SAKURA ふじみ野店がパーソナルレッスンに対応しています。' },
   { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '個人差はありますが、2ヶ月を過ぎた頃から変化を実感する方が多いです。週1〜2回で最低2〜3ヶ月の継続がおすすめです。' },
@@ -174,20 +120,20 @@ export default function FujiminoPage() {
         { name: 'ふじみ野', url: 'https://biyori-pilates.com/area/fujimino/' },
       ]} />
       <main className="pt-20 bg-white">
-        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティスふじみ野おすすめ5選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1></div></section>
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティスふじみ野おすすめ3選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1></div></section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">ふじみ野</span></nav></div></section>
         <TableOfContents areaName="ふじみ野" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p><p className="text-warm-600 leading-relaxed mb-6">Pilates-Biyori編集部です！</p><p className="text-warm-600 leading-relaxed mb-6">あなたは、</p><p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p><p className="text-warm-600 leading-relaxed mb-6">「ふじみ野で人気のピラティススタジオを知りたい」</p><p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
             <p className="text-warm-600 leading-relaxed mb-8">ふじみ野は東武東上線が利用でき、池袋まで東武東上線で約30分の好アクセスエリア。東武東上線の急行停車駅で池袋へ約30分。大型商業施設ソヨカふじみ野やトナリエふじみ野があり、ファミリー層に人気の住みやすい街。そんなふじみ野エリアには、多彩なピラティススタジオが揃っています。</p>
-            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、ふじみ野エリアでおすすめの実在するピラティススタジオ5選をまとめました。</p>
+            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、ふじみ野エリアでおすすめの実在するピラティススタジオ3選をまとめました。</p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8"><h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2><ul className="space-y-2 text-warm-700"><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>ふじみ野でピラティススタジオを探している</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>コスパの良いスタジオを知りたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>東武東上線沿線で通いやすいスタジオがいい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較したい</span></li></ul></div>
             <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
           </div>
         </section>
         <PriceComparisonTable studios={studios} areaName="ふじみ野" />
-        <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">ふじみ野のおすすめピラティススタジオ5選</h2><div className="space-y-8">{[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
+        <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">ふじみ野のおすすめピラティススタジオ3選</h2><div className="space-y-8">{[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
 
         <section className="py-16 bg-white" id="price-market">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -229,7 +175,7 @@ export default function FujiminoPage() {
 
         <section className="py-16 bg-white" id="faq"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">よくある質問</h2><div className="space-y-6">{faqs.map((faq, index) => (<div key={index} className="border border-warm-200 rounded-lg overflow-hidden"><details className="group"><summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition"><h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3><svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" /></svg></summary><div className="px-6 pb-6 text-warm-600 leading-relaxed">{faq.answer}</div></details></div>))}</div></div></section>
 
-        <section className="py-16 bg-warm-50" id="summary"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2><p className="text-warm-600 leading-relaxed mb-6">今回はふじみ野エリアのおすすめピラティススタジオ5選をご紹介しました。</p><p className="text-warm-600 leading-relaxed mb-6">ふじみ野は東武東上線で池袋まで東武東上線で約30分の好アクセスエリア。SAKURA ふじみ野店、さんはぴ ふじみ野店、ホットヨガロイブ ふじみ野店など個性豊かなスタジオが揃っています。</p><p className="text-warm-600 leading-relaxed mb-6">まずは体験レッスンから始めてみましょう。</p><p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p></div></section>
+        <section className="py-16 bg-warm-50" id="summary"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2><p className="text-warm-600 leading-relaxed mb-6">今回はふじみ野エリアのおすすめピラティススタジオ3選をご紹介しました。</p><p className="text-warm-600 leading-relaxed mb-6">ふじみ野は東武東上線で池袋まで東武東上線で約30分の好アクセスエリア。SAKURA ふじみ野店、さんはぴ ふじみ野店、ホットヨガロイブ ふじみ野店など個性豊かなスタジオが揃っています。</p><p className="text-warm-600 leading-relaxed mb-6">まずは体験レッスンから始めてみましょう。</p><p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p></div></section>
 
         <section className="py-16 bg-warm-800 text-white" id="contact"><div className="max-w-4xl mx-auto px-6 lg:px-8 text-center"><h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2><p className="text-warm-200 mb-8 leading-relaxed">まずは気軽に体験してみましょう。</p><Link href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded">おすすめスタジオ一覧に戻る</Link></div></section>
       </main>

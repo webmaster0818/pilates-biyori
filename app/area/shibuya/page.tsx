@@ -17,7 +17,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/shibuya/' },
-  title: '【2026年10月最新】渋谷のピラティス15社を比較｜無料体験4社・月額最安4,400円〜',
+  title: '【2026年10月最新】渋谷のピラティス13社を比較｜無料体験4社・月額最安4,400円〜',
   description: '渋谷エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,渋谷,東京,スタジオ,おすすめ,マシンピラティス,パーソナル,女性専用,体験レッスン,料金,比較',
 }
@@ -219,7 +219,7 @@ const faqs = [
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルが鍛えられ基礎代謝が上がり太りにくい体質に。最低2-3ヶ月は継続しましょう。CALDOのホット環境なら発汗効果も期待できます。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。ウェアレンタルがあるスタジオも多いです。CLUB PILATESは無料体験があるので手ぶらで気軽に。' },
   { question: 'ピラティスとヨガの違いは？', answer: 'ピラティスは体幹強化・姿勢改善が中心、ヨガは柔軟性とリラックスが中心です。NATURAglam渋谷なら両方受けられます。' },
-  { question: '男性でも通えるスタジオはありますか？', answer: 'zen place pilates渋谷、CLUB PILATES渋谷、ELEMENT渋谷、BDC PILATESは男性もOKです。the SILK、ピラティスK、Rintosull、ピラティスミラー、YUZU、NATURAglam は女性専用です。' },
+  { question: '男性でも通えるスタジオはありますか？', answer: 'zen place pilates渋谷、CLUB PILATES渋谷、ELEMENT渋谷は男性もOKです。the SILK、ピラティスK、Rintosull、ピラティスミラー、YUZU、NATURAglam は女性専用です。' },
   { question: 'どのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。週2回なら1ヶ月半ほどで変化を感じる方も。パーソナルレッスンの方がより早く効果を実感しやすいです。' },
   { question: '無料体験ができるスタジオはありますか？', answer: 'CLUB PILATES渋谷は無料体験レッスンがあります。zen placeやthe SILKなども体験レッスンを用意しています。まずは気軽に体験してみましょう。' },
 ]
@@ -241,7 +241,7 @@ export default function ShibuyaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス渋谷おすすめ15選！<br className="hidden md:block" />
+              ピラティス渋谷おすすめ13選！<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！
             </h1>
           </div>
@@ -286,7 +286,7 @@ export default function ShibuyaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、JR山手線・東急東横線・東京メトロ銀座線・半蔵門線が乗り入れる渋谷駅周辺でおすすめのピラティススタジオ15選をまとめました。MIYASHITA PARKや渋谷スクランブルスクエアなど商業施設が集まる渋谷エリアは、仕事帰りや買い物ついでにも通いやすいピラティス激戦区です。
+              そこでこの記事では、JR山手線・東急東横線・東京メトロ銀座線・半蔵門線が乗り入れる渋谷駅周辺でおすすめのピラティススタジオ13選をまとめました。MIYASHITA PARKや渋谷スクランブルスクエアなど商業施設が集まる渋谷エリアは、仕事帰りや買い物ついでにも通いやすいピラティス激戦区です。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -326,7 +326,7 @@ export default function ShibuyaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              渋谷のおすすめピラティススタジオ15選
+              渋谷のおすすめピラティススタジオ13選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -464,7 +464,7 @@ export default function ShibuyaPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ダイエット、姿勢改善、体幹強化など目的に応じて選びましょう。ボディメイク重視ならピラティスK、楽しさ重視ならthe SILK、本格派ならBDC PILATESがおすすめ。パーソナルで集中したいならSTUDIO IVYやELEMENTを検討。
+                  ダイエット、姿勢改善、体幹強化など目的に応じて選びましょう。ボディメイク重視ならピラティスK、楽しさ重視ならthe SILKがおすすめ。パーソナルで集中したいならSTUDIO IVYやELEMENTを検討。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -512,7 +512,7 @@ export default function ShibuyaPage() {
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
                   <p className="text-3xl font-bold text-warm-800 mb-2">8,800円〜12,980円</p>
-                  <p className="text-sm text-warm-600">最安はRintosull（LAVA系列）の月4回8,800円。the SILKは音楽×マシンの付加価値で12,980円。CLUB PILATESは月4回 10,890〜17,050円（店舗により異なる）で無料体験ありとバランスが良い価格帯です。</p>
+                  <p className="text-sm text-warm-600">最安はRintosull（LAVA系列）の月4回8,800円。CLUB PILATESは月4回 10,890〜17,050円（店舗により異なる）で無料体験ありとバランスが良い価格帯です。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">パーソナルレッスン</h3>
@@ -632,7 +632,7 @@ export default function ShibuyaPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は渋谷のおすすめピラティススタジオ15選をご紹介しました。
+              今回は渋谷のおすすめピラティススタジオ13選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               渋谷はJR山手線・東急東横線・東京メトロ銀座線・半蔵門線など複数路線が乗り入れる東京を代表するターミナル駅。若者の街として知られる渋谷区には、MIYASHITA PARK正面のzen place pilates、音楽×マシンのthe SILK、月4回8,800円〜のRintosull、無料体験ありのCLUB PILATES、完全個室のSTUDIO IVY、30分集中のELEMENTなど、個性豊かなスタジオが揃っています。

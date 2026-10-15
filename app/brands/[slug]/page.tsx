@@ -197,7 +197,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
             <section className="mb-10">
               <h2 className="text-xl font-light text-warm-900 border-b border-warm-200 pb-2 mb-4">{brand.name}の都道府県別店舗数（公式・{os.asOf}時点）</h2>
               <p className="text-sm text-warm-600 font-light leading-relaxed mb-4">
-                公式サイトの店舗一覧に載っている{os.count}店舗を、住所の都道府県ごとに数えました（{os.byPref.length}都道府県）。{os.caveat ?? ''}
+                公式サイトの店舗一覧に載っている{os.byPrefTotal ?? os.count}店舗を、住所の都道府県ごとに数えました（{os.byPref.length}都道府県）。{os.byPrefNote ?? os.caveat ?? ''}
                 最も多いのは{os.byPref[0].pref}の{os.byPref[0].count}店舗です。
               </p>
               <ul className="flex flex-wrap gap-2">
@@ -471,9 +471,10 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
           <section className="mb-10 scroll-mt-24" id="store-list">
             <h2 className="text-xl font-light text-warm-900 border-b border-warm-200 pb-2 mb-4">
               {/* 公式店舗数は「当サイト掲載数以上」のときだけ併記する。
-                  逆転しているブランド（the SILK 44 vs 68 / zen place 136 vs 160）は
-                  公式値か当サイトデータのどちらかが古く、並べると矛盾して見えるため出さない。
-                  数値の突き合わせが済んだらこの条件を外すこと。 */}
+                  2026-10-15 the SILK・zen place・BDC・ルルト・Rintosull は公式一覧と突き合わせ済み
+                  （公式に無い店舗を削除し、ブランドページは同一店舗を1行に統合）。
+                  the SILK 46≥43 / zen place 136≥113 / BDC 8≥6 / ルルト 100≥29 / Rintosull 270≥98。
+                  他ブランドで逆転した場合に矛盾して見えないよう、条件は残す。 */}
               {brand.name}の店舗一覧{os && os.count >= stores.length ? `（全国${os.count}店舗${os.approx ? '以上' : ''}・当サイト掲載${stores.length}店舗）` : `（当サイト掲載${stores.length}店舗）`}
             </h2>
             <div className="bg-white border border-warm-200 overflow-x-auto">

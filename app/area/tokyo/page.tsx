@@ -242,7 +242,7 @@ export default async function TokyoAreaPage() {
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】東京のピラティススタジオ<br className="hidden md:block" />
-              おすすめ8選｜料金・体験レッスン徹底比較
+              おすすめ6選｜料金・体験レッスン徹底比較
             </h1>
           </div>
         </section>
@@ -284,7 +284,7 @@ export default async function TokyoAreaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、東京都内でおすすめのピラティススタジオ8選をまとめました。
+              そこでこの記事では、東京都内でおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -432,7 +432,7 @@ export default async function TokyoAreaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              東京のおすすめピラティススタジオ8選
+              東京のおすすめピラティススタジオ6選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (

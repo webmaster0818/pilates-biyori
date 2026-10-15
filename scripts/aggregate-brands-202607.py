@@ -3,7 +3,7 @@
 系統A(app/area/*/page.tsx インラインstudios)＋系統B(data/area-studios.ts)の両方を走査。
 実データのみ(price/trial/rating/officialUrl/address/access)。rating無しはnullのまま。
 """
-import json, re
+import json, re, unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -115,6 +115,68 @@ for f in sorted(APP_AREA.glob("*/page.tsx")):
             rec["areaSlug"] = f.parent.name
             rec["areaName"] = area_names.get(f.parent.name, f.parent.name)
             agg[b].append(rec)
+
+# 2026-10-15: 同じ公式店舗が複数エリアページに載っている場合（例: 「zen place pilates 錦糸町」と
+#   「zen place pilates 錦糸町スタジオ」「〜 錦糸町（近隣エリア）」）、ブランドページの店舗一覧では1店舗1行にする。
+#   店名を正規化（括弧内・ブランド名より前・「ピラティス」「スタジオ」・空白・末尾の「店」を除去）して
+#   同じなら同一店舗とみなし、住所が具体的な1件だけ残す（同点なら先に見つかった方）。
+#   正規化後が空になる名前（ブランド名だけの行）は統合しない。
+BRAND_PAT = dict(BRANDS)
+
+def store_key(brand, name):
+    s = re.sub(r"[（(][^）)]*[）)]", " ", name)
+    m = re.search(BRAND_PAT[brand], s, re.I if brand != "pilates-k" else 0)
+    if m:
+        s = s[m.end():]
+    s = re.sub(r"(マシン)?ピラティス(スタジオ)?|スタジオ|Studio|PILATES|Pilates|pilates", "", s)
+    s = re.sub(r"\s+", "", s)
+    s = re.sub(r"店$", "", s)
+    return s
+
+def addr_core(a):
+    """住所の「市区町村＋最初の番地」まで（表記ゆれを吸収して比較用）"""
+    a = unicodedata.normalize("NFKC", a or "")
+    a = re.sub(r"〒?\d{3}-\d{4}|\s", "", a)
+    a = re.sub(r"(\d)[‐−ー―－](?=\d)", r"\1-", a)
+    a = a.replace("丁目", "-").replace("番地", "-").replace("番", "-").replace("号", "")
+    a = re.sub(r"^(東京都|北海道|(?:京都|大阪)府|.{2,3}県)", "", a)
+    m = re.match(r"^\D*\d+(?:-\d+)*", a)
+    return m.group(0) if m else a
+
+def name_score(n):
+    # 同点なら「（近隣）」「エリア」付きでない店名を残す
+    return 0 if re.search(r"近隣|エリア|沿線", n) else 1
+
+def addr_score(a):
+    if not a:
+        return 0
+    if re.search(r"詳細|エリア|周辺|近隣|付近|参照|確認|徒歩|沿線", a):
+        return 1
+    if re.search(r"\d+\s*[-‐−－ー丁番]\s*\d", a):
+        return 3
+    return 2
+
+for b, stores in agg.items():
+    winner = {}   # key -> 残す index
+    drop = set()
+    for idx, rec in enumerate(stores):
+        k = store_key(b, rec["name"])
+        if not k:
+            continue
+        if k not in winner:
+            winner[k] = idx
+            continue
+        w = stores[winner[k]]
+        a, c = rec.get("address"), w.get("address")
+        # 両方とも番地まである住所で番地が食い違う場合は別店舗の可能性があるため統合しない
+        if addr_score(a) == 3 and addr_score(c) == 3 and addr_core(a) != addr_core(c):
+            continue
+        if (addr_score(a), name_score(rec["name"])) > (addr_score(c), name_score(w["name"])):
+            drop.add(winner[k])
+            winner[k] = idx
+        else:
+            drop.add(idx)
+    agg[b] = [rec for idx, rec in enumerate(stores) if idx not in drop]
 
 out = ROOT / "data" / "brands-aggregate.json"
 out.write_text(json.dumps(agg, ensure_ascii=False, indent=2), encoding="utf-8")

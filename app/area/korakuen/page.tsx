@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/korakuen/' },
-  title: '【2026年10月最新】後楽園のピラティススタジオおすすめ5選｜無料体験・料金で比較',
-  description: '後楽園のピラティススタジオ5社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
+  title: '【2026年10月最新】後楽園のピラティススタジオおすすめ2選｜無料体験・料金で比較',
+  description: '後楽園のピラティススタジオ2社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
   keywords: 'ピラティス,後楽園,文京区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -82,108 +82,12 @@ const studios = [
       facilities: ['リフォーマーマシン', 'プライベートルーム', '更衣室'],
     },
   },
-  {
-    name: 'zen place pilates',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 10,450円〜',
-    trial: 'グループ体験 1,000円',
-    features: ['全国150店舗相互利用', '男性OK', 'マット&マシン', 'グループ体験1,000円'],
-    description: '全国150店舗以上を展開する大手ピラティススタジオ。後楽園・水道橋エリアからアクセス可能な最寄り店舗あり。グループ・プライベートレッスン対応。全店舗相互利用可能で男性も歓迎。',
-    access: '後楽園・水道橋エリアからアクセス可能（最寄り店舗は公式サイトでご確認ください）',
-    address: '東京都文京区周辺（最寄り店舗は公式サイトでご確認ください）',
-    popularPlan: {
-      name: 'グループ月4回プラン',
-      description: 'マット・マシンピラティスのグループレッスン。全国150店舗で相互利用可能。',
-      price: '月4回 10,450円〜（税込）',
-    },
-    options: [
-      '月6回プラン',
-      '通い放題プラン',
-      'プライベートレッスン',
-      '全国150店舗相互利用',
-    ],
-    userProfile: {
-      ageRange: '20代〜60代が中心',
-      genderRatio: '女性70% / 男性30%',
-      purpose: ['姿勢改善', '体幹強化', '柔軟性向上', '健康維持'],
-    },
-    basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '不定休',
-      facilities: ['リフォーマーマシン', 'マット', '更衣室', 'ロッカー'],
-    },
-  },
-  {
-    name: 'the SILK',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
-    image: '/images/studios/the-silk.webp',
-    price: '月3回 12,980円〜',
-    trial: '体験レッスン 無料',
-    features: ['女性専用', '手ぶら体験OK', '音楽レッスン', '朝7:30〜夜22:00'],
-    description: '女性専用マシンピラティススタジオ。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。手ぶらで無料体験可能（ウェア・タオル無料貸出）。7:30〜22:00の幅広い営業時間。',
-    access: '後楽園エリアからアクセス可能（最寄り店舗は公式サイトでご確認ください）',
-    address: '東京都文京区周辺（最寄り店舗は公式サイトでご確認ください）',
-    popularPlan: {
-      name: 'Standard4（月4回）',
-      description: '女性専用マシンピラティス月4回。音楽に合わせた楽しいレッスン。',
-      price: '月4回 15,070円（税込）',
-    },
-    options: [
-      'Light3（月3回 12,980円）',
-      'Full（毎日1回 20,680円）',
-      'Full Day（18,480円）',
-      '体験・入会金 無料キャンペーンあり',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'リフレッシュ'],
-    },
-    basicInfo: {
-      hours: '7:30〜22:00',
-      closed: '年末年始',
-      facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'パウダールーム', 'ウォーターサーバー'],
-    },
-  },
-  {
-    name: 'Rintosull',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
-    image: '/images/studios/rintosull.webp',
-    price: '月4回 8,800円〜',
-    trial: '体験レッスン 無料',
-    features: ['LAVA系列', '女性専用', '初心者87%以上', '月4回8,800円〜'],
-    description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオ。月4回8,800円のリーズナブルな料金。初心者が87%以上で未経験者も安心。無料体験でパーソナル姿勢診断付き。',
-    access: '後楽園エリアからアクセス可能（最寄り店舗は公式サイトでご確認ください）',
-    address: '東京都文京区周辺（最寄り店舗は公式サイトでご確認ください）',
-    popularPlan: {
-      name: 'マシンピラティス月4回プラン',
-      description: 'リフォーマーを使った本格マシンピラティス。1回あたり2,200円のコスパ。',
-      price: '月4回 8,800円（税込）',
-    },
-    options: [
-      '通い放題プラン',
-      'プレミアムフリーフルタイム（LAVA等全店利用可）',
-      '施設使用料あり',
-      '無料体験・パーソナル姿勢診断付き',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', 'ダイエット', 'ヨガ&ピラティス両方', '健康維持'],
-    },
-    basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '不定休',
-      facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'シャワー'],
-    },
-  },
 ]
 
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！後楽園エリアのスタジオはほとんどが初心者歓迎。Rintosullは初心者87%以上、ピラティスミラーは30分の短時間レッスンで無理なく始められます。',
+    answer: '大丈夫です！後楽園エリアのスタジオはほとんどが初心者歓迎。ピラティスミラーは30分の短時間レッスンで無理なく始められます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
@@ -191,7 +95,7 @@ const faqs = [
   },
   {
     question: '後楽園のピラティスの料金相場は？',
-    answer: 'Rintosullは月4回8,800円〜と最安。zen place pilatesは月4回10,450円〜。ピラティスミラーは月6回11,000円。グループ月4回で8,800円〜15,070円が相場です。',
+    answer: 'ピラティスミラーは月6回11,000円。グループ月4回で8,800円〜15,070円が相場です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -199,23 +103,23 @@ const faqs = [
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。the SILKは音楽に合わせた楽しいレッスンで継続しやすく、ダイエットにも効果的です。',
+    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。the SILKは手ぶらで無料体験可能。Rintosullも無料体験あり。ピラティスミラーは2,200円で体験できます。',
+    answer: '動きやすい服装と飲み物があればOK。ピラティスミラーは2,200円で体験できます。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'zen place pilatesとピラティスミラー後楽園は男性も通えます。the SILK・Rintosullは女性専用です。STUDIO IVYはパーソナルなので男女問わず利用可能です。',
+    answer: 'ピラティスミラー後楽園は男性も通えます。STUDIO IVYはパーソナルなので男女問わず利用可能です。',
   },
   {
     question: '一番安いスタジオは？',
-    answer: 'Rintosullが月4回8,800円〜で最安。zen place pilatesは月4回10,450円〜。ピラティスミラーは月6回11,000円で1回あたり約1,833円とコスパ良好です。',
+    answer: 'ピラティスミラーは月6回11,000円で1回あたり約1,833円とコスパ良好です。',
   },
   {
     question: 'パーソナルレッスンを受けたい場合は？',
-    answer: 'STUDIO IVY後楽園店は完全パーソナル専門。完全プライベート空間で月2回15,000円〜。zen place pilatesもプライベートレッスンに対応しています。',
+    answer: 'STUDIO IVY後楽園店は完全パーソナル専門。完全プライベート空間で月2回15,000円〜。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -240,7 +144,7 @@ export default function KorakuenPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス後楽園おすすめ5選！<br className="hidden md:block" />
+              【2026最新】ピラティス後楽園おすすめ2選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -283,7 +187,7 @@ export default function KorakuenPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、後楽園エリアでおすすめのピラティススタジオ5選をまとめました。
+              そこでこの記事では、後楽園エリアでおすすめのピラティススタジオ2選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -322,7 +226,7 @@ export default function KorakuenPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              後楽園のおすすめピラティススタジオ5選
+              後楽園のおすすめピラティススタジオ2選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -451,11 +355,9 @@ export default function KorakuenPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月4回8,800円〜のスタジオも。
+                  リーズナブルに通えるスタジオ。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li>
-                  <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
                   <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
                 </ul>
               </div>
@@ -519,8 +421,6 @@ export default function KorakuenPage() {
                   コスパ重視ならこちら。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Rintosull（8,800円/月4回）</li>
-                  <li>• zen place pilates（10,450円〜/月4回）</li>
                   <li>• ピラティスミラー（11,000円/月6回）</li>
                 </ul>
               </div>
@@ -532,19 +432,16 @@ export default function KorakuenPage() {
                   マシン専門・パーソナル。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• the SILK（12,980円〜/月3回）</li>
                   <li>• STUDIO IVY（15,000円〜/月2回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">無料体験あり</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">体験レッスン</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">まずはお試し</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  無料〜2,200円で体験可能。
+                  2,200円で体験可能。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• the SILK（無料・手ぶらOK）</li>
-                  <li>• Rintosull（無料）</li>
                   <li>• ピラティスミラー（2,200円）</li>
                 </ul>
               </div>
@@ -574,7 +471,7 @@ export default function KorakuenPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  後楽園エリアはマシン月4回8,800円〜、パーソナル月2回15,000円〜と幅広い価格帯。
+                  後楽園エリアはマシン月6回11,000円、パーソナル月2回15,000円〜と幅広い価格帯。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -583,7 +480,7 @@ export default function KorakuenPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKとRintosullは無料体験。ピラティスミラーは2,200円、zen place pilatesは1,000円で体験可能。
+                  ピラティスミラーは2,200円で体験可能。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

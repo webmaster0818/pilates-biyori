@@ -306,7 +306,7 @@ export default async function OmiyaAreaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス大宮おすすめ10選！<br className="hidden md:block" />
+              ピラティス大宮おすすめ8選！<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！
             </h1>
           </div>
@@ -351,7 +351,7 @@ export default async function OmiyaAreaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、大宮エリアでおすすめのピラティススタジオ10選をまとめました。
+              そこでこの記事では、大宮エリアでおすすめのピラティススタジオ8選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -391,7 +391,7 @@ export default async function OmiyaAreaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              大宮のおすすめピラティススタジオ10選
+              大宮のおすすめピラティススタジオ8選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
