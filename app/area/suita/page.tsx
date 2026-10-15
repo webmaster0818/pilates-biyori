@@ -60,20 +60,6 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'トレーニング機器', '更衣室'] },
   },
   {
-    name: 'Rintosull（リントスル）吹田店',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
-    image: '/images/studios/rintosull.webp', reviewCount: 88,
-    price: '月額 8,800円〜', trial: '体験レッスンあり',
-    features: ['女性専用', '通い放題あり', '映像×インストラクター', 'LAVA系列'],
-    description: 'ホットヨガLAVAが手がける女性専用マシンピラティススタジオ。大型スクリーンの映像とインストラクターのハイブリッドレッスンで初心者でも安心。月額8,800円〜とリーズナブルな通い放題プランが魅力。',
-    access: '吹田エリア（詳細は公式サイトでご確認ください）',
-    address: '大阪府吹田市内（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: '通い放題プラン', description: '女性専用マシンピラティス。映像×インストラクターのハイブリッドレッスン。', price: '月額 8,800円〜（税込）' },
-    options: ['月額8,800円〜', '対象ブランド全店通い放題コースあり', '体験レッスンあり', 'LAVA会員優待あり'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', '姿勢改善', 'ダイエット', '運動不足解消'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', '大型スクリーン', '更衣室', 'ロッカー'] },
-  },
-  {
     name: 'pilates K（ピラティスケー）江坂店',
     officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp', reviewCount: 95,
@@ -103,13 +89,13 @@ const studios = [
 ]
 
 const faqs = [
-  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！吹田エリアのスタジオはほとんどが初心者歓迎。zen placeは丁寧な指導で定評があり、Rintosullは映像×インストラクターのハイブリッドレッスンで分かりやすいです。' },
+  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！吹田エリアのスタジオはほとんどが初心者歓迎。zen placeは丁寧な指導で定評があります。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。吹田市内はマシン専門スタジオが充実しています。' },
-  { question: '吹田のピラティスの料金相場は？', answer: 'グループ月4回で9,625円〜13,420円程度。zen placeが月4回9,625円〜、pilates Kが月4回13,420円〜。通い放題はRintosullが月額8,800円〜と北摂エリアでは比較的リーズナブルです。' },
-  { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に増やすと効果的です。zen placeのフリープランやRintosullの通い放題なら毎日でも通えます。' },
+  { question: '吹田のピラティスの料金相場は？', answer: 'グループ月4回で9,625円〜13,420円程度。zen placeが月4回9,625円〜、pilates Kが月4回13,420円〜です。' },
+  { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に増やすと効果的です。zen placeのフリープランなら毎日でも通えます。' },
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続で体の変化を実感する方が多いです。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。zen placeはグループ体験1,000円、pilates Kは体験無料で気軽に試せます。靴下（グリップソックス推奨）も忘れずに。' },
-  { question: '男性でも通えるスタジオはありますか？', answer: 'zen place江坂、コアセンス、BASCO PILATESは男性も通えます。La pilates、Rintosull、pilates Kは女性専用です。' },
+  { question: '男性でも通えるスタジオはありますか？', answer: 'zen place江坂、コアセンス、BASCO PILATESは男性も通えます。La pilates、pilates Kは女性専用です。' },
   { question: '江坂と千里丘、どちらが便利？', answer: '御堂筋線ユーザーは江坂駅周辺（zen place、La pilates、pilates K）がおすすめ。JR東海道線ユーザーは千里丘駅前のコアセンスが便利です。' },
   { question: '吹田市と梅田で迷っています', answer: '吹田市は梅田に比べて料金が抑えめで、混雑も少なく落ち着いた環境でレッスンを受けられます。御堂筋線で梅田まで約10分なので、zen placeなら相互利用で両方通うことも可能です。' },
   { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。姿勢改善は比較的早く、ボディメイクは3ヶ月程度の継続がおすすめです。' },
@@ -132,7 +118,7 @@ export default function SuitaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス吹田おすすめ6選！<br className="hidden md:block" />
+              【2026最新】ピラティス吹田おすすめ5選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -175,7 +161,7 @@ export default function SuitaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、吹田市（江坂・千里丘）エリアでおすすめのピラティススタジオ6選をまとめました。吹田市は大阪メトロ御堂筋線の江坂駅を中心に、北摂エリアの玄関口として栄えるオフィス街。梅田まで約10分のアクセスの良さも魅力です。
+              そこでこの記事では、吹田市（江坂・千里丘）エリアでおすすめのピラティススタジオ5選をまとめました。吹田市は大阪メトロ御堂筋線の江坂駅を中心に、北摂エリアの玄関口として栄えるオフィス街。梅田まで約10分のアクセスの良さも魅力です。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -214,7 +200,7 @@ export default function SuitaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              吹田のおすすめピラティススタジオ6選
+              吹田のおすすめピラティススタジオ5選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -347,10 +333,9 @@ export default function SuitaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  通い放題プランでお得に。
+                  月額1万円以下から通える。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Rintosull（月額 8,800円〜）</li>
                   <li className="text-warm-700">• zen place（月4回 9,625円〜）</li>
                 </ul>
               </div>
@@ -362,7 +347,6 @@ export default function SuitaPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• La pilates（整体×ピラティス）</li>
                   <li className="text-warm-700">• pilates K（音楽×ピラティス）</li>
-                  <li className="text-warm-700">• Rintosull（映像×インストラクター）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -411,12 +395,11 @@ export default function SuitaPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">通い放題</p>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
                   グループレッスン中心。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Rintosull（8,800円〜）</li>
                   <li>• zen place月4回（9,625円〜）</li>
                 </ul>
               </div>

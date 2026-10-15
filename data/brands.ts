@@ -15,6 +15,10 @@ export type OfficialStores = {
   asOf: string // 取得時点（表示用・例: 2026年7月）
   /** 都道府県別の公式店舗数（公式店舗一覧の住所を数えたもの。合計は count と一致させる）。「{ブランド} 店舗」検索の受け皿（2026-10-11） */
   byPref?: { pref: string; count: number }[]
+  /** byPref の合計が count と異なる場合の合計（例: Rintosull＝公式明記の総数270と都道府県別一覧の掲載数299が違う）。2026-10-15 */
+  byPrefTotal?: number
+  /** 都道府県別の節に出す但し書き（未指定なら caveat を出す）。2026-10-15 */
+  byPrefNote?: string
 }
 
 export type BrandInfo = {
@@ -213,7 +217,7 @@ export const BRANDS: BrandInfo[] = [
     name: 'Rintosull（リントスル）',
     tagline: '月4回8,800円〜の低価格帯マシンピラティス',
     intro: [
-      'Rintosull（リントスル）は、ホットヨガスタジオLAVAのグループが展開するマシンピラティスブランドです。当サイトでは127店舗を掲載しています。',
+      'Rintosull（リントスル）は、ホットヨガスタジオLAVAのグループが展開するマシンピラティスブランドです。公式サイトには全国270店舗（2026年10月時点・LAVA店内スタジオ含む）と記載されており、当サイトではうち98店舗を掲載しています。',
       '月4回8,800円〜という掲載ブランドの中でも手に取りやすい価格帯と、LAVA併設店舗を活かした店舗網の広さが特徴です。リフォーマーを使ったグループレッスンが中心です。',
     ],
     features: ['低価格帯（月4回8,800円〜）', 'マシン（リフォーマー）グループ', 'LAVA併設店舗あり', '全国展開'],
@@ -238,7 +242,7 @@ export const BRANDS: BrandInfo[] = [
         {
           title: 'スクリーン映像＋インストラクターの直接指導という形式',
           text: '大画面のお手本を見ながら動き、インストラクターが回ってフォームを直す形式への言及が中心です。「3面スクリーンで回りながら見てくれる」「2名体制で一人ひとりをサポート」「アジャスト（姿勢の修正）が的確」といった声があり、グループでも放置されにくい点が評価されています。',
-          stores: ['Rintosull 博多店', 'Rintosull 神戸（4店舗）', 'Rintosull 新宿西口駅前店', 'Rintosull（リントスル）豊橋店'],
+          stores: ['Rintosull 博多店', 'Rintosull 神戸店', 'Rintosull 新宿西口駅前店', 'Rintosull（リントスル）豊橋店'],
         },
         {
           title: '60代・70代で始めた人や産後の利用者も多い',
@@ -278,7 +282,7 @@ export const BRANDS: BrandInfo[] = [
     ctaLabel: '公式サイトで詳細を見る',
     officialRef: { label: 'Rintosull公式サイト', url: 'https://rintosull.jp/' },
     isPartner: true,
-    officialStores: { count: 260, kind: '公式明記', sourceUrl: 'https://rintosull.jp/', asOf: '2026年7月', caveat: '公式サイトの記載に基づく数字で、LAVA店内スタジオを含みます。' },
+    officialStores: { count: 270, kind: '公式明記', sourceUrl: 'https://rintosull.jp/', asOf: '2026年10月', caveat: '公式サイトの「全国270店舗（2026年10月時点・LAVA店内スタジオ含む）」の記載に基づく数字です。', byPrefTotal: 299, byPrefNote: '都道府県別は公式の都道府県別一覧に掲載されている店舗を数えたもので、オープン予定の22店舗を含みます（公式記載の「全国270店舗」とは数え方が異なります）。', byPref: [{ pref: '東京都', count: 54 }, { pref: '大阪府', count: 33 }, { pref: '神奈川県', count: 30 }, { pref: '愛知県', count: 20 }, { pref: '兵庫県', count: 19 }, { pref: '千葉県', count: 19 }, { pref: '埼玉県', count: 18 }, { pref: '福岡県', count: 15 }, { pref: '北海道', count: 8 }, { pref: '京都府', count: 7 }, { pref: '茨城県', count: 7 }, { pref: '岐阜県', count: 5 }, { pref: '沖縄県', count: 5 }, { pref: '静岡県', count: 5 }, { pref: '三重県', count: 4 }, { pref: '宮城県', count: 4 }, { pref: '広島県', count: 4 }, { pref: '栃木県', count: 4 }, { pref: '奈良県', count: 3 }, { pref: '福島県', count: 3 }, { pref: '鹿児島県', count: 3 }, { pref: '富山県', count: 2 }, { pref: '岡山県', count: 2 }, { pref: '新潟県', count: 2 }, { pref: '石川県', count: 2 }, { pref: '長崎県', count: 2 }, { pref: '長野県', count: 2 }, { pref: '和歌山県', count: 1 }, { pref: '大分県', count: 1 }, { pref: '宮崎県', count: 1 }, { pref: '山口県', count: 1 }, { pref: '山形県', count: 1 }, { pref: '山梨県', count: 1 }, { pref: '岩手県', count: 1 }, { pref: '徳島県', count: 1 }, { pref: '滋賀県', count: 1 }, { pref: '熊本県', count: 1 }, { pref: '福井県', count: 1 }, { pref: '秋田県', count: 1 }, { pref: '群馬県', count: 1 }, { pref: '青森県', count: 1 }, { pref: '香川県', count: 1 }, { pref: '高知県', count: 1 }, { pref: '鳥取県', count: 1 }] },
     useHyoban: true,
   },
   {

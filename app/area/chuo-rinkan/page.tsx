@@ -12,8 +12,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/chuo-rinkan/' },
-  title: '【2026年10月最新】ピラティス中央林間おすすめ6選！人気スタジオの料金プランを簡単比較！',
-  description: '中央林間エリアのおすすめピラティススタジオ6選を徹底比較。Rintosull 中央林間店・Lucio 中央林間店・INSIGHT ピラティス＆トレーニング 中央林間など実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
+  title: '【2026年10月最新】ピラティス中央林間おすすめ5選！人気スタジオの料金プランを簡単比較！',
+  description: '中央林間エリアのおすすめピラティススタジオ5選を徹底比較。Rintosull 中央林間店・Lucio 中央林間店・INSIGHT ピラティス＆トレーニング 中央林間など実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
   keywords: 'ピラティス,中央林間,神奈川県大和市,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -27,7 +27,7 @@ const studios = [
     features: ['女性専用', 'マシンピラティス', '駅徒歩2分', 'LAVA系列'],
     description: 'LAVA系列の女性専用マシンピラティス。中央林間駅より徒歩2分。多彩なプログラム。体験無料。',
     access: '東急田園都市線・小田急江ノ島線「中央林間駅」から徒歩2分',
-    address: '神奈川県大和市中央林間（詳細は公式サイトでご確認ください）',
+    address: '神奈川県大和市中央林間3-5-11 野崎ビル3F',
     popularPlan: {
       name: '女性専用プラン',
       description: 'LAVA系列の女性専用マシンピラティス。中央林間駅より徒歩2分。多彩なプログラム。体験無料。',
@@ -224,7 +224,7 @@ export default function ChuoRinkanPage() {
 
         <section className="py-16 bg-white" id="faq"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">よくある質問</h2><div className="space-y-6">{faqs.map((faq, index) => (<div key={index} className="border border-warm-200 rounded-lg overflow-hidden"><details className="group"><summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition"><h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3><svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" /></svg></summary><div className="px-6 pb-6 text-warm-600 leading-relaxed">{faq.answer}</div></details></div>))}</div></div></section>
 
-        <section className="py-16 bg-warm-50" id="summary"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2><p className="text-warm-600 leading-relaxed mb-6">今回は中央林間エリアのおすすめピラティススタジオ6選をご紹介しました。</p><p className="text-warm-600 leading-relaxed mb-6">中央林間は東急田園都市線・小田急江ノ島線で渋谷まで田園都市線で約40分の好アクセスエリア。Rintosull 中央林間店、Lucio 中央林間店、INSIGHT ピラティス＆トレーニング 中央林間など個性豊かなスタジオが揃っています。</p><p className="text-warm-600 leading-relaxed mb-6">まずは体験レッスンから始めてみましょう。</p><p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p></div></section>
+        <section className="py-16 bg-warm-50" id="summary"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2><p className="text-warm-600 leading-relaxed mb-6">今回は中央林間エリアのおすすめピラティススタジオ5選をご紹介しました。</p><p className="text-warm-600 leading-relaxed mb-6">中央林間は東急田園都市線・小田急江ノ島線で渋谷まで田園都市線で約40分の好アクセスエリア。Rintosull 中央林間店、Lucio 中央林間店、INSIGHT ピラティス＆トレーニング 中央林間など個性豊かなスタジオが揃っています。</p><p className="text-warm-600 leading-relaxed mb-6">まずは体験レッスンから始めてみましょう。</p><p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p></div></section>
 
         <section className="py-16 bg-warm-800 text-white" id="contact"><div className="max-w-4xl mx-auto px-6 lg:px-8 text-center"><h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2><p className="text-warm-200 mb-8 leading-relaxed">まずは気軽に体験してみましょう。</p><Link href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded">おすすめスタジオ一覧に戻る</Link></div></section>
       </main>

@@ -441,7 +441,7 @@ export const areaStudios: Record<string, AreaData> = {
         description:
           'LAVA福島黒岩店内のマシンピラティススタジオ。手ぶらで通えるウェア・タオル付き体験。系列全店舗で通い放題プランあり。',
         access: '南福島駅徒歩10分',
-        address: '福島県福島市黒岩字中沖42-2(LAVA福島黒岩店内)',
+        address: '福島県福島市黒岩字中沖42-2',
       },
       {
         name: 'Pilates room PEONIA',
@@ -2209,6 +2209,7 @@ export const areaStudios: Record<string, AreaData> = {
         trial: '体験会 無料',
         features: ['女性専用', 'マシンピラティス', 'LAVA系列', 'アリオ倉敷'],
         description: 'ホットヨガLAVA系列のマシンピラティス専門店。専用リフォーマーで効率的に体幹を鍛え、しなやかな美ボディラインへ。',
+        address: '岡山県倉敷市寿町12-2 アリオ倉敷1F',
       },
     ],
   },
@@ -3244,7 +3245,7 @@ export const areaStudios: Record<string, AreaData> = {
         features: ['マシンピラティス', '女性専用', '少人数制', '部位別プログラム'],
         description: 'ホットヨガLAVAが運営する女性専用マシンピラティス専門スタジオ。最新のリフォーマーを使い、全身をバランスよく鍛える部位別プログラムを提供しています。少人数制のグループ形式で、初心者の女性でも自分のペースで取り組めます。本郷三丁目駅からすぐ。',
         access: '本郷三丁目駅周辺（詳細は公式サイト参照）',
-        address: '東京都文京区（詳細は公式サイト参照）',
+        address: '東京都文京区本郷2-40-1 本郷東急ビル4F',
         basicInfo: { hours: '詳細は公式サイト参照', closed: '詳細は公式サイト参照', facilities: ['マシンピラティス', '女性専用', '少人数制', '部位別プログラム'] },
       },
       {
@@ -3600,7 +3601,7 @@ export const areaStudios: Record<string, AreaData> = {
         features: ['マシンピラティス専門', 'グループ', '女性専用'],
         description: 'LAVA系列のマシンピラティス専門・女性専用スタジオ。リフォーマーのグループレッスンを低価格で提供。駒込駅東口徒歩1分。',
         access: '駒込駅東口徒歩1分',
-        address: '東京都豊島区（詳細は公式サイト参照）',
+        address: '東京都北区中里2-2-6 KRM駒込ビル3F',
       },
       {
         name: 'ELEMENT 駒込店',
@@ -3736,7 +3737,7 @@ export const areaStudios: Record<string, AreaData> = {
         features: ['マシンピラティス専門', 'グループ', '女性専用'],
         description: 'LAVA系列のマシンピラティス専門・女性専用スタジオ。京急本線上大岡駅西口徒歩5分。',
         access: '京急本線上大岡駅西口徒歩5分',
-        address: '神奈川県横浜市港南区（詳細は公式サイト参照）',
+        address: '神奈川県横浜市港南区上大岡西1-11-7 第10オーヴァルビル4F',
       },
     ],
   },
@@ -3850,7 +3851,7 @@ export const areaStudios: Record<string, AreaData> = {
         features: ['マシンピラティス専門', 'グループ', '女性専用'],
         description: 'LAVA系列のマシンピラティス専門・女性専用スタジオ。JR津田沼駅北口徒歩2分。',
         access: 'JR津田沼駅北口徒歩2分',
-        address: '千葉県船橋市（詳細は公式サイト参照）',
+        address: '千葉県船橋市前原西2-14-3 興松ビル 3・4F(受付3F)',
       },
     ],
   },
@@ -3881,7 +3882,7 @@ export const areaStudios: Record<string, AreaData> = {
         features: ['マシンピラティス専門', 'グループ', '女性専用'],
         description: 'LAVA系列のマシンピラティス専門・女性専用スタジオ。JR本八幡駅北口・都営新宿線本八幡駅から徒歩1分。',
         access: 'JR本八幡駅北口徒歩1分',
-        address: '千葉県市川市（詳細は公式サイト参照）',
+        address: '千葉県市川市八幡2-16-6八幡ハタビル5F',
       },
       {
         name: 'URBAN CLASSIC PILATES 本八幡店',
@@ -5775,7 +5776,7 @@ export const areaStudios: Record<string, AreaData> = {
         features: ['マシン（リフォーマー）', '女性専用', 'グループ', '駐車場あり'],
         description: 'LAVA系列のマシンピラティス専門・女性専用スタジオ。ららぽーと安城3F、駐車場あり。JR安城駅徒歩10分。',
         access: 'JR安城駅 徒歩10分（ららぽーと安城3F）',
-        address: '愛知県安城市三河安城町（ららぽーと安城3F）',
+        address: '愛知県安城市大東町9-30 ららぽーと安城3F',
       },
       {
         name: 'Pilates Studio excel 安城店',
@@ -6560,7 +6561,7 @@ export const areaStudios: Record<string, AreaData> = {
         features: ['女性専用', '87%以上が初心者', 'イオンモール直結', '全国250店舗以上で相互利用可'],
         description: 'イオンモール伊丹1Fにある全国チェーンのマシンピラティススタジオ。買い物ついでに通える立地と初心者中心の少人数サポートが強み。',
         access: 'JR伊丹駅デッキ直結 徒歩1分（阪急伊丹駅からも徒歩圏）',
-        address: '兵庫県伊丹市（イオンモール伊丹1F）',
+        address: '兵庫県伊丹市藤ノ木1-1-1 イオンモール伊丹1F',
       },
       {
         name: 'REVEARTH PILATES（リヴァース ピラティス）',
@@ -6703,7 +6704,7 @@ export const areaStudios: Record<string, AreaData> = {
         features: ['船橋駅徒歩2分', 'LAVA併用可', '男女共用', 'コスパ良好'],
         description: 'LAVA系列のマシンピラティス専門スタジオ。コスパよく通える。東船橋駅からは船橋駅エリア。',
         access: '東船橋駅から徒歩約20分（JR・京成・東武「船橋駅」徒歩2分）',
-        address: '千葉県船橋市本町7丁目（詳細は公式サイトでご確認ください）',
+        address: '千葉県船橋市本町7-7-1 船橋ツインビル西館7F',
       },
     ],
   },
@@ -6991,7 +6992,7 @@ export const areaStudios: Record<string, AreaData> = {
         features: ['女性専用', 'リフォーマー', 'セミパーソナル', '全国相互利用'],
         description: 'LAVA系列の女性専用マシンピラティス専門。リフォーマー使用で通いやすい月額制。',
         access: '蒲生駅から1駅・新越谷/南越谷駅徒歩1分（蒲生から徒歩約12〜15分または電車1駅）',
-        address: '埼玉県越谷市南越谷（詳細は公式サイト参照）',
+        address: '埼玉県越谷市南越谷1-19-3 パインズビル 3F',
       },
       {
         name: 'パーソナルマシンピラティスSAKURA 南越谷・新越谷店',

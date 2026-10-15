@@ -59,21 +59,6 @@ const studios = [
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
-  {
-    name: 'Rintosull（リントスル）大津店',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
-    image: '/images/studios/rintosull.webp',
-    price: '月4回 8,800円〜',
-    trial: '体験レッスンあり',
-    features: ['低価格', 'LAVA相互利用', 'マシン専門', '映像レッスン'],
-    description: 'ホットヨガLAVAの姉妹ブランド。月4回8,800円〜と低価格でLAVA全店との相互利用も可能。',
-    access: '大津市内（詳細は公式サイトでご確認ください）',
-    address: '滋賀県大津市（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: '人気プラン', description: 'ホットヨガLAVAの姉妹ブランド。月4回8,800円〜と低価格でLAVA全店との', price: '月4回 8,800円〜' },
-    options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
-  }
 ]
 
 const faqs = [
@@ -150,7 +135,7 @@ export default function OtsuPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">料金重視で選ぶなら。</p>
-                <ul className="space-y-2 text-sm"><li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li><li className="text-warm-700">• ピラティスK（月4回 11,220円〜）</li></ul>
+                <ul className="space-y-2 text-sm"><li className="text-warm-700">• ピラティスK（月4回 11,220円〜）</li></ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>

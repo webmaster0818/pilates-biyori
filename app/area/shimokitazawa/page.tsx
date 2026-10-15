@@ -17,7 +17,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/shimokitazawa/' },
-  title: '【2026年10月最新】下北沢のピラティス12社を比較｜無料体験1社・月額最安4,800円〜',
+  title: '【2026年10月最新】下北沢のピラティス11社を比較｜無料体験1社・月額最安4,800円〜',
   description: '下北沢エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,下北沢,東京,世田谷区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -181,17 +181,6 @@ const studios = [
     address: '東京都世田谷区（下北沢近隣）',
   },
   {
-    name: 'Rintosull 下北沢（近隣）',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
-    image: '/images/studios/rintosull.webp',
-    price: '月額制（プランにより異なる）',
-    trial: '体験レッスンあり',
-    features: ['女性専用', 'マシンピラティス', 'LAVA系列', 'ホットヨガ併用可'],
-    description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオ。リフォーマーを使った本格的なレッスンが受けられる。LAVAとの併用プランもあり、ヨガとピラティスの両方を楽しみたい方に最適。',
-    access: '下北沢駅から近隣エリア',
-    address: '東京都世田谷区（下北沢近隣）',
-  },
-  {
     name: 'ELEMENT 下北沢（近隣）',
     officialUrl: 'https://t.felmat.net/fmcl?ak=U11199J.1.V154352I.U1357808',
     image: '/images/studios/element.webp',
@@ -263,7 +252,7 @@ const faqs = [
   },
   {
     question: 'ピラティスとヨガの違いは？',
-    answer: 'ピラティスはインナーマッスルの強化・姿勢改善が中心、ヨガは柔軟性向上とリラクゼーションが中心です。Rintosullなら両方楽しめます。',
+    answer: 'ピラティスはインナーマッスルの強化・姿勢改善が中心、ヨガは柔軟性向上とリラクゼーションが中心です。',
   },
   {
     question: '肩こりや腰痛は改善しますか？',
@@ -271,7 +260,7 @@ const faqs = [
   },
   {
     question: '女性専用のスタジオはありますか？',
-    answer: 'NATURAglam、ピラティスK、Rintosullが女性専用です。周りの目を気にせず集中してレッスンを受けられます。',
+    answer: 'NATURAglam、ピラティスKが女性専用です。周りの目を気にせず集中してレッスンを受けられます。',
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめ？',
@@ -296,7 +285,7 @@ export default function ShimokitazawaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026年7月最新】ピラティス下北沢おすすめ12選！<br className="hidden md:block" />
+              【2026年7月最新】ピラティス下北沢おすすめ11選！<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！
             </h1>
           </div>
@@ -341,7 +330,7 @@ export default function ShimokitazawaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、下北沢エリア（世田谷区）でおすすめのピラティススタジオ12選をまとめました。小田急線・京王井の頭線が乗り入れる下北沢駅周辺は、演劇・古着・カフェなどサブカルチャーの街として知られていますが、実はピラティススタジオも充実しています。
+              そこでこの記事では、下北沢エリア（世田谷区）でおすすめのピラティススタジオ11選をまとめました。小田急線・京王井の頭線が乗り入れる下北沢駅周辺は、演劇・古着・カフェなどサブカルチャーの街として知られていますが、実はピラティススタジオも充実しています。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -381,7 +370,7 @@ export default function ShimokitazawaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              下北沢のおすすめピラティススタジオ12選
+              下北沢のおすすめピラティススタジオ11選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -527,7 +516,6 @@ export default function ShimokitazawaPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• NATURAglam（1回 1,073円〜）</li>
                   <li className="text-warm-700">• ピラティスK（月4回 11,220円〜）</li>
-                  <li className="text-warm-700">• Rintosull（LAVA系列）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -698,10 +686,10 @@ export default function ShimokitazawaPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は下北沢エリア（東京都世田谷区）のおすすめピラティススタジオ12選をご紹介しました。
+              今回は下北沢エリア（東京都世田谷区）のおすすめピラティススタジオ11選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              chocoZAPの月額3,278円やNATURAglamの1回1,073円〜というコスパ最強スタジオから、STUDIO IVYやPilates Studio Muniの本格パーソナルマシンピラティスまで、下北沢には多彩な選択肢が揃っています。女性専用スタジオもNATURAglam・ピラティスK・Rintosullの3つがあり、安心して通えます。
+              chocoZAPの月額3,278円やNATURAglamの1回1,073円〜というコスパ最強スタジオから、STUDIO IVYやPilates Studio Muniの本格パーソナルマシンピラティスまで、下北沢には多彩な選択肢が揃っています。女性専用スタジオもNATURAglam・ピラティスKの2つがあり、安心して通えます。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               サブカル・演劇・古着の街として知られる下北沢は、おしゃれなスタジオが多く、レッスン前後にカフェや古着屋巡りも楽しめる魅力的なエリアです。

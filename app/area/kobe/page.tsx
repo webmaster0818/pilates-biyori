@@ -209,44 +209,12 @@ const studios = [
       facilities: ['ロッカー', 'パウダールーム', '整体施術', '女性専用', '明るいスタジオ'],
     },
   },
-  {
-    name: 'Rintosull 神戸（4店舗）',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
-    image: '/images/studios/rintosull.webp',
-    price: '要問合せ',
-    trial: '体験レッスン あり',
-    features: ['女性専用', '神戸4店舗', '初心者歓迎', 'LAVAグループ'],
-    description: 'マシンピラティススタジオRintosull 神戸。三宮店、長田店、西神中央店、名谷インター店の4店舗展開。Rintosullでは、運動やピラティスを初めて行う方向けのプログラムをご用意しています。インストラクターがしっかりサポートいたしますので、ご安心ください。美尻や美脚に必要な筋肉にアプローチ。',
-    access: '神戸市内4店舗（三宮・長田・西神中央・名谷インター）',
-    address: '兵庫県神戸市（詳細は公式サイト参照）',
-    popularPlan: {
-      name: 'グループレッスン',
-      description: '初心者向けプログラム充実。美尻・美脚に特化したレッスンも。',
-      price: '要問合せ',
-    },
-    options: [
-      'グループレッスン',
-      'プライベートレッスン',
-      '初心者向けプログラム',
-      '4店舗相互利用可',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['初心者歓迎', '美尻・美脚', 'ボディメイク', '女性専用'],
-    },
-    basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '詳細は公式サイト参照',
-      facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', '女性専用', '4店舗展開'],
-    },
-  },
 ]
 
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！神戸エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。特にRintosull 神戸は初心者向けプログラムが充実しており、インストラクターがしっかりサポートしてくれるので安心して始められますよ。',
+    answer: '大丈夫です！神戸エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
@@ -303,7 +271,7 @@ export default async function KobeAreaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】神戸のピラティススタジオおすすめ7選！<br className="hidden md:block" />
+              【2026最新】神戸のピラティススタジオおすすめ6選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -346,7 +314,7 @@ export default async function KobeAreaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、神戸エリアでおすすめのピラティススタジオ7選をまとめました。
+              そこでこの記事では、神戸エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -385,7 +353,7 @@ export default async function KobeAreaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              神戸のおすすめピラティススタジオ7選
+              神戸のおすすめピラティススタジオ6選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -530,7 +498,6 @@ export default async function KobeAreaPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK 神戸三宮店</li>
                   <li className="text-warm-700">• La pilates 神戸元町店</li>
-                  <li className="text-warm-700">• Rintosull 神戸（4店舗）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -610,7 +577,6 @@ export default async function KobeAreaPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• STUDIO TOU 三宮（会員制）</li>
                   <li>• luluto 神戸店</li>
-                  <li>• Rintosull 神戸</li>
                 </ul>
               </div>
             </div>

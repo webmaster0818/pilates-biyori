@@ -211,38 +211,6 @@ const studios = [
       facilities: ['リフォーマー', 'マシンピラティス器具', '整体施術スペース', '更衣室'],
     },
   },
-  {
-    name: 'Rintosull 赤坂見附',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
-    image: '/images/studios/rintosull.webp',
-    price: 'マンスリー4 要確認',
-    trial: 'キャンペーン価格あり',
-    features: ['LAVA系列', 'マシン専門', '赤坂見附', '系列店相互利用'],
-    description: 'ホットヨガLAVA系列のマシンピラティス専門スタジオ。赤坂見附エリアに展開。プレミアムフリーフルタイム月額16,800円でRintosull・LAVA・BurnesStyle等の全店が利用可能。新規入会キャンペーンでは3ヶ月間月額1,980円の特別価格も。マンスリー4プランなら月4回のマシンピラティスレッスンが受けられます。',
-    access: '東京メトロ各線「赤坂見附駅」周辺',
-    address: '東京都港区赤坂エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: {
-      name: 'プレミアムフリーフルタイム',
-      description: 'Rintosull・LAVA・BurnesStyle等の全店が通い放題。ピラティスもヨガも楽しめる。',
-      price: '月額 16,800円（税込）+ 運営管理費680円',
-    },
-    options: [
-      'マンスリー4（月4回・1日1レッスン）',
-      '施設使用料 初回2,500円',
-      '運営管理費 毎月680円',
-      '新規入会キャンペーン（3ヶ月 月額1,980円）',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心（全体の80%）',
-      genderRatio: '女性95% / 男性5%',
-      purpose: ['ボディメイク', 'ダイエット', 'ヨガ&ピラティス両方', '健康維持'],
-    },
-    basicInfo: {
-      hours: '店舗により異なる（公式サイトでご確認ください）',
-      closed: '不定休',
-      facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'シャワー'],
-    },
-  },
 ]
 
 const faqs = [
@@ -272,7 +240,7 @@ const faqs = [
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。両方やりたい方はRintosullのプレミアムフリープランならLAVAのホットヨガも通い放題で便利です。',
+    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。',
   },
   {
     question: 'ピラティスで肩こりや腰痛は改善しますか？',
@@ -305,7 +273,7 @@ export default function AkasakaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス赤坂おすすめ7選！<br className="hidden md:block" />
+              ピラティス赤坂おすすめ6選！<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！
             </h1>
           </div>
@@ -350,7 +318,7 @@ export default function AkasakaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、赤坂エリアでおすすめのピラティススタジオ7選をまとめました。
+              そこでこの記事では、赤坂エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -390,7 +358,7 @@ export default function AkasakaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              赤坂のおすすめピラティススタジオ7選
+              赤坂のおすすめピラティススタジオ6選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -603,7 +571,6 @@ export default function AkasakaPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• the SILK（13,280円〜）</li>
                   <li>• Studio-BMP グループ（15,400円〜）</li>
-                  <li>• Rintosull（16,800円 通い放題）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">

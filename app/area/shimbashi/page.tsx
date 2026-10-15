@@ -264,37 +264,6 @@ const studios = [
     },
   },
   {
-    name: 'Rintosull 新橋（近隣）',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
-    image: '/images/studios/rintosull.webp',
-    price: 'お問い合わせください',
-    trial: '体験レッスン実施中',
-    features: ['女性専用', 'マシンピラティス', 'LAVA系列', '安心の大手'],
-    description: 'ホットヨガスタジオLAVA系列の女性専用マシンピラティススタジオ。大手ならではの安心感と質の高いプログラムが魅力。新橋近隣エリアからアクセス可能。LAVA会員との併用もおすすめ。',
-    access: 'JR「新橋駅」から近隣エリア',
-    address: '東京都港区（新橋近隣）',
-    popularPlan: {
-      name: 'マシンピラティスプラン',
-      description: '女性専用のマシンピラティスレッスン。LAVA系列の安心プログラム。',
-      price: 'お問い合わせください',
-    },
-    options: [
-      'マシンピラティスレッスン',
-      'LAVA会員特典あり',
-      '体験レッスン実施中',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'ヨガとの併用'],
-    },
-    basicInfo: {
-      hours: 'お問い合わせください',
-      closed: '店舗により異なる',
-      facilities: ['女性専用', 'マシン完備', 'シャワー', 'ロッカー'],
-    },
-  },
-  {
     name: 'URBAN CLASSIC PILATES 新橋（近隣）',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',

@@ -182,37 +182,6 @@ const studios = [
     },
   },
   {
-    name: 'Rintosull 大宮',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
-    image: '/images/studios/rintosull.webp',
-    price: '要問合せ',
-    trial: '体験レッスン あり',
-    features: ['LAVA運営', 'ホットヨガ併用可', '初心者87%', '相互利用可'],
-    description: 'ホットヨガスタジオLAVAを運営する会社が手がけるマシンピラティス専門スタジオ。会員様の87%以上がマシンピラティス未経験からスタート。初心者でも安心して取り組める環境づくりを大切にしています。Rintosull全店とLAVA全店を相互利用できるお得なプランも用意。',
-    access: '大宮エリア',
-    address: '埼玉県さいたま市大宮区（詳細は公式サイト参照）',
-    popularPlan: {
-      name: 'マシンピラティス通い放題プラン',
-      description: 'Rintosull全店でマシンピラティスが通い放題。初心者でも安心のサポート体制。',
-      price: '要問合せ',
-    },
-    options: [
-      'マシンピラティス＋ホットヨガ通い放題プラン',
-      'マシンピラティス＋ホットヨガ＋暗闇キックボクシング通い放題プラン',
-      'LAVA全店＋BurnesStyle全店相互利用可能',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性90% / 男性10%',
-      purpose: ['運動習慣づくり', 'ボディメイク', '姿勢改善', '複数エクササイズ併用'],
-    },
-    basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '詳細は公式サイト参照',
-      facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', 'LAVA併設'],
-    },
-  },
-  {
     name: 'the SILK 大宮店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
@@ -280,7 +249,7 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！大宮エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。特にRintosull 大宮は会員の87%以上がマシンピラティス未経験からスタートしており、初心者でも安心して始められますよ。',
+    answer: '大丈夫です！大宮エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しているので、初心者でも安心して始められますよ。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',

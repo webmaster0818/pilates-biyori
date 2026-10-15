@@ -173,37 +173,6 @@ const studios = [
     },
   },
   {
-    name: 'Rintosull 中野（近隣）',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
-    image: '/images/studios/rintosull.webp',
-    price: 'お問い合わせください',
-    trial: '体験レッスンあり',
-    features: ['女性専用', 'マシンピラティス', 'LAVA系列', '中野近隣'],
-    description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオ。リフォーマーを中心としたマシンピラティスを提供。LAVA会員との連携も可能で、ヨガとピラティスを両方楽しめます。',
-    access: '中野エリア近隣店舗',
-    address: '東京都中野区（中野近隣）',
-    popularPlan: {
-      name: 'マシンピラティスプラン',
-      description: 'LAVA系列の女性専用マシンピラティス。',
-      price: 'お問い合わせください',
-    },
-    options: [
-      'マシンピラティスレッスン',
-      'LAVA会員連携',
-      '体験レッスン',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'ヨガとの併用'],
-    },
-    basicInfo: {
-      hours: 'お問い合わせください',
-      closed: '不定休',
-      facilities: ['リフォーマー', 'ロッカー', '更衣室', 'シャワー'],
-    },
-  },
-  {
     name: 'URBAN CLASSIC PILATES 中野',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
@@ -445,7 +414,7 @@ export default function NakanoPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス中野おすすめ12選！<br className="hidden md:block" />
+              【2026最新】ピラティス中野おすすめ11選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -488,7 +457,7 @@ export default function NakanoPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、JR中央線・総武線の中野駅や丸ノ内線の新中野駅周辺で通えるおすすめのピラティススタジオ12選をまとめました。マシンピラティス専門店からパーソナル、ホットヨガ併設、セルフ型まで幅広くご紹介します。
+              そこでこの記事では、JR中央線・総武線の中野駅や丸ノ内線の新中野駅周辺で通えるおすすめのピラティススタジオ11選をまとめました。マシンピラティス専門店からパーソナル、ホットヨガ併設、セルフ型まで幅広くご紹介します。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -528,7 +497,7 @@ export default function NakanoPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              中野のおすすめピラティススタジオ12選
+              中野のおすすめピラティススタジオ11選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -686,7 +655,6 @@ export default function NakanoPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• noa（マシン専門）</li>
                   <li className="text-warm-700">• ピラティスミラー（駅南口徒歩2分）</li>
-                  <li className="text-warm-700">• Rintosull（LAVA系列）</li>
                   <li className="text-warm-700">• NATURAglam（ヨガ&ピラティス）</li>
                   <li className="text-warm-700">• AGNIYOGA（エアリアルも）</li>
                 </ul>
@@ -847,7 +815,7 @@ export default function NakanoPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は中野エリアのおすすめピラティススタジオ12選をご紹介しました。
+              今回は中野エリアのおすすめピラティススタジオ11選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               中野はJR中央線で新宿まで約5分、中野ブロードウェイやサンモール商店街など活気あるサブカルの街です。マットグループ月4回9,625円〜のzen place、女性専用マシン専門のnoa、駅南口徒歩2分のピラティスミラー、完全個室パーソナルのSTUDIO IVY、世界最大級チェーンのCLUB PILATES、予約不要30分のURBAN CLASSIC、マンツーマン30分のELEMENT、月額3,278円のchocoZAPなど、多彩なスタジオが揃っています。

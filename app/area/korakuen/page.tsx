@@ -565,7 +565,7 @@ export default function KorakuenPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ダイエット、姿勢改善、体幹強化など目的によって最適なスタジオは変わります。パーソナルならSTUDIO IVY、コスパ重視ならRintosull。
+                  ダイエット、姿勢改善、体幹強化など目的によって最適なスタジオは変わります。パーソナルならSTUDIO IVY。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

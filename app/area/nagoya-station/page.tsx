@@ -84,7 +84,7 @@ const studios = [
   },
 
   {
-    name: 'Rintosull 名古屋',
+    name: 'Rintosull 名古屋駅前店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
     price: '月4回 8,800円〜',
@@ -92,7 +92,7 @@ const studios = [
     features: ['女性専用', 'マシンピラティス', '月4回8,800円〜', 'スクリーン指導'],
     description: '女性専用のマシンピラティススタジオ。大型スクリーンの映像とインストラクターのダブル指導で、正しいフォームを効率的に習得できる独自メソッド。月4回8,800円〜のリーズナブルな価格設定で、マシンピラティスを気軽に始められます。清潔感のあるスタジオ環境で、女性が安心して通えます。',
     access: '名古屋駅エリア',
-    address: '愛知県名古屋市（名古屋駅エリア）',
+    address: '愛知県名古屋市西区牛島町6-24 アクロスキューブ名古屋 7F',
     popularPlan: { name: '月4回プラン', description: '女性専用マシンピラティス。スクリーン+インストラクターのダブル指導。', price: '月4回 8,800円（税込）〜' },
     options: ['月4回プラン（8,800円〜）', '月8回プラン', '通い放題プラン', '体験レッスン'],
     userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', 'ダイエット', '姿勢改善', '運動不足解消'] },

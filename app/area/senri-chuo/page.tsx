@@ -244,7 +244,7 @@ export default function SenriChuoPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              千里中央は北摂エリアの中心地で、梅田に比べて料金はやや抑えめ。WECLEの24時間通い放題やRintosullの月額8,800円〜など、コスパの良い選択肢が揃っています。近隣の<Link href="/area/toyonaka/" className="text-warm-700 underline hover:text-warm-900">豊中</Link>エリアと比較検討する方も多いです。
+              千里中央は北摂エリアの中心地で、梅田に比べて料金はやや抑えめ。WECLEの24時間通い放題など、コスパの良い選択肢が揃っています。近隣の<Link href="/area/toyonaka/" className="text-warm-700 underline hover:text-warm-900">豊中</Link>エリアと比較検討する方も多いです。
             </p>
           </div>
         </section>
@@ -334,7 +334,6 @@ export default function SenriChuoPage() {
                   通い放題プランでお得に。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Rintosull（月額 8,800円〜）</li>
                   <li className="text-warm-700">• WECLE（月額 9,800円〜）</li>
                 </ul>
               </div>
@@ -398,7 +397,6 @@ export default function SenriChuoPage() {
                   コスパ重視の方に。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Rintosull（8,800円〜）</li>
                   <li>• WECLE（9,800円〜）</li>
                 </ul>
               </div>

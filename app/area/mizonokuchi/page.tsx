@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/mizonokuchi/' },
-  title: '【2026年10月最新】ピラティス溝の口おすすめ5選！人気スタジオの料金プランを簡単比較！',
-  description: '溝の口エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス溝の口おすすめ4選！人気スタジオの料金プランを簡単比較！',
+  description: '溝の口エリアのおすすめピラティススタジオ4選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,溝の口,武蔵溝ノ口,高津区,川崎市,神奈川,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -75,32 +75,17 @@ const studios = [
     userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', '姿勢改善', 'ダイエット', '運動不足解消'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマーマシン', '天井ミラー', 'フィッティングルーム（カーテン仕切り）', '荷物置きBOX（鍵なし）'] },
   },
-  {
-    name: 'Rintosull 溝の口店',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
-    image: '/images/studios/rintosull.webp', reviewCount: 108,
-    price: '月4回 8,800円〜', trial: '体験レッスン 無料',
-    features: ['LAVA系列', '女性専用', 'コスパ抜群', '初心者87%'],
-    description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオ。月4回8,800円のリーズナブルな料金。大型スクリーン映像に合わせてレッスンが進み、インストラクターが個別サポート。87%以上が初心者で未経験者も安心。',
-    access: '東急田園都市線「溝の口駅」周辺',
-    address: '神奈川県川崎市高津区溝口エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'マシンピラティス月4回プラン', description: 'リフォーマーを使った本格マシンピラティス。1回あたり2,200円のコスパ。', price: '月4回 8,800円（税込）' },
-    options: ['2スタジオ通い放題（13,800円）', '全国通い放題（16,800円）', 'プレミアムフリーフルタイム（18,800円・LAVA等全店利用可）', '無料体験あり'],
-    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', 'ダイエット', 'ヨガ&ピラティス両方', '健康維持'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマーマシン', '大型スクリーン', '更衣室', 'ロッカー', 'シャワー'] },
-  },
 ]
 
 const faqs = [
-  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！溝の口エリアのスタジオはほとんどが初心者歓迎。Rintosullは87%以上が初心者、CLUB PILATESは4段階のレベル分けがあります。' },
+  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！溝の口エリアのスタジオはほとんどが初心者歓迎。CLUB PILATESは4段階のレベル分けがあります。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。溝の口はマシン専門スタジオが特に充実しています。' },
-  { question: '溝の口のピラティスの料金相場は？', answer: 'グループ月4回で8,800円〜14,190円程度。Rintosullが月4回8,800円で最安級。通い放題ならpilates K 16,170円、CLUB PILATES 通い放題 37,290円。' },
+  { question: '溝の口のピラティスの料金相場は？', answer: 'グループ月4回で8,800円〜14,190円程度。通い放題ならpilates K 16,170円、CLUB PILATES 通い放題 37,290円。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。通い放題プランなら好きなだけ通えます。' },
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。' },
-  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。pilates K・Rintosull・CLUB PILATESは無料体験。zen placeはグループ1,000円で体験できます。' },
-  { question: '男性でも通えるスタジオはありますか？', answer: 'zen place溝の口とCLUB PILATESは男性も通えます。pilates K・ピラティスミラー・Rintosullは女性専用です。' },
+  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。pilates K・CLUB PILATESは無料体験。zen placeはグループ1,000円で体験できます。' },
+  { question: '男性でも通えるスタジオはありますか？', answer: 'zen place溝の口とCLUB PILATESは男性も通えます。pilates K・ピラティスミラーは女性専用です。' },
   { question: '溝の口駅からの所要時間は？', answer: 'zen placeが徒歩2分で最寄り。pilates Kが徒歩3分、CLUB PILATESが徒歩4分。全スタジオ駅から徒歩5分圏内です。' },
-  { question: 'ヨガとピラティスの両方やりたい場合は？', answer: 'Rintosullはプレミアムフリーフルタイム（18,800円）でLAVA等系列のヨガスタジオも全国で利用可能です。' },
   { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。' },
 ]
 
@@ -121,7 +106,7 @@ export default function MizonokuchiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス溝の口おすすめ5選！<br className="hidden md:block" />
+              【2026最新】ピラティス溝の口おすすめ4選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -164,7 +149,7 @@ export default function MizonokuchiPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、溝の口・武蔵溝ノ口エリアでおすすめのピラティススタジオ5選をまとめました。
+              そこでこの記事では、溝の口・武蔵溝ノ口エリアでおすすめのピラティススタジオ4選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -203,7 +188,7 @@ export default function MizonokuchiPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              溝の口のおすすめピラティススタジオ5選
+              溝の口のおすすめピラティススタジオ4選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -244,7 +229,7 @@ export default function MizonokuchiPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              溝の口は東急田園都市線・JR南武線が交差する交通の要衝で、大手チェーンのスタジオが充実しています。Rintosullの月4回8,800円から、CLUB PILATESの通い放題 37,290円まで幅広い選択肢があり、予算に合わせて選びやすいエリアです。近隣の<Link href="/area/futakotamagawa/" className="text-warm-700 underline hover:text-warm-900">二子玉川</Link>や<Link href="/area/musashikosugi/" className="text-warm-700 underline hover:text-warm-900">武蔵小杉</Link>エリアと比較検討する方も多いです。
+              溝の口は東急田園都市線・JR南武線が交差する交通の要衝で、大手チェーンのスタジオが充実しています。月4回プランからCLUB PILATESの通い放題 37,290円まで幅広い選択肢があり、予算に合わせて選びやすいエリアです。近隣の<Link href="/area/futakotamagawa/" className="text-warm-700 underline hover:text-warm-900">二子玉川</Link>や<Link href="/area/musashikosugi/" className="text-warm-700 underline hover:text-warm-900">武蔵小杉</Link>エリアと比較検討する方も多いです。
             </p>
           </div>
         </section>
@@ -265,7 +250,7 @@ export default function MizonokuchiPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">女性専用と男女共用を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  溝の口エリアはpilates K・ピラティスミラー・Rintosullが女性専用、zen place・CLUB PILATESが男女共用です。男性の方は事前に対応スタジオを確認しましょう。
+                  溝の口エリアはpilates K・ピラティスミラーが女性専用、zen place・CLUB PILATESが男女共用です。男性の方は事前に対応スタジオを確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -333,7 +318,6 @@ export default function MizonokuchiPage() {
                   月額1万円以下で通えるスタジオ。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li>
                   <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
                 </ul>
               </div>
@@ -344,7 +328,6 @@ export default function MizonokuchiPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• pilates K（月4回 13,420円〜）</li>
-                  <li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -398,7 +381,6 @@ export default function MizonokuchiPage() {
                   コスパ重視。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Rintosull（8,800円/月4回）</li>
                   <li>• ピラティスミラー（11,000円/月6回）</li>
                 </ul>
               </div>
@@ -460,7 +442,7 @@ export default function MizonokuchiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  pilates K・Rintosull・CLUB PILATESは無料体験。zen placeは1,000円で体験可能。まずは2-3スタジオ比較がおすすめ。
+                  pilates K・CLUB PILATESは無料体験。zen placeは1,000円で体験可能。まずは2-3スタジオ比較がおすすめ。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

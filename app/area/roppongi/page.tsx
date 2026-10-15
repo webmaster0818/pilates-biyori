@@ -203,37 +203,6 @@ const studios = [
     },
   },
   {
-    name: 'Rintosull 六本木（近隣）',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
-    image: '/images/studios/rintosull.webp',
-    price: 'LAVA系列（料金はお問い合わせ）',
-    trial: '体験レッスンあり',
-    features: ['女性専用', 'マシンピラティス', 'LAVA系列', '安心の大手'],
-    description: 'ホットヨガスタジオLAVA系列の女性専用マシンピラティススタジオ。LAVA会員は併用しやすく、ヨガとピラティスの両方を楽しめます。大手ならではの安心感と充実したサポート体制が魅力。六本木近隣で通いやすい立地。',
-    access: '六本木近隣',
-    address: '東京都港区（六本木近隣）',
-    popularPlan: {
-      name: 'マシンピラティスレッスン',
-      description: 'LAVA系列の女性専用マシンピラティス。充実したサポート体制で初心者も安心。',
-      price: 'お問い合わせください',
-    },
-    options: [
-      'マシンピラティスレッスン',
-      'LAVA会員優待あり',
-      '体験レッスン',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%',
-      purpose: ['ボディメイク', 'ダイエット', '姿勢改善', 'ヨガとの併用'],
-    },
-    basicInfo: {
-      hours: 'お問い合わせください',
-      closed: '不定休',
-      facilities: ['リフォーマー完備', 'ロッカー', 'パウダールーム', 'シャワー'],
-    },
-  },
-  {
     name: 'ELEMENT 六本木',
     officialUrl: 'https://t.felmat.net/fmcl?ak=U11199J.1.V154352I.U1357808',
     image: '/images/studios/element.webp',
@@ -349,7 +318,7 @@ const faqs = [
   { question: '肩こりや腰痛は改善しますか？', answer: 'はい、ピラティスは姿勢改善を通じて肩こりや腰痛の根本原因にアプローチします。特にパーソナルレッスンでは個別の悩みに合わせたプログラムを組んでもらえます。' },
   { question: 'どのくらいで効果が出ますか？', answer: '個人差はありますが、2ヶ月を過ぎた頃から姿勢の変化や体の軽さを実感する方が多いです。ボディラインの変化は3〜6ヶ月程度で感じられます。' },
   { question: 'パーソナルとグループ、どちらがおすすめ？', answer: '目的や予算によります。パーソナルは効果が出やすく個別対応が可能。グループは費用を抑えながら楽しく続けられます。六本木エリアにはSTUDIO IVY、All Present Pilates、スタジオMiiAなどパーソナル専門スタジオが充実しています。グループならzen place pilates、CLUB PILATES、ピラティスKがおすすめです。' },
-  { question: '女性専用のスタジオはありますか？', answer: 'はい、六本木エリアにはピラティスK、Rintosull、ピラティスミラーなど女性専用スタジオがあります。周りの目を気にせず集中したい方におすすめです。' },
+  { question: '女性専用のスタジオはありますか？', answer: 'はい、六本木エリアにはピラティスK、ピラティスミラーなど女性専用スタジオがあります。周りの目を気にせず集中したい方におすすめです。' },
   { question: '短時間で効果のあるレッスンはありますか？', answer: 'ELEMENT六本木はマンツーマン30分のレッスンで、短時間ながら効率的にトレーニングできます。ピラティスミラーもプライベート30分4,400円〜で受けられます。忙しい方にもぴったりです。' },
 ]
 
@@ -470,7 +439,7 @@ export default function RoppongiPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>が必須。ピラティスは全身の可動域を使うため、動きを妨げない服を選びましょう。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体にフィットする服</strong>がベスト。パーソナルレッスンではインストラクターがフォームを細かくチェックします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>レンタル対応</strong>スタジオもあり。ピラティスKやRintosullはウェアレンタルが利用できる場合があります。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>レンタル対応</strong>スタジオもあり。ピラティスKはウェアレンタルが利用できる場合があります。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリーは外して</strong>ロッカーに預けましょう。マシンのバネに引っかかる恐れがあります。</span></li>
                   </ul>
                 </div>

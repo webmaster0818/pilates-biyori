@@ -210,38 +210,6 @@ const studios = [
     },
   },
   {
-    name: 'Rintosull 目白店',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
-    image: '/images/studios/rintosull.webp',
-    price: '月4回 8,800円〜',
-    trial: '体験レッスンあり',
-    features: ['女性専用', 'LAVA系列', 'コスパ抜群', '目白駅近（高田馬場隣駅）'],
-    description: 'ホットヨガスタジオLAVA系列の女性専用マシンピラティススタジオ。JR山手線「目白駅」から徒歩圏内で、高田馬場からも1駅。マシンピラティスとホットヨガの両方を楽しめます。月4回8,800円〜のコスパの良い料金設定。初心者が87%以上で安心して始められます。',
-    access: 'JR山手線「目白駅」徒歩圏内 / 高田馬場から山手線で1駅',
-    address: '東京都豊島区目白（目白駅徒歩圏内）',
-    popularPlan: {
-      name: 'マシンピラティス月4回',
-      description: 'リフォーマーマシンを使った女性専用グループレッスン。LAVA系列ならではのリーズナブルな料金。',
-      price: '月4回 8,800円（税込）〜',
-    },
-    options: [
-      'マシンピラティス月4回（8,800円〜）',
-      'ホットヨガ併用プラン',
-      '通い放題プラン',
-      '体験レッスンあり',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ダイエット', 'ボディメイク', '姿勢改善', 'リフレッシュ'],
-    },
-    basicInfo: {
-      hours: '平日 9:00〜21:00 / 土日祝 9:00〜18:00',
-      closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', '女性専用'],
-    },
-  },
-  {
     name: 'ピラティスミラー 高田馬場店',
     image: '/images/studios/pilates-mirror.webp',
     price: '1回 4,400円〜',
@@ -371,7 +339,7 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！高田馬場エリアのスタジオは初心者が87%以上のスタジオ（Rintosull）もあり、どのスタジオも初心者向けプログラムを用意しています。体験レッスンから気軽に始められますよ。',
+    answer: '大丈夫です！高田馬場エリアのスタジオはどこも初心者向けプログラムを用意しています。体験レッスンから気軽に始められますよ。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
@@ -395,7 +363,7 @@ const faqs = [
   },
   {
     question: 'ピラティスとヨガの違いは？',
-    answer: 'ピラティスは体幹（インナーマッスル）の強化が中心で、身体の機能改善に重点を置きます。ヨガは柔軟性向上とリラックス・精神面のケアが中心です。RintosullやCALDOでは両方受けられます。',
+    answer: 'ピラティスは体幹（インナーマッスル）の強化が中心で、身体の機能改善に重点を置きます。ヨガは柔軟性向上とリラックス・精神面のケアが中心です。CALDOでは両方受けられます。',
   },
   {
     question: '肩こりや腰痛は改善しますか？',
@@ -427,7 +395,7 @@ export default function TakadanobabaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026年7月最新】ピラティス高田馬場おすすめ11選！<br className="hidden md:block" />
+              【2026年7月最新】ピラティス高田馬場おすすめ10選！<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！
             </h1>
           </div>
@@ -460,7 +428,7 @@ export default function TakadanobabaPage() {
             <p className="text-warm-600 leading-relaxed mb-6">「駅近でコスパの良いスタジオを知りたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、高田馬場駅を中心に早稲田・目白・新大久保など近隣エリアも含めたおすすめピラティススタジオ11選をまとめました。
+              そこでこの記事では、高田馬場駅を中心に早稲田・目白・新大久保など近隣エリアも含めたおすすめピラティススタジオ10選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -482,7 +450,7 @@ export default function TakadanobabaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              高田馬場のおすすめピラティススタジオ11選
+              高田馬場のおすすめピラティススタジオ10選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -615,7 +583,6 @@ export default function TakadanobabaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• chocoZAP（月額3,278円・24時間）</li>
-                  <li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li>
                   <li className="text-warm-700">• NATURAglam（月4回 8,800円〜）</li>
                   <li className="text-warm-700">• zen place（マット月4回 9,625円〜）</li>
                   <li className="text-warm-700">• URBAN CLASSIC PILATES（月4回 9,680円）</li>
@@ -640,7 +607,6 @@ export default function TakadanobabaPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• the SILK（体験無料）</li>
                   <li className="text-warm-700">• ピラティスK（新宿店）</li>
-                  <li className="text-warm-700">• Rintosull（目白店）</li>
                 </ul>
               </div>
             </div>
@@ -685,7 +651,6 @@ export default function TakadanobabaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• chocoZAP（月額 3,278円）</li>
-                  <li>• Rintosull（月4回 8,800円〜）</li>
                   <li>• NATURAglam（月4回 8,800円〜）</li>
                   <li>• zen place（マット月4回 9,625円〜）</li>
                   <li>• URBAN CLASSIC PILATES（月4回 9,680円）</li>
@@ -802,13 +767,13 @@ export default function TakadanobabaPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は高田馬場のおすすめピラティススタジオ11選をご紹介してきましたが、いかがでしたか？
+              今回は高田馬場のおすすめピラティススタジオ10選をご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               高田馬場はJR山手線・西武新宿線・東京メトロ東西線の3路線が利用でき、新宿まで2駅・池袋まで3駅という好アクセス。早稲田大学が近く学生の街としても知られるこのエリアには、月額3,278円のchocoZAPから本格パーソナルのSTUDIO IVYまで、幅広い価格帯のスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              コスパ重視ならRintosullやNATURAglam、女性専用ならthe SILKやピラティスK、パーソナルならSTUDIO IVYやELEMENT、予約不要の気軽さならURBAN CLASSIC PILATESやchocoZAPと、目的や予算に合わせて選んでみてください。
+              コスパ重視ならNATURAglam、女性専用ならthe SILKやピラティスK、パーソナルならSTUDIO IVYやELEMENT、予約不要の気軽さならURBAN CLASSIC PILATESやchocoZAPと、目的や予算に合わせて選んでみてください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
