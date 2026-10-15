@@ -114,38 +114,6 @@ const studios = [
     },
   },
   {
-    name: 'zen place pilates 本町スタジオ',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 10,450円〜',
-    trial: 'グループ体験 1,000円',
-    features: ['全国展開', '男性OK', 'マット&マシン', '堺筋本町徒歩3分'],
-    description: 'ピラティス専門の大手スタジオ。本町駅7番出口から徒歩5分、堺筋本町駅13・15番出口から徒歩3分。マットグループ・マシングループ・プライベートの3タイプから選べます。全国80店舗以上で相互利用可能。男性も歓迎。',
-    access: '大阪メトロ御堂筋線「本町駅」7番出口 徒歩5分 / 堺筋線「堺筋本町駅」13・15番出口 徒歩3分',
-    address: '大阪府大阪市中央区本町2-3-4 アソルティ本町ビル 3F',
-    popularPlan: {
-      name: 'フリープラン（マットグループ）',
-      description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。',
-      price: '月額 14,960円（税込）',
-    },
-    options: [
-      '月4回プラン（10,450円〜）',
-      'マシングループ体験（3,000円）',
-      'プライベートレッスン（体験 9,900円）',
-      '他グレード店舗利用（差額あり）',
-    ],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
-      purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
-    },
-    basicInfo: {
-      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
-      closed: '不定休',
-      facilities: ['リフォーマー', 'マット', 'ロッカー', '更衣室'],
-    },
-  },
-  {
     name: 'SHIN pilates studio 堺筋本町店',
     image: '/images/studios/shin-pilates-honmachi.webp',
     price: 'グループ 1回 3,300円〜',
@@ -235,7 +203,7 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！本町エリアのスタジオはほとんどが初心者歓迎。STABEは理学療法士監修で安心、zen placeはグループ体験1,000円で気軽にスタートできます。',
+    answer: '大丈夫です！本町エリアのスタジオはほとんどが初心者歓迎。STABEは理学療法士監修で安心してスタートできます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
@@ -243,7 +211,7 @@ const faqs = [
   },
   {
     question: '本町エリアのピラティスの料金相場は？',
-    answer: 'グループ1回3,300円〜、月4回で10,450円〜12,100円程度。zen placeが月4回10,450円〜。パーソナルはスタジオカラーズが1回8,800円〜。',
+    answer: 'グループ1回3,300円〜、月4回で10,450円〜12,100円程度。パーソナルはスタジオカラーズが1回8,800円〜。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -255,7 +223,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。zen placeはグループ1,000円、ヴィオラトリコロールは3,000円で体験可能。',
+    answer: '動きやすい服装と飲み物があればOK。ヴィオラトリコロールは3,000円で体験可能。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
@@ -263,7 +231,7 @@ const faqs = [
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'zen place本町、スタジオカラーズ、STABEは男性も通えます。',
+    answer: 'スタジオカラーズ、STABEは男性も通えます。',
   },
   {
     question: '産前産後でも通えますか？',
@@ -292,7 +260,7 @@ export default function HonmachiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス本町おすすめ7選！<br className="hidden md:block" />
+              【2026最新】ピラティス本町おすすめ6選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -335,7 +303,7 @@ export default function HonmachiPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、本町・堺筋本町エリアでおすすめのピラティススタジオ7選をまとめました。
+              そこでこの記事では、本町・堺筋本町エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -374,7 +342,7 @@ export default function HonmachiPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              本町のおすすめピラティススタジオ7選
+              本町のおすすめピラティススタジオ6選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -506,7 +474,6 @@ export default function HonmachiPage() {
                   月額1万円台で通えるスタジオ。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
                   <li className="text-warm-700">• ヴィオラトリコロール（月4回 12,100円〜）</li>
                 </ul>
               </div>
@@ -570,7 +537,6 @@ export default function HonmachiPage() {
                   グループレッスン中心。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place（10,450円〜/月4回）</li>
                   <li>• ヴィオラトリコロール（12,100円/月4回）</li>
                 </ul>
               </div>
@@ -631,7 +597,7 @@ export default function HonmachiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  zen placeはグループ体験1,000円、ヴィオラトリコロールは3,000円で体験可能。気軽に試してみましょう。
+                  ヴィオラトリコロールは3,000円で体験可能。気軽に試してみましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

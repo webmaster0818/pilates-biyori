@@ -22,38 +22,6 @@ export const metadata = {
 
 const studios = [
   {
-    name: 'zen place pilates',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 9,625円〜',
-    trial: '体験レッスン あり',
-    features: ['全国150店舗', 'マット＆マシン', '男性OK', '全店相互利用可'],
-    description: '全国150店舗以上を展開する日本最大級のピラティススタジオ。22年の実績と累計500万回以上のレッスン提供。マットグループ、マシングループ、プライベートレッスンと多彩なプログラム。全店舗相互利用可能で、自宅近くや職場近くなど生活シーンに合わせて自由に利用できます。医療機関も推奨する高品質なレッスンを提供。',
-    access: '東京都内に多数展開',
-    address: '東京都内（詳細は公式サイト参照）',
-    popularPlan: {
-      name: 'マットグループ 月4',
-      description: 'マットピラティスのグループレッスン。初心者にもおすすめの基本プラン。',
-      price: '月4回 9,625円（税込）',
-    },
-    options: [
-      'フリープラン（通い放題 14,960円）',
-      'マット＆マシングループ MM22（各2回 12,650円）',
-      'リフォーマーグループ RG4（月4回 15,400円）',
-      'プライベートレッスン（月4回 33,880円）',
-    ],
-    userProfile: {
-      ageRange: '20代〜60代まで幅広い',
-      genderRatio: '女性85% / 男性15%',
-      purpose: ['姿勢改善', '体幹強化', 'ボディメイク', 'リハビリ'],
-    },
-    basicInfo: {
-      hours: '店舗により異なる（早朝〜夜まで開催）',
-      closed: '店舗により異なる',
-      facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', 'マシン完備', '男女共用'],
-    },
-  },
-  {
     name: 'ピラティスK',
     officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
@@ -250,12 +218,8 @@ const studios = [
 
 const faqs = [
   {
-    question: '東京でピラティス初心者におすすめのスタジオはどこですか？',
-    answer: 'zen place pilatesがおすすめです。全国150店舗以上を展開し、22年の実績があります。初心者向けのプログラムが充実しており、全店舗相互利用可能なので、自宅や職場近くで通いやすい店舗を選べます。マットグループなら月4回9,625円からと始めやすい価格帯です。',
-  },
-  {
     question: '東京で一番安いピラティススタジオはどこですか？',
-    answer: 'zen place pilatesが月4回9,625円で最も安く通えます。また、CLUB PILATESは体験レッスンが無料なので、まずは試してみたい方におすすめです。ピラティスKも無料体験を実施しています。',
+    answer: 'CLUB PILATESは体験レッスンが無料なので、まずは試してみたい方におすすめです。ピラティスKも無料体験を実施しています。',
   },
   {
     question: '女性専用のピラティススタジオはありますか？',
@@ -263,7 +227,7 @@ const faqs = [
   },
   {
     question: '体験レッスンはありますか？料金はいくらですか？',
-    answer: 'ほとんどのスタジオで体験レッスンを実施しています。CLUB PILATESとピラティスKは無料。zen place pilatesやその他スタジオは有料ですが、入会すると入会金が無料になるなどの特典があります。まずは2〜3つのスタジオで体験してみるのがおすすめです。',
+    answer: 'ほとんどのスタジオで体験レッスンを実施しています。CLUB PILATESとピラティスKは無料。その他スタジオは有料ですが、入会すると入会金が無料になるなどの特典があります。まずは2〜3つのスタジオで体験してみるのがおすすめです。',
   },
   {
     question: 'マシンピラティスとマットピラティスの違いは何ですか？',
@@ -528,10 +492,9 @@ export default async function TokyoAreaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">全国最大級の実績</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  22年の実績と累計500万回以上のレッスン。安心感を重視する方に。
+                  安心感を重視する方に。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates</li>
                   <li className="text-warm-700">• CLUB PILATES</li>
                 </ul>
               </div>
@@ -605,16 +568,6 @@ export default async function TokyoAreaPage() {
               予算別の料金相場
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">
-                  マットグループレッスン中心。初心者向けの基本的なレッスンが多い。
-                </p>
-                <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates（月4回 9,625円）</li>
-                </ul>
-              </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 10,000〜20,000円</h3>
@@ -624,7 +577,6 @@ export default async function TokyoAreaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（月4回 13,420円）</li>
-                  <li>• zen place マシングループ（月4回 15,400円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -634,7 +586,6 @@ export default async function TokyoAreaPage() {
                   完全プライベートレッスン。短期集中で結果を出したい方向け。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place プライベート（月4回 33,880円）</li>
                   <li>• K Village Pilates（パーソナル専門）</li>
                 </ul>
               </div>
@@ -682,7 +633,7 @@ export default async function TokyoAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  どんなに良いスタジオでも、通いにくい場所にあると続きません。渋谷・新宿・池袋・銀座・六本木など、自宅や職場から通いやすいエリアのスタジオを選びましょう。zen place pilatesのように全店舗相互利用できるスタジオなら、生活シーンに合わせて柔軟に利用できます。
+                  どんなに良いスタジオでも、通いにくい場所にあると続きません。渋谷・新宿・池袋・銀座・六本木など、自宅や職場から通いやすいエリアのスタジオを選びましょう。
                 </p>
               </div>
             </div>

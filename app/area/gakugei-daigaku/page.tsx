@@ -112,38 +112,6 @@ const studios = [
     },
   },
   {
-    name: 'zen place pilates（東横線沿線）',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    image: '/images/studios/zen-place-pilates.webp',
-    price: 'マットグループ 月4回 9,625円〜',
-    trial: '体験レッスン 500円〜',
-    features: ['マット&マシン', '東横線沿線で相互利用', 'AI姿勢分析', '男性OK'],
-    description: '全国150店舗以上展開の大手ピラティススタジオ。東急東横線沿線に複数店舗があり、学芸大学から中目黒・渋谷などの店舗を相互利用可能。マットグループ、マシングループ、プライベートに対応。有資格インストラクターが在籍し、AIによる姿勢分析で効果を実感しやすい。',
-    access: '東急東横線沿線に複数店舗（学芸大学から利用しやすい）',
-    address: '東京都（東急東横線沿線に複数店舗）',
-    popularPlan: {
-      name: 'リフォーマーグループ（月4回）',
-      description: 'マシンを使ったグループレッスン。少人数制で丁寧な指導。',
-      price: '月4回 15,400円（税込）〜',
-    },
-    options: [
-      'マットグループ（月4回 9,625円〜）',
-      'リフォーマーグループ（月4回 15,400円〜）',
-      'フリープラン（月16,940円〜）',
-      'プライベート（1回 9,900円〜）',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性80% / 男性20%',
-      purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
-    },
-    basicInfo: {
-      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
-      closed: '月末不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi'],
-    },
-  },
-  {
     name: 'Dr.ピラティス 学芸大学店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11979O.1.Z164554L.U1357808',
     image: '/images/studios/dr-pilates.webp',
@@ -159,7 +127,7 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！学芸大学のスタジオは初心者歓迎。ピラティスミラーは体験2,200円、zen placeは体験500円〜で気軽に始められます。',
+    answer: '大丈夫です！学芸大学のスタジオは初心者歓迎。ピラティスミラーは体験2,200円で気軽に始められます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
@@ -167,7 +135,7 @@ const faqs = [
   },
   {
     question: '学芸大学エリアの料金相場は？',
-    answer: 'グループは月6回11,000円〜、マットグループは月4回9,625円〜。パーソナルは月2回15,000円〜28,000円程度です。',
+    answer: 'グループは月6回11,000円〜。パーソナルは月2回15,000円〜28,000円程度です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -216,7 +184,7 @@ export default function GakugeiDaigakuPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス学芸大学おすすめ5選！<br className="hidden md:block" />
+              【2026最新】ピラティス学芸大学おすすめ4選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -262,7 +230,7 @@ export default function GakugeiDaigakuPage() {
               東急東横線「学芸大学駅」は、おしゃれなカフェやパン屋が並ぶ住みたい街として人気のエリア。そんな学芸大学には、コスパの良いスタジオからパーソナル専門、子連れOKのスタジオまで、個性豊かなピラティススタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、学芸大学エリアでおすすめのピラティススタジオ5選をまとめました。
+              そこでこの記事では、学芸大学エリアでおすすめのピラティススタジオ4選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -297,7 +265,7 @@ export default function GakugeiDaigakuPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              学芸大学のおすすめピラティススタジオ5選
+              学芸大学のおすすめピラティススタジオ4選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -430,7 +398,6 @@ export default function GakugeiDaigakuPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
-                  <li className="text-warm-700">• zen place（マット月4回 9,625円〜）</li>
                   <li className="text-warm-700">• STUDIO IVY（月2回 15,000円〜）</li>
                 </ul>
               </div>
@@ -477,7 +444,7 @@ export default function GakugeiDaigakuPage() {
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">健康管理目的の方</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。zen placeのマットグループなら月4回9,625円〜で始められます。
+                週1回のペースで無理なく継続。
               </p>
             </div>
           </div>
@@ -497,7 +464,6 @@ export default function GakugeiDaigakuPage() {
                   定額でお得に通えるプラン。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place（マット月4回 9,625円〜）</li>
                   <li>• ピラティスミラー（月6回 11,000円）</li>
                 </ul>
               </div>
@@ -511,7 +477,6 @@ export default function GakugeiDaigakuPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• STUDIO IVY（月2回 15,000円）</li>
                   <li>• STUDIO IVY（月4回 28,000円）</li>
-                  <li>• zen place リフォーマー（15,400円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -522,7 +487,6 @@ export default function GakugeiDaigakuPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスミラー（30分 4,400円）</li>
-                  <li>• zen place（プライベート 9,900円〜）</li>
                 </ul>
               </div>
             </div>
@@ -551,7 +515,7 @@ export default function GakugeiDaigakuPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  学芸大学エリアはグループ月4回9,625円〜、パーソナル月2回15,000円〜と幅広い価格帯。まずは体験レッスンでスタジオの雰囲気を確認しましょう。
+                  学芸大学エリアはグループ月6回11,000円〜、パーソナル月2回15,000円〜と幅広い価格帯。まずは体験レッスンでスタジオの雰囲気を確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -560,7 +524,7 @@ export default function GakugeiDaigakuPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  zen placeは500円〜、ピラティスミラーは2,200円で体験できます。複数のスタジオを体験して比較するのがおすすめです。
+                  ピラティスミラーは2,200円で体験できます。複数のスタジオを体験して比較するのがおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -612,7 +576,7 @@ export default function GakugeiDaigakuPage() {
               今回は学芸大学のおすすめピラティススタジオをご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              学芸大学はコナミ運営のピラティスミラー（月6回11,000円）からSTUDIO IVYのパーソナル、子連れOKのYUZU、東横線沿線で相互利用できるzen placeまで、ライフスタイルに合わせたスタジオが揃っています。おしゃれなカフェやパン屋が並ぶ住みたい街で、ピラティスのある生活を始めてみませんか。
+              学芸大学はコナミ運営のピラティスミラー（月6回11,000円）からSTUDIO IVYのパーソナル、子連れOKのYUZUまで、ライフスタイルに合わせたスタジオが揃っています。おしゃれなカフェやパン屋が並ぶ住みたい街で、ピラティスのある生活を始めてみませんか。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               ぜひ自分に合うスタジオを見つけてくださいね。

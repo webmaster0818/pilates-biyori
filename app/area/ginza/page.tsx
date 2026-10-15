@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/ginza/' },
-  title: '【2026年10月最新】ピラティス銀座おすすめ10選！人気スタジオの料金プランを簡単比較！',
-  description: '【2026年4月最新】銀座のおすすめピラティススタジオ10選を徹底比較。グループ月4回9,625円〜の料金相場、女性専用・マシン充実のスタジオ情報、選び方まで完全網羅。',
+  title: '【2026年10月最新】ピラティス銀座おすすめ9選！人気スタジオの料金プランを簡単比較！',
+  description: '【2026年4月最新】銀座のおすすめピラティススタジオ9選を徹底比較。グループ月4回9,625円〜の料金相場、女性専用・マシン充実のスタジオ情報、選び方まで完全網羅。',
   keywords: 'ピラティス,銀座,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -138,17 +138,6 @@ const studios = [
     address: '東京都中央区銀座1-20-5 銀座清和ビル6F',
   },
   {
-    name: 'zen place pilates 銀座四丁目スタジオ',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    image: '/images/studios/zen-place-pilates.webp',
-    price: 'マットグループ 月4回 9,625円〜',
-    trial: '体験レッスン 500円〜',
-    features: ['マット&マシン', '東銀座駅徒歩1分', '男性OK', '初心者歓迎'],
-    description: 'zen placeの銀座エリア2店舗目。東銀座駅5番出口から徒歩1分。マットグループ、マシングループ、プライベートレッスンと幅広く対応。銀座二丁目店と他店利用も可能。',
-    access: '日比谷線「東銀座駅」5番出口 徒歩1分',
-    address: '東京都中央区銀座（東銀座駅徒歩1分）',
-  },
-  {
     name: 'the SILK 銀座一丁目店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
@@ -253,7 +242,7 @@ export default function GinzaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス銀座おすすめ10選！<br className="hidden md:block" />
+              【2026最新】ピラティス銀座おすすめ9選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -296,7 +285,7 @@ export default function GinzaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、銀座エリアでおすすめのピラティススタジオ10選をまとめました。
+              そこでこの記事では、銀座エリアでおすすめのピラティススタジオ9選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -335,7 +324,7 @@ export default function GinzaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              銀座のおすすめピラティススタジオ10選
+              銀座のおすすめピラティススタジオ9選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -542,7 +531,7 @@ export default function GinzaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">銀座1丁目〜8丁目で立地が分散</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  銀座エリアはスタジオが1丁目から8丁目まで広範囲に点在しています。銀座駅・銀座一丁目駅・東銀座駅・有楽町駅のどの駅を使うかでアクセスのしやすさが変わります。zen placeは銀座二丁目と四丁目に2スタジオ、the SILKも銀座・銀座一丁目と複数展開。通勤経路に合わせて選びましょう。
+                  銀座エリアはスタジオが1丁目から8丁目まで広範囲に点在しています。銀座駅・銀座一丁目駅・東銀座駅・有楽町駅のどの駅を使うかでアクセスのしやすさが変わります。zen placeは銀座二丁目、the SILKは銀座・銀座一丁目と複数展開。通勤経路に合わせて選びましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

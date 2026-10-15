@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/yokohama/' },
-  title: '【2026年10月最新】ピラティス横浜おすすめ11選！人気スタジオの料金プランを簡単比較！',
-  description: '【2026年4月最新】横浜のおすすめピラティススタジオ11選を徹底比較。グループ月4回9,625円〜の料金相場、駅近・女性専用・パーソナル対応のスタジオ情報、体験レッスンの持ち物まで完全網羅。',
+  title: '【2026年10月最新】ピラティス横浜おすすめ10選！人気スタジオの料金プランを簡単比較！',
+  description: '【2026年4月最新】横浜のおすすめピラティススタジオ10選を徹底比較。グループ月4回9,625円〜の料金相場、駅近・女性専用・パーソナル対応のスタジオ情報、体験レッスンの持ち物まで完全網羅。',
   keywords: 'ピラティス,横浜,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -172,38 +172,6 @@ const studios = [
       hours: '月・火・木・金 7:00-21:00 / 水 8:00-21:00 / 土日 7:00-18:30',
       closed: '不定休',
       facilities: ['リフォーマー', 'スプリングボード', 'TRX', 'チェア', 'Bosu', 'プライベートルーム'],
-    },
-  },
-  {
-    name: 'zen place pilates 横浜みなみ西口',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 9,625円〜',
-    trial: '体験レッスンあり',
-    features: ['マット&マシン', '男性OK', 'デイタイムプランあり', '全国相互利用可'],
-    description: 'zen place pilatesの横浜みなみ西口スタジオ。マットグループ・リフォーマーグループ・マット&マシンコンボ・プライベートと多彩なレッスン形式を提供。デイタイムプランなど料金プランも豊富で、ライフスタイルに合わせた通い方が可能。男性も受講でき、全国のzen placeスタジオで相互利用可能です。',
-    access: 'JR・東急東横線・京急本線・相鉄線 横浜駅西口 徒歩10分',
-    address: '神奈川県横浜市西区南幸2-19-4 南幸折目ビル 8F',
-    popularPlan: {
-      name: 'マット&マシンコンボ月4回',
-      description: 'マットとリフォーマーの両方が受講可能。バランスよくピラティスを学びたい方に最適。',
-      price: '月4回 12,650円（税込）',
-    },
-    options: [
-      'マットグループフリー（月額14,960円）',
-      'マットグループデイタイム（月額11,968円）',
-      'リフォーマーグループ月8回（月額25,300円）',
-      'プライベート月4回（月額33,880円）',
-    ],
-    userProfile: {
-      ageRange: '30代〜50代が中心（全体の70%）',
-      genderRatio: '女性85% / 男性15%',
-      purpose: ['姿勢改善', '体幹強化', '柔軟性向上', '健康維持'],
-    },
-    basicInfo: {
-      hours: '平日 8:20〜20:55 / 土日祝 8:50〜19:25',
-      closed: '不定休',
-      facilities: ['マットスタジオ', 'リフォーマーマシン', 'プライベートルーム', '更衣室', 'ロッカー'],
     },
   },
   {
@@ -376,7 +344,7 @@ export default function YokohamaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス横浜おすすめ11選！<br className="hidden md:block" />
+              【2026最新】ピラティス横浜おすすめ10選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -419,7 +387,7 @@ export default function YokohamaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、横浜エリアでおすすめのピラティススタジオ11選をまとめました。
+              そこでこの記事では、横浜エリアでおすすめのピラティススタジオ10選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -458,7 +426,7 @@ export default function YokohamaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              横浜のおすすめピラティススタジオ11選
+              横浜のおすすめピラティススタジオ10選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -573,7 +541,6 @@ export default function YokohamaPage() {
                   完全プライベートレッスン。短期集中で結果を出したい方向け。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place プライベート（33,880円〜）</li>
                   <li>• ルルト（完全マンツーマン）</li>
                 </ul>
               </div>

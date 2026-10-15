@@ -368,7 +368,7 @@ const faqs = [
   },
   {
     question: '新橋エリアのピラティススタジオの料金相場は？',
-    answer: '新橋エリアのピラティススタジオの料金相場は、グループレッスン月4回で3,278円〜12,980円程度。パーソナルレッスンは1回3,300円〜22,000円と幅があります。chocoZAPのセルフマシンなら月額3,278円、zen placeのマットグループなら月4回9,625円〜と、リーズナブルな選択肢も豊富です。',
+    answer: '新橋エリアのピラティススタジオの料金相場は、グループレッスン月4回で3,278円〜12,980円程度。パーソナルレッスンは1回3,300円〜22,000円と幅があります。chocoZAPのセルフマシンなら月額3,278円と、リーズナブルな選択肢も豊富です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -396,7 +396,7 @@ const faqs = [
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'それぞれ良さがあります。パーソナル（CREA、STUDIO IVY、ELEMENTなど）は一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方におすすめ。グループ（zen place、ピラティスK、CLUB PILATESなど）は料金が安く、仲間と楽しく続けられるのが魅力。まずは体験で両方試してみるのがいいですよ。',
+    answer: 'それぞれ良さがあります。パーソナル（CREA、STUDIO IVY、ELEMENTなど）は一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方におすすめ。グループ（ピラティスK、CLUB PILATESなど）は料金が安く、仲間と楽しく続けられるのが魅力。まずは体験で両方試してみるのがいいですよ。',
   },
 ]
 
@@ -589,7 +589,6 @@ export default function ShimbashiPage() {
                 <p className="text-warm-600 text-sm mb-4">月額1万円以下から通えるスタジオ。グループレッスンやセルフマシンで気軽に始められます。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• chocoZAP 新橋（月額 3,278円）</li>
-                  <li className="text-warm-700">• zen place pilates（マット月4回 9,625円〜）</li>
                   <li className="text-warm-700">• URBAN CLASSIC PILATES（月4回 9,680円）</li>
                 </ul>
               </div>
@@ -641,7 +640,6 @@ export default function ShimbashiPage() {
                 <p className="text-sm text-warm-600 mb-4">セルフマシンやマットグループで気軽に始められます。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• chocoZAP（月額 3,278円）</li>
-                  <li>• zen place（マット月4回 9,625円〜）</li>
                   <li>• URBAN CLASSIC PILATES（月4回 9,680円）</li>
                 </ul>
               </div>

@@ -234,38 +234,6 @@ const studios = [
       facilities: ['ロッカー', 'パウダールーム', 'マシン完備'],
     },
   },
-  {
-    name: 'zen place pilates 岡山',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 9,625円〜',
-    trial: '体験レッスン あり',
-    features: ['全国150店舗', 'マット＆マシン', '男性OK', '岡山駅近く'],
-    description: 'zen place pilates 岡山スタジオ。全国150店舗以上を展開する大手ピラティススタジオ。マットグループ、マシン（リフォーマー）グループ、プライベートのレッスンがあり、男性もOK。初心者から経験者まで幅広く対応。全店舗相互利用可能。',
-    access: '岡山駅近く（詳細は公式サイト参照）',
-    address: '岡山県岡山市（詳細は公式サイト参照）',
-    popularPlan: {
-      name: 'マットグループ 月4',
-      description: 'マットピラティスのグループレッスン。初心者にもおすすめの基本プラン。',
-      price: '月4回 9,625円（税込）',
-    },
-    options: [
-      'フリープラン（通い放題 14,960円）',
-      'マット＆マシングループ MM22（各2回 12,650円）',
-      'リフォーマーグループ RG4（月4回 15,400円）',
-      'プライベートレッスン（月4回 33,880円）',
-    ],
-    userProfile: {
-      ageRange: '20代〜60代まで幅広い',
-      genderRatio: '女性85% / 男性15%',
-      purpose: ['姿勢改善', '体幹強化', 'ボディメイク', 'リハビリ'],
-    },
-    basicInfo: {
-      hours: '詳細は公式サイト参照（早朝〜夜まで開催）',
-      closed: '不定休',
-      facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', 'マシン完備', '男女共用'],
-    },
-  },
 ]
 
 const faqs = [
@@ -275,11 +243,11 @@ const faqs = [
   },
   {
     question: '岡山駅から一番近いピラティススタジオはどこですか？',
-    answer: 'La pilates 岡山駅前店が、岡山駅より徒歩5分で最もアクセスが良いです。また、zen place pilates 岡山も岡山駅近くにあります。路面電車沿線のスタジオも多いので、公共交通機関での通いやすさも確認してみてください。',
+    answer: 'La pilates 岡山駅前店が、岡山駅より徒歩5分で最もアクセスが良いです。路面電車沿線のスタジオも多いので、公共交通機関での通いやすさも確認してみてください。',
   },
   {
     question: '岡山で一番安いピラティススタジオはどこですか？',
-    answer: 'zen place pilates 岡山の月4回9,625円が最もリーズナブルです。パーソナルならピラティススタジオDEP 岡山店が月2回14,800円〜（税込）、初回体験は2,980円（税込・LINE予約限定）です。体験レッスンはピラティスK 岡山店とCLUB PILATES 岡山店が無料で受けられます。',
+    answer: 'パーソナルならピラティススタジオDEP 岡山店が月2回14,800円〜（税込）、初回体験は2,980円（税込・LINE予約限定）です。体験レッスンはピラティスK 岡山店とCLUB PILATES 岡山店が無料で受けられます。',
   },
   {
     question: '女性専用のピラティススタジオはありますか？',
@@ -307,7 +275,7 @@ const faqs = [
   },
   {
     question: '倉敷方面からでも通えるスタジオはありますか？',
-    answer: 'zen place pilates 岡山やピラティスK 岡山店は岡山駅周辺に位置しており、JR山陽本線で倉敷からもアクセスしやすいです。ピラティスK 岡山店は無料駐車場25台完備なので、お車での通いも便利です。',
+    answer: 'ピラティスK 岡山店は岡山駅周辺に位置しており、JR山陽本線で倉敷からもアクセスしやすいです。ピラティスK 岡山店は無料駐車場25台完備なので、お車での通いも便利です。',
   },
 ]
 
@@ -328,7 +296,7 @@ export default async function OkayamaAreaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】岡山のピラティススタジオおすすめ8選！<br className="hidden md:block" />
+              【2026最新】岡山のピラティススタジオおすすめ7選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -371,7 +339,7 @@ export default async function OkayamaAreaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、岡山エリアでおすすめのピラティススタジオ8選をまとめました。
+              そこでこの記事では、岡山エリアでおすすめのピラティススタジオ7選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -519,7 +487,7 @@ export default async function OkayamaAreaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              岡山のおすすめピラティススタジオ8選
+              岡山のおすすめピラティススタジオ7選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -542,7 +510,6 @@ export default async function OkayamaAreaPage() {
                   月額10,000円以下で通える格安スタジオ。体験レッスン無料のスタジオも。コスパ重視の方におすすめ。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates 岡山（月4回 9,625円〜）</li>
                   <li className="text-warm-700">• ピラティススタジオDEP 岡山店（初回体験 2,980円）</li>
                 </ul>
               </div>
@@ -554,7 +521,6 @@ export default async function OkayamaAreaPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK 岡山店</li>
                   <li className="text-warm-700">• CLUB PILATES 岡山店</li>
-                  <li className="text-warm-700">• zen place pilates 岡山</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -564,7 +530,6 @@ export default async function OkayamaAreaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• La pilates 岡山駅前店（岡山駅徒歩5分）</li>
-                  <li className="text-warm-700">• zen place pilates 岡山（岡山駅近く）</li>
                   <li className="text-warm-700">• studio kua（表町エリア）</li>
                 </ul>
               </div>
@@ -602,16 +567,6 @@ export default async function OkayamaAreaPage() {
               予算別の料金相場
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。手軽に始めたい方向け。パーソナルも格安あり。
-                </p>
-                <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates 岡山（9,625円〜）</li>
-                </ul>
-              </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 10,000〜15,000円</h3>

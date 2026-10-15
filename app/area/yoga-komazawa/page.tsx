@@ -32,7 +32,7 @@ const studios = [
     features: ['用賀駅徒歩3分', 'BASI認定', '男性OK', '全国相互利用'],
     description: 'ピラティス専門の大手スタジオ。用賀駅東口から徒歩3分。BASIピラティス認定インストラクターが在籍し、AIによる姿勢分析も導入。マットグループ・マシングループ・プライベートの3タイプ。全国150店舗以上で相互利用可能。',
     access: '東急田園都市線「用賀駅」東口 徒歩3分',
-    address: '東京都世田谷区用賀4-3-1 プラザ・テラスA棟 3F',
+    address: '東京都世田谷区用賀4丁目3-3 ブァイデビル 3階',
     popularPlan: {
       name: 'フリープラン（マットグループ）',
       description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。',
@@ -56,7 +56,7 @@ const studios = [
     },
   },
   {
-    name: 'zen place pilates 駒沢大学スタジオ',
+    name: 'zen place pilates 駒沢スタジオ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
@@ -64,7 +64,7 @@ const studios = [
     features: ['駒沢大学駅徒歩4分', '駒沢公園近く', '男性OK', '全国相互利用'],
     description: '駒沢大学駅駒沢公園口から徒歩4分のピラティス専門スタジオ。駒沢公園の近くで落ち着いた環境。マットグループ・マシングループ・プライベートの3タイプのレッスンを提供。全国のzen place店舗で相互利用可能。',
     access: '東急田園都市線「駒沢大学駅」駒沢公園口 徒歩4分',
-    address: '東京都世田谷区駒沢2-6-2 プラザK 2F',
+    address: '東京都目黒区東が丘2丁目12-20 リュウ フランシュビル B1階',
     popularPlan: {
       name: 'フリープラン（マットグループ）',
       description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。',

@@ -466,7 +466,6 @@ export default function KorakuenPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• STUDIO IVY（完全パーソナル）</li>
-                  <li className="text-warm-700">• zen place pilates（プライベート対応）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">

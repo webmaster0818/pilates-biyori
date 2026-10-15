@@ -182,39 +182,6 @@ const studios = [
     },
   },
   {
-    name: 'zen place pilates 高円寺（近隣エリア）',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 10,450円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['男女共用', '少人数制', '高円寺駅近', '全国150店舗相互利用'],
-    description: '全国展開の大手ピラティススタジオ。阿佐ヶ谷から中央線で1駅の高円寺駅近。マットグループ、マシン（リフォーマー）グループ、プライベートのレッスンがあり、男性もOK。医療機関も推奨している、質の高いレッスンでいつまでもアクティブに人生を愉しめます。全国150店舗がすべて利用可能で、中央線沿線のスタジオ（阿佐ヶ谷・荻窪・高円寺）を自由に使い分けられます。',
-    access: '高円寺駅より徒歩圏内（阿佐ヶ谷から中央線で1駅）',
-    address: '東京都杉並区（高円寺エリア、詳細住所は公式サイト参照）',
-    popularPlan: {
-      name: 'マットグループ月4',
-      description: 'マットグループレッスン月4回。全国150店舗どこでも受講可能',
-      price: '10,450円/月（税込）',
-    },
-    options: [
-      'フリープラン（回数無制限）: 16,940円/月',
-      'デイフリー（平日昼のみ無制限）: 13,552円/月',
-      'マットグループ月6: 14,520円/月',
-      'リフォーマーグループRG4（月4回）: 15,400円/月',
-      'プライベート月4: 38,280円/月',
-    ],
-    userProfile: {
-      ageRange: '20代〜60代まで幅広い',
-      genderRatio: '女性70% / 男性30%',
-      purpose: ['運動不足解消', '姿勢改善', '健康維持', 'リフレッシュ'],
-    },
-    basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '不定休',
-      facilities: ['ロッカー', '更衣室（男女別）', 'ウォーターサーバー'],
-    },
-  },
-  {
     name: 'Pilates Mee阿佐ヶ谷店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
@@ -299,7 +266,7 @@ export default function AsagayaAreaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス阿佐ヶ谷おすすめ7選！<br className="hidden md:block" />
+              【2026最新】ピラティス阿佐ヶ谷おすすめ6選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -342,7 +309,7 @@ export default function AsagayaAreaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、阿佐ヶ谷・南阿佐ヶ谷エリアでおすすめのピラティススタジオ7選をまとめました。
+              そこでこの記事では、阿佐ヶ谷・南阿佐ヶ谷エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -381,7 +348,7 @@ export default function AsagayaAreaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              阿佐ヶ谷・南阿佐ヶ谷のおすすめピラティススタジオ7選
+              阿佐ヶ谷・南阿佐ヶ谷のおすすめピラティススタジオ6選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -515,7 +482,6 @@ export default function AsagayaAreaPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates 阿佐ヶ谷（月4回 9,625円〜）</li>
                   <li className="text-warm-700">• zen place pilates 荻窪（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• zen place pilates 高円寺（月4回 10,450円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -593,7 +559,6 @@ export default function AsagayaAreaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates 荻窪（10,450円〜）</li>
-                  <li>• zen place pilates 高円寺（10,450円〜）</li>
                   <li>• リフォーマーグループ（15,400円）</li>
                 </ul>
               </div>
@@ -653,7 +618,7 @@ export default function AsagayaAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  どんなに良いスタジオでも、通いにくい場所にあると続きません。阿佐ヶ谷はJR中央線・総武線と丸ノ内線が利用でき、七夕まつりの街として知られる杉並区の人気エリアです。駅から近いスタジオを選ぶと、仕事帰りやお出かけついでにも通えて便利ですよ。中央線沿線の荻窪・高円寺のスタジオも1駅で行けるので、zen place pilatesの全国150店舗相互利用なら各店舗を自由に使い分けられます。
+                  どんなに良いスタジオでも、通いにくい場所にあると続きません。阿佐ヶ谷はJR中央線・総武線と丸ノ内線が利用でき、七夕まつりの街として知られる杉並区の人気エリアです。駅から近いスタジオを選ぶと、仕事帰りやお出かけついでにも通えて便利ですよ。中央線沿線の荻窪のスタジオも1駅で行けるので、zen place pilatesの全国150店舗相互利用なら各店舗を自由に使い分けられます。
                 </p>
               </div>
             </div>

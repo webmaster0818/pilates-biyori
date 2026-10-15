@@ -21,38 +21,6 @@ export const metadata = {
 
 const studios = [
   {
-    name: 'zen place pilates なんばスタジオ',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['マシン完備', '初心者歓迎', 'なんば駅徒歩3分', 'インストラクター養成'],
-    description: '全国展開の大手ピラティススタジオ。なんば駅から徒歩3分の好立地。マットピラティスからマシンピラティスまで豊富なレッスンメニュー。ミナミの中心・なんばで、地下鉄・近鉄・南海が利用可能。大阪第2のターミナル。道頓堀・心斎橋に隣接し、若者・観光客多数。商業・娯楽の一大拠点。経験豊富なインストラクターが一人ひとりに合わせた丁寧な指導を提供します。',
-    access: 'なんば駅から徒歩3分',
-    address: '大阪府大阪市中央区難波3-5-17 なんばLCビル 7F',
-    popularPlan: {
-      name: 'フリープラン（月4回）',
-      description: 'マット・マシンどちらも受講可能な人気プラン。ミナミの中心で通いやすい。',
-      price: '月4回 13,200円（税込）',
-    },
-    options: [
-      'プライベートレッスン追加（1回 9,900円〜）',
-      'ウェアレンタル（月額 2,200円）',
-      'タオルレンタル（月額 1,100円）',
-      'インストラクター養成コース（別途）',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心（全体の80%）',
-      genderRatio: '女性90% / 男性10%',
-      purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
-    },
-    basicInfo: {
-      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
-      closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'ウォーターサーバー'],
-    },
-  },
-  {
     name: 'ピラティスK なんば',
     officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',

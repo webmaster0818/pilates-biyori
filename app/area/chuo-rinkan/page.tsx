@@ -121,33 +121,6 @@ const studios = [
     },
   },
   {
-    name: 'zen place pilates（田園都市線沿線）',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['全国展開大手', 'マット&マシン完備', '全店舗利用可能', '男女共用'],
-    description: '全国130店舗以上の大手。田園都市線沿線のスタジオを利用可能。全店舗利用可能プランで柔軟に通えます。',
-    access: '田園都市線沿線のスタジオを利用可能',
-    address: '田園都市線沿線各スタジオ（詳細は公式サイトでご確認ください）',
-    popularPlan: {
-      name: '全国展開大手プラン',
-      description: '全国130店舗以上の大手。田園都市線沿線のスタジオを利用可能。全店舗利用可能プランで柔軟に通えます。',
-      price: '月4回 13,200円〜',
-    },
-    options: ['全国展開大手', 'マット&マシン完備', '全店舗利用可能', '男女共用', '体験レッスン 1,000円'],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
-      purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'],
-    },
-    basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '不定休',
-      facilities: ['リフォーマー', '更衣室', 'ロッカー'],
-    },
-  },
-  {
     name: 'Pilates Mee中央林間店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
@@ -175,11 +148,11 @@ const studios = [
 const faqs = [
   { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！中央林間エリアのスタジオは初心者歓迎がほとんど。Rintosull 中央林間店は女性専用で安心。まずは体験レッスンから始めてみましょう。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマーなどの専用マシンを使います。マシンはバネで負荷調整ができ初心者にもおすすめ。中央林間エリアではマシンピラティス対応スタジオが充実しています。' },
-  { question: '中央林間のピラティスの料金相場は？', answer: 'Rintosull 中央林間店はプレミアムプラン 月額10,978円（税込）、LAVA 中央林間店は月額8,800円〜、zen place pilates（田園都市線沿線）は月4回 13,200円〜。目的と頻度に合わせて選びましょう。' },
+  { question: '中央林間のピラティスの料金相場は？', answer: 'Rintosull 中央林間店はプレミアムプラン 月額10,978円（税込）、LAVA 中央林間店は月額8,800円〜。目的と頻度に合わせて選びましょう。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめ。慣れてきたら週2〜3回に。最低2〜3ヶ月は継続しましょう。' },
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えて基礎代謝が上がり、太りにくい体質に変わります。2〜3ヶ月の継続で効果を実感する方が多いです。' },
-  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。Rintosull 中央林間店は体験無料キャンペーン実施中、zen place pilates（田園都市線沿線）は体験レッスン 1,000円。' },
-  { question: '男性でも通えるスタジオはありますか？', answer: 'Lucio 中央林間店、INSIGHT ピラティス＆トレーニング 中央林間、LAVA 中央林間店、zen place pilates（田園都市線沿線）は男性もOKです。は女性専用です。' },
+  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。Rintosull 中央林間店は体験無料キャンペーン実施中。' },
+  { question: '男性でも通えるスタジオはありますか？', answer: 'Lucio 中央林間店、INSIGHT ピラティス＆トレーニング 中央林間、LAVA 中央林間店は男性もOKです。' },
   { question: '中央林間駅からのアクセスは？', answer: '中央林間駅は東急田園都市線・小田急江ノ島線が利用でき、渋谷まで田園都市線で約40分。各スタジオとも駅から徒歩圏内でアクセス良好です。' },
   { question: 'パーソナルレッスンを受けたいのですが？', answer: 'Lucio 中央林間店がパーソナルレッスンに対応しています。' },
   { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '個人差はありますが、2ヶ月を過ぎた頃から変化を実感する方が多いです。週1〜2回で最低2〜3ヶ月の継続がおすすめです。' },
@@ -196,20 +169,20 @@ export default function ChuoRinkanPage() {
         { name: '中央林間', url: 'https://biyori-pilates.com/area/chuo-rinkan/' },
       ]} />
       <main className="pt-20 bg-white">
-        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス中央林間おすすめ6選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1></div></section>
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス中央林間おすすめ5選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1></div></section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">中央林間</span></nav></div></section>
         <TableOfContents areaName="中央林間" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p><p className="text-warm-600 leading-relaxed mb-6">Pilates-Biyori編集部です！</p><p className="text-warm-600 leading-relaxed mb-6">あなたは、</p><p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p><p className="text-warm-600 leading-relaxed mb-6">「中央林間で人気のピラティススタジオを知りたい」</p><p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
             <p className="text-warm-600 leading-relaxed mb-8">中央林間は東急田園都市線・小田急江ノ島線が利用でき、渋谷まで田園都市線で約40分の好アクセスエリア。東急田園都市線と小田急江ノ島線の2路線が利用可能な利便性の高い街。閑静な住宅街でファミリー層に人気。そんな中央林間エリアには、多彩なピラティススタジオが揃っています。</p>
-            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、中央林間エリアでおすすめの実在するピラティススタジオ6選をまとめました。</p>
+            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、中央林間エリアでおすすめの実在するピラティススタジオ5選をまとめました。</p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8"><h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2><ul className="space-y-2 text-warm-700"><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>中央林間でピラティススタジオを探している</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>コスパの良いスタジオを知りたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>東急田園都市線・小田急江ノ島線沿線で通いやすいスタジオがいい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較したい</span></li></ul></div>
             <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
           </div>
         </section>
         <PriceComparisonTable studios={studios} areaName="中央林間" />
-        <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">中央林間のおすすめピラティススタジオ6選</h2><div className="space-y-8">{[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
+        <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">中央林間のおすすめピラティススタジオ5選</h2><div className="space-y-8">{[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
 
         <section className="py-16 bg-white" id="price-market">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">

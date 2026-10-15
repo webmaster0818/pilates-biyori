@@ -15,8 +15,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/meidaimae/' },
-  title: '【2026年10月最新】ピラティス明大前おすすめ5選！料金・体験レッスン・マシン対応を比較！',
-  description: '明大前エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス明大前おすすめ4選！料金・体験レッスン・マシン対応を比較！',
+  description: '明大前エリアのおすすめピラティススタジオ4選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,明大前,東京,世田谷区,杉並区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -50,38 +50,6 @@ const studios = [
       hours: '店舗にお問い合わせください',
       closed: '店舗にお問い合わせください',
       facilities: ['ロッカー', 'マシン完備'],
-    },
-  },
-  {
-    name: 'zen place pilates 明大前（近隣）',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    image: '/images/studios/zen-place-pilates.webp',
-    price: 'マットグループ月4回 9,625円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['マット&マシン', '初心者歓迎', '全国店舗利用可', '男性OK'],
-    description: '全国150店舗以上展開の大手ピラティススタジオ。世界水準の教育を受けたインストラクターが本格的なピラティスレッスンを提供。マットグループ、マシン（リフォーマー）グループ、プライベートレッスンと幅広いメニュー。マットグループ月4回9,625円〜。男性も利用可能。',
-    access: '明大前駅から近隣エリア',
-    address: '東京都（明大前近隣）',
-    popularPlan: {
-      name: 'マットグループ月4回プラン',
-      description: 'マットグループレッスンを月4回受講できる人気プラン。',
-      price: '月4回 9,625円〜（税込）',
-    },
-    options: [
-      'マットグループ月4回（9,625円〜）',
-      'マットグループ月6回（13,200円〜）',
-      'フリープラン（15,400円〜）',
-      'プライベートレッスン追加（1回 9,900円〜）',
-    ],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性85% / 男性15%',
-      purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
-    },
-    basicInfo: {
-      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
-      closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi'],
     },
   },
   {
@@ -180,7 +148,7 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！明大前エリアのスタジオはほとんどが初心者歓迎。URBAN CLASSIC PILATESは予約不要で30分のサーキット形式なので気軽に始められます。zen place pilatesは初心者向けクラスが充実しており、Re&Pilatesは少人数制で丁寧な指導が受けられます。',
+    answer: '大丈夫です！明大前エリアのスタジオはほとんどが初心者歓迎。URBAN CLASSIC PILATESは予約不要で30分のサーキット形式なので気軽に始められます。Re&Pilatesは少人数制で丁寧な指導が受けられます。',
   },
   {
     question: '明大前のピラティス料金相場はどのくらいですか？',
@@ -192,7 +160,7 @@ const faqs = [
   },
   {
     question: 'マシンピラティスとマットピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。zen place pilatesは両方に対応しています。',
+    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -236,7 +204,7 @@ export default function MeidaimaePage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス明大前おすすめ5選！<br className="hidden md:block" />
+              【2026最新】ピラティス明大前おすすめ4選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -265,7 +233,7 @@ export default function MeidaimaePage() {
             <p className="text-warm-600 leading-relaxed mb-6">「明大前で人気のピラティススタジオを知りたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、京王線・京王井の頭線「明大前駅」周辺でおすすめのピラティススタジオ5選をまとめました。明大前は京王線と井の頭線の乗り換え駅として利便性が高く、新宿にも渋谷にもアクセス抜群。学生街の雰囲気と閑静な住宅地が共存する落ち着いたエリアです。
+              そこでこの記事では、京王線・京王井の頭線「明大前駅」周辺でおすすめのピラティススタジオ4選をまとめました。明大前は京王線と井の頭線の乗り換え駅として利便性が高く、新宿にも渋谷にもアクセス抜群。学生街の雰囲気と閑静な住宅地が共存する落ち着いたエリアです。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -286,7 +254,7 @@ export default function MeidaimaePage() {
 
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">明大前のおすすめピラティススタジオ5選</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">明大前のおすすめピラティススタジオ4選</h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
                 <StudioCard key={index} studio={studio} index={index} />
@@ -304,7 +272,6 @@ export default function MeidaimaePage() {
                 <p className="text-warm-600 text-sm mb-4">月額1万円前後で通えるスタジオ。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• URBAN CLASSIC PILATES（月4回 9,680円）</li>
-                  <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
                   <li className="text-warm-700">• ピラティスK（月4回 11,220円〜）</li>
                 </ul>
               </div>
@@ -468,8 +435,8 @@ export default function MeidaimaePage() {
         <section className="py-16 bg-white" id="summary">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
-            <p className="text-warm-600 leading-relaxed mb-6">今回は明大前のおすすめピラティススタジオ5選をご紹介してきましたが、いかがでしたか？</p>
-            <p className="text-warm-600 leading-relaxed mb-6">明大前は京王線と井の頭線の乗り換え駅として交通利便性が高く、予約不要のURBAN CLASSIC PILATESから、理学療法ベースのRe&Pilates、大手zen place pilatesまで、個性豊かなスタジオが揃っています。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">今回は明大前のおすすめピラティススタジオ4選をご紹介してきましたが、いかがでしたか？</p>
+            <p className="text-warm-600 leading-relaxed mb-6">明大前は京王線と井の頭線の乗り換え駅として交通利便性が高く、予約不要のURBAN CLASSIC PILATESから、理学療法ベースのRe&Pilatesまで、個性豊かなスタジオが揃っています。</p>
             <p className="text-warm-600 leading-relaxed mb-6">ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。</p>
             <p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p>
           </div>

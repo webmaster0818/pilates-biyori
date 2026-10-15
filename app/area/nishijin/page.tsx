@@ -77,22 +77,11 @@ const studios = [
     features: ['女性専用', 'マシンピラティス', '体験0円', '1回2,200円〜'],
     description: '女性専用のマシンピラティススタジオ。体験レッスン0円で気軽にスタートでき、1回2,200円〜というリーズナブルな料金設定が魅力。西新駅近くの好アクセスで、女性が安心して通える環境。マシンピラティスを手頃な価格で始めたい方におすすめ。',
     access: '福岡市地下鉄空港線「西新駅」徒歩圏内',
-    address: '福岡県福岡市早良区（西新エリア）',
+    address: '福岡県福岡市早良区西新5-9-20 てんぐ屋西新V 1F',
     popularPlan: { name: '都度払いプラン', description: '女性専用マシンピラティス。1回2,200円〜の都度払い。', price: '1回 2,200円〜（税込）' },
     options: ['都度払い（1回 2,200円〜）', '月額プラン（お問い合わせ）', '体験レッスン 0円'],
     userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'コスパ重視'] },
     basicInfo: { hours: '平日 10:00〜22:00 / 土日祝 10:00〜19:00', closed: '不定休', facilities: ['リフォーマー', 'ロッカー', 'パウダールーム', '女性専用'] },
-  },
-  {
-    name: 'zen place pilates',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    image: '/images/studios/zen-place-pilates.webp',
-    price: 'マットグループ 月4回 9,625円〜',
-    trial: '体験レッスン 500円〜',
-    features: ['マット&マシン', '全国展開', '男性OK', '福岡エリアで利用可能'],
-    description: '全国100店舗以上展開の大手ピラティススタジオ。福岡エリアでも利用可能。マットグループ、マシングループ、プライベートレッスンの3種類から選べ、初心者から上級者まで対応。全店舗他店利用可能なので、出張先や旅行先でも通えるのが強み。',
-    access: '福岡エリアで利用可能（西新駅周辺から通いやすい店舗あり）',
-    address: '福岡県福岡市（福岡エリア店舗）',
   },
 ]
 
@@ -125,7 +114,7 @@ export default function NishijinPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス西新おすすめ5選！<br className="hidden md:block" />
+              ピラティス西新おすすめ4選！<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！
             </h1>
           </div>
@@ -158,7 +147,7 @@ export default function NishijinPage() {
             <p className="text-warm-600 leading-relaxed mb-6">「福岡市早良区で通いやすいスタジオを知りたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、福岡市地下鉄空港線「西新駅」周辺で通えるおすすめのピラティススタジオ5選をまとめました。
+              そこでこの記事では、福岡市地下鉄空港線「西新駅」周辺で通えるおすすめのピラティススタジオ4選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -181,7 +170,7 @@ export default function NishijinPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              西新のおすすめピラティススタジオ5選
+              西新のおすすめピラティススタジオ4選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -314,7 +303,6 @@ export default function NishijinPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull 西新店（1回2,200円〜）</li>
-                  <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
                   <li className="text-warm-700">• ピラティススタジオ Live（月4回 12,000円〜）</li>
                 </ul>
               </div>
@@ -326,7 +314,6 @@ export default function NishijinPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• CLUB PILATES 福岡西新店</li>
                   <li className="text-warm-700">• Rintosull 西新店</li>
-                  <li className="text-warm-700">• zen place pilates</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -402,7 +389,6 @@ export default function NishijinPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Rintosull（1回 2,200円〜）</li>
-                  <li>• zen place（月4回 9,625円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -425,7 +411,6 @@ export default function NishijinPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• CLUB PILATES（通い放題）</li>
-                  <li>• zen place（月6回〜）</li>
                 </ul>
               </div>
             </div>
@@ -512,10 +497,10 @@ export default function NishijinPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は西新エリアのおすすめピラティススタジオ5選をご紹介しました。
+              今回は西新エリアのおすすめピラティススタジオ4選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              世界最大級チェーンのCLUB PILATES、最短30分の少人数制ピラティススタジオ Live、女性専用で1回2,200円〜のRintosull、全国展開のzen place pilatesと、それぞれ特徴が異なるスタジオが揃っています。
+              世界最大級チェーンのCLUB PILATES、最短30分の少人数制ピラティススタジオ Live、女性専用で1回2,200円〜のRintosullと、それぞれ特徴が異なるスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               西新は福岡市早良区の文教エリアで、西南学院大学にも近く落ち着いた環境。地下鉄空港線でアクセスも良好です。

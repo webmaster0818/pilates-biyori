@@ -14,44 +14,12 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/tsukiji/' },
-  title: '【2026年10月最新】築地のピラティススタジオおすすめ6選｜無料体験・料金で比較',
-  description: '築地のピラティススタジオ7社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
+  title: '【2026年10月最新】築地のピラティススタジオおすすめ5選｜無料体験・料金で比較',
+  description: '築地のピラティススタジオ5社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
   keywords: 'ピラティス,築地,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,新富町,東銀座',
 }
 
 const studios = [
-  {
-    name: 'zen place pilates 銀座四丁目スタジオ',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 10,450円〜',
-    trial: 'グループ体験 1,000円',
-    features: ['東銀座駅徒歩1分', '男性OK', '全国相互利用', 'マット&マシン'],
-    description: 'ピラティス専門の大手スタジオ。東銀座駅5番出口から徒歩1分、築地駅からも徒歩5分。マットグループ・マシングループ・プライベートの3タイプのレッスンを提供。全国150店舗以上で相互利用可能で、出張先でも通えます。',
-    access: '東京メトロ日比谷線「東銀座駅」5番出口 徒歩1分 / 日比谷線「築地駅」徒歩5分',
-    address: '東京都中央区銀座4-14-6 平田ビル5F',
-    popularPlan: {
-      name: 'フリープラン（マットグループ）',
-      description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。',
-      price: '月額 16,940円（税込）',
-    },
-    options: [
-      '月4回プラン（10,450円〜）',
-      'マシングループ月4回（14,520円）',
-      'プライベートレッスン（体験 9,900円）',
-      '体験当日入会で入会金無料',
-    ],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
-      purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
-    },
-    basicInfo: {
-      hours: '平日 10:00〜21:00 / 土日祝 9:00〜18:00',
-      closed: '不定休',
-      facilities: ['リフォーマー', 'キャデラック', 'チェア', 'ラダーバレル', 'マット', 'ロッカー'],
-    },
-  },
   {
     name: 'Pilates Mee 築地店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
@@ -208,7 +176,7 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！築地エリアのスタジオはほとんどが初心者歓迎。Pilates Meeは体験者の多くがピラティス未経験者。zen placeも初心者向けクラスが充実しています。',
+    answer: '大丈夫です！築地エリアのスタジオはほとんどが初心者歓迎。Pilates Meeは体験者の多くがピラティス未経験者。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
@@ -216,7 +184,7 @@ const faqs = [
   },
   {
     question: '築地のピラティスの料金相場は？',
-    answer: 'グループ月4回で10,450円〜14,520円程度。zen placeが月4回10,450円〜で最もリーズナブル。パーソナルは1回9,000円〜12,100円が相場です。',
+    answer: 'グループ月4回で10,450円〜14,520円程度。パーソナルは1回9,000円〜12,100円が相場です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -228,19 +196,19 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。zen placeはグループ体験1,000円、BIRTH pilatesは初回90分4,500円で体験可能です。',
+    answer: '動きやすい服装と飲み物があればOK。BIRTH pilatesは初回90分4,500円で体験可能です。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹強化・姿勢改善に特化。ヨガは柔軟性とリラックス重視。zen placeはヨガスタジオも運営しており、両方楽しめます。',
+    answer: 'ピラティスは体幹強化・姿勢改善に特化。ヨガは柔軟性とリラックス重視。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'zen place銀座四丁目、Star Pilates築地、BIRTH pilates銀座、STUDIO IVY銀座新富町は男性も通えます。Pilates MeeとPilasuru東銀座は女性専用です。',
+    answer: 'Star Pilates築地、BIRTH pilates銀座、STUDIO IVY銀座新富町は男性も通えます。Pilates MeeとPilasuru東銀座は女性専用です。',
   },
   {
     question: '築地駅から近いスタジオは？',
-    answer: 'Pilasuru東銀座が築地駅徒歩2分で最寄り。Pilates Mee築地店が徒歩3分、Star Pilates築地が徒歩4分。zen place銀座四丁目は東銀座駅から徒歩1分です。',
+    answer: 'Pilasuru東銀座が築地駅徒歩2分で最寄り。Pilates Mee築地店が徒歩3分、Star Pilates築地が徒歩4分です。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -265,7 +233,7 @@ export default function TsukijiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス築地おすすめ6選！<br className="hidden md:block" />
+              【2026最新】ピラティス築地おすすめ5選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -308,7 +276,7 @@ export default function TsukijiPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、築地エリアでおすすめのピラティススタジオ6選をまとめました。
+              そこでこの記事では、築地エリアでおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -347,7 +315,7 @@ export default function TsukijiPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              築地のおすすめピラティススタジオ6選
+              築地のおすすめピラティススタジオ5選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -479,7 +447,6 @@ export default function TsukijiPage() {
                   月額1万円台で通えるスタジオ。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
                   <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
                 </ul>
               </div>
@@ -501,7 +468,6 @@ export default function TsukijiPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK（東口 徒歩1分）</li>
                   <li className="text-warm-700">• the SILK（東口 徒歩1分）</li>
-                  <li className="text-warm-700">• zen place（東口 徒歩2分）</li>
                 </ul>
               </div>
             </div>
@@ -545,7 +511,6 @@ export default function TsukijiPage() {
                   グループレッスン中心。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place（10,450円〜/月4回）</li>
                   <li>• the SILK（12,980円〜/月3回）</li>
                 </ul>
               </div>
@@ -608,7 +573,7 @@ export default function TsukijiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKとCLUB PILATESは無料体験。zen placeは1,000円、ピラティスKは2,000円で体験可能。
+                  the SILKとCLUB PILATESは無料体験。ピラティスKは2,000円で体験可能。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -617,7 +582,7 @@ export default function TsukijiPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  築地はJR・東京メトロ・西武線・東武線と多路線が集まるターミナル駅。ピラティスK・the SILKは東口徒歩1分、zen placeは徒歩2分と駅近スタジオが充実。
+                  築地はJR・東京メトロ・西武線・東武線と多路線が集まるターミナル駅。ピラティスK・the SILKは東口徒歩1分と駅近スタジオが充実。
                 </p>
               </div>
             </div>

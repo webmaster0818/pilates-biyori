@@ -15,8 +15,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/sagami-ono/' },
-  title: '【2026年10月最新】ピラティス相模大野おすすめ7選！料金・体験レッスン・マシン対応を比較！',
-  description: '相模大野エリアのおすすめピラティススタジオ7選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス相模大野おすすめ6選！料金・体験レッスン・マシン対応を比較！',
+  description: '相模大野エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,相模大野,神奈川,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -91,38 +91,6 @@ const studios = [
       hours: '月〜金 7:00-21:00 / 土日 7:00-18:00',
       closed: '不定休',
       facilities: ['リフォーマー', 'スプリングボード', 'TRX', 'チェア', 'Bosu'],
-    },
-  },
-  {
-    name: 'zen place pilates 相模大野スタジオ',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 10,450円〜',
-    trial: 'グループ体験 1,000円',
-    features: ['相模大野駅徒歩3分', 'ピラティス専門', '男性OK', '全国相互利用'],
-    description: 'ピラティス専門の大手スタジオ。相模大野駅から徒歩3分。マットグループ・マシングループ・プライベートの3タイプ。全国150店舗以上で相互利用可能。体験当日入会で入会金無料。',
-    access: '小田急線「相模大野駅」徒歩3分',
-    address: '神奈川県相模原市南区相模大野エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: {
-      name: 'フリープラン（マットグループ）',
-      description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。',
-      price: '月額 16,940円（税込）',
-    },
-    options: [
-      '月4回プラン（10,450円〜）',
-      'マシングループ体験（3,000円）',
-      'プライベートレッスン（体験 9,900円）',
-      '体験当日入会で入会金無料',
-    ],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
-      purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
-    },
-    basicInfo: {
-      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
-      closed: '不定休',
-      facilities: ['リフォーマー', 'キャデラック', 'チェア', 'ラダーバレル', 'マット', 'ロッカー'],
     },
   },
   {
@@ -223,7 +191,7 @@ const faqs = [
   },
   {
     question: '相模大野のピラティスの料金相場は？',
-    answer: 'グループ月4回で10,450円〜13,420円程度。zen placeが月4回10,450円〜で最もリーズナブル。roll UPは月4回11,000円〜、CLUB PILATESは月4回 11,990円。',
+    answer: 'グループ月4回で10,450円〜13,420円程度。roll UPは月4回11,000円〜、CLUB PILATESは月4回 11,990円。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -239,15 +207,15 @@ const faqs = [
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹強化・姿勢改善に特化。ヨガは柔軟性とリラックス重視。zen placeはヨガスタジオも運営しており、両方楽しめます。',
+    answer: 'ピラティスは体幹強化・姿勢改善に特化。ヨガは柔軟性とリラックス重視。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'zen place、CLUB PILATES、roll UP、スタジオBYKは男性も通えます。ピラティスKは女性専用です。',
+    answer: 'CLUB PILATES、roll UP、スタジオBYKは男性も通えます。ピラティスKは女性専用です。',
   },
   {
     question: '無料で体験できるスタジオは？',
-    answer: 'ピラティスK、roll UP、CLUB PILATESは無料体験あり。zen placeはグループ体験1,000円〜。',
+    answer: 'ピラティスK、roll UP、CLUB PILATESは無料体験あり。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -272,7 +240,7 @@ export default function SagamiOnoPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス相模大野おすすめ7選！<br className="hidden md:block" />
+              【2026最新】ピラティス相模大野おすすめ6選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -315,7 +283,7 @@ export default function SagamiOnoPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、相模大野エリアでおすすめのピラティススタジオ7選をまとめました。
+              そこでこの記事では、相模大野エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -355,7 +323,7 @@ export default function SagamiOnoPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              相模大野のおすすめピラティススタジオ7選
+              相模大野のおすすめピラティススタジオ6選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -487,7 +455,6 @@ export default function SagamiOnoPage() {
                   月額1万円台で通えるスタジオ。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
                   <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
                 </ul>
               </div>
@@ -509,7 +476,6 @@ export default function SagamiOnoPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK（東口 徒歩1分）</li>
                   <li className="text-warm-700">• the SILK（東口 徒歩1分）</li>
-                  <li className="text-warm-700">• zen place（東口 徒歩2分）</li>
                 </ul>
               </div>
             </div>
@@ -553,7 +519,6 @@ export default function SagamiOnoPage() {
                   グループレッスン中心。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place（10,450円〜/月4回）</li>
                   <li>• the SILK（12,980円〜/月3回）</li>
                 </ul>
               </div>
@@ -616,7 +581,7 @@ export default function SagamiOnoPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKとCLUB PILATESは無料体験。zen placeは1,000円、ピラティスKは2,000円で体験可能。
+                  the SILKとCLUB PILATESは無料体験。ピラティスKは2,000円で体験可能。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -625,7 +590,7 @@ export default function SagamiOnoPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  相模大野はJR・東京メトロ・西武線・東武線と多路線が集まるターミナル駅。ピラティスK・the SILKは東口徒歩1分、zen placeは徒歩2分と駅近スタジオが充実。
+                  相模大野はJR・東京メトロ・西武線・東武線と多路線が集まるターミナル駅。ピラティスK・the SILKは東口徒歩1分と駅近スタジオが充実。
                 </p>
               </div>
             </div>

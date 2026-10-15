@@ -14,9 +14,9 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/mitaka/' },
-  title: '【2026年10月最新】三鷹のピラティススタジオおすすめ5選｜無料体験・料金で比較',
-  description: '三鷹のピラティススタジオ5社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
-  keywords: 'ピラティス,三鷹,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,ピラティスミラー,YUZU,zen place pilates,COCOLANCE,Pilaticise',
+  title: '【2026年10月最新】三鷹のピラティススタジオおすすめ4選｜無料体験・料金で比較',
+  description: '三鷹のピラティススタジオ4社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
+  keywords: 'ピラティス,三鷹,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,ピラティスミラー,YUZU,COCOLANCE,Pilaticise',
 }
 
 const studios = [
@@ -80,39 +80,6 @@ const studios = [
       hours: '公式サイトでご確認ください',
       closed: '不定休',
       facilities: ['リフォーマー', 'キャデラック', 'チェア', 'バレル', '更衣室'],
-    },
-  },
-  {
-    name: 'zen place pilates（三鷹エリア最寄り店舗）',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 10,450円〜（税込）',
-    trial: 'グループ体験 1,000円',
-    features: ['全国150店舗相互利用', '月4回10,450円〜', '男性OK', 'グループ体験1,000円'],
-    description: '全国150店舗以上を展開する大手ピラティススタジオ。三鷹エリアからアクセス可能な最寄り店舗（吉祥寺等）を利用可能。月4回10,450円〜のリーズナブルな料金で、マットピラティス・マシンピラティスの両方に対応。グループ体験1,000円で気軽に試せます。男性も利用OK。全国の店舗を相互利用できるため、出張やお出かけ先でも通えて便利です。',
-    access: '三鷹エリアから最寄り店舗（吉祥寺等）へアクセス可能',
-    address: '最寄り店舗の詳細は公式サイトでご確認ください',
-    popularPlan: {
-      name: 'グループレッスン 月4回プラン',
-      description: 'マット・マシンどちらも対応のグループレッスン。全国150店舗で相互利用可能。',
-      price: '10,450円〜/月（税込）',
-    },
-    options: [
-      '月4回プラン（10,450円〜/月）',
-      '月6回・月8回・通い放題プランあり',
-      'グループ体験 1,000円',
-      '全国150店舗相互利用可能',
-      '男性利用OK',
-    ],
-    userProfile: {
-      ageRange: '20代〜60代幅広い年齢層',
-      genderRatio: '女性75% / 男性25%',
-      purpose: ['姿勢改善', '体幹強化', '健康維持', 'ストレス解消'],
-    },
-    basicInfo: {
-      hours: '店舗により異なる（公式サイトでご確認ください）',
-      closed: '店舗により異なる',
-      facilities: ['リフォーマー', 'マットスタジオ', '更衣室', 'ロッカー'],
     },
   },
   {
@@ -182,7 +149,7 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！三鷹エリアのスタジオはほとんどが初心者歓迎です。ピラティスミラーは30分の短時間レッスンで少人数制、zen place pilatesは初心者クラスも充実。YUZU、COCOLANCE、Pilaticiseはパーソナルなので自分のペースで進められます。',
+    answer: '大丈夫です！三鷹エリアのスタジオはほとんどが初心者歓迎です。ピラティスミラーは30分の短時間レッスンで少人数制。YUZU、COCOLANCE、Pilaticiseはパーソナルなので自分のペースで進められます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
@@ -190,7 +157,7 @@ const faqs = [
   },
   {
     question: '三鷹のピラティスの料金相場は？',
-    answer: 'ピラティスミラーは月6回11,000円、zen place pilatesは月4回10,450円〜。YUZU、COCOLANCE、Pilaticiseはパーソナルレッスンで料金は公式サイトをご確認ください。目的と頻度に合わせて選びましょう。',
+    answer: 'ピラティスミラーは月6回11,000円。YUZU、COCOLANCE、Pilaticiseはパーソナルレッスンで料金は公式サイトをご確認ください。目的と頻度に合わせて選びましょう。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -202,11 +169,11 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOKです。ピラティスミラーは体験2,200円、zen place pilatesはグループ体験1,000円と気軽に試せます。YUZU、COCOLANCE、Pilaticiseも体験レッスンを実施しています。',
+    answer: '動きやすい服装と飲み物があればOKです。ピラティスミラーは体験2,200円と気軽に試せます。YUZU、COCOLANCE、Pilaticiseも体験レッスンを実施しています。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'zen place pilatesは男性も通えます。ピラティスミラーも男女問わず利用可能です。COCOLANCE、Pilaticiseは女性専門・女性限定です。YUZUについては公式サイトでご確認ください。',
+    answer: 'ピラティスミラーは男女問わず利用可能です。COCOLANCE、Pilaticiseは女性専門・女性限定です。YUZUについては公式サイトでご確認ください。',
   },
   {
     question: '女性専用のスタジオはありますか？',
@@ -238,7 +205,7 @@ export default function MitakaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス三鷹おすすめ5選！
+              【2026最新】ピラティス三鷹おすすめ4選！
               <br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
@@ -273,7 +240,7 @@ export default function MitakaPage() {
               三鷹はJR中央線の特快停車駅で、新宿まで約15分という好アクセスのエリア。太宰治ゆかりの文学の街としても知られ、井の頭恩賜公園やジブリ美術館など自然と文化が共存する住みやすい街です。そんな三鷹エリアには、コスパの良いグループレッスンから女性専門パーソナルまで、多彩なピラティススタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、三鷹エリアでおすすめの実在するピラティススタジオ5選をまとめました。
+              そこでこの記事では、三鷹エリアでおすすめの実在するピラティススタジオ4選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -310,7 +277,7 @@ export default function MitakaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              三鷹のおすすめピラティススタジオ5選
+              三鷹のおすすめピラティススタジオ4選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -439,7 +406,6 @@ export default function MitakaPage() {
                 <p className="text-warm-600 text-sm mb-4">月1万円台から始められるスタジオも。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
-                  <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -470,7 +436,7 @@ export default function MitakaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1〜2回からスタートするのがおすすめ。最低2〜3ヶ月継続することで効果を実感できます。ピラティスミラーは30分レッスンなので初心者でも無理なく取り組めます。zen place pilatesは初心者クラスも充実。
+                週1〜2回からスタートするのがおすすめ。最低2〜3ヶ月継続することで効果を実感できます。ピラティスミラーは30分レッスンなので初心者でも無理なく取り組めます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
@@ -494,7 +460,6 @@ export default function MitakaPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4〜6回</p>
                 <p className="text-sm text-warm-600 mb-4">手軽に始めたい方に。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates（10,450円〜/月4回）</li>
                   <li>• ピラティスミラー（11,000円/月6回）</li>
                 </ul>
               </div>
@@ -504,7 +469,6 @@ export default function MitakaPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4〜8回</p>
                 <p className="text-sm text-warm-600 mb-4">週1〜2回ペースで着実に成果。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates（上位プラン）</li>
                   <li>• グループ+パーソナル併用</li>
                 </ul>
               </div>
@@ -542,7 +506,7 @@ export default function MitakaPage() {
                   <h3 className="text-xl font-bold text-warm-900">レッスン形式を選ぶ</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  三鷹エリアはグループ（ピラティスミラー、zen place pilates）、パーソナル（YUZU、COCOLANCE、Pilaticise）と多彩な形式が揃っています。自分の好みや予算に合わせて選びましょう。
+                  三鷹エリアはグループ（ピラティスミラー）、パーソナル（YUZU、COCOLANCE、Pilaticise）と多彩な形式が揃っています。自分の好みや予算に合わせて選びましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -551,7 +515,7 @@ export default function MitakaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  zen place pilatesはグループ体験1,000円、ピラティスミラーは体験2,200円と手頃な価格で試せます。まずは体験で雰囲気やインストラクターとの相性を確認しましょう。
+                  ピラティスミラーは体験2,200円と手頃な価格で試せます。まずは体験で雰囲気やインストラクターとの相性を確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -560,7 +524,7 @@ export default function MitakaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  三鷹はJR中央線の特快停車駅で、新宿まで約15分。Pilaticiseは三鷹駅徒歩3分とアクセス抜群。zen place pilatesは全国150店舗相互利用可能なので、出張先でも通えて便利です。
+                  三鷹はJR中央線の特快停車駅で、新宿まで約15分。Pilaticiseは三鷹駅徒歩3分とアクセス抜群です。
                 </p>
               </div>
             </div>
@@ -594,13 +558,13 @@ export default function MitakaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は三鷹エリアのおすすめピラティススタジオ5選をご紹介しました。
+              今回は三鷹エリアのおすすめピラティススタジオ4選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              三鷹はJR中央線の特快停車駅で新宿まで約15分という好立地。コナミスポーツ運営で天井ミラー付きのピラティスミラー（月6回11,000円）、豊富なマシン完備のパーソナルスタジオYUZU、全国150店舗相互利用のzen place pilates（月4回10,450円〜）、女性専門・個室プライベートのCOCOLANCE、女性限定・駅徒歩3分のPilaticiseと、それぞれ特徴の異なるスタジオが揃っています。
+              三鷹はJR中央線の特快停車駅で新宿まで約15分という好立地。コナミスポーツ運営で天井ミラー付きのピラティスミラー（月6回11,000円）、豊富なマシン完備のパーソナルスタジオYUZU、女性専門・個室プライベートのCOCOLANCE、女性限定・駅徒歩3分のPilaticiseと、それぞれ特徴の異なるスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              まずは体験レッスンが手頃なzen place pilates（グループ体験1,000円）やピラティスミラー（体験2,200円）から試してみるのがおすすめです。ぜひこの記事を参考に、自分に合うピラティススタジオを見つけてくださいね。
+              まずは体験レッスンが手頃なピラティスミラー（体験2,200円）から試してみるのがおすすめです。ぜひこの記事を参考に、自分に合うピラティススタジオを見つけてくださいね。
             </p>
             <p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p>
           </div>
@@ -611,7 +575,7 @@ export default function MitakaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              zen place pilatesはグループ体験1,000円、ピラティスミラーは体験2,200円。<br />
+              ピラティスミラーは体験2,200円。<br />
               まずは気軽に体験してみましょう。
             </p>
             <Link

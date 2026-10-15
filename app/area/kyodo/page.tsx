@@ -28,7 +28,7 @@ const studios = [
     features: ['マット&マシン','経堂駅北口徒歩3分','初心者歓迎','男性OK'],
     description: '全国150店舗以上展開の大手。経堂駅北口から徒歩3分。マットグループ月4回9,625円〜。マット・マシン両方対応。男性OK。',
     access: '小田急線「経堂駅」北口 徒歩3分',
-    address: '東京都世田谷区経堂（経堂駅徒歩3分）',
+    address: '東京都世田谷区宮坂3丁目13-1 経堂オリオン 2階',
     popularPlan: { name: '人気プラン', description: 'zen place pilates 経堂の人気プラン。', price: 'マットグループ月4回 9,625円〜' },
     options: ['マット&マシン','経堂駅北口徒歩3分','初心者歓迎','男性OK'],
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },

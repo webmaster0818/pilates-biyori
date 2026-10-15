@@ -19,7 +19,7 @@ export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/chofu/' },
   title: '【2026年10月最新】調布のピラティス｜初心者OK・無料体験で選ぶ料金比較',
   description: '調布エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
-  keywords: 'ピラティス,調布,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,ピラティスミラー,Rintosull,ELEMENT,zen place',
+  keywords: 'ピラティス,調布,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,ピラティスミラー,Rintosull,ELEMENT',
 }
 
 const studios = [
@@ -119,39 +119,6 @@ const studios = [
     },
   },
   {
-    name: 'zen place pilates（京王線沿線）',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['全国展開大手', 'マット&マシン完備', '京王線沿線利用可', 'インストラクター養成'],
-    description: '全国130店舗以上を展開する大手ピラティススタジオ。京王線沿線のスタジオを利用可能で、調布エリアからもアクセス良好。マットピラティスからマシンピラティスまで豊富なレッスンメニューを用意。解剖学に基づいた科学的なアプローチと、経験豊富なインストラクターによる質の高い指導が特徴。全店舗利用可能なプランもあり、ライフスタイルに合わせて柔軟に通えます。',
-    access: '京王線沿線のスタジオを利用可能（調布駅から京王線でアクセス）',
-    address: '京王線沿線各スタジオ（詳細は公式サイトでご確認ください）',
-    popularPlan: {
-      name: 'フリープラン（月4回）',
-      description: 'マット・マシンどちらも受講可能な人気プラン。全店舗利用可能プランもあり。',
-      price: '月4回 13,200円〜（税込）',
-    },
-    options: [
-      'マットグループレッスン',
-      'マシングループレッスン',
-      'プライベートレッスン（1回 9,900円〜）',
-      '全店舗利用可能プランあり',
-      'インストラクター養成コース（別途）',
-    ],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性85% / 男性15%',
-      purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
-    },
-    basicInfo: {
-      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00（店舗により異なる）',
-      closed: '不定休',
-      facilities: ['リフォーマー', 'チェア', 'バレル', 'シャワー', 'ロッカー', 'Wi-Fi'],
-    },
-  },
-  {
     name: 'Pilates Mee調布店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
@@ -183,11 +150,11 @@ const faqs = [
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズ、マシンピラティスはリフォーマーなどの専用マシンを使用します。マシンはバネの力で負荷を調整できるため初心者にもおすすめ。調布エリアではRintosull・ELEMENT・zen placeがマシンピラティスに対応しています。',
+    answer: 'マットピラティスは自重を使ったエクササイズ、マシンピラティスはリフォーマーなどの専用マシンを使用します。マシンはバネの力で負荷を調整できるため初心者にもおすすめ。調布エリアではRintosull・ELEMENTがマシンピラティスに対応しています。',
   },
   {
     question: '調布のピラティスの料金相場は？',
-    answer: 'ピラティスミラー調布は月6回11,000円、Rintosull調布店はプレミアムプラン月額10,978円、ELEMENT調布店は通い放題で1回2,750円〜、zen place pilatesは月4回13,200円〜です。目的と頻度に合わせて選びましょう。',
+    answer: 'ピラティスミラー調布は月6回11,000円、Rintosull調布店はプレミアムプラン月額10,978円、ELEMENT調布店は通い放題で1回2,750円〜です。目的と頻度に合わせて選びましょう。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -199,19 +166,19 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOKです。ピラティスミラー調布は体験2,200円、Rintosull調布店は体験無料キャンペーン実施中、zen place pilatesは体験1,000円。まずは気軽に体験してみましょう。',
+    answer: '動きやすい服装と飲み物があればOKです。ピラティスミラー調布は体験2,200円、Rintosull調布店は体験無料キャンペーン実施中。まずは気軽に体験してみましょう。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'ピラティスミラー調布、ELEMENT調布店、zen place pilatesは男性も通えます。Rintosull調布店は女性専用です。',
+    answer: 'ピラティスミラー調布、ELEMENT調布店は男性も通えます。Rintosull調布店は女性専用です。',
   },
   {
     question: '調布駅からのアクセスは？',
-    answer: '調布駅は京王線の特急停車駅で、新宿まで約15分の好アクセス。各スタジオとも調布駅から徒歩圏内にあり、通いやすい立地です。zen place pilatesは京王線沿線のスタジオを利用可能です。',
+    answer: '調布駅は京王線の特急停車駅で、新宿まで約15分の好アクセス。各スタジオとも調布駅から徒歩圏内にあり、通いやすい立地です。',
   },
   {
     question: 'パーソナルレッスンを受けたいのですが？',
-    answer: 'ELEMENT調布店は通い放題型のパーソナルジムで、1回30分のマンツーマンレッスン。ピラティスミラー調布はプライベートレッスン30分4,400円。zen place pilatesもプライベートレッスン（1回9,900円〜）を提供しています。',
+    answer: 'ELEMENT調布店は通い放題型のパーソナルジムで、1回30分のマンツーマンレッスン。ピラティスミラー調布はプライベートレッスン30分4,400円です。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -235,7 +202,7 @@ export default function ChofuPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026年7月最新】ピラティス調布おすすめ5選！
+              【2026年7月最新】ピラティス調布おすすめ4選！
               <br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！
             </h1>
@@ -272,7 +239,7 @@ export default function ChofuPage() {
               調布は京王線「調布駅」が最寄りで、新宿まで京王線特急で約15分という好アクセスのエリア。映画の街として知られ、深大寺や神代植物公園など自然豊かな環境も魅力の街です。そんな調布エリアには、コナミ運営のスタジオから女性専用マシンピラティス、通い放題型パーソナルまで、多彩なピラティススタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、調布エリアでおすすめの実在するピラティススタジオ5選をまとめました。
+              そこでこの記事では、調布エリアでおすすめの実在するピラティススタジオ4選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -310,7 +277,7 @@ export default function ChofuPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              調布のおすすめピラティススタジオ5選
+              調布のおすすめピラティススタジオ4選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -449,7 +416,6 @@ export default function ChofuPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ELEMENT（通い放題パーソナル・30分）</li>
                   <li className="text-warm-700">• ピラティスミラー（プライベート30分 4,400円）</li>
-                  <li className="text-warm-700">• zen place（プライベート 9,900円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -458,7 +424,6 @@ export default function ChofuPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull（女性専用・体験無料）</li>
                   <li className="text-warm-700">• ピラティスミラー（コナミ運営）</li>
-                  <li className="text-warm-700">• zen place（全国130店舗以上）</li>
                 </ul>
               </div>
             </div>
@@ -490,7 +455,7 @@ export default function ChofuPage() {
         <section className="py-16 bg-white" id="price-guide">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">予算別の料金相場</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜11,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4〜6回</p>
@@ -498,16 +463,6 @@ export default function ChofuPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Rintosull（10,978円/月）</li>
                   <li>• ピラティスミラー（11,000円/月6回）</li>
-                </ul>
-              </div>
-              <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
-                <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,200円/月</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">週1回ペースで着実に成果。</p>
-                <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates（13,200円〜/月4回）</li>
-                  <li>• マット&マシン両方受講可能</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -543,7 +498,7 @@ export default function ChofuPage() {
                   <h3 className="text-xl font-bold text-warm-900">レッスン形式を選ぶ</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  調布エリアはグループレッスン（ピラティスミラー・zen place）、マシンピラティス（Rintosull）、完全パーソナル（ELEMENT）と多彩な形式が揃っています。自分の好みや予算に合わせて選びましょう。
+                  調布エリアはグループレッスン（ピラティスミラー）、マシンピラティス（Rintosull）、完全パーソナル（ELEMENT）と多彩な形式が揃っています。自分の好みや予算に合わせて選びましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -552,7 +507,7 @@ export default function ChofuPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  Rintosull調布店は体験無料キャンペーン実施中、zen place pilatesは体験1,000円。まずは気軽に体験で雰囲気やインストラクターとの相性を確認しましょう。ピラティスミラー調布は体験2,200円です。
+                  Rintosull調布店は体験無料キャンペーン実施中。まずは気軽に体験で雰囲気やインストラクターとの相性を確認しましょう。ピラティスミラー調布は体験2,200円です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -561,7 +516,7 @@ export default function ChofuPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  調布駅は京王線特急の停車駅で、新宿まで約15分。各スタジオとも調布駅から徒歩圏内にあります。zen place pilatesは京王線沿線の複数スタジオを利用できるので、通勤経路に合わせて柔軟に通えます。
+                  調布駅は京王線特急の停車駅で、新宿まで約15分。各スタジオとも調布駅から徒歩圏内にあります。
                 </p>
               </div>
             </div>
@@ -595,13 +550,13 @@ export default function ChofuPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は調布エリアのおすすめピラティススタジオ5選をご紹介しました。
+              今回は調布エリアのおすすめピラティススタジオ4選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              調布は京王線特急で新宿まで約15分の好立地で、映画の街・自然豊かなエリアとして人気の街です。コナミ運営のピラティスミラー調布（月6回11,000円）、女性専用のRintosull調布店（体験無料）、通い放題型パーソナルのELEMENT調布店（1回2,750円〜）、全国展開のzen place pilates（京王線沿線利用可）と、それぞれ特徴の異なるスタジオが揃っています。
+              調布は京王線特急で新宿まで約15分の好立地で、映画の街・自然豊かなエリアとして人気の街です。コナミ運営のピラティスミラー調布（月6回11,000円）、女性専用のRintosull調布店（体験無料）、通い放題型パーソナルのELEMENT調布店（1回2,750円〜）と、それぞれ特徴の異なるスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              まずは体験無料のRintosull調布店や、体験1,000円のzen place pilatesから試してみるのがおすすめです。ぜひこの記事を参考に、自分に合うピラティススタジオを見つけてくださいね。
+              まずは体験無料のRintosull調布店から試してみるのがおすすめです。ぜひこの記事を参考に、自分に合うピラティススタジオを見つけてくださいね。
             </p>
             <p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p>
           </div>

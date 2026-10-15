@@ -66,7 +66,7 @@ export const BRANDS: BrandInfo[] = [
     name: 'zen place pilates',
     tagline: 'マット・マシン両対応の大手ピラティス専門スタジオ',
     intro: [
-      'zen place pilatesは、全国に多数のスタジオを展開するピラティス専門ブランドです。当サイトでは全国173店舗を掲載しており、掲載ブランドの中でも最大級の店舗網です。',
+      'zen place pilatesは、全国に多数のスタジオを展開するピラティス専門ブランドです。公式のピラティススタジオ一覧には136店舗（2026年10月時点・オープン予定2店舗を含む）が掲載されており、当サイトではうち113店舗を掲載しています。',
       'マットグループ・マシングループ・プライベートと受講形態の選択肢が広く、エデュケーターの育成に力を入れていることでも知られています。通うスタジオ以外の店舗を利用できる「他店利用」に対応したプランがあるのも特徴です。',
     ],
     features: ['マット・マシン両対応', 'グループ／プライベート選択可', '他店利用に対応するプランあり', '男女ともに利用可'],
@@ -132,7 +132,7 @@ export const BRANDS: BrandInfo[] = [
     ctaLabel: '公式サイトで詳細を見る',
     officialRef: { label: 'zen place公式サイト', url: 'https://www.zenplace.co.jp/' },
     isPartner: true,
-    officialStores: { count: 136, kind: '一覧実数', sourceUrl: 'https://www.zenplace.co.jp/studios', asOf: '2026年7月', caveat: 'ピラティススタジオの一覧掲載数です。ヨガ等を含むzen placeグループ全体では全国150店舗と公式サイトに記載されています。' },
+    officialStores: { count: 136, kind: '一覧実数', sourceUrl: 'https://www.zenplace.co.jp/studios', asOf: '2026年10月', caveat: 'ピラティススタジオの一覧掲載数で、オープン予定の2店舗（方南町＝10月24日予定・新横浜＝11月8日予定）を含みます。ヨガ専用店・オンライン等を含むzen placeグループ全体では、公式サイトに全国150店舗と記載されています。', byPref: [{ pref: '東京都', count: 77 }, { pref: '神奈川県', count: 21 }, { pref: '大阪府', count: 10 }, { pref: '千葉県', count: 5 }, { pref: '埼玉県', count: 4 }, { pref: '愛知県', count: 4 }, { pref: '兵庫県', count: 3 }, { pref: '北海道', count: 2 }, { pref: '京都府', count: 2 }, { pref: '福岡県', count: 2 }, { pref: '宮城県', count: 1 }, { pref: '茨城県', count: 1 }, { pref: '新潟県', count: 1 }, { pref: '岐阜県', count: 1 }, { pref: '静岡県', count: 1 }, { pref: '広島県', count: 1 }] },
     useHyoban: true,
   },
   {

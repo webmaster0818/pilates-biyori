@@ -116,39 +116,6 @@ const studios = [
     },
   },
   {
-    name: 'zen place pilates 表参道',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 10,450円〜',
-    trial: '体験レッスン 500円〜',
-    features: ['マット&マシン', '月4回10,450円〜', '体験500円〜', '男性OK', '全国相互利用'],
-    description: '全国100店舗以上展開の大手ピラティススタジオ。マットピラティスとマシンピラティスの両方に対応し、グループレッスンからプライベートレッスンまで幅広いメニューを提供。月4回10,450円〜というリーズナブルな料金設定と、体験500円〜という気軽さが魅力。男性も利用可能で、全国の店舗で相互利用ができます。',
-    access: '東京メトロ銀座線・千代田線・半蔵門線「表参道駅」徒歩圏内',
-    address: '東京都渋谷区神宮前（表参道駅徒歩圏内）',
-    popularPlan: {
-      name: 'フリープラン（月4回）',
-      description: 'マット・マシンどちらも受講可能な人気プラン。全国の店舗で相互利用可能。',
-      price: '月4回 10,450円〜（税込）',
-    },
-    options: [
-      '月6回プラン（14,520円）',
-      'フリープラン（16,940円）',
-      'プライベートレッスン追加（1回 9,900円〜）',
-      '全国店舗相互利用可能',
-      'インストラクター養成コース（別途）',
-    ],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性85% / 男性15%',
-      purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
-    },
-    basicInfo: {
-      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
-      closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'ウォーターサーバー'],
-    },
-  },
-  {
     name: 'Dr.ピラティス 表参道店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11979O.1.Z164554L.U1357808',
     image: '/images/studios/dr-pilates.webp',
@@ -164,15 +131,15 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！表参道エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。zen place pilatesは体験500円〜で気軽に始められ、Pilates KASANEも体験980円と手軽。BDC PILATESは少人数制最大8名で丁寧に指導してもらえるので、運動が苦手な方でも安心して始められますよ。',
+    answer: '大丈夫です！表参道エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。Pilates KASANEは体験980円と手軽。BDC PILATESは少人数制最大8名で丁寧に指導してもらえるので、運動が苦手な方でも安心して始められますよ。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。マットは場所を選ばず自宅でも続けやすいのが特徴です。表参道ではPilates KASANEやzen place pilatesが両方に対応しています。',
+    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。マットは場所を選ばず自宅でも続けやすいのが特徴です。表参道ではPilates KASANEが両方に対応しています。',
   },
   {
     question: '表参道のピラティススタジオの料金相場は？',
-    answer: '表参道エリアのピラティススタジオの料金相場は、グループレッスン月4回で10,450円〜13,420円程度。都度払いは1回3,025円〜（Pilates KASANE）。体験レッスンは500円〜3,850円が一般的です。zen place pilatesの体験500円〜が最もリーズナブルです。',
+    answer: '表参道エリアのピラティススタジオの料金相場は、グループレッスン月4回で10,450円〜13,420円程度。都度払いは1回3,025円〜（Pilates KASANE）。体験レッスンは500円〜3,850円が一般的です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -192,7 +159,7 @@ const faqs = [
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'はい、あります。zen place pilates 表参道は男性も利用可能です。Pilates KASANEも男性OK。ただし、ピラティスK 表参道店は女性専用ですのでご注意ください。BDC PILATESも男女ともに利用可能です。',
+    answer: 'はい、あります。Pilates KASANEは男性OK。ただし、ピラティスK 表参道店は女性専用ですのでご注意ください。BDC PILATESも男女ともに利用可能です。',
   },
   {
     question: 'ピラティスで肩こりや腰痛は改善しますか？',
@@ -200,7 +167,7 @@ const faqs = [
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'それぞれ良さがあります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方にはPilates KASANEやBDC PILATESのプライベートがおすすめ。グループはzen place pilatesやピラティスKで料金を抑えながら楽しく続けられます。まずは体験で両方試してみるのがいいですよ。',
+    answer: 'それぞれ良さがあります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方にはPilates KASANEやBDC PILATESのプライベートがおすすめ。グループはピラティスKで料金を抑えながら楽しく続けられます。まずは体験で両方試してみるのがいいですよ。',
   },
 ]
 
@@ -221,7 +188,7 @@ export default function OmotesandoPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス表参道おすすめ5選！<br className="hidden md:block" />
+              【2026最新】ピラティス表参道おすすめ4選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -264,7 +231,7 @@ export default function OmotesandoPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、東京メトロ銀座線・千代田線・半蔵門線「表参道駅」周辺でおすすめのピラティススタジオ5選をまとめました。おしゃれなブランドショップやカフェが並ぶ洗練されたエリアで、レッスン前後のお出かけも楽しめます。
+              そこでこの記事では、東京メトロ銀座線・千代田線・半蔵門線「表参道駅」周辺でおすすめのピラティススタジオ4選をまとめました。おしゃれなブランドショップやカフェが並ぶ洗練されたエリアで、レッスン前後のお出かけも楽しめます。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -303,7 +270,7 @@ export default function OmotesandoPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              表参道のおすすめピラティススタジオ5選
+              表参道のおすすめピラティススタジオ4選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -435,7 +402,6 @@ export default function OmotesandoPage() {
                   月額1万円前後で通えるスタジオ。グループレッスンで気軽に始められます。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
                   <li className="text-warm-700">• Pilates KASANE（1回 3,025円〜・都度払い）</li>
                 </ul>
               </div>
@@ -455,7 +421,6 @@ export default function OmotesandoPage() {
                   まずは気軽に体験レッスンから。お得な体験プランがあるスタジオ。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates（体験500円〜）</li>
                   <li className="text-warm-700">• Pilates KASANE（体験980円）</li>
                   <li className="text-warm-700">• ピラティスK（体験2,000円）</li>
                 </ul>
@@ -501,7 +466,6 @@ export default function OmotesandoPage() {
                   グループレッスン中心。コスパ良く始めたい方に。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates（月4回 10,450円〜）</li>
                   <li>• Pilates KASANE（1回 3,025円〜）</li>
                 </ul>
               </div>
@@ -514,7 +478,6 @@ export default function OmotesandoPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（月4回 13,420円）</li>
-                  <li>• zen place pilates フリー（16,940円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -554,7 +517,7 @@ export default function OmotesandoPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  表参道エリアの料金相場は、グループレッスン月4回で10,450円〜13,420円程度、都度払いなら1回3,025円〜。無理なく継続できる予算を決めましょう。コスパ重視ならzen place pilatesの月4回10,450円〜、都度払い派ならPilates KASANEの1回3,025円〜がおすすめです。
+                  表参道エリアの料金相場は、グループレッスン月4回で10,450円〜13,420円程度、都度払いなら1回3,025円〜。無理なく継続できる予算を決めましょう。都度払い派ならPilates KASANEの1回3,025円〜がおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -615,7 +578,7 @@ export default function OmotesandoPage() {
               今回は表参道のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              表参道は銀座線・千代田線・半蔵門線の3路線が利用できる好アクセスのエリア。都度払いで気軽に通えるPilates KASANEから、女性専用のピラティスK、プロダンサー養成校プロデュースのBDC PILATES、全国相互利用可能なzen place pilatesまで、目的や予算に合ったスタジオが見つかります。
+              表参道は銀座線・千代田線・半蔵門線の3路線が利用できる好アクセスのエリア。都度払いで気軽に通えるPilates KASANEから、女性専用のピラティスK、プロダンサー養成校プロデュースのBDC PILATESまで、目的や予算に合ったスタジオが見つかります。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。

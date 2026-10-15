@@ -325,7 +325,7 @@ const studios = [
     },
   },
   {
-    name: 'zen place pilates 自由が丘',
+    name: 'zen place pilates 自由が丘 第1スタジオ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: 'マットグループ 月4回 10,450円〜',

@@ -12,8 +12,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/shin-yurigaoka/' },
-  title: '【2026年10月最新】ピラティス新百合ヶ丘おすすめ5選！人気スタジオの料金プランを簡単比較！',
-  description: '新百合ヶ丘エリアのおすすめピラティススタジオ5選を徹底比較。zen place pilates 新百合ヶ丘・pilates K 新百合ヶ丘店・sincere pilates 新百合ヶ丘など実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
+  title: '【2026年10月最新】ピラティス新百合ヶ丘おすすめ4選！人気スタジオの料金プランを簡単比較！',
+  description: '新百合ヶ丘エリアのおすすめピラティススタジオ4選を徹底比較。zen place pilates 新百合ヶ丘・pilates K 新百合ヶ丘店・sincere pilates 新百合ヶ丘など実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
   keywords: 'ピラティス,新百合ヶ丘,川崎市麻生区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -27,7 +27,7 @@ const studios = [
     features: ['全国展開大手', 'マット&マシン完備', '新百合ヶ丘駅徒歩3分', '男女共用'],
     description: '全国130店舗以上展開の大手。小田急線「新百合ヶ丘駅」南口徒歩3分。マット・マシン・プライベート対応。',
     access: '小田急線「新百合ヶ丘駅」南口徒歩3分',
-    address: '神奈川県川崎市麻生区万福寺（詳細は公式サイトでご確認ください）',
+    address: '神奈川県川崎市麻生区上麻生1丁目7-14 パストラル新百合Ⅱ 1階 106号',
     popularPlan: {
       name: '全国展開大手プラン',
       description: '全国130店舗以上展開の大手。小田急線「新百合ヶ丘駅」南口徒歩3分。マット・マシン・プライベート対応。',
@@ -230,7 +230,7 @@ export default function ShinYurigaokaPage() {
 
         <section className="py-16 bg-white" id="faq"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">よくある質問</h2><div className="space-y-6">{faqs.map((faq, index) => (<div key={index} className="border border-warm-200 rounded-lg overflow-hidden"><details className="group"><summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition"><h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3><svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" /></svg></summary><div className="px-6 pb-6 text-warm-600 leading-relaxed">{faq.answer}</div></details></div>))}</div></div></section>
 
-        <section className="py-16 bg-warm-50" id="summary"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2><p className="text-warm-600 leading-relaxed mb-6">今回は新百合ヶ丘エリアのおすすめピラティススタジオ5選をご紹介しました。</p><p className="text-warm-600 leading-relaxed mb-6">新百合ヶ丘は小田急小田原線・多摩線で新宿まで小田急線快速急行で約25分の好アクセスエリア。zen place pilates 新百合ヶ丘、pilates K 新百合ヶ丘店、sincere pilates 新百合ヶ丘など個性豊かなスタジオが揃っています。</p><p className="text-warm-600 leading-relaxed mb-6">まずは体験レッスンから始めてみましょう。</p><p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p></div></section>
+        <section className="py-16 bg-warm-50" id="summary"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2><p className="text-warm-600 leading-relaxed mb-6">今回は新百合ヶ丘エリアのおすすめピラティススタジオ4選をご紹介しました。</p><p className="text-warm-600 leading-relaxed mb-6">新百合ヶ丘は小田急小田原線・多摩線で新宿まで小田急線快速急行で約25分の好アクセスエリア。zen place pilates 新百合ヶ丘、pilates K 新百合ヶ丘店、sincere pilates 新百合ヶ丘など個性豊かなスタジオが揃っています。</p><p className="text-warm-600 leading-relaxed mb-6">まずは体験レッスンから始めてみましょう。</p><p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p></div></section>
 
         <section className="py-16 bg-warm-800 text-white" id="contact"><div className="max-w-4xl mx-auto px-6 lg:px-8 text-center"><h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2><p className="text-warm-200 mb-8 leading-relaxed">まずは気軽に体験してみましょう。</p><Link href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded">おすすめスタジオ一覧に戻る</Link></div></section>
       </main>

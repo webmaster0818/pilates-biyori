@@ -15,8 +15,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/sengawa/' },
-  title: '【2026年10月最新】ピラティス仙川おすすめ6選！料金・体験レッスン・マシン対応を比較！',
-  description: '仙川エリアのおすすめピラティススタジオ6選を徹底比較。URBAN CLASSIC PILATES仙川・ピラティスミラー仙川・CLUB PILATES仙川・PERSONAL TRAINING STUDIO U・zen place pilatesなど実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
+  title: '【2026年10月最新】ピラティス仙川おすすめ5選！料金・体験レッスン・マシン対応を比較！',
+  description: '仙川エリアのおすすめピラティススタジオ5選を徹底比較。URBAN CLASSIC PILATES仙川・ピラティスミラー仙川・CLUB PILATES仙川・PERSONAL TRAINING STUDIO Uなど実在スタジオの料金・体験レッスン・アクセスを完全ガイド。',
   keywords: 'ピラティス,仙川,東京,調布,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,URBAN CLASSIC,CLUB PILATES,ピラティスミラー',
 }
 
@@ -79,21 +79,6 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'トレーニングマシン', '更衣室'] },
   },
   {
-    name: 'zen place pilates（京王線沿線）',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 13,200円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['全国展開大手', 'マット&マシン完備', '京王線沿線利用可', '男女共用'],
-    description: '全国130店舗以上を展開する大手ピラティススタジオ。京王線沿線のスタジオを利用可能で仙川からもアクセス良好。マットからマシンまで豊富なレッスンメニュー。全店舗利用可能プランでライフスタイルに合わせて通えます。',
-    access: '京王線沿線のスタジオを利用可能（仙川から京王線でアクセス）',
-    address: '京王線沿線各スタジオ（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'フリープラン（月4回）', description: 'マット・マシンどちらも受講可能。全店舗利用可能プランもあり。', price: '月4回 13,200円〜（税込）' },
-    options: ['マットグループレッスン', 'マシングループレッスン', 'プライベートレッスン（1回 9,900円〜）', '全店舗利用可能プランあり'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'] },
-    basicInfo: { hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00（店舗により異なる）', closed: '不定休', facilities: ['リフォーマー', 'チェア', 'バレル', 'シャワー', 'ロッカー'] },
-  },
-  {
     name: 'Pilates Mee仙川店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
@@ -121,13 +106,13 @@ const studios = [
 const faqs = [
   { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！仙川エリアのスタジオは初心者歓迎。CLUB PILATES仙川は4段階のレベル分けで安心、ピラティスミラー仙川は最大7名の少人数制、URBAN CLASSIC PILATESは予約不要で気軽に始められます。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットピラティスは自重エクササイズ、マシンピラティスはリフォーマーなどの専用マシンを使用。仙川エリアはマシンピラティス対応スタジオが充実しており、CLUB PILATESはリフォーマー以外にTRXやバレルも使えます。' },
-  { question: '仙川のピラティスの料金相場は？', answer: 'URBAN CLASSICは月4回8,580円で最安級。ピラティスミラーは月6回11,000円、CLUB PILATESは月4回 13,090円、zen placeは月4回13,200円〜。仙川は選択肢が多く、予算に合わせやすいエリアです。' },
+  { question: '仙川のピラティスの料金相場は？', answer: 'URBAN CLASSICは月4回8,580円で最安級。ピラティスミラーは月6回11,000円、CLUB PILATESは月4回 13,090円。仙川は選択肢が多く、予算に合わせやすいエリアです。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめ。URBAN CLASSICの通い放題プラン（12,980円）なら毎日でも通えます。最低2〜3ヶ月は継続しましょう。' },
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がります。STUDIO Uのトレーニング×ピラティスの複合プログラムなら効率的にボディメイクが可能です。' },
-  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。zen placeは体験1,000円でウェアレンタルあり。ピラティスミラーは体験2,200円。まずは気軽に体験してみましょう。' },
-  { question: '男性でも通えるスタジオはありますか？', answer: 'URBAN CLASSIC PILATES仙川、CLUB PILATES仙川、STUDIO U仙川、zen placeは男性もOK。ピラティスミラー仙川も男性利用可能です。' },
+  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。ピラティスミラーは体験2,200円。まずは気軽に体験してみましょう。' },
+  { question: '男性でも通えるスタジオはありますか？', answer: 'URBAN CLASSIC PILATES仙川、CLUB PILATES仙川、STUDIO U仙川は男性もOK。ピラティスミラー仙川も男性利用可能です。' },
   { question: '仙川駅からのアクセスは？', answer: '仙川駅は京王線の各駅停車駅で、新宿まで約20分。STUDIO Uは徒歩2分、各スタジオとも駅から徒歩圏内で通いやすい立地です。' },
-  { question: 'パーソナルレッスンを受けたいのですが？', answer: 'PERSONAL TRAINING STUDIO U仙川がパーソナル専門でピラティス×トレーニングの複合プログラムを提供。zen placeもプライベートレッスン（1回9,900円〜）対応。ピラティスミラーも30分4,400円で対応。' },
+  { question: 'パーソナルレッスンを受けたいのですが？', answer: 'PERSONAL TRAINING STUDIO U仙川がパーソナル専門でピラティス×トレーニングの複合プログラムを提供。ピラティスミラーも30分4,400円で対応。' },
   { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '個人差はありますが、2ヶ月を過ぎた頃から変化を実感する方が多いです。週1〜2回で最低2〜3ヶ月の継続がおすすめです。' },
 ]
 
@@ -145,7 +130,7 @@ export default function SengawaPage() {
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
-            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス仙川おすすめ6選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1>
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス仙川おすすめ5選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1>
           </div>
         </section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">仙川</span></nav></div></section>
@@ -159,7 +144,7 @@ export default function SengawaPage() {
             <p className="text-warm-600 leading-relaxed mb-6">「仙川で人気のピラティススタジオを知りたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
             <p className="text-warm-600 leading-relaxed mb-8">仙川は京王線沿線で、新宿まで約20分の好アクセスエリア。桐朋学園や白百合女子大学があり、文化的な雰囲気が漂う街です。駅前にはクイーンズ伊勢丹や島忠ホームズなど商業施設も充実。そんな仙川には、世界最大級のCLUB PILATESから予約不要のURBAN CLASSICまで、多彩なスタジオが揃っています。</p>
-            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、仙川エリアでおすすめの実在するピラティススタジオ6選をまとめました。</p>
+            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、仙川エリアでおすすめの実在するピラティススタジオ5選をまとめました。</p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
               <ul className="space-y-2 text-warm-700">
@@ -175,7 +160,7 @@ export default function SengawaPage() {
         </section>
         <PriceComparisonTable studios={studios} areaName="仙川" />
         <AreaMarketComparison studios={studios} areaName="仙川" />
-        <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">仙川のおすすめピラティススタジオ6選</h2><div className="space-y-8">{[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
+        <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">仙川のおすすめピラティススタジオ5選</h2><div className="space-y-8">{[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
 
         <section className="py-16 bg-white" id="price-market">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -200,7 +185,7 @@ export default function SengawaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">各駅停車のみの停車駅</h3><p className="text-warm-600 leading-relaxed">仙川駅は京王線の各駅停車駅です。急行や特急は停車しないため、乗り換えが必要な場合があります。通勤経路と合わせてアクセスを確認しておきましょう。</p></div>
               <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">予約制と予約不要の違いに注意</h3><p className="text-warm-600 leading-relaxed">URBAN CLASSICは予約不要でいつでも行ける手軽さがあり、CLUB PILATESやピラティスミラーは事前予約制。ライフスタイルに合った形式を選びましょう。</p></div>
               <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">CLUB PILATESのレベル分けを確認</h3><p className="text-warm-600 leading-relaxed">CLUB PILATESは4段階のレベル分けがあり、自分に合ったクラスを選ぶことが大切。初心者はレベル1からスタートし、徐々にステップアップしていきましょう。</p></div>
-              <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較検討を</h3><p className="text-warm-600 leading-relaxed">近隣の<Link href="/area/chofu/" className="text-warm-700 underline hover:text-warm-900">調布</Link>や<Link href="/area/chitose-funabashi/" className="text-warm-700 underline hover:text-warm-900">千歳船橋</Link>エリアにもスタジオがあります。zen placeなら全店舗利用可能プランで複数エリアを使い分けられます。</p></div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較検討を</h3><p className="text-warm-600 leading-relaxed">近隣の<Link href="/area/chofu/" className="text-warm-700 underline hover:text-warm-900">調布</Link>や<Link href="/area/chitose-funabashi/" className="text-warm-700 underline hover:text-warm-900">千歳船橋</Link>エリアにもスタジオがあります。</p></div>
             </div>
           </div>
         </section>
@@ -223,7 +208,7 @@ export default function SengawaPage() {
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">目的別おすすめスタジオ</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3><p className="text-warm-600 text-sm mb-4">月額1万円以下からスタート。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• URBAN CLASSIC（月4回 8,580円）</li><li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li><li className="text-warm-700">• CLUB PILATES（月4回 13,090円）</li></ul></div>
-              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">本格派・上級者</h3><p className="text-warm-600 text-sm mb-4">世界基準の本格レッスン。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• CLUB PILATES（4段階レベル・多彩なマシン）</li><li className="text-warm-700">• zen place（解剖学ベース・全店利用可）</li><li className="text-warm-700">• STUDIO U（パーソナル×トレーニング）</li></ul></div>
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">本格派・上級者</h3><p className="text-warm-600 text-sm mb-4">世界基準の本格レッスン。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• CLUB PILATES（4段階レベル・多彩なマシン）</li><li className="text-warm-700">• STUDIO U（パーソナル×トレーニング）</li></ul></div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">忙しい方・時短</h3><p className="text-warm-600 text-sm mb-4">短時間で効率的に。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• URBAN CLASSIC（予約不要・30分）</li><li className="text-warm-700">• ピラティスミラー（30分レッスン）</li><li className="text-warm-700">• STUDIO U（週1回50分で結果）</li></ul></div>
             </div>
           </div>
@@ -237,7 +222,7 @@ export default function SengawaPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center"><h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円/月</h3><p className="text-3xl font-bold text-warm-800 mb-4">月4回</p><p className="text-sm text-warm-600 mb-4">手軽に始めたい方に。</p><ul className="text-sm text-warm-700 space-y-1"><li>• URBAN CLASSIC（8,580円/月4回）</li></ul></div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50"><div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div><h3 className="text-lg font-bold text-warm-900 mb-2">予算 11,000〜12,000円/月</h3><p className="text-3xl font-bold text-warm-800 mb-4">月4〜6回</p><p className="text-sm text-warm-600 mb-4">週1〜2回で着実に成果。</p><ul className="text-sm text-warm-700 space-y-1"><li>• ピラティスミラー（11,000円/月6回）</li><li>• CLUB PILATES（月4回 13,090円）</li></ul></div>
-              <div className="border-2 border-warm-300 rounded-lg p-6 text-center"><h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000円〜/月</h3><p className="text-3xl font-bold text-warm-800 mb-4">月4回〜通い放題</p><p className="text-sm text-warm-600 mb-4">本格派の方に。</p><ul className="text-sm text-warm-700 space-y-1"><li>• URBAN CLASSIC通い放題（12,980円）</li><li>• zen place（13,200円〜/月4回）</li></ul></div>
+              <div className="border-2 border-warm-300 rounded-lg p-6 text-center"><h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000円〜/月</h3><p className="text-3xl font-bold text-warm-800 mb-4">月4回〜通い放題</p><p className="text-sm text-warm-600 mb-4">本格派の方に。</p><ul className="text-sm text-warm-700 space-y-1"><li>• URBAN CLASSIC通い放題（12,980円）</li></ul></div>
             </div>
           </div>
         </section>
@@ -248,7 +233,7 @@ export default function SengawaPage() {
             <div className="space-y-8">
               <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span><h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3></div><p className="text-warm-600 leading-relaxed">ボディメイクならSTUDIO U、コスパ重視ならURBAN CLASSIC、本格派ならCLUB PILATESがおすすめ。</p></div>
               <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">レッスン形式を選ぶ</h3></div><p className="text-warm-600 leading-relaxed">予約不要（URBAN CLASSIC）、グループ（CLUB PILATES・ピラティスミラー）、パーソナル（STUDIO U）。</p></div>
-              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">zen placeは体験1,000円、ピラティスミラーは体験2,200円。まず体験でスタジオの雰囲気を確認。</p></div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">ピラティスミラーは体験2,200円。まず体験でスタジオの雰囲気を確認。</p></div>
               <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div><p className="text-warm-600 leading-relaxed">仙川駅周辺にスタジオが集中。STUDIO Uは徒歩2分で最も近い。自宅や職場からの動線に合わせて選びましょう。</p></div>
             </div>
           </div>
@@ -259,9 +244,9 @@ export default function SengawaPage() {
         <section className="py-16 bg-warm-50" id="summary">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
-            <p className="text-warm-600 leading-relaxed mb-6">今回は仙川エリアのおすすめピラティススタジオ6選をご紹介しました。</p>
-            <p className="text-warm-600 leading-relaxed mb-6">仙川は京王線沿線の中でもピラティススタジオの選択肢が豊富。URBAN CLASSIC PILATES仙川（予約不要・月4回8,580円）、ピラティスミラー仙川（コナミ運営・ミラー活用）、CLUB PILATES仙川（全米最大級・4段階レベル分け）、STUDIO U仙川（パーソナル×トレーニング）、zen place pilates（全店舗利用可能）と個性豊かなスタジオが揃っています。</p>
-            <p className="text-warm-600 leading-relaxed mb-6">まずはzen placeの体験1,000円やURBAN CLASSICの体験レッスンから試してみましょう。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">今回は仙川エリアのおすすめピラティススタジオ5選をご紹介しました。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">仙川は京王線沿線の中でもピラティススタジオの選択肢が豊富。URBAN CLASSIC PILATES仙川（予約不要・月4回8,580円）、ピラティスミラー仙川（コナミ運営・ミラー活用）、CLUB PILATES仙川（全米最大級・4段階レベル分け）、STUDIO U仙川（パーソナル×トレーニング）と個性豊かなスタジオが揃っています。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">まずはURBAN CLASSICの体験レッスンから試してみましょう。</p>
             <p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p>
           </div>
         </section>

@@ -14,26 +14,12 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/denenchofu/' },
-  title: '【2026年10月最新】田園調布のピラティススタジオおすすめ6選｜駅徒歩2分圏・料金で比較',
-  description: '田園調布のピラティススタジオ6社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
+  title: '【2026年10月最新】田園調布のピラティススタジオおすすめ5選｜駅徒歩2分圏・料金で比較',
+  description: '田園調布のピラティススタジオ5社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
   keywords: 'ピラティス,田園調布,奥沢,大田区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
 const studios = [
-  {
-    name: 'zen place pilates 田園調布スタジオ',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    image: '/images/studios/zen-place-pilates.webp', reviewCount: 145,
-    price: '月4回 10,450円〜', trial: 'グループ体験 1,000円',
-    features: ['田園調布駅徒歩3分', '男性OK', 'マット&マシン', '全国相互利用'],
-    description: 'ピラティス専門の大手スタジオ。田園調布駅から徒歩3分。マットグループ・マシングループ・プライベートの3タイプから選べます。全国150店舗以上で相互利用可能。BASIピラティスをベースにした質の高い指導が特徴。',
-    access: '東急東横線・目黒線「田園調布駅」徒歩3分',
-    address: '東京都大田区田園調布エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'フリープラン（マットグループ）', description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。', price: '月額 13,552円〜（税込）' },
-    options: ['月4回プラン（10,450円〜）', 'マシングループ体験（3,000円）', 'プライベートレッスン（体験 9,900円）', '体験当日入会で入会金無料'],
-    userProfile: { ageRange: '30代〜50代が中心', genderRatio: '女性75% / 男性25%', purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'] },
-    basicInfo: { hours: '月〜金 10:00〜20:00 / 土日祝 10:00〜16:00', closed: '不定休', facilities: ['リフォーマー', 'マット', 'ロッカー', '更衣室'] },
-  },
   {
     name: 'TSUTAYA Conditioning PILATES 田園調布店',
     image: '/images/studios/tsutaya-conditioning-pilates-shonan.webp', reviewCount: 98,
@@ -101,15 +87,15 @@ const studios = [
 ]
 
 const faqs = [
-  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！田園調布エリアのスタジオはほとんどが初心者歓迎。TSUTAYA Conditioningは初心者向けクラスが充実、zen placeは丁寧な指導で定評があります。' },
+  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！田園調布エリアのスタジオはほとんどが初心者歓迎。TSUTAYA Conditioningは初心者向けクラスが充実しています。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。田園調布はマシン専門スタジオが充実しています。' },
-  { question: '田園調布のピラティスの料金相場は？', answer: 'グループ月4回で10,450円〜19,800円程度。zen placeが月4回10,450円〜、TSUTAYA Conditioningが月4回11,000円〜。パーソナルは1回8,300円〜25,000円。' },
+  { question: '田園調布のピラティスの料金相場は？', answer: 'グループ月4回で10,450円〜19,800円程度。TSUTAYA Conditioningが月4回11,000円〜。パーソナルは1回8,300円〜25,000円。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に増やすと効果的です。Pilates Meeの通い放題プランなら毎日でも通えます。' },
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続で体の変化を実感する方が多いです。' },
-  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。TSUTAYA Conditioningは体験無料、zen placeはグループ1,000円で体験できます。靴下（グリップソックス推奨）も忘れずに。' },
-  { question: '男性でも通えるスタジオはありますか？', answer: 'zen place田園調布とDr.ピラティスは男性も通えます。TSUTAYA ConditioningとPilates Meeは女性専用です。' },
-  { question: 'パーソナルレッスンとグループレッスンどちらがおすすめ？', answer: '初心者や体の悩みがある方はパーソナルがおすすめ。Dr.ピラティスやSTUDIO IVYで個別指導を受けられます。コスパ重視ならグループレッスンのzen placeやTSUTAYA Conditioning。' },
-  { question: '田園調布駅から近いスタジオは？', answer: 'Dr.ピラティスが駅徒歩30秒で最寄り。TSUTAYA Conditioning・Pilates Mee・ピラティスステーションライトが徒歩2分、zen placeが徒歩3分です。' },
+  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。TSUTAYA Conditioningは体験無料です。靴下（グリップソックス推奨）も忘れずに。' },
+  { question: '男性でも通えるスタジオはありますか？', answer: 'Dr.ピラティスは男性も通えます。TSUTAYA ConditioningとPilates Meeは女性専用です。' },
+  { question: 'パーソナルレッスンとグループレッスンどちらがおすすめ？', answer: '初心者や体の悩みがある方はパーソナルがおすすめ。Dr.ピラティスやSTUDIO IVYで個別指導を受けられます。コスパ重視ならグループレッスンのTSUTAYA Conditioning。' },
+  { question: '田園調布駅から近いスタジオは？', answer: 'Dr.ピラティスが駅徒歩30秒で最寄り。TSUTAYA Conditioning・Pilates Mee・ピラティスステーションライトが徒歩2分です。' },
   { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。姿勢改善は比較的早く、ボディメイクは3ヶ月程度の継続がおすすめです。' },
 ]
 
@@ -130,7 +116,7 @@ export default function DenenchofuPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026年10月最新】ピラティス田園調布おすすめ6選！<br className="hidden md:block" />
+              【2026年10月最新】ピラティス田園調布おすすめ5選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -173,7 +159,7 @@ export default function DenenchofuPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、田園調布・奥沢エリアでおすすめのピラティススタジオ6選をまとめました。
+              そこでこの記事では、田園調布・奥沢エリアでおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -212,7 +198,7 @@ export default function DenenchofuPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              田園調布のおすすめピラティススタジオ6選
+              田園調布のおすすめピラティススタジオ5選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -281,7 +267,7 @@ export default function DenenchofuPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">体験レッスンの料金差に注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  田園調布エリアのスタジオは体験レッスンの料金はスタジオにより幅があります。TSUTAYA Conditioningは無料、zen placeは1,000円、Pilates Meeは体験レッスン無料です。事前に確認してから予約しましょう。
+                  田園調布エリアのスタジオは体験レッスンの料金はスタジオにより幅があります。TSUTAYA Conditioningは無料、Pilates Meeは体験レッスン無料です。事前に確認してから予約しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -344,7 +330,6 @@ export default function DenenchofuPage() {
                   リーズナブルにグループレッスン。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
                   <li className="text-warm-700">• TSUTAYA Conditioning（月4回 11,000円〜）</li>
                 </ul>
               </div>
@@ -409,7 +394,6 @@ export default function DenenchofuPage() {
                   グループレッスン中心。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place（10,450円〜/月4回）</li>
                   <li>• TSUTAYA Conditioning（11,000円〜/月4回）</li>
                 </ul>
               </div>
@@ -421,7 +405,6 @@ export default function DenenchofuPage() {
                   セミパーソナル・通い放題。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place通い放題（13,552円〜）</li>
                   <li>• Pilates Mee月4回（19,800円）</li>
                 </ul>
               </div>
@@ -471,7 +454,7 @@ export default function DenenchofuPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  TSUTAYA Conditioningは無料体験。zen placeは1,000円で体験可能。まずは2-3スタジオの体験を受けて比較しましょう。
+                  TSUTAYA Conditioningは無料体験。まずは2-3スタジオの体験を受けて比較しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
