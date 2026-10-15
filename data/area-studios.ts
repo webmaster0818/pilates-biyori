@@ -2741,6 +2741,7 @@ export const areaStudios: Record<string, AreaData> = {
         features: ['理学療法士監修', 'マシン専門', 'リフォーマー', '17プログラム'],
         description: '理学療法士監修のマシンピラティス。専用リフォーマー全面導入で部位別17プログラム。',
         access: '五稜郭駅より車で10分',
+        address: '北海道函館市美原3-5-17 吉村ビル1F左',
       },
       {
         name: 'K.pilates',
@@ -3797,7 +3798,7 @@ export const areaStudios: Record<string, AreaData> = {
         features: ['マンツーマン専門', 'リフォーマー・キャデラック・チェア完備', '理学療法士監修'],
         description: '理学療法士監修のマンツーマン専門マシンピラティス。リフォーマー・キャデラック・チェアを完備。湘南台駅徒歩3分。',
         access: '湘南台駅徒歩3分',
-        address: '神奈川県藤沢市（詳細は公式サイト参照）',
+        address: '神奈川県藤沢市湘南台1-6-7 小宮ビル3階A',
       },
     ],
   },
@@ -6888,7 +6889,7 @@ export const areaStudios: Record<string, AreaData> = {
         features: ['理学療法士監修', 'マンツーマン専門', 'マシンピラティス', '姿勢改善'],
         description: '理学療法士が監修するマンツーマン専門のマシンピラティス。医学的アプローチで姿勢・不調にアプローチ。',
         access: '雑餉隈駅から西鉄で1駅・春日原駅徒歩2分（雑餉隈/南福岡からは徒歩圏外・1駅利用が現実的）',
-        address: '福岡県大野城市雑餉隈町4丁目',
+        address: '福岡県大野城市雑餉隈町４丁目2-16 石橋ビル302',
       },
       {
         name: 'マシンピラティススタジオ best pilates',
@@ -6951,7 +6952,7 @@ export const areaStudios: Record<string, AreaData> = {
         features: ['理学療法士監修', 'マンツーマン専門', 'マシンピラティス', '姿勢改善'],
         description: '理学療法士監修のマンツーマン専門マシンピラティス。反り腰・姿勢改善などオーダーメイド指導。',
         access: '下大利駅から西鉄で2駅・春日原駅東口徒歩2分（下大利からは電車利用が現実的）',
-        address: '福岡県大野城市雑餉隈町4丁目',
+        address: '福岡県大野城市雑餉隈町４丁目2-16 石橋ビル302',
       },
       {
         name: 'Body Hackers Lab 春日原・大野城店',

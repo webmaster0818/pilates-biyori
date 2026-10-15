@@ -54,37 +54,6 @@ const studios = [
     },
   },
   {
-    name: 'ルルト（luluto）', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
-    image: '/images/studios/luluto.webp',
-    price: '要問合せ',
-    trial: '体験レッスン あり',
-    features: ['理学療法士考案', '医療的視点', '身体の専門家', 'オーダーメイド'],
-    description: '身体の専門家である理学療法士が考案したピラティススタジオ。医療現場での知見を活かし、「ただ動く」のではなく「身体を正しく動かす」ことを重視。一人ひとりの身体の状態に合わせたオーダーメイドプログラムを提供。リハビリから本格的なボディメイクまで幅広く対応。',
-    access: '東京都内',
-    address: '東京都内（詳細は公式サイト参照）',
-    popularPlan: {
-      name: '理学療法士監修プログラム',
-      description: '医療的視点からの身体分析。一人ひとりに合わせたオーダーメイドプログラム。',
-      price: '要問合せ',
-    },
-    options: [
-      'プライベートレッスン',
-      'グループレッスン',
-      '理学療法士による身体分析',
-      'リハビリ対応',
-    ],
-    userProfile: {
-      ageRange: '30代〜60代が中心',
-      genderRatio: '女性75% / 男性25%',
-      purpose: ['リハビリ', '身体の不調改善', '正しい動き習得', 'ボディメイク'],
-    },
-    basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '詳細は公式サイト参照',
-      facilities: ['理学療法士常駐', 'プライベート空間', '医療的視点'],
-    },
-  },
-  {
     name: 'CLUB PILATES',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
     image: '/images/studios/club-pilates.webp',
@@ -239,7 +208,7 @@ const faqs = [
   },
   {
     question: '理学療法士監修のスタジオはありますか？',
-    answer: 'はい、ルルトとタクトエイトは理学療法士が考案・立ち上げたスタジオです。医療現場での知見を活かし、「身体を正しく動かす」ことを重視。リハビリから本格的なボディメイクまで幅広く対応しています。',
+    answer: 'はい、タクトエイトは理学療法士が考案・立ち上げたスタジオです。医療現場での知見を活かし、「身体を正しく動かす」ことを重視。リハビリから本格的なボディメイクまで幅広く対応しています。',
   },
   {
     question: '運動が苦手でも大丈夫ですか？',
@@ -504,7 +473,6 @@ export default async function TokyoAreaPage() {
                   医療的視点から身体を整えたい方に。リハビリ目的の方にもおすすめ。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• ルルト（luluto）</li>
                   <li className="text-warm-700">• タクトエイト（takt8）</li>
                 </ul>
               </div>

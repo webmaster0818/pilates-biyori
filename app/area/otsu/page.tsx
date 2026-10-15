@@ -47,20 +47,6 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'luluto（ルルト）大津店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
-    image: '/images/studios/luluto.webp',
-    price: '月3回 29,700円〜',
-    trial: '体験レッスンあり',
-    features: ['完全マンツーマン', '理学療法士監修', '高品質指導', 'カスタマイズ'],
-    description: '完全マンツーマンのマシンピラティススタジオ。理学療法士監修のプログラムで一人ひとりに合わせた指導。',
-    access: '大津市内（詳細は公式サイトでご確認ください）',
-    address: '滋賀県大津市（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: '人気プラン', description: '完全マンツーマンのマシンピラティススタジオ。理学療法士監修のプログラムで一人ひと', price: '月3回 29,700円〜' },
-    options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
-  },
-  {
     name: '美ボディクラブ紬',
     price: '月額制（詳細は公式サイト）',
     trial: '体験レッスンあり',
@@ -174,7 +160,7 @@ export default function OtsuPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル</h3>
                 <p className="text-warm-600 text-sm mb-4">パーソナルで選ぶなら。</p>
-                <ul className="space-y-2 text-sm"><li className="text-warm-700">• luluto（理学療法士監修）</li><li className="text-warm-700">• B.walk（完全個室）</li></ul>
+                <ul className="space-y-2 text-sm"><li className="text-warm-700">• B.walk（完全個室）</li></ul>
               </div>
             </div>
           </div>

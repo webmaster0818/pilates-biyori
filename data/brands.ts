@@ -1057,7 +1057,7 @@ export const BRANDS: BrandInfo[] = [
     name: 'ルルト（luluto）',
     tagline: '理学療法士監修・完全マンツーマンのマシンピラティス',
     intro: [
-      'ルルト（ピラティススタジオ『ルルト』）は、株式会社理学ボディが運営するマシンピラティススタジオです。公式の店舗一覧には全国100店舗が掲載されています（2026年10月時点）。当サイトでは36店舗を掲載しています。',
+      'ルルト（ピラティススタジオ『ルルト』）は、株式会社理学ボディが運営するマシンピラティススタジオです。公式の店舗一覧には全国100店舗（2026年10月時点・11月オープン予定の本八幡店を含む）が掲載されており、当サイトではうち29店舗を掲載しています。',
       '公式サイトでは「理学療法士が考案」「理学療法士が監修」したスタジオと案内されています。レッスンは完全マンツーマン（1対1）で、キャデラック・リフォーマー・チェアといったマシンを使い、目的や体の状態に合わせて内容を組む形式です。グループレッスンはありません。',
     ],
     features: ['理学療法士監修（公式表記）', '完全マンツーマン（1対1）', 'マシン（キャデラック・リフォーマー・チェア）', '男性も利用可'],
@@ -1116,7 +1116,7 @@ export const BRANDS: BrandInfo[] = [
     ctaUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
     ctaLabel: '公式サイトで詳細を見る',
     officialRef: { label: 'ルルト公式サイト', url: 'https://luluto.kabushikigaisya-rigakubody.co.jp/' },
-    officialStores: { count: 100, kind: '一覧実数', sourceUrl: 'https://luluto.kabushikigaisya-rigakubody.co.jp/tenpo/', asOf: '2026年10月', caveat: '公式店舗一覧に掲載されている国内店舗数です（海外店舗は含みません）。' },
+    officialStores: { count: 100, kind: '一覧実数', sourceUrl: 'https://luluto.kabushikigaisya-rigakubody.co.jp/tenpo/', asOf: '2026年10月', caveat: '公式店舗一覧に掲載されている国内店舗数で、2026年11月オープン予定の本八幡店を含みます（海外店舗は含みません）。', byPref: [{ pref: '東京都', count: 22 }, { pref: '神奈川県', count: 14 }, { pref: '大阪府', count: 7 }, { pref: '愛知県', count: 7 }, { pref: '千葉県', count: 5 }, { pref: '埼玉県', count: 4 }, { pref: '福岡県', count: 4 }, { pref: '兵庫県', count: 3 }, { pref: '北海道', count: 3 }, { pref: '沖縄県', count: 3 }, { pref: '群馬県', count: 3 }, { pref: '三重県', count: 2 }, { pref: '奈良県', count: 2 }, { pref: '宮城県', count: 2 }, { pref: '岡山県', count: 2 }, { pref: '岩手県', count: 2 }, { pref: '石川県', count: 2 }, { pref: '京都府', count: 1 }, { pref: '大分県', count: 1 }, { pref: '富山県', count: 1 }, { pref: '山梨県', count: 1 }, { pref: '岐阜県', count: 1 }, { pref: '広島県', count: 1 }, { pref: '新潟県', count: 1 }, { pref: '栃木県', count: 1 }, { pref: '滋賀県', count: 1 }, { pref: '福島県', count: 1 }, { pref: '秋田県', count: 1 }, { pref: '茨城県', count: 1 }, { pref: '長野県', count: 1 }] },
     isPartner: true,
     useHyoban: true,
   },

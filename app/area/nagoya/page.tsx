@@ -53,44 +53,12 @@ const studios = [
     },
   },
   {
-    name: 'luluto 名古屋（名駅店・栄店・金山店・大曽根店）',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
-    image: '/images/studios/luluto.webp',
-    price: '要問合せ',
-    trial: '体験レッスン あり',
-    features: ['理学療法士考案', '名古屋市内4店舗', 'マンツーマン', '医療的視点'],
-    description: '身体の専門家である理学療法士が考案したピラティススタジオ。名古屋市内に4店舗（名駅店・栄店・金山店・大曽根店）展開。医療現場での知見を活かし、「ただ動く」のではなく「身体を正しく動かす」ことを重視。一人ひとりの身体の状態に合わせたオーダーメイドプログラムを提供。リハビリから本格的なボディメイクまで幅広く対応。',
-    access: '名駅・栄・金山・大曽根（各駅近）',
-    address: '愛知県名古屋市（詳細は公式サイト参照）',
-    popularPlan: {
-      name: '理学療法士監修プログラム',
-      description: '医療的視点からの身体分析。一人ひとりに合わせたオーダーメイドプログラム。',
-      price: '要問合せ',
-    },
-    options: [
-      'プライベートレッスン',
-      'グループレッスン',
-      '理学療法士による身体分析',
-      'リハビリ対応',
-    ],
-    userProfile: {
-      ageRange: '30代〜60代が中心',
-      genderRatio: '女性75% / 男性25%',
-      purpose: ['リハビリ', '身体の不調改善', '正しい動き習得', 'ボディメイク'],
-    },
-    basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '詳細は公式サイト参照',
-      facilities: ['理学療法士常駐', 'プライベート空間', '医療的視点', '4店舗展開'],
-    },
-  },
-  {
     name: 'Two Three 名古屋',
     image: '/images/studios/two-three-pilates.webp',
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['少人数制', '最大8名', '女性に人気', 'ピラティスアカデミー運営'],
-    description: '名古屋で女性に人気のピラティススタジオ9選に紹介されたスタジオ。最大8名までの少人数制グループレッスンが特徴で、一人ひとりに的確な指導が行き届くよう配慮。誰でも通いやすいピラティススタジオです。まずは体験レッスンからお気軽にお申し込みください。',
+    description: '名古屋で女性に人気のピラティススタジオ8選に紹介されたスタジオ。最大8名までの少人数制グループレッスンが特徴で、一人ひとりに的確な指導が行き届くよう配慮。誰でも通いやすいピラティススタジオです。まずは体験レッスンからお気軽にお申し込みください。',
     access: '名古屋市内（詳細は公式サイト参照）',
     address: '愛知県名古屋市（詳細は公式サイト参照）',
     popularPlan: {
@@ -342,7 +310,7 @@ export default function NagoyaAreaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス名古屋おすすめ9選！<br className="hidden md:block" />
+              【2026最新】ピラティス名古屋おすすめ8選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -385,7 +353,7 @@ export default function NagoyaAreaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、名古屋エリアでおすすめのピラティススタジオ9選をまとめました。
+              そこでこの記事では、名古屋エリアでおすすめのピラティススタジオ8選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -424,7 +392,7 @@ export default function NagoyaAreaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              名古屋のおすすめピラティススタジオ9選
+              名古屋のおすすめピラティススタジオ8選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -451,15 +419,6 @@ export default function NagoyaAreaPage() {
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">理学療法士監修</h3>
-                <p className="text-warm-600 text-sm mb-4">
-                  医療的視点から身体を整えたい方に。リハビリから本格的なボディメイクまで対応。
-                </p>
-                <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• luluto 名古屋（名駅・栄・金山・大曽根）</li>
-                </ul>
-              </div>
-              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">少人数制・丁寧指導</h3>
                 <p className="text-warm-600 text-sm mb-4">
                   最大8名までの少人数制で、一人ひとりに的確な指導。初心者でも安心。
@@ -476,7 +435,6 @@ export default function NagoyaAreaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• studio nano（名駅・伏見）</li>
-                  <li className="text-warm-700">• luluto 名古屋（医療的視点）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -560,7 +518,6 @@ export default function NagoyaAreaPage() {
                   パーソナルレッスン中心。専門的な指導で効率よく結果を出したい方向け。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• luluto 名古屋（理学療法士監修）</li>
                   <li>• REBORN 名古屋（充実設備）</li>
                   <li>• アステル（1回で効果実感）</li>
                 </ul>
@@ -582,7 +539,7 @@ export default function NagoyaAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  まずは自分がピラティスで何を達成したいのかを明確にしましょう。ダイエット、姿勢改善、体幹強化、リハビリなど、目的によって最適なスタジオやプログラムは変わります。名古屋にはlulutoのような医療的視点のスタジオから、ピラティスKのような楽しいグループレッスンまで選択肢が豊富です。
+                  まずは自分がピラティスで何を達成したいのかを明確にしましょう。ダイエット、姿勢改善、体幹強化、リハビリなど、目的によって最適なスタジオやプログラムは変わります。名古屋にはピラティスKのような楽しいグループレッスンなど選択肢が豊富です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -630,7 +587,7 @@ export default function NagoyaAreaPage() {
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
                   <p className="text-3xl font-bold text-warm-800 mb-2">13,420円〜18,000円</p>
-                  <p className="text-sm text-warm-600">ピラティスK久屋大通パーク店が月4回13,420円＋施設維持費825円。ナグスタジオ・Two Threeなど地元スタジオも人気。パーソナル1回は8,000円〜15,000円が目安で、lulutoは理学療法士監修のプログラムを提供しています。</p>
+                  <p className="text-sm text-warm-600">ピラティスK久屋大通パーク店が月4回13,420円＋施設維持費825円。ナグスタジオ・Two Threeなど地元スタジオも人気。パーソナル1回は8,000円〜15,000円が目安です。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">地元密着型スタジオ</h3>
@@ -640,7 +597,7 @@ export default function NagoyaAreaPage() {
               </div>
               <div className="bg-white rounded-lg p-5 border border-warm-200">
                 <h3 className="font-bold text-warm-900 mb-3">入会金・体験レッスン費用</h3>
-                <p className="text-sm text-warm-600">入会金は10,000円〜30,000円程度が一般的。キャンペーン期間中は無料になるスタジオも多数。体験レッスンは無料〜5,000円程度。ピラティスKは無料体験あり、lulutoは体験1,000円キャンペーンを実施中のことも。まずは気軽に体験してみましょう。</p>
+                <p className="text-sm text-warm-600">入会金は10,000円〜30,000円程度が一般的。キャンペーン期間中は無料になるスタジオも多数。体験レッスンは無料〜5,000円程度。ピラティスKは無料体験あり。まずは気軽に体験してみましょう。</p>
               </div>
             </div>
           </div>
@@ -668,7 +625,7 @@ export default function NagoyaAreaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">理学療法士・医療系監修スタジオに注目</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  名古屋エリアではluluto（理学療法士監修）やREBORN、studio nanoなど、医療系のバックグラウンドを持つスタジオが増えています。腰痛・肩こり・姿勢改善などの目的がある方は、理学療法士やトレーナー資格を持つインストラクターがいるスタジオを選ぶと、より効果的な指導を受けられます。
+                  名古屋エリアではREBORNやstudio nanoなど、医療系のバックグラウンドを持つスタジオが増えています。腰痛・肩こり・姿勢改善などの目的がある方は、理学療法士やトレーナー資格を持つインストラクターがいるスタジオを選ぶと、より効果的な指導を受けられます。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -753,7 +710,7 @@ export default function NagoyaAreaPage() {
               今回は名古屋のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              名古屋には、音楽×暗闇のピラティスK、理学療法士監修のluluto、少人数制のTwo Three、充実設備のREBORN、栄・名駅展開のアステル、ピラティス＆ヨガのナグスタジオ、養成コース開講のTree、姿勢矯正専門のstudio nanoなど、個性豊かなスタジオが揃っています。
+              名古屋には、音楽×暗闇のピラティスK、少人数制のTwo Three、充実設備のREBORN、栄・名駅展開のアステル、ピラティス＆ヨガのナグスタジオ、養成コース開講のTree、姿勢矯正専門のstudio nanoなど、個性豊かなスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
