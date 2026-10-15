@@ -389,7 +389,7 @@ export default function YoyogiUeharaPage() {
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回 3,850円〜9,075円</td>
+                    <td className="px-4 py-3">1回 8,600円〜9,075円</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>

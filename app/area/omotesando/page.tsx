@@ -139,7 +139,7 @@ const faqs = [
   },
   {
     question: '表参道のピラティススタジオの料金相場は？',
-    answer: '表参道エリアのピラティススタジオの料金相場は、グループレッスン月4回で10,450円〜13,420円程度。都度払いは1回3,025円〜（Pilates KASANE）。体験レッスンは500円〜3,850円が一般的です。',
+    answer: '表参道エリアのピラティススタジオの料金相場は、グループレッスン月4回でピラティスKの13,420円。都度払いは1回3,025円〜（Pilates KASANE）。体験レッスンは500円〜3,850円が一般的です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -517,7 +517,7 @@ export default function OmotesandoPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  表参道エリアの料金相場は、グループレッスン月4回で10,450円〜13,420円程度、都度払いなら1回3,025円〜。無理なく継続できる予算を決めましょう。都度払い派ならPilates KASANEの1回3,025円〜がおすすめです。
+                  表参道エリアの料金相場は、グループレッスン月4回でピラティスKの13,420円、都度払いなら1回3,025円〜。無理なく継続できる予算を決めましょう。都度払い派ならPilates KASANEの1回3,025円〜がおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

@@ -184,7 +184,7 @@ const faqs = [
   },
   {
     question: '築地のピラティスの料金相場は？',
-    answer: 'グループ月4回で10,450円〜14,520円程度。パーソナルは1回9,000円〜12,100円が相場です。',
+    answer: 'パーソナルは1回9,000円〜12,100円が相場です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -343,7 +343,7 @@ export default function TsukijiPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">10,450円〜36,000円</td>
+                    <td className="px-4 py-3">掲載スタジオなし</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -351,7 +351,7 @@ export default function TsukijiPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">1,000円〜4,500円</td>
+                    <td className="px-4 py-3">無料〜4,500円</td>
                   </tr>
                 </tbody>
               </table>
@@ -564,7 +564,7 @@ export default function TsukijiPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  築地の料金相場はグループ月4回で10,450円〜15,070円。入会金やキャンペーンも確認しましょう。
+                  築地の掲載スタジオはセミパーソナル・パーソナル中心で、Pilates Meeが月4回19,800円、STUDIO IVYが月2回15,000円〜。入会金やキャンペーンも確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

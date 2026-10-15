@@ -206,7 +206,7 @@ export default function SenriChuoPage() {
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">通い放題プラン</td>
-                    <td className="px-4 py-3">月額 8,800円〜14,960円</td>
+                    <td className="px-4 py-3">月額 9,800円〜14,960円</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>

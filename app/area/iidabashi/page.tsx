@@ -169,7 +169,7 @@ const faqs = [
   },
   {
     question: '飯田橋・神楽坂エリアの料金相場は？',
-    answer: 'グループ月4回で10,450円〜15,070円程度。zen placeが月4回10,450円〜。パーソナルはルルトが月3回29,700円〜。',
+    answer: 'グループ月4回で10,450円〜14,190円程度。zen placeが月4回10,450円〜。パーソナルはルルトが月3回29,700円〜。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -335,7 +335,7 @@ export default function IidabashiPage() {
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回 12,980円〜38,400円</td>
+                    <td className="px-4 py-3">月3〜4回 29,700円〜39,600円</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
@@ -549,7 +549,7 @@ export default function IidabashiPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  飯田橋・神楽坂の料金相場はグループ月4回で10,450円〜15,070円。入会金やキャンペーンも確認しましょう。
+                  飯田橋・神楽坂の料金相場はグループ月4回で10,450円〜14,190円。入会金やキャンペーンも確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

@@ -293,11 +293,11 @@ export default function GakugeiDaigakuPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">11,000円〜15,400円</td>
+                    <td className="px-4 py-3">11,000円（月6回）</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回 9,625円〜28,000円</td>
+                    <td className="px-4 py-3">月2回 15,000円〜月4回 28,000円</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>

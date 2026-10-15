@@ -214,7 +214,7 @@ const studios = [
 const faqs = [
   { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！渋谷エリアのスタジオはレベル別クラスがあり初心者も安心です。Rintosullはスクリーン指導で初心者に特におすすめ。CLUB PILATESもレベル別クラスが充実しています。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンは専用リフォーマーを使ったトレーニング。マシンは初心者でもフォームが安定しやすくおすすめです。渋谷エリアはマシン専門スタジオが豊富です。' },
-  { question: '渋谷エリアの料金相場は？', answer: 'グループ月4回で8,800円〜12,980円が相場。Rintosullは8,800円〜で最安クラス、zen placeは9,625円〜。パーソナルはピラティスミラーの30分4,400円〜が手頃です。' },
+  { question: '渋谷エリアの料金相場は？', answer: 'グループ月4回で8,800円〜15,280円が相場。Rintosullは8,800円〜で最安クラス、zen placeは9,625円〜。パーソナルはピラティスミラーの30分4,400円〜が手頃です。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回からスタート。慣れたら週2-3回に増やすとより効果的です。ELEMENTの30分レッスンなら忙しい方も週2回は続けやすいです。' },
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルが鍛えられ基礎代謝が上がり太りにくい体質に。最低2-3ヶ月は継続しましょう。CALDOのホット環境なら発汗効果も期待できます。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。ウェアレンタルがあるスタジオも多いです。CLUB PILATESは無料体験があるので手ぶらで気軽に。' },
@@ -473,7 +473,7 @@ export default function ShibuyaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  渋谷エリアのグループ月4回は8,800円〜12,980円が相場。パーソナルはピラティスミラーの30分4,400円〜が手頃。体験レッスンを活用して、無理なく続けられる価格帯を見つけましょう。
+                  渋谷エリアのグループ月4回は8,800円〜15,280円が相場。パーソナルはピラティスミラーの30分4,400円〜が手頃。体験レッスンを活用して、無理なく続けられる価格帯を見つけましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -511,7 +511,7 @@ export default function ShibuyaPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
-                  <p className="text-3xl font-bold text-warm-800 mb-2">8,800円〜12,980円</p>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">8,800円〜15,280円</p>
                   <p className="text-sm text-warm-600">最安はRintosull（LAVA系列）の月4回8,800円。CLUB PILATESは月4回 10,890〜17,050円（店舗により異なる）で無料体験ありとバランスが良い価格帯です。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">

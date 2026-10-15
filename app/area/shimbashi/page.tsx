@@ -273,7 +273,7 @@ const faqs = [
   },
   {
     question: '新橋エリアのピラティススタジオの料金相場は？',
-    answer: '新橋エリアのピラティススタジオの料金相場は、グループレッスン月4回で3,278円〜12,980円程度。パーソナルレッスンは1回3,300円〜22,000円と幅があります。chocoZAPのセルフマシンなら月額3,278円と、リーズナブルな選択肢も豊富です。',
+    answer: '新橋エリアのピラティススタジオの料金相場は、グループレッスン月4回で9,680円〜11,220円程度。パーソナルレッスンは1回3,300円〜22,000円と幅があります。chocoZAPのセルフマシンなら月額3,278円と、リーズナブルな選択肢も豊富です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -394,7 +394,7 @@ export default function ShimbashiPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">3,300円〜12,980円</td>
+                    <td className="px-4 py-3">3,300円〜11,220円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -587,7 +587,7 @@ export default function ShimbashiPage() {
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span>
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
-                <p className="text-warm-600 leading-relaxed">新橋エリアの料金相場は、セルフマシン月額3,278円〜、グループレッスン月4回9,625円〜12,980円程度、パーソナルは1回3,300円〜22,000円と幅広い選択肢があります。無理なく継続できる予算を決めましょう。</p>
+                <p className="text-warm-600 leading-relaxed">新橋エリアの料金相場は、セルフマシン月額3,278円〜、グループレッスン月4回9,680円〜11,220円程度、パーソナルは1回3,300円〜22,000円と幅広い選択肢があります。無理なく継続できる予算を決めましょう。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4">

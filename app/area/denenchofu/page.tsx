@@ -89,7 +89,7 @@ const studios = [
 const faqs = [
   { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！田園調布エリアのスタジオはほとんどが初心者歓迎。TSUTAYA Conditioningは初心者向けクラスが充実しています。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。田園調布はマシン専門スタジオが充実しています。' },
-  { question: '田園調布のピラティスの料金相場は？', answer: 'グループ月4回で10,450円〜19,800円程度。TSUTAYA Conditioningが月4回11,000円〜。パーソナルは1回8,300円〜25,000円。' },
+  { question: '田園調布のピラティスの料金相場は？', answer: 'グループ月4回で11,000円〜19,800円程度。TSUTAYA Conditioningが月4回11,000円〜。パーソナルは1回8,300円〜25,000円。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に増やすと効果的です。Pilates Meeの通い放題プランなら毎日でも通えます。' },
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続で体の変化を実感する方が多いです。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。TSUTAYA Conditioningは体験無料です。靴下（グリップソックス推奨）も忘れずに。' },
@@ -226,7 +226,7 @@ export default function DenenchofuPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">10,450円〜19,800円</td>
+                    <td className="px-4 py-3">11,000円〜19,800円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -445,7 +445,7 @@ export default function DenenchofuPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  田園調布の料金相場はグループ月4回で10,450円〜19,800円。パーソナルは1回8,300円〜。入会金やキャンペーンも確認しましょう。
+                  田園調布の料金相場はグループ月4回で11,000円〜19,800円。パーソナルは1回8,300円〜。入会金やキャンペーンも確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -524,7 +524,7 @@ export default function DenenchofuPage() {
               体験レッスンを予約しよう
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜1,000円。<br />
+              初回限定の体験レッスン無料〜7,100円。<br />
               まずは気軽に体験してみましょう。
             </p>
             <Link

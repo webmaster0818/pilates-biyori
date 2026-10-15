@@ -103,7 +103,7 @@ const studios = [
 const faqs = [
   { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！日吉エリアのスタジオはほとんどが初心者歓迎。Rintosullは87%以上が初心者、CLUB PILATESは4段階のレベル分けがあります。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。日吉はマシン専門スタジオが充実しています。' },
-  { question: '日吉のピラティスの料金相場は？', answer: 'グループ月4回で8,800円〜15,070円程度。Rintosullが月4回8,800円で最安級。パーソナルはYUZUが1回8,800円〜。' },
+  { question: '日吉のピラティスの料金相場は？', answer: 'グループ月4回で8,800円〜10,450円程度。Rintosullが月4回8,800円で最安級。パーソナルはYUZUが1回8,800円〜。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。' },
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。YUZUは500円、Rintosull・CLUB PILATESは無料体験。' },
@@ -197,7 +197,7 @@ export default function HiyoshiPage() {
               <table className="w-full text-sm border-collapse">
                 <thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">種別</th><th className="px-4 py-3 text-left">料金相場</th></tr></thead>
                 <tbody>
-                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4回）</td><td className="px-4 py-3">8,800円〜15,070円</td></tr>
+                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4回）</td><td className="px-4 py-3">8,800円〜10,450円</td></tr>
                   <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">パーソナルレッスン</td><td className="px-4 py-3">1回 8,800円〜9,900円</td></tr>
                   <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">無料〜1,000円</td></tr>
                 </tbody>
@@ -358,7 +358,7 @@ export default function HiyoshiPage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">予算を決める</h3></div>
-                <p className="text-warm-600 leading-relaxed">日吉の料金相場はグループ月4回で8,800円〜15,070円。入会金やキャンペーンも確認しましょう。</p>
+                <p className="text-warm-600 leading-relaxed">日吉の料金相場はグループ月4回で8,800円〜10,450円。入会金やキャンペーンも確認しましょう。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div>

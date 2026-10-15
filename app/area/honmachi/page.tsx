@@ -211,7 +211,7 @@ const faqs = [
   },
   {
     question: '本町エリアのピラティスの料金相場は？',
-    answer: 'グループ1回3,300円〜、月4回で10,450円〜12,100円程度。パーソナルはスタジオカラーズが1回8,800円〜。',
+    answer: 'グループ1回3,300円〜、月4回で12,100円〜。パーソナルはスタジオカラーズが1回8,800円〜。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -370,7 +370,7 @@ export default function HonmachiPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">3,300円〜14,960円</td>
+                    <td className="px-4 py-3">3,300円〜12,100円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -378,7 +378,7 @@ export default function HonmachiPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">1,000円〜3,000円</td>
+                    <td className="px-4 py-3">3,000円〜4,000円</td>
                   </tr>
                 </tbody>
               </table>
@@ -588,7 +588,7 @@ export default function HonmachiPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  本町エリアの料金相場はグループ月4回で10,450円〜12,100円。都度払い3,300円〜のスタジオもあります。
+                  本町エリアの料金相場はグループ月4回で12,100円〜。都度払い3,300円〜のスタジオもあります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -667,7 +667,7 @@ export default function HonmachiPage() {
               体験レッスンを予約しよう
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン1,000円〜3,000円。<br />
+              初回限定の体験レッスン3,000円〜4,000円。<br />
               まずは気軽に体験してみましょう。
             </p>
             <Link

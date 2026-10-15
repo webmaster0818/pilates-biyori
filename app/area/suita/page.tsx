@@ -236,7 +236,7 @@ export default function SuitaPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">通い放題プラン</td>
-                    <td className="px-4 py-3">月額 8,800円〜14,960円</td>
+                    <td className="px-4 py-3">月額 14,960円〜</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
@@ -452,7 +452,7 @@ export default function SuitaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  吹田の料金相場はグループ月4回で9,625円〜13,420円。通い放題は8,800円〜。入会金やキャンペーンも確認しましょう。
+                  吹田の料金相場はグループ月4回で9,625円〜13,420円。通い放題は14,960円〜。入会金やキャンペーンも確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

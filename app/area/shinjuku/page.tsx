@@ -720,7 +720,7 @@ export default function ShinjukuPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
-                  <p className="text-3xl font-bold text-warm-800 mb-2">9,625円〜15,070円</p>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">9,625円〜15,280円</p>
                   <p className="text-sm text-warm-600">zen place pilatesのマット月4回9,625円〜が最安クラス。ピラティスKは11,220円〜。CLUB PILATESは月4回 10,890〜17,050円（店舗により異なる）で無料体験ありとコスパに優れています。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">

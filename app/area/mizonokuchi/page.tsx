@@ -80,7 +80,7 @@ const studios = [
 const faqs = [
   { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！溝の口エリアのスタジオはほとんどが初心者歓迎。CLUB PILATESは4段階のレベル分けがあります。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。溝の口はマシン専門スタジオが特に充実しています。' },
-  { question: '溝の口のピラティスの料金相場は？', answer: 'グループ月4回で8,800円〜14,190円程度。通い放題ならpilates K 16,170円、CLUB PILATES 通い放題 37,290円。' },
+  { question: '溝の口のピラティスの料金相場は？', answer: 'グループ月4回で10,450円〜13,420円程度。通い放題ならpilates K 16,170円、CLUB PILATES 通い放題 37,290円。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。通い放題プランなら好きなだけ通えます。' },
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。pilates K・CLUB PILATESは無料体験。zen placeはグループ1,000円で体験できます。' },
@@ -215,7 +215,7 @@ export default function MizonokuchiPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">8,800円〜14,190円</td>
+                    <td className="px-4 py-3">10,450円〜13,420円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">通い放題</td>
@@ -433,7 +433,7 @@ export default function MizonokuchiPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  溝の口の料金相場はグループ月4回で8,800円〜14,190円。入会金やキャンペーンも確認しましょう。
+                  溝の口の料金相場はグループ月4回で10,450円〜13,420円。入会金やキャンペーンも確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

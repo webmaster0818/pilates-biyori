@@ -95,7 +95,7 @@ const faqs = [
   },
   {
     question: '後楽園のピラティスの料金相場は？',
-    answer: 'ピラティスミラーは月6回11,000円。グループ月4回で8,800円〜15,070円が相場です。',
+    answer: 'ピラティスミラーは月6回11,000円。パーソナルはSTUDIO IVYが月2回15,000円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -254,11 +254,11 @@ export default function KorakuenPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">8,800円〜15,070円</td>
+                    <td className="px-4 py-3">月6回 11,000円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回 10,450円〜15,000円</td>
+                    <td className="px-4 py-3">月2回 15,000円〜</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>

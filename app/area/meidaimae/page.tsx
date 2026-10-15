@@ -152,7 +152,7 @@ const faqs = [
   },
   {
     question: '明大前のピラティス料金相場はどのくらいですか？',
-    answer: 'グループレッスンの料金相場は月4回で9,625円〜11,220円程度。URBAN CLASSIC PILATESは予約不要で月4回9,680円。パーソナルレッスンはELEMENTが月4回22,000円。体験レッスンは1,000円〜3,300円が一般的です。',
+    answer: 'グループレッスンの料金相場は月4回で9,680円〜11,220円程度。URBAN CLASSIC PILATESは予約不要で月4回9,680円。パーソナルレッスンはELEMENTが月4回22,000円。体験レッスンはELEMENTが3,300円です。',
   },
   {
     question: '予約不要で通えるスタジオはありますか？',
@@ -306,9 +306,9 @@ export default function MeidaimaePage() {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4回）</td><td className="px-4 py-3">9,625円〜11,220円</td></tr>
+                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4回）</td><td className="px-4 py-3">9,680円〜11,220円</td></tr>
                   <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">パーソナルレッスン（月4回）</td><td className="px-4 py-3">22,000円〜</td></tr>
-                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">1,000円〜3,300円</td></tr>
+                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">3,300円（ELEMENT）</td></tr>
                 </tbody>
               </table>
             </div>
@@ -391,14 +391,14 @@ export default function MeidaimaePage() {
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span>
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
-                <p className="text-warm-600 leading-relaxed">明大前エリアの料金相場は、グループ月4回で9,625円〜11,220円、パーソナル月4回で22,000円。無理なく継続できる予算を決めましょう。</p>
+                <p className="text-warm-600 leading-relaxed">明大前エリアの料金相場は、グループ月4回で9,680円〜11,220円、パーソナル月4回で22,000円。無理なく継続できる予算を決めましょう。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4">
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span>
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
-                <p className="text-warm-600 leading-relaxed">気になるスタジオを2〜3つピックアップして体験レッスンに行きましょう。1,000円〜3,300円で体験できます。</p>
+                <p className="text-warm-600 leading-relaxed">気になるスタジオを2〜3つピックアップして体験レッスンに行きましょう。ELEMENTは3,300円で体験できます。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4">
@@ -445,7 +445,7 @@ export default function MeidaimaePage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2>
-            <p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスン1,000円〜3,300円。<br />まずは気軽に体験してみましょう。</p>
+            <p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスンはELEMENTで3,300円。<br />まずは気軽に体験してみましょう。</p>
             <Link href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded">おすすめスタジオ一覧に戻る</Link>
           </div>
         </section>

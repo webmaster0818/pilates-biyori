@@ -185,7 +185,7 @@ const faqs = [
   },
   {
     question: '八王子のピラティスの料金相場は？',
-    answer: 'グループ月4回で8,800円〜15,070円程度。Rintosullが月4回8,800円〜で最もリーズナブル。ピラティスKは月4回13,420円〜。',
+    answer: 'グループ月4回で8,800円〜13,420円程度。Rintosullが月4回8,800円〜で最もリーズナブル。ピラティスKは月4回13,420円〜。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -344,7 +344,7 @@ export default function HachiojiPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">6,250円〜15,070円</td>
+                    <td className="px-4 py-3">6,250円〜13,420円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -564,7 +564,7 @@ export default function HachiojiPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  八王子の料金相場はグループ月4回で10,450円〜15,070円。入会金やキャンペーンも確認しましょう。
+                  八王子の料金相場はグループ月4回で8,800円〜13,420円。入会金やキャンペーンも確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
