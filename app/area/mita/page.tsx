@@ -53,7 +53,7 @@ const studios = [
     },
   },
   {
-    name: 'the SILK 田町エリア',
+    name: 'the SILK 田町店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
     price: '月3回 12,980円〜',
@@ -61,7 +61,7 @@ const studios = [
     features: ['女性専用', '音楽レッスン', '手ぶらOK', '体験無料'],
     description: '女性専用のマシンピラティススタジオ「the SILK」田町エリア。音楽に合わせた楽しいレッスンが特徴で、初心者でも飽きずに続けられます。月3回12,980円〜のプランがあり、手ぶらで通えるので仕事帰りにも便利。体験レッスンは無料で気軽にお試し可能。朝7:30から夜22:00まで営業しているため、ライフスタイルに合わせて通えます。',
     access: 'JR「田町駅」周辺',
-    address: '東京都港区田町エリア（詳細は公式サイトでご確認ください）',
+    address: '東京都港区芝浦3丁目13−12 PhilPark 田町 Shibaura5F',
     popularPlan: {
       name: '月3回プラン',
       description: '女性専用の音楽レッスンが月3回。手ぶらOKで仕事帰りにも便利。',

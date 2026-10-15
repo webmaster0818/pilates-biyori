@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/machida/' },
-  title: '【2026年10月最新】ピラティス町田おすすめ5選！人気スタジオの料金プランを簡単比較！',
-  description: '町田エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス町田おすすめ4選！人気スタジオの料金プランを簡単比較！',
+  description: '町田エリアのおすすめピラティススタジオ4選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,町田,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -85,39 +85,7 @@ const studios = [
     },
   },
   {
-    name: 'the SILK 町田店',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
-    image: '/images/studios/the-silk.webp',
-    price: '月3回 12,980円〜',
-    trial: '体験レッスン 無料',
-    features: ['女性専用', '手ぶらOK', '音楽レッスン', '7:30-22:00営業'],
-    description: '女性専用マシンピラティススタジオ。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。手ぶらで体験可能（ウェア・タオル無料貸出）。朝7:30〜夜22:00の長時間営業。',
-    access: 'JR横浜線・小田急線「町田駅」周辺',
-    address: '東京都町田市（詳細は公式サイトでご確認ください）',
-    popularPlan: {
-      name: 'Standard4（月4回）',
-      description: '女性専用マシンピラティス月4回。音楽に合わせた楽しいレッスン。',
-      price: '月4回 15,070円（税込）',
-    },
-    options: [
-      'Light3（月3回 12,980円）',
-      'Full（毎日1回 20,680円）',
-      'Full Day（18,480円）',
-      '体験・入会金 無料キャンペーンあり',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'リフレッシュ'],
-    },
-    basicInfo: {
-      hours: '7:30〜22:00',
-      closed: '年末年始',
-      facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'パウダールーム', 'ウォーターサーバー'],
-    },
-  },
-  {
-    name: 'Rintosull 町田エリア',
+    name: 'Rintosull 町田店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
     price: '月4回 8,800円〜',
@@ -190,7 +158,7 @@ const faqs = [
   },
   {
     question: '町田のピラティスの料金相場は？',
-    answer: 'Rintosullは月4回8,800円〜と最安。zen place pilatesは月4回10,450円〜。the SILKは月3回12,980円〜。ピラティスKは月4回13,420円〜。グループ月4回で8,800円〜13,420円が相場。',
+    answer: 'Rintosullは月4回8,800円〜と最安。zen place pilatesは月4回10,450円〜。ピラティスKは月4回13,420円〜。グループ月4回で8,800円〜13,420円が相場。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -202,11 +170,11 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。the SILKは手ぶらで無料体験可能。ピラティスKとRintosullも無料体験あり。',
+    answer: '動きやすい服装と飲み物があればOK。ピラティスKとRintosullは無料体験あり。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'zen place pilates町田とアスウェル町田は男性も通えます。ピラティスK・the SILK・Rintosullは女性専用。',
+    answer: 'zen place pilates町田とアスウェル町田は男性も通えます。ピラティスK・Rintosullは女性専用。',
   },
   {
     question: '一番安いスタジオは？',
@@ -239,7 +207,7 @@ export default function MachidaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス町田おすすめ5選！<br className="hidden md:block" />
+              【2026最新】ピラティス町田おすすめ4選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -282,7 +250,7 @@ export default function MachidaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、町田エリアでおすすめのピラティススタジオ5選をまとめました。
+              そこでこの記事では、町田エリアでおすすめのピラティススタジオ4選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -321,7 +289,7 @@ export default function MachidaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              町田のおすすめピラティススタジオ5選
+              町田のおすすめピラティススタジオ4選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -455,7 +423,6 @@ export default function MachidaPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li>
                   <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -465,7 +432,6 @@ export default function MachidaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK（5パート別ボディメイク）</li>
-                  <li className="text-warm-700">• the SILK（音楽レッスン）</li>
                   <li className="text-warm-700">• アスウェル（ジム・サウナ付き）</li>
                 </ul>
               </div>
@@ -476,7 +442,6 @@ export default function MachidaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK（体験0円）</li>
-                  <li className="text-warm-700">• the SILK（手ぶら無料体験）</li>
                   <li className="text-warm-700">• Rintosull（無料体験＋姿勢診断）</li>
                 </ul>
               </div>
@@ -533,7 +498,6 @@ export default function MachidaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates（10,450円〜）</li>
-                  <li>• the SILK（12,980円〜）</li>
                   <li>• ピラティスK（13,420円〜）</li>
                 </ul>
               </div>
@@ -582,7 +546,7 @@ export default function MachidaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ピラティスK・the SILK・Rintosullは無料体験。zen place pilatesはグループ体験1,000円。まずは試してみましょう。
+                  ピラティスK・Rintosullは無料体験。zen place pilatesはグループ体験1,000円。まずは試してみましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -591,7 +555,7 @@ export default function MachidaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  町田はJR横浜線・小田急線が利用可能。the SILKは朝7:30〜夜22:00の長時間営業で通いやすい。
+                  町田はJR横浜線・小田急線が利用可能。
                 </p>
               </div>
             </div>

@@ -15,8 +15,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/tama-plaza/' },
-  title: '【2026年10月最新】ピラティスたまプラーザおすすめ6選！料金・体験レッスン・マシン対応を比較！',
-  description: 'たまプラーザエリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティスたまプラーザおすすめ5選！料金・体験レッスン・マシン対応を比較！',
+  description: 'たまプラーザエリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,たまプラーザ,青葉区,横浜市,神奈川,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -49,28 +49,14 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', '完全個室', '更衣室', 'ロッカー'] },
   },
   {
-    name: 'the SILK たまプラーザ店',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
-    image: '/images/studios/the-silk.webp', reviewCount: 118,
-    price: '月3回 12,980円〜', trial: '体験レッスン 無料',
-    features: ['女性専用', '手ぶら体験OK', '音楽レッスン', 'パウダールーム完備'],
-    description: '女性専用マシンピラティススタジオ。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。パウダールームにメイクアップミラー・アイロン完備で外出前後の利用に便利。',
-    access: '東急田園都市線「たまプラーザ駅」周辺',
-    address: '神奈川県横浜市青葉区美しが丘エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'Standard4（月4回）', description: '女性専用マシンピラティス月4回。音楽に合わせた楽しいレッスン。', price: '月4回 15,070円（税込）' },
-    options: ['Light3（月3回 12,980円）', 'Full（毎日1回 20,680円）', 'Full Day（18,480円）', '体験・入会金無料キャンペーンあり'],
-    userProfile: { ageRange: '30代〜50代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'リフレッシュ'] },
-    basicInfo: { hours: '8:00〜22:00', closed: '年末年始', facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'パウダールーム', 'ウォーターサーバー'] },
-  },
-  {
-    name: 'zen place pilates たまプラーザ近隣スタジオ',
+    name: 'zen place pilates たまプラーザ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp', reviewCount: 148,
     price: '月4回 10,450円〜', trial: 'グループ体験 1,000円',
     features: ['男性OK', 'マット&マシン', '全国相互利用', '20年以上の実績'],
     description: 'ピラティス専門の大手スタジオ。全国150店舗以上で相互利用可能。マットグループ・マシングループ・プライベートの3タイプから選べます。BASIピラティスをベースにした本格指導。たまプラーザエリアからもアクセス良好。',
     access: '東急田園都市線沿線（たまプラーザエリアからアクセス良好）',
-    address: '神奈川県横浜市青葉区エリア（詳細は公式サイトでご確認ください）',
+    address: '神奈川県横浜市青葉区美しが丘1丁目11-10 ポリニアビル２F',
     popularPlan: { name: 'フリープラン（マットグループ）', description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。', price: '月額 14,960円〜（税込）' },
     options: ['月4回プラン（10,450円〜）', 'マシングループ体験（3,000円）', 'プライベートレッスン（体験 9,900円）', '体験当日入会で入会金無料'],
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'] },
@@ -109,8 +95,8 @@ const faqs = [
   { question: 'たまプラーザのピラティスの料金相場は？', answer: 'グループ月4回で8,800円〜15,070円程度。Rintosullが月4回8,800円で最安級。通い放題ならアーバンクラシック9,680円〜が最もお得。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回がおすすめ。通い放題のアーバンクラシックなら毎日30分で効率よく通えます。' },
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。' },
-  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。the SILKは手ぶらで無料体験可能（ウェア・タオル無料貸出）。Rintosullも無料体験あり。' },
-  { question: '男性でも通えるスタジオはありますか？', answer: 'zen place、スタジオBYK、アーバンクラシックは男性も通えます。Rintosull、the SILKは女性専用です。' },
+  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。Rintosullは無料体験あり。' },
+  { question: '男性でも通えるスタジオはありますか？', answer: 'zen place、スタジオBYK、アーバンクラシックは男性も通えます。Rintosullは女性専用です。' },
   { question: '短時間で効果的なスタジオは？', answer: 'アーバンクラシックは30分のサーキット形式。予約不要の通い放題で忙しい主婦やビジネスパーソンに人気です。' },
   { question: 'ヨガとピラティスの両方やりたい場合は？', answer: 'Rintosullはプレミアムフリーフルタイム（18,800円）でLAVA等系列のヨガスタジオも全国で利用可能です。' },
   { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。' },
@@ -132,7 +118,7 @@ export default function TamaPlazaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティスたまプラーザおすすめ6選！<br className="hidden md:block" />
+              【2026最新】ピラティスたまプラーザおすすめ5選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -156,7 +142,7 @@ export default function TamaPlazaPage() {
             <p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">「たまプラーザで人気のピラティススタジオを知りたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
-            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、たまプラーザエリアでおすすめのピラティススタジオ6選をまとめました。</p>
+            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、たまプラーザエリアでおすすめのピラティススタジオ5選をまとめました。</p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
               <ul className="space-y-2 text-warm-700">
@@ -176,7 +162,7 @@ export default function TamaPlazaPage() {
 
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">たまプラーザのおすすめピラティススタジオ6選</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">たまプラーザのおすすめピラティススタジオ5選</h2>
             <div className="space-y-8">{[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div>
           </div>
         </section>
@@ -210,7 +196,7 @@ export default function TamaPlazaPage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">グループとパーソナルの使い分け</h3>
-                <p className="text-warm-600 leading-relaxed">たまプラーザはグループレッスン（Rintosull・the SILK）とパーソナル（スタジオBYK）の両方が充実。初心者はグループで基礎を学び、慣れたらパーソナルで効果を高めるのもおすすめ。</p>
+                <p className="text-warm-600 leading-relaxed">たまプラーザはグループレッスン（Rintosull）とパーソナル（スタジオBYK）の両方が充実。初心者はグループで基礎を学び、慣れたらパーソナルで効果を高めるのもおすすめ。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件を確認</h3>
@@ -243,7 +229,6 @@ export default function TamaPlazaPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>：the SILKは無料貸出あり。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。</span></li>
                   </ul>
                 </div>
@@ -271,7 +256,6 @@ export default function TamaPlazaPage() {
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">女性だけの安心空間。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
                   <li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li>
                 </ul>
               </div>
@@ -320,7 +304,6 @@ export default function TamaPlazaPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">月3〜4回</p>
                 <p className="text-sm text-warm-600 mb-4">大手チェーンの充実レッスン。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• the SILK（12,980円〜）</li>
                   <li>• zen place（14,960円〜/通い放題）</li>
                 </ul>
               </div>
@@ -329,7 +312,6 @@ export default function TamaPlazaPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">通い放題・パーソナル</p>
                 <p className="text-sm text-warm-600 mb-4">毎日通いたい方・個別指導。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• the SILK Full（20,680円）</li>
                   <li>• Rintosull プレミアム（18,800円）</li>
                 </ul>
               </div>
@@ -343,7 +325,7 @@ export default function TamaPlazaPage() {
             <div className="space-y-8">
               <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span><h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3></div><p className="text-warm-600 leading-relaxed">ダイエット、姿勢改善、体幹強化など目的によって最適なスタジオは変わります。</p></div>
               <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">予算を決める</h3></div><p className="text-warm-600 leading-relaxed">たまプラーザの料金相場はグループ月4回で8,800円〜15,070円。通い放題は9,680円〜。</p></div>
-              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">the SILK・Rintosullは無料体験。zen placeは1,000円で体験可能。まずは2-3スタジオ比較がおすすめ。</p></div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">Rintosullは無料体験。zen placeは1,000円で体験可能。まずは2-3スタジオ比較がおすすめ。</p></div>
               <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div><p className="text-warm-600 leading-relaxed">たまプラーザは東急田園都市線の利便性が高く、ほとんどのスタジオが駅から徒歩5分圏内です。</p></div>
             </div>
           </div>

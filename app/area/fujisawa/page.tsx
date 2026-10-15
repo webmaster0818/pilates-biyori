@@ -56,38 +56,6 @@ const studios = [
     },
   },
   {
-    name: 'the SILK 湘南・藤沢店',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
-    image: '/images/studios/the-silk.webp',
-    price: '月3回 13,280円〜',
-    trial: '体験レッスン 0円（50分・手ぶらOK）',
-    features: ['女性専用', 'マシン専門', '藤沢駅徒歩1分', 'PMA監修'],
-    description: '女性専用マシンピラティス専門スタジオ。藤沢駅から徒歩1分の圧倒的好立地。PMA加盟団体のプロ監修レッスン。プロフェッショナルグレードのリフォーマーマシンを使用し、音楽に合わせた50分のグループレッスンで楽しくボディメイク。',
-    access: '藤沢駅 徒歩1分',
-    address: '神奈川県藤沢市南藤沢22-1 神中第2ビル 6階',
-    popularPlan: {
-      name: 'Standard4（月4回）',
-      description: '月4回の標準プラン。PMA監修のプロフェッショナルグレードリフォーマーレッスン。',
-      price: '月4回 15,280円（税込）+ 施設利用料700円',
-    },
-    options: [
-      'Light3（月3回 13,280円）',
-      'Full Day（平日デイタイム無制限 19,280円）',
-      'Full（無制限 22,280円）',
-      'レンタル（ウェア・タオル・ソックスあり）',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'リフレッシュ'],
-    },
-    basicInfo: {
-      hours: '8:00〜21:00',
-      closed: '年末年始（12/29〜1/3）',
-      facilities: ['リフォーマーマシン', '更衣室', 'パウダールーム', 'ウォーターサービス', 'レンタルウェア・タオル・ソックス'],
-    },
-  },
-  {
     name: 'Pilates Mee 藤沢店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
@@ -280,7 +248,7 @@ export default function FujisawaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス藤沢おすすめ7選！<br className="hidden md:block" />
+              ピラティス藤沢おすすめ6選！<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！
             </h1>
           </div>
@@ -325,7 +293,7 @@ export default function FujisawaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、藤沢エリアでおすすめのピラティススタジオ7選をまとめました。
+              そこでこの記事では、藤沢エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -365,7 +333,7 @@ export default function FujisawaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              藤沢のおすすめピラティススタジオ7選
+              藤沢のおすすめピラティススタジオ6選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -576,7 +544,7 @@ export default function FujisawaPage() {
                   マシン完備の大手スタジオ。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• the SILK（13,280円〜）</li>
+                  <li>• the SILK</li>
                   <li>• zen place リフォーマー（15,400円〜）</li>
                 </ul>
               </div>
@@ -723,7 +691,7 @@ export default function FujisawaPage() {
 
         <div className="flex flex-wrap gap-2">
 
-          <Link href="/brands/the-silk-fujisawa/" className="text-xs text-warm-800 border border-warm-300 bg-white px-3 py-1.5 hover:border-warm-500 transition-colors">the SILK 湘南・藤沢店の料金・体験を見る</Link>
+          <Link href="/brands/the-silk-fujisawa/" className="text-xs text-warm-800 border border-warm-300 bg-white px-3 py-1.5 hover:border-warm-500 transition-colors">the SILK 藤沢店の料金・体験を見る</Link>
 
         </div>
 

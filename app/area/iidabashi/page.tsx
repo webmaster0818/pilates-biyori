@@ -17,8 +17,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/iidabashi/' },
-  title: '【2026年10月最新】飯田橋・神楽坂のピラティス6社を比較｜無料体験3社・駅すぐ・月額最安10,450円〜',
-  description: '飯田橋・神楽坂でピラティスの無料体験ができるスタジオを厳選。6社の料金・マシン対応・4路線からのアクセスを比較。初心者向けの選び方と全国211スタジオ調査に基づく料金相場も2026年7月最新でわかります。',
+  title: '【2026年10月最新】飯田橋・神楽坂のピラティス5社を比較｜無料体験2社・駅すぐ・月額最安10,450円〜',
+  description: '飯田橋・神楽坂でピラティスの無料体験ができるスタジオを厳選。5社の料金・マシン対応・4路線からのアクセスを比較。初心者向けの選び方と全国211スタジオ調査に基づく料金相場も2026年7月最新でわかります。',
   keywords: 'ピラティス,飯田橋,神楽坂,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -146,38 +146,6 @@ const studios = [
     },
   },
   {
-    name: 'the SILK 飯田橋店',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
-    image: '/images/studios/the-silk.webp',
-    price: '月3回 12,980円〜',
-    trial: '体験レッスン 無料',
-    features: ['女性専用', '手ぶら体験OK', '音楽レッスン', '朝7:30〜夜22:00'],
-    description: '女性専用マシンピラティススタジオ。音楽のリズムに合わせて動く独自のレッスンスタイルで、初心者でも楽しく続けられます。手ぶらで体験可能（ウェア・タオル無料貸出）。体験者の約8割がピラティス未経験者。',
-    access: '「飯田橋駅」周辺',
-    address: '東京都新宿区飯田橋エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: {
-      name: 'Standard4（月4回）',
-      description: '女性専用マシンピラティス月4回。音楽に合わせた楽しいレッスン。',
-      price: '月4回 15,070円（税込）',
-    },
-    options: [
-      'Light3（月3回 12,980円）',
-      'Full（毎日1回 20,680円）',
-      'Full Day（18,480円）',
-      '体験・入会金・登録手数料 無料キャンペーンあり',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'リフレッシュ'],
-    },
-    basicInfo: {
-      hours: '7:30〜22:00',
-      closed: '年末年始',
-      facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'パウダールーム', 'ウォーターサーバー'],
-    },
-  },
-  {
     name: 'Dr.ピラティス 神楽坂・飯田橋店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11979O.1.Z164554L.U1357808',
     image: '/images/studios/dr-pilates.webp',
@@ -193,7 +161,7 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！飯田橋・神楽坂エリアのスタジオはほとんどが初心者歓迎。CLUB PILATESは4段階のレベル分け、the SILKは体験者の約8割がピラティス未経験者。',
+    answer: '大丈夫です！飯田橋・神楽坂エリアのスタジオはほとんどが初心者歓迎。CLUB PILATESは4段階のレベル分けがあります。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
@@ -213,7 +181,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。the SILKは手ぶらで体験可能。CLUB PILATESは無料イントロクラスあり。',
+    answer: '動きやすい服装と飲み物があればOK。CLUB PILATESは無料イントロクラスあり。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
@@ -221,7 +189,7 @@ const faqs = [
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'zen place飯田橋とCLUB PILATES神楽坂は男性も通えます。the SILKとRepilatesは女性専用です。',
+    answer: 'zen place飯田橋とCLUB PILATES神楽坂は男性も通えます。Repilatesは女性専用です。',
   },
   {
     question: '理学療法士のレッスンを受けられるスタジオは？',
@@ -250,7 +218,7 @@ export default function IidabashiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス飯田橋・神楽坂おすすめ6選！<br className="hidden md:block" />
+              ピラティス飯田橋・神楽坂おすすめ5選！<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！
             </h1>
           </div>
@@ -295,7 +263,7 @@ export default function IidabashiPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、飯田橋・神楽坂エリアでおすすめのピラティススタジオ6選をまとめました。
+              そこでこの記事では、飯田橋・神楽坂エリアでおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -335,7 +303,7 @@ export default function IidabashiPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              飯田橋・神楽坂のおすすめピラティススタジオ6選
+              飯田橋・神楽坂のおすすめピラティススタジオ5選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -468,7 +436,6 @@ export default function IidabashiPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -533,7 +500,6 @@ export default function IidabashiPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（10,450円〜/月4回）</li>
-                  <li>• the SILK（12,980円〜/月3回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -545,7 +511,6 @@ export default function IidabashiPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• CLUB PILATES（月4回 14,190円）</li>
-                  <li>• the SILK（15,070円/月4回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -593,7 +558,7 @@ export default function IidabashiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  CLUB PILATESとthe SILKは無料体験。ルルトは体験1,000円で全額返金保証付き。気軽に試してみましょう。
+                  CLUB PILATESは無料体験。ルルトは体験1,000円で全額返金保証付き。気軽に試してみましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

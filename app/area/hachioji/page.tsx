@@ -53,38 +53,6 @@ const studios = [
     },
   },
   {
-    name: 'the SILK 八王子店',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
-    image: '/images/studios/the-silk.webp',
-    price: '月3回 12,980円〜',
-    trial: '体験レッスン 無料',
-    features: ['女性専用', '八王子駅徒歩2分', '手ぶら体験OK', 'アメニティ充実'],
-    description: '女性専用マシンピラティススタジオ。八王子駅から徒歩2分。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。手ぶらで体験可能。ウェア・タオル無料貸出あり。',
-    access: 'JR「八王子駅」徒歩2分 / 京王線「京王八王子駅」徒歩6分',
-    address: '東京都八王子市旭町11-5 CP-6ビル 5F',
-    popularPlan: {
-      name: 'Standard4（月4回）',
-      description: '女性専用マシンピラティス月4回。音楽に合わせた楽しいレッスン。',
-      price: '月4回 15,070円（税込）',
-    },
-    options: [
-      'Light3（月3回 12,980円）',
-      'Full（毎日1回 20,680円）',
-      'Full Day（18,480円）',
-      '体験・入会金・登録手数料 無料キャンペーンあり',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'リフレッシュ'],
-    },
-    basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '年末年始',
-      facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'パウダールーム', 'ウォーターサーバー'],
-    },
-  },
-  {
     name: 'Rintosull（リントスル）八王子店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
@@ -209,7 +177,7 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！八王子エリアのスタジオはほとんどが初心者歓迎。Rintosullは初心者向けBasicプログラムあり、the SILKは体験者の約8割がピラティス未経験者。',
+    answer: '大丈夫です！八王子エリアのスタジオはほとんどが初心者歓迎。Rintosullは初心者向けBasicプログラムあり。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
@@ -217,7 +185,7 @@ const faqs = [
   },
   {
     question: '八王子のピラティスの料金相場は？',
-    answer: 'グループ月4回で8,800円〜15,070円程度。Rintosullが月4回8,800円〜で最もリーズナブル。ピラティスKは月4回13,420円〜、the SILKは月3回12,980円〜。',
+    answer: 'グループ月4回で8,800円〜15,070円程度。Rintosullが月4回8,800円〜で最もリーズナブル。ピラティスKは月4回13,420円〜。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -229,7 +197,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。the SILKは手ぶらで体験可能（ウェア・タオル無料貸出）。ピラティスKも無料体験あり。',
+    answer: '動きやすい服装と飲み物があればOK。ピラティスKは無料体験あり。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
@@ -237,11 +205,11 @@ const faqs = [
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'STUDIO IVYとタクトエイトは男性も通えます。ピラティスK、the SILK、Rintosullは女性専用です。',
+    answer: 'STUDIO IVYとタクトエイトは男性も通えます。ピラティスK、Rintosullは女性専用です。',
   },
   {
     question: '無料で体験できるスタジオは？',
-    answer: 'ピラティスK、the SILK、Rintosullは無料体験あり。STUDIO IVYは体験4,500円。',
+    answer: 'ピラティスK、Rintosullは無料体験あり。STUDIO IVYは体験4,500円。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -266,7 +234,7 @@ export default function HachiojiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス八王子おすすめ6選！<br className="hidden md:block" />
+              【2026最新】ピラティス八王子おすすめ5選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -309,7 +277,7 @@ export default function HachiojiPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、八王子エリアでおすすめのピラティススタジオ6選をまとめました。
+              そこでこの記事では、八王子エリアでおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -348,7 +316,7 @@ export default function HachiojiPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              八王子のおすすめピラティススタジオ6選
+              八王子のおすすめピラティススタジオ5選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -481,7 +449,6 @@ export default function HachiojiPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -490,7 +457,6 @@ export default function HachiojiPage() {
                   女性だけの安心空間。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• the SILK 八王子（東口・西口2店舗）</li>
                   <li className="text-warm-700">• ピラティスK 八王子（月4回 13,420円〜）</li>
                 </ul>
               </div>
@@ -501,7 +467,6 @@ export default function HachiojiPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK（東口 徒歩1分）</li>
-                  <li className="text-warm-700">• the SILK（東口 徒歩1分）</li>
                   <li className="text-warm-700">• zen place（東口 徒歩2分）</li>
                 </ul>
               </div>
@@ -547,7 +512,6 @@ export default function HachiojiPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（10,450円〜/月4回）</li>
-                  <li>• the SILK（12,980円〜/月3回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -609,7 +573,7 @@ export default function HachiojiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKとCLUB PILATESは無料体験。zen placeは1,000円、ピラティスKは2,000円で体験可能。
+                  CLUB PILATESは無料体験。zen placeは1,000円、ピラティスKは2,000円で体験可能。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -618,7 +582,7 @@ export default function HachiojiPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  八王子はJR・東京メトロ・西武線・東武線と多路線が集まるターミナル駅。ピラティスK・the SILKは東口徒歩1分、zen placeは徒歩2分と駅近スタジオが充実。
+                  八王子はJR・東京メトロ・西武線・東武線と多路線が集まるターミナル駅。ピラティスKは東口徒歩1分、zen placeは徒歩2分と駅近スタジオが充実。
                 </p>
               </div>
             </div>
@@ -703,14 +667,6 @@ export default function HachiojiPage() {
                 <Link href="/brands/pilates-k-hachioji/" className="text-xs text-warm-800 border border-warm-300 bg-white px-3 py-1.5 hover:border-warm-500 transition-colors">ピラティスK 八王子オクトーレ店の料金・体験を見る</Link>
               </div>
             </div>
-      {/* g1-link-202609 */}
-      <div className="my-8 bg-white border border-warm-200 p-5">
-        <p className="text-xs text-warm-400 uppercase tracking-[0.15em] mb-2">店舗別ガイド</p>
-        <p className="text-sm text-warm-700 font-light leading-relaxed mb-3">このエリアの店舗別に料金・体験レッスン・アクセスを整理した詳細ページがあります。</p>
-        <div className="flex flex-wrap gap-2">
-          <Link href="/brands/the-silk-hachioji/" className="text-xs text-warm-800 border border-warm-300 bg-white px-3 py-1.5 hover:border-warm-500 transition-colors">the SILK 八王子店の料金・体験を見る</Link>
-        </div>
-      </div>
 
       <RelatedAreas currentSlug="hachioji" />
       <SiteFooter />

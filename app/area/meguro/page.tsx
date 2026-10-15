@@ -17,7 +17,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/meguro/' },
-  title: '【2026年10月最新】目黒のピラティス7社を比較｜無料体験3社・月額最安10,450円〜',
+  title: '【2026年10月最新】目黒のピラティス6社を比較｜無料体験2社・月額最安10,450円〜',
   description: '目黒エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,目黒,中目黒,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place pilates,the SILK,ピラティスミラー,Pilates Legacy Studio,STUDIO IVY',
 }
@@ -53,38 +53,6 @@ const studios = [
       hours: '平日 7:00-21:00 / 土日祝 7:00-18:00',
       closed: '不定休',
       facilities: ['リフォーマー', 'チェア', 'バレル', '更衣室', 'ロッカー'],
-    },
-  },
-  {
-    name: 'the SILK 目黒エリア',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
-    image: '/images/studios/the-silk.webp',
-    price: '月3回 12,980円〜',
-    trial: '体験レッスン 無料',
-    features: ['女性専用', '音楽レッスン', '手ぶらOK', '体験無料'],
-    description: '女性専用のマシンピラティススタジオ「the SILK」。音楽に合わせた独自のレッスンプログラムで、楽しみながらボディメイクができます。手ぶらで通えるので仕事帰りにも便利。月3回12,980円〜のリーズナブルな料金設定で、体験レッスンは無料。朝7:30から夜22:00まで営業で、幅広いライフスタイルに対応。',
-    access: '目黒エリア（詳細は公式サイトでご確認ください）',
-    address: '東京都目黒区目黒エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: {
-      name: '月3回プラン',
-      description: '女性専用の音楽レッスン。手ぶらで通えて初心者も安心。体験無料。',
-      price: '月3回 12,980円〜（税込）',
-    },
-    options: [
-      '月3回プラン（12,980円〜/月）',
-      '手ぶらで通える（レンタル充実）',
-      '体験レッスン 無料',
-      '営業時間 7:30-22:00',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', 'ダイエット', '姿勢改善', 'ストレス解消'],
-    },
-    basicInfo: {
-      hours: '7:30-22:00',
-      closed: '不定休',
-      facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'レンタルウェア'],
     },
   },
   {
@@ -211,7 +179,7 @@ const faqs = [
   },
   {
     question: '目黒のピラティスの料金相場は？',
-    answer: 'zen place pilatesは月4回10,450円〜、the SILKは月3回12,980円〜、ピラティスミラーは月6回11,000円、STUDIO IVYは月2回15,000円〜です。グループレッスンなら月1万円前後から始められます。目的と頻度に合わせて選びましょう。',
+    answer: 'zen place pilatesは月4回10,450円〜、ピラティスミラーは月6回11,000円、STUDIO IVYは月2回15,000円〜です。グループレッスンなら月1万円前後から始められます。目的と頻度に合わせて選びましょう。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -219,11 +187,11 @@ const faqs = [
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に変わっていきます。the SILKの音楽レッスンは楽しみながら運動できるので継続しやすく、ダイエット効果も期待できます。2〜3ヶ月の継続で効果を実感する方が多いです。',
+    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に変わっていきます。2〜3ヶ月の継続で効果を実感する方が多いです。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOKです。the SILKは手ぶらで通えるのでレンタルウェアも利用可能。zen place pilatesはグループ体験1,000円、the SILKは体験無料、ピラティスミラーは体験2,200円、STUDIO IVYは体験4,500円です。',
+    answer: '動きやすい服装と飲み物があればOKです。zen place pilatesはグループ体験1,000円、the SILKは体験無料、ピラティスミラーは体験2,200円、STUDIO IVYは体験4,500円です。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
@@ -255,7 +223,7 @@ export default function MeguroPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス目黒おすすめ7選！
+              ピラティス目黒おすすめ6選！
               <br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！
             </h1>
@@ -292,7 +260,7 @@ export default function MeguroPage() {
               目黒はJR山手線・東急目黒線・南北線・三田線が乗り入れるターミナル駅で、渋谷まで約5分、品川まで約10分という好アクセスのエリア。おしゃれなカフェや飲食店が並ぶ目黒川沿いも魅力の街です。そんな目黒エリアには、大手チェーンのグループレッスンから完全プライベートパーソナルまで、多彩なピラティススタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、目黒エリアでおすすめの実在するピラティススタジオ7選をまとめました。
+              そこでこの記事では、目黒エリアでおすすめの実在するピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -330,7 +298,7 @@ export default function MeguroPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              目黒のおすすめピラティススタジオ7選
+              目黒のおすすめピラティススタジオ6選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -460,7 +428,6 @@ export default function MeguroPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
                   <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
-                  <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -473,9 +440,9 @@ export default function MeguroPage() {
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">ライフスタイル重視</h3>
-                <p className="text-warm-600 text-sm mb-4">女性専用や手ぶらOKも。</p>
+                <p className="text-warm-600 text-sm mb-4">女性専用スタジオも。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• the SILK（女性専用・手ぶらOK）</li>
+                  <li className="text-warm-700">• the SILK（女性専用）</li>
                   <li className="text-warm-700">• zen place pilates（全国150店舗相互利用）</li>
                   <li className="text-warm-700">• STUDIO IVY（完全プライベート空間）</li>
                 </ul>
@@ -499,7 +466,7 @@ export default function MeguroPage() {
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。the SILKは朝7:30から夜22:00まで営業なので、忙しい方でも自分のスケジュールに合わせて通いやすい環境です。
+                週1回のペースで無理なく継続。
               </p>
             </div>
           </div>
@@ -525,7 +492,6 @@ export default function MeguroPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">月2〜3回</p>
                 <p className="text-sm text-warm-600 mb-4">自分のペースで着実に成果。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• the SILK（12,980円/月3回）</li>
                   <li>• STUDIO IVY（15,000円/月2回）</li>
                 </ul>
               </div>
@@ -553,7 +519,7 @@ export default function MeguroPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ダイエット、姿勢改善、ボディメイク、体幹強化など、目的によって最適なスタジオは変わります。効率重視ならSTUDIO IVYのオーダーメイドパーソナル、楽しく続けたいならthe SILKの音楽レッスンがおすすめ。
+                  ダイエット、姿勢改善、ボディメイク、体幹強化など、目的によって最適なスタジオは変わります。効率重視ならSTUDIO IVYのオーダーメイドパーソナルがおすすめ。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -614,10 +580,10 @@ export default function MeguroPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は目黒エリアのおすすめピラティススタジオ7選をご紹介しました。
+              今回は目黒エリアのおすすめピラティススタジオ6選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              目黒はJR山手線をはじめ複数路線が乗り入れるターミナル駅で、アクセス抜群のエリア。全国150店舗相互利用のzen place pilates（月4回10,450円〜・グループ体験1,000円）、女性専用・音楽レッスンのthe SILK（月3回12,980円〜・体験無料）、コナミスポーツ運営のピラティスミラー（月6回11,000円・30分レッスン）、少人数制のPilates Legacy Studio（駅徒歩2分）、完全パーソナルのSTUDIO IVY（月2回15,000円〜・オーダーメイド）と、それぞれ特徴の異なるスタジオが揃っています。
+              目黒はJR山手線をはじめ複数路線が乗り入れるターミナル駅で、アクセス抜群のエリア。全国150店舗相互利用のzen place pilates（月4回10,450円〜・グループ体験1,000円）、女性専用のthe SILK（体験無料）、コナミスポーツ運営のピラティスミラー（月6回11,000円・30分レッスン）、少人数制のPilates Legacy Studio（駅徒歩2分）、完全パーソナルのSTUDIO IVY（月2回15,000円〜・オーダーメイド）と、それぞれ特徴の異なるスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               まずは無料体験ができるthe SILKや、1,000円で体験できるzen place pilatesから試してみるのがおすすめです。ぜひこの記事を参考に、自分に合うピラティススタジオを見つけてくださいね。

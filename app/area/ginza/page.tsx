@@ -157,7 +157,7 @@ const studios = [
     features: ['女性専用', 'マシンピラティス', '銀座一丁目駅徒歩2分', '音楽×マシン'],
     description: 'the SILKの銀座エリア2店舗目。銀座一丁目駅から徒歩2分。女性専用のマシンピラティス専門スタジオ。銀座店と同じ高品質なレッスンを提供。',
     access: '有楽町線「銀座一丁目駅」徒歩2分',
-    address: '東京都中央区銀座（銀座一丁目駅徒歩2分）',
+    address: '東京都中央区銀座1丁目5-8 Ginza Willow Avenue BLDG. 4階',
   },
   {
     name: 'BDC PILATES 銀座並木スタジオ',

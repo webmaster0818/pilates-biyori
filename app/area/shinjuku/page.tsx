@@ -86,38 +86,6 @@ const studios = [
     },
   },
   {
-    name: 'the SILK 新宿',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
-    image: '/images/studios/the-silk.webp',
-    price: 'Standard4 15,070円〜',
-    trial: '体験レッスン 無料',
-    features: ['女性専用マシンピラティス', '新宿西口駅徒歩1分', '音楽×ピラティス', '体験無料'],
-    description: '女性専用マシンピラティス専門スタジオ。都営大江戸線新宿西口駅から徒歩1分の好立地。最新のリフォーマーマシンを完備し、音楽に合わせた独自プログラムで楽しくトレーニング。世界水準のピラティス指導を提供しています。体験レッスンは無料で受けられるので、初めての方も気軽にお試しいただけます。',
-    access: '大江戸線「新宿西口駅」徒歩1分 / JR「新宿駅」西口 徒歩3分',
-    address: '東京都新宿区西新宿（新宿西口駅徒歩1分）',
-    popularPlan: {
-      name: 'Standard4（月4回）',
-      description: '女性専用マシンピラティスの基本プラン。音楽に合わせた50分のグループレッスン。初心者にも人気。',
-      price: '月4回 15,070円（税込）〜',
-    },
-    options: [
-      'Standard4（月4回 15,070円〜）',
-      'Full（通い放題）',
-      'Full Day（デイタイム通い放題）',
-      '体験レッスン無料キャンペーン実施中',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'リフレッシュ'],
-    },
-    basicInfo: {
-      hours: '7:30〜21:00',
-      closed: '年末年始（12/29〜1/3）',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', '女性専用'],
-    },
-  },
-  {
     name: 'Rintosull 新宿西口駅前店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
@@ -702,7 +670,6 @@ export default function ShinjukuPage() {
                   パーソナルやマシン専門スタジオで本格的にボディメイク。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• the SILK（月4回 15,070円〜）</li>
                   <li>• STUDIO IVY（月2回 15,000円〜）</li>
                   <li>• ELEMENT（月4回 22,000円）</li>
                   <li>• ピラティスミラー（1回 4,400円〜）</li>

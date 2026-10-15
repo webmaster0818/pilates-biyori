@@ -54,7 +54,7 @@ const studios = [
     },
   },
   {
-    name: 'the SILK 八重洲店',
+    name: 'the SILK 東京八重洲店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
     price: '月3回 12,980円〜',
@@ -62,7 +62,7 @@ const studios = [
     features: ['女性専用', '音楽レッスン', '体験無料', '手ぶらOK'],
     description: '女性専用のマシンピラティススタジオ「the SILK」八重洲店。大手町駅B10出口から徒歩5分、東京駅八重洲北口から徒歩5分。音楽に合わせた独自のピラティスレッスンが特徴で、楽しみながらボディメイクが可能。PMA（Pilates Method Alliance）加盟団体が監修した質の高いプログラムを提供。手ぶらOKで仕事帰りにも気軽に通えます。体験レッスンは無料。',
     access: '大手町駅B10出口徒歩5分・東京駅八重洲北口徒歩5分',
-    address: '東京都中央区八重洲エリア（詳細は公式サイトでご確認ください）',
+    address: '東京都中央区八重洲1-5-9 八重洲加藤ビルディング5階',
     popularPlan: {
       name: '月3回プラン',
       description: '女性専用マシンピラティス。音楽に合わせた楽しいレッスン。PMA加盟団体監修。',

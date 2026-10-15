@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kyobashi-osaka/' },
-  title: '【2026年10月最新】ピラティス京橋（大阪）おすすめ7選！人気スタジオの料金プランを簡単比較！',
-  description: '京橋（大阪）エリアのおすすめピラティススタジオ7選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。JR・京阪京橋駅から通いやすいスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス京橋（大阪）おすすめ6選！人気スタジオの料金プランを簡単比較！',
+  description: '京橋（大阪）エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。JR・京阪京橋駅から通いやすいスタジオが見つかります。',
   keywords: 'ピラティス,京橋,大阪,都島区,城東区,大阪ビジネスパーク,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -76,20 +76,6 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', '更衣室', 'ロッカー', 'パウダールーム'] },
   },
   {
-    name: 'the SILK（ザ シルク）京橋店',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
-    image: '/images/studios/the-silk.webp', reviewCount: 88,
-    price: '月3回 12,980円〜', trial: '体験レッスンあり',
-    features: ['女性専用', 'おしゃれ空間', '少人数制', 'ボディメイク特化'],
-    description: '女性専用のマシンピラティススタジオ。白を基調とした洗練された空間でリフォーマーを使ったグループレッスンを提供。ボディメイクに特化したプログラムと音楽を取り入れたレッスンで楽しく継続できる。',
-    access: 'JR大阪環状線・京阪本線「京橋駅」徒歩圏内',
-    address: '大阪府大阪市都島区京橋エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'ライト3プラン（月3回）', description: '女性専用マシンピラティス。洗練された空間で少人数レッスン。', price: '月3回 12,980円〜（税込）' },
-    options: ['スタンダード4プラン（月4回）', 'フル（通い放題）プラン', '体験レッスンあり', 'ウェアレンタルあり'],
-    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', 'ダイエット', '姿勢改善', '美容'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', '更衣室', 'ロッカー', 'パウダールーム'] },
-  },
-  {
     name: 'STUDIO TOU（スタジオトウ）京橋', reviewCount: 72,
     price: '月4回 10,000円〜', trial: '体験レッスンあり',
     features: ['グループ＆プライベート', '男性OK', 'チケット制あり', 'アットホーム'],
@@ -120,10 +106,10 @@ const faqs = [
   { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！京橋エリアのスタジオはほとんどが初心者歓迎。Rintosullは映像×インストラクターのハイブリッドレッスンで分かりやすく、CLUB PILATESは4段階レベル分けで初心者向けクラスが充実しています。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。京橋はマシン専門スタジオが充実しています。' },
   { question: '京橋のピラティスの料金相場は？', answer: 'グループ月4回で10,000円〜13,420円程度。Rintosullが月額8,800円〜、CLUB PILATESが月4回 10,890〜17,050円（店舗により異なる）。パーソナルは1回8,000円〜15,000円程度。梅田エリアより比較的リーズナブルです。' },
-  { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に増やすと効果的です。Rintosullやthe SILKには通い放題プランがあるので、頻度を上げたい方にもおすすめです。' },
+  { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に増やすと効果的です。Rintosullには通い放題プランがあるので、頻度を上げたい方にもおすすめです。' },
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続で体の変化を実感する方が多いです。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。CLUB PILATESやpilates Kは体験無料で気軽に試せます。靴下（グリップソックス推奨）も忘れずに。' },
-  { question: '男性でも通えるスタジオはありますか？', answer: 'CLUB PILATESとSTUDIO TOUは男性も通えます。Rintosull、YO・GAN、pilates K、the SILKは女性専用です。' },
+  { question: '男性でも通えるスタジオはありますか？', answer: 'CLUB PILATESとSTUDIO TOUは男性も通えます。Rintosull、YO・GAN、pilates Kは女性専用です。' },
   { question: 'JR京橋駅と京阪京橋駅、どちらからが便利？', answer: 'どちらの駅からも主要スタジオは徒歩1〜5分程度。Rintosullは両駅から徒歩1分、YO・GANは京阪モールホテル館内なので京阪側が便利です。' },
   { question: '京橋と他のエリアで迷っています', answer: '京橋はJR・京阪が交差するターミナル駅で大阪ビジネスパークにも近く、仕事帰りに通いやすいのが魅力。梅田や天王寺と比べて混雑も少なめで、落ち着いてレッスンを受けたい方におすすめです。' },
   { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。姿勢改善は比較的早く、ボディメイクは3ヶ月程度の継続がおすすめです。' },
@@ -146,7 +132,7 @@ export default function KyobashiOsakaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス京橋（大阪）おすすめ7選！<br className="hidden md:block" />
+              【2026最新】ピラティス京橋（大阪）おすすめ6選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -189,7 +175,7 @@ export default function KyobashiOsakaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、京橋（大阪）エリアでおすすめのピラティススタジオ7選をまとめました。京橋はJR大阪環状線と京阪本線が交差するターミナル駅で、大阪ビジネスパークにも近接しており、仕事帰りにも通いやすいエリアです。
+              そこでこの記事では、京橋（大阪）エリアでおすすめのピラティススタジオ6選をまとめました。京橋はJR大阪環状線と京阪本線が交差するターミナル駅で、大阪ビジネスパークにも近接しており、仕事帰りにも通いやすいエリアです。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -228,7 +214,7 @@ export default function KyobashiOsakaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              京橋（大阪）のおすすめピラティススタジオ7選
+              京橋（大阪）のおすすめピラティススタジオ6選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -297,7 +283,7 @@ export default function KyobashiOsakaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">女性専用と男女共用の違い</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  京橋エリアはRintosull、YO・GAN、pilates K、the SILKなど女性専用スタジオが多いのが特徴。男性の方はCLUB PILATESやSTUDIO TOUなど男女共用のスタジオを選びましょう。カップルや夫婦で通いたい場合も事前に確認が必要です。
+                  京橋エリアはRintosull、YO・GAN、pilates Kなど女性専用スタジオが多いのが特徴。男性の方はCLUB PILATESやSTUDIO TOUなど男女共用のスタジオを選びましょう。カップルや夫婦で通いたい場合も事前に確認が必要です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -332,7 +318,7 @@ export default function KyobashiOsakaPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。pilates Kやthe SILKではレンタル可能なので仕事帰りでも安心です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。pilates Kではレンタル可能なので仕事帰りでも安心です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
@@ -372,7 +358,6 @@ export default function KyobashiOsakaPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• YO・GAN（岩盤浴併設）</li>
                   <li className="text-warm-700">• pilates K（音楽×ピラティス）</li>
-                  <li className="text-warm-700">• the SILK（おしゃれ空間）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -450,7 +435,6 @@ export default function KyobashiOsakaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• YO・GAN（ピラティス＋岩盤浴）</li>
-                  <li>• the SILK通い放題</li>
                 </ul>
               </div>
             </div>

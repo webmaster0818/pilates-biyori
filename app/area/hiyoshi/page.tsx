@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/hiyoshi/' },
-  title: '【2026年10月最新】ピラティス日吉おすすめ6選！人気スタジオの料金プランを簡単比較！',
-  description: '日吉エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス日吉おすすめ5選！人気スタジオの料金プランを簡単比較！',
+  description: '日吉エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,日吉,元住吉,港北区,横浜市,神奈川,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -28,25 +28,11 @@ const studios = [
     features: ['日吉駅徒歩2分', '男性OK', 'マット&マシン', '全国相互利用'],
     description: 'ピラティス専門の大手スタジオ。日吉駅西口から徒歩2分の好立地。マットグループ・マシングループ・プライベートの3タイプから選べます。全国150店舗以上で相互利用可能。BASIピラティスをベースにした本格指導。',
     access: '東急東横線・市営グリーンライン「日吉駅」西口 徒歩2分',
-    address: '神奈川県横浜市港北区日吉エリア（詳細は公式サイトでご確認ください）',
+    address: '神奈川県横浜市港北区日吉2丁目2-14 セイワビルⅡ 202',
     popularPlan: { name: 'フリープラン（マットグループ）', description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。', price: '月額 14,960円〜（税込）' },
     options: ['月4回プラン（10,450円〜）', 'マシングループ体験（3,000円）', 'プライベートレッスン（体験 9,900円）', '体験当日入会で入会金無料'],
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'] },
     basicInfo: { hours: '月〜金 10:00〜20:00 / 土日祝 10:00〜16:00', closed: '不定休', facilities: ['リフォーマー', 'マット', 'ロッカー', '更衣室'] },
-  },
-  {
-    name: 'the SILK 日吉店',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
-    image: '/images/studios/the-silk.webp', reviewCount: 138,
-    price: '月3回 12,980円〜', trial: '体験レッスン 無料',
-    features: ['女性専用', '日吉駅徒歩3分', '手ぶら体験OK', '音楽レッスン'],
-    description: '女性専用マシンピラティススタジオ。日吉駅西口から徒歩3分。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。パウダールーム完備で仕事前後の利用に便利。',
-    access: '東急東横線・市営グリーンライン「日吉駅」西口 徒歩3分',
-    address: '神奈川県横浜市港北区日吉エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'Standard4（月4回）', description: '女性専用マシンピラティス月4回。音楽に合わせた楽しいレッスン。', price: '月4回 15,070円（税込）' },
-    options: ['Light3（月3回 12,980円）', 'Full（毎日1回 20,680円）', 'Full Day（18,480円）', '体験・入会金無料キャンペーンあり'],
-    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'リフレッシュ'] },
-    basicInfo: { hours: '8:00〜22:00', closed: '年末年始', facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'パウダールーム', 'ウォーターサーバー'] },
   },
   {
     name: 'Rintosull 日吉店',
@@ -118,11 +104,11 @@ const faqs = [
   { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！日吉エリアのスタジオはほとんどが初心者歓迎。Rintosullは87%以上が初心者、CLUB PILATESは4段階のレベル分けがあります。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。日吉はマシン専門スタジオが充実しています。' },
   { question: '日吉のピラティスの料金相場は？', answer: 'グループ月4回で8,800円〜15,070円程度。Rintosullが月4回8,800円で最安級。パーソナルはYUZUが1回8,800円〜。' },
-  { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。the SILKのFullプランなら毎日1回通えます。' },
+  { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。' },
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。' },
-  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。the SILKは手ぶらで体験可能（ウェア・タオル無料貸出）。YUZUは500円、Rintosull・CLUB PILATESは無料体験。' },
-  { question: '男性でも通えるスタジオはありますか？', answer: 'zen place日吉、CLUB PILATES、YUZUは男性も通えます。the SILKとRintosullは女性専用です。' },
-  { question: '日吉駅から近いスタジオは？', answer: 'zen placeが駅徒歩2分で最寄り。the SILKが徒歩3分、CLUB PILATESが徒歩4分、YUZUが徒歩5分です。' },
+  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。YUZUは500円、Rintosull・CLUB PILATESは無料体験。' },
+  { question: '男性でも通えるスタジオはありますか？', answer: 'zen place日吉、CLUB PILATES、YUZUは男性も通えます。Rintosullは女性専用です。' },
+  { question: '日吉駅から近いスタジオは？', answer: 'zen placeが駅徒歩2分で最寄り。CLUB PILATESが徒歩4分、YUZUが徒歩5分です。' },
   { question: 'ヨガとピラティスの両方やりたい場合は？', answer: 'Rintosullはプレミアムフリーフルタイム（18,800円）でLAVA等系列のヨガスタジオも全国で利用可能です。' },
   { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。' },
 ]
@@ -144,7 +130,7 @@ export default function HiyoshiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス日吉おすすめ6選！<br className="hidden md:block" />
+              【2026最新】ピラティス日吉おすすめ5選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -175,7 +161,7 @@ export default function HiyoshiPage() {
             <p className="text-warm-600 leading-relaxed mb-6">「日吉で人気のピラティススタジオを知りたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、日吉・元住吉エリアでおすすめのピラティススタジオ6選をまとめました。
+              そこでこの記事では、日吉・元住吉エリアでおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -196,7 +182,7 @@ export default function HiyoshiPage() {
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">日吉のおすすめピラティススタジオ6選</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">日吉のおすすめピラティススタジオ5選</h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}
             </div>
@@ -234,7 +220,7 @@ export default function HiyoshiPage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">女性専用と男女共用を確認</h3>
-                <p className="text-warm-600 leading-relaxed">the SILKとRintosullは女性専用、zen place・CLUB PILATES・YUZUは男女共用です。男性の方は事前に対応スタジオを確認しましょう。</p>
+                <p className="text-warm-600 leading-relaxed">Rintosullは女性専用、zen place・CLUB PILATES・YUZUは男女共用です。男性の方は事前に対応スタジオを確認しましょう。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件を確認</h3>
@@ -268,7 +254,6 @@ export default function HiyoshiPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>：the SILKは無料貸出あり。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。</span></li>
                   </ul>
                 </div>
@@ -297,7 +282,6 @@ export default function HiyoshiPage() {
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">女性だけの安心空間。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
                   <li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li>
                 </ul>
               </div>
@@ -345,10 +329,9 @@ export default function HiyoshiPage() {
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜15,000円</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月3〜4回</p>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">大手チェーンの充実レッスン。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• the SILK（12,980円〜）</li>
                   <li>• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
                 </ul>
               </div>
@@ -357,7 +340,6 @@ export default function HiyoshiPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">通い放題</p>
                 <p className="text-sm text-warm-600 mb-4">毎日通いたい方。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• the SILK Full（20,680円）</li>
                   <li>• Rintosull プレミアム（18,800円）</li>
                 </ul>
               </div>
@@ -380,7 +362,7 @@ export default function HiyoshiPage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div>
-                <p className="text-warm-600 leading-relaxed">the SILK・Rintosull・CLUB PILATESは無料体験。YUZUは500円、zen placeは1,000円で体験可能。</p>
+                <p className="text-warm-600 leading-relaxed">Rintosull・CLUB PILATESは無料体験。YUZUは500円、zen placeは1,000円で体験可能。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div>

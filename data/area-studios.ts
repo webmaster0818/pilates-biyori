@@ -6681,7 +6681,7 @@ export const areaStudios: Record<string, AreaData> = {
         features: ['女性専用', '船橋駅徒歩3分', '手ぶら体験OK', '自然光スタジオ'],
         description: '女性専用のピラティススタジオ。自然光の入る空間で手ぶら体験も可能。東船橋駅からは1駅・徒歩圏の船橋駅エリア。',
         access: '東船橋駅から徒歩約20分（JR・京成・東武「船橋駅」徒歩3分）',
-        address: '千葉県船橋市本町1-28-1 レオセントラルスクエア3 6F',
+        address: '千葉県船橋市本町1-28-1 レオセントラルスクエアⅢ6階',
       },
       {
         name: 'URBAN CLASSIC PILATES 船橋店',

@@ -58,10 +58,10 @@ const studios = [
     image: '/images/studios/the-silk.webp',
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
-    features: ['女性専用', '松戸駅徒歩1分', '手ぶら体験OK', '朝7:30〜'],
-    description: '女性専用マシンピラティススタジオ。松戸駅から徒歩1分。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。手ぶらで体験可能。ウェア・タオル無料貸出あり。パウダールームが充実。',
-    access: 'JR常磐線・新京成線「松戸駅」徒歩1分',
-    address: '千葉県松戸市松戸1230-1 ピアザ松戸 9F',
+    features: ['女性専用', '松戸駅徒歩2分', '手ぶら体験OK', '朝7:30〜'],
+    description: '女性専用マシンピラティススタジオ。JR常磐線松戸駅から徒歩2分。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。手ぶらで体験可能。ウェア・タオル無料貸出あり。パウダールームが充実。',
+    access: 'JR常磐線「松戸駅」徒歩2分（公式表記）',
+    address: '千葉県松戸市松戸1239 ユキドレスビル2階',
     popularPlan: {
       name: 'Standard4（月4回）',
       description: '女性専用マシンピラティス月4回。音楽に合わせた楽しいレッスン。',
@@ -230,7 +230,7 @@ const faqs = [
   },
   {
     question: '松戸駅から近いスタジオはどこですか？',
-    answer: 'ピラティスK松戸店とthe SILK松戸店がともに松戸駅から徒歩1分で最寄り。lafimo松戸店も徒歩2分、Pilates Mee松戸店は徒歩3分です。',
+    answer: 'ピラティスK松戸店が松戸駅から徒歩1分で最寄り。the SILK松戸店・lafimo松戸店も徒歩2分、Pilates Mee松戸店は徒歩3分です。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
@@ -516,7 +516,7 @@ export default function MatsudoPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK（徒歩1分）</li>
-                  <li className="text-warm-700">• the SILK（徒歩1分）</li>
+                  <li className="text-warm-700">• the SILK（徒歩2分）</li>
                   <li className="text-warm-700">• lafimo（徒歩2分）</li>
                 </ul>
               </div>
@@ -635,7 +635,7 @@ export default function MatsudoPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  松戸はJR常磐線と新京成線が乗り入れるターミナル駅。ピラティスKとthe SILKは徒歩1分、lafimoは徒歩2分と駅近スタジオが充実。車派ならKASANEのイオンモール松戸店が便利。
+                  松戸はJR常磐線と新京成線が乗り入れるターミナル駅。ピラティスKは徒歩1分、the SILK・lafimoは徒歩2分と駅近スタジオが充実。車派ならKASANEのイオンモール松戸店が便利。
                 </p>
               </div>
             </div>

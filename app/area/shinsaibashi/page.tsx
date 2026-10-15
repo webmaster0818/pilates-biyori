@@ -88,16 +88,6 @@ const studios = [
     },
   },
   {
-    name: 'the SILK 心斎橋',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
-    image: '/images/studios/the-silk.webp',
-    price: '月4回 15,070円〜',
-    trial: '体験レッスン 無料',
-    features: ['暗闇マシン', '音楽', '心斎橋駅近', '女性専用'],
-    description: 'マシンピラティス特化型スタジオ。暗闇×音楽で没入感のあるレッスン。心斎橋駅から徒歩2分の好アクセス。最新のリフォーマーマシンを完備し、音楽に合わせた独自プログラムで楽しくトレーニング。女性専用で初心者も安心。',
-    access: '心斎橋駅から徒歩2分',
-  },
-  {
     name: 'CLUB PILATES 心斎橋',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
     image: '/images/studios/club-pilates.webp',
@@ -457,7 +447,6 @@ export default function ShinsaibashiPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates 心斎橋</li>
-                  <li className="text-warm-700">• the SILK 心斎橋</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -467,7 +456,6 @@ export default function ShinsaibashiPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Urban Pilates 心斎橋（駅徒歩1分）</li>
-                  <li className="text-warm-700">• the SILK 心斎橋（駅徒歩2分）</li>
                   <li className="text-warm-700">• zen place pilates 心斎橋（駅徒歩3分）</li>
                 </ul>
               </div>
@@ -526,7 +514,6 @@ export default function ShinsaibashiPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates</li>
                   <li>• ピラティスK</li>
-                  <li>• the SILK</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">

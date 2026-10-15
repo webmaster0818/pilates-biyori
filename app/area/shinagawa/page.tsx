@@ -135,7 +135,7 @@ const studios = [
     features: ['女性専用', 'マシンピラティス専門', '田町駅徒歩6分', '品川から1駅'],
     description: '女性専用マシンピラティス専門スタジオ。田町駅芝浦口から徒歩6分、品川からJR京浜東北線で1駅。無料体験レッスンを実施中。音楽に合わせた独自プログラムで楽しくトレーニング。',
     access: 'JR「田町駅」芝浦口 徒歩6分 / 品川からJR京浜東北線で1駅',
-    address: '東京都港区芝浦3-13-14 PhilPark田町Shibaura 5F',
+    address: '東京都港区芝浦3丁目13−12 PhilPark 田町 Shibaura5F',
   },
   {
     name: 'STUDIO IVY 三田店',

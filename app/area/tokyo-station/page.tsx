@@ -24,7 +24,7 @@ export const metadata = {
 
 const studios = [
   {
-    name: 'the SILK 八重洲店',
+    name: 'the SILK 東京八重洲店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
     price: 'Standard4 12,980円〜',
@@ -32,7 +32,7 @@ const studios = [
     features: ['女性専用', 'マシンピラティス専門', '東京駅徒歩5分', '音楽×マシン'],
     description: '女性専用マシンピラティス専門スタジオ。JR東京駅八重洲北口から徒歩5分、大手町駅B10出口から徒歩5分の好アクセス。PMA加盟団体監修のレッスンで、音楽に合わせながら楽しくボディメイク。初心者が8割で安心して始められます。',
     access: 'JR「東京駅」八重洲北口 徒歩5分 / 東京メトロ「大手町駅」B10出口 徒歩5分',
-    address: '東京都中央区八重洲1丁目（東京駅八重洲北口徒歩5分）',
+    address: '東京都中央区八重洲1-5-9 八重洲加藤ビルディング5階',
     popularPlan: {
       name: 'Standard4（月4回）',
       description: '女性専用マシンピラティスの基本プラン。',
@@ -221,7 +221,7 @@ const studios = [
     features: ['女性専用', 'マシンピラティス専門', '銀座一丁目駅徒歩2分', '手ぶら体験OK'],
     description: '女性専用マシンピラティス専門スタジオ。銀座一丁目駅6番出口から徒歩2分、京橋駅3番出口から徒歩4分。八重洲店・銀座店との相互利用が可能で、予約の取りやすさも魅力。手ぶらで無料体験レッスンが受けられるキャンペーン実施中。',
     access: '有楽町線「銀座一丁目駅」6番出口 徒歩2分 / 銀座線「京橋駅」3番出口 徒歩4分',
-    address: '東京都中央区銀座1丁目（銀座一丁目駅徒歩2分）',
+    address: '東京都中央区銀座1丁目5-8 Ginza Willow Avenue BLDG. 4階',
   },
   {
     name: 'Bloom Pilates 銀座スタジオ',

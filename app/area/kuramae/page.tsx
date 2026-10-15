@@ -147,7 +147,7 @@ const studios = [
     },
   },
   {
-    name: 'the SILK 浅草（近隣エリア）',
+    name: 'the SILK 浅草店（近隣エリア）',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '\/images\/studios\/the-silk.webp',
     price: '月3回 12,980円〜',
@@ -155,7 +155,7 @@ const studios = [
     features: ['女性専用', '手ぶら体験OK', '初心者8割', 'ウェア無料貸出'],
     description: '女性専用マシンピラティススタジオ。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。手ぶらで体験可能。ウェア・タオル無料貸出あり。蔵前エリアからもアクセス良好。',
     access: '蔵前エリアからアクセス可能（詳細は公式サイトでご確認ください）',
-    address: '東京都内（詳細は公式サイトでご確認ください）',
+    address: '東京都台東区雷門2-19-1 長谷川ビル7階',
     popularPlan: {
       name: 'Standard4（月4回）',
       description: '女性専用マシンピラティス月4回。音楽に合わせた楽しいレッスン。',

@@ -120,38 +120,6 @@ const studios = [
     },
   },
   {
-    name: 'the SILK 大宮',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
-    image: '/images/studios/the-silk.webp',
-    price: '要問合せ',
-    trial: '体験レッスン あり',
-    features: ['高級感', '大宮駅徒歩2分', 'マシン専門', 'パウダールーム充実'],
-    description: '大宮駅から徒歩2分の好立地。高級感あふれる落ち着いた空間で、質の高いマシンピラティスを提供。充実したパウダールームで、快適に身支度できます。the SILKならではの上質な空間で、リラックスしながら効果的にボディメイク。',
-    access: '大宮駅から徒歩2分',
-    address: '埼玉県さいたま市大宮区（詳細は公式サイト参照）',
-    popularPlan: {
-      name: 'マシンピラティスグループレッスン',
-      description: '高級感あふれる空間で上質なピラティス体験。少人数制で丁寧な指導。',
-      price: '要問合せ',
-    },
-    options: [
-      'グループレッスン',
-      'プライベートレッスン',
-      '体験レッスン',
-      '充実のパウダールーム',
-    ],
-    userProfile: {
-      ageRange: '30代〜50代が中心',
-      genderRatio: '女性90% / 男性10%',
-      purpose: ['上質な空間で運動', 'ボディメイク', 'リラックス', '姿勢改善'],
-    },
-    basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '詳細は公式サイト参照',
-      facilities: ['ロッカー', '充実のパウダールーム', 'Wi-Fi', 'マシン完備', '高級感ある内装'],
-    },
-  },
-  {
     name: 'La pilates 大宮店',
     image: '/images/studios/la-pilates.webp',
     price: '月1回 12,000円〜',

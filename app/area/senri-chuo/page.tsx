@@ -355,7 +355,6 @@ export default function SenriChuoPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place（正統派ピラティス）</li>
-                  <li className="text-warm-700">• the SILK（おしゃれ空間）</li>
                 </ul>
               </div>
             </div>
@@ -413,7 +412,6 @@ export default function SenriChuoPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place月4回（9,625円〜）</li>
                   <li>• ピラティスミラー月6回（11,000円）</li>
-                  <li>• the SILK月3回（12,980円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -424,7 +422,6 @@ export default function SenriChuoPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen placeフリー（14,960円〜）</li>
-                  <li>• the SILK通い放題</li>
                 </ul>
               </div>
             </div>

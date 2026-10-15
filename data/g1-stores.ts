@@ -206,7 +206,7 @@ export const g1Stores: BdcStore[] = [
     urlSlug: "the-silk-daimon-hamamatsucho",
     areaQuery: "大門浜松町",
     storeName: "the SILK 大門浜松町店",
-    address: "東京都港区浜松町1-27-10 バッカス第3ビル 7F",
+    address: "東京都港区浜松町1-27-10 バッカス第3ビル7階",
     access: "都営浅草線・大江戸線「大門駅」A2出口 徒歩1分 / JR「浜松町駅」北口 徒歩2分",
     price: "月3回 12,980円〜",
     trial: "体験レッスン 無料",

@@ -16,7 +16,7 @@ export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/musashikosugi/' },
   title: '【2026年10月最新】武蔵小杉のピラティス｜初心者OK・無料体験で選ぶ料金比較',
   description: '武蔵小杉エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
-  keywords: 'ピラティス,武蔵小杉,川崎市,神奈川,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place pilates,CLUB PILATES,the SILK,STUDIO IVY,Lucio',
+  keywords: 'ピラティス,武蔵小杉,川崎市,神奈川,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place pilates,CLUB PILATES,STUDIO IVY,Lucio',
 }
 
 const studios = [
@@ -77,38 +77,6 @@ const studios = [
       hours: '月〜金 7:00-21:00 / 土日 7:00-18:00',
       closed: '不定休',
       facilities: ['リフォーマー', 'スプリングボード', 'TRX', 'チェア', 'Bosu'],
-    },
-  },
-  {
-    name: 'the SILK 武蔵小杉エリア',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
-    image: '/images/studios/the-silk.webp',
-    price: '月3回 12,980円〜',
-    trial: '体験レッスン 無料',
-    features: ['女性専用', '音楽レッスン', '手ぶらOK', '体験無料'],
-    description: '女性専用のマシンピラティススタジオ「the SILK」。音楽に合わせた独自のレッスンスタイルが特徴で、楽しみながらボディメイクできます。月3回12,980円〜の手頃な料金設定。手ぶらOKなので仕事帰りにも気軽に通えます。営業時間は7:30〜22:00と幅広く、ライフスタイルに合わせやすい。体験レッスンは無料で実施中。',
-    access: 'JR武蔵小杉駅周辺',
-    address: '神奈川県川崎市中原区武蔵小杉エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: {
-      name: '月3回プラン',
-      description: '女性専用の音楽レッスン。手ぶらOKで気軽に通える。',
-      price: '月3回 12,980円〜（税込）',
-    },
-    options: [
-      '月3回プラン（12,980円〜）',
-      '手ぶらOK（ウェア・タオルなど完備）',
-      '体験レッスン 無料',
-      '営業時間 7:30〜22:00',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', 'ダイエット', '姿勢改善', 'ストレス発散'],
-    },
-    basicInfo: {
-      hours: '7:30〜22:00',
-      closed: '不定休',
-      facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'レンタルウェア'],
     },
   },
   {
@@ -186,7 +154,7 @@ const faqs = [
   },
   {
     question: '武蔵小杉のピラティスの料金相場は？',
-    answer: 'zen place pilatesは月4回10,450円〜、the SILKは月3回12,980円〜、CLUB PILATESは月4回 14,190円、STUDIO IVYはパーソナルで月2回15,000円〜。目的と頻度に合わせて選びましょう。',
+    answer: 'zen place pilatesは月4回10,450円〜、CLUB PILATESは月4回 14,190円、STUDIO IVYはパーソナルで月2回15,000円〜。目的と頻度に合わせて選びましょう。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -198,11 +166,11 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOKです。CLUB PILATESは体験0円（30分）、the SILKも無料体験で手ぶらOK。zen place pilatesはグループ体験1,000円、STUDIO IVYは体験4,500円で本格的な内容を体験できます。',
+    answer: '動きやすい服装と飲み物があればOKです。CLUB PILATESは体験0円（30分）。zen place pilatesはグループ体験1,000円、STUDIO IVYは体験4,500円で本格的な内容を体験できます。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'zen place pilates武蔵小杉店、CLUB PILATES武蔵小杉店、STUDIO IVY武蔵小杉店、Lucio武蔵小杉店は男性も通えます。the SILKは女性専用です。',
+    answer: 'zen place pilates武蔵小杉店、CLUB PILATES武蔵小杉店、STUDIO IVY武蔵小杉店、Lucio武蔵小杉店は男性も通えます。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -226,7 +194,7 @@ export default function MusashikosugiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス武蔵小杉おすすめ5選！
+              【2026最新】ピラティス武蔵小杉おすすめ4選！
               <br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
@@ -261,7 +229,7 @@ export default function MusashikosugiPage() {
               武蔵小杉はJR南武線・横須賀線・湘南新宿ライン、東急東横線・目黒線が乗り入れるターミナル駅で、渋谷まで約15分、品川まで約10分という好アクセスのエリア。タワーマンションが立ち並ぶ人気の住宅地です。そんな武蔵小杉エリアには、大手チェーンのグループレッスンから完全パーソナルまで、多彩なピラティススタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、武蔵小杉エリアでおすすめの実在するピラティススタジオ5選をまとめました。
+              そこでこの記事では、武蔵小杉エリアでおすすめの実在するピラティススタジオ4選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -298,7 +266,7 @@ export default function MusashikosugiPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              武蔵小杉のおすすめピラティススタジオ5選
+              武蔵小杉のおすすめピラティススタジオ4選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -427,7 +395,6 @@ export default function MusashikosugiPage() {
                 <p className="text-warm-600 text-sm mb-4">月4回10,450円〜のスタジオも。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
                   <li className="text-warm-700">• CLUB PILATES（月4回 14,190円）</li>
                 </ul>
               </div>
@@ -441,9 +408,8 @@ export default function MusashikosugiPage() {
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">ライフスタイル重視</h3>
-                <p className="text-warm-600 text-sm mb-4">手ぶらOKや女性専用も。</p>
+                <p className="text-warm-600 text-sm mb-4">駅近や体験0円のスタジオも。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• the SILK（女性専用・手ぶらOK）</li>
                   <li className="text-warm-700">• zen place pilates（駅徒歩1分・150店舗相互利用）</li>
                   <li className="text-warm-700">• CLUB PILATES（体験0円）</li>
                 </ul>
@@ -480,11 +446,10 @@ export default function MusashikosugiPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜13,000円/月</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月3〜4回</p>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">手軽に始めたい方に。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates（10,450円/月4回〜）</li>
-                  <li>• the SILK（12,980円/月3回〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -530,7 +495,7 @@ export default function MusashikosugiPage() {
                   <h3 className="text-xl font-bold text-warm-900">レッスン形式を選ぶ</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  武蔵小杉エリアはグループ（zen place pilates、CLUB PILATES、the SILK）、完全パーソナル（STUDIO IVY、Lucio）と多彩な形式が揃っています。自分の好みや予算に合わせて選びましょう。
+                  武蔵小杉エリアはグループ（zen place pilates、CLUB PILATES）、完全パーソナル（STUDIO IVY、Lucio）と多彩な形式が揃っています。自分の好みや予算に合わせて選びましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -539,7 +504,7 @@ export default function MusashikosugiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  CLUB PILATESは体験0円（30分）、the SILKも無料体験。zen place pilatesはグループ体験1,000円。まずは気軽に体験して、雰囲気やインストラクターとの相性を確認しましょう。
+                  CLUB PILATESは体験0円（30分）。zen place pilatesはグループ体験1,000円。まずは気軽に体験して、雰囲気やインストラクターとの相性を確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -548,7 +513,7 @@ export default function MusashikosugiPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  武蔵小杉はJR・東急の複数路線が利用可能で、渋谷・品川方面からのアクセスも抜群。zen place pilatesは駅徒歩1分。the SILKは7:30〜22:00の営業で朝活や仕事帰りにも通いやすい環境です。
+                  武蔵小杉はJR・東急の複数路線が利用可能で、渋谷・品川方面からのアクセスも抜群。zen place pilatesは駅徒歩1分です。
                 </p>
               </div>
             </div>
@@ -582,13 +547,13 @@ export default function MusashikosugiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は武蔵小杉エリアのおすすめピラティススタジオ5選をご紹介しました。
+              今回は武蔵小杉エリアのおすすめピラティススタジオ4選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              武蔵小杉はJR・東急の複数路線が利用可能で、渋谷・品川方面からのアクセスも抜群の人気エリア。駅徒歩1分のzen place pilates（月4回10,450円〜・150店舗相互利用）、世界最大級チェーンのCLUB PILATES（体験0円・15種類の器具）、女性専用で手ぶらOKのthe SILK（月3回12,980円〜）、完全パーソナルのSTUDIO IVY（月2回15,000円〜）、ジム併設のLucio（駅近・スケジュール柔軟対応）と、それぞれ特徴の異なるスタジオが揃っています。
+              武蔵小杉はJR・東急の複数路線が利用可能で、渋谷・品川方面からのアクセスも抜群の人気エリア。駅徒歩1分のzen place pilates（月4回10,450円〜・150店舗相互利用）、世界最大級チェーンのCLUB PILATES（体験0円・15種類の器具）、完全パーソナルのSTUDIO IVY（月2回15,000円〜）、ジム併設のLucio（駅近・スケジュール柔軟対応）と、それぞれ特徴の異なるスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              まずは無料体験ができるCLUB PILATESやthe SILKから試してみるのがおすすめです。ぜひこの記事を参考に、自分に合うピラティススタジオを見つけてくださいね。
+              まずは無料体験ができるCLUB PILATESから試してみるのがおすすめです。ぜひこの記事を参考に、自分に合うピラティススタジオを見つけてくださいね。
             </p>
             <p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p>
           </div>
@@ -599,7 +564,7 @@ export default function MusashikosugiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              CLUB PILATESとthe SILKは体験0円。<br />
+              CLUB PILATESは体験0円。<br />
               まずは気軽に体験してみましょう。
             </p>
             <Link

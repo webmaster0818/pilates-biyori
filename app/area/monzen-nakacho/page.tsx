@@ -16,7 +16,7 @@ export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/monzen-nakacho/' },
   title: '【2026年10月最新】門前仲町のピラティス｜初心者OK・無料体験で選ぶ料金比較',
   description: '門前仲町エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
-  keywords: 'ピラティス,門前仲町,江東区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place pilates,the SILK,DIVA,YARD,スタジオプラス',
+  keywords: 'ピラティス,門前仲町,江東区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place pilates,DIVA,YARD,スタジオプラス',
 }
 
 const studios = [
@@ -51,38 +51,6 @@ const studios = [
       hours: '公式サイトでご確認ください',
       closed: '不定休',
       facilities: ['リフォーマー', 'チェア', 'バレル', 'キッズルーム', '更衣室'],
-    },
-  },
-  {
-    name: 'the SILK',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
-    image: '/images/studios/the-silk.webp',
-    price: '月3回 12,980円〜',
-    trial: '体験レッスン 無料',
-    features: ['女性専用', '音楽レッスン', '手ぶらOK', '体験無料'],
-    description: '女性専用のマシンピラティススタジオ。音楽に合わせた独自のレッスンスタイルで、楽しみながらボディメイクができます。月3回12,980円〜、体験レッスンは無料。手ぶらOKなので仕事帰りにも気軽に通えます。営業時間は7:30〜22:00と幅広く、ライフスタイルに合わせやすい。',
-    access: '門前仲町エリア（詳細は公式サイトでご確認ください）',
-    address: '東京都江東区門前仲町エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: {
-      name: '月3回プラン',
-      description: '女性専用マシンピラティス。音楽に合わせた楽しいレッスン。手ぶらOK。',
-      price: '月3回 12,980円〜（税込）',
-    },
-    options: [
-      '月3回プラン（12,980円〜/月）',
-      '月4回・通い放題プランあり',
-      '体験レッスン 無料',
-      '手ぶらOK（レンタルあり）',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', 'ダイエット', '姿勢改善', 'ストレス発散'],
-    },
-    basicInfo: {
-      hours: '7:30〜22:00',
-      closed: '不定休',
-      facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'レンタルウェア'],
     },
   },
   {
@@ -184,15 +152,15 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！門前仲町エリアのスタジオはほとんどが初心者歓迎です。zen place pilatesは多彩なクラスレベルで初心者専用もあり、the SILKは音楽に合わせた楽しいレッスンで初心者でも取り組みやすい。ピラティススタジオDIVAは完全パーソナルなので自分のペースで進められます。',
+    answer: '大丈夫です！門前仲町エリアのスタジオはほとんどが初心者歓迎です。zen place pilatesは多彩なクラスレベルで初心者専用もあります。ピラティススタジオDIVAは完全パーソナルなので自分のペースで進められます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズ、マシンピラティスはリフォーマーなどの専用マシンを使用します。マシンはバネの力で負荷を調整できるため初心者にもおすすめ。門前仲町エリアではzen place pilatesやthe SILKがマシンピラティス、YARDがマットピラティスに対応しています。',
+    answer: 'マットピラティスは自重を使ったエクササイズ、マシンピラティスはリフォーマーなどの専用マシンを使用します。マシンはバネの力で負荷を調整できるため初心者にもおすすめ。門前仲町エリアではzen place pilatesがマシンピラティス、YARDがマットピラティスに対応しています。',
   },
   {
     question: '門前仲町のピラティスの料金相場は？',
-    answer: 'zen place pilatesは月4回10,450円〜、the SILKは月3回12,980円〜。ピラティススタジオDIVAはパーソナルセッション（詳細は公式サイト参照）。目的と頻度に合わせて選びましょう。',
+    answer: 'zen place pilatesは月4回10,450円〜。ピラティススタジオDIVAはパーソナルセッション（詳細は公式サイト参照）。目的と頻度に合わせて選びましょう。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -200,15 +168,15 @@ const faqs = [
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に変わっていきます。the SILKは音楽に合わせた楽しいレッスンで、運動が苦手な方でも続けやすく、ダイエット効果も期待できます。2〜3ヶ月の継続で効果を実感する方が多いです。',
+    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に変わっていきます。2〜3ヶ月の継続で効果を実感する方が多いです。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOKです。the SILKは手ぶらOKでレンタルウェアもあり、体験は無料。zen place pilatesはグループ体験1,000円で気軽にお試しできます。',
+    answer: '動きやすい服装と飲み物があればOKです。zen place pilatesはグループ体験1,000円で気軽にお試しできます。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'zen place pilates門前仲町スタジオは男性も通えます。the SILKは女性専用です。ピラティススタジオDIVA、YARD、スタジオプラスについては公式サイトでご確認ください。',
+    answer: 'zen place pilates門前仲町スタジオは男性も通えます。ピラティススタジオDIVA、YARD、スタジオプラスについては公式サイトでご確認ください。',
   },
   {
     question: '子連れで通えるスタジオはありますか？',
@@ -240,7 +208,7 @@ export default function MonzenNakachoPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス門前仲町おすすめ5選！
+              【2026最新】ピラティス門前仲町おすすめ4選！
               <br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
@@ -275,7 +243,7 @@ export default function MonzenNakachoPage() {
               門前仲町は東京メトロ東西線と都営大江戸線が乗り入れ、大手町まで東西線で約5分という好アクセスのエリア。深川不動堂や富岡八幡宮など歴史ある下町情緒が魅力の街です。そんな門前仲町エリアには、キッズルーム完備の大手チェーンから完全パーソナル、清澄白河のおしゃれなスタジオまで、多彩なピラティススタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、門前仲町エリアでおすすめの実在するピラティススタジオ5選をまとめました。
+              そこでこの記事では、門前仲町エリアでおすすめの実在するピラティススタジオ4選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -312,7 +280,7 @@ export default function MonzenNakachoPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              門前仲町のおすすめピラティススタジオ5選
+              門前仲町のおすすめピラティススタジオ4選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -441,7 +409,6 @@ export default function MonzenNakachoPage() {
                 <p className="text-warm-600 text-sm mb-4">月額10,450円〜のスタジオも。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -457,7 +424,6 @@ export default function MonzenNakachoPage() {
                 <p className="text-warm-600 text-sm mb-4">子連れOKや多彩なプログラムも。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（キッズルーム完備）</li>
-                  <li className="text-warm-700">• the SILK（7:30〜22:00・手ぶらOK）</li>
                   <li className="text-warm-700">• YARD（40種類以上のプログラム）</li>
                 </ul>
               </div>
@@ -476,7 +442,7 @@ export default function MonzenNakachoPage() {
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2〜3回がおすすめ。3〜6ヶ月で目に見える変化を実感できます。the SILKは音楽に合わせた楽しいレッスンで飽きずに続けられます。
+                週2〜3回がおすすめ。3〜6ヶ月で目に見える変化を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
@@ -505,7 +471,6 @@ export default function MonzenNakachoPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">月3〜4回</p>
                 <p className="text-sm text-warm-600 mb-4">週1回ペースで着実に成果。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• the SILK（12,980円/月3回）</li>
                   <li>• zen place pilates（10,450円/月4回）</li>
                 </ul>
               </div>
@@ -542,7 +507,7 @@ export default function MonzenNakachoPage() {
                   <h3 className="text-xl font-bold text-warm-900">レッスン形式を選ぶ</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  門前仲町エリアはグループ（zen place pilates・the SILK）、完全パーソナル（ピラティススタジオDIVA）、マットピラティス（YARD）と多彩な形式が揃っています。自分の好みや予算に合わせて選びましょう。
+                  門前仲町エリアはグループ（zen place pilates）、完全パーソナル（ピラティススタジオDIVA）、マットピラティス（YARD）と多彩な形式が揃っています。自分の好みや予算に合わせて選びましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -551,7 +516,7 @@ export default function MonzenNakachoPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKは体験無料、zen place pilatesはグループ体験1,000円と気軽にお試しできます。まずは体験レッスンで雰囲気やインストラクターとの相性を確認しましょう。
+                  zen place pilatesはグループ体験1,000円と気軽にお試しできます。まずは体験レッスンで雰囲気やインストラクターとの相性を確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -560,7 +525,7 @@ export default function MonzenNakachoPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  門前仲町は東京メトロ東西線・都営大江戸線が利用可能で、大手町まで約5分。ピラティススタジオDIVAは門前仲町駅から徒歩3分、越中島駅からも徒歩7分。the SILKは7:30〜22:00と営業時間が長く、ライフスタイルに合わせて通えます。
+                  門前仲町は東京メトロ東西線・都営大江戸線が利用可能で、大手町まで約5分。ピラティススタジオDIVAは門前仲町駅から徒歩3分、越中島駅からも徒歩7分。
                 </p>
               </div>
             </div>
@@ -594,13 +559,13 @@ export default function MonzenNakachoPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は門前仲町エリアのおすすめピラティススタジオ5選をご紹介しました。
+              今回は門前仲町エリアのおすすめピラティススタジオ4選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              門前仲町は深川不動堂や富岡八幡宮など歴史ある下町情緒が魅力の街で、東京メトロ東西線・都営大江戸線で大手町まで約5分という好立地。キッズルーム完備のzen place pilates（グループ体験1,000円）、女性専用・音楽レッスンのthe SILK（体験無料）、完全パーソナルのピラティススタジオDIVA（駅徒歩3分）、40種類以上のプログラムを持つYARD清澄白河、カフェ併設のスタジオプラス清澄白河と、それぞれ特徴の異なるスタジオが揃っています。
+              門前仲町は深川不動堂や富岡八幡宮など歴史ある下町情緒が魅力の街で、東京メトロ東西線・都営大江戸線で大手町まで約5分という好立地。キッズルーム完備のzen place pilates（グループ体験1,000円）、完全パーソナルのピラティススタジオDIVA（駅徒歩3分）、40種類以上のプログラムを持つYARD清澄白河、カフェ併設のスタジオプラス清澄白河と、それぞれ特徴の異なるスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              まずは無料体験ができるthe SILKや、1,000円で体験できるzen place pilatesから試してみるのがおすすめです。ぜひこの記事を参考に、自分に合うピラティススタジオを見つけてくださいね。
+              まずは1,000円で体験できるzen place pilatesから試してみるのがおすすめです。ぜひこの記事を参考に、自分に合うピラティススタジオを見つけてくださいね。
             </p>
             <p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p>
           </div>
@@ -611,7 +576,7 @@ export default function MonzenNakachoPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              the SILKは体験無料、zen place pilatesはグループ体験1,000円。<br />
+              zen place pilatesはグループ体験1,000円。<br />
               まずは気軽に体験してみましょう。
             </p>
             <Link

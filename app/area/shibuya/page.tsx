@@ -31,25 +31,11 @@ const studios = [
     features: ['マットグループ', 'MIYASHITA PARK正面5F', '男性OK', '全国140スタジオ相互利用可'],
     description: '全国140スタジオ以上を展開するzen placeの渋谷スタジオ。MIYASHITA PARK正面5Fに位置し、マットピラティスとマシンピラティスの両方が受けられる総合型スタジオ。男性も利用可能で、月4回9,625円〜とリーズナブル。全国のzen placeスタジオを相互利用できるのも大きな魅力。',
     access: 'MIYASHITA PARK正面 5F',
-    address: '東京都渋谷区（MIYASHITA PARK正面5F）',
+    address: '東京都渋谷区渋谷1丁目23-18 渋谷ワールドイーストビル 5階',
     popularPlan: { name: 'マットグループ月4回プラン', description: 'マット・マシン両対応。全国140スタジオ相互利用可。', price: '月4回 9,625円（税込）〜' },
     options: ['月4回プラン（9,625円〜）', '月6回プラン', 'フリー（通い放題）プラン', 'プライベートレッスン追加'],
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', 'リラックス'] },
     basicInfo: { hours: '平日 7:00〜22:00 / 土日祝 7:00〜18:00', closed: '不定休', facilities: ['マットスタジオ', 'リフォーマーマシン', 'ロッカー', '更衣室'] },
-  },
-  {
-    name: 'the SILK 渋谷',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
-    image: '/images/studios/the-silk.webp', reviewCount: 290,
-    price: '月4回 12,980円〜', trial: '体験レッスンあり',
-    features: ['女性専用マシン', '渋谷駅徒歩2分', '音楽×ピラティス', '月4回12,980円〜'],
-    description: '音楽とマシンピラティスを融合した女性専用スタジオ。渋谷駅徒歩2分の好立地で、暗闇×音楽の非日常空間で楽しみながらボディメイク。リフォーマーを使用した本格マシンピラティスを月4回12,980円〜で提供。',
-    access: '渋谷駅 徒歩2分',
-    address: '東京都渋谷区（渋谷駅徒歩2分）',
-    popularPlan: { name: '月4回プラン', description: '音楽×暗闇の非日常空間でマシンピラティス。', price: '月4回 12,980円（税込）〜' },
-    options: ['月4回プラン（12,980円〜）', '月8回プラン', '通い放題プラン', '体験レッスン'],
-    userProfile: { ageRange: '20代〜30代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', 'ダイエット', 'ストレス発散', '美容'] },
-    basicInfo: { hours: '平日 7:00〜22:00 / 土日祝 8:00〜20:00', closed: '不定休', facilities: ['リフォーマーマシン', 'パウダールーム', 'ロッカー', '更衣室'] },
   },
   {
     name: 'ピラティスK 渋谷店',
@@ -461,7 +447,6 @@ export default function ShibuyaPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• <a href="#studio-5" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">CLUB PILATES</a>（月4回 10,890円〜）</li>
                   <li>• <a href="#studio-3" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">ピラティスK</a>（月4回 11,220円〜）</li>
-                  <li>• <a href="#studio-2" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">the SILK</a>（月4回 12,980円〜）</li>
                   <li>• <a href="#studio-6" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">STUDIO IVY</a>（月2回 15,000円〜）</li>
                 </ul>
               </div>

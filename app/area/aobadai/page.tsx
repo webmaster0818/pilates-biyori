@@ -15,8 +15,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/aobadai/' },
-  title: '【2026年10月最新】ピラティス青葉台おすすめ5選！料金・体験レッスン・マシン対応を比較！',
-  description: '青葉台エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス青葉台おすすめ4選！料金・体験レッスン・マシン対応を比較！',
+  description: '青葉台エリアのおすすめピラティススタジオ4選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,青葉台,青葉区,横浜市,神奈川,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -76,20 +76,6 @@ const studios = [
     userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性85% / 男性15%', purpose: ['ボディメイク', 'ダイエット', '運動不足解消', '体幹強化'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマーマシン', 'TRX', '更衣室', 'ロッカー'] },
   },
-  {
-    name: 'the SILK 青葉台店',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
-    image: '/images/studios/the-silk.webp', reviewCount: 110,
-    price: '月3回 12,980円〜', trial: '体験レッスン 無料',
-    features: ['女性専用', '手ぶら体験OK', '音楽レッスン', 'パウダールーム完備'],
-    description: '女性専用マシンピラティススタジオ。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。パウダールームにメイクアップミラー・アイロン完備で仕事前後の利用に便利。',
-    access: '東急田園都市線「青葉台駅」周辺',
-    address: '神奈川県横浜市青葉区青葉台エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'Standard4（月4回）', description: '女性専用マシンピラティス月4回。音楽に合わせた楽しいレッスン。', price: '月4回 15,070円（税込）' },
-    options: ['Light3（月3回 12,980円）', 'Full（毎日1回 20,680円）', 'Full Day（18,480円）', '体験・入会金無料キャンペーンあり'],
-    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'リフレッシュ'] },
-    basicInfo: { hours: '8:00〜22:00', closed: '年末年始', facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'パウダールーム', 'ウォーターサーバー'] },
-  },
 ]
 
 const faqs = [
@@ -98,8 +84,8 @@ const faqs = [
   { question: '青葉台のピラティスの料金相場は？', answer: 'グループ月4回で8,800円〜15,070円程度。Rintosullが月4回8,800円で最安級。通い放題ならアーバンクラシック9,680円〜が最もお得。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回がおすすめ。通い放題のアーバンクラシックなら毎日30分で効率よく通えます。' },
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。' },
-  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。the SILKは手ぶらで無料体験可能（ウェア・タオル無料貸出）。Rintosullも無料体験あり。' },
-  { question: '男性でも通えるスタジオはありますか？', answer: 'zen place青葉台とアーバンクラシックは男性も通えます。Rintosull・ピラティスミラー・the SILKは女性専用です。' },
+  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。Rintosullは無料体験あり。' },
+  { question: '男性でも通えるスタジオはありますか？', answer: 'zen place青葉台とアーバンクラシックは男性も通えます。Rintosull・ピラティスミラーは女性専用です。' },
   { question: '短時間で効果的なスタジオは？', answer: 'アーバンクラシックは30分のサーキット形式。ピラティスミラーも30分レッスン。忙しい方でも無理なく通えます。' },
   { question: 'ヨガとピラティスの両方やりたい場合は？', answer: 'Rintosullはプレミアムフリーフルタイム（18,800円）でLAVA等系列のヨガスタジオも全国で利用可能です。' },
   { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。' },
@@ -121,7 +107,7 @@ export default function AobadaiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス青葉台おすすめ5選！<br className="hidden md:block" />
+              【2026最新】ピラティス青葉台おすすめ4選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
             </h1>
           </div>
@@ -145,7 +131,7 @@ export default function AobadaiPage() {
             <p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">「青葉台で人気のピラティススタジオを知りたい」</p>
             <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
-            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、青葉台エリアでおすすめのピラティススタジオ5選をまとめました。</p>
+            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、青葉台エリアでおすすめのピラティススタジオ4選をまとめました。</p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
               <ul className="space-y-2 text-warm-700">
@@ -165,7 +151,7 @@ export default function AobadaiPage() {
 
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">青葉台のおすすめピラティススタジオ5選</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">青葉台のおすすめピラティススタジオ4選</h2>
             <div className="space-y-8">{[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div>
           </div>
         </section>
@@ -199,7 +185,7 @@ export default function AobadaiPage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">女性専用と男女共用を確認</h3>
-                <p className="text-warm-600 leading-relaxed">Rintosull・ピラティスミラー・the SILKは女性専用。zen placeとアーバンクラシックは男性も通えます。男性の方は事前に確認を。</p>
+                <p className="text-warm-600 leading-relaxed">Rintosull・ピラティスミラーは女性専用。zen placeとアーバンクラシックは男性も通えます。男性の方は事前に確認を。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件を確認</h3>
@@ -207,7 +193,7 @@ export default function AobadaiPage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">レッスン形式の違いを理解する</h3>
-                <p className="text-warm-600 leading-relaxed">アーバンクラシックはサーキット形式（30分・予約不要）、ピラティスミラーは30分少人数制、the SILKは音楽に合わせたグループ。自分に合ったスタイルを選びましょう。</p>
+                <p className="text-warm-600 leading-relaxed">アーバンクラシックはサーキット形式（30分・予約不要）、ピラティスミラーは30分少人数制。自分に合ったスタイルを選びましょう。</p>
               </div>
             </div>
           </div>
@@ -232,7 +218,6 @@ export default function AobadaiPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>：the SILKは無料貸出あり。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。</span></li>
                   </ul>
                 </div>
@@ -260,7 +245,6 @@ export default function AobadaiPage() {
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">女性だけの安心空間。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
                   <li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li>
                 </ul>
               </div>
@@ -310,7 +294,6 @@ export default function AobadaiPage() {
                 <p className="text-sm text-warm-600 mb-4">充実したレッスン内容。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスミラー（11,000円/月6回）</li>
-                  <li>• the SILK（12,980円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -318,7 +301,6 @@ export default function AobadaiPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">通い放題</p>
                 <p className="text-sm text-warm-600 mb-4">毎日通いたい方。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• the SILK Full（20,680円）</li>
                   <li>• Rintosull プレミアム（18,800円）</li>
                 </ul>
               </div>
@@ -332,7 +314,7 @@ export default function AobadaiPage() {
             <div className="space-y-8">
               <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span><h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3></div><p className="text-warm-600 leading-relaxed">ダイエット、姿勢改善、体幹強化など目的によって最適なスタジオは変わります。</p></div>
               <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">予算を決める</h3></div><p className="text-warm-600 leading-relaxed">青葉台の料金相場はグループ月4回で8,800円〜15,070円。通い放題は9,680円〜。</p></div>
-              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">the SILK・Rintosullは無料体験。zen placeは1,000円で体験可能。まずは2-3スタジオ比較がおすすめ。</p></div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">Rintosullは無料体験。zen placeは1,000円で体験可能。まずは2-3スタジオ比較がおすすめ。</p></div>
               <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div><p className="text-warm-600 leading-relaxed">青葉台は東急田園都市線の利便性が高く、全スタジオ駅から徒歩5分圏内です。</p></div>
             </div>
           </div>
