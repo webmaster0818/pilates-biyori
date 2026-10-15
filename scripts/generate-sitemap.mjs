@@ -156,10 +156,97 @@ function listBrands() {
   return [...src.matchAll(/^    slug: '([a-z0-9-]+)',$/gm)].map((m) => m[1])
 }
 
+// ---- エリアページの lastmod = 表示内容が実際に変わった最後のコミット日 -----------------
+// 2026-10-15: 以前は tier1 だけ git 日付（しかも area-studios.ts 全体＝1エリア直すと全 tier1 が今日）、
+// tier2/3 は固定 2026-06-07 だった（10/14 に店舗を外した朝霞・海老名・志木・四ツ谷も 6/7 のまま）。
+// 全エリアで「そのページの生成元」＝ app/area/<slug>/page.tsx と、ページが読む
+// area-studios.ts の該当エリアのブロックだけを見る。さらに、変更行から URL と日付表記を消して
+// 比べ、差が残らないコミット（「更新日」や title の月だけの一括更新・計測リンク差替・ドメイン置換）は数えない。
+// 共通コンポーネント（StudioCard 等）の変更は全ページ一律になるので数えない。
+const GIT_MAXBUF = 512 * 1024 * 1024
+const normLine = (s) => {
+  const n = s
+    // title/h1 の鮮度ラベル（【2026最新】【2026年7月最新】等）の付け替えは中身の変化ではない
+    .replace(/【[^】]*最新[^】]*】/g, '')
+    .replace(/https?:\/\/[^\s'"`)<>]+/g, 'URL')
+    .replace(/href=\{?["'`][^"'`]*["'`]\}?/g, 'href') // リンク先だけの変更（末尾スラッシュ統一等）
+    .replace(/\d{4}年\d{1,2}月(\d{1,2}日)?/g, 'DATE')
+    .replace(/\d{4}[-/]\d{1,2}[-/]\d{1,2}/g, 'DATE')
+    .replace(/\s+/g, ' ')
+    .trim()
+  // リンク先だけの行（officialUrl を足す・外す）は表示に出ない（ボタンは officialUrl が無くても出る）
+  if (/^"?(officialUrl|mapUrl|ctaUrl)"?: ?['"]URL['"],?$/.test(n)) return ''
+  return n
+}
+// git log -p（または -L）の出力から、表示に効く差分があった最新コミットの日付を返す
+function lastSubstantiveDate(gitArgs) {
+  let out = ''
+  try {
+    out = execFileSync('git', ['log', '--first-parent', '--diff-merges=first-parent', '--no-ext-diff', '--format=%x00C %cs', ...gitArgs], { cwd: ROOT, encoding: 'utf8', maxBuffer: GIT_MAXBUF })
+  } catch { return '' }
+  for (const chunk of out.split('\0C ').slice(1)) {
+    const date = chunk.slice(0, 10)
+    const minus = new Map()
+    const plus = []
+    let inHunk = false
+    for (const l of chunk.split('\n')) {
+      if (l.startsWith('diff --git')) { inHunk = false; continue }
+      if (l.startsWith('@@')) { inHunk = true; continue }
+      if (!inHunk) continue
+      if (l[0] !== '+' && l[0] !== '-') continue
+      const n = normLine(l.slice(1))
+      if (!n) continue
+      if (l[0] === '-') minus.set(n, (minus.get(n) || 0) + 1)
+      else plus.push(n)
+    }
+    let substantive = false
+    for (const n of plus) {
+      const c = minus.get(n) || 0
+      if (c > 0) minus.set(n, c - 1)
+      else { substantive = true; break }
+    }
+    if (!substantive) for (const c of minus.values()) if (c > 0) { substantive = true; break }
+    if (substantive) return date
+  }
+  return ''
+}
+const isDirty = (p) => execFileSync('git', ['status', '--porcelain', '--', p], { cwd: ROOT, encoding: 'utf8' }).trim() !== ''
+
+const AREA_DATA = 'data/area-studios.ts'
+const AREA_DATA_LINES = fs.readFileSync(path.join(ROOT, AREA_DATA), 'utf-8').split('\n')
+const AREA_DATA_DIRTY = isDirty(AREA_DATA)
+const areaBlockCache = new Map()
+function areaBlockDate(key) {
+  if (areaBlockCache.has(key)) return areaBlockCache.get(key)
+  let d = ''
+  const s = AREA_DATA_LINES.findIndex((l) => l === `  '${key}': {` || l === `  ${key}: {`)
+  if (s >= 0) {
+    let e = s + 1
+    while (e < AREA_DATA_LINES.length - 1 && !/^  \},?$/.test(AREA_DATA_LINES[e])) e++
+    // 未コミットのデータはどのブロックか切り分けない＝ビルド前にコミットすること
+    d = AREA_DATA_DIRTY ? TODAY : lastSubstantiveDate(['-L', `${s + 1},${e + 1}:${AREA_DATA}`])
+  }
+  areaBlockCache.set(key, d)
+  return d
+}
+const AREA_LASTMOD_REPORT = process.env.SITEMAP_REPORT ? [] : null
+function areaContentDate(slug) {
+  const page = `app/area/${slug}/page.tsx`
+  if (!fs.existsSync(path.join(ROOT, page))) return LASTMOD.t3
+  const pageDate = isDirty(page) ? TODAY : lastSubstantiveDate(['-p', '--', page])
+  const src = fs.readFileSync(path.join(ROOT, page), 'utf-8')
+  const keys = [...new Set([...src.matchAll(/areaStudios\[['"]([a-z0-9-]+)['"]\]/g)].map((m) => m[1]))]
+  const dataDate = maxDate('', ...keys.map(areaBlockDate)) || ''
+  const d = maxDate(pageDate, dataDate) || LASTMOD.t3
+  if (AREA_LASTMOD_REPORT) AREA_LASTMOD_REPORT.push([slug, d, pageDate, dataDate])
+  return d
+}
+
 function tierForArea(slug) {
-  if (TIER1_CITIES.has(slug)) return { priority: '0.9', changefreq: 'weekly', lastmod: gitDate(`app/area/${slug}`, 'data/area-studios.ts') }
-  if (TIER2_AREAS.has(slug)) return { priority: '0.7', changefreq: 'weekly', lastmod: LASTMOD.t2 }
-  return { priority: '0.5', changefreq: 'monthly', lastmod: LASTMOD.t3 }
+  const lastmod = areaContentDate(slug)
+  if (TIER1_CITIES.has(slug)) return { priority: '0.9', changefreq: 'weekly', lastmod }
+  if (TIER2_AREAS.has(slug)) return { priority: '0.7', changefreq: 'weekly', lastmod }
+  return { priority: '0.5', changefreq: 'monthly', lastmod }
 }
 
 // ---- emit ---------------------------------------------------------------------
@@ -223,4 +310,7 @@ fs.writeFileSync(OUT, xml)
 const totalUrls = (xml.match(/<url>/g) || []).length
 console.log(`✓ Wrote ${OUT}`)
 console.log(`  ${totalUrls} URLs`)
+if (AREA_LASTMOD_REPORT) {
+  fs.writeFileSync(process.env.SITEMAP_REPORT, AREA_LASTMOD_REPORT.map((r) => r.join('\t')).join('\n') + '\n')
+}
 console.log(`  Top: 1, Static: ${STATIC_PAGES.length - 1}, Areas: ${listAreas().length}, Articles: ${listArticles().length}`)
