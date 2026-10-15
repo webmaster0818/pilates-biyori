@@ -862,3 +862,10 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
   - ⚠️ 公式一覧に無い掲載: **二子玉川・小倉・札幌・日吉・自由が丘・京橋・長野・富山・豊橋・鹿児島・渋谷・梅田・心斎橋・なんば・上野・立川・早稲田・新橋/六本木/駒沢/経堂/下北沢（近隣）** 等（Google 口コミ要約がある二子玉川・小倉・札幌も公式 /studio/ に無い＝閉店か非掲載）。料金だけ汎用表記にした＝**掲載継続の要否は未判断**
   - ⚠️ 20ページ（abeno・hachioji・kamakura・naha 等）は CP の掲載カードが無いのに予算別リストに CP が出ている（テンプレ由来）。料金は幅表記にしたが、リスト自体の要否は未判断
   - Indexing は本日枠切れ → `~/.openclaw/workspace/growth/indexing-pending-biyori-20261015.txt`（明日再送）
+
+## 2026-10-15 朝ルーチン: sitemap lastmod を全エリアで「表示内容が変わった日」に
+- `scripts/generate-sitemap.mjs` の `areaContentDate()`: 全369エリアで `app/area/<slug>/page.tsx` ＋ページが読む `area-studios.ts` の該当ブロック（`git log -L`）の、表示に効く変更があった最新コミット日。`--first-parent --diff-merges=first-parent`＝main に入った日（wip マージは マージ日）
+- 数えない変更: 変更行から URL・href・日付表記・【…最新】ラベルを消して差が残らないもの（「更新日 @」の一括更新・title の月・計測リンク差替・officialUrl の追加/削除・末尾スラッシュ統一）。共通コンポーネントの変更も数えない
+- 結果（エリア369）: 旧＝6/7 固定356・10/14 13 → 新＝7/3 58・7/15 2・8/17 30・9/4 2・9/11 19・9/15 9・9/25 6・10/8 1・10/9 90・10/11 5・10/12 22・10/14 125。朝霞・海老名・志木・四ツ谷＝10/14。TODAY のままなのは / ・/area/・/articles/ の3つだけ
+- `SITEMAP_REPORT=/tmp/x.tsv node scripts/generate-sitemap.mjs` でエリア別（slug・lastmod・page日・data日）を出せる。**ビルド前にコミット**（未コミットの area-studios.ts は全参照エリアが今日になる）
+- source 21fbade0／deploy 1e7694fdaa・precheck ✅ 588頁・本番 sitemap で4エリア 10/14 確認・GSC sitemap 再送信（sc-domain:biyori-pilates.com のみ）
