@@ -1,6 +1,6 @@
 ---
 title: "オンラインピラティスおすすめ9選【2026年10月】全サービス公式確認の料金・体験・解約条件を比較"
-description: "オンラインピラティスが受けられる実在サービス9選を、全て公式サイトで確認のうえ比較。SOELU・LEAN BODY・torcia・yoggy air・zen place・UCHIYOGA+・PILATES BODY STUDIO・24/7 Online Fitness・ふたつきの料金（コース別）・無料体験・解約条件・ライブ/ビデオ形式を一覧表で。サービス終了情報も正直に掲載。"
+description: "オンラインピラティスの実在サービス9選を全て公式サイトで確認して比較。SOELU・LEAN BODY・zen place・PILATES BODY STUDIO・24/7 Online Fitness・ふたつき等の料金（コース別）・無料体験・解約条件・ライブ/ビデオ形式を一覧表で。"
 slug: "pilates-online"
 category: "studios"
 tags:
