@@ -834,6 +834,7 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 
 ### 2026-10-14 T-ÉLAN 下北沢店 掲載依頼（フォーム・公式 t3salon.jp）
 - 相互リンク依頼の返信メールを MediaXAI 承認後に送信（t3pilates2024@gmail.com・Gmail thread 1a139b1c8ccfde07）。店舗写真1〜2枚の提供も依頼。掲載は先方の承認＋情報回答待ち。対象ページ /area/shimokitazawa/（12社比較・T-ÉLAN 未掲載）
+- 10/15 先方が相互リンク了承＋店舗情報・写真1枚を返信 → MediaXAI「掲載対応すすめて」。公式 t3salon.jp と全項目照合（一致）。/area/shimokitazawa/ にカード追加（11→12選・写真 t-elan-shimokitazawa.webp・年齢層は公式FAQ出典で ageRangeVerified）。src 1b42ea3c/6dfd3435・deploy 0ce56dad08/e522f3142e。本番確認済み。定休日は公式に記載なし→返信で確認依頼。掲載完了の返信は承認待ち
 
 ### 2026-10-14 公式に存在しない4店を外す（10/13 既定案の実行）
 - zen place 朝霞台・海老名・志木／STUDIO IVY 四谷三丁目店を削除。wip/remove-unverified-stores-1013（20575e76）を main にマージ（376b8dc4・衝突は felmat 差替後の削除対象 officialUrl のみ）→ sitemap 04b9f2c0 → deploy 8781e94909
