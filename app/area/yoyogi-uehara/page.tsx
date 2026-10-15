@@ -17,8 +17,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/yoyogi-uehara/' },
-  title: '【2026年10月最新】代々木上原のピラティススタジオおすすめ12選｜無料体験・料金で比較',
-  description: '代々木上原のピラティススタジオ12社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
+  title: '【2026年10月最新】代々木上原のピラティススタジオおすすめ11選｜無料体験・料金で比較',
+  description: '代々木上原のピラティススタジオ11社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
   keywords: 'ピラティス,代々木上原,東京,渋谷区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,代々木公園,代々木八幡,下北沢',
 }
 
@@ -193,21 +193,10 @@ const studios = [
     image: '/images/studios/the-silk.webp',
     price: '月4回 15,070円〜',
     trial: '体験レッスン あり',
-    features: ['女性専用', 'マシンピラティス', '渋谷駅徒歩5分', '音楽×ピラティス'],
-    description: '女性専用のマシンピラティススタジオ。音楽に合わせてリフォーマーを使ったグループレッスンが特徴。渋谷駅から徒歩5分で、代々木上原から千代田線で明治神宮前経由のアクセスも良好。おしゃれな空間でモチベーション高くトレーニングできます。',
-    access: '各線「渋谷駅」徒歩5分（代々木上原から千代田線で約10分）',
-    address: '東京都渋谷区宇田川町36-6 ワールド宇田川ビル5F',
-  },
-  {
-    name: 'BDC PILATES 代々木公園スタジオ',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590',
-    image: '/images/studios/bdc-pilates.webp',
-    price: '1回 3,850円〜',
-    trial: '体験レッスン 3,850円',
-    features: ['マシンピラティス', 'グループ&プライベート', '代々木公園駅徒歩3分', 'バレエ要素'],
-    description: 'BDC（ブロードウェイダンスセンター）が運営するマシンピラティス専門スタジオ。代々木公園駅から徒歩3分。バレエの要素を取り入れた独自メソッドで、美しいボディラインを目指せます。代々木上原から代々木公園駅は千代田線で1駅の好アクセス。',
-    access: '東京メトロ千代田線「代々木公園駅」徒歩3分（代々木上原から1駅）',
-    address: '東京都渋谷区富ヶ谷1-6-9 荒木ビル4F',
+    features: ['女性専用', 'マシンピラティス', '渋谷駅徒歩2分', '音楽×ピラティス'],
+    description: '女性専用のマシンピラティススタジオ。音楽に合わせてリフォーマーを使ったグループレッスンが特徴。JR渋谷駅から徒歩2分で、代々木上原から千代田線で明治神宮前経由のアクセスも良好。おしゃれな空間でモチベーション高くトレーニングできます。',
+    access: 'JR「渋谷駅」徒歩2分（公式表記）',
+    address: '東京都渋谷区神南1丁目11-1 渋谷市野ビル 6階',
   },
 ]
 
@@ -279,7 +268,7 @@ export default function YoyogiUeharaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス代々木上原おすすめ12選！<br className="hidden md:block" />
+              ピラティス代々木上原おすすめ11選！<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！
             </h1>
           </div>
@@ -324,7 +313,7 @@ export default function YoyogiUeharaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、代々木上原エリアでおすすめのピラティススタジオ12選をまとめました。代々木上原駅周辺はもちろん、代々木公園・代々木八幡・下北沢など近隣エリアの人気スタジオもご紹介します。
+              そこでこの記事では、代々木上原エリアでおすすめのピラティススタジオ11選をまとめました。代々木上原駅周辺はもちろん、代々木公園・代々木八幡・下北沢など近隣エリアの人気スタジオもご紹介します。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -368,7 +357,7 @@ export default function YoyogiUeharaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              代々木上原のおすすめピラティススタジオ12選
+              代々木上原のおすすめピラティススタジオ11選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -531,7 +520,6 @@ export default function YoyogiUeharaPage() {
                   <li className="text-warm-700">• URBAN CLASSIC PILATES（月額7,800円〜）</li>
                   <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
                   <li className="text-warm-700">• studio GOD（チケット制・入会金なし）</li>
-                  <li className="text-warm-700">• BDC PILATES（1回 3,850円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -574,7 +562,6 @@ export default function YoyogiUeharaPage() {
                 <p className="text-sm text-warm-600 mb-3">
                   千代田線で1駅。徒歩でも約10分。代々木公園の緑豊かな環境が魅力のエリア。
                 </p>
-                <p className="text-sm text-warm-700 font-medium">• BDC PILATES 代々木公園スタジオ</p>
               </div>
               <div className="bg-white border border-warm-200 rounded-lg p-6">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">下北沢</h3>
@@ -633,7 +620,6 @@ export default function YoyogiUeharaPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• URBAN CLASSIC PILATES（月額7,800円〜）</li>
                   <li>• studio GOD（チケット制）</li>
-                  <li>• BDC PILATES（1回 3,850円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">

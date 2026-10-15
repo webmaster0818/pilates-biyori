@@ -239,38 +239,6 @@ const studios = [
     },
   },
   {
-    name: 'BDC PILATES 新宿（近隣）',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590',
-    image: '/images/studios/bdc-pilates.webp',
-    price: '月4回 14,300円〜',
-    trial: '体験レッスンあり',
-    features: ['ダンサー御用達', '高品質指導', 'リフォーマー', '本格派'],
-    description: 'ブロードウェイダンスセンター（BDC）が運営するピラティス専門スタジオ。ダンサー御用達の本格的なリフォーマーピラティスを提供。インストラクターのレベルが高く、身体の使い方を細かく指導してくれるのが特徴。ダンサーだけでなく一般の方にも広く対応しています。',
-    access: '新宿エリア近隣',
-    address: '東京都新宿区（新宿近隣）',
-    popularPlan: {
-      name: 'リフォーマーグループ（月4回）',
-      description: 'ダンサー品質の本格的なリフォーマーグループレッスン。少人数制で丁寧な指導。',
-      price: '月4回 14,300円（税込）〜',
-    },
-    options: [
-      'リフォーマーグループ（月4回 14,300円〜）',
-      'プライベートレッスン',
-      'マットグループレッスン',
-      '回数券プランあり',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性85% / 男性15%',
-      purpose: ['身体能力向上', 'ダンスパフォーマンス', '姿勢改善', 'ボディメイク'],
-    },
-    basicInfo: {
-      hours: '平日 10:00〜21:00 / 土日祝 9:00〜18:00',
-      closed: '不定休',
-      facilities: ['ロッカー', 'シャワー', 'パウダールーム'],
-    },
-  },
-  {
     name: 'NATURAglam 新宿（近隣）',
     image: '/images/studios/naturaglam.webp',
     price: 'リーズナブルな料金設定',

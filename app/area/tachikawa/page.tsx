@@ -95,16 +95,6 @@ const studios = [
     access: '立川駅北口から徒歩3分',
   },
   {
-    name: 'BDC PILATES 立川',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590',
-    image: '/images/studios/bdc-pilates.webp',
-    price: '1回 3,850円〜',
-    trial: '体験レッスン 2,200円',
-    features: ['ダンサー御用達', 'グループレッスン', '立川駅近', '本格的'],
-    description: 'ダンサー御用達の本格的なピラティススタジオ。立川駅から徒歩5分。ダンサーやアスリートも通う質の高いレッスンが特徴。身体の使い方を根本から学べる本格的なプログラムで、美しい姿勢と柔軟な身体を手に入れられます。',
-    access: '立川駅から徒歩5分',
-  },
-  {
     name: 'the SILK 立川店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',

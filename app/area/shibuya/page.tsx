@@ -133,20 +133,6 @@ const studios = [
     basicInfo: { hours: 'お問い合わせください', closed: '不定休', facilities: ['パーソナルスペース', 'リフォーマーマシン', 'ロッカー', '更衣室'] },
   },
   {
-    name: 'BDC PILATES 渋谷（近隣）',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590',
-    image: '/images/studios/bdc-pilates.webp', reviewCount: 233,
-    price: 'お問い合わせ', trial: '体験レッスンあり',
-    features: ['ダンサー御用達', '高品質指導', '渋谷近隣', '本格派'],
-    description: 'ダンサー御用達の本格ピラティススタジオ。渋谷近隣エリアに位置し、プロのダンサーやパフォーマーも通う高品質な指導が特徴。ピラティスの本質を追求したい方におすすめ。',
-    access: '渋谷近隣エリア',
-    address: '東京都渋谷区（渋谷近隣）',
-    popularPlan: { name: 'レギュラープラン', description: 'ダンサー御用達の本格ピラティス。', price: 'お問い合わせ' },
-    options: ['レギュラープラン', '回数券', 'プライベートレッスン', '体験レッスン'],
-    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性70% / 男性30%', purpose: ['パフォーマンス向上', '体幹強化', '柔軟性向上', '姿勢改善'] },
-    basicInfo: { hours: 'お問い合わせください', closed: '不定休', facilities: ['スタジオ', 'ピラティス器具', 'ロッカー', '更衣室'] },
-  },
-  {
     name: 'NATURAglam 渋谷（近隣）',
     image: '/images/studios/naturaglam.webp', reviewCount: 60, /* ※GoogleMaps未確認（全店舗評価4.4） */
     price: 'お問い合わせ', trial: '体験レッスンあり',

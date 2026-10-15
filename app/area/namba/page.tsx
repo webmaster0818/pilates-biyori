@@ -63,16 +63,6 @@ const studios = [
     access: 'なんば駅から徒歩3分',
   },
   {
-    name: 'BDC PILATES なんば',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590',
-    image: '/images/studios/bdc-pilates.webp',
-    price: '1回 3,850円〜',
-    trial: '体験レッスン 2,200円',
-    features: ['ダンサー御用達', 'グループレッスン', 'なんば駅近', '本格的'],
-    description: 'ダンサー御用達の本格的なピラティススタジオ。なんば駅から徒歩5分。ダンサーやアスリートも通う質の高いレッスンが特徴。身体の使い方を根本から学べる本格的なプログラムで、美しい姿勢と柔軟な身体を手に入れられます。',
-    access: 'なんば駅から徒歩5分',
-  },
-  {
     name: 'Dr.ピラティス なんば店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11979O.1.Z164554L.U1357808',
     image: '/images/studios/dr-pilates.webp',

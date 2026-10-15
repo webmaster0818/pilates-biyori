@@ -85,38 +85,6 @@ const studios = [
     },
   },
   {
-    name: 'BDC PILATES 六本木',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590',
-    image: '/images/studios/bdc-pilates.webp',
-    price: 'グループ&プライベートあり',
-    trial: '体験レッスンあり',
-    features: ['ダンサー御用達', 'グループ&プライベート', '六本木エリア', '高品質指導'],
-    description: 'プロダンサー養成校「ブロードウェイダンスセンター」がプロデュースするピラティススタジオ。ダンサー御用達の質の高いレッスンが特徴。グループレッスンとプライベートレッスンの両方に対応し、体の使い方を徹底的に学べます。六本木エリアで本格的なピラティスを受けたい方におすすめ。',
-    access: '六本木エリア',
-    address: '東京都港区六本木（六本木エリア）',
-    popularPlan: {
-      name: 'グループレッスン',
-      description: 'プロダンサー養成校の知見を活かしたグループマシンピラティス。質の高いインストラクターによる指導。',
-      price: 'お問い合わせください',
-    },
-    options: [
-      'グループレッスン',
-      'プライベートレッスン',
-      '体験レッスン',
-      'ドロップイン（1回券）あり',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性85% / 男性15%',
-      purpose: ['ボディメイク', '姿勢改善', 'ダンスパフォーマンス向上', '体幹強化'],
-    },
-    basicInfo: {
-      hours: 'お問い合わせください',
-      closed: '不定休',
-      facilities: ['マシン完備', 'ロッカー', 'シャワー'],
-    },
-  },
-  {
     name: 'スタジオMiiA 六本木',
     image: '/images/studios/studio-miia-roppongi.webp',
     price: 'プライベート専門（料金はお問い合わせ）',
