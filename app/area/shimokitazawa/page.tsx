@@ -181,13 +181,13 @@ const studios = [
       '初回は最低3ヶ月の継続が必要',
     ],
     userProfile: {
-      ageRange: '20〜30代が約6割、40代以降が約4割',
+      ageRange: '20〜30代が約6割、40代以降が約4割（公式FAQ）',
+      ageRangeVerified: true,
       genderRatio: '女性が多い（男性も利用可）',
       purpose: ['姿勢改善', '肩こり・腰痛のケア', 'ボディライン引き締め', '柔軟性アップ'],
     },
     basicInfo: {
       hours: '8:00〜21:00',
-      closed: '公式サイトに記載なし',
       facilities: ['完全個室', 'リフォーマー', 'キャデラック', '更衣室'],
     },
   },
