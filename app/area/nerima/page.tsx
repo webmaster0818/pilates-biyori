@@ -560,8 +560,7 @@ export default function NerimaPage() {
                   マシン専門スタジオ。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスK（13,420円〜）</li>
-                  <li>• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
+                  <li>• このページの掲載スタジオでは該当なし（各スタジオの料金は上の店舗カードを参照）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -571,8 +570,7 @@ export default function NerimaPage() {
                   毎日通いたい方。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスK（16,170円/通い放題）</li>
-                  <li>• CLUB PILATES（通い放題 17,490〜40,590円・店舗により異なる）</li>
+                  <li>• このページの掲載スタジオでは該当なし（各スタジオの料金は上の店舗カードを参照）</li>
                 </ul>
               </div>
             </div>

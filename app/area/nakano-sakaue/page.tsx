@@ -533,7 +533,6 @@ export default function NakanoSakauePage() {
                   マシン専門スタジオ。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスK（13,420円〜）</li>
                   <li>• CLUB PILATES（月4回 13,090円）</li>
                 </ul>
               </div>
@@ -544,7 +543,6 @@ export default function NakanoSakauePage() {
                   毎日通いたい方。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスK（16,170円/通い放題）</li>
                   <li>• CLUB PILATES（通い放題 37,290円）</li>
                 </ul>
               </div>

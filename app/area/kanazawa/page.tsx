@@ -564,8 +564,9 @@ export default function KanazawaPage() {
                   マシン専門スタジオ。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスK（13,420円〜）</li>
-                  <li>• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
+                  <li>• LYFE 金沢（月2回 13,200円〜）</li>
+                  <li>• 24/7ピラティス 金沢店（月2回 14,500円〜）</li>
+                  <li>• ピラティススタジオDEP 金沢店（月額 14,800円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -575,8 +576,7 @@ export default function KanazawaPage() {
                   毎日通いたい方。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスK（16,170円/通い放題）</li>
-                  <li>• CLUB PILATES（通い放題 17,490〜40,590円・店舗により異なる）</li>
+                  <li>• 24/7ピラティス 金沢店（月4回 27,000円〜）</li>
                 </ul>
               </div>
             </div>
