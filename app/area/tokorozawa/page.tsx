@@ -499,7 +499,6 @@ export default function TokorozawaPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（13,420円〜）</li>
                   <li>• CLUB PILATES（月4回 11,990円）</li>
-                  <li>• BDC PILATES（14,520円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">

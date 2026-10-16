@@ -1393,7 +1393,7 @@ export const areaStudios: Record<string, AreaData> = {
   // ---------------------------------------------------------------
   // 武蔵浦和（埼玉県・関東）
   // ---------------------------------------------------------------
-  'musashiurawa': {
+  'musashi-urawa': {
     name: '武蔵浦和',
     region: '関東',
     description: '武蔵浦和駅周辺のピラティススタジオを掲載。JR埼京線・武蔵野線エリア。',
@@ -1599,7 +1599,7 @@ export const areaStudios: Record<string, AreaData> = {
   // ---------------------------------------------------------------
   // 東大阪（大阪府・近畿）
   // ---------------------------------------------------------------
-  'higashiosaka': {
+  'higashi-osaka': {
     name: '東大阪',
     region: '近畿',
     description: '東大阪エリアのピラティススタジオを掲載。布施駅・河内小阪駅周辺。',
@@ -2904,7 +2904,7 @@ export const areaStudios: Record<string, AreaData> = {
     ],
   },
 
-  'higashihiroshima': {
+  'higashi-hiroshima': {
     name: '東広島',
     region: '中国・四国',
     description: '広島県中部・東広島エリアのピラティススタジオ。西条駅周辺の専門店と理学療法士監修系が並ぶ。',

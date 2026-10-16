@@ -5608,6 +5608,17 @@
       "areaName": "和光市"
     },
     {
+      "name": "Rintosull 武蔵浦和店",
+      "price": "フォー・フルタイム ¥8,800/月〜",
+      "trial": "無料体験会あり",
+      "rating": 4.5,
+      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683",
+      "address": "埼玉県さいたま市南区白幡5-18-19 MID KUDOS TERRACE 2F",
+      "access": "JR「武蔵浦和駅」東口より徒歩2分",
+      "areaSlug": "musashi-urawa",
+      "areaName": "武蔵浦和"
+    },
+    {
       "name": "Rintosull 本川越店",
       "price": "4・フルタイム ¥8,800/月〜",
       "trial": "無料体験会（リフォーマー体験）",
@@ -5650,6 +5661,17 @@
       "access": "阪急宝塚線「豊中駅」北改札出口より徒歩1分",
       "areaSlug": "toyonaka",
       "areaName": "豊中"
+    },
+    {
+      "name": "Rintosull 布施店",
+      "price": "4・フルタイム ¥8,800/月〜",
+      "trial": "体験会0円（約30分）",
+      "rating": 4.5,
+      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683",
+      "address": "大阪府東大阪市長堂2-1-23 布施FUKU BLD 6F",
+      "access": "近鉄大阪線・奈良線「布施駅」東北出口より徒歩2分",
+      "areaSlug": "higashi-osaka",
+      "areaName": "東大阪"
     },
     {
       "name": "Rintosull 近鉄八尾店",

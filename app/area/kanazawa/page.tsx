@@ -551,8 +551,9 @@ export default function KanazawaPage() {
                   グループレッスン中心。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place（10,450円〜/月4回）</li>
-                  <li>• the SILK（12,980円〜/月3回）</li>
+                  <li>• ウェルネス・ラボ 金沢駅西（月額 8,778円〜）</li>
+                  <li>• AND STUDIO 金沢（月額 8,680円〜）</li>
+                  <li>• ピラティス教室Hirameき（月4回 6,000円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -565,7 +566,6 @@ export default function KanazawaPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（13,420円〜）</li>
                   <li>• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
-                  <li>• BDC PILATES（14,520円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">

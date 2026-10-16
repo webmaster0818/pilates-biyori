@@ -41,7 +41,7 @@ const faqs = [
 ]
 
 export default function Page() {
-  const area = areaStudios['musashiurawa']
+  const area = areaStudios['musashi-urawa']
   if (!area) return null
   const studios = area.studios
 
