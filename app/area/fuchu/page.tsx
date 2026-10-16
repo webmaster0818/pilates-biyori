@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/fuchu/' },
-  title: '【2026年10月最新】府中のピラティス｜初心者OK・無料体験で選ぶ料金比較',
-  description: '府中エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  title: '【2026年10月最新】府中のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  description: '府中エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,府中,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -26,13 +26,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
-    features: ['府中駅徒歩4分', '男性OK', '全国相互利用', 'マット&マシン'],
-    description: 'ピラティス専門の大手スタジオ。京王線府中駅南口から徒歩4分。マットグループ・マシングループ・プライベートの3タイプ。全国150店舗以上で相互利用可能。リフォーマーを使ったマシングループレッスンも充実。',
+    features: ['府中駅徒歩4分', '男性利用可', '全国他店利用', 'マット&マシン'],
+    description: 'ピラティス専門の大手スタジオです。京王線府中駅南口から徒歩4分です。マットグループ・マシングループ・プライベートの3タイプです。全国150店舗以上で他店利用可能です。リフォーマーを使ったマシングループレッスンも充実しています。',
     access: '京王線「府中駅」南口 徒歩4分',
     address: '東京都府中市宮町2-15-13 第15三ツ木ビル 9F',
     popularPlan: {
       name: 'フリープラン（マットグループ）',
-      description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。',
+      description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。',
       price: '月額 16,940円（税込）',
     },
     options: [
@@ -58,13 +58,13 @@ const studios = [
     image: '/images/studios/club-pilates.webp',
     price: '月4回 13,090円／月8回 24,090円／通い放題 37,290円（公式店舗ページ・税表記なし）',
     trial: '体験レッスン 無料（30分イントロクラス）',
-    features: ['世界最大級', '府中駅徒歩4分', '15種類の器具', '男性OK'],
-    description: '世界最大級のマシンピラティスブランド。府中駅から徒歩4分。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類のマシン・器具を完備。8つのプログラムと4段階のレベル分け。',
+    features: ['世界最大級', '府中駅徒歩4分', '15種類の器具', '男性利用可'],
+    description: '世界最大級のマシンピラティスブランドです。府中駅から徒歩4分です。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類のマシン・器具を完備しています。8つのプログラムと4段階のレベル分けです。',
     access: '京王線「府中駅」徒歩4分',
     address: '東京都府中市府中町（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'グループ月4回プラン',
-      description: '15種類の器具を使った本格グループレッスン。4段階のレベル分けで安心。',
+      description: '15種類の器具を使った本格グループレッスンです。4段階のレベル分けで安心です。',
       price: '月4回 13,090円（税表記なし）',
     },
     options: ['月8回 24,090円', '通い放題 37,290円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
@@ -85,12 +85,12 @@ const studios = [
     price: '月額 6,000円（通い放題）',
     trial: '体験レッスン 1,000円',
     features: ['通い放題6,000円', 'マットピラティス', 'アットホーム', '少人数制'],
-    description: '府中市天神町にあるアットホームなマットピラティス教室。月会費6,000円で通い放題というコスパの良さが魅力。チケット10枚11,000円のプランもあり。年齢問わず参加できる温かい雰囲気のスタジオ。',
+    description: '府中市天神町にあるアットホームなマットピラティス教室です。月会費6,000円で通い放題という割安さが魅力です。チケット10枚11,000円のプランもあります。年齢問わず参加できる温かい雰囲気のスタジオです。',
     access: '京王線「府中駅」より徒歩約15分 / 府中学園通り沿い',
     address: '東京都府中市天神町4-28-39 1F',
     popularPlan: {
       name: '月会費プラン（通い放題）',
-      description: 'マットピラティスグループレッスン通い放題。',
+      description: 'マットピラティスグループレッスン通い放題です。',
       price: '月額 6,000円（税込）',
     },
     options: [
@@ -113,12 +113,12 @@ const studios = [
     price: '月2回 22,000円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', '府中駅徒歩3分', '完全個室', 'パーソナル'],
-    description: '府中駅より徒歩3分の女性専用パーソナルトレーニングジム。マシンピラティスとパーソナルトレーニングを組み合わせた独自プログラム。完全個室・完全予約制で周りを気にせずトレーニングに集中できます。',
+    description: '府中駅より徒歩3分の女性専用パーソナルトレーニングジムです。マシンピラティスとパーソナルトレーニングを組み合わせた独自プログラムです。完全個室・完全予約制で周りを気にせずトレーニングに集中できます。',
     access: '京王線「府中駅」徒歩3分',
     address: '東京都府中市寿町2-2-48 フェリシア府中101',
     popularPlan: {
       name: '月4回コース',
-      description: 'パーソナルトレーニング&マシンピラティス月4回。',
+      description: 'パーソナルトレーニング&マシンピラティス月4回です。',
       price: '月4回 39,600円（税込）',
     },
     options: [
@@ -142,31 +142,31 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！府中エリアのスタジオはほとんどが初心者歓迎。CLUB PILATESは4段階のレベル分け、studio 6senseはアットホームな雰囲気で安心。',
+    answer: '問題ありません。府中エリアのスタジオはほとんどが初心者歓迎です。CLUB PILATESは4段階のレベル分け、studio 6senseはアットホームな雰囲気で安心です。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。府中ではzen placeやCLUB PILATESでマシンレッスンが受けられます。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。府中ではzen placeやCLUB PILATESでマシンレッスンが受けられます。',
   },
   {
     question: '府中のピラティスの料金相場は？',
-    answer: 'グループ月4回で10,450円〜11,990円程度。studio 6senseは月額6,000円通い放題で最もリーズナブル。パーソナルはSTUDIO Uが月2回22,000円〜。',
+    answer: 'グループ月4回で10,450円〜11,990円程度です。studio 6senseは月額6,000円通い放題で最もリーズナブルです。パーソナルはSTUDIO Uが月2回22,000円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。大切なのは継続すること。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。大切なのは継続することです。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。CLUB PILATESは無料イントロクラスあり。zen placeは1,000円で体験可能。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。CLUB PILATESは無料イントロクラスがあります。zen placeは1,000円で体験可能です。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹強化・姿勢改善に特化。ヨガは柔軟性とリラックス重視。zen placeはヨガスタジオも運営しており、両方楽しめます。',
+    answer: 'ピラティスは体幹強化・姿勢改善に特化しています。ヨガは柔軟性とリラックス重視です。zen placeはヨガスタジオも運営しており、両方楽しめます。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
@@ -174,11 +174,11 @@ const faqs = [
   },
   {
     question: '無料で体験できるスタジオは？',
-    answer: 'CLUB PILATESは無料体験あり。zen placeはグループ体験1,000円。studio 6senseも体験1,000円。',
+    answer: 'CLUB PILATESは無料体験があります。zen placeはグループ体験1,000円です。studio 6senseも体験1,000円です。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -199,8 +199,8 @@ export default function FuchuPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス府中おすすめ4選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス府中おすすめ4選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -223,29 +223,11 @@ export default function FuchuPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「府中で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、府中エリアでおすすめのピラティススタジオ4選をまとめました。
+              本ページでは、府中エリアでおすすめのピラティススタジオ4選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -270,7 +252,7 @@ export default function FuchuPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -323,7 +305,7 @@ export default function FuchuPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              府中エリアは都心部と比較してテナント賃料が抑えめのため、同じ内容のレッスンでも料金がリーズナブルな傾向があります。通い放題プランのコスパが特に良いエリアなので、週2回以上通える方は月額制プランが断然おすすめです。近隣の調布エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
+              府中エリアは都心部と比較してテナント賃料が抑えめのため、同じ内容のレッスンでも料金がリーズナブルな傾向があります。通い放題プランの割安感が大きいエリアのため、週2回以上通える方には月額制プランをおすすめします。近隣の調布エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
             </p>
           </div>
         </section>
@@ -338,25 +320,25 @@ export default function FuchuPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">京王線「府中駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  府中エリアのスタジオは府中駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。府中駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  府中エリアのスタジオは府中駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。府中駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">スタジオ数が限られるため早めの予約を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  府中エリアは都心と比べてスタジオの選択肢が限られるため、人気のスタジオ・時間帯は予約が埋まりやすい傾向があります。特に土曜午前は混み合うことが多いので、1週間前には予約を入れておくのがおすすめです。車で通う方は駐車場の有無も確認しておきましょう。
+                  府中エリアは都心と比べてスタジオの選択肢が限られるため、人気のスタジオ・時間帯は予約が埋まりやすい傾向があります。特に土曜午前は混み合うことが多いので、1週間前には予約を入れておくのがおすすめです。車で通う方は駐車場の有無もご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">通い放題プランと回数制プランを比較検討</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  府中エリアでは通い放題プランが都心部より割安に設定されていることが多いです。週2回以上通えるなら通い放題が断然お得ですが、月1〜2回のペースなら回数券やドロップインの方がコスパが良い場合も。自分の通う頻度を想定してプランを選びましょう。初月は回数制で様子を見るのも賢い方法です。
+                  府中エリアでは通い放題プランが都心部より割安に設定されていることが多いです。週2回以上通う場合は通い放題が割安ですが、月1〜2回のペースであれば回数券やドロップインの方が割安な場合もあります。自分の通う頻度を想定してプランをお選びください。初月は回数制で様子を見る方法もあります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  府中エリアだけでなく、近隣の<Link href="/area/chofu/" className="text-warm-700 underline hover:text-warm-900">調布</Link>、<Link href="/area/tachikawa/" className="text-warm-700 underline hover:text-warm-900">立川</Link>、<Link href="/area/kichijoji/" className="text-warm-700 underline hover:text-warm-900">吉祥寺</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  府中エリアだけでなく、近隣の<Link href="/area/chofu/" className="text-warm-700 underline hover:text-warm-900">調布</Link>、<Link href="/area/tachikawa/" className="text-warm-700 underline hover:text-warm-900">立川</Link>、<Link href="/area/kichijoji/" className="text-warm-700 underline hover:text-warm-900">吉祥寺</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -374,25 +356,25 @@ export default function FuchuPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>府中エリアの豆知識：</strong>府中エリアは車で通う方も多いため、駐車場の有無や提携コインパーキングを事前に確認しておきましょう。車なら荷物の心配が少ないので、シャワー後の着替えやヘアドライヤーなども余裕を持って準備できます。
+                  <strong>府中エリアの豆知識：</strong>府中エリアは車で通う方も多いため、駐車場の有無や提携コインパーキングを事前にご確認ください。車なら荷物の心配が少ないので、シャワー後の着替えやヘアドライヤーなども余裕を持って準備できます。
                 </p>
               </div>
             </div>
@@ -410,7 +392,7 @@ export default function FuchuPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額2万円未満で通えるスタジオ（店舗カードの料金）。
+                  月額2万円未満で通えるスタジオです（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• studio 6sense（スタジオシックスセンス）（月額 6,000円（通い放題））</li>
@@ -421,7 +403,7 @@ export default function FuchuPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性だけの安心空間。
+                  女性だけの安心空間です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• PERSONAL TRAINING STUDIO U 府中女性専門店</li>
@@ -430,7 +412,7 @@ export default function FuchuPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  駅から徒歩2分以内。
+                  駅から徒歩2分以内です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• このページの掲載スタジオでは該当なし</li>
@@ -449,15 +431,15 @@ export default function FuchuPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回からスタート。最低2-3ヶ月継続で効果を実感。
+                週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回がおすすめ。3-6ヶ月で目に見える変化。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。
+                週1回のペースで無理なく継続することをおすすめします。
               </p>
             </div>
           </div>
@@ -474,7 +456,7 @@ export default function FuchuPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜13,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月3〜4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。
+                  グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（10,450円〜/月4回）</li>
@@ -485,7 +467,7 @@ export default function FuchuPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜15,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン専門スタジオ。
+                  マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• CLUB PILATES（月4回 13,090円）</li>
@@ -495,7 +477,7 @@ export default function FuchuPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 16,000〜29,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">通い放題</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  毎日通いたい方。
+                  毎日通いたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• CLUB PILATES（通い放題 37,290円）</li>
@@ -527,7 +509,7 @@ export default function FuchuPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  府中の料金相場はグループ月4回で10,450円〜15,070円。入会金やキャンペーンも確認しましょう。
+                  府中の料金相場はグループ月4回で10,450円〜15,070円です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -536,7 +518,7 @@ export default function FuchuPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  体験料金は、zen place pilates 府中スタジオが「グループ体験 1,000円」、CLUB PILATES 府中店が「体験レッスン 無料（30分イントロクラス）」、studio 6sense（スタジオシックスセンス）が「体験レッスン 1,000円」です（店舗カードの記載）。最新の条件は各公式サイトで確認しましょう。
+                  体験料金は、zen place pilates 府中スタジオが「グループ体験 1,000円」、CLUB PILATES 府中店が「体験レッスン 無料（30分イントロクラス）」、studio 6sense（スタジオシックスセンス）が「体験レッスン 1,000円」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -545,7 +527,7 @@ export default function FuchuPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  府中の掲載スタジオでは、PERSONAL TRAINING STUDIO U 府中女性専門店（京王線「府中駅」徒歩3分）、zen place pilates 府中スタジオ（京王線「府中駅」南口 徒歩4分）、CLUB PILATES 府中店（京王線「府中駅」徒歩4分）が駅から近いスタジオです。通う時間帯の経路も確認しておきましょう。
+                  府中の掲載スタジオでは、PERSONAL TRAINING STUDIO U 府中女性専門店（京王線「府中駅」徒歩3分）、zen place pilates 府中スタジオ（京王線「府中駅」南口 徒歩4分）、CLUB PILATES 府中店（京王線「府中駅」徒歩4分）が駅から近いスタジオです。通う時間帯の経路もご確認ください。
                 </p>
               </div>
             </div>
@@ -588,13 +570,13 @@ export default function FuchuPage() {
               今回は府中エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では府中にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、府中にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -603,11 +585,11 @@ export default function FuchuPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,850円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜3,850円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

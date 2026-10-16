@@ -18,7 +18,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/hirakata/' },
   title: '【2026年10月最新】枚方のピラティス6社を比較｜無料体験2社・月額最安11,220円〜',
-  description: '枚方エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  description: '枚方エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,枚方,枚方市,くずは,大阪,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -30,12 +30,12 @@ const studios = [
     price: '月4回 11,220円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'くずはモール内', '京阪樟葉駅直結', '体験無料'],
-    description: '女性専用マシンピラティス専門スタジオ。くずはモール内に位置し、京阪樟葉駅から直結でアクセス抜群。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実。買い物ついでに通える便利さも魅力。',
+    description: '女性専用マシンピラティス専門スタジオです。くずはモール内に位置し、京阪樟葉駅から直結でアクセス抜群です。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実しています。買い物ついでに通える便利さも魅力です。',
     access: '京阪本線「樟葉駅」直結（くずはモール内）',
     address: '大阪府枚方市楠葉花園町 くずはモール内',
     popularPlan: {
       name: 'マンスリー4メンバー（月4回）',
-      description: '女性専用マシンピラティス月4回。部位別プログラムも選べる。',
+      description: '女性専用マシンピラティス月4回です。部位別プログラムも選べます。',
       price: '月4回 11,220円〜（税込）+ 施設維持費 月825円',
     },
     options: [
@@ -62,12 +62,12 @@ const studios = [
     price: '1回 3,025円〜',
     trial: '体験レッスン 3,000円',
     features: ['少人数制（4名以下）', 'マシン＆マット', 'パーソナルあり', '枚方市駅近く'],
-    description: 'パーソナルレッスンとグループレッスンの両方を提供。マシンとマット両方のピラティスが受けられ、4名以下の少人数制クラスで丁寧な指導が特徴。',
+    description: 'パーソナルレッスンとグループレッスンの両方を提供しています。マシンとマット両方のピラティスが受けられ、4名以下の少人数制クラスで丁寧な指導が特徴です。',
     access: '京阪本線「枚方市駅」徒歩圏内',
     address: '大阪府枚方市（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'グループレッスン',
-      description: '4名以下の少人数制。マシンとマットから選べる。',
+      description: '4名以下の少人数制です。マシンとマットから選べます。',
       price: '1回 3,025円〜（税込）',
     },
     options: [
@@ -93,12 +93,12 @@ const studios = [
     price: '月3回 29,700円〜',
     trial: '体験レッスン 12,000円',
     features: ['完全マンツーマン', '理学療法士監修', '高品質指導', 'カスタマイズ'],
-    description: '全国展開の完全マンツーマンマシンピラティススタジオ。理学療法士が監修したプログラムで、実技試験に合格したプロフェッショナルなトレーナーが一人ひとりの体に合わせて指導。',
+    description: '全国展開の完全マンツーマンマシンピラティススタジオです。理学療法士が監修したプログラムで、実技試験に合格したプロフェッショナルなトレーナーが一人ひとりの体に合わせて指導しています。',
     access: '京阪本線「枚方市駅」徒歩圏内',
     address: '大阪府枚方市岡東町14-50 三和ビル503',
     popularPlan: {
       name: 'マンスリー3（月3回）',
-      description: '完全マンツーマンのマシンピラティス。理学療法士監修。',
+      description: '完全マンツーマンのマシンピラティスです。理学療法士監修です。',
       price: '月3回 29,700円（税込）',
     },
     options: [
@@ -123,12 +123,12 @@ const studios = [
     price: '月額制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['枚方市内5店舗', '美容×運動', 'ヨガ併設', 'アットホーム'],
-    description: '枚方市駅・御殿山駅・樟葉駅など市内5店舗で展開するピラティス・ヨガ教室。美容と運動を両立できるプログラムが特徴で、ハーブテントも併設。',
+    description: '枚方市駅・御殿山駅・樟葉駅など市内5店舗で展開するピラティス・ヨガ教室です。美容と運動を両立できるプログラムが特徴で、ハーブテントも併設しています。',
     access: '京阪本線「枚方市駅」すぐ',
     address: '大阪府枚方市岡東町（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'ピラティスレッスン',
-      description: '市内5店舗で受講可能。ヨガも選べる。',
+      description: '市内5店舗で受講可能です。ヨガも選べます。',
       price: '詳細は公式サイトでご確認ください',
     },
     options: [
@@ -155,12 +155,12 @@ const studios = [
     price: '月4回 11,220円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '枚方市駅すぐ', '枚方T-SITE内', '体験無料'],
-    description: '女性専用マシンピラティス専門スタジオ。枚方T-SITE内に位置し、枚方市駅から徒歩すぐ。音楽に合わせた楽しいレッスンとボディメイクに特化したプログラムが魅力。',
+    description: '女性専用マシンピラティス専門スタジオです。枚方T-SITE内に位置し、枚方市駅から徒歩すぐです。音楽に合わせた楽しいレッスンとボディメイクに特化したプログラムが魅力です。',
     access: '京阪本線「枚方市駅」徒歩すぐ（枚方T-SITE内）',
     address: '大阪府枚方市岡東町 枚方T-SITE内',
     popularPlan: {
       name: 'マンスリー4メンバー（月4回）',
-      description: '女性専用マシンピラティス月4回。',
+      description: '女性専用マシンピラティス月4回です。',
       price: '月4回 11,220円〜（税込）+ 施設維持費 月825円',
     },
     options: [
@@ -185,12 +185,12 @@ const studios = [
     price: '回数券制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['JR長尾駅徒歩3分', 'リンパケア併設', 'シルクサスペンション', '少人数制'],
-    description: 'JR長尾駅徒歩3分のピラティス＆リンパケアスタジオ。ピラティスに加えてシルクサスペンションやリンパケアも受けられ、トータルで体を整えられる地域密着型スタジオ。',
+    description: 'JR長尾駅徒歩3分のピラティス＆リンパケアスタジオです。ピラティスに加えてシルクサスペンションやリンパケアも受けられ、トータルで体を整えられる地域密着型スタジオです。',
     access: 'JR学研都市線「長尾駅」徒歩3分',
     address: '大阪府枚方市長尾元町（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'ピラティスレッスン',
-      description: '少人数制のピラティスレッスン。リンパケアも選べる。',
+      description: '少人数制のピラティスレッスンです。リンパケアも選べます。',
       price: '詳細は公式サイトでご確認ください',
     },
     options: [
@@ -215,31 +215,31 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！枚方エリアのスタジオはほとんどが初心者歓迎。ピラティスKは初心者向けクラスが充実、Pilates KASANEは4名以下の少人数制で丁寧に指導してもらえます。',
+    answer: '問題ありません。枚方エリアのスタジオはほとんどが初心者歓迎です。ピラティスKは初心者向けクラスが充実、Pilates KASANEは4名以下の少人数制で丁寧に指導してもらえます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。枚方にはマシン専門のピラティスKが2店舗あります。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。枚方にはマシン専門のピラティスKが2店舗あります。',
   },
   {
     question: '枚方のピラティスの料金相場は？',
-    answer: 'グループ月4回で11,220円程度。パーソナルレッスンは1回9,000円〜12,000円。Pilates KASANEは1回3,025円〜とリーズナブルなグループレッスンもあります。',
+    answer: 'グループ月4回で11,220円程度です。パーソナルレッスンは1回9,000円〜12,000円です。Pilates KASANEは1回3,025円〜とリーズナブルなグループレッスンもあります。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。大切なのは継続すること。月4回プランから始めるのが一般的です。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。大切なのは継続することです。月4回プランから始めるのが一般的です。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。ピラティスKは無料体験あり。Pilates KASANEは体験3,000円。靴下（滑り止め付き推奨）も用意しておくと安心です。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。ピラティスKは無料体験があります。Pilates KASANEは体験3,000円です。靴下（滑り止め付き推奨）も用意しておくと安心です。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹強化・姿勢改善に特化。ヨガは柔軟性とリラックス重視。kiraris枚方ではピラティスとヨガの両方を楽しめます。',
+    answer: 'ピラティスは体幹強化・姿勢改善に特化しています。ヨガは柔軟性とリラックス重視です。kiraris枚方ではピラティスとヨガの両方を楽しめます。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
@@ -247,11 +247,11 @@ const faqs = [
   },
   {
     question: '無料で体験できるスタジオは？',
-    answer: 'ピラティスKは2店舗（くずはモール店・枚方T-SITE店）とも無料体験あり。まずは無料体験から始めるのがおすすめです。',
+    answer: 'ピラティスKは2店舗（くずはモール店・枚方T-SITE店）とも無料体験があります。まずは無料体験から始めるのがおすすめです。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -272,8 +272,8 @@ export default function HirakataPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス枚方おすすめ6選！<br className="hidden md:block" />
-              料金・体験レッスン・マシン対応を比較！
+              ピラティス枚方おすすめ6選<br className="hidden md:block" />
+              料金・体験レッスン・マシン対応を比較
             </h1>
           </div>
         </section>
@@ -298,29 +298,11 @@ export default function HirakataPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「枚方で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、枚方エリアでおすすめのピラティススタジオ6選をまとめました。
+              本ページでは、枚方エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -345,7 +327,7 @@ export default function HirakataPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -377,7 +359,7 @@ export default function HirakataPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  1回あたりの料金が安いスタジオ。
+                  1回あたりの料金が安いスタジオです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Pilates KASANE（1回 3,025円〜）</li>
@@ -387,7 +369,7 @@ export default function HirakataPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性だけの安心空間。
+                  女性だけの安心空間です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK くずはモール店</li>
@@ -397,7 +379,7 @@ export default function HirakataPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  マンツーマンで丁寧に指導。
+                  マンツーマンで丁寧に指導しています。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• luluto（理学療法士監修）</li>
@@ -439,7 +421,7 @@ export default function HirakataPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              枚方エリアは京阪沿線の主要な住宅地で、くずはモールや枚方T-SITEなど大型商業施設内にスタジオが集まっています。大阪市内と比べると料金はやや抑えめで、買い物ついでに通える便利さが特徴。ピラティスKの無料体験から始めて、自分に合ったスタジオを見つけるのがおすすめです。
+              枚方エリアは京阪沿線の主要な住宅地で、くずはモールや枚方T-SITEなど大型商業施設内にスタジオが集まっています。大阪市内と比べると料金はやや抑えめで、買い物ついでに通える便利さが特徴です。ピラティスKの無料体験から始めて、自分に合ったスタジオを見つけるのがおすすめです。
             </p>
           </div>
         </section>
@@ -454,13 +436,13 @@ export default function HirakataPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">京阪本線の駅からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  枚方エリアのスタジオは枚方市駅と樟葉駅の2つの拠点に分かれています。自宅や職場の最寄り駅から通いやすい方を選びましょう。くずはモール内のスタジオは駅直結で雨の日も快適です。
+                  枚方エリアのスタジオは枚方市駅と樟葉駅の2つの拠点に分かれています。自宅や職場の最寄り駅から通いやすい方をお選びください。くずはモール内のスタジオは駅直結で雨の日も快適です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">商業施設内スタジオの駐車場利用ルールを確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  くずはモールや枚方T-SITE内のスタジオは駐車場が利用できますが、時間制限や料金がかかる場合があります。レッスン時間と合わせて駐車場の利用条件を事前に確認しておきましょう。
+                  くずはモールや枚方T-SITE内のスタジオは駐車場が利用できますが、時間制限や料金がかかる場合があります。レッスン時間と合わせて駐車場の利用条件を事前にご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -470,7 +452,7 @@ export default function HirakataPage() {
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
                   枚方エリアだけでなく、京阪沿線の<Link href="/area/takatsuki/" className="text-warm-700 underline hover:text-warm-900">高槻</Link>や<Link href="/area/umeda/" className="text-warm-700 underline hover:text-warm-900">梅田</Link>エリアにもピラティススタジオがあります。通勤経路に合わせて複数エリアを比較すると、より自分に合ったスタジオが見つかります。
                 </p>
@@ -490,25 +472,25 @@ export default function HirakataPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>枚方エリアの豆知識：</strong>枚方は京阪沿線のベッドタウンで、くずはモールや枚方T-SITEなど商業施設内にスタジオが入っていることが多いです。レッスン前後にショッピングやカフェを楽しめるのが枚方ならではの魅力。駐車場完備の施設も多いので、車での通いも便利です。
+                  <strong>枚方エリアの豆知識：</strong>枚方は京阪沿線のベッドタウンで、くずはモールや枚方T-SITEなど商業施設内にスタジオが入っていることが多いです。レッスン前後にショッピングやカフェを楽しめるのが枚方ならではの魅力です。駐車場完備の施設も多いので、車での通いも便利です。
                 </p>
               </div>
             </div>
@@ -537,7 +519,7 @@ export default function HirakataPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  枚方の料金相場はグループ月4回で11,220円程度。Pilates KASANEは1回3,025円〜と回数券で始めやすい。入会金やキャンペーンも確認しましょう。
+                  枚方の料金相場はグループ月4回で11,220円程度です。Pilates KASANEは1回3,025円〜と回数券で始めやすいです。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -546,7 +528,7 @@ export default function HirakataPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ピラティスKは2店舗とも無料体験あり。Pilates KASANEは3,000円で体験可能。まずは気軽に複数スタジオを体験してみましょう。
+                  ピラティスKは2店舗とも無料体験があります。Pilates KASANEは3,000円で体験可能です。複数のスタジオで体験レッスンを受けて比較することをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -555,7 +537,7 @@ export default function HirakataPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  枚方市駅周辺と樟葉駅周辺に分かれるので、自分の生活圏に合った立地を選びましょう。商業施設内のスタジオは駐車場も利用可能で車通いにも便利です。
+                  枚方市駅周辺と樟葉駅周辺に分かれるので、自分の生活圏に合った立地をお選びください。商業施設内のスタジオは駐車場も利用可能で車通いにも便利です。
                 </p>
               </div>
             </div>
@@ -598,13 +580,13 @@ export default function HirakataPage() {
               今回は枚方エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では枚方にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、枚方にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -613,11 +595,11 @@ export default function HirakataPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜12,000円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜12,000円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

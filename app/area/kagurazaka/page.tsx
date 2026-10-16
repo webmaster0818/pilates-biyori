@@ -18,7 +18,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kagurazaka/' },
   title: '【2026年10月最新】神楽坂のピラティス7社を比較｜無料体験3社・月額最安10,450円〜',
-  description: '神楽坂エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  description: '神楽坂エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,神楽坂,飯田橋,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -29,13 +29,13 @@ const studios = [
     image: '/images/studios/club-pilates.webp',
     price: '月4回 14,190円／月8回 26,290円／通い放題 40,590円（公式店舗ページ・税表記なし）',
     trial: '体験レッスン 無料（30分イントロクラス）',
-    features: ['世界最大級', '神楽坂駅徒歩30秒', '15種類の器具', '男性OK'],
-    description: '世界最大級のマシンピラティスブランド。神楽坂駅1A出口から徒歩30秒。最大12名の少人数制グループレッスンで、リフォーマー・スプリングボード・TRX・チェアなど15種類のマシン・器具を1人1台完備。8つのプログラムと4段階のレベル分け。',
+    features: ['世界最大級', '神楽坂駅徒歩30秒', '15種類の器具', '男性利用可'],
+    description: '世界最大級のマシンピラティスブランドです。神楽坂駅1A出口から徒歩30秒です。最大12名の少人数制グループレッスンで、リフォーマー・スプリングボード・TRX・チェアなど15種類のマシン・器具を1人1台完備しています。8つのプログラムと4段階のレベル分けです。',
     access: '東京メトロ東西線「神楽坂駅」1A出口 徒歩30秒',
     address: '東京都新宿区神楽坂6-48 トモスビル 2F',
     popularPlan: {
       name: 'グループ月4回プラン',
-      description: '15種類の器具を使った本格グループレッスン。4段階のレベル分けで安心。',
+      description: '15種類の器具を使った本格グループレッスンです。4段階のレベル分けで安心です。',
       price: '月4回 14,190円（税表記なし）',
     },
     options: ['月8回 26,290円', '通い放題 40,590円', '入会金 5,500円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
@@ -56,13 +56,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
     trial: 'グループ体験 3,300円',
-    features: ['飯田橋駅徒歩1分', '男性OK', 'マット&マシン', '全国相互利用'],
-    description: 'ピラティス専門の大手スタジオ。飯田橋駅B4b出口から徒歩1分、神楽坂エリアからも徒歩圏内。東西線・南北線・有楽町線・大江戸線の4路線利用可能。マットグループ・マシングループ・プライベートの3タイプ。',
+    features: ['飯田橋駅徒歩1分', '男性利用可', 'マット&マシン', '全国他店利用'],
+    description: 'ピラティス専門の大手スタジオです。飯田橋駅B4b出口から徒歩1分、神楽坂エリアからも徒歩圏内です。東西線・南北線・有楽町線・大江戸線の4路線利用可能です。マットグループ・マシングループ・プライベートの3タイプです。',
     access: '東京メトロ「飯田橋駅」B4b出口 徒歩1分 / JR「飯田橋駅」西口 徒歩3分',
     address: '東京都新宿区揚場町1-1 揚場ビル 4F',
     popularPlan: {
       name: 'フリープラン（マットグループ）',
-      description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。',
+      description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。',
       price: '月額 16,940円（税込）',
     },
     options: [
@@ -88,12 +88,12 @@ const studios = [
     price: '月3回 29,700円〜',
     trial: '体験レッスン 1,000円（通常12,000円）',
     features: ['理学療法士指導', '完全マンツーマン', '全額返金保証', '体験1,000円'],
-    description: '理学療法士が監修・指導する完全マンツーマンのパーソナルマシンピラティススタジオ。医学的根拠に基づいた指導で怪我予防やリハビリにも対応。体験1,000円、満足できなければ全額返金保証あり。',
+    description: '理学療法士が監修・指導する完全マンツーマンのパーソナルマシンピラティススタジオです。医学的根拠に基づいた指導で怪我予防やリハビリにも対応しています。体験1,000円、満足できなければ全額返金保証があります。',
     access: '都営大江戸線「牛込神楽坂駅」徒歩5分 / 東京メトロ「飯田橋駅」B1出口 徒歩6分',
     address: '東京都新宿区筑土八幡町5-12 相川ビル 2F',
     popularPlan: {
       name: '月4回コース',
-      description: '理学療法士による完全マンツーマンのマシンピラティス。',
+      description: '理学療法士による完全マンツーマンのマシンピラティスです。',
       price: '月4回 38,400円（税込）',
     },
     options: [
@@ -121,12 +121,12 @@ const studios = [
     priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円（税込）'],
     trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '女性専用セミパーソナルマシンピラティススタジオ。神楽坂駅から徒歩3分、牛込神楽坂A3出口から徒歩2分。最大3名の少人数制で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）の高コスパ。当日予約・当日キャンセルOK。チケット繰り越し可能。',
+    description: '女性専用セミパーソナルマシンピラティススタジオです。神楽坂駅から徒歩3分、牛込神楽坂A3出口から徒歩2分です。最大3名の少人数制で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と割安です。当日予約・当日キャンセル可能です。チケット繰り越し可能です。',
     access: '神楽坂駅 徒歩3分／牛込神楽坂駅 徒歩2分／飯田橋駅 徒歩5分',
     address: '〒162-0816 東京都新宿区白銀町1−15 SEKビル4階',
     popularPlan: {
       name: '月額定額プラン',
-      description: '最大3名のセミパーソナルマシンピラティス。1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）。',
+      description: '最大3名のセミパーソナルマシンピラティスです。1回あたり2,500円です（※37,500円の通い放題コースで15日通った場合）。',
       price: '月額制（公式サイト参照）',
     },
     userProfile: {
@@ -147,12 +147,12 @@ const studios = [
     price: '月3回 12,900円〜（公式表記・税表記なし）',
     trial: '体験レッスン 0円（通常3,300円・60分・初回1回）',
     features: ['女性専用', '飯田橋駅徒歩1分', '月3回12,900円〜', 'マシン専門'],
-    description: '女性専用マシンピラティス専門スタジオ。飯田橋駅東口から徒歩1分、神楽坂エリアからもアクセス良好。マシンを使ったグループレッスンで、月3回12,900円から（公式表記・税表記なし）。月3回・4回・6回・8回・通い放題から選べます。',
+    description: '女性専用マシンピラティス専門スタジオです。飯田橋駅東口から徒歩1分、神楽坂エリアからもアクセス良好です。マシンを使ったグループレッスンで、月3回12,900円からです（公式表記・税表記なし）。月3回・4回・6回・8回・通い放題から選べます。',
     access: 'JR「飯田橋駅」東口 徒歩1分',
     address: '東京都新宿区下宮比町1-4 飯田橋御幸ビル B1F',
     popularPlan: {
       name: '月4回プラン',
-      description: 'マシンピラティスのグループレッスン月4回（公式トップの表記。価格は店舗により異なる場合あり）。',
+      description: 'マシンピラティスのグループレッスン月4回です（公式トップの表記。価格は店舗により異なる場合があります）。',
       price: '月4回 14,190円（税表記なし）',
     },
     options: [
@@ -179,7 +179,7 @@ const studios = [
     price: 'グループ月4回(Standard4) 14,370〜15,280円 / 通い放題 19,980〜22,280円（別途施設利用料月700円）/ パーソナル月2回 22,000円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'マシンピラティス専門', 'グループ＋パーソナル'],
-    description: '女性専用のマシンピラティス専門スタジオ。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴。神楽坂駅から徒歩3分（情報引用元: the SILK公式サイト the-silk.co.jp）。',
+    description: '女性専用のマシンピラティス専門スタジオです。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴です。神楽坂駅から徒歩3分です（情報引用元: the SILK公式サイト the-silk.co.jp）。',
     access: '神楽坂駅から徒歩3分',
     address: '東京都新宿区神楽坂6-67-1 希神楽坂ビル6階（旧：マイナビ不動産ビル神楽坂）',
   },
@@ -188,43 +188,43 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！神楽坂エリアのスタジオはほとんどが初心者歓迎。CLUB PILATESは4段階のレベル分け、Pilates Meeは最大3名の少人数制で丁寧に指導。',
+    answer: '問題ありません。神楽坂エリアのスタジオはほとんどが初心者歓迎です。CLUB PILATESは4段階のレベル分け、Pilates Meeは最大3名の少人数制で丁寧に指導しています。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。神楽坂はマシン対応スタジオが充実。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。神楽坂はマシン対応スタジオが充実しています。',
   },
   {
     question: '神楽坂エリアの料金相場は？',
-    answer: 'セミパーソナルのPilates Meeは1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と格安。グループ月4回で10,450円〜14,190円程度。パーソナルはルルトが月3回29,700円〜。',
+    answer: 'セミパーソナルのPilates Meeは1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と格安です。グループ月4回で10,450円〜14,190円程度です。パーソナルはルルトが月3回29,700円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。大切なのは継続すること。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。大切なのは継続することです。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。CLUB PILATESは無料イントロクラス、ルルトは体験1,000円で全額返金保証付き。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。CLUB PILATESは無料イントロクラス、ルルトは体験1,000円で全額返金保証付きです。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
     answer: 'CLUB PILATES神楽坂とzen place飯田橋は男性も通えます。Pilates MeeとRepilatesは女性専用です。',
   },
   {
-    question: '一番コスパが良いスタジオは？',
-    answer: 'Pilates Meeは1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と圧倒的なコスパ。最大3名のセミパーソナルで、パーソナルに近い指導を格安で受けられます。',
+    question: '一番費用対効果が良いスタジオは？',
+    answer: 'Pilates Meeは1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と圧倒的な費用対効果です。最大3名のセミパーソナルで、パーソナルに近い指導を格安で受けられます。',
   },
   {
     question: '理学療法士の指導を受けられるスタジオは？',
-    answer: 'ルルトは理学療法士が監修・指導するパーソナルスタジオ。医学的根拠に基づいた指導で、満足できなければ全額返金保証付き。',
+    answer: 'ルルトは理学療法士が監修・指導するパーソナルスタジオです。医学的根拠に基づいた指導で、満足できなければ全額返金保証付きです。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -245,8 +245,8 @@ export default function KagurazakaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス神楽坂おすすめ6選！<br className="hidden md:block" />
-              料金・体験レッスン・マシン対応を比較！
+              ピラティス神楽坂おすすめ6選<br className="hidden md:block" />
+              料金・体験レッスン・マシン対応を比較
             </h1>
           </div>
         </section>
@@ -271,29 +271,11 @@ export default function KagurazakaPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「神楽坂で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、神楽坂・飯田橋エリアでおすすめのピラティススタジオ6選をまとめました。
+              本ページでは、神楽坂・飯田橋エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -305,7 +287,7 @@ export default function KagurazakaPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
-                  <span>コスパの良いスタジオを知りたい</span>
+                  <span>料金を抑えられるスタジオを知りたい</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -318,7 +300,7 @@ export default function KagurazakaPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -387,25 +369,25 @@ export default function KagurazakaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">東京メトロ東西線「神楽坂駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  神楽坂エリアのスタジオは神楽坂駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。神楽坂駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  神楽坂エリアのスタジオは神楽坂駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。神楽坂駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">繁華街ならではの予約混雑に注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  神楽坂は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることも。アプリやWebで空き状況をこまめにチェックし、キャンセル待ち機能があるスタジオでは積極的に活用しましょう。
+                  神楽坂は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることもあります。アプリやWebで空き状況をこまめに確認し、キャンセル待ち機能があるスタジオでは積極的にご活用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  神楽坂エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ず確認しましょう。月の途中入会は日割り計算になるかも要チェックです。
+                  神楽坂エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ずご確認ください。月の途中入会は日割り計算になるかもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  神楽坂エリアだけでなく、近隣の<Link href="/area/iidabashi/" className="text-warm-700 underline hover:text-warm-900">飯田橋</Link>、<Link href="/area/korakuen/" className="text-warm-700 underline hover:text-warm-900">後楽園</Link>、<Link href="/area/suidobashi/" className="text-warm-700 underline hover:text-warm-900">水道橋</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  神楽坂エリアだけでなく、近隣の<Link href="/area/iidabashi/" className="text-warm-700 underline hover:text-warm-900">飯田橋</Link>、<Link href="/area/korakuen/" className="text-warm-700 underline hover:text-warm-900">後楽園</Link>、<Link href="/area/suidobashi/" className="text-warm-700 underline hover:text-warm-900">水道橋</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -423,25 +405,25 @@ export default function KagurazakaPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>神楽坂エリアの豆知識：</strong>神楽坂は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
+                  <strong>神楽坂エリアの豆知識：</strong>神楽坂は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心です。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
                 </p>
               </div>
             </div>
@@ -457,9 +439,9 @@ export default function KagurazakaPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合のスタジオも。
+                  1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合のスタジオもあります。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Pilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）</li>
@@ -469,7 +451,7 @@ export default function KagurazakaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  理学療法士のマンツーマン。
+                  理学療法士のマンツーマンです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ルルト（月3回 29,700円〜）</li>
@@ -478,7 +460,7 @@ export default function KagurazakaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  駅から徒歩1分以内。
+                  駅から徒歩1分以内です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• CLUB PILATES（神楽坂駅 徒歩30秒）</li>
@@ -499,15 +481,15 @@ export default function KagurazakaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回からスタート。最低2-3ヶ月継続で効果を実感。
+                週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回がおすすめ。3-6ヶ月で目に見える変化。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。
+                週1回のペースで無理なく継続することをおすすめします。
               </p>
             </div>
           </div>
@@ -524,7 +506,7 @@ export default function KagurazakaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜5,000円/回</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">セミパーソナル</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  少人数制で高コスパ。
+                  少人数制で高費用対効果です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Pilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）</li>
@@ -535,7 +517,7 @@ export default function KagurazakaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 10,000〜15,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン。
+                  グループレッスンです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（10,450円〜）</li>
@@ -546,7 +528,7 @@ export default function KagurazakaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 29,700円〜</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">パーソナル月3回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  理学療法士の指導。
+                  理学療法士の指導です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ルルト（29,700円〜/月3回）</li>
@@ -578,7 +560,7 @@ export default function KagurazakaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  神楽坂の料金相場はセミパーソナル1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）、グループ月4回10,450円〜14,190円。
+                  神楽坂の料金相場はセミパーソナル1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）、グループ月4回10,450円〜14,190円です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -587,7 +569,7 @@ export default function KagurazakaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  CLUB PILATESは無料体験。ルルトは体験1,000円で全額返金保証付き。気軽に試してみましょう。
+                  CLUB PILATESは無料体験を実施しています。ルルトは体験1,000円で全額返金保証付きです。体験レッスンで実際の雰囲気をご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -596,7 +578,7 @@ export default function KagurazakaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  神楽坂エリアは東西線・南北線・有楽町線・大江戸線・JRが利用可能。CLUB PILATESは神楽坂駅徒歩30秒とアクセス抜群。
+                  神楽坂エリアは東西線・南北線・有楽町線・大江戸線・JRが利用可能です。CLUB PILATESは神楽坂駅徒歩30秒とアクセス抜群です。
                 </p>
               </div>
             </div>
@@ -639,13 +621,13 @@ export default function KagurazakaPage() {
               今回は神楽坂・飯田橋エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では神楽坂エリアにあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、神楽坂エリアにあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -654,11 +636,11 @@ export default function KagurazakaPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,300円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜3,300円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

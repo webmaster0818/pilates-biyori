@@ -102,7 +102,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     '@context': 'https://schema.org',
     '@type': 'Dataset',
     name: '全国ピラティス料金相場データ（211スタジオ独自調査）',
-    description: '全国71エリア・211スタジオの公式情報を集計したピラティスの体験料金・月額相場・設備・評価データ。出典明記で引用可。',
+    description: '全国71エリア・211スタジオの公式情報を集計したピラティスの体験料金・月額相場・設備・評価データです。出典を明記のうえで引用いただけます。',
     creator: { '@type': 'Organization', name: 'Pilates-Biyori' },
     url: `https://biyori-pilates.com/articles/${slug}/`,
     isAccessibleForFree: true,
@@ -188,7 +188,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
             {/* E-E-A-T: 編集・監修ノート */}
             <div className="border border-warm-100 bg-warm-50 rounded-lg p-5 mb-10 text-sm text-warm-600 leading-relaxed">
-              本記事は<Link href="/editors/" className="text-warm-800 underline hover:text-warm-600">Pilates-Biyori編集部</Link>が、ピラティスの一般的な知見にもとづいて作成しています。記載の効果には個人差があり、料金・サービス内容は各スタジオの最新情報をご確認ください。体調や持病に不安がある場合は医療機関にご相談ください。
+              本記事は、<Link href="/editors/" className="text-warm-800 underline hover:text-warm-600">Pilates-Biyori編集部</Link>が、ピラティスの一般的な知見にもとづいて作成しています。記載の効果には個人差があり、料金・サービス内容は各スタジオの最新情報をご確認ください。体調や持病に不安がある場合は医療機関にご相談ください。
             </div>
 
             {/* 記事本文 */}
@@ -222,8 +222,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
             {/* CTA */}
             <div className="bg-warm-800 text-white rounded-lg p-10 text-center mb-16">
-              <h2 className="text-2xl md:text-3xl font-light mb-4 tracking-tight">体験レッスンを予約しよう</h2>
-              <p className="text-warm-200 mb-8 font-light">初回限定！体験レッスン1,000円〜</p>
+              <h2 className="text-2xl md:text-3xl font-light mb-4 tracking-tight">体験レッスンのご予約</h2>
+              <p className="text-warm-200 mb-8 font-light">初回限定：体験レッスン1,000円〜</p>
               <a href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-xs font-medium uppercase tracking-[0.15em] hover:bg-warm-100 transition-all btn-minimal">
                 おすすめスタジオを見る
               </a>

@@ -7,7 +7,7 @@ import Script from 'next/script'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/' },
   title: '地域別ピラティススタジオ',
-  description: '全国の主要エリアのピラティススタジオを地域別に検索。東京、大阪、名古屋、福岡など、お住まいの地域で最適なスタジオを見つけましょう。',
+  description: '全国の主要エリアのピラティススタジオを地域別に検索できます。東京、大阪、名古屋、福岡など、お住まいの地域からスタジオをお探しください。',
   keywords: 'ピラティス,スタジオ,地域別,東京,大阪,名古屋,福岡,エリア',
 }
 
@@ -208,7 +208,7 @@ export default function AreaPage() {
               地域別スタジオ検索
             </h1>
             <p className="text-warm-600 leading-relaxed font-light max-w-2xl mx-auto">
-              お住まいの地域で最適なピラティススタジオを見つけましょう。全国の主要エリアのスタジオ情報を随時更新中です。
+              お住まいの地域から、ピラティススタジオをお探しください。全国の主要エリアのスタジオ情報を随時更新しています。
             </p>
           </div>
         </section>
@@ -267,7 +267,7 @@ export default function AreaPage() {
               地域別記事は随時追加中です
             </h2>
             <p className="text-warm-600 mb-8 font-light leading-relaxed">
-              お住まいの地域のピラティススタジオ情報は、準備でき次第順次公開していきます。<br />
+              お住まいの地域のピラティススタジオ情報は、準備ができ次第、順次公開します。<br />
               現在は、全国共通のスタジオ選び情報をご覧ください。
             </p>
             <Link 

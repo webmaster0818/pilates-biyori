@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/harajuku/' },
-  title: '【2026年10月最新】原宿のピラティス｜初心者OK・無料体験で選ぶ料金比較',
-  description: '原宿エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  title: '【2026年10月最新】原宿のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  description: '原宿エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,原宿,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,明治神宮前',
 }
 
@@ -26,12 +26,12 @@ const studios = [
     price: '月2回 6,600円〜',
     trial: '体験レッスン 無料',
     features: ['原宿駅徒歩0分', 'マシン専門', '月6,600円〜', '繰越無制限'],
-    description: 'ダンススクールNOAが運営するマシンピラティス専門スタジオ。JR原宿駅竹下口から徒歩0分の好立地。月6,600円〜のリーズナブルな料金で、月2回〜8回の回数制プランは在籍中なら繰越無制限。Intro・BODY MAKE・Conditioningの3カテゴリから目的に合わせて選べます。',
+    description: 'ダンススクールNOAが運営するマシンピラティス専門スタジオです。JR原宿駅竹下口から徒歩0分の好立地です。月6,600円〜のリーズナブルな料金で、月2回〜8回の回数制プランは在籍中なら繰越無制限です。Intro・BODY MAKE・Conditioningの3カテゴリから目的に合わせて選べます。',
     access: 'JR「原宿駅」竹下口 徒歩0分 / 東京メトロ千代田線・副都心線「明治神宮前駅」徒歩5分',
     address: '東京都渋谷区神宮前3-20-4 HIBICA神宮前 1F',
     popularPlan: {
       name: '月4回プラン',
-      description: 'マシンピラティス月4回。在籍中なら繰越無制限で無駄なく通える。',
+      description: 'マシンピラティス月4回です。在籍中なら繰越無制限で無駄なく通えます。',
       price: '月4回 8,800円（税込）',
     },
     options: [
@@ -58,12 +58,12 @@ const studios = [
     price: '月4回 13,420円〜',
     trial: '体験レッスン 2,000円',
     features: ['女性専用', '表参道駅徒歩2分', '部位別プログラム', 'マシン専門'],
-    description: '女性専用マシンピラティス専門スタジオ。表参道駅から徒歩2分。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実。お腹・脚・お尻など強度や目的に合わせて選べるクラスが豊富。手ぶら体験も可能。',
+    description: '女性専用マシンピラティス専門スタジオです。表参道駅から徒歩2分です。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実しています。お腹・脚・お尻など強度や目的に合わせて選べるクラスが豊富です。手ぶら体験も可能です。',
     access: '東京メトロ銀座線・半蔵門線・千代田線「表参道駅」徒歩2分 / JR「原宿駅」徒歩10分',
     address: '東京都渋谷区神宮前5丁目（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'マンスリー4メンバー（月4回）',
-      description: '女性専用マシンピラティス月4回。部位別プログラムも選べる。',
+      description: '女性専用マシンピラティス月4回です。部位別プログラムも選べます。',
       price: '月4回 13,420円（税込）',
     },
     options: [
@@ -89,13 +89,13 @@ const studios = [
     image: '/images/studios/bdc-pilates.webp',
     price: '月4回 15,400円〜',
     trial: '体験レッスン 3,850円',
-    features: ['日本初マシン専門', '表参道駅徒歩2分', '少人数制', '男性OK'],
-    description: '40年以上の実績を持つブロードウェイダンスセンター（BDC）がプロデュースする日本初のマシンピラティス専門スタジオ。表参道に2スタジオ展開。最大6〜8名の少人数制で、リフォーマーを使ったダイナミックなグループレッスンが特徴。',
+    features: ['日本初マシン専門', '表参道駅徒歩2分', '少人数制', '男性利用可'],
+    description: '40年以上の実績を持つブロードウェイダンスセンター（BDC）がプロデュースする日本初のマシンピラティス専門スタジオです。表参道に2スタジオ展開しています。最大6〜8名の少人数制で、リフォーマーを使ったダイナミックなグループレッスンが特徴です。',
     access: '東京メトロ銀座線・半蔵門線・千代田線「表参道駅」B3出口 徒歩5分・A2出口 徒歩3分 / JR「原宿駅」徒歩10分',
     address: '東京都港区南青山5-7-17 青山小原ビル(小原流会館)8F（A studio）／東京都渋谷区神宮前4-9-1 神宮前AKビル201（B studio）',
     popularPlan: {
       name: 'マシングループ月4回',
-      description: 'リフォーマーを使ったマシンピラティスグループレッスン。月2回まで繰越可能。',
+      description: 'リフォーマーを使ったマシンピラティスグループレッスンです。月2回まで繰越可能です。',
       price: '月4回 15,400円（税込）',
     },
     options: [
@@ -122,12 +122,12 @@ const studios = [
     price: '月4回 15,400円〜',
     trial: '体験レッスン 980円',
     features: ['原宿駅徒歩5分', '少人数制', 'ウェア無料', '体験980円'],
-    description: 'マシンピラティス専門スタジオ。明治神宮前駅・原宿駅から徒歩5分。4名以下の少人数クラスから最大12名のグループレッスンまで幅広く対応。オリジナルウェアの無料レンタルで手ぶら通いが可能。パーソナルとグループを組み合わせたプランもあり。',
+    description: 'マシンピラティス専門スタジオです。明治神宮前駅・原宿駅から徒歩5分です。4名以下の少人数クラスから最大12名のグループレッスンまで幅広く対応しています。オリジナルウェアの無料レンタルで手ぶら通いが可能です。パーソナルとグループを組み合わせたプランもあります。',
     access: '東京メトロ千代田線・副都心線「明治神宮前駅」徒歩5分 / JR「原宿駅」徒歩5分',
     address: '東京都渋谷区神宮前6-34-22 神宮前634ビル B1F',
     popularPlan: {
       name: 'マンスリー4回プラン',
-      description: 'マシンピラティスグループレッスン月4回。少人数制で丁寧な指導。',
+      description: 'マシンピラティスグループレッスン月4回です。少人数制で丁寧な指導です。',
       price: '月4回 15,400円（税込）',
     },
     options: [
@@ -153,12 +153,12 @@ const studios = [
     price: '1回 5,500円〜',
     trial: 'キャンペーンで入会金無料',
     features: ['南青山', 'パーソナル専門', '朝8時〜', '都度払い'],
-    description: '南青山のパーソナルピラティス専門スタジオ。表参道駅・外苑前駅から徒歩7分。マシンを使った完全マンツーマンのプライベートレッスンで、一人ひとりの身体に合わせたオーダーメイドプログラムを提供。朝8時〜夜21時まで営業。',
+    description: '南青山のパーソナルピラティス専門スタジオです。表参道駅・外苑前駅から徒歩7分です。マシンを使った完全マンツーマンのプライベートレッスンで、一人ひとりの身体に合わせたオーダーメイドプログラムを提供しています。朝8時〜夜21時まで営業しています。',
     access: '東京メトロ銀座線「外苑前駅」徒歩7分 / 東京メトロ銀座線・半蔵門線・千代田線「表参道駅」徒歩7分',
     address: '東京都港区南青山3-3-16 IQビルディング GF',
     popularPlan: {
       name: 'パーソナルレッスン（60分）',
-      description: '完全マンツーマンのマシンピラティスプライベートレッスン。',
+      description: '完全マンツーマンのマシンピラティスプライベートレッスンです。',
       price: '1回 5,500円〜7,000円（税込・インストラクターランクにより異なる）',
     },
     options: [
@@ -183,12 +183,12 @@ const studios = [
     price: '1回 5,500円〜',
     trial: '体験レッスン 5,500円（回数券購入時）',
     features: ['北参道駅徒歩1分', '国家資格保持者', '完全予約制', 'パーソナル'],
-    description: '完全予約制のプライベートピラティス・ヨガスタジオ。北参道駅から徒歩1分。理学療法士・柔道整復師・鍼灸師など医療系国家資格を持つトレーナーが多数在籍。丁寧なカウンセリングと的確な身体評価に基づくオーダーメイドプログラム。',
+    description: '完全予約制のプライベートピラティス・ヨガスタジオです。北参道駅から徒歩1分です。理学療法士・柔道整復師・鍼灸師など医療系国家資格を持つトレーナーが多数在籍しています。丁寧なカウンセリングと的確な身体評価に基づくオーダーメイドプログラムです。',
     access: '東京メトロ副都心線「北参道駅」2番出口 徒歩1分 / JR「原宿駅」徒歩12分',
     address: '東京都渋谷区千駄ケ谷3-14-6 富田ビル 2F & 6F',
     popularPlan: {
       name: 'パーソナルレッスン回数券',
-      description: '完全予約制のプライベートピラティス・ヨガレッスン。',
+      description: '完全予約制のプライベートピラティス・ヨガレッスンです。',
       price: '詳細は公式サイトでご確認ください',
     },
     options: [
@@ -213,12 +213,12 @@ const studios = [
     price: '1回 7,700円（60分）',
     trial: '初回クーポン 2,000円OFF',
     features: ['女性専用', '原宿駅徒歩2分', '完全個室', 'ヨガ融合'],
-    description: '原宿駅から徒歩2分の女性専用・完全個室パーソナルピラティスサロン。2025年7月オープン。マシンピラティスとヨガを融合させた独自のアプローチで「骨格から纏う美しさ」を追求。完全予約制で一人ひとりに寄り添ったレッスン。',
+    description: '原宿駅から徒歩2分の女性専用・完全個室パーソナルピラティスサロンです。2025年7月オープンです。マシンピラティスとヨガを融合させた独自のアプローチで「骨格から纏う美しさ」を追求しています。完全予約制で一人ひとりに寄り添ったレッスンです。',
     access: 'JR「原宿駅」表参道改札東口 徒歩2分 / 東京メトロ千代田線・副都心線「明治神宮前駅」徒歩2分',
     address: '東京都渋谷区神宮前1-15-12 シャトーヒロ本館 406',
     popularPlan: {
       name: 'パーソナルレッスン（60分）',
-      description: '完全個室のマシンピラティス×ヨガパーソナルレッスン。',
+      description: '完全個室のマシンピラティス×ヨガパーソナルレッスンです。',
       price: '1回 7,700円（税込）',
     },
     options: [
@@ -242,31 +242,31 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！原宿エリアのスタジオはほとんどが初心者歓迎。PILATES STUDIO noaはIntroクラスで基礎から学べますし、ピラティスKも初心者向けプログラムが充実しています。',
+    answer: '問題ありません。原宿エリアのスタジオはほとんどが初心者歓迎です。PILATES STUDIO noaはIntroクラスで基礎から学べますし、ピラティスKも初心者向けプログラムが充実しています。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。原宿エリアはマシン専門スタジオが特に充実しています。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。原宿エリアはマシン専門スタジオが特に充実しています。',
   },
   {
     question: '原宿のピラティスの料金相場は？',
-    answer: 'グループ月4回で8,800円〜15,400円程度。PILATES STUDIO noaが月4回8,800円〜で最もリーズナブル。ピラティスKは月4回13,420円〜、KASANEは月4回15,400円〜。パーソナルは1回5,500円〜7,700円。',
+    answer: 'グループ月4回で8,800円〜15,400円程度です。PILATES STUDIO noaが月4回8,800円〜で最もリーズナブルです。ピラティスKは月4回13,420円〜、KASANEは月4回15,400円〜です。パーソナルは1回5,500円〜7,700円です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。大切なのは継続すること。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。大切なのは継続することです。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。KASANEはウェア無料レンタルで手ぶらOK。ピラティスKも手ぶら体験可能です。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。KASANEはウェア無料レンタルで手ぶらで参加可能です。ピラティスKも手ぶら体験可能です。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹強化・姿勢改善に特化。ヨガは柔軟性とリラックス重視。PILATES YOGA &aではヨガとピラティスの両方が受けられます。',
+    answer: 'ピラティスは体幹強化・姿勢改善に特化しています。ヨガは柔軟性とリラックス重視です。PILATES YOGA &aではヨガとピラティスの両方が受けられます。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
@@ -274,11 +274,11 @@ const faqs = [
   },
   {
     question: '無料で体験できるスタジオは？',
-    answer: 'PILATES STUDIO noaは体験レッスン無料。KASANEは体験980円。ピラティスKは体験2,000円。BDC PILATESは体験3,850円。',
+    answer: 'PILATES STUDIO noaは体験レッスン無料です。KASANEは体験980円です。ピラティスKは体験2,000円です。BDC PILATESは体験3,850円です。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -299,8 +299,8 @@ export default function HarajukuPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス原宿おすすめ7選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス原宿おすすめ7選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -323,29 +323,11 @@ export default function HarajukuPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「原宿で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、原宿エリアでおすすめのピラティススタジオ7選をまとめました。
+              本ページでは、原宿エリアでおすすめのピラティススタジオ7選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">&#10003;</span>
@@ -370,7 +352,7 @@ export default function HarajukuPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -438,25 +420,25 @@ export default function HarajukuPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">JR「原宿駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  原宿エリアのスタジオは原宿駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。原宿駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  原宿エリアのスタジオは原宿駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。原宿駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">繁華街ならではの予約混雑に注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  原宿は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることも。アプリやWebで空き状況をこまめにチェックし、キャンセル待ち機能があるスタジオでは積極的に活用しましょう。
+                  原宿は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることもあります。アプリやWebで空き状況をこまめに確認し、キャンセル待ち機能があるスタジオでは積極的にご活用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  原宿エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ず確認しましょう。月の途中入会は日割り計算になるかも要チェックです。
+                  原宿エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ずご確認ください。月の途中入会は日割り計算になるかもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  原宿エリアだけでなく、近隣の<Link href="/area/omotesando/" className="text-warm-700 underline hover:text-warm-900">表参道</Link>、<Link href="/area/shibuya/" className="text-warm-700 underline hover:text-warm-900">渋谷</Link>、<Link href="/area/yoyogi/" className="text-warm-700 underline hover:text-warm-900">代々木</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  原宿エリアだけでなく、近隣の<Link href="/area/omotesando/" className="text-warm-700 underline hover:text-warm-900">表参道</Link>、<Link href="/area/shibuya/" className="text-warm-700 underline hover:text-warm-900">渋谷</Link>、<Link href="/area/yoyogi/" className="text-warm-700 underline hover:text-warm-900">代々木</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -474,25 +456,25 @@ export default function HarajukuPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>原宿エリアの豆知識：</strong>原宿は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
+                  <strong>原宿エリアの豆知識：</strong>原宿は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心です。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
                 </p>
               </div>
             </div>
@@ -510,7 +492,7 @@ export default function HarajukuPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円以下で通えるスタジオ。
+                  月額1万円以下で通えるスタジオです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">&#8226; PILATES STUDIO noa（月4回 8,800円〜）</li>
@@ -520,7 +502,7 @@ export default function HarajukuPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性だけの安心空間。
+                  女性だけの安心空間です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">&#8226; ピラティスK 表参道（月4回 13,420円〜）</li>
@@ -530,7 +512,7 @@ export default function HarajukuPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  駅から徒歩5分以内。
+                  駅から徒歩5分以内です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">&#8226; PILATES STUDIO noa（原宿駅 徒歩0分）</li>
@@ -552,15 +534,15 @@ export default function HarajukuPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回からスタート。最低2-3ヶ月継続で効果を実感。
+                週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回がおすすめ。3-6ヶ月で目に見える変化。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。
+                週1回のペースで無理なく継続することをおすすめします。
               </p>
             </div>
           </div>
@@ -577,7 +559,7 @@ export default function HarajukuPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月2〜4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。
+                  グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>&#8226; PILATES STUDIO noa（6,600円〜/月2回）</li>
@@ -589,7 +571,7 @@ export default function HarajukuPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜16,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン専門スタジオ。
+                  マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>&#8226; ピラティスK（13,420円〜）</li>
@@ -601,7 +583,7 @@ export default function HarajukuPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">パーソナル</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">都度払い</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  1対1のプライベートレッスン。
+                  1対1のプライベートレッスンです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>&#8226; Sky Pilates Tokyo（5,500円〜/回）</li>
@@ -635,7 +617,7 @@ export default function HarajukuPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  原宿の料金相場はグループ月4回で8,800円〜15,400円。パーソナルは1回5,500円〜7,700円。入会金やキャンペーンも確認しましょう。
+                  原宿の料金相場はグループ月4回で8,800円〜15,400円です。パーソナルは1回5,500円〜7,700円です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -644,7 +626,7 @@ export default function HarajukuPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  PILATES STUDIO noaは体験無料。KASANEは980円、ピラティスKは2,000円で体験可能。まずは気になるスタジオを2〜3か所体験してみましょう。
+                  PILATES STUDIO noaは体験無料です。KASANEは980円、ピラティスKは2,000円で体験可能です。まずは気になるスタジオを2〜3か所体験してみることをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -653,7 +635,7 @@ export default function HarajukuPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  原宿エリアはJR原宿駅・東京メトロ明治神宮前駅・北参道駅・表参道駅と複数の駅からアクセス可能。PILATES STUDIO noaは原宿駅徒歩0分と抜群の立地です。
+                  原宿エリアはJR原宿駅・東京メトロ明治神宮前駅・北参道駅・表参道駅と複数の駅からアクセス可能です。PILATES STUDIO noaは原宿駅徒歩0分と抜群の立地です。
                 </p>
               </div>
             </div>
@@ -696,13 +678,13 @@ export default function HarajukuPage() {
               今回は原宿エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では原宿にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、原宿にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -711,11 +693,11 @@ export default function HarajukuPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜5,500円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜5,500円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

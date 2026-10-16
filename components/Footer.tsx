@@ -8,7 +8,7 @@ export function Footer() {
           <div>
             <h3 className="font-bold mb-4">Pilates-Biyori</h3>
             <p className="text-sm text-gray-600">
-              初心者から経験者まで、あなたに最適なピラティスが見つかるメディア
+              初心者から経験者まで、ピラティススタジオ選びに役立つ情報を提供するメディアです。
             </p>
           </div>
           <div>

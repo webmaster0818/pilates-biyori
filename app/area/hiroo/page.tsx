@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/hiroo/' },
-  title: '【2026年10月最新】広尾のピラティス｜初心者OK・無料体験で選ぶ料金比較',
-  description: '広尾エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  title: '【2026年10月最新】広尾のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  description: '広尾エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,広尾,恵比寿,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -26,13 +26,13 @@ const studios = [
     image: '/images/studios/the-silk.webp',
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
-    features: ['女性専用', '広尾駅徒歩4分', '2フロア', '手ぶら体験OK'],
-    description: '女性専用マシンピラティススタジオ。広尾駅から徒歩4分。本館（SR広尾ビル3F）と別館（M2ビル広尾2F）の2フロア体制で予約が取りやすい。音楽のリズムに合わせたレッスンで初心者でも楽しく続けられます。',
+    features: ['女性専用', '広尾駅徒歩4分', '2フロア', '手ぶらで体験可能'],
+    description: '女性専用マシンピラティススタジオです。広尾駅から徒歩4分です。本館（SR広尾ビル3F）と別館（M2ビル広尾2F）の2フロア体制で予約が取りやすいです。音楽のリズムに合わせたレッスンで初心者でも楽しく続けられます。',
     access: '東京メトロ日比谷線「広尾駅」徒歩4分',
     address: '東京都渋谷区広尾5丁目19-4 SR広尾ビル3階（本館）／東京都渋谷区広尾5丁目2-26 M2ビル広尾2階（別館）',
     popularPlan: {
       name: 'Standard4（月4回）',
-      description: '女性専用マシンピラティス月4回。音楽に合わせた楽しいレッスン。',
+      description: '女性専用マシンピラティス月4回です。音楽に合わせた楽しいレッスンです。',
       price: '月4回 15,070円（税込）',
     },
     options: [
@@ -58,12 +58,12 @@ const studios = [
     price: '月2回 15,000円〜',
     trial: '体験レッスン 4,500円',
     features: ['完全パーソナル', 'マシン完備', '広尾エリア', '月謝制'],
-    description: '完全プライベートのマシンピラティス専門スタジオ。広尾エリアに位置し、1対1のマンツーマンレッスンで一人ひとりの目的・体力に合わせたオーダーメイドプログラムを提供。月謝制で1レッスン6,250円〜。',
+    description: '完全プライベートのマシンピラティス専門スタジオです。広尾エリアに位置し、1対1のマンツーマンレッスンで一人ひとりの目的・体力に合わせたオーダーメイドプログラムを提供しています。月謝制で1レッスン6,250円〜です。',
     access: '東京メトロ日比谷線「広尾駅」周辺',
     address: '東京都港区赤坂6-4-18 プリンストン赤坂 402',
     popularPlan: {
       name: '月4回コース',
-      description: '完全パーソナルのマシンピラティス。1回あたり6,250円〜。',
+      description: '完全パーソナルのマシンピラティスです。1回あたり6,250円〜です。',
       price: '月4回 25,000円〜（税込）',
     },
     options: [
@@ -88,13 +88,13 @@ const studios = [
     image: '/images/studios/habit-pilates.webp',
     price: '月2回 9,800円〜',
     trial: '体験レッスンあり',
-    features: ['最大5名少人数制', '広尾駅徒歩2分', 'セミパーソナル', '手ぶらOK'],
-    description: '1クラス最大5名の少人数制マシンピラティススタジオ。広尾駅から徒歩2分。セミパーソナルならではの丁寧なレッスンで、1レッスン3,200円〜の高コスパ。レンタルウェア・ロッカールーム完備で手ぶらで通えます。',
+    features: ['最大5名少人数制', '広尾駅徒歩2分', 'セミパーソナル', '手ぶらで参加可能'],
+    description: '1クラス最大5名の少人数制マシンピラティススタジオです。広尾駅から徒歩2分です。セミパーソナルならではの丁寧なレッスンで、1レッスン3,200円〜と割安です。レンタルウェア・ロッカールーム完備で手ぶらで通えます。',
     access: '東京メトロ日比谷線「広尾駅」徒歩2分',
     address: '東京都渋谷区広尾5-16-3 小安ビル 4F',
     popularPlan: {
       name: '月4回プラン',
-      description: '最大5名の少人数制マシンピラティス。セミパーソナルで丁寧な指導。',
+      description: '最大5名の少人数制マシンピラティスです。セミパーソナルで丁寧な指導です。',
       price: '月4回 14,800円（税込）',
     },
     options: [
@@ -120,13 +120,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
     trial: 'グループ体験 2,000円',
-    features: ['広尾エリア', '男性OK', 'マット&マシン', '全国相互利用'],
-    description: 'ピラティス専門の大手スタジオ。恵比寿駅西口・日比谷線1番出口から徒歩5分、広尾エリアに位置。マットグループ・マシングループ・プライベートの3タイプから選べます。全国150店舗以上で相互利用可能。男性も歓迎。',
+    features: ['広尾エリア', '男性利用可', 'マット&マシン', '全国他店利用'],
+    description: 'ピラティス専門の大手スタジオです。恵比寿駅西口・日比谷線1番出口から徒歩5分、広尾エリアに位置しています。マットグループ・マシングループ・プライベートの3タイプから選べます。全国150店舗以上で他店利用可能です。男性も歓迎です。',
     access: 'JR「恵比寿駅」西口 徒歩5分 / 東京メトロ日比谷線「恵比寿駅」1番出口 徒歩5分',
     address: '東京都渋谷区広尾1-15-3 増田ビル 4F',
     popularPlan: {
       name: 'フリープラン（マットグループ）',
-      description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。',
+      description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。',
       price: '月額 16,940円（税込）',
     },
     options: [
@@ -151,13 +151,13 @@ const studios = [
     image: '/images/studios/pilates-mirror.webp',
     price: '月4回 11,000円〜',
     trial: '体験レッスンあり',
-    features: ['少人数制', '中目黒', 'マシン専門', 'コスパ◎'],
-    description: '中目黒エリアのマシンピラティス専門スタジオ。広尾からも日比谷線でアクセスしやすい。少人数制グループレッスンで丁寧な指導。鏡を使ったフォームチェックで正しい姿勢を習得できます。',
+    features: ['少人数制', '中目黒', 'マシン専門', '割安'],
+    description: '中目黒エリアのマシンピラティス専門スタジオです。広尾からも日比谷線でアクセスしやすいです。少人数制グループレッスンで丁寧な指導です。鏡を使ったフォームチェックで正しい姿勢を習得できます。',
     access: '東急東横線・日比谷線「中目黒駅」徒歩圏内',
     address: '東京都目黒区中目黒エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'グループ月4回プラン',
-      description: '少人数制のマシンピラティスグループレッスン。',
+      description: '少人数制のマシンピラティスグループレッスンです。',
       price: '月4回 11,000円（税込）',
     },
     options: [
@@ -184,7 +184,7 @@ const studios = [
     price: '月4回(45分) 29,700円〜 / 月4回(60分) 39,600円〜',
     trial: '体験トレーニング 7,100円（無料キャンペーン実施店舗あり）',
     features: ['マンツーマン（パーソナル）', 'マシン・マット両対応', '医師推奨パーソナルジムNo.1受賞'],
-    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオ。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せる。広尾エリア（詳細は公式サイト参照）。',
+    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオです。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せます。広尾エリアです（詳細は公式サイト参照）。',
     access: '広尾エリア（詳細は公式サイト参照）',
     address: '東京都（詳細は公式サイト参照）',
   },
@@ -193,31 +193,31 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！広尾エリアのスタジオはほとんどが初心者歓迎。the SILKは体験者の約8割がピラティス未経験者、Habit Pilatesは最大5名の少人数制で丁寧に指導。',
+    answer: '問題ありません。広尾エリアのスタジオはほとんどが初心者歓迎です。the SILKは体験者の約8割がピラティス未経験者、Habit Pilatesは最大5名の少人数制で丁寧に指導しています。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。広尾エリアはマシン対応スタジオが充実。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。広尾エリアはマシン対応スタジオが充実しています。',
   },
   {
     question: '広尾エリアのピラティスの料金相場は？',
-    answer: 'グループ月4回で10,450円〜15,070円程度。zen placeが月4回10,450円〜で最もリーズナブル。少人数制のHabit Pilatesは月2回9,800円〜。パーソナルはSTUDIO IVYが月2回15,000円〜。',
+    answer: 'グループ月4回で10,450円〜15,070円程度です。zen placeが月4回10,450円〜で最もリーズナブルです。少人数制のHabit Pilatesは月2回9,800円〜です。パーソナルはSTUDIO IVYが月2回15,000円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。大切なのは継続すること。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。大切なのは継続することです。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。the SILKは手ぶらで体験可能（ウェア・タオル無料貸出）。Habit Pilatesもレンタルウェア完備で手ぶらOK。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。the SILKは手ぶらで体験可能です（ウェア・タオル無料貸出）。Habit Pilatesもレンタルウェア完備で手ぶらで参加可能です。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹強化・姿勢改善に特化。ヨガは柔軟性とリラックス重視。zen placeはヨガスタジオも運営しており、両方楽しめます。',
+    answer: 'ピラティスは体幹強化・姿勢改善に特化しています。ヨガは柔軟性とリラックス重視です。zen placeはヨガスタジオも運営しており、両方楽しめます。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
@@ -225,11 +225,11 @@ const faqs = [
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'パーソナルはSTUDIO IVYで効率的に。グループはthe SILKやzen placeが人気。少人数制ならHabit Pilatesがおすすめ。まずは体験で試してみましょう。',
+    answer: 'パーソナルはSTUDIO IVYで効率的に通えます。グループはthe SILKやzen placeが人気です。少人数制ならHabit Pilatesがおすすめです。まずは体験で試してみることをおすすめします。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -250,8 +250,8 @@ export default function HirooPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス広尾おすすめ6選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス広尾おすすめ6選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -274,29 +274,11 @@ export default function HirooPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「広尾で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、広尾エリアでおすすめのピラティススタジオ6選をまとめました。
+              本ページでは、広尾エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -321,7 +303,7 @@ export default function HirooPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -389,25 +371,25 @@ export default function HirooPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">東京メトロ日比谷線「広尾駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  広尾エリアのスタジオは広尾駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。広尾駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  広尾エリアのスタジオは広尾駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。広尾駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">少人数制スタジオは早めの予約がカギ</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  広尾は少人数制やプライベートレッスンを重視するスタジオが多く、1クラスの定員が少ないため予約が早く埋まりがちです。特にマシンピラティスは定員4〜8名のスタジオが主流なので、希望の時間帯があれば早めに予約を。キャンセル待ち制度のあるスタジオを選ぶと安心です。
+                  広尾は少人数制やプライベートレッスンを重視するスタジオが多く、1クラスの定員が少ないため予約が早く埋まりがちです。特にマシンピラティスは定員4〜8名のスタジオが主流なので、希望の時間帯があれば早めのご予約をおすすめします。キャンセル待ち制度のあるスタジオを選ぶと安心です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  広尾エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ず確認しましょう。月の途中入会は日割り計算になるかも要チェックです。
+                  広尾エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ずご確認ください。月の途中入会は日割り計算になるかもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  広尾エリアだけでなく、近隣の<Link href="/area/azabujuban/" className="text-warm-700 underline hover:text-warm-900">麻布十番</Link>、<Link href="/area/ebisu/" className="text-warm-700 underline hover:text-warm-900">恵比寿</Link>、<Link href="/area/roppongi/" className="text-warm-700 underline hover:text-warm-900">六本木</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  広尾エリアだけでなく、近隣の<Link href="/area/azabujuban/" className="text-warm-700 underline hover:text-warm-900">麻布十番</Link>、<Link href="/area/ebisu/" className="text-warm-700 underline hover:text-warm-900">恵比寿</Link>、<Link href="/area/roppongi/" className="text-warm-700 underline hover:text-warm-900">六本木</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -425,19 +407,19 @@ export default function HirooPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
@@ -459,9 +441,9 @@ export default function HirooPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円台で通えるスタジオ。
+                  月額1万円台で通えるスタジオです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Habit Pilates（月2回 9,800円〜）</li>
@@ -471,7 +453,7 @@ export default function HirooPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  マンツーマンで効果的に。
+                  マンツーマン指導で効率よく取り組めます。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• STUDIO IVY（月2回 15,000円〜）</li>
@@ -480,7 +462,7 @@ export default function HirooPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性だけの安心空間。
+                  女性だけの安心空間です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• the SILK 広尾（月3回 12,980円〜）</li>
@@ -499,15 +481,15 @@ export default function HirooPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回からスタート。最低2-3ヶ月継続で効果を実感。
+                週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回がおすすめ。3-6ヶ月で目に見える変化。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。
+                週1回のペースで無理なく継続することをおすすめします。
               </p>
             </div>
           </div>
@@ -524,7 +506,7 @@ export default function HirooPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜12,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月2〜4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループ・少人数制。
+                  グループ・少人数制です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Habit Pilates（9,800円〜/月2回）</li>
@@ -536,7 +518,7 @@ export default function HirooPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜16,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月3〜4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン専門スタジオ。
+                  マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• the SILK（12,980円〜）</li>
@@ -547,7 +529,7 @@ export default function HirooPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 15,000円〜</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">パーソナル</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  完全オーダーメイド。
+                  完全オーダーメイドです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• STUDIO IVY（15,000円〜/月2回）</li>
@@ -579,7 +561,7 @@ export default function HirooPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  広尾エリアの料金相場はグループ月4回で10,450円〜15,070円。入会金やキャンペーンも確認しましょう。
+                  広尾エリアの料金相場はグループ月4回で10,450円〜15,070円です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -588,7 +570,7 @@ export default function HirooPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKは無料体験、zen placeは2,000円で体験可能。STUDIO IVYは4,500円でパーソナル体験。気軽に試してみましょう。
+                  the SILKは無料体験、zen placeは2,000円で体験可能です。STUDIO IVYは4,500円でパーソナル体験です。体験レッスンで実際の雰囲気をご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -597,7 +579,7 @@ export default function HirooPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  広尾エリアは日比谷線が利用可能。Habit Pilatesは広尾駅徒歩2分、the SILKは徒歩4分とアクセス良好。
+                  広尾エリアは日比谷線が利用可能です。Habit Pilatesは広尾駅徒歩2分、the SILKは徒歩4分とアクセス良好です。
                 </p>
               </div>
             </div>
@@ -640,13 +622,13 @@ export default function HirooPage() {
               今回は広尾エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では広尾にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、広尾にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -655,11 +637,11 @@ export default function HirooPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜4,500円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜4,500円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

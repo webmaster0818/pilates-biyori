@@ -15,8 +15,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/sangenjaya/' },
-  title: '【2026年10月最新】三軒茶屋のピラティス｜初心者OK・無料体験で選ぶ料金比較',
-  description: '三軒茶屋エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  title: '【2026年10月最新】三軒茶屋のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  description: '三軒茶屋エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,三軒茶屋,東京,世田谷区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -27,13 +27,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: 'マットグループ月4回 9,625円〜',
     trial: '体験レッスン 3,300円',
-    features: ['マット&マシン', '初心者歓迎', '三軒茶屋駅世田谷通り口徒歩3分', '男性OK'],
-    description: '全国100店舗以上展開の大手ピラティススタジオ。三軒茶屋駅世田谷通り口から徒歩3分の好立地。マットグループ、マシン（リフォーマー）グループ、プライベートレッスンと幅広いメニューを提供。マットグループ月4回9,625円〜とリーズナブル。経験豊富なインストラクターが一人ひとりに合わせた丁寧な指導を行います。男性も利用可能です。',
+    features: ['マット&マシン', '初心者歓迎', '三軒茶屋駅世田谷通り口徒歩3分', '男性利用可'],
+    description: '全国100店舗以上展開の大手ピラティススタジオです。三軒茶屋駅世田谷通り口から徒歩3分の好立地です。マットグループ、マシン（リフォーマー）グループ、プライベートレッスンと幅広いメニューを提供しています。マットグループ月4回9,625円〜とリーズナブルです。経験豊富なエデュケーターが一人ひとりに合わせた丁寧な指導を行います。男性も利用可能です。',
     access: '東急田園都市線・世田谷線「三軒茶屋駅」世田谷通り口 徒歩3分',
     address: '東京都世田谷区三軒茶屋2丁目15-8 ファッションビル第1 5階',
     popularPlan: {
       name: 'マットグループ月4回プラン',
-      description: 'マットグループレッスンを月4回受講できる人気プラン。三軒茶屋駅から徒歩3分で通いやすい。',
+      description: 'マットグループレッスンを月4回受講できる人気プランです。三軒茶屋駅から徒歩3分で通いやすいです。',
       price: '月4回 9,625円〜（税込）',
     },
     options: [
@@ -59,12 +59,12 @@ const studios = [
     price: '月3回 29,700円〜',
     trial: '体験レッスン 1,000円',
     features: ['理学療法士監修', '完全マンツーマン', '体験1,000円', '三軒茶屋駅近'],
-    description: '理学療法士が監修する完全マンツーマンのマシンピラティススタジオ。一人ひとりの身体の状態を丁寧にカウンセリングし、オーダーメイドのプログラムを提供。腰痛・肩こりなどの身体の不調改善から、ボディメイクまで幅広く対応。体験レッスン1,000円、月3回29,700円、月4回38,400円。',
+    description: '理学療法士が監修する完全マンツーマンのマシンピラティススタジオです。一人ひとりの身体の状態を丁寧にカウンセリングし、オーダーメイドのプログラムを提供しています。腰痛・肩こりなどの身体の不調改善から、ボディメイクまで幅広く対応しています。体験レッスン1,000円、月3回29,700円、月4回38,400円です。',
     access: '東急田園都市線・世田谷線「三軒茶屋駅」徒歩圏内',
     address: '東京都世田谷区三軒茶屋2丁目51−34 カッサトレスB1階',
     popularPlan: {
       name: '月4回プラン',
-      description: '完全マンツーマンで理学療法士監修のオーダーメイドレッスン。',
+      description: '完全マンツーマンで理学療法士監修のオーダーメイドレッスンです。',
       price: '月4回 38,400円（税込）',
     },
     options: [
@@ -90,12 +90,12 @@ const studios = [
     price: '月4回 22,000円',
     trial: '体験レッスン 3,300円',
     features: ['マンツーマン30分', '月4回 22,000円', '体験3,300円', '三軒茶屋駅近'],
-    description: 'マシンピラティス専門のパーソナルジム。1回30分の短時間マンツーマンレッスンで、忙しい方でも効率的にトレーニングが可能。月4回22,000円とパーソナルの中ではリーズナブルな料金設定。体験レッスンは3,300円。マシンピラティスの専門トレーナーが正しいフォームで効果的に指導します。',
+    description: 'マシンピラティス専門のパーソナルジムです。1回30分の短時間マンツーマンレッスンで、忙しい方でも効率的にトレーニングが可能です。月4回22,000円とパーソナルの中ではリーズナブルな料金設定です。体験レッスンは3,300円です。マシンピラティスの専門トレーナーが正しいフォームで効果的に指導します。',
     access: '東急田園都市線・世田谷線「三軒茶屋駅」徒歩圏内',
     address: '東京都世田谷区三軒茶屋（三軒茶屋駅徒歩圏内）',
     popularPlan: {
       name: '月4回プラン',
-      description: 'マシンピラティス専門トレーナーによる30分マンツーマンレッスン。',
+      description: 'マシンピラティス専門トレーナーによる30分マンツーマンレッスンです。',
       price: '月4回 22,000円（税込）',
     },
     options: [
@@ -120,12 +120,12 @@ const studios = [
     price: '1回 1,071円〜',
     trial: '体験レッスン 1,000円',
     features: ['女性専用', 'ヨガ&ピラティス', '体験1,000円', '1回1,071円〜'],
-    description: '女性専用のヨガ＆ピラティススタジオ。1回あたり1,071円〜という圧倒的なコスパが魅力。体験レッスンも1,000円とリーズナブル。ヨガとピラティスの両方のレッスンが受けられるので、気分に合わせて選べます。アットホームな雰囲気で初心者も安心。',
+    description: '女性専用のヨガ＆ピラティススタジオです。1回あたり1,071円〜という圧倒的な費用対効果が魅力です。体験レッスンも1,000円とリーズナブルです。ヨガとピラティスの両方のレッスンが受けられるので、気分に合わせて選べます。アットホームな雰囲気で初心者も安心です。',
     access: '東急田園都市線・世田谷線「三軒茶屋駅」徒歩圏内',
     address: '東京都世田谷区三軒茶屋（三軒茶屋駅徒歩圏内）',
     popularPlan: {
       name: '通い放題プラン',
-      description: '1回あたり1,071円〜のお得なプラン。ヨガ・ピラティスどちらも受講可能。',
+      description: '1回あたり1,071円〜のお得なプランです。ヨガ・ピラティスどちらも受講可能です。',
       price: '1回 1,071円〜（税込）',
     },
     options: [
@@ -149,12 +149,12 @@ const studios = [
     price: 'プライベート30分 4,400円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', 'プライベート30分 4,400円〜', '清潔な設備', '三軒茶屋駅近'],
-    description: '女性専用のマシンピラティススタジオ。プライベートレッスンが30分4,400円〜とリーズナブルな料金設定が魅力。短時間で効率的にトレーニングができるので、忙しい女性にもおすすめ。清潔で明るい空間で、リラックスしてレッスンを受けられます。',
+    description: '女性専用のマシンピラティススタジオです。プライベートレッスンが30分4,400円〜とリーズナブルな料金設定が魅力です。短時間で効率的にトレーニングができるので、忙しい女性にもおすすめです。清潔で明るい空間で、リラックスしてレッスンを受けられます。',
     access: '東急田園都市線・世田谷線「三軒茶屋駅」徒歩圏内',
     address: '東京都世田谷区三軒茶屋（三軒茶屋駅徒歩圏内）',
     popularPlan: {
       name: 'プライベート30分プラン',
-      description: '女性専用のプライベートマシンピラティスレッスン。',
+      description: '女性専用のプライベートマシンピラティスレッスンです。',
       price: 'プライベート30分 4,400円〜（税込）',
     },
     options: [
@@ -177,12 +177,12 @@ const studios = [
     price: '月2回 15,000円〜',
     trial: '体験レッスンあり',
     features: ['完全個室', 'パーソナル', '月2回 15,000円〜', '三軒茶屋駅近'],
-    description: '完全個室のパーソナルピラティススタジオ。プライベートな空間でマンツーマン指導を受けられるので、人目を気にせずトレーニングに集中できます。月2回15,000円〜と始めやすい料金設定。一人ひとりの目標に合わせたオーダーメイドプログラムを提供。',
+    description: '完全個室のパーソナルピラティススタジオです。プライベートな空間でマンツーマン指導を受けられるので、人目を気にせずトレーニングに集中できます。月2回15,000円〜と始めやすい料金設定です。一人ひとりの目標に合わせたオーダーメイドプログラムを提供しています。',
     access: '東急田園都市線・世田谷線「三軒茶屋駅」徒歩圏内',
     address: '東京都世田谷区三軒茶屋（三軒茶屋駅徒歩圏内）',
     popularPlan: {
       name: '月2回プラン',
-      description: '完全個室でのパーソナルレッスン。まずは気軽に始めたい方に。',
+      description: '完全個室でのパーソナルレッスンです。まずは気軽に始めたい方におすすめです。',
       price: '月2回 15,000円〜（税込）',
     },
     options: [
@@ -207,12 +207,12 @@ const studios = [
     price: '月4回 13,090円／月8回 24,090円／通い放題 37,290円（公式店舗ページ・税表記なし）',
     trial: '体験レッスンあり',
     features: ['最大12名グループ', 'リフォーマー使用', '月4回13,090円', '三軒茶屋近隣'],
-    description: 'アメリカ発のマシンピラティス専門スタジオ。最大12名のグループレッスンで、リフォーマーを使った本格的なマシンピラティスを体験できます。月4回13,090円（公式店舗ページ）とグループならではのリーズナブルな料金。レベル別にクラスが分かれているので初心者も安心です。',
+    description: 'アメリカ発のマシンピラティス専門スタジオです。最大12名のグループレッスンで、リフォーマーを使った本格的なマシンピラティスを体験できます。月4回13,090円（公式店舗ページ）とグループならではのリーズナブルな料金です。レベル別にクラスが分かれているので初心者も安心です。',
     access: '三軒茶屋駅から近隣エリア',
     address: '東京都世田谷区（三軒茶屋近隣）',
     popularPlan: {
       name: '月4回プラン',
-      description: '最大12名のグループリフォーマーレッスン。',
+      description: '最大12名のグループリフォーマーレッスンです。',
       price: '月4回 13,090円（税表記なし）',
     },
     options: ['月8回 24,090円', '通い放題 37,290円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
@@ -234,12 +234,12 @@ const studios = [
     price: '月4回 11,220円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', 'マシンピラティス', '月4回 11,220円〜', '三軒茶屋近隣'],
-    description: '女性専用のマシンピラティススタジオ。リフォーマーを使ったグループレッスンで、月4回11,220円〜とリーズナブル。ボディメイクに特化したプログラムが充実しており、おしゃれなスタジオ空間でモチベーション高くトレーニングできます。',
+    description: '女性専用のマシンピラティススタジオです。リフォーマーを使ったグループレッスンで、月4回11,220円〜とリーズナブルです。ボディメイクに特化したプログラムが充実しており、おしゃれなスタジオ空間でモチベーション高くトレーニングできます。',
     access: '三軒茶屋駅から近隣エリア',
     address: '東京都世田谷区（三軒茶屋近隣）',
     popularPlan: {
       name: '月4回プラン',
-      description: '女性専用マシンピラティスグループレッスン。',
+      description: '女性専用マシンピラティスグループレッスンです。',
       price: '月4回 11,220円〜（税込）',
     },
     options: [
@@ -265,12 +265,12 @@ const studios = [
     price: '料金は店舗にお問い合わせください',
     trial: '体験レッスンあり',
     features: ['女性専用', 'マシンピラティス', 'LAVA系列', '三軒茶屋近隣'],
-    description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオ。LAVA会員なら割引が適用されるなど、ホットヨガとの併用がしやすい。清潔で明るいスタジオ環境で、初心者でも安心してマシンピラティスを始められます。',
+    description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオです。LAVA会員なら割引が適用されるなど、ホットヨガとの併用がしやすいです。清潔で明るいスタジオ環境で、初心者でも安心してマシンピラティスを始められます。',
     access: '三軒茶屋駅から近隣エリア',
     address: '東京都世田谷区三軒茶屋2-11-20 サンタワーズD棟 3F',
     popularPlan: {
       name: 'レギュラープラン',
-      description: 'LAVA系列の女性専用マシンピラティスレッスン。',
+      description: 'LAVA系列の女性専用マシンピラティスレッスンです。',
       price: '料金は店舗にお問い合わせください',
     },
     options: [
@@ -295,12 +295,12 @@ const studios = [
     price: '月4回 9,680円',
     trial: '体験レッスンあり',
     features: ['予約不要', '30分レッスン', '月4回 9,680円', '三軒茶屋近隣'],
-    description: '予約不要で通えるマシンピラティススタジオ。1回30分のレッスンで、忙しい方でも気軽にピラティスを続けられます。月4回9,680円とリーズナブル。好きな時間にふらっと立ち寄れる手軽さが魅力です。',
+    description: '予約不要で通えるマシンピラティススタジオです。1回30分のレッスンで、忙しい方でも気軽にピラティスを続けられます。月4回9,680円とリーズナブルです。好きな時間にふらっと立ち寄れる手軽さが魅力です。',
     access: '三軒茶屋駅から近隣エリア',
     address: '東京都世田谷区（三軒茶屋近隣）',
     popularPlan: {
       name: '月4回プラン',
-      description: '予約不要で30分のマシンピラティスレッスン。',
+      description: '予約不要で30分のマシンピラティスレッスンです。',
       price: '月4回 9,680円（税込）',
     },
     options: [
@@ -325,12 +325,12 @@ const studios = [
     price: '料金は店舗にお問い合わせください',
     trial: '体験レッスンあり',
     features: ['ホットヨガ&ピラティス', '予約不要', '充実の施設', '三軒茶屋近隣'],
-    description: 'ホットヨガ大手のCALDOが運営するスタジオ。ホットヨガに加えてピラティスのプログラムも充実。温かい環境でのレッスンは身体がほぐれやすく、初心者にもおすすめ。広くて清潔な施設で快適にトレーニングできます。',
+    description: 'ホットヨガ大手のCALDOが運営するスタジオです。ホットヨガに加えてピラティスのプログラムも充実しています。温かい環境でのレッスンは身体がほぐれやすく、初心者にもおすすめです。広くて清潔な施設で快適にトレーニングできます。',
     access: '三軒茶屋駅から近隣エリア',
     address: '東京都世田谷区（三軒茶屋近隣）',
     popularPlan: {
       name: 'レギュラープラン',
-      description: 'ホットヨガ＆ピラティスが受講できるプラン。',
+      description: 'ホットヨガ＆ピラティスが受講できるプランです。',
       price: '料金は店舗にお問い合わせください',
     },
     options: [
@@ -355,7 +355,7 @@ const studios = [
     price: '月4回(45分) 29,700円〜 / 月4回(60分) 39,600円〜',
     trial: '体験トレーニング 7,100円（無料キャンペーン実施店舗あり）',
     features: ['マンツーマン（パーソナル）', 'マシン・マット両対応', '医師推奨パーソナルジムNo.1受賞'],
-    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオ。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せる。三軒茶屋エリア（詳細は公式サイト参照）。',
+    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオです。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せます。三軒茶屋エリアです（詳細は公式サイト参照）。',
     access: '三軒茶屋エリア（詳細は公式サイト参照）',
     address: '東京都（詳細は公式サイト参照）',
   },
@@ -364,43 +364,43 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！三軒茶屋エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。zen place pilatesはマット&マシンの両方に対応、lulutoは理学療法士監修で身体の状態に合わせた指導が受けられます。NATURAglamやAGNIYOGAのようなアットホームなスタジオも初心者に人気です。',
+    answer: '問題ありません。三軒茶屋エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。zen place pilatesはマット&マシンの両方に対応、lulutoは理学療法士監修で身体の状態に合わせた指導が受けられます。NATURAglamやAGNIYOGAのようなアットホームなスタジオも初心者に人気です。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。マットは場所を選ばず自宅でも続けやすいのが特徴です。三軒茶屋ではzen place pilatesが両方に対応、CLUB PILATESやピラティスKがマシン専門です。',
+    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷を調整しやすく、初心者におすすめです。マットは場所を選ばず、自宅でも続けやすい点が特徴です。三軒茶屋ではzen place pilatesが両方に対応、CLUB PILATESやピラティスKがマシン専門です。',
   },
   {
     question: '三軒茶屋のピラティススタジオの料金相場は？',
-    answer: '三軒茶屋エリアのグループレッスン料金相場は、月4回で9,625円〜11,220円程度。予約不要のURBAN CLASSIC PILATESは月4回9,680円。パーソナルレッスンはELEMENTが月4回22,000円、lulutoが月3回29,700円〜。ピラティスミラーのプライベート30分4,400円〜も人気です。体験レッスンは1,000円〜3,300円が一般的です。',
+    answer: '三軒茶屋エリアのグループレッスン料金相場は、月4回で9,625円〜11,220円程度です。予約不要のURBAN CLASSIC PILATESは月4回9,680円です。パーソナルレッスンはELEMENTが月4回22,000円、lulutoが月3回29,700円〜です。ピラティスミラーのプライベート30分4,400円〜も人気です。体験レッスンは1,000円〜3,300円が一般的です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: 'ピラティス初心者は週1-2回（月4-8回）がおすすめ。慣れてきたら週2-3回に増やすと効果を実感しやすくなります。大切なのは継続すること。無理のないペースで長く続けることが、理想の身体を手に入れる近道です。',
+    answer: 'ピラティス初心者は週1〜2回（月4〜8回）がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。大切なのは継続することです。無理のないペースで長く続けることが、目標達成への近道です。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、ピラティスはダイエット効果があります。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に。ただし即効性はないので、最低でも2-3ヶ月は継続することが大切。食事管理も並行するとより効果的です。',
+    answer: 'ピラティスにはダイエット効果が期待できます。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。ただし即効性はないので、最低でも2〜3ヶ月は継続することが大切です。食事管理を並行すると、より効果的です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内で確認してくださいね。',
+    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内でご確認ください。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。ピラティスは筋力強化、ヨガは心身のバランスを整えることが主な目的。三軒茶屋にはNATURAglamやAGNIYOGAのようにヨガとピラティスの両方が受けられるスタジオもあります。',
+    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズです。ヨガは柔軟性と精神的なリラックスを重視します。ピラティスは筋力強化、ヨガは心身のバランスを整えることが主な目的です。三軒茶屋にはNATURAglamやAGNIYOGAのようにヨガとピラティスの両方が受けられるスタジオもあります。',
   },
   {
     question: 'ピラティスで肩こりや腰痛は改善しますか？',
-    answer: 'はい、改善が期待できます。特にluluto（ルルト）は理学療法士が監修しているため、腰痛や肩こりなどの身体の不調改善に強みがあります。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで根本原因を解消できます。',
+    answer: '改善が期待できます。特にluluto（ルルト）は理学療法士が監修しているため、腰痛や肩こりなどの身体の不調改善に強みがあります。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで根本原因を解消できます。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: 'ピラティスで効果が表れだすのは「2ヶ月を過ぎた頃」から。これは人間の細胞が生まれ変わるサイクルがそのくらいだからです。すぐに変化が表れなくても心配せず、最低でも2ヶ月は継続するのがおすすめです。',
+    answer: 'ピラティスの効果を実感し始めるのは、2ヶ月を過ぎた頃が目安とされています。すぐに変化が表れなくても、最低2ヶ月は継続することをおすすめします。',
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'それぞれ良さがあります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方にはluluto、ELEMENT、STUDIO IVYがおすすめ。グループはzen place pilates、CLUB PILATES、ピラティスKで料金を抑えながら楽しく続けられます。まずは体験で両方試してみるのがいいですよ。',
+    answer: 'それぞれに利点があります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方にはluluto、ELEMENT、STUDIO IVYがおすすめです。グループはzen place pilates、CLUB PILATES、ピラティスKで料金を抑えながら楽しく続けられます。まずは体験レッスンで両方を試すことをおすすめします。',
   },
 ]
 
@@ -421,8 +421,8 @@ export default function SangenjayaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス三軒茶屋おすすめ12選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス三軒茶屋おすすめ12選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -445,29 +445,11 @@ export default function SangenjayaPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「三軒茶屋で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、東急田園都市線・世田谷線「三軒茶屋駅」周辺でおすすめのピラティススタジオ12選をまとめました。三軒茶屋は渋谷まで田園都市線で2駅というアクセスの良さに加え、おしゃれなカフェや雑貨店が多い世田谷区の人気エリアです。駅近のスタジオから近隣エリアの大手スタジオまで幅広くご紹介します。
+              本ページでは、東急田園都市線・世田谷線「三軒茶屋駅」周辺でおすすめのピラティススタジオ12選をまとめました。三軒茶屋は渋谷まで田園都市線で2駅というアクセスの良さに加え、おしゃれなカフェや雑貨店が多い世田谷区の人気エリアです。駅近のスタジオから近隣エリアの大手スタジオまで幅広くご紹介します。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -496,7 +478,7 @@ export default function SangenjayaPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -550,7 +532,7 @@ export default function SangenjayaPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              三軒茶屋は住宅地としての人気が高く、地元在住の方が徒歩や自転車で通えるスタジオが充実しています。繁華街ほど料金は高くなく、かつ都心へのアクセスも良いバランスの取れたエリアです。平日昼間のクラスは比較的空いていて狙い目です。近隣の下北沢エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
+              三軒茶屋は住宅地としての人気が高く、地元在住の方が徒歩や自転車で通えるスタジオが充実しています。繁華街ほど料金は高くなく、かつ都心へのアクセスも良いバランスの取れたエリアです。平日昼間のクラスは比較的空いている傾向があります。近隣の下北沢エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
             </p>
           </div>
         </section>
@@ -565,25 +547,25 @@ export default function SangenjayaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">東急田園都市線・世田谷線「三軒茶屋駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  三軒茶屋エリアのスタジオは三軒茶屋駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。三軒茶屋駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  三軒茶屋エリアのスタジオは三軒茶屋駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。三軒茶屋駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">住宅地ならではの予約の特徴を把握</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  三軒茶屋は住宅地のため、主婦・ママ層が多い平日午前中と、仕事帰りの平日夜が予約のピークタイムです。土日は意外と空いているスタジオも多いので、狙い目の時間帯を見つけておくと通いやすくなります。子連れOKのクラスがあるスタジオもあるので、お子さまがいる方は確認してみましょう。
+                  三軒茶屋は住宅地のため、主婦・ママ層が多い平日午前中と、仕事帰りの平日夜が予約のピークタイムです。土日は意外と空いているスタジオも多いので、比較的空いている時間帯を把握しておくと通いやすくなります。子連れ可のクラスがあるスタジオもあるので、お子さまがいる方はご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">料金プランの種類と契約条件をしっかり比較</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  三軒茶屋エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかを確認しましょう。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため要チェックです。
+                  三軒茶屋エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかをご確認ください。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため、事前にご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  三軒茶屋エリアだけでなく、近隣の<Link href="/area/shimokitazawa/" className="text-warm-700 underline hover:text-warm-900">下北沢</Link>、<Link href="/area/shibuya/" className="text-warm-700 underline hover:text-warm-900">渋谷</Link>、<Link href="/area/futakotamagawa/" className="text-warm-700 underline hover:text-warm-900">二子玉川</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  三軒茶屋エリアだけでなく、近隣の<Link href="/area/shimokitazawa/" className="text-warm-700 underline hover:text-warm-900">下北沢</Link>、<Link href="/area/shibuya/" className="text-warm-700 underline hover:text-warm-900">渋谷</Link>、<Link href="/area/futakotamagawa/" className="text-warm-700 underline hover:text-warm-900">二子玉川</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -601,25 +583,25 @@ export default function SangenjayaPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>三軒茶屋エリアの豆知識：</strong>三軒茶屋は地元の方が徒歩や自転車で通うケースが多いエリアです。自転車の方はスタジオ近くの駐輪スペースの有無を確認しておきましょう。近場なら荷物も最小限で済むので、気軽に続けやすいのが三軒茶屋の良さです。
+                  <strong>三軒茶屋エリアの豆知識：</strong>三軒茶屋は地元の方が徒歩や自転車で通うケースが多いエリアです。自転車の方はスタジオ近くの駐輪スペースの有無をご確認ください。近場なら荷物も最小限で済むので、気軽に続けやすいのが三軒茶屋の良さです。
                 </p>
               </div>
             </div>
@@ -635,9 +617,9 @@ export default function SangenjayaPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円前後で通えるスタジオ。グループレッスンで気軽に始められます。
+                  月額1万円前後で通えるスタジオです。グループレッスンで気軽に始められます。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
@@ -649,7 +631,7 @@ export default function SangenjayaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  マンツーマン指導で効果を最大化。姿勢改善や身体の不調にしっかり向き合いたい方に。
+                  マンツーマン指導で効率よく取り組めます。姿勢改善や身体の不調にしっかり向き合いたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• luluto（理学療法士監修・完全マンツーマン）</li>
@@ -661,7 +643,7 @@ export default function SangenjayaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用スタジオ</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性だけの空間で安心してトレーニングしたい方に。
+                  女性だけの空間で安心してトレーニングしたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスミラー（プライベート30分 4,400円〜）</li>
@@ -684,15 +666,15 @@ export default function SangenjayaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回（月4-8回）からスタートするのがおすすめ。まずは身体を慣らすことが大切です。継続期間は最低でも2-3ヶ月。この期間で効果を実感できる方が多いですよ。
+                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感できる方が多いです。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回（月8-12回）がおすすめ。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3-6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。
+                週2〜3回（月8〜12回）がおすすめです。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3〜6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理が目的の方</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回（月4回）のペースで継続するのがおすすめ。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切。自分のペースで楽しく通えるのが一番ですよ。
+                週1回（月4回）のペースで継続するのがおすすめです。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切です。無理のないペースで通うことが大切です。
               </p>
             </div>
           </div>
@@ -709,7 +691,7 @@ export default function SangenjayaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜12,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">グループ</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。コスパ良く始めたい方に。
+                  グループレッスンが中心です。費用を抑えて始めたい方におすすめです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates（月4回 9,625円〜）</li>
@@ -723,7 +705,7 @@ export default function SangenjayaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 15,000〜22,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">パーソナル</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マンツーマン指導で効率的に。個室やプライベートレッスンが人気。
+                  マンツーマン指導で効率的に通えます。個室やプライベートレッスンが人気です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• STUDIO IVY（月2回 15,000円〜）</li>
@@ -735,7 +717,7 @@ export default function SangenjayaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 30,000円〜/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">プレミアム</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  専門家監修の完全マンツーマン。短期集中で結果を出したい方向け。
+                  専門家監修の完全マンツーマンです。短期集中で成果を目指したい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• luluto（月3回 29,700円〜）</li>
@@ -759,7 +741,7 @@ export default function SangenjayaPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  まずは自分がピラティスで何を達成したいのかを明確にしましょう。ダイエット、姿勢改善、体幹強化、リラックスなど、目的によって最適なスタジオやプログラムは変わります。身体の不調改善が目的ならlulutoの理学療法士監修プログラム、効率的なボディメイクならELEMENTの30分パーソナルやSTUDIO IVYの完全個室パーソナルがおすすめです。
+                  まずは自分がピラティスで何を達成したいのかを明確にすることをおすすめします。ダイエット、姿勢改善、体幹強化、リラックスなど、目的によって最適なスタジオやプログラムは変わります。身体の不調改善が目的ならlulutoの理学療法士監修プログラム、効率的なボディメイクならELEMENTの30分パーソナルやSTUDIO IVYの完全個室パーソナルがおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -768,7 +750,7 @@ export default function SangenjayaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  三軒茶屋エリアの料金相場は、グループレッスン月4回で9,625円〜11,220円程度、パーソナルは月2回15,000円〜月4回38,400円。無理なく継続できる予算を決めましょう。コスパ重視ならzen place pilatesの月4回9,625円〜やURBAN CLASSIC PILATESの月4回9,680円がおすすめです。
+                  三軒茶屋エリアの料金相場は、グループレッスン月4回で9,625円〜11,220円程度、パーソナルは月2回15,000円〜月4回38,400円です。無理なく継続できる予算を決めることをおすすめします。料金重視ならzen place pilatesの月4回9,625円〜やURBAN CLASSIC PILATESの月4回9,680円がおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -777,7 +759,7 @@ export default function SangenjayaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。三軒茶屋エリアでは1,000円〜3,300円で体験レッスンを提供しているスタジオが多いので、気軽に試してみてくださいね。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。三軒茶屋エリアでは1,000円〜3,300円で体験レッスンを提供しているスタジオが多いので、体験レッスンをご利用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -786,7 +768,7 @@ export default function SangenjayaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  どんなに良いスタジオでも、通いにくい場所にあると続きません。三軒茶屋は東急田園都市線と世田谷線が利用でき、渋谷まで田園都市線で2駅という好アクセス。おしゃれなカフェや雑貨店が並ぶ世田谷区の人気エリアなので、レッスン後のリフレッシュも楽しめますよ。URBAN CLASSIC PILATESのような予約不要のスタジオなら、さらに気軽に通えます。
+                  通いにくい場所にあるスタジオは、継続が難しくなります。三軒茶屋は東急田園都市線と世田谷線が利用でき、渋谷まで田園都市線で2駅という好アクセスです。おしゃれなカフェや雑貨店が並ぶ世田谷区の人気エリアなので、レッスン後のリフレッシュも楽しめます。URBAN CLASSIC PILATESのような予約不要のスタジオなら、さらに気軽に通えます。
                 </p>
               </div>
             </div>
@@ -829,13 +811,13 @@ export default function SangenjayaPage() {
               今回は三軒茶屋のおすすめピラティススタジオ12選をご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              三軒茶屋は渋谷まで田園都市線で2駅という好立地ながら、おしゃれなカフェや雑貨店が並ぶ世田谷区の住みやすいエリア。月4回9,625円〜のグループレッスンから、理学療法士監修のパーソナル、女性専用スタジオ、予約不要のスタジオまで、多彩な選択肢が揃っています。
+              三軒茶屋は渋谷まで田園都市線で2駅という好立地ながら、おしゃれなカフェや雑貨店が並ぶ世田谷区の住みやすいエリアです。月4回9,625円〜のグループレッスンから、理学療法士監修のパーソナル、女性専用スタジオ、予約不要のスタジオまで、多彩な選択肢が揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -844,11 +826,11 @@ export default function SangenjayaPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン1,000円〜3,300円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン1,000円〜3,300円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/shijo-kawaramachi/' },
   title: '【2026年10月最新】四条河原町のピラティススタジオおすすめ5選｜無料体験・料金で比較',
-  description: '四条河原町のピラティススタジオ5社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
+  description: '四条河原町のピラティススタジオ5社の料金・無料体験・マシン対応を比較しています。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
   keywords: 'ピラティス,四条河原町,京都,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place pilates,ピラティスK,アーバンクラシックピラティス,Rintosull,Pilates MUSE',
 }
 
@@ -26,20 +26,20 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
-    features: ['全国150店舗相互利用', 'マット&マシン対応', '男性OK', '駅徒歩1分'],
-    description: '全国150店舗以上を展開するzen place pilatesの京都スタジオ。四条駅12番出口から徒歩1分、河原町駅からも徒歩1分、烏丸駅から徒歩2分と3路線からアクセス抜群。マットピラティスとマシンピラティスの両方に対応し、初心者から上級者まで幅広いプログラムを提供。全国の系列店を相互利用できるため、出張や旅行先でもレッスンを継続可能。男性も通えるスタジオです。',
+    features: ['全国150店舗他店利用', 'マット&マシン対応', '男性利用可', '駅徒歩1分'],
+    description: '全国150店舗以上を展開するzen place pilatesの京都スタジオです。四条駅12番出口から徒歩1分、河原町駅からも徒歩1分、烏丸駅から徒歩2分と3路線からアクセス抜群です。マットピラティスとマシンピラティスの両方に対応し、初心者から上級者まで幅広いプログラムを提供しています。全国の系列店を他店利用できるため、出張や旅行先でもレッスンを継続可能です。男性も通えるスタジオです。',
     access: '地下鉄烏丸線「四条駅」12番出口徒歩1分 / 阪急京都線「京都河原町駅」徒歩1分 / 阪急京都線「烏丸駅」徒歩2分',
     address: '京都府京都市下京区四条通富小路西入立売東町14 イシズミ本社ビル 9階',
     popularPlan: {
       name: 'グループレッスン（月4回）',
-      description: 'マット&マシン対応のグループレッスン。全国150店舗で相互利用可能。',
+      description: 'マット&マシン対応のグループレッスンです。全国150店舗で他店利用可能です。',
       price: '月4回 10,450円〜（税込）',
     },
     options: [
       'グループレッスン（月4回 10,450円〜）',
       'マット&マシン両方対応',
       'グループ体験レッスン 1,000円',
-      '全国150店舗相互利用可能',
+      '全国150店舗他店利用可能',
       '入会金あり（詳細は公式サイト参照）',
     ],
     userProfile: {
@@ -60,12 +60,12 @@ const studios = [
     price: '月4回 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', 'マシン専門', '音楽レッスン', '体験0円'],
-    description: '女性専用のマシンピラティス専門スタジオ。音楽に合わせた独自のレッスンスタイルで、楽しみながらボディメイクができます。5パート別のプログラムで、気になる部位を集中的にアプローチ。月4回13,420円〜で本格マシンピラティスを体験可能。体験レッスンは0円で、初めての方でも気軽にお試しできます。',
+    description: '女性専用のマシンピラティス専門スタジオです。音楽に合わせた独自のレッスンスタイルで、楽しみながらボディメイクができます。5パート別のプログラムで、気になる部位を集中的にアプローチです。月4回13,420円〜で本格マシンピラティスを体験可能です。体験レッスンは0円で、初めての方でも気軽にお試しできます。',
     access: '阪急京都線「烏丸駅」周辺 / 地下鉄烏丸線「四条駅」周辺',
     address: '京都府京都市下京区四条烏丸エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'マンスリー4メンバー',
-      description: '女性専用マシンピラティス。音楽レッスンで楽しくボディメイク。5パート別プログラム。',
+      description: '女性専用マシンピラティスです。音楽レッスンで楽しくボディメイクを目指せます。5パート別プログラムです。',
       price: '月4回 13,420円〜（税込）',
     },
     options: [
@@ -92,12 +92,12 @@ const studios = [
     price: '月4回 9,680円〜',
     trial: '体験レッスンあり',
     features: ['サーキット形式', '30分完結', '予約不要', '駅徒歩3分'],
-    description: '阪急京都河原町駅から徒歩3分のサーキット形式ピラティススタジオ。30分完結のプログラムで、忙しい方でも効率的にトレーニングできます。予約不要で思い立った時にすぐ通えるのが最大の魅力。月4回9,680円〜とリーズナブルな価格設定で、手軽にマシンピラティスを始められます。',
+    description: '阪急京都河原町駅から徒歩3分のサーキット形式ピラティススタジオです。30分完結のプログラムで、忙しい方でも効率的にトレーニングできます。予約不要で思い立った時にすぐ通えるのが最大の魅力です。月4回9,680円〜とリーズナブルな価格設定で、手軽にマシンピラティスを始められます。',
     access: '阪急京都線「京都河原町駅」徒歩3分',
     address: '京都府京都市下京区四条河原町エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'マンスリー4',
-      description: 'サーキット形式の30分完結マシンピラティス。予約不要で好きな時に通える。',
+      description: 'サーキット形式の30分完結マシンピラティスです。予約不要で好きな時に通えます。',
       price: '月4回 9,680円〜（税込）',
     },
     options: [
@@ -125,12 +125,12 @@ const studios = [
     price: '月4回 8,800円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'LAVA系列', '初心者87%以上', '体験無料'],
-    description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオ。月4回8,800円〜という手頃な価格で本格マシンピラティスを体験できます。会員の87%以上が初心者からスタートしており、未経験者でも安心。体験レッスンは無料で、パーソナル姿勢診断も受けられます。LAVA系列店との併用も可能。',
+    description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオです。月4回8,800円〜という手頃な価格で本格マシンピラティスを体験できます。会員の87%以上が初心者からスタートしており、未経験者でも安心です。体験レッスンは無料で、パーソナル姿勢診断も受けられます。LAVA系列店との併用も可能です。',
     access: '阪急京都線「烏丸駅」周辺 / 地下鉄烏丸線「四条駅」周辺',
     address: '京都府京都市下京区四条通堺町西入立売中之町94 四条KSビル2F',
     popularPlan: {
       name: 'マンスリー4',
-      description: '女性専用マシンピラティス。LAVA系列の安心サービス。初心者87%以上で安心。',
+      description: '女性専用マシンピラティスです。LAVA系列の安心サービスです。初心者87%以上で安心です。',
       price: '月4回 8,800円〜（税込）',
     },
     options: [
@@ -156,12 +156,12 @@ const studios = [
     price: 'パーソナル&セルフ（詳細は公式サイト参照）',
     trial: '体験レッスンあり',
     features: ['女性専用', '有資格トレーナー', '24時間使い放題', '結果重視'],
-    description: '女性専用のマシンピラティススタジオ。有資格トレーナーによるパーソナル指導とセルフトレーニングの両方に対応。24時間使い放題で、自分のライフスタイルに合わせて通えます。結果重視のプログラムで、姿勢改善・ボディメイク・ダイエットなど具体的な目標達成をサポート。',
+    description: '女性専用のマシンピラティススタジオです。有資格トレーナーによるパーソナル指導とセルフトレーニングの両方に対応しています。24時間使い放題で、自分のライフスタイルに合わせて通えます。結果重視のプログラムで、姿勢改善・ボディメイク・ダイエットなど具体的な目標達成をサポートしています。',
     access: '阪急京都線「大宮駅」周辺 / 四条大宮エリア',
     address: '京都府京都市中京区四条大宮エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'パーソナル&セルフプラン',
-      description: '有資格トレーナーによるパーソナル指導+24時間セルフ使い放題。結果重視のプログラム。',
+      description: '有資格トレーナーによるパーソナル指導+24時間セルフ使い放題です。結果重視のプログラムです。',
       price: '詳細は公式サイト参照',
     },
     options: [
@@ -186,15 +186,15 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！四条河原町エリアのスタジオはほとんどが初心者歓迎です。Rintosullは会員の87%以上が初心者からスタート。zen place pilatesもレベル別クラスがあり安心。アーバンクラシックピラティスは30分完結のサーキット形式で気軽に始められます。',
+    answer: '問題ありません。四条河原町エリアのスタジオはほとんどが初心者歓迎です。Rintosullは会員の87%以上が初心者から始めることをおすすめします。zen place pilatesもレベル別クラスがあり安心です。アーバンクラシックピラティスは30分完結のサーキット形式で気軽に始められます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズ、マシンピラティスはリフォーマーなどの専用マシンを使用します。マシンはバネの力で負荷を調整できるため初心者にもおすすめ。zen place pilatesはマット&マシン両方に対応、その他のスタジオはマシン専門です。',
+    answer: 'マットピラティスは自重を使ったエクササイズ、マシンピラティスはリフォーマーなどの専用マシンを使用します。マシンはバネの力で負荷を調整できるため初心者にもおすすめです。zen place pilatesはマット&マシン両方に対応、その他のスタジオはマシン専門です。',
   },
   {
     question: '四条河原町のピラティスの料金相場は？',
-    answer: 'Rintosullは月4回8,800円〜、アーバンクラシックピラティスは月4回9,680円〜、zen place pilatesは月4回10,450円〜、ピラティスKは月4回13,420円〜です。目的と頻度に合わせて選びましょう。',
+    answer: 'Rintosullは月4回8,800円〜、アーバンクラシックピラティスは月4回9,680円〜、zen place pilatesは月4回10,450円〜、ピラティスKは月4回13,420円〜です。目的と頻度に合わせてお選びください。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -202,11 +202,11 @@ const faqs = [
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に変わっていきます。ピラティスKは5パート別ボディメイクで気になる部位を集中ケア。2〜3ヶ月の継続で効果を実感する方が多いです。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。ピラティスKは5パート別ボディメイクで気になる部位を集中ケアです。2〜3ヶ月の継続で効果を実感する方が多いです。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOKです。ピラティスKは体験0円、Rintosullも無料体験でパーソナル姿勢診断付き。zen place pilatesはグループ体験1,000円で気軽にお試しできます。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。ピラティスKは体験0円、Rintosullも無料体験でパーソナル姿勢診断付きです。zen place pilatesはグループ体験1,000円で気軽にお試しできます。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
@@ -234,9 +234,9 @@ export default function ShijoKawaramachiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス四条河原町おすすめ5選！
+              【2026最新】ピラティス四条河原町おすすめ5選
               <br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -259,20 +259,14 @@ export default function ShijoKawaramachiPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p>
-            <p className="text-warm-600 leading-relaxed mb-6">Pilates-Biyori編集部です！</p>
-            <p className="text-warm-600 leading-relaxed mb-6">あなたは、</p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p>
-            <p className="text-warm-600 leading-relaxed mb-6">「四条河原町で人気のピラティススタジオを知りたい」</p>
-            <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              四条河原町は京都最大の繁華街で、阪急京都線・京都市営地下鉄烏丸線・京阪本線が交差する交通の要衝。四条通と河原町通の交差点を中心に、百貨店やショッピングモールが建ち並ぶ京都随一のエリアです。そんな四条河原町エリアには、全国展開の大手チェーンから個性派スタジオまで、多彩なピラティススタジオが揃っています。
+              四条河原町は京都最大の繁華街で、阪急京都線・京都市営地下鉄烏丸線・京阪本線が交差する交通の要衝です。四条通と河原町通の交差点を中心に、百貨店やショッピングモールが建ち並ぶ京都随一のエリアです。そんな四条河原町エリアには、全国展開の大手チェーンから個性派スタジオまで、多彩なピラティススタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、四条河原町エリアでおすすめの実在するピラティススタジオ5選をまとめました。
+              本ページでは、四条河原町エリアでおすすめの実在するピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -284,7 +278,7 @@ export default function ShijoKawaramachiPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
-                  <span>コスパの良いスタジオを知りたい</span>
+                  <span>料金を抑えられるスタジオを知りたい</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -296,7 +290,7 @@ export default function ShijoKawaramachiPage() {
                 </li>
               </ul>
             </div>
-            <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
+            <p className="text-warm-600 leading-relaxed">以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。</p>
           </div>
         </section>
 
@@ -348,7 +342,7 @@ export default function ShijoKawaramachiPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              四条河原町は観光地としても人気のエリアですが、地元の方が日常的に通えるスタジオも増えています。町家を改装したスタジオなど四条河原町ならではの趣ある空間でピラティスを楽しめるのが魅力。料金は大阪と同程度か、やや抑えめの傾向です。近隣の烏丸御池エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
+              四条河原町は観光地としても人気のエリアですが、地元の方が日常的に通えるスタジオも増えています。町家を改装したスタジオなど四条河原町ならではの趣ある空間でピラティスを楽しめるのが魅力です。料金は大阪と同程度か、やや抑えめの傾向です。近隣の烏丸御池エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
             </p>
           </div>
         </section>
@@ -363,25 +357,25 @@ export default function ShijoKawaramachiPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">地下鉄烏丸線「四条駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  四条河原町エリアのスタジオは四条駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。四条駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  四条河原町エリアのスタジオは四条駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。四条駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">観光客と地元利用者で混雑時間が異なる</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  四条河原町は観光地としても有名なため、観光客向けの体験プランと地元向けの月額プランが分かれているスタジオもあります。紅葉や桜のシーズンは周辺の混雑で移動に時間がかかることがあるため、余裕を持ったスケジュールで通いましょう。地元在住なら平日昼間が穴場です。
+                  四条河原町は観光地としても有名なため、観光客向けの体験プランと地元向けの月額プランが分かれているスタジオもあります。紅葉や桜のシーズンは周辺の混雑で移動に時間がかかることがあるため、余裕を持ったスケジュールで通うことをおすすめします。地元にお住まいの方は、平日昼間が比較的予約を取りやすい時間帯です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">料金プランの種類と契約条件をしっかり比較</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  四条河原町エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかを確認しましょう。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため要チェックです。
+                  四条河原町エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかをご確認ください。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため、事前にご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  四条河原町エリアだけでなく、近隣の<Link href="/area/karasuma-oike/" className="text-warm-700 underline hover:text-warm-900">烏丸御池</Link>、<Link href="/area/gion-shijo/" className="text-warm-700 underline hover:text-warm-900">祇園四条</Link>、<Link href="/area/kyoto-station/" className="text-warm-700 underline hover:text-warm-900">京都駅</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  四条河原町エリアだけでなく、近隣の<Link href="/area/karasuma-oike/" className="text-warm-700 underline hover:text-warm-900">烏丸御池</Link>、<Link href="/area/gion-shijo/" className="text-warm-700 underline hover:text-warm-900">祇園四条</Link>、<Link href="/area/kyoto-station/" className="text-warm-700 underline hover:text-warm-900">京都駅</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -399,25 +393,25 @@ export default function ShijoKawaramachiPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>四条河原町エリアの豆知識：</strong>四条河原町は四季折々の風情が楽しめるエリアです。観光シーズンは周辺の混雑で移動に時間がかかることがあるため、時間に余裕を持って出発しましょう。町家スタジオなど四条河原町ならではの空間でピラティスを楽しめるのも魅力のひとつです。
+                  <strong>四条河原町エリアの豆知識：</strong>四条河原町は四季折々の風情が楽しめるエリアです。観光シーズンは周辺の混雑で移動に時間がかかることがあるため、時間に余裕を持って出発することをおすすめします。町家スタジオなど四条河原町ならではの空間でピラティスを楽しめるのも魅力のひとつです。
                 </p>
               </div>
             </div>
@@ -431,8 +425,8 @@ export default function ShijoKawaramachiPage() {
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">目的別おすすめスタジオ</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
-                <p className="text-warm-600 text-sm mb-4">月額8,800円〜のスタジオも。</p>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
+                <p className="text-warm-600 text-sm mb-4">月額8,800円〜のスタジオもあります。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li>
                   <li className="text-warm-700">• アーバンクラシックピラティス（月4回 9,680円〜）</li>
@@ -441,7 +435,7 @@ export default function ShijoKawaramachiPage() {
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
-                <p className="text-warm-600 text-sm mb-4">マンツーマンで丁寧な指導。</p>
+                <p className="text-warm-600 text-sm mb-4">マンツーマンで丁寧な指導です。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Pilates MUSE（有資格トレーナー・結果重視）</li>
                   <li className="text-warm-700">• zen place pilates（プライベートレッスン対応）</li>
@@ -449,7 +443,7 @@ export default function ShijoKawaramachiPage() {
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">ライフスタイル重視</h3>
-                <p className="text-warm-600 text-sm mb-4">24時間利用や予約不要も。</p>
+                <p className="text-warm-600 text-sm mb-4">24時間利用や予約不要のスタジオもあります。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Pilates MUSE（24時間使い放題）</li>
                   <li className="text-warm-700">• アーバンクラシックピラティス（予約不要・30分完結）</li>
@@ -467,15 +461,15 @@ export default function ShijoKawaramachiPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1〜2回からスタートするのがおすすめ。最低2〜3ヶ月継続することで効果を実感できます。Rintosullは初心者87%以上で安心、zen place pilatesもレベル別クラスがあり初心者専用レッスンから始められます。
+                週1〜2回からスタートするのがおすすめです。最低2〜3ヶ月継続することで効果を実感できます。Rintosullは初心者87%以上で安心、zen place pilatesもレベル別クラスがあり初心者専用レッスンから始められます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2〜3回がおすすめ。3〜6ヶ月で目に見える変化を実感できます。ピラティスKの5パート別ボディメイクなら気になる部位を集中ケア。Pilates MUSEは結果重視のプログラムで目標達成をサポート。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化を実感できます。ピラティスKの5パート別ボディメイクなら気になる部位を集中ケアです。Pilates MUSEは結果重視のプログラムで目標達成をサポートしています。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。アーバンクラシックピラティスは予約不要・30分完結なので忙しい方でも続けやすい。Pilates MUSEは24時間使い放題で自分のペースで通えます。
+                週1回のペースで無理なく継続することをおすすめします。アーバンクラシックピラティスは予約不要・30分完結なので忙しい方でも続けやすいです。Pilates MUSEは24時間使い放題で自分のペースで通えます。
               </p>
             </div>
           </div>
@@ -489,7 +483,7 @@ export default function ShijoKawaramachiPage() {
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">手軽に始めたい方に。</p>
+                <p className="text-sm text-warm-600 mb-4">手軽に始めたい方に適しています。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Rintosull（8,800円〜/月4回）</li>
                   <li>• アーバンクラシック（9,680円〜/月4回）</li>
@@ -499,7 +493,7 @@ export default function ShijoKawaramachiPage() {
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 10,000〜14,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">週1回ペースで着実に成果。</p>
+                <p className="text-sm text-warm-600 mb-4">週1回ペースで着実に成果です。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates（10,450円〜/月4回）</li>
                   <li>• ピラティスK（13,420円〜/月4回）</li>
@@ -508,7 +502,7 @@ export default function ShijoKawaramachiPage() {
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">パーソナル・通い放題</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">結果重視</p>
-                <p className="text-sm text-warm-600 mb-4">本気でボディメイクしたい方に。</p>
+                <p className="text-sm text-warm-600 mb-4">本気でボディメイクしたい方におすすめです。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Pilates MUSE（パーソナル&24時間セルフ）</li>
                   <li>• 有資格トレーナーの指導で結果にコミット</li>
@@ -529,7 +523,7 @@ export default function ShijoKawaramachiPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ダイエット、姿勢改善、ボディメイク、健康維持など、目的によって最適なスタジオは変わります。部位別ボディメイクならピラティスK、結果重視ならPilates MUSE、初心者なら87%が初心者のRintosullがおすすめ。
+                  ダイエット、姿勢改善、ボディメイク、健康維持など、目的によって最適なスタジオは変わります。部位別ボディメイクならピラティスK、結果重視ならPilates MUSE、初心者なら87%が初心者のRintosullがおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -538,7 +532,7 @@ export default function ShijoKawaramachiPage() {
                   <h3 className="text-xl font-bold text-warm-900">レッスン形式を選ぶ</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  四条河原町エリアはグループ（zen place pilates）、マシン専門（ピラティスK）、サーキット形式（アーバンクラシック）、パーソナル（Pilates MUSE）と多彩な形式が揃っています。自分の好みや予算に合わせて選びましょう。
+                  四条河原町エリアはグループ（zen place pilates）、マシン専門（ピラティスK）、サーキット形式（アーバンクラシック）、パーソナル（Pilates MUSE）と多彩な形式が揃っています。自分の好みや予算に合わせてお選びください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -547,7 +541,7 @@ export default function ShijoKawaramachiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ピラティスKは体験0円、Rintosullも無料体験でパーソナル姿勢診断付き。zen place pilatesはグループ体験1,000円。まずは体験で雰囲気やインストラクターとの相性を確認しましょう。
+                  ピラティスKは体験0円、Rintosullも無料体験でパーソナル姿勢診断付きです。zen place pilatesはグループ体験1,000円です。まずは体験で雰囲気やインストラクターとの相性をご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -556,7 +550,7 @@ export default function ShijoKawaramachiPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  四条河原町は阪急・地下鉄・京阪の3路線が利用でき交通アクセス抜群。zen place pilatesは四条駅から徒歩1分、アーバンクラシックは河原町駅から徒歩3分。Pilates MUSEは24時間利用可能、アーバンクラシックは予約不要で柔軟に通えます。
+                  四条河原町は阪急・地下鉄・京阪の3路線が利用でき交通アクセス抜群です。zen place pilatesは四条駅から徒歩1分、アーバンクラシックは河原町駅から徒歩3分です。Pilates MUSEは24時間利用可能、アーバンクラシックは予約不要で柔軟に通えます。
                 </p>
               </div>
             </div>
@@ -593,22 +587,22 @@ export default function ShijoKawaramachiPage() {
               今回は四条河原町エリアのおすすめピラティススタジオ5選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              四条河原町は京都最大の繁華街で、阪急・地下鉄・京阪の3路線が利用できる好立地。全国150店舗で相互利用可能なzen place pilates（グループ体験1,000円）、女性専用マシン専門のピラティスK（体験0円）、予約不要・30分完結のアーバンクラシックピラティス（月4回9,680円〜）、LAVA系列で初心者87%以上のRintosull（体験無料）、有資格トレーナーによる結果重視のPilates MUSE（24時間使い放題）と、それぞれ特徴の異なるスタジオが揃っています。
+              四条河原町は京都最大の繁華街で、阪急・地下鉄・京阪の3路線が利用できる好立地です。全国150店舗で他店利用可能なzen place pilates（グループ体験1,000円）、女性専用マシン専門のピラティスK（体験0円）、予約不要・30分完結のアーバンクラシックピラティス（月4回9,680円〜）、LAVA系列で初心者87%以上のRintosull（体験無料）、有資格トレーナーによる結果重視のPilates MUSE（24時間使い放題）と、それぞれ特徴の異なるスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              まずは無料体験ができるピラティスKやRintosullから試してみるのがおすすめです。ぜひこの記事を参考に、自分に合うピラティススタジオを見つけてくださいね。
+              まずは無料体験ができるピラティスKやRintosullから試してみるのがおすすめです。本ページの情報を、スタジオ選びにお役立てください。
             </p>
-            <p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p>
+            <p className="text-warm-700 font-medium text-center">本ページが、ピラティススタジオ選びの参考になれば幸いです。</p>
           </div>
         </section>
 
         {/* CTA */}
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンのご予約</h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              ピラティスKとRintosullは体験0円。<br />
-              まずは気軽に体験してみましょう。
+              ピラティスKとRintosullは体験0円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

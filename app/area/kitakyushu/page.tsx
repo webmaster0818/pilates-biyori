@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kitakyushu/' },
-  title: '【2026年10月最新】ピラティス北九州おすすめ6選！人気スタジオの料金プランを簡単比較！',
-  description: '北九州エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。小倉・八幡エリアで初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス北九州おすすめ6選人気スタジオの料金プランの比較',
+  description: '北九州エリアのおすすめピラティススタジオ6選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。小倉・八幡エリアで初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,北九州,小倉,八幡,福岡,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -26,11 +26,11 @@ const studios = [
     image: '/images/studios/club-pilates.webp',
     price: '料金は店舗により異なる（公式の店舗ページで確認）',
     trial: '体験レッスン 無料（30分）',
-    features: ['世界最大級', '15種類の器具', '男性OK', '4段階レベル'],
-    description: '世界最大級のマシンピラティスブランド。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類の器具を完備。8つのプログラムと4段階のレベル分けで初心者から上級者まで対応。',
+    features: ['世界最大級', '15種類の器具', '男性利用可', '4段階レベル'],
+    description: '世界最大級のマシンピラティスブランドです。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類の器具を完備しています。8つのプログラムと4段階のレベル分けで初心者から上級者まで対応しています。',
     access: 'JR「小倉駅」周辺',
     address: '福岡県北九州市小倉北区（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'グループ月4回プラン', description: '15種類の器具を使った本格グループレッスン。', price: '店舗により異なる（公式の店舗ページで確認）' },
+    popularPlan: { name: 'グループ月4回プラン', description: '15種類の器具を使った本格グループレッスンです。', price: '店舗により異なる（公式の店舗ページで確認）' },
     options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['体幹強化', '姿勢改善', 'ボディメイク', 'パフォーマンス向上'] },
     basicInfo: { hours: '月〜金 7:00-21:00 / 土日 7:00-18:00', closed: '不定休', facilities: ['リフォーマー', 'スプリングボード', 'TRX', 'チェア', 'Bosu'] },
@@ -41,11 +41,11 @@ const studios = [
     image: '/images/studios/rintosull.webp',
     price: '月4回 8,800円〜',
     trial: '体験レッスン 無料',
-    features: ['LAVA系列', '女性専用', 'コスパ抜群', '大型スクリーン'],
-    description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオ。月4回8,800円のリーズナブルな料金。大型スクリーンを使った分かりやすいレッスン。87%以上が初心者で未経験者も安心。',
+    features: ['LAVA系列', '女性専用', '割安', '大型スクリーン'],
+    description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオです。月4回8,800円のリーズナブルな料金です。大型スクリーンを使った分かりやすいレッスンです。87%以上が初心者で未経験者も安心です。',
     access: 'JR「小倉駅」周辺',
     address: '福岡県北九州市小倉北区米町1-1-7 小倉駅前奥田ビル2F',
-    popularPlan: { name: 'マシンピラティス月4回プラン', description: 'リフォーマーを使った本格マシンピラティス。1回あたり2,200円。', price: '月4回 8,800円（税込）' },
+    popularPlan: { name: 'マシンピラティス月4回プラン', description: 'リフォーマーを使った本格マシンピラティスです。1回あたり2,200円です。', price: '月4回 8,800円（税込）' },
     options: ['通い放題プラン', 'プレミアムフリーフルタイム（LAVA等全店利用可）', '施設使用料あり', '無料体験あり'],
     userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', 'ダイエット', 'ヨガ&ピラティス両方', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマーマシン', '大型スクリーン', '更衣室', 'ロッカー', 'シャワー'] },
@@ -57,10 +57,10 @@ const studios = [
     price: '月4回 13,420円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'イオンモール内', '駐車場無料', '部位別プログラム'],
-    description: '「30歳からの本気ボディメイク」がコンセプトの女性限定マシンピラティス専門スタジオ。イオンモール八幡東内で買い物ついでに通える好立地。部位別プログラムが充実。',
+    description: '「30歳からの本気ボディメイク」がコンセプトの女性限定マシンピラティス専門スタジオです。イオンモール八幡東内で買い物ついでに通える好立地です。部位別プログラムが充実しています。',
     access: 'イオンモール八幡東内',
     address: '福岡県北九州市八幡東区東田（イオンモール八幡東内）',
-    popularPlan: { name: 'マンスリー4メンバー', description: '月4回のグループマシンピラティス。', price: '月4回 13,420円（税込）' },
+    popularPlan: { name: 'マンスリー4メンバー', description: '月4回のグループマシンピラティスです。', price: '月4回 13,420円（税込）' },
     options: ['マンスリー8メンバー', 'マンスリーフルメンバー', '体験レッスン無料', '入会金 5,500円'],
     userProfile: { ageRange: '30代〜50代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', 'ダイエット', '部位別トレーニング', '運動不足解消'] },
     basicInfo: { hours: 'イオンモール営業時間に準ずる', closed: 'イオンモール休館日', facilities: ['リフォーマー', '更衣室', 'ロッカー'] },
@@ -71,10 +71,10 @@ const studios = [
     price: '月額 5,500円〜',
     trial: '体験レッスンあり',
     features: ['小倉駅直結', 'サウナ完備', '女性専用', '個室シャワー'],
-    description: '小倉駅直結のマシンピラティススタジオ。サウナと個室シャワーを完備。女性専用で月額5,500円〜のリーズナブルな料金設定。雨の日でも快適アクセス。',
+    description: '小倉駅直結のマシンピラティススタジオです。サウナと個室シャワーを完備しています。女性専用で月額5,500円〜のリーズナブルな料金設定です。雨の日でも快適アクセスです。',
     access: 'JR「小倉駅」直結',
     address: '福岡県北九州市小倉北区小倉駅前エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: '月額プラン', description: 'マシンピラティスのグループレッスン。サウナ付き。', price: '月額 5,500円〜（税込）' },
+    popularPlan: { name: '月額プラン', description: 'マシンピラティスのグループレッスンです。サウナ付きです。', price: '月額 5,500円〜（税込）' },
     options: ['サウナ利用可', '個室シャワー完備', '女性専用', '体験レッスンあり'],
     userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', 'ダイエット', 'リフレッシュ', '運動不足解消'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマーマシン', 'サウナ', '個室シャワー', '更衣室', 'ロッカー'] },
@@ -86,10 +86,10 @@ const studios = [
     price: 'ライト 月2回 14,800円〜（税込）',
     trial: '初回体験 2,980円（税込・通常9,900円・LINE予約限定）',
     features: ['理学療法士在籍', '完全パーソナル', 'オーダーメイド', '医療系資格者'],
-    description: '理学療法士・作業療法士などの医療系国家資格保持者が指導する完全パーソナルピラティススタジオ。身体のプロによるオーダーメイドプログラムで、姿勢改善や痛み改善に効果的。',
+    description: '理学療法士・作業療法士などの医療系国家資格保持者が指導する完全パーソナルピラティススタジオです。身体のプロによるオーダーメイドプログラムで、姿勢改善や痛み改善に効果的です。',
     access: 'JR「小倉駅」周辺',
     address: '福岡県北九州市小倉北区（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: '月額会員プラン', description: '医療系資格者によるマンツーマンレッスン（50分）。ライト月2回・スタンダード月4回・プレミアム月7回。', price: 'ライト 14,800円／スタンダード 28,800円／プレミアム 47,600円（税込）' },
+    popularPlan: { name: '月額会員プラン', description: '医療系資格者によるマンツーマンレッスンです（50分）。ライト月2回・スタンダード月4回・プレミアム月7回です。', price: 'ライト 14,800円／スタンダード 28,800円／プレミアム 47,600円（税込）' },
     options: ['都度払い 1回 9,900円', 'オーダーメイドプログラム', '姿勢分析あり', '初回体験 2,980円（税込・LINE予約限定）'],
     userProfile: { ageRange: '30代〜60代が中心', genderRatio: '女性70% / 男性30%', purpose: ['姿勢改善', '痛み改善', 'リハビリ', '体幹強化'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'チェア', 'バレル', '各種ピラティス器具'] },
@@ -100,10 +100,10 @@ const studios = [
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ['少人数制', 'シルクサスペンション', 'ヨガ&ピラティス', '小倉南区'],
-    description: '小倉南区のヨガ・ピラティス・シルクサスペンションスタジオ。少人数制で多彩なプログラムを提供。シルクサスペンションなど他にはないプログラムも楽しめます。',
+    description: '小倉南区のヨガ・ピラティス・シルクサスペンションスタジオです。少人数制で多彩なプログラムを提供しています。シルクサスペンションなど他にはないプログラムも楽しめます。',
     access: '北九州市小倉南区',
     address: '福岡県北九州市小倉南区（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'ピラティスレッスン', description: '少人数制のピラティス・ヨガ・シルクサスペンション。', price: '要問合せ（公式サイト参照）' },
+    popularPlan: { name: 'ピラティスレッスン', description: '少人数制のピラティス・ヨガ・シルクサスペンションです。', price: '要問合せ（公式サイト参照）' },
     options: ['ピラティスクラス', 'ヨガクラス', 'シルクサスペンション', '体験レッスンあり'],
     userProfile: { ageRange: '30代〜50代が中心', genderRatio: '女性90% / 男性10%', purpose: ['柔軟性向上', '姿勢改善', 'リフレッシュ', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['マット', 'シルクサスペンション', '更衣室', 'ロッカー'] },
@@ -111,15 +111,15 @@ const studios = [
 ]
 
 const faqs = [
-  { question: '北九州でピラティス初心者におすすめのスタジオは？', answer: 'Rintosull小倉店は会員の87%以上が初心者で、月4回8,800円とリーズナブル。CLUB PILATESは4段階のレベル分けで段階的にステップアップできます。' },
-  { question: '北九州のピラティスの料金相場は？', answer: 'スターピラティスは月額5,500円〜と最安級。Rintosullは月4回8,800円、pilates Kは月4回13,420円、CLUB PILATESは月4回 10,890〜17,050円（店舗により異なる）が目安です。' },
-  { question: 'マシンピラティスとマットピラティスの違いは？', answer: 'マシンピラティスはリフォーマー等の専用マシンを使い、負荷調整しやすく初心者にもおすすめ。マットピラティスは自重中心のエクササイズです。' },
+  { question: '北九州でピラティス初心者におすすめのスタジオは？', answer: 'Rintosull小倉店は会員の87%以上が初心者で、月4回8,800円とリーズナブルです。CLUB PILATESは4段階のレベル分けで段階的にステップアップできます。' },
+  { question: '北九州のピラティスの料金相場は？', answer: 'スターピラティスは月額5,500円〜と最安級です。Rintosullは月4回8,800円、pilates Kは月4回13,420円、CLUB PILATESは月4回 10,890〜17,050円（店舗により異なる）が目安です。' },
+  { question: 'マシンピラティスとマットピラティスの違いは？', answer: 'マシンピラティスはリフォーマー等の専用マシンを使い、負荷調整しやすく初心者にもおすすめです。マットピラティスは自重中心のエクササイズです。' },
   { question: '男性が通えるスタジオはありますか？', answer: 'CLUB PILATES小倉店とピラティススタジオDEP、Heart&Body Studio Leadは男性も受講可能です。' },
-  { question: '体験レッスンは何を持っていけばいい？', answer: '動きやすい服装、飲み物、フェイスタオル、滑り止め付き靴下があればOK。CLUB PILATESとRintosullは無料体験を実施中。' },
-  { question: '車で通えるスタジオはありますか？', answer: 'pilates Kイオンモール八幡東店は駐車場無料。スターピラティスはセントシティ地下駐車場3時間無料。他のスタジオも周辺にコインパーキングがあります。' },
-  { question: 'どのくらいの頻度で通えばいい？', answer: '初心者は週1〜2回がおすすめ。慣れてきたら週2〜3回に増やすと効果を実感しやすいです。最低2〜3ヶ月の継続が大切。' },
-  { question: '小倉駅から近いスタジオは？', answer: 'スターピラティスは小倉駅直結。CLUB PILATES・Rintosullも小倉駅周辺にあり、徒歩圏内でアクセス良好です。' },
-  { question: 'パーソナルレッスンが受けられるスタジオは？', answer: 'ピラティススタジオDEPは理学療法士による完全マンツーマンレッスン。CLUB PILATESもプライベートレッスンを提供しています（料金は店舗で確認）。' },
+  { question: '体験レッスンは何を持っていけばいい？', answer: '動きやすい服装、飲み物、フェイスタオル、滑り止め付き靴下があれば可能です。CLUB PILATESとRintosullは無料体験を実施中です。' },
+  { question: '車で通えるスタジオはありますか？', answer: 'pilates Kイオンモール八幡東店は駐車場無料です。スターピラティスはセントシティ地下駐車場3時間無料です。他のスタジオも周辺にコインパーキングがあります。' },
+  { question: 'どのくらいの頻度で通えばいい？', answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすいです。最低2〜3ヶ月の継続が大切です。' },
+  { question: '小倉駅から近いスタジオは？', answer: 'スターピラティスは小倉駅直結です。CLUB PILATES・Rintosullも小倉駅周辺にあり、徒歩圏内でアクセス良好です。' },
+  { question: 'パーソナルレッスンが受けられるスタジオは？', answer: 'ピラティススタジオDEPは理学療法士による完全マンツーマンレッスンです。CLUB PILATESもプライベートレッスンを提供しています（料金は店舗で確認）。' },
   { question: 'ピラティスはどのくらいで効果が出る？', answer: '個人差はありますが、2ヶ月を過ぎた頃から効果を実感する方が多いです。姿勢改善は比較的早く、ボディメイクは3〜6ヶ月の継続が目安です。' },
 ]
 
@@ -139,8 +139,8 @@ export default function KitakyushuPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス北九州おすすめ6選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス北九州おすすめ6選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -161,24 +161,18 @@ export default function KitakyushuPage() {
 
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p>
-            <p className="text-warm-600 leading-relaxed mb-6">Pilates-Biyori編集部です！</p>
-            <p className="text-warm-600 leading-relaxed mb-6">あなたは、</p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">「北九州でピラティスを始めてみたい」</p>
-            <p className="text-warm-600 leading-relaxed mb-6">「小倉や八幡で人気のピラティススタジオを知りたい」</p>
-            <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
-            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、北九州エリアでおすすめのピラティススタジオ6選をまとめました。</p>
+            <p className="text-warm-600 leading-relaxed mb-8">本ページでは、北九州エリアでおすすめのピラティススタジオ6選をまとめました。</p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>北九州・小倉でピラティススタジオを探している</span></li>
                 <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみたい</span></li>
-                <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>コスパの良いスタジオを知りたい</span></li>
+                <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金を抑えられるスタジオを知りたい</span></li>
                 <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>駅近で通いやすいスタジオがいい</span></li>
                 <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較したい</span></li>
               </ul>
             </div>
-            <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
+            <p className="text-warm-600 leading-relaxed">以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。</p>
           </div>
         </section>
 
@@ -209,7 +203,7 @@ export default function KitakyushuPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              北九州エリアは福岡市内と比べると料金水準がやや低めで、ピラティスデビューにも挑戦しやすい環境です。スターピラティスの月額5,500円〜は特にリーズナブル。イオンモール八幡東のpilates Kは駐車場無料で車通いにも便利。小倉駅周辺にスタジオが集中しているため、複数の体験レッスンを比較検討しやすいのも特徴です。
+              北九州エリアは福岡市内と比べると料金水準がやや低めで、ピラティスデビューにも挑戦しやすい環境です。スターピラティスの月額5,500円〜は特にリーズナブルです。イオンモール八幡東のpilates Kは駐車場無料で車通いにも便利です。小倉駅周辺にスタジオが集中しているため、複数の体験レッスンを比較検討しやすいのも特徴です。
             </p>
           </div>
         </section>
@@ -220,11 +214,11 @@ export default function KitakyushuPage() {
             <div className="space-y-6">
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">小倉駅と八幡エリアの移動時間に注意</h3>
-                <p className="text-warm-600 leading-relaxed">北九州市は東西に広く、小倉と八幡では車で30分以上離れている場合があります。通勤・通学の動線上にあるスタジオを選ぶと、長く続けやすいです。JR鹿児島本線で小倉〜八幡間は約15分ですが、駅からの距離も確認しましょう。</p>
+                <p className="text-warm-600 leading-relaxed">北九州市は東西に広く、小倉と八幡では車で30分以上離れている場合があります。通勤・通学の動線上にあるスタジオを選ぶと、長く続けやすいです。JR鹿児島本線で小倉〜八幡間は約15分ですが、駅からの距離もご確認ください。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">駐車場の有無を事前チェック</h3>
-                <p className="text-warm-600 leading-relaxed">北九州は車社会のため、駐車場の有無は重要ポイントです。pilates Kイオンモール八幡東店は大型駐車場完備。小倉駅周辺のスタジオはコインパーキングを利用する場合が多いので、駐車料金も含めた総コストを計算しておきましょう。</p>
+                <p className="text-warm-600 leading-relaxed">北九州は車社会のため、駐車場の有無は重要ポイントです。pilates Kイオンモール八幡東店は大型駐車場完備です。小倉駅周辺のスタジオはコインパーキングを利用する場合が多いので、駐車料金も含めた総コストを計算しておくことをおすすめします。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件をしっかり確認</h3>
@@ -233,7 +227,7 @@ export default function KitakyushuPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">博多・天神エリアとの比較も検討を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  北九州エリアだけでなく、<Link href="/area/hakata/" className="text-warm-700 underline hover:text-warm-900">博多</Link>や<Link href="/area/tenjin/" className="text-warm-700 underline hover:text-warm-900">天神</Link>、<Link href="/area/kokura/" className="text-warm-700 underline hover:text-warm-900">小倉</Link>エリアのスタジオも選択肢に。新幹線通勤の方は博多駅周辺のスタジオも視野に入れてみましょう。
+                  北九州エリアだけでなく、<Link href="/area/hakata/" className="text-warm-700 underline hover:text-warm-900">博多</Link>や<Link href="/area/tenjin/" className="text-warm-700 underline hover:text-warm-900">天神</Link>、<Link href="/area/kokura/" className="text-warm-700 underline hover:text-warm-900">小倉</Link>エリアのスタジオも選択肢に含めてご検討ください。新幹線通勤の方は博多駅周辺のスタジオも視野に入れてみることをおすすめします。
                 </p>
               </div>
             </div>
@@ -248,25 +242,25 @@ export default function KitakyushuPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすポーズが多いため必須です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく効果的です。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認を。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあります。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあります。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>北九州エリアの豆知識：</strong>車で通う方が多いエリアです。pilates Kイオンモール八幡東は駐車場完備でお買い物もできるので、レッスン後のお出かけにも便利。小倉駅周辺のスタジオは公共交通機関でのアクセスが良好です。
+                  <strong>北九州エリアの豆知識：</strong>車で通う方が多いエリアです。pilates Kイオンモール八幡東は駐車場完備でお買い物もできるので、レッスン後のお出かけにも便利です。小倉駅周辺のスタジオは公共交通機関でのアクセスが良好です。
                 </p>
               </div>
             </div>
@@ -278,8 +272,8 @@ export default function KitakyushuPage() {
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">目的別おすすめスタジオ</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
-                <p className="text-warm-600 text-sm mb-4">月額5,500円〜のスタジオも。</p>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
+                <p className="text-warm-600 text-sm mb-4">月額5,500円〜のスタジオもあります。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• スターピラティス（月額 5,500円〜）</li>
                   <li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li>
@@ -287,7 +281,7 @@ export default function KitakyushuPage() {
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">本格派・専門指導</h3>
-                <p className="text-warm-600 text-sm mb-4">医療系資格者による指導。</p>
+                <p className="text-warm-600 text-sm mb-4">医療系資格者による指導しています。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• DEP（理学療法士がインストラクター）</li>
                   <li className="text-warm-700">• CLUB PILATES（500時間研修済み）</li>
@@ -295,7 +289,7 @@ export default function KitakyushuPage() {
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">車で通いやすい</h3>
-                <p className="text-warm-600 text-sm mb-4">駐車場完備のスタジオ。</p>
+                <p className="text-warm-600 text-sm mb-4">駐車場完備のスタジオです。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• pilates K イオンモール八幡東（駐車場無料）</li>
                   <li className="text-warm-700">• スターピラティス（駐車場3時間無料）</li>
@@ -310,11 +304,11 @@ export default function KitakyushuPage() {
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">おすすめの期間・頻度</h2>
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
-              <p className="text-warm-600 leading-relaxed mb-6">週1-2回からスタート。最低2-3ヶ月継続で効果を実感。</p>
+              <p className="text-warm-600 leading-relaxed mb-6">週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。</p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
-              <p className="text-warm-600 leading-relaxed mb-6">週2-3回がおすすめ。3-6ヶ月で目に見える変化。</p>
+              <p className="text-warm-600 leading-relaxed mb-6">週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。</p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
-              <p className="text-warm-600 leading-relaxed">週1回のペースで無理なく継続。</p>
+              <p className="text-warm-600 leading-relaxed">週1回のペースで無理なく継続することをおすすめします。</p>
             </div>
           </div>
         </section>
@@ -326,7 +320,7 @@ export default function KitakyushuPage() {
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜9,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回〜</p>
-                <p className="text-sm text-warm-600 mb-4">コスパ重視。</p>
+                <p className="text-sm text-warm-600 mb-4">費用を抑えたい方向けです。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• スターピラティス（5,500円〜）</li>
                   <li>• Rintosull（8,800円/月4回）</li>
@@ -336,7 +330,7 @@ export default function KitakyushuPage() {
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000円〜</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">大手マシン専門。</p>
+                <p className="text-sm text-warm-600 mb-4">大手マシン専門です。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• pilates K（13,420円〜）</li>
                   <li>• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
@@ -345,7 +339,7 @@ export default function KitakyushuPage() {
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">パーソナル</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">1回9,900円〜</p>
-                <p className="text-sm text-warm-600 mb-4">専門家による個別指導。</p>
+                <p className="text-sm text-warm-600 mb-4">専門家による個別指導しています。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• DEP（1回 9,900円・月2回 14,800円〜）</li>
                   <li>• CLUB PILATES（プライベートレッスンあり・料金は店舗で確認）</li>
@@ -365,15 +359,15 @@ export default function KitakyushuPage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">予算を決める</h3></div>
-                <p className="text-warm-600 leading-relaxed">北九州の料金相場はグループ月4回で5,500円〜14,190円と幅広い。</p>
+                <p className="text-warm-600 leading-relaxed">北九州の料金相場はグループ月4回で5,500円〜14,190円と幅広いです。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div>
-                <p className="text-warm-600 leading-relaxed">CLUB PILATES・Rintosull・pilates Kは無料体験あり。2〜3ヶ所は体験してから決めましょう。</p>
+                <p className="text-warm-600 leading-relaxed">CLUB PILATES・Rintosull・pilates Kは無料体験があります。2〜3ヶ所は体験してから決めることをおすすめします。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div>
-                <p className="text-warm-600 leading-relaxed">小倉駅直結のスターピラティス、駐車場無料のpilates Kなど、ライフスタイルに合わせて選びましょう。</p>
+                <p className="text-warm-600 leading-relaxed">小倉駅直結のスターピラティス、駐車場無料のpilates Kなど、ライフスタイルに合わせてお選びください。</p>
               </div>
             </div>
           </div>
@@ -402,16 +396,16 @@ export default function KitakyushuPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
             <p className="text-warm-600 leading-relaxed mb-6">今回は北九州エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？</p>
-            <p className="text-warm-600 leading-relaxed mb-6">この記事では北九州にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。</p>
-            <p className="text-warm-600 leading-relaxed mb-6">ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。</p>
-            <p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">本ページでは、北九州にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">本ページの情報を、スタジオ選びにお役立てください。</p>
+            <p className="text-warm-700 font-medium text-center">本ページが、ピラティススタジオ選びの参考になれば幸いです。</p>
           </div>
         </section>
 
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2>
-            <p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスン無料〜。<br />まずは気軽に体験してみましょう。</p>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンのご予約</h2>
+            <p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスン無料〜です。<br />まずは体験レッスンへの参加をおすすめします。</p>
             <Link href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded">おすすめスタジオ一覧に戻る</Link>
           </div>
         </section>

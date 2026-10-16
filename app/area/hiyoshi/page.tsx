@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/hiyoshi/' },
-  title: '【2026年10月最新】ピラティス日吉おすすめ5選！人気スタジオの料金プランを簡単比較！',
-  description: '日吉エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス日吉おすすめ5選人気スタジオの料金プランの比較',
+  description: '日吉エリアのおすすめピラティススタジオ5選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,日吉,元住吉,港北区,横浜市,神奈川,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -25,11 +25,11 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp', reviewCount: 156,
     price: '月4回 10,450円〜', trial: 'グループ体験 1,000円',
-    features: ['日吉駅徒歩2分', '男性OK', 'マット&マシン', '全国相互利用'],
-    description: 'ピラティス専門の大手スタジオ。日吉駅西口から徒歩2分の好立地。マットグループ・マシングループ・プライベートの3タイプから選べます。全国150店舗以上で相互利用可能。BASIピラティスをベースにした本格指導。',
+    features: ['日吉駅徒歩2分', '男性利用可', 'マット&マシン', '全国他店利用'],
+    description: 'ピラティス専門の大手スタジオです。日吉駅西口から徒歩2分の好立地です。マットグループ・マシングループ・プライベートの3タイプから選べます。全国150店舗以上で他店利用可能です。BASIピラティスをベースにした本格指導しています。',
     access: '東急東横線・市営グリーンライン「日吉駅」西口 徒歩2分',
     address: '神奈川県横浜市港北区日吉2丁目2-14 セイワビルⅡ 202',
-    popularPlan: { name: 'フリープラン（マットグループ）', description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。', price: '月額 14,960円〜（税込）' },
+    popularPlan: { name: 'フリープラン（マットグループ）', description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。', price: '月額 14,960円〜（税込）' },
     options: ['月4回プラン（10,450円〜）', 'マシングループ体験（3,000円）', 'プライベートレッスン（体験 9,900円）', '体験当日入会で入会金無料'],
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'] },
     basicInfo: { hours: '月〜金 10:00〜20:00 / 土日祝 10:00〜16:00', closed: '不定休', facilities: ['リフォーマー', 'マット', 'ロッカー', '更衣室'] },
@@ -39,11 +39,11 @@ const studios = [
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp', reviewCount: 118,
     price: '月4回 8,800円〜', trial: '体験レッスン 無料',
-    features: ['LAVA系列', '女性専用', 'コスパ抜群', '初心者87%'],
-    description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオ。月4回8,800円のリーズナブルな料金。大型スクリーン映像に合わせてレッスンが進み、87%以上が初心者で未経験者も安心。',
+    features: ['LAVA系列', '女性専用', '割安', '初心者87%'],
+    description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオです。月4回8,800円のリーズナブルな料金です。大型スクリーン映像に合わせてレッスンが進み、87%以上が初心者で未経験者も安心です。',
     access: '東急東横線・市営グリーンライン「日吉駅」周辺',
     address: '神奈川県横浜市港北区日吉本町1-5-26日吉陽光ハイツ2階',
-    popularPlan: { name: 'マシンピラティス月4回プラン', description: 'リフォーマーを使った本格マシンピラティス。1回あたり2,200円のコスパ。', price: '月4回 8,800円（税込）' },
+    popularPlan: { name: 'マシンピラティス月4回プラン', description: 'リフォーマーを使った本格マシンピラティスです。1回あたり2,200円と割安です。', price: '月4回 8,800円（税込）' },
     options: ['2スタジオ通い放題（13,800円）', '全国通い放題（16,800円）', 'プレミアムフリーフルタイム（18,800円・LAVA等全店利用可）', '無料体験あり'],
     userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', 'ダイエット', 'ヨガ&ピラティス両方', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマーマシン', '大型スクリーン', '更衣室', 'ロッカー', 'シャワー'] },
@@ -53,10 +53,10 @@ const studios = [
     image: '/images/studios/yuzu-pilates.webp', reviewCount: 68,
     price: 'パーソナル 1回 8,800円〜', trial: '体験レッスン 500円',
     features: ['パーソナル専門', '2025年オープン', '体験500円', '完全予約制'],
-    description: '2025年3月オープンのパーソナルマシンピラティス専門スタジオ。完全予約制で1対1の丁寧な指導。体験レッスンが500円と破格で気軽に試せる。日吉駅から好アクセス。',
+    description: '2025年3月オープンのパーソナルマシンピラティス専門スタジオです。完全予約制で1対1の丁寧な指導です。体験レッスンが500円と破格で気軽に試せます。日吉駅から好アクセスです。',
     access: '東急東横線・市営グリーンライン「日吉駅」徒歩5分',
     address: '神奈川県横浜市港北区日吉エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'パーソナルレッスン', description: '完全マンツーマンのマシンピラティス。個々の体に合わせたプログラム。', price: '1回 8,800円〜（税込）' },
+    popularPlan: { name: 'パーソナルレッスン', description: '完全マンツーマンのマシンピラティスです。個々の体に合わせたプログラムです。', price: '1回 8,800円〜（税込）' },
     options: ['回数券プランあり', '月額プランあり', '体験レッスン 500円', '完全予約制'],
     userProfile: { ageRange: '30代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', 'リハビリ', '体幹強化', '柔軟性向上'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', '完全個室', '更衣室'] },
@@ -66,11 +66,11 @@ const studios = [
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
     image: '/images/studios/club-pilates.webp', reviewCount: 102,
     price: '料金は店舗により異なる（公式の店舗ページで確認）', trial: '体験レッスン 無料（30分イントロクラス）',
-    features: ['世界最大級', '15種類の器具', '男性OK', '4段階レベル分け'],
-    description: '世界最大級のマシンピラティスブランド。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類の器具を完備。8つのプログラムと4段階のレベル分け。',
+    features: ['世界最大級', '15種類の器具', '男性利用可', '4段階レベル分け'],
+    description: '世界最大級のマシンピラティスブランドです。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類の器具を完備しています。8つのプログラムと4段階のレベル分けです。',
     access: '東急東横線・市営グリーンライン「日吉駅」徒歩4分',
     address: '神奈川県横浜市港北区日吉エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'グループ月4回プラン', description: '15種類の器具を使った本格グループレッスン。4段階のレベル分けで安心。', price: '店舗により異なる（公式の店舗ページで確認）' },
+    popularPlan: { name: 'グループ月4回プラン', description: '15種類の器具を使った本格グループレッスンです。4段階のレベル分けで安心です。', price: '店舗により異なる（公式の店舗ページで確認）' },
     options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性75% / 男性25%', purpose: ['体幹強化', '姿勢改善', 'ボディメイク', 'パフォーマンス向上'] },
     basicInfo: { hours: '月〜金 7:00-21:00 / 土日 7:00-18:00', closed: '不定休', facilities: ['リフォーマー', 'スプリングボード', 'TRX', 'チェア', 'Bosu'] },
@@ -83,7 +83,7 @@ const studios = [
     priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
     trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。日吉駅から徒歩3分。',
+    description: '女性専用のマシンピラティス専門スタジオです。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴です。日吉駅から徒歩3分です。',
     access: '日吉駅 徒歩3分',
     address: '〒223-0061 神奈川県横浜市港北区日吉2-6-20 ビーハイヴ303',
     userProfile: {
@@ -101,16 +101,16 @@ const studios = [
 ]
 
 const faqs = [
-  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！日吉エリアのスタジオはほとんどが初心者歓迎。Rintosullは87%以上が初心者、CLUB PILATESは4段階のレベル分けがあります。' },
-  { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。日吉はマシン専門スタジオが充実しています。' },
-  { question: '日吉のピラティスの料金相場は？', answer: 'グループ月4回で8,800円〜10,450円程度。Rintosullが月4回8,800円で最安級。パーソナルはYUZUが1回8,800円〜。' },
-  { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。' },
-  { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。' },
-  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。YUZUは500円、Rintosull・CLUB PILATESは無料体験。' },
+  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '問題ありません。日吉エリアのスタジオはほとんどが初心者歓迎です。Rintosullは87%以上が初心者、CLUB PILATESは4段階のレベル分けがあります。' },
+  { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。日吉はマシン専門スタジオが充実しています。' },
+  { question: '日吉のピラティスの料金相場は？', answer: 'グループ月4回で8,800円〜10,450円程度です。Rintosullが月4回8,800円で最安級です。パーソナルはYUZUが1回8,800円〜です。' },
+  { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。' },
+  { question: 'ピラティスで痩せますか？', answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。' },
+  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。YUZUは500円、Rintosull・CLUB PILATESは無料体験を実施しています。' },
   { question: '男性でも通えるスタジオはありますか？', answer: 'zen place日吉、CLUB PILATES、YUZUは男性も通えます。Rintosullは女性専用です。' },
-  { question: '日吉駅から近いスタジオは？', answer: 'zen placeが駅徒歩2分で最寄り。CLUB PILATESが徒歩4分、YUZUが徒歩5分です。' },
+  { question: '日吉駅から近いスタジオは？', answer: 'zen placeが駅徒歩2分で最寄りです。CLUB PILATESが徒歩4分、YUZUが徒歩5分です。' },
   { question: 'ヨガとピラティスの両方やりたい場合は？', answer: 'Rintosullはプレミアムフリーフルタイム（18,800円）でLAVA等系列のヨガスタジオも全国で利用可能です。' },
-  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。' },
+  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。' },
 ]
 
 export default function HiyoshiPage() {
@@ -130,8 +130,8 @@ export default function HiyoshiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス日吉おすすめ5選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス日吉おすすめ5選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -154,17 +154,11 @@ export default function HiyoshiPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p>
-            <p className="text-warm-600 leading-relaxed mb-6">Pilates-Biyori編集部です！</p>
-            <p className="text-warm-600 leading-relaxed mb-6">あなたは、</p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p>
-            <p className="text-warm-600 leading-relaxed mb-6">「日吉で人気のピラティススタジオを知りたい」</p>
-            <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、日吉・元住吉エリアでおすすめのピラティススタジオ5選をまとめました。
+              本ページでは、日吉・元住吉エリアでおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>日吉でピラティススタジオを探している</span></li>
                 <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみたい</span></li>
@@ -173,7 +167,7 @@ export default function HiyoshiPage() {
                 <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較したい</span></li>
               </ul>
             </div>
-            <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
+            <p className="text-warm-600 leading-relaxed">以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。</p>
           </div>
         </section>
 
@@ -204,7 +198,7 @@ export default function HiyoshiPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              日吉は東急東横線と横浜市営グリーンラインが交差する学生と住民が多いエリア。大手チェーンから新規オープンのパーソナルスタジオまでバランスよく揃っています。近隣の<Link href="/area/musashikosugi/" className="text-warm-700 underline hover:text-warm-900">武蔵小杉</Link>エリアと比較検討する方も多いです。
+              日吉は東急東横線と横浜市営グリーンラインが交差する学生と住民が多いエリアです。大手チェーンから新規オープンのパーソナルスタジオまでバランスよく揃っています。近隣の<Link href="/area/musashikosugi/" className="text-warm-700 underline hover:text-warm-900">武蔵小杉</Link>エリアと比較検討する方も多いです。
             </p>
           </div>
         </section>
@@ -216,19 +210,19 @@ export default function HiyoshiPage() {
             <div className="space-y-6">
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">東横線とグリーンラインの出口を確認</h3>
-                <p className="text-warm-600 leading-relaxed">日吉駅は東急東横線と横浜市営グリーンラインが乗り入れています。多くのスタジオが西口側に集中しているため、利用路線によって最適な出口を確認しておきましょう。</p>
+                <p className="text-warm-600 leading-relaxed">日吉駅は東急東横線と横浜市営グリーンラインが乗り入れています。多くのスタジオが西口側に集中しているため、利用路線によって最適な出口をご確認ください。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">女性専用と男女共用を確認</h3>
-                <p className="text-warm-600 leading-relaxed">Rintosullは女性専用、zen place・CLUB PILATES・YUZUは男女共用です。男性の方は事前に対応スタジオを確認しましょう。</p>
+                <p className="text-warm-600 leading-relaxed">Rintosullは女性専用、zen place・CLUB PILATES・YUZUは男女共用です。男性の方は事前に対応スタジオをご確認ください。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件を確認</h3>
-                <p className="text-warm-600 leading-relaxed">入会金無料や初月割引のキャンペーンには最低継続期間が設定されている場合があります。契約条件をしっかり確認してから入会しましょう。</p>
+                <p className="text-warm-600 leading-relaxed">入会金無料や初月割引のキャンペーンには最低継続期間が設定されている場合があります。契約条件をしっかり確認してから入会することをおすすめします。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも視野に入れよう</h3>
-                <p className="text-warm-600 leading-relaxed">日吉から東横線で<Link href="/area/musashikosugi/" className="text-warm-700 underline hover:text-warm-900">武蔵小杉</Link>（2駅）、グリーンラインで<Link href="/area/yokohama/" className="text-warm-700 underline hover:text-warm-900">横浜</Link>方面にもスタジオが充実。通勤・通学路線上のスタジオも検討してみましょう。</p>
+                <p className="text-warm-600 leading-relaxed">日吉から東横線で<Link href="/area/musashikosugi/" className="text-warm-700 underline hover:text-warm-900">武蔵小杉</Link>（2駅）、グリーンラインで<Link href="/area/yokohama/" className="text-warm-700 underline hover:text-warm-900">横浜</Link>方面にもスタジオが充実しています。通勤・通学路線上のスタジオもご検討ください。</p>
               </div>
             </div>
           </div>
@@ -243,23 +237,23 @@ export default function HiyoshiPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
-                <p className="text-sm text-warm-600"><strong>日吉エリアの豆知識：</strong>日吉は慶應義塾大学のキャンパスがある学生街。駅周辺は飲食店が充実しており、レッスン前後の食事にも困りません。落ち着いた住宅街の雰囲気でリラックスしてスタジオに通えます。</p>
+                <p className="text-sm text-warm-600"><strong>日吉エリアの豆知識：</strong>日吉は慶應義塾大学のキャンパスがある学生街です。駅周辺は飲食店が充実しており、レッスン前後の食事にも困りません。落ち着いた住宅街の雰囲気でリラックスしてスタジオに通えます。</p>
               </div>
             </div>
           </div>
@@ -272,7 +266,7 @@ export default function HiyoshiPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
-                <p className="text-warm-600 text-sm mb-4">月額1万円以下で通えるスタジオ。</p>
+                <p className="text-warm-600 text-sm mb-4">月額1万円以下で通えるスタジオです。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li>
                   <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
@@ -280,14 +274,14 @@ export default function HiyoshiPage() {
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
-                <p className="text-warm-600 text-sm mb-4">女性だけの安心空間。</p>
+                <p className="text-warm-600 text-sm mb-4">女性だけの安心空間です。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル</h3>
-                <p className="text-warm-600 text-sm mb-4">マンツーマンで確実に効果。</p>
+                <p className="text-warm-600 text-sm mb-4">マンツーマンで確実に効果です。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• YUZU（体験500円・1回8,800円〜）</li>
                   <li className="text-warm-700">• CLUB PILATES（プライベートレッスンあり・料金は店舗で確認）</li>
@@ -303,11 +297,11 @@ export default function HiyoshiPage() {
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">おすすめの期間・頻度</h2>
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
-              <p className="text-warm-600 leading-relaxed mb-6">週1-2回からスタート。最低2-3ヶ月継続で効果を実感。</p>
+              <p className="text-warm-600 leading-relaxed mb-6">週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。</p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
-              <p className="text-warm-600 leading-relaxed mb-6">週2-3回がおすすめ。3-6ヶ月で目に見える変化。</p>
+              <p className="text-warm-600 leading-relaxed mb-6">週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。</p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
-              <p className="text-warm-600 leading-relaxed">週1回のペースで無理なく継続。</p>
+              <p className="text-warm-600 leading-relaxed">週1回のペースで無理なく継続することをおすすめします。</p>
             </div>
           </div>
         </section>
@@ -320,7 +314,7 @@ export default function HiyoshiPage() {
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜11,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">コスパ重視。</p>
+                <p className="text-sm text-warm-600 mb-4">費用を抑えたい方向けです。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Rintosull（8,800円/月4回）</li>
                   <li>• zen place（10,450円〜/月4回）</li>
@@ -330,7 +324,7 @@ export default function HiyoshiPage() {
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜15,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">大手チェーンの充実レッスン。</p>
+                <p className="text-sm text-warm-600 mb-4">大手チェーンの充実レッスンです。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
                 </ul>
@@ -338,7 +332,7 @@ export default function HiyoshiPage() {
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 18,000円〜</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">通い放題</p>
-                <p className="text-sm text-warm-600 mb-4">毎日通いたい方。</p>
+                <p className="text-sm text-warm-600 mb-4">毎日通いたい方向けです。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Rintosull プレミアム（18,800円）</li>
                 </ul>
@@ -358,15 +352,15 @@ export default function HiyoshiPage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">予算を決める</h3></div>
-                <p className="text-warm-600 leading-relaxed">日吉の料金相場はグループ月4回で8,800円〜10,450円。入会金やキャンペーンも確認しましょう。</p>
+                <p className="text-warm-600 leading-relaxed">日吉の料金相場はグループ月4回で8,800円〜10,450円です。入会金やキャンペーンもご確認ください。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div>
-                <p className="text-warm-600 leading-relaxed">Rintosull・CLUB PILATESは無料体験。YUZUは500円、zen placeは1,000円で体験可能。</p>
+                <p className="text-warm-600 leading-relaxed">Rintosull・CLUB PILATESは無料体験を実施しています。YUZUは500円、zen placeは1,000円で体験可能です。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div>
-                <p className="text-warm-600 leading-relaxed">日吉は東急東横線と横浜市営グリーンラインが利用可能。全スタジオ駅から徒歩5分圏内です。</p>
+                <p className="text-warm-600 leading-relaxed">日吉は東急東横線と横浜市営グリーンラインが利用可能です。全スタジオ駅から徒歩5分圏内です。</p>
               </div>
             </div>
           </div>
@@ -397,17 +391,17 @@ export default function HiyoshiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
             <p className="text-warm-600 leading-relaxed mb-6">今回は日吉エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？</p>
-            <p className="text-warm-600 leading-relaxed mb-6">この記事では日吉にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。</p>
-            <p className="text-warm-600 leading-relaxed mb-6">ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。</p>
-            <p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">本ページでは、日吉にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">本ページの情報を、スタジオ選びにお役立てください。</p>
+            <p className="text-warm-700 font-medium text-center">本ページが、ピラティススタジオ選びの参考になれば幸いです。</p>
           </div>
         </section>
 
         {/* CTA */}
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2>
-            <p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスン無料〜1,000円。<br />まずは気軽に体験してみましょう。</p>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンのご予約</h2>
+            <p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスン無料〜1,000円です。<br />まずは体験レッスンへの参加をおすすめします。</p>
             <Link href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded">おすすめスタジオ一覧に戻る</Link>
           </div>
         </section>

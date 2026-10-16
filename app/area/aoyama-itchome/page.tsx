@@ -18,7 +18,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/aoyama-itchome/' },
   title: '【2026年10月最新】青山一丁目のピラティス9社を比較｜駅徒歩3分のスタジオも・月額最安9,625円〜',
-  description: '青山一丁目エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年10月時点の情報でわかります。青山一丁目駅から徒歩3分のViel・B&B南青山も掲載。',
+  description: '青山一丁目エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年10月時点の情報でわかります。青山一丁目駅から徒歩3分のViel・B&B南青山も掲載しています。',
   keywords: 'ピラティス,青山一丁目,表参道,外苑前,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -30,12 +30,12 @@ const studios = [
     price: '月4回 11,220円〜',
     trial: '体験レッスン 0円',
     features: ['日本初マシン専門', '表参道駅徒歩2分', '認定講師', 'グループ&プライベート'],
-    description: '日本初のマシンピラティス専門スタジオ。表参道駅から徒歩2分の好立地。認定指導資格を保有した講師によるグループレッスンとプライベートレッスンの両方を提供。プライベートレッスンでは一人ひとりの身体の状態と目的に沿ってメニューを完全カスタマイズ。ダンサーやアスリートも通う質の高いレッスンが特徴。',
+    description: '日本初のマシンピラティス専門スタジオです。表参道駅から徒歩2分の好立地です。認定指導資格を保有した講師によるグループレッスンとプライベートレッスンの両方を提供しています。プライベートレッスンでは一人ひとりの身体の状態と目的に沿ってメニューを完全カスタマイズです。ダンサーやアスリートも通う質の高いレッスンが特徴です。',
     access: '表参道駅 徒歩2分（公式表記）',
     address: '東京都港区南青山5-7-17 青山小原ビル(小原流会館)8F（A studio）／東京都渋谷区神宮前4-9-1 神宮前AKビル201（B studio）',
     popularPlan: {
       name: '4メンバー（月4回）',
-      description: '月4回のグループレッスン。認定講師による本格マシンピラティス。',
+      description: '月4回のグループレッスンです。認定講師による本格マシンピラティスです。',
       price: '月4回 11,220〜13,420円（税込）',
     },
     options: [
@@ -62,12 +62,12 @@ const studios = [
     price: '月4回 11,220円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', 'マシン専門', '表参道駅徒歩2分', '音楽レッスン'],
-    description: '女性専用のマシンピラティス専門スタジオ。表参道駅から徒歩2分。2025年5月オープン。音楽に合わせたグループレッスンが特徴で、お腹・お尻・二の腕・脚・背中の部位に特化したボディメイクプログラムが充実。カジュアルかつスタイリッシュな店内で楽しくピラティスを続けられます。',
+    description: '女性専用のマシンピラティス専門スタジオです。表参道駅から徒歩2分です。2025年5月オープンです。音楽に合わせたグループレッスンが特徴で、お腹・お尻・二の腕・脚・背中の部位に特化したボディメイクプログラムが充実しています。カジュアルかつスタイリッシュな店内で楽しくピラティスを続けられます。',
     access: '表参道駅 徒歩2分 / 渋谷駅 徒歩9分',
     address: '東京都港区北青山3-12-7 秋月ビル 3F 301',
     popularPlan: {
       name: 'マンスリー4メンバー（月4回）',
-      description: '平日・土日祝いつでも受講可能。お好きな時間で受講できる人気プラン。',
+      description: '平日・土日祝いつでも受講可能です。お好きな時間で受講できる人気プランです。',
       price: '月4回 11,220〜13,420円（税込）',
     },
     options: [
@@ -93,12 +93,12 @@ const studios = [
     price: '要確認（完全パーソナル）',
     trial: '体験レッスンあり',
     features: ['2005年創業', '完全パーソナル', '北青山', '本格マシン完備'],
-    description: '2005年9月に青山・表参道にオープンした老舗マシンピラティス専門スタジオ。完全パーソナル・カスタムメイドのプライベートレッスンを提供。「ロイヤルピラティススタジオ」として、長年の実績と経験に基づく質の高い指導が魅力。一人ひとりの体の状態を見極め、最適なプログラムを提案します。',
+    description: '2005年9月に青山・表参道にオープンした老舗マシンピラティス専門スタジオです。完全パーソナル・カスタムメイドのプライベートレッスンを提供しています。「ロイヤルピラティススタジオ」として、長年の実績と経験に基づく質の高い指導が魅力です。一人ひとりの体の状態を見極め、最適なプログラムを提案します。',
     access: '表参道駅・外苑前駅から徒歩圏内',
     address: '東京都港区北青山3-5-4 AOYAMA TAKANO BLDG. 6F',
     popularPlan: {
       name: '完全プライベートレッスン',
-      description: 'カスタムメイドのマンツーマンレッスン。20年の実績に基づく本格指導。',
+      description: 'カスタムメイドのマンツーマンレッスンです。20年の実績に基づく本格指導しています。',
       price: '要確認（公式サイト参照）',
     },
     options: [
@@ -124,12 +124,12 @@ const studios = [
     price: '1回 5,500円〜',
     trial: '体験レッスンあり',
     features: ['STOTT PILATES公認', '元プロバレエダンサー指導', '南青山', '2店舗展開'],
-    description: 'STOTT PILATES公認のピラティス専門スタジオ。南青山の本店（表参道・外苑前駅徒歩7分）と表参道駅前店の2店舗を展開。元プロバレエダンサーが指導する質の高いセッションが魅力。グループからプライベートまで対応し、初心者からインストラクター志望者まで幅広く受け入れ。',
+    description: 'STOTT PILATES公認のピラティス専門スタジオです。南青山の本店（表参道・外苑前駅徒歩7分）と表参道駅前店の2店舗を展開しています。元プロバレエダンサーが指導する質の高いセッションが魅力です。グループからプライベートまで対応し、初心者からインストラクター志望者まで幅広く受け入れています。',
     access: '表参道駅・外苑前駅 徒歩7分（本店）/ 表参道駅 徒歩5分（表参道店）',
     address: '東京都港区南青山3-3-16 IQビルディング GF',
     popularPlan: {
       name: 'グループセッション',
-      description: 'STOTT PILATES公認の質の高いグループレッスン。',
+      description: 'STOTT PILATES公認の質の高いグループレッスンです。',
       price: '1回 5,500円〜（税込）',
     },
     options: [
@@ -155,18 +155,18 @@ const studios = [
     image: '/images/studios/pilates-kasane.webp',
     price: '月4回 15,400円〜',
     trial: '体験レッスン 980円',
-    features: ['少人数制', 'カルテ管理', '手ぶらOK', '年中無休'],
-    description: '最大4名の少人数制セミパーソナルレッスンが特徴のマシンピラティススタジオ。有資格インストラクターが一人ひとりの身体をカルテに記録しながらカスタマイズされたレッスンを提供。年中無休・朝8時から夜21時まで営業で通いやすい。レンタルウェア完備で手ぶらで通えます。',
+    features: ['少人数制', 'カルテ管理', '手ぶらで参加可能', '年中無休'],
+    description: '最大4名の少人数制セミパーソナルレッスンが特徴のマシンピラティススタジオです。有資格インストラクターが一人ひとりの身体をカルテに記録しながらカスタマイズされたレッスンを提供しています。年中無休・朝8時から夜21時まで営業で通いやすいです。レンタルウェア完備で手ぶらで通えます。',
     access: '明治神宮前駅 徒歩5分 / 原宿駅 徒歩5分 / 表参道駅 徒歩15分',
     address: '東京都渋谷区神宮前6丁目',
     popularPlan: {
       name: '月4回プラン',
-      description: '少人数制セミパーソナルレッスン月4回。カルテ管理で最適化されたレッスン。',
+      description: '少人数制セミパーソナルレッスン月4回です。カルテ管理で最適化されたレッスンです。',
       price: '月4回 15,400円（税込）',
     },
     options: [
       '1回あたり 3,025円〜',
-      'レンタルウェア完備（手ぶらOK）',
+      'レンタルウェア完備（手ぶらで参加可能）',
       '体験レッスン 980円',
       '最大12名のグループレッスンもあり',
     ],
@@ -187,13 +187,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 9,625円〜',
     trial: '体験レッスンあり（当日入会で入会金無料）',
-    features: ['マシン完備', '男性OK', '全国相互利用可', '各種割引あり'],
-    description: '全国150以上のスタジオを展開する国内最大級のピラティス専門スタジオ。青山一丁目エリアからもアクセスしやすい六本木スタジオ。マットグループ・リフォーマーグループ・プライベートレッスンと豊富なレッスン形式。Balanced Body製マシンを完備し、世界レベルの資格を持つエデュケーターが丁寧に指導。男性も受講可能。',
+    features: ['マシン完備', '男性利用可', '全国他店利用可', '各種割引あり'],
+    description: '全国150以上のスタジオを展開する国内最大級のピラティス専門スタジオです。青山一丁目エリアからもアクセスしやすい六本木スタジオです。マットグループ・リフォーマーグループ・プライベートレッスンと豊富なレッスン形式です。Balanced Body製マシンを完備し、世界レベルの資格を持つエデュケーターが丁寧に指導しています。男性も受講可能です。',
     access: '六本木駅から徒歩圏内 / 青山一丁目エリアからもアクセス可',
     address: '東京都港区六本木7丁目19-9 VORT六本木 7階',
     popularPlan: {
       name: 'マットグループ月4回',
-      description: 'マットピラティスのグループレッスン。全国のzen placeスタジオで相互利用可能。',
+      description: 'マットピラティスのグループレッスンです。全国のzen placeスタジオで他店利用可能です。',
       price: '月4回 9,625円（税込）',
     },
     options: [
@@ -219,12 +219,12 @@ const studios = [
     price: '体験 22,000円',
     trial: '体験レッスン 22,000円',
     features: ['完全プライベート', '女性専用', '表参道駅徒歩2分', '本格マシン完備'],
-    description: '表参道駅から徒歩2分の完全プライベートピラティススタジオ。女性専用。女優・モデル・ダンサーなど美意識の高い女性に支持されるハイクラスなスタジオ。オーナーの小柳歩美先生がタワーリフォーマー、ラダーバレル、スパインコレクターなど本格マシンを使用したマンツーマン指導を提供。完全予約制・会員制。',
+    description: '表参道駅から徒歩2分の完全プライベートピラティススタジオです。女性専用です。女優・モデル・ダンサーなど美意識の高い女性に支持されるハイクラスなスタジオです。オーナーの小柳歩美先生がタワーリフォーマー、ラダーバレル、スパインコレクターなど本格マシンを使用したマンツーマン指導を提供しています。完全予約制・会員制です。',
     access: '表参道駅 徒歩2分',
     address: '東京都港区北青山エリア（完全予約制）',
     popularPlan: {
       name: '完全プライベートレッスン',
-      description: 'マンツーマンの本格マシンピラティス。女優・モデルも通う上質なレッスン。',
+      description: 'マンツーマンの本格マシンピラティスです。女優・モデルも通う上質なレッスンです。',
       price: '要確認（体験22,000円）',
     },
     options: [
@@ -249,12 +249,12 @@ const studios = [
     price: 'マンスリー2回 26,000円〜',
     trial: '体験レッスン 8,800円（60分・女性）',
     features: ['青山一丁目駅徒歩3分', '完全予約制マンツーマン', 'ピラティス＋筋トレ', '女性はレンタルウェア込み'],
-    description: '青山一丁目駅から徒歩3分の、マシンピラティスと筋力トレーニングを組み合わせる完全予約制のマンツーマンスタジオ。レッスンは50分（着替え込み60分）。マンスリーコースには水・プロテインスムージー・食事アドバイスが含まれ、女性はレンタルウェアも込み。公式サイトでは妊娠中の方も医師の許可があれば受講できると案内されています（公式サイト・2026年10月11日確認。税込・税抜の表記はありません）。',
+    description: '青山一丁目駅から徒歩3分の、マシンピラティスと筋力トレーニングを組み合わせる完全予約制のマンツーマンスタジオです。レッスンは50分です（着替え込み60分）。マンスリーコースには水・プロテインスムージー・食事アドバイスが含まれ、女性はレンタルウェアも込みです。公式サイトでは妊娠中の方も医師の許可があれば受講できると案内されています（公式サイト・2026年10月11日確認。税込・税抜の表記はありません）。',
     access: '東京メトロ・都営「青山一丁目駅」徒歩3分',
     address: '東京都港区北青山一丁目4-5 VORT青山一丁目Dual’s 303',
     popularPlan: {
       name: 'マンスリー4回コース（女性）',
-      description: 'マンツーマンのマシンピラティス＆トレーニング。使わなかった枠は1回分のみ翌月に繰り越し可。',
+      description: 'マンツーマンのマシンピラティス＆トレーニングです。使わなかった枠は1回分のみ翌月に繰り越し可能です。',
       price: '月4回 50,000円',
     },
     options: [
@@ -275,12 +275,12 @@ const studios = [
     price: '1回 13,500円〜（回数券で1回10,000円〜）',
     trial: '体験 9,000円（50分プライベート）',
     features: ['青山一丁目駅徒歩3分', 'プライベートセッション専門', '産前産後ピラティス', 'コアアライン導入'],
-    description: '青山一丁目駅4番南出口から徒歩3分、乃木坂駅から徒歩5分。レッスンはすべてプライベートセッション（50分）で、リフォーマーのほかタワー・チェア・バレル、美脚目的の「コアアライン」を使います。産前産後ピラティスや、カウンセリングと姿勢チェックから入る「Re:Bodyピラティス」もあります。料金は1回13,500円、回数券なら4回50,000円〜24回240,000円（1回あたり12,500円〜10,000円）（公式料金ページ・税込・2026年10月11日確認）。',
+    description: '青山一丁目駅4番南出口から徒歩3分、乃木坂駅から徒歩5分です。レッスンはすべてプライベートセッション（50分）で、リフォーマーのほかタワー・チェア・バレル、美脚目的の「コアアライン」を使います。産前産後ピラティスや、カウンセリングと姿勢チェックから入る「Re:Bodyピラティス」もあります。料金は1回13,500円、回数券なら4回50,000円〜24回240,000円です（1回あたり12,500円〜10,000円）（公式料金ページ・税込・2026年10月11日確認）。',
     access: '東京メトロ銀座線・半蔵門線・都営大江戸線「青山一丁目駅」4番南出口 徒歩3分／千代田線「乃木坂駅」3番出口 徒歩5分',
     address: '〒107-0062 東京都港区南青山1-9-3 廣澤ビル3階',
     popularPlan: {
       name: '4回 回数券（50分プライベート）',
-      description: '有効期限は初回レッスン日から1年間。インストラクター指名は1回1,000円。',
+      description: '有効期限は初回レッスン日から1年間です。インストラクター指名は1回1,000円です。',
       price: '4回 50,000円（1回あたり12,500円・税込）',
     },
     options: [
@@ -301,43 +301,43 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！青山一丁目・表参道エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。BDC PILATESやピラティスKは体験レッスンが0円なので気軽に始められますよ。',
+    answer: '問題ありません。青山一丁目・表参道エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。BDC PILATESやピラティスKは体験レッスンが0円なので気軽に始められます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。このエリアではマシン専門スタジオが多いです。',
+    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷を調整しやすく、初心者におすすめです。このエリアではマシン専門スタジオが多いです。',
   },
   {
     question: '青山一丁目エリアのピラティススタジオの料金相場は？',
-    answer: '青山一丁目・表参道エリアの料金相場は、グループレッスン月4回で9,600円〜15,400円程度。BDC PILATESやピラティスKは月4回11,220円からと比較的リーズナブル。パーソナルは1回5,500円〜が相場です。',
+    answer: '青山一丁目・表参道エリアの料金相場は、グループレッスン月4回で9,600円〜15,400円程度です。BDC PILATESやピラティスKは月4回11,220円からと比較的リーズナブルです。パーソナルは1回5,500円〜が相場です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: 'ピラティス初心者は週1-2回（月4-8回）がおすすめ。慣れてきたら週2-3回に増やすと効果を実感しやすくなります。大切なのは継続すること。無理のないペースで長く続けることが、理想の身体を手に入れる近道です。',
+    answer: 'ピラティス初心者は週1〜2回（月4〜8回）がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。大切なのは継続することです。無理のないペースで長く続けることが、目標達成への近道です。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、ピラティスはダイエット効果があります。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に。ただし即効性はないので、最低でも2-3ヶ月は継続することが大切。食事管理も並行するとより効果的です。',
+    answer: 'ピラティスにはダイエット効果が期待できます。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。ただし即効性はないので、最低でも2〜3ヶ月は継続することが大切です。食事管理を並行すると、より効果的です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。BDC PILATESとピラティスKは無料体験、Pilates KASANEは980円で体験できます。レンタルウェアがあるスタジオもあるので、各スタジオの案内を確認してくださいね。',
+    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。BDC PILATESとピラティスKは無料体験、Pilates KASANEは980円で体験できます。レンタルウェアがあるスタジオもあるので、各スタジオの案内を確認してください。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。ピラティスは筋力強化、ヨガは心身のバランスを整えることが主な目的。どちらも素晴らしいエクササイズなので、目的に合わせて選びましょう。',
+    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズです。ヨガは柔軟性と精神的なリラックスを重視します。ピラティスは筋力強化、ヨガは心身のバランスを整えることが主な目的です。目的に合わせてお選びください。',
   },
   {
     question: 'ピラティスで肩こりや腰痛は改善しますか？',
-    answer: 'はい、改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。A・COREやSky Pilatesなど、老舗スタジオでは体の不調改善に特化したアプローチも可能です。',
+    answer: '改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。A・COREやSky Pilatesなど、老舗スタジオでは体の不調改善に特化したアプローチも可能です。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: 'ピラティスで効果が表れだすのは「2ヶ月を過ぎた頃」から。これは人間の細胞が生まれ変わるサイクルがそのくらいだからです。すぐに変化が表れなくても心配せず、最低でも2ヶ月は継続するのがおすすめです。',
+    answer: 'ピラティスの効果を実感し始めるのは、2ヶ月を過ぎた頃が目安とされています。すぐに変化が表れなくても、最低2ヶ月は継続することをおすすめします。',
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'それぞれ良さがあります。パーソナルはA・COREやa.pilatesで一人ひとりに合わせた指導を受けられます。グループはBDC PILATESやピラティスKなら月4回11,220円から。まずは体験で両方試してみるのがいいですよ。',
+    answer: 'それぞれに利点があります。パーソナルはA・COREやa.pilatesで一人ひとりに合わせた指導を受けられます。グループはBDC PILATESやピラティスKなら月4回11,220円からです。まずは体験レッスンで両方を試すことをおすすめします。',
   },
 ]
 
@@ -358,8 +358,8 @@ export default function AoyamaItchomePage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026年10月最新】ピラティス青山一丁目おすすめ9選！<br className="hidden md:block" />
-              料金・体験レッスン・マシン対応を比較！
+              【2026年10月最新】ピラティス青山一丁目おすすめ9選<br className="hidden md:block" />
+              料金・体験レッスン・マシン対応を比較
             </h1>
           </div>
         </section>
@@ -384,29 +384,11 @@ export default function AoyamaItchomePage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「青山一丁目・表参道で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、青山一丁目・表参道・外苑前エリアでおすすめのピラティススタジオ9選をまとめました。
+              本ページでは、青山一丁目・表参道・外苑前エリアでおすすめのピラティススタジオ9選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -431,7 +413,7 @@ export default function AoyamaItchomePage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -524,25 +506,25 @@ export default function AoyamaItchomePage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">表参道駅からのルートは事前に確認を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  青山一丁目エリアのスタジオは表参道駅周辺が中心です。駅の出口によってスタジオまでの距離が変わることがあるため、初めて訪れる際はGoogleマップで経路を確認し、余裕を持って到着できるようにしましょう。
+                  青山一丁目エリアのスタジオは表参道駅周辺が中心です。駅の出口によってスタジオまでの距離が変わることがあるため、初めて訪れる際はGoogleマップで経路を確認し、余裕を持って到着できるようにすることをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">繁華街ならではの予約混雑に注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  青山一丁目は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることも。アプリやWebで空き状況をこまめにチェックし、キャンセル待ち機能があるスタジオでは積極的に活用しましょう。
+                  青山一丁目は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることもあります。アプリやWebで空き状況をこまめに確認し、キャンセル待ち機能があるスタジオでは積極的にご活用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  青山一丁目エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ず確認しましょう。月の途中入会は日割り計算になるかも要チェックです。
+                  青山一丁目エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ずご確認ください。月の途中入会は日割り計算になるかもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  青山一丁目エリアだけでなく、近隣の<Link href="/area/omotesando/" className="text-warm-700 underline hover:text-warm-900">表参道</Link>、<Link href="/area/akasaka/" className="text-warm-700 underline hover:text-warm-900">赤坂</Link>、<Link href="/area/shibuya/" className="text-warm-700 underline hover:text-warm-900">渋谷</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  青山一丁目エリアだけでなく、近隣の<Link href="/area/omotesando/" className="text-warm-700 underline hover:text-warm-900">表参道</Link>、<Link href="/area/akasaka/" className="text-warm-700 underline hover:text-warm-900">赤坂</Link>、<Link href="/area/shibuya/" className="text-warm-700 underline hover:text-warm-900">渋谷</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -560,25 +542,25 @@ export default function AoyamaItchomePage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>青山一丁目エリアの豆知識：</strong>青山一丁目は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
+                  <strong>青山一丁目エリアの豆知識：</strong>青山一丁目は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心です。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
                 </p>
               </div>
             </div>
@@ -596,7 +578,7 @@ export default function AoyamaItchomePage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円前後で通えるスタジオ。体験レッスン無料のスタジオも。
+                  月額1万円前後で通えるスタジオです。体験レッスン無料のスタジオもあります。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
@@ -607,7 +589,7 @@ export default function AoyamaItchomePage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">本格パーソナル</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  完全マンツーマンで本格的なマシンピラティスを学びたい方に。
+                  完全マンツーマンで本格的なマシンピラティスを学びたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• A・CORE（2005年創業の老舗）</li>
@@ -618,7 +600,7 @@ export default function AoyamaItchomePage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  表参道駅・外苑前駅から徒歩5分以内。仕事帰りにも通いやすい。
+                  表参道駅・外苑前駅から徒歩5分以内です。仕事帰りにも通いやすいです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• BDC PILATES（表参道駅 徒歩2分）</li>
@@ -639,15 +621,15 @@ export default function AoyamaItchomePage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回（月4-8回）からスタートするのがおすすめ。まずは身体を慣らすことが大切です。継続期間は最低でも2-3ヶ月。この期間で効果を実感できる方が多いですよ。
+                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感できる方が多いです。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回（月8-12回）がおすすめ。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3-6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。
+                週2〜3回（月8〜12回）がおすすめです。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3〜6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理が目的の方</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回（月4回）のペースで継続するのがおすすめ。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切。自分のペースで楽しく通えるのが一番ですよ。
+                週1回（月4回）のペースで継続するのがおすすめです。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切です。無理のないペースで通うことが大切です。
               </p>
             </div>
           </div>
@@ -664,7 +646,7 @@ export default function AoyamaItchomePage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜12,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。体験無料のスタジオも。
+                  グループレッスンが中心です。体験無料のスタジオもあります。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates（9,625円〜）</li>
@@ -677,7 +659,7 @@ export default function AoyamaItchomePage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 15,000〜18,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4〜8回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  少人数制やマシン充実のスタジオ。
+                  少人数制やマシン充実のスタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Pilates KASANE（15,400円〜）</li>
@@ -689,7 +671,7 @@ export default function AoyamaItchomePage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 30,000円〜</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  完全プライベートレッスン。上質な空間で本格指導。
+                  完全プライベートレッスンです。上質な空間で本格指導しています。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• A・CORE（完全パーソナル）</li>
@@ -714,7 +696,7 @@ export default function AoyamaItchomePage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  まずは自分がピラティスで何を達成したいのかを明確にしましょう。ダイエット、姿勢改善、体幹強化、美容など、目的によって最適なスタジオやプログラムは変わります。
+                  まずは自分がピラティスで何を達成したいのかを明確にすることをおすすめします。ダイエット、姿勢改善、体幹強化、美容など、目的によって最適なスタジオやプログラムは変わります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -723,7 +705,7 @@ export default function AoyamaItchomePage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  青山一丁目・表参道エリアの料金相場はグループレッスン月4回で9,600円〜15,400円程度。パーソナルは1回5,500円〜。無理なく継続できる予算を決めましょう。
+                  青山一丁目・表参道エリアの料金相場はグループレッスン月4回で9,600円〜15,400円程度です。パーソナルは1回5,500円〜です。無理なく継続できる予算を決めることをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -732,7 +714,7 @@ export default function AoyamaItchomePage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。BDC PILATESとピラティスKは無料体験、Pilates KASANEは980円で体験可能。スタジオの雰囲気は実際に行ってみないとわかりませんよ。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。BDC PILATESとピラティスKは無料体験、Pilates KASANEは980円で体験可能です。スタジオの雰囲気は実際に行ってみないとわかりません。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -741,7 +723,7 @@ export default function AoyamaItchomePage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  どんなに良いスタジオでも、通いにくい場所にあると続きません。このエリアは東京メトロ銀座線・半蔵門線・千代田線・大江戸線が利用可能。BDC PILATESやピラティスKは表参道駅から徒歩2分と特に便利です。
+                  通いにくい場所にあるスタジオは、継続が難しくなります。このエリアは東京メトロ銀座線・半蔵門線・千代田線・大江戸線が利用可能です。BDC PILATESやピラティスKは表参道駅から徒歩2分と特に便利です。
                 </p>
               </div>
             </div>
@@ -784,13 +766,13 @@ export default function AoyamaItchomePage() {
               今回は青山一丁目・表参道のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では青山一丁目・表参道に数多くあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、青山一丁目・表参道に数多くあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -799,11 +781,11 @@ export default function AoyamaItchomePage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜980円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜980円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

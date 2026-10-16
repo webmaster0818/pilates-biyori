@@ -7,7 +7,7 @@ const store = getG1Store(SLUG)!;
 
 export const metadata: Metadata = {
   title: `${store.areaQuery}のthe SILK｜料金・体験・アクセスと店舗情報【2026年8月】`,
-  description: `${store.areaQuery}のthe SILK（${store.storeName}）の料金・体験レッスン・アクセスを当サイト掲載データで整理。${store.access}。${store.areaQuery}周辺のピラティス比較・ブランド全店舗一覧へのリンク付き。`,
+  description: `${store.areaQuery}のthe SILK（${store.storeName}）の料金・体験レッスン・アクセスを掲載しています。${store.access}です。${store.areaQuery}周辺のピラティス比較・ブランド全店舗一覧へのリンクも掲載しています。`,
   alternates: { canonical: `https://biyori-pilates.com/brands/${SLUG}/` },
 };
 

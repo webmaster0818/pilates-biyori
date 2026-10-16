@@ -15,8 +15,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/sasazuka/' },
-  title: '【2026年10月最新】ピラティス笹塚おすすめ6選！料金・体験レッスン・マシン対応を比較！',
-  description: '笹塚エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス笹塚おすすめ6選料金・体験レッスン・マシン対応を比較',
+  description: '笹塚エリアのおすすめピラティススタジオ6選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,笹塚,渋谷区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -27,13 +27,13 @@ const studios = [
     image: '\/images\/studios\/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
     trial: 'グループ体験 500円〜（キャンペーン）',
-    features: ['笹塚駅徒歩5分', '2023年オープン', '男性OK', '全国相互利用'],
-    description: 'ピラティス専門の大手スタジオ。京王線笹塚駅北口から徒歩5分。2023年9月オープンの新しいスタジオ。マットグループ・マシングループ・プライベートの3タイプ。リフォーマー・キャデラック・チェアなどマシン完備。全国150店舗以上で相互利用可能。',
+    features: ['笹塚駅徒歩5分', '2023年オープン', '男性利用可', '全国他店利用'],
+    description: 'ピラティス専門の大手スタジオです。京王線笹塚駅北口から徒歩5分です。2023年9月オープンの新しいスタジオです。マットグループ・マシングループ・プライベートの3タイプです。リフォーマー・キャデラック・チェアなどマシン完備です。全国150店舗以上で他店利用可能です。',
     access: '京王線「笹塚駅」北口 徒歩5分',
     address: '東京都渋谷区笹塚2-21-12 グリーンライフビル 6F',
     popularPlan: {
       name: 'フリープラン（マットグループ）',
-      description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。',
+      description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。',
       price: '月額 16,940円（税込）',
     },
     options: [
@@ -59,13 +59,13 @@ const studios = [
     image: '\/images\/studios\/club-pilates.webp',
     price: '月4回 13,090円／月8回 24,090円／通い放題 37,290円（公式店舗ページ・税表記なし）',
     trial: '体験レッスン 無料（30分イントロクラス）',
-    features: ['笹塚駅徒歩1分', '世界最大級', '15種類の器具', '男性OK'],
-    description: '世界最大級のマシンピラティスブランド。笹塚駅から徒歩1分、笹塚ショッピングモールTWENTY ONE 2Fに入居。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類のマシン・器具を完備。8つのプログラムと4段階のレベル分け。',
+    features: ['笹塚駅徒歩1分', '世界最大級', '15種類の器具', '男性利用可'],
+    description: '世界最大級のマシンピラティスブランドです。笹塚駅から徒歩1分、笹塚ショッピングモールTWENTY ONE 2Fに入居です。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類のマシン・器具を完備しています。8つのプログラムと4段階のレベル分けです。',
     access: '京王線「笹塚駅」徒歩1分（笹塚ショッピングモール TWENTY ONE 2F）',
     address: '東京都渋谷区笹塚1丁目 笹塚ショッピングモール TWENTY ONE 2F',
     popularPlan: {
       name: 'グループ月4回プラン',
-      description: '15種類の器具を使った本格グループレッスン。4段階のレベル分けで安心。',
+      description: '15種類の器具を使った本格グループレッスンです。4段階のレベル分けで安心です。',
       price: '月4回 13,090円（税表記なし）',
     },
     options: ['月8回 24,090円', '通い放題 37,290円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
@@ -86,12 +86,12 @@ const studios = [
     price: '月額 11,000円（月6回）',
     trial: '体験レッスン 2,200円',
     features: ['女性専用', '笹塚駅徒歩4分', 'コナミ運営', '30分レッスン'],
-    description: 'コナミスポーツが運営する女性専用マシンピラティススタジオ。笹塚駅から徒歩4分。「もっと鏡が見たくなる」をコンセプトに、鏡を効果的に活用したレッスン。30分の短時間レッスンで最大6名の少人数制。月額11,000円で月6回まで利用可能。',
+    description: 'コナミスポーツが運営する女性専用マシンピラティススタジオです。笹塚駅から徒歩4分です。「もっと鏡が見たくなる」をコンセプトに、鏡を効果的に活用したレッスンです。30分の短時間レッスンで最大6名の少人数制です。月額11,000円で月6回まで利用可能です。',
     access: '京王線「笹塚駅」徒歩4分',
     address: '東京都渋谷区笹塚エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: '月会費プラン（月6回）',
-      description: '女性専用マシンピラティス月6回。30分の短時間レッスン。',
+      description: '女性専用マシンピラティス月6回です。30分の短時間レッスンです。',
       price: '月額 11,000円（税込）',
     },
     options: [
@@ -118,12 +118,12 @@ const studios = [
     price: '月4回 22,000円〜',
     trial: '体験レッスン 無料',
     features: ['通い放題あり', 'パーソナル指導', '5メニュー対応', 'ボディケアあり'],
-    description: '通い放題のパーソナルマシンピラティスジム。笹塚駅から徒歩8分、Daiwa笹塚タワー内スポーツクラブA-1笹塚に入居。マンツーマン指導を月額制でリーズナブルに提供。5つのメニューとボディケアも可能。',
+    description: '通い放題のパーソナルマシンピラティスジムです。笹塚駅から徒歩8分、Daiwa笹塚タワー内スポーツクラブA-1笹塚に入居です。マンツーマン指導を月額制でリーズナブルに提供しています。5つのメニューとボディケアも可能です。',
     access: '京王線「笹塚駅」徒歩8分',
     address: '東京都渋谷区笹塚1-50-1 Daiwa笹塚タワー スポーツクラブA-1笹塚',
     popularPlan: {
       name: '全日フルタイムプラン（通い放題）',
-      description: 'マンツーマンのパーソナルマシンピラティス通い放題。',
+      description: 'マンツーマンのパーソナルマシンピラティス通い放題です。',
       price: '月額 43,780円（税込）',
     },
     options: [
@@ -150,12 +150,12 @@ const studios = [
     price: '月4回 13,420円〜',
     trial: '体験レッスン 2,000円',
     features: ['女性専用', '部位別プログラム', 'マシン専門', '通い放題あり'],
-    description: '女性専用マシンピラティス専門スタジオ。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実。強度や目的に合わせて選べるクラスが豊富。笹塚から電車で数分のアクセス。',
+    description: '女性専用マシンピラティス専門スタジオです。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実しています。強度や目的に合わせて選べるクラスが豊富です。笹塚から電車で数分のアクセスです。',
     access: '笹塚エリアから電車で数分（詳細は公式サイトでご確認ください）',
     address: '東京都内（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'マンスリー4メンバー（月4回）',
-      description: '女性専用マシンピラティス月4回。部位別プログラムも選べる。',
+      description: '女性専用マシンピラティス月4回です。部位別プログラムも選べます。',
       price: '月4回 13,420円（税込）',
     },
     options: [
@@ -183,7 +183,7 @@ const studios = [
     priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
     trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。笹塚駅から徒歩1分。',
+    description: '女性専用のマシンピラティス専門スタジオです。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴です。笹塚駅から徒歩1分です。',
     access: '笹塚駅 徒歩1分',
     address: '〒151-0073 東京都渋谷区笹塚1丁目56-6 クレセントプラザ笹塚 50D号室',
     userProfile: {
@@ -203,31 +203,31 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！笹塚エリアのスタジオはほとんどが初心者歓迎。CLUB PILATESは4段階のレベル分け、ピラティスミラーは30分の短時間レッスンで始めやすい。',
+    answer: '問題ありません。笹塚エリアのスタジオはほとんどが初心者歓迎です。CLUB PILATESは4段階のレベル分け、ピラティスミラーは30分の短時間レッスンで始めやすいです。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。笹塚はマシン専門スタジオが充実。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。笹塚はマシン専門スタジオが充実しています。',
   },
   {
     question: '笹塚のピラティスの料金相場は？',
-    answer: 'グループ月4回で10,450円〜13,420円程度。ピラティスミラーは月額11,000円で月6回。ELEMENTのパーソナルは月4回22,000円〜。',
+    answer: 'グループ月4回で10,450円〜13,420円程度です。ピラティスミラーは月額11,000円で月6回です。ELEMENTのパーソナルは月4回22,000円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。大切なのは継続すること。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。大切なのは継続することです。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。CLUB PILATESは無料イントロクラス、ELEMENTは初回無料体験あり。zen placeはキャンペーン500円〜。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。CLUB PILATESは無料イントロクラス、ELEMENTは初回無料体験があります。zen placeはキャンペーン500円〜です。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹強化・姿勢改善に特化。ヨガは柔軟性とリラックス重視。zen placeはヨガスタジオも運営しており、両方楽しめます。',
+    answer: 'ピラティスは体幹強化・姿勢改善に特化しています。ヨガは柔軟性とリラックス重視です。zen placeはヨガスタジオも運営しており、両方楽しめます。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
@@ -235,11 +235,11 @@ const faqs = [
   },
   {
     question: '無料で体験できるスタジオは？',
-    answer: 'CLUB PILATESとELEMENTは無料体験あり。zen placeはキャンペーン体験500円〜。ピラティスKは体験2,000円。',
+    answer: 'CLUB PILATESとELEMENTは無料体験があります。zen placeはキャンペーン体験500円〜です。ピラティスKは体験2,000円です。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -260,8 +260,8 @@ export default function SasazukaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス笹塚おすすめ6選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス笹塚おすすめ6選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -284,29 +284,11 @@ export default function SasazukaPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「笹塚で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、笹塚エリアでおすすめのピラティススタジオ6選をまとめました。
+              本ページでは、笹塚エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -331,7 +313,7 @@ export default function SasazukaPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -400,25 +382,25 @@ export default function SasazukaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">京王線「笹塚駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  笹塚エリアのスタジオは笹塚駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。笹塚駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  笹塚エリアのスタジオは笹塚駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。笹塚駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">繁華街ならではの予約混雑に注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  笹塚は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることも。アプリやWebで空き状況をこまめにチェックし、キャンセル待ち機能があるスタジオでは積極的に活用しましょう。
+                  笹塚は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることもあります。アプリやWebで空き状況をこまめに確認し、キャンセル待ち機能があるスタジオでは積極的にご活用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  笹塚エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ず確認しましょう。月の途中入会は日割り計算になるかも要チェックです。
+                  笹塚エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ずご確認ください。月の途中入会は日割り計算になるかもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  笹塚エリアだけでなく、近隣の<Link href="/area/yoyogi-uehara/" className="text-warm-700 underline hover:text-warm-900">代々木上原</Link>、<Link href="/area/shinjuku/" className="text-warm-700 underline hover:text-warm-900">新宿</Link>、<Link href="/area/shimokitazawa/" className="text-warm-700 underline hover:text-warm-900">下北沢</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  笹塚エリアだけでなく、近隣の<Link href="/area/yoyogi-uehara/" className="text-warm-700 underline hover:text-warm-900">代々木上原</Link>、<Link href="/area/shinjuku/" className="text-warm-700 underline hover:text-warm-900">新宿</Link>、<Link href="/area/shimokitazawa/" className="text-warm-700 underline hover:text-warm-900">下北沢</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -436,25 +418,25 @@ export default function SasazukaPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>笹塚エリアの豆知識：</strong>笹塚は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
+                  <strong>笹塚エリアの豆知識：</strong>笹塚は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心です。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
                 </p>
               </div>
             </div>
@@ -472,7 +454,7 @@ export default function SasazukaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額2万円未満で通えるスタジオ（店舗カードの料金）。
+                  月額2万円未満で通えるスタジオです（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates 笹塚スタジオ（月4回 10,450円〜）</li>
@@ -483,7 +465,7 @@ export default function SasazukaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性だけの安心空間。
+                  女性だけの安心空間です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスミラー 笹塚</li>
@@ -494,7 +476,7 @@ export default function SasazukaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  駅から徒歩2分以内。
+                  駅から徒歩2分以内です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• CLUB PILATES 笹塚店（京王線「笹塚駅」徒歩1分（笹塚ショッピングモール TWENTY ONE 2F））</li>
@@ -514,15 +496,15 @@ export default function SasazukaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回からスタート。最低2-3ヶ月継続で効果を実感。
+                週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回がおすすめ。3-6ヶ月で目に見える変化。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。
+                週1回のペースで無理なく継続することをおすすめします。
               </p>
             </div>
           </div>
@@ -539,7 +521,7 @@ export default function SasazukaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜13,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月3〜4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。
+                  グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（10,450円〜/月4回）</li>
@@ -550,7 +532,7 @@ export default function SasazukaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜15,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン専門スタジオ。
+                  マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（13,420円〜）</li>
@@ -561,7 +543,7 @@ export default function SasazukaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 16,000〜29,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">通い放題</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  毎日通いたい方。
+                  毎日通いたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（16,170円/通い放題）</li>
@@ -594,7 +576,7 @@ export default function SasazukaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  笹塚の料金相場はグループ月4回で10,450円〜15,070円。入会金やキャンペーンも確認しましょう。
+                  笹塚の料金相場はグループ月4回で10,450円〜15,070円です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -603,7 +585,7 @@ export default function SasazukaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  体験料金は、zen place pilates 笹塚スタジオが「グループ体験 500円〜（キャンペーン）」、CLUB PILATES 笹塚店が「体験レッスン 無料（30分イントロクラス）」、ピラティスミラー 笹塚が「体験レッスン 2,200円」、ELEMENT 笹塚A1店が「体験レッスン 無料」です（店舗カードの記載）。最新の条件は各公式サイトで確認しましょう。
+                  体験料金は、zen place pilates 笹塚スタジオが「グループ体験 500円〜（キャンペーン）」、CLUB PILATES 笹塚店が「体験レッスン 無料（30分イントロクラス）」、ピラティスミラー 笹塚が「体験レッスン 2,200円」、ELEMENT 笹塚A1店が「体験レッスン 無料」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -612,7 +594,7 @@ export default function SasazukaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  笹塚の掲載スタジオでは、CLUB PILATES 笹塚店（京王線「笹塚駅」徒歩1分（笹塚ショッピングモール TWENTY ONE 2F））、Pilates Mee笹塚店（笹塚駅 徒歩1分）、ピラティスミラー 笹塚（京王線「笹塚駅」徒歩4分）が駅から近いスタジオです。通う時間帯の経路も確認しておきましょう。
+                  笹塚の掲載スタジオでは、CLUB PILATES 笹塚店（京王線「笹塚駅」徒歩1分（笹塚ショッピングモール TWENTY ONE 2F））、Pilates Mee笹塚店（笹塚駅 徒歩1分）、ピラティスミラー 笹塚（京王線「笹塚駅」徒歩4分）が駅から近いスタジオです。通う時間帯の経路もご確認ください。
                 </p>
               </div>
             </div>
@@ -655,13 +637,13 @@ export default function SasazukaPage() {
               今回は笹塚エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では笹塚にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、笹塚にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -670,11 +652,11 @@ export default function SasazukaPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,850円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜3,850円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

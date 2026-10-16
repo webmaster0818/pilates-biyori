@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/hachioji/' },
-  title: '【2026年10月最新】八王子のピラティス｜初心者OK・無料体験で選ぶ料金比較',
-  description: '八王子エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  title: '【2026年10月最新】八王子のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  description: '八王子エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,八王子,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -27,12 +27,12 @@ const studios = [
     price: '月4回 13,420円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '八王子駅直結', '部位別プログラム', 'マシン専門'],
-    description: '女性専用マシンピラティス専門スタジオ。八王子駅直結のオクトーレ6F。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実。強度や目的に合わせて選べるクラスが豊富。',
+    description: '女性専用マシンピラティス専門スタジオです。八王子駅直結のオクトーレ6Fです。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実しています。強度や目的に合わせて選べるクラスが豊富です。',
     access: 'JR「八王子駅」直結 八王子オクトーレ 6F',
     address: '東京都八王子市旭町9-1 八王子オクトーレ 6F',
     popularPlan: {
       name: 'マンスリー4メンバー（月4回）',
-      description: '女性専用マシンピラティス月4回。部位別プログラムも選べる。',
+      description: '女性専用マシンピラティス月4回です。部位別プログラムも選べます。',
       price: '月4回 13,420円（税込）',
     },
     options: [
@@ -59,12 +59,12 @@ const studios = [
     price: '月4回 8,800円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '八王子駅徒歩1分', 'LAVA系列', '月4回8,800円〜'],
-    description: 'LAVA系列の女性専用マシンピラティススタジオ。八王子駅北口から徒歩1分。月4回8,800円〜というリーズナブルな価格設定。全国のRintosull・LAVA店舗で相互利用可能なプランもあり。',
+    description: 'LAVA系列の女性専用マシンピラティススタジオです。八王子駅北口から徒歩1分です。月4回8,800円〜というリーズナブルな価格設定です。全国のRintosull・LAVA店舗で相互利用可能なプランもあります。',
     access: 'JR「八王子駅」北口 徒歩1分 / 京王線「京王八王子駅」出入口2より徒歩5分',
     address: '東京都八王子市旭町7-1 豊栄第一ビル 4F',
     popularPlan: {
       name: 'マンスリー4（月4回）',
-      description: '女性専用マシンピラティス月4回。',
+      description: '女性専用マシンピラティス月4回です。',
       price: '月4回 8,800円〜（税込）',
     },
     options: [
@@ -90,12 +90,12 @@ const studios = [
     price: '月額 6,250円〜/回',
     trial: '体験レッスン 4,500円',
     features: ['パーソナル専門', '八王子駅近', 'オーダーメイド', '完全マンツーマン'],
-    description: 'パーソナルマシンピラティス専門スタジオ。「なりたい理想の自分」を叶える場所として洗練された空間を提供。インストラクターと1対1で、姿勢改善・ダイエット・骨盤矯正など一人ひとりの悩みに沿ったオーダーメイドプログラム。',
+    description: 'パーソナルマシンピラティス専門スタジオです。「なりたい理想の自分」を叶える場所として洗練された空間を提供しています。インストラクターと1対1で、姿勢改善・ダイエット・骨盤矯正など一人ひとりの悩みに沿ったオーダーメイドプログラムです。',
     access: 'JR「八王子駅」から徒歩圏内',
     address: '東京都八王子市（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: '月4回プラン',
-      description: '完全マンツーマンのパーソナルマシンピラティス月4回。',
+      description: '完全マンツーマンのパーソナルマシンピラティス月4回です。',
       price: '月4回 25,000円〜（税込）',
     },
     options: [
@@ -119,12 +119,12 @@ const studios = [
     price: '公式サイトでご確認ください',
     trial: '体験レッスンあり',
     features: ['理学療法士監修', '八王子駅徒歩3分', '少人数制', 'オンラインあり'],
-    description: '2011年に理学療法士が立ち上げた八王子のヨガ・ピラティススタジオ。医療現場での知見を活かし「身体を正しく使うこと」にこだわった指導。グループ・パーソナル・オンラインレッスンに対応。',
+    description: '2011年に理学療法士が立ち上げた八王子のヨガ・ピラティススタジオです。医療現場での知見を活かし「身体を正しく使うこと」にこだわった指導しています。グループ・パーソナル・オンラインレッスンに対応しています。',
     access: 'JR中央線「八王子駅」徒歩3分 / 京王線「京王八王子駅」徒歩3分',
     address: '東京都八王子市横山町2-7 石川ビル 4F・5F',
     popularPlan: {
       name: 'グループレッスン',
-      description: '少人数制のグループレッスン。理学療法士監修のプログラム。',
+      description: '少人数制のグループレッスンです。理学療法士監修のプログラムです。',
       price: '公式サイトでご確認ください',
     },
     options: [
@@ -148,14 +148,14 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=J11817X.1.B1620582.U1357808',
     image: '/images/studios/247-pilates.webp',
     price: '月2回 14,500円〜 / 月4回 27,000円〜 / 月8回 52,000円〜（税込）',
-    trial: '体験レッスン 無料（説明含め約60分・手ぶらOK）',
+    trial: '体験レッスン 無料（説明含め約60分・手ぶらで参加可能）',
     features: ['マシンピラティス', '女性専用', '完全個室パーソナル', '入会金不要・月謝制'],
-    description: '完全個室・マンツーマンの女性専用パーソナルピラティススタジオ。入会金不要の月謝制で、一人ひとりに合わせたオリジナルプログラムを提供。八王子駅から徒歩3分。',
+    description: '完全個室・マンツーマンの女性専用パーソナルピラティススタジオです。入会金不要の月謝制で、一人ひとりに合わせたオリジナルプログラムを提供しています。八王子駅から徒歩3分です。',
     access: '八王子駅から徒歩3分',
     address: '東京都八王子市東町12-8 長澤ビル3F',
     popularPlan: {
       name: '月4回プラン',
-      description: '完全個室でマシンを使ったマンツーマン指導。入会金不要の月謝制。',
+      description: '完全個室でマシンを使ったマンツーマン指導しています。入会金不要の月謝制です。',
       price: '月4回 27,000円〜（税込）',
     },
     options: [
@@ -177,31 +177,31 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！八王子エリアのスタジオはほとんどが初心者歓迎。Rintosullは初心者向けBasicプログラムあり。',
+    answer: '問題ありません。八王子エリアのスタジオはほとんどが初心者歓迎です。Rintosullは初心者向けBasicプログラムがあります。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。八王子はマシン専門スタジオが特に充実。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。八王子はマシン専門スタジオが特に充実しています。',
   },
   {
     question: '八王子のピラティスの料金相場は？',
-    answer: 'グループ月4回で8,800円〜13,420円程度。Rintosullが月4回8,800円〜で最もリーズナブル。ピラティスKは月4回13,420円〜。',
+    answer: 'グループ月4回で8,800円〜13,420円程度です。Rintosullが月4回8,800円〜で最もリーズナブルです。ピラティスKは月4回13,420円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。大切なのは継続すること。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。大切なのは継続することです。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。ピラティスKは無料体験あり。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。ピラティスKは無料体験があります。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹強化・姿勢改善に特化。ヨガは柔軟性とリラックス重視。タクトエイトではヨガとピラティス両方のレッスンが受けられます。',
+    answer: 'ピラティスは体幹強化・姿勢改善に特化しています。ヨガは柔軟性とリラックス重視です。タクトエイトではヨガとピラティス両方のレッスンが受けられます。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
@@ -209,11 +209,11 @@ const faqs = [
   },
   {
     question: '無料で体験できるスタジオは？',
-    answer: 'ピラティスK、Rintosullは無料体験あり。STUDIO IVYは体験4,500円。',
+    answer: 'ピラティスK、Rintosullは無料体験があります。STUDIO IVYは体験4,500円です。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -234,8 +234,8 @@ export default function HachiojiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス八王子おすすめ5選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス八王子おすすめ5選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -258,29 +258,11 @@ export default function HachiojiPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「八王子で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、八王子エリアでおすすめのピラティススタジオ5選をまとめました。
+              本ページでは、八王子エリアでおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -305,7 +287,7 @@ export default function HachiojiPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -358,7 +340,7 @@ export default function HachiojiPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              八王子エリアは都心部と比較してテナント賃料が抑えめのため、同じ内容のレッスンでも料金がリーズナブルな傾向があります。通い放題プランのコスパが特に良いエリアなので、週2回以上通える方は月額制プランが断然おすすめです。近隣の立川エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
+              八王子エリアは都心部と比較してテナント賃料が抑えめのため、同じ内容のレッスンでも料金がリーズナブルな傾向があります。通い放題プランの割安感が大きいエリアのため、週2回以上通える方には月額制プランをおすすめします。近隣の立川エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
             </p>
           </div>
         </section>
@@ -373,25 +355,25 @@ export default function HachiojiPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">JR「八王子駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  八王子エリアのスタジオは八王子駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。八王子駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  八王子エリアのスタジオは八王子駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。八王子駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">スタジオ数が限られるため早めの予約を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  八王子エリアは都心と比べてスタジオの選択肢が限られるため、人気のスタジオ・時間帯は予約が埋まりやすい傾向があります。特に土曜午前は混み合うことが多いので、1週間前には予約を入れておくのがおすすめです。車で通う方は駐車場の有無も確認しておきましょう。
+                  八王子エリアは都心と比べてスタジオの選択肢が限られるため、人気のスタジオ・時間帯は予約が埋まりやすい傾向があります。特に土曜午前は混み合うことが多いので、1週間前には予約を入れておくのがおすすめです。車で通う方は駐車場の有無もご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">通い放題プランと回数制プランを比較検討</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  八王子エリアでは通い放題プランが都心部より割安に設定されていることが多いです。週2回以上通えるなら通い放題が断然お得ですが、月1〜2回のペースなら回数券やドロップインの方がコスパが良い場合も。自分の通う頻度を想定してプランを選びましょう。初月は回数制で様子を見るのも賢い方法です。
+                  八王子エリアでは通い放題プランが都心部より割安に設定されていることが多いです。週2回以上通う場合は通い放題が割安ですが、月1〜2回のペースであれば回数券やドロップインの方が割安な場合もあります。自分の通う頻度を想定してプランをお選びください。初月は回数制で様子を見る方法もあります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  八王子エリアだけでなく、近隣の<Link href="/area/tachikawa/" className="text-warm-700 underline hover:text-warm-900">立川</Link>、<Link href="/area/machida/" className="text-warm-700 underline hover:text-warm-900">町田</Link>、<Link href="/area/fuchu/" className="text-warm-700 underline hover:text-warm-900">府中</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  八王子エリアだけでなく、近隣の<Link href="/area/tachikawa/" className="text-warm-700 underline hover:text-warm-900">立川</Link>、<Link href="/area/machida/" className="text-warm-700 underline hover:text-warm-900">町田</Link>、<Link href="/area/fuchu/" className="text-warm-700 underline hover:text-warm-900">府中</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -409,25 +391,25 @@ export default function HachiojiPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>八王子エリアの豆知識：</strong>八王子エリアは車で通う方も多いため、駐車場の有無や提携コインパーキングを事前に確認しておきましょう。車なら荷物の心配が少ないので、シャワー後の着替えやヘアドライヤーなども余裕を持って準備できます。
+                  <strong>八王子エリアの豆知識：</strong>八王子エリアは車で通う方も多いため、駐車場の有無や提携コインパーキングを事前にご確認ください。車なら荷物の心配が少ないので、シャワー後の着替えやヘアドライヤーなども余裕を持って準備できます。
                 </p>
               </div>
             </div>
@@ -445,7 +427,7 @@ export default function HachiojiPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額2万円未満で通えるスタジオ（店舗カードの料金）。
+                  月額2万円未満で通えるスタジオです（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull（リントスル）八王子店（月4回 8,800円〜）</li>
@@ -456,7 +438,7 @@ export default function HachiojiPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性だけの安心空間。
+                  女性だけの安心空間です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK 八王子オクトーレ店</li>
@@ -467,7 +449,7 @@ export default function HachiojiPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  駅から徒歩2分以内。
+                  駅から徒歩2分以内です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK 八王子オクトーレ店（JR「八王子駅」直結 八王子オクトーレ 6F）</li>
@@ -487,15 +469,15 @@ export default function HachiojiPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回からスタート。最低2-3ヶ月継続で効果を実感。
+                週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回がおすすめ。3-6ヶ月で目に見える変化。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。
+                週1回のペースで無理なく継続することをおすすめします。
               </p>
             </div>
           </div>
@@ -512,7 +494,7 @@ export default function HachiojiPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜13,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月3〜4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。
+                  グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Rintosull 八王子店（月4回 8,800円〜）</li>
@@ -523,7 +505,7 @@ export default function HachiojiPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜15,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン専門スタジオ。
+                  マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（13,420円〜）</li>
@@ -533,7 +515,7 @@ export default function HachiojiPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 16,000〜29,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">通い放題</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  毎日通いたい方。
+                  毎日通いたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（16,170円/通い放題）</li>
@@ -565,7 +547,7 @@ export default function HachiojiPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  八王子の料金相場はグループ月4回で8,800円〜13,420円。入会金やキャンペーンも確認しましょう。
+                  八王子の料金相場はグループ月4回で8,800円〜13,420円です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -574,7 +556,7 @@ export default function HachiojiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  体験料金は、ピラティスK 八王子オクトーレ店が「体験レッスン 無料」、Rintosull（リントスル）八王子店が「体験レッスン 無料」、STUDIO IVY 八王子店が「体験レッスン 4,500円」、24/7ピラティス 八王子店が「体験レッスン 無料（説明含め約60分・手ぶらOK）」です（店舗カードの記載）。最新の条件は各公式サイトで確認しましょう。
+                  体験料金は、ピラティスK 八王子オクトーレ店が「体験レッスン 無料」、Rintosull（リントスル）八王子店が「体験レッスン 無料」、STUDIO IVY 八王子店が「体験レッスン 4,500円」、24/7ピラティス 八王子店が「体験レッスン 無料（説明含め約60分・手ぶらで参加可能）」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -583,7 +565,7 @@ export default function HachiojiPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  八王子の掲載スタジオでは、ピラティスK 八王子オクトーレ店（JR「八王子駅」直結 八王子オクトーレ 6F）、Rintosull（リントスル）八王子店（JR「八王子駅」北口 徒歩1分）、Studio TAKT EIGHT（タクトエイト）（JR中央線「八王子駅」徒歩3分）が駅から近いスタジオです。通う時間帯の経路も確認しておきましょう。
+                  八王子の掲載スタジオでは、ピラティスK 八王子オクトーレ店（JR「八王子駅」直結 八王子オクトーレ 6F）、Rintosull（リントスル）八王子店（JR「八王子駅」北口 徒歩1分）、Studio TAKT EIGHT（タクトエイト）（JR中央線「八王子駅」徒歩3分）が駅から近いスタジオです。通う時間帯の経路もご確認ください。
                 </p>
               </div>
             </div>
@@ -626,13 +608,13 @@ export default function HachiojiPage() {
               今回は八王子エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では八王子にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、八王子にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -641,11 +623,11 @@ export default function HachiojiPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,850円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜3,850円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

@@ -7,7 +7,7 @@ import Script from 'next/script'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/studios/' },
   title: 'ピラティススタジオ選び',
-  description: 'ピラティススタジオの選び方を徹底ガイド。料金相場、体験レッスン、オンラインピラティスなど、初心者におすすめのスタジオ選びのポイントを解説します。',
+  description: 'ピラティススタジオの選び方をご案内しています。料金相場、体験レッスン、オンラインピラティスなど、初心者におすすめのスタジオ選びのポイントを解説します。',
   keywords: 'ピラティス,スタジオ選び,料金,体験レッスン,オンライン,初心者',
 }
 
@@ -28,7 +28,7 @@ export default function StudiosPage() {
               ピラティススタジオ選び
             </h1>
             <p className="text-warm-600 leading-relaxed font-light max-w-2xl mx-auto">
-              あなたに最適なピラティススタジオの選び方を徹底ガイド。料金相場、体験レッスン、オンラインピラティスなど、初心者におすすめの情報をまとめています。
+              ピラティススタジオの選び方をご案内しています。料金相場、体験レッスン、オンラインピラティスなど、初心者に役立つ情報をまとめています。
             </p>
           </div>
         </section>
@@ -105,10 +105,10 @@ export default function StudiosPage() {
         <section className="py-16 md:py-20 bg-warm-50">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-light text-warm-900 mb-4 tracking-tight">
-              無料体験レッスンを予約しよう
+              無料体験レッスンのご予約
             </h2>
             <p className="text-warm-600 mb-8 font-light leading-relaxed">
-              初回限定の体験レッスン1,000円〜。まずは気軽に体験してみましょう。
+              初回限定の体験レッスンは1,000円からです。まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link 
               href="/#studios" 

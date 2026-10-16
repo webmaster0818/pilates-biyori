@@ -4,7 +4,7 @@ import { SiteFooter } from '@/components/SiteFooter'
 
 export const metadata = {
   title: '運営者情報',
-  description: 'Pilates-Biyoriの運営者情報。株式会社MediaXが運営するピラティス情報メディアです。',
+  description: 'Pilates-Biyoriの運営者情報です。株式会社MediaXが運営するピラティス情報メディアです。',
   alternates: {
     canonical: 'https://biyori-pilates.com/about/',
   },
@@ -41,13 +41,13 @@ export default function AboutPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl font-bold text-warm-900 mb-6">サイトについて</h2>
             <p className="text-warm-600 leading-relaxed mb-4">
-              「Pilates-Biyori（ピラティスビヨリ）」は、ピラティスを始めたい方・通っている方のための情報メディアです。全国110エリアのピラティススタジオ情報を網羅し、基礎知識・効果・スタジオ選びまで、ピラティスを楽しむために必要な情報を一元提供しています。
+              「Pilates-Biyori（ピラティスビヨリ）」は、ピラティスを始めたい方・通っている方のための情報メディアです。全国のピラティススタジオ情報をエリア別に掲載し、基礎知識・効果・スタジオ選びまで、ピラティスに関する情報を一元的に提供しています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-4">
               ピラティスは、体幹強化・姿勢改善・柔軟性向上・リラクゼーションなど、身体と心の両方に働きかけるエクササイズです。しかし、「マットピラティスとマシンピラティスの違いがわからない」「どのスタジオを選べばいいかわからない」と悩む方も多いのが実情です。
             </p>
             <p className="text-warm-600 leading-relaxed mb-10">
-              Pilates-Biyoriは、そんな読者の皆様が「自分に最適なピラティス」に出会えるよう、中立性・正確性・わかりやすさを重視したコンテンツ作りを行っています。
+              Pilates-Biyoriは、読者の皆様がご自身に合ったピラティススタジオを選べるよう、中立性・正確性・わかりやすさを重視したコンテンツ作りを行っています。
             </p>
 
             <h2 className="text-2xl font-bold text-warm-900 mb-6">ミッション</h2>
@@ -64,7 +64,7 @@ export default function AboutPage() {
                 <div>
                   <strong className="text-warm-900">ユーザーファースト</strong>
                   <p className="text-warm-600 text-sm mt-1 leading-relaxed">
-                    読者の悩みや疑問を解決することを最優先。広告や提携先の都合ではなく、読者の利益を第一に考えた情報を発信します。
+                    読者の悩みや疑問の解決を最優先にしています。広告や提携先の都合ではなく、読者の利益を第一に考えた情報を発信します。
                   </p>
                 </div>
               </li>

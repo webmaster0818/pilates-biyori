@@ -15,8 +15,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/sagami-ono/' },
-  title: '【2026年10月最新】ピラティス相模大野おすすめ6選！料金・体験レッスン・マシン対応を比較！',
-  description: '相模大野エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス相模大野おすすめ6選料金・体験レッスン・マシン対応を比較',
+  description: '相模大野エリアのおすすめピラティススタジオ6選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,相模大野,神奈川,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -28,10 +28,10 @@ const studios = [
     price: '月4回 22,880円〜（パーソナル）',
     trial: '体験レッスンあり（詳細は公式サイト参照）',
     features: ['マシンピラティス', 'ウェイトトレーニング', 'パーソナル', '約30分集中'],
-    description: 'マシンピラティスとウェイトトレーニングを組み合わせたパーソナルスタジオ。インナーマッスルとアウターマッスルの両方にアプローチし、約30分の効率的なセッションでボディメイクを目指せます。全国展開のURBAN CLASSIC PILATESの姉妹ブランドで、初心者にもトレーナーが丁寧に対応。相模大野エリアの店舗です。',
+    description: 'マシンピラティスとウェイトトレーニングを組み合わせたパーソナルスタジオです。インナーマッスルとアウターマッスルの両方にアプローチし、約30分の効率的なセッションでボディメイクを目指せます。全国展開のURBAN CLASSIC PILATESの姉妹ブランドで、初心者にもトレーナーが丁寧に対応しています。相模大野エリアの店舗です。',
     access: '相模大野エリア（詳細は公式サイト参照）',
     address: '神奈川県相模原市南区（詳細は公式サイト参照）',
-    popularPlan: { name: 'Personal M4（月4回）', description: 'マシンピラティス×ウェイトのパーソナル。月4回で習慣化しやすいプラン。', price: '月4回 22,880円（税込）' },
+    popularPlan: { name: 'Personal M4（月4回）', description: 'マシンピラティス×ウェイトのパーソナルです。月4回で習慣化しやすいプランです。', price: '月4回 22,880円（税込）' },
     basicInfo: { hours: '詳細は公式サイト参照', closed: '詳細は公式サイト参照', facilities: ['マシンピラティス', 'パーソナル', '更衣室', 'ウェイトエリア'] },
   },
   {
@@ -41,12 +41,12 @@ const studios = [
     price: '月4回 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', '相模大野駅徒歩1分', '部位別プログラム', 'マシン専門'],
-    description: '女性専用マシンピラティス専門スタジオ。相模大野駅から徒歩1分、ジョイモアーズ6階。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実。強度や目的に合わせて選べるクラスが豊富。',
+    description: '女性専用マシンピラティス専門スタジオです。相模大野駅から徒歩1分、ジョイモアーズ6階です。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実しています。強度や目的に合わせて選べるクラスが豊富です。',
     access: '小田急線「相模大野駅」徒歩1分',
     address: '神奈川県相模原市南区相模大野3-9-1 相模大野ジョイモアーズ 6F',
     popularPlan: {
       name: 'マンスリー4メンバー（月4回）',
-      description: '女性専用マシンピラティス月4回。部位別プログラムも選べる。',
+      description: '女性専用マシンピラティス月4回です。部位別プログラムも選べます。',
       price: '月4回 13,420円（税込）',
     },
     options: [
@@ -72,13 +72,13 @@ const studios = [
     image: '/images/studios/club-pilates.webp',
     price: '月4回 11,990円／月8回 21,890円／通い放題 36,190円（公式店舗ページ・税表記なし）',
     trial: '体験レッスン 無料',
-    features: ['世界最大級', '相模大野駅徒歩3分', '15種類の器具', '男性OK'],
-    description: '世界最大級のマシンピラティスブランド。相模大野駅北口から徒歩3分。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類のマシン・器具を完備。8つのプログラムと4段階のレベル分け。',
+    features: ['世界最大級', '相模大野駅徒歩3分', '15種類の器具', '男性利用可'],
+    description: '世界最大級のマシンピラティスブランドです。相模大野駅北口から徒歩3分です。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類のマシン・器具を完備しています。8つのプログラムと4段階のレベル分けです。',
     access: '小田急線「相模大野駅」北口 徒歩3分',
     address: '神奈川県相模原市南区相模大野3-13-7 YSビルB1F',
     popularPlan: {
       name: 'グループ月4回プラン',
-      description: '15種類の器具を使った本格グループレッスン。4段階のレベル分けで安心。',
+      description: '15種類の器具を使った本格グループレッスンです。4段階のレベル分けで安心です。',
       price: '月4回 11,990円（税表記なし）',
     },
     options: ['月8回 21,890円', '通い放題 36,190円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
@@ -99,12 +99,12 @@ const studios = [
     price: '月4回 11,000円〜',
     trial: '体験レッスン 0円',
     features: ['相模大野駅徒歩3分', 'マシン専門', '都度払いあり', '少人数制'],
-    description: '相模大野駅南口から徒歩3分、ココカラ相模大野1Fのマシンピラティス専門スタジオ。経験豊富なインストラクターが一人ひとりのニーズに合わせた指導を行う。都度払い2,200円〜も可能で気軽に始められる。',
+    description: '相模大野駅南口から徒歩3分、ココカラ相模大野1Fのマシンピラティス専門スタジオです。経験豊富なインストラクターが一人ひとりのニーズに合わせた指導を行います。都度払い2,200円〜も可能で気軽に始められます。',
     access: '小田急線「相模大野駅」南口 徒歩3分',
     address: '神奈川県相模原市南区相模大野7-19-1 ココカラ相模大野1F',
     popularPlan: {
       name: '月4回プラン',
-      description: 'マシンピラティスのグループレッスン月4回。',
+      description: 'マシンピラティスのグループレッスン月4回です。',
       price: '月4回 11,000円（税込）',
     },
     options: [
@@ -130,12 +130,12 @@ const studios = [
     price: '1回 3,300円〜',
     trial: '体験レッスン 4,400円',
     features: ['ボーノ相模大野内', '駅直結', 'パーソナル充実', 'マシン＆マット'],
-    description: 'ボーノ相模大野2Fのピラティス専門スタジオ。相模大野駅北口サンデッキ直結で徒歩3分。パーソナルレッスンとグループレッスンの両方を提供。マシンとマット両方のピラティスが受けられる。',
+    description: 'ボーノ相模大野2Fのピラティス専門スタジオです。相模大野駅北口サンデッキ直結で徒歩3分です。パーソナルレッスンとグループレッスンの両方を提供しています。マシンとマット両方のピラティスが受けられます。',
     access: '小田急線「相模大野駅」北口サンデッキ直結 徒歩3分',
     address: '神奈川県相模原市南区相模大野3-3 ボーノ サウスモール 2F',
     popularPlan: {
       name: 'グループレッスン',
-      description: 'マシン＆マットのグループレッスン。',
+      description: 'マシン＆マットのグループレッスンです。',
       price: '1回 3,300円〜（税込）',
     },
     options: [
@@ -163,7 +163,7 @@ const studios = [
     priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
     trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。相模大野駅から徒歩1分。',
+    description: '女性専用のマシンピラティス専門スタジオです。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴です。相模大野駅から徒歩1分です。',
     access: '相模大野駅 徒歩1分',
     address: '〒252-0303 神奈川県相模原市南区相模大野3丁目12-9 LSビル3F',
     userProfile: {
@@ -183,31 +183,31 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！相模大野エリアのスタジオはほとんどが初心者歓迎。CLUB PILATESは4段階のレベル分け、ピラティスKは音楽に合わせた楽しいレッスンで初心者でも安心です。',
+    answer: '問題ありません。相模大野エリアのスタジオはほとんどが初心者歓迎です。CLUB PILATESは4段階のレベル分け、ピラティスKは音楽に合わせた楽しいレッスンで初心者でも安心です。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。相模大野はマシン専門スタジオが特に充実。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。相模大野はマシン専門スタジオが特に充実しています。',
   },
   {
     question: '相模大野のピラティスの料金相場は？',
-    answer: 'グループ月4回で11,000円〜13,420円程度。roll UPは月4回11,000円〜、CLUB PILATESは月4回 11,990円。',
+    answer: 'グループ月4回で11,000円〜13,420円程度です。roll UPは月4回11,000円〜、CLUB PILATESは月4回 11,990円です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。大切なのは継続すること。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。大切なのは継続することです。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。ピラティスKとroll UPは0円で体験可能。CLUB PILATESも無料体験あり。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。ピラティスKとroll UPは0円で体験可能です。CLUB PILATESも無料体験があります。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹強化・姿勢改善に特化。ヨガは柔軟性とリラックス重視。',
+    answer: 'ピラティスは体幹強化・姿勢改善に特化しています。ヨガは柔軟性とリラックス重視です。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
@@ -215,11 +215,11 @@ const faqs = [
   },
   {
     question: '無料で体験できるスタジオは？',
-    answer: 'ピラティスK、roll UP、CLUB PILATESは無料体験あり。',
+    answer: 'ピラティスK、roll UP、CLUB PILATESは無料体験があります。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -240,8 +240,8 @@ export default function SagamiOnoPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス相模大野おすすめ6選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス相模大野おすすめ6選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -264,29 +264,11 @@ export default function SagamiOnoPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「相模大野で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、相模大野エリアでおすすめのピラティススタジオ6選をまとめました。
+              本ページでは、相模大野エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -311,7 +293,7 @@ export default function SagamiOnoPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -365,7 +347,7 @@ export default function SagamiOnoPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              相模大野エリアは都心部と比較してテナント賃料が抑えめのため、同じ内容のレッスンでも料金がリーズナブルな傾向があります。通い放題プランのコスパが特に良いエリアなので、週2回以上通える方は月額制プランが断然おすすめです。近隣の町田エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
+              相模大野エリアは都心部と比較してテナント賃料が抑えめのため、同じ内容のレッスンでも料金がリーズナブルな傾向があります。通い放題プランの割安感が大きいエリアのため、週2回以上通える方には月額制プランをおすすめします。近隣の町田エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
             </p>
           </div>
         </section>
@@ -380,25 +362,25 @@ export default function SagamiOnoPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">小田急線「相模大野駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  相模大野エリアのスタジオは相模大野駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。相模大野駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  相模大野エリアのスタジオは相模大野駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。相模大野駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">スタジオ数が限られるため早めの予約を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  相模大野エリアは都心と比べてスタジオの選択肢が限られるため、人気のスタジオ・時間帯は予約が埋まりやすい傾向があります。特に土曜午前は混み合うことが多いので、1週間前には予約を入れておくのがおすすめです。車で通う方は駐車場の有無も確認しておきましょう。
+                  相模大野エリアは都心と比べてスタジオの選択肢が限られるため、人気のスタジオ・時間帯は予約が埋まりやすい傾向があります。特に土曜午前は混み合うことが多いので、1週間前には予約を入れておくのがおすすめです。車で通う方は駐車場の有無もご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">通い放題プランと回数制プランを比較検討</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  相模大野エリアでは通い放題プランが都心部より割安に設定されていることが多いです。週2回以上通えるなら通い放題が断然お得ですが、月1〜2回のペースなら回数券やドロップインの方がコスパが良い場合も。自分の通う頻度を想定してプランを選びましょう。初月は回数制で様子を見るのも賢い方法です。
+                  相模大野エリアでは通い放題プランが都心部より割安に設定されていることが多いです。週2回以上通う場合は通い放題が割安ですが、月1〜2回のペースであれば回数券やドロップインの方が割安な場合もあります。自分の通う頻度を想定してプランをお選びください。初月は回数制で様子を見る方法もあります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  相模大野エリアだけでなく、近隣の<Link href="/area/machida/" className="text-warm-700 underline hover:text-warm-900">町田</Link>、<Link href="/area/honatsugi/" className="text-warm-700 underline hover:text-warm-900">本厚木</Link>、<Link href="/area/yokohama/" className="text-warm-700 underline hover:text-warm-900">横浜</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  相模大野エリアだけでなく、近隣の<Link href="/area/machida/" className="text-warm-700 underline hover:text-warm-900">町田</Link>、<Link href="/area/honatsugi/" className="text-warm-700 underline hover:text-warm-900">本厚木</Link>、<Link href="/area/yokohama/" className="text-warm-700 underline hover:text-warm-900">横浜</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -416,25 +398,25 @@ export default function SagamiOnoPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>相模大野エリアの豆知識：</strong>相模大野エリアは車で通う方も多いため、駐車場の有無や提携コインパーキングを事前に確認しておきましょう。車なら荷物の心配が少ないので、シャワー後の着替えやヘアドライヤーなども余裕を持って準備できます。
+                  <strong>相模大野エリアの豆知識：</strong>相模大野エリアは車で通う方も多いため、駐車場の有無や提携コインパーキングを事前にご確認ください。車なら荷物の心配が少ないので、シャワー後の着替えやヘアドライヤーなども余裕を持って準備できます。
                 </p>
               </div>
             </div>
@@ -452,7 +434,7 @@ export default function SagamiOnoPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額2万円未満で通えるスタジオ（店舗カードの料金）。
+                  月額2万円未満で通えるスタジオです（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• roll UP pilates studio 相模大野（月4回 11,000円〜）</li>
@@ -463,7 +445,7 @@ export default function SagamiOnoPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性だけの安心空間。
+                  女性だけの安心空間です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK 相模大野店</li>
@@ -473,7 +455,7 @@ export default function SagamiOnoPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  駅から徒歩2分以内。
+                  駅から徒歩2分以内です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• スタジオBYK ボーノ相模大野店（小田急線「相模大野駅」北口サンデッキ直結 徒歩3分）</li>
@@ -494,15 +476,15 @@ export default function SagamiOnoPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回からスタート。最低2-3ヶ月継続で効果を実感。
+                週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回がおすすめ。3-6ヶ月で目に見える変化。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。
+                週1回のペースで無理なく継続することをおすすめします。
               </p>
             </div>
           </div>
@@ -519,7 +501,7 @@ export default function SagamiOnoPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜13,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月3〜4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。
+                  グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• roll UP pilates studio 相模大野（月4回 11,000円〜）</li>
@@ -530,7 +512,7 @@ export default function SagamiOnoPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜15,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン専門スタジオ。
+                  マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（13,420円〜）</li>
@@ -541,7 +523,7 @@ export default function SagamiOnoPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 16,000〜29,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">通い放題</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  毎日通いたい方。
+                  毎日通いたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（16,170円/通い放題）</li>
@@ -574,7 +556,7 @@ export default function SagamiOnoPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  相模大野の料金相場はグループ月4回で11,000円〜13,420円。入会金やキャンペーンも確認しましょう。
+                  相模大野の料金相場はグループ月4回で11,000円〜13,420円です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -583,7 +565,7 @@ export default function SagamiOnoPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  体験料金は、ピラティスK 相模大野店が「体験レッスン 0円」、CLUB PILATES 相模大野店が「体験レッスン 無料」、roll UP pilates studio 相模大野が「体験レッスン 0円」、スタジオBYK ボーノ相模大野店が「体験レッスン 4,400円」です（店舗カードの記載）。最新の条件は各公式サイトで確認しましょう。
+                  体験料金は、ピラティスK 相模大野店が「体験レッスン 0円」、CLUB PILATES 相模大野店が「体験レッスン 無料」、roll UP pilates studio 相模大野が「体験レッスン 0円」、スタジオBYK ボーノ相模大野店が「体験レッスン 4,400円」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -592,7 +574,7 @@ export default function SagamiOnoPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  相模大野の掲載スタジオでは、スタジオBYK ボーノ相模大野店（小田急線「相模大野駅」北口サンデッキ直結 徒歩3分）、ピラティスK 相模大野店（小田急線「相模大野駅」徒歩1分）、Pilates Mee相模大野店（相模大野駅 徒歩1分）が駅から近いスタジオです。通う時間帯の経路も確認しておきましょう。
+                  相模大野の掲載スタジオでは、スタジオBYK ボーノ相模大野店（小田急線「相模大野駅」北口サンデッキ直結 徒歩3分）、ピラティスK 相模大野店（小田急線「相模大野駅」徒歩1分）、Pilates Mee相模大野店（相模大野駅 徒歩1分）が駅から近いスタジオです。通う時間帯の経路もご確認ください。
                 </p>
               </div>
             </div>
@@ -635,13 +617,13 @@ export default function SagamiOnoPage() {
               今回は相模大野エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では相模大野にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、相模大野にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -650,11 +632,11 @@ export default function SagamiOnoPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,850円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜3,850円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

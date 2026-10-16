@@ -18,7 +18,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/futakotamagawa/' },
   title: '【2026年10月最新】二子玉川のピラティス6社を比較｜無料体験3社・月額最安10,450円〜',
-  description: '二子玉川エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  description: '二子玉川エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,二子玉川,世田谷,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -30,12 +30,12 @@ const studios = [
     price: '月4回 22,880円〜（パーソナル）',
     trial: '体験レッスンあり（詳細は公式サイト参照）',
     features: ['マシンピラティス', 'ウェイトトレーニング', 'パーソナル', '約30分集中'],
-    description: 'マシンピラティスとウェイトトレーニングを組み合わせたパーソナルスタジオ。インナーマッスルとアウターマッスルの両方にアプローチし、約30分の効率的なセッションでボディメイクを目指せます。全国展開のURBAN CLASSIC PILATESの姉妹ブランドで、初心者にもトレーナーが丁寧に対応。二子玉川エリアの店舗です。',
+    description: 'マシンピラティスとウェイトトレーニングを組み合わせたパーソナルスタジオです。インナーマッスルとアウターマッスルの両方にアプローチし、約30分の効率的なセッションでボディメイクを目指せます。全国展開のURBAN CLASSIC PILATESの姉妹ブランドで、初心者にもトレーナーが丁寧に対応しています。二子玉川エリアの店舗です。',
     access: '二子玉川エリア（詳細は公式サイト参照）',
     address: '東京都（詳細は公式サイト参照）',
     popularPlan: {
       name: 'Personal M4（月4回）',
-      description: 'マシンピラティス×ウェイトのパーソナル。月4回で習慣化しやすいプラン。',
+      description: 'マシンピラティス×ウェイトのパーソナルです。月4回で習慣化しやすいプランです。',
       price: '月4回 22,880円（税込）',
     },
     basicInfo: {
@@ -50,13 +50,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月額 10,450円〜',
     trial: '体験レッスンあり（当日入会で入会金無料）',
-    features: ['マシン完備', '男性OK', '二子玉川駅徒歩4分', '全国相互利用可'],
-    description: '全国150以上のスタジオを展開する国内最大級のピラティス専門スタジオ。二子玉川駅から徒歩4分。1Fの開放的なスタジオでマットグループ・リフォーマーグループ・プライベートレッスンと豊富なレッスン形式。男性も受講可能。',
+    features: ['マシン完備', '男性利用可', '二子玉川駅徒歩4分', '全国他店利用可'],
+    description: '全国150以上のスタジオを展開する国内最大級のピラティス専門スタジオです。二子玉川駅から徒歩4分です。1Fの開放的なスタジオでマットグループ・リフォーマーグループ・プライベートレッスンと豊富なレッスン形式です。男性も受講可能です。',
     access: '東急田園都市線・大井町線「二子玉川駅」徒歩4分',
     address: '東京都世田谷区玉川3-20-10 メリス玉川Part2 1F',
     popularPlan: {
       name: 'マットグループフリー',
-      description: 'マットピラティスのグループレッスン通い放題。全国のzen placeスタジオで相互利用可能。',
+      description: 'マットピラティスのグループレッスン通い放題です。全国のzen placeスタジオで他店利用可能です。',
       price: '月額 10,450円（税込）',
     },
     options: [
@@ -81,14 +81,14 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
     price: '月3回 12,980円〜',
-    trial: '体験レッスン 0円（50分・手ぶらOK）',
+    trial: '体験レッスン 0円（50分・手ぶらで参加可能）',
     features: ['女性専用', 'マシン専門', '二子玉川駅徒歩5分', 'パーソナルあり'],
-    description: '女性専用マシンピラティス専門スタジオ。二子玉川駅西口から徒歩5分。グループレッスンに加えてパーソナルレッスンも提供（二子玉川店限定）。PMA加盟団体のプロ監修レッスン。プロフェッショナルグレードのリフォーマーマシンを使用。',
+    description: '女性専用マシンピラティス専門スタジオです。二子玉川駅西口から徒歩5分です。グループレッスンに加えてパーソナルレッスンも提供しています（二子玉川店限定）。PMA加盟団体のプロ監修レッスンです。プロフェッショナルグレードのリフォーマーマシンを使用しています。',
     access: '東急電鉄「二子玉川駅」西口 徒歩5分',
     address: '東京都世田谷区玉川4丁目1-9 リードシー二子玉川ビル 2階',
     popularPlan: {
       name: 'スタンダード4（月4回）',
-      description: '月4回のグループレッスン。PMA監修のプロフェッショナルグレードリフォーマー。',
+      description: '月4回のグループレッスンです。PMA監修のプロフェッショナルグレードリフォーマーです。',
       price: '月4回 15,070円（税込）',
     },
     options: [
@@ -115,12 +115,12 @@ const studios = [
     price: '月4回 15,400円〜',
     trial: '体験レッスン 3,850円',
     features: ['日本初マシン専門', '二子玉川駅徒歩2分', '認定講師', 'グループ&プライベート'],
-    description: '日本初のマシンピラティス専門スタジオの二子玉川店。駅から徒歩2分の好立地。認定指導資格を保有した講師によるグループレッスンとプライベートレッスン。一人ひとりの身体の状態と目的に沿ってメニューを完全カスタマイズ。',
+    description: '日本初のマシンピラティス専門スタジオの二子玉川店です。駅から徒歩2分の好立地です。認定指導資格を保有した講師によるグループレッスンとプライベートレッスンです。一人ひとりの身体の状態と目的に沿ってメニューを完全カスタマイズです。',
     access: '東急田園都市線・大井町線「二子玉川駅」徒歩2分',
     address: '東京都世田谷区玉川3-6-1 第6明友ビル 6F',
     popularPlan: {
       name: 'グループレッスン月4回',
-      description: '認定講師による本格マシンピラティスグループレッスン。',
+      description: '認定講師による本格マシンピラティスグループレッスンです。',
       price: '月4回 15,400円（税込）',
     },
     options: [
@@ -146,13 +146,13 @@ const studios = [
     image: '/images/studios/club-pilates.webp',
     price: '料金は店舗により異なる（公式の店舗ページで確認）',
     trial: '体験レッスン 無料（当日入会で入会金無料）',
-    features: ['世界最大級', '15種類の器具', '二子玉川駅徒歩3分', '男性OK'],
-    description: '世界最大級のマシンピラティスブランド。二子玉川駅西口から徒歩3分。最大12名の少人数制グループレッスンで、15種類のマシン・器具を1人1台完備。8つのプログラムと4段階のレベルに分けたクラスから選択可能。',
+    features: ['世界最大級', '15種類の器具', '二子玉川駅徒歩3分', '男性利用可'],
+    description: '世界最大級のマシンピラティスブランドです。二子玉川駅西口から徒歩3分です。最大12名の少人数制グループレッスンで、15種類のマシン・器具を1人1台完備しています。8つのプログラムと4段階のレベルに分けたクラスから選択可能です。',
     access: '東急田園都市線・大井町線「二子玉川駅」西口 徒歩3分',
     address: '東京都世田谷区玉川3-15-1 曽根ビル 2F',
     popularPlan: {
       name: 'グループ月4回プラン',
-      description: '15種類の器具を使った本格グループレッスン。4段階のレベル分けで安心。',
+      description: '15種類の器具を使った本格グループレッスンです。4段階のレベル分けで安心です。',
       price: '店舗により異なる（公式の店舗ページで確認）',
     },
     options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
@@ -173,12 +173,12 @@ const studios = [
     price: '月会費 11,000円（月6回）',
     trial: '体験レッスンあり（当日入会で入会金無料）',
     features: ['コナミ運営', 'マシン専門', 'パーソナルあり', 'ミラー設備'],
-    description: 'コナミスポーツクラブが運営するマシンピラティス専門スタジオ。「もっと鏡が見たくなる」をコンセプトに、鏡を効果的に利用する新しいピラティススタジオ。月会費11,000円で月6回まで、7回目以降は1,100円で追加可能。パーソナルレッスンも提供。',
+    description: 'コナミスポーツクラブが運営するマシンピラティス専門スタジオです。「もっと鏡が見たくなる」をコンセプトに、鏡を効果的に利用する新しいピラティススタジオです。月会費11,000円で月6回まで、7回目以降は1,100円で追加可能です。パーソナルレッスンも提供しています。',
     access: '二子玉川駅周辺',
     address: '東京都世田谷区玉川4丁目1-9 タマリバー246 2F',
     popularPlan: {
       name: '月会費プラン（月6回）',
-      description: 'マシンピラティス月6回まで。7回目以降は1,100円で追加可能。',
+      description: 'マシンピラティス月6回までです。7回目以降は1,100円で追加可能です。',
       price: '月会費 11,000円（税込）',
     },
     options: [
@@ -203,43 +203,43 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！二子玉川のスタジオのほとんどが初心者歓迎。the SILKは初心者が80%、CLUB PILATESはレベル分けがあるので安心です。',
+    answer: '問題ありません。二子玉川のスタジオのほとんどが初心者歓迎です。the SILKは初心者が80%、CLUB PILATESはレベル分けがあるので安心です。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。二子玉川はマシン専門スタジオが充実しています。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。二子玉川はマシン専門スタジオが充実しています。',
   },
   {
     question: '二子玉川のピラティススタジオの料金相場は？',
-    answer: 'グループ月4回で10,450円〜15,400円程度。ピラティスミラーは月6回11,000円でコスパ抜群。パーソナルは月2回19,800円〜が相場です。',
+    answer: 'グループ月4回で10,450円〜15,400円程度です。ピラティスミラーは月6回11,000円で割安です。パーソナルは月2回19,800円〜が相場です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1-2回（月4-8回）がおすすめ。慣れたら週2-3回に。大切なのは継続すること。',
+    answer: '初心者は週1〜2回（月4〜8回）がおすすめです。慣れてきたら週2〜3回が目安です。大切なのは継続することです。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。the SILKは手ぶらOKの無料体験、CLUB PILATESも無料体験を実施しています。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。the SILKは手ぶらで参加可能の無料体験、CLUB PILATESも無料体験を実施しています。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹強化に特化。ヨガは柔軟性とリラックス重視。目的に合わせて選びましょう。',
+    answer: 'ピラティスは体幹強化に特化しています。ヨガは柔軟性とリラックス重視です。目的に合わせてお選びください。',
   },
   {
     question: 'ピラティスで肩こりや腰痛は改善しますか？',
-    answer: 'はい、姿勢改善で根本原因を解消できます。BDC PILATESのプライベートレッスンでは体の状態に合わせた完全カスタマイズが可能です。',
+    answer: '姿勢の改善により、肩こりや腰痛の原因へのアプローチが期待できます。BDC PILATESのプライベートレッスンでは体の状態に合わせた完全カスタマイズが可能です。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'パーソナルはBDC PILATESやthe SILKで効果的な指導を。グループはzen placeなら月額10,450円から。まずは体験で両方試してみましょう。',
+    answer: 'パーソナルはBDC PILATESやthe SILKで効果的な指導を受けられます。グループはzen placeなら月額10,450円からです。まずは体験レッスンで両方を試すことをおすすめします。',
   },
 ]
 
@@ -260,8 +260,8 @@ export default function FutakotamagawaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス二子玉川おすすめ6選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス二子玉川おすすめ6選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -286,29 +286,11 @@ export default function FutakotamagawaPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「二子玉川で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、二子玉川エリアでおすすめのピラティススタジオ6選をまとめました。
+              本ページでは、二子玉川エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -333,7 +315,7 @@ export default function FutakotamagawaPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -402,25 +384,25 @@ export default function FutakotamagawaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">東急田園都市線・大井町線「二子玉川駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  二子玉川エリアのスタジオは二子玉川駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。二子玉川駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  二子玉川エリアのスタジオは二子玉川駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。二子玉川駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">少人数制スタジオは早めの予約がカギ</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  二子玉川は少人数制やプライベートレッスンを重視するスタジオが多く、1クラスの定員が少ないため予約が早く埋まりがちです。特にマシンピラティスは定員4〜8名のスタジオが主流なので、希望の時間帯があれば早めに予約を。キャンセル待ち制度のあるスタジオを選ぶと安心です。
+                  二子玉川は少人数制やプライベートレッスンを重視するスタジオが多く、1クラスの定員が少ないため予約が早く埋まりがちです。特にマシンピラティスは定員4〜8名のスタジオが主流なので、希望の時間帯があれば早めのご予約をおすすめします。キャンセル待ち制度のあるスタジオを選ぶと安心です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  二子玉川エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ず確認しましょう。月の途中入会は日割り計算になるかも要チェックです。
+                  二子玉川エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ずご確認ください。月の途中入会は日割り計算になるかもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  二子玉川エリアだけでなく、近隣の<Link href="/area/sangenjaya/" className="text-warm-700 underline hover:text-warm-900">三軒茶屋</Link>、<Link href="/area/yoga-komazawa/" className="text-warm-700 underline hover:text-warm-900">用賀・駒沢</Link>、<Link href="/area/musashikosugi/" className="text-warm-700 underline hover:text-warm-900">武蔵小杉</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  二子玉川エリアだけでなく、近隣の<Link href="/area/sangenjaya/" className="text-warm-700 underline hover:text-warm-900">三軒茶屋</Link>、<Link href="/area/yoga-komazawa/" className="text-warm-700 underline hover:text-warm-900">用賀・駒沢</Link>、<Link href="/area/musashikosugi/" className="text-warm-700 underline hover:text-warm-900">武蔵小杉</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -438,19 +420,19 @@ export default function FutakotamagawaPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
@@ -474,7 +456,7 @@ export default function FutakotamagawaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円前後で通えるスタジオ。
+                  月額1万円前後で通えるスタジオです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月額10,450円〜）</li>
@@ -485,7 +467,7 @@ export default function FutakotamagawaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">本格マシン完備</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  充実したマシン設備で本格的なレッスンを。
+                  充実したマシン設備で本格的なレッスンを受けられます。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• CLUB PILATES（15種類の器具）</li>
@@ -496,7 +478,7 @@ export default function FutakotamagawaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  二子玉川駅から徒歩5分以内。
+                  二子玉川駅から徒歩5分以内です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• BDC PILATES（徒歩2分）</li>
@@ -517,15 +499,15 @@ export default function FutakotamagawaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回（月4-8回）からスタートするのがおすすめ。まずは身体を慣らすことが大切です。継続期間は最低でも2-3ヶ月。この期間で効果を実感できる方が多いですよ。
+                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感できる方が多いです。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回（月8-12回）がおすすめ。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3-6ヶ月継続すると、周りからも変化に気づかれるレベルの変化が期待できます。
+                週2〜3回（月8〜12回）がおすすめです。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3〜6ヶ月継続すると、周りからも変化に気づかれるレベルの変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理が目的の方</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回（月4回）のペースで継続するのがおすすめ。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切。自分のペースで楽しく通えるのが一番ですよ。
+                週1回（月4回）のペースで継続するのがおすすめです。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切です。無理のないペースで通うことが大切です。
               </p>
             </div>
           </div>
@@ -542,7 +524,7 @@ export default function FutakotamagawaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜12,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4〜6回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。初心者向けの基本的なレッスンが多い。
+                  グループレッスンが中心です。初心者向けの基本的なレッスンが多いです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（10,450円〜）</li>
@@ -554,7 +536,7 @@ export default function FutakotamagawaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜16,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン完備の大手スタジオ。グループ・プライベート選択可。
+                  マシン完備の大手スタジオです。グループ・プライベート選択可能です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• the SILK（12,980円〜）</li>
@@ -566,7 +548,7 @@ export default function FutakotamagawaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 20,000円〜</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月2〜4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  パーソナルレッスン。効果重視の方におすすめ。
+                  パーソナルレッスンです。効果重視の方におすすめです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• the SILK プライベート（19,800円〜/月2回）</li>
@@ -590,7 +572,7 @@ export default function FutakotamagawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  まずは自分がピラティスで何を達成したいのかを明確にしましょう。ダイエット、姿勢改善、体幹強化、リラックスなど、目的によって最適なスタジオやプログラムは変わります。目的が明確だとスタジオ選びもスムーズになりますよ。
+                  まずは自分がピラティスで何を達成したいのかを明確にすることをおすすめします。ダイエット、姿勢改善、体幹強化、リラックスなど、目的によって最適なスタジオやプログラムは変わります。目的を明確にしておくと、スタジオを選びやすくなります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -599,7 +581,7 @@ export default function FutakotamagawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  二子玉川エリアの料金相場はグループ月4回で10,450円〜15,400円程度。無理なく継続できる予算を決めましょう。料金だけでなく、入会金やレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  二子玉川エリアの料金相場はグループ月4回で10,450円〜15,400円程度です。無理なく継続できる予算を決めることをおすすめします。料金だけでなく、入会金やレンタル料などもご確認ください。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -608,7 +590,7 @@ export default function FutakotamagawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。the SILKとCLUB PILATESは無料体験を実施。zen placeは体験当日入会で入会金無料。気軽に試してみてくださいね。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。the SILKとCLUB PILATESは無料体験を実施しています。zen placeは体験当日入会で入会金無料です。体験レッスンをご利用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -617,7 +599,7 @@ export default function FutakotamagawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  どんなに良いスタジオでも、通いにくい場所にあると続きません。二子玉川は東急田園都市線・大井町線が利用可能。すべてのスタジオが駅から徒歩5分以内で、二子玉川ライズでの買い物ついでにも通えて便利です。営業時間も要チェックです。
+                  通いにくい場所にあるスタジオは、継続が難しくなります。二子玉川は東急田園都市線・大井町線が利用可能です。すべてのスタジオが駅から徒歩5分以内で、二子玉川ライズでの買い物ついでにも通えて便利です。営業時間もご確認ください。
                 </p>
               </div>
             </div>
@@ -660,13 +642,13 @@ export default function FutakotamagawaPage() {
               今回は二子玉川のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では二子玉川にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、二子玉川にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -675,11 +657,11 @@ export default function FutakotamagawaPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,850円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜3,850円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

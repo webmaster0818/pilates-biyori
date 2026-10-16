@@ -17,8 +17,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/nishi-nippori/' },
-  title: '【2026年10月最新】西日暮里のピラティス｜初心者OK・無料体験で選ぶ料金比較',
-  description: '西日暮里エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  title: '【2026年10月最新】西日暮里のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  description: '西日暮里エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,西日暮里,日暮里,千駄木,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -30,12 +30,12 @@ const studios = [
     price: '月額 7,800円〜（通い放題 14,080円）',
     trial: '体験レッスン 3,800円',
     features: ['予約不要', '30分サーキット', '日暮里駅徒歩1分', '西日暮里から1駅'],
-    description: 'マシンピラティスとファンクショナルトレーニングのサーキット形式スタジオ。日暮里駅から徒歩1分、西日暮里からJR山手線で1駅。予約不要・1回30分で忙しい方でも気軽に続けられます。',
+    description: 'マシンピラティスとファンクショナルトレーニングのサーキット形式スタジオです。日暮里駅から徒歩1分、西日暮里からJR山手線で1駅です。予約不要・1回30分で忙しい方でも気軽に続けられます。',
     access: 'JR「日暮里駅」徒歩1分 / JR「西日暮里駅」から山手線で1駅',
     address: '東京都荒川区（日暮里駅徒歩1分）',
     popularPlan: {
       name: '通い放題プラン',
-      description: '予約不要・30分サーキットで何度でも通える。',
+      description: '予約不要・30分サーキットで何度でも通えます。',
       price: '月額 14,080円（税込）',
     },
     options: [
@@ -61,13 +61,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: 'マットグループ 月4回 9,625円〜',
     trial: '体験レッスン 500円〜',
-    features: ['マット&マシン', '千駄木駅徒歩1分', '西日暮里から千代田線1駅', '男性OK'],
-    description: '全国150店舗以上展開の大手ピラティススタジオ。千駄木駅1番出口から徒歩1分。西日暮里から千代田線で1駅の好アクセス。マットグループ、マシングループ、プライベートに対応。',
+    features: ['マット&マシン', '千駄木駅徒歩1分', '西日暮里から千代田線1駅', '男性利用可'],
+    description: '全国150店舗以上展開の大手ピラティススタジオです。千駄木駅1番出口から徒歩1分です。西日暮里から千代田線で1駅の好アクセスです。マットグループ、マシングループ、プライベートに対応しています。',
     access: '千代田線「千駄木駅」1番出口 徒歩1分 / 「西日暮里駅」から千代田線で1駅',
     address: '東京都文京区千駄木3丁目31-12 ワコーレ千駄木ビル3F',
     popularPlan: {
       name: 'リフォーマーグループ（月4回）',
-      description: 'マシンを使ったグループレッスン。',
+      description: 'マシンを使ったグループレッスンです。',
       price: '月4回 15,400円（税込）〜',
     },
     options: [
@@ -93,7 +93,7 @@ const studios = [
     price: 'お問い合わせください',
     trial: '体験レッスンあり',
     features: ['全員女性インストラクター', 'パーソナル専門', 'キッズスペース完備', '完全個室'],
-    description: '全員女性インストラクターによるパーソナルマシンピラティス。キッズスペース完備でお子様連れOK。完全個室空間でオーダーメイドのレッスンを提供。西日暮里・日暮里エリアからアクセス可能。',
+    description: '全員女性インストラクターによるパーソナルマシンピラティスです。キッズスペース完備でお子様連れ可能です。完全個室空間でオーダーメイドのレッスンを提供しています。西日暮里・日暮里エリアからアクセス可能です。',
     access: '西日暮里・日暮里エリアからアクセス可能',
     address: '東京都荒川区（西日暮里・日暮里エリア）',
   },
@@ -104,7 +104,7 @@ const studios = [
     price: 'マンスリー4メンバー 13,420円',
     trial: '体験レッスン 2,000円',
     features: ['女性専用', 'マシンピラティス専門', '池袋エリア', '西日暮里から山手線で近い'],
-    description: '女性専用マシンピラティス専門スタジオ。西日暮里からJR山手線で池袋まで数駅。初心者から経験者まで個人のペースに合わせたプログラム。',
+    description: '女性専用マシンピラティス専門スタジオです。西日暮里からJR山手線で池袋まで数駅です。初心者から経験者まで個人のペースに合わせたプログラムです。',
     access: 'JR「池袋駅」徒歩圏内 / 西日暮里からJR山手線で近い',
     address: '東京都豊島区（池袋エリア）',
   },
@@ -113,35 +113,35 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！URBAN CLASSICは予約不要サーキット形式で自分のペースで進められます。',
+    answer: '問題ありません。URBAN CLASSICは予約不要サーキット形式で自分のペースで進められます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンは専用マシンを使ったトレーニング。マシンは初心者におすすめ。',
+    answer: 'マットは自重エクササイズ、マシンは専用マシンを使ったトレーニングです。マシンは初心者におすすめです。',
   },
   {
     question: '西日暮里エリアの料金相場は？',
-    answer: 'グループ月4回で7,800円〜15,400円。パーソナルは1回8,000円〜。体験は500円〜3,800円。',
+    answer: 'グループ月4回で7,800円〜15,400円です。パーソナルは1回8,000円〜です。体験は500円〜3,800円です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、基礎代謝が上がり太りにくい体質に。最低2-3ヶ月は継続しましょう。',
+    answer: '基礎代謝が上がり、太りにくい体質づくりにつながります。最低2〜3ヶ月は継続することをおすすめします。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。',
   },
   {
     question: 'ピラティスとヨガの違いは？',
-    answer: 'ピラティスは体幹強化、ヨガは柔軟性とリラックスが中心。',
+    answer: 'ピラティスは体幹強化、ヨガは柔軟性とリラックスが中心です。',
   },
   {
     question: '肩こりや腰痛は改善しますか？',
-    answer: 'はい、姿勢改善で根本原因を解消できます。',
+    answer: '姿勢の改善により、肩こりや腰痛の原因へのアプローチが期待できます。',
   },
   {
     question: 'どのくらいで効果が出ますか？',
@@ -170,8 +170,8 @@ export default function NishiNipporiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026年7月最新】ピラティス西日暮里おすすめ4選！<br className="hidden md:block" />
-              料金・体験レッスン・マシン対応を比較！
+              【2026年7月最新】ピラティス西日暮里おすすめ4選<br className="hidden md:block" />
+              料金・体験レッスン・マシン対応を比較
             </h1>
           </div>
         </section>
@@ -196,29 +196,11 @@ export default function NishiNipporiPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「西日暮里周辺でピラティスを始めたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「コスパの良いスタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、西日暮里・日暮里・千駄木エリアから通えるおすすめのピラティススタジオ4選をまとめました。
+              本ページでは、西日暮里・日暮里・千駄木エリアから通えるおすすめのピラティススタジオ4選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -226,7 +208,7 @@ export default function NishiNipporiPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
-                  <span>コスパの良いスタジオがいい</span>
+                  <span>料金を抑えられるスタジオがいい</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -239,7 +221,7 @@ export default function NishiNipporiPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -336,25 +318,25 @@ export default function NishiNipporiPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">JR「日暮里駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  西日暮里エリアのスタジオは日暮里駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。日暮里駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  西日暮里エリアのスタジオは日暮里駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。日暮里駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">繁華街ならではの予約混雑に注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  西日暮里は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることも。アプリやWebで空き状況をこまめにチェックし、キャンセル待ち機能があるスタジオでは積極的に活用しましょう。
+                  西日暮里は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることもあります。アプリやWebで空き状況をこまめに確認し、キャンセル待ち機能があるスタジオでは積極的にご活用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  西日暮里エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ず確認しましょう。月の途中入会は日割り計算になるかも要チェックです。
+                  西日暮里エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ずご確認ください。月の途中入会は日割り計算になるかもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  西日暮里エリアだけでなく、近隣の<Link href="/area/nippori/" className="text-warm-700 underline hover:text-warm-900">日暮里</Link>、<Link href="/area/ueno/" className="text-warm-700 underline hover:text-warm-900">上野</Link>、<Link href="/area/akabane/" className="text-warm-700 underline hover:text-warm-900">赤羽</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  西日暮里エリアだけでなく、近隣の<Link href="/area/nippori/" className="text-warm-700 underline hover:text-warm-900">日暮里</Link>、<Link href="/area/ueno/" className="text-warm-700 underline hover:text-warm-900">上野</Link>、<Link href="/area/akabane/" className="text-warm-700 underline hover:text-warm-900">赤羽</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -372,25 +354,25 @@ export default function NishiNipporiPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>西日暮里エリアの豆知識：</strong>西日暮里は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
+                  <strong>西日暮里エリアの豆知識：</strong>西日暮里は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心です。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
                 </p>
               </div>
             </div>
@@ -406,9 +388,9 @@ export default function NishiNipporiPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額8,000円以下から。
+                  月額8,000円以下からです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• URBAN CLASSIC（月額7,800円〜）</li>
@@ -416,9 +398,9 @@ export default function NishiNipporiPage() {
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル・子連れOK</h3>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル・子連れ可</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  マンツーマン＆キッズスペース。
+                  マンツーマン＆キッズスペースです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• YUZU（キッズスペース完備）</li>
@@ -428,7 +410,7 @@ export default function NishiNipporiPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・通いやすさ</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  日暮里駅・千駄木駅から徒歩1分。
+                  日暮里駅・千駄木駅から徒歩1分です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• URBAN CLASSIC（日暮里駅徒歩1分）</li>
@@ -448,15 +430,15 @@ export default function NishiNipporiPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回からスタート。最低2-3ヶ月で効果を実感。
+                週1〜2回から始めることをおすすめします。最低2〜3ヶ月で効果を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイク目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回がおすすめ。3-6ヶ月で目に見える変化。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">健康管理目的の方</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。
+                週1回のペースで無理なく継続することをおすすめします。
               </p>
             </div>
           </div>
@@ -473,7 +455,7 @@ export default function NishiNipporiPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">グループ</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  サーキット形式やマットグループ。
+                  サーキット形式やマットグループです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• URBAN CLASSIC（月額7,800円〜）</li>
@@ -485,7 +467,7 @@ export default function NishiNipporiPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜16,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン完備のスタジオ。
+                  マシン完備のスタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（月4回 13,420円）</li>
@@ -495,9 +477,9 @@ export default function NishiNipporiPage() {
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">パーソナル</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">効果◎</p>
+                <p className="text-3xl font-bold text-warm-800 mb-4">効果が期待できる</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マンツーマン指導。
+                  マンツーマン指導です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• YUZU（パーソナル専門）</li>
@@ -521,7 +503,7 @@ export default function NishiNipporiPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ダイエット、姿勢改善、体幹強化など、目的に応じて選びましょう。
+                  ダイエット、姿勢改善、体幹強化など、目的に応じてお選びください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -530,7 +512,7 @@ export default function NishiNipporiPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  グループ月4回で7,800円〜15,400円が相場。
+                  グループ月4回で7,800円〜15,400円が相場です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -548,7 +530,7 @@ export default function NishiNipporiPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  西日暮里はJR山手線・京浜東北線・千代田線・日暮里舎人ライナーが利用可能。日暮里・千駄木にも1駅でアクセスでき、谷根千エリアの下町情緒も楽しめます。
+                  西日暮里はJR山手線・京浜東北線・千代田線・日暮里舎人ライナーが利用可能です。日暮里・千駄木にも1駅でアクセスでき、谷根千エリアの下町情緒も楽しめます。
                 </p>
               </div>
             </div>
@@ -594,10 +576,10 @@ export default function NishiNipporiPage() {
               西日暮里は山手線・千代田線が利用でき、日暮里駅徒歩1分のURBAN CLASSICは月額7,800円〜、千駄木のzen placeは体験500円〜と気軽に始められます。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひ自分に合うスタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのスタジオが見つかることを願っています。
+              本ページが、スタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -606,11 +588,11 @@ export default function NishiNipporiPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン500円〜3,800円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン500円〜3,800円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

@@ -18,7 +18,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/shibuya/' },
   title: '【2026年10月最新】渋谷のピラティス13社を比較｜無料体験4社・月額最安4,400円〜',
-  description: '渋谷エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  description: '渋谷エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,渋谷,東京,スタジオ,おすすめ,マシンピラティス,パーソナル,女性専用,体験レッスン,料金,比較',
 }
 
@@ -28,11 +28,11 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp', reviewCount: 14,
     price: '月4回 9,625円〜', trial: '体験レッスンあり',
-    features: ['マットグループ', 'MIYASHITA PARK正面5F', '男性OK', '全国140スタジオ相互利用可'],
-    description: '全国140スタジオ以上を展開するzen placeの渋谷スタジオ。MIYASHITA PARK正面5Fに位置し、マットピラティスとマシンピラティスの両方が受けられる総合型スタジオ。男性も利用可能で、月4回9,625円〜とリーズナブル。全国のzen placeスタジオを相互利用できるのも大きな魅力。',
+    features: ['マットグループ', 'MIYASHITA PARK正面5F', '男性利用可', '全国140スタジオ他店利用可'],
+    description: '全国140スタジオ以上を展開するzen placeの渋谷スタジオです。MIYASHITA PARK正面5Fに位置し、マットピラティスとマシンピラティスの両方が受けられる総合型スタジオです。男性も利用可能で、月4回9,625円〜とリーズナブルです。全国のzen placeスタジオを他店利用できるのも大きな魅力です。',
     access: 'MIYASHITA PARK正面 5F',
     address: '東京都渋谷区渋谷1丁目23-18 渋谷ワールドイーストビル 5階',
-    popularPlan: { name: 'マットグループ月4回プラン', description: 'マット・マシン両対応。全国140スタジオ相互利用可。', price: '月4回 9,625円（税込）〜' },
+    popularPlan: { name: 'マットグループ月4回プラン', description: 'マット・マシン両対応です。全国140スタジオ他店利用可能です。', price: '月4回 9,625円（税込）〜' },
     options: ['月4回プラン（9,625円〜）', '月6回プラン', 'フリー（通い放題）プラン', 'プライベートレッスン追加'],
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', 'リラックス'] },
     basicInfo: { hours: '平日 7:00〜22:00 / 土日祝 7:00〜18:00', closed: '不定休', facilities: ['マットスタジオ', 'リフォーマーマシン', 'ロッカー', '更衣室'] },
@@ -43,10 +43,10 @@ const studios = [
     image: '/images/studios/pilates-k.webp', reviewCount: 107,
     price: '月4回 11,220円〜', trial: '体験レッスンあり',
     features: ['女性専用マシングループ', '月4回11,220円〜', 'ボディメイク特化', '渋谷駅近'],
-    description: '女性専用のマシンピラティス専門グループレッスンスタジオ。全国展開の実績あるスタジオで、ボディメイクに特化したプログラムが豊富。月4回11,220円〜のリーズナブルな価格設定。',
+    description: '女性専用のマシンピラティス専門グループレッスンスタジオです。全国展開の実績あるスタジオで、ボディメイクに特化したプログラムが豊富です。月4回11,220円〜のリーズナブルな価格設定です。',
     access: '渋谷駅 徒歩圏内',
     address: '東京都渋谷区（渋谷駅徒歩圏内）',
-    popularPlan: { name: '月4回メンバー', description: 'ボディメイク特化の女性専用マシングループ。', price: '月4回 11,220円（税込）〜' },
+    popularPlan: { name: '月4回メンバー', description: 'ボディメイク特化の女性専用マシングループです。', price: '月4回 11,220円（税込）〜' },
     options: ['月4回メンバー（11,220円〜）', '月8回メンバー', '通い放題メンバー', '体験レッスン'],
     userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', 'ダイエット', '姿勢改善', '美容'] },
     basicInfo: { hours: '平日 10:00〜22:00 / 土日祝 10:00〜20:00', closed: '不定休', facilities: ['リフォーマーマシン', 'パウダールーム', 'ロッカー', '更衣室'] },
@@ -57,10 +57,10 @@ const studios = [
     image: '/images/studios/rintosull.webp', reviewCount: 82,
     price: '月4回 8,800円〜', trial: '体験レッスンあり',
     features: ['女性専用マシン', 'LAVA系列', '月4回8,800円〜', 'スクリーン指導'],
-    description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオ。大型スクリーンの映像とインストラクターのダブル指導で、正しいフォームを習得できる独自メソッド。月4回8,800円〜と渋谷エリア最安クラスの価格設定。',
+    description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオです。大型スクリーンの映像とインストラクターのダブル指導で、正しいフォームを習得できる独自メソッドです。月4回8,800円〜と渋谷エリア最安クラスの価格設定です。',
     access: '渋谷駅 徒歩圏内',
     address: '東京都渋谷区道玄坂2-23-12フォンティスビル6F',
-    popularPlan: { name: '月4回プラン', description: 'LAVA系列の女性専用マシンピラティス。スクリーン+インストラクターのダブル指導。', price: '月4回 8,800円（税込）〜' },
+    popularPlan: { name: '月4回プラン', description: 'LAVA系列の女性専用マシンピラティスです。スクリーン+インストラクターのダブル指導です。', price: '月4回 8,800円（税込）〜' },
     options: ['月4回プラン（8,800円〜）', '月8回プラン', '通い放題プラン', '体験レッスン'],
     userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ダイエット', '姿勢改善', 'ボディメイク', '運動不足解消'] },
     basicInfo: { hours: 'お問い合わせください', closed: '不定休', facilities: ['リフォーマーマシン', '大型スクリーン', 'ロッカー', '更衣室'] },
@@ -71,10 +71,10 @@ const studios = [
     image: '/images/studios/club-pilates.webp', reviewCount: 157,
     price: '料金は店舗により異なる（公式の店舗ページで確認）', trial: '無料体験',
     features: ['最大12名グループ', '料金は店舗ごと', '無料体験あり', '世界的ブランド'],
-    description: 'アメリカ発の世界的ピラティスブランド。最大12名のグループレッスンで、レベル別にクラスが分かれているため初心者から上級者まで対応。料金は店舗により異なります。無料体験レッスンあり。',
+    description: 'アメリカ発の世界的ピラティスブランドです。最大12名のグループレッスンで、レベル別にクラスが分かれているため初心者から上級者まで対応しています。料金は店舗により異なります。無料体験レッスンがあります。',
     access: '渋谷駅 徒歩圏内',
     address: '東京都渋谷区（渋谷駅徒歩圏内）',
-    popularPlan: { name: '月4回プラン', description: '最大12名のグループレッスン。レベル別クラス。', price: '店舗により異なる（公式の店舗ページで確認）' },
+    popularPlan: { name: '月4回プラン', description: '最大12名のグループレッスンです。レベル別クラスです。', price: '店舗により異なる（公式の店舗ページで確認）' },
     options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性75% / 男性25%', purpose: ['体幹強化', '姿勢改善', 'ボディメイク', '柔軟性向上'] },
     basicInfo: { hours: '平日 7:00〜21:00 / 土日祝 8:00〜18:00', closed: '不定休', facilities: ['リフォーマーマシン', '各種ピラティス器具', 'ロッカー', '更衣室'] },
@@ -84,10 +84,10 @@ const studios = [
     image: '/images/studios/studio-ivy.webp', reviewCount: 566,
     price: '月2回 15,000円〜', trial: '体験レッスンあり',
     features: ['完全個室パーソナル', '月2回15,000円〜', 'マンツーマン指導', 'オーダーメイドプログラム'],
-    description: '完全個室のパーソナルピラティススタジオ。一人ひとりの体の状態や目標に合わせたオーダーメイドプログラムを提供。月2回15,000円〜で、プライベートな空間で本格的なマシンピラティスが受けられる。',
+    description: '完全個室のパーソナルピラティススタジオです。一人ひとりの体の状態や目標に合わせたオーダーメイドプログラムを提供しています。月2回15,000円〜で、プライベートな空間で本格的なマシンピラティスが受けられます。',
     access: '渋谷駅 徒歩圏内',
     address: '東京都渋谷区（渋谷駅徒歩圏内）',
-    popularPlan: { name: '月2回プラン', description: '完全個室のパーソナルマシンピラティス。', price: '月2回 15,000円（税込）〜' },
+    popularPlan: { name: '月2回プラン', description: '完全個室のパーソナルマシンピラティスです。', price: '月2回 15,000円（税込）〜' },
     options: ['月2回プラン（15,000円〜）', '月4回プラン', '月8回プラン', '体験レッスン'],
     userProfile: { ageRange: '30代〜50代が中心', genderRatio: '女性70% / 男性30%', purpose: ['姿勢改善', '腰痛改善', 'ボディメイク', 'パフォーマンス向上'] },
     basicInfo: { hours: '平日 8:00〜22:00 / 土日祝 8:00〜20:00', closed: '不定休', facilities: ['完全個室', 'リフォーマーマシン', '各種ピラティス器具', '更衣室'] },
@@ -98,10 +98,10 @@ const studios = [
     image: '/images/studios/element.webp', reviewCount: 85, /* ※GoogleMaps未確認 */
     price: '月4回 22,000円', trial: '体験レッスンあり',
     features: ['マンツーマン30分', '月4回22,000円', '短時間集中', '効率重視'],
-    description: 'マンツーマン30分の短時間集中型ピラティススタジオ。忙しい方でも効率よくトレーニングできる。月4回22,000円で、パーソナルならではの丁寧な指導が受けられる。',
+    description: 'マンツーマン30分の短時間集中型ピラティススタジオです。忙しい方でも効率よくトレーニングできます。月4回22,000円で、パーソナルならではの丁寧な指導が受けられます。',
     access: '渋谷駅 徒歩圏内',
     address: '東京都渋谷区（渋谷駅徒歩圏内）',
-    popularPlan: { name: '月4回プラン', description: 'マンツーマン30分の短時間集中パーソナル。', price: '月4回 22,000円（税込）' },
+    popularPlan: { name: '月4回プラン', description: 'マンツーマン30分の短時間集中パーソナルです。', price: '月4回 22,000円（税込）' },
     options: ['月4回プラン（22,000円）', '月8回プラン', '体験レッスン'],
     userProfile: { ageRange: '30代〜40代が中心', genderRatio: '女性65% / 男性35%', purpose: ['ボディメイク', '運動不足解消', '体幹強化', '姿勢改善'] },
     basicInfo: { hours: '平日 10:00〜22:00 / 土日祝 10:00〜20:00', closed: '不定休', facilities: ['パーソナルスペース', 'リフォーマーマシン', 'ロッカー', '更衣室'] },
@@ -111,10 +111,10 @@ const studios = [
     image: '/images/studios/pilates-mirror.webp', reviewCount: 65, /* ※GoogleMaps未確認（全店舗平均4.5） */
     price: 'プライベート30分 4,400円〜', trial: '体験レッスンあり',
     features: ['女性専用', 'プライベート30分4,400円〜', '都度払い可', 'リーズナブル'],
-    description: '女性専用のピラティススタジオ。プライベートレッスン30分4,400円〜と、パーソナルピラティスとしてはリーズナブルな価格設定。短時間で効率よくトレーニングしたい女性におすすめ。',
+    description: '女性専用のピラティススタジオです。プライベートレッスン30分4,400円〜と、パーソナルピラティスとしてはリーズナブルな価格設定です。短時間で効率よくトレーニングしたい女性におすすめです。',
     access: '渋谷駅 徒歩圏内',
     address: '東京都渋谷区（渋谷駅徒歩圏内）',
-    popularPlan: { name: 'プライベート30分', description: '女性専用のマンツーマンレッスン。', price: 'プライベート30分 4,400円（税込）〜' },
+    popularPlan: { name: 'プライベート30分', description: '女性専用のマンツーマンレッスンです。', price: 'プライベート30分 4,400円（税込）〜' },
     options: ['プライベート30分（4,400円〜）', '月額プラン', '回数券', '体験レッスン'],
     userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', 'ダイエット', '姿勢改善', '美容'] },
     basicInfo: { hours: 'お問い合わせください', closed: '不定休', facilities: ['プライベートスペース', 'ピラティス器具', 'フィッティングルーム（カーテン仕切り）', '荷物置きBOX（鍵なし）'] },
@@ -124,10 +124,10 @@ const studios = [
     image: '/images/studios/yuzu-pilates.webp', reviewCount: 50, /* ※reviewCount GoogleMaps未確認 */
     price: 'お問い合わせ', trial: '体験レッスンあり',
     features: ['パーソナルマシン', '女性専用', 'オーダーメイド', '丁寧な指導'],
-    description: '女性専用のパーソナルマシンピラティススタジオ。一人ひとりの体の状態に合わせたオーダーメイドプログラムを提供。マシンを使ったマンツーマン指導で効果的なトレーニングが可能。',
+    description: '女性専用のパーソナルマシンピラティススタジオです。一人ひとりの体の状態に合わせたオーダーメイドプログラムを提供しています。マシンを使ったマンツーマン指導で効果的なトレーニングが可能です。',
     access: '渋谷駅 徒歩圏内',
     address: '東京都渋谷区（渋谷駅徒歩圏内）',
-    popularPlan: { name: 'パーソナルプラン', description: '女性専用マシンパーソナルピラティス。', price: 'お問い合わせ' },
+    popularPlan: { name: 'パーソナルプラン', description: '女性専用マシンパーソナルピラティスです。', price: 'お問い合わせ' },
     options: ['パーソナルプラン', '回数券', '体験レッスン'],
     userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', '姿勢改善', '体質改善', '美容'] },
     basicInfo: { hours: 'お問い合わせください', closed: '不定休', facilities: ['パーソナルスペース', 'リフォーマーマシン', 'ロッカー', '更衣室'] },
@@ -137,10 +137,10 @@ const studios = [
     image: '/images/studios/naturaglam.webp', reviewCount: 60, /* ※GoogleMaps未確認（全店舗評価4.4） */
     price: 'お問い合わせ', trial: '体験レッスンあり',
     features: ['女性専用', 'ヨガ&ピラティス', '少人数制', '渋谷近隣'],
-    description: '女性専用のヨガ&ピラティススタジオ。渋谷近隣エリアに位置し、少人数制でアットホームな雰囲気が魅力。ヨガとピラティスの両方を楽しめるので、気分や目的に合わせてレッスンを選べる。',
+    description: '女性専用のヨガ&ピラティススタジオです。渋谷近隣エリアに位置し、少人数制でアットホームな雰囲気が魅力です。ヨガとピラティスの両方を楽しめるので、気分や目的に合わせてレッスンを選べます。',
     access: '渋谷近隣エリア',
     address: '東京都渋谷区（渋谷近隣）',
-    popularPlan: { name: 'レギュラープラン', description: '女性専用のヨガ&ピラティス。少人数制。', price: 'お問い合わせ' },
+    popularPlan: { name: 'レギュラープラン', description: '女性専用のヨガ&ピラティスです。少人数制です。', price: 'お問い合わせ' },
     options: ['月額プラン', '回数券', 'ヨガクラス', 'ピラティスクラス', '体験レッスン'],
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性100%（女性専用）', purpose: ['リラックス', '柔軟性向上', 'ボディメイク', '健康維持'] },
     basicInfo: { hours: 'お問い合わせください', closed: '不定休', facilities: ['スタジオ', 'ヨガマット', 'ロッカー', '更衣室'] },
@@ -150,10 +150,10 @@ const studios = [
     image: '/images/studios/caldo.webp', reviewCount: 114,
     price: 'お問い合わせ', trial: '体験レッスンあり',
     features: ['ホットヨガ&ピラティス', '温熱環境', '施設充実', '渋谷駅近'],
-    description: 'ホットヨガ&ピラティスの総合スタジオ。温かい環境でのピラティスは体がほぐれやすく効果的。ホットヨガとピラティスを組み合わせたプログラムで、デトックスとボディメイクを同時に実現。',
+    description: 'ホットヨガ&ピラティスの総合スタジオです。温かい環境でのピラティスは体がほぐれやすく効果的です。ホットヨガとピラティスを組み合わせたプログラムで、デトックスとボディメイクを同時に実現しています。',
     access: '渋谷駅 徒歩圏内',
     address: '東京都渋谷区（渋谷駅徒歩圏内）',
-    popularPlan: { name: 'レギュラープラン', description: 'ホットヨガ&ピラティスの総合プラン。', price: 'お問い合わせ' },
+    popularPlan: { name: 'レギュラープラン', description: 'ホットヨガ&ピラティスの総合プランです。', price: 'お問い合わせ' },
     options: ['月額プラン', '通い放題プラン', 'ホットヨガクラス', 'ピラティスクラス', '体験レッスン'],
     userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性85% / 男性15%', purpose: ['デトックス', 'ダイエット', '冷え性改善', 'ボディメイク'] },
     basicInfo: { hours: '平日 10:00〜22:30 / 土日祝 10:00〜20:00', closed: '不定休', facilities: ['ホットスタジオ', 'ピラティススタジオ', 'ジムエリア', 'ロッカー', '更衣室'] },
@@ -165,7 +165,7 @@ const studios = [
     price: '月4回(45分) 29,700円〜 / 月4回(60分) 39,600円〜',
     trial: '体験トレーニング 7,100円（無料キャンペーン実施店舗あり）',
     features: ['マンツーマン（パーソナル）', 'マシン・マット両対応', '医師推奨パーソナルジムNo.1受賞'],
-    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオ。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せる。渋谷エリア（詳細は公式サイト参照）。',
+    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオです。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せます。渋谷エリアです（詳細は公式サイト参照）。',
     access: '渋谷エリア（詳細は公式サイト参照）',
     address: '東京都（詳細は公式サイト参照）',
   },
@@ -176,7 +176,7 @@ const studios = [
     price: 'グループ月4回(Standard4) 14,370〜15,280円 / 通い放題 19,980〜22,280円（別途施設利用料月700円）/ パーソナル月2回 22,000円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'マシンピラティス専門', 'グループ＋パーソナル'],
-    description: '女性専用のマシンピラティス専門スタジオ。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴。渋谷駅から徒歩2分（情報引用元: the SILK公式サイト the-silk.co.jp）。',
+    description: '女性専用のマシンピラティス専門スタジオです。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴です。渋谷駅から徒歩2分です（情報引用元: the SILK公式サイト the-silk.co.jp）。',
     access: '渋谷駅から徒歩2分',
     address: '東京都渋谷区神南1丁目11-1 渋谷市野ビル6階',
   },
@@ -185,14 +185,14 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=J11817X.1.B1620582.U1357808',
     image: '/images/studios/247-pilates.webp',
     price: '月2回 14,500円〜 / 月4回 27,000円〜 / 月8回 52,000円〜（税込）',
-    trial: '体験レッスン 無料（説明含め約60分・手ぶらOK）',
+    trial: '体験レッスン 無料（説明含め約60分・手ぶらで参加可能）',
     features: ['マシンピラティス', '女性専用', '完全個室パーソナル', '入会金不要・月謝制'],
-    description: '完全個室・マンツーマンの女性専用パーソナルピラティススタジオ。入会金不要の月謝制で、一人ひとりに合わせたオリジナルプログラムを提供。渋谷駅から徒歩7分。※一部のご案内やサポート対応は、男性スタッフが行う場合がございます。※24/7Workout併設店舗のため、パーソナルトレーニングの男性会員様がご来店される場合もございます。',
+    description: '完全個室・マンツーマンの女性専用パーソナルピラティススタジオです。入会金不要の月謝制で、一人ひとりに合わせたオリジナルプログラムを提供しています。渋谷駅から徒歩7分です。※一部のご案内やサポート対応は、男性スタッフが行う場合がございます。※24/7Workout併設店舗のため、パーソナルトレーニングの男性会員様がご来店される場合もございます。',
     access: '渋谷駅から徒歩7分',
     address: '東京都渋谷区渋谷2丁目6-12 ベルデ青山1F',
     popularPlan: {
       name: '月4回プラン',
-      description: '完全個室でマシンを使ったマンツーマン指導。入会金不要の月謝制。',
+      description: '完全個室でマシンを使ったマンツーマン指導しています。入会金不要の月謝制です。',
       price: '月4回 27,000円〜（税込）',
     },
     options: [
@@ -212,16 +212,16 @@ const studios = [
 ]
 
 const faqs = [
-  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！渋谷エリアのスタジオはレベル別クラスがあり初心者も安心です。Rintosullはスクリーン指導で初心者に特におすすめ。CLUB PILATESもレベル別クラスが充実しています。' },
-  { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンは専用リフォーマーを使ったトレーニング。マシンは初心者でもフォームが安定しやすくおすすめです。渋谷エリアはマシン専門スタジオが豊富です。' },
-  { question: '渋谷エリアの料金相場は？', answer: 'グループ月4回で8,800円〜15,280円が相場。Rintosullは8,800円〜で最安クラス、zen placeは9,625円〜。パーソナルはピラティスミラーの30分4,400円〜が手頃です。' },
-  { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回からスタート。慣れたら週2-3回に増やすとより効果的です。ELEMENTの30分レッスンなら忙しい方も週2回は続けやすいです。' },
-  { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルが鍛えられ基礎代謝が上がり太りにくい体質に。最低2-3ヶ月は継続しましょう。CALDOのホット環境なら発汗効果も期待できます。' },
-  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。ウェアレンタルがあるスタジオも多いです。CLUB PILATESは無料体験があるので手ぶらで気軽に。' },
+  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '問題ありません。渋谷エリアのスタジオはレベル別クラスがあり初心者も安心です。Rintosullはスクリーン指導で初心者に特におすすめです。CLUB PILATESもレベル別クラスが充実しています。' },
+  { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンは専用リフォーマーを使ったトレーニングです。マシンは初心者でもフォームが安定しやすくおすすめです。渋谷エリアはマシン専門スタジオが豊富です。' },
+  { question: '渋谷エリアの料金相場は？', answer: 'グループ月4回で8,800円〜15,280円が相場です。Rintosullは8,800円〜で最安クラス、zen placeは9,625円〜です。パーソナルはピラティスミラーの30分4,400円〜が手頃です。' },
+  { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回から始めることをおすすめします。慣れたら週2〜3回に増やすとより効果的です。ELEMENTの30分レッスンなら忙しい方も週2回は続けやすいです。' },
+  { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルが鍛えられ基礎代謝が上がり太りにくい体質づくりにつながります。最低2〜3ヶ月は継続することをおすすめします。CALDOのホット環境なら発汗効果も期待できます。' },
+  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。ウェアレンタルがあるスタジオも多いです。CLUB PILATESは無料体験があるので手ぶらで気軽に始められます。' },
   { question: 'ピラティスとヨガの違いは？', answer: 'ピラティスは体幹強化・姿勢改善が中心、ヨガは柔軟性とリラックスが中心です。NATURAglam渋谷なら両方受けられます。' },
-  { question: '男性でも通えるスタジオはありますか？', answer: 'zen place pilates渋谷、CLUB PILATES渋谷、ELEMENT渋谷は男性もOKです。the SILK、ピラティスK、Rintosull、ピラティスミラー、YUZU、NATURAglam は女性専用です。' },
-  { question: 'どのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。週2回なら1ヶ月半ほどで変化を感じる方も。パーソナルレッスンの方がより早く効果を実感しやすいです。' },
-  { question: '無料体験ができるスタジオはありますか？', answer: 'CLUB PILATES渋谷は無料体験レッスンがあります。zen placeやthe SILKなども体験レッスンを用意しています。まずは気軽に体験してみましょう。' },
+  { question: '男性でも通えるスタジオはありますか？', answer: 'zen place pilates渋谷、CLUB PILATES渋谷、ELEMENT渋谷は男性も利用可能です。the SILK、ピラティスK、Rintosull、ピラティスミラー、YUZU、NATURAglam は女性専用です。' },
+  { question: 'どのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。週2回なら1ヶ月半ほどで変化を感じる方もいます。パーソナルレッスンの方がより早く効果を実感しやすいです。' },
+  { question: '無料体験ができるスタジオはありますか？', answer: 'CLUB PILATES渋谷は無料体験レッスンがあります。zen placeやthe SILKなども体験レッスンを用意しています。まずは体験レッスンへの参加をおすすめします。' },
 ]
 
 export default function ShibuyaPage() {
@@ -241,8 +241,8 @@ export default function ShibuyaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス渋谷おすすめ13選！<br className="hidden md:block" />
-              料金・体験レッスン・マシン対応を比較！
+              ピラティス渋谷おすすめ13選<br className="hidden md:block" />
+              料金・体験レッスン・マシン対応を比較
             </h1>
           </div>
         </section>
@@ -267,29 +267,11 @@ export default function ShibuyaPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「渋谷でピラティスを始めたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「自分に合うスタジオを見つけたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、JR山手線・東急東横線・東京メトロ銀座線・半蔵門線が乗り入れる渋谷駅周辺でおすすめのピラティススタジオ13選をまとめました。MIYASHITA PARKや渋谷スクランブルスクエアなど商業施設が集まる渋谷エリアは、仕事帰りや買い物ついでにも通いやすいピラティス激戦区です。
+              本ページでは、JR山手線・東急東横線・東京メトロ銀座線・半蔵門線が乗り入れる渋谷駅周辺でおすすめのピラティススタジオ13選をまとめました。MIYASHITA PARKや渋谷スクランブルスクエアなど商業施設が集まる渋谷エリアは、仕事帰りや買い物ついでにも通いやすいピラティススタジオが多いエリアです。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -314,7 +296,7 @@ export default function ShibuyaPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -344,9 +326,9 @@ export default function ShibuyaPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円以下から通える。
+                  月額1万円以下から通えます。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• <a href="#studio-4" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">Rintosull</a>（月4回 8,800円〜）</li>
@@ -357,7 +339,7 @@ export default function ShibuyaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用で安心</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性だけの空間で集中。
+                  女性だけの空間で集中して取り組めます。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• <a href="#studio-2" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">the SILK</a>（音楽×マシン）</li>
@@ -370,7 +352,7 @@ export default function ShibuyaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナルで本格的に</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  マンツーマンで効率よく。
+                  マンツーマンで効率よく取り組めます。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• <a href="#studio-6" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">STUDIO IVY</a>（完全個室・月2回15,000円〜）</li>
@@ -391,15 +373,15 @@ export default function ShibuyaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回からスタート。最低2-3ヶ月で効果を実感。グループレッスンで基礎を身につけましょう。
+                週1〜2回から始めることをおすすめします。最低2〜3ヶ月で効果を実感できます。グループレッスンで基礎を身につけることをおすすめします。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイク目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回がおすすめ。3-6ヶ月で目に見える変化。パーソナルとグループの併用も効果的。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。パーソナルとグループの併用も効果的です。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">健康管理目的の方</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。ELEMENTの30分レッスンなら忙しい方でも続けやすい。
+                週1回のペースで無理なく継続することをおすすめします。ELEMENTの30分レッスンなら忙しい方でも続けやすいです。
               </p>
             </div>
           </div>
@@ -416,7 +398,7 @@ export default function ShibuyaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">リーズナブル</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  月4回で1万円以下。グループレッスン中心。
+                  月4回で1万円以下のプランです。グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• <a href="#studio-4" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">Rintosull</a>（月4回 8,800円〜）</li>
@@ -428,7 +410,7 @@ export default function ShibuyaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 10,000〜15,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">スタンダード</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  充実のマシンピラティス。選択肢豊富。
+                  マシンピラティスの選択肢が充実しています。選択肢が豊富です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• <a href="#studio-5" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">CLUB PILATES</a>（月4回 10,890円〜）</li>
@@ -440,7 +422,7 @@ export default function ShibuyaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">パーソナル重視</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">本格派</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マンツーマンで効果的に。
+                  マンツーマン指導で効率よく取り組めます。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• <a href="#studio-8" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">ピラティスミラー</a>（30分 4,400円〜）</li>
@@ -464,7 +446,7 @@ export default function ShibuyaPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ダイエット、姿勢改善、体幹強化など目的に応じて選びましょう。ボディメイク重視ならピラティスK、楽しさ重視ならthe SILKがおすすめ。パーソナルで集中したいならSTUDIO IVYやELEMENTを検討。
+                  ダイエット、姿勢改善、体幹強化など目的に応じてお選びください。ボディメイク重視ならピラティスK、楽しさ重視ならthe SILKがおすすめです。パーソナルで集中したいならSTUDIO IVYやELEMENTをご検討ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -473,7 +455,7 @@ export default function ShibuyaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  渋谷エリアのグループ月4回は8,800円〜15,280円が相場。パーソナルはピラティスミラーの30分4,400円〜が手頃。体験レッスンを活用して、無理なく続けられる価格帯を見つけましょう。
+                  渋谷エリアのグループ月4回は8,800円〜15,280円が相場です。パーソナルはピラティスミラーの30分4,400円〜が手頃です。体験レッスンを活用して、無理なく続けられる価格帯を見つけることをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -482,7 +464,7 @@ export default function ShibuyaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  CLUB PILATESは無料体験あり。zen placeやthe SILKも体験レッスンを用意しています。複数のスタジオを体験して比較するのがおすすめ。
+                  CLUB PILATESは無料体験があります。zen placeやthe SILKも体験レッスンを用意しています。複数のスタジオを体験して比較するのがおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -491,7 +473,7 @@ export default function ShibuyaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  渋谷はJR山手線・東急東横線・東京メトロ銀座線・半蔵門線など複数路線が利用可能な東京を代表するターミナル駅。MIYASHITA PARKや渋谷スクランブルスクエア周辺にスタジオが集中しており、仕事帰りや休日にもアクセスしやすいエリアです。
+                  渋谷はJR山手線・東急東横線・東京メトロ銀座線・半蔵門線など複数路線が利用可能な東京を代表するターミナル駅です。MIYASHITA PARKや渋谷スクランブルスクエア周辺にスタジオが集中しており、仕事帰りや休日にもアクセスしやすいエリアです。
                 </p>
               </div>
             </div>
@@ -506,23 +488,23 @@ export default function ShibuyaPage() {
             </h2>
             <div className="bg-warm-50 rounded-lg p-8 border border-warm-200 mb-8">
               <p className="text-warm-600 leading-relaxed mb-6">
-                渋谷エリアは東京都内でもピラティス激戦区のひとつで、スタジオ数が多い分、料金競争が進んでおり比較的リーズナブルに通えるのが特徴です。2026年4月時点の料金相場は以下の通りです。
+                渋谷エリアは東京都内でもピラティススタジオが多いエリアのひとつで、スタジオ数が多い分、料金競争が進んでおり比較的リーズナブルに通えるのが特徴です。2026年4月時点の料金相場は以下の通りです。
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
                   <p className="text-3xl font-bold text-warm-800 mb-2">8,800円〜15,280円</p>
-                  <p className="text-sm text-warm-600">最安はRintosull（LAVA系列）の月4回8,800円。CLUB PILATESは月4回 10,890〜17,050円（店舗により異なる）で無料体験ありとバランスが良い価格帯です。</p>
+                  <p className="text-sm text-warm-600">最安はRintosull（LAVA系列）の月4回8,800円です。CLUB PILATESは月4回 10,890〜17,050円（店舗により異なる）で無料体験ありとバランスが良い価格帯です。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">パーソナルレッスン</h3>
                   <p className="text-3xl font-bold text-warm-800 mb-2">4,400円〜22,000円</p>
-                  <p className="text-sm text-warm-600">ピラティスミラーは30分4,400円〜と都内最安クラス。STUDIO IVYは月2回15,000円〜、ELEMENTは30分集中型で月4回22,000円。目的に応じて選びましょう。</p>
+                  <p className="text-sm text-warm-600">ピラティスミラーは30分4,400円〜と都内最安クラスです。STUDIO IVYは月2回15,000円〜、ELEMENTは30分集中型で月4回22,000円です。目的に応じてお選びください。</p>
                 </div>
               </div>
               <div className="bg-white rounded-lg p-5 border border-warm-200">
                 <h3 className="font-bold text-warm-900 mb-3">入会金・体験レッスン費用</h3>
-                <p className="text-sm text-warm-600">入会金は5,000円〜33,000円が相場ですが、キャンペーン期間中は無料になるスタジオも多いです。体験レッスンはCLUB PILATESが無料、その他は500円〜3,850円程度。まずは体験レッスンで雰囲気を確認するのがおすすめです。</p>
+                <p className="text-sm text-warm-600">入会金は5,000円〜33,000円が相場ですが、キャンペーン期間中は無料になるスタジオも多いです。体験レッスンはCLUB PILATESが無料、その他は500円〜3,850円程度です。まずは体験レッスンで雰囲気を確認するのがおすすめです。</p>
               </div>
             </div>
           </div>
@@ -538,25 +520,25 @@ export default function ShibuyaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">渋谷駅の出口選びが重要</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  渋谷駅はJR・東急・東京メトロ・京王と複数路線が交わる巨大ターミナル。出口によってはスタジオまで10分以上かかることもあります。zen place pilatesはMIYASHITA PARK正面、the SILKは渋谷駅徒歩2分と、スタジオごとに最寄り出口が異なるため、自分の利用路線に合わせてアクセスを事前に確認しましょう。
+                  渋谷駅はJR・東急・東京メトロ・京王と複数路線が交わる巨大ターミナルです。出口によってはスタジオまで10分以上かかることもあります。zen place pilatesはMIYASHITA PARK正面、the SILKは渋谷駅徒歩2分と、スタジオごとに最寄り出口が異なるため、自分の利用路線に合わせてアクセスを事前にご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">ピーク時間帯の混雑に注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  渋谷は平日夜19時〜21時、土日午前中がレッスン予約の激戦帯です。特に人気スタジオのthe SILKやピラティスKは早めの予約が必須。逆に平日午前中は比較的空いており、フリーランスの方や主婦の方には狙い目の時間帯です。予約の取りやすさもスタジオ選びの大切なポイントです。
+                  渋谷は平日夜19時〜21時、土日午前中がレッスン予約の激戦帯です。特に人気スタジオのthe SILKやピラティスKは早めの予約が必須です。逆に平日午前中は比較的空いており、フリーランスの方や主婦の方には比較的予約を取りやすい時間帯です。予約の取りやすさもスタジオ選びの大切なポイントです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">最低契約期間とキャンセルポリシーを確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  スタジオによっては入会キャンペーン適用時に3〜6ヶ月の最低契約期間が設定されていることがあります。また、レッスンの直前キャンセルに関するルール（何時間前まで無料キャンセル可能か）もスタジオごとに異なります。入会前に必ず確認しましょう。
+                  スタジオによっては入会キャンペーン適用時に3〜6ヶ月の最低契約期間が設定されていることがあります。また、レッスンの直前キャンセルに関するルール（何時間前まで無料キャンセル可能か）もスタジオごとに異なります。入会前に必ずご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">グループとパーソナルの使い分け</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  渋谷エリアはグループ専門（ピラティスK、Rintosull）からパーソナル専門（STUDIO IVY、ELEMENT）まで選択肢が豊富。初心者はまずグループレッスンで基礎を身につけ、慣れてきたらパーソナルで弱点を集中的に改善するのが効率的です。zen placeは両方に対応しているので、併用したい方におすすめです。
+                  渋谷エリアはグループ専門（ピラティスK、Rintosull）からパーソナル専門（STUDIO IVY、ELEMENT）まで選択肢が豊富です。初心者はまずグループレッスンで基礎を身につけ、慣れてきたらパーソナルで弱点を集中的に改善するのが効率的です。zen placeは両方に対応しているので、併用したい方におすすめです。
                 </p>
               </div>
             </div>
@@ -574,19 +556,19 @@ export default function ShibuyaPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。the SILKやピラティスKは手ぶら体験も可能です。仕事帰りに渋谷で体験したい方は事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。the SILKやピラティスKは手ぶら体験も可能です。仕事帰りに渋谷で体験したい方は事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
@@ -635,13 +617,13 @@ export default function ShibuyaPage() {
               今回は渋谷のおすすめピラティススタジオ13選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              渋谷はJR山手線・東急東横線・東京メトロ銀座線・半蔵門線など複数路線が乗り入れる東京を代表するターミナル駅。若者の街として知られる渋谷区には、MIYASHITA PARK正面のzen place pilates、音楽×マシンのthe SILK、月4回8,800円〜のRintosull、無料体験ありのCLUB PILATES、完全個室のSTUDIO IVY、30分集中のELEMENTなど、個性豊かなスタジオが揃っています。
+              渋谷はJR山手線・東急東横線・東京メトロ銀座線・半蔵門線など複数路線が乗り入れる東京を代表するターミナル駅です。若者の街として知られる渋谷区には、MIYASHITA PARK正面のzen place pilates、音楽×マシンのthe SILK、月4回8,800円〜のRintosull、無料体験ありのCLUB PILATES、完全個室のSTUDIO IVY、30分集中のELEMENTなど、個性豊かなスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              グループレッスンからパーソナルまで、女性専用から男性OKまで、幅広い選択肢があるのが渋谷エリアの魅力です。ぜひ自分に合うスタジオを見つけてくださいね。
+              グループレッスンからパーソナルまで、女性専用から男性利用可まで、幅広い選択肢があるのが渋谷エリアの魅力です。本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのスタジオが見つかることを願っています。
+              本ページが、スタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -650,11 +632,11 @@ export default function ShibuyaPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              CLUB PILATESは無料体験あり。zen placeやthe SILKも体験レッスンを用意。<br />
-              まずは気軽に体験してみましょう。
+              CLUB PILATESは無料体験があります。zen placeやthe SILKも体験レッスンを用意しています。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

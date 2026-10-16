@@ -1,6 +1,6 @@
 // P2: CLUB PILATES×エリア受け皿（指名クエリ「クラブピラティス {エリア}」の刈り取り）。
 // 対象はGSCで指名×エリアの表示があった駅のみ。データは data/brands-aggregate.json のCLUB PILATES実店舗と一致（架空ゼロ）。
-// 住所が公式非開示のエリアは addressIsVague で正直に表記。評価は店舗別の一次データが無いため付けない（捏造回避）。
+// 住所が公式非開示のエリアは addressIsVague でその旨を表記。評価は店舗別の一次データが無いため付けない（捏造回避）。
 import type { BdcStore } from "@/data/bdc-stores";
 
 export const clubPilatesStores: BdcStore[] = [
@@ -11,7 +11,7 @@ export const clubPilatesStores: BdcStore[] = [
     address: "兵庫県西宮市（詳細な所在地は公式サイトでご確認ください）",
     addressIsVague: true,
     prefecture: "兵庫県",
-    access: "阪急神戸線「西宮北口駅」周辺 / 詳細は公式サイトでご確認ください",
+    access: "阪急神戸線「西宮北口駅」周辺（詳細は公式サイトに記載）",
     price: "月4回 14,190円〜",
     trial: "体験レッスン 無料（30分イントロクラス）",
     areaSlug: "nishinomiya",
@@ -45,7 +45,7 @@ export const clubPilatesStores: BdcStore[] = [
     address: "東京都中野区中央2丁目（詳細な所在地は公式サイトでご確認ください）",
     addressIsVague: true,
     prefecture: "東京都",
-    access: "東京メトロ丸ノ内線「中野坂上駅」周辺 / 詳細は公式サイトでご確認ください",
+    access: "東京メトロ丸ノ内線「中野坂上駅」周辺（詳細は公式サイトに記載）",
     price: "月4回 13,090円〜",
     trial: "体験レッスン 無料（30分イントロクラス）",
     areaSlug: "nakano-sakaue",
@@ -79,7 +79,7 @@ export const clubPilatesStores: BdcStore[] = [
     address: "東京都港区田町エリア（詳細な所在地は公式サイトでご確認ください）",
     addressIsVague: true,
     prefecture: "東京都",
-    access: "JR山手線・京浜東北線「田町駅」周辺 / 詳細は公式サイトでご確認ください",
+    access: "JR山手線・京浜東北線「田町駅」周辺（詳細は公式サイトに記載）",
     price: "月4回 14,190円〜",
     trial: "体験レッスン 無料（30分イントロクラス）",
     areaSlug: "tamachi",

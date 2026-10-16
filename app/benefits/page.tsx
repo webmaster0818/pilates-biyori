@@ -7,7 +7,7 @@ import Script from 'next/script'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/benefits/' },
   title: 'ピラティスの効果・メリット',
-  description: 'ピラティスで得られる効果とメリットを徹底解説。ダイエット効果、姿勢改善、腰痛・肩こり改善など、科学的根拠に基づいた効果を紹介します。',
+  description: 'ピラティスで得られる効果とメリットを解説しています。ダイエット効果、姿勢改善、腰痛・肩こり改善など、科学的根拠に基づいた効果を紹介します。',
   keywords: 'ピラティス,効果,メリット,ダイエット,姿勢改善,腰痛改善,肩こり',
 }
 
@@ -28,7 +28,7 @@ export default function BenefitsPage() {
               ピラティスの効果・メリット
             </h1>
             <p className="text-warm-600 leading-relaxed font-light max-w-2xl mx-auto">
-              ピラティスで得られる効果とメリットを科学的根拠に基づいて解説。ダイエット、姿勢改善、腰痛・肩こり改善など、あなたの目的に合った効果を確認できます。
+              ピラティスで得られる効果とメリットを、科学的根拠にもとづいて解説しています。ダイエット、姿勢改善、腰痛・肩こり改善など、目的に応じた効果をご確認いただけます。
             </p>
           </div>
         </section>
@@ -105,10 +105,10 @@ export default function BenefitsPage() {
         <section className="py-16 md:py-20 bg-warm-50">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-light text-warm-900 mb-4 tracking-tight">
-              ピラティスを始めてみませんか？
+              体験レッスンのご案内
             </h2>
             <p className="text-warm-600 mb-8 font-light leading-relaxed">
-              初回限定の体験レッスンで、あなたに合ったスタジオを見つけましょう。
+              初回限定の体験レッスンで、ご自身に合ったスタジオをお探しください。
             </p>
             <Link 
               href="/#studios" 

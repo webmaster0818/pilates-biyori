@@ -18,7 +18,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/hamamatsucho/' },
   title: '【2026年10月最新】浜松町・大門で無料体験できるピラティス5社｜大門駅すぐ・料金比較',
-  description: '浜松町・大門でピラティスの無料体験ができるスタジオを厳選。5社の料金・マシン対応・大門駅／浜松町駅からのアクセスを比較。初心者向けの選び方と体験当日の流れも2026年7月最新でわかります。',
+  description: '浜松町・大門でピラティスの無料体験ができるスタジオを厳選しています。5社の料金・マシン対応・大門駅／浜松町駅からのアクセスを比較しています。初心者向けの選び方と体験当日の流れも2026年7月最新でわかります。',
   keywords: 'ピラティス,浜松町,大門,田町,三田,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -29,13 +29,13 @@ const studios = [
     image: '/images/studios/the-silk.webp',
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
-    features: ['女性専用', '大門駅徒歩1分', '2026年2月OPEN', '手ぶら体験OK'],
-    description: '2026年2月オープンの女性専用マシンピラティススタジオ。大門駅A2出口から徒歩1分、浜松町駅JR北口から徒歩2分。音楽のリズムに合わせて動く独自のレッスンスタイルで、初心者でも楽しく続けられます。体験者の約8割がピラティス未経験者。',
+    features: ['女性専用', '大門駅徒歩1分', '2026年2月OPEN', '手ぶらで体験可能'],
+    description: '2026年2月オープンの女性専用マシンピラティススタジオです。大門駅A2出口から徒歩1分、浜松町駅JR北口から徒歩2分です。音楽のリズムに合わせて動く独自のレッスンスタイルで、初心者でも楽しく続けられます。体験者の約8割がピラティス未経験者です。',
     access: '都営浅草線・大江戸線「大門駅」A2出口 徒歩1分 / JR「浜松町駅」北口 徒歩2分',
     address: '東京都港区浜松町1-27-10 バッカス第3ビル 7F',
     popularPlan: {
       name: 'Standard4（月4回）',
-      description: '女性専用マシンピラティス月4回。音楽に合わせた楽しいレッスン。',
+      description: '女性専用マシンピラティス月4回です。音楽に合わせた楽しいレッスンです。',
       price: '月4回 15,070円（税込）',
     },
     options: [
@@ -61,13 +61,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
-    features: ['三田駅直結', '男性OK', 'マット&マシン', '全国相互利用'],
-    description: 'ピラティス専門の大手スタジオ。三田駅A3出口直結（エレベーター利用可）、田町駅から徒歩1分。マットグループ・マシングループ・プライベートの3タイプから選べます。全国80店舗以上で相互利用可能。男性も歓迎。',
+    features: ['三田駅直結', '男性利用可', 'マット&マシン', '全国他店利用'],
+    description: 'ピラティス専門の大手スタジオです。三田駅A3出口直結（エレベーター利用可）、田町駅から徒歩1分です。マットグループ・マシングループ・プライベートの3タイプから選べます。全国80店舗以上で他店利用可能です。男性も歓迎です。',
     access: '都営浅草線・三田線「三田駅」A3出口 直結 / JR「田町駅」西口 徒歩1分',
     address: '東京都港区芝5-31-7 三田ステーションビルアミタ 902',
     popularPlan: {
       name: 'フリープラン（マットグループ）',
-      description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。',
+      description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。',
       price: '月額 16,940円（税込）',
     },
     options: [
@@ -93,20 +93,20 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
-    features: ['田町駅徒歩5分', '男性OK', 'マシングループ', '三田店と併用可'],
-    description: 'zen place pilatesの田町スタジオ。田町駅東口（芝浦口）から徒歩5分。マットグループ・マシングループ・プライベートレッスンに対応。三田スタジオとの併用も可能で、スケジュールに合わせた通い方ができます。',
+    features: ['田町駅徒歩5分', '男性利用可', 'マシングループ', '三田店と併用可'],
+    description: 'zen place pilatesの田町スタジオです。田町駅東口（芝浦口）から徒歩5分です。マットグループ・マシングループ・プライベートレッスンに対応しています。三田スタジオとの併用も可能で、スケジュールに合わせた通い方ができます。',
     access: 'JR「田町駅」東口（芝浦口） 徒歩5分',
     address: '東京都港区芝浦3-13-2 Yビル 6F',
     popularPlan: {
       name: 'フリープラン（マットグループ）',
-      description: 'マットグループレッスン通い放題。三田スタジオとの併用も可能。',
+      description: 'マットグループレッスン通い放題です。三田スタジオとの併用も可能です。',
       price: '月額 16,940円（税込）',
     },
     options: [
       '月4回プラン（10,450円〜）',
       'マシングループ体験（3,000円）',
       'プライベートレッスン（体験 9,900円）',
-      '三田スタジオとの相互利用可',
+      '三田スタジオとの他店利用可',
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
@@ -125,13 +125,13 @@ const studios = [
     image: '/images/studios/club-pilates.webp',
     price: '月4回 14,190円／月8回 26,290円／通い放題 40,590円（公式店舗ページ・税表記なし）',
     trial: '体験レッスン 無料（30分イントロクラス）',
-    features: ['世界最大級', '15種類の器具', '田町駅徒歩6分', '男性OK'],
-    description: '世界最大級のマシンピラティスブランド。田町駅から徒歩6分。最大12名の少人数制グループレッスンで、リフォーマー・スプリングボード・TRX・チェアなど15種類のマシン・器具を1人1台完備。8つのプログラムと4段階のレベル分けで初心者から上級者まで対応。',
+    features: ['世界最大級', '15種類の器具', '田町駅徒歩6分', '男性利用可'],
+    description: '世界最大級のマシンピラティスブランドです。田町駅から徒歩6分です。最大12名の少人数制グループレッスンで、リフォーマー・スプリングボード・TRX・チェアなど15種類のマシン・器具を1人1台完備しています。8つのプログラムと4段階のレベル分けで初心者から上級者まで対応しています。',
     access: 'JR「田町駅」徒歩6分',
     address: '東京都港区田町エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'グループ月4回プラン',
-      description: '15種類の器具を使った本格グループレッスン。4段階のレベル分けで安心。',
+      description: '15種類の器具を使った本格グループレッスンです。4段階のレベル分けで安心です。',
       price: '月4回 14,190円（税表記なし）',
     },
     options: ['月8回 26,290円', '通い放題 40,590円', '入会金 5,500円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
@@ -152,12 +152,12 @@ const studios = [
     price: 'パーソナル 1回 8,250円〜',
     trial: '体験レッスンあり',
     features: ['キッズスペース完備', '田町駅徒歩4分', 'パーソナル専門', '産前産後ケア'],
-    description: 'パーソナル・少人数制のマシンピラティス専門スタジオ。田町駅東口から徒歩4分。キッズスペース完備で子連れOK。リフォーマー・キャデラック・チェアなど本格マシンを使ったオーダーメイドレッスン。産前産後ケアプログラムも充実。',
+    description: 'パーソナル・少人数制のマシンピラティス専門スタジオです。田町駅東口から徒歩4分です。キッズスペース完備で子連れ可能です。リフォーマー・キャデラック・チェアなど本格マシンを使ったオーダーメイドレッスンです。産前産後ケアプログラムも充実しています。',
     access: 'JR「田町駅」東口 徒歩4分',
     address: '東京都港区芝浦エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'パーソナルレッスン',
-      description: 'マシンを使った完全オーダーメイドのパーソナルレッスン。',
+      description: 'マシンを使った完全オーダーメイドのパーソナルレッスンです。',
       price: '1回 8,250円〜（税込）',
     },
     options: [
@@ -186,31 +186,31 @@ const faqs = [
   },
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！浜松町エリアのスタジオはほとんどが初心者歓迎。the SILKは体験者の約8割がピラティス未経験者、CLUB PILATESは4段階のレベル分けがあります。',
+    answer: '問題ありません。浜松町エリアのスタジオはほとんどが初心者歓迎です。the SILKは体験者の約8割がピラティス未経験者、CLUB PILATESは4段階のレベル分けがあります。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。浜松町エリアはマシン対応スタジオが充実。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。浜松町エリアはマシン対応スタジオが充実しています。',
   },
   {
     question: '浜松町エリアのピラティスの料金相場は？',
-    answer: 'グループ月4回で10,450円〜15,070円程度。zen placeが月4回10,450円〜で最もリーズナブル。パーソナルはPilates Studio B&Bが1回8,250円〜。',
+    answer: 'グループ月4回で10,450円〜15,070円程度です。zen placeが月4回10,450円〜で最もリーズナブルです。パーソナルはPilates Studio B&Bが1回8,250円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。大切なのは継続すること。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。大切なのは継続することです。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。the SILKは手ぶらで体験可能（ウェア・タオル無料貸出）。CLUB PILATESは無料の30分イントロクラスあり。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。the SILKは手ぶらで体験可能です（ウェア・タオル無料貸出）。CLUB PILATESは無料の30分イントロクラスがあります。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹強化・姿勢改善に特化。ヨガは柔軟性とリラックス重視。zen placeはヨガスタジオも運営しており、両方楽しめます。',
+    answer: 'ピラティスは体幹強化・姿勢改善に特化しています。ヨガは柔軟性とリラックス重視です。zen placeはヨガスタジオも運営しており、両方楽しめます。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
@@ -218,11 +218,11 @@ const faqs = [
   },
   {
     question: '子連れで通えるスタジオはありますか？',
-    answer: 'Pilates Studio B&B田町店はキッズスペース完備で子連れOK。産前産後ケアプログラムも充実しています。',
+    answer: 'Pilates Studio B&B田町店はキッズスペース完備で子連れ可能です。産前産後ケアプログラムも充実しています。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -243,8 +243,8 @@ export default function HamamatsuchoPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス浜松町おすすめ5選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス浜松町おすすめ5選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -269,29 +269,11 @@ export default function HamamatsuchoPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「浜松町で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、浜松町・大門・田町エリアでおすすめのピラティススタジオ5選をまとめました。
+              本ページでは、浜松町・大門・田町エリアでおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -316,7 +298,7 @@ export default function HamamatsuchoPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -370,7 +352,7 @@ export default function HamamatsuchoPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              浜松町はビジネス街としての性格が強く、仕事帰りの利用を想定した夜間プランや回数券プランが充実しています。賃料が高めのエリアのため料金は全体的にやや高い傾向ですが、法人契約や福利厚生割引に対応しているスタジオもあるので確認してみましょう。近隣の新橋エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
+              浜松町はビジネス街としての性格が強く、仕事帰りの利用を想定した夜間プランや回数券プランが充実しています。賃料が高めのエリアのため料金は全体的にやや高い傾向ですが、法人契約や福利厚生割引に対応しているスタジオもあるのでご確認ください。近隣の新橋エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
             </p>
           </div>
         </section>
@@ -395,7 +377,7 @@ export default function HamamatsuchoPage() {
               <div className="bg-warm-50 rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">大門・浜松町で初心者が選ぶポイント</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  はじめての方は「未経験者が多いか」「手ぶらで通えるか」を目安にすると安心です。たとえば the SILK 大門浜松町店は体験者の約8割がピラティス未経験からのスタートで、初心者でも始めやすい環境です。まずは無料体験で雰囲気を確かめ、大門駅・浜松町駅のどちらから通いやすいか、時間帯の予約の取りやすさもあわせて選びましょう。
+                  はじめての方は「未経験者が多いか」「手ぶらで通えるか」を目安にすると安心です。たとえば the SILK 大門浜松町店は体験者の約8割がピラティス未経験からのスタートで、初心者でも始めやすい環境です。まずは無料体験で雰囲気を確かめ、大門駅・浜松町駅のどちらから通いやすいか、時間帯の予約の取りやすさもあわせてお選びください。
                 </p>
               </div>
             </div>
@@ -414,19 +396,19 @@ export default function HamamatsuchoPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">都営浅草線・大江戸線「大門駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  浜松町エリアのスタジオは大門駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。大門駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  浜松町エリアのスタジオは大門駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。大門駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">ビジネス街特有の予約傾向を把握</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  浜松町はオフィス街のため、平日ランチタイム（12時〜13時）と夕方以降（18時〜21時）に予約が集中する傾向があります。逆に土日は比較的空いているスタジオが多いので、平日に通いづらい方は週末を狙うのも手です。また、祝日は営業時間が変更になることがあるので事前確認を。
+                  浜松町はオフィス街のため、平日ランチタイム（12時〜13時）と夕方以降（18時〜21時）に予約が集中する傾向があります。逆に土日は比較的空いているスタジオが多いので、平日に通いづらい方は週末を狙うのも手です。また、祝日は営業時間が変更になることがあるので事前にご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  浜松町エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ず確認しましょう。月の途中入会は日割り計算になるかも要チェックです。
+                  浜松町エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ずご確認ください。月の途中入会は日割り計算になるかもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -436,9 +418,9 @@ export default function HamamatsuchoPage() {
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  浜松町エリアだけでなく、近隣の<Link href="/area/shimbashi/" className="text-warm-700 underline hover:text-warm-900">新橋</Link>、<Link href="/area/tamachi/" className="text-warm-700 underline hover:text-warm-900">田町</Link>、<Link href="/area/tokyo-station/" className="text-warm-700 underline hover:text-warm-900">東京駅</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  浜松町エリアだけでなく、近隣の<Link href="/area/shimbashi/" className="text-warm-700 underline hover:text-warm-900">新橋</Link>、<Link href="/area/tamachi/" className="text-warm-700 underline hover:text-warm-900">田町</Link>、<Link href="/area/tokyo-station/" className="text-warm-700 underline hover:text-warm-900">東京駅</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -456,25 +438,25 @@ export default function HamamatsuchoPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>浜松町エリアの豆知識：</strong>浜松町はビジネスパーソンの利用が多いエリアです。スーツやオフィスカジュアルで来てそのまま着替えたい方は、ロッカールームの広さやシャワーの有無を重視してスタジオを選びましょう。ウェアレンタルがあれば、大きな荷物を持ち歩く必要がありません。
+                  <strong>浜松町エリアの豆知識：</strong>浜松町はビジネスパーソンの利用が多いエリアです。スーツやオフィスカジュアルで来てそのまま着替えたい方は、ロッカールームの広さやシャワーの有無を重視してスタジオをお選びください。ウェアレンタルがあれば、大きな荷物を持ち歩く必要がありません。
                 </p>
               </div>
             </div>
@@ -492,7 +474,7 @@ export default function HamamatsuchoPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円台で通えるスタジオ。
+                  月額1万円台で通えるスタジオです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place 三田（月4回 10,450円〜）</li>
@@ -502,7 +484,7 @@ export default function HamamatsuchoPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性だけの安心空間。
+                  女性だけの安心空間です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• the SILK 大門浜松町（月3回 12,980円〜）</li>
@@ -511,7 +493,7 @@ export default function HamamatsuchoPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  駅から徒歩5分以内。
+                  駅から徒歩5分以内です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• the SILK（大門駅 徒歩1分）</li>
@@ -532,15 +514,15 @@ export default function HamamatsuchoPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回からスタート。最低2-3ヶ月継続で効果を実感。
+                週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回がおすすめ。3-6ヶ月で目に見える変化。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。
+                週1回のペースで無理なく継続することをおすすめします。
               </p>
             </div>
           </div>
@@ -557,7 +539,7 @@ export default function HamamatsuchoPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜12,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。
+                  グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place 三田（10,450円〜）</li>
@@ -569,7 +551,7 @@ export default function HamamatsuchoPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜16,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月3〜4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン専門スタジオ。
+                  マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• the SILK（12,980円〜）</li>
@@ -580,7 +562,7 @@ export default function HamamatsuchoPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 8,250円〜/回</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">パーソナル</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  完全オーダーメイド。
+                  完全オーダーメイドです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Pilates Studio B&B（8,250円〜/回）</li>
@@ -612,7 +594,7 @@ export default function HamamatsuchoPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  浜松町エリアの料金相場はグループ月4回で10,450円〜15,070円。入会金やキャンペーンも確認しましょう。
+                  浜松町エリアの料金相場はグループ月4回で10,450円〜15,070円です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -621,7 +603,7 @@ export default function HamamatsuchoPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKとCLUB PILATESは無料体験、zen placeはグループ1,000円で体験可能。気軽に試してみましょう。
+                  the SILKとCLUB PILATESは無料体験、zen placeはグループ1,000円で体験可能です。体験レッスンで実際の雰囲気をご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -630,7 +612,7 @@ export default function HamamatsuchoPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  浜松町エリアはJR山手線・都営浅草線・三田線・大江戸線が利用可能。the SILKは大門駅徒歩1分、zen place三田は三田駅直結とアクセス抜群。
+                  浜松町エリアはJR山手線・都営浅草線・三田線・大江戸線が利用可能です。the SILKは大門駅徒歩1分、zen place三田は三田駅直結とアクセス抜群です。
                 </p>
               </div>
             </div>
@@ -673,13 +655,13 @@ export default function HamamatsuchoPage() {
               今回は浜松町・大門・田町エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では浜松町エリアにあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、浜松町エリアにあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -688,11 +670,11 @@ export default function HamamatsuchoPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,000円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜3,000円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

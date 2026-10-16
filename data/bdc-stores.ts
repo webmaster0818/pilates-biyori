@@ -1,5 +1,5 @@
 // P0①: ブランド×エリア受け皿（指名クエリ「BDC ピラティス {エリア}」の刈り取り）。
-// データは data/brands-aggregate.json のBDC実店舗と一致（架空ゼロ・住所が公式非開示の店は正直にその旨表記）。
+// データは data/brands-aggregate.json のBDC実店舗と一致（架空ゼロ・住所が公式非開示の店はその旨を表記）。
 export type BdcStore = {
   urlSlug: string; // /brands/{urlSlug}/
   areaQuery: string; // 指名クエリのエリア語（二子玉川 等）

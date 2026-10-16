@@ -7,7 +7,7 @@ const store = getTheSilkStore(SLUG)!;
 
 export const metadata: Metadata = {
   title: `吉祥寺のthe SILK（ザ シルク）｜料金・体験・口コミとアクセス`,
-  description: `吉祥寺のthe SILK（the SILK 吉祥寺店）の料金・体験レッスン・アクセスを掲載データで整理。${store.access}。Googleの口コミをもとにした編集部の要約（出典リンクつき）と、吉祥寺エリアのピラティス比較へのリンク付き。`,
+  description: `吉祥寺のthe SILK（the SILK 吉祥寺店）の料金・体験レッスン・アクセスを掲載しています。${store.access}です。Googleの口コミの要約（出典付き）と、吉祥寺エリアのピラティス比較へのリンクも掲載しています。`,
   alternates: { canonical: `https://biyori-pilates.com/brands/${SLUG}/` },
 };
 

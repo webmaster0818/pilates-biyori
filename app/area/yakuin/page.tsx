@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/yakuin/' },
-  title: '【2026年10月最新】薬院のピラティス｜初心者OK・無料体験で選ぶ料金比較',
-  description: '薬院エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  title: '【2026年10月最新】薬院のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  description: '薬院エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,薬院,福岡,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place,CLUB PILATES,AR pilates,edgy pilates',
 }
 
@@ -26,13 +26,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
-    features: ['マット&マシン完備', '各プラン最安価格帯', '薬院エリア', 'インストラクター養成'],
-    description: '全国130店舗以上を展開する大手ピラティススタジオの福岡薬院スタジオ。マットピラティスからマシンピラティスまで豊富なレッスンメニューを用意。各プランが最安価格帯で設定されており、コストパフォーマンスに優れています。解剖学に基づいた科学的なアプローチと経験豊富なインストラクターによる質の高い指導が特徴。初心者から経験者まで幅広いレベルに対応しています。',
+    features: ['マット&マシン完備', '各プラン最安価格帯', '薬院エリア', 'エデュケーター養成'],
+    description: '全国130店舗以上を展開する大手ピラティススタジオの福岡薬院スタジオです。マットピラティスからマシンピラティスまで豊富なレッスンメニューを用意しています。各プランが最安価格帯で設定されており、コストパフォーマンスに優れています。解剖学に基づいた科学的なアプローチと経験豊富なエデュケーターによる質の高い指導が特徴です。初心者から経験者まで幅広いレベルに対応しています。',
     access: '西鉄天神大牟田線「薬院駅」から徒歩圏内',
     address: '福岡県福岡市中央区薬院4丁目3-5 セレス薬院 3階',
     popularPlan: {
       name: 'フリープラン（月4回）',
-      description: 'マット・マシンどちらも受講可能な人気プラン。各プラン最安価格帯で始めやすい。',
+      description: 'マット・マシンどちらも受講可能な人気プランです。各プラン最安価格帯で始めやすいです。',
       price: '月4回 10,450円〜（税込）',
     },
     options: [
@@ -40,7 +40,7 @@ const studios = [
       'マシングループレッスン',
       'プライベートレッスン（1回 8,250円〜）',
       '全店舗利用可能プランあり',
-      'インストラクター養成コース（別途）',
+      'エデュケーター養成コース（別途）',
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
@@ -60,12 +60,12 @@ const studios = [
     price: '料金は店舗により異なる（公式の店舗ページで確認）',
     trial: '体験レッスンあり（公式サイトで確認）',
     features: ['世界最大級チェーン', '薬院大通駅徒歩9分', '8種類のマシン', 'レベル別クラス'],
-    description: '世界最大級のピラティスチェーン「CLUB PILATES」の福岡赤坂薬院店。薬院大通駅から徒歩9分の立地。リフォーマーをはじめ8種類の本格マシンを使ったグループレッスンを提供。レベル1（初心者）からレベル2.5（上級）まで段階別のクラス構成で、自分のペースでステップアップ可能。海外研修を受けた質の高いインストラクターが在籍しています。',
+    description: '世界最大級のピラティスチェーン「CLUB PILATES」の福岡赤坂薬院店です。薬院大通駅から徒歩9分の立地です。リフォーマーをはじめ8種類の本格マシンを使ったグループレッスンを提供しています。レベル1（初心者）からレベル2.5（上級）まで段階別のクラス構成で、自分のペースでステップアップ可能です。海外研修を受けた質の高いインストラクターが在籍しています。',
     access: '地下鉄七隈線「薬院大通駅」から徒歩9分',
     address: '福岡県福岡市中央区赤坂（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'EFTプラン（月4回）',
-      description: '世界最大級チェーンの本格マシンピラティス。レベル別クラスで初心者でも安心。',
+      description: '世界最大級チェーンの本格マシンピラティスです。レベル別クラスで初心者でも安心です。',
       price: '店舗により異なる（公式の店舗ページで確認）',
     },
     options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
@@ -86,12 +86,12 @@ const studios = [
     price: '都度利用 8,800円〜/回',
     trial: '初回カウンセリング付き体験あり',
     features: ['女性専用', '完全プライベート', '理学療法士在籍', '都度利用制'],
-    description: '女性専用・完全プライベートのピラティススタジオ。理学療法士が在籍しており、体の状態を専門的に評価したうえで一人ひとりに最適なプログラムを提供。産後ケアや姿勢改善、慢性的な不調の改善など、医学的な視点からのアプローチが強み。都度利用制なので月額に縛られず自分のペースで通えます。完全個室のプライベート空間で集中してレッスンを受けられます。',
+    description: '女性専用・完全プライベートのピラティススタジオです。理学療法士が在籍しており、体の状態を専門的に評価したうえで一人ひとりに最適なプログラムを提供しています。産後ケアや姿勢改善、慢性的な不調の改善など、医学的な視点からのアプローチが特徴です。都度利用制なので月額に縛られず自分のペースで通えます。完全個室のプライベート空間で集中してレッスンを受けられます。',
     access: '薬院エリア（詳細は公式サイトでご確認ください）',
     address: '福岡県福岡市中央区薬院（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: '都度利用プラン',
-      description: '完全プライベート・理学療法士による専門指導。月額制ではなく都度利用で自分のペースで通える。',
+      description: '完全プライベート・理学療法士による専門指導しています。月額制ではなく都度利用で自分のペースで通えます。',
       price: '1回 8,800円〜（税込）',
     },
     options: [
@@ -117,12 +117,12 @@ const studios = [
     price: '月4回 12,100円〜',
     trial: '体験レッスンあり',
     features: ['マシンピラティス専門', '福岡市中央区薬院', 'おしゃれな空間', '少人数制'],
-    description: '福岡市中央区薬院にあるマシンピラティス専門スタジオ。リフォーマーを中心としたマシンピラティスに特化し、少人数制でインストラクターの目が行き届く環境を提供。薬院の街並みに馴染むおしゃれな空間で、リフレッシュしながらボディメイクに取り組めます。初心者向けの基礎クラスから経験者向けのチャレンジクラスまで、幅広いレベルに対応しています。',
+    description: '福岡市中央区薬院にあるマシンピラティス専門スタジオです。リフォーマーを中心としたマシンピラティスに特化し、少人数制でインストラクターの目が行き届く環境を提供しています。薬院の街並みに馴染むおしゃれな空間で、リフレッシュしながらボディメイクに取り組めます。初心者向けの基礎クラスから経験者向けのチャレンジクラスまで、幅広いレベルに対応しています。',
     access: '西鉄天神大牟田線「薬院駅」から徒歩圏内',
     address: '福岡県福岡市中央区薬院（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: '月4回プラン',
-      description: 'マシンピラティス専門スタジオの人気プラン。少人数制で丁寧な指導。',
+      description: 'マシンピラティス専門スタジオの人気プランです。少人数制で丁寧な指導です。',
       price: '月4回 12,100円〜（税込）',
     },
     options: [
@@ -147,35 +147,35 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！薬院エリアのスタジオはほとんどが初心者歓迎です。zen place pilates福岡薬院は初心者向けクラスが充実。CLUB PILATES福岡赤坂薬院店はレベル別クラスで段階的にステップアップ可能。AR pilatesは理学療法士が一人ひとりに合わせたプログラムを提供してくれます。',
+    answer: '問題ありません。薬院エリアのスタジオはほとんどが初心者歓迎です。zen place pilates福岡薬院は初心者向けクラスが充実しています。CLUB PILATES福岡赤坂薬院店はレベル別クラスで段階的にステップアップ可能です。AR pilatesは理学療法士が一人ひとりに合わせたプログラムを提供してくれます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズ、マシンピラティスはリフォーマーなどの専用マシンを使用します。マシンはバネの力で負荷を調整できるため初心者にもおすすめ。薬院エリアではzen place pilates（マット&マシン両対応）、CLUB PILATES・edgy pilates studio（マシン専門）が対応しています。',
+    answer: 'マットピラティスは自重を使ったエクササイズ、マシンピラティスはリフォーマーなどの専用マシンを使用します。マシンはバネの力で負荷を調整できるため初心者にもおすすめです。薬院エリアではzen place pilates（マット&マシン両対応）、CLUB PILATES・edgy pilates studio（マシン専門）が対応しています。',
   },
   {
     question: '薬院のピラティスの料金相場は？',
-    answer: 'zen place pilates福岡薬院は月4回10,450円〜、CLUB PILATES福岡赤坂薬院店は月4回 10,890〜17,050円（店舗により異なる）、edgy pilates studioは月4回12,100円〜、AR pilatesは都度利用で1回8,800円〜です。目的と頻度に合わせて選びましょう。',
+    answer: 'zen place pilates福岡薬院は月4回10,450円〜、CLUB PILATES福岡赤坂薬院店は月4回 10,890〜17,050円（店舗により異なる）、edgy pilates studioは月4回12,100円〜、AR pilatesは都度利用で1回8,800円〜です。目的と頻度に合わせてお選びください。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。AR pilatesの都度利用制なら、自分のペースで無理なく通えます。大切なのは継続すること。最低2〜3ヶ月続けましょう。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。AR pilatesの都度利用制なら、自分のペースで無理なく通えます。大切なのは継続することです。最低2〜3ヶ月続けることをおすすめします。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に変わっていきます。edgy pilates studioやCLUB PILATESのマシンピラティスなら効率的にボディメイクが可能。2〜3ヶ月の継続で効果を実感する方が多いです。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。edgy pilates studioやCLUB PILATESのマシンピラティスなら効率的にボディメイクが可能です。2〜3ヶ月の継続で効果を実感する方が多いです。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOKです。zen place pilates福岡薬院は体験1,000円、CLUB PILATES福岡赤坂薬院店・edgy pilates studioも体験レッスンを実施中。AR pilatesは初回カウンセリング付き体験があります。まずは気軽に試してみましょう。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。zen place pilates福岡薬院は体験1,000円、CLUB PILATES福岡赤坂薬院店・edgy pilates studioも体験レッスンを実施中です。AR pilatesは初回カウンセリング付き体験があります。まずは体験レッスンで実際の雰囲気をご確認ください。',
   },
   {
     question: '女性専用のスタジオはありますか？',
-    answer: 'AR pilatesが女性専用・完全プライベートのスタジオです。理学療法士が在籍しており、産後ケアや体の不調改善にも対応。人目を気にせず集中できる個室環境が特徴です。',
+    answer: 'AR pilatesが女性専用・完全プライベートのスタジオです。理学療法士が在籍しており、産後ケアや体の不調改善にも対応しています。人目を気にせず集中できる個室環境が特徴です。',
   },
   {
     question: '薬院駅からのアクセスは？',
-    answer: '薬院駅は西鉄天神大牟田線・地下鉄七隈線が利用でき、天神に隣接する便利なエリアです。zen place pilates福岡薬院・edgy pilates studioは薬院駅から徒歩圏内。CLUB PILATES福岡赤坂薬院店は薬院大通駅から徒歩9分です。',
+    answer: '薬院駅は西鉄天神大牟田線・地下鉄七隈線が利用でき、天神に隣接する便利なエリアです。zen place pilates福岡薬院・edgy pilates studioは薬院駅から徒歩圏内です。CLUB PILATES福岡赤坂薬院店は薬院大通駅から徒歩9分です。',
   },
   {
     question: 'プライベートレッスンを受けたいのですが？',
@@ -203,9 +203,9 @@ export default function YakuinPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス薬院おすすめ4選！
+              【2026最新】ピラティス薬院おすすめ4選
               <br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -228,20 +228,14 @@ export default function YakuinPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p>
-            <p className="text-warm-600 leading-relaxed mb-6">Pilates-Biyori編集部です！</p>
-            <p className="text-warm-600 leading-relaxed mb-6">あなたは、</p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p>
-            <p className="text-warm-600 leading-relaxed mb-6">「薬院で人気のピラティススタジオを知りたい」</p>
-            <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              薬院は西鉄天神大牟田線・地下鉄七隈線「薬院駅」が最寄りで、天神に隣接するおしゃれなカフェやレストランが並ぶエリアです。住宅街と商業地が程よく混在し、落ち着いた雰囲気の中でショッピングやグルメも楽しめる人気の街。そんな薬院エリアには、全国展開の大手から女性専用プライベートスタジオ、マシンピラティス専門店まで、多彩なピラティススタジオが揃っています。
+              薬院は西鉄天神大牟田線・地下鉄七隈線「薬院駅」が最寄りで、天神に隣接するおしゃれなカフェやレストランが並ぶエリアです。住宅街と商業地が程よく混在し、落ち着いた雰囲気の中でショッピングやグルメも楽しめる人気の街です。そんな薬院エリアには、全国展開の大手から女性専用プライベートスタジオ、マシンピラティス専門店まで、多彩なピラティススタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、薬院エリアでおすすめの実在するピラティススタジオ4選をまとめました。
+              本ページでは、薬院エリアでおすすめの実在するピラティススタジオ4選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -265,7 +259,7 @@ export default function YakuinPage() {
                 </li>
               </ul>
             </div>
-            <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
+            <p className="text-warm-600 leading-relaxed">以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。</p>
           </div>
         </section>
 
@@ -332,25 +326,25 @@ export default function YakuinPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">西鉄天神大牟田線「薬院駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  薬院エリアのスタジオは薬院駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。薬院駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  薬院エリアのスタジオは薬院駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。薬院駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">繁華街ならではの予約混雑に注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  薬院は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることも。アプリやWebで空き状況をこまめにチェックし、キャンセル待ち機能があるスタジオでは積極的に活用しましょう。
+                  薬院は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることもあります。アプリやWebで空き状況をこまめに確認し、キャンセル待ち機能があるスタジオでは積極的にご活用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  薬院エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ず確認しましょう。月の途中入会は日割り計算になるかも要チェックです。
+                  薬院エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ずご確認ください。月の途中入会は日割り計算になるかもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  薬院エリアだけでなく、近隣の<Link href="/area/tenjin/" className="text-warm-700 underline hover:text-warm-900">天神</Link>、<Link href="/area/hakata/" className="text-warm-700 underline hover:text-warm-900">博多</Link>、<Link href="/area/fukuoka/" className="text-warm-700 underline hover:text-warm-900">福岡</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  薬院エリアだけでなく、近隣の<Link href="/area/tenjin/" className="text-warm-700 underline hover:text-warm-900">天神</Link>、<Link href="/area/hakata/" className="text-warm-700 underline hover:text-warm-900">博多</Link>、<Link href="/area/fukuoka/" className="text-warm-700 underline hover:text-warm-900">福岡</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -368,25 +362,25 @@ export default function YakuinPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>薬院エリアの豆知識：</strong>薬院は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
+                  <strong>薬院エリアの豆知識：</strong>薬院は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心です。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
                 </p>
               </div>
             </div>
@@ -400,8 +394,8 @@ export default function YakuinPage() {
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">目的別おすすめスタジオ</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
-                <p className="text-warm-600 text-sm mb-4">月額1万円台からスタート。</p>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
+                <p className="text-warm-600 text-sm mb-4">月額1万円台から始めることをおすすめします。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
                   <li className="text-warm-700">• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
@@ -410,7 +404,7 @@ export default function YakuinPage() {
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">プライベート重視</h3>
-                <p className="text-warm-600 text-sm mb-4">マンツーマンで丁寧な指導。</p>
+                <p className="text-warm-600 text-sm mb-4">マンツーマンで丁寧な指導です。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• AR pilates（完全プライベート・理学療法士）</li>
                   <li className="text-warm-700">• zen place pilates（プライベート 8,250円〜）</li>
@@ -419,7 +413,7 @@ export default function YakuinPage() {
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用・安心</h3>
-                <p className="text-warm-600 text-sm mb-4">女性専用や大手運営で安心。</p>
+                <p className="text-warm-600 text-sm mb-4">女性専用や大手運営で安心です。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• AR pilates（女性専用・完全個室）</li>
                   <li className="text-warm-700">• CLUB PILATES（世界最大級チェーン）</li>
@@ -437,11 +431,11 @@ export default function YakuinPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1〜2回からスタートするのがおすすめ。最低2〜3ヶ月継続することで効果を実感できます。zen place pilates福岡薬院の月4回プラン（10,450円〜）なら週1回ペースで無理なく始められます。
+                週1〜2回からスタートするのがおすすめです。最低2〜3ヶ月継続することで効果を実感できます。zen place pilates福岡薬院の月4回プラン（10,450円〜）なら週1回ペースで無理なく始められます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2〜3回がおすすめ。3〜6ヶ月で目に見える変化を実感できます。CLUB PILATES福岡赤坂薬院店のフリープランや、edgy pilates studioの通い放題プランなら集中的にトレーニングできます。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化を実感できます。CLUB PILATES福岡赤坂薬院店のフリープランや、edgy pilates studioの通い放題プランなら集中的にトレーニングできます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体の不調改善が目的の方</h3>
               <p className="text-warm-600 leading-relaxed">
@@ -459,7 +453,7 @@ export default function YakuinPage() {
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜11,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">手軽に始めたい方に。</p>
+                <p className="text-sm text-warm-600 mb-4">手軽に始めたい方に適しています。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates（10,450円〜/月4回）</li>
                 </ul>
@@ -468,7 +462,7 @@ export default function YakuinPage() {
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 12,000円前後/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">マシンピラティスで着実に成果。</p>
+                <p className="text-sm text-warm-600 mb-4">マシンピラティスで着実に成果です。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
                   <li>• edgy pilates studio（12,100円〜/月4回）</li>
@@ -477,7 +471,7 @@ export default function YakuinPage() {
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">プライベートレッスン</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">1回8,250円〜</p>
-                <p className="text-sm text-warm-600 mb-4">専門家による個別指導。</p>
+                <p className="text-sm text-warm-600 mb-4">専門家による個別指導しています。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（プライベート 8,250円〜）</li>
                   <li>• AR pilates（都度利用 8,800円〜）</li>
@@ -498,7 +492,7 @@ export default function YakuinPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ダイエット、姿勢改善、健康維持、産後ケアなど、目的によって最適なスタジオは変わります。体の不調改善ならAR pilates（理学療法士在籍）、ボディメイクならCLUB PILATESやedgy pilates studioのマシンピラティスがおすすめ。
+                  ダイエット、姿勢改善、健康維持、産後ケアなど、目的によって最適なスタジオは変わります。体の不調改善ならAR pilates（理学療法士在籍）、ボディメイクならCLUB PILATESやedgy pilates studioのマシンピラティスがおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -507,7 +501,7 @@ export default function YakuinPage() {
                   <h3 className="text-xl font-bold text-warm-900">レッスン形式を選ぶ</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  薬院エリアはグループレッスン（zen place pilates・CLUB PILATES・edgy pilates studio）と完全プライベート（AR pilates）の両方が揃っています。マットとマシンの両方を試したいならzen place pilates、マシン専門ならCLUB PILATESやedgy pilates studioがおすすめ。
+                  薬院エリアはグループレッスン（zen place pilates・CLUB PILATES・edgy pilates studio）と完全プライベート（AR pilates）の両方が揃っています。マットとマシンの両方を試したいならzen place pilates、マシン専門ならCLUB PILATESやedgy pilates studioがおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -516,7 +510,7 @@ export default function YakuinPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  zen place pilates福岡薬院は体験1,000円。CLUB PILATES福岡赤坂薬院店・edgy pilates studioも体験レッスンを実施中。AR pilatesは初回カウンセリング付き体験があります。まずは気軽に体験で雰囲気やインストラクターとの相性を確認しましょう。
+                  zen place pilates福岡薬院は体験1,000円です。CLUB PILATES福岡赤坂薬院店・edgy pilates studioも体験レッスンを実施中です。AR pilatesは初回カウンセリング付き体験があります。まずは気軽に体験で雰囲気やインストラクターとの相性をご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -525,7 +519,7 @@ export default function YakuinPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  薬院は西鉄天神大牟田線・地下鉄七隈線の2路線が利用でき、天神にも隣接する交通の便が良いエリアです。zen place pilates・edgy pilates studioは薬院駅から徒歩圏内、CLUB PILATESは薬院大通駅から徒歩9分。仕事帰りやお出かけの前後にも通いやすい立地です。
+                  薬院は西鉄天神大牟田線・地下鉄七隈線の2路線が利用でき、天神にも隣接する交通の便が良いエリアです。zen place pilates・edgy pilates studioは薬院駅から徒歩圏内、CLUB PILATESは薬院大通駅から徒歩9分です。仕事帰りやお出かけの前後にも通いやすい立地です。
                 </p>
               </div>
             </div>
@@ -565,19 +559,19 @@ export default function YakuinPage() {
               薬院は天神に隣接するおしゃれなカフェやレストランが並ぶ人気エリアで、西鉄天神大牟田線・地下鉄七隈線の2路線が利用できる交通至便な街です。全国展開のzen place pilates福岡薬院（月4回10,450円〜）、世界最大級チェーンのCLUB PILATES福岡赤坂薬院店（月4回 10,890〜17,050円・店舗により異なる）、女性専用・完全プライベートのAR pilates（都度利用8,800円〜）、マシンピラティス専門のedgy pilates studio（月4回12,100円〜）と、それぞれ特徴の異なるスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              まずは体験1,000円のzen place pilates福岡薬院や、各スタジオの体験レッスンから試してみるのがおすすめです。ぜひこの記事を参考に、自分に合うピラティススタジオを見つけてくださいね。
+              まずは体験1,000円のzen place pilates福岡薬院や、各スタジオの体験レッスンから試してみるのがおすすめです。本ページの情報を、スタジオ選びにお役立てください。
             </p>
-            <p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p>
+            <p className="text-warm-700 font-medium text-center">本ページが、ピラティススタジオ選びの参考になれば幸いです。</p>
           </div>
         </section>
 
         {/* CTA */}
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンのご予約</h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              zen place pilates福岡薬院は体験1,000円。<br />
-              まずは気軽に体験してみましょう。
+              zen place pilates福岡薬院は体験1,000円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/oshiage/' },
-  title: '【2026年10月最新】押上のピラティス｜初心者OK・無料体験で選ぶ料金比較',
-  description: '押上エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  title: '【2026年10月最新】押上のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  description: '押上エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,押上,東京,墨田区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -26,7 +26,7 @@ const studios = [
     price: '詳細は公式サイト参照',
     trial: '体験レッスンあり',
     features: ['完全個室', 'マシンピラティス', '押上駅徒歩1分', '2スタジオ併用可'],
-    description: 'スカイツリーの下のピラティススタジオ。押上駅徒歩1分の押上駅前スタジオと、本所吾妻橋駅徒歩1分の押上ハナレの2スタジオがあり、どちらも利用できます。完全個室のマシンピラティス専門で、他人の目を気にせず集中してレッスンを受けられます。グリップソックスの製作販売も行っています。インストラクターが丁寧に指導してくれるので、初心者でも安心して通えるスタジオです。',
+    description: 'スカイツリーの下のピラティススタジオです。押上駅徒歩1分の押上駅前スタジオと、本所吾妻橋駅徒歩1分の押上ハナレの2スタジオがあり、どちらも利用できます。完全個室のマシンピラティス専門で、他人の目を気にせず集中してレッスンを受けられます。グリップソックスの製作販売も行っています。インストラクターが丁寧に指導してくれるので、初心者でも安心して通えるスタジオです。',
     access: '押上駅徒歩1分（押上駅前スタジオ）、本所吾妻橋駅徒歩1分（押上ハナレ）',
     address: '東京都墨田区（押上エリア、詳細住所は公式サイト参照）',
     popularPlan: {
@@ -57,7 +57,7 @@ const studios = [
     price: '詳細は公式サイト参照',
     trial: '体験レッスンあり',
     features: ['女性専用', 'パーソナル', '大岩医院併設', 'ダイエット特化'],
-    description: '押上駅徒歩9分、曳舟駅徒歩6分の女性専用ピラティススタジオ。マンツーマンのパーソナルトレーニング形式で、初心者にもわかりやすく教えてくれます。大岩医院併設のスタジオなので安心感があり、リバウンドしないカラダに変えるダイエット＆ボディメイクに特化しています。女性専用なので、他人の目を気にせず通いやすいスタジオです。',
+    description: '押上駅徒歩9分、曳舟駅徒歩6分の女性専用ピラティススタジオです。マンツーマンのパーソナルトレーニング形式で、初心者にもわかりやすく教えてくれます。大岩医院併設のスタジオなので安心感があり、リバウンドしないカラダに変えるダイエット＆ボディメイクに特化しています。女性専用なので、他人の目を気にせず通いやすいスタジオです。',
     access: '押上駅徒歩9分、曳舟駅徒歩6分',
     address: '東京都墨田区（押上エリア、詳細住所は公式サイト参照）',
     popularPlan: {
@@ -88,13 +88,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
-    features: ['男女共用', 'スカイツリー見える', '本所吾妻橋・押上近く', '全国150店舗相互利用'],
-    description: '全国展開の大手ピラティススタジオ。押上駅・本所吾妻橋駅からアクセス可能で、隅田川沿いにありスカイツリーを見ながらピラティスができる最高のロケーション。朝は窓から差す日光が心地良く、夜はスカイツリーを背景とした綺麗な夜景が楽しめます。エデュケーターがクライアントに寄り添い、身体の状態を確認しながら親切に教えてくださいます。全国150店舗がすべて利用可能で、出張先や旅行先でも継続できます。',
+    features: ['男女共用', 'スカイツリー見える', '本所吾妻橋・押上近く', '全国150店舗他店利用'],
+    description: '全国展開の大手ピラティススタジオです。押上駅・本所吾妻橋駅からアクセス可能で、隅田川沿いにありスカイツリーを見ながらピラティスができる最高のロケーションです。朝は窓から差す日光が心地良く、夜はスカイツリーを背景とした綺麗な夜景が楽しめます。エデュケーターがクライアントに寄り添い、身体の状態を確認しながら親切に教えてくださいます。全国150店舗がすべて利用可能で、出張先や旅行先でも継続できます。',
     access: '都営浅草線 本所吾妻橋駅・押上駅からアクセス可能',
     address: '東京都台東区駒形2丁目7-5 前川ビル 7階',
     popularPlan: {
       name: 'マットグループ月4',
-      description: 'マットグループレッスン月4回。全国150店舗どこでも受講可能',
+      description: 'マットグループレッスン月4回です。全国150店舗どこでも受講可能',
       price: '10,450円/月（税込）',
     },
     options: [
@@ -121,13 +121,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
-    features: ['男女共用', 'スカイツリー近く', '全国150店舗相互利用', '世界基準の資格'],
-    description: '全国展開の大手ピラティススタジオ。押上から半蔵門線で2駅の錦糸町駅近。スカイツリー近くの好立地。マットグループ、マシン（リフォーマー）グループ、プライベートのレッスンがあり、男性もOK。日本トップの実績を持ち、世界基準の資格と豊富な経験を持つインストラクターが在籍。全国150店舗がすべて利用可能で、出張先や旅行先でも継続できます。',
+    features: ['男女共用', 'スカイツリー近く', '全国150店舗他店利用', '世界基準の資格'],
+    description: '全国展開の大手ピラティススタジオです。押上から半蔵門線で2駅の錦糸町駅近です。スカイツリー近くの好立地です。マットグループ、マシン（リフォーマー）グループ、プライベートのレッスンがあり、男性も可能です。日本トップの実績を持ち、世界基準の資格と豊富な経験を持つエデュケーターが在籍しています。全国150店舗がすべて利用可能で、出張先や旅行先でも継続できます。',
     access: '錦糸町駅より徒歩圏内（押上から半蔵門線で2駅）',
     address: '東京都墨田区江東橋4丁目25-8 オカバ錦糸町ビル 601',
     popularPlan: {
       name: 'マットグループ月4',
-      description: 'マットグループレッスン月4回。全国150店舗どこでも受講可能',
+      description: 'マットグループレッスン月4回です。全国150店舗どこでも受講可能',
       price: '10,450円/月（税込）',
     },
     options: [
@@ -156,7 +156,7 @@ const studios = [
     priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
     trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。押上駅から徒歩5分。',
+    description: '女性専用のマシンピラティス専門スタジオです。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴です。押上駅から徒歩5分です。',
     access: '押上駅 徒歩5分',
     address: '〒131-0045 東京都墨田区押上2-9-3 カワシマビル2F',
     userProfile: {
@@ -176,43 +176,43 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！押上エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。STUDIO.EDUやオハイアリイはパーソナル形式なので、一人ひとりのレベルに合わせて丁寧に指導してくれます。運動が苦手な方でも安心して始められますよ。',
+    answer: '問題ありません。押上エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。STUDIO.EDUやオハイアリイはパーソナル形式なので、一人ひとりのレベルに合わせて丁寧に指導してくれます。運動が苦手な方でも安心して始められます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。マットは場所を選ばず自宅でも続けやすいのが特徴です。押上エリアではSTUDIO.EDUが完全個室のマシンピラティス専門です。',
+    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷を調整しやすく、初心者におすすめです。マットは場所を選ばず、自宅でも続けやすい点が特徴です。押上エリアではSTUDIO.EDUが完全個室のマシンピラティス専門です。',
   },
   {
     question: '押上エリアのピラティススタジオの料金相場は？',
-    answer: '押上エリアのピラティススタジオの料金相場は、グループレッスンで月4回8,800円〜10,450円程度。zen place pilates 浅草は月4回10,450円〜、LAVA 曳舟店は月4回8,800円〜とリーズナブル。パーソナルスタジオは公式サイトでの確認が必要です。',
+    answer: '押上エリアのピラティススタジオの料金相場は、グループレッスンで月4回8,800円〜10,450円程度です。zen place pilates 浅草は月4回10,450円〜、LAVA 曳舟店は月4回8,800円〜とリーズナブルです。パーソナルスタジオは公式サイトでの確認が必要です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: 'ピラティス初心者は週1-2回（月4-8回）がおすすめ。慣れてきたら週2-3回に増やすと効果を実感しやすくなります。大切なのは継続すること。無理のないペースで長く続けることが、理想の身体を手に入れる近道です。',
+    answer: 'ピラティス初心者は週1〜2回（月4〜8回）がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。大切なのは継続することです。無理のないペースで長く続けることが、目標達成への近道です。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、ピラティスはダイエット効果があります。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に。押上エリアではオハイアリイがダイエット＆ボディメイクに特化しています。ただし即効性はないので、最低でも2-3ヶ月は継続することが大切です。',
+    answer: 'ピラティスにはダイエット効果が期待できます。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。押上エリアではオハイアリイがダイエット＆ボディメイクに特化しています。ただし即効性はないので、最低でも2〜3ヶ月は継続することが大切です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。マットやタオルはスタジオでレンタルできることが多いです。STUDIO.EDUではグリップソックスの販売もあります。詳細は各スタジオの体験レッスン案内で確認してくださいね。',
+    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルはスタジオでレンタルできることが多いです。STUDIO.EDUではグリップソックスの販売もあります。詳細は各スタジオの体験レッスン案内でご確認ください。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。押上エリアではルネサンス曳舟やLAVA曳舟店でホットヨガも楽しめるので、両方試してみるのもおすすめです。',
+    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズです。ヨガは柔軟性と精神的なリラックスを重視します。押上エリアではルネサンス曳舟やLAVA曳舟店でホットヨガも楽しめるので、両方試してみるのもおすすめです。',
   },
   {
     question: 'ピラティスで肩こりや腰痛は改善しますか？',
-    answer: 'はい、改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。デスクワークが多い方や立ち仕事の方にもおすすめです。',
+    answer: '改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。デスクワークが多い方や立ち仕事の方にもおすすめです。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: 'ピラティスで効果が表れだすのは「2ヶ月を過ぎた頃」から。これは人間の細胞が生まれ変わるサイクルがそのくらいだからです。すぐに変化が表れなくても心配せず、最低でも2ヶ月は継続するのがおすすめです。',
+    answer: 'ピラティスの効果を実感し始めるのは、2ヶ月を過ぎた頃が目安とされています。すぐに変化が表れなくても、最低2ヶ月は継続することをおすすめします。',
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'それぞれ良さがあります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方におすすめ。押上エリアではSTUDIO.EDUやオハイアリイがパーソナル対応です。グループは料金が安く、仲間と楽しく続けられるのが魅力。まずは体験で両方試してみるのがいいですよ。',
+    answer: 'それぞれに利点があります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方におすすめです。押上エリアではSTUDIO.EDUやオハイアリイがパーソナル対応です。グループは料金を抑えやすく、ほかの参加者と一緒に続けられる点が利点です。まずは体験レッスンで両方を試すことをおすすめします。',
   },
 ]
 
@@ -252,8 +252,8 @@ export default function OshiageAreaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス押上おすすめ5選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス押上おすすめ5選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -276,29 +276,11 @@ export default function OshiageAreaPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「押上でピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「東京スカイツリー周辺で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、東京メトロ半蔵門線・都営浅草線・京成線・東武スカイツリーライン押上駅周辺のおすすめピラティススタジオ5選をまとめました。東京スカイツリーのお膝元、墨田区エリアの個性的なスタジオを厳選しています。
+              本ページでは、東京メトロ半蔵門線・都営浅草線・京成線・東武スカイツリーライン押上駅周辺のおすすめピラティススタジオ5選をまとめました。東京スカイツリーのお膝元、墨田区エリアの個性的なスタジオを厳選しています。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -323,7 +305,7 @@ export default function OshiageAreaPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -391,25 +373,25 @@ export default function OshiageAreaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">押上駅徒歩1分（押上駅前スタジオ）、本所吾妻橋駅からのルートは事前に確認を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  押上エリアのスタジオは押上駅徒歩1分（押上駅前スタジオ）、本所吾妻橋駅周辺が中心です。駅の出口によってスタジオまでの距離が変わることがあるため、初めて訪れる際はGoogleマップで経路を確認し、余裕を持って到着できるようにしましょう。
+                  押上エリアのスタジオは押上駅徒歩1分（押上駅前スタジオ）、本所吾妻橋駅周辺が中心です。駅の出口によってスタジオまでの距離が変わることがあるため、初めて訪れる際はGoogleマップで経路を確認し、余裕を持って到着できるようにすることをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">地元密着型スタジオの予約方法を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  押上エリアには大手チェーンだけでなく、個人経営のアットホームなスタジオもあります。個人スタジオはWeb予約に対応していない場合もあるため、予約方法（電話・LINE・専用アプリ等）を入会前に確認しておきましょう。常連さんで枠が埋まりやすい人気スタジオもあるので早めの予約がおすすめです。
+                  押上エリアには大手チェーンだけでなく、個人経営のアットホームなスタジオもあります。個人スタジオはWeb予約に対応していない場合もあるため、予約方法（電話・LINE・専用アプリ等）を入会前にご確認ください。常連さんで枠が埋まりやすい人気スタジオもあるので早めの予約がおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">料金プランの種類と契約条件をしっかり比較</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  押上エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかを確認しましょう。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため要チェックです。
+                  押上エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかをご確認ください。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため、事前にご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  押上エリアだけでなく、近隣の<Link href="/area/asakusa/" className="text-warm-700 underline hover:text-warm-900">浅草</Link>、<Link href="/area/kinshicho/" className="text-warm-700 underline hover:text-warm-900">錦糸町</Link>、<Link href="/area/kameido/" className="text-warm-700 underline hover:text-warm-900">亀戸</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  押上エリアだけでなく、近隣の<Link href="/area/asakusa/" className="text-warm-700 underline hover:text-warm-900">浅草</Link>、<Link href="/area/kinshicho/" className="text-warm-700 underline hover:text-warm-900">錦糸町</Link>、<Link href="/area/kameido/" className="text-warm-700 underline hover:text-warm-900">亀戸</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -427,25 +409,25 @@ export default function OshiageAreaPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>押上エリアの豆知識：</strong>押上はアットホームな雰囲気のスタジオが多く、気負わずに通えるのが魅力です。初回はシンプルなTシャツとレギンスで十分。常連さんとも自然に仲良くなれる距離感が押上ならではです。
+                  <strong>押上エリアの豆知識：</strong>押上はアットホームな雰囲気のスタジオが多く、気負わずに通えるのが魅力です。初回はシンプルなTシャツとレギンスで十分です。常連さんとも自然に仲良くなれる距離感が押上ならではです。
                 </p>
               </div>
             </div>
@@ -463,7 +445,7 @@ export default function OshiageAreaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">完全個室・パーソナル</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  他人の目を気にせず集中してレッスンを受けたい方。マンツーマン指導で効率よく上達できます。
+                  他人の目を気にせず集中してレッスンを受けたい方向けです。マンツーマン指導で効率よく上達できます。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• STUDIO.EDU（完全個室マシンピラティス）</li>
@@ -473,7 +455,7 @@ export default function OshiageAreaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">大手・全国展開</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  全国の店舗を相互利用できる大手スタジオ。出張先や旅行先でも継続できます。
+                  全国の店舗を相互利用できる大手スタジオです。出張先や旅行先でも継続できます。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates 浅草（150店舗相互利用）</li>
@@ -484,7 +466,7 @@ export default function OshiageAreaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">総合フィットネス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  ピラティスだけでなく、ジム・スパ・ヨガなど総合的にトレーニングしたい方向け。
+                  ピラティスだけでなく、ジム・スパ・ヨガなど総合的にトレーニングしたい方向けです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ルネサンス東あずま24（24時間営業）</li>
@@ -504,15 +486,15 @@ export default function OshiageAreaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回（月4-8回）からスタートするのがおすすめ。まずは身体を慣らすことが大切です。継続期間は最低でも2-3ヶ月。この期間で効果を実感できる方が多いですよ。
+                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感できる方が多いです。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回（月8-12回）がおすすめ。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3-6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。オハイアリイのダイエット特化プログラムなど目的に合ったスタジオを選びましょう。
+                週2〜3回（月8〜12回）がおすすめです。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3〜6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。オハイアリイのダイエット特化プログラムなど目的に合ったスタジオをお選びください。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理が目的の方</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回（月4回）のペースで継続するのがおすすめ。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切。ルネサンス東あずま24なら24時間営業で自分のペースで通えますよ。
+                週1回（月4回）のペースで継続するのがおすすめです。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切です。ルネサンス東あずま24なら24時間営業で自分のペースで通えます。
               </p>
             </div>
           </div>
@@ -529,7 +511,7 @@ export default function OshiageAreaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン・ホットヨガ中心。手軽に始めたい方向け。
+                  グループレッスン・ホットヨガ中心です。手軽に始めたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• LAVA 曳舟店（月4回 8,800円〜）</li>
@@ -542,7 +524,7 @@ export default function OshiageAreaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 10,000〜17,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  大手スタジオのマシンピラティス。グループ・フリープラン。
+                  大手スタジオのマシンピラティスです。グループ・フリープランです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates 浅草（10,450円〜）</li>
@@ -554,7 +536,7 @@ export default function OshiageAreaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">パーソナル</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">個別相談</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  完全個室・マンツーマン指導。短期集中で結果を出したい方向け。
+                  完全個室・マンツーマン指導です。短期集中で成果を目指したい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• STUDIO.EDU（公式サイト参照）</li>
@@ -578,7 +560,7 @@ export default function OshiageAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  まずは自分がピラティスで何を達成したいのかを明確にしましょう。ダイエット、姿勢改善、体幹強化、リラックスなど、目的によって最適なスタジオやプログラムは変わります。押上エリアではダイエット特化のオハイアリイ、完全個室のSTUDIO.EDU、大手のzen placeなど個性が異なるので、目的に合わせて選びやすいですよ。
+                  まずは自分がピラティスで何を達成したいのかを明確にすることをおすすめします。ダイエット、姿勢改善、体幹強化、リラックスなど、目的によって最適なスタジオやプログラムは変わります。押上エリアではダイエット特化のオハイアリイ、完全個室のSTUDIO.EDU、大手のzen placeなど個性が異なるので、目的に合わせて選びやすいです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -587,7 +569,7 @@ export default function OshiageAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  押上エリアの料金相場はグループレッスンで月4回8,800円〜10,450円程度。パーソナルスタジオは個別相談が多いです。無理なく継続できる予算を決めましょう。料金だけでなく、入会金やレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  押上エリアの料金相場はグループレッスンで月4回8,800円〜10,450円程度です。パーソナルスタジオは個別相談が多いです。無理なく継続できる予算を決めることをおすすめします。料金だけでなく、入会金やレンタル料などもご確認ください。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -596,7 +578,7 @@ export default function OshiageAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。zen place pilatesは体験レッスン1,000円で受けられます。多くのスタジオが体験レッスンを提供しているので、気軽に試してみてくださいね。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。zen place pilatesは体験レッスン1,000円で受けられます。多くのスタジオが体験レッスンを提供しているので、体験レッスンをご利用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -605,7 +587,7 @@ export default function OshiageAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  どんなに良いスタジオでも、通いにくい場所にあると続きません。押上駅は東京メトロ半蔵門線・都営浅草線・京成線・東武スカイツリーラインと複数路線が利用でき、墨田区の中でもアクセス抜群です。STUDIO.EDUは押上駅徒歩1分。近隣の曳舟（東武スカイツリーライン1駅）・錦糸町（半蔵門線2駅）のスタジオも使い分けると選択肢が広がりますよ。
+                  通いにくい場所にあるスタジオは、継続が難しくなります。押上駅は東京メトロ半蔵門線・都営浅草線・京成線・東武スカイツリーラインと複数路線が利用でき、墨田区の中でもアクセス抜群です。STUDIO.EDUは押上駅徒歩1分です。近隣の曳舟（東武スカイツリーライン1駅）・錦糸町（半蔵門線2駅）のスタジオも使い分けると選択肢が広がります。
                 </p>
               </div>
             </div>
@@ -651,10 +633,10 @@ export default function OshiageAreaPage() {
               東京スカイツリーのお膝元、押上駅周辺には完全個室のマシンピラティス「STUDIO.EDU」、女性専用パーソナルの「オハイアリイ」、スカイツリーを見ながらレッスンできる「zen place pilates 浅草」など、個性的なスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              近隣の曳舟・錦糸町のスタジオも含めると選択肢は広がりますので、ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              近隣の曳舟・錦糸町のスタジオも含めると選択肢は広がりますため、あわせてご検討ください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -663,11 +645,11 @@ export default function OshiageAreaPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜1,000円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜1,000円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

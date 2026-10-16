@@ -366,7 +366,7 @@ export function MatVsMachineDiagram() {
     },
   ]
   return (
-    <Figure title="マットピラティス と マシンピラティス" note={<p className="not-prose text-xs text-warm-400 mt-1">初心者はどちらでもOK。フォームを丁寧に見てほしいならマシン（個別）がおすすめ。</p>}>
+    <Figure title="マットピラティス と マシンピラティス" note={<p className="not-prose text-xs text-warm-400 mt-1">初心者はどちらからでも始められます。フォームを丁寧に確認してほしい場合は、マシン（個別）をおすすめします。</p>}>
       <div className="not-prose grid grid-cols-2 gap-4">
         {cols.map((c, i) => (
           <div key={i} className="rounded-lg border border-warm-100 bg-warm-50 p-4 flex flex-col gap-3">
@@ -638,7 +638,7 @@ export function MorningNightDiagram() {
       title="朝ピラティス と 夜ピラティス"
       left={{ title: '朝ピラティス', items: ['体を目覚めさせ活動的に', '日中の姿勢・不調予防', '習慣化しやすい', '活動的なメニュー向き'] }}
       right={{ title: '夜ピラティス', items: ['1日のこわばりをリセット', 'リラックスで睡眠の質UP', '仕事帰りに通いやすい', '呼吸中心のメニュー向き'] }}
-      caption="どちらが優れているかではなく目的の違い。就寝直前の激しい動きは逆効果。"
+      caption="どちらが優れているかではなく、目的の違いです。就寝直前の激しい動きは逆効果です。"
     />
   )
 }
@@ -649,7 +649,7 @@ export function ClassicalContemporaryDiagram() {
       title="クラシカル（古典）と コンテンポラリー（現代）"
       left={{ title: 'クラシカル', items: ['ジョセフ・ピラティスの順番・種目を忠実に踏襲', '伝統的なフローを重視', '型を学べる', '流派の一貫性が高い'] }}
       right={{ title: 'コンテンポラリー', items: ['解剖学・運動学を取り入れ改良', '個人の状態に合わせ柔軟に調整', 'リハビリ・初心者にも対応', 'スタジオごとに内容が多様'] }}
-      caption="優劣ではなく方針の違い。初心者はどちらでも、指導の丁寧さで選んでOK。"
+      caption="優劣ではなく方針の違いです。初心者はどちらでも、指導の丁寧さを基準に選んで問題ありません。"
     />
   )
 }
@@ -660,7 +660,7 @@ export function OnlineStudioDiagram() {
       title="オンライン と 通学（スタジオ）"
       left={{ title: 'オンライン', items: ['料金が安い・自宅で完結', '好きな時間にできる', 'マシンは使えない', 'フォーム修正が届きにくい'] }}
       right={{ title: '通学（スタジオ）', items: ['対面でフォームを直してもらえる', 'マシン（リフォーマー）が使える', '集中できて継続しやすい', '料金・通う手間はかかる'] }}
-      caption="初心者はまず通学で基礎を作り、慣れたらオンライン併用が効率的。"
+      caption="初心者はまず通学で基礎を作り、慣れたらオンラインを併用すると効率的です。"
     />
   )
 }

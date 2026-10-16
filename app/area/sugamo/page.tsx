@@ -16,7 +16,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/sugamo/' },
   title: '【2026年10月最新】巣鴨のピラティス9社を比較｜無料体験4社・月額最安2,200円〜',
-  description: '巣鴨エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  description: '巣鴨エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,巣鴨,東京,豊島区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -27,12 +27,12 @@ const studios = [
     price: '月6回 11,000円',
     trial: '体験レッスン 2,200円',
     features: ['女性専用', '天井鏡', 'KONAMI運営', '2025年1月オープン'],
-    description: 'コナミスポーツが運営する「もっと鏡が見たくなる」をコンセプトにした新しいピラティススタジオ。2025年1月23日オープン。スタジオの天井に鏡を設置し、自分の身体の動きを確認しながら取り組めます。1レッスン30分で「気軽に」参加でき、音楽をかけながら「楽しく」動く、短時間でも達成感と効果を感じられるレッスン。最大8名の少人数制。女性専用18歳以上対象。',
+    description: 'コナミスポーツが運営する「もっと鏡が見たくなる」をコンセプトにした新しいピラティススタジオです。2025年1月23日オープンです。スタジオの天井に鏡を設置し、自分の身体の動きを確認しながら取り組めます。1レッスン30分で「気軽に」参加でき、音楽をかけながら「楽しく」動く、短時間でも達成感と効果を感じられるレッスンです。最大8名の少人数制です。女性専用18歳以上対象です。',
     access: 'JR山手線、都営三田線・巣鴨駅A2口から徒歩4分',
     address: '東京都豊島区巣鴨1丁目20番11号 Jビル1階',
     popularPlan: {
       name: '月会費プラン',
-      description: '月6回までレッスン受講可能。女性専用で安心',
+      description: '月6回までレッスン受講可能です。女性専用で安心',
       price: '11,000円/月（税込）+ 入会金11,000円',
     },
     options: [
@@ -59,12 +59,12 @@ const studios = [
     price: '月4回 13,090円／月8回 24,090円／通い放題 37,290円（公式店舗ページ・税表記なし）',
     trial: '体験レッスン 無料（30分）',
     features: ['世界最大級', '4段階レベル分け', '最大12名少人数制', 'プライベートレッスンあり'],
-    description: '世界各国で800店舗以上展開している世界最大級のマシンピラティス専門スタジオ。初心者から上級者まで幅広いレベルに対応できる4段階のレベル分けで、未経験でもステップアップしながら通えます。最大12名のグループレッスンを主体とし、インストラクターが会員様を直接フォローしながら進めるため、初心者でも楽しくレッスンを続けられます。',
+    description: '世界各国で800店舗以上展開している世界最大級のマシンピラティス専門スタジオです。初心者から上級者まで幅広いレベルに対応できる4段階のレベル分けで、未経験でもステップアップしながら通えます。最大12名のグループレッスンを主体とし、インストラクターが会員様を直接フォローしながら進めるため、初心者でも楽しくレッスンを続けられます。',
     access: '巣鴨駅徒歩5分',
     address: '東京都豊島区巣鴨3丁目17-20 シャンブル石山2F',
     popularPlan: {
       name: 'EFT4 MEMBERSHIP（月4回）',
-      description: '月4回通えるプラン。ライフバランスも考え、無理なく続けたい方に',
+      description: '月4回通えるプランです。ライフバランスも考え、無理なく続けたい方に',
       price: '月4回 13,090円（税表記なし）',
     },
     options: ['月8回 24,090円', '通い放題 37,290円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
@@ -86,7 +86,7 @@ const studios = [
     price: 'マンスリー4プランあり',
     trial: '体験会あり（要予約）',
     features: ['予約不要', '30分サーキット', '駅徒歩1分', 'マシン×TRX'],
-    description: 'マシンピラティスとファンクショナルトレーニング（TRX）を組み合わせた、サーキット形式のボディメイクスタジオ。巣鴨駅徒歩1分、アトレヴィ巣鴨4階の好立地。グループレッスンではなく一人ずつ違う動きを行うため、周りを気にする必要なく運動が久しぶりの方でも気軽に始められます。30分という短時間でも効率的にボディメイク可能。予約不要で通いやすい。',
+    description: 'マシンピラティスとファンクショナルトレーニング（TRX）を組み合わせた、サーキット形式のボディメイクスタジオです。巣鴨駅徒歩1分、アトレヴィ巣鴨4階の好立地です。グループレッスンではなく一人ずつ違う動きを行うため、周りを気にする必要なく運動が久しぶりの方でも気軽に始められます。30分という短時間でも効率的にボディメイク可能です。予約不要で通いやすいです。',
     access: 'JR線・都営三田線「巣鴨駅」徒歩1分',
     address: '東京都豊島区巣鴨1-16-8 アトレヴィ巣鴨 4F',
     popularPlan: {
@@ -116,7 +116,7 @@ const studios = [
     price: '月4回 37,200円〜（パーソナル）',
     trial: '体験レッスンあり',
     features: ['パーソナル専門', '90平米広々', 'バランスドボディ社製マシン', '地蔵通り商店街'],
-    description: '巣鴨地蔵通り商店街にあるマシンピラティス・パーソナル専門スタジオ。90平米の広々とした空間で、パーソナルレッスンによるマシンピラティスを行います。バランスドボディ社製の本格的なマシン（キャデラック、クリニカルリフォーマー、コンボチェアー、コアアラインなど）を使用。グループレッスンではなく、一人ひとりに合わせた丁寧な指導が受けられます。',
+    description: '巣鴨地蔵通り商店街にあるマシンピラティス・パーソナル専門スタジオです。90平米の広々とした空間で、パーソナルレッスンによるマシンピラティスを行います。バランスドボディ社製の本格的なマシン（キャデラック、クリニカルリフォーマー、コンボチェアー、コアアラインなど）を使用しています。グループレッスンではなく、一人ひとりに合わせた丁寧な指導が受けられます。',
     access: '巣鴨駅近、地蔵通り商店街',
     address: '東京都豊島区巣鴨（地蔵通り商店街、詳細住所は公式サイト参照）',
     popularPlan: {
@@ -146,12 +146,12 @@ const studios = [
     price: 'パーソナルレッスン（詳細は公式サイト参照）',
     trial: '体験レッスンあり',
     features: ['女性専用', '完全個室', 'パーソナル', 'オーダーメイド指導'],
-    description: '女性専用のパーソナルピラティススタジオ。完全個室のマンツーマンレッスンで、体力や骨格に合わせたオーダーメイドのピラティス指導を提供します。女性インストラクターが丁寧にサポートし、体の不調や姿勢改善を目指します。自分のペースでエクササイズを行える環境が整っており、リフレッシュ効果も高いスタジオです。',
+    description: '女性専用のパーソナルピラティススタジオです。完全個室のマンツーマンレッスンで、体力や骨格に合わせたオーダーメイドのピラティス指導を提供します。女性インストラクターが丁寧にサポートし、体の不調や姿勢改善を目指します。自分のペースでエクササイズを行える環境が整っており、リフレッシュ効果も高いスタジオです。',
     access: '巣鴨駅より徒歩圏内',
     address: '東京都豊島区巣鴨（詳細住所は公式サイト参照）',
     popularPlan: {
       name: 'パーソナルレッスン',
-      description: '完全個室マンツーマンレッスン。女性専用で安心',
+      description: '完全個室マンツーマンレッスンです。女性専用で安心',
       price: '詳細は公式サイト参照',
     },
     options: [
@@ -176,13 +176,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
-    features: ['男女共用', '少人数制', '池袋駅近', '全国150店舗相互利用'],
-    description: '全国展開の大手ピラティススタジオ。巣鴨から山手線で1駅の池袋駅近。マットグループ、マシン（リフォーマー）グループ、プライベートのレッスンがあり、男性もOK。医療機関も推奨している、大人の方にこそ受けてほしいzen placeのレッスンでいつまでもアクティブに人生を愉しめます。全国150店舗がすべて利用可能。',
+    features: ['男女共用', '少人数制', '池袋駅近', '全国150店舗他店利用'],
+    description: '全国展開の大手ピラティススタジオです。巣鴨から山手線で1駅の池袋駅近です。マットグループ、マシン（リフォーマー）グループ、プライベートのレッスンがあり、男性も可能です。医療機関も推奨している、大人の方にこそ受けてほしいzen placeのレッスンでいつまでもアクティブに人生を愉しめます。全国150店舗がすべて利用可能です。',
     access: '池袋駅より徒歩圏内（巣鴨からJR山手線で1駅）',
     address: '東京都豊島区南池袋2丁目27-8 南水ビル 8階',
     popularPlan: {
       name: 'マットグループ月4',
-      description: 'マットグループレッスン月4回。全国150店舗どこでも受講可能',
+      description: 'マットグループレッスン月4回です。全国150店舗どこでも受講可能',
       price: '10,450円/月（税込）',
     },
     options: [
@@ -210,7 +210,7 @@ const studios = [
     price: 'Full 22,280円/月、Standard4 15,280円/月',
     trial: '体験レッスン 無料（期間限定）',
     features: ['女性専用', '音楽×マシン', '池袋東口1分', 'PMA加盟団体監修'],
-    description: 'PMA加盟団体監修の本格マシンピラティススタジオ。巣鴨から山手線で1駅、池袋駅東口から徒歩1分の好立地。音楽に合わせて身体を動かす独自のレッスンスタイルで、運動経験を問わず楽しめます。駅チカのスタイリッシュなスタジオで、清潔感と上質な空間を体験できるのも魅力。女性専用で安心して通えます。',
+    description: 'PMA加盟団体監修の本格マシンピラティススタジオです。巣鴨から山手線で1駅、池袋駅東口から徒歩1分の好立地です。音楽に合わせて身体を動かす独自のレッスンスタイルで、運動経験を問わず楽しめます。駅チカのスタイリッシュなスタジオで、清潔感と上質な空間を体験できるのも魅力です。女性専用で安心して通えます。',
     access: '池袋駅東口41出口より徒歩1分（巣鴨からJR山手線で1駅）',
     address: '東京都豊島区南池袋1-23-6 KDG池袋ビル9階',
     popularPlan: {
@@ -242,7 +242,7 @@ const studios = [
     price: 'グループ月4回(Standard4) 14,370〜15,280円 / 通い放題 19,980〜22,280円（別途施設利用料月700円）/ パーソナル月2回 22,000円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'マシンピラティス専門', 'グループ＋パーソナル'],
-    description: '女性専用のマシンピラティス専門スタジオ。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴。巣鴨駅から徒歩1分（情報引用元: the SILK公式サイト the-silk.co.jp）。',
+    description: '女性専用のマシンピラティス専門スタジオです。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴です。巣鴨駅から徒歩1分です（情報引用元: the SILK公式サイト the-silk.co.jp）。',
     access: '巣鴨駅から徒歩1分',
     address: '東京都豊島区巣鴨1-14-3 藤ビル2階',
   },
@@ -254,7 +254,7 @@ const studios = [
     priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
     trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。巣鴨駅から徒歩5分。',
+    description: '女性専用のマシンピラティス専門スタジオです。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴です。巣鴨駅から徒歩5分です。',
     access: '巣鴨駅 徒歩5分',
     address: '〒170-0004 東京都豊島区北大塚１-２ ＭＡＮ巣鴨303',
     userProfile: {
@@ -274,43 +274,43 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！巣鴨エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。CLUB PILATESは4段階のレベル分け、ピラティスミラーは30分の短時間レッスンなど、未経験でも安心して始められますよ。',
+    answer: '問題ありません。巣鴨エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。CLUB PILATESは4段階のレベル分け、ピラティスミラーは30分の短時間レッスンなど、未経験でも安心して始められます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。巣鴨エリアではマシンピラティスを導入しているスタジオが多いです。',
+    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷を調整しやすく、初心者におすすめです。巣鴨エリアではマシンピラティスを導入しているスタジオが多いです。',
   },
   {
     question: '巣鴨のピラティススタジオの料金相場は？',
-    answer: '巣鴨エリアのピラティススタジオの料金相場は、グループレッスンで月4回11,000円〜15,000円程度。パーソナルレッスンは月4回37,200円〜が目安です。ピラティスミラーは月6回11,000円とリーズナブル。体験レッスンは無料〜2,200円で受けられます。',
+    answer: '巣鴨エリアのピラティススタジオの料金相場は、グループレッスンで月4回11,000円〜15,000円程度です。パーソナルレッスンは月4回37,200円〜が目安です。ピラティスミラーは月6回11,000円とリーズナブルです。体験レッスンは無料〜2,200円で受けられます。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: 'ピラティス初心者は週1-2回（月4-8回）がおすすめ。慣れてきたら週2-3回に増やすと効果を実感しやすくなります。大切なのは継続すること。無理のないペースで長く続けることが、理想の身体を手に入れる近道です。',
+    answer: 'ピラティス初心者は週1〜2回（月4〜8回）がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。大切なのは継続することです。無理のないペースで長く続けることが、目標達成への近道です。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、ピラティスはダイエット効果があります。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に。ただし即効性はないので、最低でも2-3ヶ月は継続することが大切。食事管理も並行するとより効果的です。',
+    answer: 'ピラティスにはダイエット効果が期待できます。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。ただし即効性はないので、最低でも2〜3ヶ月は継続することが大切です。食事管理を並行すると、より効果的です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。ピラティスミラーは荷物・着替え不要で手ぶらOK。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内で確認してくださいね。',
+    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。ピラティスミラーは荷物・着替え不要で手ぶらで参加可能です。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内でご確認ください。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。ピラティスは筋力強化、ヨガは心身のバランスを整えることが主な目的。どちらも素晴らしいエクササイズなので、目的に合わせて選びましょう。',
+    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズです。ヨガは柔軟性と精神的なリラックスを重視します。ピラティスは筋力強化、ヨガは心身のバランスを整えることが主な目的です。目的に合わせてお選びください。',
   },
   {
     question: 'ピラティスで肩こりや腰痛は改善しますか？',
-    answer: 'はい、改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。巣鴨エリアにはパーソナル専門のスタジオもあり、一人ひとりの症状に合わせた指導を受けられます。',
+    answer: '改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。巣鴨エリアにはパーソナル専門のスタジオもあり、一人ひとりの症状に合わせた指導を受けられます。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: 'ピラティスで効果が表れだすのは「2ヶ月を過ぎた頃」から。これは人間の細胞が生まれ変わるサイクルがそのくらいだからです。すぐに変化が表れなくても心配せず、最低でも2ヶ月は継続するのがおすすめです。',
+    answer: 'ピラティスの効果を実感し始めるのは、2ヶ月を過ぎた頃が目安とされています。すぐに変化が表れなくても、最低2ヶ月は継続することをおすすめします。',
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'それぞれ良さがあります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方におすすめ。グループは料金が安く、仲間と楽しく続けられるのが魅力。巣鴨にはパーソナル専門スタジオも複数あるので、まずは体験で両方試してみるのがいいですよ。',
+    answer: 'それぞれに利点があります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方におすすめです。グループは料金を抑えやすく、ほかの参加者と一緒に続けられる点が利点です。巣鴨にはパーソナル専門スタジオも複数あるので、まずは体験レッスンで両方を試すことをおすすめします。',
   },
 ]
 
@@ -350,8 +350,8 @@ export default function SugamoAreaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス巣鴨おすすめ9選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス巣鴨おすすめ9選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -374,29 +374,11 @@ export default function SugamoAreaPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「巣鴨で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、JR山手線・都営三田線巣鴨駅周辺（豊島区）でおすすめのピラティススタジオ9選をまとめました。「おばあちゃんの原宿」として親しまれる巣鴨地蔵通り商店街のある落ち着いたエリアで、駅徒歩1分〜5分の好立地スタジオが揃っています。
+              本ページでは、JR山手線・都営三田線巣鴨駅周辺（豊島区）でおすすめのピラティススタジオ9選をまとめました。「おばあちゃんの原宿」として親しまれる巣鴨地蔵通り商店街のある落ち着いたエリアで、駅徒歩1分〜5分の好立地スタジオが揃っています。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -421,7 +403,7 @@ export default function SugamoAreaPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -490,25 +472,25 @@ export default function SugamoAreaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">JR山手線「JR山手線、都営三田線・巣鴨駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  巣鴨エリアのスタジオはJR山手線、都営三田線・巣鴨駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。JR山手線、都営三田線・巣鴨駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  巣鴨エリアのスタジオはJR山手線、都営三田線・巣鴨駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。JR山手線、都営三田線・巣鴨駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">繁華街ならではの予約混雑に注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  巣鴨は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることも。アプリやWebで空き状況をこまめにチェックし、キャンセル待ち機能があるスタジオでは積極的に活用しましょう。
+                  巣鴨は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることもあります。アプリやWebで空き状況をこまめに確認し、キャンセル待ち機能があるスタジオでは積極的にご活用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  巣鴨エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ず確認しましょう。月の途中入会は日割り計算になるかも要チェックです。
+                  巣鴨エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ずご確認ください。月の途中入会は日割り計算になるかもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  巣鴨エリアだけでなく、近隣の<Link href="/area/ikebukuro/" className="text-warm-700 underline hover:text-warm-900">池袋</Link>、<Link href="/area/otsuka/" className="text-warm-700 underline hover:text-warm-900">大塚</Link>、<Link href="/area/korakuen/" className="text-warm-700 underline hover:text-warm-900">後楽園</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  巣鴨エリアだけでなく、近隣の<Link href="/area/ikebukuro/" className="text-warm-700 underline hover:text-warm-900">池袋</Link>、<Link href="/area/otsuka/" className="text-warm-700 underline hover:text-warm-900">大塚</Link>、<Link href="/area/korakuen/" className="text-warm-700 underline hover:text-warm-900">後楽園</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -526,25 +508,25 @@ export default function SugamoAreaPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>巣鴨エリアの豆知識：</strong>巣鴨は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
+                  <strong>巣鴨エリアの豆知識：</strong>巣鴨は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心です。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
                 </p>
               </div>
             </div>
@@ -562,7 +544,7 @@ export default function SugamoAreaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額15,000円以下で通えるスタジオ。体験レッスン無料のスタジオもあり、コスパ重視の方におすすめ。
+                  月額15,000円以下で通えるスタジオです。体験レッスン無料のスタジオもあり、費用を抑えたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスミラー 巣鴨（月6回 11,000円）</li>
@@ -573,7 +555,7 @@ export default function SugamoAreaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性だけの安心空間。周りを気にせずトレーニングに集中したい方におすすめ。
+                  女性だけの安心空間です。周りを気にせずトレーニングに集中したい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスミラー 巣鴨</li>
@@ -584,7 +566,7 @@ export default function SugamoAreaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・好アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  巣鴨駅から徒歩5分以内。JR山手線・都営三田線利用で、仕事帰りや休日にも通いやすい。
+                  巣鴨駅から徒歩5分以内です。JR山手線・都営三田線利用で、仕事帰りや休日にも通いやすいです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• URBAN CLASSIC PILATES 巣鴨（駅徒歩1分）</li>
@@ -605,15 +587,15 @@ export default function SugamoAreaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回（月4-8回）からスタートするのがおすすめ。まずは身体を慣らすことが大切です。継続期間は最低でも2-3ヶ月。この期間で効果を実感できる方が多いですよ。
+                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感できる方が多いです。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回（月8-12回）がおすすめ。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3-6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。
+                週2〜3回（月8〜12回）がおすすめです。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3〜6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理が目的の方</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回（月4回）のペースで継続するのがおすすめ。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切。自分のペースで楽しく通えるのが一番ですよ。
+                週1回（月4回）のペースで継続するのがおすすめです。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切です。無理のないペースで通うことが大切です。
               </p>
             </div>
           </div>
@@ -630,7 +612,7 @@ export default function SugamoAreaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜15,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4〜6回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。手軽に始めたい方向け。
+                  グループレッスンが中心です。手軽に始めたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスミラー（月6回 11,000円）</li>
@@ -643,7 +625,7 @@ export default function SugamoAreaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 15,000〜25,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン完備の大手スタジオ。グループ・プライベート選択可。
+                  マシン完備の大手スタジオです。グループ・プライベート選択可能です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• the SILK 池袋東口（15,280円〜）</li>
@@ -655,7 +637,7 @@ export default function SugamoAreaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 30,000円〜</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  完全パーソナルレッスン。短期集中で結果を出したい方向け。
+                  完全パーソナルレッスンです。短期集中で成果を目指したい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティススタジオゼロ（37,200円〜）</li>
@@ -679,7 +661,7 @@ export default function SugamoAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  まずは自分がピラティスで何を達成したいのかを明確にしましょう。ダイエット、姿勢改善、体幹強化、リラックスなど、目的によって最適なスタジオやプログラムは変わります。目的が明確だとスタジオ選びもスムーズになりますよ。
+                  まずは自分がピラティスで何を達成したいのかを明確にすることをおすすめします。ダイエット、姿勢改善、体幹強化、リラックスなど、目的によって最適なスタジオやプログラムは変わります。目的を明確にしておくと、スタジオを選びやすくなります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -688,7 +670,7 @@ export default function SugamoAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  巣鴨エリアの料金相場はグループで月4回11,000円〜15,000円程度、パーソナルは月4回37,200円〜。無理なく継続できる予算を決めましょう。料金だけでなく、入会金、マット・ウェアのレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  巣鴨エリアの料金相場はグループで月4回11,000円〜15,000円程度、パーソナルは月4回37,200円〜です。無理なく継続できる予算を決めることをおすすめします。料金だけでなく、入会金やマット・ウェアのレンタル料などもご確認ください。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -697,7 +679,7 @@ export default function SugamoAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。CLUB PILATESは無料体験、ピラティスミラーは2,200円で体験レッスンを提供しているので、気軽に試してみてくださいね。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。CLUB PILATESは無料体験、ピラティスミラーは2,200円で体験レッスンを提供しているので、体験レッスンをご利用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -706,7 +688,7 @@ export default function SugamoAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  どんなに良いスタジオでも、通いにくい場所にあると続きません。巣鴨はJR山手線と都営三田線の2路線が利用でき、豊島区の落ち着いたエリアです。駅から近いスタジオを選ぶと、仕事帰りや休日のお出かけついでにも通えて便利ですよ。巣鴨地蔵通り商店街も近く、レッスン後の散策も楽しめます。
+                  通いにくい場所にあるスタジオは、継続が難しくなります。巣鴨はJR山手線と都営三田線の2路線が利用でき、豊島区の落ち着いたエリアです。駅から近いスタジオを選ぶと、仕事帰りや休日のお出かけついでにも通えて便利です。巣鴨地蔵通り商店街も近く、レッスン後の散策も楽しめます。
                 </p>
               </div>
             </div>
@@ -749,13 +731,13 @@ export default function SugamoAreaPage() {
               今回は巣鴨のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では巣鴨に数多くあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、巣鴨に数多くあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -764,11 +746,11 @@ export default function SugamoAreaPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜2,200円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜2,200円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/musashikosugi/' },
-  title: '【2026年10月最新】武蔵小杉のピラティス｜初心者OK・無料体験で選ぶ料金比較',
-  description: '武蔵小杉エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  title: '【2026年10月最新】武蔵小杉のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  description: '武蔵小杉エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,武蔵小杉,川崎市,神奈川,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place pilates,CLUB PILATES,STUDIO IVY,Lucio',
 }
 
@@ -26,20 +26,20 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
-    features: ['駅徒歩1分', '全国150店舗相互利用', '男性OK', 'マット&マシン対応'],
-    description: '全国150店舗以上を展開するzen place pilatesの武蔵小杉店。JR武蔵小杉駅北口から徒歩1分の好立地。マットピラティスとマシンピラティスの両方に対応し、グループレッスンからプライベートレッスンまで幅広く提供。月4回10,450円〜のリーズナブルな料金設定で、全国の系列店を相互利用できるのも大きな魅力。男性も利用可能です。',
+    features: ['駅徒歩1分', '全国150店舗他店利用', '男性利用可', 'マット&マシン対応'],
+    description: '全国150店舗以上を展開するzen place pilatesの武蔵小杉店です。JR武蔵小杉駅北口から徒歩1分の好立地です。マットピラティスとマシンピラティスの両方に対応し、グループレッスンからプライベートレッスンまで幅広く提供しています。月4回10,450円〜のリーズナブルな料金設定で、全国の系列店を他店利用できるのも大きな魅力です。男性も利用可能です。',
     access: 'JR武蔵小杉駅北口徒歩1分',
     address: '神奈川県川崎市中原区小杉町1丁目403-9 武蔵小杉STMビル 7階',
     popularPlan: {
       name: 'グループレッスン月4回プラン',
-      description: 'マット・マシン対応のグループレッスン。全国150店舗相互利用可能。',
+      description: 'マット・マシン対応のグループレッスンです。全国150店舗他店利用可能です。',
       price: '月4回 10,450円〜（税込）',
     },
     options: [
       'グループレッスン（月4回 10,450円〜）',
       'プライベートレッスンあり',
       'グループ体験 1,000円',
-      '全国150店舗相互利用可能',
+      '全国150店舗他店利用可能',
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
@@ -58,13 +58,13 @@ const studios = [
     image: '/images/studios/club-pilates.webp',
     price: '月4回 14,190円／月8回 26,290円／通い放題 40,590円（公式店舗ページ・税表記なし）',
     trial: '体験レッスン 0円（30分）',
-    features: ['世界最大級チェーン', '15種類の器具', '男性OK', '体験0円'],
-    description: '世界最大級のマシンピラティスブランド「CLUB PILATES」の武蔵小杉店。最大12名の少人数グループレッスンで、リフォーマー・スプリングボード・TRX・チェアなど15種類の器具を完備。8つのプログラムと4段階のレベル分けで、初心者から上級者まで対応。インストラクター全員が500時間以上の研修を受けた有資格者で、質の高い指導を受けられます。体験レッスンは0円で気軽にお試し可能。',
+    features: ['世界最大級チェーン', '15種類の器具', '男性利用可', '体験0円'],
+    description: '世界最大級のマシンピラティスブランド「CLUB PILATES」の武蔵小杉店です。最大12名の少人数グループレッスンで、リフォーマー・スプリングボード・TRX・チェアなど15種類の器具を完備しています。8つのプログラムと4段階のレベル分けで、初心者から上級者まで対応しています。インストラクター全員が500時間以上の研修を受けた有資格者で、質の高い指導を受けられます。体験レッスンは0円で気軽にお試し可能です。',
     access: 'JR武蔵小杉駅周辺',
     address: '神奈川県川崎市中原区武蔵小杉エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'グループレッスン',
-      description: '最大12名の少人数制。15種類の器具を使った本格グループレッスン。4段階のレベル分けで初心者も安心。',
+      description: '最大12名の少人数制です。15種類の器具を使った本格グループレッスンです。4段階のレベル分けで初心者も安心です。',
       price: '月4回 14,190円（税表記なし）',
     },
     options: ['月8回 26,290円', '通い放題 40,590円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
@@ -85,12 +85,12 @@ const studios = [
     price: '月2回 15,000円〜',
     trial: '体験レッスン 4,500円',
     features: ['完全パーソナル', 'オーダーメイド', '完全プライベート空間', '月2回〜'],
-    description: '完全パーソナルのマシンピラティススタジオ「STUDIO IVY」武蔵小杉店。完全プライベート空間で、一人ひとりの体の状態や目標に合わせたオーダーメイドのレッスンを提供。月2回15,000円〜で本格的なパーソナルピラティスが受けられます。体験レッスンは4,500円で、カウンセリング付きの充実した内容。結果にこだわりたい方におすすめ。',
+    description: '完全パーソナルのマシンピラティススタジオ「STUDIO IVY」武蔵小杉店です。完全プライベート空間で、一人ひとりの体の状態や目標に合わせたオーダーメイドのレッスンを提供しています。月2回15,000円〜で本格的なパーソナルピラティスが受けられます。体験レッスンは4,500円で、カウンセリング付きの充実した内容です。結果にこだわりたい方におすすめです。',
     access: 'JR武蔵小杉駅周辺',
     address: '神奈川県川崎市中原区武蔵小杉エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'パーソナルレッスン月2回プラン',
-      description: '完全プライベート空間でのオーダーメイドマシンピラティス。',
+      description: '完全プライベート空間でのオーダーメイドマシンピラティスです。',
       price: '月2回 15,000円〜（税込）',
     },
     options: [
@@ -116,12 +116,12 @@ const studios = [
     price: '公式サイトでご確認ください',
     trial: '体験レッスンあり',
     features: ['パーソナルマシンピラティス', 'ジム併設', '駅近', '施設がきれい'],
-    description: 'パーソナルマシンピラティスとジムが一体になった「Lucio」武蔵小杉店。駅近の好立地で、きれいな施設環境が魅力。スケジュールも柔軟に対応してくれるため、忙しい方でも無理なく通えます。ピラティスとジムトレーニングを組み合わせた総合的なボディメイクが可能。',
+    description: 'パーソナルマシンピラティスとジムが一体になった「Lucio」武蔵小杉店です。駅近の好立地で、きれいな施設環境が魅力です。スケジュールも柔軟に対応してくれるため、忙しい方でも無理なく通えます。ピラティスとジムトレーニングを組み合わせた総合的なボディメイクが可能です。',
     access: 'JR武蔵小杉駅周辺',
     address: '神奈川県川崎市中原区武蔵小杉エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'パーソナルマシンピラティス',
-      description: 'マシンピラティスとジムを組み合わせた総合ボディメイク。',
+      description: 'マシンピラティスとジムを組み合わせた総合ボディメイクです。',
       price: '公式サイトでご確認ください',
     },
     options: [
@@ -146,27 +146,27 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！武蔵小杉エリアのスタジオはほとんどが初心者歓迎です。CLUB PILATESは4段階のレベル分けで初心者専用クラスあり、zen place pilatesも初心者向けクラスが充実。STUDIO IVYは完全パーソナルなので自分のペースで進められます。',
+    answer: '問題ありません。武蔵小杉エリアのスタジオはほとんどが初心者歓迎です。CLUB PILATESは4段階のレベル分けで初心者専用クラスあり、zen place pilatesも初心者向けクラスが充実しています。STUDIO IVYは完全パーソナルなので自分のペースで進められます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズ、マシンピラティスはリフォーマーなどの専用マシンを使用します。マシンはバネの力で負荷を調整できるため初心者にもおすすめ。武蔵小杉エリアの5スタジオはすべてマシンピラティスに対応しています。',
+    answer: 'マットピラティスは自重を使ったエクササイズ、マシンピラティスはリフォーマーなどの専用マシンを使用します。マシンはバネの力で負荷を調整できるため初心者にもおすすめです。武蔵小杉エリアの5スタジオはすべてマシンピラティスに対応しています。',
   },
   {
     question: '武蔵小杉のピラティスの料金相場は？',
-    answer: 'zen place pilatesは月4回10,450円〜、CLUB PILATESは月4回 14,190円、STUDIO IVYはパーソナルで月2回15,000円〜。目的と頻度に合わせて選びましょう。',
+    answer: 'zen place pilatesは月4回10,450円〜、CLUB PILATESは月4回 14,190円、STUDIO IVYはパーソナルで月2回15,000円〜です。目的と頻度に合わせてお選びください。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。大切なのは無理なく継続すること。最低2〜3ヶ月続けましょう。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。大切なのは無理なく継続することです。最低2〜3ヶ月続けることをおすすめします。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に変わっていきます。Lucioではジムトレーニングも併用できるため、より効率的なダイエットが可能。2〜3ヶ月の継続で効果を実感する方が多いです。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。Lucioではジムトレーニングも併用できるため、より効率的なダイエットが可能です。2〜3ヶ月の継続で効果を実感する方が多いです。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOKです。CLUB PILATESは体験0円（30分）。zen place pilatesはグループ体験1,000円、STUDIO IVYは体験4,500円で本格的な内容を体験できます。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。CLUB PILATESは体験0円です（30分）。zen place pilatesはグループ体験1,000円、STUDIO IVYは体験4,500円で本格的な内容を体験できます。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
@@ -194,9 +194,9 @@ export default function MusashikosugiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス武蔵小杉おすすめ4選！
+              【2026最新】ピラティス武蔵小杉おすすめ4選
               <br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -219,20 +219,14 @@ export default function MusashikosugiPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p>
-            <p className="text-warm-600 leading-relaxed mb-6">Pilates-Biyori編集部です！</p>
-            <p className="text-warm-600 leading-relaxed mb-6">あなたは、</p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p>
-            <p className="text-warm-600 leading-relaxed mb-6">「武蔵小杉で人気のピラティススタジオを知りたい」</p>
-            <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              武蔵小杉はJR南武線・横須賀線・湘南新宿ライン、東急東横線・目黒線が乗り入れるターミナル駅で、渋谷まで約15分、品川まで約10分という好アクセスのエリア。タワーマンションが立ち並ぶ人気の住宅地です。そんな武蔵小杉エリアには、大手チェーンのグループレッスンから完全パーソナルまで、多彩なピラティススタジオが揃っています。
+              武蔵小杉はJR南武線・横須賀線・湘南新宿ライン、東急東横線・目黒線が乗り入れるターミナル駅で、渋谷まで約15分、品川まで約10分という好アクセスのエリアです。タワーマンションが立ち並ぶ人気の住宅地です。そんな武蔵小杉エリアには、大手チェーンのグループレッスンから完全パーソナルまで、多彩なピラティススタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、武蔵小杉エリアでおすすめの実在するピラティススタジオ4選をまとめました。
+              本ページでは、武蔵小杉エリアでおすすめの実在するピラティススタジオ4選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -244,7 +238,7 @@ export default function MusashikosugiPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
-                  <span>コスパの良いスタジオを知りたい</span>
+                  <span>料金を抑えられるスタジオを知りたい</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -256,7 +250,7 @@ export default function MusashikosugiPage() {
                 </li>
               </ul>
             </div>
-            <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
+            <p className="text-warm-600 leading-relaxed">以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。</p>
           </div>
         </section>
 
@@ -308,7 +302,7 @@ export default function MusashikosugiPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              武蔵小杉は住宅地としての人気が高く、地元在住の方が徒歩や自転車で通えるスタジオが充実しています。繁華街ほど料金は高くなく、かつ都心へのアクセスも良いバランスの取れたエリアです。平日昼間のクラスは比較的空いていて狙い目です。近隣の川崎エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
+              武蔵小杉は住宅地としての人気が高く、地元在住の方が徒歩や自転車で通えるスタジオが充実しています。繁華街ほど料金は高くなく、かつ都心へのアクセスも良いバランスの取れたエリアです。平日昼間のクラスは比較的空いている傾向があります。近隣の川崎エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
             </p>
           </div>
         </section>
@@ -323,25 +317,25 @@ export default function MusashikosugiPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">JR武蔵小杉駅からのルートは事前に確認を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  武蔵小杉エリアのスタジオはJR武蔵小杉駅周辺が中心です。駅の出口によってスタジオまでの距離が変わることがあるため、初めて訪れる際はGoogleマップで経路を確認し、余裕を持って到着できるようにしましょう。
+                  武蔵小杉エリアのスタジオはJR武蔵小杉駅周辺が中心です。駅の出口によってスタジオまでの距離が変わることがあるため、初めて訪れる際はGoogleマップで経路を確認し、余裕を持って到着できるようにすることをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">住宅地ならではの予約の特徴を把握</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  武蔵小杉は住宅地のため、主婦・ママ層が多い平日午前中と、仕事帰りの平日夜が予約のピークタイムです。土日は意外と空いているスタジオも多いので、狙い目の時間帯を見つけておくと通いやすくなります。子連れOKのクラスがあるスタジオもあるので、お子さまがいる方は確認してみましょう。
+                  武蔵小杉は住宅地のため、主婦・ママ層が多い平日午前中と、仕事帰りの平日夜が予約のピークタイムです。土日は意外と空いているスタジオも多いので、比較的空いている時間帯を把握しておくと通いやすくなります。子連れ可のクラスがあるスタジオもあるので、お子さまがいる方はご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">料金プランの種類と契約条件をしっかり比較</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  武蔵小杉エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかを確認しましょう。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため要チェックです。
+                  武蔵小杉エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかをご確認ください。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため、事前にご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  武蔵小杉エリアだけでなく、近隣の<Link href="/area/kawasaki/" className="text-warm-700 underline hover:text-warm-900">川崎</Link>、<Link href="/area/futakotamagawa/" className="text-warm-700 underline hover:text-warm-900">二子玉川</Link>、<Link href="/area/yokohama/" className="text-warm-700 underline hover:text-warm-900">横浜</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  武蔵小杉エリアだけでなく、近隣の<Link href="/area/kawasaki/" className="text-warm-700 underline hover:text-warm-900">川崎</Link>、<Link href="/area/futakotamagawa/" className="text-warm-700 underline hover:text-warm-900">二子玉川</Link>、<Link href="/area/yokohama/" className="text-warm-700 underline hover:text-warm-900">横浜</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -359,25 +353,25 @@ export default function MusashikosugiPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>武蔵小杉エリアの豆知識：</strong>武蔵小杉は地元の方が徒歩や自転車で通うケースが多いエリアです。自転車の方はスタジオ近くの駐輪スペースの有無を確認しておきましょう。近場なら荷物も最小限で済むので、気軽に続けやすいのが武蔵小杉の良さです。
+                  <strong>武蔵小杉エリアの豆知識：</strong>武蔵小杉は地元の方が徒歩や自転車で通うケースが多いエリアです。自転車の方はスタジオ近くの駐輪スペースの有無をご確認ください。近場なら荷物も最小限で済むので、気軽に続けやすいのが武蔵小杉の良さです。
                 </p>
               </div>
             </div>
@@ -391,8 +385,8 @@ export default function MusashikosugiPage() {
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">目的別おすすめスタジオ</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
-                <p className="text-warm-600 text-sm mb-4">月4回10,450円〜のスタジオも。</p>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
+                <p className="text-warm-600 text-sm mb-4">月4回10,450円〜のスタジオもあります。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
                   <li className="text-warm-700">• CLUB PILATES（月4回 14,190円）</li>
@@ -400,7 +394,7 @@ export default function MusashikosugiPage() {
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
-                <p className="text-warm-600 text-sm mb-4">マンツーマンで丁寧な指導。</p>
+                <p className="text-warm-600 text-sm mb-4">マンツーマンで丁寧な指導です。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• STUDIO IVY（完全パーソナル）</li>
                   <li className="text-warm-700">• Lucio（パーソナルマシンピラティス&ジム）</li>
@@ -408,7 +402,7 @@ export default function MusashikosugiPage() {
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">ライフスタイル重視</h3>
-                <p className="text-warm-600 text-sm mb-4">駅近や体験0円のスタジオも。</p>
+                <p className="text-warm-600 text-sm mb-4">駅近や体験0円のスタジオもあります。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（駅徒歩1分・150店舗相互利用）</li>
                   <li className="text-warm-700">• CLUB PILATES（体験0円）</li>
@@ -425,15 +419,15 @@ export default function MusashikosugiPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1〜2回からスタートするのがおすすめ。最低2〜3ヶ月継続することで効果を実感できます。CLUB PILATESは4段階のレベル分けがあり、初心者専用クラスから始められます。
+                週1〜2回からスタートするのがおすすめです。最低2〜3ヶ月継続することで効果を実感できます。CLUB PILATESは4段階のレベル分けがあり、初心者専用クラスから始められます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2〜3回がおすすめ。3〜6ヶ月で目に見える変化を実感できます。STUDIO IVYの完全パーソナルなら、目標に合わせたオーダーメイドプログラムで効率的にボディメイクが可能。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化を実感できます。STUDIO IVYの完全パーソナルなら、目標に合わせたオーダーメイドプログラムで効率的にボディメイクが可能です。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。zen place pilatesは全国150店舗が相互利用できるので、出張先でもレッスンを受けられて継続しやすい環境です。
+                週1回のペースで無理なく継続することをおすすめします。zen place pilatesは全国150店舗が他店利用できるので、出張先でもレッスンを受けられて継続しやすい環境です。
               </p>
             </div>
           </div>
@@ -447,7 +441,7 @@ export default function MusashikosugiPage() {
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜13,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">手軽に始めたい方に。</p>
+                <p className="text-sm text-warm-600 mb-4">手軽に始めたい方に適しています。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates（10,450円/月4回〜）</li>
                 </ul>
@@ -456,7 +450,7 @@ export default function MusashikosugiPage() {
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜15,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月2〜4回</p>
-                <p className="text-sm text-warm-600 mb-4">週1回ペースで着実に成果。</p>
+                <p className="text-sm text-warm-600 mb-4">週1回ペースで着実に成果です。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• CLUB PILATES（月4回 14,190円）</li>
                   <li>• STUDIO IVY（15,000円/月2回〜）</li>
@@ -465,7 +459,7 @@ export default function MusashikosugiPage() {
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 15,000円〜/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">パーソナル</p>
-                <p className="text-sm text-warm-600 mb-4">本気でボディメイクしたい方に。</p>
+                <p className="text-sm text-warm-600 mb-4">本気でボディメイクしたい方におすすめです。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• STUDIO IVY（完全パーソナル）</li>
                   <li>• Lucio（パーソナル＋ジム）</li>
@@ -486,7 +480,7 @@ export default function MusashikosugiPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ダイエット、姿勢改善、体幹強化など、目的によって最適なスタジオは変わります。総合的なボディメイクならLucio、オーダーメイドの指導ならSTUDIO IVY、コスパ重視ならzen place pilatesがおすすめ。
+                  ダイエット、姿勢改善、体幹強化など、目的によって最適なスタジオは変わります。総合的なボディメイクならLucio、オーダーメイドの指導ならSTUDIO IVY、料金重視ならzen place pilatesがおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -495,7 +489,7 @@ export default function MusashikosugiPage() {
                   <h3 className="text-xl font-bold text-warm-900">レッスン形式を選ぶ</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  武蔵小杉エリアはグループ（zen place pilates、CLUB PILATES）、完全パーソナル（STUDIO IVY、Lucio）と多彩な形式が揃っています。自分の好みや予算に合わせて選びましょう。
+                  武蔵小杉エリアはグループ（zen place pilates、CLUB PILATES）、完全パーソナル（STUDIO IVY、Lucio）と多彩な形式が揃っています。自分の好みや予算に合わせてお選びください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -504,7 +498,7 @@ export default function MusashikosugiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  CLUB PILATESは体験0円（30分）。zen place pilatesはグループ体験1,000円。まずは気軽に体験して、雰囲気やインストラクターとの相性を確認しましょう。
+                  CLUB PILATESは体験0円です（30分）。zen place pilatesはグループ体験1,000円です。まずは気軽に体験して、雰囲気やインストラクターとの相性をご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -513,7 +507,7 @@ export default function MusashikosugiPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  武蔵小杉はJR・東急の複数路線が利用可能で、渋谷・品川方面からのアクセスも抜群。zen place pilatesは駅徒歩1分です。
+                  武蔵小杉はJR・東急の複数路線が利用可能で、渋谷・品川方面からのアクセスも抜群です。zen place pilatesは駅徒歩1分です。
                 </p>
               </div>
             </div>
@@ -550,22 +544,22 @@ export default function MusashikosugiPage() {
               今回は武蔵小杉エリアのおすすめピラティススタジオ4選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              武蔵小杉はJR・東急の複数路線が利用可能で、渋谷・品川方面からのアクセスも抜群の人気エリア。駅徒歩1分のzen place pilates（月4回10,450円〜・150店舗相互利用）、世界最大級チェーンのCLUB PILATES（体験0円・15種類の器具）、完全パーソナルのSTUDIO IVY（月2回15,000円〜）、ジム併設のLucio（駅近・スケジュール柔軟対応）と、それぞれ特徴の異なるスタジオが揃っています。
+              武蔵小杉はJR・東急の複数路線が利用可能で、渋谷・品川方面からのアクセスも抜群の人気エリアです。駅徒歩1分のzen place pilates（月4回10,450円〜・150店舗他店利用）、世界最大級チェーンのCLUB PILATES（体験0円・15種類の器具）、完全パーソナルのSTUDIO IVY（月2回15,000円〜）、ジム併設のLucio（駅近・スケジュール柔軟対応）と、それぞれ特徴の異なるスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              まずは無料体験ができるCLUB PILATESから試してみるのがおすすめです。ぜひこの記事を参考に、自分に合うピラティススタジオを見つけてくださいね。
+              まずは無料体験ができるCLUB PILATESから試してみるのがおすすめです。本ページの情報を、スタジオ選びにお役立てください。
             </p>
-            <p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p>
+            <p className="text-warm-700 font-medium text-center">本ページが、ピラティススタジオ選びの参考になれば幸いです。</p>
           </div>
         </section>
 
         {/* CTA */}
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンのご予約</h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              CLUB PILATESは体験0円。<br />
-              まずは気軽に体験してみましょう。
+              CLUB PILATESは体験0円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

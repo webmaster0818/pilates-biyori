@@ -85,11 +85,11 @@ export default function StudioConsultant({ initialAreaKey }: { initialAreaKey?: 
     init
       ? {
           who: 'ai',
-          text: `こんにちは！${init.name}エリアのスタジオ選びをお手伝いします。ピラティスで特に叶えたいことはありますか？（複数選べます。なければ「特にこだわらない」へ）`,
+          text: `${init.name}エリアのスタジオ選びをお手伝いします。ピラティスで特に重視したい目的をお選びください（複数選択できます。特にない場合は「特にこだわらない」をお選びください）。`,
         }
       : {
           who: 'ai',
-          text: 'こんにちは！ピラティススタジオ選びをお手伝いします。いくつか質問するだけで、あなたに合いそうなスタジオをご提案します。まず、お探しのエリアはどの地方ですか？',
+          text: 'ピラティススタジオ選びをお手伝いします。いくつかの質問にお答えいただくと、条件に合うスタジオをご提案します。まず、お探しのエリアの地方をお選びください。',
         },
   ])
   const [region, setRegion] = useState<string | null>(init?.region ?? null)
@@ -174,7 +174,7 @@ export default function StudioConsultant({ initialAreaKey }: { initialAreaKey?: 
     setRegion(r)
     setPrefecture(p)
     say({ who: 'user', text: `現在地から：${p}` })
-    say({ who: 'ai', text: `${p}ですね。お探しのエリアはどこですか？` })
+    say({ who: 'ai', text: `${p}を選択しました。お探しのエリアをお選びください。` })
     setStep('area')
   }
   function jumpToArea(r: string, p: string, key: string, name: string) {
@@ -186,7 +186,7 @@ export default function StudioConsultant({ initialAreaKey }: { initialAreaKey?: 
     say({ who: 'user', text: `現在地に近い：${name}（${p}）` })
     say({
       who: 'ai',
-      text: `${name}ですね！ピラティスで特に叶えたいことはありますか？（複数選べます。なければ「特にこだわらない」へ）`,
+      text: `${name}を選択しました。ピラティスで特に重視したい目的をお選びください（複数選択できます。特にない場合は「特にこだわらない」をお選びください）。`,
     })
     setStep('goals')
   }
@@ -208,14 +208,14 @@ export default function StudioConsultant({ initialAreaKey }: { initialAreaKey?: 
     pushHistory()
     setRegion(r)
     say({ who: 'user', text: r })
-    say({ who: 'ai', text: `${r}ですね。都道府県をえらんでください。` })
+    say({ who: 'ai', text: `${r}を選択しました。都道府県をお選びください。` })
     setStep('prefecture')
   }
   function pickPrefecture(p: string) {
     pushHistory()
     setPrefecture(p)
     say({ who: 'user', text: p })
-    say({ who: 'ai', text: `${p}の中で、お探しのエリアはどこですか？` })
+    say({ who: 'ai', text: `${p}の中で、お探しのエリアをお選びください。` })
     setStep('area')
   }
   function pickArea(key: string, name: string) {
@@ -225,7 +225,7 @@ export default function StudioConsultant({ initialAreaKey }: { initialAreaKey?: 
     say({ who: 'user', text: name })
     say({
       who: 'ai',
-      text: 'ありがとうございます。ピラティスで特に叶えたいことはありますか？（複数選べます。なければ「特にこだわらない」へ）',
+      text: 'ありがとうございます。ピラティスで特に重視したい目的をお選びください（複数選択できます。特にない場合は「特にこだわらない」をお選びください）。',
     })
     setStep('goals')
   }
@@ -233,7 +233,7 @@ export default function StudioConsultant({ initialAreaKey }: { initialAreaKey?: 
   function changeArea() {
     pushHistory()
     say({ who: 'user', text: '別のエリアで探したい' })
-    say({ who: 'ai', text: 'かしこまりました。お探しのエリアはどの地方ですか？' })
+    say({ who: 'ai', text: 'かしこまりました。お探しのエリアの地方をお選びください。' })
     setAns((a) => ({ ...a, areaKey: undefined }))
     setStep('region')
   }
@@ -247,21 +247,21 @@ export default function StudioConsultant({ initialAreaKey }: { initialAreaKey?: 
     pushHistory()
     const labels = (ans.goals || []).map((id) => GOALS.find((g) => g.id === id)?.label).filter(Boolean)
     say({ who: 'user', text: labels.length ? labels.join('・') : '特にこだわらない' })
-    say({ who: 'ai', text: 'レッスンのタイプの希望はありますか？' })
+    say({ who: 'ai', text: 'ご希望のレッスンタイプをお選びください。' })
     setStep('type')
   }
   function pickType(t: 'machine' | 'mat' | 'either', label: string) {
     pushHistory()
     setAns((a) => ({ ...a, type: t }))
     say({ who: 'user', text: label })
-    say({ who: 'ai', text: '「無料体験があるか」は重視しますか？' })
+    say({ who: 'ai', text: '無料体験の有無を重視するかをお選びください。' })
     setStep('trial')
   }
   function pickTrial(v: boolean, label: string) {
     pushHistory()
     setAns((a) => ({ ...a, trial: v }))
     say({ who: 'user', text: label })
-    say({ who: 'ai', text: '最後に、料金の希望をおしえてください。' })
+    say({ who: 'ai', text: '最後に、ご希望の料金帯をお選びください。' })
     setStep('budget')
   }
   function pickBudget(b: 'low' | 'normal' | 'any', label: string) {
@@ -273,8 +273,8 @@ export default function StudioConsultant({ initialAreaKey }: { initialAreaKey?: 
     say({
       who: 'ai',
       text: recs.length
-        ? `条件をもとに、あなたに合いそうなスタジオを${recs.length}件えらびました！下のカードをご覧ください。`
-        : '申し訳ありません、その条件に合うスタジオが見つかりませんでした。条件をゆるめてもう一度お試しください。',
+        ? `ご希望の条件にもとづき、該当するスタジオを${recs.length}件選びました。下のカードをご覧ください。`
+        : '申し訳ありません。ご希望の条件に合うスタジオが見つかりませんでした。条件を変更して、もう一度お試しください。',
     })
     setStep('result')
   }
@@ -285,7 +285,7 @@ export default function StudioConsultant({ initialAreaKey }: { initialAreaKey?: 
     setPrefecture(null)
     setAns({ goals: [] })
     setResults(null)
-    setLog([{ who: 'ai', text: 'もう一度はじめます。お探しのエリアはどの地方ですか？' }])
+    setLog([{ who: 'ai', text: '最初からやり直します。お探しのエリアの地方をお選びください。' }])
   }
 
   return (

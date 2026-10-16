@@ -13,8 +13,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/ibaraki/' },
-  title: '【2026年10月最新】ピラティス茨木おすすめ7選！料金・体験レッスン・マシン対応を比較！',
-  description: '茨木エリアのおすすめピラティススタジオ7選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。JR茨木駅・阪急茨木市駅周辺の初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス茨木おすすめ7選料金・体験レッスン・マシン対応を比較',
+  description: '茨木エリアのおすすめピラティススタジオ7選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。JR茨木駅・阪急茨木市駅周辺の初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,茨木,茨木市,大阪,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -26,10 +26,10 @@ const studios = [
     price: '月4回 11,220円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'JR茨木駅徒歩1分', 'マシン専門', '体験無料'],
-    description: '女性専用マシンピラティス専門スタジオ。JR茨木駅東口から徒歩1分のサンプラザ茨木駅前ビル2階。音楽に合わせた楽しいレッスンとボディメイクに特化したプログラムが充実。',
+    description: '女性専用マシンピラティス専門スタジオです。JR茨木駅東口から徒歩1分のサンプラザ茨木駅前ビル2階です。音楽に合わせた楽しいレッスンとボディメイクに特化したプログラムが充実しています。',
     access: 'JR東海道本線「茨木駅」東口 徒歩1分',
     address: '大阪府茨木市春日1丁目 サンプラザ茨木駅前ビル2F',
-    popularPlan: { name: 'マンスリー4メンバー（月4回）', description: '女性専用マシンピラティス月4回。', price: '月4回 11,220円〜（税込）+ 施設維持費 月825円' },
+    popularPlan: { name: 'マンスリー4メンバー（月4回）', description: '女性専用マシンピラティス月4回です。', price: '月4回 11,220円〜（税込）+ 施設維持費 月825円' },
     options: ['マンスリー4メンバー（11,220円〜）', 'マンスリー8メンバー', 'マンスリーフルメンバー（通い放題）', '施設維持費 月825円'],
     userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', 'ダイエット', '姿勢改善', '運動不足解消'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'パウダールーム'] },
@@ -39,10 +39,10 @@ const studios = [
     price: '月額制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['医療系国家資格保有', 'JR茨木駅徒歩3分', '3パターンのレッスン', '2店舗展開'],
-    description: '医療系国家資格を持つインストラクターが在籍するピラティススタジオ。JR茨木店と阪急茨木市店の2店舗展開。プライベート・セミプライベート・グループの3パターンから選択可能。',
+    description: '医療系国家資格を持つインストラクターが在籍するピラティススタジオです。JR茨木店と阪急茨木市店の2店舗展開です。プライベート・セミプライベート・グループの3パターンから選択可能です。',
     access: 'JR東海道本線「茨木駅」徒歩3分',
     address: '大阪府茨木市（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'プライベートレッスン', description: '医療系国家資格保有インストラクターによるマンツーマン指導。', price: '詳細は公式サイトでご確認ください' },
+    popularPlan: { name: 'プライベートレッスン', description: '医療系国家資格保有インストラクターによるマンツーマン指導しています。', price: '詳細は公式サイトでご確認ください' },
     options: ['プライベートレッスン', 'セミプライベートレッスン', 'グループレッスン', '体験レッスン'],
     userProfile: { ageRange: '20代〜60代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '痛み改善', '体幹強化', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
@@ -52,10 +52,10 @@ const studios = [
     price: 'パーソナル制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['理学療法士在籍', '整形外科提携', 'メディカル対応', '南茨木駅近く'],
-    description: '理学療法士の国家資格保有者が在籍し、整形外科クリニックと提携。医学的なアプローチに基づいた安全で効果的なマシンピラティスを提供。',
+    description: '理学療法士の国家資格保有者が在籍し、整形外科クリニックと提携です。医学的なアプローチに基づいた安全で効果的なマシンピラティスを提供しています。',
     access: '阪急京都線「南茨木駅」/ JR「茨木駅」徒歩圏内',
     address: '大阪府茨木市（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'パーソナルレッスン', description: '理学療法士による医学的アプローチのマシンピラティス。', price: '詳細は公式サイトでご確認ください' },
+    popularPlan: { name: 'パーソナルレッスン', description: '理学療法士による医学的アプローチのマシンピラティスです。', price: '詳細は公式サイトでご確認ください' },
     options: ['パーソナルレッスン', '体験レッスン', '整形外科提携プログラム', 'リハビリ対応'],
     userProfile: { ageRange: '30代〜60代が中心', genderRatio: '女性75% / 男性25%', purpose: ['痛み改善', 'リハビリ', '姿勢改善', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
@@ -67,10 +67,10 @@ const studios = [
     price: '月4回 8,800円〜',
     trial: '体験レッスンあり（予約制）',
     features: ['低価格', 'LAVA相互利用', 'マシン専門', '映像レッスン'],
-    description: 'ホットヨガLAVAの姉妹ブランドのマシンピラティス専門スタジオ。月4回8,800円〜と低価格。LAVA全店との相互利用が可能。',
+    description: 'ホットヨガLAVAの姉妹ブランドのマシンピラティス専門スタジオです。月4回8,800円〜と低価格です。LAVA全店との相互利用が可能です。',
     access: 'JR「茨木駅」/ 阪急「茨木市駅」徒歩圏内',
     address: '大阪府茨木市双葉町10-1 茨木東阪急ビル1F',
-    popularPlan: { name: 'マンスリーメンバー4（月4回）', description: 'マシンピラティス月4回。LAVA全店も相互利用可能。', price: '月4回 8,800円（税込）' },
+    popularPlan: { name: 'マンスリーメンバー4（月4回）', description: 'マシンピラティス月4回です。LAVA全店も相互利用可能です。', price: '月4回 8,800円（税込）' },
     options: ['月4回プラン（8,800円）', '通い放題プラン', 'LAVA全店相互利用可能', '体験レッスン（予約制）'],
     userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性90% / 男性10%', purpose: ['ダイエット', '姿勢改善', '運動不足解消', 'リフレッシュ'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', '更衣室', 'ロッカー'] },
@@ -82,10 +82,10 @@ const studios = [
     price: '月額制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['サーキット形式', '予約不要', '個別ペース', 'ファンクショナルトレーニング'],
-    description: 'マシンピラティスとファンクショナルトレーニングを組み合わせたサーキット形式のボディメイクスタジオ。グループレッスンではなく一人ずつ違う動きを行うため、運動が久しぶりの方でも気軽に始められる。',
+    description: 'マシンピラティスとファンクショナルトレーニングを組み合わせたサーキット形式のボディメイクスタジオです。グループレッスンではなく一人ずつ違う動きを行うため、運動が久しぶりの方でも気軽に始められます。',
     access: 'JR「茨木駅」/ 阪急「茨木市駅」徒歩圏内',
     address: '大阪府茨木市（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'サーキットレッスン', description: 'マシンピラティス×ファンクショナルトレーニングのサーキット形式。', price: '詳細は公式サイトでご確認ください' },
+    popularPlan: { name: 'サーキットレッスン', description: 'マシンピラティス×ファンクショナルトレーニングのサーキット形式です。', price: '詳細は公式サイトでご確認ください' },
     options: ['サーキットレッスン', '体験レッスン', '予約不要プラン', '月額制'],
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['ボディメイク', 'ダイエット', '運動不足解消', '体幹強化'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'ファンクショナルトレーニング器具', '更衣室'] },
@@ -95,14 +95,14 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=J11817X.1.B1620582.U1357808',
     image: '/images/studios/247-pilates.webp',
     price: '月2回 14,500円〜 / 月4回 27,000円〜 / 月8回 52,000円〜（税込）',
-    trial: '体験レッスン 無料（説明含め約60分・手ぶらOK）',
+    trial: '体験レッスン 無料（説明含め約60分・手ぶらで参加可能）',
     features: ['マシンピラティス', '女性専用', '完全個室パーソナル', '入会金不要・月謝制'],
-    description: '完全個室・マンツーマンの女性専用パーソナルピラティススタジオ。入会金不要の月謝制で、一人ひとりに合わせたオリジナルプログラムを提供。茨木市駅から徒歩2分。',
+    description: '完全個室・マンツーマンの女性専用パーソナルピラティススタジオです。入会金不要の月謝制で、一人ひとりに合わせたオリジナルプログラムを提供しています。茨木市駅から徒歩2分です。',
     access: '茨木市駅から徒歩2分',
     address: '大阪府茨木市双葉町9-14 三島コーポレーション双葉町BLD 2F',
     popularPlan: {
       name: '月4回プラン',
-      description: '完全個室でマシンを使ったマンツーマン指導。入会金不要の月謝制。',
+      description: '完全個室でマシンを使ったマンツーマン指導しています。入会金不要の月謝制です。',
       price: '月4回 27,000円〜（税込）',
     },
     options: [
@@ -127,7 +127,7 @@ const studios = [
     priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
     trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。茨木駅から徒歩1分。',
+    description: '女性専用のマシンピラティス専門スタジオです。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴です。茨木駅から徒歩1分です。',
     access: '茨木駅 徒歩1分',
     address: '〒567-0032 大阪府茨木市西駅前町4-35 三和土地ビル 301号室',
     userProfile: {
@@ -145,16 +145,16 @@ const studios = [
 ]
 
 const faqs = [
-  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！茨木エリアのスタジオはほとんどが初心者歓迎。ピラティスKは初心者向けクラスが充実、URBAN CLASSICは個別ペースで進められます。' },
-  { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。茨木はマシン専門スタジオが充実しています。' },
-  { question: '茨木のピラティスの料金相場は？', answer: 'グループ月4回で8,800円〜11,220円程度。Rintosullが月4回8,800円〜で最もリーズナブル。ピラティスKは月4回11,220円〜。' },
-  { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。大切なのは継続すること。' },
-  { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。' },
-  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。ピラティスKは無料体験あり。靴下（滑り止め付き推奨）も用意しておくと安心です。' },
-  { question: 'ピラティスとヨガの違いは何ですか？', answer: 'ピラティスは体幹強化・姿勢改善に特化。ヨガは柔軟性とリラックス重視。RintosullはLAVA全店も利用可能で両方楽しめます。' },
-  { question: '男性でも通えるスタジオはありますか？', answer: 'ma-eum、VITARISE、URBAN CLASSICは男性もOK。ピラティスKは女性専用です。' },
-  { question: '無料で体験できるスタジオは？', answer: 'ピラティスKは無料体験あり。まずは無料体験から始めるのがおすすめです。' },
-  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。' },
+  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '問題ありません。茨木エリアのスタジオはほとんどが初心者歓迎です。ピラティスKは初心者向けクラスが充実、URBAN CLASSICは個別ペースで進められます。' },
+  { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。茨木はマシン専門スタジオが充実しています。' },
+  { question: '茨木のピラティスの料金相場は？', answer: 'グループ月4回で8,800円〜11,220円程度です。Rintosullが月4回8,800円〜で最もリーズナブルです。ピラティスKは月4回11,220円〜です。' },
+  { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。大切なのは継続することです。' },
+  { question: 'ピラティスで痩せますか？', answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。' },
+  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。ピラティスKは無料体験があります。靴下（滑り止め付き推奨）も用意しておくと安心です。' },
+  { question: 'ピラティスとヨガの違いは何ですか？', answer: 'ピラティスは体幹強化・姿勢改善に特化しています。ヨガは柔軟性とリラックス重視です。RintosullはLAVA全店も利用可能で両方楽しめます。' },
+  { question: '男性でも通えるスタジオはありますか？', answer: 'ma-eum、VITARISE、URBAN CLASSICは男性も可能です。ピラティスKは女性専用です。' },
+  { question: '無料で体験できるスタジオは？', answer: 'ピラティスKは無料体験があります。まずは無料体験から始めるのがおすすめです。' },
+  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。' },
 ]
 
 export default function IbarakiPage() {
@@ -171,7 +171,7 @@ export default function IbarakiPage() {
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
-            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス茨木おすすめ7選！<br className="hidden md:block" />人気スタジオの料金プランを簡単比較！</h1>
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス茨木おすすめ7選<br className="hidden md:block" />人気スタジオの料金プランの比較</h1>
           </div>
         </section>
         <section className="bg-white py-3 border-b border-warm-100">
@@ -184,15 +184,9 @@ export default function IbarakiPage() {
         <TableOfContents areaName="茨木" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p>
-            <p className="text-warm-600 leading-relaxed mb-6">Pilates-Biyori編集部です！</p>
-            <p className="text-warm-600 leading-relaxed mb-6">あなたは、</p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p>
-            <p className="text-warm-600 leading-relaxed mb-6">「茨木で人気のピラティススタジオを知りたい」</p>
-            <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
-            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、茨木エリアでおすすめのピラティススタジオ7選をまとめました。</p>
+            <p className="text-warm-600 leading-relaxed mb-8">本ページでは、茨木エリアでおすすめのピラティススタジオ7選をまとめました。</p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>茨木でピラティススタジオを探している</span></li>
                 <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>JR茨木駅・阪急茨木市駅から通いやすいスタジオがいい</span></li>
@@ -201,7 +195,7 @@ export default function IbarakiPage() {
                 <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較したい</span></li>
               </ul>
             </div>
-            <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
+            <p className="text-warm-600 leading-relaxed">以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。</p>
           </div>
         </section>
         <PriceComparisonTable studios={studios} areaName="茨木" />
@@ -218,17 +212,17 @@ export default function IbarakiPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
-                <p className="text-warm-600 text-sm mb-4">月額1万円以下で通えるスタジオ。</p>
+                <p className="text-warm-600 text-sm mb-4">月額1万円以下で通えるスタジオです。</p>
                 <ul className="space-y-2 text-sm"><li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li><li className="text-warm-700">• ピラティスK（月4回 11,220円〜）</li></ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">医療系サポート</h3>
-                <p className="text-warm-600 text-sm mb-4">国家資格保有の専門家が指導。</p>
+                <p className="text-warm-600 text-sm mb-4">国家資格保有の専門家が指導です。</p>
                 <ul className="space-y-2 text-sm"><li className="text-warm-700">• VITARISE（理学療法士在籍）</li><li className="text-warm-700">• ma-eum（医療系国家資格保有）</li></ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
-                <p className="text-warm-600 text-sm mb-4">JR茨木駅から徒歩3分以内。</p>
+                <p className="text-warm-600 text-sm mb-4">JR茨木駅から徒歩3分以内です。</p>
                 <ul className="space-y-2 text-sm"><li className="text-warm-700">• ピラティスK（JR茨木駅 徒歩1分）</li><li className="text-warm-700">• ma-eum（JR茨木駅 徒歩3分）</li></ul>
               </div>
             </div>
@@ -247,7 +241,7 @@ export default function IbarakiPage() {
                 </tbody>
               </table>
             </div>
-            <p className="text-warm-600 mt-4 text-sm leading-relaxed">茨木はJR・阪急の2路線が通る交通の要衝で、大阪市内へのアクセスも良好。大阪市内と比べて料金はやや抑えめで、医療系の専門資格を持つインストラクターが在籍するスタジオも複数あり、体の悩みに寄り添った指導が受けられるのが特徴です。</p>
+            <p className="text-warm-600 mt-4 text-sm leading-relaxed">茨木はJR・阪急の2路線が通る交通の要衝で、大阪市内へのアクセスも良好です。大阪市内と比べて料金はやや抑えめで、医療系の専門資格を持つインストラクターが在籍するスタジオも複数あり、体の悩みに寄り添った指導が受けられるのが特徴です。</p>
           </div>
         </section>
         <section className="py-16 bg-white" id="cautions">
@@ -256,7 +250,7 @@ export default function IbarakiPage() {
             <div className="space-y-6">
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">JR茨木駅と阪急茨木市駅の距離に注意</h3>
-                <p className="text-warm-600 leading-relaxed">JR茨木駅と阪急茨木市駅は徒歩約15分離れています。自分の利用路線に合ったスタジオを選びましょう。ma-eumは両駅近くに店舗があるので便利です。</p>
+                <p className="text-warm-600 leading-relaxed">JR茨木駅と阪急茨木市駅は徒歩約15分離れています。自分の利用路線に合ったスタジオをお選びください。ma-eumは両駅近くに店舗があるので便利です。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">体の不調がある場合は医療系スタジオを検討</h3>
@@ -264,7 +258,7 @@ export default function IbarakiPage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">キャンペーン情報をチェック</h3>
-                <p className="text-warm-600 leading-relaxed">各スタジオでは定期的に入会キャンペーンを実施しています。体験当日入会で入会金無料などの特典があることも多いので、公式サイトで最新情報を確認してから体験に行きましょう。</p>
+                <p className="text-warm-600 leading-relaxed">各スタジオでは定期的に入会キャンペーンを実施しています。体験当日入会で入会金無料などの特典があることも多いので、公式サイトで最新情報を確認してから体験に行くことをおすすめします。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較検討</h3>
@@ -281,24 +275,24 @@ export default function IbarakiPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは必須のスタジオが多い。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、着用が必須のスタジオが多くあります。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>がフォーム確認に効果的。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>がフォーム確認に効果的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
-                <p className="text-sm text-warm-600"><strong>茨木エリアの豆知識：</strong>茨木はJR・阪急の2路線利用可能で、大阪市内や京都方面へのアクセスも良好なベッドタウン。駅周辺にスタジオが集中しているため、通勤・通学の行き帰りに立ち寄りやすいのが魅力です。</p>
+                <p className="text-sm text-warm-600"><strong>茨木エリアの豆知識：</strong>茨木はJR・阪急の2路線利用可能で、大阪市内や京都方面へのアクセスも良好なベッドタウンです。駅周辺にスタジオが集中しているため、通勤・通学の行き帰りに立ち寄りやすいのが魅力です。</p>
               </div>
             </div>
           </div>
@@ -308,9 +302,9 @@ export default function IbarakiPage() {
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">失敗しないスタジオの選び方</h2>
             <div className="space-y-8">
               <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span><h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3></div><p className="text-warm-600 leading-relaxed">ダイエット、姿勢改善、痛み改善など目的によって最適なスタジオは変わります。VITARISEは痛み改善、ピラティスKはボディメイク向けです。</p></div>
-              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">予算を決める</h3></div><p className="text-warm-600 leading-relaxed">茨木の料金相場はグループ月4回で8,800円〜11,220円。Rintosullが最安の月4回8,800円。</p></div>
-              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">ピラティスKは無料体験あり。まずは気軽に複数スタジオを体験してみましょう。</p></div>
-              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div><p className="text-warm-600 leading-relaxed">JR茨木駅周辺にスタジオが集中。ピラティスKは駅徒歩1分、ma-eumは徒歩3分とアクセス良好です。</p></div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">予算を決める</h3></div><p className="text-warm-600 leading-relaxed">茨木の料金相場はグループ月4回で8,800円〜11,220円です。Rintosullが最安の月4回8,800円です。</p></div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">ピラティスKは無料体験があります。複数のスタジオで体験レッスンを受けて比較することをおすすめします。</p></div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div><p className="text-warm-600 leading-relaxed">JR茨木駅周辺にスタジオが集中しています。ピラティスKは駅徒歩1分、ma-eumは徒歩3分とアクセス良好です。</p></div>
             </div>
           </div>
         </section>
@@ -324,15 +318,15 @@ export default function IbarakiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
             <p className="text-warm-600 leading-relaxed mb-6">今回は茨木エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？</p>
-            <p className="text-warm-600 leading-relaxed mb-6">この記事では茨木にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。</p>
-            <p className="text-warm-600 leading-relaxed mb-6">ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。</p>
-            <p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">本ページでは、茨木にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">本ページの情報を、スタジオ選びにお役立てください。</p>
+            <p className="text-warm-700 font-medium text-center">本ページが、ピラティススタジオ選びの参考になれば幸いです。</p>
           </div>
         </section>
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2>
-            <p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスン無料〜5,000円。<br />まずは気軽に体験してみましょう。</p>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンのご予約</h2>
+            <p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスン無料〜5,000円です。<br />まずは体験レッスンへの参加をおすすめします。</p>
             <Link href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded">おすすめスタジオ一覧に戻る</Link>
           </div>
         </section>

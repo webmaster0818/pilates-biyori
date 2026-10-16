@@ -15,8 +15,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kita-senju/' },
-  title: '【2026年10月最新】北千住のピラティス｜初心者OK・無料体験で選ぶ料金比較',
-  description: '北千住エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  title: '【2026年10月最新】北千住のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  description: '北千住エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,北千住,足立区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -27,13 +27,13 @@ const studios = [
     image: '/images/studios/the-silk.webp',
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
-    features: ['女性専用', '北千住駅近', '手ぶら体験OK', '朝7:30〜夜22:00'],
-    description: '女性専用マシンピラティススタジオ。北千住駅近く。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。手ぶらで体験可能（ウェア・タオル無料貸出）。体験者の約8割がピラティス未経験者。',
+    features: ['女性専用', '北千住駅近', '手ぶらで体験可能', '朝7:30〜夜22:00'],
+    description: '女性専用マシンピラティススタジオです。北千住駅の近くです。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。手ぶらで体験可能です（ウェア・タオル無料貸出）。体験者の約8割がピラティス未経験者です。',
     access: 'JR常磐線・東京メトロ各線・東武スカイツリーライン・つくばエクスプレス「北千住駅」周辺',
     address: '東京都足立区千住3丁目1-14 柏光ビル 4F',
     popularPlan: {
       name: 'Standard4（月4回）',
-      description: '女性専用マシンピラティス月4回。音楽に合わせた楽しいレッスン。',
+      description: '女性専用マシンピラティス月4回です。音楽に合わせた楽しいレッスンです。',
       price: '月4回 15,070円（税込）',
     },
     options: [
@@ -59,13 +59,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
-    features: ['北千住駅近', '男性OK', 'マット&マシン', '全国相互利用'],
-    description: 'ピラティス専門の大手スタジオ。北千住駅近く。マットグループ・マシングループ・プライベートの3タイプ。全国150店舗以上で相互利用可能。オンラインレッスンにも対応。男性も歓迎。',
+    features: ['北千住駅近', '男性利用可', 'マット&マシン', '全国他店利用'],
+    description: 'ピラティス専門の大手スタジオです。北千住駅の近くです。マットグループ・マシングループ・プライベートの3タイプです。全国150店舗以上で他店利用可能です。オンラインレッスンにも対応しています。男性も歓迎です。',
     access: 'JR常磐線・東京メトロ各線・東武スカイツリーライン・つくばエクスプレス「北千住駅」周辺',
     address: '東京都足立区千住1丁目21-7 龍ビル 2階',
     popularPlan: {
       name: 'フリープラン（マットグループ）',
-      description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。',
+      description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。',
       price: '月額 16,940円（税込）',
     },
     options: [
@@ -93,12 +93,12 @@ const studios = [
     priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
     trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '女性専用セミパーソナルマシンピラティススタジオ。最大3名の少人数制で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）の高コスパ。当日予約・当日キャンセルOK。チケット繰り越し可能で無駄なく通える。',
+    description: '女性専用セミパーソナルマシンピラティススタジオです。最大3名の少人数制で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と割安です。当日予約・当日キャンセル可能です。チケット繰り越し可能で無駄なく通えます。',
     access: '北千住駅 徒歩3分',
     address: '〒120-0034 東京都足立区千住3丁目7 平松HMビル502',
     popularPlan: {
       name: '月額定額プラン',
-      description: '最大3名のセミパーソナルマシンピラティス。1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）。',
+      description: '最大3名のセミパーソナルマシンピラティスです。1回あたり2,500円です（※37,500円の通い放題コースで15日通った場合）。',
       price: '月額制（公式サイト参照）',
     },
     userProfile: {
@@ -119,12 +119,12 @@ const studios = [
     price: '月額 5,500円〜',
     trial: '体験レッスンあり',
     features: ['パーソナル最安級', '月額5,500円〜', 'マシンピラティス', '初心者歓迎'],
-    description: '月5,000円台からパーソナルマシンピラティスが受けられる最安級スタジオ。マンツーマンレッスンで一人ひとりの体の状態に合わせた効果的なプログラムを提供。初心者でも安心の丁寧な指導。',
+    description: '月5,000円台からパーソナルマシンピラティスが受けられる最安級スタジオです。マンツーマンレッスンで一人ひとりの体の状態に合わせた効果的なプログラムを提供しています。初心者でも安心の丁寧な指導です。',
     access: '「北千住駅」周辺',
     address: '東京都足立区北千住エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'パーソナル月額プラン',
-      description: 'マンツーマンのマシンピラティス。月5,500円〜の最安級。',
+      description: 'マンツーマンのマシンピラティスです。月5,500円〜の最安級です。',
       price: '月額 5,500円〜（税込）',
     },
     options: [
@@ -149,14 +149,14 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=J11817X.1.B1620582.U1357808',
     image: '/images/studios/247-pilates.webp',
     price: '月2回 14,500円〜 / 月4回 27,000円〜 / 月8回 52,000円〜（税込）',
-    trial: '体験レッスン 無料（説明含め約60分・手ぶらOK）',
+    trial: '体験レッスン 無料（説明含め約60分・手ぶらで参加可能）',
     features: ['マシンピラティス', '女性専用', '完全個室パーソナル', '入会金不要・月謝制'],
-    description: '完全個室・マンツーマンの女性専用パーソナルピラティススタジオ。入会金不要の月謝制で、一人ひとりに合わせたオリジナルプログラムを提供。北千住駅から徒歩5分。※一部のご案内やサポート対応は、男性スタッフが行う場合がございます。※24/7Workout併設店舗のため、パーソナルトレーニングの男性会員様がご来店される場合もございます。',
+    description: '完全個室・マンツーマンの女性専用パーソナルピラティススタジオです。入会金不要の月謝制で、一人ひとりに合わせたオリジナルプログラムを提供しています。北千住駅から徒歩5分です。※一部のご案内やサポート対応は、男性スタッフが行う場合がございます。※24/7Workout併設店舗のため、パーソナルトレーニングの男性会員様がご来店される場合もございます。',
     access: '北千住駅から徒歩5分',
     address: '東京都足立区千住3-1 ベニヤビル4階',
     popularPlan: {
       name: '月4回プラン',
-      description: '完全個室でマシンを使ったマンツーマン指導。入会金不要の月謝制。',
+      description: '完全個室でマシンを使ったマンツーマン指導しています。入会金不要の月謝制です。',
       price: '月4回 27,000円〜（税込）',
     },
     options: [
@@ -178,43 +178,43 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！北千住エリアのスタジオはほとんどが初心者歓迎。the SILKは体験者の約8割がピラティス未経験者、ELEMENTはパーソナルで丁寧な指導。',
+    answer: '問題ありません。北千住エリアのスタジオはほとんどが初心者歓迎です。the SILKは体験者の約8割がピラティス未経験者、ELEMENTはパーソナルで丁寧な指導です。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。',
   },
   {
     question: '北千住のピラティスの料金相場は？',
-    answer: 'セミパーソナルのPilates Meeは1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と格安。グループ月4回で10,450円〜15,070円。パーソナルはELEMENTが月額5,500円〜で最安級。',
+    answer: 'セミパーソナルのPilates Meeは1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と格安です。グループ月4回で10,450円〜15,070円です。パーソナルはELEMENTが月額5,500円〜で最安級です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。大切なのは継続すること。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。大切なのは継続することです。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。the SILKは手ぶらで無料体験可能。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。the SILKは手ぶらで無料体験可能です。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'zen place北千住とELEMENTは男性も通えます。the SILK・Pilates Meeは女性専用。',
+    answer: 'zen place北千住とELEMENTは男性も通えます。the SILK・Pilates Meeは女性専用です。',
   },
   {
     question: '一番安いスタジオは？',
-    answer: 'Pilates Meeは1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）のセミパーソナル。ELEMENTは月額5,500円〜のパーソナル。北千住はコスパの良いスタジオが揃っています。',
+    answer: 'Pilates Meeは1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）のセミパーソナルです。ELEMENTは月額5,500円〜のパーソナルです。北千住は料金を抑えられるスタジオが揃っています。',
   },
   {
     question: '無料で体験できるスタジオは？',
-    answer: 'the SILKは手ぶらで無料体験可能。zen placeはグループ体験1,000円。',
+    answer: 'the SILKは手ぶらで無料体験可能です。zen placeはグループ体験1,000円です。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -235,8 +235,8 @@ export default function KitaSenjuPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス北千住おすすめ5選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス北千住おすすめ5選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -259,29 +259,11 @@ export default function KitaSenjuPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「北千住で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、北千住エリアでおすすめのピラティススタジオ5選をまとめました。
+              本ページでは、北千住エリアでおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -293,7 +275,7 @@ export default function KitaSenjuPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
-                  <span>コスパの良いスタジオを知りたい</span>
+                  <span>料金を抑えられるスタジオを知りたい</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -306,7 +288,7 @@ export default function KitaSenjuPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -375,25 +357,25 @@ export default function KitaSenjuPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">JR常磐線・東京メトロ各線・東武スカイツリーライン・つくばエクスプレス「北千住駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  北千住エリアのスタジオは北千住駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。北千住駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  北千住エリアのスタジオは北千住駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。北千住駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">地元密着型スタジオの予約方法を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  北千住エリアには大手チェーンだけでなく、個人経営のアットホームなスタジオもあります。個人スタジオはWeb予約に対応していない場合もあるため、予約方法（電話・LINE・専用アプリ等）を入会前に確認しておきましょう。常連さんで枠が埋まりやすい人気スタジオもあるので早めの予約がおすすめです。
+                  北千住エリアには大手チェーンだけでなく、個人経営のアットホームなスタジオもあります。個人スタジオはWeb予約に対応していない場合もあるため、予約方法（電話・LINE・専用アプリ等）を入会前にご確認ください。常連さんで枠が埋まりやすい人気スタジオもあるので早めの予約がおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">料金プランの種類と契約条件をしっかり比較</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  北千住エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかを確認しましょう。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため要チェックです。
+                  北千住エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかをご確認ください。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため、事前にご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  北千住エリアだけでなく、近隣の<Link href="/area/ueno/" className="text-warm-700 underline hover:text-warm-900">上野</Link>、<Link href="/area/nippori/" className="text-warm-700 underline hover:text-warm-900">日暮里</Link>、<Link href="/area/oshiage/" className="text-warm-700 underline hover:text-warm-900">押上</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  北千住エリアだけでなく、近隣の<Link href="/area/ueno/" className="text-warm-700 underline hover:text-warm-900">上野</Link>、<Link href="/area/nippori/" className="text-warm-700 underline hover:text-warm-900">日暮里</Link>、<Link href="/area/oshiage/" className="text-warm-700 underline hover:text-warm-900">押上</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -411,25 +393,25 @@ export default function KitaSenjuPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>北千住エリアの豆知識：</strong>北千住はアットホームな雰囲気のスタジオが多く、気負わずに通えるのが魅力です。初回はシンプルなTシャツとレギンスで十分。常連さんとも自然に仲良くなれる距離感が北千住ならではです。
+                  <strong>北千住エリアの豆知識：</strong>北千住はアットホームな雰囲気のスタジオが多く、気負わずに通えるのが魅力です。初回はシンプルなTシャツとレギンスで十分です。常連さんとも自然に仲良くなれる距離感が北千住ならではです。
                 </p>
               </div>
             </div>
@@ -445,9 +427,9 @@ export default function KitaSenjuPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合のスタジオも。
+                  1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合のスタジオもあります。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Pilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）</li>
@@ -457,7 +439,7 @@ export default function KitaSenjuPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性だけの安心空間。
+                  女性だけの安心空間です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
@@ -467,7 +449,7 @@ export default function KitaSenjuPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  マンツーマンで効果的に。
+                  マンツーマン指導で効率よく取り組めます。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ELEMENT（月額 5,500円〜）</li>
@@ -486,15 +468,15 @@ export default function KitaSenjuPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回からスタート。最低2-3ヶ月継続で効果を実感。
+                週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回がおすすめ。3-6ヶ月で目に見える変化。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。
+                週1回のペースで無理なく継続することをおすすめします。
               </p>
             </div>
           </div>
@@ -511,7 +493,7 @@ export default function KitaSenjuPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜6,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">セミパーソナル・月額</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  驚きのコスパ。
+                  割安な料金設定です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Pilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）</li>
@@ -523,7 +505,7 @@ export default function KitaSenjuPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 10,000〜15,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月3〜4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン。
+                  グループレッスンです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（10,450円〜）</li>
@@ -534,7 +516,7 @@ export default function KitaSenjuPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 27,000円〜/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">パーソナル</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  完全個室。
+                  完全個室です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• 24/7ピラティス（月4回 27,000円〜・入会金不要）</li>
@@ -566,7 +548,7 @@ export default function KitaSenjuPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  北千住はセミパーソナル1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）、グループ月4回10,450円〜15,070円と幅広い価格帯。
+                  北千住はセミパーソナル1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）、グループ月4回10,450円〜15,070円と幅広い価格帯です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -575,7 +557,7 @@ export default function KitaSenjuPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKは無料体験。zen placeは1,000円で体験可能。気軽に試してみましょう。
+                  the SILKは無料体験を実施しています。zen placeは1,000円で体験可能です。体験レッスンで実際の雰囲気をご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -584,7 +566,7 @@ export default function KitaSenjuPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  北千住はJR常磐線・東京メトロ日比谷線・千代田線・東武スカイツリーライン・つくばエクスプレスの5路線が利用可能。
+                  北千住はJR常磐線・東京メトロ日比谷線・千代田線・東武スカイツリーライン・つくばエクスプレスの5路線が利用可能です。
                 </p>
               </div>
             </div>
@@ -627,13 +609,13 @@ export default function KitaSenjuPage() {
               今回は北千住エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では北千住にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、北千住にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -642,11 +624,11 @@ export default function KitaSenjuPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜1,000円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜1,000円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

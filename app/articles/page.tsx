@@ -6,7 +6,7 @@ import { SiteFooter } from '@/components/SiteFooter'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/articles/' },
   title: 'ピラティス記事一覧',
-  description: 'Pilates-Biyoriの記事一覧。ピラティスの基礎知識、効果、エクササイズ、マシン、スタジオ選びなどの記事を公開日の新しい順にまとめています。',
+  description: 'Pilates-Biyoriの記事一覧です。ピラティスの基礎知識、効果、エクササイズ、マシン、スタジオ選びなどの記事を公開日の新しい順にまとめています。',
 }
 
 export default function ArticlesIndexPage() {
@@ -35,7 +35,7 @@ export default function ArticlesIndexPage() {
               ピラティス記事一覧
             </h1>
             <p className="text-warm-600 leading-relaxed font-light max-w-2xl mx-auto">
-              Pilates-Biyoriで公開している記事を、公開日の新しい順に並べています。
+              Pilates-Biyoriで公開している記事を、公開日の新しい順に掲載しています。
             </p>
           </div>
         </section>

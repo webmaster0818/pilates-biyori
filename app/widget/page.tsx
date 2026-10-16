@@ -5,7 +5,7 @@ import { SiteFooter } from '@/components/SiteFooter'
 
 export const metadata: Metadata = {
   title: 'ピラティス料金相場ウィジェット（無料埋め込み）',
-  description: '全国211スタジオ独自調査にもとづくピラティス料金相場（月額中央値・体験無料率）を、あなたのサイトに1行で埋め込める無料ウィジェット。毎月自動更新・登録不要。',
+  description: '全国211スタジオ独自調査にもとづくピラティス料金相場（月額中央値・体験無料率）を、Webサイトに1行で埋め込める無料ウィジェットです。毎月自動更新され、登録は不要です。',
   alternates: { canonical: 'https://biyori-pilates.com/widget/' },
 }
 
@@ -21,7 +21,7 @@ export default function WidgetPage() {
           <div className="max-w-3xl mx-auto px-6 lg:px-8">
             <h1 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4">ピラティス料金相場ウィジェット（無料）</h1>
             <p className="text-warm-600 leading-relaxed">
-              当サイトの全国スタジオ独自調査にもとづく<strong>ピラティスの料金相場（月額中央値・平均・体験無料率）</strong>を、あなたのブログ・サイトに1行のコードで表示できます。
+              当サイトの全国スタジオ独自調査にもとづく<strong>ピラティスの料金相場（月額中央値・平均・体験無料率）</strong>を、ブログやWebサイトに1行のコードで表示できます。
               数値は毎月の調査更新に合わせて自動で最新化されます。無料・登録不要です。
             </p>
           </div>

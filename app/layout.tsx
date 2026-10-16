@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     default: 'Pilates-Biyori - あなたに最適なピラティスが見つかる',
     template: '%s | Pilates-Biyori',
   },
-  description: '【2026年最新】初心者から経験者まで、あなたに最適なピラティススタジオが見つかるメディア。マシンピラティス・マットピラティスの基礎知識からスタジオ比較まで徹底サポート。',
+  description: '【2026年最新】初心者から経験者まで、ピラティススタジオ選びに役立つ情報を提供するメディアです。マシンピラティス・マットピラティスの基礎知識からスタジオ比較まで掲載しています。',
   keywords: ['ピラティス', 'マシンピラティス', 'スタジオ', '比較', '初心者', '効果', 'おすすめ', '2026'],
   authors: [{ name: 'Pilates-Biyori編集部' }],
   openGraph: {
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     locale: 'ja_JP',
     url: 'https://biyori-pilates.com/',
     title: 'Pilates-Biyori - あなたに最適なピラティスが見つかる',
-    description: '初心者から経験者まで、ピラティスの基礎知識からスタジオ選びまで徹底サポート。',
+    description: '初心者から経験者まで、ピラティスの基礎知識からスタジオ選びに役立つ情報まで掲載しています。',
     siteName: 'Pilates-Biyori',
     images: [
       {
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Pilates-Biyori - あなたに最適なピラティスが見つかる',
-    description: '初心者から経験者まで、ピラティススタジオ選びを徹底サポート。',
+    description: '初心者から経験者まで、ピラティススタジオ選びに役立つ情報を掲載しています。',
     images: ['/images/hero.webp'],
   },
   robots: {
@@ -82,7 +82,7 @@ const organizationSchema = {
   name: 'Pilates-Biyori',
   url: 'https://biyori-pilates.com',
   logo: 'https://biyori-pilates.com/images/hero.webp',
-  description: '初心者から経験者まで、あなたに最適なピラティスが見つかるメディア',
+  description: '初心者から経験者まで、ピラティススタジオ選びに役立つ情報を提供するメディアです。',
   publisher: {
     '@type': 'Organization',
     name: '株式会社MediaX',
@@ -102,7 +102,7 @@ const websiteSchema = {
   '@type': 'WebSite',
   name: 'Pilates-Biyori',
   url: 'https://biyori-pilates.com',
-  description: '初心者から経験者まで、あなたに最適なピラティスが見つかるメディア',
+  description: '初心者から経験者まで、ピラティススタジオ選びに役立つ情報を提供するメディアです。',
   inLanguage: 'ja-JP',
   potentialAction: {
     '@type': 'SearchAction',

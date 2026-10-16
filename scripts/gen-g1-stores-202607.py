@@ -129,7 +129,7 @@ const store = getG1Store(SLUG)!;
 
 export const metadata: Metadata = {{
   title: `{brand_name} ${{store.areaQuery}}の料金・体験・アクセス【2026年7月】｜マシンピラティス`,
-  description: `{brand_name} ${{store.areaQuery}}（${{store.storeName}}）の料金・体験レッスン・アクセスを当サイト掲載データで整理。${{store.access}}。${{store.areaQuery}}周辺のピラティス比較・ブランド全店舗一覧へのリンク付き。`,
+  description: `{brand_name} ${{store.areaQuery}}（${{store.storeName}}）の料金・体験レッスン・アクセスを掲載しています。${{store.access}}。${{store.areaQuery}}周辺のピラティス比較・ブランド全店舗一覧へのリンクも掲載しています。`,
   alternates: {{ canonical: `https://biyori-pilates.com/brands/${{SLUG}}/` }},
 }};
 

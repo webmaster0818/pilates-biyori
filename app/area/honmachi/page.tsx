@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/honmachi/' },
-  title: '【2026年10月最新】本町のピラティス｜初心者OK・無料体験で選ぶ料金比較',
-  description: '本町エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  title: '【2026年10月最新】本町のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  description: '本町エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,本町,大阪,堺筋本町,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -26,12 +26,12 @@ const studios = [
     price: 'パーソナル 1回 8,800円〜',
     trial: '体験レッスンあり',
     features: ['マンツーマン基本', '本町駅徒歩3分', '多彩なメソッド', 'マシン豊富'],
-    description: 'ピラティス・ボディコード・ジャイロキネシス・ヨガを融合させたオリジナルのコンディショニングスタジオ。本町駅3番出口から徒歩3分。マンツーマンレッスンを基本とし、カウンセリング後に体調や姿勢に合わせたプログラムを提供。豊富なマシンを完備。',
+    description: 'ピラティス・ボディコード・ジャイロキネシス・ヨガを融合させたオリジナルのコンディショニングスタジオです。本町駅3番出口から徒歩3分です。マンツーマンレッスンを基本とし、カウンセリング後に体調や姿勢に合わせたプログラムを提供しています。豊富なマシンを完備しています。',
     access: '大阪メトロ御堂筋線「本町駅」3番出口 徒歩3分',
     address: '大阪府大阪市中央区安土町3-2-4',
     popularPlan: {
       name: 'パーソナルレッスン',
-      description: 'カウンセリング＋マシンを使ったマンツーマンレッスン。',
+      description: 'カウンセリング＋マシンを使ったマンツーマンレッスンです。',
       price: '1回 8,800円〜（税込）',
     },
     options: [
@@ -57,12 +57,12 @@ const studios = [
     price: 'グループ 1回 3,300円〜',
     trial: '体験レッスンあり',
     features: ['理学療法士監修', '最大6名少人数制', '四つ橋線本町徒歩3分', '産前産後対応'],
-    description: '理学療法士と健康管理士が監修したプログラムを提供するピラティス・ヨガ専門スタジオ。四つ橋線本町駅から徒歩3分。最大6名の少人数制。カナダ直輸入のマシン完備。シルクサスペンションも体験可能。産前産後ケアにも対応。',
+    description: '理学療法士と健康管理士が監修したプログラムを提供するピラティス・ヨガ専門スタジオです。四つ橋線本町駅から徒歩3分です。最大6名の少人数制です。カナダ直輸入のマシン完備です。シルクサスペンションも体験可能です。産前産後ケアにも対応しています。',
     access: '大阪メトロ四つ橋線「本町駅」徒歩3分',
     address: '大阪府大阪市西区靱本町1-15-20 大洋ビル 5F',
     popularPlan: {
       name: 'グループレッスン',
-      description: '最大6名の少人数制マシンピラティス。理学療法士監修。',
+      description: '最大6名の少人数制マシンピラティスです。理学療法士監修です。',
       price: '1回 3,300円〜（税込）',
     },
     options: [
@@ -88,12 +88,12 @@ const studios = [
     price: '月4回 12,100円〜',
     trial: '体験レッスン 3,000円',
     features: ['老舗20年', 'リフォーマー専用', '3路線アクセス', 'インストラクター養成'],
-    description: '2005年創業の大阪老舗ヨガ・ピラティススタジオによるリフォーマー専用スタジオ。御堂筋線本町駅・堺筋線堺筋本町駅・中央線の3路線アクセス。インストラクター養成スクールも運営する本格派。グループ・プライベートに対応。',
+    description: '2005年創業の大阪老舗ヨガ・ピラティススタジオによるリフォーマー専用スタジオです。御堂筋線本町駅・堺筋線堺筋本町駅・中央線の3路線アクセスです。インストラクター養成スクールも運営する本格派です。グループ・プライベートに対応しています。',
     access: '大阪メトロ御堂筋線「本町駅」/ 堺筋線「堺筋本町駅」/ 中央線利用可',
     address: '大阪府大阪市中央区安土町2-5-5 本町明大ビル 3F',
     popularPlan: {
       name: 'リフォーマーグループ月4回',
-      description: 'リフォーマー専用スタジオでのグループレッスン月4回。',
+      description: 'リフォーマー専用スタジオでのグループレッスン月4回です。',
       price: '月4回 12,100円（税込）',
     },
     options: [
@@ -119,12 +119,12 @@ const studios = [
     price: 'グループ 1回 3,300円〜',
     trial: '体験レッスンあり',
     features: ['ピラティス専門', '堺筋本町エリア', 'グループ&プライベート', '少人数制'],
-    description: '堺筋本町・谷町四丁目に2拠点を構えるピラティス専門スタジオ。グループレッスンとプライベートレッスンの両方に対応。少人数制で一人ひとりに合わせた丁寧な指導。おしゃれな空間でモチベーションアップ。',
+    description: '堺筋本町・谷町四丁目に2拠点を構えるピラティス専門スタジオです。グループレッスンとプライベートレッスンの両方に対応しています。少人数制で一人ひとりに合わせた丁寧な指導です。おしゃれな空間でモチベーションアップです。',
     access: '大阪メトロ堺筋線「堺筋本町駅」周辺',
     address: '大阪府大阪市中央区（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'グループレッスン',
-      description: '少人数制のマシンピラティスグループレッスン。',
+      description: '少人数制のマシンピラティスグループレッスンです。',
       price: '1回 3,300円〜（税込）',
     },
     options: [
@@ -150,12 +150,12 @@ const studios = [
     price: '月4回 27,200円（税込）',
     trial: '初回体験レッスン（45分）4,000円 ※オープン記念キャンペーンで無料予約可（実施状況は公式サイトでご確認ください）',
     features: ['女性専用', '完全個室・マンツーマン', 'タワーリフォーマー', '全店舗利用可'],
-    description: '女性専用のパーソナルマシンピラティススタジオ。タワーリフォーマーを使った55分のマンツーマンレッスンで、一人ひとりの身体や目的に合わせて指導します（グループレッスンは実施していません）。大阪市内に5店舗を展開し、会員はどの店舗も利用できます。',
+    description: '女性専用のパーソナルマシンピラティススタジオです。タワーリフォーマーを使った55分のマンツーマンレッスンで、一人ひとりの身体や目的に合わせて指導します（グループレッスンは実施していません）。大阪市内に5店舗を展開し、会員はどの店舗も利用できます。',
     access: '大阪メトロ中央線 阿波座駅①番出口から徒歩5分',
     address: '大阪府大阪市西区京町堀2丁目14-26 RE-007 203号室',
     popularPlan: {
       name: '月4回券',
-      description: 'タワーリフォーマーを使ったパーソナルレッスン（1回55分）。会員はどのスタジオでも利用可能。',
+      description: 'タワーリフォーマーを使ったパーソナルレッスンです（1回55分）。会員はどのスタジオでも利用可能です。',
       price: '27,200円（税込・有効期限1ヶ月）',
     },
     options: ['月2回券 14,000円（税込・有効期限1ヶ月）', '月8回券 50,400円（税込・有効期限1ヶ月）', '10回券 68,000円（税込・有効期限3ヶ月）'],
@@ -177,12 +177,12 @@ const studios = [
     price: '月4回 27,200円（税込）',
     trial: '初回体験レッスン（45分）4,000円 ※オープン記念キャンペーンで無料予約可（実施状況は公式サイトでご確認ください）',
     features: ['女性専用', '完全個室・マンツーマン', 'タワーリフォーマー', '全店舗利用可'],
-    description: '女性専用のパーソナルマシンピラティススタジオ。タワーリフォーマーを使った55分のマンツーマンレッスンで、一人ひとりの身体や目的に合わせて指導します（グループレッスンは実施していません）。大阪市内に5店舗を展開し、会員はどの店舗も利用できます。',
+    description: '女性専用のパーソナルマシンピラティススタジオです。タワーリフォーマーを使った55分のマンツーマンレッスンで、一人ひとりの身体や目的に合わせて指導します（グループレッスンは実施していません）。大阪市内に5店舗を展開し、会員はどの店舗も利用できます。',
     access: '大阪メトロ谷町線 谷町四丁目駅③番出口から徒歩3分30秒',
     address: '大阪府大阪市中央区内本町1丁目4-15 クリスタルブライト本町東 403号室',
     popularPlan: {
       name: '月4回券',
-      description: 'タワーリフォーマーを使ったパーソナルレッスン（1回55分）。会員はどのスタジオでも利用可能。',
+      description: 'タワーリフォーマーを使ったパーソナルレッスンです（1回55分）。会員はどのスタジオでも利用可能です。',
       price: '27,200円（税込・有効期限1ヶ月）',
     },
     options: ['月2回券 14,000円（税込・有効期限1ヶ月）', '月8回券 50,400円（税込・有効期限1ヶ月）', '10回券 68,000円（税込・有効期限3ヶ月）'],
@@ -203,31 +203,31 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！本町エリアのスタジオはほとんどが初心者歓迎。STABEは理学療法士監修で安心してスタートできます。',
+    answer: '問題ありません。本町エリアのスタジオはほとんどが初心者歓迎です。STABEは理学療法士監修で安心してスタートできます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。本町はマシン対応スタジオが充実。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。本町はマシン対応スタジオが充実しています。',
   },
   {
     question: '本町エリアのピラティスの料金相場は？',
-    answer: 'グループ1回3,300円〜、月4回で12,100円〜。パーソナルはスタジオカラーズが1回8,800円〜。',
+    answer: 'グループ1回3,300円〜、月4回で12,100円〜です。パーソナルはスタジオカラーズが1回8,800円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。大切なのは継続すること。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。大切なのは継続することです。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。ヴィオラトリコロールは3,000円で体験可能。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。ヴィオラトリコロールは3,000円で体験可能です。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹強化・姿勢改善に特化。ヨガは柔軟性とリラックス重視。STABEやヴィオラトリコロールは両方楽しめます。',
+    answer: 'ピラティスは体幹強化・姿勢改善に特化しています。ヨガは柔軟性とリラックス重視です。STABEやヴィオラトリコロールは両方楽しめます。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
@@ -235,11 +235,11 @@ const faqs = [
   },
   {
     question: '産前産後でも通えますか？',
-    answer: 'STABEは産前産後ケアにも対応。理学療法士監修のプログラムで安心して通えます。スタジオカラーズもカウンセリングベースで個別対応可能。',
+    answer: 'STABEは産前産後ケアにも対応しています。理学療法士監修のプログラムで安心して通えます。スタジオカラーズもカウンセリングベースで個別対応可能です。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -260,8 +260,8 @@ export default function HonmachiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス本町おすすめ6選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス本町おすすめ6選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -284,29 +284,11 @@ export default function HonmachiPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「本町で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、本町・堺筋本町エリアでおすすめのピラティススタジオ6選をまとめました。
+              本ページでは、本町・堺筋本町エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -331,7 +313,7 @@ export default function HonmachiPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -384,7 +366,7 @@ export default function HonmachiPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              本町はビジネス街としての性格が強く、仕事帰りの利用を想定した夜間プランや回数券プランが充実しています。賃料が高めのエリアのため料金は全体的にやや高い傾向ですが、法人契約や福利厚生割引に対応しているスタジオもあるので確認してみましょう。近隣の心斎橋エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
+              本町はビジネス街としての性格が強く、仕事帰りの利用を想定した夜間プランや回数券プランが充実しています。賃料が高めのエリアのため料金は全体的にやや高い傾向ですが、法人契約や福利厚生割引に対応しているスタジオもあるのでご確認ください。近隣の心斎橋エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
             </p>
           </div>
         </section>
@@ -399,25 +381,25 @@ export default function HonmachiPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">大阪メトロ御堂筋線「本町駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  本町エリアのスタジオは本町駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。本町駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  本町エリアのスタジオは本町駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。本町駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">ビジネス街特有の予約傾向を把握</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  本町はオフィス街のため、平日ランチタイム（12時〜13時）と夕方以降（18時〜21時）に予約が集中する傾向があります。逆に土日は比較的空いているスタジオが多いので、平日に通いづらい方は週末を狙うのも手です。また、祝日は営業時間が変更になることがあるので事前確認を。
+                  本町はオフィス街のため、平日ランチタイム（12時〜13時）と夕方以降（18時〜21時）に予約が集中する傾向があります。逆に土日は比較的空いているスタジオが多いので、平日に通いづらい方は週末を狙うのも手です。また、祝日は営業時間が変更になることがあるので事前にご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  本町エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ず確認しましょう。月の途中入会は日割り計算になるかも要チェックです。
+                  本町エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ずご確認ください。月の途中入会は日割り計算になるかもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  本町エリアだけでなく、近隣の<Link href="/area/shinsaibashi/" className="text-warm-700 underline hover:text-warm-900">心斎橋</Link>、<Link href="/area/namba/" className="text-warm-700 underline hover:text-warm-900">なんば</Link>、<Link href="/area/umeda/" className="text-warm-700 underline hover:text-warm-900">梅田</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  本町エリアだけでなく、近隣の<Link href="/area/shinsaibashi/" className="text-warm-700 underline hover:text-warm-900">心斎橋</Link>、<Link href="/area/namba/" className="text-warm-700 underline hover:text-warm-900">なんば</Link>、<Link href="/area/umeda/" className="text-warm-700 underline hover:text-warm-900">梅田</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -435,25 +417,25 @@ export default function HonmachiPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>本町エリアの豆知識：</strong>本町はビジネスパーソンの利用が多いエリアです。スーツやオフィスカジュアルで来てそのまま着替えたい方は、ロッカールームの広さやシャワーの有無を重視してスタジオを選びましょう。ウェアレンタルがあれば、大きな荷物を持ち歩く必要がありません。
+                  <strong>本町エリアの豆知識：</strong>本町はビジネスパーソンの利用が多いエリアです。スーツやオフィスカジュアルで来てそのまま着替えたい方は、ロッカールームの広さやシャワーの有無を重視してスタジオをお選びください。ウェアレンタルがあれば、大きな荷物を持ち歩く必要がありません。
                 </p>
               </div>
             </div>
@@ -471,7 +453,7 @@ export default function HonmachiPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円台で通えるスタジオ。
+                  月額1万円台で通えるスタジオです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ヴィオラトリコロール（月4回 12,100円〜）</li>
@@ -480,7 +462,7 @@ export default function HonmachiPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  マンツーマンで効果的に。
+                  マンツーマン指導で効率よく取り組めます。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• スタジオカラーズ（1回 8,800円〜）</li>
@@ -489,7 +471,7 @@ export default function HonmachiPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">専門性重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  理学療法士・マスタートレーナー。
+                  理学療法士・マスタートレーナーです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• STABE（理学療法士監修）</li>
@@ -509,15 +491,15 @@ export default function HonmachiPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回からスタート。最低2-3ヶ月継続で効果を実感。
+                週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回がおすすめ。3-6ヶ月で目に見える変化。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。
+                週1回のペースで無理なく継続することをおすすめします。
               </p>
             </div>
           </div>
@@ -534,7 +516,7 @@ export default function HonmachiPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜12,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。
+                  グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ヴィオラトリコロール（12,100円/月4回）</li>
@@ -545,7 +527,7 @@ export default function HonmachiPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">1回 3,300円〜</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">都度払い</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  少人数制グループ。
+                  少人数制グループです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• STABE（3,300円〜/回）</li>
@@ -556,7 +538,7 @@ export default function HonmachiPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 8,800円〜/回</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">パーソナル</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  完全オーダーメイド。
+                  完全オーダーメイドです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• スタジオカラーズ（8,800円〜/回）</li>
@@ -588,7 +570,7 @@ export default function HonmachiPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  本町エリアの料金相場はグループ月4回で12,100円〜。都度払い3,300円〜のスタジオもあります。
+                  本町エリアの料金相場はグループ月4回で12,100円〜です。都度払い3,300円〜のスタジオもあります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -597,7 +579,7 @@ export default function HonmachiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ヴィオラトリコロールは3,000円で体験可能。気軽に試してみましょう。
+                  ヴィオラトリコロールは3,000円で体験可能です。体験レッスンで実際の雰囲気をご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -606,7 +588,7 @@ export default function HonmachiPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  本町エリアは御堂筋線・四つ橋線・堺筋線・中央線と4路線が利用可能。スタジオカラーズは本町駅徒歩3分、STABEも徒歩3分とアクセス抜群。
+                  本町エリアは御堂筋線・四つ橋線・堺筋線・中央線と4路線が利用可能です。スタジオカラーズは本町駅徒歩3分、STABEも徒歩3分とアクセス抜群です。
                 </p>
               </div>
             </div>
@@ -649,13 +631,13 @@ export default function HonmachiPage() {
               今回は本町・堺筋本町エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では本町エリアにあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、本町エリアにあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -664,11 +646,11 @@ export default function HonmachiPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン3,000円〜4,000円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン3,000円〜4,000円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

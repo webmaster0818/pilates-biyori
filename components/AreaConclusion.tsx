@@ -28,26 +28,25 @@ export function AreaConclusion({ areaName, studios }: { areaName: string; studio
   const monthlyMin = monthly.length > 0 ? Math.min(...monthly) : null
 
   const ctas = [
-    { label: '無料体験で選ぶ', sub: 'まず体験から', href: '#trial-guide' },
+    { label: '無料体験で選ぶ', sub: '体験レッスンの比較', href: '#trial-guide' },
     { label: '料金で比較する', sub: '月額・体験料', href: '#price-comparison' },
-    { label: '初心者の選び方', sub: '失敗しない基準', href: '#how-to-choose' },
+    { label: '初心者の選び方', sub: 'スタジオ選びの基準', href: '#how-to-choose' },
   ]
 
   return (
-    <section className="py-8 bg-white border-b border-warm-100" aria-label="結論・目的別に選ぶ">
+    <section className="py-8 bg-white border-b border-warm-100" aria-label="掲載状況と目的別の比較">
       <div className="max-w-4xl mx-auto px-6 lg:px-8">
         <div className="rounded-2xl border border-warm-200 bg-warm-50 p-6 md:p-8">
           <p className="inline-block text-xs font-bold tracking-wide text-white bg-[#8B7355] rounded-full px-3 py-1 mb-3">
-            まず結論
+            掲載状況の概要
           </p>
           <h2 className="text-lg md:text-xl font-bold text-warm-900 mb-3 leading-relaxed">
-            {areaName}のピラティスは{total}社を比較。
-            {freeCount > 0 && <>{freeCount}社が無料体験に対応{monthlyMin !== null ? '、' : '。'}</>}
-            {monthlyMin !== null && <>月額は最安{monthlyMin.toLocaleString()}円〜。</>}
-            目的から選べます。
+            {areaName}のピラティススタジオ{total}社を掲載しています。
+            {freeCount > 0 && <>このうち{freeCount}社が無料体験に対応しています。</>}
+            {monthlyMin !== null && <>月額料金は最安{monthlyMin.toLocaleString()}円からです。</>}
           </h2>
           <p className="text-sm text-warm-600 mb-5 leading-relaxed">
-            「まず無料で試したい」「料金で選びたい」「初心者で不安」——あなたの目的に合わせて、下のボタンから読みたい比較に飛べます。料金・無料体験の有無・マシン対応は各スタジオの公式情報をもとに比較しています。
+            目的に応じて、下のボタンから該当する比較項目をご覧いただけます。料金・無料体験の有無・マシン対応は、各スタジオの公式情報にもとづいて比較しています。
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
             {ctas.map((c) => (

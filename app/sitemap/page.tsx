@@ -6,7 +6,7 @@ import { getAllArticles } from '@/lib/mdx'
 
 export const metadata = {
   title: 'サイトマップ',
-  description: 'Pilates-Biyoriのサイトマップ。全ページの一覧をご覧いただけます。',
+  description: 'Pilates-Biyoriのサイトマップです。全ページの一覧をご覧いただけます。',
   alternates: {
     canonical: 'https://biyori-pilates.com/sitemap/',
   },

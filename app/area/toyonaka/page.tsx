@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/toyonaka/' },
-  title: '【2026年10月最新】ピラティス豊中おすすめ6選！人気スタジオの料金プランを簡単比較！',
-  description: '豊中エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。阪急宝塚線沿線で初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス豊中おすすめ6選人気スタジオの料金プランの比較',
+  description: '豊中エリアのおすすめピラティススタジオ6選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。阪急宝塚線沿線で初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,豊中,曽根,阪急宝塚線,北摂,大阪,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -25,11 +25,11 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp', reviewCount: 142,
     price: '月4回 9,625円〜', trial: 'グループ体験 1,000円',
-    features: ['豊中駅徒歩5分', '男性OK', 'マット&マシン', '全国相互利用'],
-    description: 'ピラティス専門の大手スタジオ。阪急宝塚線「豊中駅」東口から徒歩5分。マットグループ・マシングループ・プライベートの3タイプから選べます。全国150店舗以上で相互利用可能。正統派ピラティスの質の高い指導が特徴。',
+    features: ['豊中駅徒歩5分', '男性利用可', 'マット&マシン', '全国他店利用'],
+    description: 'ピラティス専門の大手スタジオです。阪急宝塚線「豊中駅」東口から徒歩5分です。マットグループ・マシングループ・プライベートの3タイプから選べます。全国150店舗以上で他店利用可能です。正統派ピラティスの質の高い指導が特徴です。',
     access: '阪急宝塚線「豊中駅」東口 徒歩5分',
     address: '大阪府豊中市本町3丁目1-57 ルミエール豊中 5階',
-    popularPlan: { name: 'フリープラン（マットグループ）', description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。', price: '月額 14,960円〜（税込）' },
+    popularPlan: { name: 'フリープラン（マットグループ）', description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。', price: '月額 14,960円〜（税込）' },
     options: ['月4回プラン（9,625円〜）', 'マシングループ体験（3,000円）', 'プライベートレッスン', '体験当日入会で入会金無料'],
     userProfile: { ageRange: '30代〜60代が中心', genderRatio: '女性75% / 男性25%', purpose: ['姿勢改善', '体幹強化', '健康維持', 'リフレッシュ'] },
     basicInfo: { hours: '月〜金 10:00〜20:00 / 土日祝 10:00〜16:00', closed: '不定休', facilities: ['リフォーマー', 'マット', 'ロッカー', '更衣室'] },
@@ -38,10 +38,10 @@ const studios = [
     name: 'studio Pilates remove（ピラティス リムーブ）', reviewCount: 86,
     price: 'パーソナル 1回 8,500円〜', trial: '体験レッスンあり',
     features: ['パーソナル専門', '10種類以上のマシン', '豊中駅徒歩5分', '本格派'],
-    description: 'プライベートレッスン専門のピラティススタジオ。阪急豊中駅から徒歩5分。日本では珍しいピラティスマシンを含む10種類以上・約25台を完備。マットからマシンまで基礎から丁寧に指導。北摂エリア屈指の設備充実度。',
+    description: 'プライベートレッスン専門のピラティススタジオです。阪急豊中駅から徒歩5分です。日本では珍しいピラティスマシンを含む10種類以上・約25台を完備しています。マットからマシンまで基礎から丁寧に指導しています。北摂エリア屈指の設備充実度です。',
     access: '阪急宝塚線「豊中駅」徒歩5分',
     address: '大阪府豊中市本町エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'パーソナルレッスン', description: '10種類以上のマシンを使ったマンツーマン指導。', price: '1回 8,500円〜（税込）' },
+    popularPlan: { name: 'パーソナルレッスン', description: '10種類以上のマシンを使ったマンツーマン指導しています。', price: '1回 8,500円〜（税込）' },
     options: ['回数券プランあり', '月額プランあり', '体験レッスンあり', '多種マシン使用'],
     userProfile: { ageRange: '30代〜60代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'リハビリ', '体幹強化', 'パフォーマンス向上'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'キャデラック', 'チェア', 'バレル', 'ペダプル', '更衣室'] },
@@ -51,10 +51,10 @@ const studios = [
     image: '/images/studios/pilates-kasane-osaka.webp', reviewCount: 74,
     price: 'パーソナル 1回 7,500円〜', trial: '体験レッスンあり',
     features: ['曽根駅徒歩2分', 'パーソナル対応', 'マシン完備', '幅広い年齢対応'],
-    description: '阪急宝塚線曽根駅から徒歩2分のピラティス専門スタジオ。ピラティスマシンを完備し、プライベートレッスンを提供。アスリートから高齢者まで幅広いニーズに対応。丁寧なカウンセリングで個々の体の状態に合わせた指導。',
+    description: '阪急宝塚線曽根駅から徒歩2分のピラティス専門スタジオです。ピラティスマシンを完備し、プライベートレッスンを提供しています。アスリートから高齢者まで幅広いニーズに対応しています。丁寧なカウンセリングで個々の体の状態に合わせた指導しています。',
     access: '阪急宝塚線「曽根駅」徒歩2分',
     address: '大阪府豊中市曽根エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'パーソナルレッスン', description: 'マシンピラティスのマンツーマン指導。幅広い年齢対応。', price: '1回 7,500円〜（税込）' },
+    popularPlan: { name: 'パーソナルレッスン', description: 'マシンピラティスのマンツーマン指導です。幅広い年齢対応です。', price: '1回 7,500円〜（税込）' },
     options: ['回数券プランあり', '体験レッスンあり', 'アスリート対応', '高齢者対応'],
     userProfile: { ageRange: '20代〜70代が中心', genderRatio: '女性75% / 男性25%', purpose: ['姿勢改善', '腰痛改善', 'スポーツパフォーマンス向上', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'キャデラック', 'チェア', '更衣室'] },
@@ -63,10 +63,10 @@ const studios = [
     name: 'STANCE（スタンス）豊中', reviewCount: 92,
     price: '月4回 8,800円〜', trial: '体験レッスンあり',
     features: ['女性専用', '曽根駅徒歩1分', '6人制少人数', 'ヨガ＆ピラティス'],
-    description: '阪急宝塚線曽根駅から徒歩1分の女性専用スタジオ。グループレッスンは6人制の少人数で、周りを気にせず体を動かせる。ヨガとピラティスの両方のレッスンが受けられ、気分や目的に合わせて選べるのが魅力。',
+    description: '阪急宝塚線曽根駅から徒歩1分の女性専用スタジオです。グループレッスンは6人制の少人数で、周りを気にせず体を動かせます。ヨガとピラティスの両方のレッスンが受けられ、気分や目的に合わせて選べるのが魅力です。',
     access: '阪急宝塚線「曽根駅」徒歩1分',
     address: '大阪府豊中市曽根エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: '月4回プラン', description: '女性専用6人制グループレッスン。ヨガ＆ピラティス選択可能。', price: '月4回 8,800円〜（税込）' },
+    popularPlan: { name: '月4回プラン', description: '女性専用6人制グループレッスンです。ヨガ＆ピラティス選択可能です。', price: '月4回 8,800円〜（税込）' },
     options: ['通い放題プラン', '体験レッスンあり', 'ヨガレッスンも受講可', '6人制少人数'],
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', '姿勢改善', 'リフレッシュ', 'ストレス発散'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['マット', 'プロップス', '更衣室', 'ロッカー'] },
@@ -76,10 +76,10 @@ const studios = [
     image: '/images/studios/pilates-mirror.webp', reviewCount: 78,
     price: '月額 11,000円（月6回）', trial: '体験レッスン 2,200円',
     features: ['女性専用', 'コナミ運営', '1回30分', '鏡活用レッスン'],
-    description: 'コナミスポーツクラブが展開する女性専用マシンピラティススタジオ。阪急豊中駅から徒歩7分。「鏡」を活用したレッスンで自分のフォームを確認しながら効果的にトレーニング。1回30分の少人数制。',
+    description: 'コナミスポーツクラブが展開する女性専用マシンピラティススタジオです。阪急豊中駅から徒歩7分です。「鏡」を活用したレッスンで自分のフォームを確認しながら効果的にトレーニングです。1回30分の少人数制です。',
     access: '阪急宝塚線「豊中駅」徒歩7分',
     address: '大阪府豊中市岡上の町4丁目3-2',
-    popularPlan: { name: '月会員プラン', description: '女性専用。鏡を活用した30分マシンピラティス。月6回まで。', price: '月額 11,000円（税込）' },
+    popularPlan: { name: '月会員プラン', description: '女性専用です。鏡を活用した30分マシンピラティスです。月6回までです。', price: '月額 11,000円（税込）' },
     options: ['月6回まで利用可能', '7回目以降 1回1,100円', '体験レッスン2,200円', '入会金11,000円'],
     userProfile: { ageRange: '30代〜60代が中心', genderRatio: '女性100%（女性専用）', purpose: ['姿勢改善', 'ボディメイク', '健康維持', '運動不足解消'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '毎週水曜日', facilities: ['リフォーマー', 'ミラー', 'フィッティングルーム（カーテン仕切り）', '荷物置きBOX（鍵なし）'] },
@@ -90,10 +90,10 @@ const studios = [
     image: '/images/studios/rintosull.webp', reviewCount: 85,
     price: '月額 8,800円〜', trial: '体験レッスンあり',
     features: ['女性専用', '通い放題あり', '映像×インストラクター', 'LAVA系列'],
-    description: 'ホットヨガLAVAが手がける女性専用マシンピラティススタジオ。大型スクリーンの映像とインストラクターのハイブリッドレッスンで初心者でも安心。月額8,800円〜とリーズナブルな通い放題プランが魅力。',
+    description: 'ホットヨガLAVAが手がける女性専用マシンピラティススタジオです。大型スクリーンの映像とインストラクターのハイブリッドレッスンで初心者でも安心です。月額8,800円〜とリーズナブルな通い放題プランが魅力です。',
     access: '豊中エリア（詳細は公式サイトでご確認ください）',
     address: '大阪府豊中市玉井町1-2-1豊中駅前ビルディング5F',
-    popularPlan: { name: '通い放題プラン', description: '女性専用マシンピラティス。映像×インストラクターのハイブリッドレッスン。', price: '月額 8,800円〜（税込）' },
+    popularPlan: { name: '通い放題プラン', description: '女性専用マシンピラティスです。映像×インストラクターのハイブリッドレッスンです。', price: '月額 8,800円〜（税込）' },
     options: ['月額8,800円〜', '対象ブランド全店通い放題コースあり', '体験レッスンあり', 'LAVA会員優待あり'],
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', '姿勢改善', 'ダイエット', '運動不足解消'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', '大型スクリーン', '更衣室', 'ロッカー'] },
@@ -101,12 +101,12 @@ const studios = [
 ]
 
 const faqs = [
-  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！豊中エリアのスタジオはほとんどが初心者歓迎。STANCEは少人数6人制で丁寧に見てもらえ、Rintosullは映像×インストラクターのハイブリッドレッスンで分かりやすいです。' },
-  { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。豊中はマシン専門スタジオが充実しています。' },
-  { question: '豊中のピラティスの料金相場は？', answer: 'グループ月4回で8,800円〜9,625円程度。通い放題はRintosullが月額8,800円〜。パーソナルは1回7,500円〜8,500円。梅田に比べて全体的にリーズナブルです。' },
-  { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に増やすと効果的です。STANCEやRintosullの通い放題プランなら毎日でも通えます。' },
-  { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続で体の変化を実感する方が多いです。' },
-  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。zen placeはグループ体験1,000円、ピラティスミラーは2,200円で試せます。靴下（グリップソックス推奨）も忘れずに。' },
+  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '問題ありません。豊中エリアのスタジオはほとんどが初心者歓迎です。STANCEは少人数6人制で丁寧に見てもらえ、Rintosullは映像×インストラクターのハイブリッドレッスンで分かりやすいです。' },
+  { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。豊中はマシン専門スタジオが充実しています。' },
+  { question: '豊中のピラティスの料金相場は？', answer: 'グループ月4回で8,800円〜9,625円程度です。通い放題はRintosullが月額8,800円〜です。パーソナルは1回7,500円〜8,500円です。梅田に比べて全体的にリーズナブルです。' },
+  { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめです。慣れたら週2〜3回に増やすと効果的です。STANCEやRintosullの通い放題プランなら毎日でも通えます。' },
+  { question: 'ピラティスで痩せますか？', answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続で体の変化を実感する方が多いです。' },
+  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。zen placeはグループ体験1,000円、ピラティスミラーは2,200円で試せます。靴下（グリップソックス推奨）も忘れずにご用意ください。' },
   { question: '男性でも通えるスタジオはありますか？', answer: 'zen place豊中、studio Pilates remove、Doux pilates studioは男性も通えます。STANCE、ピラティスミラー、Rintosullは女性専用です。' },
   { question: '豊中駅と曽根駅、どちらが便利？', answer: '豊中駅にはzen placeとstudio Pilates removeがあり、曽根駅にはDoux pilates studioとSTANCEがあります。自宅からの最寄り駅で選ぶのがおすすめです。' },
   { question: '豊中は大阪空港に近いですが関係ありますか？', answer: '豊中市は大阪空港（伊丹空港）に近接していますが、スタジオは住宅地にあるため飛行機の騒音は気になりません。空港従事者の方も多く通っています。' },
@@ -130,8 +130,8 @@ export default function ToyonakaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス豊中おすすめ6選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス豊中おすすめ6選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -154,17 +154,11 @@ export default function ToyonakaPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p>
-            <p className="text-warm-600 leading-relaxed mb-6">Pilates-Biyori編集部です！</p>
-            <p className="text-warm-600 leading-relaxed mb-6">あなたは、</p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p>
-            <p className="text-warm-600 leading-relaxed mb-6">「豊中で人気のピラティススタジオを知りたい」</p>
-            <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、豊中エリアでおすすめのピラティススタジオ6選をまとめました。豊中は阪急宝塚線沿線の閑静な住宅地で、大阪空港にも近接。落ち着いた環境でピラティスを楽しめるスタジオが充実しています。
+              本ページでは、豊中エリアでおすすめのピラティススタジオ6選をまとめました。豊中は阪急宝塚線沿線の閑静な住宅地で、大阪空港にも近接です。落ち着いた環境でピラティスを楽しめるスタジオが充実しています。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>豊中でピラティススタジオを探している</span></li>
                 <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみたい</span></li>
@@ -173,7 +167,7 @@ export default function ToyonakaPage() {
                 <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較したい</span></li>
               </ul>
             </div>
-            <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
+            <p className="text-warm-600 leading-relaxed">以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。</p>
           </div>
         </section>
 
@@ -228,7 +222,7 @@ export default function ToyonakaPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              豊中は北摂エリアの住宅地で、梅田に比べて料金がリーズナブル。特にパーソナルレッスンは1回7,500円〜と、都心部に比べてお手頃です。近隣の<Link href="/area/senri-chuo/" className="text-warm-700 underline hover:text-warm-900">千里中央</Link>や<Link href="/area/esaka/" className="text-warm-700 underline hover:text-warm-900">江坂</Link>エリアと比較検討する方も多いです。
+              豊中は北摂エリアの住宅地で、梅田に比べて料金がリーズナブルです。特にパーソナルレッスンは1回7,500円〜と、都心部に比べてお手頃です。近隣の<Link href="/area/senri-chuo/" className="text-warm-700 underline hover:text-warm-900">千里中央</Link>や<Link href="/area/esaka/" className="text-warm-700 underline hover:text-warm-900">江坂</Link>エリアと比較検討する方も多いです。
             </p>
           </div>
         </section>
@@ -243,25 +237,25 @@ export default function ToyonakaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">豊中駅と曽根駅でスタジオが分かれる</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  豊中エリアのスタジオは阪急宝塚線の「豊中駅」と「曽根駅」周辺に分かれています。zen placeとstudio Pilates removeは豊中駅、Doux pilates studioとSTANCEは曽根駅が最寄り。自宅からの最寄り駅で選ぶと継続しやすいです。
+                  豊中エリアのスタジオは阪急宝塚線の「豊中駅」と「曽根駅」周辺に分かれています。zen placeとstudio Pilates removeは豊中駅、Doux pilates studioとSTANCEは曽根駅が最寄りです。自宅からの最寄り駅で選ぶと継続しやすいです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">パーソナル専門スタジオが充実</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  豊中エリアはstudio Pilates removeやDoux pilates studioなど、パーソナル専門の本格派スタジオが充実しているのが特徴。腰痛や肩こりなど体の不調を改善したい方や、本格的にピラティスに取り組みたい方に最適なエリアです。
+                  豊中エリアはstudio Pilates removeやDoux pilates studioなど、パーソナル専門の本格派スタジオが充実しているのが特徴です。腰痛や肩こりなど体の不調を改善したい方や、本格的にピラティスに取り組みたい方に最適なエリアです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">住宅地ならではの落ち着いた環境</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  豊中は閑静な住宅地のため、スタジオも落ち着いた雰囲気が多いです。都心の喧騒を離れてリラックスしてレッスンに集中したい方に向いています。駐車場のあるスタジオもあるので、車で通いたい方は事前に確認しましょう。
+                  豊中は閑静な住宅地のため、スタジオも落ち着いた雰囲気が多いです。都心の喧騒を離れてリラックスしてレッスンに集中したい方に向いています。駐車場のあるスタジオもあるので、車で通いたい方は事前にご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">阪急沿線の便も活用しよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">阪急沿線の便も活用する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  阪急宝塚線で梅田まで約15分。zen placeなら全国相互利用で梅田のスタジオにも通えます。また、<Link href="/area/senri-chuo/" className="text-warm-700 underline hover:text-warm-900">千里中央</Link>方面へはモノレールやバスでアクセス可能。選択肢を広げて最適なスタジオを見つけましょう。
+                  阪急宝塚線で梅田まで約15分です。zen placeなら全国他店利用で梅田のスタジオにも通えます。また、<Link href="/area/senri-chuo/" className="text-warm-700 underline hover:text-warm-900">千里中央</Link>方面へはモノレールやバスでアクセス可能です。選択肢を広げて最適なスタジオを見つけることをおすすめします。
                 </p>
               </div>
             </div>
@@ -279,25 +273,25 @@ export default function ToyonakaPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>パーソナルスタジオはウェア自由度高め</strong>。studio Pilates removeやDouxは完全プライベートなので、あまり気を遣わなくて大丈夫です。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>豊中エリアの豆知識：</strong>豊中は阪急宝塚線沿線の閑静な住宅地。服部緑地や豊島公園など緑豊かな公園が多く、レッスン後にウォーキングを楽しむ方も。大阪空港にも近いため、CAやパイロットなど航空関係者が通うスタジオもあるそうです。
+                  <strong>豊中エリアの豆知識：</strong>豊中は阪急宝塚線沿線の閑静な住宅地です。服部緑地や豊島公園など緑豊かな公園が多く、レッスン後にウォーキングを楽しむ方もいます。大阪空港にも近いため、CAやパイロットなど航空関係者が通うスタジオもあるそうです。
                 </p>
               </div>
             </div>
@@ -312,8 +306,8 @@ export default function ToyonakaPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
-                <p className="text-warm-600 text-sm mb-4">リーズナブルに通い放題。</p>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
+                <p className="text-warm-600 text-sm mb-4">リーズナブルに通い放題です。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull（月額 8,800円〜）</li>
                   <li className="text-warm-700">• STANCE（月4回 8,800円〜）</li>
@@ -321,7 +315,7 @@ export default function ToyonakaPage() {
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">本格パーソナル</h3>
-                <p className="text-warm-600 text-sm mb-4">充実の設備でマンツーマン。</p>
+                <p className="text-warm-600 text-sm mb-4">充実の設備でマンツーマンです。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• studio Pilates remove（25台マシン）</li>
                   <li className="text-warm-700">• Doux pilates studio（幅広い年齢対応）</li>
@@ -329,7 +323,7 @@ export default function ToyonakaPage() {
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
-                <p className="text-warm-600 text-sm mb-4">女性だけの安心空間。</p>
+                <p className="text-warm-600 text-sm mb-4">女性だけの安心空間です。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• STANCE（6人制少人数）</li>
                   <li className="text-warm-700">• ピラティスミラー（30分手軽）</li>
@@ -346,11 +340,11 @@ export default function ToyonakaPage() {
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">おすすめの期間・頻度</h2>
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
-              <p className="text-warm-600 leading-relaxed mb-6">週1-2回からスタート。最低2-3ヶ月継続で効果を実感。</p>
+              <p className="text-warm-600 leading-relaxed mb-6">週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。</p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
-              <p className="text-warm-600 leading-relaxed mb-6">週2-3回がおすすめ。3-6ヶ月で目に見える変化。</p>
+              <p className="text-warm-600 leading-relaxed mb-6">週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。</p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
-              <p className="text-warm-600 leading-relaxed">週1回のペースで無理なく継続。</p>
+              <p className="text-warm-600 leading-relaxed">週1回のペースで無理なく継続することをおすすめします。</p>
             </div>
           </div>
         </section>
@@ -363,7 +357,7 @@ export default function ToyonakaPage() {
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回〜通い放題</p>
-                <p className="text-sm text-warm-600 mb-4">グループレッスン中心。</p>
+                <p className="text-sm text-warm-600 mb-4">グループレッスンが中心です。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Rintosull（8,800円〜）</li>
                   <li>• STANCE（8,800円〜/月4回）</li>
@@ -374,7 +368,7 @@ export default function ToyonakaPage() {
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 11,000〜15,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月6回〜通い放題</p>
-                <p className="text-sm text-warm-600 mb-4">頻度高く通う方に。</p>
+                <p className="text-sm text-warm-600 mb-4">頻度高く通う方におすすめです。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスミラー月6回（11,000円）</li>
                   <li>• zen placeフリー（14,960円〜）</li>
@@ -383,7 +377,7 @@ export default function ToyonakaPage() {
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 7,500円〜/回</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">パーソナル</p>
-                <p className="text-sm text-warm-600 mb-4">個別指導で確実に効果。</p>
+                <p className="text-sm text-warm-600 mb-4">個別指導で確実に効果です。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Doux pilates（7,500円〜/回）</li>
                   <li>• studio Pilates remove（8,500円〜/回）</li>
@@ -410,21 +404,21 @@ export default function ToyonakaPage() {
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span>
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
-                <p className="text-warm-600 leading-relaxed">豊中の料金相場はグループ月4回で8,800円〜。パーソナルは1回7,500円〜。入会金やキャンペーンも確認しましょう。</p>
+                <p className="text-warm-600 leading-relaxed">豊中の料金相場はグループ月4回で8,800円〜です。パーソナルは1回7,500円〜です。入会金やキャンペーンもご確認ください。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4">
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span>
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
-                <p className="text-warm-600 leading-relaxed">zen placeはグループ体験1,000円。まずは2-3スタジオの体験を受けて比較しましょう。</p>
+                <p className="text-warm-600 leading-relaxed">zen placeはグループ体験1,000円です。まずは2-3スタジオの体験を受けて比較することをおすすめします。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4">
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span>
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
-                <p className="text-warm-600 leading-relaxed">豊中駅か曽根駅か、最寄り駅に合わせて選びましょう。車で通いたい方は駐車場の有無も確認。</p>
+                <p className="text-warm-600 leading-relaxed">豊中駅か曽根駅か、最寄り駅に合わせてお選びください。車で通いたい方は駐車場の有無もご確認ください。</p>
               </div>
             </div>
           </div>
@@ -457,17 +451,17 @@ export default function ToyonakaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
             <p className="text-warm-600 leading-relaxed mb-6">今回は豊中エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？</p>
-            <p className="text-warm-600 leading-relaxed mb-6">この記事では豊中にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。</p>
-            <p className="text-warm-600 leading-relaxed mb-6">ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。</p>
-            <p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">本ページでは、豊中にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">本ページの情報を、スタジオ選びにお役立てください。</p>
+            <p className="text-warm-700 font-medium text-center">本ページが、ピラティススタジオ選びの参考になれば幸いです。</p>
           </div>
         </section>
 
         {/* CTA */}
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2>
-            <p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスン1,000円〜。<br />まずは気軽に体験してみましょう。</p>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンのご予約</h2>
+            <p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスン1,000円〜です。<br />まずは体験レッスンへの参加をおすすめします。</p>
             <Link href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded">
               おすすめスタジオ一覧に戻る
             </Link>

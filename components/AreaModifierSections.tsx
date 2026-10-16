@@ -7,7 +7,7 @@ import Link from 'next/link'
  * GSCで「{エリア} ピラティス 初心者」「マシンピラティス {エリア}」等の
  * 修飾子クエリに需要があるため、掲載studiosの実データからマシン対応/初心者向けを
  * 判定して表示する。判定は features / description / basicInfo.facilities の
- * テキストのみを根拠にし、該当が無い場合は正直にその旨を書く（捏造しない）。
+ * テキストのみを根拠にし、該当がない場合はその旨を記載する（捏造しない）。
  */
 
 type Studio = {
@@ -51,7 +51,7 @@ export function AreaModifierSections({ areaName, studios }: { areaName: string; 
   )
   // 無料体験＝trialに『無料』表記または0円の店のみ（キャンペーン条件はtrial原文をそのまま表示）
   const freeTrial = studios.filter(hasFreeTrial)
-  // 無料が無いエリアでは、金額が確認できる体験の安い順TOP3を正直に提示
+  // 無料体験がないエリアでは、金額が確認できる体験の安い順TOP3を提示
   const paidTrials = studios
     .map((s) => ({ s, yen: parseYen(s.trial ?? '') }))
     .filter((x): x is { s: Studio; yen: number } => x.yen !== null && x.yen > 0)
@@ -85,7 +85,7 @@ export function AreaModifierSections({ areaName, studios }: { areaName: string; 
           ) : (
             <>
               <p className="text-warm-600 leading-relaxed mb-8 bg-white rounded-lg p-6 border border-warm-200">
-                現時点の掲載情報では、{areaName}で体験レッスンを無料と明記しているスタジオは確認できていません。
+                現時点の掲載情報では、{areaName}で体験レッスンを無料と明記しているスタジオはありません。
                 キャンペーンで無料になる時期もあるため、最新情報は各公式サイトでご確認ください。
                 {paidTrials.length > 0 ? 'なお、体験料金が確認できるスタジオは以下のとおりです。' : ''}
               </p>
@@ -121,7 +121,7 @@ export function AreaModifierSections({ areaName, studios }: { areaName: string; 
           <p className="text-warm-600 leading-relaxed mb-8">
             リフォーマーなどの専用マシンを使う「マシンピラティス」は、負荷やサポートを調整しやすく、
             正しいフォームを習得しやすいのが特長です。{areaName}でマシンピラティスに対応するスタジオを、
-            掲載情報からまとめました（各スタジオの最新の設備・料金は公式サイトでご確認ください）。
+            掲載情報からまとめています（各スタジオの最新の設備・料金は公式サイトでご確認ください）。
           </p>
           {machine.length > 0 ? (
             <div className="space-y-4">
@@ -135,7 +135,7 @@ export function AreaModifierSections({ areaName, studios }: { areaName: string; 
             </div>
           ) : (
             <p className="text-warm-600 leading-relaxed bg-warm-50 rounded-lg p-6 border border-warm-200">
-              現時点の掲載情報では、{areaName}でマシン専用と明記されたスタジオは確認できていません。
+              現時点の掲載情報では、{areaName}でマシン専用と明記されたスタジオはありません。
               マット中心のスタジオでもマシンを併設している場合があるため、下記の一覧から各スタジオの設備を
               ご確認ください。
             </p>
@@ -158,8 +158,8 @@ export function AreaModifierSections({ areaName, studios }: { areaName: string; 
             {areaName}で初心者におすすめのピラティススタジオ
           </h2>
           <p className="text-warm-600 leading-relaxed mb-8">
-            初めてのピラティスは、体験レッスンがある・少人数やパーソナルで丁寧に見てもらえるスタジオが安心です。
-            {areaName}で初心者でも始めやすいスタジオを、体験レッスンの有無や指導形態から選びました。
+            初めてピラティスを受ける方には、体験レッスンがあり、少人数制やパーソナルで丁寧な指導を受けられるスタジオをおすすめします。
+            {areaName}で初心者でも始めやすいスタジオを、体験レッスンの有無や指導形態をもとに掲載しています。
           </p>
           {beginner.length > 0 ? (
             <div className="space-y-4">
@@ -176,7 +176,7 @@ export function AreaModifierSections({ areaName, studios }: { areaName: string; 
           ) : (
             <p className="text-warm-600 leading-relaxed bg-white rounded-lg p-6 border border-warm-200">
               各スタジオの体験レッスンや初心者向けプランの有無は公式サイトでご確認ください。まずは体験レッスンで
-              雰囲気を確かめるのがおすすめです。
+              雰囲気を確かめることをおすすめします。
             </p>
           )}
           <p className="text-warm-500 text-xs mt-6 text-center">

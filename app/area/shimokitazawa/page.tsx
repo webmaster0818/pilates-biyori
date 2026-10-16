@@ -18,7 +18,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/shimokitazawa/' },
   title: '【2026年10月最新】下北沢のピラティス12社を比較｜無料体験1社・月額最安4,800円〜',
-  description: '下北沢エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  description: '下北沢エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,下北沢,東京,世田谷区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -29,13 +29,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: 'マットグループ 月4回 9,625円〜',
     trial: '体験レッスン 500円〜',
-    features: ['マット&マシン', '下北沢駅近', 'AI姿勢分析', '男性OK'],
-    description: '全国150店舗以上展開の大手ピラティススタジオ。下北沢駅から徒歩圏内で、マットグループ・マシングループ・プライベートすべてに対応。有資格インストラクターが在籍し、AIによる姿勢分析で初心者も体の変化を実感しやすい。',
+    features: ['マット&マシン', '下北沢駅近', 'AI姿勢分析', '男性利用可'],
+    description: '全国150店舗以上展開の大手ピラティススタジオです。下北沢駅から徒歩圏内で、マットグループ・マシングループ・プライベートすべてに対応しています。有資格エデュケーターが在籍し、AIによる姿勢分析で初心者も体の変化を実感しやすいです。',
     access: '小田急線・京王井の頭線「下北沢駅」徒歩圏内',
     address: '東京都世田谷区北沢2丁目26-3 Nビル 1階',
     popularPlan: {
       name: 'リフォーマーグループ（月4回）',
-      description: 'マシンを使ったグループレッスン。少人数制で丁寧な指導。',
+      description: 'マシンを使ったグループレッスンです。少人数制で丁寧な指導です。',
       price: '月4回 15,400円（税込）〜',
     },
     options: [
@@ -61,12 +61,12 @@ const studios = [
     price: '1回 1,073円〜',
     trial: '体験レッスン 1,000円',
     features: ['女性専用', '圧倒的低価格', '7スタジオ相互利用', 'マットピラティス'],
-    description: '女性専用のマットピラティススタジオ。1回あたり1,073円〜という驚きの低価格が魅力。下北沢を含む都内7スタジオを追加料金なしで利用可能。体験レッスンは1,000円。アットホームな雰囲気で初心者にもおすすめ。',
+    description: '女性専用のマットピラティススタジオです。1回あたり1,073円〜という驚きの低価格が魅力です。下北沢を含む都内7スタジオを追加料金なしで利用可能です。体験レッスンは1,000円です。アットホームな雰囲気で初心者にもおすすめです。',
     access: '小田急線・京王井の頭線「下北沢駅」徒歩圏内',
     address: '東京都世田谷区（下北沢エリア）',
     popularPlan: {
       name: '月4回プラン',
-      description: 'マットピラティス月4回。7スタジオ相互利用OK。',
+      description: 'マットピラティス月4回です。7スタジオ相互利用可能です。',
       price: '月4回 4,800円（税別）',
     },
     options: [
@@ -78,7 +78,7 @@ const studios = [
     userProfile: {
       ageRange: '20代〜40代が中心',
       genderRatio: '女性100%',
-      purpose: ['運動習慣づくり', '姿勢改善', 'コスパ重視', 'リラックス'],
+      purpose: ['運動習慣づくり', '姿勢改善', '料金重視', 'リラックス'],
     },
     basicInfo: {
       hours: 'スタジオにより異なる',
@@ -92,12 +92,12 @@ const studios = [
     price: '月6回 11,000円',
     trial: '体験レッスン 2,200円',
     features: ['マシンピラティス', 'グループ&マンツーマン', 'コナミ運営', '月6回定額'],
-    description: 'コナミスポーツクラブが運営するマシンピラティス専門スタジオ。グループレッスンとマンツーマンの両方に対応。月6回11,000円、7回目以降は1回1,100円で追加可能。プライベートレッスンも30分4,400円からとリーズナブル。',
+    description: 'コナミスポーツクラブが運営するマシンピラティス専門スタジオです。グループレッスンとマンツーマンの両方に対応しています。月6回11,000円、7回目以降は1回1,100円で追加可能です。プライベートレッスンも30分4,400円からとリーズナブルです。',
     access: '小田急線・京王井の頭線「下北沢駅」徒歩圏内',
     address: '東京都世田谷区（下北沢エリア）',
     popularPlan: {
       name: '月会費プラン（月6回）',
-      description: 'マシンピラティスが月6回まで定額。7回目以降は1回1,100円。',
+      description: 'マシンピラティスが月6回まで定額です。7回目以降は1回1,100円です。',
       price: '月6回 11,000円（税込）',
     },
     options: [
@@ -123,12 +123,12 @@ const studios = [
     price: '1レッスン 6,250円〜',
     trial: '体験レッスンあり',
     features: ['完全個室パーソナル', 'マシンピラティス', 'オーダーメイド', '全国展開'],
-    description: '完全個室のパーソナルマシンピラティス専門スタジオ。一人ひとりに合わせたオーダーメイドプログラムを提供。月2回15,000円〜、1レッスンあたり6,250円〜。プライバシーを重視したい方や集中してトレーニングしたい方におすすめ。',
+    description: '完全個室のパーソナルマシンピラティス専門スタジオです。一人ひとりに合わせたオーダーメイドプログラムを提供しています。月2回15,000円〜、1レッスンあたり6,250円〜です。プライバシーを重視したい方や集中してトレーニングしたい方におすすめです。',
     access: '小田急線・京王井の頭線「下北沢駅」徒歩圏内',
     address: '東京都世田谷区（下北沢エリア）',
     popularPlan: {
       name: '月2回プラン',
-      description: '完全個室パーソナルマシンピラティス。月2回。',
+      description: '完全個室パーソナルマシンピラティスです。月2回です。',
       price: '月2回 15,000円〜',
     },
     options: [
@@ -154,7 +154,7 @@ const studios = [
     price: '1回 7,850円〜',
     trial: '体験レッスン 3,300円',
     features: ['パーソナルマシン', 'アットホーム', '下北沢エリア', '丁寧な指導'],
-    description: '下北沢エリアのパーソナルマシンピラティス専門スタジオ。一人ひとりの体の状態に合わせた丁寧な指導が特徴。体験レッスンは3,300円。1回7,850円〜で本格的なマシンピラティスが受けられる。',
+    description: '下北沢エリアのパーソナルマシンピラティス専門スタジオです。一人ひとりの体の状態に合わせた丁寧な指導が特徴です。体験レッスンは3,300円です。1回7,850円〜で本格的なマシンピラティスが受けられます。',
     access: '小田急線・京王井の頭線「下北沢駅」徒歩圏内',
     address: '東京都世田谷区（下北沢エリア）',
   },
@@ -165,7 +165,7 @@ const studios = [
     price: '料金は店舗により異なる（公式の店舗ページで確認）',
     trial: '体験レッスンあり',
     features: ['最大12名グループ', '世界最大級ブランド', 'マシンピラティス', '豊富なクラス'],
-    description: 'アメリカ発の世界最大級マシンピラティスブランド。最大12名のグループレッスンで、料金は店舗により異なります。レベル別のクラスが豊富で初心者から上級者まで対応。下北沢近隣エリアで通いやすい。',
+    description: 'アメリカ発の世界最大級マシンピラティスブランドです。最大12名のグループレッスンで、料金は店舗により異なります。レベル別のクラスが豊富で初心者から上級者まで対応しています。下北沢近隣エリアで通いやすいです。',
     access: '下北沢駅から近隣エリア',
     address: '東京都世田谷区（下北沢近隣）',
   },
@@ -176,7 +176,7 @@ const studios = [
     price: '月4回 11,220円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', 'マシンピラティス', 'おしゃれな空間', '音楽×ピラティス'],
-    description: '女性専用のマシンピラティススタジオ。月4回11,220円〜で本格マシンピラティスが楽しめる。音楽に合わせたレッスンやボディメイクに特化したプログラムが人気。おしゃれな空間で楽しく続けられる。',
+    description: '女性専用のマシンピラティススタジオです。月4回11,220円〜で本格マシンピラティスが楽しめます。音楽に合わせたレッスンやボディメイクに特化したプログラムが人気です。おしゃれな空間で楽しく続けられます。',
     access: '下北沢駅から近隣エリア',
     address: '東京都世田谷区（下北沢近隣）',
   },
@@ -186,8 +186,8 @@ const studios = [
     image: '/images/studios/element.webp',
     price: '月4回 22,000円',
     trial: '体験レッスンあり',
-    features: ['マンツーマン30分', 'パーソナル', '短時間集中', '手ぶらOK'],
-    description: '1回30分のマンツーマンピラティス専門スタジオ。月4回22,000円で、短時間集中型のパーソナルレッスンが受けられる。忙しい方でも無理なく続けやすい。手ぶらで通えるのも魅力。',
+    features: ['マンツーマン30分', 'パーソナル', '短時間集中', '手ぶらで参加可能'],
+    description: '1回30分のマンツーマンピラティス専門スタジオです。月4回22,000円で、短時間集中型のパーソナルレッスンが受けられます。忙しい方でも無理なく続けやすいです。手ぶらで通えるのも魅力です。',
     access: '下北沢駅から近隣エリア',
     address: '東京都世田谷区（下北沢近隣）',
   },
@@ -198,7 +198,7 @@ const studios = [
     price: '月4回 9,680円',
     trial: '体験レッスンあり',
     features: ['予約不要', '30分レッスン', 'マシンピラティス', '気軽に通える'],
-    description: '予約不要で30分のマシンピラティスが楽しめるスタジオ。月4回9,680円とリーズナブルで、思い立った時にすぐ通えるのが魅力。忙しい方や予定が読みにくい方におすすめ。',
+    description: '予約不要で30分のマシンピラティスが楽しめるスタジオです。月4回9,680円とリーズナブルで、思い立った時にすぐ通えるのが魅力です。忙しい方や予定が読みにくい方におすすめです。',
     access: '下北沢駅から近隣エリア',
     address: '東京都世田谷区（下北沢近隣）',
   },
@@ -208,7 +208,7 @@ const studios = [
     price: '月額制（プランにより異なる）',
     trial: '体験レッスンあり',
     features: ['ホットヨガ&ピラティス', '広い施設', '予約不要クラスあり', '初心者歓迎'],
-    description: 'ホットヨガをメインにピラティスプログラムも提供するフィットネススタジオ。温かい環境でのピラティスは体がほぐれやすく効果的。施設が広くきれいで、初心者でも通いやすい。',
+    description: 'ホットヨガをメインにピラティスプログラムも提供するフィットネススタジオです。温かい環境でのピラティスは体がほぐれやすく効果的です。施設が広くきれいで、初心者でも通いやすいです。',
     access: '下北沢駅から近隣エリア',
     address: '東京都世田谷区（下北沢近隣）',
   },
@@ -219,7 +219,7 @@ const studios = [
     price: '月4回(45分) 29,700円〜 / 月4回(60分) 39,600円〜',
     trial: '体験トレーニング 7,100円（無料キャンペーン実施店舗あり）',
     features: ['マンツーマン（パーソナル）', 'マシン・マット両対応', '医師推奨パーソナルジムNo.1受賞'],
-    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオ。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せる。下北沢エリア（詳細は公式サイト参照）。',
+    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオです。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せます。下北沢エリアです（詳細は公式サイト参照）。',
     access: '下北沢エリア（詳細は公式サイト参照）',
     address: '東京都（詳細は公式サイト参照）',
   },
@@ -230,12 +230,12 @@ const studios = [
     price: '月2回 19,800円〜（1回あたり8,250円〜9,900円）',
     trial: '体験レッスン 3,300円（キャンペーン価格・当日入会で無料）',
     features: ['完全個室マンツーマン', 'リフォーマー・キャデラック完備', '下北沢駅徒歩約1分', '男女利用可'],
-    description: '下北沢駅から徒歩約1分の、完全個室・マンツーマンのパーソナルマシンピラティススタジオ。リフォーマーとキャデラックの両方を備え、マットピラティスにも対応する。カウンセリングからレッスンまで同じトレーナーが担当。男女とも利用でき、個室のため他の利用者と顔を合わせない。',
+    description: '下北沢駅から徒歩約1分の、完全個室・マンツーマンのパーソナルマシンピラティススタジオです。リフォーマーとキャデラックの両方を備え、マットピラティスにも対応します。カウンセリングからレッスンまで同じトレーナーが担当です。男女とも利用でき、個室のため他の利用者と顔を合わせません。',
     access: '小田急小田原線・京王井の頭線「下北沢駅」徒歩約1分',
     address: '東京都世田谷区北沢2-23-12 アドレス下北沢102号室',
     popularPlan: {
       name: 'ベーシックコース（月4回）',
-      description: '完全個室のパーソナルマシンピラティス。月4回で1回あたり9,500円。',
+      description: '完全個室のパーソナルマシンピラティスです。月4回で1回あたり9,500円です。',
       price: '月4回 38,000円（税込）',
     },
     options: [
@@ -261,7 +261,7 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！下北沢エリアのスタジオはどこも初心者歓迎です。NATURAglamは1回1,073円〜、chocoZAPは月額3,278円で気軽に始められます。',
+    answer: '問題ありません。下北沢エリアのスタジオはどこも初心者歓迎です。NATURAglamは1回1,073円〜、chocoZAPは月額3,278円で気軽に始められます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
@@ -273,15 +273,15 @@ const faqs = [
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1〜2回がおすすめ。慣れてきたら週2〜3回に増やすと効果が出やすくなります。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回に増やすと効果が出やすくなります。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'インナーマッスルが鍛えられ基礎代謝が上がるため、太りにくい体質に変わります。最低2〜3ヶ月は継続しましょう。',
+    answer: 'インナーマッスルが鍛えられ基礎代謝が上がるため、太りにくい体質に変わります。最低2〜3ヶ月は継続することをおすすめします。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOKです。多くのスタジオでウェアやタオルのレンタルもあります。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。多くのスタジオでウェアやタオルのレンタルもあります。',
   },
   {
     question: 'ピラティスとヨガの違いは？',
@@ -297,7 +297,7 @@ const faqs = [
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめ？',
-    answer: 'パーソナルは効果が出やすく自分のペースで進められます。グループは安くて仲間と楽しく続けられます。目的と予算で選びましょう。',
+    answer: 'パーソナルは効果が出やすく自分のペースで進められます。グループは安くて仲間と楽しく続けられます。目的と予算でお選びください。',
   },
 ]
 
@@ -318,8 +318,8 @@ export default function ShimokitazawaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026年7月最新】ピラティス下北沢おすすめ12選！<br className="hidden md:block" />
-              料金・体験レッスン・マシン対応を比較！
+              【2026年7月最新】ピラティス下北沢おすすめ12選<br className="hidden md:block" />
+              料金・体験レッスン・マシン対応を比較
             </h1>
           </div>
         </section>
@@ -344,29 +344,11 @@ export default function ShimokitazawaPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「下北沢でピラティスを始めたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「サブカルの街でおしゃれに通えるスタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、下北沢エリア（世田谷区）でおすすめのピラティススタジオ12選をまとめました。小田急線・京王井の頭線が乗り入れる下北沢駅周辺は、演劇・古着・カフェなどサブカルチャーの街として知られていますが、実はピラティススタジオも充実しています。
+              本ページでは、下北沢エリア（世田谷区）でおすすめのピラティススタジオ12選をまとめました。小田急線・京王井の頭線が乗り入れる下北沢駅周辺は、演劇・古着・カフェなどサブカルチャーの街として知られていますが、実はピラティススタジオも充実しています。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -374,7 +356,7 @@ export default function ShimokitazawaPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
-                  <span>安くてコスパの良いスタジオがいい</span>
+                  <span>安くて料金を抑えられるスタジオがいい</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -391,7 +373,7 @@ export default function ShimokitazawaPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -445,7 +427,7 @@ export default function ShimokitazawaPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              下北沢は住宅地としての人気が高く、地元在住の方が徒歩や自転車で通えるスタジオが充実しています。繁華街ほど料金は高くなく、かつ都心へのアクセスも良いバランスの取れたエリアです。平日昼間のクラスは比較的空いていて狙い目です。近隣の三軒茶屋エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
+              下北沢は住宅地としての人気が高く、地元在住の方が徒歩や自転車で通えるスタジオが充実しています。繁華街ほど料金は高くなく、かつ都心へのアクセスも良いバランスの取れたエリアです。平日昼間のクラスは比較的空いている傾向があります。近隣の三軒茶屋エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
             </p>
           </div>
         </section>
@@ -460,25 +442,25 @@ export default function ShimokitazawaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">小田急線・京王井の頭線「下北沢駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  下北沢エリアのスタジオは下北沢駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。下北沢駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  下北沢エリアのスタジオは下北沢駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。下北沢駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">住宅地ならではの予約の特徴を把握</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  下北沢は住宅地のため、主婦・ママ層が多い平日午前中と、仕事帰りの平日夜が予約のピークタイムです。土日は意外と空いているスタジオも多いので、狙い目の時間帯を見つけておくと通いやすくなります。子連れOKのクラスがあるスタジオもあるので、お子さまがいる方は確認してみましょう。
+                  下北沢は住宅地のため、主婦・ママ層が多い平日午前中と、仕事帰りの平日夜が予約のピークタイムです。土日は意外と空いているスタジオも多いので、比較的空いている時間帯を把握しておくと通いやすくなります。子連れ可のクラスがあるスタジオもあるので、お子さまがいる方はご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">料金プランの種類と契約条件をしっかり比較</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  下北沢エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかを確認しましょう。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため要チェックです。
+                  下北沢エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかをご確認ください。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため、事前にご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  下北沢エリアだけでなく、近隣の<Link href="/area/sangenjaya/" className="text-warm-700 underline hover:text-warm-900">三軒茶屋</Link>、<Link href="/area/yoyogi-uehara/" className="text-warm-700 underline hover:text-warm-900">代々木上原</Link>、<Link href="/area/sasazuka/" className="text-warm-700 underline hover:text-warm-900">笹塚</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  下北沢エリアだけでなく、近隣の<Link href="/area/sangenjaya/" className="text-warm-700 underline hover:text-warm-900">三軒茶屋</Link>、<Link href="/area/yoyogi-uehara/" className="text-warm-700 underline hover:text-warm-900">代々木上原</Link>、<Link href="/area/sasazuka/" className="text-warm-700 underline hover:text-warm-900">笹塚</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -496,25 +478,25 @@ export default function ShimokitazawaPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>下北沢エリアの豆知識：</strong>下北沢は地元の方が徒歩や自転車で通うケースが多いエリアです。自転車の方はスタジオ近くの駐輪スペースの有無を確認しておきましょう。近場なら荷物も最小限で済むので、気軽に続けやすいのが下北沢の良さです。
+                  <strong>下北沢エリアの豆知識：</strong>下北沢は地元の方が徒歩や自転車で通うケースが多いエリアです。自転車の方はスタジオ近くの駐輪スペースの有無をご確認ください。近場なら荷物も最小限で済むので、気軽に続けやすいのが下北沢の良さです。
                 </p>
               </div>
             </div>
@@ -530,9 +512,9 @@ export default function ShimokitazawaPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ最強</h3>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">割安</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額3,278円〜始められる！
+                  月額3,278円〜始められます。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• chocoZAP（月額 3,278円）</li>
@@ -544,7 +526,7 @@ export default function ShimokitazawaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  安心して通えるスタジオ。
+                  安心して通えるスタジオです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• NATURAglam（1回 1,073円〜）</li>
@@ -554,7 +536,7 @@ export default function ShimokitazawaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  マンツーマンで効果的に。
+                  マンツーマン指導で効率よく取り組めます。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• STUDIO IVY（1レッスン 6,250円〜）</li>
@@ -577,15 +559,15 @@ export default function ShimokitazawaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1〜2回からスタート。最低2〜3ヶ月で効果を実感できます。
+                週1〜2回から始めることをおすすめします。最低2〜3ヶ月で効果を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイク目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2〜3回がおすすめ。3〜6ヶ月で目に見える変化が期待できます。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">健康管理目的の方</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続しましょう。
+                週1回のペースで無理なく継続することをおすすめします。
               </p>
             </div>
           </div>
@@ -602,7 +584,7 @@ export default function ShimokitazawaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜5,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">セルフ・マット</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  とにかく安く始めたい方に。
+                  とにかく安く始めたい方におすすめです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• chocoZAP（月額 3,278円）</li>
@@ -614,7 +596,7 @@ export default function ShimokitazawaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 9,000〜15,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">マシングループ</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン完備のスタジオでしっかり。
+                  マシン完備のスタジオでしっかり取り組めます。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（マット月4回 9,625円〜）</li>
@@ -626,9 +608,9 @@ export default function ShimokitazawaPage() {
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">パーソナル</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">効果◎</p>
+                <p className="text-3xl font-bold text-warm-800 mb-4">効果が期待できる</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マンツーマンで最大効果。
+                  マンツーマンで最大効果です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• STUDIO IVY（月2回 15,000円〜）</li>
@@ -654,7 +636,7 @@ export default function ShimokitazawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ダイエット、姿勢改善、体幹強化、肩こり・腰痛改善など、目的に応じてスタジオを選びましょう。パーソナルは効果重視、グループは楽しさ重視の方に向いています。
+                  ダイエット、姿勢改善、体幹強化、肩こり・腰痛改善など、目的に応じてスタジオをお選びください。パーソナルは効果重視、グループは楽しさ重視の方に向いています。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -663,7 +645,7 @@ export default function ShimokitazawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  下北沢エリアはchocoZAPの月額3,278円からパーソナル月4回22,000円まで幅広い選択肢があります。まずは続けやすい価格帯から始めましょう。
+                  下北沢エリアはchocoZAPの月額3,278円からパーソナル月4回22,000円まで幅広い選択肢があります。まずは続けやすい価格帯から始めることをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -672,7 +654,7 @@ export default function ShimokitazawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  NATURAglamは1,000円、ピラティスミラーは2,200円、Pilates Studio Muniは3,300円で体験できます。実際の雰囲気やインストラクターとの相性を確かめましょう。
+                  NATURAglamは1,000円、ピラティスミラーは2,200円、Pilates Studio Muniは3,300円で体験できます。実際の雰囲気やインストラクターとの相性を確かめることをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -681,7 +663,7 @@ export default function ShimokitazawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  下北沢は小田急線・京王井の頭線が乗り入れ、渋谷・新宿へのアクセスも良好。古着屋やカフェ、劇場が並ぶサブカルチャーの街で、レッスン前後の時間も楽しめます。
+                  下北沢は小田急線・京王井の頭線が乗り入れ、渋谷・新宿へのアクセスも良好です。古着屋やカフェ、劇場が並ぶサブカルチャーの街で、レッスン前後の時間も楽しめます。
                 </p>
               </div>
             </div>
@@ -724,16 +706,16 @@ export default function ShimokitazawaPage() {
               今回は下北沢エリア（東京都世田谷区）のおすすめピラティススタジオ12選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              chocoZAPの月額3,278円やNATURAglamの1回1,073円〜というコスパ最強スタジオから、STUDIO IVYやPilates Studio Muniの本格パーソナルマシンピラティスまで、下北沢には多彩な選択肢が揃っています。女性専用スタジオもNATURAglam・ピラティスKの2つがあり、安心して通えます。
+              chocoZAPの月額3,278円やNATURAglamの1回1,073円〜という割安スタジオから、STUDIO IVYやPilates Studio Muniの本格パーソナルマシンピラティスまで、下北沢には多彩な選択肢が揃っています。女性専用スタジオもNATURAglam・ピラティスKの2つがあり、安心して通えます。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               サブカル・演劇・古着の街として知られる下北沢は、おしゃれなスタジオが多く、レッスン前後にカフェや古着屋巡りも楽しめる魅力的なエリアです。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひ体験レッスンに足を運んで、自分にぴったりのスタジオを見つけてくださいね。
+              体験レッスンで実際の雰囲気を確認したうえで、スタジオをお選びください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのスタジオが見つかることを願っています。
+              本ページが、スタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -742,11 +724,11 @@ export default function ShimokitazawaPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン1,000円〜3,300円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン1,000円〜3,300円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

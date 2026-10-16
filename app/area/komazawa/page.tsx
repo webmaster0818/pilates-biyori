@@ -15,8 +15,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/komazawa/' },
-  title: '【2026年10月最新】ピラティス駒沢おすすめ6選！料金・体験レッスン・マシン対応を比較！',
-  description: '駒沢エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。駒沢公園近くで初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス駒沢おすすめ6選料金・体験レッスン・マシン対応を比較',
+  description: '駒沢エリアのおすすめピラティススタジオ6選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。駒沢公園近くで初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,駒沢,東京,世田谷区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -27,13 +27,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: 'マットグループ月4回 9,625円〜',
     trial: '体験レッスン 1,000円',
-    features: ['マット&マシン', '初心者歓迎', '駒沢大学駅徒歩4分', '男性OK'],
-    description: '全国150店舗以上展開の大手ピラティススタジオ。駒沢大学駅駒沢公園口から徒歩4分の好立地。マットグループ、マシン（リフォーマー）グループ、プライベートレッスンと幅広いメニューを提供。マットグループ月4回9,625円〜とリーズナブル。経験豊富なインストラクターが一人ひとりに合わせた丁寧な指導を行います。男性も利用可能です。',
+    features: ['マット&マシン', '初心者歓迎', '駒沢大学駅徒歩4分', '男性利用可'],
+    description: '全国150店舗以上展開の大手ピラティススタジオです。駒沢大学駅駒沢公園口から徒歩4分の好立地です。マットグループ、マシン（リフォーマー）グループ、プライベートレッスンと幅広いメニューを提供しています。マットグループ月4回9,625円〜とリーズナブルです。経験豊富なエデュケーターが一人ひとりに合わせた丁寧な指導を行います。男性も利用可能です。',
     access: '東急田園都市線「駒沢大学駅」駒沢公園口 徒歩4分',
     address: '東京都目黒区東が丘2丁目12-20 リュウ フランシュビル B1階',
     popularPlan: {
       name: 'マットグループ月4回プラン',
-      description: 'マットグループレッスンを月4回受講できる人気プラン。駒沢大学駅から徒歩4分で通いやすい。',
+      description: 'マットグループレッスンを月4回受講できる人気プランです。駒沢大学駅から徒歩4分で通いやすいです。',
       price: '月4回 9,625円〜（税込）',
     },
     options: [
@@ -59,12 +59,12 @@ const studios = [
     price: '月2回 6,600円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', 'マシンピラティス専門', '駒沢大学駅徒歩3分', '月2回6,600円〜'],
-    description: '女性専用のマシンピラティス専門スタジオ。駒沢大学駅西口から徒歩3分の好立地。Intro、BODY MAKE、Conditioningの3カテゴリのプログラムを自由に選べます。月2回6,600円〜と始めやすい料金設定。レッスン繰越も無制限で在籍中いつでも利用可能。シャワールーム・パウダールーム完備。',
+    description: '女性専用のマシンピラティス専門スタジオです。駒沢大学駅西口から徒歩3分の好立地です。Intro、BODY MAKE、Conditioningの3カテゴリのプログラムを自由に選べます。月2回6,600円〜と始めやすい料金設定です。レッスン繰越も無制限で在籍中いつでも利用可能です。シャワールーム・パウダールーム完備です。',
     access: '東急田園都市線「駒沢大学駅」西口 徒歩3分',
     address: '東京都世田谷区駒沢（駒沢大学駅徒歩3分）',
     popularPlan: {
       name: '月4回プラン',
-      description: '女性専用マシンピラティスレッスンを月4回受講。3つのプログラムから自由に選択可能。',
+      description: '女性専用マシンピラティスレッスンを月4回受講です。3つのプログラムから自由に選択可能です。',
       price: '月4回プラン（税込）',
     },
     options: [
@@ -92,12 +92,12 @@ const studios = [
     priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
     trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '最大3名までの少人数セミパーソナル形式のマシンピラティススタジオ。インストラクターが一人ひとりに十分に対応できる環境で、当日予約・当日キャンセルOKという柔軟なシステムが魅力。月2回11,000円〜で、体験レッスンは無料。',
+    description: '最大3名までの少人数セミパーソナル形式のマシンピラティススタジオです。インストラクターが一人ひとりに十分に対応できる環境で、当日予約・当日キャンセル可能という柔軟なシステムが魅力です。月2回11,000円〜で、体験レッスンは無料です。',
     access: '駒沢大学駅 徒歩1分',
     address: '〒154-0012 東京都世田谷区駒沢1丁目4-14　4階',
     popularPlan: {
       name: '月4回プラン',
-      description: '最大3名のセミパーソナルでマシンピラティスレッスン。',
+      description: '最大3名のセミパーソナルでマシンピラティスレッスンです。',
       price: '月4回プラン（税込）',
     },
     userProfile: {
@@ -118,12 +118,12 @@ const studios = [
     price: 'プライベートレッスン 要問合せ',
     trial: '体験レッスンあり',
     features: ['駒沢公園横', '管理栄養士在籍', '臨床心理士在籍', 'プライベートレッスン'],
-    description: '駒沢公園横に位置し、大きな窓から木々の緑を眺められる自然豊かなロケーションが魅力のピラティススタジオ。管理栄養士による栄養相談や臨床心理士によるカウンセリングも行っており、心身両面からのトータルケアが特徴。プライベートレッスンで一人ひとりに合わせたオーダーメイドプログラムを提供。',
+    description: '駒沢公園横に位置し、大きな窓から木々の緑を眺められる自然豊かなロケーションが魅力のピラティススタジオです。管理栄養士による栄養相談や臨床心理士によるカウンセリングも行っており、心身両面からのトータルケアが特徴です。プライベートレッスンで一人ひとりに合わせたオーダーメイドプログラムを提供しています。',
     access: '東急田園都市線「駒沢大学駅」徒歩14分（駒沢公園横）',
     address: '東京都世田谷区駒沢公園近く',
     popularPlan: {
       name: 'プライベートレッスン',
-      description: '駒沢公園の緑を眺めながらマンツーマンでピラティスレッスン。',
+      description: '駒沢公園の緑を眺めながらマンツーマンでピラティスレッスンです。',
       price: '料金は店舗にお問い合わせください',
     },
     options: [
@@ -149,12 +149,12 @@ const studios = [
     price: '月4回 22,000円',
     trial: '体験レッスン 3,300円',
     features: ['マンツーマン30分', '月4回 22,000円', '体験3,300円', '駒沢近隣'],
-    description: 'マシンピラティス専門のパーソナルジム。1回30分の短時間マンツーマンレッスンで、忙しい方でも効率的にトレーニングが可能。月4回22,000円とパーソナルの中ではリーズナブルな料金設定。体験レッスンは3,300円。マシンピラティスの専門トレーナーが正しいフォームで効果的に指導します。',
+    description: 'マシンピラティス専門のパーソナルジムです。1回30分の短時間マンツーマンレッスンで、忙しい方でも効率的にトレーニングが可能です。月4回22,000円とパーソナルの中ではリーズナブルな料金設定です。体験レッスンは3,300円です。マシンピラティスの専門トレーナーが正しいフォームで効果的に指導します。',
     access: '駒沢エリアからアクセス可能',
     address: '東京都世田谷区（駒沢近隣）',
     popularPlan: {
       name: '月4回プラン',
-      description: 'マシンピラティス専門トレーナーによる30分マンツーマンレッスン。',
+      description: 'マシンピラティス専門トレーナーによる30分マンツーマンレッスンです。',
       price: '月4回 22,000円（税込）',
     },
     options: [
@@ -180,12 +180,12 @@ const studios = [
     price: '料金は店舗により異なる（公式の店舗ページで確認）',
     trial: '体験レッスンあり',
     features: ['最大12名グループ', 'リフォーマー使用', '料金は店舗ごと', '駒沢近隣'],
-    description: 'アメリカ発のマシンピラティス専門スタジオ。最大12名のグループレッスンで、リフォーマーを使った本格的なマシンピラティスを体験できます。料金は店舗により異なります（公式の店舗ページで確認）。レベル別にクラスが分かれているので初心者も安心です。',
+    description: 'アメリカ発のマシンピラティス専門スタジオです。最大12名のグループレッスンで、リフォーマーを使った本格的なマシンピラティスを体験できます。料金は店舗により異なります（公式の店舗ページで確認）。レベル別にクラスが分かれているので初心者も安心です。',
     access: '駒沢エリアからアクセス可能',
     address: '東京都世田谷区（駒沢近隣）',
     popularPlan: {
       name: '月4回プラン',
-      description: '最大12名のグループリフォーマーレッスン。',
+      description: '最大12名のグループリフォーマーレッスンです。',
       price: '店舗により異なる（公式の店舗ページで確認）',
     },
     options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
@@ -205,11 +205,11 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも駒沢のスタジオに通えますか？',
-    answer: 'はい、駒沢エリアのスタジオはほとんどが初心者歓迎です。zen place pilatesはマット&マシンの両方に対応し初心者向けクラスが充実。PILATES STUDIO noaは3つのプログラムカテゴリから選べ、Introコースが初心者に最適です。Pilates Meeは最大3名のセミパーソナルで丁寧に指導してもらえます。',
+    answer: 'はい、駒沢エリアのスタジオはほとんどが初心者歓迎です。zen place pilatesはマット&マシンの両方に対応し初心者向けクラスが充実しています。PILATES STUDIO noaは3つのプログラムカテゴリから選べ、Introコースが初心者に最適です。Pilates Meeは最大3名のセミパーソナルで丁寧に指導してもらえます。',
   },
   {
     question: '駒沢のピラティススタジオの料金相場はどのくらいですか？',
-    answer: '駒沢エリアのグループレッスン料金相場は、月4回で9,625円〜11,000円程度です。パーソナルレッスンはELEMENTが月4回22,000円。セミパーソナルのPilates Meeは月2回11,000円〜。PILATES STUDIO noaは月2回6,600円〜と始めやすい料金設定です。体験レッスンは無料〜3,300円が一般的です。',
+    answer: '駒沢エリアのグループレッスン料金相場は、月4回で9,625円〜11,000円程度です。パーソナルレッスンはELEMENTが月4回22,000円です。セミパーソナルのPilates Meeは月2回11,000円〜です。PILATES STUDIO noaは月2回6,600円〜と始めやすい料金設定です。体験レッスンは無料〜3,300円が一般的です。',
   },
   {
     question: '駒沢公園近くでピラティスができるスタジオはありますか？',
@@ -217,23 +217,23 @@ const faqs = [
   },
   {
     question: 'マシンピラティスとマットピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。マットは場所を選ばず自宅でも続けやすいのが特徴です。駒沢ではzen place pilatesが両方に対応、PILATES STUDIO noaやPilates Meeがマシン専門です。',
+    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷を調整しやすく、初心者におすすめです。マットは場所を選ばず、自宅でも続けやすい点が特徴です。駒沢ではzen place pilatesが両方に対応、PILATES STUDIO noaやPilates Meeがマシン専門です。',
   },
   {
     question: 'どのくらいの頻度で通うのがおすすめですか？',
-    answer: '初心者は週1〜2回（月4〜8回）がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。大切なのは継続すること。無理のないペースで長く続けることが理想の身体を手に入れる近道です。',
+    answer: '初心者は週1〜2回（月4〜8回）がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。大切なのは継続することです。無理のないペースで長く続けることが理想の身体を手に入れる近道です。',
   },
   {
     question: 'ピラティスで痩せることはできますか？',
-    answer: 'はい、ピラティスはダイエットに効果的です。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に変化します。ただし即効性はないため、最低2〜3ヶ月の継続が大切。食事管理を並行するとより効果的です。',
+    answer: 'はい、ピラティスはダイエットに効果的です。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に変化します。ただし即効性はないため、最低2〜3ヶ月の継続が大切です。食事管理を並行するとより効果的です。',
   },
   {
     question: '体験レッスンの持ち物は？',
-    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOKです。マシンピラティスでは靴下着用が必須のスタジオが多いので、滑り止め付きソックスがあると便利です。マットやタオルはスタジオでレンタルできることが多いです。',
+    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マシンピラティスでは靴下着用が必須のスタジオが多いので、滑り止め付きソックスがあると便利です。マットやタオルはスタジオでレンタルできることが多いです。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。ピラティスは筋力強化、ヨガは心身のバランスを整えることが主な目的です。I PILATESでは臨床心理士も在籍し、心身両面のケアが可能です。',
+    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズです。ヨガは柔軟性と精神的なリラックスを重視します。ピラティスは筋力強化、ヨガは心身のバランスを整えることが主な目的です。I PILATESでは臨床心理士も在籍し、心身両面のケアが可能です。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
@@ -241,7 +241,7 @@ const faqs = [
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: '目的によります。短期間で結果を出したい方や身体の不調を改善したい方にはI PILATESやELEMENTのパーソナルがおすすめ。コスパ重視で楽しく続けたい方にはzen place pilatesやCLUB PILATESのグループレッスンが適しています。セミパーソナルのPilates Meeは両方の良さを兼ね備えた選択肢です。',
+    answer: '目的によります。短期間で結果を出したい方や身体の不調を改善したい方にはI PILATESやELEMENTのパーソナルがおすすめです。料金重視で楽しく続けたい方にはzen place pilatesやCLUB PILATESのグループレッスンが適しています。セミパーソナルのPilates Meeは両方の良さを兼ね備えた選択肢です。',
   },
 ]
 
@@ -262,8 +262,8 @@ export default function KomazawaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス駒沢おすすめ6選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス駒沢おすすめ6選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -286,29 +286,11 @@ export default function KomazawaPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「駒沢で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、東急田園都市線「駒沢大学駅」周辺でおすすめのピラティススタジオ6選をまとめました。駒沢は緑豊かな駒沢オリンピック公園があり、健康意識の高い方が多く住むエリアです。駅近のスタジオから駒沢公園横の自然を感じられるスタジオまで幅広くご紹介します。
+              本ページでは、東急田園都市線「駒沢大学駅」周辺でおすすめのピラティススタジオ6選をまとめました。駒沢は緑豊かな駒沢オリンピック公園があり、健康意識の高い方が多く住むエリアです。駅近のスタジオから駒沢公園横の自然を感じられるスタジオまで幅広くご紹介します。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -337,7 +319,7 @@ export default function KomazawaPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -367,9 +349,9 @@ export default function KomazawaPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円前後で通えるスタジオ。グループレッスンで気軽に始められます。
+                  月額1万円前後で通えるスタジオです。グループレッスンで気軽に始められます。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
@@ -380,7 +362,7 @@ export default function KomazawaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  マンツーマン指導で効果を最大化。姿勢改善や身体の不調にしっかり向き合いたい方に。
+                  マンツーマン指導で効率よく取り組めます。姿勢改善や身体の不調にしっかり向き合いたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• I PILATES（駒沢公園横・心身ケア）</li>
@@ -391,7 +373,7 @@ export default function KomazawaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用スタジオ</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性だけの空間で安心してトレーニングしたい方に。
+                  女性だけの空間で安心してトレーニングしたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• PILATES STUDIO noa（女性専用・マシン専門）</li>
@@ -451,19 +433,19 @@ export default function KomazawaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">駒沢大学駅の出口を事前に確認しておく</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  駒沢大学駅は駒沢公園口と国道246号側の出口があり、スタジオによって最寄りの出口が異なります。zen place pilatesは駒沢公園口から徒歩4分、PILATES STUDIO noaは西口から徒歩3分です。初回訪問時は余裕を持って行動しましょう。
+                  駒沢大学駅は駒沢公園口と国道246号側の出口があり、スタジオによって最寄りの出口が異なります。zen place pilatesは駒沢公園口から徒歩4分、PILATES STUDIO noaは西口から徒歩3分です。初回訪問時は余裕を持って行動することをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">駒沢公園周辺は休日混雑に注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  駒沢オリンピック公園周辺は休日にランナーや家族連れで賑わいます。特に公園近くのスタジオに通う場合、駐輪場や周辺道路の混雑が予想されるため、時間に余裕を持って出発しましょう。逆に平日午前は比較的空いていて狙い目です。
+                  駒沢オリンピック公園周辺は休日にランナーや家族連れで賑わいます。特に公園近くのスタジオに通う場合、駐輪場や周辺道路の混雑が予想されるため、時間に余裕を持って出発することをおすすめします。逆に平日午前は比較的空いています。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">レッスン形式の違いを理解して選ぶ</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  駒沢エリアはグループ、セミパーソナル、パーソナルとレッスン形式が豊富です。グループは月1万円前後で気軽に始められ、セミパーソナルは少人数で丁寧な指導が魅力、パーソナルは効率重視の方向け。自分の予算や目的に合った形式を選びましょう。
+                  駒沢エリアはグループ、セミパーソナル、パーソナルとレッスン形式が豊富です。グループは月1万円前後で気軽に始められ、セミパーソナルは少人数で丁寧な指導が魅力、パーソナルは効率重視の方向けです。自分の予算や目的に合った形式をお選びください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -487,25 +469,25 @@ export default function KomazawaPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすポーズが多いです。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、フォームの確認がしやすく効果的です。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあります。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあります。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>駒沢エリアの豆知識：</strong>駒沢公園でランニングやウォーキングを楽しむ方が多いエリアです。ピラティスとランニングは相性が良く、体幹を鍛えることでランニングフォームも改善。レッスン後に公園を散歩するのもおすすめです。自転車で通う方は駐輪スペースを確認しておきましょう。
+                  <strong>駒沢エリアの豆知識：</strong>駒沢公園でランニングやウォーキングを楽しむ方が多いエリアです。ピラティスとランニングは相性が良く、体幹を鍛えることでランニングフォームも改善しています。レッスン後に公園を散歩するのもおすすめです。自転車で通う方は駐輪スペースをご確認ください。
                 </p>
               </div>
             </div>
@@ -525,7 +507,7 @@ export default function KomazawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ダイエット、姿勢改善、体幹強化、心身のリラックスなど、目的によって最適なスタジオは異なります。心身のトータルケアならI PILATES、効率重視の30分パーソナルならELEMENT、コスパ重視ならzen place pilatesがおすすめです。
+                  ダイエット、姿勢改善、体幹強化、心身のリラックスなど、目的によって最適なスタジオは異なります。心身のトータルケアならI PILATES、効率重視の30分パーソナルならELEMENT、料金重視ならzen place pilatesがおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -534,7 +516,7 @@ export default function KomazawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  駒沢エリアの料金相場は、グループ月4回で9,625円〜10,890円、セミパーソナル月2回で6,600円〜11,000円、パーソナル月4回で22,000円〜。無理なく継続できる予算を決めましょう。
+                  駒沢エリアの料金相場は、グループ月4回で9,625円〜10,890円、セミパーソナル月2回で6,600円〜11,000円、パーソナル月4回で22,000円〜です。無理なく継続できる予算を決めることをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -543,7 +525,7 @@ export default function KomazawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2〜3つピックアップしたら、必ず体験レッスンに行きましょう。駒沢エリアでは無料〜3,300円で体験レッスンが受けられます。スタジオの雰囲気やインストラクターとの相性は実際に行かないとわかりません。
+                  気になるスタジオを2〜3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。駒沢エリアでは無料〜3,300円で体験レッスンが受けられます。スタジオの雰囲気やインストラクターとの相性は実際に行かないとわかりません。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -552,7 +534,7 @@ export default function KomazawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  駒沢大学駅は東急田園都市線で渋谷から3駅。駅周辺と駒沢公園近くにスタジオが分布しています。自宅や職場からの通いやすさを確認し、無理なく継続できるスタジオを選びましょう。
+                  駒沢大学駅は東急田園都市線で渋谷から3駅です。駅周辺と駒沢公園近くにスタジオが分布しています。自宅や職場からの通いやすさを確認し、無理なく継続できるスタジオをお選びください。
                 </p>
               </div>
             </div>
@@ -595,13 +577,13 @@ export default function KomazawaPage() {
               今回は駒沢のおすすめピラティススタジオ6選をご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              駒沢は緑豊かな駒沢オリンピック公園を中心に健康意識の高い方が多く住むエリア。月2回6,600円〜のマシンピラティスから、駒沢公園横で自然を感じながらのプライベートレッスン、パーソナル30分の時短トレーニングまで、多彩な選択肢が揃っています。
+              駒沢は緑豊かな駒沢オリンピック公園を中心に健康意識の高い方が多く住むエリアです。月2回6,600円〜のマシンピラティスから、駒沢公園横で自然を感じながらのプライベートレッスン、パーソナル30分の時短トレーニングまで、多彩な選択肢が揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -610,11 +592,11 @@ export default function KomazawaPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,300円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜3,300円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

@@ -18,7 +18,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/shin-osaka/' },
   title: '【2026年10月最新】新大阪のピラティススタジオおすすめ5選｜無料体験・料金で比較',
-  description: '新大阪のピラティススタジオ6社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
+  description: '新大阪のピラティススタジオ6社の料金・無料体験・マシン対応を比較しています。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
   keywords: 'ピラティス,新大阪,西中島南方,大阪,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -31,12 +31,12 @@ const studios = [
     priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
     trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '最大3名までのセミパーソナル形式マシンピラティススタジオ。新大阪駅から徒歩7分、西中島南方駅から徒歩6分。定額制で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と圧倒的なコスパ。当日予約・当日キャンセルOKでチケット持ち越しも可能。',
+    description: '最大3名までのセミパーソナル形式マシンピラティススタジオです。新大阪駅から徒歩7分、西中島南方駅から徒歩6分です。定額制で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と圧倒的な費用対効果です。当日予約・当日キャンセル可能でチケット持ち越しも可能です。',
     access: '新大阪駅 徒歩7分／西中島南方駅 徒歩6分／南方駅 徒歩8分',
     address: '〒532-0011 大阪府大阪市淀川区西中島６丁目９−２０ 新大阪GHビル3階 303号室',
     popularPlan: {
       name: '月4回コース',
-      description: '最大3名のセミパーソナル形式。リフォーマーを使った本格レッスン。',
+      description: '最大3名のセミパーソナル形式です。リフォーマーを使った本格レッスンです。',
       price: '月4回 19,800円（税込）',
     },
     userProfile: {
@@ -56,12 +56,12 @@ const studios = [
     price: '月4回 30,800円〜（税込）',
     trial: '90分体験 2,980円',
     features: ['新大阪駅徒歩5分', '完全個室', '7:00〜23:00', 'ペア可'],
-    description: '完全個室のマンツーマンマシンピラティス。新大阪駅7番出口から徒歩5分、西中島南方駅1番出口から徒歩5分。朝7時から夜23時まで営業で忙しい方にも対応。ペアやセミプランも用意。',
+    description: '完全個室のマンツーマンマシンピラティスです。新大阪駅7番出口から徒歩5分、西中島南方駅1番出口から徒歩5分です。朝7時から夜23時まで営業で忙しい方にも対応しています。ペアやセミプランも用意しています。',
     access: 'JR「新大阪駅」7番出口 徒歩5分 / 大阪メトロ御堂筋線「西中島南方駅」1番出口 徒歩5分',
     address: '大阪府大阪市淀川区西中島5-2-12 ケイアンドエイビルB1',
     popularPlan: {
       name: 'マンツーマン月4回',
-      description: '完全個室のマンツーマンマシンピラティス。個別プログラム対応。',
+      description: '完全個室のマンツーマンマシンピラティスです。個別プログラム対応です。',
       price: '月4回 30,800円（税込）',
     },
     options: [
@@ -87,12 +87,12 @@ const studios = [
     price: '1回 3,200円〜（会員）',
     trial: '体験レッスンあり',
     features: ['西中島南方駅徒歩1分', '4種類のプログラム', '少人数制', 'よもぎ蒸しあり'],
-    description: '西中島南方駅1番出口から徒歩1分。ピラティス・ヨガ・シルクサスペンション・TRXの4種類のプログラムを提供する総合スタジオ。少人数制で全インストラクターが有資格者。よもぎ蒸しや小顔矯正も併設。',
+    description: '西中島南方駅1番出口から徒歩1分です。ピラティス・ヨガ・シルクサスペンション・TRXの4種類のプログラムを提供する総合スタジオです。少人数制で全インストラクターが有資格者です。よもぎ蒸しや小顔矯正も併設しています。',
     access: '大阪メトロ御堂筋線「西中島南方駅」1番出口 徒歩1分 / 阪急「南方駅」徒歩2分 / JR「新大阪駅」徒歩10分',
     address: '大阪府大阪市淀川区西中島（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: '回数券プラン（会員）',
-      description: '入会金5,000円（回数券購入時無料）。通常メニュー10%割引。',
+      description: '入会金5,000円です（回数券購入時無料）。通常メニュー10%割引です。',
       price: '会員価格 1回 3,200円〜',
     },
     options: [
@@ -118,13 +118,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
-    features: ['江坂駅徒歩1分', '新大阪4分', '男性OK', '全国相互利用'],
-    description: 'ピラティス専門の大手スタジオ。江坂駅4番出口から徒歩1分、新大阪駅から御堂筋線で4分。マットグループ・マシングループ・プライベートの3タイプ。全国150店舗以上で相互利用可能。',
+    features: ['江坂駅徒歩1分', '新大阪4分', '男性利用可', '全国他店利用'],
+    description: 'ピラティス専門の大手スタジオです。江坂駅4番出口から徒歩1分、新大阪駅から御堂筋線で4分です。マットグループ・マシングループ・プライベートの3タイプです。全国150店舗以上で他店利用可能です。',
     access: '大阪メトロ御堂筋線・北大阪急行「江坂駅」4番出口 徒歩1分（新大阪駅から4分）',
     address: '大阪府吹田市豊津町9-44 ハートランド江坂 5F',
     popularPlan: {
       name: 'フリープラン（マットグループ）',
-      description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。',
+      description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。',
       price: '月額 16,940円（税込）',
     },
     options: [
@@ -151,12 +151,12 @@ const studios = [
     price: '月4回 8,800円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', '江坂駅徒歩1分', 'LAVA運営', 'リーズナブル'],
-    description: 'ホットヨガ大手LAVAが運営する女性専用マシンピラティススタジオ。江坂駅4番出口から徒歩1分、新大阪から御堂筋線で4分。大画面映像を見ながらリフォーマーでトレーニング。',
+    description: 'ホットヨガ大手LAVAが運営する女性専用マシンピラティススタジオです。江坂駅4番出口から徒歩1分、新大阪から御堂筋線で4分です。大画面映像を見ながらリフォーマーでトレーニングです。',
     access: '大阪メトロ御堂筋線・北大阪急行「江坂駅」4番出口 徒歩1分（新大阪駅から4分）',
     address: '大阪府吹田市豊津町10-2 江坂T・Kビル 2F',
     popularPlan: {
       name: 'マシンピラティス月4回プラン',
-      description: '映像ガイド付きリフォーマーレッスン。女性専用の安心空間。',
+      description: '映像ガイド付きリフォーマーレッスンです。女性専用の安心空間です。',
       price: '月4回 8,800円（税込）',
     },
     options: [
@@ -181,31 +181,31 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！新大阪エリアのスタジオはほとんどが初心者歓迎。Rintosullは映像ガイドで初心者でも安心。Pilates Meeはセミパーソナルで丁寧に指導。',
+    answer: '問題ありません。新大阪エリアのスタジオはほとんどが初心者歓迎です。Rintosullは映像ガイドで初心者でも安心です。Pilates Meeはセミパーソナルで丁寧に指導しています。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。新大阪エリアはマシン専門スタジオが充実。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。新大阪エリアはマシン専門スタジオが充実しています。',
   },
   {
     question: '新大阪のピラティスの料金相場は？',
-    answer: 'グループ月4回で8,800円〜19,800円程度。Rintosullが月4回8,800円〜で最もリーズナブル。zen placeは月4回10,450円〜。Pilates Meeは月2回11,000円〜。',
+    answer: 'グループ月4回で8,800円〜19,800円程度です。Rintosullが月4回8,800円〜で最もリーズナブルです。zen placeは月4回10,450円〜です。Pilates Meeは月2回11,000円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に増やしましょう。大切なのは継続することです。',
+    answer: '初心者は週1〜2回がおすすめです。慣れたら週2〜3回に増やすことをおすすめします。大切なのは継続することです。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。各スタジオの持ち物は公式サイトで事前に確認しましょう。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。各スタジオの持ち物は公式サイトで事前にご確認ください。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹強化・姿勢改善に特化。ヨガは柔軟性とリラックス重視。IMPROVEではヨガとピラティスの両方が楽しめます。zen placeもヨガ受講可能。',
+    answer: 'ピラティスは体幹強化・姿勢改善に特化しています。ヨガは柔軟性とリラックス重視です。IMPROVEではヨガとピラティスの両方が楽しめます。zen placeもヨガ受講可能です。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
@@ -213,11 +213,11 @@ const faqs = [
   },
   {
     question: '新大阪駅から通いやすいスタジオは？',
-    answer: 'ピラティスアヴニール（徒歩5分）、Pilates Mee（徒歩7分）が新大阪駅から近い。zen placeとRintosullは江坂駅（新大阪から御堂筋線4分）が最寄り。',
+    answer: 'ピラティスアヴニール（徒歩5分）、Pilates Mee（徒歩7分）が新大阪駅から近いです。zen placeとRintosullは江坂駅（新大阪から御堂筋線4分）が最寄りです。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -238,8 +238,8 @@ export default function ShinOsakaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス新大阪おすすめ5選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス新大阪おすすめ5選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -264,29 +264,11 @@ export default function ShinOsakaPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「新大阪で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、新大阪エリアでおすすめのピラティススタジオ5選をまとめました。
+              本ページでは、新大阪エリアでおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -311,7 +293,7 @@ export default function ShinOsakaPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -365,7 +347,7 @@ export default function ShinOsakaPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              新大阪はビジネス街としての性格が強く、仕事帰りの利用を想定した夜間プランや回数券プランが充実しています。賃料が高めのエリアのため料金は全体的にやや高い傾向ですが、法人契約や福利厚生割引に対応しているスタジオもあるので確認してみましょう。近隣の梅田エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
+              新大阪はビジネス街としての性格が強く、仕事帰りの利用を想定した夜間プランや回数券プランが充実しています。賃料が高めのエリアのため料金は全体的にやや高い傾向ですが、法人契約や福利厚生割引に対応しているスタジオもあるのでご確認ください。近隣の梅田エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
             </p>
           </div>
         </section>
@@ -380,25 +362,25 @@ export default function ShinOsakaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">JR「新大阪駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  新大阪エリアのスタジオは新大阪駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。新大阪駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  新大阪エリアのスタジオは新大阪駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。新大阪駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">ビジネス街特有の予約傾向を把握</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  新大阪はオフィス街のため、平日ランチタイム（12時〜13時）と夕方以降（18時〜21時）に予約が集中する傾向があります。逆に土日は比較的空いているスタジオが多いので、平日に通いづらい方は週末を狙うのも手です。また、祝日は営業時間が変更になることがあるので事前確認を。
+                  新大阪はオフィス街のため、平日ランチタイム（12時〜13時）と夕方以降（18時〜21時）に予約が集中する傾向があります。逆に土日は比較的空いているスタジオが多いので、平日に通いづらい方は週末を狙うのも手です。また、祝日は営業時間が変更になることがあるので事前にご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  新大阪エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ず確認しましょう。月の途中入会は日割り計算になるかも要チェックです。
+                  新大阪エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ずご確認ください。月の途中入会は日割り計算になるかもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  新大阪エリアだけでなく、近隣の<Link href="/area/umeda/" className="text-warm-700 underline hover:text-warm-900">梅田</Link>、<Link href="/area/esaka/" className="text-warm-700 underline hover:text-warm-900">江坂</Link>、<Link href="/area/honmachi/" className="text-warm-700 underline hover:text-warm-900">本町</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  新大阪エリアだけでなく、近隣の<Link href="/area/umeda/" className="text-warm-700 underline hover:text-warm-900">梅田</Link>、<Link href="/area/esaka/" className="text-warm-700 underline hover:text-warm-900">江坂</Link>、<Link href="/area/honmachi/" className="text-warm-700 underline hover:text-warm-900">本町</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -416,25 +398,25 @@ export default function ShinOsakaPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>新大阪エリアの豆知識：</strong>新大阪はビジネスパーソンの利用が多いエリアです。スーツやオフィスカジュアルで来てそのまま着替えたい方は、ロッカールームの広さやシャワーの有無を重視してスタジオを選びましょう。ウェアレンタルがあれば、大きな荷物を持ち歩く必要がありません。
+                  <strong>新大阪エリアの豆知識：</strong>新大阪はビジネスパーソンの利用が多いエリアです。スーツやオフィスカジュアルで来てそのまま着替えたい方は、ロッカールームの広さやシャワーの有無を重視してスタジオをお選びください。ウェアレンタルがあれば、大きな荷物を持ち歩く必要がありません。
                 </p>
               </div>
             </div>
@@ -452,7 +434,7 @@ export default function ShinOsakaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額2万円未満で通えるスタジオ（店舗カードの料金）。
+                  月額2万円未満で通えるスタジオです（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull（リントスル）江坂店（月4回 8,800円〜）</li>
@@ -463,7 +445,7 @@ export default function ShinOsakaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性だけの安心空間。
+                  女性だけの安心空間です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Pilates Mee 西中島南方・新大阪店</li>
@@ -473,7 +455,7 @@ export default function ShinOsakaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  駅から徒歩2分以内。
+                  駅から徒歩2分以内です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• IMPROVE 西中島南方・新大阪（大阪メトロ御堂筋線「西中島南方駅」1番出口 徒歩1分）</li>
@@ -494,15 +476,15 @@ export default function ShinOsakaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回からスタート。最低2-3ヶ月継続で効果を実感。
+                週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回がおすすめ。3-6ヶ月で目に見える変化。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。
+                週1回のペースで無理なく継続することをおすすめします。
               </p>
             </div>
           </div>
@@ -519,7 +501,7 @@ export default function ShinOsakaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜13,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月3〜4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。
+                  グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（10,450円〜/月4回）</li>
@@ -530,7 +512,7 @@ export default function ShinOsakaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜15,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン専門スタジオ。
+                  マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• このページの掲載スタジオでは該当なし（各スタジオの料金は上の店舗カードを参照）</li>
@@ -540,7 +522,7 @@ export default function ShinOsakaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 16,000〜29,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">通い放題</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  毎日通いたい方。
+                  毎日通いたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• このページの掲載スタジオでは該当なし（各スタジオの料金は上の店舗カードを参照）</li>
@@ -572,7 +554,7 @@ export default function ShinOsakaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  新大阪の料金相場はグループ月4回で10,450円〜15,070円。入会金やキャンペーンも確認しましょう。
+                  新大阪の料金相場はグループ月4回で10,450円〜15,070円です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -581,7 +563,7 @@ export default function ShinOsakaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  体験料金は、Pilates Mee 西中島南方・新大阪店が「体験レッスン無料」、ピラティスアヴニール 新大阪・西中島店が「90分体験 2,980円」、zen place pilates 江坂スタジオが「グループ体験 1,000円」です（店舗カードの記載）。最新の条件は各公式サイトで確認しましょう。
+                  体験料金は、Pilates Mee 西中島南方・新大阪店が「体験レッスン無料」、ピラティスアヴニール 新大阪・西中島店が「90分体験 2,980円」、zen place pilates 江坂スタジオが「グループ体験 1,000円」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -590,7 +572,7 @@ export default function ShinOsakaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  新大阪の掲載スタジオでは、IMPROVE 西中島南方・新大阪（大阪メトロ御堂筋線「西中島南方駅」1番出口 徒歩1分）、zen place pilates 江坂スタジオ（大阪メトロ御堂筋線・北大阪急行「江坂駅」4番出口 徒歩1分（新大阪駅から4分））、Rintosull（リントスル）江坂店（大阪メトロ御堂筋線・北大阪急行「江坂駅」4番出口 徒歩1分（新大阪駅から4分））が駅から近いスタジオです。通う時間帯の経路も確認しておきましょう。
+                  新大阪の掲載スタジオでは、IMPROVE 西中島南方・新大阪（大阪メトロ御堂筋線「西中島南方駅」1番出口 徒歩1分）、zen place pilates 江坂スタジオ（大阪メトロ御堂筋線・北大阪急行「江坂駅」4番出口 徒歩1分（新大阪駅から4分））、Rintosull（リントスル）江坂店（大阪メトロ御堂筋線・北大阪急行「江坂駅」4番出口 徒歩1分（新大阪駅から4分））が駅から近いスタジオです。通う時間帯の経路もご確認ください。
                 </p>
               </div>
             </div>
@@ -633,13 +615,13 @@ export default function ShinOsakaPage() {
               今回は新大阪エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では新大阪にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、新大阪にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -648,11 +630,11 @@ export default function ShinOsakaPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,850円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜3,850円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

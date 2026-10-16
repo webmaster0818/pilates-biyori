@@ -15,8 +15,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kawaguchi/' },
-  title: '【2026年10月最新】ピラティス川口おすすめ6選！料金・体験レッスン・マシン対応を比較！',
-  description: '川口エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス川口おすすめ6選料金・体験レッスン・マシン対応を比較',
+  description: '川口エリアのおすすめピラティススタジオ6選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,川口,埼玉,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -27,13 +27,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,100円',
-    features: ['川口駅徒歩4分', '2024年オープン', '男性OK', '全国相互利用'],
-    description: 'ピラティス専門の大手スタジオ。川口駅東口から徒歩4分。2024年6月にオープンした新しいスタジオ。マットグループ・マシングループ・プライベートの3タイプのレッスン。全国150店舗以上で相互利用可能。',
+    features: ['川口駅徒歩4分', '2024年オープン', '男性利用可', '全国他店利用'],
+    description: 'ピラティス専門の大手スタジオです。川口駅東口から徒歩4分です。2024年6月にオープンした新しいスタジオです。マットグループ・マシングループ・プライベートの3タイプのレッスンです。全国150店舗以上で他店利用可能です。',
     access: 'JR京浜東北線「川口駅」東口 徒歩4分',
     address: '埼玉県川口市栄町3-14-3 小田倉ビル 3F2号室',
     popularPlan: {
       name: 'フリープラン（マットグループ）',
-      description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。',
+      description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。',
       price: '月額 16,940円（税込）',
     },
     options: [
@@ -60,12 +60,12 @@ const studios = [
     price: '月4回 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', '川口駅徒歩1分', '部位別プログラム', 'キャスティ7F'],
-    description: '女性専用マシンピラティス専門スタジオ。川口駅東口から徒歩1分、かわぐちキャスティ7Fに位置。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実。買い物ついでに通えるアクセスの良さ。',
+    description: '女性専用マシンピラティス専門スタジオです。川口駅東口から徒歩1分、かわぐちキャスティ7Fに位置しています。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実しています。買い物ついでに通えるアクセスの良さです。',
     access: 'JR京浜東北線「川口駅」東口 徒歩1分（かわぐちキャスティ 7F）',
     address: '埼玉県川口市栄町3-7-1 かわぐちキャスティ 7F',
     popularPlan: {
       name: 'マンスリー4メンバー（月4回）',
-      description: '女性専用マシンピラティス月4回。部位別プログラムも選べる。',
+      description: '女性専用マシンピラティス月4回です。部位別プログラムも選べます。',
       price: '月4回 13,420円（税込）',
     },
     options: [
@@ -91,13 +91,13 @@ const studios = [
     image: '/images/studios/urban-classic-pilates.webp',
     price: '月4回 7,800円〜',
     trial: '体験レッスン 0円',
-    features: ['予約不要', 'サーキット形式', '30分完結', 'コスパ抜群'],
-    description: 'マシンピラティスとファンクショナルトレーニングを組み合わせたサーキット形式のボディメイクスタジオ。予約不要で仕事帰りに気軽に立ち寄れる。30分完結で効率的。',
+    features: ['予約不要', 'サーキット形式', '30分完結', '割安'],
+    description: 'マシンピラティスとファンクショナルトレーニングを組み合わせたサーキット形式のボディメイクスタジオです。予約不要で仕事帰りに気軽に立ち寄れます。30分完結で効率的です。',
     access: 'JR京浜東北線「川口駅」徒歩5分',
     address: '埼玉県川口市栄町3丁目',
     popularPlan: {
       name: 'マンスリー4（月4回）',
-      description: 'マシンピラティス＋ファンクショナルトレーニング月4回。予約不要。',
+      description: 'マシンピラティス＋ファンクショナルトレーニング月4回です。予約不要です。',
       price: '月4回 7,800円（税込）',
     },
     options: [
@@ -125,12 +125,12 @@ const studios = [
     priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
     trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '女性専用マシンピラティススタジオ。川口駅から徒歩8分。1レッスン最大3名のセミパーソナル形式で、一人ひとりに合わせた丁寧な指導が特徴。通い放題プランなら1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）。',
+    description: '女性専用マシンピラティススタジオです。川口駅から徒歩8分です。1レッスン最大3名のセミパーソナル形式で、一人ひとりに合わせた丁寧な指導が特徴です。通い放題プランなら1回あたり2,500円です（※37,500円の通い放題コースで15日通った場合）。',
     access: '川口駅 徒歩5分',
     address: '〒332-0016 埼玉県川口市幸町3丁目9-31 メゾン・ド・ボヌール 204',
     popularPlan: {
       name: '月4回コース',
-      description: 'セミパーソナル（最大3名）マシンピラティス月4回。',
+      description: 'セミパーソナル（最大3名）マシンピラティス月4回です。',
       price: '月4回 19,800円（税込）',
     },
     userProfile: {
@@ -151,12 +151,12 @@ const studios = [
     price: '月4回 22,000円〜',
     trial: '体験レッスン 3,300円',
     features: ['パーソナル', '通い放題あり', '川口駅徒歩6分', 'マシンピラティス＋ジム'],
-    description: '通い放題のパーソナルマシンピラティスジム。川口駅から徒歩6分。マンツーマン指導で効率的にボディメイク。パーソナルなのに通い放題プランがあるのが最大の魅力。',
+    description: '通い放題のパーソナルマシンピラティスジムです。川口駅から徒歩6分です。マンツーマン指導で効率的にボディメイクを目指せます。パーソナルなのに通い放題プランがあるのが最大の魅力です。',
     access: 'JR京浜東北線「川口駅」徒歩6分',
     address: '埼玉県川口市栄町3-11-10 シャインハイツ川口栄町ライフアベニュー 101',
     popularPlan: {
       name: '通い放題プラン',
-      description: 'パーソナルマシンピラティス通い放題。マンツーマン指導。',
+      description: 'パーソナルマシンピラティス通い放題です。マンツーマン指導です。',
       price: '月額 55,000円（税込）',
     },
     options: [
@@ -183,12 +183,12 @@ const studios = [
     price: '月4回 11,880円〜',
     trial: '体験レッスン 500円',
     features: ['イオンモール内', '駐車場無料', 'マシン専門', '初心者歓迎'],
-    description: 'イオンモール川口前川内にあるマシンピラティス専門スタジオ。買い物ついでに通えるアクセスの良さと無料駐車場が魅力。初心者向けプログラムが充実。',
+    description: 'イオンモール川口前川内にあるマシンピラティス専門スタジオです。買い物ついでに通えるアクセスの良さと無料駐車場が魅力です。初心者向けプログラムが充実しています。',
     access: 'JR京浜東北線「川口駅」バス15分 / 車でのアクセス推奨',
     address: '埼玉県川口市前川1-1-11 イオンモール川口前川内',
     popularPlan: {
       name: '月4回プラン',
-      description: 'マシンピラティスグループレッスン月4回。',
+      description: 'マシンピラティスグループレッスン月4回です。',
       price: '月4回 11,880円（税込）',
     },
     options: [
@@ -213,39 +213,39 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも川口のスタジオに通えますか？',
-    answer: '大丈夫です！川口エリアのスタジオはほとんどが初心者歓迎。zen placeは段階的なレベル分けで安心、Pilates Meeは最大3名の少人数制で丁寧に教えてもらえます。URBAN CLASSICは自分のペースで進められるサーキット形式です。',
+    answer: '問題ありません。川口エリアのスタジオはほとんどが初心者歓迎です。zen placeは段階的なレベル分けで安心、Pilates Meeは最大3名の少人数制で丁寧に教えてもらえます。URBAN CLASSICは自分のペースで進められるサーキット形式です。',
   },
   {
     question: '川口のピラティスの料金相場はどのくらいですか？',
-    answer: 'グループ月4回で7,800円〜13,420円程度。URBAN CLASSIC PILATESが月4回7,800円〜で最もリーズナブル。zen placeは月4回10,450円〜。ピラティスKは月4回13,420円〜。',
+    answer: 'グループ月4回で7,800円〜13,420円程度です。URBAN CLASSIC PILATESが月4回7,800円〜で最もリーズナブルです。zen placeは月4回10,450円〜です。ピラティスKは月4回13,420円〜です。',
   },
   {
     question: '川口駅から近いスタジオはどこですか？',
-    answer: 'ピラティスKかわぐちキャスティ店が東口徒歩1分で最寄り。zen place川口が徒歩4分。URBAN CLASSIC PILATESが徒歩5分。ELEMENTが徒歩6分です。',
+    answer: 'ピラティスKかわぐちキャスティ店が東口徒歩1分で最寄りです。zen place川口が徒歩4分です。URBAN CLASSIC PILATESが徒歩5分です。ELEMENTが徒歩6分です。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'zen place川口、URBAN CLASSIC PILATES、ELEMENT川口、PILATES KASANEは男性も利用可能。ピラティスKとPilates Meeは女性専用です。',
+    answer: 'zen place川口、URBAN CLASSIC PILATES、ELEMENT川口、PILATES KASANEは男性も利用可能です。ピラティスKとPilates Meeは女性専用です。',
   },
   {
     question: '無料で体験できるスタジオはどこですか？',
-    answer: 'ピラティスK（0円体験）、URBAN CLASSIC PILATES（0円体験）、Pilates Mee（体験レッスン無料）が無料体験可能。zen placeはグループ体験1,100円、KASANEは500円です。',
+    answer: 'ピラティスK（0円体験）、URBAN CLASSIC PILATES（0円体験）、Pilates Mee（体験レッスン無料）が無料体験可能です。zen placeはグループ体験1,100円、KASANEは500円です。',
   },
   {
     question: '車で通えるスタジオはありますか？',
-    answer: 'PILATES KASANEはイオンモール川口前川内にあるため無料駐車場が利用可能。車通いの方には最適です。駅前のスタジオは近隣コインパーキングを利用してください。',
+    answer: 'PILATES KASANEはイオンモール川口前川内にあるため無料駐車場が利用可能です。車通いの方には最適です。駅前のスタジオは近隣コインパーキングを利用してください。',
   },
   {
     question: 'パーソナルレッスンが受けられるスタジオは？',
-    answer: 'ELEMENT川口店は通い放題のパーソナル専門スタジオ。zen placeもプライベートレッスン（体験9,900円）を提供。Pilates Meeはセミパーソナル（最大3名）形式です。',
+    answer: 'ELEMENT川口店は通い放題のパーソナル専門スタジオです。zen placeもプライベートレッスン（体験9,900円）を提供しています。Pilates Meeはセミパーソナル（最大3名）形式です。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。川口はマシン専門スタジオが充実しています。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。川口はマシン専門スタジオが充実しています。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1〜2回がおすすめ。慣れたら週2〜3回に。URBAN CLASSICは30分完結なので、忙しい方でも週2〜3回通いやすいです。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。URBAN CLASSICは30分完結なので、忙しい方でも週2〜3回通いやすいです。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -270,8 +270,8 @@ export default function KawaguchiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス川口おすすめ6選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス川口おすすめ6選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -294,15 +294,9 @@ export default function KawaguchiPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p>
-            <p className="text-warm-600 leading-relaxed mb-6">Pilates-Biyori編集部です！</p>
-            <p className="text-warm-600 leading-relaxed mb-6">あなたは、</p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p>
-            <p className="text-warm-600 leading-relaxed mb-6">「川口で人気のピラティススタジオを知りたい」</p>
-            <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
-            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、川口エリアでおすすめのピラティススタジオ6選をまとめました。</p>
+            <p className="text-warm-600 leading-relaxed mb-8">本ページでは、川口エリアでおすすめのピラティススタジオ6選をまとめました。</p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>川口でピラティススタジオを探している</span></li>
                 <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみたい</span></li>
@@ -311,7 +305,7 @@ export default function KawaguchiPage() {
                 <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較したい</span></li>
               </ul>
             </div>
-            <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
+            <p className="text-warm-600 leading-relaxed">以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。</p>
           </div>
         </section>
 
@@ -359,7 +353,7 @@ export default function KawaguchiPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              川口エリアはJR京浜東北線で東京駅まで約30分、赤羽まで1駅というアクセスの良さが魅力。都心部と比べて料金はリーズナブルで、URBAN CLASSIC PILATESは月4回7,800円〜と非常にコスパが高い。近隣の<Link href="/area/urawa/" className="text-warm-700 underline hover:text-warm-900">浦和</Link>や<Link href="/area/akabane/" className="text-warm-700 underline hover:text-warm-900">赤羽</Link>エリアのスタジオとも比較検討するのがおすすめです。
+              川口エリアはJR京浜東北線で東京駅まで約30分、赤羽まで1駅というアクセスの良さが魅力です。都心部と比べて料金はリーズナブルで、URBAN CLASSIC PILATESは月4回7,800円〜と非常に割安です。近隣の<Link href="/area/urawa/" className="text-warm-700 underline hover:text-warm-900">浦和</Link>や<Link href="/area/akabane/" className="text-warm-700 underline hover:text-warm-900">赤羽</Link>エリアのスタジオとも比較検討するのがおすすめです。
             </p>
           </div>
         </section>
@@ -371,18 +365,18 @@ export default function KawaguchiPage() {
             <div className="space-y-6">
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">川口駅東口にスタジオが集中</h3>
-                <p className="text-warm-600 leading-relaxed">川口エリアのスタジオは主に川口駅東口方面に集中しています。ピラティスKはかわぐちキャスティ7Fで東口徒歩1分、zen placeは東口徒歩4分。初回訪問時は余裕を持って到着できるよう、事前にルートを確認しておきましょう。</p>
+                <p className="text-warm-600 leading-relaxed">川口エリアのスタジオは主に川口駅東口方面に集中しています。ピラティスKはかわぐちキャスティ7Fで東口徒歩1分、zen placeは東口徒歩4分です。初回訪問時は余裕を持って到着できるよう、事前にルートをご確認ください。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">京浜東北線1本で都心スタジオも視野に</h3>
-                <p className="text-warm-600 leading-relaxed">川口はJR京浜東北線で<Link href="/area/akabane/" className="text-warm-700 underline hover:text-warm-900">赤羽</Link>まで1駅、<Link href="/area/urawa/" className="text-warm-700 underline hover:text-warm-900">浦和</Link>まで約10分。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、自分に合ったスタジオが見つかりやすくなります。zen placeは全国相互利用可能なので、エリアをまたいで通うこともできます。</p>
+                <p className="text-warm-600 leading-relaxed">川口はJR京浜東北線で<Link href="/area/akabane/" className="text-warm-700 underline hover:text-warm-900">赤羽</Link>まで1駅、<Link href="/area/urawa/" className="text-warm-700 underline hover:text-warm-900">浦和</Link>まで約10分です。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、自分に合ったスタジオが見つかりやすくなります。zen placeは全国他店利用可能なので、エリアをまたいで通うこともできます。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">車通いなら郊外型スタジオも検討</h3>
-                <p className="text-warm-600 leading-relaxed">PILATES KASANEはイオンモール川口前川内にあるため、無料駐車場が利用可能で車通いに最適。買い物ついでに通えるのも便利です。駅前のスタジオは近隣コインパーキングを利用することになるため、駐車料金も考慮して選びましょう。</p>
+                <p className="text-warm-600 leading-relaxed">PILATES KASANEはイオンモール川口前川内にあるため、無料駐車場が利用可能で車通いに最適です。買い物ついでに通えるのも便利です。駅前のスタジオは近隣コインパーキングを利用することになるため、駐車料金も考慮してお選びください。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">グループ vs パーソナルの違いを理解しよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">グループ vs パーソナルの違いを理解する</h3>
                 <p className="text-warm-600 leading-relaxed">川口エリアにはグループ型（ピラティスK、URBAN CLASSIC）とパーソナル型（ELEMENT）の両方があります。グループは料金が安く仲間と楽しめますが、パーソナルは自分だけの指導で効果を最大化できます。まずは体験で両方試してみるのがおすすめです。</p>
               </div>
             </div>
@@ -398,25 +392,25 @@ export default function KawaguchiPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方がフォーム確認に最適。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方がフォーム確認に最適です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>川口エリアの豆知識：</strong>川口は鋳物の街として知られ、近年は住みやすい街ランキングでも上位に入るベッドタウンです。川口駅前にはかわぐちキャスティやアリオ川口など商業施設が充実。レッスン前後の買い物や食事にも困りません。荒川河川敷でのランニングと組み合わせてフィットネスライフを充実させる方も多いエリアです。
+                  <strong>川口エリアの豆知識：</strong>川口は鋳物の街として知られ、近年は住みやすい街ランキングでも上位に入るベッドタウンです。川口駅前にはかわぐちキャスティやアリオ川口など商業施設が充実しています。レッスン前後の買い物や食事にも困りません。荒川河川敷でのランニングと組み合わせてフィットネスライフを充実させる方も多いエリアです。
                 </p>
               </div>
             </div>
@@ -430,7 +424,7 @@ export default function KawaguchiPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
-                <p className="text-warm-600 text-sm mb-4">月額2万円未満で通えるスタジオ（店舗カードの料金）。</p>
+                <p className="text-warm-600 text-sm mb-4">月額2万円未満で通えるスタジオです（店舗カードの料金）。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• URBAN CLASSIC PILATES 川口（月4回 7,800円〜）</li>
                   <li className="text-warm-700">• zen place pilates 川口（月4回 10,450円〜）</li>
@@ -439,7 +433,7 @@ export default function KawaguchiPage() {
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
-                <p className="text-warm-600 text-sm mb-4">女性だけの安心空間。</p>
+                <p className="text-warm-600 text-sm mb-4">女性だけの安心空間です。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK かわぐちキャスティ店</li>
                   <li className="text-warm-700">• Pilates Mee 川口店</li>
@@ -447,7 +441,7 @@ export default function KawaguchiPage() {
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
-                <p className="text-warm-600 text-sm mb-4">駅から徒歩5分以内。</p>
+                <p className="text-warm-600 text-sm mb-4">駅から徒歩5分以内です。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK かわぐちキャスティ店（JR京浜東北線「川口駅」東口 徒歩1分（かわぐちキャスティ 7F））</li>
                 </ul>
@@ -462,11 +456,11 @@ export default function KawaguchiPage() {
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">おすすめの期間・頻度</h2>
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
-              <p className="text-warm-600 leading-relaxed mb-6">週1〜2回からスタート。最低2〜3ヶ月継続で効果を実感。</p>
+              <p className="text-warm-600 leading-relaxed mb-6">週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。</p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
-              <p className="text-warm-600 leading-relaxed mb-6">週2〜3回がおすすめ。3〜6ヶ月で目に見える変化。</p>
+              <p className="text-warm-600 leading-relaxed mb-6">週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。</p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
-              <p className="text-warm-600 leading-relaxed">週1回のペースで無理なく継続。</p>
+              <p className="text-warm-600 leading-relaxed">週1回のペースで無理なく継続することをおすすめします。</p>
             </div>
           </div>
         </section>
@@ -479,7 +473,7 @@ export default function KawaguchiPage() {
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜12,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">グループレッスン中心。</p>
+                <p className="text-sm text-warm-600 mb-4">グループレッスンが中心です。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• URBAN CLASSIC（7,800円〜/月4回）</li>
                   <li>• zen place（10,450円〜/月4回）</li>
@@ -490,7 +484,7 @@ export default function KawaguchiPage() {
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜20,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回〜通い放題</p>
-                <p className="text-sm text-warm-600 mb-4">充実の設備で本格レッスン。</p>
+                <p className="text-sm text-warm-600 mb-4">充実の設備で本格レッスンです。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（13,420円〜/月4回）</li>
                   <li>• URBAN CLASSIC（14,080円/通い放題）</li>
@@ -500,7 +494,7 @@ export default function KawaguchiPage() {
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 22,000〜55,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">パーソナル</p>
-                <p className="text-sm text-warm-600 mb-4">マンツーマン指導で確実に効果。</p>
+                <p className="text-sm text-warm-600 mb-4">マンツーマン指導で確実に効果です。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ELEMENT（22,000円〜/月4回）</li>
                   <li>• ELEMENT（55,000円/通い放題）</li>
@@ -527,21 +521,21 @@ export default function KawaguchiPage() {
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span>
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
-                <p className="text-warm-600 leading-relaxed">川口の料金相場はグループ月4回で7,800円〜13,420円。都心と比べてリーズナブルなのが魅力です。</p>
+                <p className="text-warm-600 leading-relaxed">川口の料金相場はグループ月4回で7,800円〜13,420円です。都心と比べてリーズナブルなのが魅力です。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4">
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span>
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
-                <p className="text-warm-600 leading-relaxed">ピラティスK、URBAN CLASSICは0円体験。Pilates Meeも体験レッスン無料。zen placeは1,100円。まずは体験してみましょう。</p>
+                <p className="text-warm-600 leading-relaxed">ピラティスK、URBAN CLASSICは0円体験を実施しています。Pilates Meeも体験レッスン無料です。zen placeは1,100円です。まずは体験してみることをおすすめします。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4">
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span>
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
-                <p className="text-warm-600 leading-relaxed">川口はJR京浜東北線で東京方面・大宮方面どちらにもアクセス良好。ピラティスKはかわぐちキャスティ内で東口徒歩1分と駅近。車派ならKASANEのイオンモール店が便利。</p>
+                <p className="text-warm-600 leading-relaxed">川口はJR京浜東北線で東京方面・大宮方面どちらにもアクセス良好です。ピラティスKはかわぐちキャスティ内で東口徒歩1分と駅近です。車派ならKASANEのイオンモール店が便利です。</p>
               </div>
             </div>
           </div>
@@ -574,17 +568,17 @@ export default function KawaguchiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
             <p className="text-warm-600 leading-relaxed mb-6">今回は川口エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？</p>
-            <p className="text-warm-600 leading-relaxed mb-6">この記事では川口にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。</p>
-            <p className="text-warm-600 leading-relaxed mb-6">ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。</p>
-            <p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">本ページでは、川口にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">本ページの情報を、スタジオ選びにお役立てください。</p>
+            <p className="text-warm-700 font-medium text-center">本ページが、ピラティススタジオ選びの参考になれば幸いです。</p>
           </div>
         </section>
 
         {/* CTA */}
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2>
-            <p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスン無料〜3,300円。<br />まずは気軽に体験してみましょう。</p>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンのご予約</h2>
+            <p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスン無料〜3,300円です。<br />まずは体験レッスンへの参加をおすすめします。</p>
             <Link href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded">おすすめスタジオ一覧に戻る</Link>
           </div>
         </section>

@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kamata/' },
-  title: '【2026年10月最新】蒲田のピラティス｜初心者OK・無料体験で選ぶ料金比較',
-  description: '蒲田エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  title: '【2026年10月最新】蒲田のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  description: '蒲田エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,蒲田,京急蒲田,大田区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -25,11 +25,11 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp', reviewCount: 165,
     price: '月3回 12,980円〜', trial: '体験レッスン 無料',
-    features: ['女性専用', '蒲田駅徒歩1分', '手ぶら体験OK', '朝8時〜夜22時'],
-    description: '女性専用マシンピラティススタジオ。蒲田駅東口から徒歩1分。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。パウダールームにメイクアップミラー・アイロン完備で仕事前後の利用に便利。',
+    features: ['女性専用', '蒲田駅徒歩1分', '手ぶらで体験可能', '朝8時〜夜22時'],
+    description: '女性専用マシンピラティススタジオです。蒲田駅東口から徒歩1分です。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。パウダールームにメイクアップミラー・アイロン完備で仕事前後の利用に便利です。',
     access: 'JR「蒲田駅」東口 徒歩1分',
     address: '東京都大田区蒲田5-15-8 蒲田月村ビル 8F',
-    popularPlan: { name: 'Standard4（月4回）', description: '女性専用マシンピラティス月4回。音楽に合わせた楽しいレッスン。', price: '月4回 15,070円（税込）' },
+    popularPlan: { name: 'Standard4（月4回）', description: '女性専用マシンピラティス月4回です。音楽に合わせた楽しいレッスンです。', price: '月4回 15,070円（税込）' },
     options: ['Light3（月3回 12,980円）', 'Full（毎日1回 20,680円）', 'Full Day（18,480円）', '体験・入会金・登録手数料 無料キャンペーンあり'],
     userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'リフレッシュ'] },
     basicInfo: { hours: '8:00〜22:00', closed: '年末年始（12/29〜1/3）', facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'パウダールーム', 'ウォーターサーバー'] },
@@ -39,11 +39,11 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp', reviewCount: 178,
     price: '月4回 10,450円〜', trial: 'グループ体験 1,000円',
-    features: ['蒲田駅徒歩4分', '男性OK', 'マット&マシン', '全国相互利用'],
-    description: 'ピラティス専門の大手スタジオ。蒲田駅東口から徒歩4分、京急蒲田駅西口から徒歩6分。マットグループ・マシングループ・プライベートの3タイプ。全国150店舗以上で相互利用可能。男性も歓迎。',
+    features: ['蒲田駅徒歩4分', '男性利用可', 'マット&マシン', '全国他店利用'],
+    description: 'ピラティス専門の大手スタジオです。蒲田駅東口から徒歩4分、京急蒲田駅西口から徒歩6分です。マットグループ・マシングループ・プライベートの3タイプです。全国150店舗以上で他店利用可能です。男性も歓迎です。',
     access: 'JR「蒲田駅」東口 徒歩4分 / 京急本線「京急蒲田駅」西口 徒歩6分',
     address: '東京都大田区蒲田5-24-4 No.R蒲田ビル 7F',
-    popularPlan: { name: 'フリープラン（マットグループ）', description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。', price: '月額 13,552円〜（税込）' },
+    popularPlan: { name: 'フリープラン（マットグループ）', description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。', price: '月額 13,552円〜（税込）' },
     options: ['月4回プラン（10,450円〜）', 'マシングループ体験（3,000円）', 'プライベートレッスン（体験 9,900円）', '体験当日入会で入会金無料'],
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'] },
     basicInfo: { hours: '月〜金 10:00〜20:00 / 土日祝 10:00〜16:00', closed: '不定休', facilities: ['リフォーマー', 'マット', 'ロッカー', '更衣室'] },
@@ -53,11 +53,11 @@ const studios = [
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp', reviewCount: 132,
     price: '月4回 8,800円〜', trial: '体験レッスン 無料',
-    features: ['LAVA系列', '女性専用', '蒲田駅徒歩1分', 'コスパ抜群'],
-    description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオ。蒲田駅から徒歩1分。月4回8,800円のリーズナブルな料金。87%以上が初心者で未経験者も安心。プレミアムフリーフルタイム16,800円でLAVA等全店利用可能。',
+    features: ['LAVA系列', '女性専用', '蒲田駅徒歩1分', '割安'],
+    description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオです。蒲田駅から徒歩1分です。月4回8,800円のリーズナブルな料金です。87%以上が初心者で未経験者も安心です。プレミアムフリーフルタイム16,800円でLAVA等全店利用可能です。',
     access: 'JR「蒲田駅」徒歩1分',
     address: '東京都大田区西蒲田7-2-3 第2醍醐ビル6F',
-    popularPlan: { name: 'マシンピラティス月4回プラン', description: 'リフォーマーを使った本格マシンピラティス。1回あたり2,200円のコスパ。', price: '月4回 8,800円（税込）' },
+    popularPlan: { name: 'マシンピラティス月4回プラン', description: 'リフォーマーを使った本格マシンピラティスです。1回あたり2,200円と割安です。', price: '月4回 8,800円（税込）' },
     options: ['通い放題プラン', 'プレミアムフリーフルタイム（月額16,800円・LAVA等全店利用可）', '施設使用料あり', '無料体験・入会キャンペーンあり'],
     userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', 'ダイエット', 'ヨガ&ピラティス両方', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'シャワー'] },
@@ -67,11 +67,11 @@ const studios = [
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=72997',
     image: '/images/studios/club-pilates.webp', reviewCount: 108,
     price: '月4回 13,090円／月8回 24,090円／通い放題 37,290円（公式店舗ページ・税表記なし）', trial: '体験レッスン 無料（30分イントロクラス）',
-    features: ['世界最大級', '京急蒲田徒歩5分', '15種類の器具', '男性OK'],
-    description: '世界最大級のマシンピラティスブランド。京急蒲田駅から徒歩5分、JR蒲田駅から徒歩7分。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類の器具を完備。8つのプログラムと4段階のレベル分け。',
+    features: ['世界最大級', '京急蒲田徒歩5分', '15種類の器具', '男性利用可'],
+    description: '世界最大級のマシンピラティスブランドです。京急蒲田駅から徒歩5分、JR蒲田駅から徒歩7分です。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類の器具を完備しています。8つのプログラムと4段階のレベル分けです。',
     access: '京急本線「京急蒲田駅」徒歩5分 / JR「蒲田駅」徒歩7分',
     address: '東京都大田区蒲田4-21-2 コンフォリア蒲田 1F',
-    popularPlan: { name: 'グループ月4回プラン', description: '15種類の器具を使った本格グループレッスン。4段階のレベル分けで安心。', price: '月4回 13,090円（税表記なし）' },
+    popularPlan: { name: 'グループ月4回プラン', description: '15種類の器具を使った本格グループレッスンです。4段階のレベル分けで安心です。', price: '月4回 13,090円（税表記なし）' },
     options: ['月8回 24,090円', '通い放題 37,290円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['体幹強化', '姿勢改善', 'ボディメイク', 'パフォーマンス向上'] },
     basicInfo: { hours: '月〜金 7:00-21:00 / 土日 7:00-18:00', closed: '不定休', facilities: ['リフォーマー', 'スプリングボード', 'TRX', 'チェア', 'Bosu'] },
@@ -82,10 +82,10 @@ const studios = [
     image: '/images/studios/urban-classic-pilates.webp', reviewCount: 92,
     price: '月額 9,680円〜（通い放題）', trial: '体験レッスンあり',
     features: ['サーキット形式', '30分レッスン', '予約不要', '通い放題'],
-    description: 'マシンピラティスとファンクショナルトレーニングを組み合わせたサーキット形式のボディメイクスタジオ。30分で効率よく全身を鍛えられる。予約不要の通い放題で忙しい方にもおすすめ。',
+    description: 'マシンピラティスとファンクショナルトレーニングを組み合わせたサーキット形式のボディメイクスタジオです。30分で効率よく全身を鍛えられます。予約不要の通い放題で忙しい方にもおすすめです。',
     access: 'JR「蒲田駅」周辺',
     address: '東京都大田区蒲田エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: '月額通い放題プラン', description: '30分サーキット形式のマシンピラティス＆ファンクショナルトレーニング通い放題。', price: '月額 9,680円〜（税込）' },
+    popularPlan: { name: '月額通い放題プラン', description: '30分サーキット形式のマシンピラティス＆ファンクショナルトレーニング通い放題です。', price: '月額 9,680円〜（税込）' },
     options: ['予約不要', '30分の効率レッスン', 'マシンピラティス＆ファンクショナル', '体験レッスンあり'],
     userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性85% / 男性15%', purpose: ['ボディメイク', 'ダイエット', '運動不足解消', '体幹強化'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマーマシン', 'ファンクショナルトレーニング機器', '更衣室', 'ロッカー'] },
@@ -98,7 +98,7 @@ const studios = [
     priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
     trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。蒲田駅から徒歩2分。',
+    description: '女性専用のマシンピラティス専門スタジオです。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴です。蒲田駅から徒歩2分です。',
     access: '蒲田駅 徒歩2分',
     address: '〒144-0052 東京都大田区蒲田5丁目2-6 MTビル 2階',
     userProfile: {
@@ -116,16 +116,16 @@ const studios = [
 ]
 
 const faqs = [
-  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！蒲田エリアのスタジオはほとんどが初心者歓迎。Rintosullは87%以上が初心者、CLUB PILATESは4段階のレベル分けがあります。' },
-  { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。蒲田はマシン専門スタジオが充実。' },
-  { question: '蒲田のピラティスの料金相場は？', answer: 'グループ月4回で8,800円〜15,070円程度。Rintosullが月4回8,800円で最安級。通い放題ならアーバンクラシック9,680円〜。' },
-  { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。通い放題プランなら好きなだけ通えます。' },
-  { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。' },
-  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。the SILKは手ぶらで体験可能（ウェア・タオル無料貸出）。CLUB PILATESとRintosullも無料体験あり。' },
+  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '問題ありません。蒲田エリアのスタジオはほとんどが初心者歓迎です。Rintosullは87%以上が初心者、CLUB PILATESは4段階のレベル分けがあります。' },
+  { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。蒲田はマシン専門スタジオが充実しています。' },
+  { question: '蒲田のピラティスの料金相場は？', answer: 'グループ月4回で8,800円〜15,070円程度です。Rintosullが月4回8,800円で最安級です。通い放題ならアーバンクラシック9,680円〜です。' },
+  { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。通い放題プランなら好きなだけ通えます。' },
+  { question: 'ピラティスで痩せますか？', answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。' },
+  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。the SILKは手ぶらで体験可能です（ウェア・タオル無料貸出）。CLUB PILATESとRintosullも無料体験があります。' },
   { question: '男性でも通えるスタジオはありますか？', answer: 'zen place蒲田、CLUB PILATES蒲田、アーバンクラシックは男性も通えます。the SILKとRintosullは女性専用です。' },
-  { question: '短時間で効果的なスタジオは？', answer: 'アーバンクラシックは30分のサーキット形式で効率的。予約不要の通い放題で忙しい方にもおすすめ。' },
-  { question: 'ヨガとピラティスの両方やりたい場合は？', answer: 'Rintosullはプレミアムフリーフルタイム（16,800円）でLAVA等系列のヨガスタジオも全国で利用可能。' },
-  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。' },
+  { question: '短時間で効果的なスタジオは？', answer: 'アーバンクラシックは30分のサーキット形式で効率的です。予約不要の通い放題で忙しい方にもおすすめです。' },
+  { question: 'ヨガとピラティスの両方やりたい場合は？', answer: 'Rintosullはプレミアムフリーフルタイム（16,800円）でLAVA等系列のヨガスタジオも全国で利用可能です。' },
+  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。' },
 ]
 
 export default function KamataPage() {
@@ -145,8 +145,8 @@ export default function KamataPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス蒲田おすすめ6選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス蒲田おすすめ6選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -169,29 +169,11 @@ export default function KamataPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「蒲田で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、蒲田・京急蒲田エリアでおすすめのピラティススタジオ6選をまとめました。
+              本ページでは、蒲田・京急蒲田エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -216,7 +198,7 @@ export default function KamataPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -284,25 +266,25 @@ export default function KamataPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">JR「蒲田駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  蒲田エリアのスタジオは蒲田駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。蒲田駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  蒲田エリアのスタジオは蒲田駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。蒲田駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">地元密着型スタジオの予約方法を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  蒲田エリアには大手チェーンだけでなく、個人経営のアットホームなスタジオもあります。個人スタジオはWeb予約に対応していない場合もあるため、予約方法（電話・LINE・専用アプリ等）を入会前に確認しておきましょう。常連さんで枠が埋まりやすい人気スタジオもあるので早めの予約がおすすめです。
+                  蒲田エリアには大手チェーンだけでなく、個人経営のアットホームなスタジオもあります。個人スタジオはWeb予約に対応していない場合もあるため、予約方法（電話・LINE・専用アプリ等）を入会前にご確認ください。常連さんで枠が埋まりやすい人気スタジオもあるので早めの予約がおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">料金プランの種類と契約条件をしっかり比較</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  蒲田エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかを確認しましょう。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため要チェックです。
+                  蒲田エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかをご確認ください。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため、事前にご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  蒲田エリアだけでなく、近隣の<Link href="/area/oimachi/" className="text-warm-700 underline hover:text-warm-900">大井町</Link>、<Link href="/area/shinagawa/" className="text-warm-700 underline hover:text-warm-900">品川</Link>、<Link href="/area/kawasaki/" className="text-warm-700 underline hover:text-warm-900">川崎</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  蒲田エリアだけでなく、近隣の<Link href="/area/oimachi/" className="text-warm-700 underline hover:text-warm-900">大井町</Link>、<Link href="/area/shinagawa/" className="text-warm-700 underline hover:text-warm-900">品川</Link>、<Link href="/area/kawasaki/" className="text-warm-700 underline hover:text-warm-900">川崎</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -320,25 +302,25 @@ export default function KamataPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>蒲田エリアの豆知識：</strong>蒲田はアットホームな雰囲気のスタジオが多く、気負わずに通えるのが魅力です。初回はシンプルなTシャツとレギンスで十分。常連さんとも自然に仲良くなれる距離感が蒲田ならではです。
+                  <strong>蒲田エリアの豆知識：</strong>蒲田はアットホームな雰囲気のスタジオが多く、気負わずに通えるのが魅力です。初回はシンプルなTシャツとレギンスで十分です。常連さんとも自然に仲良くなれる距離感が蒲田ならではです。
                 </p>
               </div>
             </div>
@@ -356,7 +338,7 @@ export default function KamataPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円以下で通えるスタジオ。
+                  月額1万円以下で通えるスタジオです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li>
@@ -366,7 +348,7 @@ export default function KamataPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性だけの安心空間。
+                  女性だけの安心空間です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• the SILK 蒲田（月3回 12,980円〜）</li>
@@ -376,7 +358,7 @@ export default function KamataPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  蒲田駅から徒歩1分。
+                  蒲田駅から徒歩1分です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• the SILK（蒲田駅 徒歩1分）</li>
@@ -396,15 +378,15 @@ export default function KamataPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回からスタート。最低2-3ヶ月継続で効果を実感。
+                週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回がおすすめ。3-6ヶ月で目に見える変化。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。
+                週1回のペースで無理なく継続することをおすすめします。
               </p>
             </div>
           </div>
@@ -421,7 +403,7 @@ export default function KamataPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回〜通い放題</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  コスパ重視。
+                  費用を抑えたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Rintosull（8,800円/月4回）</li>
@@ -433,7 +415,7 @@ export default function KamataPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜15,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月3〜4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン専門スタジオ。
+                  マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• the SILK（12,980円〜）</li>
@@ -444,7 +426,7 @@ export default function KamataPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 16,000円〜</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">通い放題</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  毎日通いたい方。
+                  毎日通いたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• the SILK Full（20,680円）</li>
@@ -477,7 +459,7 @@ export default function KamataPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  蒲田の料金相場はグループ月4回で8,800円〜15,070円。入会金やキャンペーンも確認しましょう。
+                  蒲田の料金相場はグループ月4回で8,800円〜15,070円です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -486,7 +468,7 @@ export default function KamataPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILK・Rintosull・CLUB PILATESは無料体験。zen placeは1,000円で体験可能。
+                  the SILK・Rintosull・CLUB PILATESは無料体験を実施しています。zen placeは1,000円で体験可能です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -495,7 +477,7 @@ export default function KamataPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  蒲田エリアはJR京浜東北線・東急多摩川線・池上線・京急線が利用可能。the SILKとRintosullは蒲田駅徒歩1分とアクセス抜群。
+                  蒲田エリアはJR京浜東北線・東急多摩川線・池上線・京急線が利用可能です。the SILKとRintosullは蒲田駅徒歩1分とアクセス抜群です。
                 </p>
               </div>
             </div>
@@ -538,13 +520,13 @@ export default function KamataPage() {
               今回は蒲田エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では蒲田にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、蒲田にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -553,11 +535,11 @@ export default function KamataPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜1,000円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜1,000円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

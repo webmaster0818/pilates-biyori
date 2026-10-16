@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/nishinomiya/' },
-  title: '【2026年10月最新】西宮のピラティス｜初心者OK・無料体験で選ぶ料金比較',
-  description: '西宮エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  title: '【2026年10月最新】西宮のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  description: '西宮エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,西宮,西宮北口,兵庫,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -27,12 +27,12 @@ const studios = [
     price: '月4回 11,220円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '西宮北口駅徒歩3分', '阪急西宮ガーデンズ内', '体験無料'],
-    description: '女性専用マシンピラティス専門スタジオ。阪急西宮ガーデンズ プラス館8Fに位置し、西宮北口駅から直結デッキで徒歩約3分。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実。買い物ついでに通える便利さも魅力。',
+    description: '女性専用マシンピラティス専門スタジオです。阪急西宮ガーデンズ プラス館8Fに位置し、西宮北口駅から直結デッキで徒歩約3分です。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実しています。買い物ついでに通える便利さも魅力です。',
     access: '阪急神戸線「西宮北口駅」東改札口から直結デッキで徒歩約3分（阪急西宮ガーデンズ プラス館8F）',
     address: '兵庫県西宮市高松町8-25 阪急西宮ガーデンズ プラス館8F',
     popularPlan: {
       name: 'マンスリー4メンバー（月4回）',
-      description: '女性専用マシンピラティス月4回。部位別プログラムも選べる。',
+      description: '女性専用マシンピラティス月4回です。部位別プログラムも選べます。',
       price: '月4回 11,220円〜（税込）+ 施設維持費 月825円',
     },
     options: [
@@ -58,13 +58,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
-    features: ['西宮北口駅徒歩2分', '男性OK', '全国相互利用', '大手の安心感'],
-    description: 'ピラティス専門の大手スタジオ。西宮北口駅北西口から徒歩2分。全国150店舗以上で相互利用可能。マットグループ・マシングループ・プライベートの3タイプ。体験当日入会で入会金無料。',
+    features: ['西宮北口駅徒歩2分', '男性利用可', '全国他店利用', '大手の安心感'],
+    description: 'ピラティス専門の大手スタジオです。西宮北口駅北西口から徒歩2分です。全国150店舗以上で他店利用可能です。マットグループ・マシングループ・プライベートの3タイプです。体験当日入会で入会金無料です。',
     access: '阪急神戸線「西宮北口駅」北西口 徒歩2分',
     address: '兵庫県西宮市甲風園1丁目9-3 プラザビル1階 103号室',
     popularPlan: {
       name: 'フリープラン（マットグループ）',
-      description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。',
+      description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。',
       price: '月額 16,940円（税込）',
     },
     options: [
@@ -90,13 +90,13 @@ const studios = [
     image: '/images/studios/club-pilates.webp',
     price: '月4回 13,090円／月8回 24,090円／通い放題 37,290円（公式店舗ページ・税表記なし）',
     trial: '体験レッスン 無料（30分イントロクラス）',
-    features: ['世界最大級', '西宮北口駅徒歩5分', '15種類の器具', '男性OK'],
-    description: '世界最大級のマシンピラティスブランド。西宮北口駅から徒歩5分。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類のマシン・器具を完備。8つのプログラムと4段階のレベル分け。',
+    features: ['世界最大級', '西宮北口駅徒歩5分', '15種類の器具', '男性利用可'],
+    description: '世界最大級のマシンピラティスブランドです。西宮北口駅から徒歩5分です。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類のマシン・器具を完備しています。8つのプログラムと4段階のレベル分けです。',
     access: '阪急神戸線「西宮北口駅」徒歩5分',
     address: '兵庫県西宮市（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'グループ月4回プラン',
-      description: '15種類の器具を使った本格グループレッスン。4段階のレベル分けで安心。',
+      description: '15種類の器具を使った本格グループレッスンです。4段階のレベル分けで安心です。',
       price: '月4回 13,090円（税表記なし）',
     },
     options: ['月8回 24,090円', '通い放題 37,290円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
@@ -118,12 +118,12 @@ const studios = [
     price: '月4回 8,800円〜',
     trial: '体験レッスンあり（予約制）',
     features: ['西宮北口駅徒歩1分', 'LAVA相互利用', '低価格', 'マシン専門'],
-    description: 'ホットヨガLAVAから生まれたマシンピラティススタジオ。西宮北口駅南改札口から徒歩1分。月4回8,800円〜と低価格。Rintosull全店とLAVA全店の相互利用が可能で、ピラティスとヨガの両方を楽しめます。',
+    description: 'ホットヨガLAVAから生まれたマシンピラティススタジオです。西宮北口駅南改札口から徒歩1分です。月4回8,800円〜と低価格です。Rintosull全店とLAVA全店の相互利用が可能で、ピラティスとヨガの両方を楽しめます。',
     access: '阪急神戸線「西宮北口駅」南改札口 徒歩1分',
     address: '兵庫県西宮市高松町3-34 パセオ・エスタシオン5F',
     popularPlan: {
       name: 'マンスリーメンバー4（月4回）',
-      description: 'マシンピラティス月4回。LAVA全店も相互利用可能。',
+      description: 'マシンピラティス月4回です。LAVA全店も相互利用可能です。',
       price: '月4回 8,800円（税込）',
     },
     options: [
@@ -149,12 +149,12 @@ const studios = [
     price: 'パーソナル制（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['女性専用', '西宮北口駅徒歩4分', '整体×ピラティス', '完全個室'],
-    description: '整体×マシンピラティスの女性専用プライベートスタジオ。西宮北口駅南西口から徒歩4分。独自の「骨膜整体×マシンピラティス」プログラムで、肩こりや腰痛の改善、体の使い方の向上をサポート。ウッド調のおしゃれな空間。',
+    description: '整体×マシンピラティスの女性専用プライベートスタジオです。西宮北口駅南西口から徒歩4分です。独自の「骨膜整体×マシンピラティス」プログラムで、肩こりや腰痛の改善、体の使い方の向上をサポートしています。ウッド調のおしゃれな空間です。',
     access: '阪急神戸線「西宮北口駅」南西口 徒歩4分',
     address: '兵庫県西宮市（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: '骨膜整体×マシンピラティス',
-      description: '整体とマシンピラティスを組み合わせた独自プログラム。完全個室。',
+      description: '整体とマシンピラティスを組み合わせた独自プログラムです。完全個室です。',
       price: '詳細は公式サイトでご確認ください',
     },
     options: [
@@ -180,12 +180,12 @@ const studios = [
     price: 'マット月4回 11,000円〜',
     trial: 'マット体験 1,650円 / リフォーマー体験 4,400円',
     features: ['西宮北口駅徒歩2分', '定員3名リフォーマー', '低価格', '3タイプのレッスン'],
-    description: '西宮北口駅から徒歩2分。リフォーマー・マット・サーキットフュージョンの3タイプのレッスンを提供。リフォーマーグループは定員3名、マットグループも5〜7名の少人数制で一人ひとり丁寧な指導。入会金3,300円と始めやすい。',
+    description: '西宮北口駅から徒歩2分です。リフォーマー・マット・サーキットフュージョンの3タイプのレッスンを提供しています。リフォーマーグループは定員3名、マットグループも5〜7名の少人数制で一人ひとり丁寧な指導です。入会金3,300円と始めやすいです。',
     access: '阪急神戸線「西宮北口駅」徒歩2分',
     address: '兵庫県西宮市甲風園1-9-8 睦ビル4C',
     popularPlan: {
       name: 'マットグループ月4回',
-      description: '少人数制マットピラティスグループレッスン。',
+      description: '少人数制マットピラティスグループレッスンです。',
       price: '月4回 11,000円（税込）',
     },
     options: [
@@ -212,7 +212,7 @@ const studios = [
     price: '月4回(45分) 29,700円〜 / 月4回(60分) 39,600円〜',
     trial: '体験トレーニング 7,100円（無料キャンペーン実施店舗あり）',
     features: ['マンツーマン（パーソナル）', 'マシン・マット両対応', '医師推奨パーソナルジムNo.1受賞'],
-    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオ。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せる。西宮エリア（詳細は公式サイト参照）。',
+    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオです。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せます。西宮エリアです（詳細は公式サイト参照）。',
     access: '西宮エリア（詳細は公式サイト参照）',
     address: '兵庫県（詳細は公式サイト参照）',
   },
@@ -224,7 +224,7 @@ const studios = [
     priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
     trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。西宮駅から徒歩5分。',
+    description: '女性専用のマシンピラティス専門スタジオです。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴です。西宮駅から徒歩5分です。',
     access: 'JR神戸線 西宮駅 徒歩5分／阪神本線 西宮駅 徒歩8分',
     address: '〒662-0918 兵庫県西宮市六湛寺町2-1 セントラルガーデンタワー104号',
     userProfile: {
@@ -244,31 +244,31 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！西宮エリアのスタジオはほとんどが初心者歓迎。CLUB PILATESは4段階のレベル分け、ピラティスKは初心者向けクラスが充実しています。',
+    answer: '問題ありません。西宮エリアのスタジオはほとんどが初心者歓迎です。CLUB PILATESは4段階のレベル分け、ピラティスKは初心者向けクラスが充実しています。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。西宮はマシン専門スタジオが特に充実しています。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。西宮はマシン専門スタジオが特に充実しています。',
   },
   {
     question: '西宮のピラティスの料金相場は？',
-    answer: 'グループ月4回で8,800円〜14,190円程度。Rintosullが月4回8,800円〜で最もリーズナブル。zen placeは月4回10,450円〜、ピラティスKは月4回11,220円〜。',
+    answer: 'グループ月4回で8,800円〜14,190円程度です。Rintosullが月4回8,800円〜で最もリーズナブルです。zen placeは月4回10,450円〜、ピラティスKは月4回11,220円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。大切なのは継続すること。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。大切なのは継続することです。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。ピラティスKは無料体験あり。zen placeはグループ体験1,000円、Movement Plusはマット体験1,650円。CLUB PILATESは無料イントロクラスあり。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。ピラティスKは無料体験があります。zen placeはグループ体験1,000円、Movement Plusはマット体験1,650円です。CLUB PILATESは無料イントロクラスがあります。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹強化・姿勢改善に特化。ヨガは柔軟性とリラックス重視。Rintosullは姉妹ブランドのLAVA全店も利用可能で、両方楽しめます。',
+    answer: 'ピラティスは体幹強化・姿勢改善に特化しています。ヨガは柔軟性とリラックス重視です。Rintosullは姉妹ブランドのLAVA全店も利用可能で、両方楽しめます。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
@@ -276,11 +276,11 @@ const faqs = [
   },
   {
     question: '無料で体験できるスタジオは？',
-    answer: 'ピラティスKとCLUB PILATESは無料体験あり。zen placeはグループ体験1,000円。Movement Plusはマット体験1,650円。',
+    answer: 'ピラティスKとCLUB PILATESは無料体験があります。zen placeはグループ体験1,000円です。Movement Plusはマット体験1,650円です。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -301,8 +301,8 @@ export default function NishinomiyaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス西宮おすすめ8選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス西宮おすすめ8選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -325,29 +325,11 @@ export default function NishinomiyaPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「西宮で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、西宮エリアでおすすめのピラティススタジオ8選をまとめました。
+              本ページでは、西宮エリアでおすすめのピラティススタジオ8選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -372,7 +354,7 @@ export default function NishinomiyaPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -440,25 +422,25 @@ export default function NishinomiyaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">阪急神戸線「西宮北口駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  西宮エリアのスタジオは西宮北口駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。西宮北口駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  西宮エリアのスタジオは西宮北口駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。西宮北口駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">西宮エリアの人気時間帯を把握して予約を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  西宮エリアでは平日夕方以降と土日午前中が予約の集中する時間帯です。特にマシンピラティスは定員が少ないため、希望の日時があれば早めの予約がおすすめ。スタジオによってはキャンセル待ち機能やLINE通知で空き枠をお知らせしてくれるところもあります。
+                  西宮エリアでは平日夕方以降と土日午前中が予約の集中する時間帯です。特にマシンピラティスは定員が少ないため、希望の日時があれば早めの予約がおすすめです。スタジオによってはキャンセル待ち機能やLINE通知で空き枠をお知らせしてくれるところもあります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">料金プランの種類と契約条件をしっかり比較</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  西宮エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかを確認しましょう。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため要チェックです。
+                  西宮エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかをご確認ください。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため、事前にご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  西宮エリアだけでなく、近隣の<Link href="/area/sannomiya/" className="text-warm-700 underline hover:text-warm-900">三宮</Link>、<Link href="/area/kobe/" className="text-warm-700 underline hover:text-warm-900">神戸</Link>、<Link href="/area/umeda/" className="text-warm-700 underline hover:text-warm-900">梅田</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  西宮エリアだけでなく、近隣の<Link href="/area/sannomiya/" className="text-warm-700 underline hover:text-warm-900">三宮</Link>、<Link href="/area/kobe/" className="text-warm-700 underline hover:text-warm-900">神戸</Link>、<Link href="/area/umeda/" className="text-warm-700 underline hover:text-warm-900">梅田</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -476,25 +458,25 @@ export default function NishinomiyaPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>西宮エリアの豆知識：</strong>西宮は地元の方に愛されるスタジオが中心です。車で通う場合は駐車場の有無を事前に確認。電車の場合は駅からの距離だけでなく、帰りの電車の時刻も確認しておくとスムーズです。
+                  <strong>西宮エリアの豆知識：</strong>西宮は地元の方に愛されるスタジオが中心です。車で通う場合は駐車場の有無を事前にご確認ください。電車の場合は駅からの距離だけでなく、帰りの電車の時刻も確認しておくとスムーズです。
                 </p>
               </div>
             </div>
@@ -512,7 +494,7 @@ export default function NishinomiyaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円以下で通えるスタジオ。
+                  月額1万円以下で通えるスタジオです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li>
@@ -522,7 +504,7 @@ export default function NishinomiyaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性だけの安心空間。
+                  女性だけの安心空間です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK 阪急西宮ガーデンズ</li>
@@ -532,7 +514,7 @@ export default function NishinomiyaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  西宮北口駅から徒歩3分以内。
+                  西宮北口駅から徒歩3分以内です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull（南改札口 徒歩1分）</li>
@@ -554,15 +536,15 @@ export default function NishinomiyaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回からスタート。最低2-3ヶ月継続で効果を実感。
+                週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回がおすすめ。3-6ヶ月で目に見える変化。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。
+                週1回のペースで無理なく継続することをおすすめします。
               </p>
             </div>
           </div>
@@ -579,7 +561,7 @@ export default function NishinomiyaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜11,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。
+                  グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Rintosull（8,800円〜/月4回）</li>
@@ -592,7 +574,7 @@ export default function NishinomiyaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 11,000〜15,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン専門スタジオ。
+                  マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（11,220円〜）</li>
@@ -603,7 +585,7 @@ export default function NishinomiyaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 14,000〜29,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">通い放題</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  毎日通いたい方。
+                  毎日通いたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Rintosull（13,800円/通い放題）</li>
@@ -637,7 +619,7 @@ export default function NishinomiyaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  西宮の料金相場はグループ月4回で8,800円〜14,190円。Rintosullが最安の月4回8,800円。入会金やキャンペーンも確認しましょう。
+                  西宮の料金相場はグループ月4回で8,800円〜14,190円です。Rintosullが最安の月4回8,800円です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -646,7 +628,7 @@ export default function NishinomiyaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ピラティスKとCLUB PILATESは無料体験。zen placeは1,000円、Movement Plusはマット体験1,650円で体験可能。
+                  ピラティスKとCLUB PILATESは無料体験を実施しています。zen placeは1,000円、Movement Plusはマット体験1,650円で体験可能です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -655,7 +637,7 @@ export default function NishinomiyaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  西宮北口駅は阪急神戸線の主要駅。Rintosullは南改札口から徒歩1分、zen placeとMovement Plusは徒歩2分、ピラティスKは阪急西宮ガーデンズ直結で徒歩3分とアクセス抜群です。
+                  西宮北口駅は阪急神戸線の主要駅です。Rintosullは南改札口から徒歩1分、zen placeとMovement Plusは徒歩2分、ピラティスKは阪急西宮ガーデンズ直結で徒歩3分とアクセス抜群です。
                 </p>
               </div>
             </div>
@@ -698,13 +680,13 @@ export default function NishinomiyaPage() {
               今回は西宮エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では西宮にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、西宮にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -713,11 +695,11 @@ export default function NishinomiyaPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜4,400円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜4,400円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

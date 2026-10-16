@@ -17,7 +17,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/toranomon/' },
   title: '【2026年10月最新】虎ノ門のピラティススタジオおすすめ5選｜無料体験・料金で比較',
-  description: '虎ノ門のピラティススタジオ5社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
+  description: '虎ノ門のピラティススタジオ5社の料金・無料体験・マシン対応を比較しています。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
   keywords: 'ピラティス,虎ノ門,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,溜池山王,霞ヶ関',
 }
 
@@ -28,12 +28,12 @@ const studios = [
     price: 'チケット制（公式サイトで確認）',
     trial: '体験レッスンあり',
     features: ['溜池山王駅徒歩1分', '国家資格者監修', '完全個室', 'グループあり'],
-    description: 'ボディメイク×ピラティスのオリジナルメソッドが特徴のスタジオ。溜池山王駅9番出口から徒歩1分、虎ノ門駅から徒歩5分。理学療法士や柔道整復師などの国家資格を持つ専門家が監修したプログラム。完全個室でのパーソナルレッスンとグループレッスンを提供。',
+    description: 'ボディメイク×ピラティスのオリジナルメソッドが特徴のスタジオです。溜池山王駅9番出口から徒歩1分、虎ノ門駅から徒歩5分です。理学療法士や柔道整復師などの国家資格を持つ専門家が監修したプログラムです。完全個室でのパーソナルレッスンとグループレッスンを提供しています。',
     access: '銀座線・南北線「溜池山王駅」9番出口 徒歩1分 / 銀座線「虎ノ門駅」徒歩5分 / 丸ノ内線・千代田線「国会議事堂前駅」徒歩5分',
     address: '東京都港区赤坂1丁目3-18 DG22ビル5F',
     popularPlan: {
       name: 'パーソナルレッスン',
-      description: '完全個室でのマンツーマンレッスン。国家資格保持者監修プログラム。',
+      description: '完全個室でのマンツーマンレッスンです。国家資格保持者監修プログラムです。',
       price: 'チケット制（公式サイトでご確認ください）',
     },
     options: [
@@ -59,12 +59,12 @@ const studios = [
     price: '体験 4,750円〜',
     trial: '体験レッスン 4,750円',
     features: ['赤坂駅徒歩30秒', '少人数制', 'タワーリフォーマー', '夜22時まで'],
-    description: '赤坂に誕生した少人数制のピラティススタジオ。赤坂駅から徒歩30秒、溜池山王駅から徒歩6分。タワーリフォーマー、チェア、キャデラック、ラダーバレルなど高品質マシンを完備。経験豊富なインストラクターによるパーソナルレッスンが充実。',
+    description: '赤坂に誕生した少人数制のピラティススタジオです。赤坂駅から徒歩30秒、溜池山王駅から徒歩6分です。タワーリフォーマー、チェア、キャデラック、ラダーバレルなど高品質マシンを完備しています。経験豊富なインストラクターによるパーソナルレッスンが充実しています。',
     access: '千代田線「赤坂駅」徒歩30秒 / 銀座線・南北線「溜池山王駅」徒歩6分 / 南北線「六本木一丁目駅」徒歩15分',
     address: '東京都港区赤坂3-13-3 赤坂セントラルビル3F',
     popularPlan: {
       name: 'パーソナルレッスン',
-      description: '多彩なマシンを使ったマンツーマンレッスン。目的に合わせた指導。',
+      description: '多彩なマシンを使ったマンツーマンレッスンです。目的に合わせた指導しています。',
       price: '公式サイトでご確認ください',
     },
     options: [
@@ -91,12 +91,12 @@ const studios = [
     price: '月4回 11,220円〜',
     trial: '体験レッスン 2,000円',
     features: ['女性専用', '銀座駅徒歩5分', '部位別プログラム', 'マシン専門'],
-    description: '女性専用マシンピラティス専門スタジオ。銀座駅A9番出口から徒歩5分、有楽町線銀座一丁目駅5番出口すぐ。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実。虎ノ門エリアからも銀座線で好アクセス。',
+    description: '女性専用マシンピラティス専門スタジオです。銀座駅A9番出口から徒歩5分、有楽町線銀座一丁目駅5番出口すぐです。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実しています。虎ノ門エリアからも銀座線で好アクセスです。',
     access: '銀座線・丸ノ内線・日比谷線「銀座駅」A9番出口 徒歩5分 / 有楽町線「銀座一丁目駅」5番出口すぐ',
     address: '東京都中央区銀座1丁目6-10 上一ビルディング7F',
     popularPlan: {
       name: 'マンスリー4メンバー（月4回）',
-      description: '女性専用マシンピラティス月4回。部位別プログラムも選べる。',
+      description: '女性専用マシンピラティス月4回です。部位別プログラムも選べます。',
       price: '月4回 13,420円（税込）',
     },
     options: [
@@ -122,13 +122,13 @@ const studios = [
     image: '/images/studios/the-silk.webp',
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
-    features: ['女性専用', '銀座駅徒歩2分', '手ぶら体験OK', '初心者8割'],
-    description: '女性専用マシンピラティススタジオ。銀座駅B5番出口から徒歩2分。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。手ぶらで体験可能。虎ノ門エリアからも銀座線で好アクセス。',
+    features: ['女性専用', '銀座駅徒歩2分', '手ぶらで体験可能', '初心者8割'],
+    description: '女性専用マシンピラティススタジオです。銀座駅B5番出口から徒歩2分です。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。手ぶらで体験可能です。虎ノ門エリアからも銀座線で好アクセスです。',
     access: '銀座線・丸ノ内線・日比谷線「銀座駅」B5番出口 徒歩2分',
     address: '東京都中央区銀座5-9-12 ダイヤモンドビル3F',
     popularPlan: {
       name: 'Standard4（月4回）',
-      description: '女性専用マシンピラティス月4回。音楽に合わせた楽しいレッスン。',
+      description: '女性専用マシンピラティス月4回です。音楽に合わせた楽しいレッスンです。',
       price: '月4回 15,070円（税込）',
     },
     options: [
@@ -154,12 +154,12 @@ const studios = [
     price: 'パーソナル 1回 12,100円〜',
     trial: '体験レッスン 3,300円（90分）',
     features: ['女性専用', '新橋駅徒歩4分', '完全個室', 'ペアトレあり'],
-    description: '女性専用のパーソナルマシンピラティス専門スタジオ。新橋駅から徒歩4分、銀座駅から徒歩6分。完全個室でのオーダーメイドプログラム。虎ノ門エリアからも新橋経由で好アクセス。ペアトレーニングも人気。',
+    description: '女性専用のパーソナルマシンピラティス専門スタジオです。新橋駅から徒歩4分、銀座駅から徒歩6分です。完全個室でのオーダーメイドプログラムです。虎ノ門エリアからも新橋経由で好アクセスです。ペアトレーニングも人気です。',
     access: 'JR・銀座線「新橋駅」徒歩4分 / 銀座線「銀座駅」徒歩6分 / 日比谷線「内幸町駅」徒歩5分',
     address: '東京都中央区銀座7丁目2番14号 第26ポールスタービル地下1階A室',
     popularPlan: {
       name: 'パーソナルレッスン',
-      description: '完全個室でのマンツーマンマシンピラティス。オーダーメイドプログラム。',
+      description: '完全個室でのマンツーマンマシンピラティスです。オーダーメイドプログラムです。',
       price: '1回 12,100円（税込）',
     },
     options: [
@@ -184,31 +184,31 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！虎ノ門エリアのスタジオはほとんどが初心者歓迎。the SILKは体験者の約8割がピラティス未経験者。ピラティスKも初心者向けクラスが充実しています。',
+    answer: '問題ありません。虎ノ門エリアのスタジオはほとんどが初心者歓迎です。the SILKは体験者の約8割がピラティス未経験者です。ピラティスKも初心者向けクラスが充実しています。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。虎ノ門エリアはマシン専門スタジオが特に充実。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。虎ノ門エリアはマシン専門スタジオが特に充実しています。',
   },
   {
     question: '虎ノ門のピラティスの料金相場は？',
-    answer: 'グループ月4回で11,220円〜15,070円程度。ピラティスKが月4回11,220円〜で最もリーズナブル。the SILKは月3回12,980円〜。パーソナルは1回12,100円〜が相場です。',
+    answer: 'グループ月4回で11,220円〜15,070円程度です。ピラティスKが月4回11,220円〜で最もリーズナブルです。the SILKは月3回12,980円〜です。パーソナルは1回12,100円〜が相場です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。大切なのは継続すること。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。大切なのは継続することです。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。the SILKは手ぶらで体験可能（ウェア・タオル無料貸出）。ピラティスKは体験2,000円。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。the SILKは手ぶらで体験可能です（ウェア・タオル無料貸出）。ピラティスKは体験2,000円です。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹強化・姿勢改善に特化。ヨガは柔軟性とリラックス重視。Studio-BMPではピラティスをベースにしたボディメイクメソッドを提供。',
+    answer: 'ピラティスは体幹強化・姿勢改善に特化しています。ヨガは柔軟性とリラックス重視です。Studio-BMPではピラティスをベースにしたボディメイクメソッドを提供しています。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
@@ -216,11 +216,11 @@ const faqs = [
   },
   {
     question: '無料で体験できるスタジオは？',
-    answer: 'the SILK銀座店は無料体験キャンペーンあり。ピラティスKは体験2,000円。CREA Pilatesは体験3,300円。',
+    answer: 'the SILK銀座店は無料体験キャンペーンがあります。ピラティスKは体験2,000円です。CREA Pilatesは体験3,300円です。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -241,8 +241,8 @@ export default function ToranomonPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス虎ノ門おすすめ5選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス虎ノ門おすすめ5選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -267,29 +267,11 @@ export default function ToranomonPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「虎ノ門で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、虎ノ門エリアでおすすめのピラティススタジオ5選をまとめました。
+              本ページでは、虎ノ門エリアでおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -314,7 +296,7 @@ export default function ToranomonPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -383,25 +365,25 @@ export default function ToranomonPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">銀座線・南北線「溜池山王駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  虎ノ門エリアのスタジオは溜池山王駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。溜池山王駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  虎ノ門エリアのスタジオは溜池山王駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。溜池山王駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">繁華街ならではの予約混雑に注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  虎ノ門は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることも。アプリやWebで空き状況をこまめにチェックし、キャンセル待ち機能があるスタジオでは積極的に活用しましょう。
+                  虎ノ門は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることもあります。アプリやWebで空き状況をこまめに確認し、キャンセル待ち機能があるスタジオでは積極的にご活用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  虎ノ門エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ず確認しましょう。月の途中入会は日割り計算になるかも要チェックです。
+                  虎ノ門エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ずご確認ください。月の途中入会は日割り計算になるかもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  虎ノ門エリアだけでなく、近隣の<Link href="/area/shimbashi/" className="text-warm-700 underline hover:text-warm-900">新橋</Link>、<Link href="/area/nagatacho/" className="text-warm-700 underline hover:text-warm-900">永田町</Link>、<Link href="/area/akasaka/" className="text-warm-700 underline hover:text-warm-900">赤坂</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  虎ノ門エリアだけでなく、近隣の<Link href="/area/shimbashi/" className="text-warm-700 underline hover:text-warm-900">新橋</Link>、<Link href="/area/nagatacho/" className="text-warm-700 underline hover:text-warm-900">永田町</Link>、<Link href="/area/akasaka/" className="text-warm-700 underline hover:text-warm-900">赤坂</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -419,25 +401,25 @@ export default function ToranomonPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>虎ノ門エリアの豆知識：</strong>虎ノ門は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
+                  <strong>虎ノ門エリアの豆知識：</strong>虎ノ門は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心です。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
                 </p>
               </div>
             </div>
@@ -455,7 +437,7 @@ export default function ToranomonPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額2万円未満で通えるスタジオ（店舗カードの料金）。
+                  月額2万円未満で通えるスタジオです（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK 銀座店（月4回 11,220円〜）</li>
@@ -465,7 +447,7 @@ export default function ToranomonPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性だけの安心空間。
+                  女性だけの安心空間です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK 銀座店</li>
@@ -476,7 +458,7 @@ export default function ToranomonPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  駅から徒歩2分以内。
+                  駅から徒歩2分以内です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Lume Pilates 赤坂（千代田線「赤坂駅」徒歩30秒）</li>
@@ -497,15 +479,15 @@ export default function ToranomonPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回からスタート。最低2-3ヶ月継続で効果を実感。
+                週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回がおすすめ。3-6ヶ月で目に見える変化。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。
+                週1回のペースで無理なく継続することをおすすめします。
               </p>
             </div>
           </div>
@@ -522,7 +504,7 @@ export default function ToranomonPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜13,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月3〜4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。
+                  グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• the SILK（12,980円〜/月3回）</li>
@@ -533,7 +515,7 @@ export default function ToranomonPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜15,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン専門スタジオ。
+                  マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（13,420円〜）</li>
@@ -543,7 +525,7 @@ export default function ToranomonPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 16,000〜29,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">通い放題</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  毎日通いたい方。
+                  毎日通いたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（16,170円/通い放題）</li>
@@ -575,7 +557,7 @@ export default function ToranomonPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  虎ノ門の料金相場はグループ月4回で10,450円〜15,070円。入会金やキャンペーンも確認しましょう。
+                  虎ノ門の料金相場はグループ月4回で10,450円〜15,070円です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -584,7 +566,7 @@ export default function ToranomonPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  体験料金は、Lume Pilates 赤坂が「体験レッスン 4,750円」、ピラティスK 銀座店が「体験レッスン 2,000円」、the SILK 銀座店が「体験レッスン 無料」、CREA Pilates 新橋/銀座店が「体験レッスン 3,300円（90分）」です（店舗カードの記載）。最新の条件は各公式サイトで確認しましょう。
+                  体験料金は、Lume Pilates 赤坂が「体験レッスン 4,750円」、ピラティスK 銀座店が「体験レッスン 2,000円」、the SILK 銀座店が「体験レッスン 無料」、CREA Pilates 新橋/銀座店が「体験レッスン 3,300円（90分）」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -593,7 +575,7 @@ export default function ToranomonPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  虎ノ門の掲載スタジオでは、Lume Pilates 赤坂（千代田線「赤坂駅」徒歩30秒）、Studio-BMP 虎ノ門店（銀座線・南北線「溜池山王駅」9番出口 徒歩1分）、the SILK 銀座店（銀座線・丸ノ内線・日比谷線「銀座駅」B5番出口 徒歩2分）が駅から近いスタジオです。通う時間帯の経路も確認しておきましょう。
+                  虎ノ門の掲載スタジオでは、Lume Pilates 赤坂（千代田線「赤坂駅」徒歩30秒）、Studio-BMP 虎ノ門店（銀座線・南北線「溜池山王駅」9番出口 徒歩1分）、the SILK 銀座店（銀座線・丸ノ内線・日比谷線「銀座駅」B5番出口 徒歩2分）が駅から近いスタジオです。通う時間帯の経路もご確認ください。
                 </p>
               </div>
             </div>
@@ -636,13 +618,13 @@ export default function ToranomonPage() {
               今回は虎ノ門エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では虎ノ門にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、虎ノ門にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -651,11 +633,11 @@ export default function ToranomonPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,850円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜3,850円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

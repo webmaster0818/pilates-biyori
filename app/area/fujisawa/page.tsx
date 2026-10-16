@@ -17,8 +17,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/fujisawa/' },
-  title: '【2026年10月最新】藤沢のピラティス｜初心者OK・無料体験で選ぶ料金比較',
-  description: '藤沢エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  title: '【2026年10月最新】藤沢のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  description: '藤沢エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,藤沢,湘南,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -29,13 +29,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 9,625円〜',
     trial: '体験レッスン 500円〜',
-    features: ['マシン完備', '男性OK', '藤沢駅徒歩2分', '全国相互利用可'],
-    description: '全国150以上のスタジオを展開する国内最大級のピラティス専門スタジオ。JR東海道線・小田急江ノ島線「藤沢駅」南口から徒歩2分の好立地。リフォーマー以外にチェアやキャデラックなど豊富なマシンを完備。男性も受講可能。',
+    features: ['マシン完備', '男性利用可', '藤沢駅徒歩2分', '全国他店利用可'],
+    description: '全国150以上のスタジオを展開する国内最大級のピラティス専門スタジオです。JR東海道線・小田急江ノ島線「藤沢駅」南口から徒歩2分の好立地です。リフォーマー以外にチェアやキャデラックなど豊富なマシンを完備しています。男性も受講可能です。',
     access: 'JR東海道線・小田急江ノ島線「藤沢駅」南口 徒歩2分 / 江ノ島電鉄「藤沢駅」徒歩5分',
     address: '神奈川県藤沢市南藤沢2-8 2002K&Sビルディング 4階',
     popularPlan: {
       name: 'マットグループ月4回',
-      description: 'マットピラティスのグループレッスン。全国のzen placeスタジオで相互利用可能。',
+      description: 'マットピラティスのグループレッスンです。全国のzen placeスタジオで他店利用可能です。',
       price: '月4回 9,625円（税込）',
     },
     options: [
@@ -63,12 +63,12 @@ const studios = [
     priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
     trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '1人のインストラクターにつき最大3名のセミパーソナル型マシンピラティススタジオ。藤沢駅から徒歩5分。定額制で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と驚きのコスパ。当日予約・当日キャンセルOKと柔軟な予約対応。女性専用。',
+    description: '1人のインストラクターにつき最大3名のセミパーソナル型マシンピラティススタジオです。藤沢駅から徒歩5分です。定額制で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と割安です。当日予約・当日キャンセル可能と柔軟な予約対応です。女性専用です。',
     access: '藤沢駅 徒歩5分',
     address: '〒251-0023 神奈川県藤沢市鵠沼花沢町11-1　1階',
     popularPlan: {
       name: '定額制プラン',
-      description: 'セミパーソナルのマシンピラティス。通い放題で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）。',
+      description: 'セミパーソナルのマシンピラティスです。通い放題で1回あたり2,500円です（※37,500円の通い放題コースで15日通った場合）。',
       price: '定額制（詳細は公式サイト参照）',
     },
     userProfile: {
@@ -88,12 +88,12 @@ const studios = [
     price: '1回 4,400円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', '韓国式リフォーマー', 'ジム併設', 'セミパーソナル'],
-    description: '女性専用マシンピラティススタジオ&ジム。韓国で人気のリフォーマーを採用し、最大4名のセミパーソナル式グループレッスン。ピラティスに加えてTRX・スウェディッシュバー・有酸素マシンも完備で、総合的なボディメイクが可能。',
+    description: '女性専用マシンピラティススタジオ&ジムです。韓国で人気のリフォーマーを採用し、最大4名のセミパーソナル式グループレッスンです。ピラティスに加えてTRX・スウェディッシュバー・有酸素マシンも完備で、総合的なボディメイクが可能です。',
     access: '藤沢駅北口 徒歩9分',
     address: '神奈川県藤沢市（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'セミパーソナルレッスン',
-      description: '韓国式リフォーマーを使った最大4名のセミパーソナルレッスン。',
+      description: '韓国式リフォーマーを使った最大4名のセミパーソナルレッスンです。',
       price: '1回 4,400円〜（税込）',
     },
     options: [
@@ -118,20 +118,20 @@ const studios = [
     image: '/images/studios/n-pilates-fujisawa.webp',
     price: '要確認（完全パーソナル）',
     trial: '体験レッスンあり',
-    features: ['完全プライベート', '予約制', '藤沢駅徒歩4分', '子連れOK'],
-    description: '完全予約制プライベート専門ピラティススタジオ。藤沢駅南口から徒歩4分。一人ひとりにセッション内容をプログラミングし、最適なエクササイズを提供。産前産後の方、初心者からアスリートまで対応。お子様連れもOK。',
+    features: ['完全プライベート', '予約制', '藤沢駅徒歩4分', '子連れ可'],
+    description: '完全予約制プライベート専門ピラティススタジオです。藤沢駅南口から徒歩4分です。一人ひとりにセッション内容をプログラミングし、最適なエクササイズを提供しています。産前産後の方、初心者からアスリートまで対応しています。お子様連れも可能です。',
     access: '藤沢駅南口 徒歩4分',
     address: '神奈川県藤沢市（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'プライベートセッション（55分）',
-      description: '完全マンツーマンのオーダーメイドピラティスセッション。',
+      description: '完全マンツーマンのオーダーメイドピラティスセッションです。',
       price: '要確認（公式サイト参照）',
     },
     options: [
       '完全予約制',
       'プライベートセッション55分',
       '産前産後対応',
-      'お子様連れOK',
+      'お子様連れ可',
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
@@ -149,13 +149,13 @@ const studios = [
     image: '/images/studios/la-pilates.webp',
     price: '月1回 12,000円〜',
     trial: '無料体験あり',
-    features: ['女性専用', '整体×ピラティス', '年中無休', '産前産後OK'],
-    description: '女性専用の整体×マシンピラティス融合スタジオ。姿勢改善に特化し、女性インストラクターが丁寧に指導。産前産後にも対応。年中無休・朝9時から夜21時まで営業。無料体験あり。',
+    features: ['女性専用', '整体×ピラティス', '年中無休', '産前産後可'],
+    description: '女性専用の整体×マシンピラティス融合スタジオです。姿勢改善に特化し、女性インストラクターが丁寧に指導しています。産前産後にも対応しています。年中無休・朝9時から夜21時まで営業しています。無料体験があります。',
     access: '藤沢エリア',
     address: '神奈川県藤沢市（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: '月2回プラン',
-      description: '整体×マシンピラティスのパーソナルレッスン月2回。',
+      description: '整体×マシンピラティスのパーソナルレッスン月2回です。',
       price: '月2回 22,000円（税込）',
     },
     options: [
@@ -182,7 +182,7 @@ const studios = [
     price: 'グループ月4回(Standard4) 14,370〜15,280円 / 通い放題 19,980〜22,280円（別途施設利用料月700円）/ パーソナル月2回 22,000円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'マシンピラティス専門', 'グループ＋パーソナル'],
-    description: '女性専用のマシンピラティス専門スタジオ。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴。藤沢駅から徒歩1分（情報引用元: the SILK公式サイト the-silk.co.jp）。',
+    description: '女性専用のマシンピラティス専門スタジオです。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴です。藤沢駅から徒歩1分です（情報引用元: the SILK公式サイト the-silk.co.jp）。',
     access: '藤沢駅から徒歩1分',
     address: '神奈川県藤沢市南藤沢22-1 神中第二ビル6階',
   },
@@ -191,43 +191,43 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！藤沢エリアのスタジオのほとんどが初心者歓迎。the SILKは初心者が80%、zen placeは体験500円から気軽に始められます。',
+    answer: '問題ありません。藤沢エリアのスタジオのほとんどが初心者歓迎です。the SILKは初心者が80%、zen placeは体験500円から気軽に始められます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。藤沢はマシン専門スタジオが充実しています。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。藤沢はマシン専門スタジオが充実しています。',
   },
   {
     question: '藤沢のピラティススタジオの料金相場は？',
-    answer: 'グループ月4回で9,600円〜15,300円程度。Pilates Meeは定額制で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）。パーソナルはLa pilatesなら月1回12,000円〜です。',
+    answer: 'グループ月4回で9,600円〜15,300円程度です。Pilates Meeは定額制で1回あたり2,500円です（※37,500円の通い放題コースで15日通った場合）。パーソナルはLa pilatesなら月1回12,000円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1-2回（月4-8回）がおすすめ。慣れたら週2-3回に。大切なのは継続すること。',
+    answer: '初心者は週1〜2回（月4〜8回）がおすすめです。慣れてきたら週2〜3回が目安です。大切なのは継続することです。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。the SILKは手ぶらOKの無料体験、zen placeは500円で体験可能です。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。the SILKは手ぶらで参加可能の無料体験、zen placeは500円で体験可能です。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹強化に特化。ヨガは柔軟性とリラックス重視。目的に合わせて選びましょう。',
+    answer: 'ピラティスは体幹強化に特化しています。ヨガは柔軟性とリラックス重視です。目的に合わせてお選びください。',
   },
   {
     question: 'ピラティスで肩こりや腰痛は改善しますか？',
-    answer: 'はい、姿勢改善で根本原因を解消。La pilatesは整体×ピラティスで体の不調改善に特化しています。',
+    answer: 'はい、姿勢改善で根本原因を解消しています。La pilatesは整体×ピラティスで体の不調改善に特化しています。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'パーソナルはN pilates studioやLa pilatesで効果的な指導を。グループはzen placeなら月4回9,625円から。まずは体験で両方試してみましょう。',
+    answer: 'パーソナルはN pilates studioやLa pilatesで効果的な指導を受けられます。グループはzen placeなら月4回9,625円からです。まずは体験レッスンで両方を試すことをおすすめします。',
   },
 ]
 
@@ -248,8 +248,8 @@ export default function FujisawaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス藤沢おすすめ6選！<br className="hidden md:block" />
-              料金・体験レッスン・マシン対応を比較！
+              ピラティス藤沢おすすめ6選<br className="hidden md:block" />
+              料金・体験レッスン・マシン対応を比較
             </h1>
           </div>
         </section>
@@ -274,29 +274,11 @@ export default function FujisawaPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「藤沢・湘南で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、藤沢エリアでおすすめのピラティススタジオ6選をまとめました。
+              本ページでは、藤沢エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -321,7 +303,7 @@ export default function FujisawaPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -375,7 +357,7 @@ export default function FujisawaPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              藤沢は海に近い開放的な雰囲気が魅力のエリアです。観光客向けの体験クラスからしっかり通える月額プランまで幅広く、リゾート感覚で通えるスタジオもあります。地元密着型スタジオは料金も良心的なので要チェックです。近隣の湘南エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
+              藤沢は海に近い開放的な雰囲気が魅力のエリアです。観光客向けの体験クラスからしっかり通える月額プランまで幅広く、リゾート感覚で通えるスタジオもあります。地元密着型スタジオは料金も良心的なのでご確認ください。近隣の湘南エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
             </p>
           </div>
         </section>
@@ -390,25 +372,25 @@ export default function FujisawaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">JR東海道線・小田急江ノ島線「藤沢駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  藤沢エリアのスタジオは藤沢駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。藤沢駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  藤沢エリアのスタジオは藤沢駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。藤沢駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">観光シーズンの混雑に備えた予約を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  藤沢は観光エリアとしても人気のため、GW・夏休み・年末年始は体験レッスンの申し込みが増加します。地元の方は観光シーズンを避けた平日昼間が快適に通える時間帯。ビジター利用を受け付けるスタジオもあるので、旅行のついでに体験するのもおすすめです。
+                  藤沢は観光エリアとしても人気のため、GW・夏休み・年末年始は体験レッスンの申し込みが増加します。地元の方は観光シーズンを避けた平日昼間が快適に通える時間帯です。ビジター利用を受け付けるスタジオもあるので、旅行のついでに体験するのもおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">季節による料金プランの違いに注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  藤沢エリアでは季節限定のキャンペーンや、夏季限定の短期集中プランを提供するスタジオもあります。年間を通して通うなら月額制が割安ですが、特定の時期だけ通いたい方は回数券を検討しましょう。入会時のキャンペーンは時期によって内容が変わるので、タイミングを見計らうのもポイントです。
+                  藤沢エリアでは季節限定のキャンペーンや、夏季限定の短期集中プランを提供するスタジオもあります。年間を通して通うなら月額制が割安ですが、特定の時期だけ通いたい方は回数券をご検討ください。入会時のキャンペーンは時期によって内容が変わるので、タイミングを見計らうのもポイントです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  藤沢エリアだけでなく、近隣の<Link href="/area/shonan/" className="text-warm-700 underline hover:text-warm-900">湘南</Link>、<Link href="/area/kamakura/" className="text-warm-700 underline hover:text-warm-900">鎌倉</Link>、<Link href="/area/yokohama/" className="text-warm-700 underline hover:text-warm-900">横浜</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  藤沢エリアだけでなく、近隣の<Link href="/area/shonan/" className="text-warm-700 underline hover:text-warm-900">湘南</Link>、<Link href="/area/kamakura/" className="text-warm-700 underline hover:text-warm-900">鎌倉</Link>、<Link href="/area/yokohama/" className="text-warm-700 underline hover:text-warm-900">横浜</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -426,25 +408,25 @@ export default function FujisawaPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>藤沢エリアの豆知識：</strong>藤沢は海沿いのエリアならではの開放感が魅力です。特に夏場は汗をかきやすいので、制汗スプレーや替えのTシャツを持参すると快適。海風で髪が乱れやすい時期は、ヘアバンドやヘアゴムも忘れずに。
+                  <strong>藤沢エリアの豆知識：</strong>藤沢は海沿いのエリアならではの開放感が魅力です。特に夏場は汗をかきやすいので、制汗スプレーや替えのTシャツを持参すると快適です。海風で髪が乱れやすい時期は、ヘアバンドやヘアゴムも忘れずにご用意ください。
                 </p>
               </div>
             </div>
@@ -462,7 +444,7 @@ export default function FujisawaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円以下で通えるリーズナブルなスタジオ。
+                  月額1万円以下で通えるリーズナブルなスタジオです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Pilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）</li>
@@ -473,17 +455,17 @@ export default function FujisawaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  完全マンツーマンで効果的に。
+                  完全マンツーマン指導で効率よく取り組めます。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• N pilates studio（子連れOK）</li>
+                  <li className="text-warm-700">• N pilates studio（子連れ可）</li>
                   <li className="text-warm-700">• La pilates（整体×ピラティス）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  藤沢駅から徒歩5分以内。
+                  藤沢駅から徒歩5分以内です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• the SILK（藤沢駅 徒歩1分）</li>
@@ -504,15 +486,15 @@ export default function FujisawaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回（月4-8回）からスタート。最低2-3ヶ月継続で効果を実感。
+                週1〜2回（月4〜8回）から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回がおすすめ。3-6ヶ月で目に見える変化が期待できます。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。自分のペースが一番です。
+                週1回のペースで無理なく継続することをおすすめします。自分のペースが一番です。
               </p>
             </div>
           </div>
@@ -529,7 +511,7 @@ export default function FujisawaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループ・セミパーソナル中心。
+                  グループ・セミパーソナル中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Pilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）</li>
@@ -541,7 +523,7 @@ export default function FujisawaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜16,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン完備の大手スタジオ。
+                  マシン完備の大手スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• the SILK</li>
@@ -552,7 +534,7 @@ export default function FujisawaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 20,000円〜</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月2〜4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  完全パーソナル。効果重視の方に。
+                  完全パーソナルです。効果重視の方におすすめです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• La pilates（月2回 22,000円）</li>
@@ -585,7 +567,7 @@ export default function FujisawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  藤沢エリアの料金相場はグループ月4回で9,600円〜15,300円。入会金やレンタル料も確認しましょう。
+                  藤沢エリアの料金相場はグループ月4回で9,600円〜15,300円です。入会金やレンタル料もご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -594,7 +576,7 @@ export default function FujisawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKは無料体験、zen placeは500円で体験可能。気軽に試してみましょう。
+                  the SILKは無料体験、zen placeは500円で体験可能です。体験レッスンで実際の雰囲気をご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -603,7 +585,7 @@ export default function FujisawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  藤沢はJR東海道線・小田急江ノ島線・江ノ島電鉄が利用可能。the SILKは駅徒歩1分、zen placeは徒歩2分と駅近スタジオが充実。
+                  藤沢はJR東海道線・小田急江ノ島線・江ノ島電鉄が利用可能です。the SILKは駅徒歩1分、zen placeは徒歩2分と駅近スタジオが充実しています。
                 </p>
               </div>
             </div>
@@ -646,13 +628,13 @@ export default function FujisawaPage() {
               今回は藤沢のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では藤沢に数多くあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、藤沢に数多くあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -661,11 +643,11 @@ export default function FujisawaPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜500円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜500円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

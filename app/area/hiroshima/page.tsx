@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/hiroshima/' },
-  title: '【2026年10月最新】広島のピラティス｜初心者OK・無料体験で選ぶ料金比較',
-  description: '広島エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  title: '【2026年10月最新】広島のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  description: '広島エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,広島,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -27,12 +27,12 @@ const studios = [
     price: '月4回 13,420円〜',
     trial: '無料体験レッスン',
     features: ['音楽×マシン', '女性専用', '八丁堀駅徒歩5分', '暗闇レッスン'],
-    description: '広島の新天地にある女性専用マシンピラティススタジオ。広島電鉄の「八丁堀駅」より徒歩5分と、公共交通機関でのアクセスも便利。カジュアルかつスタイリッシュな店内で、音楽にあわせたグループレッスンを楽しめます。お腹、お尻、二の腕、脚、背中の部位に特化したボディメイクプログラムが充実。',
+    description: '広島の新天地にある女性専用マシンピラティススタジオです。広島電鉄の「八丁堀駅」より徒歩5分と、公共交通機関でのアクセスも便利です。カジュアルかつスタイリッシュな店内で、音楽にあわせたグループレッスンを楽しめます。お腹、お尻、二の腕、脚、背中の部位に特化したボディメイクプログラムが充実しています。',
     access: '広島電鉄 八丁堀駅より徒歩5分',
     address: '広島県広島市中区新天地（詳細は公式サイト参照）',
     popularPlan: {
       name: 'マンスリー4メンバー',
-      description: '暗闇×音楽×マシンピラティスの融合レッスン。楽しく続けられると人気のプラン。',
+      description: '暗闇×音楽×マシンピラティスの融合レッスンです。楽しく続けられると人気のプランです。',
       price: '月4回 13,420円（税込）+ 施設維持費 825円',
     },
     options: [
@@ -58,13 +58,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 9,625円〜',
     trial: '体験レッスン あり',
-    features: ['全国150店舗', 'マット＆マシン', '男性OK', '立町駅徒歩2分'],
-    description: 'zen place pilates 広島スタジオは、広電1号線 立町駅徒歩2分/紙屋町東駅徒歩2分。マットグループ、マシン（リフォーマー）グループ、プライベートのレッスンがあり、男性もOK。全国150店舗以上を展開する大手ピラティススタジオ。初心者から経験者まで幅広く対応。',
+    features: ['全国150店舗', 'マット＆マシン', '男性利用可', '立町駅徒歩2分'],
+    description: 'zen place pilates 広島スタジオは、広電1号線 立町駅徒歩2分/紙屋町東駅徒歩2分です。マットグループ、マシン（リフォーマー）グループ、プライベートのレッスンがあり、男性も可能です。全国150店舗以上を展開する大手ピラティススタジオです。初心者から経験者まで幅広く対応しています。',
     access: '広電1号線 立町駅徒歩2分/紙屋町東駅徒歩2分',
     address: '広島県広島市中区基町12-3 COI広島紙屋町ビル 7階',
     popularPlan: {
       name: 'マットグループ 月4',
-      description: 'マットピラティスのグループレッスン。初心者にもおすすめの基本プラン。',
+      description: 'マットピラティスのグループレッスンです。初心者にもおすすめの基本プランです。',
       price: '月4回 9,625円（税込）',
     },
     options: [
@@ -91,12 +91,12 @@ const studios = [
     price: '月4回 13,090円／月8回 24,090円／通い放題 37,290円（公式店舗ページ・税表記なし）',
     trial: '無料体験レッスン（30分）',
     features: ['アメリカ発', '世界800店舗以上', 'グループ＆プライベート', '初心者歓迎'],
-    description: 'CLUB PILATES(クラブピラティス)は世界各国で800店舗以上展開するアメリカ発のピラティススタジオ。「ピラティスって難しそう...」そんな不安をお持ちの方こそ大歓迎！運動が苦手でも、体が硬くても大丈夫。「できた！」の小さな喜びから始めて、少しずつ自信をつけていきましょう。完全初心者の方でも安心して取り組むことが可能です。入会を検討している方向けに30分間の無料体験クラスを開催しております。',
+    description: 'CLUB PILATES(クラブピラティス)は世界各国で800店舗以上展開するアメリカ発のピラティススタジオです。「ピラティスって難しそう...」そんな不安をお持ちの方こそ大歓迎です。運動が苦手でも、体が硬くても大丈夫です。「できた！」の小さな喜びから始めて、少しずつ自信をつけていくことをおすすめします。完全初心者の方でも安心して取り組むことが可能です。入会を検討している方向けに30分間の無料体験クラスを開催しております。',
     access: '広島市内（詳細は公式サイト参照）',
     address: '広島県広島市（詳細は公式サイト参照）',
     popularPlan: {
       name: 'グループレッスン',
-      description: '世界800店舗以上のネットワーク。初心者でも安心して楽しめる。',
+      description: '世界800店舗以上のネットワークです。初心者でも安心して楽しめます。',
       price: '月4回 13,090円（税表記なし）',
     },
     options: ['月8回 24,090円', '通い放題 37,290円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
@@ -117,12 +117,12 @@ const studios = [
     price: 'サブスク月1回 12,000円〜',
     trial: '体験レッスン 3,000円',
     features: ['整体×マシンピラティス', '紙屋町西駅徒歩3分', '女性専用', '明るいスタジオ'],
-    description: '広島市のマシンピラティスならLa pilates｜女性専用・整体×ピラティススタジオ。紙屋町西駅から徒歩3分。La pilates広島店は、整体とマシンピラティスを融合させた、女性専用のスタジオ。身体の歪みを整えながらボディメイク。明るいスタジオで楽しくレッスン。',
+    description: '広島市のマシンピラティスならLa pilates｜女性専用・整体×ピラティススタジオです。紙屋町西駅から徒歩3分です。La pilates広島店は、整体とマシンピラティスを融合させた、女性専用のスタジオです。身体の歪みを整えながらボディメイクです。明るいスタジオで楽しくレッスンです。',
     access: '紙屋町西駅から徒歩3分',
     address: '広島県広島市（詳細は公式サイト参照）',
     popularPlan: {
       name: 'サブスクプラン',
-      description: '整体×マシンピラティスの組み合わせ。女性専用で安心。',
+      description: '整体×マシンピラティスの組み合わせです。女性専用のため安心して通えます。',
       price: 'サブスク月1回 12,000円〜、体験 3,000円',
     },
     options: [
@@ -149,12 +149,12 @@ const studios = [
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['女性専用', '初心者歓迎', 'LAVAグループ', '八丁堀駅近く'],
-    description: 'マシンピラティススタジオRintosull 広島八丁堀店。Rintosullでは、運動やピラティスを初めて行う方向けのプログラムをご用意しています。インストラクターがしっかりサポートいたしますので、ご安心ください。美尻や美脚に必要な筋肉にアプローチ。初心者でも安心して通えるスタジオ。',
+    description: 'マシンピラティススタジオRintosull 広島八丁堀店です。Rintosullでは、運動やピラティスを初めて行う方向けのプログラムをご用意しています。インストラクターがしっかりサポートいたしますので、ご安心ください。美尻や美脚に必要な筋肉にアプローチです。初心者でも安心して通えるスタジオです。',
     access: '八丁堀駅近く（詳細は公式サイト参照）',
     address: '広島県広島市中区堀川町4-11広島アサヒビール館8F',
     popularPlan: {
       name: 'グループレッスン',
-      description: '初心者向けプログラム充実。美尻・美脚に特化したレッスンも。',
+      description: '初心者向けプログラム充実です。美尻・美脚に特化したレッスンもあります。',
       price: '要問合せ',
     },
     options: [
@@ -179,12 +179,12 @@ const studios = [
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['広島市安佐南区', '完全予約制', 'パーソナル専門', '理想的なコンディション'],
-    description: 'PILATES STUDIO MJは広島県広島市安佐南区にある完全予約制ピラティススタジオです。自分の特徴を知り、体の動かし方を覚える事であなたが望む理想的なコンディションへ。一人ひとりの身体に合わせた丁寧な指導を提供。完全予約制で落ち着いた環境でレッスンを受けられます。',
+    description: 'PILATES STUDIO MJは広島県広島市安佐南区にある完全予約制ピラティススタジオです。自分の特徴を知り、体の動かし方を覚える事であなたが望む理想的なコンディションを目指せます。一人ひとりの身体に合わせた丁寧な指導を提供しています。完全予約制で落ち着いた環境でレッスンを受けられます。',
     access: '広島市安佐南区（詳細は公式サイト参照）',
     address: '広島県広島市安佐南区（詳細は公式サイト参照）',
     popularPlan: {
       name: 'パーソナルレッスン',
-      description: '完全予約制。一人ひとりに合わせた丁寧な指導。',
+      description: '完全予約制です。一人ひとりに合わせた丁寧な指導です。',
       price: '要問合せ',
     },
     options: [
@@ -209,12 +209,12 @@ const studios = [
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['理学療法士監修', '本川町・幟町2店舗', '幅広いニーズ対応', '医療的視点'],
-    description: 'juncus pilates & conditioningは、広島市中区本川町と中区幟町にあるピラティススタジオです。理学療法士の資格を持つインストラクターが、幅広いニーズに合わせたレッスンを提供。医療的視点からの身体分析で、一人ひとりの身体に合わせた最適なプログラムを提案。2店舗展開で通いやすさも抜群。',
+    description: 'juncus pilates & conditioningは、広島市中区本川町と中区幟町にあるピラティススタジオです。理学療法士の資格を持つインストラクターが、幅広いニーズに合わせたレッスンを提供しています。医療的視点からの身体分析で、一人ひとりの身体に合わせた最適なプログラムを提案しています。2店舗展開で通いやすさも抜群です。',
     access: '本川町・幟町（2店舗）',
     address: '広島県広島市中区（本川町・幟町）',
     popularPlan: {
       name: '理学療法士監修プログラム',
-      description: '医療的視点からの身体分析。幅広いニーズに対応。',
+      description: '医療的視点からの身体分析です。幅広いニーズに対応しています。',
       price: '要問合せ',
     },
     options: [
@@ -239,43 +239,43 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！広島エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。特にRintosull 広島八丁堀店やCLUB PILATES 広島店は初心者向けプログラムが充実しています。経験豊富なインストラクターが基礎から丁寧に指導してくれるので、運動が苦手な方でも安心して始められますよ。',
+    answer: '問題ありません。広島エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。特にRintosull 広島八丁堀店やCLUB PILATES 広島店は初心者向けプログラムが充実しています。インストラクターが基礎から指導するため、運動が苦手な方でも始めやすい環境です。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。マットは場所を選ばず自宅でも続けやすいのが特徴です。広島ではzen place pilates 広島がマット・マシン両方に対応しています。',
+    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷を調整しやすく、初心者におすすめです。マットは場所を選ばず、自宅でも続けやすい点が特徴です。広島ではzen place pilates 広島がマット・マシン両方に対応しています。',
   },
   {
     question: '広島のピラティススタジオの料金相場は？',
-    answer: '広島エリアのピラティススタジオの料金相場は、グループレッスンで月4回9,625円〜13,420円程度。パーソナルレッスンや整体併用型はサブスク月1回12,000円〜。CLUB PILATESやRintosullなど要問合せのスタジオもあるので、まずは体験レッスンで確認するのがおすすめです。',
+    answer: '広島エリアのピラティススタジオの料金相場は、グループレッスンで月4回9,625円〜13,420円程度です。パーソナルレッスンや整体併用型はサブスク月1回12,000円〜です。CLUB PILATESやRintosullなど要問合せのスタジオもあるので、まずは体験レッスンで確認するのがおすすめです。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: 'ピラティス初心者は週1-2回（月4-8回）がおすすめ。慣れてきたら週2-3回に増やすと効果を実感しやすくなります。大切なのは継続すること。無理のないペースで長く続けることが、理想の身体を手に入れる近道です。',
+    answer: 'ピラティス初心者は週1〜2回（月4〜8回）がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。大切なのは継続することです。無理のないペースで長く続けることが、目標達成への近道です。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、ピラティスはダイエット効果があります。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に。ただし即効性はないので、最低でも2-3ヶ月は継続することが大切。食事管理も並行するとより効果的です。',
+    answer: 'ピラティスにはダイエット効果が期待できます。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。ただし即効性はないので、最低でも2〜3ヶ月は継続することが大切です。食事管理を並行すると、より効果的です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内で確認してくださいね。',
+    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内でご確認ください。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。ピラティスは筋力強化、ヨガは心身のバランスを整えることが主な目的。どちらも素晴らしいエクササイズなので、目的に合わせて選びましょう。',
+    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズです。ヨガは柔軟性と精神的なリラックスを重視します。ピラティスは筋力強化、ヨガは心身のバランスを整えることが主な目的です。目的に合わせてお選びください。',
   },
   {
     question: 'ピラティスで肩こりや腰痛は改善しますか？',
-    answer: 'はい、改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。特にjuncus pilates & conditioningは理学療法士監修で、身体の不調改善に強みがあります。',
+    answer: '改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。特にjuncus pilates & conditioningは理学療法士監修で、身体の不調改善に強みがあります。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: 'ピラティスで効果が表れだすのは「2ヶ月を過ぎた頃」から。これは人間の細胞が生まれ変わるサイクルがそのくらいだからです。すぐに変化が表れなくても心配せず、最低でも2ヶ月は継続するのがおすすめです。',
+    answer: 'ピラティスの効果を実感し始めるのは、2ヶ月を過ぎた頃が目安とされています。すぐに変化が表れなくても、最低2ヶ月は継続することをおすすめします。',
   },
   {
     question: '広島で路面電車で通えるスタジオはありますか？',
-    answer: 'はい、多くのスタジオが路面電車でアクセスできます。ピラティスK 広島店は八丁堀駅徒歩5分、zen place pilates 広島は立町駅・紙屋町東駅徒歩2分、La pilates 広島店は紙屋町西駅徒歩3分です。広島電鉄を活用すれば、車がなくても快適に通えますよ。',
+    answer: 'はい、多くのスタジオが路面電車でアクセスできます。ピラティスK 広島店は八丁堀駅徒歩5分、zen place pilates 広島は立町駅・紙屋町東駅徒歩2分、La pilates 広島店は紙屋町西駅徒歩3分です。広島電鉄を活用すれば、車がなくても快適に通えます。',
   },
 ]
 
@@ -296,8 +296,8 @@ export default function HiroshimaAreaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス広島おすすめ7選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス広島おすすめ7選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -320,29 +320,11 @@ export default function HiroshimaAreaPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「広島で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、広島エリアでおすすめのピラティススタジオ7選をまとめました。
+              本ページでは、広島エリアでおすすめのピラティススタジオ7選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -367,7 +349,7 @@ export default function HiroshimaAreaPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -435,25 +417,25 @@ export default function HiroshimaAreaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">八丁堀駅からのルートは事前に確認を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  広島エリアのスタジオは八丁堀駅周辺が中心です。駅の出口によってスタジオまでの距離が変わることがあるため、初めて訪れる際はGoogleマップで経路を確認し、余裕を持って到着できるようにしましょう。
+                  広島エリアのスタジオは八丁堀駅周辺が中心です。駅の出口によってスタジオまでの距離が変わることがあるため、初めて訪れる際はGoogleマップで経路を確認し、余裕を持って到着できるようにすることをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">広島エリアの人気時間帯を把握して予約を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  広島エリアでは平日夕方以降と土日午前中が予約の集中する時間帯です。特にマシンピラティスは定員が少ないため、希望の日時があれば早めの予約がおすすめ。スタジオによってはキャンセル待ち機能やLINE通知で空き枠をお知らせしてくれるところもあります。
+                  広島エリアでは平日夕方以降と土日午前中が予約の集中する時間帯です。特にマシンピラティスは定員が少ないため、希望の日時があれば早めの予約がおすすめです。スタジオによってはキャンセル待ち機能やLINE通知で空き枠をお知らせしてくれるところもあります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">料金プランの種類と契約条件をしっかり比較</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  広島エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかを確認しましょう。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため要チェックです。
+                  広島エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかをご確認ください。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため、事前にご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  広島エリアだけでなく、近隣の<Link href="/area/okayama/" className="text-warm-700 underline hover:text-warm-900">岡山</Link>、<Link href="/area/kobe/" className="text-warm-700 underline hover:text-warm-900">神戸</Link>、<Link href="/area/fukuoka/" className="text-warm-700 underline hover:text-warm-900">福岡</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  広島エリアだけでなく、近隣の<Link href="/area/okayama/" className="text-warm-700 underline hover:text-warm-900">岡山</Link>、<Link href="/area/kobe/" className="text-warm-700 underline hover:text-warm-900">神戸</Link>、<Link href="/area/fukuoka/" className="text-warm-700 underline hover:text-warm-900">福岡</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -471,25 +453,25 @@ export default function HiroshimaAreaPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>広島エリアの豆知識：</strong>広島は地元の方に愛されるスタジオが中心です。車で通う場合は駐車場の有無を事前に確認。電車の場合は駅からの距離だけでなく、帰りの電車の時刻も確認しておくとスムーズです。
+                  <strong>広島エリアの豆知識：</strong>広島は地元の方に愛されるスタジオが中心です。車で通う場合は駐車場の有無を事前にご確認ください。電車の場合は駅からの距離だけでなく、帰りの電車の時刻も確認しておくとスムーズです。
                 </p>
               </div>
             </div>
@@ -507,7 +489,7 @@ export default function HiroshimaAreaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額10,000円以下で通えるスタジオ。コスパ重視の方におすすめ。
+                  月額10,000円以下で通えるスタジオです。費用を抑えたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates 広島（月4回 9,625円〜）</li>
@@ -516,7 +498,7 @@ export default function HiroshimaAreaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">マシン完備</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  最新のリフォーマーマシンを完備。マシンピラティスを本格的に学びたい方におすすめ。
+                  最新のリフォーマーマシンを完備しています。マシンピラティスを本格的に学びたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK 広島店</li>
@@ -527,7 +509,7 @@ export default function HiroshimaAreaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・好アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  路面電車の駅から徒歩5分以内。八丁堀・紙屋町エリアで通いやすい。
+                  路面電車の駅から徒歩5分以内です。八丁堀・紙屋町エリアで通いやすいです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates 広島（立町駅徒歩2分）</li>
@@ -538,7 +520,7 @@ export default function HiroshimaAreaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性専用で安心して通える。周りの目を気にせずトレーニングに集中。
+                  女性専用で安心して通えます。周りの目を気にせずトレーニングに集中しています。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK 広島店</li>
@@ -549,7 +531,7 @@ export default function HiroshimaAreaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  マンツーマンで丁寧な指導。短期集中で結果を出したい方に。
+                  マンツーマンで丁寧な指導です。短期集中で結果を出したい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• PILATES STUDIO MJ</li>
@@ -559,7 +541,7 @@ export default function HiroshimaAreaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">ユニーク体験</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  シルクサスペンションや整体融合など、他にはない体験ができるスタジオ。
+                  シルクサスペンションや整体融合など、他にはない体験ができるスタジオです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• LUIRE 広島店（シルクサスペンション）</li>
@@ -579,15 +561,15 @@ export default function HiroshimaAreaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回（月4-8回）からスタートするのがおすすめ。まずは身体を慣らすことが大切です。継続期間は最低でも2-3ヶ月。この期間で効果を実感できる方が多いですよ。
+                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感できる方が多いです。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回（月8-12回）がおすすめ。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3-6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。
+                週2〜3回（月8〜12回）がおすすめです。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3〜6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理が目的の方</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回（月4回）のペースで継続するのがおすすめ。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切。自分のペースで楽しく通えるのが一番ですよ。
+                週1回（月4回）のペースで継続するのがおすすめです。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切です。無理のないペースで通うことが大切です。
               </p>
             </div>
           </div>
@@ -604,7 +586,7 @@ export default function HiroshimaAreaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。手軽に始めたい方向け。
+                  グループレッスンが中心です。手軽に始めたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates 広島（9,625円〜）</li>
@@ -615,7 +597,7 @@ export default function HiroshimaAreaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 10,000〜15,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン完備の大手スタジオ。グループ・整体併用。
+                  マシン完備の大手スタジオです。グループ・整体併用です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• La pilates 広島店（12,000円〜）</li>
@@ -626,7 +608,7 @@ export default function HiroshimaAreaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">要問合せ</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">各種</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  パーソナル・専門スタジオ。体験レッスンで確認を。
+                  パーソナル・専門スタジオです。体験レッスンでご確認ください。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• CLUB PILATES 広島店</li>
@@ -651,7 +633,7 @@ export default function HiroshimaAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  まずは自分がピラティスで何を達成したいのかを明確にしましょう。ダイエット、姿勢改善、体幹強化、リラックスなど、目的によって最適なスタジオやプログラムは変わります。目的が明確だとスタジオ選びもスムーズになりますよ。
+                  まずは自分がピラティスで何を達成したいのかを明確にすることをおすすめします。ダイエット、姿勢改善、体幹強化、リラックスなど、目的によって最適なスタジオやプログラムは変わります。目的を明確にしておくと、スタジオを選びやすくなります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -660,7 +642,7 @@ export default function HiroshimaAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  広島エリアの料金相場はグループで月4回9,625円〜13,420円程度。無理なく継続できる予算を決めましょう。料金だけでなく、入会金、マット・ウェアのレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  広島エリアの料金相場はグループで月4回9,625円〜13,420円程度です。無理なく継続できる予算を決めることをおすすめします。料金だけでなく、入会金やマット・ウェアのレンタル料などもご確認ください。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -669,7 +651,7 @@ export default function HiroshimaAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。ピラティスK 広島店やCLUB PILATES 広島店は無料体験を実施しているので、気軽に試してみてくださいね。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。ピラティスK 広島店やCLUB PILATES 広島店は無料体験を実施しているので、体験レッスンをご利用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -678,7 +660,7 @@ export default function HiroshimaAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  どんなに良いスタジオでも、通いにくい場所にあると続きません。広島は路面電車が充実しており、八丁堀、紙屋町、立町など主要停留所の近くにスタジオが集まっています。自宅や職場から通いやすい立地を選ぶと、仕事帰りや休日のお出かけついでにも通えて便利ですよ。本通り商店街も近く、レッスン後のお買い物も楽しめます。
+                  通いにくい場所にあるスタジオは、継続が難しくなります。広島は路面電車が充実しており、八丁堀、紙屋町、立町など主要停留所の近くにスタジオが集まっています。自宅や職場から通いやすい立地を選ぶと、仕事帰りや休日のお出かけついでにも通えて便利です。本通り商店街も近く、レッスン後のお買い物も楽しめます。
                 </p>
               </div>
             </div>
@@ -721,13 +703,13 @@ export default function HiroshimaAreaPage() {
               今回は広島のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では広島に数多くあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、広島に数多くあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -736,11 +718,11 @@ export default function HiroshimaAreaPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,000円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜3,000円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

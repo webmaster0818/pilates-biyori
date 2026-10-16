@@ -37,7 +37,7 @@ export function TableOfContents({ areaName, studioNames }: TableOfContentsProps)
             <svg className="w-5 h-5 text-warm-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7"/>
             </svg>
-            この記事の目次
+            目次
           </h2>
           <ol className="space-y-2 text-sm">
             {items.map((item, index) => (

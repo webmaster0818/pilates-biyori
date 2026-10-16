@@ -25,7 +25,7 @@ export function RelatedAreas({ currentSlug }: RelatedAreasProps) {
           {currentPref.prefecture}の他のエリア
         </h2>
         <p className="text-center text-warm-600 text-sm mb-8">
-          同じ{currentPref.prefecture}内の他のピラティススタジオ情報もチェック
+          同じ{currentPref.prefecture}内の他のエリアのピラティススタジオ情報もご覧いただけます
         </p>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
           {relatedAreas.map((area) => (

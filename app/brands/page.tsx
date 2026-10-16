@@ -10,7 +10,7 @@ const STORES = brandStores as Record<string, { name: string }[]>
 export const metadata = {
   title: 'ピラティスブランド別 料金・評判・店舗一覧【2026年7月】｜主要15ブランドを比較',
   description:
-    'pilates K・the SILK・zen place・Rintosull・CLUB PILATESなど主要ピラティスブランド15社の料金・体験レッスン・店舗一覧を掲載データから比較。ブランドで選びたい人のための一覧ページです。',
+    'pilates K・the SILK・zen place・Rintosull・CLUB PILATESなど主要ピラティスブランド15社の料金・体験レッスン・店舗一覧を、掲載データにもとづいて比較できる一覧ページです。',
   alternates: { canonical: 'https://biyori-pilates.com/brands/' },
 }
 
@@ -33,7 +33,7 @@ export default function BrandsHub() {
             <span className="block text-base text-warm-500 mt-2 font-light">主要{BRANDS.length}ブランドの料金・体験・店舗一覧を比較</span>
           </h1>
           <p className="text-sm text-warm-600 font-light leading-relaxed mb-10">
-            当サイトに掲載している全国のピラティススタジオをブランド別に整理しました。各ブランドページでは、掲載店舗の実データから料金プラン・体験レッスン・店舗一覧を確認できます。
+            当サイトに掲載している全国のピラティススタジオをブランド別に掲載しています。各ブランドページでは、掲載店舗の実データから料金プラン・体験レッスン・店舗一覧を確認できます。
           </p>
 
           <div className="grid md:grid-cols-2 gap-4">

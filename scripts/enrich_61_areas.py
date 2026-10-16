@@ -111,15 +111,15 @@ def make_faqs(area_name: str, station: str) -> list[dict]:
     return [
         {
             "question": f"{area_name}でピラティス、いくらから始められる？",
-            "answer": f"{area_name}エリアの一般的な料金相場は、グループレッスンが月4回8,000円〜15,000円程度、パーソナルが1回8,000円〜12,000円程度です。多くのスタジオで体験レッスンが無料〜3,300円程度で受けられるので、まずは体験から始めるのがおすすめ。正確な料金は各スタジオ公式サイトで必ずご確認ください。"
+            "answer": f"{area_name}エリアの一般的な料金相場は、グループレッスンが月4回8,000円〜15,000円程度、パーソナルが1回8,000円〜12,000円程度です。多くのスタジオで体験レッスンが無料〜3,300円程度で受けられるので、まずは体験から始めるのがおすすめです。正確な料金は各スタジオ公式サイトで必ずご確認ください。"
         },
         {
             "question": f"{area_name}の駅近でおすすめのスタジオは？",
-            "answer": f"{area_name}エリアでは{station}周辺にスタジオが集まっています。本記事に掲載のスタジオはいずれも駅から徒歩圏内のものを中心に紹介しています。詳しいアクセス情報は各スタジオの公式サイトでご確認ください。"
+            "answer": f"{area_name}エリアでは{station}周辺にスタジオが集まっています。本ページに掲載のスタジオはいずれも駅から徒歩圏内のものを中心に紹介しています。詳しいアクセス情報は各スタジオの公式サイトでご確認ください。"
         },
         {
             "question": f"{area_name}でマシンピラティスができるスタジオは？",
-            "answer": f"はい、{area_name}にもマシンピラティス（リフォーマー）対応のスタジオがあります。本記事の料金比較表で「マシン」マーク付きのスタジオが該当します。マシンピラティスは初心者でも正しいフォームで効率よくトレーニングできるのが魅力です。"
+            "answer": f"はい、{area_name}にもマシンピラティス（リフォーマー）対応のスタジオがあります。本ページの料金比較表で「マシン」マーク付きのスタジオが該当します。マシンピラティスは初心者でも正しいフォームで効率よくトレーニングできるのが魅力です。"
         },
         {
             "question": f"{area_name}に体験レッスン無料スタジオはある？",
@@ -149,8 +149,8 @@ def page_template(slug: str, data_key: str, area_name: str, station: str, featur
     faqs = make_faqs(area_name, station)
     faqs_ts = render_faqs_ts(faqs)
 
-    title = f"【2026最新】ピラティス{area_name}おすすめスタジオ｜料金プランを徹底比較！｜Pilates-Biyori"
-    description = f"{area_name}（{prefecture}）のおすすめピラティススタジオを比較。{station}周辺の料金相場、マシン・パーソナル・女性専用の特徴、体験レッスン情報をまとめて掲載。"
+    title = f"【2026最新】ピラティス{area_name}おすすめスタジオ｜料金プランの比較｜Pilates-Biyori"
+    description = f"{area_name}（{prefecture}）のおすすめピラティススタジオを比較しています。{station}周辺の料金相場、マシン・パーソナル・女性専用の特徴、体験レッスン情報をまとめて掲載しています。"
     keywords = f"ピラティス,{area_name},{prefecture},スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較"
 
     return f"""import Link from 'next/link'
@@ -194,7 +194,7 @@ export default function Page() {{
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年04月</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス{area_name}おすすめスタジオ<br className="hidden md:block" />
-              人気スタジオの料金プランを徹底比較！
+              人気スタジオの料金プランの比較
             </h1>
             <p className="text-warm-700 text-sm md:text-base leading-relaxed mt-4">
               {feature}主要駅は{station}。本ページでは{area_name}エリアで公式情報をもとに比較できるピラティススタジオをまとめました。
@@ -220,12 +220,11 @@ export default function Page() {{
         {{/* Introduction */}}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">こんにちは。Pilates-Biyori編集部です！</p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              「{area_name}でピラティスを始めたい」「{area_name}で人気のスタジオを知りたい」とお考えの方に向けて、{area_name}エリアでチェックしておきたいピラティススタジオをまとめました。
+              本ページでは、{area_name}エリアのピラティススタジオをまとめてご紹介します。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>{area_name}でピラティススタジオを探している</span></li>
                 <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみたい</span></li>
@@ -234,7 +233,7 @@ export default function Page() {{
                 <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較したい</span></li>
               </ul>
             </div>
-            <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
+            <p className="text-warm-600 leading-relaxed">以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。</p>
           </div>
         </section>
 
@@ -277,22 +276,22 @@ export default function Page() {{
                     <tr className="border-b border-warm-200">
                       <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
                       <td className="px-4 py-3">8,000円〜15,000円</td>
-                      <td className="px-4 py-3 text-warm-600">マット中心。仲間と楽しく続けたい方に。</td>
+                      <td className="px-4 py-3 text-warm-600">マット中心です。ほかの参加者と一緒に続けたい方に適しています。</td>
                     </tr>
                     <tr className="border-b border-warm-200 bg-warm-50">
                       <td className="px-4 py-3 font-medium">マシンピラティス（月4回）</td>
                       <td className="px-4 py-3">12,000円〜18,000円</td>
-                      <td className="px-4 py-3 text-warm-600">リフォーマー等を使用。正しいフォーム習得に。</td>
+                      <td className="px-4 py-3 text-warm-600">リフォーマー等を使用しています。正しいフォームの習得に適しています。</td>
                     </tr>
                     <tr className="border-b border-warm-200">
                       <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
                       <td className="px-4 py-3">1回 8,000円〜12,000円</td>
-                      <td className="px-4 py-3 text-warm-600">マンツーマンで集中指導。短期で結果を出したい方に。</td>
+                      <td className="px-4 py-3 text-warm-600">マンツーマンで集中的に指導を受けられます。短期間で成果を目指したい方に適しています。</td>
                     </tr>
                     <tr className="border-b border-warm-200">
                       <td className="px-4 py-3 font-medium">体験レッスン</td>
                       <td className="px-4 py-3">無料〜3,300円</td>
-                      <td className="px-4 py-3 text-warm-600">スタジオごとに料金は異なる。</td>
+                      <td className="px-4 py-3 text-warm-600">スタジオごとに料金は異なります。</td>
                     </tr>
                   </tbody>
                 </table>
@@ -321,28 +320,28 @@ export default function Page() {{
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span>
                   <h3 className="text-lg font-bold text-warm-900">通いやすさを最優先に</h3>
                 </div>
-                <p className="text-warm-600 leading-relaxed">{area_name}では{station}周辺にスタジオが集中しています。「駅から徒歩何分か」「自宅・職場からのアクセス」「営業時間が自分のライフスタイルに合うか」を必ず確認しましょう。継続のしやすさが効果を大きく左右します。</p>
+                <p className="text-warm-600 leading-relaxed">{area_name}では{station}周辺にスタジオが集中しています。「駅から徒歩何分か」「自宅・職場からのアクセス」「営業時間が自分のライフスタイルに合うか」を必ずご確認ください。継続のしやすさが効果を大きく左右します。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-3">
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span>
                   <h3 className="text-lg font-bold text-warm-900">体験レッスンで実際に確認</h3>
                 </div>
-                <p className="text-warm-600 leading-relaxed">公式サイトの情報だけでなく、必ず体験レッスンに行ってスタジオの雰囲気・インストラクターとの相性・設備の清潔感を確認しましょう。複数スタジオで体験して比較するのが失敗しないコツです。</p>
+                <p className="text-warm-600 leading-relaxed">公式サイトの情報だけでなく、必ず体験レッスンに行ってスタジオの雰囲気・インストラクターとの相性・設備の清潔感をご確認ください。複数スタジオで体験して比較するのが失敗しないコツです。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-3">
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span>
                   <h3 className="text-lg font-bold text-warm-900">料金プランの内訳を確認</h3>
                 </div>
-                <p className="text-warm-600 leading-relaxed">月会費だけでなく、入会金・施設利用料・ウェアレンタル代などの追加費用も含めて比較しましょう。{area_name}でも入会金無料キャンペーンを実施するスタジオがあるので、タイミングを見計らうのも有効です。</p>
+                <p className="text-warm-600 leading-relaxed">月会費だけでなく、入会金・施設利用料・ウェアレンタル代などの追加費用も含めて比較することをおすすめします。{area_name}でも入会金無料キャンペーンを実施するスタジオがあるので、タイミングを見計らうのも有効です。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-3">
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">5</span>
                   <h3 className="text-lg font-bold text-warm-900">マシンorマットを選ぶ</h3>
                 </div>
-                <p className="text-warm-600 leading-relaxed">初心者はマシンピラティス（リフォーマー）の方が正しいフォームを習得しやすいと言われています。マットは自重トレーニング中心で道具不要なため、自宅でも続けられます。目的に応じて選びましょう。</p>
+                <p className="text-warm-600 leading-relaxed">初心者はマシンピラティス（リフォーマー）の方が正しいフォームを習得しやすいと言われています。マットは自重トレーニング中心で道具不要なため、自宅でも続けられます。目的に応じてお選びください。</p>
               </div>
             </div>
           </div>
@@ -412,10 +411,9 @@ export default function Page() {{
               今回は{area_name}（{prefecture}）のおすすめピラティススタジオをご紹介しました。{area_name}エリアにはマシンピラティス専門・パーソナル・女性専用など、特徴の異なる選択肢があります。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              料金や設備はスタジオによって異なります。気になるスタジオがあれば、まずは公式サイトで最新情報をチェックし、体験レッスンに足を運んでみてください。
+              料金や設備はスタジオによって異なります。気になるスタジオがあれば、まずは公式サイトで最新情報を確認し、体験レッスンに足を運んでみてください。
             </p>
-            <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりの{area_name}のピラティススタジオが見つかることを願っています。
+            <p className="text-warm-700 font-medium text-center">本ページが、スタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -423,10 +421,10 @@ export default function Page() {{
         {{/* CTA */}}
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約する</h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              {area_name}のスタジオで体験レッスンを実施中。<br />
-              気軽に体験してみましょう。
+              {area_name}のスタジオで体験レッスンを実施中です。<br />
+              体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="#studios"

@@ -37,13 +37,13 @@ export function BrandReviewDigest({ brandSlug, brandName }: { brandSlug: string;
   return (
     <section className="mb-10 scroll-mt-24" id="reviews">
       <h2 className="text-xl font-light text-warm-900 border-b border-warm-200 pb-2 mb-4">
-        {brandName}の口コミ・評判（Googleマップ {rows.length}店舗ぶんの要約）
+        {brandName}の口コミ・評判（Googleマップ {rows.length}店舗分の要約）
       </h2>
 
       <div className="bg-warm-50 border border-warm-200 p-5 mb-5">
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
           <div>
-            <p className="text-[11px] text-warm-500 mb-1">確認できた店舗</p>
+            <p className="text-[11px] text-warm-500 mb-1">口コミを確認した店舗</p>
             <p className="text-lg font-medium text-warm-900">{rows.length}店舗</p>
           </div>
           <div>
@@ -64,8 +64,8 @@ export function BrandReviewDigest({ brandSlug, brandName }: { brandSlug: string;
         <p className="text-[11px] text-warm-500 mt-4 leading-relaxed">
           平均は口コミ件数で重みづけした値です。
           {low > 0
-            ? `★4.0未満の店舗も${low}店あり、同じ基準で掲載しています。ブランド全体の平均だけで決めず、通う予定の店舗を個別に確認してください。`
-            : 'ブランド全体の平均が高くても店舗差はあるため、通う予定の店舗を個別に確認してください。'}
+            ? `★4.0未満の店舗も${low}店あり、同じ基準で掲載しています。ブランド全体の平均だけで判断せず、通う予定の店舗を個別にご確認ください。`
+            : 'ブランド全体の平均が高くても店舗による差があるため、通う予定の店舗を個別にご確認ください。'}
         </p>
       </div>
 
@@ -106,7 +106,7 @@ export function BrandReviewDigest({ brandSlug, brandName }: { brandSlug: string;
       )}
 
       <p className="text-[11px] text-warm-400 mt-3 leading-relaxed">
-        ※上記は当編集部がGoogleマップの口コミを読んで書いた要約で、口コミ本文の転載ではありません。個人名は含めていません。
+        ※上記は、編集部がGoogleマップの口コミを読んで作成した要約であり、口コミ本文の転載ではありません。個人名は含めていません。
         評価・件数は{fetched[0]}〜{fetched[fetched.length - 1]}に取得した実測値で、現在の数値とは異なる場合があります。感じ方には個人差があります。
       </p>
     </section>

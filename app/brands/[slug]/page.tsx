@@ -65,7 +65,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     (brand.reviewThemes ? (!hasOfficialCount && brand.useHyoban ? '・口コミ' : '・口コミ評判') : '') // 「評判・口コミ評判」の重複回避（2026-10-09 BDC で発生）
   return {
     title: `${brand.name}の${kw}${MONTH_TAG}｜掲載${stores.length}店舗を比較`,
-    description: `${brand.name}の店舗一覧${brand.officialStores && brand.officialStores.count >= stores.length ? `（${brand.officialStores.asOf}時点で全国${brand.officialStores.count}店舗${brand.officialStores.approx ? '以上' : ''}）` : ''}・料金プラン・体験レッスンを掲載データから整理。${brand.tagline}。当サイト掲載${stores.length}店舗のエリア別リンク付きで、近くの店舗がすぐ見つかります。`,
+    description: `${brand.name}の店舗一覧${brand.officialStores && brand.officialStores.count >= stores.length ? `（${brand.officialStores.asOf}時点で全国${brand.officialStores.count}店舗${brand.officialStores.approx ? '以上' : ''}）` : ''}・料金プラン・体験レッスンを、掲載データにもとづいて掲載しています。${brand.tagline}。当サイトに掲載している${stores.length}店舗を、エリア別のリンクとあわせて掲載しています。`,
     alternates: { canonical: `https://biyori-pilates.com/brands/${slug}/` },
   }
 }
@@ -151,7 +151,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
 
           {/* 結論ボックス */}
           <section className="bg-white border border-warm-200 p-6 mb-10">
-            <p className="text-xs font-medium text-warm-400 uppercase tracking-[0.15em] mb-3">まず結論</p>
+            <p className="text-xs font-medium text-warm-400 uppercase tracking-[0.15em] mb-3">掲載状況の概要</p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
               <div>
                 <p className="text-2xl font-light text-warm-900">{os ? `${os.count}${os.approx ? '+' : ''}` : stores.length}</p>
@@ -197,7 +197,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
             <section className="mb-10">
               <h2 className="text-xl font-light text-warm-900 border-b border-warm-200 pb-2 mb-4">{brand.name}の都道府県別店舗数（公式・{os.asOf}時点）</h2>
               <p className="text-sm text-warm-600 font-light leading-relaxed mb-4">
-                公式サイトの店舗一覧に載っている{os.byPrefTotal ?? os.count}店舗を、住所の都道府県ごとに数えました（{os.byPref.length}都道府県）。{os.byPrefNote ?? os.caveat ?? ''}
+                公式サイトの店舗一覧に載っている{os.byPrefTotal ?? os.count}店舗を、住所の都道府県別に集計しています（{os.byPref.length}都道府県）。{os.byPrefNote ?? os.caveat ?? ''}
                 最も多いのは{os.byPref[0].pref}の{os.byPref[0].count}店舗です。
               </p>
               <ul className="flex flex-wrap gap-2">
@@ -208,7 +208,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                 ))}
               </ul>
               <p className="text-[11px] text-warm-400 mt-3 leading-relaxed">
-                ※出典：<a href={os.sourceUrl} target="_blank" rel="noopener noreferrer" className="underline decoration-warm-300 hover:text-warm-800">公式サイトの店舗一覧</a>（{os.asOf}に当編集部が集計）。新規オープン・閉店で変わるため、最新は公式でご確認ください。
+                ※出典：<a href={os.sourceUrl} target="_blank" rel="noopener noreferrer" className="underline decoration-warm-300 hover:text-warm-800">公式サイトの店舗一覧</a>（{os.asOf}に当編集部が集計）。新規開業・閉店により変わるため、最新情報は公式サイトでご確認ください。
               </p>
             </section>
           )}
@@ -284,7 +284,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
           {/* CTA */}
           {brand.ctaUrl && (
             <section className="mb-10 text-center bg-white border border-warm-200 p-8">
-              <p className="text-sm text-warm-600 mb-4 font-light">{brand.noCampaignWording ? '体験レッスンの空き状況は公式サイトから確認できます。' : '体験レッスンの空き状況・最新キャンペーンは公式サイトから確認できます。'}</p>
+              <p className="text-sm text-warm-600 mb-4 font-light">{brand.noCampaignWording ? '体験レッスンの空き状況は、公式サイトでご確認ください。' : '体験レッスンの空き状況・最新のキャンペーンは、公式サイトでご確認ください。'}</p>
               <a
                 href={brand.ctaUrl}
                 target="_blank"

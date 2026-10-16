@@ -4,7 +4,7 @@ import { SiteFooter } from '@/components/SiteFooter'
 
 export const metadata = {
   title: '編集部紹介',
-  description: 'Pilates-Biyori編集部の紹介。ピラティス情報を正確にわかりやすくお届けする編集チームです。',
+  description: 'Pilates-Biyori編集部の紹介です。ピラティス情報を正確にわかりやすくお届けする編集チームです。',
   alternates: {
     canonical: 'https://biyori-pilates.com/editors/',
   },
@@ -52,7 +52,7 @@ export default function EditorsPage() {
               <div className="bg-warm-50 border border-warm-200 rounded-lg p-6">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">企画・ディレクション</h3>
                 <p className="text-warm-600 leading-relaxed text-sm">
-                  読者のニーズを徹底的にリサーチし、どのような情報が求められているかを把握。エリア別、目的別、料金別など、検索意図に応える記事構成を設計しています。
+                  読者のニーズを徹底的にリサーチし、どのような情報が求められているかを把握しています。エリア別、目的別、料金別など、検索意図に応える記事構成を設計しています。
                 </p>
               </div>
               <div className="bg-warm-50 border border-warm-200 rounded-lg p-6">
@@ -70,13 +70,13 @@ export default function EditorsPage() {
               <div className="bg-warm-50 border border-warm-200 rounded-lg p-6">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">編集・校正</h3>
                 <p className="text-warm-600 leading-relaxed text-sm">
-                  記事の構成・表現・情報の正確性を多段階でチェック。読者に誤解を与えない明瞭な表現を追求しています。
+                  記事の構成・表現・情報の正確性を多段階で確認しています。読者に誤解を与えない明瞭な表現を追求しています。
                 </p>
               </div>
               <div className="bg-warm-50 border border-warm-200 rounded-lg p-6">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">アップデート・メンテナンス</h3>
                 <p className="text-warm-600 leading-relaxed text-sm">
-                  ピラティス業界の動向やスタジオ情報の変更に合わせ、定期的なメンテナンスを実施。スタジオ運営者や読者の皆様からの修正依頼にも誠実に対応しています。
+                  ピラティス業界の動向やスタジオ情報の変更に合わせ、定期的なメンテナンスを実施しています。スタジオ運営者や読者の皆様からの修正依頼にも誠実に対応しています。
                 </p>
               </div>
             </div>

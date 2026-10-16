@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/gotanda/' },
-  title: '【2026年10月最新】ピラティス五反田おすすめ6選！人気スタジオの料金プランを簡単比較！',
-  description: '五反田エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス五反田おすすめ6選人気スタジオの料金プランの比較',
+  description: '五反田エリアのおすすめピラティススタジオ6選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,五反田,品川,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -26,13 +26,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 9,625円〜',
     trial: '体験レッスンあり（当日入会で入会金無料）',
-    features: ['マシン完備', '男性OK', '五反田駅徒歩4分', '全国相互利用可'],
-    description: '全国150以上のスタジオを展開する国内最大級のピラティス専門スタジオ。五反田駅西口から徒歩4分、大崎広小路駅からも徒歩4分の好アクセス。マットグループ・リフォーマーグループ・プライベートレッスンと豊富なレッスン形式。男性も受講可能。',
+    features: ['マシン完備', '男性利用可', '五反田駅徒歩4分', '全国他店利用可'],
+    description: '全国150以上のスタジオを展開する国内最大級のピラティス専門スタジオです。五反田駅西口から徒歩4分、大崎広小路駅からも徒歩4分の好アクセスです。マットグループ・リフォーマーグループ・プライベートレッスンと豊富なレッスン形式です。男性も受講可能です。',
     access: 'JR山手線・東急池上線「五反田駅」西口 徒歩4分 / 東急池上線「大崎広小路駅」徒歩4分',
     address: '東京都品川区西五反田1-25-1 KANOビル 5階',
     popularPlan: {
       name: 'マットグループ月4回',
-      description: 'マットピラティスのグループレッスン。全国のzen placeスタジオで相互利用可能。',
+      description: 'マットピラティスのグループレッスンです。全国のzen placeスタジオで他店利用可能です。',
       price: '月4回 9,625円（税込）',
     },
     options: [
@@ -58,13 +58,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 9,625円〜',
     trial: '体験レッスンあり（当日入会で入会金無料）',
-    features: ['マシン完備', '男性OK', '五反田駅東口徒歩5分', '平日23時まで'],
-    description: 'zen place pilatesの五反田東口スタジオ。五反田駅東口から徒歩5分、都営浅草線A5出口からもアクセス可能。月〜木は23時まで営業で遅い時間にも通える。西口店と合わせて五反田に2スタジオ展開。',
+    features: ['マシン完備', '男性利用可', '五反田駅東口徒歩5分', '平日23時まで'],
+    description: 'zen place pilatesの五反田東口スタジオです。五反田駅東口から徒歩5分、都営浅草線A5出口からもアクセス可能です。月〜木は23時まで営業で遅い時間にも通えます。西口店と合わせて五反田に2スタジオ展開しています。',
     access: 'JR山手線・東急池上線「五反田駅」東口 徒歩5分 / 都営浅草線「五反田駅」A5出口 徒歩5分',
     address: '東京都品川区東五反田1丁目22-6 五反田さくらビル 4階',
     popularPlan: {
       name: 'マットグループ月4回',
-      description: 'マットピラティスのグループレッスン。',
+      description: 'マットピラティスのグループレッスンです。',
       price: '月4回 9,625円（税込）',
     },
     options: [
@@ -89,14 +89,14 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
     price: '月3回 13,280円〜',
-    trial: '体験レッスン 0円（50分・手ぶらOK）',
+    trial: '体験レッスン 0円（50分・手ぶらで参加可能）',
     features: ['女性専用', 'マシン専門', '五反田駅徒歩3分', '2025年オープン'],
-    description: '女性専用マシンピラティス専門スタジオ。五反田駅A1出口から徒歩3分。2025年5月オープン。PMA加盟団体のプロ監修レッスン。プロフェッショナルグレードのリフォーマーマシンを使用し、音楽に合わせた50分のグループレッスンで楽しくボディメイク。',
+    description: '女性専用マシンピラティス専門スタジオです。五反田駅A1出口から徒歩3分です。2025年5月オープンです。PMA加盟団体のプロ監修レッスンです。プロフェッショナルグレードのリフォーマーマシンを使用し、音楽に合わせた50分のグループレッスンで楽しくボディメイクを目指せます。',
     access: '五反田駅 A1出口 徒歩3分',
     address: '東京都品川区西五反田1-29-2 吾作ビル 4階',
     popularPlan: {
       name: 'Standard4（月4回）',
-      description: '月4回の標準プラン。PMA監修のプロフェッショナルグレードリフォーマーレッスン。',
+      description: '月4回の標準プランです。PMA監修のプロフェッショナルグレードリフォーマーレッスンです。',
       price: '月4回 15,280円（税込）+ 施設利用料700円',
     },
     options: [
@@ -122,12 +122,12 @@ const studios = [
     price: '要確認（パーソナル）',
     trial: '体験レッスンあり',
     features: ['完全パーソナル', 'プライベート空間', '大崎広小路駅徒歩2分', '部位別プログラム'],
-    description: '「最も美しい身体づくり」を掲げるパーソナルマシンピラティススタジオ。五反田駅から徒歩5分、大崎広小路駅から徒歩2分。プライベート空間で高品質なレッスンを提供。部位別のボディメイクや姿勢改善など充実したプログラム。リーズナブルな価格設定。',
+    description: '「最も美しい身体づくり」を掲げるパーソナルマシンピラティススタジオです。五反田駅から徒歩5分、大崎広小路駅から徒歩2分です。プライベート空間で高品質なレッスンを提供しています。部位別のボディメイクや姿勢改善など充実したプログラムです。リーズナブルな価格設定です。',
     access: '五反田駅 徒歩5分 / 東急池上線「大崎広小路駅」徒歩2分',
     address: '東京都品川区西五反田エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'パーソナルレッスン',
-      description: 'プライベート空間でのマンツーマンマシンピラティス。部位別プログラムが充実。',
+      description: 'プライベート空間でのマンツーマンマシンピラティスです。部位別プログラムが充実しています。',
       price: '要確認（公式サイト参照）',
     },
     options: [
@@ -153,12 +153,12 @@ const studios = [
     price: '月2回 15,000円〜',
     trial: '体験レッスン 4,500円',
     features: ['完全パーソナル', 'マシン完備', '月謝制', '1レッスン6,250円〜'],
-    description: '完全プライベートのマシンピラティス専門スタジオ。一人ひとりの目的・体力に合わせたオーダーメイドレッスン。月謝制で1レッスン6,250円〜とリーズナブル。リフォーマー・キャデラック・チェアなど本格マシン完備。',
+    description: '完全プライベートのマシンピラティス専門スタジオです。一人ひとりの目的・体力に合わせたオーダーメイドレッスンです。月謝制で1レッスン6,250円〜とリーズナブルです。リフォーマー・キャデラック・チェアなど本格マシン完備です。',
     access: '五反田エリア',
     address: '東京都品川区五反田エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: '月4回コース',
-      description: '完全パーソナルのマシンピラティス。1回あたり7,000円。',
+      description: '完全パーソナルのマシンピラティスです。1回あたり7,000円です。',
       price: '月4回 28,000円（税込）',
     },
     options: [
@@ -185,7 +185,7 @@ const studios = [
     price: '月4回(45分) 29,700円〜 / 月4回(60分) 39,600円〜',
     trial: '体験トレーニング 7,100円（無料キャンペーン実施店舗あり）',
     features: ['マンツーマン（パーソナル）', 'マシン・マット両対応', '医師推奨パーソナルジムNo.1受賞'],
-    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオ。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せる。五反田エリア（詳細は公式サイト参照）。',
+    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオです。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せます。五反田エリアです（詳細は公式サイト参照）。',
     access: '五反田エリア（詳細は公式サイト参照）',
     address: '東京都（詳細は公式サイト参照）',
   },
@@ -194,43 +194,43 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！五反田エリアのスタジオのほとんどが初心者歓迎。the SILKは初心者が80%、zen placeは体験当日入会で入会金無料です。',
+    answer: '問題ありません。五反田エリアのスタジオのほとんどが初心者歓迎です。the SILKは初心者が80%、zen placeは体験当日入会で入会金無料です。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。',
   },
   {
     question: '五反田のピラティススタジオの料金相場は？',
-    answer: 'グループ月4回で9,625円〜15,280円程度。パーソナルは月2回15,000円〜。the SILKは無料体験、STUDIO IVYは4,500円で体験可能。',
+    answer: 'グループ月4回で9,625円〜15,280円程度です。パーソナルは月2回15,000円〜です。the SILKは無料体験、STUDIO IVYは4,500円で体験可能です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。大切なのは継続すること。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。大切なのは継続することです。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。the SILKは手ぶらOKの無料体験を実施しています。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。the SILKは手ぶらで参加可能の無料体験を実施しています。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹強化に特化。ヨガは柔軟性とリラックス重視。目的に合わせて選びましょう。',
+    answer: 'ピラティスは体幹強化に特化しています。ヨガは柔軟性とリラックス重視です。目的に合わせてお選びください。',
   },
   {
     question: 'ピラティスで肩こりや腰痛は改善しますか？',
-    answer: 'はい、姿勢改善で根本原因を解消できます。SAKURAやSTUDIO IVYではパーソナルで体の状態に合わせたカスタマイズが可能。',
+    answer: '姿勢の改善により、肩こりや腰痛の原因へのアプローチが期待できます。SAKURAやSTUDIO IVYではパーソナルで体の状態に合わせたカスタマイズが可能です。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'パーソナルはSAKURAやSTUDIO IVYで効果的な指導を。グループはzen placeなら月4回9,625円から。まずは体験で試してみましょう。',
+    answer: 'パーソナルはSAKURAやSTUDIO IVYで効果的な指導を受けられます。グループはzen placeなら月4回9,625円からです。まずは体験で試してみることをおすすめします。',
   },
 ]
 
@@ -251,8 +251,8 @@ export default function GotandaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス五反田おすすめ6選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス五反田おすすめ6選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -275,29 +275,11 @@ export default function GotandaPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「五反田で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、五反田エリアでおすすめのピラティススタジオ6選をまとめました。
+              本ページでは、五反田エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -322,7 +304,7 @@ export default function GotandaPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -375,7 +357,7 @@ export default function GotandaPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              五反田はビジネス街としての性格が強く、仕事帰りの利用を想定した夜間プランや回数券プランが充実しています。賃料が高めのエリアのため料金は全体的にやや高い傾向ですが、法人契約や福利厚生割引に対応しているスタジオもあるので確認してみましょう。近隣の品川エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
+              五反田はビジネス街としての性格が強く、仕事帰りの利用を想定した夜間プランや回数券プランが充実しています。賃料が高めのエリアのため料金は全体的にやや高い傾向ですが、法人契約や福利厚生割引に対応しているスタジオもあるのでご確認ください。近隣の品川エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
             </p>
           </div>
         </section>
@@ -390,25 +372,25 @@ export default function GotandaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">JR山手線・東急池上線「五反田駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  五反田エリアのスタジオは五反田駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。五反田駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  五反田エリアのスタジオは五反田駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。五反田駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">ビジネス街特有の予約傾向を把握</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  五反田はオフィス街のため、平日ランチタイム（12時〜13時）と夕方以降（18時〜21時）に予約が集中する傾向があります。逆に土日は比較的空いているスタジオが多いので、平日に通いづらい方は週末を狙うのも手です。また、祝日は営業時間が変更になることがあるので事前確認を。
+                  五反田はオフィス街のため、平日ランチタイム（12時〜13時）と夕方以降（18時〜21時）に予約が集中する傾向があります。逆に土日は比較的空いているスタジオが多いので、平日に通いづらい方は週末を狙うのも手です。また、祝日は営業時間が変更になることがあるので事前にご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  五反田エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ず確認しましょう。月の途中入会は日割り計算になるかも要チェックです。
+                  五反田エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ずご確認ください。月の途中入会は日割り計算になるかもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  五反田エリアだけでなく、近隣の<Link href="/area/shinagawa/" className="text-warm-700 underline hover:text-warm-900">品川</Link>、<Link href="/area/meguro/" className="text-warm-700 underline hover:text-warm-900">目黒</Link>、<Link href="/area/oimachi/" className="text-warm-700 underline hover:text-warm-900">大井町</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  五反田エリアだけでなく、近隣の<Link href="/area/shinagawa/" className="text-warm-700 underline hover:text-warm-900">品川</Link>、<Link href="/area/meguro/" className="text-warm-700 underline hover:text-warm-900">目黒</Link>、<Link href="/area/oimachi/" className="text-warm-700 underline hover:text-warm-900">大井町</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -426,25 +408,25 @@ export default function GotandaPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>五反田エリアの豆知識：</strong>五反田はビジネスパーソンの利用が多いエリアです。スーツやオフィスカジュアルで来てそのまま着替えたい方は、ロッカールームの広さやシャワーの有無を重視してスタジオを選びましょう。ウェアレンタルがあれば、大きな荷物を持ち歩く必要がありません。
+                  <strong>五反田エリアの豆知識：</strong>五反田はビジネスパーソンの利用が多いエリアです。スーツやオフィスカジュアルで来てそのまま着替えたい方は、ロッカールームの広さやシャワーの有無を重視してスタジオをお選びください。ウェアレンタルがあれば、大きな荷物を持ち歩く必要がありません。
                 </p>
               </div>
             </div>
@@ -462,7 +444,7 @@ export default function GotandaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円以下で通えるスタジオ。
+                  月額1万円以下で通えるスタジオです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
@@ -472,7 +454,7 @@ export default function GotandaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  マンツーマンで効果的に。
+                  マンツーマン指導で効率よく取り組めます。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• SAKURA（プライベート空間）</li>
@@ -483,7 +465,7 @@ export default function GotandaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・遅くまで営業</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  仕事帰りにも通えるスタジオ。
+                  仕事帰りにも通えるスタジオです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• the SILK（駅徒歩3分）</li>
@@ -504,15 +486,15 @@ export default function GotandaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回（月4-8回）からスタート。最低2-3ヶ月継続で効果を実感。
+                週1〜2回（月4〜8回）から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回がおすすめ。3-6ヶ月で目に見える変化が期待できます。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。
+                週1回のペースで無理なく継続することをおすすめします。
               </p>
             </div>
           </div>
@@ -529,7 +511,7 @@ export default function GotandaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。
+                  グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（9,625円〜/月4回）</li>
@@ -540,7 +522,7 @@ export default function GotandaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜16,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月3〜4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン完備の大手スタジオ。
+                  マシン完備の大手スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• the SILK（13,280円〜）</li>
@@ -551,7 +533,7 @@ export default function GotandaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 28,000円〜</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  完全パーソナル。
+                  完全パーソナルです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• STUDIO IVY（28,000円〜）</li>
@@ -584,7 +566,7 @@ export default function GotandaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  五反田エリアの料金相場はグループ月4回で9,625円〜15,280円。入会金やレンタル料も確認しましょう。
+                  五反田エリアの料金相場はグループ月4回で9,625円〜15,280円です。入会金やレンタル料もご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -593,7 +575,7 @@ export default function GotandaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKは手ぶらOKの無料体験、STUDIO IVYは4,500円で体験可能。気軽に試してみましょう。
+                  the SILKは手ぶらで参加可能の無料体験、STUDIO IVYは4,500円で体験可能です。体験レッスンで実際の雰囲気をご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -602,7 +584,7 @@ export default function GotandaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  五反田はJR山手線・東急池上線・都営浅草線が利用可能。zen placeは五反田に2スタジオ展開で使い分けもできます。
+                  五反田はJR山手線・東急池上線・都営浅草線が利用可能です。zen placeは五反田に2スタジオ展開で使い分けもできます。
                 </p>
               </div>
             </div>
@@ -645,13 +627,13 @@ export default function GotandaPage() {
               今回は五反田のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では五反田にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、五反田にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -660,11 +642,11 @@ export default function GotandaPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜4,500円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜4,500円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

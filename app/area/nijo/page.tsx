@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/nijo/' },
-  title: '【2026年10月最新】ピラティス二条おすすめ6選！人気スタジオの料金プランを簡単比較！',
-  description: '京都二条エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス二条おすすめ6選人気スタジオの料金プランの比較',
+  description: '京都二条エリアのおすすめピラティススタジオ6選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,二条,京都,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,四条大宮',
 }
 
@@ -26,12 +26,12 @@ const studios = [
     price: '1回 6,250円〜',
     trial: '体験レッスンあり',
     features: ['四条大宮駅徒歩5分', 'パーソナル専門', 'オーダーメイド', '月謝制'],
-    description: '京都四条大宮のパーソナル専門マシンピラティススタジオ。嵐電四条大宮駅から徒歩5分。完全プライベート空間でお客様のお悩みに沿ったオーダーメイドプログラムを提供。月謝制で1レッスン6,250円〜で継続しやすい価格設定。',
+    description: '京都四条大宮のパーソナル専門マシンピラティススタジオです。嵐電四条大宮駅から徒歩5分です。完全プライベート空間でお客様のお悩みに沿ったオーダーメイドプログラムを提供しています。月謝制で1レッスン6,250円〜で継続しやすい価格設定です。',
     access: '嵐電嵐山本線「四条大宮駅」徒歩5分 / 阪急京都線「大宮駅」徒歩5分',
     address: '京都府京都市下京区仏光寺通堀川西入晒屋町622-1 ナレッジスペース四条大宮302',
     popularPlan: {
       name: 'パーソナルレッスン月4回',
-      description: '完全プライベート空間でのマンツーマンマシンピラティス。',
+      description: '完全プライベート空間でのマンツーマンマシンピラティスです。',
       price: '月額 15,000円〜（税込）/ 1レッスン6,250円〜',
     },
     options: [
@@ -58,12 +58,12 @@ const studios = [
     price: '月額 13,800円〜',
     trial: '体験レッスン 0円',
     features: ['烏丸駅徒歩2分', '女性専用', '体験0円', 'LAVA運営'],
-    description: 'ホットヨガLAVAが運営する女性専用マシンピラティス専門スタジオ。烏丸駅から徒歩2分。大画面スクリーンを活用した最新スタイルのグループレッスン。リフォーマーを使い、お悩み部位にピンポイントでアプローチ。',
+    description: 'ホットヨガLAVAが運営する女性専用マシンピラティス専門スタジオです。烏丸駅から徒歩2分です。大画面スクリーンを活用した最新スタイルのグループレッスンです。リフォーマーを使い、お悩み部位にピンポイントでアプローチです。',
     access: '阪急京都線「烏丸駅」徒歩2分 / 地下鉄烏丸線「四条駅」徒歩5分',
     address: '京都府京都市下京区四条通堺町西入立売中之町94 四条KSビル2F',
     popularPlan: {
       name: 'マシンピラティス2店舗通い放題',
-      description: '2店舗でのマシンピラティスグループレッスン通い放題。',
+      description: '2店舗でのマシンピラティスグループレッスン通い放題です。',
       price: '月額 13,800円（税込）',
     },
     options: [
@@ -89,13 +89,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
-    features: ['烏丸御池駅徒歩4分', 'マシンピラティス専門', '男性OK', '全国相互利用'],
-    description: 'ピラティス専門の大手スタジオ。烏丸御池駅から徒歩4分、二条エリアからもアクセス良好。マットグループ・マシングループ・プライベートの3タイプ。全国150店舗以上で相互利用可能。',
+    features: ['烏丸御池駅徒歩4分', 'マシンピラティス専門', '男性利用可', '全国他店利用'],
+    description: 'ピラティス専門の大手スタジオです。烏丸御池駅から徒歩4分、二条エリアからもアクセス良好です。マットグループ・マシングループ・プライベートの3タイプです。全国150店舗以上で他店利用可能です。',
     access: '地下鉄烏丸線・東西線「烏丸御池駅」徒歩4分',
     address: '京都府京都市下京区四条通富小路西入立売東町14 イシズミ本社ビル 9階',
     popularPlan: {
       name: 'フリープラン（マットグループ）',
-      description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。',
+      description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。',
       price: '月額 16,940円（税込）',
     },
     options: [
@@ -120,12 +120,12 @@ const studios = [
     price: '要問い合わせ',
     trial: '体験レッスンあり',
     features: ['烏丸エリア', 'マシン専門', 'アライメント重視', 'パーソナル対応'],
-    description: '京都烏丸エリアのマシンピラティス専門スタジオ。体のアライメント（姿勢の並び）を整えることに重点を置いたレッスンで、健康な体づくりを目指す。一人ひとりに合わせたきめ細やかな指導。',
+    description: '京都烏丸エリアのマシンピラティス専門スタジオです。体のアライメント（姿勢の並び）を整えることに重点を置いたレッスンで、健康な体づくりを目指します。一人ひとりに合わせたきめ細やかな指導です。',
     access: '地下鉄烏丸線「四条駅」徒歩圏内',
     address: '京都府京都市中京区小伊山町535 ムタコタチビル（4F/5F/6F）',
     popularPlan: {
       name: 'マシンパーソナルレッスン',
-      description: 'アライメントを重視したマシンピラティスパーソナルレッスン。',
+      description: 'アライメントを重視したマシンピラティスパーソナルレッスンです。',
       price: '詳細は公式サイトでご確認ください',
     },
     options: [
@@ -150,7 +150,7 @@ const studios = [
     price: '70分6チケット＋24h使い放題 61,000円',
     trial: '体験レッスンあり',
     features: ['四条大宮駅近', '女性専用', '24h使い放題', '有資格トレーナー'],
-    description: '全レッスンを有資格トレーナーが担当する結果重視の女性専用ピラティススタジオ。「パーソナル指導×24時間スタジオ使い放題」のハイブリッド型スタイルが特徴。四条大宮駅から近くアクセス良好。',
+    description: '全レッスンを有資格トレーナーが担当する結果重視の女性専用ピラティススタジオです。「パーソナル指導×24時間スタジオ使い放題」のハイブリッド型スタイルが特徴です。四条大宮駅から近くアクセス良好です。',
     access: '嵐電嵐山本線「四条大宮駅」徒歩圏内',
     address: '京都府京都市（詳細は公式サイトでご確認ください）',
     popularPlan: {
@@ -181,12 +181,12 @@ const studios = [
     price: '要問い合わせ',
     trial: '体験レッスンあり',
     features: ['韓国風スタジオ', '完全プライベート', 'おしゃれ空間', 'マシンピラティス'],
-    description: '完全プライベート空間の韓国風マシンピラティススタジオ。洗練されたおしゃれな内装で、SNS映えする空間。一人ひとりに合わせたパーソナルレッスンを提供。京都の二条エリアからもアクセス良好。',
+    description: '完全プライベート空間の韓国風マシンピラティススタジオです。洗練されたおしゃれな内装で、SNS映えする空間です。一人ひとりに合わせたパーソナルレッスンを提供しています。京都の二条エリアからもアクセス良好です。',
     access: '京都市内（詳細は公式サイトでご確認ください）',
     address: '京都府京都市（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'プライベートレッスン',
-      description: '韓国風完全プライベート空間でのマシンピラティス。',
+      description: '韓国風完全プライベート空間でのマシンピラティスです。',
       price: '詳細は公式サイトでご確認ください',
     },
     options: [
@@ -211,15 +211,15 @@ const studios = [
 const faqs = [
   {
     question: '二条エリアでピラティス初心者におすすめのスタジオは？',
-    answer: 'Rintosull京都四条烏丸店は87%以上が初心者で体験0円。zen place京都は体験1,000円でグループレッスンを気軽に試せます。どちらも初心者に優しいスタジオです。',
+    answer: 'Rintosull京都四条烏丸店は87%以上が初心者で体験0円です。zen place京都は体験1,000円でグループレッスンを気軽に試せます。どちらも初心者に優しいスタジオです。',
   },
   {
     question: '二条周辺のピラティスの料金相場は？',
-    answer: 'グループレッスン月4回で10,450円〜13,800円程度。パーソナルは1回6,250円〜。Rintosullは通い放題13,800円〜と通い放題プランがお得です。',
+    answer: 'グループレッスン月4回で10,450円〜13,800円程度です。パーソナルは1回6,250円〜です。Rintosullは通い放題13,800円〜と通い放題プランがお得です。',
   },
   {
     question: '二条駅から通いやすいスタジオはどこですか？',
-    answer: '二条駅から四条大宮は電車で約5分。STUDIO IVY四条大宮店やPilates MUSEが最寄り。烏丸御池方面ならzen place京都やRintosull四条烏丸店がアクセス良好です。',
+    answer: '二条駅から四条大宮は電車で約5分です。STUDIO IVY四条大宮店やPilates MUSEが最寄りです。烏丸御池方面ならzen place京都やRintosull四条烏丸店がアクセス良好です。',
   },
   {
     question: '女性専用のスタジオはありますか？',
@@ -227,27 +227,27 @@ const faqs = [
   },
   {
     question: '24時間利用できるスタジオはありますか？',
-    answer: 'Pilates MUSE京都四条大宮は「パーソナル指導×24時間スタジオ使い放題」のハイブリッド型。レッスン後に自主練習もできるユニークなスタイルです。',
+    answer: 'Pilates MUSE京都四条大宮は「パーソナル指導×24時間スタジオ使い放題」のハイブリッド型です。レッスン後に自主練習もできるユニークなスタイルです。',
   },
   {
     question: '体験レッスンの料金は？',
-    answer: 'Rintosullは0円、zen placeはグループ体験1,000円〜。STUDIO IVYやSOU PILATESも体験レッスンを実施しています。まずは無料体験から試すのがおすすめ。',
+    answer: 'Rintosullは0円、zen placeはグループ体験1,000円〜です。STUDIO IVYやSOU PILATESも体験レッスンを実施しています。まずは無料体験から試すのがおすすめです。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。二条エリアはマシン専門スタジオが充実しています。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。二条エリアはマシン専門スタジオが充実しています。',
   },
   {
     question: '京都らしいおしゃれなスタジオはありますか？',
-    answer: 'style pilates京都は韓国風のおしゃれな完全プライベートスタジオ。Pilates MUSEも洗練された内装が特徴。京都らしい落ち着いた雰囲気の中でレッスンを楽しめます。',
+    answer: 'style pilates京都は韓国風のおしゃれな完全プライベートスタジオです。Pilates MUSEも洗練された内装が特徴です。京都らしい落ち着いた雰囲気の中でレッスンを楽しめます。',
   },
   {
     question: '二条城観光のついでにピラティスは受けられますか？',
-    answer: '二条城周辺からは四条大宮方面のスタジオが近いです。STUDIO IVYやPilates MUSEは四条大宮駅から徒歩圏内。観光と組み合わせて京都でのピラティス体験も楽しめます。',
+    answer: '二条城周辺からは四条大宮方面のスタジオが近いです。STUDIO IVYやPilates MUSEは四条大宮駅から徒歩圏内です。観光と組み合わせて京都でのピラティス体験も楽しめます。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。週1〜2回のペースで最低2〜3ヶ月の継続がおすすめ。まずは体験レッスンで自分に合うスタジオを見つけましょう。',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。週1〜2回のペースで最低2〜3ヶ月の継続がおすすめです。まずは体験レッスンで自分に合うスタジオを見つけることをおすすめします。',
   },
 ]
 
@@ -268,8 +268,8 @@ export default function NijoPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス二条おすすめ6選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス二条おすすめ6選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -292,29 +292,11 @@ export default function NijoPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「二条・四条大宮エリアで人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、京都二条エリアでおすすめのピラティススタジオ6選をまとめました。
+              本ページでは、京都二条エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -339,7 +321,7 @@ export default function NijoPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -370,7 +352,7 @@ export default function NijoPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円台で通えるスタジオ。
+                  月額1万円台で通えるスタジオです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
@@ -380,7 +362,7 @@ export default function NijoPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性だけの安心空間。
+                  女性だけの安心空間です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull（体験0円・LAVA運営）</li>
@@ -390,7 +372,7 @@ export default function NijoPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  マンツーマンの丁寧な指導。
+                  マンツーマンの丁寧な指導です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• STUDIO IVY（1回 6,250円〜）</li>
@@ -432,7 +414,7 @@ export default function NijoPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              二条・四条大宮エリアは京都の中心部に位置しながらも、河原町・四条烏丸ほどの混雑がなく落ち着いた雰囲気。大手チェーンと個人スタジオがバランスよく揃い、グループからパーソナルまで選択肢が豊富です。Rintosullの通い放題13,800円〜は京都エリアでもコスパが高く、頻繁に通いたい方におすすめ。嵐電・阪急・地下鉄の3路線が利用でき、嵐山方面や四条烏丸方面からもアクセスしやすいエリアです。
+              二条・四条大宮エリアは京都の中心部に位置しながらも、河原町・四条烏丸ほどの混雑がなく落ち着いた雰囲気です。大手チェーンと個人スタジオがバランスよく揃い、グループからパーソナルまで選択肢が豊富です。Rintosullの通い放題13,800円〜は京都エリアでも費用対効果が高く、頻繁に通いたい方におすすめです。嵐電・阪急・地下鉄の3路線が利用でき、嵐山方面や四条烏丸方面からもアクセスしやすいエリアです。
             </p>
           </div>
         </section>
@@ -447,25 +429,25 @@ export default function NijoPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">二条駅周辺と四条大宮は徒歩圏外</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  二条駅から四条大宮駅は電車で約5分ですが、徒歩だと15〜20分かかります。天候の悪い日はバスか電車の利用がおすすめ。スタジオの最寄り駅を確認し、自分の通勤・通学ルートに合ったスタジオを選びましょう。
+                  二条駅から四条大宮駅は電車で約5分ですが、徒歩だと15〜20分かかります。天候の悪い日はバスか電車の利用がおすすめです。スタジオの最寄り駅を確認し、自分の通勤・通学ルートに合ったスタジオをお選びください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">京都の夏は暑く冬は寒い！季節に合った通い方を</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">京都の夏は暑く冬は寒いです。季節に合った通い方を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  京都の盆地特有の気候で、夏は蒸し暑く冬は底冷えします。夏は汗をかきやすいので着替えやタオルを多めに持参。冬は上着やマフラーを収納できるロッカーがあるか確認しましょう。四条大宮エリアはアーケード街が近く、雨の日でも比較的歩きやすいです。
+                  京都の盆地特有の気候で、夏は蒸し暑く冬は底冷えします。夏は汗をかきやすいので着替えやタオルを多めに持参です。冬は上着やマフラーを収納できるロッカーがあるかご確認ください。四条大宮エリアはアーケード街が近く、雨の日でも比較的歩きやすいです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">観光シーズンは混雑に注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  京都は春の桜・秋の紅葉シーズンに観光客が急増します。二条城周辺は特に混雑するため、スタジオへの移動時間に余裕を持ちましょう。バスは渋滞で遅れることが多いので、電車での移動がおすすめです。
+                  京都は春の桜・秋の紅葉シーズンに観光客が急増します。二条城周辺は特に混雑するため、スタジオへの移動時間に余裕を持つことをおすすめします。バスは渋滞で遅れることが多いので、電車での移動がおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較検討を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  二条エリアだけでなく、<Link href="/area/shijo-kawaramachi/" className="text-warm-700 underline hover:text-warm-900">四条河原町</Link>や<Link href="/area/kyoto-station/" className="text-warm-700 underline hover:text-warm-900">京都駅</Link>、<Link href="/area/katsura/" className="text-warm-700 underline hover:text-warm-900">桂</Link>エリアにもピラティススタジオがあります。地下鉄東西線を使えば二条から烏丸御池まで約3分。エリアをまたいで検討すると選択肢が広がります。
+                  二条エリアだけでなく、<Link href="/area/shijo-kawaramachi/" className="text-warm-700 underline hover:text-warm-900">四条河原町</Link>や<Link href="/area/kyoto-station/" className="text-warm-700 underline hover:text-warm-900">京都駅</Link>、<Link href="/area/katsura/" className="text-warm-700 underline hover:text-warm-900">桂</Link>エリアにもピラティススタジオがあります。地下鉄東西線を使えば二条から烏丸御池まで約3分です。エリアをまたいで検討すると選択肢が広がります。
                 </p>
               </div>
             </div>
@@ -483,25 +465,25 @@ export default function NijoPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>二条エリアの豆知識：</strong>二条は世界遺産・二条城をはじめ、京都の歴史と文化が息づくエリア。レッスン後は二条城周辺の散策や、三条商店街でのカフェ巡りもおすすめ。四条大宮エリアは飲食店も多く、レッスン後のランチやディナーにも困りません。京都ならではの落ち着いた雰囲気の中でピラティスを楽しんでみてください。
+                  <strong>二条エリアの豆知識：</strong>二条は世界遺産・二条城をはじめ、京都の歴史と文化が息づくエリアです。レッスン後は二条城周辺の散策や、三条商店街でのカフェ巡りもおすすめです。四条大宮エリアは飲食店も多く、レッスン後のランチやディナーにも困りません。京都ならではの落ち着いた雰囲気の中でピラティスを楽しんでみてください。
                 </p>
               </div>
             </div>
@@ -530,7 +512,7 @@ export default function NijoPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  二条エリアの相場はグループ月4回で10,450円〜。Rintosullの通い放題13,800円〜はコスパ抜群。パーソナルは1回6,250円〜。
+                  二条エリアの相場はグループ月4回で10,450円〜です。Rintosullの通い放題13,800円〜は割安です。パーソナルは1回6,250円〜です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -539,7 +521,7 @@ export default function NijoPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  Rintosullは0円で体験可能。zen placeはグループ体験1,000円。まずは気軽に体験に行きましょう。
+                  Rintosullは0円で体験可能です。zen placeはグループ体験1,000円です。まずは気軽に体験に行くことをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -548,7 +530,7 @@ export default function NijoPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  二条エリアは嵐電・阪急・地下鉄の3路線が利用可能。自宅や職場からの通いやすさと営業時間を確認して選びましょう。
+                  二条エリアは嵐電・阪急・地下鉄の3路線が利用可能です。自宅や職場からの通いやすさと営業時間を確認してお選びください。
                 </p>
               </div>
             </div>
@@ -591,13 +573,13 @@ export default function NijoPage() {
               今回は京都二条エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              二条・四条大宮エリアは京都の中心部でありながら落ち着いた雰囲気があり、ピラティスを始めるのにぴったりの環境です。大手チェーンのリーズナブルなプランからおしゃれなプライベートスタジオまで、多彩な選択肢が揃っています。
+              二条・四条大宮エリアは京都の中心部でありながら落ち着いた雰囲気があり、ピラティスを始めるのに適した環境です。大手チェーンのリーズナブルなプランからおしゃれなプライベートスタジオまで、多彩な選択肢が揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -606,11 +588,11 @@ export default function NijoPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,000円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜3,000円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

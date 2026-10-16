@@ -44,7 +44,7 @@ export default function NotFound() {
               >
                 <h3 className="text-lg font-bold text-warm-900 mb-3">エリアから探す</h3>
                 <p className="text-warm-600 text-sm">
-                  全国110エリアのピラティススタジオ情報を地域別にまとめています。
+                  全国のピラティススタジオ情報をエリア別に掲載しています。
                 </p>
               </Link>
               <Link
@@ -53,7 +53,7 @@ export default function NotFound() {
               >
                 <h3 className="text-lg font-bold text-warm-900 mb-3">ピラティスとヨガの違い</h3>
                 <p className="text-warm-600 text-sm">
-                  ピラティスとヨガの違いを徹底解説。あなたに合うのはどっち？
+                  ピラティスとヨガの違いを、目的や効果の観点から解説しています。
                 </p>
               </Link>
               <Link
@@ -62,7 +62,7 @@ export default function NotFound() {
               >
                 <h3 className="text-lg font-bold text-warm-900 mb-3">マットとマシンの違い</h3>
                 <p className="text-warm-600 text-sm">
-                  マットピラティスとマシンピラティスの違いを初心者向けに解説。
+                  マットピラティスとマシンピラティスの違いを、初心者向けに解説しています。
                 </p>
               </Link>
             </div>

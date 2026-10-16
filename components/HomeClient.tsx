@@ -159,10 +159,10 @@ export function HomeClient() {
             <div className="max-w-xl">
               <p className="section-en text-warm-400 mb-4 font-medium fade-up">Find your ideal pilates</p>
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light text-warm-900 leading-[1.2] mb-6 tracking-tight fade-up" style={{ transitionDelay: '0.12s' }}>
-                あなたに最適な<br/>ピラティスが見つかる
+                目的に合った<br/>ピラティススタジオ選びを
               </h1>
               <p className="text-warm-500 text-sm md:text-base leading-relaxed mb-10 font-light max-w-md fade-up" style={{ transitionDelay: '0.24s' }}>
-                初心者から経験者まで。基礎知識からスタジオ選びまで、<br className="hidden md:block"/>あなたのピラティスライフを徹底サポートします。
+                初心者から経験者まで、ピラティスの基礎知識から<br className="hidden md:block"/>スタジオ選びに役立つ情報まで掲載しています。
               </p>
             </div>
           </div>
@@ -547,7 +547,7 @@ export function HomeClient() {
                     <span className="text-warm-300 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">全国展開</span>
                   </div>
                   <p className="text-warm-500 text-sm leading-relaxed font-light mb-6">
-                    全国最大手、100店舗以上を展開。マットからマシンまで、初心者からインストラクター養成まで幅広いプログラム。
+                    全国で100店舗以上を展開する大手スタジオです。マットからマシンまで、初心者向けからインストラクター養成まで幅広いプログラムを提供しています。
                   </p>
                   <dl className="grid grid-cols-3 gap-2 mb-6 border-t border-warm-100 pt-5">
                     <div>
@@ -556,7 +556,7 @@ export function HomeClient() {
                     </div>
                     <div>
                       <dt className="text-[10px] uppercase tracking-[0.15em] text-warm-300 mb-1">対象</dt>
-                      <dd className="text-sm font-medium text-warm-700">男女OK</dd>
+                      <dd className="text-sm font-medium text-warm-700">男女とも利用可</dd>
                     </div>
                     <div>
                       <dt className="text-[10px] uppercase tracking-[0.15em] text-warm-300 mb-1">特徴</dt>
@@ -593,7 +593,7 @@ export function HomeClient() {
                     <span className="text-warm-300 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">女性専用</span>
                   </div>
                   <p className="text-warm-500 text-sm leading-relaxed font-light mb-6">
-                    女性専用マシンピラティススタジオ。ボディメイクに特化した17種のプログラムで、理想の体型を目指す。体験¥0。
+                    女性専用のマシンピラティススタジオです。ボディメイクに特化した17種のプログラムで、理想の体型を目指せます。体験レッスンは¥0です。
                   </p>
                   <dl className="grid grid-cols-3 gap-2 mb-6 border-t border-warm-100 pt-5">
                     <div>
@@ -639,7 +639,7 @@ export function HomeClient() {
                     <span className="text-warm-300 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">世界最大級</span>
                   </div>
                   <p className="text-warm-500 text-sm leading-relaxed font-light mb-6">
-                    世界最大級、800店舗以上展開のピラティスブランド。グループリフォーマーからプライベートまで多彩なクラス。
+                    世界で800店舗以上を展開するピラティスブランドです。グループリフォーマーからプライベートまで、多彩なクラスがあります。
                   </p>
                   <dl className="grid grid-cols-3 gap-2 mb-6 border-t border-warm-100 pt-5">
                     <div>
@@ -648,7 +648,7 @@ export function HomeClient() {
                     </div>
                     <div>
                       <dt className="text-[10px] uppercase tracking-[0.15em] text-warm-300 mb-1">対象</dt>
-                      <dd className="text-sm font-medium text-warm-700">男女OK</dd>
+                      <dd className="text-sm font-medium text-warm-700">男女とも利用可</dd>
                     </div>
                     <div>
                       <dt className="text-[10px] uppercase tracking-[0.15em] text-warm-300 mb-1">特徴</dt>
@@ -685,7 +685,7 @@ export function HomeClient() {
                     <span className="text-warm-300 text-[10px] uppercase tracking-[0.2em] font-medium border border-warm-200 px-3 py-1">女性専用</span>
                   </div>
                   <p className="text-warm-500 text-sm leading-relaxed font-light mb-6">
-                    女性専用、美ボディメイクに特化したマシンピラティス。洗練された空間で、しなやかな身体づくりを。
+                    女性専用・ボディメイク特化のマシンピラティススタジオです。公式サイトでは、洗練された空間でのしなやかな身体づくりを掲げています。
                   </p>
                   <dl className="grid grid-cols-3 gap-2 mb-6 border-t border-warm-100 pt-5">
                     <div>
@@ -725,10 +725,10 @@ export function HomeClient() {
           <div className="relative max-w-3xl mx-auto px-6 text-center fade-up">
             <p className="section-en text-warm-400 mb-4 font-medium">Start Your Journey</p>
             <h2 className="text-2xl md:text-4xl font-light text-white leading-relaxed tracking-tight mb-6">
-              あなたのピラティスライフを<br/>ここから始めましょう
+              スタジオ選びは<br/>体験レッスンから
             </h2>
             <p className="text-warm-400 text-sm font-light mb-10 max-w-md mx-auto leading-relaxed">
-              まずは体験レッスンから。自分に合ったスタジオを見つけて、新しい自分に出会いませんか。
+              まずは体験レッスンで、スタジオの雰囲気や指導内容をご確認ください。
             </p>
             <a href="#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-xs font-medium uppercase tracking-[0.15em] hover:bg-warm-100 transition-all btn-minimal">
               スタジオを比較する
@@ -832,9 +832,9 @@ export function HomeClient() {
                 <div className="w-14 h-14 mx-auto mb-5 flex items-center justify-center border border-warm-200 rounded-full">
                   <i data-lucide="message-circle" className="w-5 h-5 text-warm-400"></i>
                 </div>
-                <h3 className="text-sm font-medium text-warm-800 mb-2">実体験ベース</h3>
+                <h3 className="text-sm font-medium text-warm-800 mb-2">口コミの要約</h3>
                 <p className="text-warm-400 text-xs leading-relaxed font-light">
-                  実際の体験者の声をもとにした、リアルな情報をお届けします。
+                  Googleマップの口コミをもとに編集部が要約した情報を、出典を明記して掲載しています。
                 </p>
               </div>
             </div>
@@ -849,7 +849,7 @@ export function HomeClient() {
               <h2 className="text-2xl md:text-3xl font-light text-warm-900 tracking-tight">エリア別おすすめピラティス</h2>
               <div className="divider mx-auto mt-4"></div>
               <p className="text-warm-500 text-sm font-light mt-4 max-w-lg mx-auto leading-relaxed">
-                全国227エリアのピラティススタジオ情報を掲載中。お住まいの地域からぴったりのスタジオを見つけましょう。
+                全国のピラティススタジオ情報をエリア別に掲載しています。お住まいの地域から、条件に合うスタジオをお探しください。
               </p>
             </div>
 

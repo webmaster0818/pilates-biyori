@@ -17,8 +17,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/akasaka/' },
-  title: '【2026年10月最新】赤坂のピラティス｜初心者OK・無料体験で選ぶ料金比較',
-  description: '赤坂エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  title: '【2026年10月最新】赤坂のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  description: '赤坂エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,赤坂,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -29,13 +29,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 9,625円〜',
     trial: '体験レッスンあり（当日入会で入会金無料）',
-    features: ['マシン完備', '男性OK', '赤坂見附駅徒歩3分', '全国相互利用可'],
-    description: '全国150以上のスタジオを展開する国内最大級のピラティス専門スタジオ。赤坂見附駅10番出口から徒歩3分、赤坂駅1番出口から徒歩4分の好立地。窓が大きく明るい開放的なスタジオで、各種ピラティスマシンを完備。世界レベルの資格と豊富な経験を持つエデュケーターが、初心者から経験者まで幅広いレッスンを提供。男性も受講可能です。',
+    features: ['マシン完備', '男性利用可', '赤坂見附駅徒歩3分', '全国他店利用可'],
+    description: '全国150以上のスタジオを展開する国内最大級のピラティス専門スタジオです。赤坂見附駅10番出口から徒歩3分、赤坂駅1番出口から徒歩4分の好立地です。窓が大きく明るい開放的なスタジオで、各種ピラティスマシンを完備しています。世界レベルの資格と豊富な経験を持つエデュケーターが、初心者から経験者まで幅広いレッスンを提供しています。男性も受講可能です。',
     access: '東京メトロ銀座線・丸ノ内線「赤坂見附駅」10番出口 徒歩3分 / 千代田線「赤坂駅」1番出口 徒歩4分',
     address: '東京都港区赤坂3丁目7-13 HMビル 5階',
     popularPlan: {
       name: 'マットグループ月4回',
-      description: 'マットピラティスのグループレッスン。初心者から経験者まで対応。全国のzen placeスタジオで相互利用可能。',
+      description: 'マットピラティスのグループレッスンです。初心者から経験者まで対応しています。全国のzen placeスタジオで他店利用可能です。',
       price: '月4回 9,625円（税込）',
     },
     options: [
@@ -60,14 +60,14 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
     price: '月3回 13,280円〜',
-    trial: '体験レッスン 0円（50分・手ぶらOK）',
+    trial: '体験レッスン 0円（50分・手ぶらで参加可能）',
     features: ['女性専用', 'マシン専門', '赤坂見附駅徒歩30秒', 'おしゃれ空間'],
-    description: '女性専用マシンピラティス専門スタジオ。赤坂見附駅10番出口から徒歩わずか30秒の圧倒的好立地。プロフェッショナルグレードのリフォーマーマシンを使用し、音楽に合わせた50分のグループレッスンで楽しくボディメイク。初心者が80%で安心して始められます。パウダールームにはライト付きメイクアップミラー・アイロン・ドライヤー完備で、レッスン後のお出かけも快適。',
+    description: '女性専用マシンピラティス専門スタジオです。赤坂見附駅10番出口から徒歩わずか30秒の圧倒的好立地です。プロフェッショナルグレードのリフォーマーマシンを使用し、音楽に合わせた50分のグループレッスンで楽しくボディメイクを目指せます。初心者が80%で安心して始められます。パウダールームにはライト付きメイクアップミラー・アイロン・ドライヤー完備で、レッスン後のお出かけも快適です。',
     access: '東京メトロ各線「赤坂見附駅」10番出口 徒歩30秒',
     address: '東京都港区赤坂3-8-1 赤坂アルトビル 7階',
     popularPlan: {
       name: 'Standard4（月4回）',
-      description: '月4回の標準プラン。プロフェッショナルグレードのリフォーマーで本格レッスン。',
+      description: '月4回の標準プランです。プロフェッショナルグレードのリフォーマーで本格レッスンです。',
       price: '月4回 15,280円（税込）+ 施設利用料700円',
     },
     options: [
@@ -93,12 +93,12 @@ const studios = [
     price: '月額 6,600円〜',
     trial: '体験レッスン 550円',
     features: ['女性専用', 'マシン専門', '赤坂駅徒歩0分', '回数繰越無制限'],
-    description: '2025年3月オープンの女性専用マシンピラティス専門スタジオ。赤坂駅1番出口から徒歩0分という圧倒的アクセス。月6,600円からとリーズナブルで、回数の繰越が無制限。Intro・BODY MAKE・Conditioningの3つのプログラムカテゴリを展開。シャワールーム・更衣室完備で、レッスン前後も快適に過ごせます。',
+    description: '2025年3月オープンの女性専用マシンピラティス専門スタジオです。赤坂駅1番出口から徒歩0分という圧倒的アクセスです。月6,600円からとリーズナブルで、回数の繰越が無制限です。Intro・BODY MAKE・Conditioningの3つのプログラムカテゴリを展開しています。シャワールーム・更衣室完備で、レッスン前後も快適に過ごせます。',
     access: '千代田線「赤坂駅」1番出口 徒歩0分 / 銀座線・丸ノ内線「赤坂見附駅」徒歩7分 / 銀座線・南北線「溜池山王駅」7番出口 徒歩7分',
     address: '東京都港区赤坂3丁目13-12（受付3F）',
     popularPlan: {
       name: '月4回コース',
-      description: '月4回のマシンピラティスレッスン。未消化分は無制限繰越可能。',
+      description: '月4回のマシンピラティスレッスンです。未消化分は無制限繰越可能です。',
       price: '月4回 要確認（月額6,600円〜）',
     },
     options: [
@@ -124,12 +124,12 @@ const studios = [
     price: '月2回 15,000円〜',
     trial: '体験レッスン 4,500円',
     features: ['完全パーソナル', 'マシン完備', '赤坂見附駅徒歩3分', '赤坂2店舗'],
-    description: '完全パーソナルのマシンピラティス専門スタジオ。赤坂見附駅から徒歩3分。赤坂エリアに本店とANNEX店の2店舗を展開。一人ひとりの目的・体力に合わせたオーダーメイドレッスンで、短期間で効果を実感。月2回コースから通い放題まで柔軟なプラン設定。',
+    description: '完全パーソナルのマシンピラティス専門スタジオです。赤坂見附駅から徒歩3分です。赤坂エリアに本店とANNEX店の2店舗を展開しています。一人ひとりの目的・体力に合わせたオーダーメイドレッスンで、短期間で効果を実感できます。月2回コースから通い放題まで柔軟なプラン設定です。',
     access: '銀座線・丸ノ内線「赤坂見附駅」徒歩3分',
     address: '東京都港区赤坂4-2-12 エスセナーリオ赤坂WEST 011',
     popularPlan: {
       name: '月4回コース',
-      description: '完全パーソナルのマシンピラティス。1回あたり7,000円とパーソナルでは好コスパ。',
+      description: '完全パーソナルのマシンピラティスです。1回あたり7,000円とパーソナルでは好費用対効果です。',
       price: '月4回 28,000円（税込）',
     },
     options: [
@@ -155,12 +155,12 @@ const studios = [
     price: '月2回 15,000円〜',
     trial: '体験レッスン 4,500円',
     features: ['完全パーソナル', 'マシン完備', '赤坂駅徒歩3分', '完全個室'],
-    description: 'STUDIO IVYの赤坂2号店。赤坂駅から徒歩3分。本店と同じクオリティの完全パーソナルマシンピラティスを提供。完全個室で周りを気にせずレッスンに集中できます。赤坂エリア2店舗で予約も取りやすい。',
+    description: 'STUDIO IVYの赤坂2号店です。赤坂駅から徒歩3分です。本店と同じクオリティの完全パーソナルマシンピラティスを提供しています。完全個室で周りを気にせずレッスンに集中できます。赤坂エリア2店舗で予約も取りやすいです。',
     access: '千代田線「赤坂駅」徒歩3分',
     address: '東京都港区赤坂6-4-18 プリンストン赤坂 402',
     popularPlan: {
       name: '月4回コース',
-      description: '完全パーソナルのマシンピラティス。赤坂2店舗どちらでも利用可能。',
+      description: '完全パーソナルのマシンピラティスです。赤坂2店舗どちらでも利用可能です。',
       price: '月4回 28,000円（税込）',
     },
     options: [
@@ -186,12 +186,12 @@ const studios = [
     price: 'グループ月額 15,400円〜',
     trial: 'パーソナル体験 6,600円（50分）',
     features: ['BMP式メソッド', 'パーソナル&グループ', '赤坂駅徒歩2分', '整体×ピラティス'],
-    description: 'ボディメイク×ピラティスのオリジナルメソッドが魅力のスタジオ。赤坂駅6番出口から徒歩2分。BESJピラティス認定インストラクターが多数在籍し、少人数制グループからパーソナルまで選べます。ピラティスに加えて全身矯正・小顔矯正を組み合わせた80分コースも人気。',
+    description: 'ボディメイク×ピラティスのオリジナルメソッドが魅力のスタジオです。赤坂駅6番出口から徒歩2分です。BESJピラティス認定インストラクターが多数在籍し、少人数制グループからパーソナルまで選べます。ピラティスに加えて全身矯正・小顔矯正を組み合わせた80分コースも人気です。',
     access: '千代田線「赤坂駅」6番出口 徒歩2分 / 銀座線・南北線「溜池山王駅」11番出口 徒歩10分',
     address: '東京都港区赤坂6-11-13 ファブリックビル 4階',
     popularPlan: {
       name: 'グループレッスン フルタイム',
-      description: '全営業時間のグループレッスンが受け放題。少人数制で丁寧な指導。',
+      description: '全営業時間のグループレッスンが受け放題です。少人数制で丁寧な指導です。',
       price: '月額 17,600円（税込）',
     },
     options: [
@@ -216,43 +216,43 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！赤坂エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。PILATES STUDIO noaは初心者向けのIntroプログラムがあり、the SILKは初心者が80%を占めています。経験豊富なインストラクターが基礎から丁寧に指導してくれるので安心です。',
+    answer: '問題ありません。赤坂エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。PILATES STUDIO noaは初心者向けのIntroプログラムがあり、the SILKは初心者が80%を占めています。経験豊富なインストラクターが基礎から丁寧に指導してくれるので安心です。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。マットは場所を選ばず自宅でも続けやすいのが特徴です。赤坂エリアではマシン専門スタジオが多いです。',
+    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷を調整しやすく、初心者におすすめです。マットは場所を選ばず、自宅でも続けやすい点が特徴です。赤坂エリアではマシン専門スタジオが多いです。',
   },
   {
     question: '赤坂のピラティススタジオの料金相場は？',
-    answer: '赤坂エリアの料金相場は、グループレッスン月4回で6,600円〜15,280円程度。PILATES STUDIO noaは月額6,600円からと格安。パーソナルレッスンは月4回28,000円前後が相場です。体験レッスンは無料〜6,600円と幅があります。',
+    answer: '赤坂エリアの料金相場は、グループレッスン月4回で6,600円〜15,280円程度です。PILATES STUDIO noaは月額6,600円からと格安です。パーソナルレッスンは月4回28,000円前後が相場です。体験レッスンは無料〜6,600円と幅があります。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: 'ピラティス初心者は週1-2回（月4-8回）がおすすめ。慣れてきたら週2-3回に増やすと効果を実感しやすくなります。大切なのは継続すること。無理のないペースで長く続けることが、理想の身体を手に入れる近道です。',
+    answer: 'ピラティス初心者は週1〜2回（月4〜8回）がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。大切なのは継続することです。無理のないペースで長く続けることが、目標達成への近道です。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、ピラティスはダイエット効果があります。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に。ただし即効性はないので、最低でも2-3ヶ月は継続することが大切。食事管理も並行するとより効果的です。',
+    answer: 'ピラティスにはダイエット効果が期待できます。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。ただし即効性はないので、最低でも2〜3ヶ月は継続することが大切です。食事管理を並行すると、より効果的です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。the SILK赤坂見附店は手ぶらOKの無料体験を実施しています。マットやタオルはスタジオでレンタルできることが多いので、各スタジオの案内を確認してくださいね。',
+    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。the SILK赤坂見附店は手ぶらで参加可能の無料体験を実施しています。マットやタオルはスタジオでレンタルできることが多いので、各スタジオの案内を確認してください。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。',
+    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズです。ヨガは柔軟性と精神的なリラックスを重視します。',
   },
   {
     question: 'ピラティスで肩こりや腰痛は改善しますか？',
-    answer: 'はい、改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。Studio-BMPでは全身矯正と組み合わせたアプローチで、より効果的に身体の不調を改善できます。',
+    answer: '改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。Studio-BMPでは全身矯正と組み合わせたアプローチで、より効果的に身体の不調を改善できます。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: 'ピラティスで効果が表れだすのは「2ヶ月を過ぎた頃」から。これは人間の細胞が生まれ変わるサイクルがそのくらいだからです。すぐに変化が表れなくても心配せず、最低でも2ヶ月は継続するのがおすすめです。',
+    answer: 'ピラティスの効果を実感し始めるのは、2ヶ月を過ぎた頃が目安とされています。すぐに変化が表れなくても、最低2ヶ月は継続することをおすすめします。',
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'それぞれ良さがあります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、STUDIO IVYやStudio-BMPがおすすめ。グループは料金が安く、PILATES STUDIO noaなら月額6,600円から。まずは体験で両方試してみるのがいいですよ。',
+    answer: 'それぞれに利点があります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、STUDIO IVYやStudio-BMPがおすすめです。グループは料金が安く、PILATES STUDIO noaなら月額6,600円からです。まずは体験レッスンで両方を試すことをおすすめします。',
   },
 ]
 
@@ -273,8 +273,8 @@ export default function AkasakaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス赤坂おすすめ6選！<br className="hidden md:block" />
-              料金・体験レッスン・マシン対応を比較！
+              ピラティス赤坂おすすめ6選<br className="hidden md:block" />
+              料金・体験レッスン・マシン対応を比較
             </h1>
           </div>
         </section>
@@ -299,29 +299,11 @@ export default function AkasakaPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「赤坂で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、赤坂エリアでおすすめのピラティススタジオ6選をまとめました。
+              本ページでは、赤坂エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -346,7 +328,7 @@ export default function AkasakaPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -415,25 +397,25 @@ export default function AkasakaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">東京メトロ銀座線・丸ノ内線「赤坂見附駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  赤坂エリアのスタジオは赤坂見附駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。赤坂見附駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  赤坂エリアのスタジオは赤坂見附駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。赤坂見附駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">繁華街ならではの予約混雑に注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  赤坂は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることも。アプリやWebで空き状況をこまめにチェックし、キャンセル待ち機能があるスタジオでは積極的に活用しましょう。
+                  赤坂は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることもあります。アプリやWebで空き状況をこまめに確認し、キャンセル待ち機能があるスタジオでは積極的にご活用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  赤坂エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ず確認しましょう。月の途中入会は日割り計算になるかも要チェックです。
+                  赤坂エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ずご確認ください。月の途中入会は日割り計算になるかもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  赤坂エリアだけでなく、近隣の<Link href="/area/nagatacho/" className="text-warm-700 underline hover:text-warm-900">永田町</Link>、<Link href="/area/toranomon/" className="text-warm-700 underline hover:text-warm-900">虎ノ門</Link>、<Link href="/area/roppongi/" className="text-warm-700 underline hover:text-warm-900">六本木</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  赤坂エリアだけでなく、近隣の<Link href="/area/nagatacho/" className="text-warm-700 underline hover:text-warm-900">永田町</Link>、<Link href="/area/toranomon/" className="text-warm-700 underline hover:text-warm-900">虎ノ門</Link>、<Link href="/area/roppongi/" className="text-warm-700 underline hover:text-warm-900">六本木</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -451,25 +433,25 @@ export default function AkasakaPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>赤坂エリアの豆知識：</strong>赤坂は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
+                  <strong>赤坂エリアの豆知識：</strong>赤坂は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心です。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
                 </p>
               </div>
             </div>
@@ -487,7 +469,7 @@ export default function AkasakaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円以下で通えるリーズナブルなスタジオ。コスパ重視の方におすすめ。
+                  月額1万円以下で通えるリーズナブルなスタジオです。費用を抑えたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• PILATES STUDIO noa（月額6,600円〜）</li>
@@ -497,7 +479,7 @@ export default function AkasakaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">マシン完備</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  最新のリフォーマーマシンを完備。マシンピラティスを本格的に学びたい方におすすめ。
+                  最新のリフォーマーマシンを完備しています。マシンピラティスを本格的に学びたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（各種マシン完備）</li>
@@ -508,7 +490,7 @@ export default function AkasakaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  赤坂駅・赤坂見附駅から徒歩3分以内。仕事帰りにサクッと通える。
+                  赤坂駅・赤坂見附駅から徒歩3分以内です。仕事帰りにサクッと通えます。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• PILATES STUDIO noa（赤坂駅 徒歩0分）</li>
@@ -529,15 +511,15 @@ export default function AkasakaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回（月4-8回）からスタートするのがおすすめ。まずは身体を慣らすことが大切です。継続期間は最低でも2-3ヶ月。この期間で効果を実感できる方が多いですよ。
+                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感できる方が多いです。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回（月8-12回）がおすすめ。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3-6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。
+                週2〜3回（月8〜12回）がおすすめです。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3〜6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理が目的の方</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回（月4回）のペースで継続するのがおすすめ。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切。自分のペースで楽しく通えるのが一番ですよ。
+                週1回（月4回）のペースで継続するのがおすすめです。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切です。無理のないペースで通うことが大切です。
               </p>
             </div>
           </div>
@@ -554,7 +536,7 @@ export default function AkasakaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。マットピラティスやストレッチ系。
+                  グループレッスンが中心です。マットピラティスやストレッチ系です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• PILATES STUDIO noa（6,600円〜）</li>
@@ -566,7 +548,7 @@ export default function AkasakaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜18,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン完備の大手スタジオ。グループレッスンが充実。
+                  マシン完備の大手スタジオです。グループレッスンが充実しています。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• the SILK（13,280円〜）</li>
@@ -577,7 +559,7 @@ export default function AkasakaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 28,000円〜</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  完全プライベートレッスン。短期集中で結果を出したい方向け。
+                  完全プライベートレッスンです。短期集中で成果を目指したい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• STUDIO IVY（月4回 28,000円）</li>
@@ -601,7 +583,7 @@ export default function AkasakaPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  まずは自分がピラティスで何を達成したいのかを明確にしましょう。ダイエット、姿勢改善、体幹強化、リラックスなど、目的によって最適なスタジオやプログラムは変わります。目的が明確だとスタジオ選びもスムーズになりますよ。
+                  まずは自分がピラティスで何を達成したいのかを明確にすることをおすすめします。ダイエット、姿勢改善、体幹強化、リラックスなど、目的によって最適なスタジオやプログラムは変わります。目的を明確にしておくと、スタジオを選びやすくなります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -610,7 +592,7 @@ export default function AkasakaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  赤坂エリアの料金相場はグループレッスン月4回で6,600円〜15,280円程度。パーソナルは月4回28,000円前後。無理なく継続できる予算を決めましょう。入会金やレンタル料も確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  赤坂エリアの料金相場はグループレッスン月4回で6,600円〜15,280円程度です。パーソナルは月4回28,000円前後です。無理なく継続できる予算を決めることをおすすめします。入会金やレンタル料もご確認ください。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -619,7 +601,7 @@ export default function AkasakaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。the SILKは無料体験、PILATES STUDIO noaは550円と格安で体験できます。スタジオの雰囲気やインストラクターとの相性は実際に行ってみないとわかりませんよ。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。the SILKは無料体験、PILATES STUDIO noaは550円と格安で体験できます。スタジオの雰囲気やインストラクターとの相性は実際に行ってみないとわかりません。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -628,7 +610,7 @@ export default function AkasakaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  どんなに良いスタジオでも、通いにくい場所にあると続きません。赤坂エリアは東京メトロ千代田線「赤坂駅」、銀座線・丸ノ内線「赤坂見附駅」、銀座線・南北線「溜池山王駅」の3駅が利用可能。PILATES STUDIO noaは赤坂駅徒歩0分、the SILKは赤坂見附駅徒歩30秒と駅近スタジオが充実しています。
+                  通いにくい場所にあるスタジオは、継続が難しくなります。赤坂エリアは東京メトロ千代田線「赤坂駅」、銀座線・丸ノ内線「赤坂見附駅」、銀座線・南北線「溜池山王駅」の3駅が利用可能です。PILATES STUDIO noaは赤坂駅徒歩0分、the SILKは赤坂見附駅徒歩30秒と駅近スタジオが充実しています。
                 </p>
               </div>
             </div>
@@ -671,13 +653,13 @@ export default function AkasakaPage() {
               今回は赤坂のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では赤坂に数多くあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、赤坂に数多くあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -686,11 +668,11 @@ export default function AkasakaPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜550円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜550円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

@@ -70,10 +70,10 @@ export function AreaMarketComparison({ areaName, studios }: { areaName: string; 
     <section className="py-12 bg-warm-50">
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-3 text-center">
-          {areaName}のピラティス事情を独自データで見る
+          {areaName}のピラティススタジオの料金・体験データ
         </h2>
         <p className="text-sm text-warm-700 text-center mb-8">
-          {areaName}の掲載{total}スタジオの公式情報と、{SURVEY.meta.sourceShort}（{SURVEY.meta.period}集計）の全国調査を比べました。
+          {areaName}の掲載{total}スタジオの公式情報と、{SURVEY.meta.sourceShort}（{SURVEY.meta.period}集計）の全国調査を比較しています。
         </p>
 
         <div className="bg-white rounded-xl border border-warm-200 p-6 space-y-6">
@@ -85,9 +85,9 @@ export function AreaMarketComparison({ areaName, studios }: { areaName: string; 
                 <Bar label="全国平均" pct={SURVEY.trial.freePct} value={`${SURVEY.trial.freePct}%`} />
               </div>
               <p className="text-xs text-warm-600 mt-2">
-                {areaName}では体験料金が確認できた{trialKnown.length}店中{freeCount}店が無料
+                {areaName}では、体験料金を確認できた{trialKnown.length}店のうち{freeCount}店が無料です
                 {paidMin !== null && (
-                  <>。有料の場合の最低額は{paidMin.toLocaleString()}円（全国の有料中央値は{SURVEY.trial.paidMedian.toLocaleString()}円）</>
+                  <>。有料の場合の最低額は{paidMin.toLocaleString()}円です（全国の有料体験の中央値は{SURVEY.trial.paidMedian.toLocaleString()}円）</>
                 )}
               </p>
             </div>
@@ -101,7 +101,7 @@ export function AreaMarketComparison({ areaName, studios }: { areaName: string; 
                 <Bar label="全国平均" pct={(SURVEY.rating.avg / 5) * 100} value={String(SURVEY.rating.avg)} />
               </div>
               <p className="text-xs text-warm-600 mt-2">
-                {areaName}は評価掲載のある{ratings.length}店の平均。全国は{SURVEY.rating.sampled}スタジオの平均
+                {areaName}は評価が掲載されている{ratings.length}店の平均、全国は{SURVEY.rating.sampled}スタジオの平均です。
               </p>
             </div>
           )}
@@ -112,7 +112,7 @@ export function AreaMarketComparison({ areaName, studios }: { areaName: string; 
               <p className="text-warm-900">
                 <span className="text-2xl font-bold text-[#8B7355]">{monthlyMin.toLocaleString()}円</span>
                 <span className="text-sm text-warm-700">
-                  　〜（{areaName}の掲載プランで金額確認できた{monthly.length}店の最安。全国の月4回前後コース中央値は
+                  　〜（{areaName}の掲載プランのうち金額を確認できた{monthly.length}店の最安値です。全国の月4回前後のコースの中央値は
                   {SURVEY.monthly.median.toLocaleString()}円）
                 </span>
               </p>
@@ -120,7 +120,7 @@ export function AreaMarketComparison({ areaName, studios }: { areaName: string; 
           )}
 
           <p className="text-xs text-warm-600 border-t border-warm-100 pt-3">
-            出典: {SURVEY.meta.source}。{areaName}の数値は本ページ掲載スタジオの公式情報を集計したもので、プラン構成・料金は変更されることがあります。最新は各スタジオ公式サイトでご確認ください。
+            出典: {SURVEY.meta.source}。{areaName}の数値は本ページ掲載スタジオの公式情報を集計したもので、プラン構成・料金は変更されることがあります。最新情報は各スタジオの公式サイトでご確認ください。
           </p>
         </div>
       </div>

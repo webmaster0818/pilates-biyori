@@ -1,6 +1,6 @@
 // G1店舗別ページ(2026-07 Phase2): GSCで表示実績のあったブランド×店舗の受け皿。
 // データは data/brands-aggregate.json の検証済み実データからスクリプト生成(scripts/gen-g1-stores-202607.py)。
-// 評価は店舗別一次データが無いため付けない(捏造回避)。住所非開示店はaddressIsVagueで正直に表記。
+// 評価は店舗別一次データが無いため付けない(捏造回避)。住所非開示店はaddressIsVagueでその旨を表記。
 import type { BdcStore } from "@/data/bdc-stores";
 
 export const g1Stores: BdcStore[] = [

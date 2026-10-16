@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/ebisu/' },
-  title: '【2026年10月最新】恵比寿のピラティス｜初心者OK・無料体験で選ぶ料金比較',
-  description: '恵比寿エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  title: '【2026年10月最新】恵比寿のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  description: '恵比寿エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,恵比寿,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -26,13 +26,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 9,625円〜',
     trial: '体験レッスンあり（当日入会で入会金無料）',
-    features: ['マシン完備', '男性OK', '恵比寿駅徒歩5分', '全国相互利用可'],
-    description: '全国150以上のスタジオを展開する国内最大級のピラティス専門スタジオ。恵比寿駅西口・日比谷線1番出口から徒歩5分。マットグループ・リフォーマーグループ・プライベートレッスンと豊富なレッスン形式。Balanced Body製マシン完備。男性も受講可能。',
+    features: ['マシン完備', '男性利用可', '恵比寿駅徒歩5分', '全国他店利用可'],
+    description: '全国150以上のスタジオを展開する国内最大級のピラティス専門スタジオです。恵比寿駅西口・日比谷線1番出口から徒歩5分です。マットグループ・リフォーマーグループ・プライベートレッスンと豊富なレッスン形式です。Balanced Body製マシン完備です。男性も受講可能です。',
     access: 'JR「恵比寿駅」西口 徒歩5分 / 東京メトロ日比谷線「恵比寿駅」1番出口 徒歩5分',
     address: '東京都渋谷区広尾1丁目15-3 増田ビル 4階',
     popularPlan: {
       name: 'マットグループ月4回',
-      description: 'マットピラティスのグループレッスン。全国のzen placeスタジオで相互利用可能。',
+      description: 'マットピラティスのグループレッスンです。全国のzen placeスタジオで他店利用可能です。',
       price: '月4回 9,625円（税込）',
     },
     options: [
@@ -59,12 +59,12 @@ const studios = [
     price: '月4回 11,220円〜',
     trial: '体験レッスン 0円',
     features: ['日本初マシン専門', '恵比寿駅近', '認定講師', 'グループ&プライベート'],
-    description: '日本初のマシンピラティス専門スタジオの恵比寿店。認定指導資格を保有した講師によるグループレッスンとプライベートレッスンの両方を提供。プライベートでは一人ひとりの身体の状態と目的に沿ってメニューを完全カスタマイズ。',
+    description: '日本初のマシンピラティス専門スタジオの恵比寿店です。認定指導資格を保有した講師によるグループレッスンとプライベートレッスンの両方を提供しています。プライベートでは一人ひとりの身体の状態と目的に沿ってメニューを完全カスタマイズです。',
     access: 'JR恵比寿駅東口 徒歩3分（公式表記）',
     address: '東京都渋谷区恵比寿1-20-4 Sreed EBISU B1',
     popularPlan: {
       name: '4メンバー（月4回）',
-      description: '月4回のグループレッスン。認定講師による本格マシンピラティス。',
+      description: '月4回のグループレッスンです。認定講師による本格マシンピラティスです。',
       price: '月4回 11,220〜13,420円（税込）',
     },
     options: [
@@ -90,12 +90,12 @@ const studios = [
     price: '月3回 29,700円〜',
     trial: '体験レッスン 平日1,000円 / 土日祝5,000円',
     features: ['理学療法士監修', '完全マンツーマン', '恵比寿2店舗', '整えるピラティス'],
-    description: '理学療法士監修の完全マンツーマンプライベートピラティススタジオ。恵比寿に2店舗展開。「鍛える」ではなく「整える」ピラティスをテーマに、リフォーマー・キャデラック・チェアなど本格マシンを完備。体験当日入会で入会金22,000円が無料。翌月繰越可能。',
+    description: '理学療法士監修の完全マンツーマンプライベートピラティススタジオです。恵比寿に2店舗展開しています。「鍛える」ではなく「整える」ピラティスをテーマに、リフォーマー・キャデラック・チェアなど本格マシンを完備しています。体験当日入会で入会金22,000円が無料です。翌月繰越可能です。',
     access: '恵比寿駅西口 徒歩5分 / 代官山駅からも徒歩圏内',
     address: '東京都渋谷区東3-19-10 恵比寿MJビル4F',
     popularPlan: {
       name: '月4回プラン',
-      description: '理学療法士監修のマンツーマンレッスン。翌月繰越可能。',
+      description: '理学療法士監修のマンツーマンレッスンです。翌月繰越可能です。',
       price: '月4回 38,400円（税込・1回9,600円）',
     },
     options: [
@@ -121,13 +121,13 @@ const studios = [
     image: '/images/studios/club-pilates.webp',
     price: '月4回 17050円／月8回 26290円／通い放題 40590円（公式店舗ページ・税表記なし）',
     trial: '体験レッスン 無料（当日入会で入会金無料）',
-    features: ['世界最大級', '15種類の器具', '恵比寿ガーデンプレイス', '男性OK'],
-    description: '世界最大級のマシンピラティスブランド。恵比寿ガーデンプレイス グラススクエア1Fの好立地。最大12名のグループレッスンで、8つのプログラムと4段階のレベルに分けたクラスから選択可能。15種類のマシン・器具を1人1台完備。',
+    features: ['世界最大級', '15種類の器具', '恵比寿ガーデンプレイス', '男性利用可'],
+    description: '世界最大級のマシンピラティスブランドです。恵比寿ガーデンプレイス グラススクエア1Fの好立地です。最大12名のグループレッスンで、8つのプログラムと4段階のレベルに分けたクラスから選択可能です。15種類のマシン・器具を1人1台完備しています。',
     access: '恵比寿駅から恵比寿ガーデンプレイス経由',
     address: '東京都渋谷区恵比寿4-20-4 ガーデンプレイス グラススクエア棟 1F',
     popularPlan: {
       name: 'グループ月4回プラン',
-      description: '15種類の器具を使った本格グループレッスン。4段階のレベル分けで安心。',
+      description: '15種類の器具を使った本格グループレッスンです。4段階のレベル分けで安心です。',
       price: '月4回 17050円（税表記なし）',
     },
     options: ['月8回 26290円', '通い放題 40590円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
@@ -149,12 +149,12 @@ const studios = [
     price: 'パーソナル体験 2,000円〜',
     trial: '初回限定パーソナル 9,900円→2,000円',
     features: ['女性専用', 'パーソナル特化', '恵比寿駅徒歩5分', 'おしゃれ空間'],
-    description: '女性専用マシンピラティススタジオthe SILKのパーソナル特化型恵比寿店。恵比寿駅西口から徒歩5分。1対1のプライベートレッスンでしっかり指導。初回限定50分のパーソナルピラティスが9,900円→2,000円のキャンペーン中。パウダールーム完備で手ぶらで通えます。',
+    description: '女性専用マシンピラティススタジオthe SILKのパーソナル特化型恵比寿店です。恵比寿駅西口から徒歩5分です。1対1のプライベートレッスンでしっかり指導しています。初回限定50分のパーソナルピラティスが9,900円→2,000円のキャンペーン中です。パウダールーム完備で手ぶらで通えます。',
     access: '恵比寿駅西口 徒歩5分',
     address: '東京都渋谷区恵比寿南1-17-15 EX恵比寿南ビル 3F- B',
     popularPlan: {
       name: 'パーソナルレッスン',
-      description: '1対1の完全プライベートマシンピラティス。',
+      description: '1対1の完全プライベートマシンピラティスです。',
       price: '要確認（初回体験 2,000円）',
     },
     options: [
@@ -182,12 +182,12 @@ const studios = [
     priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
     trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '1人のインストラクターにつき最大3名のセミパーソナル型マシンピラティススタジオ。恵比寿駅から徒歩5分。定額制で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と驚きのコスパ。当日予約・当日キャンセルOKと柔軟な予約対応。朝9時から夜21時15分まで営業。',
+    description: '1人のインストラクターにつき最大3名のセミパーソナル型マシンピラティススタジオです。恵比寿駅から徒歩5分です。定額制で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と割安です。当日予約・当日キャンセル可能と柔軟な予約対応です。朝9時から夜21時15分まで営業しています。',
     access: '恵比寿駅 徒歩5分',
     address: '〒150-0013 東京都渋谷区恵比寿1丁目21−11',
     popularPlan: {
       name: '定額制プラン',
-      description: 'セミパーソナルのマシンピラティス。通い放題で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）の驚きコスパ。',
+      description: 'セミパーソナルのマシンピラティスです。通い放題で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）の驚き費用対効果です。',
       price: '定額制（詳細は公式サイト参照）',
     },
     userProfile: {
@@ -206,14 +206,14 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
     price: '月3回 13,280円〜',
-    trial: '体験レッスン 0円（50分・手ぶらOK）',
+    trial: '体験レッスン 0円（50分・手ぶらで参加可能）',
     features: ['女性専用', 'マシン専門', '広尾駅徒歩4分', '朝7:30〜夜22時'],
-    description: '女性専用マシンピラティス専門スタジオ。広尾駅から徒歩4分、恵比寿エリアからも好アクセス。朝7:30から夜22時まで営業で時間の融通が効きやすい。PMA加盟団体のプロ監修レッスン。プロフェッショナルグレードのリフォーマーマシンを使用し、音楽に合わせた50分のグループレッスンで楽しくボディメイク。',
+    description: '女性専用マシンピラティス専門スタジオです。広尾駅から徒歩4分、恵比寿エリアからも好アクセスです。朝7:30から夜22時まで営業で時間の融通が効きやすいです。PMA加盟団体のプロ監修レッスンです。プロフェッショナルグレードのリフォーマーマシンを使用し、音楽に合わせた50分のグループレッスンで楽しくボディメイクを目指せます。',
     access: '東京メトロ日比谷線「広尾駅」徒歩4分 / 恵比寿エリアからもアクセス可',
     address: '東京都渋谷区広尾5丁目19-4 SR広尾ビル3階（本館）／東京都渋谷区広尾5丁目2-26 M2ビル広尾2階（別館）',
     popularPlan: {
       name: 'Standard4（月4回）',
-      description: '月4回の標準プラン。PMA監修のプロフェッショナルグレードリフォーマーレッスン。',
+      description: '月4回の標準プランです。PMA監修のプロフェッショナルグレードリフォーマーレッスンです。',
       price: '月4回 15,280円（税込）+ 施設利用料700円',
     },
     options: [
@@ -239,12 +239,12 @@ const studios = [
     price: '月会費 11,000円（月6回）',
     trial: '体験レッスン 2,200円',
     features: ['コナミ運営', 'マシン専門', '中目黒', '月6回制'],
-    description: 'コナミスポーツクラブが運営するマシンピラティス専門スタジオ。恵比寿・中目黒エリアに位置。月会費11,000円で月6回まで通えるコスパの良いプラン。プライベートレッスンも30分4,400円から。大手運営ならではの安心感と清潔な施設が魅力。',
+    description: 'コナミスポーツクラブが運営するマシンピラティス専門スタジオです。恵比寿・中目黒エリアに位置しています。月会費11,000円で月6回まで通える費用対効果の良いプランです。プライベートレッスンも30分4,400円からです。大手運営ならではの安心感と清潔な施設が魅力です。',
     access: '中目黒エリア / 恵比寿からもアクセス可',
     address: '東京都目黒区青葉台1丁目14-4 CONTRAL nakameguro',
     popularPlan: {
       name: '月会費プラン（月6回）',
-      description: 'マシンピラティス月6回まで。コナミ運営の安心感。',
+      description: 'マシンピラティス月6回までです。コナミ運営の安心感です。',
       price: '月会費 11,000円（税込）',
     },
     options: [
@@ -271,7 +271,7 @@ const studios = [
     price: '月4回(45分) 29,700円〜 / 月4回(60分) 39,600円〜',
     trial: '体験トレーニング 7,100円（無料キャンペーン実施店舗あり）',
     features: ['マンツーマン（パーソナル）', 'マシン・マット両対応', '医師推奨パーソナルジムNo.1受賞'],
-    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオ。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せる。恵比寿エリア（詳細は公式サイト参照）。',
+    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオです。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せます。恵比寿エリアです（詳細は公式サイト参照）。',
     access: '恵比寿エリア（詳細は公式サイト参照）',
     address: '東京都（詳細は公式サイト参照）',
   },
@@ -280,43 +280,43 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！恵比寿エリアのピラティススタジオのほとんどが初心者向けレッスンを用意しています。CLUB PILATESはレベル分けがあり、the SILKは初心者が80%。BDC PILATESは体験0円で気軽に始められます。',
+    answer: '問題ありません。恵比寿エリアのピラティススタジオのほとんどが初心者向けレッスンを用意しています。CLUB PILATESはレベル分けがあり、the SILKは初心者が80%です。BDC PILATESは体験0円で気軽に始められます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。恵比寿エリアではマシン専門スタジオが充実しています。',
+    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷を調整しやすく、初心者におすすめです。恵比寿エリアではマシン専門スタジオが充実しています。',
   },
   {
     question: '恵比寿のピラティススタジオの料金相場は？',
-    answer: '恵比寿エリアの料金相場は、グループレッスン月4回で9,600円〜14,200円程度。Pilates Meeは定額制で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と驚きのコスパ。パーソナルは月4回29,700円〜が相場です。',
+    answer: '恵比寿エリアの料金相場は、グループレッスン月4回で9,600円〜14,200円程度です。Pilates Meeは定額制で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と割安です。パーソナルは月4回29,700円〜が相場です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1-2回（月4-8回）がおすすめ。慣れてきたら週2-3回に。大切なのは継続すること。無理のないペースで長く続けましょう。',
+    answer: '初心者は週1〜2回（月4〜8回）がおすすめです。慣れてきたら週2〜3回が目安です。大切なのは継続することです。無理のないペースで長く続けることをおすすめします。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、ダイエット効果があります。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に。最低でも2-3ヶ月は継続することが大切です。',
+    answer: 'はい、ダイエット効果があります。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。最低でも2〜3ヶ月は継続することが大切です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。BDC PILATESとthe SILK広尾は無料体験、ルルトは平日1,000円で体験できます。ウェアレンタルがあるスタジオも多いです。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。BDC PILATESとthe SILK広尾は無料体験、ルルトは平日1,000円で体験できます。ウェアレンタルがあるスタジオも多いです。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹を鍛えることに特化。ヨガは柔軟性とリラックスを重視。目的に合わせて選びましょう。',
+    answer: 'ピラティスは体幹を鍛えることに特化しています。ヨガは柔軟性とリラックスを重視しています。目的に合わせてお選びください。',
   },
   {
     question: 'ピラティスで肩こりや腰痛は改善しますか？',
-    answer: 'はい、改善が期待できます。ルルト恵比寿は理学療法士監修で、身体の不調改善に特化した指導を提供しています。',
+    answer: '改善が期待できます。ルルト恵比寿は理学療法士監修で、身体の不調改善に特化した指導を提供しています。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '効果が表れだすのは「2ヶ月を過ぎた頃」から。最低でも2ヶ月は継続するのがおすすめです。',
+    answer: '効果が表れだすのは「2ヶ月を過ぎた頃」からです。最低でも2ヶ月は継続するのがおすすめです。',
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'パーソナルはルルトやthe SILKで効果的な指導を。グループはBDC PILATESやzen placeなら月4回9,625円〜11,220円から。まずは体験で両方試してみましょう。',
+    answer: 'パーソナルはルルトやthe SILKで効果的な指導を受けられます。グループはBDC PILATESやzen placeなら月4回9,625円〜11,220円からです。まずは体験レッスンで両方を試すことをおすすめします。',
   },
 ]
 
@@ -337,8 +337,8 @@ export default function EbisuPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス恵比寿おすすめ9選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス恵比寿おすすめ9選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -361,29 +361,11 @@ export default function EbisuPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「恵比寿で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、恵比寿エリアでおすすめのピラティススタジオ9選をまとめました。
+              本ページでは、恵比寿エリアでおすすめのピラティススタジオ9選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -408,7 +390,7 @@ export default function EbisuPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -476,25 +458,25 @@ export default function EbisuPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">JR「恵比寿駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  恵比寿エリアのスタジオは恵比寿駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。恵比寿駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  恵比寿エリアのスタジオは恵比寿駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。恵比寿駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">繁華街ならではの予約混雑に注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  恵比寿は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることも。アプリやWebで空き状況をこまめにチェックし、キャンセル待ち機能があるスタジオでは積極的に活用しましょう。
+                  恵比寿は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることもあります。アプリやWebで空き状況をこまめに確認し、キャンセル待ち機能があるスタジオでは積極的にご活用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  恵比寿エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ず確認しましょう。月の途中入会は日割り計算になるかも要チェックです。
+                  恵比寿エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ずご確認ください。月の途中入会は日割り計算になるかもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  恵比寿エリアだけでなく、近隣の<Link href="/area/daikanyama/" className="text-warm-700 underline hover:text-warm-900">代官山</Link>、<Link href="/area/nakameguro/" className="text-warm-700 underline hover:text-warm-900">中目黒</Link>、<Link href="/area/hiroo/" className="text-warm-700 underline hover:text-warm-900">広尾</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  恵比寿エリアだけでなく、近隣の<Link href="/area/daikanyama/" className="text-warm-700 underline hover:text-warm-900">代官山</Link>、<Link href="/area/nakameguro/" className="text-warm-700 underline hover:text-warm-900">中目黒</Link>、<Link href="/area/hiroo/" className="text-warm-700 underline hover:text-warm-900">広尾</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -512,25 +494,25 @@ export default function EbisuPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>恵比寿エリアの豆知識：</strong>恵比寿は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
+                  <strong>恵比寿エリアの豆知識：</strong>恵比寿は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心です。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
                 </p>
               </div>
             </div>
@@ -548,7 +530,7 @@ export default function EbisuPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円前後で通えるスタジオ。体験無料も。
+                  月額1万円前後で通えるスタジオです。体験無料のスタジオもあります。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Pilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）</li>
@@ -559,7 +541,7 @@ export default function EbisuPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">本格パーソナル</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  完全マンツーマンで質の高いレッスンを。
+                  完全マンツーマンで質の高いレッスンを受けられます。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ルルト（理学療法士監修）</li>
@@ -570,7 +552,7 @@ export default function EbisuPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・施設充実</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  恵比寿駅から好アクセス。設備充実。
+                  恵比寿駅から好アクセスです。設備充実です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• CLUB PILATES（恵比寿ガーデンプレイス）</li>
@@ -591,15 +573,15 @@ export default function EbisuPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回（月4-8回）からスタート。最低でも2-3ヶ月継続で効果を実感。
+                週1〜2回（月4〜8回）から始めることをおすすめします。最低でも2〜3ヶ月継続で効果を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回がおすすめ。3-6ヶ月で目に見える変化が期待できます。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。自分のペースが一番です。
+                週1回のペースで無理なく継続することをおすすめします。自分のペースが一番です。
               </p>
             </div>
           </div>
@@ -616,7 +598,7 @@ export default function EbisuPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜12,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4〜6回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループ・セミパーソナル中心。
+                  グループ・セミパーソナル中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Pilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）</li>
@@ -629,7 +611,7 @@ export default function EbisuPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜16,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン完備の大手スタジオ。
+                  マシン完備の大手スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• BDC PILATES（11,220円〜）</li>
@@ -641,7 +623,7 @@ export default function EbisuPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 30,000円〜</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月3〜4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  完全プライベート。効果重視の方に。
+                  完全プライベートです。効果重視の方におすすめです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ルルト（月3回 29,700円〜）</li>
@@ -674,7 +656,7 @@ export default function EbisuPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  恵比寿エリアの料金相場はグループ月4回で9,600円〜14,200円。入会金やレンタル料も確認しましょう。
+                  恵比寿エリアの料金相場はグループ月4回で9,600円〜14,200円です。入会金やレンタル料もご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -683,7 +665,7 @@ export default function EbisuPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  BDC PILATESとthe SILKは無料体験、CLUB PILATESも無料体験を実施。気軽に試してみましょう。
+                  BDC PILATESとthe SILKは無料体験、CLUB PILATESも無料体験を実施しています。体験レッスンで実際の雰囲気をご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -692,7 +674,7 @@ export default function EbisuPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  恵比寿はJR山手線・埼京線・東京メトロ日比谷線が利用可能。CLUB PILATESは恵比寿ガーデンプレイス内で買い物ついでにも便利です。
+                  恵比寿はJR山手線・埼京線・東京メトロ日比谷線が利用可能です。CLUB PILATESは恵比寿ガーデンプレイス内で買い物ついでにも便利です。
                 </p>
               </div>
             </div>
@@ -735,13 +717,13 @@ export default function EbisuPage() {
               今回は恵比寿のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では恵比寿に数多くあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、恵比寿に数多くあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -750,11 +732,11 @@ export default function EbisuPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜2,200円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜2,200円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

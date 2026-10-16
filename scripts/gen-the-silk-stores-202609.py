@@ -162,9 +162,9 @@ def main() -> None:
             "const store = getTheSilkStore(SLUG)!;\n\n"
             "export const metadata: Metadata = {\n"
             f'  title: `{s["areaQuery"]}のthe SILK（ザ シルク）｜料金・体験・口コミとアクセス`,\n'
-            f'  description: `{s["areaQuery"]}のthe SILK（{s["storeName"]}）の料金・体験レッスン・アクセスを掲載データで整理。'
-            "${store.access}。Googleの口コミをもとにした編集部の要約（出典リンクつき）と、"
-            f'{s["areaLabel"]}エリアのピラティス比較へのリンク付き。`,\n'
+            f'  description: `{s["areaQuery"]}のthe SILK（{s["storeName"]}）の料金・体験レッスン・アクセスを掲載しています。'
+            "${store.access}です。Googleの口コミの要約（出典付き）と、"
+            f'{s["areaLabel"]}エリアのピラティス比較へのリンクも掲載しています。`,\n'
             "  alternates: { canonical: `https://biyori-pilates.com/brands/${SLUG}/` },\n"
             "};\n\n"
             "export default function Page() {\n"

@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kuramae/' },
-  title: '【2026年10月最新】蔵前のピラティス｜初心者OK・無料体験で選ぶ料金比較',
-  description: '蔵前エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  title: '【2026年10月最新】蔵前のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  description: '蔵前エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,蔵前,浅草,東京,台東区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -26,13 +26,13 @@ const studios = [
     image: '\/images\/studios\/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
-    features: ['浅草駅徒歩1分', '隅田川ビュー', '男性OK', '全国相互利用'],
-    description: 'ピラティス専門の大手スタジオ。都営浅草線浅草駅A2a出口から徒歩1分、蔵前駅からも徒歩圏内。2023年7月オープンの新しいスタジオで、大きな窓から隅田川やスカイツリーを望む開放的な空間。マットグループ・マシングループ・プライベートの3タイプ。',
+    features: ['浅草駅徒歩1分', '隅田川ビュー', '男性利用可', '全国他店利用'],
+    description: 'ピラティス専門の大手スタジオです。都営浅草線浅草駅A2a出口から徒歩1分、蔵前駅からも徒歩圏内です。2023年7月オープンの新しいスタジオで、大きな窓から隅田川やスカイツリーを望む開放的な空間です。マットグループ・マシングループ・プライベートの3タイプです。',
     access: '都営浅草線「浅草駅」A2a出口 徒歩1分 / 東京メトロ銀座線「浅草駅」4番出口 徒歩6分 / 都営大江戸線「蔵前駅」徒歩10分',
     address: '東京都台東区駒形2-7-5 前川ビル 7F',
     popularPlan: {
       name: 'フリープラン（マットグループ）',
-      description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。',
+      description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。',
       price: '月額 16,940円（税込）',
     },
     options: [
@@ -58,12 +58,12 @@ const studios = [
     price: '月額プランあり',
     trial: '体験レッスン 0円〜',
     features: ['蔵前駅徒歩5分', '他店舗利用可', 'ヨガ&ピラティス', 'パーソナル対応'],
-    description: 'ヨガ・ピラティス専門スタジオ。都営浅草線浅草駅A2-b出口から徒歩3分、蔵前駅A7出口から徒歩5分。グループレッスンとパーソナルトレーニングに対応。他店のスタジオを追加料金なしで利用可能。エアフローヨガなどユニークなプログラムも。',
+    description: 'ヨガ・ピラティス専門スタジオです。都営浅草線浅草駅A2-b出口から徒歩3分、蔵前駅A7出口から徒歩5分です。グループレッスンとパーソナルトレーニングに対応しています。他店のスタジオを追加料金なしで利用可能です。エアフローヨガなど独自のプログラムもあります。',
     access: '都営浅草線「浅草駅」A2-b出口 徒歩3分 / 東京メトロ銀座線「浅草駅」4番出口 徒歩8分 / 都営大江戸線「蔵前駅」A7出口 徒歩5分',
     address: '東京都台東区駒形2-5-5 小宮ビル 1F',
     popularPlan: {
       name: 'グループレッスン月額プラン',
-      description: 'ヨガ・ピラティスのグループレッスン。他店舗も追加料金なしで利用可能。',
+      description: 'ヨガ・ピラティスのグループレッスンです。他店舗も追加料金なしで利用可能です。',
       price: '公式サイトでご確認ください',
     },
     options: [
@@ -90,12 +90,12 @@ const studios = [
     price: '1回 12,000円〜',
     trial: '体験レッスン 1,000円（キャンペーン）',
     features: ['理学療法士監修', '完全マンツーマン', '国家資格保持者', '完全個室'],
-    description: '理学療法士が考案・監修した完全マンツーマンのマシンピラティススタジオ。国家資格を持つスタッフが多く在籍し、プロ目線で医学的な知識や経験から身体に合った効果的な運動を指導。蔵前・浅草橋エリアで本格的なプライベートレッスンが受けられる。',
+    description: '理学療法士が考案・監修した完全マンツーマンのマシンピラティススタジオです。国家資格を持つスタッフが多く在籍し、プロ目線で医学的な知識や経験から身体に合った効果的な運動を指導しています。蔵前・浅草橋エリアで本格的なプライベートレッスンが受けられます。',
     access: '都営浅草線「蔵前駅」徒歩圏内 / JR総武線「浅草橋駅」徒歩圏内',
     address: '東京都台東区浅草橋5-16-3 オカジマビル 2F',
     popularPlan: {
       name: 'プライベートレッスン',
-      description: '理学療法士監修の完全マンツーマンマシンピラティス。',
+      description: '理学療法士監修の完全マンツーマンマシンピラティスです。',
       price: '1回 12,000円（税込）',
     },
     options: [
@@ -121,12 +121,12 @@ const studios = [
     price: '月2回 16,500円〜',
     trial: '体験レッスン 4,400円',
     features: ['蔵前駅徒歩3分', '女性限定', 'マンツーマン', '夜22時まで'],
-    description: '女性限定のマンツーマンマシンピラティススタジオ。蔵前駅A1a出口から徒歩3分の好立地。一人ひとりの身体に合わせたパーソナルレッスンを提供。平日は夜22時まで営業で仕事帰りにも通いやすい。',
+    description: '女性限定のマンツーマンマシンピラティススタジオです。蔵前駅A1a出口から徒歩3分の好立地です。一人ひとりの身体に合わせたパーソナルレッスンを提供しています。平日は夜22時まで営業で仕事帰りにも通いやすいです。',
     access: '都営浅草線「蔵前駅」A1a出口 徒歩3分',
     address: '東京都台東区浅草橋3-20-13 ルフォン浅草蔵前 101号室',
     popularPlan: {
       name: '月8回プラン',
-      description: '女性限定マンツーマンマシンピラティス月8回。',
+      description: '女性限定マンツーマンマシンピラティス月8回です。',
       price: '月8回 30,800円（税込）',
     },
     options: [
@@ -152,13 +152,13 @@ const studios = [
     image: '\/images\/studios\/the-silk.webp',
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
-    features: ['女性専用', '手ぶら体験OK', '初心者8割', 'ウェア無料貸出'],
-    description: '女性専用マシンピラティススタジオ。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。手ぶらで体験可能。ウェア・タオル無料貸出あり。蔵前エリアからもアクセス良好。',
+    features: ['女性専用', '手ぶらで体験可能', '初心者8割', 'ウェア無料貸出'],
+    description: '女性専用マシンピラティススタジオです。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。手ぶらで体験可能です。ウェア・タオル無料貸出があります。蔵前エリアからもアクセス良好です。',
     access: '蔵前エリアからアクセス可能（詳細は公式サイトでご確認ください）',
     address: '東京都台東区雷門2-19-1 長谷川ビル7階',
     popularPlan: {
       name: 'Standard4（月4回）',
-      description: '女性専用マシンピラティス月4回。音楽に合わせた楽しいレッスン。',
+      description: '女性専用マシンピラティス月4回です。音楽に合わせた楽しいレッスンです。',
       price: '月4回 15,070円（税込）',
     },
     options: [
@@ -183,31 +183,31 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！蔵前エリアのスタジオはほとんどが初心者歓迎。the SILKは体験者の約8割がピラティス未経験者。lulutoは理学療法士が丁寧に指導。',
+    answer: '問題ありません。蔵前エリアのスタジオはほとんどが初心者歓迎です。the SILKは体験者の約8割がピラティス未経験者です。lulutoは理学療法士が丁寧に指導しています。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。蔵前エリアはマシン対応スタジオが充実。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。蔵前エリアはマシン対応スタジオが充実しています。',
   },
   {
     question: '蔵前のピラティスの料金相場は？',
-    answer: 'グループ月4回で10,450円〜15,070円程度。zen placeが月4回10,450円〜で最もリーズナブル。プライベートはlulutoの1回12,000円〜。',
+    answer: 'グループ月4回で10,450円〜15,070円程度です。zen placeが月4回10,450円〜で最もリーズナブルです。プライベートはlulutoの1回12,000円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。大切なのは継続すること。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。大切なのは継続することです。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。the SILKは手ぶらで体験可能（ウェア・タオル無料貸出）。YARDは初回体験0円〜。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。the SILKは手ぶらで体験可能です（ウェア・タオル無料貸出）。YARDは初回体験0円〜です。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹強化・姿勢改善に特化。ヨガは柔軟性とリラックス重視。YARDはヨガもピラティスも両方受けられます。',
+    answer: 'ピラティスは体幹強化・姿勢改善に特化しています。ヨガは柔軟性とリラックス重視です。YARDはヨガもピラティスも両方受けられます。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
@@ -215,11 +215,11 @@ const faqs = [
   },
   {
     question: '無料で体験できるスタジオは？',
-    answer: 'the SILKとYARDは無料体験あり。zen placeはグループ体験1,000円。lulutoはキャンペーン体験1,000円。',
+    answer: 'the SILKとYARDは無料体験があります。zen placeはグループ体験1,000円です。lulutoはキャンペーン体験1,000円です。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -240,8 +240,8 @@ export default function KuramaePage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス蔵前おすすめ5選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス蔵前おすすめ5選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -264,29 +264,11 @@ export default function KuramaePage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「蔵前で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、蔵前エリアでおすすめのピラティススタジオ5選をまとめました。
+              本ページでは、蔵前エリアでおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -311,7 +293,7 @@ export default function KuramaePage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -379,25 +361,25 @@ export default function KuramaePage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">都営浅草線「浅草駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  蔵前エリアのスタジオは浅草駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。浅草駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  蔵前エリアのスタジオは浅草駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。浅草駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">繁華街ならではの予約混雑に注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  蔵前は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることも。アプリやWebで空き状況をこまめにチェックし、キャンセル待ち機能があるスタジオでは積極的に活用しましょう。
+                  蔵前は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることもあります。アプリやWebで空き状況をこまめに確認し、キャンセル待ち機能があるスタジオでは積極的にご活用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  蔵前エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ず確認しましょう。月の途中入会は日割り計算になるかも要チェックです。
+                  蔵前エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ずご確認ください。月の途中入会は日割り計算になるかもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  蔵前エリアだけでなく、近隣の<Link href="/area/asakusa/" className="text-warm-700 underline hover:text-warm-900">浅草</Link>、<Link href="/area/monzen-nakacho/" className="text-warm-700 underline hover:text-warm-900">門前仲町</Link>、<Link href="/area/nihonbashi/" className="text-warm-700 underline hover:text-warm-900">日本橋</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  蔵前エリアだけでなく、近隣の<Link href="/area/asakusa/" className="text-warm-700 underline hover:text-warm-900">浅草</Link>、<Link href="/area/monzen-nakacho/" className="text-warm-700 underline hover:text-warm-900">門前仲町</Link>、<Link href="/area/nihonbashi/" className="text-warm-700 underline hover:text-warm-900">日本橋</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -415,25 +397,25 @@ export default function KuramaePage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>蔵前エリアの豆知識：</strong>蔵前は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
+                  <strong>蔵前エリアの豆知識：</strong>蔵前は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心です。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
                 </p>
               </div>
             </div>
@@ -451,7 +433,7 @@ export default function KuramaePage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額2万円未満で通えるスタジオ（店舗カードの料金）。
+                  月額2万円未満で通えるスタジオです（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates 浅草スタジオ（月4回 10,450円〜）</li>
@@ -462,7 +444,7 @@ export default function KuramaePage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性だけの安心空間。
+                  女性だけの安心空間です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• the SILK 浅草店（近隣エリア）</li>
@@ -471,7 +453,7 @@ export default function KuramaePage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  駅から徒歩2分以内。
+                  駅から徒歩2分以内です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates 浅草スタジオ（都営浅草線「浅草駅」A2a出口 徒歩1分）</li>
@@ -490,15 +472,15 @@ export default function KuramaePage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回からスタート。最低2-3ヶ月継続で効果を実感。
+                週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回がおすすめ。3-6ヶ月で目に見える変化。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。
+                週1回のペースで無理なく継続することをおすすめします。
               </p>
             </div>
           </div>
@@ -515,7 +497,7 @@ export default function KuramaePage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜13,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月3〜4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。
+                  グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（10,450円〜/月4回）</li>
@@ -527,7 +509,7 @@ export default function KuramaePage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜15,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン専門スタジオ。
+                  マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• このページの掲載スタジオでは該当なし（各スタジオの料金は上の店舗カードを参照）</li>
@@ -537,7 +519,7 @@ export default function KuramaePage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 16,000〜29,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">通い放題</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  毎日通いたい方。
+                  毎日通いたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスアクス 浅草蔵前店（月2回 16,500円〜）</li>
@@ -569,7 +551,7 @@ export default function KuramaePage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  蔵前の料金相場はグループ月4回で10,450円〜15,070円。入会金やキャンペーンも確認しましょう。
+                  蔵前の料金相場はグループ月4回で10,450円〜15,070円です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -578,7 +560,7 @@ export default function KuramaePage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  体験料金は、zen place pilates 浅草スタジオが「グループ体験 1,000円」、YARD 浅草・蔵前スタジオが「体験レッスン 0円〜」、luluto 蔵前浅草橋店が「体験レッスン 1,000円（キャンペーン）」、ピラティスアクス 浅草蔵前店が「体験レッスン 4,400円」です（店舗カードの記載）。最新の条件は各公式サイトで確認しましょう。
+                  体験料金は、zen place pilates 浅草スタジオが「グループ体験 1,000円」、YARD 浅草・蔵前スタジオが「体験レッスン 0円〜」、luluto 蔵前浅草橋店が「体験レッスン 1,000円（キャンペーン）」、ピラティスアクス 浅草蔵前店が「体験レッスン 4,400円」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -587,7 +569,7 @@ export default function KuramaePage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  蔵前の掲載スタジオでは、zen place pilates 浅草スタジオ（都営浅草線「浅草駅」A2a出口 徒歩1分）、YARD 浅草・蔵前スタジオ（都営浅草線「浅草駅」A2-b出口 徒歩3分）、ピラティスアクス 浅草蔵前店（都営浅草線「蔵前駅」A1a出口 徒歩3分）が駅から近いスタジオです。通う時間帯の経路も確認しておきましょう。
+                  蔵前の掲載スタジオでは、zen place pilates 浅草スタジオ（都営浅草線「浅草駅」A2a出口 徒歩1分）、YARD 浅草・蔵前スタジオ（都営浅草線「浅草駅」A2-b出口 徒歩3分）、ピラティスアクス 浅草蔵前店（都営浅草線「蔵前駅」A1a出口 徒歩3分）が駅から近いスタジオです。通う時間帯の経路もご確認ください。
                 </p>
               </div>
             </div>
@@ -630,13 +612,13 @@ export default function KuramaePage() {
               今回は蔵前エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では蔵前にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、蔵前にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -645,11 +627,11 @@ export default function KuramaePage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,850円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜3,850円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

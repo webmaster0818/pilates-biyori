@@ -17,8 +17,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/umeda/' },
-  title: '【2026年10月最新】梅田のピラティス｜初心者OK・無料体験で選ぶ料金比較',
-  description: '梅田エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  title: '【2026年10月最新】梅田のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  description: '梅田エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,梅田,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -29,20 +29,20 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 13,200円〜',
     trial: '体験レッスン 1,000円',
-    features: ['マシン完備', '初心者歓迎', '梅田駅徒歩3分', 'インストラクター養成'],
-    description: '全国展開の大手ピラティススタジオ。梅田駅から徒歩3分の好立地。マットピラティスからマシンピラティスまで豊富なレッスンメニュー。大阪最大のターミナル駅・梅田で、JR・阪急・阪神・地下鉄が利用可能。キタの中心、オフィス・商業の一大拠点。グランフロント、阪急百貨店、ヨドバシなどが近く、レッスン後のショッピングも楽しめます。経験豊富なインストラクターが一人ひとりに合わせた丁寧な指導を提供します。',
+    features: ['マシン完備', '初心者歓迎', '梅田駅徒歩3分', 'エデュケーター養成'],
+    description: '全国展開の大手ピラティススタジオです。梅田駅から徒歩3分の好立地です。マットピラティスからマシンピラティスまで豊富なレッスンメニューです。大阪最大のターミナル駅・梅田で、JR・阪急・阪神・地下鉄が利用可能です。キタの中心、オフィス・商業の一大拠点です。グランフロント、阪急百貨店、ヨドバシなどが近く、レッスン後のショッピングも楽しめます。経験豊富なエデュケーターが一人ひとりに合わせた丁寧な指導を提供します。',
     access: '梅田駅から徒歩3分',
     address: '大阪府大阪市北区梅田1丁目12-17 梅田スクエアビル 10階',
     popularPlan: {
       name: 'フリープラン（月4回）',
-      description: 'マット・マシンどちらも受講可能な人気プラン。大阪最大の拠点で通いやすい。',
+      description: 'マット・マシンどちらも受講可能な人気プランです。大阪最大の拠点で通いやすいです。',
       price: '月4回 13,200円（税込）',
     },
     options: [
       'プライベートレッスン追加（1回 9,900円〜）',
       'ウェアレンタル（月額 2,200円）',
       'タオルレンタル（月額 1,100円）',
-      'インストラクター養成コース（別途）',
+      'エデュケーター養成コース（別途）',
     ],
     userProfile: {
       ageRange: '30代〜50代が中心（全体の75%）',
@@ -62,12 +62,12 @@ const studios = [
     price: '月4回 15,070円〜',
     trial: '無料体験レッスン',
     features: ['音楽×マシン', '女性専用', '暗闇レッスン', 'グループレッスン'],
-    description: '音楽に合わせて楽しくボディメイク。女性専用スタジオで安心。梅田駅から徒歩5分。暗闇×音楽×マシンピラティスの融合レッスンが人気。周りの目を気にせず集中できる環境で、楽しみながら理想のボディラインを手に入れられます。',
+    description: '音楽に合わせて楽しくボディメイクを目指せます。女性専用スタジオのため安心して通えます。梅田駅から徒歩5分です。暗闇×音楽×マシンピラティスの融合レッスンが人気です。周りの目を気にせず集中できる環境で、楽しみながら理想のボディラインを手に入れられます。',
     access: '梅田駅から徒歩5分',
     address: '大阪府大阪市北区角田町8-1 梅田阪急ビルオフィスタワー 5F',
     popularPlan: {
       name: 'マンスリー4メンバー',
-      description: '暗闇×音楽×マシンピラティスの融合レッスン。楽しく続けられると人気のプラン。',
+      description: '暗闇×音楽×マシンピラティスの融合レッスンです。楽しく続けられると人気のプランです。',
       price: '月4回 15,070円（税込）',
     },
     options: [
@@ -94,7 +94,7 @@ const studios = [
     price: '料金は店舗により異なる（公式の店舗ページで確認）',
     trial: '体験レッスン 無料',
     features: ['アメリカ発', 'グループ&プライベート', '梅田駅近', '初心者歓迎'],
-    description: 'アメリカ発の世界最大級ピラティススタジオチェーン。梅田駅から徒歩3分。グループレッスンからプライベートレッスンまで幅広く対応。全米No.1のピラティスメソッドで、初心者から上級者まで満足できるプログラムを提供。',
+    description: 'アメリカ発の世界最大級ピラティススタジオチェーンです。梅田駅から徒歩3分です。グループレッスンからプライベートレッスンまで幅広く対応しています。全米No.1のピラティスメソッドで、初心者から上級者まで満足できるプログラムを提供しています。',
     access: '梅田駅から徒歩3分',
   },
   {
@@ -104,7 +104,7 @@ const studios = [
     price: '月4回(45分) 29,700円〜 / 月4回(60分) 39,600円〜',
     trial: '体験トレーニング 7,100円（無料キャンペーン実施店舗あり）',
     features: ['マンツーマン（パーソナル）', 'マシン・マット両対応', '医師推奨パーソナルジムNo.1受賞'],
-    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオ。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せる。梅田エリア（詳細は公式サイト参照）。',
+    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオです。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せます。梅田エリアです（詳細は公式サイト参照）。',
     access: '梅田エリア（詳細は公式サイト参照）',
     address: '大阪府（詳細は公式サイト参照）',
   },
@@ -115,7 +115,7 @@ const studios = [
     price: 'グループ月4回(Standard4) 14,370〜15,280円 / 通い放題 19,980〜22,280円（別途施設利用料月700円）/ パーソナル月2回 22,000円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'マシンピラティス専門', 'グループ＋パーソナル'],
-    description: '女性専用のマシンピラティス専門スタジオ。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴。梅田駅から徒歩3分（情報引用元: the SILK公式サイト the-silk.co.jp）。',
+    description: '女性専用のマシンピラティス専門スタジオです。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴です。梅田駅から徒歩3分です（情報引用元: the SILK公式サイト the-silk.co.jp）。',
     access: '梅田駅から徒歩3分',
     address: '大阪府大阪市北区芝田1丁目4-14 芝田町ビル9階F・G室',
   },
@@ -126,7 +126,7 @@ const studios = [
     price: '月3回 11,180円 / 月4回 12,060円 / 毎日最大2回 15,510円（税込・公式料金ページの割引後価格・2026年10月9日確認）',
     trial: '初回体験 0円（通常5,500円）',
     features: ['女性専用', 'マシンピラティス（リフォーマー）', 'グループレッスン中心'],
-    description: '女性専用のマシンピラティス（リフォーマー）グループレッスンスタジオ。リーズナブルな月額で通いやすいのが特徴。東梅田駅から徒歩2分。',
+    description: '女性専用のマシンピラティス（リフォーマー）グループレッスンスタジオです。リーズナブルな月額で通いやすいのが特徴です。東梅田駅から徒歩2分です。',
     access: '東梅田駅から徒歩2分',
     address: '大阪府大阪市北区太融寺町8-2 エーワンビル4階',
   },
@@ -135,43 +135,43 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！梅田エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。経験豊富なインストラクターが基礎から丁寧に指導してくれるので、運動が苦手な方でも安心して始められますよ。',
+    answer: '問題ありません。梅田エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。インストラクターが基礎から指導するため、運動が苦手な方でも始めやすい環境です。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。マットは場所を選ばず自宅でも続けやすいのが特徴です。',
+    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷を調整しやすく、初心者におすすめです。マットは場所を選ばず、自宅でも続けやすい点が特徴です。',
   },
   {
     question: '梅田のピラティススタジオの料金相場は？',
-    answer: '梅田エリアのピラティススタジオの料金相場は、月4回で12,000円〜16,000円程度。体験レッスンは無料〜3,000円が一般的です。プライベートレッスンは1回8,000円〜12,000円が相場となっています。',
+    answer: '梅田エリアのピラティススタジオの料金相場は、月4回で12,000円〜16,000円程度です。体験レッスンは無料〜3,000円が一般的です。プライベートレッスンは1回8,000円〜12,000円が相場となっています。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: 'ピラティス初心者は週1-2回（月4-8回）がおすすめ。慣れてきたら週2-3回に増やすと効果を実感しやすくなります。大切なのは継続すること。無理のないペースで長く続けることが、理想の身体を手に入れる近道です。',
+    answer: 'ピラティス初心者は週1〜2回（月4〜8回）がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。大切なのは継続することです。無理のないペースで長く続けることが、目標達成への近道です。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、ピラティスはダイエット効果があります。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に。ただし即効性はないので、最低でも2-3ヶ月は継続することが大切。食事管理も並行するとより効果的です。',
+    answer: 'ピラティスにはダイエット効果が期待できます。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。ただし即効性はないので、最低でも2〜3ヶ月は継続することが大切です。食事管理を並行すると、より効果的です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内で確認してくださいね。',
+    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内でご確認ください。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。ピラティスは筋力強化、ヨガは心身のバランスを整えることが主な目的。どちらも素晴らしいエクササイズなので、目的に合わせて選びましょう。',
+    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズです。ヨガは柔軟性と精神的なリラックスを重視します。ピラティスは筋力強化、ヨガは心身のバランスを整えることが主な目的です。目的に合わせてお選びください。',
   },
   {
     question: 'ピラティスで肩こりや腰痛は改善しますか？',
-    answer: 'はい、改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。デスクワークが多い方や立ち仕事の方にもおすすめです。',
+    answer: '改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。デスクワークが多い方や立ち仕事の方にもおすすめです。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: 'ピラティスで効果が表れだすのは「2ヶ月を過ぎた頃」から。これは人間の細胞が生まれ変わるサイクルがそのくらいだからです。すぐに変化が表れなくても心配せず、最低でも2ヶ月は継続するのがおすすめです。',
+    answer: 'ピラティスの効果を実感し始めるのは、2ヶ月を過ぎた頃が目安とされています。すぐに変化が表れなくても、最低2ヶ月は継続することをおすすめします。',
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'それぞれ良さがあります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方におすすめ。グループは料金が安く、仲間と楽しく続けられるのが魅力。まずは体験で両方試してみるのがいいですよ。',
+    answer: 'それぞれに利点があります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方におすすめです。グループは料金を抑えやすく、ほかの参加者と一緒に続けられる点が利点です。まずは体験レッスンで両方を試すことをおすすめします。',
   },
 ]
 
@@ -192,8 +192,8 @@ export default function UmedaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス梅田おすすめ6選！<br className="hidden md:block" />
-              料金・体験レッスン・マシン対応を比較！
+              ピラティス梅田おすすめ6選<br className="hidden md:block" />
+              料金・体験レッスン・マシン対応を比較
             </h1>
           </div>
         </section>
@@ -218,29 +218,11 @@ export default function UmedaPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「梅田で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、梅田エリアでおすすめのピラティススタジオ6選をまとめました。
+              本ページでは、梅田エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -265,7 +247,7 @@ export default function UmedaPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -297,7 +279,7 @@ export default function UmedaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額12,000円以下で通える格安スタジオ。体験レッスン無料のスタジオも多数。コスパ重視の方におすすめ。
+                  月額12,000円以下で通える格安スタジオです。体験レッスン無料のスタジオも多数あります。費用を抑えたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Pilates Studio Harmony 梅田</li>
@@ -308,7 +290,7 @@ export default function UmedaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">マシン完備</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  最新のリフォーマーマシンを完備。マシンピラティスを本格的に学びたい方におすすめ。
+                  最新のリフォーマーマシンを完備しています。マシンピラティスを本格的に学びたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates 梅田</li>
@@ -318,7 +300,7 @@ export default function UmedaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・キタの中心</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  梅田駅から徒歩3分以内。大阪最大のターミナルで、グランフロント・阪急百貨店近く。
+                  梅田駅から徒歩3分以内です。大阪最大のターミナルで、グランフロント・阪急百貨店の近くです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Urban Pilates 梅田（駅徒歩1分）</li>
@@ -339,15 +321,15 @@ export default function UmedaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回（月4-8回）からスタートするのがおすすめ。まずは身体を慣らすことが大切です。継続期間は最低でも2-3ヶ月。この期間で効果を実感できる方が多いですよ。
+                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感できる方が多いです。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回（月8-12回）がおすすめ。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3-6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。
+                週2〜3回（月8〜12回）がおすすめです。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3〜6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理が目的の方</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回（月4回）のペースで継続するのがおすすめ。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切。自分のペースで楽しく通えるのが一番ですよ。
+                週1回（月4回）のペースで継続するのがおすすめです。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切です。無理のないペースで通うことが大切です。
               </p>
             </div>
           </div>
@@ -364,7 +346,7 @@ export default function UmedaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜12,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。初心者向けの基本的なレッスンが多い。
+                  グループレッスンが中心です。初心者向けの基本的なレッスンが多いです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Pilates Studio Harmony</li>
@@ -376,7 +358,7 @@ export default function UmedaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 12,000〜16,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン完備の大手スタジオ。グループ・プライベート選択可。
+                  マシン完備の大手スタジオです。グループ・プライベート選択可能です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates</li>
@@ -388,7 +370,7 @@ export default function UmedaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 30,000円〜</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  完全プライベートレッスン。短期集中で結果を出したい方向け。
+                  完全プライベートレッスンです。短期集中で成果を目指したい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• B-line（1回8,800円）</li>
@@ -412,7 +394,7 @@ export default function UmedaPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  まずは自分がピラティスで何を達成したいのかを明確にしましょう。ダイエット、姿勢改善、体幹強化、リラックスなど、目的によって最適なスタジオやプログラムは変わります。目的が明確だとスタジオ選びもスムーズになりますよ。
+                  まずは自分がピラティスで何を達成したいのかを明確にすることをおすすめします。ダイエット、姿勢改善、体幹強化、リラックスなど、目的によって最適なスタジオやプログラムは変わります。目的を明確にしておくと、スタジオを選びやすくなります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -421,7 +403,7 @@ export default function UmedaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  梅田エリアの料金相場は月4回で12,000円〜16,000円程度。無理なく継続できる予算を決めましょう。料金だけでなく、入会金、マット・ウェアのレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  梅田エリアの料金相場は月4回で12,000円〜16,000円程度です。無理なく継続できる予算を決めることをおすすめします。料金だけでなく、入会金やマット・ウェアのレンタル料などもご確認ください。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -430,7 +412,7 @@ export default function UmedaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。多くのスタジオが無料〜1,000円程度で体験レッスンを提供しているので、気軽に試してみてくださいね。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。多くのスタジオが無料〜1,000円程度で体験レッスンを提供しているので、体験レッスンをご利用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -439,7 +421,7 @@ export default function UmedaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  どんなに良いスタジオでも、通いにくい場所にあると続きません。梅田は大阪最大のターミナル駅で、JR・阪急・阪神・地下鉄が利用可能。キタの中心、オフィス・商業の一大拠点です。駅から近い場所を選ぶと、グランフロント・阪急百貨店でのショッピングついでにも通えて便利ですよ。
+                  通いにくい場所にあるスタジオは、継続が難しくなります。梅田は大阪最大のターミナル駅で、JR・阪急・阪神・地下鉄が利用可能です。キタの中心、オフィス・商業の一大拠点です。駅から近い場所を選ぶと、グランフロント・阪急百貨店でのショッピングついでにも通えて便利です。
                 </p>
               </div>
             </div>
@@ -454,23 +436,23 @@ export default function UmedaPage() {
             </h2>
             <div className="bg-warm-50 rounded-lg p-8 border border-warm-200 mb-8">
               <p className="text-warm-600 leading-relaxed mb-6">
-                梅田・大阪梅田エリアは関西最大級のターミナル。JR大阪駅・阪急大阪梅田駅・地下鉄御堂筋線梅田駅などが集中し、大手チェーンから個人スタジオまで多彩な選択肢があります。東京に比べると若干高めの料金設定のスタジオもありますが、キャンペーンを活用すればお得に始められます。
+                梅田・大阪梅田エリアは関西最大級のターミナルです。JR大阪駅・阪急大阪梅田駅・地下鉄御堂筋線梅田駅などが集中し、大手チェーンから個人スタジオまで多彩な選択肢があります。東京に比べると若干高めの料金設定のスタジオもありますが、キャンペーンを活用すればお得に始められます。
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
                   <p className="text-3xl font-bold text-warm-800 mb-2">13,200円〜15,070円</p>
-                  <p className="text-sm text-warm-600">zen place pilates梅田の月4回13,200円〜が最安クラス。CLUB PILATESは月4回 10,890〜17,050円（店舗により異なる）。ピラティスKは月4回15,070円〜。</p>
+                  <p className="text-sm text-warm-600">zen place pilates梅田の月4回13,200円〜が最安クラスです。CLUB PILATESは月4回 10,890〜17,050円です（店舗により異なる）。ピラティスKは月4回15,070円〜です。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">パーソナル・プライベートレッスン</h3>
                   <p className="text-3xl font-bold text-warm-800 mb-2">8,000円〜12,000円/回</p>
-                  <p className="text-sm text-warm-600">梅田エリアのプライベートレッスン相場は1回8,000円〜12,000円程度。Studio Venusは完全パーソナルで個室対応。zen placeはプライベートとグループの併用も可能で柔軟な利用ができます。</p>
+                  <p className="text-sm text-warm-600">梅田エリアのプライベートレッスン相場は1回8,000円〜12,000円程度です。Studio Venusは完全パーソナルで個室対応しています。zen placeはプライベートとグループの併用も可能で柔軟な利用ができます。</p>
                 </div>
               </div>
               <div className="bg-white rounded-lg p-5 border border-warm-200">
                 <h3 className="font-bold text-warm-900 mb-3">入会金・体験レッスン費用</h3>
-                <p className="text-sm text-warm-600">入会金は5,000円〜33,000円程度。キャンペーン期間中の入会が断然お得です。体験レッスンは無料〜3,000円程度。ピラティスKは無料体験あり。複数スタジオを体験してから入会を決めるのがおすすめです。</p>
+                <p className="text-sm text-warm-600">入会金は5,000円〜33,000円程度です。キャンペーン期間中の入会が割安です。体験レッスンは無料〜3,000円程度です。ピラティスKは無料体験があります。複数スタジオを体験してから入会を決めるのがおすすめです。</p>
               </div>
             </div>
           </div>
@@ -486,19 +468,19 @@ export default function UmedaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">梅田の地下街は複雑 ─ 地上ルートも確認を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  梅田エリアは地下街（ホワイティうめだ・ディアモール大阪など）が広大で、初めての方は迷いやすいです。スタジオへのアクセスは地上ルートも事前に確認しておくと安心。阪急梅田駅からNU茶屋町方面、JR大阪駅から北新地方面などエリアによってアクセスの便が変わります。
+                  梅田エリアは地下街（ホワイティうめだ・ディアモール大阪など）が広大で、初めての方は迷いやすいです。スタジオへのアクセスは地上ルートも事前に確認しておくと安心です。阪急梅田駅からNU茶屋町方面、JR大阪駅から北新地方面などエリアによってアクセスの便が変わります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">仕事帰りの予約はお早めに</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  梅田はオフィスワーカーが非常に多いエリアのため、平日19時〜21時のレッスンは特に混雑します。人気スタジオは前日には満席になることも。予約は早め早めに取るか、比較的空いている平日昼間を狙いましょう。
+                  梅田はオフィスワーカーが非常に多いエリアのため、平日19時〜21時のレッスンは特に混雑します。人気スタジオは前日には満席になることもあります。予約は早め早めに取るか、比較的空いている平日昼間を狙うことをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">なんば・心斎橋エリアとの比較も</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  大阪でピラティスを探すなら、梅田だけでなく、なんば・心斎橋エリアのスタジオも選択肢に。御堂筋線1本で移動可能なので、休日と平日で別エリアのスタジオを使い分けるのもアリです。zen placeは大阪エリア複数スタジオの相互利用が可能です。
+                  大阪でピラティスを探すなら、梅田だけでなく、なんば・心斎橋エリアのスタジオも選択肢に含めてご検討ください。御堂筋線1本で移動可能なので、休日と平日で別エリアのスタジオを使い分けるのもアリです。zen placeは大阪エリア複数スタジオの他店利用が可能です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -522,25 +504,25 @@ export default function UmedaPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスでOK。ゆったりしすぎる服はマシンに挟まるため避けましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（500ml以上）</strong>：水分補給は必須。スタジオ近くのコンビニで調達してもOKです。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>タオル</strong>：汗拭き用に1枚は持っていきましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>グリップソックス</strong>：マシンピラティスでは靴下着用必須。滑り止め付きがベストです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスで可能です。ゆったりしすぎる服はマシンに挟まるため避けることをおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（500ml以上）</strong>：水分補給は必須です。スタジオ近くのコンビニで調達しても利用可能です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>タオル</strong>：汗拭き用に1枚は持っていくことをおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>グリップソックス</strong>：マシンピラティスでは靴下着用必須です。滑り止め付きが最適です。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>がマスト。ピラティスでは脚を大きく広げたり体をひねるポーズが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>がマストです。ピラティスでは脚を大きく広げたり体をひねるポーズが多いです。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体にフィットする服</strong>を選ぶとフォーム確認がしやすくなり、指導の効果が上がります。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル対応</strong>スタジオも。ピラティスKやthe SILKは手ぶら体験可能な場合があります。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>参加しましょう。マシンのバネやストラップに引っかかる危険があります。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル対応</strong>スタジオもあります。ピラティスKやthe SILKは手ぶら体験可能な場合があります。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>ご参加ください。マシンのバネやストラップに引っかかる危険があります。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>梅田エリアの豆知識：</strong>阪急梅田駅周辺のNU茶屋町エリアにはおしゃれなカフェが多く、レッスン後のリフレッシュにもぴったり。グランフロント大阪やルクア大阪でのショッピングと組み合わせて、充実した休日を過ごす方が多いエリアです。仕事帰り派はJR大阪駅直結のスタジオを選ぶと雨の日も快適に通えます。
+                  <strong>梅田エリアの豆知識：</strong>阪急梅田駅周辺のNU茶屋町エリアにはおしゃれなカフェが多く、レッスン後のリフレッシュにも適しています。グランフロント大阪やルクア大阪でのショッピングと組み合わせて、充実した休日を過ごす方が多いエリアです。仕事帰り派はJR大阪駅直結のスタジオを選ぶと雨の日も快適に通えます。
                 </p>
               </div>
             </div>
@@ -583,13 +565,13 @@ export default function UmedaPage() {
               今回は梅田のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では梅田に数多くあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、梅田に数多くあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -598,11 +580,11 @@ export default function UmedaPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜1,000円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜1,000円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link 
               href="/#studios" 

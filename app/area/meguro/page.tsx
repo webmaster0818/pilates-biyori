@@ -18,7 +18,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/meguro/' },
   title: '【2026年10月最新】目黒のピラティス6社を比較｜無料体験2社・月額最安10,450円〜',
-  description: '目黒エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  description: '目黒エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,目黒,中目黒,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place pilates,the SILK,ピラティスミラー,Pilates Legacy Studio,STUDIO IVY',
 }
 
@@ -29,20 +29,20 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
-    features: ['全国150店舗相互利用', 'マシン豊富', '男性OK', '駅徒歩2分'],
-    description: '全国150店舗以上を展開するzen place pilatesの目黒スタジオ。JR山手線・東急目黒線・南北線・三田線「目黒駅」から徒歩2分の好立地。リフォーマー、チェアなど豊富なマシンを完備し、グループレッスンからプライベートレッスンまで対応。全店舗相互利用が可能で、ライフスタイルに合わせて柔軟に通えます。男性も歓迎で幅広い層に人気。',
+    features: ['全国150店舗他店利用', 'マシン豊富', '男性利用可', '駅徒歩2分'],
+    description: '全国150店舗以上を展開するzen place pilatesの目黒スタジオです。JR山手線・東急目黒線・南北線・三田線「目黒駅」から徒歩2分の好立地です。リフォーマー、チェアなど豊富なマシンを完備し、グループレッスンからプライベートレッスンまで対応しています。全店舗他店利用が可能で、ライフスタイルに合わせて柔軟に通えます。男性も歓迎で幅広い層に人気です。',
     access: 'JR山手線・東急目黒線・南北線・三田線「目黒駅」徒歩2分',
     address: '東京都品川区上大崎2丁目15-14 高木ビル 4階',
     popularPlan: {
       name: 'グループレッスン 月4回',
-      description: 'マシンを使った本格グループレッスン。全国150店舗以上を相互利用可能。初心者から上級者まで対応。',
+      description: 'マシンを使った本格グループレッスンです。全国150店舗以上を他店利用可能です。初心者から上級者まで対応しています。',
       price: '月4回 10,450円〜（税込）',
     },
     options: [
       'グループレッスン（月4回 10,450円〜）',
       'プライベートレッスンあり',
       'グループ体験レッスン 1,000円',
-      '全国150店舗以上を相互利用可能',
+      '全国150店舗以上を他店利用可能',
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
@@ -61,12 +61,12 @@ const studios = [
     price: '月6回 11,000円',
     trial: '体験レッスン 2,200円',
     features: ['コナミスポーツ運営', '天井ミラー', '30分レッスン', '月6回11,000円'],
-    description: 'コナミスポーツが運営するマシンピラティススタジオ。天井に設置されたミラーで自分のフォームを確認しながらレッスンができる独自のスタイルが特徴。1レッスン30分の短時間集中型で、忙しい方にも通いやすい設計。月6回11,000円のリーズナブルな料金で、大手スポーツジム運営ならではの安心感があります。',
+    description: 'コナミスポーツが運営するマシンピラティススタジオです。天井に設置されたミラーで自分のフォームを確認しながらレッスンができる独自のスタイルが特徴です。1レッスン30分の短時間集中型で、忙しい方にも通いやすい設計です。月6回11,000円のリーズナブルな料金で、大手スポーツジム運営ならではの安心感があります。',
     access: '東急東横線・日比谷線「中目黒駅」周辺',
     address: '東京都目黒区中目黒エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: '月6回プラン',
-      description: 'コナミスポーツ運営の天井ミラー付きスタジオ。30分の短時間集中レッスン。',
+      description: 'コナミスポーツ運営の天井ミラー付きスタジオです。30分の短時間集中レッスンです。',
       price: '月6回 11,000円（税込）',
     },
     options: [
@@ -92,12 +92,12 @@ const studios = [
     price: '詳細は公式サイト参照',
     trial: '体験レッスンあり',
     features: ['少人数制グループ', '駅徒歩2分', 'マット&マシン対応', 'アットホーム'],
-    description: '目黒駅から徒歩2分の少人数制ピラティススタジオ。マットクラスとマシンクラスの両方を提供し、初心者から経験者まで幅広く対応。少人数制だからこそ実現できる丁寧な指導が特徴で、一人ひとりの体の状態に合わせたレッスンを受けられます。アットホームな雰囲気で継続しやすい環境。',
+    description: '目黒駅から徒歩2分の少人数制ピラティススタジオです。マットクラスとマシンクラスの両方を提供し、初心者から経験者まで幅広く対応しています。少人数制だからこそ実現できる丁寧な指導が特徴で、一人ひとりの体の状態に合わせたレッスンを受けられます。アットホームな雰囲気で継続しやすい環境です。',
     access: 'JR山手線・東急目黒線「目黒駅」徒歩2分',
     address: '東京都目黒区目黒エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: '少人数制グループレッスン',
-      description: 'マットクラス・マシンクラスから選べる少人数制レッスン。丁寧な指導で初心者も安心。',
+      description: 'マットクラス・マシンクラスから選べる少人数制レッスンです。丁寧な指導で初心者も安心です。',
       price: '詳細は公式サイト参照',
     },
     options: [
@@ -123,12 +123,12 @@ const studios = [
     price: '月2回 15,000円〜',
     trial: '体験レッスン 4,500円',
     features: ['完全パーソナル', '完全プライベート空間', 'オーダーメイド', '月2回15,000円〜'],
-    description: '完全パーソナル・完全プライベート空間のマシンピラティススタジオ。一人ひとりの体の状態や目標に合わせたオーダーメイドのレッスンプログラムを提供。月2回15,000円〜とパーソナルピラティスとしてはリーズナブルな料金設定。体験レッスン4,500円で、まずはスタジオの雰囲気やレッスンの質を確認できます。',
+    description: '完全パーソナル・完全プライベート空間のマシンピラティススタジオです。一人ひとりの体の状態や目標に合わせたオーダーメイドのレッスンプログラムを提供しています。月2回15,000円〜とパーソナルピラティスとしてはリーズナブルな料金設定です。体験レッスン4,500円で、まずはスタジオの雰囲気やレッスンの質を確認できます。',
     access: '目黒エリア（詳細は公式サイトでご確認ください）',
     address: '東京都目黒区目黒エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'パーソナルレッスン 月2回',
-      description: '完全プライベート空間でのオーダーメイドマシンピラティス。一人ひとりの目標に合わせたプログラム。',
+      description: '完全プライベート空間でのオーダーメイドマシンピラティスです。一人ひとりの目標に合わせたプログラムです。',
       price: '月2回 15,000円〜（税込）',
     },
     options: [
@@ -155,7 +155,7 @@ const studios = [
     price: '月4回(45分) 29,700円〜 / 月4回(60分) 39,600円〜',
     trial: '体験トレーニング 7,100円（無料キャンペーン実施店舗あり）',
     features: ['マンツーマン（パーソナル）', 'マシン・マット両対応', '医師推奨パーソナルジムNo.1受賞'],
-    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオ。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せる。目黒エリア（詳細は公式サイト参照）。',
+    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオです。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せます。目黒エリアです（詳細は公式サイト参照）。',
     access: '目黒エリア（詳細は公式サイト参照）',
     address: '東京都（詳細は公式サイト参照）',
   },
@@ -166,7 +166,7 @@ const studios = [
     price: 'グループ月4回(Standard4) 14,370〜15,280円 / 通い放題 19,980〜22,280円（別途施設利用料月700円）/ パーソナル月2回 22,000円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'マシンピラティス専門', 'グループ＋パーソナル'],
-    description: '女性専用のマシンピラティス専門スタジオ。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴。目黒駅から徒歩2分（情報引用元: the SILK公式サイト the-silk.co.jp）。',
+    description: '女性専用のマシンピラティス専門スタジオです。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴です。目黒駅から徒歩2分です（情報引用元: the SILK公式サイト the-silk.co.jp）。',
     access: '目黒駅から徒歩2分',
     address: '東京都品川区上大崎二丁目12番2号 ミズホビル2階',
   },
@@ -175,23 +175,23 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！目黒エリアのスタジオはほとんどが初心者歓迎です。zen place pilatesはレベル別クラスがあり初心者専用レッスンも充実。the SILKは体験無料で気軽にお試しできます。Pilates Legacy Studioは少人数制で丁寧にフォームを教えてもらえます。',
+    answer: '問題ありません。目黒エリアのスタジオはほとんどが初心者歓迎です。zen place pilatesはレベル別クラスがあり初心者専用レッスンも充実しています。the SILKは体験無料で気軽にお試しできます。Pilates Legacy Studioは少人数制で丁寧にフォームを教えてもらえます。',
   },
   {
     question: '目黒のピラティスの料金相場は？',
-    answer: 'zen place pilatesは月4回10,450円〜、ピラティスミラーは月6回11,000円、STUDIO IVYは月2回15,000円〜です。グループレッスンなら月1万円前後から始められます。目的と頻度に合わせて選びましょう。',
+    answer: 'zen place pilatesは月4回10,450円〜、ピラティスミラーは月6回11,000円、STUDIO IVYは月2回15,000円〜です。グループレッスンなら月1万円前後から始められます。目的と頻度に合わせてお選びください。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。zen place pilatesなら全国150店舗相互利用で出先でもレッスン可能。大切なのは無理なく継続すること。最低2〜3ヶ月続けましょう。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。zen place pilatesなら全国150店舗他店利用で出先でもレッスン可能です。大切なのは無理なく継続することです。最低2〜3ヶ月続けることをおすすめします。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に変わっていきます。2〜3ヶ月の継続で効果を実感する方が多いです。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続で効果を実感する方が多いです。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOKです。zen place pilatesはグループ体験1,000円、the SILKは体験無料、ピラティスミラーは体験2,200円、STUDIO IVYは体験4,500円です。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。zen place pilatesはグループ体験1,000円、the SILKは体験無料、ピラティスミラーは体験2,200円、STUDIO IVYは体験4,500円です。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
@@ -199,7 +199,7 @@ const faqs = [
   },
   {
     question: 'グループとパーソナルどちらがおすすめですか？',
-    answer: '初心者やコスパ重視の方はグループレッスン（zen place pilates、the SILK、ピラティスミラー）がおすすめ。効率よく結果を出したい方やマンツーマン指導を希望する方はパーソナル（STUDIO IVY）が最適です。少人数制のPilates Legacy Studioは両者の良いとこ取りです。',
+    answer: '初心者や費用を抑えたい方はグループレッスン（zen place pilates、the SILK、ピラティスミラー）がおすすめです。効率よく結果を出したい方やマンツーマン指導を希望する方はパーソナル（STUDIO IVY）が最適です。少人数制のPilates Legacy Studioは両者の良いとこ取りです。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -223,9 +223,9 @@ export default function MeguroPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス目黒おすすめ6選！
+              ピラティス目黒おすすめ6選
               <br className="hidden md:block" />
-              料金・体験レッスン・マシン対応を比較！
+              料金・体験レッスン・マシン対応を比較
             </h1>
           </div>
         </section>
@@ -250,20 +250,14 @@ export default function MeguroPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p>
-            <p className="text-warm-600 leading-relaxed mb-6">Pilates-Biyori編集部です！</p>
-            <p className="text-warm-600 leading-relaxed mb-6">あなたは、</p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p>
-            <p className="text-warm-600 leading-relaxed mb-6">「目黒で人気のピラティススタジオを知りたい」</p>
-            <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              目黒はJR山手線・東急目黒線・南北線・三田線が乗り入れるターミナル駅で、渋谷まで約5分、品川まで約10分という好アクセスのエリア。おしゃれなカフェや飲食店が並ぶ目黒川沿いも魅力の街です。そんな目黒エリアには、大手チェーンのグループレッスンから完全プライベートパーソナルまで、多彩なピラティススタジオが揃っています。
+              目黒はJR山手線・東急目黒線・南北線・三田線が乗り入れるターミナル駅で、渋谷まで約5分、品川まで約10分という好アクセスのエリアです。おしゃれなカフェや飲食店が並ぶ目黒川沿いも魅力の街です。そんな目黒エリアには、大手チェーンのグループレッスンから完全プライベートパーソナルまで、多彩なピラティススタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、目黒エリアでおすすめの実在するピラティススタジオ6選をまとめました。
+              本ページでは、目黒エリアでおすすめの実在するピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -275,7 +269,7 @@ export default function MeguroPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
-                  <span>コスパの良いスタジオを知りたい</span>
+                  <span>料金を抑えられるスタジオを知りたい</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -287,7 +281,7 @@ export default function MeguroPage() {
                 </li>
               </ul>
             </div>
-            <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
+            <p className="text-warm-600 leading-relaxed">以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。</p>
           </div>
         </section>
 
@@ -340,7 +334,7 @@ export default function MeguroPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              目黒はビジネス街としての性格が強く、仕事帰りの利用を想定した夜間プランや回数券プランが充実しています。賃料が高めのエリアのため料金は全体的にやや高い傾向ですが、法人契約や福利厚生割引に対応しているスタジオもあるので確認してみましょう。近隣の中目黒エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
+              目黒はビジネス街としての性格が強く、仕事帰りの利用を想定した夜間プランや回数券プランが充実しています。賃料が高めのエリアのため料金は全体的にやや高い傾向ですが、法人契約や福利厚生割引に対応しているスタジオもあるのでご確認ください。近隣の中目黒エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
             </p>
           </div>
         </section>
@@ -355,25 +349,25 @@ export default function MeguroPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">JR山手線・東急目黒線・南北線・三田線「目黒駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  目黒エリアのスタジオは目黒駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。目黒駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  目黒エリアのスタジオは目黒駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。目黒駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">ビジネス街特有の予約傾向を把握</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  目黒はオフィス街のため、平日ランチタイム（12時〜13時）と夕方以降（18時〜21時）に予約が集中する傾向があります。逆に土日は比較的空いているスタジオが多いので、平日に通いづらい方は週末を狙うのも手です。また、祝日は営業時間が変更になることがあるので事前確認を。
+                  目黒はオフィス街のため、平日ランチタイム（12時〜13時）と夕方以降（18時〜21時）に予約が集中する傾向があります。逆に土日は比較的空いているスタジオが多いので、平日に通いづらい方は週末を狙うのも手です。また、祝日は営業時間が変更になることがあるので事前にご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  目黒エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ず確認しましょう。月の途中入会は日割り計算になるかも要チェックです。
+                  目黒エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ずご確認ください。月の途中入会は日割り計算になるかもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  目黒エリアだけでなく、近隣の<Link href="/area/nakameguro/" className="text-warm-700 underline hover:text-warm-900">中目黒</Link>、<Link href="/area/gotanda/" className="text-warm-700 underline hover:text-warm-900">五反田</Link>、<Link href="/area/shirokanedai/" className="text-warm-700 underline hover:text-warm-900">白金台</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  目黒エリアだけでなく、近隣の<Link href="/area/nakameguro/" className="text-warm-700 underline hover:text-warm-900">中目黒</Link>、<Link href="/area/gotanda/" className="text-warm-700 underline hover:text-warm-900">五反田</Link>、<Link href="/area/shirokanedai/" className="text-warm-700 underline hover:text-warm-900">白金台</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -391,25 +385,25 @@ export default function MeguroPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>目黒エリアの豆知識：</strong>目黒はビジネスパーソンの利用が多いエリアです。スーツやオフィスカジュアルで来てそのまま着替えたい方は、ロッカールームの広さやシャワーの有無を重視してスタジオを選びましょう。ウェアレンタルがあれば、大きな荷物を持ち歩く必要がありません。
+                  <strong>目黒エリアの豆知識：</strong>目黒はビジネスパーソンの利用が多いエリアです。スーツやオフィスカジュアルで来てそのまま着替えたい方は、ロッカールームの広さやシャワーの有無を重視してスタジオをお選びください。ウェアレンタルがあれば、大きな荷物を持ち歩く必要がありません。
                 </p>
               </div>
             </div>
@@ -423,8 +417,8 @@ export default function MeguroPage() {
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">目的別おすすめスタジオ</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
-                <p className="text-warm-600 text-sm mb-4">月1万円前後から始められるスタジオも。</p>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
+                <p className="text-warm-600 text-sm mb-4">月1万円前後から始められるスタジオもあります。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
                   <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
@@ -432,7 +426,7 @@ export default function MeguroPage() {
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
-                <p className="text-warm-600 text-sm mb-4">マンツーマンで丁寧な指導。</p>
+                <p className="text-warm-600 text-sm mb-4">マンツーマンで丁寧な指導です。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• STUDIO IVY（完全パーソナル）</li>
                   <li className="text-warm-700">• Pilates Legacy Studio（少人数制グループ）</li>
@@ -440,7 +434,7 @@ export default function MeguroPage() {
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">ライフスタイル重視</h3>
-                <p className="text-warm-600 text-sm mb-4">女性専用スタジオも。</p>
+                <p className="text-warm-600 text-sm mb-4">女性専用スタジオもあります。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• the SILK（女性専用）</li>
                   <li className="text-warm-700">• zen place pilates（全国150店舗相互利用）</li>
@@ -458,15 +452,15 @@ export default function MeguroPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1〜2回からスタートするのがおすすめ。最低2〜3ヶ月継続することで効果を実感できます。zen place pilatesはレベル別クラスがあり、初心者専用レッスンから始められます。
+                週1〜2回からスタートするのがおすすめです。最低2〜3ヶ月継続することで効果を実感できます。zen place pilatesはレベル別クラスがあり、初心者専用レッスンから始められます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2〜3回がおすすめ。3〜6ヶ月で目に見える変化を実感できます。STUDIO IVYのオーダーメイドパーソナルなら、目標に合わせた最適なプログラムで効率的にボディメイクが可能。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化を実感できます。STUDIO IVYのオーダーメイドパーソナルなら、目標に合わせた最適なプログラムで効率的にボディメイクが可能です。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。
+                週1回のペースで無理なく継続することをおすすめします。
               </p>
             </div>
           </div>
@@ -480,7 +474,7 @@ export default function MeguroPage() {
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜11,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4〜6回</p>
-                <p className="text-sm text-warm-600 mb-4">手軽に始めたい方に。</p>
+                <p className="text-sm text-warm-600 mb-4">手軽に始めたい方に適しています。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates（10,450円/月4回）</li>
                   <li>• ピラティスミラー（11,000円/月6回）</li>
@@ -490,7 +484,7 @@ export default function MeguroPage() {
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜15,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月2〜3回</p>
-                <p className="text-sm text-warm-600 mb-4">自分のペースで着実に成果。</p>
+                <p className="text-sm text-warm-600 mb-4">自分のペースで着実に成果です。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• STUDIO IVY（15,000円/月2回）</li>
                 </ul>
@@ -498,7 +492,7 @@ export default function MeguroPage() {
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">パーソナル重視</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">完全個別対応</p>
-                <p className="text-sm text-warm-600 mb-4">本気で結果を出したい方に。</p>
+                <p className="text-sm text-warm-600 mb-4">本気で結果を出したい方におすすめです。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• STUDIO IVY（月2回15,000円〜）</li>
                   <li>• オーダーメイドプログラム</li>
@@ -519,7 +513,7 @@ export default function MeguroPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ダイエット、姿勢改善、ボディメイク、体幹強化など、目的によって最適なスタジオは変わります。効率重視ならSTUDIO IVYのオーダーメイドパーソナルがおすすめ。
+                  ダイエット、姿勢改善、ボディメイク、体幹強化など、目的によって最適なスタジオは変わります。効率重視ならSTUDIO IVYのオーダーメイドパーソナルがおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -528,7 +522,7 @@ export default function MeguroPage() {
                   <h3 className="text-xl font-bold text-warm-900">レッスン形式を選ぶ</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  目黒エリアはグループ（zen place pilates、the SILK、ピラティスミラー）、少人数制（Pilates Legacy Studio）、完全パーソナル（STUDIO IVY）と多彩な形式が揃っています。自分の好みや予算に合わせて選びましょう。
+                  目黒エリアはグループ（zen place pilates、the SILK、ピラティスミラー）、少人数制（Pilates Legacy Studio）、完全パーソナル（STUDIO IVY）と多彩な形式が揃っています。自分の好みや予算に合わせてお選びください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -537,7 +531,7 @@ export default function MeguroPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKは体験無料、zen place pilatesはグループ体験1,000円と気軽にお試しできます。ピラティスミラーは2,200円、STUDIO IVYは4,500円。まずは体験で雰囲気やインストラクターとの相性を確認しましょう。
+                  the SILKは体験無料、zen place pilatesはグループ体験1,000円と気軽にお試しできます。ピラティスミラーは2,200円、STUDIO IVYは4,500円です。まずは体験で雰囲気やインストラクターとの相性をご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -546,7 +540,7 @@ export default function MeguroPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  目黒はJR山手線・東急目黒線・南北線・三田線が乗り入れるターミナル駅。zen place pilatesとPilates Legacy Studioは駅徒歩2分。zen place pilatesは全国150店舗相互利用が可能なので、出張先や旅行先でもレッスンを継続できます。
+                  目黒はJR山手線・東急目黒線・南北線・三田線が乗り入れるターミナル駅です。zen place pilatesとPilates Legacy Studioは駅徒歩2分です。zen place pilatesは全国150店舗他店利用が可能なので、出張先や旅行先でもレッスンを継続できます。
                 </p>
               </div>
             </div>
@@ -583,22 +577,22 @@ export default function MeguroPage() {
               今回は目黒エリアのおすすめピラティススタジオ6選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              目黒はJR山手線をはじめ複数路線が乗り入れるターミナル駅で、アクセス抜群のエリア。全国150店舗相互利用のzen place pilates（月4回10,450円〜・グループ体験1,000円）、女性専用のthe SILK（体験無料）、コナミスポーツ運営のピラティスミラー（月6回11,000円・30分レッスン）、少人数制のPilates Legacy Studio（駅徒歩2分）、完全パーソナルのSTUDIO IVY（月2回15,000円〜・オーダーメイド）と、それぞれ特徴の異なるスタジオが揃っています。
+              目黒はJR山手線をはじめ複数路線が乗り入れるターミナル駅で、アクセス抜群のエリアです。全国150店舗他店利用のzen place pilates（月4回10,450円〜・グループ体験1,000円）、女性専用のthe SILK（体験無料）、コナミスポーツ運営のピラティスミラー（月6回11,000円・30分レッスン）、少人数制のPilates Legacy Studio（駅徒歩2分）、完全パーソナルのSTUDIO IVY（月2回15,000円〜・オーダーメイド）と、それぞれ特徴の異なるスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              まずは無料体験ができるthe SILKや、1,000円で体験できるzen place pilatesから試してみるのがおすすめです。ぜひこの記事を参考に、自分に合うピラティススタジオを見つけてくださいね。
+              まずは無料体験ができるthe SILKや、1,000円で体験できるzen place pilatesから試してみるのがおすすめです。本ページの情報を、スタジオ選びにお役立てください。
             </p>
-            <p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p>
+            <p className="text-warm-700 font-medium text-center">本ページが、ピラティススタジオ選びの参考になれば幸いです。</p>
           </div>
         </section>
 
         {/* CTA */}
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンのご予約</h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              the SILKは体験無料、zen place pilatesはグループ体験1,000円。<br />
-              まずは気軽に体験してみましょう。
+              the SILKは体験無料、zen place pilatesはグループ体験1,000円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

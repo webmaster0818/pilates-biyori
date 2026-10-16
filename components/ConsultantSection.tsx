@@ -31,13 +31,13 @@ export default function ConsultantSection({ areaKey, areaName, bare }: Props) {
           </p>
           <h2 className="text-xl md:text-2xl font-bold text-warm-900 mt-2">
             {areaName
-              ? `${areaName}のスタジオ選び、AIに相談してみませんか？`
-              : 'あなたに合うスタジオ、AIに相談してみませんか？'}
+              ? `${areaName}のスタジオ選びをAIがお手伝いします`
+              : 'ピラティススタジオ選びをAIがお手伝いします'}
           </h2>
           <p className="text-warm-600 text-sm mt-3 leading-relaxed">
             {areaName
-              ? `いくつかの質問に答えるだけで、${areaName}エリアの掲載情報から、あなたに合いそうなピラティススタジオを無料でご提案します。`
-              : 'エリア・目的・レッスンタイプ・料金・無料体験の希望から、あなたに合いそうなピラティススタジオを無料でご提案します。'}
+              ? `いくつかの質問にお答えいただくと、${areaName}エリアの掲載情報から、ご希望に合うピラティススタジオを無料でご提案します。`
+              : 'エリア・目的・レッスンタイプ・料金・無料体験のご希望から、条件に合うピラティススタジオを無料でご提案します。'}
           </p>
 
           {open ? (

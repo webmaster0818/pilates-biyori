@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/sannomiya/' },
-  title: '【2026年10月最新】ピラティス三宮おすすめ6選！人気スタジオの料金プランを簡単比較！',
-  description: '三宮エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス三宮おすすめ6選人気スタジオの料金プランの比較',
+  description: '三宮エリアのおすすめピラティススタジオ6選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,三宮,神戸,兵庫,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -26,13 +26,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
-    features: ['花時計前駅徒歩1分', 'ピラティス専門', '男性OK', '全国相互利用'],
-    description: 'ピラティス専門の大手スタジオ。地下鉄海岸線「三宮・花時計前」4番出口から徒歩1分。グレード02でマットグループ・マシングループ・プライベートの3タイプ。全国150店舗以上で相互利用可能。',
+    features: ['花時計前駅徒歩1分', 'ピラティス専門', '男性利用可', '全国他店利用'],
+    description: 'ピラティス専門の大手スタジオです。地下鉄海岸線「三宮・花時計前」4番出口から徒歩1分です。グレード02でマットグループ・マシングループ・プライベートの3タイプです。全国150店舗以上で他店利用可能です。',
     access: '地下鉄海岸線「三宮・花時計前駅」4番出口 徒歩1分 / JR「三ノ宮駅」中央改札口 徒歩8分',
     address: '兵庫県神戸市中央区三宮町1-3-15 京町筋安田ビル4F',
     popularPlan: {
       name: 'フリープラン（マットグループ）',
-      description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。',
+      description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。',
       price: '月額 16,940円（税込）',
     },
     options: [
@@ -59,12 +59,12 @@ const studios = [
     price: '月4回 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', '神戸三宮駅徒歩3分', '部位別プログラム', 'マシン専門'],
-    description: '女性専用マシンピラティス専門スタジオ。阪急「神戸三宮駅」西口から徒歩3分、クレフィ三宮7階。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実。',
+    description: '女性専用マシンピラティス専門スタジオです。阪急「神戸三宮駅」西口から徒歩3分、クレフィ三宮7階です。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実しています。',
     access: '阪急線「神戸三宮駅」西口 徒歩3分 / 地下鉄海岸線「三宮・花時計前駅」4番出口 徒歩1分',
     address: '兵庫県神戸市中央区三宮町1-4-3 クレフィ三宮7F',
     popularPlan: {
       name: 'マンスリー4メンバー（月4回）',
-      description: '女性専用マシンピラティス月4回。部位別プログラムも選べる。',
+      description: '女性専用マシンピラティス月4回です。部位別プログラムも選べます。',
       price: '月4回 13,420円（税込）',
     },
     options: [
@@ -90,12 +90,12 @@ const studios = [
     price: '1回 6,000円〜',
     trial: '体験レッスンあり',
     features: ['阪急三宮駅前', 'プライベート充実', 'マシン専門', '予約制'],
-    description: '東京・大阪・神戸で展開するピラティス専門スタジオ。阪急三宮駅前ビル7F・8F。プライベートレッスンを中心に、マシンピラティスの本格指導。完全予約制で一人ひとりに合わせたプログラム。',
+    description: '東京・大阪・神戸で展開するピラティス専門スタジオです。阪急三宮駅前ビル7F・8Fです。プライベートレッスンを中心に、マシンピラティスの本格指導です。完全予約制で一人ひとりに合わせたプログラムです。',
     access: '阪急線「神戸三宮駅」徒歩1分',
     address: '兵庫県神戸市中央区北長狭通1-4-1 HK阪急三宮駅前ビル7F/8F',
     popularPlan: {
       name: 'プライベートレッスン',
-      description: 'マシンピラティスの完全プライベートレッスン。',
+      description: 'マシンピラティスの完全プライベートレッスンです。',
       price: '1回 6,000円〜（税込）',
     },
     options: [
@@ -121,12 +121,12 @@ const studios = [
     price: '要問い合わせ',
     trial: '体験 2,200円（60分×2回）',
     features: ['三ノ宮駅徒歩2分', '国家資格保有者', '医療ベース', '定休日なし'],
-    description: '医療に基づいたピラティス・ダイエットスタジオ。三ノ宮駅から徒歩2分。スタッフ全員が理学療法士や作業療法士などの国家資格保有者。身体の不調がある方にも安心の指導。',
+    description: '医療に基づいたピラティス・ダイエットスタジオです。三ノ宮駅から徒歩2分です。スタッフ全員が理学療法士や作業療法士などの国家資格保有者です。身体の不調がある方にも安心の指導です。',
     access: 'JR「三ノ宮駅」徒歩2分 / 各線「三宮駅」徒歩2分',
     address: '兵庫県神戸市中央区布引町4-2-12 ネオフィス三宮3F',
     popularPlan: {
       name: '通常レッスン',
-      description: '医療資格を持つインストラクターによる60分レッスン。',
+      description: '医療資格を持つインストラクターによる60分レッスンです。',
       price: '詳細は公式サイトでご確認ください',
     },
     options: [
@@ -153,7 +153,7 @@ const studios = [
     price: '月4回(45分) 29,700円〜 / 月4回(60分) 39,600円〜',
     trial: '体験トレーニング 7,100円（無料キャンペーン実施店舗あり）',
     features: ['マンツーマン（パーソナル）', 'マシン・マット両対応', '医師推奨パーソナルジムNo.1受賞'],
-    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオ。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せる。三宮エリア（詳細は公式サイト参照）。',
+    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオです。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せます。三宮エリアです（詳細は公式サイト参照）。',
     access: '三宮エリア（詳細は公式サイト参照）',
     address: '兵庫県（詳細は公式サイト参照）',
   },
@@ -162,14 +162,14 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=J11817X.1.B1620582.U1357808',
     image: '/images/studios/247-pilates.webp',
     price: '月2回 14,500円〜 / 月4回 27,000円〜（税込）',
-    trial: '体験レッスン 無料（説明含め約60分・手ぶらOK）',
+    trial: '体験レッスン 無料（説明含め約60分・手ぶらで参加可能）',
     features: ['マシンピラティス', '女性専用', '完全個室パーソナル', '入会金不要・月謝制'],
-    description: '完全個室・マンツーマンの女性専用パーソナルピラティススタジオ。入会金不要の月謝制で、一人ひとりに合わせたオリジナルプログラムを提供。JR三ノ宮駅から徒歩6分。※一部のご案内やサポート対応は、男性スタッフが行う場合がございます。※24/7Workout併設店舗のため、パーソナルトレーニングの男性会員様がご来店される場合もございます。',
+    description: '完全個室・マンツーマンの女性専用パーソナルピラティススタジオです。入会金不要の月謝制で、一人ひとりに合わせたオリジナルプログラムを提供しています。JR三ノ宮駅から徒歩6分です。※一部のご案内やサポート対応は、男性スタッフが行う場合がございます。※24/7Workout併設店舗のため、パーソナルトレーニングの男性会員様がご来店される場合もございます。',
     access: 'JR三ノ宮駅から徒歩6分',
     address: '兵庫県神戸市中央区八幡通4丁目2-14 トロア神戸ビル6F',
     popularPlan: {
       name: '月4回プラン',
-      description: '完全個室でマシンを使ったマンツーマン指導。入会金不要の月謝制。',
+      description: '完全個室でマシンを使ったマンツーマン指導しています。入会金不要の月謝制です。',
       price: '月4回 27,000円〜（税込）',
     },
     options: [
@@ -191,31 +191,31 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！三宮エリアのスタジオはほとんどが初心者歓迎。ピラティスKは音楽に合わせた楽しいレッスン、Skywalkは国家資格保有者の丁寧な指導で初心者でも安心。',
+    answer: '問題ありません。三宮エリアのスタジオはほとんどが初心者歓迎です。ピラティスKは音楽に合わせた楽しいレッスン、Skywalkは国家資格保有者の丁寧な指導で初心者でも安心です。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。三宮はマシン専門スタジオが特に充実。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。三宮はマシン専門スタジオが特に充実しています。',
   },
   {
     question: '三宮のピラティスの料金相場は？',
-    answer: 'グループ月4回で10,450円〜13,420円程度。zen placeが月4回10,450円〜で最もリーズナブル。ピラティスKは月4回13,420円〜。',
+    answer: 'グループ月4回で10,450円〜13,420円程度です。zen placeが月4回10,450円〜で最もリーズナブルです。ピラティスKは月4回13,420円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。大切なのは継続すること。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。大切なのは継続することです。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。ピラティスKは0円で体験可能。Skywalkは2,200円で60分×2回の体験が受けられます。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。ピラティスKは0円で体験可能です。Skywalkは2,200円で60分×2回の体験が受けられます。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹強化・姿勢改善に特化。ヨガは柔軟性とリラックス重視。zen placeはヨガスタジオも運営しており、両方楽しめます。',
+    answer: 'ピラティスは体幹強化・姿勢改善に特化しています。ヨガは柔軟性とリラックス重視です。zen placeはヨガスタジオも運営しており、両方楽しめます。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
@@ -223,11 +223,11 @@ const faqs = [
   },
   {
     question: '無料で体験できるスタジオは？',
-    answer: 'ピラティスKは0円で体験可能。zen placeはグループ体験1,000円〜。Skywalkは2,200円で60分×2回。',
+    answer: 'ピラティスKは0円で体験可能です。zen placeはグループ体験1,000円〜です。Skywalkは2,200円で60分×2回です。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -248,8 +248,8 @@ export default function SannomiyaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス三宮おすすめ6選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス三宮おすすめ6選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -272,29 +272,11 @@ export default function SannomiyaPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「三宮で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、三宮エリアでおすすめのピラティススタジオ6選をまとめました。
+              本ページでは、三宮エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -319,7 +301,7 @@ export default function SannomiyaPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -387,25 +369,25 @@ export default function SannomiyaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">地下鉄海岸線「三宮・花時計前駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  三宮エリアのスタジオは三宮・花時計前駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。三宮・花時計前駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  三宮エリアのスタジオは三宮・花時計前駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。三宮・花時計前駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">三宮エリアの人気時間帯を把握して予約を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  三宮エリアでは平日夕方以降と土日午前中が予約の集中する時間帯です。特にマシンピラティスは定員が少ないため、希望の日時があれば早めの予約がおすすめ。スタジオによってはキャンセル待ち機能やLINE通知で空き枠をお知らせしてくれるところもあります。
+                  三宮エリアでは平日夕方以降と土日午前中が予約の集中する時間帯です。特にマシンピラティスは定員が少ないため、希望の日時があれば早めの予約がおすすめです。スタジオによってはキャンセル待ち機能やLINE通知で空き枠をお知らせしてくれるところもあります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">料金プランの種類と契約条件をしっかり比較</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  三宮エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかを確認しましょう。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため要チェックです。
+                  三宮エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかをご確認ください。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため、事前にご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  三宮エリアだけでなく、近隣の<Link href="/area/kobe/" className="text-warm-700 underline hover:text-warm-900">神戸</Link>、<Link href="/area/nishinomiya/" className="text-warm-700 underline hover:text-warm-900">西宮</Link>、<Link href="/area/umeda/" className="text-warm-700 underline hover:text-warm-900">梅田</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  三宮エリアだけでなく、近隣の<Link href="/area/kobe/" className="text-warm-700 underline hover:text-warm-900">神戸</Link>、<Link href="/area/nishinomiya/" className="text-warm-700 underline hover:text-warm-900">西宮</Link>、<Link href="/area/umeda/" className="text-warm-700 underline hover:text-warm-900">梅田</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -423,25 +405,25 @@ export default function SannomiyaPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>三宮エリアの豆知識：</strong>三宮は地元の方に愛されるスタジオが中心です。車で通う場合は駐車場の有無を事前に確認。電車の場合は駅からの距離だけでなく、帰りの電車の時刻も確認しておくとスムーズです。
+                  <strong>三宮エリアの豆知識：</strong>三宮は地元の方に愛されるスタジオが中心です。車で通う場合は駐車場の有無を事前にご確認ください。電車の場合は駅からの距離だけでなく、帰りの電車の時刻も確認しておくとスムーズです。
                 </p>
               </div>
             </div>
@@ -459,7 +441,7 @@ export default function SannomiyaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額2万円未満で通えるスタジオ（店舗カードの料金）。
+                  月額2万円未満で通えるスタジオです（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates 三宮スタジオ（月4回 10,450円〜）</li>
@@ -470,7 +452,7 @@ export default function SannomiyaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性だけの安心空間。
+                  女性だけの安心空間です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK 神戸三宮店</li>
@@ -480,7 +462,7 @@ export default function SannomiyaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  駅から徒歩2分以内。
+                  駅から徒歩2分以内です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates 三宮スタジオ（地下鉄海岸線「三宮・花時計前駅」4番出口 徒歩1分）</li>
@@ -501,15 +483,15 @@ export default function SannomiyaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回からスタート。最低2-3ヶ月継続で効果を実感。
+                週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回がおすすめ。3-6ヶ月で目に見える変化。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。
+                週1回のペースで無理なく継続することをおすすめします。
               </p>
             </div>
           </div>
@@ -526,7 +508,7 @@ export default function SannomiyaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜13,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月3〜4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。
+                  グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（10,450円〜/月4回）</li>
@@ -537,7 +519,7 @@ export default function SannomiyaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜15,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン専門スタジオ。
+                  マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（13,420円〜）</li>
@@ -547,7 +529,7 @@ export default function SannomiyaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 16,000〜29,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">通い放題</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  毎日通いたい方。
+                  毎日通いたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（16,170円/通い放題）</li>
@@ -579,7 +561,7 @@ export default function SannomiyaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  三宮の料金相場はグループ月4回で10,450円〜15,070円。入会金やキャンペーンも確認しましょう。
+                  三宮の料金相場はグループ月4回で10,450円〜15,070円です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -588,7 +570,7 @@ export default function SannomiyaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  体験料金は、zen place pilates 三宮スタジオが「グループ体験 1,000円」、ピラティスK 神戸三宮店が「体験レッスン 0円」、Skywalk（スカイウォーク）三宮が「体験 2,200円（60分×2回）」、Dr.ピラティス 神戸三宮店が「体験トレーニング 7,100円（無料キャンペーン実施店舗あり）」です（店舗カードの記載）。最新の条件は各公式サイトで確認しましょう。
+                  体験料金は、zen place pilates 三宮スタジオが「グループ体験 1,000円」、ピラティスK 神戸三宮店が「体験レッスン 0円」、Skywalk（スカイウォーク）三宮が「体験 2,200円（60分×2回）」、Dr.ピラティス 神戸三宮店が「体験トレーニング 7,100円（無料キャンペーン実施店舗あり）」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -597,7 +579,7 @@ export default function SannomiyaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  三宮の掲載スタジオでは、zen place pilates 三宮スタジオ（地下鉄海岸線「三宮・花時計前駅」4番出口 徒歩1分）、ピラティスK 神戸三宮店（地下鉄海岸線「三宮・花時計前駅」4番出口 徒歩1分）、STUDIO TOU 神戸三宮（阪急線「神戸三宮駅」徒歩1分）が駅から近いスタジオです。通う時間帯の経路も確認しておきましょう。
+                  三宮の掲載スタジオでは、zen place pilates 三宮スタジオ（地下鉄海岸線「三宮・花時計前駅」4番出口 徒歩1分）、ピラティスK 神戸三宮店（地下鉄海岸線「三宮・花時計前駅」4番出口 徒歩1分）、STUDIO TOU 神戸三宮（阪急線「神戸三宮駅」徒歩1分）が駅から近いスタジオです。通う時間帯の経路もご確認ください。
                 </p>
               </div>
             </div>
@@ -640,13 +622,13 @@ export default function SannomiyaPage() {
               今回は三宮エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では三宮にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、三宮にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -655,11 +637,11 @@ export default function SannomiyaPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,850円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜3,850円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

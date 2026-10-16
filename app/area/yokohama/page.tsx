@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/yokohama/' },
-  title: '【2026年10月最新】ピラティス横浜おすすめ10選！人気スタジオの料金プランを簡単比較！',
-  description: '【2026年4月最新】横浜のおすすめピラティススタジオ10選を徹底比較。グループ月4回9,625円〜の料金相場、駅近・女性専用・パーソナル対応のスタジオ情報、体験レッスンの持ち物まで完全網羅。',
+  title: '【2026年10月最新】ピラティス横浜おすすめ10選人気スタジオの料金プランの比較',
+  description: '【2026年4月最新】横浜のおすすめピラティススタジオ10選を比較しています。グループ月4回9,625円〜の料金相場、駅近・女性専用・パーソナル対応のスタジオ情報、体験レッスンの持ち物まで完全網羅しています。',
   keywords: 'ピラティス,横浜,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -26,13 +26,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 9,625円〜',
     trial: '体験レッスンあり（当日入会で入会金無料）',
-    features: ['マシン完備', '男性OK', '横浜駅徒歩4分', '全国相互利用可'],
-    description: '全国150以上のスタジオを展開する大手ピラティススタジオ。横浜駅西口から徒歩4分の好立地。マットグループ・リフォーマーグループ・プライベートレッスンと豊富なレッスン形式から選べます。Balanced Body製マシンを完備し、経験豊富なインストラクターが一人ひとりに合わせた丁寧な指導を提供。男性も受講可能です。',
+    features: ['マシン完備', '男性利用可', '横浜駅徒歩4分', '全国他店利用可'],
+    description: '全国150以上のスタジオを展開する大手ピラティススタジオです。横浜駅西口から徒歩4分の好立地です。マットグループ・リフォーマーグループ・プライベートレッスンと豊富なレッスン形式から選べます。Balanced Body製マシンを完備し、経験豊富なエデュケーターが一人ひとりに合わせた丁寧な指導を提供しています。男性も受講可能です。',
     access: '横浜市営地下鉄「横浜駅」9番出口 徒歩2分 / JR横浜駅西口 徒歩4分',
     address: '神奈川県横浜市西区北幸2-1-22 永岡ビル 2階',
     popularPlan: {
       name: 'マットグループ月4回',
-      description: 'マットピラティスのグループレッスン。初心者から経験者まで対応。全国のzen placeスタジオで相互利用可能。',
+      description: 'マットピラティスのグループレッスンです。初心者から経験者まで対応しています。全国のzen placeスタジオで他店利用可能です。',
       price: '月4回 9,625円（税込）',
     },
     options: [
@@ -59,12 +59,12 @@ const studios = [
     price: '月4回 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', 'マシン専門', '横浜駅徒歩2分', '音楽レッスン'],
-    description: '女性専用のマシンピラティス専門スタジオ。横浜駅西口から徒歩2分、ジョイナス地下街直結で雨の日も便利なアクセス。音楽に合わせたグループレッスンが特徴で、お腹・お尻・二の腕・脚・背中の部位に特化したボディメイクプログラムが17種類と充実。カジュアルかつスタイリッシュな店内で楽しくピラティスを続けられます。',
+    description: '女性専用のマシンピラティス専門スタジオです。横浜駅西口から徒歩2分、ジョイナス地下街直結で雨の日も便利なアクセスです。音楽に合わせたグループレッスンが特徴で、お腹・お尻・二の腕・脚・背中の部位に特化したボディメイクプログラムが17種類と充実しています。カジュアルかつスタイリッシュな店内で楽しくピラティスを続けられます。',
     access: '横浜駅西口 徒歩2分（ジョイナス地下街直結）',
     address: '神奈川県横浜市西区北幸1丁目1-8 エキニア横浜 5F',
     popularPlan: {
       name: 'マンスリー4メンバー（月4回）',
-      description: '平日・土日祝いつでも受講可能。お好きな時間で受講できる人気プラン。',
+      description: '平日・土日祝いつでも受講可能です。お好きな時間で受講できる人気プランです。',
       price: '月4回 13,420円（税込）+ 施設維持費825円',
     },
     options: [
@@ -90,12 +90,12 @@ const studios = [
     price: '1回 要問合せ（完全パーソナル）',
     trial: '体験レッスン 平日3,000円 / 土日祝5,000円',
     features: ['理学療法士監修', '完全マンツーマン', '横浜駅徒歩5分', '本格マシン完備'],
-    description: '理学療法士監修の完全マンツーマンプライベートピラティススタジオ。横浜駅から徒歩5分。「鍛える」ではなく「整える」ピラティスをテーマに、リフォーマー・キャデラック・チェアなど本格マシンを完備。20代から60代以上まで幅広い年齢層に対応し、身体の不調改善や姿勢矯正に特化した指導を提供します。体験当日入会で入会金22,000円が無料。',
+    description: '理学療法士監修の完全マンツーマンプライベートピラティススタジオです。横浜駅から徒歩5分です。「鍛える」ではなく「整える」ピラティスをテーマに、リフォーマー・キャデラック・チェアなど本格マシンを完備しています。20代から60代以上まで幅広い年齢層に対応し、身体の不調改善や姿勢矯正に特化した指導を提供します。体験当日入会で入会金22,000円が無料です。',
     access: '横浜駅 徒歩5分 / 神奈川駅 徒歩5分',
     address: '神奈川県横浜市神奈川区鶴屋町3丁目28-3 松原ダイヤモンドマンション 202号室',
     popularPlan: {
       name: '完全パーソナルレッスン',
-      description: '理学療法士監修のマンツーマン指導。一人ひとりの身体に合わせたオーダーメイドプログラム。',
+      description: '理学療法士監修のマンツーマン指導です。一人ひとりの身体に合わせたオーダーメイドプログラムです。',
       price: '要問合せ（体験当日入会で入会金22,000円無料）',
     },
     options: [
@@ -120,14 +120,14 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
     price: '月3回 13,280円〜',
-    trial: '体験レッスン 0円（50分・手ぶらOK）',
+    trial: '体験レッスン 0円（50分・手ぶらで参加可能）',
     features: ['女性専用', 'マシン専門', '横浜駅徒歩3分', 'おしゃれ空間'],
-    description: '女性専用マシンピラティス専門スタジオ。JR横浜駅西口から徒歩3分、横浜市営ブルーライン9番出口すぐの好立地。自然光が入る開放的でおしゃれなスタジオデザインが特徴。プロフェッショナルグレードのリフォーマーマシンを使用し、音楽に合わせた50分のグループレッスンで楽しくボディメイク。レンタル・ヘアスタイリングツール完備で手ぶらで通えます。',
+    description: '女性専用マシンピラティス専門スタジオです。JR横浜駅西口から徒歩3分、横浜市営ブルーライン9番出口すぐの好立地です。自然光が入る開放的でおしゃれなスタジオデザインが特徴です。プロフェッショナルグレードのリフォーマーマシンを使用し、音楽に合わせた50分のグループレッスンで楽しくボディメイクを目指せます。レンタル・ヘアスタイリングツール完備で手ぶらで通えます。',
     access: 'JR横浜駅西口 徒歩3分 / 横浜市営ブルーライン9番出口すぐ',
     address: '神奈川県横浜市西区北幸1丁目7-6 日土地横浜西口第一ビル 2階',
     popularPlan: {
       name: 'Standard4（月4回）',
-      description: '月4回の標準プラン。プロフェッショナルグレードのリフォーマーで本格レッスン。',
+      description: '月4回の標準プランです。プロフェッショナルグレードのリフォーマーで本格レッスンです。',
       price: '月4回 15,280円（税込）+ 施設利用料700円',
     },
     options: [
@@ -153,13 +153,13 @@ const studios = [
     image: '/images/studios/club-pilates.webp',
     price: '月4回 13,090円／月8回 24,090円／通い放題 37,290円（公式店舗ページ・税表記なし）',
     trial: '体験レッスン 無料（30分イントロクラス）',
-    features: ['世界最大級', '15種類の器具', '横浜駅徒歩5分', '男性OK'],
-    description: '世界最大級のマシンピラティスブランド。横浜駅きた西口から徒歩5分。最大12名の少人数制グループレッスンで、リフォーマー・スプリングボード・TRX・チェア・Bosuなど15種類のマシン・器具を1人1台完備。資格保持インストラクターのみ在籍し、初級から上級まで多様なクラスを提供。男性も受講可能です。',
+    features: ['世界最大級', '15種類の器具', '横浜駅徒歩5分', '男性利用可'],
+    description: '世界最大級のマシンピラティスブランドです。横浜駅きた西口から徒歩5分です。最大12名の少人数制グループレッスンで、リフォーマー・スプリングボード・TRX・チェア・Bosuなど15種類のマシン・器具を1人1台完備しています。資格保持インストラクターのみ在籍し、初級から上級まで多様なクラスを提供しています。男性も受講可能です。',
     access: '横浜駅きた西口 徒歩5分',
     address: '神奈川県横浜市神奈川区鶴屋町1-8-1 ALPS横浜ビル 2F',
     popularPlan: {
       name: '月4回プラン',
-      description: '15種類の器具を使った本格グループレッスン。初級〜上級まで多彩なクラスから選択可能。',
+      description: '15種類の器具を使った本格グループレッスンです。初級〜上級まで多彩なクラスから選択可能です。',
       price: '月4回 13,090円（税表記なし）',
     },
     options: ['月8回 24,090円', '通い放題 37,290円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
@@ -180,12 +180,12 @@ const studios = [
     price: '月4回 10,560円〜',
     trial: '体験レッスン 500円',
     features: ['少人数制', 'ホットヨガ併設', '横浜駅徒歩5分', 'SPA利用可'],
-    description: '少人数制マシンピラティスとホットヨガの複合スタジオ。横浜駅きた東口から徒歩5分、横浜ベイクォーターから徒歩2分。ピラティスとホットヨガの組み合わせプランが特徴で、SPA施設利用込み。マンツーマンのライフスタイルカウンセリング付きで、運動だけでなく生活全体をサポート。タオル・ウェアレンタル・水素水サービス込みで手ぶらで通えます。',
+    description: '少人数制マシンピラティスとホットヨガの複合スタジオです。横浜駅きた東口から徒歩5分、横浜ベイクォーターから徒歩2分です。ピラティスとホットヨガの組み合わせプランが特徴で、SPA施設利用込みです。マンツーマンのライフスタイルカウンセリング付きで、運動だけでなく生活全体をサポートしています。タオル・ウェアレンタル・水素水サービス込みで手ぶらで通えます。',
     access: '横浜駅きた東口 徒歩5分 / 横浜ベイクォーター 徒歩2分',
     address: '神奈川県横浜市神奈川区栄町5-1 横浜ポートサイドレイナ 1F',
     popularPlan: {
       name: 'ピラティス&SPA 月4回',
-      description: '少人数制マシンピラティス月4回+SPA施設利用。タオル・水素水サービス込み。',
+      description: '少人数制マシンピラティス月4回+SPA施設利用です。タオル・水素水サービス込みです。',
       price: '月4回 10,560円（税込）',
     },
     options: [
@@ -212,12 +212,12 @@ const studios = [
     price: '1回 6,600円〜（40分）',
     trial: '体験レッスン 無料（20分+カウンセリング）',
     features: ['女性専用', '完全個室', 'ハイブリッド型', '入会金無料'],
-    description: '女性専用・完全個室のパーソナルジム。JR横浜駅北西口から徒歩5分。マシンピラティスとウェイトトレーニングを組み合わせた「ハイブリッド型」で、効率的なボディメイクを実現。朝7時から夜23時まで営業で、忙しい方にも最適。レンタルウェア・シューズ無料、入会金無料で始めやすい。ダイエットコースではLINEでの栄養指導も提供。',
+    description: '女性専用・完全個室のパーソナルジムです。JR横浜駅北西口から徒歩5分です。マシンピラティスとウェイトトレーニングを組み合わせた「ハイブリッド型」で、効率的なボディメイクを実現しています。朝7時から夜23時まで営業で、忙しい方にも最適です。レンタルウェア・シューズ無料、入会金無料で始めやすいです。ダイエットコースではLINEでの栄養指導も提供しています。',
     access: 'JR横浜駅 北西口 徒歩5分 / 西口 徒歩6分',
     address: '神奈川県横浜市神奈川区鶴屋町3丁目29-9 タクエー横浜西口第六ビル 8F Bフロア',
     popularPlan: {
       name: '60分セッション',
-      description: 'マシンピラティス×ウェイトのハイブリッドパーソナルトレーニング。完全個室で集中。',
+      description: 'マシンピラティス×ウェイトのハイブリッドパーソナルトレーニングです。完全個室で集中しています。',
       price: '1回 9,900円（税込）',
     },
     options: [
@@ -244,7 +244,7 @@ const studios = [
     price: '月4回(45分) 29,700円〜 / 月4回(60分) 39,600円〜',
     trial: '体験トレーニング 7,100円（無料キャンペーン実施店舗あり）',
     features: ['マンツーマン（パーソナル）', 'マシン・マット両対応', '医師推奨パーソナルジムNo.1受賞'],
-    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオ。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せる。横浜エリア（詳細は公式サイト参照）。',
+    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオです。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せます。横浜エリアです（詳細は公式サイト参照）。',
     access: '横浜エリア（詳細は公式サイト参照）',
     address: '神奈川県（詳細は公式サイト参照）',
   },
@@ -255,7 +255,7 @@ const studios = [
     price: 'グループ月4回(Standard4) 14,370〜15,280円 / 通い放題 19,980〜22,280円（別途施設利用料月700円）/ パーソナル月2回 22,000円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'マシンピラティス専門', 'グループ＋パーソナル'],
-    description: '女性専用のマシンピラティス専門スタジオ。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴。横浜駅から徒歩3分（情報引用元: the SILK公式サイト the-silk.co.jp）。',
+    description: '女性専用のマシンピラティス専門スタジオです。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴です。横浜駅から徒歩3分です（情報引用元: the SILK公式サイト the-silk.co.jp）。',
     access: '横浜駅から徒歩3分',
     address: '神奈川県横浜市西区北幸1-2-13 横浜西共同ビル6階',
   },
@@ -267,7 +267,7 @@ const studios = [
     priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
     trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。横浜駅から徒歩5分。',
+    description: '女性専用のマシンピラティス専門スタジオです。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴です。横浜駅から徒歩5分です。',
     access: '横浜駅 徒歩5分',
     address: '〒221-0834 神奈川県横浜市神奈川区台町9-13 ルックハイツ横浜台町 502',
     userProfile: {
@@ -287,43 +287,43 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！横浜エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。経験豊富なインストラクターが基礎から丁寧に指導してくれるので、運動が苦手な方でも安心して始められますよ。',
+    answer: '問題ありません。横浜エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。インストラクターが基礎から指導するため、運動が苦手な方でも始めやすい環境です。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。マットは場所を選ばず自宅でも続けやすいのが特徴です。',
+    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷を調整しやすく、初心者におすすめです。マットは場所を選ばず、自宅でも続けやすい点が特徴です。',
   },
   {
     question: '横浜のピラティススタジオの料金相場は？',
-    answer: '横浜エリアのピラティススタジオの料金相場は、グループレッスン月4回で9,600円〜15,300円程度。体験レッスンは無料〜3,000円が一般的です。プライベートレッスンは1回6,600円〜が相場となっています。',
+    answer: '横浜エリアのピラティススタジオの料金相場は、グループレッスン月4回で9,600円〜15,300円程度です。体験レッスンは無料〜3,000円が一般的です。プライベートレッスンは1回6,600円〜が相場となっています。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: 'ピラティス初心者は週1-2回（月4-8回）がおすすめ。慣れてきたら週2-3回に増やすと効果を実感しやすくなります。大切なのは継続すること。無理のないペースで長く続けることが、理想の身体を手に入れる近道です。',
+    answer: 'ピラティス初心者は週1〜2回（月4〜8回）がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。大切なのは継続することです。無理のないペースで長く続けることが、目標達成への近道です。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、ピラティスはダイエット効果があります。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に。ただし即効性はないので、最低でも2-3ヶ月は継続することが大切。食事管理も並行するとより効果的です。',
+    answer: 'ピラティスにはダイエット効果が期待できます。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。ただし即効性はないので、最低でも2〜3ヶ月は継続することが大切です。食事管理を並行すると、より効果的です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。マットやタオルはスタジオでレンタルできることが多いです。the SILKやlafimo横浜東口店などは手ぶらOKの体験レッスンも実施しています。',
+    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルはスタジオでレンタルできることが多いです。the SILKやlafimo横浜東口店などは手ぶらで参加可能の体験レッスンも実施しています。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。ピラティスは筋力強化、ヨガは心身のバランスを整えることが主な目的。どちらも素晴らしいエクササイズなので、目的に合わせて選びましょう。',
+    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズです。ヨガは柔軟性と精神的なリラックスを重視します。ピラティスは筋力強化、ヨガは心身のバランスを整えることが主な目的です。目的に合わせてお選びください。',
   },
   {
     question: 'ピラティスで肩こりや腰痛は改善しますか？',
-    answer: 'はい、改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。特にルルト横浜店は理学療法士監修で、身体の不調改善に特化した指導を提供しています。',
+    answer: '改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。特にルルト横浜店は理学療法士監修で、身体の不調改善に特化した指導を提供しています。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: 'ピラティスで効果が表れだすのは「2ヶ月を過ぎた頃」から。これは人間の細胞が生まれ変わるサイクルがそのくらいだからです。すぐに変化が表れなくても心配せず、最低でも2ヶ月は継続するのがおすすめです。',
+    answer: 'ピラティスの効果を実感し始めるのは、2ヶ月を過ぎた頃が目安とされています。すぐに変化が表れなくても、最低2ヶ月は継続することをおすすめします。',
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'それぞれ良さがあります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方におすすめ。グループは料金が安く、仲間と楽しく続けられるのが魅力。まずは体験で両方試してみるのがいいですよ。',
+    answer: 'それぞれに利点があります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方におすすめです。グループは料金を抑えやすく、ほかの参加者と一緒に続けられる点が利点です。まずは体験レッスンで両方を試すことをおすすめします。',
   },
 ]
 
@@ -344,8 +344,8 @@ export default function YokohamaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス横浜おすすめ10選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス横浜おすすめ10選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -368,29 +368,11 @@ export default function YokohamaPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「横浜で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、横浜エリアでおすすめのピラティススタジオ10選をまとめました。
+              本ページでは、横浜エリアでおすすめのピラティススタジオ10選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -415,7 +397,7 @@ export default function YokohamaPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -446,7 +428,7 @@ export default function YokohamaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額10,000円台で通える格安スタジオ。体験レッスン無料のスタジオも多数。コスパ重視の方におすすめ。
+                  月額10,000円台で通える格安スタジオです。体験レッスン無料のスタジオも多数あります。費用を抑えたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
@@ -457,7 +439,7 @@ export default function YokohamaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">マシン完備</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  最新のリフォーマーマシンを完備。マシンピラティスを本格的に学びたい方におすすめ。
+                  最新のリフォーマーマシンを完備しています。マシンピラティスを本格的に学びたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• CLUB PILATES（15種類の器具完備）</li>
@@ -468,7 +450,7 @@ export default function YokohamaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  横浜駅から徒歩5分以内。JR・東急・相鉄・市営地下鉄が利用可能で通いやすい。
+                  横浜駅から徒歩5分以内です。JR・東急・相鉄・市営地下鉄が利用可能で通いやすいです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK（駅徒歩2分・地下街直結）</li>
@@ -489,15 +471,15 @@ export default function YokohamaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回（月4-8回）からスタートするのがおすすめ。まずは身体を慣らすことが大切です。継続期間は最低でも2-3ヶ月。この期間で効果を実感できる方が多いですよ。
+                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感できる方が多いです。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回（月8-12回）がおすすめ。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3-6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。
+                週2〜3回（月8〜12回）がおすすめです。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3〜6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理が目的の方</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回（月4回）のペースで継続するのがおすすめ。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切。自分のペースで楽しく通えるのが一番ですよ。
+                週1回（月4回）のペースで継続するのがおすすめです。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切です。無理のないペースで通うことが大切です。
               </p>
             </div>
           </div>
@@ -514,7 +496,7 @@ export default function YokohamaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜12,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。マットピラティスやSPA付きプランなど。
+                  グループレッスンが中心です。マットピラティスやSPA付きプランなどです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates（9,625円〜）</li>
@@ -526,7 +508,7 @@ export default function YokohamaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜16,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン完備の大手スタジオ。グループレッスンが充実。
+                  マシン完備の大手スタジオです。グループレッスンが充実しています。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• CLUB PILATES（月4回 13,090円）</li>
@@ -538,7 +520,7 @@ export default function YokohamaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 30,000円〜</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  完全プライベートレッスン。短期集中で結果を出したい方向け。
+                  完全プライベートレッスンです。短期集中で成果を目指したい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ルルト（完全マンツーマン）</li>
@@ -561,7 +543,7 @@ export default function YokohamaPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  まずは自分がピラティスで何を達成したいのかを明確にしましょう。ダイエット、姿勢改善、体幹強化、リラックスなど、目的によって最適なスタジオやプログラムは変わります。目的が明確だとスタジオ選びもスムーズになりますよ。
+                  まずは自分がピラティスで何を達成したいのかを明確にすることをおすすめします。ダイエット、姿勢改善、体幹強化、リラックスなど、目的によって最適なスタジオやプログラムは変わります。目的を明確にしておくと、スタジオを選びやすくなります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -570,7 +552,7 @@ export default function YokohamaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  横浜エリアの料金相場は月4回で9,600円〜15,300円程度。無理なく継続できる予算を決めましょう。料金だけでなく、入会金、マット・ウェアのレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  横浜エリアの料金相場は月4回で9,600円〜15,300円程度です。無理なく継続できる予算を決めることをおすすめします。料金だけでなく、入会金やマット・ウェアのレンタル料などもご確認ください。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -579,7 +561,7 @@ export default function YokohamaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。ピラティスK・the SILK・CLUB PILATESなど無料体験を実施しているスタジオも多いので、気軽に試してみてくださいね。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。ピラティスK・the SILK・CLUB PILATESなど無料体験を実施しているスタジオも多いので、体験レッスンをご利用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -588,7 +570,7 @@ export default function YokohamaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  どんなに良いスタジオでも、通いにくい場所にあると続きません。横浜はJR・東急・相鉄・市営地下鉄が乗り入れ、複数路線が利用できます。今回紹介したスタジオはすべて横浜駅から徒歩10分以内。ピラティスKは地下街直結で雨の日も便利ですよ。
+                  通いにくい場所にあるスタジオは、継続が難しくなります。横浜はJR・東急・相鉄・市営地下鉄が乗り入れ、複数路線が利用できます。今回紹介したスタジオはすべて横浜駅から徒歩10分以内です。ピラティスKは地下街直結で雨の日も便利です。
                 </p>
               </div>
             </div>
@@ -603,23 +585,23 @@ export default function YokohamaPage() {
             </h2>
             <div className="bg-warm-50 rounded-lg p-8 border border-warm-200 mb-8">
               <p className="text-warm-600 leading-relaxed mb-6">
-                横浜は東京都外では最大級のピラティス激戦区。横浜駅西口・東口を中心に大手チェーンが揃い、みなとみらい線沿線にもスタジオが増えています。都内に比べて若干リーズナブルな傾向があり、コスパの良いスタジオが見つかりやすいエリアです。
+                横浜は東京都外では最大級のピラティススタジオが多いエリアです。横浜駅西口・東口を中心に大手チェーンが揃い、みなとみらい線沿線にもスタジオが増えています。都内に比べて若干リーズナブルな傾向があり、料金を抑えられるスタジオが見つかりやすいエリアです。
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
                   <p className="text-3xl font-bold text-warm-800 mb-2">9,625円〜15,300円</p>
-                  <p className="text-sm text-warm-600">zen place pilatesのマット月4回9,625円〜が最安。lafimoは月4回10,560円〜でSPA付き。CLUB PILATESは月4回 13,090円、ピラティスKは月4回13,420円〜。the SILKは月4回15,280円〜＋施設利用料700円。</p>
+                  <p className="text-sm text-warm-600">zen place pilatesのマット月4回9,625円〜が最安です。lafimoは月4回10,560円〜でSPA付きです。CLUB PILATESは月4回 13,090円、ピラティスKは月4回13,420円〜です。the SILKは月4回15,280円〜＋施設利用料700円です。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">パーソナルレッスン</h3>
                   <p className="text-3xl font-bold text-warm-800 mb-2">6,600円〜/回</p>
-                  <p className="text-sm text-warm-600">ピラティス&ジム 1to1は40分1回6,600円〜と横浜エリア最安クラス。ルルト横浜店は完全パーソナルで理学療法士監修のプログラム。体験当日入会で入会金が無料になるキャンペーンも。</p>
+                  <p className="text-sm text-warm-600">ピラティス&ジム 1to1は40分1回6,600円〜と横浜エリア最安クラスです。ルルト横浜店は完全パーソナルで理学療法士監修のプログラムです。体験当日入会で入会金が無料になるキャンペーンもあります。</p>
                 </div>
               </div>
               <div className="bg-white rounded-lg p-5 border border-warm-200">
                 <h3 className="font-bold text-warm-900 mb-3">入会金・体験レッスン費用</h3>
-                <p className="text-sm text-warm-600">入会金は5,000円〜22,000円程度。キャンペーン期間中は無料になることが多いです。体験レッスンは無料〜3,000円程度。ピラティスKは体験無料、zen placeは1,000円〜。横浜は駅周辺にスタジオが密集しているため、体験のはしごもしやすいエリアです。</p>
+                <p className="text-sm text-warm-600">入会金は5,000円〜22,000円程度です。キャンペーン期間中は無料になることが多いです。体験レッスンは無料〜3,000円程度です。ピラティスKは体験無料、zen placeは1,000円〜です。横浜は駅周辺にスタジオが密集しているため、体験のはしごもしやすいエリアです。</p>
               </div>
             </div>
           </div>
@@ -635,25 +617,25 @@ export default function YokohamaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">横浜駅の西口・東口・みなとみらいの使い分け</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  横浜駅はJR・東急・京急・相鉄・横浜市営地下鉄・みなとみらい線と6路線が乗り入れる神奈川最大のターミナル駅。西口（ジョイナス・高島屋方面）と東口（そごう・ベイクォーター方面）でスタジオの分布が異なります。ピラティスKは西口徒歩2分、zen placeも西口エリア。自分の利用路線に近いスタジオを選びましょう。
+                  横浜駅はJR・東急・京急・相鉄・横浜市営地下鉄・みなとみらい線と6路線が乗り入れる神奈川最大のターミナル駅です。西口（ジョイナス・高島屋方面）と東口（そごう・ベイクォーター方面）でスタジオの分布が異なります。ピラティスKは西口徒歩2分、zen placeも西口エリアです。自分の利用路線に近いスタジオをお選びください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">施設維持費・設備費に要注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  横浜エリアのスタジオはレッスン料金以外に施設維持費や設備費が月額で別途かかる場合があります。ピラティスKは月額825円、the SILKは施設利用料700円が追加。入会前にトータルの月額コストを確認しましょう。
+                  横浜エリアのスタジオはレッスン料金以外に施設維持費や設備費が月額で別途かかる場合があります。ピラティスKは月額825円、the SILKは施設利用料700円が追加です。入会前にトータルの月額コストをご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">雨の日のアクセスも考慮して</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  横浜は海に近いため天候が変わりやすい地域。地下街（ジョイナスアンダーグラウンド等）から直結でアクセスできるスタジオなら、雨の日でもストレスなく通えます。続けやすさの面でも、駅から屋根付きルートで行けるかどうかを確認しておくと安心です。
+                  横浜は海に近いため天候が変わりやすい地域です。地下街（ジョイナスアンダーグラウンド等）から直結でアクセスできるスタジオなら、雨の日でもストレスなく通えます。続けやすさの面でも、駅から屋根付きルートで行けるかどうかを確認しておくと安心です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">SPA・温浴施設付きスタジオも選択肢に</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  横浜ならではの特徴として、lafimoのようにピラティス＆SPA一体型のスタジオがあります。レッスン後にリラクゼーションできるのは横浜エリアの魅力。トータルでの満足度を考えて選ぶのもおすすめです。
+                  横浜ならではの特徴として、lafimoのようにピラティス＆SPA一体型のスタジオがあります。レッスン後にリラクゼーションできるのは横浜エリアの魅力です。トータルでの満足度を考えて選ぶのもおすすめです。
                 </p>
               </div>
             </div>
@@ -671,25 +653,25 @@ export default function YokohamaPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。伸縮性のある素材を選びましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>水分（500ml以上）</strong>：レッスン中の水分補給用。持参が安心です。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシン用タオルはスタジオで用意されることが多いです。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>グリップソックス</strong>：マシンピラティスでは必須。滑り止め付きを持参しましょう。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。伸縮性のある素材をお選びください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>水分（500ml以上）</strong>：レッスン中の水分補給用です。持参が安心です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシン用タオルはスタジオで用意されることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>グリップソックス</strong>：マシンピラティスでは必須です。滑り止め付きをご持参ください。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ストレッチ素材</strong>がマスト。ピラティスは全身の可動域を使うため、動きを制限しない服を選んでください。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フィット感のある服</strong>が理想的。インストラクターがフォームを確認しやすくなります。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>レンタルウェア対応</strong>のスタジオも。ピラティスKやthe SILKはウェアレンタルが利用できる場合があります。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ストレッチ素材</strong>がマストです。ピラティスは全身の可動域を使うため、動きを制限しない服を選んでください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フィット感のある服</strong>が理想的です。インストラクターがフォームを確認しやすくなります。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>レンタルウェア対応</strong>のスタジオもあります。ピラティスKやthe SILKはウェアレンタルが利用できる場合があります。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリーはロッカーに</strong>。指輪・ネックレス・ピアスはマシン操作の際に危険です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>横浜エリアの豆知識：</strong>横浜駅周辺のスタジオはJR・私鉄各線から徒歩圏内でアクセス抜群。レッスン後はベイエリアでの散歩やみなとみらいでのショッピングも楽しめます。lafimoはSPA付きでレッスン後のリラクゼーションまで一か所で完結。週末は横浜ならではの開放的な雰囲気でリフレッシュしましょう。
+                  <strong>横浜エリアの豆知識：</strong>横浜駅周辺のスタジオはJR・私鉄各線から徒歩圏内でアクセス抜群です。レッスン後はベイエリアでの散歩やみなとみらいでのショッピングも楽しめます。lafimoはSPA付きでレッスン後のリラクゼーションまで一か所で完結です。週末は横浜ならではの開放的な雰囲気でリフレッシュすることをおすすめします。
                 </p>
               </div>
             </div>
@@ -732,13 +714,13 @@ export default function YokohamaPage() {
               今回は横浜のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では横浜に数多くあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、横浜に数多くあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -747,11 +729,11 @@ export default function YokohamaPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,000円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜3,000円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

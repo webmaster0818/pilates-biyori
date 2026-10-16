@@ -18,7 +18,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/ebina/' },
   title: '【2026年10月最新】海老名のピラティススタジオおすすめ4選｜無料体験・料金で比較',
-  description: '海老名のピラティススタジオ4社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
+  description: '海老名のピラティススタジオ4社の料金・無料体験・マシン対応を比較しています。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
   keywords: 'ピラティス,海老名,神奈川,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -30,12 +30,12 @@ const studios = [
     price: '月4回 7,800円〜',
     trial: '体験レッスン 0円',
     features: ['海老名駅徒歩4分', '予約不要', 'サーキット形式', '30分完結'],
-    description: 'マシンピラティスとファンクショナルトレーニングを組み合わせたサーキット形式のボディメイクスタジオ。海老名駅から徒歩4分。予約不要で仕事帰りや買い物ついでに通える。30分完結で効率的。',
+    description: 'マシンピラティスとファンクショナルトレーニングを組み合わせたサーキット形式のボディメイクスタジオです。海老名駅から徒歩4分です。予約不要で仕事帰りや買い物ついでに通えます。30分完結で効率的です。',
     access: '小田急小田原線・相鉄本線「海老名駅」徒歩4分',
     address: '神奈川県海老名市中央1丁目',
     popularPlan: {
       name: 'マンスリー4（月4回）',
-      description: 'マシンピラティス＋ファンクショナルトレーニング月4回。予約不要。',
+      description: 'マシンピラティス＋ファンクショナルトレーニング月4回です。予約不要です。',
       price: '月4回 7,800円（税込）',
     },
     options: [
@@ -60,13 +60,13 @@ const studios = [
     image: '/images/studios/a-core-pilates.webp',
     price: '1回 8,800円〜',
     trial: '体験レッスンあり',
-    features: ['女性専用', '完全個室', '理学療法士', '子連れOK'],
-    description: '2025年12月オープンの女性専用・完全個室パーソナルマシンピラティススタジオ。代表は理学療法士資格を持ち、7年間で600名以上のリハビリ実績。子連れOK、マタニティ・産後ピラティスにも対応。',
+    features: ['女性専用', '完全個室', '理学療法士', '子連れ可'],
+    description: '2025年12月オープンの女性専用・完全個室パーソナルマシンピラティススタジオです。代表は理学療法士資格を持ち、7年間で600名以上のリハビリ実績です。子連れ可、マタニティ・産後ピラティスにも対応しています。',
     access: '小田急小田原線・相鉄本線「海老名駅」徒歩10分',
     address: '神奈川県海老名市中新田',
     popularPlan: {
       name: 'パーソナルレッスン',
-      description: '完全個室・マンツーマンのマシンピラティス。理学療法士指導。',
+      description: '完全個室・マンツーマンのマシンピラティスです。理学療法士指導です。',
       price: '1回 8,800円〜（税込）',
     },
     options: [
@@ -91,12 +91,12 @@ const studios = [
     price: '1回 7,700円〜',
     trial: '体験レッスンあり',
     features: ['パーソナル専門', '2026年オープン', 'マンツーマン', '新築スタジオ'],
-    description: '2026年1月オープンのパーソナルマシンピラティス専門スタジオ。「私のカラダ、思いのままに。」をコンセプトに、一人ひとりに合わせたマンツーマン指導で理想のボディメイクをサポート。',
+    description: '2026年1月オープンのパーソナルマシンピラティス専門スタジオです。「私のカラダ、思いのままに。」をコンセプトに、一人ひとりに合わせたマンツーマン指導で理想のボディメイクをサポートしています。',
     access: '小田急小田原線・相鉄本線「海老名駅」徒歩5分',
     address: '神奈川県海老名市中央1丁目',
     popularPlan: {
       name: 'パーソナルレッスン',
-      description: 'マンツーマンのマシンピラティス。目標に合わせたオーダーメイドプログラム。',
+      description: 'マンツーマンのマシンピラティスです。目標に合わせたオーダーメイドプログラムです。',
       price: '1回 7,700円〜（税込）',
     },
     options: [
@@ -121,12 +121,12 @@ const studios = [
     price: '月額 8,800円〜',
     trial: '体験あり',
     features: ['総合スポーツクラブ', 'プール・ジム併設', '少人数制', '多彩なプログラム'],
-    description: '総合スポーツクラブ。ジム・スタジオ・プールを完備。ピラティスは週1回レッスンを実施。定員15名の少人数制で初心者から上級者まで対応。多彩なプログラムから選べる。',
+    description: '総合スポーツクラブです。ジム・スタジオ・プールを完備しています。ピラティスは週1回レッスンを実施しています。定員15名の少人数制で初心者から上級者まで対応しています。多彩なプログラムから選べます。',
     access: '小田急小田原線・相鉄本線「海老名駅」徒歩7分',
     address: '神奈川県海老名市中央2丁目',
     popularPlan: {
       name: 'レギュラー会員',
-      description: '全施設・全プログラム利用可能。ピラティスレッスン含む。',
+      description: '全施設・全プログラム利用可能です。ピラティスレッスン含みます。',
       price: '月額 8,800円〜（税込）',
     },
     options: [
@@ -151,39 +151,39 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも海老名のスタジオに通えますか？',
-    answer: '大丈夫です！海老名エリアのスタジオはほとんどが初心者歓迎。URBAN CLASSIC PILATESは予約不要のサーキット形式で気軽に始められ、ルネサンスは定員15名の少人数制で丁寧な指導が受けられます。',
+    answer: '問題ありません。海老名エリアのスタジオはほとんどが初心者歓迎です。URBAN CLASSIC PILATESは予約不要のサーキット形式で気軽に始められ、ルネサンスは定員15名の少人数制で丁寧な指導が受けられます。',
   },
   {
     question: '海老名のピラティスの料金相場はどのくらいですか？',
-    answer: 'グループ月4回で7,800円〜10,450円程度。URBAN CLASSIC PILATESが月4回7,800円〜で最もリーズナブル。パーソナルはRINNEが1回7,700円〜、Mellunaが1回8,800円〜です。',
+    answer: 'グループ月4回で7,800円〜10,450円程度です。URBAN CLASSIC PILATESが月4回7,800円〜で最もリーズナブルです。パーソナルはRINNEが1回7,700円〜、Mellunaが1回8,800円〜です。',
   },
   {
     question: '海老名駅から近いスタジオはどこですか？',
-    answer: 'URBAN CLASSIC PILATES海老名店が徒歩4分。RINNEが徒歩5分。ルネサンスが徒歩7分。Mellunaは徒歩10分です。',
+    answer: 'URBAN CLASSIC PILATES海老名店が徒歩4分です。RINNEが徒歩5分です。ルネサンスが徒歩7分です。Mellunaは徒歩10分です。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'URBAN CLASSIC PILATES、RINNE、ルネサンスは男性も利用可能。Melluna Pilatesは女性専用です。',
+    answer: 'URBAN CLASSIC PILATES、RINNE、ルネサンスは男性も利用可能です。Melluna Pilatesは女性専用です。',
   },
   {
     question: '子連れで通えるスタジオはありますか？',
-    answer: 'Melluna Pilatesは子連れOKで、キッズスペース完備。マタニティ・産後ピラティスにも対応しています。代表は理学療法士なので専門的なケアが受けられます。',
+    answer: 'Melluna Pilatesは子連れ可で、キッズスペース完備です。マタニティ・産後ピラティスにも対応しています。代表は理学療法士なので専門的なケアが受けられます。',
   },
   {
     question: '予約不要で通えるスタジオはありますか？',
-    answer: 'URBAN CLASSIC PILATES海老名店は予約不要のサーキット形式。思い立った時にすぐ通えるのが魅力です。他のスタジオは基本的に事前予約が必要です。',
+    answer: 'URBAN CLASSIC PILATES海老名店は予約不要のサーキット形式です。思い立った時にすぐ通えるのが魅力です。他のスタジオは基本的に事前予約が必要です。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1〜2回がおすすめ。URBAN CLASSIC PILATESは30分完結なので、忙しい方でも週2〜3回通いやすいです。大切なのは継続すること。',
+    answer: '初心者は週1〜2回がおすすめです。URBAN CLASSIC PILATESは30分完結なので、忙しい方でも週2〜3回通いやすいです。大切なのは継続することです。',
   },
   {
     question: '産後のボディケアにピラティスは効果的ですか？',
-    answer: 'はい、産後の骨盤ケアや体型戻しにピラティスは非常に効果的。Melluna Pilatesは理学療法士が指導する産後専門プログラムがあり、子連れでも安心して通えます。',
+    answer: 'はい、産後の骨盤ケアや体型戻しにピラティスは非常に効果的です。Melluna Pilatesは理学療法士が指導する産後専門プログラムがあり、子連れでも安心して通えます。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -208,8 +208,8 @@ export default function EbinaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス海老名おすすめ4選！<br className="hidden md:block" />
-              料金・体験レッスン・マシン対応を比較！
+              ピラティス海老名おすすめ4選<br className="hidden md:block" />
+              料金・体験レッスン・マシン対応を比較
             </h1>
           </div>
         </section>
@@ -234,15 +234,9 @@ export default function EbinaPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">こんにちは。</p>
-            <p className="text-warm-600 leading-relaxed mb-6">Pilates-Biyori編集部です！</p>
-            <p className="text-warm-600 leading-relaxed mb-6">あなたは、</p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">「ピラティスを始めてみたい」</p>
-            <p className="text-warm-600 leading-relaxed mb-6">「海老名で人気のピラティススタジオを知りたい」</p>
-            <p className="text-warm-600 leading-relaxed mb-6">と思っていませんか？</p>
-            <p className="text-warm-600 leading-relaxed mb-8">そこでこの記事では、海老名エリアでおすすめのピラティススタジオ4選をまとめました。</p>
+            <p className="text-warm-600 leading-relaxed mb-8">本ページでは、海老名エリアでおすすめのピラティススタジオ4選をまとめました。</p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>海老名でピラティススタジオを探している</span></li>
                 <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみたい</span></li>
@@ -251,7 +245,7 @@ export default function EbinaPage() {
                 <li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較したい</span></li>
               </ul>
             </div>
-            <p className="text-warm-600 leading-relaxed">それではさっそく見ていきましょう！</p>
+            <p className="text-warm-600 leading-relaxed">以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。</p>
           </div>
         </section>
 
@@ -299,7 +293,7 @@ export default function EbinaPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              海老名エリアは小田急線・相鉄線・JR相模線の3路線が乗り入れるターミナル駅で、ららぽーと海老名やビナウォークなど商業施設も充実。都心部と比べて料金がリーズナブルで、URBAN CLASSIC PILATESは月4回7,800円〜と非常にコスパが高い。近隣の<Link href="/area/honatsugi/" className="text-warm-700 underline hover:text-warm-900">本厚木</Link>や<Link href="/area/sagami-ono/" className="text-warm-700 underline hover:text-warm-900">相模大野</Link>エリアのスタジオとも比較検討するのがおすすめです。
+              海老名エリアは小田急線・相鉄線・JR相模線の3路線が乗り入れるターミナル駅で、ららぽーと海老名やビナウォークなど商業施設も充実しています。都心部と比べて料金がリーズナブルで、URBAN CLASSIC PILATESは月4回7,800円〜と非常に割安です。近隣の<Link href="/area/honatsugi/" className="text-warm-700 underline hover:text-warm-900">本厚木</Link>や<Link href="/area/sagami-ono/" className="text-warm-700 underline hover:text-warm-900">相模大野</Link>エリアのスタジオとも比較検討するのがおすすめです。
             </p>
           </div>
         </section>
@@ -311,7 +305,7 @@ export default function EbinaPage() {
             <div className="space-y-6">
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">小田急線・相鉄線・JR相模線の出口を事前確認</h3>
-                <p className="text-warm-600 leading-relaxed">海老名駅は3路線が乗り入れるため、利用路線によって出口が異なります。初回訪問時は余裕を持って到着できるよう事前にルートを確認しておきましょう。特にJR相模線の海老名駅は小田急・相鉄とは別の場所にあるので注意が必要です。</p>
+                <p className="text-warm-600 leading-relaxed">海老名駅は3路線が乗り入れるため、利用路線によって出口が異なります。初回訪問時は余裕を持って到着できるよう事前にルートをご確認ください。特にJR相模線の海老名駅は小田急・相鉄とは別の場所にあるので注意が必要です。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">車通いなら駐車場の確認を</h3>
@@ -319,11 +313,11 @@ export default function EbinaPage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">新規オープンスタジオのキャンペーンを活用</h3>
-                <p className="text-warm-600 leading-relaxed">Melluna PilatesやRINNEなど、海老名エリアには新規オープンのスタジオが増えています。新規オープン時は入会金無料や体験レッスン割引などのキャンペーンを実施していることが多いので、タイミングを見逃さないようにしましょう。</p>
+                <p className="text-warm-600 leading-relaxed">Melluna PilatesやRINNEなど、海老名エリアには新規オープンのスタジオが増えています。新規オープン時は入会金無料や体験レッスン割引などのキャンペーンを実施していることが多いので、タイミングを見逃さないようにすることをおすすめします。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも視野に入れて比較検討</h3>
-                <p className="text-warm-600 leading-relaxed">海老名から<Link href="/area/sagami-ono/" className="text-warm-700 underline hover:text-warm-900">相模大野</Link>まで小田急線で約15分、<Link href="/area/honatsugi/" className="text-warm-700 underline hover:text-warm-900">本厚木</Link>まで約5分。通勤経路や生活圏に合わせて複数エリアを比較検討すると、自分に合ったスタジオが見つかりやすくなります。</p>
+                <p className="text-warm-600 leading-relaxed">海老名から<Link href="/area/sagami-ono/" className="text-warm-700 underline hover:text-warm-900">相模大野</Link>まで小田急線で約15分、<Link href="/area/honatsugi/" className="text-warm-700 underline hover:text-warm-900">本厚木</Link>まで約5分です。通勤経路や生活圏に合わせて複数エリアを比較検討すると、自分に合ったスタジオが見つかりやすくなります。</p>
               </div>
             </div>
           </div>
@@ -338,19 +332,19 @@ export default function EbinaPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方がフォーム確認に最適。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>URBAN CLASSICは30分</strong>なので軽装でサッと参加可能。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方がフォーム確認に最適です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>URBAN CLASSICは30分</strong>なので軽装でサッと参加可能です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。</span></li>
                   </ul>
                 </div>
               </div>
@@ -370,7 +364,7 @@ export default function EbinaPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
-                <p className="text-warm-600 text-sm mb-4">月額1万円以下で通えるスタジオ。</p>
+                <p className="text-warm-600 text-sm mb-4">月額1万円以下で通えるスタジオです。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• URBAN CLASSIC（月4回 7,800円〜）</li>
                   <li className="text-warm-700">• ルネサンス（月額 8,800円〜）</li>
@@ -378,15 +372,15 @@ export default function EbinaPage() {
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">産後・子連れ</h3>
-                <p className="text-warm-600 text-sm mb-4">ママに優しいスタジオ。</p>
+                <p className="text-warm-600 text-sm mb-4">ママに優しいスタジオです。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Melluna（子連れOK・理学療法士）</li>
+                  <li className="text-warm-700">• Melluna（子連れ可・理学療法士）</li>
                   <li className="text-warm-700">• RINNE（パーソナル専門）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・予約不要</h3>
-                <p className="text-warm-600 text-sm mb-4">手軽に通えるスタジオ。</p>
+                <p className="text-warm-600 text-sm mb-4">手軽に通えるスタジオです。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• URBAN CLASSIC（徒歩4分・予約不要）</li>
                   <li className="text-warm-700">• RINNE（徒歩5分）</li>
@@ -402,11 +396,11 @@ export default function EbinaPage() {
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">おすすめの期間・頻度</h2>
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
-              <p className="text-warm-600 leading-relaxed mb-6">週1〜2回からスタート。最低2〜3ヶ月継続で効果を実感。</p>
+              <p className="text-warm-600 leading-relaxed mb-6">週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。</p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
-              <p className="text-warm-600 leading-relaxed mb-6">週2〜3回がおすすめ。3〜6ヶ月で目に見える変化。</p>
+              <p className="text-warm-600 leading-relaxed mb-6">週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。</p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
-              <p className="text-warm-600 leading-relaxed">週1回のペースで無理なく継続。</p>
+              <p className="text-warm-600 leading-relaxed">週1回のペースで無理なく継続することをおすすめします。</p>
             </div>
           </div>
         </section>
@@ -419,7 +413,7 @@ export default function EbinaPage() {
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
-                <p className="text-sm text-warm-600 mb-4">グループレッスン中心。</p>
+                <p className="text-sm text-warm-600 mb-4">グループレッスンが中心です。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• URBAN CLASSIC（7,800円〜/月4回）</li>
                   <li>• ルネサンス（8,800円〜/月額）</li>
@@ -429,7 +423,7 @@ export default function EbinaPage() {
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 10,000〜17,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回〜通い放題</p>
-                <p className="text-sm text-warm-600 mb-4">本格レッスンで効果実感。</p>
+                <p className="text-sm text-warm-600 mb-4">本格レッスンで効果実感です。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• URBAN CLASSIC（14,080円/通い放題）</li>
                 </ul>
@@ -437,7 +431,7 @@ export default function EbinaPage() {
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 7,700〜9,000円/回</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">パーソナル</p>
-                <p className="text-sm text-warm-600 mb-4">マンツーマン指導で確実に効果。</p>
+                <p className="text-sm text-warm-600 mb-4">マンツーマン指導で確実に効果です。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• RINNE（7,700円〜/回）</li>
                   <li>• Melluna（8,800円〜/回）</li>
@@ -464,21 +458,21 @@ export default function EbinaPage() {
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span>
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
-                <p className="text-warm-600 leading-relaxed">海老名の料金相場はグループ月4回で7,800円〜10,450円。パーソナルは1回7,700円〜。</p>
+                <p className="text-warm-600 leading-relaxed">海老名の料金相場はグループ月4回で7,800円〜10,450円です。パーソナルは1回7,700円〜です。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4">
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span>
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
-                <p className="text-warm-600 leading-relaxed">URBAN CLASSIC PILATESは0円体験。まずは気になるスタジオで体験してみましょう。</p>
+                <p className="text-warm-600 leading-relaxed">URBAN CLASSIC PILATESは0円体験を実施しています。まずは気になるスタジオで体験してみることをおすすめします。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4">
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span>
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
-                <p className="text-warm-600 leading-relaxed">海老名は小田急線・相鉄線・JR相模線が乗り入れるターミナル駅。駅周辺にスタジオが集中しており、買い物ついでに通えるのも魅力です。</p>
+                <p className="text-warm-600 leading-relaxed">海老名は小田急線・相鉄線・JR相模線が乗り入れるターミナル駅です。駅周辺にスタジオが集中しており、買い物ついでに通えるのも魅力です。</p>
               </div>
             </div>
           </div>
@@ -511,17 +505,17 @@ export default function EbinaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
             <p className="text-warm-600 leading-relaxed mb-6">今回は海老名エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？</p>
-            <p className="text-warm-600 leading-relaxed mb-6">この記事では海老名にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。</p>
-            <p className="text-warm-600 leading-relaxed mb-6">ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。</p>
-            <p className="text-warm-700 font-medium text-center">あなたにぴったりのピラティススタジオが見つかることを願っています。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">本ページでは、海老名にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">本ページの情報を、スタジオ選びにお役立てください。</p>
+            <p className="text-warm-700 font-medium text-center">本ページが、ピラティススタジオ選びの参考になれば幸いです。</p>
           </div>
         </section>
 
         {/* CTA */}
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンを予約しよう</h2>
-            <p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスン無料〜1,000円。<br />まずは気軽に体験してみましょう。</p>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンのご予約</h2>
+            <p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスン無料〜1,000円です。<br />まずは体験レッスンへの参加をおすすめします。</p>
             <Link href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded">おすすめスタジオ一覧に戻る</Link>
           </div>
         </section>

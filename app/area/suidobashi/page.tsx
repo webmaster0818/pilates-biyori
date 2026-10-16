@@ -15,8 +15,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/suidobashi/' },
-  title: '【2026年10月最新】ピラティス水道橋・後楽園おすすめ11選！料金・体験レッスン・マシン対応を比較！',
-  description: '水道橋・後楽園エリアのおすすめピラティススタジオ11選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。飯田橋・神保町の近隣スタジオも紹介。',
+  title: '【2026年10月最新】ピラティス水道橋・後楽園おすすめ11選料金・体験レッスン・マシン対応を比較',
+  description: '水道橋・後楽園エリアのおすすめピラティススタジオ11選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。飯田橋・神保町の近隣スタジオも紹介しています。',
   keywords: 'ピラティス,水道橋,後楽園,飯田橋,神保町,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -27,12 +27,12 @@ const studios = [
     price: '月会費 11,000円（月6回まで）',
     trial: '体験レッスン 2,200円',
     features: ['コナミ運営', '春日駅徒歩1分', '月6回定額', '天井鏡設計'],
-    description: 'コナミスポーツクラブが運営するマシンピラティス専門スタジオ。春日駅A3口から徒歩1分、後楽園駅5番口から徒歩2分。天井に鏡を設置した特徴的な設計で、自分のフォームを確認しながらレッスンできます。月6回11,000円、7回目以降は1回1,100円で追加利用可能。最大6名の少人数制。',
+    description: 'コナミスポーツクラブが運営するマシンピラティス専門スタジオです。春日駅A3口から徒歩1分、後楽園駅5番口から徒歩2分です。天井に鏡を設置した特徴的な設計で、自分のフォームを確認しながらレッスンできます。月6回11,000円、7回目以降は1回1,100円で追加利用可能です。最大6名の少人数制です。',
     access: '都営三田線・大江戸線「春日駅」A3口 徒歩1分 / 丸ノ内線・南北線「後楽園駅」5番口 徒歩2分',
     address: '東京都文京区小石川1-1-18 文京ガーデン ザ サウス1階101',
     popularPlan: {
       name: '月会費プラン（月6回）',
-      description: '月6回まで定額。7回目以降は1回1,100円で追加OK。',
+      description: '月6回まで定額です。7回目以降は1回1,100円で追加可能です。',
       price: '月会費 11,000円（税込）',
     },
     options: [
@@ -44,7 +44,7 @@ const studios = [
     userProfile: {
       ageRange: '20代〜50代が中心',
       genderRatio: '女性85% / 男性15%',
-      purpose: ['ボディメイク', '姿勢改善', 'コスパ重視', '短時間トレーニング'],
+      purpose: ['ボディメイク', '姿勢改善', '料金重視', '短時間トレーニング'],
     },
     basicInfo: {
       hours: '平日 7:00〜21:00 / 土 8:00〜18:00 / 日 8:00〜19:00',
@@ -58,12 +58,12 @@ const studios = [
     price: '1回 6,250円〜',
     trial: '体験レッスンあり',
     features: ['パーソナル専門', 'マシンピラティス', '春日駅徒歩3分', '全国展開'],
-    description: '全国展開のパーソナルマシンピラティス専門スタジオ。都営三田線・大江戸線「春日駅」より徒歩3分、JR水道橋駅からも徒歩圏内。一人ひとりの体型や目標に合わせたオーダーメイドのトレーニングを提供。月謝制で1レッスン6,250円〜。完全プライベート空間で初心者でも安心。',
+    description: '全国展開のパーソナルマシンピラティス専門スタジオです。都営三田線・大江戸線「春日駅」より徒歩3分、JR水道橋駅からも徒歩圏内です。一人ひとりの体型や目標に合わせたオーダーメイドのトレーニングを提供しています。月謝制で1レッスン6,250円〜です。完全プライベート空間で初心者でも安心です。',
     access: '都営三田線・大江戸線「春日駅」徒歩3分 / JR「水道橋駅」徒歩圏内',
     address: '東京都文京区（春日駅徒歩3分・後楽園エリア）',
     popularPlan: {
       name: '月4回コース',
-      description: '完全パーソナルのマシンピラティス。1回あたり6,250円〜。',
+      description: '完全パーソナルのマシンピラティスです。1回あたり6,250円〜です。',
       price: '月4回 25,000円〜（税込）',
     },
     options: [
@@ -89,13 +89,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: 'マットグループ 月4回 10,450円〜',
     trial: '体験レッスン 500円〜',
-    features: ['マット&マシン', '飯田橋駅徒歩1分', '水道橋から1駅', '男性OK'],
-    description: '全国125店舗以上展開の大手ピラティススタジオ。飯田橋駅B4b出口から徒歩1分、JR飯田橋駅西口から徒歩3分。水道橋からJR総武線で1駅の好アクセス。マットグループ、マシングループ、プライベートレッスンに対応。全国150スタジオが相互利用可能。',
+    features: ['マット&マシン', '飯田橋駅徒歩1分', '水道橋から1駅', '男性利用可'],
+    description: '全国125店舗以上展開の大手ピラティススタジオです。飯田橋駅B4b出口から徒歩1分、JR飯田橋駅西口から徒歩3分です。水道橋からJR総武線で1駅の好アクセスです。マットグループ、マシングループ、プライベートレッスンに対応しています。全国150スタジオが他店利用可能です。',
     access: '地下鉄「飯田橋駅」B4b出口 徒歩1分 / JR「飯田橋駅」西口 徒歩3分 / 水道橋からJR総武線で1駅',
     address: '東京都新宿区揚場町1-1 揚場ビル4F',
     popularPlan: {
       name: 'マットグループ月4回',
-      description: 'マットグループレッスン月4回。全国スタジオ相互利用可。',
+      description: 'マットグループレッスン月4回です。全国スタジオ他店利用可能です。',
       price: '月額 10,450円〜（税込）',
     },
     options: [
@@ -121,13 +121,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: 'マットグループ 月4回 10,450円〜',
     trial: '体験レッスン 500円〜',
-    features: ['マット&マシン', '神保町駅徒歩1分', '水道橋から徒歩圏内', '男性OK'],
-    description: '全国125店舗以上展開のzen placeの神保町スタジオ。都営三田線・新宿線・半蔵門線「神保町駅」A7出口から徒歩1分。水道橋駅からも徒歩約10分でアクセス可能。マットグループ、マシングループ、プライベートに対応。5〜10名の少人数制レッスン。',
+    features: ['マット&マシン', '神保町駅徒歩1分', '水道橋から徒歩圏内', '男性利用可'],
+    description: '全国125店舗以上展開のzen placeの神保町スタジオです。都営三田線・新宿線・半蔵門線「神保町駅」A7出口から徒歩1分です。水道橋駅からも徒歩約10分でアクセス可能です。マットグループ、マシングループ、プライベートに対応しています。5〜10名の少人数制レッスンです。',
     access: '都営三田線・新宿線・半蔵門線「神保町駅」A7出口 徒歩1分 / JR「水道橋駅」徒歩約10分',
     address: '東京都千代田区神田神保町1-13-2 文銭堂ビル4階',
     popularPlan: {
       name: 'マットグループ月4回',
-      description: 'マットグループレッスン月4回。全国スタジオ相互利用可。',
+      description: 'マットグループレッスン月4回です。全国スタジオ他店利用可能です。',
       price: '月額 10,450円〜（税込）',
     },
     options: [
@@ -154,12 +154,12 @@ const studios = [
     price: 'マンスリー4メンバー 月4回 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', '神保町駅徒歩2分', 'マシンピラティス', '体験無料'],
-    description: '女性専用マシンピラティス専門スタジオ。神保町駅から徒歩2分、水道橋駅からも徒歩圏内。全店舗リフォーマー完備で、音楽に合わせた楽しいグループレッスンが人気。体験レッスンは0円で気軽にお試し可能。',
+    description: '女性専用マシンピラティス専門スタジオです。神保町駅から徒歩2分、水道橋駅からも徒歩圏内です。全店舗リフォーマー完備で、音楽に合わせた楽しいグループレッスンが人気です。体験レッスンは0円で気軽にお試し可能です。',
     access: '都営三田線・新宿線・半蔵門線「神保町駅」徒歩2分 / JR「水道橋駅」徒歩約10分',
     address: '東京都千代田区神田神保町1-4 クロサワビル4階',
     popularPlan: {
       name: 'マンスリー4メンバー',
-      description: '月4回のマシンピラティスグループレッスン。',
+      description: '月4回のマシンピラティスグループレッスンです。',
       price: '月4回 13,420円〜（税込）',
     },
     options: [
@@ -185,12 +185,12 @@ const studios = [
     price: '月額 9,680円〜（通い放題あり）',
     trial: '体験レッスンあり',
     features: ['予約不要', '30分サーキット', '飯田橋駅徒歩1分', '水道橋から1駅'],
-    description: 'マシンピラティスとファンクショナルトレーニングのサーキット形式。予約不要・1回30分の短時間設計。飯田橋駅から徒歩1分、水道橋からJR総武線で1駅。忙しい方でも気軽に続けられます。',
+    description: 'マシンピラティスとファンクショナルトレーニングのサーキット形式です。予約不要・1回30分の短時間設計です。飯田橋駅から徒歩1分、水道橋からJR総武線で1駅です。忙しい方でも気軽に続けられます。',
     access: 'JR・東京メトロ・都営大江戸線「飯田橋駅」徒歩1分 / 水道橋からJR総武線で1駅',
     address: '東京都新宿区揚場町2-16 第2東文堂ビル8F',
     popularPlan: {
       name: '通い放題プラン',
-      description: '予約不要・30分サーキットが通い放題。',
+      description: '予約不要・30分サーキットが通い放題です。',
       price: '月額 14,080円（税込）',
     },
     options: [
@@ -201,7 +201,7 @@ const studios = [
     userProfile: {
       ageRange: '20代〜50代が中心',
       genderRatio: '女性80% / 男性20%',
-      purpose: ['時短トレーニング', 'ボディメイク', '運動習慣づくり', 'コスパ重視'],
+      purpose: ['時短トレーニング', 'ボディメイク', '運動習慣づくり', '料金重視'],
     },
     basicInfo: {
       hours: '平日 9:30〜21:30 / 土祝 9:30〜19:30',
@@ -216,12 +216,12 @@ const studios = [
     price: 'グループレッスン 月3回 12,980円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', 'マシンピラティス', 'パウダールーム充実', '飯田橋駅徒歩圏内'],
-    description: '女性専用マシンピラティス専門スタジオ。全国42店舗展開。神楽坂エリアに位置し、飯田橋駅からも徒歩圏内。ReFaのヘアアイロン・ドライヤー完備のパウダールームなど設備が充実。音楽と照明を使った独自のレッスンスタイルが特徴。',
+    description: '女性専用マシンピラティス専門スタジオです。全国42店舗展開です。神楽坂エリアに位置し、飯田橋駅からも徒歩圏内です。ReFaのヘアアイロン・ドライヤー完備のパウダールームなど設備が充実しています。音楽と照明を使った独自のレッスンスタイルが特徴です。',
     access: '東京メトロ「神楽坂駅」徒歩3分 / JR「飯田橋駅」徒歩圏内',
     address: '東京都新宿区神楽坂6-67-1 希神楽坂ビル6階（旧：マイナビ不動産ビル神楽坂）',
     popularPlan: {
       name: 'グループ月3回プラン',
-      description: 'マシンピラティスグループレッスン月3回。',
+      description: 'マシンピラティスグループレッスン月3回です。',
       price: '月3回 12,980円（税込）',
     },
     options: [
@@ -248,12 +248,12 @@ const studios = [
     price: 'パーソナル通い放題 月額 39,800円〜',
     trial: '体験レッスンあり',
     features: ['パーソナル通い放題', '30分集中', '飯田橋駅徒歩5分', '筋トレ&ピラティス'],
-    description: '飯田橋・神楽坂エリア初の通い放題パーソナルマシンピラティスジム。1対1の指導で30分の集中トレーニング。筋トレとピラティスの両方が受けられるデュアルプランも人気。水道橋からも2駅圏内。',
+    description: '飯田橋・神楽坂エリア初の通い放題パーソナルマシンピラティスジムです。1対1の指導で30分の集中トレーニングです。筋トレとピラティスの両方が受けられるデュアルプランも人気です。水道橋からも2駅圏内です。',
     access: '「飯田橋駅」徒歩5分 / 「神楽坂駅」徒歩5分',
     address: '東京都新宿区筑土八幡町2-5 梅野産業ビル4F',
     popularPlan: {
       name: 'マシンピラティス通い放題プラン',
-      description: 'パーソナルマシンピラティスが月額通い放題。',
+      description: 'パーソナルマシンピラティスが月額通い放題です。',
       price: '月額 39,800円（税込）',
     },
     options: [
@@ -278,12 +278,12 @@ const studios = [
     price: 'フルタイム 月額 11,000円〜',
     trial: '体験レッスンあり',
     features: ['ホットヨガ&ピラティス', '女性専用', '牛込神楽坂駅徒歩3分', '手頃な料金'],
-    description: '全国展開のホットヨガスタジオ。ピラティスプログラムも週に複数回実施。牛込神楽坂駅から徒歩3分、飯田橋駅からも徒歩8分。水道橋エリアでホットヨガもピラティスも両方楽しみたい方に最適。',
+    description: '全国展開のホットヨガスタジオです。ピラティスプログラムも週に複数回実施しています。牛込神楽坂駅から徒歩3分、飯田橋駅からも徒歩8分です。水道橋エリアでホットヨガもピラティスも両方楽しみたい方に最適です。',
     access: '都営大江戸線「牛込神楽坂駅」A3出口 徒歩3分 / JR「飯田橋駅」B3出口 徒歩8分',
     address: '東京都新宿区神楽坂5-1-4 神楽坂テラスビル3F',
     popularPlan: {
       name: 'フルタイム会員',
-      description: 'ホットヨガ・ピラティスレッスンが受け放題。',
+      description: 'ホットヨガ・ピラティスレッスンが受け放題です。',
       price: '月額 11,000円〜（税込）',
     },
     options: [
@@ -309,12 +309,12 @@ const studios = [
     price: 'マンスリーメンバー 月4回 10,800円〜',
     trial: '体験レッスンあり',
     features: ['LAVA系列', '女性専用', '秋葉原駅徒歩1分', '水道橋から2駅'],
-    description: 'ホットヨガLAVAが運営するマシンピラティス専門スタジオ。秋葉原駅中央口から徒歩1分。水道橋からJR総武線で2駅。女性専用で、リフォーマーを使ったグループレッスンが中心。全国240店舗以上展開。',
+    description: 'ホットヨガLAVAが運営するマシンピラティス専門スタジオです。秋葉原駅中央口から徒歩1分です。水道橋からJR総武線で2駅です。女性専用で、リフォーマーを使ったグループレッスンが中心です。全国240店舗以上展開です。',
     access: 'JR「秋葉原駅」中央口 徒歩1分 / 水道橋からJR総武線で2駅',
     address: '東京都千代田区神田佐久間町1-8-4 ニュー千代田ビル(アルテール秋葉原) 3F',
     popularPlan: {
       name: 'マンスリーメンバー月4回',
-      description: 'マシンピラティスグループレッスン月4回。',
+      description: 'マシンピラティスグループレッスン月4回です。',
       price: '月4回 10,800円〜（税込）',
     },
     options: [
@@ -339,12 +339,12 @@ const studios = [
     price: 'パーソナル 1回 9,900円〜',
     trial: '体験レッスンあり',
     features: ['PHIピラティス認定', 'パーソナル専門', '神保町駅徒歩2分', '姿勢改善特化'],
-    description: 'PHIピラティスの専門知識を持つトレーナーによるパーソナルピラティススタジオ。神保町駅から徒歩2分、水道橋から都営三田線で1駅。姿勢改善に特化した確固たるメソッドで、根本的な体の変化を目指します。',
+    description: 'PHIピラティスの専門知識を持つトレーナーによるパーソナルピラティススタジオです。神保町駅から徒歩2分、水道橋から都営三田線で1駅です。姿勢改善に特化した確固たるメソッドで、根本的な体の変化を目指します。',
     access: '都営三田線・新宿線・半蔵門線「神保町駅」徒歩2分 / 都営三田線「水道橋駅」から1駅',
     address: '東京都千代田区神田神保町（神保町駅徒歩2分）',
     popularPlan: {
       name: 'パーソナルレッスン',
-      description: 'PHI認定トレーナーによる完全マンツーマン指導。',
+      description: 'PHI認定トレーナーによる完全マンツーマン指導しています。',
       price: '1回 9,900円〜（税込）',
     },
     options: [
@@ -368,7 +368,7 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！水道橋・後楽園エリアのスタジオは初心者歓迎のところが多いです。ピラティスミラーやzen placeなどは初心者向けクラスが充実しており、基礎から丁寧に指導してくれます。',
+    answer: '問題ありません。水道橋・後楽園エリアのスタジオは初心者歓迎のところが多いです。ピラティスミラーやzen placeなどは初心者向けクラスが充実しており、基礎から丁寧に指導してくれます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
@@ -376,19 +376,19 @@ const faqs = [
   },
   {
     question: '水道橋エリアの料金相場は？',
-    answer: 'グループレッスンは月4〜6回で9,680円〜15,400円程度。パーソナルは1回6,250円〜9,900円。chocoZAPなら月額3,278円でセルフ式ピラティスが利用できます。体験は0円〜3,300円です。',
+    answer: 'グループレッスンは月4〜6回で9,680円〜15,400円程度です。パーソナルは1回6,250円〜9,900円です。chocoZAPなら月額3,278円でセルフ式ピラティスが利用できます。体験は0円〜3,300円です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1〜2回からスタートがおすすめ。慣れてきたら週2〜3回に増やすと効果的です。URBAN CLASSICやchocoZAPなら通い放題プランで毎日でも通えます。',
+    answer: '初心者は週1〜2回からスタートがおすすめです。慣れてきたら週2〜3回に増やすと効果的です。URBAN CLASSICやchocoZAPなら通い放題プランで毎日でも通えます。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルが鍛えられ基礎代謝が上がることで太りにくい体質になります。最低2〜3ヶ月は継続しましょう。食事管理と合わせるとより効果的です。',
+    answer: 'はい、インナーマッスルが鍛えられ基礎代謝が上がることで太りにくい体質になります。最低2〜3ヶ月は継続することをおすすめします。食事管理と合わせるとより効果的です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装（Tシャツとレギンスなど）、タオル、飲み物があればOK。スタジオによっては靴下も必要です。手ぶらOKのスタジオもあるので事前に確認しましょう。',
+    answer: '動きやすい服装（Tシャツとレギンスなど）、タオル、飲み物があれば可能です。スタジオによっては靴下も必要です。手ぶらで参加可能のスタジオもあるので事前にご確認ください。',
   },
   {
     question: 'ピラティスとヨガの違いは？',
@@ -404,7 +404,7 @@ const faqs = [
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめ？',
-    answer: 'パーソナルは自分の体に合ったオーダーメイドの指導で効果が出やすいです。グループは安く楽しく仲間と一緒に続けられます。迷ったら両方体験してみましょう。',
+    answer: 'パーソナルは自分の体に合ったオーダーメイドの指導で効果が出やすいです。グループは安く楽しく仲間と一緒に続けられます。迷ったら両方体験してみることをおすすめします。',
   },
 ]
 
@@ -425,8 +425,8 @@ export default function SuidobashiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス水道橋・後楽園おすすめ11選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス水道橋・後楽園おすすめ11選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -449,32 +449,11 @@ export default function SuidobashiPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「水道橋・後楽園でピラティスを始めたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「コスパの良いスタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「飯田橋や神保町の近隣スタジオも気になる」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、水道橋・後楽園エリアとその周辺（飯田橋・神保町・神楽坂・秋葉原）のおすすめピラティススタジオ11選をまとめました。JR中央・総武線水道橋駅や都営三田線水道橋駅から通いやすいスタジオを厳選しています。
+              本ページでは、水道橋・後楽園エリアとその周辺（飯田橋・神保町・神楽坂・秋葉原）のおすすめピラティススタジオ11選をまとめました。JR中央・総武線水道橋駅や都営三田線水道橋駅から通いやすいスタジオを厳選しています。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -482,7 +461,7 @@ export default function SuidobashiPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
-                  <span>コスパの良いスタジオがいい</span>
+                  <span>料金を抑えられるスタジオがいい</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -499,7 +478,7 @@ export default function SuidobashiPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -568,25 +547,25 @@ export default function SuidobashiPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">都営三田線・大江戸線「春日駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  水道橋・後楽園エリアのスタジオは春日駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。春日駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  水道橋・後楽園エリアのスタジオは春日駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。春日駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">繁華街ならではの予約混雑に注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  水道橋・後楽園は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることも。アプリやWebで空き状況をこまめにチェックし、キャンセル待ち機能があるスタジオでは積極的に活用しましょう。
+                  水道橋・後楽園は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることもあります。アプリやWebで空き状況をこまめに確認し、キャンセル待ち機能があるスタジオでは積極的にご活用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  水道橋・後楽園エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ず確認しましょう。月の途中入会は日割り計算になるかも要チェックです。
+                  水道橋・後楽園エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ずご確認ください。月の途中入会は日割り計算になるかもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  水道橋・後楽園エリアだけでなく、近隣の<Link href="/area/korakuen/" className="text-warm-700 underline hover:text-warm-900">後楽園</Link>、<Link href="/area/ochanomizu/" className="text-warm-700 underline hover:text-warm-900">御茶ノ水</Link>、<Link href="/area/iidabashi/" className="text-warm-700 underline hover:text-warm-900">飯田橋</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  水道橋・後楽園エリアだけでなく、近隣の<Link href="/area/korakuen/" className="text-warm-700 underline hover:text-warm-900">後楽園</Link>、<Link href="/area/ochanomizu/" className="text-warm-700 underline hover:text-warm-900">御茶ノ水</Link>、<Link href="/area/iidabashi/" className="text-warm-700 underline hover:text-warm-900">飯田橋</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -604,25 +583,25 @@ export default function SuidobashiPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>水道橋・後楽園エリアの豆知識：</strong>水道橋・後楽園は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
+                  <strong>水道橋・後楽園エリアの豆知識：</strong>水道橋・後楽園は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心です。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
                 </p>
               </div>
             </div>
@@ -638,9 +617,9 @@ export default function SuidobashiPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円以下から通えるスタジオ。
+                  月額1万円以下から通えるスタジオです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• chocoZAP（月額3,278円・ピラティス込み）</li>
@@ -652,7 +631,7 @@ export default function SuidobashiPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  マンツーマン指導で効果を実感。
+                  マンツーマン指導で効果を実感できます。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• STUDIO IVY 後楽園（1回6,250円〜）</li>
@@ -664,7 +643,7 @@ export default function SuidobashiPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用スタジオ</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性だけの安心空間でトレーニング。
+                  女性だけの安心空間でトレーニングです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• pilates K 神保町（体験0円）</li>
@@ -686,15 +665,15 @@ export default function SuidobashiPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1〜2回からスタート。最低2〜3ヶ月継続で効果を実感。ピラティスミラーやzen placeの初心者向けクラスがおすすめ。
+                週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。ピラティスミラーやzen placeの初心者向けクラスがおすすめです。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイク目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2〜3回がおすすめ。3〜6ヶ月で目に見える変化が期待。URBAN CLASSICの通い放題プランなら通い放題14,080円。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。URBAN CLASSICの通い放題プランなら通い放題14,080円です。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">健康管理目的の方</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。chocoZAPなら月額3,278円で24時間好きな時に通えます。
+                週1回のペースで無理なく継続することをおすすめします。chocoZAPなら月額3,278円で24時間好きな時に通えます。
               </p>
             </div>
           </div>
@@ -713,7 +692,7 @@ export default function SuidobashiPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ダイエット、姿勢改善、体幹強化など、目的に応じてスタジオを選びましょう。姿勢改善ならピラティススタジオ ゼロ、ボディメイクならpilates KやSTUDIO IVYがおすすめです。
+                  ダイエット、姿勢改善、体幹強化など、目的に応じてスタジオをお選びください。姿勢改善ならピラティススタジオ ゼロ、ボディメイクならpilates KやSTUDIO IVYがおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -722,7 +701,7 @@ export default function SuidobashiPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  セルフ式のchocoZAPなら月額3,278円。グループ月4〜6回で9,680円〜15,400円、パーソナルは1回6,250円〜9,900円が水道橋エリアの相場です。
+                  セルフ式のchocoZAPなら月額3,278円です。グループ月4〜6回で9,680円〜15,400円、パーソナルは1回6,250円〜9,900円が水道橋エリアの相場です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -731,7 +710,7 @@ export default function SuidobashiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  pilates Kの体験0円をはじめ、zen placeは500円〜、ピラティスミラーは2,200円で体験できます。まずは2〜3スタジオの体験を比較するのがおすすめ。
+                  pilates Kの体験0円をはじめ、zen placeは500円〜、ピラティスミラーは2,200円で体験できます。まずは2〜3スタジオの体験を比較するのがおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -740,7 +719,7 @@ export default function SuidobashiPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  水道橋駅はJR中央・総武線と都営三田線が利用可能。後楽園駅は丸ノ内線・南北線、飯田橋駅は5路線が乗り入れ。東京ドーム周辺の文京区・千代田区エリアは交通の便が良く、飯田橋・神保町も隣駅で徒歩圏内です。自宅や職場からの通いやすさで選びましょう。
+                  水道橋駅はJR中央・総武線と都営三田線が利用可能です。後楽園駅は丸ノ内線・南北線、飯田橋駅は5路線が乗り入れています。東京ドーム周辺の文京区・千代田区エリアは交通の便が良く、飯田橋・神保町も隣駅で徒歩圏内です。自宅や職場からの通いやすさでお選びください。
                 </p>
               </div>
             </div>
@@ -783,13 +762,13 @@ export default function SuidobashiPage() {
               今回は水道橋・後楽園エリアとその周辺のおすすめピラティススタジオ11選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              水道橋・後楽園エリアはJR中央・総武線と都営三田線が交差し、飯田橋・神保町・神楽坂も隣駅で徒歩圏内。東京ドーム近くの文京区・千代田区を中心に、コスパ抜群のchocoZAPやピラティスミラーから、パーソナル専門のSTUDIO IVYやピラティススタジオ ゼロまで、幅広いニーズに応えるスタジオが揃っています。
+              水道橋・後楽園エリアはJR中央・総武線と都営三田線が交差し、飯田橋・神保町・神楽坂も隣駅で徒歩圏内です。東京ドーム近くの文京区・千代田区を中心に、割安なchocoZAPやピラティスミラーから、パーソナル専門のSTUDIO IVYやピラティススタジオ ゼロまで、幅広いニーズに応えるスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひ自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのスタジオが見つかることを願っています。
+              本ページが、スタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -798,11 +777,11 @@ export default function SuidobashiPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン0円〜3,300円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン0円〜3,300円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

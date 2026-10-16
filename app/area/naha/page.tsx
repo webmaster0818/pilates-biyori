@@ -15,8 +15,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/naha/' },
-  title: '【2026年10月最新】ピラティス那覇おすすめ5選！料金・体験レッスン・マシン対応を比較！',
-  description: '那覇エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス那覇おすすめ5選料金・体験レッスン・マシン対応を比較',
+  description: '那覇エリアのおすすめピラティススタジオ5選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,那覇,沖縄,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -27,13 +27,13 @@ const studios = [
     image: '/images/studios/rintosull.webp',
     price: '月4回 8,800円〜',
     trial: 'キャンペーンあり',
-    features: ['おもろまち駅徒歩3分', '女性専用', 'LAVA系列', 'コスパ抜群'],
-    description: 'ホットヨガLAVA系列のマシンピラティススタジオ。おもろまち駅から徒歩3分。女性専用でリフォーマーを使ったレッスンが月4回8,800円〜とリーズナブル。初心者でも安心のサポート体制。',
+    features: ['おもろまち駅徒歩3分', '女性専用', 'LAVA系列', '割安'],
+    description: 'ホットヨガLAVA系列のマシンピラティススタジオです。おもろまち駅から徒歩3分です。女性専用でリフォーマーを使ったレッスンが月4回8,800円〜とリーズナブルです。初心者でも安心のサポート体制です。',
     access: 'ゆいレール「おもろまち駅」徒歩3分',
     address: '沖縄県那覇市おもろまち4-2-8 2F',
     popularPlan: {
       name: '月4回プラン',
-      description: 'リフォーマーを使ったマシンピラティスグループレッスン月4回。',
+      description: 'リフォーマーを使ったマシンピラティスグループレッスン月4回です。',
       price: '月4回 8,800円（税込）',
     },
     options: [
@@ -60,12 +60,12 @@ const studios = [
     price: '要問い合わせ',
     trial: '体験レッスン 1,100円',
     features: ['女性専用', 'コラーゲンスタジオ', 'パーソナルあり', 'レベル別'],
-    description: '女性専用マシンピラティス・コラーゲンスタジオ。コラーゲントリートメントランプを使用した美容効果の高いスタジオ。グループとプライベートの両方を提供。初級〜中級のレベル別プログラム。',
+    description: '女性専用マシンピラティス・コラーゲンスタジオです。コラーゲントリートメントランプを使用した美容効果の高いスタジオです。グループとプライベートの両方を提供しています。初級〜中級のレベル別プログラムです。',
     access: '那覇新都心エリア',
     address: '沖縄県那覇市上之屋1-20-9 富士家オーシャンビル103',
     popularPlan: {
       name: 'グループレッスン',
-      description: 'コラーゲンランプ付きのマシンピラティスグループレッスン。',
+      description: 'コラーゲンランプ付きのマシンピラティスグループレッスンです。',
       price: '詳細は公式サイトでご確認ください',
     },
     options: [
@@ -90,13 +90,13 @@ const studios = [
     image: '/images/studios/pilates-ism-naha.webp',
     price: '1回 6,250円〜',
     trial: '体験レッスン 1,000円',
-    features: ['韓国式', '完全パーソナル', '手ぶらOK', 'オンラインあり'],
-    description: '韓国式マシンピラティスの完全パーソナルレッスン。一人ひとりの理想のボディラインに合わせたオーダーメイド指導。ウェア・タオル・水も完備で手ぶらで通える。オンラインレッスンも無料で受け放題。',
+    features: ['韓国式', '完全パーソナル', '手ぶらで参加可能', 'オンラインあり'],
+    description: '韓国式マシンピラティスの完全パーソナルレッスンです。一人ひとりの理想のボディラインに合わせたオーダーメイド指導しています。ウェア・タオル・水も完備で手ぶらで通えます。オンラインレッスンも無料で受け放題です。',
     access: '那覇市泉崎エリア',
     address: '沖縄県那覇市泉崎（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'パーソナルレッスン',
-      description: '韓国式マシンピラティスの完全パーソナルレッスン。',
+      description: '韓国式マシンピラティスの完全パーソナルレッスンです。',
       price: '1回 6,250円〜（税込）',
     },
     options: [
@@ -122,12 +122,12 @@ const studios = [
     price: '月4回 10,780円〜',
     trial: '体験レッスンあり',
     features: ['おもろまち駅徒歩8分', 'グループ＆パーソナル', '都度払い可', '乗り換え割'],
-    description: 'グループとパーソナルの両方を提供するマシンピラティススタジオ。おもろまち駅から徒歩8分。グループスタジオとパーソナルスタジオを別棟で運営。都度払い3,850円も可能。',
+    description: 'グループとパーソナルの両方を提供するマシンピラティススタジオです。おもろまち駅から徒歩8分です。グループスタジオとパーソナルスタジオを別棟で運営しています。都度払い3,850円も可能です。',
     access: 'ゆいレール「おもろまち駅」徒歩8分',
     address: '沖縄県那覇市おもろまち4-9-3-1 CREビル4F（グループスタジオ）',
     popularPlan: {
       name: '月4回プラン',
-      description: 'マシンピラティスのグループレッスン月4回。',
+      description: 'マシンピラティスのグループレッスン月4回です。',
       price: '月4回 10,780円（税込）',
     },
     options: [
@@ -153,12 +153,12 @@ const studios = [
     price: '1回 5,000円〜',
     trial: '体験レッスンあり',
     features: ['理学療法士在籍', '完全個室', 'パーソナル専門', '駐車場あり'],
-    description: '理学療法士が在籍する完全個室のパーソナルマシンピラティススタジオ。儀保駅から徒歩7分。1回5,000円〜でパーソナルレッスンが受けられる。30分コースもあり。店舗前に駐車場完備で車でも通いやすい。',
+    description: '理学療法士が在籍する完全個室のパーソナルマシンピラティススタジオです。儀保駅から徒歩7分です。1回5,000円〜でパーソナルレッスンが受けられます。30分コースもあります。店舗前に駐車場完備で車でも通いやすいです。',
     access: 'ゆいレール「儀保駅」徒歩7分',
     address: '沖縄県那覇市首里久場川エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'パーソナルレッスン',
-      description: '理学療法士によるマシンピラティスのパーソナルレッスン。',
+      description: '理学療法士によるマシンピラティスのパーソナルレッスンです。',
       price: '1回 5,000円〜（税込）',
     },
     options: [
@@ -183,31 +183,31 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！那覇エリアのスタジオはほとんどが初心者歓迎。Rintosullは月4回8,800円〜で気軽に始められます。ルキナはレベル別プログラムで安心。',
+    answer: '問題ありません。那覇エリアのスタジオはほとんどが初心者歓迎です。Rintosullは月4回8,800円〜で気軽に始められます。ルキナはレベル別プログラムで安心です。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。那覇はマシン専門スタジオが充実。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。那覇はマシン専門スタジオが充実しています。',
   },
   {
     question: '那覇のピラティスの料金相場は？',
-    answer: 'グループ月4回で8,800円〜10,780円程度。Rintosullが月4回8,800円〜で最もリーズナブル。パーソナルは1回5,000円〜6,250円が相場。',
+    answer: 'グループ月4回で8,800円〜10,780円程度です。Rintosullが月4回8,800円〜で最もリーズナブルです。パーソナルは1回5,000円〜6,250円が相場です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。大切なのは継続すること。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。大切なのは継続することです。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。Pilates isMは手ぶらで体験可能（ウェア・タオル・水完備）。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。Pilates isMは手ぶらで体験可能です（ウェア・タオル・水完備）。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹強化・姿勢改善に特化。ヨガは柔軟性とリラックス重視。Rintosullの運営元LAVAはヨガスタジオも展開しています。',
+    answer: 'ピラティスは体幹強化・姿勢改善に特化しています。ヨガは柔軟性とリラックス重視です。Rintosullの運営元LAVAはヨガスタジオも展開しています。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
@@ -215,11 +215,11 @@ const faqs = [
   },
   {
     question: '車で通えるスタジオは？',
-    answer: 'ヒーレストピラティスは店舗前に駐車場完備。おもろまち周辺のスタジオは近隣にコインパーキングがあります。',
+    answer: 'ヒーレストピラティスは店舗前に駐車場完備しています。おもろまち周辺のスタジオは近隣にコインパーキングがあります。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -240,8 +240,8 @@ export default function NahaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス那覇おすすめ5選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス那覇おすすめ5選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -264,29 +264,11 @@ export default function NahaPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「那覇で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、那覇エリアでおすすめのピラティススタジオ5選をまとめました。
+              本ページでは、那覇エリアでおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -311,7 +293,7 @@ export default function NahaPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -365,7 +347,7 @@ export default function NahaPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              那覇は海に近い開放的な雰囲気が魅力のエリアです。観光客向けの体験クラスからしっかり通える月額プランまで幅広く、リゾート感覚で通えるスタジオもあります。地元密着型スタジオは料金も良心的なので要チェックです。近隣の沖縄エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
+              那覇は海に近い開放的な雰囲気が魅力のエリアです。観光客向けの体験クラスからしっかり通える月額プランまで幅広く、リゾート感覚で通えるスタジオもあります。地元密着型スタジオは料金も良心的なのでご確認ください。近隣の沖縄エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
             </p>
           </div>
         </section>
@@ -380,25 +362,25 @@ export default function NahaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">ゆいレール「おもろまち駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  那覇エリアのスタジオはおもろまち駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。おもろまち駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  那覇エリアのスタジオはおもろまち駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。おもろまち駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">観光シーズンの混雑に備えた予約を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  那覇は観光エリアとしても人気のため、GW・夏休み・年末年始は体験レッスンの申し込みが増加します。地元の方は観光シーズンを避けた平日昼間が快適に通える時間帯。ビジター利用を受け付けるスタジオもあるので、旅行のついでに体験するのもおすすめです。
+                  那覇は観光エリアとしても人気のため、GW・夏休み・年末年始は体験レッスンの申し込みが増加します。地元の方は観光シーズンを避けた平日昼間が快適に通える時間帯です。ビジター利用を受け付けるスタジオもあるので、旅行のついでに体験するのもおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">季節による料金プランの違いに注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  那覇エリアでは季節限定のキャンペーンや、夏季限定の短期集中プランを提供するスタジオもあります。年間を通して通うなら月額制が割安ですが、特定の時期だけ通いたい方は回数券を検討しましょう。入会時のキャンペーンは時期によって内容が変わるので、タイミングを見計らうのもポイントです。
+                  那覇エリアでは季節限定のキャンペーンや、夏季限定の短期集中プランを提供するスタジオもあります。年間を通して通うなら月額制が割安ですが、特定の時期だけ通いたい方は回数券をご検討ください。入会時のキャンペーンは時期によって内容が変わるので、タイミングを見計らうのもポイントです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  那覇エリアだけでなく、近隣の<Link href="/area/okinawa/" className="text-warm-700 underline hover:text-warm-900">沖縄</Link>、<Link href="/area/kagoshima/" className="text-warm-700 underline hover:text-warm-900">鹿児島</Link>、<Link href="/area/fukuoka/" className="text-warm-700 underline hover:text-warm-900">福岡</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  那覇エリアだけでなく、近隣の<Link href="/area/okinawa/" className="text-warm-700 underline hover:text-warm-900">沖縄</Link>、<Link href="/area/kagoshima/" className="text-warm-700 underline hover:text-warm-900">鹿児島</Link>、<Link href="/area/fukuoka/" className="text-warm-700 underline hover:text-warm-900">福岡</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -416,25 +398,25 @@ export default function NahaPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>那覇エリアの豆知識：</strong>那覇は海沿いのエリアならではの開放感が魅力です。特に夏場は汗をかきやすいので、制汗スプレーや替えのTシャツを持参すると快適。海風で髪が乱れやすい時期は、ヘアバンドやヘアゴムも忘れずに。
+                  <strong>那覇エリアの豆知識：</strong>那覇は海沿いのエリアならではの開放感が魅力です。特に夏場は汗をかきやすいので、制汗スプレーや替えのTシャツを持参すると快適です。海風で髪が乱れやすい時期は、ヘアバンドやヘアゴムも忘れずにご用意ください。
                 </p>
               </div>
             </div>
@@ -452,7 +434,7 @@ export default function NahaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額2万円未満で通えるスタジオ（店舗カードの料金）。
+                  月額2万円未満で通えるスタジオです（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull（リントスル）那覇新都心店（月4回 8,800円〜）</li>
@@ -462,7 +444,7 @@ export default function NahaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性だけの安心空間。
+                  女性だけの安心空間です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull（リントスル）那覇新都心店</li>
@@ -472,7 +454,7 @@ export default function NahaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  駅から徒歩2分以内。
+                  駅から徒歩2分以内です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• このページの掲載スタジオでは該当なし</li>
@@ -491,15 +473,15 @@ export default function NahaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回からスタート。最低2-3ヶ月継続で効果を実感。
+                週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回がおすすめ。3-6ヶ月で目に見える変化。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。
+                週1回のペースで無理なく継続することをおすすめします。
               </p>
             </div>
           </div>
@@ -516,7 +498,7 @@ export default function NahaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜13,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月3〜4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。
+                  グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Rintosull 那覇新都心店（月4回 8,800円〜）</li>
@@ -528,7 +510,7 @@ export default function NahaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜15,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン専門スタジオ。
+                  マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• このページの掲載スタジオでは該当なし（各スタジオの料金は上の店舗カードを参照）</li>
@@ -538,7 +520,7 @@ export default function NahaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 16,000〜29,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">通い放題</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  毎日通いたい方。
+                  毎日通いたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• このページの掲載スタジオでは該当なし（各スタジオの料金は上の店舗カードを参照）</li>
@@ -570,7 +552,7 @@ export default function NahaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  那覇の料金相場はグループ月4回で10,450円〜15,070円。入会金やキャンペーンも確認しましょう。
+                  那覇の料金相場はグループ月4回で10,450円〜15,070円です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -579,7 +561,7 @@ export default function NahaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  体験料金は、ピラティススタジオ ルキナ那覇新都心が「体験レッスン 1,100円」、Pilates isM（ピラティスイズム）那覇店が「体験レッスン 1,000円」です（店舗カードの記載）。最新の条件は各公式サイトで確認しましょう。
+                  体験料金は、ピラティススタジオ ルキナ那覇新都心が「体験レッスン 1,100円」、Pilates isM（ピラティスイズム）那覇店が「体験レッスン 1,000円」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -588,7 +570,7 @@ export default function NahaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  那覇の掲載スタジオでは、Rintosull（リントスル）那覇新都心店（ゆいレール「おもろまち駅」徒歩3分）が駅から近いスタジオです。通う時間帯の経路も確認しておきましょう。
+                  那覇の掲載スタジオでは、Rintosull（リントスル）那覇新都心店（ゆいレール「おもろまち駅」徒歩3分）が駅から近いスタジオです。通う時間帯の経路もご確認ください。
                 </p>
               </div>
             </div>
@@ -631,13 +613,13 @@ export default function NahaPage() {
               今回は那覇エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では那覇にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、那覇にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -646,11 +628,11 @@ export default function NahaPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,850円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜3,850円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

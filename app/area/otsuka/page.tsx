@@ -17,8 +17,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/otsuka/' },
-  title: '【2026年10月最新】大塚のピラティス｜初心者OK・無料体験で選ぶ料金比較',
-  description: '大塚エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  title: '【2026年10月最新】大塚のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  description: '大塚エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,大塚,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -30,12 +30,12 @@ const studios = [
     price: '1回2,750円〜（通い放題プランあり）',
     trial: '体験レッスンあり',
     features: ['通い放題マンツーマン', 'マシンピラティス', '大塚駅徒歩4分', 'ウェアタオル無料'],
-    description: '通い放題型のマンツーマンマシンピラティススタジオ。大塚駅から徒歩4分の好立地。1回あたり2,750円からという業界屈指のコストパフォーマンスで、パーソナルレッスンが受け放題。ウェア・タオル・ドリンク・プロテインが全て無料なので、手ぶらで通えるのも魅力です。',
+    description: '通い放題型のマンツーマンマシンピラティススタジオです。大塚駅から徒歩4分の好立地です。1回あたり2,750円からという業界屈指のコストパフォーマンスで、パーソナルレッスンが受け放題です。ウェア・タオル・ドリンク・プロテインが全て無料なので、手ぶらで通えるのも魅力です。',
     access: '大塚駅から徒歩4分',
     address: '東京都豊島区南大塚3丁目',
     popularPlan: {
       name: '通い放題プラン',
-      description: 'マンツーマンマシンピラティスが通い放題。1回あたり2,750円〜の圧倒的コスパ。',
+      description: 'マンツーマンマシンピラティスが通い放題です。1回あたり2,750円〜の圧倒的費用対効果です。',
       price: '月額制（1回あたり2,750円〜）',
     },
     options: [
@@ -61,12 +61,12 @@ const studios = [
     price: 'パーソナルレッスン（要問い合わせ）',
     trial: '体験レッスンあり',
     features: ['パーソナル専門', '女性インストラクター', 'キッズスペース完備', 'マシンピラティス'],
-    description: 'パーソナル専門のマシンピラティススタジオ。女性インストラクターが一人ひとりの目標に合わせた丁寧な指導を提供。キッズスペース完備で、小さなお子様連れのママも安心して通えるのが大きな特徴。産後ケアや姿勢改善を目的とした方に特に人気です。',
+    description: 'パーソナル専門のマシンピラティススタジオです。女性インストラクターが一人ひとりの目標に合わせた丁寧な指導を提供しています。キッズスペース完備で、小さなお子様連れのママも安心して通えるのが大きな特徴です。産後ケアや姿勢改善を目的とした方に特に人気です。',
     access: '大塚駅から徒歩圏内',
     address: '東京都豊島区南大塚エリア',
     popularPlan: {
       name: 'パーソナルレッスン',
-      description: '女性インストラクターによるマンツーマンマシンピラティス。お子様連れOK。',
+      description: '女性インストラクターによるマンツーマンマシンピラティスです。お子様連れ可能です。',
       price: '詳細は要問い合わせ',
     },
     options: [
@@ -93,12 +93,12 @@ const studios = [
     price: '月4回 13,420円〜',
     trial: '体験レッスン 2,000円',
     features: ['女性専用', 'マシンピラティス', '池袋駅（大塚から1駅）', '音楽×マシン'],
-    description: '大塚から山手線で1駅の池袋にある女性専用マシンピラティススタジオ。音楽に合わせた独自のグループマシンピラティスレッスンが人気。月4回13,420円からとリーズナブルな料金設定で、体験レッスンは2,000円で受けられます。',
+    description: '大塚から山手線で1駅の池袋にある女性専用マシンピラティススタジオです。音楽に合わせた独自のグループマシンピラティスレッスンが人気です。月4回13,420円からとリーズナブルな料金設定で、体験レッスンは2,000円で受けられます。',
     access: '池袋駅（大塚からJR山手線で1駅・約2分）',
     address: '東京都豊島区西池袋エリア',
     popularPlan: {
       name: 'マンスリー4メンバー',
-      description: '月4回のマシンピラティスグループレッスン。女性専用で安心。音楽に合わせて楽しくトレーニング。',
+      description: '月4回のマシンピラティスグループレッスンです。女性専用のため安心して通えます。音楽に合わせて楽しくトレーニングです。',
       price: '月4回 13,420円（税込）',
     },
     options: [
@@ -125,12 +125,12 @@ const studios = [
     price: '月4回 9,625円〜',
     trial: '体験レッスン 1,000円〜',
     features: ['マット&マシン', '大手スタジオ', '池袋駅（大塚から1駅）', '初心者歓迎'],
-    description: '大塚から山手線で1駅の池袋にある全国展開の大手ピラティススタジオ。マットピラティスからマシンピラティスまで豊富なレッスンメニューが揃い、月4回9,625円〜というリーズナブルな料金で始められます。経験豊富なインストラクターが一人ひとりに合わせた丁寧な指導を提供します。',
+    description: '大塚から山手線で1駅の池袋にある全国展開の大手ピラティススタジオです。マットピラティスからマシンピラティスまで豊富なレッスンメニューが揃い、月4回9,625円〜というリーズナブルな料金で始められます。経験豊富なエデュケーターが一人ひとりに合わせた丁寧な指導を提供します。',
     access: '池袋駅（大塚からJR山手線で1駅・約2分）',
     address: '東京都豊島区南池袋2丁目27-8 南水ビル 8階',
     popularPlan: {
       name: 'フリープラン（月4回）',
-      description: 'マットレッスン月4回プラン。マシンレッスンへのアップグレードも可能。',
+      description: 'マットレッスン月4回プランです。マシンレッスンへのアップグレードも可能です。',
       price: '月4回 9,625円〜（税込）',
     },
     options: [
@@ -155,11 +155,11 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！大塚エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。ELEMENT大塚店やzen place pilatesは初心者歓迎で、経験豊富なインストラクターが基礎から丁寧に指導してくれます。',
+    answer: '問題ありません。大塚エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。ELEMENT大塚店やzen place pilatesは初心者歓迎で、経験豊富なエデュケーターが基礎から丁寧に指導してくれます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。大塚エリアではELEMENT大塚店やピラティスKなど、マシンピラティスに対応したスタジオが充実しています。',
+    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷を調整しやすく、初心者におすすめです。大塚エリアではELEMENT大塚店やピラティスKなど、マシンピラティスに対応したスタジオが充実しています。',
   },
   {
     question: '大塚エリアのピラティススタジオの料金相場は？',
@@ -167,19 +167,19 @@ const faqs = [
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: 'ピラティス初心者は週1-2回（月4-8回）がおすすめ。慣れてきたら週2-3回に増やすと効果を実感しやすくなります。ELEMENT大塚店のような通い放題プランなら、自分のペースで頻度を上げられるのでおすすめです。',
+    answer: 'ピラティス初心者は週1〜2回（月4〜8回）がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。ELEMENT大塚店のような通い放題プランなら、自分のペースで頻度を上げられるのでおすすめです。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、ピラティスはダイエット効果があります。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に。ただし即効性はないので、最低でも2-3ヶ月は継続することが大切。食事管理も並行するとより効果的です。',
+    answer: 'ピラティスにはダイエット効果が期待できます。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。ただし即効性はないので、最低でも2〜3ヶ月は継続することが大切です。食事管理を並行すると、より効果的です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。ELEMENT大塚店ならウェア・タオル・ドリンクが全て無料なので手ぶらでOKです。他のスタジオもレンタルが用意されていることが多いので、事前に確認しましょう。',
+    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。ELEMENT大塚店ならウェア・タオル・ドリンクが全て無料なので手ぶらで問題ありません。他のスタジオもレンタルが用意されていることが多いので、事前にご確認ください。',
   },
   {
     question: '子連れでもピラティスに通えますか？',
-    answer: 'はい、パーソナルマシンピラティスYUZU大塚店はキッズスペース完備で、小さなお子様連れでも安心して通えます。女性インストラクターが指導してくれるので、産後ケアにもおすすめです。',
+    answer: 'はい、パーソナルマシンピラティスYUZU大塚店はキッズスペース完備で、小さなお子様連れでも安心して通えます。女性エデュケーターが指導してくれるので、産後ケアにもおすすめです。',
   },
   {
     question: '大塚から池袋のスタジオには通いやすいですか？',
@@ -187,7 +187,7 @@ const faqs = [
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'パーソナルは一人ひとりに合わせた指導で効果が出やすく、ELEMENT大塚店やYUZU大塚店で受けられます。グループはピラティスKのように仲間と楽しく続けられるのが魅力。まずは体験で両方試してみるのがいいですよ。',
+    answer: 'パーソナルは一人ひとりに合わせた指導で効果が出やすく、ELEMENT大塚店やYUZU大塚店で受けられます。グループはピラティスKのように仲間と楽しく続けられるのが魅力です。まずは体験レッスンで両方を試すことをおすすめします。',
   },
 ]
 
@@ -208,8 +208,8 @@ export default function OtsukaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026年7月最新】ピラティス大塚おすすめ4選！<br className="hidden md:block" />
-              料金・体験レッスン・マシン対応を比較！
+              【2026年7月最新】ピラティス大塚おすすめ4選<br className="hidden md:block" />
+              料金・体験レッスン・マシン対応を比較
             </h1>
           </div>
         </section>
@@ -234,29 +234,11 @@ export default function OtsukaPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「大塚で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、大塚エリアでおすすめのピラティススタジオ4選をまとめました。大塚はJR山手線・都電荒川線が利用可能で、池袋まで1駅という好アクセスのエリア。大塚駅周辺のスタジオに加え、1駅先の池袋エリアのスタジオも含めてご紹介します。
+              本ページでは、大塚エリアでおすすめのピラティススタジオ4選をまとめました。大塚はJR山手線・都電荒川線が利用可能で、池袋まで1駅という好アクセスのエリアです。大塚駅周辺のスタジオに加え、1駅先の池袋エリアのスタジオも含めてご紹介します。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -281,7 +263,7 @@ export default function OtsukaPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -350,25 +332,25 @@ export default function OtsukaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">大塚駅からのルートは事前に確認を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  大塚エリアのスタジオは大塚駅周辺が中心です。駅の出口によってスタジオまでの距離が変わることがあるため、初めて訪れる際はGoogleマップで経路を確認し、余裕を持って到着できるようにしましょう。
+                  大塚エリアのスタジオは大塚駅周辺が中心です。駅の出口によってスタジオまでの距離が変わることがあるため、初めて訪れる際はGoogleマップで経路を確認し、余裕を持って到着できるようにすることをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">繁華街ならではの予約混雑に注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  大塚は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることも。アプリやWebで空き状況をこまめにチェックし、キャンセル待ち機能があるスタジオでは積極的に活用しましょう。
+                  大塚は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることもあります。アプリやWebで空き状況をこまめに確認し、キャンセル待ち機能があるスタジオでは積極的にご活用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  大塚エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ず確認しましょう。月の途中入会は日割り計算になるかも要チェックです。
+                  大塚エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ずご確認ください。月の途中入会は日割り計算になるかもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  大塚エリアだけでなく、近隣の<Link href="/area/ikebukuro/" className="text-warm-700 underline hover:text-warm-900">池袋</Link>、<Link href="/area/sugamo/" className="text-warm-700 underline hover:text-warm-900">巣鴨</Link>、<Link href="/area/korakuen/" className="text-warm-700 underline hover:text-warm-900">後楽園</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  大塚エリアだけでなく、近隣の<Link href="/area/ikebukuro/" className="text-warm-700 underline hover:text-warm-900">池袋</Link>、<Link href="/area/sugamo/" className="text-warm-700 underline hover:text-warm-900">巣鴨</Link>、<Link href="/area/korakuen/" className="text-warm-700 underline hover:text-warm-900">後楽園</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -386,25 +368,25 @@ export default function OtsukaPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>大塚エリアの豆知識：</strong>大塚は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
+                  <strong>大塚エリアの豆知識：</strong>大塚は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心です。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
                 </p>
               </div>
             </div>
@@ -420,9 +402,9 @@ export default function OtsukaPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  リーズナブルな料金で質の高いレッスンを受けたい方におすすめ。通い放題プランやお手頃な月額プランが魅力。
+                  リーズナブルな料金で質の高いレッスンを受けたい方におすすめです。通い放題プランやお手頃な月額プランが魅力です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ELEMENT 大塚店（1回2,750円〜）</li>
@@ -433,7 +415,7 @@ export default function OtsukaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  マンツーマンで丁寧に指導してもらいたい方におすすめ。自分のペースで効果的にトレーニング。
+                  マンツーマンで丁寧に指導してもらいたい方におすすめです。自分のペースで効果的にトレーニングです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ELEMENT 大塚店（通い放題マンツーマン）</li>
@@ -443,7 +425,7 @@ export default function OtsukaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性・ママ向け</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性専用スタジオやキッズスペース完備のスタジオ。安心して通える環境が整っています。
+                  女性専用スタジオやキッズスペース完備のスタジオです。安心して通える環境が整っています。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• YUZU 大塚店（キッズスペース完備）</li>
@@ -463,15 +445,15 @@ export default function OtsukaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回（月4-8回）からスタートするのがおすすめ。まずは身体を慣らすことが大切です。継続期間は最低でも2-3ヶ月。この期間で効果を実感できる方が多いですよ。
+                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感できる方が多いです。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回（月8-12回）がおすすめ。ELEMENT大塚店のような通い放題プランなら、コストを気にせず頻度を上げられます。3-6ヶ月継続すると、周りからも変化に気づかれるレベルの効果が期待できます。
+                週2〜3回（月8〜12回）がおすすめです。ELEMENT大塚店のような通い放題プランなら、コストを気にせず頻度を上げられます。3〜6ヶ月継続すると、周りからも変化に気づかれるレベルの効果が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理が目的の方</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回（月4回）のペースで継続するのがおすすめ。zen place pilatesの月4回プランなどは、無理なく長く続けられるちょうどいい頻度と料金設定です。
+                週1回（月4回）のペースで継続するのがおすすめです。zen place pilatesの月4回プランなどは、無理なく長く続けられるちょうどいい頻度と料金設定です。
               </p>
             </div>
           </div>
@@ -488,7 +470,7 @@ export default function OtsukaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マットレッスン中心。初心者向けの基本プランが多い。
+                  マットレッスン中心です。初心者向けの基本プランが多いです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates（月4回9,625円〜）</li>
@@ -499,7 +481,7 @@ export default function OtsukaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 10,000〜15,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシンピラティス対応の人気プラン。グループ・パーソナル選択可。
+                  マシンピラティス対応の人気プランです。グループ・パーソナル選択可能です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（月4回13,420円）</li>
@@ -510,7 +492,7 @@ export default function OtsukaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">パーソナル専門</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">個別対応</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  完全マンツーマンレッスン。短期集中で結果を出したい方向け。
+                  完全マンツーマンレッスンです。短期集中で成果を目指したい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• YUZU 大塚店（パーソナル専門）</li>
@@ -534,7 +516,7 @@ export default function OtsukaPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  まずは自分がピラティスで何を達成したいのかを明確にしましょう。ダイエット、姿勢改善、体幹強化、産後ケアなど、目的によって最適なスタジオやプログラムは変わります。目的が明確だとスタジオ選びもスムーズになりますよ。
+                  まずは自分がピラティスで何を達成したいのかを明確にすることをおすすめします。ダイエット、姿勢改善、体幹強化、産後ケアなど、目的によって最適なスタジオやプログラムは変わります。目的を明確にしておくと、スタジオを選びやすくなります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -543,7 +525,7 @@ export default function OtsukaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  大塚エリアの料金は、通い放題のELEMENT大塚店（1回2,750円〜）からzen place pilatesの月4回9,625円〜、ピラティスKの月4回13,420円まで幅広い選択肢があります。無理なく継続できる予算を決めましょう。
+                  大塚エリアの料金は、通い放題のELEMENT大塚店（1回2,750円〜）からzen place pilatesの月4回9,625円〜、ピラティスKの月4回13,420円まで幅広い選択肢があります。無理なく継続できる予算を決めることをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -552,7 +534,7 @@ export default function OtsukaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。ピラティスKは2,000円、zen placeは1,000円〜で体験できます。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。ピラティスKは2,000円、zen placeは1,000円〜で体験できます。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -561,7 +543,7 @@ export default function OtsukaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  どんなに良いスタジオでも、通いにくい場所にあると続きません。大塚はJR山手線・都電荒川線が利用可能で、池袋まで1駅という好アクセスのエリアです。大塚駅周辺のELEMENTやYUZUはもちろん、池袋のピラティスKやzen placeも十分通いやすい距離ですよ。
+                  通いにくい場所にあるスタジオは、継続が難しくなります。大塚はJR山手線・都電荒川線が利用可能で、池袋まで1駅という好アクセスのエリアです。大塚駅周辺のELEMENTやYUZUはもちろん、池袋のピラティスKやzen placeも十分通いやすい距離です。
                 </p>
               </div>
             </div>
@@ -604,13 +586,13 @@ export default function OtsukaPage() {
               今回は大塚エリアのおすすめピラティススタジオ4選をご紹介しました。いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              大塚はJR山手線・都電荒川線が利用可能で、池袋まで1駅というアクセスの良さが魅力。大塚駅周辺にはELEMENT大塚店やYUZU大塚店があり、1駅先の池袋にはピラティスKやzen place pilatesもあるので、選択肢が豊富です。
+              大塚はJR山手線・都電荒川線が利用可能で、池袋まで1駅というアクセスの良さが魅力です。大塚駅周辺にはELEMENT大塚店やYUZU大塚店があり、1駅先の池袋にはピラティスKやzen place pilatesもあるので、選択肢が豊富です。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              まずは気になるスタジオの体験レッスンに参加して、自分に合うスタジオを見つけてみてください。
+              まずは気になるスタジオの体験レッスンに参加して、ご自身に合うスタジオをお探しください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -619,11 +601,11 @@ export default function OtsukaPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン1,000円〜2,000円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン1,000円〜2,000円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

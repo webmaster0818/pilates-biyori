@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/hamamatsu/' },
-  title: '【2026年10月最新】ピラティス浜松おすすめ6選！人気スタジオの料金プランを簡単比較！',
-  description: '浜松エリアのおすすめピラティススタジオ6選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス浜松おすすめ6選人気スタジオの料金プランの比較',
+  description: '浜松エリアのおすすめピラティススタジオ6選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,浜松,静岡県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -27,12 +27,12 @@ const studios = [
     price: '月4回 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', '浜松駅直結', '体験0円', '部位別プログラム'],
-    description: '女性専用マシンピラティス専門スタジオ。JR浜松駅直結のメイワン6階に位置し、仕事帰りやお買い物ついでに通える抜群のアクセス。音楽に合わせた楽しいグループレッスンと部位別ボディメイクプログラムが充実。体験レッスン0円。',
+    description: '女性専用マシンピラティス専門スタジオです。JR浜松駅直結のメイワン6階に位置し、仕事帰りやお買い物ついでに通える抜群のアクセスです。音楽に合わせた楽しいグループレッスンと部位別ボディメイクプログラムが充実しています。体験レッスン0円です。',
     access: 'JR東海「浜松駅」直結 メイワン6階',
     address: '静岡県浜松市中央区砂山町6-1 メイワン6階',
     popularPlan: {
       name: 'マンスリー4メンバー（月4回）',
-      description: '女性専用マシンピラティス月4回。部位別プログラムも選べる。',
+      description: '女性専用マシンピラティス月4回です。部位別プログラムも選べます。',
       price: '月4回 13,420円（税込）',
     },
     options: [
@@ -59,12 +59,12 @@ const studios = [
     price: '月4回 15,400円〜',
     trial: '体験レッスン 3,000円',
     features: ['少人数制4名', 'レンタル無料', '年中無休', '和の空間'],
-    description: '2025年8月オープンの少人数制マシンピラティススタジオ。浜松プラザフレスポ1階に位置し、4名以下の少人数制で丁寧な指導。和を基調とした落ち着いた空間でレッスン。レンタルウェア・ソックス無料で手ぶらOK。年中無休で8:00〜21:00営業。',
+    description: '2025年8月オープンの少人数制マシンピラティススタジオです。浜松プラザフレスポ1階に位置し、4名以下の少人数制で丁寧な指導です。和を基調とした落ち着いた空間でレッスンです。レンタルウェア・ソックス無料で手ぶらで参加可能です。年中無休で8:00〜21:00営業しています。',
     access: '浜松駅から遠鉄バス「浜松プラザ」下車すぐ・東名浜松IC約10分',
     address: '静岡県浜松市中央区上西町1020-33 浜松プラザフレスポ1階',
     popularPlan: {
       name: '月8回プラン',
-      description: '少人数制マシンピラティス月8回。1回あたり3,025円でコスパ◎。',
+      description: '少人数制マシンピラティス月8回です。1回あたり3,025円で割安です。',
       price: '月8回（1回あたり3,025円）',
     },
     options: [
@@ -90,12 +90,12 @@ const studios = [
     price: '1回 4,400円〜',
     trial: '体験レッスン 4,400円',
     features: ['本格マシン完備', 'マタニティ対応', 'ハンモックピラティス', 'パーソナル'],
-    description: 'アメリカより輸入した本格的なピラティスマシンを豊富に備えた浜松のピラティス専門スタジオ。リフォーマー・キャデラック・チェア・バレルなど充実の設備。初心者からマタニティ、上級者まで幅広く対応。ハンモックピラティスも人気。',
+    description: 'アメリカより輸入した本格的なピラティスマシンを豊富に備えた浜松のピラティス専門スタジオです。リフォーマー・キャデラック・チェア・バレルなど充実の設備です。初心者からマタニティ、上級者まで幅広く対応しています。ハンモックピラティスも人気です。',
     access: '浜松駅より車で10分・ホワイトストリート沿い',
     address: '静岡県浜松市中央区佐鳴台6丁目9-12',
     popularPlan: {
       name: 'パーソナルレッスン',
-      description: '本格マシンを使ったマンツーマンレッスン。初心者からマタニティまで対応。',
+      description: '本格マシンを使ったマンツーマンレッスンです。初心者からマタニティまで対応しています。',
       price: '1回 4,400円〜（税込）',
     },
     options: [
@@ -121,12 +121,12 @@ const studios = [
     price: '月額 8,800円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', '40-60代歓迎', '通い放題8,800円', 'ヨガ&バレエも'],
-    description: '浜松市の女性専用ピラティス・ヨガ・バレエスタジオ。特に40代・50代・60代の女性に人気。マシンピラティス通い放題が月8,800円と非常にリーズナブル。マットピラティス・マシンピラティス・ヨガ・バレエなど多彩なプログラム。オンラインレッスンも対応。',
+    description: '浜松市の女性専用ピラティス・ヨガ・バレエスタジオです。特に40代・50代・60代の女性に人気です。マシンピラティス通い放題が月8,800円と非常にリーズナブルです。マットピラティス・マシンピラティス・ヨガ・バレエなど多彩なプログラムです。オンラインレッスンも対応しています。',
     access: '文化芸術大学東側・駐車場あり',
     address: '静岡県浜松市（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: '通い放題プラン',
-      description: 'マシンピラティス・マットピラティス・ヨガ・バレエが通い放題。',
+      description: 'マシンピラティス・マットピラティス・ヨガ・バレエが通い放題です。',
       price: '月額 8,800円〜（税込）',
     },
     options: [
@@ -153,12 +153,12 @@ const studios = [
     price: '月4回 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', 'ドンキ内', '体験0円', '2店舗展開'],
-    description: '浜松2店舗目の女性専用マシンピラティス専門スタジオ。MEGAドン・キホーテUNY浜松泉町店内に位置し、広い駐車場完備で車で通いやすい。メイワン店と同じ料金・プログラムで、2店舗間の相互利用も可能。',
+    description: '浜松2店舗目の女性専用マシンピラティス専門スタジオです。MEGAドン・キホーテUNY浜松泉町店内に位置し、広い駐車場完備で車で通いやすいです。メイワン店と同じ料金・プログラムで、2店舗間の相互利用も可能です。',
     access: 'MEGAドン・キホーテUNY浜松泉町店内・駐車場完備',
     address: '静岡県浜松市中央区泉町（MEGAドン・キホーテUNY浜松泉町店内）',
     popularPlan: {
       name: 'マンスリー4メンバー（月4回）',
-      description: '女性専用マシンピラティス月4回。メイワン店との相互利用可能。',
+      description: '女性専用マシンピラティス月4回です。メイワン店との相互利用可能です。',
       price: '月4回 13,420円（税込）',
     },
     options: [
@@ -183,14 +183,14 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=J11817X.1.B1620582.U1357808',
     image: '/images/studios/247-pilates.webp',
     price: '月2回 14,500円〜 / 月4回 27,000円〜 / 月8回 52,000円〜（税込）',
-    trial: '体験レッスン 無料（説明含め約60分・手ぶらOK）',
+    trial: '体験レッスン 無料（説明含め約60分・手ぶらで参加可能）',
     features: ['マシンピラティス', '女性専用', '完全個室パーソナル', '入会金不要・月謝制'],
-    description: '完全個室・マンツーマンの女性専用パーソナルピラティススタジオ。入会金不要の月謝制で、一人ひとりに合わせたオリジナルプログラムを提供。浜松駅から徒歩9分。',
+    description: '完全個室・マンツーマンの女性専用パーソナルピラティススタジオです。入会金不要の月謝制で、一人ひとりに合わせたオリジナルプログラムを提供しています。浜松駅から徒歩9分です。',
     access: '浜松駅から徒歩9分',
     address: '静岡県浜松市中区鍛冶町15 ザザシティ浜松西館3F 302号',
     popularPlan: {
       name: '月4回プラン',
-      description: '完全個室でマシンを使ったマンツーマン指導。入会金不要の月謝制。',
+      description: '完全個室でマシンを使ったマンツーマン指導しています。入会金不要の月謝制です。',
       price: '月4回 27,000円〜（税込）',
     },
     options: [
@@ -212,31 +212,31 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！浜松エリアのスタジオはほとんどが初心者歓迎。ピラティスKは体験0円、KASANEは少人数制で丁寧に指導。ルーエは初心者向けプログラムも充実。',
+    answer: '問題ありません。浜松エリアのスタジオはほとんどが初心者歓迎です。ピラティスKは体験0円、KASANEは少人数制で丁寧に指導しています。ルーエは初心者向けプログラムも充実しています。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。浜松ではピラティスK、KASANE、ルーエ、HELSTAでマシンピラティスが受けられます。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。浜松ではピラティスK、KASANE、ルーエ、HELSTAでマシンピラティスが受けられます。',
   },
   {
     question: '浜松のピラティスの料金相場は？',
-    answer: 'グループ月4回で13,420円〜15,400円程度。ピラティスKが月4回13,420円〜で最もリーズナブル。HELSTAは通い放題8,800円〜。',
+    answer: 'グループ月4回で13,420円〜15,400円程度です。ピラティスKが月4回13,420円〜で最もリーズナブルです。HELSTAは通い放題8,800円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。大切なのは継続すること。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。大切なのは継続することです。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。KASANEはレンタルウェア無料で手ぶらOK。ピラティスKは体験0円で気軽に試せます。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。KASANEはレンタルウェア無料で手ぶらで参加可能です。ピラティスKは体験0円で気軽に試せます。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹強化・姿勢改善に特化。ヨガは柔軟性とリラックス重視。HELSTAでは両方楽しめます。',
+    answer: 'ピラティスは体幹強化・姿勢改善に特化しています。ヨガは柔軟性とリラックス重視です。HELSTAでは両方楽しめます。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
@@ -244,11 +244,11 @@ const faqs = [
   },
   {
     question: '無料で体験できるスタジオは？',
-    answer: 'ピラティスK浜松メイワン店・泉町店は体験0円。KASANEは体験3,000円、ルーエは体験4,400円。',
+    answer: 'ピラティスK浜松メイワン店・泉町店は体験0円です。KASANEは体験3,000円、ルーエは体験4,400円です。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -269,8 +269,8 @@ export default function HamamatsuPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス浜松おすすめ6選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス浜松おすすめ6選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -293,29 +293,11 @@ export default function HamamatsuPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「浜松で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、浜松エリアでおすすめのピラティススタジオ6選をまとめました。
+              本ページでは、浜松エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -340,7 +322,7 @@ export default function HamamatsuPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -408,25 +390,25 @@ export default function HamamatsuPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">JR東海「浜松駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  浜松エリアのスタジオは浜松駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。浜松駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  浜松エリアのスタジオは浜松駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。浜松駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">浜松エリアの人気時間帯を把握して予約を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  浜松エリアでは平日夕方以降と土日午前中が予約の集中する時間帯です。特にマシンピラティスは定員が少ないため、希望の日時があれば早めの予約がおすすめ。スタジオによってはキャンセル待ち機能やLINE通知で空き枠をお知らせしてくれるところもあります。
+                  浜松エリアでは平日夕方以降と土日午前中が予約の集中する時間帯です。特にマシンピラティスは定員が少ないため、希望の日時があれば早めの予約がおすすめです。スタジオによってはキャンセル待ち機能やLINE通知で空き枠をお知らせしてくれるところもあります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">料金プランの種類と契約条件をしっかり比較</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  浜松エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかを確認しましょう。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため要チェックです。
+                  浜松エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかをご確認ください。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため、事前にご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  浜松エリアだけでなく、近隣の<Link href="/area/nagoya/" className="text-warm-700 underline hover:text-warm-900">名古屋</Link>、<Link href="/area/shizuoka/" className="text-warm-700 underline hover:text-warm-900">静岡</Link>、<Link href="/area/yokohama/" className="text-warm-700 underline hover:text-warm-900">横浜</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  浜松エリアだけでなく、近隣の<Link href="/area/nagoya/" className="text-warm-700 underline hover:text-warm-900">名古屋</Link>、<Link href="/area/shizuoka/" className="text-warm-700 underline hover:text-warm-900">静岡</Link>、<Link href="/area/yokohama/" className="text-warm-700 underline hover:text-warm-900">横浜</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -444,25 +426,25 @@ export default function HamamatsuPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>浜松エリアの豆知識：</strong>浜松は地元の方に愛されるスタジオが中心です。車で通う場合は駐車場の有無を事前に確認。電車の場合は駅からの距離だけでなく、帰りの電車の時刻も確認しておくとスムーズです。
+                  <strong>浜松エリアの豆知識：</strong>浜松は地元の方に愛されるスタジオが中心です。車で通う場合は駐車場の有無を事前にご確認ください。電車の場合は駅からの距離だけでなく、帰りの電車の時刻も確認しておくとスムーズです。
                 </p>
               </div>
             </div>
@@ -480,7 +462,7 @@ export default function HamamatsuPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額2万円未満で通えるスタジオ（店舗カードの料金）。
+                  月額2万円未満で通えるスタジオです（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• HELSTA（ヘルスタ）浜松（月額 8,800円〜）</li>
@@ -491,7 +473,7 @@ export default function HamamatsuPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性だけの安心空間。
+                  女性だけの安心空間です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK 浜松メイワン店</li>
@@ -502,7 +484,7 @@ export default function HamamatsuPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  駅から徒歩2分以内。
+                  駅から徒歩2分以内です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK 浜松メイワン店（JR東海「浜松駅」直結 メイワン6階）</li>
@@ -521,15 +503,15 @@ export default function HamamatsuPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回からスタート。最低2-3ヶ月継続で効果を実感。
+                週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回がおすすめ。3-6ヶ月で目に見える変化。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。
+                週1回のペースで無理なく継続することをおすすめします。
               </p>
             </div>
           </div>
@@ -546,7 +528,7 @@ export default function HamamatsuPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜13,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月3〜4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。
+                  グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• HELSTA 浜松（月額 8,800円〜）</li>
@@ -557,7 +539,7 @@ export default function HamamatsuPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜15,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン専門スタジオ。
+                  マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（13,420円〜）</li>
@@ -567,7 +549,7 @@ export default function HamamatsuPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 16,000〜29,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">通い放題</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  毎日通いたい方。
+                  毎日通いたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（16,170円/通い放題）</li>
@@ -599,7 +581,7 @@ export default function HamamatsuPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  浜松の料金相場はグループ月4回で10,450円〜15,070円。入会金やキャンペーンも確認しましょう。
+                  浜松の料金相場はグループ月4回で10,450円〜15,070円です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -608,7 +590,7 @@ export default function HamamatsuPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  体験料金は、ピラティスK 浜松メイワン店が「体験レッスン 0円」、Pilates KASANE 浜松プラザフレスポ店が「体験レッスン 3,000円」、ピラティススタジオ ルーエが「体験レッスン 4,400円」、ピラティスK MEGAドン・キホーテUNY浜松泉町店が「体験レッスン 0円」です（店舗カードの記載）。最新の条件は各公式サイトで確認しましょう。
+                  体験料金は、ピラティスK 浜松メイワン店が「体験レッスン 0円」、Pilates KASANE 浜松プラザフレスポ店が「体験レッスン 3,000円」、ピラティススタジオ ルーエが「体験レッスン 4,400円」、ピラティスK MEGAドン・キホーテUNY浜松泉町店が「体験レッスン 0円」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -617,7 +599,7 @@ export default function HamamatsuPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  浜松の掲載スタジオでは、ピラティスK 浜松メイワン店（JR東海「浜松駅」直結 メイワン6階）が駅から近いスタジオです。通う時間帯の経路も確認しておきましょう。
+                  浜松の掲載スタジオでは、ピラティスK 浜松メイワン店（JR東海「浜松駅」直結 メイワン6階）が駅から近いスタジオです。通う時間帯の経路もご確認ください。
                 </p>
               </div>
             </div>
@@ -660,13 +642,13 @@ export default function HamamatsuPage() {
               今回は浜松エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では浜松にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、浜松にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -675,11 +657,11 @@ export default function HamamatsuPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,850円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜3,850円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

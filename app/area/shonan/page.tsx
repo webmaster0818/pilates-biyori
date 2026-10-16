@@ -18,7 +18,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/shonan/' },
   title: '【2026年10月最新】湘南のピラティス5社を比較｜無料体験2社・月額最安8,800円〜',
-  description: '湘南エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  description: '湘南エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,湘南,辻堂,藤沢,神奈川,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -29,13 +29,13 @@ const studios = [
     image: '/images/studios/club-pilates.webp',
     price: '月4回 14,190円／月8回 26,290円／通い放題 40,590円（公式店舗ページ・税表記なし）',
     trial: '体験レッスン 無料（30分イントロクラス）',
-    features: ['辻堂駅直結', '世界最大級', '15種類の器具', '男性OK'],
-    description: '世界最大級のマシンピラティスブランド。テラスモール湘南ヴィレッジ1Fに位置し、辻堂駅直結でアクセス抜群。リフォーマー・スプリングボード・TRX・チェアなど15種類のマシン・器具を完備。8つのプログラムと4段階のレベル分けで初心者から上級者まで対応。',
+    features: ['辻堂駅直結', '世界最大級', '15種類の器具', '男性利用可'],
+    description: '世界最大級のマシンピラティスブランドです。テラスモール湘南ヴィレッジ1Fに位置し、辻堂駅直結でアクセス抜群です。リフォーマー・スプリングボード・TRX・チェアなど15種類のマシン・器具を完備しています。8つのプログラムと4段階のレベル分けで初心者から上級者まで対応しています。',
     access: 'JR東海道線・湘南新宿ライン「辻堂駅」直結 テラスモール湘南ヴィレッジ1F',
     address: '神奈川県藤沢市辻堂神台1-3-1 テラスモール湘南 湘南ヴィレッジ1F',
     popularPlan: {
       name: 'グループ月4回プラン',
-      description: '15種類の器具を使った本格グループレッスン。4段階のレベル分けで安心。',
+      description: '15種類の器具を使った本格グループレッスンです。4段階のレベル分けで安心です。',
       price: '月4回 14,190円（税表記なし）',
     },
     options: ['月8回 26,290円', '通い放題 40,590円', '入会金 5,500円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
@@ -57,12 +57,12 @@ const studios = [
     price: '月4回 8,800円〜',
     trial: '体験レッスン あり（キャンペーン時無料）',
     features: ['女性専用', '辻堂駅徒歩3分', 'LAVA運営', 'リーズナブル'],
-    description: 'ホットヨガ大手LAVAが運営する女性専用マシンピラティススタジオ。Luz湘南辻堂6Fに位置し、辻堂駅北口から徒歩3分。大画面映像を見ながらリフォーマーでトレーニング。インストラクターが巡回しフォームをチェック。',
+    description: 'ホットヨガ大手LAVAが運営する女性専用マシンピラティススタジオです。Luz湘南辻堂6Fに位置し、辻堂駅北口から徒歩3分です。大画面映像を見ながらリフォーマーでトレーニングです。インストラクターが巡回しフォームをご確認ください。',
     access: 'JR東海道本線・湘南新宿ライン「辻堂駅」北口 徒歩3分',
     address: '神奈川県藤沢市辻堂神台1-2-12 Luz湘南辻堂6F',
     popularPlan: {
       name: 'マシンピラティス月4回プラン',
-      description: '映像を見ながらリフォーマーでトレーニング。女性専用の安心空間。',
+      description: '映像を見ながらリフォーマーでトレーニングです。女性専用の安心空間です。',
       price: '月4回 8,800円（税込）',
     },
     options: [
@@ -88,12 +88,12 @@ const studios = [
     price: '1回 2,500円〜',
     trial: '体験レッスン 1,650円',
     features: ['少人数制', '3プログラム', 'STOTT認定', '養成コース併設'],
-    description: '資格保有の経験豊富なインストラクターによる少人数制グループレッスンとプライベートレッスンを提供。ピラティス・ヨガ・TRXの3プログラムでインナーマッスルを強化。STOTT PILATES認定インストラクター養成コースも併設。',
+    description: '資格保有の経験豊富なインストラクターによる少人数制グループレッスンとプライベートレッスンを提供しています。ピラティス・ヨガ・TRXの3プログラムでインナーマッスルを強化しています。STOTT PILATES認定インストラクター養成コースも併設しています。',
     access: 'JR東海道線「辻堂駅」南口 徒歩5分',
     address: '神奈川県藤沢市辻堂2-3-1 マリス湘南3F',
     popularPlan: {
       name: 'グループレッスン月4回',
-      description: '最大5〜8名の少人数制。ピラティス・ヨガ・TRXから選べる。',
+      description: '最大5〜8名の少人数制です。ピラティス・ヨガ・TRXから選べます。',
       price: '月4回プラン（詳細は公式サイト）',
     },
     options: [
@@ -119,12 +119,12 @@ const studios = [
     price: '1回 3,300円',
     trial: '体験レッスンあり',
     features: ['女性専用', '少人数制', '都度払い可', '湘南T-SITE内'],
-    description: '女性専用・少人数制のマシンピラティススタジオ。TSUTAYAが運営する「TSUTAYA Conditioning」のピラティス専門店。湘南T-SITE内に位置し、買い物と合わせて楽しめる。都度払い制で気軽に通える。',
+    description: '女性専用・少人数制のマシンピラティススタジオです。TSUTAYAが運営する「TSUTAYA Conditioning」のピラティス専門店です。湘南T-SITE内に位置し、買い物と合わせて楽しめます。都度払い制で気軽に通えます。',
     access: '小田急江ノ島線「本鵠沼駅」徒歩約15分 / JR「藤沢駅」北口バス約15分',
     address: '神奈川県藤沢市辻堂元町6-20-1 湘南T-SITE内',
     popularPlan: {
       name: '都度払いプラン',
-      description: '女性専用マシンピラティス。1回ごとの都度払いで気軽に通える。',
+      description: '女性専用マシンピラティスです。1回ごとの都度払いで気軽に通えます。',
       price: '1回 3,300円（税込）',
     },
     options: [
@@ -149,13 +149,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
-    features: ['藤沢駅徒歩2分', '全国相互利用', '男性OK', '20年以上の実績'],
-    description: 'ピラティス専門の大手スタジオ。藤沢駅から徒歩2分。マットグループ・マシングループ・プライベートの3タイプ。全国150店舗以上で相互利用可能。ピラティス専門20年以上の実績と高品質なインストラクター。',
+    features: ['藤沢駅徒歩2分', '全国他店利用', '男性利用可', '20年以上の実績'],
+    description: 'ピラティス専門の大手スタジオです。藤沢駅から徒歩2分です。マットグループ・マシングループ・プライベートの3タイプです。全国150店舗以上で他店利用可能です。ピラティス専門20年以上の実績と高品質なエデュケーターです。',
     access: 'JR東海道線・小田急江ノ島線「藤沢駅」南口 徒歩2分',
     address: '神奈川県藤沢市南藤沢2-8 2002K&Sビルディング 4階',
     popularPlan: {
       name: 'フリープラン（マットグループ）',
-      description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。',
+      description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。',
       price: '月額 16,940円（税込）',
     },
     options: [
@@ -180,31 +180,31 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！湘南・辻堂エリアのスタジオはほとんどが初心者歓迎。CLUB PILATESは4段階のレベル分け、Rintosullは映像ガイドで初心者でも安心です。',
+    answer: '問題ありません。湘南・辻堂エリアのスタジオはほとんどが初心者歓迎です。CLUB PILATESは4段階のレベル分け、Rintosullは映像ガイドで初心者でも安心です。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。湘南エリアはマシン専門スタジオが充実しています。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。湘南エリアはマシン専門スタジオが充実しています。',
   },
   {
     question: '湘南エリアのピラティスの料金相場は？',
-    answer: 'グループ月4回で8,800円〜14,190円程度。Rintosullが月4回8,800円〜で最もリーズナブル。zen placeは月4回10,450円〜。CLUB PILATESは月4回 14,190円。',
+    answer: 'グループ月4回で8,800円〜14,190円程度です。Rintosullが月4回8,800円〜で最もリーズナブルです。zen placeは月4回10,450円〜です。CLUB PILATESは月4回 14,190円です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に増やしましょう。大切なのは継続することです。',
+    answer: '初心者は週1〜2回がおすすめです。慣れたら週2〜3回に増やすことをおすすめします。大切なのは継続することです。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。CLUB PILATESは無料イントロクラスあり。各スタジオの持ち物は事前に確認しましょう。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。CLUB PILATESは無料イントロクラスがあります。各スタジオの持ち物は事前にご確認ください。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹強化・姿勢改善に特化。ヨガは柔軟性とリラックス重視。VIE PILATESではヨガクラスも受講できます。',
+    answer: 'ピラティスは体幹強化・姿勢改善に特化しています。ヨガは柔軟性とリラックス重視です。VIE PILATESではヨガクラスも受講できます。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
@@ -212,11 +212,11 @@ const faqs = [
   },
   {
     question: '無料で体験できるスタジオは？',
-    answer: 'CLUB PILATESは無料の30分イントロクラスあり。zen placeはグループ体験1,000円。VIE PILATESは体験1,650円。',
+    answer: 'CLUB PILATESは無料の30分イントロクラスがあります。zen placeはグループ体験1,000円です。VIE PILATESは体験1,650円です。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -237,8 +237,8 @@ export default function ShonanPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス湘南・辻堂おすすめ5選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス湘南・辻堂おすすめ5選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -263,29 +263,11 @@ export default function ShonanPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「湘南・辻堂で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、湘南・辻堂エリアでおすすめのピラティススタジオ5選をまとめました。
+              本ページでは、湘南・辻堂エリアでおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -310,7 +292,7 @@ export default function ShonanPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -364,7 +346,7 @@ export default function ShonanPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              湘南・辻堂は海に近い開放的な雰囲気が魅力のエリアです。観光客向けの体験クラスからしっかり通える月額プランまで幅広く、リゾート感覚で通えるスタジオもあります。地元密着型スタジオは料金も良心的なので要チェックです。近隣の藤沢エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
+              湘南・辻堂は海に近い開放的な雰囲気が魅力のエリアです。観光客向けの体験クラスからしっかり通える月額プランまで幅広く、リゾート感覚で通えるスタジオもあります。地元密着型スタジオは料金も良心的なのでご確認ください。近隣の藤沢エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
             </p>
           </div>
         </section>
@@ -379,25 +361,25 @@ export default function ShonanPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">JR東海道線・湘南新宿ライン「辻堂駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  湘南・辻堂エリアのスタジオは辻堂駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。辻堂駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  湘南・辻堂エリアのスタジオは辻堂駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。辻堂駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">観光シーズンの混雑に備えた予約を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  湘南・辻堂は観光エリアとしても人気のため、GW・夏休み・年末年始は体験レッスンの申し込みが増加します。地元の方は観光シーズンを避けた平日昼間が快適に通える時間帯。ビジター利用を受け付けるスタジオもあるので、旅行のついでに体験するのもおすすめです。
+                  湘南・辻堂は観光エリアとしても人気のため、GW・夏休み・年末年始は体験レッスンの申し込みが増加します。地元の方は観光シーズンを避けた平日昼間が快適に通える時間帯です。ビジター利用を受け付けるスタジオもあるので、旅行のついでに体験するのもおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">季節による料金プランの違いに注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  湘南・辻堂エリアでは季節限定のキャンペーンや、夏季限定の短期集中プランを提供するスタジオもあります。年間を通して通うなら月額制が割安ですが、特定の時期だけ通いたい方は回数券を検討しましょう。入会時のキャンペーンは時期によって内容が変わるので、タイミングを見計らうのもポイントです。
+                  湘南・辻堂エリアでは季節限定のキャンペーンや、夏季限定の短期集中プランを提供するスタジオもあります。年間を通して通うなら月額制が割安ですが、特定の時期だけ通いたい方は回数券をご検討ください。入会時のキャンペーンは時期によって内容が変わるので、タイミングを見計らうのもポイントです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  湘南・辻堂エリアだけでなく、近隣の<Link href="/area/fujisawa/" className="text-warm-700 underline hover:text-warm-900">藤沢</Link>、<Link href="/area/kamakura/" className="text-warm-700 underline hover:text-warm-900">鎌倉</Link>、<Link href="/area/yokohama/" className="text-warm-700 underline hover:text-warm-900">横浜</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  湘南・辻堂エリアだけでなく、近隣の<Link href="/area/fujisawa/" className="text-warm-700 underline hover:text-warm-900">藤沢</Link>、<Link href="/area/kamakura/" className="text-warm-700 underline hover:text-warm-900">鎌倉</Link>、<Link href="/area/yokohama/" className="text-warm-700 underline hover:text-warm-900">横浜</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -415,25 +397,25 @@ export default function ShonanPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>湘南・辻堂エリアの豆知識：</strong>湘南・辻堂は海沿いのエリアならではの開放感が魅力です。特に夏場は汗をかきやすいので、制汗スプレーや替えのTシャツを持参すると快適。海風で髪が乱れやすい時期は、ヘアバンドやヘアゴムも忘れずに。
+                  <strong>湘南・辻堂エリアの豆知識：</strong>湘南・辻堂は海沿いのエリアならではの開放感が魅力です。特に夏場は汗をかきやすいので、制汗スプレーや替えのTシャツを持参すると快適です。海風で髪が乱れやすい時期は、ヘアバンドやヘアゴムも忘れずにご用意ください。
                 </p>
               </div>
             </div>
@@ -451,7 +433,7 @@ export default function ShonanPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額2万円未満で通えるスタジオ（店舗カードの料金）。
+                  月額2万円未満で通えるスタジオです（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull（リントスル）辻堂店（月4回 8,800円〜）</li>
@@ -462,7 +444,7 @@ export default function ShonanPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性だけの安心空間。
+                  女性だけの安心空間です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull（リントスル）辻堂店</li>
@@ -472,7 +454,7 @@ export default function ShonanPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  駅から徒歩2分以内。
+                  駅から徒歩2分以内です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• CLUB PILATES 辻堂店（JR東海道線・湘南新宿ライン「辻堂駅」直結 テラスモール湘南ヴィレッジ1F）</li>
@@ -492,15 +474,15 @@ export default function ShonanPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回からスタート。最低2-3ヶ月継続で効果を実感。
+                週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回がおすすめ。3-6ヶ月で目に見える変化。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。
+                週1回のペースで無理なく継続することをおすすめします。
               </p>
             </div>
           </div>
@@ -517,7 +499,7 @@ export default function ShonanPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜13,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月3〜4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。
+                  グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（10,450円〜/月4回）</li>
@@ -528,7 +510,7 @@ export default function ShonanPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜15,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン専門スタジオ。
+                  マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• CLUB PILATES（月4回 14,190円）</li>
@@ -538,7 +520,7 @@ export default function ShonanPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 16,000〜29,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">通い放題</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  毎日通いたい方。
+                  毎日通いたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• CLUB PILATES（通い放題 40,590円）</li>
@@ -570,7 +552,7 @@ export default function ShonanPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  湘南・辻堂の料金相場はグループ月4回で10,450円〜15,070円。入会金やキャンペーンも確認しましょう。
+                  湘南・辻堂の料金相場はグループ月4回で10,450円〜15,070円です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -579,7 +561,7 @@ export default function ShonanPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  体験料金は、CLUB PILATES 辻堂店が「体験レッスン 無料（30分イントロクラス）」、Rintosull（リントスル）辻堂店が「体験レッスン あり（キャンペーン時無料）」、VIE PILATES STUDIO 湘南辻堂が「体験レッスン 1,650円」、zen place pilates 藤沢スタジオが「グループ体験 1,000円」です（店舗カードの記載）。最新の条件は各公式サイトで確認しましょう。
+                  体験料金は、CLUB PILATES 辻堂店が「体験レッスン 無料（30分イントロクラス）」、Rintosull（リントスル）辻堂店が「体験レッスン あり（キャンペーン時無料）」、VIE PILATES STUDIO 湘南辻堂が「体験レッスン 1,650円」、zen place pilates 藤沢スタジオが「グループ体験 1,000円」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -588,7 +570,7 @@ export default function ShonanPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  湘南・辻堂の掲載スタジオでは、CLUB PILATES 辻堂店（JR東海道線・湘南新宿ライン「辻堂駅」直結 テラスモール湘南ヴィレッジ1F）、zen place pilates 藤沢スタジオ（JR東海道線・小田急江ノ島線「藤沢駅」南口 徒歩2分）、Rintosull（リントスル）辻堂店（JR東海道本線・湘南新宿ライン「辻堂駅」北口 徒歩3分）が駅から近いスタジオです。通う時間帯の経路も確認しておきましょう。
+                  湘南・辻堂の掲載スタジオでは、CLUB PILATES 辻堂店（JR東海道線・湘南新宿ライン「辻堂駅」直結 テラスモール湘南ヴィレッジ1F）、zen place pilates 藤沢スタジオ（JR東海道線・小田急江ノ島線「藤沢駅」南口 徒歩2分）、Rintosull（リントスル）辻堂店（JR東海道本線・湘南新宿ライン「辻堂駅」北口 徒歩3分）が駅から近いスタジオです。通う時間帯の経路もご確認ください。
                 </p>
               </div>
             </div>
@@ -631,13 +613,13 @@ export default function ShonanPage() {
               今回は湘南・辻堂エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では湘南・辻堂にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、湘南・辻堂にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -646,11 +628,11 @@ export default function ShonanPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,850円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜3,850円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

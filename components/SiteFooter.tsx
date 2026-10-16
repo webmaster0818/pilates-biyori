@@ -8,7 +8,7 @@ export function SiteFooter() {
           <div>
             <span className="font-serif text-xl font-light text-white tracking-wider">Pilates-Biyori</span>
             <p className="text-warm-500 text-xs mt-4 leading-relaxed font-light">
-              初心者から経験者まで、あなたに最適なピラティスが見つかるメディア
+              初心者から経験者まで、ピラティススタジオ選びに役立つ情報を提供するメディアです。
             </p>
           </div>
           <div>

@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kashiwa/' },
   title: '【2026年10月最新】柏のピラティス6社を比較｜無料体験2社・月額最安7,700円〜',
-  description: '柏エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  description: '柏エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,柏,千葉,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -27,12 +27,12 @@ const studios = [
     price: '月4回 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', '柏駅徒歩3分', '部位別プログラム', '0円体験'],
-    description: '女性専用マシンピラティス専門スタジオ。柏駅東口から徒歩3分。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実。お腹・お尻・二の腕・脚・背中に特化したプログラムで効率的にボディメイク。',
+    description: '女性専用マシンピラティス専門スタジオです。柏駅東口から徒歩3分です。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実しています。お腹・お尻・二の腕・脚・背中に特化したプログラムで効率的にボディメイクを目指せます。',
     access: 'JR常磐線・東武野田線「柏駅」東口 徒歩3分',
     address: '千葉県柏市柏1丁目4-26 第二藤川ビル 7F',
     popularPlan: {
       name: 'マンスリー4メンバー（月4回）',
-      description: '女性専用マシンピラティス月4回。部位別プログラムも選べる。',
+      description: '女性専用マシンピラティス月4回です。部位別プログラムも選べます。',
       price: '月4回 13,420円（税込）',
     },
     options: [
@@ -58,13 +58,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
-    features: ['柏駅徒歩1分', '2025年新規OPEN', '男性OK', '全国相互利用'],
-    description: 'ピラティス専門の大手スタジオ。柏駅から徒歩1分。2025年1月にオープンした新しいスタジオ。マットグループ・マシングループ・プライベートの3タイプ。全国150店舗以上で相互利用可能。朝7時から夜22時まで幅広い時間帯でレッスンを提供。',
+    features: ['柏駅徒歩1分', '2025年新規OPEN', '男性利用可', '全国他店利用'],
+    description: 'ピラティス専門の大手スタジオです。柏駅から徒歩1分です。2025年1月にオープンした新しいスタジオです。マットグループ・マシングループ・プライベートの3タイプです。全国150店舗以上で他店利用可能です。朝7時から夜22時まで幅広い時間帯でレッスンを提供しています。',
     access: 'JR常磐線・東武野田線「柏駅」東口 徒歩1分',
     address: '千葉県柏市柏1-2-37 柏ちば興銀ビル4F402',
     popularPlan: {
       name: 'フリープラン（マットグループ）',
-      description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。',
+      description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。',
       price: '月額 16,940円（税込）',
     },
     options: [
@@ -90,13 +90,13 @@ const studios = [
     image: '/images/studios/the-silk.webp',
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
-    features: ['女性専用', '柏駅徒歩1分', '手ぶら体験OK', '初心者8割'],
-    description: '女性専用マシンピラティススタジオ。柏駅から徒歩1分。初心者が8割のスタジオで、難易度別・部位別にレッスンが分かれているため自分に合ったクラスが見つかります。パウダールームも充実。手ぶらで体験可能。',
+    features: ['女性専用', '柏駅徒歩1分', '手ぶらで体験可能', '初心者8割'],
+    description: '女性専用マシンピラティススタジオです。柏駅から徒歩1分です。初心者が8割のスタジオで、難易度別・部位別にレッスンが分かれているため自分に合ったクラスが見つかります。パウダールームも充実しています。手ぶらで体験可能です。',
     access: 'JR常磐線・東武野田線「柏駅」徒歩1分',
     address: '千葉県柏市末広町4-13 関口由蔵ビル 3F',
     popularPlan: {
       name: 'Standard4（月4回）',
-      description: '女性専用マシンピラティス月4回。音楽に合わせた楽しいレッスン。',
+      description: '女性専用マシンピラティス月4回です。音楽に合わせた楽しいレッスンです。',
       price: '月4回 15,070円（税込）',
     },
     options: [
@@ -121,13 +121,13 @@ const studios = [
     image: '/images/studios/mapila-shinjuku.webp',
     price: '月会費 7,700円〜',
     trial: '体験レッスンあり',
-    features: ['女性専用', '柏駅徒歩1分', '予約不要', 'コスパ最強'],
-    description: '女性専用マシンピラティス専門スタジオ。柏駅東口から徒歩1分の柏モア2階。タワー付きリフォーマーを完備し、ハーフタワーを地域最多数導入。部位別・目的別に特化したレッスンが予約不要で受講可能。月会費7,700円〜と柏エリアで最もリーズナブル。',
+    features: ['女性専用', '柏駅徒歩1分', '予約不要', '割安'],
+    description: '女性専用マシンピラティス専門スタジオです。柏駅東口から徒歩1分の柏モア2階です。タワー付きリフォーマーを完備し、ハーフタワーを地域最多数導入しています。部位別・目的別に特化したレッスンが予約不要で受講可能です。月会費7,700円〜と柏エリアで最もリーズナブルです。',
     access: 'JR常磐線・東武野田線「柏駅」東口改札 徒歩1分（柏モア 2F）',
     address: '千葉県柏市柏2丁目10-1 柏モア 2F',
     popularPlan: {
       name: '月額会員プラン',
-      description: '女性専用マシンピラティス。タワー付きリフォーマー使用。予約不要。',
+      description: '女性専用マシンピラティスです。タワー付きリフォーマー使用です。予約不要です。',
       price: '月会費 7,700円〜（税込）',
     },
     options: [
@@ -153,12 +153,12 @@ const studios = [
     price: 'プライベートレッスン（詳細は公式サイト）',
     trial: '体験レッスンあり',
     features: ['理学療法士', 'プライベート専門', '柏駅近く', '医学的アプローチ'],
-    description: '柏駅エリア唯一の理学療法士によるマシンピラティス専門スタジオ。完全プライベートレッスンで、医学的知識と運動療法の専門知識を持った指導者が一人ひとりの状態に合わせた安全で効果的なトレーニングを提供。腰痛・肩こりなど体の不調改善にも対応。',
+    description: '柏駅エリア唯一の理学療法士によるマシンピラティス専門スタジオです。完全プライベートレッスンで、医学的知識と運動療法の専門知識を持った指導者が一人ひとりの状態に合わせた安全で効果的なトレーニングを提供しています。腰痛・肩こりなど体の不調改善にも対応しています。',
     access: 'JR常磐線・東武野田線「柏駅」西口 徒歩圏内',
     address: '千葉県柏市旭町1丁目12-13 M\'s旭町Bld 3F',
     popularPlan: {
       name: 'プライベートレッスン',
-      description: '理学療法士によるマンツーマンマシンピラティス。完全オーダーメイド。',
+      description: '理学療法士によるマンツーマンマシンピラティスです。完全オーダーメイドです。',
       price: '詳細は公式サイトでご確認ください',
     },
     options: [
@@ -186,7 +186,7 @@ const studios = [
     priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
     trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '女性専用のマシンピラティス専門スタジオ。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴。柏駅から徒歩4分。',
+    description: '女性専用のマシンピラティス専門スタジオです。1セッション最大3名のセミパーソナル形式で、グループより手厚くパーソナルより通いやすい価格帯が特徴です。柏駅から徒歩4分です。',
     access: '柏駅 徒歩4分',
     address: '〒277-0021 千葉県柏市中央町２−２８ アーク柏中央402',
     userProfile: {
@@ -206,31 +206,31 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！柏エリアのスタジオはほとんどが初心者歓迎。the SILKは体験者の約8割がピラティス未経験者。KASHIWA DE PILATES SHIPは理学療法士によるプライベートレッスンで初心者にも丁寧に指導。',
+    answer: '問題ありません。柏エリアのスタジオはほとんどが初心者歓迎です。the SILKは体験者の約8割がピラティス未経験者です。KASHIWA DE PILATES SHIPは理学療法士によるプライベートレッスンで初心者にも丁寧に指導しています。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。柏はマシン専門スタジオが特に充実。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。柏はマシン専門スタジオが特に充実しています。',
   },
   {
     question: '柏のピラティスの料金相場は？',
-    answer: 'グループ月4回で7,700円〜15,070円程度。Mapilaが月会費7,700円〜で最もリーズナブル。zen placeは月4回10,450円〜。the SILKは月3回12,980円〜。',
+    answer: 'グループ月4回で7,700円〜15,070円程度です。Mapilaが月会費7,700円〜で最もリーズナブルです。zen placeは月4回10,450円〜です。the SILKは月3回12,980円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。大切なのは継続すること。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。大切なのは継続することです。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。the SILKは手ぶらで体験可能（ウェア・タオル無料貸出）。ピラティスKは0円体験あり。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。the SILKは手ぶらで体験可能です（ウェア・タオル無料貸出）。ピラティスKは0円体験があります。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹強化・姿勢改善に特化。ヨガは柔軟性とリラックス重視。zen placeはヨガスタジオも運営しており、両方楽しめます。',
+    answer: 'ピラティスは体幹強化・姿勢改善に特化しています。ヨガは柔軟性とリラックス重視です。zen placeはヨガスタジオも運営しており、両方楽しめます。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
@@ -238,11 +238,11 @@ const faqs = [
   },
   {
     question: '無料で体験できるスタジオは？',
-    answer: 'ピラティスKとthe SILKは無料体験あり。zen placeはグループ体験1,000円。Mapilaも体験レッスンあり。',
+    answer: 'ピラティスKとthe SILKは無料体験があります。zen placeはグループ体験1,000円です。Mapilaも体験レッスンがあります。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -263,8 +263,8 @@ export default function KashiwaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス柏おすすめ6選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス柏おすすめ6選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -287,29 +287,11 @@ export default function KashiwaPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「柏で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、柏エリアでおすすめのピラティススタジオ6選をまとめました。
+              本ページでは、柏エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -334,7 +316,7 @@ export default function KashiwaPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -387,7 +369,7 @@ export default function KashiwaPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              柏エリアは都心部と比較してテナント賃料が抑えめのため、同じ内容のレッスンでも料金がリーズナブルな傾向があります。通い放題プランのコスパが特に良いエリアなので、週2回以上通える方は月額制プランが断然おすすめです。近隣の船橋エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
+              柏エリアは都心部と比較してテナント賃料が抑えめのため、同じ内容のレッスンでも料金がリーズナブルな傾向があります。通い放題プランの割安感が大きいエリアのため、週2回以上通える方には月額制プランをおすすめします。近隣の船橋エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
             </p>
           </div>
         </section>
@@ -402,25 +384,25 @@ export default function KashiwaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">JR常磐線・東武野田線「柏駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  柏エリアのスタジオは柏駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。柏駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  柏エリアのスタジオは柏駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。柏駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">スタジオ数が限られるため早めの予約を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  柏エリアは都心と比べてスタジオの選択肢が限られるため、人気のスタジオ・時間帯は予約が埋まりやすい傾向があります。特に土曜午前は混み合うことが多いので、1週間前には予約を入れておくのがおすすめです。車で通う方は駐車場の有無も確認しておきましょう。
+                  柏エリアは都心と比べてスタジオの選択肢が限られるため、人気のスタジオ・時間帯は予約が埋まりやすい傾向があります。特に土曜午前は混み合うことが多いので、1週間前には予約を入れておくのがおすすめです。車で通う方は駐車場の有無もご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">通い放題プランと回数制プランを比較検討</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  柏エリアでは通い放題プランが都心部より割安に設定されていることが多いです。週2回以上通えるなら通い放題が断然お得ですが、月1〜2回のペースなら回数券やドロップインの方がコスパが良い場合も。自分の通う頻度を想定してプランを選びましょう。初月は回数制で様子を見るのも賢い方法です。
+                  柏エリアでは通い放題プランが都心部より割安に設定されていることが多いです。週2回以上通う場合は通い放題が割安ですが、月1〜2回のペースであれば回数券やドロップインの方が割安な場合もあります。自分の通う頻度を想定してプランをお選びください。初月は回数制で様子を見る方法もあります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  柏エリアだけでなく、近隣の<Link href="/area/funabashi/" className="text-warm-700 underline hover:text-warm-900">船橋</Link>、<Link href="/area/chiba/" className="text-warm-700 underline hover:text-warm-900">千葉</Link>、<Link href="/area/kita-senju/" className="text-warm-700 underline hover:text-warm-900">北千住</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  柏エリアだけでなく、近隣の<Link href="/area/funabashi/" className="text-warm-700 underline hover:text-warm-900">船橋</Link>、<Link href="/area/chiba/" className="text-warm-700 underline hover:text-warm-900">千葉</Link>、<Link href="/area/kita-senju/" className="text-warm-700 underline hover:text-warm-900">北千住</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -438,25 +420,25 @@ export default function KashiwaPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>柏エリアの豆知識：</strong>柏エリアは車で通う方も多いため、駐車場の有無や提携コインパーキングを事前に確認しておきましょう。車なら荷物の心配が少ないので、シャワー後の着替えやヘアドライヤーなども余裕を持って準備できます。
+                  <strong>柏エリアの豆知識：</strong>柏エリアは車で通う方も多いため、駐車場の有無や提携コインパーキングを事前にご確認ください。車なら荷物の心配が少ないので、シャワー後の着替えやヘアドライヤーなども余裕を持って準備できます。
                 </p>
               </div>
             </div>
@@ -474,7 +456,7 @@ export default function KashiwaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円以下で通えるスタジオ。
+                  月額1万円以下で通えるスタジオです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Mapila（月会費 7,700円〜）</li>
@@ -484,7 +466,7 @@ export default function KashiwaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性だけの安心空間。
+                  女性だけの安心空間です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• the SILK 柏（手ぶら体験無料）</li>
@@ -495,7 +477,7 @@ export default function KashiwaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">プライベート</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  マンツーマンで丁寧に指導。
+                  マンツーマンで丁寧に指導しています。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• PILATES SHIP（理学療法士指導）</li>
@@ -515,15 +497,15 @@ export default function KashiwaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回からスタート。最低2-3ヶ月継続で効果を実感。
+                週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回がおすすめ。3-6ヶ月で目に見える変化。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。
+                週1回のペースで無理なく継続することをおすすめします。
               </p>
             </div>
           </div>
@@ -540,7 +522,7 @@ export default function KashiwaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜11,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  コスパ重視。
+                  費用を抑えたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Mapila（7,700円〜）</li>
@@ -552,7 +534,7 @@ export default function KashiwaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜15,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  充実のプログラム。
+                  充実のプログラムです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（13,420円〜）</li>
@@ -563,7 +545,7 @@ export default function KashiwaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 16,000〜21,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">通い放題</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  毎日通いたい方。
+                  毎日通いたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（16,170円/通い放題）</li>
@@ -587,7 +569,7 @@ export default function KashiwaPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ダイエット、姿勢改善、体幹強化など目的によって最適なスタジオは変わります。体の不調改善ならPILATES SHIPがおすすめ。
+                  ダイエット、姿勢改善、体幹強化など目的によって最適なスタジオは変わります。体の不調改善ならPILATES SHIPがおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -596,7 +578,7 @@ export default function KashiwaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  柏の料金相場はグループ月4回で7,700円〜15,070円。入会金やキャンペーンも確認しましょう。
+                  柏の料金相場はグループ月4回で7,700円〜15,070円です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -605,7 +587,7 @@ export default function KashiwaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ピラティスKとthe SILKは無料体験。zen placeは1,000円で体験可能。まずは気になるスタジオで体験してみましょう。
+                  ピラティスKとthe SILKは無料体験を実施しています。zen placeは1,000円で体験可能です。まずは気になるスタジオで体験してみることをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -614,7 +596,7 @@ export default function KashiwaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  柏はJR常磐線・東武野田線が乗り入れる主要駅。zen place・the SILK・Mapilaは徒歩1分、ピラティスKは徒歩3分と駅近スタジオが充実。
+                  柏はJR常磐線・東武野田線が乗り入れる主要駅です。zen place・the SILK・Mapilaは徒歩1分、ピラティスKは徒歩3分と駅近スタジオが充実しています。
                 </p>
               </div>
             </div>
@@ -657,13 +639,13 @@ export default function KashiwaPage() {
               今回は柏エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では柏にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、柏にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -672,11 +654,11 @@ export default function KashiwaPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜9,900円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜9,900円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

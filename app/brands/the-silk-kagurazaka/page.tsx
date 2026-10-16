@@ -7,7 +7,7 @@ const store = getTheSilkStore(SLUG)!;
 
 export const metadata: Metadata = {
   title: `神楽坂のthe SILK（ザ シルク）｜料金・体験・口コミとアクセス`,
-  description: `神楽坂のthe SILK（the SILK 神楽坂店）の料金・体験レッスン・アクセスを掲載データで整理。${store.access}。Googleの口コミをもとにした編集部の要約（出典リンクつき）と、神楽坂エリアのピラティス比較へのリンク付き。`,
+  description: `神楽坂のthe SILK（the SILK 神楽坂店）の料金・体験レッスン・アクセスを掲載しています。${store.access}です。Googleの口コミの要約（出典付き）と、神楽坂エリアのピラティス比較へのリンクも掲載しています。`,
   alternates: { canonical: `https://biyori-pilates.com/brands/${SLUG}/` },
 };
 

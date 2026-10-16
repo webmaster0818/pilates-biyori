@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kagoshima/' },
-  title: '【2026年10月最新】ピラティス鹿児島おすすめ5選！人気スタジオの料金プランを簡単比較！',
-  description: '鹿児島エリアのおすすめピラティススタジオ5選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス鹿児島おすすめ5選人気スタジオの料金プランの比較',
+  description: '鹿児島エリアのおすすめピラティススタジオ5選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,鹿児島,鹿児島県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -27,12 +27,12 @@ const studios = [
     price: '月4回 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', 'イオンモール内', '体験0円', '部位別プログラム'],
-    description: '女性専用マシンピラティス専門スタジオ。イオンモール鹿児島2階に位置し、買い物ついでに通える利便性。音楽に合わせた楽しいグループレッスンと部位別ボディメイクプログラムが充実。体験レッスン0円で気軽に始められる。',
+    description: '女性専用マシンピラティス専門スタジオです。イオンモール鹿児島2階に位置し、買い物ついでに通える利便性です。音楽に合わせた楽しいグループレッスンと部位別ボディメイクプログラムが充実しています。体験レッスン0円で気軽に始められます。',
     access: '鹿児島市電「谷山電停」からバス7分・イオンモール鹿児島2階',
     address: '鹿児島県鹿児島市東開町7 イオンモール鹿児島 2階',
     popularPlan: {
       name: 'マンスリー4メンバー（月4回）',
-      description: '女性専用マシンピラティス月4回。部位別プログラムも選べる。',
+      description: '女性専用マシンピラティス月4回です。部位別プログラムも選べます。',
       price: '月4回 13,420円（税込）',
     },
     options: [
@@ -59,12 +59,12 @@ const studios = [
     price: '月4回 15,400円〜',
     trial: '体験レッスン 3,000円',
     features: ['天文館徒歩5分', '少人数制4名', 'レンタル無料', '和の空間'],
-    description: '天文館通駅から徒歩5分の少人数制マシンピラティススタジオ。4名以下の少人数制で、和を基調とした落ち着いた空間でレッスン。レンタルウェア・ソックス無料で手ぶらで通える。ビギナーからステップアップまで豊富なプログラム。',
+    description: '天文館通駅から徒歩5分の少人数制マシンピラティススタジオです。4名以下の少人数制で、和を基調とした落ち着いた空間でレッスンです。レンタルウェア・ソックス無料で手ぶらで通えます。ビギナーからステップアップまで豊富なプログラムです。',
     access: '鹿児島市電「天文館通駅」徒歩5分・「いづろ通駅」徒歩4分',
     address: '鹿児島県鹿児島市中町4-3 Next Terrace表参道1階',
     popularPlan: {
       name: '月8回プラン',
-      description: '少人数制マシンピラティス月8回。1回あたり3,025円でコスパ◎。',
+      description: '少人数制マシンピラティス月8回です。1回あたり3,025円で割安です。',
       price: '月8回（1回あたり3,025円）',
     },
     options: [
@@ -90,12 +90,12 @@ const studios = [
     price: '月2回 15,000円〜',
     trial: '体験レッスンあり',
     features: ['鹿児島中央駅徒歩5分', '完全個室', 'オーダーメイド', 'パーソナル専門'],
-    description: '鹿児島中央駅から徒歩5分の完全個室パーソナルマシンピラティススタジオ。一人ひとりの目標に合わせたオーダーメイドプログラムを提供。月額制で1回約6,500円〜と続けやすい価格設定。',
+    description: '鹿児島中央駅から徒歩5分の完全個室パーソナルマシンピラティススタジオです。一人ひとりの目標に合わせたオーダーメイドプログラムを提供しています。月額制で1回約6,500円〜と続けやすい価格設定です。',
     access: 'JR「鹿児島中央駅」徒歩5分',
     address: '鹿児島県鹿児島市（鹿児島中央駅周辺・詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: '月4回コース',
-      description: '完全個室でのオーダーメイドパーソナルレッスン。',
+      description: '完全個室でのオーダーメイドパーソナルレッスンです。',
       price: '月4回 28,000円（税込）',
     },
     options: [
@@ -121,12 +121,12 @@ const studios = [
     price: '月額制（プラン複数あり）',
     trial: '体験レッスン 0円',
     features: ['中央駅徒歩1分', '体験0円', 'ベビーシッター在籍', 'ヨガ&ピラティス'],
-    description: '鹿児島中央駅から徒歩1分のヨガ＆ピラティススタジオ。市内最大級10名以上のインストラクターが在籍し、初心者から経験者まで楽しめる充実のレッスン。ベビーシッター在籍でママさんも安心。体験レッスン0円キャンペーン中。',
+    description: '鹿児島中央駅から徒歩1分のヨガ＆ピラティススタジオです。市内最大級10名以上のインストラクターが在籍し、初心者から経験者まで楽しめる充実のレッスンです。ベビーシッター在籍でママさんも安心です。体験レッスン0円キャンペーン中です。',
     access: 'JR「鹿児島中央駅」徒歩1分',
     address: '鹿児島県鹿児島市西田2丁目20-8 山野ビル 2F',
     popularPlan: {
       name: '通い放題プラン',
-      description: 'ヨガ・ピラティスが通い放題。10名以上のインストラクターによる多彩なレッスン。',
+      description: 'ヨガ・ピラティスが通い放題です。10名以上のインストラクターによる多彩なレッスンです。',
       price: '公式サイトでご確認ください',
     },
     options: [
@@ -153,12 +153,12 @@ const studios = [
     price: '月4回 15,400円〜',
     trial: '体験レッスン 3,000円',
     features: ['中央駅前', '2店舗展開', '少人数制', 'レンタル無料'],
-    description: '鹿児島中央駅前の少人数制マシンピラティススタジオ。天文館店と合わせて鹿児島に2店舗展開で予約が取りやすい。4名以下の少人数制で丁寧な指導。レンタルウェア・ソックス無料で手ぶらOK。',
+    description: '鹿児島中央駅前の少人数制マシンピラティススタジオです。天文館店と合わせて鹿児島に2店舗展開で予約が取りやすいです。4名以下の少人数制で丁寧な指導です。レンタルウェア・ソックス無料で手ぶらで参加可能です。',
     access: 'JR「鹿児島中央駅」すぐ',
     address: '鹿児島県鹿児島市（鹿児島中央駅前・詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: '月8回プラン',
-      description: '少人数制マシンピラティス月8回。2店舗利用可能。',
+      description: '少人数制マシンピラティス月8回です。2店舗利用可能です。',
       price: '月8回（1回あたり3,025円）',
     },
     options: [
@@ -183,31 +183,31 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！鹿児島エリアのスタジオはほとんどが初心者歓迎。ピラティスKは体験0円、KASANEは少人数制で丁寧に指導してもらえます。',
+    answer: '問題ありません。鹿児島エリアのスタジオはほとんどが初心者歓迎です。ピラティスKは体験0円、KASANEは少人数制で丁寧に指導してもらえます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。鹿児島ではピラティスK、KASANE、STUDIO IVYでマシンピラティスが受けられます。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。鹿児島ではピラティスK、KASANE、STUDIO IVYでマシンピラティスが受けられます。',
   },
   {
     question: '鹿児島のピラティスの料金相場は？',
-    answer: 'グループ月4回で13,420円〜15,400円程度。ピラティスKが月4回13,420円〜で最もリーズナブル。KASANEは月8回プランで1回3,025円。',
+    answer: 'グループ月4回で13,420円〜15,400円程度です。ピラティスKが月4回13,420円〜で最もリーズナブルです。KASANEは月8回プランで1回3,025円です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に。大切なのは継続すること。',
+    answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。大切なのは継続することです。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続が大切です。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。KASANEはレンタルウェア・ソックス無料で手ぶらOK。ピラティスKも体験0円で気軽に試せます。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。KASANEはレンタルウェア・ソックス無料で手ぶらで参加可能です。ピラティスKも体験0円で気軽に試せます。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹強化・姿勢改善に特化。ヨガは柔軟性とリラックス重視。Coralful Journeyでは両方楽しめます。',
+    answer: 'ピラティスは体幹強化・姿勢改善に特化しています。ヨガは柔軟性とリラックス重視です。Coralful Journeyでは両方楽しめます。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
@@ -215,11 +215,11 @@ const faqs = [
   },
   {
     question: '無料で体験できるスタジオは？',
-    answer: 'ピラティスKとCoralful Journeyは体験0円。KASANEは体験3,000円です。',
+    answer: 'ピラティスKとCoralful Journeyは体験0円です。KASANEは体験3,000円です。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続しましょう。',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -240,8 +240,8 @@ export default function KagoshimaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス鹿児島おすすめ5選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス鹿児島おすすめ5選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -264,29 +264,11 @@ export default function KagoshimaPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「鹿児島で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、鹿児島エリアでおすすめのピラティススタジオ5選をまとめました。
+              本ページでは、鹿児島エリアでおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -311,7 +293,7 @@ export default function KagoshimaPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -379,25 +361,25 @@ export default function KagoshimaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">鹿児島エリアのスタジオへのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  鹿児島エリアのスタジオは鹿児島市電「谷山電停」からバス7分・イオンモール鹿児島2階が最寄りです。初めて通う際は地図アプリで経路と所要時間を確認し、レッスン開始10分前には到着できるよう計画しましょう。
+                  鹿児島エリアのスタジオは鹿児島市電「谷山電停」からバス7分・イオンモール鹿児島2階が最寄りです。初めて通う際は地図アプリで経路と所要時間を確認し、レッスン開始10分前には到着できるよう計画することをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">鹿児島エリアの人気時間帯を把握して予約を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  鹿児島エリアでは平日夕方以降と土日午前中が予約の集中する時間帯です。特にマシンピラティスは定員が少ないため、希望の日時があれば早めの予約がおすすめ。スタジオによってはキャンセル待ち機能やLINE通知で空き枠をお知らせしてくれるところもあります。
+                  鹿児島エリアでは平日夕方以降と土日午前中が予約の集中する時間帯です。特にマシンピラティスは定員が少ないため、希望の日時があれば早めの予約がおすすめです。スタジオによってはキャンセル待ち機能やLINE通知で空き枠をお知らせしてくれるところもあります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">料金プランの種類と契約条件をしっかり比較</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  鹿児島エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかを確認しましょう。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため要チェックです。
+                  鹿児島エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかをご確認ください。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため、事前にご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  鹿児島エリアだけでなく、近隣の<Link href="/area/kumamoto/" className="text-warm-700 underline hover:text-warm-900">熊本</Link>、<Link href="/area/fukuoka/" className="text-warm-700 underline hover:text-warm-900">福岡</Link>、<Link href="/area/naha/" className="text-warm-700 underline hover:text-warm-900">那覇</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  鹿児島エリアだけでなく、近隣の<Link href="/area/kumamoto/" className="text-warm-700 underline hover:text-warm-900">熊本</Link>、<Link href="/area/fukuoka/" className="text-warm-700 underline hover:text-warm-900">福岡</Link>、<Link href="/area/naha/" className="text-warm-700 underline hover:text-warm-900">那覇</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -415,25 +397,25 @@ export default function KagoshimaPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>鹿児島エリアの豆知識：</strong>鹿児島は地元の方に愛されるスタジオが中心です。車で通う場合は駐車場の有無を事前に確認。電車の場合は駅からの距離だけでなく、帰りの電車の時刻も確認しておくとスムーズです。
+                  <strong>鹿児島エリアの豆知識：</strong>鹿児島は地元の方に愛されるスタジオが中心です。車で通う場合は駐車場の有無を事前にご確認ください。電車の場合は駅からの距離だけでなく、帰りの電車の時刻も確認しておくとスムーズです。
                 </p>
               </div>
             </div>
@@ -451,7 +433,7 @@ export default function KagoshimaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額2万円未満で通えるスタジオ（店舗カードの料金）。
+                  月額2万円未満で通えるスタジオです（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK イオンモール鹿児島店（月4回 13,420円〜）</li>
@@ -462,7 +444,7 @@ export default function KagoshimaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性だけの安心空間。
+                  女性だけの安心空間です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK イオンモール鹿児島店</li>
@@ -471,7 +453,7 @@ export default function KagoshimaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  駅から徒歩2分以内。
+                  駅から徒歩2分以内です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Coralful Journey（コーラルフルジャーニー）（JR「鹿児島中央駅」徒歩1分）</li>
@@ -490,15 +472,15 @@ export default function KagoshimaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回からスタート。最低2-3ヶ月継続で効果を実感。
+                週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回がおすすめ。3-6ヶ月で目に見える変化。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。
+                週1回のペースで無理なく継続することをおすすめします。
               </p>
             </div>
           </div>
@@ -515,7 +497,7 @@ export default function KagoshimaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜13,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月3〜4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。
+                  グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• このページの掲載スタジオでは該当なし（各スタジオの料金は上の店舗カードを参照）</li>
@@ -526,7 +508,7 @@ export default function KagoshimaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜15,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン専門スタジオ。
+                  マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（13,420円〜）</li>
@@ -536,7 +518,7 @@ export default function KagoshimaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 16,000〜29,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">通い放題</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  毎日通いたい方。
+                  毎日通いたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（16,170円/通い放題）</li>
@@ -568,7 +550,7 @@ export default function KagoshimaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  鹿児島の料金相場はグループ月4回で10,450円〜15,070円。入会金やキャンペーンも確認しましょう。
+                  鹿児島の料金相場はグループ月4回で10,450円〜15,070円です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -577,7 +559,7 @@ export default function KagoshimaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  体験料金は、ピラティスK イオンモール鹿児島店が「体験レッスン 0円」、Pilates KASANE 鹿児島天文館店が「体験レッスン 3,000円」、Coralful Journey（コーラルフルジャーニー）が「体験レッスン 0円」、Pilates KASANE 鹿児島中央駅前店が「体験レッスン 3,000円」です（店舗カードの記載）。最新の条件は各公式サイトで確認しましょう。
+                  体験料金は、ピラティスK イオンモール鹿児島店が「体験レッスン 0円」、Pilates KASANE 鹿児島天文館店が「体験レッスン 3,000円」、Coralful Journey（コーラルフルジャーニー）が「体験レッスン 0円」、Pilates KASANE 鹿児島中央駅前店が「体験レッスン 3,000円」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -586,7 +568,7 @@ export default function KagoshimaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  鹿児島の掲載スタジオでは、Coralful Journey（コーラルフルジャーニー）（JR「鹿児島中央駅」徒歩1分）、Pilates KASANE 鹿児島天文館店（鹿児島市電「天文館通駅」徒歩5分・「いづろ通駅」徒歩4分）、STUDIO IVY（スタジオアイビー）鹿児島店（JR「鹿児島中央駅」徒歩5分）が駅から近いスタジオです。通う時間帯の経路も確認しておきましょう。
+                  鹿児島の掲載スタジオでは、Coralful Journey（コーラルフルジャーニー）（JR「鹿児島中央駅」徒歩1分）、Pilates KASANE 鹿児島天文館店（鹿児島市電「天文館通駅」徒歩5分・「いづろ通駅」徒歩4分）、STUDIO IVY（スタジオアイビー）鹿児島店（JR「鹿児島中央駅」徒歩5分）が駅から近いスタジオです。通う時間帯の経路もご確認ください。
                 </p>
               </div>
             </div>
@@ -629,13 +611,13 @@ export default function KagoshimaPage() {
               今回は鹿児島エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では鹿児島にあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、鹿児島にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -644,11 +626,11 @@ export default function KagoshimaPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,850円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜3,850円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

@@ -49,7 +49,7 @@ export function BrandReviewThemes({ brandName, themes }: { brandName: string; th
 
       {caution.length > 0 && (
         <>
-          <h3 className="text-sm font-medium text-warm-800 mb-3">入会前に確認したい注意点（低評価に多い内容）</h3>
+          <h3 className="text-sm font-medium text-warm-800 mb-3">入会前にご確認いただきたい注意点（低評価に多い内容）</h3>
           <div className="space-y-3 mb-6">
             {caution.map((t) => (
               <Theme key={t.title} t={t} tone="caution" />
@@ -70,7 +70,7 @@ export function BrandReviewThemes({ brandName, themes }: { brandName: string; th
       )}
 
       <p className="text-[11px] text-warm-400 mt-4 leading-relaxed">
-        ※店舗差が大きいため、ブランド全体の傾向だけで判断せず、通う予定の店舗の口コミを出典リンクから個別に確認してください。評価・件数は取得時点の実測値で、現在とは異なる場合があります。感じ方には個人差があります。
+        ※店舗差が大きいため、ブランド全体の傾向だけで判断せず、通う予定の店舗の口コミを出典リンクから個別にご確認ください。評価・件数は取得時点の実測値で、現在とは異なる場合があります。感じ方には個人差があります。
       </p>
     </section>
   )

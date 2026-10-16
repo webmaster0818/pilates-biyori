@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/toritsu-daigaku/' },
-  title: '【2026年10月最新】ピラティス都立大学おすすめ12選！人気スタジオの料金プランを簡単比較！',
-  description: '都立大学エリアのおすすめピラティススタジオ12選を徹底比較。マシンピラティス、体験レッスン、料金相場、選び方まで完全ガイド。学芸大学・自由が丘の近隣スタジオも紹介。',
+  title: '【2026年10月最新】ピラティス都立大学おすすめ12選人気スタジオの料金プランの比較',
+  description: '都立大学エリアのおすすめピラティススタジオ12選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。学芸大学・自由が丘の近隣スタジオも紹介しています。',
   keywords: 'ピラティス,都立大学,目黒区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,学芸大学,自由が丘',
 }
 
@@ -26,13 +26,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: 'マットグループ 月4回 10,450円〜',
     trial: '体験レッスン 1,000円〜',
-    features: ['マット&マシン', '都立大学駅徒歩3分', '少人数制', '男性OK'],
-    description: '全国150店舗以上展開の大手ピラティススタジオ。東急東横線都立大学駅北口から徒歩3分の好立地。米BASIピラティスと提携した世界基準の教育で、有資格インストラクターが丁寧に指導。マットグループ、リフォーマーグループ、プライベートに対応し、AIによる姿勢分析で効果を可視化。全国店舗を相互利用できるのも魅力です。',
+    features: ['マット&マシン', '都立大学駅徒歩3分', '少人数制', '男性利用可'],
+    description: '全国150店舗以上展開の大手ピラティススタジオです。東急東横線都立大学駅北口から徒歩3分の好立地です。米BASIピラティスと提携した世界基準の教育で、有資格エデュケーターが丁寧に指導しています。マットグループ、リフォーマーグループ、プライベートに対応し、AIによる姿勢分析で効果を可視化です。全国店舗を他店利用できるのも魅力です。',
     access: '東急東横線「都立大学駅」北口 徒歩3分',
     address: '東京都目黒区八雲1-4-11 都立大八雲マンション201',
     popularPlan: {
       name: 'マットグループ（月4回）',
-      description: 'マットを使ったグループレッスン。少人数制で丁寧な指導。初心者にもおすすめ。',
+      description: 'マットを使ったグループレッスンです。少人数制で丁寧な指導です。初心者にもおすすめです。',
       price: '月4回 10,450円（税込）〜',
     },
     options: [
@@ -60,12 +60,12 @@ const studios = [
     priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
     trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '都立大学駅から徒歩30秒の女性専用マシンピラティススタジオ。最大3名のセミパーソナル制で、一人ひとりに合わせた丁寧な指導が受けられます。月2回11,000円、月4回19,800円、通い放題37,500円と選べるプランが魅力。初心者でもレベルに合わせてインストラクターが指導してくれるので安心です。',
+    description: '都立大学駅から徒歩30秒の女性専用マシンピラティススタジオです。最大3名のセミパーソナル制で、一人ひとりに合わせた丁寧な指導が受けられます。月2回11,000円、月4回19,800円、通い放題37,500円と選べるプランが魅力です。初心者でもレベルに合わせてインストラクターが指導してくれるので安心です。',
     access: '都立大学駅 徒歩30秒',
     address: '〒152-0032 東京都目黒区平町1丁目26−17 ソシアル都立大学駅前 301号室',
     popularPlan: {
       name: 'セミパーソナル月4回プラン',
-      description: '最大3名の少人数制マシンピラティス。週1回ペースで無理なく継続。',
+      description: '最大3名の少人数制マシンピラティスです。週1回ペースで無理なく継続することをおすすめします。',
       price: '月4回 19,800円（税込）',
     },
     userProfile: {
@@ -85,12 +85,12 @@ const studios = [
     price: 'セミパーソナル 月2回 11,000円〜',
     trial: '体験レッスンあり',
     features: ['マシンピラティス専門', '都立大学駅徒歩1分', '女性専用', 'シャワー完備'],
-    description: '2025年1月オープンの女性専用マシンピラティススタジオ。都立大学駅から徒歩1分の好立地。音楽に合わせて楽しくエクササイズできる独自のプログラムが特徴。セミパーソナル月2回11,000円〜、パーソナル月2回22,000円〜と選べるプラン。シャワールーム・更衣室完備で仕事帰りにも通いやすい環境です。',
+    description: '2025年1月オープンの女性専用マシンピラティススタジオです。都立大学駅から徒歩1分の好立地です。音楽に合わせて楽しくエクササイズできる独自のプログラムが特徴です。セミパーソナル月2回11,000円〜、パーソナル月2回22,000円〜と選べるプランです。シャワールーム・更衣室完備で仕事帰りにも通いやすい環境です。',
     access: '東急東横線「都立大学駅」徒歩1分',
     address: '東京都目黒区平町1-26-17 ソシアル都立大学駅前',
     popularPlan: {
       name: 'セミパーソナル月4回プラン',
-      description: 'リフォーマーを使ったマシンピラティスの少人数レッスン。音楽に合わせて楽しくエクササイズ。',
+      description: 'リフォーマーを使ったマシンピラティスの少人数レッスンです。音楽に合わせて楽しくエクササイズです。',
       price: '月4回 19,800円（税込）',
     },
     options: [
@@ -117,12 +117,12 @@ const studios = [
     price: '月額サブスクプランあり',
     trial: '体験レッスンあり（当日入会で入会金0円）',
     features: ['完全パーソナル', '女性専用', '都立大学駅徒歩0分', '会員40名限定'],
-    description: '都立大学駅から徒歩0分の完全女性専用・完全プライベートのマシンピラティススタジオ。会員を40名に限定しており、予約が取りやすいのが最大の魅力。女性インストラクターのみ在籍で、優しい雰囲気の中で1対1のレッスンが受けられます。体験当日の入会で永久10%OFF・入会金0円・ピラティス用靴下プレゼントのキャンペーン実施中。',
+    description: '都立大学駅から徒歩0分の完全女性専用・完全プライベートのマシンピラティススタジオです。会員を40名に限定しており、予約が取りやすいのが最大の魅力です。女性インストラクターのみ在籍で、優しい雰囲気の中で1対1のレッスンが受けられます。体験当日の入会で永久10%OFF・入会金0円・ピラティス用靴下プレゼントのキャンペーン実施中です。',
     access: '東急東横線「都立大学駅」徒歩0分',
     address: '東京都目黒区平町1-26-17 ソシアル都立大学駅前',
     popularPlan: {
       name: '月額サブスクプラン',
-      description: '完全パーソナルのマシンピラティスレッスン。月額定額で安心。',
+      description: '完全パーソナルのマシンピラティスレッスンです。月額定額で安心です。',
       price: '詳細は公式サイトにてご確認ください',
     },
     options: [
@@ -147,12 +147,12 @@ const studios = [
     price: 'パーソナル 1回60分 11,000円',
     trial: '体験レッスンあり',
     features: ['完全パーソナル', '都立大学駅徒歩15秒', 'バレエメソッド', '完全個室'],
-    description: '都立大学駅から徒歩15秒の完全個室プライベート専門スタジオ。マシンピラティスに加え、バレエやストレッチを取り入れたオリジナルメソッドが特徴。一人ひとりの身体の状態や目標に合わせたオーダーメイドレッスンで、効率的にボディメイク。閑静な住宅街にある隠れ家的スタジオです。',
+    description: '都立大学駅から徒歩15秒の完全個室プライベート専門スタジオです。マシンピラティスに加え、バレエやストレッチを取り入れたオリジナルメソッドが特徴です。一人ひとりの身体の状態や目標に合わせたオーダーメイドレッスンで、効率的にボディメイクを目指せます。閑静な住宅街にある隠れ家的スタジオです。',
     access: '東急東横線「都立大学駅」徒歩15秒',
     address: '東京都目黒区中根1丁目（都立大学駅徒歩圏内）',
     popularPlan: {
       name: 'パーソナルレッスン',
-      description: 'マシンピラティス＋バレエメソッドを組み合わせた60分のオーダーメイドレッスン。',
+      description: 'マシンピラティス＋バレエメソッドを組み合わせた60分のオーダーメイドレッスンです。',
       price: '1回60分 11,000円（税込）',
     },
     options: [
@@ -176,12 +176,12 @@ const studios = [
     price: '1レッスン 2,000円',
     trial: '体験レッスン 1,000円',
     features: ['マットピラティス', '1回2,000円の安さ', '都立大学駅徒歩2分', '予約制・縛りなし'],
-    description: '2004年にベリーダンススタジオとしてスタートし、マットピラティスクラスも提供する老舗スタジオ。都立大学駅から徒歩2分。1回ずつの予約制で月額の縛りがなく、1レッスン2,000円という破格の料金が最大の魅力。少人数制でアットホームな雰囲気の中、自分のスケジュールに合わせて自由にレッスンを受けられます。',
+    description: '2004年にベリーダンススタジオとしてスタートし、マットピラティスクラスも提供する老舗スタジオです。都立大学駅から徒歩2分です。1回ずつの予約制で月額の縛りがなく、1レッスン2,000円という破格の料金が最大の魅力です。少人数制でアットホームな雰囲気の中、自分のスケジュールに合わせて自由にレッスンを受けられます。',
     access: '東急東横線「都立大学駅」徒歩2分',
     address: '東京都目黒区中根（都立大学駅徒歩圏内）',
     popularPlan: {
       name: '都度払いレッスン',
-      description: 'マットピラティスの都度払いレッスン。月額縛りなしで気軽に通える。',
+      description: 'マットピラティスの都度払いレッスンです。月額縛りなしで気軽に通えます。',
       price: '1レッスン 2,000円（税込）',
     },
     options: [
@@ -205,12 +205,12 @@ const studios = [
     price: '月2回 15,000円〜 / 月4回 28,000円〜',
     trial: '体験レッスン 50分 4,500円',
     features: ['パーソナル専門', 'マシンピラティス', '学芸大学駅徒歩3分', '月謝制'],
-    description: '全国展開のパーソナルマシンピラティス専門スタジオ。学芸大学駅徒歩3分で都立大学駅からも東横線1駅。完全プライベート空間でオーダーメイドのプログラムを提供。月2回15,000円〜と始めやすい料金設定。体験レッスンは50分4,500円で受けられます。',
+    description: '全国展開のパーソナルマシンピラティス専門スタジオです。学芸大学駅徒歩3分で都立大学駅からも東横線1駅です。完全プライベート空間でオーダーメイドのプログラムを提供しています。月2回15,000円〜と始めやすい料金設定です。体験レッスンは50分4,500円で受けられます。',
     access: '東急東横線「学芸大学駅」徒歩3分（都立大学駅から1駅）',
     address: '東京都目黒区碑文谷6-1-22 リカーハイム303号室',
     popularPlan: {
       name: '月4回プラン',
-      description: 'マシンピラティスのパーソナルレッスン。週1回ペースで無理なく続けられる。',
+      description: 'マシンピラティスのパーソナルレッスンです。週1回ペースで無理なく続けられます。',
       price: '月4回 28,000円（税込）',
     },
     options: [
@@ -236,12 +236,12 @@ const studios = [
     price: '月6回 11,000円',
     trial: '体験レッスン 2,200円',
     features: ['コナミ運営', '月6回定額', '学芸大学エリア', '7回目以降1,100円/回'],
-    description: '大手フィットネスクラブ・コナミスポーツが運営するマシンピラティス専門スタジオ。月6回11,000円の定額制で、7回目以降は1回1,100円と追加利用もリーズナブル。プライベートレッスン30分4,400円も人気。大手ならではの充実した設備とサービスで安心して通えます。',
+    description: '大手フィットネスクラブ・コナミスポーツが運営するマシンピラティス専門スタジオです。月6回11,000円の定額制で、7回目以降は1回1,100円と追加利用もリーズナブルです。プライベートレッスン30分4,400円も人気です。大手ならではの充実した設備とサービスで安心して通えます。',
     access: '東急東横線「学芸大学駅」西口から徒歩4分',
     address: '東京都目黒区中央町2-35-10',
     popularPlan: {
       name: '月6回プラン',
-      description: 'マシンピラティスのグループレッスンが月6回受けられる人気プラン。7回目以降は1回1,100円で追加可能。',
+      description: 'マシンピラティスのグループレッスンが月6回受けられる人気プランです。7回目以降は1回1,100円で追加可能です。',
       price: '月6回 11,000円（税込）',
     },
     options: [
@@ -268,12 +268,12 @@ const studios = [
     price: '月3回 12,980円〜',
     trial: '無料体験レッスン',
     features: ['女性専用', '無料体験', '自由が丘駅徒歩4分', 'リフォーマー専用'],
-    description: '自由が丘駅から徒歩4分の女性専用マシンピラティススタジオ。リフォーマー専用で1コマ50分のグループレッスン。月3回12,980円〜、通い放題20,680円と幅広いプラン。無料体験レッスンを実施中で、体験当日入会で入会金・事務手数料が無料に。都立大学駅から東横線1駅でアクセスも良好です。',
+    description: '自由が丘駅から徒歩4分の女性専用マシンピラティススタジオです。リフォーマー専用で1コマ50分のグループレッスンです。月3回12,980円〜、通い放題20,680円と幅広いプランです。無料体験レッスンを実施中で、体験当日入会で入会金・事務手数料が無料になります。都立大学駅から東横線1駅でアクセスも良好です。',
     access: '東急東横線・大井町線「自由が丘駅」徒歩4分（都立大学駅から1駅）',
     address: '東京都目黒区自由が丘2-17-10 HALEMA’O JIYUGAOKA 2階',
     popularPlan: {
       name: 'Standard4（月4回）',
-      description: 'リフォーマーを使ったグループレッスン。月4回で週1ペースにぴったり。',
+      description: 'リフォーマーを使ったグループレッスンです。月4回で週1回のペースに適しています。',
       price: '月4回 15,070円（税込）',
     },
     options: [
@@ -298,13 +298,13 @@ const studios = [
     image: '/images/studios/pilates-mirror.webp',
     price: '月6回 11,000円',
     trial: '体験レッスン 2,200円',
-    features: ['コナミ運営', '月6回定額', '自由が丘エリア', 'コスパ抜群'],
-    description: 'コナミスポーツ運営のマシンピラティス専門スタジオ自由が丘店。月6回11,000円の定額制で自由が丘エリアではトップクラスのコストパフォーマンス。7回目以降は1回1,100円で追加利用も可能。都立大学駅から東横線1駅の好アクセスで、閑静な住宅街エリアにお住まいの方にもおすすめです。',
+    features: ['コナミ運営', '月6回定額', '自由が丘エリア', '割安'],
+    description: 'コナミスポーツ運営のマシンピラティス専門スタジオ自由が丘店です。月6回11,000円の定額制で自由が丘エリアではトップクラスのコストパフォーマンスです。7回目以降は1回1,100円で追加利用も可能です。都立大学駅から東横線1駅の好アクセスで、閑静な住宅街エリアにお住まいの方にもおすすめです。',
     access: '東急東横線「自由が丘駅」徒歩圏内（都立大学駅から1駅）',
     address: '東京都目黒区自由が丘（自由が丘駅徒歩圏内）',
     popularPlan: {
       name: '月6回プラン',
-      description: 'マシンピラティスのグループレッスンが月6回受けられるお得なプラン。',
+      description: 'マシンピラティスのグループレッスンが月6回受けられるお得なプランです。',
       price: '月6回 11,000円（税込）',
     },
     options: [
@@ -330,13 +330,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: 'マットグループ 月4回 10,450円〜',
     trial: 'マシングループ体験 3,000円',
-    features: ['マット&マシン', '自由が丘駅徒歩2分', '全国店舗相互利用', '男性OK'],
-    description: '自由が丘駅から徒歩2分の好立地。第1スタジオ（マット・マシン対応）と第2スタジオ（リフォーマー専門・奥沢）の2店舗体制で、レッスン枠が豊富。都立大学店との相互利用も可能で、ライフスタイルに合わせて使い分けられます。BASIピラティスの世界基準の教育で質の高い指導を提供。',
+    features: ['マット&マシン', '自由が丘駅徒歩2分', '全国店舗他店利用', '男性利用可'],
+    description: '自由が丘駅から徒歩2分の好立地です。第1スタジオ（マット・マシン対応）と第2スタジオ（リフォーマー専門・奥沢）の2店舗体制で、レッスン枠が豊富です。都立大学店との他店利用も可能で、ライフスタイルに合わせて使い分けられます。BASIピラティスの世界基準の教育で質の高い指導を提供しています。',
     access: '東急東横線「自由が丘駅」徒歩2分（都立大学駅から1駅）',
     address: '東京都目黒区自由が丘2-9-15 中村ビル B1階',
     popularPlan: {
       name: 'リフォーマーグループ（月4回）',
-      description: 'マシンを使ったグループレッスン。少人数制で丁寧な指導。',
+      description: 'マシンを使ったグループレッスンです。少人数制で丁寧な指導です。',
       price: '月4回 15,400円（税込）〜',
     },
     options: [
@@ -362,12 +362,12 @@ const studios = [
     price: 'パーソナル（料金は要問い合わせ）',
     trial: '体験レッスンあり',
     features: ['全マシン完備', '医療系資格保有トレーナー', '本格派', 'パーソナル対応'],
-    description: '医療系国家資格を持つトレーナーが在籍する本格マシンピラティススタジオ。リフォーマー、キャデラック、チェアなど全ピラティスマシンを完備し、体の状態に合わせた質の高いプログラムを提供。自由が丘の閑静な住宅街に位置し、都立大学エリアからもアクセスしやすい環境です。',
+    description: '医療系国家資格を持つトレーナーが在籍する本格マシンピラティススタジオです。リフォーマー、キャデラック、チェアなど全ピラティスマシンを完備し、体の状態に合わせた質の高いプログラムを提供しています。自由が丘の閑静な住宅街に位置し、都立大学エリアからもアクセスしやすい環境です。',
     access: '東急東横線「自由が丘駅」正面口より徒歩約10分',
     address: '東京都目黒区自由が丘2-23-6',
     popularPlan: {
       name: 'パーソナルレッスン',
-      description: '医療系国家資格保有トレーナーによるマンツーマンレッスン。全マシン対応。',
+      description: '医療系国家資格保有トレーナーによるマンツーマンレッスンです。全マシン対応です。',
       price: '料金は要問い合わせ',
     },
     options: [
@@ -390,7 +390,7 @@ const studios = [
 const faqs = [
   {
     question: '都立大学エリアでピラティスの相場はどれくらい？',
-    answer: 'グループレッスンは月4回10,450円〜19,800円、ピラティスミラーは月6回11,000円とコスパが高いです。パーソナルは1回11,000円〜が相場。都度払いのアラベスクなら1回2,000円と格安です。',
+    answer: 'グループレッスンは月4回10,450円〜19,800円、ピラティスミラーは月6回11,000円と割安です。パーソナルは1回11,000円〜が相場です。都度払いのアラベスクなら1回2,000円と格安です。',
   },
   {
     question: '初心者でも大丈夫ですか？',
@@ -398,15 +398,15 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOK。靴は不要なスタジオがほとんどです。ウェアレンタルがあるスタジオもあるので事前に確認しましょう。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。靴は不要なスタジオがほとんどです。ウェアレンタルがあるスタジオもあるので事前にご確認ください。',
   },
   {
     question: 'マットとマシン、どちらがおすすめ？',
-    answer: '初心者にはマシンピラティスがおすすめ。リフォーマーのガイドがあるのでフォームが安定しやすく、効果を実感しやすいです。コスパ重視ならマットピラティスもあり。',
+    answer: '初心者にはマシンピラティスがおすすめです。リフォーマーのガイドがあるのでフォームが安定しやすく、効果を実感しやすいです。料金重視ならマットピラティスもあります。',
   },
   {
     question: 'どのくらいで効果が出ますか？',
-    answer: '週1〜2回のペースで2ヶ月を過ぎた頃から姿勢改善や体の引き締まりを実感する方が多いです。ボディメイク目的なら週2〜3回がおすすめ。',
+    answer: '週1〜2回のペースで2ヶ月を過ぎた頃から姿勢改善や体の引き締まりを実感する方が多いです。ボディメイク目的なら週2〜3回が目安です。',
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめ？',
@@ -418,11 +418,11 @@ const faqs = [
   },
   {
     question: '都立大学から近隣駅のスタジオも通えますか？',
-    answer: 'はい、東急東横線で学芸大学駅は1駅、自由が丘駅も1駅と近いので、周辺スタジオも通いやすいです。zen placeなら全国店舗を相互利用できます。',
+    answer: 'はい、東急東横線で学芸大学駅は1駅、自由が丘駅も1駅と近いので、周辺スタジオも通いやすいです。zen placeなら全国店舗を他店利用できます。',
   },
   {
     question: '月額制と都度払い、どちらがお得？',
-    answer: '継続して通うなら月額制がお得。月6回以上ならピラティスミラーの11,000円が最安クラス。まず試したい方はアラベスクの都度払い（1回2,000円）やthe SILKの無料体験がおすすめ。',
+    answer: '継続して通うなら月額制がお得です。月6回以上ならピラティスミラーの11,000円が最安クラスです。まず試したい方はアラベスクの都度払い（1回2,000円）やthe SILKの無料体験がおすすめです。',
   },
   {
     question: '子連れで通えるスタジオはありますか？',
@@ -447,8 +447,8 @@ export default function ToritsuDaigakuPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス都立大学おすすめ12選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス都立大学おすすめ12選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -472,31 +472,13 @@ export default function ToritsuDaigakuPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「都立大学でピラティスを始めたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「閑静な住宅街の目黒区エリアでスタジオを探したい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              東急東横線「都立大学駅」は、目黒区の閑静な住宅街に位置し、学芸大学や自由が丘にも1駅というアクセスの良さが魅力のエリア。駅周辺には個性豊かなピラティススタジオが集まっており、近隣駅のスタジオも合わせると選択肢が豊富です。
+              東急東横線「都立大学駅」は、目黒区の閑静な住宅街に位置し、学芸大学や自由が丘にも1駅というアクセスの良さが魅力のエリアです。駅周辺には個性豊かなピラティススタジオが集まっており、近隣駅のスタジオも合わせると選択肢が豊富です。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、都立大学駅周辺と近隣エリア（学芸大学・自由が丘）のおすすめピラティススタジオ12選をまとめました。
+              本ページでは、都立大学駅周辺と近隣エリア（学芸大学・自由が丘）のおすすめピラティススタジオ12選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -521,7 +503,7 @@ export default function ToritsuDaigakuPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -589,25 +571,25 @@ export default function ToritsuDaigakuPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">東急東横線「都立大学駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  都立大学エリアのスタジオは都立大学駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。都立大学駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  都立大学エリアのスタジオは都立大学駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。都立大学駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">少人数制スタジオは早めの予約がカギ</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  都立大学は少人数制やプライベートレッスンを重視するスタジオが多く、1クラスの定員が少ないため予約が早く埋まりがちです。特にマシンピラティスは定員4〜8名のスタジオが主流なので、希望の時間帯があれば早めに予約を。キャンセル待ち制度のあるスタジオを選ぶと安心です。
+                  都立大学は少人数制やプライベートレッスンを重視するスタジオが多く、1クラスの定員が少ないため予約が早く埋まりがちです。特にマシンピラティスは定員4〜8名のスタジオが主流なので、希望の時間帯があれば早めのご予約をおすすめします。キャンセル待ち制度のあるスタジオを選ぶと安心です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  都立大学エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ず確認しましょう。月の途中入会は日割り計算になるかも要チェックです。
+                  都立大学エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ずご確認ください。月の途中入会は日割り計算になるかもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  都立大学エリアだけでなく、近隣の<Link href="/area/jiyugaoka/" className="text-warm-700 underline hover:text-warm-900">自由が丘</Link>、<Link href="/area/gakugei-daigaku/" className="text-warm-700 underline hover:text-warm-900">学芸大学</Link>、<Link href="/area/futakotamagawa/" className="text-warm-700 underline hover:text-warm-900">二子玉川</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  都立大学エリアだけでなく、近隣の<Link href="/area/jiyugaoka/" className="text-warm-700 underline hover:text-warm-900">自由が丘</Link>、<Link href="/area/gakugei-daigaku/" className="text-warm-700 underline hover:text-warm-900">学芸大学</Link>、<Link href="/area/futakotamagawa/" className="text-warm-700 underline hover:text-warm-900">二子玉川</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -625,19 +607,19 @@ export default function ToritsuDaigakuPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
@@ -659,9 +641,9 @@ export default function ToritsuDaigakuPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  リーズナブルに通いたい方に。
+                  リーズナブルに通いたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• アラベスク（1回 2,000円・都度払い）</li>
@@ -672,7 +654,7 @@ export default function ToritsuDaigakuPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  マンツーマン指導で効果的に。
+                  マンツーマン指導で効果的に通えます。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• LAVIA（完全個室・会員40名限定）</li>
@@ -683,7 +665,7 @@ export default function ToritsuDaigakuPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用スタジオ</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性だけの安心空間で。
+                  女性だけの空間で安心して通えます。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• LAVIA（女性インストラクターのみ）</li>
@@ -704,15 +686,15 @@ export default function ToritsuDaigakuPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1〜2回からスタート。最低2〜3ヶ月で効果を実感。ピラティスミラーの月6回プランなら週1〜2回ペースにぴったり。
+                週1〜2回から始めることをおすすめします。最低2〜3ヶ月で効果を実感できます。ピラティスミラーの月6回プランなら週1〜2回ペースに適しています。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイク目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2〜3回がおすすめ。3〜6ヶ月で目に見える変化。Pilates Meeやnoaの通い放題プランなら集中して取り組めます。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。Pilates Meeやnoaの通い放題プランなら集中して取り組めます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">健康管理目的の方</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。zen placeのマットグループ月4回10,450円〜やアラベスクの都度払いがおすすめ。
+                週1回のペースで無理なく継続することをおすすめします。zen placeのマットグループ月4回10,450円〜やアラベスクの都度払いがおすすめです。
               </p>
             </div>
           </div>
@@ -729,7 +711,7 @@ export default function ToritsuDaigakuPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜12,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">グループ</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  リーズナブルに始めるなら。
+                  費用を抑えて始めたい方におすすめです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• アラベスク（1回 2,000円・都度払い）</li>
@@ -742,7 +724,7 @@ export default function ToritsuDaigakuPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 12,000〜20,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">セミパーソナル</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  少人数制で効果的に。
+                  少人数制で効果的に通えます。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• the SILK（月3回 12,980円〜）</li>
@@ -753,9 +735,9 @@ export default function ToritsuDaigakuPage() {
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">パーソナル</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">効果◎</p>
+                <p className="text-3xl font-bold text-warm-800 mb-4">効果が期待できる</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マンツーマンで最大効果。
+                  マンツーマンで最大効果です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスミラー（30分 4,400円）</li>
@@ -781,7 +763,7 @@ export default function ToritsuDaigakuPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ダイエット、姿勢改善、体幹強化など目的に応じてスタジオを選びましょう。パーソナル（LAVIA、SUNNY）は短期集中、グループ（the SILK、ピラティスミラー）は楽しく継続に向いています。
+                  ダイエット、姿勢改善、体幹強化など目的に応じてスタジオをお選びください。パーソナル（LAVIA、SUNNY）は短期集中、グループ（the SILK、ピラティスミラー）は楽しく継続に向いています。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -799,7 +781,7 @@ export default function ToritsuDaigakuPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKは無料体験、zen placeは1,000円〜、ピラティスミラーは2,200円で体験できます。複数のスタジオを体験して、雰囲気やインストラクターとの相性を確認しましょう。
+                  the SILKは無料体験、zen placeは1,000円〜、ピラティスミラーは2,200円で体験できます。複数のスタジオを体験して、雰囲気やインストラクターとの相性をご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -808,7 +790,7 @@ export default function ToritsuDaigakuPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  都立大学は東急東横線沿線の目黒区に位置する閑静な住宅街。学芸大学や自由が丘にも東横線1駅でアクセスでき、近隣スタジオも含めて選択肢が豊富です。駅からの距離やレッスン時間を確認して、無理なく通えるスタジオを選びましょう。
+                  都立大学は東急東横線沿線の目黒区に位置する閑静な住宅街です。学芸大学や自由が丘にも東横線1駅でアクセスでき、近隣スタジオも含めて選択肢が豊富です。駅からの距離やレッスン時間を確認して、無理なく通えるスタジオをお選びください。
                 </p>
               </div>
             </div>
@@ -851,16 +833,16 @@ export default function ToritsuDaigakuPage() {
               今回は都立大学のおすすめピラティススタジオ12選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              都立大学は東急東横線沿線の目黒区に位置する閑静な住宅街。駅徒歩0分のLAVIA、徒歩30秒のPilates Mee、徒歩1分のnoa、徒歩3分のzen placeなど駅近スタジオが充実しています。さらに学芸大学（1駅）のSTUDIO IVYやピラティスミラー、自由が丘（1駅）のthe SILKやzen placeまで、目的や予算に合わせて選べるスタジオが豊富です。
+              都立大学は東急東横線沿線の目黒区に位置する閑静な住宅街です。駅徒歩0分のLAVIA、徒歩30秒のPilates Mee、徒歩1分のnoa、徒歩3分のzen placeなど駅近スタジオが充実しています。さらに学芸大学（1駅）のSTUDIO IVYやピラティスミラー、自由が丘（1駅）のthe SILKやzen placeまで、目的や予算に合わせて選べるスタジオが豊富です。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              コスパ重視ならアラベスク（1回2,000円）やピラティスミラー（月6回11,000円）、パーソナル重視ならLAVIAやSUNNY、セミパーソナルならPilates MeeやPILATES STUDIO noaがおすすめです。
+              料金重視ならアラベスク（1回2,000円）やピラティスミラー（月6回11,000円）、パーソナル重視ならLAVIAやSUNNY、セミパーソナルならPilates MeeやPILATES STUDIO noaがおすすめです。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひ体験レッスンに足を運んで、自分に合うスタジオを見つけてくださいね。
+              ぜひ体験レッスンに足を運んで、自分に合うスタジオを見つけてください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのスタジオが見つかることを願っています。
+              本ページが、スタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -869,11 +851,11 @@ export default function ToritsuDaigakuPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              無料体験〜2,200円の体験レッスンを実施中。<br />
-              まずは気軽に体験してみましょう。
+              無料体験〜2,200円の体験レッスンを実施中です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

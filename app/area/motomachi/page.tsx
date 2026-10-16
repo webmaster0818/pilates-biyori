@@ -16,7 +16,7 @@ import { AreaConclusion } from '@/components/AreaConclusion'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/motomachi/' },
   title: '【2026年10月最新】元町のピラティススタジオおすすめ6選｜無料体験・料金で比較',
-  description: '元町のピラティススタジオ7社を無料体験・料金・マシン対応で比較。各スタジオの料金プラン・アクセス・選び方のポイントを実データでまとめました。',
+  description: '元町のピラティススタジオ7社を無料体験・料金・マシン対応で比較しています。各スタジオの料金プラン・アクセス・選び方のポイントを実データでまとめました。',
   keywords: 'ピラティス,元町,神戸,兵庫,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -27,12 +27,12 @@ const studios = [
     price: '1回 4,500円〜',
     trial: '体験レッスン 3,500円',
     features: ['元町駅徒歩2分', '少人数制', '産前産後対応', '世界資格保有'],
-    description: '神戸元町に2店舗（WEST/EAST）を構えるピラティス専門スタジオ。骨盤をテーマにした独自メソッドで、最大6名の少人数制グループレッスン。全インストラクターが世界的ピラティス資格を保有。産前産後クラスも充実。',
+    description: '神戸元町に2店舗（WEST/EAST）を構えるピラティス専門スタジオです。骨盤をテーマにした独自メソッドで、最大6名の少人数制グループレッスンです。全インストラクターが世界的ピラティス資格を保有です。産前産後クラスも充実しています。',
     access: 'WEST: JR「元町駅」西口 徒歩3分 / EAST: JR「元町駅」東口 徒歩2分',
     address: 'WEST: 兵庫県神戸市中央区北長狭通5丁目1-2 太陽ビル2F 202 / EAST: 兵庫県神戸市中央区北長狭通3丁目3-6 元町商工ビル7F',
     popularPlan: {
       name: '少人数グループレッスン',
-      description: '最大6名の少人数制マシンピラティスグループレッスン。',
+      description: '最大6名の少人数制マシンピラティスグループレッスンです。',
       price: '1回 4,500円〜（税込）',
     },
     options: [
@@ -60,12 +60,12 @@ const studios = [
     priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
     trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '最大3名までの少人数セミパーソナル形式の女性専用マシンピラティススタジオ。みなと元町駅から徒歩2分。インストラクターが一人ひとりに十分に対応できるセミパーソナル定額制。',
+    description: '最大3名までの少人数セミパーソナル形式の女性専用マシンピラティススタジオです。みなと元町駅から徒歩2分です。インストラクターが一人ひとりに十分に対応できるセミパーソナル定額制です。',
     access: 'みなと元町駅 徒歩2分／元町駅 徒歩6分',
     address: '〒650-0022 兵庫県神戸市中央区元町通4丁目1-13-2 2階',
     popularPlan: {
       name: 'セミパーソナル月4回コース',
-      description: '最大3名のセミパーソナルマシンピラティス月4回。',
+      description: '最大3名のセミパーソナルマシンピラティス月4回です。',
       price: '月額 19,800円（税込）/ 1回あたり4,950円',
     },
     userProfile: {
@@ -84,12 +84,12 @@ const studios = [
     price: '要問い合わせ',
     trial: '体験レッスンあり',
     features: ['初心者歓迎', '少人数制', 'ピラティス＆ヨガ', '目的別レッスン'],
-    description: '神戸元町のピラティス＆ヨガスタジオ。会員の80%が初心者で、難易度や目的に合わせてレッスンを選べる。少人数制で細やかな指導が特徴。ピラティスもヨガも楽しめる複合スタジオ。',
+    description: '神戸元町のピラティス＆ヨガスタジオです。会員の80%が初心者で、難易度や目的に合わせてレッスンを選べます。少人数制で細やかな指導が特徴です。ピラティスもヨガも楽しめる複合スタジオです。',
     access: 'JR「元町駅」徒歩圏内',
     address: '兵庫県神戸市中央区（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: '少人数グループレッスン',
-      description: '目的別に選べる少人数制レッスン。',
+      description: '目的別に選べる少人数制レッスンです。',
       price: '詳細は公式サイトでご確認ください',
     },
     options: [
@@ -114,12 +114,12 @@ const studios = [
     price: '入会費・更新費 0円',
     trial: '体験レッスンあり',
     features: ['理学療法士指導', '入会費0円', 'リーズナブル', '腰痛改善'],
-    description: '神戸元町にある理学療法士が指導するピラティススタジオ。入会費・更新費0円で通常料金も安価に設定されており、長期的に通いやすい。体の専門家による安全で効果的なレッスンが特徴。',
+    description: '神戸元町にある理学療法士が指導するピラティススタジオです。入会費・更新費0円で通常料金も安価に設定されており、長期的に通いやすいです。体の専門家による安全で効果的なレッスンが特徴です。',
     access: 'JR「元町駅」徒歩圏内',
     address: '兵庫県神戸市中央区（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'ピラティスレッスン',
-      description: '理学療法士による安全で効果的なピラティスレッスン。',
+      description: '理学療法士による安全で効果的なピラティスレッスンです。',
       price: '入会費・更新費 0円（レッスン料は公式サイトでご確認ください）',
     },
     options: [
@@ -145,12 +145,12 @@ const studios = [
     price: '要問い合わせ',
     trial: '体験レッスンあり',
     features: ['整体×ピラティス', '元町駅近', '体の歪み改善', 'マシンピラティス'],
-    description: '整体とマシンピラティスを組み合わせた独自のアプローチが特徴のスタジオ。体の歪みを整えてからピラティスを行うことで、より効果的な体づくりを実現。神戸元町エリアで通いやすい立地。',
+    description: '整体とマシンピラティスを組み合わせた独自のアプローチが特徴のスタジオです。体の歪みを整えてからピラティスを行うことで、より効果的な体づくりを実現しています。神戸元町エリアで通いやすい立地です。',
     access: 'JR「元町駅」徒歩圏内',
     address: '兵庫県神戸市中央区（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: '整体×マシンピラティス',
-      description: '整体で体を整えてからマシンピラティスを行う独自プログラム。',
+      description: '整体で体を整えてからマシンピラティスを行う独自プログラムです。',
       price: '詳細は公式サイトでご確認ください',
     },
     options: [
@@ -176,13 +176,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
-    features: ['花時計前駅徒歩1分', 'ピラティス専門', '男性OK', '全国相互利用'],
-    description: 'ピラティス専門の大手スタジオ。地下鉄海岸線「三宮・花時計前」4番出口から徒歩1分。元町エリアからもアクセス良好。マットグループ・マシングループ・プライベートの3タイプ。全国150店舗以上で相互利用可能。',
+    features: ['花時計前駅徒歩1分', 'ピラティス専門', '男性利用可', '全国他店利用'],
+    description: 'ピラティス専門の大手スタジオです。地下鉄海岸線「三宮・花時計前」4番出口から徒歩1分です。元町エリアからもアクセス良好です。マットグループ・マシングループ・プライベートの3タイプです。全国150店舗以上で他店利用可能です。',
     access: '地下鉄海岸線「三宮・花時計前駅」4番出口 徒歩1分 / JR「元町駅」東口 徒歩10分',
     address: '兵庫県神戸市中央区三宮町1-3-15 京町筋安田ビル4F',
     popularPlan: {
       name: 'フリープラン（マットグループ）',
-      description: 'マットグループレッスン通い放題。全国店舗で相互利用可能。',
+      description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。',
       price: '月額 16,940円（税込）',
     },
     options: [
@@ -207,11 +207,11 @@ const studios = [
 const faqs = [
   {
     question: '元町でピラティス初心者におすすめのスタジオは？',
-    answer: 'STUDIO BRAVEは会員の80%が初心者で安心。TOKI PILATESは少人数制（最大6名）で丁寧な指導が受けられます。zen place三宮も初心者歓迎のレッスンが充実。',
+    answer: 'STUDIO BRAVEは会員の80%が初心者で安心です。TOKI PILATESは少人数制（最大6名）で丁寧な指導が受けられます。zen place三宮も初心者歓迎のレッスンが充実しています。',
   },
   {
     question: '元町のピラティスの料金相場は？',
-    answer: 'グループレッスンは1回4,500円〜、月額プランは10,450円〜19,800円程度。セミパーソナルのPilates Meeは月2回11,000円〜。パーソナルよりリーズナブルに通えるスタジオが多いです。',
+    answer: 'グループレッスンは1回4,500円〜、月額プランは10,450円〜19,800円程度です。セミパーソナルのPilates Meeは月2回11,000円〜です。パーソナルよりリーズナブルに通えるスタジオが多いです。',
   },
   {
     question: '産前産後でも通えるスタジオはありますか？',
@@ -223,27 +223,27 @@ const faqs = [
   },
   {
     question: '元町駅から最も近いスタジオは？',
-    answer: 'TOKI PILATES STUDIO EAST店はJR元町駅東口から徒歩2分、WEST店は西口から徒歩3分。Pilates Meeはみなと元町駅から徒歩2分です。',
+    answer: 'TOKI PILATES STUDIO EAST店はJR元町駅東口から徒歩2分、WEST店は西口から徒歩3分です。Pilates Meeはみなと元町駅から徒歩2分です。',
   },
   {
     question: '整体も受けられるスタジオはありますか？',
-    answer: 'ラピラティス神戸元町店は整体×マシンピラティスの組み合わせが特徴。体の歪みを整えてからピラティスを行うので、肩こりや腰痛にお悩みの方におすすめです。',
+    answer: 'ラピラティス神戸元町店は整体×マシンピラティスの組み合わせが特徴です。体の歪みを整えてからピラティスを行うので、肩こりや腰痛にお悩みの方におすすめです。',
   },
   {
     question: '理学療法士が指導するスタジオはありますか？',
-    answer: 'Studio douce（スタジオドゥース）は理学療法士がインストラクターを務めており、入会費・更新費0円で長く続けやすい料金設定です。',
+    answer: 'Studio douce（スタジオドゥース）は理学療法士がエデュケーターを務めており、入会費・更新費0円で長く続けやすい料金設定です。',
   },
   {
     question: '体験レッスンの料金は？',
-    answer: 'zen place三宮はグループ体験1,000円〜。TOKI PILATESは体験3,500円。各スタジオで体験内容・料金が異なるので公式サイトで確認しましょう。',
+    answer: 'zen place三宮はグループ体験1,000円〜です。TOKI PILATESは体験3,500円です。各スタジオで体験内容・料金が異なるので公式サイトでご確認ください。',
   },
   {
     question: '元町と三宮どちらのスタジオに通うべき？',
-    answer: '元町と三宮は徒歩圏内です。元町はアットホームな個人スタジオが多く、三宮は大手チェーンが充実。目的や好みに合わせて選びましょう。両エリアの体験を受けて比較するのがおすすめです。',
+    answer: '元町と三宮は徒歩圏内です。元町はアットホームな個人スタジオが多く、三宮は大手チェーンが充実しています。目的や好みに合わせてお選びください。両エリアの体験を受けて比較するのがおすすめです。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。週1〜2回のペースで最低2〜3ヶ月の継続がおすすめ。Studio douceのような入会費0円のスタジオなら気軽に始められます。',
+    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。週1〜2回のペースで最低2〜3ヶ月の継続がおすすめです。Studio douceのような入会費0円のスタジオなら気軽に始められます。',
   },
 ]
 
@@ -264,8 +264,8 @@ export default function MotomachiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス元町おすすめ6選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】ピラティス元町おすすめ6選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -291,29 +291,11 @@ export default function MotomachiPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「元町で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、神戸元町エリアでおすすめのピラティススタジオ6選をまとめました。
+              本ページでは、神戸元町エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -338,7 +320,7 @@ export default function MotomachiPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -369,7 +351,7 @@ export default function MotomachiPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円台で通えるスタジオ。
+                  月額1万円台で通えるスタジオです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
@@ -379,7 +361,7 @@ export default function MotomachiPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">産前産後ケア</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  妊娠中・産後のケアに対応。
+                  妊娠中・産後のケアに対応しています。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• TOKI PILATES（産前産後クラス充実）</li>
@@ -389,7 +371,7 @@ export default function MotomachiPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">体の不調改善</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  医療資格保有者の安心指導。
+                  医療資格保有者の安心指導です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Studio douce（理学療法士指導）</li>
@@ -431,7 +413,7 @@ export default function MotomachiPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              元町エリアは三宮と隣接しながらも、個性的な個人スタジオが多いのが特徴です。大手チェーンの三宮店と、元町の専門スタジオを比較検討できるのがこのエリアの強み。セミパーソナル形式のスタジオもあり、グループよりも手厚い指導をリーズナブルに受けられます。入会費0円のスタジオもあるので、初期費用を抑えたい方にもおすすめのエリアです。
+              元町エリアは三宮と隣接しながらも、個性的な個人スタジオが多いのが特徴です。大手チェーンの三宮店と、元町の専門スタジオを比較検討できるのがこのエリアの特徴です。セミパーソナル形式のスタジオもあり、グループよりも手厚い指導をリーズナブルに受けられます。入会費0円のスタジオもあるので、初期費用を抑えたい方にもおすすめのエリアです。
             </p>
           </div>
         </section>
@@ -446,25 +428,25 @@ export default function MotomachiPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">元町駅の東口・西口で最寄りスタジオが変わる</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  JR元町駅は東口と西口があり、利用する出口によって最寄りのスタジオが異なります。TOKI PILATESはEAST店（東口徒歩2分）とWEST店（西口徒歩3分）の2店舗。Pilates Meeはみなと元町駅（西口方面）が最寄り。体験前に出口を確認しておきましょう。
+                  JR元町駅は東口と西口があり、利用する出口によって最寄りのスタジオが異なります。TOKI PILATESはEAST店（東口徒歩2分）とWEST店（西口徒歩3分）の2店舗です。Pilates Meeはみなと元町駅（西口方面）が最寄りです。体験前に出口をご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">元町商店街周辺は週末の混雑に注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  元町商店街や南京町（中華街）は週末や祝日に大変混雑します。スタジオへの到着が遅れないよう、混雑する時期は余裕を持って出発しましょう。平日の朝やお昼は比較的空いていて快適です。
+                  元町商店街や南京町（中華街）は週末や祝日に大変混雑します。スタジオへの到着が遅れないよう、混雑する時期は余裕を持って出発することをおすすめします。平日の朝やお昼は比較的空いていて快適です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">三宮エリアとの比較検討がおすすめ</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  元町と<Link href="/area/sannomiya/" className="text-warm-700 underline hover:text-warm-900">三宮</Link>は徒歩圏内。三宮にはピラティスKなどの大手チェーンもあります。元町のアットホームなスタジオと三宮のチェーン店、両方の体験レッスンを受けて比較するのが賢い選び方です。
+                  元町と<Link href="/area/sannomiya/" className="text-warm-700 underline hover:text-warm-900">三宮</Link>は徒歩圏内です。三宮にはピラティスKなどの大手チェーンもあります。元町のアットホームなスタジオと三宮のチェーン店、両方の体験レッスンを受けて比較するのが賢い選び方です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">少人数制スタジオは早めの予約が必須</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  元町エリアは少人数制のスタジオが多いため、人気の時間帯はすぐに枠が埋まります。特にTOKI PILATESの最大6名のグループレッスンやPilates Meeの最大3名セミパーソナルは定員が少ないので、希望日時があれば早めに予約しましょう。
+                  元町エリアは少人数制のスタジオが多いため、人気の時間帯はすぐに枠が埋まります。特にTOKI PILATESの最大6名のグループレッスンやPilates Meeの最大3名セミパーソナルは定員が少ないので、希望日時があれば早めにご予約ください。
                 </p>
               </div>
             </div>
@@ -482,25 +464,25 @@ export default function MotomachiPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>元町エリアの豆知識：</strong>元町は神戸を代表するおしゃれなエリア。レッスン後は元町商店街でのショッピングや南京町でのランチも楽しめます。三宮方面にも歩いて行けるので、レッスン前後の時間を有効活用しやすいのが元町の魅力です。
+                  <strong>元町エリアの豆知識：</strong>元町は神戸を代表するおしゃれなエリアです。レッスン後は元町商店街でのショッピングや南京町でのランチも楽しめます。三宮方面にも歩いて行けるので、レッスン前後の時間を有効活用しやすいのが元町の魅力です。
                 </p>
               </div>
             </div>
@@ -529,7 +511,7 @@ export default function MotomachiPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  元町の料金相場はグループ月4回で10,450円〜19,800円。Studio douceは入会費0円で初期費用を抑えられます。
+                  元町の料金相場はグループ月4回で10,450円〜19,800円です。Studio douceは入会費0円で初期費用を抑えられます。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -538,7 +520,7 @@ export default function MotomachiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  zen placeはグループ体験1,000円〜。TOKI PILATESは3,500円で体験可能。複数のスタジオを体験して比較しましょう。
+                  zen placeはグループ体験1,000円〜です。TOKI PILATESは3,500円で体験可能です。複数のスタジオを体験して比較することをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -547,7 +529,7 @@ export default function MotomachiPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  元町はJR・阪神・地下鉄の3路線が利用可能。駅の東口と西口で最寄りスタジオが異なるので、通勤・通学ルートに合わせて選びましょう。
+                  元町はJR・阪神・地下鉄の3路線が利用可能です。駅の東口と西口で最寄りスタジオが異なるので、通勤・通学ルートに合わせてお選びください。
                 </p>
               </div>
             </div>
@@ -593,10 +575,10 @@ export default function MotomachiPage() {
               元町はおしゃれな街並みの中に個性的なピラティススタジオが点在しています。産前産後ケア、理学療法士の指導、整体との組み合わせなど、専門性の高いスタジオが揃っているのが元町の魅力です。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -605,11 +587,11 @@ export default function MotomachiPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン1,000円〜3,500円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン1,000円〜3,500円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

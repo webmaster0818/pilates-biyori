@@ -18,7 +18,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/tokyo-station/' },
   title: '【2026年10月最新】東京駅のピラティススタジオおすすめ12選｜無料体験・料金で比較',
-  description: '東京駅のピラティススタジオ12社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
+  description: '東京駅のピラティススタジオ12社の料金・無料体験・マシン対応を比較しています。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
   keywords: 'ピラティス,東京駅,八重洲,丸の内,大手町,日本橋,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -30,12 +30,12 @@ const studios = [
     price: 'Standard4 12,980円〜',
     trial: '体験レッスン 0円（キャンペーン中）',
     features: ['女性専用', 'マシンピラティス専門', '東京駅徒歩5分', '音楽×マシン'],
-    description: '女性専用マシンピラティス専門スタジオ。JR東京駅八重洲北口から徒歩5分、大手町駅B10出口から徒歩5分の好アクセス。PMA加盟団体監修のレッスンで、音楽に合わせながら楽しくボディメイク。初心者が8割で安心して始められます。',
+    description: '女性専用マシンピラティス専門スタジオです。JR東京駅八重洲北口から徒歩5分、大手町駅B10出口から徒歩5分の好アクセスです。PMA加盟団体監修のレッスンで、音楽に合わせながら楽しくボディメイクを目指せます。初心者が8割で安心して始められます。',
     access: 'JR「東京駅」八重洲北口 徒歩5分 / 東京メトロ「大手町駅」B10出口 徒歩5分',
     address: '東京都中央区八重洲1-5-9 八重洲加藤ビルディング5階',
     popularPlan: {
       name: 'Standard4（月4回）',
-      description: '女性専用マシンピラティスの基本プラン。',
+      description: '女性専用マシンピラティスの基本プランです。',
       price: '月4回 12,980円（税込）〜',
     },
     options: [
@@ -61,13 +61,13 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: 'マットグループ 月4回 10,450円〜',
     trial: '体験レッスン 1,000円〜',
-    features: ['マット&マシン', '東京駅徒歩5分', '男性OK', 'AI背骨解析'],
-    description: '全国135店舗以上展開の大手ピラティススタジオ。東京駅八重洲北口から徒歩5分、日本橋駅A7出口から徒歩3分、大手町駅B10出口から徒歩7分。マットグループ、マシングループ、プライベートに対応。世界初のAI「背骨ムーブメント解析」導入。',
+    features: ['マット&マシン', '東京駅徒歩5分', '男性利用可', 'AI背骨解析'],
+    description: '全国135店舗以上展開の大手ピラティススタジオです。東京駅八重洲北口から徒歩5分、日本橋駅A7出口から徒歩3分、大手町駅B10出口から徒歩7分です。マットグループ、マシングループ、プライベートに対応しています。世界初のAI「背骨ムーブメント解析」導入です。',
     access: '日本橋駅A7出口 徒歩3分 / 東京駅八重洲北口 徒歩5分 / 大手町駅B10出口 徒歩7分',
     address: '東京都中央区日本橋2-3-21 八重洲セントラルビル6F',
     popularPlan: {
       name: 'リフォーマーグループ（月4回）',
-      description: 'マシンを使ったグループレッスン。',
+      description: 'マシンを使ったグループレッスンです。',
       price: '月4回 15,400円（税込）〜',
     },
     options: [
@@ -93,7 +93,7 @@ const studios = [
     price: 'パーソナル 月4回 32,560円〜',
     trial: '体験レッスン 4,000円〜',
     features: ['完全パーソナル', '理学療法士監修', '銀座一丁目駅徒歩1分', '医学的アプローチ'],
-    description: '理学療法士が考案した完全個別指導のマシンピラティススタジオ。銀座一丁目駅から徒歩1分、東京駅から有楽町線で1駅。医学的知識に基づいたマンツーマンレッスンで、腰痛・肩こり・姿勢改善に定評あり。全国95店舗展開。',
+    description: '理学療法士が考案した完全個別指導のマシンピラティススタジオです。銀座一丁目駅から徒歩1分、東京駅から有楽町線で1駅です。医学的知識に基づいたマンツーマンレッスンで、腰痛・肩こり・姿勢改善に定評があります。全国95店舗展開です。',
     access: '有楽町線「銀座一丁目駅」徒歩1分 / 丸ノ内線「銀座駅」徒歩4分',
     address: '東京都中央区銀座2-11-9 三和産工ビル6F',
   },
@@ -104,12 +104,12 @@ const studios = [
     price: 'マンスリー4メンバー 13,420円',
     trial: '体験レッスン 2,000円',
     features: ['女性専用', 'マシンピラティス専門', '銀座一丁目駅徒歩1分', 'ボディメイク特化'],
-    description: '女性専用マシンピラティス専門スタジオ。銀座一丁目駅6番出口から徒歩1分、有楽町駅から徒歩6分。東京駅から有楽町線で1駅。お腹・お尻・二の腕・脚・背中の部位特化プログラムが充実。音楽に合わせたカジュアルなレッスンスタイル。',
+    description: '女性専用マシンピラティス専門スタジオです。銀座一丁目駅6番出口から徒歩1分、有楽町駅から徒歩6分です。東京駅から有楽町線で1駅です。お腹・お尻・二の腕・脚・背中の部位特化プログラムが充実しています。音楽に合わせたカジュアルなレッスンスタイルです。',
     access: '有楽町線「銀座一丁目駅」6番出口 徒歩1分 / JR「有楽町駅」中央口 徒歩6分',
     address: '東京都中央区銀座1-6-10 上一ビルディング7F',
     popularPlan: {
       name: 'マンスリー4メンバー',
-      description: '月4回のマシンピラティスグループレッスン。',
+      description: '月4回のマシンピラティスグループレッスンです。',
       price: '月4回 13,420円（税込）',
     },
     options: [
@@ -136,12 +136,12 @@ const studios = [
     price: 'グループ月4回 15,400円〜',
     trial: '体験レッスン 3,850円',
     features: ['プロダンサー養成校プロデュース', '少人数制（最大8名）', '銀座駅C8出口徒歩30秒', '本格メソッド'],
-    description: '40年以上の実績を持つプロダンサー養成校「ブロードウェイダンスセンター（BDC）」プロデュースのマシンピラティス専門スタジオ。銀座駅C8出口から徒歩30秒。最大8名の少人数制グループレッスンで丁寧な指導。',
+    description: '40年以上の実績を持つプロダンサー養成校「ブロードウェイダンスセンター（BDC）」プロデュースのマシンピラティス専門スタジオです。銀座駅C8出口から徒歩30秒です。最大8名の少人数制グループレッスンで丁寧な指導です。',
     access: '銀座駅C8出口から徒歩30秒（公式表記）',
     address: '東京都中央区銀座4-2-1 銀座教会堂ビル7F',
     popularPlan: {
       name: 'グループレッスン（月4回）',
-      description: '最大8名の少人数制マシンピラティス。',
+      description: '最大8名の少人数制マシンピラティスです。',
       price: '月4回 15,400円（税込）',
     },
     options: [
@@ -167,7 +167,7 @@ const studios = [
     price: 'Standard4 12,980円〜',
     trial: '体験レッスン 0円（キャンペーン中）',
     features: ['女性専用', 'マシンピラティス専門', '銀座駅徒歩2分', 'パウダールーム充実'],
-    description: '女性専用マシンピラティス専門スタジオ。銀座駅A3出口から徒歩2分、東銀座駅A1出口から徒歩3分。東京駅から銀座線で1駅の好立地。パウダールームにライト付きミラーやドライヤー完備で、レッスン後そのままお出かけ可能。',
+    description: '女性専用マシンピラティス専門スタジオです。銀座駅A3出口から徒歩2分、東銀座駅A1出口から徒歩3分です。東京駅から銀座線で1駅の好立地です。パウダールームにライト付きミラーやドライヤー完備で、レッスン後そのままお出かけ可能です。',
     access: '銀座線「銀座駅」A3出口 徒歩2分 / 日比谷線「東銀座駅」A1出口 徒歩3分',
     address: '東京都中央区銀座5-9-12 ダイヤモンドビル3F',
   },
@@ -177,8 +177,8 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: 'マットグループ 月4回 10,450円〜',
     trial: '体験レッスン 1,000円〜',
-    features: ['マット&マシン', '銀座一丁目駅徒歩3分', '男性OK', '早朝レッスンあり'],
-    description: '全国135店舗以上のzen placeの銀座スタジオ。銀座一丁目駅から徒歩3分、東京駅から有楽町線経由で約10分。八重洲スタジオと相互利用可能で、通勤ルートに合わせて使い分けができる。早朝レッスンも開講。',
+    features: ['マット&マシン', '銀座一丁目駅徒歩3分', '男性利用可', '早朝レッスンあり'],
+    description: '全国135店舗以上のzen placeの銀座スタジオです。銀座一丁目駅から徒歩3分、東京駅から有楽町線経由で約10分です。八重洲スタジオと他店利用可能で、通勤ルートに合わせて使い分けができます。早朝レッスンも開講しています。',
     access: '有楽町線「銀座一丁目駅」徒歩3分 / JR「有楽町駅」徒歩5分',
     address: '東京都中央区銀座2丁目11-15 SF銀座ビル 2階',
   },
@@ -187,8 +187,8 @@ const studios = [
     image: '/images/studios/pilates-garden-ginza.webp',
     price: '月4回 10,200円〜',
     trial: '体験レッスン お問い合わせ',
-    features: ['女性専用', 'マット&マシン', '東銀座駅徒歩2分', 'コスパ抜群'],
-    description: '女性専用のマット・マシンピラティス専門スタジオ。東銀座駅3番出口から徒歩2分、銀座駅A12出口から徒歩5分。月4回10,200円からの良心的な料金設定で、フリー会員なら月15,300円で通い放題。平日22時まで営業。',
+    features: ['女性専用', 'マット&マシン', '東銀座駅徒歩2分', '割安'],
+    description: '女性専用のマット・マシンピラティス専門スタジオです。東銀座駅3番出口から徒歩2分、銀座駅A12出口から徒歩5分です。月4回10,200円からの良心的な料金設定で、フリー会員なら月15,300円で通い放題です。平日22時まで営業しています。',
     access: '日比谷線「東銀座駅」3番出口 徒歩2分 / 銀座線「銀座駅」A12出口 徒歩5分',
     address: '東京都中央区銀座3-14-13 第一厚生館ビル2F',
   },
@@ -198,7 +198,7 @@ const studios = [
     price: 'パーソナル 1回 8,800円〜',
     trial: '初回体験レッスン 4,500円',
     features: ['完全個室パーソナル', '身体の不調対応', '銀座駅徒歩6分', 'オーダーメイド'],
-    description: '個室空間でマシンピラティスによるパーソナルレッスンを提供。銀座駅から徒歩6分。ボディメイクだけでなく、腰痛・肩こり・膝や股関節の痛みなど身体の不調にも対応。一人ひとりの状態に合わせたオーダーメイドプログラム。',
+    description: '個室空間でマシンピラティスによるパーソナルレッスンを提供しています。銀座駅から徒歩6分です。ボディメイクだけでなく、腰痛・肩こり・膝や股関節の痛みなど身体の不調にも対応しています。一人ひとりの状態に合わせたオーダーメイドプログラムです。',
     access: '銀座線「銀座駅」徒歩6分 / 丸ノ内線「銀座駅」徒歩6分',
     address: '東京都中央区銀座（銀座駅徒歩6分）',
   },
@@ -208,7 +208,7 @@ const studios = [
     price: 'グループ 月4回 13,200円〜',
     trial: '体験レッスン 3,300円',
     features: ['少人数制', 'アットホーム', '日本橋駅近く', '丁寧な指導'],
-    description: '日本橋エリアのマシンピラティス専門スタジオ。日本橋駅から徒歩圏内、東京駅からも徒歩でアクセス可能。少人数制のグループレッスンで一人ひとりに丁寧な指導。アットホームな雰囲気で初心者も安心。',
+    description: '日本橋エリアのマシンピラティス専門スタジオです。日本橋駅から徒歩圏内、東京駅からも徒歩でアクセス可能です。少人数制のグループレッスンで一人ひとりに丁寧な指導です。アットホームな雰囲気で初心者も安心です。',
     access: '東京メトロ「日本橋駅」徒歩3分 / JR「東京駅」徒歩10分',
     address: '東京都中央区日本橋（日本橋駅徒歩3分）',
   },
@@ -218,8 +218,8 @@ const studios = [
     image: '/images/studios/the-silk.webp',
     price: 'Standard4 12,980円〜',
     trial: '体験レッスン 0円（キャンペーン中）',
-    features: ['女性専用', 'マシンピラティス専門', '銀座一丁目駅徒歩2分', '手ぶら体験OK'],
-    description: '女性専用マシンピラティス専門スタジオ。銀座一丁目駅6番出口から徒歩2分、京橋駅3番出口から徒歩4分。八重洲店・銀座店との相互利用が可能で、予約の取りやすさも魅力。手ぶらで無料体験レッスンが受けられるキャンペーン実施中。',
+    features: ['女性専用', 'マシンピラティス専門', '銀座一丁目駅徒歩2分', '手ぶらで体験可能'],
+    description: '女性専用マシンピラティス専門スタジオです。銀座一丁目駅6番出口から徒歩2分、京橋駅3番出口から徒歩4分です。八重洲店・銀座店との相互利用が可能で、予約の取りやすさも魅力です。手ぶらで無料体験レッスンが受けられるキャンペーン実施中です。',
     access: '有楽町線「銀座一丁目駅」6番出口 徒歩2分 / 銀座線「京橋駅」3番出口 徒歩4分',
     address: '東京都中央区銀座1丁目5-8 Ginza Willow Avenue BLDG. 4階',
   },
@@ -229,7 +229,7 @@ const studios = [
     price: 'パーソナル 1回 9,900円〜',
     trial: '体験レッスン お問い合わせ',
     features: ['マシンピラティス', 'パーソナル対応', '銀座エリア', '丁寧なカウンセリング'],
-    description: '銀座エリアのマシンピラティススタジオ。東京駅から銀座線で数分の好立地。丁寧なカウンセリングで一人ひとりの目標に合わせたプログラムを提案。マシンピラティスで効率的にボディメイク。',
+    description: '銀座エリアのマシンピラティススタジオです。東京駅から銀座線で数分の好立地です。丁寧なカウンセリングで一人ひとりの目標に合わせたプログラムを提案しています。マシンピラティスで効率的にボディメイクを目指せます。',
     access: '銀座線「銀座駅」徒歩5分 / 東京駅から銀座線で約5分',
     address: '東京都中央区銀座（銀座駅徒歩5分）',
   },
@@ -238,7 +238,7 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！東京駅周辺のスタジオは初心者歓迎のところがほとんどです。the SILKは初心者が8割以上、ピラティスKもビギナー向けプログラムが充実しています。',
+    answer: '問題ありません。東京駅周辺のスタジオは初心者歓迎のところがほとんどです。the SILKは初心者が8割以上、ピラティスKもビギナー向けプログラムが充実しています。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
@@ -246,11 +246,11 @@ const faqs = [
   },
   {
     question: '東京駅エリアの料金相場は？',
-    answer: 'グループレッスン月4回で10,200円〜15,400円程度。パーソナルは1回8,800円〜10,000円。体験は0円〜4,500円です。銀座エリアはやや高めですが、キャンペーンを利用するとお得に始められます。',
+    answer: 'グループレッスン月4回で10,200円〜15,400円程度です。パーソナルは1回8,800円〜10,000円です。体験は0円〜4,500円です。銀座エリアはやや高めですが、キャンペーンを利用するとお得に始められます。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: '初心者は週1〜2回からスタートがおすすめ。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。',
+    answer: '初心者は週1〜2回からスタートがおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。',
   },
   {
     question: 'ピラティスで痩せますか？',
@@ -258,7 +258,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があればOKです。the SILKなど手ぶら体験キャンペーンを実施しているスタジオもあります。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。the SILKなど手ぶら体験キャンペーンを実施しているスタジオもあります。',
   },
   {
     question: 'ピラティスとヨガの違いは？',
@@ -295,8 +295,8 @@ export default function TokyoStationPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス東京駅おすすめ12選！<br className="hidden md:block" />
-              料金・体験レッスン・マシン対応を比較！
+              ピラティス東京駅おすすめ12選<br className="hidden md:block" />
+              料金・体験レッスン・マシン対応を比較
             </h1>
           </div>
         </section>
@@ -321,29 +321,11 @@ export default function TokyoStationPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「東京駅周辺でピラティスを始めたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「仕事帰りに通えるスタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、東京駅・八重洲・丸の内・大手町・日本橋・銀座エリアから通えるおすすめのピラティススタジオ12選をまとめました。千代田区・中央区のビジネス街に位置するスタジオを中心に、料金・特徴・アクセスを徹底比較しています。
+              本ページでは、東京駅・八重洲・丸の内・大手町・日本橋・銀座エリアから通えるおすすめのピラティススタジオ12選をまとめました。千代田区・中央区のビジネス街に位置するスタジオを中心に、料金・特徴・アクセスを徹底比較しています。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -364,7 +346,7 @@ export default function TokyoStationPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -433,25 +415,25 @@ export default function TokyoStationPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">JR「東京駅」からのアクセスを事前確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  東京駅エリアのスタジオは東京駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートを確認しておきましょう。東京駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
+                  東京駅エリアのスタジオは東京駅周辺に集中していますが、出口や改札によって徒歩時間が変わります。初回訪問時は余裕を持って10分前に到着できるよう、事前にルートをご確認ください。東京駅は複数路線が乗り入れるため、利用路線によって最適な出口が異なります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">繁華街ならではの予約混雑に注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  東京駅は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることも。アプリやWebで空き状況をこまめにチェックし、キャンセル待ち機能があるスタジオでは積極的に活用しましょう。
+                  東京駅は人が集まる繁華街のため、平日夜（18時〜21時）と土日午前中はレッスン予約が特に集中します。人気クラスは1週間以上前に満席になることもあります。アプリやWebで空き状況をこまめに確認し、キャンセル待ち機能があるスタジオでは積極的にご活用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  東京駅エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ず確認しましょう。月の途中入会は日割り計算になるかも要チェックです。
+                  東京駅エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ずご確認ください。月の途中入会は日割り計算になるかもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  東京駅エリアだけでなく、近隣の<Link href="/area/marunouchi/" className="text-warm-700 underline hover:text-warm-900">丸の内</Link>、<Link href="/area/nihonbashi/" className="text-warm-700 underline hover:text-warm-900">日本橋</Link>、<Link href="/area/otemachi/" className="text-warm-700 underline hover:text-warm-900">大手町</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  東京駅エリアだけでなく、近隣の<Link href="/area/marunouchi/" className="text-warm-700 underline hover:text-warm-900">丸の内</Link>、<Link href="/area/nihonbashi/" className="text-warm-700 underline hover:text-warm-900">日本橋</Link>、<Link href="/area/otemachi/" className="text-warm-700 underline hover:text-warm-900">大手町</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -469,25 +451,25 @@ export default function TokyoStationPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>東京駅エリアの豆知識：</strong>東京駅は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
+                  <strong>東京駅エリアの豆知識：</strong>東京駅は仕事帰りに立ち寄る方が多いエリアです。荷物が多くなりがちなので、ロッカーの広さやシャワー設備の有無を事前に確認しておくと安心です。ウェアレンタルがあるスタジオなら手ぶらで通えて便利です。
                 </p>
               </div>
             </div>
@@ -503,9 +485,9 @@ export default function TokyoStationPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">コスパ重視</h3>
+                <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円前後から通える。
+                  月額1万円前後から通えます。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place（マット月4回 10,450円〜）</li>
@@ -516,7 +498,7 @@ export default function TokyoStationPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">少人数・本格派</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  少人数制やパーソナルで丁寧な指導。
+                  少人数制やパーソナルで丁寧な指導です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• BDC PILATES（最大8名）</li>
@@ -527,7 +509,7 @@ export default function TokyoStationPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">東京駅からの近さ</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  JR東京駅から徒歩圏内・1駅圏内。
+                  JR東京駅から徒歩圏内・1駅圏内です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• the SILK 八重洲（東京駅徒歩5分）</li>
@@ -548,15 +530,15 @@ export default function TokyoStationPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1〜2回からスタート。最低2〜3ヶ月で効果を実感できます。
+                週1〜2回から始めることをおすすめします。最低2〜3ヶ月で効果を実感できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイク目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2〜3回がおすすめ。3〜6ヶ月で目に見える変化を感じられます。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化を感じられます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">健康管理目的の方</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続。東京駅周辺はビジネス街なので仕事帰りに立ち寄る習慣を作りやすいエリアです。
+                週1回のペースで無理なく継続することをおすすめします。東京駅周辺はビジネス街なので仕事帰りに立ち寄る習慣を作りやすいエリアです。
               </p>
             </div>
           </div>
@@ -573,7 +555,7 @@ export default function TokyoStationPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜13,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">グループ</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マットグループやリーズナブルなプラン。
+                  マットグループやリーズナブルなプランです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（マット月4回 10,450円〜）</li>
@@ -586,7 +568,7 @@ export default function TokyoStationPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜16,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン完備の充実レッスン。
+                  マシン完備の充実レッスンです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（月4回 13,420円）</li>
@@ -598,7 +580,7 @@ export default function TokyoStationPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">パーソナル</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">1対1</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  自分だけのプログラムで効果を最大化。
+                  自分だけのプログラムで効果を最大化です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• バース ピラティス（1回 8,800円〜）</li>
@@ -623,7 +605,7 @@ export default function TokyoStationPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ダイエット、姿勢改善、体幹強化、腰痛改善など、目的に応じてスタジオを選びましょう。身体の不調がある方はルルトやバース ピラティスのようなパーソナル対応のスタジオがおすすめです。
+                  ダイエット、姿勢改善、体幹強化、腰痛改善など、目的に応じてスタジオをお選びください。身体の不調がある方はルルトやバース ピラティスのようなパーソナル対応のスタジオがおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -641,7 +623,7 @@ export default function TokyoStationPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  0円〜4,500円で体験できるスタジオが多いので、2〜3件は体験してから決めましょう。the SILKは無料体験キャンペーン、zen placeは1,000円から体験可能です。
+                  0円〜4,500円で体験できるスタジオが多いので、2〜3件は体験してから決めることをおすすめします。the SILKは無料体験キャンペーン、zen placeは1,000円から体験可能です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -650,7 +632,7 @@ export default function TokyoStationPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  東京駅はJR各線・東京メトロ丸ノ内線・東西線・銀座線など多数の路線が集まる日本最大のターミナル駅。八重洲口側（中央区）と丸の内口側（千代田区）それぞれにスタジオがあり、有楽町線で1駅の銀座・銀座一丁目にも多数の選択肢があります。仕事帰りに無理なく立ち寄れる場所を選びましょう。
+                  東京駅はJR各線・東京メトロ丸ノ内線・東西線・銀座線など多数の路線が集まる日本最大のターミナル駅です。八重洲口側（中央区）と丸の内口側（千代田区）それぞれにスタジオがあり、有楽町線で1駅の銀座・銀座一丁目にも多数の選択肢があります。仕事帰りに無理なく立ち寄れる場所をお選びください。
                 </p>
               </div>
             </div>
@@ -693,16 +675,16 @@ export default function TokyoStationPage() {
               今回は東京駅周辺のおすすめピラティススタジオ12選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              東京駅は日本最大のターミナル駅で、八重洲・丸の内・大手町・日本橋・銀座も徒歩圏内または地下鉄1駅圏内。千代田区・中央区のビジネス街に位置するため、仕事帰りに通える質の高いスタジオが充実しています。
+              東京駅は日本最大のターミナル駅で、八重洲・丸の内・大手町・日本橋・銀座も徒歩圏内または地下鉄1駅圏内です。千代田区・中央区のビジネス街に位置するため、仕事帰りに通える質の高いスタジオが充実しています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              女性専用スタジオならthe SILKやピラティスK、男性もOKならzen place、身体の不調を改善したいならルルトやバース ピラティス、コスパ重視ならピラティスガーデン銀座がおすすめです。
+              女性専用スタジオならthe SILKやピラティスK、男性も可ならzen place、身体の不調を改善したいならルルトやバース ピラティス、料金重視ならピラティスガーデン銀座がおすすめです。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひ体験レッスンに足を運んで、自分に合うスタジオを見つけてくださいね。
+              ぜひ体験レッスンに足を運んで、自分に合うスタジオを見つけてください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのスタジオが見つかることを願っています。
+              本ページが、スタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -711,11 +693,11 @@ export default function TokyoStationPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン0円〜4,500円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン0円〜4,500円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/#studios"

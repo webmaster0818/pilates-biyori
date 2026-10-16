@@ -431,7 +431,7 @@ export function StudioCardClient({ studio, index }: StudioCardProps) {
                 </div>
                 <p className="text-sm text-warm-700 mt-2 leading-relaxed">{rev.summary}</p>
                 <p className="text-[11px] text-warm-500 mt-2">
-                  Googleマップに投稿された口コミをもとに編集部が要約しました（{rev.fetchedAt}時点）。
+                  Googleマップに投稿された口コミをもとに、編集部が要約したものです（{rev.fetchedAt}時点）。
                   口コミ本文は転載していません。
                   {' '}
                   <a href={rev.mapsUri} target="_blank" rel="noopener noreferrer" className="underline hover:text-warm-700">
@@ -449,7 +449,7 @@ export function StudioCardClient({ studio, index }: StudioCardProps) {
               rel={studio.officialUrl && !studio.dofollow ? 'noopener noreferrer sponsored' : 'noopener noreferrer'}
               className="inline-block bg-warm-800 text-white px-6 py-2 rounded text-sm hover:bg-warm-900 transition"
             >
-              公式サイトを見てみる
+              公式サイトを見る
             </a>
             {/*
               口コミは「Google口コミをもとにした編集部の要約」＋出典リンクで掲載する。

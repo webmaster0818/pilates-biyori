@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kobe/' },
-  title: '【2026年10月最新】神戸のピラティス｜初心者OK・無料体験で選ぶ料金比較',
-  description: '神戸エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  title: '【2026年10月最新】神戸のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  description: '神戸エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
   keywords: 'ピラティス,神戸,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -27,12 +27,12 @@ const studios = [
     price: '月4回 13,420円〜',
     trial: '無料体験レッスン',
     features: ['音楽×マシン', '女性専用', '神戸三宮駅徒歩3分', '暗闇レッスン'],
-    description: '神戸の三宮にある女性専用マシンピラティススタジオ。阪急線「神戸三宮駅」西口より徒歩3分と、公共交通機関でのアクセスも便利。カジュアルかつスタイリッシュな店内で、音楽にあわせたグループレッスンを楽しめます。お腹、お尻、二の腕、脚、背中の部位に特化したボディメイクプログラムが充実。',
+    description: '神戸の三宮にある女性専用マシンピラティススタジオです。阪急線「神戸三宮駅」西口より徒歩3分と、公共交通機関でのアクセスも便利です。カジュアルかつスタイリッシュな店内で、音楽にあわせたグループレッスンを楽しめます。お腹、お尻、二の腕、脚、背中の部位に特化したボディメイクプログラムが充実しています。',
     access: '阪急神戸三宮駅西口より徒歩3分',
     address: '兵庫県神戸市中央区三宮（詳細は公式サイト参照）',
     popularPlan: {
       name: 'マンスリー4メンバー',
-      description: '暗闇×音楽×マシンピラティスの融合レッスン。楽しく続けられると人気のプラン。',
+      description: '暗闇×音楽×マシンピラティスの融合レッスンです。楽しく続けられると人気のプランです。',
       price: '月4回 13,420円（税込）+ 施設維持費 825円',
     },
     options: [
@@ -59,12 +59,12 @@ const studios = [
     price: 'ライト 月2回 17,000円〜（税込）',
     trial: '初回体験 2,980円（税込・通常9,900円・LINE予約限定）',
     features: ['理学療法士監修', '完全個室', '姿勢改善専門', '腰痛改善'],
-    description: 'ピラティススタジオDEP 神戸店 Resho。理学療法士が監修する完全個室のマシンピラティススタジオ。クリニック勤務経験を活かし、自分自身を救ってくれたピラティスの力を、今度は自分が伝えることで、沢山の方の生活を豊かに導きたいと強く想い、地元神戸の方へもDEPのサービスを届けたいとオープン。姿勢改善・猫背改善・腰痛改善に特化。',
+    description: 'ピラティススタジオDEP 神戸店 Reshoです。理学療法士が監修する完全個室のマシンピラティススタジオです。クリニック勤務経験を活かし、自分自身を救ってくれたピラティスの力を、今度は自分が伝えることで、沢山の方の生活を豊かに導きたいと強く想い、地元神戸の方へもDEPのサービスを届けたいとオープンしています。姿勢改善・猫背改善・腰痛改善に特化しています。',
     access: '神戸市内（詳細は公式サイト参照）',
     address: '兵庫県神戸市（詳細は公式サイト参照）',
     popularPlan: {
       name: '月額会員プラン',
-      description: '50分のパーソナルレッスン（初回は90〜120分）。ライト月2回・スタンダード月4回・プレミアム月7回。',
+      description: '50分のパーソナルレッスンです（初回は90〜120分）。ライト月2回・スタンダード月4回・プレミアム月7回です。',
       price: 'ライト 17,000円／スタンダード 32,000円／プレミアム 54,600円（税込）',
     },
     options: [
@@ -91,12 +91,12 @@ const studios = [
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['理学療法士考案', 'マンツーマン', '医療的視点', '身体の専門家'],
-    description: '身体の専門家である理学療法士が考案したピラティススタジオ。医療現場での知見を活かし、「ただ動く」のではなく「身体を正しく動かす」ことを重視。一人ひとりの身体の状態に合わせたオーダーメイドプログラムを提供。リハビリから本格的なボディメイクまで幅広く対応。',
+    description: '身体の専門家である理学療法士が考案したピラティススタジオです。医療現場での知見を活かし、「ただ動く」のではなく「身体を正しく動かす」ことを重視しています。一人ひとりの身体の状態に合わせたオーダーメイドプログラムを提供しています。リハビリから本格的なボディメイクまで幅広く対応しています。',
     access: '神戸市内（詳細は公式サイト参照）',
     address: '兵庫県神戸市中央区相生町4丁目5-7 神戸パシフィックビル5F',
     popularPlan: {
       name: '理学療法士監修プログラム',
-      description: '医療的視点からの身体分析。一人ひとりに合わせたオーダーメイドプログラム。',
+      description: '医療的視点からの身体分析です。一人ひとりに合わせたオーダーメイドプログラムです。',
       price: '要問合せ',
     },
     options: [
@@ -122,12 +122,12 @@ const studios = [
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['神戸元町', 'パーソナル専門', '産後ケア', '骨盤矯正'],
-    description: 'TOKI PILATES STUDIO｜神戸元町のピラティススタジオ。パーソナルレッスン・産後・骨盤矯正・骨盤リカバリ・マシンピラティス・体幹トレーニング・姿勢矯正を専門に行うスタジオ。一人ひとりの身体に合わせた丁寧な指導を提供。',
+    description: 'TOKI PILATES STUDIO｜神戸元町のピラティススタジオです。パーソナルレッスン・産後・骨盤矯正・骨盤リカバリ・マシンピラティス・体幹トレーニング・姿勢矯正を専門に行うスタジオです。一人ひとりの身体に合わせた丁寧な指導を提供しています。',
     access: '神戸元町（詳細は公式サイト参照）',
     address: '兵庫県神戸市中央区元町（詳細は公式サイト参照）',
     popularPlan: {
       name: 'パーソナルレッスン',
-      description: '産後ケア・骨盤矯正に特化。一人ひとりに合わせた丁寧な指導。',
+      description: '産後ケア・骨盤矯正に特化しています。一人ひとりに合わせた丁寧な指導です。',
       price: '要問合せ',
     },
     options: [
@@ -153,12 +153,12 @@ const studios = [
     price: '要問合せ',
     trial: '体験レッスン あり',
     features: ['会員制', 'グループ＆プライベート', '神戸三宮', 'マシン専門'],
-    description: 'ピラティスなら神戸・三宮のSTUDIO TOU（スタジオトゥーユー）。会員制のピラティスなら神戸・三宮のマシンピラティス STUDIO TOU、グループレッスン、プライベートレッスンを行っております。一人ひとりに合わせた丁寧な指導で、初心者から経験者まで幅広く対応。',
+    description: 'ピラティスなら神戸・三宮のSTUDIO TOUです（スタジオトゥーユー）。会員制のピラティスなら神戸・三宮のマシンピラティス STUDIO TOU、グループレッスン、プライベートレッスンを行っております。一人ひとりに合わせた丁寧な指導で、初心者から経験者まで幅広く対応しています。',
     access: '神戸三宮（詳細は公式サイト参照）',
     address: '兵庫県神戸市中央区三宮（詳細は公式サイト参照）',
     popularPlan: {
       name: 'マシンピラティス',
-      description: '会員制スタジオ。グループ＆プライベートレッスン対応。',
+      description: '会員制スタジオです。グループ＆プライベートレッスン対応です。',
       price: '要問合せ',
     },
     options: [
@@ -184,12 +184,12 @@ const studios = [
     price: 'サブスク月1回 12,000円〜',
     trial: '体験レッスン 3,000円',
     features: ['整体×マシンピラティス', '元町駅徒歩2分', '女性専用', '明るいスタジオ'],
-    description: '神戸元町のマシンピラティスならLa pilates｜女性専用・整体×ピラティススタジオ。「元町駅」から徒歩2分。La pilates神戸元町店は、整体とマシンピラティスを融合させた、女性専用のスタジオ。身体の歪みを整えながらボディメイク。明るいスタジオで楽しくレッスン。',
+    description: '神戸元町のマシンピラティスならLa pilates｜女性専用・整体×ピラティススタジオです。「元町駅」から徒歩2分です。La pilates神戸元町店は、整体とマシンピラティスを融合させた、女性専用のスタジオです。身体の歪みを整えながらボディメイクです。明るいスタジオで楽しくレッスンです。',
     access: '元町駅から徒歩2分',
     address: '兵庫県神戸市中央区元町（詳細は公式サイト参照）',
     popularPlan: {
       name: 'サブスクプラン',
-      description: '整体×マシンピラティスの組み合わせ。女性専用で安心。',
+      description: '整体×マシンピラティスの組み合わせです。女性専用のため安心して通えます。',
       price: 'サブスク月1回 12,000円〜、体験 3,000円',
     },
     options: [
@@ -214,43 +214,43 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！神戸エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。',
+    answer: '問題ありません。神戸エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。マットは場所を選ばず自宅でも続けやすいのが特徴です。',
+    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷を調整しやすく、初心者におすすめです。マットは場所を選ばず、自宅でも続けやすい点が特徴です。',
   },
   {
     question: '神戸のピラティススタジオの料金相場は？',
-    answer: '神戸エリアのピラティススタジオの料金相場は、グループレッスンで月4回13,000円〜15,000円程度。パーソナルレッスンはピラティススタジオDEP 神戸店 Reshoの月2回17,000円〜（都度払いは1回12,000円）やLa pilatesのサブスク月1回12,000円〜が目安です。ピラティスK 神戸三宮店の月4回13,420円が一つの目安になります。',
+    answer: '神戸エリアのピラティススタジオの料金相場は、グループレッスンで月4回13,000円〜15,000円程度です。パーソナルレッスンはピラティススタジオDEP 神戸店 Reshoの月2回17,000円〜（都度払いは1回12,000円）やLa pilatesのサブスク月1回12,000円〜が目安です。ピラティスK 神戸三宮店の月4回13,420円が一つの目安になります。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
-    answer: 'ピラティス初心者は週1-2回（月4-8回）がおすすめ。慣れてきたら週2-3回に増やすと効果を実感しやすくなります。大切なのは継続すること。無理のないペースで長く続けることが、理想の身体を手に入れる近道です。',
+    answer: 'ピラティス初心者は週1〜2回（月4〜8回）がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。大切なのは継続することです。無理のないペースで長く続けることが、目標達成への近道です。',
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、ピラティスはダイエット効果があります。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に。ただし即効性はないので、最低でも2-3ヶ月は継続することが大切。食事管理も並行するとより効果的です。',
+    answer: 'ピラティスにはダイエット効果が期待できます。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。ただし即効性はないので、最低でも2〜3ヶ月は継続することが大切です。食事管理を並行すると、より効果的です。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内で確認してくださいね。',
+    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内でご確認ください。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。ピラティスは筋力強化、ヨガは心身のバランスを整えることが主な目的。どちらも素晴らしいエクササイズなので、目的に合わせて選びましょう。',
+    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズです。ヨガは柔軟性と精神的なリラックスを重視します。ピラティスは筋力強化、ヨガは心身のバランスを整えることが主な目的です。目的に合わせてお選びください。',
   },
   {
     question: 'ピラティスで肩こりや腰痛は改善しますか？',
-    answer: 'はい、改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。特にピラティススタジオDEP 神戸店 Reshoやluluto 神戸店は理学療法士が関わるスタジオなので、身体の不調改善に強いです。',
+    answer: '改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。特にピラティススタジオDEP 神戸店 Reshoやluluto 神戸店は理学療法士が関わるスタジオなので、身体の不調改善に強いです。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: 'ピラティスで効果が表れだすのは「2ヶ月を過ぎた頃」から。これは人間の細胞が生まれ変わるサイクルがそのくらいだからです。すぐに変化が表れなくても心配せず、最低でも2ヶ月は継続するのがおすすめです。',
+    answer: 'ピラティスの効果を実感し始めるのは、2ヶ月を過ぎた頃が目安とされています。すぐに変化が表れなくても、最低2ヶ月は継続することをおすすめします。',
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'それぞれ良さがあります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方におすすめ。グループは料金が安く、仲間と楽しく続けられるのが魅力。まずは体験で両方試してみるのがいいですよ。',
+    answer: 'それぞれに利点があります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方におすすめです。グループは料金を抑えやすく、ほかの参加者と一緒に続けられる点が利点です。まずは体験レッスンで両方を試すことをおすすめします。',
   },
 ]
 
@@ -271,8 +271,8 @@ export default async function KobeAreaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】神戸のピラティススタジオおすすめ6選！<br className="hidden md:block" />
-              人気スタジオの料金プランを簡単比較！
+              【2026最新】神戸のピラティススタジオおすすめ6選<br className="hidden md:block" />
+              人気スタジオの料金プランの比較
             </h1>
           </div>
         </section>
@@ -295,29 +295,11 @@ export default async function KobeAreaPage() {
         {/* Introduction */}
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-6">
-              こんにちは。
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              Pilates-Biyori編集部です！
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              あなたは、
-            </p>
-            <p className="text-warm-600 leading-relaxed font-medium mb-6">
-              「ピラティスを始めてみたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              「神戸で人気のピラティススタジオを知りたい」
-            </p>
-            <p className="text-warm-600 leading-relaxed mb-6">
-              と思っていませんか？
-            </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、神戸エリアでおすすめのピラティススタジオ6選をまとめました。
+              本ページでは、神戸エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
-              <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
+              <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
                 <li className="flex items-start">
                   <span className="text-warm-400 mr-2">✓</span>
@@ -342,7 +324,7 @@ export default async function KobeAreaPage() {
               </ul>
             </div>
             <p className="text-warm-600 leading-relaxed">
-              それではさっそく見ていきましょう！
+              以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
             </p>
           </div>
         </section>
@@ -410,25 +392,25 @@ export default async function KobeAreaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">阪急神戸三宮駅からのルートは事前に確認を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  神戸エリアのスタジオは阪急神戸三宮駅周辺が中心です。駅の出口によってスタジオまでの距離が変わることがあるため、初めて訪れる際はGoogleマップで経路を確認し、余裕を持って到着できるようにしましょう。
+                  神戸エリアのスタジオは阪急神戸三宮駅周辺が中心です。駅の出口によってスタジオまでの距離が変わることがあるため、初めて訪れる際はGoogleマップで経路を確認し、余裕を持って到着できるようにすることをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">神戸エリアの人気時間帯を把握して予約を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  神戸エリアでは平日夕方以降と土日午前中が予約の集中する時間帯です。特にマシンピラティスは定員が少ないため、希望の日時があれば早めの予約がおすすめ。スタジオによってはキャンセル待ち機能やLINE通知で空き枠をお知らせしてくれるところもあります。
+                  神戸エリアでは平日夕方以降と土日午前中が予約の集中する時間帯です。特にマシンピラティスは定員が少ないため、希望の日時があれば早めの予約がおすすめです。スタジオによってはキャンセル待ち機能やLINE通知で空き枠をお知らせしてくれるところもあります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">料金プランの種類と契約条件をしっかり比較</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  神戸エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかを確認しましょう。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため要チェックです。
+                  神戸エリアのスタジオは月額制・回数券制・チケット制など料金プランが多様です。入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いので、自分のライフスタイルに合った期間かどうかをご確認ください。レッスン前日〜当日のキャンセル規定もスタジオごとに異なるため、事前にご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも比較して選択肢を広げよう</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアのスタジオもあわせて比較する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  神戸エリアだけでなく、近隣の<Link href="/area/sannomiya/" className="text-warm-700 underline hover:text-warm-900">三宮</Link>、<Link href="/area/nishinomiya/" className="text-warm-700 underline hover:text-warm-900">西宮</Link>、<Link href="/area/umeda/" className="text-warm-700 underline hover:text-warm-900">梅田</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店も検討してみましょう。
+                  神戸エリアだけでなく、近隣の<Link href="/area/sannomiya/" className="text-warm-700 underline hover:text-warm-900">三宮</Link>、<Link href="/area/nishinomiya/" className="text-warm-700 underline hover:text-warm-900">西宮</Link>、<Link href="/area/umeda/" className="text-warm-700 underline hover:text-warm-900">梅田</Link>エリアにもピラティススタジオがあります。通勤経路や生活圏に合わせて複数エリアのスタジオを比較すると、より自分に合ったスタジオが見つかる可能性が高まります。エリアをまたいで通い放題が使えるチェーン店もご検討ください。
                 </p>
               </div>
             </div>
@@ -446,25 +428,25 @@ export default async function KobeAreaPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番。ジーンズやスカートはNG。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に。自販機がないスタジオもあるため持参が安心。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用。マシンに敷くタオルはスタジオで用意されることが多い。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用が必須のスタジオが多数。グリップソックスがベスト。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>を選びましょう。ピラティスは脚を大きく動かすポーズが多いため、ストレッチの効く素材が必須です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオも。手ぶらで体験可能な場合もあるので事前に確認しましょう。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おきましょう。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。手ぶらで体験可能な場合もあるので事前にご確認ください。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>神戸エリアの豆知識：</strong>神戸は地元の方に愛されるスタジオが中心です。車で通う場合は駐車場の有無を事前に確認。電車の場合は駅からの距離だけでなく、帰りの電車の時刻も確認しておくとスムーズです。
+                  <strong>神戸エリアの豆知識：</strong>神戸は地元の方に愛されるスタジオが中心です。車で通う場合は駐車場の有無を事前にご確認ください。電車の場合は駅からの距離だけでなく、帰りの電車の時刻も確認しておくとスムーズです。
                 </p>
               </div>
             </div>
@@ -482,7 +464,7 @@ export default async function KobeAreaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  まず体験で試しやすいスタジオ。DEPは初回体験2,980円（税込・LINE予約限定）。
+                  まず体験で試しやすいスタジオです。DEPは初回体験2,980円です（税込・LINE予約限定）。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティススタジオDEP 神戸店（初回体験 2,980円）</li>
@@ -493,7 +475,7 @@ export default async function KobeAreaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  女性専用スタジオで気兼ねなくレッスンに集中。男性の目を気にせずトレーニングできます。
+                  女性専用スタジオで気兼ねなくレッスンに集中しています。男性の目を気にせずトレーニングできます。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK 神戸三宮店</li>
@@ -503,7 +485,7 @@ export default async function KobeAreaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">身体の不調改善</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  理学療法士監修・医療的視点から身体を整えたい方。腰痛・姿勢改善に特化。
+                  理学療法士監修・医療的視点から身体を整えたい方向けです。腰痛・姿勢改善に特化しています。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティススタジオDEP 神戸店 Resho</li>
@@ -524,15 +506,15 @@ export default async function KobeAreaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1-2回（月4-8回）からスタートするのがおすすめ。まずは身体を慣らすことが大切です。継続期間は最低でも2-3ヶ月。この期間で効果を実感できる方が多いですよ。
+                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感できる方が多いです。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2-3回（月8-12回）がおすすめ。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3-6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。
+                週2〜3回（月8〜12回）がおすすめです。しっかりと身体を変えたい方は頻度を上げることで効果も早く現れます。3〜6ヶ月継続すると、周りからも「痩せた？」と言われるレベルの変化が期待できます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理が目的の方</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回（月4回）のペースで継続するのがおすすめ。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切。自分のペースで楽しく通えるのが一番ですよ。
+                週1回（月4回）のペースで継続するのがおすすめです。無理なく長く続けられる頻度が理想です。ピラティスは継続が何より大切です。無理のないペースで通うことが大切です。
               </p>
             </div>
           </div>
@@ -549,7 +531,7 @@ export default async function KobeAreaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜5,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">単発〜月1回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  パーソナルレッスンを手頃な価格で体験。初回限定の体験料金が狙い目。
+                  パーソナルレッスンを手頃な価格で体験できます。初回限定の体験料金を利用できます。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• DEP 神戸店 初回体験（2,980円）</li>
@@ -561,7 +543,7 @@ export default async function KobeAreaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 10,000〜15,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  大手マシンスタジオのグループレッスン。週1回ペースで通いたい方向け。
+                  大手マシンスタジオのグループレッスンです。週1回ペースで通いたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• La pilates（月1回 12,000円〜）</li>
@@ -572,7 +554,7 @@ export default async function KobeAreaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 要問合せ</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">会員制・個別</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  会員制スタジオやパーソナル専門。カウンセリングで最適なプランを提案。
+                  会員制スタジオやパーソナル専門です。カウンセリングで最適なプランを提案しています。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• STUDIO TOU 三宮（会員制）</li>
@@ -596,7 +578,7 @@ export default async function KobeAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  まずは自分がピラティスで何を達成したいのかを明確にしましょう。ダイエット、姿勢改善、産後ケア、腰痛改善など、目的によって最適なスタジオやプログラムは変わります。目的が明確だとスタジオ選びもスムーズになりますよ。
+                  まずは自分がピラティスで何を達成したいのかを明確にすることをおすすめします。ダイエット、姿勢改善、産後ケア、腰痛改善など、目的によって最適なスタジオやプログラムは変わります。目的を明確にしておくと、スタジオを選びやすくなります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -605,7 +587,7 @@ export default async function KobeAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  神戸エリアの料金相場はグループで月4回13,000円〜15,000円程度。無理なく継続できる予算を決めましょう。料金だけでなく、入会金、マット・ウェアのレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  神戸エリアの料金相場はグループで月4回13,000円〜15,000円程度です。無理なく継続できる予算を決めることをおすすめします。料金だけでなく、入会金やマット・ウェアのレンタル料などもご確認ください。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -614,7 +596,7 @@ export default async function KobeAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。ピラティスK 神戸三宮店は無料体験、ピラティススタジオDEP 神戸店は2,980円で体験できるので、気軽に試してみてくださいね。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。ピラティスK 神戸三宮店は無料体験、ピラティススタジオDEP 神戸店は2,980円で体験できるので、体験レッスンをご利用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -623,7 +605,7 @@ export default async function KobeAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  どんなに良いスタジオでも、通いにくい場所にあると続きません。神戸は三宮駅・元町駅を中心に、神戸阪急やハーバーランド周辺など商業エリアが充実しています。駅近のスタジオを選ぶと、仕事帰りやお出かけついでにも通えて便利ですよ。ポートアイランド方面からも三宮は好アクセスです。
+                  通いにくい場所にあるスタジオは、継続が難しくなります。神戸は三宮駅・元町駅を中心に、神戸阪急やハーバーランド周辺など商業エリアが充実しています。駅近のスタジオを選ぶと、仕事帰りやお出かけついでにも通えて便利です。ポートアイランド方面からも三宮は好アクセスです。
                 </p>
               </div>
             </div>
@@ -666,13 +648,13 @@ export default async function KobeAreaPage() {
               今回は神戸のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              この記事では神戸に数多くあるピラティススタジオから厳選したものだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思いますよ。
+              本ページでは、神戸に数多くあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              ぜひこの記事を参考に自分に合うピラティススタジオを見つけてくださいね。
+              本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">
-              あなたにぴったりのピラティススタジオが見つかることを願っています。
+              本ページが、ピラティススタジオ選びの参考になれば幸いです。
             </p>
           </div>
         </section>
@@ -681,11 +663,11 @@ export default async function KobeAreaPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              体験レッスンを予約しよう
+              体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,000円。<br />
-              まずは気軽に体験してみましょう。
+              初回限定の体験レッスン無料〜3,000円です。<br />
+              まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
               href="/area/kobe/#studios"

@@ -98,7 +98,7 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
           <h1 className="text-2xl md:text-3xl font-light text-warm-900 tracking-tight mb-3">
             {store.areaQuery}の{brandName}｜料金・体験・アクセス
             <span className="block text-base text-warm-500 mt-2 font-light">
-              マシンピラティス専門「{store.storeName}」を当サイト掲載データで整理{MONTH_TAG}
+              マシンピラティス専門「{store.storeName}」の情報を当サイトの掲載データにもとづいて掲載しています{MONTH_TAG}
             </span>
           </h1>
 
@@ -110,7 +110,7 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
 
           {/* 結論ボックス */}
           <section className="bg-white border border-warm-200 p-6 mb-10">
-            <p className="text-xs font-medium text-warm-400 uppercase tracking-[0.15em] mb-3">まず結論</p>
+            <p className="text-xs font-medium text-warm-400 uppercase tracking-[0.15em] mb-3">店舗情報の概要</p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
               <div>
                 <p className="text-lg font-light text-warm-900">{store.price.split("〜")[0]}〜</p>
@@ -125,7 +125,7 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
                   {rev ? `★${rev.rating}` : store.rating ? `★${store.rating.toFixed(1)}` : "—"}
                 </p>
                 <p className="text-xs text-warm-500 mt-1">
-                  {rev ? `Googleの評価（${rev.userRatings}件）` : store.rating ? "掲載時点の評価" : "評価準備中"}
+                  {rev ? `Googleの評価（${rev.userRatings}件）` : store.rating ? "掲載時点の評価" : "評価情報なし"}
                 </p>
               </div>
               <div>
@@ -149,7 +149,7 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
                 </div>
                 <p className="text-sm text-warm-700 mt-3 leading-relaxed">{rev.summary}</p>
                 <p className="text-[11px] text-warm-500 mt-3">
-                  Googleマップに投稿された口コミをもとに編集部が要約しました（{rev.fetchedAt}時点）。
+                  Googleマップに投稿された口コミをもとに、編集部が要約したものです（{rev.fetchedAt}時点）。
                   口コミ本文は転載していません。{" "}
                   <a href={rev.mapsUri} target="_blank" rel="noopener noreferrer" className="underline hover:text-warm-700">
                     出典：Googleマップの口コミを見る
@@ -158,7 +158,7 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
               </div>
               {brandRevRows.length >= 3 && (
                 <p className="mt-4 border border-warm-300 bg-white px-4 py-3 text-sm text-warm-800 leading-relaxed">
-                  この店舗だけでなく{brandName}全体の口コミ傾向を知りたい方は →{" "}
+                  {brandName}全体の口コミの傾向は、こちらをご覧ください →{" "}
                   <Link href={`${brandHref}#reviews`} className="underline decoration-warm-400 hover:text-warm-900 font-medium">
                     {brandName}の口コミ・評判まとめ（Googleマップ{brandRevRows.length}店舗・{brandRevTotal.toLocaleString()}件の要約{brand?.reviewThemes ? "と、口コミに多いテーマ・注意点" : ""}）
                   </Link>
@@ -204,7 +204,7 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
           {brand?.ctaUrl && (
             <section className="mb-10 bg-white border border-warm-200 p-6 text-center">
               <p className="text-sm text-warm-700 font-light mb-4 leading-relaxed">
-                {store.storeName}の体験レッスンの空き状況{noCampaign ? "" : "・最新のキャンペーン"}は公式サイトで確認できます。
+                {store.storeName}の体験レッスンの空き状況{noCampaign ? "" : "・最新のキャンペーン"}は、公式サイトでご確認ください。
               </p>
               <a
                 href={brand.ctaUrl}
@@ -277,7 +277,7 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
           <section className="mb-10">
             <h2 className="text-xl font-light text-warm-900 border-b border-warm-200 pb-2 mb-4">{store.areaQuery}周辺のピラティスと比較する</h2>
             <p className="text-sm text-warm-700 leading-relaxed mb-4 font-light">
-              {store.areaQuery}やその周辺には他のマシン/マットピラティススタジオもあります。料金・体験・無料体験の有無をエリアページでまとめて比較できます。
+              {store.areaQuery}周辺には、ほかのマシンピラティス・マットピラティスのスタジオもあります。料金・体験・無料体験の有無は、エリアページでまとめて比較できます。
             </p>
             <div className="flex flex-wrap gap-2">
               <Link href={`/area/${store.areaSlug}/`} className="text-xs text-warm-800 border border-warm-300 bg-white px-3 py-1.5 hover:border-warm-500 transition-colors">
@@ -302,7 +302,7 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
                   同じブランドの他店舗
                 </h2>
                 <p className="text-sm text-warm-700 leading-relaxed mb-4 font-light">
-                  料金プランや体験レッスンの条件は店舗によって異なる場合があります。他の店舗の詳細も確認できます。
+                  料金プランや体験レッスンの条件は、店舗によって異なる場合があります。ほかの店舗の詳細も掲載しています。
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {siblings.map((sp) => (

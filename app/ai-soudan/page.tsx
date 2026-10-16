@@ -5,7 +5,7 @@ import StudioConsultant from '@/components/StudioConsultant'
 export const metadata = {
   title: 'AIスタジオ相談｜あなたに合うピラティススタジオを診断',
   description:
-    'いくつかの質問に答えるだけで、エリア・目的・レッスンタイプ・料金・無料体験の希望から、あなたに合いそうなピラティススタジオをご提案します。掲載の公開情報をもとにした無料の診断ツールです。',
+    'いくつかの質問にお答えいただくと、エリア・目的・レッスンタイプ・料金・無料体験のご希望から、条件に合うピラティススタジオをご提案します。掲載の公開情報をもとにした無料の診断ツールです。',
   alternates: {
     canonical: 'https://biyori-pilates.com/ai-soudan/',
   },
@@ -26,8 +26,8 @@ export default function AiSoudanPage() {
               AIスタジオ相談
             </h1>
             <p className="text-warm-600 text-sm md:text-base mt-3 leading-relaxed">
-              「どこのスタジオが自分に合うか分からない」——そんなときは、いくつかの質問に答えるだけ。
-              エリア・目的・レッスンタイプ・料金・無料体験の希望から、あなたに合いそうな
+              スタジオ選びにお迷いの際は、いくつかの質問にお答えください。
+              エリア・目的・レッスンタイプ・料金・無料体験のご希望から、条件に合う
               ピラティススタジオをその場でご提案します。
             </p>
           </div>
