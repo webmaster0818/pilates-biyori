@@ -15,23 +15,24 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/denenchofu/' },
   title: '【2026年10月最新】田園調布のピラティススタジオおすすめ5選｜駅徒歩2分圏・料金で比較',
-  description: '田園調布のピラティススタジオ5社の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
+  description: '田園調布のピラティススタジオ5社を、駅からの距離・月額料金・体験料金で比較。田園調布駅徒歩2分圏の4店と奥沢駅のパーソナル専門店まで、住所と料金は各公式サイトで確認した値（2026年10月16日確認）です。',
   keywords: 'ピラティス,田園調布,奥沢,大田区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
 const studios = [
   {
     name: 'TSUTAYA Conditioning PILATES 田園調布店',
-    image: '/images/studios/tsutaya-conditioning-pilates-shonan.webp', reviewCount: 98,
-    price: '月4回 11,000円〜', trial: '体験レッスン 無料',
-    features: ['女性専用', '田園調布駅徒歩2分', '少人数制', '2025年オープン'],
-    description: '2025年1月グランドオープンの女性専用マシンピラティススタジオ。田園調布駅東口から徒歩2分。TSUTAYAブランドが手がけるコンディショニング特化型で、少人数制の丁寧な指導が魅力。最新設備を完備。',
-    access: '東急東横線・目黒線「田園調布駅」東口 徒歩2分',
-    address: '東京都大田区田園調布2丁目エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: '月4回プラン', description: '女性専用少人数制マシンピラティス。最新リフォーマー使用。', price: '月4回 11,000円（税込）' },
-    options: ['通い放題プラン', 'OPEN会員特典（月額2,200円割引）', '体験レッスン無料', '入会金無料キャンペーンあり'],
-    userProfile: { ageRange: '30代〜50代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', '姿勢改善', '健康維持', 'リフレッシュ'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'パウダールーム'] },
+    officialUrl: 'https://tc.tsite.jp/store/tokyo/2240-denenchofu/',
+    image: '/images/studios/tsutaya-conditioning-pilates-shonan.webp',
+    price: '月4回 13,200円／月8回 22,000円（税込）', trial: '体験レッスン 0円（1人1回まで）',
+    features: ['女性専用', '田園調布駅徒歩約2分', '少人数制マシンピラティス', '2025年1月オープン'],
+    description: '2025年1月7日にグランドオープンした女性専用・少人数制のマシンピラティススタジオ。公式サイトでは「鍛えるのではなく“整えるピラティス”」と紹介されています。月会費は月4回まで13,200円・月8回まで22,000円の2プランで、上限を超える分は1回3,850円で追加受講できます。店内には本に囲まれたスタジオとブックラウンジがあります（公式店舗ページ・税込・2026年10月16日確認）。',
+    access: '東急東横線・東急目黒線「田園調布駅」徒歩約2分',
+    address: '〒145-0071 東京都大田区田園調布2-40-19 田園調布フォースDC 1F',
+    popularPlan: { name: '通常会員 月4回まで', description: '女性専用・少人数制のマシンピラティス。月内に4回まで受講できます。', price: '月4回 13,200円（税込）' },
+    options: ['月8回まで 22,000円', '回数追加受講 1回 3,850円（店頭申込）', '会員登録料 2,200円（2026年10月時点は0円のキャンペーン中・公式お知らせ 10/1）', '初月の月会費は利用開始日に応じて日割り'],
+    userProfile: { genderRatio: '女性100%（女性専用）', purpose: ['姿勢改善', 'コンディショニング', '運動習慣づくり'] },
+    basicInfo: { hours: 'レッスンスケジュール（公式サイトのPDF）で確認', closed: '年中無休（年末年始を除く）', facilities: ['更衣室', 'ブックラウンジ', '駐輪場'] },
   },
   {
     name: 'Pilates Mee 田園調布店',
@@ -48,16 +49,17 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 奥沢店',
-    image: '/images/studios/studio-ivy.webp', reviewCount: 86,
-    price: '月4回 25,000円〜（1回6,250円〜）', trial: '体験レッスンあり',
-    features: ['完全プライベート', 'オーダーメイド', '奥沢駅近く', '月謝制'],
-    description: '完全プライベート空間で1人ひとりに合わせたオーダーメイドレッスンを提供するマシンピラティス専門スタジオ。奥沢駅近く、田園調布エリアからもアクセス良好。月謝制で継続しやすい料金設定。',
-    access: '東急目黒線「奥沢駅」徒歩3分 / 「田園調布駅」徒歩10分',
-    address: '東京都世田谷区奥沢エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: '月4回プラン', description: '完全プライベートのオーダーメイドマシンピラティス。', price: '月4回 25,000円〜（税込）' },
-    options: ['月2回プラン', '月8回プラン', '体験レッスンあり', '完全個室対応'],
-    userProfile: { ageRange: '30代〜60代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', 'リハビリ', '体幹強化', '柔軟性向上'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'キャデラック', '完全個室', '更衣室'] },
+    officialUrl: 'https://www.pilates-ivy.jp/studio/okusawa',
+    image: '/images/studios/studio-ivy.webp',
+    price: '月2回 15,000円／月4回 28,000円／月8回 52,000円（税込）', trial: '初回体験レッスン 4,500円（税込・2026年10月1日〜31日は無料キャンペーン）',
+    features: ['1対1のパーソナル専門', '1レッスン50分', '男性も受講可', '奥沢駅徒歩4分'],
+    description: 'インストラクターと1対1で受けるパーソナル専門のマシンピラティススタジオ。リフォーマーを使い、カウンセリングの内容をもとにプログラムを組みます。所在地は世田谷区奥沢で、最寄りは東急目黒線の奥沢駅（徒歩4分）。田園調布駅からは北東へ直線で約500mです。料金は月2回15,000円・月4回28,000円・月8回52,000円（1回あたり6,500〜7,500円）（公式店舗ページ・税込・2026年10月16日確認）。',
+    access: '東急目黒線「奥沢駅」徒歩4分（田園調布駅から直線約500m）',
+    address: '〒158-0083 東京都世田谷区奥沢4-9-11 ルアナ奥沢01',
+    popularPlan: { name: 'STANDARD（月4回コース）', description: '1対1のパーソナルマシンピラティス。週1ペース。', price: '月4回 28,000円（税込・1回あたり7,000円）' },
+    options: ['BASIC 月2回 15,000円（1回あたり7,500円）', 'PREMIUM 月8回 52,000円（1回あたり6,500円）', '1レッスン50分', 'ウォーターサーバーあり'],
+    userProfile: { purpose: ['姿勢改善', 'ボディライン', '肩こり・腰痛ケア'] },
+    basicInfo: { hours: '8:00〜21:00', facilities: ['リフォーマー', '更衣室', 'ウォーターサーバー'] },
   },
   {
     name: 'Dr.ピラティス 田園調布店',
@@ -75,6 +77,7 @@ const studios = [
   },
   {
     name: 'ピラティスステーションライト 田園調布stn.',
+    officialUrl: 'https://pilates-light.com/%E3%83%94%E3%83%A9%E3%83%86%E3%82%A3%E3%82%B9%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%88-%E7%94%B0%E5%9C%92%E8%AA%BF%E5%B8%83stn/',
     price: 'グループ 1回 2,850円〜3,500円（回数券制）', trial: '体験レッスンあり',
     features: ['田園調布駅徒歩2分', '定員3名のマシングループ', '月謝なしの回数券制', 'フルイクイップメント'],
     description: '2022年5月オープンのピラティス専門スタジオ。田園調布駅から徒歩2分（公式表記）。リフォーマーなどのフルイクイップメントを備え、定員3名のリフォーマーグループ（45分・60分）、2〜3名のセミプライベート、マシンプライベートから選べます。料金は月謝ではなく、全店舗・全レッスン共通の回数券「WATT」制（1WATT 3,500円／10WATT 30,500円／30WATT 88,500円／60WATT 171,000円・税込）で、グループは1回2,850〜3,500円、プライベートは1回8,550〜10,500円が目安です（公式店舗ページ・2026年10月11日確認）。',
@@ -87,14 +90,14 @@ const studios = [
 ]
 
 const faqs = [
-  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！田園調布エリアのスタジオはほとんどが初心者歓迎。TSUTAYA Conditioningは初心者向けクラスが充実しています。' },
+  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '大丈夫です！STUDIO IVY 奥沢店は公式サイトで「入会者の80％が初心者」と紹介しています。少人数のTSUTAYA Conditioning PILATESや最大3名のPilates Meeも、初めての方が体験から始めやすい形式です。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用。マシンは負荷調整しやすく初心者におすすめ。田園調布はマシン専門スタジオが充実しています。' },
-  { question: '田園調布のピラティスの料金相場は？', answer: 'グループ月4回で11,000円〜19,800円程度。TSUTAYA Conditioningが月4回11,000円〜。パーソナルは1回8,300円〜25,000円。' },
+  { question: '田園調布のピラティスの料金相場は？', answer: '掲載5店の公式料金（税込）では、少人数・セミパーソナルの月4回が13,200円（TSUTAYA Conditioning PILATES）〜19,800円（Pilates Mee）。1対1のパーソナルは1回あたり6,500円（STUDIO IVY 月8回）〜16,500円（Dr.ピラティス 90分スポット）です。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1-2回がおすすめ。慣れたら週2-3回に増やすと効果的です。Pilates Meeの通い放題プランなら毎日でも通えます。' },
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり太りにくい体質に。2-3ヶ月の継続で体の変化を実感する方が多いです。' },
-  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。TSUTAYA Conditioningは体験無料です。靴下（グリップソックス推奨）も忘れずに。' },
-  { question: '男性でも通えるスタジオはありますか？', answer: 'Dr.ピラティスは男性も通えます。TSUTAYA ConditioningとPilates Meeは女性専用です。' },
-  { question: 'パーソナルレッスンとグループレッスンどちらがおすすめ？', answer: '初心者や体の悩みがある方はパーソナルがおすすめ。Dr.ピラティスやSTUDIO IVYで個別指導を受けられます。コスパ重視ならグループレッスンのTSUTAYA Conditioning。' },
+  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があればOK。STUDIO IVYはウォーターサーバーがあるので水の持参は不要と案内しています。靴下（グリップソックス推奨）も忘れずに。' },
+  { question: '男性でも通えるスタジオはありますか？', answer: 'Dr.ピラティスとSTUDIO IVY 奥沢店は男性も通えます（公式に記載）。TSUTAYA Conditioning PILATESとPilates Meeは女性専用です。' },
+  { question: 'パーソナルレッスンとグループレッスンどちらがおすすめ？', answer: '初心者や体の悩みがある方はパーソナルがおすすめ。Dr.ピラティスやSTUDIO IVYで個別指導を受けられます。費用を抑えるなら、少人数のマシンレッスンのTSUTAYA Conditioning PILATES（月4回13,200円）か、ピラティスステーションライトのグループ（1回2,850円〜）。' },
   { question: '田園調布駅から近いスタジオは？', answer: 'Dr.ピラティスが駅徒歩30秒で最寄り。TSUTAYA Conditioning・Pilates Mee・ピラティスステーションライトが徒歩2分です。' },
   { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。姿勢改善は比較的早く、ボディメイクは3ヶ月程度の継続がおすすめです。' },
 ]
@@ -114,7 +117,7 @@ export default function DenenchofuPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月16日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026年10月最新】ピラティス田園調布おすすめ5選！<br className="hidden md:block" />
               人気スタジオの料金プランを簡単比較！
@@ -192,6 +195,15 @@ export default function DenenchofuPage() {
           </div>
         </section>
 
+        {/* 駅別早見表（2026-10-16 追加・徒歩分数は公式表記、直線距離は国土地理院の住所検索の座標から算出） */}
+        <section className="py-12 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">田園調布駅からの距離で比べる早見表</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">掲載5店のうち4店は田園調布駅から徒歩2分以内に集まっています。STUDIO IVYだけは世田谷区奥沢にあり、最寄りは東急目黒線の奥沢駅です。徒歩分数・住所・料金は各スタジオの公式サイトの表記です（2026年10月16日確認・税込）。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ</th><th className="px-4 py-3 text-left">駅からの距離</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">料金の目安</th><th className="px-4 py-3 text-left">体験</th></tr></thead><tbody>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Dr.ピラティス 田園調布店</td><td className="px-4 py-3">田園調布駅 徒歩30秒（田園調布2-50-9）</td><td className="px-4 py-3">マンツーマン・男女可</td><td className="px-4 py-3">45分 8,300円〜（都度）</td><td className="px-4 py-3">7,100円</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Pilates Mee 田園調布店</td><td className="px-4 py-3">田園調布駅 徒歩2分（田園調布3-4-5）</td><td className="px-4 py-3">最大3名のセミパーソナル／パーソナル・女性専用</td><td className="px-4 py-3">月2回 11,000円／月4回 19,800円</td><td className="px-4 py-3">無料</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ピラティスステーションライト 田園調布stn.</td><td className="px-4 py-3">田園調布駅 徒歩2分（田園調布2-51-4）</td><td className="px-4 py-3">定員3名のリフォーマーグループ／プライベート</td><td className="px-4 py-3">グループ1回 2,850〜3,500円（回数券）</td><td className="px-4 py-3">あり（料金は公式で確認）</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">TSUTAYA Conditioning PILATES 田園調布店</td><td className="px-4 py-3">田園調布駅 徒歩約2分（田園調布2-40-19）</td><td className="px-4 py-3">少人数のマシン・女性専用</td><td className="px-4 py-3">月4回 13,200円／月8回 22,000円</td><td className="px-4 py-3">0円（1人1回）</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">STUDIO IVY 奥沢店</td><td className="px-4 py-3">奥沢駅 徒歩4分／田園調布駅から直線約500m（奥沢4-9-11）</td><td className="px-4 py-3">1対1のパーソナル・男性も可</td><td className="px-4 py-3">月4回 28,000円（1回7,000円）</td><td className="px-4 py-3">4,500円（10/31まで無料）</td></tr>
+        </tbody></table></div><p className="text-warm-600 leading-relaxed mt-4 text-sm">男性が通えるのは、掲載5店のうち Dr.ピラティス（マンツーマン）と STUDIO IVY（1対1のパーソナル）です。Pilates Mee と TSUTAYA Conditioning PILATES は女性専用です。月謝制ではなく回数券で通いたい場合は、ピラティスステーションライトのWATT制（1WATT 3,500円〜60WATT 171,000円）が候補になります。</p></div></section>
+
         <PriceComparisonTable studios={studios} areaName="田園調布" />
 
         {/* Studios List */}
@@ -226,15 +238,15 @@ export default function DenenchofuPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">11,000円〜19,800円</td>
+                    <td className="px-4 py-3">13,200円〜19,800円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回 8,300円〜25,000円</td>
+                    <td className="px-4 py-3">1回 6,500円〜16,500円</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">無料〜9,800円</td>
+                    <td className="px-4 py-3">無料〜7,100円</td>
                   </tr>
                 </tbody>
               </table>
@@ -267,7 +279,7 @@ export default function DenenchofuPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">体験レッスンの料金差に注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  田園調布エリアのスタジオは体験レッスンの料金はスタジオにより幅があります。TSUTAYA Conditioningは無料、Pilates Meeは体験レッスン無料です。事前に確認してから予約しましょう。
+                  田園調布エリアのスタジオは体験レッスンの料金はスタジオにより幅があります。TSUTAYA Conditioning PILATESは0円（1人1回まで）、Pilates Meeは体験レッスン無料、STUDIO IVYは4,500円（2026年10月31日までは無料キャンペーン）、Dr.ピラティスは7,100円です。事前に確認してから予約しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -330,7 +342,7 @@ export default function DenenchofuPage() {
                   リーズナブルにグループレッスン。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• TSUTAYA Conditioning（月4回 11,000円〜）</li>
+                  <li className="text-warm-700">• TSUTAYA Conditioning（月4回 13,200円）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -339,7 +351,7 @@ export default function DenenchofuPage() {
                   女性だけの安心空間。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• TSUTAYA Conditioning（月4回 11,000円〜）</li>
+                  <li className="text-warm-700">• TSUTAYA Conditioning（月4回 13,200円）</li>
                   <li className="text-warm-700">• Pilates Mee（月2回 11,000円〜）</li>
                 </ul>
               </div>
@@ -350,7 +362,7 @@ export default function DenenchofuPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Dr.ピラティス（45分 8,300円〜）</li><li className="text-warm-700">• ピラティスステーションライト（プライベート 1回 8,550円〜）</li>
-                  <li className="text-warm-700">• STUDIO IVY（1回 6,250円〜）</li>
+                  <li className="text-warm-700">• STUDIO IVY（月4回 28,000円・1回7,000円）</li>
                 </ul>
               </div>
             </div>
@@ -388,13 +400,14 @@ export default function DenenchofuPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜12,000円</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜15,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。
+                  少人数・セミパーソナル中心。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• TSUTAYA Conditioning（11,000円〜/月4回）</li>
+                  <li>• TSUTAYA Conditioning（13,200円/月4回）</li>
+                  <li>• Pilates Mee月2回（11,000円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -415,7 +428,7 @@ export default function DenenchofuPage() {
                   個別指導で確実に効果。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• STUDIO IVY（25,000円〜/月4回）</li>
+                  <li>• STUDIO IVY（28,000円/月4回）</li>
                   <li>• Pilates Mee通い放題（37,500円）</li>
                 </ul>
               </div>
@@ -445,7 +458,7 @@ export default function DenenchofuPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  田園調布の料金相場はグループ月4回で11,000円〜19,800円。パーソナルは1回8,300円〜。入会金やキャンペーンも確認しましょう。
+                  田園調布の掲載5店では、少人数・セミパーソナルの月4回が13,200円〜19,800円、1対1のパーソナルは1回あたり6,500円〜。入会金やキャンペーンも確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -454,7 +467,7 @@ export default function DenenchofuPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  TSUTAYA Conditioningは無料体験。まずは2-3スタジオの体験を受けて比較しましょう。
+                  TSUTAYA Conditioning PILATESとPilates Meeは無料で体験できます。まずは2-3スタジオの体験を受けて比較しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -463,7 +476,7 @@ export default function DenenchofuPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  田園調布駅から徒歩5分以内にほとんどのスタジオが集中。東横線・目黒線利用で自由が丘や二子玉川のスタジオも通いやすいです。
+                  掲載5店のうち4店は田園調布駅から徒歩2分以内。STUDIO IVYは奥沢駅徒歩4分です。東横線・目黒線利用で自由が丘や二子玉川のスタジオも通いやすいです。
                 </p>
               </div>
             </div>

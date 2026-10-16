@@ -17,8 +17,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/seijo-gakuenmae/' },
-  title: '【2026年10月最新】成城学園前のピラティス7社を比較｜月額最安10,450円〜・料金と体験',
-  description: '成城学園前エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で徹底比較。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  title: '【2026年10月最新】成城学園前のピラティス8社を比較｜駅徒歩分・月額料金・体験料金',
+  description: '成城学園前のピラティススタジオ8社（駅徒歩1分のCLUB PILATES・Evolv・&a、南口3分のzen place、パーソナル専門のSTUDIO IVY ほか）を、住所・駅からの徒歩分数・月額料金・体験料金で比較。各公式サイトで確認した値（2026年10月16日確認）です。',
   keywords: 'ピラティス,成城学園前,東京,世田谷区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -28,14 +28,14 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
-    trial: '体験レッスン 1,000円',
-    features: ['男女共用', '全国150店舗相互利用', 'マット&マシン', 'ヨガ併用可'],
-    description: '全国展開の大手ピラティススタジオ。成城学園前駅から徒歩圏内で、全国150店舗相互利用できるので出張先でも継続できます。ピラティススタジオでも、ヨガスタジオでも他店舗利用OK。ピラティス、常温ヨガ、ホットヨガすべてのレッスンを受けることができます。小田急小田原線 喜多見駅・狛江駅・和泉多摩川駅・祖師谷大蔵駅からもアクセス良好。男女共用なので家族で通えます。',
-    access: '成城学園前駅より徒歩圏内',
-    address: '東京都世田谷区成城2丁目36-6 サンク成城ビル 2階',
+    trial: 'マットグループ体験 3,300円→初回キャンペーン 1,000円／マシングループ体験 5,000円→3,000円（公式・2026年10月16日確認）',
+    features: ['男女共用', 'マット・マシン・プライベート', '他店利用OK', '南口徒歩3分'],
+    description: '成城学園前駅の南口から徒歩3分、サンク成城ビル2階のスタジオ。マットグループ、リフォーマーを使うマシングループ（レベル別8種類）、プライベートから選べます。zen placeのグループ店は他店利用ができ、ピラティス・常温ヨガ・ホットヨガのレッスンを受けられます（店舗・レッスンにより差額あり）。スタジオページでは初心者向けに「32回パッケージ」とマットグループ通い放題（月額16,940円）を案内しています（公式スタジオページ・税込・2026年10月16日確認）。',
+    access: '小田急小田原線「成城学園前駅」南口 徒歩3分',
+    address: '〒157-0066 東京都世田谷区成城2丁目36-6 サンク成城ビル 2階',
     popularPlan: {
       name: 'マットグループ月4',
-      description: 'マットグループレッスン月4回。全国150店舗どこでも受講可能',
+      description: 'マットグループレッスン月4回。グループ店の他店利用も可能',
       price: '10,450円/月（税込）',
     },
     options: [
@@ -46,44 +46,41 @@ const studios = [
       'プライベート月4: 38,280円/月',
     ],
     userProfile: {
-      ageRange: '20代〜60代まで幅広い',
-      genderRatio: '女性70% / 男性30%',
       purpose: ['運動不足解消', '姿勢改善', '健康維持', 'リフレッシュ'],
     },
     basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '不定休',
-      facilities: ['ロッカー', '更衣室（男女別）', 'ウォーターサーバー', 'ピラティス専用マシン完備'],
+      hours: '平日 8:30〜21:00／土日祝 8:00〜17:00',
+      facilities: ['リフォーマー（マシングループ）'],
     },
   },
   {
     name: 'ピラティスミラー 成城学園前',
+    officialUrl: 'https://www.konami.com/sportsclub/pilatesmirror/seijogakuenmae/',
     image: '/images/studios/pilates-mirror.webp',
-    price: '月6回 11,000円',
-    trial: '体験レッスンあり',
-    features: ['KONAMI運営', '天井鏡', '30分レッスン', '少人数制'],
-    description: 'コナミスポーツが運営する「もっと鏡が見たくなる」をコンセプトにしたピラティススタジオ。スタジオの天井に鏡を設置し、自分の身体の動きを確認しながら取り組めます。1レッスン30分で「気軽に」参加でき、音楽をかけながら「楽しく」動く、短い時間でも達成感と効果を感じられるレッスンです。少人数制なので初めての方でも安心。レッスン前の20分は、リフォーマーを使用してセルフトレーニングが可能です。',
-    access: '成城学園前駅より徒歩圏内',
-    address: '東京都世田谷区（成城学園前エリア、詳細住所は公式サイト参照）',
+    price: '月6回まで 11,000円（税込）',
+    trial: '体験 2,200円（税込・1人1回まで）',
+    features: ['女性専用（18歳以上）', 'KONAMI運営', '天井鏡', '30分レッスン'],
+    description: 'コナミスポーツが運営する「もっと鏡が見たくなる」をコンセプトにしたピラティススタジオ。スタジオの天井に鏡を設置し、自分の身体の動きを確認しながら取り組めます。1レッスン30分で「気軽に」参加でき、音楽をかけながら「楽しく」動く、短い時間でも達成感と効果を感じられるレッスンです。レッスンは最大9名の少人数制。レッスン前の20分は、リフォーマーを使用してセルフトレーニングが可能です（公式店舗ページ）。',
+    access: '小田急小田原線「成城学園前駅」北口 徒歩4分',
+    address: '〒157-0066 東京都世田谷区成城6-16-18 カサド成城1階',
     popularPlan: {
       name: '月会費プラン',
-      description: '天井鏡を使った30分レッスン',
-      price: '月6回 11,000円（税込）',
+      description: '天井鏡を使った30分レッスン。7回目以降は1回1,100円で追加利用',
+      price: '月6回まで 11,000円（税込）',
     },
     options: [
-      '月会費プラン',
-      'チケットプラン',
-      'プライベートレッスン30分',
-      'プライベートレッスン50分',
+      '入会金 11,000円（税込）',
+      'チケットプラン 1回 2,750円（税込）',
+      'プライベートレッスン 30分 4,400円／50分 6,600円（税込・月会費プラン外も可）',
+      '7回目以降の追加利用 1回 1,100円（税込）',
     ],
     userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
+      genderRatio: '女性専用（18歳以上）',
       purpose: ['ボディメイク', '姿勢改善', 'リフレッシュ', '健康維持'],
     },
     basicInfo: {
       hours: '営業時間はレッスンスケジュール参照',
-      closed: '不定休',
+      closed: '毎週木曜日',
       facilities: ['天井鏡', 'リフォーマー', 'フィッティングルーム（カーテン仕切り）', '荷物置きBOX（鍵なし）'],
     },
   },
@@ -92,11 +89,11 @@ const studios = [
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62405',
     image: '/images/studios/club-pilates.webp',
     price: '月4回 13,090円／月8回 24,090円／通い放題 37,290円（公式店舗ページ・税表記なし）',
-    trial: '体験レッスンあり',
-    features: ['世界最大級', '駅徒歩1分', '800店舗以上', '4段階レベル分け'],
-    description: '成城学園前駅から徒歩1分の好立地にある世界的ピラティスブランドのスタジオ。世界800店舗以上展開する世界最大級のマシンピラティススタジオです。500時間以上の研修を経た質の高いインストラクターが在籍し、初心者から上級者まで安心して受けられる4段階のレベル分け。ピラティスが初めての方、運動習慣がない方も安心してスタジオにお越しください。豊富な専門知識と観察力で、一人ひとりの動き方やクセに合わせた的確なレッスンを行います。',
-    access: '成城学園前駅徒歩1分',
-    address: '東京都世田谷区（成城学園前エリア、詳細住所は公式サイト参照）',
+    trial: '30分の体験レッスン 無料',
+    features: ['駅徒歩1分', '成城コルティ北棟2F', '4段階レベル分け', '30分の無料体験'],
+    description: '成城学園前駅から徒歩1分、成城コルティ北棟2階にあるマシンピラティスのグループスタジオ（公式の店舗名は「クラブピラティス成城学園店」）。初心者から上級者まで4段階のレベル分けがあります。月会費は月4回13,090円・月8回24,090円・通い放題37,290円で、入会金5,500円と事務手数料2,200円（税込）が別途かかります。休会は年4か月まで（休会費1,500円・税別）（公式店舗ページ・2026年10月16日確認）。',
+    access: '成城学園前駅 徒歩1分',
+    address: '〒157-0066 東京都世田谷区成城六丁目4番14号 成城コルティ北棟2F',
     popularPlan: {
       name: 'マシンピラティスレッスン',
       description: '世界最大級のマシンピラティス専門スタジオ',
@@ -104,134 +101,153 @@ const studios = [
     },
     options: ['月8回 24,090円', '通い放題 37,290円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
     userProfile: {
-      ageRange: '20代〜60代が中心',
-      genderRatio: '女性75% / 男性25%',
       purpose: ['ボディメイク', '運動不足解消', '姿勢改善', 'リフレッシュ'],
     },
     basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '不定休',
-      facilities: ['マシンピラティス専門', 'ロッカー', '更衣室'],
+      hours: '日 8:00〜19:00／月 9:30〜21:00／火 8:00〜21:00／水 7:30〜21:00／木・金 9:00〜21:00／土 8:00〜18:00',
+      facilities: ['マシンピラティス専門'],
     },
   },
   {
     name: 'STUDIO IVY 成城学園前',
+    officialUrl: 'https://www.pilates-ivy.jp/studio/seijougakuenmae',
     image: '/images/studios/studio-ivy.webp',
-    price: '初回 4,500円〜',
-    trial: '体験レッスンあり',
-    features: ['パーソナル専門', '完全プライベート', 'オーダーメイド', 'リフォーマー'],
-    description: '成城学園前駅から徒歩圏で通えるパーソナル専門のマシンピラティススタジオ。洗練された清潔感のある完全プライベートな空間で、美しいボディラインを作りたい、姿勢改善したいなどお客様のさまざまなお悩みに沿ったオーダーメイドのプログラムをご提供いたします。ピラティス専用マシン「リフォーマー」を使い、効率よくインナーマッスルを鍛えます。気になる部位に効果的にアプローチができ、しなやかで美しいカラダ作りをサポートします。',
-    access: '成城学園前駅より徒歩圏内',
-    address: '東京都世田谷区（成城学園前エリア、詳細住所は公式サイト参照）',
+    price: '月2回 15,000円／月4回 28,000円／月8回 52,000円（税込）',
+    trial: '初回体験レッスン 4,500円（税込・50分）',
+    features: ['1対1のパーソナル専門', '1レッスン50分', '男性も受講可', '駅徒歩5分'],
+    description: 'インストラクターと1対1で受けるパーソナル専門のマシンピラティススタジオ（公式の店舗名は「STUDIO IVY 成城学園前店」）。リフォーマーを使い、体験時のカウンセリングをもとにプログラムを組みます。料金は月2回15,000円・月4回28,000円・月8回52,000円で、1回あたり6,500〜7,500円（公式店舗ページ・税込・2026年10月16日確認）。',
+    access: '小田急小田原線・東京メトロ千代田線「成城学園前駅」徒歩5分',
+    address: '〒157-0066 東京都世田谷区成城2-37-11 アクアリオ3F',
     popularPlan: {
-      name: 'パーソナルレッスン',
-      description: '完全プライベートのオーダーメイドプログラム',
-      price: '初回 4,500円〜（税込）',
+      name: 'STANDARD（月4回コース）',
+      description: '1対1のパーソナルマシンピラティス。週1ペース。',
+      price: '月4回 28,000円（税込・1回あたり7,000円）',
     },
     options: [
-      'パーソナルレッスン',
-      'オーダーメイドプログラム',
-      '体験レッスンあり',
+      'BASIC 月2回 15,000円（1回あたり7,500円）',
+      'PREMIUM 月8回 52,000円（1回あたり6,500円）',
+      '1レッスン50分',
     ],
     userProfile: {
-      ageRange: '20代〜60代が中心',
-      genderRatio: '女性80% / 男性20%',
-      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', '運動不足解消'],
+      purpose: ['ボディメイク', '姿勢改善', '肩こり・腰痛ケア'],
     },
     basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '不定休',
-      facilities: ['完全プライベート', 'リフォーマー', 'ロッカー', '更衣室'],
+      hours: '8:00〜21:00',
+      facilities: ['リフォーマー', '更衣室'],
     },
   },
   {
     name: 'Evolv 成城学園前店',
+    officialUrl: 'https://evolv-ems.com/studios/detail/seijogakuen/',
     image: '/images/studios/evolv-seijo.webp',
-    price: '詳細は公式サイト参照',
-    trial: '体験レッスンあり',
-    features: ['マシンピラティス×EMS', '20分ボディメイク', '駅徒歩1分', '短時間効率'],
-    description: '小田急線「成城学園前駅」から徒歩1分という好立地のピラティススタジオ。マシンピラティス×EMSで20分ボディメイクができるのが特徴です。祖師ヶ谷大蔵・経堂・喜多見などの周辺駅からも1〜2駅圏内でアクセスできるため、通いやすさは抜群です。短時間で効率的にトレーニングできるので、忙しい人にもおすすめ。無料会員限定イベントなども開催しています。',
-    access: '成城学園前駅徒歩1分',
-    address: '東京都世田谷区（成城学園前エリア、詳細住所は公式サイト参照）',
+    price: '月4回 21,780円／月8回 27,280円／月15回 36,080円／通い放題 54,780円（税込・通常価格）',
+    trial: '体験レッスン 500円（税込）→ 0円（公式表示・手ぶらセット付）',
+    features: ['マシンピラティス×EMS', '20分のレッスン', '南口徒歩1分', '金曜定休'],
+    description: 'ホットヨガのLAVAグループが運営する、EMSスーツを着てマシンピラティスを行うスタジオ。1レッスン20分です。成城学園前駅の南口から徒歩1分、ローソン左側の入口から地下1階へ。月会費の通常価格は月4回21,780円〜通い放題54,780円で、一定期間の継続を条件にした割引価格（月4回20,130円など）があります。スーツレンタル代・運営管理費は別途必要です（公式店舗ページ・税込・2026年10月16日確認）。',
+    access: '小田急小田原線「成城学園前駅」南口 徒歩1分',
+    address: '東京都世田谷区成城2-34-1 小泉ビルB1F',
     popularPlan: {
-      name: 'マシンピラティス×EMS',
-      description: '20分で効率的にボディメイク',
-      price: '詳細は公式サイト参照',
+      name: 'M4（月4回）',
+      description: 'EMS×マシンピラティス20分を月4回',
+      price: '月4回 21,780円（税込・通常価格）',
     },
     options: [
-      '20分ボディメイク',
-      '無料会員限定イベント',
-      '体験レッスンあり',
+      '入会金 33,000円（税込・体験当日入会で0円）',
+      '継続条件付きの割引: M4 20,130円／M8 23,980円／M15 32,780円／通い放題 51,480円（税込）',
+      'スーツレンタル代・運営管理費は別途',
     ],
     userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性70% / 男性30%',
       purpose: ['ボディメイク', '時短トレーニング', 'ダイエット', '運動不足解消'],
     },
     basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '不定休',
-      facilities: ['マシンピラティス', 'EMS', 'ロッカー', '更衣室'],
+      hours: '月〜木 8:30〜21:45／土日祝 7:30〜18:30',
+      closed: '金曜日',
+      facilities: ['マシンピラティス', 'EMSスーツ', '手ぶらセット（体験時）'],
     },
   },
   {
     name: 'Pilasuru 成城学園前店',
+    officialUrl: 'https://twothree-pilates.co.jp/seijyougakuen/',
     image: '/images/studios/pilasuru-seijo.webp',
-    price: '詳細は公式サイト参照',
-    trial: '体験レッスンあり',
-    features: ['マシンピラティス専門', '少人数制', '一人ひとりに合わせた指導', '成城学園前駅近'],
-    description: 'マシンピラティス専門のスタジオ。一人ひとりに合わせた丁寧な指導が受けられます。少人数制なので、初心者でも安心して通えます。インストラクターが丁寧に教えてくれるので、正しいフォームで効率的にトレーニングできます。成城学園前駅から近くて便利な立地で、仕事帰りや買い物ついでに通いやすいスタジオです。',
-    access: '成城学園前駅より徒歩圏内',
-    address: '東京都世田谷区（成城学園前エリア、詳細住所は公式サイト参照）',
+    price: '料金は公式サイトに掲載なし（問い合わせ）',
+    trial: '体験レッスンあり（スタジオグループで1人1回）',
+    features: ['マシングループは最大3人', 'プライベートレッスンあり', 'タワー付きリフォーマー', '成城6丁目'],
+    description: '公式の店舗名は「Two Threeピラティススタジオ成城学園前 ピラスル」。マシンピラティスのグループレッスンは最大3人までの少人数制で、マンツーマンのプライベートレッスンもあります。タワー付きのリフォーマーなど複数のピラティスマシンを備え、運営会社は自社でピラティスアカデミーを運営しています。休会は継続期間を過ぎてから最大6か月まで可能（休会手数料なし）。公式の店舗ページに料金と駅からの徒歩分数の記載はありません（2026年10月16日確認）。',
+    access: '成城学園前駅の北口側（成城6丁目）。徒歩分数は公式に記載なし',
+    address: '東京都世田谷区成城6-13-6 メゾン今村 2F',
     popularPlan: {
-      name: 'マシンピラティスレッスン',
-      description: '少人数制の丁寧な指導',
-      price: '詳細は公式サイト参照',
+      name: 'マシングループレッスン（最大3人）',
+      description: '少人数制のマシンピラティス',
+      price: '公式サイトに掲載なし（問い合わせ）',
     },
     options: [
-      'マシンピラティス',
-      '少人数制レッスン',
-      '体験レッスンあり',
+      'プライベートレッスン',
+      '体験当日の入会でキャンペーンあり（公式FAQ）',
+      '休会 最大6か月（手数料なし）',
     ],
     userProfile: {
-      ageRange: '20代〜60代が中心',
-      genderRatio: '女性80% / 男性20%',
-      purpose: ['ボディメイク', '姿勢改善', '運動不足解消', '健康維持'],
+      purpose: ['姿勢改善', 'ボディメイク', '運動不足解消'],
     },
     basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '不定休',
-      facilities: ['マシンピラティス専門', 'ロッカー', '更衣室'],
+      facilities: ['リフォーマー（タワー付き）', '各種ピラティスマシン'],
+    },
+  },
+  {
+    name: 'PILATES YOGA &a 成城学園前店',
+    officialUrl: 'https://pilates-and-a.com/studio/seijogakuen-mae/',
+    price: '1回券 12,000円／4回券 36,300円（税込・通常コース）',
+    trial: '体験レッスン 12,000円（当日に回数券購入・月額コース申込で5,500円＋入会金無料）',
+    features: ['パーソナル専門（マンツーマン）', '完全予約制', '男性も受講可', '北口徒歩1分'],
+    description: '成城学園前駅の北口から徒歩1分、アーバンスクエア3階のパーソナル専門マシンピラティススタジオ。完全予約制のプライベート空間でマンツーマン指導を行い、医療系国家資格を持つトレーナーも在籍していると公式サイトで紹介しています。料金は回数券制（通常コース 1回券12,000円・4回券36,300円）で、平日13:00〜17:00開始枠限定の月額制（月3回26,400円・月4回33,000円）もあります。体験は所要55〜60分（着替え・説明を含む）（公式店舗ページ・税込・2026年10月16日確認）。',
+    access: '小田急小田原線「成城学園前駅」北口 徒歩1分',
+    address: '〒157-0066 東京都世田谷区成城6丁目12-7 アーバンスクエア 3階',
+    popularPlan: {
+      name: '「通常」コース 4回券（有効期限2ヶ月）',
+      description: 'マンツーマンのパーソナルマシンピラティス',
+      price: '4回券 36,300円（税込）',
+    },
+    options: [
+      '入会金 11,000円（税込・体験当日の入会で無料）',
+      '平日昼限定 月額制: 月3回 26,400円／月4回 33,000円（税込）',
+      '「リハビリ」コース: 1回券 13,750円／4回券 45,100円（税込）',
+      'トレーナー指名料 2,200円〜3,300円（税込）',
+    ],
+    userProfile: {
+      purpose: ['姿勢改善', '肩こり・腰痛ケア', '体の使い方の改善'],
+    },
+    basicInfo: {
+      hours: '9:00〜21:00／9:00〜18:00（曜日により異なる・定休日あり。公式の店舗ページで確認）',
+      facilities: ['個室（完全予約制）'],
     },
   },
   {
     name: 'ピラティスミラー 千歳船橋（近隣エリア）',
+    officialUrl: 'https://www.konami.com/sportsclub/pilatesmirror/chitosefunabashi/',
     image: '/images/studios/pilates-mirror.webp',
-    price: '月6回 11,000円',
-    trial: '体験レッスンあり',
-    features: ['KONAMI運営', '天井鏡', '30分レッスン', '千歳船橋駅近'],
-    description: '成城学園前から小田急線で2駅の千歳船橋駅近くにあるコナミスポーツ運営のピラティススタジオ。「もっと鏡が見たくなる」をコンセプトに、スタジオの天井に鏡を設置し、自分の身体の動きを確認しながら取り組めます。1レッスン30分で「気軽に」参加でき、音楽をかけながら「楽しく」動く、短い時間でも達成感と効果を感じられるレッスンです。少人数制なので初めての方でも安心。レッスン前の20分は、リフォーマーを使用してセルフトレーニングが可能です。',
-    access: '千歳船橋駅より徒歩圏内（成城学園前から小田急線で2駅）',
-    address: '東京都世田谷区（千歳船橋エリア、詳細住所は公式サイト参照）',
+    price: '月6回まで 11,000円（税込）',
+    trial: '体験 2,200円（税込・1人1回まで）',
+    features: ['女性専用（18歳以上）', 'KONAMI運営', '天井鏡', '千歳船橋駅北口徒歩1分'],
+    description: '成城学園前から小田急線で2駅の千歳船橋駅近くにあるコナミスポーツ運営のピラティススタジオ。「もっと鏡が見たくなる」をコンセプトに、スタジオの天井に鏡を設置し、自分の身体の動きを確認しながら取り組めます。1レッスン30分で「気軽に」参加でき、音楽をかけながら「楽しく」動く、短い時間でも達成感と効果を感じられるレッスンです。レッスンは最大9名。レッスン前の20分は、リフォーマーを使用してセルフトレーニングが可能です（公式店舗ページ）。料金は成城学園前と同じです。',
+    access: '小田急小田原線「千歳船橋駅」北口 徒歩1分（成城学園前から小田急線で2駅）',
+    address: '〒156-0055 東京都世田谷区船橋1-9-5 ラ・レジオン千歳船橋 2階',
     popularPlan: {
       name: '月会費プラン',
       description: '天井鏡を使った30分レッスン',
-      price: '月6回 11,000円（税込）',
+      price: '月6回まで 11,000円（税込）',
     },
     options: [
-      '月会費プラン',
-      'チケットプラン',
-      'プライベートレッスン30分',
-      'プライベートレッスン50分',
+      '入会金 11,000円（税込）',
+      'チケットプラン 1回 2,750円（税込）',
+      'プライベートレッスン 30分 4,400円／50分 6,600円（税込）',
+      '7回目以降の追加利用 1回 1,100円（税込）',
     ],
     userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
+      genderRatio: '女性専用（18歳以上）',
       purpose: ['ボディメイク', '姿勢改善', 'リフレッシュ', '健康維持'],
     },
     basicInfo: {
       hours: '営業時間はレッスンスケジュール参照',
-      closed: '不定休',
+      closed: '毎週火曜日',
       facilities: ['天井鏡', 'リフォーマー', 'フィッティングルーム（カーテン仕切り）', '荷物置きBOX（鍵なし）'],
     },
   },
@@ -240,15 +256,15 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '大丈夫です！成城学園前エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。CLUB PILATESは4段階のレベル分けがあり、zen place pilatesも経験豊富なインストラクターが基礎から丁寧に指導してくれるので、運動が苦手な方でも安心して始められますよ。',
+    answer: '大丈夫です！成城学園前エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。CLUB PILATESは4段階のレベル分けがあり、zen place pilatesはスタジオページで初心者向けの「32回パッケージ」を案内しています。STUDIO IVYは1対1なので、運動が苦手な方でも自分のペースで始められます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。マットは場所を選ばず自宅でも続けやすいのが特徴です。成城学園前エリアではCLUB PILATESやPilasuru、STUDIO IVYなどマシン専門のスタジオが充実しています。',
+    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめ。マットは場所を選ばず自宅でも続けやすいのが特徴です。成城学園前ではCLUB PILATES・Pilasuru・STUDIO IVY・&a・ピラティスミラー・Evolvがマシンを使います。zen placeはマットとマシンの両方のグループがあります。',
   },
   {
     question: '成城学園前のピラティススタジオの料金相場は？',
-    answer: '成城学園前エリアのピラティススタジオの料金相場は、グループレッスンで月4回10,450円〜13,090円程度。ピラティスミラーは月6回11,000円とリーズナブルです。パーソナル専門のSTUDIO IVYは初回4,500円〜。体験レッスンは1,000円前後で受けられるスタジオが多いので、まずは気軽に体験してみることをおすすめします。',
+    answer: '掲載店の公式料金では、グループの月4回が10,450円（zen place マット）〜13,090円（CLUB PILATES）、ピラティスミラーは月6回まで11,000円（税込）。1対1のパーソナルは STUDIO IVY が月4回28,000円（1回7,000円）、&a が1回券12,000円です。体験は無料（CLUB PILATES）〜4,500円（STUDIO IVY）の店が多く、&a は当日入会しない場合12,000円です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -260,11 +276,11 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内で確認してくださいね。',
+    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があればOK。Evolvは体験に手ぶらセット（水・タオル・ウェア）が付くと公式に記載があります。詳細は各スタジオの体験レッスン案内で確認してくださいね。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。ピラティスは筋力強化、ヨガは心身のバランスを整えることが主な目的。zen place pilates 成城学園前なら、ピラティスもヨガも両方楽しめますよ。',
+    answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズ。ヨガは柔軟性と精神的なリラックスを重視します。ピラティスは筋力強化、ヨガは心身のバランスを整えることが主な目的。zen place pilates 成城学園前は他店利用でヨガスタジオのレッスンも受けられます（店舗・レッスンにより差額あり）。',
   },
   {
     question: 'ピラティスで肩こりや腰痛は改善しますか？',
@@ -276,7 +292,7 @@ const faqs = [
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'それぞれ良さがあります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方におすすめ。成城学園前ならSTUDIO IVYが完全プライベートで人気です。グループは料金が安く、仲間と楽しく続けられるのが魅力。まずは体験で両方試してみるのがいいですよ。',
+    answer: 'それぞれ良さがあります。パーソナルは一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方におすすめ。成城学園前ならSTUDIO IVY（月4回28,000円）や&a（1回券12,000円）がマンツーマンです。グループは料金が安く、仲間と楽しく続けられるのが魅力。まずは体験で両方試してみるのがいいですよ。',
   },
 ]
 
@@ -295,9 +311,9 @@ export default function SeijoGakuenmaeAreaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月16日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス成城学園前おすすめ7選！<br className="hidden md:block" />
+              ピラティス成城学園前おすすめ8選！<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較！
             </h1>
           </div>
@@ -342,7 +358,7 @@ export default function SeijoGakuenmaeAreaPage() {
               と思っていませんか？
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              そこでこの記事では、小田急線成城学園前駅エリアでおすすめのピラティススタジオ7選をまとめました。世田谷区の成城の閑静な高級住宅街に位置するこのエリアには、世界最大級のマシンピラティスから天井鏡スタジオ、パーソナル専門まで個性豊かなスタジオが揃っています。
+              そこでこの記事では、小田急線成城学園前駅エリアでおすすめのピラティススタジオ8選をまとめました（うち1店は2駅隣の千歳船橋）。駅の南口側にzen place・Evolv・STUDIO IVY、北口側にCLUB PILATES（成城コルティ）・&a・ピラスル・ピラティスミラーがあります。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">こんな人におすすめ</h2>
@@ -375,6 +391,18 @@ export default function SeijoGakuenmaeAreaPage() {
           </div>
         </section>
 
+        {/* 駅別早見表（2026-10-16 追加・徒歩分数と住所は各公式の表記） */}
+        <section className="py-12 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">成城学園前駅からの距離で比べる早見表</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">駅の出口（南口・北口）と徒歩分数は各スタジオの公式サイトの表記です（2026年10月16日確認・料金は税込、CLUB PILATESのみ公式に税表記なし）。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ</th><th className="px-4 py-3 text-left">駅からの距離</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">月額の目安</th><th className="px-4 py-3 text-left">体験</th></tr></thead><tbody>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">CLUB PILATES（成城コルティ北棟2F）</td><td className="px-4 py-3">徒歩1分</td><td className="px-4 py-3">マシン・グループ／男女可</td><td className="px-4 py-3">月4回 13,090円</td><td className="px-4 py-3">30分 無料</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Evolv 成城学園前店</td><td className="px-4 py-3">南口 徒歩1分</td><td className="px-4 py-3">EMS×マシン・20分</td><td className="px-4 py-3">月4回 21,780円（通常）</td><td className="px-4 py-3">500円→0円</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">PILATES YOGA &amp;a 成城学園前店</td><td className="px-4 py-3">北口 徒歩1分</td><td className="px-4 py-3">マンツーマン／男性可</td><td className="px-4 py-3">4回券 36,300円</td><td className="px-4 py-3">12,000円（当日入会で5,500円）</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">zen place pilates 成城学園前</td><td className="px-4 py-3">南口 徒歩3分</td><td className="px-4 py-3">マット／マシン・グループ、プライベート</td><td className="px-4 py-3">マット月4回 10,450円</td><td className="px-4 py-3">マット 1,000円・マシン 3,000円（初回キャンペーン）</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ピラティスミラー 成城学園前</td><td className="px-4 py-3">北口 徒歩4分</td><td className="px-4 py-3">マシン・30分・女性専用</td><td className="px-4 py-3">月6回まで 11,000円</td><td className="px-4 py-3">2,200円</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">STUDIO IVY 成城学園前</td><td className="px-4 py-3">徒歩5分</td><td className="px-4 py-3">1対1のパーソナル／男性可</td><td className="px-4 py-3">月4回 28,000円</td><td className="px-4 py-3">4,500円</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Pilasuru 成城学園前店（成城6-13-6）</td><td className="px-4 py-3">北口側（公式に徒歩分数の記載なし）</td><td className="px-4 py-3">マシン・グループ最大3人／プライベート</td><td className="px-4 py-3">公式に料金掲載なし</td><td className="px-4 py-3">あり</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">ピラティスミラー 千歳船橋（近隣）</td><td className="px-4 py-3">千歳船橋駅 北口 徒歩1分</td><td className="px-4 py-3">マシン・30分・女性専用</td><td className="px-4 py-3">月6回まで 11,000円</td><td className="px-4 py-3">2,200円</td></tr>
+        </tbody></table></div><p className="text-warm-600 leading-relaxed mt-4 text-sm">男性も通えるのは、公式に記載のある CLUB PILATES・zen place・STUDIO IVY・&amp;a です。ピラティスミラーは18歳以上の女性専用です。Evolv と Pilasuru は今回、公式サイトで男女の利用条件を確認できませんでした（Pilasuru の運営会社は「店舗によっては女性専用」と案内）。</p></div></section>
+
         <PriceComparisonTable studios={studios} areaName="成城学園前" />
         <AreaMarketComparison studios={studios} areaName="成城学園前" />
 
@@ -382,7 +410,7 @@ export default function SeijoGakuenmaeAreaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              成城学園前のおすすめピラティススタジオ7選
+              成城学園前のおすすめピラティススタジオ8選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -397,7 +425,7 @@ export default function SeijoGakuenmaeAreaPage() {
         <section className="py-16 bg-white" id="price-market">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              成城学園前のピラティス料金相場【2026年4月最新】
+              成城学園前のピラティス料金相場（2026年10月16日確認）
             </h2>
             <div className="overflow-x-auto">
               <table className="w-full text-sm border-collapse">
@@ -410,15 +438,15 @@ export default function SeijoGakuenmaeAreaPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">4,500円〜13,090円</td>
+                    <td className="px-4 py-3">10,450円〜13,090円（ピラティスミラーは月6回まで11,000円）</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回 4,500円〜</td>
+                    <td className="px-4 py-3">1回 6,500円（STUDIO IVY 月8回）〜12,000円（&amp;a 1回券）</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">1,000円〜</td>
+                    <td className="px-4 py-3">無料〜4,500円（&amp;a は当日入会なしで12,000円）</td>
                   </tr>
                 </tbody>
               </table>
@@ -445,13 +473,13 @@ export default function SeijoGakuenmaeAreaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">少人数制スタジオは早めの予約がカギ</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  成城学園前は少人数制やプライベートレッスンを重視するスタジオが多く、1クラスの定員が少ないため予約が早く埋まりがちです。特にマシンピラティスは定員4〜8名のスタジオが主流なので、希望の時間帯があれば早めに予約を。キャンセル待ち制度のあるスタジオを選ぶと安心です。
+                  成城学園前は少人数制やプライベートレッスンを重視するスタジオが多く、1クラスの定員が少ないため予約が早く埋まりがちです。公式の定員はPilasuruのマシングループが最大3人、ピラティスミラーが最大9名。ピラティスミラーは定員に達すると入会待ちになると公式に案内しているので、希望の時間帯があれば早めに体験を予約しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  成城学園前エリアの多くのスタジオでは、初月無料や入会金無料などの魅力的なキャンペーンを実施しています。ただし、3〜6ヶ月の最低契約期間が条件になっていることが大半です。途中解約すると違約金が発生するケースもあるため、契約前に期間と条件を必ず確認しましょう。月の途中入会は日割り計算になるかも要チェックです。
+                  入会金が体験当日の入会で無料になる店（Evolv・&a）や、一定期間の継続を条件に月会費が割引になる店（Evolv）があります。割引の条件や途中解約時の扱いは店ごとに違うので、契約前に必ず確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -514,8 +542,8 @@ export default function SeijoGakuenmaeAreaPage() {
                   世界展開する大手ブランドや全国チェーンのスタジオ。品質と安定感を重視する方におすすめ。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• CLUB PILATES 成城学園前（世界800店舗以上）</li>
-                  <li className="text-warm-700">• zen place pilates 成城学園前（全国150店舗）</li>
+                  <li className="text-warm-700">• CLUB PILATES 成城学園前（駅徒歩1分・成城コルティ）</li>
+                  <li className="text-warm-700">• zen place pilates 成城学園前（グループ店の他店利用OK）</li>
                   <li className="text-warm-700">• ピラティスミラー 成城学園前（KONAMI運営）</li>
                 </ul>
               </div>
@@ -526,7 +554,7 @@ export default function SeijoGakuenmaeAreaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• STUDIO IVY 成城学園前（完全プライベート）</li>
-                  <li className="text-warm-700">• Evolv 成城学園前店（マシン×EMS）</li>
+                  <li className="text-warm-700">• PILATES YOGA &amp;a 成城学園前店（マンツーマン）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -536,7 +564,8 @@ export default function SeijoGakuenmaeAreaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• CLUB PILATES 成城学園前（駅徒歩1分）</li>
-                  <li className="text-warm-700">• Evolv 成城学園前店（駅徒歩1分）</li>
+                  <li className="text-warm-700">• Evolv 成城学園前店（南口徒歩1分）</li>
+                  <li className="text-warm-700">• PILATES YOGA &amp;a 成城学園前店（北口徒歩1分）</li>
                 </ul>
               </div>
             </div>
@@ -577,11 +606,11 @@ export default function SeijoGakuenmaeAreaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜11,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4〜6回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスン中心。手軽に始めたい方向け。全国相互利用も可能。
+                  グループレッスン中心。手軽に始めたい方向け。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates（月4回 10,450円〜）</li>
-                  <li>• ピラティスミラー（月6回 11,000円）</li>
+                  <li>• ピラティスミラー（月6回まで 11,000円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -603,7 +632,8 @@ export default function SeijoGakuenmaeAreaPage() {
                   完全パーソナルレッスン。オーダーメイドで短期集中の方向け。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• STUDIO IVY（パーソナル専門）</li>
+                  <li>• STUDIO IVY（月4回 28,000円）</li>
+                  <li>• Evolv（月4回 21,780円・通常価格）</li>
                   <li>• zen place プライベート月4（38,280円）</li>
                 </ul>
               </div>
@@ -633,7 +663,7 @@ export default function SeijoGakuenmaeAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  成城学園前エリアの料金相場はグループで月4回10,450円〜13,090円程度。無理なく継続できる予算を決めましょう。料金だけでなく、入会金、マット・ウェアのレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  成城学園前の掲載店では、グループの月4回が10,450円〜13,090円。無理なく継続できる予算を決めましょう。料金だけでなく、入会金、マット・ウェアのレンタル料なども確認を。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -642,7 +672,7 @@ export default function SeijoGakuenmaeAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。zen place pilatesは体験1,000円、多くのスタジオが無料〜1,000円程度で体験レッスンを提供しているので、気軽に試してみてくださいね。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行きましょう。スタジオの雰囲気、指導者との相性、設備などは実際に行ってみないとわかりません。CLUB PILATESは30分の無料体験、zen placeはマットグループの初回体験が1,000円、ピラティスミラーは2,200円、STUDIO IVYは4,500円です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -651,7 +681,7 @@ export default function SeijoGakuenmaeAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  どんなに良いスタジオでも、通いにくい場所にあると続きません。成城学園前駅は小田急線の快速停車駅で、新宿まで約15分と都心部へのアクセスも良好です。CLUB PILATESやEvolvは駅徒歩1分の好立地。小田急線沿線の喜多見・狛江・和泉多摩川・祖師谷大蔵・経堂からもアクセスしやすいので、自分の生活圏に合ったスタジオを選びましょう。
+                  どんなに良いスタジオでも、通いにくい場所にあると続きません。CLUB PILATES・Evolv・&aは駅徒歩1分。南口側か北口側かで歩く道が変わるので、早見表で出口も確認しておきましょう。小田急線沿線の喜多見・狛江・和泉多摩川・祖師谷大蔵・経堂からもアクセスしやすいので、自分の生活圏に合ったスタジオを選びましょう。
                 </p>
               </div>
             </div>
@@ -715,7 +745,7 @@ export default function SeijoGakuenmaeAreaPage() {
               体験レッスンを予約しよう
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン1,000円〜。<br />
+              体験レッスンは無料（CLUB PILATES）から。<br />
               まずは気軽に体験してみましょう。
             </p>
             <Link
