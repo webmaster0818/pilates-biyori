@@ -607,7 +607,7 @@ export default function GinzaPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は銀座のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              本ページでは、銀座のおすすめピラティススタジオについてご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               銀座は銀座線・丸ノ内線・日比谷線・有楽町線など複数路線が利用でき、JR有楽町駅からも徒歩圏内という抜群のアクセスです。大手チェーンからプライベート専門まで、多彩なスタジオが集まるエリアです。

@@ -201,7 +201,7 @@ export default function Page() {
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span>
                   <h3 className="text-lg font-bold text-warm-900">体験レッスンで実際に確認</h3>
                 </div>
-                <p className="text-warm-600 leading-relaxed">公式サイトの情報だけでなく、必ず体験レッスンに行ってスタジオの雰囲気・インストラクターとの相性・設備の清潔感をご確認ください。複数スタジオで体験して比較するのが失敗しないコツです。</p>
+                <p className="text-warm-600 leading-relaxed">公式サイトの情報だけでなく、必ず体験レッスンに行ってスタジオの雰囲気・インストラクターとの相性・設備の清潔感をご確認ください。複数スタジオで体験して比較することをおすすめします。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-3">

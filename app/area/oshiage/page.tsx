@@ -627,7 +627,7 @@ export default function OshiageAreaPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は押上エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              本ページでは、押上エリアのおすすめピラティススタジオについてご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               東京スカイツリーのお膝元、押上駅周辺には完全個室のマシンピラティス「STUDIO.EDU」、女性専用パーソナルの「オハイアリイ」、スカイツリーを見ながらレッスンできる「zen place pilates 浅草」など、個性的なスタジオが揃っています。

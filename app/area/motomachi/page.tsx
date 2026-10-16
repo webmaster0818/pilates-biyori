@@ -569,7 +569,7 @@ export default function MotomachiPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は神戸元町エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              本ページでは、神戸元町エリアのおすすめピラティススタジオについてご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               元町はおしゃれな街並みの中に個性的なピラティススタジオが点在しています。産前産後ケア、理学療法士の指導、整体との組み合わせなど、専門性の高いスタジオが揃っているのが元町の魅力です。

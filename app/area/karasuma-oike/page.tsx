@@ -608,7 +608,7 @@ export default function KarasumaOikePage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は烏丸御池・四条烏丸エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              本ページでは、烏丸御池・四条烏丸エリアのおすすめピラティススタジオについてご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               本ページでは、烏丸御池エリアにあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。

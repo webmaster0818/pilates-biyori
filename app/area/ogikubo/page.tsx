@@ -643,7 +643,7 @@ export default function OgikuboAreaPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は荻窪のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              本ページでは、荻窪のおすすめピラティススタジオについてご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               荻窪はJR中央線・総武線・東京メトロ丸ノ内線が通る杉並区の中心エリアで、2024年11月に拡張移転した「zen place pilates 荻窪」や、2024年5月にオープンしたコナミスポーツ運営の「ピラティスミラー」など、最新のスタジオが揃っています。

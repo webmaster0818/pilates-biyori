@@ -198,7 +198,7 @@ export function HomeClient() {
                         <time dateTime="2026-03-28" className="text-warm-300 text-xs">2026.3.28</time>
                       </div>
                       <h4 className="text-sm font-medium text-warm-800 leading-relaxed group-hover:text-warm-600 transition-colors mb-2 line-clamp-2">
-                        ピラティスとヨガの違いは？初心者向けに5つのポイントで徹底解説
+                        ピラティスとヨガの違いは？初心者向けに5つのポイントで解説
                       </h4>
                     </div>
                   </div>
@@ -249,7 +249,7 @@ export function HomeClient() {
                         <time dateTime="2026-03-30" className="text-warm-300 text-xs">2026.3.30</time>
                       </div>
                       <h4 className="text-sm font-medium text-warm-800 leading-relaxed group-hover:text-warm-600 transition-colors mb-2 line-clamp-2">
-                        ピラティスは週何回が最適？目的別の頻度を徹底解説
+                        ピラティスは週何回が最適？目的別の頻度を解説
                       </h4>
                     </div>
                   </div>
@@ -331,7 +331,7 @@ export function HomeClient() {
                         <time dateTime="2026-03-30" className="text-warm-300 text-xs">2026.3.30</time>
                       </div>
                       <h4 className="text-sm font-medium text-warm-800 leading-relaxed group-hover:text-warm-600 transition-colors mb-2 line-clamp-2">
-                        ピラティスダイエットの効果を徹底解説【3ヶ月で-5kg】
+                        ピラティスダイエットの効果を解説【3ヶ月で-5kg】
                       </h4>
                     </div>
                   </div>
@@ -439,7 +439,7 @@ export function HomeClient() {
                         <time dateTime="2026-03-30" className="text-warm-300 text-xs">2026.3.30</time>
                       </div>
                       <h4 className="text-sm font-medium text-warm-800 leading-relaxed group-hover:text-warm-600 transition-colors mb-2 line-clamp-2">
-                        ピラティス体験レッスン完全ガイド【おすすめスタジオ】
+                        ピラティス体験レッスンガイド【おすすめスタジオ】
                       </h4>
                     </div>
                   </div>

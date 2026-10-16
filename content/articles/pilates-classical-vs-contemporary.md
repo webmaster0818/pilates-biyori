@@ -1,5 +1,5 @@
 ---
-title: "クラシカル vs コンテンポラリーピラティス【2026年版】違いと選び方を徹底解説"
+title: "クラシカル vs コンテンポラリーピラティス【2026年版】違いと選び方を解説"
 description: "クラシカルピラティスとコンテンポラリーピラティスの違いを比較しています。歴史的背景・エクササイズの違い・呼吸法の違い・スタジオの選び方まで、初心者向けに分かりやすく解説しています。"
 slug: "pilates-classical-vs-contemporary"
 category: "history"
@@ -130,7 +130,7 @@ relatedArticles:
 
 ## スタジオ選びのコツ
 
-[スタジオ選び完全ガイド](/articles/pilates-beginner-studio/)も合わせて読んでください。
+[スタジオ選びガイド](/articles/pilates-beginner-studio/)も合わせて読んでください。
 
 ### 確認すべきポイント
 

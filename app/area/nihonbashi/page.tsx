@@ -518,7 +518,7 @@ export default function NihonbashiPage() {
         <section className="py-16 bg-warm-50" id="summary">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
-            <p className="text-warm-600 leading-relaxed mb-6">今回は日本橋のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？</p>
+            <p className="text-warm-600 leading-relaxed mb-6">本ページでは、日本橋のおすすめピラティススタジオについてご紹介しました。</p>
             <p className="text-warm-600 leading-relaxed mb-6">日本橋は銀座線・東西線・都営浅草線が利用でき、東京駅や銀座も徒歩圏内です。老舗と新しさが共存する歴史あるビジネス街で、大手スタジオから個性的なプライベートスタジオまで揃っています。</p>
             <p className="text-warm-600 leading-relaxed mb-6">本ページの情報を、スタジオ選びにお役立てください。</p>
             <p className="text-warm-700 font-medium text-center">本ページが、ピラティススタジオ選びの参考になれば幸いです。</p>

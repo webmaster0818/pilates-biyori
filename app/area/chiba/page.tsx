@@ -714,7 +714,7 @@ export default function ChibaAreaPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は千葉のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              本ページでは、千葉のおすすめピラティススタジオについてご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               千葉には、音楽×暗闇で楽しくボディメイクできるピラティスK、世界最大級のCLUB PILATES、ホットヨガと併用できるRintosull、完全パーソナルのSTUDIO IVY、整体と融合したLa pilatesやPilates Studio re.fel、理学療法士監修のluluto、初心者向けのOLUTANAなど、多彩なスタジオが揃っています。

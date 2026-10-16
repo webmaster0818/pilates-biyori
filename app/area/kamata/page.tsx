@@ -517,7 +517,7 @@ export default function KamataPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は蒲田エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              本ページでは、蒲田エリアのおすすめピラティススタジオについてご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               本ページでは、蒲田にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。

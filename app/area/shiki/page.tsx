@@ -579,7 +579,7 @@ export default function ShikiPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は志木エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              本ページでは、志木エリアのおすすめピラティススタジオについてご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               本ページでは、志木にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。

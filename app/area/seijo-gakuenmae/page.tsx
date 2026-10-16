@@ -703,7 +703,7 @@ export default function SeijoGakuenmaeAreaPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は成城学園前のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              本ページでは、成城学園前のおすすめピラティススタジオについてご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               世田谷区の成城の閑静な高級住宅街に位置する成城学園前エリアには、世界最大級のCLUB PILATES、KONAMI運営のピラティスミラー、パーソナル専門のSTUDIO IVYなど、個性豊かなスタジオが揃っています。

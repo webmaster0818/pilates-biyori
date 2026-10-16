@@ -657,7 +657,7 @@ export default async function OkayamaAreaPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は岡山のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              本ページでは、岡山のおすすめピラティススタジオについてご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               本ページでは、岡山に数多くあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。

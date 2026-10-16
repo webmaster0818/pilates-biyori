@@ -585,7 +585,7 @@ export default function KitaojiPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は北大路・北山エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              本ページでは、北大路・北山エリアのおすすめピラティススタジオについてご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               本ページでは、北大路エリアにあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。

@@ -583,7 +583,7 @@ export default function OtsukaPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は大塚エリアのおすすめピラティススタジオ4選をご紹介しました。いかがでしたか？
+              本ページでは、大塚エリアのおすすめピラティススタジオ4選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               大塚はJR山手線・都電荒川線が利用可能で、池袋まで1駅というアクセスの良さが魅力です。大塚駅周辺にはELEMENT大塚店やYUZU大塚店があり、1駅先の池袋にはピラティスKやzen place pilatesもあるので、選択肢が豊富です。

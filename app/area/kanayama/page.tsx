@@ -511,7 +511,7 @@ export default function KanayamaPage() {
         <section className="py-16 bg-white" id="summary">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
-            <p className="text-warm-600 leading-relaxed mb-6">今回は名古屋金山エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？</p>
+            <p className="text-warm-600 leading-relaxed mb-6">本ページでは、名古屋金山エリアのおすすめピラティススタジオについてご紹介しました。</p>
             <p className="text-warm-600 leading-relaxed mb-6">金山は3路線が集まるターミナル駅で、大手チェーンから個性的な個人スタジオまで選択肢が豊富です。セミパーソナルやセルフフリーなど、ユニークなプランを提供するスタジオもあり、自分に合ったスタイルで通えます。</p>
             <p className="text-warm-600 leading-relaxed mb-6">本ページの情報を、スタジオ選びにお役立てください。</p>
             <p className="text-warm-700 font-medium text-center">本ページが、ピラティススタジオ選びの参考になれば幸いです。</p>

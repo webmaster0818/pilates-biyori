@@ -614,7 +614,7 @@ export default function SagamiOnoPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は相模大野エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              本ページでは、相模大野エリアのおすすめピラティススタジオについてご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               本ページでは、相模大野にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。

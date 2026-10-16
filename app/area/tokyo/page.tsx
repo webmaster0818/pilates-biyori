@@ -623,7 +623,7 @@ export default async function TokyoAreaPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は東京都内のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              本ページでは、東京都内のおすすめピラティススタジオについてご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               渋谷・新宿・池袋・銀座・六本木をはじめ、東京都内には多種多様なピラティススタジオがあります。本ページでは厳選した8スタジオだけを紹介しているので、ひとまず今回まとめた中から探すのもありだと思います。

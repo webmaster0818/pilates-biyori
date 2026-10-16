@@ -723,7 +723,7 @@ export default function SendaiAreaPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は仙台のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              本ページでは、仙台のおすすめピラティススタジオについてご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               仙台には、音楽×暗闇のピラティスK、整体×ピラティスのLa pilates、全国展開のzen place、LAVA運営のRintosull、マンツーマン専門のREborn、理学療法士監修のDEPなど、多様なスタジオが揃っています。

@@ -659,7 +659,7 @@ export default function NishiOgikuboAreaPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は西荻窪のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              本ページでは、西荻窪のおすすめピラティススタジオについてご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               杉並区のアンティークの街・西荻窪は、善福寺公園も近く落ち着いた雰囲気の中でピラティスを楽しめるエリアです。2026年1月オープンのマピラ西荻窪店や、全国150店舗他店利用できるzen place pilatesなど、個性的なスタジオが揃っています。

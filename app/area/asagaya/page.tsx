@@ -640,7 +640,7 @@ export default function AsagayaAreaPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は阿佐ヶ谷・南阿佐ヶ谷エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              本ページでは、阿佐ヶ谷・南阿佐ヶ谷エリアのおすすめピラティススタジオについてご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               七夕まつりの街として知られる阿佐ヶ谷は、JR中央線・総武線と丸ノ内線が利用でき、杉並区でも特に通いやすいエリアです。クラシカルピラティス専門の「Classical Pilates Tokyo」、マシン専門パーソナルの「まるはなピラティス」、全国150店舗他店利用の「zen place pilates」など、個性豊かなスタジオが揃っています。

@@ -689,7 +689,7 @@ export default function NagoyaAreaPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は名古屋のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              本ページでは、名古屋のおすすめピラティススタジオについてご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               名古屋には、音楽×暗闇のピラティスK、少人数制のTwo Three、充実設備のREBORN、栄・名駅展開のアステル、ピラティス＆ヨガのナグスタジオ、養成コース開講のTree、姿勢矯正専門のstudio nanoなど、個性豊かなスタジオが揃っています。

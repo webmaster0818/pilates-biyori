@@ -103,4 +103,4 @@ faq:
 - 初心者はライブ型（できればマンツーマン）を最初に挟むと自己流化を防げる
 - 迷ったら**ビデオ型で習慣化＋週1ライブ**のハイブリッドが費用対効果最強
 
-効果を最大化する続け方は[オンラインピラティスの効果](/articles/online-pilates-koka/)、全体像は[完全ガイド](/articles/online-pilates/)をご覧ください。
+効果を最大化する続け方は[オンラインピラティスの効果](/articles/online-pilates-koka/)、全体像は[ガイド](/articles/online-pilates/)をご覧ください。

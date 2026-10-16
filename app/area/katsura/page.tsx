@@ -455,7 +455,7 @@ export default function KatsuraPage() {
         <section className="py-16 bg-white" id="summary">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
-            <p className="text-warm-600 leading-relaxed mb-6">今回は京都桂エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？</p>
+            <p className="text-warm-600 leading-relaxed mb-6">本ページでは、京都桂エリアのおすすめピラティススタジオについてご紹介しました。</p>
             <p className="text-warm-600 leading-relaxed mb-6">桂は駅前に質の高いスタジオが集まっており、理学療法士が指導するスタジオが2つもある珍しいエリアです。嵐山方面の玄関口としてアクセスも良好です。落ち着いた住宅地で、自分のペースでピラティスを楽しめます。</p>
             <p className="text-warm-600 leading-relaxed mb-6">本ページの情報を、スタジオ選びにお役立てください。</p>
             <p className="text-warm-700 font-medium text-center">本ページが、ピラティススタジオ選びの参考になれば幸いです。</p>

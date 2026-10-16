@@ -617,7 +617,7 @@ export default function TenjinPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は天神のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              本ページでは、天神のおすすめピラティススタジオについてご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               天神は地下鉄空港線・七隈線・西鉄が利用でき、福岡市の中心地です。ピラティスK（体験0円）やRintosull（月4回8,800円〜）など料金を抑えられるスタジオから、ルルト（理学療法士監修）のパーソナルまで多彩な選択肢があります。

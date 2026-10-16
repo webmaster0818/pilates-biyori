@@ -584,7 +584,7 @@ export default function ShinagawaPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は品川エリアのおすすめピラティススタジオについてご紹介しましたが、いかがでしたか？
+              本ページでは、品川エリアのおすすめピラティススタジオについてご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               品川はJR・京急が利用できるターミナル駅で、五反田・大井町・田町も近隣です。2026年にオープンしたRintosull品川店をはじめ、zen placeの複数店舗やパーソナル専門スタジオまで充実しています。

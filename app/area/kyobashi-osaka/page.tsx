@@ -503,7 +503,7 @@ export default function KyobashiOsakaPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は京橋（大阪）エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              本ページでは、京橋（大阪）エリアのおすすめピラティススタジオについてご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               本ページでは、京橋にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。

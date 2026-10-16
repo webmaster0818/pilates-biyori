@@ -624,7 +624,7 @@ export default function GotandaPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は五反田のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              本ページでは、五反田のおすすめピラティススタジオについてご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               本ページでは、五反田にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。

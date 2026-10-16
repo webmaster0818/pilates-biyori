@@ -317,7 +317,7 @@ export default function IbarakiPage() {
         <section className="py-16 bg-white" id="summary">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
-            <p className="text-warm-600 leading-relaxed mb-6">今回は茨木エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？</p>
+            <p className="text-warm-600 leading-relaxed mb-6">本ページでは、茨木エリアのおすすめピラティススタジオについてご紹介しました。</p>
             <p className="text-warm-600 leading-relaxed mb-6">本ページでは、茨木にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。</p>
             <p className="text-warm-600 leading-relaxed mb-6">本ページの情報を、スタジオ選びにお役立てください。</p>
             <p className="text-warm-700 font-medium text-center">本ページが、ピラティススタジオ選びの参考になれば幸いです。</p>

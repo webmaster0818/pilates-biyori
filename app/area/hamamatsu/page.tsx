@@ -639,7 +639,7 @@ export default function HamamatsuPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は浜松エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              本ページでは、浜松エリアのおすすめピラティススタジオについてご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               本ページでは、浜松にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。

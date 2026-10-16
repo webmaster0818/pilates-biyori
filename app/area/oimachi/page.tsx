@@ -604,7 +604,7 @@ export default function OimachiPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は大井町エリアのおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              本ページでは、大井町エリアのおすすめピラティススタジオについてご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               本ページでは、大井町にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。

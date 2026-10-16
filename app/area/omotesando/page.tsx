@@ -557,7 +557,7 @@ export default function OmotesandoPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は表参道のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              本ページでは、表参道のおすすめピラティススタジオについてご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               表参道は銀座線・千代田線・半蔵門線の3路線が利用できる好アクセスのエリアです。都度払いで気軽に通えるPilates KASANEから、女性専用のピラティスK、プロダンサー養成校プロデュースのBDC PILATESまで、目的や予算に合ったスタジオが見つかります。

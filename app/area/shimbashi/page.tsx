@@ -625,7 +625,7 @@ export default function ShimbashiPage() {
         <section className="py-16 bg-warm-50">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
-            <p className="text-warm-600 leading-relaxed mb-6">今回は新橋エリア（港区）のおすすめピラティススタジオ8選についてご紹介してきましたが、いかがでしたか？</p>
+            <p className="text-warm-600 leading-relaxed mb-6">本ページでは、新橋エリア（港区）のおすすめピラティススタジオ8選についてご紹介しました。</p>
             <p className="text-warm-600 leading-relaxed mb-6">新橋はJR山手線・京浜東北線・東海道線、東京メトロ銀座線、都営浅草線、ゆりかもめと多くの路線が利用でき、銀座エリアも徒歩圏内という抜群のアクセスです。月額3,278円のセルフマシンから、パーソナル専門、女性専用、24時間営業まで、多彩なスタジオが揃っています。</p>
             <p className="text-warm-600 leading-relaxed mb-6">本ページの情報を、スタジオ選びにお役立てください。</p>
             <p className="text-warm-700 font-medium text-center">本ページが、ピラティススタジオ選びの参考になれば幸いです。</p>

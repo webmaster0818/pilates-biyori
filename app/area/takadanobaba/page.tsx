@@ -761,7 +761,7 @@ export default function TakadanobabaPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は高田馬場のおすすめピラティススタジオ10選をご紹介してきましたが、いかがでしたか？
+              本ページでは、高田馬場のおすすめピラティススタジオ10選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               高田馬場はJR山手線・西武新宿線・東京メトロ東西線の3路線が利用でき、新宿まで2駅・池袋まで3駅という好アクセスです。早稲田大学が近く学生の街としても知られるこのエリアには、月額3,278円のchocoZAPから本格パーソナルのSTUDIO IVYまで、幅広い価格帯のスタジオが揃っています。

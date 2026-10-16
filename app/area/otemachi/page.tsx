@@ -577,7 +577,7 @@ export default function OtemachiPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は大手町・東京駅周辺のおすすめピラティススタジオについてご紹介してきましたが、いかがでしたか？
+              本ページでは、大手町・東京駅周辺のおすすめピラティススタジオについてご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               大手町は5路線が乗り入れる交通の要所で、東京駅・日本橋・銀座も徒歩圏内です。ビジネス街の中心にありながら、仕事帰りに通える質の高いピラティススタジオが揃っています。
