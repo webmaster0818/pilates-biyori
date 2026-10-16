@@ -69,8 +69,7 @@ const studios = [
     },
     options: [
       '月定額サービス（14,800円〜）',
-      '体験レッスン（通常9,900円→キャンペーン2,980円）',
-      '体験無料キャンペーン実施中（〜2026年5月31日）',
+      '体験レッスン（通常9,900円→LINE予約限定2,980円・税込、公式サイト2026年10月17日確認）',
       'パーソナルレッスン',
     ],
     userProfile: {
@@ -237,7 +236,7 @@ export default function KatsuraPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】ピラティス桂おすすめ5選<br className="hidden md:block" />
               人気スタジオの料金プランの比較

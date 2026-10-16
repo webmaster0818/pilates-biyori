@@ -925,3 +925,11 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - 当サイト文11か所（area/tokyo h1・area/tokyo-station 導入文・HomeClient 記事カード・記事 md の title/h1/本文/リンク文言 8本）＋生成スクリプト3か所（gen-know-deep-a/b・p0-title-ctr-202607）。title は語順そのままで「徹底」だけ削除
 - 対象外: scripts/copy-style/mapping.py・README.txt（置換表の定義文）
 - out/ で6語とも0件。アフィリエイト URL 集合（4,103件・213種・439ページ）は修正前の deploy repo と完全一致。precheck 全項目OK、heading-lint は既存の35件のみ（修正前と同数）。本番 copy-audit --n 40 NG 0
+
+### 2026-10-17 期限切れ情報の最適化（MediaXAI「期限切れは、最適化して」）
+- WELL-FIT 八千代店（data/area-studios.ts yachiyo）: 「通常¥3,300 → 0円（5/31までのキャンペーン）」→「体験 通常¥3,300（キャンペーンの内容・期間は公式サイトでご確認ください）」。公式 https://well-fit-gym.com/pilatesyachiyo/ は「10/15まで 体験0円」の表示のまま（10/17時点で期限経過・後継未掲載）のため金額条件は書かない
+- Pilates Mirror ふじみ野（area-studios.ts fujimino・/ai-soudan/ の診断データ）: 体験「0円（2026/6/3〜6/20）」→「0円（秋キャンペーン・2026年9月14日〜10月19日）」、説明文「6月21日グランドオープン予定」→「6月21日にオープンした」。公式 https://pilatesmirror.konamisportsclub.jp/reserve/schedule/149/185 のお知らせ
+- DEP 京都桂店（app/area/katsura/page.tsx options）: 「体験無料キャンペーン実施中（〜2026年5月31日）」を削除、体験を「通常9,900円→LINE予約限定2,980円・税込」に。公式 https://dep-pilates.com/shop/kinki/kyotokatsura/
+- 「2026年10月31日まで」系（24/7ピラティス・Ua pilates・STUDIO IVY・オンライン記事 等）は有効期限内のため据え置き。日付なしの「体験無料キャンペーン実施中」（Rintosull 系）は公式トップで無料体験継続を確認＝据え置き。その他の日付なし期間限定は未確認で据え置き
+- ⚠️ refresh-updated-dates.py は 477ファイルの日付だけを上げるため今回は不使用（見せかけ鮮度NG）。内容を変えた katsura のみ更新日を更新
+- アフィリエイト URL 集合 421種 一致・precheck 全項目OK・heading-lint 既存35件のみ
