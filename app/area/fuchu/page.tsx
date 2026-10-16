@@ -410,11 +410,12 @@ export default function FuchuPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円台で通えるスタジオ。
+                  月額2万円未満で通えるスタジオ（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
+                  <li className="text-warm-700">• studio 6sense（スタジオシックスセンス）（月額 6,000円（通い放題））</li>
+                  <li className="text-warm-700">• zen place pilates 府中スタジオ（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• CLUB PILATES 府中店（月4回 13,090円）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -423,8 +424,7 @@ export default function FuchuPage() {
                   女性だけの安心空間。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• the SILK 府中（東口・西口2店舗）</li>
-                  <li className="text-warm-700">• ピラティスK 府中（月4回 13,420円〜）</li>
+                  <li className="text-warm-700">• PERSONAL TRAINING STUDIO U 府中女性専門店</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -433,9 +433,7 @@ export default function FuchuPage() {
                   駅から徒歩2分以内。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• ピラティスK（東口 徒歩1分）</li>
-                  <li className="text-warm-700">• the SILK（東口 徒歩1分）</li>
-                  <li className="text-warm-700">• zen place（東口 徒歩2分）</li>
+                  <li className="text-warm-700">• このページの掲載スタジオでは該当なし</li>
                 </ul>
               </div>
             </div>
@@ -538,7 +536,7 @@ export default function FuchuPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKとCLUB PILATESは無料体験。zen placeは1,000円、ピラティスKは2,000円で体験可能。
+                  体験料金は、zen place pilates 府中スタジオが「グループ体験 1,000円」、CLUB PILATES 府中店が「体験レッスン 無料（30分イントロクラス）」、studio 6sense（スタジオシックスセンス）が「体験レッスン 1,000円」です（店舗カードの記載）。最新の条件は各公式サイトで確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -547,7 +545,7 @@ export default function FuchuPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  府中はJR・東京メトロ・西武線・東武線と多路線が集まるターミナル駅。ピラティスK・the SILKは東口徒歩1分、zen placeは徒歩2分と駅近スタジオが充実。
+                  府中の掲載スタジオでは、PERSONAL TRAINING STUDIO U 府中女性専門店（京王線「府中駅」徒歩3分）、zen place pilates 府中スタジオ（京王線「府中駅」南口 徒歩4分）、CLUB PILATES 府中店（京王線「府中駅」徒歩4分）が駅から近いスタジオです。通う時間帯の経路も確認しておきましょう。
                 </p>
               </div>
             </div>

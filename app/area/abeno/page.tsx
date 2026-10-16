@@ -451,11 +451,12 @@ export default function AbenoPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円台で通えるスタジオ。
+                  月額2万円未満で通えるスタジオ（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
+                  <li className="text-warm-700">• スタジオバランス あべの店（月4回 6,380円〜）</li>
+                  <li className="text-warm-700">• Rintosull（リントスル）天王寺店（月4回 8,800円〜）</li>
+                  <li className="text-warm-700">• zen place pilates 天王寺スタジオ（月4回 10,450円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -464,8 +465,8 @@ export default function AbenoPage() {
                   女性だけの安心空間。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• the SILK 阿倍野（東口・西口2店舗）</li>
-                  <li className="text-warm-700">• ピラティスK 阿倍野（月4回 13,420円〜）</li>
+                  <li className="text-warm-700">• pilates K 天王寺店</li>
+                  <li className="text-warm-700">• Rintosull（リントスル）天王寺店</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -474,9 +475,9 @@ export default function AbenoPage() {
                   駅から徒歩2分以内。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• ピラティスK（東口 徒歩1分）</li>
-                  <li className="text-warm-700">• the SILK（東口 徒歩1分）</li>
-                  <li className="text-warm-700">• zen place（東口 徒歩2分）</li>
+                  <li className="text-warm-700">• PILATES & PERSONAL GYM LAULE'A（大阪メトロ谷町線「阿倍野駅」徒歩10秒）</li>
+                  <li className="text-warm-700">• pilates K 天王寺店（大阪メトロ「天王寺駅」14号出口 徒歩1分）</li>
+                  <li className="text-warm-700">• Rintosull（リントスル）天王寺店（大阪メトロ「天王寺駅」14番出口 徒歩1分）</li>
                 </ul>
               </div>
             </div>
@@ -521,6 +522,7 @@ export default function AbenoPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（10,450円〜/月4回）</li>
+                  <li>• pilates K 天王寺店（月4回 11,220円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -531,7 +533,7 @@ export default function AbenoPage() {
                   マシン専門スタジオ。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスK（13,420円〜）</li>
+                  <li>• このページの掲載スタジオでは該当なし（各スタジオの料金は上の店舗カードを参照）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -541,7 +543,7 @@ export default function AbenoPage() {
                   毎日通いたい方。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスK（16,170円/通い放題）</li>
+                  <li>• このページの掲載スタジオでは該当なし（各スタジオの料金は上の店舗カードを参照）</li>
                 </ul>
               </div>
             </div>
@@ -579,7 +581,7 @@ export default function AbenoPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKとCLUB PILATESは無料体験。zen placeは1,000円、ピラティスKは2,000円で体験可能。
+                  体験料金は、pilates K 天王寺店が「体験レッスン 2,000円」、zen place pilates 天王寺スタジオが「グループ体験 1,000円」、スタジオバランス あべの店が「無料体験あり」です（店舗カードの記載）。最新の条件は各公式サイトで確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -588,7 +590,7 @@ export default function AbenoPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  阿倍野はJR・東京メトロ・西武線・東武線と多路線が集まるターミナル駅。ピラティスK・the SILKは東口徒歩1分、zen placeは徒歩2分と駅近スタジオが充実。
+                  阿倍野の掲載スタジオでは、PILATES & PERSONAL GYM LAULE'A（大阪メトロ谷町線「阿倍野駅」徒歩10秒）、pilates K 天王寺店（大阪メトロ「天王寺駅」14号出口 徒歩1分）、Rintosull（リントスル）天王寺店（大阪メトロ「天王寺駅」14番出口 徒歩1分）が駅から近いスタジオです。通う時間帯の経路も確認しておきましょう。
                 </p>
               </div>
             </div>

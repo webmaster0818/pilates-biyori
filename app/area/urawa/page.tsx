@@ -483,11 +483,12 @@ export default function UrawaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円台で通えるスタジオ。
+                  月額2万円未満で通えるスタジオ（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• ピラティスK（月4回 11,220円〜）</li>
+                  <li className="text-warm-700">• zen place pilates 浦和スタジオ（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• ルキナ 北浦和店（マシンピラティス 月4回 10,450円）</li>
+                  <li className="text-warm-700">• Pilates Mee 浦和店（月2回 11,000円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -496,9 +497,9 @@ export default function UrawaPage() {
                   女性だけの安心空間。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• the SILK 浦和（手ぶら体験無料）</li>
-                  <li className="text-warm-700">• ピラティスK 浦和PARCO（駅徒歩1分）</li>
-                  <li className="text-warm-700">• Pilates Mee（セミパーソナル）</li>
+                  <li className="text-warm-700">• ピラティスK 浦和PARCO店</li>
+                  <li className="text-warm-700">• the SILK 浦和店</li>
+                  <li className="text-warm-700">• Pilates Mee 浦和店</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -507,9 +508,9 @@ export default function UrawaPage() {
                   駅から徒歩5分以内。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• ピラティスK（東口 徒歩1分）</li>
-                  <li className="text-warm-700">• the SILK（西口 徒歩2分）</li>
-                  <li className="text-warm-700">• Pilates Mee（徒歩3分）</li>
+                  <li className="text-warm-700">• ピラティスK 浦和PARCO店（JR「浦和駅」東口 徒歩1分（浦和PARCO 6F））</li>
+                  <li className="text-warm-700">• ルキナ 北浦和店（JR京浜東北線北浦和駅西口から徒歩1分）</li>
+                  <li className="text-warm-700">• the SILK 浦和店（JR「浦和駅」西口 徒歩約2分）</li>
                 </ul>
               </div>
             </div>
@@ -617,7 +618,7 @@ export default function UrawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ピラティスK、the SILK、CLUB PILATESは無料体験。zen placeは1,000円で体験可能。まずは気になるスタジオで体験してみましょう。
+                  体験料金は、zen place pilates 浦和スタジオが「グループ体験 1,000円」、ピラティスK 浦和PARCO店が「体験レッスン 0円」、the SILK 浦和店が「体験レッスン 無料」、CLUB PILATES 浦和店が「体験レッスン 無料（30分イントロクラス）」です（店舗カードの記載）。最新の条件は各公式サイトで確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

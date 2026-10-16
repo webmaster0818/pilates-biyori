@@ -445,10 +445,12 @@ export default function HachiojiPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円台で通えるスタジオ。
+                  月額2万円未満で通えるスタジオ（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• Rintosull（リントスル）八王子店（月4回 8,800円〜）</li>
+                  <li className="text-warm-700">• ピラティスK 八王子オクトーレ店（月4回 13,420円〜）</li>
+                  <li className="text-warm-700">• 24/7ピラティス 八王子店（月2回 14,500円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -457,7 +459,9 @@ export default function HachiojiPage() {
                   女性だけの安心空間。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• ピラティスK 八王子（月4回 13,420円〜）</li>
+                  <li className="text-warm-700">• ピラティスK 八王子オクトーレ店</li>
+                  <li className="text-warm-700">• Rintosull（リントスル）八王子店</li>
+                  <li className="text-warm-700">• 24/7ピラティス 八王子店</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -466,8 +470,8 @@ export default function HachiojiPage() {
                   駅から徒歩2分以内。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• ピラティスK（東口 徒歩1分）</li>
-                  <li className="text-warm-700">• zen place（東口 徒歩2分）</li>
+                  <li className="text-warm-700">• ピラティスK 八王子オクトーレ店（JR「八王子駅」直結 八王子オクトーレ 6F）</li>
+                  <li className="text-warm-700">• Rintosull（リントスル）八王子店（JR「八王子駅」北口 徒歩1分）</li>
                 </ul>
               </div>
             </div>
@@ -570,7 +574,7 @@ export default function HachiojiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  CLUB PILATESは無料体験。zen placeは1,000円、ピラティスKは2,000円で体験可能。
+                  体験料金は、ピラティスK 八王子オクトーレ店が「体験レッスン 無料」、Rintosull（リントスル）八王子店が「体験レッスン 無料」、STUDIO IVY 八王子店が「体験レッスン 4,500円」、24/7ピラティス 八王子店が「体験レッスン 無料（説明含め約60分・手ぶらOK）」です（店舗カードの記載）。最新の条件は各公式サイトで確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -579,7 +583,7 @@ export default function HachiojiPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  八王子はJR・東京メトロ・西武線・東武線と多路線が集まるターミナル駅。ピラティスKは東口徒歩1分、zen placeは徒歩2分と駅近スタジオが充実。
+                  八王子の掲載スタジオでは、ピラティスK 八王子オクトーレ店（JR「八王子駅」直結 八王子オクトーレ 6F）、Rintosull（リントスル）八王子店（JR「八王子駅」北口 徒歩1分）、Studio TAKT EIGHT（タクトエイト）（JR中央線「八王子駅」徒歩3分）が駅から近いスタジオです。通う時間帯の経路も確認しておきましょう。
                 </p>
               </div>
             </div>

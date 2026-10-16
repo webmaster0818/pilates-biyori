@@ -612,7 +612,7 @@ export default function FukuokaAreaPage() {
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
                   <p className="text-3xl font-bold text-warm-800 mb-2">9,625円〜</p>
-                  <p className="text-sm text-warm-600">zen place pilates福岡天神のマットグループ月4回9,625円〜が最安クラス。La pilatesはサブスク月1回12,000円〜。CLUB PILATESは福岡県内最多6店舗展開で無料体験あり。地元スタジオは要問合せが多いですが、体験で確認できます。</p>
+                  <p className="text-sm text-warm-600">zen place pilates福岡天神のマットグループ月4回9,625円〜が最安クラス。La pilatesはサブスク月1回12,000円〜。地元スタジオは要問合せが多いですが、体験で確認できます。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">パーソナル・セミプライベート</h3>
@@ -622,7 +622,7 @@ export default function FukuokaAreaPage() {
               </div>
               <div className="bg-white rounded-lg p-5 border border-warm-200">
                 <h3 className="font-bold text-warm-900 mb-3">入会金・体験レッスン費用</h3>
-                <p className="text-sm text-warm-600">入会金は10,000円〜22,000円程度。キャンペーン期間中は無料になるスタジオも多いです。体験レッスンはCLUB PILATESが無料、その他は1,000円〜5,000円程度。luluto福岡天神店は体験5,000円が1,000円になるキャンペーンも。まずは気軽に体験してみましょう。</p>
+                <p className="text-sm text-warm-600">入会金は10,000円〜22,000円程度。キャンペーン期間中は無料になるスタジオも多いです。体験レッスンの料金はスタジオにより異なります。まずは気軽に体験してみましょう。</p>
               </div>
             </div>
           </div>
@@ -645,12 +645,6 @@ export default function FukuokaAreaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-3">地元スタジオは雰囲気重視で選ぼう</h3>
                 <p className="text-warm-600 leading-relaxed">
                   福岡には個性的な地元スタジオが多いのが特徴。ピラティスラボ（薬院）、ピラティスエアー（今泉）、PILATES JAPAN（大名）、kuon（六本松・桜坂）、スタジオKANON（大濠）など、それぞれコンセプトが異なります。料金だけでなく、インストラクターの指導スタイルやスタジオの雰囲気を体験レッスンで確認しましょう。
-                </p>
-              </div>
-              <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">CLUB PILATESの多店舗展開を活用</h3>
-                <p className="text-warm-600 leading-relaxed">
-                  CLUB PILATESは福岡県内で6店舗と最多。会員になれば複数店舗を相互利用できるため、自宅近くと職場近くで使い分けることが可能です。無料体験レッスンもあるので、まずは最寄りの店舗で試してみるのがおすすめ。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

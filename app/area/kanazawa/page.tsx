@@ -482,11 +482,12 @@ export default function KanazawaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円台で通えるスタジオ。
+                  月額2万円未満で通えるスタジオ（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
+                  <li className="text-warm-700">• ピラティス教室Hirameき（月4回 6,000円）</li>
+                  <li className="text-warm-700">• AND STUDIO（アンドスタジオ）金沢（月額 8,680円〜）</li>
+                  <li className="text-warm-700">• ウェルネス・ラボ 金沢駅西（月額 8,778円（税込）〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -495,8 +496,8 @@ export default function KanazawaPage() {
                   女性だけの安心空間。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• the SILK 金沢（東口・西口2店舗）</li>
-                  <li className="text-warm-700">• ピラティスK 金沢（月4回 13,420円〜）</li>
+                  <li className="text-warm-700">• LYFE（ライフ）金沢</li>
+                  <li className="text-warm-700">• 24/7ピラティス 金沢店</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -505,9 +506,7 @@ export default function KanazawaPage() {
                   駅から徒歩2分以内。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• ピラティスK（東口 徒歩1分）</li>
-                  <li className="text-warm-700">• the SILK（東口 徒歩1分）</li>
-                  <li className="text-warm-700">• zen place（東口 徒歩2分）</li>
+                  <li className="text-warm-700">• このページの掲載スタジオでは該当なし</li>
                 </ul>
               </div>
             </div>
@@ -614,7 +613,7 @@ export default function KanazawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKとCLUB PILATESは無料体験。zen placeは1,000円、ピラティスKは2,000円で体験可能。
+                  体験料金は、ピラティススタジオDEP 金沢店 近岡スタジオが「初回パーソナル90分 2,980円」、24/7ピラティス 金沢店が「体験レッスン 無料（説明含め約60分・手ぶらOK）」です（店舗カードの記載）。最新の条件は各公式サイトで確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -623,7 +622,7 @@ export default function KanazawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  金沢はJR・東京メトロ・西武線・東武線と多路線が集まるターミナル駅。ピラティスK・the SILKは東口徒歩1分、zen placeは徒歩2分と駅近スタジオが充実。
+                  金沢の掲載スタジオのアクセスは、各店舗カードのアクセス欄で確認しましょう。
                 </p>
               </div>
             </div>

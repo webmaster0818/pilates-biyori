@@ -450,11 +450,12 @@ export default function TakamatsuPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円台で通えるスタジオ。
+                  月額2万円未満で通えるスタジオ（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
+                  <li className="text-warm-700">• d.branch studio（ディ・ブランチ スタジオ）（月4回 4,600円）</li>
+                  <li className="text-warm-700">• GRANLAB（グランラボ）高松丸の内（月額 8,500円〜）</li>
+                  <li className="text-warm-700">• Rintosull（リントスル）高松店（月額 13,800円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -463,8 +464,7 @@ export default function TakamatsuPage() {
                   女性だけの安心空間。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• the SILK 高松（東口・西口2店舗）</li>
-                  <li className="text-warm-700">• ピラティスK 高松（月4回 13,420円〜）</li>
+                  <li className="text-warm-700">• La pilates（ラピラティス）高松店</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -473,9 +473,7 @@ export default function TakamatsuPage() {
                   駅から徒歩2分以内。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• ピラティスK（東口 徒歩1分）</li>
-                  <li className="text-warm-700">• the SILK（東口 徒歩1分）</li>
-                  <li className="text-warm-700">• zen place（東口 徒歩2分）</li>
+                  <li className="text-warm-700">• GRANLAB（グランラボ）高松丸の内（ことでん「片原町駅」徒歩1分・駐車場完備）</li>
                 </ul>
               </div>
             </div>
@@ -580,7 +578,7 @@ export default function TakamatsuPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKとCLUB PILATESは無料体験。zen placeは1,000円、ピラティスKは2,000円で体験可能。
+                  体験料金は、GRANLAB（グランラボ）高松丸の内が「体験レッスン 0円」、La pilates（ラピラティス）高松店が「体験レッスン 3,000円」、ピラティススタジオDEP 高松店が「初回パーソナル90分 2,980円」、d.branch studio（ディ・ブランチ スタジオ）が「体験レッスン 500円」です（店舗カードの記載）。最新の条件は各公式サイトで確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -589,7 +587,7 @@ export default function TakamatsuPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  高松はJR・東京メトロ・西武線・東武線と多路線が集まるターミナル駅。ピラティスK・the SILKは東口徒歩1分、zen placeは徒歩2分と駅近スタジオが充実。
+                  高松の掲載スタジオでは、GRANLAB（グランラボ）高松丸の内（ことでん「片原町駅」徒歩1分・駐車場完備）が駅から近いスタジオです。通う時間帯の経路も確認しておきましょう。
                 </p>
               </div>
             </div>

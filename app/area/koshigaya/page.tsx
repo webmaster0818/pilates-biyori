@@ -437,11 +437,11 @@ export default function KoshigayaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円台で通えるスタジオ。
+                  月額2万円未満で通えるスタジオ（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
+                  <li className="text-warm-700">• SOELU 南越谷店（月額 7,678円〜）</li>
+                  <li className="text-warm-700">• Pilates Mee Life越谷店（5人制少人数 月4回 14,800円〜（税込））</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -450,8 +450,8 @@ export default function KoshigayaPage() {
                   女性だけの安心空間。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• the SILK 越谷（東口・西口2店舗）</li>
-                  <li className="text-warm-700">• ピラティスK 越谷（月4回 13,420円〜）</li>
+                  <li className="text-warm-700">• M-Neutral（エム・ニュートラル）</li>
+                  <li className="text-warm-700">• Pilates Mee Life越谷店</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -460,9 +460,8 @@ export default function KoshigayaPage() {
                   駅から徒歩2分以内。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• ピラティスK（東口 徒歩1分）</li>
-                  <li className="text-warm-700">• the SILK（東口 徒歩1分）</li>
-                  <li className="text-warm-700">• zen place（東口 徒歩2分）</li>
+                  <li className="text-warm-700">• Fun Vie（ファンヴィ）（東武スカイツリーライン「大袋駅」東口 徒歩1分）</li>
+                  <li className="text-warm-700">• Tomomi Pilates Studio（東武スカイツリーライン「新越谷駅」徒歩1分）</li>
                 </ul>
               </div>
             </div>
@@ -565,7 +564,7 @@ export default function KoshigayaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKとCLUB PILATESは無料体験。zen placeは1,000円、ピラティスKは2,000円で体験可能。
+                  体験料金は、Pilates Mee Life越谷店が「体験レッスン無料」です（店舗カードの記載）。最新の条件は各公式サイトで確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -574,7 +573,7 @@ export default function KoshigayaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  越谷はJR・東京メトロ・西武線・東武線と多路線が集まるターミナル駅。ピラティスK・the SILKは東口徒歩1分、zen placeは徒歩2分と駅近スタジオが充実。
+                  越谷の掲載スタジオでは、Fun Vie（ファンヴィ）（東武スカイツリーライン「大袋駅」東口 徒歩1分）、Tomomi Pilates Studio（東武スカイツリーライン「新越谷駅」徒歩1分）、Pilates Mee Life越谷店（越谷駅から徒歩3分）が駅から近いスタジオです。通う時間帯の経路も確認しておきましょう。
                 </p>
               </div>
             </div>

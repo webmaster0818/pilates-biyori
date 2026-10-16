@@ -446,11 +446,11 @@ export default function OimachiPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円台で通えるスタジオ。
+                  月額2万円未満で通えるスタジオ（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
+                  <li className="text-warm-700">• Rintosull 大井町店（月4回 8,800円〜）</li>
+                  <li className="text-warm-700">• zen place pilates 大井町スタジオ（月4回 10,450円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -459,8 +459,9 @@ export default function OimachiPage() {
                   女性だけの安心空間。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• the SILK 大井町（東口・西口2店舗）</li>
-                  <li className="text-warm-700">• ピラティスK 大井町（月4回 13,420円〜）</li>
+                  <li className="text-warm-700">• Rintosull 大井町店</li>
+                  <li className="text-warm-700">• Pilates Mee 大井町店</li>
+                  <li className="text-warm-700">• SAKURA 大井町店</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -469,9 +470,7 @@ export default function OimachiPage() {
                   駅から徒歩2分以内。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• ピラティスK（東口 徒歩1分）</li>
-                  <li className="text-warm-700">• the SILK（東口 徒歩1分）</li>
-                  <li className="text-warm-700">• zen place（東口 徒歩2分）</li>
+                  <li className="text-warm-700">• Pilates Mee 大井町店（大井町駅 徒歩2分）</li>
                 </ul>
               </div>
             </div>
@@ -574,7 +573,7 @@ export default function OimachiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKとCLUB PILATESは無料体験。zen placeは1,000円、ピラティスKは2,000円で体験可能。
+                  体験料金は、zen place pilates 大井町スタジオが「グループ体験 1,000円」、Pilates Mee 大井町店が「体験レッスン無料」です（店舗カードの記載）。最新の条件は各公式サイトで確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -583,7 +582,7 @@ export default function OimachiPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  大井町はJR・東京メトロ・西武線・東武線と多路線が集まるターミナル駅。ピラティスK・the SILKは東口徒歩1分、zen placeは徒歩2分と駅近スタジオが充実。
+                  大井町の掲載スタジオでは、Pilates Mee 大井町店（大井町駅 徒歩2分）、zen place pilates 大井町スタジオ（JR京浜東北線・東急大井町線・りんかい線「大井町駅」C出口 徒歩3分）、Rintosull 大井町店（JR京浜東北線・東急大井町線・りんかい線「大井町駅」徒歩3分）が駅から近いスタジオです。通う時間帯の経路も確認しておきましょう。
                 </p>
               </div>
             </div>

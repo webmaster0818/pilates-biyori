@@ -451,11 +451,12 @@ export default function ShonanPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円台で通えるスタジオ。
+                  月額2万円未満で通えるスタジオ（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
+                  <li className="text-warm-700">• Rintosull（リントスル）辻堂店（月4回 8,800円〜）</li>
+                  <li className="text-warm-700">• zen place pilates 藤沢スタジオ（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• CLUB PILATES 辻堂店（月4回 14,190円）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -464,8 +465,8 @@ export default function ShonanPage() {
                   女性だけの安心空間。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• the SILK 湘南・辻堂（東口・西口2店舗）</li>
-                  <li className="text-warm-700">• ピラティスK 湘南・辻堂（月4回 13,420円〜）</li>
+                  <li className="text-warm-700">• Rintosull（リントスル）辻堂店</li>
+                  <li className="text-warm-700">• TSUTAYA Conditioning PILATES 湘南T-SITE店</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -474,9 +475,8 @@ export default function ShonanPage() {
                   駅から徒歩2分以内。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• ピラティスK（東口 徒歩1分）</li>
-                  <li className="text-warm-700">• the SILK（東口 徒歩1分）</li>
-                  <li className="text-warm-700">• zen place（東口 徒歩2分）</li>
+                  <li className="text-warm-700">• CLUB PILATES 辻堂店（JR東海道線・湘南新宿ライン「辻堂駅」直結 テラスモール湘南ヴィレッジ1F）</li>
+                  <li className="text-warm-700">• zen place pilates 藤沢スタジオ（JR東海道線・小田急江ノ島線「藤沢駅」南口 徒歩2分）</li>
                 </ul>
               </div>
             </div>
@@ -579,7 +579,7 @@ export default function ShonanPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKとCLUB PILATESは無料体験。zen placeは1,000円、ピラティスKは2,000円で体験可能。
+                  体験料金は、CLUB PILATES 辻堂店が「体験レッスン 無料（30分イントロクラス）」、Rintosull（リントスル）辻堂店が「体験レッスン あり（キャンペーン時無料）」、VIE PILATES STUDIO 湘南辻堂が「体験レッスン 1,650円」、zen place pilates 藤沢スタジオが「グループ体験 1,000円」です（店舗カードの記載）。最新の条件は各公式サイトで確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -588,7 +588,7 @@ export default function ShonanPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  湘南・辻堂はJR・東京メトロ・西武線・東武線と多路線が集まるターミナル駅。ピラティスK・the SILKは東口徒歩1分、zen placeは徒歩2分と駅近スタジオが充実。
+                  湘南・辻堂の掲載スタジオでは、CLUB PILATES 辻堂店（JR東海道線・湘南新宿ライン「辻堂駅」直結 テラスモール湘南ヴィレッジ1F）、zen place pilates 藤沢スタジオ（JR東海道線・小田急江ノ島線「藤沢駅」南口 徒歩2分）、Rintosull（リントスル）辻堂店（JR東海道本線・湘南新宿ライン「辻堂駅」北口 徒歩3分）が駅から近いスタジオです。通う時間帯の経路も確認しておきましょう。
                 </p>
               </div>
             </div>

@@ -451,11 +451,12 @@ export default function KagoshimaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円台で通えるスタジオ。
+                  月額2万円未満で通えるスタジオ（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
+                  <li className="text-warm-700">• ピラティスK イオンモール鹿児島店（月4回 13,420円〜）</li>
+                  <li className="text-warm-700">• STUDIO IVY（スタジオアイビー）鹿児島店（月2回 15,000円〜）</li>
+                  <li className="text-warm-700">• Pilates KASANE 鹿児島天文館店（月4回 15,400円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -464,8 +465,7 @@ export default function KagoshimaPage() {
                   女性だけの安心空間。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• the SILK 鹿児島（東口・西口2店舗）</li>
-                  <li className="text-warm-700">• ピラティスK 鹿児島（月4回 13,420円〜）</li>
+                  <li className="text-warm-700">• ピラティスK イオンモール鹿児島店</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -474,9 +474,7 @@ export default function KagoshimaPage() {
                   駅から徒歩2分以内。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• ピラティスK（東口 徒歩1分）</li>
-                  <li className="text-warm-700">• the SILK（東口 徒歩1分）</li>
-                  <li className="text-warm-700">• zen place（東口 徒歩2分）</li>
+                  <li className="text-warm-700">• Coralful Journey（コーラルフルジャーニー）（JR「鹿児島中央駅」徒歩1分）</li>
                 </ul>
               </div>
             </div>
@@ -579,7 +577,7 @@ export default function KagoshimaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKとCLUB PILATESは無料体験。zen placeは1,000円、ピラティスKは2,000円で体験可能。
+                  体験料金は、ピラティスK イオンモール鹿児島店が「体験レッスン 0円」、Pilates KASANE 鹿児島天文館店が「体験レッスン 3,000円」、Coralful Journey（コーラルフルジャーニー）が「体験レッスン 0円」、Pilates KASANE 鹿児島中央駅前店が「体験レッスン 3,000円」です（店舗カードの記載）。最新の条件は各公式サイトで確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -588,7 +586,7 @@ export default function KagoshimaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  鹿児島はJR・東京メトロ・西武線・東武線と多路線が集まるターミナル駅。ピラティスK・the SILKは東口徒歩1分、zen placeは徒歩2分と駅近スタジオが充実。
+                  鹿児島の掲載スタジオでは、Coralful Journey（コーラルフルジャーニー）（JR「鹿児島中央駅」徒歩1分）、Pilates KASANE 鹿児島天文館店（鹿児島市電「天文館通駅」徒歩5分・「いづろ通駅」徒歩4分）、STUDIO IVY（スタジオアイビー）鹿児島店（JR「鹿児島中央駅」徒歩5分）が駅から近いスタジオです。通う時間帯の経路も確認しておきましょう。
                 </p>
               </div>
             </div>

@@ -483,11 +483,12 @@ export default function YogaKomazawaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円台で通えるスタジオ。
+                  月額2万円未満で通えるスタジオ（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
+                  <li className="text-warm-700">• ピラティススタジオnoa 駒沢（月2回 6,600円〜）</li>
+                  <li className="text-warm-700">• zen place pilates 用賀スタジオ（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• zen place pilates 駒沢スタジオ（月4回 10,450円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -496,8 +497,7 @@ export default function YogaKomazawaPage() {
                   女性だけの安心空間。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• the SILK 用賀・駒沢（東口・西口2店舗）</li>
-                  <li className="text-warm-700">• ピラティスK 用賀・駒沢（月4回 13,420円〜）</li>
+                  <li className="text-warm-700">• Pilates Mee 駒沢大学店</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -506,9 +506,7 @@ export default function YogaKomazawaPage() {
                   駅から徒歩2分以内。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• ピラティスK（東口 徒歩1分）</li>
-                  <li className="text-warm-700">• the SILK（東口 徒歩1分）</li>
-                  <li className="text-warm-700">• zen place（東口 徒歩2分）</li>
+                  <li className="text-warm-700">• Pilates Mee 駒沢大学店（駒沢大学駅 徒歩1分）</li>
                 </ul>
               </div>
             </div>
@@ -611,7 +609,7 @@ export default function YogaKomazawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKとCLUB PILATESは無料体験。zen placeは1,000円、ピラティスKは2,000円で体験可能。
+                  体験料金は、zen place pilates 用賀スタジオが「グループ体験 1,000円」、zen place pilates 駒沢スタジオが「グループ体験 1,000円」、Pilates Mee 駒沢大学店が「体験レッスン無料」です（店舗カードの記載）。最新の条件は各公式サイトで確認しましょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -620,7 +618,7 @@ export default function YogaKomazawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  用賀・駒沢はJR・東京メトロ・西武線・東武線と多路線が集まるターミナル駅。ピラティスK・the SILKは東口徒歩1分、zen placeは徒歩2分と駅近スタジオが充実。
+                  用賀・駒沢の掲載スタジオでは、Pilates Mee 駒沢大学店（駒沢大学駅 徒歩1分）、zen place pilates 用賀スタジオ（東急田園都市線「用賀駅」東口 徒歩3分）、ピラティススタジオnoa 駒沢（東急田園都市線「駒沢大学駅」西口 徒歩3分）が駅から近いスタジオです。通う時間帯の経路も確認しておきましょう。
                 </p>
               </div>
             </div>

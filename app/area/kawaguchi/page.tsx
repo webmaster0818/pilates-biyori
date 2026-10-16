@@ -430,28 +430,26 @@ export default function KawaguchiPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
-                <p className="text-warm-600 text-sm mb-4">月額1万円台で通えるスタジオ。</p>
+                <p className="text-warm-600 text-sm mb-4">月額2万円未満で通えるスタジオ（店舗カードの料金）。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• URBAN CLASSIC（月4回 7,800円〜）</li>
-                  <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• KASANE（月4回 11,880円〜）</li>
+                  <li className="text-warm-700">• URBAN CLASSIC PILATES 川口（月4回 7,800円〜）</li>
+                  <li className="text-warm-700">• zen place pilates 川口（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• Pilates Mee 川口店（月2回 11,000円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用</h3>
                 <p className="text-warm-600 text-sm mb-4">女性だけの安心空間。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• ピラティスK（駅徒歩1分）</li>
-                  <li className="text-warm-700">• Pilates Mee（セミパーソナル）</li>
+                  <li className="text-warm-700">• ピラティスK かわぐちキャスティ店</li>
+                  <li className="text-warm-700">• Pilates Mee 川口店</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">駅から徒歩5分以内。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• ピラティスK（東口 徒歩1分）</li>
-                  <li className="text-warm-700">• zen place（東口 徒歩4分）</li>
-                  <li className="text-warm-700">• URBAN CLASSIC（徒歩5分）</li>
+                  <li className="text-warm-700">• ピラティスK かわぐちキャスティ店（JR京浜東北線「川口駅」東口 徒歩1分（かわぐちキャスティ 7F））</li>
                 </ul>
               </div>
             </div>
