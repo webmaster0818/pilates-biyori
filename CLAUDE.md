@@ -903,3 +903,12 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - **kitahama**: **SHIN pilates studio 堺筋本町店を削除（公式サイト・掲載情報が見つからない＝非実在の疑い）**、**PILATES STUDIO JOODY 本町スタジオ追加**（平野町4-8-5・淀屋橋13号出口徒歩5分・女性専用）。ビーキューブ（伏見町KANBEビル3F・完全予約制・料金は公式に無し）、Bodywork（北浜3分/淀屋橋6分・全店共通月謝 ライト4 11,000）、Ua（両駅徒歩約5分・パーソナル月4回38,000・体験13,000→10/31まで5,000）、**zen place 南森町はグレード02**（マット月4 9,625・フリー14,960・入会金22,000・平日9:00-21:30/土日祝7:00-16:00）
 - ⚠️ 未確認のまま: **ピラティススタジオ進化**（公式は coubic 予約ページのみで captcha。月4回17,160円・定員6名・男女可否は未確認→FAQ の「男性も通える」からは外した）。Vancouver Sky Studio 淀屋橋（ヨガ主体）・STUDIO TOU 北浜（公式サイト不明）は不掲載
 - source 63623e48・ba59adc9・c5503c84（sitemap）／deploy f98bdfdf4e・precheck ✅ 587頁・本番3ページ 200・カード数＝N選（5/8/6）・/api/contact POST 400・/api/geo 200。Indexing は本日枠切れ → `growth/indexing-pending-20261017.txt` に3URL追記
+
+## 2026-10-16 サイト全体の文言をビジネス文書の表現に統一（writing-standards §8・MediaXAI）
+- 対象: エリア370（app/area）・data/area-studios.ts・口コミ要約（data/studio-reviews.ts 1,948文→全文です・ます）・記事105本・brands.ts/店舗受け皿78ページ・共通部品（AreaConclusion「まず結論」→「掲載状況の概要」/AreaModifierSections「確認できていません」→「ありません」/ConsultantSection/StudioConsultant/HomeClient/フッター）・運営者情報/編集部/記事制作ポリシー/ハブ/404/layout メタ
+- エリアの導入テンプレ（こんにちは。/編集部です！/と思っていませんか？/それではさっそく…！）を削除→「本ページでは、…」。「〜しましょう」→「ご確認ください／お選びください／〜ことをおすすめします」、コスパ・OK・狙い目・ぴったり等を置換、h1の「おすすめN選！」の「！」除去（N選・title・【◯月最新】・更新日は触らず、refresh-updated-dates も回していない）
+- zen place 掲載ブロックの「相互利用」→「他店利用」・「インストラクター」→「エデュケーター」（表現基準）。「」『』内の引用と ASP 提供リンク文言・バナーは無変更
+- 道具: `scripts/copy-style/`（README参照。生成スクリプトで文を足したらコミット前に apply_tsx.py / apply_md.py / run_reviews.py を通す）。update_sections.py・enrich_61_areas.py・gen-know-*.py・gen-g1/gen-the-silk の文面も新表現に
+- 検証: out/ で §8 NG はサイト文 0（残る「んです・すごく・ます！・は無い・ちゃんと」は公式の利用者の声・口コミの引用内）／アフィリURL 439ページ4,103件が本番と完全一致／precheck ✅ 587頁／/api/contact 400・/api/geo 200
+- 残（未変換）: 記事の図解注記・エクササイズ手順の体言止め、エリアの短い見出し・ラベル。事実の未確認: zen place「全国150店舗」表記（公式136）、HomeClient のブランド店舗数（pilates K 120店舗+ 等）
+- source 3c33e306／deploy 4bb6ba9053
