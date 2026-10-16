@@ -116,7 +116,7 @@ const studios = [
     price: '月2回 18,000円〜',
     trial: '体験レッスン 1,000円',
     features: ['韓国式メソッド', '完全個室', '旭橋駅徒歩3分', '7:00〜23:00'],
-    description: '韓国式リフォーマーピラティスの完全プライベートスタジオです。防音個室でマンツーマンレッスンです。7:00〜23:00の幅広い営業時間で仕事前後にも通いやすいです。会員は毎週無料のオンラインレッスンも受講可能です。手ぶらで通えるのも魅力です。',
+    description: '韓国式リフォーマーピラティスの完全プライベートスタジオです。防音個室でマンツーマンレッスンです。7:00〜23:00と営業時間が長く、仕事の前後にも通うことができます。会員は毎週無料のオンラインレッスンも受講可能です。手ぶらで通えるのも魅力です。',
     access: 'ゆいレール旭橋駅から徒歩3分',
     address: '沖縄県那覇市泉崎1-13-13 Worve那覇泉崎',
     popularPlan: {
@@ -415,7 +415,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルはスタジオでレンタルできることが多いです。ピラティスisMなど手ぶらで参加可能のスタジオもあります。詳細は各スタジオの体験レッスン案内でご確認ください。',
+    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルは、スタジオでレンタルできる場合が一般的です。ピラティスisMなど手ぶらで参加可能のスタジオもあります。詳細は各スタジオの体験レッスン案内でご確認ください。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
@@ -431,7 +431,7 @@ const faqs = [
   },
   {
     question: '沖縄は車社会ですが、駅近のスタジオはありますか？',
-    answer: 'はい、ゆいレール沿線にはいくつかのスタジオがあります。おもろまち駅徒歩3分のRintosull、旭橋駅徒歩3分のピラティスisMなどが駅近です。北谷や豊崎エリアのスタジオは車でのアクセスが便利で、無料駐車場完備のところが多いです。',
+    answer: 'はい、ゆいレール沿線にはいくつかのスタジオがあります。おもろまち駅徒歩3分のRintosull、旭橋駅徒歩3分のピラティスisMなどが駅近です。北谷や豊崎エリアのスタジオは車でのアクセスが便利で、無料駐車場を完備しているところが大半です。',
   },
 ]
 
@@ -611,7 +611,7 @@ export default function OkinawaPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
@@ -684,7 +684,7 @@ export default function OkinawaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感できる方が多いです。
+                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感される方が多くみられます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">

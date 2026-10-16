@@ -160,7 +160,7 @@ const faqs = [
   },
   {
     question: '品川エリアの料金相場は？',
-    answer: 'グループレッスン月4回で8,800円〜15,400円程度です。パーソナルは1回6,500円〜10,000円です。体験は無料〜1,000円が多いです。',
+    answer: 'グループレッスン月4回で8,800円〜15,400円程度です。パーソナルは1回6,500円〜10,000円です。体験は無料〜1,000円が中心です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -172,7 +172,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があれば問題ありません。レンタルできるスタジオが多いです。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。レンタルを用意しているスタジオが大半です。',
   },
   {
     question: 'ピラティスとヨガの違いは？',
@@ -184,7 +184,7 @@ const faqs = [
   },
   {
     question: 'どのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。',
+    answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。',
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめ？',
@@ -368,7 +368,7 @@ export default function ShinagawaPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>

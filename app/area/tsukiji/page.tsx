@@ -28,7 +28,7 @@ const studios = [
     priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
     trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '女性専用マシンピラティススタジオです。築地駅から徒歩3分、新富町駅から徒歩7分です。最大3名までのセミパーソナル形式で、各個人の目標に合わせたオーダーメイドプログラムが特徴です。当日予約・当日キャンセル可能で通いやすいです。',
+    description: '女性専用マシンピラティススタジオです。築地駅から徒歩3分、新富町駅から徒歩7分です。最大3名までのセミパーソナル形式で、各個人の目標に合わせたオーダーメイドプログラムが特徴です。当日予約・当日キャンセルが可能なため、予定に合わせて通うことができます。',
     access: '築地駅 徒歩3分／新富町駅 徒歩7分',
     address: '〒104-0045 東京都中央区築地7丁目6-7 松田ビル 302',
     popularPlan: {
@@ -212,7 +212,7 @@ const faqs = [
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
+    answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -392,7 +392,7 @@ export default function TsukijiPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>

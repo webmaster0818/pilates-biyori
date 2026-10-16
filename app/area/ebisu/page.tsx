@@ -208,7 +208,7 @@ const studios = [
     price: '月3回 13,280円〜',
     trial: '体験レッスン 0円（50分・手ぶらで参加可能）',
     features: ['女性専用', 'マシン専門', '広尾駅徒歩4分', '朝7:30〜夜22時'],
-    description: '女性専用マシンピラティス専門スタジオです。広尾駅から徒歩4分、恵比寿エリアからも好アクセスです。朝7:30から夜22時まで営業で時間の融通が効きやすいです。PMA加盟団体のプロ監修レッスンです。プロフェッショナルグレードのリフォーマーマシンを使用し、音楽に合わせた50分のグループレッスンで楽しくボディメイクを目指せます。',
+    description: '女性専用マシンピラティス専門スタジオです。広尾駅から徒歩4分、恵比寿エリアからも好アクセスです。朝7:30から夜22時まで営業しているため、時間の融通が利きます。PMA加盟団体のプロ監修レッスンです。プロフェッショナルグレードのリフォーマーマシンを使用し、音楽に合わせた50分のグループレッスンで楽しくボディメイクを目指せます。',
     access: '東京メトロ日比谷線「広尾駅」徒歩4分 / 恵比寿エリアからもアクセス可',
     address: '東京都渋谷区広尾5丁目19-4 SR広尾ビル3階（本館）／東京都渋谷区広尾5丁目2-26 M2ビル広尾2階（別館）',
     popularPlan: {
@@ -300,7 +300,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があれば問題ありません。BDC PILATESとthe SILK広尾は無料体験、ルルトは平日1,000円で体験できます。ウェアレンタルがあるスタジオも多いです。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。BDC PILATESとthe SILK広尾は無料体験、ルルトは平日1,000円で体験できます。ウェアレンタルを用意しているスタジオもあります。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
@@ -496,7 +496,7 @@ export default function EbisuPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>

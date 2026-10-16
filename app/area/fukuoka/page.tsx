@@ -63,7 +63,7 @@ const studios = [
     address: '福岡県福岡市中央区薬院（詳細は公式サイト参照）',
     popularPlan: {
       name: '少人数グループセッション',
-      description: 'マット最大8名、マシン最大6名の少人数制です。初心者でも続けやすいです。',
+      description: 'マット最大8名、マシン最大6名の少人数制です。初心者でも続けやすいスタジオです。',
       price: '要問合せ',
     },
     options: [
@@ -474,7 +474,7 @@ export default function FukuokaAreaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感できる方が多いです。
+                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感される方が多くみられます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
@@ -555,7 +555,7 @@ export default function FukuokaAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  福岡エリアの料金相場はグループで月4回9,625円〜、サブスクで月1回12,000円〜です。パーソナルやセミプライベートは要問合せのスタジオが多いです。無理なく継続できる予算を決めることをおすすめします。入会金やレンタル料などもご確認ください。
+                  福岡エリアの料金相場はグループで月4回9,625円〜、サブスクで月1回12,000円〜です。パーソナルやセミプライベートは、要問合せとしているスタジオが大半です。無理なく継続できる予算を決めることをおすすめします。入会金やレンタル料などもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -573,7 +573,7 @@ export default function FukuokaAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  通いにくい場所にあるスタジオは、継続が難しくなります。福岡は天神・博多駅を中心に地下鉄空港線や西鉄でアクセスしやすいエリアです。天神、薬院、今泉、大名、赤坂など、自宅や職場からの通いやすさを重視してお選びください。レッスン後にキャナルシティ博多でショッピングを楽しむのもいいです。
+                  通いにくい場所にあるスタジオは、継続が難しくなります。福岡は天神・博多駅を中心に地下鉄空港線や西鉄でアクセスしやすいエリアです。天神、薬院、今泉、大名、赤坂など、自宅や職場からの通いやすさを重視してお選びください。レッスン後にキャナルシティ博多でショッピングを楽しむこともできます。
                 </p>
               </div>
             </div>
@@ -599,12 +599,12 @@ export default function FukuokaAreaPage() {
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">パーソナル・セミプライベート</h3>
                   <p className="text-3xl font-bold text-warm-800 mb-2">要問合せが多い</p>
-                  <p className="text-sm text-warm-600">福岡の地元スタジオ（ピラティスラボ・ピラティスエアー・PILATES JAPAN・kuon・スタジオKANON）はパーソナル料金を公開していないケースが多いです。STUDIO IVY福岡大橋店もパーソナル専門で体験レッスンから始められます。</p>
+                  <p className="text-sm text-warm-600">福岡の地元スタジオ（ピラティスラボ・ピラティスエアー・PILATES JAPAN・kuon・スタジオKANON）は、パーソナル料金を公開していないケースが大半です。STUDIO IVY福岡大橋店もパーソナル専門で体験レッスンから始められます。</p>
                 </div>
               </div>
               <div className="bg-white rounded-lg p-5 border border-warm-200">
                 <h3 className="font-bold text-warm-900 mb-3">入会金・体験レッスン費用</h3>
-                <p className="text-sm text-warm-600">入会金は10,000円〜22,000円程度です。キャンペーン期間中は無料になるスタジオも多いです。体験レッスンの料金はスタジオにより異なります。まずは体験レッスンへの参加をおすすめします。</p>
+                <p className="text-sm text-warm-600">入会金は10,000円〜22,000円程度です。キャンペーン期間中は無料になるスタジオもあります。体験レッスンの料金はスタジオにより異なります。まずは体験レッスンへの参加をおすすめします。</p>
               </div>
             </div>
           </div>

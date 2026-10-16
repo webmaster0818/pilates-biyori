@@ -251,7 +251,7 @@ const faqs = [
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
+    answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -448,7 +448,7 @@ export default function HirakataPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">レッスン形式（グループ or パーソナル）を明確に</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  枚方にはグループ専門のピラティスKから完全マンツーマンのlulutoまで、レッスン形式が幅広いです。初心者はグループで雰囲気を知り、しっかり効果を出したい方はパーソナルを検討するのが良いでしょう。
+                  枚方には、グループ専門のピラティスKから完全マンツーマンのlulutoまで、幅広いレッスン形式のスタジオがあります。初心者はグループで雰囲気を知り、しっかり効果を出したい方はパーソナルを検討するのが良いでしょう。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -474,7 +474,7 @@ export default function HirakataPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
@@ -490,7 +490,7 @@ export default function HirakataPage() {
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>枚方エリアの豆知識：</strong>枚方は京阪沿線のベッドタウンで、くずはモールや枚方T-SITEなど商業施設内にスタジオが入っていることが多いです。レッスン前後にショッピングやカフェを楽しめるのが枚方ならではの魅力です。駐車場完備の施設も多いので、車での通いも便利です。
+                  <strong>枚方エリアの豆知識：</strong>枚方は京阪沿線のベッドタウンで、くずはモールや枚方T-SITEなど商業施設内にスタジオが入っているケースが目立ちます。レッスン前後にショッピングやカフェを楽しめるのが枚方ならではの魅力です。駐車場完備の施設も多いので、車での通いも便利です。
                 </p>
               </div>
             </div>
@@ -519,7 +519,7 @@ export default function HirakataPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  枚方の料金相場はグループ月4回で11,220円程度です。Pilates KASANEは1回3,025円〜と回数券で始めやすいです。入会金やキャンペーンもご確認ください。
+                  枚方の料金相場はグループ月4回で11,220円程度です。Pilates KASANEは1回3,025円〜の回数券があり、始めやすい料金設定です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

@@ -114,7 +114,7 @@ const studios = [
     price: '入会費・更新費 0円',
     trial: '体験レッスンあり',
     features: ['理学療法士指導', '入会費0円', 'リーズナブル', '腰痛改善'],
-    description: '神戸元町にある理学療法士が指導するピラティススタジオです。入会費・更新費0円で通常料金も安価に設定されており、長期的に通いやすいです。体の専門家による安全で効果的なレッスンが特徴です。',
+    description: '神戸元町にある理学療法士が指導するピラティススタジオです。入会費・更新費が0円で通常料金も安価に設定されており、長期的に通いやすい料金体系です。体の専門家による安全で効果的なレッスンが特徴です。',
     access: 'JR「元町駅」徒歩圏内',
     address: '兵庫県神戸市中央区（詳細は公式サイトでご確認ください）',
     popularPlan: {
@@ -211,7 +211,7 @@ const faqs = [
   },
   {
     question: '元町のピラティスの料金相場は？',
-    answer: 'グループレッスンは1回4,500円〜、月額プランは10,450円〜19,800円程度です。セミパーソナルのPilates Meeは月2回11,000円〜です。パーソナルよりリーズナブルに通えるスタジオが多いです。',
+    answer: 'グループレッスンは1回4,500円〜、月額プランは10,450円〜19,800円程度です。セミパーソナルのPilates Meeは月2回11,000円〜です。パーソナルより手頃な料金で通えるスタジオが中心です。',
   },
   {
     question: '産前産後でも通えるスタジオはありますか？',
@@ -243,7 +243,7 @@ const faqs = [
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。週1〜2回のペースで最低2〜3ヶ月の継続がおすすめです。Studio douceのような入会費0円のスタジオなら気軽に始められます。',
+    answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。週1〜2回のペースで最低2〜3ヶ月の継続がおすすめです。Studio douceのような入会費0円のスタジオなら気軽に始められます。',
   },
 ]
 
@@ -466,7 +466,7 @@ export default function MotomachiPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>

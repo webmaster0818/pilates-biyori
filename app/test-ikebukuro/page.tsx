@@ -50,7 +50,7 @@ const studios = [
     price: '月4回 14,800円〜',
     trial: '体験レッスン 500円',
     features: ['AI姿勢分析', '最新マシン', '池袋駅直結', '女性専用'],
-    description: 'AI姿勢分析を導入した最新型ピラティススタジオです。池袋駅西口直結で通いやすいです。最新のマシンと科学的なアプローチで効果的なボディメイクを実現しています。女性専用なので安心して通えます。初回体験500円でAI姿勢分析も体験可能です。',
+    description: 'AI姿勢分析を導入した最新型ピラティススタジオです。池袋駅西口直結の通いやすい立地です。最新のマシンと科学的なアプローチで効果的なボディメイクを実現しています。女性専用なので安心して通えます。初回体験500円でAI姿勢分析も体験可能です。',
     access: '池袋駅西口直結',
     address: '東京都豊島区西池袋1-11-1 メトロポリタンプラザビル 10F',
     popularPlan: {
@@ -239,7 +239,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内でご確認ください。',
+    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルは、スタジオでレンタルできる場合が一般的です。詳細は各スタジオの体験レッスン案内でご確認ください。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
@@ -393,7 +393,7 @@ export default function IkebukuroPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感できる方が多いです。
+                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感される方が多くみられます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
@@ -418,7 +418,7 @@ export default function IkebukuroPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜12,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスンが中心です。初心者向けの基本的なレッスンが多いです。
+                  グループレッスンが中心です。初心者向けの基本的なレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Pilates Studio Harmony</li>

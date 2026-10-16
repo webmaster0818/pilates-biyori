@@ -27,7 +27,7 @@ const studios = [
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '広尾駅徒歩4分', '2フロア', '手ぶらで体験可能'],
-    description: '女性専用マシンピラティススタジオです。広尾駅から徒歩4分です。本館（SR広尾ビル3F）と別館（M2ビル広尾2F）の2フロア体制で予約が取りやすいです。音楽のリズムに合わせたレッスンで初心者でも楽しく続けられます。',
+    description: '女性専用マシンピラティススタジオです。広尾駅から徒歩4分です。本館（SR広尾ビル3F）と別館（M2ビル広尾2F）の2フロア体制で、予約が取りやすくなっています。音楽のリズムに合わせたレッスンで初心者でも楽しく続けられます。',
     access: '東京メトロ日比谷線「広尾駅」徒歩4分',
     address: '東京都渋谷区広尾5丁目19-4 SR広尾ビル3階（本館）／東京都渋谷区広尾5丁目2-26 M2ビル広尾2階（別館）',
     popularPlan: {
@@ -152,7 +152,7 @@ const studios = [
     price: '月4回 11,000円〜',
     trial: '体験レッスンあり',
     features: ['少人数制', '中目黒', 'マシン専門', '割安'],
-    description: '中目黒エリアのマシンピラティス専門スタジオです。広尾からも日比谷線でアクセスしやすいです。少人数制グループレッスンで丁寧な指導です。鏡を使ったフォームチェックで正しい姿勢を習得できます。',
+    description: '中目黒エリアのマシンピラティス専門スタジオです。広尾からも日比谷線でアクセスできます。少人数制グループレッスンで丁寧な指導です。鏡を使ったフォームチェックで正しい姿勢を習得できます。',
     access: '東急東横線・日比谷線「中目黒駅」徒歩圏内',
     address: '東京都目黒区中目黒エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
@@ -229,7 +229,7 @@ const faqs = [
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
+    answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -409,7 +409,7 @@ export default function HirooPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>

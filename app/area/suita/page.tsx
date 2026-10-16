@@ -78,7 +78,7 @@ const studios = [
     image: '/images/studios/basco-esaka.webp', reviewCount: 68,
     price: '月4回 10,000円〜', trial: '体験レッスンあり',
     features: ['少人数制', 'アットホーム', 'マット&マシン', '良心的料金'],
-    description: '江坂エリアのアットホームなピラティススタジオです。少人数制のグループレッスンで、セミパーソナルのような丁寧な指導が受けられます。マットとマシンの両方に対応し、良心的な料金設定で継続しやすいです。',
+    description: '江坂エリアのアットホームなピラティススタジオです。少人数制のグループレッスンで、セミパーソナルのような丁寧な指導が受けられます。マットとマシンの両方に対応し、良心的な料金設定のため継続しやすい環境です。',
     access: '大阪メトロ御堂筋線「江坂駅」徒歩圏内',
     address: '大阪府吹田市江坂町エリア（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '月4回プラン', description: '少人数制グループレッスンです。マット＆マシン選択可能です。', price: '月4回 10,000円〜（税込）' },
@@ -93,12 +93,12 @@ const faqs = [
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。吹田市内はマシン専門スタジオが充実しています。' },
   { question: '吹田のピラティスの料金相場は？', answer: 'グループ月4回で9,625円〜13,420円程度です。zen placeが月4回9,625円〜、pilates Kが月4回13,420円〜です。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめです。慣れたら週2〜3回に増やすと効果的です。zen placeのフリープランなら毎日でも通えます。' },
-  { question: 'ピラティスで痩せますか？', answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続で体の変化を実感する方が多いです。' },
+  { question: 'ピラティスで痩せますか？', answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続で体の変化を実感される方が多くなっています。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。zen placeはグループ体験1,000円、pilates Kは体験無料で気軽に試せます。靴下（グリップソックス推奨）も忘れずにご用意ください。' },
   { question: '男性でも通えるスタジオはありますか？', answer: 'zen place江坂、コアセンス、BASCO PILATESは男性も通えます。La pilates、pilates Kは女性専用です。' },
   { question: '江坂と千里丘、どちらが便利？', answer: '御堂筋線ユーザーは江坂駅周辺（zen place、La pilates、pilates K）がおすすめです。JR東海道線ユーザーは千里丘駅前のコアセンスが便利です。' },
   { question: '吹田市と梅田で迷っています', answer: '吹田市は梅田に比べて料金が抑えめで、混雑も少なく落ち着いた環境でレッスンを受けられます。御堂筋線で梅田まで約10分なので、zen placeなら他店利用で両方通うことも可能です。' },
-  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。姿勢改善は比較的早く、ボディメイクは3ヶ月程度の継続がおすすめです。' },
+  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。姿勢改善は比較的早く、ボディメイクは3ヶ月程度の継続がおすすめです。' },
 ]
 
 export default function SuitaPage() {
@@ -243,7 +243,7 @@ export default function SuitaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">御堂筋線とJRで最寄りスタジオが異なる</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  吹田市は御堂筋線の江坂駅とJR東海道線の千里丘駅・吹田駅でアクセスが大きく変わります。通勤路線に合わせてスタジオを選ぶと継続しやすいです。江坂エリアにはzen place・La pilates・pilates Kが集中しています。
+                  吹田市は御堂筋線の江坂駅とJR東海道線の千里丘駅・吹田駅でアクセスが大きく変わります。通勤路線に合わせてスタジオを選ぶと、継続しやすくなります。江坂エリアにはzen place・La pilates・pilates Kが集中しています。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -281,7 +281,7 @@ export default function SuitaPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>

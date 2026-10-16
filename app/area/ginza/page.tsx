@@ -205,7 +205,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内でご確認ください。',
+    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルは、スタジオでレンタルできる場合が一般的です。詳細は各スタジオの体験レッスン案内でご確認ください。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
@@ -367,7 +367,7 @@ export default function GinzaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感できる方が多いです。
+                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感される方が多くみられます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
@@ -551,8 +551,8 @@ export default function GinzaPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが基本です。銀座のスタジオは上品な雰囲気のところも多いですが、カジュアルなウェアで問題ありません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>水分（500ml程度）</strong>：スタジオ近くにコンビニは多数ありますが、持参が確実です。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>タオル</strong>：汗拭き用に1枚です。マシン用は貸出されることが多いです。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>グリップソックス</strong>：マシンピラティスでは必須です。スタジオで販売していることも多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>タオル</strong>：汗拭き用に1枚です。マシン用は貸し出されるのが一般的です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>グリップソックス</strong>：マシンピラティスでは必須です。スタジオで販売している場合もあります。</span></li>
                   </ul>
                 </div>
                 <div>
@@ -567,7 +567,7 @@ export default function GinzaPage() {
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>銀座エリアの豆知識：</strong>銀座のスタジオはビルの高層階に入っていることが多く、窓からの眺望が良いスタジオもあります。レッスン後は銀座通りや並木通りを散歩してリフレッシュする方も多いです。有楽町マルイやGINZA SIXでのショッピングと組み合わせて、充実した休日を過ごせます。
+                  <strong>銀座エリアの豆知識：</strong>銀座のスタジオはビルの高層階に入っていることが多く、窓からの眺望が良いスタジオもあります。レッスン後は銀座通りや並木通りを散歩してリフレッシュされる方もいます。有楽町マルイやGINZA SIXでのショッピングと組み合わせて、充実した休日を過ごせます。
                 </p>
               </div>
             </div>

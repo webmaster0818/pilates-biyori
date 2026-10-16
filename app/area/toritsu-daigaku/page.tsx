@@ -402,11 +402,11 @@ const faqs = [
   },
   {
     question: 'マットとマシン、どちらがおすすめ？',
-    answer: '初心者にはマシンピラティスがおすすめです。リフォーマーのガイドがあるのでフォームが安定しやすく、効果を実感しやすいです。料金重視ならマットピラティスもあります。',
+    answer: '初心者にはマシンピラティスがおすすめです。リフォーマーのガイドがあるためフォームが安定しやすく、効果を実感しやすくなります。料金重視ならマットピラティスもあります。',
   },
   {
     question: 'どのくらいで効果が出ますか？',
-    answer: '週1〜2回のペースで2ヶ月を過ぎた頃から姿勢改善や体の引き締まりを実感する方が多いです。ボディメイク目的なら週2〜3回が目安です。',
+    answer: '週1〜2回のペースで、2ヶ月を過ぎた頃から姿勢改善や体の引き締まりを実感される方が多くなっています。ボディメイク目的なら週2〜3回が目安です。',
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめ？',
@@ -418,7 +418,7 @@ const faqs = [
   },
   {
     question: '都立大学から近隣駅のスタジオも通えますか？',
-    answer: 'はい、東急東横線で学芸大学駅は1駅、自由が丘駅も1駅と近いので、周辺スタジオも通いやすいです。zen placeなら全国店舗を他店利用できます。',
+    answer: 'はい、東急東横線で学芸大学駅は1駅、自由が丘駅も1駅と近いため、周辺のスタジオにも通うことができます。zen placeなら全国店舗を他店利用できます。',
   },
   {
     question: '月額制と都度払い、どちらがお得？',
@@ -609,7 +609,7 @@ export default function ToritsuDaigakuPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>

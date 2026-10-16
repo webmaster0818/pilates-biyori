@@ -86,7 +86,7 @@ const studios = [
     price: 'マンスリー4プランあり',
     trial: '体験会あり（要予約）',
     features: ['予約不要', '30分サーキット', '駅徒歩1分', 'マシン×TRX'],
-    description: 'マシンピラティスとファンクショナルトレーニング（TRX）を組み合わせた、サーキット形式のボディメイクスタジオです。巣鴨駅徒歩1分、アトレヴィ巣鴨4階の好立地です。グループレッスンではなく一人ずつ違う動きを行うため、周りを気にする必要なく運動が久しぶりの方でも気軽に始められます。30分という短時間でも効率的にボディメイク可能です。予約不要で通いやすいです。',
+    description: 'マシンピラティスとファンクショナルトレーニング（TRX）を組み合わせた、サーキット形式のボディメイクスタジオです。巣鴨駅徒歩1分、アトレヴィ巣鴨4階の好立地です。グループレッスンではなく一人ずつ違う動きを行うため、周りを気にする必要なく運動が久しぶりの方でも気軽に始められます。30分という短時間でも効率的にボディメイク可能です。予約不要のため、気軽に通うことができます。',
     access: 'JR線・都営三田線「巣鴨駅」徒歩1分',
     address: '東京都豊島区巣鴨1-16-8 アトレヴィ巣鴨 4F',
     popularPlan: {
@@ -278,7 +278,7 @@ const faqs = [
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷を調整しやすく、初心者におすすめです。巣鴨エリアではマシンピラティスを導入しているスタジオが多いです。',
+    answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷を調整しやすく、初心者におすすめです。巣鴨エリアでは、マシンピラティスを導入しているスタジオが中心です。',
   },
   {
     question: '巣鴨のピラティススタジオの料金相場は？',
@@ -294,7 +294,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。ピラティスミラーは荷物・着替え不要で手ぶらで参加可能です。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内でご確認ください。',
+    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。ピラティスミラーは荷物・着替え不要で手ぶらで参加可能です。マットやタオルは、スタジオでレンタルできる場合が一般的です。詳細は各スタジオの体験レッスン案内でご確認ください。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
@@ -510,7 +510,7 @@ export default function SugamoAreaPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
@@ -566,7 +566,7 @@ export default function SugamoAreaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・好アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  巣鴨駅から徒歩5分以内です。JR山手線・都営三田線利用で、仕事帰りや休日にも通いやすいです。
+                  巣鴨駅から徒歩5分以内です。JR山手線・都営三田線を利用でき、仕事帰りや休日にも通いやすい環境です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• URBAN CLASSIC PILATES 巣鴨（駅徒歩1分）</li>
@@ -587,7 +587,7 @@ export default function SugamoAreaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感できる方が多いです。
+                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感される方が多くみられます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">

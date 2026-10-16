@@ -108,7 +108,7 @@ const studios = [
     price: '月3回 12,980円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', '池袋駅徒歩1分', '手ぶらで体験可能', '2店舗あり'],
-    description: '女性専用マシンピラティススタジオです。池袋駅東口41番出口から徒歩1分です。池袋に東口店・西口店の2店舗展開で予約が取りやすいです。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。手ぶらで体験可能です。',
+    description: '女性専用マシンピラティススタジオです。池袋駅東口41番出口から徒歩1分です。池袋に東口店・西口店の2店舗を展開しており、予約が取りやすくなっています。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。手ぶらで体験可能です。',
     access: 'JR「池袋駅」東口 41番出口 徒歩1分',
     address: '東京都豊島区南池袋1-23-6 KDG池袋ビル9階',
     popularPlan: {
@@ -284,7 +284,7 @@ const faqs = [
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
+    answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -564,7 +564,7 @@ export default function IkebukuroPage() {
               </div>
               <div className="bg-white rounded-lg p-5 border border-warm-200">
                 <h3 className="font-bold text-warm-900 mb-3">入会金・体験レッスン費用</h3>
-                <p className="text-sm text-warm-600">入会金は10,000円〜33,000円程度ですが、各スタジオでキャンペーン期間中は無料になることが多いです。体験レッスンはthe SILKが無料、zen placeは1,000円〜です。まずは2〜3スタジオで体験して、自分に合う雰囲気のスタジオを見つけることをおすすめします。</p>
+                <p className="text-sm text-warm-600">入会金は10,000円〜33,000円程度ですが、各スタジオのキャンペーン期間中は無料になる場合が少なくありません。体験レッスンはthe SILKが無料、zen placeは1,000円〜です。まずは2〜3スタジオで体験して、自分に合う雰囲気のスタジオを見つけることをおすすめします。</p>
               </div>
             </div>
           </div>
@@ -618,7 +618,7 @@ export default function IkebukuroPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>水分（500ml以上）</strong>：レッスン中の水分補給に必須です。スタジオ内に自販機がない場合もあります。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルはスタジオで用意されることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されているのが一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>グリップソックス</strong>：マシンピラティスでは靴下着用必須のスタジオが大半です。滑り止め付きが最適です。スタジオで購入できる場合もあります。</span></li>
                   </ul>
                 </div>

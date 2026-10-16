@@ -99,7 +99,7 @@ const faqs = [
   { question: '男性でも通えるスタジオはありますか？', answer: 'zen place、スタジオBYK、アーバンクラシックは男性も通えます。Rintosullは女性専用です。' },
   { question: '短時間で効果的なスタジオは？', answer: 'アーバンクラシックは30分のサーキット形式です。予約不要の通い放題で忙しい主婦やビジネスパーソンに人気です。' },
   { question: 'ヨガとピラティスの両方やりたい場合は？', answer: 'Rintosullはプレミアムフリーフルタイム（18,800円）でLAVA等系列のヨガスタジオも全国で利用可能です。' },
-  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。' },
+  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。最低2ヶ月は継続することをおすすめします。' },
 ]
 
 export default function TamaPlazaPage() {
@@ -175,7 +175,7 @@ export default function TamaPlazaPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              たまプラーザは東急田園都市線沿線の人気住宅街です。ファミリー層が多く、主婦やワーキングマザーに人気のスタジオが充実しています。近隣の<Link href="/area/aobadai/" className="text-warm-700 underline hover:text-warm-900">青葉台</Link>（1駅）と合わせて比較検討する方も多いです。
+              たまプラーザは東急田園都市線沿線の人気住宅街です。ファミリー層が多く、主婦やワーキングマザーに人気のスタジオが充実しています。近隣の<Link href="/area/aobadai/" className="text-warm-700 underline hover:text-warm-900">青葉台</Link>（1駅）と合わせて比較検討される方も少なくありません。
             </p>
           </div>
         </section>
@@ -228,7 +228,7 @@ export default function TamaPlazaPage() {
                 </div>
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
-                <p className="text-sm text-warm-600"><strong>たまプラーザエリアの豆知識：</strong>たまプラーザは「たまプラーザテラス」をはじめとした商業施設が充実しています。レッスン後のショッピングやカフェタイムも楽しめます。子育て世代に人気のエリアなので、ママ友同士で通う方も多いです。</p>
+                <p className="text-sm text-warm-600"><strong>たまプラーザエリアの豆知識：</strong>たまプラーザは「たまプラーザテラス」をはじめとした商業施設が充実しています。レッスン後のショッピングやカフェタイムも楽しめます。子育て世代に人気のエリアのため、ママ友同士で通われる方もいます。</p>
               </div>
             </div>
           </div>

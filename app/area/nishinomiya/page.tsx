@@ -180,7 +180,7 @@ const studios = [
     price: 'マット月4回 11,000円〜',
     trial: 'マット体験 1,650円 / リフォーマー体験 4,400円',
     features: ['西宮北口駅徒歩2分', '定員3名リフォーマー', '低価格', '3タイプのレッスン'],
-    description: '西宮北口駅から徒歩2分です。リフォーマー・マット・サーキットフュージョンの3タイプのレッスンを提供しています。リフォーマーグループは定員3名、マットグループも5〜7名の少人数制で一人ひとり丁寧な指導です。入会金3,300円と始めやすいです。',
+    description: '西宮北口駅から徒歩2分です。リフォーマー・マット・サーキットフュージョンの3タイプのレッスンを提供しています。リフォーマーグループは定員3名、マットグループも5〜7名の少人数制で一人ひとり丁寧な指導です。入会金は3,300円で、始めやすい料金設定です。',
     access: '阪急神戸線「西宮北口駅」徒歩2分',
     address: '兵庫県西宮市甲風園1-9-8 睦ビル4C',
     popularPlan: {
@@ -280,7 +280,7 @@ const faqs = [
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
+    answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -460,7 +460,7 @@ export default function NishinomiyaPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>

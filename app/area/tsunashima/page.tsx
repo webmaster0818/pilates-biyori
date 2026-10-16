@@ -82,7 +82,7 @@ const faqs = [
   { question: '男性でも通えるスタジオはありますか？', answer: 'zen place pilates綱島、FlexFit綱島、STUDIO TT綱島店は男性利用可能です。pilates Kは女性専用です。' },
   { question: '綱島駅からのアクセスは？', answer: '綱島駅は東急東横線の急行停車駅で、渋谷まで約25分です。FlexFitは駅徒歩30秒、zen placeは徒歩2分と駅近スタジオが充実しています。' },
   { question: 'パーソナルレッスンを受けたいのですが？', answer: 'FlexFit綱島はパーソナル対応です。zen placeもプライベートレッスン（1回9,900円〜）を提供しています。STUDIO TTもプライベートレッスンがあります。' },
-  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '個人差はありますが、2ヶ月を過ぎた頃から変化を実感する方が多いです。週1〜2回で最低2〜3ヶ月の継続がおすすめです。' },
+  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '個人差はありますが、2ヶ月を過ぎた頃から変化を実感される方が多くなっています。週1〜2回で最低2〜3ヶ月の継続がおすすめです。' },
 ]
 
 export default function TsunashimaPage() {

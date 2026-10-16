@@ -151,7 +151,7 @@ const faqs = [
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。白金高輪のスタジオにはレンタルウェアやタオル無料のところもあります。' },
   { question: 'ピラティスとヨガの違いは？', answer: 'ピラティスは体幹強化とボディメイクが中心、ヨガは柔軟性とリラックスが中心です。両方受けられるスタジオもあります。' },
   { question: '肩こりや腰痛は改善しますか？', answer: 'はい、ピラティスは姿勢改善に効果的で、肩こり・腰痛の根本原因を解消できます。' },
-  { question: 'どのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から姿勢の変化や体の軽さを実感する方が多いです。' },
+  { question: 'どのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から姿勢の変化や体の軽さを実感される方が多くなっています。' },
   { question: 'パーソナルとグループ、どちらがおすすめ？', answer: 'パーソナルは効果が出やすく自分だけのプログラムが組める点が魅力です。グループはリーズナブルに楽しく続けられます。目的と予算に合わせてお選びください。' },
 ]
 
@@ -265,7 +265,7 @@ export default function ShirokanatakanwaPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>

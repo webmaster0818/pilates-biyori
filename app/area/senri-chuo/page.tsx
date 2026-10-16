@@ -67,12 +67,12 @@ const faqs = [
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。千里中央はマシン専門スタジオが充実しています。' },
   { question: '千里中央のピラティスの料金相場は？', answer: 'グループ月4回で9,625円〜13,000円程度です。WECLEが月額9,800円〜と通い放題がリーズナブルです。ピラティスミラーは月額11,000円で月6回までです。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめです。慣れたら週2〜3回に増やすと効果的です。WECLEは24時間・予約不要なので毎日でも気軽に通えます。' },
-  { question: 'ピラティスで痩せますか？', answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続で体の変化を実感する方が多いです。' },
+  { question: 'ピラティスで痩せますか？', answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続で体の変化を実感される方が多くなっています。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。WECLEは着替え不要で普段着でも可能です。zen placeはグループ体験1,000円で試せます。靴下（グリップソックス推奨）も忘れずにご用意ください。' },
   { question: '男性でも通えるスタジオはありますか？', answer: 'zen place千里中央とWECLEは男性も通えます。ピラティスミラーは女性専用です。' },
   { question: '千里中央と江坂で迷っています', answer: '千里中央は北大阪急行の終点で千里ニュータウンの中心地です。ファミリー層が多く落ち着いた雰囲気です。江坂はオフィス街で会社帰りに便利です。どちらもzen placeは他店利用可能なので両方通うこともできます。' },
   { question: '子連れでも通えますか？', answer: '千里中央エリアはファミリー層が多く、託児サービスのあるスタジオもあります。各スタジオに事前に問い合わせることをおすすめします。WECLEは30分で終わるので、お子さんの習い事の待ち時間に通う方もいます。' },
-  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。姿勢改善は比較的早く、ボディメイクは3ヶ月程度の継続がおすすめです。' },
+  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。姿勢改善は比較的早く、ボディメイクは3ヶ月程度の継続がおすすめです。' },
 ]
 
 export default function SenriChuoPage() {
@@ -198,7 +198,7 @@ export default function SenriChuoPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              千里中央は北摂エリアの中心地で、梅田に比べて料金はやや抑えめです。WECLEの24時間通い放題など、費用対効果の良い選択肢が揃っています。近隣の<Link href="/area/toyonaka/" className="text-warm-700 underline hover:text-warm-900">豊中</Link>エリアと比較検討する方も多いです。
+              千里中央は北摂エリアの中心地で、梅田に比べて料金はやや抑えめです。WECLEの24時間通い放題など、費用対効果の良い選択肢が揃っています。近隣の<Link href="/area/toyonaka/" className="text-warm-700 underline hover:text-warm-900">豊中</Link>エリアと比較検討される方も少なくありません。
             </p>
           </div>
         </section>
@@ -219,7 +219,7 @@ export default function SenriChuoPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">ファミリー層が多いエリアの特性を活かす</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  千里ニュータウンはファミリー層が多く住むエリアです。平日日中のレッスンは主婦の方に人気で、同年代の仲間と一緒にモチベーションを保ちやすいです。WECLEの30分レッスンはお子さんの習い事の待ち時間にも活用できます。
+                  千里ニュータウンはファミリー層が多く住むエリアです。平日日中のレッスンは主婦の方に人気があり、同年代の仲間と一緒にモチベーションを保つことができます。WECLEの30分レッスンはお子さんの習い事の待ち時間にも活用できます。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -251,7 +251,7 @@ export default function SenriChuoPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。せんちゅうパル内にコンビニもあります。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>

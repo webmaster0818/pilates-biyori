@@ -221,7 +221,7 @@ const faqs = [
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '個人差はありますが、2ヶ月を過ぎた頃から姿勢改善や体の変化を実感する方が多いです。週1〜2回のペースで最低2〜3ヶ月は継続することをおすすめします。',
+    answer: '個人差はありますが、2ヶ月を過ぎた頃から姿勢改善や体の変化を実感される方が多くなっています。週1〜2回のペースで最低2〜3ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -376,7 +376,7 @@ export default function KokubunjiPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">予約制と予約不要の違いを理解する</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  URBAN CLASSIC PILATESは予約不要のサーキット形式で、空いた時間に行けるのが便利です。一方、pilates Kやzen placeは事前予約制です。自分のライフスタイルに合った予約形式を選ぶと長続きしやすいです。
+                  URBAN CLASSIC PILATESは予約不要のサーキット形式で、空いた時間に行けるのが便利です。一方、pilates Kやzen placeは事前予約制です。ご自身のライフスタイルに合った予約形式を選ぶと、長く続けやすくなります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -402,7 +402,7 @@ export default function KokubunjiPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>

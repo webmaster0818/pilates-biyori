@@ -79,7 +79,7 @@ const studios = [
     name: 'STUDIO TOU（スタジオトウ）京橋', reviewCount: 72,
     price: '月4回 10,000円〜', trial: '体験レッスンあり',
     features: ['グループ＆プライベート', '男性利用可', 'チケット制あり', 'アットホーム'],
-    description: '京橋エリアのピラティス専門スタジオです。グループレッスンとプライベートレッスンの両方に対応しています。月謝制・チケット制と柔軟な料金体系で通いやすいです。男女問わず利用可能で、アットホームな雰囲気の中で丁寧な指導を受けられます。',
+    description: '京橋エリアのピラティス専門スタジオです。グループレッスンとプライベートレッスンの両方に対応しています。月謝制・チケット制から選べる柔軟な料金体系で、通いやすいスタジオです。男女問わず利用可能で、アットホームな雰囲気の中で丁寧な指導を受けられます。',
     access: 'JR大阪環状線・京阪本線「京橋駅」徒歩圏内',
     address: '大阪府大阪市都島区京橋エリア（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '月4回プラン', description: 'グループ＆プライベート選択可能です。', price: '月4回 10,000円〜（税込）' },
@@ -107,12 +107,12 @@ const faqs = [
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。京橋はマシン専門スタジオが充実しています。' },
   { question: '京橋のピラティスの料金相場は？', answer: 'グループ月4回で10,000円〜13,420円程度です。Rintosullが月額8,800円〜、CLUB PILATESが月4回 10,890〜17,050円です（店舗により異なる）。パーソナルは1回8,000円〜15,000円程度です。梅田エリアより比較的リーズナブルです。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめです。慣れたら週2〜3回に増やすと効果的です。Rintosullには通い放題プランがあるので、頻度を上げたい方にもおすすめです。' },
-  { question: 'ピラティスで痩せますか？', answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続で体の変化を実感する方が多いです。' },
+  { question: 'ピラティスで痩せますか？', answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続で体の変化を実感される方が多くなっています。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。CLUB PILATESやpilates Kは体験無料で気軽に試せます。靴下（グリップソックス推奨）も忘れずにご用意ください。' },
   { question: '男性でも通えるスタジオはありますか？', answer: 'CLUB PILATESとSTUDIO TOUは男性も通えます。Rintosull、YO・GAN、pilates Kは女性専用です。' },
   { question: 'JR京橋駅と京阪京橋駅、どちらからが便利？', answer: 'どちらの駅からも主要スタジオは徒歩1〜5分程度です。Rintosullは両駅から徒歩1分、YO・GANは京阪モールホテル館内なので京阪側が便利です。' },
   { question: '京橋と他のエリアで迷っています', answer: '京橋はJR・京阪が交差するターミナル駅で大阪ビジネスパークにも近く、仕事帰りに通いやすいのが魅力です。梅田や天王寺と比べて混雑も少なめで、落ち着いてレッスンを受けたい方におすすめです。' },
-  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。姿勢改善は比較的早く、ボディメイクは3ヶ月程度の継続がおすすめです。' },
+  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。姿勢改善は比較的早く、ボディメイクは3ヶ月程度の継続がおすすめです。' },
 ]
 
 export default function KyobashiOsakaPage() {
@@ -271,7 +271,7 @@ export default function KyobashiOsakaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">大阪ビジネスパーク勤務の方は平日夜の予約を早めに</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  京橋は大阪ビジネスパーク（OBP）に隣接しており、平日夜のレッスンは仕事帰りの会社員で人気が集中します。特に18時〜20時のクラスは早めの予約がおすすめです。SOELUの30分レッスンなら時間の融通が利きやすいです。
+                  京橋は大阪ビジネスパーク（OBP）に隣接しており、平日夜のレッスンは仕事帰りの会社員で人気が集中します。特に18時〜20時のクラスは早めの予約がおすすめです。SOELUの30分レッスンであれば、時間の融通が利きます。
                 </p>
               </div>
             </div>
@@ -291,7 +291,7 @@ export default function KyobashiOsakaPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
@@ -307,7 +307,7 @@ export default function KyobashiOsakaPage() {
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>京橋エリアの豆知識：</strong>京橋はJRと京阪が交差する大阪東部の玄関口です。大阪ビジネスパークや大阪城公園にも近く、レッスン前後に大阪城公園でウォーキングを楽しむ方も多いです。駅周辺には飲食店が豊富なので、レッスン後のヘルシーランチにも困りません。
+                  <strong>京橋エリアの豆知識：</strong>京橋はJRと京阪が交差する大阪東部の玄関口です。大阪ビジネスパークや大阪城公園にも近く、レッスン前後に大阪城公園でウォーキングを楽しまれる方もいます。駅周辺には飲食店が豊富なので、レッスン後のヘルシーランチにも困りません。
                 </p>
               </div>
             </div>

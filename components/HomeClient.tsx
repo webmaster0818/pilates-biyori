@@ -780,7 +780,7 @@ export function HomeClient() {
                 </button>
                 <div className="faq-content max-h-0 overflow-hidden transition-all duration-400">
                   <p className="pb-6 text-warm-500 text-sm leading-relaxed font-light">
-                    個人差はありますが、週1〜2回の受講で2〜3ヶ月後から姿勢改善や体幹強化の効果を実感する方が多いです。ジョセフ・ピラティス氏は「10回で違いを感じ、20回で見た目が変わり、30回で全く新しい身体になる」と述べています。
+                    個人差はありますが、週1〜2回の受講で2〜3ヶ月後から姿勢改善や体幹強化の効果を実感される方が多くなっています。ジョセフ・ピラティス氏は「10回で違いを感じ、20回で見た目が変わり、30回で全く新しい身体になる」と述べています。
                   </p>
                 </div>
               </div>

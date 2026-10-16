@@ -368,7 +368,7 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '問題ありません。水道橋・後楽園エリアのスタジオは初心者歓迎のところが多いです。ピラティスミラーやzen placeなどは初心者向けクラスが充実しており、基礎から丁寧に指導してくれます。',
+    answer: '問題ありません。水道橋・後楽園エリアのスタジオは、初心者歓迎のところが大半です。ピラティスミラーやzen placeなどは初心者向けクラスが充実しており、基礎から丁寧に指導してくれます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
@@ -400,11 +400,11 @@ const faqs = [
   },
   {
     question: 'どのくらいで効果が出ますか？',
-    answer: '個人差はありますが、2ヶ月を過ぎた頃から姿勢の変化や体の軽さを実感する方が多いです。見た目の変化は3〜6ヶ月が目安です。',
+    answer: '個人差はありますが、2ヶ月を過ぎた頃から姿勢の変化や体の軽さを実感される方が多くなっています。見た目の変化は3〜6ヶ月が目安です。',
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめ？',
-    answer: 'パーソナルは自分の体に合ったオーダーメイドの指導で効果が出やすいです。グループは安く楽しく仲間と一緒に続けられます。迷ったら両方体験してみることをおすすめします。',
+    answer: 'パーソナルは一人ひとりの体に合わせたオーダーメイドの指導のため、効果が出やすい形式です。グループは安く楽しく仲間と一緒に続けられます。迷ったら両方体験してみることをおすすめします。',
   },
 ]
 
@@ -585,7 +585,7 @@ export default function SuidobashiPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>

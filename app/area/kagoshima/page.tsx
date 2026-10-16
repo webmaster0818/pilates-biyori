@@ -153,7 +153,7 @@ const studios = [
     price: '月4回 15,400円〜',
     trial: '体験レッスン 3,000円',
     features: ['中央駅前', '2店舗展開', '少人数制', 'レンタル無料'],
-    description: '鹿児島中央駅前の少人数制マシンピラティススタジオです。天文館店と合わせて鹿児島に2店舗展開で予約が取りやすいです。4名以下の少人数制で丁寧な指導です。レンタルウェア・ソックス無料で手ぶらで参加可能です。',
+    description: '鹿児島中央駅前の少人数制マシンピラティススタジオです。天文館店と合わせて鹿児島に2店舗を展開しており、予約が取りやすくなっています。4名以下の少人数制で丁寧な指導です。レンタルウェア・ソックス無料で手ぶらで参加可能です。',
     access: 'JR「鹿児島中央駅」すぐ',
     address: '鹿児島県鹿児島市（鹿児島中央駅前・詳細は公式サイトでご確認ください）',
     popularPlan: {
@@ -219,7 +219,7 @@ const faqs = [
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
+    answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -399,7 +399,7 @@ export default function KagoshimaPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>

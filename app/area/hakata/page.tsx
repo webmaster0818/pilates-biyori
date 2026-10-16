@@ -140,7 +140,7 @@ const studios = [
     price: '月2回 15,000円〜',
     trial: '体験レッスン 4,500円',
     features: ['完全パーソナル', 'マシン完備', '福岡赤坂', '月謝制'],
-    description: '完全プライベートのマシンピラティス専門スタジオです。福岡市赤坂エリアに位置し、博多からも地下鉄でアクセスしやすいです。一人ひとりの目的・体力に合わせたオーダーメイドレッスンです。月謝制で1レッスン6,250円〜です。',
+    description: '完全プライベートのマシンピラティス専門スタジオです。福岡市赤坂エリアに位置し、博多からも地下鉄でアクセスできます。一人ひとりの目的・体力に合わせたオーダーメイドレッスンです。月謝制で1レッスン6,250円〜です。',
     access: '福岡市地下鉄空港線「赤坂駅」周辺 / 博多駅から地下鉄でアクセス可',
     address: '福岡県福岡市中央区赤坂エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
@@ -256,7 +256,7 @@ const faqs = [
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
+    answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。最低2ヶ月は継続することをおすすめします。',
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
@@ -440,7 +440,7 @@ export default function HakataPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>

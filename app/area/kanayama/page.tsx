@@ -264,7 +264,7 @@ const faqs = [
   },
   {
     question: 'セルフでピラティスの練習ができるスタジオはありますか？',
-    answer: 'PPPスタジオはセルフフリーピラティスの通い放題プランがあります。パーソナルレッスンで学んだ内容を自分で復習できるので上達が早いです。',
+    answer: 'PPPスタジオはセルフフリーピラティスの通い放題プランがあります。パーソナルレッスンで学んだ内容をご自身で復習できるため、上達につながりやすくなります。',
   },
   {
     question: '名古屋駅や栄からも通えますか？',
@@ -272,7 +272,7 @@ const faqs = [
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。週1〜2回のペースで最低2〜3ヶ月の継続がおすすめです。まずは体験レッスンで始めてみることをおすすめします。',
+    answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。週1〜2回のペースで最低2〜3ヶ月の継続がおすすめです。まずは体験レッスンで始めてみることをおすすめします。',
   },
 ]
 
@@ -439,7 +439,7 @@ export default function KanayamaPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。名古屋の夏は特に多めにご持参ください。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>

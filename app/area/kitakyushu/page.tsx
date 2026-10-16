@@ -117,10 +117,10 @@ const faqs = [
   { question: '男性が通えるスタジオはありますか？', answer: 'CLUB PILATES小倉店とピラティススタジオDEP、Heart&Body Studio Leadは男性も受講可能です。' },
   { question: '体験レッスンは何を持っていけばいい？', answer: '動きやすい服装、飲み物、フェイスタオル、滑り止め付き靴下があれば可能です。CLUB PILATESとRintosullは無料体験を実施中です。' },
   { question: '車で通えるスタジオはありますか？', answer: 'pilates Kイオンモール八幡東店は駐車場無料です。スターピラティスはセントシティ地下駐車場3時間無料です。他のスタジオも周辺にコインパーキングがあります。' },
-  { question: 'どのくらいの頻度で通えばいい？', answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすいです。最低2〜3ヶ月の継続が大切です。' },
+  { question: 'どのくらいの頻度で通えばいい？', answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回に増やすと、効果を実感しやすくなります。最低2〜3ヶ月の継続が大切です。' },
   { question: '小倉駅から近いスタジオは？', answer: 'スターピラティスは小倉駅直結です。CLUB PILATES・Rintosullも小倉駅周辺にあり、徒歩圏内でアクセス良好です。' },
   { question: 'パーソナルレッスンが受けられるスタジオは？', answer: 'ピラティススタジオDEPは理学療法士による完全マンツーマンレッスンです。CLUB PILATESもプライベートレッスンを提供しています（料金は店舗で確認）。' },
-  { question: 'ピラティスはどのくらいで効果が出る？', answer: '個人差はありますが、2ヶ月を過ぎた頃から効果を実感する方が多いです。姿勢改善は比較的早く、ボディメイクは3〜6ヶ月の継続が目安です。' },
+  { question: 'ピラティスはどのくらいで効果が出る？', answer: '個人差はありますが、2ヶ月を過ぎた頃から効果を実感される方が多くなっています。姿勢改善は比較的早く、ボディメイクは3〜6ヶ月の継続が目安です。' },
 ]
 
 export default function KitakyushuPage() {
@@ -214,7 +214,7 @@ export default function KitakyushuPage() {
             <div className="space-y-6">
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">小倉駅と八幡エリアの移動時間に注意</h3>
-                <p className="text-warm-600 leading-relaxed">北九州市は東西に広く、小倉と八幡では車で30分以上離れている場合があります。通勤・通学の動線上にあるスタジオを選ぶと、長く続けやすいです。JR鹿児島本線で小倉〜八幡間は約15分ですが、駅からの距離もご確認ください。</p>
+                <p className="text-warm-600 leading-relaxed">北九州市は東西に広く、小倉と八幡では車で30分以上離れている場合があります。通勤・通学の動線上にあるスタジオを選ぶと、長く続けやすくなります。JR鹿児島本線で小倉〜八幡間は約15分ですが、駅からの距離もご確認ください。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">駐車場の有無を事前チェック</h3>
@@ -222,7 +222,7 @@ export default function KitakyushuPage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件をしっかり確認</h3>
-                <p className="text-warm-600 leading-relaxed">入会金無料や初月割引などのキャンペーンを利用する場合、最低契約期間（通常3〜6ヶ月）が設定されることが多いです。途中解約時の違約金についても事前に確認しておくと安心です。</p>
+                <p className="text-warm-600 leading-relaxed">入会金無料や初月割引などのキャンペーンを利用する場合、最低契約期間（通常3〜6ヶ月）が設定されるのが一般的です。途中解約時の違約金についても事前に確認しておくと安心です。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">博多・天神エリアとの比較も検討を</h3>
@@ -244,7 +244,7 @@ export default function KitakyushuPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
@@ -359,7 +359,7 @@ export default function KitakyushuPage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">予算を決める</h3></div>
-                <p className="text-warm-600 leading-relaxed">北九州の料金相場はグループ月4回で5,500円〜14,190円と幅広いです。</p>
+                <p className="text-warm-600 leading-relaxed">北九州の料金相場は、グループ月4回で5,500円〜14,190円と幅があります。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div>

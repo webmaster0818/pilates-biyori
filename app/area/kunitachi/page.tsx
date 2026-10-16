@@ -196,7 +196,7 @@ const faqs = [
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に変わります。COCOLANCE国立店のパーソナルレッスンなら効率的にボディメイクが可能です。2〜3ヶ月の継続で効果を実感する方が多いです。',
+    answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質に変わります。COCOLANCE国立店のパーソナルレッスンなら効率的にボディメイクが可能です。2〜3ヶ月の継続で効果を実感される方が多くなっています。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
@@ -216,7 +216,7 @@ const faqs = [
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '個人差はありますが、2ヶ月を過ぎた頃から姿勢改善や体の変化を実感する方が多いです。週1〜2回のペースで最低2〜3ヶ月は継続することをおすすめします。',
+    answer: '個人差はありますが、2ヶ月を過ぎた頃から姿勢改善や体の変化を実感される方が多くなっています。週1〜2回のペースで最低2〜3ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -352,7 +352,7 @@ export default function KunitachiPage() {
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>だとフォーム確認がしやすいです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>だとフォームを確認しやすくなります。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>zen placeはウェアレンタルあり</strong>で手ぶらで参加可能です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。</span></li>
                   </ul>

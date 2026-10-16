@@ -86,15 +86,15 @@ const studios = [
 ]
 
 const faqs = [
-  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '問題ありません。西新エリアのピラティススタジオは初心者歓迎のスタジオがほとんどです。CLUB PILATESはレベル別クラス、ピラティススタジオ Liveは少人数制、Rintosullは体験0円で始めやすいです。' },
+  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '問題ありません。西新エリアのピラティススタジオは初心者歓迎のスタジオがほとんどです。CLUB PILATESはレベル別クラス、ピラティススタジオ Liveは少人数制、Rintosullは体験0円と、いずれも始めやすい体制です。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷調整がしやすく初心者におすすめです。西新ではCLUB PILATESやRintosullでマシンピラティスが受けられます。' },
-  { question: '西新エリアの料金相場は？', answer: 'グループレッスン月4回で12,000円〜15,000円程度です。Rintosullは1回2,200円〜の都度払いも可能です。体験レッスンは無料〜500円が多いです。' },
+  { question: '西新エリアの料金相場は？', answer: 'グループレッスン月4回で12,000円〜15,000円程度です。Rintosullは1回2,200円〜の都度払いも可能です。体験レッスンは無料〜500円が中心です。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。ピラティスは継続が大切です。' },
   { question: 'ピラティスで痩せますか？', answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。最低2〜3ヶ月は継続することをおすすめします。' },
-  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。マットやタオルはスタジオでレンタルできることが多いです。' },
+  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。マットやタオルは、スタジオでレンタルできる場合が一般的です。' },
   { question: 'ピラティスとヨガの違いは？', answer: 'ピラティスは体幹（コア）強化、ヨガは柔軟性とリラックスが中心です。目的に合わせてお選びください。' },
   { question: '肩こりや腰痛は改善しますか？', answer: '姿勢の改善により、肩こりや腰痛の原因へのアプローチが期待できます。デスクワークの方にもおすすめです。' },
-  { question: 'どのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。継続が大切です。' },
+  { question: 'どのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。継続が大切です。' },
   { question: 'パーソナルとグループ、どちらがおすすめ？', answer: 'パーソナルは効果が出やすく、グループは安く楽しく続けられます。CLUB PILATESではどちらも選択可能です。' },
 ]
 
@@ -259,7 +259,7 @@ export default function NishijinPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
@@ -354,7 +354,7 @@ export default function NishijinPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感できる方が多いです。
+                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感される方が多くみられます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">

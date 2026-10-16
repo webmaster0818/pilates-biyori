@@ -46,7 +46,7 @@ const studios = [
     description: '全国展開の大手ピラティススタジオです。名古屋市栄エリアに展開しています。マットピラティスからマシンピラティスまで豊富なレッスンメニューを用意しています。1回あたり約2,125円〜とリーズナブルな価格設定です。地下鉄東山線・名城線「栄駅」から好アクセスです。経験豊富なエデュケーターが一人ひとりに合わせた丁寧な指導を提供します。',
     access: '地下鉄東山線・名城線「栄駅」徒歩圏内',
     address: '愛知県名古屋市中区栄2丁目4-12 TOSHIN HONMACHIビル 5階',
-    popularPlan: { name: 'フリープラン', description: 'マット・マシンどちらも受講可能な人気プランです。栄の中心で通いやすいです。', price: '1回約2,125円〜（税込）' },
+    popularPlan: { name: 'フリープラン', description: 'マット・マシンどちらも受講可能な人気プランです。栄の中心に位置し、通いやすい立地です。', price: '1回約2,125円〜（税込）' },
     options: ['マットグループレッスン', 'マシングループレッスン', 'プライベートレッスン（1回 9,900円〜）', 'ウェアレンタル（月額 2,200円）'],
     userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'] },
     basicInfo: { hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00', closed: '不定休', facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'ウォーターサーバー'] },
@@ -73,7 +73,7 @@ const studios = [
     price: '月4回 8,800円〜',
     trial: '体験レッスンあり',
     features: ['女性専用', 'マシンピラティス', '割安', 'LAVA系列'],
-    description: '女性専用のマシンピラティススタジオです。ホットヨガLAVA系列が手がけるブランドで信頼性が高いです。月4回8,800円〜という手頃な価格設定が魅力です。栄駅から徒歩圏内で通いやすく、初心者にもおすすめです。リフォーマーを使った本格的なマシンピラティスが気軽に始められます。',
+    description: '女性専用のマシンピラティススタジオです。ホットヨガLAVA系列が手がけるブランドで、運営面の信頼性があります。月4回8,800円〜という手頃な価格設定が魅力です。栄駅から徒歩圏内で通いやすく、初心者にもおすすめです。リフォーマーを使った本格的なマシンピラティスが気軽に始められます。',
     access: '地下鉄東山線・名城線「栄駅」徒歩圏内',
     address: '愛知県名古屋市中区錦3-24-4 サンシャインサカエ4F',
     popularPlan: { name: '月4回プラン', description: 'マシンピラティス月4回です。割安な人気プランです。', price: '月4回 8,800円〜（税込）' },
@@ -104,10 +104,10 @@ const faqs = [
   { question: '栄エリアの料金相場は？', answer: 'グループレッスンは月4回8,800円〜13,420円程度です。zen place pilatesは1回約2,125円〜、Rintosullは月4回8,800円〜とリーズナブルです。パーソナルレッスンは1回8,000円〜が相場です。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回（月4〜8回）がおすすめです。慣れてきたら週2〜3回が目安です。継続が大切です。' },
   { question: 'ピラティスで痩せますか？', answer: '基礎代謝が上がり、太りにくい体質づくりにつながります。最低2〜3ヶ月は継続することをおすすめします。食事管理を並行すると、より効果的です。' },
-  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルはスタジオでレンタルできることが多いです。' },
+  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルは、スタジオでレンタルできる場合が一般的です。' },
   { question: 'ピラティスとヨガの違いは？', answer: 'ピラティスは体幹（コア）強化に特化、ヨガは柔軟性とリラックスが中心です。目的に合わせてお選びください。' },
   { question: '肩こりや腰痛は改善しますか？', answer: '姿勢の改善により、肩こりや腰痛の原因へのアプローチが期待できます。デスクワークが多い方にもおすすめです。' },
-  { question: 'どのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。継続が何より大切です。' },
+  { question: 'どのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。継続が何より大切です。' },
   { question: 'パーソナルとグループ、どちらがおすすめ？', answer: 'パーソナルは効果が出やすく短期集中に向いています。グループは安く楽しく続けられます。栄エリアではPilates Meeがパーソナル専門、ピラティスKやRintosullがグループ対応です。' },
 ]
 
@@ -240,7 +240,7 @@ export default function SakaePage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
@@ -301,7 +301,7 @@ export default function SakaePage() {
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">おすすめの期間・頻度</h2>
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
-              <p className="text-warm-600 leading-relaxed mb-6">週1〜2回からスタートがおすすめです。最低2〜3ヶ月継続で効果を実感できる方が多いです。</p>
+              <p className="text-warm-600 leading-relaxed mb-6">週1〜2回からスタートがおすすめです。最低2〜3ヶ月の継続で効果を実感される方が多くなっています。</p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。</p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理の方</h3>
@@ -346,7 +346,7 @@ export default function SakaePage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">失敗しないスタジオの選び方</h2>
             <div className="space-y-8">
-              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span><h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3></div><p className="text-warm-600 leading-relaxed">ダイエット、姿勢改善、体幹強化、肩こり腰痛改善など、目的に応じてスタジオをお選びください。パーソナルなら短期集中、グループなら楽しく継続がしやすいです。</p></div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span><h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3></div><p className="text-warm-600 leading-relaxed">ダイエット、姿勢改善、体幹強化、肩こり腰痛改善など、目的に応じてスタジオをお選びください。パーソナルであれば短期集中、グループであれば楽しく継続できる点が特長です。</p></div>
               <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">予算を決める</h3></div><p className="text-warm-600 leading-relaxed">栄エリアの料金相場はグループ月4回で8,800円〜13,420円程度です。パーソナルは1回8,000円〜が目安です。無理なく継続できる予算を決めることをおすすめします。</p></div>
               <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。ピラティスKは体験0円、zen placeは3,300円で体験可能です。</p></div>
               <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div><p className="text-warm-600 leading-relaxed">栄は名古屋市の中心繁華街で、地下鉄東山線・名城線「栄駅」が利用可能です。名古屋最大の商業エリアなので、三越・パルコ・ラシックでの買い物やオアシス21の散策ついでにも通えて便利です。</p></div>

@@ -65,7 +65,7 @@ export default function Page() {
               人気スタジオの料金プランの比較
             </h1>
             <p className="text-warm-700 text-sm md:text-base leading-relaxed mt-4">
-              滋賀県南部、JR琵琶湖線・草津線の交点、京阪神への通勤者も多いです。主要駅はJR草津駅です。本ページでは草津エリアで公式情報をもとに比較できるピラティススタジオをまとめました。
+              滋賀県南部、JR琵琶湖線・草津線の交点に位置し、京阪神へ通勤される方も少なくありません。主要駅はJR草津駅です。本ページでは草津エリアで公式情報をもとに比較できるピラティススタジオをまとめました。
             </p>
           </div>
         </section>
@@ -230,7 +230,7 @@ export default function Page() {
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">エリアの特徴</h3>
-                  <p className="text-warm-700 text-sm leading-relaxed">滋賀県南部、JR琵琶湖線・草津線の交点、京阪神への通勤者も多いです。</p>
+                  <p className="text-warm-700 text-sm leading-relaxed">滋賀県南部、JR琵琶湖線・草津線の交点に位置し、京阪神へ通勤される方も少なくありません。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">徒歩・電車でのアクセス</h3>

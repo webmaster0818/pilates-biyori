@@ -243,7 +243,7 @@ const faqs = [
   },
   {
     question: '岡山駅から一番近いピラティススタジオはどこですか？',
-    answer: 'La pilates 岡山駅前店が、岡山駅より徒歩5分で最もアクセスが良いです。路面電車沿線のスタジオも多いので、公共交通機関での通いやすさも確認してみてください。',
+    answer: 'La pilates 岡山駅前店は岡山駅から徒歩5分で、最もアクセスに優れています。路面電車沿線のスタジオも多いので、公共交通機関での通いやすさも確認してみてください。',
   },
   {
     question: '岡山で一番安いピラティススタジオはどこですか？',
@@ -263,7 +263,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内でご確認ください。',
+    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルは、スタジオでレンタルできる場合が一般的です。詳細は各スタジオの体験レッスン案内でご確認ください。',
   },
   {
     question: '運動が苦手でも大丈夫ですか？',
@@ -275,7 +275,7 @@ const faqs = [
   },
   {
     question: '倉敷方面からでも通えるスタジオはありますか？',
-    answer: 'ピラティスK 岡山店は岡山駅周辺に位置しており、JR山陽本線で倉敷からもアクセスしやすいです。ピラティスK 岡山店は無料駐車場25台完備なので、お車での通いも便利です。',
+    answer: 'ピラティスK 岡山店は岡山駅周辺に位置しており、JR山陽本線で倉敷からもアクセスできます。ピラティスK 岡山店は無料駐車場25台完備なので、お車での通いも便利です。',
   },
 ]
 
@@ -442,7 +442,7 @@ export default async function OkayamaAreaPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
@@ -508,7 +508,7 @@ export default async function OkayamaAreaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・好アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  岡山駅・表町エリアから徒歩圏内です。路面電車沿線のスタジオも多く、通いやすいです。
+                  岡山駅・表町エリアから徒歩圏内です。路面電車沿線のスタジオも多く、通いやすい環境が整っています。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• La pilates 岡山駅前店（岡山駅徒歩5分）</li>
@@ -528,7 +528,7 @@ export default async function OkayamaAreaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感できる方が多いです。
+                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感される方が多くみられます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">

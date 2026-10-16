@@ -35,7 +35,7 @@ const studios = [
     address: '大阪府大阪市北区梅田1丁目12-17 梅田スクエアビル 10階',
     popularPlan: {
       name: 'フリープラン（月4回）',
-      description: 'マット・マシンどちらも受講可能な人気プランです。大阪最大の拠点で通いやすいです。',
+      description: 'マット・マシンどちらも受講可能な人気プランです。大阪最大の拠点で、通いやすい立地です。',
       price: '月4回 13,200円（税込）',
     },
     options: [
@@ -155,7 +155,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内でご確認ください。',
+    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルは、スタジオでレンタルできる場合が一般的です。詳細は各スタジオの体験レッスン案内でご確認ください。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
@@ -321,7 +321,7 @@ export default function UmedaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感できる方が多いです。
+                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感される方が多くみられます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
@@ -346,7 +346,7 @@ export default function UmedaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜12,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  グループレッスンが中心です。初心者向けの基本的なレッスンが多いです。
+                  グループレッスンが中心です。初心者向けの基本的なレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Pilates Studio Harmony</li>
@@ -468,7 +468,7 @@ export default function UmedaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">梅田の地下街は複雑 ─ 地上ルートも確認を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  梅田エリアは地下街（ホワイティうめだ・ディアモール大阪など）が広大で、初めての方は迷いやすいです。スタジオへのアクセスは地上ルートも事前に確認しておくと安心です。阪急梅田駅からNU茶屋町方面、JR大阪駅から北新地方面などエリアによってアクセスの便が変わります。
+                  梅田エリアは地下街（ホワイティうめだ・ディアモール大阪など）が広大なため、初めての方は道に迷いやすい点にご注意ください。スタジオへのアクセスは地上ルートも事前に確認しておくと安心です。阪急梅田駅からNU茶屋町方面、JR大阪駅から北新地方面などエリアによってアクセスの便が変わります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -513,7 +513,7 @@ export default function UmedaPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>がマストです。ピラティスでは脚を大きく広げたり体をひねるポーズが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>がマストです。ピラティスでは、脚を大きく広げたり体をひねったりするポーズが多く含まれます。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体にフィットする服</strong>を選ぶとフォーム確認がしやすくなり、指導の効果が上がります。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル対応</strong>スタジオもあります。ピラティスKやthe SILKは手ぶら体験可能な場合があります。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>ご参加ください。マシンのバネやストラップに引っかかる危険があります。</span></li>

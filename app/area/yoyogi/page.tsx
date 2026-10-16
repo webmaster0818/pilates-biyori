@@ -65,7 +65,7 @@ const studios = [
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['新宿駅徒歩3分', '代々木駅徒歩8分', '男性利用可', '全国他店利用'],
-    description: 'ピラティス専門の大手スタジオです。新宿駅ミライナタワー改札から徒歩3分、代々木駅からも徒歩圏内です。マットグループ・マシングループ・プライベートの3タイプから選べます。全国150店舗以上で他店利用可能で、ライフスタイルに合わせて通いやすいです。',
+    description: 'ピラティス専門の大手スタジオです。新宿駅ミライナタワー改札から徒歩3分、代々木駅からも徒歩圏内です。マットグループ・マシングループ・プライベートの3タイプから選べます。全国150店舗以上で他店利用が可能なため、ライフスタイルに合わせて通うことができます。',
     access: 'JR「新宿駅」ミライナタワー改札 徒歩3分 / 東京メトロ「新宿三丁目駅」E6出口 徒歩1分 / JR「代々木駅」徒歩8分',
     address: '東京都新宿区新宿4丁目1-22 新宿コムロビル 2階',
     popularPlan: {
@@ -320,7 +320,7 @@ const faqs = [
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。',
+    answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。最低2ヶ月は継続することをおすすめします。',
   },
 ]
 
@@ -500,7 +500,7 @@ export default function YoyogiPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>

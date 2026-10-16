@@ -273,7 +273,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルはスタジオでレンタルできることが多いです。詳細は各スタジオの体験レッスン案内でご確認ください。',
+    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルは、スタジオでレンタルできる場合が一般的です。詳細は各スタジオの体験レッスン案内でご確認ください。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
@@ -450,7 +450,7 @@ export default function NagoyaAreaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感できる方が多いです。
+                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感される方が多くみられます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
@@ -574,7 +574,7 @@ export default function NagoyaAreaPage() {
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">地元密着型スタジオ</h3>
                   <p className="text-3xl font-bold text-warm-800 mb-2">要問合せが多い</p>
-                  <p className="text-sm text-warm-600">名古屋の特徴として、REBORN・アステル・ナグスタジオ・Pilates Studio Treeなど地元スタジオは料金を公開していないケースが多いです。体験レッスンで直接確認するか、電話・メールで問い合わせるのが確実です。</p>
+                  <p className="text-sm text-warm-600">名古屋の特徴として、REBORN・アステル・ナグスタジオ・Pilates Studio Treeなど地元スタジオは、料金を公開していないケースが大半です。体験レッスンで直接確認するか、電話・メールで問い合わせるのが確実です。</p>
                 </div>
               </div>
               <div className="bg-white rounded-lg p-5 border border-warm-200">
@@ -613,7 +613,7 @@ export default function NagoyaAreaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">料金非公開スタジオは体験で確認を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  名古屋の地元スタジオは料金をWebサイトに公開していないケースが多いです。「要問合せ」のスタジオは、まず体験レッスンを申し込んで料金プランの詳細を確認するのがおすすめです。体験時にキャンペーン情報も聞いておくことをおすすめします。
+                  名古屋の地元スタジオは、料金をWebサイトで公開していないケースが大半です。「要問合せ」のスタジオは、まず体験レッスンを申し込んで料金プランの詳細を確認するのがおすすめです。体験時にキャンペーン情報も聞いておくことをおすすめします。
                 </p>
               </div>
             </div>

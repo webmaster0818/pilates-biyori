@@ -113,7 +113,7 @@ const studios = [
     price: '料金は店舗により異なる（公式の店舗ページで確認）',
     trial: '体験レッスン 無料',
     features: ['アメリカ発', '世界最大級', 'グループ＆プライベート', '地下鉄直結'],
-    description: 'アメリカ発の世界最大級ピラティススタジオチェーンです。地下鉄さっぽろ駅15番出口直結で通いやすいです。グループレッスンからプライベートレッスンまで幅広く対応しています。全米No.1のピラティスメソッドで、初心者から上級者まで満足できるプログラムを提供しています。',
+    description: 'アメリカ発の世界最大級ピラティススタジオチェーンです。地下鉄さっぽろ駅15番出口に直結しており、通いやすい立地です。グループレッスンからプライベートレッスンまで幅広く対応しています。全米No.1のピラティスメソッドで、初心者から上級者まで満足できるプログラムを提供しています。',
     access: '地下鉄東豊線さっぽろ駅15番出口直結',
     address: '北海道札幌市北区北8条西1-3 さつきた8・1 A棟1F',
     popularPlan: {
@@ -528,7 +528,7 @@ export default async function SapporoAreaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感できる方が多いです。
+                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感される方が多くみられます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
@@ -659,7 +659,7 @@ export default async function SapporoAreaPage() {
               </div>
               <div className="bg-white rounded-lg p-5 border border-warm-200">
                 <h3 className="font-bold text-warm-900 mb-3">入会金・体験レッスン費用</h3>
-                <p className="text-sm text-warm-600">入会金は10,000円〜22,000円が相場です。キャンペーン期間中は0円のスタジオも多いです。体験レッスンはCLUB PILATESが無料、zen placeは1,000円〜、La pilatesは2,000円で体験可能です。まずは複数スタジオの体験を回って比較するのがおすすめです。</p>
+                <p className="text-sm text-warm-600">入会金は10,000円〜22,000円が相場です。キャンペーン期間中は0円になるスタジオもあります。体験レッスンはCLUB PILATESが無料、zen placeは1,000円〜、La pilatesは2,000円で体験可能です。まずは複数スタジオの体験を回って比較するのがおすすめです。</p>
               </div>
             </div>
           </div>

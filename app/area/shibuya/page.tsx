@@ -215,12 +215,12 @@ const faqs = [
   { question: 'ピラティス初心者でも大丈夫ですか？', answer: '問題ありません。渋谷エリアのスタジオはレベル別クラスがあり初心者も安心です。Rintosullはスクリーン指導で初心者に特におすすめです。CLUB PILATESもレベル別クラスが充実しています。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンは専用リフォーマーを使ったトレーニングです。マシンは初心者でもフォームが安定しやすくおすすめです。渋谷エリアはマシン専門スタジオが豊富です。' },
   { question: '渋谷エリアの料金相場は？', answer: 'グループ月4回で8,800円〜15,280円が相場です。Rintosullは8,800円〜で最安クラス、zen placeは9,625円〜です。パーソナルはピラティスミラーの30分4,400円〜が手頃です。' },
-  { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回から始めることをおすすめします。慣れたら週2〜3回に増やすとより効果的です。ELEMENTの30分レッスンなら忙しい方も週2回は続けやすいです。' },
+  { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回から始めることをおすすめします。慣れたら週2〜3回に増やすとより効果的です。ELEMENTの30分レッスンであれば、忙しい方も週2回は続けることができます。' },
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルが鍛えられ基礎代謝が上がり太りにくい体質づくりにつながります。最低2〜3ヶ月は継続することをおすすめします。CALDOのホット環境なら発汗効果も期待できます。' },
-  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。ウェアレンタルがあるスタジオも多いです。CLUB PILATESは無料体験があるので手ぶらで気軽に始められます。' },
+  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。ウェアレンタルを用意しているスタジオもあります。CLUB PILATESは無料体験があるので手ぶらで気軽に始められます。' },
   { question: 'ピラティスとヨガの違いは？', answer: 'ピラティスは体幹強化・姿勢改善が中心、ヨガは柔軟性とリラックスが中心です。NATURAglam渋谷なら両方受けられます。' },
   { question: '男性でも通えるスタジオはありますか？', answer: 'zen place pilates渋谷、CLUB PILATES渋谷、ELEMENT渋谷は男性も利用可能です。the SILK、ピラティスK、Rintosull、ピラティスミラー、YUZU、NATURAglam は女性専用です。' },
-  { question: 'どのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。週2回なら1ヶ月半ほどで変化を感じる方もいます。パーソナルレッスンの方がより早く効果を実感しやすいです。' },
+  { question: 'どのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。週2回なら1ヶ月半ほどで変化を感じる方もいます。パーソナルレッスンの方が、より早く効果を実感しやすくなります。' },
   { question: '無料体験ができるスタジオはありますか？', answer: 'CLUB PILATES渋谷は無料体験レッスンがあります。zen placeやthe SILKなども体験レッスンを用意しています。まずは体験レッスンへの参加をおすすめします。' },
 ]
 
@@ -381,7 +381,7 @@ export default function ShibuyaPage() {
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">健康管理目的の方</h3>
               <p className="text-warm-600 leading-relaxed">
-                週1回のペースで無理なく継続することをおすすめします。ELEMENTの30分レッスンなら忙しい方でも続けやすいです。
+                週1回のペースで無理なく継続することをおすすめします。ELEMENTの30分レッスンであれば、忙しい方でも続けることができます。
               </p>
             </div>
           </div>
@@ -504,7 +504,7 @@ export default function ShibuyaPage() {
               </div>
               <div className="bg-white rounded-lg p-5 border border-warm-200">
                 <h3 className="font-bold text-warm-900 mb-3">入会金・体験レッスン費用</h3>
-                <p className="text-sm text-warm-600">入会金は5,000円〜33,000円が相場ですが、キャンペーン期間中は無料になるスタジオも多いです。体験レッスンはCLUB PILATESが無料、その他は500円〜3,850円程度です。まずは体験レッスンで雰囲気を確認するのがおすすめです。</p>
+                <p className="text-sm text-warm-600">入会金は5,000円〜33,000円が相場ですが、キャンペーン期間中は無料になるスタジオもあります。体験レッスンはCLUB PILATESが無料、その他は500円〜3,850円程度です。まずは体験レッスンで雰囲気を確認するのがおすすめです。</p>
               </div>
             </div>
           </div>
@@ -558,7 +558,7 @@ export default function ShibuyaPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>

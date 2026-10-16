@@ -184,7 +184,7 @@ const faqs = [
   },
   {
     question: '明大前から通いやすいエリアは？',
-    answer: '明大前は京王線と京王井の頭線の交差駅です。京王線で笹塚・代田橋方面、井の頭線で下北沢・渋谷方面のスタジオにもアクセスしやすいです。沿線で複数のスタジオを比較検討するのもおすすめです。',
+    answer: '明大前は京王線と京王井の頭線の交差駅です。京王線で笹塚・代田橋方面、井の頭線で下北沢・渋谷方面のスタジオにもアクセスできます。沿線で複数のスタジオを比較検討するのもおすすめです。',
   },
 ]
 
@@ -318,7 +318,7 @@ export default function MeidaimaePage() {
             <div className="space-y-6">
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">京王線・井の頭線の乗り換えを活用する</h3>
-                <p className="text-warm-600 leading-relaxed">明大前は京王線と京王井の頭線の乗り換え駅です。近隣の笹塚、代田橋、下北沢方面にもスタジオがあるので、沿線を活かして比較検討すると選択肢が広がります。通勤経路上のスタジオを選ぶと継続しやすいです。</p>
+                <p className="text-warm-600 leading-relaxed">明大前は京王線と京王井の頭線の乗り換え駅です。近隣の笹塚、代田橋、下北沢方面にもスタジオがあるので、沿線を活かして比較検討すると選択肢が広がります。通勤経路上のスタジオを選ぶと、継続しやすくなります。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">大学の授業期間は周辺が混雑することも</h3>
@@ -326,7 +326,7 @@ export default function MeidaimaePage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの契約条件を確認</h3>
-                <p className="text-warm-600 leading-relaxed">入会キャンペーンを利用する場合は最低契約期間（通常3〜6ヶ月）が設定されることが多いです。自分のライフスタイルに合った期間かどうかをご確認ください。</p>
+                <p className="text-warm-600 leading-relaxed">入会キャンペーンを利用する場合は、最低契約期間（通常3〜6ヶ月）が設定されるのが一般的です。自分のライフスタイルに合った期間かどうかをご確認ください。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも視野に入れよう</h3>
@@ -347,14 +347,14 @@ export default function MeidaimaePage() {
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは靴下着用必須のスタジオが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用を必須とするスタジオが大半です。</span></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方がフォーム確認しやすいです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方がフォームを確認しやすくなります。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。事前にご確認ください。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。</span></li>
                   </ul>
@@ -399,7 +399,7 @@ export default function MeidaimaePage() {
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span>
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
-                <p className="text-warm-600 leading-relaxed">明大前は京王線と井の頭線の2路線が利用でき、新宿にも渋谷にもアクセス良好です。通勤・通学経路上のスタジオを選ぶと継続しやすいです。</p>
+                <p className="text-warm-600 leading-relaxed">明大前は京王線と井の頭線の2路線が利用でき、新宿にも渋谷にもアクセス良好です。通勤・通学経路上のスタジオを選ぶと、継続しやすくなります。</p>
               </div>
             </div>
           </div>

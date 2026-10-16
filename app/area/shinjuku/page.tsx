@@ -379,7 +379,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルはスタジオでレンタルできることが多いです。ELEMENTやCLUB PILATESなど手ぶらで通えるスタジオもあります。詳細は各スタジオの体験レッスン案内でご確認ください。',
+    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルは、スタジオでレンタルできる場合が一般的です。ELEMENTやCLUB PILATESなど手ぶらで通えるスタジオもあります。詳細は各スタジオの体験レッスン案内でご確認ください。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
@@ -578,7 +578,7 @@ export default function ShinjukuPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感できる方が多いです。
+                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感される方が多くみられます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
@@ -713,7 +713,7 @@ export default function ShinjukuPage() {
               </div>
               <div className="bg-white rounded-lg p-5 border border-warm-200">
                 <h3 className="font-bold text-warm-900 mb-3">入会金・体験レッスン費用</h3>
-                <p className="text-sm text-warm-600">入会金は5,000円〜30,000円台が一般的ですが、キャンペーン期間中は0円になるケースが多いです。体験レッスンはCLUB PILATESが無料、zen placeは1,000円〜、新規オープン店舗は特別価格で体験できることもあります。複数スタジオで体験して比較するのが最適です。</p>
+                <p className="text-sm text-warm-600">入会金は5,000円〜30,000円台が一般的ですが、キャンペーン期間中は0円になるケースも少なくありません。体験レッスンはCLUB PILATESが無料、zen placeは1,000円〜、新規オープン店舗は特別価格で体験できることもあります。複数スタジオで体験して比較するのが最適です。</p>
               </div>
             </div>
           </div>
@@ -767,7 +767,7 @@ export default function ShinjukuPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが基本です。ゆったりしすぎる服はマシンに挟まる恐れがあるので避けることをおすすめします。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml以上）</strong>：レッスン中は想像以上に汗をかきます。水は必ずご持参ください。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用に1枚は必須です。マシン用タオルはスタジオ側で用意されることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用に1枚は必須です。マシン用タオルは、スタジオ側で用意されているのが一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>グリップソックス</strong>：マシンピラティスでは靴下着用が必須のスタジオがほとんどです。滑り止め付きのグリップソックスをご用意ください。</span></li>
                   </ul>
                 </div>

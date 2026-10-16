@@ -33,7 +33,7 @@ const studios = [
     address: '東京都目黒区東が丘2丁目12-20 リュウ フランシュビル B1階',
     popularPlan: {
       name: 'マットグループ月4回プラン',
-      description: 'マットグループレッスンを月4回受講できる人気プランです。駒沢大学駅から徒歩4分で通いやすいです。',
+      description: 'マットグループレッスンを月4回受講できる人気プランです。駒沢大学駅から徒歩4分の通いやすい立地です。',
       price: '月4回 9,625円〜（税込）',
     },
     options: [
@@ -229,7 +229,7 @@ const faqs = [
   },
   {
     question: '体験レッスンの持ち物は？',
-    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マシンピラティスでは靴下着用が必須のスタジオが多いので、滑り止め付きソックスがあると便利です。マットやタオルはスタジオでレンタルできることが多いです。',
+    answer: '基本的に動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マシンピラティスでは靴下着用が必須のスタジオが多いので、滑り止め付きソックスがあると便利です。マットやタオルは、スタジオでレンタルできる場合が一般的です。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
@@ -478,7 +478,7 @@ export default function KomazawaPage() {
                 <div>
                   <h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3>
                   <ul className="space-y-3 text-warm-600">
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすポーズが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスでは、脚を大きく動かすポーズが多く含まれます。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、フォームの確認がしやすく効果的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。事前にご確認ください。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあります。</span></li>

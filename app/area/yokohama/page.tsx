@@ -212,7 +212,7 @@ const studios = [
     price: '1回 6,600円〜（40分）',
     trial: '体験レッスン 無料（20分+カウンセリング）',
     features: ['女性専用', '完全個室', 'ハイブリッド型', '入会金無料'],
-    description: '女性専用・完全個室のパーソナルジムです。JR横浜駅北西口から徒歩5分です。マシンピラティスとウェイトトレーニングを組み合わせた「ハイブリッド型」で、効率的なボディメイクを実現しています。朝7時から夜23時まで営業で、忙しい方にも最適です。レンタルウェア・シューズ無料、入会金無料で始めやすいです。ダイエットコースではLINEでの栄養指導も提供しています。',
+    description: '女性専用・完全個室のパーソナルジムです。JR横浜駅北西口から徒歩5分です。マシンピラティスとウェイトトレーニングを組み合わせた「ハイブリッド型」で、効率的なボディメイクを実現しています。朝7時から夜23時まで営業で、忙しい方にも最適です。レンタルウェア・シューズが無料で入会金も無料のため、始めやすい料金設定です。ダイエットコースではLINEでの栄養指導も提供しています。',
     access: 'JR横浜駅 北西口 徒歩5分 / 西口 徒歩6分',
     address: '神奈川県横浜市神奈川区鶴屋町3丁目29-9 タクエー横浜西口第六ビル 8F Bフロア',
     popularPlan: {
@@ -307,7 +307,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルはスタジオでレンタルできることが多いです。the SILKやlafimo横浜東口店などは手ぶらで参加可能の体験レッスンも実施しています。',
+    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルは、スタジオでレンタルできる場合が一般的です。the SILKやlafimo横浜東口店などは手ぶらで参加可能の体験レッスンも実施しています。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
@@ -450,7 +450,7 @@ export default function YokohamaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  横浜駅から徒歩5分以内です。JR・東急・相鉄・市営地下鉄が利用可能で通いやすいです。
+                  横浜駅から徒歩5分以内です。JR・東急・相鉄・市営地下鉄を利用でき、通いやすい立地です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK（駅徒歩2分・地下街直結）</li>
@@ -471,7 +471,7 @@ export default function YokohamaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感できる方が多いです。
+                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感される方が多くみられます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
@@ -601,7 +601,7 @@ export default function YokohamaPage() {
               </div>
               <div className="bg-white rounded-lg p-5 border border-warm-200">
                 <h3 className="font-bold text-warm-900 mb-3">入会金・体験レッスン費用</h3>
-                <p className="text-sm text-warm-600">入会金は5,000円〜22,000円程度です。キャンペーン期間中は無料になることが多いです。体験レッスンは無料〜3,000円程度です。ピラティスKは体験無料、zen placeは1,000円〜です。横浜は駅周辺にスタジオが密集しているため、体験のはしごもしやすいエリアです。</p>
+                <p className="text-sm text-warm-600">入会金は5,000円〜22,000円程度です。キャンペーン期間中は無料になる場合が少なくありません。体験レッスンは無料〜3,000円程度です。ピラティスKは体験無料、zen placeは1,000円〜です。横浜は駅周辺にスタジオが密集しているため、体験のはしごもしやすいエリアです。</p>
               </div>
             </div>
           </div>
@@ -655,7 +655,7 @@ export default function YokohamaPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。伸縮性のある素材をお選びください。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>水分（500ml以上）</strong>：レッスン中の水分補給用です。持参が安心です。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシン用タオルはスタジオで用意されることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシン用タオルは、スタジオで用意されているのが一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>グリップソックス</strong>：マシンピラティスでは必須です。滑り止め付きをご持参ください。</span></li>
                   </ul>
                 </div>

@@ -243,11 +243,11 @@ const faqs = [
   },
   {
     question: '二条城観光のついでにピラティスは受けられますか？',
-    answer: '二条城周辺からは四条大宮方面のスタジオが近いです。STUDIO IVYやPilates MUSEは四条大宮駅から徒歩圏内です。観光と組み合わせて京都でのピラティス体験も楽しめます。',
+    answer: '二条城周辺からは、四条大宮方面のスタジオが近い距離にあります。STUDIO IVYやPilates MUSEは四条大宮駅から徒歩圏内です。観光と組み合わせて京都でのピラティス体験も楽しめます。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
-    answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。週1〜2回のペースで最低2〜3ヶ月の継続がおすすめです。まずは体験レッスンで自分に合うスタジオを見つけることをおすすめします。',
+    answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。週1〜2回のペースで最低2〜3ヶ月の継続がおすすめです。まずは体験レッスンで自分に合うスタジオを見つけることをおすすめします。',
   },
 ]
 
@@ -433,9 +433,9 @@ export default function NijoPage() {
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
-                <h3 className="text-lg font-bold text-warm-900 mb-3">京都の夏は暑く冬は寒いです。季節に合った通い方を</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-3">京都は夏の暑さ・冬の寒さが厳しい地域です。季節に合った通い方を</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  京都の盆地特有の気候で、夏は蒸し暑く冬は底冷えします。夏は汗をかきやすいので着替えやタオルを多めに持参です。冬は上着やマフラーを収納できるロッカーがあるかご確認ください。四条大宮エリアはアーケード街が近く、雨の日でも比較的歩きやすいです。
+                  京都の盆地特有の気候で、夏は蒸し暑く冬は底冷えします。夏は汗をかきやすいので着替えやタオルを多めに持参です。冬は上着やマフラーを収納できるロッカーがあるかご確認ください。四条大宮エリアはアーケード街が近く、雨の日でも比較的歩きやすい環境です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -467,7 +467,7 @@ export default function NijoPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>

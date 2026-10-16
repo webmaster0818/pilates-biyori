@@ -70,8 +70,8 @@ const faqs = [
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。靴下（滑り止め付き推奨）も用意しておくと安心です。' },
   { question: 'ピラティスとヨガの違いは何ですか？', answer: 'ピラティスは体幹強化・姿勢改善に特化しています。ヨガは柔軟性とリラックス重視です。目的に合わせてお選びください。' },
   { question: '男性でも通えるスタジオはありますか？', answer: '大津エリアには男性利用可のスタジオもあります。各スタジオの詳細は公式サイトでご確認ください。' },
-  { question: '無料で体験できるスタジオは？', answer: 'ピラティスKは無料体験を実施しているスタジオが多いです。各スタジオの最新キャンペーン情報をご確認ください。' },
-  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。' },
+  { question: '無料で体験できるスタジオは？', answer: 'ピラティスKをはじめ、無料体験を実施しているスタジオが多くあります。各スタジオの最新キャンペーン情報をご確認ください。' },
+  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。最低2ヶ月は継続することをおすすめします。' },
 ]
 
 export default function OtsuPage() {
@@ -157,7 +157,7 @@ export default function OtsuPage() {
                 </tbody>
               </table>
             </div>
-            <p className="text-warm-600 mt-4 text-sm leading-relaxed">大津は滋賀県の県庁所在地でJR・京阪の2路線が利用可能です。京都まで電車で10分という好アクセスもあり、大津と京都のスタジオを比較検討する方も多いです。料金は京都より若干リーズナブルな傾向です。</p>
+            <p className="text-warm-600 mt-4 text-sm leading-relaxed">大津は滋賀県の県庁所在地でJR・京阪の2路線が利用可能です。京都まで電車で10分というアクセスの良さもあり、大津と京都のスタジオを比較検討される方も少なくありません。料金は京都より若干リーズナブルな傾向です。</p>
           </div>
         </section>
         <section className="py-16 bg-white" id="cautions">
@@ -219,7 +219,7 @@ export default function OtsuPage() {
             <div className="space-y-8">
               <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span><h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3></div><p className="text-warm-600 leading-relaxed">ダイエット、姿勢改善、体幹強化など目的によって最適なスタジオは変わります。</p></div>
               <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">予算を決める</h3></div><p className="text-warm-600 leading-relaxed">大津の料金相場はグループ月4回で11,220円〜です（ピラティスK）。入会金やキャンペーンもご確認ください。</p></div>
-              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">複数のスタジオで体験レッスンを受けて比較することをおすすめします。体験当日入会で特典があるスタジオも多いです。</p></div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">複数のスタジオで体験レッスンを受けて比較することをおすすめします。体験当日の入会で特典を用意しているスタジオもあります。</p></div>
               <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div><p className="text-warm-600 leading-relaxed">自宅や職場からの距離、駅からの徒歩時間、営業時間をご確認ください。継続するには通いやすさが最も重要です。</p></div>
             </div>
           </div>

@@ -101,16 +101,16 @@ const studios = [
 ]
 
 const faqs = [
-  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '問題ありません。豊中エリアのスタジオはほとんどが初心者歓迎です。STANCEは少人数6人制で丁寧に見てもらえ、Rintosullは映像×インストラクターのハイブリッドレッスンで分かりやすいです。' },
+  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '問題ありません。豊中エリアのスタジオはほとんどが初心者歓迎です。STANCEは少人数6人制で丁寧に見てもらえ、Rintosullは映像×インストラクターのハイブリッドレッスンのため動きを理解しやすい形式です。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。豊中はマシン専門スタジオが充実しています。' },
   { question: '豊中のピラティスの料金相場は？', answer: 'グループ月4回で8,800円〜9,625円程度です。通い放題はRintosullが月額8,800円〜です。パーソナルは1回7,500円〜8,500円です。梅田に比べて全体的にリーズナブルです。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめです。慣れたら週2〜3回に増やすと効果的です。STANCEやRintosullの通い放題プランなら毎日でも通えます。' },
-  { question: 'ピラティスで痩せますか？', answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続で体の変化を実感する方が多いです。' },
+  { question: 'ピラティスで痩せますか？', answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続で体の変化を実感される方が多くなっています。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。zen placeはグループ体験1,000円、ピラティスミラーは2,200円で試せます。靴下（グリップソックス推奨）も忘れずにご用意ください。' },
   { question: '男性でも通えるスタジオはありますか？', answer: 'zen place豊中、studio Pilates remove、Doux pilates studioは男性も通えます。STANCE、ピラティスミラー、Rintosullは女性専用です。' },
   { question: '豊中駅と曽根駅、どちらが便利？', answer: '豊中駅にはzen placeとstudio Pilates removeがあり、曽根駅にはDoux pilates studioとSTANCEがあります。自宅からの最寄り駅で選ぶのがおすすめです。' },
   { question: '豊中は大阪空港に近いですが関係ありますか？', answer: '豊中市は大阪空港（伊丹空港）に近接していますが、スタジオは住宅地にあるため飛行機の騒音は気になりません。空港従事者の方も多く通っています。' },
-  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。姿勢改善は比較的早く、ボディメイクは3ヶ月程度の継続がおすすめです。' },
+  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。姿勢改善は比較的早く、ボディメイクは3ヶ月程度の継続がおすすめです。' },
 ]
 
 export default function ToyonakaPage() {
@@ -222,7 +222,7 @@ export default function ToyonakaPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              豊中は北摂エリアの住宅地で、梅田に比べて料金がリーズナブルです。特にパーソナルレッスンは1回7,500円〜と、都心部に比べてお手頃です。近隣の<Link href="/area/senri-chuo/" className="text-warm-700 underline hover:text-warm-900">千里中央</Link>や<Link href="/area/esaka/" className="text-warm-700 underline hover:text-warm-900">江坂</Link>エリアと比較検討する方も多いです。
+              豊中は北摂エリアの住宅地で、梅田に比べて料金がリーズナブルです。特にパーソナルレッスンは1回7,500円〜と、都心部に比べてお手頃です。近隣の<Link href="/area/senri-chuo/" className="text-warm-700 underline hover:text-warm-900">千里中央</Link>や<Link href="/area/esaka/" className="text-warm-700 underline hover:text-warm-900">江坂</Link>エリアと比較検討される方も少なくありません。
             </p>
           </div>
         </section>
@@ -237,7 +237,7 @@ export default function ToyonakaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">豊中駅と曽根駅でスタジオが分かれる</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  豊中エリアのスタジオは阪急宝塚線の「豊中駅」と「曽根駅」周辺に分かれています。zen placeとstudio Pilates removeは豊中駅、Doux pilates studioとSTANCEは曽根駅が最寄りです。自宅からの最寄り駅で選ぶと継続しやすいです。
+                  豊中エリアのスタジオは阪急宝塚線の「豊中駅」と「曽根駅」周辺に分かれています。zen placeとstudio Pilates removeは豊中駅、Doux pilates studioとSTANCEは曽根駅が最寄りです。自宅からの最寄り駅で選ぶと、継続しやすくなります。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -249,7 +249,7 @@ export default function ToyonakaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">住宅地ならではの落ち着いた環境</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  豊中は閑静な住宅地のため、スタジオも落ち着いた雰囲気が多いです。都心の喧騒を離れてリラックスしてレッスンに集中したい方に向いています。駐車場のあるスタジオもあるので、車で通いたい方は事前にご確認ください。
+                  豊中は閑静な住宅地のため、スタジオも落ち着いた雰囲気のところが大半です。都心の喧騒を離れてリラックスしてレッスンに集中したい方に向いています。駐車場のあるスタジオもあるので、車で通いたい方は事前にご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -275,7 +275,7 @@ export default function ToyonakaPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>

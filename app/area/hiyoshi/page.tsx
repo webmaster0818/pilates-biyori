@@ -110,7 +110,7 @@ const faqs = [
   { question: '男性でも通えるスタジオはありますか？', answer: 'zen place日吉、CLUB PILATES、YUZUは男性も通えます。Rintosullは女性専用です。' },
   { question: '日吉駅から近いスタジオは？', answer: 'zen placeが駅徒歩2分で最寄りです。CLUB PILATESが徒歩4分、YUZUが徒歩5分です。' },
   { question: 'ヨガとピラティスの両方やりたい場合は？', answer: 'Rintosullはプレミアムフリーフルタイム（18,800円）でLAVA等系列のヨガスタジオも全国で利用可能です。' },
-  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。最低2ヶ月は継続することをおすすめします。' },
+  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。最低2ヶ月は継続することをおすすめします。' },
 ]
 
 export default function HiyoshiPage() {
@@ -198,7 +198,7 @@ export default function HiyoshiPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              日吉は東急東横線と横浜市営グリーンラインが交差する学生と住民が多いエリアです。大手チェーンから新規オープンのパーソナルスタジオまでバランスよく揃っています。近隣の<Link href="/area/musashikosugi/" className="text-warm-700 underline hover:text-warm-900">武蔵小杉</Link>エリアと比較検討する方も多いです。
+              日吉は東急東横線と横浜市営グリーンラインが交差する学生と住民が多いエリアです。大手チェーンから新規オープンのパーソナルスタジオまでバランスよく揃っています。近隣の<Link href="/area/musashikosugi/" className="text-warm-700 underline hover:text-warm-900">武蔵小杉</Link>エリアと比較検討される方も少なくありません。
             </p>
           </div>
         </section>

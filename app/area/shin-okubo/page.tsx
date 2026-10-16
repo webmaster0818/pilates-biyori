@@ -158,7 +158,7 @@ const studios = [
     price: '月4回プランあり',
     trial: '体験レッスンあり',
     features: ['女性専用', '新宿西口駅前', 'LAVAグループ', '駅近'],
-    description: 'ホットヨガスタジオLAVAから生まれたマシンピラティス専門スタジオです。新宿西口駅前の好立地で通いやすいです。女性専用スタジオで安心して通えます。全国に続々スタジオ拡大中の人気スタジオです。専用のマシン（リフォーマー）を使用し、効率よく体幹を鍛え、身体の柔軟性アップを促します。',
+    description: 'ホットヨガスタジオLAVAから生まれたマシンピラティス専門スタジオです。新宿西口駅前の好立地で、通いやすい環境です。女性専用スタジオで安心して通えます。全国に続々スタジオ拡大中の人気スタジオです。専用のマシン（リフォーマー）を使用し、効率よく体幹を鍛え、身体の柔軟性アップを促します。',
     access: '新宿西口駅前',
     address: '東京都新宿区西新宿1-5-11 新宿三葉ビル 4F',
     popularPlan: {
@@ -288,7 +288,7 @@ const faqs = [
   },
   {
     question: '新大久保・新宿エリアのピラティススタジオの料金相場は？',
-    answer: '新大久保・新宿エリアのピラティススタジオの料金相場は、グループレッスンで月4回10,000円〜15,000円程度です。女性専用の音楽系スタジオは月4回13,000円〜15,000円、zen placeは月4回10,450円〜が目安です。体験レッスンは無料〜1,000円で受けられるスタジオが多いです。',
+    answer: '新大久保・新宿エリアのピラティススタジオの料金相場は、グループレッスンで月4回10,000円〜15,000円程度です。女性専用の音楽系スタジオは月4回13,000円〜15,000円、zen placeは月4回10,450円〜が目安です。体験レッスンは、無料〜1,000円で受けられるスタジオが中心です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -300,7 +300,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルはスタジオでレンタルできることが多いです。the SILKやピラティスKでは手ぶら体験が可能なスタジオもあります。詳細は各スタジオの体験レッスン案内でご確認ください。',
+    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルは、スタジオでレンタルできる場合が一般的です。the SILKやピラティスKでは手ぶら体験が可能なスタジオもあります。詳細は各スタジオの体験レッスン案内でご確認ください。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
@@ -308,7 +308,7 @@ const faqs = [
   },
   {
     question: 'ピラティスで肩こりや腰痛は改善しますか？',
-    answer: '改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。新大久保からすぐの新宿・高田馬場エリアにはデスクワーカーの方にも通いやすい駅近スタジオが多いです。',
+    answer: '改善が期待できます。ピラティスは姿勢改善に効果的で、正しい姿勢を身につけることで肩こりや腰痛の根本原因を解消できます。新大久保からすぐの新宿・高田馬場エリアには、デスクワーカーの方にも通いやすい駅近スタジオが集まっています。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -316,7 +316,7 @@ const faqs = [
   },
   {
     question: '新大久保駅周辺にピラティススタジオはありますか？',
-    answer: '新大久保駅の周辺（大久保通り・コリアタウン付近）には専門ピラティススタジオは少ないですが、JR山手線で1駅の新宿駅・高田馬場駅に多数のスタジオが集中しています。新大久保駅からは各駅わずか2〜3分、乗り換えなしでアクセスできるので、とても通いやすいです。',
+    answer: '新大久保駅の周辺（大久保通り・コリアタウン付近）には専門ピラティススタジオは少ないですが、JR山手線で1駅の新宿駅・高田馬場駅に多数のスタジオが集中しています。新大久保駅からは各駅わずか2〜3分で、乗り換えなしでアクセスできるため、通いやすい立地です。',
   },
 ]
 
@@ -518,7 +518,7 @@ export default function ShinOkuboAreaPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
@@ -563,7 +563,7 @@ export default function ShinOkuboAreaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">男女共用・少人数制</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  男性も可能です。夫婦やカップルでも通えます。全国150店舗相互利用で出張先でも続けやすいです。
+                  男性も可能です。夫婦やカップルでも通えます。全国150店舗で相互利用ができるため、出張先でも継続できます。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates 高田馬場店（月4回 10,450円〜）</li>
@@ -574,7 +574,7 @@ export default function ShinOkuboAreaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・好アクセス</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  新大久保駅からJR山手線1駅です。各スタジオ駅から徒歩1〜5分の好立地です。仕事帰りにも通いやすいです。
+                  新大久保駅からJR山手線1駅です。各スタジオ駅から徒歩1〜5分の好立地です。仕事帰りにも通いやすい立地です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• the SILK 新宿店（新宿西口駅1分）</li>
@@ -595,7 +595,7 @@ export default function ShinOkuboAreaPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感できる方が多いです。
+                週1〜2回（月4〜8回）からスタートするのがおすすめです。まずは身体を慣らすことが大切です。継続期間は最低でも2〜3ヶ月です。この期間で効果を実感される方が多くみられます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
@@ -697,7 +697,7 @@ export default function ShinOkuboAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  通いにくい場所にあるスタジオは、継続が難しくなります。JR山手線新大久保駅からは新宿駅まで1駅（2分）、高田馬場駅まで1駅（3分）と好アクセスです。新宿区の中心エリアなので、コリアタウンや大久保通りでの買い物ついでにも通えて便利です。駅近のスタジオを選ぶと、仕事帰りや休日のお出かけにも合わせやすいです。
+                  通いにくい場所にあるスタジオは、継続が難しくなります。JR山手線新大久保駅からは新宿駅まで1駅（2分）、高田馬場駅まで1駅（3分）と好アクセスです。新宿区の中心エリアなので、コリアタウンや大久保通りでの買い物ついでにも通えて便利です。駅近のスタジオを選ぶと、仕事帰りや休日のお出かけにも予定を合わせやすくなります。
                 </p>
               </div>
             </div>

@@ -94,12 +94,12 @@ const faqs = [
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。田園調布はマシン専門スタジオが充実しています。' },
   { question: '田園調布のピラティスの料金相場は？', answer: '掲載5店の公式料金（税込）では、少人数・セミパーソナルの月4回が13,200円（TSUTAYA Conditioning PILATES）〜19,800円です（Pilates Mee）。1対1のパーソナルは1回あたり6,500円（STUDIO IVY 月8回）〜16,500円（Dr.ピラティス 90分スポット）です。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめです。慣れたら週2〜3回に増やすと効果的です。Pilates Meeの通い放題プランなら毎日でも通えます。' },
-  { question: 'ピラティスで痩せますか？', answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続で体の変化を実感する方が多いです。' },
+  { question: 'ピラティスで痩せますか？', answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続で体の変化を実感される方が多くなっています。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。STUDIO IVYはウォーターサーバーがあるので水の持参は不要と案内しています。靴下（グリップソックス推奨）も忘れずにご用意ください。' },
   { question: '男性でも通えるスタジオはありますか？', answer: 'Dr.ピラティスとSTUDIO IVY 奥沢店は男性も通えます（公式に記載）。TSUTAYA Conditioning PILATESとPilates Meeは女性専用です。' },
   { question: 'パーソナルレッスンとグループレッスンどちらがおすすめ？', answer: '初心者や体の悩みがある方はパーソナルがおすすめです。Dr.ピラティスやSTUDIO IVYで個別指導を受けられます。費用を抑えるなら、少人数のマシンレッスンのTSUTAYA Conditioning PILATES（月4回13,200円）か、ピラティスステーションライトのグループです（1回2,850円〜）。' },
   { question: '田園調布駅から近いスタジオは？', answer: 'Dr.ピラティスが駅徒歩30秒で最寄りです。TSUTAYA Conditioning・Pilates Mee・ピラティスステーションライトが徒歩2分です。' },
-  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。姿勢改善は比較的早く、ボディメイクは3ヶ月程度の継続がおすすめです。' },
+  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。姿勢改善は比較的早く、ボディメイクは3ヶ月程度の継続がおすすめです。' },
 ]
 
 export default function DenenchofuPage() {
@@ -234,7 +234,7 @@ export default function DenenchofuPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              田園調布は閑静な高級住宅街で、質の高いサービスを提供するスタジオが多いのが特徴です。グループレッスンの料金は都心部と同程度ですが、パーソナルやセミパーソナルの選択肢が豊富で、個々のニーズに合わせた丁寧な指導を受けられます。近隣の<Link href="/area/jiyugaoka/" className="text-warm-700 underline hover:text-warm-900">自由が丘</Link>エリアと比較検討する方も多いです。
+              田園調布は閑静な高級住宅街で、質の高いサービスを提供するスタジオが多いのが特徴です。グループレッスンの料金は都心部と同程度ですが、パーソナルやセミパーソナルの選択肢が豊富で、個々のニーズに合わせた丁寧な指導を受けられます。近隣の<Link href="/area/jiyugaoka/" className="text-warm-700 underline hover:text-warm-900">自由が丘</Link>エリアと比較検討される方も少なくありません。
             </p>
           </div>
         </section>
@@ -287,7 +287,7 @@ export default function DenenchofuPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
@@ -458,7 +458,7 @@ export default function DenenchofuPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  掲載5店のうち4店は田園調布駅から徒歩2分以内です。STUDIO IVYは奥沢駅徒歩4分です。東横線・目黒線利用で自由が丘や二子玉川のスタジオも通いやすいです。
+                  掲載5店のうち4店は田園調布駅から徒歩2分以内です。STUDIO IVYは奥沢駅徒歩4分です。東横線・目黒線を利用でき、自由が丘や二子玉川のスタジオにも通うことができます。
                 </p>
               </div>
             </div>

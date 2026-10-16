@@ -65,7 +65,7 @@ export default function Page() {
               人気スタジオの料金プランの比較
             </h1>
             <p className="text-warm-700 text-sm md:text-base leading-relaxed mt-4">
-              群馬県有数の交通拠点です。新幹線停車駅で前橋方面からの利用者も多いです。主要駅はJR高崎駅です。本ページでは高崎エリアで公式情報をもとに比較できるピラティススタジオをまとめました。
+              群馬県有数の交通拠点です。新幹線停車駅のため、前橋方面からの利用者も少なくありません。主要駅はJR高崎駅です。本ページでは高崎エリアで公式情報をもとに比較できるピラティススタジオをまとめました。
             </p>
           </div>
         </section>
@@ -230,7 +230,7 @@ export default function Page() {
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">エリアの特徴</h3>
-                  <p className="text-warm-700 text-sm leading-relaxed">群馬県有数の交通拠点です。新幹線停車駅で前橋方面からの利用者も多いです。</p>
+                  <p className="text-warm-700 text-sm leading-relaxed">群馬県有数の交通拠点です。新幹線停車駅のため、前橋方面からの利用者も少なくありません。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">徒歩・電車でのアクセス</h3>

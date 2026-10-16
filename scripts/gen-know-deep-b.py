@@ -93,7 +93,7 @@ write("pilates-koukanai-riyuu",
 
 ## 原因5：生活習慣が伴っていない
 
-ダイエット目的なら、[食事](/articles/pilates-meal/)や睡眠など生活面の影響が大きいです。
+ダイエット目的の場合は、[食事](/articles/pilates-meal/)や睡眠など生活面の影響が大きくなります。
 → **改善**：食事・睡眠・活動量も並行して整えます。痩せ目的は[痩せる仕組み](/articles/pilates-yaseru-shikumi/)を理解します。
 
 ## 改善ステップまとめ

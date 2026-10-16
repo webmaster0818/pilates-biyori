@@ -182,12 +182,12 @@ const faqs = [
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。高槻はマシン専門スタジオが充実しています。' },
   { question: '高槻のピラティスの料金相場は？', answer: 'グループ月4回で9,625円程度です。通い放題はURBAN CLASSICが月額7,800円〜とリーズナブルです。パーソナルは1回7,200円〜8,800円です。大阪市内に比べてお手頃です。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめです。慣れたら週2〜3回に増やすと効果的です。URBAN CLASSICは予約不要で通い放題なので毎日でも気軽に通えます。' },
-  { question: 'ピラティスで痩せますか？', answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続で体の変化を実感する方が多いです。' },
+  { question: 'ピラティスで痩せますか？', answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続で体の変化を実感される方が多くなっています。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。zen placeはグループ体験1,000円、lulutoも体験1,000円で試せます。靴下（グリップソックス推奨）も忘れずにご用意ください。' },
   { question: '男性でも通えるスタジオはありますか？', answer: 'zen place高槻、URBAN CLASSIC PILATES、SOELU、lulutoは男性も通えます。ピラティスミラーは女性専用です。' },
   { question: 'JR高槻と阪急高槻市、どちらが便利？', answer: '両駅は徒歩5分程度の距離で、zen placeやURBAN CLASSICはどちらからも徒歩圏内です。JR新快速停車駅なので大阪・京都方面からのアクセスも良好です。' },
   { question: '高槻は大阪と京都のどちらに近い？', answer: '高槻はJR京都線で大阪駅まで約15分、京都駅まで約12分とほぼ中間地点です。zen placeなら全国他店利用で大阪（梅田）や京都のスタジオにも通えます。' },
-  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感する方が多いです。姿勢改善は比較的早く、ボディメイクは3ヶ月程度の継続がおすすめです。' },
+  { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。姿勢改善は比較的早く、ボディメイクは3ヶ月程度の継続がおすすめです。' },
 ]
 
 export default function TakatsukiPage() {
@@ -300,7 +300,7 @@ export default function TakatsukiPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              高槻は大阪・京都間のベッドタウンで、都心部に比べて料金がリーズナブルです。特にURBAN CLASSIC PILATESの月額7,800円〜の通い放題はエリア最安クラスです。JR新快速で大阪や京都にもすぐ出られるため、zen placeの全国他店利用を活用する方も多いです。
+              高槻は大阪・京都間のベッドタウンで、都心部に比べて料金がリーズナブルです。特にURBAN CLASSIC PILATESの月額7,800円〜の通い放題はエリア最安クラスです。JR新快速で大阪や京都にもすぐ出られるため、zen placeの全国他店利用を活用される方もいます。
             </p>
           </div>
         </section>
@@ -353,7 +353,7 @@ export default function TakatsukiPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。ジーンズやスカートは適していません。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong>：レッスン中の水分補給に必要です。自動販売機がないスタジオもあるため、持参をおすすめします。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されていることが多いです。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong>：汗拭き用です。マシンに敷くタオルは、スタジオで用意されている場合が一般的です。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong>：マシンピラティスでは、靴下の着用が必須のスタジオが多数あります。グリップソックスが適しています。</span></li>
                   </ul>
                 </div>
