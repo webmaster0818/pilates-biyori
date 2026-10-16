@@ -888,3 +888,4 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - 予算別リスト: カードの無い the SILK・zen place・BDC を 26ページ57行削除。空になった「〜13,000円」枠10ページは**そのページのカードの price** で埋めた（kagoshima・tsukiji は該当カード無し→「該当なし」）。ピラティスK・CLUB PILATES のカード無し行（同テンプレ由来）は未処理＝判断待ち
 - area-studios.ts キー higashiosaka/higashihiroshima/musashiurawa → ページ slug と同じハイフン付きに（ページ側の参照も）。aggregate 再実行で Rintosull 98→100（布施・武蔵浦和）
 - 料金: 「パーソナル1回 4,400〜9,900」6ページ（指定5＋同型の soka）→ Mee カードがある chuo-rinkan・soka・kasukabe は「月2回 22,000円〜（Pilates Mee(Life)のパーソナル）」、他は「公式サイトで確認」／chitose-funabashi のカード無し ELEMENT 22,000円→ピラティスミラーのプライベート30分4,400円〜／ibusuki 14,190→削除／akasaka 15,300→15,280（the SILK 月4回）。source 33c30f57・deploy 72d7f4fb94・precheck ✅
+- （同日・続き）予算別リストのカード無し ピラティスK・CLUB PILATES 行も削除（23ページ68行・店舗カードは不変）。空いた枠11ページ22枠はカード料金で埋め、該当なしは「該当なし」。source 7ff6b24e・deploy ab9bb13116・precheck ✅・本番でカード無し行0件
