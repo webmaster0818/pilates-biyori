@@ -322,7 +322,7 @@ export default function TokyoStationPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、東京駅・八重洲・丸の内・大手町・日本橋・銀座エリアから通えるおすすめのピラティススタジオ12選をまとめました。千代田区・中央区のビジネス街に位置するスタジオを中心に、料金・特徴・アクセスを徹底比較しています。
+              本ページでは、東京駅・八重洲・丸の内・大手町・日本橋・銀座エリアから通えるおすすめのピラティススタジオ12選をまとめました。千代田区・中央区のビジネス街に位置するスタジオを中心に、料金・特徴・アクセスを比較しています。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>

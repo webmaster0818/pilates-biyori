@@ -36,7 +36,7 @@ for f in sorted(APP.glob("*/page.tsx")):
         md = re.search(r"description: '([^']*)'", src)
         if md:
             base = f"{area}のピラティススタジオ{n}社" if n else f"{area}のピラティススタジオ"
-            new_desc = (f"{base}の料金・無料体験・マシン対応を徹底比較。初心者向けの選び方、"
+            new_desc = (f"{base}の料金・無料体験・マシン対応を比較。初心者向けの選び方、"
                         f"駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。")
             src = src.replace(md.group(0), f"description: '{new_desc}'", 1)
         reworked.append(slug)

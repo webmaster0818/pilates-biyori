@@ -124,7 +124,7 @@ faq:
 | どのサービスがいい？ | [おすすめ9選比較（全サービス公式確認済み）](/articles/pilates-online/) |
 | 本当に効果ある？ | [効果と続け方・フォームの落とし穴](/articles/online-pilates-koka/) |
 | いくらかかる？ | [料金相場と無料で試す方法](/articles/online-pilates-ryokin/) |
-| スタジオとどっちが良い？ | [オンラインvsスタジオ徹底比較](/articles/online-vs-studio-pilates/) |
+| スタジオとどっちが良い？ | [オンラインvsスタジオ比較](/articles/online-vs-studio-pilates/) |
 | 何から始めれば？ | [初心者向けの始め方（必要なもの・4週間プラン）](/articles/online-pilates-shoshinsha/) |
 | ライブとビデオの違いは？ | [ライブ型vsビデオ型・マンツーマンの選び方](/articles/online-pilates-live-video/) |
 

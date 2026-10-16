@@ -242,7 +242,7 @@ export default async function TokyoAreaPage() {
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               【2026最新】東京のピラティススタジオ<br className="hidden md:block" />
-              おすすめ6選｜料金・体験レッスン徹底比較
+              おすすめ6選｜料金・体験レッスン比較
             </h1>
           </div>
         </section>
