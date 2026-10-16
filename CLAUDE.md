@@ -920,3 +920,8 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - `scripts/copy-style/polite.py`: 形容詞の終止に「です」を機械付与しないよう変更（UNKNOWN として表示→手で書く）
 - 修正後 out/ 自社文 0件（残る2件は brands/brest の公式利用者の声の引用）・precheck ✅ 587頁・アフィリURL 440ページ2,856件が本番（deploy repo）と完全一致
 - source daecda4c・61bf6f88（sitemap）／deploy d18fc47ab7
+
+### 2026-10-17 「徹底比較」→「比較」（しましょう・実際に比較/検証/試 は当サイト文に0件）✅本番反映済み（source c9b3aecc・bdc8dc8d / deploy 0760f563ed）
+- 当サイト文11か所（area/tokyo h1・area/tokyo-station 導入文・HomeClient 記事カード・記事 md の title/h1/本文/リンク文言 8本）＋生成スクリプト3か所（gen-know-deep-a/b・p0-title-ctr-202607）。title は語順そのままで「徹底」だけ削除
+- 対象外: scripts/copy-style/mapping.py・README.txt（置換表の定義文）
+- out/ で6語とも0件。アフィリエイト URL 集合（4,103件・213種・439ページ）は修正前の deploy repo と完全一致。precheck 全項目OK、heading-lint は既存の35件のみ（修正前と同数）。本番 copy-audit --n 40 NG 0
