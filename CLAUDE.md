@@ -883,3 +883,8 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - 受け皿: the-silk-stores.ts・g1-stores.ts（Rintosull 12店）・bdc-stores.ts の住所を公式値に（曖昧住所フラグを外した）。**/brands/the-silk-hachioji/ は公式に無い店舗の受け皿＝未処理（削除は要判断）**
 - ⚠️ 残: 削除カード由来の料金相場の下限/上限（例: korakuen・senri-chuo 8,800円〜、suita、tsunashima、shibuya 8,800〜12,980 等）は数値を作らないため据え置き／カードが無いのに the SILK・zen place・BDC が予算別リストに出るテンプレ由来のページ（abeno・fuchu・hamamatsu・kagoshima・kanazawa 等 約25ページ）は今回の削除と無関係のため未処理／area-studios.ts のキー名とページ slug が違う3件（higashiosaka→higashi-osaka・higashihiroshima→higashi-hiroshima・musashiurawa→musashi-urawa）はブランド集計に入っていない（例: Rintosull 布施店・武蔵浦和店。既存の仕様・未変更）
 - **料金相場の追従（同日）**: 上記の削除で端が削除カードの値になっていた料金レンジ・体験料金を、残ったカードの price（popularPlan/options 含む）の最小〜最大に再計算＝48ページ107箇所（新しい数字は作らない・グループの残りカードが無い kugayama・tsukiji は「掲載スタジオなし」、料金非掲載カードだけの mitaka・monzen-nakacho のパーソナル行は「公式サイトでご確認ください」）。カード由来でない既存テンプレ値（沿線ページの「パーソナル1回 4,400〜9,900円」・hachioji/sagami-ono/tsukiji のカード無し the SILK/zen place/BDC 予算リスト・chitose-funabashi の ELEMENT 22,000円 等）は今回の削除と無関係のため据え置き
+
+## 2026-10-16 朝ルーチン: 予算別リストのテンプレ残り・area-studios キー・裏付けの無い料金
+- 予算別リスト: カードの無い the SILK・zen place・BDC を 26ページ57行削除。空になった「〜13,000円」枠10ページは**そのページのカードの price** で埋めた（kagoshima・tsukiji は該当カード無し→「該当なし」）。ピラティスK・CLUB PILATES のカード無し行（同テンプレ由来）は未処理＝判断待ち
+- area-studios.ts キー higashiosaka/higashihiroshima/musashiurawa → ページ slug と同じハイフン付きに（ページ側の参照も）。aggregate 再実行で Rintosull 98→100（布施・武蔵浦和）
+- 料金: 「パーソナル1回 4,400〜9,900」6ページ（指定5＋同型の soka）→ Mee カードがある chuo-rinkan・soka・kasukabe は「月2回 22,000円〜（Pilates Mee(Life)のパーソナル）」、他は「公式サイトで確認」／chitose-funabashi のカード無し ELEMENT 22,000円→ピラティスミラーのプライベート30分4,400円〜／ibusuki 14,190→削除／akasaka 15,300→15,280（the SILK 月4回）。source 33c30f57・deploy 72d7f4fb94・precheck ✅
