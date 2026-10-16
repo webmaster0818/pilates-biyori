@@ -889,3 +889,4 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - area-studios.ts キー higashiosaka/higashihiroshima/musashiurawa → ページ slug と同じハイフン付きに（ページ側の参照も）。aggregate 再実行で Rintosull 98→100（布施・武蔵浦和）
 - 料金: 「パーソナル1回 4,400〜9,900」6ページ（指定5＋同型の soka）→ Mee カードがある chuo-rinkan・soka・kasukabe は「月2回 22,000円〜（Pilates Mee(Life)のパーソナル）」、他は「公式サイトで確認」／chitose-funabashi のカード無し ELEMENT 22,000円→ピラティスミラーのプライベート30分4,400円〜／ibusuki 14,190→削除／akasaka 15,300→15,280（the SILK 月4回）。source 33c30f57・deploy 72d7f4fb94・precheck ✅
 - （同日・続き）予算別リストのカード無し ピラティスK・CLUB PILATES 行も削除（23ページ68行・店舗カードは不変）。空いた枠11ページ22枠はカード料金で埋め、該当なしは「該当なし」。source 7ff6b24e・deploy ab9bb13116・precheck ✅・本番でカード無し行0件
+- （同日・続き2）テンプレ29ページの目的別おすすめ87枠・体験段落28・アクセス段落27をカードの price/features/trial/access から作り直し（架空の「東口徒歩1分」「JR・東京メトロ・西武線・東武線」除去）、予算別のカード不一致4行をカード値に、daikanyama/fukuoka/motomachi/takatsuki のカード無しブランド記述を削除。カード無しブランド言及 235→2（隣接エリアへの言及のみ残す）。店舗カード不変。source 267462ad・deploy 841b807907・precheck ✅・本番45ページが out と一致。スクリプト /tmp/b1016/{rebuild,scan_b,scan_c}.py
