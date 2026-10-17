@@ -964,3 +964,7 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - **izumi**: STUDIO TOU 大阪和泉中央（池田下町173-1・料金）、Joie（上代町113・料金）、PILATES Aloha（マット中心・都度料金）を実データ化、Plaisir は新規受付一時休止を明記、コナミスポーツクラブ和泉中央（徒歩4分・マシンピラティス月7,780円）追加、和泉中央駅主軸の早見表・title
 - **BDC**: TOP「ブランドから探す」に /brands/bdc/ リンクあり・sitemap lastmod 10/17（ブランドは BRAND_DEPS の共有ファイルで全ブランド同日になる）→リンク追加は不要と判断
 - source dd44b095・32c3be4e・7e4c483d／deploy 8adc24c110・precheck ✅ 587頁・本番6URL 200・/api/contact 400・Indexing API 12件すべて429（未送信）
+
+### 2026-10-17 12:00 成長ルーチン（続き）: Rintosull の誤料金を9エリアで訂正 ✅本番（source e00c791b / deploy 9801dc6d92）
+- 「プレミアムプラン 月額10,978円」（chuo-rinkan・wakoshi・kokubunji・kunitachi・chofu・soka）と旧プラン「2スタジオ13,800／全国16,800／プレミアム18,800円」（hiyoshi・aobadai・tama-plaza）を rintosull.jp/price/（10/17 確認）の現行値に: 4・フルタイム 8,800〜10,800円（店舗により異なる）／ライト・フルタイム 10,800円〜／プレミアム フリー・フルタイム 16,800円。brands-aggregate.json 再生成（手ぶらOK→参加可能の文言追随も含む）。out の 10,978 は0件・precheck 全項目OK。
+- ⚠️ deploy リポのローカルブランチは master（upstream origin/main）。push は `git push origin HEAD:main`。
