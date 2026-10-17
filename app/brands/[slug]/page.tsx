@@ -58,14 +58,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   // ⚠️「店舗数」を名乗るのは公式店舗数を確認できたブランドのみ（未確認ブランドで数を主張しない）。
   const hasOfficialCount = !!brand.officialStores
   // 2026-10-08: 口コミテーマ節（reviewThemes）を持つブランドだけ末尾に「口コミ評判」を足す（「{ブランド} 口コミ」= Rintosull 13位の受け皿化）
-  const kw =
-    (hasOfficialCount
+  const kw = brand.titleKw ??
+    ((hasOfficialCount
       ? '店舗一覧・店舗数・料金'
       : brand.useHyoban ? '店舗一覧・料金・評判' : '店舗一覧・料金・体験') +
-    (brand.reviewThemes ? (!hasOfficialCount && brand.useHyoban ? '・口コミ' : '・口コミ評判') : '') // 「評判・口コミ評判」の重複回避（2026-10-09 BDC で発生）
+    (brand.reviewThemes ? (!hasOfficialCount && brand.useHyoban ? '・口コミ' : '・口コミ評判') : '')) // 「評判・口コミ評判」の重複回避（2026-10-09 BDC で発生）
   return {
     title: `${brand.name}の${kw}${MONTH_TAG}｜掲載${stores.length}店舗を比較`,
-    description: `${brand.name}の店舗一覧${brand.officialStores && brand.officialStores.count >= stores.length ? `（${brand.officialStores.asOf}時点で全国${brand.officialStores.count}店舗${brand.officialStores.approx ? '以上' : ''}）` : ''}・料金プラン・体験レッスンを、掲載データにもとづいて掲載しています。${brand.tagline}。当サイトに掲載している${stores.length}店舗を、エリア別のリンクとあわせて掲載しています。`,
+    description: brand.metaDescription ?? `${brand.name}の店舗一覧${brand.officialStores && brand.officialStores.count >= stores.length ? `（${brand.officialStores.asOf}時点で全国${brand.officialStores.count}店舗${brand.officialStores.approx ? '以上' : ''}）` : ''}・料金プラン・体験レッスンを、掲載データにもとづいて掲載しています。${brand.tagline}。当サイトに掲載している${stores.length}店舗を、エリア別のリンクとあわせて掲載しています。`,
     alternates: { canonical: `https://biyori-pilates.com/brands/${slug}/` },
   }
 }
@@ -142,7 +142,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
 
           <p className="section-en text-warm-400 mb-2 font-medium">Brand Guide</p>
           <h1 className="text-2xl md:text-3xl font-light text-warm-900 tracking-tight mb-3">
-            {brand.name}の{brand.officialStores ? '店舗一覧・店舗数・料金' : brand.useHyoban ? '店舗一覧・料金・評判' : '店舗一覧・料金・体験'}{brand.reviewThemes ? (!brand.officialStores && brand.useHyoban ? '・口コミ' : '・口コミ評判') : ''}
+            {brand.name}の{brand.titleKw ?? <>{brand.officialStores ? '店舗一覧・店舗数・料金' : brand.useHyoban ? '店舗一覧・料金・評判' : '店舗一覧・料金・体験'}{brand.reviewThemes ? (!brand.officialStores && brand.useHyoban ? '・口コミ' : '・口コミ評判') : ''}</>}
             <span className="block text-base text-warm-500 mt-2 font-light">{brand.tagline}</span>
           </h1>
           {brand.checkedAt && (
@@ -236,6 +236,18 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                   <li key={line}>{line}</li>
                 ))}
               </ul>
+            )}
+            {brand.priceSources && brand.priceSources.length > 0 && (
+              <p className="text-[11px] text-warm-500 mb-4 leading-relaxed">
+                出典：
+                {brand.priceSources.map((src, i) => (
+                  <span key={src.url}>
+                    {i > 0 && '／'}
+                    <a href={src.url} target="_blank" rel="noopener noreferrer" className="underline decoration-warm-300 hover:text-warm-800">{src.label}</a>
+                  </span>
+                ))}
+                {brand.checkedAt && `（${brand.checkedAt}確認）`}
+              </p>
             )}
             <p className="text-sm text-warm-700 leading-relaxed mb-4 font-light">{brand.pricingNote}</p>
             {prices.length > 0 && !brand.hideListedPriceTable && (

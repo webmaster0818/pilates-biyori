@@ -290,7 +290,9 @@ function build() {
     'club-pilates-nishinomiyakitaguchi', 'club-pilates-daikanyama', 'club-pilates-nakano-sakaue',
     'club-pilates-toyosu', 'club-pilates-tamachi', 'club-pilates-kagurazaka',
   ]) {
-    lines.push(urlEntry(`/brands/${slug}/`, gitDate(`app/brands/${slug}`), 'weekly', '0.6'))
+    // 受け皿の中身は data/*-stores.ts と BrandAreaReceiver から描画される（2026-10-17: データ変更が lastmod に出ていなかった）
+    const dataFile = slug.startsWith('bdc-') ? 'data/bdc-stores.ts' : slug.startsWith('kasane-') ? 'data/kasane-stores.ts' : 'data/club-pilates-stores.ts'
+    lines.push(urlEntry(`/brands/${slug}/`, gitDate(`app/brands/${slug}`, dataFile), 'weekly', '0.6'))
   }
   // 店舗別ページ（データファイルから動的抽出＝追加店舗は自動でsitemap収録）
   for (const f of ['g1-stores.ts', 'the-silk-stores.ts']) {

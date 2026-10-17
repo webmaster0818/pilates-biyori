@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/nishinomiya/' },
   title: '西宮のピラティス｜初心者可・無料体験で選ぶ料金比較',
-  description: '西宮エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
+  description: '西宮・西宮北口エリアのピラティススタジオ8選を料金・無料体験・マシン対応で比較しています。クラブピラティス西宮北口店の公式料金表（月4回13,090円・入会金・休会/キャンセル条件）、Rintosull西宮北口店の公式プランも掲載しています。',
   keywords: 'ピラティス,西宮,西宮北口,兵庫,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -91,56 +91,56 @@ const studios = [
     price: '月4回 13,090円／月8回 24,090円／通い放題 37,290円（公式店舗ページ・税表記なし）',
     trial: '体験レッスン 無料（30分イントロクラス）',
     features: ['世界最大級', '西宮北口駅徒歩5分', '15種類の器具', '男性利用可'],
-    description: '世界最大級のマシンピラティスブランドです。西宮北口駅から徒歩5分です。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類のマシン・器具を完備しています。8つのプログラムと4段階のレベル分けです。',
-    access: '阪急神戸線「西宮北口駅」徒歩5分',
-    address: '兵庫県西宮市（詳細は公式サイトでご確認ください）',
+    description: '世界最大級のマシンピラティスブランドです。西宮北口駅から徒歩5分です。最大12名のグループレッスンが中心で、リフォーマーなど15種類の専用器具を使い、8種類のクラスと4段階のレベルが用意されています（公式サイト）。マンツーマンのプライベートレッスンもあります。',
+    access: '阪急「西宮北口駅」徒歩5分（公式店舗ページ）',
+    address: '〒662-0835 兵庫県西宮市平木町2-18',
     popularPlan: {
       name: 'グループ月4回プラン',
       description: '15種類の器具を使った本格グループレッスンです。4段階のレベル分けで安心です。',
       price: '月4回 13,090円（税表記なし）',
     },
-    options: ['月8回 24,090円', '通い放題 37,290円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
+    options: ['月8回 24,090円', '通い放題 37,290円', '入会金 5,500円（税表記なし）・入会時の事務手数料 2,200円（税込）', '30分の体験レッスン 無料', '料金は公式の店舗ページ（2026年10月17日確認）'],
     userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
+      ageRange: '20代〜60代',
+      genderRatio: '男女とも利用可',
       purpose: ['体幹強化', '姿勢改善', 'ボディメイク', 'パフォーマンス向上'],
     },
     basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '不定休',
-      facilities: ['リフォーマー', 'スプリングボード', 'TRX', 'チェア', 'Bosu'],
+      hours: '月・水・金 8:30〜21:00／火・木 7:30〜21:00／土 7:30〜17:00／日 7:30〜17:00（公式店舗ページ）',
+      closed: '公式の営業時間表に定休日の記載なし',
+      facilities: ['リフォーマー', 'チェア', 'プライベートルーム'],
     },
   },
   {
     name: 'Rintosull（リントスル）西宮北口店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
-    price: '月4回 8,800円〜',
-    trial: '体験レッスンあり（予約制）',
-    features: ['西宮北口駅徒歩1分', 'LAVA相互利用', '低価格', 'マシン専門'],
-    description: 'ホットヨガLAVAから生まれたマシンピラティススタジオです。西宮北口駅南改札口から徒歩1分です。月4回8,800円〜と低価格です。Rintosull全店とLAVA全店の相互利用が可能で、ピラティスとヨガの両方を楽しめます。',
-    access: '阪急神戸線「西宮北口駅」南改札口 徒歩1分',
-    address: '兵庫県西宮市高松町3-34 パセオ・エスタシオン5F',
+    price: '月4回 8,800円（税込）',
+    trial: '体験会 無料（約45分・ウェア/ソックス無料貸出）',
+    features: ['女性専用', '西宮北口駅南改札口徒歩1分', '低価格', 'マシン専門'],
+    description: 'ホットヨガLAVAのグループが展開する女性専用のマシンピラティススタジオです。西宮北口駅南改札口から徒歩1分です。月4回8,800円（税込）から通えます。系列のLAVA・BurnesStyle等も通い放題になるのは月16,800円の「プレミアム フリー・フルタイム」のみで、月4回プランは西宮北口店のみの利用です（公式店舗ページ・2026年10月17日確認）。',
+    access: '阪急「西宮北口駅」南改札口 徒歩1分',
+    address: '〒663-8204 兵庫県西宮市高松町3-34 パセオ・エスタシオン5F',
     popularPlan: {
-      name: 'マンスリーメンバー4（月4回）',
-      description: 'マシンピラティス月4回です。LAVA全店も相互利用可能です。',
-      price: '月4回 8,800円（税込）',
+      name: '4・フルタイム（月4回）',
+      description: 'マシンピラティス月4回・1日1回・西宮北口店で利用できます。',
+      price: '月4回 8,800円（税込）＋運営管理費 月680円',
     },
     options: [
-      '月4回プラン（8,800円）',
-      '通い放題プラン（13,800円）',
-      'LAVA全店相互利用可能',
-      '体験レッスン（予約制）',
+      '4・フルタイム 月8,800円（税込・西宮北口店のみ・月4回）',
+      'ライト・フルタイム 月13,800円（税込・西宮北口店＋1店舗・通い放題）',
+      'プレミアム フリー・フルタイム 月16,800円（税込・LAVA等の系列全店・通い放題）',
+      '1回券 3,300円／運営管理費 月680円（税込）',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
-      genderRatio: '女性90% / 男性10%',
+      genderRatio: '女性100%（女性専用）',
       purpose: ['ダイエット', '姿勢改善', '運動不足解消', 'リフレッシュ'],
     },
     basicInfo: {
       hours: '公式サイトでご確認ください',
-      closed: '不定休',
-      facilities: ['リフォーマー', '更衣室', 'ロッカー'],
+      closed: '毎週日曜・第4水曜（公式店舗ページ）',
+      facilities: ['リフォーマー', '更衣室', '鍵付きロッカー', 'パウダースペース', '水素水サーバー'],
     },
   },
   {
@@ -252,7 +252,11 @@ const faqs = [
   },
   {
     question: '西宮のピラティスの料金相場は？',
-    answer: 'グループ月4回で8,800円〜14,190円程度です。Rintosullが月4回8,800円〜で最もリーズナブルです。zen placeは月4回10,450円〜、ピラティスKは月4回11,220円〜です。',
+    answer: 'グループ月4回で8,800円〜13,090円程度です。Rintosullが月4回8,800円（税込）で最もリーズナブルです。zen placeは月4回10,450円〜、ピラティスKは月4回11,220円〜、CLUB PILATES 西宮北口店は月4回13,090円（公式店舗ページ・税表記なし）です。',
+  },
+  {
+    question: 'クラブピラティス 西宮北口店の料金はいくらですか？',
+    answer: '公式の店舗ページでは、月4回（EFT4）13,090円・月8回（EFT8）24,090円・通い放題（UNLIMITED）37,290円です（税表記なし）。入会金5,500円と、入会時に事務手数料2,200円（税込）がかかります。30分の体験レッスンは無料です。休会は1年間で4ヶ月まで・休会費は税別1,500円です（2026年10月17日確認）。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -272,7 +276,7 @@ const faqs = [
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'zen place西宮北口、CLUB PILATES西宮北口、Movement Plusは男性も通えます。ピラティスKとLa pilatesは女性専用です。',
+    answer: 'zen place西宮北口、CLUB PILATES西宮北口、Movement Plusは男性も通えます。ピラティスK・Rintosull・La pilates・Pilates Meeは女性専用です。',
   },
   {
     question: '無料で体験できるスタジオは？',
@@ -299,7 +303,7 @@ export default function NishinomiyaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス西宮おすすめ8選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
@@ -375,6 +379,49 @@ export default function NishinomiyaPage() {
           </div>
         </section>
 
+
+        {/* CLUB PILATES 西宮北口店 料金表（公式・2026-10-17） */}
+        <section className="py-16 bg-white" id="club-pilates-price">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">
+              クラブピラティス 西宮北口店の料金
+            </h2>
+            <p className="text-warm-600 text-sm leading-relaxed mb-6">
+              CLUB PILATES（クラブピラティス）西宮北口店の料金・入会時の費用・休会/キャンセルの条件を、公式の店舗ページの表記どおりに掲載しています。月会費の金額は公式ページに税込・税抜の表記がありません。
+            </p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm border-collapse">
+                <thead>
+                  <tr className="bg-warm-800 text-white">
+                    <th className="px-4 py-3 text-left">プラン・費用</th>
+                    <th className="px-4 py-3 text-left">料金</th>
+                    <th className="px-4 py-3 text-left">内容</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">30分</td></tr>
+                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">EFT4 MEMBERSHIP</td><td className="px-4 py-3">13,090円</td><td className="px-4 py-3">月4回（予約上限4枠）</td></tr>
+                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">EFT8 MEMBERSHIP</td><td className="px-4 py-3">24,090円</td><td className="px-4 py-3">月8回（予約上限8枠）</td></tr>
+                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">UNLIMITED MEMBERSHIP</td><td className="px-4 py-3">37,290円</td><td className="px-4 py-3">通い放題（予約上限15枠）</td></tr>
+                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">入会金</td><td className="px-4 py-3">5,500円</td><td className="px-4 py-3">入会時</td></tr>
+                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">事務手数料</td><td className="px-4 py-3">2,200円（税込）</td><td className="px-4 py-3">入会時</td></tr>
+                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">休会費</td><td className="px-4 py-3">税別1,500円</td><td className="px-4 py-3">1年間で4ヶ月まで・前月10日までに申請</td></tr>
+                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">グループのキャンセル</td><td className="px-4 py-3">12時間前まで無料</td><td className="px-4 py-3">過ぎるとEFT4/EFT8は1回消化、通い放題はキャンセル料（連絡あり税別1,000円・無断等 税別1,500円）</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <ul className="text-warm-600 text-sm leading-relaxed mt-4 space-y-1">
+              <li>・年間一括払いもあり、金額は店舗への問い合わせと案内されています。</li>
+              <li>・当月に使わなかった回数は翌月に繰り越せません。キャンペーンでの入会は契約必須期間があり、期間中のダウングレード・休会・退会はできず、退会には早期退会料がかかります。</li>
+              <li>・退会・プラン変更は前月10日までに契約スタジオへ申請し、申請フォームを提出すると翌月から適用されます。</li>
+              <li>・所在地: 〒662-0835 兵庫県西宮市平木町2-18（西宮北口駅 徒歩5分）／営業時間: 月・水・金 8:30〜21:00、火・木 7:30〜21:00、土・日 7:30〜17:00</li>
+            </ul>
+            <p className="text-xs text-warm-400 mt-4">
+              出典: <a href="https://clubpilates.co.jp/studio/nishinomiyakitaguchi/" target="_blank" rel="noopener noreferrer" className="underline">CLUB PILATES 西宮北口店 公式店舗ページ</a>（2026年10月17日確認）。最新の料金・キャンペーンは公式サイトでご確認ください。
+              <Link href="/brands/club-pilates-nishinomiyakitaguchi/" className="underline ml-2">CLUB PILATES 西宮北口店の店舗ページ</Link>
+            </p>
+          </div>
+        </section>
 
         {/* Price Market Section */}
         <section className="py-16 bg-white" id="price-market">
@@ -588,7 +635,7 @@ export default function NishinomiyaPage() {
                   毎日通いたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Rintosull（13,800円/通い放題）</li>
+                  <li>• Rintosull（13,800円/通い放題・2店舗）</li>
                   <li>• zen place（16,940円/通い放題）</li>
                   <li>• CLUB PILATES（通い放題 37,290円）</li>
                 </ul>
@@ -619,7 +666,7 @@ export default function NishinomiyaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  西宮の料金相場はグループ月4回で8,800円〜14,190円です。Rintosullが最安の月4回8,800円です。入会金やキャンペーンもご確認ください。
+                  西宮の料金相場はグループ月4回で8,800円〜13,090円です。Rintosullが最安の月4回8,800円です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
