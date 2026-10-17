@@ -56,7 +56,7 @@ const studios = [
     name: 'Rintosull 国立店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
-    price: 'プレミアムプラン 月額10,978円（税込）',
+    price: '4・フルタイム 月8,800円〜（税込・店舗により異なる）／プレミアム フリー・フルタイム 月16,800円（税込）',
     trial: '体験無料キャンペーン実施中',
     features: ['女性専用', 'マシンピラティス', '体験無料', 'LAVA系列'],
     description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオです。リフォーマーを使って気になる部位に集中アプローチです。体験無料キャンペーン実施中です。プレミアムフリーフルタイムプランならLAVA等系列店も利用可能です。初心者87%以上です。',
@@ -65,10 +65,10 @@ const studios = [
     popularPlan: {
       name: 'プレミアムプラン',
       description: '女性専用マシンピラティスです。体験無料キャンペーン中です。LAVA系列店も利用可能です。',
-      price: '月額 10,978円（税込）',
+      price: '月8,800円〜（税込・4・フルタイム・店舗により異なる）',
     },
     options: [
-      'プレミアムプラン（月額 10,978円/税込）',
+      'プレミアム フリー・フルタイム（月16,800円/税込・系列全店通い放題）',
       'プレミアムフリーフルタイム（LAVA等全店利用可）',
       '体験無料キャンペーン実施中',
       'パーソナル姿勢診断付き体験あり',
@@ -188,7 +188,7 @@ const faqs = [
   },
   {
     question: '国立のピラティスの料金相場は？',
-    answer: 'Rintosull国立店は月額10,978円、ピラティスミラー国立は月6回11,000円、zen place pilates国立は月4回13,200円〜です。パーソナルはCOCOLANCE国立店が完全個室で割安です。目的と頻度に合わせてお選びください。',
+    answer: 'Rintosull国立店は月4回8,800円〜（店舗により異なる）、ピラティスミラー国立は月6回11,000円、zen place pilates国立は月4回13,200円〜です。パーソナルはCOCOLANCE国立店が完全個室で割安です。目的と頻度に合わせてお選びください。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -298,7 +298,7 @@ export default function KunitachiPage() {
               <table className="w-full text-sm border-collapse">
                 <thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">種別</th><th className="px-4 py-3 text-left">料金相場</th></tr></thead>
                 <tbody>
-                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4〜6回）</td><td className="px-4 py-3">10,978円〜13,200円</td></tr>
+                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4〜6回）</td><td className="px-4 py-3">8,800円〜13,200円</td></tr>
                   <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">パーソナルレッスン</td><td className="px-4 py-3">1回 4,400円〜9,900円</td></tr>
                   <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">無料〜2,200円</td></tr>
                 </tbody>
@@ -375,7 +375,7 @@ export default function KunitachiPage() {
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">月額1万円台から始めることをおすすめします。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Rintosull（月額 10,978円）</li>
+                  <li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li>
                   <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
                   <li className="text-warm-700">• zen place（月4回 13,200円〜）</li>
                 </ul>
@@ -425,7 +425,7 @@ export default function KunitachiPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4〜6回</p>
                 <p className="text-sm text-warm-600 mb-4">手軽に始めたい方に適しています。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Rintosull（10,978円/月）</li>
+                  <li>• Rintosull（8,800円〜/月4回）</li>
                   <li>• ピラティスミラー（11,000円/月6回）</li>
                 </ul>
               </div>

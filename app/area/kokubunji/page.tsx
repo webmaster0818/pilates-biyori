@@ -152,19 +152,19 @@ const studios = [
     name: 'Rintosull 国分寺店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
-    price: 'プレミアムプラン 月額10,978円（税込）',
+    price: '4・フルタイム 月8,800円〜（税込・店舗により異なる）／プレミアム フリー・フルタイム 月16,800円（税込）',
     trial: '体験無料キャンペーン実施中',
     features: ['女性専用', 'マシンピラティス', '体験無料', 'LAVA系列'],
-    description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオです。リフォーマーを使ったレッスンで、気になる部位に集中的にアプローチです。プレミアムプラン月額10,978円で、プレミアムフリーフルタイムプランならLAVA等系列店も利用可能です。体験無料キャンペーン実施中で気軽に始められます。',
+    description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオです。リフォーマーを使ったレッスンで、気になる部位に集中的にアプローチです。プレミアム フリー・フルタイム月16,800円（税込）で、プレミアムフリーフルタイムプランならLAVA等系列店も利用可能です。体験無料キャンペーン実施中で気軽に始められます。',
     access: 'JR中央線「国分寺駅」から徒歩圏内',
     address: '東京都国分寺市本町4-1-9 国分寺本町クリスタルビル4F',
     popularPlan: {
       name: 'プレミアムプラン',
       description: '女性専用マシンピラティスです。体験無料キャンペーン中です。LAVA系列店も利用可能です。',
-      price: '月額 10,978円（税込）',
+      price: '月8,800円〜（税込・4・フルタイム・店舗により異なる）',
     },
     options: [
-      'プレミアムプラン（月額 10,978円/税込）',
+      'プレミアム フリー・フルタイム（月16,800円/税込・系列全店通い放題）',
       'プレミアムフリーフルタイム（LAVA等全店利用可）',
       '体験無料キャンペーン実施中',
       'パーソナル姿勢診断付き体験あり',
@@ -193,7 +193,7 @@ const faqs = [
   },
   {
     question: '国分寺のピラティスの料金相場は？',
-    answer: 'URBAN CLASSIC PILATESは月4回8,580円と最安級です。Rintosullは月額10,978円、ピラティスミラーは月6回11,000円、pilates Kは月4回11,220円〜、zen placeは月4回13,200円〜です。',
+    answer: 'URBAN CLASSIC PILATESは月4回8,580円と最安級です。Rintosullは月4回8,800円〜（店舗により異なる）、ピラティスミラーは月6回11,000円、pilates Kは月4回11,220円〜、zen placeは月4回13,200円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -435,7 +435,7 @@ export default function KokubunjiPage() {
                 <p className="text-warm-600 text-sm mb-4">月額1万円以下から始めることをおすすめします。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• URBAN CLASSIC PILATES（月4回 8,580円）</li>
-                  <li className="text-warm-700">• Rintosull（月額 10,978円）</li>
+                  <li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li>
                   <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
                 </ul>
               </div>
@@ -501,7 +501,7 @@ export default function KokubunjiPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4〜6回</p>
                 <p className="text-sm text-warm-600 mb-4">週1〜2回のペースで、着実な成果が期待できます。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Rintosull（10,978円/月）</li>
+                  <li>• Rintosull（8,800円〜/月4回）</li>
                   <li>• ピラティスミラー（11,000円/月6回）</li>
                   <li>• pilates K（11,220円〜/月4回）</li>
                 </ul>

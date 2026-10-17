@@ -44,7 +44,7 @@ const studios = [
     access: '東急東横線・市営グリーンライン「日吉駅」周辺',
     address: '神奈川県横浜市港北区日吉本町1-5-26日吉陽光ハイツ2階',
     popularPlan: { name: 'マシンピラティス月4回プラン', description: 'リフォーマーを使った本格マシンピラティスです。1回あたり2,200円と割安です。', price: '月4回 8,800円（税込）' },
-    options: ['2スタジオ通い放題（13,800円）', '全国通い放題（16,800円）', 'プレミアムフリーフルタイム（18,800円・LAVA等全店利用可）', '無料体験あり'],
+    options: ['4・フルタイム（月4回 8,800円〜・店舗により異なる）', 'ライト・フルタイム（2店舗通い放題 10,800円〜）', 'プレミアム フリー・フルタイム（16,800円・LAVA等全店利用可）', '無料体験あり'],
     userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', 'ダイエット', 'ヨガ&ピラティス両方', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマーマシン', '大型スクリーン', '更衣室', 'ロッカー', 'シャワー'] },
   },
@@ -109,7 +109,7 @@ const faqs = [
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。YUZUは500円、Rintosull・CLUB PILATESは無料体験を実施しています。' },
   { question: '男性でも通えるスタジオはありますか？', answer: 'zen place日吉、CLUB PILATES、YUZUは男性も通えます。Rintosullは女性専用です。' },
   { question: '日吉駅から近いスタジオは？', answer: 'zen placeが駅徒歩2分で最寄りです。CLUB PILATESが徒歩4分、YUZUが徒歩5分です。' },
-  { question: 'ヨガとピラティスの両方やりたい場合は？', answer: 'Rintosullはプレミアムフリーフルタイム（18,800円）でLAVA等系列のヨガスタジオも全国で利用可能です。' },
+  { question: 'ヨガとピラティスの両方やりたい場合は？', answer: 'Rintosullはプレミアム フリー・フルタイム（16,800円）でLAVA等系列のヨガスタジオも全国で利用可能です。' },
   { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。最低2ヶ月は継続することをおすすめします。' },
 ]
 
@@ -334,7 +334,7 @@ export default function HiyoshiPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">通い放題</p>
                 <p className="text-sm text-warm-600 mb-4">毎日通いたい方向けです。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Rintosull プレミアム（18,800円）</li>
+                  <li>• Rintosull プレミアム（16,800円）</li>
                 </ul>
               </div>
             </div>

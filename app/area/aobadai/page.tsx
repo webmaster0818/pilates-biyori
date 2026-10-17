@@ -45,7 +45,7 @@ const studios = [
     access: '東急田園都市線「青葉台駅」周辺',
     address: '神奈川県横浜市青葉区青葉台2-5アレックス青葉台３F',
     popularPlan: { name: 'マシンピラティス月4回プラン', description: 'リフォーマーを使った本格マシンピラティスです。1回あたり2,200円と割安です。', price: '月4回 8,800円（税込）' },
-    options: ['2スタジオ通い放題（13,800円）', '全国通い放題（16,800円）', 'プレミアムフリーフルタイム（18,800円・LAVA等全店利用可）', '無料体験あり'],
+    options: ['4・フルタイム（月4回 8,800円〜・店舗により異なる）', 'ライト・フルタイム（2店舗通い放題 10,800円〜）', 'プレミアム フリー・フルタイム（16,800円・LAVA等全店利用可）', '無料体験あり'],
     userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', 'ダイエット', 'ヨガ&ピラティス両方', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマーマシン', '大型スクリーン', '更衣室', 'ロッカー', 'シャワー'] },
   },
@@ -87,7 +87,7 @@ const faqs = [
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。Rintosullは無料体験があります。' },
   { question: '男性でも通えるスタジオはありますか？', answer: 'zen place青葉台とアーバンクラシックは男性も通えます。Rintosull・ピラティスミラーは女性専用です。' },
   { question: '短時間で効果的なスタジオは？', answer: 'アーバンクラシックは30分のサーキット形式です。ピラティスミラーも30分レッスンです。忙しい方でも無理なく通えます。' },
-  { question: 'ヨガとピラティスの両方やりたい場合は？', answer: 'Rintosullはプレミアムフリーフルタイム（18,800円）でLAVA等系列のヨガスタジオも全国で利用可能です。' },
+  { question: 'ヨガとピラティスの両方やりたい場合は？', answer: 'Rintosullはプレミアム フリー・フルタイム（16,800円）でLAVA等系列のヨガスタジオも全国で利用可能です。' },
   { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。最低2ヶ月は継続することをおすすめします。' },
 ]
 
@@ -158,7 +158,7 @@ export default function AobadaiPage() {
                 <thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">種別</th><th className="px-4 py-3 text-left">料金相場</th></tr></thead>
                 <tbody>
                   <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4回）</td><td className="px-4 py-3">8,800円〜10,450円</td></tr>
-                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">通い放題</td><td className="px-4 py-3">9,680円〜18,800円</td></tr>
+                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">通い放題</td><td className="px-4 py-3">9,680円〜16,800円</td></tr>
                   <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">無料〜1,000円</td></tr>
                 </tbody>
               </table>
@@ -295,7 +295,7 @@ export default function AobadaiPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">通い放題</p>
                 <p className="text-sm text-warm-600 mb-4">毎日通いたい方向けです。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Rintosull プレミアム（18,800円）</li>
+                  <li>• Rintosull プレミアム（16,800円）</li>
                 </ul>
               </div>
             </div>

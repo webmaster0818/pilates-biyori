@@ -58,19 +58,19 @@ const studios = [
     name: 'Rintosull 調布店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
-    price: 'プレミアムプラン 月額10,978円（税込）',
+    price: '4・フルタイム 月8,800円〜（税込・店舗により異なる）／プレミアム フリー・フルタイム 月16,800円（税込）',
     trial: '体験無料キャンペーン実施中',
     features: ['女性専用', 'マシンピラティス', '体験無料', 'LAVA系列'],
-    description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオです。調布駅から徒歩圏内の好立地です。体験無料キャンペーンを実施中で、気軽にマシンピラティスを試せます。プレミアムプラン月額10,978円です（税込）。プレミアムフリーフルタイムプランならLAVA等系列店も利用可能で、ピラティスとヨガを両方楽しめます。初心者87%以上で安心して始められる環境です。',
+    description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオです。調布駅から徒歩圏内の好立地です。体験無料キャンペーンを実施中で、気軽にマシンピラティスを試せます。プレミアム フリー・フルタイム月16,800円（税込）です（税込）。プレミアムフリーフルタイムプランならLAVA等系列店も利用可能で、ピラティスとヨガを両方楽しめます。初心者87%以上で安心して始められる環境です。',
     access: '京王線「調布駅」から徒歩圏内',
     address: '東京都調布市小島町1-35-5調布アミックスビル 3F',
     popularPlan: {
       name: 'プレミアムプラン',
       description: '女性専用マシンピラティスです。体験無料キャンペーン実施中です。LAVA系列店も利用可能なプランがあります。',
-      price: '月額 10,978円（税込）',
+      price: '月8,800円〜（税込・4・フルタイム・店舗により異なる）',
     },
     options: [
-      'プレミアムプラン（月額 10,978円/税込）',
+      'プレミアム フリー・フルタイム（月16,800円/税込・系列全店通い放題）',
       'プレミアムフリーフルタイム（LAVA等全店利用可）',
       '体験無料キャンペーン実施中',
       'パーソナル姿勢診断付き体験あり',
@@ -154,7 +154,7 @@ const faqs = [
   },
   {
     question: '調布のピラティスの料金相場は？',
-    answer: 'ピラティスミラー調布は月6回11,000円、Rintosull調布店はプレミアムプラン月額10,978円、ELEMENT調布店は通い放題で1回2,750円〜です。目的と頻度に合わせてお選びください。',
+    answer: 'ピラティスミラー調布は月6回11,000円、Rintosull調布店はプレミアム フリー・フルタイム月16,800円（税込）、ELEMENT調布店は通い放題で1回2,750円〜です。目的と頻度に合わせてお選びください。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -299,7 +299,7 @@ export default function ChofuPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">2,750円〜10,978円</td>
+                    <td className="px-4 py-3">2,750円〜16,800円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -399,7 +399,7 @@ export default function ChofuPage() {
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">月額1万円台から始めることをおすすめします。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Rintosull（月額 10,978円）</li>
+                  <li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li>
                   <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
                   <li className="text-warm-700">• ELEMENT（1回 2,750円〜 / 通い放題）</li>
                 </ul>
@@ -455,7 +455,7 @@ export default function ChofuPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4〜6回</p>
                 <p className="text-sm text-warm-600 mb-4">手軽に始めたい方に適しています。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Rintosull（10,978円/月）</li>
+                  <li>• Rintosull（8,800円〜/月4回）</li>
                   <li>• ピラティスミラー（11,000円/月6回）</li>
                 </ul>
               </div>

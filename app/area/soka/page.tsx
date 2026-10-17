@@ -22,7 +22,7 @@ const studios = [
     name: 'Rintosull 草加店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
-    price: 'プレミアムプラン 月額10,978円（税込）',
+    price: '4・フルタイム 月8,800円〜（税込・店舗により異なる）／プレミアム フリー・フルタイム 月16,800円（税込）',
     trial: '体験無料キャンペーン実施中',
     features: ['女性専用', 'マシンピラティス', '駅徒歩1分', 'LAVA系列'],
     description: 'LAVA系列の女性専用マシンピラティスです。草加駅西口より徒歩1分です。最安値級の料金です。多彩なプログラムです。',
@@ -31,7 +31,7 @@ const studios = [
     popularPlan: {
       name: '女性専用プラン',
       description: 'LAVA系列の女性専用マシンピラティスです。草加駅西口より徒歩1分です。最安値級の料金です。多彩なプログラムです。',
-      price: 'プレミアムプラン 月額10,978円（税込）',
+      price: '4・フルタイム 月8,800円〜（税込・店舗により異なる）／プレミアム フリー・フルタイム 月16,800円（税込）',
     },
     options: ['女性専用', 'マシンピラティス', '駅徒歩1分', 'LAVA系列', '体験無料キャンペーン実施中'],
     userProfile: {
@@ -149,7 +149,7 @@ const studios = [
 const faqs = [
   { question: 'ピラティス初心者でも大丈夫ですか？', answer: '問題ありません。草加エリアのスタジオは初心者歓迎がほとんどです。Rintosull 草加店は女性専用のため安心して通えます。まずは体験レッスンから始めてみることをおすすめします。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマーなどの専用マシンを使います。マシンはバネで負荷調整ができ初心者にもおすすめです。草加エリアではマシンピラティス対応スタジオが充実しています。' },
-  { question: '草加のピラティスの料金相場は？', answer: 'Rintosull 草加店はプレミアムプラン 月額10,978円です（税込）。目的と頻度に合わせてお選びください。' },
+  { question: '草加のピラティスの料金相場は？', answer: 'Rintosull 草加店は4・フルタイム 月8,800円〜（税込・店舗により異なる）、系列全店通い放題のプレミアム フリー・フルタイムは月16,800円（税込）です。目的と頻度に合わせてお選びください。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。最低2〜3ヶ月は継続することをおすすめします。' },
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えて基礎代謝が上がり、太りにくい体質に変わります。2〜3ヶ月の継続で効果を実感される方が多くなっています。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。Rintosull 草加店は体験無料キャンペーン実施中です。' },
@@ -202,7 +202,7 @@ export default function SokaPage() {
         <section className="py-16 bg-white" id="trial-guide"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">体験レッスン当日の持ち物・服装ガイド</h2><div className="bg-warm-50 rounded-lg p-8 border border-warm-200"><div className="grid grid-cols-1 md:grid-cols-2 gap-8"><div><h3 className="text-lg font-bold text-warm-900 mb-4">必須の持ち物</h3><ul className="space-y-3 text-warm-600"><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>動きやすいウェア</strong>：Tシャツ＋レギンスが定番です。</span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>飲み物（水500ml程度）</strong></span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>フェイスタオル</strong></span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>靴下（滑り止め付き推奨）</strong></span></li></ul></div><div><h3 className="text-lg font-bold text-warm-900 mb-4">服装のポイント</h3><ul className="space-y-3 text-warm-600"><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。</span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>でフォーム確認です。</span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。事前にご確認ください。</span></li><li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。</span></li></ul></div></div><div className="mt-6 p-4 bg-white rounded border border-warm-200"><p className="text-sm text-warm-600"><strong>草加エリアの豆知識：</strong>草加は草加せんべいの発祥地として知られる歴史ある街です。東武スカイツリーラインで北千住まで約15分、東京メトロ直通で都心へもアクセス良好です。ピラティス帰りに周辺を散策するのもおすすめです。</p></div></div></div></section>
 
         <section className="py-16 bg-white" id="kodawari"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">目的別おすすめスタジオ</h2><div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3><p className="text-warm-600 text-sm mb-4">リーズナブルに始めたい方におすすめです。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• Rintosull 草加店（プレミアムプラン 月額10,978円）</li></ul></div>
+          <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3><p className="text-warm-600 text-sm mb-4">リーズナブルに始めたい方におすすめです。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• Rintosull 草加店（月4回 8,800円〜）</li></ul></div>
           <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル重視</h3><p className="text-warm-600 text-sm mb-4">マンツーマンで丁寧な指導です。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• Pilates Mee 草加店</li><li className="text-warm-700">• exeed pilates studio 草加店</li></ul></div>
           <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">女性専用・安心</h3><p className="text-warm-600 text-sm mb-4">女性だけの空間で安心して通えます。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• Rintosull 草加店</li></ul></div>
         </div></div></section>
