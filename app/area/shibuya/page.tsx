@@ -317,7 +317,7 @@ export default function ShibuyaPage() {
                   月額1万円以下から通えます。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• <a href="#studio-4" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">Rintosull</a>（月4回 8,800円〜）</li>
+                  <li className="text-warm-700">• <a href="#studio-7" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">Rintosull</a>（月4回 8,800円〜）</li>
                   <li className="text-warm-700">• <a href="#studio-1" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">zen place pilates</a>（月4回 9,625円〜）</li>
                 </ul>
               </div>
@@ -327,10 +327,10 @@ export default function ShibuyaPage() {
                   女性だけの空間で集中して取り組めます。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• <a href="#studio-2" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">the SILK</a>（音楽×マシン）</li>
-                  <li className="text-warm-700">• <a href="#studio-3" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">ピラティスK</a>（マシングループ）</li>
-                  <li className="text-warm-700">• <a href="#studio-4" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">Rintosull</a>（LAVA系列）</li>
-                  <li className="text-warm-700">• <a href="#studio-8" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">ピラティスミラー</a>（プライベート30分4,400円〜）</li>
+                  <li className="text-warm-700">• <a href="#studio-4" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">the SILK</a>（音楽×マシン）</li>
+                  <li className="text-warm-700">• <a href="#studio-6" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">ピラティスK</a>（マシングループ）</li>
+                  <li className="text-warm-700">• <a href="#studio-7" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">Rintosull</a>（LAVA系列）</li>
+                  <li className="text-warm-700">• <a href="#studio-9" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">ピラティスミラー</a>（プライベート30分4,400円〜）</li>
                   <li className="text-warm-700">• YUZU（パーソナルマシン）</li>
                 </ul>
               </div>
@@ -340,9 +340,9 @@ export default function ShibuyaPage() {
                   マンツーマンで効率よく取り組めます。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• <a href="#studio-6" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">STUDIO IVY</a>（完全個室・月2回15,000円〜）</li>
-                  <li className="text-warm-700">• <a href="#studio-7" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">ELEMENT</a>（30分集中・月4回22,000円）</li>
-                  <li className="text-warm-700">• <a href="#studio-8" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">ピラティスミラー</a>（30分4,400円〜）</li>
+                  <li className="text-warm-700">• <a href="#studio-8" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">STUDIO IVY</a>（完全個室・月2回15,000円〜）</li>
+                  <li className="text-warm-700">• <a href="#studio-2" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">ELEMENT</a>（30分集中・月4回22,000円）</li>
+                  <li className="text-warm-700">• <a href="#studio-9" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">ピラティスミラー</a>（30分4,400円〜）</li>
                 </ul>
               </div>
             </div>
@@ -386,7 +386,7 @@ export default function ShibuyaPage() {
                   月4回で1万円以下のプランです。グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• <a href="#studio-4" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">Rintosull</a>（月4回 8,800円〜）</li>
+                  <li>• <a href="#studio-7" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">Rintosull</a>（月4回 8,800円〜）</li>
                   <li>• <a href="#studio-1" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">zen place pilates</a>（月4回 9,625円〜）</li>
                 </ul>
               </div>
@@ -398,8 +398,8 @@ export default function ShibuyaPage() {
                   マシンピラティスの選択肢が充実しています。選択肢が豊富です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• <a href="#studio-3" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">ピラティスK</a>（月4回 11,220円〜）</li>
-                  <li>• <a href="#studio-6" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">STUDIO IVY</a>（月2回 15,000円〜）</li>
+                  <li>• <a href="#studio-6" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">ピラティスK</a>（月4回 11,220円〜）</li>
+                  <li>• <a href="#studio-8" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">STUDIO IVY</a>（月2回 15,000円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -409,8 +409,8 @@ export default function ShibuyaPage() {
                   マンツーマン指導で効率よく取り組めます。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• <a href="#studio-8" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">ピラティスミラー</a>（30分 4,400円〜）</li>
-                  <li>• <a href="#studio-7" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">ELEMENT</a>（月4回 22,000円）</li>
+                  <li>• <a href="#studio-9" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">ピラティスミラー</a>（30分 4,400円〜）</li>
+                  <li>• <a href="#studio-2" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">ELEMENT</a>（月4回 22,000円）</li>
                 </ul>
               </div>
             </div>
