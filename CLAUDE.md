@@ -953,3 +953,14 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
   - **1to1 横浜店は外さない**: 今日の公式 /studios 一覧に「横浜店」ボタンがあり、店舗ページ https://azure-collaboration.co.jp/studios/yokohama/ は200（鶴屋町3-29-9 タクエー横浜西口第六ビル8F Bフロア・7:00〜23:00）。10/14 の「一覧に無し」と異なる（一覧には404の銀座・北千住・大宮のボタンも残る）
 - 追加2（コーディネーター判断）: **エリア title 冒頭の【2026年10月最新】自動付与を廃止**（refresh-updated-dates.py の③を削除）。title 370件・本文/h1/h2 の【2026年10月最新】10件（h2「料金相場【…】」4・h1 6）・h1 の【2026最新】242件・test-ikebukuro title【2026最新】1件＝**計623件を削除**（371ファイル）。キーワードと語順はそのまま。ラベルを付け直すスクリプトも修正: enrich_61_areas.py（テンプレから【2026最新】削除）、gen-new-areas-batch1〜5・enhance-area-phase0/1・gen-blueocean-202606（【2026最新】→空文字）、boost-winners-202606（料金相場ラベル→なし）、p0-title-ctr-202607（月次バンプ→ラベル除去）。据え置き: pilates-online.md「【2026年10月】全サービス公式確認」（10月に全サービスを公式で確認済みの記事）、記事 title の「2026年最新」72件（年ラベル・自動付与ではない）、refresh-hakusho-monthly.py の【YYYY年M月更新】（月次で実データを再集計した結果のラベル）
 - Rintosull 本川越店（app/area/kawagoe/page.tsx）: 「初月1,980円」→ 公式の「ピラティススタートキャンペーン」（11月末まで・来店当日の登録で通い放題コースが3ヶ月間 月額1,980円・税込）／体験会は無料。カード・説明文・options・FAQ・本文の引用を同じ表現にそろえた。公式 https://www.rintosull.jp/shop/saitama/honkawagoe/ ・ https://www.rintosull.jp/price/ （2026年10月17日確認）
+
+## 2026-10-17 12:00 成長ルーチン C工程（GSC 11〜20位）
+- **/brands/rintosull/**: title/h1 を「口コミ・評判と料金・解約条件・店舗一覧」に（`titleKw`/`metaDescription` を BrandInfo に追加）。公式料金ページ＋公式Q&A（faq.yoga-lava.com）から priceList（3プラン・運営管理費680円・施設使用料2,500円・入会金/登録金各5,000円→体験当日0円・1回券・休会月2,600円・解約金上限25,000円・変更手数料1,200円）＋出典リンク（`priceSources`）・checkedAt。FAQ: 男性→公式「女性専用・梅田店のみ男性可」に訂正、解約金/休会/予約件数・キャンセル60分前・繰越なし/妊娠中を追加。旧 pricingNote「プレミアムプラン月額10,978円」は公式に無い（公式16,800円）→訂正
+  - ⚠️残: エリア6ページ（chuo-rinkan・wakoshi・kokubunji・kunitachi・chofu・soka）に Rintosull「プレミアムプラン 月額10,978円」表記が残る（未修正）
+- **/area/nishinomiya/**: CLUB PILATES 西宮北口店の公式料金表節 `#club-pilates-price`（EFT4 13,090/EFT8 24,090/UNLIMITED 37,290・税表記なし、入会金5,500円、事務手数料2,200円税込、休会 税別1,500円・年4ヶ月、キャンセル規定、住所 平木町2-18・営業時間）。Rintosull 西宮北口店カードの「月4回でLAVA相互利用」「男性10%」は誤り→公式（4・フルタイムは同店のみ、系列全店は16,800円、女性専用、定休 日曜・第4水曜）
+- **data/club-pilates-stores.ts（受け皿6本）**: 価格「14,190円〜」一律だった→公式店舗ページ値（西宮北口・中野坂上 13,090系／他4店 14,190系）＋住所・アクセスを公式に。sitemap の受け皿 lastmod にデータファイルを含めるよう修正
+- **nishi-nippori**: ピラティスK 池袋（圏外）削除、Rintosull日暮里・ソエルスタジオ日暮里を追加、URBAN CLASSIC（体験3,800円→無料・通い放題14,080→税込12,980）・zen 千駄木（1番出口1分→2番出口2分）・YUZU（料金実額・住所）訂正、駅別早見表 `#by-station`
+- **hikarigaoka**: cococara・PALES は公式サイトを確認できず削除。青空（光が丘駅徒歩13分・料金・男性は紹介のみ・水木定休）、zen 練馬（徒歩1分）、CP 練馬（住所・土日17:30）訂正。Rintosull 成増・NAS 光が丘を追加、駅別早見表
+- **izumi**: STUDIO TOU 大阪和泉中央（池田下町173-1・料金）、Joie（上代町113・料金）、PILATES Aloha（マット中心・都度料金）を実データ化、Plaisir は新規受付一時休止を明記、コナミスポーツクラブ和泉中央（徒歩4分・マシンピラティス月7,780円）追加、和泉中央駅主軸の早見表・title
+- **BDC**: TOP「ブランドから探す」に /brands/bdc/ リンクあり・sitemap lastmod 10/17（ブランドは BRAND_DEPS の共有ファイルで全ブランド同日になる）→リンク追加は不要と判断
+- source dd44b095・32c3be4e・7e4c483d／deploy 8adc24c110・precheck ✅ 587頁・本番6URL 200・/api/contact 400・Indexing API 12件すべて429（未送信）
