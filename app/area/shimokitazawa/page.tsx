@@ -17,7 +17,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/shimokitazawa/' },
-  title: '【2026年10月最新】下北沢のピラティス12社を比較｜無料体験1社・月額最安4,800円〜',
+  title: '【2026年10月最新】下北沢のピラティス11社を比較｜無料体験1社・月額最安4,800円〜',
   description: '下北沢エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
   keywords: 'ピラティス,下北沢,東京,世田谷区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -157,17 +157,6 @@ const studios = [
     description: '下北沢エリアのパーソナルマシンピラティス専門スタジオです。一人ひとりの体の状態に合わせた丁寧な指導が特徴です。体験レッスンは3,300円です。1回7,850円〜で本格的なマシンピラティスが受けられます。',
     access: '小田急線・京王井の頭線「下北沢駅」徒歩圏内',
     address: '東京都世田谷区（下北沢エリア）',
-  },
-  {
-    name: 'CLUB PILATES 下北沢（近隣）',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
-    image: '/images/studios/club-pilates.webp',
-    price: '料金は店舗により異なる（公式の店舗ページで確認）',
-    trial: '体験レッスンあり',
-    features: ['最大12名グループ', '世界最大級ブランド', 'マシンピラティス', '豊富なクラス'],
-    description: 'アメリカ発の世界最大級マシンピラティスブランドです。最大12名のグループレッスンで、料金は店舗により異なります。レベル別のクラスが豊富で初心者から上級者まで対応しています。下北沢の近隣エリアに位置し、通いやすい立地です。',
-    access: '下北沢駅から近隣エリア',
-    address: '東京都世田谷区（下北沢近隣）',
   },
   {
     name: 'ピラティスK 下北沢（近隣）',
@@ -318,7 +307,7 @@ export default function ShimokitazawaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス下北沢おすすめ12選<br className="hidden md:block" />
+              ピラティス下北沢おすすめ11選<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較
             </h1>
           </div>
@@ -345,7 +334,7 @@ export default function ShimokitazawaPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、下北沢エリア（世田谷区）でおすすめのピラティススタジオ12選をまとめました。小田急線・京王井の頭線が乗り入れる下北沢駅周辺は、演劇・古着・カフェなどサブカルチャーの街として知られていますが、実はピラティススタジオも充実しています。
+              本ページでは、下北沢エリア（世田谷区）でおすすめのピラティススタジオ11選をまとめました。小田急線・京王井の頭線が乗り入れる下北沢駅周辺は、演劇・古着・カフェなどサブカルチャーの街として知られていますが、実はピラティススタジオも充実しています。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -385,7 +374,7 @@ export default function ShimokitazawaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              下北沢のおすすめピラティススタジオ12選
+              下北沢のおすすめピラティススタジオ11選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -601,7 +590,6 @@ export default function ShimokitazawaPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（マット月4回 9,625円〜）</li>
                   <li>• URBAN CLASSIC PILATES（月4回 9,680円）</li>
-                  <li>• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
                   <li>• ピラティスミラー（月6回 11,000円）</li>
                   <li>• ピラティスK（月4回 11,220円〜）</li>
                 </ul>
@@ -703,7 +691,7 @@ export default function ShimokitazawaPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は下北沢エリア（東京都世田谷区）のおすすめピラティススタジオ12選をご紹介しました。
+              今回は下北沢エリア（東京都世田谷区）のおすすめピラティススタジオ11選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               chocoZAPの月額3,278円やNATURAglamの1回1,073円〜という割安スタジオから、STUDIO IVYやPilates Studio Muniの本格パーソナルマシンピラティスまで、下北沢には多彩な選択肢が揃っています。女性専用スタジオもNATURAglam・ピラティスKの2つがあり、安心して通えます。

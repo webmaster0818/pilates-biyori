@@ -14,9 +14,9 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/marunouchi/' },
-  title: '【2026年10月最新】ピラティス丸の内おすすめ5選人気スタジオの料金プランの比較',
-  description: '丸の内エリアのおすすめピラティススタジオ5選を比較しています。zen place pilates、the SILK、CLUB PILATES、Pilates Mee、STUDIO IVYなど実在スタジオの料金・体験レッスン・アクセスを詳しくご案内します。グループ・セミパーソナル・完全パーソナルまでです。',
-  keywords: 'ピラティス,丸の内,千代田区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place pilates,the SILK,CLUB PILATES,Pilates Mee,STUDIO IVY',
+  title: '【2026年10月最新】ピラティス丸の内おすすめ4選人気スタジオの料金プランの比較',
+  description: '丸の内エリアのおすすめピラティススタジオ4選を比較しています。zen place pilates、the SILK、Pilates Mee、STUDIO IVYなど実在スタジオの料金・体験レッスン・アクセスを詳しくご案内します。グループ・セミパーソナル・完全パーソナルまでです。',
+  keywords: 'ピラティス,丸の内,千代田区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place pilates,the SILK,Pilates Mee,STUDIO IVY',
 }
 
 const studios = [
@@ -87,33 +87,6 @@ const studios = [
     },
   },
   {
-    name: 'CLUB PILATES',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
-    image: '/images/studios/club-pilates.webp',
-    price: '料金は店舗により異なる（公式の店舗ページで確認）',
-    trial: '体験レッスン 0円（30分）',
-    features: ['世界最大級チェーン', '15種類の器具', '男性利用可', '体験0円'],
-    description: '世界最大級のマシンピラティスブランド「CLUB PILATES」です。最大12名の少人数グループレッスンで、リフォーマー・スプリングボード・TRX・チェアなど15種類の器具を完備しています。8つのプログラムと4段階のレベル分けで、初心者から上級者まで対応しています。インストラクター全員が500時間以上の研修を受けた有資格者で、質の高い指導を受けられます。体験レッスンは0円（30分）で気軽にお試し可能です。',
-    access: '丸の内エリアからアクセス可能（詳細は公式サイトでご確認ください）',
-    address: '東京都内（詳細は公式サイトでご確認ください）',
-    popularPlan: {
-      name: 'グループレッスン月4回',
-      description: '最大12名の少人数制です。15種類の器具を使った本格グループレッスンです。4段階のレベル分けで初心者も安心です。',
-      price: '店舗により異なる（公式の店舗ページで確認）',
-    },
-    options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
-      purpose: ['体幹強化', '姿勢改善', 'ボディメイク', 'ダイエット'],
-    },
-    basicInfo: {
-      hours: '月〜金 7:00-21:00 / 土日 7:00-18:00',
-      closed: '不定休',
-      facilities: ['リフォーマー', 'スプリングボード', 'TRX', 'チェア', 'Bosu'],
-    },
-  },
-  {
     name: 'Pilates Mee 築地店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
@@ -177,15 +150,15 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '問題ありません。丸の内エリアのスタジオはほとんどが初心者歓迎です。CLUB PILATESは4段階のレベル分けで初心者専用クラスあり、zen place pilatesはグループ体験1,000円で気軽にお試しできます。STUDIO IVYは完全パーソナルなので自分のペースで進められます。',
+    answer: '問題ありません。丸の内エリアのスタジオはほとんどが初心者歓迎です。zen place pilatesはグループ体験1,000円で気軽にお試しできます。STUDIO IVYは完全パーソナルなので自分のペースで進められます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットピラティスは自重を使ったエクササイズ、マシンピラティスはリフォーマーなどの専用マシンを使用します。マシンはバネの力で負荷を調整できるため初心者にもおすすめです。丸の内エリアの5スタジオはすべてマシンピラティスに対応しています。',
+    answer: 'マットピラティスは自重を使ったエクササイズ、マシンピラティスはリフォーマーなどの専用マシンを使用します。マシンはバネの力で負荷を調整できるため初心者にもおすすめです。丸の内エリアの4スタジオはすべてマシンピラティスに対応しています。',
   },
   {
     question: '丸の内のピラティスの料金相場は？',
-    answer: 'zen place pilatesは月4回10,450円〜、the SILKは月3回12,980円〜、CLUB PILATESは月4回 10,890〜17,050円です（店舗により異なる）。Pilates Meeは通い放題で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）、STUDIO IVYはパーソナルで月2回15,000円〜です。目的と頻度に合わせてお選びください。',
+    answer: 'zen place pilatesは月4回10,450円〜、the SILKは月3回12,980円〜です。Pilates Meeは通い放題で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）、STUDIO IVYはパーソナルで月2回15,000円〜です。目的と頻度に合わせてお選びください。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -193,15 +166,15 @@ const faqs = [
   },
   {
     question: 'ピラティスで痩せますか？',
-    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。CLUB PILATESには高強度・有酸素運動クラスもありダイエットに効果的です。2〜3ヶ月の継続で効果を実感される方が多くなっています。',
+    answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続で効果を実感される方が多くなっています。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があれば問題ありません。the SILKは手ぶらで参加可能でウェア・タオルのレンタルがあります。CLUB PILATESは体験0円（30分）、the SILKも無料体験です。zen place pilatesはグループ体験1,000円で気軽にお試しできます。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。the SILKは手ぶらで参加可能でウェア・タオルのレンタルがあります。the SILKは無料体験です。zen place pilatesはグループ体験1,000円で気軽にお試しできます。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'zen place pilates八重洲スタジオ、CLUB PILATES、STUDIO IVYは男性も通えます。the SILKとPilates Mee築地店は女性専用です。',
+    answer: 'zen place pilates八重洲スタジオ、STUDIO IVYは男性も通えます。the SILKとPilates Mee築地店は女性専用です。',
   },
   {
     question: '仕事帰りに通いやすいスタジオはどこですか？',
@@ -233,7 +206,7 @@ export default function MarunouchiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス丸の内おすすめ5選
+              【2026最新】ピラティス丸の内おすすめ4選
               <br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
@@ -262,7 +235,7 @@ export default function MarunouchiPage() {
               丸の内は東京駅・大手町駅を中心とした日本屈指のビジネス街です。丸ビル・新丸ビルなどの商業施設も充実し、仕事帰りやランチタイムにも通いやすいエリアです。そんな丸の内エリアには、全国展開の大手チェーンから完全パーソナルまで、多彩なピラティススタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、丸の内エリアでおすすめの実在するピラティススタジオ5選をまとめました。
+              本ページでは、丸の内エリアでおすすめの実在するピラティススタジオ4選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -299,7 +272,7 @@ export default function MarunouchiPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              丸の内のおすすめピラティススタジオ5選
+              丸の内のおすすめピラティススタジオ4選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -459,7 +432,7 @@ export default function MarunouchiPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1〜2回からスタートするのがおすすめです。最低2〜3ヶ月継続することで効果を実感できます。CLUB PILATESは4段階のレベル分けがあり、初心者専用クラスから始められます。zen place pilatesはグループ体験1,000円で気軽にお試し可能です。
+                週1〜2回からスタートするのがおすすめです。最低2〜3ヶ月継続することで効果を実感できます。zen place pilatesはグループ体験1,000円で気軽にお試し可能です。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
@@ -493,7 +466,6 @@ export default function MarunouchiPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">月2〜4回</p>
                 <p className="text-sm text-warm-600 mb-4">週1回ペースで着実に成果です。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
                   <li>• STUDIO IVY（15,000円/月2回）</li>
                 </ul>
               </div>
@@ -530,7 +502,7 @@ export default function MarunouchiPage() {
                   <h3 className="text-xl font-bold text-warm-900">レッスン形式を選ぶ</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  丸の内エリアはグループ（zen place pilates・CLUB PILATES・the SILK）、セミパーソナル最大3名（Pilates Mee）、完全パーソナル（STUDIO IVY）と多彩な形式が揃っています。自分の好みや予算に合わせてお選びください。
+                  丸の内エリアはグループ（zen place pilates・the SILK）、セミパーソナル最大3名（Pilates Mee）、完全パーソナル（STUDIO IVY）と多彩な形式が揃っています。自分の好みや予算に合わせてお選びください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -539,7 +511,7 @@ export default function MarunouchiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  CLUB PILATESは体験0円（30分）、the SILKも無料体験です。zen place pilatesはグループ体験1,000円で気軽にお試し可能です。まずは体験で雰囲気やインストラクターとの相性をご確認ください。
+                  the SILKは無料体験です。zen place pilatesはグループ体験1,000円で気軽にお試し可能です。まずは体験で雰囲気やインストラクターとの相性をご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -582,13 +554,13 @@ export default function MarunouchiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は丸の内エリアのおすすめピラティススタジオ5選をご紹介しました。
+              今回は丸の内エリアのおすすめピラティススタジオ4選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              丸の内は東京駅・大手町駅を中心とした日本屈指のビジネス街で、仕事帰りに通いやすいスタジオが充実しています。全国150店舗他店利用のzen place pilates（月4回10,450円〜・体験1,000円）、女性専用&音楽レッスンのthe SILK（月3回12,980円〜・体験無料）、世界最大級チェーンのCLUB PILATES（月4回 10,890〜17,050円・店舗により異なる・体験0円）、セミパーソナル最大3名のPilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）、完全パーソナルのSTUDIO IVY（月2回15,000円〜）と、それぞれ特徴の異なるスタジオが揃っています。
+              丸の内は東京駅・大手町駅を中心とした日本屈指のビジネス街で、仕事帰りに通いやすいスタジオが充実しています。全国150店舗他店利用のzen place pilates（月4回10,450円〜・体験1,000円）、女性専用&音楽レッスンのthe SILK（月3回12,980円〜・体験無料）、セミパーソナル最大3名のPilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）、完全パーソナルのSTUDIO IVY（月2回15,000円〜）と、それぞれ特徴の異なるスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              まずは無料体験ができるCLUB PILATESやthe SILKから試してみるのがおすすめです。本ページの情報を、スタジオ選びにお役立てください。
+              まずは無料体験ができるthe SILKから試してみるのがおすすめです。本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">本ページが、ピラティススタジオ選びの参考になれば幸いです。</p>
           </div>
@@ -599,7 +571,7 @@ export default function MarunouchiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンのご予約</h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              CLUB PILATESとthe SILKは体験0円です。<br />
+              the SILKは体験0円です。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link

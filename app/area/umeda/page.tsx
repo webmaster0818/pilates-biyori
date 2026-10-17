@@ -88,16 +88,6 @@ const studios = [
     },
   },
   {
-    name: 'CLUB PILATES 梅田',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
-    image: '/images/studios/club-pilates.webp',
-    price: '料金は店舗により異なる（公式の店舗ページで確認）',
-    trial: '体験レッスン 無料',
-    features: ['アメリカ発', 'グループ&プライベート', '梅田駅近', '初心者歓迎'],
-    description: 'アメリカ発の世界最大級ピラティススタジオチェーンです。梅田駅から徒歩3分です。グループレッスンからプライベートレッスンまで幅広く対応しています。全米No.1のピラティスメソッドで、初心者から上級者まで満足できるプログラムを提供しています。',
-    access: '梅田駅から徒歩3分',
-  },
-  {
     name: 'Dr.ピラティス 梅田店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11979O.1.Z164554L.U1357808',
     image: '/images/studios/dr-pilates.webp',
@@ -192,7 +182,7 @@ export default function UmedaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス梅田おすすめ6選<br className="hidden md:block" />
+              ピラティス梅田おすすめ5選<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較
             </h1>
           </div>
@@ -219,7 +209,7 @@ export default function UmedaPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、梅田エリアでおすすめのピラティススタジオ6選をまとめました。
+              本ページでは、梅田エリアでおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -259,7 +249,7 @@ export default function UmedaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              梅田のおすすめピラティススタジオ6選
+              梅田のおすすめピラティススタジオ5選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -442,7 +432,7 @@ export default function UmedaPage() {
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
                   <p className="text-3xl font-bold text-warm-800 mb-2">13,200円〜15,070円</p>
-                  <p className="text-sm text-warm-600">zen place pilates梅田の月4回13,200円〜が最安クラスです。CLUB PILATESは月4回 10,890〜17,050円です（店舗により異なる）。ピラティスKは月4回15,070円〜です。</p>
+                  <p className="text-sm text-warm-600">zen place pilates梅田の月4回13,200円〜が最安クラスです。ピラティスKは月4回15,070円〜です。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">パーソナル・プライベートレッスン</h3>

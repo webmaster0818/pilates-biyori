@@ -21,33 +21,6 @@ export const metadata = {
 
 const studios = [
   {
-    name: 'CLUB PILATES 小倉店',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
-    image: '/images/studios/club-pilates.webp',
-    price: '料金は店舗により異なる（公式の店舗ページで確認）',
-    trial: '体験レッスン 無料（30分）',
-    features: ['世界最大級', '15種類の器具', '男性利用可', '4段階レベル'],
-    description: '世界最大級のマシンピラティスブランドです。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類の器具を完備しています。8つのプログラムと4段階のレベル分けで初心者から上級者まで対応しています。',
-    access: 'JR「小倉駅」周辺',
-    address: '福岡県北九州市小倉北区（詳細は公式サイトでご確認ください）',
-    popularPlan: {
-      name: 'グループ月4回プラン',
-      description: '15種類の器具を使った本格グループレッスンです。',
-      price: '店舗により異なる（公式の店舗ページで確認）',
-    },
-    options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
-      purpose: ['体幹強化', '姿勢改善', 'ボディメイク', 'パフォーマンス向上'],
-    },
-    basicInfo: {
-      hours: '月〜金 7:00-21:00 / 土日 7:00-18:00',
-      closed: '不定休',
-      facilities: ['リフォーマー', 'スプリングボード', 'TRX', 'チェア', 'Bosu'],
-    },
-  },
-  {
     name: 'Rintosull 小倉店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
@@ -177,7 +150,7 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '問題ありません。小倉エリアのスタジオはほとんどが初心者歓迎です。Rintosullは87%以上が初心者、CLUB PILATESは4段階のレベル分けです。',
+    answer: '問題ありません。小倉エリアのスタジオはほとんどが初心者歓迎です。Rintosullは87%以上が初心者です。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
@@ -185,7 +158,7 @@ const faqs = [
   },
   {
     question: '小倉のピラティスの料金相場は？',
-    answer: 'スターピラティスは月額5,500円〜と最安です。Rintosullは月4回8,800円です。CLUB PILATESは月4回 10,890〜17,050円です（店舗により異なる）。',
+    answer: 'スターピラティスは月額5,500円〜と最安です。Rintosullは月4回8,800円です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -197,11 +170,11 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があれば問題ありません。CLUB PILATESとRintosullは無料体験を実施しています。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。Rintosullは無料体験を実施しています。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'CLUB PILATES小倉とHeart&Body Studio Leadは男性も通えます。Rintosull・スターピラティス・arugamamaは女性専用です。',
+    answer: 'Heart&Body Studio Leadは男性も通えます。Rintosull・スターピラティス・arugamamaは女性専用です。',
   },
   {
     question: 'サウナ付きのスタジオはありますか？',
@@ -234,7 +207,7 @@ export default function KokuraPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス小倉おすすめ5選<br className="hidden md:block" />
+              【2026最新】ピラティス小倉おすすめ4選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -259,7 +232,7 @@ export default function KokuraPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、小倉・北九州エリアでおすすめのピラティススタジオ5選をまとめました。
+              本ページでは、小倉・北九州エリアでおすすめのピラティススタジオ4選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -298,7 +271,7 @@ export default function KokuraPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              小倉のおすすめピラティススタジオ5選
+              小倉のおすすめピラティススタジオ4選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -441,7 +414,6 @@ export default function KokuraPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• スターピラティス（サウナ・個室シャワー）</li>
-                  <li className="text-warm-700">• CLUB PILATES（15種類の器具）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -505,9 +477,7 @@ export default function KokuraPage() {
                 <p className="text-sm text-warm-600 mb-4">
                   大手マシン専門です。
                 </p>
-                <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
-                </ul>
+                <ul className="text-sm text-warm-700 space-y-1"><li>該当なし</li></ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">少人数制</h3>
@@ -555,7 +525,7 @@ export default function KokuraPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  CLUB PILATESとRintosullは無料体験を実施しています。体験レッスンで実際の雰囲気をご確認ください。
+                  Rintosullは無料体験を実施しています。体験レッスンで実際の雰囲気をご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

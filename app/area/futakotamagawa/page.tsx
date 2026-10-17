@@ -17,7 +17,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/futakotamagawa/' },
-  title: '【2026年10月最新】二子玉川のピラティス6社を比較｜無料体験3社・月額最安10,450円〜',
+  title: '【2026年10月最新】二子玉川のピラティス5社を比較｜無料体験2社・月額最安10,450円〜',
   description: '二子玉川エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
   keywords: 'ピラティス,二子玉川,世田谷,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -141,33 +141,6 @@ const studios = [
     },
   },
   {
-    name: 'CLUB PILATES 二子玉川店',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
-    image: '/images/studios/club-pilates.webp',
-    price: '料金は店舗により異なる（公式の店舗ページで確認）',
-    trial: '体験レッスン 無料（当日入会で入会金無料）',
-    features: ['世界最大級', '15種類の器具', '二子玉川駅徒歩3分', '男性利用可'],
-    description: '世界最大級のマシンピラティスブランドです。二子玉川駅西口から徒歩3分です。最大12名の少人数制グループレッスンで、15種類のマシン・器具を1人1台完備しています。8つのプログラムと4段階のレベルに分けたクラスから選択可能です。',
-    access: '東急田園都市線・大井町線「二子玉川駅」西口 徒歩3分',
-    address: '東京都世田谷区玉川3-15-1 曽根ビル 2F',
-    popularPlan: {
-      name: 'グループ月4回プラン',
-      description: '15種類の器具を使った本格グループレッスンです。4段階のレベル分けで安心です。',
-      price: '店舗により異なる（公式の店舗ページで確認）',
-    },
-    options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
-      purpose: ['体幹強化', '姿勢改善', 'ボディメイク', 'パフォーマンス向上'],
-    },
-    basicInfo: {
-      hours: '月〜金 7:00-21:00 / 土日 7:00-18:00',
-      closed: '不定休',
-      facilities: ['リフォーマー', 'スプリングボード', 'TRX', 'チェア', 'Bosu'],
-    },
-  },
-  {
     name: 'ピラティスミラー 二子玉川',
     image: '/images/studios/pilates-mirror.webp',
     price: '月会費 11,000円（月6回）',
@@ -203,7 +176,7 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '問題ありません。二子玉川のスタジオのほとんどが初心者歓迎です。the SILKは初心者が80%、CLUB PILATESはレベル分けがあるので安心です。',
+    answer: '問題ありません。二子玉川のスタジオのほとんどが初心者歓迎です。the SILKは初心者が80%です。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
@@ -223,7 +196,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があれば問題ありません。the SILKは手ぶらで参加可能の無料体験、CLUB PILATESも無料体験を実施しています。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。the SILKは手ぶらで参加できる無料体験を実施しています。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
@@ -260,7 +233,7 @@ export default function FutakotamagawaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス二子玉川おすすめ6選<br className="hidden md:block" />
+              【2026最新】ピラティス二子玉川おすすめ5選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -287,7 +260,7 @@ export default function FutakotamagawaPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、二子玉川エリアでおすすめのピラティススタジオ6選をまとめました。
+              本ページでは、二子玉川エリアでおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -327,7 +300,7 @@ export default function FutakotamagawaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              二子玉川のおすすめピラティススタジオ6選
+              二子玉川のおすすめピラティススタジオ5選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -470,7 +443,6 @@ export default function FutakotamagawaPage() {
                   充実したマシン設備で本格的なレッスンを受けられます。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• CLUB PILATES（15種類の器具）</li>
                   <li className="text-warm-700">• BDC PILATES（日本初マシン専門）</li>
                   <li className="text-warm-700">• zen place pilates（各種マシン完備）</li>
                 </ul>
@@ -482,7 +454,6 @@ export default function FutakotamagawaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• BDC PILATES（徒歩2分）</li>
-                  <li className="text-warm-700">• CLUB PILATES（徒歩3分）</li>
                   <li className="text-warm-700">• zen place pilates（徒歩4分）</li>
                 </ul>
               </div>
@@ -540,7 +511,6 @@ export default function FutakotamagawaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• the SILK（12,980円〜）</li>
-                  <li>• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
                   <li>• BDC PILATES（15,400円〜）</li>
                 </ul>
               </div>
@@ -590,7 +560,7 @@ export default function FutakotamagawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。the SILKとCLUB PILATESは無料体験を実施しています。zen placeは体験当日入会で入会金無料です。体験レッスンをご利用ください。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。the SILKは無料体験を実施しています。zen placeは体験当日入会で入会金無料です。体験レッスンをご利用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

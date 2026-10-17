@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/hiyoshi/' },
-  title: '【2026年10月最新】ピラティス日吉おすすめ5選人気スタジオの料金プランの比較',
-  description: '日吉エリアのおすすめピラティススタジオ5選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス日吉おすすめ4選人気スタジオの料金プランの比較',
+  description: '日吉エリアのおすすめピラティススタジオ4選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,日吉,元住吉,港北区,横浜市,神奈川,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -62,20 +62,6 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', '完全個室', '更衣室'] },
   },
   {
-    name: 'CLUB PILATES 日吉店',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
-    image: '/images/studios/club-pilates.webp', reviewCount: 102,
-    price: '料金は店舗により異なる（公式の店舗ページで確認）', trial: '体験レッスン 無料（30分イントロクラス）',
-    features: ['世界最大級', '15種類の器具', '男性利用可', '4段階レベル分け'],
-    description: '世界最大級のマシンピラティスブランドです。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類の器具を完備しています。8つのプログラムと4段階のレベル分けです。',
-    access: '東急東横線・市営グリーンライン「日吉駅」徒歩4分',
-    address: '神奈川県横浜市港北区日吉エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'グループ月4回プラン', description: '15種類の器具を使った本格グループレッスンです。4段階のレベル分けで安心です。', price: '店舗により異なる（公式の店舗ページで確認）' },
-    options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性75% / 男性25%', purpose: ['体幹強化', '姿勢改善', 'ボディメイク', 'パフォーマンス向上'] },
-    basicInfo: { hours: '月〜金 7:00-21:00 / 土日 7:00-18:00', closed: '不定休', facilities: ['リフォーマー', 'スプリングボード', 'TRX', 'チェア', 'Bosu'] },
-  },
-  {
     name: 'Pilates Mee日吉店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
@@ -101,14 +87,14 @@ const studios = [
 ]
 
 const faqs = [
-  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '問題ありません。日吉エリアのスタジオはほとんどが初心者歓迎です。Rintosullは87%以上が初心者、CLUB PILATESは4段階のレベル分けがあります。' },
+  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '問題ありません。日吉エリアのスタジオはほとんどが初心者歓迎です。Rintosullは87%以上が初心者です。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。日吉はマシン専門スタジオが充実しています。' },
   { question: '日吉のピラティスの料金相場は？', answer: 'グループ月4回で8,800円〜10,450円程度です。Rintosullが月4回8,800円で最安級です。パーソナルはYUZUが1回8,800円〜です。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。' },
   { question: 'ピラティスで痩せますか？', answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。' },
-  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。YUZUは500円、Rintosull・CLUB PILATESは無料体験を実施しています。' },
-  { question: '男性でも通えるスタジオはありますか？', answer: 'zen place日吉、CLUB PILATES、YUZUは男性も通えます。Rintosullは女性専用です。' },
-  { question: '日吉駅から近いスタジオは？', answer: 'zen placeが駅徒歩2分で最寄りです。CLUB PILATESが徒歩4分、YUZUが徒歩5分です。' },
+  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。YUZUは500円、Rintosullは無料体験を実施しています。' },
+  { question: '男性でも通えるスタジオはありますか？', answer: 'zen place日吉、YUZUは男性も通えます。Rintosullは女性専用です。' },
+  { question: '日吉駅から近いスタジオは？', answer: 'zen placeが駅徒歩2分で最寄りです。YUZUが徒歩5分です。' },
   { question: 'ヨガとピラティスの両方やりたい場合は？', answer: 'Rintosullはプレミアムフリーフルタイム（18,800円）でLAVA等系列のヨガスタジオも全国で利用可能です。' },
   { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。最低2ヶ月は継続することをおすすめします。' },
 ]
@@ -130,7 +116,7 @@ export default function HiyoshiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス日吉おすすめ5選<br className="hidden md:block" />
+              【2026最新】ピラティス日吉おすすめ4選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -155,7 +141,7 @@ export default function HiyoshiPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、日吉・元住吉エリアでおすすめのピラティススタジオ5選をまとめました。
+              本ページでは、日吉・元住吉エリアでおすすめのピラティススタジオ4選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -176,7 +162,7 @@ export default function HiyoshiPage() {
         {/* Studios List */}
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">日吉のおすすめピラティススタジオ5選</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">日吉のおすすめピラティススタジオ4選</h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}
             </div>
@@ -214,7 +200,7 @@ export default function HiyoshiPage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">女性専用と男女共用を確認</h3>
-                <p className="text-warm-600 leading-relaxed">Rintosullは女性専用、zen place・CLUB PILATES・YUZUは男女共用です。男性の方は事前に対応スタジオをご確認ください。</p>
+                <p className="text-warm-600 leading-relaxed">Rintosullは女性専用、zen place・YUZUは男女共用です。男性の方は事前に対応スタジオをご確認ください。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件を確認</h3>
@@ -284,7 +270,6 @@ export default function HiyoshiPage() {
                 <p className="text-warm-600 text-sm mb-4">マンツーマンで確実に効果です。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• YUZU（体験500円・1回8,800円〜）</li>
-                  <li className="text-warm-700">• CLUB PILATES（プライベートレッスンあり・料金は店舗で確認）</li>
                 </ul>
               </div>
             </div>
@@ -325,9 +310,7 @@ export default function HiyoshiPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜15,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">大手チェーンの充実レッスンです。</p>
-                <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
-                </ul>
+                <ul className="text-sm text-warm-700 space-y-1"><li>該当なし</li></ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 18,000円〜</h3>
@@ -356,7 +339,7 @@ export default function HiyoshiPage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div>
-                <p className="text-warm-600 leading-relaxed">Rintosull・CLUB PILATESは無料体験を実施しています。YUZUは500円、zen placeは1,000円で体験可能です。</p>
+                <p className="text-warm-600 leading-relaxed">Rintosullは無料体験を実施しています。YUZUは500円、zen placeは1,000円で体験可能です。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div>

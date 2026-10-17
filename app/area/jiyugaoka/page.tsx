@@ -14,7 +14,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/jiyugaoka/' },
-  title: '【2026年10月最新】自由が丘のピラティス6社を比較｜無料体験3社・月額最安10,450円〜',
+  title: '【2026年10月最新】自由が丘のピラティス5社を比較｜無料体験2社・月額最安10,450円〜',
   description: '自由が丘エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
   keywords: 'ピラティス,自由が丘,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -116,33 +116,6 @@ const studios = [
     },
   },
   {
-    name: 'CLUB PILATES 自由が丘店',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
-    image: '/images/studios/club-pilates.webp',
-    price: '料金は店舗により異なる（公式の店舗ページで確認）',
-    trial: '体験レッスン 無料（30分イントロクラス）',
-    features: ['世界最大級', '15種類の器具', '男性利用可', '4段階レベル'],
-    description: '世界最大級のマシンピラティスブランドです。最大12名の少人数制グループレッスンで、リフォーマー・スプリングボード・TRX・チェアなど15種類のマシン・器具を1人1台完備しています。8つのプログラムと4段階のレベル分けで初心者から上級者まで対応しています。',
-    access: '東急東横線・大井町線「自由が丘駅」周辺',
-    address: '東京都目黒区自由が丘エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: {
-      name: 'グループ月4回プラン',
-      description: '15種類の器具を使った本格グループレッスンです。4段階のレベル分けで安心です。',
-      price: '店舗により異なる（公式の店舗ページで確認）',
-    },
-    options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
-      purpose: ['体幹強化', '姿勢改善', 'ボディメイク', 'パフォーマンス向上'],
-    },
-    basicInfo: {
-      hours: '月〜金 7:00-21:00 / 土日 7:00-18:00',
-      closed: '不定休',
-      facilities: ['リフォーマー', 'スプリングボード', 'TRX', 'チェア', 'Bosu'],
-    },
-  },
-  {
     name: '自由が丘ピラティススタジオ',
     image: '/images/studios/jiyugaoka-pilates.webp',
     price: 'パーソナル 1回 8,800円〜',
@@ -189,7 +162,7 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '問題ありません。自由が丘エリアのスタジオはほとんどが初心者歓迎です。CLUB PILATESは4段階のレベル分け、the SILKは体験者の約8割がピラティス未経験者です。',
+    answer: '問題ありません。自由が丘エリアのスタジオはほとんどが初心者歓迎です。the SILKは体験者の約8割がピラティス未経験者です。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
@@ -209,11 +182,11 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があれば問題ありません。the SILKは手ぶらで体験可能です（ウェア・タオル無料貸出）。CLUB PILATESは無料イントロクラスがあります。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。the SILKは手ぶらで体験可能です（ウェア・タオル無料貸出）。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'zen place自由が丘、CLUB PILATES、ピラティスミラーは男性も通えます。the SILKは女性専用です。',
+    answer: 'zen place自由が丘、ピラティスミラーは男性も通えます。the SILKは女性専用です。',
   },
   {
     question: '子連れで通えるスタジオはありますか？',
@@ -246,7 +219,7 @@ export default function JiyugaokaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス自由が丘おすすめ6選<br className="hidden md:block" />
+              【2026最新】ピラティス自由が丘おすすめ5選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -271,7 +244,7 @@ export default function JiyugaokaPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、自由が丘エリアでおすすめのピラティススタジオ6選をまとめました。
+              本ページでは、自由が丘エリアでおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -310,7 +283,7 @@ export default function JiyugaokaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              自由が丘のおすすめピラティススタジオ6選
+              自由が丘のおすすめピラティススタジオ5選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -518,7 +491,6 @@ export default function JiyugaokaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• the SILK（12,980円〜）</li>
-                  <li>• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -566,7 +538,7 @@ export default function JiyugaokaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKとCLUB PILATESは無料体験を実施しています。zen placeは1,000円、ピラティスミラーは2,200円で体験可能です。
+                  the SILKは無料体験を実施しています。zen placeは1,000円、ピラティスミラーは2,200円で体験可能です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

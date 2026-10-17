@@ -14,27 +14,12 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kitakyushu/' },
-  title: '【2026年10月最新】ピラティス北九州おすすめ6選人気スタジオの料金プランの比較',
-  description: '北九州エリアのおすすめピラティススタジオ6選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。小倉・八幡エリアで初心者でも安心して通えるスタジオが見つかります。',
+  title: '【2026年10月最新】ピラティス北九州おすすめ5選人気スタジオの料金プランの比較',
+  description: '北九州エリアのおすすめピラティススタジオ5選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。小倉・八幡エリアで初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,北九州,小倉,八幡,福岡,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
 const studios = [
-  {
-    name: 'CLUB PILATES 小倉店',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
-    image: '/images/studios/club-pilates.webp',
-    price: '料金は店舗により異なる（公式の店舗ページで確認）',
-    trial: '体験レッスン 無料（30分）',
-    features: ['世界最大級', '15種類の器具', '男性利用可', '4段階レベル'],
-    description: '世界最大級のマシンピラティスブランドです。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類の器具を完備しています。8つのプログラムと4段階のレベル分けで初心者から上級者まで対応しています。',
-    access: 'JR「小倉駅」周辺',
-    address: '福岡県北九州市小倉北区（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'グループ月4回プラン', description: '15種類の器具を使った本格グループレッスンです。', price: '店舗により異なる（公式の店舗ページで確認）' },
-    options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['体幹強化', '姿勢改善', 'ボディメイク', 'パフォーマンス向上'] },
-    basicInfo: { hours: '月〜金 7:00-21:00 / 土日 7:00-18:00', closed: '不定休', facilities: ['リフォーマー', 'スプリングボード', 'TRX', 'チェア', 'Bosu'] },
-  },
   {
     name: 'Rintosull 小倉店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
@@ -111,15 +96,15 @@ const studios = [
 ]
 
 const faqs = [
-  { question: '北九州でピラティス初心者におすすめのスタジオは？', answer: 'Rintosull小倉店は会員の87%以上が初心者で、月4回8,800円とリーズナブルです。CLUB PILATESは4段階のレベル分けで段階的にステップアップできます。' },
-  { question: '北九州のピラティスの料金相場は？', answer: 'スターピラティスは月額5,500円〜と最安級です。Rintosullは月4回8,800円、pilates Kは月4回13,420円、CLUB PILATESは月4回 10,890〜17,050円（店舗により異なる）が目安です。' },
+  { question: '北九州でピラティス初心者におすすめのスタジオは？', answer: 'Rintosull小倉店は会員の87%以上が初心者で、月4回8,800円とリーズナブルです。' },
+  { question: '北九州のピラティスの料金相場は？', answer: 'スターピラティスは月額5,500円〜と最安級です。Rintosullは月4回8,800円、pilates Kは月4回13,420円が目安です。' },
   { question: 'マシンピラティスとマットピラティスの違いは？', answer: 'マシンピラティスはリフォーマー等の専用マシンを使い、負荷調整しやすく初心者にもおすすめです。マットピラティスは自重中心のエクササイズです。' },
-  { question: '男性が通えるスタジオはありますか？', answer: 'CLUB PILATES小倉店とピラティススタジオDEP、Heart&Body Studio Leadは男性も受講可能です。' },
-  { question: '体験レッスンは何を持っていけばいい？', answer: '動きやすい服装、飲み物、フェイスタオル、滑り止め付き靴下があれば可能です。CLUB PILATESとRintosullは無料体験を実施中です。' },
+  { question: '男性が通えるスタジオはありますか？', answer: 'ピラティススタジオDEP、Heart&Body Studio Leadは男性も受講可能です。' },
+  { question: '体験レッスンは何を持っていけばいい？', answer: '動きやすい服装、飲み物、フェイスタオル、滑り止め付き靴下があれば可能です。Rintosullは無料体験を実施中です。' },
   { question: '車で通えるスタジオはありますか？', answer: 'pilates Kイオンモール八幡東店は駐車場無料です。スターピラティスはセントシティ地下駐車場3時間無料です。他のスタジオも周辺にコインパーキングがあります。' },
   { question: 'どのくらいの頻度で通えばいい？', answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回に増やすと、効果を実感しやすくなります。最低2〜3ヶ月の継続が大切です。' },
-  { question: '小倉駅から近いスタジオは？', answer: 'スターピラティスは小倉駅直結です。CLUB PILATES・Rintosullも小倉駅周辺にあり、徒歩圏内でアクセス良好です。' },
-  { question: 'パーソナルレッスンが受けられるスタジオは？', answer: 'ピラティススタジオDEPは理学療法士による完全マンツーマンレッスンです。CLUB PILATESもプライベートレッスンを提供しています（料金は店舗で確認）。' },
+  { question: '小倉駅から近いスタジオは？', answer: 'スターピラティスは小倉駅直結です。Rintosullも小倉駅周辺にあり、徒歩圏内でアクセス良好です。' },
+  { question: 'パーソナルレッスンが受けられるスタジオは？', answer: 'ピラティススタジオDEPは理学療法士による完全マンツーマンレッスンです。' },
   { question: 'ピラティスはどのくらいで効果が出る？', answer: '個人差はありますが、2ヶ月を過ぎた頃から効果を実感される方が多くなっています。姿勢改善は比較的早く、ボディメイクは3〜6ヶ月の継続が目安です。' },
 ]
 
@@ -139,7 +124,7 @@ export default function KitakyushuPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス北九州おすすめ6選<br className="hidden md:block" />
+              【2026最新】ピラティス北九州おすすめ5選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -161,7 +146,7 @@ export default function KitakyushuPage() {
 
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-8">本ページでは、北九州エリアでおすすめのピラティススタジオ6選をまとめました。</p>
+            <p className="text-warm-600 leading-relaxed mb-8">本ページでは、北九州エリアでおすすめのピラティススタジオ5選をまとめました。</p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
@@ -180,7 +165,7 @@ export default function KitakyushuPage() {
 
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">北九州のおすすめピラティススタジオ6選</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">北九州のおすすめピラティススタジオ5選</h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
                 <StudioCard key={index} studio={studio} index={index} />
@@ -284,7 +269,6 @@ export default function KitakyushuPage() {
                 <p className="text-warm-600 text-sm mb-4">医療系資格者による指導しています。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• DEP（理学療法士がインストラクター）</li>
-                  <li className="text-warm-700">• CLUB PILATES（500時間研修済み）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -333,7 +317,6 @@ export default function KitakyushuPage() {
                 <p className="text-sm text-warm-600 mb-4">大手マシン専門です。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• pilates K（13,420円〜）</li>
-                  <li>• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -342,7 +325,6 @@ export default function KitakyushuPage() {
                 <p className="text-sm text-warm-600 mb-4">専門家による個別指導しています。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• DEP（1回 9,900円・月2回 14,800円〜）</li>
-                  <li>• CLUB PILATES（プライベートレッスンあり・料金は店舗で確認）</li>
                 </ul>
               </div>
             </div>
@@ -363,7 +345,7 @@ export default function KitakyushuPage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div>
-                <p className="text-warm-600 leading-relaxed">CLUB PILATES・Rintosull・pilates Kは無料体験があります。2〜3ヶ所は体験してから決めることをおすすめします。</p>
+                <p className="text-warm-600 leading-relaxed">Rintosull・pilates Kは無料体験があります。2〜3ヶ所は体験してから決めることをおすすめします。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div>

@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/shirokanatakanawa/' },
-  title: '【2026年10月最新】ピラティス白金高輪おすすめ9選人気スタジオの料金プランの比較',
-  description: '白金高輪エリアのおすすめピラティススタジオ9選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。白金台・高輪・麻布十番の周辺スタジオも紹介しています。',
+  title: '【2026年10月最新】ピラティス白金高輪おすすめ8選人気スタジオの料金プランの比較',
+  description: '白金高輪エリアのおすすめピラティススタジオ8選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。白金台・高輪・麻布十番の周辺スタジオも紹介しています。',
   keywords: 'ピラティス,白金高輪,港区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,白金台,高輪',
 }
 
@@ -100,20 +100,6 @@ const studios = [
     basicInfo: { hours: 'お問い合わせください', closed: '不定休', facilities: ['リフォーマー完備', 'ロッカー', 'パウダールーム'] },
   },
   {
-    name: 'CLUB PILATES 港区エリア',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
-    image: '/images/studios/club-pilates.webp', reviewCount: 110,
-    price: '料金は店舗により異なる（公式の店舗ページで確認）', trial: '体験レッスンあり',
-    features: ['世界最大級', '8種類のクラス', '4段階レベル', '国際基準インストラクター'],
-    description: '世界最大級のマシンピラティススタジオです。8種類のクラスを4段階の難易度レベルで提供し、初心者から上級者まで幅広く対応しています。国際基準の教育を受けたインストラクターが在籍しています。白金高輪エリアからもアクセス可能な港区内の店舗で本格的なピラティスを体験できます。',
-    access: '白金高輪駅からアクセス可能な港区内店舗',
-    address: '東京都港区（港区エリア）',
-    popularPlan: { name: 'グループリフォーマー', description: '8種類のマシンピラティスクラスから選べます。', price: '店舗により異なる（公式の店舗ページで確認）' },
-    options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性70% / 男性30%', purpose: ['ボディメイク', '体幹強化', '柔軟性向上', 'パフォーマンス向上'] },
-    basicInfo: { hours: '店舗により異なる', closed: '店舗により異なる', facilities: ['リフォーマー', 'EXO-Chair', 'TRX', 'Springboard'] },
-  },
-  {
     name: 'ピラティスK 表参道店',
     officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp', reviewCount: 130,
@@ -166,10 +152,10 @@ export default function ShirokanatakanwaPage() {
         { name: '白金高輪', url: 'https://biyori-pilates.com/area/shirokanatakanawa/' },
       ]} />
       <main className="pt-20 bg-white">
-        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス白金高輪おすすめ9選<br className="hidden md:block" />人気スタジオの料金プランの比較</h1></div></section>
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス白金高輪おすすめ8選<br className="hidden md:block" />人気スタジオの料金プランの比較</h1></div></section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">白金高輪</span></nav></div></section>
         <section className="py-12 bg-white">
-          <div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-600 leading-relaxed mb-8">本ページでは、白金高輪エリアでおすすめのピラティススタジオ9選をまとめました。白金台・高輪・麻布十番など近隣エリアのスタジオも含めてご紹介します。</p>
+          <div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-600 leading-relaxed mb-8">本ページでは、白金高輪エリアでおすすめのピラティススタジオ8選をまとめました。白金台・高輪・麻布十番など近隣エリアのスタジオも含めてご紹介します。</p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700"><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>白金高輪でピラティススタジオを探している</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>上質な空間でトレーニングしたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較して自分に合うスタジオを見つけたい</span></li></ul>
@@ -179,7 +165,7 @@ export default function ShirokanatakanwaPage() {
         </section>
 
         <PriceComparisonTable studios={studios} areaName="白金高輪" />
-        <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">白金高輪のおすすめピラティススタジオ9選</h2><div className="space-y-8">{[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
+        <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">白金高輪のおすすめピラティススタジオ8選</h2><div className="space-y-8">{[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
 
         {/* Price Market Section */}
         <section className="py-16 bg-white" id="price-market">
@@ -293,7 +279,7 @@ export default function ShirokanatakanwaPage() {
         <section className="py-16 bg-warm-50"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">おすすめの期間・頻度</h2><div className="bg-white rounded-lg p-8 border border-warm-200"><h3 className="text-xl font-bold text-warm-900 mb-4">初心者の方</h3><p className="text-warm-600 leading-relaxed mb-6">週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。</p><h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイク目的の方</h3><p className="text-warm-600 leading-relaxed mb-6">週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。</p><h3 className="text-xl font-bold text-warm-900 mb-4">健康管理目的の方</h3><p className="text-warm-600 leading-relaxed">週1回のペースで無理なく継続することをおすすめします。</p></div></div></section>
         <section className="py-16 bg-white"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">失敗しないスタジオの選び方</h2><div className="space-y-8"><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span><h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3></div><p className="text-warm-600 leading-relaxed">ダイエット、姿勢改善、体幹強化など、目的に応じてスタジオをお選びください。</p></div><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">予算を決める</h3></div><p className="text-warm-600 leading-relaxed">白金高輪エリアの料金相場はグループ月4回で9,600円〜15,400円、パーソナルは1回6,250円〜が相場です。chocoZAPなら月額3,278円で利用可能です。</p></div><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">多くのスタジオで体験レッスンを実施しています。zen placeは500円〜と気軽に試せるのでまずは体験してみてください。</p></div><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div><p className="text-warm-600 leading-relaxed">白金高輪は東京メトロ南北線と都営三田線が利用可能です。白金台・麻布十番・三田も徒歩圏内で、閑静な高級住宅街に位置する港区の落ち着いたエリアです。レッスン後にカフェでくつろぐ時間も楽しめます。</p></div></div></div></section>
         <section className="py-16 bg-warm-50"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">よくある質問</h2><div className="space-y-6">{faqs.map((faq, index) => (<div key={index} className="border border-warm-200 rounded-lg overflow-hidden"><details className="group"><summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition"><h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3><svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"/></svg></summary><div className="px-6 pb-6 text-warm-600 leading-relaxed">{faq.answer}</div></details></div>))}</div></div></section>
-        <section className="py-16 bg-white"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2><p className="text-warm-600 leading-relaxed mb-6">今回は白金高輪のおすすめピラティススタジオ9選をご紹介しました。</p><p className="text-warm-600 leading-relaxed mb-6">白金高輪は東京メトロ南北線・都営三田線が利用でき、白金台・麻布十番・三田にもアクセスしやすい港区の閑静な高級住宅街です。駅徒歩1分のPremium Yoga&Pilatesから、パーソナル専門のSTUDIO IVY、割安なchocoZAPまで多彩な選択肢があります。</p><p className="text-warm-600 leading-relaxed mb-6">体験レッスンで実際の雰囲気を確認したうえで、スタジオをお選びください。</p><p className="text-warm-700 font-medium text-center">本ページが、スタジオ選びの参考になれば幸いです。</p></div></section>
+        <section className="py-16 bg-white"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2><p className="text-warm-600 leading-relaxed mb-6">今回は白金高輪のおすすめピラティススタジオ8選をご紹介しました。</p><p className="text-warm-600 leading-relaxed mb-6">白金高輪は東京メトロ南北線・都営三田線が利用でき、白金台・麻布十番・三田にもアクセスしやすい港区の閑静な高級住宅街です。駅徒歩1分のPremium Yoga&Pilatesから、パーソナル専門のSTUDIO IVY、割安なchocoZAPまで多彩な選択肢があります。</p><p className="text-warm-600 leading-relaxed mb-6">体験レッスンで実際の雰囲気を確認したうえで、スタジオをお選びください。</p><p className="text-warm-700 font-medium text-center">本ページが、スタジオ選びの参考になれば幸いです。</p></div></section>
         <section className="py-16 bg-warm-800 text-white" id="contact"><div className="max-w-4xl mx-auto px-6 lg:px-8 text-center"><h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンのご予約</h2><p className="text-warm-200 mb-8 leading-relaxed">白金高輪エリアには体験レッスンを実施しているスタジオが多数あります。<br />まずは体験レッスンへの参加をおすすめします。</p><Link href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded">おすすめスタジオ一覧に戻る</Link></div></section>
       </main>
       {/* AIスタジオ相談（遅延ロード・エリア自動セット） */}

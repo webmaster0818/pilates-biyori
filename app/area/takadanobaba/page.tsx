@@ -88,33 +88,6 @@ const studios = [
     },
   },
   {
-    name: 'CLUB PILATES 早稲田店',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
-    image: '/images/studios/club-pilates.webp',
-    price: '料金は店舗により異なる（公式の店舗ページで確認）',
-    trial: '体験レッスン 無料',
-    features: ['世界展開ブランド', '男性利用可', '多彩なマシン', '早稲田駅近'],
-    description: '世界2,000店舗以上を展開するグローバルピラティスブランドです。東京メトロ東西線「早稲田駅」から徒歩圏内です。リフォーマーだけでなくスプリングボード、チェアなど多彩なマシンを使用しています。レベル1〜2.5のクラス分けで初心者から上級者まで対応しています。国際資格保有のインストラクターが指導です。男性も利用可能です。',
-    access: '東京メトロ東西線「早稲田駅」徒歩圏内 / JR「高田馬場駅」から東西線で1駅',
-    address: '東京都新宿区早稲田町（早稲田駅徒歩圏内）',
-    popularPlan: {
-      name: 'EFT4（月4回）',
-      description: '月4回のグループマシンピラティスです。リフォーマーを中心に多彩なマシンを使用するベーシックプランです。',
-      price: '店舗により異なる（公式の店舗ページで確認）',
-    },
-    options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性75% / 男性25%',
-      purpose: ['体幹強化', '姿勢改善', 'パフォーマンス向上', '健康維持'],
-    },
-    basicInfo: {
-      hours: '月〜金 7:00〜21:00 / 土日 7:00〜18:00',
-      closed: '不定休',
-      facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', '多彩なマシン完備'],
-    },
-  },
-  {
     name: 'ピラティスK 新宿店',
     officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
@@ -395,7 +368,7 @@ export default function TakadanobabaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス高田馬場おすすめ10選<br className="hidden md:block" />
+              ピラティス高田馬場おすすめ9選<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較
             </h1>
           </div>
@@ -422,7 +395,7 @@ export default function TakadanobabaPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、高田馬場駅を中心に早稲田・目白・新大久保など近隣エリアも含めたおすすめピラティススタジオ10選をまとめました。
+              本ページでは、高田馬場駅を中心に早稲田・目白・新大久保など近隣エリアも含めたおすすめピラティススタジオ9選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -444,7 +417,7 @@ export default function TakadanobabaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              高田馬場のおすすめピラティススタジオ10選
+              高田馬場のおすすめピラティススタジオ9選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -659,7 +632,6 @@ export default function TakadanobabaPage() {
                   マシン完備の本格レッスンで効率的にボディメイクを目指せます。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
                   <li>• ピラティスK（月4回 11,220円〜）</li>
                   <li>• the SILK（月4回 15,070円〜）</li>
                   <li>• zen place リフォーマー（月4回 15,400円〜）</li>
@@ -712,7 +684,7 @@ export default function TakadanobabaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。スタジオの雰囲気、インストラクターとの相性、設備の充実度は実際に行ってみないとわかりません。the SILKやCLUB PILATESは無料体験、zen placeは500円から体験可能です。体験レッスンをご利用ください。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。スタジオの雰囲気、インストラクターとの相性、設備の充実度は実際に行ってみないとわかりません。the SILKは無料体験、zen placeは500円から体験可能です。体験レッスンをご利用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -761,7 +733,7 @@ export default function TakadanobabaPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              本ページでは、高田馬場のおすすめピラティススタジオ10選をご紹介しました。
+              本ページでは、高田馬場のおすすめピラティススタジオ9選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               高田馬場はJR山手線・西武新宿線・東京メトロ東西線の3路線が利用でき、新宿まで2駅・池袋まで3駅という好アクセスです。早稲田大学が近く学生の街としても知られるこのエリアには、月額3,278円のchocoZAPから本格パーソナルのSTUDIO IVYまで、幅広い価格帯のスタジオが揃っています。
