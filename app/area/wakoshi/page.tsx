@@ -13,7 +13,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/wakoshi/' },
   title: '【2026年10月最新】和光市のピラティススタジオおすすめ4選｜無料体験・料金で比較',
-  description: '和光市のピラティススタジオ4社の料金・無料体験・マシン対応を比較しています。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
+  description: '和光市のピラティススタジオ4社の料金・無料体験・マシン対応を比較しています。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまでわかります。',
   keywords: 'ピラティス,和光市,埼玉県和光市,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -165,7 +165,7 @@ export default function WakoshiPage() {
 
         <section className="py-16 bg-white" id="price-market">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">和光市のピラティス料金相場【2026年4月最新】</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">和光市のピラティス料金相場</h2>
             <div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">種別</th><th className="px-4 py-3 text-left">料金相場</th></tr></thead><tbody><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4回）</td><td className="px-4 py-3">8,000円〜11,220円</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">パーソナルレッスン</td><td className="px-4 py-3">各スタジオの公式サイトで確認（掲載スタジオに料金の記載なし）</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">無料〜2,200円</td></tr></tbody></table></div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">和光市エリアは都心と比較して料金がリーズナブルな傾向です。近隣の<a href="/area/asaka/">朝霞</a>や<a href="/area/shiki/">志木</a>エリアと合わせて検討するのもおすすめです。</p>
           </div>

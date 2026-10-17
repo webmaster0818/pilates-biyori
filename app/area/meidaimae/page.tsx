@@ -290,7 +290,7 @@ export default function MeidaimaePage() {
 
         <section className="py-16 bg-warm-50" id="price-market">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">明大前のピラティス料金相場【2026年4月最新】</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">明大前のピラティス料金相場</h2>
             <div className="overflow-x-auto">
               <table className="w-full text-sm border-collapse">
                 <thead>

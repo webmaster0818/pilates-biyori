@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/ginza/' },
   title: '【2026年10月最新】ピラティス銀座おすすめ9選人気スタジオの料金プランの比較',
-  description: '【2026年4月最新】銀座のおすすめピラティススタジオ9選を比較しています。グループ月4回9,625円〜の料金相場、女性専用・マシン充実のスタジオ情報、選び方まで完全網羅しています。',
+  description: '銀座のおすすめピラティススタジオ9選を比較しています。グループ月4回9,625円〜の料金相場、女性専用・マシン充実のスタジオ情報、選び方まで完全網羅しています。',
   keywords: 'ピラティス,銀座,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -477,7 +477,7 @@ export default function GinzaPage() {
         <section className="py-16 bg-white" id="price-market">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              銀座のピラティス料金相場【2026年4月最新】
+              銀座のピラティス料金相場
             </h2>
             <div className="bg-warm-50 rounded-lg p-8 border border-warm-200 mb-8">
               <p className="text-warm-600 leading-relaxed mb-6">

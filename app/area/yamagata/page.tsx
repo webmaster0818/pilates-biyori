@@ -13,7 +13,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/yamagata/' },
   title: '【2026年10月最新】山形のピラティス｜初心者可・無料体験で選ぶ料金比較',
-  description: '山形エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  description: '山形エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
   keywords: 'ピラティス,山形,山形県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 

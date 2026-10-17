@@ -6,7 +6,7 @@ const SLUG = "bdc-ebisu";
 const store = getBdcStore(SLUG)!;
 
 export const metadata: Metadata = {
-  title: `${store.areaQuery}のBDC PILATES｜料金・体験・アクセス【2026年8月】`,
+  title: `${store.areaQuery}のBDC PILATES｜料金・体験・アクセス`,
   description: `${store.areaQuery}にあるBDC PILATES（${store.storeName}）の料金・体験レッスン・アクセスを掲載しています。${store.access}です。ブランド全体の料金・口コミ・全店舗一覧はBDC PILATESブランドガイドをご覧ください。`,
   alternates: { canonical: `https://biyori-pilates.com/brands/${SLUG}/` },
 };

@@ -18,7 +18,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/shibuya/' },
   title: '【2026年10月最新】渋谷のピラティス13社を比較｜無料体験4社・月額最安4,400円〜',
-  description: '渋谷エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無まで2026年6月の最新情報でわかります。',
+  description: '渋谷エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
   keywords: 'ピラティス,渋谷,東京,スタジオ,おすすめ,マシンピラティス,パーソナル,女性専用,体験レッスン,料金,比較',
 }
 
@@ -484,11 +484,11 @@ export default function ShibuyaPage() {
         <section className="py-16 bg-white" id="price-market">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              渋谷のピラティス料金相場【2026年4月最新】
+              渋谷のピラティス料金相場
             </h2>
             <div className="bg-warm-50 rounded-lg p-8 border border-warm-200 mb-8">
               <p className="text-warm-600 leading-relaxed mb-6">
-                渋谷エリアは東京都内でもピラティススタジオが多いエリアのひとつで、スタジオ数が多い分、料金競争が進んでおり比較的リーズナブルに通えるのが特徴です。2026年4月時点の料金相場は以下の通りです。
+                渋谷エリアは東京都内でもピラティススタジオが多いエリアのひとつで、スタジオ数が多い分、料金競争が進んでおり比較的リーズナブルに通えるのが特徴です。料金相場は以下の通りです。
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div className="bg-white rounded-lg p-5 border border-warm-200">

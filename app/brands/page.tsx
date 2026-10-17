@@ -8,7 +8,7 @@ import brandStores from '@/data/brands-aggregate.json'
 const STORES = brandStores as Record<string, { name: string }[]>
 
 export const metadata = {
-  title: 'ピラティスブランド別 料金・評判・店舗一覧【2026年7月】｜主要15ブランドを比較',
+  title: 'ピラティスブランド別 料金・評判・店舗一覧｜主要15ブランドを比較',
   description:
     'pilates K・the SILK・zen place・Rintosull・CLUB PILATESなど主要ピラティスブランド15社の料金・体験レッスン・店舗一覧を、掲載データにもとづいて比較できる一覧ページです。',
   alternates: { canonical: 'https://biyori-pilates.com/brands/' },

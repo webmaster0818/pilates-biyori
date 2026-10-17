@@ -6,7 +6,7 @@ const SLUG = "kasane-okinawa-toyosaki";
 const store = getKasaneStore(SLUG)!;
 
 export const metadata: Metadata = {
-  title: `${store.storeName}の口コミ・評判は？料金・体験・アクセス【2026年8月】`,
+  title: `${store.storeName}の口コミ・評判は？料金・体験・アクセス`,
   description: `${store.storeName}の料金・体験レッスン・アクセスを掲載しています。${store.access}です。店舗別の口コミの探し方と、Pilates KASANEブランド全体の公式公開情報にもとづく評判・全店舗一覧へのリンクも掲載しています。`,
   alternates: { canonical: `https://biyori-pilates.com/brands/${SLUG}/` },
 };

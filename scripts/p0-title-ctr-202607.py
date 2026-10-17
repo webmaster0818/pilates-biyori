@@ -31,13 +31,13 @@ for f in sorted(APP.glob("*/page.tsx")):
         area = ma.group(1)
         n = mn.group(1) if mn else None
         sel = f"おすすめ{n}選" if n else "おすすめ比較"
-        new_title = f"{area}のピラティススタジオ{sel}｜無料体験・料金で比較【2026年7月】"
+        new_title = f"{area}のピラティススタジオ{sel}｜無料体験・料金で比較"
         src = src.replace(mt.group(0), f"title: '{new_title}'", 1)
         md = re.search(r"description: '([^']*)'", src)
         if md:
             base = f"{area}のピラティススタジオ{n}社" if n else f"{area}のピラティススタジオ"
             new_desc = (f"{base}の料金・無料体験・マシン対応を比較。初心者向けの選び方、"
-                        f"駅近スタジオ、体験レッスン当日の流れまで2026年7月の最新情報でわかります。")
+                        f"駅近スタジオ、体験レッスン当日の流れまでわかります。")
             src = src.replace(md.group(0), f"description: '{new_desc}'", 1)
         reworked.append(slug)
     else:

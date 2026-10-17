@@ -6,7 +6,7 @@ const SLUG = "club-pilates-kagurazaka";
 const store = getClubPilatesStore(SLUG)!;
 
 export const metadata: Metadata = {
-  title: `${store.areaQuery}のCLUB PILATES｜料金・体験・アクセスと店舗情報【2026年8月】`,
+  title: `${store.areaQuery}のCLUB PILATES｜料金・体験・アクセスと店舗情報`,
   description: `${store.areaQuery}のCLUB PILATES（${store.storeName}）の料金・無料イントロクラス・アクセスを掲載しています。${store.access}です。${store.areaQuery}周辺のピラティス比較・ブランド全店舗一覧へのリンクも掲載しています。`,
   alternates: { canonical: `https://biyori-pilates.com/brands/${SLUG}/` },
 };

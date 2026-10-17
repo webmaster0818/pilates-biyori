@@ -186,7 +186,7 @@ export default function SokaPage() {
 
         <section className="py-16 bg-white" id="price-market">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">草加のピラティス料金相場【2026年4月最新】</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">草加のピラティス料金相場</h2>
             <div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">種別</th><th className="px-4 py-3 text-left">料金相場</th></tr></thead><tbody><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4回）</td><td className="px-4 py-3">8,800円〜13,200円</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">パーソナルレッスン</td><td className="px-4 py-3">月2回 22,000円〜（Pilates Meeのパーソナル・税込）</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">無料〜2,200円</td></tr></tbody></table></div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">草加エリアは都心と比較して料金がリーズナブルな傾向です。近隣の<a href="/area/koshigaya/">越谷</a>や<a href="/area/kita-senju/">北千住</a>エリアと合わせて検討するのもおすすめです。</p>
           </div>

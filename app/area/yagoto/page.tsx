@@ -16,7 +16,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/yagoto/' },
   title: '【2026年10月最新】八事のピラティス5社を比較｜無料体験・八事駅すぐ・マシン対応',
-  description: '八事のピラティススタジオ5社を料金・無料体験・マシン対応で比較しています。八事駅から通えるスタジオ、初心者向けの選び方、体験レッスン当日の流れまで2026年7月の最新情報でわかります。',
+  description: '八事のピラティススタジオ5社を料金・無料体験・マシン対応で比較しています。八事駅から通えるスタジオ、初心者向けの選び方、体験レッスン当日の流れまでわかります。',
   keywords: 'ピラティス,八事,愛知県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -125,7 +125,7 @@ export default function YagotoPage() {
                 <ul className="space-y-2 text-sm"><li className="text-warm-700">• スタジオヴィータ（0才〜80才）</li></ul>
               </div>
             </div></div></section>
-        <section className="py-16 bg-warm-50" id="price-market"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">八事のピラティス料金相場【2026年6月最新】</h2><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">種別</th><th className="px-4 py-3 text-left">料金相場</th></tr></thead><tbody><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4回）</td><td className="px-4 py-3">8,000円〜15,000円</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">パーソナルレッスン</td><td className="px-4 py-3">1回 8,000円〜12,000円</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">無料〜3,000円</td></tr></tbody></table></div><p className="text-warm-600 mt-4 text-sm leading-relaxed">八事は名古屋大学や中京大学などが集まる文教地区です。STOTT PILATES認定のslothsは名古屋最大級のマシン数を誇る本格派です。アイレクスは24時間営業でジムとピラティスの両方を楽しめます。</p></div></section>
+        <section className="py-16 bg-warm-50" id="price-market"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">八事のピラティス料金相場</h2><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">種別</th><th className="px-4 py-3 text-left">料金相場</th></tr></thead><tbody><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4回）</td><td className="px-4 py-3">8,000円〜15,000円</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">パーソナルレッスン</td><td className="px-4 py-3">1回 8,000円〜12,000円</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">無料〜3,000円</td></tr></tbody></table></div><p className="text-warm-600 mt-4 text-sm leading-relaxed">八事は名古屋大学や中京大学などが集まる文教地区です。STOTT PILATES認定のslothsは名古屋最大級のマシン数を誇る本格派です。アイレクスは24時間営業でジムとピラティスの両方を楽しめます。</p></div></section>
         <section className="py-16 bg-white" id="cautions"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">八事でスタジオを選ぶ際の注意点</h2><div className="space-y-6">
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">地下鉄鶴舞線と名城線の交差駅</h3>
