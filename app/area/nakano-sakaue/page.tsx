@@ -17,7 +17,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/nakano-sakaue/' },
-  title: '【2026年10月最新】中野坂上のピラティス料金比較｜クラブピラティス(CLUB PILATES)ほか無料体験',
+  title: '中野坂上のピラティス料金比較｜クラブピラティス(CLUB PILATES)ほか無料体験',
   description: '中野坂上エリアのピラティススタジオを料金・無料体験・マシン対応で比較しています。クラブピラティス（CLUB PILATES）中野坂上をはじめ、各スタジオの料金プラン・初心者向けの選び方・体験レッスンの有無まで最新情報でわかります。',
   keywords: 'ピラティス,中野坂上,中野区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

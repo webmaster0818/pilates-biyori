@@ -178,7 +178,7 @@ for a in AREAS:
         a['lead'] + f"主要駅は{a['station']}。本ページでは{a['name']}エリア（駅近＋徒歩圏・近隣駅）で公式情報をもとに比較できるピラティススタジオをまとめました。")
     src = src.replace('本郷三丁目駅', a['station']).replace('本郷三丁目', a['name'])
     src = src.replace('（東京都）', f"（{a['pref']}）").replace(',東京都,', f",{a['pref']},")
-    src = src.replace('更新日 @2026年04月', '更新日 @2026年06月').replace('【2026最新】', '【2026年6月最新】')
+    src = src.replace('更新日 @2026年04月', '更新日 @2026年06月').replace('【2026最新】', '')
     out.parent.mkdir(parents=True, exist_ok=True); out.write_text(src, encoding='utf-8')
 print("pages generated:", len(AREAS))
 

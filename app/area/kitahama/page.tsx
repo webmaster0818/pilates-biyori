@@ -17,7 +17,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kitahama/' },
-  title: '【2026年10月最新】北浜・淀屋橋のピラティス6社を比較｜駅徒歩分・月額料金・体験料金',
+  title: '北浜・淀屋橋のピラティス6社を比較｜駅徒歩分・月額料金・体験料金',
   description: '北浜・淀屋橋のピラティススタジオ6社を、駅からの徒歩分数・月額料金・体験料金で比較しています。淀屋橋・北浜とも徒歩3〜5分圏のスタジオと、1駅隣の南森町のzen placeまで、各公式サイトで確認した値（2026年10月16日確認）です。',
   keywords: 'ピラティス,北浜,淀屋橋,大阪,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

@@ -13,7 +13,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/omori/' },
-  title: '【2026年10月最新】ピラティス大森おすすめスタジオ｜料金プランの比較',
+  title: 'ピラティス大森おすすめスタジオ｜料金プランの比較',
   description: '大森（東京都）のおすすめピラティススタジオを比較しています。大森駅周辺の料金相場、マシン・パーソナル・女性専用の特徴、体験レッスン情報をまとめて掲載しています。',
   keywords: 'ピラティス,大森,東京都,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

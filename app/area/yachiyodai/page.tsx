@@ -13,7 +13,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/yachiyodai/' },
-  title: '【2026年10月最新】ピラティス八千代台おすすめスタジオ｜料金プランの比較',
+  title: 'ピラティス八千代台おすすめスタジオ｜料金プランの比較',
   description: '八千代台（千葉県）のおすすめピラティススタジオを比較しています。八千代台駅周辺の料金相場、マシン・パーソナル・女性専用の特徴、体験レッスン情報をまとめて掲載しています。',
   keywords: 'ピラティス,八千代台,千葉県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

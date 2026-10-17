@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/roppongi/' },
-  title: '【2026年10月最新】六本木のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  title: '六本木のピラティス｜初心者可・無料体験で選ぶ料金比較',
   description: '六本木エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
   keywords: 'ピラティス,六本木,東京,港区,スタジオ,おすすめ,マシンピラティス,パーソナル,体験レッスン,料金,比較',
 }
@@ -333,7 +333,7 @@ export default function RoppongiPage() {
         { name: '六本木', url: 'https://biyori-pilates.com/area/roppongi/' },
       ]} />
       <main className="pt-20 bg-white">
-        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス六本木おすすめ10選<br className="hidden md:block" />人気スタジオの料金プランの比較</h1></div></section>
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">ピラティス六本木おすすめ10選<br className="hidden md:block" />人気スタジオの料金プランの比較</h1></div></section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">六本木</span></nav></div></section>
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-600 leading-relaxed mb-8">本ページでは、東京メトロ日比谷線・都営大江戸線「六本木駅」周辺でおすすめのピラティススタジオ10選をまとめました。六本木ヒルズや東京ミッドタウンに近い港区の国際色豊かなエリアで、パーソナル専門からグループレッスン、女性専用スタジオまで、自分に合ったスタジオを見つけることをおすすめします。</p>

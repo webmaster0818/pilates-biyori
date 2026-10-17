@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kawaguchi/' },
-  title: '【2026年10月最新】ピラティス川口おすすめ6選料金・体験レッスン・マシン対応を比較',
+  title: 'ピラティス川口おすすめ6選料金・体験レッスン・マシン対応を比較',
   description: '川口エリアのおすすめピラティススタジオ6選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,川口,埼玉,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -270,7 +270,7 @@ export default function KawaguchiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス川口おすすめ6選<br className="hidden md:block" />
+              ピラティス川口おすすめ6選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>

@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/izumi/' },
-  title: '【2026年10月最新】和泉府中・和泉中央のピラティススタジオおすすめ7選｜駅別に料金比較',
+  title: '和泉府中・和泉中央のピラティススタジオおすすめ7選｜駅別に料金比較',
   description: '和泉府中・和泉中央エリアのピラティススタジオ7社を駅別に比較しています。2026年10月オープンのリントスル和泉府中店（JR和泉府中駅東口徒歩2分）、和泉府中駅徒歩4分のstudio MUERなど、料金・体験・定休日を公式サイトで確認した情報でまとめました。',
   keywords: 'ピラティス,和泉,大阪府,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -120,7 +120,7 @@ export default function IzumiPage() {
         { name: '和泉', url: 'https://biyori-pilates.com/area/izumi/' },
       ]} />
       <main className="pt-20 bg-white">
-        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026年10月最新】ピラティス和泉府中・和泉中央おすすめ7選<br className="hidden md:block" />料金・体験レッスン・マシン対応を比較</h1></div></section>
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">ピラティス和泉府中・和泉中央おすすめ7選<br className="hidden md:block" />料金・体験レッスン・マシン対応を比較</h1></div></section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">和泉</span></nav></div></section>
         <AreaConclusion studios={studios} areaName="和泉" />
 
@@ -147,7 +147,7 @@ export default function IzumiPage() {
                 <ul className="space-y-2 text-sm"><li className="text-warm-700">• Aloha（10代〜80代対応）</li><li className="text-warm-700">• Joie（シニアクラスあり）</li></ul>
               </div>
             </div></div></section>
-        <section className="py-16 bg-warm-50" id="price-market"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">和泉のピラティス料金相場【2026年10月最新】</h2><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">種別</th><th className="px-4 py-3 text-left">料金相場</th></tr></thead><tbody><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4回）</td><td className="px-4 py-3">8,800円〜</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">パーソナルレッスン</td><td className="px-4 py-3">1回 8,000円〜12,000円</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">無料〜3,000円</td></tr></tbody></table></div><p className="text-warm-600 mt-4 text-sm leading-relaxed">和泉は泉北高速鉄道沿線の住宅地で、和泉中央駅直結のRintosullが便利です。個人経営のアットホームなスタジオも多く、シニア世代から若い世代まで幅広く通えるのが特徴です。車通いの方は駐車場完備のスタジオが多いのも魅力です。</p></div></section>
+        <section className="py-16 bg-warm-50" id="price-market"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">和泉のピラティス料金相場</h2><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">種別</th><th className="px-4 py-3 text-left">料金相場</th></tr></thead><tbody><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4回）</td><td className="px-4 py-3">8,800円〜</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">パーソナルレッスン</td><td className="px-4 py-3">1回 8,000円〜12,000円</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">無料〜3,000円</td></tr></tbody></table></div><p className="text-warm-600 mt-4 text-sm leading-relaxed">和泉は泉北高速鉄道沿線の住宅地で、和泉中央駅直結のRintosullが便利です。個人経営のアットホームなスタジオも多く、シニア世代から若い世代まで幅広く通えるのが特徴です。車通いの方は駐車場完備のスタジオが多いのも魅力です。</p></div></section>
         <section className="py-16 bg-white" id="cautions"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">和泉でスタジオを選ぶ際の注意点</h2><div className="space-y-6">
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">泉北高速鉄道とJRで最寄り駅が異なる</h3>

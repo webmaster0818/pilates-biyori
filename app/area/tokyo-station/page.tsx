@@ -17,7 +17,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/tokyo-station/' },
-  title: '【2026年10月最新】東京駅のピラティススタジオおすすめ12選｜無料体験・料金で比較',
+  title: '東京駅のピラティススタジオおすすめ12選｜無料体験・料金で比較',
   description: '東京駅のピラティススタジオ12社の料金・無料体験・マシン対応を比較しています。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまでわかります。',
   keywords: 'ピラティス,東京駅,八重洲,丸の内,大手町,日本橋,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

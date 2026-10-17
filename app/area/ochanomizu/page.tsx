@@ -17,7 +17,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/ochanomizu/' },
-  title: '【2026年10月最新】御茶ノ水・神保町のピラティス7社を比較｜無料体験1社・月額最安10,450円〜',
+  title: '御茶ノ水・神保町のピラティス7社を比較｜無料体験1社・月額最安10,450円〜',
   description: '御茶ノ水・神保町のピラティススタジオ7社の料金・無料体験・マシン対応を比較しています。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまでわかります。',
   keywords: 'ピラティス,御茶ノ水,神保町,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -333,7 +333,7 @@ export default function OchanomizuPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】御茶ノ水・神保町の<br className="hidden md:block" />
+              御茶ノ水・神保町の<br className="hidden md:block" />
               ピラティススタジオおすすめ7選
             </h1>
           </div>

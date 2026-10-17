@@ -14,7 +14,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/marunouchi/' },
-  title: '【2026年10月最新】ピラティス丸の内おすすめ5選人気スタジオの料金プランの比較',
+  title: 'ピラティス丸の内おすすめ5選人気スタジオの料金プランの比較',
   description: '丸の内エリアのおすすめピラティススタジオ5選を比較しています。zen place pilates、the SILK、CLUB PILATES、Pilates Mee、STUDIO IVYなど実在スタジオの料金・体験レッスン・アクセスを詳しくご案内します。グループ・セミパーソナル・完全パーソナルまでです。',
   keywords: 'ピラティス,丸の内,千代田区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place pilates,the SILK,CLUB PILATES,Pilates Mee,STUDIO IVY',
 }
@@ -233,7 +233,7 @@ export default function MarunouchiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス丸の内おすすめ5選
+              ピラティス丸の内おすすめ5選
               <br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>

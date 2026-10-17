@@ -13,7 +13,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/atami/' },
-  title: '【2026年10月最新】ピラティス熱海おすすめスタジオ｜料金プランの比較',
+  title: 'ピラティス熱海おすすめスタジオ｜料金プランの比較',
   description: '熱海（静岡県）のおすすめピラティススタジオを比較しています。熱海駅周辺の料金相場、マシン・パーソナル・女性専用の特徴、体験レッスン情報をまとめて掲載しています。',
   keywords: 'ピラティス,熱海,静岡県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

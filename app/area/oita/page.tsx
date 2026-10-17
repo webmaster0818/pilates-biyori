@@ -12,7 +12,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/oita/' },
-  title: '【2026年10月最新】ピラティス大分おすすめ6選人気スタジオの料金プランの比較',
+  title: 'ピラティス大分おすすめ6選人気スタジオの料金プランの比較',
   description: '大分エリアのおすすめピラティススタジオ6選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,大分,大分市,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -147,7 +147,7 @@ export default function OitaPage() {
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
-            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス大分おすすめ6選<br className="hidden md:block" />人気スタジオの料金プランの比較</h1>
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">ピラティス大分おすすめ6選<br className="hidden md:block" />人気スタジオの料金プランの比較</h1>
           </div>
         </section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">大分</span></nav></div></section>

@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/toyohashi/' },
-  title: '【2026年10月最新】豊橋のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  title: '豊橋のピラティス｜初心者可・無料体験で選ぶ料金比較',
   description: '豊橋エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
   keywords: 'ピラティス,豊橋,愛知県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

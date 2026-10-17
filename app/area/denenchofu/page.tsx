@@ -14,7 +14,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/denenchofu/' },
-  title: '【2026年10月最新】田園調布のピラティススタジオおすすめ5選｜駅徒歩2分圏・料金で比較',
+  title: '田園調布のピラティススタジオおすすめ5選｜駅徒歩2分圏・料金で比較',
   description: '田園調布のピラティススタジオ5社を、駅からの距離・月額料金・体験料金で比較しています。田園調布駅徒歩2分圏の4店と奥沢駅のパーソナル専門店まで、住所と料金は各公式サイトで確認した値（2026年10月16日確認）です。',
   keywords: 'ピラティス,田園調布,奥沢,大田区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -119,7 +119,7 @@ export default function DenenchofuPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月16日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026年10月最新】ピラティス田園調布おすすめ5選<br className="hidden md:block" />
+              ピラティス田園調布おすすめ5選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -207,7 +207,7 @@ export default function DenenchofuPage() {
         <section className="py-16 bg-white" id="price-market">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              田園調布のピラティス料金相場【2026年10月最新】
+              田園調布のピラティス料金相場
             </h2>
             <div className="overflow-x-auto">
               <table className="w-full text-sm border-collapse">

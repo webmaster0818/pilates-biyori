@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kawagoe/' },
-  title: '【2026年10月最新】川越のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  title: '川越のピラティス｜初心者可・無料体験で選ぶ料金比較',
   description: '川越エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
   keywords: 'ピラティス,川越,埼玉,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -90,9 +90,9 @@ const studios = [
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
     price: '月4回 8,800円〜',
-    trial: '体験レッスンあり（キャンペーンで初月1,980円）',
+    trial: '体験会 無料（ピラティススタートキャンペーン：通い放題コース3ヶ月間 月額1,980円・税込、11月末まで。2026年10月17日公式確認）',
     features: ['女性専用', '本川越駅徒歩3分', '2026年1月OPEN', 'LAVA系列'],
-    description: '女性専用マシンピラティススタジオです。2026年1月4日に本川越駅近くにオープンしています。LAVA系列のRintosullで大画面モニターを見ながらグループレッスンです。姿勢診断付きです。初月1,980円のキャンペーン実施中です。',
+    description: '女性専用マシンピラティススタジオです。2026年1月4日に本川越駅近くにオープンしています。LAVA系列のRintosullで大画面モニターを見ながらグループレッスンです。姿勢診断付きです。ピラティススタートキャンペーン（11月末まで）では、来店当日の登録で通い放題コースが3ヶ月間 月額1,980円（税込）になります（2026年10月17日公式確認）。',
     access: '西武新宿線「本川越駅」徒歩3分',
     address: '埼玉県川越市新富町2-4-2 太陽ビル 3F',
     popularPlan: {
@@ -103,7 +103,7 @@ const studios = [
     options: [
       '月4回プラン（8,800円）',
       '通い放題プラン（16,800円）',
-      '初月1,980円キャンペーン',
+      '通い放題コース3ヶ月間 月額1,980円（税込・11月末まで）',
       'LAVA会員特典あり',
     ],
     userProfile: {
@@ -239,7 +239,7 @@ const faqs = [
   },
   {
     question: '無料で体験できるスタジオは？',
-    answer: 'ピラティスKがトライアルレッスン0円です。Rintosullは初月1,980円のキャンペーンを実施中です。',
+    answer: 'ピラティスKがトライアルレッスン0円です。Rintosullは体験会が無料で、11月末までのキャンペーンでは通い放題コースが3ヶ月間 月額1,980円（税込）です（2026年10月17日公式確認）。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -262,9 +262,9 @@ export default function KawagoePage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月17日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス川越おすすめ6選<br className="hidden md:block" />
+              ピラティス川越おすすめ6選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -589,7 +589,7 @@ export default function KawagoePage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  体験料金は、ピラティスK 川越店が「トライアルレッスン 0円」、Rintosull 本川越店が「体験レッスンあり（キャンペーンで初月1,980円）」、La pilates 川越店が「初回体験 3,000円〜」、Pilates Mee川越店が「体験レッスン無料」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
+                  体験料金は、ピラティスK 川越店が「トライアルレッスン 0円」、Rintosull 本川越店が「体験会 無料（ピラティススタートキャンペーン：通い放題コース3ヶ月間 月額1,980円・税込、11月末まで。2026年10月17日公式確認）」、La pilates 川越店が「初回体験 3,000円〜」、Pilates Mee川越店が「体験レッスン無料」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

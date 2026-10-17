@@ -12,7 +12,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/arashiyama/' },
-  title: '【2026年10月最新】ピラティス嵐山おすすめスタジオ｜料金プランの比較',
+  title: 'ピラティス嵐山おすすめスタジオ｜料金プランの比較',
   description: '嵐山（京都府）のおすすめピラティススタジオを比較しています。嵐電嵐山駅周辺の料金相場、マシン・パーソナル・女性専用の特徴、体験レッスン情報をまとめて掲載しています。',
   keywords: 'ピラティス,嵐山,京都府,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -61,7 +61,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス嵐山おすすめスタジオ<br className="hidden md:block" />
+              ピラティス嵐山おすすめスタジオ<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
             <p className="text-warm-700 text-sm md:text-base leading-relaxed mt-4">

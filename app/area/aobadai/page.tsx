@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/aobadai/' },
-  title: '【2026年10月最新】ピラティス青葉台おすすめ4選料金・体験レッスン・マシン対応を比較',
+  title: 'ピラティス青葉台おすすめ4選料金・体験レッスン・マシン対応を比較',
   description: '青葉台エリアのおすすめピラティススタジオ4選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,青葉台,青葉区,横浜市,神奈川,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -107,7 +107,7 @@ export default function AobadaiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス青葉台おすすめ4選<br className="hidden md:block" />
+              ピラティス青葉台おすすめ4選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>

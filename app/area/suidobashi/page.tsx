@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/suidobashi/' },
-  title: '【2026年10月最新】ピラティス水道橋・後楽園おすすめ11選料金・体験レッスン・マシン対応を比較',
+  title: 'ピラティス水道橋・後楽園おすすめ11選料金・体験レッスン・マシン対応を比較',
   description: '水道橋・後楽園エリアのおすすめピラティススタジオ11選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。飯田橋・神保町の近隣スタジオも紹介しています。',
   keywords: 'ピラティス,水道橋,後楽園,飯田橋,神保町,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -425,7 +425,7 @@ export default function SuidobashiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス水道橋・後楽園おすすめ11選<br className="hidden md:block" />
+              ピラティス水道橋・後楽園おすすめ11選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>

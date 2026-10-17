@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/tokyo-station/' },
-  title: '【2026年10月最新】東京のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  title: '東京のピラティス｜初心者可・無料体験で選ぶ料金比較',
   description: '東京エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
   keywords: 'ピラティス,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -241,7 +241,7 @@ export default async function TokyoAreaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】東京のピラティススタジオ<br className="hidden md:block" />
+              東京のピラティススタジオ<br className="hidden md:block" />
               おすすめ6選｜料金・体験レッスン比較
             </h1>
           </div>

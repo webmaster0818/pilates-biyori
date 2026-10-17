@@ -17,7 +17,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kinshicho/' },
-  title: '【2026年10月最新】錦糸町のピラティス16社を比較｜無料体験2社・月額最安6,600円〜',
+  title: '錦糸町のピラティス16社を比較｜無料体験2社・月額最安6,600円〜',
   description: '錦糸町エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
   keywords: 'ピラティス,錦糸町,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

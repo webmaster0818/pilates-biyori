@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/amagasaki/' },
-  title: '【2026年10月最新】ピラティス尼崎おすすめ4選料金・体験レッスン・マシン対応を比較',
+  title: 'ピラティス尼崎おすすめ4選料金・体験レッスン・マシン対応を比較',
   description: '尼崎エリアのおすすめピラティススタジオ4選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。JR「尼崎駅」/ 阪神「尼崎駅」/ 阪急「塚口駅」周辺の初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,尼崎,兵庫県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

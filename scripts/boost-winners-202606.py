@@ -69,7 +69,7 @@ def refresh_dates(slug):
     p = f"{AREA}/{slug}/page.tsx"
     s = open(p, encoding="utf-8").read()
     s2 = re.sub(r'更新日 @2026年0[0-9]月[0-9]{1,2}日', f'更新日 @{TODAY}', s, count=1)
-    s2 = re.sub(r'料金相場【2026年[0-9]{1,2}月最新】', '料金相場【2026年6月最新】', s2)
+    s2 = re.sub(r'料金相場【2026年[0-9]{1,2}月最新】', '料金相場', s2)
     if s2 != s:
         open(p,"w",encoding="utf-8").write(s2)
         return True

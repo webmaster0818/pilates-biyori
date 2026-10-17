@@ -13,7 +13,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kumegawa/' },
-  title: '【2026年10月最新】ピラティス久米川おすすめスタジオ｜料金プランの比較',
+  title: 'ピラティス久米川おすすめスタジオ｜料金プランの比較',
   description: '久米川（東京都）のおすすめピラティススタジオを比較しています。久米川駅周辺の料金相場、マシン・パーソナル・女性専用の特徴、体験レッスン情報をまとめて掲載しています。',
   keywords: 'ピラティス,久米川,東京都,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

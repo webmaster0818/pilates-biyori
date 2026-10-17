@@ -14,7 +14,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/tennoji/' },
-  title: '【2026年10月最新】天王寺のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  title: '天王寺のピラティス｜初心者可・無料体験で選ぶ料金比較',
   description: '天王寺エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
   keywords: 'ピラティス,天王寺,阿倍野,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -290,7 +290,7 @@ export default function TennojiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス天王寺おすすめ14選<br className="hidden md:block" />
+              ピラティス天王寺おすすめ14選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>

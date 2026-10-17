@@ -17,7 +17,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/meguro/' },
-  title: '【2026年10月最新】目黒のピラティス6社を比較｜無料体験2社・月額最安10,450円〜',
+  title: '目黒のピラティス6社を比較｜無料体験2社・月額最安10,450円〜',
   description: '目黒エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
   keywords: 'ピラティス,目黒,中目黒,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place pilates,the SILK,ピラティスミラー,Pilates Legacy Studio,STUDIO IVY',
 }

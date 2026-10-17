@@ -17,7 +17,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/seijo-gakuenmae/' },
-  title: '【2026年10月最新】成城学園前のピラティス8社を比較｜駅徒歩分・月額料金・体験料金',
+  title: '成城学園前のピラティス8社を比較｜駅徒歩分・月額料金・体験料金',
   description: '成城学園前のピラティススタジオ8社（駅徒歩1分のCLUB PILATES・Evolv・&a、南口3分のzen place、パーソナル専門のSTUDIO IVY ほか）を、住所・駅からの徒歩分数・月額料金・体験料金で比較しています。各公式サイトで確認した値（2026年10月16日確認）です。',
   keywords: 'ピラティス,成城学園前,東京,世田谷区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

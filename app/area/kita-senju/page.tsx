@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kita-senju/' },
-  title: '【2026年10月最新】北千住のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  title: '北千住のピラティス｜初心者可・無料体験で選ぶ料金比較',
   description: '北千住エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
   keywords: 'ピラティス,北千住,足立区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -235,7 +235,7 @@ export default function KitaSenjuPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス北千住おすすめ5選<br className="hidden md:block" />
+              ピラティス北千住おすすめ5選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>

@@ -14,7 +14,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/yokohama/' },
-  title: '【2026年10月最新】ピラティス横浜おすすめ10選人気スタジオの料金プランの比較',
+  title: 'ピラティス横浜おすすめ10選人気スタジオの料金プランの比較',
   description: '横浜のおすすめピラティススタジオ10選を比較しています。グループ月4回9,625円〜の料金相場、駅近・女性専用・パーソナル対応のスタジオ情報、体験レッスンの持ち物まで完全網羅しています。',
   keywords: 'ピラティス,横浜,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -344,7 +344,7 @@ export default function YokohamaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス横浜おすすめ10選<br className="hidden md:block" />
+              ピラティス横浜おすすめ10選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>

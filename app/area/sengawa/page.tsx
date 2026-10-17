@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/sengawa/' },
-  title: '【2026年10月最新】ピラティス仙川おすすめ5選料金・体験レッスン・マシン対応を比較',
+  title: 'ピラティス仙川おすすめ5選料金・体験レッスン・マシン対応を比較',
   description: '仙川エリアのおすすめピラティススタジオ5選を比較しています。URBAN CLASSIC PILATES仙川・ピラティスミラー仙川・CLUB PILATES仙川・PERSONAL TRAINING STUDIO Uなど実在スタジオの料金・体験レッスン・アクセスを詳しくご案内します。',
   keywords: 'ピラティス,仙川,東京,調布,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,URBAN CLASSIC,CLUB PILATES,ピラティスミラー',
 }
@@ -130,7 +130,7 @@ export default function SengawaPage() {
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
-            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">【2026最新】ピラティス仙川おすすめ5選<br className="hidden md:block" />人気スタジオの料金プランの比較</h1>
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">ピラティス仙川おすすめ5選<br className="hidden md:block" />人気スタジオの料金プランの比較</h1>
           </div>
         </section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">仙川</span></nav></div></section>

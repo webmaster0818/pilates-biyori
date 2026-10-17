@@ -42,7 +42,7 @@ for f in sorted(APP.glob("*/page.tsx")):
         reworked.append(slug)
     else:
         if "【2026年6月最新】" in src or "【2026年6月】" in src:
-            src = src.replace("【2026年6月最新】", "【2026年7月最新】").replace("【2026年6月】", "【2026年7月】")
+            src = src.replace("【2026年6月最新】", "").replace("【2026年6月】", "")
             bumped.append(slug)
 
     if src != orig:

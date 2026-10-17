@@ -17,7 +17,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/iidabashi/' },
-  title: '【2026年10月最新】飯田橋・神楽坂のピラティス5社を比較｜無料体験2社・駅すぐ・月額最安10,450円〜',
+  title: '飯田橋・神楽坂のピラティス5社を比較｜無料体験2社・駅すぐ・月額最安10,450円〜',
   description: '飯田橋・神楽坂でピラティスの無料体験ができるスタジオを厳選しています。5社の料金・マシン対応・4路線からのアクセスを比較しています。初心者向けの選び方と全国211スタジオ調査に基づく料金相場もわかります。',
   keywords: 'ピラティス,飯田橋,神楽坂,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

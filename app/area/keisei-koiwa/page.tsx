@@ -13,7 +13,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/keisei-koiwa/' },
-  title: '【2026年10月最新】ピラティス京成小岩おすすめスタジオ｜料金プランの比較',
+  title: 'ピラティス京成小岩おすすめスタジオ｜料金プランの比較',
   description: '京成小岩（東京都）のおすすめピラティススタジオを比較しています。京成小岩駅周辺の料金相場、マシン・パーソナル・女性専用の特徴、体験レッスン情報をまとめて掲載しています。',
   keywords: 'ピラティス,京成小岩,東京都,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

@@ -14,7 +14,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/jiyugaoka/' },
-  title: '【2026年10月最新】自由が丘のピラティス6社を比較｜無料体験3社・月額最安10,450円〜',
+  title: '自由が丘のピラティス6社を比較｜無料体験3社・月額最安10,450円〜',
   description: '自由が丘エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
   keywords: 'ピラティス,自由が丘,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -246,7 +246,7 @@ export default function JiyugaokaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              【2026最新】ピラティス自由が丘おすすめ6選<br className="hidden md:block" />
+              ピラティス自由が丘おすすめ6選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>

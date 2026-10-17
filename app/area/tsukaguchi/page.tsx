@@ -13,7 +13,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/tsukaguchi/' },
-  title: '【2026年10月最新】ピラティス塚口おすすめスタジオ｜料金プランの比較',
+  title: 'ピラティス塚口おすすめスタジオ｜料金プランの比較',
   description: '塚口（兵庫県）のおすすめピラティススタジオを比較しています。塚口駅周辺の料金相場、マシン・パーソナル・女性専用の特徴、体験レッスン情報をまとめて掲載しています。',
   keywords: 'ピラティス,塚口,兵庫県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

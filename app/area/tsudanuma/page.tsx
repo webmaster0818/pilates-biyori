@@ -13,7 +13,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/tsudanuma/' },
-  title: '【2026年10月最新】ピラティス津田沼おすすめスタジオ｜料金プランの比較',
+  title: 'ピラティス津田沼おすすめスタジオ｜料金プランの比較',
   description: '津田沼（千葉県）のおすすめピラティススタジオを比較しています。津田沼駅周辺の料金相場、マシン・パーソナル・女性専用の特徴、体験レッスン情報をまとめて掲載しています。',
   keywords: 'ピラティス,津田沼,千葉県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

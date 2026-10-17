@@ -3,7 +3,8 @@
 """全ページの更新日表記を今日に最新化する（冪等・デプロイ前に実行する運用）。
 対象: ①app/**/*.tsx の「更新日 @YYYY年MM月DD日」「更新日 @YYYY年MM月」「更新日/最終更新[:：] YYYY年M月D日」
      ②content/articles/*.md の updatedAt: "YYYY-MM-DD"
-※記事タイトルの【YYYY年M月】は別管理。**エリアページのみ**title冒頭【YYYY年M月最新】を更新月に自動追随(2026-07-15 MediaXAI指示)。
+※title/h1 に月・「最新」ラベルを自動で付けることはしない（2026-10-17 廃止）。
+⚠️全ファイルの日付を一律に上げるため、内容を変えていないページには使わないこと（見せかけ鮮度NG）。
 """
 import glob, re
 from datetime import date
@@ -25,20 +26,6 @@ for f in glob.glob("content/articles/*.md"):
     src = re.sub(r'^updatedAt: "\d{4}-\d{2}-\d{2}"', f'updatedAt: "{iso}"', src, flags=re.M)
     if src != orig:
         open(f, "w").write(src); n2 += 1
-# ③エリアページtitle: 冒頭に【YYYY年M月最新】を強制(既存の日付タグはどこにあっても除去して先頭へ・更新月に自動追随)
-n3 = 0
-freshtag = f"【{today.year}年{today.month}月最新】"
-DATE_TAG = re.compile(r"【\d{4}(?:年\d{1,2}月)?(?:最新)?】")
-def retitle(m):
-    q, body = m.group(1), m.group(2)
-    core = DATE_TAG.sub("", body).strip("｜| ")
-    return f"title: {q}{freshtag}{core}{q}"
-for f in glob.glob("app/area/*/page.tsx"):
-    src = open(f).read(); orig = src
-    src = re.sub(r"title: (['\"])(.+?)\1", lambda m: retitle(m), src, count=1)
-    # openGraph内のtitleも同期
-    src = re.sub(r"(openGraph:\s*\{[^}]*?title: )(['\"])(.+?)\2",
-                 lambda m: m.group(1) + m.group(2) + freshtag + DATE_TAG.sub("", m.group(3)).strip("｜| ") + m.group(2), src, count=1)
-    if src != orig:
-        open(f, "w").write(src); n3 += 1
-print(f"tsx更新: {n1}ファイル / md更新: {n2}ファイル / エリアtitle鮮度化: {n3}ファイル / 日付={ja_full}")
+# ③(廃止 2026-10-17) エリアtitleへの【YYYY年M月最新】自動付与は行わない。
+#   未検証の鮮度ラベルは不可（MediaXAI「期限切れは、最適化して」対応時のコーディネーター判断）。
+print(f"tsx更新: {n1}ファイル / md更新: {n2}ファイル / 日付={ja_full}")

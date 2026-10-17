@@ -17,7 +17,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/takadanobaba/' },
-  title: '【2026年10月最新】高田馬場のピラティス｜初心者可・無料体験で選ぶ料金比較',
+  title: '高田馬場のピラティス｜初心者可・無料体験で選ぶ料金比較',
   description: '高田馬場エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
   keywords: 'ピラティス,高田馬場,早稲田,目白,新大久保,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

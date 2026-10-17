@@ -13,7 +13,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kyoto-yawata/' },
-  title: '【2026年10月最新】ピラティス京都八幡おすすめスタジオ｜料金プランの比較',
+  title: 'ピラティス京都八幡おすすめスタジオ｜料金プランの比較',
   description: '京都八幡（京都府）のおすすめピラティススタジオを比較しています。石清水八幡宮駅周辺の料金相場、マシン・パーソナル・女性専用の特徴、体験レッスン情報をまとめて掲載しています。',
   keywords: 'ピラティス,京都八幡,京都府,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

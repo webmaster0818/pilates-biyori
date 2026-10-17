@@ -283,7 +283,8 @@ P5料金白書の月次更新を**launchd恒久cron化**（CronCreateはセッ�
 - refresh-updated-dates.py実行(435ファイル→07-12)→build EXIT0→方式B(functions4本=click/clicks/contact/geo保全確認)→両push→本番3ページ描画確認(エッジ伝播ラグあり=?v=クエリで確認)→Indexing 4/4。⚠️gsc-token.jsonの実体は`~/.openclaw/workspace/secrets/gsc-token.json`（gsc-api/直下ではない）
 
 ### 2026-07-11 更新日の常時最新化ルール（MediaXAI指示・恒久運用）
-**🔁運用ルール: pilatesで何か更新してデプロイする際は、必ず `python3 scripts/refresh-updated-dates.py` をビルド前に実行**（全ページの「更新日 @YYYY年MM月DD日」表記とMD frontmatter updatedAtを当日に最新化・冪等）。初回実行で435ファイル(tsx371+md64)を2026-07-11に統一済み。タイトルの【YYYY年M月】鮮度タグは別管理（月次/施策時にバンプ）。
+~~🔁運用ルール: pilatesで何か更新してデプロイする際は、必ず `python3 scripts/refresh-updated-dates.py` をビルド前に実行**（全ページの「更新日 @YYYY年MM月DD日」表記とMD frontmatter updatedAtを当日に最新化・冪等）。初回実行で435ファイル(tsx371+md64)を2026-07-11に統一済み。タイトルの【YYYY年M月】鮮度タグは別管理（月次/施策時にバンプ）。~~
+**🔁運用ルール（2026-10-17 改訂）: `refresh-updated-dates.py` は全ファイルの日付を一律に上げるため、内容を変えていないページには使わない**（見せかけ鮮度NG）。更新日は内容を変えたページだけ手で更新する。title/h1 への月・「最新」ラベルの自動付与は廃止（未検証の鮮度ラベルは不可）。
 
 ### 2026-07-14 フッター・全サイトリンク総点検（MediaXAI「フッターリンク直して」「他もあるよ」）✅本番反映済み
 - **①フッターCategories 4本**: 基礎知識/効果/スタジオ選び/地域別が全て/#categories行き→/basics/ /benefits/ /studios/ /area/へ修正。古い「2026年3月31日時点」注記も恒久表現化
@@ -950,3 +951,5 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
   - 渋谷の #studio-N リンクは main でも描画順とずれていた（the SILK→ELEMENT 等）→ wip で名前基準に修正
   - ⚠️ 判断要: 「CLUB PILATES 大阪」の口コミは Google の「大阪上本町」、「新宿」は「西新宿」に照合されていた（公式にある店）。カード自体は店名・住所が特定できないため wip では削除。公式店に付け替えて残す案もある
   - **1to1 横浜店は外さない**: 今日の公式 /studios 一覧に「横浜店」ボタンがあり、店舗ページ https://azure-collaboration.co.jp/studios/yokohama/ は200（鶴屋町3-29-9 タクエー横浜西口第六ビル8F Bフロア・7:00〜23:00）。10/14 の「一覧に無し」と異なる（一覧には404の銀座・北千住・大宮のボタンも残る）
+- 追加2（コーディネーター判断）: **エリア title 冒頭の【2026年10月最新】自動付与を廃止**（refresh-updated-dates.py の③を削除）。title 370件・本文/h1/h2 の【2026年10月最新】10件（h2「料金相場【…】」4・h1 6）・h1 の【2026最新】242件・test-ikebukuro title【2026最新】1件＝**計623件を削除**（371ファイル）。キーワードと語順はそのまま。ラベルを付け直すスクリプトも修正: enrich_61_areas.py（テンプレから【2026最新】削除）、gen-new-areas-batch1〜5・enhance-area-phase0/1・gen-blueocean-202606（【2026最新】→空文字）、boost-winners-202606（料金相場ラベル→なし）、p0-title-ctr-202607（月次バンプ→ラベル除去）。据え置き: pilates-online.md「【2026年10月】全サービス公式確認」（10月に全サービスを公式で確認済みの記事）、記事 title の「2026年最新」72件（年ラベル・自動付与ではない）、refresh-hakusho-monthly.py の【YYYY年M月更新】（月次で実データを再集計した結果のラベル）
+- Rintosull 本川越店（app/area/kawagoe/page.tsx）: 「初月1,980円」→ 公式の「ピラティススタートキャンペーン」（11月末まで・来店当日の登録で通い放題コースが3ヶ月間 月額1,980円・税込）／体験会は無料。カード・説明文・options・FAQ・本文の引用を同じ表現にそろえた。公式 https://www.rintosull.jp/shop/saitama/honkawagoe/ ・ https://www.rintosull.jp/price/ （2026年10月17日確認）

@@ -13,7 +13,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/higashikurume/' },
-  title: '【2026年10月最新】ピラティス東久留米おすすめスタジオ｜料金プランの比較',
+  title: 'ピラティス東久留米おすすめスタジオ｜料金プランの比較',
   description: '東久留米（東京都）のおすすめピラティススタジオを比較しています。東久留米駅周辺の料金相場、マシン・パーソナル・女性専用の特徴、体験レッスン情報をまとめて掲載しています。',
   keywords: 'ピラティス,東久留米,東京都,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }

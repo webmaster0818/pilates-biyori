@@ -245,7 +245,7 @@ for a in AREAS:
     src = src.replace('（東京都）', f"（{a['pref']}）")
     src = src.replace(',東京都,', f",{a['pref']},")
     src = src.replace('更新日 @2026年04月', '更新日 @2026年06月')
-    src = src.replace('【2026最新】', '【2026年6月最新】')
+    src = src.replace('【2026最新】', '')
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(src, encoding='utf-8')
     added_pages += 1

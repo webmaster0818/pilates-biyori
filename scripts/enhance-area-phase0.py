@@ -82,7 +82,7 @@ for slug in SLUGS:
                 1,
             )
 
-    src = src.replace('【2026最新】', '【2026年6月最新】', 1)
+    src = src.replace('【2026最新】', '', 1)
     src = src.replace('人気スタジオの料金プランを簡単比較！', '料金・体験レッスン・マシン対応を比較！', 1)
 
     if src != orig:

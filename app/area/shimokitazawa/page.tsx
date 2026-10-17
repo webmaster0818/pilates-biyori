@@ -17,7 +17,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/shimokitazawa/' },
-  title: '【2026年10月最新】下北沢のピラティス12社を比較｜無料体験1社・月額最安4,800円〜',
+  title: '下北沢のピラティス12社を比較｜無料体験1社・月額最安4,800円〜',
   description: '下北沢エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
   keywords: 'ピラティス,下北沢,東京,世田谷区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
