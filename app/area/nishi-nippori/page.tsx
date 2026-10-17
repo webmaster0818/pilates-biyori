@@ -18,7 +18,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/nishi-nippori/' },
   title: '西日暮里のピラティス5選｜日暮里・千駄木の駅別早見表と公式料金で比較',
-  description: '西日暮里から1駅の日暮里駅・千駄木駅周辺のピラティススタジオ5か所を、駅別早見表と公式料金で比較しています。URBAN CLASSIC PILATES 日暮里（税込8,580円〜・無料体験）、Rintosull日暮里店、ソエルスタジオ日暮里店、zen place 千駄木、YUZU日暮里店（2026年10月17日 公式確認）。',
+  description: '西日暮里から1駅の日暮里駅・千駄木駅周辺のピラティス5か所を、駅別早見表と公式料金で比較。URBAN CLASSIC PILATES 日暮里（税込8,580円〜・無料体験）、Rintosull日暮里店、ソエルスタジオ、zen place 千駄木、YUZU日暮里店（2026年10月17日確認）。',
   keywords: 'ピラティス,西日暮里,日暮里,千駄木,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 

@@ -16,7 +16,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/izumi/' },
   title: '和泉中央駅・和泉府中駅のピラティス8選｜駅別早見表と公式料金で比較',
-  description: '和泉中央駅・和泉府中駅周辺のピラティススタジオ8か所を駅別に比較しています。和泉中央駅直結のリントスル エコール・いずみ店、徒歩4分のコナミスポーツクラブ和泉中央（マシンピラティス月7,780円）、STUDIO TOU 大阪和泉中央、JR和泉府中駅のリントスル和泉府中店・studio MUERなど、料金・体験を公式サイトで確認した情報（2026年10月17日）でまとめました。',
+  description: '和泉中央駅・和泉府中駅周辺のピラティス8か所を駅別に比較。和泉中央駅直結のリントスル エコール・いずみ店、徒歩4分のコナミスポーツクラブ和泉中央、STUDIO TOU、JR和泉府中駅のリントスル・studio MUERなど、料金・体験は公式で確認した情報（2026年10月17日）です。',
   keywords: 'ピラティス,和泉,大阪府,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
