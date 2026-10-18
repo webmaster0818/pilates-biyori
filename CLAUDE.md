@@ -968,3 +968,11 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 ### 2026-10-17 12:00 成長ルーチン（続き）: Rintosull の誤料金を9エリアで訂正 ✅本番（source e00c791b / deploy 9801dc6d92）
 - 「プレミアムプラン 月額10,978円」（chuo-rinkan・wakoshi・kokubunji・kunitachi・chofu・soka）と旧プラン「2スタジオ13,800／全国16,800／プレミアム18,800円」（hiyoshi・aobadai・tama-plaza）を rintosull.jp/price/（10/17 確認）の現行値に: 4・フルタイム 8,800〜10,800円（店舗により異なる）／ライト・フルタイム 10,800円〜／プレミアム フリー・フルタイム 16,800円。brands-aggregate.json 再生成（手ぶらOK→参加可能の文言追随も含む）。out の 10,978 は0件・precheck 全項目OK。
 - ⚠️ deploy リポのローカルブランチは master（upstream origin/main）。push は `git push origin HEAD:main`。
+
+### 2026-10-18 朝ルーチン: CLUB PILATES 公式一覧に無い32カードを本番から外した（既定案実行）✅本番（source aaed2571 / deploy fcf02edd40）
+- 公式 https://clubpilates.co.jp/studio/ を 10/18 に再取得＝88店（slug一覧 reports/2026-10-18-clubpilates-official-slugs.txt）。32カードの店名はいずれも一覧に無し（「日吉」「難波」「渋谷」「港区」「丸の内」のヒットは他店の住所・駅名のみ）→全32枚を外した。1to1 横浜店は残す
+- wip/remove-clubpilates-1017 を main にマージ。衝突26ファイルは鮮度ラベル削除後の main 側を残して wip の件数/CP除去を適用、hiyoshi FAQ は main の Rintosull 現行料金（プレミアム フリー・フルタイム 16,800円）を保持。brands-aggregate 再集計で一致（CLUB PILATES 54店舗）
+- 本番31ページ: カード数＝N選（namba 2選）・CP言及0・0店ページなし。アフィリURL集合 213→211＝札幌店もしも（pl_id=80844 の click/impression）だけ減。出現数 4105→4024 は外したカードの共通もしもリンク分
+- precheck ✅ 587頁・/api/contact 400・Indexing 10/10（shibuya/shinjuku/osaka/umeda/sapporo/nakano/futakotamagawa/jiyugaoka/roppongi/brands/club-pilates）
+- 残（指定外・未変更）: content/articles/pilates-beginner-studio.md の「CLUB PILATES 新宿」「CLUB PILATES 心斎橋」（公式に無い店名・箇条書き2行）
+- P2 金沢「予算を決める」(10,450〜15,070円) は未着手: 同じ文言が30ページ。金沢のグループ月4回カードは Hirameき 6,000円のみだが公式サイトが見つからず値を確認できない
