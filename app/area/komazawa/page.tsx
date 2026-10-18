@@ -15,8 +15,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/komazawa/' },
-  title: 'ピラティス駒沢おすすめ6選料金・体験レッスン・マシン対応を比較',
-  description: '駒沢エリアのおすすめピラティススタジオ6選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。駒沢公園近くで初心者でも安心して通えるスタジオが見つかります。',
+  title: 'ピラティス駒沢おすすめ5選料金・体験レッスン・マシン対応を比較',
+  description: '駒沢エリアのおすすめピラティススタジオ5選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。駒沢公園近くで初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,駒沢,東京,世田谷区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -173,33 +173,6 @@ const studios = [
       facilities: ['ロッカー', 'マシン完備'],
     },
   },
-  {
-    name: 'CLUB PILATES 駒沢（近隣）',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
-    image: '/images/studios/club-pilates.webp',
-    price: '料金は店舗により異なる（公式の店舗ページで確認）',
-    trial: '体験レッスンあり',
-    features: ['最大12名グループ', 'リフォーマー使用', '料金は店舗ごと', '駒沢近隣'],
-    description: 'アメリカ発のマシンピラティス専門スタジオです。最大12名のグループレッスンで、リフォーマーを使った本格的なマシンピラティスを体験できます。料金は店舗により異なります（公式の店舗ページで確認）。レベル別にクラスが分かれているので初心者も安心です。',
-    access: '駒沢エリアからアクセス可能',
-    address: '東京都世田谷区（駒沢近隣）',
-    popularPlan: {
-      name: '月4回プラン',
-      description: '最大12名のグループリフォーマーレッスンです。',
-      price: '店舗により異なる（公式の店舗ページで確認）',
-    },
-    options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性80% / 男性20%',
-      purpose: ['ボディメイク', '体幹強化', '姿勢改善', '楽しくトレーニング'],
-    },
-    basicInfo: {
-      hours: '店舗にお問い合わせください',
-      closed: '店舗にお問い合わせください',
-      facilities: ['ロッカー', 'リフォーマー完備'],
-    },
-  },
 ]
 
 const faqs = [
@@ -237,11 +210,11 @@ const faqs = [
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'はい、zen place pilates 駒沢、I PILATES、ELEMENT、CLUB PILATESは男性も利用可能です。一方、PILATES STUDIO noaは女性専用となっています。事前に公式サイトで確認するか、直接スタジオにお問い合わせください。',
+    answer: 'はい、zen place pilates 駒沢、I PILATES、ELEMENTは男性も利用可能です。一方、PILATES STUDIO noaは女性専用となっています。事前に公式サイトで確認するか、直接スタジオにお問い合わせください。',
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: '目的によります。短期間で結果を出したい方や身体の不調を改善したい方にはI PILATESやELEMENTのパーソナルがおすすめです。料金重視で楽しく続けたい方にはzen place pilatesやCLUB PILATESのグループレッスンが適しています。セミパーソナルのPilates Meeは両方の良さを兼ね備えた選択肢です。',
+    answer: '目的によります。短期間で結果を出したい方や身体の不調を改善したい方にはI PILATESやELEMENTのパーソナルがおすすめです。料金重視で楽しく続けたい方にはzen place pilatesのグループレッスンが適しています。セミパーソナルのPilates Meeは両方の良さを兼ね備えた選択肢です。',
   },
 ]
 
@@ -262,7 +235,7 @@ export default function KomazawaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス駒沢おすすめ6選<br className="hidden md:block" />
+              ピラティス駒沢おすすめ5選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -287,7 +260,7 @@ export default function KomazawaPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、東急田園都市線「駒沢大学駅」周辺でおすすめのピラティススタジオ6選をまとめました。駒沢は緑豊かな駒沢オリンピック公園があり、健康意識の高い方が多く住むエリアです。駅近のスタジオから駒沢公園横の自然を感じられるスタジオまで幅広くご紹介します。
+              本ページでは、東急田園都市線「駒沢大学駅」周辺でおすすめのピラティススタジオ5選をまとめました。駒沢は緑豊かな駒沢オリンピック公園があり、健康意識の高い方が多く住むエリアです。駅近のスタジオから駒沢公園横の自然を感じられるスタジオまで幅広くご紹介します。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -331,7 +304,7 @@ export default function KomazawaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              駒沢のおすすめピラティススタジオ6選
+              駒沢のおすすめピラティススタジオ5選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -356,7 +329,6 @@ export default function KomazawaPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
                   <li className="text-warm-700">• PILATES STUDIO noa（月2回 6,600円〜）</li>
-                  <li className="text-warm-700">• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -574,7 +546,7 @@ export default function KomazawaPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              本ページでは、駒沢のおすすめピラティススタジオ6選をご紹介しました。
+              本ページでは、駒沢のおすすめピラティススタジオ5選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               駒沢は緑豊かな駒沢オリンピック公園を中心に健康意識の高い方が多く住むエリアです。月2回6,600円〜のマシンピラティスから、駒沢公園横で自然を感じながらのプライベートレッスン、パーソナル30分の時短トレーニングまで、多彩な選択肢が揃っています。

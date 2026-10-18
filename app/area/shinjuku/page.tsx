@@ -118,33 +118,6 @@ const studios = [
     },
   },
   {
-    name: 'CLUB PILATES 新宿',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
-    image: '/images/studios/club-pilates.webp',
-    price: '料金は店舗により異なる（公式の店舗ページで確認）',
-    trial: '無料体験あり',
-    features: ['最大12名グループ', '無料体験', 'レベル別クラス', '男性利用可'],
-    description: 'アメリカ発の世界最大級リフォーマーピラティスブランドです。最大12名のグループレッスンでありながら、レベル別の体系的なプログラムで初心者からアスリートまで対応しています。本格的なリフォーマーピラティスを体験できます。無料体験レッスンを実施中です。',
-    access: 'JR「新宿駅」徒歩圏内',
-    address: '東京都新宿区新宿（新宿駅近く）',
-    popularPlan: {
-      name: 'EFT4（月4回）',
-      description: '月4回のリフォーマーグループレッスンです。レベル別クラスで初心者でも安心です。無料体験からスタートできます。',
-      price: '店舗により異なる（公式の店舗ページで確認）',
-    },
-    options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性75% / 男性25%',
-      purpose: ['体幹強化', 'ボディメイク', '姿勢改善', 'アスリートトレーニング'],
-    },
-    basicInfo: {
-      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
-      closed: '不定休',
-      facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', 'ウォーターサーバー'],
-    },
-  },
-  {
     name: 'STUDIO IVY 新宿',
     image: '/images/studios/studio-ivy.webp',
     price: '月2回 15,000円〜',
@@ -379,7 +352,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルは、スタジオでレンタルできる場合が一般的です。ELEMENTやCLUB PILATESなど手ぶらで通えるスタジオもあります。詳細は各スタジオの体験レッスン案内でご確認ください。',
+    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。マットやタオルは、スタジオでレンタルできる場合が一般的です。ELEMENTなど手ぶらで通えるスタジオもあります。詳細は各スタジオの体験レッスン案内でご確認ください。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
@@ -387,7 +360,7 @@ const faqs = [
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: '新宿エリアではzen place pilates、CLUB PILATES、STUDIO IVY、ELEMENT、URBAN CLASSIC PILATESなどが男性も利用可能です。ピラティスK、Rintosull、the SILK、ピラティスミラー、NATURAglam は女性専用スタジオとなっています。男性の方はまず体験レッスンから始めてみるのがおすすめです。',
+    answer: '新宿エリアではzen place pilates、STUDIO IVY、ELEMENT、URBAN CLASSIC PILATESなどが男性も利用可能です。ピラティスK、Rintosull、the SILK、ピラティスミラー、NATURAglam は女性専用スタジオとなっています。男性の方はまず体験レッスンから始めてみるのがおすすめです。',
   },
   {
     question: 'ピラティスで肩こりや腰痛は改善しますか？',
@@ -416,7 +389,7 @@ export default function ShinjukuPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス新宿おすすめ12選<br className="hidden md:block" />
+              ピラティス新宿おすすめ11選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -444,7 +417,7 @@ export default function ShinjukuPage() {
               新宿は、JR山手線・中央線・小田急線・京王線・東京メトロ丸ノ内線・副都心線・都営大江戸線・都営新宿線など多数の路線が集まる日本最大のターミナル駅です。仕事帰りや買い物のついでにも通いやすいエリアです。新宿区内にはマシンピラティス専門、女性専用、パーソナル、予約不要など、多彩なスタジオが集結しています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、新宿エリアでおすすめのピラティススタジオ12選をまとめました。
+              本ページでは、新宿エリアでおすすめのピラティススタジオ11選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -488,7 +461,7 @@ export default function ShinjukuPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              新宿のおすすめピラティススタジオ12選
+              新宿のおすすめピラティススタジオ11選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -513,7 +486,6 @@ export default function ShinjukuPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
                   <li className="text-warm-700">• URBAN CLASSIC PILATES（月4回 9,680円）</li>
-                  <li className="text-warm-700">• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
                   <li className="text-warm-700">• ピラティスK（月4回 11,220円〜）</li>
                 </ul>
               </div>
@@ -608,7 +580,6 @@ export default function ShinjukuPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates（月4回 9,625円〜）</li>
                   <li>• URBAN CLASSIC PILATES（月4回 9,680円）</li>
-                  <li>• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
                   <li>• ピラティスK（月4回 11,220円〜）</li>
                 </ul>
               </div>
@@ -673,7 +644,7 @@ export default function ShinjukuPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。新宿エリアではCLUB PILATESやthe SILKが無料体験を提供しており、zen place pilatesは500円から体験可能です。体験レッスンをご利用ください。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。新宿エリアではthe SILKが無料体験を提供しており、zen place pilatesは500円から体験可能です。体験レッスンをご利用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -703,7 +674,7 @@ export default function ShinjukuPage() {
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
                   <p className="text-3xl font-bold text-warm-800 mb-2">9,625円〜15,280円</p>
-                  <p className="text-sm text-warm-600">zen place pilatesのマット月4回9,625円〜が最安クラスです。ピラティスKは11,220円〜です。CLUB PILATESは月4回 10,890〜17,050円（店舗により異なる）で無料体験ありと費用対効果に優れています。</p>
+                  <p className="text-sm text-warm-600">zen place pilatesのマット月4回9,625円〜が最安クラスです。ピラティスKは11,220円〜です。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">パーソナルレッスン</h3>
@@ -713,7 +684,7 @@ export default function ShinjukuPage() {
               </div>
               <div className="bg-white rounded-lg p-5 border border-warm-200">
                 <h3 className="font-bold text-warm-900 mb-3">入会金・体験レッスン費用</h3>
-                <p className="text-sm text-warm-600">入会金は5,000円〜30,000円台が一般的ですが、キャンペーン期間中は0円になるケースも少なくありません。体験レッスンはCLUB PILATESが無料、zen placeは1,000円〜、新規オープン店舗は特別価格で体験できることもあります。複数スタジオで体験して比較するのが最適です。</p>
+                <p className="text-sm text-warm-600">入会金は5,000円〜30,000円台が一般的ですが、キャンペーン期間中は0円になるケースも少なくありません。体験レッスンはzen placeが1,000円〜、新規オープン店舗は特別価格で体験できることもあります。複数スタジオで体験して比較するのが最適です。</p>
               </div>
             </div>
           </div>
@@ -747,7 +718,7 @@ export default function ShinjukuPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">複数店舗利用できるかもチェック</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  zen placeは全国140以上のスタジオを他店利用可能です。休日は自宅近くのスタジオ、平日は新宿のスタジオと使い分けることで通いやすさが格段に上がります。CLUB PILATESも全国の店舗で利用可能です。ライフスタイルに合わせて柔軟に通えるスタジオをお選びください。
+                  zen placeは全国140以上のスタジオを他店利用可能です。休日は自宅近くのスタジオ、平日は新宿のスタジオと使い分けることで通いやすさが格段に上がります。ライフスタイルに合わせて柔軟に通えるスタジオをお選びください。
                 </p>
               </div>
             </div>
@@ -823,7 +794,7 @@ export default function ShinjukuPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              本ページでは、新宿のおすすめピラティススタジオ12選をご紹介しました。
+              本ページでは、新宿のおすすめピラティススタジオ11選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               新宿はJR山手線・中央線・小田急線・京王線・東京メトロ丸ノ内線・副都心線・都営大江戸線など、多数の路線が集まる日本最大のターミナル駅です。大手チェーンから女性専用スタジオ、完全個室パーソナル、予約不要のカジュアルスタジオまで、多彩なスタジオが集まるエリアです。

@@ -6784,16 +6784,6 @@
       "areaName": "府中"
     },
     {
-      "name": "CLUB PILATES 二子玉川店",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "体験レッスン 無料（当日入会で入会金無料）",
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359",
-      "address": "東京都世田谷区玉川3-15-1 曽根ビル 2F",
-      "access": "東急田園都市線・大井町線「二子玉川駅」西口 徒歩3分",
-      "areaSlug": "futakotamagawa",
-      "areaName": "二子玉川"
-    },
-    {
       "name": "CLUB PILATES 博多店",
       "price": "月4回 13,090円／月8回 24,090円／通い放題 37,290円（公式店舗ページ・税表記なし）",
       "trial": "体験レッスン 無料（30分イントロクラス）",
@@ -6834,26 +6824,6 @@
       "areaName": "広島"
     },
     {
-      "name": "CLUB PILATES 日吉店",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "体験レッスン 無料（30分イントロクラス）",
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359",
-      "address": "神奈川県横浜市港北区日吉エリア（詳細は公式サイトでご確認ください）",
-      "access": "東急東横線・市営グリーンライン「日吉駅」徒歩4分",
-      "areaSlug": "hiyoshi",
-      "areaName": "日吉"
-    },
-    {
-      "name": "CLUB PILATES 鹿児島店",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "体験レッスン 無料（30分）",
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359",
-      "address": "鹿児島県鹿児島市",
-      "access": "鹿児島市電沿線",
-      "areaSlug": "ibusuki",
-      "areaName": "指宿"
-    },
-    {
       "name": "CLUB PILATES 神楽坂店",
       "price": "月4回 14,190円／月8回 26,290円／通い放題 40,590円（公式店舗ページ・税表記なし）",
       "trial": "体験レッスン 無料（30分イントロクラス）",
@@ -6862,16 +6832,6 @@
       "access": "東京メトロ東西線「神楽坂駅」1A出口 徒歩30秒",
       "areaSlug": "iidabashi",
       "areaName": "飯田橋・神楽坂"
-    },
-    {
-      "name": "CLUB PILATES 自由が丘店",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "体験レッスン 無料（30分イントロクラス）",
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359",
-      "address": "東京都目黒区自由が丘エリア（詳細は公式サイトでご確認ください）",
-      "access": "東急東横線・大井町線「自由が丘駅」周辺",
-      "areaSlug": "jiyugaoka",
-      "areaName": "自由が丘"
     },
     {
       "name": "CLUB PILATES 蒲田店",
@@ -6904,16 +6864,6 @@
       "areaName": "川崎"
     },
     {
-      "name": "CLUB PILATES 小倉店",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "体験レッスン 無料（30分）",
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359",
-      "address": "福岡県北九州市小倉北区（詳細は公式サイトでご確認ください）",
-      "access": "JR「小倉駅」周辺",
-      "areaSlug": "kitakyushu",
-      "areaName": "北九州"
-    },
-    {
       "name": "CLUB PILATES 高円寺",
       "price": "月4回 11,990円／月8回 21,890円／通い放題 36,190円（公式店舗ページ・税表記なし）",
       "trial": "体験レッスン 0円（30分）",
@@ -6924,26 +6874,6 @@
       "areaName": "高円寺"
     },
     {
-      "name": "CLUB PILATES 駒沢（近隣）",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "体験レッスンあり",
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359",
-      "address": "東京都世田谷区（駒沢近隣）",
-      "access": "駒沢エリアからアクセス可能",
-      "areaSlug": "komazawa",
-      "areaName": "駒沢"
-    },
-    {
-      "name": "CLUB PILATES 駒沢大学（近隣）",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "体験レッスンあり",
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359",
-      "address": "東京都世田谷区（駒沢大学近隣）",
-      "access": "駒沢大学駅から近隣エリア",
-      "areaSlug": "komazawa-daigaku",
-      "areaName": "駒沢大学"
-    },
-    {
       "name": "CLUB PILATES 熊本駅前店",
       "price": "月4回 13,090円／月8回 24,090円／通い放題 37,290円（公式店舗ページ・税表記なし）",
       "trial": "体験レッスン 無料（30分）",
@@ -6952,36 +6882,6 @@
       "access": "JR「熊本駅」周辺",
       "areaSlug": "kumamoto",
       "areaName": "熊本"
-    },
-    {
-      "name": "CLUB PILATES 京橋店",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "体験レッスン 無料",
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359",
-      "address": "大阪府大阪市都島区京橋エリア（詳細は公式サイトでご確認ください）",
-      "access": "JR大阪環状線・京阪本線「京橋駅」徒歩圏内",
-      "areaSlug": "kyobashi-osaka",
-      "areaName": "京橋（大阪）"
-    },
-    {
-      "name": "CLUB PILATES 経堂（近隣）",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "体験レッスンあり",
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359",
-      "address": "東京都世田谷区（経堂近隣）",
-      "access": "経堂駅から近隣エリア",
-      "areaSlug": "kyodo",
-      "areaName": "経堂"
-    },
-    {
-      "name": "CLUB PILATES",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "体験レッスン 0円（30分）",
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359",
-      "address": "東京都内（詳細は公式サイトでご確認ください）",
-      "access": "丸の内エリアからアクセス可能（詳細は公式サイトでご確認ください）",
-      "areaSlug": "marunouchi",
-      "areaName": "丸の内"
     },
     {
       "name": "CLUB PILATES 溝の口店",
@@ -7004,26 +6904,6 @@
       "areaName": "武蔵小杉"
     },
     {
-      "name": "CLUB PILATES 長野店",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "体験レッスン 無料（30分イントロクラス）",
-      "rating": 4.6,
-      "address": "長野県長野市（詳細は公式サイトでご確認ください）",
-      "access": "長野市内（詳細は公式サイトでご確認ください）",
-      "areaSlug": "nagano",
-      "areaName": "長野"
-    },
-    {
-      "name": "CLUB PILATES 中野",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "体験レッスンあり",
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359",
-      "address": "東京都中野区中野（中野エリア）",
-      "access": "JR中央線・総武線「中野駅」徒歩圏内",
-      "areaSlug": "nakano",
-      "areaName": "中野"
-    },
-    {
       "name": "CLUB PILATES 中野坂上店",
       "price": "月4回 13,090円／月8回 24,090円／通い放題 37,290円（公式店舗ページ・税表記なし）",
       "trial": "体験レッスン 無料（30分イントロクラス）",
@@ -7032,15 +6912,6 @@
       "access": "都営大江戸線・東京メトロ丸ノ内線「中野坂上駅」徒歩2分",
       "areaSlug": "nakano-sakaue",
       "areaName": "中野坂上"
-    },
-    {
-      "name": "CLUB PILATES なんば",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "体験レッスン 無料",
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359",
-      "access": "なんば駅から徒歩3分",
-      "areaSlug": "namba",
-      "areaName": "なんば"
     },
     {
       "name": "CLUB PILATES 福岡西新店",
@@ -7093,26 +6964,6 @@
       "areaName": "沖縄"
     },
     {
-      "name": "CLUB PILATES 大阪",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "無料体験レッスン",
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359",
-      "address": "大阪府大阪市（詳細は公式サイト参照）",
-      "access": "大阪市内（詳細は公式サイト参照）",
-      "areaSlug": "osaka",
-      "areaName": "大阪"
-    },
-    {
-      "name": "CLUB PILATES 六本木（近隣）",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "体験レッスンあり",
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359",
-      "address": "東京都港区（六本木近隣）",
-      "access": "六本木近隣",
-      "areaSlug": "roppongi",
-      "areaName": "六本木"
-    },
-    {
       "name": "CLUB PILATES 相模大野店",
       "price": "月4回 11,990円／月8回 21,890円／通い放題 36,190円（公式店舗ページ・税表記なし）",
       "trial": "体験レッスン 無料",
@@ -7131,16 +6982,6 @@
       "access": "三軒茶屋駅から近隣エリア",
       "areaSlug": "sangenjaya",
       "areaName": "三軒茶屋"
-    },
-    {
-      "name": "CLUB PILATES 札幌",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "体験レッスン 無料",
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=80844",
-      "address": "北海道札幌市北区北8条西1-3 さつきた8・1 A棟1F",
-      "access": "地下鉄東豊線さっぽろ駅15番出口直結",
-      "areaSlug": "sapporo",
-      "areaName": "札幌"
     },
     {
       "name": "CLUB PILATES 笹塚店",
@@ -7173,36 +7014,6 @@
       "areaName": "仙川"
     },
     {
-      "name": "CLUB PILATES 渋谷",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "無料体験",
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359",
-      "address": "東京都渋谷区（渋谷駅徒歩圏内）",
-      "access": "渋谷駅 徒歩圏内",
-      "areaSlug": "shibuya",
-      "areaName": "渋谷"
-    },
-    {
-      "name": "CLUB PILATES 新橋（近隣）",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "体験レッスン実施中",
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359",
-      "address": "東京都港区（新橋近隣）",
-      "access": "JR「新橋駅」から近隣エリア",
-      "areaSlug": "shimbashi",
-      "areaName": "新橋"
-    },
-    {
-      "name": "CLUB PILATES 下北沢（近隣）",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "体験レッスンあり",
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359",
-      "address": "東京都世田谷区（下北沢近隣）",
-      "access": "下北沢駅から近隣エリア",
-      "areaSlug": "shimokitazawa",
-      "areaName": "下北沢"
-    },
-    {
       "name": "CLUB PILATES 西新宿店",
       "price": "月4回 13,090円／月8回 24,090円／通い放題 37,290円（公式店舗ページ・税表記なし）",
       "trial": "体験レッスンあり",
@@ -7211,35 +7022,6 @@
       "access": "西新宿駅より徒歩圏内",
       "areaSlug": "shin-okubo",
       "areaName": "新大久保・新宿"
-    },
-    {
-      "name": "CLUB PILATES 新宿",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "無料体験あり",
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359",
-      "address": "東京都新宿区新宿（新宿駅近く）",
-      "access": "JR「新宿駅」徒歩圏内",
-      "areaSlug": "shinjuku",
-      "areaName": "新宿"
-    },
-    {
-      "name": "CLUB PILATES 心斎橋",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "体験レッスン 無料",
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359",
-      "access": "心斎橋駅から徒歩3分",
-      "areaSlug": "shinsaibashi",
-      "areaName": "心斎橋"
-    },
-    {
-      "name": "CLUB PILATES 港区エリア",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "体験レッスンあり",
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359",
-      "address": "東京都港区（港区エリア）",
-      "access": "白金高輪駅からアクセス可能な港区内店舗",
-      "areaSlug": "shirokanatakanawa",
-      "areaName": "白金高輪"
     },
     {
       "name": "CLUB PILATES 辻堂店",
@@ -7262,25 +7044,6 @@
       "areaName": "巣鴨"
     },
     {
-      "name": "CLUB PILATES 立川",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "体験レッスン 無料",
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359",
-      "access": "立川駅北口から徒歩3分",
-      "areaSlug": "tachikawa",
-      "areaName": "立川"
-    },
-    {
-      "name": "CLUB PILATES 早稲田店",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "体験レッスン 無料",
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359",
-      "address": "東京都新宿区早稲田町（早稲田駅徒歩圏内）",
-      "access": "東京メトロ東西線「早稲田駅」徒歩圏内 / JR「高田馬場駅」から東西線で1駅",
-      "areaSlug": "takadanobaba",
-      "areaName": "高田馬場"
-    },
-    {
       "name": "CLUB PILATES 田無店",
       "price": "月4回 11,990円／月8回 21,890円／通い放題 36,190円（公式店舗ページ・税表記なし）",
       "trial": "体験レッスン 無料（30分）",
@@ -7289,26 +7052,6 @@
       "access": "田無駅周辺",
       "areaSlug": "tanashi",
       "areaName": "田無"
-    },
-    {
-      "name": "CLUB PILATES 富山店",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "体験レッスン 無料（30分イントロクラス）",
-      "rating": 4.7,
-      "address": "富山県富山市（詳細は公式サイトでご確認ください）",
-      "access": "富山市内（詳細は公式サイトでご確認ください）",
-      "areaSlug": "toyama",
-      "areaName": "富山"
-    },
-    {
-      "name": "CLUB PILATES 豊橋店",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "体験レッスン 無料（30分イントロクラス）",
-      "rating": 4.7,
-      "address": "愛知県豊橋市（詳細は公式サイトでご確認ください）",
-      "access": "豊橋市内（詳細は公式サイトでご確認ください）",
-      "areaSlug": "toyohashi",
-      "areaName": "豊橋"
     },
     {
       "name": "CLUB PILATES 豊洲店",
@@ -7329,24 +7072,6 @@
       "access": "つくばエクスプレス「つくば駅」徒歩3分 トナリエつくばスクエア クレオ 3F",
       "areaSlug": "tsukuba",
       "areaName": "つくば"
-    },
-    {
-      "name": "CLUB PILATES 上野",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "体験レッスン 無料",
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359",
-      "access": "上野駅不忍口から徒歩3分",
-      "areaSlug": "ueno",
-      "areaName": "上野"
-    },
-    {
-      "name": "CLUB PILATES 梅田",
-      "price": "料金は店舗により異なる（公式の店舗ページで確認）",
-      "trial": "体験レッスン 無料",
-      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359",
-      "access": "梅田駅から徒歩3分",
-      "areaSlug": "umeda",
-      "areaName": "梅田"
     },
     {
       "name": "CLUB PILATES 浦和店",

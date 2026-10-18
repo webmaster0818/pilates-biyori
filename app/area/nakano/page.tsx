@@ -146,33 +146,6 @@ const studios = [
     },
   },
   {
-    name: 'CLUB PILATES 中野',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
-    image: '/images/studios/club-pilates.webp',
-    price: '料金は店舗により異なる（公式の店舗ページで確認）',
-    trial: '体験レッスンあり',
-    features: ['世界最大級チェーン', '最大12名グループ', 'レベル別クラス', '中野エリア'],
-    description: '世界最大級のピラティスチェーン「CLUB PILATES」の中野スタジオです。最大12名のグループレッスンです。料金は店舗により異なります。リフォーマーをはじめ多彩なマシンを使用しています。レベル別クラスで初心者も安心です。',
-    access: 'JR中央線・総武線「中野駅」徒歩圏内',
-    address: '東京都中野区中野（中野エリア）',
-    popularPlan: {
-      name: 'EFT4プラン（月4回）',
-      description: '世界基準のグループマシンピラティスです。月4回です。',
-      price: '店舗により異なる（公式の店舗ページで確認）',
-    },
-    options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
-    userProfile: {
-      ageRange: '20代〜50代',
-      genderRatio: '女性80% / 男性20%',
-      purpose: ['ボディメイク', '体幹強化', '姿勢改善', '運動習慣'],
-    },
-    basicInfo: {
-      hours: 'お問い合わせください',
-      closed: '不定休',
-      facilities: ['リフォーマー', 'EXOチェア', 'スプリングボード', 'TRX'],
-    },
-  },
-  {
     name: 'URBAN CLASSIC PILATES 中野',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
@@ -389,7 +362,7 @@ const faqs = [
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'zen place pilates 中野は男性利用可です。STUDIO IVY、ELEMENT、CLUB PILATES、chocoZAPも男女問わず利用可能です。',
+    answer: 'zen place pilates 中野は男性利用可です。STUDIO IVY、ELEMENT、chocoZAPも男女問わず利用可能です。',
   },
   {
     question: '中野駅以外の最寄駅で通えるスタジオは？',
@@ -414,7 +387,7 @@ export default function NakanoPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス中野おすすめ11選<br className="hidden md:block" />
+              ピラティス中野おすすめ10選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -439,7 +412,7 @@ export default function NakanoPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、JR中央線・総武線の中野駅や丸ノ内線の新中野駅周辺で通えるおすすめのピラティススタジオ11選をまとめました。マシンピラティス専門店からパーソナル、ホットヨガ併設、セルフ型まで幅広くご紹介します。
+              本ページでは、JR中央線・総武線の中野駅や丸ノ内線の新中野駅周辺で通えるおすすめのピラティススタジオ10選をまとめました。マシンピラティス専門店からパーソナル、ホットヨガ併設、セルフ型まで幅広くご紹介します。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -479,7 +452,7 @@ export default function NakanoPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              中野のおすすめピラティススタジオ11選
+              中野のおすすめピラティススタジオ10選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -697,7 +670,6 @@ export default function NakanoPage() {
                   本格マシンピラティスを体験できます。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
                   <li>• zen place マシン（月4回 15,400円〜）</li>
                   <li>• STUDIO IVY（月2回 15,000円〜）</li>
                 </ul>
@@ -797,10 +769,10 @@ export default function NakanoPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は中野エリアのおすすめピラティススタジオ11選をご紹介しました。
+              今回は中野エリアのおすすめピラティススタジオ10選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              中野はJR中央線で新宿まで約5分、中野ブロードウェイやサンモール商店街など活気あるサブカルの街です。マットグループ月4回9,625円〜のzen place、女性専用マシン専門のnoa、駅南口徒歩2分のピラティスミラー、完全個室パーソナルのSTUDIO IVY、世界最大級チェーンのCLUB PILATES、予約不要30分のURBAN CLASSIC、マンツーマン30分のELEMENT、月額3,278円のchocoZAPなど、多彩なスタジオが揃っています。
+              中野はJR中央線で新宿まで約5分、中野ブロードウェイやサンモール商店街など活気あるサブカルの街です。マットグループ月4回9,625円〜のzen place、女性専用マシン専門のnoa、駅南口徒歩2分のピラティスミラー、完全個室パーソナルのSTUDIO IVY、予約不要30分のURBAN CLASSIC、マンツーマン30分のELEMENT、月額3,278円のchocoZAPなど、多彩なスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               ぜひ体験レッスンに足を運んで、自分に合うスタジオを見つけてください。

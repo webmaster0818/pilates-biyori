@@ -54,33 +54,6 @@ const studios = [
     },
   },
   {
-    name: 'CLUB PILATES',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
-    image: '/images/studios/club-pilates.webp',
-    price: '料金は店舗により異なる（公式の店舗ページで確認）',
-    trial: '体験レッスン 無料',
-    features: ['アメリカ発', '世界最大級', 'グループ＆プライベート', '東京都内多数'],
-    description: 'アメリカ発の世界最大級ピラティススタジオチェーンです。世界各国で800店舗以上を展開しています。グループレッスンからプライベートレッスンまで幅広く対応しています。全米No.1のピラティスメソッドで、初心者から上級者まで満足できるプログラムを提供しています。インストラクター養成講座も開講しています。',
-    access: '東京都内多数展開',
-    address: '東京都内（詳細は公式サイト参照）',
-    popularPlan: {
-      name: '体験レッスン',
-      description: '初回無料で世界最大級のピラティスメソッドを体験できます。',
-      price: '店舗により異なる（公式の店舗ページで確認）',
-    },
-    options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
-    userProfile: {
-      ageRange: '20代〜60代まで幅広い',
-      genderRatio: '女性85% / 男性15%',
-      purpose: ['ボディメイク', '姿勢改善', '体幹強化', 'リハビリ'],
-    },
-    basicInfo: {
-      hours: '店舗により異なる',
-      closed: '店舗により異なる',
-      facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', '最新マシン完備'],
-    },
-  },
-  {
     name: 'ピラティスミラー',
     image: '/images/studios/pilates-mirror.webp',
     price: '要問合せ',
@@ -188,7 +161,7 @@ const studios = [
 const faqs = [
   {
     question: '東京で一番安いピラティススタジオはどこですか？',
-    answer: 'CLUB PILATESは体験レッスンが無料なので、まずは試してみたい方におすすめです。ピラティスKも無料体験を実施しています。',
+    answer: '本ページの掲載スタジオで月額が公式に掲載されているのは、ピラティスK（月4回 13,420円〜）とthe SILK 東京八重洲店（Standard4 14,370円〜）です。その他のスタジオは公式サイトでご確認ください。ピラティスKは無料体験を実施しています。',
   },
   {
     question: '女性専用のピラティススタジオはありますか？',
@@ -196,7 +169,7 @@ const faqs = [
   },
   {
     question: '体験レッスンはありますか？料金はいくらですか？',
-    answer: 'ほとんどのスタジオで体験レッスンを実施しています。CLUB PILATESとピラティスKは無料です。その他スタジオは有料ですが、入会すると入会金が無料になるなどの特典があります。まずは2〜3つのスタジオで体験してみるのがおすすめです。',
+    answer: 'ほとんどのスタジオで体験レッスンを実施しています。ピラティスKは無料です。その他スタジオは有料ですが、入会すると入会金が無料になるなどの特典があります。まずは2〜3つのスタジオで体験してみるのがおすすめです。',
   },
   {
     question: 'マシンピラティスとマットピラティスの違いは何ですか？',
@@ -242,7 +215,7 @@ export default async function TokyoAreaPage() {
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               東京のピラティススタジオ<br className="hidden md:block" />
-              おすすめ6選｜料金・体験レッスン比較
+              おすすめ5選｜料金・体験レッスン比較
             </h1>
           </div>
         </section>
@@ -266,7 +239,7 @@ export default async function TokyoAreaPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、東京都内でおすすめのピラティススタジオ6選をまとめました。
+              本ページでは、東京都内でおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -414,7 +387,7 @@ export default async function TokyoAreaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              東京のおすすめピラティススタジオ6選
+              東京のおすすめピラティススタジオ5選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -445,9 +418,7 @@ export default async function TokyoAreaPage() {
                 <p className="text-warm-600 text-sm mb-4">
                   安心感を重視する方におすすめです。
                 </p>
-                <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• CLUB PILATES</li>
-                </ul>
+                <ul className="space-y-2 text-sm"><li>該当なし</li></ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">理学療法士監修</h3>
@@ -481,8 +452,7 @@ export default async function TokyoAreaPage() {
                 <p className="text-warm-600 text-sm mb-4">
                   ヨガとピラティスどちらも楽しみたい方におすすめです。柔軟性と筋力を同時に向上です。
                 </p>
-                <ul className="space-y-2 text-sm">
-                </ul>
+                <ul className="space-y-2 text-sm"><li>該当なし</li></ul>
               </div>
             </div>
           </div>
@@ -574,7 +544,7 @@ export default async function TokyoAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。CLUB PILATESやピラティスKは無料体験を実施しているので、体験レッスンをご利用ください。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。ピラティスKは無料体験を実施しているので、体験レッスンをご利用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

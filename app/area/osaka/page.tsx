@@ -147,33 +147,6 @@ const studios = [
     },
   },
   {
-    name: 'CLUB PILATES 大阪',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
-    image: '/images/studios/club-pilates.webp',
-    price: '料金は店舗により異なる（公式の店舗ページで確認）',
-    trial: '無料体験レッスン',
-    features: ['アメリカ発', '世界800店舗以上', 'グループ＆プライベート', '初心者歓迎'],
-    description: 'CLUB PILATESは世界各国で800店舗以上展開するアメリカ発のピラティススタジオです。初めての方でも安心してマシンピラティスを楽しめます。グループレッスンとプライベートレッスンの両方を提供しています。世界最大級のピラティスネットワークで培われたノウハウを活かした指導しています。',
-    access: '大阪市内（詳細は公式サイト参照）',
-    address: '大阪府大阪市（詳細は公式サイト参照）',
-    popularPlan: {
-      name: 'グループレッスン',
-      description: '世界800店舗以上のネットワークです。初心者でも安心して楽しめます。',
-      price: '店舗により異なる（公式の店舗ページで確認）',
-    },
-    options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
-      purpose: ['初心者歓迎', '世界的ブランド', 'ボディメイク', 'グループ＆プライベート'],
-    },
-    basicInfo: {
-      hours: '詳細は公式サイト参照',
-      closed: '詳細は公式サイト参照',
-      facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', 'マシン完備', '世界展開'],
-    },
-  },
-  {
     name: 'STUDIO IVY 大阪',
     image: '/images/studios/studio-ivy.webp',
     price: '要問合せ',
@@ -335,7 +308,7 @@ const studios = [
 const faqs = [
   {
     question: '大阪でピラティス初心者におすすめのスタジオはどこですか？',
-    answer: 'PILATES KASANE 大阪がおすすめです。体験料金が2,200円とお手頃で、少人数制で丁寧に指導してくれるので、初心者の方も安心してご参加いただけます。また、CLUB PILATES 大阪も無料体験を実施しており、世界最大級のネットワークで培ったプログラムで初心者を歓迎しています。',
+    answer: 'PILATES KASANE 大阪がおすすめです。体験料金が2,200円とお手頃で、少人数制で丁寧に指導してくれるので、初心者の方も安心してご参加いただけます。',
   },
   {
     question: '大阪で一番安いピラティススタジオはどこですか？',
@@ -347,7 +320,7 @@ const faqs = [
   },
   {
     question: '体験レッスンはありますか？料金はいくらですか？',
-    answer: 'ほとんどのスタジオで体験レッスンを実施しています。ピラティスK 大阪とCLUB PILATES 大阪は無料、PILATES KASANE 大阪は2,200円、La pilates 天王寺店は3,000円、その他スタジオは要問合せです。',
+    answer: 'ほとんどのスタジオで体験レッスンを実施しています。ピラティスK 大阪は無料、PILATES KASANE 大阪は2,200円、La pilates 天王寺店は3,000円、その他スタジオは要問合せです。',
   },
   {
     question: 'マシンピラティスとマットピラティスの違いは何ですか？',
@@ -392,7 +365,7 @@ export default async function OsakaAreaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス大阪おすすめ11選<br className="hidden md:block" />
+              ピラティス大阪おすすめ10選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -417,7 +390,7 @@ export default async function OsakaAreaPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、大阪エリアでおすすめのピラティススタジオ11選をまとめました。
+              本ページでは、大阪エリアでおすすめのピラティススタジオ10選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -565,7 +538,7 @@ export default async function OsakaAreaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              大阪のおすすめピラティススタジオ11選
+              大阪のおすすめピラティススタジオ10選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -670,7 +643,6 @@ export default async function OsakaAreaPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（13,420円〜）</li>
                   <li>• DAYS PILATES</li>
-                  <li>• CLUB PILATES</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">

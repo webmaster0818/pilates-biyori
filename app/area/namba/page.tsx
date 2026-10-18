@@ -53,16 +53,6 @@ const studios = [
     },
   },
   {
-    name: 'CLUB PILATES なんば',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
-    image: '/images/studios/club-pilates.webp',
-    price: '料金は店舗により異なる（公式の店舗ページで確認）',
-    trial: '体験レッスン 無料',
-    features: ['アメリカ発', 'グループ&プライベート', 'なんば駅近', '初心者歓迎'],
-    description: 'アメリカ発の世界最大級ピラティススタジオチェーンです。なんば駅から徒歩3分です。グループレッスンからプライベートレッスンまで幅広く対応しています。全米No.1のピラティスメソッドで、初心者から上級者まで満足できるプログラムを提供しています。',
-    access: 'なんば駅から徒歩3分',
-  },
-  {
     name: 'Dr.ピラティス なんば店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11979O.1.Z164554L.U1357808',
     image: '/images/studios/dr-pilates.webp',
@@ -135,7 +125,7 @@ export default function NambaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティスなんばおすすめ3選<br className="hidden md:block" />
+              ピラティスなんばおすすめ2選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -160,7 +150,7 @@ export default function NambaPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、なんばエリアでおすすめのピラティススタジオ3選をまとめました。
+              本ページでは、なんばエリアでおすすめのピラティススタジオ2選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -199,7 +189,7 @@ export default function NambaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              なんばのおすすめピラティススタジオ3選
+              なんばのおすすめピラティススタジオ2選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (

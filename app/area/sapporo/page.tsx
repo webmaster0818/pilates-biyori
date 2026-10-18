@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/sapporo/' },
-  title: 'ピラティス札幌おすすめ11選人気スタジオの料金プランの比較',
-  description: '札幌のおすすめピラティススタジオ11選を比較しています。グループ月2回5,500円〜の料金相場、マシン専門・女性専用のスタジオ情報、体験レッスンの持ち物・冬場の注意点まで完全網羅しています。',
+  title: 'ピラティス札幌おすすめ10選人気スタジオの料金プランの比較',
+  description: '札幌のおすすめピラティススタジオ10選を比較しています。グループ月2回5,500円〜の料金相場、マシン専門・女性専用のスタジオ情報、体験レッスンの持ち物・冬場の注意点まで完全網羅しています。',
   keywords: 'ピラティス,札幌,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -104,33 +104,6 @@ const studios = [
       hours: '火〜金 10:00-22:00 / 土日祝 10:00-18:30',
       closed: '月曜日',
       facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', '暗闇スタジオ', '女性専用'],
-    },
-  },
-  {
-    name: 'CLUB PILATES 札幌',
-    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=80844',
-    image: '/images/studios/club-pilates.webp',
-    price: '料金は店舗により異なる（公式の店舗ページで確認）',
-    trial: '体験レッスン 無料',
-    features: ['アメリカ発', '世界最大級', 'グループ＆プライベート', '地下鉄直結'],
-    description: 'アメリカ発の世界最大級ピラティススタジオチェーンです。地下鉄さっぽろ駅15番出口に直結しており、通いやすい立地です。グループレッスンからプライベートレッスンまで幅広く対応しています。全米No.1のピラティスメソッドで、初心者から上級者まで満足できるプログラムを提供しています。',
-    access: '地下鉄東豊線さっぽろ駅15番出口直結',
-    address: '北海道札幌市北区北8条西1-3 さつきた8・1 A棟1F',
-    popularPlan: {
-      name: '体験レッスン',
-      description: '初回無料で世界最大級のピラティスメソッドを体験できます。',
-      price: '店舗により異なる（公式の店舗ページで確認）',
-    },
-    options: ['料金は店舗により異なる（公式の店舗ページで確認）', '参考：公式店舗ページの月4回 10,890〜17,050円／通い放題 17,490〜40,590円（2026年10月14日・86店舗）', '入会金 5,500円（税込）'],
-    userProfile: {
-      ageRange: '20代〜60代まで幅広い',
-      genderRatio: '女性85% / 男性15%',
-      purpose: ['ボディメイク', '姿勢改善', '体幹強化', 'リハビリ'],
-    },
-    basicInfo: {
-      hours: '月〜金 7:00-21:00 / 土日 7:00-18:00',
-      closed: '不定休',
-      facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', '最新マシン完備'],
     },
   },
   {
@@ -349,7 +322,7 @@ const faqs = [
   },
   {
     question: '札幌駅直結で通えるピラティススタジオはありますか？',
-    answer: 'はい、2つあります。ピラティスK 札幌駅前店（アスティ45ビル2F・地下直結）、CLUB PILATES 札幌です（地下鉄さっぽろ駅直結）。天候に左右されず通えます。',
+    answer: 'はい、ピラティスK 札幌駅前店（アスティ45ビル2F・地下直結）があります。天候に左右されず通えます。',
   },
   {
     question: '札幌で一番安いピラティススタジオはどこですか？',
@@ -361,7 +334,7 @@ const faqs = [
   },
   {
     question: '体験レッスンはありますか？料金はいくらですか？',
-    answer: 'ほとんどのスタジオで体験レッスンを実施しています。CLUB PILATES札幌とピラティスK札幌駅前店は無料、zen place pilates札幌は1,000円、LATECOは2,000円、La pilatesは3,000円台、Repilatesは0円（通常3,300円）です。',
+    answer: 'ほとんどのスタジオで体験レッスンを実施しています。ピラティスK札幌駅前店は無料、zen place pilates札幌は1,000円、LATECOは2,000円、La pilatesは3,000円台、Repilatesは0円（通常3,300円）です。',
   },
   {
     question: 'マシンピラティスとマットピラティスの違いは何ですか？',
@@ -402,7 +375,7 @@ export default async function SapporoAreaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス札幌おすすめ11選<br className="hidden md:block" />
+              ピラティス札幌おすすめ10選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -427,7 +400,7 @@ export default async function SapporoAreaPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、札幌エリアでおすすめのピラティススタジオ11選をまとめました。
+              本ページでは、札幌エリアでおすすめのピラティススタジオ10選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -466,7 +439,7 @@ export default async function SapporoAreaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              札幌のおすすめピラティススタジオ11選
+              札幌のおすすめピラティススタジオ10選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -511,7 +484,6 @@ export default async function SapporoAreaPage() {
                   JR札幌駅や地下鉄駅から直結・徒歩圏内です。冬の札幌でも天候を気にせず通えます。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• CLUB PILATES 札幌（さっぽろ駅直結）</li>
                   <li className="text-warm-700">• スターピラティス（チカホ直結）</li>
                 </ul>
               </div>
@@ -619,7 +591,7 @@ export default async function SapporoAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。CLUB PILATES札幌やピラティスKは無料で体験できるので、体験レッスンをご利用ください。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。ピラティスKは無料で体験できるので、体験レッスンをご利用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -649,7 +621,7 @@ export default async function SapporoAreaPage() {
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">グループレッスン</h3>
                   <p className="text-3xl font-bold text-warm-800 mb-2">5,500円〜15,400円</p>
-                  <p className="text-sm text-warm-600">スターピラティスは月2回5,500円〜と札幌最安クラスです。ピラティスK札幌駅前店は月4回13,420円＋施設維持費825円です。LATECO（ラティコ）は月4回15,400円で女性専門の加圧×マシンピラティスです。CLUB PILATES札幌は無料体験があります。</p>
+                  <p className="text-sm text-warm-600">スターピラティスは月2回5,500円〜と札幌最安クラスです。ピラティスK札幌駅前店は月4回13,420円＋施設維持費825円です。LATECO（ラティコ）は月4回15,400円で女性専門の加圧×マシンピラティスです。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">パーソナル・サブスクプラン</h3>
@@ -659,7 +631,7 @@ export default async function SapporoAreaPage() {
               </div>
               <div className="bg-white rounded-lg p-5 border border-warm-200">
                 <h3 className="font-bold text-warm-900 mb-3">入会金・体験レッスン費用</h3>
-                <p className="text-sm text-warm-600">入会金は10,000円〜22,000円が相場です。キャンペーン期間中は0円になるスタジオもあります。体験レッスンはCLUB PILATESが無料、zen placeは1,000円〜、La pilatesは2,000円で体験可能です。まずは複数スタジオの体験を回って比較するのがおすすめです。</p>
+                <p className="text-sm text-warm-600">入会金は10,000円〜22,000円が相場です。キャンペーン期間中は0円になるスタジオもあります。体験レッスンはzen placeが1,000円〜、La pilatesは2,000円で体験可能です。まずは複数スタジオの体験を回って比較するのがおすすめです。</p>
               </div>
             </div>
           </div>
@@ -675,7 +647,7 @@ export default async function SapporoAreaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">冬場の通いやすさは最重要ポイント</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  札幌の冬（12月〜3月）は積雪が多く、路面が凍結することもあります。駅直結または地下歩行空間（チカホ）からアクセスできるスタジオを選ぶと、冬場もストレスなく通い続けられます。ピラティスK札幌駅前店は札幌駅すぐ、CLUB PILATES札幌も駅近で冬場のアクセスに有利です。
+                  札幌の冬（12月〜3月）は積雪が多く、路面が凍結することもあります。駅直結または地下歩行空間（チカホ）からアクセスできるスタジオを選ぶと、冬場もストレスなく通い続けられます。ピラティスK札幌駅前店は札幌駅すぐで冬場のアクセスに有利です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
