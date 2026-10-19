@@ -57,7 +57,7 @@ const studios = [
     name: 'the SILK 田町店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: 'ライト3 12,980円〜',
+    price: 'ライト3 13,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'マシンピラティス専門', '田町駅徒歩4分', '音楽×マシン'],
     description: '女性専用マシンピラティス専門スタジオです。JR田町駅芝浦口（東口）から徒歩約4分、都営三田線三田駅A4出口から徒歩約8分です。グループからパーソナルまで対応しています。音楽に合わせた独自プログラムで楽しくトレーニングです。無料体験レッスン実施中です。',
@@ -66,13 +66,13 @@ const studios = [
     popularPlan: {
       name: 'Standard4（月4回）',
       description: '女性専用マシンピラティスの基本プランです。音楽に合わせた50分のグループレッスンです。',
-      price: '月4回 15,070円（税込）',
+      price: '月4回 15,280円（税込）',
     },
     options: [
-      'ライト3（月3回 12,980円）',
-      'Standard4（月4回 15,070円）',
-      'Full（通い放題 20,680円）',
-      'パーソナル プライベート2（月2回 19,800円）',
+      'ライト3（月3回 13,280円）',
+      'Standard4（月4回 15,280円）',
+      'Full（通い放題 22,280円）',
+      'パーソナル プライベート2（月2回 22,000円）',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
@@ -508,7 +508,7 @@ export default function TamachiPage() {
                   <li className="text-warm-700">• chocoZAP 芝五丁目（月額 3,278円）</li>
                   <li className="text-warm-700">• zen place pilates（マット月4回 9,625円〜）</li>
                   <li className="text-warm-700">• Rintosull 品川（月4回 9,680円〜）</li>
-                  <li className="text-warm-700">• the SILK 田町（ライト3 12,980円〜）</li>
+                  <li className="text-warm-700">• the SILK 田町（ライト3 13,280円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -562,7 +562,7 @@ export default function TamachiPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 12,000〜21,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">グループ</p>
                 <p className="text-sm text-warm-600 mb-4">マシンピラティスのグループレッスンです。</p>
-                <ul className="text-sm text-warm-700 space-y-1"><li>• CLUB PILATES（月4回 14,190円）</li><li>• the SILK（月3回 12,980円〜）</li><li>• zen place リフォーマー（月4回 15,400円〜）</li><li>• the SILK Full（通い放題 20,680円）</li></ul>
+                <ul className="text-sm text-warm-700 space-y-1"><li>• CLUB PILATES（月4回 14,190円）</li><li>• the SILK（月3回 13,280円〜）</li><li>• zen place リフォーマー（月4回 15,400円〜）</li><li>• the SILK Full（通い放題 22,280円）</li></ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 25,000円〜/月</h3>

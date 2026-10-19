@@ -88,7 +88,7 @@ const studios = [
     name: 'the SILK 銀座店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: 'Standard4 15,070円〜',
+    price: 'Standard4 15,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン 無料',
     features: ['暗闇マシン', '女性専用', '銀座駅徒歩2分', '音楽×マシンピラティス'],
     description: '女性専用のマシンピラティス特化型スタジオです。銀座駅A3出口から徒歩2分の好アクセスです。暗闇×音楽で没入感のあるレッスンが特徴です。最新のリフォーマーマシンを完備し、音楽に合わせた独自プログラムで楽しくトレーニングです。有楽町エリアからも徒歩圏内で通いやすいスタジオです。体験レッスンが無料で気軽に始められます。',
@@ -97,11 +97,10 @@ const studios = [
     popularPlan: {
       name: 'Standard4（月4回）',
       description: '暗闘×音楽×マシンピラティスの融合レッスンです。初心者にも人気のスタンダードプランです。',
-      price: '月4回 15,070円（税込）',
+      price: '月4回 15,280円（税込）',
     },
     options: [
-      'Standard8（月8回 20,570円）',
-      'Full Time（通い放題 22,880円）',
+      'Full（毎日1回 22,280円）',
       '追加レッスンチケット（1回 3,850円）',
       'ウェア・タオルセット（月額 2,200円）',
     ],
@@ -518,7 +517,7 @@ export default function YurakuchoPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（13,420円）</li>
-                  <li>• the SILK（15,070円）</li>
+                  <li>• the SILK（15,280円）</li>
                   <li>• BDC PILATES（15,400円）</li>
                 </ul>
               </div>

@@ -6654,7 +6654,7 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'the SILK 船橋店',
         officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
-        price: '月3回 12,980円〜',
+        price: '月3回 12,280円〜',
         trial: '体験レッスン 無料',
         features: ['女性専用', '船橋駅徒歩3分', '手ぶらで体験可能', '自然光スタジオ'],
         description: '女性専用のピラティススタジオです。自然光の入る空間で手ぶら体験も可能です。東船橋駅からは1駅・徒歩圏の船橋駅エリアです。',

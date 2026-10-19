@@ -94,7 +94,7 @@ const studios = [
     name: 'the SILK 新宿店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: '月3回 12,980円〜',
+    price: '月3回 13,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン 無料',
     features: ['女性専用', '新宿西口駅徒歩1分', '手ぶらで体験可能', '初心者歓迎'],
     description: '女性専用マシンピラティススタジオです。都営大江戸線新宿西口駅D5出口から徒歩1分です。音楽のリズムに合わせた独自のレッスンスタイルで、初心者でも楽しく続けられます。手ぶらで無料体験可能です。',
@@ -103,12 +103,12 @@ const studios = [
     popularPlan: {
       name: 'Standard4（月4回）',
       description: '女性専用マシンピラティス月4回です。音楽に合わせた楽しいレッスンです。',
-      price: '月4回 15,070円（税込）',
+      price: '月4回 15,280円（税込）',
     },
     options: [
-      'Light3（月3回 12,980円）',
-      'Full（毎日1回 20,680円）',
-      'Full Day（18,480円）',
+      'Light3（月3回 13,280円）',
+      'Full（毎日1回 22,280円）',
+      'Full Day（19,280円）',
       '体験・入会金・登録手数料 無料キャンペーンあり',
     ],
     userProfile: {
@@ -616,7 +616,7 @@ export default function YoyogiPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（10,450円〜）</li>
-                  <li>• the SILK（12,980円〜/月3回）</li>
+                  <li>• the SILK（13,280円〜/月3回）</li>
                   <li>• ピラティスK（13,420円〜）</li>
                 </ul>
               </div>
@@ -628,7 +628,6 @@ export default function YoyogiPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（16,170円/通い放題）</li>
-                  <li>• the SILK（20,680円/毎日1回）</li>
                 </ul>
               </div>
             </div>

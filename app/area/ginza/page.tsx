@@ -88,7 +88,7 @@ const studios = [
     name: 'the SILK 銀座店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: 'Standard4 15,070円〜',
+    price: 'Standard4 15,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン 無料',
     features: ['マシンピラティス専門', '女性専用', '銀座駅徒歩2分', '音楽×マシン'],
     description: '女性専用マシンピラティス専門スタジオです。銀座駅A3出口から徒歩2分の好立地です。最新のリフォーマーマシンを完備し、音楽に合わせた独自プログラムで楽しくトレーニングです。世界水準のピラティス指導を提供しています。',
@@ -97,10 +97,10 @@ const studios = [
     popularPlan: {
       name: 'Standard4（月4回）',
       description: '女性専用マシンピラティスの基本プランです。音楽に合わせた50分のグループレッスンです。',
-      price: '月4回 15,070円（税込）〜',
+      price: '月4回 15,280円（税込）〜',
     },
     options: [
-      'Standard4（月4回 15,070円〜）',
+      'Standard4（月4回 15,280円〜）',
       'Full（通い放題）',
       'Full Day（デイタイム通い放題）',
       '体験レッスン無料キャンペーン実施中',
@@ -141,7 +141,7 @@ const studios = [
     name: 'the SILK 銀座一丁目店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: 'Standard4 15,070円〜',
+    price: 'Standard4 15,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'マシンピラティス', '銀座一丁目駅徒歩2分', '音楽×マシン'],
     description: 'the SILKの銀座エリア2店舗目です。銀座一丁目駅から徒歩2分です。女性専用のマシンピラティス専門スタジオです。銀座店と同じ高品質なレッスンを提供しています。',
@@ -407,7 +407,7 @@ export default function GinzaPage() {
                   マシン完備の大手スタジオです。少人数制グループレッスンです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• the SILK（月4回 15,070円〜）</li>
+                  <li>• the SILK（月4回 15,280円〜）</li>
                   <li>• BDC PILATES（月額 15,400円〜）</li>
                   <li>• zen place（リフォーマー月4回 15,400円〜）</li>
                 </ul>
@@ -487,7 +487,7 @@ export default function GinzaPage() {
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
                   <p className="text-3xl font-bold text-warm-800 mb-2">9,625円〜15,400円</p>
-                  <p className="text-sm text-warm-600">zen place pilates銀座のマット月4回9,625円〜が最安クラスです。ピラティスKは月4回13,420円、the SILKは月4回15,070円〜です。BDC PILATESは少人数制で月額15,400円〜と質重視の価格設定です。</p>
+                  <p className="text-sm text-warm-600">zen place pilates銀座のマット月4回9,625円〜が最安クラスです。ピラティスKは月4回13,420円、the SILKは月4回15,280円〜です。BDC PILATESは少人数制で月額15,400円〜と質重視の価格設定です。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">パーソナルレッスン</h3>

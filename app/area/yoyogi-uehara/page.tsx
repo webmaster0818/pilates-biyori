@@ -191,7 +191,7 @@ const studios = [
     name: 'the SILK 渋谷店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: '月4回 15,070円〜',
+    price: '月4回 15,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン あり',
     features: ['女性専用', 'マシンピラティス', '渋谷駅徒歩2分', '音楽×ピラティス'],
     description: '女性専用のマシンピラティススタジオです。音楽に合わせてリフォーマーを使ったグループレッスンが特徴です。JR渋谷駅から徒歩2分で、代々木上原から千代田線で明治神宮前経由のアクセスも良好です。おしゃれな空間でモチベーション高くトレーニングできます。',
@@ -367,7 +367,7 @@ export default function YoyogiUeharaPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">10,450円〜15,070円</td>
+                    <td className="px-4 py-3">10,450円〜15,280円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -614,7 +614,7 @@ export default function YoyogiUeharaPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates（月4回 10,450円〜）</li>
                   <li>• URBAN CLASSIC PILATES（通い放題 14,080円）</li>
-                  <li>• the SILK（月4回 15,070円〜）</li>
+                  <li>• the SILK（月4回 15,280円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">

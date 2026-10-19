@@ -27,7 +27,7 @@ const studios = [
     name: 'the SILK 新宿店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: 'Full 22,280円/月、Standard4 15,280円/月',
+    price: 'Full 22,280円/月、Standard4 15,280円/月（別途施設利用料 月700円・税込）',
     trial: '体験レッスン 無料（期間限定）',
     features: ['女性専用', '音楽×マシン', '新宿西口駅1分', 'PMA加盟団体監修'],
     description: 'PMA加盟団体監修の本格マシンピラティススタジオです。新宿西口駅D5出口から徒歩1分の好立地です。音楽に合わせて身体を動かす独自のレッスンスタイルで、運動経験を問わず楽しめます。駅チカのスタイリッシュなスタジオで、清潔感と上質な空間を体験できるのも魅力です。',

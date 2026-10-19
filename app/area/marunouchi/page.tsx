@@ -57,7 +57,7 @@ const studios = [
     name: 'the SILK 東京八重洲店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: '月3回 12,980円〜',
+    price: '月3回 13,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン 無料',
     features: ['女性専用', '音楽レッスン', '体験無料', '手ぶらで参加可能'],
     description: '女性専用のマシンピラティススタジオ「the SILK」八重洲店です。大手町駅B10出口から徒歩5分、東京駅八重洲北口から徒歩5分です。音楽に合わせた独自のピラティスレッスンが特徴で、楽しみながらボディメイクが可能です。PMA（Pilates Method Alliance）加盟団体が監修した質の高いプログラムを提供しています。手ぶらで参加可能で仕事帰りにも気軽に通えます。体験レッスンは無料です。',
@@ -66,10 +66,10 @@ const studios = [
     popularPlan: {
       name: '月3回プラン',
       description: '女性専用マシンピラティスです。音楽に合わせた楽しいレッスンです。PMA加盟団体監修です。',
-      price: '月3回 12,980円〜（税込）',
+      price: '月3回 13,280円〜（税込）',
     },
     options: [
-      '月3回プラン（12,980円〜）',
+      '月3回プラン（13,280円〜）',
       '月4回・通い放題プランあり',
       '体験レッスン 無料',
       '手ぶらで参加可能（ウェア・タオルレンタル）',
@@ -158,7 +158,7 @@ const faqs = [
   },
   {
     question: '丸の内のピラティスの料金相場は？',
-    answer: 'zen place pilatesは月4回10,450円〜、the SILKは月3回12,980円〜です。Pilates Meeは通い放題で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）、STUDIO IVYはパーソナルで月2回15,000円〜です。目的と頻度に合わせてお選びください。',
+    answer: 'zen place pilatesは月4回10,450円〜、the SILKは月3回13,280円〜です。Pilates Meeは通い放題で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）、STUDIO IVYはパーソナルで月2回15,000円〜です。目的と頻度に合わせてお選びください。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -402,7 +402,7 @@ export default function MarunouchiPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Pilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）</li>
                   <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
+                  <li className="text-warm-700">• the SILK（月3回 13,280円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -457,7 +457,7 @@ export default function MarunouchiPage() {
                 <p className="text-sm text-warm-600 mb-4">手軽に始めたい方に適しています。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates（10,450円/月4回）</li>
-                  <li>• the SILK（12,980円/月3回）</li>
+                  <li>• the SILK（13,280円/月3回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -557,7 +557,7 @@ export default function MarunouchiPage() {
               今回は丸の内エリアのおすすめピラティススタジオ4選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              丸の内は東京駅・大手町駅を中心とした日本屈指のビジネス街で、仕事帰りに通いやすいスタジオが充実しています。全国150店舗他店利用のzen place pilates（月4回10,450円〜・体験1,000円）、女性専用&音楽レッスンのthe SILK（月3回12,980円〜・体験無料）、セミパーソナル最大3名のPilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）、完全パーソナルのSTUDIO IVY（月2回15,000円〜）と、それぞれ特徴の異なるスタジオが揃っています。
+              丸の内は東京駅・大手町駅を中心とした日本屈指のビジネス街で、仕事帰りに通いやすいスタジオが充実しています。全国150店舗他店利用のzen place pilates（月4回10,450円〜・体験1,000円）、女性専用&音楽レッスンのthe SILK（月3回13,280円〜・体験無料）、セミパーソナル最大3名のPilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）、完全パーソナルのSTUDIO IVY（月2回15,000円〜）と、それぞれ特徴の異なるスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               まずは無料体験ができるthe SILKから試してみるのがおすすめです。本ページの情報を、スタジオ選びにお役立てください。

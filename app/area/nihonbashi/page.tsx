@@ -120,7 +120,7 @@ const studios = [
     name: 'the SILK 東京八重洲店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: 'Standard4 12,980円〜',
+    price: 'Standard4 15,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン（グループ）3,850円',
     features: ['女性専用', 'マシンピラティス専門', '東京駅徒歩3分', '音楽×マシン'],
     description: '女性専用マシンピラティス専門スタジオです。JR東京駅八重洲北口から徒歩3分、日本橋駅からも徒歩圏内です。開放感のある大きな窓と白いリフォーマーが並ぶスタイリッシュな空間です。初心者が8割を占め、体が硬い方でも安心です。',
@@ -378,7 +378,7 @@ export default function NihonbashiPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Beat Pilates（月3回 9,600円〜）</li>
                   <li className="text-warm-700">• zen place pilates（マット月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• the SILK 八重洲（月4回 12,980円〜）</li>
+                  <li className="text-warm-700">• the SILK 八重洲（月4回 15,280円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -437,7 +437,7 @@ export default function NihonbashiPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">マシン完備の大手スタジオです。少人数制グループレッスンです。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• the SILK 八重洲（月4回 12,980円〜）</li>
+                  <li>• the SILK 八重洲（月4回 15,280円〜）</li>
                   <li>• ピラティスK 銀座（月4回 13,420円）</li>
                   <li>• Beat Pilates通い放題（14,400円〜）</li>
                 </ul>

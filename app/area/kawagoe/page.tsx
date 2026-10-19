@@ -25,7 +25,7 @@ const studios = [
     name: 'ピラティスK 川越店',
     officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
-    price: '月4回 11,220円〜',
+    price: '月4回 13,420円〜',
     trial: 'トライアルレッスン 0円',
     features: ['女性専用', '音楽レッスン', 'トライアル0円', '部位別プログラム'],
     description: '女性専用マシンピラティス専門スタジオです。2024年5月川越にオープンしています。音楽に合わせた楽しいリフォーマーレッスンと部位別ボディメイクプログラムが充実しています。トライアルレッスン0円で気軽に体験可能です。',
@@ -34,10 +34,10 @@ const studios = [
     popularPlan: {
       name: 'マンスリー4メンバー（月4回）',
       description: '女性専用マシンピラティス月4回です。部位別プログラムも選べます。',
-      price: '月4回 11,220円（税込）',
+      price: '月4回 13,420円（税込）',
     },
     options: [
-      'マンスリー4メンバー（月4回 11,220円）',
+      'マンスリー4メンバー（月4回 13,420円）',
       'マンスリーフルメンバー（通い放題）',
       '追加受講あり',
       'トライアルレッスン0円',
@@ -57,7 +57,7 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 川越店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
-    price: '月4回 8,800円〜',
+    price: '月4回 8,580円（税込）',
     trial: '体験レッスンあり',
     features: ['川越駅徒歩1分', '予約不要', 'サーキット形式', '30分レッスン'],
     description: '川越駅西口から徒歩1分のマシンピラティス＆ファンクショナルトレーニングスタジオです。予約不要のセミパーソナル形式で、マシンピラティスとワークアウトを組み合わせたサーキットトレーニングです。1レッスン30分で効率的です。',
@@ -66,10 +66,10 @@ const studios = [
     popularPlan: {
       name: '月4回プラン',
       description: 'マシンピラティス＆ワークアウト月4回です。予約不要です。',
-      price: '月4回 8,800円（税込）',
+      price: '月4回 8,580円（税込）',
     },
     options: [
-      '月4回プラン（8,800円）',
+      '月4回プラン（8,580円）',
       '月8回プラン',
       '通い放題プラン',
       '体験レッスンあり',
@@ -215,7 +215,7 @@ const faqs = [
   },
   {
     question: '川越のピラティスの料金相場は？',
-    answer: 'グループ月4回で8,800円〜11,220円程度です。URBAN CLASSICとRintosullが月4回8,800円〜で最もリーズナブルです。ピラティスKは月4回11,220円です。',
+    answer: 'グループ月4回で8,800円〜11,220円程度です。URBAN CLASSICが月4回8,580円（税込）、Rintosullが月4回8,800円で、この2店が最もリーズナブルです。ピラティスKは月4回13,420円です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -461,9 +461,9 @@ export default function KawagoePage() {
                   月額2万円未満で通えるスタジオです（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• URBAN CLASSIC PILATES 川越店（月4回 8,800円〜）</li>
+                  <li className="text-warm-700">• URBAN CLASSIC PILATES 川越店（月4回 8,580円）</li>
                   <li className="text-warm-700">• Rintosull 本川越店（月4回 8,800円〜）</li>
-                  <li className="text-warm-700">• ピラティスK 川越店（月4回 11,220円〜）</li>
+                  <li className="text-warm-700">• ピラティスK 川越店（月4回 13,420円）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -528,9 +528,8 @@ export default function KawagoePage() {
                   グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• URBAN CLASSIC PILATES 川越店（月4回 8,800円〜）</li>
+                  <li>• URBAN CLASSIC PILATES 川越店（月4回 8,580円）</li>
                   <li>• Rintosull 本川越店（月4回 8,800円〜）</li>
-                  <li>• ピラティスK 川越店（月4回 11,220円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -541,7 +540,7 @@ export default function KawagoePage() {
                   マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• このページの掲載スタジオでは該当なし（各スタジオの料金は上の店舗カードを参照）</li>
+                  <li>• ピラティスK 川越店（月4回 13,420円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -580,7 +579,7 @@ export default function KawagoePage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  川越の掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は8,800円（Rintosull 本川越店・2026年10月確認）です。入会金やキャンペーンもご確認ください。
+                  川越の掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は8,580円〜13,420円（ピラティスK 川越店・URBAN CLASSIC PILATES 川越店・Rintosull 本川越店・2026年10月確認）です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

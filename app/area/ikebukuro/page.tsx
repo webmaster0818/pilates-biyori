@@ -105,7 +105,7 @@ const studios = [
     name: 'the SILK 池袋東口店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: '月3回 12,980円〜',
+    price: '月3回 13,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン 無料',
     features: ['女性専用', '池袋駅徒歩1分', '手ぶらで体験可能', '2店舗あり'],
     description: '女性専用マシンピラティススタジオです。池袋駅東口41番出口から徒歩1分です。池袋に東口店・西口店の2店舗を展開しており、予約が取りやすくなっています。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。手ぶらで体験可能です。',
@@ -114,12 +114,12 @@ const studios = [
     popularPlan: {
       name: 'Standard4（月4回）',
       description: '女性専用マシンピラティス月4回です。音楽に合わせた楽しいレッスンです。',
-      price: '月4回 15,070円（税込）',
+      price: '月4回 15,280円（税込）',
     },
     options: [
-      'Light3（月3回 12,980円）',
-      'Full（毎日1回 20,680円）',
-      'Full Day（18,480円）',
+      'Light3（月3回 13,280円）',
+      'Full（毎日1回 22,280円）',
+      'Full Day（19,280円）',
       '体験・入会金・登録手数料 無料キャンペーンあり',
     ],
     userProfile: {
@@ -164,7 +164,7 @@ const studios = [
     name: 'BDC PILATES 池袋スタジオ',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590',
     image: '/images/studios/bdc-pilates.webp',
-    price: '月4回 14,520円〜',
+    price: '月4回 16,280円（税込・別途施設維持費 月770円）',
     trial: '体験レッスン 3,850円',
     features: ['ダンサー発祥', '少人数制', 'マシングループ', '池袋エリア'],
     description: 'ダンサーのためのピラティスから生まれたマシンピラティス専門スタジオです。リフォーマーを使ったダイナミックなグループレッスンが特徴です。少人数制で丁寧な指導です。体の使い方を根本から改善するプログラムです。',
@@ -173,7 +173,7 @@ const studios = [
     popularPlan: {
       name: 'マシングループ月4回',
       description: 'リフォーマーを使ったマシンピラティスグループレッスンです。',
-      price: '月4回 14,520円（税込）',
+      price: '月4回 16,280円（税込）',
     },
     options: [
       '月8回プラン',
@@ -207,7 +207,7 @@ const studios = [
     name: 'the SILK 池袋西口店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: 'グループ月4回(Standard4) 14,370〜15,280円 / 通い放題 19,980〜22,280円（別途施設利用料月700円）/ パーソナル月2回 22,000円〜',
+    price: 'グループ月4回(Standard4) 15,280円 / 通い放題 22,280円（別途施設利用料月700円）/ パーソナル月2回 22,000円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'マシンピラティス専門', 'グループ＋パーソナル'],
     description: '女性専用のマシンピラティス専門スタジオです。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴です。池袋駅から徒歩1分です（情報引用元: the SILK公式サイト the-silk.co.jp）。',
@@ -256,7 +256,7 @@ const faqs = [
   },
   {
     question: '池袋のピラティスの料金相場は？',
-    answer: 'グループ月4回で10,450円〜15,070円程度です。zen placeが月4回10,450円〜で最もリーズナブルです。the SILKは月3回12,980円〜、ピラティスKは月4回13,420円〜です。',
+    answer: '当サイト掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は10,450円〜16,280円（zen place pilates 池袋スタジオ（マット）・ピラティスK 池袋店・the SILK 池袋東口店・CLUB PILATES 目白店・BDC PILATES 池袋スタジオ・the SILK 池袋西口店・2026年10月確認）です。zen placeが月4回10,450円〜で最もリーズナブルです。the SILKは月3回13,280円〜、ピラティスKは月4回13,420円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -394,7 +394,7 @@ export default function IkebukuroPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates 池袋スタジオ（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• the SILK 池袋東口店（月3回 12,980円〜）</li>
+                  <li className="text-warm-700">• the SILK 池袋東口店（月3回 13,280円〜）</li>
                   <li className="text-warm-700">• ピラティスK 池袋店（月4回 13,420円〜）</li>
                 </ul>
               </div>
@@ -462,7 +462,6 @@ export default function IkebukuroPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（10,450円〜/月4回）</li>
-                  <li>• the SILK（12,980円〜/月3回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -476,6 +475,7 @@ export default function IkebukuroPage() {
                   <li>• ピラティスK（13,420円〜）</li>
                   <li>• CLUB PILATES（月4回 14,190円）</li>
                   <li>• BDC PILATES（14,520円〜）</li>
+                  <li>• the SILK（13,280円〜/月3回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -515,7 +515,7 @@ export default function IkebukuroPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  池袋の掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は10,450円〜14,190円（zen place pilates 池袋スタジオ（マット）・ピラティスK 池袋店・CLUB PILATES 目白店・2026年10月確認）です。入会金やキャンペーンもご確認ください。
+                  池袋の掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は10,450円〜16,280円（zen place pilates 池袋スタジオ（マット）・ピラティスK 池袋店・the SILK 池袋東口店・CLUB PILATES 目白店・BDC PILATES 池袋スタジオ・the SILK 池袋西口店・2026年10月確認）です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -553,8 +553,8 @@ export default function IkebukuroPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
-                  <p className="text-3xl font-bold text-warm-800 mb-2">10,450円〜15,070円</p>
-                  <p className="text-sm text-warm-600">zen place pilatesのマットグループ月4回10,450円〜が最安です。ピラティスK 月4回13,420円〜、the SILK月4回15,070円〜、CLUB PILATES目白店が月4回 14,190円です。BDC PILATESは14,520円〜でダンスメソッド融合の少人数制レッスンが受けられます。</p>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">10,450円〜16,280円</p>
+                  <p className="text-sm text-warm-600">zen place pilatesのマットグループ月4回10,450円〜が最安です。ピラティスK 月4回13,420円〜、the SILK月4回15,280円〜、CLUB PILATES目白店が月4回 14,190円です。BDC PILATESは月4回16,280円（税込）でダンスメソッド融合の少人数制レッスンが受けられます。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">通い放題プラン</h3>

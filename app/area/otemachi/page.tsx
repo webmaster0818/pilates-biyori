@@ -59,7 +59,7 @@ const studios = [
     name: 'the SILK 東京八重洲店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: 'Standard4 12,980円〜',
+    price: 'Standard4 15,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン（グループ）3,850円',
     features: ['女性専用', 'マシンピラティス専門', '東京駅徒歩3分', '音楽×マシン'],
     description: '女性専用マシンピラティス専門スタジオです。JR東京駅八重洲北口（16番出口）から徒歩3分の好アクセスです。開放感のある大きな窓と白いリフォーマーが並ぶスタイリッシュな空間です。初心者が8割を占め、体が硬い方や体力に自信がない方でも安心して始められます。',
@@ -68,10 +68,10 @@ const studios = [
     popularPlan: {
       name: 'Standard4（月4回）',
       description: '女性専用マシンピラティスの基本プランです。音楽に合わせた50分のグループレッスンです。',
-      price: '月4回 12,980円（税込）〜',
+      price: '月4回 15,280円（税込）〜',
     },
     options: [
-      'Standard4（月4回 12,980円〜）',
+      'Standard4（月4回 15,280円〜）',
       'Full（通い放題）',
       'Full Day（デイタイム通い放題）',
       'パーソナルレッスン（体験 9,900円）',
@@ -398,7 +398,7 @@ export default function OtemachiPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（マット月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• the SILK 八重洲（月4回 12,980円〜）</li>
+                  <li className="text-warm-700">• the SILK 八重洲（月4回 15,280円〜）</li>
                   <li className="text-warm-700">• ピラティスK 銀座（月4回 13,420円）</li>
                 </ul>
               </div>
@@ -466,7 +466,7 @@ export default function OtemachiPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（マット月4回 10,450円〜）</li>
-                  <li>• the SILK 八重洲（月4回 12,980円〜）</li>
+                  <li>• the SILK 八重洲（月4回 15,280円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">

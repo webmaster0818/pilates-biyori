@@ -130,7 +130,7 @@ const studios = [
     name: 'the SILK 田町店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: 'ライト3 12,980円〜',
+    price: 'ライト3 13,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'マシンピラティス専門', '田町駅徒歩6分', '品川から1駅'],
     description: '女性専用マシンピラティス専門スタジオです。田町駅芝浦口から徒歩6分、品川からJR京浜東北線で1駅です。無料体験レッスンを実施中です。音楽に合わせた独自プログラムで楽しくトレーニングです。',
@@ -484,7 +484,7 @@ export default function ShinagawaPage() {
                   マシン完備の充実レッスンです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• the SILK（ライト3 12,980円〜）</li>
+                  <li>• the SILK（ライト3 13,280円〜）</li>
                   <li>• Rintosull 通い放題（13,800円）</li>
                   <li>• zen place リフォーマー（15,400円〜）</li>
                 </ul>

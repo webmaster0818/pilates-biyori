@@ -150,7 +150,7 @@ const studios = [
     name: 'the SILK 浅草店（近隣エリア）',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '\/images\/studios\/the-silk.webp',
-    price: '月3回 12,980円〜',
+    price: '月3回 13,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン 無料',
     features: ['女性専用', '手ぶらで体験可能', '初心者8割', 'ウェア無料貸出'],
     description: '女性専用マシンピラティススタジオです。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。手ぶらで体験可能です。ウェア・タオル無料貸出があります。蔵前エリアからもアクセス良好です。',
@@ -159,12 +159,12 @@ const studios = [
     popularPlan: {
       name: 'Standard4（月4回）',
       description: '女性専用マシンピラティス月4回です。音楽に合わせた楽しいレッスンです。',
-      price: '月4回 15,070円（税込）',
+      price: '月4回 15,280円（税込）',
     },
     options: [
-      'Light3（月3回 12,980円）',
-      'Full（毎日1回 20,680円）',
-      'Full Day（18,480円）',
+      'Light3（月3回 13,280円）',
+      'Full（毎日1回 22,280円）',
+      'Full Day（19,280円）',
       '体験・入会金・登録手数料 無料キャンペーンあり',
     ],
     userProfile: {
@@ -191,7 +191,7 @@ const faqs = [
   },
   {
     question: '蔵前のピラティスの料金相場は？',
-    answer: 'グループ月4回で10,450円〜15,070円程度です。zen placeが月4回10,450円〜で最もリーズナブルです。プライベートはlulutoの1回12,000円〜です。',
+    answer: '当サイト掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は10,450円〜15,280円（zen place pilates 浅草スタジオ（マット）・the SILK 浅草店・2026年10月確認）です。zen placeが月4回10,450円〜で最もリーズナブルです。プライベートはlulutoの1回12,000円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -437,7 +437,7 @@ export default function KuramaePage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates 浅草スタジオ（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• the SILK 浅草店（近隣エリア）（月3回 12,980円〜）</li>
+                  <li className="text-warm-700">• the SILK 浅草店（近隣エリア）（月3回 13,280円〜）</li>
                   <li className="text-warm-700">• ピラティスアクス 浅草蔵前店（月2回 16,500円〜）</li>
                 </ul>
               </div>
@@ -501,7 +501,6 @@ export default function KuramaePage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（10,450円〜/月4回）</li>
-                  <li>• the SILK（12,980円〜/月3回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -512,7 +511,7 @@ export default function KuramaePage() {
                   マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• このページの掲載スタジオでは該当なし（各スタジオの料金は上の店舗カードを参照）</li>
+                  <li>• the SILK（13,280円〜/月3回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -551,7 +550,7 @@ export default function KuramaePage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  蔵前の掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は10,450円（zen place pilates 浅草スタジオ（マット）・2026年10月確認）です。入会金やキャンペーンもご確認ください。
+                  蔵前の掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は10,450円〜15,280円（zen place pilates 浅草スタジオ（マット）・the SILK 浅草店・2026年10月確認）です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

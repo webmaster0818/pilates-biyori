@@ -59,19 +59,19 @@ const studios = [
     name: 'the SILK 高田馬場店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: 'Standard4 15,070円〜',
+    price: 'Standard4 15,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'マシンピラティス専門', '高田馬場駅近', '音楽×マシン'],
-    description: '女性専用マシンピラティス専門スタジオです。高田馬場駅から徒歩圏内に展開しています。最新のリフォーマーマシンを完備し、音楽に合わせた独自プログラムで楽しくトレーニングです。無料体験レッスン実施中です。1回約3,768円からのリーズナブルな料金設定が魅力です。',
+    description: '女性専用マシンピラティス専門スタジオです。高田馬場駅から徒歩圏内に展開しています。最新のリフォーマーマシンを完備し、音楽に合わせた独自プログラムで楽しくトレーニングです。無料体験レッスン実施中です。1回約3,820円からのリーズナブルな料金設定が魅力です。',
     access: 'JR山手線・西武新宿線・東京メトロ東西線「高田馬場駅」徒歩圏内',
     address: '東京都新宿区高田馬場2-13-2 Primegate 高田馬場 7階 （旧：JMFビル高田馬場）',
     popularPlan: {
       name: 'Standard4（月4回）',
       description: '女性専用マシンピラティスの基本プランです。音楽に合わせた50分のグループレッスンです。初心者にも人気です。',
-      price: '月4回 15,070円（税込）〜',
+      price: '月4回 15,280円（税込）〜',
     },
     options: [
-      'Standard4（月4回 15,070円〜）',
+      'Standard4（月4回 15,280円〜）',
       'Full（通い放題）',
       'Full Day（デイタイム通い放題）',
       '体験レッスン無料キャンペーン実施中',
@@ -633,7 +633,7 @@ export default function TakadanobabaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（月4回 11,220円〜）</li>
-                  <li>• the SILK（月4回 15,070円〜）</li>
+                  <li>• the SILK（月4回 15,280円〜）</li>
                   <li>• zen place リフォーマー（月4回 15,400円〜）</li>
                   <li>• ピラティスミラー（月4回 17,600円〜）</li>
                 </ul>

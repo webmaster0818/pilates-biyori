@@ -56,7 +56,7 @@ const studios = [
     name: 'ピラティスK 浦和PARCO店',
     officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
-    price: '月4回 11,220円〜',
+    price: '月4回 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', '浦和駅徒歩1分', '部位別プログラム', '浦和PARCO内'],
     description: '女性専用マシンピラティス専門スタジオです。浦和駅東口から徒歩1分、浦和PARCO6Fに位置しています。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実しています。お買い物のついでに通えるアクセスの良さが魅力です。',
@@ -65,13 +65,13 @@ const studios = [
     popularPlan: {
       name: 'マンスリー4メンバー（月4回）',
       description: '女性専用マシンピラティス月4回です。部位別プログラムも選べます。',
-      price: '月4回 11,220円（税込）',
+      price: '月4回 13,420円（税込）',
     },
     options: [
-      'マンスリーフルメンバー（通い放題 16,170円）',
-      'マンスリーデイメンバー（14,520円）',
+      'マンスリー8メンバー（月8回 16,170円）',
+      'マンスリーデイメンバー（平日10〜15時 14,520円）',
       '追加受講（1回 2,200円）',
-      '入会金 5,500円・登録料 5,500円',
+      '入会金 5,500円（内訳：登録料 5,500円）',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
@@ -88,7 +88,7 @@ const studios = [
     name: 'the SILK 浦和店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: '月3回 12,980円〜',
+    price: '月3回 13,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン 無料',
     features: ['女性専用', '浦和駅徒歩2分', '手ぶらで体験可能', '朝7:30〜'],
     description: '女性専用マシンピラティススタジオです。浦和駅西口から徒歩約2分です。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。手ぶらで体験可能です。ウェア・タオル無料貸出があります。',
@@ -97,12 +97,12 @@ const studios = [
     popularPlan: {
       name: 'Standard4（月4回）',
       description: '女性専用マシンピラティス月4回です。音楽に合わせた楽しいレッスンです。',
-      price: '月4回 15,070円（税込）',
+      price: '月4回 15,280円（税込）',
     },
     options: [
-      'Light3（月3回 12,980円）',
-      'Full（毎日1回 20,680円）',
-      'Full Day（18,480円）',
+      'Light3（月3回 13,280円）',
+      'Full（毎日1回 22,280円）',
+      'Full Day（19,280円）',
       '体験・入会金・登録手数料 無料キャンペーンあり',
     ],
     userProfile: {
@@ -223,7 +223,7 @@ const faqs = [
   },
   {
     question: '浦和のピラティスの料金相場は？',
-    answer: 'グループ月4回で10,450円〜15,070円程度です。zen placeが月4回10,450円〜で最もリーズナブルです。ピラティスKは月4回11,220円〜です。the SILKは月3回12,980円〜です。',
+    answer: '当サイト掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は10,450円〜15,280円（zen place pilates 浦和スタジオ（マット）・ピラティスK 浦和PARCO店・the SILK 浦和店・CLUB PILATES 浦和店・ルキナ 北浦和店・2026年10月確認）です。zen placeが月4回10,450円〜で最もリーズナブルです。ピラティスKは月4回13,420円です。the SILKは月3回13,280円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -537,8 +537,6 @@ export default function UrawaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（10,450円〜/月4回）</li>
-                  <li>• ピラティスK（11,220円〜/月4回）</li>
-                  <li>• the SILK（12,980円〜/月3回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -550,8 +548,10 @@ export default function UrawaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• CLUB PILATES（月4回 14,300円）</li>
-                  <li>• the SILK（15,070円〜/月4回）</li>
+                  <li>• the SILK（15,280円〜/月4回）</li>
                   <li>• Pilates Mee（19,800円〜/月4回）</li>
+                  <li>• ピラティスK（13,420円/月4回）</li>
+                  <li>• the SILK（13,280円〜/月3回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -591,7 +591,7 @@ export default function UrawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  浦和の掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は10,450円〜14,300円（zen place pilates 浦和スタジオ（マット）・CLUB PILATES 浦和店・ルキナ 北浦和店・2026年10月確認）です。入会金やキャンペーンもご確認ください。
+                  浦和の掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は10,450円〜15,280円（zen place pilates 浦和スタジオ（マット）・ピラティスK 浦和PARCO店・the SILK 浦和店・CLUB PILATES 浦和店・ルキナ 北浦和店・2026年10月確認）です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

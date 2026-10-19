@@ -88,7 +88,7 @@ const studios = [
     name: 'the SILK 吉祥寺店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: '月3回 12,980円〜',
+    price: '月3回 13,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン 無料',
     features: ['女性専用', '手ぶらで体験可能', '音楽レッスン', '吉祥寺エリア'],
     description: '女性専用マシンピラティススタジオです。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。手ぶらで体験可能です（ウェア・タオル無料貸出）。体験者の約8割がピラティス未経験者です。',
@@ -97,12 +97,12 @@ const studios = [
     popularPlan: {
       name: 'Standard4（月4回）',
       description: '女性専用マシンピラティス月4回です。音楽に合わせた楽しいレッスンです。',
-      price: '月4回 15,070円（税込）',
+      price: '月4回 15,280円（税込）',
     },
     options: [
-      'Light3（月3回 12,980円）',
-      'Full（毎日1回 20,680円）',
-      'Full Day（18,480円）',
+      'Light3（月3回 13,280円）',
+      'Full（毎日1回 22,280円）',
+      'Full Day（19,280円）',
       '体験・入会金・登録手数料 無料キャンペーンあり',
     ],
     userProfile: {
@@ -225,7 +225,7 @@ const faqs = [
   },
   {
     question: '吉祥寺のピラティスの料金相場は？',
-    answer: 'グループ月4回で10,450円〜15,070円です。ピラティスミラーは月6回11,000円と割安です。パーソナルはSTUDIO IVYが月2回15,000円〜です。',
+    answer: '当サイト掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は10,450円〜15,280円（zen place pilates 吉祥寺スタジオ（マット）・ピラティスK 吉祥寺店・the SILK 吉祥寺店・2026年10月確認）です。ピラティスミラーは月6回11,000円と割安です。パーソナルはSTUDIO IVYが月2回15,000円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -480,7 +480,7 @@ export default function KichijojiPage() {
                   女性だけの安心空間です。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
+                  <li className="text-warm-700">• the SILK（月3回 13,280円〜）</li>
                   <li className="text-warm-700">• ピラティスK（月4回 13,420円〜）</li>
                 </ul>
               </div>
@@ -546,7 +546,7 @@ export default function KichijojiPage() {
                   マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• the SILK（12,980円〜）</li>
+                  <li>• the SILK（13,280円〜）</li>
                   <li>• ピラティスK（13,420円〜）</li>
                 </ul>
               </div>
@@ -586,7 +586,7 @@ export default function KichijojiPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  吉祥寺の掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は10,450円〜13,420円（zen place pilates 吉祥寺スタジオ（マット）・ピラティスK 吉祥寺店・2026年10月確認）です。入会金やキャンペーンもご確認ください。
+                  吉祥寺の掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は10,450円〜15,280円（zen place pilates 吉祥寺スタジオ（マット）・ピラティスK 吉祥寺店・the SILK 吉祥寺店・2026年10月確認）です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

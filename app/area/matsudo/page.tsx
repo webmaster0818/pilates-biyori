@@ -56,7 +56,7 @@ const studios = [
     name: 'the SILK 松戸店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: '月3回 12,980円〜',
+    price: '月3回 12,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン 無料',
     features: ['女性専用', '松戸駅徒歩2分', '手ぶらで体験可能', '朝7:30〜'],
     description: '女性専用マシンピラティススタジオです。JR常磐線松戸駅から徒歩2分です。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。手ぶらで体験可能です。ウェア・タオル無料貸出があります。パウダールームが充実しています。',
@@ -65,12 +65,12 @@ const studios = [
     popularPlan: {
       name: 'Standard4（月4回）',
       description: '女性専用マシンピラティス月4回です。音楽に合わせた楽しいレッスンです。',
-      price: '月4回 15,070円（税込）',
+      price: '月4回 14,370円（税込）',
     },
     options: [
-      'Light3（月3回 12,980円）',
-      'Full（毎日1回 20,680円）',
-      'Full Day（18,480円）',
+      'Light3（月3回 12,280円）',
+      'Full（毎日1回 19,980円）',
+      'Full Day（17,780円）',
       '体験・入会金・登録手数料 無料キャンペーンあり',
     ],
     userProfile: {
@@ -556,7 +556,7 @@ export default function MatsudoPage() {
                   充実の設備・少人数制です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• the SILK（12,980円〜/月3回）</li>
+                  <li>• the SILK（12,280円〜/月3回）</li>
                   <li>• KASANE（11,880円〜/月4回）</li>
                   <li>• Pilates Mee（19,800円〜/月4回）</li>
                 </ul>
@@ -569,7 +569,7 @@ export default function MatsudoPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（16,170円/通い放題）</li>
-                  <li>• the SILK（20,680円/通い放題）</li>
+                  <li>• the SILK（19,980円/通い放題）</li>
                   <li>• Pilates Mee（37,500円/通い放題）</li>
                 </ul>
               </div>

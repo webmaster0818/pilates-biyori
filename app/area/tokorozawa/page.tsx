@@ -24,7 +24,7 @@ const studios = [
     name: 'zen place pilates 所沢スタジオ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 10,450円〜',
+    price: '月4回 9,625円〜',
     trial: 'グループ体験 1,000円',
     features: ['所沢駅徒歩3分', 'ピラティス専門', '男性利用可', '全国他店利用'],
     description: 'ピラティス専門の大手スタジオです。所沢駅西口から徒歩3分です。マットグループ・マシングループ・プライベートの3タイプです。全国150店舗以上で他店利用可能です。体験当日入会で入会金無料です。',
@@ -33,10 +33,10 @@ const studios = [
     popularPlan: {
       name: 'フリープラン（マットグループ）',
       description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。',
-      price: '月額 16,940円（税込）',
+      price: '月額 14,960円（税込）',
     },
     options: [
-      '月4回プラン（10,450円〜）',
+      '月4回プラン（9,625円〜）',
       'マシングループ体験（3,000円）',
       'プライベートレッスン（体験 9,900円）',
       '体験当日入会で入会金無料',
@@ -88,7 +88,7 @@ const studios = [
     name: 'the SILK 所沢店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: '月3回 12,980円〜',
+    price: '月3回 12,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン 無料',
     features: ['女性専用', '所沢駅徒歩2分', '手ぶらで体験可能', 'おしゃれ空間'],
     description: '女性専用マシンピラティススタジオです。所沢駅から徒歩2分です。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。手ぶらで体験可能です。',
@@ -97,12 +97,12 @@ const studios = [
     popularPlan: {
       name: 'Standard4（月4回）',
       description: '女性専用マシンピラティス月4回です。音楽に合わせた楽しいレッスンです。',
-      price: '月4回 15,070円（税込）',
+      price: '月4回 14,370円（税込）',
     },
     options: [
-      'Light3（月3回 12,980円）',
-      'Full（毎日1回 20,680円）',
-      'Full Day（18,480円）',
+      'Light3（月3回 12,280円）',
+      'Full（毎日1回 19,980円）',
+      'Full Day（17,780円）',
       '体験・入会金・登録手数料 無料キャンペーンあり',
     ],
     userProfile: {
@@ -156,7 +156,7 @@ const faqs = [
   },
   {
     question: '所沢のピラティスの料金相場は？',
-    answer: 'グループ月4回で10,450円〜15,070円程度です。zen placeが月4回10,450円〜で最もリーズナブルです。CLUB PILATESは月4回 11,990円、the SILKは月3回12,980円〜です。',
+    answer: '当サイト掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は9,625円〜14,370円（zen place pilates 所沢スタジオ（マット）・ピラティスK 所沢店・the SILK 所沢店・CLUB PILATES 所沢店・2026年10月確認）です。zen placeが月4回9,625円〜で最もリーズナブルです。CLUB PILATESは月4回 11,990円、the SILKは月3回12,280円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -403,7 +403,7 @@ export default function TokorozawaPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates 所沢スタジオ（月4回 10,450円〜）</li>
                   <li className="text-warm-700">• CLUB PILATES 所沢店（月4回 11,990円）</li>
-                  <li className="text-warm-700">• the SILK 所沢店（月3回 12,980円〜）</li>
+                  <li className="text-warm-700">• the SILK 所沢店（月3回 12,280円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -468,8 +468,8 @@ export default function TokorozawaPage() {
                   グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place（10,450円〜/月4回）</li>
-                  <li>• the SILK（12,980円〜/月3回）</li>
+                  <li>• zen place（9,625円〜/月4回）</li>
+                  <li>• the SILK（12,280円〜/月3回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -521,7 +521,7 @@ export default function TokorozawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  所沢の掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は11,990円〜13,420円（ピラティスK 所沢店・CLUB PILATES 所沢店・2026年10月確認）です。入会金やキャンペーンもご確認ください。
+                  所沢の掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は9,625円〜14,370円（zen place pilates 所沢スタジオ（マット）・ピラティスK 所沢店・the SILK 所沢店・CLUB PILATES 所沢店・2026年10月確認）です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

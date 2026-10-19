@@ -24,7 +24,7 @@ const studios = [
     name: 'pilates K 天王寺店',
     officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
-    price: '月4回 11,220円〜',
+    price: '月4回 13,420円〜',
     trial: '体験レッスン 2,000円',
     features: ['女性専用', '天王寺駅徒歩1分', '部位別プログラム', 'マシン専門'],
     description: '女性専用マシンピラティス専門スタジオです。大阪メトロ天王寺駅14号出口から徒歩1分、きんえいアポロビル6Fです。脚・お尻・お腹・二の腕・背中の5パートに分けた全身プログラムで効率的にボディメイクを目指せます。',
@@ -33,13 +33,13 @@ const studios = [
     popularPlan: {
       name: 'マンスリー4メンバー（月4回）',
       description: '女性専用マシンピラティス月4回です。部位別プログラムも選べます。',
-      price: '月4回 11,220円（税込）',
+      price: '月4回 13,420円（税込）',
     },
     options: [
-      'マンスリーフルメンバー（通い放題 15,070円）',
-      'マンスリーデイメンバー（12,320円）',
+      'マンスリー8メンバー（月8回 16,170円）',
+      'マンスリーデイメンバー（平日10〜15時 14,520円）',
       '追加受講（1回 2,200円）',
-      '入会金 5,000円',
+      '入会金 5,500円',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
@@ -56,7 +56,7 @@ const studios = [
     name: 'zen place pilates 天王寺スタジオ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 10,450円〜',
+    price: '月4回 9,625円〜',
     trial: 'グループ体験 1,000円',
     features: ['阿倍野橋駅徒歩3分', '男性利用可', '全国他店利用', 'ヨガも受講可'],
     description: 'ピラティス専門の大手スタジオです。大阪阿倍野橋駅から徒歩3分、JR天王寺駅南口から徒歩5分です。マットグループ・マシングループ・プライベートの3タイプです。全国150店舗以上で他店利用可能です。',
@@ -65,10 +65,10 @@ const studios = [
     popularPlan: {
       name: 'フリープラン（マットグループ）',
       description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。',
-      price: '月額 16,940円（税込）',
+      price: '月額 14,960円（税込）',
     },
     options: [
-      '月4回プラン（10,450円〜）',
+      '月4回プラン（9,625円〜）',
       'マシングループ体験（3,000円）',
       'プライベートレッスン（体験 9,900円）',
       '体験当日入会で入会金無料',
@@ -191,7 +191,7 @@ const faqs = [
   },
   {
     question: '阿倍野のピラティスの料金相場は？',
-    answer: 'グループ月4回で6,380円〜11,220円程度です。スタジオバランスが月4回6,380円〜で最もリーズナブルです。Rintosullは月4回8,800円〜です。zen placeは月4回10,450円〜です。',
+    answer: 'グループ月4回で6,380円〜11,220円程度です。スタジオバランスが月4回6,380円〜で最もリーズナブルです。Rintosullは月4回8,800円〜です。zen placeは月4回9,625円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -438,7 +438,7 @@ export default function AbenoPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• スタジオバランス あべの店（月4回 6,380円〜）</li>
                   <li className="text-warm-700">• Rintosull（リントスル）天王寺店（月4回 8,800円〜）</li>
-                  <li className="text-warm-700">• zen place pilates 天王寺スタジオ（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• zen place pilates 天王寺スタジオ（月4回 9,625円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -503,8 +503,7 @@ export default function AbenoPage() {
                   グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place（10,450円〜/月4回）</li>
-                  <li>• pilates K 天王寺店（月4回 11,220円〜）</li>
+                  <li>• zen place（9,625円〜/月4回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -515,7 +514,7 @@ export default function AbenoPage() {
                   マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• このページの掲載スタジオでは該当なし（各スタジオの料金は上の店舗カードを参照）</li>
+                  <li>• pilates K 天王寺店（月4回 13,420円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -554,7 +553,7 @@ export default function AbenoPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  阿倍野の掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は8,800円（Rintosull天王寺店・2026年10月確認）です。入会金やキャンペーンもご確認ください。
+                  阿倍野の掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は8,800円〜13,420円（pilates K 天王寺店・zen place pilates 天王寺スタジオ（マット）・Rintosull天王寺店・2026年10月確認）です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

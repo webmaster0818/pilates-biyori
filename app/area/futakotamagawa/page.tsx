@@ -80,7 +80,7 @@ const studios = [
     name: 'the SILK 二子玉川店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: '月3回 12,980円〜',
+    price: '月3回 13,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン 0円（50分・手ぶらで参加可能）',
     features: ['女性専用', 'マシン専門', '二子玉川駅徒歩5分', 'パーソナルあり'],
     description: '女性専用マシンピラティス専門スタジオです。二子玉川駅西口から徒歩5分です。グループレッスンに加えてパーソナルレッスンも提供しています（二子玉川店限定）。PMA加盟団体のプロ監修レッスンです。プロフェッショナルグレードのリフォーマーマシンを使用しています。',
@@ -89,13 +89,13 @@ const studios = [
     popularPlan: {
       name: 'スタンダード4（月4回）',
       description: '月4回のグループレッスンです。PMA監修のプロフェッショナルグレードリフォーマーです。',
-      price: '月4回 15,070円（税込）',
+      price: '月4回 15,280円（税込）',
     },
     options: [
-      'ライト3（月3回 12,980円）',
-      'フル（毎日1回 20,680円）',
-      'フル(デイ)（平日8:00-15:00 18,480円）',
-      'プライベート2（月2回 19,800円）/ プライベート4（月4回 36,960円）',
+      'ライト3（月3回 13,280円）',
+      'フル（毎日1回 22,280円）',
+      'フル(デイ)（平日8:00-15:00 19,280円）',
+      'プライベート2（月2回 22,000円）/ プライベート4（月4回 37,400円）',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
@@ -434,7 +434,7 @@ export default function FutakotamagawaPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月額10,450円〜）</li>
                   <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
-                  <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
+                  <li className="text-warm-700">• the SILK（月3回 13,280円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -510,7 +510,7 @@ export default function FutakotamagawaPage() {
                   マシン完備の大手スタジオです。グループ・プライベート選択可能です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• the SILK（12,980円〜）</li>
+                  <li>• the SILK（13,280円〜）</li>
                   <li>• BDC PILATES（15,400円〜）</li>
                 </ul>
               </div>
@@ -521,7 +521,7 @@ export default function FutakotamagawaPage() {
                   パーソナルレッスンです。効果重視の方におすすめです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• the SILK プライベート（19,800円〜/月2回）</li>
+                  <li>• the SILK プライベート（22,000円〜/月2回）</li>
                   <li>• zen place プライベート（33,880円〜）</li>
                 </ul>
               </div>

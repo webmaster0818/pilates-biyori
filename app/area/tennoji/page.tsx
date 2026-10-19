@@ -24,7 +24,7 @@ const studios = [
     name: 'zen place pilates 天王寺',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 10,450円〜',
+    price: '月4回 9,625円〜',
     trial: '体験レッスン 1,000円',
     features: ['マット&マシン', '男性利用可', '大阪阿部野橋駅徒歩3分', '全国他店利用可'],
     description: '全国130店舗以上を展開する大手ピラティススタジオです。天王寺スタジオは大阪阿部野橋駅出口2から徒歩3分、JR天王寺駅南口から徒歩5分の好立地です。マットグループ、リフォーマーグループ、プライベートレッスンの3形態を用意しています。男性も利用可能で、経験豊富なエデュケーターが一人ひとりに合わせた丁寧な指導を提供します。',
@@ -38,7 +38,7 @@ const studios = [
     options: [
       'プライベートレッスン（1回 9,900円〜）',
       'リフォーマーグループ（1回 5,000円〜）',
-      'マットグループ月4回（10,450円/月）',
+      'マットグループ月4回（9,625円/月）',
       '全店舗他店利用可能',
     ],
     userProfile: {
@@ -56,22 +56,22 @@ const studios = [
     name: 'pilates K 天王寺店',
     officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
-    price: 'マンスリー4 11,220円〜',
+    price: 'マンスリー4 13,420円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', 'マシン専門', '体験0円', 'きんえいアポロビル'],
-    description: 'マシンピラティス専門の女性専用スタジオです。大阪メトロ天王寺駅14番出口から徒歩1分、きんえいアポロビル6階に位置しています。リフォーマーを使ったグループレッスンを音楽に合わせて楽しく行うスタイルが人気です。体験レッスン0円で気軽に始められ、マンスリー4回11,220円からと費用対効果も優秀です。',
+    description: 'マシンピラティス専門の女性専用スタジオです。大阪メトロ天王寺駅14番出口から徒歩1分、きんえいアポロビル6階に位置しています。リフォーマーを使ったグループレッスンを音楽に合わせて楽しく行うスタイルが人気です。体験レッスン0円で気軽に始められ、マンスリー4回13,420円からと費用対効果も優秀です。',
     access: '大阪メトロ天王寺駅 14番出口 徒歩1分 / 近鉄阿倍野橋駅 徒歩4分',
     address: '大阪府大阪市阿倍野区阿倍野筋1-5-31 きんえいアポロビル6F',
     popularPlan: {
       name: 'マンスリー4メンバー',
       description: '月4回のマシンピラティスグループレッスンです。1回あたり約2,805円とお得です。',
-      price: '月4回 11,220円（税込）',
+      price: '月4回 13,420円（税込）',
     },
     options: [
-      'マンスリーフルメンバー（月額 15,070円）',
-      'マンスリーデイメンバー（月額 12,320円）',
+      'マンスリー8メンバー（月8回 16,170円）',
+      'マンスリーデイメンバー（平日10〜15時 14,520円）',
       '追加受講（1回 2,200円）',
-      '入会金 5,000円（キャンペーン時0円の場合あり）',
+      '入会金 5,500円（キャンペーン時0円の場合あり）',
     ],
     userProfile: {
       ageRange: '20代〜30代が中心（全体の85%）',
@@ -221,7 +221,7 @@ const studios = [
     name: 'the SILK 天王寺MIO店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: 'グループ月4回(Standard4) 14,370〜15,280円 / 通い放題 19,980〜22,280円（別途施設利用料月700円）/ パーソナル月2回 22,000円〜',
+    price: 'グループ月4回(Standard4) 14,370円 / 通い放題 19,980円（別途施設利用料月700円）/ パーソナル月2回 22,000円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'マシンピラティス専門', 'グループ＋パーソナル'],
     description: '女性専用のマシンピラティス専門スタジオです。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴です。天王寺駅から直結です（情報引用元: the SILK公式サイト the-silk.co.jp）。',
@@ -241,7 +241,7 @@ const faqs = [
   },
   {
     question: '天王寺のピラティススタジオの料金相場は？',
-    answer: '天王寺エリアのピラティススタジオの料金相場は、月4回のグループレッスンで10,000円〜15,000円程度です。pilates Kのマンスリー4が11,220円、リントスルが9,800円と比較的お手頃です。体験レッスンは無料〜4,000円が一般的です。プライベートレッスンは1回7,000円〜12,000円が相場となっています。',
+    answer: '天王寺エリアのピラティススタジオの料金相場は、月4回のグループレッスンで10,000円〜15,000円程度です。pilates Kのマンスリー4が13,420円、リントスルが9,800円と比較的お手頃です。体験レッスンは無料〜4,000円が一般的です。プライベートレッスンは1回7,000円〜12,000円が相場となっています。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -487,7 +487,7 @@ export default function TennojiPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull 天王寺（月4回 9,800円）</li>
-                  <li className="text-warm-700">• pilates K 天王寺（月4回 11,220円）</li>
+                  <li className="text-warm-700">• pilates K 天王寺（月4回 13,420円）</li>
                   <li className="text-warm-700">• Belluna Pilates（1回 2,000円〜）</li>
                 </ul>
               </div>
@@ -555,8 +555,7 @@ export default function TennojiPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Rintosull（9,800円/月4回）</li>
-                  <li>• zen place（10,450円/月4回）</li>
-                  <li>• pilates K（11,220円/月4回）</li>
+                  <li>• zen place（9,625円/月4回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -568,8 +567,9 @@ export default function TennojiPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place フリー（14,960円）</li>
-                  <li>• pilates K フル（15,070円）</li>
+                  <li>• pilates K マンスリー8（16,170円）</li>
                   <li>• Rintosull 通い放題（16,800円）</li>
+                  <li>• pilates K（13,420円/月4回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -609,7 +609,7 @@ export default function TennojiPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  天王寺エリアの料金相場は月4回のグループレッスンで10,000円〜15,000円程度です。リントスルの月4回9,800円やpilates Kの11,220円など、比較的お手頃なスタジオもあります。料金だけでなく、入会金やレンタル料などもご確認ください。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  天王寺エリアの料金相場は月4回のグループレッスンで10,000円〜15,000円程度です。リントスルの月4回9,800円やpilates Kの13,420円など、比較的お手頃なスタジオもあります。料金だけでなく、入会金やレンタル料などもご確認ください。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

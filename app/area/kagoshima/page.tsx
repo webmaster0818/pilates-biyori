@@ -24,7 +24,7 @@ const studios = [
     name: 'ピラティスK イオンモール鹿児島店',
     officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
-    price: '月4回 13,420円〜',
+    price: '月4回 11,220円〜',
     trial: '体験レッスン 0円',
     features: ['女性専用', 'イオンモール内', '体験0円', '部位別プログラム'],
     description: '女性専用マシンピラティス専門スタジオです。イオンモール鹿児島2階に位置し、買い物ついでに通える利便性です。音楽に合わせた楽しいグループレッスンと部位別ボディメイクプログラムが充実しています。体験レッスン0円で気軽に始められます。',
@@ -33,11 +33,11 @@ const studios = [
     popularPlan: {
       name: 'マンスリー4メンバー（月4回）',
       description: '女性専用マシンピラティス月4回です。部位別プログラムも選べます。',
-      price: '月4回 13,420円（税込）',
+      price: '月4回 11,220円（税込）',
     },
     options: [
-      'マンスリーフルメンバー（通い放題 16,170円）',
-      'マンスリーデイメンバー（14,520円）',
+      'マンスリー8メンバー（月8回 15,070円）',
+      'マンスリーデイメンバー（平日10〜15時 12,320円）',
       '追加受講（1回 2,200円）',
       '当日入会で入会金・登録料0円',
     ],
@@ -191,7 +191,7 @@ const faqs = [
   },
   {
     question: '鹿児島のピラティスの料金相場は？',
-    answer: 'グループ月4回で13,420円〜15,400円程度です。ピラティスKが月4回13,420円〜で最もリーズナブルです。KASANEは月8回プランで1回3,025円です。',
+    answer: 'グループ月4回で13,420円〜15,400円程度です。ピラティスKが月4回11,220円で最もリーズナブルです。KASANEは月8回プランで1回3,025円です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -436,7 +436,7 @@ export default function KagoshimaPage() {
                   月額2万円未満で通えるスタジオです（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• ピラティスK イオンモール鹿児島店（月4回 13,420円〜）</li>
+                  <li className="text-warm-700">• ピラティスK イオンモール鹿児島店（月4回 11,220円）</li>
                   <li className="text-warm-700">• STUDIO IVY（スタジオアイビー）鹿児島店（月2回 15,000円〜）</li>
                   <li className="text-warm-700">• Pilates KASANE 鹿児島天文館店（月4回 15,400円〜）</li>
                 </ul>
@@ -500,7 +500,7 @@ export default function KagoshimaPage() {
                   グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• このページの掲載スタジオでは該当なし（各スタジオの料金は上の店舗カードを参照）</li>
+                  <li>• ピラティスK（11,220円/月4回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -511,7 +511,7 @@ export default function KagoshimaPage() {
                   マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスK（13,420円〜）</li>
+                  <li>• このページの掲載スタジオでは該当なし（各スタジオの料金は上の店舗カードを参照）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -521,7 +521,7 @@ export default function KagoshimaPage() {
                   毎日通いたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスK（16,170円/通い放題）</li>
+                  <li>• このページの掲載スタジオでは該当なし（各スタジオの料金は上の店舗カードを参照）</li>
                 </ul>
               </div>
             </div>
@@ -550,7 +550,7 @@ export default function KagoshimaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  鹿児島の掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は15,400円（Pilates KASANE 鹿児島天文館店・2026年10月確認）です。入会金やキャンペーンもご確認ください。
+                  鹿児島の掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は11,220円〜15,400円（ピラティスK イオンモール鹿児島店・Pilates KASANE 鹿児島天文館店・2026年10月確認）です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

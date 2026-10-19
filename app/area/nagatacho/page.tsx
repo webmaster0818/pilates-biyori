@@ -56,19 +56,19 @@ const studios = [
     name: 'the SILK 赤坂見附店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: '月3回 12,980円〜',
+    price: '月3回 13,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン 無料（手ぶらで参加可能）',
     features: ['女性専用', '駅徒歩30秒', '音楽レッスン', '体験無料・手ぶらで参加可能'],
-    description: '女性専用のマシンピラティススタジオ「the SILK」赤坂見附店です。赤坂見附駅10番出口から徒歩わずか30秒という抜群の立地です。音楽に合わせた独自のレッスンスタイルが特徴で、楽しみながら効果的にボディメイクできます。月3回12,980円〜のプランがあり、体験レッスンは無料で手ぶらで参加可能です。女性専用なので安心して通えます。',
+    description: '女性専用のマシンピラティススタジオ「the SILK」赤坂見附店です。赤坂見附駅10番出口から徒歩わずか30秒という抜群の立地です。音楽に合わせた独自のレッスンスタイルが特徴で、楽しみながら効果的にボディメイクできます。月3回13,280円〜のプランがあり、体験レッスンは無料で手ぶらで参加可能です。女性専用なので安心して通えます。',
     access: '東京メトロ「赤坂見附駅」10番出口徒歩30秒',
     address: '東京都港区赤坂3丁目8-1 赤坂アルトビル 7F',
     popularPlan: {
       name: '月3回プラン',
       description: '女性専用・音楽レッスンのマシンピラティスです。月3回から気軽に始められるプランです。',
-      price: '月3回 12,980円〜（税込）',
+      price: '月3回 13,280円〜（税込）',
     },
     options: [
-      '月3回プラン（12,980円〜）',
+      '月3回プラン（13,280円〜）',
       '体験レッスン 無料',
       '手ぶらで参加可能（ウェア・タオルレンタル）',
       '女性専用スタジオ',
@@ -186,7 +186,7 @@ const faqs = [
   },
   {
     question: '永田町・赤坂エリアのピラティスの料金相場は？',
-    answer: 'zen place pilatesは月4回10,450円〜、the SILKは月3回12,980円〜、STUDIO IVYは月2回15,000円〜（完全パーソナル）です。グループレッスンなら月1万円台から始められます。目的と頻度に合わせてお選びください。',
+    answer: 'zen place pilatesは月4回10,450円〜、the SILKは月3回13,280円〜、STUDIO IVYは月2回15,000円〜（完全パーソナル）です。グループレッスンなら月1万円台から始められます。目的と頻度に合わせてお選びください。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -425,7 +425,7 @@ export default function NagatachoPage() {
                 <p className="text-warm-600 text-sm mb-4">月1万円台から始められるスタジオもあります。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
+                  <li className="text-warm-700">• the SILK（月3回 13,280円〜）</li>
                   <li className="text-warm-700">• STUDIO IVY（月2回 15,000円〜）</li>
                 </ul>
               </div>
@@ -482,7 +482,7 @@ export default function NagatachoPage() {
                 <p className="text-sm text-warm-600 mb-4">手軽に始めたい方に適しています。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates（10,450円/月4回〜）</li>
-                  <li>• the SILK（12,980円/月3回〜）</li>
+                  <li>• the SILK（13,280円/月3回〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">

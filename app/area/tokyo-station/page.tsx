@@ -27,7 +27,7 @@ const studios = [
     name: 'the SILK 東京八重洲店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: 'Standard4 12,980円〜',
+    price: 'Standard4 15,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン 0円（キャンペーン中）',
     features: ['女性専用', 'マシンピラティス専門', '東京駅徒歩5分', '音楽×マシン'],
     description: '女性専用マシンピラティス専門スタジオです。JR東京駅八重洲北口から徒歩5分、大手町駅B10出口から徒歩5分の好アクセスです。PMA加盟団体監修のレッスンで、音楽に合わせながら楽しくボディメイクを目指せます。初心者が8割で安心して始められます。',
@@ -36,10 +36,10 @@ const studios = [
     popularPlan: {
       name: 'Standard4（月4回）',
       description: '女性専用マシンピラティスの基本プランです。',
-      price: '月4回 12,980円（税込）〜',
+      price: '月4回 15,280円（税込）〜',
     },
     options: [
-      'Standard4（月4回 12,980円〜）',
+      'Standard4（月4回 15,280円〜）',
       'Full（通い放題）',
       'Full Day（デイタイム通い放題）',
       'パーソナル（体験 9,900円）',
@@ -164,7 +164,7 @@ const studios = [
     name: 'the SILK 銀座店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: 'Standard4 12,980円〜',
+    price: 'Standard4 15,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン 0円（キャンペーン中）',
     features: ['女性専用', 'マシンピラティス専門', '銀座駅徒歩2分', 'パウダールーム充実'],
     description: '女性専用マシンピラティス専門スタジオです。銀座駅A3出口から徒歩2分、東銀座駅A1出口から徒歩3分です。東京駅から銀座線で1駅の好立地です。パウダールームにライト付きミラーやドライヤー完備で、レッスン後そのままお出かけ可能です。',
@@ -216,7 +216,7 @@ const studios = [
     name: 'the SILK 銀座一丁目店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: 'Standard4 12,980円〜',
+    price: 'Standard4 15,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン 0円（キャンペーン中）',
     features: ['女性専用', 'マシンピラティス専門', '銀座一丁目駅徒歩2分', '手ぶらで体験可能'],
     description: '女性専用マシンピラティス専門スタジオです。銀座一丁目駅6番出口から徒歩2分、京橋駅3番出口から徒歩4分です。八重洲店・銀座店との相互利用が可能で、予約の取りやすさも魅力です。手ぶらで無料体験レッスンが受けられるキャンペーン実施中です。',
@@ -492,7 +492,7 @@ export default function TokyoStationPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place（マット月4回 10,450円〜）</li>
                   <li className="text-warm-700">• ピラティスガーデン銀座（月4回 10,200円）</li>
-                  <li className="text-warm-700">• the SILK（月4回 12,980円〜）</li>
+                  <li className="text-warm-700">• the SILK（月4回 15,280円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -560,7 +560,7 @@ export default function TokyoStationPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（マット月4回 10,450円〜）</li>
                   <li>• ピラティスガーデン銀座（月4回 10,200円）</li>
-                  <li>• the SILK（月4回 12,980円〜）</li>
+                  <li>• the SILK（月4回 15,280円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">

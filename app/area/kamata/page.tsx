@@ -24,13 +24,13 @@ const studios = [
     name: 'the SILK 蒲田店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp', reviewCount: 165,
-    price: '月3回 12,980円〜', trial: '体験レッスン 無料',
+    price: '月3回 13,280円〜（別途施設利用料 月700円・税込）', trial: '体験レッスン 無料',
     features: ['女性専用', '蒲田駅徒歩1分', '手ぶらで体験可能', '朝8時〜夜22時'],
     description: '女性専用マシンピラティススタジオです。蒲田駅東口から徒歩1分です。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。パウダールームにメイクアップミラー・アイロン完備で仕事前後の利用に便利です。',
     access: 'JR「蒲田駅」東口 徒歩1分',
     address: '東京都大田区蒲田5-15-8 蒲田月村ビル 8F',
-    popularPlan: { name: 'Standard4（月4回）', description: '女性専用マシンピラティス月4回です。音楽に合わせた楽しいレッスンです。', price: '月4回 15,070円（税込）' },
-    options: ['Light3（月3回 12,980円）', 'Full（毎日1回 20,680円）', 'Full Day（18,480円）', '体験・入会金・登録手数料 無料キャンペーンあり'],
+    popularPlan: { name: 'Standard4（月4回）', description: '女性専用マシンピラティス月4回です。音楽に合わせた楽しいレッスンです。', price: '月4回 15,280円（税込）' },
+    options: ['Light3（月3回 13,280円）', 'Full（毎日1回 22,280円）', 'Full Day（19,280円）', '体験・入会金・登録手数料 無料キャンペーンあり'],
     userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'リフレッシュ'] },
     basicInfo: { hours: '8:00〜22:00', closed: '年末年始（12/29〜1/3）', facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'パウダールーム', 'ウォーターサーバー'] },
   },
@@ -351,7 +351,7 @@ export default function KamataPage() {
                   女性だけの安心空間です。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• the SILK 蒲田（月3回 12,980円〜）</li>
+                  <li className="text-warm-700">• the SILK 蒲田（月3回 13,280円〜）</li>
                   <li className="text-warm-700">• Rintosull 蒲田（月4回 8,800円〜）</li>
                 </ul>
               </div>
@@ -418,7 +418,7 @@ export default function KamataPage() {
                   マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• the SILK（12,980円〜）</li>
+                  <li>• the SILK（13,280円〜）</li>
                   <li>• CLUB PILATES（月4回 13,090円）</li>
                 </ul>
               </div>
@@ -429,7 +429,7 @@ export default function KamataPage() {
                   毎日通いたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• the SILK Full（20,680円）</li>
+                  <li>• the SILK Full（22,280円）</li>
                   <li>• Rintosull プレミアム（16,800円）</li>
                 </ul>
               </div>

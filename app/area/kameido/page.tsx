@@ -24,7 +24,7 @@ const studios = [
     name: 'the SILK 亀戸店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: '月3回 12,980円〜',
+    price: '月3回 13,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン 無料',
     features: ['女性専用', '亀戸駅徒歩1分', '手ぶらで体験可能', '朝7:30〜夜22:00'],
     description: '女性専用マシンピラティススタジオです。亀戸駅東口から徒歩1分です。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。手ぶらで体験可能です（ウェア・タオル無料貸出）。体験者の約8割がピラティス未経験者です。',
@@ -33,12 +33,12 @@ const studios = [
     popularPlan: {
       name: 'Standard4（月4回）',
       description: '女性専用マシンピラティス月4回です。音楽に合わせた楽しいレッスンです。',
-      price: '月4回 15,070円（税込）',
+      price: '月4回 15,280円（税込）',
     },
     options: [
-      'Light3（月3回 12,980円）',
-      'Full（毎日1回 20,680円）',
-      'Full Day（18,480円）',
+      'Light3（月3回 13,280円）',
+      'Full（毎日1回 22,280円）',
+      'Full Day（19,280円）',
       '体験・入会金・登録手数料 無料キャンペーンあり',
     ],
     userProfile: {
@@ -214,7 +214,7 @@ const faqs = [
   },
   {
     question: '亀戸エリアの料金相場は？',
-    answer: '亀戸・錦糸町エリアのピラティススタジオの料金相場は、グループ月4回で10,450円〜15,070円程度です。zen place錦糸町が月4回10,450円〜と最も手頃です。ピラティスKは月4回13,420円〜、the SILKは月3回12,980円〜です。体験レッスンはthe SILKが無料、zen placeが1,000円、ピラティスKが2,000円です。',
+    answer: '亀戸・錦糸町エリアのピラティススタジオの料金相場は、当サイト掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は10,450円〜15,280円（the SILK 亀戸店・zen place pilates 錦糸町スタジオ（マット）・ピラティスK オリナス錦糸町店・2026年10月確認）です。zen place錦糸町が月4回10,450円〜と最も手頃です。ピラティスKは月4回13,420円〜、the SILKは月3回13,280円〜です。体験レッスンはthe SILKが無料、zen placeが1,000円、ピラティスKが2,000円です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -484,7 +484,7 @@ export default function KameidoPage() {
                     • zen place 錦糸町（月4回 10,450円〜）
                   </li>
                   <li className="text-warm-700">
-                    • the SILK 亀戸（月3回 12,980円〜）
+                    • the SILK 亀戸（月3回 13,280円〜）
                   </li>
                   <li className="text-warm-700">
                     • ピラティスK（月4回 13,420円〜）
@@ -500,7 +500,7 @@ export default function KameidoPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">
-                    • the SILK 亀戸（月3回 12,980円〜）
+                    • the SILK 亀戸（月3回 13,280円〜）
                   </li>
                   <li className="text-warm-700">
                     • OLUTANA pilates（30分完結）
@@ -581,7 +581,7 @@ export default function KameidoPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（10,450円〜/月4回）</li>
-                  <li>• the SILK（12,980円〜/月3回）</li>
+                  <li>• the SILK（13,280円〜/月3回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -599,7 +599,7 @@ export default function KameidoPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（13,420円〜）</li>
-                  <li>• the SILK（15,070円/月4回）</li>
+                  <li>• the SILK（15,280円/月4回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -614,7 +614,7 @@ export default function KameidoPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（16,170円/通い放題）</li>
-                  <li>• the SILK Full（20,680円）</li>
+                  <li>• the SILK Full（22,280円）</li>
                   <li>• zen place フリー（16,940円）</li>
                 </ul>
               </div>
@@ -652,7 +652,7 @@ export default function KameidoPage() {
                   </h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  亀戸・錦糸町エリアの掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は10,450円〜13,420円（zen place pilates 錦糸町スタジオ（マット）・ピラティスK オリナス錦糸町店・2026年10月確認）です。無理なく継続できる予算を決めることをおすすめします。料金だけでなく、入会金やキャンペーンの有無もご確認ください。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  亀戸・錦糸町エリアの掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は10,450円〜15,280円（the SILK 亀戸店・zen place pilates 錦糸町スタジオ（マット）・ピラティスK オリナス錦糸町店・2026年10月確認）です。無理なく継続できる予算を決めることをおすすめします。料金だけでなく、入会金やキャンペーンの有無もご確認ください。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

@@ -24,21 +24,21 @@ const studios = [
     name: 'Rintosull（リントスル）高松店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
-    price: '月額 13,800円〜',
+    price: '月4回 8,800円（税込）',
     trial: '見学会参加で特別価格あり',
     features: ['LAVA運営', '業界最安級', '通い放題あり', '全国相互利用'],
     description: 'ホットヨガ大手LAVAが運営するマシンピラティス専門スタジオです。業界最安値レベルの料金設定で、初心者から上級者まで豊富なプログラムを提供しています。ハローズ仏生山店1Fで買い物ついでに通える利便性です。全国のRintosull・LAVA店舗で相互利用可能です。',
     access: '琴電琴平線「空港通り駅」徒歩11分・国道193号線沿い',
     address: '香川県高松市仏生山町甲1319-1 ハローズ仏生山店 1F',
     popularPlan: {
-      name: 'マシンピラティス2店舗通い放題',
-      description: 'マシンピラティスが2店舗で通い放題です。LAVA店舗も相互利用可能です。',
-      price: '月額 13,800円（税込）',
+      name: '４・フルタイム（月4回）',
+      description: '月4回、時間帯を問わず受講できるプランです。',
+      price: '月4回 8,800円（税込）',
     },
     options: [
-      'マシンピラティス2店舗通い放題（13,800円）',
-      'マシンピラティス全国通い放題（16,800円）',
-      'ピラティス&ヨガ&キック通い放題（18,800円）',
+      '４・フルタイム（月4回 8,800円）',
+      'ライト・フルタイム（13,800円）',
+      'プレミアム フリー・フルタイム（16,800円）',
       '見学会当日入会で入会金・登録金0円',
     ],
     userProfile: {
@@ -437,7 +437,7 @@ export default function TakamatsuPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• d.branch studio（ディ・ブランチ スタジオ）（月4回 4,600円）</li>
                   <li className="text-warm-700">• GRANLAB（グランラボ）高松丸の内（月額 8,500円〜）</li>
-                  <li className="text-warm-700">• Rintosull（リントスル）高松店（月額 13,800円〜）</li>
+                  <li className="text-warm-700">• Rintosull（リントスル）高松店（月4回 8,800円）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -501,6 +501,7 @@ export default function TakamatsuPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• d.branch studio（月4回 4,600円）</li>
                   <li>• GRANLAB 高松丸の内（月額 8,500円〜）</li>
+                  <li>• Rintosull 高松店（月4回 8,800円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -511,7 +512,6 @@ export default function TakamatsuPage() {
                   マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Rintosull 高松店（月額 13,800円〜）</li>
                   <li>• ピラティススタジオDEP 高松店（月額 14,800円〜）</li>
                 </ul>
               </div>
@@ -551,7 +551,7 @@ export default function TakamatsuPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  高松の掲載店は料金体系がスタジオごとに異なるため、各店舗カードの料金と、入会金やキャンペーンを公式サイトでご確認ください。
+                  高松の掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は8,800円（Rintosull高松店・2026年10月確認）です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

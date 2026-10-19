@@ -120,7 +120,7 @@ const studios = [
     name: 'the SILK 銀座店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: '月3回 12,980円〜',
+    price: '月3回 13,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン 無料',
     features: ['女性専用', '銀座駅徒歩2分', '手ぶらで体験可能', '初心者8割'],
     description: '女性専用マシンピラティススタジオです。銀座駅B5番出口から徒歩2分です。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。手ぶらで体験可能です。虎ノ門エリアからも銀座線で好アクセスです。',
@@ -129,12 +129,12 @@ const studios = [
     popularPlan: {
       name: 'Standard4（月4回）',
       description: '女性専用マシンピラティス月4回です。音楽に合わせた楽しいレッスンです。',
-      price: '月4回 15,070円（税込）',
+      price: '月4回 15,280円（税込）',
     },
     options: [
-      'Light3（月3回 12,980円）',
-      'Standard4（月4回 15,070円）',
-      'Full（毎日1回 20,680円）',
+      'Light3（月3回 13,280円）',
+      'Standard4（月4回 15,280円）',
+      'Full（毎日1回 22,280円）',
       '体験・入会金・登録手数料 無料キャンペーンあり',
     ],
     userProfile: {
@@ -192,7 +192,7 @@ const faqs = [
   },
   {
     question: '虎ノ門のピラティスの料金相場は？',
-    answer: 'グループ月4回で11,220円〜15,070円程度です。ピラティスKが月4回11,220円〜で最もリーズナブルです。the SILKは月3回12,980円〜です。パーソナルは1回12,100円〜が相場です。',
+    answer: 'グループ月4回で11,220円〜15,070円程度です。ピラティスKが月4回11,220円〜で最もリーズナブルです。the SILKは月3回13,280円〜です。パーソナルは1回12,100円〜が相場です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -441,7 +441,7 @@ export default function ToranomonPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK 銀座店（月4回 11,220円〜）</li>
-                  <li className="text-warm-700">• the SILK 銀座店（月3回 12,980円〜）</li>
+                  <li className="text-warm-700">• the SILK 銀座店（月3回 13,280円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -507,7 +507,7 @@ export default function ToranomonPage() {
                   グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• the SILK（12,980円〜/月3回）</li>
+                  <li>• このページの掲載スタジオでは該当なし（各スタジオの料金は上の店舗カードを参照）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -519,6 +519,7 @@ export default function ToranomonPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（13,420円〜）</li>
+                  <li>• the SILK（13,280円〜/月3回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -557,7 +558,7 @@ export default function ToranomonPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  虎ノ門の掲載店は料金体系がスタジオごとに異なるため、各店舗カードの料金と、入会金やキャンペーンを公式サイトでご確認ください。
+                  虎ノ門の掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は15,280円（the SILK 銀座店・2026年10月確認）です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

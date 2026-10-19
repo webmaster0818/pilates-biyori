@@ -174,7 +174,7 @@ const studios = [
     name: 'zen place pilates 三宮スタジオ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 10,450円〜',
+    price: '月4回 9,625円〜',
     trial: 'グループ体験 1,000円',
     features: ['花時計前駅徒歩1分', 'ピラティス専門', '男性利用可', '全国他店利用'],
     description: 'ピラティス専門の大手スタジオです。地下鉄海岸線「三宮・花時計前」4番出口から徒歩1分です。元町エリアからもアクセス良好です。マットグループ・マシングループ・プライベートの3タイプです。全国150店舗以上で他店利用可能です。',
@@ -183,10 +183,10 @@ const studios = [
     popularPlan: {
       name: 'フリープラン（マットグループ）',
       description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。',
-      price: '月額 16,940円（税込）',
+      price: '月額 14,960円（税込）',
     },
     options: [
-      '月4回プラン（10,450円〜）',
+      '月4回プラン（9,625円〜）',
       'マシングループ体験（3,000円）',
       'プライベートレッスン（体験 9,900円）',
       '体験当日入会で入会金無料',
@@ -354,7 +354,7 @@ export default function MotomachiPage() {
                   月額1万円台で通えるスタジオです。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• zen place（月4回 9,625円〜）</li>
                   <li className="text-warm-700">• Pilates Mee（月2回 11,000円〜）</li>
                 </ul>
               </div>

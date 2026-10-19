@@ -88,7 +88,7 @@ const studios = [
     name: 'the SILK 柏店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: '月3回 12,980円〜',
+    price: '月3回 12,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン 無料',
     features: ['女性専用', '柏駅徒歩1分', '手ぶらで体験可能', '初心者8割'],
     description: '女性専用マシンピラティススタジオです。柏駅から徒歩1分です。初心者が8割のスタジオで、難易度別・部位別にレッスンが分かれているため自分に合ったクラスが見つかります。パウダールームも充実しています。手ぶらで体験可能です。',
@@ -97,12 +97,12 @@ const studios = [
     popularPlan: {
       name: 'Standard4（月4回）',
       description: '女性専用マシンピラティス月4回です。音楽に合わせた楽しいレッスンです。',
-      price: '月4回 15,070円（税込）',
+      price: '月4回 14,370円（税込）',
     },
     options: [
-      'Light3（月3回 12,980円）',
-      'Full（毎日1回 20,680円）',
-      'Full Day（18,480円）',
+      'Light3（月3回 12,280円）',
+      'Full（毎日1回 19,980円）',
+      'Full Day（17,780円）',
       '体験・入会金・登録手数料 無料キャンペーンあり',
     ],
     userProfile: {
@@ -214,7 +214,7 @@ const faqs = [
   },
   {
     question: '柏のピラティスの料金相場は？',
-    answer: 'グループ月4回で7,700円〜15,070円程度です。Mapilaが月会費7,700円〜で最もリーズナブルです。zen placeは月4回10,450円〜です。the SILKは月3回12,980円〜です。',
+    answer: 'グループ月4回で7,700円〜15,070円程度です。Mapilaが月会費7,700円〜で最もリーズナブルです。zen placeは月4回10,450円〜です。the SILKは月3回12,280円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -538,7 +538,7 @@ export default function KashiwaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（13,420円〜）</li>
-                  <li>• the SILK（15,070円〜/月4回）</li>
+                  <li>• the SILK（14,370円〜/月4回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -549,7 +549,7 @@ export default function KashiwaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（16,170円/通い放題）</li>
-                  <li>• the SILK（20,680円/通い放題）</li>
+                  <li>• the SILK（19,980円/通い放題）</li>
                 </ul>
               </div>
             </div>

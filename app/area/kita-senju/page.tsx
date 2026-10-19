@@ -25,7 +25,7 @@ const studios = [
     name: 'the SILK 北千住店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: '月3回 12,980円〜',
+    price: '月3回 13,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン 無料',
     features: ['女性専用', '北千住駅近', '手ぶらで体験可能', '朝7:30〜夜22:00'],
     description: '女性専用マシンピラティススタジオです。北千住駅の近くです。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。手ぶらで体験可能です（ウェア・タオル無料貸出）。体験者の約8割がピラティス未経験者です。',
@@ -34,12 +34,12 @@ const studios = [
     popularPlan: {
       name: 'Standard4（月4回）',
       description: '女性専用マシンピラティス月4回です。音楽に合わせた楽しいレッスンです。',
-      price: '月4回 15,070円（税込）',
+      price: '月4回 15,280円（税込）',
     },
     options: [
-      'Light3（月3回 12,980円）',
-      'Full（毎日1回 20,680円）',
-      'Full Day（18,480円）',
+      'Light3（月3回 13,280円）',
+      'Full（毎日1回 22,280円）',
+      'Full Day（19,280円）',
       '体験・入会金・登録手数料 無料キャンペーンあり',
     ],
     userProfile: {
@@ -186,7 +186,7 @@ const faqs = [
   },
   {
     question: '北千住のピラティスの料金相場は？',
-    answer: 'セミパーソナルのPilates Meeは1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と格安です。グループ月4回で10,450円〜15,070円です。パーソナルはELEMENTが月額5,500円〜で最安級です。',
+    answer: 'セミパーソナルのPilates Meeは1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と格安です。当サイト掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は10,450円〜15,280円（the SILK 北千住店・zen place pilates 北千住スタジオ（マット）・2026年10月確認）です。パーソナルはELEMENTが月額5,500円〜で最安級です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -442,7 +442,7 @@ export default function KitaSenjuPage() {
                   女性だけの安心空間です。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• the SILK（月3回 12,980円〜）</li>
+                  <li className="text-warm-700">• the SILK（月3回 13,280円〜）</li>
                   <li className="text-warm-700">• Pilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）</li>
                 </ul>
               </div>
@@ -509,7 +509,7 @@ export default function KitaSenjuPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（10,450円〜）</li>
-                  <li>• the SILK（12,980円〜）</li>
+                  <li>• the SILK（13,280円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -548,7 +548,7 @@ export default function KitaSenjuPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  北千住はセミパーソナル1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）です。掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は10,450円（zen place pilates 北千住スタジオ（マット）・2026年10月確認）です。
+                  北千住はセミパーソナル1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）です。掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は10,450円〜15,280円（the SILK 北千住店・zen place pilates 北千住スタジオ（マット）・2026年10月確認）です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

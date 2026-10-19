@@ -195,7 +195,7 @@ export const g1Stores: BdcStore[] = [
     storeName: "the SILK 大門浜松町店",
     address: "東京都港区浜松町1-27-10 バッカス第3ビル7階",
     access: "都営浅草線・大江戸線「大門駅」A2出口 徒歩1分 / JR「浜松町駅」北口 徒歩2分",
-    price: "月3回 12,980円〜",
+    price: "月3回 13,280円〜（別途施設利用料 月700円・税込）",
     trial: "体験レッスン 無料",
     areaSlug: "hamamatsucho",
     areaLabel: "浜松町",

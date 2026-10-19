@@ -56,7 +56,7 @@ const studios = [
     name: 'the SILK 中目黒店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: 'Standard4 15,070円〜',
+    price: 'Standard4 15,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'マシンピラティス専門', '中目黒駅すぐ', '音楽×マシン'],
     description: '女性専用マシンピラティス専門スタジオです。中目黒駅から徒歩すぐの好立地です。最新のリフォーマーマシンを完備し、音楽に合わせた独自プログラムで楽しくトレーニングです。無料体験レッスンを実施中です。',
@@ -65,10 +65,10 @@ const studios = [
     popularPlan: {
       name: 'Standard4（月4回）',
       description: '女性専用マシンピラティスの基本プランです。音楽に合わせた50分のグループレッスンです。',
-      price: '月4回 15,070円（税込）〜',
+      price: '月4回 15,280円（税込）〜',
     },
     options: [
-      'Standard4（月4回 15,070円〜）',
+      'Standard4（月4回 15,280円〜）',
       'Full（通い放題）',
       'Full Day（デイタイム通い放題）',
       '体験レッスン無料キャンペーン実施中',
@@ -369,7 +369,7 @@ export default function NakameguroPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（マット月4回 9,625円〜）</li>
                   <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
-                  <li className="text-warm-700">• the SILK（月4回 15,070円〜）</li>
+                  <li className="text-warm-700">• the SILK（月4回 15,280円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -425,7 +425,7 @@ export default function NakameguroPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">マシン完備の大手スタジオです。少人数制グループです。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• the SILK（月4回 15,070円〜）</li>
+                  <li>• the SILK（月4回 15,280円〜）</li>
                   <li>• zen place リフォーマー（15,400円〜）</li>
                   <li>• BDC PILATES（月額15,400円〜）</li>
                 </ul>

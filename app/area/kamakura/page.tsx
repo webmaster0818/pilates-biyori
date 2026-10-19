@@ -57,7 +57,7 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 鎌倉店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
-    price: '通い放題 14,080円〜',
+    price: '月4回 8,580円／通い放題 12,980円（税込月額）',
     trial: '無料体験あり',
     features: ['鎌倉駅徒歩3分', '予約不要', '1回30分', 'サーキット形式'],
     description: '「30才からのピラティス×ボディメイク」をテーマにしたサーキット形式のスタジオです。鎌倉駅東口から徒歩3分です。予約不要・1回30分でインナーマッスルとアウターマッスルを効率的に鍛えます。通い放題でもリーズナブルな価格設定です。',
@@ -66,12 +66,12 @@ const studios = [
     popularPlan: {
       name: '通い放題プラン',
       description: '予約不要・1回30分のサーキット形式です。好きな時間に何度でも通えます。',
-      price: '月額 14,080円（税込）',
+      price: '月額 12,980円（税込）',
     },
     options: [
       '週1回プラン',
       '週2回プラン',
-      '通い放題プラン（14,080円）',
+      '通い放題プラン（12,980円）',
       '無料体験あり',
     ],
     userProfile: {
@@ -189,7 +189,7 @@ const faqs = [
   },
   {
     question: '鎌倉のピラティスの料金相場は？',
-    answer: 'グループレッスンは月4回10,450円〜14,080円程度です。zen placeが月4回10,450円〜で最もリーズナブルです。URBAN CLASSICは通い放題14,080円です。プライベートは1回5,500円〜です。',
+    answer: 'グループレッスンは月4回10,450円〜14,080円程度です。zen placeが月4回10,450円〜で最もリーズナブルです。URBAN CLASSICは通い放題12,980円（税込）です。プライベートは1回5,500円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -436,7 +436,7 @@ export default function KamakuraPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates 鎌倉スタジオ（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• URBAN CLASSIC PILATES 鎌倉店（通い放題 14,080円〜）</li>
+                  <li className="text-warm-700">• URBAN CLASSIC PILATES 鎌倉店（通い放題 12,980円）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -499,6 +499,7 @@ export default function KamakuraPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（10,450円〜/月4回）</li>
+                  <li>• URBAN CLASSIC PILATES 鎌倉店（通い放題 12,980円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -509,7 +510,7 @@ export default function KamakuraPage() {
                   マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• URBAN CLASSIC PILATES 鎌倉店（通い放題 14,080円〜）</li>
+                  <li>• このページの掲載スタジオでは該当なし（各スタジオの料金は上の店舗カードを参照）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -548,7 +549,7 @@ export default function KamakuraPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  鎌倉の掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は10,450円（zen place pilates 鎌倉スタジオ（マット）・2026年10月確認）です。入会金やキャンペーンもご確認ください。
+                  鎌倉の掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は8,580円〜10,450円（zen place pilates 鎌倉スタジオ（マット）・URBAN CLASSIC PILATES 鎌倉店・2026年10月確認）です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

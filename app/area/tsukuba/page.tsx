@@ -27,7 +27,7 @@ const studios = [
     name: 'zen place pilates つくばスタジオ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 10,450円〜',
+    price: '月4回 9,625円〜',
     trial: 'グループ体験 1,000円',
     features: ['つくば駅徒歩5分', '茨城県初', '男性利用可', '全国他店利用'],
     description: '2026年1月にオープンした茨城県初のzen placeピラティススタジオです。つくばエクスプレスつくば駅から徒歩5分です。マットグループ・マシングループ・プライベートの3タイプです。全国150店舗以上で他店利用可能です。',
@@ -36,10 +36,10 @@ const studios = [
     popularPlan: {
       name: 'フリープラン（マットグループ）',
       description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。',
-      price: '月額 16,940円（税込）',
+      price: '月額 14,960円（税込）',
     },
     options: [
-      '月4回プラン（10,450円〜）',
+      '月4回プラン（9,625円〜）',
       'マシングループ体験（3,000円）',
       'プライベートレッスン（体験 9,900円）',
       '体験当日入会で入会金無料',
@@ -221,7 +221,7 @@ const faqs = [
   },
   {
     question: 'つくばのピラティスの料金相場は？',
-    answer: 'グループ月4回で7,480円〜15,400円程度です。モナピラティスが月4回7,480円〜で最もリーズナブルです。zen placeは月4回10,450円〜、CLUB PILATESは月4回 11,990円です。',
+    answer: 'グループ月4回で7,480円〜15,400円程度です。モナピラティスが月4回7,480円〜で最もリーズナブルです。zen placeは月4回9,625円〜、CLUB PILATESは月4回 11,990円です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -535,7 +535,7 @@ export default function TsukubaPage() {
                   グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place（10,450円〜/月4回）</li>
+                  <li>• zen place（9,625円〜/月4回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -585,7 +585,7 @@ export default function TsukubaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  つくばの掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は11,990円〜15,400円（CLUB PILATES つくば店・Pilates KASANE つくば店・2026年10月確認）です。入会金やキャンペーンもご確認ください。
+                  つくばの掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は9,625円〜15,400円（zen place pilates つくばスタジオ（マット）・CLUB PILATES つくば店・Pilates KASANE つくば店・2026年10月確認）です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

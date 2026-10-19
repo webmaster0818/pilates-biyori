@@ -102,7 +102,7 @@ const studios = [
     name: 'the SILK 大阪梅田店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: 'グループ月4回(Standard4) 14,370〜15,280円 / 通い放題 19,980〜22,280円（別途施設利用料月700円）/ パーソナル月2回 22,000円〜',
+    price: 'グループ月4回(Standard4) 14,370円 / 通い放題 19,980円（別途施設利用料月700円）/ パーソナル月2回 22,000円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'マシンピラティス専門', 'グループ＋パーソナル'],
     description: '女性専用のマシンピラティス専門スタジオです。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴です。梅田駅から徒歩3分です（情報引用元: the SILK公式サイト the-silk.co.jp）。',
