@@ -990,3 +990,4 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
   - KASANE 鹿児島中央駅前店は公式一覧に無い（鹿児島は天文館店のみ）
   - Rintosull 高松: カード「月額13,800円〜」はライト・フルタイム。4・フルタイムは 8,800円
 - 残（指定外・未変更）: FAQ の「グループ月4回で10,450円〜15,070円」11ファイル12件（yoyogi-uehara 含む）
+- 本番 09:43 反映（push 09:25 から約18分）・31/31 新文言・旧文言0・/api/contact 400・Indexing 10/10（kanazawa/ikebukuro/urawa/hamamatsu/hamamatsucho/shonan/kichijoji/nakano-sakaue/tokorozawa/tsukuba）
