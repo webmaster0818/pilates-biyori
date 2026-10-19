@@ -550,7 +550,7 @@ export default function KagoshimaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  鹿児島の料金相場はグループ月4回で10,450円〜15,070円です。入会金やキャンペーンもご確認ください。
+                  鹿児島の掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は15,400円（Pilates KASANE 鹿児島天文館店・2026年10月確認）です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

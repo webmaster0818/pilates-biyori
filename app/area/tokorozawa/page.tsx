@@ -521,7 +521,7 @@ export default function TokorozawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  所沢の料金相場はグループ月4回で10,450円〜15,070円です。入会金やキャンペーンもご確認ください。
+                  所沢の掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は11,990円〜13,420円（ピラティスK 所沢店・CLUB PILATES 所沢店・2026年10月確認）です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

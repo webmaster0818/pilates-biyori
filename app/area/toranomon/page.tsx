@@ -557,7 +557,7 @@ export default function ToranomonPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  虎ノ門の料金相場はグループ月4回で10,450円〜15,070円です。入会金やキャンペーンもご確認ください。
+                  虎ノ門の掲載店は料金体系がスタジオごとに異なるため、各店舗カードの料金と、入会金やキャンペーンを公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

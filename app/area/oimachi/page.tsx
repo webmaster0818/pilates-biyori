@@ -546,7 +546,7 @@ export default function OimachiPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  大井町の料金相場はグループ月4回で10,450円〜15,070円です。入会金やキャンペーンもご確認ください。
+                  大井町の掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は8,800円〜10,450円（zen place pilates 大井町スタジオ（マット）・Rintosull 大井町店・2026年10月確認）です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
