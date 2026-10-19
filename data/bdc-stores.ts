@@ -16,6 +16,14 @@ export type BdcStore = {
   areaSlug: string; // 周辺エリア比較 /area/{areaSlug}/
   areaLabel: string;
   nearby: { slug: string; label: string }[]; // 近隣エリアへの内部リンク
+  /* 以下は公式の店舗ページで確認できた店舗だけに入れる（2026-10-19 the SILK 上野店から）。無い店舗では何も出さない */
+  nameAlias?: string; // h1 の表記ゆれ（例: シルク）
+  hours?: string;
+  closed?: string;
+  studioType?: string;
+  storeNotes?: string[]; // 基本情報の下に出す公式の注記
+  officialStoreUrl?: string; // 公式の店舗ページ（計測リンクにしない）
+  checkedAt?: string;
 };
 
 export const bdcStores: BdcStore[] = [

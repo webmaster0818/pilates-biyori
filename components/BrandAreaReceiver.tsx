@@ -96,7 +96,7 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
 
           <p className="section-en text-warm-400 mb-2 font-medium">Brand × Area</p>
           <h1 className="text-2xl md:text-3xl font-light text-warm-900 tracking-tight mb-3">
-            {store.areaQuery}の{brandName}｜料金・体験・アクセス
+            {store.areaQuery}の{brandName}{store.nameAlias ? `（${store.nameAlias}）` : ""}｜料金・体験・{store.hours ? "営業時間・" : ""}アクセス
             <span className="block text-base text-warm-500 mt-2 font-light">
               マシンピラティス専門「{store.storeName}」の情報を当サイトの掲載データにもとづいて掲載しています{MONTH_TAG}
             </span>
@@ -178,10 +178,25 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
                   <tr className="border-b border-warm-100"><th className="px-4 py-3 text-left text-warm-500 font-medium">アクセス</th><td className="px-4 py-3 text-warm-800">{store.access}</td></tr>
                   <tr className="border-b border-warm-100"><th className="px-4 py-3 text-left text-warm-500 font-medium">料金</th><td className="px-4 py-3 text-warm-800">{store.priceList && store.priceList.length > 0 ? (<ul className="space-y-1">{store.priceList.map((line) => <li key={line}>{line}</li>)}</ul>) : store.price}</td></tr>
                   <tr className="border-b border-warm-100"><th className="px-4 py-3 text-left text-warm-500 font-medium">体験</th><td className="px-4 py-3 text-warm-800">{store.trial}</td></tr>
+                  {store.hours && <tr className="border-b border-warm-100"><th className="px-4 py-3 text-left text-warm-500 font-medium">営業時間</th><td className="px-4 py-3 text-warm-800">{store.hours}</td></tr>}
+                  {store.closed && <tr className="border-b border-warm-100"><th className="px-4 py-3 text-left text-warm-500 font-medium">定休日</th><td className="px-4 py-3 text-warm-800">{store.closed}</td></tr>}
+                  {store.studioType && <tr className="border-b border-warm-100"><th className="px-4 py-3 text-left text-warm-500 font-medium">種別</th><td className="px-4 py-3 text-warm-800">{store.studioType}</td></tr>}
                   {store.rating && <tr><th className="px-4 py-3 text-left text-warm-500 font-medium">評価</th><td className="px-4 py-3 text-warm-800">★{store.rating.toFixed(1)}（当サイト掲載時点）</td></tr>}
                 </tbody>
               </table>
             </div>
+            {store.storeNotes && store.storeNotes.length > 0 && (
+              <ul className="mt-4 space-y-2 text-sm text-warm-700 leading-relaxed font-light list-disc pl-5">
+                {store.storeNotes.map((n) => <li key={n}>{n}</li>)}
+              </ul>
+            )}
+            {store.officialStoreUrl && (
+              <p className="text-xs text-warm-600 mt-3 leading-relaxed">
+                所在地・アクセス・営業時間・料金・体験は{" "}
+                <a href={store.officialStoreUrl} target="_blank" rel="noopener noreferrer" className="underline decoration-warm-300 hover:text-warm-800">公式の店舗ページ</a>
+                {store.checkedAt ? `の表記です（${store.checkedAt}確認）。` : "の表記です。"}
+              </p>
+            )}
             <p className="text-[11px] text-warm-400 mt-3 leading-relaxed">
               ※料金・体験条件は当サイト掲載時点の情報であり、金額を保証するものではありません。{noCampaign ? "最新の料金・空き状況は公式サイトでご確認ください。" : "最新の料金・空き状況・キャンペーンは公式サイトでご確認ください。"}
               {store.addressIsVague && "所在地の詳細は公式サイトでご確認ください。"}
