@@ -561,7 +561,7 @@ export default function UrawaPage() {
                   毎日通いたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスK（16,170円/通い放題）</li>
+                  <li>• ピラティスK（16,170円/月8回）</li>
                   <li>• CLUB PILATES（通い放題 26,950円）</li>
                 </ul>
               </div>
