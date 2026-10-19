@@ -57,7 +57,7 @@ const studios = [
     name: 'ピラティスK 新宿店',
     officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
-    price: '月4回 11,220円〜',
+    price: '月4回 13,420円',
     trial: '体験レッスン 2,000円',
     features: ['女性専用マシンピラティス', '新宿三丁目駅近く', '音楽×マシン', 'ボディメイク'],
     description: '「30歳からの本気ボディメイク」がコンセプトの女性専用マシンピラティス専門スタジオです。全国54店舗展開です。東京メトロ丸ノ内線・副都心線「新宿三丁目駅」から好アクセスです。音楽に合わせた独自プログラムで楽しくボディメイクを目指せます。初心者から経験者まで個人のペースに合わせたプログラムを用意しています。',
@@ -66,12 +66,12 @@ const studios = [
     popularPlan: {
       name: 'マンスリー4メンバー',
       description: '月4回のマシンピラティスレッスンです。女性専用で安心して通える人気プランです。音楽に合わせた50分のグループレッスンです。',
-      price: '月4回 11,220円（税込）〜',
+      price: '月4回 13,420円（税込）〜',
     },
     options: [
-      'マンスリー4メンバー（月4回 11,220円〜）',
+      'マンスリー4メンバー（月4回 13,420円）',
       'マンスリーデイメンバー（平日昼間プラン）',
-      'マンスリーフルメンバー（通い放題）',
+      'マンスリー8メンバー（月8回 16,170円）',
       '追加受講料（1回 2,200円）',
     ],
     userProfile: {
@@ -486,7 +486,7 @@ export default function ShinjukuPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
                   <li className="text-warm-700">• URBAN CLASSIC PILATES（月4回 9,680円）</li>
-                  <li className="text-warm-700">• ピラティスK（月4回 11,220円〜）</li>
+                  <li className="text-warm-700">• ピラティスK（月4回 13,420円）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -580,7 +580,7 @@ export default function ShinjukuPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates（月4回 9,625円〜）</li>
                   <li>• URBAN CLASSIC PILATES（月4回 9,680円）</li>
-                  <li>• ピラティスK（月4回 11,220円〜）</li>
+                  <li>• ピラティスK（月4回 13,420円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -674,7 +674,7 @@ export default function ShinjukuPage() {
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
                   <p className="text-3xl font-bold text-warm-800 mb-2">9,625円〜15,280円</p>
-                  <p className="text-sm text-warm-600">zen place pilatesのマット月4回9,625円〜が最安クラスです。ピラティスKは11,220円〜です。</p>
+                  <p className="text-sm text-warm-600">zen place pilatesのマット月4回9,625円〜が最安クラスです。ピラティスKは13,420円です。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">パーソナルレッスン</h3>

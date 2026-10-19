@@ -24,7 +24,7 @@ const studios = [
     name: 'ピラティスK 柏店',
     officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
-    price: '月4回 13,420円〜',
+    price: '月4回 13,420円',
     trial: '体験レッスン 0円',
     features: ['女性専用', '柏駅徒歩3分', '部位別プログラム', '0円体験'],
     description: '女性専用マシンピラティス専門スタジオです。柏駅東口から徒歩3分です。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実しています。お腹・お尻・二の腕・脚・背中に特化したプログラムで効率的にボディメイクを目指せます。',
@@ -36,7 +36,7 @@ const studios = [
       price: '月4回 13,420円（税込）',
     },
     options: [
-      'マンスリーフルメンバー（通い放題 16,170円）',
+      'マンスリー8メンバー（月8回 16,170円）',
       'マンスリーデイメンバー（14,520円）',
       '追加受講（1回 2,200円）',
       '入会金 5,500円',
@@ -548,7 +548,7 @@ export default function KashiwaPage() {
                   毎日通いたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスK（16,170円/通い放題）</li>
+                  <li>• ピラティスK（16,170円/月8回）</li>
                   <li>• the SILK（19,980円/通い放題）</li>
                 </ul>
               </div>

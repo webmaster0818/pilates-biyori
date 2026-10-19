@@ -59,7 +59,7 @@ const studios = [
     name: 'ピラティスK オリナス錦糸町店',
     officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
-    price: '月4回 11,220円〜',
+    price: '月4回 13,420円',
     trial: '無料体験レッスン',
     features: ['女性専用', 'マシンピラティス', '錦糸町駅北口徒歩4分', 'オリナス内'],
     description: '女性専用のマシンピラティススタジオです。錦糸町駅北口から徒歩4分、オリナスモール内に位置しています。音楽に合わせた楽しいグループレッスンが人気です。墨田区の大型商業施設内なので、買い物や食事と合わせて通えるのが魅力です。',
@@ -68,7 +68,7 @@ const studios = [
     popularPlan: {
       name: 'マンスリー4メンバー',
       description: '月4回のマシングループレッスンです。女性専用のため安心して通えます。オリナス内にあり、通いやすい立地です。',
-      price: '月4回 11,220円（税込）',
+      price: '月4回 13,420円（税込）',
     },
     options: [
       '追加レッスンチケット（1回 3,850円）',
@@ -825,7 +825,7 @@ export default function KinshichoPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates（9,625円〜）</li>
-                  <li>• ピラティスK（11,220円〜）</li>
+                  <li>• ピラティスK（13,420円）</li>
                   <li>• Pilates KASANE（15,400円）</li>
                 </ul>
               </div>

@@ -24,7 +24,7 @@ const studios = [
     name: 'ピラティスK 松戸店',
     officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
-    price: '月4回 11,220円〜',
+    price: '月4回 13,420円',
     trial: '体験レッスン 0円',
     features: ['女性専用', '松戸駅徒歩1分', '部位別プログラム', '0円体験'],
     description: '女性専用マシンピラティス専門スタジオです。松戸駅から徒歩1分の好立地です。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実しています。「骨格から美ボディに」がコンセプトです。',
@@ -33,10 +33,10 @@ const studios = [
     popularPlan: {
       name: 'マンスリー4メンバー（月4回）',
       description: '女性専用マシンピラティス月4回です。部位別プログラムも選べます。',
-      price: '月4回 11,220円（税込）',
+      price: '月4回 13,420円（税込）',
     },
     options: [
-      'マンスリーフルメンバー（通い放題 16,170円）',
+      'マンスリー8メンバー（月8回 16,170円）',
       'マンスリーデイメンバー（14,520円）',
       '追加受講（1回 2,200円）',
       '入会金 5,500円・登録料 5,500円',
@@ -226,7 +226,7 @@ const faqs = [
   },
   {
     question: '松戸のピラティスの料金相場はどのくらいですか？',
-    answer: 'グループ月4回で11,220円〜19,800円程度です。ピラティスKが月4回11,220円〜で最もリーズナブルです。lafimoは月額8,800円〜でジム・ヨガも使えて割安です。リントスルは月額9,800円〜です。',
+    answer: 'グループ月4回で11,220円〜19,800円程度です。ピラティスKは月4回13,420円です。lafimoは月額8,800円〜でジム・ヨガも使えて割安です。リントスルは月額9,800円〜です。',
   },
   {
     question: '松戸駅から近いスタジオはどこですか？',
@@ -385,7 +385,7 @@ export default function MatsudoPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              松戸エリアはJR常磐線と新京成線が乗り入れるターミナル駅で、都心と比べてテナント賃料が抑えめのため、同内容のレッスンでも料金がリーズナブルな傾向があります。特にピラティスKは月4回11,220円〜と都心部の同チェーンと同等の料金で通えます。通い放題プランの選択肢も豊富なので、週2回以上通える方は月額制プランがおすすめです。
+              松戸エリアはJR常磐線と新京成線が乗り入れるターミナル駅で、都心と比べてテナント賃料が抑えめのため、同内容のレッスンでも料金がリーズナブルな傾向があります。特にピラティスKは月4回13,420円と都心部の同チェーンと同等の料金で通えます。通い放題プランの選択肢も豊富なので、週2回以上通える方は月額制プランがおすすめです。
             </p>
           </div>
         </section>
@@ -477,7 +477,7 @@ export default function MatsudoPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• lafimo（月額 8,800円〜）</li>
                   <li className="text-warm-700">• リントスル（月額 9,800円〜）</li>
-                  <li className="text-warm-700">• ピラティスK（月4回 11,220円〜）</li>
+                  <li className="text-warm-700">• ピラティスK（月4回 13,420円）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -545,7 +545,6 @@ export default function MatsudoPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• lafimo（8,800円〜）</li>
                   <li>• リントスル（9,800円〜）</li>
-                  <li>• ピラティスK（11,220円〜/月4回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -559,6 +558,7 @@ export default function MatsudoPage() {
                   <li>• the SILK（12,280円〜/月3回）</li>
                   <li>• KASANE（11,880円〜/月4回）</li>
                   <li>• Pilates Mee（19,800円〜/月4回）</li>
+                  <li>• ピラティスK（13,420円/月4回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -568,7 +568,7 @@ export default function MatsudoPage() {
                   毎日通いたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスK（16,170円/通い放題）</li>
+                  <li>• ピラティスK（16,170円/月8回）</li>
                   <li>• the SILK（19,980円/通い放題）</li>
                   <li>• Pilates Mee（37,500円/通い放題）</li>
                 </ul>

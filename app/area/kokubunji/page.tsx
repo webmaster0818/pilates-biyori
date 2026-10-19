@@ -25,21 +25,21 @@ const studios = [
     name: 'pilates K 国分寺店',
     officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
-    price: '月4回 11,220円〜',
+    price: '月4回 13,420円',
     trial: '体験レッスン 0円',
     features: ['女性専用', 'マシンピラティス専門', '体験0円', '国分寺駅徒歩1分'],
-    description: '女性専用マシンピラティス専門スタジオです。JR中央線「国分寺駅」から徒歩1分の好立地です。「30歳からの本気ボディメイク」をコンセプトに、1人1台のリフォーマーを使い、音楽に合わせて楽しくトレーニングできます。体験レッスン0円で気軽にスタート可能です。月4回11,220円〜のリーズナブルな料金設定も魅力です。',
+    description: '女性専用マシンピラティス専門スタジオです。JR中央線「国分寺駅」から徒歩1分の好立地です。「30歳からの本気ボディメイク」をコンセプトに、1人1台のリフォーマーを使い、音楽に合わせて楽しくトレーニングできます。体験レッスン0円で気軽にスタート可能です。月4回13,420円〜のリーズナブルな料金設定も魅力です。',
     access: 'JR中央線「国分寺駅」から徒歩1分',
     address: '東京都国分寺市南町（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'マンスリー4メンバー',
       description: '女性専用マシンピラティスです。月4回の利用で無理なく続けられる人気プランです。体験0円です。',
-      price: '月4回 11,220円〜（税込）',
+      price: '月4回 13,420円〜（税込）',
     },
     options: [
-      'マンスリー4メンバー（月4回 11,220円〜）',
+      'マンスリー4メンバー（月4回 13,420円）',
       'マンスリー8メンバー（月8回）',
-      'マンスリーフルメンバー（通い放題）',
+      'マンスリー8メンバー（月8回 16,170円）',
       '体験レッスン 0円',
     ],
     userProfile: {
@@ -193,7 +193,7 @@ const faqs = [
   },
   {
     question: '国分寺のピラティスの料金相場は？',
-    answer: 'URBAN CLASSIC PILATESは月4回8,580円と最安級です。Rintosullは月4回8,800円〜（店舗により異なる）、ピラティスミラーは月6回11,000円、pilates Kは月4回11,220円〜、zen placeは月4回13,200円〜です。',
+    answer: 'URBAN CLASSIC PILATESは月4回8,580円と最安級です。Rintosullは月4回8,800円〜（店舗により異なる）、ピラティスミラーは月6回11,000円、pilates Kは月4回13,420円、zen placeは月4回13,200円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -468,7 +468,7 @@ export default function KokubunjiPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1〜2回からスタートするのがおすすめです。最低2〜3ヶ月継続で効果を実感できます。ピラティスミラー国分寺の月6回プラン（11,000円）やpilates Kの月4回プラン（11,220円〜）で無理なく始められます。
+                週1〜2回からスタートするのがおすすめです。最低2〜3ヶ月継続で効果を実感できます。ピラティスミラー国分寺の月6回プラン（11,000円）やpilates Kの月4回プラン（13,420円）で無理なく始められます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
@@ -503,7 +503,7 @@ export default function KokubunjiPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Rintosull（8,800円〜/月4回）</li>
                   <li>• ピラティスミラー（11,000円/月6回）</li>
-                  <li>• pilates K（11,220円〜/月4回）</li>
+                  <li>• pilates K（13,420円/月4回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">

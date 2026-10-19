@@ -59,7 +59,7 @@ const studios = [
     name: 'ピラティスK 表参道店',
     officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
-    price: '月4回 11,220円〜',
+    price: '月4回 13,420円',
     trial: '体験レッスン 0円',
     features: ['女性専用', 'マシン専門', '表参道駅徒歩2分', '音楽レッスン'],
     description: '女性専用のマシンピラティス専門スタジオです。表参道駅から徒歩2分です。2025年5月オープンです。音楽に合わせたグループレッスンが特徴で、お腹・お尻・二の腕・脚・背中の部位に特化したボディメイクプログラムが充実しています。カジュアルかつスタイリッシュな店内で楽しくピラティスを続けられます。',
@@ -68,12 +68,12 @@ const studios = [
     popularPlan: {
       name: 'マンスリー4メンバー（月4回）',
       description: '平日・土日祝いつでも受講可能です。お好きな時間で受講できる人気プランです。',
-      price: '月4回 11,220〜13,420円（税込）',
+      price: '月4回 13,420〜13,420円（税込）',
     },
     options: [
-      'マンスリー8メンバー（月8回 15,070〜16,170円）',
-      'デイメンバー（12,320〜14,520円）',
-      'プレミアムメンバー（毎日2レッスン 17,820〜18,920円）',
+      'マンスリー8メンバー（月8回 16,170〜16,170円）',
+      'デイメンバー（14,520〜14,520円）',
+      'プレミアムメンバー（毎日2レッスン 18,920〜18,920円）',
       '追加受講（1回 2,200円）',
     ],
     userProfile: {
@@ -309,7 +309,7 @@ const faqs = [
   },
   {
     question: '青山一丁目エリアのピラティススタジオの料金相場は？',
-    answer: '青山一丁目・表参道エリアの料金相場は、グループレッスン月4回で9,600円〜15,400円程度です。BDC PILATESやピラティスKは月4回11,220円からと比較的リーズナブルです。パーソナルは1回5,500円〜が相場です。',
+    answer: '青山一丁目・表参道エリアの料金相場は、グループレッスン月4回で9,600円〜15,400円程度です。BDC PILATESやピラティスKは月4回13,420円からと比較的リーズナブルです。パーソナルは1回5,500円〜が相場です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -337,7 +337,7 @@ const faqs = [
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'それぞれに利点があります。パーソナルはA・COREやa.pilatesで一人ひとりに合わせた指導を受けられます。グループはBDC PILATESやピラティスKなら月4回11,220円からです。まずは体験レッスンで両方を試すことをおすすめします。',
+    answer: 'それぞれに利点があります。パーソナルはA・COREやa.pilatesで一人ひとりに合わせた指導を受けられます。グループはBDC PILATESやピラティスKなら月4回13,420円からです。まずは体験レッスンで両方を試すことをおすすめします。',
   },
 ]
 
@@ -583,7 +583,7 @@ export default function AoyamaItchomePage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
                   <li className="text-warm-700">• BDC PILATES（月4回 11,220円〜）</li>
-                  <li className="text-warm-700">• ピラティスK（月4回 11,220円〜）</li>
+                  <li className="text-warm-700">• ピラティスK（月4回 13,420円）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -651,7 +651,6 @@ export default function AoyamaItchomePage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates（9,625円〜）</li>
                   <li>• BDC PILATES（11,220円〜）</li>
-                  <li>• ピラティスK（11,220円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
