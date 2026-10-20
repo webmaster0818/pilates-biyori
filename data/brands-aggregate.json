@@ -1460,11 +1460,11 @@
     },
     {
       "name": "the SILK 上野店",
-      "price": "グループ月4回(Standard4) 15,280円 / 通い放題 22,280円（別途施設利用料月700円）/ パーソナル月2回 22,000円〜",
+      "price": "グループ月4回(Standard4) 15,280円 / 通い放題(Full) 22,280円（別途施設利用料 月700円・税込）",
       "trial": "体験レッスン 無料",
       "officialUrl": "https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808",
       "address": "東京都台東区上野2-7-13 ヒューリック・損保ジャパン上野共同ビル3階",
-      "access": "上野駅から徒歩5分",
+      "access": "京成上野駅・上野広小路駅 徒歩1分／JR御徒町駅 徒歩4分",
       "areaSlug": "ueno",
       "areaName": "上野"
     },
@@ -3986,7 +3986,7 @@
     },
     {
       "name": "zen place pilates 千里中央",
-      "price": "月4回 9,625円〜",
+      "price": "月4回 10,450円〜",
       "trial": "グループ体験 1,000円",
       "officialUrl": "https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808",
       "address": "大阪府豊中市新千里東町1丁目4-2 千里ライフサイエンスセンタービル 2階",
@@ -4545,7 +4545,7 @@
     },
     {
       "name": "ピラティスK 表参道店",
-      "price": "月4回 11,220円〜",
+      "price": "月4回 13,420円",
       "trial": "体験レッスン 0円",
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "東京都港区北青山3-12-7 秋月ビル 3F 301",
@@ -4596,7 +4596,7 @@
     },
     {
       "name": "ピラティスK 京都四条烏丸店",
-      "price": "月4回 13,420円〜",
+      "price": "月4回 13,420円",
       "trial": "体験レッスン 0円",
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "京都府京都市下京区立売西町66 京都証券ビル 6F",
@@ -4606,7 +4606,7 @@
     },
     {
       "name": "ピラティスK 八王子オクトーレ店",
-      "price": "月4回 13,420円〜",
+      "price": "月4回 13,420円",
       "trial": "体験レッスン 無料",
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "東京都八王子市旭町9-1 八王子オクトーレ 6F",
@@ -4616,7 +4616,7 @@
     },
     {
       "name": "ピラティスK 浜松メイワン店",
-      "price": "月4回 13,420円〜",
+      "price": "月4回 13,420円",
       "trial": "体験レッスン 0円",
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "静岡県浜松市中央区砂山町6-1 メイワン6階",
@@ -4626,7 +4626,7 @@
     },
     {
       "name": "ピラティスK MEGAドン・キホーテUNY浜松泉町店",
-      "price": "月4回 13,420円〜",
+      "price": "月4回 13,420円",
       "trial": "体験レッスン 0円",
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "静岡県浜松市中央区泉町（MEGAドン・キホーテUNY浜松泉町店内）",
@@ -4667,7 +4667,7 @@
     },
     {
       "name": "ピラティスK 厚木ガーデンシティ店",
-      "price": "月4回 13,420円〜",
+      "price": "月4回 13,420円",
       "trial": "体験レッスン 無料（0円）",
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "神奈川県厚木市中町1-5-10 厚木ガーデンシティ 4F",
@@ -4677,7 +4677,7 @@
     },
     {
       "name": "ピラティスK 茨木店",
-      "price": "月4回 11,220円〜",
+      "price": "月4回 11,220円",
       "trial": "体験レッスン 無料",
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "大阪府茨木市春日1丁目 サンプラザ茨木駅前ビル2F",
@@ -4698,7 +4698,7 @@
     },
     {
       "name": "ピラティスK 池袋店",
-      "price": "月4回 13,420円〜",
+      "price": "月4回 13,420円",
       "trial": "体験レッスン 2,000円",
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "東京都豊島区東池袋1-3-6 池袋山手ビル 4F",
@@ -4728,7 +4728,7 @@
     },
     {
       "name": "ピラティスK オリナス錦糸町店",
-      "price": "月4回 13,420円〜",
+      "price": "月4回 13,420円",
       "trial": "体験レッスン 2,000円",
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "東京都墨田区太平4-1-2 オリナス錦糸町内",
@@ -4738,7 +4738,7 @@
     },
     {
       "name": "ピラティスK 柏店",
-      "price": "月4回 13,420円〜",
+      "price": "月4回 13,420円",
       "trial": "体験レッスン 0円",
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "千葉県柏市柏1丁目4-26 第二藤川ビル 7F",
@@ -4748,7 +4748,7 @@
     },
     {
       "name": "ピラティスK かわぐちキャスティ店",
-      "price": "月4回 13,420円〜",
+      "price": "月4回 13,420円",
       "trial": "体験レッスン 0円",
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "埼玉県川口市栄町3-7-1 かわぐちキャスティ 7F",
@@ -4768,7 +4768,7 @@
     },
     {
       "name": "ピラティスK 吉祥寺店",
-      "price": "月4回 13,420円〜",
+      "price": "月4回 13,420円",
       "trial": "体験レッスン 2,000円",
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "東京都武蔵野市吉祥寺エリア（詳細は公式サイトでご確認ください）",
@@ -4778,7 +4778,7 @@
     },
     {
       "name": "pilates K イオンモール八幡東店",
-      "price": "月4回 13,420円〜",
+      "price": "月4回 11,220円",
       "trial": "体験レッスン 無料",
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "福岡県北九州市八幡東区東田（イオンモール八幡東内）",
@@ -4788,7 +4788,7 @@
     },
     {
       "name": "ピラティスK 神戸三宮店",
-      "price": "月4回 13,420円〜",
+      "price": "月4回 13,420円",
       "trial": "無料体験レッスン",
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "兵庫県神戸市中央区三宮（詳細は公式サイト参照）",
@@ -4808,7 +4808,7 @@
     },
     {
       "name": "pilates K 国分寺店",
-      "price": "月4回 11,220円〜",
+      "price": "月4回 13,420円",
       "trial": "体験レッスン 0円",
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "東京都国分寺市南町（詳細は公式サイトでご確認ください）",
@@ -4818,7 +4818,7 @@
     },
     {
       "name": "ピラティスK 熊本店",
-      "price": "月4回 13,420円〜",
+      "price": "月4回 13,420円",
       "trial": "体験レッスン 0円",
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "熊本県熊本市エリア（詳細は公式サイトでご確認ください）",
@@ -4838,7 +4838,7 @@
     },
     {
       "name": "ピラティスK 町田店",
-      "price": "月4回 13,420円〜",
+      "price": "月4回 13,420円",
       "trial": "体験レッスン 0円",
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "東京都町田市（詳細は公式サイトでご確認ください）",
@@ -4848,7 +4848,7 @@
     },
     {
       "name": "ピラティスK 松戸店",
-      "price": "月4回 11,220円〜",
+      "price": "月4回 13,420円",
       "trial": "体験レッスン 0円",
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "千葉県松戸市松戸1228-1 松戸駅西口ビル内",
@@ -4878,7 +4878,7 @@
     },
     {
       "name": "pilates K 溝の口店",
-      "price": "月4回 13,420円〜",
+      "price": "月4回 13,420円",
       "trial": "体験レッスン 無料",
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "神奈川県川崎市高津区溝口エリア（詳細は公式サイトでご確認ください）",
@@ -4899,7 +4899,7 @@
     },
     {
       "name": "ピラティスK 久屋大通パーク店",
-      "price": "月4回 13,420円〜",
+      "price": "月4回 13,420円",
       "trial": "無料体験レッスン",
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "愛知県名古屋市中区（詳細は公式サイト参照）",
@@ -4939,7 +4939,7 @@
     },
     {
       "name": "ピラティスK 阪急西宮ガーデンズ店",
-      "price": "月4回 11,220円〜",
+      "price": "月4回 13,420円",
       "trial": "体験レッスン 無料",
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "兵庫県西宮市高松町8-25 阪急西宮ガーデンズ プラス館8F",
@@ -4949,7 +4949,7 @@
     },
     {
       "name": "ピラティスK 神保町店",
-      "price": "月4回 13,420円〜",
+      "price": "月4回 13,420円",
       "trial": "体験レッスン 0円",
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "東京都千代田区神田神保町1-4 クロサワビル4階",
@@ -4959,7 +4959,7 @@
     },
     {
       "name": "pilates K トキハ大分店",
-      "price": "月4回 13,420円〜",
+      "price": "月4回 11,220円",
       "trial": "体験レッスン 無料",
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "大分県大分市府内町（トキハ大分内）",
@@ -5029,7 +5029,7 @@
     },
     {
       "name": "ピラティスK 相模大野店",
-      "price": "月4回 13,420円〜",
+      "price": "月4回 13,420円",
       "trial": "体験レッスン 0円",
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "神奈川県相模原市南区相模大野3-9-1 相模大野ジョイモアーズ 6F",
@@ -5139,7 +5139,7 @@
     },
     {
       "name": "ピラティスK 新宿店",
-      "price": "月4回 11,220円〜",
+      "price": "月4回 13,420円",
       "trial": "体験レッスン 2,000円",
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "東京都新宿区新宿3丁目（新宿三丁目駅近く）",
@@ -5189,7 +5189,7 @@
     },
     {
       "name": "ピラティスK 所沢店",
-      "price": "月4回 13,420円〜",
+      "price": "月4回 13,420円",
       "trial": "体験レッスン 0円",
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "埼玉県所沢市日吉町3-5 KRPアベニュー2F",
@@ -5231,7 +5231,7 @@
     },
     {
       "name": "pilates K 綱島店",
-      "price": "月4回 11,220円〜",
+      "price": "月4回 13,420円",
       "trial": "体験レッスン 0円",
       "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
       "address": "神奈川県横浜市港北区綱島西（詳細は公式サイトでご確認ください）",
@@ -5404,16 +5404,6 @@
       "access": "錦糸町駅から徒歩5分",
       "areaSlug": "kinshicho",
       "areaName": "錦糸町"
-    },
-    {
-      "name": "PILATES KASANE 松戸店",
-      "price": "月4回 11,880円〜",
-      "trial": "体験レッスン 500円",
-      "officialUrl": "https://t.afi-b.com/visit.php?a=T15562j-7505717Y&p=E9887623",
-      "address": "千葉県松戸市八ケ崎2-8-1 イオンモール松戸内",
-      "access": "JR常磐線「北松戸駅」徒歩15分 / 車でのアクセス推奨",
-      "areaSlug": "matsudo",
-      "areaName": "松戸"
     },
     {
       "name": "Pilates KASANE イーアス沖縄豊崎店",

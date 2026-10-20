@@ -24,13 +24,13 @@ const studios = [
     name: 'zen place pilates 千里中央',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp', reviewCount: 138,
-    price: '月4回 9,625円〜', trial: 'グループ体験 1,000円',
+    price: '月4回 10,450円〜', trial: 'グループ体験 1,000円',
     features: ['千里中央駅徒歩3分', '男性利用可', 'マット&マシン', '全国他店利用'],
     description: 'ピラティス専門の大手スタジオです。千里中央駅北口から徒歩3分の好立地です。マットグループ・マシングループ・プライベートの3タイプから選べます。全国150店舗以上で他店利用可能です。科学的知見に基づいた質の高い指導が特徴です。',
     access: '北大阪急行「千里中央駅」北口 徒歩3分',
     address: '大阪府豊中市新千里東町1丁目4-2 千里ライフサイエンスセンタービル 2階',
-    popularPlan: { name: 'フリープラン（マットグループ）', description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。', price: '月額 14,960円〜（税込）' },
-    options: ['月4回プラン（9,625円〜）', 'マシングループ体験（3,000円）', 'プライベートレッスン', '体験当日入会で入会金無料'],
+    popularPlan: { name: 'フリープラン（マットグループ）', description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。', price: '月額 16,940円〜（税込）' },
+    options: ['月4回プラン（10,450円〜）', 'マシングループ体験（3,000円）', 'プライベートレッスン', '体験当日入会で入会金無料'],
     userProfile: { ageRange: '30代〜60代が中心', genderRatio: '女性75% / 男性25%', purpose: ['姿勢改善', '体幹強化', '健康維持', 'リフレッシュ'] },
     basicInfo: { hours: '月〜金 10:00〜20:00 / 土日祝 10:00〜16:00', closed: '不定休', facilities: ['リフォーマー', 'マット', 'ロッカー', '更衣室'] },
   },
@@ -65,7 +65,7 @@ const studios = [
 const faqs = [
   { question: 'ピラティス初心者でも大丈夫ですか？', answer: '問題ありません。千里中央エリアのスタジオはほとんどが初心者歓迎です。WECLEは30分サーキット形式で手軽に始められ、zen placeは丁寧な指導で初心者にも安心です。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。千里中央はマシン専門スタジオが充実しています。' },
-  { question: '千里中央のピラティスの料金相場は？', answer: 'グループ月4回で9,625円〜13,000円程度です。WECLEが月額9,800円〜と通い放題がリーズナブルです。ピラティスミラーは月額11,000円で月6回までです。' },
+  { question: '千里中央のピラティスの料金相場は？', answer: 'グループ月4回で10,450円〜13,000円程度です。WECLEが月額9,800円〜と通い放題がリーズナブルです。ピラティスミラーは月額11,000円で月6回までです。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめです。慣れたら週2〜3回に増やすと効果的です。WECLEは24時間・予約不要なので毎日でも気軽に通えます。' },
   { question: 'ピラティスで痩せますか？', answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続で体の変化を実感される方が多くなっています。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。WECLEは着替え不要で普段着でも可能です。zen placeはグループ体験1,000円で試せます。靴下（グリップソックス推奨）も忘れずにご用意ください。' },
@@ -184,11 +184,11 @@ export default function SenriChuoPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">9,625円〜13,000円</td>
+                    <td className="px-4 py-3">10,450円〜13,000円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">通い放題プラン</td>
-                    <td className="px-4 py-3">月額 9,800円〜14,960円</td>
+                    <td className="px-4 py-3">月額 9,800円〜16,940円</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
@@ -362,7 +362,7 @@ export default function SenriChuoPage() {
                   週1〜2回の丁寧なレッスンです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place月4回（9,625円〜）</li>
+                  <li>• zen place月4回（10,450円〜）</li>
                   <li>• ピラティスミラー月6回（11,000円）</li>
                 </ul>
               </div>
@@ -373,7 +373,7 @@ export default function SenriChuoPage() {
                   高い頻度で本格的に取り組めます。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen placeフリー（14,960円〜）</li>
+                  <li>• zen placeフリー（16,940円〜）</li>
                 </ul>
               </div>
             </div>
@@ -402,7 +402,7 @@ export default function SenriChuoPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  千里中央の料金相場は通い放題で9,800円〜、月4回で9,625円〜です。入会金やキャンペーンもご確認ください。
+                  千里中央の料金相場は通い放題で9,800円〜、月4回で10,450円〜です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

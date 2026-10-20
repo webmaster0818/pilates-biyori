@@ -626,6 +626,7 @@ export default function NishinomiyaPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（13,420円）</li>
                   <li>• CLUB PILATES（月4回 13,090円）</li>
+                  <li>• Rintosull（13,800円/通い放題・2店舗）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -635,7 +636,6 @@ export default function NishinomiyaPage() {
                   毎日通いたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Rintosull（13,800円/通い放題・2店舗）</li>
                   <li>• zen place（16,940円/通い放題）</li>
                   <li>• CLUB PILATES（通い放題 37,290円）</li>
                 </ul>

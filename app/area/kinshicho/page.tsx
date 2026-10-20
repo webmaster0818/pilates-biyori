@@ -27,7 +27,7 @@ const studios = [
     name: 'zen place pilates 錦糸町',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: 'マットグループ月4回 9,625円〜',
+    price: 'マットグループ月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
     features: ['マット&マシン完備', '初心者歓迎', '錦糸町駅南口徒歩4分', 'エデュケーター養成'],
     description: '全国展開の大手ピラティススタジオです。JR総武線錦糸町駅南口から徒歩4分の好立地です。マットグループからマシングループまで豊富なレッスンメニューです。墨田区の商業エリアに位置し、JR総武線・半蔵門線が利用可能です。スカイツリーも近く、レッスン後の散策も楽しめます。経験豊富なエデュケーターが一人ひとりに合わせた丁寧な指導を提供します。',
@@ -824,7 +824,7 @@ export default function KinshichoPage() {
                   マシン完備の大手スタジオです。グループ・セミパーソナルです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates（9,625円〜）</li>
+                  <li>• zen place pilates（10,450円〜）</li>
                   <li>• ピラティスK（13,420円）</li>
                   <li>• Pilates KASANE（15,400円）</li>
                 </ul>
