@@ -67,7 +67,7 @@ export const bdcStores: BdcStore[] = [
     storeName: "BDC PILATES 表参道スタジオ",
     address: "東京都港区南青山5-7-17 青山小原ビル(小原流会館)8F（A studio）／東京都渋谷区神宮前4-9-1 神宮前AKビル201（B studio）",
     access: "表参道駅 徒歩2分（公式表記）",
-    price: "月4回 11,220円〜",
+    price: "月4回 16,280円（税込）",
     trial: "体験レッスン 0円",
     rating: 4.8,
     areaSlug: "omotesando",

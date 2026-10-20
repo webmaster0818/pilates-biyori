@@ -133,14 +133,14 @@ const studios = [
     name: 'BDC PILATES 恵比寿スタジオ',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590',
     image: '/images/studios/bdc-pilates.webp',
-    price: '月4回 11,220円〜',
+    price: '月4回 16,280円（税込）',
     trial: '体験レッスン 0円',
     features: ['日本初マシン専門', '恵比寿', '認定講師', 'グループ&プライベート'],
     description: '日本初のマシンピラティス専門スタジオの恵比寿店です。代官山からも徒歩圏内です。認定指導資格を保有した講師によるグループレッスンとプライベートレッスンの両方を提供しています。ダンサーやアスリートも通う質の高いレッスンが特徴です。',
     access: 'JR恵比寿駅東口 徒歩3分（公式表記）',
     address: '東京都渋谷区恵比寿1-20-4 Sreed EBISU B1',
-    popularPlan: { name: '4メンバー（月4回）', description: '月4回のグループレッスンです。認定講師による本格マシンピラティスです。', price: '月4回 11,220〜13,420円（税込）' },
-    options: ['8メンバー（月8回 15,070〜16,170円）', 'デイメンバー（12,320〜14,520円）', 'プレミアムメンバー（17,820〜18,920円）', '追加受講（1回 2,200円）'],
+    popularPlan: { name: 'グループレッスンコース（月4回）', description: '月4回のグループレッスンです。認定講師による本格マシンピラティスです。', price: '月4回 16,280円（税込）' },
+    options: ['グループ 月6回 23,100円／月8回 29,260円（税込）', 'プライベート 月1回 11,000円／月2回 20,900円（税込）', '追加レッスン グループ 4,070円／プライベート 11,000円（税込）', '入会金 11,000円・事務手数料 2,200円・施設維持費 月770円（税込）'],
     userProfile: { ageRange: '20代〜40代が中心（全体の80%）', genderRatio: '女性85% / 男性15%', purpose: ['ボディメイク', '姿勢改善', 'パフォーマンス向上', '体幹強化'] },
     basicInfo: { hours: '平日 10:00〜20:00 / 土日 10:00〜17:00', closed: '不定休', facilities: ['リフォーマー', 'キャデラック', 'チェア', '更衣室', 'ロッカー'] },
   },
@@ -149,14 +149,14 @@ const studios = [
 const faqs = [
   { question: 'ピラティス初心者でも大丈夫ですか？', answer: '問題ありません。代官山エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。CLUB PILATESはレベル分けがあり、the SILKは初心者が80%です。BDC PILATESは体験レッスンが0円なので気軽に始められます。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷を調整しやすく、初心者におすすめです。代官山エリアではマシン専門スタジオが充実しています。' },
-  { question: '代官山のピラティススタジオの料金相場は？', answer: '代官山エリアの料金相場は、グループレッスン月4回で10,000円〜15,000円程度です。BDC PILATESは月4回11,220円からとリーズナブルです。パーソナルは1回5,500円〜18,700円と幅があります。体験レッスンは無料〜5,500円です。' },
+  { question: '代官山のピラティススタジオの料金相場は？', answer: '代官山エリアの料金相場は、グループレッスン月4回で10,000円〜16,280円程度です。BDC PILATES 恵比寿スタジオは月4回16,280円（税込・公式・2026年10月確認）です。パーソナルは1回5,500円〜18,700円と幅があります。体験レッスンは無料〜5,500円です。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: 'ピラティス初心者は週1〜2回（月4〜8回）がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。大切なのは継続することです。無理のないペースで長く続けることが理想です。' },
   { question: 'ピラティスで痩せますか？', answer: 'ピラティスにはダイエット効果が期待できます。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。ただし即効性はないので、最低でも2〜3ヶ月は継続することが大切です。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '基本的に動きやすい服装と飲み物があれば問題ありません。the SILKは手ぶらで参加可能の無料体験、BDC PILATESも0円で体験できます。各スタジオの案内を確認してください。' },
   { question: 'ピラティスとヨガの違いは何ですか？', answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズです。ヨガは柔軟性と精神的なリラックスを重視します。目的に合わせてお選びください。' },
   { question: 'ピラティスで肩こりや腰痛は改善しますか？', answer: '改善が期待できます。ピラティスラボ代官山はクリニック併設で医療的なアプローチも可能です。Pilates en Roseは腰痛改善に特化したセッションも提供しています。' },
   { question: 'ピラティスはどのくらいで効果が出ますか？', answer: 'ピラティスの効果を実感し始めるのは、2ヶ月を過ぎた頃が目安とされています。すぐに変化が表れなくても、最低2ヶ月は継続することをおすすめします。' },
-  { question: 'パーソナルとグループ、どちらがおすすめですか？', answer: 'それぞれに利点があります。パーソナルはピラティスラボやPilates en Roseで一人ひとりに合わせた指導を受けられます。グループはCLUB PILATESやBDC PILATESなら月4回11,220円からです。まずは体験レッスンで両方を試すことをおすすめします。' },
+  { question: 'パーソナルとグループ、どちらがおすすめですか？', answer: 'それぞれに利点があります。パーソナルはピラティスラボやPilates en Roseで一人ひとりに合わせた指導を受けられます。グループはCLUB PILATESやBDC PILATES（月4回16,280円・税込）があります。まずは体験レッスンで両方を試すことをおすすめします。' },
 ]
 
 export default function DaikanyamaPage() {
@@ -329,7 +329,7 @@ export default function DaikanyamaPage() {
                 <p className="text-warm-600 text-sm mb-4">月額1万円前後で通えるスタジオです。体験レッスン無料のスタジオもあります。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月額10,450円〜）</li>
-                  <li className="text-warm-700">• BDC PILATES（月4回 11,220円〜）</li>
+                  <li className="text-warm-700">• BDC PILATES（月4回 16,280円）</li>
                   <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
                 </ul>
               </div>
@@ -375,7 +375,7 @@ export default function DaikanyamaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜12,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4〜6回</p>
                 <p className="text-sm text-warm-600 mb-4">グループレッスンが中心です。体験無料のスタジオもあります。</p>
-                <ul className="text-sm text-warm-700 space-y-1"><li>• zen place pilates（10,450円〜）</li><li>• BDC PILATES（11,220円〜）</li><li>• ピラティスミラー（11,000円/月6回）</li></ul>
+                <ul className="text-sm text-warm-700 space-y-1"><li>• zen place pilates（10,450円〜）</li><li>• BDC PILATES（16,280円）</li><li>• ピラティスミラー（11,000円/月6回）</li></ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>

@@ -27,22 +27,22 @@ const studios = [
     name: 'BDC PILATES 表参道スタジオ',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590',
     image: '/images/studios/bdc-pilates.webp',
-    price: '月4回 11,220円〜',
+    price: '月4回 16,280円（税込）',
     trial: '体験レッスン 0円',
     features: ['日本初マシン専門', '表参道駅徒歩2分', '認定講師', 'グループ&プライベート'],
     description: '日本初のマシンピラティス専門スタジオです。表参道駅から徒歩2分の好立地です。認定指導資格を保有した講師によるグループレッスンとプライベートレッスンの両方を提供しています。プライベートレッスンでは一人ひとりの身体の状態と目的に沿ってメニューを完全カスタマイズです。ダンサーやアスリートも通う質の高いレッスンが特徴です。',
     access: '表参道駅 徒歩2分（公式表記）',
     address: '東京都港区南青山5-7-17 青山小原ビル(小原流会館)8F（A studio）／東京都渋谷区神宮前4-9-1 神宮前AKビル201（B studio）',
     popularPlan: {
-      name: '4メンバー（月4回）',
+      name: 'グループレッスンコース（月4回）',
       description: '月4回のグループレッスンです。認定講師による本格マシンピラティスです。',
-      price: '月4回 11,220〜13,420円（税込）',
+      price: '月4回 16,280円（税込）',
     },
     options: [
-      '8メンバー（月8回 15,070〜16,170円）',
-      'デイメンバー（12,320〜14,520円）',
-      'プレミアムメンバー（17,820〜18,920円）',
-      '追加受講（1回 2,200円）',
+      'グループ 月6回 23,100円／月8回 29,260円（税込）',
+      'プライベート 月1回 11,000円／月2回 20,900円（税込）',
+      '追加レッスン グループ 4,070円／プライベート 11,000円（税込）',
+      '入会金 11,000円・事務手数料 2,200円・施設維持費 月770円（税込）',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心（全体の80%）',
@@ -309,7 +309,7 @@ const faqs = [
   },
   {
     question: '青山一丁目エリアのピラティススタジオの料金相場は？',
-    answer: '青山一丁目・表参道エリアの料金相場は、グループレッスン月4回で9,600円〜15,400円程度です。BDC PILATESやピラティスKは月4回13,420円からと比較的リーズナブルです。パーソナルは1回5,500円〜が相場です。',
+    answer: '青山一丁目・表参道エリアの料金相場は、グループレッスン月4回で9,600円〜16,280円程度です。ピラティスK 表参道店は月4回13,420円、BDC PILATES 表参道スタジオは月4回16,280円です（いずれも税込・公式・2026年10月確認）。パーソナルは1回5,500円〜が相場です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -337,7 +337,7 @@ const faqs = [
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'それぞれに利点があります。パーソナルはA・COREやa.pilatesで一人ひとりに合わせた指導を受けられます。グループはBDC PILATESやピラティスKなら月4回13,420円からです。まずは体験レッスンで両方を試すことをおすすめします。',
+    answer: 'それぞれに利点があります。パーソナルはA・COREやa.pilatesで一人ひとりに合わせた指導を受けられます。グループはピラティスK（月4回13,420円）やBDC PILATES（月4回16,280円）があります（いずれも税込）。まずは体験レッスンで両方を試すことをおすすめします。',
   },
 ]
 
@@ -609,7 +609,7 @@ export default function AoyamaItchomePage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
-                  <li className="text-warm-700">• BDC PILATES（月4回 11,220円〜）</li>
+                  <li className="text-warm-700">• BDC PILATES（月4回 16,280円）</li>
                   <li className="text-warm-700">• ピラティスK（月4回 13,420円）</li>
                 </ul>
               </div>
@@ -677,7 +677,6 @@ export default function AoyamaItchomePage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates（9,625円〜）</li>
-                  <li>• BDC PILATES（11,220円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -689,8 +688,9 @@ export default function AoyamaItchomePage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Pilates KASANE（15,400円〜）</li>
-                  <li>• BDC PILATES 8回（15,070円〜）</li>
+                  <li>• BDC PILATES 8回（29,260円）</li>
                   <li>• zen place リフォーマー（15,400円〜）</li>
+                  <li>• BDC PILATES（16,280円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">

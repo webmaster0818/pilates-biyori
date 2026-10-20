@@ -232,7 +232,7 @@ const faqs = [
   },
   {
     question: '船橋のピラティスの料金相場は？',
-    answer: 'グループ月4回で8,580円〜15,070円程度です。Rintosullは月4回8,800円〜です。URBAN CLASSIC PILATESは月4回8,580円（税込）です。zen placeは月4回9,625円〜です。',
+    answer: 'グループ月4回で8,580円〜14,370円程度です。Rintosullは月4回8,800円〜です。URBAN CLASSIC PILATESは月4回8,580円（税込）です。zen placeは月4回9,625円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -374,11 +374,11 @@ export default function FunabashiPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">8,800円〜15,070円</td>
+                    <td className="px-4 py-3">8,580円〜14,370円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回 8,800円〜15,070円</td>
+                    <td className="px-4 py-3">店舗により異なります（各公式サイトでご確認ください）</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
@@ -601,7 +601,7 @@ export default function FunabashiPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  船橋の料金相場はグループ月4回で8,800円〜15,070円です。入会金やキャンペーンもご確認ください。
+                  船橋の料金相場はグループ月4回で8,580円〜14,370円です（URBAN CLASSIC PILATES 8,580円〜the SILK 14,370円・税込・2026年10月確認）。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
