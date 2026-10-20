@@ -15,43 +15,12 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/shimbashi/' },
-  title: 'ピラティス新橋おすすめ7選料金・体験レッスン・マシン対応を比較',
-  description: '新橋・銀座エリアのおすすめピラティススタジオ7選を比較しています。マシンピラティス、パーソナル、女性専用、24時間セルフまで網羅しています。料金相場・体験レッスン・選び方を詳しくご案内します。JR新橋駅・銀座線・都営浅草線沿線で仕事帰りに通えるスタジオが見つかります。',
+  title: 'ピラティス新橋おすすめ6選料金・体験レッスン・マシン対応を比較',
+  description: '新橋・銀座エリアのおすすめピラティススタジオ6選を比較しています。マシンピラティス、パーソナル、女性専用、24時間セルフまで網羅しています。料金相場・体験レッスン・選び方を詳しくご案内します。JR新橋駅・銀座線・都営浅草線沿線で仕事帰りに通えるスタジオが見つかります。',
   keywords: 'ピラティス,新橋,銀座,港区,スタジオ,おすすめ,マシンピラティス,パーソナル,女性専用,体験レッスン,料金,比較',
 }
 
 const studios = [
-  {
-    name: 'ピラティスK 新橋（銀座近隣）',
-    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
-    image: '/images/studios/pilates-k.webp',
-    price: '月4回 11,220円〜',
-    trial: '体験レッスン実施中',
-    features: ['女性専用', 'マシングループ専門', '割安', '初心者歓迎'],
-    description: '女性専用マシンピラティスグループレッスン専門スタジオです。月4回 11,220円〜とマシンピラティスとしてはリーズナブルな価格設定が魅力です。新橋から銀座エリアへのアクセスも良好です。初心者から経験者までレベルに合わせたプログラムを用意しています。',
-    access: 'JR「新橋駅」から銀座方面へアクセス良好',
-    address: '東京都港区（新橋・銀座近隣）',
-    popularPlan: {
-      name: 'マンスリー4メンバー（月4回）',
-      description: '女性専用マシンピラティスのグループレッスン月4回プランです。',
-      price: '月4回 11,220円（税込）〜',
-    },
-    options: [
-      'マンスリー4メンバー（月4回 11,220円〜）',
-      'マンスリーフルメンバー（通い放題）',
-      'マンスリーデイメンバー（平日デイタイム通い放題）',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', 'ダイエット', '姿勢改善', '体幹強化'],
-    },
-    basicInfo: {
-      hours: '火〜金 10:00〜21:30 / 土日祝 10:00〜18:00',
-      closed: '月曜日',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', '女性専用'],
-    },
-  },
   {
     name: 'CREA パーソナルピラティス 新橋・銀座店',
     image: '/images/studios/crea-pilates-shimbashi.webp',
@@ -246,7 +215,7 @@ const faqs = [
   },
   {
     question: '新橋エリアのピラティススタジオの料金相場は？',
-    answer: '新橋エリアのピラティススタジオの料金相場は、グループレッスン月4回で9,680円〜11,220円程度です。パーソナルレッスンは1回3,300円〜22,000円と幅があります。chocoZAPのセルフマシンなら月額3,278円と、リーズナブルな選択肢も豊富です。',
+    answer: '新橋エリアのピラティススタジオの料金相場は、グループレッスン月4回で9,680円〜程度です。パーソナルレッスンは1回3,300円〜22,000円と幅があります。chocoZAPのセルフマシンなら月額3,278円と、リーズナブルな選択肢も豊富です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -274,7 +243,7 @@ const faqs = [
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'それぞれに利点があります。パーソナル（CREA、STUDIO IVY、ELEMENTなど）は一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方におすすめです。グループ（ピラティスKなど）は料金が安く、仲間と楽しく続けられるのが魅力です。まずは体験レッスンで両方を試すことをおすすめします。',
+    answer: 'それぞれに利点があります。パーソナル（CREA、STUDIO IVY、ELEMENTなど）は一人ひとりに合わせた指導で効果が出やすく、短期間で結果を出したい方におすすめです。グループは料金が安く、仲間と楽しく続けられるのが魅力です。まずは体験レッスンで両方を試すことをおすすめします。',
   },
 ]
 
@@ -294,7 +263,7 @@ export default function ShimbashiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス新橋おすすめ7選<br className="hidden md:block" />
+              ピラティス新橋おすすめ6選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -314,7 +283,7 @@ export default function ShimbashiPage() {
 
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-8">本ページでは、新橋エリア（港区）でおすすめのピラティススタジオ7選をまとめました。JR山手線・京浜東北線・東海道線新橋駅、東京メトロ銀座線、都営浅草線、ゆりかもめ沿線で通えるスタジオを厳選しています。</p>
+            <p className="text-warm-600 leading-relaxed mb-8">本ページでは、新橋エリア（港区）でおすすめのピラティススタジオ6選をまとめました。JR山手線・京浜東北線・東海道線新橋駅、東京メトロ銀座線、都営浅草線、ゆりかもめ沿線で通えるスタジオを厳選しています。</p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
@@ -334,7 +303,7 @@ export default function ShimbashiPage() {
 
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">新橋エリアのおすすめピラティススタジオ7選</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">新橋エリアのおすすめピラティススタジオ6選</h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
                 <StudioCard key={index} studio={studio} index={index} />
@@ -361,7 +330,7 @@ export default function ShimbashiPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">3,300円〜11,220円</td>
+                    <td className="px-4 py-3">9,680円〜</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -478,7 +447,6 @@ export default function ShimbashiPage() {
                 <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用スタジオ</h3>
                 <p className="text-warm-600 text-sm mb-4">女性だけの安心空間です。周りを気にせずレッスンに集中しています。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• ピラティスK（マシングループ 11,220円〜）</li>
                   <li className="text-warm-700">• ピラティスミラー（プライベート30分）</li>
                 </ul>
               </div>
@@ -519,7 +487,7 @@ export default function ShimbashiPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">グループ</p>
                 <p className="text-sm text-warm-600 mb-4">マシン完備の大手スタジオです。グループレッスン月4回です。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスK（月4回 11,220円〜）</li>
+                  <li>• このページの掲載スタジオでは該当なし（各スタジオの料金は上の店舗カードを参照）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -553,7 +521,7 @@ export default function ShimbashiPage() {
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span>
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
-                <p className="text-warm-600 leading-relaxed">新橋エリアの料金相場は、セルフマシン月額3,278円〜、グループレッスン月4回9,680円〜11,220円程度、パーソナルは1回3,300円〜22,000円と幅広い選択肢があります。無理なく継続できる予算を決めることをおすすめします。</p>
+                <p className="text-warm-600 leading-relaxed">新橋エリアの料金相場は、セルフマシン月額3,278円〜、グループレッスン月4回9,680円〜程度、パーソナルは1回3,300円〜22,000円と幅広い選択肢があります。無理なく継続できる予算を決めることをおすすめします。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4">
@@ -597,7 +565,7 @@ export default function ShimbashiPage() {
         <section className="py-16 bg-warm-50">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
-            <p className="text-warm-600 leading-relaxed mb-6">本ページでは、新橋エリア（港区）のおすすめピラティススタジオ7選についてご紹介しました。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">本ページでは、新橋エリア（港区）のおすすめピラティススタジオ6選についてご紹介しました。</p>
             <p className="text-warm-600 leading-relaxed mb-6">新橋はJR山手線・京浜東北線・東海道線、東京メトロ銀座線、都営浅草線、ゆりかもめと多くの路線が利用でき、銀座エリアも徒歩圏内という抜群のアクセスです。月額3,278円のセルフマシンから、パーソナル専門、女性専用、24時間営業まで、多彩なスタジオが揃っています。</p>
             <p className="text-warm-600 leading-relaxed mb-6">本ページの情報を、スタジオ選びにお役立てください。</p>
             <p className="text-warm-700 font-medium text-center">本ページが、ピラティススタジオ選びの参考になれば幸いです。</p>

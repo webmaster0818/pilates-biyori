@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kagoshima/' },
-  title: 'ピラティス鹿児島おすすめ5選人気スタジオの料金プランの比較',
-  description: '鹿児島エリアのおすすめピラティススタジオ5選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。初心者でも安心して通えるスタジオが見つかります。',
+  title: 'ピラティス鹿児島おすすめ4選人気スタジオの料金プランの比較',
+  description: '鹿児島エリアのおすすめピラティススタジオ4選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,鹿児島,鹿児島県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -146,38 +146,6 @@ const studios = [
       facilities: ['マット', 'ヨガスタジオ', '更衣室', 'ロッカー'],
     },
   },
-  {
-    name: 'Pilates KASANE 鹿児島中央駅前店',
-    officialUrl: 'https://t.afi-b.com/visit.php?a=T15562j-7505717Y&p=E9887623',
-    image: '/images/studios/pilates-kasane.webp',
-    price: '月4回 15,400円〜',
-    trial: '体験レッスン 3,000円',
-    features: ['中央駅前', '2店舗展開', '少人数制', 'レンタル無料'],
-    description: '鹿児島中央駅前の少人数制マシンピラティススタジオです。天文館店と合わせて鹿児島に2店舗を展開しており、予約が取りやすくなっています。4名以下の少人数制で丁寧な指導です。レンタルウェア・ソックス無料で手ぶらで参加可能です。',
-    access: 'JR「鹿児島中央駅」すぐ',
-    address: '鹿児島県鹿児島市（鹿児島中央駅前・詳細は公式サイトでご確認ください）',
-    popularPlan: {
-      name: '月8回プラン',
-      description: '少人数制マシンピラティス月8回です。2店舗利用可能です。',
-      price: '月8回（1回あたり3,025円）',
-    },
-    options: [
-      '月4回プラン（15,400円〜）',
-      '月8回プラン（1回3,025円）',
-      '体験レッスン（3,000円）',
-      '天文館店との相互利用可能',
-    ],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      genderRatio: '女性90% / 男性10%',
-      purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'],
-    },
-    basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '不定休',
-      facilities: ['リフォーマー', '更衣室', 'パウダールーム', 'レンタルウェア'],
-    },
-  },
 ]
 
 const faqs = [
@@ -240,7 +208,7 @@ export default function KagoshimaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス鹿児島おすすめ5選<br className="hidden md:block" />
+              ピラティス鹿児島おすすめ4選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -265,7 +233,7 @@ export default function KagoshimaPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、鹿児島エリアでおすすめのピラティススタジオ5選をまとめました。
+              本ページでは、鹿児島エリアでおすすめのピラティススタジオ4選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -304,7 +272,7 @@ export default function KagoshimaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              鹿児島のおすすめピラティススタジオ5選
+              鹿児島のおすすめピラティススタジオ4選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -559,7 +527,7 @@ export default function KagoshimaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  体験料金は、ピラティスK イオンモール鹿児島店が「体験レッスン 0円」、Pilates KASANE 鹿児島天文館店が「体験レッスン 3,000円」、Coralful Journey（コーラルフルジャーニー）が「体験レッスン 0円」、Pilates KASANE 鹿児島中央駅前店が「体験レッスン 3,000円」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
+                  体験料金は、ピラティスK イオンモール鹿児島店が「体験レッスン 0円」、Pilates KASANE 鹿児島天文館店が「体験レッスン 3,000円」、Coralful Journey（コーラルフルジャーニー）が「体験レッスン 0円」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

@@ -17,7 +17,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/hirakata/' },
-  title: '枚方のピラティス6社を比較｜無料体験2社・月額最安11,220円〜',
+  title: '枚方のピラティス5社を比較｜無料体験1社・月額最安11,220円〜',
   description: '枚方エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
   keywords: 'ピラティス,枚方,枚方市,くずは,大阪,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -149,38 +149,6 @@ const studios = [
     },
   },
   {
-    name: 'ピラティスK 枚方T-SITE店',
-    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
-    image: '/images/studios/pilates-k.webp',
-    price: '月4回 11,220円〜',
-    trial: '体験レッスン 無料',
-    features: ['女性専用', '枚方市駅すぐ', '枚方T-SITE内', '体験無料'],
-    description: '女性専用マシンピラティス専門スタジオです。枚方T-SITE内に位置し、枚方市駅から徒歩すぐです。音楽に合わせた楽しいレッスンとボディメイクに特化したプログラムが魅力です。',
-    access: '京阪本線「枚方市駅」徒歩すぐ（枚方T-SITE内）',
-    address: '大阪府枚方市岡東町 枚方T-SITE内',
-    popularPlan: {
-      name: 'マンスリー4メンバー（月4回）',
-      description: '女性専用マシンピラティス月4回です。',
-      price: '月4回 11,220円〜（税込）+ 施設維持費 月825円',
-    },
-    options: [
-      'マンスリー4メンバー（11,220円〜）',
-      'マンスリー8メンバー',
-      'マンスリーフルメンバー（通い放題）',
-      '施設維持費 月825円',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', 'ダイエット', '姿勢改善', '運動不足解消'],
-    },
-    basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '不定休',
-      facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'パウダールーム'],
-    },
-  },
-  {
     name: 'Studio K（スタジオK）',
     price: '回数券制（詳細は公式サイト）',
     trial: '体験レッスンあり',
@@ -219,7 +187,7 @@ const faqs = [
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
-    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。枚方にはマシン専門のピラティスKが2店舗あります。',
+    answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。枚方にはマシン専門のピラティスK くずはモール店があります。',
   },
   {
     question: '枚方のピラティスの料金相場は？',
@@ -247,7 +215,7 @@ const faqs = [
   },
   {
     question: '無料で体験できるスタジオは？',
-    answer: 'ピラティスKは2店舗（くずはモール店・枚方T-SITE店）とも無料体験があります。まずは無料体験から始めるのがおすすめです。',
+    answer: 'ピラティスK くずはモール店は無料体験があります。まずは無料体験から始めるのがおすすめです。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -272,7 +240,7 @@ export default function HirakataPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス枚方おすすめ6選<br className="hidden md:block" />
+              ピラティス枚方おすすめ5選<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較
             </h1>
           </div>
@@ -299,7 +267,7 @@ export default function HirakataPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、枚方エリアでおすすめのピラティススタジオ6選をまとめました。
+              本ページでは、枚方エリアでおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -339,7 +307,7 @@ export default function HirakataPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              枚方のおすすめピラティススタジオ6選
+              枚方のおすすめピラティススタジオ5選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -373,7 +341,6 @@ export default function HirakataPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK くずはモール店</li>
-                  <li className="text-warm-700">• ピラティスK 枚方T-SITE店</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -421,7 +388,7 @@ export default function HirakataPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              枚方エリアは京阪沿線の主要な住宅地で、くずはモールや枚方T-SITEなど大型商業施設内にスタジオが集まっています。大阪市内と比べると料金はやや抑えめで、買い物ついでに通える便利さが特徴です。ピラティスKの無料体験から始めて、自分に合ったスタジオを見つけるのがおすすめです。
+              枚方エリアは京阪沿線の主要な住宅地で、くずはモールなど大型商業施設内にもスタジオがあります。大阪市内と比べると料金はやや抑えめで、買い物ついでに通える便利さが特徴です。ピラティスKの無料体験から始めて、自分に合ったスタジオを見つけるのがおすすめです。
             </p>
           </div>
         </section>
@@ -442,7 +409,7 @@ export default function HirakataPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">商業施設内スタジオの駐車場利用ルールを確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  くずはモールや枚方T-SITE内のスタジオは駐車場が利用できますが、時間制限や料金がかかる場合があります。レッスン時間と合わせて駐車場の利用条件を事前にご確認ください。
+                  くずはモール内のスタジオは駐車場が利用できますが、時間制限や料金がかかる場合があります。レッスン時間と合わせて駐車場の利用条件を事前にご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -490,7 +457,7 @@ export default function HirakataPage() {
               </div>
               <div className="mt-6 p-4 bg-white rounded border border-warm-200">
                 <p className="text-sm text-warm-600">
-                  <strong>枚方エリアの豆知識：</strong>枚方は京阪沿線のベッドタウンで、くずはモールや枚方T-SITEなど商業施設内にスタジオが入っているケースが目立ちます。レッスン前後にショッピングやカフェを楽しめるのが枚方ならではの魅力です。駐車場完備の施設も多いので、車での通いも便利です。
+                  <strong>枚方エリアの豆知識：</strong>枚方は京阪沿線のベッドタウンで、くずはモールなど商業施設内にスタジオが入っているケースもあります。レッスン前後にショッピングやカフェを楽しめるのが枚方ならではの魅力です。駐車場完備の施設も多いので、車での通いも便利です。
                 </p>
               </div>
             </div>
@@ -528,7 +495,7 @@ export default function HirakataPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ピラティスKは2店舗とも無料体験があります。Pilates KASANEは3,000円で体験可能です。複数のスタジオで体験レッスンを受けて比較することをおすすめします。
+                  ピラティスK くずはモール店は無料体験があります。Pilates KASANEは3,000円で体験可能です。複数のスタジオで体験レッスンを受けて比較することをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

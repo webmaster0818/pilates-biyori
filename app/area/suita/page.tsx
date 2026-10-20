@@ -60,20 +60,6 @@ const studios = [
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'トレーニング機器', '更衣室'] },
   },
   {
-    name: 'pilates K（ピラティスケー）江坂店',
-    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
-    image: '/images/studios/pilates-k.webp', reviewCount: 95,
-    price: '月4回 13,420円〜', trial: '体験レッスン 無料',
-    features: ['女性専用', '音楽×ピラティス', '江坂駅近く', '体験無料'],
-    description: '女性専用のマシンピラティス専門スタジオです。音楽に合わせたグループレッスンが特徴で、楽しみながらボディメイクできると人気です。おしゃれなスタジオ空間でモチベーションもアップです。初回体験無料です。',
-    access: '大阪メトロ御堂筋線「江坂駅」徒歩圏内',
-    address: '大阪府吹田市江坂町エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: 'マンスリー4メンバー', description: '月4回のグループマシンピラティスです。', price: '月4回 13,420円〜（税込）' },
-    options: ['マンスリー8メンバー', 'マンスリーフルメンバー（通い放題）', '体験レッスン無料', 'ウェアレンタルあり'],
-    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', 'ダイエット', '姿勢改善', 'ストレス発散'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', '更衣室', 'ロッカー', 'パウダールーム'] },
-  },
-  {
     name: 'BASCO PILATES 江坂',
     image: '/images/studios/basco-esaka.webp', reviewCount: 68,
     price: '月4回 10,000円〜', trial: '体験レッスンあり',
@@ -91,12 +77,12 @@ const studios = [
 const faqs = [
   { question: 'ピラティス初心者でも大丈夫ですか？', answer: '問題ありません。吹田エリアのスタジオはほとんどが初心者歓迎です。zen placeは丁寧な指導で定評があります。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。吹田市内はマシン専門スタジオが充実しています。' },
-  { question: '吹田のピラティスの料金相場は？', answer: 'グループ月4回で9,625円〜13,420円程度です。zen placeが月4回9,625円〜、pilates Kが月4回13,420円〜です。' },
+  { question: '吹田のピラティスの料金相場は？', answer: 'グループ月4回で9,625円〜10,000円程度です。zen placeが月4回9,625円〜です。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめです。慣れたら週2〜3回に増やすと効果的です。zen placeのフリープランなら毎日でも通えます。' },
   { question: 'ピラティスで痩せますか？', answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続で体の変化を実感される方が多くなっています。' },
-  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。zen placeはグループ体験1,000円、pilates Kは体験無料で気軽に試せます。靴下（グリップソックス推奨）も忘れずにご用意ください。' },
-  { question: '男性でも通えるスタジオはありますか？', answer: 'zen place江坂、コアセンス、BASCO PILATESは男性も通えます。La pilates、pilates Kは女性専用です。' },
-  { question: '江坂と千里丘、どちらが便利？', answer: '御堂筋線ユーザーは江坂駅周辺（zen place、La pilates、pilates K）がおすすめです。JR東海道線ユーザーは千里丘駅前のコアセンスが便利です。' },
+  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。zen placeはグループ体験1,000円で気軽に試せます。靴下（グリップソックス推奨）も忘れずにご用意ください。' },
+  { question: '男性でも通えるスタジオはありますか？', answer: 'zen place江坂、コアセンス、BASCO PILATESは男性も通えます。La pilatesは女性専用です。' },
+  { question: '江坂と千里丘、どちらが便利？', answer: '御堂筋線ユーザーは江坂駅周辺（zen place、La pilates、BASCO PILATES）がおすすめです。JR東海道線ユーザーは千里丘駅前のコアセンスが便利です。' },
   { question: '吹田市と梅田で迷っています', answer: '吹田市は梅田に比べて料金が抑えめで、混雑も少なく落ち着いた環境でレッスンを受けられます。御堂筋線で梅田まで約10分なので、zen placeなら他店利用で両方通うことも可能です。' },
   { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。姿勢改善は比較的早く、ボディメイクは3ヶ月程度の継続がおすすめです。' },
 ]
@@ -118,7 +104,7 @@ export default function SuitaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス吹田おすすめ5選<br className="hidden md:block" />
+              ピラティス吹田おすすめ4選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -143,7 +129,7 @@ export default function SuitaPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、吹田市（江坂・千里丘）エリアでおすすめのピラティススタジオ5選をまとめました。吹田市は大阪メトロ御堂筋線の江坂駅を中心に、北摂エリアの玄関口として栄えるオフィス街です。梅田まで約10分のアクセスの良さも魅力です。
+              本ページでは、吹田市（江坂・千里丘）エリアでおすすめのピラティススタジオ4選をまとめました。吹田市は大阪メトロ御堂筋線の江坂駅を中心に、北摂エリアの玄関口として栄えるオフィス街です。梅田まで約10分のアクセスの良さも魅力です。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -182,7 +168,7 @@ export default function SuitaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              吹田のおすすめピラティススタジオ5選
+              吹田のおすすめピラティススタジオ4選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -210,7 +196,7 @@ export default function SuitaPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">9,625円〜13,420円</td>
+                    <td className="px-4 py-3">9,625円〜10,000円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -243,7 +229,7 @@ export default function SuitaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">御堂筋線とJRで最寄りスタジオが異なる</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  吹田市は御堂筋線の江坂駅とJR東海道線の千里丘駅・吹田駅でアクセスが大きく変わります。通勤路線に合わせてスタジオを選ぶと、継続しやすくなります。江坂エリアにはzen place・La pilates・pilates Kが集中しています。
+                  吹田市は御堂筋線の江坂駅とJR東海道線の千里丘駅・吹田駅でアクセスが大きく変わります。通勤路線に合わせてスタジオを選ぶと、継続しやすくなります。江坂エリアにはzen place・La pilates・BASCO PILATESが集中しています。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -290,7 +276,7 @@ export default function SuitaPage() {
                   <ul className="space-y-3 text-warm-600">
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>伸縮性のある素材</strong>をお選びください。ピラティスは脚を大きく動かすエクササイズが多いため、伸縮性のある素材が適しています。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>体のラインが見える服</strong>の方が、インストラクターがフォームを確認しやすく、効果的な指導を受けられます。</span></li>
-                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。pilates Kではレンタル可能なので仕事帰りでも安心です。</span></li>
+                    <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>ウェアレンタル</strong>があるスタジオもあります。対応は各公式サイトでご確認ください。</span></li>
                     <li className="flex items-start"><span className="text-warm-400 mr-2 mt-0.5">&#9679;</span><span><strong>アクセサリー類は外して</strong>おくことをおすすめします。マシンに引っかかる恐れがあるため、ピアス・ネックレス・腕時計はロッカーに預けるのが安全です。</span></li>
                   </ul>
                 </div>
@@ -328,7 +314,6 @@ export default function SuitaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• La pilates（整体×ピラティス）</li>
-                  <li className="text-warm-700">• pilates K（音楽×ピラティス）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -393,7 +378,6 @@ export default function SuitaPage() {
                   本格レッスンを十分な頻度で受けられます。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• pilates K（13,420円〜/月4回）</li>
                   <li>• zen placeフリー（14,960円〜）</li>
                 </ul>
               </div>
@@ -434,7 +418,7 @@ export default function SuitaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  吹田の料金相場はグループ月4回で9,625円〜13,420円です。通い放題は14,960円〜です。入会金やキャンペーンもご確認ください。
+                  吹田の料金相場はグループ月4回で9,625円〜10,000円です。通い放題は14,960円〜です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -443,7 +427,7 @@ export default function SuitaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  pilates Kは体験無料、zen placeは1,000円で体験可能です。まずは2-3スタジオの体験を受けて比較することをおすすめします。
+                  zen placeは1,000円で体験可能です。まずは2-3スタジオの体験を受けて比較することをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

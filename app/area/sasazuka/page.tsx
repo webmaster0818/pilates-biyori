@@ -15,8 +15,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/sasazuka/' },
-  title: 'ピラティス笹塚おすすめ6選料金・体験レッスン・マシン対応を比較',
-  description: '笹塚エリアのおすすめピラティススタジオ6選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。初心者でも安心して通えるスタジオが見つかります。',
+  title: 'ピラティス笹塚おすすめ5選料金・体験レッスン・マシン対応を比較',
+  description: '笹塚エリアのおすすめピラティススタジオ5選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,笹塚,渋谷区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -144,38 +144,6 @@ const studios = [
     },
   },
   {
-    name: 'ピラティスK 笹塚（近隣エリア）',
-    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
-    image: '\/images\/studios\/pilates-k.webp',
-    price: '月4回 13,420円〜',
-    trial: '体験レッスン 2,000円',
-    features: ['女性専用', '部位別プログラム', 'マシン専門', '通い放題あり'],
-    description: '女性専用マシンピラティス専門スタジオです。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実しています。強度や目的に合わせて選べるクラスが豊富です。笹塚から電車で数分のアクセスです。',
-    access: '笹塚エリアから電車で数分（詳細は公式サイトでご確認ください）',
-    address: '東京都内（詳細は公式サイトでご確認ください）',
-    popularPlan: {
-      name: 'マンスリー4メンバー（月4回）',
-      description: '女性専用マシンピラティス月4回です。部位別プログラムも選べます。',
-      price: '月4回 13,420円（税込）',
-    },
-    options: [
-      'マンスリーフルメンバー（通い放題 16,170円）',
-      'マンスリーデイメンバー（14,520円）',
-      '追加受講（1回 2,200円）',
-      '入会金 5,500円',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', 'ダイエット', '姿勢改善', '運動不足解消'],
-    },
-    basicInfo: {
-      hours: '月〜金 9:30-16:00,17:30-22:00 / 土日祝 9:30-20:00',
-      closed: '不定休',
-      facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'パウダールーム'],
-    },
-  },
-  {
     name: 'Pilates Mee笹塚店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
@@ -211,7 +179,7 @@ const faqs = [
   },
   {
     question: '笹塚のピラティスの料金相場は？',
-    answer: 'グループ月4回で10,450円〜13,420円程度です。ピラティスミラーは月額11,000円で月6回です。ELEMENTのパーソナルは月4回22,000円〜です。',
+    answer: 'グループ月4回で10,450円〜13,090円程度です。ピラティスミラーは月額11,000円で月6回です。ELEMENTのパーソナルは月4回22,000円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -231,11 +199,11 @@ const faqs = [
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'zen place笹塚、CLUB PILATES笹塚、ELEMENTは男性も通えます。ピラティスミラーとピラティスKは女性専用です。',
+    answer: 'zen place笹塚、CLUB PILATES笹塚、ELEMENTは男性も通えます。ピラティスミラーは女性専用です。',
   },
   {
     question: '無料で体験できるスタジオは？',
-    answer: 'CLUB PILATESとELEMENTは無料体験があります。zen placeはキャンペーン体験500円〜です。ピラティスKは体験2,000円です。',
+    answer: 'CLUB PILATESとELEMENTは無料体験があります。zen placeはキャンペーン体験500円〜です。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -260,7 +228,7 @@ export default function SasazukaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス笹塚おすすめ6選<br className="hidden md:block" />
+              ピラティス笹塚おすすめ5選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -285,7 +253,7 @@ export default function SasazukaPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、笹塚エリアでおすすめのピラティススタジオ6選をまとめました。
+              本ページでは、笹塚エリアでおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -325,7 +293,7 @@ export default function SasazukaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              笹塚のおすすめピラティススタジオ6選
+              笹塚のおすすめピラティススタジオ5選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -469,7 +437,6 @@ export default function SasazukaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスミラー 笹塚</li>
-                  <li className="text-warm-700">• ピラティスK 笹塚（近隣エリア）</li>
                   <li className="text-warm-700">• Pilates Mee笹塚店</li>
                 </ul>
               </div>
@@ -535,7 +502,6 @@ export default function SasazukaPage() {
                   マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスK（13,420円〜）</li>
                   <li>• CLUB PILATES（月4回 13,090円）</li>
                 </ul>
               </div>
@@ -546,7 +512,6 @@ export default function SasazukaPage() {
                   毎日通いたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスK（16,170円/通い放題）</li>
                   <li>• CLUB PILATES（通い放題 37,290円）</li>
                 </ul>
               </div>

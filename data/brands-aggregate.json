@@ -4646,16 +4646,6 @@
       "areaName": "姫路"
     },
     {
-      "name": "ピラティスK 枚方T-SITE店",
-      "price": "月4回 11,220円〜",
-      "trial": "体験レッスン 無料",
-      "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
-      "address": "大阪府枚方市岡東町 枚方T-SITE内",
-      "access": "京阪本線「枚方市駅」徒歩すぐ（枚方T-SITE内）",
-      "areaSlug": "hirakata",
-      "areaName": "枚方"
-    },
-    {
       "name": "ピラティスK 広島店",
       "price": "月4回 13,420円〜",
       "trial": "無料体験レッスン",
@@ -4968,16 +4958,6 @@
       "areaName": "大分"
     },
     {
-      "name": "ピラティスK 王子（近隣エリア）",
-      "price": "月4回 13,420円〜",
-      "trial": "体験レッスン 2,000円",
-      "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
-      "address": "東京都内（詳細は公式サイトでご確認ください）",
-      "access": "王子駅から電車で数分の近隣エリア（詳細は公式サイトでご確認ください）",
-      "areaSlug": "oji",
-      "areaName": "王子"
-    },
-    {
       "name": "ピラティスK 岡山店",
       "price": "月4回 13,420円〜",
       "trial": "無料体験レッスン",
@@ -5068,16 +5048,6 @@
       "areaName": "札幌"
     },
     {
-      "name": "ピラティスK 笹塚（近隣エリア）",
-      "price": "月4回 13,420円〜",
-      "trial": "体験レッスン 2,000円",
-      "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
-      "address": "東京都内（詳細は公式サイトでご確認ください）",
-      "access": "笹塚エリアから電車で数分（詳細は公式サイトでご確認ください）",
-      "areaSlug": "sasazuka",
-      "areaName": "笹塚"
-    },
-    {
       "name": "ピラティスK 洗足（近隣）",
       "price": "月4回 11,220円〜",
       "trial": "体験レッスンあり",
@@ -5096,16 +5066,6 @@
       "access": "渋谷駅 徒歩圏内",
       "areaSlug": "shibuya",
       "areaName": "渋谷"
-    },
-    {
-      "name": "ピラティスK 新橋（銀座近隣）",
-      "price": "月4回 11,220円〜",
-      "trial": "体験レッスン実施中",
-      "officialUrl": "https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623",
-      "address": "東京都港区（新橋・銀座近隣）",
-      "access": "JR「新橋駅」から銀座方面へアクセス良好",
-      "areaSlug": "shimbashi",
-      "areaName": "新橋"
     },
     {
       "name": "ピラティスK 下北沢（近隣）",
@@ -5372,16 +5332,6 @@
       "officialUrl": "https://t.afi-b.com/visit.php?a=T15562j-7505717Y&p=E9887623",
       "address": "鹿児島県鹿児島市中町4-3 Next Terrace表参道1階",
       "access": "鹿児島市電「天文館通駅」徒歩5分・「いづろ通駅」徒歩4分",
-      "areaSlug": "kagoshima",
-      "areaName": "鹿児島"
-    },
-    {
-      "name": "Pilates KASANE 鹿児島中央駅前店",
-      "price": "月4回 15,400円〜",
-      "trial": "体験レッスン 3,000円",
-      "officialUrl": "https://t.afi-b.com/visit.php?a=T15562j-7505717Y&p=E9887623",
-      "address": "鹿児島県鹿児島市（鹿児島中央駅前・詳細は公式サイトでご確認ください）",
-      "access": "JR「鹿児島中央駅」すぐ",
       "areaSlug": "kagoshima",
       "areaName": "鹿児島"
     },

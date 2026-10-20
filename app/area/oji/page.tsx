@@ -17,8 +17,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/oji/' },
-  title: '王子のピラティス4社を比較｜月額最安8,800円〜・料金と体験',
-  description: '王子のピラティススタジオ4社の料金・無料体験・マシン対応を比較しています。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまでわかります。',
+  title: '王子のピラティス3社を比較｜月額最安8,800円〜・料金と体験',
+  description: '王子のピラティススタジオ3社の料金・無料体験・マシン対応を比較しています。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまでわかります。',
   keywords: 'ピラティス,王子,東京,北区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -119,38 +119,6 @@ const studios = [
       facilities: ['リフォーマー', 'マット', 'ロッカー', '更衣室'],
     },
   },
-  {
-    name: 'ピラティスK 王子（近隣エリア）',
-    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
-    image: '\/images\/studios\/pilates-k.webp',
-    price: '月4回 13,420円〜',
-    trial: '体験レッスン 2,000円',
-    features: ['女性専用', '部位別プログラム', 'マシン専門', '通い放題あり'],
-    description: '女性専用マシンピラティス専門スタジオです。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実しています。強度や目的に合わせて選べるクラスが豊富です。王子から電車で数分のアクセスです。',
-    access: '王子駅から電車で数分の近隣エリア（詳細は公式サイトでご確認ください）',
-    address: '東京都内（詳細は公式サイトでご確認ください）',
-    popularPlan: {
-      name: 'マンスリー4メンバー（月4回）',
-      description: '女性専用マシンピラティス月4回です。部位別プログラムも選べます。',
-      price: '月4回 13,420円（税込）',
-    },
-    options: [
-      'マンスリーフルメンバー（通い放題 16,170円）',
-      'マンスリーデイメンバー（14,520円）',
-      '追加受講（1回 2,200円）',
-      '入会金 5,500円',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', 'ダイエット', '姿勢改善', '運動不足解消'],
-    },
-    basicInfo: {
-      hours: '月〜金 9:30-16:00,17:30-22:00 / 土日祝 9:30-20:00',
-      closed: '不定休',
-      facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'パウダールーム'],
-    },
-  },
 ]
 
 const faqs = [
@@ -164,7 +132,7 @@ const faqs = [
   },
   {
     question: '王子のピラティスの料金相場は？',
-    answer: 'グループ月額8,800円〜13,420円程度です。Rintosullが月額8,800円〜で最もリーズナブルです。プライベートはPilates Studio Mの1回8,600円〜です。',
+    answer: 'グループ月額8,800円〜9,625円程度です。Rintosullが月額8,800円〜で最もリーズナブルです。プライベートはPilates Studio Mの1回8,600円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -213,7 +181,7 @@ export default function OjiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス王子おすすめ4選<br className="hidden md:block" />
+              ピラティス王子おすすめ3選<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較
             </h1>
           </div>
@@ -240,7 +208,7 @@ export default function OjiPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、王子エリアでおすすめのピラティススタジオ4選をまとめました。
+              本ページでは、王子エリアでおすすめのピラティススタジオ3選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -280,7 +248,7 @@ export default function OjiPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              王子のおすすめピラティススタジオ4選
+              王子のおすすめピラティススタジオ3選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -442,7 +410,6 @@ export default function OjiPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull 王子店（月額 8,800円〜）</li>
                   <li className="text-warm-700">• zen place pilates 駒込スタジオ（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• ピラティスK 王子（近隣エリア）（月4回 13,420円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -452,7 +419,6 @@ export default function OjiPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull 王子店</li>
-                  <li className="text-warm-700">• ピラティスK 王子（近隣エリア）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -516,7 +482,7 @@ export default function OjiPage() {
                   マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスK（13,420円〜）</li>
+                  <li>• このページの掲載スタジオでは該当なし（各スタジオの料金は上の店舗カードを参照）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -526,7 +492,7 @@ export default function OjiPage() {
                   毎日通いたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスK（16,170円/通い放題）</li>
+                  <li>• このページの掲載スタジオでは該当なし（各スタジオの料金は上の店舗カードを参照）</li>
                 </ul>
               </div>
             </div>
@@ -564,7 +530,7 @@ export default function OjiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  体験料金は、Rintosull 王子店が「体験レッスン 0円」、Pilates Studio Mが「体験レッスン 6,000円」、zen place pilates 駒込スタジオが「グループ体験 1,000円」、ピラティスK 王子（近隣エリア）が「体験レッスン 2,000円」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
+                  体験料金は、Rintosull 王子店が「体験レッスン 0円」、Pilates Studio Mが「体験レッスン 6,000円」、zen place pilates 駒込スタジオが「グループ体験 1,000円」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
