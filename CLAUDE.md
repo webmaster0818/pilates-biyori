@@ -1039,3 +1039,9 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - 「グループ・プライベート選択可能です」12ページを店舗の公式ページで確認して書き分け（zen 各店=プライベートあり／ピラティスK=グループのみ／the SILK 亀戸・川崎・大宮・立川・池袋東口・大阪梅田・渋谷=グループ専門店、二子玉川=併設店／CLUB PILATES 巣鴨=グループ＋プライベート／La pilates=パーソナル指導／URBAN CLASSIC=サーキット形式／TSUTAYA 川崎=少人数制）。futakotamagawa（the SILK 二子玉川＝併設・BDC＝プライベートあり）は事実どおりのため不変
 - 残（未変更）: BDC「月4回 11,220円〜」が aoyama-itchome 2・daikanyama 4・bdc-stores.ts 表参道 1。funabashi FAQ「Rintosull船橋は男性も通えます」（公式は女性専用・梅田のみ男性可）、funabashi の the SILK 15,070（旧料金）
 - 計測リンク out 3,641件・201種＝前回デプロイと一致・precheck ✅
+
+### 2026-10-20（続き2）BDC 表参道・恵比寿（代官山）と船橋の料金幅 ✅本番（source 5a806daf / deploy 9c60a5100c）
+- BDC 表参道（aoyama-itchome・bdc-stores.ts）・恵比寿（daikanyama 掲載分）: 「月4回 11,220円〜」とピラティスKの料金表（4/8/デイ/プレミアム）→ 公式 bdcpilates.com/omotesando・/ebisu（10/20）の月4回 税込16,280／月6 23,100／月8 29,260・プライベート・入会金等。FAQ・予算別も。aoyama は予算別で「15,000〜18,000円」へ移動。daikanyama「〜12,000円」の 16,280 と aoyama「BDC 8回 29,260」は合う帯が無く残置（帯ずれ全体 23件）
+- 船橋 FAQ「Rintosull船橋は男性も通えます」は**事実どおり**: 公式 rintosull.jp/shop/chiba/funabashi/ に「LAVA船橋店内・男女共用」。⚠️ brands/rintosull の「女性専用・梅田店のみ男性可」（10/17 公式Q&A）と食い違う＝LAVA店内スタジオは男女共用の店がある。ブランドページ・nishinomiya 等の「女性専用」記述は店ごとに要確認（未変更）
+- 船橋の the SILK 15,070（旧料金）→ 公式の船橋店（エリアB）Standard4 14,370。グループ月4回の幅を 8,580〜14,370（URBAN CLASSIC〜the SILK）に。パーソナル行の「1回 8,800〜15,070」は根拠が無く→「店舗により異なります」
+- 計測リンク out 3,641件＝前回デプロイと一致・precheck ✅
