@@ -105,26 +105,26 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 船橋店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
-    price: '月4回 9,680円〜',
+    price: '月4回 8,580円（税込）',
     trial: '体験レッスンあり',
-    features: ['女性専用', '船橋駅徒歩2分', '予約不要', 'サーキット形式'],
+    features: ['男女とも入会可', '船橋駅徒歩2分', '予約不要', 'サーキット形式'],
     description: 'マシンピラティスとファンクショナルトレーニングを組み合わせたサーキット形式のボディメイクスタジオです。JR船橋駅・京成船橋駅から徒歩2分です。予約不要で好きな時間に通える手軽さが魅力です。全店舗相互利用可能です。',
     access: 'JR総武線「船橋駅」徒歩2分 / 京成本線「京成船橋駅」徒歩2分 / 東武野田線「船橋駅」徒歩2分',
     address: '千葉県船橋市本町4-3-5 興和ビル 2F',
     popularPlan: {
       name: '月8回プラン',
       description: 'マシンピラティス×ファンクショナルトレーニングのサーキット月8回です。',
-      price: '月8回 11,880円（税込）',
+      price: '月8回 10,780円（税込）',
     },
     options: [
-      '月4回プラン（9,680円）',
-      '通い放題プラン（14,080円）',
-      '入会金 11,000円',
+      '月4回プラン（8,580円・税込）',
+      '通い放題プラン（12,980円・税込・1日1回まで）',
+      '施設利用料 2,200円（税込・入会時のみ）／3ヶ月目から運営管理費 月480円（税込）',
       '全店舗相互利用可能',
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性100%（女性専用）',
+      genderRatio: '男性も入会可（公式FAQ）',
       purpose: ['ボディメイク', 'ダイエット', '体幹強化', '運動不足解消'],
     },
     basicInfo: {
@@ -232,7 +232,7 @@ const faqs = [
   },
   {
     question: '船橋のピラティスの料金相場は？',
-    answer: 'グループ月4回で8,800円〜15,070円程度です。Rintosullが月4回8,800円〜で最もリーズナブルです。URBAN CLASSIC PILATESは月4回9,680円〜です。zen placeは月4回9,625円〜です。',
+    answer: 'グループ月4回で8,580円〜15,070円程度です。Rintosullは月4回8,800円〜です。URBAN CLASSIC PILATESは月4回8,580円（税込）です。zen placeは月4回9,625円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -252,7 +252,7 @@ const faqs = [
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'zen place船橋とRintosull船橋は男性も通えます。the SILK、URBAN CLASSIC PILATES、sopraは女性専用です。',
+    answer: 'zen place船橋とRintosull船橋、URBAN CLASSIC PILATESは男性も通えます。the SILK、sopraは女性専用です。',
   },
   {
     question: '無料で体験できるスタジオは？',
@@ -480,7 +480,7 @@ export default function FunabashiPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li>
                   <li className="text-warm-700">• zen place（月4回 9,625円〜）</li>
-                  <li className="text-warm-700">• URBAN CLASSIC（月4回 9,680円〜）</li>
+                  <li className="text-warm-700">• URBAN CLASSIC（月4回 8,580円）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -548,7 +548,7 @@ export default function FunabashiPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Rintosull（8,800円〜/月4回）</li>
                   <li>• zen place（9,625円〜/月4回）</li>
-                  <li>• URBAN CLASSIC（9,680円〜/月4回）</li>
+                  <li>• URBAN CLASSIC（8,580円/月4回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -571,7 +571,7 @@ export default function FunabashiPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Rintosull（12,800円/通い放題）</li>
-                  <li>• URBAN CLASSIC（14,080円/通い放題）</li>
+                  <li>• URBAN CLASSIC（12,980円/通い放題）</li>
                   <li>• the SILK（19,980円/通い放題）</li>
                 </ul>
               </div>

@@ -609,7 +609,7 @@ export default function YoyogiUeharaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 10,000〜15,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン完備の大手スタジオです。グループ・プライベート選択可能です。
+                  マシン完備の大手スタジオです。zen place pilates はグループ・プライベートを選べます。the SILK 渋谷店はグループレッスンのみ、URBAN CLASSIC PILATES はサーキット形式です（各公式サイト・2026年10月確認）。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates（月4回 10,450円〜）</li>

@@ -50,7 +50,7 @@ export const bdcStores: BdcStore[] = [
     storeName: "BDC PILATES 恵比寿スタジオ",
     address: "東京都渋谷区恵比寿1-20-4 Sreed EBISU B1",
     access: "JR恵比寿駅東口 徒歩3分（公式表記）",
-    price: "月4回 11,220円〜",
+    price: "月4回 16,280円（税込）",
     trial: "体験レッスン 0円",
     rating: 4.7,
     areaSlug: "ebisu",

@@ -579,7 +579,7 @@ export default async function OmiyaAreaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 10,000〜20,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン完備の大手スタジオです。グループ・プライベート選択可能です。
+                  マシン完備の大手スタジオです。ピラティスK と the SILK 大宮店はグループレッスンのみ、La pilates 大宮店は整体とマシンピラティスを組み合わせたパーソナル指導のスタジオです（各公式サイト・2026年10月確認）。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK 大宮店（13,420円〜）</li>

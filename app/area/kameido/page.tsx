@@ -595,7 +595,7 @@ export default function KameidoPage() {
                   月4回
                 </p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン完備の大手スタジオです。グループ・プライベート選択可能です。
+                  マシン完備の大手スタジオです。ピラティスK と the SILK 亀戸店はグループレッスンのみです（各公式サイト・2026年10月確認）。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（13,420円〜）</li>

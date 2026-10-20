@@ -24,7 +24,7 @@ const studios = [
     name: 'zen place pilates 恵比寿',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 9,625円〜',
+    price: 'マットグループ月4回 10,450円（税込）',
     trial: '体験レッスンあり（当日入会で入会金無料）',
     features: ['マシン完備', '男性利用可', '恵比寿駅徒歩5分', '全国他店利用可'],
     description: '全国150以上のスタジオを展開する国内最大級のピラティス専門スタジオです。恵比寿駅西口・日比谷線1番出口から徒歩5分です。マットグループ・リフォーマーグループ・プライベートレッスンと豊富なレッスン形式です。Balanced Body製マシン完備です。男性も受講可能です。',
@@ -33,13 +33,13 @@ const studios = [
     popularPlan: {
       name: 'マットグループ月4回',
       description: 'マットピラティスのグループレッスンです。全国のzen placeスタジオで他店利用可能です。',
-      price: '月4回 9,625円（税込）',
+      price: '月4回 10,450円（税込）',
     },
     options: [
-      'マットグループフリー（月額14,960円）',
-      'リフォーマーグループ月4回（月額15,400円）',
-      'プライベート月4回（月額33,880円〜）',
-      '入会金 22,000円（体験当日入会で無料）',
+      'マットグループフリー（月額16,940円・税込）',
+      'リフォーマーグループ月4回（月額15,400円・税込）',
+      'プライベート月4回（月額38,280円・税込）',
+      '入会金 33,000円（税込・グレード01）',
     ],
     userProfile: {
       ageRange: '30代〜50代が中心（全体の75%）',
@@ -56,22 +56,22 @@ const studios = [
     name: 'BDC PILATES 恵比寿スタジオ',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590',
     image: '/images/studios/bdc-pilates.webp',
-    price: '月4回 11,220円〜',
+    price: '月4回 16,280円（税込）',
     trial: '体験レッスン 0円',
     features: ['日本初マシン専門', '恵比寿駅近', '認定講師', 'グループ&プライベート'],
     description: '日本初のマシンピラティス専門スタジオの恵比寿店です。認定指導資格を保有した講師によるグループレッスンとプライベートレッスンの両方を提供しています。プライベートでは一人ひとりの身体の状態と目的に沿ってメニューを完全カスタマイズです。',
     access: 'JR恵比寿駅東口 徒歩3分（公式表記）',
     address: '東京都渋谷区恵比寿1-20-4 Sreed EBISU B1',
     popularPlan: {
-      name: '4メンバー（月4回）',
+      name: 'グループレッスンコース（月4回）',
       description: '月4回のグループレッスンです。認定講師による本格マシンピラティスです。',
-      price: '月4回 11,220〜13,420円（税込）',
+      price: '月4回 16,280円（税込）',
     },
     options: [
-      '8メンバー（月8回 15,070〜16,170円）',
-      'デイメンバー（12,320〜14,520円）',
-      'プレミアムメンバー（17,820〜18,920円）',
-      '追加受講（1回 2,200円）',
+      'グループ 月6回 23,100円／月8回 29,260円（税込）',
+      'プライベート 月1回 11,000円／月2回 20,900円（税込）',
+      '追加レッスン グループ 4,070円／プライベート 11,000円（税込）',
+      '入会金 11,000円・事務手数料 2,200円・施設維持費 月770円（税込）',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心（全体の80%）',
@@ -316,7 +316,7 @@ const faqs = [
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'パーソナルはルルトやthe SILKで効果的な指導を受けられます。グループはBDC PILATESやzen placeなら月4回9,625円〜11,220円からです。まずは体験レッスンで両方を試すことをおすすめします。',
+    answer: 'パーソナルはルルトやthe SILKで効果的な指導を受けられます。グループは zen place（マット月4回 10,450円）や BDC PILATES（月4回 16,280円）があります（いずれも税込・公式・2026年10月確認）。まずは体験レッスンで両方を試すことをおすすめします。',
   },
 ]
 
@@ -534,7 +534,7 @@ export default function EbisuPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Pilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）</li>
-                  <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• zen place pilates（月4回 10,450円）</li>
                   <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
                 </ul>
               </div>
@@ -602,7 +602,7 @@ export default function EbisuPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Pilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）</li>
-                  <li>• zen place（9,625円〜/月4回）</li>
+                  <li>• zen place（10,450円/月4回）</li>
                   <li>• ピラティスミラー（11,000円/月6回）</li>
                 </ul>
               </div>
@@ -614,7 +614,7 @@ export default function EbisuPage() {
                   マシン完備の大手スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• BDC PILATES（11,220円〜）</li>
+                  <li>• BDC PILATES（16,280円）</li>
                   <li>• the SILK 広尾（13,280円〜）</li>
                   <li>• CLUB PILATES（月4回 17,050円）</li>
                 </ul>
@@ -627,7 +627,7 @@ export default function EbisuPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ルルト（月3回 29,700円〜）</li>
-                  <li>• zen place プライベート（33,880円〜）</li>
+                  <li>• zen place プライベート（38,280円）</li>
                 </ul>
               </div>
             </div>

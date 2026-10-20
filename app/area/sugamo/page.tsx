@@ -625,7 +625,7 @@ export default function SugamoAreaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 15,000〜25,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン完備の大手スタジオです。グループ・プライベート選択可能です。
+                  マシン完備の大手スタジオです。CLUB PILATES 巣鴨はグループ（最大12名）とプライベートを選べます。the SILK 池袋東口店はグループレッスンのみ、URBAN CLASSIC PILATES はサーキット形式です（各公式サイト・2026年10月確認）。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• the SILK 池袋東口（15,280円〜）</li>
