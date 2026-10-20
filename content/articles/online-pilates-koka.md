@@ -47,7 +47,7 @@ faq:
 - **続けられる料金か** — 効果は継続でしか出ません。月額と、無料体験の有無で比べます
 - **時間帯が生活に合うか** — 早朝・深夜のレッスンがあるかは、続くかどうかを左右します
 
-→ [オンラインピラティスおすすめ9選（料金・体験を比較）](/articles/pilates-online/)　／　[料金相場と無料で試す方法](/articles/online-pilates-ryokin/)　／　[ライブ型とビデオ型の違い](/articles/online-pilates-live-video/)
+→ [オンラインピラティスおすすめ11選（料金・体験を比較）](/articles/pilates-online/)　／　[料金相場と無料で試す方法](/articles/online-pilates-ryokin/)　／　[ライブ型とビデオ型の違い](/articles/online-pilates-live-video/)
 
 ここから先は、**選んだあとに効果を出すための話**です。
 

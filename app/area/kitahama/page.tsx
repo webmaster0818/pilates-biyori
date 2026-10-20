@@ -17,8 +17,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kitahama/' },
-  title: '北浜・淀屋橋のピラティス6社を比較｜駅徒歩分・月額料金・体験料金',
-  description: '北浜・淀屋橋のピラティススタジオ6社を、駅からの徒歩分数・月額料金・体験料金で比較しています。淀屋橋・北浜とも徒歩3〜5分圏のスタジオと、1駅隣の南森町のzen placeまで、各公式サイトで確認した値（2026年10月16日確認）です。',
+  title: '淀屋橋・北浜のピラティス6社を比較｜淀屋橋駅からの徒歩分・料金・体験',
+  description: '北浜・淀屋橋のピラティススタジオ6社を、駅からの徒歩分数・月額料金・体験料金で比較しています。淀屋橋・北浜とも徒歩3〜5分圏のスタジオと、1駅隣の南森町のzen placeまで、各公式サイトで確認した値（2026年10月20日確認）です。',
   keywords: 'ピラティス,北浜,淀屋橋,大阪,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -60,7 +60,7 @@ const studios = [
     trial: 'プライベート体験 8,800円（税込・指名50分と同価格）。グループ体験の料金は公式で確認',
     features: ['北浜駅徒歩3分', 'グループ・プライベート', '月謝プランは全店共通価格', '東京・京都・名古屋にも店舗'],
     description: '北浜駅から徒歩3分、TAG北浜ビル2階のマシンピラティススタジオです。リフォーマーのグループレッスンとプライベートレッスン（50分）があります。月謝プランは東京・大阪・京都・名古屋の全店共通価格で、ライト4（月4回）11,000円・ライト6 12,980円・スタンダード（1日1回まで）15,290円・プラチナ（完全Free）19,800円などです。プラン登録料は3,300円、契約回数を超えた分は1回2,000円です（公式料金ページ・税込・2026年10月16日確認）。',
-    access: '地下鉄「北浜駅」徒歩3分 / Osaka Metro御堂筋線「淀屋橋駅」徒歩6分',
+    access: '地下鉄「北浜駅」徒歩1分 / Osaka Metro御堂筋線「淀屋橋駅」徒歩5分（公式アクセスページ。料金ページ等では北浜3分・淀屋橋6分の表記もあり）',
     address: '大阪府大阪市中央区伏見町2-3-9 TAG北浜ビル2階',
     popularPlan: {
       name: 'ライト4（月4回）',
@@ -82,27 +82,27 @@ const studios = [
   },
   {
     name: 'ピラティススタジオ進化',
+    officialUrl: 'https://kitahama-pilates.com/',
     image: '/images/studios/studio-shinka-kitahama.webp',
-    price: '月4回 17,160円',
-    trial: '体験レッスンあり（要問合せ）',
-    features: ['北浜駅徒歩3分', '姿勢改善特化', '定員6名', 'リフォーマーグループ'],
-    description: '北浜駅から徒歩3分です。全国でも希少なリフォーマーのグループレッスンを提供する姿勢改善特化型ピラティス専門スタジオです。定員6名の少人数制で、50分で姿勢を変えるプログラムが特徴です。',
-    access: '大阪メトロ堺筋線「北浜駅」徒歩3分',
-    address: '大阪府大阪市中央区北浜（詳細は公式サイトでご確認ください）',
+    price: '月2回 9,900円／月5回 17,800円／月7回 22,000円',
+    trial: '体験 7,700円（2回分）',
+    features: ['北浜駅徒歩3分', '女性限定', '姿勢改善', 'リフォーマーグループ'],
+    description: '北浜駅（京阪26番出口）から徒歩3分、北浜三ツ星ビル8階の女性限定のピラティススタジオです。リフォーマーのグループレッスンで姿勢改善に取り組めます。月謝は月2回9,900円・月5回17,800円・月7回22,000円、体験は2回分で7,700円、入会金は19,800円です（公式サイト・2026年10月20日確認）。',
+    access: '京阪・堺筋線「北浜駅」26番出口 徒歩3分',
+    address: '大阪府大阪市中央区北浜1-1-20 北浜三ツ星ビル8F',
     popularPlan: {
-      name: '月謝制（月4回）',
-      description: '定員6名の少人数リフォーマーグループレッスンです。姿勢改善に特化しています。',
-      price: '月4回 17,160円（税込）',
+      name: '月5回',
+      description: 'リフォーマーのグループレッスンを月5回です。',
+      price: '月5回 17,800円',
     },
     options: [
-      '月謝制（月4回 17,160円）',
-      '都度利用（1回 6,600円）',
-      '入会金 22,000円（先着5名 9,900円）',
-      'プライベートレッスン',
+      '月2回 9,900円／月7回 22,000円',
+      '体験 7,700円（2回分）',
+      '入会金 19,800円',
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性85% / 男性15%',
+      genderRatio: '女性限定',
       purpose: ['姿勢改善', '体幹強化', '腰痛改善', '健康維持'],
     },
     basicInfo: {
@@ -200,7 +200,7 @@ const studios = [
 const faqs = [
   {
     question: '淀屋橋の近くにピラティススタジオはありますか？',
-    answer: 'あります。北浜駅と淀屋橋駅は徒歩数分の隣接エリアで、このページで比較しているスタジオはどちらの駅からも通えます。公式の徒歩分数では、ビーキューブが淀屋橋・北浜とも徒歩3分、Ua pilatesが両駅とも徒歩約5分、PILATES STUDIO JOODY 本町スタジオが淀屋橋駅13号出口から徒歩5分、Pilates Bodywork Studioが淀屋橋駅から徒歩6分です。「淀屋橋 ピラティス」で探している方も、北浜エリアのスタジオを候補に料金・体験レッスンを比較するのがおすすめです。',
+    answer: 'あります。北浜駅と淀屋橋駅は徒歩数分の隣接エリアで、このページで比較しているスタジオはどちらの駅からも通えます。公式の徒歩分数では、ビーキューブが淀屋橋・北浜とも徒歩3分、Ua pilatesが両駅とも徒歩約5分、PILATES STUDIO JOODY 本町スタジオが淀屋橋駅13号出口から徒歩5分、Pilates Bodywork Studioが淀屋橋駅から徒歩5分（公式アクセスページ）です。「淀屋橋 ピラティス」で探している方も、北浜エリアのスタジオを候補に料金・体験レッスンを比較するのがおすすめです。',
   },
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
@@ -212,7 +212,7 @@ const faqs = [
   },
   {
     question: '北浜・淀屋橋のピラティスの料金相場は？',
-    answer: '公式料金（税込）では、グループの月4回が9,625円（zen place 南森町・マット）〜11,000円です（Pilates Bodywork ライト4）。マンツーマンは1回あたり7,920円（JOODY マンスリー4）〜10,500円（Ua 月2回）です。ピラティススタジオ進化の月4回17,160円は公式サイトで確認できていません。',
+    answer: '公式料金（税込）では、グループの月4回が9,625円（zen place 南森町・マット）〜11,000円です（Pilates Bodywork ライト4）。マンツーマンは1回あたり7,920円（JOODY マンスリー4）〜10,500円（Ua 月2回）です。ピラティススタジオ進化（女性限定）は月2回9,900円・月5回17,800円です（公式・2026年10月20日確認）。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -232,7 +232,7 @@ const faqs = [
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: '公式に男性の利用について記載があるのは、zen place南森町（男女共用）とビーキューブ（男性専用更衣室あり）です。PILATES STUDIO JOODYは女性専用です（ペアのセミパーソナルはパートナーの男性も可）。その他のスタジオは体験予約時に確認してください。',
+    answer: '公式に男性の利用について記載があるのは、zen place南森町（男女共用）とビーキューブ（男性専用更衣室あり）です。PILATES STUDIO JOODYは女性専用（ペアのセミパーソナルはパートナーの男性も可）、ピラティススタジオ進化は女性限定です。その他のスタジオは体験予約時に確認してください。',
   },
   {
     question: '仕事帰りに通えるスタジオは？',
@@ -259,7 +259,7 @@ export default function KitahamaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月16日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月20日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス北浜・淀屋橋おすすめ6選<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較
@@ -320,6 +320,15 @@ export default function KitahamaPage() {
             </p>
           </div>
         </section>
+
+        <section className="py-12 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">淀屋橋駅からの徒歩分で比べる早見表</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">「淀屋橋 ピラティス」で探す方向けに、掲載6店を淀屋橋駅から近い順に並べました。徒歩分・住所・体験料金は各スタジオの公式サイトの表記です（2026年10月20日確認・税込）。淀屋橋駅から徒歩5分以内は4店です。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">淀屋橋駅から</th><th className="px-4 py-3 text-left">ほかの最寄駅</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">体験</th></tr></thead><tbody>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ビーキューブ（伏見町2-6-6 KANBEビル3F）</td><td className="px-4 py-3">徒歩3分</td><td className="px-4 py-3">北浜駅 徒歩3分</td><td className="px-4 py-3">プライベート（完全予約制）</td><td className="px-4 py-3">無料コンサルティング</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Ua pilates 北浜（平野町2-2-8 イシモトビル9F）</td><td className="px-4 py-3">徒歩約5分</td><td className="px-4 py-3">北浜駅 徒歩約5分</td><td className="px-4 py-3">パーソナル・セミパーソナル</td><td className="px-4 py-3">13,000円（10/31まで5,000円）</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">PILATES STUDIO JOODY 本町（平野町4-8-5）</td><td className="px-4 py-3">13号出口 徒歩5分</td><td className="px-4 py-3">肥後橋駅 6号出口 徒歩5分</td><td className="px-4 py-3">パーソナル・ペアのセミパーソナル（女性専用）</td><td className="px-4 py-3">パーソナル 7,920円〜</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Pilates Bodywork Studio（伏見町2-3-9 TAG北浜ビル2F）</td><td className="px-4 py-3">徒歩5分</td><td className="px-4 py-3">北浜駅 徒歩1分</td><td className="px-4 py-3">リフォーマーのグループ・プライベート</td><td className="px-4 py-3">プライベート 8,800円</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ピラティススタジオ進化（北浜1-1-20 北浜三ツ星ビル8F）</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">北浜駅 26番出口 徒歩3分</td><td className="px-4 py-3">リフォーマーのグループ（女性限定）</td><td className="px-4 py-3">7,700円（2回分）</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">zen place pilates 南森町（天神橋2-3-16）</td><td className="px-4 py-3">—（北浜駅から堺筋線で1駅）</td><td className="px-4 py-3">南森町駅 4B出口 徒歩1分</td><td className="px-4 py-3">マットグループ・プライベート</td><td className="px-4 py-3">マットグループ 1,000円</td></tr>
+        </tbody></table></div><p className="text-warm-600 leading-relaxed mt-4 text-sm">淀屋橋駅のすぐそばでグループレッスンに通いたい場合は Pilates Bodywork Studio（ライト4 月4回 11,000円）、マンツーマンなら ビーキューブ・Ua pilates・PILATES STUDIO JOODY が候補です。zen place 南森町は北浜駅から堺筋線で1駅のため、マットグループを安く続けたい方向けです。</p></div></section>
 
         <PriceComparisonTable studios={studios} areaName="北浜・淀屋橋" />
         <AreaMarketComparison studios={studios} areaName="北浜・淀屋橋" />
@@ -388,7 +397,7 @@ export default function KitahamaPage() {
               <div className="bg-warm-50 rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">北浜・淀屋橋の両方から通えるスタジオ</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  ビーキューブ（伏見町）は公式に「淀屋橋／北浜より徒歩3分」、Ua pilates（平野町2丁目）は両駅とも徒歩約5分と案内しています。Pilates Bodywork Studio（伏見町）は北浜駅3分・淀屋橋駅6分で北浜寄り、PILATES STUDIO JOODY 本町スタジオ（平野町4丁目）は淀屋橋駅13号出口から5分で淀屋橋・肥後橋寄りです。
+                  ビーキューブ（伏見町）は公式に「淀屋橋／北浜より徒歩3分」、Ua pilates（平野町2丁目）は両駅とも徒歩約5分と案内しています。Pilates Bodywork Studio（伏見町）は北浜駅1分・淀屋橋駅5分（公式アクセスページ）で北浜寄り、PILATES STUDIO JOODY 本町スタジオ（平野町4丁目）は淀屋橋駅13号出口から5分で淀屋橋・肥後橋寄りです。
                 </p>
               </div>
               <div className="bg-warm-50 rounded-lg p-6 border border-warm-200">
@@ -508,7 +517,7 @@ export default function KitahamaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ビーキューブ（淀屋橋・北浜より徒歩3分）</li>
-                  <li className="text-warm-700">• Pilates Bodywork Studio（北浜駅徒歩3分）</li>
+                  <li className="text-warm-700">• Pilates Bodywork Studio（北浜駅徒歩1分）</li>
                   <li className="text-warm-700">• zen place 南森町（南森町駅4B出口徒歩1分）</li>
                 </ul>
               </div>
@@ -565,7 +574,7 @@ export default function KitahamaPage() {
                   少人数制マシンレッスンです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティススタジオ進化（17,160円）</li>
+                  <li>• ピラティススタジオ進化（月5回 17,800円）</li>
                   <li>• zen place フリー（14,960円）</li>
                   <li>• Pilates Bodywork スタンダード（15,290円）</li>
                 </ul>
@@ -616,7 +625,7 @@ export default function KitahamaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  zen placeはマットグループ初回1,000円、ビーキューブは無料コンサルティング、Ua pilatesは初回体験13,000円（10月31日まで5,000円）です。
+                  zen placeはマットグループ初回1,000円、ビーキューブは無料コンサルティング、ピラティススタジオ進化は2回分7,700円、Ua pilatesは初回体験13,000円（10月31日まで5,000円）です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -625,7 +634,7 @@ export default function KitahamaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  北浜・淀屋橋は大阪のビジネス街です。ビーキューブは淀屋橋・北浜より徒歩3分、Pilates Bodywork Studioは北浜駅徒歩3分、Uaは両駅徒歩約5分、JOODYは淀屋橋駅徒歩5分です。
+                  北浜・淀屋橋は大阪のビジネス街です。ビーキューブは淀屋橋・北浜より徒歩3分、Pilates Bodywork Studioは北浜駅徒歩1分・淀屋橋駅徒歩5分、Uaは両駅徒歩約5分、JOODYは淀屋橋駅徒歩5分です。
                 </p>
               </div>
             </div>

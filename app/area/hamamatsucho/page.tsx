@@ -17,8 +17,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/hamamatsucho/' },
-  title: '浜松町・大門で無料体験できるピラティス5社｜大門駅すぐ・料金比較',
-  description: '浜松町・大門でピラティスの無料体験ができるスタジオを厳選しています。5社の料金・マシン対応・大門駅／浜松町駅からのアクセスを比較しています。初心者向けの選び方と体験当日の流れもわかります。',
+  title: '浜松町・大門で無料体験できるピラティス6社｜大門駅すぐ・料金比較',
+  description: '浜松町・大門でピラティスの無料体験ができるスタジオを厳選しています。6社の体験料金・月額・大門駅／浜松町駅からの徒歩分を公式サイトで確認して比較しています。初心者向けの選び方と体験当日の流れもわかります。',
   keywords: 'ピラティス,浜松町,大門,田町,三田,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -60,7 +60,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
-    trial: 'グループ体験 1,000円',
+    trial: 'マットグループ体験 1,000円（キャンペーン・通常3,300円）／マシングループ体験 3,000円（キャンペーン・通常5,000円）',
     features: ['三田駅直結', '男性利用可', 'マット&マシン', '全国他店利用'],
     description: 'ピラティス専門の大手スタジオです。三田駅A3出口直結（エレベーター利用可）、田町駅から徒歩1分です。マットグループ・マシングループ・プライベートの3タイプから選べます。全国80店舗以上で他店利用可能です。男性も歓迎です。',
     access: '都営浅草線・三田線「三田駅」A3出口 直結 / JR「田町駅」西口 徒歩1分',
@@ -71,8 +71,8 @@ const studios = [
       price: '月額 16,940円（税込）',
     },
     options: [
-      '月4回プラン（10,450円〜）',
-      'マシングループ体験（3,000円）',
+      'マットグループ月4回 10,450円／マシングループ月4回 15,400円（グレード01）',
+      'マシングループ体験 3,000円（キャンペーン・通常5,000円）',
       'プライベートレッスン（体験 9,900円）',
       '他グレード店舗利用（差額あり）',
     ],
@@ -82,7 +82,7 @@ const studios = [
       purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
     },
     basicInfo: {
-      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
+      hours: '平日 7:00〜21:30 / 土日祝 7:00〜18:00（公式・2026年10月20日確認）',
       closed: '不定休',
       facilities: ['リフォーマー', 'マット', 'ロッカー', '更衣室', 'Wi-Fi'],
     },
@@ -92,7 +92,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
-    trial: 'グループ体験 1,000円',
+    trial: 'マットグループ体験 1,000円（キャンペーン・通常3,300円）／マシングループ体験 3,000円（キャンペーン・通常5,000円）',
     features: ['田町駅徒歩5分', '男性利用可', 'マシングループ', '三田店と併用可'],
     description: 'zen place pilatesの田町スタジオです。田町駅東口（芝浦口）から徒歩5分です。マットグループ・マシングループ・プライベートレッスンに対応しています。三田スタジオとの併用も可能で、スケジュールに合わせた通い方ができます。',
     access: 'JR「田町駅」東口（芝浦口） 徒歩5分',
@@ -103,8 +103,8 @@ const studios = [
       price: '月額 16,940円（税込）',
     },
     options: [
-      '月4回プラン（10,450円〜）',
-      'マシングループ体験（3,000円）',
+      'マットグループ月4回 10,450円／マシングループ月4回 15,400円（グレード01）',
+      'マシングループ体験 3,000円（キャンペーン・通常5,000円）',
       'プライベートレッスン（体験 9,900円）',
       '三田スタジオとの他店利用可',
     ],
@@ -114,7 +114,7 @@ const studios = [
       purpose: ['姿勢改善', '体幹強化', 'パフォーマンス向上', '健康維持'],
     },
     basicInfo: {
-      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
+      hours: '平日 7:30〜21:30 / 土日祝 7:30〜18:00（公式・2026年10月20日確認）',
       closed: '不定休',
       facilities: ['リフォーマー', 'マット', 'ロッカー', '更衣室'],
     },
@@ -128,7 +128,7 @@ const studios = [
     features: ['世界最大級', '15種類の器具', '田町駅徒歩6分', '男性利用可'],
     description: '世界最大級のマシンピラティスブランドです。田町駅から徒歩6分です。最大12名の少人数制グループレッスンで、リフォーマー・スプリングボード・TRX・チェアなど15種類のマシン・器具を1人1台完備しています。8つのプログラムと4段階のレベル分けで初心者から上級者まで対応しています。',
     access: 'JR「田町駅」徒歩6分',
-    address: '東京都港区田町エリア（詳細は公式サイトでご確認ください）',
+    address: '東京都港区芝浦3-14-15 タチバナビル2F',
     popularPlan: {
       name: 'グループ月4回プラン',
       description: '15種類の器具を使った本格グループレッスンです。4段階のレベル分けで安心です。',
@@ -148,20 +148,22 @@ const studios = [
   },
   {
     name: 'Pilates Studio B&B 田町店',
+    officialUrl: 'https://www.pilates-bb.com/studio-list/tamachi',
     image: '/images/studios/pilates-bb.webp',
-    price: 'パーソナル 1回 8,250円〜',
-    trial: '体験レッスンあり',
+    price: 'パーソナル 月4回 39,600円（平日スタンダード・1回あたり約9,900円）',
+    trial: '体験レッスン 5,500円（50分）',
     features: ['キッズスペース完備', '田町駅徒歩4分', 'パーソナル専門', '産前産後ケア'],
     description: 'パーソナル・少人数制のマシンピラティス専門スタジオです。田町駅東口から徒歩4分です。キッズスペース完備で子連れ可能です。リフォーマー・キャデラック・チェアなど本格マシンを使ったオーダーメイドレッスンです。産前産後ケアプログラムも充実しています。',
-    access: 'JR「田町駅」東口 徒歩4分',
-    address: '東京都港区芝浦エリア（詳細は公式サイトでご確認ください）',
+    access: 'JR「田町駅」芝浦口 徒歩4分',
+    address: '東京都港区芝浦3-11-8 ミナトヤビル4F',
     popularPlan: {
-      name: 'パーソナルレッスン',
-      description: 'マシンを使った完全オーダーメイドのパーソナルレッスンです。',
-      price: '1回 8,250円〜（税込）',
+      name: 'パーソナル 月4回（平日スタンダード）',
+      description: 'マシンを使ったマンツーマンのパーソナルレッスンです。',
+      price: '月4回 39,600円（終日利用のプレミアムは44,000円）',
     },
     options: [
-      '回数券プランあり',
+      '都度 1回 10,725円（平日スタンダード）／12,705円（プレミアム）',
+      '入会金 11,000円',
       'グループレッスンあり',
       '産前産後ケアプログラム',
       'キッズスペース利用無料',
@@ -172,9 +174,36 @@ const studios = [
       purpose: ['産後ケア', '姿勢改善', 'ボディメイク', '体幹強化'],
     },
     basicInfo: {
-      hours: '平日 9:00〜21:00 / 土日 9:00〜18:00',
+      hours: '平日 10:00〜21:00 / 土日祝 9:00〜19:00（公式・2026年10月20日確認）',
       closed: '不定休',
       facilities: ['リフォーマー', 'キャデラック', 'チェア', 'キッズスペース', '更衣室'],
+    },
+  },
+  {
+    name: 'heso TOKYO（STOTT PILATES® Studio 浜松町）',
+    officialUrl: 'https://heso.cc/tokyo/',
+    price: 'プライベート 都度 12,000円／4回チケット 44,000円（税込・有効2ヶ月）',
+    trial: 'プライベート体験 10,000円（税込・通常12,000円）',
+    features: ['大門駅徒歩2分', 'STOTT PILATES®', 'プライベート・最大4名グループ', '入会金なし'],
+    description: '大門駅から徒歩2分、浜松町駅から徒歩5分の、STOTT PILATES®のマシンを備えたピラティススタジオです。マンツーマンのプライベートと、最大4名の少人数グループ（都度5,000円）があります。入会金・事務手数料・年会費は不要で、プライベートは都度払いか4回チケットで通えます（公式サイト・税込・2026年10月20日確認）。',
+    access: '都営浅草線・大江戸線「大門駅」徒歩2分 / JR「浜松町駅」徒歩5分',
+    address: '東京都港区浜松町1-19-12 4F',
+    popularPlan: {
+      name: 'プライベート 4回チケット',
+      description: 'マンツーマンのマシンピラティスです。有効期限は2ヶ月です。',
+      price: '44,000円（税込・1回11,000円）',
+    },
+    options: [
+      'グループ（最大4名）都度 5,000円（税込）',
+      '入会金・事務手数料・年会費 不要',
+      'プライベート都度 12,000円（税込）',
+    ],
+    userProfile: {
+      purpose: ['姿勢改善', '体の使い方の改善', 'ボディメイク'],
+    },
+    basicInfo: {
+      hours: '月〜金 9:00〜21:00 / 土日祝 9:00〜18:00',
+      facilities: ['STOTT PILATES®のピラティスマシン'],
     },
   },
 ]
@@ -194,7 +223,7 @@ const faqs = [
   },
   {
     question: '浜松町エリアのピラティスの料金相場は？',
-    answer: '当サイト掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は10,450円〜15,280円（the SILK 大門浜松町店・zen place pilates 三田スタジオ（マット）・zen place pilates 田町スタジオ（マット）・CLUB PILATES 田町店・2026年10月確認）です。zen placeが月4回10,450円〜で最もリーズナブルです。パーソナルはPilates Studio B&Bが1回8,250円〜です。',
+    answer: '当サイト掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は10,450円〜15,280円（the SILK 大門浜松町店・zen place pilates 三田スタジオ（マット）・zen place pilates 田町スタジオ（マット）・CLUB PILATES 田町店・2026年10月確認）です。zen placeが月4回10,450円〜で最もリーズナブルです。パーソナルは、heso TOKYO（大門駅徒歩2分）が4回チケット44,000円（1回11,000円）、Pilates Studio B&B 田町店が月4回39,600円です（公式・2026年10月20日確認）。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -234,17 +263,17 @@ export default function HamamatsuchoPage() {
       <BreadcrumbSchema items={[
         { name: 'ホーム', url: 'https://biyori-pilates.com/' },
         { name: '地域別', url: 'https://biyori-pilates.com/area/' },
-        { name: '浜松町', url: 'https://biyori-pilates.com/area/hamamatsucho/' },
+        { name: '浜松町・大門', url: 'https://biyori-pilates.com/area/hamamatsucho/' },
       ]} />
 
       <main className="pt-20 bg-white">
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月20日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス浜松町おすすめ5選<br className="hidden md:block" />
-              人気スタジオの料金プランの比較
+              ピラティス浜松町・大門おすすめ6選<br className="hidden md:block" />
+              体験レッスンの料金を店舗ごとに比較
             </h1>
           </div>
         </section>
@@ -270,7 +299,7 @@ export default function HamamatsuchoPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、浜松町・大門・田町エリアでおすすめのピラティススタジオ5選をまとめました。
+              本ページでは、浜松町・大門・田町エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -310,7 +339,7 @@ export default function HamamatsuchoPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              浜松町のおすすめピラティススタジオ5選
+              浜松町のおすすめピラティススタジオ6選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -338,15 +367,15 @@ export default function HamamatsuchoPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">8,250円〜16,940円</td>
+                    <td className="px-4 py-3">10,450円〜15,400円（公式で確認できた店舗・2026年10月20日）</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回 8,250円〜</td>
+                    <td className="px-4 py-3">1回あたり 約9,900円〜12,000円</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">無料〜1,000円</td>
+                    <td className="px-4 py-3">無料〜10,000円（下の「大門駅・浜松町駅からの距離と体験料金」参照）</td>
                   </tr>
                 </tbody>
               </table>
@@ -380,6 +409,24 @@ export default function HamamatsuchoPage() {
                   はじめての方は「未経験者が多いか」「手ぶらで通えるか」を目安にすると安心です。たとえば the SILK 大門浜松町店は体験者の約8割がピラティス未経験からのスタートで、初心者でも始めやすい環境です。まずは無料体験で雰囲気を確かめ、大門駅・浜松町駅のどちらから通いやすいか、時間帯の予約の取りやすさもあわせてお選びください。
                 </p>
               </div>
+            </div>
+            <div className="mt-10" id="daimon-trial">
+              <h3 className="text-xl font-bold text-warm-900 mb-3 text-center">大門駅・浜松町駅からの距離と体験料金（店舗ごとの公式表記）</h3>
+              <p className="text-warm-600 text-sm leading-relaxed mb-4">掲載6店の体験料金・月4回の料金・駅からの徒歩分を、各スタジオの公式サイトで2026年10月20日に確認しました（税込）。大門駅から徒歩2分以内は the SILK と heso TOKYO の2店で、zen place・B&B・CLUB PILATES は田町・三田駅側（大門駅・浜松町駅からは1駅）です。</p>
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm border-collapse">
+                  <thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ</th><th className="px-4 py-3 text-left">駅からの徒歩分</th><th className="px-4 py-3 text-left">体験料金</th><th className="px-4 py-3 text-left">月4回の料金</th><th className="px-4 py-3 text-left">男女</th></tr></thead>
+                  <tbody>
+                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">the SILK 大門浜松町店</td><td className="px-4 py-3">大門駅 徒歩1分／浜松町駅 徒歩2分</td><td className="px-4 py-3">0円（初回50分・期間限定）</td><td className="px-4 py-3">Standard4（月4回）15,280円＋施設利用料 月700円</td><td className="px-4 py-3">女性専用</td></tr>
+                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">heso TOKYO（STOTT PILATES®）</td><td className="px-4 py-3">大門駅 徒歩2分／浜松町駅 徒歩5分</td><td className="px-4 py-3">プライベート 10,000円（通常12,000円）</td><td className="px-4 py-3">プライベート4回チケット 44,000円（有効2ヶ月）</td><td className="px-4 py-3">記載なし</td></tr>
+                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">zen place pilates 三田スタジオ</td><td className="px-4 py-3">三田駅A3出口 直結／田町駅 徒歩1分</td><td className="px-4 py-3">マット 1,000円・マシン 3,000円（キャンペーン）・プライベート 9,900円</td><td className="px-4 py-3">マット月4回 10,450円／マシン月4回 15,400円</td><td className="px-4 py-3">男女</td></tr>
+                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">zen place pilates 田町スタジオ</td><td className="px-4 py-3">田町駅 芝浦口 徒歩5分</td><td className="px-4 py-3">マット 1,000円・マシン 3,000円（キャンペーン）・プライベート 9,900円</td><td className="px-4 py-3">マット月4回 10,450円／マシン月4回 15,400円</td><td className="px-4 py-3">男女</td></tr>
+                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Pilates Studio B&B 田町店</td><td className="px-4 py-3">田町駅 芝浦口 徒歩4分</td><td className="px-4 py-3">5,500円（50分）</td><td className="px-4 py-3">パーソナル月4回 39,600円</td><td className="px-4 py-3">記載なし</td></tr>
+                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">CLUB PILATES 田町店</td><td className="px-4 py-3">田町駅 徒歩6分</td><td className="px-4 py-3">0円（30分の体験レッスン）</td><td className="px-4 py-3">EFT4（月4回）14,190円</td><td className="px-4 py-3">記載なし</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <p className="text-warm-500 text-xs mt-3">体験の無料・割引は期間限定のキャンペーンを含みます。申し込む前に各公式サイトで最新の条件をご確認ください。「記載なし」は公式サイトに男女の利用条件の記載が無いものです（the SILKの値の情報引用元: the SILK公式サイト）。</p>
             </div>
             <p className="text-center mt-8">
               <a href="#studios" className="inline-block bg-warm-800 text-white rounded-full px-6 py-3 text-sm font-medium hover:bg-warm-900 transition">大門・浜松町のスタジオを料金で比較する</a>
@@ -497,6 +544,7 @@ export default function HamamatsuchoPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• the SILK（大門駅 徒歩1分）</li>
+                  <li className="text-warm-700">• heso TOKYO（大門駅 徒歩2分）</li>
                   <li className="text-warm-700">• zen place 三田（三田駅 直結）</li>
                   <li className="text-warm-700">• Pilates Studio B&B（田町駅 徒歩4分）</li>
                 </ul>
@@ -559,13 +607,14 @@ export default function HamamatsuchoPage() {
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 8,250円〜/回</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">パーソナル 1回 約9,900円〜</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">パーソナル</p>
                 <p className="text-sm text-warm-600 mb-4">
                   完全オーダーメイドです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Pilates Studio B&B（8,250円〜/回）</li>
+                  <li>• Pilates Studio B&B（月4回 39,600円）</li>
+                  <li>• heso TOKYO（4回チケット 44,000円）</li>
                 </ul>
               </div>
             </div>
@@ -603,7 +652,7 @@ export default function HamamatsuchoPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKとCLUB PILATESは無料体験、zen placeはグループ1,000円で体験可能です。体験レッスンで実際の雰囲気をご確認ください。
+                  the SILKとCLUB PILATESは無料体験、zen placeはマットグループ1,000円・マシングループ3,000円（キャンペーン）、B&B田町店は5,500円、heso TOKYOはプライベート10,000円です（公式・2026年10月20日確認）。体験レッスンで実際の雰囲気をご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -612,7 +661,7 @@ export default function HamamatsuchoPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  浜松町エリアはJR山手線・都営浅草線・三田線・大江戸線が利用可能です。the SILKは大門駅徒歩1分、zen place三田は三田駅直結とアクセス抜群です。
+                  浜松町エリアはJR山手線・都営浅草線・三田線・大江戸線が利用可能です。大門駅からはthe SILKが徒歩1分、heso TOKYOが徒歩2分です。zen place三田は三田駅直結です。
                 </p>
               </div>
             </div>
@@ -673,7 +722,7 @@ export default function HamamatsuchoPage() {
               体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,000円です。<br />
+              体験レッスンは無料〜10,000円です（店舗ごとの金額は上の表をご覧ください）。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
