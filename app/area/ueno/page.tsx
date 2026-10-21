@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/ueno/' },
-  title: 'ピラティス上野おすすめ4選人気スタジオの料金プランの比較',
-  description: '上野エリアのおすすめピラティススタジオ4選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。初心者でも安心して通えるスタジオが見つかります。',
+  title: 'ピラティス上野おすすめ3選人気スタジオの料金プランの比較',
+  description: '上野エリアのおすすめピラティススタジオ3選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,上野,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -50,38 +50,6 @@ const studios = [
       hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
       closed: '不定休',
       facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', 'ウォーターサーバー'],
-    },
-  },
-  {
-    name: 'ピラティスK 上野',
-    officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
-    image: '/images/studios/pilates-k.webp',
-    price: '月4回 15,070円〜',
-    trial: '無料体験レッスン',
-    features: ['音楽×マシン', '女性専用', '暗闇レッスン', 'グループレッスン'],
-    description: '音楽に合わせて楽しくボディメイクを目指せます。女性専用スタジオのため安心して通えます。上野駅入谷口から徒歩5分です。暗闇×音楽×マシンピラティスの融合レッスンが人気です。周りの目を気にせず集中できる環境で、楽しみながら理想のボディラインを手に入れられます。',
-    access: '上野駅入谷口から徒歩5分',
-    address: '東京都台東区東上野3-18-7 上野駅前ビル 5F',
-    popularPlan: {
-      name: 'マンスリー4メンバー',
-      description: '暗闇×音楽×マシンピラティスの融合レッスンです。楽しく続けられると人気のプランです。',
-      price: '月4回 15,070円（税込）',
-    },
-    options: [
-      '追加レッスンチケット（1回 4,400円）',
-      '通い放題プラン変更（月額 22,000円〜）',
-      'ウェア・タオルセット（月額 2,200円）',
-      'ドリンクサービス（月額 1,100円）',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心（全体の80%）',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['楽しく痩せたい', 'ストレス発散', 'ボディメイク', '仲間と運動'],
-    },
-    basicInfo: {
-      hours: '平日 10:00〜22:00 / 土日祝 10:00〜20:00',
-      closed: '不定休',
-      facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', '暗闇スタジオ', '女性専用'],
     },
   },
   {
@@ -186,7 +154,7 @@ export default function UenoPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス上野おすすめ4選<br className="hidden md:block" />
+              ピラティス上野おすすめ3選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -211,7 +179,7 @@ export default function UenoPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、上野エリアでおすすめのピラティススタジオ4選をまとめました。
+              本ページでは、上野エリアでおすすめのピラティススタジオ3選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -250,7 +218,7 @@ export default function UenoPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              上野のおすすめピラティススタジオ4選
+              上野のおすすめピラティススタジオ3選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -457,11 +425,10 @@ export default function UenoPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 12,000〜16,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  マシン完備の大手スタジオです。zen place pilates はグループ・プライベートを選べます。ピラティスK と the SILK 上野店はグループレッスンのみです（各公式サイト・2026年10月確認）。
+                  マシン完備の大手スタジオです。zen place pilates はグループ・プライベートを選べます。the SILK 上野店はグループレッスンのみです（各公式サイト・2026年10月確認）。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates</li>
-                  <li>• ピラティスK</li>
                   <li>• the SILK</li>
                 </ul>
               </div>

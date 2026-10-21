@@ -202,7 +202,6 @@ relatedArticles:
 - BDC PILATES 恵比寿
 
 **新宿・中野：**
-- CLUB PILATES 新宿
 - zen place pilates 新宿
 
 **銀座・有楽町：**
@@ -211,9 +210,8 @@ relatedArticles:
 
 ### 大阪エリア
 
-**梅田・心斎橋：**
+**梅田：**
 - zen place pilates 梅田
-- CLUB PILATES 心斎橋
 
 ### 名古屋エリア
 

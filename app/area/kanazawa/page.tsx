@@ -149,19 +149,18 @@ const studios = [
   },
   {
     name: 'ピラティス教室Hirameき',
-    price: '月4回 6,000円',
+    price: '料金は公式サイトでご確認ください',
     trial: '体験レッスンあり',
-    features: ['少人数制8名', '入会金なし', '月謝6,000円', 'アットホーム'],
-    description: '金沢市駅西新町にある少人数制ピラティス教室です。各クラス最大8名の少人数制で丁寧な指導です。入会金・年会費なしの月謝制で月4回6,000円と金沢で最もリーズナブルな価格設定です。初心者から経験者まで幅広く対応しています。',
+    features: ['少人数制8名', '入会金なし', 'アットホーム'],
+    description: '金沢市駅西新町にある少人数制ピラティス教室です。各クラス最大8名の少人数制で丁寧な指導です。入会金・年会費なしの月謝制です。初心者から経験者まで幅広く対応しています。',
     access: '金沢駅西新町エリア',
     address: '石川県金沢市駅西新町（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: '月4回プラン',
       description: '少人数制グループレッスンです。入会金・年会費なしのシンプルな月謝制です。',
-      price: '月4回 6,000円（税込）',
+      price: '料金は公式サイトでご確認ください',
     },
     options: [
-      '月4回プラン（6,000円）',
       '入会金・年会費なし',
       '体験レッスン受付中',
       '少人数制（最大8名）',
@@ -219,7 +218,7 @@ const faqs = [
   },
   {
     question: '金沢のピラティスの料金相場は？',
-    answer: 'グループレッスンは月4回6,000円〜、通い放題は月額8,680円〜です。パーソナルは月額14,800円〜です。Hirameきが月4回6,000円で最もリーズナブルです。',
+    answer: '通い放題は月額8,680円〜、パーソナルは月額14,800円〜です。グループレッスンの月4回料金は店舗により異なるため、各スタジオの公式サイトでご確認ください。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -363,7 +362,7 @@ export default function KanazawaPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">6,000円〜14,800円</td>
+                    <td className="px-4 py-3">店舗により異なります</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -467,7 +466,6 @@ export default function KanazawaPage() {
                   月額2万円未満で通えるスタジオです（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• ピラティス教室Hirameき（月4回 6,000円）</li>
                   <li className="text-warm-700">• AND STUDIO（アンドスタジオ）金沢（月額 8,680円〜）</li>
                   <li className="text-warm-700">• ウェルネス・ラボ 金沢駅西（月額 8,778円（税込）〜）</li>
                 </ul>
@@ -534,7 +532,6 @@ export default function KanazawaPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ウェルネス・ラボ 金沢駅西（月額 8,778円〜）</li>
                   <li>• AND STUDIO 金沢（月額 8,680円〜）</li>
-                  <li>• ピラティス教室Hirameき（月4回 6,000円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
