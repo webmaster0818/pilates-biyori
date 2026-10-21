@@ -208,7 +208,7 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
-      genderRatio: '女性90% / 男性10%',
+      genderRatio: '女性100%（女性専用）',
       purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '運動不足解消'],
     },
     basicInfo: {
@@ -312,7 +312,7 @@ const faqs = [
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'zen place新宿南口、Rintosull新宿西口、exeed代々木、Studio Forward代々木は男性も可能です。the SILKとピラティスKは女性専用です。',
+    answer: 'zen place新宿南口、exeed代々木、Studio Forward代々木は男性も可能です。the SILK、ピラティスK、Rintosull 新宿西口駅前店（公式の店舗ページで「女性専用」）は女性専用です。',
   },
   {
     question: '無料で体験できるスタジオは？',

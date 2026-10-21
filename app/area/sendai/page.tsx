@@ -154,7 +154,7 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
-      genderRatio: '女性90% / 男性10%',
+      genderRatio: '女性100%（女性専用）',
       purpose: ['運動習慣づくり', 'ボディメイク', '姿勢改善', '複数エクササイズ併用'],
     },
     basicInfo: {

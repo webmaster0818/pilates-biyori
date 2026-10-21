@@ -72,14 +72,14 @@ const studios = [
     image: '/images/studios/rintosull.webp',
     price: '月4回 8,800円〜',
     trial: '体験レッスンあり',
-    features: ['女性専用', 'マシンピラティス', '割安', 'LAVA系列'],
-    description: '女性専用のマシンピラティススタジオです。ホットヨガLAVA系列が手がけるブランドで、運営面の信頼性があります。月4回8,800円〜という手頃な価格設定が魅力です。栄駅から徒歩圏内で通いやすく、初心者にもおすすめです。リフォーマーを使った本格的なマシンピラティスが気軽に始められます。',
+    features: ['男女共用', 'LAVA栄店内', 'マシンピラティス', '割安'],
+    description: 'LAVA栄店内のマシンピラティススタジオで、公式の店舗ページでは「男女共用」と案内されています。ホットヨガLAVA系列が手がけるブランドで、運営面の信頼性があります。月4回8,800円〜という手頃な価格設定が魅力です。栄駅から徒歩圏内で通いやすく、初心者にもおすすめです。リフォーマーを使った本格的なマシンピラティスが気軽に始められます。',
     access: '地下鉄東山線・名城線「栄駅」徒歩圏内',
     address: '愛知県名古屋市中区錦3-24-4 サンシャインサカエ4F',
     popularPlan: { name: '月4回プラン', description: 'マシンピラティス月4回です。割安な人気プランです。', price: '月4回 8,800円〜（税込）' },
     options: ['月4回プラン（8,800円〜）', '通い放題プラン', '追加レッスンチケット'],
-    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', '姿勢改善', 'ダイエット', '運動習慣づくり'] },
-    basicInfo: { hours: '平日 10:00〜22:00 / 土日祝 10:00〜19:00', closed: '不定休', facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', '女性専用'] },
+    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '男女共用（公式の店舗ページ表記）', purpose: ['ボディメイク', '姿勢改善', 'ダイエット', '運動習慣づくり'] },
+    basicInfo: { hours: '平日 10:00〜22:00 / 土日祝 10:00〜19:00', closed: '不定休', facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi'] },
   },
   {
     name: 'Pilates Mee 名古屋栄店',
@@ -282,7 +282,6 @@ export default function SakaePage() {
                 <p className="text-warm-600 text-sm mb-4">女性だけの空間で安心してトレーニングに集中できます。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK 久屋大通パーク店</li>
-                  <li className="text-warm-700">• Rintosull 栄店</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">

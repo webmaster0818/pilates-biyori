@@ -156,7 +156,7 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
-      genderRatio: '女性75% / 男性25%',
+      genderRatio: '男女共用（公式の店舗ページ表記）',
       purpose: ['姿勢改善', 'ダイエット', '体幹強化', 'リフレッシュ'],
     },
     basicInfo: {

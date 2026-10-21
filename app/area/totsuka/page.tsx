@@ -45,7 +45,7 @@ const studios = [
     address: '神奈川県横浜市戸塚区戸塚町116-38 戸塚ガーデンプラザ 2F',
     popularPlan: { name: 'マシンピラティス月4回', description: 'リフォーマーを使った本格レッスンです。', price: '月4回 8,800円（税込）' },
     options: ['体験レッスンあり', '各種プラン', '詳細は公式サイト参照'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性100%（女性専用）', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
   },
   {

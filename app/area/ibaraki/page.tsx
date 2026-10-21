@@ -72,7 +72,7 @@ const studios = [
     address: '大阪府茨木市双葉町10-1 茨木東阪急ビル1F',
     popularPlan: { name: 'マンスリーメンバー4（月4回）', description: 'マシンピラティス月4回です。LAVA全店も相互利用可能です。', price: '月4回 8,800円（税込）' },
     options: ['月4回プラン（8,800円）', '通い放題プラン', 'LAVA全店相互利用可能', '体験レッスン（予約制）'],
-    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性90% / 男性10%', purpose: ['ダイエット', '姿勢改善', '運動不足解消', 'リフレッシュ'] },
+    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ダイエット', '姿勢改善', '運動不足解消', 'リフレッシュ'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', '更衣室', 'ロッカー'] },
   },
   {

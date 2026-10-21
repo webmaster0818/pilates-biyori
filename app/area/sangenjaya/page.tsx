@@ -264,13 +264,13 @@ const studios = [
     image: '/images/studios/rintosull.webp',
     price: '料金は店舗にお問い合わせください',
     trial: '体験レッスンあり',
-    features: ['女性専用', 'マシンピラティス', 'LAVA系列', '三軒茶屋近隣'],
-    description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオです。LAVA会員には割引が適用されるなど、ホットヨガとの併用に適しています。清潔で明るいスタジオ環境で、初心者でも安心してマシンピラティスを始められます。',
+    features: ['男女共用', 'LAVA三軒茶屋店内', 'マシンピラティス', '三軒茶屋近隣'],
+    description: 'LAVA三軒茶屋店内のマシンピラティススタジオで、公式の店舗ページでは「男女共用」と案内されています。LAVA会員には割引が適用されるなど、ホットヨガとの併用に適しています。清潔で明るいスタジオ環境で、初心者でも安心してマシンピラティスを始められます。',
     access: '三軒茶屋駅から近隣エリア',
     address: '東京都世田谷区三軒茶屋2-11-20 サンタワーズD棟 3F',
     popularPlan: {
       name: 'レギュラープラン',
-      description: 'LAVA系列の女性専用マシンピラティスレッスンです。',
+      description: 'LAVA系列のマシンピラティスレッスンです（男女共用）。',
       price: '料金は店舗にお問い合わせください',
     },
     options: [
@@ -279,7 +279,7 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
+      genderRatio: '男女共用（公式の店舗ページ表記）',
       purpose: ['ボディメイク', '姿勢改善', 'ホットヨガとの併用', '健康維持'],
     },
     basicInfo: {
@@ -650,7 +650,6 @@ export default function SangenjayaPage() {
                   <li className="text-warm-700">• NATURAglam（ヨガ&ピラティス）</li>
                   <li className="text-warm-700">• AGNIYOGA（ヨガ&ピラティス）</li>
                   <li className="text-warm-700">• ピラティスK（月4回 11,220円〜）</li>
-                  <li className="text-warm-700">• Rintosull（LAVA系列）</li>
                 </ul>
               </div>
             </div>

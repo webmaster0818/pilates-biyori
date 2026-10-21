@@ -56,13 +56,13 @@ const studios = [
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp', reviewCount: 82,
     price: '月4回 8,800円〜', trial: '体験レッスンあり',
-    features: ['女性専用マシン', 'LAVA系列', '月4回8,800円〜', 'スクリーン指導'],
-    description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオです。大型スクリーンの映像とインストラクターのダブル指導で、正しいフォームを習得できる独自メソッドです。月4回8,800円〜と渋谷エリア最安クラスの価格設定です。',
+    features: ['男女共用', 'LAVA渋谷店内', '月4回8,800円〜', 'スクリーン指導'],
+    description: 'LAVA渋谷店内のマシンピラティススタジオで、公式の店舗ページでは「男女共用」と案内されています。大型スクリーンの映像とインストラクターのダブル指導で、正しいフォームを習得できる独自メソッドです。月4回8,800円〜と渋谷エリア最安クラスの価格設定です。',
     access: '渋谷駅 徒歩圏内',
     address: '東京都渋谷区道玄坂2-23-12フォンティスビル6F',
-    popularPlan: { name: '月4回プラン', description: 'LAVA系列の女性専用マシンピラティスです。スクリーン+インストラクターのダブル指導です。', price: '月4回 8,800円（税込）〜' },
+    popularPlan: { name: '月4回プラン', description: 'LAVA系列のマシンピラティス（男女共用）です。スクリーン+インストラクターのダブル指導です。', price: '月4回 8,800円（税込）〜' },
     options: ['月4回プラン（8,800円〜）', '月8回プラン', '通い放題プラン', '体験レッスン'],
-    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ダイエット', '姿勢改善', 'ボディメイク', '運動不足解消'] },
+    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '男女共用（公式の店舗ページ表記）', purpose: ['ダイエット', '姿勢改善', 'ボディメイク', '運動不足解消'] },
     basicInfo: { hours: 'お問い合わせください', closed: '不定休', facilities: ['リフォーマーマシン', '大型スクリーン', 'ロッカー', '更衣室'] },
   },
   {
@@ -205,7 +205,7 @@ const faqs = [
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルが鍛えられ基礎代謝が上がり太りにくい体質づくりにつながります。最低2〜3ヶ月は継続することをおすすめします。CALDOのホット環境なら発汗効果も期待できます。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。ウェアレンタルを用意しているスタジオもあります。' },
   { question: 'ピラティスとヨガの違いは？', answer: 'ピラティスは体幹強化・姿勢改善が中心、ヨガは柔軟性とリラックスが中心です。NATURAglam渋谷なら両方受けられます。' },
-  { question: '男性でも通えるスタジオはありますか？', answer: 'zen place pilates渋谷、ELEMENT渋谷は男性も利用可能です。the SILK、ピラティスK、Rintosull、ピラティスミラー、YUZU、NATURAglam は女性専用です。' },
+  { question: '男性でも通えるスタジオはありますか？', answer: 'zen place pilates渋谷、ELEMENT渋谷は男性も利用可能です。Rintosull 渋谷店（LAVA渋谷店内）も公式の店舗ページで「男女共用」と案内されています。the SILK、ピラティスK、ピラティスミラー、YUZU、NATURAglam は女性専用です。' },
   { question: 'どのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。週2回なら1ヶ月半ほどで変化を感じる方もいます。パーソナルレッスンの方が、より早く効果を実感しやすくなります。' },
   { question: '無料体験ができるスタジオはありますか？', answer: 'zen placeやthe SILKなどが体験レッスンを用意しています。まずは体験レッスンへの参加をおすすめします。' },
 ]
@@ -329,7 +329,6 @@ export default function ShibuyaPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• <a href="#studio-4" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">the SILK</a>（音楽×マシン）</li>
                   <li className="text-warm-700">• <a href="#studio-6" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">ピラティスK</a>（マシングループ）</li>
-                  <li className="text-warm-700">• <a href="#studio-7" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">Rintosull</a>（LAVA系列）</li>
                   <li className="text-warm-700">• <a href="#studio-9" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">ピラティスミラー</a>（プライベート30分4,400円〜）</li>
                   <li className="text-warm-700">• YUZU（パーソナルマシン）</li>
                 </ul>

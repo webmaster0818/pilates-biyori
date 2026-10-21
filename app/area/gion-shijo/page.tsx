@@ -110,7 +110,7 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
-      genderRatio: '女性95% / 男性5%',
+      genderRatio: '女性100%（女性専用）',
       purpose: ['ボディメイク', 'ダイエット', 'ヨガ&ピラティス両方', '健康維持'],
     },
     basicInfo: {

@@ -71,7 +71,7 @@ const studios = [
     address: '大阪府堺市堺区北瓦町2-4-12岡本ビル6F',
     popularPlan: { name: '人気プラン', description: 'ホットヨガLAVAの姉妹ブランドです。堺東駅から徒歩30秒の好立地です。月4回8,800', price: '月4回 8,800円〜' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性100%（女性専用）', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -202,7 +202,7 @@ export default function SakaiPage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">女性専用スタジオが多い</h3>
-                <p className="text-warm-600 leading-relaxed">堺エリアは女性専用スタジオが多い傾向です。男性の方はRintosullなど男性利用可のスタジオをお選びください。</p>
+                <p className="text-warm-600 leading-relaxed">堺エリアは女性専用スタジオが多い傾向です。Rintosull 堺東店も公式の店舗ページで「女性専用」と案内されています。男性の方は各スタジオの公式サイトで利用可否をご確認ください。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも検討</h3>

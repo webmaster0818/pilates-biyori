@@ -43,7 +43,7 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性90% / 男性10%',
+      genderRatio: '女性100%（女性専用）',
       purpose: ['ボディメイク', 'ダイエット', '姿勢改善', '運動不足解消'],
     },
     basicInfo: {
@@ -210,7 +210,7 @@ const faqs = [
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'Rintosull、GRANLAB、DEPは男性も通えます。La pilatesは女性専用です。',
+    answer: 'GRANLAB、DEPは男性も通えます。Rintosull 高松店（公式の店舗ページで「女性専用」）とLa pilatesは女性専用です。',
   },
   {
     question: '無料で体験できるスタジオは？',
