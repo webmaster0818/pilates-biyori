@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { STUDIO_REVIEWS } from '@/data/studio-reviews'
 import { brandSlugOf } from '@/lib/brandLink'
+import { storePageOf } from '@/lib/storePages'
 
 // ブランドハブ用の口コミ集約。
 //
@@ -33,6 +34,19 @@ export function BrandReviewDigest({ brandSlug, brandName }: { brandSlug: string;
   const fetched = rows.map((r) => r.fetchedAt).sort()
   const shown = [...rows].sort((a, b) => b.userRatings - a.userRatings).slice(0, 6)
   const low = rows.filter((r) => r.rating < 4.0).length
+  // 2026-10-21: 「リントスル 天神店 口コミ」等の店舗名×口コミクエリがブランドハブに着地していた。
+  // 口コミ要約がある店舗のうち店舗ページがあるものを、ここから店舗ページへ辿れるようにする（店舗ページ側に要約・公式の声・基本情報がある）
+  const withPage = rows
+    .map((r) => ({ r, page: storePageOf(r.name) }))
+    .filter((x): x is { r: typeof rows[number]; page: NonNullable<ReturnType<typeof storePageOf>> } => !!x.page && x.page.urlSlug.startsWith(`${brandSlug}-`))
+    .filter((x, i, arr) => arr.findIndex((y) => y.page.urlSlug === x.page.urlSlug) === i)
+    // 店舗ページ側（BrandAreaReceiver）で同じ口コミ要約が表示される店舗だけに限る（引き方を同じにする）
+    .filter(({ r, page }) => {
+      const sp = (v: string) => v.replace(/[\s　]/g, '')
+      const shownOnPage =
+        STUDIO_REVIEWS[page.storeName] ?? Object.values(STUDIO_REVIEWS).find((x) => sp(x.name) === sp(page.storeName))
+      return !!shownOnPage && shownOnPage.mapsUri === r.mapsUri
+    })
 
   return (
     <section className="mb-10 scroll-mt-24" id="reviews">
@@ -94,6 +108,23 @@ export function BrandReviewDigest({ brandSlug, brandName }: { brandSlug: string;
           </div>
         ))}
       </div>
+
+      {withPage.length > 0 && (
+        <div className="mt-5 bg-white border border-warm-200 p-5">
+          <p className="text-sm font-medium text-warm-900 mb-3">店舗ごとの口コミ・料金・アクセス（店舗ページ）</p>
+          <div className="flex flex-wrap gap-2">
+            {withPage.map(({ r, page }) => (
+              <Link
+                key={page.urlSlug}
+                href={`/brands/${page.urlSlug}/`}
+                className="text-xs text-warm-800 border border-warm-300 bg-warm-50 px-3 py-1.5 hover:border-warm-500 transition-colors"
+              >
+                {page.storeName}の口コミ（★{r.rating}・{r.userRatings.toLocaleString()}件）
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
 
       {rows.length > shown.length && (
         <p className="text-xs text-warm-500 mt-4">

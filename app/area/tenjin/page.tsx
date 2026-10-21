@@ -141,22 +141,22 @@ const studios = [
     name: 'Rintosull 天神店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
-    price: '月4回 8,800円〜',
-    trial: '体験レッスンあり',
+    price: '月4回 8,800円（税込）',
+    trial: '体験会 0円（約45分・ウェアの貸し出しあり）',
     features: ['女性専用', 'マシンピラティス', '天神エリア', 'LAVA系列'],
     description: 'ホットヨガLAVAが手がけるマシンピラティススタジオです。天神エリアに展開しています。女性専用で月4回8,800円からのリーズナブルな料金設定です。スクリーン+インストラクター指導で初心者も安心です。',
-    access: '地下鉄空港線「天神駅」徒歩圏内',
-    address: '福岡県福岡市中央区天神3-1-1 天神フタタビル5F',
+    access: '福岡市地下鉄空港線「天神駅」西1出口すぐ',
+    address: '〒810-0001 福岡県福岡市中央区天神3-1-1 天神フタタビル5F',
     popularPlan: {
-      name: 'マンスリーメンバー4（月4回）',
-      description: 'LAVA系列のマシンピラティス月4回プランです。スクリーン映像付きで初心者にも分かりやすい指導しています。',
+      name: '4・フルタイム（月4回）',
+      description: '天神店で月4回受講できるプランです。スクリーン映像とインストラクターのサポートで進めるマシンピラティスのグループレッスンです。',
       price: '月4回 8,800円（税込）',
     },
     options: [
-      'マンスリーメンバー4（月4回 8,800円〜）',
-      'マンスリーメンバー・ライト（月8回）',
-      'マンスリーメンバー・フリー（通い放題）',
-      'LAVA会員割引あり',
+      '4・フルタイム（月4回）8,800円',
+      'ライト・フルタイム（天神店＋1店舗・通い放題）13,800円',
+      'プレミアム フリー・フルタイム（系列全店・通い放題）16,800円',
+      '運営管理費 月680円／1回券 3,300円',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
@@ -164,9 +164,9 @@ const studios = [
       purpose: ['ボディメイク', 'ダイエット', '体幹強化', 'ヨガとの併用'],
     },
     basicInfo: {
-      hours: '平日 9:00〜22:00 / 土日祝 9:00〜19:00',
-      closed: '不定休',
-      facilities: ['リフォーマーマシン', 'スクリーン映像システム', 'ロッカー', 'パウダールーム'],
+      hours: '公式店舗ページに記載なし（2026年10月の公式レッスンスケジュールでは8:00〜21:50の間）',
+      closed: '毎週日曜・第4水曜',
+      facilities: ['水素水サーバー', 'ドライヤー付きパウダースペース', '更衣室', '鍵付きロッカー', '駐車場・駐輪場なし'],
     },
   },
   {
@@ -240,7 +240,7 @@ export default function TenjinPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月21日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス天神おすすめ6選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
@@ -662,7 +662,7 @@ export default function TenjinPage() {
               <p className="text-xs text-warm-400 uppercase tracking-[0.15em] mb-2">店舗別ガイド</p>
               <p className="text-sm text-warm-700 font-light leading-relaxed mb-3">このエリアの店舗別に料金・体験レッスン・アクセスを整理した詳細ページがあります。</p>
               <div className="flex flex-wrap gap-2">
-                <Link href="/brands/rintosull-tenjin/" className="text-xs text-warm-800 border border-warm-300 bg-white px-3 py-1.5 hover:border-warm-500 transition-colors">Rintosull 天神店の料金・体験を見る</Link>
+                <Link href="/brands/rintosull-tenjin/" className="text-xs text-warm-800 border border-warm-300 bg-white px-3 py-1.5 hover:border-warm-500 transition-colors">Rintosull 天神店の口コミ・料金・アクセスを見る</Link>
               </div>
             </div>
       <RelatedAreas currentSlug="tenjin" />

@@ -96,7 +96,7 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
 
           <p className="section-en text-warm-400 mb-2 font-medium">Brand × Area</p>
           <h1 className="text-2xl md:text-3xl font-light text-warm-900 tracking-tight mb-3">
-            {store.areaQuery}の{brandName}{store.nameAlias ? `（${store.nameAlias}）` : ""}｜料金・体験・{store.hours ? "営業時間・" : ""}アクセス
+            {store.areaQuery}の{brandName}{store.nameAlias ? `（${store.nameAlias}）` : ""}｜{store.h1Words ?? ""}料金・体験・{store.hours ? "営業時間・" : ""}アクセス
             <span className="block text-base text-warm-500 mt-2 font-light">
               マシンピラティス専門「{store.storeName}」の情報を当サイトの掲載データにもとづいて掲載しています{MONTH_TAG}
             </span>
@@ -163,6 +163,40 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
                     {brandName}の口コミ・評判まとめ（Googleマップ{brandRevRows.length}店舗・{brandRevTotal.toLocaleString()}件の要約{brand?.reviewThemes ? "と、口コミに多いテーマ・注意点" : ""}）
                   </Link>
                 </p>
+              )}
+            </section>
+          )}
+
+          {/* 公式の店舗ページに掲載されている会員の声（原文の一部を引用・出典リンク付き）と口コミの傾向（2026-10-21） */}
+          {store.officialVoices && store.officialVoices.length > 0 && (
+            <section className="mb-10" id="official-voices">
+              <h2 className="text-xl font-light text-warm-900 border-b border-warm-200 pb-2 mb-4">
+                {store.storeName}の会員の声（公式の店舗ページから引用）
+              </h2>
+              <div className="space-y-3">
+                {store.officialVoices.map((v) => (
+                  <figure key={v.text} className="bg-white border border-warm-200 p-4">
+                    <blockquote className="text-sm text-warm-700 font-light leading-relaxed">「{v.text}」</blockquote>
+                    <figcaption className="mt-2 text-[11px] text-warm-500">掲載日 {v.date}</figcaption>
+                  </figure>
+                ))}
+              </div>
+              <p className="text-[11px] text-warm-500 mt-3 leading-relaxed">
+                出典:{" "}
+                {store.officialStoreUrl ? (
+                  <a href={`${store.officialStoreUrl}#member-voices`} target="_blank" rel="noopener noreferrer" className="underline decoration-warm-300 hover:text-warm-700">
+                    {store.officialVoicesLabel ?? "公式の店舗ページ"}
+                  </a>
+                ) : (store.officialVoicesLabel ?? "公式の店舗ページ")}
+                {store.checkedAt ? `（${store.checkedAt}確認）` : ""}。原文の一部をそのまま引用しています。公式サイトに掲載された声のため、良い内容に偏る可能性があります。感じ方には個人差があります。
+              </p>
+              {store.reviewTrend && store.reviewTrend.length > 0 && (
+                <div className="mt-5 bg-warm-50 border border-warm-200 p-5">
+                  <p className="text-sm font-medium text-warm-900 mb-2">{store.storeName}の口コミの傾向</p>
+                  <ul className="space-y-2 text-sm text-warm-700 leading-relaxed font-light list-disc pl-5">
+                    {store.reviewTrend.map((t) => <li key={t}>{t}</li>)}
+                  </ul>
+                </div>
               )}
             </section>
           )}

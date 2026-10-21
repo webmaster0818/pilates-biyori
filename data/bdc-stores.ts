@@ -24,6 +24,11 @@ export type BdcStore = {
   storeNotes?: string[]; // 基本情報の下に出す公式の注記
   officialStoreUrl?: string; // 公式の店舗ページ（計測リンクにしない）
   checkedAt?: string;
+  /* 2026-10-21 Rintosull 天神店から: 店舗名×口コミクエリの受け皿用。無い店舗では何も出さない */
+  h1Words?: string; // h1 の「料金・」の前に入れる語（例: 口コミ・）
+  officialVoices?: { text: string; date: string }[]; // 公式の店舗ページに掲載されている会員の声（原文の一部をそのまま引用）
+  officialVoicesLabel?: string; // 出典の表示名（例: Rintosull 天神店 公式店舗ページ「会員様の声」）
+  reviewTrend?: string[]; // 公式の声と Google 口コミ要約の両方から読める傾向（出典を併記した編集部の整理）
 };
 
 export const bdcStores: BdcStore[] = [
