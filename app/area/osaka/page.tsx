@@ -303,6 +303,37 @@ const studios = [
     access: 'JR「大阪駅」「北新地駅」徒歩3分',
     address: '大阪府大阪市北区梅田1丁目12-17 梅田スクエアビル 10階',
   },
+  {
+    name: 'MIKOTO pilates studio',
+    officialUrl: 'https://mikoto-pilates.com/',
+    image: '/images/studios/mikoto-pilates.webp',
+    price: 'ライト（月4回）月額4,980円／スタンダード（通い放題）月額7,980円／プレミアム（通い放題＋パーソナル月2回）月額17,980円（税込）',
+    trial: '初回体験レッスン無料',
+    features: ['肥後橋駅6番出口 徒歩1分', 'マットピラティス中心の少人数制グループ', 'ヨガ・ヒップアップ・バレエも選択可', '月額4,980円から'],
+    description: '肥後橋駅6番出口から徒歩1分、淀屋橋駅から徒歩5分、江戸堀1丁目のアール肥後橋5階にあるピラティススタジオです。マットピラティス中心の少人数制グループレッスンで、ヨガ・ヒップアップ・バレエなども選べます。1クラスの定員は14名で、10名以下のクラスもあります。月額はライト（月4回）4,980円・スタンダード（通い放題）7,980円・プレミアム（通い放題＋パーソナル月2回）17,980円、入会金は19,800円で、初回体験レッスンは無料です。公式サイトでは、2026年10月31日までの入会でスタンダードが6,980円（在籍中は継続）と案内しています（スタジオからのご案内・公式サイト・税込・2026年10月21日確認）。',
+    access: '肥後橋駅（Osaka Metro四つ橋線）6番出口 徒歩1分／淀屋橋駅 徒歩5分',
+    address: '〒550-0002 大阪府大阪市西区江戸堀1-8-17 アール肥後橋5F',
+    popularPlan: {
+      name: 'スタンダード（通い放題）',
+      description: 'マットピラティス中心のグループレッスンに、回数の上限なく通えるプランです。',
+      price: '月額7,980円（税込・2026年10月31日までの入会は6,980円）',
+    },
+    options: [
+      '入会金 19,800円',
+      'ライト（月4回）月額4,980円',
+      'プレミアム（通い放題＋パーソナル月2回）月額17,980円',
+      'パーソナル（マンツーマン・1回50分）の都度払い・月4回プラン',
+    ],
+    userProfile: {
+      purpose: ['姿勢改善', '体の不調の改善', 'ヒップアップ', 'リフレッシュ'],
+    },
+    basicInfo: {
+      hours: '9:00〜22:00',
+      closed: '不定休',
+      closedVerified: true, // 2026-10-20 スタジオからの問い合わせ本文（MediaXAI承認で掲載）
+      facilities: ['更衣室', 'マット（スタジオで用意）'],
+    },
+  },
 ]
 
 const faqs = [
@@ -312,7 +343,7 @@ const faqs = [
   },
   {
     question: '大阪で一番安いピラティススタジオはどこですか？',
-    answer: 'La pilates 天王寺店がサブスク月1回12,000円〜で最もリーズナブルです。また、ピラティスK 大阪は月4回13,420円で無料体験レッスンも実施しています。梅田・難波・心斎橋・天王寺など大阪各エリアで通いやすいスタジオが見つかります。',
+    answer: 'MIKOTO pilates studio（肥後橋）がライト（月4回）月額4,980円で最もリーズナブルです。また、La pilates 天王寺店はサブスク月1回12,000円〜、ピラティスK 大阪は月4回13,420円で無料体験レッスンも実施しています。梅田・難波・心斎橋・天王寺など大阪各エリアで通いやすいスタジオが見つかります。',
   },
   {
     question: '女性専用のピラティススタジオはありますか？',
@@ -365,7 +396,7 @@ export default async function OsakaAreaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス大阪おすすめ10選<br className="hidden md:block" />
+              ピラティス大阪おすすめ11選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -390,7 +421,7 @@ export default async function OsakaAreaPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、大阪エリアでおすすめのピラティススタジオ10選をまとめました。
+              本ページでは、大阪エリアでおすすめのピラティススタジオ11選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -538,7 +569,7 @@ export default async function OsakaAreaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              大阪のおすすめピラティススタジオ10選
+              大阪のおすすめピラティススタジオ11選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -561,6 +592,7 @@ export default async function OsakaAreaPage() {
                   月額13,420円以下で通えるスタジオです。無料体験レッスンもあります。費用を抑えたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• MIKOTO pilates studio（ライト 月4回 4,980円）</li>
                   <li className="text-warm-700">• La pilates 天王寺店（月1回 12,000円〜）</li>
                   <li className="text-warm-700">• ピラティスK 大阪（月4回 13,420円〜）</li>
                   <li className="text-warm-700">• PILATES KASANE 大阪（体験 2,200円）</li>
@@ -629,6 +661,7 @@ export default async function OsakaAreaPage() {
                   グループレッスンが中心です。お手頃に始めたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• MIKOTO pilates studio（4,980円/月4回）</li>
                   <li>• La pilates 天王寺（12,000円〜）</li>
                   <li>• PILATES KASANE（体験 2,200円）</li>
                 </ul>

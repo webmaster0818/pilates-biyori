@@ -17,8 +17,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kitahama/' },
-  title: '淀屋橋・北浜のピラティス6社を比較｜淀屋橋駅からの徒歩分・料金・体験',
-  description: '北浜・淀屋橋のピラティススタジオ6社を、駅からの徒歩分数・月額料金・体験料金で比較しています。淀屋橋・北浜とも徒歩3〜5分圏のスタジオと、1駅隣の南森町のzen placeまで、各公式サイトで確認した値（2026年10月20日確認）です。',
+  title: '淀屋橋・北浜のピラティス7社を比較｜淀屋橋駅からの徒歩分・料金・体験',
+  description: '北浜・淀屋橋のピラティススタジオ7社を、駅からの徒歩分数・月額料金・体験料金で比較しています。淀屋橋・北浜とも徒歩3〜5分圏のスタジオと、1駅隣の南森町のzen placeまで、各公式サイトで確認した値（2026年10月20日確認）です。',
   keywords: 'ピラティス,北浜,淀屋橋,大阪,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -195,6 +195,37 @@ const studios = [
       facilities: ['merithew社のピラティスマシン'],
     },
   },
+  {
+    name: 'MIKOTO pilates studio',
+    officialUrl: 'https://mikoto-pilates.com/',
+    image: '/images/studios/mikoto-pilates.webp',
+    price: 'ライト（月4回）月額4,980円／スタンダード（通い放題）月額7,980円／プレミアム（通い放題＋パーソナル月2回）月額17,980円（税込）',
+    trial: '初回体験レッスン無料',
+    features: ['肥後橋駅6番出口 徒歩1分', 'マットピラティス中心の少人数制グループ', 'ヨガ・ヒップアップ・バレエも選択可', '月額4,980円から'],
+    description: '肥後橋駅6番出口から徒歩1分、淀屋橋駅から徒歩5分、江戸堀1丁目のアール肥後橋5階にあるピラティススタジオです。マットピラティス中心の少人数制グループレッスンで、ヨガ・ヒップアップ・バレエなども選べます。1クラスの定員は14名で、10名以下のクラスもあります。月額はライト（月4回）4,980円・スタンダード（通い放題）7,980円・プレミアム（通い放題＋パーソナル月2回）17,980円、入会金は19,800円で、初回体験レッスンは無料です。公式サイトでは、2026年10月31日までの入会でスタンダードが6,980円（在籍中は継続）と案内しています（スタジオからのご案内・公式サイト・税込・2026年10月21日確認）。',
+    access: '肥後橋駅（Osaka Metro四つ橋線）6番出口 徒歩1分／淀屋橋駅 徒歩5分',
+    address: '〒550-0002 大阪府大阪市西区江戸堀1-8-17 アール肥後橋5F',
+    popularPlan: {
+      name: 'スタンダード（通い放題）',
+      description: 'マットピラティス中心のグループレッスンに、回数の上限なく通えるプランです。',
+      price: '月額7,980円（税込・2026年10月31日までの入会は6,980円）',
+    },
+    options: [
+      '入会金 19,800円',
+      'ライト（月4回）月額4,980円',
+      'プレミアム（通い放題＋パーソナル月2回）月額17,980円',
+      'パーソナル（マンツーマン・1回50分）の都度払い・月4回プラン',
+    ],
+    userProfile: {
+      purpose: ['姿勢改善', '体の不調の改善', 'ヒップアップ', 'リフレッシュ'],
+    },
+    basicInfo: {
+      hours: '9:00〜22:00',
+      closed: '不定休',
+      closedVerified: true, // 2026-10-20 スタジオからの問い合わせ本文（MediaXAI承認で掲載）
+      facilities: ['更衣室', 'マット（スタジオで用意）'],
+    },
+  },
 ]
 
 const faqs = [
@@ -212,7 +243,7 @@ const faqs = [
   },
   {
     question: '北浜・淀屋橋のピラティスの料金相場は？',
-    answer: '公式料金（税込）では、グループの月4回が9,625円（zen place 南森町・マット）〜11,000円です（Pilates Bodywork ライト4）。マンツーマンは1回あたり7,920円（JOODY マンスリー4）〜10,500円（Ua 月2回）です。ピラティススタジオ進化（女性限定）は月2回9,900円・月5回17,800円です（公式・2026年10月20日確認）。',
+    answer: '公式料金（税込）では、グループの月4回が4,980円（MIKOTO pilates studio ライト）〜11,000円です（Pilates Bodywork ライト4）。マンツーマンは1回あたり7,920円（JOODY マンスリー4）〜10,500円（Ua 月2回）です。ピラティススタジオ進化（女性限定）は月2回9,900円・月5回17,800円です（公式・2026年10月20日確認）。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -261,7 +292,7 @@ export default function KitahamaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月20日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス北浜・淀屋橋おすすめ6選<br className="hidden md:block" />
+              ピラティス北浜・淀屋橋おすすめ7選<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較
             </h1>
           </div>
@@ -288,7 +319,7 @@ export default function KitahamaPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、北浜・淀屋橋エリアでおすすめのピラティススタジオ6選をまとめました。
+              本ページでは、北浜・淀屋橋エリアでおすすめのピラティススタジオ7選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -321,10 +352,11 @@ export default function KitahamaPage() {
           </div>
         </section>
 
-        <section className="py-12 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">淀屋橋駅からの徒歩分で比べる早見表</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">「淀屋橋 ピラティス」で探す方向けに、掲載6店を淀屋橋駅から近い順に並べました。徒歩分・住所・体験料金は各スタジオの公式サイトの表記です（2026年10月20日確認・税込）。淀屋橋駅から徒歩5分以内は4店です。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">淀屋橋駅から</th><th className="px-4 py-3 text-left">ほかの最寄駅</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">体験</th></tr></thead><tbody>
+        <section className="py-12 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">淀屋橋駅からの徒歩分で比べる早見表</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">「淀屋橋 ピラティス」で探す方向けに、掲載7店を淀屋橋駅から近い順に並べました。徒歩分・住所・体験料金は各スタジオの公式サイトの表記です（2026年10月20日確認・税込）。淀屋橋駅から徒歩5分以内は5店です。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">淀屋橋駅から</th><th className="px-4 py-3 text-left">ほかの最寄駅</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">体験</th></tr></thead><tbody>
           <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ビーキューブ（伏見町2-6-6 KANBEビル3F）</td><td className="px-4 py-3">徒歩3分</td><td className="px-4 py-3">北浜駅 徒歩3分</td><td className="px-4 py-3">プライベート（完全予約制）</td><td className="px-4 py-3">無料コンサルティング</td></tr>
           <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Ua pilates 北浜（平野町2-2-8 イシモトビル9F）</td><td className="px-4 py-3">徒歩約5分</td><td className="px-4 py-3">北浜駅 徒歩約5分</td><td className="px-4 py-3">パーソナル・セミパーソナル</td><td className="px-4 py-3">13,000円（10/31まで5,000円）</td></tr>
           <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">PILATES STUDIO JOODY 本町（平野町4-8-5）</td><td className="px-4 py-3">13号出口 徒歩5分</td><td className="px-4 py-3">肥後橋駅 6号出口 徒歩5分</td><td className="px-4 py-3">パーソナル・ペアのセミパーソナル（女性専用）</td><td className="px-4 py-3">パーソナル 7,920円〜</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">MIKOTO pilates studio（江戸堀1-8-17 アール肥後橋5F）</td><td className="px-4 py-3">徒歩5分</td><td className="px-4 py-3">肥後橋駅 6番出口 徒歩1分</td><td className="px-4 py-3">マットピラティス中心の少人数制グループ</td><td className="px-4 py-3">無料</td></tr>
           <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Pilates Bodywork Studio（伏見町2-3-9 TAG北浜ビル2F）</td><td className="px-4 py-3">徒歩5分</td><td className="px-4 py-3">北浜駅 徒歩1分</td><td className="px-4 py-3">リフォーマーのグループ・プライベート</td><td className="px-4 py-3">プライベート 8,800円</td></tr>
           <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ピラティススタジオ進化（北浜1-1-20 北浜三ツ星ビル8F）</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">北浜駅 26番出口 徒歩3分</td><td className="px-4 py-3">リフォーマーのグループ（女性限定）</td><td className="px-4 py-3">7,700円（2回分）</td></tr>
           <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">zen place pilates 南森町（天神橋2-3-16）</td><td className="px-4 py-3">—（北浜駅から堺筋線で1駅）</td><td className="px-4 py-3">南森町駅 4B出口 徒歩1分</td><td className="px-4 py-3">マットグループ・プライベート</td><td className="px-4 py-3">マットグループ 1,000円</td></tr>
@@ -337,7 +369,7 @@ export default function KitahamaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              北浜・淀屋橋のおすすめピラティススタジオ6選
+              北浜・淀屋橋のおすすめピラティススタジオ7選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -365,7 +397,7 @@ export default function KitahamaPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">9,625円〜11,000円</td>
+                    <td className="px-4 py-3">4,980円〜11,000円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -379,7 +411,7 @@ export default function KitahamaPage() {
               </table>
             </div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">
-              北浜・淀屋橋はビジネス街としての性格が強く、仕事帰りの利用を想定した夜間プランや回数券プランが充実しています。掲載6店のうち4店はマンツーマン中心で、グループで通えるのは Pilates Bodywork Studio と zen place です。近隣の本町エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
+              北浜・淀屋橋はビジネス街としての性格が強く、仕事帰りの利用を想定した夜間プランや回数券プランが充実しています。掲載7店のうち4店はマンツーマン中心で、グループで通えるのは Pilates Bodywork Studio・zen place・MIKOTO pilates studio です。近隣の本町エリアと比較検討する方も多いので、両エリアの体験レッスンを受けてみるのも賢い選び方です。
             </p>
           </div>
         </section>
@@ -494,9 +526,10 @@ export default function KitahamaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円台で通えるスタジオです。
+                  月額1万1,000円以下で通えるスタジオです。
                 </p>
                 <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• MIKOTO pilates studio（ライト 月4回 4,980円）</li>
                   <li className="text-warm-700">• zen place 南森町（マット月4回 9,625円）</li>
                   <li className="text-warm-700">• Pilates Bodywork Studio（ライト4 月4回 11,000円）</li>
                 </ul>
@@ -562,6 +595,7 @@ export default function KitahamaPage() {
                   グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• MIKOTO pilates studio（4,980円/ライト 月4回）</li>
                   <li>• zen place 南森町（9,625円/月4回）</li>
                   <li>• Pilates Bodywork Studio（11,000円/ライト4）</li>
                 </ul>
@@ -616,7 +650,7 @@ export default function KitahamaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  北浜・淀屋橋の掲載店では、グループ月4回が9,625円〜11,000円、マンツーマンは1回あたり7,920円〜です。入会金やキャンペーンもご確認ください。
+                  北浜・淀屋橋の掲載店では、グループ月4回が4,980円〜11,000円、マンツーマンは1回あたり7,920円〜です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
