@@ -209,6 +209,61 @@ const studios = [
       facilities: ['ロッカー', 'パウダールーム', '整体施術', '女性専用', '明るいスタジオ'],
     },
   },
+  {
+    name: 'ピラティスアヴニール 神戸三宮店',
+    officialUrl: 'https://pilates.avenir-training.com/stores-2-4/sannomiya/',
+    image: '/images/studios/pilates-avenir-sannomiya.webp',
+    price: 'マンツーマン（30分）月2回 9,900円〜・月4回 19,360円〜／1回 5,170円〜（税込・担当トレーナーのランクにより異なります）',
+    trial: '初回体験 90分 2,980円（税込）',
+    features: ['完全個室マンツーマン', 'JR三ノ宮駅中央口 徒歩2分', 'マシンピラティス', '7:00〜23:00 年中無休'],
+    description: 'JR三ノ宮駅中央口から徒歩2分、中央区琴ノ緒町の三経ビル4階にある、完全個室・マンツーマンのマシンピラティススタジオです。リフォーマー・チェア・バレルを使い、目的や体力に合わせてレッスンを組み立てます。営業時間は7:00〜23:00（年中無休）。妊娠中・産後の方のマタニティピラティスにも対応し、お子さま連れでも通えます（保育はありません）。初回体験は90分2,980円、マンツーマン30分の月4回は19,360円〜です。料金は担当トレーナーのランクにより異なります（公式の店舗ページ・税込・2026年10月22日確認）。',
+    access: 'JR「三ノ宮駅」中央口 徒歩2分／地下鉄「三宮駅」東出口2 徒歩3分／阪急「神戸三宮駅」東出口2 徒歩6分',
+    address: '〒651-0094 兵庫県神戸市中央区琴ノ緒町5丁目5-29 三経ビル4階',
+    popularPlan: {
+      name: 'マンツーマン（30分）月4回',
+      description: '完全個室でトレーナーとマンツーマンのマシンピラティスを月4回受けられるプランです。',
+      price: '月額19,360円〜（税込）',
+    },
+    options: [
+      'マンツーマン（60分）月2回 18,040円〜・月4回 35,200円〜',
+      'ペア・セミパーソナル（3人）のプランもあります',
+      '回数券 30分1回 5,170円〜・60分1回 9,350円〜',
+      '入会金 8,800円（体験当日に32回券を購入すると無料）',
+    ],
+    basicInfo: {
+      hours: '7:00〜23:00',
+      closed: '年中無休',
+      facilities: ['リフォーマー', 'チェア', 'バレル', '更衣室', 'ウォーターサーバー'],
+    },
+  },
+  {
+    name: 'ピラティスアヴニール 岡本店',
+    officialUrl: 'https://pilates.avenir-training.com/stores-2-4/okamoto/',
+    image: '/images/studios/pilates-avenir-okamoto.webp',
+    price: 'マンツーマン（30分）月2回 9,900円〜・月4回 19,360円〜／1回 5,170円〜（税込・担当トレーナーのランクにより異なります）',
+    trial: '初回体験 90分 2,980円（税込）',
+    features: ['完全個室マンツーマン', '阪急岡本駅 徒歩2分', 'JR摂津本山駅 徒歩4分', '7:00〜23:00 年中無休'],
+    description: '阪急岡本駅から徒歩2分、東灘区岡本1丁目のココリコビル3階にある、完全個室・マンツーマンのマシンピラティススタジオです。リフォーマー・チェア・バレルを使い、目的や体力に合わせてレッスンを組み立てます。営業時間は7:00〜23:00（年中無休）。妊娠中・産後の方のマタニティピラティスにも対応し、お子さま連れでも通えます（保育はありません）。初回体験は90分2,980円、マンツーマン30分の月4回は19,360円〜です。料金は担当トレーナーのランクにより異なります（公式の店舗ページ・税込・2026年10月22日確認）。',
+    access: '阪急「岡本駅」徒歩2分／JR「摂津本山駅」徒歩4分',
+    address: '〒658-0072 兵庫県神戸市東灘区岡本1丁目14-20 ココリコビル3階',
+    popularPlan: {
+      name: 'マンツーマン（30分）月4回',
+      description: '完全個室でトレーナーとマンツーマンのマシンピラティスを月4回受けられるプランです。',
+      price: '月額19,360円〜（税込）',
+    },
+    options: [
+      'マンツーマン（60分）月2回 18,040円〜・月4回 35,200円〜',
+      'ペア・セミパーソナル（3人）のプランもあります',
+      '回数券 30分1回 5,170円〜・60分1回 9,350円〜',
+      '入会金 8,800円（体験当日に32回券を購入すると無料）',
+    ],
+    basicInfo: {
+      hours: '7:00〜23:00',
+      closed: '年中無休',
+      facilities: ['リフォーマー', 'チェア', 'バレル', '更衣室', 'ウォーターサーバー'],
+    },
+  },
+
 ]
 
 const faqs = [
@@ -222,7 +277,7 @@ const faqs = [
   },
   {
     question: '神戸のピラティススタジオの料金相場は？',
-    answer: '神戸エリアのピラティススタジオの料金相場は、グループレッスンで月4回13,000円〜15,000円程度です。パーソナルレッスンはピラティススタジオDEP 神戸店 Reshoの月2回17,000円〜（都度払いは1回12,000円）やLa pilatesのサブスク月1回12,000円〜が目安です。ピラティスK 神戸三宮店の月4回13,420円が一つの目安になります。',
+    answer: '神戸エリアのピラティススタジオの料金相場は、グループレッスンで月4回13,000円〜15,000円程度です。パーソナルレッスンはピラティススタジオDEP 神戸店 Reshoの月2回17,000円〜（都度払いは1回12,000円）やLa pilatesのサブスク月1回12,000円〜が目安です。ピラティスK 神戸三宮店の月4回13,420円が一つの目安になります。完全個室マンツーマンのピラティスアヴニール（神戸三宮店・岡本店）は30分1回5,170円〜・30分の月4回19,360円〜です（税込）。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -271,7 +326,7 @@ export default async function KobeAreaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              神戸のピラティススタジオおすすめ6選<br className="hidden md:block" />
+              神戸のピラティススタジオおすすめ8選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -296,7 +351,7 @@ export default async function KobeAreaPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、神戸エリアでおすすめのピラティススタジオ6選をまとめました。
+              本ページでは、神戸エリアでおすすめのピラティススタジオ8選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -335,7 +390,7 @@ export default async function KobeAreaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              神戸のおすすめピラティススタジオ6選
+              神戸のおすすめピラティススタジオ8選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -367,7 +422,7 @@ export default async function KobeAreaPage() {
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回 12,000円〜</td>
+                    <td className="px-4 py-3">1回 5,170円（30分）〜</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
@@ -535,6 +590,7 @@ export default async function KobeAreaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• DEP 神戸店 初回体験（2,980円）</li>
+                  <li>• ピラティスアヴニール 初回体験（90分 2,980円）</li>
                   <li>• La pilates 体験（3,000円）</li>
                 </ul>
               </div>

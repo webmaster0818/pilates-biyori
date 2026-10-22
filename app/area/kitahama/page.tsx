@@ -198,11 +198,11 @@ const studios = [
   {
     name: 'MIKOTO pilates studio',
     officialUrl: 'https://mikoto-pilates.com/',
-    image: '/images/studios/mikoto-pilates.webp',
-    price: 'ライト（月4回）月額4,980円／スタンダード（通い放題）月額7,980円／プレミアム（通い放題＋パーソナル月2回）月額17,980円（税込）',
+    image: '/images/studios/mikoto-pilates-interior.webp',
+    price: 'ライト（月4回）月額4,980円／スタンダード（通い放題）月額7,980円／プレミアム（通い放題＋パーソナル月2回）月額17,980円／プライベートパーソナルレッスン 1回7,980円（単発）（いずれも税込）',
     trial: '初回体験レッスン無料',
-    features: ['肥後橋駅6番出口 徒歩1分', 'マットピラティス中心の少人数制グループ', 'ヨガ・ヒップアップ・バレエも選択可', '月額4,980円から'],
-    description: '肥後橋駅6番出口から徒歩1分、淀屋橋駅から徒歩5分、江戸堀1丁目のアール肥後橋5階にあるピラティススタジオです。マットピラティス中心の少人数制グループレッスンで、ヨガ・ヒップアップ・バレエなども選べます。1クラスの定員は14名で、10名以下のクラスもあります。月額はライト（月4回）4,980円・スタンダード（通い放題）7,980円・プレミアム（通い放題＋パーソナル月2回）17,980円、入会金は19,800円で、初回体験レッスンは無料です。公式サイトでは、2026年10月31日までの入会でスタンダードが6,980円（在籍中は継続）と案内しています（スタジオからのご案内・公式サイト・税込・2026年10月21日確認）。',
+    features: ['肥後橋駅6番出口 徒歩1分', 'マットピラティス中心の少人数制グループ', 'ヨガ・ヒップアップ・バレエも選択可', '月額4,980円から', 'グループ＋プライベート（マンツーマン）'],
+    description: '肥後橋駅6番出口から徒歩1分、淀屋橋駅から徒歩5分、江戸堀1丁目のアール肥後橋5階にあるピラティススタジオです。マットピラティス中心の少人数制グループレッスンで、ヨガ・ヒップアップ・バレエなども選べます。1クラスの定員は14名で、10名以下のクラスもあります。月額はライト（月4回）4,980円・スタンダード（通い放題）7,980円・プレミアム（通い放題＋パーソナル月2回）17,980円、入会金は19,800円で、初回体験レッスンは無料です。2026年10月からは、インストラクターがマンツーマンで指導するプライベートパーソナルレッスン（1回7,980円・単発）も受けられます。公式サイトでは、2026年10月31日までの入会でスタンダードが6,980円（在籍中は継続）と案内しています（スタジオからのご案内・公式サイト・税込・2026年10月21日確認。プライベートパーソナルレッスンは2026年10月21日のスタジオからのご案内）。',
     access: '肥後橋駅（Osaka Metro四つ橋線）6番出口 徒歩1分／淀屋橋駅 徒歩5分',
     address: '〒550-0002 大阪府大阪市西区江戸堀1-8-17 アール肥後橋5F',
     popularPlan: {
@@ -214,6 +214,7 @@ const studios = [
       '入会金 19,800円',
       'ライト（月4回）月額4,980円',
       'プレミアム（通い放題＋パーソナル月2回）月額17,980円',
+      'プライベートパーソナルレッスン（マンツーマン）1回7,980円（単発・税込）',
       'パーソナル（マンツーマン・1回50分）の都度払い・月4回プラン',
     ],
     userProfile: {
@@ -356,7 +357,7 @@ export default function KitahamaPage() {
           <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ビーキューブ（伏見町2-6-6 KANBEビル3F）</td><td className="px-4 py-3">徒歩3分</td><td className="px-4 py-3">北浜駅 徒歩3分</td><td className="px-4 py-3">プライベート（完全予約制）</td><td className="px-4 py-3">無料コンサルティング</td></tr>
           <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Ua pilates 北浜（平野町2-2-8 イシモトビル9F）</td><td className="px-4 py-3">徒歩約5分</td><td className="px-4 py-3">北浜駅 徒歩約5分</td><td className="px-4 py-3">パーソナル・セミパーソナル</td><td className="px-4 py-3">13,000円（10/31まで5,000円）</td></tr>
           <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">PILATES STUDIO JOODY 本町（平野町4-8-5）</td><td className="px-4 py-3">13号出口 徒歩5分</td><td className="px-4 py-3">肥後橋駅 6号出口 徒歩5分</td><td className="px-4 py-3">パーソナル・ペアのセミパーソナル（女性専用）</td><td className="px-4 py-3">パーソナル 7,920円〜</td></tr>
-          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">MIKOTO pilates studio（江戸堀1-8-17 アール肥後橋5F）</td><td className="px-4 py-3">徒歩5分</td><td className="px-4 py-3">肥後橋駅 6番出口 徒歩1分</td><td className="px-4 py-3">マットピラティス中心の少人数制グループ</td><td className="px-4 py-3">無料</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">MIKOTO pilates studio（江戸堀1-8-17 アール肥後橋5F）</td><td className="px-4 py-3">徒歩5分</td><td className="px-4 py-3">肥後橋駅 6番出口 徒歩1分</td><td className="px-4 py-3">マットピラティス中心の少人数制グループ・プライベート</td><td className="px-4 py-3">無料</td></tr>
           <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Pilates Bodywork Studio（伏見町2-3-9 TAG北浜ビル2F）</td><td className="px-4 py-3">徒歩5分</td><td className="px-4 py-3">北浜駅 徒歩1分</td><td className="px-4 py-3">リフォーマーのグループ・プライベート</td><td className="px-4 py-3">プライベート 8,800円</td></tr>
           <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ピラティススタジオ進化（北浜1-1-20 北浜三ツ星ビル8F）</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">北浜駅 26番出口 徒歩3分</td><td className="px-4 py-3">リフォーマーのグループ（女性限定）</td><td className="px-4 py-3">7,700円（2回分）</td></tr>
           <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">zen place pilates 南森町（天神橋2-3-16）</td><td className="px-4 py-3">—（北浜駅から堺筋線で1駅）</td><td className="px-4 py-3">南森町駅 4B出口 徒歩1分</td><td className="px-4 py-3">マットグループ・プライベート</td><td className="px-4 py-3">マットグループ 1,000円</td></tr>
@@ -622,6 +623,7 @@ export default function KitahamaPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• PILATES STUDIO JOODY（マンスリー4 31,680円）</li>
                   <li>• Ua pilates（月4回 38,000円）</li>
+                  <li>• MIKOTO pilates studio（プライベートパーソナル 1回7,980円）</li>
                 </ul>
               </div>
             </div>

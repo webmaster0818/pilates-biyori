@@ -158,13 +158,30 @@ const studios = [
   },
   {
     name: 'ピラティスアヴニール 天王寺店',
+    officialUrl: 'https://pilates.avenir-training.com/stores-2-4/tennoji/',
     image: '/images/studios/pilates-avenir-tennoji.webp',
-    price: '都度払い・月額制あり',
-    trial: '体験レッスン あり',
-    features: ['完全個室', 'マンツーマン', 'あべのベルタ', '阿倍野駅徒歩1分'],
-    description: '完全個室でマンツーマンのマシンピラティスを提供するパーソナルスタジオです。あべのベルタ4階に位置し、地下鉄阿倍野駅から徒歩1分の好立地です。都度払い・月額制・回数券制の3プランから選べ、朝7時から夜23時まで営業と通いやすさも抜群です。顧客満足度の高い丁寧な指導が評判です。',
-    access: '地下鉄阿倍野駅 徒歩1分 / JR天王寺駅 徒歩5分',
-    address: '大阪府大阪市阿倍野区阿倍野筋3-10-1 あべのベルタ4F',
+    price: 'マンツーマン（30分）月2回 9,900円〜・月4回 19,360円〜／1回 5,170円〜（税込・担当トレーナーのランクにより異なります）',
+    trial: '初回体験 90分 2,980円（税込）',
+    features: ['完全個室マンツーマン', '阿倍野駅7番出口 徒歩1分', 'あべのベルタ事務所棟4F', '7:00〜23:00 年中無休'],
+    description: '地下鉄阿倍野駅7番出口から徒歩1分、阿倍野区阿倍野筋3丁目のあべのベルタ事務所棟4F-Aにある、完全個室・マンツーマンのマシンピラティススタジオです。リフォーマー・チェア・バレルを使い、目的や体力に合わせてレッスンを組み立てます。営業時間は7:00〜23:00（年中無休）。妊娠中・産後の方のマタニティピラティスにも対応し、お子さま連れでも通えます（保育はありません）。初回体験は90分2,980円、マンツーマン30分の月4回は19,360円〜です。料金は担当トレーナーのランクにより異なります（公式の店舗ページ・税込・2026年10月22日確認）。',
+    access: '地下鉄「阿倍野駅」7番出口 徒歩1分／近鉄「大阪阿部野橋駅」西改札口 徒歩4分／JR「天王寺駅」北口 徒歩5分',
+    address: '〒545-0052 大阪府大阪市阿倍野区阿倍野筋3丁目10-1 あべのベルタ事務所棟4F-A',
+    popularPlan: {
+      name: 'マンツーマン（30分）月4回',
+      description: '完全個室でトレーナーとマンツーマンのマシンピラティスを月4回受けられるプランです。',
+      price: '月額19,360円〜（税込）',
+    },
+    options: [
+      'マンツーマン（60分）月2回 18,040円〜・月4回 35,200円〜',
+      'ペア・セミパーソナル（3人）のプランもあります',
+      '回数券 30分1回 5,170円〜・60分1回 9,350円〜',
+      '入会金 8,800円（体験当日に32回券を購入すると無料）',
+    ],
+    basicInfo: {
+      hours: '7:00〜23:00',
+      closed: '年中無休',
+      facilities: ['リフォーマー', 'チェア', 'バレル', '更衣室', 'ウォーターサーバー'],
+    },
   },
   {
     name: 'Hain pilates 天王寺店',
@@ -228,6 +245,34 @@ const studios = [
     access: '天王寺駅から直結',
     address: '大阪府大阪市天王寺区悲田院町10番48号天王寺ミオプラザ館7階 第705号',
   },
+  {
+    name: 'ピラティスアヴニール 天王寺2号店',
+    officialUrl: 'https://pilates.avenir-training.com/stores-2-4/tennoji2/',
+    image: '/images/studios/pilates-avenir-tennoji2.webp',
+    price: 'マンツーマン（30分）月2回 9,900円〜・月4回 19,360円〜／1回 5,170円〜（税込・担当トレーナーのランクにより異なります）',
+    trial: '初回体験 90分 2,980円（税込）',
+    features: ['完全個室マンツーマン', '天王寺駅北口 徒歩4分', '8:00〜21:30 年中無休', 'マシンピラティス'],
+    description: '天王寺駅北口から徒歩4分、天王寺区南河堀町のターミナル天王寺北口ビル502号室にある、完全個室・マンツーマンのマシンピラティススタジオです。リフォーマー・チェア・バレルを使い、目的や体力に合わせてレッスンを組み立てます。営業時間は8:00〜21:30（年中無休）。妊娠中・産後の方のマタニティピラティスにも対応し、お子さま連れでも通えます（保育はありません）。初回体験は90分2,980円、マンツーマン30分の月4回は19,360円〜です。料金は担当トレーナーのランクにより異なります（公式の店舗ページ・税込・2026年10月22日確認）。',
+    access: '地下鉄・JR「天王寺駅」北口 徒歩4分／近鉄「大阪阿部野橋駅」出口3（庚申口）徒歩7分',
+    address: '〒543-0054 大阪府大阪市天王寺区南河堀町9-43 ターミナル天王寺北口ビル502号室',
+    popularPlan: {
+      name: 'マンツーマン（30分）月4回',
+      description: '完全個室でトレーナーとマンツーマンのマシンピラティスを月4回受けられるプランです。',
+      price: '月額19,360円〜（税込）',
+    },
+    options: [
+      'マンツーマン（60分）月2回 18,040円〜・月4回 35,200円〜',
+      'ペア・セミパーソナル（3人）のプランもあります',
+      '回数券 30分1回 5,170円〜・60分1回 9,350円〜',
+      '入会金 8,800円（体験当日に32回券を購入すると無料）',
+    ],
+    basicInfo: {
+      hours: '8:00〜21:30',
+      closed: '年中無休',
+      facilities: ['リフォーマー', 'チェア', 'バレル', '更衣室', 'ウォーターサーバー'],
+    },
+  },
+
 ]
 
 const faqs = [
@@ -241,7 +286,7 @@ const faqs = [
   },
   {
     question: '天王寺のピラティススタジオの料金相場は？',
-    answer: '天王寺エリアのピラティススタジオの料金相場は、月4回のグループレッスンで10,000円〜15,000円程度です。pilates Kのマンスリー4が13,420円、リントスルが9,800円と比較的お手頃です。体験レッスンは無料〜4,000円が一般的です。プライベートレッスンは1回7,000円〜12,000円が相場となっています。',
+    answer: '天王寺エリアのピラティススタジオの料金相場は、月4回のグループレッスンで10,000円〜15,000円程度です。pilates Kのマンスリー4が13,420円、リントスルが9,800円と比較的お手頃です。体験レッスンは無料〜4,000円が一般的です。プライベートレッスンは1回7,000円〜12,000円が相場となっています。ピラティスアヴニール（天王寺店・天王寺2号店）の完全個室マンツーマンは、初回体験90分2,980円、30分1回5,170円〜・30分の月4回19,360円〜です（税込）。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -290,7 +335,7 @@ export default function TennojiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス天王寺おすすめ14選<br className="hidden md:block" />
+              ピラティス天王寺おすすめ15選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -315,7 +360,7 @@ export default function TennojiPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、天王寺・阿倍野エリアでおすすめのピラティススタジオ14選をまとめました。
+              本ページでは、天王寺・阿倍野エリアでおすすめのピラティススタジオ15選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -354,7 +399,7 @@ export default function TennojiPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              天王寺のおすすめピラティススタジオ14選
+              天王寺のおすすめピラティススタジオ15選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -511,6 +556,7 @@ export default function TennojiPage() {
                   <li className="text-warm-700">• LAULE'A（阿倍野駅徒歩10秒）</li>
                   <li className="text-warm-700">• La pilates（天王寺駅徒歩1分）</li>
                   <li className="text-warm-700">• pilates K（天王寺駅14番出口徒歩1分）</li>
+                  <li className="text-warm-700">• ピラティスアヴニール 天王寺店（阿倍野駅7番出口徒歩1分）</li>
                 </ul>
               </div>
             </div>
@@ -581,6 +627,7 @@ export default function TennojiPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Sonare（1回9,350円）</li>
                   <li>• La pilates（プライベート）</li>
+                  <li>• ピラティスアヴニール（60分 月4回 35,200円〜）</li>
                 </ul>
               </div>
             </div>

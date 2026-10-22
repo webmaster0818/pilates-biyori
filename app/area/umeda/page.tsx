@@ -120,6 +120,64 @@ const studios = [
     access: '東梅田駅から徒歩2分',
     address: '大阪府大阪市北区太融寺町8-2 エーワンビル4階',
   },
+  {
+    name: 'ピラティスアヴニール 梅田中津店',
+    officialUrl: 'https://pilates.avenir-training.com/stores-2-4/umedanakatsu/',
+    image: '/images/studios/pilates-avenir-umedanakatsu.webp',
+    price: 'マンツーマン（30分）月2回 9,900円〜・月4回 19,360円〜／1回 5,170円〜（税込・担当トレーナーのランクにより異なります）',
+    trial: '初回体験 90分 2,980円（税込）',
+    features: ['女性専用', '完全個室マンツーマン', '中津駅1番出口 徒歩6分', '7:00〜23:00 年中無休'],
+    description: '大阪メトロ中津駅1番出口から徒歩6分、北区豊崎のティーズオフィスビル201号室にある、完全個室・マンツーマンのマシンピラティススタジオです。女性専用の店舗です。リフォーマー・チェア・バレルを使い、目的や体力に合わせてレッスンを組み立てます。営業時間は7:00〜23:00（年中無休）。妊娠中・産後の方のマタニティピラティスにも対応し、お子さま連れでも通えます（保育はありません）。初回体験は90分2,980円、マンツーマン30分の月4回は19,360円〜です。料金は担当トレーナーのランクにより異なります（公式の店舗ページ・税込・2026年10月22日確認）。',
+    access: '大阪メトロ「中津駅」1番出口 徒歩6分',
+    address: '〒531-0072 大阪府大阪市北区豊崎2丁目9-16 ティーズオフィスビル201号室',
+    popularPlan: {
+      name: 'マンツーマン（30分）月4回',
+      description: '完全個室でトレーナーとマンツーマンのマシンピラティスを月4回受けられるプランです。',
+      price: '月額19,360円〜（税込）',
+    },
+    options: [
+      'マンツーマン（60分）月2回 18,040円〜・月4回 35,200円〜',
+      'ペア・セミパーソナル（3人）のプランもあります',
+      '回数券 30分1回 5,170円〜・60分1回 9,350円〜',
+      '入会金 8,800円（体験当日に32回券を購入すると無料）',
+    ],
+    userProfile: {
+      genderRatio: '女性専用',
+    },
+    basicInfo: {
+      hours: '7:00〜23:00',
+      closed: '年中無休',
+      facilities: ['リフォーマー', 'チェア', 'バレル', '更衣室', 'ウォーターサーバー'],
+    },
+  },
+  {
+    name: 'ピラティスアヴニール 福島店',
+    officialUrl: 'https://pilates.avenir-training.com/stores-2-4/fukushima/',
+    image: '/images/studios/pilates-avenir-fukushima.webp',
+    price: 'マンツーマン（30分）月2回 9,900円〜・月4回 19,360円〜／1回 5,170円〜（税込・担当トレーナーのランクにより異なります）',
+    trial: '初回体験 90分 2,980円（税込）',
+    features: ['完全個室マンツーマン', '新福島駅2番出口 徒歩1分', '阪神福島駅 徒歩3分', '7:00〜23:00 年中無休'],
+    description: 'JR新福島駅2番出口から徒歩1分、福島区福島5丁目にある、完全個室・マンツーマンのマシンピラティススタジオです。リフォーマー・チェア・バレルを使い、目的や体力に合わせてレッスンを組み立てます。営業時間は7:00〜23:00（年中無休）。妊娠中・産後の方のマタニティピラティスにも対応し、お子さま連れでも通えます（保育はありません）。初回体験は90分2,980円、マンツーマン30分の月4回は19,360円〜です。料金は担当トレーナーのランクにより異なります（公式の店舗ページ・税込・2026年10月22日確認）。',
+    access: 'JR「新福島駅」2番出口 徒歩1分／阪神「福島駅」徒歩3分／JR「福島駅」徒歩4分',
+    address: '〒553-0003 大阪府大阪市福島区福島5丁目15-15 2Yoshikawa Bild502',
+    popularPlan: {
+      name: 'マンツーマン（30分）月4回',
+      description: '完全個室でトレーナーとマンツーマンのマシンピラティスを月4回受けられるプランです。',
+      price: '月額19,360円〜（税込）',
+    },
+    options: [
+      'マンツーマン（60分）月2回 18,040円〜・月4回 35,200円〜',
+      'ペア・セミパーソナル（3人）のプランもあります',
+      '回数券 30分1回 5,170円〜・60分1回 9,350円〜',
+      '入会金 8,800円（体験当日に32回券を購入すると無料）',
+    ],
+    basicInfo: {
+      hours: '7:00〜23:00',
+      closed: '年中無休',
+      facilities: ['リフォーマー', 'チェア', 'バレル', '更衣室', 'ウォーターサーバー'],
+    },
+  },
+
 ]
 
 const faqs = [
@@ -133,7 +191,7 @@ const faqs = [
   },
   {
     question: '梅田のピラティススタジオの料金相場は？',
-    answer: '梅田エリアのピラティススタジオの料金相場は、月4回で12,000円〜16,000円程度です。体験レッスンは無料〜3,000円が一般的です。プライベートレッスンは1回8,000円〜12,000円が相場となっています。',
+    answer: '梅田エリアのピラティススタジオの料金相場は、月4回で12,000円〜16,000円程度です。体験レッスンは無料〜3,000円が一般的です。プライベートレッスンは1回8,000円〜12,000円が相場となっています。完全個室マンツーマンのピラティスアヴニール（梅田中津店・福島店）は30分1回5,170円〜・60分1回9,350円〜です（税込）。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -182,7 +240,7 @@ export default function UmedaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス梅田おすすめ5選<br className="hidden md:block" />
+              ピラティス梅田おすすめ7選<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較
             </h1>
           </div>
@@ -209,7 +267,7 @@ export default function UmedaPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、梅田エリアでおすすめのピラティススタジオ5選をまとめました。
+              本ページでは、梅田エリアでおすすめのピラティススタジオ7選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -249,7 +307,7 @@ export default function UmedaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              梅田のおすすめピラティススタジオ5選
+              梅田のおすすめピラティススタジオ7選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -365,6 +423,7 @@ export default function UmedaPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• B-line（1回8,800円）</li>
                   <li>• Pilates Lab</li>
+                  <li>• ピラティスアヴニール 梅田中津店・福島店（60分 月4回 35,200円〜）</li>
                 </ul>
               </div>
             </div>
@@ -437,7 +496,7 @@ export default function UmedaPage() {
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">パーソナル・プライベートレッスン</h3>
                   <p className="text-3xl font-bold text-warm-800 mb-2">8,000円〜12,000円/回</p>
-                  <p className="text-sm text-warm-600">梅田エリアのプライベートレッスン相場は1回8,000円〜12,000円程度です。Studio Venusは完全パーソナルで個室対応しています。zen placeはプライベートとグループの併用も可能で柔軟な利用ができます。</p>
+                  <p className="text-sm text-warm-600">梅田エリアのプライベートレッスン相場は1回8,000円〜12,000円程度です。Studio Venusは完全パーソナルで個室対応しています。zen placeはプライベートとグループの併用も可能で柔軟な利用ができます。ピラティスアヴニール（梅田中津店・福島店）は完全個室マンツーマンで、30分1回5,170円〜・60分1回9,350円〜です（税込・担当トレーナーのランクにより異なります）。</p>
                 </div>
               </div>
               <div className="bg-white rounded-lg p-5 border border-warm-200">

@@ -179,6 +179,61 @@ const studios = [
       facilities: ['リフォーマーマシン', 'ピラティスマシン各種', '更衣室', 'ロッカー'],
     },
   },
+  {
+    name: 'ピラティスアヴニール 京都山科店',
+    officialUrl: 'https://pilates.avenir-training.com/yamashina/',
+    image: '/images/studios/pilates-avenir-yamashina.webp',
+    price: 'マンツーマン（30分）月2回 9,900円〜・月4回 19,360円〜／1回 5,170円〜（税込・担当トレーナーのランクにより異なります）',
+    trial: '初回体験 90分 2,980円（税込）',
+    features: ['完全個室マンツーマン', '京阪四宮駅 徒歩2分', '駐車場・駐輪場あり', '7:00〜23:00 年中無休'],
+    description: '京阪京津線の四宮駅から徒歩2分、山科区四ノ宮の四ノ宮コート2階にある、完全個室・マンツーマンのマシンピラティススタジオです。リフォーマー・チェア・バレルを使い、目的や体力に合わせてレッスンを組み立てます。営業時間は7:00〜23:00（年中無休）。妊娠中・産後の方のマタニティピラティスにも対応し、お子さま連れでも通えます（保育はありません）。初回体験は90分2,980円、マンツーマン30分の月4回は19,360円〜です。料金は担当トレーナーのランクにより異なります（公式の店舗ページ・税込・2026年10月22日確認）。',
+    access: '京阪京津線「四宮駅」徒歩2分／JR・京阪「山科駅」徒歩9分',
+    address: '〒607-8041 京都府京都市山科区四ノ宮垣ノ内町32 四ノ宮コート2階 702号室',
+    popularPlan: {
+      name: 'マンツーマン（30分）月4回',
+      description: '完全個室でトレーナーとマンツーマンのマシンピラティスを月4回受けられるプランです。',
+      price: '月額19,360円〜（税込）',
+    },
+    options: [
+      'マンツーマン（60分）月2回 18,040円〜・月4回 35,200円〜',
+      'ペア・セミパーソナル（3人）のプランもあります',
+      '回数券 30分1回 5,170円〜・60分1回 9,350円〜',
+      '入会金 8,800円（体験当日に32回券を購入すると無料）',
+    ],
+    basicInfo: {
+      hours: '7:00〜23:00',
+      closed: '年中無休',
+      facilities: ['リフォーマー', 'チェア', 'バレル', '更衣室', 'ウォーターサーバー', '駐車場', '駐輪場'],
+    },
+  },
+  {
+    name: 'ピラティスアヴニール 京都西大路店',
+    officialUrl: 'https://pilates.avenir-training.com/stores-2-4/kyoto-nishioji/',
+    image: '/images/studios/pilates-avenir-kyoto-nishioji.webp',
+    price: 'マンツーマン（30分）月2回 9,900円〜・月4回 19,360円〜／1回 5,170円〜（税込・担当トレーナーのランクにより異なります）',
+    trial: '初回体験 90分 2,980円（税込）',
+    features: ['完全個室マンツーマン', 'JR西大路駅 徒歩2分', '2026年10月1日オープン', '7:00〜23:00 年中無休'],
+    description: 'JR京都線の西大路駅から徒歩2分、下京区七条御所ノ内南町の八条ビル3階にある、完全個室・マンツーマンのマシンピラティススタジオです。リフォーマー・チェア・バレルを使い、目的や体力に合わせてレッスンを組み立てます。2026年10月1日にオープンした店舗です。営業時間は7:00〜23:00（年中無休）。妊娠中・産後の方のマタニティピラティスにも対応し、お子さま連れでも通えます（保育はありません）。初回体験は90分2,980円、マンツーマン30分の月4回は19,360円〜です。料金は担当トレーナーのランクにより異なります（公式の店舗ページ・税込・2026年10月22日確認）。',
+    access: 'JR京都線「西大路駅」徒歩2分',
+    address: '〒600-8864 京都府京都市下京区七条御所ノ内南町89-1 八条ビル3階301号室',
+    popularPlan: {
+      name: 'マンツーマン（30分）月4回',
+      description: '完全個室でトレーナーとマンツーマンのマシンピラティスを月4回受けられるプランです。',
+      price: '月額19,360円〜（税込）',
+    },
+    options: [
+      'マンツーマン（60分）月2回 18,040円〜・月4回 35,200円〜',
+      'ペア・セミパーソナル（3人）のプランもあります',
+      '回数券 30分1回 5,170円〜・60分1回 9,350円〜',
+      '入会金 8,800円（体験当日に32回券を購入すると無料）',
+    ],
+    basicInfo: {
+      hours: '7:00〜23:00',
+      closed: '年中無休',
+      facilities: ['リフォーマー', 'チェア', 'バレル', '更衣室', 'ウォーターサーバー'],
+    },
+  },
+
 ]
 
 const faqs = [
@@ -192,7 +247,7 @@ const faqs = [
   },
   {
     question: '京都のピラティスの料金相場は？',
-    answer: 'Rintosullは月4回8,800円〜と最安クラスです。アーバンクラシックは月4回9,680円〜です。zen placeは月4回10,450円〜です。グループ月4回で8,800円〜13,420円が相場です。',
+    answer: 'Rintosullは月4回8,800円〜と最安クラスです。アーバンクラシックは月4回9,680円〜です。zen placeは月4回10,450円〜です。グループ月4回で8,800円〜13,420円が相場です。完全個室マンツーマンのピラティスアヴニール（京都山科店・京都西大路店）は30分1回5,170円〜・30分の月4回19,360円〜です（税込）。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -241,7 +296,7 @@ export default function KyotoPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス京都おすすめ5選<br className="hidden md:block" />
+              ピラティス京都おすすめ7選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -266,7 +321,7 @@ export default function KyotoPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、京都エリアでおすすめのピラティススタジオ5選をまとめました。
+              本ページでは、京都エリアでおすすめのピラティススタジオ7選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -305,7 +360,7 @@ export default function KyotoPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              京都のおすすめピラティススタジオ5選
+              京都のおすすめピラティススタジオ7選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -337,11 +392,11 @@ export default function KyotoPage() {
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回 8,800円〜13,420円</td>
+                    <td className="px-4 py-3">1回 5,170円（30分）〜13,420円</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">無料〜1,000円</td>
+                    <td className="px-4 py-3">無料〜2,980円</td>
                   </tr>
                 </tbody>
               </table>
@@ -450,6 +505,7 @@ export default function KyotoPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK（音楽レッスン）</li>
                   <li className="text-warm-700">• Pilates MUSE（24時間利用可）</li>
+                  <li className="text-warm-700">• ピラティスアヴニール（完全個室マンツーマン）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -634,7 +690,7 @@ export default function KyotoPage() {
               体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜1,000円です。<br />
+              初回限定の体験レッスン無料〜2,980円です。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
