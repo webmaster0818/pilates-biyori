@@ -108,6 +108,36 @@ const studios = [
     },
   },
   {
+    name: 'YOURBODY 西荻窪店',
+    officialUrl: 'https://yourbody.jp/nishi-ogikubo',
+    image: '/images/studios/yourbody-nishiogikubo.webp',
+    price: '8,800円／回（税込）',
+    trial: '体験レッスン 3,300円（モニターキャンペーン・先着10名）',
+    features: ['完全プライベート', '駅徒歩4分', '男女利用可', 'お子さま・ワンちゃん同伴可'],
+    description: '西荻窪駅南口から徒歩4分の、完全プライベートのピラティススタジオです。マシンピラティスとパーソナルレッスンを提供しており、男女ともに利用できます。ペアレッスンにも対応しているため、ご夫婦や親子での受講も可能です。お子さま連れでの来店に対応しており（ケージあり）、ワンちゃんもキャリー等に入れて一緒に来店できます。公式サイトでは、運動がはじめての方や、肩こり・腰痛が気になる方に向けたスタジオとして案内されています。',
+    access: '西荻窪駅 南口より徒歩4分',
+    address: '〒167-0054 東京都杉並区松庵3丁目25-10 三楽ビル 1F',
+    popularPlan: {
+      name: '完全プライベートピラティス',
+      description: '1対1のプライベートレッスンです。マシンピラティスにも対応しています',
+      price: '8,800円／回（税込）',
+    },
+    options: [
+      '体験レッスン: 3,300円（モニターキャンペーン・先着10名）',
+      '入会金: 11,000円（モニターキャンペーン中はご契約時に無料）',
+      'モニターキャンペーン: 在籍中は月会費20%OFF',
+      'ペアレッスン対応',
+    ],
+    userProfile: {
+      purpose: ['運動をはじめたい', '肩こり・腰痛のケア', 'お子さま・ワンちゃん連れでの受講'],
+    },
+    basicInfo: {
+      hours: '9:00〜22:00',
+      closed: '不定休',
+      facilities: ['店舗前に駐輪可', 'お子さま用ケージ'],
+    },
+  },
+  {
     name: 'YAPF（カラダ改善スタジオ）',
     image: '/images/studios/yapf-nishiogikubo.webp',
     price: '詳細は公式サイト参照',
@@ -284,7 +314,7 @@ export default function NishiOgikuboAreaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス西荻窪おすすめ6選<br className="hidden md:block" />
+              ピラティス西荻窪おすすめ7選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -309,7 +339,7 @@ export default function NishiOgikuboAreaPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、JR中央線・総武線西荻窪駅周辺と中央線沿線（荻窪・阿佐ヶ谷）のおすすめピラティススタジオ6選をまとめました。杉並区のアンティークの街として知られる西荻窪は、善福寺公園も近く、落ち着いた雰囲気の中で通えるスタジオが揃っています。
+              本ページでは、JR中央線・総武線西荻窪駅周辺と中央線沿線（荻窪・阿佐ヶ谷）のおすすめピラティススタジオ7選をまとめました。杉並区のアンティークの街として知られる西荻窪は、善福寺公園も近く、落ち着いた雰囲気の中で通えるスタジオが揃っています。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -348,7 +378,7 @@ export default function NishiOgikuboAreaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              西荻窪のおすすめピラティススタジオ6選
+              西荻窪のおすすめピラティススタジオ7選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
