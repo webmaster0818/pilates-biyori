@@ -1098,3 +1098,16 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - **sitemap**: 店舗ページ（g1-stores / the-silk-stores）の lastmod を店舗ブロック単位に（1店の変更で同じファイルの64URLが今日になっていた）
 - 計測リンク out 3,629件・260種＝デプロイ前の deploy repo と一致・precheck ✅ 587頁
 - 未掲載候補: POLESTAR PILATES 元気工房 新大阪店・セントラルフィットネス新大阪（総合ジム）、大手町の総合ジム（SPA大手町・ティップネス丸の内スタイル）＝公式未確認。the SILK 公式の店舗数表記は「全国45店舗以上」（brands.ts は46）
+
+### 2026-10-23 La pilates（afi-b）・LAVA（A8）設置／SOELU PR枠を拡大（MediaXAI「適材適所で設定して」）✅本番反映済み
+`scripts/add-lapilates-lava-202610.py`（冪等）。
+- スタジオカード: La pilates 29件（差替6・挿入23）／LAVA 16件（差替3・挿入13）。StudioCardClient に計測を追加。
+  掲載名↔広告主の突合 0件不一致。アフィリURL集合は追加のみ（既存の削除なし）。
+- ⚠️ **La pilates 新潟店は dofollow（相互リンク承認店）なので公式リンクのまま**。アフィリにすると sponsored 必須で合意と変わる。
+- ⚠️ 「Stella Pilates」が大小無視の照合で La pilates に当たる → 大文字小文字を区別。LAVA は Rintosull を除外。
+- 記事PR枠（ArticleFigures.tsx）: `LaPilatesPR`（300×250＋テキスト）→ machine-pilates-beginner／
+  `LavaPR`（300×250＋テキスト）→ pilates-yoga-difference（ZenPlaceYogaPRと離して「3. 呼吸法の違い」の前）／
+  `SoeluPR` を online-pilates・online-pilates-ryokin・online-pilates-shoshinsha・online-vs-studio-pilates に追加（計6本）。
+- SOELU は**オンライン案件なので実店舗（ソエルスタジオ11件）のカードには付けない**（既存方針どおり）。
+- 未使用タグ: La pilates 250×250/320×50/468×60、LAVA 350×240×2/100×60/350×160/350×80・《ヨガ》テキスト、SOELU 750×748 ほかテキスト5種。
+  ブランドページ（/brands/）が La pilates・LAVA には無いため、バナー複数サイズの出し分け先が無い。
