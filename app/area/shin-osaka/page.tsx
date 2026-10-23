@@ -17,8 +17,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/shin-osaka/' },
-  title: '新大阪のピラティススタジオおすすめ5選｜無料体験・料金で比較',
-  description: '新大阪のピラティススタジオ6社の料金・無料体験・マシン対応を比較しています。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまでわかります。',
+  title: '新大阪のピラティスおすすめ5選｜新大阪駅・西中島南方駅からの徒歩分と体験料金で比較',
+  description: '新大阪のピラティススタジオ5社の料金・体験料金・営業時間・定休日を、各スタジオの公式ページで確認して比較しています（2026年10月23日確認）。新大阪駅・西中島南方駅からの徒歩分の早見表、初心者向けの選び方もわかります。',
   keywords: 'ピラティス,新大阪,西中島南方,大阪,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -31,7 +31,7 @@ const studios = [
     priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
     trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '最大3名までのセミパーソナル形式マシンピラティススタジオです。新大阪駅から徒歩7分、西中島南方駅から徒歩6分です。定額制で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と圧倒的な費用対効果です。当日予約・当日キャンセル可能でチケット持ち越しも可能です。',
+    description: '最大3名までのセミパーソナル形式マシンピラティススタジオです。新大阪駅から徒歩7分、西中島南方駅から徒歩6分です。通い放題コース（月37,500円）は1回あたり3,750円（公式の表記・月10回利用で算出）です。設備はタワーリフォーマー3台・全身鏡・着替えスペースなど（公式の店舗ページ・2026年10月23日確認）。',
     access: '新大阪駅 徒歩7分／西中島南方駅 徒歩6分／南方駅 徒歩8分',
     address: '〒532-0011 大阪府大阪市淀川区西中島６丁目９−２０ 新大阪GHビル3階 303号室',
     popularPlan: {
@@ -53,22 +53,22 @@ const studios = [
   {
     name: 'ピラティスアヴニール 新大阪・西中島店',
     image: '/images/studios/pilates-avenir-shinosaka.webp',
-    price: '月4回 30,800円〜（税込）',
+    price: '30分 月2回 9,900円〜（税込）',
     trial: '90分体験 2,980円',
-    features: ['新大阪駅徒歩5分', '完全個室', '7:00〜23:00', 'ペア可'],
-    description: '完全個室のマンツーマンマシンピラティスです。新大阪駅7番出口から徒歩5分、西中島南方駅1番出口から徒歩5分です。朝7時から夜23時まで営業で忙しい方にも対応しています。ペアやセミプランも用意しています。',
+    features: ['新大阪駅徒歩5分', '完全個室', '7:00〜23:00・年中無休', 'ペア・セミ（3人）可'],
+    description: '完全個室のマンツーマンマシンピラティスです。新大阪駅7番出口から徒歩5分、西中島南方駅1番出口から徒歩5分です。朝7時から夜23時まで年中無休で営業しています。料金は担当トレーナーのランクで変わるため「〜」表記です（公式の店舗ページ・2026年10月23日確認）。ペア・セミ（3人）のプランもあります。',
     access: 'JR「新大阪駅」7番出口 徒歩5分 / 大阪メトロ御堂筋線「西中島南方駅」1番出口 徒歩5分',
     address: '大阪府大阪市淀川区西中島5-2-12 ケイアンドエイビルB1',
     popularPlan: {
-      name: 'マンツーマン月4回',
-      description: '完全個室のマンツーマンマシンピラティスです。個別プログラム対応です。',
-      price: '月4回 30,800円（税込）',
+      name: 'マンツーマン（30分）月4回',
+      description: '完全個室のマンツーマンマシンピラティスです。60分は月4回 35,200円〜です。',
+      price: '月4回 19,360円〜（税込）',
     },
     options: [
-      'マンツーマン1回（8,470円・税込）',
-      'ペア1回（5,170円・税込/人）',
-      'セミ1回（4,290円・税込/人）',
-      '90分体験レッスン 2,980円',
+      'マンツーマン1回（30分 5,170円〜／60分 9,350円〜・税込）',
+      'ペア1回（5,500円〜・税込/人）',
+      'セミ（3人）1回（4,583円〜・税込/人）',
+      '90分体験レッスン 2,980円（2回目以降の体験は5,500円）',
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
@@ -77,29 +77,29 @@ const studios = [
     },
     basicInfo: {
       hours: '7:00〜23:00',
-      closed: '不定休',
-      facilities: ['リフォーマー', '完全個室', '更衣室', 'ロッカー'],
+      closed: '年中無休',
+      facilities: ['リフォーマー', 'チェア', 'バレル', '完全個室', '駐車場・駐輪場なし'],
     },
   },
   {
     name: 'IMPROVE 西中島南方・新大阪',
     image: '/images/studios/improve-shinosaka.webp',
-    price: '1回 3,200円〜（会員）',
-    trial: '体験レッスンあり',
-    features: ['西中島南方駅徒歩1分', '4種類のプログラム', '少人数制', 'よもぎ蒸しあり'],
-    description: '西中島南方駅1番出口から徒歩1分です。ピラティス・ヨガ・シルクサスペンション・TRXの4種類のプログラムを提供する総合スタジオです。少人数制で全インストラクターが有資格者です。よもぎ蒸しや小顔矯正も併設しています。',
+    price: '都度払い 1回（60分）3,000円',
+    trial: '初回・2回目 1,500円（少人数制ヨガorピラティス60分）',
+    features: ['西中島南方駅徒歩1分', '入会金・年会費不要', '都度払い・当日予約OK', 'よもぎ蒸しあり'],
+    description: '西中島南方駅1番出口から徒歩1分です。少人数制のピラティス・ヨガ・サスペンションのグループレッスンと、マシンピラティスのパーソナルレッスン（60分 7,500円）があります。入会金・年会費は不要で、都度払い・当日予約に対応しています。よもぎ蒸し・小顔整顔・チネイザンも併設しています（店舗のホットペッパービューティー掲載情報・2026年10月23日確認）。',
     access: '大阪メトロ御堂筋線「西中島南方駅」1番出口 徒歩1分 / 阪急「南方駅」徒歩2分 / JR「新大阪駅」徒歩10分',
-    address: '大阪府大阪市淀川区西中島（詳細は公式サイトでご確認ください）',
+    address: '大阪府大阪市淀川区西中島4-7-30 アネックス新大阪9B',
     popularPlan: {
-      name: '回数券プラン（会員）',
-      description: '入会金5,000円です（回数券購入時無料）。通常メニュー10%割引です。',
-      price: '会員価格 1回 3,200円〜',
+      name: '都度払い（グループ60分）',
+      description: 'ピラティス・ヨガ・サスペンションの少人数制グループレッスンを1回ずつ支払って受けられます。回数券もあります。',
+      price: '1回 3,000円',
     },
     options: [
-      '通常1回（3,700円）',
-      '会員1回（3,200円・10%割引）',
-      '回数券あり',
-      'よもぎ蒸し・小顔矯正も利用可',
+      '初回・2回目（1ヶ月以内）グループ60分 1,500円',
+      'マシンピラティス パーソナル60分 7,500円（初回クーポン 7,000円）',
+      'マット・ヨガ・サスペンション パーソナル60分 6,500円（初回クーポン 6,000円）',
+      'よもぎ蒸し・小顔整顔・チネイザンも利用可',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
@@ -107,9 +107,9 @@ const studios = [
       purpose: ['姿勢改善', 'リフレッシュ', '健康維持', '美容'],
     },
     basicInfo: {
-      hours: '公式サイトでご確認ください',
+      hours: '月〜金 10:30〜21:00／土 11:00〜19:00／日 10:00〜18:00',
       closed: '不定休',
-      facilities: ['ピラティス器具', 'シルクサスペンション', 'TRX', 'よもぎ蒸しルーム'],
+      facilities: ['ピラティスマシン', 'サスペンション', 'よもぎ蒸し', 'メイクルーム・着替えあり'],
     },
   },
   {
@@ -117,9 +117,9 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 9,625円〜',
-    trial: 'グループ体験 1,000円',
-    features: ['江坂駅徒歩1分', '新大阪4分', '男性利用可', '全国他店利用'],
-    description: 'ピラティス専門の大手スタジオです。江坂駅4番出口から徒歩1分、新大阪駅から御堂筋線で4分です。マットグループ・マシングループ・プライベートの3タイプです。全国150店舗以上で他店利用可能です。',
+    trial: 'マットグループ初回体験 1,000円',
+    features: ['江坂駅徒歩1分', '新大阪駅から電車4分', '男女共用', 'グループ店は他店利用可'],
+    description: 'マットとマシン（リフォーマー）を備えたピラティス専門スタジオです（グレード02）。江坂駅4番出口から徒歩1分、新大阪駅から御堂筋線で4分です。マットグループ・マシングループ・プライベートの3タイプで、グループ店は全店相互利用できます（公式のスタジオページ・2026年10月23日確認）。',
     access: '大阪メトロ御堂筋線・北大阪急行「江坂駅」4番出口 徒歩1分（新大阪駅から4分）',
     address: '大阪府吹田市豊津町9-44 ハートランド江坂 5F',
     popularPlan: {
@@ -128,10 +128,10 @@ const studios = [
       price: '月額 14,960円（税込）',
     },
     options: [
-      '月4回プラン（9,625円〜）',
-      'マシングループ体験（3,000円）',
-      'プライベートレッスン（体験 9,900円）',
-      '体験当日入会で入会金無料',
+      '月4回プラン（マット 9,625円〜）',
+      'マシングループ 初回体験キャンペーン 3,000円（通常5,000円〜）',
+      'プライベート 体験 8,250円〜',
+      'マットグループ 初回体験キャンペーン 1,000円（通常2,200円〜）',
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
@@ -139,9 +139,9 @@ const studios = [
       purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
     },
     basicInfo: {
-      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
-      closed: '不定休',
-      facilities: ['リフォーマー', 'マット', 'ロッカー', '更衣室'],
+      hours: '平日 9:00〜22:00 / 土日祝 7:00〜16:00',
+      closed: '公式サイトでご確認ください',
+      facilities: ['リフォーマー', 'マット（無料）', '男女別更衣室', '鍵付きロッカー'],
     },
   },
   {
@@ -149,8 +149,8 @@ const studios = [
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
     price: '月4回 8,800円〜',
-    trial: '体験レッスンあり',
-    features: ['女性専用', '江坂駅徒歩1分', 'LAVA運営', 'リーズナブル'],
+    trial: '無料体験会 0円（約45分）',
+    features: ['女性専用', '江坂駅徒歩1分', 'LAVA系列', '月4回 8,800円'],
     description: 'ホットヨガ大手LAVAが運営する女性専用マシンピラティススタジオです。江坂駅4番出口から徒歩1分、新大阪から御堂筋線で4分です。大画面映像を見ながらリフォーマーでトレーニングです。',
     access: '大阪メトロ御堂筋線・北大阪急行「江坂駅」4番出口 徒歩1分（新大阪駅から4分）',
     address: '大阪府吹田市豊津町10-2 江坂T・Kビル 2F',
@@ -160,10 +160,10 @@ const studios = [
       price: '月4回 8,800円（税込）',
     },
     options: [
-      '通い放題プラン（13,800円〜）',
-      'LAVA相互利用オプションあり',
-      '施設利用料 2,500円（入会時）',
-      '入会金 5,000円',
+      'ライト・フルタイム（江坂店＋1店舗・通い放題）13,800円',
+      'プレミアム フリー・フルタイム（LAVA等の系列全店）16,800円',
+      '運営管理費 月680円／施設使用料 2,500円（入会時）',
+      '入会金5,000円・登録金5,000円（体験当日入会で0円）',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
@@ -171,9 +171,9 @@ const studios = [
       purpose: ['ボディメイク', 'ダイエット', '姿勢改善', '運動不足解消'],
     },
     basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '不定休',
-      facilities: ['リフォーマー', '大画面モニター', '更衣室', 'ロッカー'],
+      hours: '公式の店舗ページに記載なし（レッスンスケジュールPDFで確認）',
+      closed: '毎週日曜・第4木曜',
+      facilities: ['リフォーマー', '大画面スクリーン', '更衣室', '鍵付きロッカー', '駐車場・駐輪場なし'],
     },
   },
 ]
@@ -189,7 +189,7 @@ const faqs = [
   },
   {
     question: '新大阪のピラティスの料金相場は？',
-    answer: 'グループ月4回で8,800円〜19,800円程度です。Rintosullが月4回8,800円〜で最もリーズナブルです。zen placeは月4回9,625円〜です。Pilates Meeは月2回11,000円〜です。',
+    answer: '月4回で比べると、Rintosull江坂店 8,800円、zen place江坂（マットグループ）9,625円〜、Pilates Mee（最大3名のセミパーソナル）19,800円、ピラティスアヴニール（マンツーマン30分）19,360円〜です。IMPROVEは入会金・年会費なしの都度払い 1回3,000円です（いずれも税込・2026年10月23日確認）。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -205,15 +205,15 @@ const faqs = [
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
-    answer: 'ピラティスは体幹強化・姿勢改善に特化しています。ヨガは柔軟性とリラックス重視です。IMPROVEではヨガとピラティスの両方が楽しめます。zen placeもヨガ受講可能です。',
+    answer: 'ピラティスは体幹強化・姿勢改善に特化しています。ヨガは柔軟性とリラックス重視です。IMPROVEではヨガとピラティスの両方のレッスンがあります。zen placeは他店利用でヨガのレッスンも受けられます。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'zen place江坂、ピラティスアヴニール、IMPROVE、Pilates Meeは男性も通えます。Rintosullは女性専用です。',
+    answer: 'zen place江坂は男女共用です（公式表記）。Pilates MeeとRintosull江坂店は女性専用です。ピラティスアヴニールは男性向けの案内ページがあります。IMPROVEは店舗に直接ご確認ください。',
   },
   {
     question: '新大阪駅から通いやすいスタジオは？',
-    answer: 'ピラティスアヴニール（徒歩5分）、Pilates Mee（徒歩7分）は新大阪駅から近い距離にあります。zen placeとRintosullは江坂駅（新大阪から御堂筋線4分）が最寄りです。',
+    answer: '新大阪駅からはピラティスアヴニール（7番出口から徒歩5分）、Pilates Mee（徒歩7分）、IMPROVE（徒歩10分・西中島南方駅なら1分）です。zen placeとRintosullは江坂駅4番出口から徒歩1分（新大阪駅から御堂筋線で4分）です。ページ上部の早見表もご覧ください。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -236,10 +236,10 @@ export default function ShinOsakaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月23日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス新大阪おすすめ5選<br className="hidden md:block" />
-              人気スタジオの料金プランの比較
+              新大阪駅・西中島南方駅からの徒歩分と料金の比較
             </h1>
           </div>
         </section>
@@ -298,6 +298,14 @@ export default function ShinOsakaPage() {
           </div>
         </section>
 
+        <section className="py-12 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">新大阪駅・西中島南方駅からの徒歩分で比べる早見表</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">新大阪駅（JR・御堂筋線）と、ひと駅南の西中島南方駅の両方から近い順に並べました。徒歩分・体験料金・営業時間・定休日は各スタジオの公式ページの表記です（IMPROVE は店舗のホットペッパービューティー掲載情報。2026年10月23日確認・税込）。新大阪駅から徒歩圏は3店、江坂駅の2店は新大阪駅から御堂筋線で4分です。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">新大阪駅から</th><th className="px-4 py-3 text-left">西中島南方駅から</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">営業時間／定休日</th></tr></thead><tbody>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ピラティスアヴニール 新大阪・西中島店（西中島5-2-12 ケイアンドエイビルB1）</td><td className="px-4 py-3">7番出口 徒歩5分</td><td className="px-4 py-3">1番出口 徒歩5分</td><td className="px-4 py-3">完全個室のマンツーマン・ペア・セミ（3人）</td><td className="px-4 py-3">90分 2,980円</td><td className="px-4 py-3">7:00〜23:00／年中無休</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Pilates Mee 西中島南方・新大阪店（西中島6-9-20 新大阪GHビル3階）</td><td className="px-4 py-3">徒歩7分</td><td className="px-4 py-3">徒歩6分</td><td className="px-4 py-3">最大3名のセミパーソナル・パーソナル（女性専用）</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">9:00〜21:15／不定休</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">IMPROVE（西中島4-7-30 アネックス新大阪9B）</td><td className="px-4 py-3">徒歩10分</td><td className="px-4 py-3">1番出口 徒歩1分</td><td className="px-4 py-3">少人数制グループ（ピラティス・ヨガ・サスペンション）・マシンのパーソナル</td><td className="px-4 py-3">初回・2回目 1,500円</td><td className="px-4 py-3">月〜金 10:30〜21:00・土 11:00〜19:00・日 10:00〜18:00／不定休</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">zen place pilates 江坂スタジオ（吹田市豊津町9-44 ハートランド江坂5階）</td><td className="px-4 py-3">御堂筋線で4分（江坂駅4番出口 徒歩1分）</td><td className="px-4 py-3">—</td><td className="px-4 py-3">マット・マシンのグループ・プライベート（男女共用）</td><td className="px-4 py-3">マットグループ 1,000円</td><td className="px-4 py-3">平日 9:00〜22:00・土日祝 7:00〜16:00／記載なし</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Rintosull 江坂店（吹田市豊津町10-2 江坂T・Kビル2F）</td><td className="px-4 py-3">御堂筋線で4分（江坂駅4番出口 徒歩1分）</td><td className="px-4 py-3">—</td><td className="px-4 py-3">スクリーン映像つきマシングループ（女性専用）</td><td className="px-4 py-3">無料体験会（約45分）</td><td className="px-4 py-3">記載なし／毎週日曜・第4木曜</td></tr>
+        </tbody></table></div><p className="text-warm-600 leading-relaxed mt-4 text-sm">新大阪駅で乗り換えついでに通うなら、7番出口から近い ピラティスアヴニール（マンツーマン）か Pilates Mee（最大3名）が候補です。西中島南方駅を使う方は駅前の IMPROVE、月額を抑えてグループで続けたい方は江坂駅の Rintosull（月4回 8,800円）・zen place（マット月4回 9,625円〜）も比べてみてください。営業時間は Rintosull が公式の店舗ページに記載していないため、レッスンスケジュールで確認が必要です。</p></div></section>
+
         <PriceComparisonTable studios={studios} areaName="新大阪" />
         <AreaMarketComparison studios={studios} areaName="新大阪" />
 
@@ -333,15 +341,15 @@ export default function ShinOsakaPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">3,200円〜16,940円</td>
+                    <td className="px-4 py-3">8,800円〜19,800円（19,800円は Pilates Mee のセミパーソナル）</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回 3,200円〜30,800円</td>
+                    <td className="px-4 py-3">1回 5,170円〜11,000円（アヴニール30分 5,170円〜・Mee 1回あたり8,800〜11,000円）</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">1,000円〜2,980円</td>
+                    <td className="px-4 py-3">無料〜2,980円（Pilates Mee・Rintosull 無料／IMPROVE 1,500円／zen 1,000円／アヴニール 2,980円）</td>
                   </tr>
                 </tbody>
               </table>
@@ -438,7 +446,7 @@ export default function ShinOsakaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull（リントスル）江坂店（月4回 8,800円〜）</li>
-                  <li className="text-warm-700">• zen place pilates 江坂スタジオ（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• zen place pilates 江坂スタジオ（マット月4回 9,625円〜）</li>
                   <li className="text-warm-700">• Pilates Mee 西中島南方・新大阪店（月2回 11,000円〜）</li>
                 </ul>
               </div>
@@ -563,7 +571,7 @@ export default function ShinOsakaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  体験料金は、Pilates Mee 西中島南方・新大阪店が「体験レッスン無料」、ピラティスアヴニール 新大阪・西中島店が「90分体験 2,980円」、zen place pilates 江坂スタジオが「グループ体験 1,000円」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
+                  体験料金は、Pilates Mee 西中島南方・新大阪店とRintosull江坂店が無料、IMPROVEが初回・2回目1,500円、zen place pilates 江坂スタジオがマットグループ初回1,000円、ピラティスアヴニール 新大阪・西中島店が90分2,980円です（各公式ページ・2026年10月23日確認）。最新の条件は各公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -633,7 +641,7 @@ export default function ShinOsakaPage() {
               体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,850円です。<br />
+              掲載5店の体験料金は無料〜2,980円です（2026年10月23日確認）。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link

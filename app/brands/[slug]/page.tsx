@@ -64,7 +64,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       : brand.useHyoban ? '店舗一覧・料金・評判' : '店舗一覧・料金・体験') +
     (brand.reviewThemes ? (!hasOfficialCount && brand.useHyoban ? '・口コミ' : '・口コミ評判') : '')) // 「評判・口コミ評判」の重複回避（2026-10-09 BDC で発生）
   return {
-    title: `${brand.name}の${kw}${MONTH_TAG}｜掲載${stores.length}店舗を比較`,
+    title: `${brand.name}${brand.nameKana ? `（${brand.nameKana}）` : ''}の${kw}${MONTH_TAG}｜掲載${stores.length}店舗を比較`,
     description: brand.metaDescription ?? `${brand.name}の店舗一覧${brand.officialStores && brand.officialStores.count >= stores.length ? `（${brand.officialStores.asOf}時点で全国${brand.officialStores.count}店舗${brand.officialStores.approx ? '以上' : ''}）` : ''}・料金プラン・体験レッスンを、掲載データにもとづいて掲載しています。${brand.tagline}。当サイトに掲載している${stores.length}店舗を、エリア別のリンクとあわせて掲載しています。`,
     alternates: { canonical: `https://biyori-pilates.com/brands/${slug}/` },
   }
@@ -142,7 +142,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
 
           <p className="section-en text-warm-400 mb-2 font-medium">Brand Guide</p>
           <h1 className="text-2xl md:text-3xl font-light text-warm-900 tracking-tight mb-3">
-            {brand.name}の{brand.titleKw ?? <>{brand.officialStores ? '店舗一覧・店舗数・料金' : brand.useHyoban ? '店舗一覧・料金・評判' : '店舗一覧・料金・体験'}{brand.reviewThemes ? (!brand.officialStores && brand.useHyoban ? '・口コミ' : '・口コミ評判') : ''}</>}
+            {brand.name}{brand.nameKana ? `（${brand.nameKana}）` : ''}の{brand.titleKw ?? <>{brand.officialStores ? '店舗一覧・店舗数・料金' : brand.useHyoban ? '店舗一覧・料金・評判' : '店舗一覧・料金・体験'}{brand.reviewThemes ? (!brand.officialStores && brand.useHyoban ? '・口コミ' : '・口コミ評判') : ''}</>}
             <span className="block text-base text-warm-500 mt-2 font-light">{brand.tagline}</span>
           </h1>
           {brand.checkedAt && (
