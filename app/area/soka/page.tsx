@@ -120,6 +120,7 @@ const studios = [
   },
   {
     name: 'La pilates 草加店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=816076W-u518546p&p=E9887623',
     image: '/images/studios/la-pilates.webp',
     price: 'レッスン料は公式サイトでご確認ください',
     trial: '体験レッスンあり',

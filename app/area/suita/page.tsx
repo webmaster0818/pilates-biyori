@@ -36,6 +36,7 @@ const studios = [
   },
   {
     name: 'La pilates（ラピラティス）江坂店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=816076W-u518546p&p=E9887623',
     image: '/images/studios/la-pilates.webp', reviewCount: 92,
     price: 'パーソナル 1回 8,800円〜', trial: '体験レッスンあり',
     features: ['女性専用', '整体×ピラティス', 'パーソナル専門', '江坂駅徒歩2分'],

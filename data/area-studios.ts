@@ -396,6 +396,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ホットヨガ&マシンピラティスLAVA 福島黒岩店',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4BENDQ+6V2YDE+1O96+5YZ76',
         image: '/images/studios/yoga-lava-fukushima.webp',
         rating: 4.5,
         price: '4・フルタイム 8,800円/月～16,800円/月',
@@ -626,6 +627,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'ラピラティス 高崎店',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=816076W-u518546p&p=E9887623',
         image: '/images/studios/la-pilates-takasaki.webp',
         rating: 4.7,
         price: 'サブスク月1回 ¥12,000〜',
@@ -990,6 +992,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'LAVA 横須賀中央アネックス店',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4BENDQ+6V2YDE+1O96+5YZ76',
         image: '/images/studios/yoga-lava-yokosuka.webp',
         rating: 4.4,
         price: '4・フルタイム ¥8,800/月〜',
@@ -2790,6 +2793,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'LAVA 帯広店（マシンピラティス＆ホットヨガ）',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4BENDQ+6V2YDE+1O96+5YZ76',
         image: '/images/studios/lava-obihiro.webp',
         rating: 4.1,
         price: '通い放題 11,000〜15,000円程度',
@@ -2868,6 +2872,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'LAVA 呉店（ホットヨガ&マシンピラティス）',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4BENDQ+6V2YDE+1O96+5YZ76',
         image: '/images/studios/lava-kure.webp',
         rating: 4.1,
         price: '料金は公式サイト要問い合わせ',
@@ -3654,7 +3659,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'La Pilates 西葛西店',
-        officialUrl: 'https://la-pilates.jp/studio/nishikasai/',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=816076W-u518546p&p=E9887623',
         price: 'パーソナル月2回 22,000円／月4回 40,000円',
         trial: '体験 3,000円（通常14,000円）',
         features: ['整体×マシンピラティス', 'パーソナル', '女性専用'],
@@ -5453,7 +5458,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ホットヨガスタジオLAVA 保土ヶ谷店',
-        officialUrl: 'https://yoga-lava.com/shop/kanagawa/hodogaya/',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4BENDQ+6V2YDE+1O96+5YZ76',
         price: 'マンスリー4 8,800円／プレミアムフリー 16,800円（税込月額・運営管理費680円別）',
         trial: '体験 0円（ウェア・タオル・水無料）',
         features: ['ホットピラティス（60分）あり', 'マット系グループ', '女性専用'],
@@ -5534,7 +5539,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ホットヨガスタジオLAVA フレスポ小田原シティーモール店',
-        officialUrl: 'https://yoga-lava.com/shop/kanagawa/frespo_odawara/',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4BENDQ+6V2YDE+1O96+5YZ76',
         price: '料金は公式サイト参照（LAVA共通の月額制）',
         trial: '体験あり（Web予約可）',
         features: ['ホットピラティス（60分）あり', 'マット系グループ', '女性専用'],
@@ -5986,7 +5991,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ホットヨガスタジオLAVA 西鉄二日市店',
-        officialUrl: 'https://yoga-lava.com/shop/fukuoka/futsukaichi/',
+        officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4BENDQ+6V2YDE+1O96+5YZ76',
         price: '月4回 8,800円／ライト 10,800円／プレミアム 16,800円（税込月額）',
         trial: '体験 0円（60分）',
         features: ['ホットピラティス（60分）あり', 'マット系グループ', '女性専用'],
@@ -6388,7 +6393,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ラピラティス（La pilates）上本町店',
-        officialUrl: 'https://la-pilates.jp/studio/uehonmachi/',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=816076W-u518546p&p=E9887623',
         price: '月1回12,000円／月4回40,000円',
         trial: '初回体験 3,000円',
         features: ['整体×マシンピラティス', '女性専用', '骨膜整体プログラム', 'パーソナル'],
@@ -6520,7 +6525,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ラピラティス伊丹店',
-        officialUrl: 'https://la-pilates.jp/studio/itami/',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=816076W-u518546p&p=E9887623',
         price: '月1回12,000円／月2回22,000円／月4回40,000円',
         trial: '初回体験 3,000円',
         features: ['骨膜整体×マシンピラティス', '女性専用', 'パーソナル', '肩こり腰痛ケア'],
@@ -6602,7 +6607,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'La pilates 久留米店（ラピラティス久留米店）',
-        officialUrl: 'https://la-pilates.jp/studio/kurume/',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=816076W-u518546p&p=E9887623',
         price: '月1回12,000円〜月6回54,000円',
         trial: '体験 3,000円',
         features: ['女性専用プライベート', '骨膜整体×マシンピラティス', 'マシン3台完備', '肩こり・腰痛改善'],
@@ -7023,7 +7028,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'ラピラティス千葉店（La pilates）',
-        officialUrl: 'https://la-pilates.jp/studio/chiba/',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=816076W-u518546p&p=E9887623',
         price: '月1回12,000円／月2回22,000円／月4回40,000円',
         trial: '初回体験 3,000円',
         features: ['整体×マシンピラティス', '女性専用プライベート', 'マシン5台', '肩こり・腰痛改善'],

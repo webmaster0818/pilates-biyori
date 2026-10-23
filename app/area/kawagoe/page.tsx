@@ -119,6 +119,7 @@ const studios = [
   },
   {
     name: 'La pilates 川越店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=816076W-u518546p&p=E9887623',
     image: '/images/studios/la-pilates.webp',
     price: '要問合せ',
     trial: '初回体験 3,000円〜',

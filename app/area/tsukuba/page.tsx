@@ -147,6 +147,7 @@ const studios = [
   },
   {
     name: 'La pilates（ラピラティス）つくば店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=816076W-u518546p&p=E9887623',
     image: '/images/studios/la-pilates.webp',
     price: '月1回 10,000円〜',
     trial: '体験レッスンあり',

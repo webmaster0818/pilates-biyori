@@ -146,6 +146,7 @@ const studios = [
   },
   {
     name: 'La pilates 藤沢店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=816076W-u518546p&p=E9887623',
     image: '/images/studios/la-pilates.webp',
     price: '月1回 12,000円〜',
     trial: '無料体験あり',

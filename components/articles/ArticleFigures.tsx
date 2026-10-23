@@ -1001,6 +1001,8 @@ export const articleComponents = {
   SurveyNote,
   OneToOnePR,
   SoeluPR,
+  LaPilatesPR,
+  LavaPR,
   TheSilkPR,
   ZenPlaceYogaPR,
   RatingDistChart,
@@ -1102,6 +1104,49 @@ export function SoeluPR() {
       <p className="mt-3 text-sm">
         <a href="https://px.a8.net/svt/ejp?a8mat=4B650J+3WID36+4EPM+5YRHE" rel="nofollow sponsored" target="_blank" className="underline">いつでも、どこでも、よりソエル。オンラインヨガ  ソエル</a>
         <img width={1} height={1} alt="" style={{ border: 0 }} src="https://www13.a8.net/0.gif?a8mat=4B650J+3WID36+4EPM+5YRHE" />
+      </p>
+      {/* eslint-enable @next/next/no-img-element */}
+    </div>
+  )
+}
+
+/*
+ * La pilates（afi-b 816076W）の紹介枠。マシンピラティスの初心者向け記事で使う。
+ * クリックURLと lead の組を崩さない。
+ */
+export function LaPilatesPR() {
+  return (
+    <div className="not-prose my-8 border border-warm-200 bg-warm-50 p-5 text-center">
+      <p className="text-xs text-warm-500 mb-3">［PR］マシンピラティススタジオ La pilates</p>
+      {/* eslint-disable @next/next/no-img-element */}
+      <a href="https://t.afi-b.com/visit.php?a=816076W-p520735r&p=E9887623" rel="nofollow sponsored" target="_blank">
+        <img width={300} height={250} alt="La pilates" className="mx-auto max-w-full h-auto" style={{ border: 'none' }} src="https://www.afi-b.com/upload_image/16076-1758519716-3.png" />
+      </a>
+      <img width={1} height={1} alt="" style={{ border: 'none' }} src="https://t.afi-b.com/lead/816076W/E9887623/p520735r" />
+      <p className="mt-3 text-sm">
+        <a href="https://t.afi-b.com/visit.php?a=816076W-u518546p&p=E9887623" rel="nofollow sponsored" target="_blank" className="underline">La pilates（ラピラティス）公式サイト</a>
+        <img width={1} height={1} alt="" style={{ border: 'none' }} src="https://t.afi-b.com/lead/816076W/E9887623/u518546p" />
+      </p>
+      {/* eslint-enable @next/next/no-img-element */}
+    </div>
+  )
+}
+
+/*
+ * LAVA（A8 4BENDQ+6V2YDE）の紹介枠。ヨガとピラティスを比べる記事で使う。
+ */
+export function LavaPR() {
+  return (
+    <div className="not-prose my-8 border border-warm-200 bg-warm-50 p-5 text-center">
+      <p className="text-xs text-warm-500 mb-3">［PR］ホットヨガスタジオ LAVA</p>
+      {/* eslint-disable @next/next/no-img-element */}
+      <a href="https://px.a8.net/svt/ejp?a8mat=4BENDQ+6V2YDE+1O96+69P01" rel="nofollow sponsored" target="_blank">
+        <img width={300} height={250} alt="LAVA" className="mx-auto max-w-full h-auto" style={{ border: 0 }} src="https://www29.a8.net/svt/bgt?aid=261023966415&wid=003&eno=01&mid=s00000007809001053000&mc=1" />
+      </a>
+      <img width={1} height={1} alt="" style={{ border: 0 }} src="https://www17.a8.net/0.gif?a8mat=4BENDQ+6V2YDE+1O96+69P01" />
+      <p className="mt-3 text-sm">
+        <a href="https://px.a8.net/svt/ejp?a8mat=4BENDQ+6V2YDE+1O96+5YZ76" rel="nofollow sponsored" target="_blank" className="underline">★日本最大級！ホットヨガスタジオLAVA★</a>
+        <img width={1} height={1} alt="" style={{ border: 0 }} src="https://www12.a8.net/0.gif?a8mat=4BENDQ+6V2YDE+1O96+5YZ76" />
       </p>
       {/* eslint-enable @next/next/no-img-element */}
     </div>

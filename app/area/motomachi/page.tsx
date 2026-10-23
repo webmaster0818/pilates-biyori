@@ -141,6 +141,7 @@ const studios = [
   },
   {
     name: 'ラピラティス 神戸元町店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=816076W-u518546p&p=E9887623',
     image: '/images/studios/la-pilates.webp',
     price: '要問い合わせ',
     trial: '体験レッスンあり',

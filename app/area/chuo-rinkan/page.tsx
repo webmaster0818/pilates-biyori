@@ -97,6 +97,7 @@ const studios = [
   },
   {
     name: 'LAVA 中央林間店',
+    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4BENDQ+6V2YDE+1O96+5YZ76',
     price: '月額8,800円〜',
     trial: '体験レッスンあり',
     features: ['ホットヨガ&ピラティス', '全国展開大手', '豊富なプログラム', '初心者歓迎'],

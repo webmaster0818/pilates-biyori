@@ -79,6 +79,7 @@ const studios = [
   },
   {
     name: 'LAVA 田無店',
+    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4BENDQ+6V2YDE+1O96+5YZ76',
     image: '/images/studios/default-studio.webp',
     price: '月4回 9,800円〜',
     trial: '体験レッスン 0円',

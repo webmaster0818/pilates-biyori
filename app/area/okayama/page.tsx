@@ -22,6 +22,7 @@ export const metadata = {
 const studios = [
   {
     name: 'La pilates 岡山駅前店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=816076W-u518546p&p=E9887623',
     image: '/images/studios/la-pilates.webp',
     price: 'サブスク月1回 12,000円〜',
     trial: '体験レッスン 3,000円',

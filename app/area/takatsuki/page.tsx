@@ -146,7 +146,7 @@ const studios = [
     //    あるが、店舗責任者の申告を優先する。公式側で確認できる追加プランは載せていない。
     // ⚠️ 5タブは全て明示指定する。未設定だとStudioCardが架空のダミー値を描画する。
     name: 'La pilates（ラピラティス）高槻店',
-    officialUrl: 'https://la-pilates.jp/studio/takatsuki/',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=816076W-u518546p&p=E9887623',
     price: '月2回 22,000円〜（税込・1回11,000円）',
     trial: '体験レッスン 3,000円',
     features: ['女性専用', '整体×マシンピラティス', '阪急高槻駅 徒歩1分', 'パーソナル50分'],

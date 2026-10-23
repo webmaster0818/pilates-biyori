@@ -539,6 +539,16 @@ export function StudioCardClient({ studio, index }: StudioCardProps) {
               // eslint-disable-next-line @next/next/no-img-element
               <img src="https://t.afi-b.com/lead/H16011O/E9887623/W518522Z" width={1} height={1} alt="" className="inline-block" style={{ border: 'none' }} />
             )}
+            {/* La pilates（afi-b） */}
+            {studio.officialUrl?.includes('a=816076W-u518546p') && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src="https://t.afi-b.com/lead/816076W/E9887623/u518546p" width={1} height={1} alt="" className="inline-block" style={{ border: 'none' }} />
+            )}
+            {/* LAVA（A8） */}
+            {studio.officialUrl?.includes('a8mat=4BENDQ+6V2YDE+1O96+5YZ76') && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src="https://www12.a8.net/0.gif?a8mat=4BENDQ+6V2YDE+1O96+5YZ76" width={1} height={1} alt="" className="inline-block" style={{ border: 'none' }} />
+            )}
             {/* この店舗の詳細ページがある場合は、まずそこへ送る。
                 ⚠️ 店舗ページの被リンクがエリアページからの1本だけで孤立していたため追加（2026-09-15） */}
             {(() => {

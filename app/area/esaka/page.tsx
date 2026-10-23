@@ -147,6 +147,7 @@ const studios = [
   },
   {
     name: 'La pilates 江坂店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=816076W-u518546p&p=E9887623',
     image: '/images/studios/la-pilates.webp',
     price: '月1回 12,000円〜',
     trial: '初回トライアル 90分 3,000円（通常14,000円・税込）',
