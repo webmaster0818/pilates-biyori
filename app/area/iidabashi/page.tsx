@@ -17,7 +17,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/iidabashi/' },
-  title: '飯田橋・神楽坂のピラティス5社を比較｜無料体験2社・駅すぐ・月額最安10,450円〜',
+  title: '飯田橋・神楽坂のピラティス5社を比較｜無料体験3社・駅すぐ・月額最安10,450円〜',
   description: '飯田橋・神楽坂でピラティスの無料体験ができるスタジオを厳選しています。5社の料金・マシン対応・4路線からのアクセスを比較しています。初心者向けの選び方と全国211スタジオ調査に基づく料金相場もわかります。',
   keywords: 'ピラティス,飯田橋,神楽坂,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -118,7 +118,7 @@ const studios = [
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3TJ72A+5FZU+5YJRM',
     image: '/images/studios/repilates.webp',
     price: '月3回 12,900円〜（公式表記・税表記なし）',
-    trial: '体験レッスン 0円（通常3,300円・60分・初回1回）',
+    trial: '体験レッスン 無料（期間限定キャンペーン・通常3,300円のグループ体験・60分・初回1回・公式の店舗ページ 2026年10月23日確認）',
     features: ['女性専用', '飯田橋駅徒歩1分', '月3回12,900円〜', 'マシン専門'],
     description: '女性専用マシンピラティス専門スタジオです。飯田橋駅東口から徒歩1分です。マシンを使ったグループレッスンで、月3回12,900円からです（公式表記・税表記なし）。月3回・4回・6回・8回・通い放題から選べます。',
     access: 'JR「飯田橋駅」東口 徒歩1分',
@@ -150,7 +150,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11979O.1.Z164554L.U1357808',
     image: '/images/studios/dr-pilates.webp',
     price: '月4回(45分) 29,700円〜 / 月4回(60分) 39,600円〜',
-    trial: '体験トレーニング 7,100円（無料キャンペーン実施店舗あり）',
+    trial: '体験トレーニング 無料（入会金も0円・公式の店舗ページ表示・2026年10月23日確認）',
     features: ['マンツーマン（パーソナル）', 'マシン・マット両対応', '医師推奨パーソナルジムNo.1受賞'],
     description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオです。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せます。神楽坂・飯田橋エリアです（詳細は公式サイト参照）。',
     access: '神楽坂・飯田橋エリア（詳細は公式サイト参照）',
@@ -540,7 +540,7 @@ export default function IidabashiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  CLUB PILATESは無料体験を実施しています。ルルトは体験1,000円で全額返金保証付きです。体験レッスンで実際の雰囲気をご確認ください。
+                  CLUB PILATES・Dr.ピラティス・Repilates（期間限定キャンペーン）は無料体験を実施しています。ルルトは体験1,000円で全額返金保証付きです。体験レッスンで実際の雰囲気をご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

@@ -151,7 +151,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11979O.1.Z164554L.U1357808',
     image: '/images/studios/dr-pilates.webp',
     price: '月4回(45分) 29,700円〜 / 月4回(60分) 39,600円〜',
-    trial: '体験トレーニング 7,100円（無料キャンペーン実施店舗あり）',
+    trial: '体験トレーニング 無料（入会金も0円・公式の店舗ページ表示・2026年10月23日確認）',
     features: ['マンツーマン（パーソナル）', 'マシン・マット両対応', '医師推奨パーソナルジムNo.1受賞'],
     description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオです。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せます。自由が丘エリアです（詳細は公式サイト参照）。',
     access: '自由が丘エリア（詳細は公式サイト参照）',
@@ -538,7 +538,7 @@ export default function JiyugaokaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKは無料体験を実施しています。zen placeは1,000円、ピラティスミラーは2,200円で体験可能です。
+                  the SILKとDr.ピラティスは無料体験を実施しています。zen placeは1,000円、ピラティスミラーは2,200円で体験可能です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
