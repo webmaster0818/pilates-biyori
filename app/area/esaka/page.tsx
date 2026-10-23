@@ -28,7 +28,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 9,625円〜',
-    trial: '体験レッスンあり（当日入会で入会金無料）',
+    trial: '体験レッスン 1,000円（マットグループの初回体験キャンペーン・通常2,200円〜）',
     features: ['マシン完備', '男性利用可', '江坂駅徒歩1分', '全国他店利用可'],
     description: '全国150以上のスタジオを展開する国内最大級のピラティス専門スタジオです。御堂筋線江坂駅から徒歩1分の好立地です。マットグループ・リフォーマーグループ・プライベートレッスンと豊富なレッスン形式です。男性も受講可能です。',
     access: '御堂筋線「江坂駅」徒歩1分',
@@ -87,7 +87,7 @@ const studios = [
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
     price: '月4回 8,800円〜',
-    trial: 'キャンペーン価格あり（3ヶ月 月額1,980円）',
+    trial: '無料体験会（当日登録で3ヶ月 月額1,980円のキャンペーン・11月末まで）',
     features: ['女性専用', 'LAVA系列', '江坂駅徒歩1分', '割安'],
     description: 'ホットヨガLAVA系列のマシンピラティス専門スタジオです。江坂駅4番出口から徒歩1分です。月4回8,800円とリーズナブルです。2店舗通い放題プラン13,800円やプレミアムフリーフルタイム16,800円でLAVA等系列店も利用可能です。',
     access: '御堂筋線・北大阪急行「江坂駅」4番出口 徒歩1分',
@@ -149,7 +149,7 @@ const studios = [
     name: 'La pilates 江坂店',
     image: '/images/studios/la-pilates.webp',
     price: '月1回 12,000円〜',
-    trial: '無料体験あり',
+    trial: '初回トライアル 90分 3,000円（通常14,000円・税込）',
     features: ['女性専用', '整体×ピラティス', '江坂駅徒歩2分', '産前産後可'],
     description: '女性専用の整体×マシンピラティス融合スタジオです。江坂駅から徒歩2分です。姿勢改善に特化し、女性インストラクターが丁寧に指導しています。産前産後にも対応しています。年中無休・朝9時から夜21時まで営業しています。',
     access: '御堂筋線「江坂駅」徒歩2分',
@@ -357,7 +357,7 @@ export default function EsakaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月23日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス江坂おすすめ9選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
@@ -762,7 +762,7 @@ export default function EsakaPage() {
               体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜1,100円です。<br />
+              体験レッスンは CLUB PILATES・Rintosull が無料、zen place・ピラティスアクスが1,000円、ピラティスアヴニールが2,980円、La pilatesが3,000円です（2026年10月23日 各公式で確認）。ほかのスタジオは各カードをご確認ください。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
