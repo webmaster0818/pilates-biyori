@@ -295,11 +295,28 @@ function build() {
     lines.push(urlEntry(`/brands/${slug}/`, gitDate(`app/brands/${slug}`, dataFile), 'weekly', '0.6'))
   }
   // 店舗別ページ（データファイルから動的抽出＝追加店舗は自動でsitemap収録）
+  // 2026-10-23: 1店の行を変えると同じファイルの全店（64URL）が今日になっていた → 店舗ブロック単位の最終変更日＋そのブランドの brands.ts ブロック＋店舗ページ自身
+  const brandSlugs = listBrands().sort((a, b) => b.length - a.length)
   for (const f of ['g1-stores.ts', 'the-silk-stores.ts']) {
-    const src = fs.readFileSync(new URL(`../data/${f}`, import.meta.url), 'utf8')
-    for (const m of src.matchAll(/"?urlSlug"?:\s*"([a-z0-9-]+)"/g)) {
-      lines.push(urlEntry(`/brands/${m[1]}/`, gitDate(`data/${f}`, 'lib/storePages.ts', 'app/brands/[slug]/page.tsx'), 'weekly', '0.6'))
-    }
+    const srcLines = fs.readFileSync(new URL(`../data/${f}`, import.meta.url), 'utf8').split('\n')
+    const dirty = execFileSync('git', ['status', '--porcelain', '--', `data/${f}`], { cwd: ROOT, encoding: 'utf8' }).trim()
+    srcLines.forEach((line, i) => {
+      const m = line.match(/"?urlSlug"?:\s*"([a-z0-9-]+)"/)
+      if (!m) return
+      // the-silk-stores.ts は1店1行（{ … },）、g1-stores.ts は複数行ブロック
+      let st = i
+      while (st > 0 && !/^  \{/.test(srcLines[st])) st--
+      let e = i
+      while (e < srcLines.length - 1 && !/^  \},?$/.test(srcLines[e]) && !/\},?\s*$/.test(srcLines[e]) ) e++
+      let blockDate = TODAY
+      if (!dirty) {
+        try {
+          blockDate = execFileSync('git', ['log', '-1', '--format=%cs', '--no-patch', '-L', `${st + 1},${e + 1}:data/${f}`], { cwd: ROOT, encoding: 'utf8' }).trim() || TODAY
+        } catch {}
+      }
+      const brand = brandSlugs.find((b) => m[1].startsWith(`${b}-`))
+      lines.push(urlEntry(`/brands/${m[1]}/`, maxDate(blockDate, brand ? brandBlockDate(brand) : '', gitDate(`app/brands/${m[1]}`, 'lib/storePages.ts')), 'weekly', '0.6'))
+    })
   }
 
   lines.push('</urlset>', '')
