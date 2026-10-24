@@ -1125,3 +1125,14 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - 公式未確認（カードは元のまま）: BIRTH（公式サイト見つからず・fitmap は体験9,800円と掲載）／Bloom 銀座／NATURAglam／studio COLERE（公式 403）／天王寺の soRa・Sonare・Hain・LAULE'A・トトヤセ・Belluna
 - 他ページの同じ旧値（未変更）: zen「500円〜3,850円」koshigaya/nagoya-station/nihonbashi/omotesando/shibuya／ルルト「土日祝5,000円」kasuga・tsuyama／Rintosull「150円」matsudo
 - 計測リンク out/deploy 4,249件・366種（前後一致）・precheck ✅ 587頁・functions/api 4本保全
+
+### 2026-10-24 12:00 成長ルーチン: La pilates・LAVA のブランドページ新設＋祇園四条／和泉／水道橋／the SILK 料金 ✅本番（source 4c373189 / deploy cd0df687ee）
+- **/brands/la-pilates/**（新規・受け皿）: 公式 la-pilates.jp（10/24）の料金（サブスク月1 12,000／月2 22,000／月4 40,000／月6 54,000・年払い・都度14,000・入会金10,000→当日無料・すべて税込）、体験（90分 通常14,000→初回3,000）、FAQ（女性専用・紹介のみ男性可／妊娠16週以降／支払い方法）、会社概要（株式会社La pilates・2023年6月）。店舗数＝公式トップ「114店舗」、スタジオ一覧124（OPEN予定表記10＝札幌円山・青森・土浦・宇都宮・船橋・横浜アネックス・甲府・堺東・西新・博多）→ byPref は124。口コミは STUDIO_REVIEWS の14店舗（2,655件）から reviewThemes。解約・休会は公式に記載なし
+- **/brands/lava/**（新規）: ピラティスの切り口のみ。公式「マシンピラティス」ページ＝実施81店舗（Rintosullプロデュース）・プログラム・ホットマシピラ、料金はマシンピラティスは「別途料金」（金額なし）、LAVA月会費は /price/。`OfficialStores.countLabel`（全国店舗数ではない数の名前）・`summaryPlan`・`storeListNote`・`crossLinks` を BrandInfo に追加。Rintosull⇔LAVA を crossLinks で1本ずつ
+  - ⚠️ 掲載LAVAカード16枚のうち公式のマシンピラティス実施一覧にあるのは福島黒岩・帯広の2店のみ。他14枚の「ピラティスプログラムも充実」「女性専用」「月4回9,800円〜」「多摩センターで唯一のホットピラティス」等は未確認（未変更・判断待ち）。呉店は名前に「マシンピラティス」が入るが一覧に無い
+- brandLink.ts／aggregate-brands-202607.py に la-pilates・lava（大文字小文字区別。Stella 除外・Rintosull 優先）。CTA は 10/23 タグ（LaPilatesPR・LavaPR と同じ組）を再利用＝計測URLの種類は不変（336種）、件数は新2ページ分のみ増
+- 祇園四条: `#from-gion-shijo`（祇園四条駅からの行き方・公式最寄り駅・体験）。KASANE 四条烏丸＝体験無料（980円は表参道のみ）・立売西町71 GRAND CUBE四条7階・男性可。zen 京都・Rintosull の体験を公式値に。MUSE は公式サイト未確認
+- 和泉: `#izumi-machine-note`（コナミ和泉府中は Pilates Beauty School 実施一覧に無し／LAVA 大阪の実施店はなんば・枚方市駅前のみ）。title に「マシンピラティス」
+- 水道橋: `#by-station`（最寄り駅・体験・入会金・定休日）。IVY 後楽園（本郷1-21-1・最寄り後楽園・1レッスン6,500円〜・体験4,500→0）、zen 神保町（グレード02 9,625・体験1,000）、URBAN 飯田橋（8,580／12,980・無料体験）、Rintosull 秋葉原（8,800）、ゼロ 神保町（1-16-3・月4 37,200・体験4,400）。COCOLANCE 水道橋店（9/10 OPEN・徒歩3分）は未掲載（候補）
+- the SILK: priceList（エリアA/B・施設利用料・他店利用上限・Private・レンタル）
+- 藤沢: La pilates 体験「無料」→3,000円、FAQ の効能断定を削除
