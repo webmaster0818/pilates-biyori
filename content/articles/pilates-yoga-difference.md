@@ -55,6 +55,8 @@ relatedArticles:
 
 <LavaPR />
 
+LAVAのうちマシンピラティスを受けられる店舗やプログラムは[LAVAのマシンピラティス](/brands/lava/)、マシンピラティス専門のスタジオは[Rintosull（リントスル）](/brands/rintosull/)のページで比較できます。
+
 ## 3. 呼吸法の違い
 
 ### ピラティス

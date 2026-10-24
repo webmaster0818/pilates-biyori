@@ -28,7 +28,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: '月額 10,450円〜',
-    trial: '体験レッスンあり（当日入会で入会金無料）',
+    trial: 'マットグループ初回体験 1,000円（キャンペーン・通常3,300円〜／マシングループは初回3,000円・公式のスタジオページ・2026年10月24日確認）',
     features: ['マシン完備', '男性利用可', '四条駅徒歩1分', '全国他店利用可'],
     description: '全国150以上のスタジオを展開する国内最大級のピラティス専門スタジオです。阪急「烏丸駅」・京都市営地下鉄「四条駅」12番出口から徒歩1分の好立地です。マットグループ・リフォーマーグループ・プライベートレッスンと豊富なレッスン形式です。男性も受講可能です。',
     access: '阪急「烏丸駅」/ 京都市営地下鉄「四条駅」12番出口 徒歩1分',
@@ -92,7 +92,7 @@ const studios = [
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
     price: '月4回 8,800円〜',
-    trial: 'キャンペーン価格あり',
+    trial: '無料体験会（約45分・公式の店舗ページ・2026年10月24日確認）',
     features: ['LAVA系列', 'マシン専門', '烏丸駅徒歩2分', '割安'],
     description: 'ホットヨガLAVA系列のマシンピラティス専門スタジオです。阪急「烏丸駅」15番出口から徒歩2分です。月4回8,800円とリーズナブルです。プレミアムフリーフルタイム16,800円でLAVA等系列店も利用可能です。キャッシュレス専用店舗です。',
     access: '阪急「烏丸駅」15番出口 徒歩2分 / 京都市営地下鉄「四条駅」1番出口 徒歩5分',
@@ -155,11 +155,11 @@ const studios = [
     officialUrl: 'https://t.afi-b.com/visit.php?a=T15562j-7505717Y&p=E9887623',
     image: '/images/studios/pilates-kasane.webp',
     price: '月4回 15,400円〜',
-    trial: '体験レッスン 980円',
+    trial: '体験レッスン 無料（公式の店舗ページ・2026年10月24日確認。980円は表参道店のみ）',
     features: ['少人数制', 'カルテ管理', '手ぶらで参加可能', '年中無休'],
-    description: '最大4名の少人数制セミパーソナルレッスンが特徴のマシンピラティススタジオです。四条烏丸エリアに位置し、祇園四条からもアクセス可能です。有資格インストラクターがカルテで管理しカスタマイズされたレッスンを提供しています。年中無休・朝8時から夜21時まで営業しています。レンタルウェア完備で手ぶらで通えます。',
-    access: '四条烏丸エリア / 祇園四条からもアクセス可',
-    address: '京都府京都市下京区四条烏丸エリア（詳細は公式サイトでご確認ください）',
+    description: '最大4名の少人数制セミパーソナルレッスンが特徴のマシンピラティススタジオです。阪急烏丸駅から徒歩1分の GRAND CUBE四条7階にあり、男性も入会できます（公式表記）。有資格インストラクターがカルテで管理しカスタマイズされたレッスンを提供しています。年中無休・朝8時から夜21時まで営業しています。レンタルウェア完備で手ぶらで通えます。',
+    access: '阪急「烏丸駅」徒歩1分（公式表記。「烏丸駅・四条駅徒歩2分」とも記載）',
+    address: '京都府京都市下京区立売西町71 GRAND CUBE四条7階',
     popularPlan: {
       name: '月4回プラン',
       description: '少人数制セミパーソナルレッスン月4回です。カルテ管理で最適化です。',
@@ -168,7 +168,7 @@ const studios = [
     options: [
       '1回あたり 3,025円〜',
       'レンタルウェア完備（手ぶらで参加可能）',
-      '体験レッスン 980円',
+      '体験レッスン 無料（表参道店以外）',
       '最大12名のグループレッスンもあり',
     ],
     userProfile: {
@@ -207,7 +207,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があれば問題ありません。ピラティスKは無料体験、Pilates KASANEは980円で体験可能です。手ぶらで参加可能のスタジオもあります。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。ピラティスK・Rintosull・Pilates KASANE 四条烏丸店は無料、zen place 京都はマットグループの初回が1,000円で体験できます（2026年10月24日確認）。手ぶらで参加できるスタジオもあります。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
@@ -242,7 +242,7 @@ export default function GionShijoPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月24日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス祇園四条おすすめ5選<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較
@@ -300,6 +300,38 @@ export default function GionShijoPage() {
             </div>
             <p className="text-warm-600 leading-relaxed">
               以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
+            </p>
+          </div>
+        </section>
+
+        {/* 祇園四条駅からの行き方（2026-10-24・「祇園四条 ピラティス」の受け皿） */}
+        <section className="py-12 bg-white" id="from-gion-shijo">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">祇園四条駅からの行き方｜掲載5社の最寄り駅と体験料金</h2>
+            <p className="text-warm-600 leading-relaxed mb-6 text-sm">
+              掲載している5社は、いずれも祇園四条駅の西側（四条烏丸・四条大宮）にあります。京阪「祇園四条駅」から四条大橋を渡った先の阪急「京都河原町駅」から、阪急京都線で烏丸駅は1駅、大宮駅は2駅です。最寄り駅と徒歩分は各社の公式サイトの表記、体験料金は2026年10月24日に公式で確認した値です（Pilates MUSE は公式サイトを確認できていません）。
+            </p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm border-collapse">
+                <thead>
+                  <tr className="bg-warm-800 text-white">
+                    <th className="px-4 py-3 text-left">スタジオ</th>
+                    <th className="px-4 py-3 text-left">最寄り駅（公式表記）</th>
+                    <th className="px-4 py-3 text-left">祇園四条駅からの行き方</th>
+                    <th className="px-4 py-3 text-left">体験</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3">zen place pilates 京都</td><td className="px-4 py-3">阪急 烏丸駅・地下鉄 四条駅 12番出口 徒歩1分</td><td className="px-4 py-3">京都河原町駅から阪急で1駅（烏丸）</td><td className="px-4 py-3">マット初回1,000円／マシン初回3,000円</td></tr>
+                  <tr className="border-b border-warm-200"><td className="px-4 py-3">ピラティスK 京都四条烏丸店（女性専用）</td><td className="px-4 py-3">阪急 烏丸駅 徒歩1分</td><td className="px-4 py-3">京都河原町駅から阪急で1駅（烏丸）</td><td className="px-4 py-3">0円</td></tr>
+                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3">Rintosull 京都四条烏丸店（女性専用）</td><td className="px-4 py-3">阪急 烏丸駅 15番出口 徒歩2分／地下鉄 四条駅 1番出口 徒歩5分</td><td className="px-4 py-3">京都河原町駅から阪急で1駅（烏丸）</td><td className="px-4 py-3">無料体験会（約45分）</td></tr>
+                  <tr className="border-b border-warm-200"><td className="px-4 py-3">Pilates KASANE 四条烏丸店（男性も入会可）</td><td className="px-4 py-3">阪急 烏丸駅 徒歩1分</td><td className="px-4 py-3">京都河原町駅から阪急で1駅（烏丸）</td><td className="px-4 py-3">無料</td></tr>
+                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3">Pilates MUSE 京都四条大宮（女性専用）</td><td className="px-4 py-3">阪急 大宮駅／嵐電 四条大宮駅 徒歩1分（掲載時の値）</td><td className="px-4 py-3">京都河原町駅から阪急で2駅（大宮）</td><td className="px-4 py-3">公式で未確認</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="text-warm-600 leading-relaxed mt-4 text-sm">
+              祇園四条駅のすぐ近く（祇園・河原町側）には、当サイトが公式サイトで料金を確認できたピラティススタジオがまだありません。会社帰りに通うなら、職場や乗り換え駅に近い烏丸の4社を候補にすると比べやすくなります。
             </p>
           </div>
         </section>
@@ -574,7 +606,7 @@ export default function GionShijoPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ピラティスKは無料体験、Pilates KASANEは980円で体験可能です。体験レッスンで実際の雰囲気をご確認ください。
+                  ピラティスK・Rintosull・Pilates KASANE 四条烏丸店は無料、zen place 京都はマットグループの初回が1,000円で体験できます（2026年10月24日確認）。体験レッスンで実際の雰囲気をご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -644,7 +676,7 @@ export default function GionShijoPage() {
               体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜980円です。<br />
+              初回の体験レッスンは無料〜3,000円です（店舗により異なります）。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link

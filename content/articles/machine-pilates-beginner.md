@@ -298,6 +298,8 @@ relatedArticles:
 
 <LaPilatesPR />
 
+La pilates（ラピラティス）の公式料金・体験の内容・店舗一覧・口コミの傾向は、[La pilatesのブランドページ](/brands/la-pilates/)にまとめています。
+
 ## よくある質問
 
 ### Q1: 運動が苦手でもできる？

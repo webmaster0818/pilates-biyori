@@ -31,7 +31,11 @@ BRANDS = [
     ("dep",           r"ピラティススタジオ ?DEP"),
     ("1to1",          r"1to1"),
     ("repilates",     r"Repilates|(?<!ジュ)リピラティス"),  # 「ジュリピラティス」を拾わない
+    # 2026-10-24 追加（afi-b 816076W／A8 1O96）。大文字小文字を区別（Stella Pilates 除外）。LAVA は rintosull より後＝LAVA店内の Rintosull を拾わない
+    ("la-pilates",    r"(?<!Stel)La ?[Pp]ilates|ラ ?ピラティス"),
+    ("lava",          r"LAVA"),
 ]
+CASE_SENSITIVE = ("pilates-k", "la-pilates", "lava")
 
 def brand_of(name):
     # kasaneを先に判定（pilates Kとの誤爆防止）
@@ -40,7 +44,7 @@ def brand_of(name):
     for slug, pat in BRANDS:
         if slug in ("kasane",):
             continue
-        if re.search(pat, name, re.I if slug not in ("pilates-k",) else 0):
+        if re.search(pat, name, re.I if slug not in CASE_SENSITIVE else 0):
             return slug
     return None
 
@@ -125,7 +129,7 @@ BRAND_PAT = dict(BRANDS)
 
 def store_key(brand, name):
     s = re.sub(r"[（(][^）)]*[）)]", " ", name)
-    m = re.search(BRAND_PAT[brand], s, re.I if brand != "pilates-k" else 0)
+    m = re.search(BRAND_PAT[brand], s, re.I if brand not in CASE_SENSITIVE else 0)
     if m:
         s = s[m.end():]
     s = re.sub(r"(マシン)?ピラティス(スタジオ)?|スタジオ|Studio|PILATES|Pilates|pilates", "", s)

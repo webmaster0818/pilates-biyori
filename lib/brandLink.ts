@@ -23,6 +23,10 @@ const RULES: Array<{ slug: string; test: (n: string) => boolean }> = [
   { slug: 'dep', test: (n) => /ピラティススタジオ ?DEP/i.test(n) },
   { slug: '1to1', test: (n) => /1to1/i.test(n) },
   { slug: 'repilates', test: (n) => /Repilates|(?<!ジュ)リピラティス/i.test(n) }, // 「ジュリピラティス」を拾わない
+  // 2026-10-24 追加（afi-b 816076W／A8 1O96）。aggregate-brands-202607.py と同じ判定。
+  // ⚠️ 大文字小文字を区別する（「Stella Pilates」が La pilates に当たるため）。LAVA は Rintosull（LAVA店内）を上の rintosull で先に拾う
+  { slug: 'la-pilates', test: (n) => /La ?[Pp]ilates|ラ ?ピラティス/.test(n) && !/Stella/.test(n) },
+  { slug: 'lava', test: (n) => /LAVA/.test(n) },
 ]
 
 export function brandSlugOf(studioName: string): string | null {

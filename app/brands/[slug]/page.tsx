@@ -107,13 +107,13 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
   const freeTrial = stores.filter((s) => s.trial && isFreeTrial(s.trial)).length
 
   const os = brand.officialStores
-  const storeCountLabel = os ? `全国${os.count}店舗${os.approx ? '以上' : ''}` : null
+  const storeCountLabel = os ? `${os.countLabel ? `${os.countLabel}は` : '全国'}${os.count}店舗${os.approx ? '以上' : ''}` : null
   // 店舗数FAQ（公式一次情報が確認できたブランドのみ動的に追加＝FAQSchemaと本文が常に同期）
   const faqs = os
     ? [
         {
-          q: `${brand.name}の店舗数は？`,
-          a: `${os.asOf}時点で${storeCountLabel}です（${os.kind === '公式明記' ? '公式サイトの記載' : '公式サイトの店舗一覧の掲載数'}に基づく）。${os.caveat ?? ''}当サイトではうち${stores.length}店舗をエリアページ付きで掲載しています。`,
+          q: `${brand.name}の${os.countLabel ?? '店舗数'}は？`,
+          a: `${os.asOf}時点で${storeCountLabel}です（${os.kind === '公式明記' ? '公式サイトの記載' : '公式サイトの店舗一覧の掲載数'}に基づく）。${os.caveat ?? ''}${os.countLabel ? `当サイトのエリアページには${stores.length}店舗を掲載しています。` : `当サイトではうち${stores.length}店舗をエリアページ付きで掲載しています。`}`,
         },
         ...brand.faq,
       ]
@@ -155,10 +155,10 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
               <div>
                 <p className="text-2xl font-light text-warm-900">{os ? `${os.count}${os.approx ? '+' : ''}` : stores.length}</p>
-                <p className="text-xs text-warm-500 mt-1">{os ? `全国店舗数（${os.asOf}時点）` : '当サイト掲載店舗'}</p>
+                <p className="text-xs text-warm-500 mt-1">{os ? `${os.countLabel ?? '全国店舗数'}（${os.asOf}時点）` : '当サイト掲載店舗'}</p>
               </div>
               <div>
-                <p className="text-2xl font-light text-warm-900">{prices[0] ? prices[0].label.replace(/（.*?）/g, '').split(/[／/]/)[0].trim() : '公式参照'}</p>
+                <p className="text-2xl font-light text-warm-900">{brand.summaryPlan ? brand.summaryPlan : prices[0] ? prices[0].label.replace(/（.*?）/g, '').split(/[／/]/)[0].trim() : '公式参照'}</p>
                 <p className="text-xs text-warm-500 mt-1">代表的なプラン</p>
               </div>
               <div>
@@ -177,11 +177,11 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
             )}
             {os && (
               <p className="text-[11px] text-warm-400 mt-3 leading-relaxed">
-                ※全国店舗数は
+                ※{os.countLabel ?? '全国店舗数'}は
                 <a href={os.sourceUrl} target="_blank" rel="noopener noreferrer" className="underline decoration-warm-300 hover:text-warm-800">
                   公式サイト
                 </a>
-                の{os.kind === '公式明記' ? '記載' : '店舗一覧の掲載数'}に基づきます（{os.asOf}時点）。{os.caveat ?? ''}当サイトではうち{stores.length}店舗をエリアページ付きで掲載しています。
+                の{os.kind === '公式明記' ? '記載' : '店舗一覧の掲載数'}に基づきます（{os.asOf}時点）。{os.caveat ?? ''}{os.countLabel ? `当サイトのエリアページには${stores.length}店舗を掲載しています。` : `当サイトではうち${stores.length}店舗をエリアページ付きで掲載しています。`}
               </p>
             )}
             {stores.length > 0 && (
@@ -195,7 +195,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
 
           {os?.byPref && os.byPref.length > 0 && (
             <section className="mb-10">
-              <h2 className="text-xl font-light text-warm-900 border-b border-warm-200 pb-2 mb-4">{brand.name}の都道府県別店舗数（公式・{os.asOf}時点）</h2>
+              <h2 className="text-xl font-light text-warm-900 border-b border-warm-200 pb-2 mb-4">{brand.name}の都道府県別{os.countLabel ?? '店舗数'}（公式・{os.asOf}時点）</h2>
               <p className="text-sm text-warm-600 font-light leading-relaxed mb-4">
                 公式サイトの店舗一覧に載っている{os.byPrefTotal ?? os.count}店舗を、住所の都道府県別に集計しています（{os.byPref.length}都道府県）。{os.byPrefNote ?? os.caveat ?? ''}
                 最も多いのは{os.byPref[0].pref}の{os.byPref[0].count}店舗です。
@@ -225,6 +225,16 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
               <p key={i} className="text-sm text-warm-700 leading-relaxed mb-3 font-light">{p}</p>
             ))}
             {brand.note && <p className="text-xs text-warm-500 leading-relaxed">{brand.note}</p>}
+            {brand.crossLinks && brand.crossLinks.length > 0 && (
+              <div className="mt-4 bg-white border border-warm-200 p-4 space-y-2">
+                {brand.crossLinks.map((c) => (
+                  <p key={c.href} className="text-sm text-warm-700 font-light leading-relaxed">
+                    {c.text}
+                    <Link href={c.href} className="ml-1 text-warm-800 underline decoration-warm-300 hover:text-warm-900">{c.label} →</Link>
+                  </p>
+                ))}
+              </div>
+            )}
           </section>
 
           {/* 料金 */}
@@ -408,6 +418,29 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                   {/* eslint-enable @next/next/no-img-element */}
                 </div>
               )}
+              {/* 2026-10-24: La pilates（afi-b 816076W）・LAVA（A8 4BENDQ+6V2YDE）。10/23 設置済みのタグ（ArticleFigures の LaPilatesPR・LavaPR と同じ組）を再利用。クリックURLと計測の組を崩さない */}
+              {brand.slug === 'la-pilates' && (
+                <div className="mt-6 flex flex-col items-center gap-4">
+                  {/* eslint-disable @next/next/no-img-element */}
+                  <img src="https://t.afi-b.com/lead/816076W/E9887623/u518546p" width={1} height={1} alt="" style={{ border: 'none' }} />
+                  <a href="https://t.afi-b.com/visit.php?a=816076W-p520735r&p=E9887623" target="_blank" rel="nofollow noopener noreferrer sponsored">
+                    <img width={300} height={250} alt="La pilates" className="max-w-full h-auto" style={{ border: 'none' }} src="https://www.afi-b.com/upload_image/16076-1758519716-3.png" />
+                  </a>
+                  <img src="https://t.afi-b.com/lead/816076W/E9887623/p520735r" width={1} height={1} alt="" style={{ border: 'none' }} />
+                  {/* eslint-enable @next/next/no-img-element */}
+                </div>
+              )}
+              {brand.slug === 'lava' && (
+                <div className="mt-6 flex flex-col items-center gap-4">
+                  {/* eslint-disable @next/next/no-img-element */}
+                  <img src="https://www12.a8.net/0.gif?a8mat=4BENDQ+6V2YDE+1O96+5YZ76" width={1} height={1} alt="" style={{ border: 0 }} />
+                  <a href="https://px.a8.net/svt/ejp?a8mat=4BENDQ+6V2YDE+1O96+69P01" target="_blank" rel="nofollow noopener noreferrer sponsored">
+                    <img width={300} height={250} alt="LAVA" className="max-w-full h-auto" style={{ border: 0 }} src="https://www29.a8.net/svt/bgt?aid=261023966415&wid=003&eno=01&mid=s00000007809001053000&mc=1" />
+                  </a>
+                  <img src="https://www17.a8.net/0.gif?a8mat=4BENDQ+6V2YDE+1O96+69P01" width={1} height={1} alt="" style={{ border: 0 }} />
+                  {/* eslint-enable @next/next/no-img-element */}
+                </div>
+              )}
               {/* A8（2026-10-14）: CTAテキストリンクのインプレッション計測。クリックURL（brands.ts ctaUrl）と同じ a8mat を対で使う */}
               {(['dep', '1to1', 'repilates'] as const).includes(brand.slug as 'dep') && brand.ctaUrl?.includes('a8mat=') && (
                 <div className="mt-2 flex justify-center">
@@ -487,8 +520,9 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                   （公式に無い店舗を削除し、ブランドページは同一店舗を1行に統合）。
                   the SILK 46≥43 / zen place 136≥113 / BDC 8≥6 / ルルト 100≥29 / Rintosull 270≥98。
                   他ブランドで逆転した場合に矛盾して見えないよう、条件は残す。 */}
-              {brand.name}の店舗一覧{os && os.count >= stores.length ? `（全国${os.count}店舗${os.approx ? '以上' : ''}・当サイト掲載${stores.length}店舗）` : `（当サイト掲載${stores.length}店舗）`}
+              {brand.name}の店舗一覧{os && !os.countLabel && os.count >= stores.length ? `（全国${os.count}店舗${os.approx ? '以上' : ''}・当サイト掲載${stores.length}店舗）` : `（当サイト掲載${stores.length}店舗）`}
             </h2>
+            {brand.storeListNote && <p className="text-sm text-warm-700 font-light leading-relaxed mb-4">{brand.storeListNote}</p>}
             <div className="bg-white border border-warm-200 overflow-x-auto">
               <table className="w-full text-sm">
                 <thead>

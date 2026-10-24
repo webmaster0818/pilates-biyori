@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/suidobashi/' },
-  title: 'ピラティス水道橋・後楽園おすすめ11選料金・体験レッスン・マシン対応を比較',
+  title: '水道橋・後楽園のピラティスおすすめ11選｜最寄り駅・体験料金・入会金を比較',
   description: '水道橋・後楽園エリアのおすすめピラティススタジオ11選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。飯田橋・神保町の近隣スタジオも紹介しています。',
   keywords: 'ピラティス,水道橋,後楽園,飯田橋,神保町,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -27,7 +27,7 @@ const studios = [
     price: '月会費 11,000円（月6回まで）',
     trial: '体験レッスン 2,200円',
     features: ['コナミ運営', '春日駅徒歩1分', '月6回定額', '天井鏡設計'],
-    description: 'コナミスポーツクラブが運営するマシンピラティス専門スタジオです。春日駅A3口から徒歩1分、後楽園駅5番口から徒歩2分です。天井に鏡を設置した特徴的な設計で、自分のフォームを確認しながらレッスンできます。月6回11,000円、7回目以降は1回1,100円で追加利用可能です。最大6名の少人数制です。',
+    description: 'コナミスポーツクラブが運営するマシンピラティス専門スタジオです。春日駅A3口から徒歩1分、後楽園駅5番口から徒歩2分です。天井に鏡を設置した特徴的な設計で、自分のフォームを確認しながらレッスンできます。月6回11,000円、7回目以降は1回1,100円で追加利用可能です。最大6名の少人数制です。公式の店舗ページには2026年10月24日時点で「只今、ご入会をお待ちいただいております」と表示されています（入会待ち）。',
     access: '都営三田線・大江戸線「春日駅」A3口 徒歩1分 / 丸ノ内線・南北線「後楽園駅」5番口 徒歩2分',
     address: '東京都文京区小石川1-1-18 文京ガーデン ザ サウス1階101',
     popularPlan: {
@@ -55,22 +55,21 @@ const studios = [
   {
     name: 'STUDIO IVY 後楽園店',
     image: '/images/studios/studio-ivy.webp',
-    price: '1回 6,250円〜',
-    trial: '体験レッスンあり',
-    features: ['パーソナル専門', 'マシンピラティス', '春日駅徒歩3分', '全国展開'],
-    description: '全国展開のパーソナルマシンピラティス専門スタジオです。都営三田線・大江戸線「春日駅」より徒歩3分、JR水道橋駅からも徒歩圏内です。一人ひとりの体型や目標に合わせたオーダーメイドのトレーニングを提供しています。月謝制で1レッスン6,250円〜です。完全プライベート空間で初心者でも安心です。',
-    access: '都営三田線・大江戸線「春日駅」徒歩3分 / JR「水道橋駅」徒歩圏内',
-    address: '東京都文京区（春日駅徒歩3分・後楽園エリア）',
+    price: '1レッスン 6,500円〜（公式表記）',
+    trial: '初回体験レッスン 4,500円→0円（キャンペーン・公式・2026年10月24日確認）',
+    features: ['パーソナル専門', 'マシンピラティス', '後楽園駅が最寄り', '全国展開'],
+    description: '全国展開のパーソナルマシンピラティス専門スタジオです。公式の店舗一覧では最寄駅は後楽園駅、所在地は本郷1丁目です。一人ひとりの体型や目標に合わせたオーダーメイドのトレーニングを提供しています。月謝制で、公式の料金表示は1レッスン6,500円〜です。完全プライベート空間で初心者でも安心です。',
+    access: '最寄駅「後楽園駅」（公式の店舗一覧の表記・徒歩分の記載なし）',
+    address: '東京都文京区本郷1-21-1 TEC本郷EAST101',
     popularPlan: {
-      name: '月4回コース',
-      description: '完全パーソナルのマシンピラティスです。1回あたり6,250円〜です。',
-      price: '月4回 25,000円〜（税込）',
+      name: '月謝プラン',
+      description: '完全パーソナルのマシンピラティスです。月の回数別の料金は公式サイトに表がないため、体験時にご確認ください。',
+      price: '1レッスン 6,500円〜（公式表記）',
     },
     options: [
-      '月2回コース（15,000円〜）',
-      '月4回コース（25,000円〜）',
-      '月8回コース（48,000円〜）',
-      '都度利用（8,800円）',
+      '1レッスン 6,500円〜（月謝制・公式表記）',
+      '入会金＋事務手数料 23,300円→体験当日の入会で0円（キャンペーン）',
+      '初回体験レッスン 4,500円→0円（キャンペーン）',
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
@@ -88,7 +87,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: 'マットグループ 月4回 10,450円〜',
-    trial: '体験レッスン 500円〜',
+    trial: 'マットグループ初回体験 1,000円（キャンペーン・通常3,300円〜／マシングループは初回3,000円・公式のスタジオページ・2026年10月24日確認）',
     features: ['マット&マシン', '飯田橋駅徒歩1分', '水道橋から1駅', '男性利用可'],
     description: '全国125店舗以上展開の大手ピラティススタジオです。飯田橋駅B4b出口から徒歩1分、JR飯田橋駅西口から徒歩3分です。水道橋からJR総武線で1駅の好アクセスです。マットグループ、マシングループ、プライベートレッスンに対応しています。全国150スタジオが他店利用可能です。',
     access: '地下鉄「飯田橋駅」B4b出口 徒歩1分 / JR「飯田橋駅」西口 徒歩3分 / 水道橋からJR総武線で1駅',
@@ -119,8 +118,8 @@ const studios = [
     name: 'zen place pilates 神保町スタジオ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: 'マットグループ 月4回 10,450円〜',
-    trial: '体験レッスン 500円〜',
+    price: 'マットグループ 月4回 9,625円（グレード02）',
+    trial: 'マットグループ初回体験 1,000円（キャンペーン・通常2,200円〜／マシングループは初回3,000円・公式のスタジオページ・2026年10月24日確認）',
     features: ['マット&マシン', '神保町駅徒歩1分', '水道橋から徒歩圏内', '男性利用可'],
     description: '全国125店舗以上展開のzen placeの神保町スタジオです。都営三田線・新宿線・半蔵門線「神保町駅」A7出口から徒歩1分です。水道橋駅からも徒歩約10分でアクセス可能です。マットグループ、マシングループ、プライベートに対応しています。5〜10名の少人数制レッスンです。',
     access: '都営三田線・新宿線・半蔵門線「神保町駅」A7出口 徒歩1分 / JR「水道橋駅」徒歩約10分',
@@ -128,10 +127,10 @@ const studios = [
     popularPlan: {
       name: 'マットグループ月4回',
       description: 'マットグループレッスン月4回です。全国スタジオ他店利用可能です。',
-      price: '月額 10,450円〜（税込）',
+      price: '月額 9,625円（税込）',
     },
     options: [
-      'マットグループ月4回（10,450円〜）',
+      'マットグループ月4回（9,625円）',
       'マシングループ月4回（14,520円〜）',
       'プライベート1回（8,250円〜）',
       'フリープラン（16,940円〜）',
@@ -182,8 +181,8 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 飯田橋店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
-    price: '月額 9,680円〜（通い放題あり）',
-    trial: '体験レッスンあり',
+    price: '月4回 税込8,580円〜（通い放題 税込12,980円）',
+    trial: '無料体験（公式の店舗ページ・2026年10月24日確認）',
     features: ['予約不要', '30分サーキット', '飯田橋駅徒歩1分', '水道橋から1駅'],
     description: 'マシンピラティスとファンクショナルトレーニングのサーキット形式です。予約不要・1回30分の短時間設計です。飯田橋駅から徒歩1分、水道橋からJR総武線で1駅です。忙しい方でも気軽に続けられます。',
     access: 'JR・東京メトロ・都営大江戸線「飯田橋駅」徒歩1分 / 水道橋からJR総武線で1駅',
@@ -191,12 +190,12 @@ const studios = [
     popularPlan: {
       name: '通い放題プラン',
       description: '予約不要・30分サーキットが通い放題です。',
-      price: '月額 14,080円（税込）',
+      price: '月額 12,980円（税込）',
     },
     options: [
-      '月4回プラン（9,680円）',
+      'マンスリー4（税込8,580円）',
       '月8回プラン（12,980円）',
-      '通い放題プラン（14,080円）',
+      'レギュラー通い放題（税込12,980円）',
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
@@ -306,19 +305,19 @@ const studios = [
     name: 'Rintosull 秋葉原店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
-    price: 'マンスリーメンバー 月4回 10,800円〜',
-    trial: '体験レッスンあり',
+    price: '4・フルタイム 月4回 8,800円',
+    trial: '無料体験会（公式の店舗ページ・2026年10月24日確認）',
     features: ['LAVA系列', '女性専用', '秋葉原駅徒歩1分', '水道橋から2駅'],
     description: 'ホットヨガLAVAが運営するマシンピラティス専門スタジオです。秋葉原駅中央口から徒歩1分です。水道橋からJR総武線で2駅です。女性専用で、リフォーマーを使ったグループレッスンが中心です。全国240店舗以上展開です。',
     access: 'JR「秋葉原駅」中央口 徒歩1分 / 水道橋からJR総武線で2駅',
     address: '東京都千代田区神田佐久間町1-8-4 ニュー千代田ビル(アルテール秋葉原) 3F',
     popularPlan: {
-      name: 'マンスリーメンバー月4回',
+      name: '4・フルタイム（月4回）',
       description: 'マシンピラティスグループレッスン月4回です。',
-      price: '月4回 10,800円〜（税込）',
+      price: '月4回 8,800円（税込）',
     },
     options: [
-      '月4回プラン（10,800円〜）',
+      '4・フルタイム（8,800円）／ライト・フルタイム（13,800円）／プレミアム フリー・フルタイム（16,800円）',
       '通い放題プラン（15,800円〜）',
       'LAVA会員割引あり',
     ],
@@ -336,21 +335,21 @@ const studios = [
   {
     name: 'ピラティススタジオ ゼロ 神保町',
     image: '/images/studios/pilates-zero-jimbocho-suidobashi.webp',
-    price: 'パーソナル 1回 9,900円〜',
-    trial: '体験レッスンあり',
+    price: 'パーソナル 月4回 37,200円（税込・1回9,300円）',
+    trial: '体験 4,400円（40分）※2026年10月は体験当日の入会で体験料・入会金無料（公式・2026年10月24日確認）',
     features: ['PHIピラティス認定', 'パーソナル専門', '神保町駅徒歩2分', '姿勢改善特化'],
-    description: 'PHIピラティスの専門知識を持つトレーナーによるパーソナルピラティススタジオです。神保町駅から徒歩2分、水道橋から都営三田線で1駅です。姿勢改善に特化した確固たるメソッドで、根本的な体の変化を目指します。',
-    access: '都営三田線・新宿線・半蔵門線「神保町駅」徒歩2分 / 都営三田線「水道橋駅」から1駅',
-    address: '東京都千代田区神田神保町（神保町駅徒歩2分）',
+    description: 'PHIピラティスの専門知識を持つトレーナーによるパーソナルピラティススタジオです。神保町駅から徒歩2分、水道橋から都営三田線で1駅です。公式の料金表（税込）は月3回28,500円・月4回37,200円・月6回54,000円・月8回69,600円です。',
+    access: '地下鉄「神保町駅」A5出口 徒歩2分 / 都営三田線「水道橋駅」から1駅',
+    address: '東京都千代田区神田神保町1-16-3 TSI神保町ビル1F・B1',
     popularPlan: {
       name: 'パーソナルレッスン',
       description: 'PHI認定トレーナーによる完全マンツーマン指導しています。',
-      price: '1回 9,900円〜（税込）',
+      price: '月4回 37,200円（税込）',
     },
     options: [
-      'パーソナル1回（9,900円〜）',
-      '回数券5回（45,000円〜）',
-      '回数券10回（85,000円〜）',
+      '月3回 28,500円／月4回 37,200円（税込）',
+      '月6回 54,000円／月8回 69,600円（税込）',
+      '入会金 22,000円（2026年10月は体験当日の入会で無料）',
     ],
     userProfile: {
       ageRange: '30代〜60代が中心',
@@ -376,7 +375,7 @@ const faqs = [
   },
   {
     question: '水道橋エリアの料金相場は？',
-    answer: 'グループレッスンは月4〜6回で9,680円〜15,400円程度です。パーソナルは1回6,250円〜9,900円です。chocoZAPなら月額3,278円でセルフ式ピラティスが利用できます。体験は0円〜3,300円です。',
+    answer: '公式で確認できたグループ月4回は8,580円（URBAN CLASSIC 飯田橋）〜13,420円（ピラティスK 神保町）で、ピラティスミラー 後楽園は月6回11,000円です。パーソナルはSTUDIO IVYが1レッスン6,500円〜、ゼロ 神保町が月4回37,200円です（いずれも2026年10月24日確認）。chocoZAPなら月額3,278円でセルフ式ピラティスが利用できます。体験は0円〜4,400円です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -423,7 +422,7 @@ export default function SuidobashiPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月24日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス水道橋・後楽園おすすめ11選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
@@ -483,6 +482,42 @@ export default function SuidobashiPage() {
           </div>
         </section>
 
+        {/* 最寄り駅・入会金・体験・定休日の早見表（2026-10-24・「水道橋 ピラティス」の受け皿。値は各社の公式店舗ページ） */}
+        <section className="py-12 bg-white" id="by-station">
+          <div className="max-w-5xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">水道橋から通いやすい順の早見表｜最寄り駅・体験・入会金・定休日</h2>
+            <p className="text-warm-600 leading-relaxed mb-6 text-sm">
+              水道橋駅のとなりの後楽園・春日、都営三田線で1駅の神保町、JR総武線で1駅の飯田橋・2駅の秋葉原の順に並べています。最寄り駅と徒歩分・体験・入会金・定休日は各社の公式店舗ページの表記です（2026年10月24日確認）。公式ページに無い項目は「記載なし」としています。
+            </p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm border-collapse">
+                <thead>
+                  <tr className="bg-warm-800 text-white">
+                    <th className="px-3 py-3 text-left">スタジオ</th>
+                    <th className="px-3 py-3 text-left">最寄り駅（公式表記）</th>
+                    <th className="px-3 py-3 text-left">体験</th>
+                    <th className="px-3 py-3 text-left">入会金など</th>
+                    <th className="px-3 py-3 text-left">定休日</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-3 py-3">ピラティスミラー 後楽園（18歳以上の女性・入会待ち）</td><td className="px-3 py-3">春日駅A3口 徒歩1分／後楽園駅5番口 徒歩2分</td><td className="px-3 py-3">2,200円（税込・1人1回）</td><td className="px-3 py-3">入会金 11,000円（税込）</td><td className="px-3 py-3">毎週金曜日</td></tr>
+                  <tr className="border-b border-warm-200"><td className="px-3 py-3">STUDIO IVY 後楽園店（パーソナル）</td><td className="px-3 py-3">後楽園駅（徒歩分の記載なし）</td><td className="px-3 py-3">4,500円→0円（キャンペーン）</td><td className="px-3 py-3">入会金＋事務手数料 23,300円→体験当日の入会で0円</td><td className="px-3 py-3">記載なし</td></tr>
+                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-3 py-3">zen place pilates 神保町（男女共用）</td><td className="px-3 py-3">神保町駅A7出口 徒歩1分</td><td className="px-3 py-3">マット初回1,000円／マシン初回3,000円</td><td className="px-3 py-3">入会金 22,000円（グレード02・当日入会で無料）</td><td className="px-3 py-3">記載なし（平日8:55〜22:00・土日祝8:00〜20:00）</td></tr>
+                  <tr className="border-b border-warm-200"><td className="px-3 py-3">pilates K 神保町店（女性専用）</td><td className="px-3 py-3">神保町駅 徒歩2分</td><td className="px-3 py-3">0円</td><td className="px-3 py-3">初期費用 13,530円（入会金・登録料・施設利用料）</td><td className="px-3 py-3">月曜日</td></tr>
+                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-3 py-3">ピラティススタジオ ゼロ 神保町（パーソナル）</td><td className="px-3 py-3">神保町駅A5出口 徒歩2分</td><td className="px-3 py-3">4,400円（40分）</td><td className="px-3 py-3">入会金 22,000円（10月は体験当日の入会で体験料・入会金無料）</td><td className="px-3 py-3">記載なし</td></tr>
+                  <tr className="border-b border-warm-200"><td className="px-3 py-3">zen place pilates 飯田橋（男女共用）</td><td className="px-3 py-3">飯田橋駅B4b出口 徒歩1分／JR飯田橋駅西口 徒歩3分</td><td className="px-3 py-3">マット初回1,000円／マシン初回3,000円</td><td className="px-3 py-3">入会金 33,000円（グレード01・当日入会で無料）</td><td className="px-3 py-3">記載なし（平日9:00〜21:00・土日祝7:30〜17:00）</td></tr>
+                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-3 py-3">URBAN CLASSIC PILATES 飯田橋店（男性も入会可）</td><td className="px-3 py-3">飯田橋駅 徒歩1分</td><td className="px-3 py-3">無料</td><td className="px-3 py-3">施設利用料 税込2,200円（入会時）／運営管理費 月480円（3ヶ月目から）</td><td className="px-3 py-3">日曜日</td></tr>
+                  <tr className="border-b border-warm-200"><td className="px-3 py-3">Rintosull 秋葉原店（女性専用）</td><td className="px-3 py-3">JR秋葉原駅 中央改札 徒歩1分</td><td className="px-3 py-3">無料体験会</td><td className="px-3 py-3">入会金・登録金 各5,000円→体験当日の入会で0円</td><td className="px-3 py-3">毎週日曜・第4木曜</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="text-warm-600 leading-relaxed mt-4 text-sm">
+              水道橋駅から歩いて通うなら後楽園・春日側のピラティスミラーとSTUDIO IVY、乗り換えなしで通うなら都営三田線で1駅の神保町（zen place・pilates K・ゼロ）が候補です。the SILK 神楽坂店・ELEMENT 神楽坂・飯田橋店・CALDO 神楽坂は、今回は公式の店舗ページで値を確認していないため表に入れていません。
+            </p>
+          </div>
+        </section>
+
         <PriceComparisonTable studios={studios} areaName="水道橋・後楽園" />
         <AreaMarketComparison studios={studios} areaName="水道橋・後楽園" />
 
@@ -518,15 +553,15 @@ export default function SuidobashiPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">6,250円〜39,800円</td>
+                    <td className="px-4 py-3">8,580円〜13,420円（公式で確認できた月4回・2026年10月24日）</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回 9,900円〜39,800円</td>
+                    <td className="px-4 py-3">1回 6,500円〜（STUDIO IVY）／月4回 37,200円（ゼロ 神保町）／通い放題 39,800円（ELEMENT）</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">500円〜2,200円</td>
+                    <td className="px-4 py-3">0円〜4,400円</td>
                   </tr>
                 </tbody>
               </table>
@@ -623,8 +658,8 @@ export default function SuidobashiPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• chocoZAP（月額3,278円・ピラティス込み）</li>
-                  <li className="text-warm-700">• URBAN CLASSIC 飯田橋（月額9,680円〜）</li>
-                  <li className="text-warm-700">• zen place 飯田橋/神保町（マット月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• URBAN CLASSIC 飯田橋（月4回 税込8,580円〜）</li>
+                  <li className="text-warm-700">• zen place 飯田橋/神保町（マット月4回 10,450円／9,625円）</li>
                   <li className="text-warm-700">• ピラティスミラー後楽園（月6回 11,000円）</li>
                 </ul>
               </div>
@@ -634,8 +669,8 @@ export default function SuidobashiPage() {
                   マンツーマン指導で効果を実感できます。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• STUDIO IVY 後楽園（1回6,250円〜）</li>
-                  <li className="text-warm-700">• ピラティススタジオ ゼロ（1回9,900円〜）</li>
+                  <li className="text-warm-700">• STUDIO IVY 後楽園（1レッスン6,500円〜）</li>
+                  <li className="text-warm-700">• ピラティススタジオ ゼロ（月4回37,200円）</li>
                   <li className="text-warm-700">• ELEMENT 神楽坂・飯田橋（通い放題39,800円）</li>
                   <li className="text-warm-700">• ピラティスミラー（プライベート30分 4,400円）</li>
                 </ul>
@@ -669,7 +704,7 @@ export default function SuidobashiPage() {
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイク目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。URBAN CLASSICの通い放題プランなら通い放題14,080円です。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。URBAN CLASSICのレギュラー（通い放題）なら税込12,980円です。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">健康管理目的の方</h3>
               <p className="text-warm-600 leading-relaxed">
@@ -701,7 +736,7 @@ export default function SuidobashiPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  セルフ式のchocoZAPなら月額3,278円です。グループ月4〜6回で9,680円〜15,400円、パーソナルは1回6,250円〜9,900円が水道橋エリアの相場です。
+                  セルフ式のchocoZAPなら月額3,278円です。公式で確認できたグループ月4回は8,580円〜13,420円、パーソナルは1レッスン6,500円〜です（2026年10月24日確認）。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -710,7 +745,7 @@ export default function SuidobashiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  pilates Kの体験0円をはじめ、zen placeは500円〜、ピラティスミラーは2,200円で体験できます。まずは2〜3スタジオの体験を比較するのがおすすめです。
+                  pilates K・URBAN CLASSIC・Rintosull・STUDIO IVY（キャンペーン）は0円、zen placeはマットグループの初回1,000円、ピラティスミラーは2,200円で体験できます（2026年10月24日確認）。まずは2〜3スタジオの体験を比較するのがおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
