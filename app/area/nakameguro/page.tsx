@@ -25,7 +25,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: 'マットグループ 月4回 9,625円〜',
-    trial: '体験レッスン 500円〜',
+    trial: 'マットグループ初回体験 1,000円（キャンペーン・通常3,300円〜／マシングループは初回3,000円・公式のスタジオページ・2026年10月24日確認）',
     features: ['マット&マシン', '初心者歓迎', '中目黒駅徒歩7分', '男性利用可'],
     description: '全国100店舗以上展開の大手ピラティススタジオです。中目黒駅から徒歩7分、池尻大橋駅からも徒歩7分です。マットグループ、マシン（リフォーマー）グループ、プライベートレッスンと幅広いメニューです。おしゃれな中目黒の街でピラティスを楽しめます。',
     access: '東急東横線・日比谷線「中目黒駅」徒歩7分 / 東急田園都市線「池尻大橋駅」徒歩7分',
@@ -119,11 +119,11 @@ const studios = [
     name: 'STUDIO IVY 中目黒店',
     image: '/images/studios/studio-ivy.webp',
     price: '1レッスン 6,250円〜',
-    trial: '体験レッスンあり',
-    features: ['パーソナル専門', 'マシンピラティス', '中目黒駅徒歩2分', '全国展開'],
-    description: '全国展開のパーソナルマシンピラティス専門スタジオです。中目黒駅から徒歩2分の好立地です。経験豊富なインストラクターが一人ひとりの体型や目標に合わせたオーダーメイドのトレーニングを提供しています。',
-    access: '東急東横線・日比谷線「中目黒駅」徒歩2分',
-    address: '東京都目黒区上目黒1-18-6 NMビル4F',
+    trial: '初回体験レッスン 4,500円（50分・税込／公式の店舗ページ・2026年10月24日確認）',
+    features: ['パーソナル専門', 'マシンピラティス', '中目黒駅徒歩5分', '全国展開'],
+    description: '全国展開のパーソナルマシンピラティス専門スタジオです。中目黒駅から徒歩5分です。経験豊富なインストラクターが一人ひとりの体型や目標に合わせたオーダーメイドのトレーニングを提供しています。',
+    access: '東急東横線「中目黒駅」徒歩5分',
+    address: '東京都目黒区上目黒2-44-15 丸協ビル401',
   },
   {
     name: 'NATURAglam 中目黒スタジオ',
@@ -140,7 +140,7 @@ const studios = [
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590',
     image: '/images/studios/bdc-pilates.webp',
     price: 'グループ 月額 15,400円〜',
-    trial: '体験レッスン 3,850円',
+    trial: 'グループ体験 1,100円（税込・10/31までのキャンペーン・限定20名／通常4,070円・体験当日の入会で体験料キャッシュバック・公式・2026年10月24日確認）',
     features: ['プロダンサー養成校プロデュース', '少人数制', '恵比寿駅近', '本格的'],
     description: '40年以上の実績を持つプロダンサー養成校「BDC」がプロデュースするマシンピラティス専門スタジオです。恵比寿駅から徒歩圏内で、中目黒からも1駅です。最大8名の少人数制で質の高いレッスンを提供しています。',
     access: 'JR恵比寿駅東口 徒歩3分（公式表記）',
@@ -170,7 +170,7 @@ const faqs = [
   },
   {
     question: '中目黒エリアのピラティススタジオの料金相場は？',
-    answer: '中目黒エリアの料金相場は、グループレッスン月4〜6回で9,600円〜15,400円程度です。パーソナルは1回6,250円〜10,000円が相場です。体験レッスンは無料〜2,200円と手頃です。',
+    answer: '中目黒エリアの料金相場は、グループレッスン月4〜6回で9,600円〜15,400円程度です。パーソナルは1回6,250円〜10,000円が相場です。体験レッスンは無料〜4,500円です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -215,7 +215,7 @@ export default function NakameguroPage() {
       <main className="pt-20 bg-white">
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月24日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">ピラティス中目黒おすすめ7選<br className="hidden md:block" />人気スタジオの料金プランの比較</h1>
           </div>
         </section>
@@ -276,7 +276,7 @@ export default function NakameguroPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">無料〜3,850円</td>
+                    <td className="px-4 py-3">無料〜4,500円</td>
                   </tr>
                 </tbody>
               </table>
@@ -456,7 +456,7 @@ export default function NakameguroPage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div>
-                <p className="text-warm-600 leading-relaxed">無料〜2,200円で体験できるスタジオが多いので、体験レッスンをご利用ください。</p>
+                <p className="text-warm-600 leading-relaxed">無料〜4,500円で体験できるので、体験レッスンをご利用ください。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div>
@@ -495,7 +495,7 @@ export default function NakameguroPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンのご予約</h2>
-            <p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスン無料〜2,200円です。<br />まずは体験レッスンへの参加をおすすめします。</p>
+            <p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスン無料〜4,500円です。<br />まずは体験レッスンへの参加をおすすめします。</p>
             <Link href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded">おすすめスタジオ一覧に戻る</Link>
           </div>
         </section>

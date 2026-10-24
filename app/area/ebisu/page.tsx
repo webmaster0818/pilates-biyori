@@ -25,7 +25,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: 'マットグループ月4回 10,450円（税込）',
-    trial: '体験レッスンあり（当日入会で入会金無料）',
+    trial: 'マットグループ初回体験 1,000円（キャンペーン・通常3,300円〜／マシングループは初回3,000円・公式のスタジオページ・2026年10月24日確認）',
     features: ['マシン完備', '男性利用可', '恵比寿駅徒歩5分', '全国他店利用可'],
     description: '全国150以上のスタジオを展開する国内最大級のピラティス専門スタジオです。恵比寿駅西口・日比谷線1番出口から徒歩5分です。マットグループ・リフォーマーグループ・プライベートレッスンと豊富なレッスン形式です。Balanced Body製マシン完備です。男性も受講可能です。',
     access: 'JR「恵比寿駅」西口 徒歩5分 / 東京メトロ日比谷線「恵比寿駅」1番出口 徒歩5分',
@@ -57,7 +57,7 @@ const studios = [
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590',
     image: '/images/studios/bdc-pilates.webp',
     price: '月4回 16,280円（税込）',
-    trial: '体験レッスン 0円',
+    trial: 'グループ体験 1,100円（税込・10/31までのキャンペーン・限定20名／通常4,070円・体験当日の入会で体験料キャッシュバック・公式・2026年10月24日確認）',
     features: ['日本初マシン専門', '恵比寿駅近', '認定講師', 'グループ&プライベート'],
     description: '日本初のマシンピラティス専門スタジオの恵比寿店です。認定指導資格を保有した講師によるグループレッスンとプライベートレッスンの両方を提供しています。プライベートでは一人ひとりの身体の状態と目的に沿ってメニューを完全カスタマイズです。',
     access: 'JR恵比寿駅東口 徒歩3分（公式表記）',
@@ -88,7 +88,7 @@ const studios = [
     name: 'ルルト 恵比寿店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
     image: '/images/studios/luluto.webp',
     price: '月3回 29,700円〜',
-    trial: '体験レッスン 平日1,000円 / 土日祝5,000円',
+    trial: '初回体験 1,000円（期間限定・45分／公式の店舗ページ・2026年10月24日確認）',
     features: ['理学療法士監修', '完全マンツーマン', '恵比寿2店舗', '整えるピラティス'],
     description: '理学療法士監修の完全マンツーマンプライベートピラティススタジオです。恵比寿に2店舗展開しています。「鍛える」ではなく「整える」ピラティスをテーマに、リフォーマー・キャデラック・チェアなど本格マシンを完備しています。体験当日入会で入会金22,000円が無料です。翌月繰越可能です。',
     access: '恵比寿駅西口 徒歩5分 / 代官山駅からも徒歩圏内',
@@ -147,9 +147,9 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
     price: 'パーソナル体験 2,000円〜',
-    trial: '初回限定パーソナル 9,900円→2,000円',
+    trial: '初回体験 2,000円（期間限定・50分パーソナル・税込／公式の店舗ページ・2026年10月24日確認）',
     features: ['女性専用', 'パーソナル特化', '恵比寿駅徒歩5分', 'おしゃれ空間'],
-    description: '女性専用マシンピラティススタジオthe SILKのパーソナル特化型恵比寿店です。恵比寿駅西口から徒歩5分です。1対1のプライベートレッスンでしっかり指導しています。初回限定50分のパーソナルピラティスが9,900円→2,000円のキャンペーン中です。パウダールーム完備で手ぶらで通えます。',
+    description: '女性専用マシンピラティススタジオthe SILKのパーソナル特化型恵比寿店です。恵比寿駅西口から徒歩5分です。1対1のプライベートレッスンでしっかり指導しています。初回50分の体験レッスンが期間限定2,000円（税込）です。パウダールーム完備で手ぶらで通えます。',
     access: '恵比寿駅西口 徒歩5分',
     address: '東京都渋谷区恵比寿南1-17-15 EX恵比寿南ビル 3F- B',
     popularPlan: {
@@ -158,7 +158,7 @@ const studios = [
       price: '要確認（初回体験 2,000円）',
     },
     options: [
-      '初回限定パーソナル50分（9,900円→2,000円）',
+      '初回体験50分 2,000円（期間限定・税込）',
       'パウダールーム完備',
       'レンタルウェア・タオルあり',
       '女性専用',
@@ -300,7 +300,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があれば問題ありません。BDC PILATESとthe SILK広尾は無料体験、ルルトは平日1,000円で体験できます。ウェアレンタルを用意しているスタジオもあります。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。the SILK広尾は無料体験、ルルトは1,000円（期間限定）、BDC PILATESはグループ体験1,100円（10/31までのキャンペーン）で体験できます。ウェアレンタルを用意しているスタジオもあります。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
@@ -335,7 +335,7 @@ export default function EbisuPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月24日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス恵比寿おすすめ9選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
@@ -437,7 +437,7 @@ export default function EbisuPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">無料〜9,900円</td>
+                    <td className="px-4 py-3">無料〜2,200円</td>
                   </tr>
                 </tbody>
               </table>

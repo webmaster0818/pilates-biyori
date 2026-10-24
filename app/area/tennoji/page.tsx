@@ -25,7 +25,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 9,625円〜',
-    trial: '体験レッスン 1,000円',
+    trial: 'マットグループ初回体験 1,000円（キャンペーン・通常2,200円〜／マシングループは初回3,000円・公式のスタジオページ・2026年10月24日確認）',
     features: ['マット&マシン', '男性利用可', '大阪阿部野橋駅徒歩3分', '全国他店利用可'],
     description: '全国130店舗以上を展開する大手ピラティススタジオです。天王寺スタジオは大阪阿部野橋駅出口2から徒歩3分、JR天王寺駅南口から徒歩5分の好立地です。マットグループ、リフォーマーグループ、プライベートレッスンの3形態を用意しています。男性も利用可能で、経験豊富なエデュケーターが一人ひとりに合わせた丁寧な指導を提供します。',
     access: '大阪阿部野橋駅 出口2 徒歩3分 / JR天王寺駅 南口 徒歩5分',
@@ -89,7 +89,7 @@ const studios = [
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
     price: '月額 9,800円〜',
-    trial: '体験レッスン 150円',
+    trial: '無料体験会（公式の店舗ページ・2026年10月24日確認）',
     features: ['LAVA運営', '女性専用', '大画面映像レッスン', '30分レッスンあり'],
     description: 'ホットヨガスタジオLAVAが運営するマシンピラティス専門スタジオです。アベノセンタービル4階に位置し、JR天王寺駅中央改札口から徒歩3分です。大画面スクリーンの映像とインストラクターによるダブル指導が特徴です。30分からのレッスンがあり、忙しい方でも通いやすい女性専用スタジオです。',
     access: 'JR天王寺駅 中央改札口 徒歩3分 / 大阪メトロ天王寺駅 14番出口 徒歩1分',
@@ -103,7 +103,7 @@ const studios = [
       'フルタイム通い放題（月額 16,800円）',
       'デイタイム通い放題（月額 13,800円）',
       'LAVA相互利用プラン（別途）',
-      '体験レッスン 150円',
+      '無料体験会',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心（全体の80%）',
@@ -151,11 +151,11 @@ const studios = [
     name: 'fis.pilates 天王寺店',
     image: '/images/studios/fis-pilates.webp',
     price: '月額 3,000円台〜（分割払い）',
-    trial: '体験レッスン 4,000円',
+    trial: '体験レッスン 4,000円（公式の店舗ページ限定価格・通常10,000円／体験当日の入会で0円・2026年10月24日確認）',
     features: ['女性専用', '完全個室', '女性トレーナー', 'お子様連れ可'],
     description: '女性専用マシンピラティス専門パーソナルスタジオです。完全個室で女性トレーナーによるマンツーマン指導が特徴です。ウェア・靴下・タオル・ミネラルウォーター・プロテインが無料で用意されており、手ぶらで通えます。ベビーベッドやバウンサーも完備で、お子様連れのママにも人気です。',
-    access: '天王寺駅から徒歩5分',
-    address: '大阪府大阪市阿倍野区阿倍野筋1丁目',
+    access: 'JR天王寺駅北口から徒歩1分',
+    address: '大阪府大阪市天王寺区南河堀町9-34 LaCASA天王寺 803',
   },
   {
     name: 'ピラティスアヴニール 天王寺店',
@@ -334,7 +334,7 @@ export default function TennojiPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月24日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス天王寺おすすめ15選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
@@ -436,7 +436,7 @@ export default function TennojiPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">150円〜4,000円</td>
+                    <td className="px-4 py-3">無料〜4,000円</td>
                   </tr>
                 </tbody>
               </table>
@@ -666,7 +666,7 @@ export default function TennojiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。pilates Kは体験0円、リントスルは150円、zen placeは1,000円と、気軽に試せるスタジオがそろっています。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。pilates Kは体験0円、リントスルは無料、zen placeはマットグループ1,000円と、気軽に試せるスタジオがそろっています。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -739,7 +739,7 @@ export default function TennojiPage() {
               体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,000円です。<br />
+              初回限定の体験レッスン無料〜4,000円です。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link

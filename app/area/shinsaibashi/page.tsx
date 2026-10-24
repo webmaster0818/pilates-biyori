@@ -149,7 +149,7 @@ const faqs = [
   },
   {
     question: '心斎橋のピラティススタジオの料金相場は？',
-    answer: '心斎橋エリアのピラティススタジオの料金相場は、月4回で12,000円〜16,000円程度です。体験レッスンは無料〜3,000円が一般的です。プライベートレッスンは1回8,000円〜12,000円が相場となっています。',
+    answer: '心斎橋エリアのピラティススタジオの料金相場は、月4回で12,000円〜16,000円程度です。体験レッスンは無料〜4,000円です。プライベートレッスンは1回8,000円〜12,000円が相場となっています。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -196,7 +196,7 @@ export default function ShinsaibashiPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月24日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス心斎橋おすすめ5選<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較
@@ -301,7 +301,7 @@ export default function ShinsaibashiPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">無料〜2,200円</td>
+                    <td className="px-4 py-3">無料〜4,000円</td>
                   </tr>
                 </tbody>
               </table>
@@ -594,7 +594,7 @@ export default function ShinsaibashiPage() {
               体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜1,000円です。<br />
+              初回限定の体験レッスン無料〜4,000円です。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link 
