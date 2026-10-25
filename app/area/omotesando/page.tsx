@@ -57,7 +57,7 @@ const studios = [
     officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
     price: '月4回 13,420円',
-    trial: '体験レッスン 2,000円',
+    trial: '体験レッスン 0円',
     features: ['女性専用', 'マシンピラティス専門', '月4回13,420円', '表参道駅近'],
     description: '女性専用のマシンピラティス専門スタジオです。リフォーマーを中心としたマシンピラティスのグループレッスンを提供しています。音楽に合わせたエンターテインメント性の高いレッスンが特徴で、楽しみながらボディメイクできます。おしゃれなスタジオ空間で、表参道での買い物やカフェと合わせて通われる方もいます。',
     access: '東京メトロ銀座線・千代田線・半蔵門線「表参道駅」徒歩圏内',
@@ -70,7 +70,7 @@ const studios = [
     options: [
       'マンスリー4メンバー（月4回 13,420円）',
       'マンスリー8メンバー（月8回 16,170円）',
-      '体験レッスン 2,000円',
+      '体験レッスン 0円',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心（全体の85%）',
@@ -139,7 +139,7 @@ const faqs = [
   },
   {
     question: '表参道のピラティススタジオの料金相場は？',
-    answer: '表参道エリアのピラティススタジオの料金相場は、グループレッスン月4回でピラティスKの13,420円です。都度払いは1回3,025円〜です（Pilates KASANE）。体験レッスンは500円〜3,850円が一般的です。',
+    answer: '表参道エリアのピラティススタジオの料金相場は、グループレッスン月4回でピラティスKの13,420円です。都度払いは1回3,025円〜です（Pilates KASANE）。体験レッスンは、Dr.ピラティスとピラティスKが無料、Pilates KASANE 表参道店が980円です（2026年10月25日公式確認）。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -288,7 +288,7 @@ export default function OmotesandoPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">500円〜3,850円</td>
+                    <td className="px-4 py-3">無料（Dr.ピラティス・ピラティスK）〜980円（Pilates KASANE）※2026年10月25日公式確認の店舗</td>
                   </tr>
                 </tbody>
               </table>
@@ -404,7 +404,7 @@ export default function OmotesandoPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Pilates KASANE（体験980円）</li>
-                  <li className="text-warm-700">• ピラティスK（体験2,000円）</li>
+                  <li className="text-warm-700">• ピラティスK（体験0円）</li>
                 </ul>
               </div>
             </div>
@@ -508,7 +508,7 @@ export default function OmotesandoPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。表参道エリアでは500円〜3,850円で体験レッスンを提供しているスタジオが多いので、体験レッスンをご利用ください。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。表参道エリアでは、Dr.ピラティスとピラティスKが無料、Pilates KASANE が980円で体験レッスンを提供しています。体験レッスンをご利用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -578,7 +578,7 @@ export default function OmotesandoPage() {
               体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン500円〜3,850円です。<br />
+              初回限定の体験レッスンは無料（Dr.ピラティス・ピラティスK）〜980円（Pilates KASANE）です。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link

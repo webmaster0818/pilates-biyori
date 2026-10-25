@@ -116,7 +116,7 @@ const studios = [
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
     price: '月額 9,800円〜',
-    trial: '体験レッスン 150円',
+    trial: '無料体験会 0円（パーソナル姿勢診断付き）',
     features: ['女性専用', 'LAVA運営', 'ヨガ併用可', 'リーズナブル'],
     description: 'ホットヨガLAVAが運営する女性専用マシンピラティス専門スタジオです。リーズナブルな料金設定が魅力です。LAVA会員との相互利用も可能で、ピラティスとヨガを両方楽しめます。',
     access: 'JR常磐線・新京成線「松戸駅」徒歩3分',
@@ -130,7 +130,7 @@ const studios = [
       'マシンピラティス月4回プラン',
       'LAVA＋リントスル併用プラン',
       '施設利用料 月680円',
-      '体験レッスン 150円',
+      '無料体験会 0円（パーソナル姿勢診断付き）',
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
@@ -238,7 +238,7 @@ const faqs = [
   },
   {
     question: '無料で体験できるスタジオはどこですか？',
-    answer: 'ピラティスK（0円体験）、the SILK（無料体験）、Pilates Mee（体験レッスン無料）が無料体験可能です。リントスルは150円で体験できます。',
+    answer: 'ピラティスK（0円体験）、the SILK（無料体験）、Pilates Mee（体験レッスン無料）、リントスル（無料体験会）が無料体験可能です。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
@@ -379,7 +379,7 @@ export default function MatsudoPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">無料〜500円</td>
+                    <td className="px-4 py-3">無料（料金を掲載している5社）</td>
                   </tr>
                 </tbody>
               </table>
@@ -608,7 +608,7 @@ export default function MatsudoPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ピラティスK、the SILK、Pilates Meeは無料体験を実施しています。リントスルは150円です。まずは気になるスタジオで体験してみることをおすすめします。
+                  ピラティスK、the SILK、Pilates Mee、リントスルは無料体験を実施しています。まずは気になるスタジオで体験してみることをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -678,7 +678,7 @@ export default function MatsudoPage() {
               体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜500円です。<br />
+              初回限定の体験レッスンは無料（料金を掲載している5社）です。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link

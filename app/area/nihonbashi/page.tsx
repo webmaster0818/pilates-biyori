@@ -28,7 +28,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: 'マットグループ 月4回 10,450円〜',
-    trial: '体験レッスン 500円〜',
+    trial: 'マットグループ初回 1,000円（今だけ・通常3,300円〜）／マシングループ初回 3,000円（通常5,000円〜）',
     features: ['マット&マシン', '初心者歓迎', '日本橋駅徒歩3分', '男性利用可'],
     description: '全国100店舗以上展開の大手ピラティススタジオです。日本橋駅A7出口から徒歩3分の好立地です。マットグループ、マシン（リフォーマー）グループ、プライベートレッスンと幅広いメニューです。世界初のAI「背骨ムーブメント解析」を導入し、科学的なアプローチも可能です。',
     access: '日本橋駅A7出口 徒歩3分 / 日本橋駅B3出口 徒歩3分 / 東京駅八重洲北口 徒歩5分',
@@ -121,7 +121,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
     price: 'Standard4 15,280円〜（別途施設利用料 月700円・税込）',
-    trial: '体験レッスン（グループ）3,850円',
+    trial: '初回体験レッスン 0円（期間限定・50分）',
     features: ['女性専用', 'マシンピラティス専門', '東京駅徒歩3分', '音楽×マシン'],
     description: '女性専用マシンピラティス専門スタジオです。JR東京駅八重洲北口から徒歩3分、日本橋駅からも徒歩圏内です。開放感のある大きな窓と白いリフォーマーが並ぶスタイリッシュな空間です。初心者が8割を占め、体が硬い方でも安心です。',
     access: 'JR「東京駅」八重洲北口 徒歩3分 / 日本橋駅からも徒歩圏内',
@@ -132,7 +132,7 @@ const studios = [
     officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
     price: 'マンスリー4メンバー 13,420円',
-    trial: '体験レッスン 2,000円',
+    trial: '体験レッスン 0円',
     features: ['女性専用', 'マシンピラティス専門', '銀座一丁目駅徒歩1分', 'グループレッスン'],
     description: '「30歳からの本気ボディメイク」がコンセプトの女性専用マシンピラティス専門スタジオです。銀座一丁目駅7番出口から徒歩1分です。日本橋から銀座線で銀座駅まで1駅です。初心者から経験者まで個人のペースに合わせたプログラムを用意しています。',
     access: '有楽町線「銀座一丁目駅」7番出口 徒歩1分 / 日本橋から銀座線で銀座駅まで1駅',
@@ -151,7 +151,7 @@ const faqs = [
   },
   {
     question: '日本橋エリアのピラティススタジオの料金相場は？',
-    answer: '日本橋エリアのピラティススタジオの料金相場は、グループレッスン月3〜4回で9,600円〜15,400円程度です。パーソナルレッスンは1回8,000円〜10,000円が相場です。体験レッスンは500円〜3,850円と幅があるので、まずは体験で試してみるのがおすすめです。',
+    answer: '日本橋エリアのピラティススタジオの料金相場は、グループレッスン月3〜4回で9,600円〜15,400円程度です。パーソナルレッスンは1回8,000円〜10,000円が相場です。体験レッスンは、the SILK 東京八重洲店とピラティスK 銀座店が無料、zen place 八重洲がマットグループ初回1,000円（今だけ）です（2026年10月25日公式確認）。まずは体験で試してみるのがおすすめです。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -284,7 +284,7 @@ export default function NihonbashiPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">500円〜3,850円</td>
+                    <td className="px-4 py-3">無料（the SILK・ピラティスK）〜1,000円（zen place マット初回・今だけ）※2026年10月25日公式確認の店舗</td>
                   </tr>
                 </tbody>
               </table>
@@ -479,7 +479,7 @@ export default function NihonbashiPage() {
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span>
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
-                <p className="text-warm-600 leading-relaxed">気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。500円〜3,850円程度で体験できるスタジオが多いので、体験レッスンをご利用ください。</p>
+                <p className="text-warm-600 leading-relaxed">気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。the SILK とピラティスKは無料、zen place はマットグループ初回1,000円（今だけ）で体験できます。体験レッスンをご利用ください。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4">
@@ -529,7 +529,7 @@ export default function NihonbashiPage() {
         <section className="py-16 bg-warm-800 text-white" id="contact">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンのご予約</h2>
-            <p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスン500円〜3,850円です。<br />まずは体験レッスンへの参加をおすすめします。</p>
+            <p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスンは無料（the SILK・ピラティスK）〜1,000円（zen place マット初回・今だけ）です。<br />まずは体験レッスンへの参加をおすすめします。</p>
             <Link href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded">おすすめスタジオ一覧に戻る</Link>
           </div>
         </section>

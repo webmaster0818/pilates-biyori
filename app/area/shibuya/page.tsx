@@ -487,7 +487,7 @@ export default function ShibuyaPage() {
               </div>
               <div className="bg-white rounded-lg p-5 border border-warm-200">
                 <h3 className="font-bold text-warm-900 mb-3">入会金・体験レッスン費用</h3>
-                <p className="text-sm text-warm-600">入会金は5,000円〜33,000円が相場ですが、キャンペーン期間中は無料になるスタジオもあります。体験レッスンは500円〜3,850円程度です。まずは体験レッスンで雰囲気を確認するのがおすすめです。</p>
+                <p className="text-sm text-warm-600">入会金は5,000円〜33,000円が相場ですが、キャンペーン期間中は無料になるスタジオもあります。体験レッスンは、the SILK・Dr.ピラティス・24/7ピラティスが無料、zen place がマットグループ初回1,000円（今だけ）です（2026年10月25日公式確認）。まずは体験レッスンで雰囲気を確認するのがおすすめです。</p>
               </div>
             </div>
           </div>

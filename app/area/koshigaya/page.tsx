@@ -326,7 +326,7 @@ export default function KoshigayaPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">500円〜3,850円程度（無料体験ありのスタジオも）</td>
+                    <td className="px-4 py-3">無料（Pilates Mee Life越谷店・2026年10月25日公式確認）。他のスタジオの体験料金は各公式サイトでご確認ください</td>
                   </tr>
                 </tbody>
               </table>
