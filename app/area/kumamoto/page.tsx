@@ -9,13 +9,14 @@ import { PriceComparisonTable } from '@/components/PriceComparisonTable'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import ConsultantSection from '@/components/ConsultantSection'
+import { STUDIO_REVIEWS } from '@/data/studio-reviews'
 
 
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kumamoto/' },
-  title: 'ピラティス熊本おすすめ4選人気スタジオの料金プランの比較',
-  description: '熊本エリアのおすすめピラティススタジオ4選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。初心者でも安心して通えるスタジオが見つかります。',
+  title: 'ピラティス熊本おすすめ4選｜料金比較とリントスル ゆめタウンサンピアン店の口コミ',
+  description: '熊本エリアのおすすめピラティススタジオ4選を料金・体験レッスンで比較。熊本のゆめタウンにあるRintosull（リントスル）ゆめタウンサンピアン店の料金（月4回8,800円〜）・口コミ・アクセスも公式で確認して掲載しています。',
   keywords: 'ピラティス,熊本,熊本市,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -84,11 +85,12 @@ const studios = [
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
     price: '月4回 8,800円〜',
-    trial: '体験レッスン 無料',
+    // 2026-10-25 公式店舗ページ https://rintosull.jp/shop/kumamoto/sanpian/ で照合（旧: 不定休・シャワーあり・ゆめタウンサンピアン内のみ → 公式値に修正）
+    trial: '体験会 0円（約45分・手ぶらで参加可）',
     features: ['LAVA系列', '女性専用', '初心者87%以上', '熊本エリア'],
     description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオです。ゆめタウンサンピアン内で買い物ついでに通えます。月4回8,800円のリーズナブルな料金です。無料体験でパーソナル姿勢診断付きです。初心者87%以上です。',
-    access: 'ゆめタウンサンピアン内',
-    address: '熊本県熊本市東区上南部2-2-2 ゆめタウンサンピアン2F',
+    access: 'ゆめタウンサンピアン2F（桜町バスターミナル25番のりば K5-1「光の森産交行き」で「ゆめタウンサンピアン前」下車／無料駐車場・駐輪場あり）',
+    address: '〒861-8010 熊本県熊本市東区上南部2-2-2 ゆめタウンサンピアン2F',
     popularPlan: {
       name: 'マシンピラティス月4回プラン',
       description: 'リフォーマーを使った本格マシンピラティスです。1回あたり2,200円と割安です。',
@@ -101,14 +103,14 @@ const studios = [
       '無料体験・パーソナル姿勢診断付き',
     ],
     userProfile: {
-      ageRange: '20代〜40代が中心',
+      ageRange: '公式サイトに記載なし',
       genderRatio: '女性100%（女性専用）',
       purpose: ['ボディメイク', 'ダイエット', 'ヨガ&ピラティス両方', '健康維持'],
     },
     basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '不定休',
-      facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'シャワー'],
+      hours: '公式の店舗ページに記載なし（レッスンスケジュールPDFで確認できます）',
+      closed: '毎週日曜',
+      facilities: ['水素水サーバー', 'ドライヤー付きパウダースペース', '更衣室', '鍵付きロッカー'],
     },
   },
   {
@@ -202,7 +204,7 @@ export default function KumamotoPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月25日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス熊本おすすめ4選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
@@ -280,6 +282,43 @@ export default function KumamotoPage() {
 
 
         {/* Price Market Section */}
+        {/* 2026-10-25: 「リントスル 熊本ゆめタウン」16.5位の受け皿。値は公式店舗ページ（2026-10-25確認）と data/studio-reviews.ts の Google 要約のみ */}
+        <section className="py-16 bg-white" id="rintosull-yumetown">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">熊本のゆめタウンにあるリントスル（Rintosull ゆめタウンサンピアン店）</h2>
+            <p className="text-warm-600 leading-relaxed mb-6 text-sm">熊本県の Rintosull（リントスル）は、公式の店舗一覧ではゆめタウンサンピアン店（熊本市東区・ゆめタウンサンピアン2F）の1店舗です（2026年10月25日時点）。女性専用のマシンピラティススタジオで、無料の駐車場・駐輪場があります。料金・定休日・設備は<a href="https://rintosull.jp/shop/kumamoto/sanpian/" target="_blank" rel="noopener noreferrer" className="underline hover:text-warm-800">公式の店舗ページ</a>の表記です（2026年10月25日確認・税込）。</p>
+            <div className="overflow-x-auto mb-6"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">項目</th><th className="px-4 py-3 text-left">内容</th></tr></thead><tbody>
+              <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">4・フルタイム（当店・月4回）</td><td className="px-4 py-3">月8,800円</td></tr>
+              <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">ライト・フルタイム（当店＋1店舗・通い放題）</td><td className="px-4 py-3">月13,800円</td></tr>
+              <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">プレミアム フリー・フルタイム（系列全店・通い放題）</td><td className="px-4 py-3">月16,800円（同じモール内の LAVA ゆめタウンサンピアン店なども利用可。利用可能状況は店舗により異なります）</td></tr>
+              <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">そのほかの費用</td><td className="px-4 py-3">運営管理費 月680円／1回券 3,300円／他店舗利用料 1回500円／入会時に施設使用料2,500円・入会金5,000円・登録金5,000円（体験当日入会・キャンペーン入会の場合は入会金・登録金0円）</td></tr>
+              <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験会</td><td className="px-4 py-3">0円・約45分（施設見学・カウンセリング・マシンピラティスのプチ体験）。手ぶらで参加でき、来店特典としてパーソナル姿勢診断つき</td></tr>
+              <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">定休日／種別</td><td className="px-4 py-3">毎週日曜／女性専用（営業時間は公式の店舗ページに記載がなく、レッスンスケジュールPDFで確認できます）</td></tr>
+              <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">アクセス</td><td className="px-4 py-3">桜町バスターミナル25番のりば K5-1「光の森産交行き」で「ゆめタウンサンピアン前」下車。車は熊本東バイパス経由（無料駐車場あり）</td></tr>
+            </tbody></table></div>
+            <p className="text-warm-600 text-sm leading-relaxed mb-8">2026年11月末までのキャンペーンでは、条件を満たす方は利用開始月を含む3ヶ月間、系列全店通い放題（16,800円/月）が1,980円/月になります。公式の適用条件では、特別価格終了後12ヶ月間の継続が条件です。体験会に参加する前に、公式の適用条件をご確認ください。</p>
+            <h3 className="text-lg font-bold text-warm-900 mb-3">公式の店舗ページに掲載されている口コミ（原文の一部を引用）</h3>
+            <ul className="space-y-3 mb-3">
+              <li className="bg-warm-50 border border-warm-200 rounded-lg p-4 text-sm text-warm-700">「週に4日ほど通って、食事制限せずに体重が8キロ減り、ウエストがスッキリした上、ヒップアップしました。」「坐骨神経痛もほとんど出なくなり、体力もつき疲れにくくなりました。」<span className="block text-xs text-warm-500 mt-1">2026年5月25日掲載</span></li>
+              <li className="bg-warm-50 border border-warm-200 rounded-lg p-4 text-sm text-warm-700">「長女が楽しそうに通ってるのを見ていて、また体の変化も目に見えて分かるのが羨ましすぎて始めました。」<span className="block text-xs text-warm-500 mt-1">2026年4月18日掲載</span></li>
+              <li className="bg-warm-50 border border-warm-200 rounded-lg p-4 text-sm text-warm-700">「キャンペーン中に加入すると2年縛りがあります。クーリングオフ制度が利用できません。」（★3の声）<span className="block text-xs text-warm-500 mt-1">2026年6月16日掲載</span></li>
+            </ul>
+            <p className="text-[11px] text-warm-500 mb-8">出典：<a href="https://rintosull.jp/shop/kumamoto/sanpian/" target="_blank" rel="noopener noreferrer" className="underline hover:text-warm-700">Rintosull ゆめタウンサンピアン店 公式店舗ページ「ゆめタウンサンピアン店の口コミ」</a>（2026年10月25日確認）。公式サイトに掲載された声です。感じ方には個人差があります。</p>
+            {(() => { const rev = STUDIO_REVIEWS['Rintosull ゆめタウンサンピアン店']; if (!rev) return null; return (
+              <div className="bg-warm-50 border border-warm-200 rounded-lg p-4 mb-6">
+                <p className="text-sm font-bold text-warm-800">Googleマップの口コミ（要約）：★{rev.rating}（{rev.userRatings}件）</p>
+                <p className="text-sm text-warm-700 mt-2 leading-relaxed">{rev.summary}</p>
+                <p className="text-[11px] text-warm-500 mt-2">Googleマップに投稿された口コミをもとに、編集部が要約したものです（{rev.fetchedAt}時点）。口コミ本文は転載していません。 <a href={rev.mapsUri} target="_blank" rel="noopener noreferrer" className="underline hover:text-warm-700">出典：Googleマップの口コミを見る</a></p>
+              </div>) })()}
+            <h3 className="text-lg font-bold text-warm-900 mb-3">公式の声と Google の口コミの両方に見られる傾向</h3>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-warm-700">
+              <li>10か月ほど続けて体重が減り、坐骨神経痛が出なくなったという具体的な変化の声が、公式の店舗ページの口コミと Googleマップの口コミ（要約）の両方にあります。</li>
+              <li>家族に勧められて（家族が通っているのを見て）始めたという声が両方に見られます。</li>
+              <li>キャンペーン加入時の契約期間・クーリングオフ・体験当日契約の条件に触れた★3の指摘が両方にあります。現在の公式の適用条件（特別価格終了後12ヶ月間の継続）と合わせて、契約前に確認してください。</li>
+            </ul>
+          </div>
+        </section>
+
         <section className="py-16 bg-white" id="price-market">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">

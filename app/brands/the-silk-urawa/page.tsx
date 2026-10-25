@@ -6,8 +6,8 @@ const SLUG = "the-silk-urawa";
 const store = getTheSilkStore(SLUG)!;
 
 export const metadata: Metadata = {
-  title: `浦和のthe SILK（ザ シルク）｜料金・体験・口コミとアクセス`,
-  description: `浦和のthe SILK（the SILK 浦和店）の料金・体験レッスン・アクセスを掲載しています。${store.access}です。Googleの口コミの要約（出典付き）と、浦和エリアのピラティス比較へのリンクも掲載しています。`,
+  title: `the SILK（シルク）浦和店の口コミ・レビュー｜料金・体験・営業時間・アクセス`,
+  description: `the SILK（シルク）浦和店の口コミ・レビューをGoogleマップの評価と要約（出典付き）で掲載。JR浦和駅徒歩4分の女性限定グループピラティスで、月3回13,280円〜（税込）、体験50分0円、営業7:30〜21:00。2026年10月25日に公式の店舗ページで確認した値です。`,
   alternates: { canonical: `https://biyori-pilates.com/brands/${SLUG}/` },
 };
 

@@ -17,8 +17,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/tokyo-station/' },
-  title: '東京駅のピラティススタジオおすすめ12選｜無料体験・料金で比較',
-  description: '東京駅のピラティススタジオ12社の料金・無料体験・マシン対応を比較しています。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまでわかります。',
+  title: '東京駅のピラティスおすすめ12選｜駅からの徒歩分・体験料金で比較',
+  description: '東京駅でピラティスを探す方向けに、八重洲・日本橋・銀座のスタジオ12社を比較。東京駅からの徒歩分・乗り換え、体験料金、営業時間・定休日を各公式ページで確認した早見表つき（2026年10月25日確認）。',
   keywords: 'ピラティス,東京駅,八重洲,丸の内,大手町,日本橋,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -29,9 +29,9 @@ const studios = [
     image: '/images/studios/the-silk.webp',
     price: 'Standard4 15,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン 0円（キャンペーン中）',
-    features: ['女性専用', 'マシンピラティス専門', '東京駅徒歩5分', '音楽×マシン'],
-    description: '女性専用マシンピラティス専門スタジオです。JR東京駅八重洲北口から徒歩5分、大手町駅B10出口から徒歩5分の好アクセスです。PMA加盟団体監修のレッスンで、音楽に合わせながら楽しくボディメイクを目指せます。初心者が8割で安心して始められます。',
-    access: 'JR「東京駅」八重洲北口 徒歩5分 / 東京メトロ「大手町駅」B10出口 徒歩5分',
+    features: ['女性専用', 'マシンピラティス専門', '東京駅徒歩3分', '音楽×マシン'],
+    description: '女性専用マシンピラティス専門スタジオです。公式の店舗情報では東京駅から徒歩3分（八重洲北口から徒歩5分）、日本橋駅から徒歩2分、大手町駅から徒歩5分とされています。PMA加盟団体監修のレッスンで、音楽に合わせながら楽しくボディメイクを目指せます。初心者が8割で安心して始められます。',
+    access: 'JR「東京駅」徒歩3分（八重洲北口から徒歩5分） / 東京メトロ「日本橋駅」徒歩2分 / 東京メトロ「大手町駅」徒歩5分（公式・2026年10月25日確認）',
     address: '東京都中央区八重洲1-5-9 八重洲加藤ビルディング5階',
     popularPlan: {
       name: 'Standard4（月4回）',
@@ -42,7 +42,7 @@ const studios = [
       'Standard4（月4回 15,280円〜）',
       'Full（通い放題）',
       'Full Day（デイタイム通い放題）',
-      'パーソナル（体験 9,900円）',
+      'Light3（月3回 13,280円）',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
@@ -90,8 +90,8 @@ const studios = [
   {
     name: 'ルルト 銀座店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
     image: '/images/studios/luluto.webp',
-    price: 'パーソナル 月4回 32,560円〜',
-    trial: '体験レッスン 4,000円〜',
+    price: 'パーソナル 月4回 38,400円（1回あたり9,600円）',
+    trial: '新規の体験受付は停止中（定員満了・公式店舗ページ 2026年10月25日確認）',
     features: ['完全パーソナル', '理学療法士監修', '銀座一丁目駅徒歩1分', '医学的アプローチ'],
     description: '理学療法士が考案した完全個別指導のマシンピラティススタジオです。銀座一丁目駅から徒歩1分、東京駅から有楽町線で1駅です。医学的知識に基づいたマンツーマンレッスンで、腰痛・肩こり・姿勢改善に定評があります。全国95店舗展開です。',
     access: '有楽町線「銀座一丁目駅」徒歩1分 / 丸ノ内線「銀座駅」徒歩4分',
@@ -101,11 +101,11 @@ const studios = [
     name: 'ピラティスK 銀座店',
     officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
-    price: 'マンスリー4メンバー 13,420円',
-    trial: '体験レッスン 2,000円',
+    price: 'マンスリー4メンバー 13,420円（別途施設維持費 月825円・税込）',
+    trial: '体験レッスン 0円（公式・2026年10月25日確認）',
     features: ['女性専用', 'マシンピラティス専門', '銀座一丁目駅徒歩1分', 'ボディメイク特化'],
     description: '女性専用マシンピラティス専門スタジオです。銀座一丁目駅6番出口から徒歩1分、有楽町駅から徒歩6分です。東京駅から有楽町線で1駅です。お腹・お尻・二の腕・脚・背中の部位特化プログラムが充実しています。音楽に合わせたカジュアルなレッスンスタイルです。',
-    access: '有楽町線「銀座一丁目駅」6番出口 徒歩1分 / JR「有楽町駅」中央口 徒歩6分',
+    access: '有楽町線「銀座一丁目駅」6番出口 徒歩1分 / 銀座線「銀座駅」A13出口 徒歩4分 / JR「有楽町駅」京橋口 徒歩6分',
     address: '東京都中央区銀座1-6-10 上一ビルディング7F',
     popularPlan: {
       name: 'マンスリー4メンバー',
@@ -115,7 +115,7 @@ const studios = [
     options: [
       'マンスリー4メンバー（月4回 13,420円）',
       'マンスリー8メンバー（月8回 16,170円）',
-      'マンスリーデイメンバー（デイタイム通い放題 14,520円）',
+      'マンスリーデイメンバー（14,520円・2026年5月1日で新規受付終了）',
       '追加受講（1回 2,200円）',
     ],
     userProfile: {
@@ -124,8 +124,8 @@ const studios = [
       purpose: ['ボディメイク', 'ダイエット', '部分痩せ', '美姿勢'],
     },
     basicInfo: {
-      hours: '火〜金 10:00〜21:30 / 土日祝 10:00〜18:00',
-      closed: '月曜日',
+      hours: '平日 9:30〜16:00・17:30〜22:00 / 土日祝 9:30〜20:00',
+      closed: '第1月曜日（公式のレッスンスケジュールで要確認）',
       facilities: ['ロッカー', 'パウダールーム', '女性専用'],
     },
   },
@@ -133,8 +133,8 @@ const studios = [
     name: 'BDC PILATES 銀座スタジオ',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590',
     image: '/images/studios/bdc-pilates.webp',
-    price: 'グループ月4回 15,400円〜',
-    trial: '体験レッスン 3,850円',
+    price: 'グループ月4回 16,280円（税込）',
+    trial: '体験料金は店舗ページに記載なし（予約ページで確認）',
     features: ['プロダンサー養成校プロデュース', '少人数制（最大8名）', '銀座駅C8出口徒歩30秒', '本格メソッド'],
     description: '40年以上の実績を持つプロダンサー養成校「ブロードウェイダンスセンター（BDC）」プロデュースのマシンピラティス専門スタジオです。銀座駅C8出口から徒歩30秒です。最大8名の少人数制グループレッスンで丁寧な指導です。',
     access: '銀座駅C8出口から徒歩30秒（公式表記）',
@@ -142,10 +142,10 @@ const studios = [
     popularPlan: {
       name: 'グループレッスン（月4回）',
       description: '最大8名の少人数制マシンピラティスです。',
-      price: '月4回 15,400円（税込）',
+      price: '月4回 16,280円（税込）',
     },
     options: [
-      'グループ（月4回 15,400円）',
+      'グループ（月4回 16,280円・入会金11,000円）',
       'プライベート（月1回 9,900円〜）',
       'レンタルウェア上下（220円/回）',
     ],
@@ -155,8 +155,8 @@ const studios = [
       purpose: ['姿勢改善', 'ボディメイク', '身体の使い方改善', 'パフォーマンス向上'],
     },
     basicInfo: {
-      hours: '平日 7:00〜21:00 / 土日祝 7:00〜17:00',
-      closed: '不定休',
+      hours: '店舗ページに記載なし（電話受付 平日10:00〜20:00・土日10:00〜17:00）',
+      closed: '店舗ページに記載なし',
       facilities: ['ロッカー', 'レンタルウェア', 'Wi-Fi'],
     },
   },
@@ -177,9 +177,9 @@ const studios = [
     image: '/images/studios/zen-place-pilates.webp',
     price: 'マットグループ 月4回 10,450円〜',
     trial: '体験レッスン 1,000円〜',
-    features: ['マット&マシン', '銀座一丁目駅徒歩3分', '男性利用可', '早朝レッスンあり'],
-    description: '全国135店舗以上のzen placeの銀座スタジオです。銀座一丁目駅から徒歩3分、東京駅から有楽町線経由で約10分です。八重洲スタジオと他店利用可能で、通勤ルートに合わせて使い分けができます。早朝レッスンも開講しています。',
-    access: '有楽町線「銀座一丁目駅」徒歩3分 / JR「有楽町駅」徒歩5分',
+    features: ['マット&マシン', '銀座一丁目駅徒歩1分', '男女共用', '早朝レッスンあり'],
+    description: '全国135店舗以上のzen placeの銀座スタジオです。銀座一丁目駅10番出口から徒歩1分、東銀座駅A7出口から徒歩2分です。八重洲スタジオと他店利用可能で、通勤ルートに合わせて使い分けができます。早朝レッスンも開講しています。',
+    access: '有楽町線「銀座一丁目駅」10番出口 徒歩1分 / 都営浅草線「東銀座駅」A7出口 徒歩2分 / 「銀座駅」A13出口 徒歩4分',
     address: '東京都中央区銀座2丁目11-15 SF銀座ビル 2階',
   },
   {
@@ -205,12 +205,12 @@ const studios = [
   {
     name: 'Pilates Studio excel 日本橋店',
     image: '/images/studios/pilates-excel-nihonbashi.webp',
-    price: 'グループ 月4回 13,200円〜',
-    trial: '体験レッスン 3,300円',
-    features: ['少人数制', 'アットホーム', '日本橋駅近く', '丁寧な指導'],
-    description: '日本橋エリアのマシンピラティス専門スタジオです。日本橋駅から徒歩圏内、東京駅からも徒歩でアクセス可能です。少人数制のグループレッスンで一人ひとりに丁寧な指導です。アットホームな雰囲気で初心者も安心です。',
-    access: '東京メトロ「日本橋駅」徒歩3分 / JR「東京駅」徒歩10分',
-    address: '東京都中央区日本橋（日本橋駅徒歩3分）',
+    price: 'マンスリー4 月4回 13,970円（別途施設運営費 月440円・税込）',
+    trial: '体験レッスン 0円（約2時間・手ぶらOK）',
+    features: ['女性専用', 'マシンピラティス', '馬喰町駅徒歩1分', '月曜定休'],
+    description: '女性専用のマシンピラティススタジオです。店舗は日本橋の東側（馬喰町エリア）にあり、JR総武線「馬喰町駅」・都営新宿線「馬喰横山駅」から徒歩1分です。東京駅からはJR総武快速線で新日本橋の次の馬喰町まで2駅です。営業は火〜金 9:30〜22:30・土日祝 8:30〜18:30、月曜定休です（公式店舗ページ・2026年10月25日確認）。',
+    access: 'JR総武線「馬喰町駅」徒歩1分 / 都営新宿線「馬喰横山駅」徒歩1分 / 都営浅草線「東日本橋駅」徒歩4分 / 日比谷線「小伝馬町駅」徒歩5分',
+    address: '東京都中央区（馬喰町駅 徒歩1分）',
   },
   {
     name: 'the SILK 銀座一丁目店',
@@ -218,9 +218,9 @@ const studios = [
     image: '/images/studios/the-silk.webp',
     price: 'Standard4 15,280円〜（別途施設利用料 月700円・税込）',
     trial: '体験レッスン 0円（キャンペーン中）',
-    features: ['女性専用', 'マシンピラティス専門', '銀座一丁目駅徒歩2分', '手ぶらで体験可能'],
-    description: '女性専用マシンピラティス専門スタジオです。銀座一丁目駅6番出口から徒歩2分、京橋駅3番出口から徒歩4分です。八重洲店・銀座店との相互利用が可能で、予約の取りやすさも魅力です。手ぶらで無料体験レッスンが受けられるキャンペーン実施中です。',
-    access: '有楽町線「銀座一丁目駅」6番出口 徒歩2分 / 銀座線「京橋駅」3番出口 徒歩4分',
+    features: ['女性専用', 'マシンピラティス専門', '銀座一丁目駅徒歩1分', '手ぶらで体験可能'],
+    description: '女性専用マシンピラティス専門スタジオです。公式の店舗情報では銀座一丁目駅から徒歩1分、京橋駅から徒歩4分、有楽町駅から徒歩5分とされています。八重洲店・銀座店との相互利用が可能で、予約の取りやすさも魅力です。手ぶらで無料体験レッスンが受けられるキャンペーン実施中です。',
+    access: '有楽町線「銀座一丁目駅」徒歩1分 / 銀座線「京橋駅」徒歩4分 / JR「有楽町駅」徒歩5分',
     address: '東京都中央区銀座1丁目5-8 Ginza Willow Avenue BLDG. 4階',
   },
   {
@@ -246,7 +246,7 @@ const faqs = [
   },
   {
     question: '東京駅エリアの料金相場は？',
-    answer: 'グループレッスン月4回で10,200円〜15,400円程度です。パーソナルは1回8,800円〜10,000円です。体験は0円〜4,500円です。銀座エリアはやや高めですが、キャンペーンを利用するとお得に始められます。',
+    answer: 'グループレッスン月4回で、公式サイトで料金を確認できた店舗は10,450円〜16,280円です（税込・2026年10月25日確認）。パーソナルは1回8,800円〜10,000円です。体験は0円〜4,500円です。銀座エリアはやや高めですが、キャンペーンを利用するとお得に始められます。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -293,10 +293,10 @@ export default function TokyoStationPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月25日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス東京駅おすすめ12選<br className="hidden md:block" />
-              料金・体験レッスン・マシン対応を比較
+              東京駅のピラティスおすすめ12選<br className="hidden md:block" />
+              駅からの徒歩分・体験料金・営業時間を比較
             </h1>
           </div>
         </section>
@@ -351,6 +351,18 @@ export default function TokyoStationPage() {
           </div>
         </section>
 
+        <section className="py-12 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">東京駅からの徒歩分・乗り換えで比べる早見表</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">東京駅から近い順に並べました。当サイトの掲載店で東京駅から歩いて行けるのは八重洲側の2店（徒歩3〜5分）で、銀座の各店は丸ノ内線またはJRで1駅です。徒歩分・体験料金・営業時間・定休日は各スタジオの公式ページの表記です（2026年10月25日確認・税込）。公式ページに記載がない項目は「記載なし」としています。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">東京駅から</th><th className="px-4 py-3 text-left">ほかの最寄駅</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">営業時間・定休日</th></tr></thead><tbody>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">the SILK 東京八重洲店（中央区八重洲1-5-9 八重洲加藤ビルディング5階）</td><td className="px-4 py-3">徒歩3分（八重洲北口から徒歩5分）</td><td className="px-4 py-3">日本橋駅 徒歩2分・大手町駅 徒歩5分</td><td className="px-4 py-3">マシンのグループ（女性限定）</td><td className="px-4 py-3">0円（50分・期間限定）</td><td className="px-4 py-3">7:30〜21:00（年末年始 12/29〜1/3 休み）</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">zen place pilates 八重洲（中央区日本橋2-3-21 八重洲セントラルビル6階）</td><td className="px-4 py-3">八重洲北口 徒歩5分</td><td className="px-4 py-3">日本橋駅A7・B3出口 徒歩3分・大手町駅B10出口 徒歩7分</td><td className="px-4 py-3">マット・マシンのグループ・プライベート（男女共用）</td><td className="px-4 py-3">初回キャンペーン マット1,000円・マシン3,000円／プライベート9,900円〜</td><td className="px-4 py-3">平日 7:30〜22:00・土日祝 8:00〜19:30（定休日は記載なし）</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">BDC PILATES 銀座（中央区銀座4-2-1 銀座教会堂ビル7F）</td><td className="px-4 py-3">丸ノ内線で1駅（銀座駅C8出口 徒歩30秒）</td><td className="px-4 py-3">—</td><td className="px-4 py-3">少人数のマシングループ・プライベート</td><td className="px-4 py-3">店舗ページに記載なし</td><td className="px-4 py-3">店舗ページに記載なし（電話受付 平日10〜20時・土日10〜17時）</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">the SILK 銀座店（中央区銀座5-9-12 ダイヤモンドビル3階）</td><td className="px-4 py-3">丸ノ内線で1駅（銀座駅 徒歩2分）</td><td className="px-4 py-3">東銀座駅 徒歩3分・新橋駅 徒歩10分</td><td className="px-4 py-3">マシンのグループ（女性限定）</td><td className="px-4 py-3">0円（50分・期間限定）</td><td className="px-4 py-3">7:30〜21:00（年末年始 12/29〜1/3 休み）</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ルルト 銀座店（中央区銀座2-11-9 三和産工ビル6F）</td><td className="px-4 py-3">丸ノ内線で1駅（銀座駅 徒歩約4分）</td><td className="px-4 py-3">銀座一丁目駅 徒歩1分</td><td className="px-4 py-3">マシンのパーソナル</td><td className="px-4 py-3">新規の体験受付は停止中（定員満了）</td><td className="px-4 py-3">9:00〜21:00（定休日は記載なし）</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">zen place pilates 銀座二丁目（中央区銀座2-11-15 SF銀座ビル2階）</td><td className="px-4 py-3">丸ノ内線で1駅（銀座駅A13出口 徒歩4分）</td><td className="px-4 py-3">銀座一丁目駅10番出口 徒歩1分・東銀座駅A7出口 徒歩2分</td><td className="px-4 py-3">マット・マシンのグループ・プライベート（男女共用）</td><td className="px-4 py-3">初回キャンペーン マット1,000円・マシン3,000円／プライベート9,900円〜</td><td className="px-4 py-3">平日 7:00〜21:00・土日祝 7:30〜17:00（定休日は記載なし）</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ピラティスK 銀座店（中央区銀座1-6-10 上一ビルディング7F）</td><td className="px-4 py-3">丸ノ内線で1駅（銀座駅C8出口 徒歩5分）</td><td className="px-4 py-3">銀座一丁目駅6番出口 徒歩1分・有楽町駅京橋口 徒歩6分</td><td className="px-4 py-3">マシンのグループ（女性専用）</td><td className="px-4 py-3">0円</td><td className="px-4 py-3">平日 9:30〜16:00・17:30〜22:00／土日祝 9:30〜20:00（第1月曜定休）</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">the SILK 銀座一丁目店（中央区銀座1-5-8 Ginza Willow Avenue BLDG. 4階）</td><td className="px-4 py-3">JRで1駅（有楽町駅 徒歩5分）</td><td className="px-4 py-3">銀座一丁目駅 徒歩1分・京橋駅 徒歩4分</td><td className="px-4 py-3">マシンのグループ・パーソナル（女性限定）</td><td className="px-4 py-3">グループ 0円（50分・期間限定）</td><td className="px-4 py-3">7:30〜21:00（年末年始 12/29〜1/3 休み）</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Pilates Studio excel 日本橋店（中央区・馬喰町駅前）</td><td className="px-4 py-3">JR総武快速線で2駅（馬喰町駅 徒歩1分）</td><td className="px-4 py-3">馬喰横山駅 徒歩1分・東日本橋駅 徒歩4分・小伝馬町駅 徒歩5分</td><td className="px-4 py-3">マシンのグループ（女性専用）</td><td className="px-4 py-3">0円（約2時間）</td><td className="px-4 py-3">火〜金 9:30〜22:30・土日祝 8:30〜18:30（月曜定休）</td></tr>
+        </tbody></table></div><p className="text-warm-600 leading-relaxed mt-4 text-sm">仕事帰りに東京駅から歩いて通うなら、八重洲側の the SILK 東京八重洲店（女性限定・体験0円）か zen place 八重洲（男女共用・マットとマシン）が候補です。丸ノ内線で1駅の銀座駅周辺には5店が集まり、ピラティスKは月4回13,420円・体験0円、BDC PILATES は少人数のマシングループです。ルルト 銀座店は確認時点で新規の体験受付を停止しています。ピラティスガーデン銀座・バース ピラティス スタジオ 銀座・Bloom Pilates 銀座スタジオは公式ページで今回の項目を確認できなかったため、早見表には載せていません。</p><p className="text-warm-500 leading-relaxed mt-2 text-xs">情報引用元（2026年10月25日確認）: <a href="https://the-silk.co.jp/studios/tokyo/yaesu/" target="_blank" rel="noopener" className="underline">the SILK公式サイト（東京八重洲店）</a>・<a href="https://the-silk.co.jp/studios/tokyo/ginza/" target="_blank" rel="noopener" className="underline">同（銀座店）</a>・<a href="https://the-silk.co.jp/studios/tokyo/ginza-itchome/" target="_blank" rel="noopener" className="underline">同（銀座一丁目店）</a>／<a href="https://www.zenplace.co.jp/studios/basipilates-yaesu" target="_blank" rel="noopener" className="underline">zen place 八重洲</a>・<a href="https://www.zenplace.co.jp/studios/pilates-ginza2chome" target="_blank" rel="noopener" className="underline">zen place 銀座二丁目</a>／<a href="https://bdcpilates.com/ginza" target="_blank" rel="noopener" className="underline">BDC PILATES 銀座</a>／<a href="https://luluto.kabushikigaisya-rigakubody.co.jp/tenpo/pilates_ginza/" target="_blank" rel="noopener" className="underline">ルルト 銀座店</a>／<a href="https://pilates-k.jp/studio/tokyo/ginza" target="_blank" rel="noopener" className="underline">ピラティスK 銀座店</a>／<a href="https://pilates-excel.com/studio/nihonbashi/" target="_blank" rel="noopener" className="underline">Pilates Studio excel 日本橋店</a></p></div></section>
+
         <PriceComparisonTable studios={studios} areaName="東京駅" />
         <AreaMarketComparison studios={studios} areaName="東京駅" />
 
@@ -386,7 +398,7 @@ export default function TokyoStationPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">8,800円〜32,560円</td>
+                    <td className="px-4 py-3">10,450円〜16,280円（公式で確認できた店舗・税込）</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -394,7 +406,7 @@ export default function TokyoStationPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">1,000円〜4,500円</td>
+                    <td className="px-4 py-3">0円〜（the SILK・ピラティスK・excel は0円、zen place はマット1,000円）</td>
                   </tr>
                 </tbody>
               </table>
@@ -572,7 +584,7 @@ export default function TokyoStationPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（月4回 13,420円）</li>
-                  <li>• BDC PILATES（月4回 15,400円）</li>
+                  <li>• BDC PILATES（月4回 16,280円）</li>
                   <li>• zen place リフォーマー（月4回 15,400円〜）</li>
                 </ul>
               </div>
@@ -584,7 +596,7 @@ export default function TokyoStationPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• バース ピラティス（1回 8,800円〜）</li>
-                  <li>• ルルト（月4回 32,560円〜）</li>
+                  <li>• ルルト（月4回 38,400円）</li>
                   <li>• zen place プライベート（1回 9,900円〜）</li>
                 </ul>
               </div>
@@ -614,7 +626,7 @@ export default function TokyoStationPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  グループ月4回で10,200円〜15,400円、パーソナルは1回8,800円〜が相場です。通い放題プランなら1回あたりの単価を抑えられます。
+                  グループ月4回で10,450円〜16,280円（公式で確認できた店舗・税込）、パーソナルは1回8,800円〜が目安です。通い放題プランなら1回あたりの単価を抑えられます。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

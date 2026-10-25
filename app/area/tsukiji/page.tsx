@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/tsukiji/' },
-  title: '築地のピラティススタジオおすすめ5選｜無料体験・料金で比較',
-  description: '築地のピラティススタジオ5社の料金・無料体験・マシン対応を比較しています。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまでわかります。',
+  title: '築地のピラティスおすすめ5選｜築地駅からの徒歩分・体験料金で比較',
+  description: '築地でピラティスを探す方へ。築地駅・東銀座駅・新富町駅からの徒歩分、体験料金、営業時間・定休日を各公式サイトで確認して早見表にまとめ、5スタジオの料金を比較しています。',
   keywords: 'ピラティス,築地,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,新富町,東銀座',
 }
 
@@ -25,15 +25,15 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
     price: '月4回 19,800円',
-    priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
-    trial: '体験レッスン無料',
+    priceList: ['初回体験レッスン 0円', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
+    trial: '初回体験レッスン 0円',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '女性専用マシンピラティススタジオです。築地駅から徒歩3分、新富町駅から徒歩7分です。最大3名までのセミパーソナル形式で、各個人の目標に合わせたオーダーメイドプログラムが特徴です。当日予約・当日キャンセルが可能なため、予定に合わせて通うことができます。',
-    access: '築地駅 徒歩3分／新富町駅 徒歩7分',
+    description: '女性専用マシンピラティススタジオです。築地駅1番出口から徒歩3分、新富町駅から徒歩7分です。最大3名までのセミパーソナル形式で、各個人の目標に合わせたオーダーメイドプログラムが特徴です。当日予約・当日キャンセルが可能なため、予定に合わせて通うことができます。',
+    access: '築地駅1番出口 徒歩3分／新富町駅 徒歩7分',
     address: '〒104-0045 東京都中央区築地7丁目6-7 松田ビル 302',
     popularPlan: {
       name: 'セミパーソナル通い放題',
-      description: '最大3名のセミパーソナルレッスンが通い放題です。1回あたり2,500円です（※37,500円の通い放題コースで15日通った場合）。',
+      description: '最大3名のセミパーソナルレッスンが通い放題です。公式表記の1回あたり3,750円は月10回利用した場合の計算です。',
       price: '月額 37,500円（税込）',
     },
     userProfile: {
@@ -112,21 +112,21 @@ const studios = [
   {
     name: 'BIRTH pilates studio 銀座',
     image: '/images/studios/birth-pilates-ginza.webp',
-    price: 'パーソナル 1回 12,100円〜',
-    trial: '体験レッスン 4,500円（90分）',
+    price: '1回 9,600円（税込）',
+    trial: '初回体験 4,500円（90分・キャンペーン価格／通常9,800円）',
     features: ['完全個室', '東銀座駅徒歩4分', 'STOTT認定', 'マタニティ対応'],
     description: '個室マシンピラティス専門スタジオです。東銀座駅A7出口から徒歩4分、新富町駅1番出口から徒歩4分です。STOTT PILATES認定の資格保持者が指導です。腰痛・肩こり・マタニティ・産後ケア・側湾症など専門的なケアにも対応しています。',
-    access: '都営浅草線「東銀座駅」A7・A8出口 徒歩4分 / 有楽町線「新富町駅」1番出口 徒歩4分 / 銀座線「銀座駅」A13出口 徒歩6分',
-    address: '東京都中央区銀座エリア（詳細は公式サイトでご確認ください）',
+    access: '都営浅草線「東銀座駅」A7・A8出口 徒歩4分 / 有楽町線「新富町駅」1番出口 徒歩4分 / 有楽町線「銀座一丁目駅」11番出口 徒歩4分 / 銀座線「銀座駅」A13出口 徒歩6分',
+    address: '東京都中央区銀座1-20-7 ウィンド銀座Ⅲビル5F（別館：銀座1-20-5 銀座清和ビル6F）',
     popularPlan: {
       name: 'パーソナルレッスン',
       description: '完全個室マンツーマンです。STOTT PILATES認定インストラクターが指導です。',
-      price: '1回 12,100円（税込）',
+      price: '1回 9,600円（税込）',
     },
     options: [
-      'パーソナルレッスン（1回 12,100円）',
-      '回数券プランあり',
-      '初回体験 4,500円（90分）',
+      '1回 9,600円（税込）',
+      '回数券 3回28,200円／5回46,000円／10回90,000円（10回は有効期限6ヶ月）',
+      '初回体験 4,500円（90分・キャンペーン価格）',
       'マタニティ・産後ケア対応',
     ],
     userProfile: {
@@ -135,8 +135,8 @@ const studios = [
       purpose: ['姿勢改善', '腰痛改善', 'マタニティケア', 'リハビリ'],
     },
     basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '不定休',
+      hours: '8:30〜21:40（銀座店）',
+      closed: '定休日なし（公式アクセスページ）',
       facilities: ['リフォーマー', 'キャデラック', 'チェア', 'バレル', '完全個室'],
     },
   },
@@ -144,21 +144,21 @@ const studios = [
     name: 'STUDIO IVY 銀座新富町店',
     image: '/images/studios/studio-ivy.webp',
     price: '月2回 15,000円〜',
-    trial: '体験レッスンあり',
-    features: ['新富町駅徒歩2分', 'パーソナル専門', '30分レッスン', '都度払い可'],
-    description: 'パーソナルマシンピラティス専門スタジオです。新富町駅から徒歩2分、築地駅からも徒歩圏内です。リフォーマーを使った1回30分のマンツーマンレッスンです。月2回から始められる手軽な料金設定と都度払いにも対応しています。',
-    access: '東京メトロ有楽町線「新富町駅」徒歩2分 / 日比谷線「築地駅」徒歩8分',
-    address: '東京都中央区新富2-5-4 アソシエイトタワー4F',
+    trial: '初回体験レッスン 4,500円（50分・税込）※公式に「初回体験 無料」キャンペーン（10/18〜11/30）の表示あり',
+    features: ['新富町駅2番出口徒歩2分', 'パーソナル専門', '1レッスン50分', '男性も受講可'],
+    description: 'パーソナルマシンピラティス専門スタジオです。新富町駅2番出口から徒歩2分、東銀座駅A7出口から徒歩8分です。リフォーマーを使った1回50分のマンツーマンレッスンです。月2回15,000円から始められる月額制です。',
+    access: '東京メトロ有楽町線「新富町駅」2番出口 徒歩2分 / 日比谷線・都営浅草線「東銀座駅」A7出口 徒歩8分 / 「八丁堀駅」A3出口 徒歩6分',
+    address: '〒104-0041 東京都中央区新富2-5-4 アソシエイトタワー4F',
     popularPlan: {
       name: '月4回コース',
       description: 'パーソナルマシンピラティス月4回です。リフォーマーを使ったマンツーマン指導しています。',
       price: '月4回 28,000円（税込）',
     },
     options: [
-      '月2回コース（15,000円）',
-      '月4回コース（28,000円）',
-      '月8回コース（52,000円）',
-      '都度払い（8,800円/回）',
+      'BASIC 月2回（15,000円）',
+      'STANDARD 月4回（28,000円）',
+      'PREMIUM 月8回（52,000円）',
+      '初回体験レッスン 4,500円（50分）',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
@@ -184,7 +184,7 @@ const faqs = [
   },
   {
     question: '築地のピラティスの料金相場は？',
-    answer: 'パーソナルは1回9,000円〜12,100円が相場です。',
+    answer: '掲載店の公式料金（2026年10月25日確認・税込）では、パーソナルは1回あたり約7,000円（STUDIO IVY 月4回28,000円）〜9,600円（BIRTH pilates studio 1回）、セミパーソナルはPilates Mee 築地店の月4回19,800円（1回あたり4,950円）です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -196,7 +196,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があれば問題ありません。BIRTH pilatesは初回90分4,500円で体験可能です。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。BIRTH pilates studioは初回90分4,500円（キャンペーン価格・2026年10月25日公式確認）で体験できます。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
@@ -208,7 +208,7 @@ const faqs = [
   },
   {
     question: '築地駅から近いスタジオは？',
-    answer: 'Pilasuru東銀座が築地駅徒歩2分で最寄りです。Pilates Mee築地店が徒歩3分、Star Pilates築地が徒歩4分です。',
+    answer: '公式サイトで築地駅からの徒歩分を確認できたのはPilates Mee 築地店（1番出口 徒歩3分・2026年10月25日確認）です。STUDIO IVY 銀座新富町店は新富町駅2番出口 徒歩2分、BIRTH pilates studio 銀座は東銀座駅A7・A8出口 徒歩4分です（各公式表記）。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -231,10 +231,10 @@ export default function TsukijiPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月25日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス築地おすすめ5選<br className="hidden md:block" />
-              人気スタジオの料金プランの比較
+              築地駅からの徒歩分・体験料金・料金プランの比較
             </h1>
           </div>
         </section>
@@ -290,6 +290,14 @@ export default function TsukijiPage() {
             </p>
           </div>
         </section>
+
+        <section className="py-12 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">築地駅・新富町駅・東銀座駅からの徒歩分で比べる早見表</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">築地のピラティススタジオを、駅・出口からの近さで並べました。公式サイトで築地駅からの徒歩分を確認できたのはPilates Mee 築地店（1番出口 徒歩3分）のみで、STUDIO IVYとBIRTH pilates studioは新富町駅・東銀座駅からの表記です。徒歩分・体験料金・営業時間・定休日は各スタジオの公式ページの表記です（2026年10月25日確認・税込）。公式ページを確認できなかった店舗はその旨を記載しています。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">築地駅から</th><th className="px-4 py-3 text-left">ほかの最寄駅</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">営業時間</th><th className="px-4 py-3 text-left">定休日</th></tr></thead><tbody>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Pilates Mee 築地店（中央区築地7-6-7 松田ビル302）</td><td className="px-4 py-3">築地駅1番出口 徒歩3分</td><td className="px-4 py-3">新富町駅 徒歩7分</td><td className="px-4 py-3">マシンのセミパーソナル（最大3名）・パーソナル（女性専用）</td><td className="px-4 py-3">初回体験レッスン 0円（約60分・事前予約制）</td><td className="px-4 py-3">9:00〜21:15</td><td className="px-4 py-3">不定休</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">STUDIO IVY 銀座新富町店（中央区新富2-5-4 アソシエイトタワー4F）</td><td className="px-4 py-3">公式に築地駅からの記載なし</td><td className="px-4 py-3">新富町駅2番出口 徒歩2分・八丁堀駅A3出口 徒歩6分・東銀座駅A7出口 徒歩8分</td><td className="px-4 py-3">マシンの完全パーソナル（50分・男性も受講可）</td><td className="px-4 py-3">初回体験レッスン 4,500円（50分）※公式に「初回体験 無料」キャンペーン（10/18〜11/30）の表示あり</td><td className="px-4 py-3">8:00〜21:00</td><td className="px-4 py-3">公式に記載なし</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">BIRTH pilates studio 銀座（中央区銀座1-20-7 ウィンド銀座Ⅲビル5F／別館 銀座1-20-5 銀座清和ビル6F）</td><td className="px-4 py-3">公式に築地駅からの記載なし</td><td className="px-4 py-3">東銀座駅A7・A8出口／A2出口 徒歩4分・新富町駅1番出口 徒歩4分・銀座一丁目駅11番出口 徒歩4分</td><td className="px-4 py-3">マシンの個室パーソナル</td><td className="px-4 py-3">初回体験 4,500円（90分・キャンペーン価格／通常9,800円）</td><td className="px-4 py-3">銀座店 8:30〜21:40（別館 8:15〜22:00）</td><td className="px-4 py-3">定休日なし</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Pilasuru 東銀座</td><td className="px-4 py-3">掲載値は築地駅2番出口 徒歩2分（本日公式ページを確認できず）</td><td className="px-4 py-3">—</td><td className="px-4 py-3">セミパーソナル（最大3名）</td><td className="px-4 py-3">公式ページを確認できず</td><td className="px-4 py-3">公式ページを確認できず</td><td className="px-4 py-3">公式ページを確認できず</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Star Pilates 築地</td><td className="px-4 py-3">掲載値は築地駅 徒歩4分（本日公式ページを確認できず）</td><td className="px-4 py-3">—</td><td className="px-4 py-3">プライベート</td><td className="px-4 py-3">公式ページを確認できず</td><td className="px-4 py-3">公式ページを確認できず</td><td className="px-4 py-3">公式ページを確認できず</td></tr>
+        </tbody></table></div><div className="mt-6 bg-warm-50 border-l-4 border-warm-400 p-5 text-sm text-warm-700 leading-relaxed"><p className="font-bold text-warm-900 mb-2">近隣駅からの行き方の目安</p><ul className="space-y-1"><li>• 日比谷線「築地駅」：1番出口からPilates Mee 築地店まで徒歩3分（公式表記）。</li><li>• 有楽町線「新富町駅」：2番出口からSTUDIO IVY 銀座新富町店まで徒歩2分、1番出口からBIRTH pilates studio 銀座まで徒歩4分、Pilates Mee 築地店まで徒歩7分（各公式表記）。</li><li>• 都営浅草線・日比谷線「東銀座駅」：A7・A8出口からBIRTH pilates studio 銀座まで徒歩4分、A7出口からSTUDIO IVY 銀座新富町店まで徒歩8分（各公式表記）。</li><li>• 大江戸線「築地市場駅」：掲載店の公式アクセス欄に築地市場駅からの記載はありません。</li></ul><p className="mt-3 text-xs text-warm-500">確認した公式ページ：Pilates Mee 築地店（m-pilates.com/shop/tokyo/tsukiji/）・STUDIO IVY 銀座新富町店（www.pilates-ivy.jp/studio/ginzashintomicho）・BIRTH pilates studio（birth-pilates.com/access/・/price/）。料金・キャンペーンは変わることがあるため、予約前に各公式サイトでご確認ください。</p></div></div></section>
 
         <PriceComparisonTable studios={studios} areaName="築地" />
 
@@ -553,7 +561,7 @@ export default function TsukijiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  体験料金は、Pilates Mee 築地店が「体験レッスン無料」、BIRTH pilates studio 銀座が「体験レッスン 4,500円（90分）」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
+                  体験料金は、Pilates Mee 築地店が「初回体験レッスン 0円」、BIRTH pilates studio 銀座が「初回体験 4,500円（90分・キャンペーン価格）」、STUDIO IVY 銀座新富町店が「初回体験レッスン 4,500円（50分）」です（2026年10月25日 各公式サイトで確認）。最新の条件は各公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -562,7 +570,7 @@ export default function TsukijiPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  築地の掲載スタジオでは、Pilasuru 東銀座（東京メトロ日比谷線「築地駅」2番出口 徒歩2分）、STUDIO IVY 銀座新富町店（東京メトロ有楽町線「新富町駅」徒歩2分）、Pilates Mee 築地店（築地駅 徒歩3分）が駅から近いスタジオです。通う時間帯の経路もご確認ください。
+                  築地の掲載スタジオでは、Pilasuru 東銀座（東京メトロ日比谷線「築地駅」2番出口 徒歩2分）、STUDIO IVY 銀座新富町店（東京メトロ有楽町線「新富町駅」2番出口 徒歩2分）、Pilates Mee 築地店（築地駅1番出口 徒歩3分）が駅から近いスタジオです。通う時間帯の経路もご確認ください。
                 </p>
               </div>
             </div>
@@ -623,7 +631,7 @@ export default function TsukijiPage() {
               体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,850円です。<br />
+              掲載店の初回体験は0円〜4,500円です（2026年10月25日 公式確認分）。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link

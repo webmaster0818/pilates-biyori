@@ -17,8 +17,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kyoto-station/' },
-  title: '京都駅のピラティス｜初心者可・無料体験で選ぶ料金比較',
-  description: '京都駅エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
+  title: '京都駅のピラティス5選｜駅から徒歩分・体験料金・定休日を公式で比較',
+  description: '京都駅のピラティススタジオ5店を、京都駅からの徒歩分順の早見表で比較。体験料金・月額・営業時間・定休日は各公式ページで2026年10月25日に確認した値です。女性専用・男性可・マシン対応もわかります。',
   keywords: 'ピラティス,京都駅,京都,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -31,7 +31,7 @@ const studios = [
     trial: '体験レッスン 無料',
     features: ['LAVA系列', '女性専用', '京都駅徒歩5分', '2026年2月OPEN'],
     description: 'ホットヨガLAVA系列の女性専用マシンピラティススタジオです。2026年2月オープンです。京都駅から徒歩5分です。月4回8,800円のリーズナブルな料金です。無料体験でパーソナル姿勢診断付きです。初心者87%以上で安心です。',
-    access: 'JR「京都駅」徒歩5分',
+    access: 'JR「京都駅」中央出口 徒歩5分',
     address: '京都府京都市下京区七条通鳥丸東入真苧屋町195 福井ビル 4F',
     popularPlan: {
       name: 'マシンピラティス月4回プラン',
@@ -41,7 +41,7 @@ const studios = [
     options: [
       '通い放題プラン',
       'プレミアムフリーフルタイム（LAVA等全店利用可）',
-      '施設使用料あり',
+      '運営管理費 月680円（税込）',
       '無料体験・パーソナル姿勢診断付き',
     ],
     userProfile: {
@@ -50,8 +50,8 @@ const studios = [
       purpose: ['ボディメイク', 'ダイエット', 'ヨガ&ピラティス両方', '健康維持'],
     },
     basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '不定休',
+      hours: '公式の店舗ページに記載なし（レッスンスケジュールで確認）',
+      closed: '毎週日曜・第4水曜',
       facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'シャワー'],
     },
   },
@@ -62,8 +62,8 @@ const studios = [
     trial: '体験レッスン 4,500円',
     features: ['完全パーソナル', 'マシンピラティス', 'オーダーメイド', '完全プライベート空間'],
     description: '完全パーソナルのマシンピラティススタジオです。完全プライベート空間でオーダーメイドのプログラムを提供しています。月2回15,000円〜です。一人ひとりの目標に合わせた指導で効率的にボディメイクを目指せます。',
-    access: 'JR「京都駅」徒歩圏内',
-    address: '京都府京都市下京区京都駅前エリア（詳細は公式サイトでご確認ください）',
+    access: 'JR「京都駅」徒歩5分',
+    address: '京都府京都市下京区小稲荷町85 Grand-K京都駅前ビル801',
     popularPlan: {
       name: 'パーソナル月2回プラン',
       description: '完全プライベート空間でオーダーメイドのマシンピラティスです。',
@@ -81,8 +81,8 @@ const studios = [
       purpose: ['ボディメイク', '姿勢改善', 'パーソナル指導', 'ダイエット'],
     },
     basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '不定休',
+      hours: '8:00〜21:00',
+      closed: '公式の店舗ページに記載なし',
       facilities: ['リフォーマーマシン', 'プライベートルーム', '更衣室', 'ロッカー'],
     },
   },
@@ -113,8 +113,8 @@ const studios = [
       purpose: ['姿勢改善', '体幹強化', '柔軟性向上', '健康維持'],
     },
     basicInfo: {
-      hours: '月〜金 7:00-20:00 / 土日 7:00-16:00',
-      closed: '不定休',
+      hours: '平日 7:00-22:00 / 土日祝 7:10-18:00',
+      closed: '公式の店舗ページに記載なし',
       facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'],
     },
   },
@@ -126,8 +126,8 @@ const studios = [
     trial: '体験レッスン 0円',
     features: ['女性専用', 'マシン専門', '音楽レッスン', '体験0円'],
     description: '女性専用のマシンピラティス専門スタジオです。音楽に合わせた独自のレッスンスタイルが人気です。月4回13,420円〜です。体験レッスン0円です。京都駅から地下鉄でアクセス可能です。',
-    access: '地下鉄烏丸線「四条駅」周辺（京都駅から地下鉄でアクセス可）',
-    address: '京都府京都市下京区四条烏丸エリア（詳細は公式サイトでご確認ください）',
+    access: '阪急「烏丸駅」東改札口 徒歩1分／地下鉄烏丸線「四条駅」1番出口 徒歩4分（京都駅から地下鉄1本）',
+    address: '京都府京都市下京区立売西町66 京都証券ビル6F',
     popularPlan: {
       name: 'マンスリー4メンバー',
       description: '女性専用マシンピラティス月4回です。音楽に合わせた楽しいレッスンです。',
@@ -145,29 +145,29 @@ const studios = [
       purpose: ['ボディメイク', 'ダイエット', '姿勢改善', 'リフレッシュ'],
     },
     basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '不定休',
+      hours: '火・水・金 10:00-15:00／17:00-22:00、木 17:30-22:00、土・祝 10:00-19:00、日 10:00-17:30',
+      closed: '月曜日',
       facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'パウダールーム'],
     },
   },
   {
     name: 'Hain pilates 京都駅店',
     image: '/images/studios/hain-pilates.webp',
-    price: '公式サイト参照',
-    trial: '体験レッスンあり',
+    price: '月4回 22,000円',
+    trial: '体験レッスン 2,200円',
     features: ['女性専用', '1回30分', 'パーソナル専門', 'マシンピラティス'],
-    description: '女性専用のパーソナルマシンピラティス専門スタジオです。1回30分の短時間集中型レッスンで、忙しい方でも効率的にトレーニング可能です。京都駅近くでアクセス良好です。',
-    access: 'JR「京都駅」周辺',
-    address: '京都府京都市下京区京都駅エリア（詳細は公式サイトでご確認ください）',
+    description: '女性専用のパーソナルマシンピラティス専門スタジオです。1回30分の短時間集中型レッスンで、忙しい方でも効率的にトレーニング可能です。JR京都駅の中央口から徒歩4分です。月4回22,000円（1回5,500円）、体験2,200円です（公式・2026年10月25日確認）。',
+    access: 'JR「京都駅」中央口 徒歩4分／地下鉄「京都駅」3番出口 徒歩5分',
+    address: '京都府京都市下京区東塩小路町547-3 明石屋ビル6階',
     popularPlan: {
       name: 'パーソナル30分プラン',
       description: '1回30分のマシンピラティスパーソナルレッスンです。短時間集中で効率的です。',
-      price: '公式サイト参照',
+      price: '月4回 22,000円（税込・1回5,500円）',
     },
     options: [
-      '月額プラン',
-      '回数券プラン',
-      '体験レッスンあり',
+      '月6回 31,350円／月8回 39,600円',
+      '入会金 22,000円・登録料 5,500円（公式ブランドページ表記）',
+      '体験レッスン 2,200円',
       '女性専用',
     ],
     userProfile: {
@@ -176,8 +176,8 @@ const studios = [
       purpose: ['ボディメイク', '姿勢改善', '時短トレーニング', '健康維持'],
     },
     basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '不定休',
+      hours: '平日 10:00-22:00 / 土祝 9:00-19:00',
+      closed: '日曜',
       facilities: ['リフォーマーマシン', 'プライベートルーム', '更衣室', 'ロッカー'],
     },
   },
@@ -241,7 +241,7 @@ export default function KyotoStationPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月25日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス京都駅おすすめ5選<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較
@@ -303,6 +303,14 @@ export default function KyotoStationPage() {
           </div>
         </section>
 
+        <section className="py-12 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">京都駅からの徒歩分で比べる早見表</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">京都駅から近い順に並べました。徒歩分・体験料金・営業時間・定休日は各スタジオの公式ページの表記です（2026年10月25日確認・税込）。京都駅から徒歩圏は3店で、いずれも公式の案内は中央口（烏丸口側）からの徒歩分か、出口の指定なしです。八条口からの徒歩分を公式に載せている店舗はありませんでした。四条烏丸の2店は京都駅から地下鉄烏丸線で2駅です。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">京都駅から</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">営業時間／定休日</th></tr></thead><tbody>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Hain pilates 京都駅店（東塩小路町547-3 明石屋ビル6階）</td><td className="px-4 py-3">JR中央口 徒歩4分／地下鉄3番出口 徒歩5分</td><td className="px-4 py-3">30分のパーソナル（女性専用）</td><td className="px-4 py-3">2,200円</td><td className="px-4 py-3">平日 10:00〜22:00・土祝 9:00〜19:00／日曜</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Rintosull 京都駅前店（七条通鳥丸東入真苧屋町195 福井ビル4F）</td><td className="px-4 py-3">JR中央出口 徒歩5分</td><td className="px-4 py-3">マシングループ（女性専用）</td><td className="px-4 py-3">無料体験会 0円</td><td className="px-4 py-3">店舗ページに記載なし／毎週日曜・第4水曜</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">STUDIO IVY 京都駅前店（小稲荷町85 Grand-K京都駅前ビル801）</td><td className="px-4 py-3">徒歩5分（出口の記載なし）</td><td className="px-4 py-3">マンツーマン（男性も可）</td><td className="px-4 py-3">公式ページ内に「無料」と「4,500円」の両方の表記あり</td><td className="px-4 py-3">8:00〜21:00／記載なし</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">ピラティスK 京都四条烏丸店（立売西町66 京都証券ビル6F）</td><td className="px-4 py-3">地下鉄で2駅（四条駅1番出口 徒歩4分・阪急烏丸駅 東改札口 徒歩1分）</td><td className="px-4 py-3">マシングループ（女性専用）</td><td className="px-4 py-3">0円</td><td className="px-4 py-3">火・水・金 10:00〜15:00／17:00〜22:00、木 17:30〜22:00、土祝 10:00〜19:00、日 10:00〜17:30／月曜</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">zen place pilates 京都スタジオ（四条通富小路西入立売東町14 イシズミ本社ビル9階）</td><td className="px-4 py-3">地下鉄で2駅（四条駅12番出口 徒歩1分）</td><td className="px-4 py-3">マット・マシンのグループ・プライベート（男女共用）</td><td className="px-4 py-3">マットグループ 1,000円／マシン 初回キャンペーン 3,000円</td><td className="px-4 py-3">平日 7:00〜22:00・土日祝 7:10〜18:00／記載なし</td></tr>
+        </tbody></table></div><p className="text-warm-600 leading-relaxed mt-4 text-sm">新幹線や在来線の乗り換えついでに通うなら、中央口から近い Hain pilates（30分パーソナル）か Rintosull（月4回 8,800円＋運営管理費680円）が候補です。男性も通えるのは STUDIO IVY と zen place の2店です。日曜に通いたい方は、日曜が定休の Hain pilates・Rintosull を避けて、日曜も営業しているピラティスK・zen place（四条烏丸）を比べてみてください。STUDIO IVY の体験料金はページ内で表記が分かれているため、予約時にご確認ください。</p></div></section>
+
         <PriceComparisonTable studios={studios} areaName="京都駅" />
         <AreaMarketComparison studios={studios} areaName="京都駅" />
 
@@ -342,7 +350,7 @@ export default function KyotoStationPage() {
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回 10,450円〜15,000円</td>
+                    <td className="px-4 py-3">1回あたり 4,950円〜7,500円（Hain pilates 月8回の1回あたり4,950円〜・STUDIO IVY 月2回の1回あたり7,500円）</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
@@ -463,6 +471,7 @@ export default function KyotoStationPage() {
                   京都駅から徒歩・地下鉄ですぐです。
                 </p>
                 <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• Hain pilates（京都駅中央口徒歩4分）</li>
                   <li className="text-warm-700">• Rintosull（京都駅徒歩5分）</li>
                   <li className="text-warm-700">• zen place pilates（四条駅徒歩1分）</li>
                 </ul>

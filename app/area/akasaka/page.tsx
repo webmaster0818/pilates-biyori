@@ -17,8 +17,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/akasaka/' },
-  title: '赤坂のピラティス｜初心者可・無料体験で選ぶ料金比較',
-  description: '赤坂エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
+  title: '赤坂のピラティスおすすめ6選｜赤坂駅・赤坂見附駅からの徒歩分と体験料金で比較',
+  description: '赤坂でピラティスを探す方へ。赤坂駅・赤坂見附駅・溜池山王駅からの徒歩分、体験料金、営業時間・定休日を早見表にまとめ、6スタジオの料金を比較しています（2026年10月25日に各公式ページで確認）。',
   keywords: 'ピラティス,赤坂,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -28,10 +28,10 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 9,625円〜',
-    trial: '体験レッスンあり（当日入会で入会金無料）',
+    trial: 'マットグループ体験 1,000円（今だけの体験価格・通常3,300円〜）/ マシングループ体験 3,000円（初回キャンペーン）',
     features: ['マシン完備', '男性利用可', '赤坂見附駅徒歩3分', '全国他店利用可'],
     description: '全国150以上のスタジオを展開する国内最大級のピラティス専門スタジオです。赤坂見附駅10番出口から徒歩3分、赤坂駅1番出口から徒歩4分の好立地です。窓が大きく明るい開放的なスタジオで、各種ピラティスマシンを完備しています。世界レベルの資格と豊富な経験を持つエデュケーターが、初心者から経験者まで幅広いレッスンを提供しています。男性も受講可能です。',
-    access: '東京メトロ銀座線・丸ノ内線「赤坂見附駅」10番出口 徒歩3分 / 千代田線「赤坂駅」1番出口 徒歩4分',
+    access: '東京メトロ銀座線・丸ノ内線「赤坂見附駅」10番出口 徒歩3分 / 千代田線「赤坂駅」1番出口 徒歩4分 / 銀座線・南北線「溜池山王駅」10番出口 徒歩6分',
     address: '東京都港区赤坂3丁目7-13 HMビル 5階',
     popularPlan: {
       name: 'マットグループ月4回',
@@ -50,8 +50,8 @@ const studios = [
       purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
     },
     basicInfo: {
-      hours: '平日 8:00〜21:00 / 土日祝 8:00〜17:00',
-      closed: '不定休',
+      hours: '平日 7:45〜21:00 / 土日祝 9:00〜16:30',
+      closed: '公式に記載なし',
       facilities: ['リフォーマー', 'トラピーズテーブル', 'コンボチェア', '男女別更衣室', 'ロッカー'],
     },
   },
@@ -62,9 +62,9 @@ const studios = [
     price: '月3回 13,280円〜',
     trial: '体験レッスン 0円（50分・手ぶらで参加可能）',
     features: ['女性専用', 'マシン専門', '赤坂見附駅徒歩30秒', 'おしゃれ空間'],
-    description: '女性専用マシンピラティス専門スタジオです。赤坂見附駅10番出口から徒歩わずか30秒の圧倒的好立地です。プロフェッショナルグレードのリフォーマーマシンを使用し、音楽に合わせた50分のグループレッスンで楽しくボディメイクを目指せます。初心者が80%で安心して始められます。パウダールームにはライト付きメイクアップミラー・アイロン・ドライヤー完備で、レッスン後のお出かけも快適です。',
-    access: '東京メトロ各線「赤坂見附駅」10番出口 徒歩30秒',
-    address: '東京都港区赤坂3-8-1 赤坂アルトビル 7階',
+    description: '公式サイトによると、赤坂見附駅から徒歩30秒の女性専用マシンピラティススタジオとのことです。リフォーマーを使った50分のグループレッスンで、初回体験レッスンは0円（50分）と案内されています。営業時間は7:30〜21:00、休みは年末年始（12/29〜1/3）とされています。（情報引用元: the SILK公式サイト https://the-silk.co.jp/studios/tokyo/akasakamitsuke/ ・2026年10月25日確認）',
+    access: '東京メトロ「赤坂見附駅」徒歩30秒 / 千代田線「赤坂駅」徒歩6分 / 「溜池山王駅」徒歩9分',
+    address: '東京都港区赤坂3丁目8-1 赤坂アルトビル 7F',
     popularPlan: {
       name: 'Standard4（月4回）',
       description: '月4回の標準プランです。プロフェッショナルグレードのリフォーマーで本格レッスンです。',
@@ -91,10 +91,10 @@ const studios = [
     name: 'PILATES STUDIO noa 赤坂',
     image: '/images/studios/pilates-studio-noa.webp',
     price: '月額 6,600円〜',
-    trial: '体験レッスン 550円',
-    features: ['女性専用', 'マシン専門', '赤坂駅徒歩0分', '回数繰越無制限'],
-    description: '2025年3月オープンの女性専用マシンピラティス専門スタジオです。赤坂駅1番出口から徒歩0分という圧倒的アクセスです。月6,600円からとリーズナブルで、回数の繰越が無制限です。Intro・BODY MAKE・Conditioningの3つのプログラムカテゴリを展開しています。シャワールーム・更衣室完備で、レッスン前後も快適に過ごせます。',
-    access: '千代田線「赤坂駅」1番出口 徒歩0分 / 銀座線・丸ノ内線「赤坂見附駅」徒歩7分 / 銀座線・南北線「溜池山王駅」7番出口 徒歩7分',
+    trial: '体験レッスンあり（公式トップに550円と1,100円の2つの表記・税込）',
+    features: ['女性専用', 'マシン専門', '赤坂駅1番出口徒歩30秒', '回数繰越無制限'],
+    description: '女性専用のマシンピラティス専門スタジオです。赤坂駅1番出口から徒歩30秒です。月6,600円から（別途システム手数料550円・マシン利用料550円）で、回数の繰越が無制限です。Intro・BODY MAKE・Conditioningの3つのプログラムカテゴリを展開しています。シャワールーム・更衣室完備で、レッスン前後も快適に過ごせます。',
+    access: '千代田線「赤坂駅」1番出口 徒歩30秒 / 銀座線・丸ノ内線「赤坂見附駅」ベルビー赤坂出口 徒歩7分 / 銀座線・南北線「溜池山王駅」7番出口 徒歩7分',
     address: '東京都港区赤坂3丁目13-12（受付3F）',
     popularPlan: {
       name: '月4回コース',
@@ -113,9 +113,9 @@ const studios = [
       purpose: ['ボディメイク', 'コンディショニング', '姿勢改善', '初心者'],
     },
     basicInfo: {
-      hours: '平日 10:00〜23:00 / 土日 10:00〜21:00',
-      closed: '不定休',
-      facilities: ['マシンピラティス設備', 'シャワールーム', '更衣室', 'ロッカー'],
+      hours: '公式に記載なし（電話受付 平日10:00〜23:00・土日10:00〜21:00）',
+      closed: '公式に記載なし',
+      facilities: ['マシンピラティス設備', 'シャワールーム', '更衣室', '鍵付きロッカー', 'パウダールーム'],
     },
   },
   {
@@ -135,8 +135,8 @@ const studios = [
     options: [
       '月2回コース（15,000円・1回7,500円）',
       '月8回コース（52,000円・1回6,500円）',
-      '都度利用（8,800円）',
-      '入会金 20,000円',
+      '1レッスン50分',
+      '男性も受講可（公式記載）',
     ],
     userProfile: {
       ageRange: '20代〜50代が中心（全体の75%）',
@@ -145,7 +145,7 @@ const studios = [
     },
     basicInfo: {
       hours: '8:00〜21:00',
-      closed: '不定休',
+      closed: '公式に記載なし',
       facilities: ['リフォーマー', 'キャデラック', 'チェア', '完全プライベート空間'],
     },
   },
@@ -153,7 +153,7 @@ const studios = [
     name: 'STUDIO IVY 赤坂ANNEX店',
     image: '/images/studios/studio-ivy.webp',
     price: '月2回 15,000円〜',
-    trial: '体験レッスン 4,500円',
+    trial: '初回体験 4,500円（10/1〜10/31は初回体験無料キャンペーン表示あり）',
     features: ['完全パーソナル', 'マシン完備', '赤坂駅徒歩3分', '完全個室'],
     description: 'STUDIO IVYの赤坂2号店です。赤坂駅から徒歩3分です。本店と同じクオリティの完全パーソナルマシンピラティスを提供しています。完全個室で周りを気にせずレッスンに集中できます。赤坂エリアに2店舗あり、予約も取りやすくなっています。',
     access: '千代田線「赤坂駅」徒歩3分',
@@ -166,8 +166,8 @@ const studios = [
     options: [
       '月2回コース（15,000円・1回7,500円）',
       '月8回コース（52,000円・1回6,500円）',
-      '都度利用（8,800円）',
-      '入会金 20,000円',
+      '1レッスン50分',
+      '男性も受講可（公式記載）',
     ],
     userProfile: {
       ageRange: '20代〜50代が中心（全体の75%）',
@@ -176,29 +176,29 @@ const studios = [
     },
     basicInfo: {
       hours: '8:00〜21:00',
-      closed: '不定休',
+      closed: '公式に記載なし',
       facilities: ['リフォーマー', 'マシンピラティス器具', '完全個室', '更衣室'],
     },
   },
   {
     name: 'Studio-BMP 赤坂店',
     image: '/images/studios/studio-bmp-akasaka.webp',
-    price: 'グループ月額 15,400円〜',
+    price: 'パーソナル50分 11,000円〜（ポイント制回数券）',
     trial: 'パーソナル体験 6,600円（50分）',
-    features: ['BMP式メソッド', 'パーソナル&グループ', '赤坂駅徒歩2分', '整体×ピラティス'],
-    description: 'ボディメイク×ピラティスのオリジナルメソッドが魅力のスタジオです。赤坂駅6番出口から徒歩2分です。BESJピラティス認定インストラクターが多数在籍し、少人数制グループからパーソナルまで選べます。ピラティスに加えて全身矯正・小顔矯正を組み合わせた80分コースも人気です。',
+    features: ['BMP式メソッド', '完全プライベート', '赤坂駅徒歩2分', '整体×ピラティス'],
+    description: 'ボディメイク×ピラティスのオリジナルメソッドが魅力のスタジオです。赤坂駅6番出口から徒歩2分です。公式サイトでは「完全プライベート」のマンツーマン指導と案内されています。ピラティスに美容矯正を組み合わせた80分コース（16,500円）もあります。',
     access: '千代田線「赤坂駅」6番出口 徒歩2分 / 銀座線・南北線「溜池山王駅」11番出口 徒歩10分',
     address: '東京都港区赤坂6-11-13 ファブリックビル 4階',
     popularPlan: {
-      name: 'グループレッスン フルタイム',
-      description: '全営業時間のグループレッスンが受け放題です。少人数制で丁寧な指導です。',
-      price: '月額 17,600円（税込）',
+      name: 'パーソナル50分',
+      description: '完全プライベートのマンツーマンレッスンです。料金はポイント制の回数券で支払います（50分＝10ポイント）。',
+      price: '50分 11,000円相当（税込）',
     },
     options: [
-      'グループ ライトタイム（月額15,400円）',
-      'グループ 単発受講（1回3,300円）',
-      'パーソナル BMP式スタイルup 50分（11,000円）',
-      'パーソナル BMP式+全身矯正・小顔矯正 80分（16,500円）',
+      'パーソナル80分・美容矯正付き（16,500円）',
+      'オイルコース80分（22,000円）',
+      '体験50分 6,600円 / 80分 9,900円（1人1回）',
+      '入会金 11,000円（初回来店当日に50ポイント以上の回数券購入で半額5,500円）',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心（全体の80%）',
@@ -216,7 +216,7 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '問題ありません。赤坂エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。PILATES STUDIO noaは初心者向けのIntroプログラムがあり、the SILKは初心者が80%を占めています。経験豊富なインストラクターが基礎から丁寧に指導してくれるので安心です。',
+    answer: '問題ありません。赤坂エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。PILATES STUDIO noaは初心者向けのIntroプログラムがあり、the SILKは50分の初回体験レッスンを0円で案内しています（公式サイト・2026年10月25日確認）。経験豊富なインストラクターが基礎から丁寧に指導してくれるので安心です。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
@@ -271,10 +271,10 @@ export default function AkasakaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月12日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月25日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス赤坂おすすめ6選<br className="hidden md:block" />
-              料金・体験レッスン・マシン対応を比較
+              赤坂のピラティスおすすめ6選<br className="hidden md:block" />
+              赤坂駅・赤坂見附駅からの徒歩分・体験料金で比較
             </h1>
           </div>
         </section>
@@ -333,6 +333,15 @@ export default function AkasakaPage() {
           </div>
         </section>
 
+        <section className="py-12 bg-white" id="by-station"><div className="max-w-5xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">赤坂駅・赤坂見附駅・溜池山王駅からの徒歩分で比べる早見表</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">赤坂でピラティスに通うときの最寄駅は、赤坂見附駅（銀座線・丸ノ内線）、赤坂駅（千代田線）、溜池山王駅（銀座線・南北線）の3つです。掲載6店を駅から近い順に並べました。徒歩分・体験料金・営業時間・定休日は各スタジオの公式ページの表記です（2026年10月25日確認）。公式に記載のない項目は「公式に記載なし」としています。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">赤坂見附駅から</th><th className="px-4 py-3 text-left">赤坂駅から</th><th className="px-4 py-3 text-left">溜池山王駅から</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">体験（税込）</th><th className="px-4 py-3 text-left">営業時間・定休日</th></tr></thead><tbody>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">the SILK 赤坂見附店（港区赤坂3-8-1 赤坂アルトビル7F）</td><td className="px-4 py-3">徒歩30秒</td><td className="px-4 py-3">徒歩6分</td><td className="px-4 py-3">徒歩9分</td><td className="px-4 py-3">マシンのグループ（女性専用）</td><td className="px-4 py-3">0円（50分）</td><td className="px-4 py-3">7:30〜21:00／年末年始（12/29〜1/3）休み</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">PILATES STUDIO noa 赤坂（港区赤坂3-13-12・受付3F）</td><td className="px-4 py-3">ベルビー赤坂出口 徒歩7分</td><td className="px-4 py-3">1番出口 徒歩30秒</td><td className="px-4 py-3">7番出口 徒歩7分</td><td className="px-4 py-3">マシン（女性専用）</td><td className="px-4 py-3">公式トップに550円・1,100円の2表記</td><td className="px-4 py-3">公式に記載なし（電話受付 平日10:00〜23:00・土日10:00〜21:00）</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">zen place pilates 赤坂（港区赤坂3-7-13 HMビル5階）</td><td className="px-4 py-3">10番出口 徒歩3分</td><td className="px-4 py-3">1番出口 徒歩4分</td><td className="px-4 py-3">10番出口 徒歩6分</td><td className="px-4 py-3">マット・マシンのグループ・プライベート（男女共用）</td><td className="px-4 py-3">マット 1,000円・マシン 3,000円・プライベート 9,900円〜</td><td className="px-4 py-3">平日 7:45〜21:00・土日祝 9:00〜16:30／定休日は公式に記載なし</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Studio-BMP 赤坂店（港区赤坂6-11-13 ファブリックビル4階）</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">6番出口 徒歩2分</td><td className="px-4 py-3">11番出口 徒歩10分</td><td className="px-4 py-3">完全プライベート</td><td className="px-4 py-3">50分 6,600円・80分 9,900円</td><td className="px-4 py-3">火〜金 10:00〜21:00・土日祝 10:00〜18:00／月曜定休</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">STUDIO IVY 赤坂店（港区赤坂4-2-12 エスセナーリオ赤坂WEST 011）</td><td className="px-4 py-3">徒歩3分</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">マシンのパーソナル50分（男性も可）</td><td className="px-4 py-3">4,500円</td><td className="px-4 py-3">8:00〜21:00／定休日は公式に記載なし</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">STUDIO IVY 赤坂ANNEX店（港区赤坂6-4-18 プリンストン赤坂402）</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">徒歩3分</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">マシンのパーソナル50分（男性も可）</td><td className="px-4 py-3">4,500円（10/1〜10/31は初回体験無料の表示あり）</td><td className="px-4 py-3">8:00〜21:00／定休日は公式に記載なし</td></tr>
+        </tbody></table></div><p className="text-warm-600 leading-relaxed mt-4 text-sm">赤坂見附駅から歩くなら the SILK（徒歩30秒・女性専用・体験0円）と zen place（徒歩3分・男女共用）、千代田線の赤坂駅なら noa（1番出口 徒歩30秒）と Studio-BMP（6番出口 徒歩2分）が近い店です。男性も通えるのは zen place と STUDIO IVY（公式に男性受講可と記載）です。赤坂見附駅と赤坂駅は歩いて行き来できる距離のため、表のとおり両駅から歩ける店もあります。</p><p className="text-warm-500 leading-relaxed mt-3 text-xs">確認した公式ページ（2026年10月25日）: the SILK赤坂見附店（情報引用元: <a href="https://the-silk.co.jp/studios/tokyo/akasakamitsuke/" target="_blank" rel="noopener" className="underline">the SILK公式サイト</a>）／<a href="https://www.zenplace.co.jp/studios/pilates-akasaka" target="_blank" rel="noopener" className="underline">zen place pilates 赤坂</a>／<a href="https://www.noapilates.jp/studio/akasaka/" target="_blank" rel="noopener" className="underline">PILATES STUDIO noa 赤坂</a>／<a href="https://b-m-p.jp/studio/studios/akasaka/" target="_blank" rel="noopener" className="underline">Studio-BMP 赤坂店</a>（料金は<a href="https://b-m-p.jp/studio/menu/" target="_blank" rel="noopener" className="underline">メニュー＆料金</a>）／<a href="https://www.pilates-ivy.jp/studio/akasaka" target="_blank" rel="noopener" className="underline">STUDIO IVY 赤坂店</a>／<a href="https://www.pilates-ivy.jp/studio/akasakaannex" target="_blank" rel="noopener" className="underline">STUDIO IVY 赤坂ANNEX店</a></p></div></section>
+
         <PriceComparisonTable studios={studios} areaName="赤坂" />
         <AreaMarketComparison studios={studios} areaName="赤坂" />
 
@@ -368,7 +377,7 @@ export default function AkasakaPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">6,600円〜15,400円</td>
+                    <td className="px-4 py-3">6,600円〜15,400円（noaは別途手数料あり）</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -493,7 +502,7 @@ export default function AkasakaPage() {
                   赤坂駅・赤坂見附駅から徒歩3分以内です。仕事帰りにサクッと通えます。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• PILATES STUDIO noa（赤坂駅 徒歩0分）</li>
+                  <li className="text-warm-700">• PILATES STUDIO noa（赤坂駅1番出口 徒歩30秒）</li>
                   <li className="text-warm-700">• the SILK（赤坂見附駅 徒歩30秒）</li>
                   <li className="text-warm-700">• Studio-BMP（赤坂駅 徒歩2分）</li>
                 </ul>
@@ -552,7 +561,7 @@ export default function AkasakaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• the SILK（13,280円〜）</li>
-                  <li>• Studio-BMP グループ（15,400円〜）</li>
+                  <li>• zen place リフォーマーグループ（15,400円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -601,7 +610,7 @@ export default function AkasakaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。the SILKは無料体験、PILATES STUDIO noaは550円と格安で体験できます。スタジオの雰囲気やインストラクターとの相性は実際に行ってみないとわかりません。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。the SILKは無料体験、zen placeはマットグループ体験が1,000円（今だけの体験価格）です。スタジオの雰囲気やインストラクターとの相性は実際に行ってみないとわかりません。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -610,7 +619,7 @@ export default function AkasakaPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  通いにくい場所にあるスタジオは、継続が難しくなります。赤坂エリアは東京メトロ千代田線「赤坂駅」、銀座線・丸ノ内線「赤坂見附駅」、銀座線・南北線「溜池山王駅」の3駅が利用可能です。PILATES STUDIO noaは赤坂駅徒歩0分、the SILKは赤坂見附駅徒歩30秒と駅近スタジオが充実しています。
+                  通いにくい場所にあるスタジオは、継続が難しくなります。赤坂エリアは東京メトロ千代田線「赤坂駅」、銀座線・丸ノ内線「赤坂見附駅」、銀座線・南北線「溜池山王駅」の3駅が利用可能です。PILATES STUDIO noaは赤坂駅1番出口から徒歩30秒、the SILKは赤坂見附駅から徒歩30秒と駅近スタジオが充実しています。
                 </p>
               </div>
             </div>
@@ -671,7 +680,7 @@ export default function AkasakaPage() {
               体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜550円です。<br />
+              体験レッスンは0円〜6,600円です（2026年10月25日に各公式ページで確認）。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link

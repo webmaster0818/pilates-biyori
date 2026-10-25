@@ -12,25 +12,27 @@ import { AreaModifierSections } from '@/components/AreaModifierSections'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import ConsultantSection from '@/components/ConsultantSection'
+import { STUDIO_REVIEWS } from '@/data/studio-reviews'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/himeji/' },
-  title: '姫路のピラティス｜初心者可・無料体験で選ぶ料金比較',
-  description: '姫路エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
+  title: '姫路のピラティス料金比較｜ゆめタウン姫路のピラティスKの料金も',
+  description: '姫路エリアのピラティススタジオを料金・無料体験・マシン対応で比較。ゆめタウン姫路6Fのピラティス K の料金（月4回11,220円・初期費用13,530円・体験0円）も公式で確認して掲載しています。',
   keywords: 'ピラティス,姫路,兵庫県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
 const studios = [
   {
-    name: 'ピラティスK ゆめタウン姫路店', image: '/images/studios/pilates-k.webp', rating: 4.6, reviewCount: 130,
+    name: 'ピラティスK ゆめタウン姫路店', image: '/images/studios/pilates-k.webp', rating: 4.7, reviewCount: 54, // 2026-10-25: 出典不明の 4.6(130) を Googleマップの値（data/studio-reviews.ts・2026-08-17取得）に統一
     officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
-    price: '月4回 11,220円〜', trial: '体験レッスン 無料', features: ['女性専用','ゆめタウン姫路内','マシン専門','体験無料'],
+    // 2026-10-25 公式店舗ページ https://pilates-k.jp/studio/hyogo/himeji で照合（旧: JR英賀保駅徒歩圏内・住所未詳・不定休・女性80%/男性20% → 公式値に修正）
+    price: '月4回 11,220円〜', trial: '体験レッスン 0円', features: ['女性専用','ゆめタウン姫路内','マシン専門','体験無料'],
     description: '女性専用マシンピラティス専門スタジオです。ゆめタウン姫路内に位置し買い物ついでに通えます。音楽に合わせた楽しいレッスンが特徴',
-    access: 'JR「英賀保駅」徒歩圏内（ゆめタウン姫路内）', address: '兵庫県姫路市 ゆめタウン姫路内',
-    popularPlan: { name: '人気プラン', description: '女性専用マシンピラティス専門スタジオです。ゆめタウン姫路内に位置し買い物つ', price: '月4回 11,220円〜' },
+    access: 'バス「北今宿南口（ゆめタウン前）」停留所 徒歩1分（ゆめタウン姫路6F・駐車場あり）', address: '〒670-0055 兵庫県姫路市神子岡前3丁目12-17 ゆめタウン姫路店6F',
+    popularPlan: { name: 'マンスリー4メンバー', description: '月4回、平日・土日祝のお好きな時間で受講できます（別途施設維持費 月825円）。', price: '月4回 11,220円（税込）' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
+    userProfile: { ageRange: '公式サイトに記載なし', genderRatio: '女性専用', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    basicInfo: { hours: '火・金 10:00-15:00／17:30-22:00、水 10:00-14:00／17:30-22:00、木 17:30-22:00、土・祝 10:00-18:30、日 10:00-17:30', closed: '月曜日', facilities: ['リフォーマー'] },
   },
   {
     name: 'luluto（ルルト）姫路店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808', image: '/images/studios/luluto.webp', rating: 4.8, reviewCount: 22,
@@ -99,7 +101,7 @@ export default function HimejiPage() {
         { name: '姫路', url: 'https://biyori-pilates.com/area/himeji/' },
       ]} />
       <main className="pt-20 bg-white">
-        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">ピラティス姫路おすすめ5選<br className="hidden md:block" />料金・体験レッスン・マシン対応を比較</h1></div></section>
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年10月25日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">ピラティス姫路おすすめ5選<br className="hidden md:block" />料金・体験レッスン・マシン対応を比較</h1></div></section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">姫路</span></nav></div></section>
         <AreaConclusion studios={studios} areaName="姫路" />
 
@@ -108,6 +110,28 @@ export default function HimejiPage() {
         <PriceComparisonTable studios={studios} areaName="姫路" />
         <AreaMarketComparison studios={studios} areaName="姫路" />
         <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">姫路のおすすめピラティススタジオ5選</h2><div className="space-y-8">{[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
+        {/* 2026-10-25: 「ゆめタウン ピラティス 料金」10.6位の受け皿。値は公式店舗ページ（2026-10-25確認）と data/studio-reviews.ts の Google 要約のみ */}
+        <section className="py-16 bg-white" id="yumetown-price"><div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">ゆめタウン姫路のピラティス料金（ピラティス K ゆめタウン姫路店）</h2>
+          <p className="text-warm-600 leading-relaxed mb-6 text-sm">ゆめタウン姫路の6Fには、女性専用のマシンピラティススタジオ「ピラティス K ゆめタウン姫路店」があります。バス「北今宿南口（ゆめタウン前）」停留所から徒歩1分で、駐車場があります。料金・営業時間・定休日は<a href="https://pilates-k.jp/studio/hyogo/himeji" target="_blank" rel="noopener noreferrer" className="underline hover:text-warm-800">公式の店舗ページ</a>の表記です（2026年10月25日確認・税込）。</p>
+          <div className="overflow-x-auto mb-4"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">プラン・費用</th><th className="px-4 py-3 text-left">料金（税込）</th></tr></thead><tbody>
+            <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">0円（上下ウェアのレンタル込み。靴下の着用が必須）</td></tr>
+            <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">マンスリー4メンバー（月4回）</td><td className="px-4 py-3">月11,220円</td></tr>
+            <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">マンスリー8メンバー（月8回）</td><td className="px-4 py-3">月15,070円</td></tr>
+            <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">マンスリープレミアムメンバー（毎日2レッスンまで）</td><td className="px-4 py-3">月17,820円（2026年9月1日から全国の loIve を月6回まで利用可）</td></tr>
+            <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">施設維持費（マンスリー共通）</td><td className="px-4 py-3">月825円</td></tr>
+            <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">追加受講／チケット（1回）</td><td className="px-4 py-3">追加受講 2,200円／チケットプラン 3,850円</td></tr>
+            <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">初期費用（入会時）</td><td className="px-4 py-3">13,530円（入会金5,500円・登録料5,500円・施設利用料2,530円）</td></tr>
+          </tbody></table></div>
+          <p className="text-warm-600 text-sm leading-relaxed mb-2">月4回で通う場合の月々の支払いは、月会費11,220円＋施設維持費825円で12,045円です。マンスリーデイメンバー（平日10〜15時）は2026年5月1日以降、新規受付を行っていません。体験レッスン当日に入会するとキャンペーン料金などで入会できる場合がある、と公式の案内にあります（内容は店舗でご確認ください）。</p>
+          <p className="text-warm-600 text-sm leading-relaxed mb-6">営業時間：火・金 10:00-15:00／17:30-22:00、水 10:00-14:00／17:30-22:00、木 17:30-22:00、土・祝 10:00-18:30、日 10:00-17:30。定休日は月曜日です。支払いはクレジットカード・電子マネー・QRコード決済のみ（現金不可）です。</p>
+          {(() => { const rev = STUDIO_REVIEWS['ピラティスK ゆめタウン姫路店']; if (!rev) return null; return (
+            <div className="bg-warm-50 border border-warm-200 rounded-lg p-4">
+              <p className="text-sm font-bold text-warm-800">Googleマップの口コミ（要約）：★{rev.rating}（{rev.userRatings}件）</p>
+              <p className="text-sm text-warm-700 mt-2 leading-relaxed">{rev.summary}</p>
+              <p className="text-[11px] text-warm-500 mt-2">Googleマップに投稿された口コミをもとに、編集部が要約したものです（{rev.fetchedAt}時点）。口コミ本文は転載していません。 <a href={rev.mapsUri} target="_blank" rel="noopener noreferrer" className="underline hover:text-warm-700">出典：Googleマップの口コミを見る</a></p>
+            </div>) })()}
+        </div></section>
         <section className="py-16 bg-white" id="kodawari"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">目的別おすすめスタジオ</h2><div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>

@@ -16,8 +16,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/toranomon/' },
-  title: '虎ノ門のピラティススタジオおすすめ5選｜無料体験・料金で比較',
-  description: '虎ノ門のピラティススタジオ5社の料金・無料体験・マシン対応を比較しています。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまでわかります。',
+  title: '虎ノ門のピラティスおすすめ5選｜溜池山王駅近・体験料金で比較',
+  description: '虎ノ門でピラティスを探す方向けに、溜池山王・赤坂・銀座・新橋の5店を虎ノ門駅からの行き方、体験料金、営業時間・定休日の早見表で比較。値は各公式サイトで2026年10月25日に確認しました。',
   keywords: 'ピラティス,虎ノ門,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,溜池山王,霞ヶ関',
 }
 
@@ -25,21 +25,21 @@ const studios = [
   {
     name: 'Studio-BMP 虎ノ門店',
     image: '/images/studios/studio-bmp-akasaka.webp',
-    price: 'チケット制（公式サイトで確認）',
-    trial: '体験レッスンあり',
-    features: ['溜池山王駅徒歩1分', '国家資格者監修', '完全個室', 'グループあり'],
-    description: 'ボディメイク×ピラティスのオリジナルメソッドが特徴のスタジオです。溜池山王駅9番出口から徒歩1分、虎ノ門駅から徒歩5分です。理学療法士や柔道整復師などの国家資格を持つ専門家が監修したプログラムです。完全個室でのパーソナルレッスンとグループレッスンを提供しています。',
-    access: '銀座線・南北線「溜池山王駅」9番出口 徒歩1分 / 銀座線「虎ノ門駅」徒歩5分 / 丸ノ内線・千代田線「国会議事堂前駅」徒歩5分',
+    price: '回数券 50分5回 55,000円〜（税込）',
+    trial: '体験レッスン 6,600円（50分・初回限定）',
+    features: ['溜池山王駅徒歩1分', '国家資格者監修', '完全個室', 'マンツーマン'],
+    description: 'ボディメイク×ピラティスのオリジナルメソッドが特徴のスタジオです。溜池山王駅9番出口から徒歩1分、虎ノ門駅から徒歩5分です。理学療法士や柔道整復師などの国家資格を持つ専門家が監修したプログラムです。公式サイトでは完全プライベートのマンツーマン指導と案内されています（2026年10月25日確認）。',
+    access: '銀座線・南北線「溜池山王駅」9番出口 徒歩1分（公式表記。虎ノ門駅からは銀座線で隣の溜池山王駅）',
     address: '東京都港区赤坂1丁目3-18 DG22ビル5F',
     popularPlan: {
       name: 'パーソナルレッスン',
       description: '完全個室でのマンツーマンレッスンです。国家資格保持者監修プログラムです。',
-      price: 'チケット制（公式サイトでご確認ください）',
+      price: '回数券 50分5回 55,000円（税込・有効期限2ヶ月）',
     },
     options: [
-      'パーソナルレッスン（チケット制）',
-      'グループレッスン',
-      'マットピラティス',
+      '回数券 50分5回 55,000円 / 50分10回 110,000円（税込）',
+      '体験レッスン 50分 6,600円 / 80分 9,900円（初回限定）',
+      '入会金 11,000円（初回来店当日・条件付きで半額）',
       'マシンピラティス',
     ],
     userProfile: {
@@ -48,29 +48,29 @@ const studios = [
       purpose: ['ボディメイク', '姿勢改善', '美容矯正', '体幹強化'],
     },
     basicInfo: {
-      hours: '月〜金 10:00-21:00 / 土日祝 10:00-18:00',
-      closed: '不定休',
+      hours: '火〜金 10:00-21:00 / 土日祝 10:00-18:00',
+      closed: '月曜日',
       facilities: ['リフォーマー', 'マット', '完全個室', '更衣室', 'ロッカー'],
     },
   },
   {
     name: 'Lume Pilates 赤坂',
     image: '/images/studios/lume-akasaka.webp',
-    price: '体験 4,750円〜',
-    trial: '体験レッスン 4,750円',
-    features: ['赤坂駅徒歩30秒', '少人数制', 'タワーリフォーマー', '夜22時まで'],
-    description: '赤坂に誕生した少人数制のピラティススタジオです。赤坂駅から徒歩30秒、溜池山王駅から徒歩6分です。タワーリフォーマー、チェア、キャデラック、ラダーバレルなど高品質マシンを完備しています。経験豊富なインストラクターによるパーソナルレッスンが充実しています。',
-    access: '千代田線「赤坂駅」徒歩30秒 / 銀座線・南北線「溜池山王駅」徒歩6分 / 南北線「六本木一丁目駅」徒歩15分',
+    price: 'グループ月2回 13,000円〜 / パーソナル1回 14,000円（税込）',
+    trial: '体験レッスンあり（料金は公式に記載なし・申込フォームから）',
+    features: ['赤坂駅徒歩30秒', 'グループ最大4名', 'タワーリフォーマー', '夜22時まで'],
+    description: '赤坂に誕生した少人数制のピラティススタジオです。赤坂駅から徒歩30秒、溜池山王駅から徒歩6分です。タワーリフォーマー、チェア、キャデラック、ラダーバレルなど高品質マシンを完備しています。公式サイトでは、パーソナル（1対1）・デュオ・トリオは男性も利用可、最大4名のグループレッスンは女性限定と案内されています（2026年10月25日確認）。',
+    access: '千代田線「赤坂駅」徒歩30秒 / 「赤坂見附駅」徒歩5分 / 銀座線・南北線「溜池山王駅」徒歩6分 / 南北線「六本木一丁目駅」徒歩15分',
     address: '東京都港区赤坂3-13-3 赤坂セントラルビル3F',
     popularPlan: {
       name: 'パーソナルレッスン',
-      description: '多彩なマシンを使ったマンツーマンレッスンです。目的に合わせた指導しています。',
-      price: '公式サイトでご確認ください',
+      description: '多彩なマシンを使った50分のマンツーマンレッスンです。男性も利用できます。',
+      price: '月4回 48,000円 / 1回券 14,000円（税込）',
     },
     options: [
-      'パーソナルレッスン',
-      'セミパーソナルレッスン',
-      '体験レッスン 4,750円〜',
+      'グループ（最大4名・女性限定）月2回 13,000円 / 月4回 24,000円 / 通い放題 44,000円',
+      'パーソナル 月2回 25,000円〜',
+      'デュオ（2:1）1回 16,000円 / トリオ（3:1）1回 21,000円',
       'イベントレッスン',
     ],
     userProfile: {
@@ -80,7 +80,7 @@ const studios = [
     },
     basicInfo: {
       hours: '平日 9:00-22:00 / 土日祝 10:00-18:00',
-      closed: '不定休',
+      closed: '公式に記載なし',
       facilities: ['タワーリフォーマー', 'キャデラック', 'チェア', 'ラダーバレル', '更衣室'],
     },
   },
@@ -89,20 +89,20 @@ const studios = [
     officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
     price: '月4回 13,420円',
-    trial: '体験レッスン 2,000円',
-    features: ['女性専用', '銀座駅徒歩5分', '部位別プログラム', 'マシン専門'],
-    description: '女性専用マシンピラティス専門スタジオです。銀座駅A9番出口から徒歩5分、有楽町線銀座一丁目駅5番出口すぐです。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実しています。虎ノ門エリアからも銀座線で好アクセスです。',
-    access: '銀座線・丸ノ内線・日比谷線「銀座駅」A9番出口 徒歩5分 / 有楽町線「銀座一丁目駅」5番出口すぐ',
+    trial: '体験レッスン 0円',
+    features: ['女性専用', '銀座一丁目駅徒歩1分', '部位別プログラム', 'マシン専門'],
+    description: '女性専用マシンピラティス専門スタジオです。有楽町線銀座一丁目駅6番出口から徒歩1分、銀座駅A13出口から徒歩4分です（公式店舗ページ・2026年10月25日確認）。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実しています。虎ノ門エリアからも銀座線で好アクセスです。',
+    access: '有楽町線「銀座一丁目駅」6番出口 徒歩1分 / 銀座線「銀座駅」A13出口 徒歩4分 / 丸ノ内線「銀座駅」C8出口 徒歩5分 / JR「有楽町駅」京橋口 徒歩6分',
     address: '東京都中央区銀座1丁目6-10 上一ビルディング7F',
     popularPlan: {
       name: 'マンスリー4メンバー（月4回）',
       description: '女性専用マシンピラティス月4回です。部位別プログラムも選べます。',
-      price: '月4回 13,420円（税込）',
+      price: '月4回 13,420円（税込・別途施設利用料 月825円）',
     },
     options: [
       'マンスリー4メンバー（13,420円）',
       'マンスリー8メンバー（月8回 16,170円）',
-      'マンスリーデイメンバー（14,520円）',
+      'マンスリープレミアム（1日2回まで 18,920円）',
       '追加受講（1回 2,200円）',
     ],
     userProfile: {
@@ -112,7 +112,7 @@ const studios = [
     },
     basicInfo: {
       hours: '月〜金 9:30-16:00,17:30-22:00 / 土日祝 9:30-20:00',
-      closed: '不定休',
+      closed: '毎月第1月曜日',
       facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'パウダールーム'],
     },
   },
@@ -120,11 +120,11 @@ const studios = [
     name: 'the SILK 銀座店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: '月3回 13,280円〜（別途施設利用料 月700円・税込）',
-    trial: '体験レッスン 無料',
+    price: '月3回 13,280円〜（税込）',
+    trial: '体験レッスン 無料（50分）',
     features: ['女性専用', '銀座駅徒歩2分', '手ぶらで体験可能', '初心者8割'],
-    description: '女性専用マシンピラティススタジオです。銀座駅B5番出口から徒歩2分です。音楽のリズムに合わせた独自のレッスンスタイルで初心者でも楽しく続けられます。手ぶらで体験可能です。虎ノ門エリアからも銀座線で好アクセスです。',
-    access: '銀座線・丸ノ内線・日比谷線「銀座駅」B5番出口 徒歩2分',
+    description: '公式サイトでは女性専用のマシンピラティススタジオと案内されており、東京メトロ銀座駅から徒歩2分、都営浅草線東銀座駅から徒歩3分とされています。50分のグループ体験は0円で、手ぶらで体験できるキャンペーンがあるとされています。虎ノ門駅からは銀座線で2駅です（情報引用元: the SILK公式サイト https://the-silk.co.jp/studios/tokyo/ginza/ ・2026年10月25日確認）。',
+    access: '東京メトロ「銀座駅」徒歩2分 / 都営浅草線「東銀座駅」徒歩3分 / JR「新橋駅」徒歩10分',
     address: '東京都中央区銀座5-9-12 ダイヤモンドビル3F',
     popularPlan: {
       name: 'Standard4（月4回）',
@@ -143,30 +143,30 @@ const studios = [
       purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'リフレッシュ'],
     },
     basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '年末年始',
+      hours: '7:30〜21:00',
+      closed: '年末年始（12/29〜1/3）',
       facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'パウダールーム', 'ウォーターサーバー'],
     },
   },
   {
     name: 'CREA Pilates 新橋/銀座店',
     image: '/images/studios/crea-pilates-shimbashi.webp',
-    price: 'パーソナル 1回 12,100円〜',
+    price: '月2回 22,000円〜（税込・60分）',
     trial: '体験レッスン 3,300円（90分）',
     features: ['女性専用', '新橋駅徒歩4分', '完全個室', 'ペアトレあり'],
-    description: '女性専用のパーソナルマシンピラティス専門スタジオです。新橋駅から徒歩4分、銀座駅から徒歩6分です。完全個室でのオーダーメイドプログラムです。虎ノ門エリアからも新橋経由で好アクセスです。ペアトレーニングも人気です。',
-    access: 'JR・銀座線「新橋駅」徒歩4分 / 銀座線「銀座駅」徒歩6分 / 日比谷線「内幸町駅」徒歩5分',
+    description: '女性専用のパーソナルマシンピラティス専門スタジオです。新橋駅から徒歩4分、銀座駅から徒歩6分、有楽町駅から徒歩8分です。完全個室でのオーダーメイドプログラムです。虎ノ門エリアからも新橋経由で好アクセスです。ペアトレーニングも人気です。',
+    access: '「新橋駅」徒歩4分 / 「銀座駅」徒歩6分 / 「有楽町駅」徒歩8分',
     address: '東京都中央区銀座7丁目2番14号 第26ポールスタービル地下1階A室',
     popularPlan: {
       name: 'パーソナルレッスン',
       description: '完全個室でのマンツーマンマシンピラティスです。オーダーメイドプログラムです。',
-      price: '1回 12,100円（税込）',
+      price: '月4回 38,500円（税込・60分）',
     },
     options: [
-      'パーソナルレッスン（1回 12,100円〜）',
-      'ペアトレーニング（実質半額）',
+      '月額 月2回 22,000円 / 月4回 38,500円 / 月8回 70,400円（税込）',
+      'ペアトレーニングあり',
       '体験レッスン 3,300円（90分）',
-      '回数券プランあり',
+      'チケット 8回 87,120円〜（税込・別途施設利用料3,300円）',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
@@ -184,7 +184,7 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '問題ありません。虎ノ門エリアのスタジオはほとんどが初心者歓迎です。the SILKは体験者の約8割がピラティス未経験者です。ピラティスKも初心者向けクラスが充実しています。',
+    answer: '問題ありません。虎ノ門エリアのスタジオはほとんどが初心者歓迎です。the SILKは体験者の約8割がピラティス未経験者です。ピラティスKは体験0円で試せます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
@@ -192,7 +192,7 @@ const faqs = [
   },
   {
     question: '虎ノ門のピラティスの料金相場は？',
-    answer: 'グループ月4回で11,220円〜15,070円程度です。ピラティスKは月4回13,420円です。the SILKは月3回13,280円〜です。パーソナルは1回12,100円〜が相場です。',
+    answer: '掲載店のグループ月4回は13,420円（ピラティスK 銀座店）〜15,280円（the SILK 銀座店）です。Lume Pilatesのグループ（最大4名）は月4回24,000円です。パーソナルはLume Pilatesの1回券14,000円、CREA Pilatesの月2回22,000円などです（いずれも税込・2026年10月25日公式確認）。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -204,7 +204,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があれば問題ありません。the SILKは手ぶらで体験可能です（ウェア・タオル無料貸出）。ピラティスKは体験2,000円です。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。the SILKは手ぶらで体験可能です（ウェア・タオル無料貸出）。ピラティスKは体験0円です。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
@@ -212,11 +212,11 @@ const faqs = [
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'Studio-BMP虎ノ門とLume Pilates赤坂は男性も通えます。ピラティスK銀座、the SILK銀座、CREA Pilates新橋は女性専用です。',
+    answer: 'Lume Pilates赤坂はパーソナル・デュオ・トリオなら男性も利用できます（グループは女性限定）。Studio-BMP虎ノ門店は公式サイトに性別の記載がないため、予約前にお問い合わせください。ピラティスK銀座、the SILK銀座、CREA Pilates新橋/銀座店は女性専用です。',
   },
   {
     question: '無料で体験できるスタジオは？',
-    answer: 'the SILK銀座店は無料体験キャンペーンがあります。ピラティスKは体験2,000円です。CREA Pilatesは体験3,300円です。',
+    answer: 'the SILK銀座店（50分・0円）とピラティスK銀座店（0円）は無料で体験できます。CREA Pilatesは3,300円（90分）、Studio-BMPは6,600円（50分）です（2026年10月25日公式確認）。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -239,10 +239,10 @@ export default function ToranomonPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月25日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス虎ノ門おすすめ5選<br className="hidden md:block" />
-              人気スタジオの料金プランの比較
+              虎ノ門のピラティスおすすめ5選<br className="hidden md:block" />
+              虎ノ門駅からの行き方・体験料金で比較
             </h1>
           </div>
         </section>
@@ -301,6 +301,14 @@ export default function ToranomonPage() {
           </div>
         </section>
 
+        <section className="py-12 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">虎ノ門駅からの行き方・体験料金・営業時間の早見表</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">虎ノ門駅（銀座線）から近い順に並べました。当サイトの掲載店は虎ノ門駅の徒歩圏ではなく、銀座線で1駅の溜池山王・新橋か、2駅の銀座にあります。住所・徒歩分・体験料金・営業時間・定休日は各スタジオの公式ページの表記です（2026年10月25日確認・税込表記は公式どおり）。駅からの経路（銀座線の駅数）は当サイトの案内です。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">虎ノ門駅から</th><th className="px-4 py-3 text-left">ほかの最寄駅</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">営業時間</th><th className="px-4 py-3 text-left">定休日</th></tr></thead><tbody>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Studio-BMP 虎ノ門店（港区赤坂1-3-18 DG22ビル5F）</td><td className="px-4 py-3">銀座線で1駅→溜池山王駅9番出口 徒歩1分</td><td className="px-4 py-3">—</td><td className="px-4 py-3">完全プライベート（マンツーマン）</td><td className="px-4 py-3">6,600円（50分・初回限定）</td><td className="px-4 py-3">火〜金 10:00〜21:00・土日祝 10:00〜18:00</td><td className="px-4 py-3">月曜日</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Lume Pilates 赤坂（港区赤坂3-13-3 赤坂セントラルビル3F）</td><td className="px-4 py-3">銀座線で1駅→溜池山王駅 徒歩6分</td><td className="px-4 py-3">赤坂駅 徒歩30秒・赤坂見附駅 徒歩5分</td><td className="px-4 py-3">パーソナル（男性可）・最大4名のグループ（女性限定）</td><td className="px-4 py-3">公式に料金記載なし（申込フォームあり）</td><td className="px-4 py-3">平日 9:00〜22:00・土日祝 10:00〜18:00</td><td className="px-4 py-3">公式に記載なし</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">CREA Pilates 新橋/銀座店（中央区銀座7-2-14 第26ポールスタービル地下1階A室）</td><td className="px-4 py-3">銀座線で1駅→新橋駅 徒歩4分</td><td className="px-4 py-3">銀座駅 徒歩6分・有楽町駅 徒歩8分</td><td className="px-4 py-3">完全個室のパーソナル（女性専用）</td><td className="px-4 py-3">3,300円（90分・初めての方限定）</td><td className="px-4 py-3">8:00〜20:00</td><td className="px-4 py-3">不定休</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">the SILK 銀座店（中央区銀座5-9-12 ダイヤモンドビル3階）</td><td className="px-4 py-3">銀座線で2駅→銀座駅 徒歩2分</td><td className="px-4 py-3">東銀座駅 徒歩3分・新橋駅 徒歩10分</td><td className="px-4 py-3">マシンのグループ（女性専用）</td><td className="px-4 py-3">0円（50分）</td><td className="px-4 py-3">7:30〜21:00</td><td className="px-4 py-3">年末年始（12/29〜1/3）</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ピラティスK 銀座店（中央区銀座1-6-10 上一ビルディング7F）</td><td className="px-4 py-3">銀座線で2駅→銀座駅A13出口 徒歩4分</td><td className="px-4 py-3">銀座一丁目駅6番出口 徒歩1分・有楽町駅京橋口 徒歩6分</td><td className="px-4 py-3">マシンのグループ（女性専用）</td><td className="px-4 py-3">0円</td><td className="px-4 py-3">月〜金 9:30〜16:00／17:30〜22:00・土日祝 9:30〜20:00</td><td className="px-4 py-3">毎月第1月曜日</td></tr>
+        </tbody></table></div><p className="text-warm-500 text-xs mt-4 leading-relaxed">確認した公式ページ: Studio-BMP（b-m-p.jp/studio/studios/toranomon/・体験は b-m-p.jp/studio/trial/）、Lume Pilates（lume-pilates.com）、CREA Pilates（crea.blue/store-crea001/・料金は crea.blue/plan/）、the SILK（情報引用元: <a href="https://the-silk.co.jp/studios/tokyo/ginza/" className="underline" target="_blank" rel="noopener noreferrer">the SILK公式サイト 銀座店</a>）、ピラティスK（pilates-k.jp/studio/tokyo/ginza）。Studio-BMP 虎ノ門店は店名に「虎ノ門」とありますが、公式の住所は港区赤坂1丁目・最寄りは溜池山王駅です。男女の利用可否はStudio-BMPの公式ページに記載がありません。キャンペーン・料金は変更されることがあるため、予約前に公式サイトをご確認ください。</p></div></section>
+
         <PriceComparisonTable studios={studios} areaName="虎ノ門" />
         <AreaMarketComparison studios={studios} areaName="虎ノ門" />
 
@@ -336,15 +344,15 @@ export default function ToranomonPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">11,220円〜15,070円</td>
+                    <td className="px-4 py-3">13,420円〜15,280円（グループ最大4名のLumeは24,000円）</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回 4,750円〜12,100円</td>
+                    <td className="px-4 py-3">1回 11,000円〜14,000円（回数券・1回券換算）</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">無料〜4,750円</td>
+                    <td className="px-4 py-3">無料〜6,600円</td>
                   </tr>
                 </tbody>
               </table>
@@ -463,7 +471,7 @@ export default function ToranomonPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Lume Pilates 赤坂（千代田線「赤坂駅」徒歩30秒）</li>
                   <li className="text-warm-700">• Studio-BMP 虎ノ門店（銀座線・南北線「溜池山王駅」9番出口 徒歩1分）</li>
-                  <li className="text-warm-700">• the SILK 銀座店（銀座線・丸ノ内線・日比谷線「銀座駅」B5番出口 徒歩2分）</li>
+                  <li className="text-warm-700">• the SILK 銀座店（東京メトロ「銀座駅」徒歩2分）</li>
                 </ul>
               </div>
             </div>
@@ -558,7 +566,7 @@ export default function ToranomonPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  虎ノ門の掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は13,420円〜15,280円（ピラティスK 銀座店・the SILK 銀座店・2026年10月確認）です。入会金やキャンペーンもご確認ください。
+                  虎ノ門の掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は13,420円〜15,280円（ピラティスK 銀座店・the SILK 銀座店・2026年10月25日確認）です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -567,7 +575,7 @@ export default function ToranomonPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  体験料金は、Lume Pilates 赤坂が「体験レッスン 4,750円」、ピラティスK 銀座店が「体験レッスン 2,000円」、the SILK 銀座店が「体験レッスン 無料」、CREA Pilates 新橋/銀座店が「体験レッスン 3,300円（90分）」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
+                  体験料金は、ピラティスK 銀座店が0円、the SILK 銀座店が0円（50分）、CREA Pilates 新橋/銀座店が3,300円（90分）、Studio-BMP 虎ノ門店が6,600円（50分）です。Lume Pilates 赤坂は公式サイトに体験料金の記載がありません（2026年10月25日確認）。最新の条件は各公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -576,7 +584,7 @@ export default function ToranomonPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  虎ノ門の掲載スタジオでは、Lume Pilates 赤坂（千代田線「赤坂駅」徒歩30秒）、Studio-BMP 虎ノ門店（銀座線・南北線「溜池山王駅」9番出口 徒歩1分）、the SILK 銀座店（銀座線・丸ノ内線・日比谷線「銀座駅」B5番出口 徒歩2分）が駅から近いスタジオです。通う時間帯の経路もご確認ください。
+                  虎ノ門の掲載スタジオでは、Lume Pilates 赤坂（千代田線「赤坂駅」徒歩30秒）、Studio-BMP 虎ノ門店（銀座線・南北線「溜池山王駅」9番出口 徒歩1分）、the SILK 銀座店（東京メトロ「銀座駅」徒歩2分）が駅から近いスタジオです。通う時間帯の経路もご確認ください。
                 </p>
               </div>
             </div>
