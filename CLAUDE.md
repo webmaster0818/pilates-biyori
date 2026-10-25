@@ -1144,3 +1144,10 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - aggregate-brands-202607.py 再実行（10/24 分の未反映も一緒に入った）
 - 件数（本番 curl ?cb=）: 旧値 zen 5頁→0・ルルト 3頁→0・Rintosull 1頁→0。計測リンク 3,803件・260種（deploy 前後・本番で一致）。precheck ✅ 589頁。CF Pages は push から反映まで約20分かかった（check-run で完了確認）
 - 未確認・未変更: BDC 表参道 3,850円（公式は campaign_common_img1a・「体験・入会は現在締め切っています」の文言あり＝要確認）／Beat Pilates 日本橋 1,500円／ルルト横浜の住所・徒歩分（公式は「横浜駅西口から徒歩8分」、カードは徒歩5分）
+
+### 2026-10-25 12:00 成長ルーチン: GSC 10〜20位 16項目（既存ページ強化のみ）✅本番（source 2d32ccd1 / deploy 1cbba944c7）
+- 店舗/ブランド: pilates-mee（公式151店＝Mee127+Life24・女性専用・3人制は全国相互利用・Life全プラン・FAQ）／bdc-futakotamagawa（月4回15,400→公式 月3回12,375〜・月4回16,280、体験3,850→通常4,070・10/31まで1,100、男性可・シャワー無し）／rintosull-katsura・honatsugi（priceList・定休・店舗見出しの下の「口コミ」各4件＋掲載日・reviewTrend。⚠️ nameAlias「リントスル」は brand 名と重複して h1 が「（リントスル）（リントスル）」になる→付けない）／the SILK 銀座一丁目・浦和（徒歩約2分→4分）・吉祥寺（周辺→徒歩5分）
+- エリア `#by-station` 10頁: akasaka・tokyo-station・toranomon・tsukiji・gakugei-daigaku・yoga-komazawa・hachioji・isehara・ochanomizu・kyoto-station（各店公式 10/25）。itami `#rintosull-aeon-itami`・kumamoto `#rintosull-yumetown`（熊本の Rintosull はサンピアン店のみ）・himeji `#yumetown-price`（ゆめタウン姫路は ピラティスK。Rintosull は無い）
+- 記事: online-vs-studio-pilates に「1回あたりで比べる」（安い意図・個別比較は pilates-online へ）／online-pilates-koka は導線整理のみ／pilates-hundred-method に呼吸カウント・修正版・FAQ、断言を削除
+- 判断待ち: 築地 Pilasuru 東銀座・Star Pilates 築地（公式で実在確認できず）／虎ノ門5店とも虎ノ門駅徒歩圏外／東京駅 excel日本橋（馬喰町）・ルルト（体験停止）／八王子 IVY 体験停止／伊勢原 公式でマシン確認できる店0／駒沢 yoga-komazawa・komazawa-daigaku・komazawa の3頁食い合い／京都駅 IVY Ⅱ店未掲載／BDC 二子玉川 rating 4.7 vs Google 4.6
+- 計測リンク source 1,949件・138種／out・deploy 3,827件・151種（前後一致）・precheck ✅ 589頁
