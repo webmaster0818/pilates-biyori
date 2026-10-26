@@ -1170,3 +1170,9 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - 店舗: Mee titleKw「口コミ・評判と料金・店舗一覧」・1回あたり表・intro 134→130店舗、BDC 二子玉川 title「BDCピラティス 二子玉川スタジオの料金・体験・口コミ」、the SILK 3店 電話番号・1日1回・浦和の近隣（大宮・所沢）、Rintosull 桂・本厚木 キャンペーン条件・予約2時間前・駐車場なし（本厚木 nearby→伊勢原/海老名/相模大野）
 - 判断待ち: BDC 二子玉川 rating 4.7（Google要約は4.6）／BDC「当サイトでは6店舗」vs bdc-stores 5／BDC 銀座の体験（公式の締切文言とキャンペーン残数表示が併存）／yoga-komazawa・komazawa-daigaku・komazawa の3頁食い合い／未掲載店のカード化／Rintosull 店舗の声の★（JSON-LDの対応づけが曖昧で未掲載）
 - 計測リンク src 1,954/141種・out/deploy 3,827/274種（前後一致）・precheck ✅ 589頁
+
+### 2026-10-26 16:00 遅れ挽回（biyori）
+- 新設: `BrandInfo.quickAnswer`／`quickAnswerSources`（h1直下の「要点（結論）」）＝pilates-k・pilates-mee・the-silk に設定。`components/AreaQuickAnswer.tsx`（エリアh1直下の答えボックス）＝honancho・izumi・denenchofu・aoyama-itchome・shin-osaka
+- 方南町: zen place 10/24 オープン済み表記・price「月額は公式…（体験1,000円〜）」が AreaConclusion の月額最安に1,000円として誤集計されていた→「体験 1,000円〜（月会費は公式サイトで確認）」。⚠️ price 文字列に「月額」を含めると最安集計に拾われる
+- カニバリ: 飯田橋⇔神楽坂（駅基準で役割分け）・伊丹（主）⇔阪急伊丹・日暮里→西日暮里 の冒頭に🔀注記。BDC 3ページは既存の導線で役割分担済み（変更なし）
+- source 67bbf4cd／deploy 946e70653f・precheck ✅ 589頁・計測リンク 3,803→3,803・Indexing 14/14
