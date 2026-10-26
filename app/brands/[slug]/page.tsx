@@ -149,6 +149,31 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
             <p className="text-xs text-warm-500 mb-6">料金・店舗数・規約の公式確認日: {brand.checkedAt}／口コミはGoogleマップの店舗ごとの要約（出典リンク付き）</p>
           )}
 
+          {brand.quickAnswer && brand.quickAnswer.length > 0 && (
+            <section className="bg-white border-l-4 border-warm-700 border-y border-r border-warm-200 p-5 mb-6" aria-label={`${brand.name}の要点`}>
+              <h2 className="text-base font-medium text-warm-900 mb-3">{brand.name}の要点（結論）</h2>
+              <dl className="space-y-2">
+                {brand.quickAnswer.map((x) => (
+                  <div key={x.label} className="grid grid-cols-[4.5rem_1fr] gap-3 text-sm leading-relaxed">
+                    <dt className="font-medium text-warm-800">{x.label}</dt>
+                    <dd className="text-warm-700 font-light">{x.text}</dd>
+                  </div>
+                ))}
+              </dl>
+              {brand.quickAnswerSources && brand.quickAnswerSources.length > 0 && (
+                <p className="text-[11px] text-warm-400 mt-3 leading-relaxed">
+                  出典：
+                  {brand.quickAnswerSources.map((s, i) => (
+                    <span key={s.url}>
+                      {i > 0 && '／'}
+                      <a href={s.url} target="_blank" rel="noopener noreferrer" className="underline decoration-warm-300 hover:text-warm-800">{s.label}</a>
+                    </span>
+                  ))}
+                </p>
+              )}
+            </section>
+          )}
+
           {/* 結論ボックス */}
           <section className="bg-white border border-warm-200 p-6 mb-10">
             <p className="text-xs font-medium text-warm-400 uppercase tracking-[0.15em] mb-3">掲載状況の概要</p>

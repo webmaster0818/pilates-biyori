@@ -8,6 +8,7 @@ import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
 import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { AreaConclusion } from '@/components/AreaConclusion'
+import { AreaQuickAnswer } from '@/components/AreaQuickAnswer'
 import { AreaModifierSections } from '@/components/AreaModifierSections'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
@@ -127,8 +128,14 @@ export default function IzumiPage() {
         { name: '和泉', url: 'https://biyori-pilates.com/area/izumi/' },
       ]} />
       <main className="pt-20 bg-white">
-        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年10月24日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">ピラティス和泉中央駅・和泉府中駅おすすめ8選<br className="hidden md:block" />料金・体験レッスン・マシン対応を比較</h1></div></section>
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年10月26日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">ピラティス和泉中央駅・和泉府中駅おすすめ8選<br className="hidden md:block" />料金・体験レッスン・マシン対応を比較</h1></div></section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">和泉</span></nav></div></section>
+        <AreaQuickAnswer areaName="和泉府中・和泉中央" rows={[
+          { label: '和泉府中', text: 'JR和泉府中駅から歩けるのは2社。Rintosull 和泉府中店（東口徒歩2分・2026年10月1日オープン・女性専用・マシンのグループ）とstudio MUER（徒歩4分・マシンのマンツーマン）です。' },
+          { label: '和泉中央', text: '泉北高速 和泉中央駅では、Rintosull エコール・いずみ店（駅直結）、コナミスポーツクラブ 和泉中央（徒歩4分・マシンピラティス）、STUDIO TOU 大阪和泉中央（マシンのグループ）の3社です。' },
+          { label: '料金', text: 'マシンのグループはRintosull 月4回8,800円（税込・2店とも）、コナミのマシンピラティスは1ヶ月7,780円（税込）。マンツーマンはJoie 月4回26,400円、MUER 月4回28,000円です。' },
+          { label: '体験', text: 'Rintosullは無料体験会、コナミは無料体験を告知中。有料はSTUDIO TOU（グループ3回3,000円）、Joie（マシン4,400円）、MUER（6,000円）です。' },
+        ]} note="和泉府中駅（JR阪和線）と和泉中央駅（泉北高速）は路線も場所も離れています。値は各公式サイトの表記（2026年10月17日〜24日確認）で、詳しくは下の駅別早見表をご覧ください。" />
         <AreaConclusion studios={studios} areaName="和泉" />
 
         <TableOfContents areaName="和泉" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />

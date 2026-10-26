@@ -9,6 +9,7 @@ import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
 import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { AreaConclusion } from '@/components/AreaConclusion'
+import { AreaQuickAnswer } from '@/components/AreaQuickAnswer'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import ConsultantSection from '@/components/ConsultantSection'
@@ -233,7 +234,7 @@ export default function ShinOsakaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月23日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月26日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス新大阪おすすめ5選<br className="hidden md:block" />
               新大阪駅・西中島南方駅からの徒歩分と料金の比較
@@ -253,6 +254,12 @@ export default function ShinOsakaPage() {
             </nav>
           </div>
         </section>
+        <AreaQuickAnswer areaName="新大阪" rows={[
+          { label: '店舗数', text: '新大阪駅・西中島南方駅から歩けるのは3社（ピラティスアヴニール 新大阪駅7番出口 徒歩5分、Pilates Mee 新大阪駅 徒歩7分、IMPROVE 西中島南方駅 徒歩1分）。御堂筋線で4分の江坂駅の2社を合わせて5社を掲載しています。' },
+          { label: '料金', text: 'マシンのグループの最安は江坂のRintosull 月4回8,800円、駅近ではPilates Mee（最大3名）月2回11,000円〜・月4回19,800円、アヴニール（マンツーマン30分）月2回9,900円〜、IMPROVEは都度払い1回3,000円です（税込）。' },
+          { label: '体験', text: 'Pilates Mee・Rintosull 江坂店が0円。IMPROVE 1,500円、zen place 江坂（マット）1,000円、アヴニール（90分）2,980円です。' },
+          { label: '場所', text: '新幹線の改札から近いのはアヴニール（7番出口側）。西中島南方駅・阪急南方駅側ならIMPROVE（徒歩1〜2分）が最も近く、Pilates Meeは両駅の中間です。' },
+        ]} note="徒歩分・料金は各公式サイトの表記（2026年10月23日確認）。下の早見表で営業時間・定休日も比べられます。" />
         <AreaConclusion studios={studios} areaName="新大阪" />
 
 

@@ -186,6 +186,7 @@ export default function NipporiPage() {
             </nav>
           </div>
         </section>
+        <section className="bg-white pt-6"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="border border-warm-300 bg-warm-50 px-4 py-3 text-sm text-warm-800 leading-relaxed">🔀 このページは<strong>日暮里駅</strong>を最寄りにしたスタジオの比較です。1駅隣の<strong>西日暮里駅</strong>・千駄木駅から通う方は、駅別の早見表つきの<Link href="/area/nishi-nippori/" className="underline decoration-warm-400 hover:text-warm-900 font-medium">西日暮里のピラティス比較</Link>をご覧ください。</p></div></section>
         <AreaConclusion studios={studios} areaName="日暮里" />
 
 

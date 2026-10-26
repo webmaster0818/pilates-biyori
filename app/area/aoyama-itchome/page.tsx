@@ -8,6 +8,7 @@ import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
 import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { AreaConclusion } from '@/components/AreaConclusion'
+import { AreaQuickAnswer } from '@/components/AreaQuickAnswer'
 import { AreaModifierSections } from '@/components/AreaModifierSections'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
@@ -351,7 +352,7 @@ export default function AoyamaItchomePage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月19日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月26日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス青山・青山一丁目おすすめ9選<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較
@@ -371,6 +372,12 @@ export default function AoyamaItchomePage() {
             </nav>
           </div>
         </section>
+        <AreaQuickAnswer areaName="青山・青山一丁目" rows={[
+          { label: '青山一丁目', text: '青山一丁目駅から徒歩3分の2社はどちらもマンツーマンです。Pilates & BodyMake Studio Viel Aoyama（月2回26,000円〜・体験8,800円）と、ピラティススタジオB&B南青山（4番南出口 徒歩3分・回数券で1回10,000円〜・体験9,000円）。' },
+          { label: '表参道側', text: 'グループで通うなら表参道駅の徒歩2分圏です。ピラティスK 表参道店（マシン・月4回13,420円・体験0円）、BDC PILATES 表参道（月4回16,280円・グループ体験1,100円は10月31日まで）、Sky Pilates Tokyo 表参道店（徒歩5分・1回3,200円〜）。' },
+          { label: '料金', text: '月額の最安はzen place pilates 六本木のマットグループ月4回9,625円、マシンのグループはピラティスK 月4回13,420円です（税込）。' },
+          { label: '体験', text: '無料はピラティスK 表参道店の1社。1,000円前後ならSky Pilates Tokyo 表参道店のマシングループ1,000円、BDCのグループ1,100円、KASANEの980円です。' },
+        ]} note="南青山・北青山の住所別の早見表は下にあります。値は各公式サイトの表記（2026年10月19日確認）です。" />
         <AreaConclusion studios={studios} areaName="青山一丁目" />
 
 

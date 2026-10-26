@@ -233,6 +233,7 @@ export default function IidabashiPage() {
             </nav>
           </div>
         </section>
+        <section className="bg-white pt-6"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="border border-warm-300 bg-warm-50 px-4 py-3 text-sm text-warm-800 leading-relaxed">🔀 このページは<strong>飯田橋駅</strong>（JR・東西線・有楽町線・南北線・大江戸線）から通うスタジオの比較です。東西線の<strong>神楽坂駅</strong>・大江戸線の牛込神楽坂駅側（the SILK 神楽坂店・Pilates Meeなど）で探す方は<Link href="/area/kagurazaka/" className="underline decoration-warm-400 hover:text-warm-900 font-medium">神楽坂のピラティス比較</Link>をご覧ください。</p></div></section>
         <AreaConclusion studios={studios} areaName="飯田橋・神楽坂" />
 
 

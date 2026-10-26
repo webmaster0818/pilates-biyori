@@ -260,6 +260,7 @@ export default function KagurazakaPage() {
             </nav>
           </div>
         </section>
+        <section className="bg-white pt-6"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="border border-warm-300 bg-warm-50 px-4 py-3 text-sm text-warm-800 leading-relaxed">🔀 このページは東西線<strong>神楽坂駅</strong>・大江戸線牛込神楽坂駅側を中心にした比較です。<strong>飯田橋駅</strong>を最寄りに探す方は、駅からの徒歩分と無料体験で比べた<Link href="/area/iidabashi/" className="underline decoration-warm-400 hover:text-warm-900 font-medium">飯田橋・神楽坂のピラティス比較（飯田橋駅基準）</Link>が詳しいです。</p></div></section>
         <AreaConclusion studios={studios} areaName="神楽坂" />
 
 

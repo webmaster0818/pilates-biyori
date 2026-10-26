@@ -9,6 +9,7 @@ import { PriceComparisonTable } from '@/components/PriceComparisonTable'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import ConsultantSection from '@/components/ConsultantSection'
+import { AreaQuickAnswer } from '@/components/AreaQuickAnswer'
 
 
 
@@ -117,7 +118,7 @@ export default function DenenchofuPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月21日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月26日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス田園調布おすすめ5選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
@@ -137,6 +138,13 @@ export default function DenenchofuPage() {
             </nav>
           </div>
         </section>
+
+        <AreaQuickAnswer areaName="田園調布" rows={[
+          { label: '店舗数', text: '田園調布駅から徒歩2分圏に4社（Dr.ピラティス 徒歩30秒、TSUTAYA Conditioning PILATES・Pilates Mee・ピラティスステーションライト 各徒歩2分）、隣の奥沢駅にSTUDIO IVY 奥沢店（徒歩4分）があり、計5社を掲載しています。' },
+          { label: '料金', text: 'マシンのグループはTSUTAYA Conditioning PILATES 月4回13,200円（女性専用・少人数）、セミパーソナル（最大3名）はPilates Mee 月2回11,000円〜、回数券制のステーションライトはグループ1回2,850〜3,500円。マンツーマンはSTUDIO IVY 月4回28,000円・Dr.ピラティス 月4回29,700円（45分）です（税込）。' },
+          { label: '体験', text: 'TSUTAYA Conditioning PILATES・Pilates Mee・Dr.ピラティスが0円。STUDIO IVYは通常4,500円で、2026年10月31日までは無料キャンペーンです。' },
+          { label: '選び方', text: '月1万円台でマシンを続けたいならTSUTAYAかPilates Mee、月謝なしで通いたいならステーションライト、マンツーマンならDr.ピラティスかSTUDIO IVYが候補です。' },
+        ]} note="値は各公式サイトの表記（2026年10月11日〜21日確認）。入会金・営業時間は下の早見表にまとめています。" />
 
         <TableOfContents areaName="田園調布" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
 

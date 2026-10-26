@@ -84,6 +84,7 @@ export default function Page() {
           </div>
         </section>
 
+        <section className="bg-white pt-6"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="border border-warm-300 bg-warm-50 px-4 py-3 text-sm text-warm-800 leading-relaxed">🔀 このページは<strong>阪急伊丹駅から歩けるスタジオ</strong>に絞った料金一覧です。JR伊丹駅直結のRintosull イオンモール伊丹店の料金・駐車場、伊丹市全体の比較は<Link href="/area/itami/" className="underline decoration-warm-400 hover:text-warm-900 font-medium">伊丹のピラティス比較</Link>（主ページ）をご覧ください。</p></div></section>
         <TableOfContents areaName="阪急伊丹" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
 
         {/* Introduction */}
