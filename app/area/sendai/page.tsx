@@ -92,7 +92,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜60代まで幅広い',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['姿勢改善', '体幹強化', 'ボディメイク', 'リハビリ'],
     },
     basicInfo: {
@@ -186,7 +185,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '6歳〜70代まで幅広い',
-      genderRatio: '女性95% / 男性5%',
       purpose: ['身体の歪み解消', '冷え改善', '姿勢改善', '資格取得'],
     },
     basicInfo: {
@@ -216,7 +214,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['美しいカラダづくり', '姿勢改善', 'ボディメイク', '体幹強化'],
     },
     basicInfo: {
@@ -248,7 +245,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢・歪み改善', 'パフォーマンス向上', 'リハビリ', '体のケア'],
     },
     basicInfo: {

@@ -78,7 +78,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜60代まで幅広い',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['姿勢改善', '体幹強化', 'ボディメイク', 'リハビリ'],
     },
     basicInfo: {
@@ -110,7 +109,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜60代が中心',
-      genderRatio: '女性75% / 男性25%',
       purpose: ['リハビリ', '身体の不調改善', '正しい動き習得', 'ボディメイク'],
     },
     basicInfo: {
@@ -173,7 +171,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性70% / 男性30%',
       purpose: ['短期集中ボディメイク', 'マンツーマン指導希望', '筋力アップ', '体幹強化'],
     },
     basicInfo: {

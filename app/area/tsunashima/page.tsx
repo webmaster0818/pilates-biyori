@@ -29,7 +29,7 @@ const studios = [
     address: '神奈川県横浜市港北区綱島西1-5-18 The Light Building5F',
     popularPlan: { name: 'フリープラン（月4回）', description: 'マット・マシンどちらも受講可能です。全店舗利用可能プランもあります。', price: '月4回 13,200円〜（税込）' },
     options: ['マットグループレッスン', 'マシングループレッスン', 'プライベートレッスン（1回 9,900円〜）', '全店舗利用可能プランあり'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'] },
     basicInfo: { hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00（店舗により異なる）', closed: '不定休', facilities: ['リフォーマー', 'チェア', 'バレル', 'シャワー', 'ロッカー'] },
   },
   {
@@ -55,7 +55,7 @@ const studios = [
     address: '神奈川県横浜市港北区綱島西（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '複合プログラム', description: 'ピラティス×ウェイトの複合型です。AI姿勢分析付きです。', price: '公式サイトでご確認ください' },
     options: ['マシンピラティス', 'ウェイトトレーニング', '複合プログラム', '体験レッスンあり'],
-    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性70% / 男性30%', purpose: ['ボディメイク', '体幹強化', '姿勢改善', 'パフォーマンス向上'] },
+    userProfile: { ageRange: '20代〜40代が中心', purpose: ['ボディメイク', '体幹強化', '姿勢改善', 'パフォーマンス向上'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'キャデラック', 'チェア', '更衣室', 'ロッカー'] },
   },
   {
@@ -67,7 +67,7 @@ const studios = [
     address: '神奈川県横浜市港北区綱島（詳細は公式サイトでご確認ください）',
     popularPlan: { name: 'グループレッスン', description: '少人数制の落ち着いた空間でレッスンです。', price: '公式サイトでご確認ください' },
     options: ['グループレッスン', 'プライベートレッスン', '体験レッスン 1,100円'],
-    userProfile: { ageRange: '30代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['健康維持', '姿勢改善', 'リフレッシュ', '体幹強化'] },
+    userProfile: { ageRange: '30代〜50代が中心', purpose: ['健康維持', '姿勢改善', 'リフレッシュ', '体幹強化'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['マシン', '更衣室', 'ロッカー'] },
   },
 ]

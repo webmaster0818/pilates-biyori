@@ -46,7 +46,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['姿勢改善', '体幹強化', 'リラックス', '健康維持'],
     },
     basicInfo: {
@@ -173,7 +172,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['ボディメイク', '姿勢改善', 'ダイエット', '体幹強化'],
     },
     basicInfo: {

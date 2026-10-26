@@ -31,7 +31,7 @@ const studios = [
     address: '東京都目黒区東が丘2丁目12-20 リュウ フランシュビル B1階',
     popularPlan: { name: '人気プラン', description: 'zen place pilates 駒沢の人気プランです。', price: 'マットグループ月4回 9,625円〜' },
     options: ['マット&マシン','駒沢大学駅徒歩4分','男性利用可','全国店舗利用可'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
     basicInfo: { hours: '店舗にお問い合わせください', closed: '店舗にお問い合わせください', facilities: ['ロッカー', 'マシン完備'] },
   },
   {
@@ -60,7 +60,7 @@ const studios = [
     address: '東京都世田谷区駒沢（駒沢大学駅徒歩3分）',
     popularPlan: { name: '人気プラン', description: 'PILATES STUDIO noa 駒沢の人気プランです。', price: '月2回 6,600円〜' },
     options: ['女性専用','マシンピラティス専門','駒沢大学駅徒歩3分','月2回6,600円〜'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
     basicInfo: { hours: '店舗にお問い合わせください', closed: '店舗にお問い合わせください', facilities: ['ロッカー', 'マシン完備'] },
   },
   {
@@ -75,7 +75,7 @@ const studios = [
     address: '東京都世田谷区（駒沢大学近隣）',
     popularPlan: { name: '人気プラン', description: 'ELEMENT 駒沢大学（近隣）の人気プランです。', price: '月4回 22,000円' },
     options: ['マンツーマン30分','月4回 22,000円','体験3,300円','駒沢大学近隣'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
     basicInfo: { hours: '店舗にお問い合わせください', closed: '店舗にお問い合わせください', facilities: ['ロッカー', 'マシン完備'] },
   },
 ]

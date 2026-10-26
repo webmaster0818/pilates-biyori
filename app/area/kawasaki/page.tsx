@@ -75,7 +75,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心（全体の75%）',
-      genderRatio: '女性90% / 男性10%',
       purpose: ['姿勢改善', '体幹強化', 'リラックス', '健康維持'],
     },
     basicInfo: {
@@ -170,7 +169,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心（全体の70%）',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['短期集中', 'ボディメイク', '姿勢改善', 'パーソナル指導'],
     },
     basicInfo: {
@@ -228,7 +226,6 @@ const studios = [
     options: ['月8回 19,900円', '通い放題 21,890円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
     userProfile: {
       ageRange: '30代〜50代が中心（全体の70%）',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['本格的なピラティス', '姿勢改善', '体幹強化', 'ボディメイク'],
     },
     basicInfo: {

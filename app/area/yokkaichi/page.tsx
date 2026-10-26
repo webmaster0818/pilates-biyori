@@ -27,7 +27,7 @@ const studios = [
     access: '四日市市内（詳細は公式サイトでご確認ください）', address: '三重県四日市市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '人気プラン', description: 'インストラクター全員が理学・作業療法士です。高品質のピラティスマシン完備で', price: 'パーソナル制（詳細は公式サイト）' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -37,7 +37,7 @@ const studios = [
     access: 'JR「四日市駅」徒歩5分', address: '三重県四日市市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '人気プラン', description: 'JR四日市駅から徒歩5分です。ジョセフ・ピラティス直系の本物のピラティスを', price: '月額制（詳細は公式サイト）' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -48,7 +48,7 @@ const studios = [
     address: '三重県四日市市安島2丁目8-10 フォレストヤスジマ1F',
     popularPlan: { name: '人気プラン', description: '完全マンツーマンのマシンピラティスです。理学療法士監修プログラムでプロフェ', price: '月3回 29,700円〜' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -58,7 +58,7 @@ const studios = [
     access: '四日市市内（詳細は公式サイトでご確認ください）', address: '三重県四日市市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '人気プラン', description: '四日市で最安値クラスのマシンピラティススタジオです。手ぶらで来れる環境で初', price: '最安クラス（詳細は公式サイト）' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -68,7 +68,7 @@ const studios = [
     access: '四日市市内（詳細は公式サイトでご確認ください）', address: '三重県四日市市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '人気プラン', description: '大人女性の見た目痩せを専門とするマシンピラティススタジオです。1対1のパー', price: '1回 約7,000円' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   }
 ]

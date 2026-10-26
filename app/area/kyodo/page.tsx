@@ -31,7 +31,7 @@ const studios = [
     address: '東京都世田谷区宮坂3丁目13-1 経堂オリオン 2階',
     popularPlan: { name: '人気プラン', description: 'zen place pilates 経堂の人気プランです。', price: 'マットグループ月4回 9,625円〜' },
     options: ['マット&マシン','経堂駅北口徒歩3分','初心者歓迎','男性利用可'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
     basicInfo: { hours: '店舗にお問い合わせください', closed: '店舗にお問い合わせください', facilities: ['ロッカー', 'マシン完備'] },
   },
   {
@@ -45,7 +45,7 @@ const studios = [
     address: '東京都世田谷区経堂（経堂駅徒歩圏内）',
     popularPlan: { name: '人気プラン', description: 'NATURAglam 経堂スタジオの人気プランです。', price: '1回 1,071円〜' },
     options: ['女性専用','ヨガ&ピラティス','体験1,000円','7店舗共通利用'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
     basicInfo: { hours: '店舗にお問い合わせください', closed: '店舗にお問い合わせください', facilities: ['ロッカー', 'マシン完備'] },
   },
   {
@@ -60,7 +60,7 @@ const studios = [
     address: '東京都世田谷区（経堂近隣）',
     popularPlan: { name: '人気プラン', description: 'URBAN CLASSIC PILATES 経堂（近隣）の人気プランです。', price: '月4回 9,680円' },
     options: ['予約不要','30分レッスン','月4回 9,680円','経堂近隣'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
     basicInfo: { hours: '店舗にお問い合わせください', closed: '店舗にお問い合わせください', facilities: ['ロッカー', 'マシン完備'] },
   },
   {
@@ -75,7 +75,7 @@ const studios = [
     address: '東京都世田谷区（経堂近隣）',
     popularPlan: { name: '人気プラン', description: 'ELEMENT 経堂（近隣）の人気プランです。', price: '月4回 22,000円' },
     options: ['マンツーマン30分','月4回 22,000円','体験3,300円','経堂近隣'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
     basicInfo: { hours: '店舗にお問い合わせください', closed: '店舗にお問い合わせください', facilities: ['ロッカー', 'マシン完備'] },
   },
   {
@@ -90,7 +90,7 @@ const studios = [
     address: '東京都世田谷区（経堂近隣）',
     popularPlan: { name: '人気プラン', description: 'ピラティスK 経堂（近隣）の人気プランです。', price: '月4回 11,220円〜' },
     options: ['女性専用','マシンピラティス','月4回 11,220円〜','経堂近隣'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
     basicInfo: { hours: '店舗にお問い合わせください', closed: '店舗にお問い合わせください', facilities: ['ロッカー', 'マシン完備'] },
   },
   {

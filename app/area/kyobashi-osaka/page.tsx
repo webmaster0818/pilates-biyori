@@ -56,7 +56,7 @@ const studios = [
     address: '大阪府大阪市都島区京橋エリア（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '月4回プラン', description: 'グループ＆プライベート選択可能です。', price: '月4回 10,000円〜（税込）' },
     options: ['チケット制プラン', 'プライベートレッスン', 'グループレッスン', '体験レッスンあり'],
-    userProfile: { ageRange: '30代〜60代が中心', genderRatio: '女性75% / 男性25%', purpose: ['姿勢改善', '体幹強化', 'リハビリ', '健康維持'] },
+    userProfile: { ageRange: '30代〜60代が中心', purpose: ['姿勢改善', '体幹強化', 'リハビリ', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'キャデラック', 'マット', '更衣室'] },
   },
   {
@@ -69,7 +69,7 @@ const studios = [
     address: '大阪府大阪市都島区京橋エリア（詳細は公式サイトでご確認ください）',
     popularPlan: { name: 'スタンダードプラン', description: 'マシンピラティス＋ファンクショナルトレーニングです。', price: '月額 9,878円〜（税込）' },
     options: ['ライトプラン', 'プレミアムプラン', 'オンライン併用可', '体験レッスンあり'],
-    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性85% / 男性15%', purpose: ['ボディメイク', 'ダイエット', '運動不足解消', '体幹強化'] },
+    userProfile: { ageRange: '20代〜40代が中心', purpose: ['ボディメイク', 'ダイエット', '運動不足解消', '体幹強化'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'ファンクショナルトレーニング機器', '更衣室', 'ロッカー'] },
   },
 ]

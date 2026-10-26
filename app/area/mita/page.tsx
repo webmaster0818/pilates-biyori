@@ -43,7 +43,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜60代が中心',
-      genderRatio: '女性75% / 男性25%',
       purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'],
     },
     basicInfo: {
@@ -102,7 +101,6 @@ const studios = [
     options: ['月8回 26,290円', '通い放題 40,590円', '入会金 5,500円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['体幹強化', '姿勢改善', 'ボディメイク', 'ダイエット'],
     },
     basicInfo: {
@@ -134,7 +132,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心（産前産後ママも多数）',
-      genderRatio: '女性90% / 男性10%',
       purpose: ['産前産後ケア', '姿勢改善', 'ボディメイク', 'リハビリ'],
     },
     basicInfo: {
@@ -165,7 +162,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['姿勢改善', 'ボディメイク', '体幹強化', 'リラクゼーション'],
     },
     basicInfo: {

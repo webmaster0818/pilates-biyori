@@ -25,7 +25,7 @@ const studios = [
     access: '名古屋市営地下鉄東山線「池下駅」徒歩1分', address: '名古屋市千種区（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '人気プラン', description: '池下駅徒歩1分の女性専用ピラティススタジオです。医療国家資格と国際基準資格', price: 'パーソナル制（詳細は公式サイト）' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -37,7 +37,7 @@ const studios = [
     address: '愛知県名古屋市千種区千種2-16-13 イオンタウン千種 2F',
     popularPlan: { name: '人気プラン', description: 'ホットヨガLAVAの姉妹ブランドです。イオンタウン千種内に位置し月4回8,', price: '月4回 8,800円〜' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -48,7 +48,7 @@ const studios = [
     address: '愛知県名古屋市東区東大曽根町41-1 EASTビル2階',
     popularPlan: { name: '人気プラン', description: '完全マンツーマンのマシンピラティスです。理学療法士監修で千種エリアからもア', price: '月3回 29,700円〜' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -58,7 +58,7 @@ const studios = [
     access: '東山線「池下駅」徒歩圏内', address: '名古屋市千種区池下町',
     popularPlan: { name: '人気プラン', description: '名古屋市千種区池下町にある世界基準のピラティス専門スタジオです。本格的なピ', price: 'パーソナル制（詳細は公式サイト）' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -68,7 +68,7 @@ const studios = [
     access: '東山線「今池駅」徒歩圏内', address: '名古屋市千種区（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '人気プラン', description: 'マシンピラティスとサウナを備えたスタジオです。今池駅近くでピラティスとリラ', price: '月額制（詳細は公式サイト）' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   }
 ]

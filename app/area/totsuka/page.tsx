@@ -30,7 +30,7 @@ const studios = [
     address: '神奈川県横浜市戸塚区戸塚町8 ラピス戸塚2 2階',
     popularPlan: { name: 'グループ月4回プラン', description: 'マットグループレッスンです。', price: '月4回 10,450円〜（税込）' },
     options: ['体験レッスンあり', '各種プラン', '詳細は公式サイト参照'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
   },
   {
@@ -59,7 +59,7 @@ const studios = [
     address: '神奈川県横浜市戸塚区戸塚町142 杉山ビル103',
     popularPlan: { name: 'パーソナルレッスン', description: '理学療法士監修のマンツーマンです。', price: '要問合せ（公式サイト参照）' },
     options: ['体験レッスンあり', '各種プラン', '詳細は公式サイト参照'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
   },
   {
@@ -73,7 +73,7 @@ const studios = [
     address: '神奈川県横浜市戸塚区（戸塚駅西口徒歩5分）',
     popularPlan: { name: 'マシンピラティスレッスン', description: 'マシンピラティス×パーソナルです。', price: '要問合せ（公式サイト参照）' },
     options: ['体験レッスンあり', '各種プラン', '詳細は公式サイト参照'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
   },
   {
@@ -88,7 +88,7 @@ const studios = [
     address: '神奈川県横浜市戸塚区（戸塚駅周辺）',
     popularPlan: { name: 'マンスリーメンバー', description: '月4回のヨガ&ピラティスです。', price: '月4回 9,800円〜（税込）' },
     options: ['体験レッスンあり', '各種プラン', '詳細は公式サイト参照'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
   },
   {

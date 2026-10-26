@@ -35,7 +35,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜50代が中心（全体の80%）',
-      genderRatio: '女性90% / 男性10%',
       purpose: ['姿勢改善', 'ダイエット', '体幹強化', 'インストラクター養成'],
     },
     basicInfo: {

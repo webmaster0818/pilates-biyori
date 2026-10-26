@@ -30,7 +30,7 @@ const studios = [
     address: '東京都杉並区久我山（久我山駅徒歩圏内）',
     popularPlan: { name: '人気プラン', description: 'STUDIO IVY 久我山店の人気プランです。', price: '1レッスン 6,250円〜' },
     options: ['完全個室','パーソナル','月謝制','久我山駅近'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
     basicInfo: { hours: '店舗にお問い合わせください', closed: '店舗にお問い合わせください', facilities: ['ロッカー', 'マシン完備'] },
   },
   {
@@ -44,7 +44,7 @@ const studios = [
     address: '東京都杉並区久我山4丁目1-9 久我山ビル303号室',
     popularPlan: { name: '人気プラン', description: 'パーソナルマシンピラティスYUZU 久我山店の人気プランです。', price: '1回 7,200円〜' },
     options: ['久我山駅徒歩1分','パーソナル専門','有資格者','マンツーマン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
     basicInfo: { hours: '店舗にお問い合わせください', closed: '店舗にお問い合わせください', facilities: ['ロッカー', 'マシン完備'] },
   },
   {
@@ -58,7 +58,7 @@ const studios = [
     address: '東京都杉並区（久我山近隣）',
     popularPlan: { name: '人気プラン', description: 'MI Pilates Studio 久我山（近隣）の人気プランです。', price: '料金は店舗にお問い合わせください' },
     options: ['完全予約制','マンツーマン','姿勢改善','不調改善'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
     basicInfo: { hours: '店舗にお問い合わせください', closed: '店舗にお問い合わせください', facilities: ['ロッカー', 'マシン完備'] },
   },
   {
@@ -73,7 +73,7 @@ const studios = [
     address: '東京都杉並区（久我山近隣）',
     popularPlan: { name: '人気プラン', description: 'ELEMENT 久我山（近隣）の人気プランです。', price: '月4回 22,000円' },
     options: ['マンツーマン30分','月4回 22,000円','体験3,300円','久我山近隣'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
     basicInfo: { hours: '店舗にお問い合わせください', closed: '店舗にお問い合わせください', facilities: ['ロッカー', 'マシン完備'] },
   }
 ]

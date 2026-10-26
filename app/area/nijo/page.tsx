@@ -42,7 +42,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢改善', 'ボディメイク', '肩こり腰痛改善', '体幹強化'],
     },
     basicInfo: {
@@ -106,7 +105,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
     },
     basicInfo: {
@@ -136,7 +134,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['姿勢改善', '体幹強化', 'アライメント改善', '健康維持'],
     },
     basicInfo: {
@@ -197,7 +194,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
-      genderRatio: '女性90% / 男性10%',
       purpose: ['ボディメイク', '美容', '姿勢改善', 'リフレッシュ'],
     },
     basicInfo: {

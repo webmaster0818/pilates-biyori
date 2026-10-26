@@ -74,7 +74,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢改善', 'インナーマッスル強化', 'ボディメイク', '健康維持'],
     },
     basicInfo: {
@@ -105,7 +104,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['短期集中ボディメイク', 'マンツーマン指導希望', '姿勢改善', '体幹強化'],
     },
     basicInfo: {
@@ -136,7 +134,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜60代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['正しい動き習得', '身体の不調改善', 'オンライン受講', '地域密着'],
     },
     basicInfo: {

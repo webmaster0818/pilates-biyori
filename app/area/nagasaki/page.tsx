@@ -27,7 +27,7 @@ const studios = [
     access: '長崎市内', address: '長崎県長崎市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: 'ピラティスレッスン', description: '医療系資格者による本格レッスンです。', price: '要問合せ（公式サイト参照）' },
     options: ['パーソナルレッスン', 'グループレッスン', '体験レッスンあり', '複数店舗利用可'],
-    userProfile: { ageRange: '30代〜60代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '痛み改善', '体幹強化', '健康維持'] },
+    userProfile: { ageRange: '30代〜60代が中心', purpose: ['姿勢改善', '痛み改善', '体幹強化', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'ラダーバレル', 'チェア', '各種専用マシン'] },
   },
   {
@@ -39,7 +39,7 @@ const studios = [
     access: 'JR「長崎駅」徒歩3分', address: '長崎県長崎市（長崎駅前エリア）',
     popularPlan: { name: 'ピラティスレッスン', description: '少人数スクール制の丁寧なレッスンです。', price: '要問合せ（公式サイト参照）' },
     options: ['ピラティスクラス', 'ヨガクラス', '少人数制', '体験レッスンあり'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性90% / 男性10%', purpose: ['姿勢改善', '柔軟性向上', 'リフレッシュ', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '柔軟性向上', 'リフレッシュ', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['マット', 'リフォーマー', '更衣室'] },
   },
   {
@@ -51,7 +51,7 @@ const studios = [
     access: 'JR「長崎駅」徒歩5分', address: '長崎県長崎市（長崎駅周辺）',
     popularPlan: { name: 'マシンピラティスレッスン', description: 'リフォーマーを使った本格レッスンです。', price: '要問合せ（公式サイト参照）' },
     options: ['マシンピラティス', '体幹強化プログラム', '姿勢改善プログラム', '体験レッスンあり'],
-    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性85% / 男性15%', purpose: ['体幹強化', '姿勢改善', 'ボディメイク', '運動不足解消'] },
+    userProfile: { ageRange: '20代〜40代が中心', purpose: ['体幹強化', '姿勢改善', 'ボディメイク', '運動不足解消'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', '更衣室', 'ロッカー'] },
   },
   {
@@ -63,7 +63,7 @@ const studios = [
     access: '長崎市内', address: '長崎県長崎市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: 'ピラティスレッスン', description: '明るいスタジオでの丁寧なレッスンです。', price: '要問合せ（公式サイト参照）' },
     options: ['スタジオレッスン', 'オンラインレッスン', '体験レッスンあり'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性90% / 男性10%', purpose: ['健康維持', '姿勢改善', 'リフレッシュ', '体幹強化'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['健康維持', '姿勢改善', 'リフレッシュ', '体幹強化'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['マット', '更衣室'] },
   },
   {
@@ -75,7 +75,7 @@ const studios = [
     access: '東長崎エリア', address: '長崎県長崎市東長崎エリア（詳細は公式サイトでご確認ください）',
     popularPlan: { name: 'ピラティスレッスン', description: '地域密着型の丁寧なレッスンです。', price: '要問合せ（公式サイト参照）' },
     options: ['ピラティスクラス', 'ヨガクラス', '初心者クラス', '体験レッスンあり'],
-    userProfile: { ageRange: '30代〜60代が中心', genderRatio: '女性90% / 男性10%', purpose: ['健康維持', '柔軟性向上', 'リフレッシュ', '運動不足解消'] },
+    userProfile: { ageRange: '30代〜60代が中心', purpose: ['健康維持', '柔軟性向上', 'リフレッシュ', '運動不足解消'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['マット', '更衣室'] },
   },
 ]

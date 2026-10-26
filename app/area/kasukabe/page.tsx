@@ -34,7 +34,6 @@ const studios = [
     options: ['プライベート専門', '駅徒歩1分', '保健体育教諭資格', 'マシン&マット', '体験レッスンあり'],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'],
     },
     basicInfo: {
@@ -86,7 +85,6 @@ const studios = [
     options: ['完全個室パーソナル', 'フルアイテム完備', '500種以上のメニュー', 'オーダーメイド', '体験レッスンあり'],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'],
     },
     basicInfo: {
@@ -111,7 +109,6 @@ const studios = [
     options: ['完全予約制', 'プライベート中心', 'マット&マシン併用', '運動初心者歓迎', '体験レッスンあり'],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'],
     },
     basicInfo: {

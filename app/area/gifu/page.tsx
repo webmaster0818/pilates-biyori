@@ -26,7 +26,7 @@ const studios = [
     access: '樽見鉄道「モレラ岐阜駅」徒歩圏内（モレラ岐阜1F）', address: '岐阜県本巣市 モレラ岐阜1F',
     popularPlan: { name: '人気プラン', description: '女性専用マシンピラティス専門スタジオです。モレラ岐阜1階に位置し通い放題で', price: '月4回 11,220円〜' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -36,7 +36,7 @@ const studios = [
     access: 'JR「岐阜駅」徒歩約10分', address: '岐阜県岐阜市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '人気プラン', description: '岐阜駅から徒歩約10分のパーソナルマシンピラティススタジオです。理学療法士', price: 'パーソナル制（詳細は公式サイト）' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -48,7 +48,7 @@ const studios = [
     address: '岐阜県岐阜市神田町9丁目20 G-frontビル８F',
     popularPlan: { name: '人気プラン', description: 'リフォーマーに加えキャデラックやチェアなど多様なマシンを導入しています。全国15', price: '月4回 10,450円〜' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -60,7 +60,7 @@ const studios = [
     address: '岐阜県各務原市那加萱場町3-8 イオンモール各務原インター3F',
     popularPlan: { name: '人気プラン', description: 'ホットヨガLAVAの姉妹ブランドです。イオンモール各務原内に位置し月4回8', price: '月4回 8,800円〜' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -70,7 +70,7 @@ const studios = [
     access: '岐阜市内（詳細は公式サイトでご確認ください）', address: '岐阜県岐阜市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '人気プラン', description: '整骨院併設のパーソナルピラティススタジオです。体の不調にも対応できる専門的', price: 'パーソナル制（詳細は公式サイト）' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {

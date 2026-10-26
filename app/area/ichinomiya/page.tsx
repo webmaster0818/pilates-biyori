@@ -60,7 +60,7 @@ const studios = [
     access: '一宮市九品町エリア', address: '愛知県一宮市九品町',
     popularPlan: { name: '人気プラン', description: 'マットピラティスのグループレッスンを中心に展開するリーズナブルなスタジ', price: '回数券制 1回1,200円〜' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -71,7 +71,7 @@ const studios = [
     access: '名鉄「黒田駅」徒歩3分（イオンモール木曽川3F）', address: '愛知県一宮市木曽川町 イオンモール木曽川3F',
     popularPlan: { name: '人気プラン', description: '女性専用マシンピラティス専門スタジオです。イオンモール木曽川3Fに位置し黒', price: '月4回 11,220円〜' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -81,7 +81,7 @@ const studios = [
     access: '名鉄「妙興寺駅」車7分', address: '愛知県一宮市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '人気プラン', description: '完全予約制のパーソナル専門マシンピラティススタジオです。一人ひとりの体に合', price: 'パーソナル制（詳細は公式サイト）' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {

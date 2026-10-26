@@ -46,7 +46,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢改善', '体幹強化', '仕事帰りのリフレッシュ', '健康維持'],
     },
     basicInfo: {
@@ -58,8 +57,8 @@ const studios = [
   {
     name: 'Beat Pilates 日本橋小伝馬町店',
     image: '/images/studios/beat-pilates-nihonbashi.webp',
-    price: '月3回 9,600円〜',
-    trial: '体験レッスン 1,500円（キャンペーン価格）',
+    price: '月3回 9,000円〜',
+    trial: '体験レッスン 0円（10月末までのキャンペーン・通常3,300円・45分）',
     features: ['暗闇×音楽', '女性専用', '小伝馬町駅徒歩4分', 'マシンピラティス専門'],
     description: '女性専用・暗闘系マシンピラティス専門スタジオです。小伝馬町駅・馬喰横山駅から徒歩4分です。暗闇×音楽×マシンピラティスの融合レッスンが特徴です。周りの目を気にせず集中できる環境で、楽しみながら理想のボディラインを目指せます。',
     access: '日比谷線「小伝馬町駅」徒歩4分 / 都営新宿線「馬喰横山駅」徒歩4分',
@@ -70,8 +69,8 @@ const studios = [
       price: '月額 14,400円（税込）〜',
     },
     options: [
-      '月3回プラン（9,600円〜）',
-      '月4回プラン（11,520円〜）',
+      '月3回プラン（9,000円〜）',
+      '月4回プラン（11,200円〜）',
       'デイタイムプラン（12,800円〜）',
       'ナイトプラン（12,800円〜）',
       'フルタイム通い放題（14,400円〜）',
@@ -82,7 +81,7 @@ const studios = [
       purpose: ['ボディメイク', 'ストレス発散', 'ダイエット', '楽しく運動'],
     },
     basicInfo: {
-      hours: '平日 10:00〜22:00 / 土日祝 10:00〜18:00',
+      hours: '8:00〜21:30',
       closed: '不定休',
       facilities: ['ロッカー', 'パウダールーム', '暗闇スタジオ', '女性専用'],
     },
@@ -107,7 +106,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性90% / 男性10%',
       purpose: ['姿勢改善', 'ボディメイク', '不調改善', '美しいボディライン'],
     },
     basicInfo: {
@@ -151,7 +149,7 @@ const faqs = [
   },
   {
     question: '日本橋エリアのピラティススタジオの料金相場は？',
-    answer: '日本橋エリアのピラティススタジオの料金相場は、グループレッスン月3〜4回で9,600円〜15,400円程度です。パーソナルレッスンは1回8,000円〜10,000円が相場です。体験レッスンは、the SILK 東京八重洲店とピラティスK 銀座店が無料、zen place 八重洲がマットグループ初回1,000円（今だけ）です（2026年10月25日公式確認）。まずは体験で試してみるのがおすすめです。',
+    answer: '日本橋エリアのピラティススタジオの料金相場は、グループレッスン月3〜4回で9,000円〜15,400円程度です。パーソナルレッスンは1回8,000円〜10,000円が相場です。体験レッスンは、the SILK 東京八重洲店とピラティスK 銀座店が無料、zen place 八重洲がマットグループ初回1,000円（今だけ）です（2026年10月25日公式確認）。まずは体験で試してみるのがおすすめです。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -376,7 +374,7 @@ export default function NihonbashiPage() {
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">月額1万円以下から通えるスタジオです。グループレッスンで気軽に始められます。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Beat Pilates（月3回 9,600円〜）</li>
+                  <li className="text-warm-700">• Beat Pilates（月3回 9,000円〜）</li>
                   <li className="text-warm-700">• zen place pilates（マット月4回 10,450円〜）</li>
                   <li className="text-warm-700">• the SILK 八重洲（月4回 15,280円〜）</li>
                 </ul>
@@ -427,7 +425,7 @@ export default function NihonbashiPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">グループ</p>
                 <p className="text-sm text-warm-600 mb-4">マットグループやリーズナブルなマシンレッスンです。初心者が気軽に始められます。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Beat Pilates（月3回 9,600円〜）</li>
+                  <li>• Beat Pilates（月3回 9,000円〜）</li>
                   <li>• zen place（マット月4回 10,450円〜）</li>
                 </ul>
               </div>
@@ -472,7 +470,7 @@ export default function NihonbashiPage() {
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span>
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
-                <p className="text-warm-600 leading-relaxed">日本橋エリアの料金相場は、グループレッスン月3〜4回で9,600円〜15,400円程度です。無理なく継続できる予算を決めることをおすすめします。長く続けるためには、金銭的な負担が少ないことも大切です。</p>
+                <p className="text-warm-600 leading-relaxed">日本橋エリアの料金相場は、グループレッスン月3〜4回で9,000円〜15,400円程度です。無理なく継続できる予算を決めることをおすすめします。長く続けるためには、金銭的な負担が少ないことも大切です。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4">

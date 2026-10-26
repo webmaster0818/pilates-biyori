@@ -27,7 +27,7 @@ const studios = [
     address: '兵庫県明石市大明石町1-6-22 ラ・メール7F',
     popularPlan: { name: '人気プラン', description: 'ホットヨガLAVAの姉妹ブランドの女性専用マシンピラティス専門スタジオ', price: '月4回 8,800円〜' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -37,7 +37,7 @@ const studios = [
     access: 'JR「明石駅」徒歩圏内', address: '兵庫県明石市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '人気プラン', description: 'プライベートレッスンとグループレッスンを提供するマシンピラティススタジ', price: '1回 3,850円〜' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -47,7 +47,7 @@ const studios = [
     access: '明石市内（詳細は公式サイトでご確認ください）', address: '兵庫県明石市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '人気プラン', description: '理学療法士が運営するピラティススタジオです。体の仕組みを理解した指導で肩こ', price: 'パーソナル制（詳細は公式サイト）' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -57,7 +57,7 @@ const studios = [
     access: '国道2号線沿い樽屋町', address: '兵庫県明石市樽屋町',
     popularPlan: { name: '人気プラン', description: '大阪・奈良に複数店舗を展開する女性専用ピラティススタジオの兵庫県初出店', price: '月額制（詳細は公式サイト）' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   }
 ]

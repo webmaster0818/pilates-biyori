@@ -43,7 +43,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心（全体の75%）',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['姿勢改善', '体幹強化', 'リラックス', '健康維持'],
     },
     basicInfo: {
@@ -75,7 +74,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心（全体の80%）',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['ボディメイク', '姿勢改善', 'パフォーマンス向上', '体幹強化'],
     },
     basicInfo: {
@@ -106,7 +104,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜60代以上（幅広い年齢層）',
-      genderRatio: '女性75% / 男性25%',
       purpose: ['身体の不調改善', '姿勢矯正', 'リハビリ', '健康維持'],
     },
     basicInfo: {
@@ -133,7 +130,6 @@ const studios = [
     options: ['月8回 26290円', '通い放題 40590円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
     userProfile: {
       ageRange: '20代〜50代が中心（全体の75%）',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['体幹強化', '姿勢改善', 'ボディメイク', 'パフォーマンス向上'],
     },
     basicInfo: {
@@ -255,7 +251,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜50代が中心（全体の75%）',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢改善', 'ボディメイク', '健康維持', '運動不足解消'],
     },
     basicInfo: {

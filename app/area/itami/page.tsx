@@ -42,7 +42,7 @@ const studios = [
     access: '阪急伊丹線「伊丹駅」徒歩1分', address: '兵庫県伊丹市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '人気プラン', description: '阪急伊丹駅徒歩1分です。神経整体×ピラティスで猫背・反り腰・肩こり・腰痛な', price: 'パーソナル制（詳細は公式サイト）' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -52,7 +52,7 @@ const studios = [
     access: '伊丹市内（詳細は公式サイトでご確認ください）', address: '兵庫県伊丹市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '人気プラン', description: 'カウンセリング・姿勢チェック・姿勢分析を経て最適なトレーニングプランを', price: 'パーソナル制（詳細は公式サイト）' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -62,7 +62,7 @@ const studios = [
     access: '伊丹市内（詳細は公式サイトでご確認ください）', address: '兵庫県伊丹市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '人気プラン', description: '女性専用のマシンピラティススタジオです。リフォーマーを使った10名ほどの少', price: '月額制（詳細は公式サイト）' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {

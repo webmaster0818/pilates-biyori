@@ -30,7 +30,7 @@ const studios = [
     address: '愛知県豊橋市藤沢町141 ホリデイ・スクエア シネマ棟2F',
     popularPlan: { name: '人気プラン', description: '大型スクリーンとインストラクターの指導を併用したハイブリッド型のレッス', price: '月4回 8,800円〜' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -40,7 +40,7 @@ const studios = [
     access: '豊橋市内（詳細は公式サイトでご確認ください）', address: '愛知県豊橋市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '人気プラン', description: 'NYスタイルのマシン専用ピラティススタジオです。1回1,870円〜とリーズ', price: '1回 1,870円〜' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -51,7 +51,7 @@ const studios = [
     address: '愛知県豊橋市向山台町13-10 カルディアス向山 203',
     popularPlan: { name: '人気プラン', description: '完全マンツーマンのマシンピラティススタジオです。理学療法士監修のプログラム', price: '月3回 29,700円〜' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -62,7 +62,7 @@ const studios = [
     access: '豊橋市内（詳細は公式サイトでご確認ください）', address: '愛知県豊橋市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '人気プラン', description: '女性専用マシンピラティス専門スタジオです。音楽に合わせた楽しいレッスンと部', price: '月4回 11,220円〜' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
 ]

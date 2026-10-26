@@ -61,7 +61,6 @@ const studios = [
     options: ['完全個室パーソナル', '2026年1月OPEN', '駅徒歩2分', 'オーダーメイド', '体験レッスンあり'],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'],
     },
     basicInfo: {
@@ -86,7 +85,6 @@ const studios = [
     options: ['理学療法士監修', 'マシンピラティス', '根本改善', '肩こり・腰痛対応', '体験レッスンあり'],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'],
     },
     basicInfo: {
@@ -112,7 +110,6 @@ const studios = [
     options: ['ホットヨガ&ピラティス', '全国展開大手', '豊富なプログラム', '初心者歓迎', '体験レッスンあり'],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'],
     },
     basicInfo: {

@@ -106,7 +106,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['整体×ピラティス', '身体の歪み改善', 'ボディメイク', '楽しく続けたい'],
     },
     basicInfo: {
@@ -169,7 +168,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['通いやすい立地', '店舗選択可', 'ボディメイク', '継続しやすい'],
     },
     basicInfo: {
@@ -200,7 +198,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['背骨の柔軟性', 'ピラティス×ヨガ', '若々しい身体', 'ボディメイク'],
     },
     basicInfo: {
@@ -232,7 +229,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['健康美を引き出す', 'お手頃に体験', 'ボディメイク', '初心者歓迎'],
     },
     basicInfo: {

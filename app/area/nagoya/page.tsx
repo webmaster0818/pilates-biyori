@@ -73,7 +73,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['美しいカラダづくり', '姿勢改善', 'ボディメイク', '体幹強化'],
     },
     basicInfo: {
@@ -104,7 +103,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['ピラティスを深く学ぶ', 'グループ不安解消', 'ボディメイク', '体幹強化'],
     },
     basicInfo: {
@@ -135,7 +133,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['身体の癖を知る', '効果を早く実感', 'ボディメイク', '姿勢改善'],
     },
     basicInfo: {
@@ -166,7 +163,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性90% / 男性10%',
       purpose: ['ピラティス＆ヨガ併用', '買い物ついでに', 'リラックス', 'ボディメイク'],
     },
     basicInfo: {
@@ -197,7 +193,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['ピラティスを深く学ぶ', '資格取得', 'プロ育成', 'ボディメイク'],
     },
     basicInfo: {
@@ -228,7 +223,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜60代が中心',
-      genderRatio: '女性70% / 男性30%',
       purpose: ['姿勢矯正', '痛み改善', 'セルフケア習得', 'リハビリ'],
     },
     basicInfo: {

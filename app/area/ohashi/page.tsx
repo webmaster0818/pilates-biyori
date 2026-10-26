@@ -31,7 +31,7 @@ const studios = [
     address: '福岡県福岡市南区（詳細は公式サイト）',
     popularPlan: { name: 'グループ月4回プラン', description: '15種類の器具を使った本格レッスンです。', price: '月4回 13,090円（税表記なし）' },
     options: ['月8回 24,090円', '通い放題 37,290円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
     basicInfo: { hours: '月〜金 7:00-21:00 / 土日 7:00-18:00', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
   },
   {
@@ -45,7 +45,7 @@ const studios = [
     address: '福岡県福岡市南区（詳細は公式サイト）',
     popularPlan: { name: 'パーソナルレッスン', description: '完全プライベートのマシンピラティスです。', price: '月謝制 1回6,250円〜（税込）' },
     options: ['体験レッスンあり', '各種プラン', '詳細は公式サイト参照'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
   },
   {
@@ -60,7 +60,7 @@ const studios = [
     address: '福岡県福岡市南区大橋（西鉄大橋駅徒歩2分）',
     popularPlan: { name: 'サーキットレッスン', description: '30分で完結のサーキット形式です。', price: '月額制（公式サイト参照）' },
     options: ['体験レッスンあり', '各種プラン', '詳細は公式サイト参照'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
   },
   {
@@ -74,7 +74,7 @@ const studios = [
     address: '福岡県福岡市南区（詳細は公式サイト）',
     popularPlan: { name: 'ピラティスレッスン', description: 'PMA認定インストラクターの指導です。', price: '要問合せ（公式サイト参照）' },
     options: ['体験レッスンあり', '各種プラン', '詳細は公式サイト参照'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
   },
   {
@@ -88,7 +88,7 @@ const studios = [
     address: '福岡県福岡市南区大橋（大橋駅徒歩3分）',
     popularPlan: { name: 'パーソナルレッスン', description: '個室でのマンツーマンレッスンです。', price: '要問合せ（公式サイト参照）' },
     options: ['体験レッスンあり', '各種プラン', '詳細は公式サイト参照'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
   },
 ]

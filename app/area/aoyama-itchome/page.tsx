@@ -28,7 +28,7 @@ const studios = [
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590',
     image: '/images/studios/bdc-pilates.webp',
     price: '月4回 16,280円（税込）',
-    trial: '体験レッスン 0円',
+    trial: 'グループ体験 1,100円（税込・10月31日までのキャンペーン・通常4,070円）',
     features: ['日本初マシン専門', '表参道駅徒歩2分', '認定講師', 'グループ&プライベート'],
     description: '日本初のマシンピラティス専門スタジオです。表参道駅から徒歩2分の好立地です。認定指導資格を保有した講師によるグループレッスンとプライベートレッスンの両方を提供しています。プライベートレッスンでは一人ひとりの身体の状態と目的に沿ってメニューを完全カスタマイズです。ダンサーやアスリートも通う質の高いレッスンが特徴です。',
     access: '表参道駅 徒歩2分（公式表記）',
@@ -46,7 +46,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心（全体の80%）',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['ボディメイク', '姿勢改善', 'パフォーマンス向上', '体幹強化'],
     },
     basicInfo: {
@@ -109,7 +108,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心（全体の70%）',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢改善', 'パフォーマンス向上', '体幹強化', 'リハビリ'],
     },
     basicInfo: {
@@ -140,7 +138,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜50代が中心（全体の75%）',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['ボディメイク', 'パフォーマンス向上', '姿勢改善', 'インストラクター資格'],
     },
     basicInfo: {
@@ -172,7 +169,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心（全体の80%）',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['ボディメイク', '姿勢改善', 'ダイエット', '体幹強化'],
     },
     basicInfo: {
@@ -204,7 +200,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜50代が中心（全体の80%）',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
     },
     basicInfo: {
@@ -301,7 +296,7 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '問題ありません。青山一丁目・表参道エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。BDC PILATESやピラティスKは体験レッスンが0円なので気軽に始められます。',
+    answer: '問題ありません。青山一丁目・表参道エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。ピラティスKは体験レッスンが0円、BDC PILATESはグループ体験が1,100円（10月31日までのキャンペーン）なので気軽に始められます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
@@ -321,7 +316,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。BDC PILATESとピラティスKは無料体験、Pilates KASANEは980円で体験できます。レンタルウェアがあるスタジオもあるので、各スタジオの案内を確認してください。',
+    answer: '基本的には、動きやすい服装（Tシャツ、レギンスなど）と飲み物があれば問題ありません。ピラティスKは無料体験、BDC PILATESは1,100円（10月31日までのキャンペーン）、Pilates KASANEは980円で体験できます。レンタルウェアがあるスタジオもあるので、各スタジオの案内を確認してください。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
@@ -740,7 +735,7 @@ export default function AoyamaItchomePage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。BDC PILATESとピラティスKは無料体験、Pilates KASANEは980円で体験可能です。スタジオの雰囲気は実際に行ってみないとわかりません。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。ピラティスKは無料体験、BDC PILATESは1,100円（10月31日までのキャンペーン）、Pilates KASANEは980円で体験可能です。スタジオの雰囲気は実際に行ってみないとわかりません。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

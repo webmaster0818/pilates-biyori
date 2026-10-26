@@ -30,7 +30,7 @@ const studios = [
     address: '福岡県久留米市（詳細は公式サイト）',
     popularPlan: { name: 'マンスリー4メンバー', description: '月4回のグループマシンピラティスです。', price: '月4回 13,420円（税込）' },
     options: ['体験レッスンあり', '各種プラン', '詳細は公式サイト参照'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
   },
   {
@@ -44,7 +44,7 @@ const studios = [
     address: '福岡県久留米市（詳細は公式サイト）',
     popularPlan: { name: 'プライベートレッスン', description: '解剖学ベースの個別指導です。', price: '要問合せ（公式サイト参照）' },
     options: ['体験レッスンあり', '各種プラン', '詳細は公式サイト参照'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
   },
   {
@@ -58,7 +58,7 @@ const studios = [
     address: '福岡県久留米市（詳細は公式サイト）',
     popularPlan: { name: 'マシンピラティス', description: '医療監修の本格レッスンです。', price: '要問合せ（公式サイト参照）' },
     options: ['体験レッスンあり', '各種プラン', '詳細は公式サイト参照'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
   },
   {
@@ -72,7 +72,7 @@ const studios = [
     address: '福岡県久留米市（詳細は公式サイト）',
     popularPlan: { name: 'ピラティスレッスン', description: '国際資格トレーナーの個別指導です。', price: '要問合せ（公式サイト参照）' },
     options: ['体験レッスンあり', '各種プラン', '詳細は公式サイト参照'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
   },
   {
@@ -86,7 +86,7 @@ const studios = [
     address: '福岡県久留米市（詳細は公式サイト）',
     popularPlan: { name: 'パーソナルレッスン', description: '初心者専門の1対1レッスンです。', price: '要問合せ（公式サイト参照）' },
     options: ['体験レッスンあり', '各種プラン', '詳細は公式サイト参照'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
   },
   {

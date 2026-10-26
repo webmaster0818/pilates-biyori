@@ -102,7 +102,6 @@ const studios = [
     options: ['月8回 14,190円', '通い放題 17,490円', '入会金 5,500円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['初心者歓迎', '世界的ブランド', 'ボディメイク', 'グループ＆プライベート'],
     },
     basicInfo: {
@@ -134,7 +133,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜60代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢改善', '腰痛改善', '猫背改善', 'リハビリ'],
     },
     basicInfo: {
@@ -165,7 +163,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性90% / 男性10%',
       purpose: ['体質改善', '根拠に基づく', 'トータルケア', 'ボディメイク'],
     },
     basicInfo: {
@@ -226,7 +223,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['本質重視', 'ボディメイク', '動きの質', '自己管理'],
     },
     basicInfo: {

@@ -111,7 +111,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜60代まで幅広い',
-      genderRatio: '女性70% / 男性30%',
       purpose: ['運動不足解消', '腰痛・肩こり改善', '自律神経の調整', 'パフォーマンス向上'],
     },
     basicInfo: {
@@ -206,7 +205,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜60代まで幅広い',
-      genderRatio: '女性70% / 男性30%',
       purpose: ['運動不足解消', '腰痛・肩こり改善', '姿勢改善', '健康維持'],
     },
     basicInfo: {
@@ -239,7 +237,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜60代まで幅広い',
-      genderRatio: '女性70% / 男性30%',
       purpose: ['運動不足解消', '姿勢改善', '健康維持', 'リフレッシュ'],
     },
     basicInfo: {
@@ -266,7 +263,6 @@ const studios = [
     options: ['月8回 24,090円', '通い放題 37,290円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性70% / 男性30%',
       purpose: ['本格的なピラティス', '筋力強化', '柔軟性向上', 'パフォーマンス向上'],
     },
     basicInfo: {

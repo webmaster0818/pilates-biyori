@@ -46,7 +46,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['ボディメイク', 'ダイエット', '運動不足解消', '体幹強化'],
     },
     basicInfo: {
@@ -78,7 +77,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
     },
     basicInfo: {
@@ -257,7 +255,7 @@ const faqs = [
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'zen place横浜元町、アーバンクラシック、スタジオ・ヨギー横浜は男性も通えます。あるく・Cachetteは女性専用です。zen placeは男性比率が約20%で、男性も気兼ねなく通える雰囲気です。',
+    answer: 'zen place横浜元町、アーバンクラシック、スタジオ・ヨギー横浜は男性も通えます。あるく・Cachetteは女性専用です。',
   },
   {
     question: '理学療法士の指導を受けられるスタジオは？',

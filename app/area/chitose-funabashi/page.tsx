@@ -30,7 +30,7 @@ const studios = [
     address: '東京都世田谷区船橋（千歳船橋駅徒歩1分）',
     popularPlan: { name: '人気プラン', description: 'CLUB PILATES 千歳船橋の人気プランです。', price: '月4回 13,090円（税表記なし）' },
     options: ['月8回 24,090円', '通い放題 37,290円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
     basicInfo: { hours: '店舗にお問い合わせください', closed: '店舗にお問い合わせください', facilities: ['ロッカー', 'マシン完備'] },
   },
   {
@@ -44,7 +44,7 @@ const studios = [
     address: '東京都世田谷区船橋（千歳船橋駅徒歩圏内）',
     popularPlan: { name: '人気プラン', description: 'ピラティスミラー 千歳船橋の人気プランです。', price: 'プライベート30分 4,400円〜' },
     options: ['女性専用','天井ミラー','30分レッスン','コナミ運営'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
     basicInfo: { hours: '店舗にお問い合わせください', closed: '店舗にお問い合わせください', facilities: ['マシン完備', 'フィッティングルーム（カーテン仕切り）', '荷物置きBOX（鍵なし）'] },
   },
   {
@@ -58,7 +58,7 @@ const studios = [
     address: '東京都世田谷区（千歳船橋近隣）',
     popularPlan: { name: '人気プラン', description: 'COCOLANCE 千歳船橋（近隣）の人気プランです。', price: '料金は店舗にお問い合わせください' },
     options: ['女性専用','完全個室','パーソナル','女性インストラクター'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
     basicInfo: { hours: '店舗にお問い合わせください', closed: '店舗にお問い合わせください', facilities: ['ロッカー', 'マシン完備'] },
   },
   {
@@ -73,7 +73,7 @@ const studios = [
     address: '東京都世田谷区（千歳船橋近隣）',
     popularPlan: { name: '人気プラン', description: 'ピラティスK 千歳船橋（近隣）の人気プランです。', price: '月4回 11,220円〜' },
     options: ['女性専用','マシンピラティス','月4回 11,220円〜','千歳船橋近隣'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
     basicInfo: { hours: '店舗にお問い合わせください', closed: '店舗にお問い合わせください', facilities: ['ロッカー', 'マシン完備'] },
   }
 ]

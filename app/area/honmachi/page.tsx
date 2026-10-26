@@ -42,7 +42,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢改善', 'コンディショニング', '体幹強化', 'リハビリ'],
     },
     basicInfo: {
@@ -73,7 +72,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['姿勢改善', 'リハビリ', 'ボディメイク', '産前産後ケア'],
     },
     basicInfo: {
@@ -104,7 +102,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['姿勢改善', '体幹強化', 'ボディメイク', 'リフレッシュ'],
     },
     basicInfo: {
@@ -135,7 +132,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['ボディメイク', '姿勢改善', '体幹強化', 'ダイエット'],
     },
     basicInfo: {

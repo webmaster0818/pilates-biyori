@@ -41,7 +41,6 @@ const studios = [
     options: ['月8回 21,890円', '通い放題 36,190円', '入会金 5,500円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['体幹強化', '姿勢改善', 'ボディメイク', 'ダイエット'],
     },
     basicInfo: {
@@ -163,7 +162,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['運動習慣づくり', 'ダイエット', '体幹強化', '時短トレーニング'],
     },
     basicInfo: {
@@ -194,7 +192,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢改善', 'ボディメイク', '体の不調改善', 'パフォーマンス向上'],
     },
     basicInfo: {
@@ -226,7 +223,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性70% / 男性30%',
       purpose: ['体幹強化', '姿勢改善', '健康維持', '時短トレーニング'],
     },
     basicInfo: {
@@ -257,7 +253,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['ボディメイク', '姿勢改善', '運動不足解消', 'ダイエット'],
     },
     basicInfo: {
@@ -288,7 +283,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性90% / 男性10%',
       purpose: ['ダイエット', 'デトックス', 'ストレス解消', '柔軟性向上'],
     },
     basicInfo: {

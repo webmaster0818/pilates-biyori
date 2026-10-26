@@ -38,7 +38,6 @@ const studios = [
     options: ['月8回 15,290円', '通い放題 18,590円', '入会金 5,500円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['ボディメイク', '姿勢改善', '体幹強化', 'リハビリ'],
     },
     basicInfo: {
@@ -101,7 +100,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['リハビリ', '姿勢改善', 'ダイエット', '身体の不調改善'],
     },
     basicInfo: {
@@ -132,7 +130,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['ボディメイク', 'ダイエット', '姿勢改善', '体幹強化'],
     },
     basicInfo: {
@@ -163,7 +160,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜60代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['腰痛改善', '肩こり改善', '姿勢改善', 'ダイエット'],
     },
     basicInfo: {
@@ -194,7 +190,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['ボディメイク', '姿勢改善', '体幹強化', '運動不足解消'],
     },
     basicInfo: {
@@ -225,7 +220,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['身体の不調改善', 'リラクゼーション', '姿勢改善', '柔軟性向上'],
     },
     basicInfo: {
@@ -257,7 +251,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['ボディメイク', 'ダイエット', '姿勢改善', '買い物ついでに'],
     },
     basicInfo: {
@@ -288,7 +281,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
-      genderRatio: '女性75% / 男性25%',
       purpose: ['ボディメイク', '体幹強化', 'ジムも利用したい', '運動習慣'],
     },
     basicInfo: {
@@ -319,7 +311,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性90% / 男性10%',
       purpose: ['短期集中ボディメイク', '姿勢改善', 'ダイエット', 'パーソナル指導'],
     },
     basicInfo: {
@@ -350,7 +341,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['本格的なピラティス', 'インストラクター志望', '姿勢改善', 'リハビリ'],
     },
     basicInfo: {
@@ -381,7 +371,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['本格的なピラティス', '姿勢改善', '体幹強化', 'ボディメイク'],
     },
     basicInfo: {

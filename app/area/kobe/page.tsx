@@ -75,7 +75,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜60代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢改善', '腰痛改善', '猫背改善', 'リハビリ'],
     },
     basicInfo: {
@@ -107,7 +106,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜60代が中心',
-      genderRatio: '女性75% / 男性25%',
       purpose: ['リハビリ', '身体の不調改善', '正しい動き習得', 'ボディメイク'],
     },
     basicInfo: {
@@ -138,7 +136,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜40代が中心',
-      genderRatio: '女性95% / 男性5%',
       purpose: ['産後ケア', '骨盤矯正', '姿勢矯正', 'ボディメイク'],
     },
     basicInfo: {
@@ -169,7 +166,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['ボディメイク', '姿勢改善', '体幹強化', '会員制希望'],
     },
     basicInfo: {

@@ -46,7 +46,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜60代まで幅広い',
-      genderRatio: '女性85% / 男性15%（男性利用可）',
       purpose: ['姿勢改善', '体幹強化', '不調改善', '健康維持'],
     },
     basicInfo: {
@@ -110,7 +109,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜50代まで幅広い',
-      genderRatio: '女性95% / 男性5%',
       purpose: ['ヨガ＆ピラティス', 'リフレッシュ', '柔軟性向上', 'ストレス解消'],
     },
     basicInfo: {
@@ -141,7 +139,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜60代',
-      genderRatio: '女性90% / 男性10%',
       purpose: ['姿勢改善', '体幹強化', '不調改善'],
     },
     basicInfo: {
@@ -172,7 +169,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性90% / 男性10%',
       purpose: ['リラックス', '自然を感じる', 'ヨガ＆ピラティス'],
     },
     basicInfo: {
@@ -204,7 +200,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['体の不調改善', 'パーソナル指導', '姿勢矯正', '慢性痛改善'],
     },
     basicInfo: {
@@ -236,7 +231,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代の中国語話者が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['体態矯正', '姿勢改善', '中国語でレッスン', '疼痛改善'],
     },
     basicInfo: {

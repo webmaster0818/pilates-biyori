@@ -30,7 +30,7 @@ const studios = [
     address: '兵庫県尼崎市神田中通2丁目27‐47 阪神ONOビル 8F',
     popularPlan: { name: '人気プラン', description: 'ホットヨガLAVAの姉妹ブランドです。体験レッスンではAI姿勢分析アプリを', price: '月4回 8,800円〜' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -41,7 +41,7 @@ const studios = [
     access: '尼崎市内（詳細は公式サイトでご確認ください）', address: '兵庫県尼崎市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '人気プラン', description: 'マシンピラティスとファンクショナルトレーニングを組み合わせたサーキット', price: '月額制（詳細は公式サイト）' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -51,7 +51,7 @@ const studios = [
     access: '阪急「武庫之荘駅」徒歩圏内', address: '兵庫県尼崎市武庫之荘（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '人気プラン', description: 'キッズスペース付き完全個室を完備しています。医療国家資格を持つ実績豊富なトレーナ', price: 'パーソナル制（詳細は公式サイト）' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -61,7 +61,7 @@ const studios = [
     access: '阪急「塚口駅」徒歩圏内', address: '兵庫県尼崎市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '人気プラン', description: 'マシンピラティス受け放題が月額16,500円で尼崎エリア最安級です。ジムも', price: '月額 16,500円（通い放題）' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   }
 ]

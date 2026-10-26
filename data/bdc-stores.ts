@@ -92,7 +92,7 @@ export const bdcStores: BdcStore[] = [
     address: "東京都港区南青山5-7-17 青山小原ビル(小原流会館)8F（A studio）／東京都渋谷区神宮前4-9-1 神宮前AKビル201（B studio）",
     access: "表参道駅 徒歩2分（公式表記）",
     price: "月4回 16,280円（税込）",
-    trial: "体験レッスン 0円",
+    trial: "グループ体験 4,070円（税込）→10月31日（土）までのキャンペーンで1,100円（税込・限定20名）",
     rating: 4.8,
     areaSlug: "omotesando",
     areaLabel: "表参道",

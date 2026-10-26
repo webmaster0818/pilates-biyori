@@ -36,7 +36,6 @@ const studios = [
     options: ['全国展開大手', 'マット&マシン完備', '新百合ヶ丘駅徒歩3分', '男女共用', '体験レッスン 1,000円'],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'],
     },
     basicInfo: {
@@ -88,7 +87,6 @@ const studios = [
     options: ['グループ&マンツーマン', 'マットピラティス', '体験1,000円', 'アットホーム', '体験レッスン 1,000円'],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'],
     },
     basicInfo: {
@@ -113,7 +111,6 @@ const studios = [
     options: ['パーソナル専門', 'ピラティス×トレーニング', '駅徒歩2分', '完全マンツーマン', '体験レッスンあり'],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'],
     },
     basicInfo: {

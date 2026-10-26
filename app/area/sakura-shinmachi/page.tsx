@@ -30,7 +30,7 @@ const studios = [
     address: '東京都世田谷区桜新町（桜新町駅徒歩圏内）',
     popularPlan: { name: '人気プラン', description: 'ピラティスミラー 桜新町の人気プランです。', price: 'プライベート30分 4,400円〜' },
     options: ['女性専用','天井ミラー','30分レッスン','少人数6名制'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
     basicInfo: { hours: '店舗にお問い合わせください', closed: '店舗にお問い合わせください', facilities: ['マシン完備', 'フィッティングルーム（カーテン仕切り）', '荷物置きBOX（鍵なし）'] },
   },
   {
@@ -44,7 +44,7 @@ const studios = [
     address: '東京都世田谷区桜新町エリア',
     popularPlan: { name: '人気プラン', description: 'ピラティス スタジオ・クラールの人気プランです。', price: '料金は店舗にお問い合わせください' },
     options: ['本格プライベート','落ち着いた空間','桜新町エリア','オーダーメイド'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
     basicInfo: { hours: '店舗にお問い合わせください', closed: '店舗にお問い合わせください', facilities: ['ロッカー', 'マシン完備'] },
   },
   {
@@ -58,7 +58,7 @@ const studios = [
     address: '東京都世田谷区（桜新町近隣）',
     popularPlan: { name: '人気プラン', description: 'パーソナルマシンピラティスYUZU 桜新町（近隣）の人気プランです。', price: '1回 7,200円〜' },
     options: ['パーソナル専門','有資格者多数','キッズスペース完備','レンタルウェア完備'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
     basicInfo: { hours: '店舗にお問い合わせください', closed: '店舗にお問い合わせください', facilities: ['ロッカー', 'マシン完備'] },
   },
   {
@@ -73,7 +73,7 @@ const studios = [
     address: '東京都世田谷区（桜新町近隣）',
     popularPlan: { name: '人気プラン', description: 'ELEMENT 桜新町（近隣）の人気プランです。', price: '月4回 22,000円' },
     options: ['マンツーマン30分','月4回 22,000円','体験3,300円','桜新町近隣'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
     basicInfo: { hours: '店舗にお問い合わせください', closed: '店舗にお問い合わせください', facilities: ['ロッカー', 'マシン完備'] },
   },
   {
@@ -88,7 +88,7 @@ const studios = [
     address: '東京都世田谷区（桜新町近隣）',
     popularPlan: { name: '人気プラン', description: 'ピラティスK 桜新町（近隣）の人気プランです。', price: '月4回 11,220円〜' },
     options: ['女性専用','マシンピラティス','月4回 11,220円〜','桜新町近隣'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
     basicInfo: { hours: '店舗にお問い合わせください', closed: '店舗にお問い合わせください', facilities: ['ロッカー', 'マシン完備'] },
   }
 ]

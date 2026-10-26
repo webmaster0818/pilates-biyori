@@ -30,7 +30,7 @@ const studios = [
     address: '神奈川県伊勢原市（伊勢原駅徒歩12分）',
     popularPlan: { name: 'ヨガ&ピラティス', description: '月160本以上の豊富なレッスンです。', price: '要問合せ（公式サイト参照）' },
     options: ['体験レッスンあり', '各種プラン', '詳細は公式サイト参照'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
   },
   {
@@ -44,7 +44,7 @@ const studios = [
     address: '神奈川県伊勢原市（伊勢原駅北口徒歩3分）',
     popularPlan: { name: 'プライベートレッスン', description: '美脚美姿勢のプライベートです。', price: '要問合せ（公式サイト参照）' },
     options: ['体験レッスンあり', '各種プラン', '詳細は公式サイト参照'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
   },
   {
@@ -58,7 +58,7 @@ const studios = [
     address: '神奈川県伊勢原市（伊勢原駅徒歩5分）',
     popularPlan: { name: 'グループレッスン', description: '月4回×50分のグループです。', price: '要問合せ（公式サイト参照）' },
     options: ['体験レッスンあり', '各種プラン', '詳細は公式サイト参照'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
   },
   {
@@ -72,7 +72,7 @@ const studios = [
     address: '神奈川県伊勢原市（伊勢原駅前）',
     popularPlan: { name: 'スタジオレッスン', description: 'ピラティス「フィール」レッスンです。', price: '月額制（公式サイト参照）' },
     options: ['体験レッスンあり', '各種プラン', '詳細は公式サイト参照'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
   },
   {
@@ -87,7 +87,7 @@ const studios = [
     address: '神奈川県伊勢原市沼目3-10-36（メディカルケアパーク伊勢原 内）',
     popularPlan: { name: 'レギュラー会員', description: '10:00〜20:00の営業時間内にマットピラティスなどのレッスンを利用できます。', price: '月会費 9,350円（税込）' },
     options: ['体験 2,200円（30分）', 'デイ会員 7,700円/月・ナイター会員 5,500円/月', 'パーソナル 30分 3,080円（会員価格）'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
     basicInfo: { hours: '10:00〜20:00', closed: '木曜・日曜・祝日', facilities: ['マット（グループのマットピラティス）', 'トレーニングマシン', 'パーソナルトレーニング'] },
   },
 ]

@@ -58,7 +58,7 @@ const studios = [
     address: '東京都世田谷区池尻（池尻大橋駅徒歩圏内）',
     popularPlan: { name: '少人数グループレッスン', description: '最大5名のリフォーマーを使ったグループレッスンです。', price: '料金は店舗にお問い合わせください' },
     options: ['少人数グループレッスン', '体験レッスンあり'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', '体幹強化', '健康維持', 'リフレッシュ'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '体幹強化', '健康維持', 'リフレッシュ'] },
     basicInfo: { hours: '店舗にお問い合わせください', closed: '店舗にお問い合わせください', facilities: ['ロッカー', 'リフォーマー完備'] },
   },
   {
@@ -73,7 +73,7 @@ const studios = [
     address: '東京都目黒区（池尻大橋・中目黒エリア）',
     popularPlan: { name: '月4回プラン', description: '30分マンツーマンレッスンです。池尻大橋・中目黒からアクセス可能です。', price: '月4回 22,000円（税込）' },
     options: ['月4回プラン（22,000円）', '体験レッスン（3,300円）'],
-    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性75% / 男性25%', purpose: ['ボディメイク', '体幹強化', '姿勢改善', '運動不足解消'] },
+    userProfile: { ageRange: '20代〜40代が中心', purpose: ['ボディメイク', '体幹強化', '姿勢改善', '運動不足解消'] },
     basicInfo: { hours: '店舗にお問い合わせください', closed: '店舗にお問い合わせください', facilities: ['ロッカー', 'マシン完備'] },
   },
   {

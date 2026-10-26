@@ -32,7 +32,7 @@ const studios = [
     address: '大阪府高槻市紺屋町6-5 イマホリビル 3階',
     popularPlan: { name: 'フリープラン（マットグループ）', description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。', price: '月額 14,960円〜（税込）' },
     options: ['月4回プラン（9,625円〜）', 'マシングループ体験（3,000円）', 'プライベートレッスン', '体験当日入会で入会金無料'],
-    userProfile: { ageRange: '30代〜60代が中心', genderRatio: '女性75% / 男性25%', purpose: ['姿勢改善', '体幹強化', '健康維持', 'リフレッシュ'] },
+    userProfile: { ageRange: '30代〜60代が中心', purpose: ['姿勢改善', '体幹強化', '健康維持', 'リフレッシュ'] },
     basicInfo: { hours: '月〜金 10:00〜20:00 / 土日祝 10:00〜16:00', closed: '不定休', facilities: ['リフォーマー', 'マット', 'ロッカー', '更衣室'] },
   },
   {
@@ -46,7 +46,7 @@ const studios = [
     address: '大阪府高槻市高槻町9-17 第3吉廣ビル3階',
     popularPlan: { name: '通い放題プラン', description: 'マシンピラティス＋TRXサーキットです。予約不要・30分です。', price: '月額 7,800円〜（税込）' },
     options: ['通い放題プラン', '体験レッスンあり', '予約不要', '30分レッスン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['ボディメイク', '運動不足解消', '体幹強化', 'ダイエット'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['ボディメイク', '運動不足解消', '体幹強化', 'ダイエット'] },
     basicInfo: { hours: '平日 9:30-21:30 / 土祝 9:30-19:30', closed: '日曜日', facilities: ['リフォーマー', 'TRX', 'ロッカー', '更衣室'] },
   },
   {
@@ -59,7 +59,7 @@ const studios = [
     address: '大阪府高槻市高槻町16-19 高槻ビル3階B',
     popularPlan: { name: 'パーソナルレッスン', description: '理学療法士監修です。完全マンツーマンの安心指導です。', price: '1回 8,800円〜（税込）' },
     options: ['回数券プランあり', '体験レッスン1,000円', 'リハビリ対応', '医学的アプローチ'],
-    userProfile: { ageRange: '30代〜70代が中心', genderRatio: '女性80% / 男性20%', purpose: ['リハビリ', '痛み改善', '姿勢改善', '健康維持'] },
+    userProfile: { ageRange: '30代〜70代が中心', purpose: ['リハビリ', '痛み改善', '姿勢改善', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '完全個室', '更衣室'] },
   },
   {
@@ -84,7 +84,7 @@ const studios = [
     address: '大阪府高槻市内（詳細は公式サイトでご確認ください）',
     popularPlan: { name: 'パーソナルレッスン', description: '完全マンツーマンです。肩こり・腰痛改善から産前産後ケアまでです。', price: '1回 7,200円〜（税込）' },
     options: ['4回券あり', '体験レッスン7,000円', '産前産後対応', '肩こり・腰痛改善コース'],
-    userProfile: { ageRange: '30代〜60代が中心', genderRatio: '女性90% / 男性10%', purpose: ['肩こり・腰痛改善', '産前産後ケア', '姿勢改善', '体幹強化'] },
+    userProfile: { ageRange: '30代〜60代が中心', purpose: ['肩こり・腰痛改善', '産前産後ケア', '姿勢改善', '体幹強化'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '完全個室', '更衣室'] },
   },
   {
@@ -97,7 +97,7 @@ const studios = [
     address: '大阪府高槻市内（詳細は公式サイトでご確認ください）',
     popularPlan: { name: 'スタンダードプラン', description: 'マシンピラティス＋ファンクショナルトレーニングです。', price: '月額 9,878円〜（税込）' },
     options: ['ライトプラン', 'プレミアムプラン', 'オンライン併用可', '体験レッスンあり'],
-    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性85% / 男性15%', purpose: ['ボディメイク', 'ダイエット', '運動不足解消', '体幹強化'] },
+    userProfile: { ageRange: '20代〜40代が中心', purpose: ['ボディメイク', 'ダイエット', '運動不足解消', '体幹強化'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'ファンクショナルトレーニング機器', '更衣室', 'ロッカー'] },
   },
   {

@@ -26,7 +26,7 @@ const studios = [
     access: '富山市内（詳細は公式サイトでご確認ください）', address: '富山県富山市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '人気プラン', description: '女性専用マシンピラティス専門スタジオです。音楽に合わせた楽しいレッスンとボ', price: '月4回 11,220円〜' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -37,7 +37,7 @@ const studios = [
     address: '富山県富山市二口町5丁目4-10 テフィスC棟 C号室',
     popularPlan: { name: '人気プラン', description: '完全マンツーマンのマシンピラティスです。理学療法士監修プログラムでプロフェ', price: '月3回 29,700円〜' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -49,7 +49,7 @@ const studios = [
     address: '富山県富山市堀川町355-7 マイプラザ 1・2F(受付2F)',
     popularPlan: { name: '人気プラン', description: 'ホットヨガLAVAの姉妹ブランドです。マイプラザ南富山内に位置し月4回8,', price: '月4回 8,800円〜' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -59,7 +59,7 @@ const studios = [
     access: '富山市内（詳細は公式サイトでご確認ください）', address: '富山県富山市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '人気プラン', description: '女性専用の24時間フィットネスジムです。ピラティスとワークアウトを組み合わ', price: '月額制（詳細は公式サイト）' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
 ]

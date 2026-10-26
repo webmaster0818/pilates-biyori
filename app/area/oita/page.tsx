@@ -44,7 +44,7 @@ const studios = [
     address: '大分県大分市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: 'パーソナルレッスン', description: '理学療法士によるマンツーマンレッスンです。', price: '1回 8,000円〜（税込）' },
     options: ['回数券あり', 'オーダーメイドプログラム', '身体評価あり', '体験レッスンあり'],
-    userProfile: { ageRange: '30代〜60代が中心', genderRatio: '女性70% / 男性30%', purpose: ['姿勢改善', '痛み改善', 'リハビリ', '体幹強化'] },
+    userProfile: { ageRange: '30代〜60代が中心', purpose: ['姿勢改善', '痛み改善', 'リハビリ', '体幹強化'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '各種ピラティス器具'] },
   },
   {
@@ -58,7 +58,7 @@ const studios = [
     address: '大分県大分市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: 'プライベートレッスン', description: 'マット×マシンの効率的なレッスンです。', price: '要問合せ（公式サイト参照）' },
     options: ['プライベートレッスン', 'カウンセリング付き', '姿勢改善プログラム', '体験レッスンあり'],
-    userProfile: { ageRange: '30代〜50代が中心', genderRatio: '女性90% / 男性10%', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
+    userProfile: { ageRange: '30代〜50代が中心', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
   },
   {
@@ -72,7 +72,7 @@ const studios = [
     address: '大分県大分市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: 'パーソナルレッスン', description: 'ピラティス×理学療法×栄養学のトータルケアです。', price: '要問合せ（公式サイト参照）' },
     options: ['パーソナルレッスン', '栄養指導あり', '身体評価あり', '体験レッスンあり'],
-    userProfile: { ageRange: '30代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['不調改善', '姿勢改善', '体質改善', '健康維持'] },
+    userProfile: { ageRange: '30代〜50代が中心', purpose: ['不調改善', '姿勢改善', '体質改善', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '各種ピラティス器具'] },
   },
   {
@@ -86,7 +86,7 @@ const studios = [
     address: '大分県大分市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: 'ピラティスレッスン', description: '多職種スタッフによるトータルサポートしています。', price: '要問合せ（公式サイト参照）' },
     options: ['ピラティスレッスン', 'ヨガレッスン', '栄養指導', '体験レッスンあり'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['健康維持', '姿勢改善', 'ボディメイク', 'リフレッシュ'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['健康維持', '姿勢改善', 'ボディメイク', 'リフレッシュ'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', 'ヨガスタジオ', '更衣室'] },
   },
   {

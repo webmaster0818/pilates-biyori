@@ -44,7 +44,7 @@ const studios = [
     address: '大阪府茨木市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: 'プライベートレッスン', description: '医療系国家資格保有インストラクターによるマンツーマン指導しています。', price: '詳細は公式サイトでご確認ください' },
     options: ['プライベートレッスン', 'セミプライベートレッスン', 'グループレッスン', '体験レッスン'],
-    userProfile: { ageRange: '20代〜60代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '痛み改善', '体幹強化', '健康維持'] },
+    userProfile: { ageRange: '20代〜60代が中心', purpose: ['姿勢改善', '痛み改善', '体幹強化', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
   },
   {
@@ -57,7 +57,7 @@ const studios = [
     address: '大阪府茨木市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: 'パーソナルレッスン', description: '理学療法士による医学的アプローチのマシンピラティスです。', price: '詳細は公式サイトでご確認ください' },
     options: ['パーソナルレッスン', '体験レッスン', '整形外科提携プログラム', 'リハビリ対応'],
-    userProfile: { ageRange: '30代〜60代が中心', genderRatio: '女性75% / 男性25%', purpose: ['痛み改善', 'リハビリ', '姿勢改善', '健康維持'] },
+    userProfile: { ageRange: '30代〜60代が中心', purpose: ['痛み改善', 'リハビリ', '姿勢改善', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
   },
   {
@@ -87,7 +87,7 @@ const studios = [
     address: '大阪府茨木市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: 'サーキットレッスン', description: 'マシンピラティス×ファンクショナルトレーニングのサーキット形式です。', price: '詳細は公式サイトでご確認ください' },
     options: ['サーキットレッスン', '体験レッスン', '予約不要プラン', '月額制'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['ボディメイク', 'ダイエット', '運動不足解消', '体幹強化'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['ボディメイク', 'ダイエット', '運動不足解消', '体幹強化'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'ファンクショナルトレーニング器具', '更衣室'] },
   },
   {

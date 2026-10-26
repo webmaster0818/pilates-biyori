@@ -84,7 +84,6 @@ const studios = [
     options: ['完全個室パーソナル', 'フルアイテム完備', 'お子様連れ可', '500種以上のエクササイズ', '体験レッスンあり'],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'],
     },
     basicInfo: {
@@ -109,7 +108,6 @@ const studios = [
     options: ['少人数制', '丁寧な指導', 'アットホーム', '草加地域密着', '体験レッスンあり'],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'],
     },
     basicInfo: {
@@ -136,7 +134,6 @@ const studios = [
     options: ['整体×ピラティス', '駅徒歩3分', '根本改善', '体の不調対応', '体験レッスンあり'],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'],
     },
     basicInfo: {

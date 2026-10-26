@@ -60,7 +60,6 @@ const studios = [
     options: ['完全個室', 'お子様同伴可', '手ぶらで参加可能', '駅徒歩5分', '体験レッスンあり'],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'],
     },
     basicInfo: {

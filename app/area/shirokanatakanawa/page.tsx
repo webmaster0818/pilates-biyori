@@ -31,7 +31,7 @@ const studios = [
     address: '東京都港区高輪2丁目14-17 グレイス高輪4階',
     popularPlan: { name: 'リフォーマーグループ（月4回）', description: 'マシンを使ったグループレッスンです。少人数制です。', price: '月4回 15,400円（税込）' },
     options: ['マットグループ（月4回 9,625円〜）', 'リフォーマーグループ（月4回 15,400円）', 'リフォーマーグループ（月8回 25,300円）', 'プライベート（月4回 32,560円〜）'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'] },
     basicInfo: { hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00', closed: '月末不定休', facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi'] },
   },
   {
@@ -44,7 +44,7 @@ const studios = [
     address: '東京都港区南麻布（白金高輪駅徒歩1分）',
     popularPlan: { name: '少人数制グループレッスン', description: '経験豊富なインストラクターによる丁寧な指導です。', price: 'お問い合わせください' },
     options: ['ヨガレッスン', 'ピラティスレッスン', 'マシンピラティス', '体験レッスン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', 'ボディメイク', 'リラクゼーション', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'リラクゼーション', '健康維持'] },
     basicInfo: { hours: 'お問い合わせください', closed: '不定休', facilities: ['レンタルウェア', 'マット無料', 'タオル無料'] },
   },
   {
@@ -57,7 +57,7 @@ const studios = [
     address: '東京都港区広尾（広尾エリア）',
     popularPlan: { name: 'パーソナルレッスン（月4回）', description: '完全個室マンツーマンのオーダーメイドレッスンです。', price: '月4回 25,000円〜（税込）' },
     options: ['月4回プラン（1回 6,250円〜）', '月8回プラン', '体験レッスン'],
-    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性75% / 男性25%', purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'パフォーマンス向上'] },
+    userProfile: { ageRange: '20代〜40代が中心', purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'パフォーマンス向上'] },
     basicInfo: { hours: '7:00〜22:00', closed: '不定休', facilities: ['完全個室', 'マシン完備', 'パウダールーム'] },
   },
   {
@@ -70,7 +70,7 @@ const studios = [
     address: '東京都港区白金（白金高輪駅徒歩5分）',
     popularPlan: { name: '少人数制グループレッスン（最大5名）', description: 'マシンを使った少人数制レッスンです。', price: 'お問い合わせください' },
     options: ['グループレッスン（最大5名）', 'プライベートレッスン', '体験レッスン'],
-    userProfile: { ageRange: '30代〜50代が中心', genderRatio: '女性90% / 男性10%', purpose: ['姿勢改善', '体幹強化', '健康維持', 'リフレッシュ'] },
+    userProfile: { ageRange: '30代〜50代が中心', purpose: ['姿勢改善', '体幹強化', '健康維持', 'リフレッシュ'] },
     basicInfo: { hours: 'お問い合わせください', closed: '不定休', facilities: ['ロッカー', 'マシン完備'] },
   },
   {
@@ -83,7 +83,7 @@ const studios = [
     address: '東京都港区白金台（白金台エリア）',
     popularPlan: { name: 'マシンピラティスレッスン', description: '専門インストラクターによるマシンピラティスです。', price: 'お問い合わせください' },
     options: ['グループレッスン', 'パーソナルレッスン', '体験レッスン'],
-    userProfile: { ageRange: '30代〜50代が中心', genderRatio: '女性85% / 男性15%', purpose: ['姿勢改善', 'ボディメイク', '健康維持', 'エイジングケア'] },
+    userProfile: { ageRange: '30代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '健康維持', 'エイジングケア'] },
     basicInfo: { hours: 'お問い合わせください', closed: '不定休', facilities: ['マシン完備', 'ロッカー', 'パウダールーム'] },
   },
   {
@@ -96,7 +96,7 @@ const studios = [
     address: '東京都港区高輪（白金高輪駅徒歩2分）',
     popularPlan: { name: 'マシンピラティスグループ', description: 'リフォーマーを使った少人数グループレッスンです。', price: 'お問い合わせください' },
     options: ['マシングループレッスン', 'プライベートレッスン', '体験レッスン'],
-    userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性90% / 男性10%', purpose: ['ボディメイク', '姿勢改善', 'ダイエット', '体幹強化'] },
+    userProfile: { ageRange: '20代〜40代が中心', purpose: ['ボディメイク', '姿勢改善', 'ダイエット', '体幹強化'] },
     basicInfo: { hours: 'お問い合わせください', closed: '不定休', facilities: ['リフォーマー完備', 'ロッカー', 'パウダールーム'] },
   },
   {
@@ -123,7 +123,7 @@ const studios = [
     address: '東京都港区南麻布（白金高輪エリア）',
     popularPlan: { name: 'パーソナルレッスン', description: '完全オーダーメイドのマシンピラティスです。', price: 'お問い合わせください' },
     options: ['パーソナルレッスン', '体験レッスン'],
-    userProfile: { ageRange: '30代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', '健康維持', 'エイジングケア'] },
+    userProfile: { ageRange: '30代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '健康維持', 'エイジングケア'] },
     basicInfo: { hours: 'お問い合わせください', closed: '不定休', facilities: ['マシン完備', 'パウダールーム'] },
   },
 ]

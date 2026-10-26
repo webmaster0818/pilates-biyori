@@ -78,7 +78,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '10代〜70代と幅広い',
-      genderRatio: '女性70% / 男性30%',
       purpose: ['機能改善', '腰痛改善', '姿勢改善', 'リハビリ'],
     },
     basicInfo: {
@@ -110,7 +109,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
     },
     basicInfo: {

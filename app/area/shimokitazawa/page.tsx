@@ -46,7 +46,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
     },
     basicInfo: {
@@ -108,7 +107,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜50代',
-      genderRatio: '女性75% / 男性25%',
       purpose: ['マシンピラティス', '姿勢改善', '体幹強化', 'ダイエット'],
     },
     basicInfo: {
@@ -139,7 +137,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
-      genderRatio: '女性70% / 男性30%',
       purpose: ['パーソナル指導', 'ボディメイク', '姿勢改善', '運動不足解消'],
     },
     basicInfo: {

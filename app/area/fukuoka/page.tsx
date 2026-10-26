@@ -43,7 +43,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜60代まで幅広い',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['姿勢改善', '体幹強化', 'ボディメイク', 'リハビリ'],
     },
     basicInfo: {
@@ -73,7 +72,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['少人数希望', 'ボディメイク', '丁寧な指導', '初心者歓迎'],
     },
     basicInfo: {
@@ -103,7 +101,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
-      genderRatio: '女性90% / 男性10%',
       purpose: ['姿勢改善', '麗なライン作り', 'マンツーマン希望', 'ボディメイク'],
     },
     basicInfo: {
@@ -133,7 +130,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['老舗の実績', 'セミプライベート', '質の高い指導', 'ボディメイク'],
     },
     basicInfo: {
@@ -163,7 +159,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['予約制希望', 'ボディメイク', 'グループ＆パーソナル', '落ち着いた環境'],
     },
     basicInfo: {
@@ -193,7 +188,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性90% / 男性10%',
       purpose: ['パーソナル希望', '完全プライベート', '人目を気にしない', 'ボディメイク'],
     },
     basicInfo: {
@@ -223,7 +217,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜60代が中心',
-      genderRatio: '女性90% / 男性10%',
       purpose: ['ピラティス＆ヨガ', 'アットホーム', 'ボディメイク', 'リラックス'],
     },
     basicInfo: {

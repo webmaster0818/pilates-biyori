@@ -26,7 +26,7 @@ const studios = [
     access: '長野市高田（MEGAドン・キホーテ長野店1F）', address: '長野県長野市高田 MEGAドン・キホーテ長野店1F',
     popularPlan: { name: '人気プラン', description: '女性専用マシンピラティス専門スタジオです。MEGAドン・キホーテ長野店1F', price: '月4回 11,220円〜' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -36,7 +36,7 @@ const studios = [
     access: 'JR「長野駅」徒歩5分', address: '長野県長野市（詳細は公式サイトでご確認ください）',
     popularPlan: { name: '人気プラン', description: '長野駅から徒歩5分のパーソナルピラティススタジオです。完全個室で最新のマシ', price: 'パーソナル制（詳細は公式サイト）' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
   {
@@ -47,7 +47,7 @@ const studios = [
     address: '長野県長野市高田五分一427−5 ヤナビル2F西',
     popularPlan: { name: '人気プラン', description: '長野市高田に位置する完全マンツーマンマシンピラティスです。長野駅から車で1', price: '月3回 29,700円〜' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
-    userProfile: { ageRange: '20代〜50代が中心', genderRatio: '女性80% / 男性20%', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
+    userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
   },
 ]

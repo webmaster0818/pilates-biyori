@@ -136,7 +136,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性90% / 男性10%',
       purpose: ['柔軟性向上', '姿勢改善', 'リフレッシュ', '健康維持'],
     },
     basicInfo: {

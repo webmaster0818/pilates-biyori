@@ -46,7 +46,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心（全体の80%）',
-      genderRatio: '女性90% / 男性10%',
       purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
     },
     basicInfo: {
@@ -110,7 +109,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜50代と幅広い',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['時短トレーニング', '体力維持', 'ダイエット', '運動習慣づくり'],
     },
     basicInfo: {
@@ -172,7 +170,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
-      genderRatio: '女性70% / 男性30%',
       purpose: ['体幹強化', '姿勢改善', '夫婦で通う', '健康維持'],
     },
     basicInfo: {
@@ -233,7 +230,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['ボディメイク', '姿勢改善', 'ダイエット', '体幹強化'],
     },
     basicInfo: {
@@ -264,7 +260,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['短時間で効率的に', 'ボディメイク', '体幹強化', 'ダイエット'],
     },
     basicInfo: {
@@ -294,7 +289,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '30代〜60代が中心',
-      genderRatio: '女性75% / 男性25%',
       purpose: ['体の不調改善', 'リハビリ', '姿勢改善', '体幹強化'],
     },
     basicInfo: {
@@ -324,7 +318,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜50代と幅広い',
-      genderRatio: '女性90% / 男性10%',
       purpose: ['柔軟性向上', '体幹強化', 'シルクサスペンション', 'リフレッシュ'],
     },
     basicInfo: {
@@ -384,7 +377,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
-      genderRatio: '女性75% / 男性25%',
       purpose: ['自分のペースで', '料金重視', '早朝・深夜利用', 'マシンピラティス'],
     },
     basicInfo: {
@@ -445,7 +437,6 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜50代と幅広い',
-      genderRatio: '女性85% / 男性15%',
       purpose: ['ホットヨガも楽しみたい', 'デトックス', 'ダイエット', 'リフレッシュ'],
     },
     basicInfo: {

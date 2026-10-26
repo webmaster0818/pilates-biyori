@@ -88,7 +88,6 @@ const studios = [
     options: ['総合スポーツクラブ', 'マットピラティス', '豊富なプログラム', 'プール・ジム併設', '体験レッスンあり'],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性80% / 男性20%',
       purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'],
     },
     basicInfo: {
