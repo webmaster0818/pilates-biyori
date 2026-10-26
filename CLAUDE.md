@@ -1151,3 +1151,13 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - 記事: online-vs-studio-pilates に「1回あたりで比べる」（安い意図・個別比較は pilates-online へ）／online-pilates-koka は導線整理のみ／pilates-hundred-method に呼吸カウント・修正版・FAQ、断言を削除
 - 判断待ち: 築地 Pilasuru 東銀座・Star Pilates 築地（公式で実在確認できず）／虎ノ門5店とも虎ノ門駅徒歩圏外／東京駅 excel日本橋（馬喰町）・ルルト（体験停止）／八王子 IVY 体験停止／伊勢原 公式でマシン確認できる店0／駒沢 yoga-komazawa・komazawa-daigaku・komazawa の3頁食い合い／京都駅 IVY Ⅱ店未掲載／BDC 二子玉川 rating 4.7 vs Google 4.6
 - 計測リンク source 1,949件・138種／out・deploy 3,827件・151種（前後一致）・precheck ✅ 589頁
+
+### 2026-10-26 朝ルーチン: 出典の無い男女比を削除（既定案A・10/25宣言→回答なし）＋BDC表参道/ルルト横浜/Beat Pilates 日本橋 ✅（source 7e6a874b・8f1e7eff / deploy 722c019fe3）
+- genderRatio のパーセント表記（女性専用系を除く）を**データから行ごと削除: 742行・217ファイル**（棚卸し 10/22 時点 747＝その後 10/25 までにカード側の訂正で6減。app/area 741＋test-ikebukuro 1）。女性専用系・「男女ともに利用可」等はそのまま。表示は 10/8 から lib/studioDisplay.ts で落としているので見た目は不変
+- 本文2か所: /area/kannai/ FAQ「zen placeは男性比率が約20%…」を削除／pilates-for-men「男性比率20〜30%が当たり前」→「zen place などの男女共用スタジオは男性も利用できます」
+- sitemap: generate-sitemap.mjs の normLine で genderRatio（男性n%を含む値）の削除を lastmod に数えない（217頁が今日にならないように）。10/25 の dirty ビルドで 10/25 になっていたブランドページは git どおり 10/24 に戻った
+- Beat Pilates 日本橋小伝馬町店（公式 beat-pilates.com/nihonbashi/・10/26）: 体験 1,500→0円（10月末まで・通常3,300円・45分）、月3回 9,600→9,000円〜、月4回 11,520→11,200円〜、営業時間→8:00〜21:30。料金相場「9,600円〜」→9,000円〜（2か所）。⚠️ 11/1 以降は体験が通常3,300円に戻る可能性→再確認
+- BDC 表参道（公式 bdcpilates.com/omotesando・10/26）: 「体験・入会は現在締め切っています」は**HTMLコメント内（非表示）のプライベートの文言**で、表示中はグループのキャンペーン画像 campaign_common_img1a（体験 通常4,070円→今だけ1,100円・10/31まで・グループのみ）。omotesando カード 3,850円→1,100円・popularPlan 月4回16,280円、aoyama-itchome カード「0円」→1,100円＋FAQ/本文「BDCは無料体験」3か所、data/bdc-stores.ts の bdc-omotesando trial。⚠️ bdc-ebisu の trial「0円」は未照合（同じキャンペーンなら1,100円）
+- ルルト横浜（公式 tenpo/pilates_yokohama/・10/26）: 公式ページ内で「横浜駅西口から徒歩8分」（紹介文）と「横浜駅 徒歩5分 / 神奈川駅 徒歩5分」（アクセス欄）が食い違う→徒歩分数は出さず「横浜駅西口・神奈川駅が最寄り」に。公式には横浜2号店（西区高島2-10-20・東口徒歩3分・体験1,000円）もあり未掲載
+- 計測リンク out/deploy 3,977件・159種（前後一致）・precheck ✅ 589頁・functions/api 保全
+- 残: 「男性比率高」等の数値なしの記述（pilates-for-men 表・pilates-for-running）は出典なしのまま
