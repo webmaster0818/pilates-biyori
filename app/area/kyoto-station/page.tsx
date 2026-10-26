@@ -17,8 +17,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kyoto-station/' },
-  title: '京都駅のピラティス5選｜駅から徒歩分・体験料金・定休日を公式で比較',
-  description: '京都駅のピラティススタジオ5店を、京都駅からの徒歩分順の早見表で比較。体験料金・月額・営業時間・定休日は各公式ページで2026年10月25日に確認した値です。女性専用・男性可・マシン対応もわかります。',
+  title: '京都駅のピラティス5選｜京都駅前の徒歩5分圏・体験料金・定休日を公式で比較',
+  description: '京都駅 ピラティスを徒歩分順に比較。Hain pilates・Rintosull・STUDIO IVY京都駅前（同じビルに3店）と四条烏丸の店を、体験料金・月額・営業時間・定休日の早見表で（2026年10月26日公式確認）。女性専用・男性可もわかります。',
   keywords: 'ピラティス,京都駅,京都,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -59,7 +59,7 @@ const studios = [
     name: 'STUDIO IVY 京都駅前店',
     image: '/images/studios/studio-ivy.webp',
     price: '月2回 15,000円〜',
-    trial: '体験レッスン 4,500円',
+    trial: '初回体験 無料（10/1〜11/30のキャンペーン・通常4,500円）',
     features: ['完全パーソナル', 'マシンピラティス', 'オーダーメイド', '完全プライベート空間'],
     description: '完全パーソナルのマシンピラティススタジオです。完全プライベート空間でオーダーメイドのプログラムを提供しています。月2回15,000円〜です。一人ひとりの目標に合わせた指導で効率的にボディメイクを目指せます。',
     access: 'JR「京都駅」徒歩5分',
@@ -72,7 +72,7 @@ const studios = [
     options: [
       '月4回プラン',
       '月8回プラン',
-      '体験レッスン 4,500円',
+      '初回体験 通常4,500円（10/1〜11/30は無料）',
       'オーダーメイドプログラム',
     ],
     userProfile: {
@@ -301,13 +301,14 @@ export default function KyotoStationPage() {
           </div>
         </section>
 
-        <section className="py-12 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">京都駅からの徒歩分で比べる早見表</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">京都駅から近い順に並べました。徒歩分・体験料金・営業時間・定休日は各スタジオの公式ページの表記です（2026年10月25日確認・税込）。京都駅から徒歩圏は3店で、いずれも公式の案内は中央口（烏丸口側）からの徒歩分か、出口の指定なしです。八条口からの徒歩分を公式に載せている店舗はありませんでした。四条烏丸の2店は京都駅から地下鉄烏丸線で2駅です。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">京都駅から</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">営業時間／定休日</th></tr></thead><tbody>
+        <section className="py-12 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">京都駅からの徒歩分で比べる早見表</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">京都駅から近い順に並べました。徒歩分・体験料金・営業時間・定休日は各スタジオの公式ページの表記です（2026年10月25日確認・STUDIO IVY は10月26日に再確認・税込）。京都駅から徒歩圏は3店で、いずれも公式の案内は中央口（烏丸口側）からの徒歩分か、出口の指定なしです。八条口からの徒歩分を公式に載せている店舗はありませんでした。四条烏丸の2店は京都駅から地下鉄烏丸線で2駅です。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">京都駅から</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">営業時間／定休日</th></tr></thead><tbody>
           <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Hain pilates 京都駅店（東塩小路町547-3 明石屋ビル6階）</td><td className="px-4 py-3">JR中央口 徒歩4分／地下鉄3番出口 徒歩5分</td><td className="px-4 py-3">30分のパーソナル（女性専用）</td><td className="px-4 py-3">2,200円</td><td className="px-4 py-3">平日 10:00〜22:00・土祝 9:00〜19:00／日曜</td></tr>
           <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Rintosull 京都駅前店（七条通鳥丸東入真苧屋町195 福井ビル4F）</td><td className="px-4 py-3">JR中央出口 徒歩5分</td><td className="px-4 py-3">マシングループ（女性専用）</td><td className="px-4 py-3">無料体験会 0円</td><td className="px-4 py-3">店舗ページに記載なし／毎週日曜・第4水曜</td></tr>
-          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">STUDIO IVY 京都駅前店（小稲荷町85 Grand-K京都駅前ビル801）</td><td className="px-4 py-3">徒歩5分（出口の記載なし）</td><td className="px-4 py-3">マンツーマン（男性も可）</td><td className="px-4 py-3">公式ページ内に「無料」と「4,500円」の両方の表記あり</td><td className="px-4 py-3">8:00〜21:00／記載なし</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">STUDIO IVY 京都駅前店（小稲荷町85 Grand-K京都駅前ビル801）</td><td className="px-4 py-3">徒歩5分（出口の記載なし）</td><td className="px-4 py-3">マンツーマン（男性も可）</td><td className="px-4 py-3">通常4,500円（50分）→ 10/1〜11/30 は初回体験無料</td><td className="px-4 py-3">8:00〜21:00／記載なし</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">STUDIO IVY 京都駅前Ⅱ店・Ⅲ店（同じGrand-K京都駅前ビルの702・202）<br /><span className="text-xs text-warm-500">※下のカードには未掲載</span></td><td className="px-4 py-3">徒歩5分（出口の記載なし）</td><td className="px-4 py-3">マンツーマン（男性も可）</td><td className="px-4 py-3">通常4,500円（50分）→ 10/1〜11/30 は初回体験無料</td><td className="px-4 py-3">8:00〜21:00／記載なし（月2回15,000円・月4回28,000円・月8回52,000円＝Ⅱ店）</td></tr>
           <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">ピラティスK 京都四条烏丸店（立売西町66 京都証券ビル6F）</td><td className="px-4 py-3">地下鉄で2駅（四条駅1番出口 徒歩4分・阪急烏丸駅 東改札口 徒歩1分）</td><td className="px-4 py-3">マシングループ（女性専用）</td><td className="px-4 py-3">0円</td><td className="px-4 py-3">火・水・金 10:00〜15:00／17:00〜22:00、木 17:30〜22:00、土祝 10:00〜19:00、日 10:00〜17:30／月曜</td></tr>
           <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">zen place pilates 京都スタジオ（四条通富小路西入立売東町14 イシズミ本社ビル9階）</td><td className="px-4 py-3">地下鉄で2駅（四条駅12番出口 徒歩1分）</td><td className="px-4 py-3">マット・マシンのグループ・プライベート（男女共用）</td><td className="px-4 py-3">マットグループ 1,000円／マシン 初回キャンペーン 3,000円</td><td className="px-4 py-3">平日 7:00〜22:00・土日祝 7:10〜18:00／記載なし</td></tr>
-        </tbody></table></div><p className="text-warm-600 leading-relaxed mt-4 text-sm">新幹線や在来線の乗り換えついでに通うなら、中央口から近い Hain pilates（30分パーソナル）か Rintosull（月4回 8,800円＋運営管理費680円）が候補です。男性も通えるのは STUDIO IVY と zen place の2店です。日曜に通いたい方は、日曜が定休の Hain pilates・Rintosull を避けて、日曜も営業しているピラティスK・zen place（四条烏丸）を比べてみてください。STUDIO IVY の体験料金はページ内で表記が分かれているため、予約時にご確認ください。</p></div></section>
+        </tbody></table></div><p className="text-warm-600 leading-relaxed mt-4 text-sm">新幹線や在来線の乗り換えついでに通うなら、中央口から近い Hain pilates（30分パーソナル）か Rintosull（月4回 8,800円＋運営管理費680円）が候補です。男性も通えるのは STUDIO IVY と zen place の2店です。日曜に通いたい方は、日曜が定休の Hain pilates・Rintosull を避けて、日曜も営業しているピラティスK・zen place（四条烏丸）を比べてみてください。STUDIO IVY は京都駅前の同じビルに3店（801・702・202）あり、11月30日までは初回体験が無料です（通常4,500円）。予約の取りやすい店舗を選べます。</p><p className="text-warm-500 leading-relaxed mt-2 text-xs">STUDIO IVY の確認元（2026年10月26日）: <a href="https://www.pilates-ivy.jp/studio/kyotoekimae" target="_blank" rel="noopener" className="underline">京都駅前店</a>／<a href="https://www.pilates-ivy.jp/studio/kyotoekimae2" target="_blank" rel="noopener" className="underline">京都駅前Ⅱ店</a>／<a href="https://www.pilates-ivy.jp/studio/kyotoekimaeiii" target="_blank" rel="noopener" className="underline">京都駅前Ⅲ店</a></p></div></section>
 
         <PriceComparisonTable studios={studios} areaName="京都駅" />
         <AreaMarketComparison studios={studios} areaName="京都駅" />

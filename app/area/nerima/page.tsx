@@ -148,17 +148,17 @@ const studios = [
     name: 'Pilates Mee 練馬店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
-    price: '1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合',
+    price: '1回あたり3,750円 ※37,500円の通い放題コースを月10回利用した場合・公式の算出',
     priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
     trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '1インストラクターにつき最大3名のセミパーソナル方式のマシンピラティススタジオです。1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と手頃な価格でリフォーマーを使った本格レッスンを受けられます。',
+    description: '1インストラクターにつき最大3名のセミパーソナル方式のマシンピラティススタジオです。1回あたり3,750円（※37,500円の通い放題コースを月10回利用した場合・公式の算出）と手頃な価格でリフォーマーを使った本格レッスンを受けられます。',
     access: '練馬駅 徒歩1分',
     address: '〒176-0012 東京都練馬区豊玉北5丁目18-13 大鳥ビル 303',
     popularPlan: {
       name: 'セミパーソナルプラン',
       description: '最大3名のセミパーソナルマシンピラティスです。',
-      price: '1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合',
+      price: '1回あたり3,750円 ※37,500円の通い放題コースを月10回利用した場合・公式の算出',
     },
     userProfile: {
       ageRange: '20代〜40代が中心',
@@ -357,11 +357,11 @@ export default function NerimaPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">1回あたり2,500円〜16,940円（※Pilates Meeは37,500円の通い放題コースで15日通った場合）</td>
+                    <td className="px-4 py-3">1回あたり3,750円〜16,940円（※Pilates Meeは37,500円の通い放題コースを月10回利用した場合・公式の算出）</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回あたり2,500円〜38,280円（※Pilates Meeは37,500円の通い放題コースで15日通った場合）</td>
+                    <td className="px-4 py-3">1回あたり3,750円〜38,280円（※Pilates Meeは37,500円の通い放題コースを月10回利用した場合・公式の算出）</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>

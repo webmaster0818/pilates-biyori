@@ -15,7 +15,7 @@ import { STUDIO_REVIEWS } from '@/data/studio-reviews'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kumamoto/' },
-  title: 'ピラティス熊本おすすめ4選｜料金比較とリントスル ゆめタウンサンピアン店の口コミ',
+  title: 'ピラティス熊本おすすめ4選｜リントスル ゆめタウンサンピアン店の口コミ・料金とゆめタウン光の森・荒尾のピラティスK',
   description: '熊本エリアのおすすめピラティススタジオ4選を料金・体験レッスンで比較。熊本のゆめタウンにあるRintosull（リントスル）ゆめタウンサンピアン店の料金（月4回8,800円〜）・口コミ・アクセスも公式で確認して掲載しています。',
   keywords: 'ピラティス,熊本,熊本市,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -55,8 +55,8 @@ const studios = [
     trial: '体験レッスン 0円',
     features: ['女性専用', 'マシン専門', '音楽レッスン', '5パート別ボディメイク'],
     description: '女性専用のマシンピラティス専門スタジオです。音楽に合わせたリフォーマーレッスンで楽しく続けられます。5パート別ボディメイクプログラムで部位ごとに集中トレーニングです。体験0円です。',
-    access: '熊本市内（詳細は公式サイトでご確認ください）',
-    address: '熊本県熊本市エリア（詳細は公式サイトでご確認ください）',
+    access: '市電「通町筋」電停 徒歩1分（駐車場なし）',
+    address: '熊本県熊本市中央区上通町1番22号 大進プラザビル5階',
     popularPlan: {
       name: 'マンスリー4メンバー',
       description: '女性専用マシンピラティス月4回です。音楽に合わせた楽しいレッスンです。',
@@ -75,7 +75,7 @@ const studios = [
     },
     basicInfo: {
       hours: '公式サイトでご確認ください',
-      closed: '不定休',
+      closed: '月曜日（公式店舗ページ・2026年10月26日確認）',
       facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'パウダールーム'],
     },
   },
@@ -314,6 +314,13 @@ export default function KumamotoPage() {
               <li>家族に勧められて（家族が通っているのを見て）始めたという声が両方に見られます。</li>
               <li>キャンペーン加入時の契約期間・クーリングオフ・体験当日契約の条件に触れた★3の指摘が両方にあります。現在の公式の適用条件（特別価格終了後12ヶ月間の継続）と合わせて、契約前に確認してください。</li>
             </ul>
+            <h3 className="text-lg font-bold text-warm-900 mt-10 mb-3" id="yumetown-kumamoto-others">熊本のほかのゆめタウンにあるピラティス（ピラティス K）</h3>
+            <p className="text-warm-600 text-sm leading-relaxed mb-4">熊本県内のゆめタウンには、Rintosull のサンピアン店のほかに、女性専用マシンピラティスの ピラティス K が2店あります（公式の店舗ページ・2026年10月26日確認・税込）。どちらも下のカードには載せていない店舗です。店舗ページに載っている利用者の声は銀座・池袋などほかの店舗のもので、両店の口コミではありません。</p>
+            <div className="overflow-x-auto mb-6"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">店舗（住所）</th><th className="px-4 py-3 text-left">アクセス・駐車場</th><th className="px-4 py-3 text-left">料金（月額）</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">定休日</th></tr></thead><tbody>
+              <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ピラティス K ゆめタウン光の森店（菊陽町光の森7-33-1 南館1階）</td><td className="px-4 py-3">JR光の森駅 北口 徒歩2分／無料駐車場（立体駐車場は22:30以降出庫不可）</td><td className="px-4 py-3">月4回 11,220円・月8回 15,070円・プレミアム 17,820円＋施設維持費 825円（初期費用 13,530円）</td><td className="px-4 py-3">0円</td><td className="px-4 py-3">月曜</td></tr>
+              <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">ピラティス K ゆめタウン荒尾シティモール店（荒尾市緑ヶ丘1-1-1 2階）</td><td className="px-4 py-3">無料駐車場あり（2026年8月9日オープン）</td><td className="px-4 py-3">同上（月4回 11,220円〜）</td><td className="px-4 py-3">0円</td><td className="px-4 py-3">日曜・月曜</td></tr>
+            </tbody></table></div>
+            <p className="text-warm-500 text-xs leading-relaxed mb-8">確認元: <a href="https://pilates-k.jp/studio/kumamoto-ken/hikarinomori" target="_blank" rel="noopener noreferrer" className="underline">ピラティスK ゆめタウン光の森店</a>／<a href="https://pilates-k.jp/studio/kumamoto-ken/arao" target="_blank" rel="noopener noreferrer" className="underline">ピラティスK ゆめタウン荒尾シティモール店</a>。市街地の ピラティス K 熊本店（上通町・通町筋 徒歩1分）は月4回 13,420円の料金帯で、ゆめタウン内の2店より高くなります。全国のゆめタウン内ピラティスの料金は<a href="/area/himeji/#yumetown-all" className="underline">姫路のページの早見表</a>にまとめています。</p>
           </div>
         </section>
 

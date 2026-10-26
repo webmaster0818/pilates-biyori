@@ -17,8 +17,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/yoga-komazawa/' },
-  title: '駒沢大学・用賀のピラティス6選｜駅徒歩分・体験料金・営業時間を比較',
-  description: '駒沢大学駅・用賀駅のピラティススタジオ6選を、駅からの徒歩分順の早見表で比較。体験料金・営業時間・定休日・マシン/マットの区分を各公式サイトで確認して掲載しています（2026年10月25日確認）。',
+  title: '駒沢大学のピラティス6選｜駒沢大学駅からの徒歩分・体験料金・女性専用を比較（用賀も）',
+  description: '駒沢大学 ピラティスを駅から近い順に比較。Pilates Mee（徒歩1分）・noa・zen place・ELEMENT に、Floria・FLATTE・STUDIO IVY 用賀店も加えた早見表で、体験料金・営業時間・女性専用か男性可かを各公式サイトで確認（2026年10月25〜26日）。',
   keywords: 'ピラティス,駒沢大学,用賀,駒沢,世田谷,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -152,17 +152,17 @@ const studios = [
     name: 'Pilates Mee 駒沢大学店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
-    price: '1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合',
+    price: '1回あたり3,750円 ※37,500円の通い放題コースを月10回利用した場合・公式の算出',
     priceList: ['初回体験レッスン 0円（公式の店舗ページ表示・2026年10月25日確認）', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
     trial: '初回体験レッスン 0円（公式の店舗ページ表示・2026年10月25日確認）',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '1インストラクターにつき最大3名のセミパーソナル方式のマシンピラティススタジオです。1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と手頃な価格でリフォーマーを使った本格レッスンを受けられます。国道246号線沿いのビル4階です。',
+    description: '1インストラクターにつき最大3名のセミパーソナル方式のマシンピラティススタジオです。1回あたり3,750円（※37,500円の通い放題コースを月10回利用した場合・公式の算出）と手頃な価格でリフォーマーを使った本格レッスンを受けられます。国道246号線沿いのビル4階です。',
     access: '駒沢大学駅 徒歩1分',
     address: '〒154-0012 東京都世田谷区駒沢1丁目4-14　4階',
     popularPlan: {
       name: 'セミパーソナルプラン',
       description: '最大3名のセミパーソナルマシンピラティスです。',
-      price: '1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合',
+      price: '1回あたり3,750円 ※37,500円の通い放題コースを月10回利用した場合・公式の算出',
     },
     userProfile: {
       ageRange: '20代〜40代が中心',
@@ -220,7 +220,7 @@ const faqs = [
   },
   {
     question: '用賀・駒沢のピラティスの料金相場は？',
-    answer: 'グループ月4回で10,450円〜11,000円程度です。zen placeが月4回10,450円〜、noaが月4回11,000円です。セミパーソナルのPilates Meeは1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と格安です。',
+    answer: 'グループ月4回で10,450円〜11,000円程度です。zen placeが月4回10,450円〜、noaが月4回11,000円です。セミパーソナルのPilates Meeは1回あたり3,750円（※37,500円の通い放題コースを月10回利用した場合・公式の算出）と格安です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -329,13 +329,16 @@ export default function YogaKomazawaPage() {
           </div>
         </section>
 
-        <section className="py-12 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">駒沢大学駅からの徒歩分で比べる早見表</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">「駒沢大学 ピラティス」で探す方向けに、掲載店を駒沢大学駅から近い順に並べました。住所・徒歩分・体験料金・営業時間は各スタジオの公式サイトの表記です（2026年10月25日確認・税込）。公式に記載がない項目は「記載なし」としています。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">駒沢大学駅から</th><th className="px-4 py-3 text-left">形式（マシン/マット）</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">営業時間・定休日</th></tr></thead><tbody>
+        <section className="py-12 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">駒沢大学駅からの徒歩分で比べる早見表</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">「駒沢大学 ピラティス」で探す方向けに、掲載店を駒沢大学駅から近い順に並べました。住所・徒歩分・体験料金・営業時間は各スタジオの公式サイトの表記です（2026年10月25日確認・「未掲載」と付けた3店は10月26日確認・税込）。公式に記載がない項目は「記載なし」としています。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">駒沢大学駅から</th><th className="px-4 py-3 text-left">形式（マシン/マット）</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">営業時間・定休日</th></tr></thead><tbody>
           <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Pilates Mee 駒沢大学店（駒沢1-4-14 4階）</td><td className="px-4 py-3">徒歩1分</td><td className="px-4 py-3">マシン（最大3名のセミパーソナル・パーソナル）</td><td className="px-4 py-3">初回体験レッスン 0円</td><td className="px-4 py-3">9:00〜21:15・不定休</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Floria（世田谷区上馬3-14-11 YSDビル7階）<br /><span className="text-xs text-warm-500">※下のカードには未掲載（10月26日追加）</span></td><td className="px-4 py-3">徒歩2分</td><td className="px-4 py-3">女性専用のパーソナル（月2回15,840円・月4回29,920円）</td><td className="px-4 py-3">3,300円（通常6,240円）</td><td className="px-4 py-3">10:00〜21:00・定休日は記載なし</td></tr>
           <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">ピラティススタジオnoa 駒沢（上馬4-2-7 8F）</td><td className="px-4 py-3">西口 徒歩2分（公式ページ内に徒歩3分の表記もあり）</td><td className="px-4 py-3">マシン（女性専用）</td><td className="px-4 py-3">1,100円（当日入会で全額キャッシュバック）</td><td className="px-4 py-3">店舗の営業時間・定休日は記載なし（電話受付 平日10:00〜23:00・土日10:00〜21:00）</td></tr>
           <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">zen place pilates 駒沢スタジオ（目黒区東が丘2-12-20 B1階）</td><td className="px-4 py-3">駒沢公園口 徒歩4分</td><td className="px-4 py-3">マットグループ・マシングループ（リフォーマー）・プライベート</td><td className="px-4 py-3">初回体験キャンペーン マット1,000円・マシン3,000円／プライベート9,900円〜</td><td className="px-4 py-3">平日 7:00〜21:30・土日祝 7:00〜19:00（休館日は記載なし）</td></tr>
           <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">ELEMENT 駒沢大学店（野沢4-22-11 アトラス駒沢大学 1F）</td><td className="px-4 py-3">東口 徒歩約5分</td><td className="px-4 py-3">マシン（1回30分のマンツーマン）</td><td className="px-4 py-3">カウンセリング＋体験 3,300円（カウンセリングのみ無料）</td><td className="px-4 py-3">10:00〜22:00・年中無休</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">FLATTE パーソナルマシンピラティス 駒沢大学店（世田谷区駒沢2-6-16-101）<br /><span className="text-xs text-warm-500">※下のカードには未掲載（10月26日追加）</span></td><td className="px-4 py-3">徒歩分の記載なし</td><td className="px-4 py-3">マシンのパーソナル（キャンペーン価格 月2回17,600円・月4回31,900円）</td><td className="px-4 py-3">0円（「今だけ」の表記）</td><td className="px-4 py-3">営業時間の記載なし・不定休</td></tr>
           <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">zen place pilates 用賀スタジオ（世田谷区用賀4-3-3 ブァイデビル 3階）</td><td className="px-4 py-3">—（田園都市線で1駅・用賀駅 東口 徒歩3分）</td><td className="px-4 py-3">マットグループ・マシングループ（リフォーマー）・プライベート</td><td className="px-4 py-3">初回体験キャンペーン マット1,000円・マシン3,000円／プライベート9,900円〜</td><td className="px-4 py-3">平日 7:30〜20:15・土日祝 7:15〜17:30（休館日は記載なし）</td></tr>
-        </tbody></table></div><p className="text-warm-600 leading-relaxed mt-4 text-sm">駅からの行き方（各公式サイトの案内）: Pilates Mee 駒沢大学店は改札を出て駒沢公園口方面へ進み、国道246号沿いのビル4階です。zen place pilates 駒沢スタジオは東口を出て左へ進み、自由通りを駒沢公園方面へ直進します。I_PILATES は今回公式サイトを確認できなかったため表に含めていません（店舗カードの記載は駒沢公園から徒歩1分）。</p><p className="text-warm-600 leading-relaxed mt-2 text-sm">駅のすぐそばでマシンを少人数で受けたい場合は Pilates Mee、女性専用のマシンスタジオなら noa、マットのグループで安く始めたい場合や早朝に通いたい場合は zen place、短時間のマンツーマンを高頻度で受けたい場合は ELEMENT が候補です。</p></div></section>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">STUDIO IVY 用賀店（世田谷区用賀4-12-5 Y&amp;Gパディオ202）<br /><span className="text-xs text-warm-500">※下のカードには未掲載（10月26日追加）</span></td><td className="px-4 py-3">—（田園都市線で1駅・用賀駅 徒歩3分）</td><td className="px-4 py-3">マシンのマンツーマン（男性も可）</td><td className="px-4 py-3">4,500円</td><td className="px-4 py-3">8:00〜21:00・定休日は記載なし</td></tr>
+        </tbody></table></div><p className="text-warm-600 leading-relaxed mt-4 text-sm">駅からの行き方（各公式サイトの案内）: Pilates Mee 駒沢大学店は改札を出て駒沢公園口方面へ進み、国道246号沿いのビル4階です。zen place pilates 駒沢スタジオは東口を出て左へ進み、自由通りを駒沢公園方面へ直進します。I_PILATES は今回公式サイトを確認できなかったため表に含めていません（店舗カードの記載は駒沢公園から徒歩1分）。</p><p className="text-warm-600 leading-relaxed mt-2 text-sm">駅のすぐそばでマシンを少人数で受けたい場合は Pilates Mee、女性専用のマシンスタジオなら noa、マットのグループで安く始めたい場合や早朝に通いたい場合は zen place、短時間のマンツーマンを高頻度で受けたい場合は ELEMENT が候補です。</p><p className="text-warm-500 leading-relaxed mt-2 text-xs">追加した3店の確認元（2026年10月26日）: <a href="https://floria-pilates.jp/" target="_blank" rel="noopener" className="underline">Floria</a>／<a href="https://flatte.jp/location/komazawadaigaku-pilates/" target="_blank" rel="noopener" className="underline">FLATTE 駒沢大学店</a>／<a href="https://www.pilates-ivy.jp/studio/youga" target="_blank" rel="noopener" className="underline">STUDIO IVY 用賀店</a></p></div></section>
 
         <PriceComparisonTable studios={studios} areaName="用賀・駒沢" />
         <AreaMarketComparison studios={studios} areaName="用賀・駒沢" />
@@ -376,7 +379,7 @@ export default function YogaKomazawaPage() {
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回あたり2,500円〜38,280円（※Pilates Meeは37,500円の通い放題コースで15日通った場合）</td>
+                    <td className="px-4 py-3">1回あたり3,750円〜38,280円（※Pilates Meeは37,500円の通い放題コースを月10回利用した場合・公式の算出）</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>

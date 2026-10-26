@@ -13,8 +13,8 @@ import { AreaConclusion } from '@/components/AreaConclusion'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/isehara/' },
-  title: '伊勢原のピラティス・マシンピラティスおすすめ｜駅徒歩・体験料金で比較',
-  description: '伊勢原でマシンピラティスに通える駅近スタジオを、伊勢原駅からの徒歩分・体験料金・営業時間・定休日・マシン/マットの区分で比較。各値は公式サイトで2026年10月25日に確認しています。',
+  title: '伊勢原のマシンピラティス4店｜伊勢原駅徒歩2〜4分・体験0円〜を比較（ピラティスおすすめも）',
+  description: '伊勢原 マシンピラティスを駅から近い順に比較。女性専用で体験500円のLilly（南口2分）、パーソナルのIGNITE（2分）・ピース（北口3分）、5人制で体験0円のPilates Mee Life（4分）の料金・営業時間・定休日を公式サイトで確認（2026年10月25〜26日）。',
   keywords: 'ピラティス,伊勢原,神奈川県伊勢原市,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -31,7 +31,7 @@ const studios = [
     popularPlan: { name: 'ヨガ&ピラティス', description: '月160本以上の豊富なレッスンです。', price: '要問合せ（公式サイト参照）' },
     options: ['体験レッスンあり', '各種プラン', '詳細は公式サイト参照'],
     userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
+    basicInfo: { hours: '公式サイトでご確認ください', closed: '公式サイトでご確認ください', facilities: ['公式サイトでご確認ください'] },
   },
   {
     name: 'eneインナービューティ',
@@ -45,7 +45,7 @@ const studios = [
     popularPlan: { name: 'プライベートレッスン', description: '美脚美姿勢のプライベートです。', price: '要問合せ（公式サイト参照）' },
     options: ['体験レッスンあり', '各種プラン', '詳細は公式サイト参照'],
     userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
+    basicInfo: { hours: '公式サイトでご確認ください', closed: '公式サイトでご確認ください', facilities: ['公式サイトでご確認ください'] },
   },
   {
     name: 'ALA Dance Studio',
@@ -59,7 +59,7 @@ const studios = [
     popularPlan: { name: 'グループレッスン', description: '月4回×50分のグループです。', price: '要問合せ（公式サイト参照）' },
     options: ['体験レッスンあり', '各種プラン', '詳細は公式サイト参照'],
     userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
+    basicInfo: { hours: '公式サイトでご確認ください', closed: '公式サイトでご確認ください', facilities: ['公式サイトでご確認ください'] },
   },
   {
     name: 'セントラルスポーツ ジムスタ 伊勢原駅前',
@@ -73,7 +73,7 @@ const studios = [
     popularPlan: { name: 'スタジオレッスン', description: 'ピラティス「フィール」レッスンです。', price: '月額制（公式サイト参照）' },
     options: ['体験レッスンあり', '各種プラン', '詳細は公式サイト参照'],
     userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
+    basicInfo: { hours: '公式サイトでご確認ください', closed: '公式サイトでご確認ください', facilities: ['公式サイトでご確認ください'] },
   },
   {
     name: 'トータルフィットネススタジオファースト',
@@ -81,7 +81,7 @@ const studios = [
     // 公式 https://www.totalfitnessstudiofirst.jp/ で確認（2026-10-25）: 住所・営業時間・定休日・体験料・月会費。ピラティスはマットのグループ（マシンピラティスの記載なし）
     price: '月会費 4,400円（学生）〜14,300円（税込）',
     trial: '体験 2,200円（30分のパーソナルトレーニングかレッスン体験・税込・公式表記・2026年10月25日確認）',
-    features: ["ヨガ&ピラティス", "マシントレーニング", "多料金プラン", "学生可"],
+    features: ["ヨガ&ピラティス", "パーソナルトレーニング", "多料金プラン", "学生可"],
     description: 'ヨガ・ピラティス・パーソナルトレーニングの総合スタジオです。ピラティスはマットのグループレッスンで、公式サイトにマシンピラティスの記載はありません。月会費はレギュラー9,350円・デイ7,700円・ナイター5,500円・学生（高校生〜大学生）4,400円と料金プランが豊富です（税込・2026年10月25日確認）。',
     access: '公式サイトは地図での案内（伊勢原駅からの徒歩分の記載なし）',
     address: '神奈川県伊勢原市沼目3-10-36（メディカルケアパーク伊勢原 内）',
@@ -95,7 +95,7 @@ const studios = [
 const faqs = [
   { question: '伊勢原で初心者におすすめは？', answer: 'HARMONIEは幅広い年代が通います。セントラルスポーツは駅前で気軽に始められます。' },
   { question: '伊勢原の料金相場は？', answer: '公式表記（2026年10月25日確認・税込）では、マシンの少人数制 Pilates Mee Life 伊勢原店が月4回 14,800円、マシンのパーソナル IGNITE 伊勢原店が月4回 31,800円、マットのグループがあるトータルフィットネススタジオファーストがレギュラー会員 月9,350円です。' },
-  { question: '伊勢原でマシンピラティスができるスタジオは？', answer: '伊勢原駅から徒歩2分の IGNITE 伊勢原店（パーソナル）、北口徒歩3分のピース（マシン×整体のマンツーマン）、徒歩4分の Pilates Mee Life 伊勢原店（5人制の少人数）があります（各公式サイト・2026年10月25日確認）。体験は Pilates Mee Life が初回0円、ピースが50分3,300円です。' },
+  { question: '伊勢原でマシンピラティスができるスタジオは？', answer: '伊勢原駅南口から徒歩2分の yoga&pilates Lilly（女性専用・マシン4台の少人数）、徒歩2分の IGNITE 伊勢原店（パーソナル）、北口徒歩3分のピース（マシン×整体のマンツーマン）、徒歩4分の Pilates Mee Life 伊勢原店（5人制の少人数）があります（各公式サイト・2026年10月25日確認）。体験は Pilates Mee Life が初回0円、Lilly が初回限定500円（通常3,000円・10月26日確認）、ピースが50分3,300円です。' },
   { question: '男性が通えるスタジオは？', answer: 'HARMONIE、セントラルスポーツ、ファーストは男性利用可能です。' },
   { question: '伊勢原駅から近いスタジオは？', answer: 'eneインナービューティは北口徒歩3分、ALA Danceは徒歩5分です。' },
   { question: '体験レッスンの持ち物は？', answer: '動きやすい服装、飲み物、タオル、靴下です。' },
@@ -117,7 +117,7 @@ export default function IseharaPage() {
         { name: '伊勢原', url: 'https://biyori-pilates.com/area/isehara/' },
       ]} />
       <main className="pt-20 bg-white">
-        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年10月25日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">ピラティス伊勢原おすすめ5選<br className="hidden md:block" />マシンピラティスの体験料金・駅徒歩も比較</h1></div></section>
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年10月26日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">ピラティス伊勢原おすすめ5選<br className="hidden md:block" />マシンピラティスの体験料金・駅徒歩も比較</h1></div></section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">伊勢原</span></nav></div></section>
         <AreaConclusion studios={studios} areaName="伊勢原" />
 
@@ -125,11 +125,12 @@ export default function IseharaPage() {
         <TableOfContents areaName="伊勢原" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
         <section className="py-12 bg-white"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-600 leading-relaxed mb-8">本ページでは、伊勢原エリアでおすすめのピラティススタジオ5選をまとめました。</p><div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8"><h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2><ul className="space-y-2 text-warm-700"><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>伊勢原でピラティススタジオを探している</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金を抑えられるスタジオを知りたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>駅近で通いやすいスタジオがいい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較したい</span></li></ul></div><p className="text-warm-600 leading-relaxed">以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。</p></div></section>
         <section className="py-12 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">伊勢原駅からの徒歩分で比べるマシンピラティス早見表</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">「伊勢原 マシンピラティス」で探す方向けに、伊勢原駅周辺でリフォーマーなどのマシンを使うスタジオを駅から近い順に並べ、比較用にマットのグループがあるトータルフィットネススタジオファーストを加えました。徒歩分・住所・体験料金・営業時間・定休日は各スタジオの公式サイトの表記です（2026年10月25日確認・税込）。下の5選の掲載店とは一部異なります。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">伊勢原駅から</th><th className="px-4 py-3 text-left">マシン/マット・形式</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">営業時間・定休日</th></tr></thead><tbody>
-          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">パーソナルピラティススタジオ IGNITE 伊勢原店（桜台1-21-1）</td><td className="px-4 py-3">徒歩2分</td><td className="px-4 py-3">マシン・パーソナル（50分）</td><td className="px-4 py-3">無料体験の告知あり（実施期間の表記が公式内で不統一のため要確認）</td><td className="px-4 py-3">9:00〜21:00（平日・土日祝）／定休日の記載なし</td></tr>
-          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Pilates&amp;Conditioning Studio ピース（伊勢原1-18-5 細野ビル201）</td><td className="px-4 py-3">北口 徒歩3分</td><td className="px-4 py-3">マシン（リフォーマー・チェア等）×整体・マンツーマン</td><td className="px-4 py-3">体験トレーニング（50分）3,300円・入会金/事務手数料 無料</td><td className="px-4 py-3">月〜金 11:00〜20:00・土 10:00〜18:00／日曜休み</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">パーソナルピラティススタジオ IGNITE 伊勢原店（桜台1-21-1）</td><td className="px-4 py-3">徒歩2分</td><td className="px-4 py-3">マシン・パーソナル（50分）</td><td className="px-4 py-3">無料体験（公式の料金ページに「10・11月限定 無料体験実施中」・10月26日確認。トップページの告知は「1月限定」のまま）</td><td className="px-4 py-3">9:00〜21:00（平日・土日祝）／定休日の記載なし</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">yoga&amp;pilates Lilly（桜台1-9-9 相原ビル3・4F）<br /><span className="text-xs text-warm-500">※下のカードには未掲載（10月26日追加）</span></td><td className="px-4 py-3">南口 徒歩2分</td><td className="px-4 py-3">マシン4台の少人数グループ（3階）＋ヨガ・マット（4階）・女性専用</td><td className="px-4 py-3">マシンピラティス体験 500円（通常3,000円・初回限定）／入会金・事務手数料 0円</td><td className="px-4 py-3">営業時間・定休日は公式の料金・アクセスページに記載なし（提携駐車場 1レッスン30分無料）</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Pilates&amp;Conditioning Studio ピース（伊勢原1-18-5 細野ビル201）</td><td className="px-4 py-3">北口 徒歩3分</td><td className="px-4 py-3">マシン（リフォーマー・チェア等）×整体・マンツーマン</td><td className="px-4 py-3">体験トレーニング（50分）3,300円・入会金/事務手数料 無料</td><td className="px-4 py-3">月〜金 11:00〜20:00・土 10:00〜18:00／日曜休み</td></tr>
           <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Pilates Mee Life 伊勢原店（桜台1-12-3 小瀬村ビル3F）</td><td className="px-4 py-3">徒歩4分</td><td className="px-4 py-3">マシン・5人制の少人数（Pilates Meeとは別業態）</td><td className="px-4 py-3">初回体験 0円</td><td className="px-4 py-3">9:00〜21:15／不定休</td></tr>
           <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">トータルフィットネススタジオファースト（沼目3-10-36 メディカルケアパーク伊勢原内）</td><td className="px-4 py-3">徒歩分の記載なし（地図で案内）</td><td className="px-4 py-3">マット・グループ（マシンピラティスの記載なし）</td><td className="px-4 py-3">2,200円（30分）</td><td className="px-4 py-3">10:00〜20:00／木曜・日曜・祝日休み</td></tr>
-        </tbody></table></div><h3 className="text-lg font-bold text-warm-900 mt-8 mb-3">月額の目安（公式表記・2026年10月25日確認）</h3><ul className="text-warm-600 text-sm leading-relaxed space-y-1 list-disc pl-5"><li>IGNITE 伊勢原店：ピラティス50分 月2回 17,000円・月4回 31,800円・月6回 45,000円（ウェア上下・靴下レンタル 220円）</li><li>Pilates Mee Life 伊勢原店：月2回 8,800円・月4回 14,800円・月8回 22,000円・通い放題 24,600円</li><li>ピース：公式トップに月額プランの記載なし（体験時に要確認）</li><li>トータルフィットネススタジオファースト：レギュラー 9,350円・デイ 7,700円・ナイター 5,500円・学生 4,400円</li></ul><p className="text-warm-600 leading-relaxed mt-4 text-sm">マシンピラティスを少人数で安く続けたい場合は Pilates Mee Life（月4回 14,800円）、マンツーマンでマシンを使いたい場合は IGNITE・ピースが候補です。3店とも伊勢原駅から徒歩4分以内なので、仕事帰りや買い物ついでにも通えます。選択肢を広げたい方は、小田急線で2駅先（愛甲石田の次）の<Link href="/area/honatsugi/" className="text-warm-700 underline hover:text-warm-900">本厚木</Link>や、<Link href="/area/hiratsuka/" className="text-warm-700 underline hover:text-warm-900">平塚</Link>のページもあわせてご覧ください。HARMONIE・eneインナービューティ・ALA Dance Studio・セントラルスポーツ ジムスタ 伊勢原駅前は、本日公式ページで値を確認できなかったため早見表に入れていません。</p></div></section>
+        </tbody></table></div><h3 className="text-lg font-bold text-warm-900 mt-8 mb-3">月額の目安（公式表記・2026年10月25日確認）</h3><ul className="text-warm-600 text-sm leading-relaxed space-y-1 list-disc pl-5"><li>yoga&amp;pilates Lilly：マシン 4回券 14,000円（1ヶ月）・8回券 24,000円（2ヶ月）・1回券 4,000円／通い放題「トリプルプラン」15,800円（ヨガ・マット・マシン。マシンは1日1回・3か月以上の継続が条件。公式に「2026.11月より」料金改定の告知あり・10月26日確認）</li><li>IGNITE 伊勢原店：ピラティス50分 月2回 17,000円・月4回 31,800円・月6回 45,000円（ウェア上下・靴下レンタル 220円）</li><li>Pilates Mee Life 伊勢原店：月2回 8,800円・月4回 14,800円・月8回 22,000円・通い放題 24,600円</li><li>ピース：公式トップに月額プランの記載なし（体験時に要確認）</li><li>トータルフィットネススタジオファースト：レギュラー 9,350円・デイ 7,700円・ナイター 5,500円・学生 4,400円</li></ul><p className="text-warm-600 leading-relaxed mt-4 text-sm">マシンピラティスを少人数で安く続けたい場合は Pilates Mee Life（月4回 14,800円）、マンツーマンでマシンを使いたい場合は IGNITE・ピースが候補です。3店とも伊勢原駅から徒歩4分以内なので、仕事帰りや買い物ついでにも通えます。選択肢を広げたい方は、小田急線で2駅先（愛甲石田の次）の<Link href="/area/honatsugi/" className="text-warm-700 underline hover:text-warm-900">本厚木</Link>や、<Link href="/area/hiratsuka/" className="text-warm-700 underline hover:text-warm-900">平塚</Link>のページもあわせてご覧ください。HARMONIE・eneインナービューティ・ALA Dance Studio・セントラルスポーツ ジムスタ 伊勢原駅前は、本日公式ページで値を確認できなかったため早見表に入れていません。</p><p className="text-warm-500 leading-relaxed mt-2 text-xs">Lilly の確認元（2026年10月26日）: <a href="https://isehara-lilly.com/price/" target="_blank" rel="noopener" className="underline">料金/プラン</a>・<a href="https://isehara-lilly.com/access/" target="_blank" rel="noopener" className="underline">交通案内</a>・<a href="https://isehara-lilly.com/faq/" target="_blank" rel="noopener" className="underline">よくある質問</a>（女性専用）</p></div></section>
 
         <PriceComparisonTable studios={studios} areaName="伊勢原" />
         <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">伊勢原のおすすめピラティススタジオ5選</h2><div className="space-y-8">{[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>

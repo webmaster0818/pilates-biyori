@@ -88,16 +88,16 @@ const studios = [
     name: 'Pilates Mee 北千住店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
-    price: '1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合',
+    price: '1回あたり3,750円 ※37,500円の通い放題コースを月10回利用した場合・公式の算出',
     priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
     trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '女性専用セミパーソナルマシンピラティススタジオです。最大3名の少人数制で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と割安です。当日予約・当日キャンセル可能です。チケット繰り越し可能で無駄なく通えます。',
+    description: '女性専用セミパーソナルマシンピラティススタジオです。最大3名の少人数制で1回あたり3,750円（※37,500円の通い放題コースを月10回利用した場合・公式の算出）と割安です。当日予約・当日キャンセル可能です。チケット繰り越し可能で無駄なく通えます。',
     access: '北千住駅 徒歩3分',
     address: '〒120-0034 東京都足立区千住3丁目7 平松HMビル502',
     popularPlan: {
       name: '月額定額プラン',
-      description: '最大3名のセミパーソナルマシンピラティスです。1回あたり2,500円です（※37,500円の通い放題コースで15日通った場合）。',
+      description: '最大3名のセミパーソナルマシンピラティスです。1回あたり3,750円です（※37,500円の通い放題コースを月10回利用した場合・公式の算出）。',
       price: '月額制（公式サイト参照）',
     },
     userProfile: {
@@ -184,7 +184,7 @@ const faqs = [
   },
   {
     question: '北千住のピラティスの料金相場は？',
-    answer: 'セミパーソナルのPilates Meeは1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と格安です。当サイト掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は10,450円〜15,280円（the SILK 北千住店・zen place pilates 北千住スタジオ（マット）・2026年10月確認）です。パーソナルはELEMENTが月額5,500円〜で最安級です。',
+    answer: 'セミパーソナルのPilates Meeは1回あたり3,750円（※37,500円の通い放題コースを月10回利用した場合・公式の算出）と格安です。当サイト掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は10,450円〜15,280円（the SILK 北千住店・zen place pilates 北千住スタジオ（マット）・2026年10月確認）です。パーソナルはELEMENTが月額5,500円〜で最安級です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -204,7 +204,7 @@ const faqs = [
   },
   {
     question: '一番安いスタジオは？',
-    answer: 'Pilates Meeは1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）のセミパーソナルです。ELEMENTは月額5,500円〜のパーソナルです。北千住は料金を抑えられるスタジオが揃っています。',
+    answer: 'Pilates Meeは1回あたり3,750円（※37,500円の通い放題コースを月10回利用した場合・公式の算出）のセミパーソナルです。ELEMENTは月額5,500円〜のパーソナルです。北千住は料金を抑えられるスタジオが揃っています。',
   },
   {
     question: '無料で体験できるスタジオは？',
@@ -326,7 +326,7 @@ export default function KitaSenjuPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">1回あたり2,500円〜16,940円（※Pilates Meeは37,500円の通い放題コースで15日通った場合）</td>
+                    <td className="px-4 py-3">1回あたり3,750円〜16,940円（※Pilates Meeは37,500円の通い放題コースを月10回利用した場合・公式の算出）</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -427,10 +427,10 @@ export default function KitaSenjuPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合のスタジオもあります。
+                  1回あたり3,750円 ※37,500円の通い放題コースを月10回利用した場合・公式の算出のスタジオもあります。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Pilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）</li>
+                  <li className="text-warm-700">• Pilates Mee（1回あたり3,750円 ※37,500円の通い放題コースを月10回利用した場合・公式の算出）</li>
                   <li className="text-warm-700">• ELEMENT（月額 5,500円〜）</li>
                 </ul>
               </div>
@@ -441,7 +441,7 @@ export default function KitaSenjuPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• the SILK（月3回 13,280円〜）</li>
-                  <li className="text-warm-700">• Pilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）</li>
+                  <li className="text-warm-700">• Pilates Mee（1回あたり3,750円 ※37,500円の通い放題コースを月10回利用した場合・公式の算出）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -494,7 +494,7 @@ export default function KitaSenjuPage() {
                   割安な料金設定です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Pilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）</li>
+                  <li>• Pilates Mee（1回あたり3,750円 ※37,500円の通い放題コースを月10回利用した場合・公式の算出）</li>
                   <li>• ELEMENT（5,500円〜/月額）</li>
                 </ul>
               </div>
@@ -546,7 +546,7 @@ export default function KitaSenjuPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  北千住はセミパーソナル1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）です。掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は10,450円〜15,280円（the SILK 北千住店・zen place pilates 北千住スタジオ（マット）・2026年10月確認）です。
+                  北千住はセミパーソナル1回あたり3,750円（※37,500円の通い放題コースを月10回利用した場合・公式の算出）です。掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は10,450円〜15,280円（the SILK 北千住店・zen place pilates 北千住スタジオ（マット）・2026年10月確認）です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

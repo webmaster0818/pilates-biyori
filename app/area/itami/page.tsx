@@ -16,8 +16,8 @@ import { STUDIO_REVIEWS } from '@/data/studio-reviews'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/itami/' },
-  title: '伊丹のピラティス比較｜Rintosull イオンモール伊丹店の口コミ・料金も',
-  description: '伊丹エリアのピラティススタジオを料金・無料体験・マシン対応で比較。Rintosull イオンモール伊丹店の口コミ（公式掲載の声・Googleマップの要約）と料金（月4回8,800円〜）も公式で確認して掲載しています。',
+  title: '伊丹のピラティス比較｜Rintosull イオンモール伊丹店の口コミ・レビュー・料金・駐車場',
+  description: 'Rintosull イオンモール伊丹店のレビュー・口コミ（公式掲載の声・Googleマップの要約）、料金（月4回8,800円〜）、無料体験会、駐車場の無料時間（平日2時間・土日祝1時間）を公式で確認。伊丹エリアのピラティススタジオも料金・体験で比較しています。',
   keywords: 'ピラティス,伊丹,兵庫県,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -162,8 +162,10 @@ export default function ItamiPage() {
             <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験会</td><td className="px-4 py-3">0円・約45分（施設見学・カウンセリング・マシンピラティスのプチ体験）。手ぶらで参加でき、来店特典としてパーソナル姿勢診断つき</td></tr>
             <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">定休日／種別</td><td className="px-4 py-3">毎週日曜／女性専用（営業時間は公式の店舗ページに記載がなく、レッスンスケジュールPDFで確認できます）</td></tr>
             <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">設備・支払い</td><td className="px-4 py-3">水素水サーバー、ドライヤー付きパウダースペース、更衣室、鍵付きロッカー、駐車場・駐輪場あり。キャッシュレスのみ（現金不可）</td></tr>
+            <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">車で通う場合（イオンモール伊丹の駐車場）</td><td className="px-4 py-3">約2,800台・7:45〜0:30。平日は2時間未満、土・日・休日は1時間未満なら精算不要。超過は30分200円（イオンモールアプリの1時間無料クーポン・サービスチケットとの合算で平日最大7時間／土日祝最大6時間まで無料）。土日祝はレッスン（約50分）と着替えで1時間を超えやすいので、クーポンの利用をおすすめします（<a href="https://itami.aeonmall.jp/access" target="_blank" rel="noopener noreferrer" className="underline">イオンモール伊丹 公式アクセスページ</a>・2026年10月26日確認）</td></tr>
+            <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">入会時の費用の条件</td><td className="px-4 py-3">施設使用料2,500円は、過去に LAVA・Rintosull の会員だった方は0円（公式の入会時の持ち物の注記）</td></tr>
           </tbody></table></div>
-          <p className="text-warm-600 text-sm leading-relaxed mb-8">2026年11月末までのキャンペーンでは、条件を満たす方は利用開始月を含む3ヶ月間、系列全店通い放題（16,800円/月）が1,980円/月になります。特別価格終了後12ヶ月間の継続が条件です。適用条件は公式の店舗ページで必ずご確認ください。</p>
+          <p className="text-warm-600 text-sm leading-relaxed mb-8">2026年11月末までのキャンペーンでは、条件を満たす方は利用開始月を含む3ヶ月間、系列全店通い放題（16,800円/月）が1,980円/月になります。特別価格終了後12ヶ月間の継続が条件で、過去5ヶ月以内に Rintosull の体験会を受けた方や、系列（LAVA など）でマンスリー登録をした方などは対象外です。3ヶ月分の特別価格（計5,940円）は3ヶ月目にまとめて請求されます。適用条件は公式の店舗ページで必ずご確認ください（2026年10月26日確認）。</p>
           <h3 className="text-lg font-bold text-warm-900 mb-3">公式の店舗ページに掲載されている口コミ（原文の一部を引用）</h3>
           <ul className="space-y-3 mb-3">
             <li className="bg-warm-50 border border-warm-200 rounded-lg p-4 text-sm text-warm-700">「まず腰痛を治したかったので、マシンピラティスに興味を持ってお試しに来ました。」「ショッピングセンターの中にあってそれも楽しみ。」<span className="block text-xs text-warm-500 mt-1">2026年6月13日掲載</span></li>

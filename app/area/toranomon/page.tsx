@@ -16,8 +16,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/toranomon/' },
-  title: '虎ノ門のピラティスおすすめ5選｜溜池山王駅近・体験料金で比較',
-  description: '虎ノ門でピラティスを探す方向けに、溜池山王・赤坂・銀座・新橋の5店を虎ノ門駅からの行き方、体験料金、営業時間・定休日の早見表で比較。値は各公式サイトで2026年10月25日に確認しました。',
+  title: '虎ノ門のピラティスおすすめ5選｜虎ノ門駅徒歩2分の店と溜池山王・新橋の店を体験料金で比較',
+  description: '虎ノ門 ピラティスを探す方へ。虎ノ門駅3番出口徒歩2分の studio fit S PLACE と、溜池山王・赤坂・新橋・銀座の5店を、虎ノ門駅からの行き方・体験料金・月額・営業時間・定休日の早見表で比較（各公式サイトで2026年10月25〜26日確認）。',
   keywords: 'ピラティス,虎ノ門,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,溜池山王,霞ヶ関',
 }
 
@@ -77,7 +77,7 @@ const studios = [
       purpose: ['ボディメイク', '姿勢改善', 'リフレッシュ', 'ダイエット'],
     },
     basicInfo: {
-      hours: '平日 9:00-22:00 / 土日祝 10:00-18:00',
+      hours: '平日 9:00-22:00 / 土日祝 10:00-18:00（公式のアクセス欄は 10:00-19:00）',
       closed: '公式に記載なし',
       facilities: ['タワーリフォーマー', 'キャデラック', 'チェア', 'ラダーバレル', '更衣室'],
     },
@@ -299,13 +299,14 @@ export default function ToranomonPage() {
           </div>
         </section>
 
-        <section className="py-12 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">虎ノ門駅からの行き方・体験料金・営業時間の早見表</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">虎ノ門駅（銀座線）から近い順に並べました。当サイトの掲載店は虎ノ門駅の徒歩圏ではなく、銀座線で1駅の溜池山王・新橋か、2駅の銀座にあります。住所・徒歩分・体験料金・営業時間・定休日は各スタジオの公式ページの表記です（2026年10月25日確認・税込表記は公式どおり）。駅からの経路（銀座線の駅数）は当サイトの案内です。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">虎ノ門駅から</th><th className="px-4 py-3 text-left">ほかの最寄駅</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">営業時間</th><th className="px-4 py-3 text-left">定休日</th></tr></thead><tbody>
+        <section className="py-12 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">虎ノ門駅からの行き方・体験料金・営業時間の早見表</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">虎ノ門駅（銀座線）から近い順に並べました。虎ノ門駅から歩いて行けるのは、3番出口 徒歩2分の studio fit S PLACE（パーソナル・土日祝休み）です。下のカードの掲載店は虎ノ門駅の徒歩圏ではなく、銀座線で1駅の溜池山王・新橋か、2駅の銀座にあります。住所・徒歩分・体験料金・営業時間・定休日は各スタジオの公式ページの表記です（2026年10月25日確認・税込表記は公式どおり）。駅からの経路（銀座線の駅数）は当サイトの案内です。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">虎ノ門駅から</th><th className="px-4 py-3 text-left">ほかの最寄駅</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">営業時間</th><th className="px-4 py-3 text-left">定休日</th></tr></thead><tbody>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">studio fit S PLACE（港区虎ノ門1-2-18 虎之門興業ビル5F）<br /><span className="text-xs text-warm-500">※下のカードには未掲載（2026年10月26日追加）</span></td><td className="px-4 py-3">銀座線 虎ノ門駅3番出口 徒歩2分</td><td className="px-4 py-3">霞が関ビルから徒歩3分</td><td className="px-4 py-3">マシンピラティス・ヨガ・トレーニングのパーソナル（女性向けの案内）／パーソナル月4回40,000円・月2回22,000円・都度15,000円</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">平日 10:00〜21:00</td><td className="px-4 py-3">土日祝</td></tr>
           <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Studio-BMP 虎ノ門店（港区赤坂1-3-18 DG22ビル5F）</td><td className="px-4 py-3">銀座線で1駅→溜池山王駅9番出口 徒歩1分</td><td className="px-4 py-3">—</td><td className="px-4 py-3">完全プライベート（マンツーマン）</td><td className="px-4 py-3">6,600円（50分・初回限定）</td><td className="px-4 py-3">火〜金 10:00〜21:00・土日祝 10:00〜18:00</td><td className="px-4 py-3">月曜日</td></tr>
-          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Lume Pilates 赤坂（港区赤坂3-13-3 赤坂セントラルビル3F）</td><td className="px-4 py-3">銀座線で1駅→溜池山王駅 徒歩6分</td><td className="px-4 py-3">赤坂駅 徒歩30秒・赤坂見附駅 徒歩5分</td><td className="px-4 py-3">パーソナル（男性可）・最大4名のグループ（女性限定）</td><td className="px-4 py-3">公式に料金記載なし（申込フォームあり）</td><td className="px-4 py-3">平日 9:00〜22:00・土日祝 10:00〜18:00</td><td className="px-4 py-3">公式に記載なし</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Lume Pilates 赤坂（港区赤坂3-13-3 赤坂セントラルビル3F）</td><td className="px-4 py-3">銀座線で1駅→溜池山王駅 徒歩6分</td><td className="px-4 py-3">赤坂駅 徒歩30秒・赤坂見附駅 徒歩5分</td><td className="px-4 py-3">パーソナル（男性可）・最大4名のグループ（女性限定）</td><td className="px-4 py-3">体験料金の記載なし（パーソナル月4回48,000円・1回券14,000円／グループ月4回24,000円・月2回13,000円）</td><td className="px-4 py-3">平日 9:00〜22:00・土日祝 10:00〜18:00（公式のアクセス欄は19:00）</td><td className="px-4 py-3">公式に記載なし</td></tr>
           <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">CREA Pilates 新橋/銀座店（中央区銀座7-2-14 第26ポールスタービル地下1階A室）</td><td className="px-4 py-3">銀座線で1駅→新橋駅 徒歩4分</td><td className="px-4 py-3">銀座駅 徒歩6分・有楽町駅 徒歩8分</td><td className="px-4 py-3">完全個室のパーソナル（女性専用）</td><td className="px-4 py-3">3,300円（90分・初めての方限定）</td><td className="px-4 py-3">8:00〜20:00</td><td className="px-4 py-3">不定休</td></tr>
           <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">the SILK 銀座店（中央区銀座5-9-12 ダイヤモンドビル3階）</td><td className="px-4 py-3">銀座線で2駅→銀座駅 徒歩2分</td><td className="px-4 py-3">東銀座駅 徒歩3分・新橋駅 徒歩10分</td><td className="px-4 py-3">マシンのグループ（女性専用）</td><td className="px-4 py-3">0円（50分）</td><td className="px-4 py-3">7:30〜21:00</td><td className="px-4 py-3">年末年始（12/29〜1/3）</td></tr>
           <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ピラティスK 銀座店（中央区銀座1-6-10 上一ビルディング7F）</td><td className="px-4 py-3">銀座線で2駅→銀座駅A13出口 徒歩4分</td><td className="px-4 py-3">銀座一丁目駅6番出口 徒歩1分・有楽町駅京橋口 徒歩6分</td><td className="px-4 py-3">マシンのグループ（女性専用）</td><td className="px-4 py-3">0円</td><td className="px-4 py-3">月〜金 9:30〜16:00／17:30〜22:00・土日祝 9:30〜20:00</td><td className="px-4 py-3">毎月第1月曜日</td></tr>
-        </tbody></table></div><p className="text-warm-500 text-xs mt-4 leading-relaxed">確認した公式ページ: Studio-BMP（b-m-p.jp/studio/studios/toranomon/・体験は b-m-p.jp/studio/trial/）、Lume Pilates（lume-pilates.com）、CREA Pilates（crea.blue/store-crea001/・料金は crea.blue/plan/）、the SILK（情報引用元: <a href="https://the-silk.co.jp/studios/tokyo/ginza/" className="underline" target="_blank" rel="noopener noreferrer">the SILK公式サイト 銀座店</a>）、ピラティスK（pilates-k.jp/studio/tokyo/ginza）。Studio-BMP 虎ノ門店は店名に「虎ノ門」とありますが、公式の住所は港区赤坂1丁目・最寄りは溜池山王駅です。男女の利用可否はStudio-BMPの公式ページに記載がありません。キャンペーン・料金は変更されることがあるため、予約前に公式サイトをご確認ください。</p></div></section>
+        </tbody></table></div><p className="text-warm-500 text-xs mt-4 leading-relaxed">確認した公式ページ: studio fit S PLACE（studiofit.jp・2026年10月26日確認。確認時点で公式サイトのSSL証明書が期限切れで、ブラウザに警告が出る場合があります）、Studio-BMP（b-m-p.jp/studio/studios/toranomon/・体験は b-m-p.jp/studio/trial/）、Lume Pilates（lume-pilates.com）、CREA Pilates（crea.blue/store-crea001/・料金は crea.blue/plan/）、the SILK（情報引用元: <a href="https://the-silk.co.jp/studios/tokyo/ginza/" className="underline" target="_blank" rel="noopener noreferrer">the SILK公式サイト 銀座店</a>）、ピラティスK（pilates-k.jp/studio/tokyo/ginza）。Studio-BMP 虎ノ門店は店名に「虎ノ門」とありますが、公式の住所は港区赤坂1丁目・最寄りは溜池山王駅です。男女の利用可否はStudio-BMPの公式ページに記載がありません。キャンペーン・料金は変更されることがあるため、予約前に公式サイトをご確認ください。</p></div></section>
 
         <PriceComparisonTable studios={studios} areaName="虎ノ門" />
         <AreaMarketComparison studios={studios} areaName="虎ノ門" />
@@ -573,7 +574,7 @@ export default function ToranomonPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  体験料金は、ピラティスK 銀座店が0円、the SILK 銀座店が0円（50分）、CREA Pilates 新橋/銀座店が3,300円（90分）、Studio-BMP 虎ノ門店が6,600円（50分）です。Lume Pilates 赤坂は公式サイトに体験料金の記載がありません（2026年10月25日確認）。最新の条件は各公式サイトでご確認ください。
+                  体験料金は、ピラティスK 銀座店が0円、the SILK 銀座店が0円（50分）、CREA Pilates 新橋/銀座店が3,300円（90分）、Studio-BMP 虎ノ門店が6,600円（50分）です。studio fit S PLACE（虎ノ門駅3番出口 徒歩2分）は体験無料です。Lume Pilates 赤坂は公式サイトに体験料金の記載がありません（2026年10月26日確認）。最新の条件は各公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

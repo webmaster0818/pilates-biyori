@@ -89,16 +89,16 @@ const studios = [
     name: 'Pilates Mee 築地店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
-    price: '1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合',
+    price: '1回あたり3,750円 ※37,500円の通い放題コースを月10回利用した場合・公式の算出',
     priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円／通い放題 37,500円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円／月8回 70,400円（税込）'],
     trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '女性専用のセミパーソナル形式マシンピラティススタジオ「Pilates Mee」築地店です。最大3名の少人数制で、パーソナルに近い丁寧な指導を受けられます。通い放題プランなら1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と割安です。当日予約可で忙しい方にも便利です。丸の内エリアからもアクセスしやすい立地です。',
+    description: '女性専用のセミパーソナル形式マシンピラティススタジオ「Pilates Mee」築地店です。最大3名の少人数制で、パーソナルに近い丁寧な指導を受けられます。通い放題プランなら1回あたり3,750円（※37,500円の通い放題コースを月10回利用した場合・公式の算出）と割安です。当日予約可で忙しい方にも便利です。丸の内エリアからもアクセスしやすい立地です。',
     access: '築地駅 徒歩3分／新富町駅 徒歩7分',
     address: '〒104-0045 東京都中央区築地7丁目6-7 松田ビル 302',
     popularPlan: {
       name: '通い放題プラン',
-      description: '最大3名のセミパーソナルマシンピラティスが通い放題です。1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と割安です。',
+      description: '最大3名のセミパーソナルマシンピラティスが通い放題です。1回あたり3,750円（※37,500円の通い放題コースを月10回利用した場合・公式の算出）と割安です。',
       price: '37,500円/月（税込）',
     },
     userProfile: {
@@ -156,7 +156,7 @@ const faqs = [
   },
   {
     question: '丸の内のピラティスの料金相場は？',
-    answer: 'zen place pilatesは月4回10,450円〜、the SILKは月3回13,280円〜です。Pilates Meeは通い放題で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）、STUDIO IVYはパーソナルで月2回15,000円〜です。目的と頻度に合わせてお選びください。',
+    answer: 'zen place pilatesは月4回10,450円〜、the SILKは月3回13,280円〜です。Pilates Meeは通い放題で1回あたり3,750円（※37,500円の通い放題コースを月10回利用した場合・公式の算出）、STUDIO IVYはパーソナルで月2回15,000円〜です。目的と頻度に合わせてお選びください。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -298,7 +298,7 @@ export default function MarunouchiPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">1回あたり2,500円〜14,190円（※Pilates Meeは37,500円の通い放題コースで15日通った場合）</td>
+                    <td className="px-4 py-3">1回あたり3,750円〜14,190円（※Pilates Meeは37,500円の通い放題コースを月10回利用した場合・公式の算出）</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -396,9 +396,9 @@ export default function MarunouchiPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
-                <p className="text-warm-600 text-sm mb-4">1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合のスタジオもあります。</p>
+                <p className="text-warm-600 text-sm mb-4">1回あたり3,750円 ※37,500円の通い放題コースを月10回利用した場合・公式の算出のスタジオもあります。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Pilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）</li>
+                  <li className="text-warm-700">• Pilates Mee（1回あたり3,750円 ※37,500円の通い放題コースを月10回利用した場合・公式の算出）</li>
                   <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
                   <li className="text-warm-700">• the SILK（月3回 13,280円〜）</li>
                 </ul>
@@ -473,7 +473,7 @@ export default function MarunouchiPage() {
                 <p className="text-sm text-warm-600 mb-4">本気でボディメイクしたい方におすすめです。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Pilates Mee（37,500円/通い放題）</li>
-                  <li>• 1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合</li>
+                  <li>• 1回あたり3,750円 ※37,500円の通い放題コースを月10回利用した場合・公式の算出</li>
                 </ul>
               </div>
             </div>
@@ -555,7 +555,7 @@ export default function MarunouchiPage() {
               今回は丸の内エリアのおすすめピラティススタジオ4選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              丸の内は東京駅・大手町駅を中心とした日本屈指のビジネス街で、仕事帰りに通いやすいスタジオが充実しています。全国150店舗他店利用のzen place pilates（月4回10,450円〜・体験1,000円）、女性専用&音楽レッスンのthe SILK（月3回13,280円〜・体験無料）、セミパーソナル最大3名のPilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）、完全パーソナルのSTUDIO IVY（月2回15,000円〜）と、それぞれ特徴の異なるスタジオが揃っています。
+              丸の内は東京駅・大手町駅を中心とした日本屈指のビジネス街で、仕事帰りに通いやすいスタジオが充実しています。全国150店舗他店利用のzen place pilates（月4回10,450円〜・体験1,000円）、女性専用&音楽レッスンのthe SILK（月3回13,280円〜・体験無料）、セミパーソナル最大3名のPilates Mee（1回あたり3,750円 ※37,500円の通い放題コースを月10回利用した場合・公式の算出）、完全パーソナルのSTUDIO IVY（月2回15,000円〜）と、それぞれ特徴の異なるスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               まずは無料体験ができるthe SILKから試してみるのがおすすめです。本ページの情報を、スタジオ選びにお役立てください。

@@ -114,16 +114,16 @@ const studios = [
     name: 'Pilates Mee 神楽坂・飯田橋店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
-    price: '1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合',
+    price: '1回あたり3,750円 ※37,500円の通い放題コースを月10回利用した場合・公式の算出',
     priceList: ['体験レッスン無料', 'セミパーソナル：月2回 11,000円／月4回 19,800円（税込）', 'パーソナル：月2回 22,000円／月4回 39,600円（税込）'],
     trial: '体験レッスン無料',
     features: ['女性専用', 'マシンピラティス専門', '最大3名セミパーソナル＋完全パーソナル'],
-    description: '女性専用セミパーソナルマシンピラティススタジオです。神楽坂駅から徒歩3分、牛込神楽坂A3出口から徒歩2分です。最大3名の少人数制で1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と割安です。当日予約・当日キャンセル可能です。チケット繰り越し可能です。',
+    description: '女性専用セミパーソナルマシンピラティススタジオです。神楽坂駅から徒歩3分、牛込神楽坂A3出口から徒歩2分です。最大3名の少人数制で1回あたり3,750円（※37,500円の通い放題コースを月10回利用した場合・公式の算出）と割安です。当日予約・当日キャンセル可能です。チケット繰り越し可能です。',
     access: '神楽坂駅 徒歩3分／牛込神楽坂駅 徒歩2分／飯田橋駅 徒歩5分',
     address: '〒162-0816 東京都新宿区白銀町1−15 SEKビル4階',
     popularPlan: {
       name: '月額定額プラン',
-      description: '最大3名のセミパーソナルマシンピラティスです。1回あたり2,500円です（※37,500円の通い放題コースで15日通った場合）。',
+      description: '最大3名のセミパーソナルマシンピラティスです。1回あたり3,750円です（※37,500円の通い放題コースを月10回利用した場合・公式の算出）。',
       price: '月額制（公式サイト参照）',
     },
     userProfile: {
@@ -193,7 +193,7 @@ const faqs = [
   },
   {
     question: '神楽坂エリアの料金相場は？',
-    answer: 'セミパーソナルのPilates Meeは1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と格安です。グループ月4回で10,450円〜14,190円程度です。パーソナルはルルトが月3回29,700円〜です。',
+    answer: 'セミパーソナルのPilates Meeは1回あたり3,750円（※37,500円の通い放題コースを月10回利用した場合・公式の算出）と格安です。グループ月4回で10,450円〜14,190円程度です。パーソナルはルルトが月3回29,700円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -213,7 +213,7 @@ const faqs = [
   },
   {
     question: '一番費用対効果が良いスタジオは？',
-    answer: 'Pilates Meeは1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）と圧倒的な費用対効果です。最大3名のセミパーソナルで、パーソナルに近い指導を格安で受けられます。',
+    answer: 'Pilates Meeは1回あたり3,750円（※37,500円の通い放題コースを月10回利用した場合・公式の算出）と圧倒的な費用対効果です。最大3名のセミパーソナルで、パーソナルに近い指導を格安で受けられます。',
   },
   {
     question: '理学療法士の指導を受けられるスタジオは？',
@@ -337,7 +337,7 @@ export default function KagurazakaPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">1回あたり2,500円〜29,700円（※Pilates Meeは37,500円の通い放題コースで15日通った場合）</td>
+                    <td className="px-4 py-3">1回あたり3,750円〜29,700円（※Pilates Meeは37,500円の通い放題コースを月10回利用した場合・公式の算出）</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -438,10 +438,10 @@ export default function KagurazakaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合のスタジオもあります。
+                  1回あたり3,750円 ※37,500円の通い放題コースを月10回利用した場合・公式の算出のスタジオもあります。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Pilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）</li>
+                  <li className="text-warm-700">• Pilates Mee（1回あたり3,750円 ※37,500円の通い放題コースを月10回利用した場合・公式の算出）</li>
                   <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
                 </ul>
               </div>
@@ -506,7 +506,7 @@ export default function KagurazakaPage() {
                   少人数制で高費用対効果です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Pilates Mee（1回あたり2,500円 ※37,500円の通い放題コースで15日通った場合）</li>
+                  <li>• Pilates Mee（1回あたり3,750円 ※37,500円の通い放題コースを月10回利用した場合・公式の算出）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -557,7 +557,7 @@ export default function KagurazakaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  神楽坂の料金相場はセミパーソナル1回あたり2,500円（※37,500円の通い放題コースで15日通った場合）、グループ月4回10,450円〜14,190円です。
+                  神楽坂の料金相場はセミパーソナル1回あたり3,750円（※37,500円の通い放題コースを月10回利用した場合・公式の算出）、グループ月4回10,450円〜14,190円です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
