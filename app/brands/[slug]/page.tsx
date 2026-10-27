@@ -11,6 +11,7 @@ import brandStores from '@/data/brands-aggregate.json'
 import brandVoices from '@/data/brand-voices.json'
 import { BrandReviewDigest } from '@/components/BrandReviewDigest'
 import { BrandReviewThemes } from '@/components/BrandReviewThemes'
+import { PILATES_K_OFFICIAL_STORES, PILATES_K_OFFICIAL_ASOF } from '@/data/pilates-k-official-stores'
 
 type Voice = {
   brand: string
@@ -214,6 +215,11 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                 <a href="#store-list" className="inline-block border border-warm-300 px-5 py-2 text-xs text-warm-800 hover:border-warm-600 transition">
                   店舗一覧（都道府県順・当サイト掲載{stores.length}店舗）へ移動 ↓
                 </a>
+                {brand.slug === 'pilates-k' && (
+                  <a href="#official-store-list" className="inline-block border border-warm-300 px-5 py-2 text-xs text-warm-800 hover:border-warm-600 transition ml-2 mt-2">
+                    公式の全{PILATES_K_OFFICIAL_STORES.length}店舗（最寄駅つき）へ移動 ↓
+                  </a>
+                )}
               </p>
             )}
           </section>
@@ -591,6 +597,63 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
               ※店舗名に下線があるものは、その店舗の詳細ページ（料金・アクセス・口コミ要約）に移動します。エリア名をタップすると、そのエリアの比較ページで周辺スタジオとあわせて確認できます。
             </p>
           </section>
+
+          {/* 公式の全店舗一覧（都道府県別・最寄駅）。「ピラティスK 店舗一覧」の語に対し、当サイト掲載分だけでなく公式の全店舗を見られるように（2026-10-27） */}
+          {brand.slug === 'pilates-k' && (() => {
+            const prefs = Array.from(new Set(PILATES_K_OFFICIAL_STORES.map((s) => s.pref)))
+            return (
+              <section className="mb-10 scroll-mt-24" id="official-store-list">
+                <h2 className="text-xl font-light text-warm-900 border-b border-warm-200 pb-2 mb-4">
+                  {brand.name}の全店舗一覧（公式・都道府県別{PILATES_K_OFFICIAL_STORES.length}店舗と最寄駅）
+                </h2>
+                <p className="text-sm text-warm-700 font-light leading-relaxed mb-4">
+                  公式の「スタジオ一覧」に載っている全{PILATES_K_OFFICIAL_STORES.length}店舗を、都道府県ごとに店舗名・最寄駅（またはバス停）・住所で掲載しています。最寄駅は各店舗の公式ページ「アクセス」欄の先頭の表記です（{PILATES_K_OFFICIAL_ASOF}確認）。店舗名から公式の店舗ページ（営業時間・料金・体験予約）に移動します。
+                </p>
+                <nav aria-label="都道府県から探す" className="flex flex-wrap gap-2 mb-4">
+                  {prefs.map((p) => (
+                    <a key={p} href={`#pk-${p}`} className="text-xs border border-warm-300 bg-white px-2.5 py-1 text-warm-700 hover:border-warm-600">
+                      {p}（{PILATES_K_OFFICIAL_STORES.filter((s) => s.pref === p).length}）
+                    </a>
+                  ))}
+                </nav>
+                <div className="space-y-2">
+                  {prefs.map((p, i) => {
+                    const rows = PILATES_K_OFFICIAL_STORES.filter((s) => s.pref === p)
+                    return (
+                      <details key={p} id={`pk-${p}`} open={i < 3} className="bg-white border border-warm-200 scroll-mt-24">
+                        <summary className="px-4 py-3 text-sm text-warm-900 cursor-pointer">{p}の{brand.name}（{rows.length}店舗）</summary>
+                        <div className="overflow-x-auto border-t border-warm-100">
+                          <table className="w-full text-sm">
+                            <thead>
+                              <tr className="border-b border-warm-200 text-left">
+                                <th className="px-4 py-2 text-xs font-medium text-warm-500">店舗</th>
+                                <th className="px-4 py-2 text-xs font-medium text-warm-500">最寄駅・アクセス（公式）</th>
+                                <th className="px-4 py-2 text-xs font-medium text-warm-500">住所</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {rows.map((s) => (
+                                <tr key={s.url} className="border-b border-warm-100 last:border-0 align-top">
+                                  <td className="px-4 py-2 text-warm-800 whitespace-nowrap">
+                                    <a href={s.url} target="_blank" rel="noopener noreferrer" className="underline decoration-warm-300 hover:text-warm-900">{s.name}</a>
+                                  </td>
+                                  <td className="px-4 py-2 text-warm-700">{s.access || '公式の店舗ページは駐車場の案内のみ（最寄駅の表記なし）'}</td>
+                                  <td className="px-4 py-2 text-warm-500 text-xs">{s.address}</td>
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
+                      </details>
+                    )
+                  })}
+                </div>
+                <p className="text-[11px] text-warm-400 mt-3 leading-relaxed">
+                  出典: <a href="https://pilates-k.jp/studio" target="_blank" rel="noopener noreferrer" className="underline">pilates K公式 スタジオ一覧</a>と各店舗ページ（{PILATES_K_OFFICIAL_ASOF}確認）。開店・閉店や移転があるため、通う前に公式の店舗ページでご確認ください。
+                </p>
+              </section>
+            )
+          })()}
 
           {/* Googleマップ口コミの集約（569件の資産をブランド単位で俯瞰。2026-08-27） */}
           <BrandReviewDigest brandSlug={brand.slug} brandName={brand.name} />

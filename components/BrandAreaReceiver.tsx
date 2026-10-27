@@ -106,6 +106,16 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
             🔀 {brandName}全体の<strong>料金プラン・口コミ・全店舗一覧</strong>をお探しの方は{" "}
             <Link href={brandHref} className="underline decoration-warm-400 hover:text-warm-900 font-medium">{brandName}のブランドガイド</Link>
             {" "}をご覧ください（このページは{store.areaQuery}店の情報です）。
+            {/* 2026-10-27 自社カニバリ「bdc ピラティス 口コミ／料金」: ブランド語の主ページは /brands/bdc/。店舗ページからは口コミ・料金の全体像を主ページへ送る */}
+            {brandSlug === "bdc" && (
+              <>
+                {" "}全店舗の口コミの傾向は
+                <Link href={`${brandHref}#reviews`} className="underline decoration-warm-400 hover:text-warm-900">BDC PILATESの口コミ・評判（全店舗のまとめ）</Link>
+                、月額の料金表は
+                <Link href={brandHref} className="underline decoration-warm-400 hover:text-warm-900">BDC PILATESの料金プラン</Link>
+                にまとめています。
+              </>
+            )}
           </div>
 
           {/* 結論ボックス */}
