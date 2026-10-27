@@ -236,36 +236,6 @@ const studios = [
     },
   },
   {
-    name: 'ピラティスミラー 江坂',
-    image: '/images/studios/pilates-mirror.webp',
-    price: '月会費 11,000円（月6回）',
-    trial: '体験レッスン 2,200円',
-    features: ['コナミ運営', 'マシン専門', '月6回制', 'ミラー設備'],
-    description: 'コナミスポーツクラブが運営するマシンピラティス専門スタジオです。月会費11,000円で月6回まで通える費用対効果の良いプランです。プライベートレッスンも30分4,400円からです。鏡を使ったフォーム確認が特徴です。大手運営の安心感と清潔な施設です。',
-    access: '江坂エリア',
-    address: '大阪府吹田市江坂エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: {
-      name: '月会費プラン（月6回）',
-      description: 'マシンピラティス月6回までです。コナミ運営の安心感です。',
-      price: '月会費 11,000円（税込）',
-    },
-    options: [
-      '入会金 11,000円',
-      'プライベートレッスン30分（4,400円）',
-      'プライベートレッスン50分（6,600円）',
-      '体験レッスン（2,200円）',
-    ],
-    userProfile: {
-      ageRange: '20代〜50代が中心',
-      purpose: ['姿勢改善', 'ボディメイク', '健康維持', '運動不足解消'],
-    },
-    basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '不定休',
-      facilities: ['リフォーマーマシン', 'ミラー設備', 'フィッティングルーム（カーテン仕切り）', '荷物置きBOX（鍵なし）'],
-    },
-  },
-  {
     name: 'ピラティスアヴニール 江坂店',
     officialUrl: 'https://pilates.avenir-training.com/stores-2-4/esaka/',
     image: '/images/studios/pilates-avenir-esaka.webp',
@@ -355,7 +325,7 @@ export default function EsakaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月23日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス江坂おすすめ9選<br className="hidden md:block" />
+              ピラティス江坂おすすめ8選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -382,7 +352,7 @@ export default function EsakaPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、江坂エリアでおすすめのピラティススタジオ9選をまとめました。
+              本ページでは、江坂エリアでおすすめのピラティススタジオ8選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -422,7 +392,7 @@ export default function EsakaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              江坂のおすすめピラティススタジオ9選
+              江坂のおすすめピラティススタジオ8選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -636,7 +606,6 @@ export default function EsakaPage() {
                   大手スタジオ・ジム併設型です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスミラー（11,000円/月6回）</li>
                   <li>• CLUB PILATES（月4回 14,300円）</li>
                   <li>• zen place リフォーマー（15,400円〜）</li>
                 </ul>

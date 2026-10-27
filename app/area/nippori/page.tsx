@@ -100,11 +100,11 @@ const studios = [
     officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
     price: 'マンスリー4メンバー 13,420円',
-    trial: '体験レッスン 2,000円',
-    features: ['女性専用', 'マシンピラティス専門', '池袋エリア', '日暮里から山手線で近い'],
-    description: '女性専用マシンピラティス専門スタジオです。日暮里からJR山手線で数駅です。初心者から経験者まで個人のペースに合わせたプログラムです。',
-    access: 'JR「池袋駅」徒歩圏内 / 日暮里からJR山手線で近い',
-    address: '東京都豊島区（池袋エリア）',
+    trial: '体験レッスン 0円',
+    features: ['女性専用', 'マシンピラティス専門', '池袋駅東口 徒歩1分', '日暮里から山手線で6駅（近隣エリア）'],
+    description: '女性専用のマシンピラティス専門スタジオです。日暮里エリアの店舗ではなく、池袋駅東口から徒歩1分の池袋店です（日暮里駅からJR山手線で6駅）。音楽にあわせたグループレッスンで、体験レッスンは0円です（公式の店舗ページ・2026年10月27日確認）。',
+    access: '各線「池袋駅」東口 徒歩1分（日暮里駅からJR山手線で6駅）',
+    address: '東京都豊島区東池袋1-3-6 池袋山手ビル4F',
   },
 ]
 
@@ -119,7 +119,7 @@ const faqs = [
   },
   {
     question: '日暮里エリアの料金相場は？',
-    answer: 'グループ月4回で7,800円〜15,400円です。パーソナルは1回8,000円〜です。体験は500円〜3,800円です。',
+    answer: 'グループ月4回で7,800円〜15,400円です。パーソナルは1回8,000円〜です。体験は0円〜3,800円です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -268,7 +268,7 @@ export default function NipporiPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">500円〜3,800円</td>
+                    <td className="px-4 py-3">0円〜3,800円</td>
                   </tr>
                 </tbody>
               </table>
@@ -446,7 +446,7 @@ export default function NipporiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  500円〜3,800円で体験できるスタジオが中心です。
+                  0円〜3,800円で体験できるスタジオが中心です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -516,7 +516,7 @@ export default function NipporiPage() {
               体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン500円〜3,800円です。<br />
+              初回限定の体験レッスン0円〜3,800円です。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
