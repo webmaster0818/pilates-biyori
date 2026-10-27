@@ -389,7 +389,7 @@ export default function KanayamaPage() {
                 <thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">種別</th><th className="px-4 py-3 text-left">料金相場</th></tr></thead>
                 <tbody>
                   <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4回）</td><td className="px-4 py-3">10,450円〜16,940円</td></tr>
-                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">セミパーソナルレッスン</td><td className="px-4 py-3">1回あたり3,750円〜5,000円（※Pilates Meeは37,500円の通い放題コースを月10回利用した場合・公式の算出）</td></tr>
+                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">セミパーソナルレッスン</td><td className="px-4 py-3">1回あたり3,750円〜5,500円（Pilates Mee 公式の料金表・税込。3,750円は37,500円の通い放題コースを月10回利用した場合の公式の算出、5,500円は月2回コース11,000円・2026年10月27日確認）</td></tr>
                   <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">無料〜3,000円</td></tr>
                 </tbody>
               </table>
