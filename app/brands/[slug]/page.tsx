@@ -12,6 +12,36 @@ import brandVoices from '@/data/brand-voices.json'
 import { BrandReviewDigest } from '@/components/BrandReviewDigest'
 import { BrandReviewThemes } from '@/components/BrandReviewThemes'
 import { PILATES_K_OFFICIAL_STORES, PILATES_K_OFFICIAL_ASOF } from '@/data/pilates-k-official-stores'
+import type { OfficialStoreList } from '@/data/official-store-list-type'
+import { ZEN_PLACE_OFFICIAL } from '@/data/zen-place-official-stores'
+import { CLUB_PILATES_OFFICIAL } from '@/data/club-pilates-official-stores'
+import { LAVA_MACHINE_PILATES_OFFICIAL } from '@/data/lava-machine-pilates-official-stores'
+
+// 公式の全店舗一覧（都道府県別）を出すブランド。pilates K（10/27）と同じ部品を、単ワード検索で10位手前の3ブランドに横展開（2026-10-28）
+const OFFICIAL_STORE_LISTS: Record<string, { list: OfficialStoreList; heading: string; button: string; intro: string; note: string }> = {
+  'zen-place': {
+    list: ZEN_PLACE_OFFICIAL,
+    heading: '全店舗一覧（公式・都道府県別{n}スタジオとグレード・最寄駅）',
+    button: '公式の全{n}スタジオ（グレード・最寄駅つき）へ移動 ↓',
+    intro: '公式の「スタジオ一覧」に載っているピラティススタジオ全{n}店（ヨガ専用店・オンラインを除く。11月8日オープン予定の新横浜を含む）を、都道府県ごとにスタジオ名・グレード・最寄駅・住所で掲載しています。グレードで入会金・マットグループとプライベートの月会費・体験料金が変わります（マット＆マシン・リフォーマーグループはグレード共通。料金は上の「料金プラン」）。最寄駅は公式のスタジオ一覧の表記です（{asOf}確認）。',
+    note: '同じグレードのスタジオは他店利用料がかかりません。グレード02の会員がグレード01のスタジオを利用する場合は1回500円（チケットを使ったプライベートは1,500円・税込）です（公式の料金ページ）。',
+  },
+  'club-pilates': {
+    list: CLUB_PILATES_OFFICIAL,
+    heading: '全店舗一覧と店舗別の月会費（公式・都道府県別{n}店舗）',
+    button: '公式の全{n}店舗（店舗別の月会費つき）へ移動 ↓',
+    intro: '公式の「スタジオ一覧」に載っている国内全{n}店舗を、都道府県ごとに店舗名・最寄駅・住所と、各店舗ページに載っている月会費（月4回＝EFT4・月8回＝EFT8・通い放題＝UNLIMITED）で掲載しています。月会費は店舗ごとに異なります（{asOf}確認）。',
+    note: '月会費の金額は各店舗ページの表示どおりで、店舗ページには税込・税抜の記載がありません。入会金は5,500円、体験は30分の無料体験です（料金の記載がある店舗ページ）。キャンペーンは店舗ごとに異なります。',
+  },
+  lava: {
+    list: LAVA_MACHINE_PILATES_OFFICIAL,
+    heading: 'マシンピラティス開催店舗の一覧（公式・都道府県別{n}店舗）',
+    button: 'マシンピラティス開催の全{n}店舗（住所・女性専用/男女共用つき）へ移動 ↓',
+    intro: 'LAVA公式の「マシンピラティス」ページに「マシンピラティス開催店舗」として載っている全{n}店舗を、都道府県ごとに店舗名・アクセス・住所と、各店舗ページの「スタジオ種別」（女性専用／男女共用）で掲載しています（{asOf}確認）。LAVAの全店舗ではありません。',
+    note: '公式ページでは、マシンピラティスは「別途料金がかかります。詳しくは開催店舗のスタッフにご確認ください」と案内されています。アクセスは各店舗ページの先頭の表記で、車での行き方のみの店舗はその表記です。',
+  },
+}
+const fill = (t: string, l: OfficialStoreList) => t.replace(/\{n\}/g, String(l.stores.length)).replace(/\{asOf\}/g, l.asOf)
 
 type Voice = {
   brand: string
@@ -215,6 +245,11 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                 <a href="#store-list" className="inline-block border border-warm-300 px-5 py-2 text-xs text-warm-800 hover:border-warm-600 transition">
                   店舗一覧（都道府県順・当サイト掲載{stores.length}店舗）へ移動 ↓
                 </a>
+                {OFFICIAL_STORE_LISTS[brand.slug] && (
+                  <a href="#official-store-list" className="inline-block border border-warm-300 px-5 py-2 text-xs text-warm-800 hover:border-warm-600 transition ml-2 mt-2">
+                    {fill(OFFICIAL_STORE_LISTS[brand.slug].button, OFFICIAL_STORE_LISTS[brand.slug].list)}
+                  </a>
+                )}
                 {brand.slug === 'pilates-k' && (
                   <a href="#official-store-list" className="inline-block border border-warm-300 px-5 py-2 text-xs text-warm-800 hover:border-warm-600 transition ml-2 mt-2">
                     公式の全{PILATES_K_OFFICIAL_STORES.length}店舗（最寄駅つき）へ移動 ↓
@@ -597,6 +632,65 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
               ※店舗名に下線があるものは、その店舗の詳細ページ（料金・アクセス・口コミ要約）に移動します。エリア名をタップすると、そのエリアの比較ページで周辺スタジオとあわせて確認できます。
             </p>
           </section>
+
+          {/* 公式の全店舗一覧（汎用・2026-10-28）。zen place・CLUB PILATES・LAVA。pilates K は下の専用ブロック */}
+          {OFFICIAL_STORE_LISTS[brand.slug] && (() => {
+            const cfg = OFFICIAL_STORE_LISTS[brand.slug]
+            const L = cfg.list
+            const prefs = Array.from(new Set(L.stores.map((s) => s.pref)))
+            return (
+              <section className="mb-10 scroll-mt-24" id="official-store-list">
+                <h2 className="text-xl font-light text-warm-900 border-b border-warm-200 pb-2 mb-4">
+                  {brand.name}の{fill(cfg.heading, L)}
+                </h2>
+                <p className="text-sm text-warm-700 font-light leading-relaxed mb-4">{fill(cfg.intro, L)}店舗名から公式の店舗ページに移動します。</p>
+                <nav aria-label="都道府県から探す" className="flex flex-wrap gap-2 mb-4">
+                  {prefs.map((p) => (
+                    <a key={p} href={`#os-${p}`} className="text-xs border border-warm-300 bg-white px-2.5 py-1 text-warm-700 hover:border-warm-600">
+                      {p}（{L.stores.filter((s) => s.pref === p).length}）
+                    </a>
+                  ))}
+                </nav>
+                <div className="space-y-2">
+                  {prefs.map((p, i) => {
+                    const rows = L.stores.filter((s) => s.pref === p)
+                    return (
+                      <details key={p} id={`os-${p}`} open={i < 3} className="bg-white border border-warm-200 scroll-mt-24">
+                        <summary className="px-4 py-3 text-sm text-warm-900 cursor-pointer">{p}の{brand.name}（{rows.length}店舗）</summary>
+                        <div className="overflow-x-auto border-t border-warm-100">
+                          <table className="w-full text-sm">
+                            <thead>
+                              <tr className="border-b border-warm-200 text-left">
+                                <th className="px-4 py-2 text-xs font-medium text-warm-500">店舗</th>
+                                {L.extraLabel && <th className="px-4 py-2 text-xs font-medium text-warm-500">{L.extraLabel}</th>}
+                                <th className="px-4 py-2 text-xs font-medium text-warm-500">最寄駅・アクセス（公式）</th>
+                                <th className="px-4 py-2 text-xs font-medium text-warm-500">住所</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {rows.map((s) => (
+                                <tr key={s.url} className="border-b border-warm-100 last:border-0 align-top">
+                                  <td className="px-4 py-2 text-warm-800">
+                                    <a href={s.url} target="_blank" rel="noopener noreferrer" className="underline decoration-warm-300 hover:text-warm-900">{s.name}</a>
+                                  </td>
+                                  {L.extraLabel && <td className="px-4 py-2 text-warm-700 text-xs">{s.extra ?? '—'}</td>}
+                                  <td className="px-4 py-2 text-warm-700">{s.access || '公式の一覧にアクセスの表記なし'}</td>
+                                  <td className="px-4 py-2 text-warm-500 text-xs">{s.address}</td>
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
+                      </details>
+                    )
+                  })}
+                </div>
+                <p className="text-[11px] text-warm-400 mt-3 leading-relaxed">
+                  {cfg.note}出典: <a href={L.sourceUrl} target="_blank" rel="noopener noreferrer" className="underline">{L.sourceLabel}</a>（{L.asOf}確認）。開店・閉店や移転、料金の改定があるため、通う前に公式の店舗ページでご確認ください。
+                </p>
+              </section>
+            )
+          })()}
 
           {/* 公式の全店舗一覧（都道府県別・最寄駅）。「ピラティスK 店舗一覧」の語に対し、当サイト掲載分だけでなく公式の全店舗を見られるように（2026-10-27） */}
           {brand.slug === 'pilates-k' && (() => {
