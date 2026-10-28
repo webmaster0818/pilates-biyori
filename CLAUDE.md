@@ -1205,3 +1205,11 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - ⚠️ YUZU trial に「入会金無料」を入れると AreaConclusion が無料体験に数える→trial は「5,500円（税込）」のみ・入会金は options に
 - ルルト横浜店（公式 luluto.kabushikigaisya-rigakubody.co.jp/tenpo/pilates_yokohama/・10/28）: 月3回29,700/月4回38,400/月6回55,800/月8回72,000（2号店と同額）→カード price・popularPlan・options、営業時間 9:00〜21:00。体験（5,000円・一覧の受付停止表示）は判断待ちのため未変更
 - 未対応: nakameguro の「BDC PILATES（月額15,400円〜）」、content/articles/pilates-beginner-studio.md の BDC「月4回13,200円・体験2,000円」（公式は月4回16,280円・体験4,070円）
+
+### 2026-10-28 12:00 成長ルーチン: zen place・CLUB PILATES・LAVA のブランド単ワード対策（source 21fed21b / deploy eb4855c87d）
+- 競合（ピラノート web-note・フタゴフィットネス riritwins・carreiraenglish・plizgym ほか）に共通で、うちに無かったもの: title にカタカナ/英字の両表記、全店舗一覧（都道府県別・店舗別料金）、グレード別/店舗別の料金表、冒頭の結論
+- 部品: `data/official-store-list-type.ts`＋各ブランドの `data/*-official-stores.ts`（生成 `scripts/gen-official-store-lists-20261028.py`、元データは公式から curl）。page.tsx の `OFFICIAL_STORE_LISTS`（slug→一覧・見出し・注記）で `#official-store-list` を出す。pilates K は従来の専用ブロックのまま
+- **zen place**: 公式 /studios の埋め込み JSON（studio_id…）で137スタジオ（ヨガ専用・オンライン `piate-online`〈[ピラティス]表記だがGRADE ０３〉を除く・新横浜 11/8 予定含む）。東京77・神奈川22（21→22）。グレード01=98・02=39。nameKana「ゼンプレイス」→ title/h1 変更。priceList＝/price（10/28）。体験＝/campaign（マット1,000・マシン3,000・プライベート〜9,900、当日入会で入会金0円）。**訂正: 「マシングループ月4回10,450円〜」（マット月4 G01 の値）→ RG4 15,400円（グレード共通）**（pricingNote・FAQ）
+- **CLUB PILATES**: 公式 /studio/ 88店舗（変化なし）＋各店舗ページ88本の EFT4/EFT8/UNLIMITED。料金記載 85店（江ノ島・みなとみらい・福岡赤坂薬院は無し）→「86店舗」を85に。EFT4 最多 13,090円（44店）。nameKana「クラブピラティス」→ title/h1 変更
+- **LAVA**: マシンピラティス開催店舗 81（10/24 と同じ）＋各店舗ページの住所・アクセス・スタジオ種別（女性専用51/男女共用30）。title は 10/24 新設のため変えず（7日ルール・10/31 以降可）、本文と要点で「LAVA（ラバ）」。カード14枚は未変更（判断待ち）
+- precheck ✅ 589頁・計測リンク 3,829→3,829（274種）・functions/api 4本保全
