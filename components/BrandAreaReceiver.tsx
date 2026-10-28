@@ -116,6 +116,16 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
                 にまとめています。
               </>
             )}
+            {/* 2026-10-28 自社カニバリ「シルク ピラティス 料金」: 料金語の主ページは /brands/the-silk/（エリアA/Bの料金表）。店舗ページからは料金・口コミの全体像を主ページへ送る */}
+            {brandSlug === "the-silk" && (
+              <>
+                {" "}the SILKの月額は店舗の<strong>エリア区分（A／B）</strong>で異なります。全プランの料金表（エリアA・B・パーソナル・施設利用料）は
+                <Link href={brandHref} className="underline decoration-warm-400 hover:text-warm-900">the SILKの料金プラン（全店舗共通の料金表）</Link>
+                、全店舗の口コミの傾向は
+                <Link href={`${brandHref}#reviews`} className="underline decoration-warm-400 hover:text-warm-900">the SILKの口コミ・評判（全店舗のまとめ）</Link>
+                にまとめています。
+              </>
+            )}
           </div>
 
           {/* 結論ボックス */}

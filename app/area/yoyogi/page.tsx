@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/yoyogi/' },
-  title: 'ピラティス代々木おすすめ8選人気スタジオの料金プランの比較',
-  description: '代々木・南新宿エリアのおすすめピラティススタジオ8選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。初心者でも安心して通えるスタジオが見つかります。',
+  title: '代々木のピラティスおすすめ8選｜代々木駅徒歩5分以内の3店と新宿駅周辺の5店を料金・体験で比較',
+  description: '代々木駅（JR・大江戸線）から徒歩5分以内のexeed・Studio Forward・ELEMENTと、新宿駅南口・新宿三丁目周辺のzen place・the SILK・ピラティスK・Mapila・Rintosullの8店を、料金・体験・男女の可否で比較しています。代々木上原駅で探す方向けのページも案内しています。',
   keywords: 'ピラティス,代々木,南新宿,新宿,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -335,10 +335,10 @@ export default function YoyogiPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月28日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス代々木おすすめ8選<br className="hidden md:block" />
-              人気スタジオの料金プランの比較
+              代々木のピラティスおすすめ8選<br className="hidden md:block" />
+              代々木駅・南新宿駅・新宿駅南口から通えるスタジオを料金と体験で比較
             </h1>
           </div>
         </section>
@@ -355,6 +355,8 @@ export default function YoyogiPage() {
             </nav>
           </div>
         </section>
+        {/* 2026-10-28 自社カニバリ「代々木 ピラティス」: 代々木駅側の主ページはこのページ。代々木上原駅は /area/yoyogi-uehara/ */}
+        <section className="bg-white pt-6"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="border border-warm-300 bg-warm-50 px-4 py-3 text-sm text-warm-800 leading-relaxed">🔀 このページはJR・都営大江戸線の<strong>代々木駅</strong>と、隣接する南新宿駅・新宿駅南口から通うスタジオの比較です。代々木駅から徒歩5分以内は、exeed Pilates studio 新宿・代々木店（北口 徒歩4分）、Studio Forward 代々木（北口 徒歩4分）、ELEMENT 代々木店（徒歩5分）の3店です（各カードのアクセス欄の表記）。小田急線・千代田線の<strong>代々木上原駅</strong>で探す方は、駅周辺の9店を比べた<Link href="/area/yoyogi-uehara/" className="underline decoration-warm-400 hover:text-warm-900 font-medium">代々木上原のピラティス比較</Link>をご覧ください（代々木駅とは路線も場所も異なります）。</p></div></section>
 
         <TableOfContents areaName="代々木" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
 

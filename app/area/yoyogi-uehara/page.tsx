@@ -283,6 +283,8 @@ export default function YoyogiUeharaPage() {
             </nav>
           </div>
         </section>
+        {/* 2026-10-28 自社カニバリ「代々木 ピラティス」: 代々木駅側の主ページは /area/yoyogi/ */}
+        <section className="bg-white pt-6"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="border border-warm-300 bg-warm-50 px-4 py-3 text-sm text-warm-800 leading-relaxed">🔀 このページは小田急線・東京メトロ千代田線の<strong>代々木上原駅</strong>周辺のスタジオの比較です。JR・都営大江戸線の<strong>代々木駅</strong>（南新宿・新宿駅南口側）で探す方は、代々木駅から徒歩5分以内の3店を含めて比べた<Link href="/area/yoyogi/" className="underline decoration-warm-400 hover:text-warm-900 font-medium">代々木のピラティス比較（代々木駅基準）</Link>をご覧ください（代々木上原駅とは路線も場所も異なります）。</p></div></section>
         <AreaConclusion studios={studios} areaName="代々木上原" />
 
 

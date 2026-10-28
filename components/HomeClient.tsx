@@ -880,6 +880,8 @@ export function HomeClient() {
                   { name: '笹塚', slug: 'sasazuka' },
                   { name: '田園調布', slug: 'denenchofu' },
                   { name: '桂', slug: 'katsura' },
+                  { name: '方南町', slug: 'honancho' },
+                  { name: '金山', slug: 'kanayama' },
                 ].map((a) => (
                   <Link key={a.slug} href={`/area/${a.slug}/`} className="text-xs text-warm-800 hover:text-warm-900 border border-warm-400 px-3 py-1.5 hover:border-warm-600 transition-colors bg-white font-medium">{a.name}</Link>
                 ))}
