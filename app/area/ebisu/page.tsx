@@ -77,7 +77,7 @@ const studios = [
       purpose: ['ボディメイク', '姿勢改善', 'パフォーマンス向上', '体幹強化'],
     },
     basicInfo: {
-      hours: '平日 10:00〜20:00 / 土日 10:00〜17:00',
+      hours: '公式の店舗ページに記載なし（電話受付 平日10:00〜20:00 / 土日10:00〜17:00）',
       closed: '不定休',
       facilities: ['リフォーマー', 'キャデラック', 'チェア', '更衣室', 'ロッカー'],
     },
@@ -275,7 +275,7 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '問題ありません。恵比寿エリアのピラティススタジオのほとんどが初心者向けレッスンを用意しています。CLUB PILATESはレベル分けがあり、the SILKは初心者が80%です。BDC PILATESは体験0円で気軽に始められます。',
+    answer: '問題ありません。恵比寿エリアのピラティススタジオのほとんどが初心者向けレッスンを用意しています。CLUB PILATESはレベル分けがあり、the SILKは初心者が80%です。BDC PILATESはグループ体験が10月31日までのキャンペーンで1,100円（税込・通常4,070円）です。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
@@ -660,7 +660,7 @@ export default function EbisuPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  BDC PILATESとthe SILKは無料体験、CLUB PILATESとDr.ピラティス 恵比寿本店も無料体験を実施しています。体験レッスンで実際の雰囲気をご確認ください。
+                  BDC PILATESはグループ体験1,100円（10/31までのキャンペーン・通常4,070円）、the SILKは無料体験、CLUB PILATESとDr.ピラティス 恵比寿本店も無料体験を実施しています。体験レッスンで実際の雰囲気をご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

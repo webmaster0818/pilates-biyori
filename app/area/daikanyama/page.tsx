@@ -134,7 +134,7 @@ const studios = [
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590',
     image: '/images/studios/bdc-pilates.webp',
     price: '月4回 16,280円（税込）',
-    trial: '体験レッスン 0円',
+    trial: 'グループ体験 1,100円（税込・10/31までのキャンペーン・限定20名／通常4,070円・体験当日の入会で体験料キャッシュバック・公式・2026年10月28日確認）',
     features: ['日本初マシン専門', '恵比寿', '認定講師', 'グループ&プライベート'],
     description: '日本初のマシンピラティス専門スタジオの恵比寿店です。代官山からも徒歩圏内です。認定指導資格を保有した講師によるグループレッスンとプライベートレッスンの両方を提供しています。ダンサーやアスリートも通う質の高いレッスンが特徴です。',
     access: 'JR恵比寿駅東口 徒歩3分（公式表記）',
@@ -142,17 +142,17 @@ const studios = [
     popularPlan: { name: 'グループレッスンコース（月4回）', description: '月4回のグループレッスンです。認定講師による本格マシンピラティスです。', price: '月4回 16,280円（税込）' },
     options: ['グループ 月6回 23,100円／月8回 29,260円（税込）', 'プライベート 月1回 11,000円／月2回 20,900円（税込）', '追加レッスン グループ 4,070円／プライベート 11,000円（税込）', '入会金 11,000円・事務手数料 2,200円・施設維持費 月770円（税込）'],
     userProfile: { ageRange: '20代〜40代が中心（全体の80%）', purpose: ['ボディメイク', '姿勢改善', 'パフォーマンス向上', '体幹強化'] },
-    basicInfo: { hours: '平日 10:00〜20:00 / 土日 10:00〜17:00', closed: '不定休', facilities: ['リフォーマー', 'キャデラック', 'チェア', '更衣室', 'ロッカー'] },
+    basicInfo: { hours: '公式の店舗ページに記載なし（電話受付 平日10:00〜20:00 / 土日10:00〜17:00）', closed: '不定休', facilities: ['リフォーマー', 'キャデラック', 'チェア', '更衣室', 'ロッカー'] },
   },
 ]
 
 const faqs = [
-  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '問題ありません。代官山エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。CLUB PILATESはレベル分けがあり、the SILKは初心者が80%です。BDC PILATESは体験レッスンが0円なので気軽に始められます。' },
+  { question: 'ピラティス初心者でも大丈夫ですか？', answer: '問題ありません。代官山エリアのピラティススタジオのほとんどが初心者向けのレッスンを用意しています。CLUB PILATESはレベル分けがあり、the SILKは初心者が80%です。BDC PILATESはグループ体験が10月31日までのキャンペーンで1,100円（税込・通常4,070円）です。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットピラティスは自重を使ったエクササイズで、マシンピラティスは専用マシン（リフォーマーなど）を使ったトレーニングです。マシンは負荷を調整しやすく、初心者におすすめです。代官山エリアではマシン専門スタジオが充実しています。' },
   { question: '代官山のピラティススタジオの料金相場は？', answer: '代官山エリアの料金相場は、グループレッスン月4回で10,000円〜16,280円程度です。BDC PILATES 恵比寿スタジオは月4回16,280円（税込・公式・2026年10月確認）です。パーソナルは1回5,500円〜18,700円と幅があります。体験レッスンは無料〜5,500円です。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: 'ピラティス初心者は週1〜2回（月4〜8回）がおすすめです。慣れてきたら週2〜3回に増やすと効果を実感しやすくなります。大切なのは継続することです。無理のないペースで長く続けることが理想です。' },
   { question: 'ピラティスで痩せますか？', answer: 'ピラティスにはダイエット効果が期待できます。インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。ただし即効性はないので、最低でも2〜3ヶ月は継続することが大切です。' },
-  { question: '体験レッスンは何を持っていけばいいですか？', answer: '基本的に動きやすい服装と飲み物があれば問題ありません。the SILKは手ぶらで参加可能の無料体験、BDC PILATESも0円で体験できます。各スタジオの案内を確認してください。' },
+  { question: '体験レッスンは何を持っていけばいいですか？', answer: '基本的に動きやすい服装と飲み物があれば問題ありません。the SILKは手ぶらで参加可能の無料体験、BDC PILATESはグループ体験1,100円（10/31までのキャンペーン・通常4,070円）で体験できます。各スタジオの案内を確認してください。' },
   { question: 'ピラティスとヨガの違いは何ですか？', answer: 'ピラティスは体幹（コア）を鍛えることに特化したエクササイズです。ヨガは柔軟性と精神的なリラックスを重視します。目的に合わせてお選びください。' },
   { question: 'ピラティスで肩こりや腰痛は改善しますか？', answer: '改善が期待できます。ピラティスラボ代官山はクリニック併設で医療的なアプローチも可能です。Pilates en Roseは腰痛改善に特化したセッションも提供しています。' },
   { question: 'ピラティスはどのくらいで効果が出ますか？', answer: 'ピラティスの効果を実感し始めるのは、2ヶ月を過ぎた頃が目安とされています。すぐに変化が表れなくても、最低2ヶ月は継続することをおすすめします。' },
@@ -399,7 +399,7 @@ export default function DaikanyamaPage() {
             <div className="space-y-8">
               <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span><h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3></div><p className="text-warm-600 leading-relaxed">ダイエット、姿勢改善、体幹強化、美容など、目的によって最適なスタジオは変わります。</p></div>
               <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">予算を決める</h3></div><p className="text-warm-600 leading-relaxed">代官山エリアの料金相場はグループ月4回で10,000円〜15,000円程度です。入会金やレンタル料もご確認ください。</p></div>
-              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">BDC PILATESとthe SILKは無料体験、CLUB PILATESは30分の無料イントロクラスを実施しています。体験レッスンで実際の雰囲気をご確認ください。</p></div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">BDC PILATESはグループ体験1,100円（10/31までのキャンペーン・通常4,070円）、the SILKは無料体験、CLUB PILATESは30分の無料イントロクラスを実施しています。体験レッスンで実際の雰囲気をご確認ください。</p></div>
               <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div><p className="text-warm-600 leading-relaxed">代官山は東急東横線で渋谷・中目黒から1駅です。CLUB PILATESは駅徒歩1分、Pilates en Roseは徒歩2分と駅近スタジオが充実しています。</p></div>
             </div>
           </div>

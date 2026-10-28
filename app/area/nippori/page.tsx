@@ -27,30 +27,31 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 日暮里店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
-    price: '月額 7,800円〜（通い放題 14,080円）',
-    trial: '体験レッスン 3,800円',
+    price: '月4回 8,580円〜（税込・通い放題 12,980円）',
+    trial: '無料体験',
     features: ['予約不要', '30分サーキット', '日暮里駅徒歩1分', 'マシン完備'],
-    description: 'マシンピラティスとファンクショナルトレーニングを組み合わせたサーキット形式のスタジオです。日暮里駅から徒歩1分です。予約不要・1回30分の短時間設計で気軽に続けられます。',
-    access: 'JR山手線・京浜東北線・常磐線「日暮里駅」徒歩1分',
-    address: '東京都荒川区（日暮里駅徒歩1分）',
+    description: 'マシンピラティスとファンクショナルトレーニングを組み合わせたサーキット形式のスタジオです。日暮里駅から徒歩1分です。予約不要・1回30分の短時間設計で気軽に続けられます。月会費（永久割引価格）はマンスリー4が7,800円（税込8,580円）、マンスリー8が9,800円（税込10,780円）、通い放題のレギュラーが11,800円（税込12,980円）で、体験は無料です（公式店舗ページ・2026年10月28日確認）。',
+    access: 'JR山手線・JR常磐線「日暮里駅」徒歩1分',
+    address: '東京都荒川区西日暮里2-18-1 増尾ビル 2F',
     popularPlan: {
-      name: '通い放題プラン',
-      description: '予約不要・30分サーキットで何度でも通えます。',
-      price: '月額 14,080円（税込）',
+      name: 'レギュラー（通い放題）',
+      description: '予約不要・30分サーキットで通い放題です（1日1回まで）。',
+      price: '月額 12,980円（税込）',
     },
     options: [
-      '週1回プラン（月額 7,800円〜）',
-      '週2回プラン',
-      '通い放題（月額 14,080円）',
-      '都度払い',
+      'マンスリー4（月4回）8,580円（税込）',
+      'マンスリー8（月8回）10,780円（税込）',
+      'レギュラー（通い放題）12,980円（税込）',
+      '入会時 施設利用料 2,200円（税込）・3ヶ月目から運営管理費 月480円（税込）',
+      '都度払いはなし（月会費制）',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
       purpose: ['運動不足解消', 'ボディメイク', '体幹強化', '時短トレーニング'],
     },
     basicInfo: {
-      hours: '平日 10:00〜21:00 / 土日祝 10:00〜18:00',
-      closed: '不定休',
+      hours: '平日 9:30〜21:30（13:00〜14:00はメンテナンス）/ 土祝 9:30〜19:30',
+      closed: '日曜日',
       facilities: ['ロッカー', 'マシン完備'],
     },
   },
@@ -58,22 +59,22 @@ const studios = [
     name: 'zen place pilates 千駄木スタジオ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: 'マットグループ 月4回 9,625円〜',
-    trial: '体験レッスン 500円〜',
-    features: ['マット&マシン', '千駄木駅徒歩1分', '男性利用可', '全国他店利用'],
-    description: '全国150店舗以上展開の大手ピラティススタジオです。千駄木駅1番出口から徒歩1分です。日暮里からも徒歩圏内です。マットグループ、マシングループ、プライベートに対応しています。',
-    access: '千代田線「千駄木駅」1番出口 徒歩1分 / JR「日暮里駅」徒歩圏内',
+    price: 'マットグループ 月4回 10,450円（税込・GRADE 01）',
+    trial: 'マットグループ 初回体験 1,000円／マシングループ 初回体験 3,000円',
+    features: ['マット&マシン', '千駄木駅徒歩2分', '男性利用可', '全国他店利用'],
+    description: '全国150店舗以上展開の大手ピラティススタジオです。東京メトロ千代田線「千駄木駅」2番出口から徒歩2分です。マットグループ、マシングループ、プライベートに対応しています。スタジオのグレードはGRADE 01で、体験は初回キャンペーンでマットグループ1,000円（通常3,300円〜）・マシングループ3,000円（通常5,000円〜）、プライベート9,900円〜です（公式スタジオページ・2026年10月28日確認）。',
+    access: '東京メトロ千代田線「千駄木駅」2番出口 徒歩2分',
     address: '東京都文京区千駄木3丁目31-12 ワコーレ千駄木ビル3F',
     popularPlan: {
       name: 'リフォーマーグループ（月4回）',
       description: 'マシンを使ったグループレッスンです。少人数制です。',
-      price: '月4回 15,400円（税込）〜',
+      price: '月4回 15,400円（税込）',
     },
     options: [
-      'マットグループ（月4回 9,625円〜）',
-      'リフォーマーグループ（月4回 15,400円〜）',
-      'フリープラン（月16,940円〜）',
-      'プライベート（1回 9,900円〜）',
+      'マットグループ（月4回 10,450円）',
+      'リフォーマーグループ（月4回 15,400円）',
+      'マットグループフリー（月16,940円）',
+      'プライベート（月4回 38,280円・体験 9,900円〜）',
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
@@ -86,14 +87,20 @@ const studios = [
     },
   },
   {
-    name: 'パーソナルマシンピラティスYUZU',
+    name: 'パーソナルマシンピラティスYUZU 日暮里店',
     image: '/images/studios/yuzu-pilates.webp',
-    price: 'お問い合わせください',
-    trial: '体験レッスンあり',
+    price: '月4回 31,200円（税込・マンツーマン）〜',
+    trial: '体験レッスン 5,500円（税込）',
     features: ['全員女性インストラクター', 'パーソナル専門', '日暮里エリア', 'キッズスペース完備'],
     description: '全員女性インストラクターによるパーソナルマシンピラティスです。キッズスペース完備でお子様連れ可能です。完全個室空間でオーダーメイドのレッスンを提供しています。',
-    access: 'JR「日暮里駅」徒歩圏内',
-    address: '東京都荒川区（日暮里エリア）',
+    access: 'JR「日暮里駅」徒歩5分',
+    address: '東京都荒川区西日暮里2-28-8 塩田ビル 102',
+    options: [
+      '月4プラン 31,200円（1回あたり7,800円）',
+      '月6プラン 43,200円（1回あたり7,200円）',
+      '月2プラン 16,800円（月4・6プランを3ヶ月継続後に利用可）',
+      '入会金 22,000円（体験当日の入会で無料）・いずれも税込（公式店舗ページ・2026年10月28日確認）',
+    ],
   },
   {
     name: 'ピラティスK 池袋店',
@@ -119,7 +126,7 @@ const faqs = [
   },
   {
     question: '日暮里エリアの料金相場は？',
-    answer: 'グループ月4回で7,800円〜15,400円です。パーソナルは1回8,000円〜です。体験は0円〜3,800円です。',
+    answer: 'グループ月4回で8,580円〜15,400円です。パーソナルはYUZUの月額プランで1回あたり7,200円〜8,400円です。体験は0円〜5,500円です（いずれも税込・公式・2026年10月28日確認）。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -260,15 +267,15 @@ export default function NipporiPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">13,420円〜</td>
+                    <td className="px-4 py-3">8,580円〜15,400円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回 13,420円〜</td>
+                    <td className="px-4 py-3">月4回 31,200円〜（1回あたり7,200円〜・YUZU）</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">0円〜3,800円</td>
+                    <td className="px-4 py-3">0円〜5,500円</td>
                   </tr>
                 </tbody>
               </table>
@@ -361,11 +368,11 @@ export default function NipporiPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額8,000円以下からです。
+                  月4回 税込8,580円からです。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• URBAN CLASSIC（月額7,800円〜）</li>
-                  <li className="text-warm-700">• zen place（マット月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• URBAN CLASSIC（月4回 8,580円〜）</li>
+                  <li className="text-warm-700">• zen place（マット月4回 10,450円）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -381,11 +388,11 @@ export default function NipporiPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・通いやすさ</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  日暮里駅・千駄木駅から徒歩1分です。
+                  日暮里駅・千駄木駅から徒歩1〜2分です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• URBAN CLASSIC（日暮里駅徒歩1分）</li>
-                  <li className="text-warm-700">• zen place（千駄木駅徒歩1分）</li>
+                  <li className="text-warm-700">• zen place（千駄木駅2番出口徒歩2分）</li>
                 </ul>
               </div>
             </div>
@@ -437,7 +444,7 @@ export default function NipporiPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  グループ月4回で7,800円〜15,400円が相場です。
+                  グループ月4回で8,580円〜15,400円（税込）が相場です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -446,7 +453,7 @@ export default function NipporiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  0円〜3,800円で体験できるスタジオが中心です。
+                  0円〜5,500円で体験できます。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -498,7 +505,7 @@ export default function NipporiPage() {
               今回は日暮里・千駄木のおすすめピラティススタジオをご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              日暮里駅徒歩1分のURBAN CLASSICは月額7,800円〜、千駄木のzen placeは体験500円〜と気軽に始められます。
+              日暮里駅徒歩1分のURBAN CLASSICは月4回 税込8,580円〜で体験無料、千駄木のzen placeはマットグループの初回体験1,000円と気軽に始められます。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               本ページの情報を、スタジオ選びにお役立てください。
@@ -516,7 +523,7 @@ export default function NipporiPage() {
               体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン0円〜3,800円です。<br />
+              初回限定の体験レッスン0円〜5,500円です。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
