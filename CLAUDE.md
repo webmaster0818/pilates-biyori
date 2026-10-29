@@ -1213,3 +1213,12 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - **CLUB PILATES**: 公式 /studio/ 88店舗（変化なし）＋各店舗ページ88本の EFT4/EFT8/UNLIMITED。料金記載 85店（江ノ島・みなとみらい・福岡赤坂薬院は無し）→「86店舗」を85に。EFT4 最多 13,090円（44店）。nameKana「クラブピラティス」→ title/h1 変更
 - **LAVA**: マシンピラティス開催店舗 81（10/24 と同じ）＋各店舗ページの住所・アクセス・スタジオ種別（女性専用51/男女共用30）。title は 10/24 新設のため変えず（7日ルール・10/31 以降可）、本文と要点で「LAVA（ラバ）」。カード14枚は未変更（判断待ち）
 - precheck ✅ 589頁・計測リンク 3,829→3,829（274種）・functions/api 4本保全
+
+### 2026-10-29 朝ルーチン: zen place 月4回の下限をグレード別に訂正＋マット/マシン取り違え訂正＋LAVA aggregate 14店削除（source e2a4ef81・e60d39c9 / deploy ade7538fd1・b0e04f493c・e0ae99fff1〈空コミット〉）
+- 公式 zenplace.co.jp/price（10/29）: マット月4 G01 10,450／G02 9,625、フリー 16,940／14,960、デイフリー 13,552／11,968、月6 14,520／13,200、PV4 38,280／33,880、RG4 15,400・RG8 25,300・MM22 12,650（グレード共通）。/studios（10/29）のグレードは 137店とも data/zen-place-official-stores.ts（10/28）と一致
+- ブランド頁: `summaryPlan: 'マット月4回 9,625円〜'`（「代表的なプラン 月4回 10,450円〜」は prices[0]＝最多値だった）。brands-aggregate の G02 6店（岐阜・柏・町田・西荻窪・多摩センター・田無）10,450→9,625
+- エリア頁: G02 店カード 10枚の G01 値→G02 値（/tmp/zp1029/fix_g02cards.py＝カード単位で 10,450/16,940/13,552/14,520/38,280/グレード01 を置換）。G02 店を指す本文・FAQ・リスト・相場の下限（fuchu・kashiwa・machida・motomachi・oji・sannomiya・tama-center・tanashi・tokorozawa・tsukuba・nishi-ogikubo・ogikubo・ochanomizu・shinagawa）
+- 取り違え: popularPlan で月4回（マット）をマシン/「マット・マシン両対応」/「フリー」と書いていた23件→名称「マットグループ月4回」＋「リフォーマーグループは別プラン（月4回 15,400円・グレード共通・開催の有無はスタジオにより異なります）」。suidobashi「マシングループ月4回（14,520円〜）」（G01 マット月6の値）×2→リフォーマーグループ月4回（15,400円）。mita・monzen-nakacho・machida の説明文、machida・yutenji・shimokitazawa の FAQ、記事3本（pilates-price・pilates-beginner-studio「リフォーマー中心」・machine-pilates-beginner）
+- LAVA: brands-aggregate の lava 16→2（10/28 に外した14店を削除。福島黒岩・帯広のみ）。storeListNote を2店のみの記述に、口コミテーマの出典表記を「7店舗とも公式のマシンピラティス開催店舗一覧に無い・10/28 にエリア頁から外した」に。他ブランドのキーは不変
+- 未対応（報告）: G01 店カードに G02 値（9,625〜・14,960 等）がある約40枚（逆方向＝下限が店より低い）／相場表「パーソナルレッスン 1回 10,450円〜16,940円」等（zen のマット月額をパーソナル1回として記載）kashiwa・tokorozawa・oji・asagaya・nishi-ogikubo・ogikubo／LAVA 口コミテーマ（7店）を残すか
+- precheck ✅ 589頁・計測リンク 3,777→3,777（260種・同一集計法）・functions/api 4本保全・/api/contact 400。Cloudflare 反映が20分出ず空コミットで再起動→09:49 反映。変更42ページの本番と out の価格出現数が全一致
