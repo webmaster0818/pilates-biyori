@@ -16,6 +16,9 @@ import type { OfficialStoreList } from '@/data/official-store-list-type'
 import { ZEN_PLACE_OFFICIAL } from '@/data/zen-place-official-stores'
 import { CLUB_PILATES_OFFICIAL } from '@/data/club-pilates-official-stores'
 import { LAVA_MACHINE_PILATES_OFFICIAL } from '@/data/lava-machine-pilates-official-stores'
+import { REPILATES_OFFICIAL } from '@/data/repilates-official-stores'
+import { LULUTO_OFFICIAL } from '@/data/luluto-official-stores'
+import { DEP_OFFICIAL } from '@/data/dep-official-stores'
 
 // 公式の全店舗一覧（都道府県別）を出すブランド。pilates K（10/27）と同じ部品を、単ワード検索で10位手前の3ブランドに横展開（2026-10-28）
 const OFFICIAL_STORE_LISTS: Record<string, { list: OfficialStoreList; heading: string; button: string; intro: string; note: string }> = {
@@ -39,6 +42,28 @@ const OFFICIAL_STORE_LISTS: Record<string, { list: OfficialStoreList; heading: s
     button: 'マシンピラティス開催の全{n}店舗（住所・女性専用/男女共用つき）へ移動 ↓',
     intro: 'LAVA公式の「マシンピラティス」ページに「マシンピラティス開催店舗」として載っている全{n}店舗を、都道府県ごとに店舗名・アクセス・住所と、各店舗ページの「スタジオ種別」（女性専用／男女共用）で掲載しています（{asOf}確認）。LAVAの全店舗ではありません。',
     note: '公式ページでは、マシンピラティスは「別途料金がかかります。詳しくは開催店舗のスタッフにご確認ください」と案内されています。アクセスは各店舗ページの先頭の表記で、車での行き方のみの店舗はその表記です。',
+  },
+  // 2026-10-29 成長ルーチン: 「repilates 店舗」「ルルト 店舗」「dep ピラティス 店舗」（7〜9位）の受け皿を、10/28 の zen place 等と同じ部品で
+  repilates: {
+    list: REPILATES_OFFICIAL,
+    heading: '全店舗一覧（公式・都道府県別{n}店舗と営業時間）',
+    button: '公式の全{n}店舗（住所・営業時間つき）へ移動 ↓',
+    intro: 'Repilates公式の店舗一覧に載っている営業中の全{n}店舗を、都道府県ごとに店舗名・営業時間・住所で掲載しています（{asOf}確認）。公式の一覧には最寄駅の表記がなく、イオンモール・イオンタウンなど商業施設内の店舗が多いため、住所の施設名で場所を確認できます。',
+    note: '公式の一覧には、このほかオープン予定の店舗が12店（2026年オープン予定＝イオンタウン館山店〈11月1日〉・アクロスプラザ昭島店・湘南モールフィル店・イオンモール銚子店・日生中央サピエ店・イオン浜松西店・イオンモールとなみ店、2027年オープン予定＝イオンモール加西北条店・イオン高岡江尻店・ヤオコー岩槻本丸店・リーフウォーク稲沢店・トライアル南アルプス店）載っています（この表には含めていません）。料金は全店共通の公式トップページの表記で、特定商取引法の表記には「価格は店舗により異なる」とあります。',
+  },
+  luluto: {
+    list: LULUTO_OFFICIAL,
+    heading: '全店舗一覧（公式・都道府県別{n}店舗と最寄駅）',
+    button: '公式の全{n}店舗（最寄駅・住所つき）へ移動 ↓',
+    intro: 'ルルト公式の「体験予約・店舗一覧」に載っている国内の全{n}店舗（2026年11月1日オープン予定の本八幡店を含む）を、都道府県ごとに店舗名・アクセス・住所で掲載しています。アクセスは公式の一覧の表記で、車で通う店舗は駐車場の案内になっています（{asOf}確認）。',
+    note: '料金（月3回29,700円〜・入会金22,000円）は全店共通の公式の料金表のとおりです。体験料金（45分・1,000円〜5,000円）と体験の受付状況は店舗ごとに異なり、土日祝の新規体験を止めている店舗や体験の受付を停止している店舗もあるため、通いたい店舗の公式ページで確認してください。',
+  },
+  dep: {
+    list: DEP_OFFICIAL,
+    heading: '全店舗一覧と料金エリア（公式・都道府県別{n}店舗）',
+    button: '公式の全{n}店舗（料金エリア・最寄駅つき）へ移動 ↓',
+    intro: 'ピラティススタジオDEP公式の「店舗一覧・ご予約」に載っている全{n}店舗を、都道府県ごとに店舗名・料金エリア・アクセス・住所で掲載しています。料金エリア（A／B／S）は各店舗ページに載っている月額から当編集部が判定したもので、アクセスは各店舗ページの「アクセス」欄の先頭の表記です（{asOf}確認）。',
+    note: '月額はエリアAが月2回14,800円・月4回28,800円・月7回47,600円、エリアBが17,000円・32,000円・54,600円、エリアSが19,200円・37,200円・63,000円（税込・公式の料金ページ）。体験は通常9,900円（税込）がLINE予約で2,980円で、店舗によっては期間限定の体験無料があります（一覧の表示では札幌 Rouage北24条スタジオが2026年10月31日まで、盛岡店 Fonto・倉敷店・松山店 市駅南スタジオが2027年1月31日まで）。',
   },
 }
 const fill = (t: string, l: OfficialStoreList) => t.replace(/\{n\}/g, String(l.stores.length)).replace(/\{asOf\}/g, l.asOf)
@@ -187,7 +212,20 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                 {brand.quickAnswer.map((x) => (
                   <div key={x.label} className="grid grid-cols-[4.5rem_1fr] gap-3 text-sm leading-relaxed">
                     <dt className="font-medium text-warm-800">{x.label}</dt>
-                    <dd className="text-warm-700 font-light">{x.text}</dd>
+                    <dd className="text-warm-700 font-light">
+                      {x.text}
+                      {x.links && x.links.length > 0 && (
+                        <>
+                          {' '}
+                          {x.links.map((l, i) => (
+                            <span key={l.href}>
+                              {i > 0 && '／'}
+                              <Link href={l.href} className="underline decoration-warm-400 hover:text-warm-900 font-normal">{l.label}</Link>
+                            </span>
+                          ))}
+                        </>
+                      )}
+                    </dd>
                   </div>
                 ))}
               </dl>
@@ -663,7 +701,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                               <tr className="border-b border-warm-200 text-left">
                                 <th className="px-4 py-2 text-xs font-medium text-warm-500">店舗</th>
                                 {L.extraLabel && <th className="px-4 py-2 text-xs font-medium text-warm-500">{L.extraLabel}</th>}
-                                <th className="px-4 py-2 text-xs font-medium text-warm-500">最寄駅・アクセス（公式）</th>
+                                <th className="px-4 py-2 text-xs font-medium text-warm-500">{L.accessLabel ?? '最寄駅・アクセス（公式）'}</th>
                                 <th className="px-4 py-2 text-xs font-medium text-warm-500">住所</th>
                               </tr>
                             </thead>

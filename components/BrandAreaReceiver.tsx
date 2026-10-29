@@ -96,11 +96,31 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
 
           <p className="section-en text-warm-400 mb-2 font-medium">Brand × Area</p>
           <h1 className="text-2xl md:text-3xl font-light text-warm-900 tracking-tight mb-3">
-            {store.areaQuery}の{brandName}{store.nameAlias ? `（${store.nameAlias}）` : ""}｜{store.h1Words ?? ""}料金・体験・{store.hours ? "営業時間・" : ""}アクセス
+            {store.h1Text ?? <>{store.areaQuery}の{brandName}{store.nameAlias ? `（${store.nameAlias}）` : ""}｜{store.h1Words ?? ""}料金・体験・{store.hours ? "営業時間・" : ""}アクセス</>}
             <span className="block text-base text-warm-500 mt-2 font-light">
               マシンピラティス専門「{store.storeName}」の情報を当サイトの掲載データにもとづいて掲載しています{MONTH_TAG}
             </span>
           </h1>
+
+          {store.quickAnswer && store.quickAnswer.length > 0 && (
+            <section className="bg-white border-l-4 border-warm-700 border-y border-r border-warm-200 p-5 mb-6" aria-label={`${store.storeName}の要点`}>
+              <h2 className="text-base font-medium text-warm-900 mb-3">{store.storeName}の要点（結論）</h2>
+              <dl className="space-y-2">
+                {store.quickAnswer.map((x) => (
+                  <div key={x.label} className="grid grid-cols-[4.5rem_1fr] gap-3 text-sm leading-relaxed">
+                    <dt className="font-medium text-warm-800">{x.label}</dt>
+                    <dd className="text-warm-700 font-light">{x.text}</dd>
+                  </div>
+                ))}
+              </dl>
+              {store.officialStoreUrl && (
+                <p className="text-[11px] text-warm-400 mt-3 leading-relaxed">
+                  出典：<a href={store.officialStoreUrl} target="_blank" rel="noopener noreferrer" className="underline decoration-warm-300 hover:text-warm-800">公式の店舗ページ</a>
+                  {store.checkedAt ? `（${store.checkedAt}確認）` : ""}
+                </p>
+              )}
+            </section>
+          )}
 
           <div className="border border-warm-300 bg-warm-50 px-4 py-3 mb-8 text-sm text-warm-800">
             🔀 {brandName}全体の<strong>料金プラン・口コミ・全店舗一覧</strong>をお探しの方は{" "}

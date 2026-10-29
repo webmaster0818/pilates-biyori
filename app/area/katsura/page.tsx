@@ -58,9 +58,9 @@ const studios = [
     image: '/images/studios/pilates-studio-dep.webp',
     price: '月額 14,800円〜',
     trial: '体験レッスン 2,980円（キャンペーン）',
-    features: ['国家資格保有', '口コミ4.96', '1,000種類以上', 'オーダーメイド'],
-    description: '国家資格を保有するインストラクターが指導するマシンピラティス専門スタジオです。Google口コミ2,000件以上で平均4.96の超高評価です。1,000種類以上のエクササイズから一人ひとりに最適なプログラムをオーダーメイドで提供しています。',
-    access: '阪急京都線「桂駅」徒歩15分 / 車5分',
+    features: ['理学療法士・作業療法士が担当', '50分パーソナル', '駐車場2台', '料金エリアA'],
+    description: 'ピラティススタジオDEP（株式会社DEP・公式の店舗一覧に全国57店舗）の京都桂店です。理学療法士または作業療法士の国家資格を持つインストラクターが担当する50分のパーソナルマシンピラティスで、初回は90〜120分かけてカウンセリングと身体評価を行います。月額は料金エリアAの金額で、駐車場が2台分あります。公式サイトでは、ブランド全体でGoogle口コミ3,000件以上・平均★4.9以上、1,000種類以上の運動から内容を組むと案内されています（2026年10月29日確認）。',
+    access: '阪急「桂駅」西口から950m・徒歩約15分／車で5分（公式の店舗ページ）',
     address: '京都府京都市西京区桂千代原町71-5',
     popularPlan: {
       name: 'パーソナルピラティス月定額',
@@ -68,8 +68,8 @@ const studios = [
       price: '月額 14,800円〜（税込）/ 1回あたり6,800円〜',
     },
     options: [
-      '月定額サービス（14,800円〜）',
-      '体験レッスン（通常9,900円→LINE予約限定2,980円・税込、公式サイト2026年10月17日確認）',
+      'ライト 月2回 14,800円／スタンダード 月4回 28,800円／プレミアム 月7回 47,600円（税込・エリアA・公式の店舗ページ 2026年10月29日確認）',
+      '体験レッスン（通常9,900円→LINE予約限定2,980円・税込、公式サイト2026年10月29日確認）',
       'パーソナルレッスン',
     ],
     userProfile: {
@@ -78,8 +78,8 @@ const studios = [
     },
     basicInfo: {
       hours: '月〜水・金・土 9:00〜18:00',
-      closed: '木・日曜日',
-      facilities: ['リフォーマー', 'キャデラック', 'チェア', 'バレル', '更衣室'],
+      closed: '木・日、12/29〜1/3',
+      facilities: ['ピラティスマシン', '駐車場2台（店舗横ほか）'],
     },
   },
   {
@@ -190,7 +190,7 @@ const faqs = [
   },
   {
     question: '理学療法士が指導するスタジオはありますか？',
-    answer: 'Studio ViVとピラティススタジオDEP京都桂店はインストラクターが理学療法士の国家資格を保有です。医学的根拠に基づいた安全な指導が受けられます。',
+    answer: 'Studio ViVは理学療法士が指導するスタジオです。ピラティススタジオDEP京都桂店は、理学療法士または作業療法士の国家資格を持つインストラクターが担当します（DEP公式）。',
   },
   {
     question: '女性専用のスタジオはありますか？',
@@ -206,7 +206,7 @@ const faqs = [
   },
   {
     question: '桂駅周辺に駐車場はありますか？',
-    answer: '桂駅周辺にはコインパーキングがいくつかあります。DEP京都桂店は車で5分の立地です。各スタジオの駐車場の有無は公式サイトでご確認ください。',
+    answer: '桂駅周辺にはコインパーキングがいくつかあります。DEP京都桂店は桂駅西口から車で5分（徒歩約15分）で、駐車場が2台分あります（店舗横が埋まっている場合は近くのコインパーキングの指定番号・公式の店舗ページ）。ほかのスタジオの駐車場の有無は公式サイトでご確認ください。',
   },
   {
     question: '複数のスタジオを使い分けることはできますか？',
@@ -308,7 +308,7 @@ export default function KatsuraPage() {
                 <p className="text-warm-600 text-sm mb-4">国家資格保有者の安心指導です。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Studio ViV（理学療法士・6種マシン）</li>
-                  <li className="text-warm-700">• DEP（理学療法士・口コミ4.96）</li>
+                  <li className="text-warm-700">• DEP（理学療法士・作業療法士が担当）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -354,7 +354,7 @@ export default function KatsuraPage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">DEP桂店は桂駅から徒歩15分・車利用が便利</h3>
-                <p className="text-warm-600 leading-relaxed">ピラティススタジオDEP京都桂店は桂駅から徒歩15分とやや距離があります。車なら5分でアクセス可能です。高評価（口コミ4.96）の質の高いレッスンを求めるなら、少し足を延ばす価値は十分にあります。周辺のコインパーキングを事前にご確認ください。</p>
+                <p className="text-warm-600 leading-relaxed">ピラティススタジオDEP京都桂店は、公式の店舗ページでは阪急桂駅西口から950m・徒歩約15分、車で5分です。駐車場が2台分あり（1台は店舗横）、埋まっている場合は近くのコインパーキングの指定番号を使うよう案内されています。Googleマップの評価は★4.9（55件・2026年8月時点）です。DEP全体の料金表（エリアA／B／S）・全57店舗の一覧・口コミの傾向は<Link href="/brands/dep/" className="underline decoration-warm-400 hover:text-warm-900">ピラティススタジオDEPのブランドページ</Link>にまとめています。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">Rintosull桂店は日曜定休に注意</h3>

@@ -5,5 +5,6 @@ export type OfficialStoreList = {
   sourceLabel: string
   sourceUrl: string
   extraLabel?: string // 店舗ごとの追加列の見出し（グレード・月会費・スタジオ種別など）
+  accessLabel?: string // access 列の見出しの差し替え（公式一覧にアクセス欄が無く営業時間を出す場合。2026-10-29 Repilates）
   stores: OfficialStoreRow[]
 }

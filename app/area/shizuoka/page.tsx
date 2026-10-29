@@ -240,7 +240,7 @@ const studios = [
     officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4B650J+3TJ72A+5FZU+5YJRM',
     image: '/images/studios/repilates.webp',
     price: '月3回 12,900円〜（公式表記・税表記なし）',
-    trial: '体験レッスン 0円（通常3,300円・60分・初回1回）',
+    trial: '体験レッスン 0円（通常3,300円・50分・初回1回）',
     features: ['女性専用', 'イオンモール富士宮内', 'グループレッスン', 'マシン専門'],
     description: 'マシンピラティス専門スタジオ Repilates 富士宮店です。イオンモール富士宮2Fの女性専用スタジオで、マシンを使ったグループレッスンを提供しています。月3回12,900円から（公式表記・税表記なし）、体験は0円（通常3,300円）です。',
     access: 'イオンモール富士宮 2F',
