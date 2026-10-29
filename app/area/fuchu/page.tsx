@@ -147,7 +147,7 @@ const faqs = [
   },
   {
     question: '府中のピラティスの料金相場は？',
-    answer: 'グループ月4回で10,450円〜11,990円程度です。studio 6senseは月額6,000円通い放題で最もリーズナブルです。パーソナルはSTUDIO Uが月2回22,000円〜です。',
+    answer: 'グループ月4回で9,625円〜11,990円程度です。studio 6senseは月額6,000円通い放題で最もリーズナブルです。パーソナルはSTUDIO Uが月2回22,000円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -393,7 +393,7 @@ export default function FuchuPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• studio 6sense（スタジオシックスセンス）（月額 6,000円（通い放題））</li>
-                  <li className="text-warm-700">• zen place pilates 府中スタジオ（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• zen place pilates 府中スタジオ（月4回 9,625円〜）</li>
                   <li className="text-warm-700">• CLUB PILATES 府中店（月4回 13,090円）</li>
                 </ul>
               </div>

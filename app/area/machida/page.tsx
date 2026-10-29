@@ -24,16 +24,16 @@ const studios = [
     name: 'zen place pilates 町田',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 10,450円〜',
+    price: '月4回 9,625円〜',
     trial: 'グループ体験 1,000円',
     features: ['マット&マシン対応', '男性利用可', '全国150店舗他店利用', 'グループ体験1,000円'],
-    description: 'マット&マシン両方に対応したピラティススタジオです。月4回10,450円〜のリーズナブルな料金設定です。全国150店舗以上で他店利用可能です。男性も通えるスタジオです。グループ体験1,000円で気軽にスタートです。',
+    description: 'マット&マシン両方に対応したピラティススタジオです。マットグループは月4回9,625円（グレード02・税込）です。全国150店舗以上で他店利用可能です。男性も通えるスタジオです。グループ体験1,000円で気軽にスタートです。',
     access: 'JR横浜線・小田急線「町田駅」周辺',
     address: '東京都町田市原町田4丁目15-13 サンウッド町田 4階',
     popularPlan: {
-      name: 'グループ月4回プラン',
-      description: 'マット・マシンから選べるグループレッスン月4回です。全国他店利用可能です。',
-      price: '月4回 10,450円（税込）',
+      name: 'マットグループ月4回',
+      description: 'マットグループレッスン（マットピラティス・ヨガ）を月4回受講できます。マシンのリフォーマーグループは別プラン（月4回 15,400円・グレード共通・開催の有無はスタジオにより異なります）です。',
+      price: '月4回 9,625円（税込）',
     },
     options: [
       '月6回プラン',
@@ -157,7 +157,7 @@ const faqs = [
   },
   {
     question: '町田のピラティスの料金相場は？',
-    answer: 'Rintosullは月4回8,800円〜と最安です。zen place pilatesは月4回10,450円〜です。ピラティスKは月4回13,420円〜です。グループ月4回で8,800円〜13,420円が相場です。',
+    answer: 'Rintosullは月4回8,800円〜と最安です。zen place pilatesはマットグループ月4回9,625円です。ピラティスKは月4回13,420円〜です。グループ月4回で8,800円〜13,420円が相場です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -177,7 +177,7 @@ const faqs = [
   },
   {
     question: '一番安いスタジオは？',
-    answer: 'マシンピラティスではRintosullが月4回8,800円〜で最安です。zen place pilatesは月4回10,450円〜です。アスウェル町田はジム・サウナ込みでお得です。',
+    answer: 'マシンピラティスではRintosullが月4回8,800円〜で最安です。zen place pilatesのマシン（リフォーマーグループ）は月4回15,400円です（開催の有無はスタジオにより異なります）。アスウェル町田はジム・サウナ込みでお得です。',
   },
   {
     question: 'ジムも一緒に使いたい場合は？',
@@ -403,7 +403,7 @@ export default function MachidaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li>
-                  <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -478,7 +478,7 @@ export default function MachidaPage() {
                   マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates（10,450円〜）</li>
+                  <li>• zen place pilates（9,625円〜）</li>
                   <li>• ピラティスK（13,420円〜）</li>
                 </ul>
               </div>

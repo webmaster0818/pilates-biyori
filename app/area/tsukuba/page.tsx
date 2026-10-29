@@ -469,7 +469,7 @@ export default function TsukubaPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• モナピラティス（MONA PILATES）（月4回 7,480円〜）</li>
                   <li className="text-warm-700">• La pilates（ラピラティス）つくば店（月1回 10,000円〜）</li>
-                  <li className="text-warm-700">• zen place pilates つくばスタジオ（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• zen place pilates つくばスタジオ（月4回 9,625円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">

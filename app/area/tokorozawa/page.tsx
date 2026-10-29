@@ -295,7 +295,7 @@ export default function TokorozawaPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">10,450円〜16,940円</td>
+                    <td className="px-4 py-3">9,625円〜16,940円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -399,7 +399,7 @@ export default function TokorozawaPage() {
                   月額2万円未満で通えるスタジオです（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates 所沢スタジオ（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• zen place pilates 所沢スタジオ（月4回 9,625円〜）</li>
                   <li className="text-warm-700">• CLUB PILATES 所沢店（月4回 11,990円）</li>
                   <li className="text-warm-700">• the SILK 所沢店（月3回 12,280円〜）</li>
                 </ul>

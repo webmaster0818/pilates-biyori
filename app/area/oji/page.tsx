@@ -407,7 +407,7 @@ export default function OjiPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull 王子店（月額 8,800円〜）</li>
-                  <li className="text-warm-700">• zen place pilates 駒込スタジオ（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• zen place pilates 駒込スタジオ（月4回 9,625円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">

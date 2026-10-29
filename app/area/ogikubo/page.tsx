@@ -121,7 +121,7 @@ const studios = [
     name: 'zen place pilates 西荻窪（近隣エリア）',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 10,450円〜',
+    price: '月4回 9,625円〜',
     trial: 'マシンプライベート体験 55分あり',
     features: ['男女共用', '少人数制', '西荻窪駅近', '全国150店舗他店利用'],
     description: '全国展開の大手ピラティススタジオです。荻窪から中央線で1駅の西荻窪駅近です。マットグループ、マシン（リフォーマー）グループ、プライベートのレッスンがあり、男性も可能です。マシンプライベートレッスン55分の体験もあり、初めての方でも安心です。全国150店舗がすべて利用可能で、荻窪店と西荻窪店を都合に合わせて使い分けられます。',
@@ -130,14 +130,14 @@ const studios = [
     popularPlan: {
       name: 'マットグループ月4',
       description: 'マットグループレッスン月4回です。全国150店舗どこでも受講可能',
-      price: '10,450円/月（税込）',
+      price: '9,625円/月（税込）',
     },
     options: [
-      'フリープラン（回数無制限）: 16,940円/月',
-      'デイフリー（平日昼のみ無制限）: 13,552円/月',
-      'マットグループ月6: 14,520円/月',
+      'フリープラン（回数無制限）: 14,960円/月',
+      'デイフリー（平日昼のみ無制限）: 11,968円/月',
+      'マットグループ月6: 13,200円/月',
       'リフォーマーグループRG4（月4回）: 15,400円/月',
-      'プライベート月4: 38,280円/月',
+      'プライベート月4: 33,880円/月',
     ],
     userProfile: {
       ageRange: '20代〜60代まで幅広い',
@@ -153,7 +153,7 @@ const studios = [
     name: 'zen place pilates 阿佐ヶ谷（近隣エリア）',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 10,450円〜',
+    price: '月4回 9,625円〜',
     trial: '体験レッスン 1,000円',
     features: ['男女共用', '少人数制', '阿佐ヶ谷駅近', '全国150店舗他店利用'],
     description: '全国展開の大手ピラティススタジオです。荻窪から中央線で1駅の阿佐ヶ谷駅近です。マットグループ、マシン（リフォーマー）グループ、プライベートのレッスンがあり、男性も可能です。医療機関も推奨している、質の高いレッスンでいつまでもアクティブに人生を愉しめます。全国150店舗がすべて利用可能で、荻窪・西荻窪・阿佐ヶ谷の各店舗を都合に合わせて使い分けられます。',
@@ -162,14 +162,14 @@ const studios = [
     popularPlan: {
       name: 'マットグループ月4',
       description: 'マットグループレッスン月4回です。全国150店舗どこでも受講可能',
-      price: '10,450円/月（税込）',
+      price: '9,625円/月（税込）',
     },
     options: [
-      'フリープラン（回数無制限）: 16,940円/月',
-      'デイフリー（平日昼のみ無制限）: 13,552円/月',
-      'マットグループ月6: 14,520円/月',
+      'フリープラン（回数無制限）: 14,960円/月',
+      'デイフリー（平日昼のみ無制限）: 11,968円/月',
+      'マットグループ月6: 13,200円/月',
       'リフォーマーグループRG4（月4回）: 15,400円/月',
-      'プライベート月4: 38,280円/月',
+      'プライベート月4: 33,880円/月',
     ],
     userProfile: {
       ageRange: '20代〜60代まで幅広い',
@@ -194,7 +194,7 @@ const faqs = [
   },
   {
     question: '荻窪のピラティススタジオの料金相場は？',
-    answer: '荻窪エリアのピラティススタジオの料金相場は、グループレッスンで月4回10,450円〜11,000円程度です。zen place pilatesは月4回10,450円〜、ピラティスミラーは月6回11,000円とリーズナブルです。全国150店舗他店利用できるzen place pilatesなら、荻窪・西荻窪・阿佐ヶ谷の各店舗を追加料金なしで使い分けられます。',
+    answer: '荻窪エリアのピラティススタジオの料金相場は、グループレッスンで月4回9,625円〜11,000円程度です。zen place pilatesは月4回9,625円〜（荻窪スタジオはグレード01で10,450円）、ピラティスミラーは月6回11,000円とリーズナブルです。全国150店舗他店利用できるzen place pilatesなら、荻窪・西荻窪・阿佐ヶ谷の各店舗を追加料金なしで使い分けられます。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -357,7 +357,7 @@ export default function OgikuboAreaPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">10,450円〜11,000円</td>
+                    <td className="px-4 py-3">9,625円〜11,000円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -458,11 +458,11 @@ export default function OgikuboAreaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額10,450円〜で通えるスタジオです。全国150店舗相互利用で各店舗を追加料金なしで使い分けられます。
+                  月額9,625円〜で通えるスタジオです。全国150店舗相互利用で各店舗を追加料金なしで使い分けられます。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates 荻窪（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• zen place pilates 西荻窪（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• zen place pilates 西荻窪（月4回 9,625円〜）</li>
                   <li className="text-warm-700">• ピラティスミラー 荻窪（月6回 11,000円）</li>
                 </ul>
               </div>
@@ -581,7 +581,7 @@ export default function OgikuboAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  荻窪エリアの料金相場はグループで月4回10,450円〜11,000円程度です。無理なく継続できる予算を決めることをおすすめします。料金だけでなく、入会金、ウェアのレンタル料などもご確認ください。zen place pilatesは体験当日入会で入会金無料キャンペーンを実施していることもあります。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  荻窪エリアの料金相場はグループで月4回9,625円〜11,000円程度です。無理なく継続できる予算を決めることをおすすめします。料金だけでなく、入会金、ウェアのレンタル料などもご確認ください。zen place pilatesは体験当日入会で入会金無料キャンペーンを実施していることもあります。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

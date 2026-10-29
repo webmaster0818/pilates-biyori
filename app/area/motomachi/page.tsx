@@ -207,7 +207,7 @@ const faqs = [
   },
   {
     question: '元町のピラティスの料金相場は？',
-    answer: 'グループレッスンは1回4,500円〜、月額プランは10,450円〜19,800円程度です。セミパーソナルのPilates Meeは月2回11,000円〜です。パーソナルより手頃な料金で通えるスタジオが中心です。',
+    answer: 'グループレッスンは1回4,500円〜、月額プランは9,625円〜19,800円程度です。セミパーソナルのPilates Meeは月2回11,000円〜です。パーソナルより手頃な料金で通えるスタジオが中心です。',
   },
   {
     question: '産前産後でも通えるスタジオはありますか？',
@@ -395,7 +395,7 @@ export default function MotomachiPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">10,450円〜19,800円</td>
+                    <td className="px-4 py-3">9,625円〜19,800円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">セミパーソナルレッスン</td>
@@ -507,7 +507,7 @@ export default function MotomachiPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  元町の料金相場はグループ月4回で10,450円〜19,800円です。Studio douceは入会費0円で初期費用を抑えられます。
+                  元町の料金相場はグループ月4回で9,625円〜19,800円です。Studio douceは入会費0円で初期費用を抑えられます。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

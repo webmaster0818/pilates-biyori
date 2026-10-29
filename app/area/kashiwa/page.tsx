@@ -56,7 +56,7 @@ const studios = [
     name: 'zen place pilates 柏スタジオ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 10,450円〜',
+    price: '月4回 9,625円〜',
     trial: 'グループ体験 1,000円',
     features: ['柏駅徒歩1分', '2025年新規OPEN', '男性利用可', '全国他店利用'],
     description: 'ピラティス専門の大手スタジオです。柏駅から徒歩1分です。2025年1月にオープンした新しいスタジオです。マットグループ・マシングループ・プライベートの3タイプです。全国150店舗以上で他店利用可能です。朝7時から夜22時まで幅広い時間帯でレッスンを提供しています。',
@@ -65,10 +65,10 @@ const studios = [
     popularPlan: {
       name: 'フリープラン（マットグループ）',
       description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。',
-      price: '月額 16,940円（税込）',
+      price: '月額 14,960円（税込）',
     },
     options: [
-      '月4回プラン（10,450円〜）',
+      '月4回プラン（9,625円〜）',
       'マシングループ体験（3,000円）',
       'プライベートレッスン（体験 9,900円）',
       '体験当日入会で入会金無料',
@@ -212,7 +212,7 @@ const faqs = [
   },
   {
     question: '柏のピラティスの料金相場は？',
-    answer: 'グループ月4回で7,700円〜15,070円程度です。Mapilaが月会費7,700円〜で最もリーズナブルです。zen placeは月4回10,450円〜です。the SILKは月3回12,280円〜です。',
+    answer: 'グループ月4回で7,700円〜15,070円程度です。Mapilaが月会費7,700円〜で最もリーズナブルです。zen placeは月4回9,625円〜です。the SILKは月3回12,280円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -458,7 +458,7 @@ export default function KashiwaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Mapila（月会費 7,700円〜）</li>
-                  <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• zen place（月4回 9,625円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -524,7 +524,7 @@ export default function KashiwaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Mapila（7,700円〜）</li>
-                  <li>• zen place（10,450円〜/月4回）</li>
+                  <li>• zen place（9,625円〜/月4回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">

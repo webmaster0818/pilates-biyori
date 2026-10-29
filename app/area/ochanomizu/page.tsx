@@ -35,7 +35,7 @@ const studios = [
     address: '東京都文京区本郷3丁目32-7 東京ビル 4階',
     popularPlan: {
       name: 'フリープラン（グレード01）',
-      description: 'マット・マシンどちらも受講可能な人気プランです。全国150店舗で利用可能です。',
+      description: 'マットグループレッスンの通い放題です。マシンのリフォーマーグループは別プラン（月4回 15,400円・グレード共通・開催の有無はスタジオにより異なります）です。',
       price: '月額 16,940円（税込）',
     },
     options: [
@@ -121,21 +121,21 @@ const studios = [
     name: 'zen place pilates 神保町店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 10,450円〜',
+    price: '月4回 9,625円〜',
     trial: 'マットグループ体験 1,000円・マシングループ体験 3,000円（初回体験キャンペーン・公式スタジオページ・2026年10月25日確認）',
     features: ['マシン完備', '神保町駅徒歩1分', '全国他店利用', '男性利用可'],
     description: 'zen placeの神保町スタジオです。神保町駅A7出口から徒歩1分の好立地です。マットグループ、マシングループ、プライベートレッスンに対応しています。全国150店舗が他店利用可能で、ライフスタイルに合わせて自由に通えます。',
     access: '都営地下鉄三田線・新宿線・東京メトロ半蔵門線「神保町駅」A7出口より徒歩1分',
     address: '東京都千代田区神田神保町1-13-2 文銭堂ビル4F',
     popularPlan: {
-      name: 'フリープラン（グレード01）',
-      description: 'マット・マシン通い放題です。全国150店舗で利用可能です。',
-      price: '月額 16,940円（税込）',
+      name: 'フリープラン（グレード02）',
+      description: 'マットグループレッスンの通い放題です。マシンのリフォーマーグループは別プラン（月4回 15,400円・グレード共通・開催の有無はスタジオにより異なります）です。',
+      price: '月額 14,960円（税込）',
     },
     options: [
-      '月4グレード01：月額 10,450円',
-      'デイフリー：月額 13,552円（平日18時まで）',
-      'プライベート月4：月額 38,280円〜',
+      '月4グレード02：月額 9,625円',
+      'デイフリー：月額 11,968円（平日18時まで）',
+      'プライベート月4：月額 33,880円〜',
     ],
     userProfile: {
       ageRange: '20代〜60代',
@@ -567,7 +567,7 @@ export default function OchanomizuPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates 本郷三丁目店（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• zen place pilates 神保町店（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• zen place pilates 神保町店（月4回 9,625円〜）</li>
                   <li className="text-warm-700">• YARD 御茶ノ水スタジオ（月4回 9,680円〜）</li>
                 </ul>
               </div>
@@ -634,7 +634,7 @@ export default function OchanomizuPage() {
                   グループレッスンが中心です。大手チェーンの基本プランが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates（10,450円〜）</li>
+                  <li>• zen place pilates（9,625円〜）</li>
                   <li>• YARD 御茶ノ水（月4回 9,680円〜）</li>
                 </ul>
               </div>

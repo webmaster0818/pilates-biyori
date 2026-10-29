@@ -42,11 +42,11 @@ const studios = [
   {
     name: 'zen place pilates 岐阜', image: '/images/studios/zen-place-pilates.webp', rating: 4.7, reviewCount: 22,
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    price: '月4回 10,450円〜', trial: 'グループ体験 1,000円', features: ['大手の安心感','多様なマシン完備','全国他店利用','男性利用可'],
+    price: '月4回 9,625円〜', trial: 'グループ体験 1,000円', features: ['大手の安心感','多様なマシン完備','全国他店利用','男性利用可'],
     description: 'リフォーマーに加えキャデラックやチェアなど多様なマシンを導入しています。全国150店舗以上で他店利用可能',
     access: '岐阜市内（詳細は公式サイトでご確認ください）',
     address: '岐阜県岐阜市神田町9丁目20 G-frontビル８F',
-    popularPlan: { name: '人気プラン', description: 'リフォーマーに加えキャデラックやチェアなど多様なマシンを導入しています。全国15', price: '月4回 10,450円〜' },
+    popularPlan: { name: 'マットグループ月4回', description: 'マットグループレッスン（マットピラティス・ヨガ）を月4回受講できます。マシンのリフォーマーグループは別プラン（月4回 15,400円・グレード共通・開催の有無はスタジオにより異なります）です。', price: '月4回 9,625円〜' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
     userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },

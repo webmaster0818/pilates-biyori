@@ -196,7 +196,7 @@ const faqs = [
   },
   {
     question: '三宮のピラティスの料金相場は？',
-    answer: 'グループ月4回で10,450円〜13,420円程度です。zen placeが月4回9,625円〜で最もリーズナブルです。ピラティスKは月4回13,420円〜です。',
+    answer: 'グループ月4回で9,625円〜13,420円程度です。zen placeが月4回9,625円〜で最もリーズナブルです。ピラティスKは月4回13,420円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -441,7 +441,7 @@ export default function SannomiyaPage() {
                   月額2万円未満で通えるスタジオです（店舗カードの料金）。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates 三宮スタジオ（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• zen place pilates 三宮スタジオ（月4回 9,625円〜）</li>
                   <li className="text-warm-700">• ピラティスK 神戸三宮店（月4回 13,420円〜）</li>
                   <li className="text-warm-700">• 24/7ピラティス 三宮店（月2回 14,500円〜）</li>
                 </ul>

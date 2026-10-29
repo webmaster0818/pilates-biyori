@@ -24,7 +24,7 @@ const studios = [
     name: 'zen place pilates 西荻窪',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 10,450円〜',
+    price: '月4回 9,625円〜',
     trial: '体験レッスン 1,000円',
     features: ['男女共用', '駅徒歩3分', '全国150店舗他店利用', '世界基準の資格'],
     description: '全国展開の大手ピラティススタジオです。JR中央線・総武線西荻窪駅北口から徒歩3分です。マットグループ、マシン（リフォーマー）グループ、プライベートのレッスンがあり、男性も可能です。日本トップの実績を持ち、世界基準の資格と豊富な経験を持つエデュケーターが在籍しています。豊富なレベルとレッスン数で最適なプランを提供します。全国150店舗がすべて利用可能で、出張先や旅行先でも継続できます。医療機関も推奨している質の高いレッスンでいつまでもアクティブに人生を愉しめます。',
@@ -33,15 +33,15 @@ const studios = [
     popularPlan: {
       name: 'マットグループ月4',
       description: 'マットグループレッスン月4回です。全国150店舗どこでも受講可能',
-      price: '10,450円/月（税込）',
+      price: '9,625円/月（税込）',
     },
     options: [
-      'フリープラン（回数無制限）: 16,940円/月',
-      'デイフリー（平日昼のみ無制限）: 13,552円/月',
-      'マットグループ月6: 14,520円/月',
+      'フリープラン（回数無制限）: 14,960円/月',
+      'デイフリー（平日昼のみ無制限）: 11,968円/月',
+      'マットグループ月6: 13,200円/月',
       'リフォーマーグループRG4（月4回）: 15,400円/月',
       'マット&マシングループMM22（各2回）: 12,650円/月',
-      'プライベート月4: 38,280円/月',
+      'プライベート月4: 33,880円/月',
     ],
     userProfile: {
       ageRange: '20代〜60代まで幅広い',
@@ -506,7 +506,7 @@ export default function NishiOgikuboAreaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates 阿佐ヶ谷（月4回 9,625円〜）</li>
-                  <li className="text-warm-700">• zen place pilates 西荻窪（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• zen place pilates 西荻窪（月4回 9,625円〜）</li>
                   <li className="text-warm-700">• zen place pilates 荻窪（月4回 10,450円〜）</li>
                 </ul>
               </div>
@@ -584,7 +584,7 @@ export default function NishiOgikuboAreaPage() {
                   マット・マシン完備の大手スタジオです。グループ・セミパーソナル対応です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place 西荻窪（10,450円〜）</li>
+                  <li>• zen place 西荻窪（9,625円〜）</li>
                   <li>• zen place 荻窪（10,450円〜）</li>
                   <li>• リフォーマーグループ（15,400円）</li>
                 </ul>

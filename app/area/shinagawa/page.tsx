@@ -117,7 +117,7 @@ const studios = [
     name: 'zen place pilates 五反田西口スタジオ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: 'マットグループ 月4回 10,450円〜',
+    price: 'マットグループ 月4回 9,625円〜',
     trial: '体験レッスン 1,000円〜',
     features: ['マット&マシン', '五反田駅徒歩5分', '男性利用可', '初心者歓迎'],
     description: 'zen placeの五反田エリア2店舗目です（西口側）。五反田駅西口・都営浅草線A5出口から徒歩5分です。東口店と合わせて品川区内に複数店舗展開しています。',
@@ -299,7 +299,7 @@ export default function ShinagawaPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">10,450円〜12,980円</td>
+                    <td className="px-4 py-3">9,625円〜12,980円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -405,7 +405,7 @@ export default function ShinagawaPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull 品川（月4回 8,800円）</li>
                   <li className="text-warm-700">• zen place 大井町（マット月4回 9,625円〜）</li>
-                  <li className="text-warm-700">• zen place 五反田（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• zen place 五反田（月4回 9,625円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
