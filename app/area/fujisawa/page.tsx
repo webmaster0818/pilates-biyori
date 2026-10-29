@@ -28,7 +28,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
-    trial: '体験レッスン 500円〜',
+    trial: '体験レッスン 1,000円（初回・マットグループ）',
     features: ['マシン完備', '男性利用可', '藤沢駅徒歩2分', '全国他店利用可'],
     description: '全国150以上のスタジオを展開する国内最大級のピラティス専門スタジオです。JR東海道線・小田急江ノ島線「藤沢駅」南口から徒歩2分の好立地です。リフォーマー以外にチェアやキャデラックなど豊富なマシンを完備しています。男性も受講可能です。',
     access: 'JR東海道線・小田急江ノ島線「藤沢駅」南口 徒歩2分 / 江ノ島電鉄「藤沢駅」徒歩5分',
@@ -190,7 +190,7 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '問題ありません。藤沢エリアのスタジオのほとんどが初心者歓迎です。the SILKは初心者が80%、zen placeは体験500円から気軽に始められます。',
+    answer: '問題ありません。藤沢エリアのスタジオのほとんどが初心者歓迎です。the SILKは初心者が80%、zen placeは初回体験1,000円（マットグループ）から始められます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
@@ -210,7 +210,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があれば問題ありません。the SILKは手ぶらで参加可能の無料体験、zen placeは500円で体験可能です。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。the SILKは手ぶらで参加可能の無料体験、zen placeは初回1,000円（マットグループ）で体験可能です。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
@@ -350,7 +350,7 @@ export default function FujisawaPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">無料〜500円</td>
+                    <td className="px-4 py-3">無料〜3,000円</td>
                   </tr>
                 </tbody>
               </table>
@@ -575,7 +575,7 @@ export default function FujisawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKは無料体験、zen placeは500円で体験可能です。体験レッスンで実際の雰囲気をご確認ください。
+                  the SILKは無料体験、zen placeは初回1,000円（マットグループ）で体験可能です。体験レッスンで実際の雰囲気をご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -645,7 +645,7 @@ export default function FujisawaPage() {
               体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜500円です。<br />
+              初回限定の体験レッスン無料〜3,000円です。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link

@@ -304,7 +304,7 @@ export default function KitaojiPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">8,800円〜14,960円</td>
+                    <td className="px-4 py-3">10,450円〜15,400円（zen place 京都のマット／リフォーマー）</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>

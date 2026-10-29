@@ -57,7 +57,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: 'マット月4回 10,450円〜',
-    trial: '体験レッスン 500円〜',
+    trial: '体験レッスン 1,000円（初回・マットグループ）',
     features: ['マット＆マシン', '男性利用可', '銀座一丁目駅徒歩1分', '全店他店利用可'],
     description: '全国150店舗以上を展開する日本最大級のピラティススタジオです。銀座一丁目駅10番出口から徒歩1分、有楽町駅からも近い好立地です。マットグループからマシングループ、プライベートレッスンまで多彩なプログラムを提供しています。全店舗他店利用可能で、男性も利用可能です。22年の実績と累計500万回以上のレッスン提供実績を持つ信頼のスタジオです。',
     access: '銀座一丁目駅10番出口徒歩1分 / 有楽町駅からも近い',
@@ -432,7 +432,7 @@ export default function YurakuchoPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円以下で通えるリーズナブルなスタジオです。体験レッスンもワンコイン500円からです。費用を抑えたい方におすすめです。
+                  月額1万円以下で通えるリーズナブルなスタジオです。zen placeの体験は初回1,000円（マットグループ）です。費用を抑えたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates 銀座二丁目（月4回10,450円〜）</li>
@@ -565,7 +565,7 @@ export default function YurakuchoPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。the SILKの無料体験、zen placeの500円体験など、気軽に試せるスタジオがそろっています。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。スタジオの雰囲気、インストラクターとの相性、設備の充実度などは実際に行ってみないとわかりません。the SILKの無料体験、zen placeの初回1,000円体験など、気軽に試せるスタジオがそろっています。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -635,7 +635,7 @@ export default function YurakuchoPage() {
               体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜500円です。<br />
+              初回限定の体験レッスンは無料（the SILK）や1,000円（zen place）から受けられます。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link

@@ -57,16 +57,16 @@ const studios = [
     name: 'zen place pilates 国分寺',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 13,200円〜',
+    price: 'マットグループ月4回 9,625円〜',
     trial: '体験レッスン 1,000円',
     features: ['全国展開大手', 'マット&マシン完備', '男女共用', 'ウェアレンタルあり'],
     description: '全国130店舗以上を展開する大手ピラティススタジオです。JR中央線・西武国分寺線「国分寺駅」北口徒歩3分です。マットグループ・マシングループ・プライベートレッスンに対応しています。解剖学に基づいた科学的アプローチと、経験豊富なエデュケーターの質の高い指導が特徴です。ウェアレンタルがあり手ぶらで通えます。',
     access: 'JR中央線・西武国分寺線「国分寺駅」北口徒歩3分',
     address: '東京都国分寺市本町2丁目2-14 ACN国分寺駅前ビル 4階（旧：国分寺セントクオークビル）',
     popularPlan: {
-      name: 'フリープラン（月4回）',
-      description: 'マット・マシンどちらも受講可能です。全店舗利用可能プランもあります。',
-      price: '月4回 13,200円〜（税込）',
+      name: 'マットグループ月4回',
+      description: 'マットグループレッスン（マットピラティス・ヨガ）を月4回受講できます。マシンのリフォーマーグループは別プラン（月4回 15,400円・グレード共通・開催の有無はスタジオにより異なります）です。',
+      price: 'マットグループ月4回 9,625円〜（税込）',
     },
     options: [
       'マットグループレッスン',
@@ -190,7 +190,7 @@ const faqs = [
   },
   {
     question: '国分寺のピラティスの料金相場は？',
-    answer: 'URBAN CLASSIC PILATESは月4回8,580円と最安級です。Rintosullは月4回8,800円〜（店舗により異なる）、ピラティスミラーは月6回11,000円、pilates Kは月4回13,420円、zen placeは月4回13,200円〜です。',
+    answer: 'URBAN CLASSIC PILATESは月4回8,580円と最安級です。Rintosullは月4回8,800円〜（店舗により異なる）、ピラティスミラーは月6回11,000円、pilates Kは月4回13,420円、zen placeはマットグループ月4回9,625円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -332,7 +332,7 @@ export default function KokubunjiPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">8,580円〜13,200円</td>
+                    <td className="px-4 py-3">8,580円〜13,420円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -490,6 +490,7 @@ export default function KokubunjiPage() {
                 <p className="text-sm text-warm-600 mb-4">手軽に始めたい方に適しています。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• URBAN CLASSIC（8,580円/月4回）</li>
+                  <li>• zen place（マット 9,625円〜/月4回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -509,7 +510,7 @@ export default function KokubunjiPage() {
                 <p className="text-sm text-warm-600 mb-4">本格派・高頻度の方におすすめです。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• URBAN CLASSIC通い放題（12,980円）</li>
-                  <li>• zen place（13,200円〜/月4回）</li>
+                  <li>• zen place リフォーマーグループ（15,400円/月4回）</li>
                 </ul>
               </div>
             </div>

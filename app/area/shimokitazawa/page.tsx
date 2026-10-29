@@ -28,7 +28,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: 'マットグループ 月4回 10,450円〜',
-    trial: '体験レッスン 500円〜',
+    trial: '体験レッスン 1,000円（初回・マットグループ）',
     features: ['マット&マシン', '下北沢駅近', 'AI姿勢分析', '男性利用可'],
     description: '全国150店舗以上展開の大手ピラティススタジオです。下北沢駅から徒歩圏内で、マットグループ・マシングループ・プライベートすべてに対応しています。有資格エデュケーターが在籍し、AIによる姿勢分析を通じて初心者も体の変化を把握しやすくなっています。',
     access: '小田急線・京王井の頭線「下北沢駅」徒歩圏内',
@@ -407,7 +407,7 @@ export default function ShimokitazawaPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">500円〜3,300円</td>
+                    <td className="px-4 py-3">無料〜3,300円</td>
                   </tr>
                 </tbody>
               </table>

@@ -26,7 +26,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
-    trial: 'グループ体験 1,100円',
+    trial: 'グループ体験 1,000円（初回・マットグループ）',
     features: ['川口駅徒歩4分', '2024年オープン', '男性利用可', '全国他店利用'],
     description: 'ピラティス専門の大手スタジオです。川口駅東口から徒歩4分です。2024年6月にオープンした新しいスタジオです。マットグループ・マシングループ・プライベートの3タイプのレッスンです。全国150店舗以上で他店利用可能です。',
     access: 'JR京浜東北線「川口駅」東口 徒歩4分',
@@ -225,7 +225,7 @@ const faqs = [
   },
   {
     question: '無料で体験できるスタジオはどこですか？',
-    answer: 'ピラティスK（0円体験）、URBAN CLASSIC PILATES（0円体験）、Pilates Mee（体験レッスン無料）が無料体験可能です。zen placeはグループ体験1,100円、KASANEは500円です。',
+    answer: 'ピラティスK（0円体験）、URBAN CLASSIC PILATES（0円体験）、Pilates Mee（体験レッスン無料）が無料体験可能です。zen placeはマットグループの初回体験1,000円、KASANEは500円です。',
   },
   {
     question: '車で通えるスタジオはありますか？',
@@ -524,7 +524,7 @@ export default function KawaguchiPage() {
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span>
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
-                <p className="text-warm-600 leading-relaxed">ピラティスK、URBAN CLASSICは0円体験を実施しています。Pilates Meeも体験レッスン無料です。zen placeは1,100円です。まずは体験してみることをおすすめします。</p>
+                <p className="text-warm-600 leading-relaxed">ピラティスK、URBAN CLASSICは0円体験を実施しています。Pilates Meeも体験レッスン無料です。zen placeは初回1,000円（マットグループ）です。まずは体験してみることをおすすめします。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4">

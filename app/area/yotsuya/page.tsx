@@ -25,7 +25,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: 'マットグループ 月4回 10,450円〜',
-    trial: '体験レッスン 500円〜',
+    trial: '体験レッスン 1,000円（初回・マットグループ）',
     features: ['マット&マシン', '飯田橋駅徒歩1分', '男性利用可', '四ツ谷から2駅'],
     description: '全国100店舗以上展開の大手ピラティススタジオです。飯田橋駅B4b出口から徒歩1分です。四ツ谷駅から南北線で2駅の好アクセスです。マットグループ、マシングループ、プライベートレッスンに対応しています。',
     access: '南北線「飯田橋駅」B4b出口 徒歩1分 / 四ツ谷駅から南北線で2駅',
@@ -204,7 +204,7 @@ export default function YotsuyaPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">500円〜2,000円</td>
+                    <td className="px-4 py-3">1,000円〜2,000円</td>
                   </tr>
                 </tbody>
               </table>
@@ -442,7 +442,7 @@ export default function YotsuyaPage() {
               体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン500円〜です。<br />
+              初回限定の体験レッスン1,000円〜です。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link

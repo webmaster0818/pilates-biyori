@@ -24,16 +24,16 @@ const studios = [
     name: 'zen place pilates 立川スタジオ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 13,200円〜',
+    price: 'マットグループ月4回 9,625円〜',
     trial: '体験レッスン 1,000円',
-    features: ['マシン完備', '初心者歓迎', '立川駅徒歩3分', 'エデュケーター養成'],
-    description: '全国展開の大手ピラティススタジオです。立川駅北口から徒歩3分の好立地です。マットピラティスからマシンピラティスまで豊富なレッスンメニューです。多摩地区の中心都市・立川で、充実した商業施設に囲まれながらレッスンを受けられます。JR中央線・南武線・青梅線が利用可能でアクセス抜群です。経験豊富なエデュケーターが一人ひとりに合わせた丁寧な指導を提供します。',
-    access: '立川駅北口から徒歩3分',
+    features: ['マシン完備', '初心者歓迎', '立川駅北口徒歩7分', 'エデュケーター養成'],
+    description: '全国展開の大手ピラティススタジオです。立川駅北口から徒歩7分です。マットピラティスからマシンピラティスまで豊富なレッスンメニューです。多摩地区の中心都市・立川で、充実した商業施設に囲まれながらレッスンを受けられます。JR中央線・南武線・青梅線が利用可能でアクセス抜群です。経験豊富なエデュケーターが一人ひとりに合わせた丁寧な指導を提供します。',
+    access: 'JR各線「立川駅」北口徒歩7分',
     address: '東京都立川市曙町2丁目32-2 中山本社ビル 7階 A',
     popularPlan: {
-      name: 'フリープラン（月4回）',
-      description: 'マット・マシンどちらも受講可能な人気プランです。多摩地区の中心地に位置し、通いやすい立地です。',
-      price: '月4回 13,200円（税込）',
+      name: 'マットグループ月4回',
+      description: 'マットグループレッスン（マットピラティス・ヨガ）を月4回受講できます。マシンのリフォーマーグループは別プラン（月4回 15,400円・グレード共通・開催の有無はスタジオにより異なります）です。',
+      price: 'マットグループ月4回 9,625円〜（税込）',
     },
     options: [
       'プライベートレッスン追加（1回 9,900円〜）',
@@ -271,7 +271,7 @@ export default function TachikawaPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">13,200円〜15,280円</td>
+                    <td className="px-4 py-3">9,625円〜15,280円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -397,7 +397,6 @@ export default function TachikawaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Urban Pilates 立川（駅徒歩1分）</li>
-                  <li className="text-warm-700">• zen place pilates 立川（駅徒歩3分）</li>
                 </ul>
               </div>
             </div>
@@ -453,7 +452,7 @@ export default function TachikawaPage() {
                   マシン完備の大手スタジオです。zen place pilates はグループ・プライベートを選べます。ピラティスK と the SILK 立川店はグループレッスンのみです（各公式サイト・2026年10月確認）。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates</li>
+                  <li>• zen place pilates（リフォーマーグループ 月4回 15,400円）</li>
                   <li>• ピラティスK</li>
                   <li>• the SILK</li>
                 </ul>

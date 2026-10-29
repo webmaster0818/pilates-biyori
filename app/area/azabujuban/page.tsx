@@ -25,7 +25,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: 'マットグループ 月4回 10,450円〜',
-    trial: '体験レッスン 500円〜',
+    trial: '体験レッスン 1,000円（初回・マットグループ）',
     features: ['マット&マシン', '麻布十番駅徒歩1分', '男性利用可', '全国他店利用'],
     description: '全国150店舗以上展開の大手ピラティススタジオです。麻布十番駅7番出口から徒歩1分の好立地です。マットグループ、マシン（リフォーマー）グループ、プライベートレッスンに対応しています。全国の店舗で他店利用可能です。',
     access: '都営大江戸線・南北線「麻布十番駅」7番出口 徒歩1分',
@@ -105,7 +105,7 @@ const faqs = [
   },
   {
     question: '麻布十番エリアの料金相場は？',
-    answer: 'グループ月4回で9,600円〜15,400円程度です。パーソナルは1回6,250円〜10,000円です。体験は500円〜2,200円です。',
+    answer: 'グループ月4回で9,600円〜15,400円程度です。パーソナルは1回6,250円〜10,000円です。体験は無料〜2,200円です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -250,7 +250,7 @@ export default function AzabujubanPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">500円〜2,200円</td>
+                    <td className="px-4 py-3">無料〜2,200円</td>
                   </tr>
                 </tbody>
               </table>
@@ -428,7 +428,7 @@ export default function AzabujubanPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  500円〜2,200円で体験できるスタジオが多いので、体験レッスンをご利用ください。
+                  無料〜2,200円で体験できるスタジオが多いので、体験レッスンをご利用ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -498,7 +498,7 @@ export default function AzabujubanPage() {
               体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン500円〜2,200円です。<br />
+              初回限定の体験レッスン無料〜2,200円です。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link

@@ -28,7 +28,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
-    trial: '体験レッスン 500円〜',
+    trial: '体験レッスン 1,000円（初回・マットグループ）',
     features: ['マット&マシン', '初心者歓迎', '代々木上原駅徒歩2分', '男性利用可'],
     description: '全国100店舗以上展開の大手ピラティススタジオです。代々木上原駅南口から徒歩2分の好立地です。マットグループ、マシン（リフォーマー）グループ、プライベートレッスンと幅広いメニューを提供しています。経験豊富なエデュケーターが一人ひとりに合わせた丁寧な指導を行います。',
     access: '小田急線・東京メトロ千代田線「代々木上原駅」南口2番出口 徒歩2分',
@@ -178,7 +178,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
-    trial: '体験レッスン 500円〜',
+    trial: '体験レッスン 1,000円（初回・マットグループ）',
     features: ['マット&マシン', '初心者歓迎', '下北沢駅徒歩2分', '男性利用可'],
     description: '下北沢駅から徒歩2分の好立地です。代々木上原から小田急線で1駅のアクセスです。全国展開のzen placeブランドならではの質の高いレッスンを、マットグループ・マシングループ・プライベートの3形式で提供しています。代々木上原エリアからも通いやすい人気スタジオです。',
     access: '小田急線・京王井の頭線「下北沢駅」徒歩2分（代々木上原から1駅）',
@@ -374,7 +374,7 @@ export default function YoyogiUeharaPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">500円〜8,800円</td>
+                    <td className="px-4 py-3">無料〜8,800円</td>
                   </tr>
                 </tbody>
               </table>

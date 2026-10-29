@@ -117,7 +117,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
-    trial: 'グループ体験 2,000円',
+    trial: 'グループ体験 1,000円（初回・マットグループ）',
     features: ['広尾エリア', '男性利用可', 'マット&マシン', '全国他店利用'],
     description: 'ピラティス専門の大手スタジオです。恵比寿駅西口・日比谷線1番出口から徒歩5分、広尾エリアに位置しています。マットグループ・マシングループ・プライベートの3タイプから選べます。全国150店舗以上で他店利用可能です。男性も歓迎です。',
     access: 'JR「恵比寿駅」西口 徒歩5分 / 東京メトロ日比谷線「恵比寿駅」1番出口 徒歩5分',
@@ -566,7 +566,7 @@ export default function HirooPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKは無料体験、zen placeは2,000円で体験可能です。STUDIO IVYは4,500円でパーソナル体験です。体験レッスンで実際の雰囲気をご確認ください。
+                  the SILKは無料体験、zen placeは初回1,000円（マットグループ）で体験可能です。STUDIO IVYは4,500円でパーソナル体験です。体験レッスンで実際の雰囲気をご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

@@ -26,7 +26,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '\/images\/studios\/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
-    trial: 'グループ体験 500円〜（キャンペーン）',
+    trial: 'グループ体験 1,000円（初回・マットグループ）',
     features: ['笹塚駅徒歩5分', '2023年オープン', '男性利用可', '全国他店利用'],
     description: 'ピラティス専門の大手スタジオです。京王線笹塚駅北口から徒歩5分です。2023年9月オープンの新しいスタジオです。マットグループ・マシングループ・プライベートの3タイプです。リフォーマー・キャデラック・チェアなどマシン完備です。全国150店舗以上で他店利用可能です。',
     access: '京王線「笹塚駅」北口 徒歩5分',
@@ -188,7 +188,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があれば問題ありません。CLUB PILATESは無料イントロクラス、ELEMENTは初回無料体験があります。zen placeはキャンペーン500円〜です。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。CLUB PILATESは無料イントロクラス、ELEMENTは初回無料体験があります。zen placeは初回のマットグループ体験が1,000円です。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
@@ -200,7 +200,7 @@ const faqs = [
   },
   {
     question: '無料で体験できるスタジオは？',
-    answer: 'CLUB PILATESとELEMENTは無料体験があります。zen placeはキャンペーン体験500円〜です。',
+    answer: 'CLUB PILATESとELEMENTは無料体験があります。zen placeは初回のマットグループ体験が1,000円です。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -547,7 +547,7 @@ export default function SasazukaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  体験料金は、zen place pilates 笹塚スタジオが「グループ体験 500円〜（キャンペーン）」、CLUB PILATES 笹塚店が「体験レッスン 無料（30分イントロクラス）」、ピラティスミラー 笹塚が「体験レッスン 2,200円」、ELEMENT 笹塚A1店が「体験レッスン 無料」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
+                  体験料金は、zen place pilates 笹塚スタジオが「グループ体験 1,000円（初回・マットグループ）」、CLUB PILATES 笹塚店が「体験レッスン 無料（30分イントロクラス）」、ピラティスミラー 笹塚が「体験レッスン 2,200円」、ELEMENT 笹塚A1店が「体験レッスン 無料」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
