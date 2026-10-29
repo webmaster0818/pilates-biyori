@@ -27,16 +27,16 @@ const studios = [
     name: 'zen place pilates 梅田スタジオ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 13,200円〜',
+    price: 'マットグループ月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
     features: ['マシン完備', '初心者歓迎', '梅田駅徒歩3分', 'エデュケーター養成'],
     description: '全国展開の大手ピラティススタジオです。梅田駅から徒歩3分の好立地です。マットピラティスからマシンピラティスまで豊富なレッスンメニューです。大阪最大のターミナル駅・梅田で、JR・阪急・阪神・地下鉄が利用可能です。キタの中心、オフィス・商業の一大拠点です。グランフロント、阪急百貨店、ヨドバシなどが近く、レッスン後のショッピングも楽しめます。経験豊富なエデュケーターが一人ひとりに合わせた丁寧な指導を提供します。',
     access: '梅田駅から徒歩3分',
     address: '大阪府大阪市北区梅田1丁目12-17 梅田スクエアビル 10階',
     popularPlan: {
-      name: 'フリープラン（月4回）',
-      description: 'マット・マシンどちらも受講可能な人気プランです。大阪最大の拠点で、通いやすい立地です。',
-      price: '月4回 13,200円（税込）',
+      name: 'マットグループ月4回',
+      description: 'マットグループレッスン（マットピラティス・ヨガ）を月4回受講できます。マシンのリフォーマーグループは別プラン（月4回 15,400円・グレード共通・開催の有無はスタジオにより異なります）です。大阪最大の拠点で、通いやすい立地です。',
+      price: 'マットグループ月4回 10,450円（税込）',
     },
     options: [
       'プライベートレッスン追加（1回 9,900円〜）',
@@ -489,8 +489,8 @@ export default function UmedaPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
-                  <p className="text-3xl font-bold text-warm-800 mb-2">13,200円〜15,070円</p>
-                  <p className="text-sm text-warm-600">zen place pilates梅田の月4回13,200円〜が最安クラスです。ピラティスKは月4回15,070円〜です。</p>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">10,450円〜15,070円</p>
+                  <p className="text-sm text-warm-600">zen place pilates梅田のマットグループ月4回10,450円〜が最安クラスです。ピラティスKは月4回15,070円〜です。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">パーソナル・プライベートレッスン</h3>

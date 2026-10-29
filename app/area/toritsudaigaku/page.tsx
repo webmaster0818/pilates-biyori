@@ -24,19 +24,19 @@ const studios = [
     name: 'zen place pilates 都立大学',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: 'マットグループ 月4回 9,625円〜',
+    price: 'マットグループ 月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
     features: ['マット&マシン', '都立大学駅近', '少人数制', '男性利用可'],
-    description: '全国150店舗以上展開の大手ピラティススタジオです。東急東横線都立大学駅から徒歩すぐの好立地です。マットピラティスからマシンピラティス（リフォーマー）まで幅広いレッスンに対応し、有資格エデュケーターが丁寧に指導しています。月4回9,625円〜とリーズナブルに始められます。',
+    description: '全国150店舗以上展開の大手ピラティススタジオです。東急東横線都立大学駅から徒歩すぐの好立地です。マットピラティスからマシンピラティス（リフォーマー）まで幅広いレッスンに対応し、有資格エデュケーターが丁寧に指導しています。月4回10,450円〜とリーズナブルに始められます。',
     access: '東急東横線「都立大学駅」徒歩すぐ',
     address: '東京都目黒区八雲1丁目4-11 都立大八雲マンション 201',
     popularPlan: {
       name: 'マットグループ（月4回）',
       description: 'マットを使ったグループレッスンです。少人数制で丁寧な指導です。初心者にもおすすめです。',
-      price: '月4回 9,625円（税込）〜',
+      price: '月4回 10,450円（税込）〜',
     },
     options: [
-      'マットグループ（月4回 9,625円〜）',
+      'マットグループ（月4回 10,450円〜）',
       'リフォーマーグループ（月4回 15,400円〜）',
       'フリープラン（月16,940円〜）',
       'プライベート（1回 9,900円〜）',
@@ -166,7 +166,7 @@ const studios = [
 const faqs = [
   {
     question: '都立大学エリアでピラティスの相場はどれくらい？',
-    answer: 'グループレッスンは月4回9,625円〜11,000円、パーソナルは1回6,250円〜が相場です。ピラティスミラーは月6回11,000円と割安です。',
+    answer: 'グループレッスンは月4回10,450円〜11,000円、パーソナルは1回6,250円〜が相場です。ピラティスミラーは月6回11,000円と割安です。',
   },
   {
     question: '初心者でも大丈夫ですか？',
@@ -399,7 +399,7 @@ export default function ToritsudaigakuPage() {
                   リーズナブルに通いたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place（マット月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• zen place（マット月4回 10,450円〜）</li>
                   <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
                   <li className="text-warm-700">• noa（月4回 11,000円）</li>
                 </ul>
@@ -467,7 +467,7 @@ export default function ToritsudaigakuPage() {
                   マットピラティスでリーズナブルに通えます。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place（マット月4回 9,625円〜）</li>
+                  <li>• zen place（マット月4回 10,450円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -520,7 +520,7 @@ export default function ToritsudaigakuPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  都立大学エリアはマット月4回9,625円〜、マシン月4回11,000円〜、パーソナル1回6,250円〜と幅広い価格帯が揃っています。
+                  都立大学エリアはマット月4回10,450円〜、マシン月4回11,000円〜、パーソナル1回6,250円〜と幅広い価格帯が揃っています。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -581,7 +581,7 @@ export default function ToritsudaigakuPage() {
               今回は都立大学のおすすめピラティススタジオ5選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              都立大学は東急東横線沿線の閑静な住宅街で、自由が丘や中目黒にも近いエリアです。zen placeのマット月4回9,625円〜から、noaのマシン専門、STUDIO IVYのパーソナル、コナミ運営のピラティスミラーまで、目的や予算に合わせて選べるスタジオが揃っています。
+              都立大学は東急東横線沿線の閑静な住宅街で、自由が丘や中目黒にも近いエリアです。zen placeのマット月4回10,450円〜から、noaのマシン専門、STUDIO IVYのパーソナル、コナミ運営のピラティスミラーまで、目的や予算に合わせて選べるスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               ぜひ体験レッスンに足を運んで、自分に合うスタジオを見つけてください。

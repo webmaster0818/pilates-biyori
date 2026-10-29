@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/yokohama/' },
   title: 'ピラティス横浜おすすめ11選人気スタジオの料金プランの比較',
-  description: '横浜のおすすめピラティススタジオ11選を比較しています。グループ月4回9,625円〜の料金相場、駅近・女性専用・パーソナル対応のスタジオ情報、体験レッスンの持ち物まで完全網羅しています。',
+  description: '横浜のおすすめピラティススタジオ11選を比較しています。グループ月4回10,450円〜の料金相場、駅近・女性専用・パーソナル対応のスタジオ情報、体験レッスンの持ち物まで完全網羅しています。',
   keywords: 'ピラティス,横浜,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -24,7 +24,7 @@ const studios = [
     name: 'zen place pilates 横浜スタジオ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 9,625円〜',
+    price: '月4回 10,450円〜',
     trial: '体験レッスンあり（当日入会で入会金無料）',
     features: ['マシン完備', '男性利用可', '横浜駅徒歩4分', '全国他店利用可'],
     description: '全国150以上のスタジオを展開する大手ピラティススタジオです。横浜駅西口から徒歩4分の好立地です。マットグループ・リフォーマーグループ・プライベートレッスンと豊富なレッスン形式から選べます。Balanced Body製マシンを完備し、経験豊富なエデュケーターが一人ひとりに合わせた丁寧な指導を提供しています。男性も受講可能です。',
@@ -33,10 +33,10 @@ const studios = [
     popularPlan: {
       name: 'マットグループ月4回',
       description: 'マットピラティスのグループレッスンです。初心者から経験者まで対応しています。全国のzen placeスタジオで他店利用可能です。',
-      price: '月4回 9,625円（税込）',
+      price: '月4回 10,450円（税込）',
     },
     options: [
-      'マットグループフリー（月額14,960円）',
+      'マットグループフリー（月額16,940円）',
       'リフォーマーグループ月4回（月額15,400円）',
       'リフォーマーグループ月8回（月額25,300円）',
       'プライベート月4回（月額38,280円）',
@@ -457,7 +457,7 @@ export default function YokohamaPage() {
                   月額10,000円台で通える格安スタジオです。体験レッスン無料のスタジオも多数あります。費用を抑えたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
                   <li className="text-warm-700">• lafimo 横浜東口店（月4回 10,560円〜）</li>
                   <li className="text-warm-700">• CLUB PILATES（月4回 13,090円）</li>
                 </ul>
@@ -525,7 +525,7 @@ export default function YokohamaPage() {
                   グループレッスンが中心です。マットピラティスやSPA付きプランなどです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates（9,625円〜）</li>
+                  <li>• zen place pilates（10,450円〜）</li>
                   <li>• lafimo 横浜東口（10,560円〜）</li>
                 </ul>
               </div>
@@ -616,8 +616,8 @@ export default function YokohamaPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
-                  <p className="text-3xl font-bold text-warm-800 mb-2">9,625円〜15,300円</p>
-                  <p className="text-sm text-warm-600">zen place pilatesのマット月4回9,625円〜が最安です。lafimoは月4回10,560円〜でSPA付きです。CLUB PILATESは月4回 13,090円、ピラティスKは月4回13,420円〜です。the SILKは月4回15,280円〜＋施設利用料700円です。</p>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">10,450円〜15,300円</p>
+                  <p className="text-sm text-warm-600">zen place pilatesのマット月4回10,450円〜が最安です。lafimoは月4回10,560円〜でSPA付きです。CLUB PILATESは月4回 13,090円、ピラティスKは月4回13,420円〜です。the SILKは月4回15,280円〜＋施設利用料700円です。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">パーソナルレッスン</h3>

@@ -25,19 +25,19 @@ const studios = [
     name: 'zen place pilates 中野',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: 'マットグループ月4回 9,625円〜',
+    price: 'マットグループ月4回 10,450円〜',
     trial: '体験レッスン 1,000円〜',
     features: ['マット&マシン両方', '中野駅徒歩7分', '男性利用可', '全国他店利用可'],
-    description: '全国100店舗以上を展開するzen placeのピラティス専門スタジオです。中野駅から徒歩7分です。マットグループ月4回9,625円〜、マシングループ月4回15,400円〜です。男性も利用可能で、全国のzen placeスタジオを他店利用できます。',
+    description: '全国100店舗以上を展開するzen placeのピラティス専門スタジオです。中野駅から徒歩7分です。マットグループ月4回10,450円〜、マシングループ月4回15,400円〜です。男性も利用可能で、全国のzen placeスタジオを他店利用できます。',
     access: 'JR中央線・総武線「中野駅」徒歩7分',
     address: '東京都中野区新井2-1-19 中野パックマートビル3F',
     popularPlan: {
       name: 'マットグループ月4回プラン',
       description: 'マットピラティスのグループレッスンです。少人数制で初心者も安心です。',
-      price: '月4回 9,625円〜（税込）',
+      price: '月4回 10,450円〜（税込）',
     },
     options: [
-      'マットグループ月4回（9,625円〜）',
+      'マットグループ月4回（10,450円〜）',
       'マシングループ月4回（15,400円〜）',
       'プライベートレッスン',
       '他店舗他店利用',
@@ -582,7 +582,7 @@ export default function NakanoPage() {
                   <li className="text-warm-700">• chocoZAP（月額 3,278円・24時間）</li>
                   <li className="text-warm-700">• NATURAglam（月4回 7,700円〜）</li>
                   <li className="text-warm-700">• CALDO（月4回 8,250円〜）</li>
-                  <li className="text-warm-700">• zen place（マット月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• zen place（マット月4回 10,450円〜）</li>
                   <li className="text-warm-700">• URBAN CLASSIC（月4回 9,680円）</li>
                 </ul>
               </div>
@@ -653,7 +653,7 @@ export default function NakanoPage() {
                   <li>• chocoZAP（月額 3,278円）</li>
                   <li>• NATURAglam（月4回 7,700円〜）</li>
                   <li>• CALDO（月4回 8,250円〜）</li>
-                  <li>• zen place マット（月4回 9,625円〜）</li>
+                  <li>• zen place マット（月4回 10,450円〜）</li>
                   <li>• URBAN CLASSIC（月4回 9,680円）</li>
                 </ul>
               </div>
@@ -767,7 +767,7 @@ export default function NakanoPage() {
               今回は中野エリアのおすすめピラティススタジオ10選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              中野はJR中央線で新宿まで約5分、中野ブロードウェイやサンモール商店街など活気あるサブカルの街です。マットグループ月4回9,625円〜のzen place、女性専用マシン専門のnoa、駅南口徒歩2分のピラティスミラー、完全個室パーソナルのSTUDIO IVY、予約不要30分のURBAN CLASSIC、マンツーマン30分のELEMENT、月額3,278円のchocoZAPなど、多彩なスタジオが揃っています。
+              中野はJR中央線で新宿まで約5分、中野ブロードウェイやサンモール商店街など活気あるサブカルの街です。マットグループ月4回10,450円〜のzen place、女性専用マシン専門のnoa、駅南口徒歩2分のピラティスミラー、完全個室パーソナルのSTUDIO IVY、予約不要30分のURBAN CLASSIC、マンツーマン30分のELEMENT、月額3,278円のchocoZAPなど、多彩なスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               ぜひ体験レッスンに足を運んで、自分に合うスタジオを見つけてください。

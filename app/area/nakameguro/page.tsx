@@ -24,7 +24,7 @@ const studios = [
     name: 'zen place pilates 中目黒スタジオ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: 'マットグループ 月4回 9,625円〜',
+    price: 'マットグループ 月4回 10,450円〜',
     trial: 'マットグループ初回体験 1,000円（キャンペーン・通常3,300円〜／マシングループは初回3,000円・公式のスタジオページ・2026年10月24日確認）',
     features: ['マット&マシン', '初心者歓迎', '中目黒駅徒歩7分', '男性利用可'],
     description: '全国100店舗以上展開の大手ピラティススタジオです。中目黒駅から徒歩7分、池尻大橋駅からも徒歩7分です。マットグループ、マシン（リフォーマー）グループ、プライベートレッスンと幅広いメニューです。おしゃれな中目黒の街でピラティスを楽しめます。',
@@ -36,7 +36,7 @@ const studios = [
       price: '月4回 15,400円（税込）〜',
     },
     options: [
-      'マットグループ（月4回 9,625円〜）',
+      'マットグループ（月4回 10,450円〜）',
       'リフォーマーグループ（月4回 15,400円〜）',
       'プライベート月2回（19,800円）',
       'プライベート月4回（36,960円）',
@@ -365,7 +365,7 @@ export default function NakameguroPage() {
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">月額1万円前後から通えるスタジオです。定額制やグループレッスンがお得です。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates（マット月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• zen place pilates（マット月4回 10,450円〜）</li>
                   <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
                   <li className="text-warm-700">• the SILK（月4回 15,280円〜）</li>
                 </ul>
@@ -413,7 +413,7 @@ export default function NakameguroPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">グループ</p>
                 <p className="text-sm text-warm-600 mb-4">マットグループや定額制プランです。気軽に始められます。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place（マット月4回 9,625円〜）</li>
+                  <li>• zen place（マット月4回 10,450円〜）</li>
                   <li>• ピラティスミラー（月6回 11,000円）</li>
                 </ul>
               </div>

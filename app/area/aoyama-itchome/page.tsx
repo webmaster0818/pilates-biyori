@@ -182,7 +182,7 @@ const studios = [
     name: 'zen place pilates 六本木',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 9,625円〜',
+    price: '月4回 10,450円〜',
     trial: '体験レッスンあり（当日入会で入会金無料）',
     features: ['マシン完備', '男性利用可', '全国他店利用可', '各種割引あり'],
     description: '全国150以上のスタジオを展開する国内最大級のピラティス専門スタジオです。青山一丁目エリアからもアクセスしやすい六本木スタジオです。マットグループ・リフォーマーグループ・プライベートレッスンと豊富なレッスン形式です。Balanced Body製マシンを完備し、世界レベルの資格を持つエデュケーターが丁寧に指導しています。男性も受講可能です。',
@@ -191,13 +191,13 @@ const studios = [
     popularPlan: {
       name: 'マットグループ月4回',
       description: 'マットピラティスのグループレッスンです。全国のzen placeスタジオで他店利用可能です。',
-      price: '月4回 9,625円（税込）',
+      price: '月4回 10,450円（税込）',
     },
     options: [
-      'マットグループフリー（月額14,960円）',
+      'マットグループフリー（月額16,940円）',
       'リフォーマーグループ月4回（月額15,400円）',
       'リフォーマーグループ月8回（月額25,300円）',
-      'プライベート月4回（月額33,880円〜）',
+      'プライベート月4回（月額38,280円〜）',
     ],
     userProfile: {
       ageRange: '20代〜50代が中心（全体の80%）',
@@ -375,7 +375,7 @@ export default function AoyamaItchomePage() {
         <AreaQuickAnswer areaName="青山・青山一丁目" rows={[
           { label: '青山一丁目', text: '青山一丁目駅から徒歩3分の2社はどちらもマンツーマンです。Pilates & BodyMake Studio Viel Aoyama（月2回26,000円〜・体験8,800円）と、ピラティススタジオB&B南青山（4番南出口 徒歩3分・回数券で1回10,000円〜・体験9,000円）。' },
           { label: '表参道側', text: 'グループで通うなら表参道駅の徒歩2分圏です。ピラティスK 表参道店（マシン・月4回13,420円・体験0円）、BDC PILATES 表参道（月4回16,280円・グループ体験1,100円は10月31日まで）、Sky Pilates Tokyo 表参道店（徒歩5分・1回3,200円〜）。' },
-          { label: '料金', text: '月額の最安はzen place pilates 六本木のマットグループ月4回9,625円、マシンのグループはピラティスK 月4回13,420円です（税込）。' },
+          { label: '料金', text: '月額の最安はzen place pilates 六本木のマットグループ月4回10,450円、マシンのグループはピラティスK 月4回13,420円です（税込）。' },
           { label: '体験', text: '無料はピラティスK 表参道店の1社。1,000円前後ならSky Pilates Tokyo 表参道店のマシングループ1,000円、BDCのグループ1,100円、KASANEの980円です。' },
         ]} note="南青山・北青山の住所別の早見表は下にあります。値は各公式サイトの表記（2026年10月19日確認）です。" />
         <AreaConclusion studios={studios} areaName="青山一丁目" />
@@ -610,7 +610,7 @@ export default function AoyamaItchomePage() {
                   月額1万円前後で通えるスタジオです。体験レッスン無料のスタジオもあります。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
                   <li className="text-warm-700">• BDC PILATES（月4回 16,280円）</li>
                   <li className="text-warm-700">• ピラティスK（月4回 13,420円）</li>
                 </ul>
@@ -678,7 +678,7 @@ export default function AoyamaItchomePage() {
                   グループレッスンが中心です。体験無料のスタジオもあります。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates（9,625円〜）</li>
+                  <li>• zen place pilates（10,450円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -704,7 +704,7 @@ export default function AoyamaItchomePage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• A・CORE（完全パーソナル）</li>
                   <li>• a.pilates（女優・モデル御用達）</li>
-                  <li>• zen place プライベート（33,880円〜）</li>
+                  <li>• zen place プライベート（38,280円〜）</li>
                 </ul>
               </div>
             </div>

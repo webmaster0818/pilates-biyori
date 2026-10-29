@@ -59,7 +59,7 @@ const studios = [
     popularPlan: {
       name: 'フリープラン（マットグループ）',
       description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。',
-      price: '月額 14,960円（税込）',
+      price: '月額 16,940円（税込）',
     },
     options: [
       '月4回プラン（10,450円〜）',
@@ -507,7 +507,7 @@ export default function KarasumaOikePage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• CLUB PILATES（月4回 11,990円）</li>
-                  <li>• zen place フリー（14,960円）</li>
+                  <li>• zen place フリー（16,940円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">

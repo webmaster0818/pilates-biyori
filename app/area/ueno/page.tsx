@@ -24,16 +24,16 @@ const studios = [
     name: 'zen place pilates 上野スタジオ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 13,200円〜',
+    price: 'マットグループ月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
     features: ['マシン完備', '初心者歓迎', '上野駅徒歩3分', 'エデュケーター養成'],
     description: '全国展開の大手ピラティススタジオです。上野駅不忍口から徒歩3分の好立地です。マットピラティスからマシンピラティスまで豊富なレッスンメニューです。上野公園や美術館からも近く、文化的な雰囲気の中でレッスンを受けられます。経験豊富なエデュケーターが一人ひとりに合わせた丁寧な指導を提供します。',
     access: '上野駅不忍口から徒歩3分',
     address: '東京都台東区上野1丁目20-1 上野一丁目ビル 10階',
     popularPlan: {
-      name: 'フリープラン（月4回）',
-      description: 'マット・マシンどちらも受講可能な人気プランです。複数路線を利用でき、通いやすい立地です。',
-      price: '月4回 13,200円（税込）',
+      name: 'マットグループ月4回',
+      description: 'マットグループレッスン（マットピラティス・ヨガ）を月4回受講できます。マシンのリフォーマーグループは別プラン（月4回 15,400円・グレード共通・開催の有無はスタジオにより異なります）です。複数路線を利用でき、通いやすい立地です。',
+      price: 'マットグループ月4回 10,450円（税込）',
     },
     options: [
       'プライベートレッスン追加（1回 9,900円〜）',
@@ -245,7 +245,7 @@ export default function UenoPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">13,200円〜15,280円</td>
+                    <td className="px-4 py-3">10,450円〜15,280円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>

@@ -24,16 +24,16 @@ const studios = [
     name: 'zen place pilates 国立',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 13,200円〜',
+    price: 'マットグループ月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
     features: ['全国展開大手', 'マット&マシン完備', '男女共用', '全店舗利用可能'],
     description: '全国130店舗以上を展開する大手ピラティススタジオです。JR中央線「国立駅」南口徒歩3分です。世界トップクラスの流派から受け継いだ正統派ピラティスを学べます。マットグループ・マシングループ・プライベートの3形態に対応しています。ウェアレンタルがあります。',
     access: 'JR中央線「国立駅」南口徒歩3分',
     address: '東京都国立市東1丁目15-16 優和国立ビル 2階',
     popularPlan: {
-      name: 'フリープラン（月4回）',
-      description: 'マット・マシンどちらも受講可能です。全店舗利用可能プランもあります。',
-      price: '月4回 13,200円〜（税込）',
+      name: 'マットグループ月4回',
+      description: 'マットグループレッスン（マットピラティス・ヨガ）を月4回受講できます。マシンのリフォーマーグループは別プラン（月4回 15,400円・グレード共通・開催の有無はスタジオにより異なります）です。',
+      price: 'マットグループ月4回 10,450円〜（税込）',
     },
     options: [
       'マットグループレッスン',
@@ -186,7 +186,7 @@ const faqs = [
   },
   {
     question: '国立のピラティスの料金相場は？',
-    answer: 'Rintosull国立店は月4回8,800円〜（店舗により異なる）、ピラティスミラー国立は月6回11,000円、zen place pilates国立は月4回13,200円〜です。パーソナルはCOCOLANCE国立店が完全個室で割安です。目的と頻度に合わせてお選びください。',
+    answer: 'Rintosull国立店は月4回8,800円〜（店舗により異なる）、ピラティスミラー国立は月6回11,000円、zen place pilates国立はマットグループ月4回10,450円〜です。パーソナルはCOCOLANCE国立店が完全個室で割安です。目的と頻度に合わせてお選びください。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -296,7 +296,7 @@ export default function KunitachiPage() {
               <table className="w-full text-sm border-collapse">
                 <thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">種別</th><th className="px-4 py-3 text-left">料金相場</th></tr></thead>
                 <tbody>
-                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4〜6回）</td><td className="px-4 py-3">8,800円〜13,200円</td></tr>
+                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4〜6回）</td><td className="px-4 py-3">8,800円〜11,000円</td></tr>
                   <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">パーソナルレッスン</td><td className="px-4 py-3">1回 4,400円〜9,900円</td></tr>
                   <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">無料〜2,200円</td></tr>
                 </tbody>
@@ -375,7 +375,7 @@ export default function KunitachiPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li>
                   <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
-                  <li className="text-warm-700">• zen place（月4回 13,200円〜）</li>
+                  <li className="text-warm-700">• zen place（マット月4回 10,450円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -429,12 +429,12 @@ export default function KunitachiPage() {
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,200円〜/月</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 10,450円〜/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">本格派志向の方におすすめです。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place（13,200円〜/月4回）</li>
-                  <li>• マット&マシン両方受講可能</li>
+                  <li>• zen place（マット 10,450円〜/月4回）</li>
+                  <li>• マシンはリフォーマーグループ（月4回 15,400円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">

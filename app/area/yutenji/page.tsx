@@ -25,7 +25,7 @@ const studios = [
     name: 'zen place pilates 祐天寺スタジオ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: 'マットグループ 月4回 9,625円〜',
+    price: 'マットグループ 月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
     features: ['マット&マシン', '東急東横線祐天寺駅近', '少人数制', '男性利用可'],
     description: '全国150店舗以上展開の大手ピラティススタジオです。東急東横線祐天寺駅から徒歩圏内の好立地です。マットピラティスからマシンピラティスまで豊富なレッスンメニューを用意しています。有資格エデュケーターが在籍し、初心者から上級者まで一人ひとりに合わせた丁寧な指導を提供します。',
@@ -34,10 +34,10 @@ const studios = [
     popularPlan: {
       name: 'マットグループ（月4回）',
       description: 'マットピラティスのグループレッスンです。少人数制で丁寧な指導です。',
-      price: '月4回 9,625円（税込）〜',
+      price: '月4回 10,450円（税込）〜',
     },
     options: [
-      'マットグループ（月4回 9,625円〜）',
+      'マットグループ（月4回 10,450円〜）',
       'リフォーマーグループ（月4回 15,400円〜）',
       'フリープラン（月16,940円〜）',
       'プライベート（1回 9,900円〜）',
@@ -436,7 +436,7 @@ export default function YutenjiPage() {
                   マシン完備のスタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place（マット月4回 9,625円〜）</li>
+                  <li>• zen place（マット月4回 10,450円〜）</li>
                   <li>• zen place リフォーマー（15,400円〜）</li>
                 </ul>
               </div>

@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/fukuoka/' },
   title: 'ピラティス福岡おすすめ9選人気スタジオの料金プランの比較',
-  description: '福岡のおすすめピラティススタジオ9選を比較しています。グループ月4回9,625円〜の料金相場、天神・博多エリアのスタジオ情報、体験レッスンの持ち物・服装まで完全網羅しています。',
+  description: '福岡のおすすめピラティススタジオ9選を比較しています。グループ月4回10,450円〜の料金相場、天神・博多エリアのスタジオ情報、体験レッスンの持ち物・服装まで完全網羅しています。',
   keywords: 'ピラティス,福岡,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -24,7 +24,7 @@ const studios = [
     name: 'zen place pilates 福岡天神',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 9,625円〜',
+    price: '月4回 10,450円〜',
     trial: '体験レッスン あり',
     features: ['全国150店舗', 'マット＆マシン', '男性利用可', '福岡県2スタジオ目'],
     description: 'zen place pilates 福岡天神スタジオが12月1日オープンです。福岡県で2スタジオ目になります。全国150店舗以上を展開する大手ピラティススタジオです。マットグループ、マシン（リフォーマー）グループ、プライベートのレッスンがあり、男性も可能です。ご自身の目指したい姿やライフスタイルに合わせて、自由にプランを選ぶことができます。初心者から経験者まで幅広く対応しています。',
@@ -33,13 +33,13 @@ const studios = [
     popularPlan: {
       name: 'マットグループ 月4',
       description: 'マットピラティスのグループレッスンです。初心者にもおすすめの基本プランです。',
-      price: '月4回 9,625円（税込）',
+      price: '月4回 10,450円（税込）',
     },
     options: [
-      'フリープラン（通い放題 14,960円）',
+      'フリープラン（通い放題 16,940円）',
       'マット＆マシングループ MM22（各2回 12,650円）',
       'リフォーマーグループ RG4（月4回 15,400円）',
-      'プライベートレッスン（月4回 33,880円）',
+      'プライベートレッスン（月4回 38,280円）',
     ],
     userProfile: {
       ageRange: '20代〜60代まで幅広い',
@@ -295,7 +295,7 @@ const faqs = [
   },
   {
     question: '福岡で一番安いピラティススタジオはどこですか？',
-    answer: 'zen place pilates 福岡天神が月4回9,625円で最もリーズナブルです。また、La pilates 福岡店はサブスク月1回12,000円〜で通えます。それ以外のスタジオは要問合せとなりますので、体験レッスン時に料金をご確認ください。',
+    answer: 'zen place pilates 福岡天神が月4回10,450円で最もリーズナブルです。また、La pilates 福岡店はサブスク月1回12,000円〜で通えます。それ以外のスタジオは要問合せとなりますので、体験レッスン時に料金をご確認ください。',
   },
   {
     question: '女性専用のピラティススタジオはありますか？',
@@ -431,7 +431,7 @@ export default function FukuokaAreaPage() {
                   全国展開の大手スタジオです。実績豊富で初心者でも安心して通える環境です。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates 福岡天神（月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• zen place pilates 福岡天神（月4回 10,450円〜）</li>
                   <li className="text-warm-700">• ピラティスラボ 福岡（東京にも展開）</li>
                 </ul>
               </div>
@@ -496,7 +496,7 @@ export default function FukuokaAreaPage() {
                   グループレッスンが中心です。手軽に始めたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates 福岡天神（9,625円〜）</li>
+                  <li>• zen place pilates 福岡天神（10,450円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -508,7 +508,7 @@ export default function FukuokaAreaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• La pilates 福岡店（12,000円〜）</li>
-                  <li>• zen place フリープラン（14,960円）</li>
+                  <li>• zen place フリープラン（16,940円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -549,7 +549,7 @@ export default function FukuokaAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  福岡エリアの料金相場はグループで月4回9,625円〜、サブスクで月1回12,000円〜です。パーソナルやセミプライベートは、要問合せとしているスタジオが大半です。無理なく継続できる予算を決めることをおすすめします。入会金やレンタル料などもご確認ください。
+                  福岡エリアの料金相場はグループで月4回10,450円〜、サブスクで月1回12,000円〜です。パーソナルやセミプライベートは、要問合せとしているスタジオが大半です。無理なく継続できる予算を決めることをおすすめします。入会金やレンタル料などもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -587,8 +587,8 @@ export default function FukuokaAreaPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
-                  <p className="text-3xl font-bold text-warm-800 mb-2">9,625円〜</p>
-                  <p className="text-sm text-warm-600">zen place pilates福岡天神のマットグループ月4回9,625円〜が最安クラスです。La pilatesはサブスク月1回12,000円〜です。地元スタジオは要問合せが多いですが、体験で確認できます。</p>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">10,450円〜</p>
+                  <p className="text-sm text-warm-600">zen place pilates福岡天神のマットグループ月4回10,450円〜が最安クラスです。La pilatesはサブスク月1回12,000円〜です。地元スタジオは要問合せが多いですが、体験で確認できます。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">パーソナル・セミプライベート</h3>

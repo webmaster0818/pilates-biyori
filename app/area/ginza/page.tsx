@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/ginza/' },
   title: 'ピラティス銀座おすすめ9選人気スタジオの料金プランの比較',
-  description: '銀座のおすすめピラティススタジオ9選を比較しています。グループ月4回9,625円〜の料金相場、女性専用・マシン充実のスタジオ情報、選び方まで完全網羅しています。',
+  description: '銀座のおすすめピラティススタジオ9選を比較しています。グループ月4回10,450円〜の料金相場、女性専用・マシン充実のスタジオ情報、選び方まで完全網羅しています。',
   keywords: 'ピラティス,銀座,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -24,7 +24,7 @@ const studios = [
     name: 'zen place pilates 銀座二丁目スタジオ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: 'マットグループ 月4回 9,625円〜',
+    price: 'マットグループ 月4回 10,450円〜',
     trial: 'マットグループ初回体験 1,000円（キャンペーン・通常3,300円〜／マシングループは初回3,000円・公式のスタジオページ・2026年10月24日確認）',
     features: ['マット&マシン', '初心者歓迎', '銀座一丁目駅徒歩1分', '男性利用可'],
     description: '全国100店舗以上展開の大手ピラティススタジオです。有楽町線「銀座一丁目駅」10番出口から徒歩1分の好立地です。マットグループ、マシン（リフォーマー）グループ、プライベートレッスンと幅広いメニューを提供しています。経験豊富なエデュケーターが一人ひとりに合わせた丁寧な指導を行います。',
@@ -36,7 +36,7 @@ const studios = [
       price: '月4回 15,400円（税込）〜',
     },
     options: [
-      'マットグループ（月4回 9,625円〜）',
+      'マットグループ（月4回 10,450円〜）',
       'リフォーマーグループ（月4回 15,400円〜）',
       'プライベートレッスン（1回 9,900円〜）',
       'ウェアレンタル・タオルレンタルあり',
@@ -328,7 +328,7 @@ export default function GinzaPage() {
                   月額1万円前後で通えるスタジオです。グループレッスンで気軽に始められます。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates（マット月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• zen place pilates（マット月4回 10,450円〜）</li>
                   <li className="text-warm-700">• ピラティスK（月4回 13,420円）</li>
                 </ul>
               </div>
@@ -394,7 +394,7 @@ export default function GinzaPage() {
                   マットグループやリーズナブルなマシンレッスンです。初心者が気軽に始められます。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates（マット月4回 9,625円〜）</li>
+                  <li>• zen place pilates（マット月4回 10,450円〜）</li>
                   <li>• ピラティスK（月4回 13,420円）</li>
                 </ul>
               </div>
@@ -485,8 +485,8 @@ export default function GinzaPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
-                  <p className="text-3xl font-bold text-warm-800 mb-2">9,625円〜15,400円</p>
-                  <p className="text-sm text-warm-600">zen place pilates銀座のマット月4回9,625円〜が最安クラスです。ピラティスKは月4回13,420円、the SILKは月4回15,280円〜です。BDC PILATESは少人数制で月額15,400円〜と質重視の価格設定です。</p>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">10,450円〜15,400円</p>
+                  <p className="text-sm text-warm-600">zen place pilates銀座のマット月4回10,450円〜が最安クラスです。ピラティスKは月4回13,420円、the SILKは月4回15,280円〜です。BDC PILATESは少人数制で月額15,400円〜と質重視の価格設定です。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">パーソナルレッスン</h3>

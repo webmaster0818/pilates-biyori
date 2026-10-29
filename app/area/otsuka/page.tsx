@@ -121,16 +121,16 @@ const studios = [
     name: 'zen place pilates 池袋スタジオ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 9,625円〜',
+    price: '月4回 10,450円〜',
     trial: '体験レッスン 1,000円〜',
     features: ['マット&マシン', '大手スタジオ', '池袋駅（大塚から1駅）', '初心者歓迎'],
-    description: '大塚から山手線で1駅の池袋にある全国展開の大手ピラティススタジオです。マットピラティスからマシンピラティスまで豊富なレッスンメニューが揃い、月4回9,625円〜というリーズナブルな料金で始められます。経験豊富なエデュケーターが一人ひとりに合わせた丁寧な指導を提供します。',
+    description: '大塚から山手線で1駅の池袋にある全国展開の大手ピラティススタジオです。マットピラティスからマシンピラティスまで豊富なレッスンメニューが揃い、月4回10,450円〜というリーズナブルな料金で始められます。経験豊富なエデュケーターが一人ひとりに合わせた丁寧な指導を提供します。',
     access: '池袋駅（大塚からJR山手線で1駅・約2分）',
     address: '東京都豊島区南池袋2丁目27-8 南水ビル 8階',
     popularPlan: {
       name: 'マットグループ月4回',
       description: 'マットグループレッスン（マットピラティス・ヨガ）を月4回受講できます。マシンのリフォーマーグループは別プラン（月4回 15,400円・グレード共通・開催の有無はスタジオにより異なります）です。',
-      price: '月4回 9,625円〜（税込）',
+      price: '月4回 10,450円〜（税込）',
     },
     options: [
       'プライベートレッスン追加（1回 9,900円〜）',
@@ -161,7 +161,7 @@ const faqs = [
   },
   {
     question: '大塚エリアのピラティススタジオの料金相場は？',
-    answer: '大塚エリアのピラティススタジオの料金は、ELEMENT大塚店の1回2,750円〜（通い放題）からzen place pilatesの月4回9,625円〜、ピラティスKの月4回13,420円まで幅があります。体験レッスンは1,000円〜2,000円程度が一般的です。',
+    answer: '大塚エリアのピラティススタジオの料金は、ELEMENT大塚店の1回2,750円〜（通い放題）からzen place pilatesの月4回10,450円〜、ピラティスKの月4回13,420円まで幅があります。体験レッスンは1,000円〜2,000円程度が一般的です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -406,7 +406,7 @@ export default function OtsukaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ELEMENT 大塚店（1回2,750円〜）</li>
-                  <li className="text-warm-700">• zen place pilates 池袋（月4回9,625円〜）</li>
+                  <li className="text-warm-700">• zen place pilates 池袋（月4回10,450円〜）</li>
                   <li className="text-warm-700">• ピラティスK 池袋（月4回13,420円）</li>
                 </ul>
               </div>
@@ -471,7 +471,7 @@ export default function OtsukaPage() {
                   マットレッスン中心です。初心者向けの基本プランが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates（月4回9,625円〜）</li>
+                  <li>• zen place pilates（月4回10,450円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -523,7 +523,7 @@ export default function OtsukaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  大塚エリアの料金は、通い放題のELEMENT大塚店（1回2,750円〜）からzen place pilatesの月4回9,625円〜、ピラティスKの月4回13,420円まで幅広い選択肢があります。無理なく継続できる予算を決めることをおすすめします。
+                  大塚エリアの料金は、通い放題のELEMENT大塚店（1回2,750円〜）からzen place pilatesの月4回10,450円〜、ピラティスKの月4回13,420円まで幅広い選択肢があります。無理なく継続できる予算を決めることをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

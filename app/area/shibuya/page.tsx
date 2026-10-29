@@ -27,13 +27,13 @@ const studios = [
     name: 'zen place pilates 渋谷',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp', reviewCount: 14,
-    price: '月4回 9,625円〜', trial: '体験レッスンあり',
+    price: '月4回 10,450円〜', trial: '体験レッスンあり',
     features: ['マットグループ', 'MIYASHITA PARK正面5F', '男性利用可', '全国140スタジオ他店利用可'],
-    description: '全国140スタジオ以上を展開するzen placeの渋谷スタジオです。MIYASHITA PARK正面5Fに位置し、マットピラティスとマシンピラティスの両方が受けられる総合型スタジオです。男性も利用可能で、月4回9,625円〜とリーズナブルです。全国のzen placeスタジオを他店利用できるのも大きな魅力です。',
+    description: '全国140スタジオ以上を展開するzen placeの渋谷スタジオです。MIYASHITA PARK正面5Fに位置し、マットピラティスとマシンピラティスの両方が受けられる総合型スタジオです。男性も利用可能で、月4回10,450円〜とリーズナブルです。全国のzen placeスタジオを他店利用できるのも大きな魅力です。',
     access: 'MIYASHITA PARK正面 5F',
     address: '東京都渋谷区渋谷1丁目23-18 渋谷ワールドイーストビル 5階',
-    popularPlan: { name: 'マットグループ月4回', description: 'マットグループレッスン（マットピラティス・ヨガ）を月4回受講できます。マシンのリフォーマーグループは別プラン（月4回 15,400円・グレード共通・開催の有無はスタジオにより異なります）です。', price: '月4回 9,625円（税込）〜' },
-    options: ['月4回プラン（9,625円〜）', '月6回プラン', 'フリー（通い放題）プラン', 'プライベートレッスン追加'],
+    popularPlan: { name: 'マットグループ月4回', description: 'マットグループレッスン（マットピラティス・ヨガ）を月4回受講できます。マシンのリフォーマーグループは別プラン（月4回 15,400円・グレード共通・開催の有無はスタジオにより異なります）です。', price: '月4回 10,450円（税込）〜' },
+    options: ['月4回プラン（10,450円〜）', '月6回プラン', 'フリー（通い放題）プラン', 'プライベートレッスン追加'],
     userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '体幹強化', 'ボディメイク', 'リラックス'] },
     basicInfo: { hours: '平日 7:00〜22:00 / 土日祝 7:00〜18:00', closed: '不定休', facilities: ['マットスタジオ', 'リフォーマーマシン', 'ロッカー', '更衣室'] },
   },
@@ -200,7 +200,7 @@ const studios = [
 const faqs = [
   { question: 'ピラティス初心者でも大丈夫ですか？', answer: '問題ありません。渋谷エリアのスタジオはレベル別クラスがあり初心者も安心です。Rintosullはスクリーン指導で初心者に特におすすめです。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンは専用リフォーマーを使ったトレーニングです。マシンは初心者でもフォームが安定しやすくおすすめです。渋谷エリアはマシン専門スタジオが豊富です。' },
-  { question: '渋谷エリアの料金相場は？', answer: 'グループ月4回で8,800円〜15,280円が相場です。Rintosullは8,800円〜で最安クラス、zen placeは9,625円〜です。パーソナルはピラティスミラーの30分4,400円〜が手頃です。' },
+  { question: '渋谷エリアの料金相場は？', answer: 'グループ月4回で8,800円〜15,280円が相場です。Rintosullは8,800円〜で最安クラス、zen placeは10,450円〜です。パーソナルはピラティスミラーの30分4,400円〜が手頃です。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回から始めることをおすすめします。慣れたら週2〜3回に増やすとより効果的です。ELEMENTの30分レッスンであれば、忙しい方も週2回は続けることができます。' },
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルが鍛えられ基礎代謝が上がり太りにくい体質づくりにつながります。最低2〜3ヶ月は継続することをおすすめします。CALDOのホット環境なら発汗効果も期待できます。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。ウェアレンタルを用意しているスタジオもあります。' },
@@ -318,7 +318,7 @@ export default function ShibuyaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• <a href="#studio-7" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">Rintosull</a>（月4回 8,800円〜）</li>
-                  <li className="text-warm-700">• <a href="#studio-1" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">zen place pilates</a>（月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• <a href="#studio-1" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">zen place pilates</a>（月4回 10,450円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -386,7 +386,7 @@ export default function ShibuyaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• <a href="#studio-7" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">Rintosull</a>（月4回 8,800円〜）</li>
-                  <li>• <a href="#studio-1" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">zen place pilates</a>（月4回 9,625円〜）</li>
+                  <li>• <a href="#studio-1" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">zen place pilates</a>（月4回 10,450円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">

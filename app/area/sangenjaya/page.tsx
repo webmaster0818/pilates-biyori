@@ -25,20 +25,20 @@ const studios = [
     name: 'zen place pilates 三軒茶屋',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: 'マットグループ月4回 9,625円〜',
+    price: 'マットグループ月4回 10,450円〜',
     trial: '体験レッスン 3,300円',
     features: ['マット&マシン', '初心者歓迎', '三軒茶屋駅世田谷通り口徒歩3分', '男性利用可'],
-    description: '全国100店舗以上展開の大手ピラティススタジオです。三軒茶屋駅世田谷通り口から徒歩3分の好立地です。マットグループ、マシン（リフォーマー）グループ、プライベートレッスンと幅広いメニューを提供しています。マットグループ月4回9,625円〜とリーズナブルです。経験豊富なエデュケーターが一人ひとりに合わせた丁寧な指導を行います。男性も利用可能です。',
+    description: '全国100店舗以上展開の大手ピラティススタジオです。三軒茶屋駅世田谷通り口から徒歩3分の好立地です。マットグループ、マシン（リフォーマー）グループ、プライベートレッスンと幅広いメニューを提供しています。マットグループ月4回10,450円〜とリーズナブルです。経験豊富なエデュケーターが一人ひとりに合わせた丁寧な指導を行います。男性も利用可能です。',
     access: '東急田園都市線・世田谷線「三軒茶屋駅」世田谷通り口 徒歩3分',
     address: '東京都世田谷区三軒茶屋2丁目15-8 ファッションビル第1 5階',
     popularPlan: {
       name: 'マットグループ月4回プラン',
       description: 'マットグループレッスンを月4回受講できる人気プランです。三軒茶屋駅から徒歩3分の通いやすい立地です。',
-      price: '月4回 9,625円〜（税込）',
+      price: '月4回 10,450円〜（税込）',
     },
     options: [
-      'マットグループ月4回（9,625円〜）',
-      'マットグループ月6回（13,200円〜）',
+      'マットグループ月4回（10,450円〜）',
+      'マットグループ月6回（14,520円〜）',
       'フリープラン（15,400円〜）',
       'プライベートレッスン追加（1回 9,900円〜）',
     ],
@@ -365,7 +365,7 @@ const faqs = [
   },
   {
     question: '三軒茶屋のピラティススタジオの料金相場は？',
-    answer: '三軒茶屋エリアのグループレッスン料金相場は、月4回で9,625円〜11,220円程度です。予約不要のURBAN CLASSIC PILATESは月4回9,680円です。パーソナルレッスンはELEMENTが月4回22,000円、lulutoが月3回29,700円〜です。ピラティスミラーのプライベート30分4,400円〜も人気です。体験レッスンは1,000円〜3,300円が一般的です。',
+    answer: '三軒茶屋エリアのグループレッスン料金相場は、月4回で9,680円〜11,220円程度です。予約不要のURBAN CLASSIC PILATESは月4回9,680円です。パーソナルレッスンはELEMENTが月4回22,000円、lulutoが月3回29,700円〜です。ピラティスミラーのプライベート30分4,400円〜も人気です。体験レッスンは1,000円〜3,300円が一般的です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -615,7 +615,7 @@ export default function SangenjayaPage() {
                   月額1万円前後で通えるスタジオです。グループレッスンで気軽に始められます。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
                   <li className="text-warm-700">• URBAN CLASSIC PILATES（月4回 9,680円）</li>
                   <li className="text-warm-700">• CLUB PILATES（月4回 13,090円）</li>
                   <li className="text-warm-700">• NATURAglam（1回 1,071円〜）</li>
@@ -686,7 +686,7 @@ export default function SangenjayaPage() {
                   グループレッスンが中心です。費用を抑えて始めたい方におすすめです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates（月4回 9,625円〜）</li>
+                  <li>• zen place pilates（月4回 10,450円〜）</li>
                   <li>• URBAN CLASSIC PILATES（月4回 9,680円）</li>
                   <li>• CLUB PILATES（月4回 13,090円）</li>
                   <li>• ピラティスK（月4回 11,220円〜）</li>
@@ -742,7 +742,7 @@ export default function SangenjayaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  三軒茶屋エリアの料金相場は、グループレッスン月4回で9,625円〜11,220円程度、パーソナルは月2回15,000円〜月4回38,400円です。無理なく継続できる予算を決めることをおすすめします。料金重視ならzen place pilatesの月4回9,625円〜やURBAN CLASSIC PILATESの月4回9,680円がおすすめです。
+                  三軒茶屋エリアの料金相場は、グループレッスン月4回で9,680円〜11,220円程度、パーソナルは月2回15,000円〜月4回38,400円です。無理なく継続できる予算を決めることをおすすめします。料金重視ならzen place pilatesの月4回10,450円〜やURBAN CLASSIC PILATESの月4回9,680円がおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -803,7 +803,7 @@ export default function SangenjayaPage() {
               本ページでは、三軒茶屋のおすすめピラティススタジオ12選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              三軒茶屋は渋谷まで田園都市線で2駅という好立地ながら、おしゃれなカフェや雑貨店が並ぶ世田谷区の住みやすいエリアです。月4回9,625円〜のグループレッスンから、理学療法士監修のパーソナル、女性専用スタジオ、予約不要のスタジオまで、多彩な選択肢が揃っています。
+              三軒茶屋は渋谷まで田園都市線で2駅という好立地ながら、おしゃれなカフェや雑貨店が並ぶ世田谷区の住みやすいエリアです。月4回9,680円〜のグループレッスンから、理学療法士監修のパーソナル、女性専用スタジオ、予約不要のスタジオまで、多彩な選択肢が揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               本ページの情報を、スタジオ選びにお役立てください。

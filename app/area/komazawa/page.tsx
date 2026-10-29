@@ -25,20 +25,20 @@ const studios = [
     name: 'zen place pilates 駒沢',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: 'マットグループ月4回 9,625円〜',
+    price: 'マットグループ月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
     features: ['マット&マシン', '初心者歓迎', '駒沢大学駅徒歩4分', '男性利用可'],
-    description: '全国150店舗以上展開の大手ピラティススタジオです。駒沢大学駅駒沢公園口から徒歩4分の好立地です。マットグループ、マシン（リフォーマー）グループ、プライベートレッスンと幅広いメニューを提供しています。マットグループ月4回9,625円〜とリーズナブルです。経験豊富なエデュケーターが一人ひとりに合わせた丁寧な指導を行います。男性も利用可能です。',
+    description: '全国150店舗以上展開の大手ピラティススタジオです。駒沢大学駅駒沢公園口から徒歩4分の好立地です。マットグループ、マシン（リフォーマー）グループ、プライベートレッスンと幅広いメニューを提供しています。マットグループ月4回10,450円〜とリーズナブルです。経験豊富なエデュケーターが一人ひとりに合わせた丁寧な指導を行います。男性も利用可能です。',
     access: '東急田園都市線「駒沢大学駅」駒沢公園口 徒歩4分',
     address: '東京都目黒区東が丘2丁目12-20 リュウ フランシュビル B1階',
     popularPlan: {
       name: 'マットグループ月4回プラン',
       description: 'マットグループレッスンを月4回受講できる人気プランです。駒沢大学駅から徒歩4分の通いやすい立地です。',
-      price: '月4回 9,625円〜（税込）',
+      price: '月4回 10,450円〜（税込）',
     },
     options: [
-      'マットグループ月4回（9,625円〜）',
-      'マットグループ月6回（13,200円〜）',
+      'マットグループ月4回（10,450円〜）',
+      'マットグループ月6回（14,520円〜）',
       'マットグループ通い放題（16,940円〜）',
       'プライベートレッスン追加（1回 9,900円〜）',
     ],
@@ -179,7 +179,7 @@ const faqs = [
   },
   {
     question: '駒沢のピラティススタジオの料金相場はどのくらいですか？',
-    answer: '駒沢エリアのグループレッスン料金相場は、月4回で9,625円〜11,000円程度です。パーソナルレッスンはELEMENTが月4回22,000円です。セミパーソナルのPilates Meeは月2回11,000円〜です。PILATES STUDIO noaは月2回6,600円〜と始めやすい料金設定です。体験レッスンは無料〜3,300円が一般的です。',
+    answer: '駒沢エリアのグループレッスン料金相場は、月4回で10,450円〜11,000円程度です。パーソナルレッスンはELEMENTが月4回22,000円です。セミパーソナルのPilates Meeは月2回11,000円〜です。PILATES STUDIO noaは月2回6,600円〜と始めやすい料金設定です。体験レッスンは無料〜3,300円が一般的です。',
   },
   {
     question: '駒沢公園近くでピラティスができるスタジオはありますか？',
@@ -324,7 +324,7 @@ export default function KomazawaPage() {
                   月額1万円前後で通えるスタジオです。グループレッスンで気軽に始められます。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
                   <li className="text-warm-700">• PILATES STUDIO noa（月2回 6,600円〜）</li>
                 </ul>
               </div>
@@ -369,7 +369,7 @@ export default function KomazawaPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">9,625円〜10,890円</td>
+                    <td className="px-4 py-3">10,450円〜10,890円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">セミパーソナル（月2回〜）</td>
@@ -485,7 +485,7 @@ export default function KomazawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  駒沢エリアの料金相場は、グループ月4回で9,625円〜10,890円、セミパーソナル月2回で6,600円〜11,000円、パーソナル月4回で22,000円〜です。無理なく継続できる予算を決めることをおすすめします。
+                  駒沢エリアの料金相場は、グループ月4回で10,450円〜10,890円、セミパーソナル月2回で6,600円〜11,000円、パーソナル月4回で22,000円〜です。無理なく継続できる予算を決めることをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

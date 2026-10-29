@@ -25,7 +25,7 @@ const studios = [
     name: 'zen place pilates 新宿',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: 'マットグループ月4回 9,625円〜',
+    price: 'マットグループ月4回 10,450円〜',
     trial: '体験レッスン 500円〜',
     features: ['マット&マシン', '初心者歓迎', '新宿西口駅D5出口徒歩2分', '男性利用可'],
     description: '全国100店舗以上展開の大手ピラティススタジオです。都営大江戸線新宿西口駅D5出口から徒歩2分の好立地です。マットグループ、マシン（リフォーマー）グループ、プライベートレッスンと幅広いメニューを提供しています。男性も利用可能で、経験豊富なエデュケーターが一人ひとりに合わせた丁寧な指導を行います。体験レッスンは500円から気軽にお試しできます。',
@@ -34,10 +34,10 @@ const studios = [
     popularPlan: {
       name: 'マットグループ（月4回）',
       description: 'マットピラティスのグループレッスンです。初心者から経験者まで無理なく続けられる人気プランです。マシンレッスンへのステップアップも可能です。',
-      price: '月4回 9,625円（税込）〜',
+      price: '月4回 10,450円（税込）〜',
     },
     options: [
-      'マットグループ（月4回 9,625円〜）',
+      'マットグループ（月4回 10,450円〜）',
       'リフォーマーグループ（月4回 15,400円〜）',
       'プライベートレッスン（1回 9,900円〜）',
       'ウェアレンタル・タオルレンタルあり',
@@ -335,7 +335,7 @@ const faqs = [
   },
   {
     question: '新宿のピラティススタジオの料金相場は？',
-    answer: '新宿エリアのピラティススタジオの料金相場は、グループレッスン月4回で9,625円〜15,000円程度です。パーソナルレッスンはピラティスミラーの30分4,400円からSTUDIO IVYの月2回15,000円など、スタジオにより異なります。体験レッスンは無料〜2,000円程度なので、まずは体験で試してみるのがおすすめです。',
+    answer: '新宿エリアのピラティススタジオの料金相場は、グループレッスン月4回で9,680円〜15,000円程度です。パーソナルレッスンはピラティスミラーの30分4,400円からSTUDIO IVYの月2回15,000円など、スタジオにより異なります。体験レッスンは無料〜2,000円程度なので、まずは体験で試してみるのがおすすめです。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -479,7 +479,7 @@ export default function ShinjukuPage() {
                   月額1万円前後から通えるスタジオです。グループレッスンで気軽に始められます。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
                   <li className="text-warm-700">• URBAN CLASSIC PILATES（月4回 9,680円）</li>
                   <li className="text-warm-700">• ピラティスK（月4回 13,420円）</li>
                 </ul>
@@ -573,7 +573,7 @@ export default function ShinjukuPage() {
                   グループレッスンで気軽にピラティスデビューです。初心者におすすめです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates（月4回 9,625円〜）</li>
+                  <li>• zen place pilates（月4回 10,450円〜）</li>
                   <li>• URBAN CLASSIC PILATES（月4回 9,680円）</li>
                   <li>• ピラティスK（月4回 13,420円）</li>
                 </ul>
@@ -630,7 +630,7 @@ export default function ShinjukuPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  新宿エリアの料金相場は、グループレッスン月4回で9,625円〜15,000円程度です。パーソナルレッスンは1回4,400円〜、月額15,000円〜22,000円程度です。無理なく継続できる予算を決めることをおすすめします。料金だけでなく、入会金やレンタル料などもご確認ください。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  新宿エリアの料金相場は、グループレッスン月4回で9,680円〜15,000円程度です。パーソナルレッスンは1回4,400円〜、月額15,000円〜22,000円程度です。無理なく継続できる予算を決めることをおすすめします。料金だけでなく、入会金やレンタル料などもご確認ください。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -668,8 +668,8 @@ export default function ShinjukuPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
-                  <p className="text-3xl font-bold text-warm-800 mb-2">9,625円〜15,280円</p>
-                  <p className="text-sm text-warm-600">zen place pilatesのマット月4回9,625円〜が最安クラスです。ピラティスKは13,420円です。</p>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">9,680円〜15,280円</p>
+                  <p className="text-sm text-warm-600">zen place pilatesのマット月4回10,450円〜が最安クラスです。ピラティスKは13,420円です。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">パーソナルレッスン</h3>

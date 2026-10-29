@@ -22,7 +22,7 @@ const studios = [
     name: 'zen place pilates 新百合ヶ丘',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 13,200円〜',
+    price: 'マットグループ月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
     features: ['全国展開大手', 'マット&マシン完備', '新百合ヶ丘駅徒歩3分', '男女共用'],
     description: '全国130店舗以上展開の大手です。小田急線「新百合ヶ丘駅」南口徒歩3分です。マット・マシン・プライベート対応です。',
@@ -31,7 +31,7 @@ const studios = [
     popularPlan: {
       name: '全国展開大手プラン',
       description: '全国130店舗以上展開の大手です。小田急線「新百合ヶ丘駅」南口徒歩3分です。マット・マシン・プライベート対応です。',
-      price: '月4回 13,200円〜',
+      price: 'マットグループ月4回 10,450円〜',
     },
     options: ['全国展開大手', 'マット&マシン完備', '新百合ヶ丘駅徒歩3分', '男女共用', '体験レッスン 1,000円'],
     userProfile: {
@@ -124,7 +124,7 @@ const studios = [
 const faqs = [
   { question: 'ピラティス初心者でも大丈夫ですか？', answer: '問題ありません。新百合ヶ丘エリアのスタジオは初心者歓迎がほとんどです。zen place pilates 新百合ヶ丘は全国展開大手で安心です。まずは体験レッスンから始めてみることをおすすめします。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマーなどの専用マシンを使います。マシンはバネで負荷調整ができ初心者にもおすすめです。新百合ヶ丘エリアではマシンピラティス対応スタジオが充実しています。' },
-  { question: '新百合ヶ丘のピラティスの料金相場は？', answer: 'zen place pilates 新百合ヶ丘は月4回 13,200円〜、pilates K 新百合ヶ丘店は月4回 11,220円〜、sincere pilates 新百合ヶ丘は1回約2,300円〜です。目的と頻度に合わせてお選びください。' },
+  { question: '新百合ヶ丘のピラティスの料金相場は？', answer: 'zen place pilates 新百合ヶ丘はマットグループ月4回 10,450円〜、pilates K 新百合ヶ丘店は月4回 11,220円〜、sincere pilates 新百合ヶ丘は1回約2,300円〜です。目的と頻度に合わせてお選びください。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。最低2〜3ヶ月は継続することをおすすめします。' },
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えて基礎代謝が上がり、太りにくい体質に変わります。2〜3ヶ月の継続で効果を実感される方が多くなっています。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。zen place pilates 新百合ヶ丘は体験レッスン 1,000円、pilates K 新百合ヶ丘店は体験レッスン 0円です。' },
@@ -162,7 +162,7 @@ export default function ShinYurigaokaPage() {
         <section className="py-16 bg-white" id="price-market">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">新百合ヶ丘のピラティス料金相場</h2>
-            <div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">種別</th><th className="px-4 py-3 text-left">料金相場</th></tr></thead><tbody><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4回）</td><td className="px-4 py-3">11,220円〜13,200円</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">パーソナルレッスン</td><td className="px-4 py-3">各スタジオの公式サイトで確認（掲載スタジオに料金の記載なし）</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">無料〜2,200円</td></tr></tbody></table></div>
+            <div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">種別</th><th className="px-4 py-3 text-left">料金相場</th></tr></thead><tbody><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4回）</td><td className="px-4 py-3">10,450円〜11,220円</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">パーソナルレッスン</td><td className="px-4 py-3">各スタジオの公式サイトで確認（掲載スタジオに料金の記載なし）</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">無料〜2,200円</td></tr></tbody></table></div>
             <p className="text-warm-600 mt-4 text-sm leading-relaxed">新百合ヶ丘エリアは都心と比較して料金がリーズナブルな傾向です。近隣の<a href="/area/tama-plaza/">たまプラーザ</a>や<a href="/area/machida/">町田</a>エリアと合わせて検討するのもおすすめです。</p>
           </div>
         </section>
@@ -186,7 +186,7 @@ export default function ShinYurigaokaPage() {
 
         <section className="py-16 bg-white" id="price-guide"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">予算別の料金相場</h2><div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="border-2 border-warm-300 rounded-lg p-6 text-center"><h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜11,000円/月</h3><p className="text-3xl font-bold text-warm-800 mb-4">月4回</p><p className="text-sm text-warm-600 mb-4">手軽に始めたい方に適しています。</p></div>
-          <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50"><div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div><h3 className="text-lg font-bold text-warm-900 mb-2">予算 11,000〜13,200円/月</h3><p className="text-3xl font-bold text-warm-800 mb-4">月4〜6回</p><p className="text-sm text-warm-600 mb-4">週1〜2回のペースで、着実な成果が期待できます。</p></div>
+          <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50"><div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div><h3 className="text-lg font-bold text-warm-900 mb-2">予算 10,450〜11,220円/月</h3><p className="text-3xl font-bold text-warm-800 mb-4">月4〜6回</p><p className="text-sm text-warm-600 mb-4">週1〜2回のペースで、着実な成果が期待できます。</p></div>
           <div className="border-2 border-warm-300 rounded-lg p-6 text-center"><h3 className="text-lg font-bold text-warm-900 mb-2">パーソナルプラン</h3><p className="text-xl font-bold text-warm-800 mb-4">料金は公式サイトで確認</p><p className="text-sm text-warm-600 mb-4">マンツーマンで効率的です。</p></div>
         </div></div></section>
 

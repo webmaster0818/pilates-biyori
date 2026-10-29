@@ -41,7 +41,7 @@ const studios = [
     options: [
       'リフォーマーグループ月4回（月額15,400円）',
       'リフォーマーグループ月8回（月額25,300円）',
-      'プライベート月4回（月額33,880円〜）',
+      'プライベート月4回（月額38,280円〜）',
       '入会金 22,000円（体験当日入会で無料）',
     ],
     userProfile: {
@@ -566,7 +566,7 @@ export default function GionShijoPage() {
                   完全プライベートです。効果重視の方におすすめです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place プライベート（33,880円〜）</li>
+                  <li>• zen place プライベート（38,280円〜）</li>
                 </ul>
               </div>
             </div>

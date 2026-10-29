@@ -25,7 +25,7 @@ const studios = [
     name: 'zen place pilates 三田スタジオ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: 'マットグループ 月4回 9,625円〜',
+    price: 'マットグループ 月4回 10,450円〜',
     trial: 'マット体験 1,000円 / マシン体験 3,000円',
     features: ['マット&マシン', '三田駅直結', '田町駅徒歩1分', '男性利用可'],
     description: '全国100店舗以上展開の大手ピラティススタジオです。三田駅A3出口エレベーター直結、JR田町駅三田口から徒歩1分という田町エリア最高のアクセスです。マットグループ、マシングループ、プライベートレッスンと幅広いメニューです。',
@@ -37,7 +37,7 @@ const studios = [
       price: '月4回 15,400円（税込）〜',
     },
     options: [
-      'マットグループ（月4回 9,625円〜）',
+      'マットグループ（月4回 10,450円〜）',
       'リフォーマーグループ（月4回 15,400円〜）',
       'フリープラン（月16,940円〜）',
       'プライベートレッスン（1回 9,900円〜）',
@@ -114,7 +114,7 @@ const studios = [
     name: 'zen place pilates 田町スタジオ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: 'マットグループ 月4回 9,625円〜',
+    price: 'マットグループ 月4回 10,450円〜',
     trial: 'マット体験 1,000円 / マシン体験 3,000円',
     features: ['マット&マシン', '田町駅徒歩5分', '芝浦エリア', '男性利用可'],
     description: 'zen placeの田町エリア2店舗目です（芝浦側）。JR田町駅東口（芝浦口）から徒歩5分です。三田店と他店利用も可能です。マットグループ、マシングループ、プライベートレッスンに対応しています。',
@@ -126,7 +126,7 @@ const studios = [
       price: '月4回 15,400円（税込）〜',
     },
     options: [
-      'マットグループ（月4回 9,625円〜）',
+      'マットグループ（月4回 10,450円〜）',
       'リフォーマーグループ（月4回 15,400円〜）',
       'フリープラン（月16,940円〜）',
       'プライベートレッスン（1回 9,900円〜）',
@@ -498,7 +498,7 @@ export default function TamachiPage() {
                 <p className="text-warm-600 text-sm mb-4">月額3,000円台から通えるスタジオもあります。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• chocoZAP 芝五丁目（月額 3,278円）</li>
-                  <li className="text-warm-700">• zen place pilates（マット月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• zen place pilates（マット月4回 10,450円〜）</li>
                   <li className="text-warm-700">• Rintosull 品川（月4回 9,680円〜）</li>
                   <li className="text-warm-700">• the SILK 田町（ライト3 13,280円〜）</li>
                 </ul>
@@ -535,7 +535,7 @@ export default function TamachiPage() {
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。ELEMENTの通い放題プランなら毎日30分の短時間レッスンも可能です。</p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理が目的の方</h3>
-              <p className="text-warm-600 leading-relaxed">週1回のペースで継続がおすすめです。zen placeのマット月4回プラン（9,625円〜）やRintosullの月4回プラン（9,680円〜）が割安です。</p>
+              <p className="text-warm-600 leading-relaxed">週1回のペースで継続がおすすめです。zen placeのマット月4回プラン（10,450円〜）やRintosullの月4回プラン（9,680円〜）が割安です。</p>
             </div>
           </div>
         </section>
@@ -547,7 +547,7 @@ export default function TamachiPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">お手軽</p>
                 <p className="text-sm text-warm-600 mb-4">料金重視で始めたい方におすすめです。</p>
-                <ul className="text-sm text-warm-700 space-y-1"><li>• chocoZAP（月額 3,278円）</li><li>• zen place マット（月4回 9,625円〜）</li><li>• Rintosull 品川（月4回 9,680円〜）</li></ul>
+                <ul className="text-sm text-warm-700 space-y-1"><li>• chocoZAP（月額 3,278円）</li><li>• zen place マット（月4回 10,450円〜）</li><li>• Rintosull 品川（月4回 9,680円〜）</li></ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>

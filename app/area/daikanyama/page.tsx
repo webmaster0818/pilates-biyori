@@ -68,7 +68,7 @@ const studios = [
     access: '東急東横線「代官山駅」北口 徒歩4分',
     address: '東京都渋谷区代官山町15-9 代官山センタービル 4F',
     popularPlan: { name: 'マットグループ月4回', description: 'マットグループレッスン（マットピラティス・ヨガ）を月4回受講できます。マシンのリフォーマーグループは別プラン（月4回 15,400円・グレード共通・開催の有無はスタジオにより異なります）です。', price: '月額 10,450円〜（税込）' },
-    options: ['リフォーマーグループ月4回（月額15,400円）', 'リフォーマーグループ月8回（月額25,300円）', 'プライベート月4回（月額33,880円〜）', '入会金 22,000円（体験当日入会で無料）'],
+    options: ['リフォーマーグループ月4回（月額15,400円）', 'リフォーマーグループ月8回（月額25,300円）', 'プライベート月4回（月額38,280円〜）', '入会金 22,000円（体験当日入会で無料）'],
     userProfile: { ageRange: '30代〜50代が中心（全体の75%）', purpose: ['姿勢改善', '体幹強化', 'リラックス', '健康維持'] },
     basicInfo: { hours: '平日 8:15〜21:10 / 土日祝 7:20〜15:55', closed: '不定休', facilities: ['リフォーマー', 'トラピーズテーブル', 'コンボチェア', '男女別更衣室', 'ロッカー'] },
   },
@@ -388,7 +388,7 @@ export default function DaikanyamaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 30,000円〜</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">完全プライベートです。短期集中で結果を出したい方におすすめです。</p>
-                <ul className="text-sm text-warm-700 space-y-1"><li>• ピラティスラボ（11,000円〜/回）</li><li>• zen place プライベート（33,880円〜）</li></ul>
+                <ul className="text-sm text-warm-700 space-y-1"><li>• ピラティスラボ（11,000円〜/回）</li><li>• zen place プライベート（38,280円〜）</li></ul>
               </div>
             </div>
           </div>

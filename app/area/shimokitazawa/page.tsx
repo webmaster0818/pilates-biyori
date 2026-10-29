@@ -27,7 +27,7 @@ const studios = [
     name: 'zen place pilates 下北沢',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: 'マットグループ 月4回 9,625円〜',
+    price: 'マットグループ 月4回 10,450円〜',
     trial: '体験レッスン 500円〜',
     features: ['マット&マシン', '下北沢駅近', 'AI姿勢分析', '男性利用可'],
     description: '全国150店舗以上展開の大手ピラティススタジオです。下北沢駅から徒歩圏内で、マットグループ・マシングループ・プライベートすべてに対応しています。有資格エデュケーターが在籍し、AIによる姿勢分析を通じて初心者も体の変化を把握しやすくなっています。',
@@ -39,7 +39,7 @@ const studios = [
       price: '月4回 15,400円（税込）〜',
     },
     options: [
-      'マットグループ（月4回 9,625円〜）',
+      'マットグループ（月4回 10,450円〜）',
       'リフォーマーグループ（月4回 15,400円〜）',
       'フリープラン（月16,940円〜）',
       'プライベート（1回 9,900円〜）',
@@ -506,7 +506,7 @@ export default function ShimokitazawaPage() {
                   <li className="text-warm-700">• chocoZAP（月額 3,278円）</li>
                   <li className="text-warm-700">• NATURAglam（1回 1,073円〜）</li>
                   <li className="text-warm-700">• URBAN CLASSIC PILATES（月4回 9,680円）</li>
-                  <li className="text-warm-700">• zen place（マット月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• zen place（マット月4回 10,450円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -585,7 +585,7 @@ export default function ShimokitazawaPage() {
                   マシン完備のスタジオでしっかり取り組めます。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place（マット月4回 9,625円〜）</li>
+                  <li>• zen place（マット月4回 10,450円〜）</li>
                   <li>• URBAN CLASSIC PILATES（月4回 9,680円）</li>
                   <li>• ピラティスミラー（月6回 11,000円）</li>
                   <li>• ピラティスK（月4回 11,220円〜）</li>

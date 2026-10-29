@@ -24,7 +24,7 @@ const studios = [
     name: 'zen place pilates 麻布十番スタジオ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: 'マットグループ 月4回 9,625円〜',
+    price: 'マットグループ 月4回 10,450円〜',
     trial: '体験レッスン 500円〜',
     features: ['マット&マシン', '麻布十番駅徒歩1分', '男性利用可', '全国他店利用'],
     description: '全国150店舗以上展開の大手ピラティススタジオです。麻布十番駅7番出口から徒歩1分の好立地です。マットグループ、マシン（リフォーマー）グループ、プライベートレッスンに対応しています。全国の店舗で他店利用可能です。',
@@ -36,10 +36,10 @@ const studios = [
       price: '月4回 15,400円（税込）',
     },
     options: [
-      'マットグループ（月4回 9,625円〜）',
+      'マットグループ（月4回 10,450円〜）',
       'リフォーマーグループ（月4回 15,400円）',
       'リフォーマーグループ（月8回 25,300円）',
-      'プライベート（月4回 32,560円〜）',
+      'プライベート（月4回 38,280円〜）',
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
@@ -346,7 +346,7 @@ export default function AzabujubanPage() {
                   月額1万円前後から通えるスタジオです。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place（マット月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• zen place（マット月4回 10,450円〜）</li>
                   <li className="text-warm-700">• LAGREE MICRO（1回 3,612円〜）</li>
                 </ul>
               </div>

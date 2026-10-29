@@ -57,7 +57,7 @@ const studios = [
     description: 'ピラティス専門の大手スタジオです。全国150店舗以上で他店利用可能です。マットグループ・マシングループ・プライベートの3タイプから選べます。BASIピラティスをベースにした本格指導しています。たまプラーザエリアからもアクセス良好です。',
     access: '東急田園都市線沿線（たまプラーザエリアからアクセス良好）',
     address: '神奈川県横浜市青葉区美しが丘1丁目11-10 ポリニアビル２F',
-    popularPlan: { name: 'フリープラン（マットグループ）', description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。', price: '月額 14,960円〜（税込）' },
+    popularPlan: { name: 'フリープラン（マットグループ）', description: 'マットグループレッスン通い放題です。全国店舗で他店利用可能です。', price: '月額 16,940円〜（税込）' },
     options: ['月4回プラン（10,450円〜）', 'マシングループ体験（3,000円）', 'プライベートレッスン（体験 9,900円）', '体験当日入会で入会金無料'],
     userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'] },
     basicInfo: { hours: '月〜金 10:00〜20:00 / 土日祝 10:00〜16:00', closed: '不定休', facilities: ['リフォーマー', 'マット', 'ロッカー', '更衣室'] },
@@ -298,7 +298,7 @@ export default function TamaPlazaPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">月3〜4回</p>
                 <p className="text-sm text-warm-600 mb-4">大手チェーンの充実レッスンです。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place（14,960円〜/通い放題）</li>
+                  <li>• zen place（16,940円〜/通い放題）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">

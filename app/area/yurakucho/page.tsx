@@ -56,7 +56,7 @@ const studios = [
     name: 'zen place pilates 銀座二丁目',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: 'マット月4回 9,625円〜',
+    price: 'マット月4回 10,450円〜',
     trial: '体験レッスン 500円〜',
     features: ['マット＆マシン', '男性利用可', '銀座一丁目駅徒歩1分', '全店他店利用可'],
     description: '全国150店舗以上を展開する日本最大級のピラティススタジオです。銀座一丁目駅10番出口から徒歩1分、有楽町駅からも近い好立地です。マットグループからマシングループ、プライベートレッスンまで多彩なプログラムを提供しています。全店舗他店利用可能で、男性も利用可能です。22年の実績と累計500万回以上のレッスン提供実績を持つ信頼のスタジオです。',
@@ -65,13 +65,13 @@ const studios = [
     popularPlan: {
       name: 'マットグループ 月4',
       description: 'マットピラティスのグループレッスンです。初心者にもおすすめの基本プランです。',
-      price: '月4回 9,625円（税込）',
+      price: '月4回 10,450円（税込）',
     },
     options: [
-      'フリープラン（通い放題 14,960円）',
+      'フリープラン（通い放題 16,940円）',
       'マット＆マシングループ MM22（各2回 12,650円）',
       'リフォーマーグループ RG4（月4回 15,400円）',
-      'プライベートレッスン（月4回 33,880円）',
+      'プライベートレッスン（月4回 38,280円）',
     ],
     userProfile: {
       ageRange: '20代〜60代まで幅広い',
@@ -190,7 +190,7 @@ const faqs = [
   },
   {
     question: '有楽町エリアのピラティススタジオの料金相場は？',
-    answer: '有楽町・銀座エリアのピラティススタジオの料金相場は、月4回で9,600円〜15,400円程度です。体験レッスンは無料〜3,850円が一般的です。zen place pilatesのマットグループ月4回9,625円や、Rintosullの月4回9,800円がリーズナブルな選択肢です。',
+    answer: '有楽町・銀座エリアのピラティススタジオの料金相場は、月4回で9,600円〜15,400円程度です。体験レッスンは無料〜3,850円が一般的です。zen place pilatesのマットグループ月4回10,450円や、Rintosullの月4回9,800円がリーズナブルな選択肢です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -331,7 +331,7 @@ export default function YurakuchoPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">9,625円〜15,400円</td>
+                    <td className="px-4 py-3">9,800円〜15,400円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -435,7 +435,7 @@ export default function YurakuchoPage() {
                   月額1万円以下で通えるリーズナブルなスタジオです。体験レッスンもワンコイン500円からです。費用を抑えたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place pilates 銀座二丁目（月4回9,625円〜）</li>
+                  <li className="text-warm-700">• zen place pilates 銀座二丁目（月4回10,450円〜）</li>
                   <li className="text-warm-700">• Rintosull 銀座店（月4回9,800円〜）</li>
                 </ul>
               </div>
@@ -502,7 +502,7 @@ export default function YurakuchoPage() {
                   マットグループレッスンが中心です。初心者向けの基本プランが充実しています。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place pilates（9,625円）</li>
+                  <li>• zen place pilates（10,450円）</li>
                   <li>• Rintosull（9,800円）</li>
                 </ul>
               </div>
@@ -526,7 +526,7 @@ export default function YurakuchoPage() {
                   完全プライベートレッスンです。短期集中で成果を目指したい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• zen place（プライベート33,880円）</li>
+                  <li>• zen place（プライベート38,280円）</li>
                   <li>• BDC PILATES（プライベート）</li>
                 </ul>
               </div>

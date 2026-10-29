@@ -27,7 +27,7 @@ const studios = [
     name: 'zen place pilates 藤沢',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 9,625円〜',
+    price: '月4回 10,450円〜',
     trial: '体験レッスン 500円〜',
     features: ['マシン完備', '男性利用可', '藤沢駅徒歩2分', '全国他店利用可'],
     description: '全国150以上のスタジオを展開する国内最大級のピラティス専門スタジオです。JR東海道線・小田急江ノ島線「藤沢駅」南口から徒歩2分の好立地です。リフォーマー以外にチェアやキャデラックなど豊富なマシンを完備しています。男性も受講可能です。',
@@ -36,12 +36,12 @@ const studios = [
     popularPlan: {
       name: 'マットグループ月4回',
       description: 'マットピラティスのグループレッスンです。全国のzen placeスタジオで他店利用可能です。',
-      price: '月4回 9,625円（税込）',
+      price: '月4回 10,450円（税込）',
     },
     options: [
-      'マットグループフリー（月額14,960円）',
+      'マットグループフリー（月額16,940円）',
       'リフォーマーグループ月4回（月額15,400円）',
-      'プライベート月4回（月額33,880円〜）',
+      'プライベート月4回（月額38,280円〜）',
       '入会金 22,000円（体験当日入会で無料）',
     ],
     userProfile: {
@@ -226,7 +226,7 @@ const faqs = [
   },
   {
     question: 'パーソナルとグループ、どちらがおすすめですか？',
-    answer: 'パーソナルはN pilates studioやLa pilatesで効果的な指導を受けられます。グループはzen placeなら月4回9,625円からです。まずは体験レッスンで両方を試すことをおすすめします。',
+    answer: 'パーソナルはN pilates studioやLa pilatesで効果的な指導を受けられます。グループはzen placeなら月4回10,450円からです。まずは体験レッスンで両方を試すことをおすすめします。',
   },
 ]
 
@@ -447,7 +447,7 @@ export default function FujisawaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Pilates Mee（1回あたり3,750円 ※37,500円の通い放題コースを月10回利用した場合・公式の算出）</li>
-                  <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
                   <li className="text-warm-700">• LOrena（1回 4,400円〜）</li>
                 </ul>
               </div>
@@ -514,7 +514,7 @@ export default function FujisawaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Pilates Mee（1回あたり3,750円 ※37,500円の通い放題コースを月10回利用した場合・公式の算出）</li>
-                  <li>• zen place（9,625円〜/月4回）</li>
+                  <li>• zen place（10,450円〜/月4回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -537,7 +537,7 @@ export default function FujisawaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• La pilates（月2回 22,000円）</li>
-                  <li>• zen place プライベート（33,880円〜）</li>
+                  <li>• zen place プライベート（38,280円〜）</li>
                 </ul>
               </div>
             </div>

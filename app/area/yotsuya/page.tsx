@@ -24,7 +24,7 @@ const studios = [
     name: 'zen place pilates 飯田橋スタジオ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: 'マットグループ 月4回 9,625円〜',
+    price: 'マットグループ 月4回 10,450円〜',
     trial: '体験レッスン 500円〜',
     features: ['マット&マシン', '飯田橋駅徒歩1分', '男性利用可', '四ツ谷から2駅'],
     description: '全国100店舗以上展開の大手ピラティススタジオです。飯田橋駅B4b出口から徒歩1分です。四ツ谷駅から南北線で2駅の好アクセスです。マットグループ、マシングループ、プライベートレッスンに対応しています。',
@@ -196,7 +196,7 @@ export default function YotsuyaPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">9,625円〜13,420円</td>
+                    <td className="px-4 py-3">10,450円〜13,420円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -300,7 +300,7 @@ export default function YotsuyaPage() {
                   グループレッスンで気軽に始めたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• zen place 飯田橋（マット月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• zen place 飯田橋（マット月4回 10,450円〜）</li>
                   <li className="text-warm-700">• ピラティスK 新宿（月4回 13,420円〜）</li>
                 </ul>
               </div>

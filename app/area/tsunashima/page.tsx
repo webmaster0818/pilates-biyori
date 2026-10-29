@@ -22,12 +22,12 @@ const studios = [
     name: 'zen place pilates 綱島',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp', reviewCount: 135,
-    price: '月4回 13,200円〜', trial: '体験レッスン 1,000円',
+    price: 'マットグループ月4回 10,450円〜', trial: '体験レッスン 1,000円',
     features: ['全国展開大手', 'マット&マシン完備', '2025年拡張移転', '綱島駅徒歩2分'],
     description: '全国130店舗以上を展開する大手ピラティススタジオです。2025年5月に拡張移転し、綱島駅北口徒歩2分の新スタジオに移転しました。マットグループ・マシングループ・プライベートの3形態に対応しています。解剖学ベースの科学的アプローチが特徴です。',
     access: '東急東横線「綱島駅」北口徒歩2分',
     address: '神奈川県横浜市港北区綱島西1-5-18 The Light Building5F',
-    popularPlan: { name: 'フリープラン（月4回）', description: 'マット・マシンどちらも受講可能です。全店舗利用可能プランもあります。', price: '月4回 13,200円〜（税込）' },
+    popularPlan: { name: 'マットグループ月4回', description: 'マットグループレッスン（マットピラティス・ヨガ）を月4回受講できます。マシンのリフォーマーグループは別プラン（月4回 15,400円・グレード共通・開催の有無はスタジオにより異なります）です。', price: 'マットグループ月4回 10,450円〜（税込）' },
     options: ['マットグループレッスン', 'マシングループレッスン', 'プライベートレッスン（1回 9,900円〜）', '全店舗利用可能プランあり'],
     userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'] },
     basicInfo: { hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00（店舗により異なる）', closed: '不定休', facilities: ['リフォーマー', 'チェア', 'バレル', 'シャワー', 'ロッカー'] },
@@ -75,7 +75,7 @@ const studios = [
 const faqs = [
   { question: 'ピラティス初心者でも大丈夫ですか？', answer: '問題ありません。綱島エリアのスタジオは初心者歓迎です。STUDIO TT綱島店はアットホームな少人数制、pilates K綱島店は体験0円で気軽にスタートです。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマーなどを使用しています。FlexFit綱島はリフォーマー・キャデラック・チェアなど多彩なマシンを完備しています。zen placeはマット・マシン両方に対応しています。' },
-  { question: '綱島のピラティスの料金相場は？', answer: 'pilates Kは月4回13,420円、zen placeは月4回13,200円〜です。STUDIO TTは体験1,100円です。東横線沿線ではリーズナブルな水準です。' },
+  { question: '綱島のピラティスの料金相場は？', answer: 'pilates Kは月4回13,420円、zen placeはマットグループ月4回10,450円〜です。STUDIO TTは体験1,100円です。東横線沿線ではリーズナブルな水準です。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめです。pilates K綱島店のマンスリープレミアムメンバー（月18,920円）なら毎日2レッスンまで受講できます。最低2〜3ヶ月は継続することをおすすめします。' },
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えて基礎代謝が上がります。FlexFitのピラティス×ウェイト複合プログラムなら効率的にボディメイクが可能です。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物です。pilates K綱島店は体験0円、zen placeは体験1,000円、STUDIO TTは体験1,100円です。' },
@@ -110,7 +110,7 @@ export default function TsunashimaPage() {
         <PriceComparisonTable studios={studios} areaName="綱島" />
         <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">綱島のおすすめピラティススタジオ4選</h2><div className="space-y-8">{[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
 
-        <section className="py-16 bg-white" id="price-market"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">綱島のピラティス料金相場</h2><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">種別</th><th className="px-4 py-3 text-left">料金相場</th></tr></thead><tbody><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4回）</td><td className="px-4 py-3">11,220円〜13,200円</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">パーソナルレッスン</td><td className="px-4 py-3">1回 9,900円〜</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">無料〜1,100円</td></tr></tbody></table></div><p className="text-warm-600 mt-4 text-sm leading-relaxed">綱島エリアは再開発に伴い新しいスタジオが増加中です。FlexFitのピラティス×ウェイト複合型やAI姿勢分析など、最先端のプログラムが充実しています。近隣の<Link href="/area/hiyoshi/" className="text-warm-700 underline hover:text-warm-900">日吉</Link>エリアと合わせて検討するのもおすすめです。</p></div></section>
+        <section className="py-16 bg-white" id="price-market"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">綱島のピラティス料金相場</h2><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">種別</th><th className="px-4 py-3 text-left">料金相場</th></tr></thead><tbody><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4回）</td><td className="px-4 py-3">10,450円〜13,420円</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">パーソナルレッスン</td><td className="px-4 py-3">1回 9,900円〜</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">無料〜1,100円</td></tr></tbody></table></div><p className="text-warm-600 mt-4 text-sm leading-relaxed">綱島エリアは再開発に伴い新しいスタジオが増加中です。FlexFitのピラティス×ウェイト複合型やAI姿勢分析など、最先端のプログラムが充実しています。近隣の<Link href="/area/hiyoshi/" className="text-warm-700 underline hover:text-warm-900">日吉</Link>エリアと合わせて検討するのもおすすめです。</p></div></section>
 
         <section className="py-16 bg-warm-50" id="cautions"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">綱島でスタジオを選ぶ際の注意点</h2><div className="space-y-6">
           <div className="bg-white rounded-lg p-6 border border-warm-200"><h3 className="text-lg font-bold text-warm-900 mb-3">再開発エリアは道がわかりにくい場合も</h3><p className="text-warm-600 leading-relaxed">綱島は再開発が進行中のため、工事で通路が変わっていることがあります。初回訪問時は余裕を持って出発し、スタジオの正確な場所を事前にご確認ください。</p></div>
@@ -130,7 +130,7 @@ export default function TsunashimaPage() {
         <section className="py-16 bg-warm-50" id="frequency"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">おすすめの期間・頻度</h2><div className="bg-white rounded-lg p-8 border border-warm-200"><h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3><p className="text-warm-600 leading-relaxed mb-6">週1〜2回です。pilates K綱島店の月4回プラン（13,420円）で始めることをおすすめします。</p><h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3><p className="text-warm-600 leading-relaxed mb-6">週2〜3回です。FlexFitの複合プログラムで効率的にボディメイクを目指せます。</p><h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3><p className="text-warm-600 leading-relaxed">週1回で継続です。zen placeの全店利用可能プランで柔軟に通えます。</p></div></div></section>
 
         <section className="py-16 bg-white" id="price-guide"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">予算別の料金相場</h2><div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50"><div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div><h3 className="text-lg font-bold text-warm-900 mb-2">予算 11,000〜13,200円/月</h3><p className="text-3xl font-bold text-warm-800 mb-4">月4回</p><p className="text-sm text-warm-600 mb-4">週1回で着実に成果です。</p><ul className="text-sm text-warm-700 space-y-1"><li>• pilates K（13,420円/月4回）</li><li>• zen place（13,200円〜/月4回）</li></ul></div>
+          <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50"><div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div><h3 className="text-lg font-bold text-warm-900 mb-2">予算 10,450〜13,420円/月</h3><p className="text-3xl font-bold text-warm-800 mb-4">月4回</p><p className="text-sm text-warm-600 mb-4">週1回で着実に成果です。</p><ul className="text-sm text-warm-700 space-y-1"><li>• pilates K（13,420円/月4回）</li><li>• zen place（マット 10,450円〜/月4回）</li></ul></div>
           <div className="border-2 border-warm-300 rounded-lg p-6 text-center"><h3 className="text-lg font-bold text-warm-900 mb-2">パーソナルプラン</h3><p className="text-3xl font-bold text-warm-800 mb-4">1回9,900円〜</p><p className="text-sm text-warm-600 mb-4">マンツーマンで効率的です。</p><ul className="text-sm text-warm-700 space-y-1"><li>• zen place（プライベート 9,900円〜）</li><li>• FlexFit（パーソナル対応）</li></ul></div>
         </div></div></section>
 

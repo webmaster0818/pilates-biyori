@@ -86,7 +86,7 @@ const studios = [
     name: 'zen place pilates 大井町スタジオ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: 'マットグループ 月4回 9,625円〜',
+    price: 'マットグループ 月4回 10,450円〜',
     trial: '体験レッスン 1,000円〜',
     features: ['マット&マシン', '大井町駅徒歩3分', '男性利用可', '初心者歓迎'],
     description: 'zen placeの大井町スタジオです。大井町駅C出口から徒歩3分です。JR京浜東北線、東急大井町線、りんかい線の3路線が利用可能です。マットグループからプライベートまで幅広く対応しています。',
@@ -98,7 +98,7 @@ const studios = [
       price: '月4回 15,400円（税込）〜',
     },
     options: [
-      'マットグループ（月4回 9,625円〜）',
+      'マットグループ（月4回 10,450円〜）',
       'リフォーマーグループ（月4回 15,400円〜）',
       'フリープラン（月16,940円〜）',
       'プライベートレッスン（1回 9,900円〜）',
@@ -404,7 +404,7 @@ export default function ShinagawaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull 品川（月4回 8,800円）</li>
-                  <li className="text-warm-700">• zen place 大井町（マット月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• zen place 大井町（マット月4回 10,450円〜）</li>
                   <li className="text-warm-700">• zen place 五反田（月4回 9,625円〜）</li>
                 </ul>
               </div>

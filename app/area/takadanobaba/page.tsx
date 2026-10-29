@@ -27,7 +27,7 @@ const studios = [
     name: 'zen place pilates 高田馬場スタジオ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: 'マットグループ月4回 9,625円〜',
+    price: 'マットグループ月4回 10,450円〜',
     trial: '体験レッスン 500円〜',
     features: ['マット&マシン', '高田馬場駅徒歩5分', '男性利用可', '全国他店利用'],
     description: '全国150店舗以上展開の大手ピラティススタジオです。JR山手線・西武新宿線・東京メトロ東西線「高田馬場駅」から徒歩5分の好立地です。マットグループ、マシン（リフォーマー）グループ、プライベートレッスンと幅広いメニューを提供しています。男性も利用可能で、経験豊富なエデュケーターが一人ひとりに合わせた丁寧な指導を行います。体験レッスンは500円からです。',
@@ -39,7 +39,7 @@ const studios = [
       price: '月4回 15,400円（税込）〜',
     },
     options: [
-      'マットグループ（月4回 9,625円〜）',
+      'マットグループ（月4回 10,450円〜）',
       'リフォーマーグループ（月4回 15,400円〜）',
       'フリープラン（月16,940円〜）',
       'プライベート（1回 9,900円〜）',
@@ -544,7 +544,7 @@ export default function TakadanobabaPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• chocoZAP（月額3,278円・24時間）</li>
                   <li className="text-warm-700">• NATURAglam（月4回 8,800円〜）</li>
-                  <li className="text-warm-700">• zen place（マット月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• zen place（マット月4回 10,450円〜）</li>
                   <li className="text-warm-700">• URBAN CLASSIC PILATES（月4回 9,680円）</li>
                 </ul>
               </div>
@@ -612,7 +612,7 @@ export default function TakadanobabaPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• chocoZAP（月額 3,278円）</li>
                   <li>• NATURAglam（月4回 8,800円〜）</li>
-                  <li>• zen place（マット月4回 9,625円〜）</li>
+                  <li>• zen place（マット月4回 10,450円〜）</li>
                   <li>• URBAN CLASSIC PILATES（月4回 9,680円）</li>
                   <li>• CALDO（月4回 9,900円〜）</li>
                 </ul>

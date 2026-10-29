@@ -27,7 +27,7 @@ const studios = [
     name: 'zen place pilates 赤羽スタジオ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: 'マットグループ 月4回 9,625円〜',
+    price: 'マットグループ 月4回 10,450円〜',
     trial: '体験レッスン 1,000円〜',
     features: ['マット&マシン', '赤羽駅近', '男性利用可', '全国他店利用'],
     description: '全国150店舗以上展開の大手ピラティススタジオです。赤羽駅から徒歩圏内です。マットグループ、マシングループ、プライベートに対応しています。全国の店舗で他店利用可能です。',
@@ -39,7 +39,7 @@ const studios = [
       price: '月額 16,940円（税込）',
     },
     options: [
-      'マットグループ（月4回 9,625円〜）',
+      'マットグループ（月4回 10,450円〜）',
       'リフォーマーグループ（月4回 15,400円〜）',
       'フリープラン（月16,940円〜）',
       'プライベート（1回 9,900円〜）',
@@ -383,7 +383,7 @@ export default function AkabanePage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• URBAN CLASSIC（月額7,800円〜）</li>
-                  <li className="text-warm-700">• zen place（マット月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• zen place（マット月4回 10,450円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -448,7 +448,7 @@ export default function AkabanePage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• URBAN CLASSIC（月額7,800円〜）</li>
-                  <li>• zen place（マット月4回 9,625円〜）</li>
+                  <li>• zen place（マット月4回 10,450円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">

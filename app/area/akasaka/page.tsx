@@ -27,7 +27,7 @@ const studios = [
     name: 'zen place pilates 赤坂',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
-    price: '月4回 9,625円〜',
+    price: '月4回 10,450円〜',
     trial: 'マットグループ体験 1,000円（今だけの体験価格・通常3,300円〜）/ マシングループ体験 3,000円（初回キャンペーン）',
     features: ['マシン完備', '男性利用可', '赤坂見附駅徒歩3分', '全国他店利用可'],
     description: '全国150以上のスタジオを展開する国内最大級のピラティス専門スタジオです。赤坂見附駅10番出口から徒歩3分、赤坂駅1番出口から徒歩4分の好立地です。窓が大きく明るい開放的なスタジオで、各種ピラティスマシンを完備しています。世界レベルの資格と豊富な経験を持つエデュケーターが、初心者から経験者まで幅広いレッスンを提供しています。男性も受講可能です。',
@@ -36,13 +36,13 @@ const studios = [
     popularPlan: {
       name: 'マットグループ月4回',
       description: 'マットピラティスのグループレッスンです。初心者から経験者まで対応しています。全国のzen placeスタジオで他店利用可能です。',
-      price: '月4回 9,625円（税込）',
+      price: '月4回 10,450円（税込）',
     },
     options: [
-      'マットグループフリー（月額14,960円）',
+      'マットグループフリー（月額16,940円）',
       'リフォーマーグループ月4回（月額15,400円）',
       'リフォーマーグループ月8回（月額25,300円）',
-      'プライベート月4回（月額33,880円〜）',
+      'プライベート月4回（月額38,280円〜）',
     ],
     userProfile: {
       ageRange: '20代〜50代が中心（全体の80%）',
@@ -480,7 +480,7 @@ export default function AkasakaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• PILATES STUDIO noa（月額6,600円〜）</li>
-                  <li className="text-warm-700">• zen place pilates（月4回 9,625円〜）</li>
+                  <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -547,7 +547,7 @@ export default function AkasakaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• PILATES STUDIO noa（6,600円〜）</li>
-                  <li>• zen place pilates（9,625円〜）</li>
+                  <li>• zen place pilates（10,450円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -570,7 +570,7 @@ export default function AkasakaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• STUDIO IVY（月4回 28,000円）</li>
-                  <li>• zen place プライベート（33,880円〜）</li>
+                  <li>• zen place プライベート（38,280円〜）</li>
                 </ul>
               </div>
             </div>
