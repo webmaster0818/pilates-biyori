@@ -55,22 +55,22 @@ const studios = [
     name: 'ピラティスK 立川',
     officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
-    price: '月4回 15,070円〜',
+    price: '月4回 13,420円',
     trial: '無料体験レッスン',
     features: ['音楽×マシン', '女性専用', '暗闇レッスン', 'グループレッスン'],
-    description: '音楽に合わせて楽しくボディメイクを目指せます。女性専用スタジオのため安心して通えます。立川駅北口から徒歩5分です。暗闇×音楽×マシンピラティスの融合レッスンが人気です。周りの目を気にせず集中できる環境で、楽しみながら理想のボディラインを手に入れられます。',
-    access: '立川駅北口から徒歩5分',
-    address: '東京都立川市曙町2-13-3 立川三菱ビル 4F',
+    description: '音楽に合わせて楽しくボディメイクを目指せます。女性専用スタジオのため安心して通えます。立川駅北口から徒歩3分です。暗闇×音楽×マシンピラティスの融合レッスンが人気です。周りの目を気にせず集中できる環境で、楽しみながら理想のボディラインを手に入れられます。',
+    access: 'JR立川駅北口徒歩3分 / 多摩都市モノレール立川北駅徒歩3分',
+    address: '東京都立川市曙町2丁目7-17 イイノ立川2F',
     popularPlan: {
       name: 'マンスリー4メンバー',
       description: '暗闇×音楽×マシンピラティスの融合レッスンです。楽しく続けられると人気のプランです。',
-      price: '月4回 15,070円（税込）',
+      price: '月4回 13,420円（税込）',
     },
     options: [
-      '追加レッスンチケット（1回 4,400円）',
-      '通い放題プラン変更（月額 22,000円〜）',
-      'ウェア・タオルセット（月額 2,200円）',
-      'ドリンクサービス（月額 1,100円）',
+      'マンスリー8メンバー（月8回 16,170円）',
+      'マンスリーデイメンバー（平日10-15時開始のレッスンを毎日1回 14,520円）',
+      'マンスリープレミアムメンバー（毎日2レッスン 18,920円）',
+      '追加レッスン（1回 2,200円）・施設維持費（月額 825円）',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心（全体の85%）',
@@ -78,8 +78,8 @@ const studios = [
       purpose: ['楽しく痩せたい', 'ストレス発散', 'ボディメイク', '仲間と運動'],
     },
     basicInfo: {
-      hours: '平日 10:00〜22:00 / 土日祝 10:00〜20:00',
-      closed: '不定休',
+      hours: '月水金 10:00〜15:00・17:30〜22:00 / 火木 9:30〜16:00・17:30〜22:00 / 土祝 9:30〜20:00 / 日 10:00〜19:00',
+      closed: '第一月曜日（最新はレッスンスケジュールで確認）',
       facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', '暗闇スタジオ', '女性専用'],
     },
   },
@@ -87,11 +87,11 @@ const studios = [
     name: 'the SILK 立川店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=X10489B.1.E162842X.U1357808',
     image: '/images/studios/the-silk.webp',
-    price: 'グループ月4回(Standard4) 14,370円 / 通い放題 19,980円（別途施設利用料月700円）/ パーソナル月2回 22,000円〜',
+    price: 'グループ月4回(Standard4) 14,370円 / 通い放題 19,980円（別途施設利用料月700円）',
     trial: '体験レッスン 無料',
-    features: ['女性専用', 'マシンピラティス専門', 'グループ＋パーソナル'],
-    description: '女性専用のマシンピラティス専門スタジオです。レベル別・部位別の豊富なグループプログラムとパーソナルレッスンを提供し、洗練された空間が特徴です。立川駅から徒歩5分です（情報引用元: the SILK公式サイト the-silk.co.jp）。',
-    access: '立川駅から徒歩5分',
+    features: ['女性専用', 'マシンピラティス専門', 'グループレッスン専門'],
+    description: '女性専用のマシンピラティス専門スタジオです。レベル別・部位別の豊富なグループプログラムを提供し、洗練された空間が特徴です。立川店はグループレッスンのみで、パーソナルレッスンは受け付けていません。JR立川駅から徒歩5分、立川北駅から徒歩6分です（情報引用元: the SILK公式サイト the-silk.co.jp）。',
+    access: 'JR立川駅徒歩5分 / 多摩モノレール立川北駅徒歩6分',
     address: '東京都立川市曙町2-18-17 町田ビル2階',
   },
   {
@@ -130,7 +130,7 @@ const faqs = [
   },
   {
     question: '立川のピラティススタジオの料金相場は？',
-    answer: '立川エリアのピラティススタジオの料金相場は、月4回で12,000円〜16,000円程度です。体験レッスンは無料〜3,000円が一般的です。プライベートレッスンは1回8,000円〜12,000円が相場となっています。',
+    answer: '立川エリアのピラティススタジオの料金相場は、グループレッスンが月4回で9,625円〜15,400円程度です。体験レッスンは無料〜1,000円です。パーソナルレッスンは Pilates Mee 立川店で月4回39,600円（1回あたり9,900円）です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -271,7 +271,7 @@ export default function TachikawaPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">9,625円〜15,280円</td>
+                    <td className="px-4 py-3">9,625円〜15,400円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -279,7 +279,7 @@ export default function TachikawaPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">無料〜2,200円</td>
+                    <td className="px-4 py-3">無料〜1,000円</td>
                   </tr>
                 </tbody>
               </table>
@@ -372,12 +372,10 @@ export default function TachikawaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額12,000円以下で通える格安スタジオです。体験レッスン無料のスタジオも多数あります。費用を抑えたい方におすすめです。
+                  月4回12,000円以下で通えるスタジオです。zen place pilates 立川はマットグループ月4回9,625円で、体験は初回1,000円です。費用を抑えたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Pilates Studio Harmony 立川</li>
-                  <li className="text-warm-700">• Reformer Pilates Tachikawa</li>
-                  <li className="text-warm-700">• FLOW PILATES 立川</li>
+                  <li className="text-warm-700">• zen place pilates 立川（マットグループ月4回 9,625円）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -393,10 +391,10 @@ export default function TachikawaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・商業施設</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  立川駅から徒歩3分以内です。ルミネ、伊勢丹などの大型商業施設近くで買い物ついでに通えます。
+                  立川駅から徒歩3分以内です。伊勢丹など大型商業施設の近くで、買い物のついでに通えます。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Urban Pilates 立川（駅徒歩1分）</li>
+                  <li className="text-warm-700">• ピラティスK 立川店（立川駅北口徒歩3分）</li>
                 </ul>
               </div>
             </div>
@@ -440,8 +438,7 @@ export default function TachikawaPage() {
                   グループレッスンが中心です。初心者向けの基本的なレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Pilates Studio Harmony</li>
-                  <li>• Reformer Pilates</li>
+                  <li>• zen place pilates（マットグループ 9,625円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -453,8 +450,8 @@ export default function TachikawaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates（リフォーマーグループ 月4回 15,400円）</li>
-                  <li>• ピラティスK</li>
-                  <li>• the SILK</li>
+                  <li>• ピラティスK（13,420円）</li>
+                  <li>• the SILK（14,370円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -464,8 +461,8 @@ export default function TachikawaPage() {
                   完全プライベートレッスンです。短期集中で成果を目指したい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• B-line（1回8,800円）</li>
-                  <li>• Pilates Lab</li>
+                  <li>• Pilates Mee（パーソナル月4回 39,600円）</li>
+                  <li>• zen place pilates（プライベート月4回 33,880円）</li>
                 </ul>
               </div>
             </div>
@@ -494,7 +491,7 @@ export default function TachikawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  立川エリアの料金相場は月4回で12,000円〜16,000円程度です。無理なく継続できる予算を決めることをおすすめします。料金だけでなく、入会金やマット・ウェアのレンタル料などもご確認ください。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  立川エリアの料金相場はグループレッスン月4回で9,625円〜15,400円程度です。無理なく継続できる予算を決めることをおすすめします。料金だけでなく、入会金やマット・ウェアのレンタル料などもご確認ください。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

@@ -476,7 +476,7 @@ export default function AkasakaPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円以下で通えるリーズナブルなスタジオです。費用を抑えたい方におすすめです。
+                  月額1万円以下から通えるリーズナブルなスタジオです。費用を抑えたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• PILATES STUDIO noa（月額6,600円〜）</li>
@@ -540,7 +540,7 @@ export default function AkasakaPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜11,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
                   グループレッスンが中心です。マットピラティスやストレッチ系です。

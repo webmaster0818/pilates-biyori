@@ -379,10 +379,10 @@ export default function ShibuyaPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円/月</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜11,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">リーズナブル</p>
                 <p className="text-sm text-warm-600 mb-4">
-                  月4回で1万円以下のプランです。グループレッスンが中心です。
+                  月4回で1万円前後（8,800円〜10,450円）のプランです。グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• <a href="#studio-7" className="text-warm-800 underline underline-offset-2 hover:text-warm-600">Rintosull</a>（月4回 8,800円〜）</li>

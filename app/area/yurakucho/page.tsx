@@ -25,10 +25,10 @@ const studios = [
     officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
     price: '月4回 13,420円',
-    trial: '体験レッスン 2,000円',
+    trial: '体験レッスン 0円',
     features: ['音楽×マシン', '女性専用', '銀座一丁目駅徒歩1分', 'JR有楽町駅徒歩6分'],
-    description: '音楽に合わせて楽しくボディメイクできる女性専用マシンピラティススタジオです。銀座一丁目駅7番出口から徒歩1分、JR有楽町駅京橋口から徒歩6分の好立地です。暗闇×音楽×マシンピラティスの融合レッスンが人気で、周りの目を気にせず集中できる環境です。楽しみながら理想のボディラインを目指せます。',
-    access: '銀座一丁目駅7番出口徒歩1分 / JR有楽町駅京橋口徒歩6分',
+    description: '音楽に合わせて楽しくボディメイクできる女性専用マシンピラティススタジオです。銀座一丁目駅6番出口から徒歩1分、JR有楽町駅京橋口から徒歩6分の好立地です。暗闇×音楽×マシンピラティスの融合レッスンが人気で、周りの目を気にせず集中できる環境です。楽しみながら理想のボディラインを目指せます。',
+    access: '銀座一丁目駅6番出口徒歩1分 / JR有楽町駅京橋口徒歩6分',
     address: '東京都中央区銀座1-6-10 上一ビルディング7F',
     popularPlan: {
       name: 'マンスリー4メンバー',
@@ -40,6 +40,7 @@ const studios = [
       'マンスリーデイメンバー（平日10-15時通い放題 14,520円）',
       'マンスリープレミアムメンバー（毎日2レッスン 18,920円）',
       '追加レッスン（1回 2,200円）',
+      '施設維持費（月額 825円）',
     ],
     userProfile: {
       ageRange: '20代〜30代が中心（全体の85%）',
@@ -47,8 +48,8 @@ const studios = [
       purpose: ['楽しく痩せたい', 'ストレス発散', 'ボディメイク', '仲間と運動'],
     },
     basicInfo: {
-      hours: '火〜金 10:00〜22:00 / 土日祝 10:00〜20:00',
-      closed: '月曜日',
+      hours: '月〜金 9:30〜16:00・17:30〜22:00 / 土日祝 9:30〜20:00',
+      closed: '第一月曜日（最新はレッスンスケジュールで確認）',
       facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', '暗闇スタジオ', '女性専用'],
     },
   },
@@ -100,7 +101,8 @@ const studios = [
     },
     options: [
       'Full（毎日1回 22,280円）',
-      '追加レッスンチケット（1回 3,850円）',
+      'Full Day（平日 OPEN〜15時開始のレッスンを毎日1回 19,280円）',
+      'Light3（月3回 13,280円）',
       'ウェア・タオルセット（月額 2,200円）',
     ],
     userProfile: {
@@ -109,8 +111,8 @@ const studios = [
       purpose: ['ボディメイク', 'ストレス発散', '楽しく痩せたい', '姿勢改善'],
     },
     basicInfo: {
-      hours: '平日 7:00〜22:00 / 土日祝 8:00〜20:00',
-      closed: '不定休',
+      hours: '7:30〜21:00',
+      closed: '年末年始（12/29〜1/3）',
       facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi', '暗闇スタジオ', '女性専用'],
     },
   },
@@ -118,22 +120,22 @@ const studios = [
     name: 'BDC PILATES 銀座スタジオ',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590',
     image: '/images/studios/bdc-pilates.webp',
-    price: 'グループ月額 15,400円〜',
-    trial: '体験レッスン 3,850円',
+    price: 'グループ月4回 16,280円',
+    trial: '体験レッスン 4,070円（通常料金・税込）',
     features: ['少人数制最大8名', 'グループ＆プライベート', '銀座駅C8出口徒歩30秒', '銀座4丁目'],
     description: 'ダンサー御用達の本格的なピラティススタジオです。銀座駅C8出口から徒歩30秒の好立地です。少人数制（最大8名）のグループレッスンで丁寧な指導を受けられます。ダンスの基礎をベースにした独自メソッドで、身体の使い方を根本から学べる質の高いプログラムが特徴です。美しい姿勢と柔軟な身体を手に入れたい方におすすめです。',
     access: '銀座駅C8出口から徒歩30秒（公式表記）',
     address: '東京都中央区銀座4-2-1 銀座教会堂ビル7F',
     popularPlan: {
-      name: 'グループレッスン月額プラン',
+      name: 'グループレッスン 月4回',
       description: '少人数制（最大8名）のグループレッスンです。丁寧な指導で効果的なトレーニングです。',
-      price: 'グループ月額 15,400円〜（税込）',
+      price: '月4回 16,280円（税込）',
     },
     options: [
-      'プライベートレッスン（1回 8,800円〜）',
-      'グループチケット（5回 19,250円）',
-      'グループチケット（10回 36,300円）',
-      'ウェアレンタル（有料）',
+      'グループ月6回（23,100円）・月8回（29,260円）',
+      'グループ追加レッスン（1回 4,070円）',
+      'プライベートレッスン（月1回 11,000円・月2回 20,900円）',
+      '入会金 11,000円・事務手数料 2,200円・施設維持費 月770円',
     ],
     userProfile: {
       ageRange: '20代〜50代まで幅広い',
@@ -150,10 +152,10 @@ const studios = [
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
     price: '月4回 9,800円〜',
-    trial: '体験レッスン あり',
+    trial: '体験会 無料',
     features: ['女性専用', 'マシンピラティス', 'リーズナブル', '銀座エリア'],
     description: '女性専用のマシンピラティススタジオです。銀座エリアに展開し、有楽町からも通いやすい立地です。月4回9,800円からというリーズナブルな価格設定が魅力です。マシンピラティス初心者でも安心して始められる丁寧な指導が特徴です。清潔でおしゃれなスタジオ空間で、楽しみながらボディメイクができます。',
-    access: '銀座エリア（有楽町からも徒歩圏内）',
+    access: '銀座駅B2・B4出口徒歩1分 / 銀座一丁目駅5番出口徒歩3分 / 有楽町駅中央口徒歩5分',
     address: '東京都中央区銀座4-4-1銀座清水ビルB2F',
     popularPlan: {
       name: 'マンスリー4（月4回）',
@@ -161,10 +163,9 @@ const studios = [
       price: '月4回 9,800円〜（税込）',
     },
     options: [
-      '月8回プラン（要問合せ）',
-      '通い放題プラン（要問合せ）',
-      'ウェア・タオルレンタル（有料）',
-      'ドリンクサービス（有料）',
+      'ライト・フルタイム（通い放題・銀座店＋1店舗 14,800円）',
+      'プレミアム フリー・フルタイム（通い放題・系列全店 16,800円）',
+      '運営管理費（月額 680円）',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
@@ -172,8 +173,8 @@ const studios = [
       purpose: ['ボディメイク', '姿勢改善', 'ダイエット', '運動不足解消'],
     },
     basicInfo: {
-      hours: '平日 10:00〜22:00 / 土日祝 9:00〜19:00',
-      closed: '不定休',
+      hours: '公式の店舗ページに記載なし',
+      closed: '毎週日曜・第4水曜',
       facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', 'マシン完備', '女性専用'],
     },
   },
@@ -190,7 +191,7 @@ const faqs = [
   },
   {
     question: '有楽町エリアのピラティススタジオの料金相場は？',
-    answer: '有楽町・銀座エリアのピラティススタジオの料金相場は、月4回で9,600円〜15,400円程度です。体験レッスンは無料〜3,850円が一般的です。zen place pilatesのマットグループ月4回10,450円や、Rintosullの月4回9,800円がリーズナブルな選択肢です。',
+    answer: '有楽町・銀座エリアのピラティススタジオの料金相場は、月4回で9,800円〜16,280円程度です。体験レッスンは無料〜4,070円です。zen place pilatesのマットグループ月4回10,450円や、Rintosullの月4回9,800円がリーズナブルな選択肢です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -331,7 +332,7 @@ export default function YurakuchoPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">9,800円〜15,400円</td>
+                    <td className="px-4 py-3">9,800円〜16,280円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -339,7 +340,7 @@ export default function YurakuchoPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">無料〜3,850円</td>
+                    <td className="px-4 py-3">無料〜4,070円</td>
                   </tr>
                 </tbody>
               </table>
@@ -432,7 +433,7 @@ export default function YurakuchoPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額1万円以下で通えるリーズナブルなスタジオです。zen placeの体験は初回1,000円（マットグループ）です。費用を抑えたい方におすすめです。
+                  月4回1万円前後（9,800円〜10,450円）で通えるリーズナブルなスタジオです。zen placeの体験は初回1,000円（マットグループ）です。費用を抑えたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates 銀座二丁目（月4回10,450円〜）</li>
@@ -445,20 +446,20 @@ export default function YurakuchoPage() {
                   周りの目を気にせず集中できる女性専用スタジオです。初心者でも恥ずかしさなく始められます。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• ピラティスK 銀座店（体験2,000円）</li>
+                  <li className="text-warm-700">• ピラティスK 銀座店（体験0円）</li>
                   <li className="text-warm-700">• the SILK 銀座店（体験無料）</li>
-                  <li className="text-warm-700">• Rintosull 銀座店（体験あり）</li>
+                  <li className="text-warm-700">• Rintosull 銀座店（体験会無料）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">駅近・アクセス重視</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  有楽町駅・銀座一丁目駅から徒歩3分以内です。仕事帰りやお出かけのついでに通えて便利です。
+                  有楽町駅・銀座一丁目駅・銀座駅から徒歩3分以内です。仕事帰りやお出かけのついでに通えて便利です。
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• ピラティスK 銀座店（銀座一丁目駅徒歩1分）</li>
                   <li className="text-warm-700">• zen place pilates（銀座一丁目駅徒歩1分）</li>
-                  <li className="text-warm-700">• BDC PILATES（銀座一丁目駅徒歩1分）</li>
+                  <li className="text-warm-700">• BDC PILATES（銀座駅C8出口徒歩30秒）</li>
                 </ul>
               </div>
             </div>
@@ -496,7 +497,7 @@ export default function YurakuchoPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜11,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
                   マットグループレッスンが中心です。初心者向けの基本プランが充実しています。
@@ -508,7 +509,7 @@ export default function YurakuchoPage() {
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜16,000円</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜17,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
                   マシン完備の人気スタジオです。女性専用・少人数制も選べます。
@@ -516,7 +517,7 @@ export default function YurakuchoPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（13,420円）</li>
                   <li>• the SILK（15,280円）</li>
-                  <li>• BDC PILATES（15,400円）</li>
+                  <li>• BDC PILATES（16,280円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -527,7 +528,6 @@ export default function YurakuchoPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（プライベート38,280円）</li>
-                  <li>• BDC PILATES（プライベート）</li>
                 </ul>
               </div>
             </div>
@@ -556,7 +556,7 @@ export default function YurakuchoPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  有楽町・銀座エリアの料金相場は月4回で9,600円〜15,400円程度です。無理なく継続できる予算を決めることをおすすめします。料金だけでなく、入会金やマット・ウェアのレンタル料などもご確認ください。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  有楽町・銀座エリアの料金相場は月4回で9,800円〜16,280円程度です。無理なく継続できる予算を決めることをおすすめします。料金だけでなく、入会金やマット・ウェアのレンタル料などもご確認ください。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -620,7 +620,7 @@ export default function YurakuchoPage() {
               有楽町はJR山手線・京浜東北線・有楽町線が利用可能で、銀座・日比谷も徒歩圏内というアクセス抜群のエリアです。料金重視ならzen place pilatesやRintosull、女性専用ならピラティスKやthe SILK、少人数制の丁寧な指導ならBDC PILATESがおすすめです。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              体験レッスンは無料〜3,850円で受けられるスタジオが多いので、気になるスタジオがあればまずは体験レッスンに参加してみてください。
+              体験レッスンは無料〜4,070円で受けられるスタジオが多いので、気になるスタジオがあればまずは体験レッスンに参加してみてください。
             </p>
             <p className="text-warm-700 font-medium text-center">
               本ページが、ピラティススタジオ選びの参考になれば幸いです。
