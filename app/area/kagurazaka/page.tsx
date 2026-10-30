@@ -8,6 +8,7 @@ import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
 import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { AreaConclusion } from '@/components/AreaConclusion'
+import { AreaQuickAnswer } from '@/components/AreaQuickAnswer'
 import { AreaModifierSections } from '@/components/AreaModifierSections'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
@@ -17,8 +18,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/kagurazaka/' },
-  title: '神楽坂のピラティス7社を比較｜無料体験3社・月額最安10,450円〜',
-  description: '神楽坂エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
+  title: '神楽坂のピラティス6社を比較｜神楽坂駅徒歩30秒〜・体験無料4社・月4回10,450円〜',
+  description: '神楽坂駅・牛込神楽坂駅から通えるピラティス6社を比較。CLUB PILATES（神楽坂駅1A出口徒歩30秒）、the SILK・Pilates Mee（神楽坂駅徒歩3分）など、月4回10,450円〜・体験無料4社（各公式・2026年10月確認）。飯田橋駅基準の比較は飯田橋のページへ。',
   keywords: 'ピラティス,神楽坂,飯田橋,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -240,7 +241,7 @@ export default function KagurazakaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月30日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス神楽坂おすすめ6選<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較
@@ -261,6 +262,12 @@ export default function KagurazakaPage() {
           </div>
         </section>
         <section className="bg-white pt-6"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="border border-warm-300 bg-warm-50 px-4 py-3 text-sm text-warm-800 leading-relaxed">🔀 このページは東西線<strong>神楽坂駅</strong>・大江戸線牛込神楽坂駅側を中心にした比較です。<strong>飯田橋駅</strong>を最寄りに探す方は、駅からの徒歩分と無料体験で比べた<Link href="/area/iidabashi/" className="underline decoration-warm-400 hover:text-warm-900 font-medium">飯田橋・神楽坂のピラティス比較（飯田橋駅基準）</Link>が詳しいです。</p></div></section>
+        <AreaQuickAnswer areaName="神楽坂" rows={[
+          { label: '店舗数', text: '神楽坂駅・牛込神楽坂駅側を中心に6社を掲載しています。CLUB PILATES 神楽坂店は東西線神楽坂駅1A出口から徒歩30秒、the SILK 神楽坂店は神楽坂駅から徒歩3分、Pilates Mee 神楽坂・飯田橋店は神楽坂駅徒歩3分・牛込神楽坂駅徒歩2分、ルルトは牛込神楽坂駅徒歩5分です（zen place・Repilatesは飯田橋駅徒歩1分）。' },
+          { label: '料金', text: 'グループの月4回は、zen place 10,450円〜（マットグループ）、CLUB PILATES・Repilates 14,190円（税表記なし）、the SILK 15,280円（別途施設利用料 月700円）。セミパーソナルのPilates Meeは通い放題37,500円を月10回使うと1回あたり3,750円（公式の算出）です。' },
+          { label: '体験', text: 'CLUB PILATES（30分イントロクラス）・Pilates Mee・Repilatesが無料、the SILKも公式サイトで無料の体験予約を受け付けていると案内されています。zen placeはグループ体験 3,300円、ルルトは公式の店舗一覧で体験受付停止中と表示されています。' },
+          { label: '飯田橋駅側', text: '飯田橋駅を最寄りに探す方は、駅からの徒歩分と無料体験で比べた飯田橋のピラティス比較ページが詳しいです。' },
+        ]} note="値は下の各スタジオカードと同じ公式サイトの表記（2026年10月確認）。" />
         <AreaConclusion studios={studios} areaName="神楽坂" />
 
 
@@ -567,7 +574,7 @@ export default function KagurazakaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  CLUB PILATESは無料体験を実施しています。ルルト飯田橋・神楽坂店は公式の店舗一覧で体験受付停止中と表示されています（公式サイトでご確認ください）。体験レッスンで実際の雰囲気をご確認ください。
+                  CLUB PILATES・Pilates Mee・Repilatesは無料体験を実施しています（the SILKも公式サイトで無料の体験予約を案内）。ルルト飯田橋・神楽坂店は公式の店舗一覧で体験受付停止中と表示されています（公式サイトでご確認ください）。体験レッスンで実際の雰囲気をご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

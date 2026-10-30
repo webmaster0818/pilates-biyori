@@ -8,6 +8,7 @@ import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
 import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { AreaConclusion } from '@/components/AreaConclusion'
+import { AreaQuickAnswer } from '@/components/AreaQuickAnswer'
 import { AreaModifierSections } from '@/components/AreaModifierSections'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
@@ -17,8 +18,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/iidabashi/' },
-  title: '飯田橋・神楽坂のピラティス5社を比較｜無料体験3社・駅すぐ・月額最安10,450円〜',
-  description: '飯田橋・神楽坂でピラティスの無料体験ができるスタジオを厳選しています。5社の料金・マシン対応・4路線からのアクセスを比較しています。初心者向けの選び方と全国211スタジオ調査に基づく料金相場もわかります。',
+  title: '飯田橋のピラティス5社を比較｜飯田橋駅徒歩1分が2社・無料体験3社・月4回10,450円〜',
+  description: '飯田橋駅から通えるピラティス5社を比較。駅徒歩1分はzen place（B4b出口）とRepilates（JR東口）、体験無料はCLUB PILATES・Repilates・Dr.ピラティスの3社、月4回は10,450円〜（各公式・2026年10月確認）。神楽坂駅側は神楽坂のページで比較しています。',
   keywords: 'ピラティス,飯田橋,神楽坂,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -213,10 +214,10 @@ export default function IidabashiPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月30日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス飯田橋・神楽坂おすすめ5選<br className="hidden md:block" />
-              料金・体験レッスン・マシン対応を比較
+              ピラティス飯田橋おすすめ5選<br className="hidden md:block" />
+              飯田橋駅からの徒歩分・料金・体験レッスンを比較
             </h1>
           </div>
         </section>
@@ -229,12 +230,18 @@ export default function IidabashiPage() {
               {' > '}
               <Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>
               {' > '}
-              <span className="text-warm-600">飯田橋・神楽坂</span>
+              <span className="text-warm-600">飯田橋</span>
             </nav>
           </div>
         </section>
         <section className="bg-white pt-6"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="border border-warm-300 bg-warm-50 px-4 py-3 text-sm text-warm-800 leading-relaxed">🔀 このページは<strong>飯田橋駅</strong>（JR・東西線・有楽町線・南北線・大江戸線）から通うスタジオの比較です。東西線の<strong>神楽坂駅</strong>・大江戸線の牛込神楽坂駅側（the SILK 神楽坂店・Pilates Meeなど）で探す方は<Link href="/area/kagurazaka/" className="underline decoration-warm-400 hover:text-warm-900 font-medium">神楽坂のピラティス比較</Link>をご覧ください。</p></div></section>
-        <AreaConclusion studios={studios} areaName="飯田橋・神楽坂" />
+        <AreaQuickAnswer areaName="飯田橋" rows={[
+          { label: '店舗数', text: '飯田橋駅から通えるスタジオを5社掲載しています。駅徒歩1分はzen place pilates 飯田橋スタジオ（メトロB4b出口・JR西口は徒歩3分）とRepilates 飯田橋神楽坂店（JR東口）。ルルト 飯田橋・神楽坂店はB1出口から徒歩6分、CLUB PILATES 神楽坂店は東西線神楽坂駅1A出口から徒歩30秒です。' },
+          { label: '料金', text: '月4回の目安は、zen place 10,450円〜（マットグループ）、Repilates・CLUB PILATES 14,190円（税表記なし）。マンツーマンはDr.ピラティス 月4回29,700円〜（45分）、ルルト 月4回38,400円（税込）です。' },
+          { label: '体験', text: 'CLUB PILATES（30分イントロクラス）・Repilates（期間限定・通常3,300円）・Dr.ピラティスが無料。zen placeはグループ体験 3,300円、ルルトは公式の店舗一覧で体験受付停止中と表示されています。' },
+          { label: '神楽坂駅側', text: '東西線神楽坂駅・大江戸線牛込神楽坂駅の近く（the SILK 神楽坂店・Pilates Mee 神楽坂・飯田橋店など6社）は、神楽坂のピラティス比較ページで比べられます。' },
+        ]} note="値は下の各スタジオカードと同じ公式サイトの表記（2026年10月確認）。" />
+        <AreaConclusion studios={studios} areaName="飯田橋" />
 
 
         <TableOfContents areaName="飯田橋・神楽坂" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />

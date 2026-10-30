@@ -15,8 +15,8 @@ import { AreaQuickAnswer } from '@/components/AreaQuickAnswer'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/denenchofu/' },
-  title: '田園調布のピラティススタジオおすすめ5選｜駅徒歩2分圏・料金で比較',
-  description: '田園調布のピラティススタジオ5社を、駅からの距離・月額料金・体験料金で比較しています。田園調布駅徒歩2分圏の4店と奥沢駅のパーソナル専門店まで、住所と料金は各公式サイトで確認した値（2026年10月16日確認）です。',
+  title: '田園調布のピラティス・マシンピラティス5選｜駅徒歩2分圏4社・体験0円3社・料金比較',
+  description: '田園調布のマシンピラティス5社を比較。駅徒歩2分圏に4社（Dr.ピラティス徒歩30秒ほか）、グループ月4回13,200円・セミパーソナル月2回11,000円〜・回数券1回2,850円〜、体験0円はTSUTAYA・Pilates Mee・Dr.ピラティスの3社（各公式・2026年10月確認）。',
   keywords: 'ピラティス,田園調布,奥沢,大田区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -118,10 +118,10 @@ export default function DenenchofuPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月26日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月30日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス田園調布おすすめ5選<br className="hidden md:block" />
-              人気スタジオの料金プランの比較
+              田園調布のピラティス・マシンピラティスおすすめ5選<br className="hidden md:block" />
+              駅徒歩2分圏の料金・体験レッスンを比較
             </h1>
           </div>
         </section>
