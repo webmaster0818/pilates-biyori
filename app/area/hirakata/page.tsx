@@ -63,7 +63,7 @@ const studios = [
     trial: '体験レッスン 3,000円',
     features: ['少人数制（4名以下）', 'マシン＆マット', 'パーソナルあり', '枚方市駅近く'],
     description: 'パーソナルレッスンとグループレッスンの両方を提供しています。マシンとマット両方のピラティスが受けられ、4名以下の少人数制クラスで丁寧な指導が特徴です。',
-    access: '京阪本線「枚方市駅」徒歩圏内',
+    access: '京阪枚方市駅から徒歩3分（公式の店舗一覧）',
     address: '大阪府枚方市（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'グループレッスン',
@@ -90,10 +90,10 @@ const studios = [
     name: 'luluto（ルルト）枚方店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
     image: '/images/studios/luluto.webp',
     price: '月3回 29,700円〜',
-    trial: '体験レッスン 12,000円',
+    trial: '公式の店舗一覧で体験受付停止中と表示（公式サイトでご確認ください）',
     features: ['完全マンツーマン', '理学療法士監修', '高品質指導', 'カスタマイズ'],
     description: '全国展開の完全マンツーマンマシンピラティススタジオです。理学療法士が監修したプログラムで、実技試験に合格したプロフェッショナルなトレーナーが一人ひとりの体に合わせて指導しています。',
-    access: '京阪本線「枚方市駅」徒歩圏内',
+    access: '京阪枚方市駅から徒歩3分（公式の店舗一覧）',
     address: '大阪府枚方市岡東町14-50 三和ビル503',
     popularPlan: {
       name: 'マンスリー3（月3回）',
@@ -101,9 +101,8 @@ const studios = [
       price: '月3回 29,700円（税込）',
     },
     options: [
-      '月3回プラン（29,700円）',
-      '月4回プラン',
-      '体験レッスン（12,000円）',
+      '月3回 29,700円／月4回 38,400円／月6回 55,800円／月8回 72,000円（税込・公式の店舗ページ）',
+      '入会金 22,000円（体験当日入会で無料）',
       '完全個室',
     ],
     userProfile: {
@@ -111,7 +110,7 @@ const studios = [
       purpose: ['体の不調改善', '姿勢改善', 'ボディメイク', 'リハビリ'],
     },
     basicInfo: {
-      hours: '公式サイトでご確認ください',
+      hours: '9:00〜21:00（公式の店舗ページ・店舗により異なる場合あり）',
       closed: '不定休',
       facilities: ['リフォーマー', '完全個室', '更衣室'],
     },
@@ -378,7 +377,7 @@ export default function HirakataPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">無料〜12,000円</td>
+                    <td className="px-4 py-3">無料〜3,000円</td>
                   </tr>
                 </tbody>
               </table>
@@ -561,7 +560,7 @@ export default function HirakataPage() {
               体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜12,000円です。<br />
+              初回限定の体験レッスン無料〜3,000円です。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link

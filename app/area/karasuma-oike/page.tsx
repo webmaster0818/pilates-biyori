@@ -81,14 +81,14 @@ const studios = [
     name: 'ルルト 烏丸御池店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
     image: '/images/studios/luluto.webp',
     price: '月3回 29,700円〜',
-    trial: '体験レッスン 1,000円（通常12,000円）',
-    features: ['理学療法士監修', '女性専用', '烏丸御池徒歩3分', '全額返金保証'],
-    description: '理学療法士が監修する女性専用マシンピラティススタジオです。烏丸御池駅から徒歩3分です。STOTT PILATES公認インストラクターによる丁寧な指導です。「整えるピラティス」をテーマに、体験1,000円、満足できなければ全額返金保証です。',
+    trial: '公式の店舗一覧で体験受付停止中と表示（公式サイトでご確認ください）',
+    features: ['理学療法士監修', '男性も可（公式FAQ）', '烏丸御池徒歩3分', '月3回 29,700円〜'],
+    description: '理学療法士が監修するマンツーマンのマシンピラティススタジオです（公式FAQでは男性も利用可）。烏丸御池駅から徒歩3分です。烏丸御池店は公式の店舗一覧で体験受付停止中と表示されています（公式サイトでご確認ください）。',
     access: '京都市営地下鉄「烏丸御池駅」徒歩3分',
     address: '京都府京都市中京区東洞院通三条下ル三文字町200 ミックナカムラ303',
     popularPlan: {
       name: '月4回コース',
-      description: '理学療法士監修のマシンピラティスです。STOTT PILATES公認インストラクターが指導です。',
+      description: '理学療法士監修のマンツーマンのマシンピラティスです。',
       price: '月4回 38,400円（税込）',
     },
     options: [
@@ -99,11 +99,10 @@ const studios = [
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
-      genderRatio: '女性100%（女性専用）',
       purpose: ['姿勢改善', 'リハビリ', '体の不調改善', '健康維持'],
     },
     basicInfo: {
-      hours: '9:00〜21:00',
+      hours: '9:00〜21:00（公式の店舗ページ・店舗により異なる場合あり）',
       closed: '不定休',
       facilities: ['リフォーマー', 'キャデラック', 'チェア', '完全プライベート空間'],
     },
@@ -195,15 +194,15 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があれば問題ありません。CLUB PILATESとRintosullは無料体験を実施しています。ルルトは体験1,000円で全額返金保証付きです。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。CLUB PILATESとRintosullは無料体験を実施しています。ルルト烏丸御池店は公式の店舗一覧で体験受付停止中と表示されています（公式サイトでご確認ください）。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'CLUB PILATES、zen place、STUDIO IVYは男性も通えます。ルルトとRintosullは女性専用です。',
+    answer: 'CLUB PILATES、zen place、STUDIO IVYは男性も通えます。ルルトも公式FAQで男性も利用可としています。Rintosullは女性専用です。',
   },
   {
     question: '理学療法士の指導を受けられるスタジオは？',
-    answer: 'ルルト烏丸御池店は理学療法士が監修です。STOTT PILATES公認インストラクターが指導です。満足できなければ全額返金保証付きです。',
+    answer: 'ルルト烏丸御池店は理学療法士が監修するマンツーマンのスタジオです。',
   },
   {
     question: 'ヨガもやりたい場合は？',
@@ -556,7 +555,7 @@ export default function KarasumaOikePage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  CLUB PILATESとRintosullは無料体験を実施しています。ルルトは体験1,000円で全額返金保証付きです。
+                  CLUB PILATESとRintosullは無料体験を実施しています。ルルト烏丸御池店は公式の店舗一覧で体験受付停止中と表示されています（公式サイトでご確認ください）。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
