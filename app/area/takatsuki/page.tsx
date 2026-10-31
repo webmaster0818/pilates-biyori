@@ -294,7 +294,7 @@ export default function TakatsukiPage() {
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">1,000円〜7,000円</td>
+                    <td className="px-4 py-3">無料〜7,000円</td>
                   </tr>
                 </tbody>
               </table>

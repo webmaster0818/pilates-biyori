@@ -186,7 +186,7 @@ const faqs = [
   },
   {
     question: '枚方のピラティスの料金相場は？',
-    answer: 'グループ月4回で11,220円程度です。パーソナルレッスンは1回9,000円〜12,000円です。Pilates KASANEは1回3,025円〜とリーズナブルなグループレッスンもあります。',
+    answer: 'グループ月4回で11,220円程度です。パーソナル（ルルトのマンツーマン）は1回あたり9,000円〜9,900円です（月8回72,000円〜月3回29,700円・公式の店舗ページ）。Pilates KASANEは1回3,025円〜とリーズナブルなグループレッスンもあります。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -369,11 +369,11 @@ export default function HirakataPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">10,000円〜15,000円</td>
+                    <td className="px-4 py-3">11,220円〜（ピラティスK くずはモール店）</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回 8,000円〜12,000円</td>
+                    <td className="px-4 py-3">1回あたり 9,000円〜9,900円（ルルト）</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
