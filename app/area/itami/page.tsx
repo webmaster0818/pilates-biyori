@@ -36,11 +36,12 @@ const studios = [
     basicInfo: { hours: '公式の店舗ページに記載なし（レッスンスケジュールPDFで確認できます）', closed: '毎週日曜', facilities: ['水素水サーバー', 'ドライヤー付きパウダースペース', '更衣室', '鍵付きロッカー'] },
   },
   {
+    // 2026-10-31 公式トップ https://nekonobi.online/ で照合（旧: パーソナル制・体験あり・住所「伊丹市」のみ）
     name: '姿勢改善専門スタジオ ネコノビ', rating: 4.7, reviewCount: 35,
-    price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['阪急伊丹駅徒歩1分','神経整体×ピラティス','猫背改善','肩こり対応'],
+    price: '単発セッション 7,700円（公式トップの表記）', trial: '体験セッション 3,000円', features: ['阪急伊丹駅徒歩1分','神経整体×ピラティス','猫背改善','肩こり対応'],
     description: '阪急伊丹駅徒歩1分です。神経整体×ピラティスで猫背・反り腰・肩こり・腰痛などの慢性症状に対応する専門スタジオ',
-    access: '阪急伊丹線「伊丹駅」徒歩1分', address: '兵庫県伊丹市（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: '人気プラン', description: '阪急伊丹駅徒歩1分です。神経整体×ピラティスで猫背・反り腰・肩こり・腰痛な', price: 'パーソナル制（詳細は公式サイト）' },
+    access: '阪急伊丹駅 東出口から徒歩1分', address: '〒664-0851 兵庫県伊丹市中央4丁目1-2 山本不動産第拾ビル401',
+    popularPlan: { name: '体験セッション', description: '柔道整復師（医療系国家資格）保有の代表が担当する、ピラティス×整体のマンツーマンセッションです。', price: '3,000円' },
     options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
     userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
@@ -120,13 +121,13 @@ const studios = [
 const faqs = [
   { question: 'ピラティス初心者でも大丈夫ですか？', answer: '問題ありません。伊丹エリアのスタジオはほとんどが初心者歓迎です。体験レッスンから気軽に始められます。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷を調整しやすく、初心者におすすめです。' },
-  { question: '伊丹のピラティスの料金相場は？', answer: 'グループ月4回で10,000円〜15,000円程度です。パーソナルは1回 8,000円〜15,000円が目安です。' },
+  { question: '伊丹のピラティスの料金相場は？', answer: '本ページの掲載店の公式表記では、マシンのグループ月4回がRintosull イオンモール伊丹店で8,800円、最大3名のセミパーソナル月4回がPilates Mee 伊丹店で19,800円です。パーソナルはemovereの50分 2回15,200円〜（1回あたり7,600円〜）、ネコノビの単発セッション7,700円が目安です（いずれも税込・2026年10月31日確認、emovereは店舗回答）。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。大切なのは継続することです。' },
   { question: 'ピラティスで痩せますか？', answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。靴下（滑り止め付き推奨）も用意しておくと安心です。' },
   { question: 'ピラティスとヨガの違いは何ですか？', answer: 'ピラティスは体幹強化・姿勢改善に特化しています。ヨガは柔軟性とリラックス重視です。目的に合わせてお選びください。' },
   { question: '男性でも通えるスタジオはありますか？', answer: '伊丹エリアには男性利用可のスタジオもあります。各スタジオの詳細は公式サイトでご確認ください。' },
-  { question: '無料で体験できるスタジオは？', answer: '各スタジオの最新キャンペーン情報を公式サイトでご確認ください。無料体験を実施しているスタジオもあります。' },
+  { question: '無料で体験できるスタジオは？', answer: 'Rintosull イオンモール伊丹店の体験会（約45分）とPilates Mee 伊丹店の体験レッスンが0円、emovereも無料体験ありと案内されています。ネコノビの体験セッションは3,000円です（2026年10月31日確認、emovereは店舗回答）。' },
   { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。最低2ヶ月は継続することをおすすめします。' },
 ]
 
@@ -141,9 +142,20 @@ export default function ItamiPage() {
         { name: '伊丹', url: 'https://biyori-pilates.com/area/itami/' },
       ]} />
       <main className="pt-20 bg-white">
-        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年10月25日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">ピラティス伊丹おすすめ6選<br className="hidden md:block" />料金・体験レッスン・マシン対応を比較</h1></div></section>
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年10月31日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">ピラティス伊丹おすすめ6選<br className="hidden md:block" />料金・体験レッスン・マシン対応を比較</h1></div></section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">伊丹</span></nav></div></section>
         <section className="bg-white pt-6"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="border border-warm-300 bg-warm-50 px-4 py-3 text-sm text-warm-800 leading-relaxed">🔀 このページは伊丹市全体（JR伊丹駅直結のRintosull イオンモール伊丹店・駐車場を含む）の比較です。<strong>阪急伊丹駅から歩けるスタジオ</strong>だけを料金つきで一覧にしたページは<Link href="/area/hankyu-itami/" className="underline decoration-warm-400 hover:text-warm-900 font-medium">阪急伊丹のピラティス</Link>です。</p></div></section>
+        {/* 2026-10-31 自社カニバリ「マシンピラティス 伊丹」imp67（itami 42.6位／hankyu-itami 70.8位）: 主ページは本ページ。冒頭にマシンピラティスの答え（料金・体験・駅）。値は各公式ページ（10/31確認）と先方回答（emovere 2026-09-25・10-01）のみ */}
+        <section className="bg-white pt-6" id="machine-pilates-itami"><div className="max-w-4xl mx-auto px-6 lg:px-8"><div className="border border-warm-200 rounded-lg p-5">
+          <h2 className="text-lg font-bold text-warm-900 mb-2">伊丹でマシンピラティスができるスタジオ（要点）</h2>
+          <p className="text-sm text-warm-700 leading-relaxed mb-3">リフォーマーなどの専用マシンを使うマシンピラティスは、伊丹ではJR伊丹駅直結のRintosull（グループ）と、阪急伊丹駅近くのPilates Mee（最大3名のセミパーソナル）・emovere（パーソナル）で受けられます。月4回で比べると、グループのRintosullが8,800円、セミパーソナルのPilates Meeが19,800円です（税込）。</p>
+          <div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-50 text-warm-800"><th className="px-3 py-2 text-left">スタジオ</th><th className="px-3 py-2 text-left">形式</th><th className="px-3 py-2 text-left">料金（税込）</th><th className="px-3 py-2 text-left">体験</th><th className="px-3 py-2 text-left">駅</th></tr></thead><tbody className="text-warm-700">
+            <tr className="border-b border-warm-100"><td className="px-3 py-2">Rintosull イオンモール伊丹店</td><td className="px-3 py-2">グループ・女性専用</td><td className="px-3 py-2">月4回 8,800円／通い放題 13,800円〜（別途運営管理費 月680円）</td><td className="px-3 py-2">体験会 0円</td><td className="px-3 py-2">JR伊丹駅 デッキ直結 徒歩1分</td></tr>
+            <tr className="border-b border-warm-100"><td className="px-3 py-2">Pilates Mee 伊丹店</td><td className="px-3 py-2">セミパーソナル（最大3名）・女性専用</td><td className="px-3 py-2">月2回 11,000円／月4回 19,800円／通い放題 37,500円</td><td className="px-3 py-2">体験レッスン 0円</td><td className="px-3 py-2">阪急伊丹駅 徒歩3分（JR伊丹駅 徒歩7分）</td></tr>
+            <tr className="border-b border-warm-100"><td className="px-3 py-2">emovere（エモベーレ）</td><td className="px-3 py-2">パーソナル・男女利用可</td><td className="px-3 py-2">25分 2回 8,000円〜／50分 2回 15,200円〜（回数券）</td><td className="px-3 py-2">無料体験あり</td><td className="px-3 py-2">阪急伊丹駅 徒歩圏</td></tr>
+          </tbody></table></div>
+          <p className="text-xs text-warm-500 mt-3 leading-relaxed">出典: <a href="https://rintosull.jp/shop/hyogo/aeon_itami/" target="_blank" rel="noopener noreferrer" className="underline">Rintosull公式 イオンモール伊丹店</a>・<a href="https://m-pilates.com/shop/hyogo/itami/" target="_blank" rel="noopener noreferrer" className="underline">Pilates Mee公式 伊丹店</a>（いずれも2026年10月31日確認）／emovereは店舗からの回答（2026年9月25日・10月1日）。阪急伊丹駅から歩けるスタジオだけの一覧は<Link href="/area/hankyu-itami/" className="underline">阪急伊丹のピラティス</Link>です。</p>
+        </div></div></section>
         <AreaConclusion studios={studios} areaName="伊丹" />
 
         <TableOfContents areaName="伊丹" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
@@ -204,7 +216,7 @@ export default function ItamiPage() {
                 <ul className="space-y-2 text-sm"><li className="text-warm-700">• STAR Pilates（女性専用）</li></ul>
               </div>
             </div></div></section>
-        <section className="py-16 bg-warm-50" id="price-market"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">伊丹のピラティス料金相場</h2><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">種別</th><th className="px-4 py-3 text-left">料金相場</th></tr></thead><tbody><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4回）</td><td className="px-4 py-3">10,000円〜15,000円</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">パーソナルレッスン</td><td className="px-4 py-3">1回 8,000円〜15,000円</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">無料〜5,000円</td></tr></tbody></table></div><p className="text-warm-600 mt-4 text-sm leading-relaxed">伊丹は阪急・JRの2路線が利用可能で、大阪梅田まで約20分のアクセスです。イオンモール伊丹内のRintosullは駅徒歩1分で買い物ついでに通える便利さが魅力です。姿勢改善に特化したネコノビなど個性的なスタジオもあります。</p></div></section>
+        <section className="py-16 bg-warm-50" id="price-market"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">伊丹のピラティス料金相場</h2><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">種別</th><th className="px-4 py-3 text-left">料金相場</th></tr></thead><tbody><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">マシンのグループ（月4回）</td><td className="px-4 py-3">8,800円（Rintosull）</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">セミパーソナル・最大3名（月4回）</td><td className="px-4 py-3">19,800円（Pilates Mee）</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">パーソナル（1回あたり）</td><td className="px-4 py-3">7,600円〜11,000円（emovere 50分・ネコノビ単発・Pilates Mee パーソナル）</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">無料〜3,000円</td></tr></tbody></table></div><p className="text-xs text-warm-500 mt-2">本ページの掲載店の公式表記（税込・2026年10月31日確認、emovereは店舗回答）から作成しています。</p><p className="text-warm-600 mt-4 text-sm leading-relaxed">伊丹は阪急・JRの2路線が利用可能で、大阪梅田まで約20分のアクセスです。イオンモール伊丹内のRintosullは駅徒歩1分で買い物ついでに通える便利さが魅力です。姿勢改善に特化したネコノビなど個性的なスタジオもあります。</p></div></section>
         <section className="py-16 bg-white" id="cautions"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">伊丹でスタジオを選ぶ際の注意点</h2><div className="space-y-6">
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">阪急伊丹駅とJR伊丹駅は離れている</h3>
