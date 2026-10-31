@@ -621,7 +621,7 @@ export default function YokohamaPage() {
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">パーソナルレッスン</h3>
                   <p className="text-3xl font-bold text-warm-800 mb-2">6,600円〜/回</p>
-                  <p className="text-sm text-warm-600">ピラティス&ジム 1to1は40分1回6,600円〜と横浜エリア最安クラスです。ルルト横浜店は完全パーソナルで理学療法士監修のプログラムです。体験は公式の店舗一覧で受付停止中と表示されています（2026年10月30日確認・公式サイトでご確認ください）。</p>
+                  <p className="text-sm text-warm-600">ピラティス&ジム 1to1は40分1回6,600円〜と横浜エリア最安クラスです。ルルト横浜店は完全パーソナルで理学療法士監修のプログラムです。体験は公式の店舗一覧で受付停止中と表示されています（2026年10月31日確認・公式サイトでご確認ください）。</p>
                 </div>
               </div>
               <div className="bg-white rounded-lg p-5 border border-warm-200">
