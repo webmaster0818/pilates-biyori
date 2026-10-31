@@ -267,7 +267,7 @@ export default function AkasakaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年10月25日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               赤坂のピラティスおすすめ6選<br className="hidden md:block" />
               赤坂駅・赤坂見附駅からの徒歩分・体験料金で比較

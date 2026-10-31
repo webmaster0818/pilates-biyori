@@ -128,7 +128,7 @@ export default function IzumiPage() {
         { name: '和泉', url: 'https://biyori-pilates.com/area/izumi/' },
       ]} />
       <main className="pt-20 bg-white">
-        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年10月26日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">ピラティス和泉中央駅・和泉府中駅おすすめ8選<br className="hidden md:block" />料金・体験レッスン・マシン対応を比較</h1></div></section>
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">ピラティス和泉中央駅・和泉府中駅おすすめ8選<br className="hidden md:block" />料金・体験レッスン・マシン対応を比較</h1></div></section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">和泉</span></nav></div></section>
         <AreaQuickAnswer areaName="和泉府中・和泉中央" rows={[
           { label: '和泉府中', text: 'JR和泉府中駅から歩けるのは2社。Rintosull 和泉府中店（東口徒歩2分・2026年10月1日オープン・女性専用・マシンのグループ）とstudio MUER（徒歩4分・マシンのマンツーマン）です。' },

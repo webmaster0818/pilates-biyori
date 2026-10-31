@@ -8,7 +8,7 @@ tags:
   - "費用対効果"
   - "スタジオ比較"
 publishedAt: "2026-03-30"
-updatedAt: "2026-10-15"
+updatedAt: "2026-11-01"
 author: "編集部"
 keywords:
   - "ピラティス 料金 相場"
