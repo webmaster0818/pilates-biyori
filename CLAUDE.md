@@ -1268,3 +1268,10 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - brands-aggregate は DEP 16件・ルルト該当件だけ手で差し替え（aggregate スクリプトは再実行していない）
 - sitemap: area-studios.ts/テンプレ変更で全ブランド・the SILK/BDC 店舗頁が今日になったため /brands/・dep・luluto 以外を旧値に戻した（public・out・deploy）。precheck ✅ 589頁・計測リンク deploy 3,798→3,798（274種）・functions/api 4本保全
 - 未対応: yokkaichi の DEP・Pilates Days、長野/富山/豊橋/姫路のルルトの rating/reviewCount（出所不明）／横浜頁「体験レッスンは無料〜3,000円程度」（1号5,000・2号土日5,000 と不一致。wip の隣接行のため 10/31 以降）／高槻 相場の体験「1,000円〜7,000円」（無料の店がある）／仙台 Calm 仙台東口店・金沢 鳴和・小倉 城野は未掲載（本文で言及のみ）
+
+### 2026-10-31 12:00 成長ルーチン: LAVA title・横浜/高槻/枚方の相場表記（source adf322f6 / deploy c64a6ea606）
+- LAVA: brands.ts に `nameKana: 'ラバ'`・`titleSuffix: '｜公式81店舗・体験0円'`（10/24 新設から7日ルール明け）。公式 machinepilates.html を 10/31 に再取得＝studioNameRoman 81件（data/lava-machine-pilates-official-stores.ts と一致）。次の title 変更は 11/7 以降
+- 横浜: FAQ・本文・CTA の体験「無料〜3,000円」→カードどおり（多くは無料〜1,000円・ルルト横浜2号 土日祝5,000円・1号は停止中表示）
+- 高槻: 相場表の体験 1,000〜7,000→無料〜7,000円（Dr.ピラティス・24/7 無料）
+- 枚方: パーソナル相場（FAQ 9,000〜12,000・表 8,000〜12,000 とも出所なし）→ルルト1回あたり9,000〜9,900円（月8回72,000〜月3回29,700円）、表のグループ 10,000〜15,000→11,220円〜（ピラティスK）
+- sitemap: ビルドで74件が今日に→枚方・高槻・LAVA 以外をビルド前の値に戻した（public・out）。precheck ✅ 589頁・計測リンク 3,798→3,798・functions/api 4本保全
