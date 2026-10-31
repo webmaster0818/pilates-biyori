@@ -329,9 +329,8 @@ export default function UmedaPage() {
                   月額12,000円以下で通える格安スタジオです。体験レッスン無料のスタジオも多数あります。費用を抑えたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Pilates Studio Harmony 梅田</li>
-                  <li className="text-warm-700">• Reformer Pilates Umeda</li>
-                  <li className="text-warm-700">• FLOW PILATES 梅田</li>
+                  <li className="text-warm-700">• zen place pilates 梅田スタジオ（マットグループ月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• DAYS PILATES 梅田店（月3回 11,180円）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -350,7 +349,7 @@ export default function UmedaPage() {
                   梅田駅から徒歩3分以内です。大阪最大のターミナルで、グランフロント・阪急百貨店の近くです。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Urban Pilates 梅田（駅徒歩1分）</li>
+                  <li className="text-warm-700">• DAYS PILATES 梅田店（東梅田駅徒歩2分）</li>
                   <li className="text-warm-700">• the SILK 大阪梅田店（駅徒歩3分）</li>
                   <li className="text-warm-700">• zen place pilates 梅田（駅徒歩3分）</li>
                 </ul>
@@ -396,8 +395,8 @@ export default function UmedaPage() {
                   グループレッスンが中心です。初心者向けの基本的なレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Pilates Studio Harmony</li>
-                  <li>• Reformer Pilates</li>
+                  <li>• zen place pilates（マットグループ 10,450円〜）</li>
+                  <li>• DAYS PILATES（月4回 12,060円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -420,8 +419,7 @@ export default function UmedaPage() {
                   完全プライベートレッスンです。短期集中で成果を目指したい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• B-line（1回8,800円）</li>
-                  <li>• Pilates Lab</li>
+                  <li>• Dr.ピラティス 梅田店（60分 月4回 40,380円）</li>
                   <li>• ピラティスアヴニール 梅田中津店・福島店（60分 月4回 35,200円〜）</li>
                 </ul>
               </div>
@@ -495,7 +493,7 @@ export default function UmedaPage() {
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">パーソナル・プライベートレッスン</h3>
                   <p className="text-3xl font-bold text-warm-800 mb-2">8,000円〜12,000円/回</p>
-                  <p className="text-sm text-warm-600">梅田エリアのプライベートレッスン相場は1回8,000円〜12,000円程度です。Studio Venusは完全パーソナルで個室対応しています。zen placeはプライベートとグループの併用も可能で柔軟な利用ができます。ピラティスアヴニール（梅田中津店・福島店）は完全個室マンツーマンで、30分1回5,170円〜・60分1回9,350円〜です（税込・担当トレーナーのランクにより異なります）。</p>
+                  <p className="text-sm text-warm-600">梅田エリアのプライベートレッスン相場は1回8,000円〜12,000円程度です。zen placeはプライベートとグループの併用も可能で柔軟な利用ができます。ピラティスアヴニール（梅田中津店・福島店）は完全個室マンツーマンで、30分1回5,170円〜・60分1回9,350円〜です（税込・担当トレーナーのランクにより異なります）。</p>
                 </div>
               </div>
               <div className="bg-white rounded-lg p-5 border border-warm-200">

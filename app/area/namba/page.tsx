@@ -321,9 +321,7 @@ export default function NambaPage() {
                   月額12,000円以下で通える格安スタジオです。体験レッスン無料のスタジオも多数あります。費用を抑えたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Pilates Studio Harmony なんば</li>
-                  <li className="text-warm-700">• Reformer Pilates Namba</li>
-                  <li className="text-warm-700">• FLOW PILATES なんば</li>
+                  <li className="text-warm-700">• 掲載2店に月額12,000円以下のプランはありません（最安はピラティスK なんば 月4回 15,070円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -332,7 +330,7 @@ export default function NambaPage() {
                   なんば駅から徒歩3分以内です。道頓堀・心斎橋に隣接し、ショッピングや食事も楽しめます。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Urban Pilates なんば（駅徒歩1分）</li>
+                  <li className="text-warm-700">• 掲載2店で徒歩3分以内を確認できた店舗はありません（ピラティスK なんばは駅徒歩5分）</li>
                 </ul>
               </div>
             </div>
@@ -376,8 +374,7 @@ export default function NambaPage() {
                   グループレッスンが中心です。初心者向けの基本的なレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Pilates Studio Harmony</li>
-                  <li>• Reformer Pilates</li>
+                  <li>• 掲載2店に該当プランはありません</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -398,8 +395,7 @@ export default function NambaPage() {
                   完全プライベートレッスンです。短期集中で成果を目指したい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• B-line（1回8,800円）</li>
-                  <li>• Pilates Lab</li>
+                  <li>• Dr.ピラティス なんば店（60分 月4回 39,600円〜）</li>
                 </ul>
               </div>
             </div>

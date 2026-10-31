@@ -349,9 +349,7 @@ export default function UenoPage() {
                   月額12,000円以下で通える格安スタジオです。体験レッスン無料のスタジオも多数あります。費用を抑えたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Pilates Studio Harmony 上野</li>
-                  <li className="text-warm-700">• Reformer Pilates Ueno</li>
-                  <li className="text-warm-700">• FLOW PILATES 上野</li>
+                  <li className="text-warm-700">• zen place pilates 上野スタジオ（マットグループ月4回 10,450円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -370,7 +368,8 @@ export default function UenoPage() {
                   上野駅から徒歩3分以内です。美術館巡りや観光のついでに通いやすい好立地なスタジオです。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Urban Pilates 上野（駅徒歩1分）</li>
+                  <li className="text-warm-700">• the SILK 上野店（京成上野駅・上野広小路駅 徒歩1分）</li>
+                  <li className="text-warm-700">• 24/7ピラティス 上野店（上野広小路駅 徒歩2分）</li>
                   <li className="text-warm-700">• zen place pilates 上野（駅徒歩3分）</li>
                 </ul>
               </div>
@@ -415,8 +414,7 @@ export default function UenoPage() {
                   グループレッスンが中心です。初心者向けの基本的なレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Pilates Studio Harmony</li>
-                  <li>• Reformer Pilates</li>
+                  <li>• zen place pilates（マットグループ 10,450円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -438,8 +436,7 @@ export default function UenoPage() {
                   完全プライベートレッスンです。短期集中で成果を目指したい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• B-line（1回8,800円）</li>
-                  <li>• Pilates Lab</li>
+                  <li>• 掲載3店に月4回30,000円以上のプランはありません（完全個室マンツーマンは 24/7ピラティス 上野店 月4回 27,000円〜）</li>
                 </ul>
               </div>
             </div>

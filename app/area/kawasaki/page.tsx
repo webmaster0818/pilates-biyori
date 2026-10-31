@@ -612,7 +612,6 @@ export default function KawasakiPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• STUZIO ONCE（1回8,800円〜）</li>
-                  <li>• Pilates Lab</li>
                 </ul>
               </div>
             </div>

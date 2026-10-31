@@ -396,9 +396,8 @@ export default function ShinsaibashiPage() {
                   月額12,000円以下で通える格安スタジオです。体験レッスン無料のスタジオも多数あります。費用を抑えたい方におすすめです。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Pilates Studio Harmony 心斎橋</li>
-                  <li className="text-warm-700">• Reformer Pilates Shinsaibashi</li>
-                  <li className="text-warm-700">• FLOW PILATES 心斎橋</li>
+                  <li className="text-warm-700">• zen place pilates 心斎橋スタジオ（マットグループ月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• DAYS PILATES 心斎橋店（月3回 11,180円）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -416,7 +415,7 @@ export default function ShinsaibashiPage() {
                   心斎橋駅から徒歩3分以内です。御堂筋沿い、なんば・道頓堀へ徒歩圏し、ショッピングや食事も楽しめます。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• Urban Pilates 心斎橋（駅徒歩1分）</li>
+                  <li className="text-warm-700">• DAYS PILATES 心斎橋店（駅徒歩2分）</li>
                   <li className="text-warm-700">• zen place pilates 心斎橋（駅徒歩3分）</li>
                 </ul>
               </div>
@@ -461,8 +460,8 @@ export default function ShinsaibashiPage() {
                   グループレッスンが中心です。初心者向けの基本的なレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• Pilates Studio Harmony</li>
-                  <li>• Reformer Pilates</li>
+                  <li>• zen place pilates（マットグループ 10,450円〜）</li>
+                  <li>• DAYS PILATES（月4回 12,060円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -484,8 +483,7 @@ export default function ShinsaibashiPage() {
                   完全プライベートレッスンです。短期集中で成果を目指したい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• B-line（1回8,800円）</li>
-                  <li>• Pilates Lab</li>
+                  <li>• Dr.ピラティス 心斎橋店（60分 月4回 39,600円〜）</li>
                 </ul>
               </div>
             </div>
