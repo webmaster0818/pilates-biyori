@@ -81,10 +81,10 @@ const studios = [
   {
     name: 'ピラティスミラー 笹塚',
     image: '\/images\/studios\/pilates-mirror.webp',
-    price: '月額 11,000円（月6回）',
-    trial: '体験レッスン 2,200円',
+    price: '月額 12,100円（月6回）',
+    trial: '体験レッスン 0円',
     features: ['女性専用', '笹塚駅徒歩4分', 'コナミ運営', '30分レッスン'],
-    description: 'コナミスポーツが運営する女性専用マシンピラティススタジオです。笹塚駅から徒歩4分です。「もっと鏡が見たくなる」をコンセプトに、鏡を効果的に活用したレッスンです。30分の短時間レッスンで最大6名の少人数制です。月額11,000円で月6回まで利用可能です。',
+    description: 'コナミスポーツが運営する女性専用マシンピラティススタジオです。笹塚駅から徒歩4分です。「もっと鏡が見たくなる」をコンセプトに、鏡を効果的に活用したレッスンです。30分の短時間レッスンで最大6名の少人数制です。月額12,100円で月6回まで利用可能です。',
     access: '京王線「笹塚駅」徒歩4分',
     address: '東京都渋谷区笹塚エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
@@ -176,7 +176,7 @@ const faqs = [
   },
   {
     question: '笹塚のピラティスの料金相場は？',
-    answer: 'グループ月4回で10,450円〜13,090円程度です。ピラティスミラーは月額11,000円で月6回です。ELEMENTのパーソナルは月4回22,000円〜です。',
+    answer: 'グループ月4回で10,450円〜13,090円程度です。ピラティスミラーは月額12,100円で月6回です。ELEMENTのパーソナルは月4回22,000円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -423,7 +423,7 @@ export default function SasazukaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates 笹塚スタジオ（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• ピラティスミラー 笹塚（月額 11,000円（月6回））</li>
+                  <li className="text-warm-700">• ピラティスミラー 笹塚（月額 12,100円（月6回））</li>
                   <li className="text-warm-700">• CLUB PILATES 笹塚店（月4回 13,090円）</li>
                 </ul>
               </div>
@@ -547,7 +547,7 @@ export default function SasazukaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  体験料金は、zen place pilates 笹塚スタジオが「グループ体験 1,000円（初回・マットグループ）」、CLUB PILATES 笹塚店が「体験レッスン 無料（30分イントロクラス）」、ピラティスミラー 笹塚が「体験レッスン 2,200円」、ELEMENT 笹塚A1店が「体験レッスン 無料」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
+                  体験料金は、zen place pilates 笹塚スタジオが「グループ体験 1,000円（初回・マットグループ）」、CLUB PILATES 笹塚店が「体験レッスン 無料（30分イントロクラス）」、ピラティスミラー 笹塚が「体験レッスン 0円」、ELEMENT 笹塚A1店が「体験レッスン 無料」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

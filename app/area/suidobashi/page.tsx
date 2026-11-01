@@ -24,10 +24,10 @@ const studios = [
   {
     name: 'ピラティスミラー 後楽園',
     image: '/images/studios/pilates-mirror.webp',
-    price: '月会費 11,000円（月6回まで）',
-    trial: '体験レッスン 2,200円',
+    price: '月会費 12,100円（月6回まで）',
+    trial: '体験レッスン 0円',
     features: ['コナミ運営', '春日駅徒歩1分', '月6回定額', '天井鏡設計'],
-    description: 'コナミスポーツクラブが運営するマシンピラティス専門スタジオです。春日駅A3口から徒歩1分、後楽園駅5番口から徒歩2分です。天井に鏡を設置した特徴的な設計で、自分のフォームを確認しながらレッスンできます。月6回11,000円、7回目以降は1回1,100円で追加利用可能です。最大6名の少人数制です。公式の店舗ページには2026年10月24日時点で「只今、ご入会をお待ちいただいております」と表示されています（入会待ち）。',
+    description: 'コナミスポーツクラブが運営するマシンピラティス専門スタジオです。春日駅A3口から徒歩1分、後楽園駅5番口から徒歩2分です。天井に鏡を設置した特徴的な設計で、自分のフォームを確認しながらレッスンできます。月6回12,100円、7回目以降は1回1,100円で追加利用可能です。最大6名の少人数制です。公式の店舗ページには2026年10月24日時点で「只今、ご入会をお待ちいただいております」と表示されています（入会待ち）。',
     access: '都営三田線・大江戸線「春日駅」A3口 徒歩1分 / 丸ノ内線・南北線「後楽園駅」5番口 徒歩2分',
     address: '東京都文京区小石川1-1-18 文京ガーデン ザ サウス1階101',
     popularPlan: {
@@ -368,7 +368,7 @@ const faqs = [
   },
   {
     question: '水道橋エリアの料金相場は？',
-    answer: '公式で確認できたグループ月4回は8,580円（URBAN CLASSIC 飯田橋）〜13,420円（ピラティスK 神保町）で、ピラティスミラー 後楽園は月6回11,000円です。パーソナルはSTUDIO IVYが1レッスン6,500円〜、ゼロ 神保町が月4回37,200円です（いずれも2026年10月24日確認）。chocoZAPなら月額3,278円でセルフ式ピラティスが利用できます。体験は0円〜4,400円です。',
+    answer: '公式で確認できたグループ月4回は8,580円（URBAN CLASSIC 飯田橋）〜13,420円（ピラティスK 神保町）で、ピラティスミラー 後楽園は月6回12,100円です。パーソナルはSTUDIO IVYが1レッスン6,500円〜、ゼロ 神保町が月4回37,200円です（いずれも2026年10月24日確認）。chocoZAPなら月額3,278円でセルフ式ピラティスが利用できます。体験は0円〜4,400円です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -494,7 +494,7 @@ export default function SuidobashiPage() {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-3 py-3">ピラティスミラー 後楽園（18歳以上の女性・入会待ち）</td><td className="px-3 py-3">春日駅A3口 徒歩1分／後楽園駅5番口 徒歩2分</td><td className="px-3 py-3">2,200円（税込・1人1回）</td><td className="px-3 py-3">入会金 11,000円（税込）</td><td className="px-3 py-3">毎週金曜日</td></tr>
+                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-3 py-3">ピラティスミラー 後楽園（18歳以上の女性・入会待ち）</td><td className="px-3 py-3">春日駅A3口 徒歩1分／後楽園駅5番口 徒歩2分</td><td className="px-3 py-3">0円（1人1回）</td><td className="px-3 py-3">入会金 11,000円（税込）</td><td className="px-3 py-3">毎週金曜日</td></tr>
                   <tr className="border-b border-warm-200"><td className="px-3 py-3">STUDIO IVY 後楽園店（パーソナル）</td><td className="px-3 py-3">後楽園駅（徒歩分の記載なし）</td><td className="px-3 py-3">4,500円→0円（キャンペーン）</td><td className="px-3 py-3">入会金＋事務手数料 23,300円→体験当日の入会で0円</td><td className="px-3 py-3">記載なし</td></tr>
                   <tr className="border-b border-warm-200 bg-warm-50"><td className="px-3 py-3">zen place pilates 神保町（男女共用）</td><td className="px-3 py-3">神保町駅A7出口 徒歩1分</td><td className="px-3 py-3">マット初回1,000円／マシン初回3,000円</td><td className="px-3 py-3">入会金 22,000円（グレード02・当日入会で無料）</td><td className="px-3 py-3">記載なし（平日8:55〜22:00・土日祝8:00〜20:00）</td></tr>
                   <tr className="border-b border-warm-200"><td className="px-3 py-3">pilates K 神保町店（女性専用）</td><td className="px-3 py-3">神保町駅 徒歩2分</td><td className="px-3 py-3">0円</td><td className="px-3 py-3">初期費用 13,530円（入会金・登録料・施設利用料）</td><td className="px-3 py-3">月曜日</td></tr>
@@ -653,7 +653,7 @@ export default function SuidobashiPage() {
                   <li className="text-warm-700">• chocoZAP（月額3,278円・ピラティス込み）</li>
                   <li className="text-warm-700">• URBAN CLASSIC 飯田橋（月4回 税込8,580円〜）</li>
                   <li className="text-warm-700">• zen place 飯田橋/神保町（マット月4回 10,450円／9,625円）</li>
-                  <li className="text-warm-700">• ピラティスミラー後楽園（月6回 11,000円）</li>
+                  <li className="text-warm-700">• ピラティスミラー後楽園（月6回 12,100円）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -738,7 +738,7 @@ export default function SuidobashiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  pilates K・URBAN CLASSIC・Rintosull・STUDIO IVY（キャンペーン）は0円、zen placeはマットグループの初回1,000円、ピラティスミラーは2,200円で体験できます（2026年10月24日確認）。まずは2〜3スタジオの体験を比較するのがおすすめです。
+                  pilates K・URBAN CLASSIC・Rintosull・STUDIO IVY（キャンペーン）は0円、zen placeはマットグループの初回1,000円、ピラティスミラーは0円で体験できます（2026年11月1日確認）。まずは2〜3スタジオの体験を比較するのがおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

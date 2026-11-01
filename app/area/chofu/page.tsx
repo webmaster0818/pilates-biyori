@@ -26,10 +26,10 @@ const studios = [
   {
     name: 'ピラティスミラー 調布',
     image: '/images/studios/pilates-mirror.webp',
-    price: '月6回 11,000円',
-    trial: '体験レッスン 2,200円',
+    price: '月6回 12,100円',
+    trial: '体験レッスン 0円',
     features: ['コナミ運営', '月6回プラン', 'プライベート30分4,400円', '調布駅近'],
-    description: 'スポーツクラブ大手コナミが運営するピラティススタジオです。月6回11,000円のリーズナブルな価格設定で、無理なく通い続けられます。プライベートレッスンは30分4,400円で、一人ひとりの体の状態に合わせた丁寧な指導を受けられます。大手ならではの充実した設備と安定したサービス品質が魅力です。初心者から経験者まで幅広いレベルに対応しています。',
+    description: 'スポーツクラブ大手コナミが運営するピラティススタジオです。月6回12,100円のリーズナブルな価格設定で、無理なく通い続けられます。プライベートレッスンは30分4,400円で、一人ひとりの体の状態に合わせた丁寧な指導を受けられます。大手ならではの充実した設備と安定したサービス品質が魅力です。初心者から経験者まで幅広いレベルに対応しています。',
     access: '京王線「調布駅」から徒歩圏内',
     address: '東京都調布市小島町（詳細は公式サイトでご確認ください）',
     popularPlan: {
@@ -152,7 +152,7 @@ const faqs = [
   },
   {
     question: '調布のピラティスの料金相場は？',
-    answer: 'ピラティスミラー調布は月6回11,000円、Rintosull調布店はプレミアム フリー・フルタイム月16,800円（税込）、ELEMENT調布店は通い放題で1回2,750円〜です。目的と頻度に合わせてお選びください。',
+    answer: 'ピラティスミラー調布は月6回12,100円、Rintosull調布店はプレミアム フリー・フルタイム月16,800円（税込）、ELEMENT調布店は通い放題で1回2,750円〜です。目的と頻度に合わせてお選びください。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -164,11 +164,11 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があれば問題ありません。ピラティスミラー調布は体験2,200円、Rintosull調布店は体験無料キャンペーン実施中です。まずは体験レッスンへの参加をおすすめします。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。ピラティスミラー調布は体験0円、Rintosull調布店は体験無料キャンペーン実施中です。まずは体験レッスンへの参加をおすすめします。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'ピラティスミラー調布、ELEMENT調布店は男性も通えます。Rintosull調布店は女性専用です。',
+    answer: 'ELEMENT調布店は男性も通えます。ピラティスミラー調布（18歳以上の女性専用）とRintosull調布店は女性専用です。',
   },
   {
     question: '調布駅からのアクセスは？',
@@ -398,7 +398,7 @@ export default function ChofuPage() {
                 <p className="text-warm-600 text-sm mb-4">月額1万円台から始めることをおすすめします。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li>
-                  <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
+                  <li className="text-warm-700">• ピラティスミラー（月6回 12,100円）</li>
                   <li className="text-warm-700">• ELEMENT（1回 2,750円〜 / 通い放題）</li>
                 </ul>
               </div>
@@ -429,7 +429,7 @@ export default function ChofuPage() {
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週1〜2回からスタートするのがおすすめです。最低2〜3ヶ月継続することで効果を実感できます。ピラティスミラー調布の月6回プラン（11,000円）なら週1〜2回ペースで無理なく始められます。
+                週1〜2回からスタートするのがおすすめです。最低2〜3ヶ月継続することで効果を実感できます。ピラティスミラー調布の月6回プラン（12,100円）なら週1〜2回ペースで無理なく始められます。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
@@ -454,7 +454,7 @@ export default function ChofuPage() {
                 <p className="text-sm text-warm-600 mb-4">手軽に始めたい方に適しています。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Rintosull（8,800円〜/月4回）</li>
-                  <li>• ピラティスミラー（11,000円/月6回）</li>
+                  <li>• ピラティスミラー（12,100円/月6回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -499,7 +499,7 @@ export default function ChofuPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  Rintosull調布店は体験無料キャンペーン実施中です。まずは気軽に体験で雰囲気やインストラクターとの相性をご確認ください。ピラティスミラー調布は体験2,200円です。
+                  Rintosull調布店は体験無料キャンペーン実施中です。まずは気軽に体験で雰囲気やインストラクターとの相性をご確認ください。ピラティスミラー調布は体験0円です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -545,7 +545,7 @@ export default function ChofuPage() {
               今回は調布エリアのおすすめピラティススタジオ4選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              調布は京王線特急で新宿まで約15分の好立地で、映画の街・自然豊かなエリアとして人気の街です。コナミ運営のピラティスミラー調布（月6回11,000円）、女性専用のRintosull調布店（体験無料）、通い放題型パーソナルのELEMENT調布店（1回2,750円〜）と、それぞれ特徴の異なるスタジオが揃っています。
+              調布は京王線特急で新宿まで約15分の好立地で、映画の街・自然豊かなエリアとして人気の街です。コナミ運営のピラティスミラー調布（月6回12,100円）、女性専用のRintosull調布店（体験無料）、通い放題型パーソナルのELEMENT調布店（1回2,750円〜）と、それぞれ特徴の異なるスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               まずは体験無料のRintosull調布店から試してみるのがおすすめです。本ページの情報を、スタジオ選びにお役立てください。

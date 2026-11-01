@@ -86,10 +86,10 @@ const studios = [
   {
     name: 'ピラティスミラー 中目黒',
     image: '/images/studios/pilates-mirror.webp',
-    price: '月会費 11,000円（月6回まで）',
-    trial: '体験レッスン 2,200円',
+    price: '月会費 12,100円（月6回まで）',
+    trial: '体験レッスン 0円',
     features: ['コナミ運営', '月6回定額', '中目黒駅近', '朝7時から'],
-    description: 'コナミスポーツクラブが運営するマシンピラティス専門スタジオです。中目黒駅近くに位置しています。月会費11,000円で月6回まで利用可能、7回目以降は1回1,100円で追加利用可能です。プライベートレッスンも30分4,400円からとリーズナブルです。',
+    description: 'コナミスポーツクラブが運営するマシンピラティス専門スタジオです。中目黒駅近くに位置しています。月会費12,100円で月6回まで利用可能、7回目以降は1回1,100円で追加利用可能です。プライベートレッスンも30分4,400円からとリーズナブルです。',
     access: '東急東横線・日比谷線「中目黒駅」徒歩圏内',
     address: '東京都目黒区青葉台1-14-4 CONTRAL nakameguro',
     popularPlan: {
@@ -366,7 +366,7 @@ export default function NakameguroPage() {
                 <p className="text-warm-600 text-sm mb-4">月額1万円前後から通えるスタジオです。定額制やグループレッスンがお得です。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（マット月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
+                  <li className="text-warm-700">• ピラティスミラー（月6回 12,100円）</li>
                   <li className="text-warm-700">• the SILK（月4回 15,280円〜）</li>
                 </ul>
               </div>
@@ -414,7 +414,7 @@ export default function NakameguroPage() {
                 <p className="text-sm text-warm-600 mb-4">マットグループや定額制プランです。気軽に始められます。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（マット月4回 10,450円〜）</li>
-                  <li>• ピラティスミラー（月6回 11,000円）</li>
+                  <li>• ピラティスミラー（月6回 12,100円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">

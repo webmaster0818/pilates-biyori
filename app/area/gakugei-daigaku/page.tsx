@@ -23,10 +23,10 @@ const studios = [
   {
     name: 'ピラティスミラー 学芸大学',
     image: '/images/studios/pilates-mirror.webp',
-    price: '月会費 11,000円（月6回まで）',
-    trial: '体験レッスン 2,200円',
+    price: '月会費 12,100円（月6回まで）',
+    trial: '体験レッスン 0円',
     features: ['コナミ運営', '月6回定額', '学芸大学駅近', 'プライベートあり'],
-    description: 'コナミスポーツクラブが運営するマシンピラティス専門スタジオです。月6回11,000円の定額制で、7回目以降は1回1,100円と追加利用もリーズナブルです。プライベートレッスンも30分4,400円から受けられます。大手ならではの安心感と清潔な設備が魅力です。',
+    description: 'コナミスポーツクラブが運営するマシンピラティス専門スタジオです。月6回12,100円の定額制で、7回目以降は1回1,100円と追加利用もリーズナブルです。プライベートレッスンも30分4,400円から受けられます。大手ならではの安心感と清潔な設備が魅力です。',
     access: '東急東横線「学芸大学駅」西口から徒歩4分',
     address: '東京都目黒区中央町2-35-10',
     popularPlan: {
@@ -134,7 +134,7 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '問題ありません。学芸大学のスタジオは初心者歓迎です。ピラティスミラーは体験2,200円で気軽に始められます。',
+    answer: '問題ありません。学芸大学のスタジオは初心者歓迎です。ピラティスミラーは体験0円で気軽に始められます。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
@@ -142,7 +142,7 @@ const faqs = [
   },
   {
     question: '学芸大学エリアの料金相場は？',
-    answer: '少人数制のピラティスミラーが月6回11,000円です。マンツーマンはSTUDIO IVYの月2回15,000円〜、月4回だと28,000円（IVY）〜39,600円（Dr.ピラティス60分）です（各公式・2026年10月25日確認・税込）。',
+    answer: '少人数制のピラティスミラーが月6回12,100円です。マンツーマンはSTUDIO IVYの月2回15,000円〜、月4回だと28,000円（IVY）〜39,600円（Dr.ピラティス60分）です（各公式・2026年10月25日確認・税込）。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -252,18 +252,18 @@ export default function GakugeiDaigakuPage() {
           <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">YUZU 学芸大学店（鷹番2-15-18 パル学芸大学406）</td><td className="px-4 py-3">東口 徒歩約3分</td><td className="px-4 py-3">マシンのマンツーマン</td><td className="px-4 py-3">5,500円（「初回500円」バナーあり・条件記載なし）</td><td className="px-4 py-3">8:15〜21:45</td><td className="px-4 py-3">記載なし</td></tr>
           <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Dr.ピラティス 学芸大学店（鷹番2-8-22 プラザ学芸大学EAST）</td><td className="px-4 py-3">徒歩3分</td><td className="px-4 py-3">マンツーマンのパーソナル</td><td className="px-4 py-3">0円（入会金も0円）</td><td className="px-4 py-3">9:00〜22:00</td><td className="px-4 py-3">記載なし</td></tr>
           <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">STUDIO IVY 学芸大学店（碑文谷6-1-22 リカーハイム303）</td><td className="px-4 py-3">徒歩3分</td><td className="px-4 py-3">マシンのパーソナル（男性も可）</td><td className="px-4 py-3">4,500円（50分）</td><td className="px-4 py-3">8:00〜21:00</td><td className="px-4 py-3">記載なし</td></tr>
-          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">ピラティスミラー 学芸大学（中央町2-35-10）</td><td className="px-4 py-3">西口 徒歩4分</td><td className="px-4 py-3">マシンの少人数レッスン（30分・女性専用）</td><td className="px-4 py-3">2,200円（1人1回まで）</td><td className="px-4 py-3">公式はレッスンスケジュールで案内</td><td className="px-4 py-3">毎週火曜日</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">ピラティスミラー 学芸大学（中央町2-35-10）</td><td className="px-4 py-3">西口 徒歩4分</td><td className="px-4 py-3">マシンの少人数レッスン（30分・女性専用）</td><td className="px-4 py-3">0円（1人1回まで）</td><td className="px-4 py-3">公式はレッスンスケジュールで案内</td><td className="px-4 py-3">毎週火曜日</td></tr>
         </tbody></table></div>
           <h3 className="text-lg font-bold text-warm-900 mt-8 mb-3">月額と1回あたりの料金（公式表記・2026年10月25日確認・税込）</h3>
           <ul className="space-y-2 text-sm text-warm-700">
-            <li>• ピラティスミラー: 月会費11,000円で月6回まで（7回目以降1回1,100円）・入会金11,000円。プライベートは30分4,400円／50分6,600円</li>
+            <li>• ピラティスミラー: 月会費12,100円で月6回まで（7回目以降1回1,100円）・入会金11,000円。プライベートは30分4,400円／50分6,600円</li>
             <li>• STUDIO IVY: 月2回15,000円（1回7,500円）／月4回28,000円（1回7,000円）／月8回52,000円（1回6,500円）</li>
             <li>• YUZU: 月4回31,200円（1回7,800円）／月6回43,200円（1回7,200円）・入会金22,000円（体験当日の入会で0円）</li>
             <li>• Dr.ピラティス: 月4回 45分29,700円／60分39,600円、月8回 45分57,600円／60分76,800円・入会金0円</li>
           </ul>
           <h3 className="text-lg font-bold text-warm-900 mt-8 mb-3">西口・東口どちらから行くか</h3>
           <p className="text-warm-600 leading-relaxed text-sm">学芸大学駅は改札の東西で行き先が分かれます。公式ページで出口の指定があるのは、ピラティスミラー（西口）とYUZU（東口）の2店です。Dr.ピラティスは「改札を出て右手の商店街を直進」と案内しています。STUDIO IVYは出口の記載がないため、初回は公式ページの地図で確認してから向かうと安心です。</p>
-          <p className="text-warm-600 leading-relaxed mt-4 text-sm">月の費用を抑えて回数を通いたいならピラティスミラー（月6回11,000円・女性専用）、マンツーマンで見てもらいたいならSTUDIO IVY・YUZU・Dr.ピラティスが候補です。体験の費用で比べると、Dr.ピラティスが0円、ピラティスミラーが2,200円です。</p>
+          <p className="text-warm-600 leading-relaxed mt-4 text-sm">月の費用を抑えて回数を通いたいならピラティスミラー（月6回12,100円・女性専用）、マンツーマンで見てもらいたいならSTUDIO IVY・YUZU・Dr.ピラティスが候補です。体験の費用で比べると、Dr.ピラティスが0円、ピラティスミラーが0円です。</p>
           <p className="text-warm-400 mt-4 text-xs">確認した公式ページ（2026年10月25日）: <a href="https://www.konami.com/sportsclub/pilatesmirror/gakugeidaigaku/" className="underline" target="_blank" rel="noopener noreferrer">ピラティスミラー 学芸大学</a> ／ <a href="https://www.pilates-ivy.jp/studio/gakugeidaigaku" className="underline" target="_blank" rel="noopener noreferrer">STUDIO IVY 学芸大学店</a> ／ <a href="https://yuzu-pilates.com/studios/gakugeidagaku/" className="underline" target="_blank" rel="noopener noreferrer">YUZU 学芸大学店</a> ／ <a href="https://drpilates.drtraining.jp/location/gakugeidaigaku/" className="underline" target="_blank" rel="noopener noreferrer">Dr.ピラティス 学芸大学店</a></p>
         </div></section>
 
@@ -405,7 +405,7 @@ export default function GakugeiDaigakuPage() {
                   定額で通いやすいスタジオです。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
+                  <li className="text-warm-700">• ピラティスミラー（月6回 12,100円）</li>
                   <li className="text-warm-700">• STUDIO IVY（月2回 15,000円〜）</li>
                 </ul>
               </div>
@@ -473,7 +473,7 @@ export default function GakugeiDaigakuPage() {
                   定額でお得に通えるプランです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスミラー（月6回 11,000円）</li>
+                  <li>• ピラティスミラー（月6回 12,100円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -533,7 +533,7 @@ export default function GakugeiDaigakuPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  Dr.ピラティスは体験0円、ピラティスミラーは2,200円、STUDIO IVYは4,500円、YUZUは5,500円で体験できます（各公式・2026年10月25日確認）。複数のスタジオを体験して比較するのがおすすめです。
+                  Dr.ピラティスは体験0円、ピラティスミラーは0円、STUDIO IVYは4,500円、YUZUは5,500円で体験できます（各公式・2026年10月25日確認、ピラティスミラーは2026年11月1日確認）。複数のスタジオを体験して比較するのがおすすめです。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -585,7 +585,7 @@ export default function GakugeiDaigakuPage() {
               今回は学芸大学のおすすめピラティススタジオをご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              学芸大学はコナミ運営のピラティスミラー（月6回11,000円）からSTUDIO IVY・YUZU・Dr.ピラティスのマンツーマンまで、ライフスタイルに合わせたスタジオが揃っています。おしゃれなカフェやパン屋が並ぶ住みたい街で、ピラティスのある生活を始めることをご検討ください。
+              学芸大学はコナミ運営のピラティスミラー（月6回12,100円）からSTUDIO IVY・YUZU・Dr.ピラティスのマンツーマンまで、ライフスタイルに合わせたスタジオが揃っています。おしゃれなカフェやパン屋が並ぶ住みたい街で、ピラティスのある生活を始めることをご検討ください。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               本ページの情報を、スタジオ選びにお役立てください。

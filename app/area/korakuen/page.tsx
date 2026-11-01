@@ -23,8 +23,8 @@ const studios = [
   {
     name: 'ピラティスミラー 後楽園',
     image: '/images/studios/pilates-mirror.webp',
-    price: '月6回 11,000円',
-    trial: '体験レッスン 2,200円',
+    price: '月6回 12,100円',
+    trial: '体験レッスン 0円',
     features: ['コナミスポーツ運営', '天井ミラー', '30分レッスン', '最大6名少人数制'],
     description: 'コナミスポーツが運営するマシンピラティススタジオです。天井ミラーで自分のフォームを確認しながらレッスンを受けられる独自スタイルです。30分の短時間レッスンで忙しい方にも最適です。最大6名の少人数制です。',
     access: '都営三田線「春日駅」A3口 徒歩1分 / 東京メトロ丸ノ内線「後楽園駅」5番口 徒歩2分',
@@ -93,7 +93,7 @@ const faqs = [
   },
   {
     question: '後楽園のピラティスの料金相場は？',
-    answer: 'ピラティスミラーは月6回11,000円です。パーソナルはSTUDIO IVYが月2回15,000円〜です。',
+    answer: 'ピラティスミラーは月6回12,100円です。パーソナルはSTUDIO IVYが月2回15,000円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -105,15 +105,15 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があれば問題ありません。ピラティスミラーは2,200円で体験できます。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。ピラティスミラーは0円で体験できます。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'ピラティスミラー後楽園は男性も通えます。STUDIO IVYはパーソナルなので男女問わず利用可能です。',
+    answer: 'ピラティスミラー後楽園は18歳以上の女性専用です。STUDIO IVYはパーソナルなので男女問わず利用可能です。',
   },
   {
     question: '一番安いスタジオは？',
-    answer: 'ピラティスミラーは月6回11,000円で1回あたり約1,833円と割安です。',
+    answer: 'ピラティスミラーは月6回12,100円で1回あたり約2,017円と割安です。',
   },
   {
     question: 'パーソナルレッスンを受けたい場合は？',
@@ -338,7 +338,7 @@ export default function KorakuenPage() {
                   リーズナブルに通えるスタジオです。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
+                  <li className="text-warm-700">• ピラティスミラー（月6回 12,100円）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -401,7 +401,7 @@ export default function KorakuenPage() {
                   費用を抑えたい方におすすめです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスミラー（11,000円/月6回）</li>
+                  <li>• ピラティスミラー（12,100円/月6回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -422,7 +422,7 @@ export default function KorakuenPage() {
                   2,200円で体験可能です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスミラー（2,200円）</li>
+                  <li>• ピラティスミラー（0円）</li>
                 </ul>
               </div>
             </div>
@@ -460,7 +460,7 @@ export default function KorakuenPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ピラティスミラーは2,200円で体験可能です。
+                  ピラティスミラーは0円で体験可能です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

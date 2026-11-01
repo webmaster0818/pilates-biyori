@@ -112,10 +112,10 @@ const studios = [
   {
     name: 'ピラティスミラー',
     image: '/images/studios/pilates-mirror.webp',
-    price: '月6回 11,000円',
+    price: '月6回 12,100円',
     trial: '体験レッスンあり',
     features: ['コナミ運営', '月6回プラン', 'マシン完備', '大手の安心感'],
-    description: '大手フィットネスクラブ・コナミスポーツが運営するマシンピラティス専門スタジオです。月6回11,000円という通いやすい料金設定が魅力です。大手ならではの充実した設備と丁寧なサービスで、初心者から経験者まで幅広く対応しています。',
+    description: '大手フィットネスクラブ・コナミスポーツが運営するマシンピラティス専門スタジオです。月6回12,100円という通いやすい料金設定が魅力です。大手ならではの充実した設備と丁寧なサービスで、初心者から経験者まで幅広く対応しています。',
     access: '都立大学エリア',
     address: '東京都目黒区（都立大学エリア）',
     popularPlan: {
@@ -166,7 +166,7 @@ const studios = [
 const faqs = [
   {
     question: '都立大学エリアでピラティスの相場はどれくらい？',
-    answer: 'グループレッスンは月4回10,450円〜11,000円、パーソナルは1回6,250円〜が相場です。ピラティスミラーは月6回11,000円と割安です。',
+    answer: 'グループレッスンは月4回10,450円〜11,000円、パーソナルは1回6,250円〜が相場です。ピラティスミラーは月6回12,100円と割安です。',
   },
   {
     question: '初心者でも大丈夫ですか？',
@@ -400,7 +400,7 @@ export default function ToritsudaigakuPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place（マット月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
+                  <li className="text-warm-700">• ピラティスミラー（月6回 12,100円）</li>
                   <li className="text-warm-700">• noa（月4回 11,000円）</li>
                 </ul>
               </div>
@@ -479,7 +479,7 @@ export default function ToritsudaigakuPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• noa（月4回 11,000円）</li>
-                  <li>• ピラティスミラー（月6回 11,000円）</li>
+                  <li>• ピラティスミラー（月6回 12,100円）</li>
                   <li>• zen place リフォーマー（15,400円〜）</li>
                 </ul>
               </div>

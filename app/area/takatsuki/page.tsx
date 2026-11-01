@@ -65,7 +65,7 @@ const studios = [
   {
     name: 'ピラティスミラー 高槻',
     image: '/images/studios/pilates-mirror.webp', reviewCount: 82,
-    price: '月額 11,000円（月6回）', trial: '体験レッスン 2,200円',
+    price: '月額 12,100円（月6回）', trial: '体験レッスン 0円',
     features: ['女性専用', 'コナミ運営', '最大7名', '1回30分'],
     description: 'コナミスポーツクラブが展開する女性専用マシンピラティススタジオです。最大7名の少人数制でインストラクターがきめ細やかにサポートしています。「鏡」を活用したレッスンで自分のフォームを確認しながら効果的にトレーニングです。',
     access: 'JR高槻駅から徒歩5分（公式の店舗一覧）',
@@ -446,7 +446,7 @@ export default function TakatsukiPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">月6回〜通い放題</p>
                 <p className="text-sm text-warm-600 mb-4">頻度高く通う方におすすめです。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスミラー月6回（11,000円）</li>
+                  <li>• ピラティスミラー月6回（12,100円）</li>
                   <li>• zen placeフリー（14,960円〜）</li>
                 </ul>
               </div>

@@ -229,10 +229,10 @@ const studios = [
   {
     name: 'ピラティスミラー 学芸大学',
     image: '/images/studios/pilates-mirror.webp',
-    price: '月6回 11,000円',
-    trial: '体験レッスン 2,200円',
+    price: '月6回 12,100円',
+    trial: '体験レッスン 0円',
     features: ['コナミ運営', '月6回定額', '学芸大学エリア', '7回目以降1,100円/回'],
-    description: '大手フィットネスクラブ・コナミスポーツが運営するマシンピラティス専門スタジオです。月6回11,000円の定額制で、7回目以降は1回1,100円と追加利用もリーズナブルです。プライベートレッスン30分4,400円も人気です。大手ならではの充実した設備とサービスで安心して通えます。',
+    description: '大手フィットネスクラブ・コナミスポーツが運営するマシンピラティス専門スタジオです。月6回12,100円の定額制で、7回目以降は1回1,100円と追加利用もリーズナブルです。プライベートレッスン30分4,400円も人気です。大手ならではの充実した設備とサービスで安心して通えます。',
     access: '東急東横線「学芸大学駅」西口から徒歩4分',
     address: '東京都目黒区中央町2-35-10',
     popularPlan: {
@@ -292,10 +292,10 @@ const studios = [
   {
     name: 'ピラティスミラー 自由が丘',
     image: '/images/studios/pilates-mirror.webp',
-    price: '月6回 11,000円',
-    trial: '体験レッスン 2,200円',
+    price: '月6回 12,100円',
+    trial: '体験レッスン 0円',
     features: ['コナミ運営', '月6回定額', '自由が丘エリア', '割安'],
-    description: 'コナミスポーツ運営のマシンピラティス専門スタジオ自由が丘店です。月6回11,000円の定額制で自由が丘エリアではトップクラスのコストパフォーマンスです。7回目以降は1回1,100円で追加利用も可能です。都立大学駅から東横線1駅の好アクセスで、閑静な住宅街エリアにお住まいの方にもおすすめです。',
+    description: 'コナミスポーツ運営のマシンピラティス専門スタジオ自由が丘店です。月6回12,100円の定額制で自由が丘エリアではトップクラスのコストパフォーマンスです。7回目以降は1回1,100円で追加利用も可能です。都立大学駅から東横線1駅の好アクセスで、閑静な住宅街エリアにお住まいの方にもおすすめです。',
     access: '東急東横線「自由が丘駅」徒歩圏内（都立大学駅から1駅）',
     address: '東京都目黒区自由が丘（自由が丘駅徒歩圏内）',
     popularPlan: {
@@ -383,11 +383,11 @@ const studios = [
 const faqs = [
   {
     question: '都立大学エリアでピラティスの相場はどれくらい？',
-    answer: 'グループレッスンは月4回10,450円〜19,800円、ピラティスミラーは月6回11,000円と割安です。パーソナルは1回11,000円〜が相場です。都度払いのアラベスクなら1回2,000円と格安です。',
+    answer: 'グループレッスンは月4回10,450円〜19,800円、ピラティスミラーは月6回12,100円と割安です。パーソナルは1回11,000円〜が相場です。都度払いのアラベスクなら1回2,000円と格安です。',
   },
   {
     question: '初心者でも大丈夫ですか？',
-    answer: 'はい、どのスタジオも初心者歓迎です。zen placeは体験1,000円〜、the SILKは無料体験、ピラティスミラーは体験2,200円で気軽に始められます。セミパーソナルのPilates Meeやnoaなら少人数で丁寧に指導してもらえます。',
+    answer: 'はい、どのスタジオも初心者歓迎です。zen placeは体験1,000円〜、the SILKは無料体験、ピラティスミラーは体験0円で気軽に始められます。セミパーソナルのPilates Meeやnoaなら少人数で丁寧に指導してもらえます。',
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
@@ -415,7 +415,7 @@ const faqs = [
   },
   {
     question: '月額制と都度払い、どちらがお得？',
-    answer: '継続して通うなら月額制がお得です。月6回以上ならピラティスミラーの11,000円が最安クラスです。まず試したい方はアラベスクの都度払い（1回2,000円）やthe SILKの無料体験がおすすめです。',
+    answer: '継続して通うなら月額制がお得です。ピラティスミラーは月会費12,100円で月6回まで通えます。まず試したい方はアラベスクの都度払い（1回2,000円）やthe SILKの無料体験がおすすめです。',
   },
   {
     question: '子連れで通えるスタジオはありますか？',
@@ -640,7 +640,7 @@ export default function ToritsuDaigakuPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• アラベスク（1回 2,000円・都度払い）</li>
-                  <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
+                  <li className="text-warm-700">• ピラティスミラー（月6回 12,100円）</li>
                   <li className="text-warm-700">• zen place（マット月4回 10,450円〜）</li>
                 </ul>
               </div>
@@ -709,7 +709,7 @@ export default function ToritsuDaigakuPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• アラベスク（1回 2,000円・都度払い）</li>
                   <li>• zen place マット（月4回 10,450円〜）</li>
-                  <li>• ピラティスミラー（月6回 11,000円）</li>
+                  <li>• ピラティスミラー（月6回 12,100円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -765,7 +765,7 @@ export default function ToritsuDaigakuPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  都立大学エリアはアラベスクの1回2,000円からピラティスミラー月6回11,000円、セミパーソナル月4回19,800円、パーソナル月2回15,000円〜と幅広い価格帯が揃っています。
+                  都立大学エリアはアラベスクの1回2,000円からピラティスミラー月6回12,100円、セミパーソナル月4回19,800円、パーソナル月2回15,000円〜と幅広い価格帯が揃っています。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -774,7 +774,7 @@ export default function ToritsuDaigakuPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKは無料体験、zen placeは1,000円〜、ピラティスミラーは2,200円で体験できます。複数のスタジオを体験して、雰囲気やインストラクターとの相性をご確認ください。
+                  the SILKは無料体験、zen placeは1,000円〜、ピラティスミラーは0円で体験できます。複数のスタジオを体験して、雰囲気やインストラクターとの相性をご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -829,7 +829,7 @@ export default function ToritsuDaigakuPage() {
               都立大学は東急東横線沿線の目黒区に位置する閑静な住宅街です。駅徒歩0分のLAVIA、徒歩30秒のPilates Mee、徒歩1分のnoa、徒歩3分のzen placeなど駅近スタジオが充実しています。さらに学芸大学（1駅）のSTUDIO IVYやピラティスミラー、自由が丘（1駅）のthe SILKやzen placeまで、目的や予算に合わせて選べるスタジオが豊富です。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              料金重視ならアラベスク（1回2,000円）やピラティスミラー（月6回11,000円）、パーソナル重視ならLAVIAやSUNNY、セミパーソナルならPilates MeeやPILATES STUDIO noaがおすすめです。
+              料金重視ならアラベスク（1回2,000円）やピラティスミラー（月6回12,100円）、パーソナル重視ならLAVIAやSUNNY、セミパーソナルならPilates MeeやPILATES STUDIO noaがおすすめです。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               ぜひ体験レッスンに足を運んで、自分に合うスタジオを見つけてください。

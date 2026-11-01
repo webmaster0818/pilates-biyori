@@ -59,8 +59,8 @@ const studios = [
   {
     name: 'ピラティスミラー 荻窪',
     image: '/images/studios/pilates-mirror.webp',
-    price: '月6回 11,000円',
-    trial: '体験レッスン 2,200円',
+    price: '月6回 12,100円',
+    trial: '体験レッスン 0円',
     features: ['女性専用', '天井鏡', 'KONAMI運営', '2024年5月オープン'],
     description: 'コナミスポーツが運営する「もっと鏡が見たくなる」をコンセプトにした新しいピラティススタジオです。2024年5月21日オープンです。スタジオの天井に鏡を設置し、自分の身体の動きを確認しながら取り組めます。1レッスン30分で「気軽に」参加でき、音楽をかけながら「楽しく」動く、短時間でも達成感と効果を感じられるレッスンです。最大8名の少人数制です。女性専用18歳以上対象です。',
     access: '荻窪駅より徒歩圏内',
@@ -194,7 +194,7 @@ const faqs = [
   },
   {
     question: '荻窪のピラティススタジオの料金相場は？',
-    answer: '荻窪エリアのピラティススタジオの料金相場は、グループレッスンで月4回9,625円〜11,000円程度です。zen place pilatesは月4回9,625円〜（荻窪スタジオはグレード01で10,450円）、ピラティスミラーは月6回11,000円とリーズナブルです。全国150店舗他店利用できるzen place pilatesなら、荻窪・西荻窪・阿佐ヶ谷の各店舗を追加料金なしで使い分けられます。',
+    answer: '荻窪エリアのピラティススタジオの料金相場は、グループレッスンで月4回9,625円〜11,000円程度です。zen place pilatesは月4回9,625円〜（荻窪スタジオはグレード01で10,450円）、ピラティスミラーは月6回12,100円とリーズナブルです。全国150店舗他店利用できるzen place pilatesなら、荻窪・西荻窪・阿佐ヶ谷の各店舗を追加料金なしで使い分けられます。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -463,7 +463,7 @@ export default function OgikuboAreaPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates 荻窪（月4回 10,450円〜）</li>
                   <li className="text-warm-700">• zen place pilates 西荻窪（月4回 9,625円〜）</li>
-                  <li className="text-warm-700">• ピラティスミラー 荻窪（月6回 11,000円）</li>
+                  <li className="text-warm-700">• ピラティスミラー 荻窪（月6回 12,100円）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -528,7 +528,7 @@ export default function OgikuboAreaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates 荻窪（月4回 10,450円〜）</li>
-                  <li>• ピラティスミラー 荻窪（月6回 11,000円）</li>
+                  <li>• ピラティスミラー 荻窪（月6回 12,100円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">

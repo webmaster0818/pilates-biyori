@@ -57,8 +57,8 @@ const studios = [
     name: 'ピラティスミラー 成城学園前',
     officialUrl: 'https://www.konami.com/sportsclub/pilatesmirror/seijogakuenmae/',
     image: '/images/studios/pilates-mirror.webp',
-    price: '月6回まで 11,000円（税込）',
-    trial: '体験 2,200円（税込・1人1回まで）',
+    price: '月6回まで 12,100円（税込）',
+    trial: '体験 0円（税込・1人1回まで）',
     features: ['女性専用（18歳以上）', 'KONAMI運営', '天井鏡', '30分レッスン'],
     description: 'コナミスポーツが運営する「もっと鏡が見たくなる」をコンセプトにしたピラティススタジオです。スタジオの天井に鏡を設置し、自分の身体の動きを確認しながら取り組めます。1レッスン30分で「気軽に」参加でき、音楽をかけながら「楽しく」動く、短い時間でも達成感と効果を感じられるレッスンです。レッスンは最大9名の少人数制です。レッスン前の20分は、リフォーマーを使用してセルフトレーニングが可能です（公式店舗ページ）。',
     access: '小田急小田原線「成城学園前駅」北口 徒歩4分',
@@ -224,8 +224,8 @@ const studios = [
     name: 'ピラティスミラー 千歳船橋（近隣エリア）',
     officialUrl: 'https://www.konami.com/sportsclub/pilatesmirror/chitosefunabashi/',
     image: '/images/studios/pilates-mirror.webp',
-    price: '月6回まで 11,000円（税込）',
-    trial: '体験 2,200円（税込・1人1回まで）',
+    price: '月6回まで 12,100円（税込）',
+    trial: '体験 0円（税込・1人1回まで）',
     features: ['女性専用（18歳以上）', 'KONAMI運営', '天井鏡', '千歳船橋駅北口徒歩1分'],
     description: '成城学園前から小田急線で2駅の千歳船橋駅近くにあるコナミスポーツ運営のピラティススタジオです。「もっと鏡が見たくなる」をコンセプトに、スタジオの天井に鏡を設置し、自分の身体の動きを確認しながら取り組めます。1レッスン30分で「気軽に」参加でき、音楽をかけながら「楽しく」動く、短い時間でも達成感と効果を感じられるレッスンです。レッスンは最大9名です。レッスン前の20分は、リフォーマーを使用してセルフトレーニングが可能です（公式店舗ページ）。料金は成城学園前と同じです。',
     access: '小田急小田原線「千歳船橋駅」北口 徒歩1分（成城学園前から小田急線で2駅）',
@@ -264,7 +264,7 @@ const faqs = [
   },
   {
     question: '成城学園前のピラティススタジオの料金相場は？',
-    answer: '掲載店の公式料金では、グループの月4回が10,450円（zen place マット）〜13,090円（CLUB PILATES）、ピラティスミラーは月6回まで11,000円です（税込）。1対1のパーソナルは STUDIO IVY が月4回28,000円（1回7,000円）、&a が1回券12,000円です。体験は無料（CLUB PILATES）〜4,500円（STUDIO IVY）の店が多く、&a は当日入会しない場合12,000円です。',
+    answer: '掲載店の公式料金では、グループの月4回が10,450円（zen place マット）〜13,090円（CLUB PILATES）、ピラティスミラーは月6回まで12,100円です（税込）。1対1のパーソナルは STUDIO IVY が月4回28,000円（1回7,000円）、&a が1回券12,000円です。体験は無料（CLUB PILATES）〜4,500円（STUDIO IVY）の店が多く、&a は当日入会しない場合12,000円です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -379,10 +379,10 @@ export default function SeijoGakuenmaeAreaPage() {
           <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Evolv 成城学園前店</td><td className="px-4 py-3">南口 徒歩1分</td><td className="px-4 py-3">EMS×マシン・20分</td><td className="px-4 py-3">月4回 21,780円（通常）</td><td className="px-4 py-3">500円→0円</td></tr>
           <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">PILATES YOGA &amp;a 成城学園前店</td><td className="px-4 py-3">北口 徒歩1分</td><td className="px-4 py-3">マンツーマン／男性可</td><td className="px-4 py-3">4回券 36,300円</td><td className="px-4 py-3">12,000円（当日入会で5,500円）</td></tr>
           <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">zen place pilates 成城学園前</td><td className="px-4 py-3">南口 徒歩3分</td><td className="px-4 py-3">マット／マシン・グループ、プライベート</td><td className="px-4 py-3">マット月4回 10,450円</td><td className="px-4 py-3">マット 1,000円・マシン 3,000円（初回キャンペーン）</td></tr>
-          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ピラティスミラー 成城学園前</td><td className="px-4 py-3">北口 徒歩4分</td><td className="px-4 py-3">マシン・30分・女性専用</td><td className="px-4 py-3">月6回まで 11,000円</td><td className="px-4 py-3">2,200円</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ピラティスミラー 成城学園前</td><td className="px-4 py-3">北口 徒歩4分</td><td className="px-4 py-3">マシン・30分・女性専用</td><td className="px-4 py-3">月6回まで 12,100円</td><td className="px-4 py-3">0円</td></tr>
           <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">STUDIO IVY 成城学園前</td><td className="px-4 py-3">徒歩5分</td><td className="px-4 py-3">1対1のパーソナル／男性可</td><td className="px-4 py-3">月4回 28,000円</td><td className="px-4 py-3">4,500円</td></tr>
           <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Pilasuru 成城学園前店（成城6-13-6）</td><td className="px-4 py-3">北口側（公式に徒歩分数の記載なし）</td><td className="px-4 py-3">マシン・グループ最大3人／プライベート</td><td className="px-4 py-3">公式に料金掲載なし</td><td className="px-4 py-3">あり</td></tr>
-          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">ピラティスミラー 千歳船橋（近隣）</td><td className="px-4 py-3">千歳船橋駅 北口 徒歩1分</td><td className="px-4 py-3">マシン・30分・女性専用</td><td className="px-4 py-3">月6回まで 11,000円</td><td className="px-4 py-3">2,200円</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">ピラティスミラー 千歳船橋（近隣）</td><td className="px-4 py-3">千歳船橋駅 北口 徒歩1分</td><td className="px-4 py-3">マシン・30分・女性専用</td><td className="px-4 py-3">月6回まで 12,100円</td><td className="px-4 py-3">0円</td></tr>
         </tbody></table></div><p className="text-warm-600 leading-relaxed mt-4 text-sm">男性も通えるのは、公式に記載のある CLUB PILATES・zen place・STUDIO IVY・&amp;a です。ピラティスミラーは18歳以上の女性専用です。Evolv と Pilasuru は今回、公式サイトで男女の利用条件を確認できませんでした（Pilasuru の運営会社は「店舗によっては女性専用」と案内）。</p></div></section>
 
         <PriceComparisonTable studios={studios} areaName="成城学園前" />
@@ -420,7 +420,7 @@ export default function SeijoGakuenmaeAreaPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">10,450円〜13,090円（ピラティスミラーは月6回まで11,000円）</td>
+                    <td className="px-4 py-3">10,450円〜13,090円（ピラティスミラーは月6回まで12,100円）</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -592,7 +592,7 @@ export default function SeijoGakuenmaeAreaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates（月4回 10,450円〜）</li>
-                  <li>• ピラティスミラー（月6回まで 11,000円）</li>
+                  <li>• ピラティスミラー（月6回まで 12,100円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -654,7 +654,7 @@ export default function SeijoGakuenmaeAreaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。スタジオの雰囲気、指導者との相性、設備などは実際に行ってみないとわかりません。CLUB PILATESは30分の無料体験、zen placeはマットグループの初回体験が1,000円、ピラティスミラーは2,200円、STUDIO IVYは4,500円です。
+                  気になるスタジオを2-3つピックアップしたら、必ず体験レッスンに行くことをおすすめします。スタジオの雰囲気、指導者との相性、設備などは実際に行ってみないとわかりません。CLUB PILATESは30分の無料体験、zen placeはマットグループの初回体験が1,000円、ピラティスミラーは0円、STUDIO IVYは4,500円です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

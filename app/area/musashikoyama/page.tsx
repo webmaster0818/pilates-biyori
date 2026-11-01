@@ -55,10 +55,10 @@ const studios = [
   {
     name: 'ピラティスミラー 武蔵小山',
     image: '/images/studios/pilates-mirror.webp',
-    price: '月6回 11,000円',
-    trial: '体験レッスン 2,200円',
+    price: '月6回 12,100円',
+    trial: '体験レッスン 0円',
     features: ['コナミスポーツ運営', '天井ミラー', '30分レッスン', 'セルフトレーニング可'],
-    description: 'コナミスポーツが運営するマシンピラティス専門スタジオです。武蔵小山駅東口から徒歩5分です。天井にミラーを設置した独自の空間で、自分のフォームを確認しながら効果的にレッスンを受けられます。1レッスン30分のコンパクトな構成のため、忙しい方でも通うことができます。レッスン前20分のセルフトレーニングタイムも利用可能です。月6回11,000円のリーズナブルな料金設定が魅力です。',
+    description: 'コナミスポーツが運営するマシンピラティス専門スタジオです。武蔵小山駅東口から徒歩5分です。天井にミラーを設置した独自の空間で、自分のフォームを確認しながら効果的にレッスンを受けられます。1レッスン30分のコンパクトな構成のため、忙しい方でも通うことができます。レッスン前20分のセルフトレーニングタイムも利用可能です。月6回12,100円のリーズナブルな料金設定が魅力です。',
     access: '東急目黒線「武蔵小山駅」東口徒歩5分',
     address: '東京都品川区武蔵小山エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
@@ -156,7 +156,7 @@ const faqs = [
   },
   {
     question: '武蔵小山のピラティスの料金相場は？',
-    answer: 'zen place pilatesは月4回10,450円〜、ピラティスミラーは月6回11,000円とグループレッスンは1万円台からです。STUDIO IVYのパーソナルは月2回15,000円〜です。目的と頻度に合わせてお選びください。',
+    answer: 'zen place pilatesは月4回10,450円〜、ピラティスミラーは月6回12,100円とグループレッスンは1万円台からです。STUDIO IVYのパーソナルは月2回15,000円〜です。目的と頻度に合わせてお選びください。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -168,7 +168,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があれば問題ありません。zen place pilatesはグループ体験1,000円、ピラティスミラーは体験2,200円、STUDIO IVYは体験4,500円です。まずは体験レッスンへの参加をおすすめします。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。zen place pilatesはグループ体験1,000円、ピラティスミラーは体験0円、STUDIO IVYは体験4,500円です。まずは体験レッスンへの参加をおすすめします。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
@@ -395,7 +395,7 @@ export default function MusashikoyamaPage() {
                 <p className="text-warm-600 text-sm mb-4">月1万円台から通えるスタジオもあります。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
+                  <li className="text-warm-700">• ピラティスミラー（月6回 12,100円）</li>
                   <li className="text-warm-700">• STUDIO IVY（月2回 15,000円〜）</li>
                 </ul>
               </div>
@@ -452,7 +452,7 @@ export default function MusashikoyamaPage() {
                 <p className="text-sm text-warm-600 mb-4">手軽に始めたい方に適しています。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place pilates（10,450円/月4回〜）</li>
-                  <li>• ピラティスミラー（11,000円/月6回）</li>
+                  <li>• ピラティスミラー（12,100円/月6回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -507,7 +507,7 @@ export default function MusashikoyamaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  zen place pilatesはグループ体験1,000円、ピラティスミラーは体験2,200円、STUDIO IVYは体験4,500円です。まずは体験で雰囲気やインストラクターとの相性をご確認ください。
+                  zen place pilatesはグループ体験1,000円、ピラティスミラーは体験0円、STUDIO IVYは体験4,500円です。まずは体験で雰囲気やインストラクターとの相性をご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -553,10 +553,10 @@ export default function MusashikoyamaPage() {
               今回は武蔵小山エリアのおすすめピラティススタジオ4選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              武蔵小山は東急目黒線で目黒まで約3分の好立地で、パルム商店街をはじめ活気ある街です。全国150店舗で他店利用可能なzen place pilates（体験1,000円・駅徒歩1分）、コナミスポーツ運営のピラティスミラー（月6回11,000円・30分レッスン）、完全パーソナルのSTUDIO IVY（月2回15,000円〜・オーダーメイド）、駅直結のアトリオドゥーエNext（少人数制・総合施設）、マシンピラティス専門のTwo Three（最大8名・正確な姿勢重視）と、それぞれ特徴の異なるスタジオが揃っています。
+              武蔵小山は東急目黒線で目黒まで約3分の好立地で、パルム商店街をはじめ活気ある街です。全国150店舗で他店利用可能なzen place pilates（体験1,000円・駅徒歩1分）、コナミスポーツ運営のピラティスミラー（月6回12,100円・30分レッスン）、完全パーソナルのSTUDIO IVY（月2回15,000円〜・オーダーメイド）、駅直結のアトリオドゥーエNext（少人数制・総合施設）、マシンピラティス専門のTwo Three（最大8名・正確な姿勢重視）と、それぞれ特徴の異なるスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              まずはzen place pilatesのグループ体験1,000円やピラティスミラーの体験2,200円から試してみるのがおすすめです。本ページの情報を、スタジオ選びにお役立てください。
+              まずはzen place pilatesのグループ体験1,000円やピラティスミラーの体験0円から試してみるのがおすすめです。本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">本ページが、ピラティススタジオ選びの参考になれば幸いです。</p>
           </div>
@@ -567,7 +567,7 @@ export default function MusashikoyamaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンのご予約</h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              zen place pilatesはグループ体験1,000円、ピラティスミラーは体験2,200円です。<br />
+              zen place pilatesはグループ体験1,000円、ピラティスミラーは体験0円です。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link

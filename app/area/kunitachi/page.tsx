@@ -86,10 +86,10 @@ const studios = [
   {
     name: 'ピラティスミラー 国立',
     image: '/images/studios/pilates-mirror.webp',
-    price: '月6回 11,000円',
-    trial: '体験レッスン 2,200円',
+    price: '月6回 12,100円',
+    trial: '体験レッスン 0円',
     features: ['コナミ運営', '少人数制', '1レッスン30分', 'ミラー完備'],
-    description: 'スポーツクラブ大手コナミが運営するピラティススタジオです。天井に設置された鏡でフォームを確認しながらエクササイズです。最大6名の少人数制で初心者にも安心です。1レッスン30分の短時間集中型です。月6回11,000円のリーズナブルな価格です。',
+    description: 'スポーツクラブ大手コナミが運営するピラティススタジオです。天井に設置された鏡でフォームを確認しながらエクササイズです。最大6名の少人数制で初心者にも安心です。1レッスン30分の短時間集中型です。月6回12,100円のリーズナブルな価格です。',
     access: 'JR中央線「国立駅」から徒歩圏内',
     address: '東京都国立市（詳細は公式サイトでご確認ください）',
     popularPlan: {
@@ -186,7 +186,7 @@ const faqs = [
   },
   {
     question: '国立のピラティスの料金相場は？',
-    answer: 'Rintosull国立店は月4回8,800円〜（店舗により異なる）、ピラティスミラー国立は月6回11,000円、zen place pilates国立はマットグループ月4回10,450円〜です。パーソナルはCOCOLANCE国立店が完全個室で割安です。目的と頻度に合わせてお選びください。',
+    answer: 'Rintosull国立店は月4回8,800円〜（店舗により異なる）、ピラティスミラー国立は月6回12,100円、zen place pilates国立はマットグループ月4回10,450円〜です。パーソナルはCOCOLANCE国立店が完全個室で割安です。目的と頻度に合わせてお選びください。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -198,11 +198,11 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があれば問題ありません。Rintosull国立店は体験無料キャンペーン中、zen placeは体験1,000円、ピラティスミラーは体験2,200円です。zen placeはウェアレンタルもあり手ぶらで体験可能です。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。Rintosull国立店は体験無料キャンペーン中、zen placeは体験1,000円、ピラティスミラーは体験0円です。zen placeはウェアレンタルもあり手ぶらで体験可能です。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'zen place pilates国立は男性も利用可能です。Rintosull・YU\'s PILATES・COCOLANCEは女性専用です。ピラティスミラーも男性利用可能です。',
+    answer: 'zen place pilates国立は男性も利用可能です。Rintosull・YU\'s PILATES・COCOLANCEは女性専用です。ピラティスミラーは18歳以上の女性専用です。',
   },
   {
     question: '国立駅からのアクセスは？',
@@ -374,7 +374,7 @@ export default function KunitachiPage() {
                 <p className="text-warm-600 text-sm mb-4">月額1万円台から始めることをおすすめします。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull（月4回 8,800円〜）</li>
-                  <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
+                  <li className="text-warm-700">• ピラティスミラー（月6回 12,100円）</li>
                   <li className="text-warm-700">• zen place（マット月4回 10,450円〜）</li>
                 </ul>
               </div>
@@ -405,7 +405,7 @@ export default function KunitachiPage() {
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">おすすめの期間・頻度</h2>
             <div className="bg-white rounded-lg p-8 border border-warm-200">
               <h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3>
-              <p className="text-warm-600 leading-relaxed mb-6">週1〜2回から始めることをおすすめします。ピラティスミラー国立の月6回プラン（11,000円）で無理なく始められます。</p>
+              <p className="text-warm-600 leading-relaxed mb-6">週1〜2回から始めることをおすすめします。ピラティスミラー国立の月6回プラン（12,100円）で無理なく始められます。</p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">週2〜3回が目安です。COCOLANCE国立店のパーソナルレッスンで効率的にボディメイクを目指せます。</p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3>
@@ -424,7 +424,7 @@ export default function KunitachiPage() {
                 <p className="text-sm text-warm-600 mb-4">手軽に始めたい方に適しています。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Rintosull（8,800円〜/月4回）</li>
-                  <li>• ピラティスミラー（11,000円/月6回）</li>
+                  <li>• ピラティスミラー（12,100円/月6回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">

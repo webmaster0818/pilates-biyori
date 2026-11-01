@@ -39,13 +39,13 @@ const studios = [
   {
     name: 'ピラティスミラー 仙川',
     image: '/images/studios/pilates-mirror.webp',
-    price: '月6回 11,000円',
-    trial: '体験レッスン 2,200円',
+    price: '月6回 12,100円',
+    trial: '体験レッスン 0円',
     features: ['コナミ運営', '少人数制（最大7名）', '1レッスン30分', 'ミラー完備'],
     description: 'コナミが運営するピラティススタジオです。「もっと鏡が見たくなる」をコンセプトに、天井の鏡でフォームを客観的に確認しながらレッスンです。仙川で唯一のミラー活用型ピラティスです。最大7名の少人数制で初心者にも安心です。',
     access: '京王線「仙川駅」から徒歩圏内',
     address: '東京都調布市仙川町（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: '月6回プラン', description: 'コナミ運営です。ミラーを使った独自のレッスンスタイルです。', price: '月6回 11,000円（税込）' },
+    popularPlan: { name: '月6回プラン', description: 'コナミ運営です。ミラーを使った独自のレッスンスタイルです。', price: '月6回 12,100円（税込）' },
     options: ['月6回プラン（11,000円/月）', 'プライベートレッスン（30分 4,400円）', '体験レッスン 2,200円', 'コナミ施設との併用可能'],
     userProfile: { ageRange: '30代〜50代が中心', purpose: ['健康維持', '姿勢改善', '体幹強化', 'リフレッシュ'] },
     basicInfo: { hours: '施設の営業時間に準ずる', closed: '施設休館日に準ずる', facilities: ['ミラー', 'リフォーマー', 'フィッティングルーム（カーテン仕切り）', '荷物置きBOX（鍵なし）'] },
@@ -106,11 +106,11 @@ const studios = [
 const faqs = [
   { question: 'ピラティス初心者でも大丈夫ですか？', answer: '問題ありません。仙川エリアのスタジオは初心者歓迎です。CLUB PILATES仙川は4段階のレベル分けで安心、ピラティスミラー仙川は最大7名の少人数制、URBAN CLASSIC PILATESは予約不要で気軽に始められます。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットピラティスは自重エクササイズ、マシンピラティスはリフォーマーなどの専用マシンを使用しています。仙川エリアはマシンピラティス対応スタジオが充実しており、CLUB PILATESはリフォーマー以外にTRXやバレルも使えます。' },
-  { question: '仙川のピラティスの料金相場は？', answer: 'URBAN CLASSICは月4回8,580円で最安級です。ピラティスミラーは月6回11,000円、CLUB PILATESは月4回 13,090円です。仙川は選択肢が多く、予算に合わせやすいエリアです。' },
+  { question: '仙川のピラティスの料金相場は？', answer: 'URBAN CLASSICは月4回8,580円で最安級です。ピラティスミラーは月6回12,100円、CLUB PILATESは月4回 13,090円です。仙川は選択肢が多く、予算に合わせやすいエリアです。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめです。URBAN CLASSICの通い放題プラン（12,980円）なら毎日でも通えます。最低2〜3ヶ月は継続することをおすすめします。' },
   { question: 'ピラティスで痩せますか？', answer: 'はい、インナーマッスルを鍛えることで基礎代謝が上がります。STUDIO Uのトレーニング×ピラティスの複合プログラムなら効率的にボディメイクが可能です。' },
-  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。ピラティスミラーは体験2,200円です。まずは体験レッスンへの参加をおすすめします。' },
-  { question: '男性でも通えるスタジオはありますか？', answer: 'URBAN CLASSIC PILATES仙川、CLUB PILATES仙川、STUDIO U仙川は男性も可能です。ピラティスミラー仙川も男性利用可能です。' },
+  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。ピラティスミラーは体験0円です。まずは体験レッスンへの参加をおすすめします。' },
+  { question: '男性でも通えるスタジオはありますか？', answer: 'URBAN CLASSIC PILATES仙川、CLUB PILATES仙川、STUDIO U仙川は男性も可能です。ピラティスミラー仙川は18歳以上の女性専用です（公式・2026年11月1日確認）。' },
   { question: '仙川駅からのアクセスは？', answer: '仙川駅は京王線の各駅停車駅で、新宿まで約20分です。STUDIO Uは徒歩2分、各スタジオとも駅から徒歩圏内で通いやすい立地です。' },
   { question: 'パーソナルレッスンを受けたいのですが？', answer: 'PERSONAL TRAINING STUDIO U仙川がパーソナル専門でピラティス×トレーニングの複合プログラムを提供しています。ピラティスミラーも30分4,400円で対応しています。' },
   { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '個人差はありますが、2ヶ月を過ぎた頃から変化を実感される方が多くなっています。週1〜2回で最低2〜3ヶ月の継続がおすすめです。' },
@@ -201,21 +201,21 @@ export default function SengawaPage() {
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">目的別おすすめスタジオ</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3><p className="text-warm-600 text-sm mb-4">月額1万円以下から始めることをおすすめします。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• URBAN CLASSIC（月4回 8,580円）</li><li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li><li className="text-warm-700">• CLUB PILATES（月4回 13,090円）</li></ul></div>
+              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3><p className="text-warm-600 text-sm mb-4">月額1万円以下から始めることをおすすめします。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• URBAN CLASSIC（月4回 8,580円）</li><li className="text-warm-700">• ピラティスミラー（月6回 12,100円）</li><li className="text-warm-700">• CLUB PILATES（月4回 13,090円）</li></ul></div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">本格派・上級者</h3><p className="text-warm-600 text-sm mb-4">世界基準の本格レッスンです。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• CLUB PILATES（4段階レベル・多彩なマシン）</li><li className="text-warm-700">• STUDIO U（パーソナル×トレーニング）</li></ul></div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">忙しい方・時短</h3><p className="text-warm-600 text-sm mb-4">短時間で効率的に通えます。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• URBAN CLASSIC（予約不要・30分）</li><li className="text-warm-700">• ピラティスミラー（30分レッスン）</li><li className="text-warm-700">• STUDIO U（週1回50分で結果）</li></ul></div>
             </div>
           </div>
         </section>
 
-        <section className="py-16 bg-warm-50" id="frequency"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">おすすめの期間・頻度</h2><div className="bg-white rounded-lg p-8 border border-warm-200"><h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3><p className="text-warm-600 leading-relaxed mb-6">週1〜2回から始めることをおすすめします。URBAN CLASSIC PILATESの月4回（8,580円）で無理なく始められます。</p><h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3><p className="text-warm-600 leading-relaxed mb-6">週2〜3回です。URBAN CLASSICの通い放題（12,980円）なら毎日でも通えます。STUDIO Uのパーソナルも効率的です。</p><h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3><p className="text-warm-600 leading-relaxed">週1回ペースで継続です。ピラティスミラーの月6回プラン（11,000円）がちょうど良いペースです。</p></div></div></section>
+        <section className="py-16 bg-warm-50" id="frequency"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">おすすめの期間・頻度</h2><div className="bg-white rounded-lg p-8 border border-warm-200"><h3 className="text-xl font-bold text-warm-900 mb-4">ピラティス初心者の方</h3><p className="text-warm-600 leading-relaxed mb-6">週1〜2回から始めることをおすすめします。URBAN CLASSIC PILATESの月4回（8,580円）で無理なく始められます。</p><h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3><p className="text-warm-600 leading-relaxed mb-6">週2〜3回です。URBAN CLASSICの通い放題（12,980円）なら毎日でも通えます。STUDIO Uのパーソナルも効率的です。</p><h3 className="text-xl font-bold text-warm-900 mb-4">体型維持・健康管理</h3><p className="text-warm-600 leading-relaxed">週1回ペースで継続です。ピラティスミラーの月6回プラン（12,100円）がちょうど良いペースです。</p></div></div></section>
 
         <section className="py-16 bg-white" id="price-guide">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">予算別の料金相場</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center"><h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜10,000円/月</h3><p className="text-3xl font-bold text-warm-800 mb-4">月4回</p><p className="text-sm text-warm-600 mb-4">手軽に始めたい方に適しています。</p><ul className="text-sm text-warm-700 space-y-1"><li>• URBAN CLASSIC（8,580円/月4回）</li></ul></div>
-              <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50"><div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div><h3 className="text-lg font-bold text-warm-900 mb-2">予算 11,000〜12,000円/月</h3><p className="text-3xl font-bold text-warm-800 mb-4">月4〜6回</p><p className="text-sm text-warm-600 mb-4">週1〜2回のペースで、着実な成果が期待できます。</p><ul className="text-sm text-warm-700 space-y-1"><li>• ピラティスミラー（11,000円/月6回）</li><li>• CLUB PILATES（月4回 13,090円）</li></ul></div>
+              <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50"><div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div><h3 className="text-lg font-bold text-warm-900 mb-2">予算 11,000〜12,000円/月</h3><p className="text-3xl font-bold text-warm-800 mb-4">月4〜6回</p><p className="text-sm text-warm-600 mb-4">週1〜2回のペースで、着実な成果が期待できます。</p><ul className="text-sm text-warm-700 space-y-1"><li>• ピラティスミラー（12,100円/月6回）</li><li>• CLUB PILATES（月4回 13,090円）</li></ul></div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center"><h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000円〜/月</h3><p className="text-3xl font-bold text-warm-800 mb-4">月4回〜通い放題</p><p className="text-sm text-warm-600 mb-4">本格派の方におすすめです。</p><ul className="text-sm text-warm-700 space-y-1"><li>• URBAN CLASSIC通い放題（12,980円）</li></ul></div>
             </div>
           </div>
@@ -227,7 +227,7 @@ export default function SengawaPage() {
             <div className="space-y-8">
               <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span><h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3></div><p className="text-warm-600 leading-relaxed">ボディメイクならSTUDIO U、料金重視ならURBAN CLASSIC、本格派ならCLUB PILATESがおすすめです。</p></div>
               <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">レッスン形式を選ぶ</h3></div><p className="text-warm-600 leading-relaxed">予約不要（URBAN CLASSIC）、グループ（CLUB PILATES・ピラティスミラー）、パーソナルです（STUDIO U）。</p></div>
-              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">ピラティスミラーは体験2,200円です。まず体験でスタジオの雰囲気をご確認ください。</p></div>
+              <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">ピラティスミラーは体験0円です。まず体験でスタジオの雰囲気をご確認ください。</p></div>
               <div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div><p className="text-warm-600 leading-relaxed">仙川駅周辺にスタジオが集中しています。STUDIO Uは徒歩2分で、最も近い距離にあります。自宅や職場からの動線に合わせてお選びください。</p></div>
             </div>
           </div>

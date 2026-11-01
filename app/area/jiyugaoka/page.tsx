@@ -86,10 +86,10 @@ const studios = [
   {
     name: 'ピラティスミラー 自由が丘',
     image: '/images/studios/pilates-mirror.webp',
-    price: '月6回 11,000円',
-    trial: '体験レッスン 2,200円',
-    features: ['コナミ運営', '天井ミラー', '30分レッスン', '月6回11,000円'],
-    description: 'コナミスポーツ運営のマシンピラティススタジオです。天井に設置した鏡で自分の動きを確認しながらレッスンです。1レッスン30分で効率的です。月6回11,000円の手頃な料金設定です。グループ・プライベートに対応しています。',
+    price: '月6回 12,100円',
+    trial: '体験レッスン 0円',
+    features: ['コナミ運営', '天井ミラー', '30分レッスン', '月6回12,100円'],
+    description: 'コナミスポーツ運営のマシンピラティススタジオです。天井に設置した鏡で自分の動きを確認しながらレッスンです。1レッスン30分で効率的です。月6回12,100円の手頃な料金設定です。グループ・プライベートに対応しています。',
     access: '東急東横線・大井町線「自由が丘駅」周辺',
     address: '東京都目黒区自由が丘エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
@@ -167,7 +167,7 @@ const faqs = [
   },
   {
     question: '自由が丘のピラティスの料金相場は？',
-    answer: '当サイト掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は10,450円〜15,280円（zen place pilates 自由が丘 第1スタジオ（マット）・the SILK 自由が丘店・2026年10月確認）です。ピラティスミラーは月6回11,000円と割安です。zen placeが月4回10,450円〜で最もリーズナブルです。',
+    answer: '当サイト掲載店のうち、公式サイトで料金を確認できた店舗のグループ月4回は10,450円〜15,280円（zen place pilates 自由が丘 第1スタジオ（マット）・the SILK 自由が丘店・2026年10月確認）です。ピラティスミラーは月6回12,100円と割安です。zen placeが月4回10,450円〜で最もリーズナブルです。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -183,7 +183,7 @@ const faqs = [
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'zen place自由が丘、ピラティスミラーは男性も通えます。the SILKは女性専用です。',
+    answer: 'zen place自由が丘は男性も通えます。ピラティスミラー（18歳以上の女性専用）とthe SILKは女性専用です。',
   },
   {
     question: '子連れで通えるスタジオはありますか？',
@@ -191,7 +191,7 @@ const faqs = [
   },
   {
     question: '短時間で効果的なスタジオは？',
-    answer: 'ピラティスミラーは1レッスン30分で効率的です。コナミスポーツ運営で安心です。月6回11,000円の手頃な料金設定です。',
+    answer: 'ピラティスミラーは1レッスン30分で効率的です。コナミスポーツ運営で安心です。月6回12,100円の料金設定です。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -413,7 +413,7 @@ export default function JiyugaokaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
-                  <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
+                  <li className="text-warm-700">• ピラティスミラー（月6回 12,100円）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -476,7 +476,7 @@ export default function JiyugaokaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（10,450円〜/月4回）</li>
-                  <li>• ピラティスミラー（11,000円/月6回）</li>
+                  <li>• ピラティスミラー（12,100円/月6回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -535,7 +535,7 @@ export default function JiyugaokaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKとDr.ピラティスは無料体験を実施しています。zen placeは1,000円、ピラティスミラーは2,200円で体験可能です。
+                  the SILKとDr.ピラティスは無料体験を実施しています。zen placeは1,000円、ピラティスミラーは0円で体験可能です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

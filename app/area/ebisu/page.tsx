@@ -232,10 +232,10 @@ const studios = [
   {
     name: 'ピラティスミラー 中目黒',
     image: '/images/studios/pilates-mirror.webp',
-    price: '月会費 11,000円（月6回）',
-    trial: '体験レッスン 2,200円',
+    price: '月会費 12,100円（月6回）',
+    trial: '体験レッスン 0円',
     features: ['コナミ運営', 'マシン専門', '中目黒', '月6回制'],
-    description: 'コナミスポーツクラブが運営するマシンピラティス専門スタジオです。恵比寿・中目黒エリアに位置しています。月会費11,000円で月6回まで通える費用対効果の良いプランです。プライベートレッスンも30分4,400円からです。大手運営ならではの安心感と清潔な施設が魅力です。',
+    description: 'コナミスポーツクラブが運営するマシンピラティス専門スタジオです。恵比寿・中目黒エリアに位置しています。月会費12,100円で月6回まで通える費用対効果の良いプランです。プライベートレッスンも30分4,400円からです。大手運営ならではの安心感と清潔な施設が魅力です。',
     access: '中目黒エリア / 恵比寿からもアクセス可',
     address: '東京都目黒区青葉台1丁目14-4 CONTRAL nakameguro',
     popularPlan: {
@@ -530,7 +530,7 @@ export default function EbisuPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Pilates Mee（1回あたり3,750円 ※37,500円の通い放題コースを月10回利用した場合・公式の算出）</li>
                   <li className="text-warm-700">• zen place pilates（月4回 10,450円）</li>
-                  <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
+                  <li className="text-warm-700">• ピラティスミラー（月6回 12,100円）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -598,7 +598,7 @@ export default function EbisuPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Pilates Mee（1回あたり3,750円 ※37,500円の通い放題コースを月10回利用した場合・公式の算出）</li>
                   <li>• zen place（10,450円/月4回）</li>
-                  <li>• ピラティスミラー（11,000円/月6回）</li>
+                  <li>• ピラティスミラー（12,100円/月6回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">

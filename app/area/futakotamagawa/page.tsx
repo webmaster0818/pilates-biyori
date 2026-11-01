@@ -141,10 +141,10 @@ const studios = [
   {
     name: 'ピラティスミラー 二子玉川',
     image: '/images/studios/pilates-mirror.webp',
-    price: '月会費 11,000円（月6回）',
+    price: '月会費 12,100円（月6回）',
     trial: '体験レッスンあり（当日入会で入会金無料）',
     features: ['コナミ運営', 'マシン専門', 'パーソナルあり', 'ミラー設備'],
-    description: 'コナミスポーツクラブが運営するマシンピラティス専門スタジオです。「もっと鏡が見たくなる」をコンセプトに、鏡を効果的に利用する新しいピラティススタジオです。月会費11,000円で月6回まで、7回目以降は1,100円で追加可能です。パーソナルレッスンも提供しています。',
+    description: 'コナミスポーツクラブが運営するマシンピラティス専門スタジオです。「もっと鏡が見たくなる」をコンセプトに、鏡を効果的に利用する新しいピラティススタジオです。月会費12,100円で月6回まで、7回目以降は1,100円で追加可能です。パーソナルレッスンも提供しています。',
     access: '二子玉川駅周辺',
     address: '東京都世田谷区玉川4丁目1-9 タマリバー246 2F',
     popularPlan: {
@@ -181,7 +181,7 @@ const faqs = [
   },
   {
     question: '二子玉川のピラティススタジオの料金相場は？',
-    answer: 'グループ月4回で10,450円〜15,400円程度です。ピラティスミラーは月6回11,000円で割安です。パーソナルは月2回19,800円〜が相場です。',
+    answer: 'グループ月4回で10,450円〜15,400円程度です。ピラティスミラーは月6回12,100円で割安です。パーソナルは月2回19,800円〜が相場です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -430,7 +430,7 @@ export default function FutakotamagawaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月額10,450円〜）</li>
-                  <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
+                  <li className="text-warm-700">• ピラティスミラー（月6回 12,100円）</li>
                   <li className="text-warm-700">• the SILK（月3回 13,280円〜）</li>
                 </ul>
               </div>
@@ -496,7 +496,7 @@ export default function FutakotamagawaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（10,450円〜）</li>
-                  <li>• ピラティスミラー（11,000円/月6回）</li>
+                  <li>• ピラティスミラー（12,100円/月6回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">

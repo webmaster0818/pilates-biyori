@@ -23,10 +23,10 @@ const studios = [
   {
     name: 'ピラティスミラー 三鷹',
     image: '/images/studios/pilates-mirror.webp',
-    price: '月6回 11,000円（税込）',
-    trial: '体験レッスン 2,200円',
+    price: '月6回 12,100円（税込）',
+    trial: '体験レッスン 0円',
     features: ['コナミスポーツ運営', '天井ミラー', '30分レッスン', '少人数制'],
-    description: 'コナミスポーツが運営するマシンピラティススタジオです。天井に設置されたミラーで自分のフォームをリアルタイムに確認しながらレッスンできるのが特徴です。1レッスン30分の効率的なプログラムのため、忙しい方でも通うことができます。少人数制で一人ひとりに目が行き届く丁寧な指導です。月6回11,000円のリーズナブルな料金設定も魅力です。',
+    description: 'コナミスポーツが運営するマシンピラティススタジオです。天井に設置されたミラーで自分のフォームをリアルタイムに確認しながらレッスンできるのが特徴です。1レッスン30分の効率的なプログラムのため、忙しい方でも通うことができます。少人数制で一人ひとりに目が行き届く丁寧な指導です。月6回12,100円のリーズナブルな料金設定も魅力です。',
     access: 'JR中央線「三鷹駅」周辺',
     address: '東京都三鷹市エリア（詳細は公式サイトでご確認ください）',
     popularPlan: {
@@ -155,7 +155,7 @@ const faqs = [
   },
   {
     question: '三鷹のピラティスの料金相場は？',
-    answer: 'ピラティスミラーは月6回11,000円です。YUZU、COCOLANCE、Pilaticiseはパーソナルレッスンで料金は公式サイトをご確認ください。目的と頻度に合わせてお選びください。',
+    answer: 'ピラティスミラーは月6回12,100円です。YUZU、COCOLANCE、Pilaticiseはパーソナルレッスンで料金は公式サイトをご確認ください。目的と頻度に合わせてお選びください。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -167,11 +167,11 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があれば問題ありません。ピラティスミラーは体験2,200円と気軽に試せます。YUZU、COCOLANCE、Pilaticiseも体験レッスンを実施しています。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。ピラティスミラーは体験0円と気軽に試せます。YUZU、COCOLANCE、Pilaticiseも体験レッスンを実施しています。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'ピラティスミラーは男女問わず利用可能です。COCOLANCE、Pilaticiseは女性専門・女性限定です。YUZUについては公式サイトでご確認ください。',
+    answer: 'ピラティスミラー（18歳以上の女性専用）、COCOLANCE、Pilaticiseは女性専門・女性限定です。YUZUについては公式サイトでご確認ください。',
   },
   {
     question: '女性専用のスタジオはありますか？',
@@ -397,7 +397,7 @@ export default function MitakaPage() {
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">月1万円台から始められるスタジオもあります。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
+                  <li className="text-warm-700">• ピラティスミラー（月6回 12,100円）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -452,7 +452,7 @@ export default function MitakaPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4〜6回</p>
                 <p className="text-sm text-warm-600 mb-4">手軽に始めたい方に適しています。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスミラー（11,000円/月6回）</li>
+                  <li>• ピラティスミラー（12,100円/月6回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -507,7 +507,7 @@ export default function MitakaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  ピラティスミラーは体験2,200円と手頃な価格で試せます。まずは体験で雰囲気やインストラクターとの相性をご確認ください。
+                  ピラティスミラーは体験0円と手頃な価格で試せます。まずは体験で雰囲気やインストラクターとの相性をご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -553,10 +553,10 @@ export default function MitakaPage() {
               今回は三鷹エリアのおすすめピラティススタジオ4選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              三鷹はJR中央線の特快停車駅で新宿まで約15分という好立地です。コナミスポーツ運営で天井ミラー付きのピラティスミラー（月6回11,000円）、豊富なマシン完備のパーソナルスタジオYUZU、女性専門・個室プライベートのCOCOLANCE、女性限定・駅徒歩3分のPilaticiseと、それぞれ特徴の異なるスタジオが揃っています。
+              三鷹はJR中央線の特快停車駅で新宿まで約15分という好立地です。コナミスポーツ運営で天井ミラー付きのピラティスミラー（月6回12,100円）、豊富なマシン完備のパーソナルスタジオYUZU、女性専門・個室プライベートのCOCOLANCE、女性限定・駅徒歩3分のPilaticiseと、それぞれ特徴の異なるスタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              まずは体験レッスンが手頃なピラティスミラー（体験2,200円）から試してみるのがおすすめです。本ページの情報を、スタジオ選びにお役立てください。
+              まずは体験レッスンが手頃なピラティスミラー（体験0円）から試してみるのがおすすめです。本ページの情報を、スタジオ選びにお役立てください。
             </p>
             <p className="text-warm-700 font-medium text-center">本ページが、ピラティススタジオ選びの参考になれば幸いです。</p>
           </div>
@@ -567,7 +567,7 @@ export default function MitakaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンのご予約</h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              ピラティスミラーは体験2,200円です。<br />
+              ピラティスミラーは体験0円です。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link

@@ -88,10 +88,10 @@ const studios = [
   {
     name: 'ピラティスミラー 下北沢',
     image: '/images/studios/pilates-mirror.webp',
-    price: '月6回 11,000円',
-    trial: '体験レッスン 2,200円',
+    price: '月6回 12,100円',
+    trial: '体験レッスン 0円',
     features: ['マシンピラティス', 'グループ&マンツーマン', 'コナミ運営', '月6回定額'],
-    description: 'コナミスポーツクラブが運営するマシンピラティス専門スタジオです。グループレッスンとマンツーマンの両方に対応しています。月6回11,000円、7回目以降は1回1,100円で追加可能です。プライベートレッスンも30分4,400円からとリーズナブルです。',
+    description: 'コナミスポーツクラブが運営するマシンピラティス専門スタジオです。グループレッスンとマンツーマンの両方に対応しています。月6回12,100円、7回目以降は1回1,100円で追加可能です。プライベートレッスンも30分4,400円からとリーズナブルです。',
     access: '小田急線・京王井の頭線「下北沢駅」徒歩圏内',
     address: '東京都世田谷区（下北沢エリア）',
     popularPlan: {
@@ -587,7 +587,7 @@ export default function ShimokitazawaPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place（マット月4回 10,450円〜）</li>
                   <li>• URBAN CLASSIC PILATES（月4回 9,680円）</li>
-                  <li>• ピラティスミラー（月6回 11,000円）</li>
+                  <li>• ピラティスミラー（月6回 12,100円）</li>
                   <li>• ピラティスK（月4回 11,220円〜）</li>
                 </ul>
               </div>
@@ -639,7 +639,7 @@ export default function ShimokitazawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  NATURAglamは1,000円、ピラティスミラーは2,200円、Pilates Studio Muniは3,300円で体験できます。実際の雰囲気やインストラクターとの相性を確かめることをおすすめします。
+                  NATURAglamは1,000円、ピラティスミラーは0円、Pilates Studio Muniは3,300円で体験できます。実際の雰囲気やインストラクターとの相性を確かめることをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

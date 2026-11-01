@@ -55,8 +55,8 @@ const studios = [
   {
     name: 'ピラティスミラー 志木',
     image: '/images/studios/pilates-mirror.webp',
-    price: '月6回 11,000円',
-    trial: '体験レッスン 2,200円',
+    price: '月6回 12,100円',
+    trial: '体験レッスン 0円',
     features: ['志木駅徒歩2分', 'KONAMI運営', '天井ミラー', '30分レッスン'],
     description: 'KONAMIが運営するマシンピラティススタジオです。志木駅南口から徒歩2分です。天井に鏡を設置した独自の空間で、自分の動きを確認しながらレッスンできます。1レッスン30分で忙しい方にも最適です。',
     access: '東武東上線「志木駅」南口 徒歩2分',
@@ -161,11 +161,11 @@ const faqs = [
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'URBAN CLASSIC PILATES志木店、ピラティスミラー志木は男性も利用可能です。SAKURA志木店とSOELU志木は女性専用です。',
+    answer: 'URBAN CLASSIC PILATES志木店は男性も利用可能です。ピラティスミラー志木（18歳以上の女性専用）、SAKURA志木店とSOELU志木は女性専用です。',
   },
   {
     question: '無料で体験できるスタジオはどこですか？',
-    answer: 'URBAN CLASSIC PILATES（0円体験）とSOELU（無料体験）が無料体験可能です。ピラティスミラーは体験2,200円です。',
+    answer: 'URBAN CLASSIC PILATES（0円体験）とSOELU（無料体験）が無料体験可能です。ピラティスミラーは体験0円です。',
   },
   {
     question: '予約不要で通えるスタジオはありますか？',
@@ -479,7 +479,7 @@ export default function ShikiPage() {
                   充実の設備で本格レッスンです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスミラー（11,000円/月6回）</li>
+                  <li>• ピラティスミラー（12,100円/月6回）</li>
                   <li>• URBAN CLASSIC（14,080円/通い放題）</li>
                 </ul>
               </div>

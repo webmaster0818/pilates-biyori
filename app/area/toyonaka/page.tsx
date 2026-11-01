@@ -74,7 +74,7 @@ const studios = [
   {
     name: 'ピラティスミラー 豊中',
     image: '/images/studios/pilates-mirror.webp', reviewCount: 78,
-    price: '月額 11,000円（月6回）', trial: '体験レッスン 2,200円',
+    price: '月額 12,100円（月6回）', trial: '体験レッスン 0円',
     features: ['女性専用', 'コナミ運営', '1回30分', '鏡活用レッスン'],
     description: 'コナミスポーツクラブが展開する女性専用マシンピラティススタジオです。阪急豊中駅から徒歩7分です。「鏡」を活用したレッスンで自分のフォームを確認しながら効果的にトレーニングです。1回30分の少人数制です。',
     access: '阪急宝塚線「豊中駅」徒歩7分',
@@ -106,7 +106,7 @@ const faqs = [
   { question: '豊中のピラティスの料金相場は？', answer: 'グループ月4回で8,800円〜9,625円程度です。通い放題はRintosullが月額8,800円〜です。パーソナルは1回7,500円〜8,500円です。梅田に比べて全体的にリーズナブルです。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめです。慣れたら週2〜3回に増やすと効果的です。STANCEやRintosullの通い放題プランなら毎日でも通えます。' },
   { question: 'ピラティスで痩せますか？', answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続で体の変化を実感される方が多くなっています。' },
-  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。zen placeはグループ体験1,000円、ピラティスミラーは2,200円で試せます。靴下（グリップソックス推奨）も忘れずにご用意ください。' },
+  { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。zen placeはグループ体験1,000円、ピラティスミラーは0円で試せます。靴下（グリップソックス推奨）も忘れずにご用意ください。' },
   { question: '男性でも通えるスタジオはありますか？', answer: 'zen place豊中、studio Pilates remove、Doux pilates studioは男性も通えます。STANCE、ピラティスミラー、Rintosullは女性専用です。' },
   { question: '豊中駅と曽根駅、どちらが便利？', answer: '豊中駅にはzen placeとstudio Pilates removeがあり、曽根駅にはDoux pilates studioとSTANCEがあります。自宅からの最寄り駅で選ぶのがおすすめです。' },
   { question: '豊中は大阪空港に近いですが関係ありますか？', answer: '豊中市は大阪空港（伊丹空港）に近接していますが、スタジオは住宅地にあるため飛行機の騒音は気になりません。空港従事者の方も多く通っています。' },
@@ -370,7 +370,7 @@ export default function ToyonakaPage() {
                 <p className="text-3xl font-bold text-warm-800 mb-4">月6回〜通い放題</p>
                 <p className="text-sm text-warm-600 mb-4">頻度高く通う方におすすめです。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスミラー月6回（11,000円）</li>
+                  <li>• ピラティスミラー月6回（12,100円）</li>
                   <li>• zen placeフリー（14,960円〜）</li>
                 </ul>
               </div>

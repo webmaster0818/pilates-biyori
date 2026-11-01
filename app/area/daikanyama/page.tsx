@@ -90,10 +90,10 @@ const studios = [
   {
     name: 'ピラティスミラー 中目黒',
     image: '/images/studios/pilates-mirror.webp',
-    price: '月会費 11,000円（月6回）',
-    trial: '体験レッスン 2,200円',
+    price: '月会費 12,100円（月6回）',
+    trial: '体験レッスン 0円',
     features: ['コナミ運営', 'マシン専門', '中目黒', '月6回制'],
-    description: 'コナミスポーツクラブが運営するマシンピラティス専門スタジオです。中目黒エリアに位置し、代官山からも好アクセスです。月会費11,000円で月6回まで通える費用対効果の良いプランです。プライベートレッスンも30分4,400円からとリーズナブルです。大手運営ならではの安心感と清潔な施設が魅力です。',
+    description: 'コナミスポーツクラブが運営するマシンピラティス専門スタジオです。中目黒エリアに位置し、代官山からも好アクセスです。月会費12,100円で月6回まで通える費用対効果の良いプランです。プライベートレッスンも30分4,400円からとリーズナブルです。大手運営ならではの安心感と清潔な施設が魅力です。',
     access: '中目黒エリア / 代官山からもアクセス可',
     address: '東京都目黒区青葉台1丁目14-4 CONTRAL nakameguro',
     popularPlan: { name: '月会費プラン（月6回）', description: 'マシンピラティス月6回までです。コナミ運営の安心感です。', price: '月会費 11,000円（税込）' },
@@ -330,7 +330,7 @@ export default function DaikanyamaPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月額10,450円〜）</li>
                   <li className="text-warm-700">• BDC PILATES（月4回 16,280円）</li>
-                  <li className="text-warm-700">• ピラティスミラー（月6回 11,000円）</li>
+                  <li className="text-warm-700">• ピラティスミラー（月6回 12,100円）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -375,7 +375,7 @@ export default function DaikanyamaPage() {
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜12,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4〜6回</p>
                 <p className="text-sm text-warm-600 mb-4">グループレッスンが中心です。体験無料のスタジオもあります。</p>
-                <ul className="text-sm text-warm-700 space-y-1"><li>• zen place pilates（10,450円〜）</li><li>• BDC PILATES（16,280円）</li><li>• ピラティスミラー（11,000円/月6回）</li></ul>
+                <ul className="text-sm text-warm-700 space-y-1"><li>• zen place pilates（10,450円〜）</li><li>• BDC PILATES（16,280円）</li><li>• ピラティスミラー（12,100円/月6回）</li></ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>

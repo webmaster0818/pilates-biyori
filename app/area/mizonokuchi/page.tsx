@@ -65,12 +65,12 @@ const studios = [
   {
     name: 'ピラティスミラー 溝の口',
     image: '/images/studios/pilates-mirror.webp', reviewCount: 96,
-    price: '月6回 11,000円', trial: '体験レッスンあり',
+    price: '月6回 12,100円', trial: '体験レッスンあり',
     features: ['天井ミラー', '女性専用', '少人数制', 'KONAMI運営'],
     description: 'KONAMI運営の女性専用マシンピラティススタジオです。天井に設置されたミラーで自身の動きを確認しながらトレーニングできる独自のシステムです。最大9名の少人数制です。1レッスン30分で気軽に参加可能です。',
     access: '東急田園都市線「溝の口駅」周辺',
     address: '神奈川県川崎市高津区溝口エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: '月6回プラン', description: '天井ミラー付きマシンピラティスです。最大9名の少人数制です。', price: '月6回 11,000円（税込）' },
+    popularPlan: { name: '月6回プラン', description: '天井ミラー付きマシンピラティスです。最大9名の少人数制です。', price: '月6回 12,100円（税込）' },
     options: ['30分レッスン', '女性専用', 'KONAMI運営の安心感', '体験レッスンあり'],
     userProfile: { ageRange: '20代〜40代が中心', genderRatio: '女性100%（女性専用）', purpose: ['ボディメイク', '姿勢改善', 'ダイエット', '運動不足解消'] },
     basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマーマシン', '天井ミラー', 'フィッティングルーム（カーテン仕切り）', '荷物置きBOX（鍵なし）'] },
@@ -363,7 +363,7 @@ export default function MizonokuchiPage() {
                   費用を抑えたい方向けです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• ピラティスミラー（11,000円/月6回）</li>
+                  <li>• ピラティスミラー（12,100円/月6回）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
