@@ -142,7 +142,7 @@ export default function DenenchofuPage() {
         <AreaQuickAnswer areaName="田園調布" rows={[
           { label: '店舗数', text: '田園調布駅から徒歩2分圏に4社（Dr.ピラティス 徒歩30秒、TSUTAYA Conditioning PILATES・Pilates Mee・ピラティスステーションライト 各徒歩2分）、隣の奥沢駅にSTUDIO IVY 奥沢店（徒歩4分）があり、計5社を掲載しています。' },
           { label: '料金', text: 'マシンのグループはTSUTAYA Conditioning PILATES 月4回13,200円（女性専用・少人数）、セミパーソナル（最大3名）はPilates Mee 月2回11,000円〜、回数券制のステーションライトはグループ1回2,850〜3,500円。マンツーマンはSTUDIO IVY 月4回28,000円・Dr.ピラティス 月4回29,700円（45分）です（税込）。' },
-          { label: '体験', text: 'TSUTAYA Conditioning PILATES・Pilates Mee・Dr.ピラティスが0円。STUDIO IVYは通常4,500円で、2026年10月31日までは無料キャンペーンです。' },
+          { label: '体験', text: 'TSUTAYA Conditioning PILATES・Pilates Mee・Dr.ピラティスが0円。STUDIO IVYは4,500円です（2026年11月1日 公式で確認）。' },
           { label: '選び方', text: '月1万円台でマシンを続けたいならTSUTAYAかPilates Mee、月謝なしで通いたいならステーションライト、マンツーマンならDr.ピラティスかSTUDIO IVYが候補です。' },
         ]} note="値は各公式サイトの表記（2026年10月11日〜21日確認）。入会金・営業時間は下の早見表にまとめています。" />
 
@@ -191,7 +191,7 @@ export default function DenenchofuPage() {
           <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Pilates Mee 田園調布店</td><td className="px-4 py-3">田園調布駅 徒歩2分（田園調布3-4-5）</td><td className="px-4 py-3">最大3名のセミパーソナル／パーソナル・女性専用</td><td className="px-4 py-3">月2回 11,000円／月4回 19,800円</td><td className="px-4 py-3">無料</td></tr>
           <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ピラティスステーションライト 田園調布stn.</td><td className="px-4 py-3">田園調布駅 徒歩2分（田園調布2-51-4）</td><td className="px-4 py-3">定員3名のリフォーマーグループ／プライベート</td><td className="px-4 py-3">グループ1回 2,850〜3,500円（回数券）</td><td className="px-4 py-3">あり（料金は公式で確認）</td></tr>
           <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">TSUTAYA Conditioning PILATES 田園調布店</td><td className="px-4 py-3">田園調布駅 徒歩約2分（田園調布2-40-19）</td><td className="px-4 py-3">少人数のマシン・女性専用</td><td className="px-4 py-3">月4回 13,200円／月8回 22,000円</td><td className="px-4 py-3">0円（1人1回）</td></tr>
-          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">STUDIO IVY 奥沢店</td><td className="px-4 py-3">奥沢駅 徒歩4分／田園調布駅から直線約500m（奥沢4-9-11）</td><td className="px-4 py-3">1対1のパーソナル・男性も可</td><td className="px-4 py-3">月4回 28,000円（1回7,000円）</td><td className="px-4 py-3">4,500円（10/31まで無料）</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">STUDIO IVY 奥沢店</td><td className="px-4 py-3">奥沢駅 徒歩4分／田園調布駅から直線約500m（奥沢4-9-11）</td><td className="px-4 py-3">1対1のパーソナル・男性も可</td><td className="px-4 py-3">月4回 28,000円（1回7,000円）</td><td className="px-4 py-3">4,500円</td></tr>
         </tbody></table></div><p className="text-warm-600 leading-relaxed mt-4 text-sm">男性が通えるのは、掲載5店のうち Dr.ピラティス（マンツーマン）と STUDIO IVY（1対1のパーソナル）です。Pilates Mee と TSUTAYA Conditioning PILATES は女性専用です。月謝制ではなく回数券で通いたい場合は、ピラティスステーションライトのWATT制（1WATT 3,500円〜60WATT 171,000円）が候補になります。</p></div></section>
 
         {/* 初期費用・営業時間の早見表（2026-10-21 追加・各公式店舗ページで当日確認した表示のみ。記載の無い項目は「記載なし」） */}
@@ -200,7 +200,7 @@ export default function DenenchofuPage() {
           <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Pilates Mee 田園調布店</td><td className="px-4 py-3">記載なし</td><td className="px-4 py-3">0円</td><td className="px-4 py-3">セミパーソナル 4,950円（月4回）〜5,500円（月2回）</td><td className="px-4 py-3">9:00〜21:15</td><td className="px-4 py-3">不定休</td></tr>
           <tr className="border-b border-warm-200 bg-white"><td className="px-4 py-3 font-medium">ピラティスステーションライト 田園調布stn.</td><td className="px-4 py-3">記載なし（月謝なしの回数券制）</td><td className="px-4 py-3">あり（料金の記載なし）</td><td className="px-4 py-3">グループ 2,850〜3,500円（回数券の枚数による）</td><td className="px-4 py-3">記載なし</td><td className="px-4 py-3">記載なし</td></tr>
           <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">TSUTAYA Conditioning PILATES 田園調布店</td><td className="px-4 py-3">会員登録料 2,200円（キャンペーンで0円・公式お知らせ 2026/10/1）</td><td className="px-4 py-3">0円（1人1回）</td><td className="px-4 py-3">月4回 3,300円／月8回 2,750円（月会費÷回数）</td><td className="px-4 py-3">レッスンスケジュール（PDF）で確認</td><td className="px-4 py-3">年中無休（年末年始を除く）</td></tr>
-          <tr className="border-b border-warm-200 bg-white"><td className="px-4 py-3 font-medium">STUDIO IVY 奥沢店</td><td className="px-4 py-3">記載なし</td><td className="px-4 py-3">4,500円（10/1〜10/31は無料）</td><td className="px-4 py-3">6,500円（月8回）〜7,500円（月2回）</td><td className="px-4 py-3">8:00〜21:00</td><td className="px-4 py-3">記載なし</td></tr>
+          <tr className="border-b border-warm-200 bg-white"><td className="px-4 py-3 font-medium">STUDIO IVY 奥沢店</td><td className="px-4 py-3">記載なし</td><td className="px-4 py-3">4,500円</td><td className="px-4 py-3">6,500円（月8回）〜7,500円（月2回）</td><td className="px-4 py-3">8:00〜21:00</td><td className="px-4 py-3">記載なし</td></tr>
         </tbody></table></div><p className="text-warm-600 leading-relaxed mt-4 text-sm">1回あたりの目安は、Dr.ピラティス・Pilates Mee・STUDIO IVY は公式店舗ページの「1回あたり」表記、TSUTAYA Conditioning PILATES は月会費を月の上限回数で割った値です。Pilates Mee の通い放題コース（月37,500円）は、公式店舗ページでは月10回利用で1回あたり3,750円と案内されています。駐輪場は TSUTAYA Conditioning PILATES の公式店舗ページに「あり」と記載があります。</p></div></section>
 
         {/* 近隣駅（2026-10-21 追加・駅数は東急線の路線図による） */}
@@ -254,7 +254,7 @@ export default function DenenchofuPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">0円〜4,500円（STUDIO IVY の通常料金。10/31までは無料）</td>
+                    <td className="px-4 py-3">0円〜4,500円（STUDIO IVY）</td>
                   </tr>
                 </tbody>
               </table>
@@ -287,7 +287,7 @@ export default function DenenchofuPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">体験レッスンの料金差に注意</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  田園調布エリアのスタジオは体験レッスンの料金はスタジオにより幅があります。TSUTAYA Conditioning PILATESは0円（1人1回まで）、Pilates Meeは体験レッスン無料、STUDIO IVYは4,500円（2026年10月31日までは無料キャンペーン）、Dr.ピラティス田園調布店は0円です（各公式店舗ページ・2026年10月21日確認）。ピラティスステーションライトの体験料金は公式店舗ページに記載がありません。事前に確認してからご予約ください。
+                  田園調布エリアのスタジオは体験レッスンの料金はスタジオにより幅があります。TSUTAYA Conditioning PILATESは0円（1人1回まで）、Pilates Meeは体験レッスン無料、STUDIO IVYは4,500円、Dr.ピラティス田園調布店は0円です（各公式店舗ページ・2026年10月21日確認）。ピラティスステーションライトの体験料金は公式店舗ページに記載がありません。事前に確認してからご予約ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -475,7 +475,7 @@ export default function DenenchofuPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  TSUTAYA Conditioning PILATES・Pilates Mee・Dr.ピラティスは0円で体験でき、STUDIO IVYも2026年10月31日までは無料です。まずは2-3スタジオの体験を受けて比較することをおすすめします。
+                  TSUTAYA Conditioning PILATES・Pilates Mee・Dr.ピラティスは0円、STUDIO IVYは4,500円で体験できます。まずは2-3スタジオの体験を受けて比較することをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

@@ -116,9 +116,9 @@ const studios = [
     officialUrl: 'https://uapilates.com/',
     image: '/images/studios/ua-pilates-kitahama.webp',
     price: 'パーソナル 月2回 21,000円／月4回 38,000円（税込）',
-    trial: '初回体験 13,000円（10月31日まで 5,000円のキャンペーン）',
+    trial: '初回体験 13,000円（11月30日まで 5,000円のキャンペーン・先着30名）',
     features: ['パーソナル専門', '淀屋橋・北浜とも徒歩約5分', '30分のショートパーソナル', '1対2のセミパーソナル'],
-    description: '淀屋橋駅・北浜駅から徒歩約5分、平野町のイシモトビル9階にある韓国式ピラティスのスタジオです。スタンダードパーソナル（セッション50分＋着替え10分）は月2回21,000円・月4回38,000円、30分のショートパーソナルは月4回20,000円、知り合い同士で受ける1対2のセミパーソナルは5回券35,000円です。入会金は22,000円です（10月31日までのキャンペーンで0円）（公式サイト・税込・2026年10月16日確認）。',
+    description: '淀屋橋駅・北浜駅から徒歩約5分、平野町のイシモトビル9階にある韓国式ピラティスのスタジオです。スタンダードパーソナル（セッション50分＋着替え10分）は月2回21,000円・月4回38,000円、30分のショートパーソナルは月4回20,000円、知り合い同士で受ける1対2のセミパーソナルは5回券35,000円です。入会金は22,000円です（11月30日までのキャンペーンで0円・先着30名）（公式サイト・税込・2026年11月1日確認）。',
     access: 'Osaka Metro御堂筋線・京阪本線「淀屋橋駅」徒歩約5分 / Osaka Metro堺筋線「北浜駅」徒歩約5分 / 「堺筋本町駅」徒歩約7分',
     address: '〒541-0046 大阪府大阪市中央区平野町2丁目2-8 イシモトビル 9F',
     popularPlan: {
@@ -127,7 +127,7 @@ const studios = [
       price: '月4回 38,000円（税込）',
     },
     options: [
-      '入会金 22,000円（税込・10月31日まで0円）',
+      '入会金 22,000円（税込・11月30日まで0円）',
       'ショートパーソナル（30分）月2回 11,000円〜月6回 30,000円',
       'セミパーソナル（1対2）5回券 35,000円',
       'マタニティピラティス',
@@ -202,13 +202,13 @@ const studios = [
     price: 'ライト（月4回）月額4,980円／スタンダード（通い放題）月額7,980円／プレミアム（通い放題＋パーソナル月2回）月額17,980円／プライベートパーソナルレッスン 1回7,980円（単発）（いずれも税込）',
     trial: '初回体験レッスン無料',
     features: ['肥後橋駅6番出口 徒歩1分', 'マットピラティス中心の少人数制グループ', 'ヨガ・ヒップアップ・バレエも選択可', '月額4,980円から', 'グループ＋プライベート（マンツーマン）'],
-    description: '肥後橋駅6番出口から徒歩1分、淀屋橋駅から徒歩5分、江戸堀1丁目のアール肥後橋5階にあるピラティススタジオです。マットピラティス中心の少人数制グループレッスンで、ヨガ・ヒップアップ・バレエなども選べます。1クラスの定員は14名で、10名以下のクラスもあります。月額はライト（月4回）4,980円・スタンダード（通い放題）7,980円・プレミアム（通い放題＋パーソナル月2回）17,980円、入会金は19,800円で、初回体験レッスンは無料です。2026年10月からは、インストラクターがマンツーマンで指導するプライベートパーソナルレッスン（1回7,980円・単発）も受けられます。公式サイトでは、2026年10月31日までの入会でスタンダードが6,980円（在籍中は継続）と案内しています（スタジオからのご案内・公式サイト・税込・2026年10月21日確認。プライベートパーソナルレッスンは2026年10月21日のスタジオからのご案内）。',
+    description: '肥後橋駅6番出口から徒歩1分、淀屋橋駅から徒歩5分、江戸堀1丁目のアール肥後橋5階にあるピラティススタジオです。マットピラティス中心の少人数制グループレッスンで、ヨガ・ヒップアップ・バレエなども選べます。1クラスの定員は14名で、10名以下のクラスもあります。月額はライト（月4回）4,980円・スタンダード（通い放題）7,980円・プレミアム（通い放題＋パーソナル月2回）17,980円、入会金は19,800円で、初回体験レッスンは無料です。2026年10月からは、インストラクターがマンツーマンで指導するプライベートパーソナルレッスン（1回7,980円・単発）も受けられます。公式サイトでは、11月30日までの体験後にスタジオで入会すると入会金0円（通常19,800円・6ヶ月の継続期間あり）と案内しています（2026年11月1日確認）（スタジオからのご案内・公式サイト・税込・2026年10月21日確認。プライベートパーソナルレッスンは2026年10月21日のスタジオからのご案内）。',
     access: '肥後橋駅（Osaka Metro四つ橋線）6番出口 徒歩1分／淀屋橋駅 徒歩5分',
     address: '〒550-0002 大阪府大阪市西区江戸堀1-8-17 アール肥後橋5F',
     popularPlan: {
       name: 'スタンダード（通い放題）',
       description: 'マットピラティス中心のグループレッスンに、回数の上限なく通えるプランです。',
-      price: '月額7,980円（税込・2026年10月31日までの入会は6,980円）',
+      price: '月額7,980円（税込）',
     },
     options: [
       '入会金 19,800円',
@@ -256,7 +256,7 @@ const faqs = [
   },
   {
     question: '体験レッスンは何を持っていけばいいですか？',
-    answer: '動きやすい服装と飲み物があれば問題ありません。zen placeはマットグループの初回体験が1,000円、Ua pilatesは初回体験13,000円（10月31日まで5,000円）です。',
+    answer: '動きやすい服装と飲み物があれば問題ありません。zen placeはマットグループの初回体験が1,000円、Ua pilatesは初回体験13,000円（11月30日まで5,000円）です。',
   },
   {
     question: 'ピラティスとヨガの違いは何ですか？',
@@ -355,7 +355,7 @@ export default function KitahamaPage() {
 
         <section className="py-12 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">淀屋橋駅からの徒歩分で比べる早見表</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">「淀屋橋 ピラティス」で探す方向けに、掲載7店を淀屋橋駅から近い順に並べました。徒歩分・住所・体験料金は各スタジオの公式サイトの表記です（2026年10月20日確認・税込）。淀屋橋駅から徒歩5分以内は5店です。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">淀屋橋駅から</th><th className="px-4 py-3 text-left">ほかの最寄駅</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">体験</th></tr></thead><tbody>
           <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ビーキューブ（伏見町2-6-6 KANBEビル3F）</td><td className="px-4 py-3">徒歩3分</td><td className="px-4 py-3">北浜駅 徒歩3分</td><td className="px-4 py-3">プライベート（完全予約制）</td><td className="px-4 py-3">無料コンサルティング</td></tr>
-          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Ua pilates 北浜（平野町2-2-8 イシモトビル9F）</td><td className="px-4 py-3">徒歩約5分</td><td className="px-4 py-3">北浜駅 徒歩約5分</td><td className="px-4 py-3">パーソナル・セミパーソナル</td><td className="px-4 py-3">13,000円（10/31まで5,000円）</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Ua pilates 北浜（平野町2-2-8 イシモトビル9F）</td><td className="px-4 py-3">徒歩約5分</td><td className="px-4 py-3">北浜駅 徒歩約5分</td><td className="px-4 py-3">パーソナル・セミパーソナル</td><td className="px-4 py-3">13,000円（11/30まで5,000円）</td></tr>
           <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">PILATES STUDIO JOODY 本町（平野町4-8-5）</td><td className="px-4 py-3">13号出口 徒歩5分</td><td className="px-4 py-3">肥後橋駅 6号出口 徒歩5分</td><td className="px-4 py-3">パーソナル・ペアのセミパーソナル（女性専用）</td><td className="px-4 py-3">パーソナル 7,920円〜</td></tr>
           <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">MIKOTO pilates studio（江戸堀1-8-17 アール肥後橋5F）</td><td className="px-4 py-3">徒歩5分</td><td className="px-4 py-3">肥後橋駅 6番出口 徒歩1分</td><td className="px-4 py-3">マットピラティス中心の少人数制グループ・プライベート</td><td className="px-4 py-3">無料</td></tr>
           <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Pilates Bodywork Studio（伏見町2-3-9 TAG北浜ビル2F）</td><td className="px-4 py-3">徒歩5分</td><td className="px-4 py-3">北浜駅 徒歩1分</td><td className="px-4 py-3">リフォーマーのグループ・プライベート</td><td className="px-4 py-3">プライベート 8,800円</td></tr>
@@ -467,7 +467,7 @@ export default function KitahamaPage() {
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">入会キャンペーンの条件と最低契約期間を確認</h3>
                 <p className="text-warm-600 leading-relaxed">
-                  入会金が体験当日の入会で無料・半額になるスタジオ（zen place・JOODY）や、期間限定で入会金0円にしているスタジオ（Ua pilates・10月31日まで）があります。キャンペーンの条件や期限は変わるので、申し込む前に公式サイトでご確認ください。
+                  入会金が体験当日の入会で無料・半額になるスタジオ（zen place・JOODY）や、期間限定で入会金0円にしているスタジオ（Ua pilates・11月30日まで）があります。キャンペーンの条件や期限は変わるので、申し込む前に公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -661,7 +661,7 @@ export default function KitahamaPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  zen placeはマットグループ初回1,000円、ビーキューブは無料コンサルティング、ピラティススタジオ進化は2回分7,700円、Ua pilatesは初回体験13,000円（10月31日まで5,000円）です。
+                  zen placeはマットグループ初回1,000円、ビーキューブは無料コンサルティング、ピラティススタジオ進化は2回分7,700円、Ua pilatesは初回体験13,000円（11月30日まで5,000円）です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
