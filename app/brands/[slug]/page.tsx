@@ -19,6 +19,7 @@ import { LAVA_MACHINE_PILATES_OFFICIAL } from '@/data/lava-machine-pilates-offic
 import { REPILATES_OFFICIAL } from '@/data/repilates-official-stores'
 import { LULUTO_OFFICIAL } from '@/data/luluto-official-stores'
 import { DEP_OFFICIAL } from '@/data/dep-official-stores'
+import { LA_PILATES_OFFICIAL } from '@/data/la-pilates-official-stores'
 
 // 公式の全店舗一覧（都道府県別）を出すブランド。pilates K（10/27）と同じ部品を、単ワード検索で10位手前の3ブランドに横展開（2026-10-28）
 const OFFICIAL_STORE_LISTS: Record<string, { list: OfficialStoreList; heading: string; button: string; intro: string; note: string }> = {
@@ -49,7 +50,7 @@ const OFFICIAL_STORE_LISTS: Record<string, { list: OfficialStoreList; heading: s
     heading: '全店舗一覧（公式・都道府県別{n}店舗と営業時間）',
     button: '公式の全{n}店舗（住所・営業時間つき）へ移動 ↓',
     intro: 'Repilates公式の店舗一覧に載っている営業中の全{n}店舗を、都道府県ごとに店舗名・営業時間・住所で掲載しています（{asOf}確認）。公式の一覧には最寄駅の表記がなく、イオンモール・イオンタウンなど商業施設内の店舗が多いため、住所の施設名で場所を確認できます。',
-    note: '公式の一覧には、このほかオープン予定の店舗が12店（2026年オープン予定＝イオンタウン館山店〈11月1日〉・アクロスプラザ昭島店・湘南モールフィル店・イオンモール銚子店・日生中央サピエ店・イオン浜松西店・イオンモールとなみ店、2027年オープン予定＝イオンモール加西北条店・イオン高岡江尻店・ヤオコー岩槻本丸店・リーフウォーク稲沢店・トライアル南アルプス店）載っています（この表には含めていません）。料金は全店共通の公式トップページの表記で、特定商取引法の表記には「価格は店舗により異なる」とあります。',
+    note: '館山・銚子・湘南モールフィルの3店は、公式の店舗ページに「2026年11月1日グランドオープン」と表示されているため営業中に含めています。公式の一覧には、このほかオープン予定の店舗が11店（アクロスプラザ昭島店〈店舗ページの表示は11月4日グランドオープン〉、2026年12月＝日生中央サピエ店・イオン浜松西店・イオンモールとなみ店、2027年1月＝イオンモール加西北条店・イオン高岡江尻店・ヤオコー岩槻本丸店・リーフウォーク稲沢店・トライアル南アルプス店、2027年2月＝イオンモール三川店、ほかに鹿嶋チェリオ店）載っています（この表には含めていません）。料金は全店共通の公式トップページの表記で、特定商取引法の表記には「価格は店舗により異なる」とあります。',
   },
   luluto: {
     list: LULUTO_OFFICIAL,
@@ -57,6 +58,14 @@ const OFFICIAL_STORE_LISTS: Record<string, { list: OfficialStoreList; heading: s
     button: '公式の全{n}店舗（最寄駅・住所つき）へ移動 ↓',
     intro: 'ルルト公式の「体験予約・店舗一覧」に載っている国内の全{n}店舗（2026年11月1日オープン予定の本八幡店を含む）を、都道府県ごとに店舗名・アクセス・住所で掲載しています。アクセスは公式の一覧の表記で、車で通う店舗は駐車場の案内になっています（{asOf}確認）。',
     note: '料金（月3回29,700円〜・入会金22,000円）は全店共通の公式の料金表のとおりです。体験料金（45分・1,000円〜5,000円）と体験の受付状況は店舗ごとに異なり、土日祝の新規体験を止めている店舗や体験の受付を停止している店舗もあるため、通いたい店舗の公式ページで確認してください。',
+  },
+  // 2026-11-02 成長ルーチン:「ラピラティス」9.0位・「la pilates」15.6位（10/31→11/1 で10位圏外）。CLUB PILATES（13.1→9.7）で効いた公式の全店舗一覧の型
+  'la-pilates': {
+    list: LA_PILATES_OFFICIAL,
+    heading: '全店舗一覧（公式・都道府県別{n}店舗と最寄り駅）',
+    button: '公式の全{n}店舗（最寄り駅・住所つき）へ移動 ↓',
+    intro: 'La pilates（ラピラティス）公式の「スタジオ一覧」に載っている全{n}店舗を、都道府県ごとに店舗名・最寄り駅・住所で掲載しています。最寄り駅と住所は各店舗の公式ページの「最寄り駅」「住所」欄の表記です（{asOf}確認）。',
+    note: '公式トップページの店舗数の表記は「126店舗」で、スタジオ一覧に載っている店舗数（124店舗）とは2店舗の差があります。料金（サブスク月1回12,000円〜・体験90分 通常14,000円→初回3,000円、税込）は公式のメニュー・料金ページと各店舗ページで同じ表記です。',
   },
   dep: {
     list: DEP_OFFICIAL,
@@ -788,7 +797,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
           })()}
 
           {/* Googleマップ口コミの集約（569件の資産をブランド単位で俯瞰。2026-08-27） */}
-          <BrandReviewDigest brandSlug={brand.slug} brandName={brand.name} />
+          <BrandReviewDigest brandSlug={brand.slug} brandName={brand.reviewName ?? brand.name} lead={brand.reviewLead} />
 
           {/* 口コミに多いテーマと注意点（2026-10-08・店舗要約を横断して整理。stores は STUDIO_REVIEWS のキー） */}
           {brand.reviewThemes && <BrandReviewThemes brandName={brand.name} themes={brand.reviewThemes} />}

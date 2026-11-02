@@ -1,10 +1,10 @@
 // Repilates 公式「STUDIO（店舗を探す）」（https://repilates.jp/studio/）の営業中の全店（オープン予定は含めない）
-// 2026-10-29 に公式から取得（27店舗）。都道府県は公式一覧の見出し（または住所）による。
+// 2026-10-29 に公式から取得（27店舗）。2026-11-02: 公式の店舗ページで「2026年11月1日グランドオープン」と表示された館山・銚子・湘南モールフィルの3店を追加（30店舗。住所・営業時間は公式一覧の表記）。都道府県は公式一覧の見出し（または住所）による。
 // ⚠️ 値を手で書き足さない。更新するときは公式一覧を取り直して丸ごと置き換える（scripts/gen-official-store-lists-20261029.py の手順）。
 import type { OfficialStoreList } from './official-store-list-type'
 
 export const REPILATES_OFFICIAL: OfficialStoreList = {
-  asOf: '2026年10月29日',
+  asOf: '2026年11月2日',
   sourceLabel: "Repilates公式 店舗一覧",
   sourceUrl: "https://repilates.jp/studio/",
   extraLabel: undefined,
@@ -18,10 +18,13 @@ export const REPILATES_OFFICIAL: OfficialStoreList = {
     { pref: "埼玉県", name: "Repilates イオンタウン東浦和店", access: "10:00〜21:00", address: "埼玉県さいたま市緑区東浦和1丁目1-6 イオンタウン東浦和 3F", url: "https://repilates.jp/studio/higashiurawa/" },
     { pref: "埼玉県", name: "Repilates イオンタウン吉川美南店", access: "10:00〜21:00", address: "埼玉県吉川市美南3丁目25-1 イオンタウン吉川美南 東街区1F", url: "https://repilates.jp/studio/yoshikawaminami/" },
     { pref: "千葉県", name: "Repilates イオンモール木更津店", access: "10:00〜21:00", address: "千葉県木更津市築地1−4 イオンモール木更津 2F", url: "https://repilates.jp/studio/kisarazu/" },
+    { pref: "千葉県", name: "Repilates イオンタウン館山店", access: "10:00〜21:00", address: "千葉県館山市八幡545-1 イオンタウン館山 1F", url: "https://repilates.jp/studio/tateyama/" },
+    { pref: "千葉県", name: "Repilates イオンモール銚子店", access: "10:00〜21:00", address: "千葉県銚子市三崎町2丁目2660-1", url: "https://repilates.jp/studio/choshi/" },
     { pref: "東京都", name: "Repilates フレスポ若葉台店", access: "9:00〜21:30", address: "東京都稲城市若葉台2丁目4-2 フレスポ若葉台WEST 2F 10番 （2F一番奥／個別教室のトライ横）", url: "https://repilates.jp/studio/wakabadai/" },
     { pref: "東京都", name: "Repilates アクロスモール八王子みなみ野店", access: "9:00〜21:00", address: "東京都八王子市みなみ野1丁目2-1 アクロスモール八王子みなみ野 2F", url: "https://repilates.jp/studio/hachioji/" },
     { pref: "東京都", name: "Repilates 池袋店", access: "9:00〜21:00", address: "東京都豊島区西池袋三丁目22番9号 パークアクシス池袋 1F", url: "https://repilates.jp/studio/ikebukuro/" },
     { pref: "東京都", name: "Repilates 飯田橋神楽坂店", access: "7:30〜21:00", address: "東京都新宿区下宮比町1番4号 飯田橋御幸ビル B1F", url: "https://repilates.jp/studio/iidabashi/" },
+    { pref: "神奈川県", name: "Repilates 湘南モールフィル店", access: "10:00〜21:00", address: "神奈川県藤沢市辻堂新町4丁目1-1 湘南モールフィル 2F", url: "https://repilates.jp/studio/shonan/" },
     { pref: "山梨県", name: "Repilates MEGAドン・キホーテUNY石和店", access: "10:00〜21:00", address: "山梨県笛吹市石和町窪中島154 MEGAドン・キホーテUNY石和店 2F", url: "https://repilates.jp/studio/isawa/" },
     { pref: "岐阜県", name: "Repilates カラフルタウン岐阜店", access: "9:00〜21:30", address: "岐阜県岐阜市柳津町丸野3丁目3-3 カラフルタウン エミノワ館2F", url: "https://repilates.jp/studio/gifu/" },
     { pref: "静岡県", name: "Repilates マークイズ静岡店", access: "10:00〜20:00", address: "静岡県静岡市葵区柚木1026 マークイズ静岡3F", url: "https://repilates.jp/studio/shizuoka/" },

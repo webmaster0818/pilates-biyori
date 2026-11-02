@@ -14,7 +14,7 @@ import { storePageOf } from '@/lib/storePages'
 // ⚠️ ★は取得できた実値のみ。件数・取得時点を必ず併記し、良い店だけを選ばない
 //    （並び順は口コミ件数＝母数の多い順。評価順にすると高評価店だけが上に来る）。
 
-export function BrandReviewDigest({ brandSlug, brandName }: { brandSlug: string; brandName: string }) {
+export function BrandReviewDigest({ brandSlug, brandName, lead }: { brandSlug: string; brandName: string; lead?: string }) {
   // 同じ店舗が表記ゆれ（空白の有無など）で2キーある場合に二重計上しないよう、Googleマップの出典URLで1店舗にまとめる（2026-10-09 Pilates Mee で5店舗の重複を確認）
   const seen = new Set<string>()
   const rows = Object.values(STUDIO_REVIEWS).filter((r) => {
@@ -53,6 +53,7 @@ export function BrandReviewDigest({ brandSlug, brandName }: { brandSlug: string;
       <h2 className="text-xl font-light text-warm-900 border-b border-warm-200 pb-2 mb-4">
         {brandName}の口コミ・評判（Googleマップ {rows.length}店舗分の要約）
       </h2>
+      {lead && <p className="text-sm text-warm-700 font-light leading-relaxed mb-4">{lead}</p>}
 
       <div className="bg-warm-50 border border-warm-200 p-5 mb-5">
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
