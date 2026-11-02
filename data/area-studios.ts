@@ -53,7 +53,7 @@ export const areaStudios: Record<string, AreaData> = {
         image: '/images/pilates2.jpg',
         rating: 4.2,
         price: 'マットグループ月4回 9,625円〜',
-        trial: '体験レッスン 1,000円',
+        trial: 'マットグループ初回体験 1,000円（キャンペーン価格・通常2,200円〜／2026-11-02公式確認）',
         features: ['マシン完備', '初心者歓迎', 'エデュケーター養成'],
         description: '全国展開の大手ピラティススタジオです。マットピラティスからマシンピラティスまで豊富なレッスンメニューです。',
         access: 'アクセスは公式の店舗ページでご確認ください',
