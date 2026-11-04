@@ -62,13 +62,13 @@ export const areaStudios: Record<string, AreaData> = {
       {
         name: 'ピラティスK 札幌駅前店',
         officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
-        image: '/images/pilates3.jpg',
+        image: '/images/studios/pilates-k.webp',
         rating: 4.0,
         price: '月4回 13,420円〜（＋施設維持費825円）',
-        trial: '体験レッスン 0円（2026-11-03公式確認）',
-        features: ['音楽×マシン', '女性専用', '暗闇レッスン', 'グループレッスン'],
+        trial: '体験レッスン 0円（2026-11-04公式確認）',
+        features: ['音楽×マシン', '女性専用', 'グループレッスン', '札幌駅地下直結'],
         description: '音楽に合わせたグループレッスンでボディメイクを目指せる、女性専用のマシンピラティススタジオです。公式では札幌駅地下直結・地下鉄「さっぽろ駅」徒歩3分と案内しています。',
-        access: 'JR「札幌駅」南口から徒歩5分',
+        access: '札幌駅南口から徒歩5分 / 地下鉄さっぽろ駅徒歩3分',
         address: '北海道札幌市中央区北4条西5丁目 アスティ45ビル 2F',
       },
       {

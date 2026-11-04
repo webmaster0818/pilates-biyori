@@ -1294,3 +1294,8 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - C3「20年以上の実績」= zen place のカード（nakano-sakaue/oji/shonan/tama-plaza のバッジ＋kanayama FAQ）。公式 zenplace.co.jp（トップ「20年以上、日本のピラティスをリードしてきました」「2003年に創業」）を 11/3 に確認 → バッジを「2003年創業（公式）」、説明文を「運営元のzen placeは公式サイトで2003年創業…（2026年11月3日確認）」に（487391f7）。sapporo の BodySoul 説明文「20年以上の実績」は別スタジオ・公式サイト未特定で未変更。
 - area-studios.ts 札幌「ピラティスK 札幌」（大通駅3分・メットライフ札幌プラザ・15,070円）は公式一覧に無い → 公式 /studio/hokkaido/sapporo の札幌駅前店（アスティ45ビル2F・JR札幌駅南口徒歩5分・月4回13,420円＋施設維持費825円・体験0円）に揃えた。
 - C5 /brands/ title「評判」は本文に口コミ無し → 判断待ち（A: title から「評判」を外す / B: 各ブランドの出典つき口コミ要約への導線を本文に足す）。/editors/ C3 は「通っている方（読者）」の誤検知。
+
+### 2026-11-04 札幌ピラティスK 照合＋trust-audit 対応（tomomi-2 朝ルーチン）
+- 札幌駅前店を公式 /studio/hokkaido/sapporo・/flow（11/4）で照合し、sapporo/page.tsx と area-studios.ts の料金・体験・アクセス・特徴・説明文を統一。営業時間を公式の曜日別に、デイメンバーを「毎日1回・5/1以降新規受付なし」に訂正。公式に記載のない暗闇・シャワー・ロッカー・Wi-Fi を当店カードから除去。ageRange 等の userProfile は未確認のまま残置。
+- C6: posture-effect と effect-when の出典なし★表を除去。posture-effect は出どころのない実例2件と「成功例多数」も削除。他記事の★表6本・同型の実例3本・「科学的根拠」表現は未変更（件数のみ報告）。/editors/ C3 は読者を指す文の誤検知、/brands/ C5 は判断待ち。
+- sitemap: prebuild が dirty 状態で多数の lastmod を動かすため HEAD に戻し、触った3頁のみ 11-04。
