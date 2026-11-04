@@ -1299,3 +1299,8 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - 札幌駅前店を公式 /studio/hokkaido/sapporo・/flow（11/4）で照合し、sapporo/page.tsx と area-studios.ts の料金・体験・アクセス・特徴・説明文を統一。営業時間を公式の曜日別に、デイメンバーを「毎日1回・5/1以降新規受付なし」に訂正。公式に記載のない暗闇・シャワー・ロッカー・Wi-Fi を当店カードから除去。ageRange 等の userProfile は未確認のまま残置。
 - C6: posture-effect と effect-when の出典なし★表を除去。posture-effect は出どころのない実例2件と「成功例多数」も削除。他記事の★表6本・同型の実例3本・「科学的根拠」表現は未変更（件数のみ報告）。/editors/ C3 は読者を指す文の誤検知、/brands/ C5 は判断待ち。
 - sitemap: prebuild が dirty 状態で多数の lastmod を動かすため HEAD に戻し、触った3頁のみ 11-04。
+
+### 2026-11-04 12:00 成長ルーチン: 浜松町・大門の冒頭に要点（source 617f1f62 / deploy 7f28903c7c）
+- hamamatsucho（10/20 以降は描画テキストに変更なし＝10/26 の genderRatio 削除は非表示の項目）: `AreaQuickAnswer` をパンくず直下に追加。無料体験2店（the SILK・CLUB PILATES）・有料体験・大門駅から近い2店・月4回。公式 11/4 確認で6店とも既存値と一致（zen グレード01 マット 10,450／リフォーマー 15,400、B&B 体験5,500・月4 39,600、heso 体験10,000・4回券44,000、CP EFT4 14,190、SILK Standard4 15,280＋施設700）。訂正は無し。title 不変。the SILK の情報引用元リンクを入れるため `AreaQuickAnswer.note` を ReactNode に
+- 見送り: honancho・izumi は依頼文の「変更記録なし／10/24 変更」と違い 10/26 に要点ボックスと本文の変更あり（source 67bbf4cd・deploy 946e70653f）＝冒頭の答えも既にある。rintosull は 10/25 に集計値の表示変更（無料体験の掲載店舗 71→73 店・「あり」→「無料あり」。deploy 9056d9225b）。公式料金は 11/4 に不変を確認。候補＝h1 直下に quickAnswer（口コミ行＋#reviews）。みん評（検索上位・2.71/98件は検索結果の抜粋のみ）は 403 で本文未確認＝未掲載
+- sitemap: prebuild が 469 件動かしたため HEAD に戻し hamamatsucho のみ 11-04。precheck ✅ 589頁・計測リンク 3,798→3,798・functions/api 4本保全
