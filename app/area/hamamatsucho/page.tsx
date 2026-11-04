@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { AreaQuickAnswer } from '@/components/AreaQuickAnswer'
 import { Navigation } from '@/components/Navigation'
 import { SiteFooter } from '@/components/SiteFooter'
 import { StudioCard } from '@/components/StudioCard'
@@ -266,7 +267,7 @@ export default function HamamatsuchoPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月04日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス浜松町・大門おすすめ6選<br className="hidden md:block" />
               体験レッスンの料金を店舗ごとに比較
@@ -286,6 +287,14 @@ export default function HamamatsuchoPage() {
             </nav>
           </div>
         </section>
+
+        <AreaQuickAnswer areaName="浜松町・大門" rows={[
+          { label: '無料体験', text: '掲載6店のうち無料は2店です。the SILK 大門浜松町店（大門駅徒歩1分・初回50分・期間限定）と CLUB PILATES 田町店（田町駅徒歩6分・30分）です。' },
+          { label: '有料体験', text: 'zen place pilates 三田・田町はマット1,000円／マシン3,000円（初回体験キャンペーン）、Pilates Studio B&B 田町店は5,500円（50分）、heso TOKYOはプライベート10,000円です。' },
+          { label: '駅から', text: '大門駅に近いのは the SILK（徒歩1分）と heso TOKYO（徒歩2分）です。zen place・B&B・CLUB PILATES は田町駅・三田駅側です（大門駅・浜松町駅から1駅）。' },
+          { label: '月4回', text: 'グループは zen place マット10,450円・マシン15,400円（税込）、CLUB PILATES 14,190円（税表記なし）、the SILK 15,280円＋施設利用料 月700円（税込）です。マンツーマンは B&B 39,600円、heso TOKYOは4回チケット44,000円です（税込）。' },
+          { label: '初心者', text: 'the SILKの公式サイトには、体験者の8割がピラティス初心者との記載があります。' },
+        ]} note={<>値は各スタジオの公式サイトの表記です（2026年11月4日確認）。キャンペーンは期間限定のため、申し込む前に公式サイトでご確認ください。徒歩分の一覧は<a href="#daimon-trial" className="underline">大門駅・浜松町駅からの早見表</a>をご覧ください。情報引用元: <a href="https://the-silk.co.jp/studios/tokyo/daimon-hamamatsucho/" target="_blank" rel="noopener noreferrer" className="underline">the SILK公式サイト</a></>} />
         <AreaConclusion studios={studios} areaName="浜松町" />
 
 
@@ -408,7 +417,7 @@ export default function HamamatsuchoPage() {
             </div>
             <div className="mt-10" id="daimon-trial">
               <h3 className="text-xl font-bold text-warm-900 mb-3 text-center">大門駅・浜松町駅からの距離と体験料金（店舗ごとの公式表記）</h3>
-              <p className="text-warm-600 text-sm leading-relaxed mb-4">掲載6店の体験料金・月4回の料金・駅からの徒歩分を、各スタジオの公式サイトで2026年10月20日に確認しました（税込）。大門駅から徒歩2分以内は the SILK と heso TOKYO の2店で、zen place・B&B・CLUB PILATES は田町・三田駅側（大門駅・浜松町駅からは1駅）です。</p>
+              <p className="text-warm-600 text-sm leading-relaxed mb-4">掲載6店の体験料金・月4回の料金・駅からの徒歩分を、各スタジオの公式サイトで2026年11月4日に確認しました（税込）。大門駅から徒歩2分以内は the SILK と heso TOKYO の2店で、zen place・B&B・CLUB PILATES は田町・三田駅側（大門駅・浜松町駅からは1駅）です。</p>
               <div className="overflow-x-auto">
                 <table className="w-full text-sm border-collapse">
                   <thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ</th><th className="px-4 py-3 text-left">駅からの徒歩分</th><th className="px-4 py-3 text-left">体験料金</th><th className="px-4 py-3 text-left">月4回の料金</th><th className="px-4 py-3 text-left">男女</th></tr></thead>

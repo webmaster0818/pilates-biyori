@@ -1,3 +1,5 @@
+import type { ReactNode } from 'react'
+
 // h1 直下の「答え」＝「◯◯ ピラティス」で来た人への即答（店舗数・料金・体験・場所）。
 // 値はページ内のスタジオカード・早見表と同じ公式確認値だけを書く（確認日を note に添える）。2026-10-26
 export function AreaQuickAnswer({
@@ -7,7 +9,7 @@ export function AreaQuickAnswer({
 }: {
   areaName: string
   rows: { label: string; text: string }[]
-  note?: string
+  note?: ReactNode
 }) {
   return (
     <section className="py-6 bg-white" aria-label={`${areaName}のピラティスの要点`}>
