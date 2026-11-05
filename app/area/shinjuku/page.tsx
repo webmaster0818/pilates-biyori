@@ -178,37 +178,6 @@ const studios = [
     },
   },
   {
-    name: 'ピラティスミラー 新宿',
-    image: '/images/studios/pilates-mirror.webp',
-    price: 'プライベート30分 4,400円〜',
-    trial: '体験レッスンあり',
-    features: ['女性専用', 'プライベート30分', 'リーズナブル', 'ミラーレッスン'],
-    description: '女性専用のピラティススタジオです。プライベートレッスンが30分4,400円からとリーズナブルな価格で受けられるのが魅力です。ミラーを活用したレッスンで自分のフォームを確認しながらトレーニングでき、正しい動きが身につきやすいのが特徴です。',
-    access: 'JR「新宿駅」徒歩圏内',
-    address: '東京都新宿区新宿（新宿駅近く）',
-    popularPlan: {
-      name: 'プライベート30分',
-      description: '女性専用のプライベートレッスンです。30分で効率的にトレーニングできる人気プランです。',
-      price: '1回 4,400円（税込）〜',
-    },
-    options: [
-      'プライベート30分（4,400円〜）',
-      'プライベート60分プラン',
-      '回数券プラン',
-      '女性専用・完全予約制',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', '体幹強化'],
-    },
-    basicInfo: {
-      hours: '平日 10:00〜21:00 / 土日祝 9:00〜18:00',
-      closed: '不定休',
-      facilities: ['女性専用', 'フィッティングルーム（カーテン仕切り）', '荷物置きBOX（鍵なし）'],
-    },
-  },
-  {
     name: 'NATURAglam 新宿（近隣）',
     image: '/images/studios/naturaglam.webp',
     price: 'リーズナブルな料金設定',
@@ -335,7 +304,7 @@ const faqs = [
   },
   {
     question: '新宿のピラティススタジオの料金相場は？',
-    answer: '新宿エリアのピラティススタジオの料金相場は、グループレッスン月4回で9,680円〜15,000円程度です。パーソナルレッスンはピラティスミラーの30分4,400円からSTUDIO IVYの月2回15,000円など、スタジオにより異なります。体験レッスンは無料〜2,000円程度なので、まずは体験で試してみるのがおすすめです。',
+    answer: '新宿エリアのピラティススタジオの料金相場は、グループレッスン月4回で9,680円〜15,000円程度です。パーソナルレッスンはSTUDIO IVYの月2回15,000円からELEMENTの月4回22,000円など、スタジオにより異なります。体験レッスンは無料〜2,000円程度なので、まずは体験で試してみるのがおすすめです。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -355,7 +324,7 @@ const faqs = [
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: '新宿エリアではzen place pilates、STUDIO IVY、ELEMENT、URBAN CLASSIC PILATESなどが男性も利用可能です。ピラティスK、Rintosull、the SILK、ピラティスミラー、NATURAglam は女性専用スタジオとなっています。男性の方はまず体験レッスンから始めてみるのがおすすめです。',
+    answer: '新宿エリアではzen place pilates、STUDIO IVY、ELEMENT、URBAN CLASSIC PILATESなどが男性も利用可能です。ピラティスK、Rintosull、the SILK、NATURAglam は女性専用スタジオとなっています。男性の方はまず体験レッスンから始めてみるのがおすすめです。',
   },
   {
     question: 'ピラティスで肩こりや腰痛は改善しますか？',
@@ -382,9 +351,9 @@ export default function ShinjukuPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月05日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス新宿おすすめ11選<br className="hidden md:block" />
+              ピラティス新宿おすすめ10選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -412,7 +381,7 @@ export default function ShinjukuPage() {
               新宿は、JR山手線・中央線・小田急線・京王線・東京メトロ丸ノ内線・副都心線・都営大江戸線・都営新宿線など多数の路線が集まる日本最大のターミナル駅です。仕事帰りや買い物のついでにも通いやすいエリアです。新宿区内にはマシンピラティス専門、女性専用、パーソナル、予約不要など、多彩なスタジオが集結しています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、新宿エリアでおすすめのピラティススタジオ11選をまとめました。
+              本ページでは、新宿エリアでおすすめのピラティススタジオ10選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -456,7 +425,7 @@ export default function ShinjukuPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              新宿のおすすめピラティススタジオ11選
+              新宿のおすすめピラティススタジオ10選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -493,7 +462,6 @@ export default function ShinjukuPage() {
                   <li className="text-warm-700">• ピラティスK（音楽×マシン）</li>
                   <li className="text-warm-700">• the SILK（音楽×ピラティス）</li>
                   <li className="text-warm-700">• Rintosull（LAVA系列・通い放題）</li>
-                  <li className="text-warm-700">• ピラティスミラー（プライベート4,400円〜）</li>
                   <li className="text-warm-700">• NATURAglam（ヨガ&ピラティス）</li>
                 </ul>
               </div>
@@ -505,7 +473,6 @@ export default function ShinjukuPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• STUDIO IVY（完全個室・月2回15,000円〜）</li>
                   <li className="text-warm-700">• ELEMENT（30分マンツーマン）</li>
-                  <li className="text-warm-700">• ピラティスミラー（プライベート30分4,400円〜）</li>
                 </ul>
               </div>
             </div>
@@ -588,7 +555,6 @@ export default function ShinjukuPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• STUDIO IVY（月2回 15,000円〜）</li>
                   <li>• ELEMENT（月4回 22,000円）</li>
-                  <li>• ピラティスミラー（1回 4,400円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -630,7 +596,7 @@ export default function ShinjukuPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  新宿エリアの料金相場は、グループレッスン月4回で9,680円〜15,000円程度です。パーソナルレッスンは1回4,400円〜、月額15,000円〜22,000円程度です。無理なく継続できる予算を決めることをおすすめします。料金だけでなく、入会金やレンタル料などもご確認ください。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  新宿エリアの料金相場は、グループレッスン月4回で9,680円〜15,000円程度です。パーソナルレッスンは月額15,000円〜22,000円程度です。無理なく継続できる予算を決めることをおすすめします。料金だけでなく、入会金やレンタル料などもご確認ください。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -673,8 +639,8 @@ export default function ShinjukuPage() {
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">パーソナルレッスン</h3>
-                  <p className="text-3xl font-bold text-warm-800 mb-2">4,400円〜22,000円</p>
-                  <p className="text-sm text-warm-600">ピラティスミラーは30分4,400円〜で都内最安レベルです。STUDIO IVYは完全個室で月2回15,000円〜です。ELEMENTは30分マンツーマン月4回22,000円です。個室・時間・頻度でお選びください。</p>
+                  <p className="text-3xl font-bold text-warm-800 mb-2">15,000円〜22,000円</p>
+                  <p className="text-sm text-warm-600">STUDIO IVYは完全個室で月2回15,000円〜です。ELEMENTは30分マンツーマン月4回22,000円です。個室・時間・頻度でお選びください。</p>
                 </div>
               </div>
               <div className="bg-white rounded-lg p-5 border border-warm-200">
@@ -789,7 +755,7 @@ export default function ShinjukuPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              本ページでは、新宿のおすすめピラティススタジオ11選をご紹介しました。
+              本ページでは、新宿のおすすめピラティススタジオ10選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               新宿はJR山手線・中央線・小田急線・京王線・東京メトロ丸ノ内線・副都心線・都営大江戸線など、多数の路線が集まる日本最大のターミナル駅です。大手チェーンから女性専用スタジオ、完全個室パーソナル、予約不要のカジュアルスタジオまで、多彩なスタジオが集まるエリアです。

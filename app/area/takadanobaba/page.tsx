@@ -180,36 +180,6 @@ const studios = [
     },
   },
   {
-    name: 'ピラティスミラー 高田馬場店',
-    image: '/images/studios/pilates-mirror.webp',
-    price: '1回 4,400円〜',
-    trial: '体験レッスンあり',
-    features: ['マシンピラティス', '少人数制', '高田馬場駅近', 'ミラーでフォーム確認'],
-    description: 'マシンピラティス専門の少人数制スタジオです。高田馬場駅から徒歩圏内です。鏡の前でフォームを確認しながらレッスンを受けられるのが特長です。1回4,400円〜とリーズナブルな料金設定です。初心者にも丁寧な指導で安心して通えます。',
-    access: 'JR山手線・西武新宿線・東京メトロ東西線「高田馬場駅」徒歩圏内',
-    address: '東京都新宿区高田馬場（高田馬場駅徒歩圏内）',
-    popularPlan: {
-      name: 'マシンピラティス（月4回）',
-      description: '少人数制のマシンピラティスレッスンです。ミラーで自分のフォームを確認しながら効果的にトレーニングです。',
-      price: '月4回 17,600円（税込）〜（1回あたり4,400円〜）',
-    },
-    options: [
-      '月4回プラン（17,600円〜）',
-      '月8回プラン',
-      '都度払いプラン',
-      '体験レッスンあり',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '柔軟性向上'],
-    },
-    basicInfo: {
-      hours: '10:00〜21:00',
-      closed: '不定休',
-      facilities: ['ミラー完備', 'フィッティングルーム（カーテン仕切り）', '荷物置きBOX（鍵なし）'],
-    },
-  },
-  {
     name: 'URBAN CLASSIC PILATES 高田馬場店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
@@ -313,7 +283,7 @@ const faqs = [
   },
   {
     question: '高田馬場エリアの料金相場は？',
-    answer: 'グループレッスン月4回で8,800円〜15,400円程度が相場です。パーソナルは1回4,400円〜6,250円程度です。chocoZAPなら月額3,278円でセルフ利用も可能です。体験は無料〜2,000円のスタジオが中心です。',
+    answer: 'グループレッスン月4回で8,800円〜15,400円程度が相場です。パーソナルはSTUDIO IVYの1回6,250円〜などです。chocoZAPなら月額3,278円でセルフ利用も可能です。体験は無料〜2,000円のスタジオが中心です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -359,9 +329,9 @@ export default function TakadanobabaPage() {
         {/* Hero */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月05日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス高田馬場おすすめ9選<br className="hidden md:block" />
+              ピラティス高田馬場おすすめ8選<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較
             </h1>
           </div>
@@ -388,7 +358,7 @@ export default function TakadanobabaPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、高田馬場駅を中心に早稲田・目白・新大久保など近隣エリアも含めたおすすめピラティススタジオ9選をまとめました。
+              本ページでは、高田馬場駅を中心に早稲田・目白・新大久保など近隣エリアも含めたおすすめピラティススタジオ8選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -410,7 +380,7 @@ export default function TakadanobabaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              高田馬場のおすすめピラティススタジオ9選
+              高田馬場のおすすめピラティススタジオ8選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -439,7 +409,7 @@ export default function TakadanobabaPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">4,400円〜17,600円</td>
+                    <td className="px-4 py-3">8,800円〜15,400円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -554,7 +524,6 @@ export default function TakadanobabaPage() {
                   マンツーマンで効果的にボディメイクを目指せます。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• ピラティスミラー（1回4,400円〜）</li>
                   <li className="text-warm-700">• STUDIO IVY（1回6,250円〜）</li>
                   <li className="text-warm-700">• ELEMENT（30分パーソナル）</li>
                 </ul>
@@ -628,7 +597,6 @@ export default function TakadanobabaPage() {
                   <li>• ピラティスK（月4回 13,420円）</li>
                   <li>• the SILK（月4回 15,280円〜）</li>
                   <li>• zen place リフォーマー（月4回 15,400円〜）</li>
-                  <li>• ピラティスミラー（月4回 17,600円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -668,7 +636,7 @@ export default function TakadanobabaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  高田馬場エリアの料金相場は、グループレッスン月4回で8,800円〜15,400円程度です。パーソナルレッスンは1回4,400円〜6,250円、月額15,000円〜25,000円程度です。chocoZAPなら月額3,278円で始められます。無理なく継続できる予算を決めることをおすすめします。入会金やレンタル料などもご確認ください。
+                  高田馬場エリアの料金相場は、グループレッスン月4回で8,800円〜15,400円程度です。パーソナルレッスンは1回6,250円〜、月額15,000円〜25,000円程度です。chocoZAPなら月額3,278円で始められます。無理なく継続できる予算を決めることをおすすめします。入会金やレンタル料などもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -726,7 +694,7 @@ export default function TakadanobabaPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              本ページでは、高田馬場のおすすめピラティススタジオ9選をご紹介しました。
+              本ページでは、高田馬場のおすすめピラティススタジオ8選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               高田馬場はJR山手線・西武新宿線・東京メトロ東西線の3路線が利用でき、新宿まで2駅・池袋まで3駅という好アクセスです。早稲田大学が近く学生の街としても知られるこのエリアには、月額3,278円のchocoZAPから本格パーソナルのSTUDIO IVYまで、幅広い価格帯のスタジオが揃っています。

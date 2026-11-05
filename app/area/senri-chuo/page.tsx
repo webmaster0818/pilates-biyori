@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/senri-chuo/' },
-  title: 'ピラティス千里中央おすすめ3選人気スタジオの料金プランの比較',
-  description: '千里中央エリアのおすすめピラティススタジオ3選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。千里ニュータウンで初心者でも安心して通えるスタジオが見つかります。',
+  title: 'ピラティス千里中央おすすめ2選人気スタジオの料金プランの比較',
+  description: '千里中央エリアのおすすめピラティススタジオ2選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。千里ニュータウンで初心者でも安心して通えるスタジオが見つかります。',
   keywords: 'ピラティス,千里中央,豊中,千里ニュータウン,北摂,大阪,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -47,29 +47,16 @@ const studios = [
     userProfile: { ageRange: '20代〜50代が中心', purpose: ['運動不足解消', '体幹強化', 'ボディメイク', '健康維持'] },
     basicInfo: { hours: '24時間営業（スタッフ常駐時間は公式サイトでご確認ください）', closed: '年中無休', facilities: ['リフォーマー', 'サーキットマシン', 'ロッカー'] },
   },
-  {
-    name: 'ピラティスミラー 千里中央',
-    image: '/images/studios/pilates-mirror.webp', reviewCount: 82,
-    price: '月額 12,100円（月6回）', trial: '体験レッスン 0円',
-    features: ['女性専用', 'コナミ運営', '1回30分', '鏡活用レッスン'],
-    description: 'コナミスポーツクラブが展開する女性専用マシンピラティススタジオです。「鏡」を活用したレッスンで自分のフォームを確認しながら効果的にトレーニングです。1回30分の少人数制で初心者にもおすすめです。',
-    access: '北大阪急行「千里中央駅」徒歩圏内',
-    address: '大阪府豊中市新千里エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: '月会員プラン', description: '女性専用です。鏡を活用した30分マシンピラティスです。月6回までです。', price: '月額 11,000円（税込）' },
-    options: ['月6回まで利用可能', '7回目以降 1回1,100円', '体験レッスン2,200円', '入会金11,000円'],
-    userProfile: { ageRange: '30代〜60代が中心', genderRatio: '女性100%（女性専用）', purpose: ['姿勢改善', 'ボディメイク', '健康維持', '運動不足解消'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'ミラー', 'フィッティングルーム（カーテン仕切り）', '荷物置きBOX（鍵なし）'] },
-  },
 ]
 
 const faqs = [
   { question: 'ピラティス初心者でも大丈夫ですか？', answer: '問題ありません。千里中央エリアのスタジオはほとんどが初心者歓迎です。WECLEは30分サーキット形式で手軽に始められ、zen placeは丁寧な指導で初心者にも安心です。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷調整しやすく初心者におすすめです。千里中央はマシン専門スタジオが充実しています。' },
-  { question: '千里中央のピラティスの料金相場は？', answer: 'グループ月4回で10,450円〜13,000円程度です。WECLEが月額9,800円〜と通い放題がリーズナブルです。ピラティスミラーは月額12,100円で月6回までです。' },
+  { question: '千里中央のピラティスの料金相場は？', answer: 'グループ月4回で10,450円〜13,000円程度です。WECLEが月額9,800円〜と通い放題がリーズナブルです。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめです。慣れたら週2〜3回に増やすと効果的です。WECLEは24時間・予約不要なので毎日でも気軽に通えます。' },
   { question: 'ピラティスで痩せますか？', answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続で体の変化を実感される方が多くなっています。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。WECLEは着替え不要で普段着でも可能です。zen placeはグループ体験1,000円で試せます。靴下（グリップソックス推奨）も忘れずにご用意ください。' },
-  { question: '男性でも通えるスタジオはありますか？', answer: 'zen place千里中央とWECLEは男性も通えます。ピラティスミラーは女性専用です。' },
+  { question: '男性でも通えるスタジオはありますか？', answer: 'zen place千里中央とWECLEは男性も通えます。' },
   { question: '千里中央と江坂で迷っています', answer: '千里中央は北大阪急行の終点で千里ニュータウンの中心地です。ファミリー層が多く落ち着いた雰囲気です。江坂はオフィス街で会社帰りに便利です。どちらもzen placeは他店利用可能なので両方通うこともできます。' },
   { question: '子連れでも通えますか？', answer: '千里中央エリアはファミリー層が多く、託児サービスのあるスタジオもあります。各スタジオに事前に問い合わせることをおすすめします。WECLEは30分で終わるので、お子さんの習い事の待ち時間に通う方もいます。' },
   { question: 'ピラティスはどのくらいで効果が出ますか？', answer: '2ヶ月を過ぎた頃から効果を実感される方が多くなっています。姿勢改善は比較的早く、ボディメイクは3ヶ月程度の継続がおすすめです。' },
@@ -90,9 +77,9 @@ export default function SenriChuoPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月05日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス千里中央おすすめ3選<br className="hidden md:block" />
+              ピラティス千里中央おすすめ2選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -117,7 +104,7 @@ export default function SenriChuoPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、千里中央エリアでおすすめのピラティススタジオ3選をまとめました。千里中央は北大阪急行と大阪モノレールが交差するターミナル駅で、千里ニュータウンの中心地です。ファミリー層が多く住む閑静な住宅地として人気のエリアです。
+              本ページでは、千里中央エリアでおすすめのピラティススタジオ2選をまとめました。千里中央は北大阪急行と大阪モノレールが交差するターミナル駅で、千里ニュータウンの中心地です。ファミリー層が多く住む閑静な住宅地として人気のエリアです。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -156,7 +143,7 @@ export default function SenriChuoPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              千里中央のおすすめピラティススタジオ3選
+              千里中央のおすすめピラティススタジオ2選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -192,7 +179,7 @@ export default function SenriChuoPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">1,000円〜2,200円</td>
+                    <td className="px-4 py-3">1,000円〜</td>
                   </tr>
                 </tbody>
               </table>
@@ -298,7 +285,6 @@ export default function SenriChuoPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• WECLE（24時間・予約不要・30分）</li>
-                  <li className="text-warm-700">• ピラティスミラー（1回30分）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -357,13 +343,12 @@ export default function SenriChuoPage() {
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
                 <h3 className="text-lg font-bold text-warm-900 mb-2">予算 10,000〜13,000円</h3>
-                <p className="text-3xl font-bold text-warm-800 mb-4">月4回〜6回</p>
+                <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
                   週1〜2回の丁寧なレッスンです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• zen place月4回（10,450円〜）</li>
-                  <li>• ピラティスミラー月6回（12,100円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -411,7 +396,7 @@ export default function SenriChuoPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  zen placeはグループ体験1,000円、ピラティスミラーは0円です。まずは2-3スタジオの体験を受けて比較することをおすすめします。
+                  zen placeはグループ体験1,000円です。まずは両スタジオの体験を受けて比較することをおすすめします。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

@@ -15,9 +15,9 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/shimbashi/' },
-  title: 'ピラティス新橋おすすめ6選料金・体験レッスン・マシン対応を比較',
-  description: '新橋・銀座エリアのおすすめピラティススタジオ6選を比較しています。マシンピラティス、パーソナル、女性専用、24時間セルフまで網羅しています。料金相場・体験レッスン・選び方を詳しくご案内します。JR新橋駅・銀座線・都営浅草線沿線で仕事帰りに通えるスタジオが見つかります。',
-  keywords: 'ピラティス,新橋,銀座,港区,スタジオ,おすすめ,マシンピラティス,パーソナル,女性専用,体験レッスン,料金,比較',
+  title: 'ピラティス新橋おすすめ5選料金・体験レッスン・マシン対応を比較',
+  description: '新橋・銀座エリアのおすすめピラティススタジオ5選を比較しています。マシンピラティス、パーソナル、24時間セルフまで網羅しています。料金相場・体験レッスン・選び方を詳しくご案内します。JR新橋駅・銀座線・都営浅草線沿線で仕事帰りに通えるスタジオが見つかります。',
+  keywords: 'ピラティス,新橋,銀座,港区,スタジオ,おすすめ,マシンピラティス,パーソナル,体験レッスン,料金,比較',
 }
 
 const studios = [
@@ -108,36 +108,6 @@ const studios = [
       hours: '平日 10:00〜22:00 / 土日 10:00〜20:00',
       closed: '不定休',
       facilities: ['マシン完備', 'パーソナル専門'],
-    },
-  },
-  {
-    name: 'ピラティスミラー 新橋（近隣）',
-    image: '/images/studios/pilates-mirror.webp',
-    price: 'プライベート30分 4,400円〜',
-    trial: '体験レッスン実施中',
-    features: ['女性専用', 'プライベート30分', 'リーズナブル', '短時間集中'],
-    description: '女性専用のピラティススタジオです。プライベート30分 4,400円〜というリーズナブルな価格設定で、気軽にパーソナルレッスンを受けられるのが魅力です。新橋の近隣エリアからもアクセスできます。',
-    access: 'JR「新橋駅」から近隣エリア',
-    address: '東京都港区（新橋近隣）',
-    popularPlan: {
-      name: 'プライベート30分',
-      description: '女性専用の30分プライベートピラティスレッスンです。',
-      price: '1回 4,400円（税込）〜',
-    },
-    options: [
-      'プライベート30分（4,400円〜）',
-      'プライベート60分',
-      '回数券プラン',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      genderRatio: '女性100%（女性専用）',
-      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', 'リフレッシュ'],
-    },
-    basicInfo: {
-      hours: 'お問い合わせください',
-      closed: '不定休',
-      facilities: ['女性専用', 'マシン完備', 'プライベート空間'],
     },
   },
   {
@@ -260,9 +230,9 @@ export default function ShimbashiPage() {
       <main className="pt-20 bg-white">
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月05日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス新橋おすすめ6選<br className="hidden md:block" />
+              ピラティス新橋おすすめ5選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -282,7 +252,7 @@ export default function ShimbashiPage() {
 
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-600 leading-relaxed mb-8">本ページでは、新橋エリア（港区）でおすすめのピラティススタジオ6選をまとめました。JR山手線・京浜東北線・東海道線新橋駅、東京メトロ銀座線、都営浅草線、ゆりかもめ沿線で通えるスタジオを厳選しています。</p>
+            <p className="text-warm-600 leading-relaxed mb-8">本ページでは、新橋エリア（港区）でおすすめのピラティススタジオ5選をまとめました。JR山手線・京浜東北線・東海道線新橋駅、東京メトロ銀座線、都営浅草線、ゆりかもめ沿線で通えるスタジオを厳選しています。</p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700">
@@ -302,7 +272,7 @@ export default function ShimbashiPage() {
 
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">新橋エリアのおすすめピラティススタジオ6選</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">新橋エリアのおすすめピラティススタジオ5選</h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
                 <StudioCard key={index} studio={studio} index={index} />
@@ -437,16 +407,8 @@ export default function ShimbashiPage() {
                 <p className="text-warm-600 text-sm mb-4">マンツーマンの個別指導です。短期間で結果を出したい方におすすめです。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• CREA（1回 3,300円〜）</li>
-                  <li className="text-warm-700">• ピラティスミラー（プライベート30分 4,400円〜）</li>
                   <li className="text-warm-700">• STUDIO IVY（月2回 15,000円〜・完全個室）</li>
                   <li className="text-warm-700">• ELEMENT（マンツーマン30分）</li>
-                </ul>
-              </div>
-              <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
-                <h3 className="text-xl font-bold text-warm-900 mb-4">女性専用スタジオ</h3>
-                <p className="text-warm-600 text-sm mb-4">女性だけの安心空間です。周りを気にせずレッスンに集中しています。</p>
-                <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• ピラティスミラー（プライベート30分）</li>
                 </ul>
               </div>
             </div>
@@ -495,7 +457,6 @@ export default function ShimbashiPage() {
                 <p className="text-sm text-warm-600 mb-4">マンツーマンの個別指導です。完全個室のスタジオもあります。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• CREA（1回 3,300円〜）</li>
-                  <li>• ピラティスミラー（30分 4,400円〜）</li>
                   <li>• STUDIO IVY（月2回 15,000円〜）</li>
                   <li>• ELEMENT（月4回 22,000円）</li>
                 </ul>
@@ -564,8 +525,8 @@ export default function ShimbashiPage() {
         <section className="py-16 bg-warm-50">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
-            <p className="text-warm-600 leading-relaxed mb-6">本ページでは、新橋エリア（港区）のおすすめピラティススタジオ6選についてご紹介しました。</p>
-            <p className="text-warm-600 leading-relaxed mb-6">新橋はJR山手線・京浜東北線・東海道線、東京メトロ銀座線、都営浅草線、ゆりかもめと多くの路線が利用でき、銀座エリアも徒歩圏内という抜群のアクセスです。月額3,278円のセルフマシンから、パーソナル専門、女性専用、24時間営業まで、多彩なスタジオが揃っています。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">本ページでは、新橋エリア（港区）のおすすめピラティススタジオ5選についてご紹介しました。</p>
+            <p className="text-warm-600 leading-relaxed mb-6">新橋はJR山手線・京浜東北線・東海道線、東京メトロ銀座線、都営浅草線、ゆりかもめと多くの路線が利用でき、銀座エリアも徒歩圏内という抜群のアクセスです。月額3,278円のセルフマシンから、パーソナル専門、24時間営業まで、多彩なスタジオが揃っています。</p>
             <p className="text-warm-600 leading-relaxed mb-6">本ページの情報を、スタジオ選びにお役立てください。</p>
             <p className="text-warm-700 font-medium text-center">本ページが、ピラティススタジオ選びの参考になれば幸いです。</p>
           </div>

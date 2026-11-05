@@ -17,7 +17,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/koenji/' },
-  title: '高円寺のピラティス10社を比較｜無料体験2社・月額最安7,700円〜',
+  title: '高円寺のピラティス9社を比較｜無料体験2社・月額最安7,700円〜',
   description: '高円寺エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
   keywords: 'ピラティス,高円寺,杉並区,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,CLUB PILATES,NATURAglam,Rintosull,STUDIO IVY,ELEMENT,chocoZAP',
 }
@@ -232,36 +232,6 @@ const studios = [
     },
   },
   {
-    name: 'ピラティスミラー 高円寺',
-    image: '/images/studios/pilates-mirror.webp',
-    price: '詳細は公式サイトでご確認ください',
-    trial: '体験レッスンあり',
-    features: ['マシンピラティス', 'グループ&パーソナル', '高円寺駅近く', '初心者歓迎'],
-    description: 'マシンピラティスのグループレッスンとパーソナルレッスンの両方を提供するスタジオです。高円寺エリアでグループとパーソナルを使い分けたい方や、グループから始めてパーソナルにステップアップしたい方におすすめです。',
-    access: 'JR中央線・総武線「高円寺駅」周辺',
-    address: '東京都杉並区高円寺エリア（詳細は公式サイトでご確認ください）',
-    popularPlan: {
-      name: 'マシンピラティスレッスン',
-      description: 'グループとパーソナルから選べるマシンピラティスです。',
-      price: '詳細は公式サイトでご確認ください',
-    },
-    options: [
-      'グループレッスンあり',
-      'パーソナルレッスンあり',
-      'マシンピラティス対応',
-      '体験レッスンあり',
-    ],
-    userProfile: {
-      ageRange: '20代〜40代が中心',
-      purpose: ['ボディメイク', '姿勢改善', '運動不足解消', 'ダイエット'],
-    },
-    basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '不定休',
-      facilities: ['リフォーマーマシン', 'フィッティングルーム（カーテン仕切り）', '荷物置きBOX（鍵なし）'],
-    },
-  },
-  {
     name: 'CALDO 高円寺',
     image: '/images/studios/caldo.webp',
     price: '月4回 8,250円〜',
@@ -382,9 +352,9 @@ export default function KoenjiPage() {
         {/* Hero */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月05日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス高円寺おすすめ10選
+              ピラティス高円寺おすすめ9選
               <br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較
             </h1>
@@ -415,7 +385,7 @@ export default function KoenjiPage() {
               高円寺はJR中央線・総武線が乗り入れ、新宿まで中央線で約10分という好アクセスのエリアです。杉並区の下町風情ある商店街と独自のカルチャーが魅力の街です。丸ノ内線の新高円寺駅も利用でき、交通の便が良い高円寺エリアには、世界最大級チェーンのグループレッスンからセルフ式マシンまで、多彩なピラティススタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、高円寺エリアでおすすめの実在するピラティススタジオ10選をまとめました。
+              本ページでは、高円寺エリアでおすすめの実在するピラティススタジオ9選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -453,7 +423,7 @@ export default function KoenjiPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              高円寺のおすすめピラティススタジオ10選
+              高円寺のおすすめピラティススタジオ9選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -743,7 +713,7 @@ export default function KoenjiPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は高円寺エリアのおすすめピラティススタジオ10選をご紹介しました。
+              今回は高円寺エリアのおすすめピラティススタジオ9選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               高円寺はJR中央線・総武線と丸ノ内線（新高円寺駅）が利用でき、杉並区の商店街と文化の街として知られるエリアです。月額3,278円のchocoZAP（セルフ式）から、月4回7,700円〜のNATURAglam、世界最大級チェーンのCLUB PILATES（体験0円）、女性専用セミパーソナルのPilates Mee、完全個室パーソナルのSTUDIO IVYやELEMENTまで、幅広い価格帯・形式のスタジオが揃っています。

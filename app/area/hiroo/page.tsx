@@ -144,32 +144,32 @@ const studios = [
     },
   },
   {
-    name: 'ピラティスミラー 中目黒スタジオ',
+    name: 'ピラティスミラー 中目黒',
     image: '/images/studios/pilates-mirror.webp',
     price: '月6回 12,100円〜',
-    trial: '体験レッスンあり',
+    trial: '体験レッスン 0円',
     features: ['少人数制', '中目黒', 'マシン専門', '割安'],
     description: '中目黒エリアのマシンピラティス専門スタジオです。広尾からも日比谷線でアクセスできます。少人数制グループレッスンで丁寧な指導です。鏡を使ったフォームチェックで正しい姿勢を習得できます。',
-    access: '東急東横線・日比谷線「中目黒駅」徒歩圏内',
-    address: '東京都目黒区中目黒エリア（詳細は公式サイトでご確認ください）',
+    access: '東急東横線・東京メトロ日比谷線「中目黒駅」西口1 徒歩8分',
+    address: '東京都目黒区青葉台1-14-4 CONTRAL nakameguro',
     popularPlan: {
-      name: 'グループ月4回プラン',
+      name: '月会費プラン（月6回まで）',
       description: '少人数制のマシンピラティスグループレッスンです。',
-      price: '月4回 11,000円（税込）',
+      price: '月会費 12,100円（税込・月6回まで）',
     },
     options: [
-      '月8回プラン',
-      '通い放題プラン',
-      '体験レッスン',
-      'ウェアレンタルあり',
+      '7回目以降 1回1,100円',
+      'プライベート30分（4,400円）',
+      '体験レッスン 0円',
+      '入会金 11,000円',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
       purpose: ['ボディメイク', 'ダイエット', '姿勢改善', '運動不足解消'],
     },
     basicInfo: {
-      hours: '平日 7:00〜21:00 / 土日 8:00〜18:00',
-      closed: '不定休',
+      hours: 'レッスンスケジュールをご確認ください（公式）',
+      closed: '毎週木曜日',
       facilities: ['リフォーマーマシン', 'ミラー', 'フィッティングルーム（カーテン仕切り）', '荷物置きBOX（鍵なし）'],
     },
   },
@@ -244,7 +244,7 @@ export default function HirooPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月05日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス広尾おすすめ6選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
