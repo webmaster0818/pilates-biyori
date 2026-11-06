@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/sugamo/' },
-  title: '巣鴨のピラティス9社を比較｜無料体験4社・月額最安2,200円〜',
+  title: '巣鴨のピラティス10社を比較｜無料体験4社・月額最安2,200円〜',
   description: '巣鴨エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
   keywords: 'ピラティス,巣鴨,東京,豊島区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -265,6 +265,38 @@ const studios = [
     },
 
   },
+  {
+    name: 'ELEMENT 千石巣鴨店',
+    officialUrl: 'https://element-gym.com/element-top/pilates/pilates-all/sengokusugamo/',
+    image: '/images/studios/element.webp',
+    price: '月4回 22,000円〜／全日通い放題 55,000円（税込）',
+    trial: '無料体験（カウンセリング込み・60〜90分）',
+    features: ['マシンピラティス', 'マンツーマンパーソナル', '1回30分から・手ぶらで参加可能', '男女とも利用可'],
+    description: 'マンツーマンのパーソナルマシンピラティススタジオです。1回30分から通え、ウェア・シューズ・タオル・ドリンク・プロテインは無料で利用できます。男性も利用でき、ELEMENTの全店舗を利用できます。都営三田線千石駅から徒歩3分、JR巣鴨駅から徒歩7分です（情報引用元: ELEMENT公式サイトの店舗ページ・2026年11月6日確認）。',
+    access: '都営三田線 千石駅 徒歩3分／JR巣鴨駅 徒歩7分',
+    address: '東京都文京区千石4-45-18 永島ビル202号室',
+    popularPlan: {
+      name: '月4回フルタイムプラン',
+      description: '1対1のマンツーマン指導で、1回30分のレッスンを月4回受けられます。全日10:00〜22:00に利用できます。',
+      price: '月4回 22,000円（税込）',
+    },
+    options: [
+      '月4回ミックスプラン（30分×3回＋50分×1回） 25,500円（税込）',
+      '月6回ミックスプラン（30分×4回＋50分×2回） 40,000円（税込）',
+      '月8回フルタイムプラン 40,000円（税込・デイプラン 36,000円）',
+      '全日通い放題プラン（1日1回） 55,000円（税込）',
+      '入会金 33,000円（初回体験後の入会で16,500円）',
+      '食事指導オプション 16,500円/月（税込）',
+      'ウェア・シューズ・タオル・プロテイン・ドリンク 無料',
+    ],
+    userProfile: {
+      purpose: ['ボディメイク', '姿勢改善', '運動習慣づくり', '柔軟性向上'],
+    },
+    basicInfo: {
+      hours: '10:00〜22:00（月〜日・祝）',
+      facilities: ['ウェア・シューズ・タオルの無料レンタル', 'プロテイン・ドリンク', 'アメニティ'],
+    },
+  },
 ]
 
 const faqs = [
@@ -346,7 +378,7 @@ export default function SugamoAreaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス巣鴨おすすめ9選<br className="hidden md:block" />
+              ピラティス巣鴨おすすめ10選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -371,7 +403,7 @@ export default function SugamoAreaPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、JR山手線・都営三田線巣鴨駅周辺（豊島区）でおすすめのピラティススタジオ9選をまとめました。「おばあちゃんの原宿」として親しまれる巣鴨地蔵通り商店街のある落ち着いたエリアで、駅徒歩1分〜5分の好立地スタジオが揃っています。
+              本ページでは、JR山手線・都営三田線巣鴨駅周辺（豊島区）でおすすめのピラティススタジオ10選をまとめました。「おばあちゃんの原宿」として親しまれる巣鴨地蔵通り商店街のある落ち着いたエリアで、駅徒歩1分〜5分の好立地スタジオが揃っています。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -411,7 +443,7 @@ export default function SugamoAreaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              巣鴨のおすすめピラティススタジオ9選
+              巣鴨のおすすめピラティススタジオ10選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
