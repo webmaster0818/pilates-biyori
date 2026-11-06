@@ -111,8 +111,8 @@ const studios = [
     name: 'BDC PILATES 二子玉川',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590',
     image: '/images/studios/bdc-pilates.webp',
-    price: '月4回 15,400円〜',
-    trial: '体験レッスン 3,850円',
+    price: '月4回 16,280円（税込・別途施設維持費 月770円）',
+    trial: 'グループ体験 1,100円（税込・11/30までのキャンペーン・限定20名／通常4,070円・体験当日の入会で体験料キャッシュバック・公式・2026年11月6日確認）',
     features: ['日本初マシン専門', '二子玉川駅徒歩2分', '認定講師', 'グループ&プライベート'],
     description: '日本初のマシンピラティス専門スタジオの二子玉川店です。駅から徒歩2分の好立地です。認定指導資格を保有した講師によるグループレッスンとプライベートレッスンです。一人ひとりの身体の状態と目的に沿ってメニューを完全カスタマイズです。',
     access: '東急田園都市線・大井町線「二子玉川駅」徒歩2分',
@@ -120,11 +120,12 @@ const studios = [
     popularPlan: {
       name: 'グループレッスン月4回',
       description: '認定講師による本格マシンピラティスグループレッスンです。',
-      price: '月4回 15,400円（税込）',
+      price: '月4回 16,280円（税込）',
     },
     options: [
-      '月6回（21,945円）',
-      '月8回（27,720円）',
+      '月3回（12,375円）',
+      '月6回（23,100円）',
+      '月8回（29,260円）',
       '入会金 11,000円 + 事務手数料 2,200円',
       'プライベートレッスンあり',
     ],
@@ -181,7 +182,7 @@ const faqs = [
   },
   {
     question: '二子玉川のピラティススタジオの料金相場は？',
-    answer: 'グループ月4回で10,450円〜15,400円程度です。ピラティスミラーは月6回12,100円で割安です。パーソナルは月2回19,800円〜が相場です。',
+    answer: 'グループ月4回で10,450円〜16,280円程度です。ピラティスミラーは月6回12,100円で割安です。パーソナルは月2回19,800円〜が相場です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -325,7 +326,7 @@ export default function FutakotamagawaPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">10,450円〜14,190円</td>
+                    <td className="px-4 py-3">10,450円〜16,280円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -333,7 +334,7 @@ export default function FutakotamagawaPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">無料〜3,850円</td>
+                    <td className="px-4 py-3">無料〜1,100円（BDC PILATES のキャンペーン価格・11/30まで）</td>
                   </tr>
                 </tbody>
               </table>
@@ -501,14 +502,14 @@ export default function FutakotamagawaPage() {
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜16,000円</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜17,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
                   マシン完備の大手スタジオです。グループ・プライベート選択可能です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• the SILK（13,280円〜）</li>
-                  <li>• BDC PILATES（15,400円〜）</li>
+                  <li>• BDC PILATES（月4回 16,280円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -548,7 +549,7 @@ export default function FutakotamagawaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  二子玉川エリアの料金相場はグループ月4回で10,450円〜15,400円程度です。無理なく継続できる予算を決めることをおすすめします。料金だけでなく、入会金やレンタル料などもご確認ください。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  二子玉川エリアの料金相場はグループ月4回で10,450円〜16,280円程度です。無理なく継続できる予算を決めることをおすすめします。料金だけでなく、入会金やレンタル料などもご確認ください。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -627,7 +628,7 @@ export default function FutakotamagawaPage() {
               体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,850円です。<br />
+              初回限定の体験レッスンは無料〜1,100円です（BDC PILATES のキャンペーン価格・11/30まで）。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link

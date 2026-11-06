@@ -163,7 +163,7 @@ const studios = [
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590',
     image: '/images/studios/bdc-pilates.webp',
     price: '月4回 16,280円（税込・別途施設維持費 月770円）',
-    trial: '体験レッスン 3,850円',
+    trial: 'グループ体験 1,100円（税込・11/30までのキャンペーン・限定20名／通常4,070円・体験当日の入会で体験料キャッシュバック・公式・2026年11月6日確認）',
     features: ['ダンサー発祥', '少人数制', 'マシングループ', '池袋エリア'],
     description: 'ダンサーのためのピラティスから生まれたマシンピラティス専門スタジオです。リフォーマーを使ったダイナミックなグループレッスンが特徴です。少人数制で丁寧な指導です。体の使い方を根本から改善するプログラムです。',
     access: '池袋駅 徒歩1分（公式表記）',
@@ -174,10 +174,10 @@ const studios = [
       price: '月4回 16,280円（税込）',
     },
     options: [
-      '月8回プラン',
-      '通い放題プラン',
-      'プライベートレッスン',
-      '体験レッスン 3,850円',
+      '月3回（12,375円）',
+      '月6回（23,100円）',
+      '月8回（29,260円）',
+      'プライベートレッスン（月1回 11,000円・月2回 20,900円）',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
@@ -463,7 +463,7 @@ export default function IkebukuroPage() {
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜15,000円</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜17,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
                   マシン専門スタジオです。
@@ -471,7 +471,7 @@ export default function IkebukuroPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• ピラティスK（13,420円〜）</li>
                   <li>• CLUB PILATES（月4回 14,190円）</li>
-                  <li>• BDC PILATES（14,520円〜）</li>
+                  <li>• BDC PILATES（月4回 16,280円）</li>
                   <li>• the SILK（13,280円〜/月3回）</li>
                 </ul>
               </div>
@@ -692,7 +692,7 @@ export default function IkebukuroPage() {
               体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,850円です。<br />
+              初回限定の体験レッスンは無料〜2,000円です。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link

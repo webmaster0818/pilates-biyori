@@ -86,8 +86,8 @@ const studios = [
     name: 'BDC PILATES 表参道スタジオ',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590',
     image: '/images/studios/bdc-pilates.webp',
-    price: '月4回 15,400円〜',
-    trial: '体験レッスン 3,850円',
+    price: '月4回 16,280円（税込・別途施設維持費 月770円）',
+    trial: 'グループ体験 1,100円（税込・11/30までのキャンペーン・限定20名／通常4,070円・体験当日の入会で体験料キャッシュバック・公式・2026年11月6日確認）',
     features: ['日本初マシン専門', '表参道駅徒歩2分', '少人数制', '男性利用可'],
     description: '40年以上の実績を持つブロードウェイダンスセンター（BDC）がプロデュースする日本初のマシンピラティス専門スタジオです。表参道に2スタジオ展開しています。最大6〜8名の少人数制で、リフォーマーを使ったダイナミックなグループレッスンが特徴です。',
     access: '東京メトロ銀座線・半蔵門線・千代田線「表参道駅」B3出口 徒歩5分・A2出口 徒歩3分 / JR「原宿駅」徒歩10分',
@@ -95,13 +95,13 @@ const studios = [
     popularPlan: {
       name: 'マシングループ月4回',
       description: 'リフォーマーを使ったマシンピラティスグループレッスンです。月2回まで繰越可能です。',
-      price: '月4回 15,400円（税込）',
+      price: '月4回 16,280円（税込）',
     },
     options: [
-      '月8回プラン',
-      '通い放題プラン',
-      'プライベートレッスン',
-      '追加レッスン（3,850円/回）',
+      '月6回（23,100円）',
+      '月8回（29,260円）',
+      'プライベートレッスン（月1回 11,000円・月2回 20,900円）',
+      '追加レッスン（4,070円/回）',
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
@@ -245,7 +245,7 @@ const faqs = [
   },
   {
     question: '原宿のピラティスの料金相場は？',
-    answer: 'グループ月4回で8,800円〜15,400円程度です。PILATES STUDIO noaが月4回8,800円〜で最もリーズナブルです。ピラティスKは月4回13,420円〜、KASANEは月4回15,400円〜です。パーソナルは1回5,500円〜7,700円です。',
+    answer: 'グループ月4回で8,800円〜16,280円程度です。PILATES STUDIO noaが月4回8,800円〜で最もリーズナブルです。ピラティスKは月4回13,420円〜、KASANEは月4回15,400円〜です。パーソナルは1回5,500円〜7,700円です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -269,7 +269,7 @@ const faqs = [
   },
   {
     question: '無料で体験できるスタジオは？',
-    answer: 'PILATES STUDIO noaは体験レッスン無料です。KASANEは体験980円です。ピラティスKは体験2,000円です。BDC PILATESは体験3,850円です。',
+    answer: 'PILATES STUDIO noaは体験レッスン無料です。KASANEは体験980円です。ピラティスKは体験2,000円です。BDC PILATESはグループ体験1,100円です（11/30までのキャンペーン・通常4,070円）。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -386,7 +386,7 @@ export default function HarajukuPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">5,500円〜15,400円</td>
+                    <td className="px-4 py-3">5,500円〜16,280円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -563,7 +563,7 @@ export default function HarajukuPage() {
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜16,000円</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 13,000〜17,000円</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">月4回</p>
                 <p className="text-sm text-warm-600 mb-4">
                   マシン専門スタジオです。
@@ -571,7 +571,7 @@ export default function HarajukuPage() {
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>&#8226; ピラティスK（13,420円〜）</li>
                   <li>&#8226; KASANE（15,400円〜）</li>
-                  <li>&#8226; BDC PILATES（15,400円〜）</li>
+                  <li>&#8226; BDC PILATES（月4回 16,280円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
@@ -612,7 +612,7 @@ export default function HarajukuPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  原宿の料金相場はグループ月4回で8,800円〜15,400円です。パーソナルは1回5,500円〜7,700円です。入会金やキャンペーンもご確認ください。
+                  原宿の料金相場はグループ月4回で8,800円〜16,280円です。パーソナルは1回5,500円〜7,700円です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
