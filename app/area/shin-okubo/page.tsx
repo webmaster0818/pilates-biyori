@@ -18,7 +18,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/shin-okubo/' },
   title: '新大久保・新宿のピラティススタジオおすすめ8選｜無料体験・料金で比較',
-  description: '新大久保・新宿のピラティススタジオ8社の料金・無料体験・マシン対応を比較しています。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまでわかります。',
+  description: '新大久保・新宿のピラティススタジオ8店を、最寄り駅・月額・体験料金の早見表で比較。高田馬場のRintosull 月4回9,800円、zen place 10,450円、ピラティスK 13,420円ほか（2026年11月7日公式確認）。',
   keywords: 'ピラティス,新大久保,新宿,高田馬場,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -61,9 +61,9 @@ const studios = [
     image: '/images/studios/pilates-k.webp',
     price: '月4回 13,420円〜',
     trial: '体験レッスン 無料',
-    features: ['女性専用', '音楽×マシン', '新宿駅1分', 'ボディメイク特化'],
-    description: '2025年7月20日オープンの新しい女性専用マシンピラティススタジオです。新宿駅から徒歩1分の好立地です。音楽にあわせたグループレッスンを楽しめるスタジオです。お腹、お尻、二の腕、脚、背中の部位に特化したボディメイクプログラムが充実しており、強度や目的に合わせて選べます。',
-    access: '大江戸線「新宿駅」より徒歩1分、京王線「新宿駅」より徒歩2分、山手線「新宿駅」より徒歩3分',
+    features: ['女性専用', '音楽×マシン', '新宿駅3分', 'ボディメイク特化'],
+    description: '2025年7月20日オープンの新しい女性専用マシンピラティススタジオです。新宿駅から徒歩3分の好立地です。音楽にあわせたグループレッスンを楽しめるスタジオです。お腹、お尻、二の腕、脚、背中の部位に特化したボディメイクプログラムが充実しており、強度や目的に合わせて選べます。',
+    access: '京王線「新宿駅」京王百貨店口より徒歩3分、JR山手線他「新宿駅」中央西改札出口より徒歩3分',
     address: '東京都新宿区西新宿1丁目12番1号 高倉第一ビル5階',
     popularPlan: {
       name: 'マンスリー4メンバー',
@@ -95,7 +95,7 @@ const studios = [
     trial: '体験レッスン 1,000円',
     features: ['男女共用', '少人数制', '高田馬場駅1分', '全国150店舗他店利用'],
     description: '2024年5月17日拡張移転オープンの大手ピラティススタジオです。JR・西武新宿線高田馬場駅戸山口から徒歩1分です。マットグループ、マシン（リフォーマー）グループ、プライベートのレッスンがあり、男性も可能です。当スタジオの会員さんの2人に1人は運動経験もなく、ピラティスを始めた人ばかりです。ピラティス指導歴10年以上のベテランエデュケーターが呼吸の仕方から丁寧に指導しています。',
-    access: 'JR山手線・西武新宿線「高田馬場駅」木戸山改札西側徒歩1分、東京メトロ東西線「高田馬場駅」1番出口徒歩4分',
+    access: 'JR山手線・西武新宿線「高田馬場駅」戸山改札西側徒歩1分、東京メトロ東西線「高田馬場駅」1番出口徒歩4分',
     address: '東京都新宿区高田馬場4丁目3-8 松島第二ビル3階 3F号室',
     popularPlan: {
       name: 'マットグループ月4',
@@ -123,11 +123,11 @@ const studios = [
     name: 'Rintosull 高田馬場店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
-    price: '月4回プランあり',
-    trial: '体験レッスンあり',
+    price: '月4回 9,800円（税込・別途運営管理費 月680円）',
+    trial: '無料体験会 0円',
     features: ['女性専用', 'LAVAグループ', '高田馬場駅3分', '多彩なプログラム'],
     description: 'ホットヨガスタジオLAVAから生まれたマシンピラティス専門スタジオです。高田馬場駅徒歩3分の女性専用スタジオです。目的に合わせた多彩なプログラムをご用意しています。専用のマシン（リフォーマー）使用し、効率よく体幹を鍛え、身体の柔軟性アップを促すエクササイズです。気になる部位・お悩み部分にピンポイントで効果的に効かせることができます。',
-    access: '高田馬場駅徒歩3分',
+    access: 'JR山手線・西武新宿線「高田馬場駅」早稲田口より徒歩3分',
     address: '東京都新宿区高田馬場2-16-2 土屋ビル2F・3F',
     popularPlan: {
       name: '月4回プラン',
@@ -154,11 +154,11 @@ const studios = [
     name: 'Rintosull 新宿西口駅前店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
-    price: '月4回プランあり',
-    trial: '体験レッスンあり',
+    price: '月4回 10,800円（税込・別途運営管理費 月680円）',
+    trial: '無料体験会 0円',
     features: ['女性専用', '新宿西口駅前', 'LAVAグループ', '駅近'],
     description: 'ホットヨガスタジオLAVAから生まれたマシンピラティス専門スタジオです。新宿西口駅前の好立地で、通いやすい環境です。女性専用スタジオで安心して通えます。全国に続々スタジオ拡大中の人気スタジオです。専用のマシン（リフォーマー）を使用し、効率よく体幹を鍛え、身体の柔軟性アップを促します。',
-    access: '新宿西口駅前',
+    access: 'JR「新宿駅」中央西口より徒歩3分、東京メトロ丸ノ内線「新宿駅」B17出口より徒歩2分',
     address: '東京都新宿区西新宿1-5-11 新宿三葉ビル 4F',
     popularPlan: {
       name: '月4回プラン',
@@ -250,11 +250,11 @@ const studios = [
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=73079',
     image: '/images/studios/club-pilates.webp',
     price: '月4回 13,090円／月8回 24,090円／通い放題 37,290円（公式店舗ページ・税表記なし）',
-    trial: '体験レッスンあり',
+    trial: '体験レッスン 無料',
     features: ['世界最大級', '15種類の機器', '少人数制', '初心者〜上級者対応'],
     description: '世界各国で800店舗以上展開している、世界最大級のピラティススタジオです。初心者から上級者まで幅広いレベルに対応できるプログラムで、未経験でもステップアップしながら通えます。リフォーマーだけでなく、15種類もの機器を使用した本格的なマシンピラティスが体験できます。最大12名までの少人数制で丁寧な指導が受けられます。',
-    access: '西新宿駅より徒歩圏内',
-    address: '東京都新宿区西新宿（詳細住所は公式サイト参照）',
+    access: '大江戸線「西新宿五丁目駅」徒歩5分、丸ノ内線「西新宿駅」徒歩10分',
+    address: '東京都新宿区西新宿6-20-7 コンシェリア西新宿 TOWER\'S WEST 1F',
     popularPlan: {
       name: 'グループレッスン',
       description: '最大12名までの少人数制です。15種類の機器を使用',
@@ -350,7 +350,7 @@ export default function ShinOkuboAreaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月07日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス新大久保・新宿おすすめ8選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
@@ -370,6 +370,7 @@ export default function ShinOkuboAreaPage() {
             </nav>
           </div>
         </section>
+        <section className="py-6 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-xl md:text-2xl font-bold text-warm-900 mb-3">新大久保・新宿のピラティス早見表｜最寄り駅・月額・体験</h2><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">最寄り駅</th><th className="px-4 py-3 text-left">月額（税込）</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">形式</th></tr></thead><tbody><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">zen place pilates 高田馬場（高田馬場4-3-8 松島第二ビル3階）</td><td className="px-4 py-3">JR・西武新宿線 高田馬場駅 戸山改札西側 徒歩1分</td><td className="px-4 py-3">マット月4回 10,450円／マシン月4回 15,400円＋設備運営管理費 月550円</td><td className="px-4 py-3">マットグループ 1,000円／マシングループ 3,000円（初回体験キャンペーン）</td><td className="px-4 py-3">マット・マシンのグループ・プライベート（男女共用）</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Rintosull 高田馬場店（高田馬場2-16-2 土屋ビル2F・3F）</td><td className="px-4 py-3">JR・西武新宿線 高田馬場駅 早稲田口 徒歩3分</td><td className="px-4 py-3">月4回 9,800円＋運営管理費 月680円</td><td className="px-4 py-3">無料体験会 0円</td><td className="px-4 py-3">マシンのグループ（女性専用）</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">the SILK 新宿店（西新宿7-1-8 ヒノデビル6階）</td><td className="px-4 py-3">都営新宿西口駅 徒歩1分・西武新宿駅 徒歩4分</td><td className="px-4 py-3">Standard 4（月4回）15,280円＋施設利用料 月700円</td><td className="px-4 py-3">無料（50分・期間限定）</td><td className="px-4 py-3">マシンのグループ（女性限定）</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">zen place pilates 新宿（西新宿7-8-13 栗原ビル5F）</td><td className="px-4 py-3">都営新宿西口駅 D5出口 徒歩約2分</td><td className="px-4 py-3">マット月4回 10,450円／マシン月4回 15,400円＋設備運営管理費 月550円</td><td className="px-4 py-3">マットグループ 1,000円／マシングループ 3,000円（初回体験キャンペーン）</td><td className="px-4 py-3">マット・マシンのグループ・プライベート（男女共用）</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Rintosull 新宿西口駅前店（西新宿1-5-11 新宿三葉ビル4F）</td><td className="px-4 py-3">JR新宿駅 中央西口 徒歩3分・丸ノ内線新宿駅 B17出口 徒歩2分</td><td className="px-4 py-3">月4回 10,800円＋運営管理費 月680円</td><td className="px-4 py-3">無料体験会 0円</td><td className="px-4 py-3">マシンのグループ（女性専用）</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">ピラティスK 新宿西口店（西新宿1-12-1 高倉第一ビル5階）</td><td className="px-4 py-3">JR新宿駅 中央西改札 徒歩3分・京王線新宿駅 徒歩3分</td><td className="px-4 py-3">月4回 13,420円＋施設維持費 月825円</td><td className="px-4 py-3">0円</td><td className="px-4 py-3">マシンのグループ（女性専用）</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">zen place pilates 新宿南口（新宿4-1-22 新宿コムロビル2階）</td><td className="px-4 py-3">新宿三丁目駅 E6出口 徒歩1分・JR新宿駅ミライナタワー改札 徒歩3分</td><td className="px-4 py-3">マット月4回 10,450円／マシン月4回 15,400円＋設備運営管理費 月550円</td><td className="px-4 py-3">マットグループ 1,000円／マシングループ 3,000円（初回体験キャンペーン）</td><td className="px-4 py-3">マット・マシンのグループ・プライベート（男女共用）</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">CLUB PILATES 西新宿店（西新宿6-20-7 コンシェリア西新宿 TOWER'S WEST 1F）</td><td className="px-4 py-3">西新宿五丁目駅 徒歩5分・西新宿駅 徒歩10分</td><td className="px-4 py-3">月4回 13,090円（税表記なし）</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">マシンのグループ</td></tr></tbody></table></div><p className="text-warm-500 text-xs leading-relaxed mt-3">新大久保駅の周辺には掲載店がなく、JR山手線で隣の高田馬場駅（1駅）・新宿駅（1駅）の店舗を載せています。各スタジオの公式ページの表記です（2026年11月7日確認）。確認した公式ページ: <a href="https://www.zenplace.co.jp/studios/pilates-takadanobaba" target="_blank" rel="noopener noreferrer" className="underline">zen place 高田馬場</a> ／ <a href="https://rintosull.jp/shop/tokyo/takadanobaba/" target="_blank" rel="noopener noreferrer" className="underline">Rintosull 高田馬場店</a> ／ <a href="https://the-silk.co.jp/studios/tokyo/shinjuku/" target="_blank" rel="noopener noreferrer" className="underline">the SILK 新宿店</a> ／ <a href="https://the-silk.co.jp/price/" target="_blank" rel="noopener noreferrer" className="underline">the SILK 料金</a> ／ <a href="https://www.zenplace.co.jp/studios/pilates-shinjukunisi" target="_blank" rel="noopener noreferrer" className="underline">zen place 新宿</a> ／ <a href="https://rintosull.jp/shop/tokyo/shinjukunishi/" target="_blank" rel="noopener noreferrer" className="underline">Rintosull 新宿西口駅前店</a> ／ <a href="https://pilates-k.jp/studio/tokyo/shinjuku-nishiguchi" target="_blank" rel="noopener noreferrer" className="underline">ピラティスK 新宿西口店</a> ／ <a href="https://www.zenplace.co.jp/studios/pilates-shinjuku" target="_blank" rel="noopener noreferrer" className="underline">zen place 新宿南口</a> ／ <a href="https://clubpilates.co.jp/studio/nishishinjuku/" target="_blank" rel="noopener noreferrer" className="underline">CLUB PILATES 西新宿店</a></p></div></section>
         <AreaConclusion studios={studios} areaName="新大久保・新宿" />
 
 
@@ -574,7 +575,7 @@ export default function ShinOkuboAreaPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• the SILK 新宿店（新宿西口駅1分）</li>
-                  <li className="text-warm-700">• ピラティスK 新宿西口店（新宿駅1分）</li>
+                  <li className="text-warm-700">• ピラティスK 新宿西口店（新宿駅3分）</li>
                   <li className="text-warm-700">• zen place pilates 高田馬場店（駅徒歩1分）</li>
                 </ul>
               </div>

@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/gakugei-daigaku/' },
   title: '学芸大学のピラティスおすすめ4選｜駅徒歩分・体験料金・定休日を比較',
-  description: '学芸大学駅周辺のピラティススタジオ4店を、駅からの徒歩分・体験料金（0円〜5,500円）・営業時間・定休日・月額で比較。各値は公式サイトで2026年10月25日に確認しています。',
+  description: '学芸大学駅周辺のピラティススタジオ4店を、駅からの徒歩分・体験料金（0円〜5,500円）・営業時間・定休日・月額で比較。各値は公式サイトで2026年11月7日に確認しています。',
   keywords: 'ピラティス,学芸大学,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -86,7 +86,7 @@ const studios = [
     name: 'YUZU 学芸大学店',
     image: '/images/studios/yuzu-pilates.webp',
     price: '月4回 31,200円〜 / 月6回 43,200円',
-    trial: '体験レッスン 5,500円（税込・公式店舗ページの料金表）／ページ上に「初回500円」バナーあり（条件の記載なし）・2026年10月25日確認',
+    trial: '体験レッスン 5,500円（税込・公式店舗ページの料金表・2026年11月7日確認）',
     features: ['マンツーマン（パーソナル）', 'マシンピラティス', '学芸大学駅 東口 徒歩約3分', '朝8:15〜夜21:45'],
     description: '全国に店舗を展開するパーソナルマシンピラティススタジオです。学芸大学駅東口から徒歩約3分で、営業時間は8:15〜21:45と朝・夜とも通いやすい時間帯です。月4回31,200円（1回7,800円）・月6回43,200円（1回7,200円）の月額制で、体験当日の入会で入会金22,000円が0円になります（公式店舗ページ表記・2026年10月25日確認）。',
     access: '東急東横線「学芸大学駅」東口から徒歩約3分',
@@ -189,7 +189,7 @@ export default function GakugeiDaigakuPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月07日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               学芸大学のピラティスおすすめ4選<br className="hidden md:block" />
               駅からの徒歩分・体験料金・定休日で比較
@@ -210,6 +210,7 @@ export default function GakugeiDaigakuPage() {
           </div>
         </section>
 
+        <section className="py-6 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-xl md:text-2xl font-bold text-warm-900 mb-3">学芸大学のピラティス早見表｜駅徒歩・月額・体験</h2><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">学芸大学駅から</th><th className="px-4 py-3 text-left">月額（税込）</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">営業時間</th><th className="px-4 py-3 text-left">定休日</th></tr></thead><tbody><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">YUZU 学芸大学店（鷹番2-15-18 パル学芸大学406）</td><td className="px-4 py-3">東口 徒歩約3分</td><td className="px-4 py-3">月4回 31,200円／月6回 43,200円（入会金22,000円・体験当日の入会で無料）</td><td className="px-4 py-3">マシンのマンツーマン</td><td className="px-4 py-3">5,500円</td><td className="px-4 py-3">8:15〜21:45</td><td className="px-4 py-3">記載なし</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Dr.ピラティス 学芸大学店（鷹番2-8-22 プラザ学芸大学EAST）</td><td className="px-4 py-3">徒歩3分</td><td className="px-4 py-3">月4回 45分 29,700円／60分 39,600円（入会金0円）</td><td className="px-4 py-3">マンツーマンのパーソナル</td><td className="px-4 py-3">0円（入会金も0円）</td><td className="px-4 py-3">9:00〜22:00</td><td className="px-4 py-3">記載なし</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">STUDIO IVY 学芸大学店（碑文谷6-1-22 リカーハイム303）</td><td className="px-4 py-3">徒歩3分</td><td className="px-4 py-3">月2回 15,000円／月4回 28,000円</td><td className="px-4 py-3">マシンのパーソナル（男性も可）</td><td className="px-4 py-3">4,500円（50分）</td><td className="px-4 py-3">8:00〜21:00</td><td className="px-4 py-3">記載なし</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">ピラティスミラー 学芸大学（中央町2-35-10）</td><td className="px-4 py-3">西口 徒歩4分</td><td className="px-4 py-3">月会費 12,100円で月6回まで（入会金11,000円）</td><td className="px-4 py-3">マシンの少人数レッスン（30分・女性専用）</td><td className="px-4 py-3">0円（1人1回まで）</td><td className="px-4 py-3">公式はレッスンスケジュールで案内</td><td className="px-4 py-3">毎週火曜日</td></tr></tbody></table></div><p className="text-warm-500 text-xs leading-relaxed mt-3">徒歩分・月額・体験は各スタジオの公式店舗ページの表記です（2026年11月7日確認・税込）。</p></div></section>
         <TableOfContents areaName="学芸大学" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
 
         {/* Introduction */}
@@ -248,13 +249,8 @@ export default function GakugeiDaigakuPage() {
           </div>
         </section>
 
-        <section className="py-12 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">学芸大学駅からの徒歩分で比べるピラティス早見表</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">「学芸大学 ピラティス」で探す方向けに、掲載4店を学芸大学駅（東急東横線）から近い順に並べました。徒歩分・住所・体験料金・営業時間・定休日は各スタジオの公式店舗ページの表記です（2026年10月25日確認・税込）。4店とも駅から徒歩4分以内で、すべてマシンを使うスタジオです。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">学芸大学駅から</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">営業時間</th><th className="px-4 py-3 text-left">定休日</th></tr></thead><tbody>
-          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">YUZU 学芸大学店（鷹番2-15-18 パル学芸大学406）</td><td className="px-4 py-3">東口 徒歩約3分</td><td className="px-4 py-3">マシンのマンツーマン</td><td className="px-4 py-3">5,500円（「初回500円」バナーあり・条件記載なし）</td><td className="px-4 py-3">8:15〜21:45</td><td className="px-4 py-3">記載なし</td></tr>
-          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Dr.ピラティス 学芸大学店（鷹番2-8-22 プラザ学芸大学EAST）</td><td className="px-4 py-3">徒歩3分</td><td className="px-4 py-3">マンツーマンのパーソナル</td><td className="px-4 py-3">0円（入会金も0円）</td><td className="px-4 py-3">9:00〜22:00</td><td className="px-4 py-3">記載なし</td></tr>
-          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">STUDIO IVY 学芸大学店（碑文谷6-1-22 リカーハイム303）</td><td className="px-4 py-3">徒歩3分</td><td className="px-4 py-3">マシンのパーソナル（男性も可）</td><td className="px-4 py-3">4,500円（50分）</td><td className="px-4 py-3">8:00〜21:00</td><td className="px-4 py-3">記載なし</td></tr>
-          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">ピラティスミラー 学芸大学（中央町2-35-10）</td><td className="px-4 py-3">西口 徒歩4分</td><td className="px-4 py-3">マシンの少人数レッスン（30分・女性専用）</td><td className="px-4 py-3">0円（1人1回まで）</td><td className="px-4 py-3">公式はレッスンスケジュールで案内</td><td className="px-4 py-3">毎週火曜日</td></tr>
-        </tbody></table></div>
-          <h3 className="text-lg font-bold text-warm-900 mt-8 mb-3">月額と1回あたりの料金（公式表記・2026年10月25日確認・税込）</h3>
+        <section className="py-12 bg-white" id="by-station-notes"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">学芸大学駅で選ぶときのポイント</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">上の早見表は、掲載4店を学芸大学駅（東急東横線）から近い順に並べたものです。徒歩分・住所・体験料金・営業時間・定休日は各スタジオの公式店舗ページの表記です（2026年11月7日確認・税込）。4店とも駅から徒歩4分以内で、すべてマシンを使うスタジオです。</p>
+          <h3 className="text-lg font-bold text-warm-900 mt-8 mb-3">月額と1回あたりの料金（公式表記・2026年11月7日確認・税込）</h3>
           <ul className="space-y-2 text-sm text-warm-700">
             <li>• ピラティスミラー: 月会費12,100円で月6回まで（7回目以降1回1,100円）・入会金11,000円。プライベートは30分4,400円／50分6,600円</li>
             <li>• STUDIO IVY: 月2回15,000円（1回7,500円）／月4回28,000円（1回7,000円）／月8回52,000円（1回6,500円）</li>
@@ -264,7 +260,7 @@ export default function GakugeiDaigakuPage() {
           <h3 className="text-lg font-bold text-warm-900 mt-8 mb-3">西口・東口どちらから行くか</h3>
           <p className="text-warm-600 leading-relaxed text-sm">学芸大学駅は改札の東西で行き先が分かれます。公式ページで出口の指定があるのは、ピラティスミラー（西口）とYUZU（東口）の2店です。Dr.ピラティスは「改札を出て右手の商店街を直進」と案内しています。STUDIO IVYは出口の記載がないため、初回は公式ページの地図で確認してから向かうと安心です。</p>
           <p className="text-warm-600 leading-relaxed mt-4 text-sm">月の費用を抑えて回数を通いたいならピラティスミラー（月6回12,100円・女性専用）、マンツーマンで見てもらいたいならSTUDIO IVY・YUZU・Dr.ピラティスが候補です。体験の費用で比べると、Dr.ピラティスが0円、ピラティスミラーが0円です。</p>
-          <p className="text-warm-400 mt-4 text-xs">確認した公式ページ（2026年10月25日）: <a href="https://www.konami.com/sportsclub/pilatesmirror/gakugeidaigaku/" className="underline" target="_blank" rel="noopener noreferrer">ピラティスミラー 学芸大学</a> ／ <a href="https://www.pilates-ivy.jp/studio/gakugeidaigaku" className="underline" target="_blank" rel="noopener noreferrer">STUDIO IVY 学芸大学店</a> ／ <a href="https://yuzu-pilates.com/studios/gakugeidagaku/" className="underline" target="_blank" rel="noopener noreferrer">YUZU 学芸大学店</a> ／ <a href="https://drpilates.drtraining.jp/location/gakugeidaigaku/" className="underline" target="_blank" rel="noopener noreferrer">Dr.ピラティス 学芸大学店</a></p>
+          <p className="text-warm-400 mt-4 text-xs">確認した公式ページ（2026年11月7日）: <a href="https://www.konami.com/sportsclub/pilatesmirror/gakugeidaigaku/" className="underline" target="_blank" rel="noopener noreferrer">ピラティスミラー 学芸大学</a> ／ <a href="https://www.pilates-ivy.jp/studio/gakugeidaigaku" className="underline" target="_blank" rel="noopener noreferrer">STUDIO IVY 学芸大学店</a> ／ <a href="https://yuzu-pilates.com/studios/gakugeidagaku/" className="underline" target="_blank" rel="noopener noreferrer">YUZU 学芸大学店</a> ／ <a href="https://drpilates.drtraining.jp/location/gakugeidaigaku/" className="underline" target="_blank" rel="noopener noreferrer">Dr.ピラティス 学芸大学店</a></p>
         </div></section>
 
         <PriceComparisonTable studios={studios} areaName="学芸大学" />

@@ -17,8 +17,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/ochanomizu/' },
-  title: '御茶ノ水のピラティス7選｜御茶ノ水駅・新御茶ノ水駅からの徒歩分と体験料金を比較【10月最新】',
-  description: '御茶ノ水・新御茶ノ水・神保町のピラティススタジオ7店を、駅からの徒歩分・体験料金・営業時間・定休日・マシン/マットの別で比較。体験0円は2店、月4回9,680円〜。値は各公式サイトで2026年10月25日に確認。',
+  title: '御茶ノ水のピラティス7選｜御茶ノ水駅・新御茶ノ水駅からの徒歩分と体験料金を比較【11月最新】',
+  description: '御茶ノ水・新御茶ノ水・神保町のピラティススタジオ7店を、駅からの徒歩分・体験料金・営業時間・定休日・マシン/マットの別で比較。体験0円は2店、月4回9,625円〜。値は各公式サイトで2026年11月7日に確認。',
   keywords: 'ピラティス,御茶ノ水,神保町,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -181,7 +181,7 @@ const studios = [
     name: 'PILATES STUDIO ZERO 神保町店',
     image: '/images/studios/pilates-zero-jimbocho.webp',
     price: '月4回 37,200円〜',
-    trial: '体験レッスン 40分 4,400円（2026年10月のキャンペーン: 体験当日入会で体験料と入会金22,000円が無料・予告なく終了の場合あり）',
+    trial: '体験レッスン 40分 4,400円（2026年11月のキャンペーン: 体験当日入会で体験料と入会金22,000円が無料・予告なく終了の場合あり）',
     features: ['完全プライベート', 'マシンピラティス', '神保町駅近', 'パーソナル専門'],
     description: 'マシンピラティスパーソナル専門スタジオです。神保町駅から徒歩圏内です。完全プライベートレッスンで一人ひとりに合わせたオーダーメイドプログラムです。1セッション40分、ミネラルウォーター付きです。体験当日入会で体験料・入会金無料です。',
     access: '「神保町駅」A5出口より徒歩2分（公式アクセスページ・2026年10月25日確認）',
@@ -256,7 +256,7 @@ const faqs = [
   },
   {
     question: '御茶ノ水・神保町のピラティススタジオの料金相場は？',
-    answer: '御茶ノ水・神保町エリアの料金相場は、グループレッスンで月4回9,680円〜19,900円程度です。パーソナルレッスンは1回あたり9,300円〜（PILATES STUDIO ZERO 月4回 37,200円）が目安です。体験レッスンはピラティスK神保町店とYARD御茶ノ水が0円、zen placeはマットグループの初回体験キャンペーン1,000円です（2026年10月25日確認）。',
+    answer: '御茶ノ水・神保町エリアの料金相場は、グループレッスンで月4回9,625円〜19,900円程度です。パーソナルレッスンは1回あたり9,300円〜（PILATES STUDIO ZERO 月4回 37,200円）が目安です。体験レッスンはピラティスK神保町店とYARD御茶ノ水が0円、zen placeはマットグループの初回体験キャンペーン1,000円です（2026年10月25日確認）。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -327,7 +327,7 @@ export default function OchanomizuPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月07日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               御茶ノ水のピラティススタジオおすすめ7選<br className="hidden md:block" />
               神保町・新御茶ノ水も駅からの徒歩分で比較
@@ -347,6 +347,7 @@ export default function OchanomizuPage() {
             </nav>
           </div>
         </section>
+        <section className="py-6 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-xl md:text-2xl font-bold text-warm-900 mb-3">御茶ノ水・神保町のピラティス早見表｜駅徒歩・月額・体験</h2><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">御茶ノ水・新御茶ノ水駅から</th><th className="px-4 py-3 text-left">月額（税込）</th><th className="px-4 py-3 text-left">ほかの最寄駅</th><th className="px-4 py-3 text-left">形式（マシン/マット）</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">営業時間</th><th className="px-4 py-3 text-left">定休日</th></tr></thead><tbody><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">YARD 御茶ノ水スタジオ（神田須田町1-4-1 日宝須田町ビルB1F）</td><td className="px-4 py-3">新御茶ノ水駅 A6出口 徒歩3分／JR御茶ノ水駅 聖橋口 徒歩10分</td><td className="px-4 py-3">月4回 9,680円（入会金8,800円・登録料2,200円）</td><td className="px-4 py-3">淡路町駅 A2出口・小川町駅 A2出口 徒歩1分</td><td className="px-4 py-3">ヨガ・ピラティスのグループ（マシンの記載なし）</td><td className="px-4 py-3">0円（グループ1回）</td><td className="px-4 py-3">平日 9:30〜22:00／土日 8:15〜17:00／祝 8:15〜15:00</td><td className="px-4 py-3">水曜日ほか（事前告知）</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">rcu リチュ 御茶ノ水（外神田2-17-2 延寿お茶の水ビル302）</td><td className="px-4 py-3">JR御茶ノ水駅 徒歩4分</td><td className="px-4 py-3">フリータイム 月9,600円／4回券 12,000円（入会金5,000円）</td><td className="px-4 py-3">JR秋葉原駅 徒歩9分</td><td className="px-4 py-3">常温ヨガ・ピラティスのグループ／プライベートピラティス</td><td className="px-4 py-3">好きなクラス 2,000円（キャンペーン）／プライベート60分 初回 7,000円</td><td className="px-4 py-3">記載なし</td><td className="px-4 py-3">記載なし（公式スケジュールは火〜日のみ）</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ピラティスK 神保町店（神田神保町1-4 クロサワビル4階）</td><td className="px-4 py-3">御茶ノ水駅・新御茶ノ水駅 徒歩7分</td><td className="px-4 py-3">月4回 13,420円＋施設維持費 月825円</td><td className="px-4 py-3">神保町駅 徒歩2分</td><td className="px-4 py-3">マシンのグループ（女性専用）</td><td className="px-4 py-3">0円</td><td className="px-4 py-3">火・金 10:00〜15:00／17:30〜22:00、水 10:00〜14:00／17:30〜22:00、木 17:30〜22:00、土祝 10:00〜18:30、日 10:00〜17:30</td><td className="px-4 py-3">月曜日</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">zen place pilates 本郷三丁目店（文京区本郷3-32-7 東京ビル4階）</td><td className="px-4 py-3">JR御茶ノ水駅 徒歩10分</td><td className="px-4 py-3">マット月4回 10,450円／マシン月4回 15,400円＋設備運営管理費 月550円</td><td className="px-4 py-3">本郷三丁目駅（丸ノ内線2番出口・大江戸線3番出口）徒歩3分</td><td className="px-4 py-3">マットグループ・マシングループ・プライベート</td><td className="px-4 py-3">マット 1,000円／マシン 3,000円（初回体験キャンペーン）</td><td className="px-4 py-3">平日 9:30〜21:00／土日祝 7:30〜18:00</td><td className="px-4 py-3">記載なし</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Z&amp;Z Pilates Studio 神保町店（神田神保町3-2-28 ACN神保町ビル3階）</td><td className="px-4 py-3">御茶ノ水駅 10分</td><td className="px-4 py-3">グループ月4回 19,900円／プライベート月4回 39,600円</td><td className="px-4 py-3">神保町駅 1分・九段下駅 2分</td><td className="px-4 py-3">マシンの少人数グループ（最大3人）・プライベート</td><td className="px-4 py-3">グループ 4,000円（50分）／プライベート 8,000円（60分）</td><td className="px-4 py-3">平日 9:00〜22:00／土日祝 10:00〜19:00</td><td className="px-4 py-3">記載なし</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">zen place pilates 神保町店（神田神保町1-13-2 文銭堂ビル4階）</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">マット月4回 9,625円／マシン月4回 15,400円＋設備運営管理費 月550円</td><td className="px-4 py-3">神保町駅 A7出口 徒歩1分</td><td className="px-4 py-3">マットグループ・マシングループ・プライベート</td><td className="px-4 py-3">マット 1,000円／マシン 3,000円（初回体験キャンペーン）</td><td className="px-4 py-3">平日 8:55〜22:00／土日祝 8:00〜20:00</td><td className="px-4 py-3">記載なし</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">PILATES STUDIO ZERO 神保町店（神田神保町1-16-3 TSI神保町ビル1F・B1）</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">月4回 37,200円（1回9,300円・50分）</td><td className="px-4 py-3">神保町駅 A5出口 徒歩2分</td><td className="px-4 py-3">マシンの完全プライベート（40分）</td><td className="px-4 py-3">4,400円（11月は体験当日入会で無料）</td><td className="px-4 py-3">平日 9:00〜22:00／土日祝 9:00〜19:00</td><td className="px-4 py-3">記載なし</td></tr></tbody></table></div><p className="text-warm-500 text-xs leading-relaxed mt-3">徒歩分・月額・体験は各スタジオの公式サイトの表記です（2026年11月7日確認・rcu と Z&amp;Z は税表記なし、ほかは税込。zen place はスタジオのグレードで料金が異なります）。</p></div></section>
         <AreaConclusion studios={studios} areaName="御茶ノ水・神保町" />
 
 
@@ -389,15 +390,7 @@ export default function OchanomizuPage() {
           </div>
         </section>
 
-        <section className="py-12 bg-white" id="by-station"><div className="max-w-5xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">御茶ノ水駅・新御茶ノ水駅からの徒歩分で比べる早見表</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">「御茶ノ水 ピラティス」で探す方向けに、掲載7店を御茶ノ水駅・新御茶ノ水駅から近い順に並べました。徒歩分・住所・体験料金・営業時間・定休日は各スタジオの公式サイトの表記です（2026年10月25日確認・公式に記載がない項目は「記載なし」）。御茶ノ水・新御茶ノ水駅から徒歩5分以内は YARD と rcu リチュの2店、神保町駅から徒歩2分以内は4店です。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">御茶ノ水・新御茶ノ水駅から</th><th className="px-4 py-3 text-left">ほかの最寄駅</th><th className="px-4 py-3 text-left">形式（マシン/マット）</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">営業時間</th><th className="px-4 py-3 text-left">定休日</th></tr></thead><tbody>
-          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">YARD 御茶ノ水スタジオ（神田須田町1-4-1 日宝須田町ビルB1F）</td><td className="px-4 py-3">新御茶ノ水駅 A6出口 徒歩3分／JR御茶ノ水駅 聖橋口 徒歩10分</td><td className="px-4 py-3">淡路町駅 A2出口・小川町駅 A2出口 徒歩1分</td><td className="px-4 py-3">ヨガ・ピラティスのグループ（マシンの記載なし）</td><td className="px-4 py-3">0円（グループ1回）</td><td className="px-4 py-3">平日 9:30〜22:00／土日 8:15〜17:00／祝 8:15〜15:00</td><td className="px-4 py-3">水曜日ほか（事前告知）</td></tr>
-          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">rcu リチュ 御茶ノ水（外神田2-17-2 延寿お茶の水ビル302）</td><td className="px-4 py-3">JR御茶ノ水駅 徒歩4分</td><td className="px-4 py-3">JR秋葉原駅 徒歩9分</td><td className="px-4 py-3">常温ヨガ・ピラティスのグループ／プライベートピラティス</td><td className="px-4 py-3">好きなクラス 2,000円（キャンペーン）／プライベート60分 初回 7,000円</td><td className="px-4 py-3">記載なし</td><td className="px-4 py-3">記載なし（公式スケジュールは火〜日のみ）</td></tr>
-          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ピラティスK 神保町店（神田神保町1-4 クロサワビル4階）</td><td className="px-4 py-3">御茶ノ水駅・新御茶ノ水駅 徒歩7分</td><td className="px-4 py-3">神保町駅 徒歩2分</td><td className="px-4 py-3">マシンのグループ（女性専用）</td><td className="px-4 py-3">0円</td><td className="px-4 py-3">火・金 10:00〜15:00／17:30〜22:00、水 10:00〜14:00／17:30〜22:00、木 17:30〜22:00、土祝 10:00〜18:30、日 10:00〜17:30</td><td className="px-4 py-3">月曜日</td></tr>
-          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">zen place pilates 本郷三丁目店（文京区本郷3-32-7 東京ビル4階）</td><td className="px-4 py-3">JR御茶ノ水駅 徒歩10分</td><td className="px-4 py-3">本郷三丁目駅（丸ノ内線2番出口・大江戸線3番出口）徒歩3分</td><td className="px-4 py-3">マットグループ・マシングループ・プライベート</td><td className="px-4 py-3">マット 1,000円／マシン 3,000円（初回体験キャンペーン）</td><td className="px-4 py-3">平日 9:30〜21:00／土日祝 7:30〜18:00</td><td className="px-4 py-3">記載なし</td></tr>
-          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Z&amp;Z Pilates Studio 神保町店（神田神保町3-2-28 ACN神保町ビル3階）</td><td className="px-4 py-3">御茶ノ水駅 10分</td><td className="px-4 py-3">神保町駅 1分・九段下駅 2分</td><td className="px-4 py-3">マシンの少人数グループ（最大3人）・プライベート</td><td className="px-4 py-3">グループ 4,000円（50分）／プライベート 8,000円（60分）</td><td className="px-4 py-3">平日 9:00〜22:00／土日祝 10:00〜19:00</td><td className="px-4 py-3">記載なし</td></tr>
-          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">zen place pilates 神保町店（神田神保町1-13-2 文銭堂ビル4階）</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">神保町駅 A7出口 徒歩1分</td><td className="px-4 py-3">マットグループ・マシングループ・プライベート</td><td className="px-4 py-3">マット 1,000円／マシン 3,000円（初回体験キャンペーン）</td><td className="px-4 py-3">平日 8:55〜22:00／土日祝 8:00〜20:00</td><td className="px-4 py-3">記載なし</td></tr>
-          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">PILATES STUDIO ZERO 神保町店（神田神保町1-16-3 TSI神保町ビル1F・B1）</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">神保町駅 A5出口 徒歩2分</td><td className="px-4 py-3">マシンの完全プライベート（40分）</td><td className="px-4 py-3">4,400円（10月は体験当日入会で無料）</td><td className="px-4 py-3">平日 9:00〜22:00／土日祝 9:00〜19:00</td><td className="px-4 py-3">記載なし</td></tr>
-        </tbody></table></div><p className="text-warm-600 leading-relaxed mt-4 text-sm">JR御茶ノ水駅（聖橋口側）から歩いて通うなら rcu リチュ、千代田線の新御茶ノ水駅や丸ノ内線の淡路町駅を使うなら YARD が近く、どちらもヨガとピラティスを同じ会員で受けられます。マシンのグループレッスンを受けたい場合は、御茶ノ水駅から徒歩7分のピラティスK（女性専用・体験0円）か、神保町駅すぐの zen place 神保町店が候補です。マンツーマンのマシンピラティスなら PILATES STUDIO ZERO（月4回 37,200円）と Z&amp;Z Pilates Studio（プライベート月4回 39,600円）を比べてみてください。</p><p className="text-warm-500 text-xs mt-3 leading-relaxed">確認した公式ページ: <a href="https://yard-yp.com/studio/ochanomizu/" className="underline" target="_blank" rel="noopener noreferrer">YARD 御茶ノ水スタジオ</a>／<a href="http://www.yoga-rcu.com/contents/schedule/ochanomizu/" className="underline" target="_blank" rel="noopener noreferrer">rcu 御茶ノ水 スケジュール・料金</a>／<a href="https://pilates-k.jp/studio/tokyo/jimbocho" className="underline" target="_blank" rel="noopener noreferrer">ピラティスK 神保町店</a>／<a href="https://www.zenplace.co.jp/studios/pilates-hongo" className="underline" target="_blank" rel="noopener noreferrer">zen place 本郷三丁目</a>／<a href="https://www.zenplace.co.jp/studios/pilates-jinbochou" className="underline" target="_blank" rel="noopener noreferrer">zen place 神保町</a>／<a href="https://www.zzpilates.jp/" className="underline" target="_blank" rel="noopener noreferrer">Z&amp;Z Pilates Studio</a>／<a href="https://bodyworkstudio.jp/pilates/access.html" className="underline" target="_blank" rel="noopener noreferrer">PILATES STUDIO ZERO</a>（いずれも2026年10月25日確認）</p></div></section>
+        <section className="py-12 bg-white" id="by-station-notes"><div className="max-w-5xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">御茶ノ水・神保町で選ぶときのポイント</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">上の早見表は、掲載7店を御茶ノ水駅・新御茶ノ水駅から近い順に並べたものです。徒歩分・住所・体験料金・営業時間・定休日は各スタジオの公式サイトの表記です（2026年11月7日確認・公式に記載がない項目は「記載なし」）。御茶ノ水・新御茶ノ水駅から徒歩5分以内は YARD と rcu リチュの2店、神保町駅から徒歩2分以内は4店です。</p><p className="text-warm-600 leading-relaxed mt-4 text-sm">JR御茶ノ水駅（聖橋口側）から歩いて通うなら rcu リチュ、千代田線の新御茶ノ水駅や丸ノ内線の淡路町駅を使うなら YARD が近く、どちらもヨガとピラティスを同じ会員で受けられます。マシンのグループレッスンを受けたい場合は、御茶ノ水駅から徒歩7分のピラティスK（女性専用・体験0円）か、神保町駅すぐの zen place 神保町店が候補です。マンツーマンのマシンピラティスなら PILATES STUDIO ZERO（月4回 37,200円）と Z&amp;Z Pilates Studio（プライベート月4回 39,600円）を比べてみてください。</p><p className="text-warm-500 text-xs mt-3 leading-relaxed">確認した公式ページ: <a href="https://yard-yp.com/studio/ochanomizu/" className="underline" target="_blank" rel="noopener noreferrer">YARD 御茶ノ水スタジオ</a>／<a href="http://www.yoga-rcu.com/contents/schedule/ochanomizu/" className="underline" target="_blank" rel="noopener noreferrer">rcu 御茶ノ水 スケジュール・料金</a>／<a href="https://pilates-k.jp/studio/tokyo/jimbocho" className="underline" target="_blank" rel="noopener noreferrer">ピラティスK 神保町店</a>／<a href="https://www.zenplace.co.jp/studios/pilates-hongo" className="underline" target="_blank" rel="noopener noreferrer">zen place 本郷三丁目</a>／<a href="https://www.zenplace.co.jp/studios/pilates-jinbochou" className="underline" target="_blank" rel="noopener noreferrer">zen place 神保町</a>／<a href="https://www.zzpilates.jp/" className="underline" target="_blank" rel="noopener noreferrer">Z&amp;Z Pilates Studio</a>／<a href="https://bodyworkstudio.jp/pilates/access.html" className="underline" target="_blank" rel="noopener noreferrer">PILATES STUDIO ZERO</a>（いずれも2026年10月25日確認）</p></div></section>
 
         <PriceComparisonTable studios={studios} areaName="スタジオ" />
         <AreaMarketComparison studios={studios} areaName="スタジオ" />
@@ -434,7 +427,7 @@ export default function OchanomizuPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">9,680円（YARD）〜19,900円（Z&amp;Z 小班月4回）</td>
+                    <td className="px-4 py-3">9,625円（zen place 神保町店）〜19,900円（Z&amp;Z 小班月4回）</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン（月4回）</td>
@@ -688,7 +681,7 @@ export default function OchanomizuPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  御茶ノ水・神保町エリアの料金相場はグループで月4回9,680円〜19,900円程度です（2026年10月25日確認）。無理なく継続できる予算を決めることをおすすめします。料金だけでなく、入会金やマット・ウェアのレンタル料などもご確認ください。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  御茶ノ水・神保町エリアの料金相場はグループで月4回9,625円〜19,900円程度です（2026年11月7日確認）。無理なく継続できる予算を決めることをおすすめします。料金だけでなく、入会金やマット・ウェアのレンタル料などもご確認ください。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

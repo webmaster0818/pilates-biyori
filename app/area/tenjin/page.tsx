@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/tenjin/' },
   title: '天神のピラティス｜初心者可・無料体験で選ぶ料金比較',
-  description: '天神エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
+  description: '天神のピラティススタジオ6社を、天神駅からの徒歩分・月額・体験料金の早見表で比較。Rintosull 月4回8,800円（西1出口すぐ）、zen place 10,450円、ピラティスK 13,420円ほか（2026年11月7日公式確認）。',
   keywords: 'ピラティス,天神,福岡,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -50,8 +50,8 @@ const studios = [
     trial: '体験レッスン 0円',
     features: ['女性専用', '天神駅近', 'マシンピラティス専門', '体験0円'],
     description: '女性専用マシンピラティス専門スタジオです。天神駅・西鉄福岡駅・天神南駅からアクセス良好です。音楽に合わせた独自プログラムで楽しくボディメイクを目指せます。部位別プログラムが充実し、お腹・脚・ヒップなど目的に合わせて選べます。',
-    access: '地下鉄空港線「天神駅」/ 西鉄「福岡(天神)駅」/ 地下鉄七隈線「天神南駅」',
-    address: '福岡市中央区天神（天神駅周辺）',
+    access: '「天神駅」天神地下街 西10番出口 徒歩4分／「西鉄福岡（天神）駅」中央口 徒歩4分／「天神南駅」徒歩4分',
+    address: '福岡県福岡市中央区天神2-3-34 新宅興産ビル 3階',
     popularPlan: {
       name: 'マンスリー4メンバー',
       description: '女性専用マシンピラティス月4回です。音楽に合わせた楽しいレッスンです。',
@@ -82,7 +82,7 @@ const studios = [
     trial: '体験レッスン 1,000円〜',
     features: ['マット&マシン', '天神エリア', '男性利用可', '全国他店利用'],
     description: '全国150店舗以上展開の大手ピラティススタジオです。福岡天神に展開しています。マットグループ、マシン（リフォーマー）グループ、プライベートレッスンに対応しています。全国の店舗で他店利用可能です。',
-    access: '地下鉄空港線「天神駅」徒歩圏内',
+    access: '地下鉄空港線 天神駅／西鉄福岡（天神）駅 西1出口 徒歩5分／赤坂駅5番出口 徒歩5分',
     address: '福岡県福岡市中央区舞鶴1-1-11 天神グラスビルディング9階',
     popularPlan: {
       name: 'リフォーマーグループ（月4回）',
@@ -112,7 +112,7 @@ const studios = [
     trial: '体験レッスン 1,000円',
     features: ['理学療法士監修', '完全マンツーマン', '天神エリア', '全額返金保証'],
     description: '理学療法士が監修・指導する完全マンツーマンのパーソナルマシンピラティススタジオです。福岡天神に展開しています。医学的根拠に基づいた指導で、怪我予防やリハビリにも対応しています。体験1,000円です。',
-    access: '地下鉄空港線「天神駅」徒歩圏内',
+    access: '地下鉄空港線「赤坂駅」徒歩5分／「天神駅」徒歩10分',
     address: '福岡県福岡市中央区舞鶴2丁目1-4 天神尾嶋ビル501',
     popularPlan: {
       name: 'パーソナルピラティス（月3回）',
@@ -175,8 +175,8 @@ const studios = [
     trial: '体験トレーニング 無料（入会金も0円・公式の店舗ページ表示・2026年10月23日確認）',
     features: ['マンツーマン（パーソナル）', 'マシン・マット両対応', '医師推奨パーソナルジムNo.1受賞'],
     description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオです。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せます。天神エリアです（詳細は公式サイト参照）。',
-    access: '天神エリア（詳細は公式サイト参照）',
-    address: '福岡県（詳細は公式サイト参照）',
+    access: '地下鉄空港線「天神駅」西2a出口 徒歩5分／「赤坂駅」5番出口 徒歩3分',
+    address: '福岡県福岡市中央区大名2-8-19 フィル・パーク福岡大名Ⅱ 3階A号室',
   },
 ]
 
@@ -238,7 +238,7 @@ export default function TenjinPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月07日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス天神おすすめ6選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
@@ -259,6 +259,7 @@ export default function TenjinPage() {
           </div>
         </section>
 
+        <section className="py-6 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-xl md:text-2xl font-bold text-warm-900 mb-3">天神のピラティス早見表｜駅徒歩・月額・体験</h2><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">天神駅から</th><th className="px-4 py-3 text-left">月額（税込）</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">形式</th></tr></thead><tbody><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Rintosull 天神店（天神3-1-1 天神フタタビル5F）</td><td className="px-4 py-3">西1出口すぐ</td><td className="px-4 py-3">月4回 8,800円＋運営管理費 月680円</td><td className="px-4 py-3">無料体験会 0円</td><td className="px-4 py-3">マシンのグループ（女性専用）</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">ピラティスK 福岡天神店（天神2-3-34 新宅興産ビル3階）</td><td className="px-4 py-3">天神地下街 西10番出口 徒歩4分</td><td className="px-4 py-3">月4回 13,420円＋施設維持費 月825円</td><td className="px-4 py-3">0円</td><td className="px-4 py-3">マシンのグループ（女性専用）</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">zen place pilates 福岡天神（舞鶴1-1-11 天神グラスビルディング9階）</td><td className="px-4 py-3">西1出口 徒歩5分（赤坂駅5番出口 徒歩5分）</td><td className="px-4 py-3">マット月4回 10,450円／マシン月4回 15,400円＋設備運営管理費 月550円</td><td className="px-4 py-3">マットグループ 1,000円／マシングループ 3,000円（初回体験キャンペーン）</td><td className="px-4 py-3">マット・マシンのグループ・プライベート（男女共用）</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Dr.ピラティス 福岡天神店（大名2-8-19 フィル・パーク福岡大名Ⅱ 3階A号室）</td><td className="px-4 py-3">西2a出口 徒歩5分（赤坂駅5番出口 徒歩3分）</td><td className="px-4 py-3">月4回 45分 29,700円〜（入会金0円）</td><td className="px-4 py-3">0円</td><td className="px-4 py-3">マンツーマン</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Pilates Mee 福岡天神・赤坂店（大名1-9-45 509）</td><td className="px-4 py-3">赤坂駅 徒歩3分（天神駅からの徒歩分は公式に記載なし）</td><td className="px-4 py-3">セミパーソナル 月4回 19,800円</td><td className="px-4 py-3">0円</td><td className="px-4 py-3">マシンのセミパーソナル（最大3名・女性専用）</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">ルルト 福岡天神店（舞鶴2-1-4 天神尾嶋ビル501）</td><td className="px-4 py-3">徒歩10分（赤坂駅 徒歩5分）</td><td className="px-4 py-3">月3回 29,700円／月4回 38,400円</td><td className="px-4 py-3">1,000円（期間限定・45分）</td><td className="px-4 py-3">マシンのマンツーマン</td></tr></tbody></table></div><p className="text-warm-500 text-xs leading-relaxed mt-3">天神駅から近い順。各スタジオの公式ページの表記です（2026年11月7日確認）。確認した公式ページ: <a href="https://rintosull.jp/shop/fukuoka/tenjin/" target="_blank" rel="noopener noreferrer" className="underline">Rintosull 天神店</a> ／ <a href="https://pilates-k.jp/studio/fukuoka-ken/fukuoka-tenjin" target="_blank" rel="noopener noreferrer" className="underline">ピラティスK 福岡天神店</a> ／ <a href="https://www.zenplace.co.jp/studios/pilates-fukuoka" target="_blank" rel="noopener noreferrer" className="underline">zen place 福岡天神</a> ／ <a href="https://www.zenplace.co.jp/price" target="_blank" rel="noopener noreferrer" className="underline">zen place 料金</a> ／ <a href="https://drpilates.drtraining.jp/location/tenjin/" target="_blank" rel="noopener noreferrer" className="underline">Dr.ピラティス 福岡天神店</a> ／ <a href="https://m-pilates.com/shop/fukuoka/fukuoka-tenjin-akasaka/" target="_blank" rel="noopener noreferrer" className="underline">Pilates Mee 福岡天神・赤坂店</a> ／ <a href="https://luluto.kabushikigaisya-rigakubody.co.jp/tenpo/pilates_fukuokatenjin/" target="_blank" rel="noopener noreferrer" className="underline">ルルト 福岡天神店</a></p></div></section>
         <TableOfContents areaName="天神" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
 
         {/* Introduction */}
