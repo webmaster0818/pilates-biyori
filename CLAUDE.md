@@ -1357,3 +1357,11 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 ### 2026-11-07 BREST 3店を公式の現行料金に訂正（source 18300b93 / deploy 560b1f39fb・反映約28分・Indexing 枠切れで sitemap 再送）
 - 公式店舗ページ（brest-gym.jp/studio/{hongo-sanchome,daikanyama,futakotamagawa}/・11/7 再取得）: デイタイム M4 税込20,680（平日12:30〜17:00）／パーソナル M4 25,080／M8 41,580／M12 47,080。カードの 22,880円〜 を訂正し、エリア3頁・/brands/brest/ の料金説明・brands-aggregate.json を揃えた。料金文字列はデイタイムを先頭にした（AreaMarketComparison は先頭の円を最安に使う＝本郷三丁目の最安目安 22,880→20,680）
 - 茅ヶ崎・相模大野・淡路・呉服町は公式 M4 22,880 と一致＝未変更。felmat 通知の新プランは未反映（M12 等は改定時に直す）。予算帯・相場表に BREST は無く、N選・件数の変更なし
+
+### 2026-11-07 12:00 成長ルーチン: 7エリアの h1 直下に早見表・zen place title にゼンピラティス・シザーズ冒頭に要点表
+- kyoto-station・gakugei-daigaku・ochanomizu・isehara・hikarigaoka: `#by-station` を h1 直下へ移して月額の列を追加（説明文は `#by-station-notes`）。tenjin・shin-okubo は表を新設。公式 11/7 確認。title は ochanomizu の【10月最新】→【11月最新】のみ
+- 訂正: ochanomizu 月4回下限 9,680→9,625円（zen 神保町 GRADE 02・description/FAQ/相場/予算）、ZERO キャンペーン 11月。gakugei YUZU「初回500円」バナーは今日の公式に見当たらず削除（画像内の可能性は残る）。kyoto IVY キャンペーンは公式表記が 11/1〜11/30 に変更＝11/30 以降に再確認。tenjin K・zen・ルルト・Dr. の徒歩分と住所。shin-okubo Rintosull 高田馬場 9,800・新宿西口 10,800、K 新宿西口 徒歩1→3分（公式は京王・JR とも3分）、「木戸山改札」→「戸山改札」、CP 西新宿の住所と徒歩分
+- 今日公式を確認できず旧値に日付を付けたもの: isehara IGNITE・ピース（公式 URL 不明。peace-pilates.com は英国の別事業者）、hikarigaoka ピラティス青空（10/17）、NAS 光が丘は料金なし
+- brands: zen-place nameKana「ゼンプレイス・ゼンピラティス」＋metaDescription（10/28 title から10日）。club-pilates は冒頭に答えがあるため本文不変、metaDescription のみ。公式一覧は zen 137（/studios の 138 リンクから online を除く）・CP 88 で一致
+- articles: scissors に要点表（記事内の既存内容のみ）。elephant は 10/27 に要点表あり＝不変
+- sitemap: prebuild が 94 件動かしたため HEAD に戻し9頁のみ 11-07。precheck ✅ 589頁・計測リンク 3,798→3,798・functions/api 4本保全。text 変更は 10 頁のみ（deploy 全 HTML の本文比較）
