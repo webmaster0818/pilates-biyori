@@ -1346,3 +1346,10 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - sugamo 9→10選・title 無料体験 4→5社、ueno 3→4選（title/description/h1/本文）
 - ⚠️ 1回目の deploy（2d0d69d9be）は Cloudflare のビルドが「Deploy failed」（直前の 4b4a321254 は成功）。ログは MediaXAI の口座で見られない。空コミットで再実行→成功。同日 17:4x に Workers Paid へプラン変更あり（関連は未確認）
 - Indexing は tomomi-2 の1日の枠（55件）を使い切っていたため送れず→sitemap 再送信（204）
+
+### 2026-11-07 朝ルーチン: pilates-diet-effect の★列を削除（source 3b706739 / deploy fb5c4a42e0）
+- C6: 比較表の「ダイエット効果」「継続しやすさ」の★10個は出典も基準もなく、列ごと削除。消費カロリー列（出典なし）と「ピラティスの特徴」は未変更。順位・比較の結論は表に依存していない
+- 札幌 Reformer Pilates Sapporo・B-line 札幌: 11/6 に削除済み（75a9180b）。11/7 Yahoo 検索でも実在を確認できず、本番 /ai-soudan/・/area/sapporo/ とも0件。app/test-ikebukuro（noindex・本番 200）に「B-line 池袋」が残る
+- BREST: 公式 11/7 は旧料金のまま（本郷三丁目・代官山・二子玉川に M12 とデイタイムが残る。その他の店は M4 のみで金額は 10 月と同じ。お知らせに改定告知なし）→未変更。⚠️上記3店のカードの 22,880円は公式の M4 25,080円と不一致（改定と一緒に直す前提で未変更）
+- /brands/ C5 は判断待ちで title 不変（本文に口コミなし。title「主要15ブランド」本文「22ブランド」も不一致）。/editors/ C3 は読者を指す文の誤検知
+- sitemap: 当該頁のみ 11-07。precheck ✅ 589頁・計測リンク 3,782→3,782・functions/api 4本保全。1回目のビルドは next/font のエラーで失敗し、webpack キャッシュ削除後の再実行で成功
