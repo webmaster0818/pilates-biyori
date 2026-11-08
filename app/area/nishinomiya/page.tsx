@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { AreaQuickAnswer } from '@/components/AreaQuickAnswer'
 import { Navigation } from '@/components/Navigation'
 import { SiteFooter } from '@/components/SiteFooter'
 import { StudioCard } from '@/components/StudioCard'
@@ -98,7 +99,7 @@ const studios = [
       description: '15種類の器具を使った本格グループレッスンです。4段階のレベル分けで安心です。',
       price: '月4回 13,090円（税表記なし）',
     },
-    options: ['月8回 24,090円', '通い放題 37,290円', '入会金 5,500円（税表記なし）・入会時の事務手数料 2,200円（税込）', '30分の体験レッスン 無料', '料金は公式の店舗ページ（2026年10月17日確認）'],
+    options: ['月8回 24,090円', '通い放題 37,290円', '入会金 5,500円（税表記なし）・入会時の事務手数料 2,200円（税込）', '30分の体験レッスン 無料', '料金は公式の店舗ページ（2026年11月8日確認）'],
     userProfile: {
       ageRange: '20代〜60代',
       genderRatio: '男女とも利用可',
@@ -302,7 +303,7 @@ export default function NishinomiyaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月08日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス西宮おすすめ8選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
@@ -322,6 +323,13 @@ export default function NishinomiyaPage() {
             </nav>
           </div>
         </section>
+
+        <AreaQuickAnswer areaName="西宮北口" rows={[
+          { label: '月会費', text: 'クラブピラティス（CLUB PILATES）西宮北口店の月会費は、月4回 13,090円・月8回 24,090円・通い放題 37,290円です（公式は税表記なし）。年間一括払いの金額は店舗への問い合わせです。' },
+          { label: '入会時', text: '入会金 5,500円（税表記なし）と事務手数料 2,200円（税込）がかかります。' },
+          { label: '体験', text: '30分の体験レッスンは無料です。' },
+          { label: '場所', text: '西宮市平木町2-18（阪急 西宮北口駅 徒歩5分）。月・水・金 8:30〜21:00、火・木 7:30〜21:00、土日 7:30〜17:00（年末年始は12/29〜1/3休み）。' },
+        ]} note={<>CLUB PILATES 西宮北口店の公式店舗ページの表記です（2026年11月8日確認）。休会費・キャンセル条件は<a href="#club-pilates-price" className="underline">クラブピラティス 西宮北口店の料金</a>、ほかの7スタジオの料金は<a href="#studios" className="underline">スタジオ紹介</a>をご覧ください。出典: <a href="https://clubpilates.co.jp/studio/nishinomiyakitaguchi/" target="_blank" rel="noopener noreferrer" className="underline">CLUB PILATES 西宮北口店 公式店舗ページ</a></>} />
 
         <TableOfContents areaName="西宮" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
 
@@ -416,7 +424,7 @@ export default function NishinomiyaPage() {
               <li>・所在地: 〒662-0835 兵庫県西宮市平木町2-18（西宮北口駅 徒歩5分）／営業時間: 月・水・金 8:30〜21:00、火・木 7:30〜21:00、土・日 7:30〜17:00</li>
             </ul>
             <p className="text-xs text-warm-400 mt-4">
-              出典: <a href="https://clubpilates.co.jp/studio/nishinomiyakitaguchi/" target="_blank" rel="noopener noreferrer" className="underline">CLUB PILATES 西宮北口店 公式店舗ページ</a>（2026年10月17日確認）。最新の料金・キャンペーンは公式サイトでご確認ください。
+              出典: <a href="https://clubpilates.co.jp/studio/nishinomiyakitaguchi/" target="_blank" rel="noopener noreferrer" className="underline">CLUB PILATES 西宮北口店 公式店舗ページ</a>（2026年11月8日確認）。最新の料金・キャンペーンは公式サイトでご確認ください。
               <Link href="/brands/club-pilates-nishinomiyakitaguchi/" className="underline ml-2">CLUB PILATES 西宮北口店の店舗ページ</Link>
             </p>
           </div>

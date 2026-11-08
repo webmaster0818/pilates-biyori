@@ -79,8 +79,8 @@ const studios = [
       purpose: ['姿勢改善', '体幹強化', 'ボディメイク', 'リハビリ'],
     },
     basicInfo: {
-      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
-      closed: '不定休',
+      hours: '平日 7:00〜21:00 / 土日祝 7:30〜17:00',
+      closed: '公式に記載なし',
       facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi', 'マシン完備', '男女共用'],
     },
   },
@@ -238,7 +238,7 @@ export default function YurakuchoPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月08日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス有楽町おすすめ5選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
@@ -258,6 +258,12 @@ export default function YurakuchoPage() {
             </nav>
           </div>
         </section>
+
+        <section className="py-6 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-xl md:text-2xl font-bold text-warm-900 mb-3">有楽町のピラティス早見表｜駅徒歩・月額・体験</h2><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">駅から（公式表記）</th><th className="px-4 py-3 text-left">月額（税込）</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">営業時間／定休日</th></tr></thead><tbody>
+            <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Rintosull 銀座店（銀座4-4-1 銀座清水ビルB2F）</td><td className="px-4 py-3">JR 有楽町駅 中央口 徒歩5分／銀座駅 B2・B4出口 徒歩1分</td><td className="px-4 py-3">月4回 9,800円＋運営管理費 月680円</td><td className="px-4 py-3">マシングループ（女性専用）</td><td className="px-4 py-3">無料体験会 0円（約45分）</td><td className="px-4 py-3">店舗ページに記載なし／毎週日曜・第4水曜</td></tr>
+            <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">ピラティスK 銀座店（銀座1-6-10 上一ビルディング7F）</td><td className="px-4 py-3">JR 有楽町駅 京橋口 徒歩6分／銀座一丁目駅 6番出口 徒歩1分</td><td className="px-4 py-3">月4回 13,420円＋施設維持費 月825円</td><td className="px-4 py-3">マシングループ（女性専用）</td><td className="px-4 py-3">0円</td><td className="px-4 py-3">平日 9:30〜16:00・17:30〜22:00、土日祝 9:30〜20:00／第一月曜</td></tr>
+            <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">zen place pilates 銀座二丁目（銀座2-11-15 SF銀座ビル2F）</td><td className="px-4 py-3">銀座一丁目駅 10番出口 徒歩1分／銀座駅 A13出口 徒歩4分（有楽町駅からの分数は公式に記載なし）</td><td className="px-4 py-3">マット月4回 10,450円（入会金 33,000円・体験当日の入会で無料）</td><td className="px-4 py-3">マット・マシンのグループ・プライベート（男女共用）</td><td className="px-4 py-3">マットグループ 1,000円／マシン 3,000円（初回体験キャンペーン）</td><td className="px-4 py-3">平日 7:00〜21:00・土日祝 7:30〜17:00／記載なし</td></tr>
+        </tbody></table></div><p className="text-warm-500 text-xs leading-relaxed mt-3">徒歩分・月額・体験・営業時間は各スタジオの公式店舗ページの表記です（2026年11月8日確認・税込）。有楽町駅からの徒歩分を公式に載せているのは Rintosull 銀座店（中央口 5分）とピラティスK 銀座店（京橋口 6分）です。the SILK 銀座店（銀座駅）・BDC PILATES 銀座スタジオ（銀座駅 C8出口）の料金と体験は、<a href="#studios" className="underline">下のスタジオ紹介</a>をご覧ください。</p></div></section>
 
         <TableOfContents areaName="有楽町" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
 

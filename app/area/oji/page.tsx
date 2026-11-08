@@ -51,8 +51,8 @@ const studios = [
       purpose: ['姿勢改善', 'ダイエット', '体幹強化', '運動不足解消'],
     },
     basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '不定休',
+      hours: '公式の店舗ページに記載なし',
+      closed: '毎週日曜・第4水曜（公式）',
       facilities: ['リフォーマー', '大型スクリーン', '更衣室', 'ロッカー'],
     },
   },
@@ -64,14 +64,14 @@ const studios = [
     features: ['完全プライベート', '国際資格保持', '機能改善特化', '幅広い年齢層'],
     description: '王子駅から徒歩7分のプライベート専門ピラティススタジオです。BASI PilatesとPHI Pilatesの国際資格を持つインストラクターが、一人ひとりの身体に合わせたオーダーメイドレッスンを提供しています。機能改善に特化したアプローチで10代から70代まで幅広い年齢層に対応しています。',
     access: 'JR京浜東北線「王子駅」徒歩7分',
-    address: '東京都北区王子エリア（詳細は公式サイトでご確認ください）',
+    address: '東京都北区王子2-18-11 マンション小林会館405号室',
     popularPlan: {
       name: 'プライベートレッスン',
       description: '完全マンツーマンのオーダーメイドピラティスレッスンです。',
       price: '1回 8,600円〜（税込）',
     },
     options: [
-      'プライベートレッスン（8,600円〜）',
+      'プライベートレッスン 1回 9,000円・5回券 44,000円・10回券 86,000円（1回あたり8,600円・税込）',
       '体験レッスン（6,000円）',
       'リフォーマー・チェア・マット完備',
       '回数券あり',
@@ -81,7 +81,7 @@ const studios = [
       purpose: ['機能改善', '腰痛改善', '姿勢改善', 'リハビリ'],
     },
     basicInfo: {
-      hours: '公式サイトでご確認ください',
+      hours: '9:00〜21:00（公式）',
       closed: '不定休',
       facilities: ['リフォーマー', 'チェア', 'マット'],
     },
@@ -104,7 +104,7 @@ const studios = [
     options: [
       '月4回プラン（9,625円〜）',
       'マシングループ体験（3,000円）',
-      'プライベートレッスン（体験 9,900円）',
+      'プライベートレッスン（体験 8,250円〜）',
       '体験当日入会で入会金無料',
     ],
     userProfile: {
@@ -112,8 +112,8 @@ const studios = [
       purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
     },
     basicInfo: {
-      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
-      closed: '不定休',
+      hours: '平日 8:20〜21:40 / 土日祝 7:00〜21:30',
+      closed: '公式に記載なし',
       facilities: ['リフォーマー', 'マット', 'ロッカー', '更衣室'],
     },
   },
@@ -177,7 +177,7 @@ export default function OjiPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月08日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス王子おすすめ3選<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較
@@ -197,6 +197,11 @@ export default function OjiPage() {
             </nav>
           </div>
         </section>
+        <section className="py-6 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-xl md:text-2xl font-bold text-warm-900 mb-3">王子のピラティス早見表｜駅徒歩・月額・体験</h2><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">駅から（公式表記）</th><th className="px-4 py-3 text-left">月額・料金（税込）</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">営業時間／定休日</th></tr></thead><tbody>
+            <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Rintosull 王子店（王子1-13-16 エイムビル8F）</td><td className="px-4 py-3">メトロ 王子駅 出口5 徒歩1分／JR 王子駅 北口 徒歩4分</td><td className="px-4 py-3">月4回 8,800円／王子店通い放題 13,800円＋運営管理費 月680円</td><td className="px-4 py-3">リフォーマーのマシングループ（女性専用）</td><td className="px-4 py-3">無料体験会 0円</td><td className="px-4 py-3">店舗ページに記載なし／毎週日曜・第4水曜</td></tr>
+            <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Pilates Studio M（王子2-18-11 マンション小林会館405号室）</td><td className="px-4 py-3">JR 王子駅 徒歩7分</td><td className="px-4 py-3">月額制の記載なし（60分 1回 9,000円・10回券 86,000円）</td><td className="px-4 py-3">プライベート（マンツーマン）</td><td className="px-4 py-3">6,000円（60分）</td><td className="px-4 py-3">9:00〜21:00／不定休</td></tr>
+            <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">zen place pilates 駒込スタジオ（北区中里1-10-6 駒込Kビル5F）</td><td className="px-4 py-3">JR 駒込駅 東口 徒歩4分（王子駅から JR で田端乗り換え2駅）</td><td className="px-4 py-3">マット月4回 9,625円（入会金 22,000円・体験当日の入会で無料）</td><td className="px-4 py-3">マット・マシンのグループ・プライベート（男女共用）</td><td className="px-4 py-3">マットグループ 1,000円／マシン 3,000円（初回体験キャンペーン）</td><td className="px-4 py-3">平日 8:20〜21:40・土日祝 7:00〜21:30／記載なし</td></tr>
+        </tbody></table></div><p className="text-warm-500 text-xs leading-relaxed mt-3">徒歩分・料金・体験・営業時間は各スタジオの公式ページの表記です（2026年11月8日確認・税込）。王子駅から歩いて通えるのは Rintosull（出口5から1分）と Pilates Studio M（7分）です。リフォーマーのグループレッスンを王子駅前で受けられるのは Rintosull 王子店で、zen place は駒込駅（JR 京浜東北線で田端、山手線に乗り換えて1駅）のスタジオです。</p></div></section>
         <AreaConclusion studios={studios} areaName="王子" />
 
 

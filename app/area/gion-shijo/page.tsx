@@ -42,7 +42,7 @@ const studios = [
       'リフォーマーグループ月4回（月額15,400円）',
       'リフォーマーグループ月8回（月額25,300円）',
       'プライベート月4回（月額38,280円〜）',
-      '入会金 22,000円（体験当日入会で無料）',
+      '入会金 33,000円（体験当日入会で無料・公式 2026年11月8日確認）',
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
@@ -114,7 +114,7 @@ const studios = [
     },
     basicInfo: {
       hours: '公式サイトでご確認ください',
-      closed: '毎週日曜日',
+      closed: '毎週日曜日・第4木曜日',
       facilities: ['リフォーマーマシン', '更衣室', 'ロッカー', 'キャッシュレス専用'],
     },
   },
@@ -240,7 +240,7 @@ export default function GionShijoPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月08日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス祇園四条おすすめ5選<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較
@@ -258,6 +258,27 @@ export default function GionShijoPage() {
               {' > '}
               <span className="text-warm-600">祇園四条</span>
             </nav>
+          </div>
+        </section>
+        {/* 祇園四条駅からの早見表（2026-10-24 新設・2026-11-08 h1 直下へ移して月額・営業時間の列を追加） */}
+        <section className="py-6 bg-white" id="from-gion-shijo">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 className="text-xl md:text-2xl font-bold text-warm-900 mb-3">祇園四条のピラティス早見表｜駅徒歩・月額・体験</h2>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm border-collapse">
+                <thead>
+                  <tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">最寄り駅（公式表記）／祇園四条駅から</th><th className="px-4 py-3 text-left">月額（税込）</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">営業時間／定休日</th></tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">zen place pilates 京都（立売東町14 イシズミ本社ビル9階）</td><td className="px-4 py-3">阪急 烏丸駅・地下鉄 四条駅 12番出口 徒歩1分／京都河原町駅から阪急で1駅</td><td className="px-4 py-3">マット月4回 10,450円／マシン月4回 15,400円＋設備運営管理費 月550円</td><td className="px-4 py-3">マット・マシンのグループ・プライベート（男女共用）</td><td className="px-4 py-3">マットグループ 1,000円／マシン 3,000円（初回体験キャンペーン）</td><td className="px-4 py-3">平日 7:00〜22:00・土日祝 7:10〜18:00／記載なし</td></tr>
+                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">ピラティスK 京都四条烏丸店（立売西町66 京都証券ビル6F）</td><td className="px-4 py-3">阪急 烏丸駅 東改札 徒歩1分・地下鉄 四条駅 1番出口 徒歩4分／京都河原町駅から阪急で1駅</td><td className="px-4 py-3">月4回 13,420円＋施設維持費 月825円</td><td className="px-4 py-3">マシングループ（女性専用）</td><td className="px-4 py-3">0円</td><td className="px-4 py-3">火・水・金 10:00〜15:00／17:00〜22:00、木 17:30〜22:00、土祝 10:00〜19:00、日 10:00〜17:30／月曜</td></tr>
+                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Rintosull 京都四条烏丸店（立売中之町94 四条KSビル2F）</td><td className="px-4 py-3">阪急 烏丸駅 15番出口 徒歩2分・地下鉄 四条駅 1番出口 徒歩5分／京都河原町駅から阪急で1駅</td><td className="px-4 py-3">月4回 8,800円＋運営管理費 月680円</td><td className="px-4 py-3">マシングループ（女性専用）</td><td className="px-4 py-3">無料体験会 0円（約45分）</td><td className="px-4 py-3">店舗ページに記載なし／毎週日曜・第4木曜</td></tr>
+                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Pilates KASANE 四条烏丸店（立売西町71 GRAND CUBE四条7階）</td><td className="px-4 py-3">阪急 烏丸駅 15番口 徒歩1分／京都河原町駅から阪急で1駅</td><td className="px-4 py-3">グループ月4回 15,400円（入会金0円）</td><td className="px-4 py-3">マシングループ（男性も入会可）</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">8:00〜21:00／年中無休</td></tr>
+                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Pilates MUSE 京都四条大宮（四条大宮町27-4 KODOビル4F）</td><td className="px-4 py-3">阪急 大宮駅・嵐電 四条大宮駅 徒歩約1分／京都河原町駅から阪急で2駅</td><td className="px-4 py-3">セルフ月額 10,000円（会員は24時間マシン利用可）＋事務手数料 11,000円</td><td className="px-4 py-3">少人数グループ・パーソナル（女性専用）</td><td className="px-4 py-3">3,000円（50分の少人数グループ）</td><td className="px-4 py-3">パーソナル受付 9:00〜12:00／13:00〜20:00／記載なし</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="text-warm-500 text-xs leading-relaxed mt-3">徒歩分・月額・体験・営業時間は各スタジオの公式ページの表記です（2026年11月8日確認・税込）。掲載5社はいずれも祇園四条駅の西側（四条烏丸・四条大宮）にあり、京阪「祇園四条駅」から四条大橋を渡った先の阪急「京都河原町駅」から、阪急京都線で烏丸駅は1駅、大宮駅は2駅です。祇園四条駅のすぐ近く（祇園・河原町側）には、当サイトが公式サイトで料金を確認できたピラティススタジオがまだありません。会社帰りに通うなら、職場や乗り換え駅に近い烏丸の4社を候補にすると比べやすくなります。</p>
           </div>
         </section>
         <AreaConclusion studios={studios} areaName="祇園四条" />
@@ -298,38 +319,6 @@ export default function GionShijoPage() {
             </div>
             <p className="text-warm-600 leading-relaxed">
               以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。
-            </p>
-          </div>
-        </section>
-
-        {/* 祇園四条駅からの行き方（2026-10-24・「祇園四条 ピラティス」の受け皿） */}
-        <section className="py-12 bg-white" id="from-gion-shijo">
-          <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">祇園四条駅からの行き方｜掲載5社の最寄り駅と体験料金</h2>
-            <p className="text-warm-600 leading-relaxed mb-6 text-sm">
-              掲載している5社は、いずれも祇園四条駅の西側（四条烏丸・四条大宮）にあります。京阪「祇園四条駅」から四条大橋を渡った先の阪急「京都河原町駅」から、阪急京都線で烏丸駅は1駅、大宮駅は2駅です。最寄り駅と徒歩分は各社の公式サイトの表記、体験料金は2026年10月24日に公式で確認した値です（Pilates MUSE は公式サイトを確認できていません）。
-            </p>
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm border-collapse">
-                <thead>
-                  <tr className="bg-warm-800 text-white">
-                    <th className="px-4 py-3 text-left">スタジオ</th>
-                    <th className="px-4 py-3 text-left">最寄り駅（公式表記）</th>
-                    <th className="px-4 py-3 text-left">祇園四条駅からの行き方</th>
-                    <th className="px-4 py-3 text-left">体験</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3">zen place pilates 京都</td><td className="px-4 py-3">阪急 烏丸駅・地下鉄 四条駅 12番出口 徒歩1分</td><td className="px-4 py-3">京都河原町駅から阪急で1駅（烏丸）</td><td className="px-4 py-3">マット初回1,000円／マシン初回3,000円</td></tr>
-                  <tr className="border-b border-warm-200"><td className="px-4 py-3">ピラティスK 京都四条烏丸店（女性専用）</td><td className="px-4 py-3">阪急 烏丸駅 徒歩1分</td><td className="px-4 py-3">京都河原町駅から阪急で1駅（烏丸）</td><td className="px-4 py-3">0円</td></tr>
-                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3">Rintosull 京都四条烏丸店（女性専用）</td><td className="px-4 py-3">阪急 烏丸駅 15番出口 徒歩2分／地下鉄 四条駅 1番出口 徒歩5分</td><td className="px-4 py-3">京都河原町駅から阪急で1駅（烏丸）</td><td className="px-4 py-3">無料体験会（約45分）</td></tr>
-                  <tr className="border-b border-warm-200"><td className="px-4 py-3">Pilates KASANE 四条烏丸店（男性も入会可）</td><td className="px-4 py-3">阪急 烏丸駅 徒歩1分</td><td className="px-4 py-3">京都河原町駅から阪急で1駅（烏丸）</td><td className="px-4 py-3">無料</td></tr>
-                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3">Pilates MUSE 京都四条大宮（女性専用）</td><td className="px-4 py-3">阪急 大宮駅／嵐電 四条大宮駅 徒歩1分（掲載時の値）</td><td className="px-4 py-3">京都河原町駅から阪急で2駅（大宮）</td><td className="px-4 py-3">公式で未確認</td></tr>
-                </tbody>
-              </table>
-            </div>
-            <p className="text-warm-600 leading-relaxed mt-4 text-sm">
-              祇園四条駅のすぐ近く（祇園・河原町側）には、当サイトが公式サイトで料金を確認できたピラティススタジオがまだありません。会社帰りに通うなら、職場や乗り換え駅に近い烏丸の4社を候補にすると比べやすくなります。
             </p>
           </div>
         </section>

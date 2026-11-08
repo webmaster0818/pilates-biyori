@@ -52,23 +52,23 @@ const studios = [
     },
     basicInfo: {
       hours: '10:00〜22:00',
-      closed: '不定休',
+      closed: '公式に記載なし',
       facilities: ['リフォーマーマシン', 'エステルーム', '更衣室', 'ロッカー', 'パウダールーム'],
     },
   },
   {
     name: 'BeTRY\'s（ビートライズ）',
     image: '/images/pilates3.webp',
-    price: 'パーソナル（要問合せ）',
-    trial: '体験レッスンあり',
+    price: 'パーソナル60分 8,250円（税込・都度払い）',
+    trial: '体験・新規受付は一時停止中（公式：11月中旬に再開予定・2026年11月8日確認）',
     features: ['パーソナル', 'ダイエット&ピラティス', '鞍馬口エリア', '完全個室'],
     description: 'ダイエットとマシンピラティスの両方ができるパーソナルスタジオです。京都市北区鞍馬口に位置し、北大路・今出川・下鴨エリアからもアクセス良好です。一人ひとりに合わせたオーダーメイドプログラムでダイエットとボディメイクを同時に目指せます。',
-    access: '京都市営地下鉄烏丸線「鞍馬口駅」周辺',
+    access: '京都市営地下鉄烏丸線「鞍馬口駅」徒歩約5分（公式）',
     address: '京都府京都市北区鞍馬口通寺町西入新御霊口町273-3',
     popularPlan: {
       name: 'パーソナルレッスン',
       description: 'ダイエット＋マシンピラティスのオーダーメイドプログラムです。',
-      price: '要問合せ（公式サイト参照）',
+      price: '60分 8,250円／45分 6,600円／30分 4,950円（税込・都度払い・公式）',
     },
     options: [
       'ダイエットプログラム',
@@ -81,8 +81,8 @@ const studios = [
       purpose: ['ダイエット', 'ボディメイク', '姿勢改善', '体幹強化'],
     },
     basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '不定休',
+      hours: '月・火・木・金 9:00〜21:00／土日 9:00〜16:30（公式）',
+      closed: '水曜（ほかに不定休あり・公式）',
       facilities: ['リフォーマー', 'トレーニング機器', '完全個室', '更衣室'],
     },
   },
@@ -112,8 +112,8 @@ const studios = [
       purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
     },
     basicInfo: {
-      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
-      closed: '不定休',
+      hours: '平日 7:00〜22:00 / 土日祝 7:10〜18:00',
+      closed: '公式に記載なし',
       facilities: ['リフォーマー', 'マット', 'ロッカー', '更衣室'],
     },
   },
@@ -121,15 +121,15 @@ const studios = [
     name: 'style pilates 京都',
     image: '/images/studios/style-pilates-kyoto.webp',
     price: 'パーソナル 1回 8,800円〜',
-    trial: '体験レッスンあり',
+    trial: '体験 4,980円（当日入金で0円・期間限定キャンペーン・公式）',
     features: ['完全プライベート', '韓国風スタジオ', 'マンツーマン', 'おしゃれ空間'],
     description: '完全プライベート空間の韓国風ピラティススタジオです。経験豊かなインストラクターがマンツーマンで丁寧にサポートしています。初心者から上級者まで自分のペースで取り組めます。',
-    access: '京都市内（詳細は公式サイトでご確認ください）',
-    address: '京都府京都市（詳細は公式サイトでご確認ください）',
+    access: '地下鉄「四条駅」・阪急「烏丸駅」15番出口 徒歩1分（公式）',
+    address: '京都府京都市下京区高材木町225-1 Metro Miru Building 3F',
     popularPlan: {
       name: 'パーソナルレッスン',
       description: '完全プライベート空間でのマンツーマンレッスンです。',
-      price: '1回 8,800円〜（税込）',
+      price: '1回 8,800円〜（公式に税表記なし）',
     },
     options: [
       '完全個室',
@@ -142,7 +142,7 @@ const studios = [
       purpose: ['ボディメイク', '姿勢改善', 'リフレッシュ', 'ダイエット'],
     },
     basicInfo: {
-      hours: '公式サイトでご確認ください',
+      hours: '10:00〜21:30（公式）',
       closed: '不定休',
       facilities: ['リフォーマー', '完全プライベート空間', '更衣室'],
     },
@@ -207,7 +207,7 @@ export default function KitaojiPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月08日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス北大路おすすめ4選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
@@ -227,6 +227,12 @@ export default function KitaojiPage() {
             </nav>
           </div>
         </section>
+        <section className="py-6 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-xl md:text-2xl font-bold text-warm-900 mb-3">北大路のピラティス早見表｜駅からの距離・月額・体験</h2><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">駅から（公式表記）</th><th className="px-4 py-3 text-left">月額（税込）</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">営業時間／定休日</th></tr></thead><tbody>
+            <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">REIBELLE 京都北山店（左京区下鴨神殿町9）</td><td className="px-4 py-3">公式サイトに最寄り駅・徒歩分の記載なし</td><td className="px-4 py-3">通い放題 休日 12,980円／お昼・平日ナイト 15,180円／全日 17,380円（入会金 11,000円）</td><td className="px-4 py-3">マシングループ（女性専用）</td><td className="px-4 py-3">無料（初めての方1回）</td><td className="px-4 py-3">10:00〜22:00／公式に記載なし</td></tr>
+            <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">BeTRY's（北区鞍馬口通寺町西入新御霊口町273-3）</td><td className="px-4 py-3">地下鉄 鞍馬口駅 徒歩約5分（北大路駅から1駅）</td><td className="px-4 py-3">月額制の記載なし（パーソナル60分 8,250円・都度払い）</td><td className="px-4 py-3">パーソナル（女性トレーナーは在籍なし）</td><td className="px-4 py-3">体験・新規受付は一時停止中（11月中旬に再開予定）</td><td className="px-4 py-3">月・火・木・金 9:00〜21:00、土日 9:00〜16:30／水曜</td></tr>
+            <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">zen place pilates 京都スタジオ（下京区立売東町14 イシズミ本社ビル9階）</td><td className="px-4 py-3">地下鉄 四条駅 12番出口 徒歩1分（北大路駅から烏丸線で5駅）</td><td className="px-4 py-3">マット月4回 10,450円／マシン月4回 15,400円＋設備運営管理費 月550円</td><td className="px-4 py-3">マット・マシンのグループ・プライベート（男女共用）</td><td className="px-4 py-3">マットグループ 1,000円／マシン 3,000円（初回体験キャンペーン）</td><td className="px-4 py-3">平日 7:00〜22:00・土日祝 7:10〜18:00／記載なし</td></tr>
+            <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">style pilates 京都（下京区高材木町225-1 Metro Miru Building 3F）</td><td className="px-4 py-3">地下鉄 四条駅・阪急 烏丸駅15番出口 徒歩1分（北大路駅から烏丸線で5駅）</td><td className="px-4 py-3">リフォーマー月4回 33,200円・プライベート1回 8,800円（税表記なし）</td><td className="px-4 py-3">完全プライベート（マンツーマン）</td><td className="px-4 py-3">4,980円（当日入金で0円・期間限定）</td><td className="px-4 py-3">10:00〜21:30／不定休</td></tr>
+        </tbody></table></div><p className="text-warm-500 text-xs leading-relaxed mt-3">徒歩分・月額・体験・営業時間は各スタジオの公式サイトの表記です（2026年11月8日確認・税込）。北大路駅の近くにあるのは REIBELLE（下鴨）と BeTRY's（鞍馬口）の2店です。zen place と style pilates は四条烏丸の店舗で、北大路駅から地下鉄烏丸線で四条駅まで乗り換えなしで通えます。REIBELLE の公式サイトに表示されている「口コミ評価 4.9」は、出典（どのサイトの評価か）と件数の記載がないため、当サイトでは評価として掲載していません。</p></div></section>
         <AreaConclusion studios={studios} areaName="北大路" />
 
 
@@ -495,7 +501,7 @@ export default function KitaojiPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• style pilates（8,800円〜/回）</li>
-                  <li>• BeTRY's（要問合せ）</li>
+                  <li>• BeTRY's（8,250円/60分）</li>
                 </ul>
               </div>
             </div>
