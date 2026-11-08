@@ -1365,3 +1365,9 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - brands: zen-place nameKana「ゼンプレイス・ゼンピラティス」＋metaDescription（10/28 title から10日）。club-pilates は冒頭に答えがあるため本文不変、metaDescription のみ。公式一覧は zen 137（/studios の 138 リンクから online を除く）・CP 88 で一致
 - articles: scissors に要点表（記事内の既存内容のみ）。elephant は 10/27 に要点表あり＝不変
 - sitemap: prebuild が 94 件動かしたため HEAD に戻し9頁のみ 11-07。precheck ✅ 589頁・計測リンク 3,798→3,798・functions/api 4本保全。text 変更は 10 頁のみ（deploy 全 HTML の本文比較）
+
+### 2026-11-08 朝ルーチン: BREST 新料金は公式未掲載・zen place 19店の体験欄を公式キャンペーン値に（source ddb1ca23 / deploy 8f02cd8376・反映約10分）
+- BREST（11/8 09:17 公式直・brest-gym.jp/studio/{hongo-sanchome,daikanyama,futakotamagawa,chigasaki,sagamiono,awaji,gofukumachi}/・トップ・/news/）: 料金は 11/7 と同じ（3店＝デイタイム M4 20,680／M4 25,080／M8 41,580／M12 47,080、他4店＝M4 22,880）。お知らせに改定告知なし（最新 11/1）→未変更。本番8頁は公式と一致。相模大野の公式 URL は /studio/sagamiono/（ハイフンなし）
+- zen place: 公式スタジオページ（11/8）で全店「初回体験キャンペーン マットグループ 1,000円（通常 G01 3,300円〜／G02 2,200円〜）・マシングループ 3,000円（通常5,000円〜）」。data/area-studios.ts の未記載・旧値 20カード（19頁＋未使用の toyonaka エントリ）を更新。chigasaki 等は無料体験の割合が再計算で変わる（100→80%）。toyonaka は独自ページで既に 1,000円
+- /brands/ C5 は判断待ちで title 不変（本文に口コミ0・評判は title のみ）。/editors/ C3 は読者を指す文の誤検知
+- precheck ✅ 589頁・計測リンク 3,743→3,743・functions/api 4本保全・sitemap は19頁のみ 11-08。Indexing は枠切れ（0/55）→sitemap 再送（sc-domain）
