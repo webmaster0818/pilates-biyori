@@ -21,30 +21,30 @@ const studios = [
   {
     name: 'スタジオ インテグレ',
     image: '/images/studios/default-studio.webp',
-    price: '要問合せ',
+    price: 'ピラティス/TRX 月フリー 11,000円',
     trial: '体験レッスン 1,500円',
-    features: ["マシン×マット", "TRX", "Animal Flow", "別府駅近"],
-    description: '別府駅から徒歩5〜7分です。マシン×マットのピラティスに加え、TRXやAnimal Flowなど多彩なプログラムを提供しています。体験1,500円です。',
-    access: 'JR「別府駅」徒歩5〜7分',
-    address: '大分県別府市（別府駅周辺）',
-    popularPlan: { name: 'ピラティスレッスン', description: 'マシン×マットの多彩なプログラムです。', price: '要問合せ（公式サイト参照）' },
-    options: ['体験レッスンあり', '各種プラン', '詳細は公式サイト参照'],
+    features: ["ピラティス（グループ）", "TRX", "Animal Flow", "別府駅徒歩7分"],
+    description: '別府駅から徒歩7分のパーソナルトレーニングスタジオです。ピラティスのグループレッスンに加え、TRXやAnimal Flowのレッスン、パーソナルレッスンがあります。体験1,500円です。',
+    access: 'JR「別府駅」徒歩7分',
+    address: '大分県別府市秋葉町7-24 センチュリーハイツ日名子2F',
+    popularPlan: { name: 'ピラティス/TRX 月フリー', description: 'ピラティスとTRXのグループレッスンに月内は回数制限なく参加できるプランです。', price: '月 11,000円（公式に税表記なし）' },
+    options: ['ピラティス 1回 3,300円／4回 8,800円', 'アニマルフロー 1回 3,300円／3回 6,600円', '体験レッスン 1,500円', '料金・営業時間は公式サイト（2026年11月9日確認）'],
     userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
+    basicInfo: { hours: '11:00〜22:00', closed: '毎週日曜日', facilities: ['マット', 'TRX'] },
   },
   {
     name: 'ホットヨガロイブ トキハ別府店',
     image: '/images/studios/default-studio.webp',
-    price: '月額制',
+    price: '月4回 8,910円〜（税込）',
     trial: '手ぶら体験 0円',
     features: ["女性専用", "ホットヨガ", "ピラティスプログラム", "シャワー完備"],
     description: '女性専用ホットヨガスタジオです。ピラティスやエクササイズなどプログラム豊富です。シャワー・パウダールーム完備です。手ぶら体験0円です。',
-    access: '別府市北浜（トキハ別府内）',
-    address: '大分県別府市北浜（トキハ別府内）',
-    popularPlan: { name: 'マンスリー会員', description: 'ホットヨガ&ピラティスレッスンです。', price: '月額制（公式サイト参照）' },
-    options: ['体験レッスンあり', '各種プラン', '詳細は公式サイト参照'],
+    access: 'JR「別府駅」東口 徒歩8分／バス停「別府北浜」徒歩0分',
+    address: '〒874-0920 大分県別府市北浜2-9-1 トキハ別府店 5階',
+    popularPlan: { name: '月4回会員', description: 'ホットヨガ・ホットピラティスのレッスンを全店舗で月4回まで受けられます。', price: '月 8,910円（税込）' },
+    options: ['フルタイム 12,320円／フルタイムプラス 17,600円／デイタイム 10,450円（税込）', '施設維持費 月825円（税込）', 'マシンピラティスは店内になく、系列の pilates K を相互利用（登録料 3,300円・1回 2,750円、税込）', '料金・営業時間は公式の店舗ページ（2026年11月9日確認）'],
     userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
+    basicInfo: { hours: '火水金 10:00〜15:30・17:00〜22:00 / 木 17:00〜22:00 / 土祝 10:00〜20:00 / 日 10:00〜16:45', closed: '毎週月曜日', facilities: ['ホットスタジオ', 'シャワー', 'パウダールーム', '駐車場（トキハ別府店・3時間無料）'] },
   },
   {
     name: 'CLUB 30',
@@ -52,13 +52,13 @@ const studios = [
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["パーソナルジム", "ピラティス", "オンライン対応", "体が硬い方も可"],
-    description: '別府駅から徒歩5分です。ピラティスレッスンが受けられるパーソナルジムです。オンラインとスタジオの両方に対応しています。',
-    access: 'JR「別府駅」徒歩5分',
-    address: '大分県別府市（別府駅徒歩5分）',
+    description: '別府市中央町のわかあゆスイミングクラブ内2Fにある、ピラティスのプライベートレッスンが受けられるパーソナルトレーニングスタジオです。オンラインとスタジオの両方に対応しています。',
+    access: '駅からの徒歩分は公式に記載なし（駐車場32台）',
+    address: '〒874-0936 大分県別府市中央町1-31 わかあゆスイミングクラブ内2F',
     popularPlan: { name: 'パーソナルレッスン', description: 'ピラティス×パーソナルトレーニングです。', price: '要問合せ（公式サイト参照）' },
     options: ['体験レッスンあり', '各種プラン', '詳細は公式サイト参照'],
     userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室'] },
+    basicInfo: { hours: '受付 平日・土 10:30〜18:30 / 日 9:00〜14:00（公式 2026年11月9日確認）', closed: '公式に記載なし', facilities: ['駐車場32台'] },
   },
   {
     name: 'BALANS',
@@ -95,7 +95,7 @@ const faqs = [
   { question: '別府のピラティス料金相場は？', answer: 'スタジオインテグレの体験1,500円が目安です。月額制を採用しているスタジオが中心です。' },
   { question: '温泉とピラティスの組み合わせは？', answer: 'ピラティスで整えた身体を温泉で温めると筋肉のリカバリー効果アップです。別府ならではの楽しみ方です。' },
   { question: '男性が通えるスタジオは？', answer: 'スタジオインテグレ、CLUB 30、BALANSは男性利用可能です。ロイブは女性専用です。' },
-  { question: '別府駅から近いスタジオは？', answer: 'インテグレは徒歩5〜7分、CLUB 30は徒歩5分です。別府駅周辺に集中しています。' },
+  { question: '別府駅から近いスタジオは？', answer: 'スタジオ インテグレは別府駅から徒歩7分、ホットヨガロイブ トキハ別府店は別府駅東口から徒歩8分です（各公式・2026年11月9日確認）。' },
   { question: '体験レッスンの持ち物は？', answer: '動きやすい服装、飲み物、タオル、靴下です。ロイブは手ぶらで体験可能です。' },
   { question: 'どのくらいの頻度で通えばいい？', answer: '初心者は週1〜2回が目安です。2〜3ヶ月継続することをおすすめします。' },
   { question: 'オンラインレッスンは？', answer: 'CLUB 30はオンライン対応です。自宅でもレッスンが受けられます。' },
@@ -114,8 +114,9 @@ export default function BeppuPage() {
         { name: '別府', url: 'https://biyori-pilates.com/area/beppu/' },
       ]} />
       <main className="pt-20 bg-white">
-        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">ピラティス別府おすすめ5選<br className="hidden md:block" />人気スタジオの料金プランの比較</h1></div></section>
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年11月09日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">ピラティス別府おすすめ5選<br className="hidden md:block" />人気スタジオの料金プランの比較</h1></div></section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">別府</span></nav></div></section>
+        <section className="py-12 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">別府駅から通えるピラティスの早見表（駅徒歩・体験・月額）</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">「ピラティス 別府」で探す方向けに、大分県別府市内で公式サイトを確認できた3店を並べました。住所・徒歩分・体験・月額・営業時間は各公式サイトの表記です（2026年11月9日確認）。別府市内でマシン（リフォーマー）を店内に置いていると公式で確認できた店は、今回の3店にはありません。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">別府駅から</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">月額</th><th className="px-4 py-3 text-left">営業時間・定休日</th></tr></thead><tbody><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">スタジオ インテグレ（別府市秋葉町7-24 センチュリーハイツ日名子2F）</td><td className="px-4 py-3">別府駅 徒歩7分</td><td className="px-4 py-3">ピラティスのグループ（マシンの記載なし）・TRX・パーソナル</td><td className="px-4 py-3">1,500円</td><td className="px-4 py-3">ピラティス/TRX 月フリー 11,000円（ピラティス 1回 3,300円・4回 8,800円）</td><td className="px-4 py-3">11:00〜22:00・日曜定休</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ホットヨガロイブ トキハ別府店（別府市北浜2-9-1 トキハ別府店5階）</td><td className="px-4 py-3">別府駅 東口 徒歩8分</td><td className="px-4 py-3">女性専用のホットヨガ・ホットピラティス（マシンは系列の pilates K を相互利用）</td><td className="px-4 py-3">手ぶら体験 0円</td><td className="px-4 py-3">月4回 8,910円〜（＋施設維持費 月825円）</td><td className="px-4 py-3">火水金 10:00〜22:00（15:30〜17:00は休み）ほか・月曜定休</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">CLUB30（別府市中央町1-31 わかあゆスイミングクラブ内2F）</td><td className="px-4 py-3">駅からの徒歩分は記載なし（駐車場32台）</td><td className="px-4 py-3">ピラティスのプライベートレッスン</td><td className="px-4 py-3">公式で確認できず</td><td className="px-4 py-3">公式で確認できず</td><td className="px-4 py-3">受付 平日・土 10:30〜18:30・日 9:00〜14:00</td></tr></tbody></table></div><p className="text-warm-500 leading-relaxed mt-4 text-xs">確認元（2026年11月9日）: <a href="https://studio-integrate.com/studio.php" target="_blank" rel="noopener" className="underline">studio integrate（別府店）</a>／<a href="https://hotyoga-loive.com/studio/tokiwa-beppu/" target="_blank" rel="noopener" className="underline">ホットヨガロイブ トキハ別府店</a>／<a href="https://kaatsu-bfive.com/access/" target="_blank" rel="noopener" className="underline">CLUB30</a>。下のスタジオ紹介の BALANS・seuse は今回公式サイトを確認できず、表に含めていません。</p></div></section>
         <TableOfContents areaName="別府" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
         <section className="py-12 bg-white"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-600 leading-relaxed mb-8">本ページでは、別府・大分エリアでおすすめのピラティススタジオ5選をまとめました。</p><div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8"><h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2><ul className="space-y-2 text-warm-700"><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>別府でピラティススタジオを探している</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金を抑えられるスタジオを知りたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>駅近で通いやすいスタジオがいい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較したい</span></li></ul></div><p className="text-warm-600 leading-relaxed">以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。</p></div></section>
         <PriceComparisonTable studios={studios} areaName="別府" />

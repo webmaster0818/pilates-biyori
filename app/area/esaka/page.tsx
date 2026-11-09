@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { AreaQuickAnswer } from '@/components/AreaQuickAnswer'
 import { Navigation } from '@/components/Navigation'
 import { AreaModifierSections } from '@/components/AreaModifierSections'
 import { SiteFooter } from '@/components/SiteFooter'
@@ -61,22 +62,22 @@ const studios = [
     price: '月4回 14,300円／月8回 18,700円／通い放題 26,950円（公式店舗ページ・税表記なし）',
     trial: '体験レッスン 無料（30分イントロクラス）',
     features: ['世界最大級', '15種類の器具', '江坂駅近', '男性利用可'],
-    description: '世界最大級のマシンピラティスブランドです。江坂駅近くの好立地です。最大12名の少人数制グループレッスンで、15種類のマシン・器具を1人1台完備しています。8つのプログラムと4段階のレベル分けで初心者から上級者まで対応しています。',
-    access: '御堂筋線「江坂駅」近く',
-    address: '大阪府吹田市江の木町1-39 セーレ江坂 4F',
+    description: '世界最大級のマシンピラティスブランドです。御堂筋線 江坂駅から徒歩3分です。最大12名の少人数制グループレッスンで、15種類のマシン・器具を1人1台完備しています。8つのプログラムと4段階のレベル分けで初心者から上級者まで対応しています。',
+    access: '御堂筋線「江坂駅」徒歩3分',
+    address: '〒564-0063 大阪府吹田市江坂町1-18-12 1F',
     popularPlan: {
       name: 'グループ月4回プラン',
       description: '15種類の器具を使った本格グループレッスンです。4段階のレベル分けで安心です。',
       price: '月4回 14,300円（税表記なし）',
     },
-    options: ['月8回 18,700円', '通い放題 26,950円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
+    options: ['月8回 18,700円', '通い放題 26,950円', '入会金 5,500円（税表記なし）・入会時の事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年11月9日確認）'],
     userProfile: {
       ageRange: '20代〜50代が中心',
       purpose: ['体幹強化', '姿勢改善', 'ボディメイク', 'パフォーマンス向上'],
     },
     basicInfo: {
       hours: '月〜金 7:00-21:00 / 土日 7:00-18:00',
-      closed: '不定休',
+      closed: '公式に記載なし',
       facilities: ['リフォーマー', 'スプリングボード', 'TRX', 'チェア', 'Bosu'],
     },
   },
@@ -323,7 +324,7 @@ export default function EsakaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月09日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス江坂おすすめ8選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
@@ -345,6 +346,13 @@ export default function EsakaPage() {
         </section>
         <AreaConclusion studios={studios} areaName="江坂" />
 
+
+        <AreaQuickAnswer areaName="江坂" rows={[
+          { label: '月会費', text: 'クラブピラティス（CLUB PILATES）江坂店の月会費は、月4回 14,300円・月8回 18,700円・通い放題 26,950円です（公式は税表記なし）。年間一括払いの金額は店舗への問い合わせです。' },
+          { label: '入会時', text: '入会金 5,500円（税表記なし）と事務手数料 2,200円（税込）がかかります。' },
+          { label: '体験', text: '30分の体験レッスンは無料です。' },
+          { label: '場所', text: '吹田市江坂町1-18-12 1F（御堂筋線 江坂駅 徒歩3分）。月〜金 7:00〜21:00、土日 7:00〜18:00。' },
+        ]} note={<>CLUB PILATES 江坂店の公式店舗ページの表記です（2026年11月9日確認）。ほかの7スタジオの料金は<a href="#studios" className="underline">スタジオ紹介</a>をご覧ください。出典: <a href="https://clubpilates.co.jp/studio/esaka/" target="_blank" rel="noopener noreferrer" className="underline">CLUB PILATES 江坂店 公式店舗ページ</a></>} />
 
         <TableOfContents areaName="江坂" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
 

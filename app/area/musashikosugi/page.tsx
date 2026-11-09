@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { AreaQuickAnswer } from '@/components/AreaQuickAnswer'
 import { Navigation } from '@/components/Navigation'
 import { SiteFooter } from '@/components/SiteFooter'
 import { StudioCard } from '@/components/StudioCard'
@@ -59,21 +60,21 @@ const studios = [
     trial: '体験レッスン 0円（30分）',
     features: ['世界最大級チェーン', '15種類の器具', '男性利用可', '体験0円'],
     description: '世界最大級のマシンピラティスブランド「CLUB PILATES」の武蔵小杉店です。最大12名の少人数グループレッスンで、リフォーマー・スプリングボード・TRX・チェアなど15種類の器具を完備しています。8つのプログラムと4段階のレベル分けで、初心者から上級者まで対応しています。インストラクター全員が500時間以上の研修を受けた有資格者で、質の高い指導を受けられます。体験レッスンは0円で気軽にお試し可能です。',
-    access: 'JR武蔵小杉駅周辺',
-    address: '神奈川県川崎市中原区武蔵小杉エリア（詳細は公式サイトでご確認ください）',
+    access: '武蔵小杉駅（JR南武線・横須賀線・東急東横線）中央2出口から徒歩1分',
+    address: '〒211-0004 神奈川県川崎市中原区新丸子東3-1100-12',
     popularPlan: {
       name: 'グループレッスン',
       description: '最大12名の少人数制です。15種類の器具を使った本格グループレッスンです。4段階のレベル分けで初心者も安心です。',
       price: '月4回 14,190円（税表記なし）',
     },
-    options: ['月8回 26,290円', '通い放題 40,590円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
+    options: ['月8回 26,290円', '通い放題 40,590円', '入会金 5,500円（税表記なし）・入会時の事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年11月9日確認）'],
     userProfile: {
       ageRange: '20代〜50代が中心',
       purpose: ['体幹強化', '姿勢改善', 'ボディメイク', 'ダイエット'],
     },
     basicInfo: {
-      hours: '月〜金 7:00-21:00 / 土日 7:00-18:00',
-      closed: '不定休',
+      hours: '月〜金 7:00-21:00 / 土 7:00-18:00 / 日 7:30-18:00',
+      closed: '公式に記載なし',
       facilities: ['リフォーマー', 'スプリングボード', 'TRX', 'チェア', 'Bosu'],
     },
   },
@@ -188,7 +189,7 @@ export default function MusashikosugiPage() {
         {/* Hero */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月09日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス武蔵小杉おすすめ4選
               <br className="hidden md:block" />
@@ -209,6 +210,13 @@ export default function MusashikosugiPage() {
             </nav>
           </div>
         </section>
+
+        <AreaQuickAnswer areaName="武蔵小杉" rows={[
+          { label: '月会費', text: 'クラブピラティス（CLUB PILATES）武蔵小杉店の月会費は、月4回 14,190円・月8回 26,290円・通い放題 40,590円です（公式は税表記なし）。年間一括払いの金額は店舗への問い合わせです。' },
+          { label: '入会時', text: '入会金 5,500円（税表記なし）と事務手数料 2,200円（税込）がかかります。' },
+          { label: '体験', text: '30分の体験レッスンは無料です。' },
+          { label: '場所', text: '川崎市中原区新丸子東3-1100-12（武蔵小杉駅 中央2出口 徒歩1分）。月〜金 7:00〜21:00、土 7:00〜18:00、日 7:30〜18:00。' },
+        ]} note={<>CLUB PILATES 武蔵小杉店の公式店舗ページの表記です（2026年11月9日確認）。ほかの3スタジオ（zen place pilates・STUDIO IVY・Lucio）の料金は<a href="#studios" className="underline">スタジオ紹介</a>をご覧ください。出典: <a href="https://clubpilates.co.jp/studio/musashikosugi/" target="_blank" rel="noopener noreferrer" className="underline">CLUB PILATES 武蔵小杉店 公式店舗ページ</a></>} />
 
         <TableOfContents areaName="武蔵小杉" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
 

@@ -27,8 +27,8 @@ const studios = [
     price: '月4回 10,450円〜',
     trial: 'グループ体験 1,000円',
     features: ['全国150店舗他店利用', 'マット&マシン対応', '男性利用可', '体験1,000円'],
-    description: '全国150店舗以上を展開する大手ピラティスブランド「zen place pilates」の八重洲スタジオです。大手町駅B10出口から徒歩7分、東京駅八重洲北口から徒歩5分の好立地です。マットピラティスとマシンピラティスの両方に対応し、初心者から上級者まで幅広いレッスンを提供しています。全国の店舗を他店利用できるため、出張や旅行先でもレッスンを継続可能です。男性も歓迎で、ビジネスパーソンにも人気のスタジオです。',
-    access: '大手町駅B10出口徒歩7分・東京駅八重洲北口徒歩5分',
+    description: '全国150店舗以上を展開する大手ピラティスブランド「zen place pilates」の八重洲スタジオです。日本橋駅A7・B3出口から徒歩3分、東京駅八重洲北口から徒歩5分、大手町駅B10出口から徒歩7分です。マットピラティスとマシンピラティスの両方に対応し、初心者から上級者まで幅広いレッスンを提供しています。全国の店舗を他店利用できるため、出張や旅行先でもレッスンを継続可能です。男性も歓迎で、ビジネスパーソンにも人気のスタジオです。',
+    access: '日本橋駅 A7・B3出口 徒歩3分／東京駅 八重洲北口 徒歩5分／大手町駅 B10出口 徒歩7分',
     address: '東京都中央区日本橋2丁目3-21 八重洲セントラルビル 6階',
     popularPlan: {
       name: 'マットグループ月4回',
@@ -47,8 +47,8 @@ const studios = [
       purpose: ['体幹強化', '姿勢改善', 'ボディメイク', '健康維持'],
     },
     basicInfo: {
-      hours: '月〜金 7:00-21:00 / 土日 7:00-18:00',
-      closed: '不定休',
+      hours: '平日 7:30〜22:00 / 土日祝 8:00〜19:30（公式 2026年11月9日確認）',
+      closed: '公式に記載なし',
       facilities: ['リフォーマー', 'マットスペース', '更衣室', 'ロッカー'],
     },
   },
@@ -202,7 +202,7 @@ export default function MarunouchiPage() {
         {/* Hero */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月09日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス丸の内おすすめ4選
               <br className="hidden md:block" />
@@ -223,6 +223,11 @@ export default function MarunouchiPage() {
             </nav>
           </div>
         </section>
+
+        <section className="py-12 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">丸の内・東京駅から通える店の早見表（駅徒歩・体験・月額）</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">「丸の内 ピラティス」で探す方向けに、東京駅から近い順に並べました。住所・徒歩分・体験料金・月額・営業時間は各スタジオの公式サイトの表記です（2026年11月9日確認・税込）。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">最寄駅から</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">月額（代表的なプラン）</th><th className="px-4 py-3 text-left">営業時間・定休日</th></tr></thead><tbody>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">zen place pilates 八重洲スタジオ（中央区日本橋2-3-21 八重洲セントラルビル6階）</td><td className="px-4 py-3">東京駅 八重洲北口 徒歩5分／日本橋駅 A7・B3出口 徒歩3分／大手町駅 B10出口 徒歩7分</td><td className="px-4 py-3">マットグループ・マシングループ（リフォーマー）・プライベート／男女可</td><td className="px-4 py-3">初回体験キャンペーン マット1,000円・マシン3,000円（通常 3,300円〜・5,000円〜）／プライベート 9,900円</td><td className="px-4 py-3">GRADE 01：マットグループ 月4回 10,450円・リフォーマーグループ 月4回 15,400円（入会金 33,000円・体験当日の入会で0円）</td><td className="px-4 py-3">平日 7:30〜22:00・土日祝 8:00〜19:30（休館日は記載なし）</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Pilates Mee 築地店（中央区築地7-6-7 松田ビル302）</td><td className="px-4 py-3">築地駅 徒歩3分／新富町駅 徒歩7分</td><td className="px-4 py-3">マシン（最大3名のセミパーソナル・パーソナル）</td><td className="px-4 py-3">0円（約60分）</td><td className="px-4 py-3">セミパーソナル 月4回 19,800円（月2回 11,000円〜・通い放題 37,500円）／パーソナル 月4回 39,600円</td><td className="px-4 py-3">9:00〜21:15・不定休</td></tr>
+        </tbody></table></div><p className="text-warm-600 leading-relaxed mt-4 text-sm">the SILK 東京八重洲店は<a href="#studios" className="underline">スタジオ紹介</a>をご覧ください。STUDIO IVY は公式の店舗一覧に東京駅・大手町・日本橋の店がなく（11月9日確認・中央区内は銀座新富町・人形町・勝どき）、表に含めていません。</p><p className="text-warm-500 leading-relaxed mt-2 text-xs">確認元（2026年11月9日）: <a href="https://www.zenplace.co.jp/studios/basipilates-yaesu" target="_blank" rel="noopener" className="underline">zen place pilates 八重洲スタジオ</a>／<a href="https://www.zenplace.co.jp/price" target="_blank" rel="noopener" className="underline">zen place 料金</a>／<a href="https://m-pilates.com/shop/tokyo/tsukiji/" target="_blank" rel="noopener" className="underline">Pilates Mee 築地店</a></p></div></section>
 
         <TableOfContents areaName="丸の内" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
 

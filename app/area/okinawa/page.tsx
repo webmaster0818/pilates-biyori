@@ -35,14 +35,14 @@ const studios = [
       description: 'グループレッスン月4回プランです。初心者から始められる人気プランです。',
       price: '月4回 11,990円（税表記なし）',
     },
-    options: ['月8回 15,290円', '通い放題 18,590円', '入会金 5,500円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
+    options: ['月8回 15,290円', '通い放題 18,590円', '入会金 5,500円（税表記なし）', '30分の体験レッスン 無料', '料金は公式の店舗ページ（2026年11月9日確認）'],
     userProfile: {
       ageRange: '20代〜50代が中心',
       purpose: ['ボディメイク', '姿勢改善', '体幹強化', 'リハビリ'],
     },
     basicInfo: {
-      hours: '火〜金 6:00〜21:00 / 土 6:00〜18:00 / 日 7:00〜18:00 / 月 7:00〜21:00',
-      closed: '不定休',
+      hours: '月 7:30〜20:50 / 火〜木 6:30〜20:50 / 金 7:30〜20:50 / 土 6:30〜20:20 / 日 7:30〜17:20（公式 2026年11月9日確認）',
+      closed: '公式に記載なし',
       facilities: ['ロッカー', 'パウダールーム', '最新マシン完備'],
     },
   },
@@ -53,7 +53,7 @@ const studios = [
     price: '月4回 8,800円〜',
     trial: '体験レッスン 無料',
     features: ['女性専用', 'マシンピラティス', 'おもろまち駅徒歩3分', 'LAVA系列'],
-    description: 'ホットヨガLAVA系列のマシンピラティス専門スタジオです。リフォーマーを使ったグループレッスンをスクリーンガイド付きで提供しています。女性専用のため安心して通えます。LAVA会員はヨガスタジオも利用可能です。沖縄県内4店舗展開中です。',
+    description: 'ホットヨガLAVA系列のマシンピラティス専門スタジオです。リフォーマーを使ったグループレッスンをスクリーンガイド付きで提供しています。女性専用のため安心して通えます。LAVA会員はヨガスタジオも利用可能です。沖縄県内ではイオンタウン豊見城店（2026年10月開店）なども展開しています。',
     access: 'ゆいレールおもろまち駅から徒歩3分',
     address: '沖縄県那覇市おもろまち4-2-8 2F',
     popularPlan: {
@@ -73,8 +73,8 @@ const studios = [
       purpose: ['ボディメイク', 'ダイエット', '姿勢改善', 'ヨガも楽しみたい'],
     },
     basicInfo: {
-      hours: '9:30〜21:20',
-      closed: '日曜日',
+      hours: '公式の店舗ページに記載なし',
+      closed: '毎週日曜・第4木曜（公式 2026年11月9日確認）',
       facilities: ['ロッカー', 'パウダールーム', '水素水サーバー', '女性専用', '無料駐車場'],
     },
   },
@@ -233,10 +233,10 @@ const studios = [
     officialUrl: 'https://t.afi-b.com/visit.php?a=T15562j-7505717Y&p=E9887623',
     image: '/images/studios/pilates-kasane.webp',
     price: '月4回 15,400円〜',
-    trial: '体験レッスン 3,000円',
+    trial: '体験レッスン 0円（Basic プログラム・公式 2026年11月9日確認）',
     features: ['セミパーソナル', 'ショッピングモール内', '手ぶらで参加可能', '男女共用'],
-    description: 'イーアス沖縄豊崎3Fにあるセミパーソナル制マシンピラティススタジオです。最大12名のグループレッスンながら、一人ひとりに合わせた指導を受けられるのが特徴です。ショッピングモール内で買い物ついでに通えて便利です。b-monster運営のWorld Fit系列です。',
-    access: 'イーアス沖縄豊崎3F（車でのアクセス推奨）',
+    description: 'イーアス沖縄豊崎3Fにあるセミパーソナル制マシンピラティススタジオです。最大12名のグループレッスンながら、一人ひとりに合わせた指導を受けられるのが特徴です。ショッピングモール内で買い物ついでに通えます。年中無休・8:00〜21:00で、ウェアのレンタルは無料です。',
+    access: '豊崎美らSUNビーチ前バス停 徒歩3分／イーアス沖縄豊崎バス停 徒歩4分／那覇空港から車で約20分・路線バスで約30分（那覇バス95番ほか）',
     address: '沖縄県豊見城市豊崎3-35 iias沖縄豊崎3F',
     popularPlan: {
       name: 'グループ月4回',
@@ -245,9 +245,11 @@ const studios = [
     },
     options: [
       'パーソナル月4回（39,600円）',
-      '手ぶらセット付き',
-      '入会金無料キャンペーンあり',
-      'チケット繰り越し可',
+      '月6回 19,800円／月8回 24,200円（税込）',
+      'ウェア（トップス・レギンス・ソックス）のレンタル 0円',
+      '入会金 15,400円→0円（公式の料金ページ）',
+      '月の回数は翌月に持ち越せません（追加チケット 3,850円は翌月末まで有効）',
+      '料金は公式の料金ページ（2026年11月9日確認）',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
@@ -255,8 +257,8 @@ const studios = [
     },
     basicInfo: {
       hours: '8:00〜21:00',
-      closed: '不定休',
-      facilities: ['ロッカー', 'パウダールーム', '手ぶらセット', '大型駐車場'],
+      closed: '年中無休',
+      facilities: ['ロッカー', 'パウダールーム', 'レンタルウェア', '駐車場（イーアス沖縄豊崎）'],
     },
   },
   {
@@ -439,7 +441,7 @@ export default function OkinawaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月09日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス沖縄おすすめ12選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
@@ -459,6 +461,13 @@ export default function OkinawaPage() {
             </nav>
           </div>
         </section>
+
+        <section className="py-12 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">豊崎・豊見城と那覇のマシンピラティス早見表（アクセス・体験・月額）</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">「マシンピラティス 豊崎」で探す方向けに、豊見城市豊崎（イーアス沖縄豊崎）の店を先頭に、豊見城・那覇のグループ形式のマシン店を並べました。豊崎で公式に確認できたマシンピラティスの店は Pilates KASANE の1店です。住所・アクセス・体験・月額・営業時間は各スタジオの公式サイトの表記です（2026年11月9日確認・特記のない金額は税込）。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">アクセス</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">月額</th><th className="px-4 py-3 text-left">営業時間・定休日</th></tr></thead><tbody>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Pilates KASANE イーアス沖縄豊崎店（豊見城市豊崎3-35 iias沖縄豊崎3階）</td><td className="px-4 py-3">豊崎美らSUNビーチ前バス停 徒歩3分・イーアス沖縄豊崎バス停 徒歩4分／那覇空港から車で約20分。駐車場あり</td><td className="px-4 py-3">マシン（リフォーマー）の少人数グループ・パーソナル／男女可</td><td className="px-4 py-3">0円（Basic プログラム）</td><td className="px-4 py-3">月4回 15,400円・月6回 19,800円・月8回 24,200円（入会金 15,400円→0円）</td><td className="px-4 py-3">8:00〜21:00・年中無休</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Rintosull イオンタウン豊見城店（豊見城市字田頭155-1 イオンタウン豊見城1F）<br /><span className="text-xs text-warm-500">※下のスタジオ紹介には未掲載（2026年10月開店・豊崎ではなく田頭）</span></td><td className="px-4 py-3">車：小禄バイパス「名嘉地」交差点付近。無料駐車場あり</td><td className="px-4 py-3">マシン（リフォーマー）のグループ／女性専用</td><td className="px-4 py-3">無料体験会</td><td className="px-4 py-3">月4回 8,800円・通い放題 13,800円〜16,800円（入会金・登録金 各5,000円は体験当日の入会で0円）</td><td className="px-4 py-3">営業時間は記載なし・毎週日曜と第4水曜休み</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Rintosull 那覇新都心店（那覇市おもろまち4-2-8 2F）</td><td className="px-4 py-3">ゆいレール おもろまち駅 徒歩3分。駐車場あり（2時間まで無料）</td><td className="px-4 py-3">マシン（リフォーマー）のグループ／女性専用</td><td className="px-4 py-3">無料体験会</td><td className="px-4 py-3">月4回 8,800円・通い放題 13,800円〜16,800円（入会金・登録金 各5,000円は体験当日の入会で0円）</td><td className="px-4 py-3">営業時間は記載なし・毎週日曜と第4木曜休み</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">CLUB PILATES 那覇（那覇市松尾1-20-15）</td><td className="px-4 py-3">ゆいレール 県庁前駅 徒歩9分</td><td className="px-4 py-3">マシン（リフォーマー）のグループ・最大12名／男女可</td><td className="px-4 py-3">30分の体験レッスン 無料</td><td className="px-4 py-3">月4回 11,990円・月8回 15,290円・通い放題 18,590円（税表記なし・入会金 5,500円）</td><td className="px-4 py-3">月 7:30〜20:50・火〜木 6:30〜20:50・金 7:30〜20:50・土 6:30〜20:20・日 7:30〜17:20</td></tr>
+        </tbody></table></div><p className="text-warm-600 leading-relaxed mt-4 text-sm">那覇・北谷・嘉手納のほかのスタジオ（ルルト・isM・アクス・gg など）は<a href="#studios" className="underline">スタジオ紹介</a>をご覧ください。</p><p className="text-warm-500 leading-relaxed mt-2 text-xs">確認元（2026年11月9日）: <a href="https://pilates-kasane.jp/studio/studio-iias_okinawatoyosaki/" target="_blank" rel="noopener" className="underline">Pilates KASANE イーアス沖縄豊崎店</a>・<a href="https://pilates-kasane.jp/price/" target="_blank" rel="noopener" className="underline">料金</a>／<a href="https://rintosull.jp/shop/okinawa/aeon_tomigusuku/" target="_blank" rel="noopener" className="underline">Rintosull イオンタウン豊見城店</a>／<a href="https://rintosull.jp/shop/okinawa/nahashintoshin/" target="_blank" rel="noopener" className="underline">Rintosull 那覇新都心店</a>／<a href="https://clubpilates.co.jp/studio/naha/" target="_blank" rel="noopener" className="underline">CLUB PILATES 那覇</a></p></div></section>
 
         <TableOfContents areaName="沖縄" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
 

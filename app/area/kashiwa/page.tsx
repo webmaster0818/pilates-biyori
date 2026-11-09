@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { AreaQuickAnswer } from '@/components/AreaQuickAnswer'
 import { Navigation } from '@/components/Navigation'
 import { SiteFooter } from '@/components/SiteFooter'
 import { StudioCard } from '@/components/StudioCard'
@@ -130,7 +131,9 @@ const studios = [
       price: '月会費 7,700円〜（税込）',
     },
     options: [
-      '各種月額プラン（7,700円〜）',
+      'マンスリー4 7,700円／マンスリー8 11,550円／デイタイム 11,550円／フルタイム 14,300円／プレミアム 15,950円／プラチナ 19,800円（税込）',
+      '利用開始月の翌月から営業管理費 月980円',
+      '料金・営業時間は公式の柏店ページ（2026年11月9日確認）',
       'タワー付きリフォーマー完備',
       'ハーフタワー地域最多数導入',
       '予約不要で受講可能',
@@ -141,8 +144,8 @@ const studios = [
       purpose: ['ボディメイク', 'ダイエット', '姿勢改善', '運動不足解消'],
     },
     basicInfo: {
-      hours: '月金 10:00〜22:30 / 火水木 9:30〜22:30 / 土日祝 8:30〜18:00',
-      closed: '不定休',
+      hours: '月 10:00〜22:00 / 火水 9:30〜22:30 / 木 9:30〜22:00 / 金 10:00〜22:30 / 土祝 8:30〜18:00 / 日 8:30〜17:30',
+      closed: '毎月5日・15日・25日・月末最終日・年末年始等',
       facilities: ['タワー付きリフォーマー', 'ハーフタワー', '更衣室', 'ロッカー'],
     },
   },
@@ -259,7 +262,7 @@ export default function KashiwaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月09日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス柏おすすめ6選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
@@ -279,6 +282,13 @@ export default function KashiwaPage() {
             </nav>
           </div>
         </section>
+
+        <AreaQuickAnswer areaName="柏（マピラ 柏店）" rows={[
+          { label: '口コミ', text: '公式の柏店ページの「ユーザーの声」は5件（イニシャルのみ・日付と評点なし）で、内容は「インナーマッスルを意識できた」「姿勢が良くなった気がする」「手ぶらで仕事帰りに通える」「インストラクターが親切・丁寧」「体が軽くなった」です。柏店の利用者に限った声かは公式に記載がありません。Google の評点・件数は確認できなかったため載せていません。' },
+          { label: '月会費', text: 'マンスリー4（月4回）7,700円・マンスリー8 11,550円・デイタイム（平日18時まで）11,550円・フルタイム 14,300円・プレミアム 15,950円・プラチナ 19,800円（税込）。利用開始月の翌月から営業管理費 月980円。柏店は予約不要で受けられます。' },
+          { label: '入会時', text: '体験当日に入会すると事務手数料が無料です（公式のキャンペーン欄）。入会金の記載はありません。' },
+          { label: '場所', text: '柏市柏2-10-1 柏モア 2階（柏駅 東口改札 徒歩1分）・女性専用。月 10:00〜22:00、火水 9:30〜22:30、木 9:30〜22:00、金 10:00〜22:30、土祝 8:30〜18:00、日 8:30〜17:30。定休は毎月5日・15日・25日・月末最終日・年末年始等。' },
+        ]} note={<>Mapila 柏店の公式ページの表記です（2026年11月9日確認）。ほかの5スタジオの料金は<a href="#studios" className="underline">スタジオ紹介</a>をご覧ください。出典: <a href="https://pilates-mapila.jp/kashiwa/" target="_blank" rel="noopener noreferrer" className="underline">Mapila 柏店 公式ページ</a></>} />
 
         <TableOfContents areaName="柏" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
 
