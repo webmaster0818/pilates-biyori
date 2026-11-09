@@ -1380,3 +1380,9 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - 未対応（報告のみ）: REIBELLE 公式の「口コミ評価 4.9」は出典・件数なし＝不掲載。REIBELLE「北山駅徒歩5分」は公式に徒歩分の記載なし（カード未変更）。八事のカード5枚は雛形のまま（施設「リフォーマー」をアイレクス・ヴィータで公式確認できず、sloths の店名は公式「スロウス」、★ rating は判断待ちで未変更）。北大路は LAVA イオンモール北大路店（駅1番出口1分）が未掲載
 - articles: knee-stretch に要点表（記事内の既存内容のみ・updatedAt 11-08）。elephant は title「ピラティスのエレファントとは」・要点表とも語順の両方に答えている＝不変
 - sitemap: prebuild が 36 件動かしたため HEAD に戻し7頁のみ 11-08。precheck ✅ 589頁・計測リンク out/deploy 3,798→3,798・src 1,928→1,928・functions/api 4本保全・text 変更は 7 頁のみ
+
+### 2026-11-09 朝ルーチン: BREST 新料金は公式未掲載・pilates-diet-effect の出典なし事例2件削除と運動強度をメッツ表に（source 1d720509 / deploy 5ca0efaef7・反映約15分）
+- BREST（11/9 09:20 公式直・brest-gym.jp/studio/{hongo-sanchome,daikanyama,futakotamagawa,chigasaki,sagamiono,awaji,gofukumachi}/・トップ・/news/）: 料金は 11/8 と同じ（料金は画像の alt に入っている。3店＝デイタイム M4 20,680／M4 25,080／M8 41,580／M12 47,080、他4店＝M4 22,880、施設利用料 2,200・運営管理費 480・都度 6,380）。お知らせの最新は 11/1 で改定告知なし→未変更。本番8頁（エリア7＋/brands/brest/）は公式と一致
+- pilates-diet-effect: 「成功事例」節（30代/40代女性・出典なし）を削除。消費カロリー列（出典なし）を国立健康・栄養研究所「改訂版 身体活動のメッツ表」（2012/4/11 改訂・11/9 確認）のメッツ値に置換（ピラティス全般 3.0／ヨガ 2.5〜4.0／ジョギング 7.0／筋トレ 3.5〜6.0／水泳 5.3〜5.8）。kcal 換算式は e-ヘルスネットに届かず（DNS）未掲載。description の「-5kg 痩せた実例も紹介」を差し替え（関連カードに出る8頁も同じ文に）。⚠️title「3ヶ月で-5kg痩せる方法」と本文の期間別体重変化（-3〜-5kg 等）は出典なしのまま（title 変更は判断待ち）
+- /brands/ C5 は判断待ちで title 不変（本文の口コミ0・評判は title のみ）。/editors/ C3 は読者を指す文の誤検知
+- next build 直接実行（prebuild なし）・sitemap は当該頁のみ 11-09。precheck ✅ 589頁・計測リンク 3,782→3,782・functions/api 4本保全・text 変更は 9 頁（本体＋description が出る8頁）。Indexing 429 → sitemap 再送
