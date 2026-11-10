@@ -1396,3 +1396,10 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - beppu: 早見表（インテグレ・ロイブ・CLUB30）・3店のカードを公式どおりに（設備のリフォーマー表記を削除）。⚠️BALANS・seuse は公式を確認できず（削除は判断待ち）
 - articles: hundred に要点表（記事内の既存内容のみ・updatedAt 11-09）、elephant は description のみ（本文・updatedAt 不変）
 - next build 直接・sitemap は11頁のみ 11-09。precheck ✅ 589頁・計測リンク 3,798→3,798・functions/api 4本保全・/api/contact 400
+
+### 2026-11-10 朝ルーチン: BREST 新料金は公式未掲載・Beat Pilates 日本橋の体験キャンペーン期限を11月末に（source 80fc0c7e / deploy 3da38d2733・反映約8分）
+- BREST（11/10 09:17 公式直・brest-gym.jp/studio/{hongo-sanchome,daikanyama,futakotamagawa,chigasaki,sagamiono,awaji,gofukumachi}/・/news/）: 料金は 11/9 と同じ（3店＝デイタイム M4 20,680／M4 25,080／M8 41,580／M12 47,080、他4店＝M4 22,880）。/news/ の 11/10 記事は会員の体験記で料金改定ではない→未変更
+- BDC（11/10 公式 ebisu/omotesando/futakotamagawa/ginza/ikebukuro）: どの店も「11/30」キャンペーン表示。恵比寿の campaign_common_img1c を画像で確認＝体験 通常4,070円→今だけ1,100円（グループのみ・定員で終了）。サイトの「1,100円（11/30まで・通常4,070円）」は一致＝変更なし。ginza-namiki は URL 応答 0 バイト（未確認）
+- Beat Pilates 日本橋小伝馬町店（beat-pilates.com/nihonbashi/・11/10）: 「11月末まで 体験0円（通常3,300円・45分）」。カードの「10月末までのキャンペーン」→11月末に訂正。プラン（プレミアム 月3回 9,000／月4回 11,200／デイ・ナイト 12,800／フル 14,400）・営業時間 8:00〜21:30・住所は一致。**12/1 以降に再確認**
+- /brands/ C5 は判断待ちで title 不変、/editors/ C3 は読者を指す文の誤検知
+- next build 直接・sitemap は nihonbashi のみ 11-10。precheck ✅ 589頁・計測リンク 3,806→3,806・functions/api 4本保全・/api/contact 400。Indexing 枠切れ（0/55）→sitemap 再送
