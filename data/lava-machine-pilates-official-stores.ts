@@ -1,10 +1,10 @@
 // LAVA 公式「マシンピラティス」ページの「マシンピラティス開催店舗」（https://yoga-lava.com/service/special/machinepilates.html）と各店舗ページの住所・アクセス・スタジオ種別
-// 2026-10-28 に公式から取得（81店舗）。都道府県は公式一覧の見出し（または住所）による。
+// 2026-10-28 に公式から取得（81店舗）。2026-11-10 に公式一覧で増えた4店舗（与野・札幌琴似・木曽川・浜松葵）を各店舗ページから追記＝85店舗。都道府県は公式一覧の見出し（または住所）による。
 // ⚠️ 値を手で書き足さない。更新するときは公式一覧を取り直して丸ごと置き換える（scripts/gen-official-store-lists-20261028.py の手順）。
 import type { OfficialStoreList } from './official-store-list-type'
 
 export const LAVA_MACHINE_PILATES_OFFICIAL: OfficialStoreList = {
-  asOf: '2026年10月28日',
+  asOf: '2026年11月10日',
   sourceLabel: "LAVA公式 マシンピラティス開催店舗と各店舗ページ",
   sourceUrl: "https://yoga-lava.com/service/special/machinepilates.html",
   extraLabel: "スタジオ種別",
@@ -27,6 +27,7 @@ export const LAVA_MACHINE_PILATES_OFFICIAL: OfficialStoreList = {
     { pref: "神奈川県", name: "LAVA 川崎ゼロゲート店", access: "JR東海道本線・京浜東北線・南武線「川崎駅」中央東口より徒歩4分", address: "神奈川県川崎市川崎区小川町1-1 川崎ゼロゲート2F", url: "https://yoga-lava.com/shop/kanagawa/kawasaki_zero/", extra: "女性専用" },
     { pref: "神奈川県", name: "LAVA 相模原店", access: "JR横浜線「相模原駅」南口より徒歩4分", address: "神奈川県相模原市中央区相模原4-3-17 相模原TOBビル3・7Ｆ(受付3F)", url: "https://yoga-lava.com/shop/kanagawa/sagamihara/", extra: "女性専用" },
     { pref: "埼玉県", name: "LAVA 大宮グラン店", access: "JR京浜東北線・東北本線・埼京線・川越線・高崎線・湘南新宿ライン、東武鉄道野田線、埼玉新都市交通「大宮駅」東口(北)より徒歩4分", address: "埼玉県さいたま市大宮区宮町1-83 TKY大宮ビル 4F", url: "https://yoga-lava.com/shop/saitama/omiya_grand/", extra: "男女共用" },
+    { pref: "埼玉県", name: "LAVA イオンモール与野店", access: "JR埼京線「北与野駅」北口より徒歩17分", address: "埼玉県さいたま市中央区本町西5-2-9 イオンモール与野 3F（受付1F）", url: "https://yoga-lava.com/shop/saitama/aeon_yono/", extra: "女性専用" },
     { pref: "埼玉県", name: "LAVA 熊谷ニットーモール店", access: "JR高崎線・秩父鉄道「熊谷駅」東口より徒歩3分", address: "埼玉県熊谷市銀座2-245 ニットーモール 2・4F(受付2F)", url: "https://yoga-lava.com/shop/saitama/kumagaya_nittohmall/", extra: "女性専用" },
     { pref: "埼玉県", name: "LAVA 入間アイポット店", access: "西武池袋線「入間市駅」南口より徒歩10分", address: "埼玉県入間市豊岡1-11-1入間アイポット1F", url: "https://yoga-lava.com/shop/saitama/iruma_ipot/", extra: "女性専用" },
     { pref: "埼玉県", name: "LAVA おけがわマイン店", access: "JR高崎線「桶川駅」西口より 徒歩1分", address: "埼玉県桶川市若宮1-5-2おけがわマイン4F", url: "https://yoga-lava.com/shop/saitama/okegawa/", extra: "女性専用" },
@@ -49,6 +50,7 @@ export const LAVA_MACHINE_PILATES_OFFICIAL: OfficialStoreList = {
     { pref: "栃木県", name: "LAVA アシコタウンあしかが店", access: "県道40号線沿いのアシコタウンあしかがの1階です。", address: "栃木県足利市大月町3-2 アシコタウンあしかが 1F", url: "https://yoga-lava.com/shop/tochigi/ashicotown_ashikaga/", extra: "女性専用" },
     { pref: "栃木県", name: "LAVA YUKALA小山店", access: "JR東北新幹線・東北線（宇都宮線・湘南新宿ライン）・両毛線・水戸線「小山駅」下車、JR小山駅東口よりタクシーで11分", address: "栃木県小山市横倉新田226-13", url: "https://yoga-lava.com/shop/tochigi/yukala_oyama/", extra: "男女共用" },
     { pref: "栃木県", name: "LAVA 大田原店", access: "大田原西那須野バイパス/国道400号から、「美原2丁目交差点」 を北東に曲がり、北大通りを約700m進む。たいらや大田原", address: "栃木県大田原市本町1-2703-54たいらや大田原本町店 ２F", url: "https://yoga-lava.com/shop/tochigi/ohtawara/", extra: "女性専用" },
+    { pref: "北海道", name: "LAVA 札幌琴似店", access: "JR函館本線「琴似駅」改札より徒歩3分、地下鉄東西線琴似駅徒歩10分", address: "北海道札幌市西区琴似3条1丁目1-20 コトニ3･1ビル1F", url: "https://yoga-lava.com/shop/hokkaido/sapporokotoni/", extra: "女性専用" },
     { pref: "北海道", name: "LAVA イオンタウン札幌平岡店", access: "北野通「平岡3-5」「平岡2-5」交差点を西に200m", address: "北海道札幌市清田区平岡2条5-2-50 イオンタウン札幌平岡1F", url: "https://yoga-lava.com/shop/hokkaido/aeon_sapporohiraoka/", extra: "女性専用" },
     { pref: "北海道", name: "LAVA 札幌南口店", access: "地下鉄南北線・東豊線「さっぽろ駅」19番出口より徒歩1分", address: "北海道札幌市中央区北4条西2丁目1-25 札幌TRビル7F", url: "https://yoga-lava.com/shop/hokkaido/sapporo_annex/", extra: "男女共用" },
     { pref: "北海道", name: "LAVA 帯広店", access: "帯広駅から南へ車で7分", address: "北海道帯広市西4条南29丁目1-8 WOW帯広1F", url: "https://yoga-lava.com/shop/hokkaido/nagasakiya_obihiro/", extra: "女性専用" },
@@ -60,12 +62,14 @@ export const LAVA_MACHINE_PILATES_OFFICIAL: OfficialStoreList = {
     { pref: "福島県", name: "LAVA イオンタウン郡山店", access: "JR東北本線・磐越西線・磐越東線 郡山駅東口より徒歩7分", address: "福島県郡山市松木町2-88 イオンタウン郡山1F", url: "https://yoga-lava.com/shop/fukushima/aeon_koriyama/", extra: "女性専用" },
     { pref: "愛知県", name: "LAVA 栄店", access: "名古屋市営地下鉄東山線・名城線「栄駅」８番出口直結", address: "愛知県名古屋市中区錦3-24-4 サンシャインサカエ4F", url: "https://yoga-lava.com/shop/aichi/sakae/", extra: "男女共用" },
     { pref: "愛知県", name: "LAVA イオンモール名古屋茶屋店", access: "国道302号線の「両茶橋東」交差点を東に進んだ先にあるイオンモール名古屋茶屋の1階です。", address: "愛知県名古屋市港区西茶屋2-11 イオンモール名古屋茶屋1F", url: "https://yoga-lava.com/shop/aichi/aeon_nagoyachaya/", extra: "女性専用" },
+    { pref: "愛知県", name: "LAVA イオンモール木曽川店", access: "名鉄名古屋本線「黒田駅」徒歩3分／JR「木曽川駅」徒歩10分", address: "愛知県一宮市木曽川町黒田南八ツケ池25-1 イオンモール木曽川 1F", url: "https://yoga-lava.com/shop/aichi/aeon_kisogawa/", extra: "女性専用" },
     { pref: "愛知県", name: "LAVA 豊田元町店", access: "名鉄三河線「土橋駅」北口より徒歩12分", address: "愛知県豊田市土橋町2-58", url: "https://yoga-lava.com/shop/aichi/toyota/", extra: "男女共用" },
     { pref: "愛知県", name: "LAVA 西尾店", access: "車：県道310号線と県道319号線の「丁田」交差点すぐ、スーパー「ドミー丁田店」となり、電車：名鉄西尾線「西尾駅」徒歩11分", address: "愛知県西尾市丁田町中ノ切56-2まいかタウン丁田1F", url: "https://yoga-lava.com/shop/aichi/nishio/", extra: "女性専用" },
     { pref: "愛知県", name: "LAVA 犬山店", access: "犬山市街地方面より、県道27号線「五郎丸南」交差点を右折した先すぐ", address: "愛知県犬山市五郎丸郷瀬川20", url: "https://yoga-lava.com/shop/aichi/inuyama/", extra: "男女共用" },
     { pref: "愛知県", name: "LAVA フォレストモール東海太田川店", access: "名鉄「太田川駅北口改札」徒歩9分", address: "愛知県東海市大田町後浜新田111 フォレストモール東海太田川 1F", url: "https://yoga-lava.com/shop/aichi/forestmall_tokaiotagawa/", extra: "女性専用" },
     { pref: "愛知県", name: "LAVA 東浦店", access: "JR武豊線「東浦駅」より徒歩2分", address: "愛知県知多郡東浦町藤江大坪58-2 A102 ピボット東浦駅前コート 1F", url: "https://yoga-lava.com/shop/aichi/higashiura/", extra: "女性専用" },
     { pref: "静岡県", name: "LAVA 静岡店", access: "JR東海道本線「静岡駅」北口より徒歩5分", address: "静岡県静岡市葵区御幸町6静岡セントラルビル3F", url: "https://yoga-lava.com/shop/shizuoka/shizuoka/", extra: "女性専用" },
+    { pref: "静岡県", name: "LAVA イオンタウン浜松葵店", access: "JR浜松駅発 遠鉄バス約50分「イオンタウン」下車（2026年11月1日オープン）", address: "静岡県浜松市中央区葵西3-25-1 イオンタウン浜松葵 1F", url: "https://yoga-lava.com/shop/shizuoka/aeon_hamamatsuaoi/", extra: "男女共用" },
     { pref: "静岡県", name: "LAVA イオンタウン富士南", access: "国道1号富士由比バイパス沿い。富士東ICから約1.5km", address: "静岡県富士市鮫島118-10 イオンタウン富士南 2F", url: "https://yoga-lava.com/shop/shizuoka/aeon_fujiminami/", extra: "女性専用" },
     { pref: "静岡県", name: "LAVA イオンタウン磐田店", access: "県道413号線沿いの「岩井」交差点を南に500ｍ進み、右手に見えるイオンタウン磐田内です。", address: "静岡県磐田市西貝塚横須賀道北3690 イオンタウン磐田1F", url: "https://yoga-lava.com/shop/shizuoka/aeon_iwata/", extra: "女性専用" },
     { pref: "富山県", name: "LAVA マイプラザ南富山店", access: "国道41号線「掛尾町交差点」を山室方面へ進み、「大町交差点」を右折した先", address: "富山県富山市堀川町355-7 マイプラザ 1・2F(受付2F)", url: "https://yoga-lava.com/shop/toyama/minamitoyama/", extra: "女性専用" },

@@ -9,6 +9,7 @@ import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import Script from 'next/script'
 import ConsultantSection from '@/components/ConsultantSection'
+import { AreaQuickAnswer } from '@/components/AreaQuickAnswer'
 
 
 
@@ -24,22 +25,22 @@ const studios = [
     name: 'Rintosull 京都桂店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
-    price: '月額 13,800円〜',
-    trial: '体験レッスン 0円',
+    price: '月4回 8,800円〜（税込）',
+    trial: '無料体験会 0円',
     features: ['桂駅西口徒歩1分', '女性専用', '体験0円', 'LAVA運営'],
     description: 'ホットヨガLAVAが運営する女性専用マシンピラティス専門スタジオです。桂駅西口から徒歩1分の好立地です。大画面スクリーンを活用した最新スタイルのグループレッスンです。美尻・美脚プログラムが充実しています。',
     access: '阪急京都線・嵐山線「桂駅」西口 徒歩1分',
     address: '京都府京都市西京区川島有栖川町50-2 ECS第24ビル3F',
     popularPlan: {
-      name: 'マシンピラティス2店舗通い放題',
-      description: '2店舗でのマシンピラティスグループレッスン通い放題です。',
+      name: 'ライト・フルタイム（京都桂店＋1店舗・通い放題）',
+      description: '京都桂店ともう1店舗でマシンピラティスのグループレッスンに通い放題のプランです。',
       price: '月額 13,800円（税込）',
     },
     options: [
-      'マシンピラティス2店舗通い放題（13,800円）',
-      'マシンピラティス全国通い放題（16,800円）',
-      'ピラティス&ホットヨガ&暗闘キックボクシング通い放題（18,800円）',
-      '体験レッスン0円',
+      '4・フルタイム（京都桂店・月4回 8,800円）',
+      'プレミアム フリー・フルタイム（Rintosull・LAVA など系列全店 通い放題 16,800円）',
+      '運営管理費 月680円・入会時の施設使用料 2,500円（税込）',
+      '無料体験会 0円',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
@@ -48,7 +49,7 @@ const studios = [
     },
     basicInfo: {
       hours: '公式サイトでご確認ください',
-      closed: '毎週日曜日',
+      closed: '毎週日曜・第4水曜（公式 2026年11月10日確認）',
       facilities: ['リフォーマー', '大画面スクリーン', '更衣室', 'ロッカー'],
     },
   },
@@ -253,6 +254,13 @@ export default function KatsuraPage() {
             </nav>
           </div>
         </section>
+
+        <AreaQuickAnswer areaName="桂（Rintosull 京都桂店）" rows={[
+          { label: '料金', text: 'Rintosull（リントスル）京都桂店の月会費は、4・フルタイム（京都桂店で月4回）8,800円、ライト・フルタイム（京都桂店＋1店舗で通い放題）13,800円、プレミアム フリー・フルタイム（LAVA などを含む系列全店で通い放題）16,800円です（税込）。別途、運営管理費が月680円、入会時に施設使用料2,500円がかかります。入会金・登録金（各5,000円）は体験当日の入会で0円です。' },
+          { label: '体験', text: '無料体験会は0円で、手ぶらで参加できます。' },
+          { label: '場所', text: '京都市西京区川島有栖川町50-2 ECS第24ビル 3F（阪急「桂」駅西口 徒歩1分）。駐車場・駐輪場はありません。定休日は毎週日曜・第4水曜で、営業時間は公式の店舗ページに記載がありません。女性専用です。' },
+          { label: '口コミ', text: '公式の店舗ページに会員の声（「京都桂店の口コミ」）が載っています。Googleマップには口コミが308件・評価4.9（2026年8月17日の取得時点）あり、当サイトの要約は店舗ページにまとめています。' },
+        ]} note={<>Rintosull 京都桂店の公式の店舗ページの表記です（2026年11月10日確認）。出典: <a href="https://rintosull.jp/shop/kyoto/kyotokatsura/" target="_blank" rel="noopener noreferrer" className="underline">Rintosull 京都桂店（公式）</a>。口コミの要約・公式の会員の声は<Link href="/brands/rintosull-katsura/" className="underline">Rintosull 京都桂店の口コミ・レビュー</Link>、ほかの4スタジオは<a href="#studios" className="underline">スタジオ紹介</a>をご覧ください。</>} />
 
         <TableOfContents areaName="桂" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
 
