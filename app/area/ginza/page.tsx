@@ -119,8 +119,8 @@ const studios = [
     name: 'BDC PILATES 銀座スタジオ',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590',
     image: '/images/studios/bdc-pilates.webp',
-    price: 'グループ 月額 15,400円〜',
-    trial: 'グループ体験 1,100円（税込・11/30までのキャンペーン・限定20名／通常4,070円・体験当日の入会で体験料キャッシュバック・公式・2026年10月24日確認）',
+    price: 'グループ 月4回 16,280円（税込）',
+    trial: 'グループ体験 1,100円（税込・11/30までのキャンペーン・限定20名／通常4,070円・体験当日の入会で体験料キャッシュバック・公式・2026年11月11日確認）',
     features: ['プロダンサー養成校プロデュース', '少人数制（最大8名）', '銀座駅C8出口徒歩30秒', '本格的'],
     description: '40年以上の実績を持つプロダンサー養成校「ブロードウェイダンスセンター(BDC)」がプロデュースするマシンピラティス専門スタジオです。銀座駅C8出口から徒歩30秒です。最大8名の少人数制にこだわった質の高いグループレッスンを提供しています。',
     access: '銀座駅C8出口から徒歩30秒（公式表記）',
@@ -151,8 +151,8 @@ const studios = [
     name: 'BDC PILATES 銀座並木スタジオ',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590',
     image: '/images/studios/bdc-pilates.webp',
-    price: 'グループ 月額 15,400円〜',
-    trial: 'グループ体験 1,100円（税込・11/30までのキャンペーン・限定20名／通常4,070円・体験当日の入会で体験料キャッシュバック・公式・2026年10月24日確認）',
+    price: 'グループ 月4回 16,280円（税込）',
+    trial: 'グループ体験 1,100円（税込・11/30までのキャンペーン・限定20名／通常4,070円・体験当日の入会で体験料キャッシュバック・公式・2026年11月11日確認）',
     features: ['マシンピラティス専門', '少人数制', '銀座エリア', 'スタイリッシュ空間'],
     description: 'BDC PILATESの銀座エリア2店舗目です。銀座並木通りに位置し、窓が大きくスタイリッシュで気持ちの良い空間です。最大8名の少人数制グループレッスンです。',
     access: '有楽町駅 徒歩2分（公式表記）',
@@ -407,7 +407,7 @@ export default function GinzaPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• the SILK（月4回 15,280円〜）</li>
-                  <li>• BDC PILATES（月額 15,400円〜）</li>
+                  <li>• BDC PILATES（月4回 16,280円）</li>
                   <li>• zen place（リフォーマー月4回 15,400円〜）</li>
                 </ul>
               </div>
@@ -486,7 +486,7 @@ export default function GinzaPage() {
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">グループレッスン（月4回）</h3>
                   <p className="text-3xl font-bold text-warm-800 mb-2">10,450円〜15,400円</p>
-                  <p className="text-sm text-warm-600">zen place pilates銀座のマット月4回10,450円〜が最安クラスです。ピラティスKは月4回13,420円、the SILKは月4回15,280円〜です。BDC PILATESは少人数制で月額15,400円〜と質重視の価格設定です。</p>
+                  <p className="text-sm text-warm-600">zen place pilates銀座のマット月4回10,450円〜が最安クラスです。ピラティスKは月4回13,420円、the SILKは月4回15,280円〜です。BDC PILATESは少人数制（最大8名）で月4回16,280円です（施設維持費 月770円が別途・公式・2026年11月11日確認・税込）。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">パーソナルレッスン</h3>

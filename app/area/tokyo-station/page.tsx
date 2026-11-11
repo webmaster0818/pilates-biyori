@@ -133,7 +133,7 @@ const studios = [
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5719218&p_id=3095&pc_id=7153&pl_id=40590',
     image: '/images/studios/bdc-pilates.webp',
     price: 'グループ月4回 16,280円（税込）',
-    trial: '体験料金は店舗ページに記載なし（予約ページで確認）',
+    trial: 'グループ体験 1,100円（税込・11/30までのキャンペーン・限定20名／通常4,070円・体験当日の入会で体験料キャッシュバック・公式・2026年11月11日確認）',
     features: ['プロダンサー養成校プロデュース', '少人数制（最大8名）', '銀座駅C8出口徒歩30秒', '本格メソッド'],
     description: '40年以上の実績を持つプロダンサー養成校「ブロードウェイダンスセンター（BDC）」プロデュースのマシンピラティス専門スタジオです。銀座駅C8出口から徒歩30秒です。最大8名の少人数制グループレッスンで丁寧な指導です。',
     access: '銀座駅C8出口から徒歩30秒（公式表記）',
@@ -144,9 +144,9 @@ const studios = [
       price: '月4回 16,280円（税込）',
     },
     options: [
-      'グループ（月4回 16,280円・入会金11,000円）',
-      'プライベート（月1回 9,900円〜）',
-      'レンタルウェア上下（220円/回）',
+      'グループ 月6回 23,100円／月8回 29,260円・追加レッスン 4,070円（税込）',
+      'プライベート 月1回 11,000円／月2回 20,900円（税込）',
+      '入会金 11,000円・事務手数料 2,200円・施設維持費 月770円（税込）',
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
@@ -353,7 +353,7 @@ export default function TokyoStationPage() {
           <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Hain pilates 東京駅店（中央区八重洲2-1 八重洲地下街B2階）<br /><span className="text-xs text-warm-500">※下のカードには未掲載（2026年10月26日追加）</span></td><td className="px-4 py-3">JR東京駅直結 徒歩2分</td><td className="px-4 py-3">大手町駅 徒歩1分・有楽町駅 徒歩6分</td><td className="px-4 py-3">30分のパーソナル（女性専用）／月4回22,000円・月6回31,350円・月8回39,600円・通い放題44,000円</td><td className="px-4 py-3">2,200円</td><td className="px-4 py-3">平日 10:00〜21:00・土祝 9:00〜20:00／日曜定休</td></tr>
           <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">the SILK 東京八重洲店（中央区八重洲1-5-9 八重洲加藤ビルディング5階）</td><td className="px-4 py-3">徒歩3分（八重洲北口から徒歩5分）</td><td className="px-4 py-3">日本橋駅 徒歩2分・大手町駅 徒歩5分</td><td className="px-4 py-3">マシンのグループ（女性限定）</td><td className="px-4 py-3">0円（50分・期間限定）</td><td className="px-4 py-3">7:30〜21:00（年末年始 12/29〜1/3 休み）</td></tr>
           <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">zen place pilates 八重洲（中央区日本橋2-3-21 八重洲セントラルビル6階）</td><td className="px-4 py-3">八重洲北口 徒歩5分</td><td className="px-4 py-3">日本橋駅A7・B3出口 徒歩3分・大手町駅B10出口 徒歩7分</td><td className="px-4 py-3">マット・マシンのグループ・プライベート（男女共用）</td><td className="px-4 py-3">初回キャンペーン マット1,000円・マシン3,000円／プライベート9,900円〜</td><td className="px-4 py-3">平日 7:30〜22:00・土日祝 8:00〜19:30（定休日は記載なし）</td></tr>
-          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">BDC PILATES 銀座（中央区銀座4-2-1 銀座教会堂ビル7F）</td><td className="px-4 py-3">丸ノ内線で1駅（銀座駅C8出口 徒歩30秒）</td><td className="px-4 py-3">—</td><td className="px-4 py-3">少人数のマシングループ・プライベート</td><td className="px-4 py-3">店舗ページに記載なし</td><td className="px-4 py-3">店舗ページに記載なし（電話受付 平日10〜20時・土日10〜17時）</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">BDC PILATES 銀座（中央区銀座4-2-1 銀座教会堂ビル7F）</td><td className="px-4 py-3">丸ノ内線で1駅（銀座駅C8出口 徒歩30秒）</td><td className="px-4 py-3">—</td><td className="px-4 py-3">少人数のマシングループ・プライベート</td><td className="px-4 py-3">グループ 1,100円（11/30までのキャンペーン・通常4,070円・11月11日確認）</td><td className="px-4 py-3">店舗ページに記載なし（電話受付 平日10〜20時・土日10〜17時）</td></tr>
           <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">the SILK 銀座店（中央区銀座5-9-12 ダイヤモンドビル3階）</td><td className="px-4 py-3">丸ノ内線で1駅（銀座駅 徒歩2分）</td><td className="px-4 py-3">東銀座駅 徒歩3分・新橋駅 徒歩10分</td><td className="px-4 py-3">マシンのグループ（女性限定）</td><td className="px-4 py-3">0円（50分・期間限定）</td><td className="px-4 py-3">7:30〜21:00（年末年始 12/29〜1/3 休み）</td></tr>
           <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ルルト 銀座店（中央区銀座2-11-9 三和産工ビル6F）</td><td className="px-4 py-3">丸ノ内線で1駅（銀座駅 徒歩約4分）</td><td className="px-4 py-3">銀座一丁目駅 徒歩1分</td><td className="px-4 py-3">マシンのパーソナル</td><td className="px-4 py-3">新規の体験受付は停止中（定員満了）</td><td className="px-4 py-3">9:00〜21:00（定休日は記載なし）</td></tr>
           <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">zen place pilates 銀座二丁目（中央区銀座2-11-15 SF銀座ビル2階）</td><td className="px-4 py-3">丸ノ内線で1駅（銀座駅A13出口 徒歩4分）</td><td className="px-4 py-3">銀座一丁目駅10番出口 徒歩1分・東銀座駅A7出口 徒歩2分</td><td className="px-4 py-3">マット・マシンのグループ・プライベート（男女共用）</td><td className="px-4 py-3">初回キャンペーン マット1,000円・マシン3,000円／プライベート9,900円〜</td><td className="px-4 py-3">平日 7:00〜21:00・土日祝 7:30〜17:00（定休日は記載なし）</td></tr>

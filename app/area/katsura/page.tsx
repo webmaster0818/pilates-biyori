@@ -146,22 +146,22 @@ const studios = [
     name: 'Rintosull 京都四条烏丸店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
-    price: '月額 13,800円〜',
+    price: '月4回 8,800円〜（税込）',
     trial: '体験レッスン 0円',
     features: ['烏丸駅徒歩2分', '女性専用', '2店舗相互利用', 'LAVA運営'],
     description: '桂店と相互利用できるRintosull四条烏丸店です。桂から阪急で烏丸駅まで約10分です。2店舗通い放題プランを利用すれば、桂店と四条烏丸店を使い分けて通えます。',
     access: '阪急京都線「烏丸駅」徒歩2分（桂駅から阪急で約10分）',
     address: '京都府京都市下京区四条通堺町西入立売中之町94 四条KSビル2F',
     popularPlan: {
-      name: 'マシンピラティス2店舗通い放題',
-      description: '桂店と四条烏丸店の2店舗でマシンピラティス通い放題です。',
+      name: 'ライト・フルタイム（2店舗通い放題）',
+      description: '四条烏丸店＋1店舗（桂店など）でマシンピラティス通い放題です。',
       price: '月額 13,800円（税込）',
     },
     options: [
-      'マシンピラティス2店舗通い放題（13,800円）',
-      'マシンピラティス全国通い放題（16,800円）',
-      'ピラティス&ホットヨガ通い放題（18,800円）',
-      '体験レッスン0円',
+      '4・フルタイム（四条烏丸店で月4回）8,800円',
+      'ライト・フルタイム（四条烏丸店＋1店舗で通い放題）13,800円',
+      'プレミアム フリー・フルタイム（Rintosull・LAVA等の系列全店で通い放題）16,800円',
+      '体験レッスン0円（いずれも税込・公式店舗ページ 2026年11月11日確認）',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
@@ -169,8 +169,8 @@ const studios = [
       purpose: ['ボディメイク', 'ダイエット', '姿勢改善', '美脚・美尻'],
     },
     basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '不定休',
+      hours: '公式の店舗ページに記載なし',
+      closed: '毎週日曜・第4木曜（公式 2026年11月11日確認）',
       facilities: ['リフォーマー', '大画面スクリーン', '更衣室', 'ロッカー'],
     },
   },
@@ -211,7 +211,7 @@ const faqs = [
   },
   {
     question: '複数のスタジオを使い分けることはできますか？',
-    answer: 'Rintosullの2店舗通い放題プラン（13,800円/月）なら、桂店と四条烏丸店を使い分けて通えます。桂店が日曜定休なので、日曜は四条烏丸店を利用するのがおすすめです。',
+    answer: 'Rintosullの2店舗通い放題プラン（13,800円/月）なら、桂店と四条烏丸店を使い分けて通えます。なお、四条烏丸店も桂店と同じく毎週日曜が定休日です（公式店舗ページ・2026年11月11日確認）。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -339,7 +339,7 @@ export default function KatsuraPage() {
               <table className="w-full text-sm border-collapse">
                 <thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">種別</th><th className="px-4 py-3 text-left">料金相場</th></tr></thead>
                 <tbody>
-                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループ通い放題</td><td className="px-4 py-3">13,800円〜18,800円/月</td></tr>
+                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループ通い放題</td><td className="px-4 py-3">13,800円〜16,800円/月</td></tr>
                   <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">パーソナルレッスン（月4回）</td><td className="px-4 py-3">14,800円〜25,000円</td></tr>
                   <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">0円〜2,980円</td></tr>
                 </tbody>
@@ -366,7 +366,7 @@ export default function KatsuraPage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">Rintosull桂店は日曜定休に注意</h3>
-                <p className="text-warm-600 leading-relaxed">Rintosull京都桂店は毎週日曜日が定休日です。日曜日にも通いたい方は、2店舗通い放題プラン（13,800円）を利用してRintosull京都四条烏丸店も併用するのがおすすめです。桂から烏丸駅まで阪急で約10分です。</p>
+                <p className="text-warm-600 leading-relaxed">Rintosull京都桂店は毎週日曜日が定休日です。2店舗通い放題プラン（13,800円）で併用できるRintosull京都四条烏丸店も毎週日曜・第4木曜が定休日のため、日曜に通いたい場合は他のスタジオを検討してください（公式店舗ページ・2026年11月11日確認）。桂から烏丸駅まで阪急で約10分です。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも視野に入れよう</h3>

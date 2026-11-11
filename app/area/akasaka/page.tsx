@@ -90,15 +90,15 @@ const studios = [
     name: 'PILATES STUDIO noa 赤坂',
     image: '/images/studios/pilates-studio-noa.webp',
     price: '月額 6,600円〜',
-    trial: '体験レッスンあり（公式トップに550円と1,100円の2つの表記・税込）',
+    trial: '体験 通常3,850円→11月30日までのキャンペーンで0円（公式の料金ページ）。店舗ページ下部には「1,100円・当日入会で全額返金」の表記もあり（税込・2026年11月11日確認）',
     features: ['女性専用', 'マシン専門', '赤坂駅1番出口徒歩30秒', '回数繰越無制限'],
-    description: '女性専用のマシンピラティス専門スタジオです。赤坂駅1番出口から徒歩30秒です。月6,600円から（別途システム手数料550円・マシン利用料550円）で、回数の繰越が無制限です。Intro・BODY MAKE・Conditioningの3つのプログラムカテゴリを展開しています。シャワールーム・更衣室完備で、レッスン前後も快適に過ごせます。',
+    description: '女性専用のマシンピラティス専門スタジオです。赤坂駅1番出口から徒歩30秒です。月2回6,600円・月4回11,000円から（別途システム手数料・マシン利用料が毎月かかり、金額は公式ページ内で550〜660円と表記が分かれています）で、回数の繰越が無制限です。Intro・BODY MAKE・Conditioningの3つのプログラムカテゴリを展開しています。シャワールーム・更衣室完備で、レッスン前後も快適に過ごせます。',
     access: '千代田線「赤坂駅」1番出口 徒歩30秒 / 銀座線・丸ノ内線「赤坂見附駅」ベルビー赤坂出口 徒歩7分 / 銀座線・南北線「溜池山王駅」7番出口 徒歩7分',
     address: '東京都港区赤坂3丁目13-12（受付3F）',
     popularPlan: {
       name: '月4回コース',
       description: '月4回のマシンピラティスレッスンです。未消化分は無制限繰越可能です。',
-      price: '月4回 要確認（月額6,600円〜）',
+      price: '月4回 11,000円（税込）',
     },
     options: [
       '月2回コース',
@@ -151,7 +151,7 @@ const studios = [
     name: 'STUDIO IVY 赤坂ANNEX店',
     image: '/images/studios/studio-ivy.webp',
     price: '月2回 15,000円〜',
-    trial: '初回体験 4,500円（税込・2026年11月1日 公式で確認）',
+    trial: '初回体験 無料（11/4〜12/31のキャンペーン・通常4,500円・税込・2026年11月11日 公式で確認）',
     features: ['完全パーソナル', 'マシン完備', '赤坂駅徒歩3分', '完全個室'],
     description: 'STUDIO IVYの赤坂2号店です。赤坂駅から徒歩3分です。本店と同じクオリティの完全パーソナルマシンピラティスを提供しています。完全個室で周りを気にせずレッスンに集中できます。赤坂エリアに2店舗あり、予約も取りやすくなっています。',
     access: '千代田線「赤坂駅」徒歩3分',
@@ -220,7 +220,7 @@ const faqs = [
   },
   {
     question: '赤坂のピラティススタジオの料金相場は？',
-    answer: '赤坂エリアの料金相場は、グループレッスン月4回で6,600円〜15,280円程度です。PILATES STUDIO noaは月額6,600円からと格安です。パーソナルレッスンは月4回28,000円前後が相場です。体験レッスンは無料〜6,600円と幅があります。',
+    answer: '赤坂エリアの料金相場は、グループレッスン月4回で10,450円〜15,400円程度です（zen place マット 10,450円・noa 11,000円・the SILK 15,280円・zen place マシン 15,400円）。PILATES STUDIO noaは月2回なら6,600円です。パーソナルレッスンは月4回28,000円前後が相場です。体験レッスンは無料〜9,900円と幅があります。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -267,7 +267,7 @@ export default function AkasakaPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月11日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               赤坂のピラティスおすすめ6選<br className="hidden md:block" />
               赤坂駅・赤坂見附駅からの徒歩分・体験料金で比較
@@ -287,6 +287,16 @@ export default function AkasakaPage() {
             </nav>
           </div>
         </section>
+        <section className="py-8 bg-white" id="by-station"><div className="max-w-5xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">赤坂駅・赤坂見附駅・溜池山王駅からの徒歩分で比べる早見表</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">赤坂でピラティスに通うときの最寄駅は、赤坂見附駅（銀座線・丸ノ内線）、赤坂駅（千代田線）、溜池山王駅（銀座線・南北線）の3つです。掲載6店を駅から近い順に並べ、下のカードに無い2店（pilates studio ena・Lume Pilates）を最後に加えました。徒歩分・月額・体験料金・営業時間・定休日は各スタジオの公式ページの表記です（掲載6店は2026年11月11日確認・追加2店は10月26日確認）。公式に記載のない項目は「公式に記載なし」としています。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">赤坂見附駅から</th><th className="px-4 py-3 text-left">赤坂駅から</th><th className="px-4 py-3 text-left">溜池山王駅から</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">月額の下限（税込）</th><th className="px-4 py-3 text-left">体験（税込）</th><th className="px-4 py-3 text-left">営業時間・定休日</th></tr></thead><tbody>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">the SILK 赤坂見附店（港区赤坂3-8-1 赤坂アルトビル7F）</td><td className="px-4 py-3">徒歩30秒</td><td className="px-4 py-3">徒歩6分</td><td className="px-4 py-3">徒歩9分</td><td className="px-4 py-3">マシンのグループ（女性専用）</td><td className="px-4 py-3">月3回 13,280円（施設利用料 月700円）</td><td className="px-4 py-3">0円（50分）</td><td className="px-4 py-3">7:30〜21:00／年末年始（12/29〜1/3）休み</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">PILATES STUDIO noa 赤坂（港区赤坂3-13-12・受付3F）</td><td className="px-4 py-3">ベルビー赤坂出口 徒歩7分</td><td className="px-4 py-3">1番出口 徒歩30秒</td><td className="px-4 py-3">7番出口 徒歩7分</td><td className="px-4 py-3">マシン（女性専用）</td><td className="px-4 py-3">月2回 6,600円・月4回 11,000円</td><td className="px-4 py-3">通常3,850円→11月中は0円（店舗ページには1,100円・当日入会で返金の表記も）</td><td className="px-4 py-3">公式に記載なし（電話受付 平日10:00〜23:00・土日10:00〜21:00）</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">zen place pilates 赤坂（港区赤坂3-7-13 HMビル5階）</td><td className="px-4 py-3">10番出口 徒歩3分</td><td className="px-4 py-3">1番出口 徒歩4分</td><td className="px-4 py-3">10番出口 徒歩6分</td><td className="px-4 py-3">マット・マシンのグループ・プライベート（男女共用）</td><td className="px-4 py-3">マット月4回 10,450円・マシン月4回 15,400円</td><td className="px-4 py-3">マット 1,000円・マシン 3,000円・プライベート 9,900円〜</td><td className="px-4 py-3">平日 7:45〜21:00・土日祝 9:00〜16:30／定休日は公式に記載なし</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Studio-BMP 赤坂店（港区赤坂6-11-13 ファブリックビル4階）</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">6番出口 徒歩2分</td><td className="px-4 py-3">11番出口 徒歩10分</td><td className="px-4 py-3">完全プライベート</td><td className="px-4 py-3">月額制なし（50分 11,000円）</td><td className="px-4 py-3">50分 6,600円・80分 9,900円</td><td className="px-4 py-3">火〜金 10:00〜21:00・土日祝 10:00〜18:00／月曜定休</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">STUDIO IVY 赤坂店（港区赤坂4-2-12 エスセナーリオ赤坂WEST 011）</td><td className="px-4 py-3">徒歩3分</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">マシンのパーソナル50分（男性も可）</td><td className="px-4 py-3">月2回 15,000円・月4回 28,000円</td><td className="px-4 py-3">4,500円</td><td className="px-4 py-3">8:00〜21:00／定休日は公式に記載なし</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">STUDIO IVY 赤坂ANNEX店（港区赤坂6-4-18 プリンストン赤坂402）</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">徒歩3分</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">マシンのパーソナル50分（男性も可）</td><td className="px-4 py-3">月2回 15,000円・月4回 28,000円</td><td className="px-4 py-3">無料（11/4〜12/31のキャンペーン・通常4,500円）</td><td className="px-4 py-3">8:00〜21:00／定休日は公式に記載なし</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">pilates studio ena（港区赤坂3-21-5 三銀ビル408）<br /><span className="text-xs text-warm-500">※下のカードには未掲載（10月26日追加）</span></td><td className="px-4 py-3">徒歩30秒</td><td className="px-4 py-3">徒歩6分</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">完全個室のパーソナル（基本は女性専用）／1回13,200円・4回42,000円・8回79,200円・入会金20,000円</td><td className="px-4 py-3">左欄のとおり（10月26日確認）</td><td className="px-4 py-3">料金案内は5,000円（10月はクーポンで3,300円の案内あり）</td><td className="px-4 py-3">8:00〜20:30／不定休</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Lume Pilates 赤坂（港区赤坂3-13-3 赤坂セントラルビル3F）<br /><span className="text-xs text-warm-500">※このページのカードには未掲載（<a href="/area/toranomon/" className="underline">虎ノ門ページ</a>に掲載）</span></td><td className="px-4 py-3">徒歩5分</td><td className="px-4 py-3">徒歩30秒</td><td className="px-4 py-3">徒歩6分</td><td className="px-4 py-3">パーソナル（男性可）・最大4名のグループ（女性限定）／グループ月4回24,000円・パーソナル月4回48,000円</td><td className="px-4 py-3">左欄のとおり（10月26日確認）</td><td className="px-4 py-3">体験料金の記載なし（HP申込で入会金無料）</td><td className="px-4 py-3">平日 9:00〜22:00・土日祝 10:00〜18:00（アクセス欄は19:00）／記載なし</td></tr>
+        </tbody></table></div><p className="text-warm-600 leading-relaxed mt-4 text-sm">赤坂見附駅から歩くなら the SILK（徒歩30秒・女性専用・体験0円）と zen place（徒歩3分・男女共用）、千代田線の赤坂駅なら noa（1番出口 徒歩30秒）と Studio-BMP（6番出口 徒歩2分）が近い店です。男性も通えるのは zen place と STUDIO IVY（公式に男性受講可と記載）です。赤坂見附駅と赤坂駅は歩いて行き来できる距離のため、表のとおり両駅から歩ける店もあります。</p><p className="text-warm-500 leading-relaxed mt-3 text-xs">確認した公式ページ（2026年11月11日）: the SILK赤坂見附店（情報引用元: <a href="https://the-silk.co.jp/studios/tokyo/akasakamitsuke/" target="_blank" rel="noopener" className="underline">the SILK公式サイト</a>）／<a href="https://www.zenplace.co.jp/studios/pilates-akasaka" target="_blank" rel="noopener" className="underline">zen place pilates 赤坂</a>／<a href="https://www.noapilates.jp/studio/akasaka/" target="_blank" rel="noopener" className="underline">PILATES STUDIO noa 赤坂</a>／<a href="https://b-m-p.jp/studio/studios/akasaka/" target="_blank" rel="noopener" className="underline">Studio-BMP 赤坂店</a>（料金は<a href="https://b-m-p.jp/studio/menu/" target="_blank" rel="noopener" className="underline">メニュー＆料金</a>）／<a href="https://www.pilates-ivy.jp/studio/akasaka" target="_blank" rel="noopener" className="underline">STUDIO IVY 赤坂店</a>／<a href="https://www.pilates-ivy.jp/studio/akasakaannex" target="_blank" rel="noopener" className="underline">STUDIO IVY 赤坂ANNEX店</a>／（10月26日）<a href="https://pilatesstudioena.com/" target="_blank" rel="noopener" className="underline">pilates studio ena</a>／<a href="https://lume-pilates.com/" target="_blank" rel="noopener" className="underline">Lume Pilates</a></p></div></section>
         <AreaConclusion studios={studios} areaName="赤坂" />
 
 
@@ -329,16 +339,6 @@ export default function AkasakaPage() {
           </div>
         </section>
 
-        <section className="py-12 bg-white" id="by-station"><div className="max-w-5xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">赤坂駅・赤坂見附駅・溜池山王駅からの徒歩分で比べる早見表</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">赤坂でピラティスに通うときの最寄駅は、赤坂見附駅（銀座線・丸ノ内線）、赤坂駅（千代田線）、溜池山王駅（銀座線・南北線）の3つです。掲載6店を駅から近い順に並べ、下のカードに無い2店（pilates studio ena・Lume Pilates）を最後に加えました。徒歩分・体験料金・営業時間・定休日は各スタジオの公式ページの表記です（2026年10月25日確認・追加2店は10月26日確認）。公式に記載のない項目は「公式に記載なし」としています。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">赤坂見附駅から</th><th className="px-4 py-3 text-left">赤坂駅から</th><th className="px-4 py-3 text-left">溜池山王駅から</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">体験（税込）</th><th className="px-4 py-3 text-left">営業時間・定休日</th></tr></thead><tbody>
-          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">the SILK 赤坂見附店（港区赤坂3-8-1 赤坂アルトビル7F）</td><td className="px-4 py-3">徒歩30秒</td><td className="px-4 py-3">徒歩6分</td><td className="px-4 py-3">徒歩9分</td><td className="px-4 py-3">マシンのグループ（女性専用）</td><td className="px-4 py-3">0円（50分）</td><td className="px-4 py-3">7:30〜21:00／年末年始（12/29〜1/3）休み</td></tr>
-          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">PILATES STUDIO noa 赤坂（港区赤坂3-13-12・受付3F）</td><td className="px-4 py-3">ベルビー赤坂出口 徒歩7分</td><td className="px-4 py-3">1番出口 徒歩30秒</td><td className="px-4 py-3">7番出口 徒歩7分</td><td className="px-4 py-3">マシン（女性専用）</td><td className="px-4 py-3">公式トップに550円・1,100円の2表記</td><td className="px-4 py-3">公式に記載なし（電話受付 平日10:00〜23:00・土日10:00〜21:00）</td></tr>
-          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">zen place pilates 赤坂（港区赤坂3-7-13 HMビル5階）</td><td className="px-4 py-3">10番出口 徒歩3分</td><td className="px-4 py-3">1番出口 徒歩4分</td><td className="px-4 py-3">10番出口 徒歩6分</td><td className="px-4 py-3">マット・マシンのグループ・プライベート（男女共用）</td><td className="px-4 py-3">マット 1,000円・マシン 3,000円・プライベート 9,900円〜</td><td className="px-4 py-3">平日 7:45〜21:00・土日祝 9:00〜16:30／定休日は公式に記載なし</td></tr>
-          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Studio-BMP 赤坂店（港区赤坂6-11-13 ファブリックビル4階）</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">6番出口 徒歩2分</td><td className="px-4 py-3">11番出口 徒歩10分</td><td className="px-4 py-3">完全プライベート</td><td className="px-4 py-3">50分 6,600円・80分 9,900円</td><td className="px-4 py-3">火〜金 10:00〜21:00・土日祝 10:00〜18:00／月曜定休</td></tr>
-          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">STUDIO IVY 赤坂店（港区赤坂4-2-12 エスセナーリオ赤坂WEST 011）</td><td className="px-4 py-3">徒歩3分</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">マシンのパーソナル50分（男性も可）</td><td className="px-4 py-3">4,500円</td><td className="px-4 py-3">8:00〜21:00／定休日は公式に記載なし</td></tr>
-          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">STUDIO IVY 赤坂ANNEX店（港区赤坂6-4-18 プリンストン赤坂402）</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">徒歩3分</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">マシンのパーソナル50分（男性も可）</td><td className="px-4 py-3">4,500円</td><td className="px-4 py-3">8:00〜21:00／定休日は公式に記載なし</td></tr>
-          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">pilates studio ena（港区赤坂3-21-5 三銀ビル408）<br /><span className="text-xs text-warm-500">※下のカードには未掲載（10月26日追加）</span></td><td className="px-4 py-3">徒歩30秒</td><td className="px-4 py-3">徒歩6分</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">完全個室のパーソナル（基本は女性専用）／1回13,200円・4回42,000円・8回79,200円・入会金20,000円</td><td className="px-4 py-3">料金案内は5,000円（10月はクーポンで3,300円の案内あり）</td><td className="px-4 py-3">8:00〜20:30／不定休</td></tr>
-          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Lume Pilates 赤坂（港区赤坂3-13-3 赤坂セントラルビル3F）<br /><span className="text-xs text-warm-500">※このページのカードには未掲載（<a href="/area/toranomon/" className="underline">虎ノ門ページ</a>に掲載）</span></td><td className="px-4 py-3">徒歩5分</td><td className="px-4 py-3">徒歩30秒</td><td className="px-4 py-3">徒歩6分</td><td className="px-4 py-3">パーソナル（男性可）・最大4名のグループ（女性限定）／グループ月4回24,000円・パーソナル月4回48,000円</td><td className="px-4 py-3">体験料金の記載なし（HP申込で入会金無料）</td><td className="px-4 py-3">平日 9:00〜22:00・土日祝 10:00〜18:00（アクセス欄は19:00）／記載なし</td></tr>
-        </tbody></table></div><p className="text-warm-600 leading-relaxed mt-4 text-sm">赤坂見附駅から歩くなら the SILK（徒歩30秒・女性専用・体験0円）と zen place（徒歩3分・男女共用）、千代田線の赤坂駅なら noa（1番出口 徒歩30秒）と Studio-BMP（6番出口 徒歩2分）が近い店です。男性も通えるのは zen place と STUDIO IVY（公式に男性受講可と記載）です。赤坂見附駅と赤坂駅は歩いて行き来できる距離のため、表のとおり両駅から歩ける店もあります。</p><p className="text-warm-500 leading-relaxed mt-3 text-xs">確認した公式ページ（2026年10月25日）: the SILK赤坂見附店（情報引用元: <a href="https://the-silk.co.jp/studios/tokyo/akasakamitsuke/" target="_blank" rel="noopener" className="underline">the SILK公式サイト</a>）／<a href="https://www.zenplace.co.jp/studios/pilates-akasaka" target="_blank" rel="noopener" className="underline">zen place pilates 赤坂</a>／<a href="https://www.noapilates.jp/studio/akasaka/" target="_blank" rel="noopener" className="underline">PILATES STUDIO noa 赤坂</a>／<a href="https://b-m-p.jp/studio/studios/akasaka/" target="_blank" rel="noopener" className="underline">Studio-BMP 赤坂店</a>（料金は<a href="https://b-m-p.jp/studio/menu/" target="_blank" rel="noopener" className="underline">メニュー＆料金</a>）／<a href="https://www.pilates-ivy.jp/studio/akasaka" target="_blank" rel="noopener" className="underline">STUDIO IVY 赤坂店</a>／<a href="https://www.pilates-ivy.jp/studio/akasakaannex" target="_blank" rel="noopener" className="underline">STUDIO IVY 赤坂ANNEX店</a>／（10月26日）<a href="https://pilatesstudioena.com/" target="_blank" rel="noopener" className="underline">pilates studio ena</a>／<a href="https://lume-pilates.com/" target="_blank" rel="noopener" className="underline">Lume Pilates</a></p></div></section>
 
         <PriceComparisonTable studios={studios} areaName="赤坂" />
         <AreaMarketComparison studios={studios} areaName="赤坂" />
@@ -375,15 +375,15 @@ export default function AkasakaPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">6,600円〜15,400円（noaは別途手数料あり）</td>
+                    <td className="px-4 py-3">10,450円〜15,400円（noaは別途手数料あり）</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回 15,000円〜28,000円</td>
+                    <td className="px-4 py-3">1回 6,250円〜11,000円（STUDIO IVY 月12回〜Studio-BMP 50分）</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">無料〜6,600円</td>
+                    <td className="px-4 py-3">無料〜9,900円</td>
                   </tr>
                 </tbody>
               </table>
@@ -599,7 +599,7 @@ export default function AkasakaPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  赤坂エリアの料金相場はグループレッスン月4回で6,600円〜15,280円程度です。パーソナルは月4回28,000円前後です。無理なく継続できる予算を決めることをおすすめします。入会金やレンタル料もご確認ください。長く続けるためには、金銭的な負担が少ないことも大切です。
+                  赤坂エリアの料金相場はグループレッスン月4回で10,450円〜15,400円程度です。パーソナルは月4回28,000円前後です。無理なく継続できる予算を決めることをおすすめします。入会金やレンタル料もご確認ください。長く続けるためには、金銭的な負担が少ないことも大切です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
