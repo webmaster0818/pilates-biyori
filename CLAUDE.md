@@ -1444,3 +1444,12 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
   - 未対応: aggregate の zen 16行（茅ヶ崎・流山・豊中・西院・本郷三丁目・堺東・南森町・大泉学園・大森・駒込・西葛西・上大岡・湘南台・津田沼・塚口・所沢）は今日店舗ページ未確認のため旧表記のまま
 - /brands/ C5 は判断待ちで title 不変（本文の口コミ0・評判0）。/editors/ C3 は読者を指す文（「通っている方」）の誤検知
 - next build 直接・sitemap は24頁のみ 11-12。precheck ✅ 589頁・計測リンク out/deploy 4,080→4,080・src 1,956→1,956・functions/api 4本保全・text 変更は24頁のみ（deploy 全 HTML の本文比較）
+
+### 2026-11-12 12:00 成長ルーチン: Repilates・La pilates の h1 直下に公式料金早見表・Repilates 31店・アクス北谷/那覇新都心・赤坂 ena/Lume（source 5d4c9ef0 / deploy 0da049d68c・反映約15分以内）
+- テンプレ: BrandInfo に `quickPriceTable`（rows・checkedAt・note・sources）を追加し、/brands/[slug] の h1 直下（要点の前）に表で出す。設定したブランド（repilates・la-pilates）だけに出る。WebSearch は US 限定で日本の上位競合が取れず→公式値で代替
+- Repilates（公式トップ PRICE・/studio/ 11/12）: 料金は 11/2 と同一。**営業中 30→31（西武立川店＝/studio/akishima/・アクロスプラザ昭島店2F・店舗ページ「2026年11月4日グランドオープン」）**、東京都 4→5、オープン予定 11→10。`repilates-official-stores.ts` に1行追加（他30店は URL 一致）。metaDescription を料金の答えに。title 不変
+- La pilates（公式トップ・/menu/・/studio/ 11/12）: 126店舗・一覧124店・料金とも 11/2 と同一（/menu/ の事務手数料1,000円・年会費10,000円は HTML コメント内＝非表示なので書かない）。metaDescription を料金の答えに。title 不変。全店舗一覧は料金欄より下のまま
+- 沖縄 アクス北谷（pilatesaxe.jp/chatan/ 11/12）: 通常 月4回10,780（ジム無し）／月4回+ジム16,280／月8回+ジム23,980、11月キャンペーンで +ジム 10,780／18,400。「月8回18,480円（特商法表記）」は誤り→訂正。那覇（/area/naha/）の那覇新都心カードも 18,480→18,400・都度3,850→ビジター4,180・公式に無い回数券10回を削除
+- 赤坂 早見表: ena 体験＝料金ページ5,000円・11月限定クーポンで3,300円（告知文は「通常8,800円」と表記＝公式内で不一致）、Lume「HP申込で入会金無料」は7月の企画→11月は「3ヶ月間 料金半額」
+- 未対応: /area/naha/ の CTA 文「体験レッスン無料〜3,850円」はアクスのパーソナル体験4,400円と合わない（他店の体験値を未照合のため不変）。時間があれば枠（kitahama・toranomon・himeji・seijo-gakuenmae・オンライン2本）は未着手
+- next build 直接・sitemap は5頁のみ 11-12。precheck ✅ 589頁・計測リンク deploy 3,798→3,798・src 1,923→1,923・functions/api 4本保全・text 変更は5頁のみ
