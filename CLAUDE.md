@@ -1434,3 +1434,13 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - articles/pilates-for-running: 冒頭に要点表（記事内の既存内容のみ・updatedAt 11-11）。⚠️本文の「タイム短縮の実例（5kmで30秒〜1分短縮等）」「エリート選手の活用例」は出典なし＝未変更・要判断
 - tokyo-station は AreaConclusion が冒頭にあり #by-station（10/25確認）は TOC の下のまま＝今回は BDC カードのみ
 - next build 直接・sitemap は13頁のみ 11-11。precheck ✅ 589頁・計測リンク out/deploy 3,798→3,798・src 1,927→1,927・functions/api 4本保全・/api/contact 400・text 変更は13頁のみ（deploy 全 HTML の本文比較）
+
+### 2026-11-12 朝ルーチン: BREST モニター募集は継続・zen place 23店カードの体験欄を公式キャンペーン値に（source a29c18e5 / deploy 6ab75333f5）
+- BREST（11/12 09:18 公式直・brest-gym.jp/studio/{hongo-sanchome,daikanyama,futakotamagawa,chigasaki,sagamiono,awaji,gofukumachi}/）: 7店とも「モニター会員募集」バナー（banner-1_monitor_500.png・Last-Modified 10/29 で画像も同じ＝先着20名・体験 税込500円・入会金0円・月2,200円割引・「定員になり次第終了」）が継続→カードは戻さない。店舗別月額は 11/11 と同じ（3店＝20,680/25,080/41,580/47,080、4店＝22,880）。/news/ 最新 11/10＝改定告知なし→未変更
+- zen place: 公式店舗ページ 22店（11/12 取得・`studio-lesson-card` の表示）で全店「マットグループ 体験 G01 3,300円〜／G02 2,200円〜 → 初回体験キャンペーン 1,000円」「マシングループ 5,000円〜 → 3,000円」。app/area の 23頁24カード（体験欄が「あり」「3,300円」「2,200円〜（グレードにより異なる）」等）を公式値＋`trialSource`（公式店舗ページURL・確認日）に。StudioCardClient に `trialSource` を追加（体験欄の下に「出典：公式の店舗ページ（確認日）」）
+  - 「体験レッスンあり（当日入会で入会金無料）」が「無料」を含むため無料体験に数えられていた（代官山 4→3店 等）。入会金無料は公式（「※当日入会の場合は入会金が無料」）で事実だが体験料ではないので体験欄からは外した。features/FAQ の「体験当日入会で入会金無料」は不変
+  - brands-aggregate.json の zen 19行（今日確認した店＋栄・仙台＝area-studios は 11/8 に更新済み）も同値に → /brands/zen-place/「無料体験の掲載店舗 7店舗」→「—」（zen に無料体験は無い）
+  - 本文の「zen placeはグループ体験 3,300円」（飯田橋・神楽坂）・「体験3,300円」（栄 FAQ）をキャンペーン値に
+  - 未対応: aggregate の zen 16行（茅ヶ崎・流山・豊中・西院・本郷三丁目・堺東・南森町・大泉学園・大森・駒込・西葛西・上大岡・湘南台・津田沼・塚口・所沢）は今日店舗ページ未確認のため旧表記のまま
+- /brands/ C5 は判断待ちで title 不変（本文の口コミ0・評判0）。/editors/ C3 は読者を指す文（「通っている方」）の誤検知
+- next build 直接・sitemap は24頁のみ 11-12。precheck ✅ 589頁・計測リンク out/deploy 4,080→4,080・src 1,956→1,956・functions/api 4本保全・text 変更は24頁のみ（deploy 全 HTML の本文比較）
