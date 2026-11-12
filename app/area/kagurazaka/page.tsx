@@ -55,7 +55,8 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
-    trial: 'グループ体験 3,300円',
+    trial: 'マットグループ初回体験 1,000円（キャンペーン価格・通常3,300円〜）／マシングループ初回体験 3,000円（通常5,000円〜）／2026-11-12公式確認',
+    trialSource: { url: 'https://www.zenplace.co.jp/studios/pilates-iidabashi', checkedAt: '2026-11-12' },
     features: ['飯田橋駅徒歩1分', '男性利用可', 'マット&マシン', '全国他店利用'],
     description: 'ピラティス専門の大手スタジオです。飯田橋駅B4b出口から徒歩1分、神楽坂エリアからも徒歩圏内です。東西線・南北線・有楽町線・大江戸線の4路線利用可能です。マットグループ・マシングループ・プライベートの3タイプです。',
     access: '東京メトロ「飯田橋駅」B4b出口 徒歩1分 / JR「飯田橋駅」西口 徒歩3分',
@@ -265,7 +266,7 @@ export default function KagurazakaPage() {
         <AreaQuickAnswer areaName="神楽坂" rows={[
           { label: '店舗数', text: '神楽坂駅・牛込神楽坂駅側を中心に6社を掲載しています。CLUB PILATES 神楽坂店は東西線神楽坂駅1A出口から徒歩30秒、the SILK 神楽坂店は神楽坂駅から徒歩3分、Pilates Mee 神楽坂・飯田橋店は神楽坂駅徒歩3分・牛込神楽坂駅徒歩2分、ルルトは牛込神楽坂駅徒歩5分です（zen place・Repilatesは飯田橋駅徒歩1分）。' },
           { label: '料金', text: 'グループの月4回は、zen place 10,450円〜（マットグループ）、CLUB PILATES・Repilates 14,190円（税表記なし）、the SILK 15,280円（別途施設利用料 月700円）。セミパーソナルのPilates Meeは通い放題37,500円を月10回使うと1回あたり3,750円（公式の算出）です。' },
-          { label: '体験', text: 'CLUB PILATES（30分イントロクラス）・Pilates Mee・Repilatesが無料、the SILKも公式サイトで無料の体験予約を受け付けていると案内されています。zen placeはグループ体験 3,300円、ルルトは公式の店舗一覧で体験受付停止中と表示されています。' },
+          { label: '体験', text: 'CLUB PILATES（30分イントロクラス）・Pilates Mee・Repilatesが無料、the SILKも公式サイトで無料の体験予約を受け付けていると案内されています。zen placeはマットグループ初回体験 1,000円（キャンペーン価格・通常3,300円〜・2026-11-12公式確認）、ルルトは公式の店舗一覧で体験受付停止中と表示されています。' },
           { label: '飯田橋駅側', text: '飯田橋駅を最寄りに探す方は、駅からの徒歩分と無料体験で比べた飯田橋のピラティス比較ページが詳しいです。' },
         ]} note="値は下の各スタジオカードと同じ公式サイトの表記（2026年10月確認）。" />
         <AreaConclusion studios={studios} areaName="神楽坂" />

@@ -30,6 +30,8 @@ type Studio = {
   trial: string
   /** 体験レッスンの申込フォーム（公式）。先方から案内があった店舗だけ設定する。 */
   trialUrl?: string
+  /** 体験料金の出典（公式の店舗ページ・計測URLは入れない）と確認日。あれば「体験」欄の下に出す。 */
+  trialSource?: { url: string; checkedAt: string }
   features: string[]
   description: string
   access?: string
@@ -270,6 +272,14 @@ export function StudioCardClient({ studio, index }: StudioCardProps) {
                     <span className="text-warm-500 font-medium w-24">体験：</span>
                     <span className="text-warm-800 font-bold">{studio.trial}</span>
                   </div>
+                  {studio.trialSource && (
+                    <div className="flex items-center text-xs text-warm-500">
+                      <span className="w-24" />
+                      <span>
+                        出典：<a href={studio.trialSource.url} target="_blank" rel="noopener noreferrer" className="underline decoration-warm-300 hover:text-warm-800">公式の店舗ページ</a>（{studio.trialSource.checkedAt}確認）
+                      </span>
+                    </div>
+                  )}
                   {studio.trialUrl && (
                     <div className="flex items-center text-sm">
                       <span className="text-warm-500 font-medium w-24">申込：</span>

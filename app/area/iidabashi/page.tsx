@@ -29,7 +29,8 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 10,450円〜',
-    trial: 'グループ体験 3,300円',
+    trial: 'マットグループ初回体験 1,000円（キャンペーン価格・通常3,300円〜）／マシングループ初回体験 3,000円（通常5,000円〜）／2026-11-12公式確認',
+    trialSource: { url: 'https://www.zenplace.co.jp/studios/pilates-iidabashi', checkedAt: '2026-11-12' },
     features: ['飯田橋駅徒歩1分', '男性利用可', 'マット&マシン', '全国他店利用'],
     description: 'ピラティス専門の大手スタジオです。飯田橋駅B4b出口から徒歩1分、JR西口から徒歩3分です。東西線・南北線・有楽町線・大江戸線の4路線利用可能です。マットグループ・マシングループ・プライベートの3タイプから選べます。全国150店舗以上で他店利用可能です。',
     access: '東京メトロ「飯田橋駅」B4b出口 徒歩1分 / JR「飯田橋駅」西口 徒歩3分',
@@ -238,7 +239,7 @@ export default function IidabashiPage() {
         <AreaQuickAnswer areaName="飯田橋" rows={[
           { label: '店舗数', text: '飯田橋駅から通えるスタジオを5社掲載しています。駅徒歩1分はzen place pilates 飯田橋スタジオ（メトロB4b出口・JR西口は徒歩3分）とRepilates 飯田橋神楽坂店（JR東口）。ルルト 飯田橋・神楽坂店はB1出口から徒歩6分、CLUB PILATES 神楽坂店は東西線神楽坂駅1A出口から徒歩30秒です。' },
           { label: '料金', text: '月4回の目安は、zen place 10,450円〜（マットグループ）、Repilates・CLUB PILATES 14,190円（税表記なし）。マンツーマンはDr.ピラティス 月4回29,700円〜（45分）、ルルト 月4回38,400円（税込）です。' },
-          { label: '体験', text: 'CLUB PILATES（30分イントロクラス）・Repilates（期間限定・通常3,300円）・Dr.ピラティスが無料。zen placeはグループ体験 3,300円、ルルトは公式の店舗一覧で体験受付停止中と表示されています。' },
+          { label: '体験', text: 'CLUB PILATES（30分イントロクラス）・Repilates（期間限定・通常3,300円）・Dr.ピラティスが無料。zen placeはマットグループ初回体験 1,000円（キャンペーン価格・通常3,300円〜・2026-11-12公式確認）、ルルトは公式の店舗一覧で体験受付停止中と表示されています。' },
           { label: '神楽坂駅側', text: '東西線神楽坂駅・大江戸線牛込神楽坂駅の近く（the SILK 神楽坂店・Pilates Mee 神楽坂・飯田橋店など6社）は、神楽坂のピラティス比較ページで比べられます。' },
         ]} note="値は下の各スタジオカードと同じ公式サイトの表記（2026年10月確認）。" />
         <AreaConclusion studios={studios} areaName="飯田橋" />
