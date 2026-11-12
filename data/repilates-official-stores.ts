@@ -1,10 +1,10 @@
 // Repilates 公式「STUDIO（店舗を探す）」（https://repilates.jp/studio/）の営業中の全店（オープン予定は含めない）
-// 2026-10-29 に公式から取得（27店舗）。2026-11-02: 公式の店舗ページで「2026年11月1日グランドオープン」と表示された館山・銚子・湘南モールフィルの3店を追加（30店舗。住所・営業時間は公式一覧の表記）。都道府県は公式一覧の見出し（または住所）による。
+// 2026-10-29 に公式から取得（27店舗）。2026-11-02: 公式の店舗ページで「2026年11月1日グランドオープン」と表示された館山・銚子・湘南モールフィルの3店を追加（30店舗。住所・営業時間は公式一覧の表記）。都道府県は公式一覧の見出し（または住所）による。2026-11-12: 公式一覧に営業中として載り、店舗ページに「2026年11月4日グランドオープン」と表示された西武立川店（URL /studio/akishima/・アクロスプラザ昭島店2F）を追加（31店舗。住所・営業時間は公式一覧の表記・ほかの30店は URL 一致を確認）。
 // ⚠️ 値を手で書き足さない。更新するときは公式一覧を取り直して丸ごと置き換える（scripts/gen-official-store-lists-20261029.py の手順）。
 import type { OfficialStoreList } from './official-store-list-type'
 
 export const REPILATES_OFFICIAL: OfficialStoreList = {
-  asOf: '2026年11月2日',
+  asOf: '2026年11月12日',
   sourceLabel: "Repilates公式 店舗一覧",
   sourceUrl: "https://repilates.jp/studio/",
   extraLabel: undefined,
@@ -20,6 +20,7 @@ export const REPILATES_OFFICIAL: OfficialStoreList = {
     { pref: "千葉県", name: "Repilates イオンモール木更津店", access: "10:00〜21:00", address: "千葉県木更津市築地1−4 イオンモール木更津 2F", url: "https://repilates.jp/studio/kisarazu/" },
     { pref: "千葉県", name: "Repilates イオンタウン館山店", access: "10:00〜21:00", address: "千葉県館山市八幡545-1 イオンタウン館山 1F", url: "https://repilates.jp/studio/tateyama/" },
     { pref: "千葉県", name: "Repilates イオンモール銚子店", access: "10:00〜21:00", address: "千葉県銚子市三崎町2丁目2660-1", url: "https://repilates.jp/studio/choshi/" },
+    { pref: "東京都", name: "Repilates 西武立川店", access: "10:00〜21:00", address: "東京都昭島市武蔵野2丁目11-40 アクロスプラザ昭島店 2F", url: "https://repilates.jp/studio/akishima/" },
     { pref: "東京都", name: "Repilates フレスポ若葉台店", access: "9:00〜21:30", address: "東京都稲城市若葉台2丁目4-2 フレスポ若葉台WEST 2F 10番 （2F一番奥／個別教室のトライ横）", url: "https://repilates.jp/studio/wakabadai/" },
     { pref: "東京都", name: "Repilates アクロスモール八王子みなみ野店", access: "9:00〜21:00", address: "東京都八王子市みなみ野1丁目2-1 アクロスモール八王子みなみ野 2F", url: "https://repilates.jp/studio/hachioji/" },
     { pref: "東京都", name: "Repilates 池袋店", access: "9:00〜21:00", address: "東京都豊島区西池袋三丁目22番9号 パークアクシス池袋 1F", url: "https://repilates.jp/studio/ikebukuro/" },

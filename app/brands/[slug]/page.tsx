@@ -50,7 +50,7 @@ const OFFICIAL_STORE_LISTS: Record<string, { list: OfficialStoreList; heading: s
     heading: '全店舗一覧（公式・都道府県別{n}店舗と営業時間）',
     button: '公式の全{n}店舗（住所・営業時間つき）へ移動 ↓',
     intro: 'Repilates公式の店舗一覧に載っている営業中の全{n}店舗を、都道府県ごとに店舗名・営業時間・住所で掲載しています（{asOf}確認）。公式の一覧には最寄駅の表記がなく、イオンモール・イオンタウンなど商業施設内の店舗が多いため、住所の施設名で場所を確認できます。',
-    note: '館山・銚子・湘南モールフィルの3店は、公式の店舗ページに「2026年11月1日グランドオープン」と表示されているため営業中に含めています。公式の一覧には、このほかオープン予定の店舗が11店（アクロスプラザ昭島店〈店舗ページの表示は11月4日グランドオープン〉、2026年12月＝日生中央サピエ店・イオン浜松西店・イオンモールとなみ店、2027年1月＝イオンモール加西北条店・イオン高岡江尻店・ヤオコー岩槻本丸店・リーフウォーク稲沢店・トライアル南アルプス店、2027年2月＝イオンモール三川店、ほかに鹿嶋チェリオ店）載っています（この表には含めていません）。料金は全店共通の公式トップページの表記で、特定商取引法の表記には「価格は店舗により異なる」とあります。',
+    note: '館山・銚子・湘南モールフィルの3店は2026年11月1日、西武立川店（アクロスプラザ昭島店2F）は11月4日に公式の店舗ページでグランドオープンと表示されており、営業中に含めています。公式の一覧には、このほかオープン予定の店舗が10店（2026年12月＝日生中央サピエ店・イオン浜松西店・イオンモールとなみ店、2027年1月＝イオンモール加西北条店・イオン高岡江尻店・ヤオコー岩槻本丸店・リーフウォーク稲沢店・トライアル南アルプス店、2027年2月＝イオンモール三川店、ほかに鹿嶋チェリオ店〈公式の表示は「2026年2月新店舗OPEN」〉）載っています（この表には含めていません）。料金は全店共通の公式トップページの表記で、特定商取引法の表記には「価格は店舗により異なる」とあります。',
   },
   luluto: {
     list: LULUTO_OFFICIAL,
@@ -212,6 +212,43 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
           </h1>
           {brand.checkedAt && (
             <p className="text-xs text-warm-500 mb-6">料金・店舗数・規約の公式確認日: {brand.checkedAt}／口コミはGoogleマップの店舗ごとの要約（出典リンク付き）</p>
+          )}
+
+          {brand.quickPriceTable && (
+            <section className="bg-white border border-warm-200 mb-6" aria-label={`${brand.name}の料金早見表`}>
+              <h2 className="text-base font-medium text-warm-900 px-5 pt-4 pb-2">{brand.name}{brand.nameKana ? `（${brand.nameKana}）` : ''}の料金早見表（公式・{brand.quickPriceTable.checkedAt}確認）</h2>
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm">
+                  <thead>
+                    <tr className="border-y border-warm-200 text-left bg-warm-50">
+                      <th className="px-4 py-2 text-xs font-medium text-warm-500 whitespace-nowrap">項目</th>
+                      <th className="px-4 py-2 text-xs font-medium text-warm-500">料金（公式の表記）</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {brand.quickPriceTable.rows.map((r) => (
+                      <tr key={r.item} className="border-b border-warm-100 last:border-0">
+                        <th scope="row" className="px-4 py-2 text-left font-medium text-warm-800 whitespace-nowrap align-top">{r.item}</th>
+                        <td className="px-4 py-2 text-warm-800">
+                          {r.price}
+                          {r.note && <span className="block text-xs text-warm-500 font-light mt-0.5">{r.note}</span>}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <p className="text-[11px] text-warm-500 px-5 py-3 leading-relaxed">
+                {brand.quickPriceTable.note ? `${brand.quickPriceTable.note} ` : ''}出典：
+                {brand.quickPriceTable.sources.map((s, i) => (
+                  <span key={s.url}>
+                    {i > 0 && '／'}
+                    <a href={s.url} target="_blank" rel="noopener noreferrer" className="underline decoration-warm-300 hover:text-warm-800">{s.label}</a>
+                  </span>
+                ))}
+                （{brand.quickPriceTable.checkedAt}確認）
+              </p>
+            </section>
           )}
 
           {brand.quickAnswer && brand.quickAnswer.length > 0 && (
