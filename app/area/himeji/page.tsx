@@ -30,13 +30,13 @@ const studios = [
     description: '女性専用マシンピラティス専門スタジオです。ゆめタウン姫路内に位置し買い物ついでに通えます。音楽に合わせた楽しいレッスンが特徴',
     access: 'バス「北今宿南口（ゆめタウン前）」停留所 徒歩1分（ゆめタウン姫路6F・駐車場あり）', address: '〒670-0055 兵庫県姫路市神子岡前3丁目12-17 ゆめタウン姫路店6F',
     popularPlan: { name: 'マンスリー4メンバー', description: '月4回、平日・土日祝のお好きな時間で受講できます（別途施設維持費 月825円）。', price: '月4回 11,220円（税込）' },
-    options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
+    options: ['マンスリー4メンバー 月4回 11,220円（税込）', '施設維持費 月825円', '体験レッスン 0円（公式の店舗ページ・2026年11月12日確認）'],
     userProfile: { ageRange: '公式サイトに記載なし', genderRatio: '女性専用', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
     basicInfo: { hours: '火・金 10:00-15:00／17:30-22:00、水 10:00-14:00／17:30-22:00、木 17:30-22:00、土・祝 10:00-18:30、日 10:00-17:30', closed: '月曜日', facilities: ['リフォーマー'] },
   },
   {
     name: 'luluto（ルルト）姫路店', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808', image: '/images/studios/luluto.webp', rating: 4.8, reviewCount: 22,
-    price: '月3回 29,700円〜', trial: '公式の店舗一覧で体験受付停止中と表示（公式サイトでご確認ください）', features: ['完全マンツーマン','理学療法士監修','高品質指導','カスタマイズ'],
+    price: '月3回 29,700円〜', trial: '公式の店舗ページで「定員満了のため新規のお客様の受付を停止」と表示（2026年11月12日確認）', features: ['完全マンツーマン','理学療法士監修','高品質指導','カスタマイズ'],
     description: '全国展開の完全マンツーマンマシンピラティススタジオです。理学療法士が監修し実技試験に合格したトレーナーが指導',
     access: 'JR姫路駅から徒歩1分（公式の店舗一覧）',
     address: '兵庫県姫路市豊沢町156番地 アドバンスビル3A',
@@ -47,40 +47,46 @@ const studios = [
   },
   {
     name: 'Mstyle（エムスタイル）ピラティス', rating: 4.7, reviewCount: 28,
-    price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['助産師資格保有','はりま勝原駅近く','女性専門','マシン完備'],
-    description: '姫路市初のピラティス専用マシン完備の専門スタジオです。代表は助産師の資格を持つインストラクターで女性のライフステージに寄り添った指導が特徴',
-    access: 'JR「はりま勝原駅」徒歩圏内', address: '兵庫県姫路市（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: '人気プラン', description: '姫路市初のピラティス専用マシン完備の専門スタジオです。代表は助産師の資格を', price: '月額制（詳細は公式サイト）' },
-    options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
+    officialUrl: 'https://mstylepilates.com/',
+    // 2026-11-12 公式（トップ・/prices・/trial）で照合: 月額制ではなく回数券制・住所・徒歩8分・体験料金を公式どおりに
+    price: 'グループ1回 3,500円・5回券 15,000円〜（税込・回数券制）', trial: 'グループ体験 2,500円（45分・税込）／プライベート体験 6,600円〜', features: ['助産師資格保有','はりま勝原駅 徒歩8分','女性中心（男性は紹介でプライベート・セミプライベートのみ）','マシン完備'],
+    description: '姫路市初のピラティス専用マシン完備の専門スタジオです。代表は助産師の資格を持つインストラクターで女性のライフステージに寄り添った指導が特徴です。料金は月額制ではなく回数券制で、グループ（45分）は1回3,500円です（公式・税込・2026年11月12日確認）。',
+    access: 'JR「はりま勝原駅」徒歩8分（公式表記）', address: '兵庫県姫路市広畑区則直20番11',
+    popularPlan: { name: 'グループ 回数券', description: '45分のグループレッスンの回数券です。入会金5,000円・施設維持利用料 月300円がかかります（公式）。', price: '1回 3,500円／5回券 15,000円〜（税込）' },
+    options: ['グループ 1回 3,500円・5回券 15,000円〜・10回券 25,000円〜（税込）', 'プライベート 1回 8,800円〜10,000円（税込）', '入会金 5,000円・施設維持利用料 月300円（税込）', '体験当日に5回券を現金で購入すると1,000円引き（公式）'],
     userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
+    basicInfo: { hours: '月〜金 9:00〜17:00／日祝 縮小営業（公式）', closed: '公式サイトでご確認ください', facilities: ['リフォーマー', 'マット', '駐車場4台'] },
   },
   {
     name: 'ピラティススタジオ Rinc', rating: 4.6, reviewCount: 18,
-    price: 'パーソナル制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['本格PHIピラティス','ペアレッスン可','アメリカ輸入マシン','姿勢改善'],
-    description: 'アメリカから輸入した本格マシンを使用する姫路のピラティススタジオです。PHIピラティスの本格的なレッスンとペアレッスンも可能',
-    access: '姫路市内（詳細は公式サイトでご確認ください）', address: '兵庫県姫路市（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: '人気プラン', description: 'アメリカから輸入した本格マシンを使用する姫路のピラティススタジオです。PH', price: 'パーソナル制（詳細は公式サイト）' },
-    options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
+    officialUrl: 'https://pilates-rinc.com/',
+    // 2026-11-12 公式（トップ・/price/・体験ページ）で照合: 住所・徒歩・料金・体験・定休日を公式どおりに
+    price: 'プライベート1回 11,000円／ペア1回 7,150円（1人）（税込・回数券制）', trial: 'プライベート体験 13,200円／ペア体験 7,700円（1人・税込）', features: ['本格PHIピラティス','ペアレッスン可','山陽姫路駅 徒歩2分','姿勢改善'],
+    description: 'アメリカから輸入した本格マシンを使用する姫路のピラティススタジオです。PHIピラティスのレッスンとペアレッスンがあります。料金は月額制ではなく1回ごと・回数券で、プライベート1回11,000円・ペア1回7,150円（1人）です（公式・税込・2026年11月12日確認）。',
+    access: 'JR姫路駅 徒歩5分・山陽電鉄「山陽姫路駅」徒歩2分（公式表記）', address: '兵庫県姫路市南町76 姫路城陽ビル3F',
+    popularPlan: { name: 'プライベート（50分）', description: 'マンツーマンのマシンピラティスです。入会金5,500円がかかります（公式）。', price: '1回 11,000円（税込）' },
+    options: ['ペア 1回 7,150円（1人・税込）', 'グループ（会員のみ・45分）1回 3,850円・10回券 27,500円（税込）', '入会金 5,500円（税込）', '土曜は新規受付を制限中（公式のお知らせ）'],
     userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
+    basicInfo: { hours: '10:00〜21:00（公式）', closed: '日曜日', facilities: ['リフォーマー', 'マット'] },
   },
   {
     name: 'TONING UP', rating: 4.5, reviewCount: 15,
-    price: '月額制（詳細は公式サイト）', trial: '体験レッスンあり', features: ['最大6名少人数制','レベル別クラス','プライベートあり','姫路駅近く'],
-    description: 'グループレッスン最大6名の少人数制スタジオです。レベル別・効果別など様々なスタイルでレッスンを提供',
-    access: '姫路市内（詳細は公式サイトでご確認ください）', address: '兵庫県姫路市（詳細は公式サイトでご確認ください）',
-    popularPlan: { name: '人気プラン', description: 'グループレッスン最大6名の少人数制スタジオです。レベル別・効果別など様々な', price: '月額制（詳細は公式サイト）' },
-    options: ['体験レッスン', '月額プラン', '回数券', '入会金キャンペーン'],
+    officialUrl: 'http://www.toning-up.com/',
+    // 2026-11-12 公式で照合: 回数券制・住所・体験料金・定休日（公式に最寄駅・徒歩の記載なし）
+    price: 'グループ1回 4,950円・10回券 44,000円（税込・回数券制）', trial: 'グループ体験 3,300円／セミプライベート 4,400円／プライベート 6,600円（税込）', features: ['少人数制グループ（料金表の定員5名）','レベル別クラス','プライベートあり','セミプライベートあり'],
+    description: '少人数制のグループレッスン（料金表の定員は5名）と、セミプライベート・プライベートがあるスタジオです。料金は月額制ではなく1回ごと・回数券で、グループ60分は1回4,950円です（公式・税込・2026年11月12日確認）。',
+    access: '公式サイトに最寄駅・徒歩分の記載なし（住所は八代緑ヶ丘町）', address: '兵庫県姫路市八代緑ヶ丘町3-6',
+    popularPlan: { name: 'グループレッスン（60分）', description: 'レベル別・効果別のグループレッスンです。', price: '1回 4,950円／10回券 44,000円（税込）' },
+    options: ['セミプライベート 1人 7,150円（税込）', 'プライベート 9,900円（税込）'],
     userProfile: { ageRange: '20代〜50代が中心', purpose: ['姿勢改善', 'ボディメイク', 'ダイエット', '健康維持'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '不定休', facilities: ['リフォーマー', 'マット', '更衣室', 'ロッカー'] },
+    basicInfo: { hours: '受付 10:00〜18:00（公式）', closed: '日曜・祝日', facilities: ['リフォーマー', 'マット'] },
   }
 ]
 
 const faqs = [
   { question: 'ピラティス初心者でも大丈夫ですか？', answer: '問題ありません。姫路エリアのスタジオはほとんどが初心者歓迎です。体験レッスンから気軽に始められます。' },
   { question: 'マットピラティスとマシンピラティスの違いは？', answer: 'マットは自重エクササイズ、マシンはリフォーマー等の専用マシンを使用しています。マシンは負荷を調整しやすく、初心者におすすめです。' },
-  { question: '姫路のピラティスの料金相場は？', answer: 'グループ月4回で11,220円〜程度です。パーソナルは1回 8,000円〜15,000円が目安です。' },
+  { question: '姫路のピラティスの料金相場は？', answer: 'グループ月4回で11,220円〜程度です。パーソナルは掲載店の公式値で1回 8,800円〜11,000円です（2026年11月12日確認）。' },
   { question: 'どのくらいの頻度で通えばいいですか？', answer: '初心者は週1〜2回がおすすめです。慣れてきたら週2〜3回が目安です。大切なのは継続することです。' },
   { question: 'ピラティスで痩せますか？', answer: 'インナーマッスルを鍛えることで基礎代謝が上がり、太りにくい体質づくりにつながります。2〜3ヶ月の継続が大切です。' },
   { question: '体験レッスンは何を持っていけばいいですか？', answer: '動きやすい服装と飲み物があれば問題ありません。靴下（滑り止め付き推奨）も用意しておくと安心です。' },
@@ -101,8 +107,15 @@ export default function HimejiPage() {
         { name: '姫路', url: 'https://biyori-pilates.com/area/himeji/' },
       ]} />
       <main className="pt-20 bg-white">
-        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">ピラティス姫路おすすめ5選<br className="hidden md:block" />料金・体験レッスン・マシン対応を比較</h1></div></section>
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年11月12日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">ピラティス姫路おすすめ5選<br className="hidden md:block" />料金・体験レッスン・マシン対応を比較</h1></div></section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">姫路</span></nav></div></section>
+        <section className="py-8 bg-white" id="by-station"><div className="max-w-5xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">姫路のピラティス早見表（最寄駅・料金の下限・体験）</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">掲載5店の最寄駅・料金・体験料金を、各スタジオの公式サイトの表記で並べました（2026年11月12日確認・税込）。月額制はピラティスK・ルルトの2店で、ほかの3店は1回ごと・回数券の料金です。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">最寄駅・徒歩</th><th className="px-4 py-3 text-left">料金の下限</th><th className="px-4 py-3 text-left">体験</th></tr></thead><tbody>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">ピラティスK ゆめタウン姫路店（神子岡前3-12-17 ゆめタウン姫路6F）</td><td className="px-4 py-3">バス「北今宿南口（ゆめタウン前）」徒歩1分</td><td className="px-4 py-3">月4回 11,220円（ほかに施設維持費 月825円）</td><td className="px-4 py-3">0円</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">luluto（ルルト）姫路店（豊沢町156 アドバンスビル3A）</td><td className="px-4 py-3">JR姫路駅 徒歩1分</td><td className="px-4 py-3">月3回 29,700円</td><td className="px-4 py-3">新規受付を停止中（定員満了）</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">ピラティススタジオ Rinc（南町76 姫路城陽ビル3F）</td><td className="px-4 py-3">山陽姫路駅 徒歩2分・JR姫路駅 徒歩5分</td><td className="px-4 py-3">ペア 1回 7,150円（1人）／プライベート 1回 11,000円</td><td className="px-4 py-3">ペア 7,700円（1人）／プライベート 13,200円</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Mstyle ピラティス（広畑区則直20-11）</td><td className="px-4 py-3">JRはりま勝原駅 徒歩8分</td><td className="px-4 py-3">グループ 1回 3,500円（5回券 15,000円〜）</td><td className="px-4 py-3">グループ 2,500円（45分）</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">TONING UP（八代緑ヶ丘町3-6）</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">グループ 1回 4,950円（10回券 44,000円）</td><td className="px-4 py-3">グループ 3,300円</td></tr>
+        </tbody></table></div><p className="text-warm-500 text-xs mt-4 leading-relaxed">確認した公式ページ: ピラティスK（pilates-k.jp/studio/hyogo/himeji）、ルルト（luluto.kabushikigaisya-rigakubody.co.jp/tenpo/pilates_himeji/）、Rinc（pilates-rinc.com）、Mstyle（mstylepilates.com）、TONING UP（toning-up.com）。料金・キャンペーンは変更されることがあるため、予約前に公式サイトをご確認ください。</p></div></section>
         <AreaConclusion studios={studios} areaName="姫路" />
 
         <TableOfContents areaName="姫路" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
@@ -157,7 +170,7 @@ export default function HimejiPage() {
                 <ul className="space-y-2 text-sm"><li className="text-warm-700">• luluto（理学療法士監修・マンツーマン）</li><li className="text-warm-700">• Rinc（本格PHIピラティス）</li></ul>
               </div>
             </div></div></section>
-        <section className="py-16 bg-warm-50" id="price-market"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">姫路のピラティス料金相場</h2><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">種別</th><th className="px-4 py-3 text-left">料金相場</th></tr></thead><tbody><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4回）</td><td className="px-4 py-3">11,220円〜</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">パーソナルレッスン</td><td className="px-4 py-3">1回 8,000円〜15,000円</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">無料〜5,000円</td></tr></tbody></table></div><p className="text-warm-600 mt-4 text-sm leading-relaxed">姫路は兵庫県第2の都市で、JR姫路駅周辺にスタジオが集まっています。大阪・神戸と比べて料金はリーズナブルな傾向です。個人経営の個性的なスタジオが多く、助産師やPHIピラティスの資格を持つ専門家による指導が受けられるのが特徴です。</p></div></section>
+        <section className="py-16 bg-warm-50" id="price-market"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">姫路のピラティス料金相場</h2><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">種別</th><th className="px-4 py-3 text-left">料金相場</th></tr></thead><tbody><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4回）</td><td className="px-4 py-3">11,220円〜</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">パーソナルレッスン</td><td className="px-4 py-3">1回 8,800円〜11,000円（掲載店の公式値）</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">0円〜13,200円（掲載店の公式値・2026年11月12日確認）</td></tr></tbody></table></div><p className="text-warm-600 mt-4 text-sm leading-relaxed">姫路は兵庫県第2の都市で、JR姫路駅周辺にスタジオが集まっています。大阪・神戸と比べて料金はリーズナブルな傾向です。個人経営の個性的なスタジオが多く、助産師やPHIピラティスの資格を持つ専門家による指導が受けられるのが特徴です。</p></div></section>
         <section className="py-16 bg-white" id="cautions"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">姫路でスタジオを選ぶ際の注意点</h2><div className="space-y-6">
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">JR姫路駅と山陽姫路駅は隣接</h3>
@@ -180,7 +193,7 @@ export default function HimejiPage() {
         <section className="py-16 bg-white" id="how-to-choose"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">失敗しないスタジオの選び方</h2><div className="space-y-8"><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span><h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3></div><p className="text-warm-600 leading-relaxed">ダイエット、姿勢改善、体幹強化など目的によって最適なスタジオは変わります。</p></div><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">予算を決める</h3></div><p className="text-warm-600 leading-relaxed">姫路の料金相場はグループ月4回で11,220円〜です。入会金やキャンペーンもご確認ください。</p></div><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">複数のスタジオで体験レッスンを受けて比較することをおすすめします。</p></div><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div><p className="text-warm-600 leading-relaxed">自宅や職場からの距離、駅からの徒歩時間をご確認ください。継続するには通いやすさが最も重要です。</p></div></div></div></section>
         <section className="py-16 bg-warm-50" id="faq"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">よくある質問</h2><div className="space-y-6">{faqs.map((faq, index) => (<div key={index} className="border border-warm-200 rounded-lg overflow-hidden"><details className="group"><summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition"><h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3><svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"/></svg></summary><div className="px-6 pb-6 text-warm-600 leading-relaxed">{faq.answer}</div></details></div>))}</div></div></section>
         <section className="py-16 bg-white" id="summary"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2><p className="text-warm-600 leading-relaxed mb-6">本ページでは、姫路エリアのおすすめピラティススタジオについてご紹介しました。</p><p className="text-warm-600 leading-relaxed mb-6">本ページでは、姫路にあるピラティススタジオから選んだスタジオを掲載しています。スタジオ選びの際の候補としてご活用ください。</p><p className="text-warm-600 leading-relaxed mb-6">本ページの情報を、スタジオ選びにお役立てください。</p><p className="text-warm-700 font-medium text-center">本ページが、ピラティススタジオ選びの参考になれば幸いです。</p></div></section>
-        <section className="py-16 bg-warm-800 text-white" id="contact"><div className="max-w-4xl mx-auto px-6 lg:px-8 text-center"><h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンのご予約</h2><p className="text-warm-200 mb-8 leading-relaxed">初回限定の体験レッスン無料〜5,000円です。<br />まずは体験レッスンへの参加をおすすめします。</p><Link href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded">おすすめスタジオ一覧に戻る</Link></div></section>
+        <section className="py-16 bg-warm-800 text-white" id="contact"><div className="max-w-4xl mx-auto px-6 lg:px-8 text-center"><h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンのご予約</h2><p className="text-warm-200 mb-8 leading-relaxed">体験レッスンは0円（ピラティスK）から、プライベート体験13,200円（Rinc）まで店ごとに異なります（2026年11月12日 各公式）。<br />まずは体験レッスンへの参加をおすすめします。</p><Link href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded">おすすめスタジオ一覧に戻る</Link></div></section>
               <AreaModifierSections studios={studios} areaName="姫路" />
       </main>
       {/* AIスタジオ相談（遅延ロード・エリア自動セット） */}
