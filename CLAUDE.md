@@ -1464,3 +1464,10 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - pilates-online: 冒頭（結論の前）に11サービスの料金早見表。UCHIYOGA+ 冬特別割1,080円（2027/1/8まで）を表に併記、momefit 50分は公式内で2通りの表記を注記。online-pilates-koka は冒頭（h1 直下）に既に主（pilates-online）への導線があるため不変
 - next build 直接・sitemap は5頁のみ 11-12（naha は前の回で 11-12）。precheck ✅ 589頁・計測リンク deploy 3,798→3,798・src 1,923→1,923・functions/api 4本保全・text 変更は6頁のみ
 - （続き2・source 53d2d818 / deploy 7c347f3fd3）那覇 FAQ「ピラティスAXE は男性も通えます」→グループは女性限定・男性はパーソナル（男女とも対象）のみ（pilatesaxe.jp/naha-shintoshin/ 11/12。FAQSchema も同じ faqs）。Rintosull カードの「3ヶ月間月額1,980円」は公式店舗ページで確認＝利用開始月を含む3ヶ月間・全店通い放題コース（通常16,800円）・当日登録・特別価格終了後12ヶ月継続が条件、と明記。text 変更は naha のみ・計測リンク 3,798→3,798
+
+### 2026-11-13 朝ルーチン: BREST モニター募集は継続・pilates-yoga-difference の出典なし★削除・aggregate の zen 16行（source 54e9552b / deploy 980c29b167）
+- BREST（11/13 09:16 公式直・brest-gym.jp/studio/{hongo-sanchome,daikanyama,futakotamagawa,chigasaki,sagamiono,awaji,gofukumachi}/）: 7店とも「モニター会員募集」バナー（banner-1_monitor_500.png・Last-Modified 10/29・100,761 bytes＝同じ画像）継続、終了/締切の表記なし→カードは戻さない。店舗別月額は 11/12 と同じ（3店＝20,680/25,080/41,580/47,080、4店＝22,880）。/news/ 最新 11/10＝改定告知なし→未変更
+- C6 pilates-yoga-difference: 「効果の違い」表の 筋力/柔軟性/リラックス/ダイエット 4行（★8セル・出典も基準もなし）を削除、「主な効果」行は残す・updatedAt 11-13。ページに残る★4個は LAVA PR 枠（ASP 提供の広告文「★日本最大級！…★」）で評価ではない
+- brands-aggregate.json の zen 16行（茅ヶ崎・流山おおたかの森・豊中・京都西院・本郷三丁目・堺東・南森町・大泉学園・大森・駒込・西葛西・上大岡・湘南台・津田沼・塚口・所沢）を公式店舗ページ（zenplace.co.jp/studios/pilates-{chigasaki,nagareyamaotakanomori,toyonaka,kyotosaiin,hongo,sakaihigashi,minamimorimachi,oizumigakuen,omori,komagome,nishikasai,kamiooka,shonandai,tsudanuma,tsukaguchi,tokorozawa} 11/13）の値に＝マット初回1,000円（通常2,200円〜:9店／3,300円〜:7店）・マシン初回3,000円（通常5,000円〜）。area-studios は 11/8 に同値で更新済み。/brands/zen-place/ の表示は「あり」のままで本文の変化なし（sitemap lastmod は据え置き）。⚠️南森町の店舗紹介文に「※マシングループはありません」とあり、同ページのレッスン一覧（マシングループ 体験3,000円）と公式内で不一致
+- /brands/ C5 は判断待ちで title 不変、/editors/ C3 は読者を指す文（「通っている方」）の誤検知
+- next build 直接・sitemap は pilates-yoga-difference のみ 11-13。precheck ✅・計測リンク out/deploy 4,080→4,080・src 1,951→1,951・functions/api 4本保全・text 変更は1頁のみ
