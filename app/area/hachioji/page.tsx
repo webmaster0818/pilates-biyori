@@ -39,7 +39,7 @@ const studios = [
       'マンスリー8メンバー（月8回 16,170円）',
       'マンスリーデイメンバー（14,520円・2026年5月1日で新規受付終了）',
       '追加受講（1回 2,200円）',
-      '入会金 5,500円・施設使用料 2,530円（ほか月会費に施設維持費 月825円）',
+      '初期費用 13,530円（入会金 5,500円・登録料 5,500円・施設利用料 2,530円。ほか月会費に施設維持費 月825円）',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
@@ -64,13 +64,13 @@ const studios = [
     access: 'JR「八王子駅」北口 徒歩1分 / 京王線「京王八王子駅」出入口2より徒歩6分',
     address: '東京都八王子市旭町7-1 豊栄第一ビル 4F',
     popularPlan: {
-      name: 'マンスリー4（月4回）',
+      name: '４・フルタイム（月4回）',
       description: '女性専用マシンピラティス月4回です。',
       price: '月4回 8,800円〜（税込）',
     },
     options: [
-      '通い放題プラン（13,800円〜）',
-      '全店通い放題プレミアム（16,800円）',
+      'ライト・フルタイム（13,800円・八王子店＋1店舗で通い放題）',
+      'プレミアム フリー・フルタイム（16,800円・Rintosull系列全店）',
       '運営管理費（月680円）',
       '入会金・登録金 各5,000円（体験当日の入会で0円）・施設使用料 2,500円',
     ],
@@ -80,8 +80,8 @@ const studios = [
       purpose: ['ボディメイク', '姿勢改善', 'ダイエット', '運動不足解消'],
     },
     basicInfo: {
-      // 定休日・アクセス: 公式店舗ページ https://rintosull.jp/shop/tokyo/hachioji/ で確認（2026-10-25）。営業時間は公式に記載なし
-      hours: '公式サイトでご確認ください',
+      // 定休日・アクセス: 公式店舗ページ https://rintosull.jp/shop/tokyo/hachioji/ で確認（2026-10-25）。営業時間は 2026-11-13 に公式掲載を確認
+      hours: '月〜金 8:50〜22:20／土・祝 7:20〜22:00／日 8:30〜16:30（公式の表記。定休日は毎週日曜・第4木曜とも記載）',
       closed: '毎週日曜・第4木曜',
       facilities: ['リフォーマーマシン', '更衣室', 'ロッカー'],
     },
@@ -90,7 +90,7 @@ const studios = [
     name: 'STUDIO IVY 八王子店',
     image: '/images/studios/studio-ivy.webp',
     price: '月2回 15,000円 / 月4回 28,000円 / 月8回 52,000円',
-    trial: '初回体験レッスン 4,500円（公式店舗ページでは体験コースが「新規受付停止中」・2026年10月25日確認）',
+    trial: '初回体験 無料（キャンペーン 11/11〜11/30・通常 4,500円・公式の店舗ページ 2026年11月13日確認）',
     features: ['パーソナルマシンピラティス', '八王子駅近', 'オーダーメイド', '完全マンツーマン'],
     description: 'パーソナルマシンピラティス専門スタジオです。「なりたい理想の自分」を叶える場所として洗練された空間を提供しています。インストラクターと1対1で、姿勢改善・ダイエット・骨盤矯正など一人ひとりの悩みに沿ったオーダーメイドプログラムです。',
     access: 'JR中央線「八王子駅」徒歩4分 / 京王線「京王八王子駅」徒歩4分',
@@ -101,8 +101,8 @@ const studios = [
       price: '月4回 28,000円（税込）',
     },
     options: [
-      '体験レッスン（4,500円）',
-      '月謝制プラン（月2回 15,000円〜月8回 52,000円・1回あたり6,500円〜）',
+      '初回体験（11/30まで無料・通常4,500円）',
+      '月謝制プラン（月2回 15,000円〜月12回 75,000円・1回あたり6,250円〜）',
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
@@ -150,7 +150,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=J11817X.1.B1620582.U1357808',
     image: '/images/studios/247-pilates.webp',
     price: '月2回 14,500円〜 / 月4回 27,000円〜 / 月8回 52,000円〜（税込）',
-    trial: '体験レッスン 無料（説明含め約60分・手ぶらで参加可能）',
+    trial: '体験レッスン 無料（1レッスン50分・手ぶらで参加可能）',
     features: ['マシンピラティス', '女性専用', '完全個室パーソナル', '入会金不要・月謝制'],
     description: '完全個室・マンツーマンの女性専用パーソナルピラティススタジオです。入会金不要の月謝制で、一人ひとりに合わせたオリジナルプログラムを提供しています。八王子駅から徒歩3分です。',
     access: '八王子駅から徒歩3分',
@@ -212,7 +212,7 @@ const faqs = [
   },
   {
     question: '無料で体験できるスタジオは？',
-    answer: 'ピラティスK、Rintosullは無料体験があります。STUDIO IVYは体験4,500円です。',
+    answer: 'ピラティスK、Rintosullは無料体験があります。STUDIO IVYは11月30日まで初回体験が無料（通常4,500円）です。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -235,13 +235,26 @@ export default function HachiojiPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月13日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               八王子のピラティスおすすめ5選<br className="hidden md:block" />
               駅徒歩・体験料金・定休日の比較
             </h1>
           </div>
         </section>
+
+        <section className="py-12 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">八王子駅からの徒歩分で比べるおすすめピラティス早見表</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">「八王子 ピラティス おすすめ」で探す方向けに、掲載5店をJR八王子駅から近い順に並べ、下のカードに無い4店（KASANE・La pilates・WELL PILATES・ルルト）を後ろに加えました。徒歩分・住所・月額・体験料金・営業時間・定休日は各スタジオの公式サイトの表記です（2026年10月25日確認、月額・体験・Rintosull と STUDIO IVY の営業/体験は11月13日に再確認）。公式に記載がない項目は「公式に記載なし」としています。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">JR八王子駅から</th><th className="px-4 py-3 text-left">京王八王子駅から</th><th className="px-4 py-3 text-left">形式（マシン/マット）</th><th className="px-4 py-3 text-left">月額の下限</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">営業時間</th><th className="px-4 py-3 text-left">定休日</th></tr></thead><tbody>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ピラティスK 八王子オクトーレ店（旭町9-1 八王子オクトーレ6F）</td><td className="px-4 py-3">北口 徒歩約1分（マルベリーブリッジ直結）</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">マシン（リフォーマー）グループ・女性専用</td><td className="px-4 py-3">マンスリー4 13,420円（税込・別途施設維持費 月825円）</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">火水金 10:00-15:00／17:00-21:30・木 17:00-21:30・土祝 10:00-19:00・日 10:00-17:30</td><td className="px-4 py-3">月曜</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Rintosull 八王子店（旭町7-1 豊栄第一ビル4F）</td><td className="px-4 py-3">北口 徒歩1分</td><td className="px-4 py-3">出入口2 徒歩6分</td><td className="px-4 py-3">マシン（リフォーマー）グループ・女性専用</td><td className="px-4 py-3">4・フルタイム 8,800円（税込・別途運営管理費 月680円）</td><td className="px-4 py-3">無料（約45分・ウェア/ソックス無料レンタル）</td><td className="px-4 py-3">月〜金 8:50-22:20・土祝 7:20-22:00・日 8:30-16:30（公式の表記。日曜は定休とも記載）</td><td className="px-4 py-3">毎週日曜・第4木曜</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">24/7ピラティス 八王子店（東町12-8 長澤ビル3F）</td><td className="px-4 py-3">徒歩3分</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">マシン・完全個室パーソナル・女性専用</td><td className="px-4 py-3">月2回 14,500円〜（税込）</td><td className="px-4 py-3">無料（手ぶら可）</td><td className="px-4 py-3">8:00-21:00（日により変動）</td><td className="px-4 py-3">公式に記載なし</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">STUDIO IVY 八王子店（明神町3-14-7 廣井貸店舗2F）</td><td className="px-4 py-3">徒歩4分</td><td className="px-4 py-3">徒歩4分</td><td className="px-4 py-3">マシン・パーソナル（男性可）</td><td className="px-4 py-3">月2回 15,000円（税込）</td><td className="px-4 py-3">11/30まで無料（通常 4,500円・キャンペーン 11/11〜11/30）</td><td className="px-4 py-3">8:00-21:00</td><td className="px-4 py-3">公式に記載なし</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Studio TAKT EIGHT（横山町2-7 石川ビル4F・5F）</td><td className="px-4 py-3">公式に徒歩分の記載なし</td><td className="px-4 py-3">公式に徒歩分の記載なし</td><td className="px-4 py-3">少人数グループ（ヨガ・ピラティス・マットはレンタル込み）・パーソナル（男性可）</td><td className="px-4 py-3">月額制なし（10回券 15,000円・1ヶ月有効）</td><td className="px-4 py-3">グループ初回 1,650円</td><td className="px-4 py-3">公式に記載なし（電話受付 月〜金 10:00-18:00）</td><td className="px-4 py-3">公式に記載なし</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Pilates KASANE 八王子店（明神町4-7-1 京王駅前ビル7F）<br /><span className="text-xs text-warm-500">※下のカードには未掲載（10月26日追加）</span></td><td className="px-4 py-3">約5分</td><td className="px-4 py-3">約1分</td><td className="px-4 py-3">マシン（リフォーマー）少人数グループ（店舗ページの設備表示は「パーソナルレッスンなし」・男性更衣室あり）</td><td className="px-4 py-3">月4回 15,400円（税込・ブランドの料金ページ）</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">8:00-21:00</td><td className="px-4 py-3">年中無休</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">La pilates 八王子店（中町4-10 ニュー紅洋ビル3F-A）<br /><span className="text-xs text-warm-500">※下のカードには未掲載（10月26日追加）</span></td><td className="px-4 py-3">徒歩5分</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">マシン・パーソナル（女性専用）／月1回12,000円・月2回22,000円・月4回40,000円</td><td className="px-4 py-3">月1回 12,000円（税込・別途年会費 10,000円）</td><td className="px-4 py-3">初回3,000円（通常14,000円）</td><td className="px-4 py-3">9:00-21:00（最終受付20:00）</td><td className="px-4 py-3">年末年始</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">WELL PILATES 八王子店（中町8-3 CISビル702）<br /><span className="text-xs text-warm-500">※下のカードには未掲載（10月26日追加）</span></td><td className="px-4 py-3">徒歩5分</td><td className="px-4 py-3">徒歩9分</td><td className="px-4 py-3">マシン（リフォーマー）・プライベート（男性可）</td><td className="px-4 py-3">レギュラー月4回 36,520円（ライト月2回 18,720円は4ヶ月目から）</td><td className="px-4 py-3">980円（50分・通常11,000円）</td><td className="px-4 py-3">8:00-22:00</td><td className="px-4 py-3">公式に記載なし</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ルルト 八王子店（横山町25-9 ツカキスクエア4階）<br /><span className="text-xs text-warm-500">※下のカードには未掲載（10月26日追加）</span></td><td className="px-4 py-3">約6分</td><td className="px-4 py-3">約5分</td><td className="px-4 py-3">マシン（リフォーマー・キャデラック・チェア）マンツーマン</td><td className="px-4 py-3">月3回 29,700円（月4回 38,400円）</td><td className="px-4 py-3">3,000円（45分・平日のみ。土日祝の体験は受付停止中）</td><td className="px-4 py-3">9:00-21:00</td><td className="px-4 py-3">公式に記載なし</td></tr>
+        </tbody></table></div><p className="text-warm-600 leading-relaxed mt-4 text-sm">駅北口から1分圏で女性専用のマシングループに通うなら ピラティスK（月4回 13,420円）・Rintosull（月4回 8,800円）、完全個室のマンツーマンなら 24/7ピラティス（月2回 14,500円〜）が候補です。男性も通えるのは STUDIO IVY と Studio TAKT EIGHT です。京王八王子駅を使う方は、Rintosull（出入口2から徒歩6分）や STUDIO IVY（徒歩4分）もご確認ください。月曜はピラティスK、日曜はRintosullが休みのため、通う曜日に合わせてお選びください。京王八王子駅のすぐそばで曜日を問わず通いたい場合は、年中無休の KASANE（京王八王子駅 約1分）も候補です。</p><p className="text-warm-500 leading-relaxed mt-2 text-xs">追加した4店の確認元（2026年10月26日）: <a href="https://pilates-kasane.jp/studio/studio-hachioji/" target="_blank" rel="noopener" className="underline">Pilates KASANE 八王子店</a>／<a href="https://la-pilates.jp/studio/hachioji/" target="_blank" rel="noopener" className="underline">La pilates 八王子店</a>／<a href="https://well-pilates.jp/location/hachioji/" target="_blank" rel="noopener" className="underline">WELL PILATES 八王子店</a>／<a href="https://luluto.kabushikigaisya-rigakubody.co.jp/tenpo/pilates_hachioji/" target="_blank" rel="noopener" className="underline">ルルト 八王子店</a>。Olive pilates は公式の店舗一覧が新宿のみ、Repilates の八王子の店舗は八王子みなみ野駅側のため載せていません。</p></div></section>
+
 
         {/* Breadcrumbs */}
         <section className="bg-white py-3 border-b border-warm-100">
@@ -295,17 +308,7 @@ export default function HachiojiPage() {
           </div>
         </section>
 
-        <section className="py-12 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">八王子駅からの徒歩分で比べるおすすめピラティス早見表</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">「八王子 ピラティス おすすめ」で探す方向けに、掲載5店をJR八王子駅から近い順に並べ、下のカードに無い4店（KASANE・La pilates・WELL PILATES・ルルト）を後ろに加えました。徒歩分・住所・体験料金・営業時間・定休日は各スタジオの公式サイトの表記です（2026年10月25日確認・税込）。公式に記載がない項目は「公式に記載なし」としています。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">JR八王子駅から</th><th className="px-4 py-3 text-left">京王八王子駅から</th><th className="px-4 py-3 text-left">形式（マシン/マット）</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">営業時間</th><th className="px-4 py-3 text-left">定休日</th></tr></thead><tbody>
-          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ピラティスK 八王子オクトーレ店（旭町9-1 八王子オクトーレ6F）</td><td className="px-4 py-3">北口 徒歩約1分（マルベリーブリッジ直結）</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">マシン（リフォーマー）グループ・女性専用</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">火水金 10:00-15:00／17:00-21:30・木 17:00-21:30・土祝 10:00-19:00・日 10:00-17:30</td><td className="px-4 py-3">月曜</td></tr>
-          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Rintosull 八王子店（旭町7-1 豊栄第一ビル4F）</td><td className="px-4 py-3">北口 徒歩1分</td><td className="px-4 py-3">出入口2 徒歩6分</td><td className="px-4 py-3">マシン（リフォーマー）グループ・女性専用</td><td className="px-4 py-3">無料（約45分・ウェア/ソックス無料レンタル）</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">毎週日曜・第4木曜</td></tr>
-          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">24/7ピラティス 八王子店（東町12-8 長澤ビル3F）</td><td className="px-4 py-3">徒歩3分</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">マシン・完全個室パーソナル・女性専用</td><td className="px-4 py-3">無料（手ぶら可）</td><td className="px-4 py-3">8:00-21:00（日により変動）</td><td className="px-4 py-3">公式に記載なし</td></tr>
-          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">STUDIO IVY 八王子店（明神町3-14-7 廣井貸店舗2F）</td><td className="px-4 py-3">徒歩4分</td><td className="px-4 py-3">徒歩4分</td><td className="px-4 py-3">マシン・パーソナル（男性可）</td><td className="px-4 py-3">4,500円（体験コースは新規受付停止中）</td><td className="px-4 py-3">8:00-21:00</td><td className="px-4 py-3">公式に記載なし</td></tr>
-          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Studio TAKT EIGHT（横山町2-7 石川ビル4F・5F）</td><td className="px-4 py-3">公式に徒歩分の記載なし</td><td className="px-4 py-3">公式に徒歩分の記載なし</td><td className="px-4 py-3">少人数グループ（ヨガ・ピラティス・マットはレンタル込み）・パーソナル（男性可）</td><td className="px-4 py-3">グループ初回 1,650円</td><td className="px-4 py-3">公式に記載なし（電話受付 月〜金 10:00-18:00）</td><td className="px-4 py-3">公式に記載なし</td></tr>
-          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Pilates KASANE 八王子店（明神町4-7-1 京王駅前ビル7F）<br /><span className="text-xs text-warm-500">※下のカードには未掲載（10月26日追加）</span></td><td className="px-4 py-3">約5分</td><td className="px-4 py-3">約1分</td><td className="px-4 py-3">マシン（リフォーマー）少人数グループ・パーソナル（男性更衣室あり）</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">8:00-21:00</td><td className="px-4 py-3">年中無休</td></tr>
-          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">La pilates 八王子店（中町4-10 ニュー紅洋ビル3F-A）<br /><span className="text-xs text-warm-500">※下のカードには未掲載（10月26日追加）</span></td><td className="px-4 py-3">徒歩5分</td><td className="px-4 py-3">公式に記載なし</td><td className="px-4 py-3">マシン・パーソナル（女性専用）／月1回12,000円・月2回22,000円・月4回40,000円</td><td className="px-4 py-3">初回3,000円（通常14,000円）</td><td className="px-4 py-3">9:00-21:00（最終受付20:00）</td><td className="px-4 py-3">年末年始</td></tr>
-          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">WELL PILATES 八王子店（中町8-3 CISビル702）<br /><span className="text-xs text-warm-500">※下のカードには未掲載（10月26日追加）</span></td><td className="px-4 py-3">徒歩5分</td><td className="px-4 py-3">徒歩9分</td><td className="px-4 py-3">マシン（リフォーマー）・プライベート（男性可）</td><td className="px-4 py-3">980円（50分・通常11,000円）</td><td className="px-4 py-3">8:00-22:00</td><td className="px-4 py-3">公式に記載なし</td></tr>
-          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ルルト 八王子店（横山町25-9 ツカキスクエア4階）<br /><span className="text-xs text-warm-500">※下のカードには未掲載（10月26日追加）</span></td><td className="px-4 py-3">約6分</td><td className="px-4 py-3">約5分</td><td className="px-4 py-3">マシン（リフォーマー・キャデラック・チェア）マンツーマン／月4回38,400円</td><td className="px-4 py-3">3,000円（45分・平日のみ。土日祝の体験は受付停止中）</td><td className="px-4 py-3">9:00-21:00</td><td className="px-4 py-3">公式に記載なし</td></tr>
-        </tbody></table></div><p className="text-warm-600 leading-relaxed mt-4 text-sm">駅北口から1分圏で女性専用のマシングループに通うなら ピラティスK（月4回 13,420円）・Rintosull（月4回 8,800円）、完全個室のマンツーマンなら 24/7ピラティス（月2回 14,500円〜）が候補です。男性も通えるのは STUDIO IVY と Studio TAKT EIGHT です。京王八王子駅を使う方は、Rintosull（出入口2から徒歩6分）や STUDIO IVY（徒歩4分）もご確認ください。月曜はピラティスK、日曜はRintosullが休みのため、通う曜日に合わせてお選びください。京王八王子駅のすぐそばで曜日を問わず通いたい場合は、年中無休の KASANE（京王八王子駅 約1分）も候補です。</p><p className="text-warm-500 leading-relaxed mt-2 text-xs">追加した4店の確認元（2026年10月26日）: <a href="https://pilates-kasane.jp/studio/studio-hachioji/" target="_blank" rel="noopener" className="underline">Pilates KASANE 八王子店</a>／<a href="https://la-pilates.jp/studio/hachioji/" target="_blank" rel="noopener" className="underline">La pilates 八王子店</a>／<a href="https://well-pilates.jp/location/hachioji/" target="_blank" rel="noopener" className="underline">WELL PILATES 八王子店</a>／<a href="https://luluto.kabushikigaisya-rigakubody.co.jp/tenpo/pilates_hachioji/" target="_blank" rel="noopener" className="underline">ルルト 八王子店</a>。Olive pilates は公式の店舗一覧が新宿のみ、Repilates の八王子の店舗は八王子みなみ野駅側のため載せていません。</p></div></section>
+        
 
         <PriceComparisonTable studios={studios} areaName="八王子" />
 
@@ -345,11 +348,11 @@ export default function HachiojiPage() {
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">月2回 14,500円〜（1回あたり6,500円〜7,500円）</td>
+                    <td className="px-4 py-3">月2回 14,500円〜（1回あたり6,200円〜7,500円）</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">無料〜4,500円（タクトエイトのグループ初回 1,650円）</td>
+                    <td className="px-4 py-3">無料〜3,000円（タクトエイトのグループ初回 1,650円・2026年11月13日時点）</td>
                   </tr>
                 </tbody>
               </table>
@@ -571,7 +574,7 @@ export default function HachiojiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  体験料金は、ピラティスK 八王子オクトーレ店が「体験レッスン 無料」、Rintosull（リントスル）八王子店が「体験レッスン 無料」、STUDIO IVY 八王子店が「初回体験レッスン 4,500円（体験コースは新規受付停止中）」、Studio TAKT EIGHT が「グループ初回 1,650円」、24/7ピラティス 八王子店が「体験レッスン 無料（説明含め約60分・手ぶらで参加可能）」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
+                  体験料金は、ピラティスK 八王子オクトーレ店が「体験レッスン 無料」、Rintosull（リントスル）八王子店が「体験レッスン 無料」、STUDIO IVY 八王子店が「初回体験 無料（11/30まで・通常4,500円）」、Studio TAKT EIGHT が「グループ初回 1,650円」、24/7ピラティス 八王子店が「体験レッスン 無料（1レッスン50分・手ぶらで参加可能）」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -641,7 +644,7 @@ export default function HachiojiPage() {
               体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスンは無料〜4,500円です（2026年10月25日確認）。<br />
+              初回限定の体験レッスンは無料〜3,000円です（2026年11月13日確認）。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link

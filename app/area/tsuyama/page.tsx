@@ -21,7 +21,7 @@ export const metadata = {
 const faqs = [
   {
     question: '津山でピラティス、いくらから始められる？',
-    answer: '津山エリアの一般的な料金相場は、グループレッスンが月4回8,000円〜15,000円程度、パーソナルが1回8,000円〜12,000円程度です。多くのスタジオで体験レッスンが無料〜3,300円程度で受けられるので、まずは体験から始めるのがおすすめです。正確な料金は各スタジオ公式サイトで必ずご確認ください。',
+    answer: '公式サイトで料金を確認できたルルト津山店（マシンピラティスのマンツーマン）は、月3回29,700円・月4回38,400円・月6回55,800円・月8回72,000円で、入会金22,000円（体験日の入会で無料）です。初回体験は期間限定1,000円（45分）です（公式の店舗ページ・2026年11月13日確認）。',
   },
   {
     question: '津山の駅近でおすすめのスタジオは？',
@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: '津山に体験レッスン無料スタジオはある？',
-    answer: 'スタジオによって体験料金は異なります。無料体験を実施しているスタジオもあれば、1,000〜3,300円程度の有料体験のスタジオもあります。最新のキャンペーン情報は各スタジオ公式サイトで必ずご確認ください。',
+    answer: '2026年11月13日時点で、当ページ掲載のスタジオに無料体験はありません。ルルト津山店の初回体験は期間限定1,000円（45分）です（公式の店舗ページ）。',
   },
   {
     question: '津山近隣のエリアは？',
@@ -60,7 +60,7 @@ export default function Page() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月13日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス津山おすすめスタジオ<br className="hidden md:block" />
               人気スタジオの料金プランの比較
@@ -70,6 +70,8 @@ export default function Page() {
             </p>
           </div>
         </section>
+        <section className="py-6 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-xl md:text-2xl font-bold text-warm-900 mb-3">津山の早見表｜アクセス・月額・体験（公式 2026年11月13日確認）</h2><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ</th><th className="px-4 py-3 text-left">駅からの距離</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">月額の下限</th><th className="px-4 py-3 text-left">体験</th></tr></thead><tbody><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ルルト 津山店（東一宮31-16 1F）</td><td className="px-4 py-3">津山駅から車で15分（駐車場8台）</td><td className="px-4 py-3">マシンピラティス・マンツーマン</td><td className="px-4 py-3">月3回 29,700円（月4回 38,400円）＋入会金22,000円（体験日の入会で無料）</td><td className="px-4 py-3">期間限定 1,000円（45分）</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">ピラティス教室 ルアナ（美咲町原田）</td><td className="px-4 py-3">公式サイトを確認できず</td><td className="px-4 py-3">チケット制（掲載時の情報）</td><td className="px-4 py-3">月謝制なし（1回 1,500円・掲載時の情報）</td><td className="px-4 py-3">1,000円（掲載時の情報・未照合）</td></tr></tbody></table></div><p className="text-xs text-warm-500 mt-2 leading-relaxed">津山駅の徒歩圏で、公式サイトで料金を確認できるピラティススタジオは見つかりませんでした（2026年11月13日時点）。ルルト津山店の営業時間は 9:00〜21:00 です。ピラティス教室 ルアナは公式サイトを確認できなかったため、料金は掲載時の情報のまま（未照合）です。出典：<a href="https://luluto.kabushikigaisya-rigakubody.co.jp/tenpo/pilates_tsuyama/" className="underline" rel="nofollow noopener" target="_blank">ルルト 津山店（公式の店舗ページ・2026年11月13日確認）</a></p></div></section>
+
 
         {/* Breadcrumbs */}
         <section className="bg-white py-3 border-b border-warm-100">
@@ -162,7 +164,7 @@ export default function Page() {
                     </tr>
                     <tr className="border-b border-warm-200">
                       <td className="px-4 py-3 font-medium">体験レッスン</td>
-                      <td className="px-4 py-3">無料〜3,300円</td>
+                      <td className="px-4 py-3">1,000円（ルルト津山店・期間限定）</td>
                       <td className="px-4 py-3 text-warm-600">スタジオごとに料金は異なります。</td>
                     </tr>
                   </tbody>

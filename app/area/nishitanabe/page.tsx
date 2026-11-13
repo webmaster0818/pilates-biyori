@@ -21,7 +21,7 @@ export const metadata = {
 const faqs = [
   {
     question: '西田辺でピラティス、いくらから始められる？',
-    answer: '西田辺エリアの一般的な料金相場は、グループレッスンが月4回8,000円〜15,000円程度、パーソナルが1回8,000円〜12,000円程度です。多くのスタジオで体験レッスンが無料〜3,300円程度で受けられるので、まずは体験から始めるのがおすすめです。正確な料金は各スタジオ公式サイトで必ずご確認ください。',
+    answer: '西田辺駅周辺の3店では、NOA yoga & pilates studio の月4回会員10,000円、Pilates Mee 西田辺店のセミパーソナル月2回11,000円（税込）、トトヤセ 西田辺店の月2回19,800円（税込・キャンペーン料金）からです。体験は Pilates Mee が0円、トトヤセが1,000円（当日入会で無料）、NOA が3回分3,500円です（各公式・2026年11月13日確認）。',
   },
   {
     question: '西田辺の駅近でおすすめのスタジオは？',
@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: '西田辺に体験レッスン無料スタジオはある？',
-    answer: 'スタジオによって体験料金は異なります。無料体験を実施しているスタジオもあれば、1,000〜3,300円程度の有料体験のスタジオもあります。最新のキャンペーン情報は各スタジオ公式サイトで必ずご確認ください。',
+    answer: 'Pilates Mee 西田辺店の体験レッスンは0円です。トトヤセ 西田辺店は初回体験1,000円（通常10,000円・当日入会で無料）、NOA yoga & pilates studio は初回体験チケット3回分3,500円です（各公式・2026年11月13日確認）。',
   },
   {
     question: '西田辺近隣のエリアは？',
@@ -60,7 +60,7 @@ export default function Page() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月13日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス西田辺おすすめスタジオ<br className="hidden md:block" />
               人気スタジオの料金プランの比較
@@ -70,6 +70,8 @@ export default function Page() {
             </p>
           </div>
         </section>
+        <section className="py-6 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-xl md:text-2xl font-bold text-warm-900 mb-3">西田辺駅の早見表｜駅徒歩・月額・体験（公式 2026年11月13日確認）</h2><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ</th><th className="px-4 py-3 text-left">駅からの距離</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">月額の下限</th><th className="px-4 py-3 text-left">体験</th></tr></thead><tbody><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">トトヤセ 西田辺店（女性専用）</td><td className="px-4 py-3">御堂筋線 西田辺駅 徒歩1分</td><td className="px-4 py-3">整体×マシンピラティス・完全個室マンツーマン</td><td className="px-4 py-3">月2回 19,800円（税込・永久割引キャンペーン料金／通常22,000円）</td><td className="px-4 py-3">通常10,000円→1,000円（骨格診断付き・当日入会で無料・全店舗先着5名）</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Pilates Mee 西田辺店（女性専用）</td><td className="px-4 py-3">西田辺駅 徒歩2分</td><td className="px-4 py-3">マシン・最大3名のセミパーソナル／パーソナル</td><td className="px-4 py-3">セミパーソナル 月2回 11,000円（税込）</td><td className="px-4 py-3">0円</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">NOA yoga &amp; pilates studio（男女可）</td><td className="px-4 py-3">西田辺駅3番出口 徒歩5分</td><td className="px-4 py-3">ヨガ・ピラティスのグループ</td><td className="px-4 py-3">月4回会員 10,000円（通い放題 13,000円）</td><td className="px-4 py-3">初回体験チケット 3回分 3,500円（2週間有効）</td></tr></tbody></table></div><p className="text-xs text-warm-500 mt-2 leading-relaxed">営業時間は トトヤセ 月〜土 8:00〜22:00・日祝 10:00〜20:00（不定休）、Pilates Mee 9:00〜21:15（不定休）。NOA の料金に税表記はありません。出典：<a href="https://www.totoyase.com/nishitanabe/" className="underline" rel="nofollow noopener" target="_blank">トトヤセ 西田辺店</a>／<a href="https://m-pilates.com/shop/osaka/nishitanabe/" className="underline" rel="nofollow noopener" target="_blank">Pilates Mee 西田辺店</a>／<a href="https://noayoga.jp/plan.html" className="underline" rel="nofollow noopener" target="_blank">NOA プランと料金</a>（いずれも公式・2026年11月13日確認）</p></div></section>
+
 
         {/* Breadcrumbs */}
         <section className="bg-white py-3 border-b border-warm-100">
@@ -160,7 +162,7 @@ export default function Page() {
                     </tr>
                     <tr className="border-b border-warm-200">
                       <td className="px-4 py-3 font-medium">体験レッスン</td>
-                      <td className="px-4 py-3">無料〜3,300円</td>
+                      <td className="px-4 py-3">0円〜3,500円（3回分）</td>
                       <td className="px-4 py-3 text-warm-600">スタジオごとに料金は異なります。</td>
                     </tr>
                   </tbody>
