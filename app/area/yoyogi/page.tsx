@@ -126,10 +126,10 @@ const studios = [
     officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
     image: '/images/studios/pilates-k.webp',
     price: '月4回 13,420円',
-    trial: '体験レッスン 2,000円',
+    trial: '体験レッスン 0円（公式の店舗ページ・2026年11月13日確認）',
     features: ['女性専用', '新宿三丁目駅徒歩1分', '部位別プログラム', 'マシン専門'],
     description: '女性専用マシンピラティス専門スタジオです。新宿三丁目駅から徒歩1分です。音楽に合わせた楽しいレッスンと部位別ボディメイクプログラムが充実しています。強度や目的に合わせて選べるクラスが豊富です。',
-    access: '東京メトロ「新宿三丁目駅」徒歩1分 / JR「新宿駅」東口 徒歩5分',
+    access: '東京メトロ「新宿三丁目駅」徒歩1分 / 「新宿駅」徒歩6分（公式表記）',
     address: '東京都新宿区新宿3丁目（詳細は公式サイトでご確認ください）',
     popularPlan: {
       name: 'マンスリー4メンバー（月4回）',
@@ -187,7 +187,7 @@ const studios = [
     name: 'Rintosull（リントスル）新宿西口駅前店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
     image: '/images/studios/rintosull.webp',
-    price: '月額 9,800円〜',
+    price: '4・フルタイム 月10,800円〜（税込）',
     trial: '体験レッスン 無料（姿勢診断付き）',
     features: ['新宿駅徒歩3分', '姿勢診断付き体験', '多彩なクラス', 'LAVA系列'],
     description: 'LAVA系列のマシンピラティススタジオです。新宿駅から徒歩3分です。マシンピラティスに加え、ホットヨガやキックボクシングなど多彩なクラスを提供しています。姿勢診断付きの無料体験レッスンで自分の体の状態を知ることから始められます。',
@@ -196,10 +196,10 @@ const studios = [
     popularPlan: {
       name: 'マシンピラティス月4回',
       description: 'マシンピラティスのグループレッスン月4回です。姿勢診断付きです。',
-      price: '月額 9,800円〜（税込）',
+      price: '4・フルタイム 10,800円／ライト・フルタイム 15,800円（税込・公式の店舗ページ 2026年11月13日確認）',
     },
     options: [
-      '月4回プラン（9,800円〜）',
+      '4・フルタイム（10,800円）',
       '通い放題プランあり',
       'ホットヨガ・キックボクシングも利用可能',
       '体験当日入会で入会金無料',
@@ -248,21 +248,22 @@ const studios = [
   {
     name: 'Studio Forward（スタジオフォワード）代々木',
     image: '/images/studios/studio-forward-yoyogi.webp',
-    price: 'プライベート 1回 8,000円〜',
-    trial: '体験レッスン 4,000円（60分）',
-    features: ['代々木駅徒歩4分', '男性歓迎', '年中無休', '加圧トレーニング併設'],
-    description: '40代以上の方に人気のプライベート・少人数制ピラティススタジオです。代々木駅北口から徒歩4分です。ピラティスマシン完備で、加圧トレーニングも併設しています。腰痛・肩こり改善、健康維持を目的とする方に最適です。年中無休で朝8時から夜22時まで営業しています。',
+    price: 'プライベート 60分 8,800円',
+    trial: '初回体験レッスン 60分 4,400円（ペアは初回 3,300円）',
+    features: ['代々木駅北口徒歩4分', '男性ピラティス専門（女性も可・公式表記）', '男性インストラクター', '加圧トレーニング併設'],
+    description: '40代以上の方に人気のプライベート・少人数制ピラティススタジオです。代々木駅北口から徒歩4分です。公式サイトでは「40代以上の方が通いやすい、男性ピラティス専門のスタジオ」（女性の参加も歓迎）と案内され、男性インストラクターがレッスンを担当します。加圧トレーニングも併設しています。料金はプライベート60分 8,800円、ペアレッスン50分 4,400円（1人あたり）で、営業時間は9:00〜22:00です（公式サイト studioforward.jp・2026年11月13日確認）。',
     access: 'JR「代々木駅」北口 徒歩4分 / 小田急線「南新宿駅」徒歩2分 / 都営新宿線「新宿駅」8番出口 徒歩6分',
     address: '東京都渋谷区代々木2-27-13 オカダマンション5E',
     popularPlan: {
       name: 'プライベートレッスン',
       description: 'マンツーマンでのピラティスレッスンです。一人ひとりに合わせたプログラムです。',
-      price: '1回 8,000円〜（税込）',
+      price: '60分 8,800円（公式サイトに税表記なし）',
     },
     options: [
-      'プライベートレッスン（1回 8,000円〜）',
+      'プライベートレッスン（60分 8,800円）',
+      'ペアレッスン（50分 1人 4,400円・初回 3,300円）',
       '加圧トレーニング併設',
-      '体験レッスン 60分 4,000円',
+      '初回体験レッスン 60分 4,400円',
       '回数券あり',
     ],
     userProfile: {
@@ -270,8 +271,8 @@ const studios = [
       purpose: ['腰痛改善', '肩こり改善', '健康維持', '体幹強化'],
     },
     basicInfo: {
-      hours: '8:00〜22:00',
-      closed: '年中無休',
+      hours: '9:00〜22:00（公式サイトの表記）',
+      closed: '公式サイトに記載なし',
       facilities: ['リフォーマー', '加圧トレーニング器具', '更衣室'],
     },
   },
@@ -312,7 +313,7 @@ const faqs = [
   },
   {
     question: '無料で体験できるスタジオは？',
-    answer: 'the SILKとRintosullは無料体験があります。zen placeはグループ体験1,000円です。ピラティスKは体験2,000円です。',
+    answer: 'the SILKとRintosullは無料体験があります。zen placeはグループ体験1,000円です。ピラティスK 新宿店は体験0円です（公式の店舗ページ・2026年11月13日確認）。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -439,7 +440,7 @@ export default function YoyogiPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">無料〜4,000円</td>
+                    <td className="px-4 py-3">無料〜4,400円</td>
                   </tr>
                 </tbody>
               </table>
@@ -536,7 +537,7 @@ export default function YoyogiPage() {
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Mapila（月額 8,800円〜）</li>
-                  <li className="text-warm-700">• Rintosull（月額 9,800円〜）</li>
+                  <li className="text-warm-700">• Rintosull（月額 10,800円〜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -602,7 +603,7 @@ export default function YoyogiPage() {
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• Mapila（8,800円〜/月4回）</li>
-                  <li>• Rintosull（9,800円〜/月4回）</li>
+                  <li>• Rintosull（10,800円〜/4・フルタイム）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
@@ -663,7 +664,7 @@ export default function YoyogiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  the SILKとRintosullは無料体験があります。zen placeは1,000円、ピラティスKは2,000円で体験可能です。
+                  the SILKとRintosullは無料体験があります。zen placeは1,000円、ピラティスK 新宿店は0円で体験可能です。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -733,7 +734,7 @@ export default function YoyogiPage() {
               体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜4,000円です。<br />
+              初回限定の体験レッスン無料〜4,400円です。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link

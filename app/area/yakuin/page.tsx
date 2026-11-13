@@ -112,22 +112,22 @@ const studios = [
   {
     name: 'edgy pilates studio',
     image: '/images/studios/edgy-pilates-yakuin.webp',
-    price: '月4回 12,100円〜',
-    trial: '体験レッスンあり',
-    features: ['マシンピラティス専門', '福岡市中央区薬院', 'おしゃれな空間', '少人数制'],
-    description: '福岡市中央区薬院にあるマシンピラティス専門スタジオです。リフォーマーを中心としたマシンピラティスに特化し、少人数制でインストラクターの目が行き届く環境を提供しています。薬院の街並みに馴染むおしゃれな空間で、リフレッシュしながらボディメイクに取り組めます。初心者向けの基礎クラスから経験者向けのチャレンジクラスまで、幅広いレベルに対応しています。',
-    access: '西鉄天神大牟田線「薬院駅」から徒歩圏内',
+    price: 'マットグループ 月4回 12,000円〜（税抜）',
+    trial: '体験 マット2,500円／シルクサスペンション3,000円／マシン4,000円／パーソナル6,500円（税抜・1回限り）',
+    features: ['マット・マシン・シルクサスペンション・パーソナル', '福岡市中央区薬院', 'マットは定員8名・マシンは定員4名', '入会金/年会費 11,000円'],
+    description: '福岡市中央区薬院のピラティススタジオです。公式の料金ページでは、マットピラティス（定員8名）・シルクサスペンション（定員8名）・マシンのグループ（定員4名）と、パーソナルのレッスンが案内されています。月謝（月4回）はマット12,000円・シルクサスペンション14,000円・マシン18,000円・パーソナル28,000円（税抜）で、別に入会金/年会費11,000円がかかります（公式 edgy-pilates.com/price/・2026年11月13日確認）。',
+    access: '西鉄「薬院駅」徒歩5分・地下鉄「薬院大通駅」徒歩2分（公式サイトの表記）',
     address: '福岡県福岡市中央区薬院（詳細は公式サイトでご確認ください）',
     popularPlan: {
-      name: '月4回プラン',
-      description: 'マシンピラティス専門スタジオの人気プランです。少人数制で丁寧な指導です。',
-      price: '月4回 12,100円〜（税込）',
+      name: '月謝（月4回）',
+      description: '1週間に1回、特定の曜日に参加する月謝制です（公式の料金ページ）。',
+      price: 'マット 12,000円／シルクサスペンション 14,000円／マシン 18,000円／パーソナル 28,000円（税抜）',
     },
     options: [
-      '月4回プラン',
-      '月8回プラン',
-      'フリープラン（通い放題）',
-      '体験レッスンあり',
+      '月謝（月4回）',
+      '5回チケット（3ヶ月有効）：マット 17,500円／マシン 25,000円（税抜）',
+      '都度（1回）：マット 4,000円／マシン 5,500円（税抜）',
+      '体験（1回限り）：マット 2,500円〜（税抜）',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
@@ -152,7 +152,7 @@ const faqs = [
   },
   {
     question: '薬院のピラティスの料金相場は？',
-    answer: 'zen place pilates福岡薬院は月4回10,450円〜、CLUB PILATES福岡赤坂薬院店は月4回 10,890〜17,050円（店舗により異なる）、edgy pilates studioは月4回12,100円〜、AR pilatesは都度利用で1回8,800円〜です。目的と頻度に合わせてお選びください。',
+    answer: 'zen place pilates福岡薬院は月4回10,450円〜、CLUB PILATES福岡赤坂薬院店は月4回 10,890〜17,050円（店舗により異なる）、edgy pilates studioはマットグループの月謝（月4回）12,000円〜（税抜）、AR pilatesは都度利用で1回8,800円〜です。目的と頻度に合わせてお選びください。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -396,7 +396,7 @@ export default function YakuinPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• zen place pilates（月4回 10,450円〜）</li>
                   <li className="text-warm-700">• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
-                  <li className="text-warm-700">• edgy pilates studio（月4回 12,100円〜）</li>
+                  <li className="text-warm-700">• edgy pilates studio（マット月4回 12,000円〜・税抜）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -432,7 +432,7 @@ export default function YakuinPage() {
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイクが目的の方</h3>
               <p className="text-warm-600 leading-relaxed mb-6">
-                週2〜3回が目安です。3〜6ヶ月で目に見える変化を実感できます。CLUB PILATES福岡赤坂薬院店のフリープランや、edgy pilates studioの通い放題プランなら集中的にトレーニングできます。
+                週2〜3回が目安です。3〜6ヶ月で目に見える変化を実感できます。CLUB PILATES福岡赤坂薬院店のフリープランなら集中的にトレーニングできます（edgy pilates studioの公式の料金ページには通い放題プランの記載がありません）。
               </p>
               <h3 className="text-xl font-bold text-warm-900 mb-4">体の不調改善が目的の方</h3>
               <p className="text-warm-600 leading-relaxed">
@@ -462,7 +462,7 @@ export default function YakuinPage() {
                 <p className="text-sm text-warm-600 mb-4">マシンピラティスで着実に成果です。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
                   <li>• CLUB PILATES（月4回 10,890〜17,050円・店舗により異なる）</li>
-                  <li>• edgy pilates studio（12,100円〜/月4回）</li>
+                  <li>• edgy pilates studio（マット 12,000円〜/月4回・税抜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
