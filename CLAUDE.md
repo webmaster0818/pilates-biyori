@@ -1471,3 +1471,16 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - brands-aggregate.json の zen 16行（茅ヶ崎・流山おおたかの森・豊中・京都西院・本郷三丁目・堺東・南森町・大泉学園・大森・駒込・西葛西・上大岡・湘南台・津田沼・塚口・所沢）を公式店舗ページ（zenplace.co.jp/studios/pilates-{chigasaki,nagareyamaotakanomori,toyonaka,kyotosaiin,hongo,sakaihigashi,minamimorimachi,oizumigakuen,omori,komagome,nishikasai,kamiooka,shonandai,tsudanuma,tsukaguchi,tokorozawa} 11/13）の値に＝マット初回1,000円（通常2,200円〜:9店／3,300円〜:7店）・マシン初回3,000円（通常5,000円〜）。area-studios は 11/8 に同値で更新済み。/brands/zen-place/ の表示は「あり」のままで本文の変化なし（sitemap lastmod は据え置き）。⚠️南森町の店舗紹介文に「※マシングループはありません」とあり、同ページのレッスン一覧（マシングループ 体験3,000円）と公式内で不一致
 - /brands/ C5 は判断待ちで title 不変、/editors/ C3 は読者を指す文（「通っている方」）の誤検知
 - next build 直接・sitemap は pilates-yoga-difference のみ 11-13。precheck ✅・計測リンク out/deploy 4,080→4,080・src 1,951→1,951・functions/api 4本保全・text 変更は1頁のみ
+
+### 2026-11-13 12:00 成長ルーチン: DEP の料金エリア訂正＋公式料金早見表・the SILK 横浜パーソナル店の誤記訂正／吉祥寺店の要点・代々木/薬院/伊丹カード・ロールアップのタオル手順（source 8e387166・a1a2c6c7 / deploy 8f23baf012・b2f68a202e・反映1分程度）
+- DEP（dep-pilates.com /shop/・/price/・トップ・全58店舗ページ 11/13）: **公式の料金エリアが組み替わっていた**＝10/29 の A36/B20/S1 → 11/13 は A19/B26/S13（/shop/ の「月額プラン エリア案内」と各店舗ページの月額が一致）。28店のエリア変更＋**恵比寿西口店（エリアS・体験無料 2027/2/28まで）追加で58店**。dep-official-stores.ts の extra を全店取り直し（手書き追記ではなく58店舗ページの月額で判定）、/brands/dep/ に quickPriceTable・metaDescription、要点・intro・pricingNote・FAQ・officialStores（58・東京2）を更新。料金そのもの（A/B/S の金額・体験2,980円）は不変
+  - DEP カードの月額訂正: kanazawa・kitakyushu・niigata・yokkaichi（A→B）、kobe・nara・sendai（B→S）、area-studios の matsumoto・fukuyama（A→B）・omachi-nishi-koen（B→S）、brands-aggregate 9行。エリアSの都度1回料金は公式の料金ページに記載なし→その旨を表記
+  - 未対応: takamatsu・okayama・katsura・area-studios（山形・弘前・宇都宮・南森町）の説明文「全国57店舗」は据え置き（料金は不変）
+- the SILK 横浜パーソナル店（the-silk.co.jp/studios/kanagawa/yokohamapersonal/ 11/13）: 公式はパーソナル専門（FAQ でグループ受講不可）・Private 2/3/4/6＝22,000/29,700/37,400/56,100円・体験50分2,000円・10:00〜19:00。**店舗頁・/area/yokohama/ カード・aggregate が「グループ月4回15,280円・通い放題・体験無料」だった＝訂正**（/brands/the-silk/ の無料体験店数が1減）。店舗頁に quickAnswer・description
+- the SILK 吉祥寺店（/studios/tokyo/kichijoji/ 11/13）: 料金・営業は 10/25 と同じ。入会特典の期間が 11/13予約→11/30予約・12/14来店に延長→storeNote 訂正、h1 直下に quickAnswer（料金・体験0円・入会特典・場所/営業）。officialStoreUrl を新URLに
+- BDC 表参道（bdcpilates.com/omotesando 11/13）: 料金・体験キャンペーン（11/30まで1,100円・残り9名）とも要点の値と一致＝変更なし。「プライベートの体験・入会締切」は HTML コメント内（非表示）。Google マップの評点は今日開けず→口コミ行は足さず
+- 代々木: Studio Forward（studioforward.jp）60分8,800円・初回体験4,400円・ペア50分4,400円（初回3,300円）・男性ピラティス専門（女性可）・営業9:00〜22:00（旧 8,000円〜/4,000円/年中無休 8〜22時）、Rintosull 新宿西口 月10,800円〜（旧9,800円）、ピラティスK 新宿 体験0円（旧2,000円）・新宿駅徒歩6分。⚠️exeed のアクセス文が Forward と同文（未照合）
+- 薬院: edgy pilates studio（edgy-pilates.com/price/）はマット・シルク・マシン・パーソナル（税抜）＝月謝 12,000/14,000/18,000/28,000、体験 2,500/3,000/4,000/6,500、入会金/年会費11,000、西鉄薬院駅徒歩5分・薬院大通徒歩2分。「マシン専門・月4回12,100円・月8回/通い放題」は公式に無し→訂正。⚠️相場表「8,800円〜12,100円」は未照合のまま
+- 伊丹: emovere 阪急伊丹駅 徒歩2→3分（公式）。熊本の Rintosull 営業時間（調査エージェントは 8:45〜21:00 と報告）は本体で未再取得＝未変更
+- pilates-roll-up-method: 冒頭にタオルを使うロールアップの手順表（体験の主張なし）・updatedAt 11-13
+- next build 直接・sitemap は19頁のみ 11-13。precheck ✅ 589頁・計測リンク out/deploy 4,057→4,057・src 1,937→1,937・functions/api 4本保全・/api/contact 400・text 変更は19頁のみ（deploy 全 HTML の本文比較）
