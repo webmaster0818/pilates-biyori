@@ -1489,3 +1489,9 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
   - 西田辺: h1 直下に3店の早見表。NOA（noayoga.jp/plan.html）月4回10,000円・体験3回分3,500円・杉野ビル2F（旧「料金は公式参照」）、トトヤセ住所 長池町21-10 西田辺EAST202オーナーズビル・月2回19,800円はキャンペーン料金（通常22,000円）・体験の「60分」は公式で確認できず削除。FAQ 2問を3店の公式値に
   - 津山: h1 直下にルルト津山店の早見表（入会金22,000円・月8回72,000円を追加）。⚠️ピラティス教室 ルアナは公式サイトが見つからず未照合（rating 4.2 も出典不明のまま）。FAQ の「多くのスタジオで無料体験」は事実と違う→公式値に。⚠️津山・西田辺の相場表（グループ月4回8,000〜15,000円等）は根拠不明のまま（体験行のみ訂正）
   - text 変更は3頁のみ・sitemap 3頁 11-13・precheck ✅・計測リンク out/deploy 4,057→4,057・src 1,937→1,937・functions/api 4本保全
+
+### 2026-11-14 朝ルーチン: BREST モニター募集は継続（変更なし）・/test-ikebukuro/ の調査（変更なし・判断待ち）
+- BREST（11/14 09:17 公式直・brest-gym.jp/studio/{hongo-sanchome,daikanyama,futakotamagawa,chigasaki,sagamiono,awaji,gofukumachi}/）: 7店とも「モニター会員募集」バナー（banner-1_monitor_500.png・Last-Modified 10/29・100,761 bytes＝同じ画像）継続・終了/締切の表記なし→カードは戻さない。店舗別月額は 11/13 と同じ（3店＝20,680/25,080/41,580/47,080、4店＝22,880）。/news/ 最新 11/10＝改定告知なし→未変更。本番 /brands/brest/・代官山・茅ヶ崎に税込500円/先着20名が出ていることを確認
+- 点検 11/14: /brands/ C5 は判断待ちで title 不変（本文に口コミ・評判の実データなし、「評判」は title/meta の2か所のみ）、/editors/ C3 は読者を指す文（「通っている方」）の誤検知
+- /test-ikebukuro/（537140bf 2026-04-01「一時確認用」で置いたまま）: 本番 200・meta robots noindex,nofollow・canonical は自分自身・sitemap/robots に無し・サイト内リンク 0（out/ で自ページ以外の参照なし）・計測リンク 0（外部リンクは Google マップ 31 のみ）。GSC URL 検査＝「URL is unknown to Google」、4/1〜11/12 の表示 0。中身は 15 店で、B-line 池袋（HTML 7か所）・Reformer Pilates Ikebukuro・Urban Pilates 池袋・Pilates Lab・FLOW PILATES・Pilates Studio Harmony・Pilates & Wellness など実在を確認できない店名と「全体の80%」等の出典なしの利用者層を含む（Yahoo 11/14「"B-line" 池袋 ピラティス」で該当スタジオなし。池袋の B-LINE CLINIC は美容クリニック）。これらの店名は app/test-ikebukuro 以外に無い（王子の Pilates Studio M は別の実在店）。削除はページ数が変わるため判断待ち
+- 着手可の確認: pilates-boomerang-method の★8個は図の「★ここで止まれること」の目印（評価ではない）と LAVA の PR 広告文＝変更不要
