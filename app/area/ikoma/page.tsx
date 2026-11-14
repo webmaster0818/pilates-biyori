@@ -59,7 +59,7 @@ export default function Page() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月14日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス生駒おすすめスタジオ<br className="hidden md:block" />
               人気スタジオの料金プランの比較
@@ -80,6 +80,25 @@ export default function Page() {
               {' > '}
               <span className="text-warm-600">生駒</span>
             </nav>
+          </div>
+        </section>
+
+        {/* 早見表（2026-11-14 公式照合） */}
+        <section className="py-8 bg-white" id="by-station">
+          <div className="max-w-5xl mx-auto px-6 lg:px-8">
+            <h2 className="text-xl md:text-2xl font-bold text-warm-900 mb-3">生駒（生駒駅・学研奈良登美ヶ丘駅）のピラティス 料金・体験の早見表</h2>
+            <p className="text-warm-600 text-sm leading-relaxed mb-4">掲載3店の駅からの徒歩分・月額の下限・体験料金・入会時の費用を、各スタジオの公式サイトで確認しました。マシンピラティスはGRANDY（リフォーマーグループ）・アヴニール（マンツーマン）・pilates K（女性専用グループ）の3店で受けられます。</p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm border-collapse">
+                <thead><tr className="bg-warm-800 text-white"><th className="px-3 py-3 text-left">スタジオ</th><th className="px-3 py-3 text-left">駅からの徒歩分</th><th className="px-3 py-3 text-left">月額の下限</th><th className="px-3 py-3 text-left">体験料金</th><th className="px-3 py-3 text-left">入会時・別途の費用</th></tr></thead>
+                <tbody>
+                <tr className="border-b border-warm-200"><td className="px-3 py-3 font-medium">ピラティススタジオGRANDY 生駒店</td><td className="px-3 py-3">近鉄生駒駅 徒歩2分</td><td className="px-3 py-3">マットグループ月4回 9,800円／リフォーマーグループ月4回 13,200円（税表記なし）</td><td className="px-3 py-3">マット 1,100円／リフォーマー 2,200円（初回のみ）</td><td className="px-3 py-3">入会金 10,000円</td></tr>
+                <tr className="border-b border-warm-200 bg-warm-50"><td className="px-3 py-3 font-medium">ピラティスアヴニール生駒店</td><td className="px-3 py-3">近鉄生駒駅 北口 徒歩3分</td><td className="px-3 py-3">セミ（3人・1人あたり）月2回 8,910円／マンツーマン30分 月4回 19,360円（税込）</td><td className="px-3 py-3">初回90分 2,980円（税込）</td><td className="px-3 py-3">入会金 8,800円（32回券の購入で無料）</td></tr>
+                <tr className="border-b border-warm-200"><td className="px-3 py-3 font-medium">pilates K イオンモール奈良登美ヶ丘店</td><td className="px-3 py-3">学研奈良登美ヶ丘駅 徒歩1分</td><td className="px-3 py-3">マンスリー4（月4回）11,220円（税込）</td><td className="px-3 py-3">0円</td><td className="px-3 py-3">初期費用 13,530円（税込）・施設維持費 月825円（税込）</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="text-warm-500 text-xs mt-3">出典: <a href="https://grandy-pt.com/" target="_blank" rel="noopener noreferrer" className="underline">GRANDY（公式）</a>・<a href="https://pilates.avenir-training.com/stores-2-4/ikoma/" target="_blank" rel="noopener noreferrer" className="underline">ピラティスアヴニール生駒店（公式）</a>・<a href="https://pilates-k.jp/studio/nara-ken/nara-tomigaoka" target="_blank" rel="noopener noreferrer" className="underline">pilates K 奈良登美ヶ丘店（公式）</a>（いずれも2026年11月14日確認）。キャンペーンは期間限定のため、申し込む前に公式サイトでご確認ください。</p>
           </div>
         </section>
 

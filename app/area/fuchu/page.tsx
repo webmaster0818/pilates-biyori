@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { AreaQuickAnswer } from '@/components/AreaQuickAnswer'
 import { Navigation } from '@/components/Navigation'
 import { SiteFooter } from '@/components/SiteFooter'
 import { StudioCard } from '@/components/StudioCard'
@@ -25,7 +26,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
     image: '/images/studios/zen-place-pilates.webp',
     price: '月4回 9,625円〜',
-    trial: 'グループ体験 1,000円',
+    trial: 'マットグループ体験 1,000円（キャンペーン・通常2,200円〜）／マシングループ体験 3,000円（キャンペーン・通常5,000円〜）',
     features: ['府中駅徒歩4分', '男性利用可', '全国他店利用', 'マット&マシン'],
     description: 'ピラティス専門の大手スタジオです。京王線府中駅南口から徒歩4分です。マットグループ・マシングループ・プライベートの3タイプです。全国150店舗以上で他店利用可能です。リフォーマーを使ったマシングループレッスンも充実しています。',
     access: '京王線「府中駅」南口 徒歩4分',
@@ -38,8 +39,8 @@ const studios = [
     options: [
       '月4回プラン（9,625円〜）',
       'マシングループ体験（3,000円）',
-      'プライベートレッスン（体験 9,900円）',
-      '体験当日入会で入会金無料',
+      'プライベートレッスン（体験 8,250円〜・グレード02）',
+      '入会金 22,000円（体験当日入会で無料）・設備運営管理費 月550円',
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
@@ -60,19 +61,19 @@ const studios = [
     features: ['世界最大級', '府中駅徒歩4分', '15種類の器具', '男性利用可'],
     description: '世界最大級のマシンピラティスブランドです。府中駅から徒歩4分です。最大12名の少人数制で、リフォーマー・スプリングボード・TRX・チェアなど15種類のマシン・器具を完備しています。8つのプログラムと4段階のレベル分けです。',
     access: '京王線「府中駅」徒歩4分',
-    address: '東京都府中市府中町（詳細は公式サイトでご確認ください）',
+    address: '東京都府中市宮町2-16-7 NSビル1F',
     popularPlan: {
       name: 'グループ月4回プラン',
       description: '15種類の器具を使った本格グループレッスンです。4段階のレベル分けで安心です。',
       price: '月4回 13,090円（税表記なし）',
     },
-    options: ['月8回 24,090円', '通い放題 37,290円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月14日確認）'],
+    options: ['月8回 24,090円', '通い放題 37,290円', '入会金 5,500円（税込）・事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年11月14日確認）'],
     userProfile: {
       ageRange: '20代〜50代が中心',
       purpose: ['体幹強化', '姿勢改善', 'ボディメイク', 'パフォーマンス向上'],
     },
     basicInfo: {
-      hours: '月〜金 7:00-21:00 / 土 7:00-18:00 / 日 9:00-18:00',
+      hours: '月・木 7:30-21:00 / 火・水・金 7:00-21:00 / 土・日 7:00-17:30（公式・2026年11月14日確認）',
       closed: '不定休',
       facilities: ['リフォーマー', 'スプリングボード', 'TRX', 'チェア', 'Bosu'],
     },
@@ -147,7 +148,7 @@ const faqs = [
   },
   {
     question: '府中のピラティスの料金相場は？',
-    answer: 'グループ月4回で9,625円〜11,990円程度です。studio 6senseは月額6,000円通い放題で最もリーズナブルです。パーソナルはSTUDIO Uが月2回22,000円〜です。',
+    answer: '公式サイトで確認できたグループ月4回は、zen place 府中の9,625円（税込）〜CLUB PILATES 府中店の13,090円（税表記なし）です（2026年11月14日確認）。studio 6senseは月額6,000円通い放題で最もリーズナブルです。パーソナルはSTUDIO Uが月2回22,000円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -194,7 +195,7 @@ export default function FuchuPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月14日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス府中おすすめ4選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
@@ -214,6 +215,13 @@ export default function FuchuPage() {
             </nav>
           </div>
         </section>
+
+        <AreaQuickAnswer areaName="府中" rows={[
+          { label: '料金', text: 'クラブピラティス（CLUB PILATES）府中店の料金は、月4回 13,090円／月8回 24,090円／通い放題 37,290円です（公式の店舗ページ・税表記なし）。入会金 5,500円（税込）と事務手数料 2,200円（税込）が別途かかります。11月入会限定で、体験当日の入会なら入会金0円・月会費2ヶ月20%OFF（プランで割引内容が異なる・6ヶ月の契約必須期間あり）です。' },
+          { label: '体験', text: 'CLUB PILATES 府中店は30分の体験レッスンが無料です。zen place pilates 府中はマットグループ1,000円・マシングループ3,000円（2026年11月中に体験した方が対象の初回体験キャンペーン）です。' },
+          { label: '場所', text: 'CLUB PILATES 府中店は府中市宮町2-16-7 NSビル1F（京王線府中駅 徒歩4分）、zen place pilates 府中は宮町2-15-13 第15三ツ木ビル 9F（府中駅南口 徒歩4分）です。' },
+          { label: '月4回', text: 'zen place 府中（グレード02）のマットグループ月4回は9,625円（税込・別途設備運営管理費 月550円）で、CLUB PILATES の月4回より安い料金です。' },
+        ]} note={<>値は各スタジオの公式サイトの表記です（2026年11月14日確認）。出典: <a href="https://clubpilates.co.jp/studio/fuchu/" target="_blank" rel="noopener noreferrer" className="underline">CLUB PILATES 府中店（公式）</a>・<a href="https://www.zenplace.co.jp/studios/pilates-fuchu" target="_blank" rel="noopener noreferrer" className="underline">zen place pilates 府中（公式）</a>。キャンペーンは期間限定のため、申し込む前に公式サイトでご確認ください。</>} />
 
         <TableOfContents areaName="府中" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
 
@@ -296,7 +304,7 @@ export default function FuchuPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">無料〜1,000円</td>
+                    <td className="px-4 py-3">無料〜3,000円（グループ。zen place のマシングループ体験 3,000円を含む）</td>
                   </tr>
                 </tbody>
               </table>
@@ -515,7 +523,7 @@ export default function FuchuPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  体験料金は、zen place pilates 府中スタジオが「グループ体験 1,000円」、CLUB PILATES 府中店が「体験レッスン 無料（30分イントロクラス）」、studio 6sense（スタジオシックスセンス）が「体験レッスン 1,000円」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
+                  体験料金は、zen place pilates 府中スタジオが「マットグループ体験 1,000円・マシングループ体験 3,000円（2026年11月中の体験が対象のキャンペーン）」、CLUB PILATES 府中店が「体験レッスン 無料（30分イントロクラス）」、studio 6sense（スタジオシックスセンス）が「体験レッスン 1,000円」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
