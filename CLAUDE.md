@@ -1495,3 +1495,18 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - 点検 11/14: /brands/ C5 は判断待ちで title 不変（本文に口コミ・評判の実データなし、「評判」は title/meta の2か所のみ）、/editors/ C3 は読者を指す文（「通っている方」）の誤検知
 - /test-ikebukuro/（537140bf 2026-04-01「一時確認用」で置いたまま）: 本番 200・meta robots noindex,nofollow・canonical は自分自身・sitemap/robots に無し・サイト内リンク 0（out/ で自ページ以外の参照なし）・計測リンク 0（外部リンクは Google マップ 31 のみ）。GSC URL 検査＝「URL is unknown to Google」、4/1〜11/12 の表示 0。中身は 15 店で、B-line 池袋（HTML 7か所）・Reformer Pilates Ikebukuro・Urban Pilates 池袋・Pilates Lab・FLOW PILATES・Pilates Studio Harmony・Pilates & Wellness など実在を確認できない店名と「全体の80%」等の出典なしの利用者層を含む（Yahoo 11/14「"B-line" 池袋 ピラティス」で該当スタジオなし。池袋の B-LINE CLINIC は美容クリニック）。これらの店名は app/test-ikebukuro 以外に無い（王子の Pilates Studio M は別の実在店）。削除はページ数が変わるため判断待ち
 - 着手可の確認: pilates-boomerang-method の★8個は図の「★ここで止まれること」の目印（評価ではない）と LAVA の PR 広告文＝変更不要
+
+### 2026-11-14 12:00 成長ルーチン: 浜松町・大門の駅別早見表を冒頭へ・府中に CP 料金の答え・生駒/尼崎/池尻大橋/藤が丘の h1 直下に早見表・ブリージングの定義（source 496dc7f9 / deploy 4d80467180・反映約1.5分）
+- 公式照合は調査エージェント3体（計測リンクは開かず公式ドメイン直）＋本体で主要値を保存HTMLから再確認（11/14）。素材は /tmp/g1114/biyori-work/agent{A,B,C}/
+- hamamatsucho（11/4 から10日）: 旧 #daimon-trial を AreaQuickAnswer 直下へ移し「大門駅・浜松町駅側／田町駅・三田駅側」に分け、別途かかる費用（the SILK 施設利用料700・zen 設備運営管理費550・入会金33,000→当日0円）と初心者向けの条件の列を追加。キャンペーン期限（the SILK 11/30予約・12/14来店、zen 11月中の体験）を要点と表に。訂正: zen「全国80店舗以上」→公式「全国150店舗」、三田「田町駅西口」→「田町駅」、CP 入会金「税込」→税表記なし、B&B の「キッズスペース完備」「グループレッスンあり」は公式（店舗・料金・トップ）に記載なし→削除し FAQ も修正。title 不変。**12/1 以降に the SILK・zen のキャンペーン表記を再確認**
+- 競合（WebSearch は US 限定で日本の上位を返さず。拡張検索で plizgym・yogajournal・pilates-navi・pilatesguy 等を確認）: 駅別の整理・体験料金比較が競合にあり→上記表で対応。未掲載で公式確認できた店＝Golcore（芝大門1-4-7・大門駅2分・体験8,800円）・Spinel.GYM 浜松町（芝公園駅3分）＝掲載は判断待ち（N選が変わる）
+- fuchu: h1 直下に AreaQuickAnswer（CP 府中 月4 13,090／月8 24,090／通い放題 37,290・税表記なし、入会金5,500・事務手数料2,200 税込、11月入会キャンペーン）。CP 住所「府中町」→宮町2-16-7 NSビル1F、営業時間を曜日別に。zen 府中（GRADE 02）プライベート体験 9,900→8,250円〜、入会金22,000・設備550。FAQ の相場「〜11,990円」→公式2店の 9,625〜13,090円
+- ikoma/amagasaki/ikejiri-ohashi/fujigaoka: `#by-station` 早見表（駅徒歩・月額下限・体験・入会時費用・出典・確認日）を h1 直下に新設。カードの「詳細は公式」「徒歩圏内」を公式値に
+  - 池尻大橋: **ELEMENT に月4回22,000円のプランは無い**（月8回31,200〜・パーソナルジム・徒歩10分・店名「池尻大橋店」）、**ピラティスK は池尻大橋に店舗なし**→カードを中目黒店（男女兼用・月4 13,420）に、YUZU 住所 世田谷区池尻→目黒区東山3-3-2・徒歩1分、Aru・Habit の料金を公式値に
+  - 尼崎: Rintosull 阪神尼崎は女性専用・定休 日曜/第4水曜・西口徒歩2分、URBAN CLASSIC（料金は画像 alt）・アヴニール武庫之荘・SynerGym（「尼崎エリア最安級」削除）の住所・料金・定休
+  - 藤が丘: Excel・アクセ・Nag の料金・住所・定休、Nag「星ヶ丘駅直結」→6番出入口徒歩1分、「東山線1駅」の誤り削除
+  - 生駒: data/area-studios.ts の ikoma のみ（アヴニール月額、pilates K 施設維持費825）
+  - ★ rating は判断待ちで不変
+- pilates-breathing: 冒頭に「ブリージング（胸式呼吸）とは」の定義と手順表（記事内の既存内容のみ・updatedAt 11-14）
+- next build 直接・sitemap は7頁のみ 11-14。precheck ✅ 589頁・計測リンク deploy 3,774→3,774・src 1,915→1,915・functions/api 4本保全・text 変更は7頁のみ
+- 未対応: fuchu 予算カード「16,000〜29,000円」に CP 通い放題37,290円、CTA「無料〜3,850円」、6sense・STUDIO U は今日未照合。尼崎/生駒/藤が丘の「パーソナル 1回 8,000〜15,000円」等の一般目安は根拠不明のまま
