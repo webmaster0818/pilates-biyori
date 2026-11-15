@@ -176,7 +176,7 @@ const studios = [
     officialUrl: 'https://t.felmat.net/fmcl?ak=U11199J.1.V154352I.U1357808',
     image: '/images/studios/element.webp',
     price: '月4回 22,000円〜（税込）',
-    trial: 'カウンセリング＋体験トレーニング 3,300円（体験当日の入会で無料）',
+    trial: 'カウンセリング＋体験トレーニング 3,300円（体験当日に入会すると体験費用はかかりません）',
     trialSource: { url: 'https://element-gym.com/element-top/pilates/pilates-all/nerima/', checkedAt: '2026年11月15日' },
     features: ['マンツーマン', '30分レッスン', '通い放題プランあり', '練馬駅徒歩5分'],
     description: 'マンツーマンのパーソナルマシンピラティススタジオです。1回30分から受けられ、ウェア・シューズは無料レンタルです（公式の店舗ページ・2026年11月15日確認）。',
