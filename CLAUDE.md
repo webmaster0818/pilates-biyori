@@ -1510,3 +1510,10 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - pilates-breathing: 冒頭に「ブリージング（胸式呼吸）とは」の定義と手順表（記事内の既存内容のみ・updatedAt 11-14）
 - next build 直接・sitemap は7頁のみ 11-14。precheck ✅ 589頁・計測リンク deploy 3,774→3,774・src 1,915→1,915・functions/api 4本保全・text 変更は7頁のみ
 - 未対応: fuchu 予算カード「16,000〜29,000円」に CP 通い放題37,290円、CTA「無料〜3,850円」、6sense・STUDIO U は今日未照合。尼崎/生駒/藤が丘の「パーソナル 1回 8,000〜15,000円」等の一般目安は根拠不明のまま
+
+### 2026-11-15 朝ルーチン: BREST モニター募集は継続（変更なし）・zen aggregate 16行は 11/13 対応済み・ELEMENT 練馬店カードを公式どおりに（source 8ed01bc1/1071c658 / deploy 151d5c5e38）
+- BREST（11/15 09:20 公式直・brest-gym.jp/studio/{hongo-sanchome,daikanyama,futakotamagawa,chigasaki,sagamiono,awaji,gofukumachi}/）: 7店とも「モニター会員募集」バナー（banner-1_monitor_500.png・Last-Modified 10/29・100,761 bytes＝同じ画像）継続・終了/締切の表記なし→カードは戻さない。店舗別月額は 11/14 と同じ（3店＝20,680/25,080/41,580/47,080、4店＝22,880）。/news/ 最新 11/15 は会員の体験記（料金改定ではない）→未変更
+- zen place aggregate 16行: 11/13（deploy 980c29b167）で公式値に更新済み＝今日の変更なし
+- ELEMENT 練馬店（element-gym.com/element-top/pilates/pilates-all/nerima/ 11/15）: 月4回フルタイム22,000・月4回ミックス25,500・月6回ミックス40,000・月8回フルタイム40,000（デイ36,000）・全日通い放題55,000、入会金33,000（初回体験後の入会で16,500）、体験 カウンセリング＋体験トレーニング3,300円（当日入会で体験費用なし）、豊玉北6-14-3 CBS練馬ビル4F・西武池袋線練馬駅徒歩5分・10:00〜22:00。カードと aggregate の「月額 38,280円〜（通い放題）」「月8回33,000」は公式に無い→訂正。体験欄は「無料」を含めない言い方にした（含めると無料体験に数えられる）。練馬の無料体験割合 67%→50%（体験料金を確認できた店 3→4）
+- ⚠️ELEMENT 川越店（/area/kawagoe/ カード・aggregate）は公式のピラティス店舗一覧（11/15・70店）に無い＝削除は件数が変わるため判断待ち。練馬の相場表「パーソナル 1回あたり3,750円〜38,280円」「体験 無料〜2,200円」は月額との混在・ELEMENT 3,300円が範囲外＝未対応
+- next build 直接・sitemap は nerima のみ 11-15。precheck ✅・計測リンク out/deploy 5,613→5,613・functions/api 4本保全・text 変更は2頁（/area/nerima/・/brands/element/）
