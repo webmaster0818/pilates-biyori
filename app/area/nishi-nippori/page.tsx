@@ -8,6 +8,7 @@ import Script from 'next/script'
 import { PriceComparisonTable } from '@/components/PriceComparisonTable'
 import { AreaMarketComparison } from '@/components/AreaMarketComparison'
 import { AreaConclusion } from '@/components/AreaConclusion'
+import { AreaQuickAnswer } from '@/components/AreaQuickAnswer'
 import { AreaModifierSections } from '@/components/AreaModifierSections'
 import { FAQSchema } from '@/components/FAQSchema'
 import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
@@ -18,7 +19,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/nishi-nippori/' },
   title: '西日暮里のピラティス5選｜日暮里・千駄木の駅別早見表と公式料金で比較',
-  description: '西日暮里から1駅の日暮里駅・千駄木駅周辺のピラティス5か所を、駅別早見表と公式料金で比較。URBAN CLASSIC PILATES 日暮里（税込8,580円〜・無料体験）、Rintosull日暮里店、ソエルスタジオ、zen place 千駄木、YUZU日暮里店（2026年10月17日確認）。',
+  description: '西日暮里から1駅の日暮里・千駄木のピラティス5か所を公式で比較（2026年11月16日確認）。千駄木駅徒歩2分のzen placeは体験1,000円〜、日暮里駅徒歩1分のURBAN CLASSICは月4回8,580円・体験無料。駅別早見表つき。',
   keywords: 'ピラティス,西日暮里,日暮里,千駄木,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -118,9 +119,9 @@ const studios = [
     name: 'パーソナルマシンピラティスYUZU 日暮里店',
     image: '/images/studios/yuzu-pilates.webp',
     price: '月2プラン 16,800円／月4プラン 31,200円／月6プラン 43,200円（税込）',
-    trial: '体験 5,500円（税込）',
+    trial: '体験 500円（税込）',
     features: ['日暮里駅徒歩5分', 'パーソナル（マンツーマン）', 'マシンピラティス', '体験当日入会で入会金無料'],
-    description: 'マンツーマンのマシンピラティススタジオです。日暮里駅から徒歩5分です。月額は月2プラン16,800円（1回8,400円）・月4プラン31,200円（1回7,800円）・月6プラン43,200円（1回7,200円）、入会金は22,000円で体験当日の入会に限り無料です。体験は5,500円です（いずれも税込・公式店舗ページ・2026年10月17日確認）。ウェアは1回500円、靴下は1回100円でレンタルできます。',
+    description: 'マンツーマンのマシンピラティススタジオです。日暮里駅から徒歩5分です。月額は月2プラン16,800円（1回8,400円）・月4プラン31,200円（1回7,800円）・月6プラン43,200円（1回7,200円）、入会金は22,000円で体験当日の入会に限り無料です。体験は500円です（いずれも税込・公式店舗ページ・2026年11月16日確認）。ウェアは1回500円、靴下は1回100円でレンタルできます。',
     access: '「日暮里駅」徒歩5分',
     address: '〒116-0013 東京都荒川区西日暮里2丁目28-8 塩田ビル102',
     popularPlan: { name: '月4プラン', description: 'マンツーマンのマシンピラティス月4回です。', price: '31,200円（税込）' },
@@ -139,7 +140,7 @@ const faqs = [
   },
   {
     question: '西日暮里エリアの料金相場は？',
-    answer: 'マシンのグループ月4回は、URBAN CLASSICが税込8,580円、ソエルスタジオが税込9,878円、Rintosull日暮里店が9,800円（税込）、zen place 千駄木のリフォーマーグループが15,400円（税込）です。マンツーマンのYUZUは月4プラン31,200円（税込）です。体験は無料〜5,500円です（各公式・2026年10月17日確認）。',
+    answer: 'マシンのグループ月4回は、URBAN CLASSICが税込8,580円、ソエルスタジオが税込9,878円、Rintosull日暮里店が9,800円（税込）、zen place 千駄木のリフォーマーグループが15,400円（税込）です。マンツーマンのYUZUは月4プラン31,200円（税込）です。体験は無料〜3,000円（zen place のプライベート体験 9,900円〜を除く）です（各公式・2026年11月16日確認）。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -186,7 +187,7 @@ export default function NishiNipporiPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月06日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月16日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス西日暮里おすすめ5選<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較
@@ -206,7 +207,12 @@ export default function NishiNipporiPage() {
             </nav>
           </div>
         </section>
-        <section className="py-6 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-xl md:text-2xl font-bold text-warm-900 mb-3">西日暮里のピラティス早見表｜駅徒歩・月額・体験</h2><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ</th><th className="px-4 py-3 text-left">最寄り駅（西日暮里から1駅）</th><th className="px-4 py-3 text-left">月額（税込）</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">形式</th></tr></thead><tbody><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">URBAN CLASSIC PILATES 日暮里店</td><td className="px-4 py-3">日暮里駅 徒歩1分</td><td className="px-4 py-3">マンスリー4 8,580円（3ヶ月目から運営管理費 月480円）</td><td className="px-4 py-3">無料（要予約）</td><td className="px-4 py-3">マシン・サーキット</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Rintosull 日暮里店（女性専用）</td><td className="px-4 py-3">日暮里駅東口 徒歩1分</td><td className="px-4 py-3">月4回 9,800円</td><td className="px-4 py-3">無料体験会</td><td className="px-4 py-3">マシン・グループ</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ソエルスタジオ 日暮里店</td><td className="px-4 py-3">日暮里駅東口 徒歩2分</td><td className="px-4 py-3">ピラティス4プラン 9,878円</td><td className="px-4 py-3">初回予約の方は無料</td><td className="px-4 py-3">マシン</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">パーソナルマシンピラティスYUZU 日暮里店</td><td className="px-4 py-3">日暮里駅 徒歩5分</td><td className="px-4 py-3">月2プラン 16,800円／月4プラン 31,200円</td><td className="px-4 py-3">5,500円</td><td className="px-4 py-3">マンツーマン</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">zen place pilates 千駄木スタジオ</td><td className="px-4 py-3">千駄木駅2番出口 徒歩2分</td><td className="px-4 py-3">マット月4回 10,450円／マシン月4回 15,400円＋設備運営管理費 月550円</td><td className="px-4 py-3">マットグループ 1,000円／マシングループ 3,000円</td><td className="px-4 py-3">マット・マシンのグループ・プライベート</td></tr></tbody></table></div><p className="text-warm-600 leading-relaxed mt-4 text-sm">西日暮里駅を最寄りとして公式に案内しているピラティス専門スタジオは、今回の確認では見つかりませんでした。掲載スタジオはJR山手線で1駅の日暮里駅、千代田線で1駅の千駄木駅の近くにあります。</p><p className="text-xs text-warm-500 mt-2 leading-relaxed">出典：<a href="https://urbanclassic.jp/pilates-studio/nippori/" className="underline" rel="nofollow noopener" target="_blank">URBAN CLASSIC 日暮里店</a>／<a href="https://rintosull.jp/shop/tokyo/nippori/" className="underline" rel="nofollow noopener" target="_blank">Rintosull 日暮里店</a>／<a href="https://lp.soelu.com/studio_new_nippori/index.html" className="underline" rel="nofollow noopener" target="_blank">ソエルスタジオ 日暮里店</a>／<a href="https://yuzu-pilates.com/studios/nippori/" className="underline" rel="nofollow noopener" target="_blank">YUZU 日暮里店</a>／<a href="https://www.zenplace.co.jp/studios/pilates-sendagi" className="underline" rel="nofollow noopener" target="_blank">zen place 千駄木スタジオ</a>／<a href="https://www.zenplace.co.jp/price" className="underline" rel="nofollow noopener" target="_blank">zen place 料金</a>（いずれも公式・2026年11月6日確認）</p></div></section>
+        <AreaQuickAnswer areaName="西日暮里" rows={[
+          { label: '西日暮里駅', text: '西日暮里駅を最寄りとして公式に案内しているピラティス専門スタジオは、今回の確認では見つかりませんでした。掲載の5か所は、JR山手線で1駅の日暮里駅と、千代田線で1駅の千駄木駅の近くです。' },
+          { label: '千駄木駅', text: '千駄木駅から歩けるのは zen place pilates 千駄木スタジオ（千駄木駅2番出口 徒歩2分・男女共用）。マット月4回 10,450円／リフォーマーグループ月4回 15,400円＋設備運営管理費 月550円、体験はマット初回1,000円・マシン初回3,000円、営業は平日 8:00〜21:00・土日祝 7:40〜20:00です。' },
+          { label: '日暮里駅', text: 'URBAN CLASSIC（徒歩1分・マンスリー4 8,580円・体験無料）、Rintosull（東口徒歩1分・女性専用・月4回 9,800円・無料体験会・毎週火曜定休）、ソエルスタジオ（東口徒歩2分・ピラティス4プラン 9,878円・初回無料）、YUZU（徒歩5分・マンツーマン月4プラン 31,200円・体験500円）です。' },
+        ]} note="料金は税込・各スタジオの公式ページの表記（2026年11月16日確認）。駅徒歩は公式の表記です。" />
+        <section className="py-6 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-xl md:text-2xl font-bold text-warm-900 mb-3">西日暮里のピラティス早見表｜駅徒歩・月額・体験</h2><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ</th><th className="px-4 py-3 text-left">最寄り駅（西日暮里から1駅）</th><th className="px-4 py-3 text-left">月額（税込）</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">形式</th></tr></thead><tbody><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">URBAN CLASSIC PILATES 日暮里店</td><td className="px-4 py-3">日暮里駅 徒歩1分</td><td className="px-4 py-3">マンスリー4 8,580円（3ヶ月目から運営管理費 月480円）</td><td className="px-4 py-3">無料（要予約）</td><td className="px-4 py-3">マシン・サーキット</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Rintosull 日暮里店（女性専用）</td><td className="px-4 py-3">日暮里駅東口 徒歩1分</td><td className="px-4 py-3">月4回 9,800円＋運営管理費 月680円</td><td className="px-4 py-3">無料体験会</td><td className="px-4 py-3">マシン・グループ</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ソエルスタジオ 日暮里店</td><td className="px-4 py-3">日暮里駅東口 徒歩2分</td><td className="px-4 py-3">ピラティス4プラン 9,878円</td><td className="px-4 py-3">初回予約の方は無料</td><td className="px-4 py-3">マシン</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">パーソナルマシンピラティスYUZU 日暮里店</td><td className="px-4 py-3">日暮里駅 徒歩5分</td><td className="px-4 py-3">月2プラン 16,800円／月4プラン 31,200円</td><td className="px-4 py-3">500円</td><td className="px-4 py-3">マンツーマン</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">zen place pilates 千駄木スタジオ</td><td className="px-4 py-3">千駄木駅2番出口 徒歩2分</td><td className="px-4 py-3">マット月4回 10,450円／マシン月4回 15,400円＋設備運営管理費 月550円</td><td className="px-4 py-3">マットグループ 1,000円／マシングループ 3,000円</td><td className="px-4 py-3">マット・マシンのグループ・プライベート</td></tr></tbody></table></div><p className="text-warm-600 leading-relaxed mt-4 text-sm">西日暮里駅を最寄りとして公式に案内しているピラティス専門スタジオは、今回の確認では見つかりませんでした。掲載スタジオはJR山手線で1駅の日暮里駅、千代田線で1駅の千駄木駅の近くにあります。</p><p className="text-xs text-warm-500 mt-2 leading-relaxed">出典：<a href="https://urbanclassic.jp/pilates-studio/nippori/" className="underline" rel="nofollow noopener" target="_blank">URBAN CLASSIC 日暮里店</a>／<a href="https://rintosull.jp/shop/tokyo/nippori/" className="underline" rel="nofollow noopener" target="_blank">Rintosull 日暮里店</a>／<a href="https://lp.soelu.com/studio_new_nippori/index.html" className="underline" rel="nofollow noopener" target="_blank">ソエルスタジオ 日暮里店</a>／<a href="https://yuzu-pilates.com/studios/nippori/" className="underline" rel="nofollow noopener" target="_blank">YUZU 日暮里店</a>／<a href="https://www.zenplace.co.jp/studios/pilates-sendagi" className="underline" rel="nofollow noopener" target="_blank">zen place 千駄木スタジオ</a>／<a href="https://www.zenplace.co.jp/price" className="underline" rel="nofollow noopener" target="_blank">zen place 料金</a>（いずれも公式・2026年11月16日確認）</p></div></section>
         <AreaConclusion studios={studios} areaName="西日暮里" />
 
 
@@ -288,7 +294,7 @@ export default function NishiNipporiPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">無料〜5,500円</td>
+                    <td className="px-4 py-3">無料〜3,000円（zen place のプライベート体験 9,900円〜を除く）</td>
                   </tr>
                 </tbody>
               </table>
@@ -543,7 +549,7 @@ export default function NishiNipporiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  URBAN CLASSIC・Rintosull・ソエルスタジオは無料、zen place 千駄木は初回1,000円（マット）、YUZUは5,500円（税込）で体験できます。
+                  URBAN CLASSIC・Rintosull・ソエルスタジオは無料、zen place 千駄木は初回1,000円（マット）、YUZUは500円（税込）で体験できます。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -613,7 +619,7 @@ export default function NishiNipporiPage() {
               体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              体験レッスンは無料〜5,500円です（スタジオにより異なります）。<br />
+              体験レッスンは無料〜3,000円です（スタジオにより異なります）。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
