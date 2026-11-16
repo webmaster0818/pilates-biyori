@@ -1525,3 +1525,10 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - 方南町（公式 11/15）: NORI 月4 10,000+税・体験1,000、COCOLANCE 2店 35,200・体験無料・入会16,500（当日）、zen GRADE01 マット10,450・体験1,000/3,000・入会33,000・設備550、SYNC. 34,760・ペア24,640・体験500、ELEMENT 笹塚 月8 31,200・体験3,300＝すべて一致→未変更
 - 未変更: online-pilates-koka（料金表は pilates-online に役割分担済み）、asagaya まるはな（公式サイトを特定できず＝料金・体験は未照合のまま）
 - next build 直接・sitemap は2頁のみ 11-15。precheck ✅ 589頁・計測リンク deploy 3,798→3,798・src 1,923→1,923・functions/api 4本保全・text 変更は2頁のみ
+
+### 2026-11-16 朝ルーチン: BREST モニター募集は継続（変更なし）・練馬の相場表「体験レッスン」とCTAの体験料金を公式値に（source 089467d5 / deploy 005af4bee4）
+- BREST（11/16 09:17 公式直・brest-gym.jp/studio/{hongo-sanchome,daikanyama,futakotamagawa,chigasaki,sagamiono,awaji,gofukumachi}/）: 7店とも「モニター会員募集」バナー（banner-1_monitor_500.png・Last-Modified 10/29・100,761 bytes＝同じ画像）継続・終了/締切の表記なし→カードは戻さない。店舗別月額は 11/15 と同じ（3店＝20,680/25,080/41,580/47,080、4店＝22,880）。/news/ 最新 11/15＝改定告知なし→未変更。本番 /brands/brest/・代官山・茅ヶ崎に税込500円/先着20名が出ていることを確認
+- zen place aggregate 16行: 11/13（deploy 980c29b167）で対応済み＝今日の変更なし
+- 練馬 相場表「体験レッスン 無料〜2,200円」・CTA「初回限定の体験レッスン無料〜3,850円」→「0円〜3,300円」（公式 11/16：ピラティスミラー練馬 体験0円〈2,200円の記載は HTML コメント内＝非表示〉・Pilates Mee 練馬 0円・Rintosull 練馬 無料体験会0円・zen place 練馬 グループ初回1,000／マシングループ初回3,000／プライベート9,900円〜・ELEMENT 練馬 3,300円）。Olulu 練馬は公式サイトを特定できず（olulu-yoga.com は大森）＝範囲の根拠に含めない
+- ⚠️未対応: 相場表のグループ/パーソナル行（3,750〜38,280円＝ELEMENT 旧値・Mee 混在）は Mee 混在 A/B と一緒に。Rintosull 練馬カードの体験「体験レッスンあり」は公式「無料体験会 0円」（変えると無料体験の割合が変わる＝未変更）
+- next build 直接・sitemap は nerima のみ 11-16。precheck ✅・計測リンク out/deploy 2,987→2,987（html）・functions/api 4本保全・text 変更は1頁（/area/nerima/）
