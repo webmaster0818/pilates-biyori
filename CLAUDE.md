@@ -1532,3 +1532,11 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - 練馬 相場表「体験レッスン 無料〜2,200円」・CTA「初回限定の体験レッスン無料〜3,850円」→「0円〜3,300円」（公式 11/16：ピラティスミラー練馬 体験0円〈2,200円の記載は HTML コメント内＝非表示〉・Pilates Mee 練馬 0円・Rintosull 練馬 無料体験会0円・zen place 練馬 グループ初回1,000／マシングループ初回3,000／プライベート9,900円〜・ELEMENT 練馬 3,300円）。Olulu 練馬は公式サイトを特定できず（olulu-yoga.com は大森）＝範囲の根拠に含めない
 - ⚠️未対応: 相場表のグループ/パーソナル行（3,750〜38,280円＝ELEMENT 旧値・Mee 混在）は Mee 混在 A/B と一緒に。Rintosull 練馬カードの体験「体験レッスンあり」は公式「無料体験会 0円」（変えると無料体験の割合が変わる＝未変更）
 - next build 直接・sitemap は nerima のみ 11-16。precheck ✅・計測リンク out/deploy 2,987→2,987（html）・functions/api 4本保全・text 変更は1頁（/area/nerima/）
+
+### 2026-11-16 12:00 成長ルーチン: 新大阪・水道橋/後楽園・西日暮里・online-vs-studio を公式 11/16 と照合（source c6f217fd / deploy 58b0699f96＋空コミット be111c5b30・反映約19分＝空コミット後すぐ）
+- 公式直（計測リンクは開かず）で取得：/tmp/g1116/biyori-pilates-work/html/。競合は WebSearch extended で日本の上位を取得（sakura-pilates・pilates-beginning・pilatesguy・yogajournal・cocofit・plizgym・pilatis.blog・fitpalette・pilates-navi 等）
+- shin-osaka: アヴニール「新大阪駅7番出口 徒歩5分」→公式「御堂筋線 新大阪駅7番出口 徒歩6分／JR正面口10番出口 徒歩10分」（JR「新大阪駅」7番出口は誤り）。「新幹線の改札から近いのはアヴニール」は根拠なし→徒歩分の事実に。IMPROVE は公式サイト improve-osaka.com/pilatesyoga.html に 4回券11,000・フリーパス15,000（いずれも1ヶ月有効）・初回/2回目 各1,500（AirReserve・LINE予約500円引き）→「月額制の記載なし」を訂正・出典に公式を追加。Rintosull 江坂の営業時間が公式店舗ページに掲載（月〜金 8:30〜22:20／土祝 7:15〜18:10）→「記載なし」を訂正。Mee・zen 江坂は一致。title を「新大阪のピラティス・マシンピラティス5選｜体験料金と月額を新大阪駅・西中島南方駅からの徒歩分で比較」（前回 title 変更なし＝11/9 以降の変更なし）、description に体験0円・月4回の値
+- nishi-nippori: h1 直下に AreaQuickAnswer（西日暮里駅／千駄木駅＝zen place 千駄木 2番出口徒歩2分・料金・体験・営業時間／日暮里駅）。YUZU 日暮里 体験 5,500→500円（公式の日暮里店料金プラン「体験予約 ¥500（税込）」）→相場表・CTA・FAQ の「無料〜5,500円」→「無料〜3,000円（zen プライベート 9,900円〜を除く）」。Rintosull 日暮里 表に運営管理費 680円。title 不変・description 更新。競合が載せるバーオソル千駄木・astage は公式未照合で未掲載
+- suidobashi: 早見表8店すべて公式と一致（IVY・COCOLANCE・ミラー・zen 神保町/飯田橋・pilates K・URBAN CLASSIC〈料金は画像 alt〉・Rintosull 秋葉原）→確認日のみ 11/16。title/h1 は既に「水道橋・後楽園」＝不変。description を答え入りに
+- online-vs-studio: UCHIYOGA+ 1,080（1/8 まで）・INVANA 1,800/9,600・24/7 3,278/4,378・zen online 3,300〜13,200 すべて一致。安い順表に SOELU ライト（12ヶ月 3,278円・最初の1ヶ月100円・12ヶ月未満解約は違約金／1ヶ月コース 4,378円）を「4（同額）」で追加、ふたつきを6位に。LEAN BODY は SPA で今日も読めず＝10/26 値のまま。ふたつきも 10/26 値のまま
+- next build 直接・sitemap は4頁のみ 11-16。precheck ✅ 589頁・計測リンク out/deploy 3,798→3,798・functions/api 4本保全・text 変更は4頁のみ
