@@ -367,7 +367,7 @@ export default function NerimaPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">無料〜2,200円</td>
+                    <td className="px-4 py-3">0円〜3,300円（体験料金を公式で確認できた5店：ピラティスミラー・Pilates Mee・Rintosull 0円、zen place グループ体験 1,000円・マシングループ体験 3,000円、ELEMENT 3,300円。zen place のプライベート体験は 9,900円〜・2026年11月16日確認）</td>
                   </tr>
                 </tbody>
               </table>
@@ -659,7 +659,7 @@ export default function NerimaPage() {
               体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,850円です。<br />
+              体験レッスンは0円〜3,300円です（公式で確認できた5店・2026年11月16日）。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
