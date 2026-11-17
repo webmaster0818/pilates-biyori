@@ -1540,3 +1540,10 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - suidobashi: 早見表8店すべて公式と一致（IVY・COCOLANCE・ミラー・zen 神保町/飯田橋・pilates K・URBAN CLASSIC〈料金は画像 alt〉・Rintosull 秋葉原）→確認日のみ 11/16。title/h1 は既に「水道橋・後楽園」＝不変。description を答え入りに
 - online-vs-studio: UCHIYOGA+ 1,080（1/8 まで）・INVANA 1,800/9,600・24/7 3,278/4,378・zen online 3,300〜13,200 すべて一致。安い順表に SOELU ライト（12ヶ月 3,278円・最初の1ヶ月100円・12ヶ月未満解約は違約金／1ヶ月コース 4,378円）を「4（同額）」で追加、ふたつきを6位に。LEAN BODY は SPA で今日も読めず＝10/26 値のまま。ふたつきも 10/26 値のまま
 - next build 直接・sitemap は4頁のみ 11-16。precheck ✅ 589頁・計測リンク out/deploy 3,798→3,798・functions/api 4本保全・text 変更は4頁のみ
+
+### 2026-11-17 朝ルーチン（15時台にやり直し）: BREST モニター募集は継続（変更なし）・府中 CTA の体験料金と STUDIO U の体験料を公式値に
+- BREST（11/17 15:05 公式直・brest-gym.jp/studio/{hongo-sanchome,daikanyama,futakotamagawa,chigasaki,sagamiono,awaji,gofukumachi}/）: 7店とも「モニター会員募集」バナー（banner-1_monitor_500.png・Last-Modified 10/29・100,761 bytes＝同じ画像）継続・終了/締切の表記なし→カードは戻さない。店舗別月額は 11/16 と同じ（3店＝20,680/25,080/41,580/47,080、4店＝22,880・画像 alt）。/news/ 最新 11/15＝改定告知なし→未変更
+- 点検 11/17: /brands/ C5 は判断待ちで title 不変（本文に口コミ・評判の実データなし）、/editors/ C3 は読者を指す文（「通っている方」）の誤検知＝11/14〜11/16 と同じ
+- 府中（公式 11/17）: CTA「初回限定の体験レッスン無料〜3,850円」→「体験料金は無料〜5,500円（公式で確認した範囲。zen place のプライベート体験 8,250円〜を除く）」。根拠＝CLUB PILATES 府中 30分体験 無料／zen place 府中 マット1,000・マシン3,000（キャンペーン）・プライベート 8,250円〜／PERSONAL TRAINING STUDIO U 府中（p-studio-u-fuchu.com/price/）体験トレーニング 50分 5,500円（税込）・月2回 22,000／月4回 39,600／月8回 70,400＝カードと一致。STUDIO U カードの体験「体験レッスンあり」→公式値。studio 6sense の「体験レッスン 1,000円」は公式（トップ・/class/）に記載なし＝未変更（月会員 6,000・チケット10枚 11,000 は一致）
+- 未対応: 予算カード「16,000〜29,000円」に CP 通い放題 37,290円（帯ずれ A/B と一緒に）。STUDIO U 入会金 33,000円（当日入会 11,000円）はカード未記載
+- next build 直接・sitemap は fuchu のみ 11-17。precheck ✅ 589頁・計測リンク deploy 3,806→3,806・src 1,936→1,936・functions/api 4本保全・text 変更は1頁（/area/fuchu/）
