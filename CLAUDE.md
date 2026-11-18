@@ -1553,3 +1553,12 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - BREST（11/18 09:2x 公式直・7店）: 「モニター会員募集」バナー（banner-1_monitor_500.png・Last-Modified 10/29・100,761 bytes）継続・終了表記 0→カードは戻さない。/news/ 最新 11/15
 - STUDIO IVY（afb 11/17 提携承認）: 本番で STUDIO IVY を載せているのはエリア頁52（ブランド頁なし）・店名の異なり44（「赤坂エリア」「目黒エリア」「大阪」等の店舗不特定を含む）・公式店舗URL 16種。afb のリンクは未作成
 - 点検 11/18: /brands/ C5 は判断待ちで title 不変、/editors/ C3 は読者を指す文（「通っている方」）の誤検知＝11/14〜11/17 と同じ
+
+### 2026-11-18 12:00 成長ルーチン: 京都駅・御茶ノ水・学芸大学・光が丘の早見表を公式 11/18 と照合（source 9aba1999 / deploy d309b52b3a・反映約17分）
+- 公式直（計測リンクは開かず）: /tmp/g1118/biyori-pilates-work/html/。競合は WebSearch extended で日本の上位を取得（sakura-pilates・fitpalette・pilatesguy・CLUB PILATES コラム・pilates-navi・yogajournal・arcrea・getfit・kosupapilates 等）
+- kyoto-station: 全6行一致。Rintosull 京都駅前店の営業時間が公式に掲載（月〜金 8:40〜22:10・土祝 7:40〜18:50）→「記載なし」を訂正（表・カード）。11月末までの「系列全店通い放題 3ヶ月 月1,980円（通常16,800円・条件あり）」を表に注記。確認元リンクに Hain（URL は /store/kyoto-ekimae/）・Rintosull・K・zen を追加。title 不変（c5）。⚠️競合が載せる style pilates plus 京都駅前店は公式未照合で未掲載
+- ochanomizu: 全7店一致（YARD 月4回 9,680 は /menu/、ZERO は bodyworkstudio.jp/pilates/personallesson.html）。title「御茶ノ水・神保町のピラティス7選｜体験0円〜・月4回9,625円〜を駅徒歩分で比較【11月最新】」、早見表の上に神保町駅2分以内4店の答え。訂正: ZERO の「1回40分」→通常50分（体験40分）
+- gakugei-daigaku: 4店一致。競合が載せる zen place pilates 学芸大学（鷹番3-14-14 サーカス学芸大学B1・西口3分・G01・男女共用・平日8:00〜21:00/土日祝7:30〜18:00）を早見表に追加（カード未掲載＝計測リンク増やさず）。YUZU は料金表「体験予約 5,500円」とバナー「初回500円」が併存→表は 5,500 のまま注記。ミラーの「入会待ち」表記は HTML コメント内＝非表示。title「学芸大学のピラティスおすすめ4選｜体験0円〜・駅徒歩3〜4分の月額と定休日を比較」
+- hikarigaoka: title から地名3つを外す（効かなかった型）→「ピラティス光が丘おすすめ5選｜体験0円〜・月4回8,800円〜を駅別早見表で比較」。ルネサンス光が丘 ピラティススクール（A5出口徒歩10分・体験1,100円・定員15名・月曜休館・月会費は公式に記載なし）を表と FAQ に。ピラティス青空（pilates-aozora.com）を 11/18 確認＝一致。Rintosull 成増・zen 練馬の営業時間をカードに
+- shin-okubo: 8店とも公式 11/18 と一致・title に検索語と答えあり（9.6位 c1）＝変更なし
+- next build 直接・sitemap は4頁のみ 11-18。precheck ✅ 588頁・計測リンク out/deploy 3,798→3,798・src 1,923→1,923・functions/api 4本保全・text 変更は4頁のみ・/api/contact 400
