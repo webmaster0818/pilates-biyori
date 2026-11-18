@@ -554,6 +554,11 @@ export function StudioCardClient({ studio, index }: StudioCardProps) {
               // eslint-disable-next-line @next/next/no-img-element
               <img src="https://t.afi-b.com/lead/816076W/E9887623/u518546p" width={1} height={1} alt="" className="inline-block" style={{ border: 'none' }} />
             )}
+            {/* STUDIO IVY（afi-b・自由テキスト） */}
+            {studio.officialUrl?.includes('a=u15511L-8504149a') && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src="https://t.afi-b.com/lead/u15511L/E9887623/8504149a" width={1} height={1} alt="" className="inline-block" style={{ border: 'none' }} />
+            )}
             {/* LAVA（A8） */}
             {studio.officialUrl?.includes('a8mat=4BENDQ+6V2YDE+1O96+5YZ76') && (
               // eslint-disable-next-line @next/next/no-img-element

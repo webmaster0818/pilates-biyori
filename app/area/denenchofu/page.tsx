@@ -50,7 +50,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 奥沢店',
-    officialUrl: 'https://www.pilates-ivy.jp/studio/okusawa',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623',
     image: '/images/studios/studio-ivy.webp',
     price: '月2回 15,000円／月4回 28,000円／月8回 52,000円／月12回 75,000円（税込）', trial: '初回体験レッスン 4,500円（税込・通常1回8,800円・2026年11月11日 公式で確認）',
     features: ['1対1のパーソナル専門', '1レッスン50分', '男性も受講可', '奥沢駅徒歩4分'],

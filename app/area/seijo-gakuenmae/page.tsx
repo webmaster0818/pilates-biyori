@@ -110,7 +110,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 成城学園前',
-    officialUrl: 'https://www.pilates-ivy.jp/studio/seijougakuenmae',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623',
     image: '/images/studios/studio-ivy.webp',
     price: '月2回 15,000円／月4回 28,000円／月8回 52,000円（税込）',
     trial: '初回体験レッスン 4,500円（税込・50分）',

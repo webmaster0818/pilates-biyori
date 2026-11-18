@@ -148,6 +148,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 五反田',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623',
     image: '/images/studios/studio-ivy.webp',
     price: '月2回 15,000円〜',
     trial: '体験レッスン 4,500円',

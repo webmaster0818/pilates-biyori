@@ -183,6 +183,7 @@ export const areaStudios: Record<string, AreaData> = {
     studios: [
       {
         name: 'STUDIO IVY PILATES 盛岡店',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623',
         image: '/images/studios/personal-morioka.webp',
         rating: 4.5,
         price: '1レッスン 6,500円～',
@@ -4825,7 +4826,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'STUDIO IVY 西院店',
-        officialUrl: 'https://www.pilates-ivy.jp/studio/saiin',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623',
         price: '月2回 15,000円／月4回 28,000円（税込）',
         trial: '体験 通常4,500円（キャンペーンあり）',
         features: ['パーソナル専門', '完全プライベート', 'マシンピラティス'],
@@ -5087,7 +5088,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'STUDIO IVY 品川青物横丁店',
-        officialUrl: 'https://www.pilates-ivy.jp/studio/aomonoyokocho',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623',
         image: '/images/studios/studio-ivy.webp',
         price: 'BASIC月2回 15,000円／STANDARD月4回 28,000円（税込）',
         trial: '体験 4,500円（50分）',
@@ -5128,7 +5129,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'STUDIO IVY 銀座新富町店',
-        officialUrl: 'https://www.pilates-ivy.jp/studio/ginzashintomicho',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623',
         image: '/images/studios/studio-ivy.webp',
         price: 'BASIC月2回 15,000円／STANDARD月4回 28,000円（税込）',
         trial: '体験 4,500円（50分）',
@@ -6051,7 +6052,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'STUDIO IVY 上福岡店',
-        officialUrl: 'https://www.pilates-ivy.jp/studio/kamifukuoka',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623',
         price: 'BASIC月2回15,000円／STANDARD月4回28,000円／PREMIUM月8回52,000円',
         trial: '体験 4,500円',
         features: ['完全マンツーマン', 'パーソナルマシンピラティス', 'プライベート空間', 'オーダーメイド'],
@@ -6312,7 +6313,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'STUDIO IVY 上本町店',
-        officialUrl: 'https://www.pilates-ivy.jp/studio/uehonmachi',
+        officialUrl: 'https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623',
         price: '月2回15,000円／月4回28,000円／月8回52,000円',
         trial: '初回体験 4,500円',
         features: ['完全マンツーマン', 'パーソナル専門', '約80%が未経験者', '姿勢改善・ボディメイク'],

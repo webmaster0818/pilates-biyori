@@ -49,6 +49,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 広尾店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623',
     image: '/images/studios/studio-ivy.webp', reviewCount: 95,
     price: '1回 6,250円〜', trial: '体験レッスンあり',
     features: ['パーソナル専門', 'マシンピラティス', '完全個室', '全国112店舗'],

@@ -53,6 +53,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 後楽園店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623',
     image: '/images/studios/studio-ivy.webp',
     price: '月4回 28,000円（1レッスン 7,000円）〜月12回 75,000円（1レッスン 6,250円）',
     trial: '初回体験レッスン 4,500円（通常 8,800円・公式・2026年11月6日確認）',

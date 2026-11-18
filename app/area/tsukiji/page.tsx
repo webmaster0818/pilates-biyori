@@ -140,6 +140,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 銀座新富町店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623',
     image: '/images/studios/studio-ivy.webp',
     price: '月2回 15,000円〜',
     trial: '初回体験レッスン 4,500円（50分・税込）※公式に「初回体験 無料」キャンペーン（10/18〜11/30）の表示あり',

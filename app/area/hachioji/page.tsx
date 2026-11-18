@@ -88,6 +88,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 八王子店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623',
     image: '/images/studios/studio-ivy.webp',
     price: '月2回 15,000円 / 月4回 28,000円 / 月8回 52,000円',
     trial: '初回体験 無料（キャンペーン 11/11〜11/30・通常 4,500円・公式の店舗ページ 2026年11月13日確認）',

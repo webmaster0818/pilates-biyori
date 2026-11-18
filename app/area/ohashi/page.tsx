@@ -36,6 +36,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 福岡大橋店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623',
     image: '/images/studios/default-studio.webp',
     price: '1回 6,250円〜',
     trial: '体験レッスンあり',

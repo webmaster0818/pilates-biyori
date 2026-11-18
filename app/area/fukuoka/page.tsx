@@ -170,6 +170,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 福岡大橋店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623',
     image: '/images/studios/studio-ivy.webp',
     price: '要問合せ',
     trial: '体験レッスン あり',

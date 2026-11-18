@@ -115,6 +115,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 中目黒店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623',
     image: '/images/studios/studio-ivy.webp',
     price: '1レッスン 6,250円〜',
     trial: '初回体験レッスン 4,500円（50分・税込／公式の店舗ページ・2026年10月24日確認）',

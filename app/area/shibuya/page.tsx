@@ -68,6 +68,7 @@ const studios = [
   },
   {
     name: 'STUDIO IVY 渋谷',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623',
     image: '/images/studios/studio-ivy.webp', reviewCount: 566,
     price: '月2回 15,000円〜', trial: '体験レッスンあり',
     features: ['完全個室パーソナル', '月2回15,000円〜', 'マンツーマン指導', 'オーダーメイドプログラム'],
