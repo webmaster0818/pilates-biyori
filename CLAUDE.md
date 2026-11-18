@@ -1547,3 +1547,9 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - 府中（公式 11/17）: CTA「初回限定の体験レッスン無料〜3,850円」→「体験料金は無料〜5,500円（公式で確認した範囲。zen place のプライベート体験 8,250円〜を除く）」。根拠＝CLUB PILATES 府中 30分体験 無料／zen place 府中 マット1,000・マシン3,000（キャンペーン）・プライベート 8,250円〜／PERSONAL TRAINING STUDIO U 府中（p-studio-u-fuchu.com/price/）体験トレーニング 50分 5,500円（税込）・月2回 22,000／月4回 39,600／月8回 70,400＝カードと一致。STUDIO U カードの体験「体験レッスンあり」→公式値。studio 6sense の「体験レッスン 1,000円」は公式（トップ・/class/）に記載なし＝未変更（月会員 6,000・チケット10枚 11,000 は一致）
 - 未対応: 予算カード「16,000〜29,000円」に CP 通い放題 37,290円（帯ずれ A/B と一緒に）。STUDIO U 入会金 33,000円（当日入会 11,000円）はカード未記載
 - next build 直接・sitemap は fuchu のみ 11-17。precheck ✅ 589頁・計測リンク deploy 3,806→3,806・src 1,936→1,936・functions/api 4本保全・text 変更は1頁（/area/fuchu/）
+
+### 2026-11-18 朝ルーチン: /test-ikebukuro/ 削除（既定案A・11/17 宣言・回答なし）・BREST 継続・STUDIO IVY 掲載件数
+- /test-ikebukuro/（4/1 確認用・noindex・公式で確認できない店名を含む15店）を app から削除（de077247）。out/ に該当ページなし・sitemap/robots/サイト内リンクの参照 0。計測リンク out 3,782→deploy 3,782（削除ページは計測リンク 0）。functions/api 4本保全。⚠️`npm run build` の prebuild で sitemap の lastmod が72件今日に上がった→public/sitemap.xml を git の版に戻して out/ にコピー（次回からは `npx next build` 直接で）
+- BREST（11/18 09:2x 公式直・7店）: 「モニター会員募集」バナー（banner-1_monitor_500.png・Last-Modified 10/29・100,761 bytes）継続・終了表記 0→カードは戻さない。/news/ 最新 11/15
+- STUDIO IVY（afb 11/17 提携承認）: 本番で STUDIO IVY を載せているのはエリア頁52（ブランド頁なし）・店名の異なり44（「赤坂エリア」「目黒エリア」「大阪」等の店舗不特定を含む）・公式店舗URL 16種。afb のリンクは未作成
+- 点検 11/18: /brands/ C5 は判断待ちで title 不変、/editors/ C3 は読者を指す文（「通っている方」）の誤検知＝11/14〜11/17 と同じ
