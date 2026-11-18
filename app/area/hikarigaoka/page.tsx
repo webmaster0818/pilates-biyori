@@ -12,8 +12,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/hikarigaoka/' },
-  title: 'ピラティス光が丘おすすめ5選｜光が丘駅・練馬駅・成増駅の駅別早見表と公式料金',
-  description: '光が丘で通えるピラティススタジオ5か所を、光が丘駅・練馬駅・成増駅の駅別早見表で比較しています。光が丘駅徒歩13分のピラティス青空、練馬駅のCLUB PILATES・zen place、成増駅のRintosullなど、料金・体験は公式サイトで確認した情報（2026年11月7日・ピラティス青空は10月17日）です。',
+  title: 'ピラティス光が丘おすすめ5選｜体験0円〜・月4回8,800円〜を駅別早見表で比較',
+  description: '光が丘で通えるピラティスを駅別早見表で比較。光が丘駅からはルネサンス光が丘（A5出口徒歩10分・体験1,100円）とピラティス青空（徒歩13分）、大江戸線で乗り換えなしの練馬駅にCLUB PILATES（体験無料）とzen place、成増駅にRintosull（月4回8,800円）。2026年11月18日公式確認。',
   keywords: 'ピラティス,光が丘,東京都練馬区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -24,7 +24,7 @@ const studios = [
     price: '1回 10,000円／5回 46,500円／10回 88,000円（税表記なし）',
     trial: '体験レッスン＆カウンセリング 7,000円（初回限定）',
     features: ["光が丘駅徒歩13分", "完全予約制", "プライベートレッスン", "女性中心（男性は紹介のみ）"],
-    description: '光が丘駅から徒歩13分の、完全予約制のプライベートピラティススタジオです。レッスンは体験・通常とも1回1時間で、1回10,000円、5回46,500円（使用期限3ヶ月）、10回88,000円（使用期限5ヶ月）、スタートアッププログラム10回83,000円（使用期限1ヶ月）です。男性は紹介のみ受け付けています。キャンセルは24時間前までで、それ以降はキャンセル料がかかります（公式サイト・税表記なし・2026年10月17日確認）。詳しい住所は予約時に案内されます。',
+    description: '光が丘駅から徒歩13分の、完全予約制のプライベートピラティススタジオです。レッスンは体験・通常とも1回1時間で、1回10,000円、5回46,500円（使用期限3ヶ月）、10回88,000円（使用期限5ヶ月）、スタートアッププログラム10回83,000円（使用期限1ヶ月）です。男性は紹介のみ受け付けています。キャンセルは24時間前までで、それ以降はキャンセル料がかかります（公式サイト・税表記なし・2026年11月18日確認）。詳しい住所は予約時に案内されます。',
     access: '都営大江戸線「光が丘駅」徒歩13分',
     address: '東京都練馬区（詳しい住所は予約時に案内）',
     popularPlan: { name: '10回チケット', description: '1回1時間のプライベートレッスン10回分です（使用期限5ヶ月）。', price: '10回 88,000円（税表記なし）' },
@@ -39,13 +39,13 @@ const studios = [
     price: '月4回 8,800円（税込）',
     trial: '体験会 無料（約45分・ウェア/ソックス無料貸出）',
     features: ["成増駅南口徒歩30秒", "女性専用", "マシン（リフォーマー）グループ", "月4回8,800円"],
-    description: 'ホットヨガLAVAのグループが展開する女性専用のマシンピラティススタジオです。東武東上線「成増駅」南口から徒歩30秒です。月会費は4・フルタイム（月4回）8,800円、ライト・フルタイム（成増店＋1店舗・通い放題）13,800円、プレミアム フリー・フルタイム（LAVA等の系列全店通い放題）16,800円で、別途運営管理費が月680円かかります（いずれも税込・公式店舗ページ・2026年10月17日確認）。光が丘駅からは路線が異なります（光が丘駅からはバス等）。',
+    description: 'ホットヨガLAVAのグループが展開する女性専用のマシンピラティススタジオです。東武東上線「成増駅」南口から徒歩30秒です。月会費は4・フルタイム（月4回）8,800円、ライト・フルタイム（成増店＋1店舗・通い放題）13,800円、プレミアム フリー・フルタイム（LAVA等の系列全店通い放題）16,800円で、別途運営管理費が月680円かかります（いずれも税込・公式店舗ページ・2026年11月18日確認）。光が丘駅からは路線が異なります（光が丘駅からはバス等）。',
     access: '東武東上線「成増駅」南口 徒歩30秒',
     address: '東京都板橋区成増2-12-6 成増駅前ビル 3F',
     popularPlan: { name: '4・フルタイム（月4回）', description: '週1ペースで通う人向けのプランです。', price: '月4回 8,800円（税込）' },
     options: ['ライト・フルタイム 13,800円（税込）', 'プレミアム フリー・フルタイム 16,800円（税込）', '1回券 3,300円', '運営管理費 月680円（税込）'],
     userProfile: { ageRange: '公式サイトでご確認ください', genderRatio: '女性100%（女性専用）', purpose: ['姿勢改善', 'ボディメイク', '運動不足解消'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '毎週日曜・第4木曜', facilities: ['リフォーマー', '更衣室'] },
+    basicInfo: { hours: '月〜金 8:20〜22:20／土・祝 7:20〜19:20（公式店舗ページ・日によって異なる場合あり）', closed: '毎週日曜・第4木曜', facilities: ['リフォーマー', '更衣室'] },
   },
   {
     name: 'CLUB PILATES 練馬店',
@@ -58,7 +58,7 @@ const studios = [
     access: '「練馬駅」徒歩4分（公式店舗ページ）',
     address: '〒176-0012 東京都練馬区豊玉北6-14-12 相原ビル2F',
     popularPlan: { name: 'グループ月4回プラン（EFT4）', description: '最大12名のマシングループレッスンです。', price: '月4回 13,090円（税表記なし）' },
-    options: ['月8回 24,090円', '通い放題 37,290円', '入会金 5,500円・入会時の事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年10月17日確認）'],
+    options: ['月8回 24,090円', '通い放題 37,290円', '入会金 5,500円・入会時の事務手数料 2,200円（税込）', '料金は公式の店舗ページ（2026年11月18日確認）'],
     userProfile: { ageRange: '公式サイトでご確認ください', genderRatio: '男女とも利用可', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
     basicInfo: { hours: '月〜金 7:00〜21:00／土日 7:00〜17:30', closed: '公式の営業時間表に定休日の記載なし', facilities: ['リフォーマー', 'チェア'] },
   },
@@ -75,7 +75,7 @@ const studios = [
     popularPlan: { name: 'マットグループ月4回', description: 'マットグループレッスンです。', price: '月4回 10,450円（税込・グレード01）' },
     options: ['体験レッスン 1,000円（今だけ・公式表記）', 'マシングループ・プライベートあり', '設備運営管理費 月550円（税込）'],
     userProfile: { ageRange: '公式サイトでご確認ください', genderRatio: '男女とも利用可', purpose: ['姿勢改善', 'ボディメイク', '体幹強化', '健康維持'] },
-    basicInfo: { hours: '公式サイトでご確認ください', closed: '公式サイトでご確認ください', facilities: ['マット', 'マシン'] },
+    basicInfo: { hours: '平日 9:00〜18:00／土日祝 10:00〜16:00（公式スタジオページ・2026年11月18日確認）', closed: '公式サイトでご確認ください', facilities: ['マット', 'マシン'] },
   },
   {
     name: 'スポーツクラブNAS 光が丘（ピラティス・調整系プログラム）',
@@ -92,7 +92,7 @@ const studios = [
 ]
 
 const faqs = [
-  { question: '光が丘駅の近くにピラティススタジオはある？', answer: '光が丘駅から徒歩13分のプライベートスタジオ「ピラティス青空」と、光が丘IMA内のスポーツクラブNAS 光が丘（ピラティス・調整系プログラム）があります。マシンのグループレッスンなら、大江戸線で乗り換えなしの練馬駅にCLUB PILATES 練馬店（徒歩4分）とzen place pilates 練馬スタジオ（徒歩1分）があります。' },
+  { question: '光が丘駅の近くにピラティススタジオはある？', answer: '光が丘駅A5出口から徒歩10分のルネサンス光が丘にピラティススクール（1クラス定員15名・体験1,100円）、徒歩13分にプライベートスタジオ「ピラティス青空」、ほかに光が丘IMA内のスポーツクラブNAS 光が丘（ピラティス・調整系プログラム）があります。マシンのグループレッスンなら、大江戸線で乗り換えなしの練馬駅にCLUB PILATES 練馬店（徒歩4分）とzen place pilates 練馬スタジオ（徒歩1分）があります。' },
   { question: '光が丘・練馬の料金相場は？', answer: 'マシングループ月4回はRintosull 成増店が8,800円（税込）、CLUB PILATES 練馬店が13,090円（税表記なし）です。zen place 練馬のマットグループ月4回は10,450円（税込・グレード01）です。プライベートのピラティス青空は1回10,000円（税表記なし）です（各公式・2026年10月17日確認）。' },
   { question: '初心者におすすめは？', answer: 'CLUB PILATESは4段階のレベル分けがあり、Rintosullは公式で会員の87%以上がマシンピラティス未経験から始めていると案内されています。どちらも体験は無料です。' },
   { question: '男性が通えるスタジオは？', answer: 'CLUB PILATES 練馬店とzen place pilates 練馬スタジオは男女とも利用できます。ピラティス青空は男性は紹介のみ、Rintosullは女性専用です。' },
@@ -114,9 +114,9 @@ export default function HikarigaokaPage() {
         { name: '光が丘', url: 'https://biyori-pilates.com/area/hikarigaoka/' },
       ]} />
       <main className="pt-20 bg-white">
-        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年11月07日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">ピラティス光が丘おすすめ5選<br className="hidden md:block" />駅別早見表と公式料金の比較</h1></div></section>
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年11月18日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">ピラティス光が丘おすすめ5選<br className="hidden md:block" />駅別早見表と公式料金の比較</h1></div></section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">光が丘</span></nav></div></section>
-        <section className="py-6 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-xl md:text-2xl font-bold text-warm-900 mb-3">光が丘のピラティス早見表｜駅徒歩・月額・体験</h2><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">最寄り駅</th><th className="px-4 py-3 text-left">スタジオ</th><th className="px-4 py-3 text-left">駅から</th><th className="px-4 py-3 text-left">月額（税込）</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">形式</th></tr></thead><tbody><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">都営大江戸線 光が丘駅</td><td className="px-4 py-3">スポーツクラブNAS 光が丘（総合型クラブ）</td><td className="px-4 py-3">光が丘IMA内</td><td className="px-4 py-3">公式でご確認ください</td><td className="px-4 py-3">公式でご確認ください</td><td className="px-4 py-3">スタジオプログラム「ピラティス・調整系」</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">都営大江戸線 光が丘駅</td><td className="px-4 py-3">ピラティス青空（完全予約制）</td><td className="px-4 py-3">徒歩13分</td><td className="px-4 py-3">1回 10,000円（税表記なし・10月17日確認）</td><td className="px-4 py-3">7,000円（初回限定・10月17日確認）</td><td className="px-4 py-3">プライベート</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">練馬駅（大江戸線・西武池袋線）</td><td className="px-4 py-3">zen place pilates 練馬スタジオ</td><td className="px-4 py-3">徒歩1分</td><td className="px-4 py-3">マット月4回 10,450円／マシン月4回 15,400円＋設備運営管理費 月550円</td><td className="px-4 py-3">マットグループ 1,000円／マシングループ 3,000円（初回体験キャンペーン）</td><td className="px-4 py-3">マット・マシンのグループ・プライベート</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">練馬駅（大江戸線・西武池袋線）</td><td className="px-4 py-3">CLUB PILATES 練馬店</td><td className="px-4 py-3">徒歩4分</td><td className="px-4 py-3">月4回 13,090円（税表記なし）</td><td className="px-4 py-3">無料（30分）</td><td className="px-4 py-3">マシンのグループ</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">東武東上線 成増駅</td><td className="px-4 py-3">Rintosull 成増店（女性専用）</td><td className="px-4 py-3">南口 徒歩30秒</td><td className="px-4 py-3">月4回 8,800円＋運営管理費 月680円</td><td className="px-4 py-3">無料体験会 0円</td><td className="px-4 py-3">マシンのグループ</td></tr></tbody></table></div><p className="text-warm-500 text-xs leading-relaxed mt-3">zen place・CLUB PILATES・Rintosull は各公式ページの表記です（2026年11月7日確認）。ピラティス青空は10月17日の確認値で、今日は公式を確認できていません。NAS は料金が公式の店舗ページで確認できず載せていません。</p></div></section>
+        <section className="py-6 bg-white" id="by-station"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-xl md:text-2xl font-bold text-warm-900 mb-3">光が丘のピラティス早見表｜駅徒歩・月額・体験</h2><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">最寄り駅</th><th className="px-4 py-3 text-left">スタジオ</th><th className="px-4 py-3 text-left">駅から</th><th className="px-4 py-3 text-left">月額（税込）</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">形式</th></tr></thead><tbody><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">都営大江戸線 光が丘駅</td><td className="px-4 py-3">スポーツクラブNAS 光が丘（総合型クラブ）</td><td className="px-4 py-3">光が丘IMA内</td><td className="px-4 py-3">公式でご確認ください</td><td className="px-4 py-3">公式でご確認ください</td><td className="px-4 py-3">スタジオプログラム「ピラティス・調整系」</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">都営大江戸線 光が丘駅</td><td className="px-4 py-3">ルネサンス光が丘 ピラティススクール（総合型クラブ・練馬区高松5-8 J.CITYビル1階）<br /><span className="text-xs text-warm-500">※下のカードには未掲載</span></td><td className="px-4 py-3">A5出口 徒歩10分</td><td className="px-4 py-3">スクールページに記載なし</td><td className="px-4 py-3">1,100円（1人1回限り）</td><td className="px-4 py-3">少人数制のスクール（1クラス定員15名）／月曜休館</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">都営大江戸線 光が丘駅</td><td className="px-4 py-3">ピラティス青空（完全予約制）</td><td className="px-4 py-3">徒歩13分</td><td className="px-4 py-3">1回 10,000円（税表記なし）</td><td className="px-4 py-3">7,000円（初回限定）</td><td className="px-4 py-3">プライベート</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">練馬駅（大江戸線・西武池袋線）</td><td className="px-4 py-3">zen place pilates 練馬スタジオ</td><td className="px-4 py-3">徒歩1分</td><td className="px-4 py-3">マット月4回 10,450円／マシン月4回 15,400円＋設備運営管理費 月550円</td><td className="px-4 py-3">マットグループ 1,000円／マシングループ 3,000円（初回体験キャンペーン）</td><td className="px-4 py-3">マット・マシンのグループ・プライベート</td></tr><tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">練馬駅（大江戸線・西武池袋線）</td><td className="px-4 py-3">CLUB PILATES 練馬店</td><td className="px-4 py-3">徒歩4分</td><td className="px-4 py-3">月4回 13,090円（税表記なし）</td><td className="px-4 py-3">無料（30分）</td><td className="px-4 py-3">マシンのグループ</td></tr><tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">東武東上線 成増駅</td><td className="px-4 py-3">Rintosull 成増店（女性専用）</td><td className="px-4 py-3">南口 徒歩30秒</td><td className="px-4 py-3">月4回 8,800円＋運営管理費 月680円</td><td className="px-4 py-3">無料体験会 0円</td><td className="px-4 py-3">マシンのグループ</td></tr></tbody></table></div><p className="text-warm-500 text-xs leading-relaxed mt-3">各公式ページの表記です（2026年11月18日確認）。確認元: <a href="https://www.s-re.jp/hikarigaoka/school/pilates/" target="_blank" rel="noopener" className="underline">ルネサンス光が丘 ピラティススクール</a>／<a href="https://pilates-aozora.com/" target="_blank" rel="noopener" className="underline">ピラティス青空</a>／<a href="https://www.zenplace.co.jp/studios/pilates-nerima" target="_blank" rel="noopener" className="underline">zen place 練馬</a>／<a href="https://clubpilates.co.jp/studio/nerima/" target="_blank" rel="noopener" className="underline">CLUB PILATES 練馬店</a>／<a href="https://rintosull.jp/shop/tokyo/narimasu/" target="_blank" rel="noopener" className="underline">Rintosull 成増店</a>。ルネサンスのスクールの月会費と、NAS の料金は公式ページで確認できず載せていません。</p></div></section>
         <TableOfContents areaName="光が丘" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
         <section className="py-12 bg-white"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-600 leading-relaxed mb-8">本ページでは、光が丘・練馬エリアでおすすめのピラティススタジオ5選をまとめました。</p><div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8"><h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2><ul className="space-y-2 text-warm-700"><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>光が丘でピラティススタジオを探している</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金を抑えられるスタジオを知りたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>駅近で通いやすいスタジオがいい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較したい</span></li></ul></div><p className="text-warm-600 leading-relaxed">以下では、各スタジオの料金・体験レッスン・特徴をご紹介します。</p></div></section>
         <section className="py-12 bg-white" id="by-station-notes"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">光が丘で選ぶときのポイント</h2><p className="text-warm-600 leading-relaxed text-sm">練馬駅は光が丘駅から都営大江戸線で乗り換えなし、成増駅は東武東上線で路線が異なります。光が丘駅から歩ける場所でプライベートならピラティス青空、月額を抑えてマシンのグループなら練馬駅・成増駅の3店が候補です。</p></div></section>
