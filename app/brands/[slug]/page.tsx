@@ -20,6 +20,7 @@ import { REPILATES_OFFICIAL } from '@/data/repilates-official-stores'
 import { LULUTO_OFFICIAL } from '@/data/luluto-official-stores'
 import { DEP_OFFICIAL } from '@/data/dep-official-stores'
 import { LA_PILATES_OFFICIAL } from '@/data/la-pilates-official-stores'
+import { STUDIO_IVY_OFFICIAL } from '@/data/studio-ivy-official-stores'
 
 // 公式の全店舗一覧（都道府県別）を出すブランド。pilates K（10/27）と同じ部品を、単ワード検索で10位手前の3ブランドに横展開（2026-10-28）
 const OFFICIAL_STORE_LISTS: Record<string, { list: OfficialStoreList; heading: string; button: string; intro: string; note: string }> = {
@@ -66,6 +67,14 @@ const OFFICIAL_STORE_LISTS: Record<string, { list: OfficialStoreList; heading: s
     button: '公式の全{n}店舗（最寄り駅・住所つき）へ移動 ↓',
     intro: 'La pilates（ラピラティス）公式の「スタジオ一覧」に載っている全{n}店舗を、都道府県ごとに店舗名・最寄り駅・住所で掲載しています。最寄り駅と住所は各店舗の公式ページの「最寄り駅」「住所」欄の表記です（{asOf}確認）。',
     note: '公式トップページの店舗数の表記は「126店舗」で、スタジオ一覧に載っている店舗数（124店舗）とは2店舗の差があります。料金（サブスク月1回12,000円〜・体験90分 通常14,000円→初回3,000円、税込）は公式のメニュー・料金ページと各店舗ページで同じ表記です。',
+  },
+  // 2026-11-19 成長ルーチン: STUDIO IVY ブランドページ新設（「STUDIO IVY 口コミ／評判／単ワード」の受け皿）
+  'studio-ivy': {
+    list: STUDIO_IVY_OFFICIAL,
+    heading: '全店舗一覧（公式・都道府県別{n}店舗と最寄駅）',
+    button: '公式の全{n}店舗（最寄駅・住所・受付状況つき）へ移動 ↓',
+    intro: 'STUDIO IVY公式の「店舗一覧」に載っている全{n}店舗を、都道府県ごとに店舗名・最寄駅・住所と、一覧に出ている受付状況（新規受付停止中・新規OPENキャンペーン中など）で掲載しています（{asOf}確認）。',
+    note: '料金（月2回15,000円〜・体験50分4,500円、税込）は全店共通の公式の料金ページの表記です。体験0円・入会金0円などのキャンペーンは実施店舗のみで、期間は店舗ごとに異なります。「新規受付停止中」の店舗は新規の入会・体験を受け付けていない表示です。',
   },
   dep: {
     list: DEP_OFFICIAL,
@@ -578,6 +587,13 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                   </a>
                   <img src="https://t.afi-b.com/lead/816076W/E9887623/p520735r" width={1} height={1} alt="" style={{ border: 'none' }} />
                   {/* eslint-enable @next/next/no-img-element */}
+                </div>
+              )}
+              {/* 2026-11-19: STUDIO IVY（afi-b u15511L・自由テキスト）。11/18 にスタジオカードへ設置した組（クリック visit.php?a=u15511L-8504149a ＝ brands.ts ctaUrl／計測 lead 8504149a）を再利用。新しい原稿は作らない */}
+              {brand.slug === 'studio-ivy' && brand.ctaUrl?.includes('a=u15511L-8504149a') && (
+                <div className="mt-2 flex justify-center">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src="https://t.afi-b.com/lead/u15511L/E9887623/8504149a" width={1} height={1} alt="" style={{ border: 'none' }} />
                 </div>
               )}
               {brand.slug === 'lava' && (

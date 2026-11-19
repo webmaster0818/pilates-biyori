@@ -27,6 +27,8 @@ const RULES: Array<{ slug: string; test: (n: string) => boolean }> = [
   // ⚠️ 大文字小文字を区別する（「Stella Pilates」が La pilates に当たるため）。LAVA は Rintosull（LAVA店内）を上の rintosull で先に拾う
   { slug: 'la-pilates', test: (n) => /La ?[Pp]ilates|ラ ?ピラティス/.test(n) && !/Stella/.test(n) },
   { slug: 'lava', test: (n) => /LAVA/.test(n) },
+  // 2026-11-19 追加（afi-b u15511L）。aggregate-brands-202607.py と同じ判定
+  { slug: 'studio-ivy', test: (n) => /STUDIO IVY|スタジオアイビー/.test(n) },
 ]
 
 export function brandSlugOf(studioName: string): string | null {

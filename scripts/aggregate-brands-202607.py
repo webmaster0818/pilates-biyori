@@ -34,8 +34,10 @@ BRANDS = [
     # 2026-10-24 追加（afi-b 816076W／A8 1O96）。大文字小文字を区別（Stella Pilates 除外）。LAVA は rintosull より後＝LAVA店内の Rintosull を拾わない
     ("la-pilates",    r"(?<!Stel)La ?[Pp]ilates|ラ ?ピラティス"),
     ("lava",          r"LAVA"),
+    # 2026-11-19 追加（afi-b u15511L・11/18 カード52件に設置）。lib/brandLink.ts と同じ判定
+    ("studio-ivy",    r"STUDIO IVY|スタジオアイビー"),
 ]
-CASE_SENSITIVE = ("pilates-k", "la-pilates", "lava")
+CASE_SENSITIVE = ("pilates-k", "la-pilates", "lava", "studio-ivy")
 
 def brand_of(name):
     # kasaneを先に判定（pilates Kとの誤爆防止）

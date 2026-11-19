@@ -8176,5 +8176,447 @@
       "areaSlug": "obihiro",
       "areaName": "帯広"
     }
+  ],
+  "studio-ivy": [
+    {
+      "name": "STUDIO IVY PILATES 盛岡店",
+      "price": "1レッスン 6,500円～",
+      "trial": "初回体験無料(0円)",
+      "rating": 4.5,
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "岩手県盛岡市菜園2-3-22 プラザバンベールビル504",
+      "areaSlug": "morioka",
+      "areaName": "盛岡"
+    },
+    {
+      "name": "STUDIO IVY 西院店",
+      "price": "月2回 15,000円／月4回 28,000円（税込）",
+      "trial": "体験 通常4,500円（キャンペーンあり）",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "京都府京都市右京区（詳細は公式サイト参照）",
+      "access": "西院駅徒歩7分",
+      "areaSlug": "saiin",
+      "areaName": "西院"
+    },
+    {
+      "name": "STUDIO IVY 品川青物横丁店",
+      "price": "BASIC月2回 15,000円／STANDARD月4回 28,000円（税込）",
+      "trial": "体験 4,500円（50分）",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都品川区南品川2-14-16 モデリアブリュット南品川101",
+      "access": "青物横丁駅徒歩9分／新馬場駅徒歩7分",
+      "areaSlug": "aomono-yokocho",
+      "areaName": "青物横丁"
+    },
+    {
+      "name": "STUDIO IVY 銀座新富町店",
+      "price": "BASIC月2回 15,000円／STANDARD月4回 28,000円（税込）",
+      "trial": "体験 4,500円（50分）",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都中央区新富2-5-4 アソシエイトタワー4F",
+      "access": "新富町駅徒歩2分",
+      "areaSlug": "shintomicho",
+      "areaName": "新富町"
+    },
+    {
+      "name": "STUDIO IVY 上福岡店",
+      "price": "BASIC月2回15,000円／STANDARD月4回28,000円／PREMIUM月8回52,000円",
+      "trial": "体験 4,500円",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "埼玉県ふじみ野市（詳細は公式サイト参照）",
+      "access": "上福岡駅 東口 徒歩6分",
+      "areaSlug": "kamifukuoka",
+      "areaName": "上福岡"
+    },
+    {
+      "name": "STUDIO IVY 上本町店",
+      "price": "月2回15,000円／月4回28,000円／月8回52,000円",
+      "trial": "初回体験 4,500円",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "大阪市中央区東平2-4-3 リディアランス上町台302",
+      "access": "近鉄 大阪上本町駅 徒歩1分",
+      "areaSlug": "osaka-uehommachi",
+      "areaName": "大阪上本町"
+    },
+    {
+      "name": "STUDIO IVY 赤坂店",
+      "price": "月2回 15,000円〜",
+      "trial": "体験レッスン 4,500円",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都港区赤坂4-2-12 エスセナーリオ赤坂WEST 011",
+      "access": "銀座線・丸ノ内線「赤坂見附駅」徒歩3分",
+      "areaSlug": "akasaka",
+      "areaName": "赤坂"
+    },
+    {
+      "name": "STUDIO IVY 赤坂ANNEX店",
+      "price": "月2回 15,000円〜",
+      "trial": "初回体験 無料（11/4〜12/31のキャンペーン・通常4,500円・税込・2026年11月11日 公式で確認）",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都港区赤坂6-4-18 プリンストン赤坂 402",
+      "access": "千代田線「赤坂駅」徒歩3分",
+      "areaSlug": "akasaka",
+      "areaName": "赤坂"
+    },
+    {
+      "name": "STUDIO IVY 麻布十番店",
+      "price": "1回 6,250円〜",
+      "trial": "体験レッスンあり",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都港区麻布十番（麻布十番エリア）",
+      "access": "都営大江戸線・南北線「麻布十番駅」徒歩圏内",
+      "areaSlug": "azabujuban",
+      "areaName": "麻布十番"
+    },
+    {
+      "name": "STUDIO IVY 千葉店",
+      "price": "要問合せ",
+      "trial": "体験レッスン あり",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "千葉県千葉市（詳細は公式サイト参照）",
+      "access": "千葉エリア（詳細は公式サイト参照）",
+      "areaSlug": "chiba",
+      "areaName": "千葉"
+    },
+    {
+      "name": "STUDIO IVY 奥沢店",
+      "price": "月2回 15,000円／月4回 28,000円／月8回 52,000円／月12回 75,000円（税込）",
+      "trial": "初回体験レッスン 4,500円（税込・通常1回8,800円・2026年11月11日 公式で確認）",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "〒158-0083 東京都世田谷区奥沢4-9-11 ルアナ奥沢01",
+      "access": "東急目黒線「奥沢駅」徒歩4分（田園調布駅から直線約500m）",
+      "areaSlug": "denenchofu",
+      "areaName": "田園調布"
+    },
+    {
+      "name": "STUDIO IVY 福岡大橋店",
+      "price": "要問合せ",
+      "trial": "体験レッスン あり",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "福岡県福岡市（詳細は公式サイト参照）",
+      "access": "福岡大橋（詳細は公式サイト参照）",
+      "areaSlug": "fukuoka",
+      "areaName": "福岡"
+    },
+    {
+      "name": "STUDIO IVY 学芸大学店",
+      "price": "月2回 15,000円〜 / 月4回 28,000円〜",
+      "trial": "初回体験レッスン 4,500円（50分・税込／公式店舗ページ・2026年10月25日確認）",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都目黒区碑文谷6-1-22 リカーハイム303号室",
+      "access": "東急東横線「学芸大学駅」徒歩3分",
+      "areaSlug": "gakugei-daigaku",
+      "areaName": "学芸大学"
+    },
+    {
+      "name": "STUDIO IVY 五反田",
+      "price": "月2回 15,000円〜",
+      "trial": "体験レッスン 4,500円",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都品川区五反田エリア（詳細は公式サイトでご確認ください）",
+      "access": "五反田エリア",
+      "areaSlug": "gotanda",
+      "areaName": "五反田"
+    },
+    {
+      "name": "STUDIO IVY 八王子店",
+      "price": "月2回 15,000円 / 月4回 28,000円 / 月8回 52,000円",
+      "trial": "初回体験 無料（キャンペーン 11/11〜11/30・通常 4,500円・公式の店舗ページ 2026年11月13日確認）",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都八王子市明神町3-14-7 廣井貸店舗2F",
+      "access": "JR中央線「八王子駅」徒歩4分 / 京王線「京王八王子駅」徒歩4分",
+      "areaSlug": "hachioji",
+      "areaName": "八王子"
+    },
+    {
+      "name": "STUDIO IVY 福岡赤坂店",
+      "price": "月2回 15,000円〜",
+      "trial": "体験レッスン 4,500円",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "福岡県福岡市中央区赤坂エリア（詳細は公式サイトでご確認ください）",
+      "access": "福岡市地下鉄空港線「赤坂駅」周辺 / 博多駅から地下鉄でアクセス可",
+      "areaSlug": "hakata",
+      "areaName": "博多"
+    },
+    {
+      "name": "STUDIO IVY 広尾店",
+      "price": "月2回 15,000円〜",
+      "trial": "体験レッスン 4,500円",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都港区赤坂6-4-18 プリンストン赤坂 402",
+      "access": "東京メトロ日比谷線「広尾駅」周辺",
+      "areaSlug": "hiroo",
+      "areaName": "広尾"
+    },
+    {
+      "name": "STUDIO IVY（スタジオアイビー）鹿児島店",
+      "price": "月2回 15,000円〜",
+      "trial": "体験レッスンあり",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "鹿児島県鹿児島市（鹿児島中央駅周辺・詳細は公式サイトでご確認ください）",
+      "access": "JR「鹿児島中央駅」徒歩5分",
+      "areaSlug": "kagoshima",
+      "areaName": "鹿児島"
+    },
+    {
+      "name": "STUDIO IVY 烏丸御池店",
+      "price": "月2回 15,000円〜",
+      "trial": "体験レッスン 4,500円",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "京都府京都市中京区烏丸御池エリア（詳細は公式サイトでご確認ください）",
+      "access": "京都市営地下鉄「烏丸御池駅」徒歩4分",
+      "areaSlug": "karasuma-oike",
+      "areaName": "烏丸御池"
+    },
+    {
+      "name": "STUDIO IVY 四条大宮店",
+      "price": "1回 6,250円〜",
+      "trial": "体験レッスンあり",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "京都府京都市下京区仏光寺通堀川西入晒屋町622-1 ナレッジスペース四条大宮302",
+      "access": "嵐電嵐山本線「四条大宮駅」徒歩5分 / 阪急京都線「大宮駅」徒歩5分（桂駅から阪急で約6分）",
+      "areaSlug": "katsura",
+      "areaName": "桂（Rintosull 京都桂店）"
+    },
+    {
+      "name": "STUDIO IVY 吉祥寺店",
+      "price": "月2回 15,000円〜",
+      "trial": "体験レッスン 4,500円",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都武蔵野市吉祥寺エリア（詳細は公式サイトでご確認ください）",
+      "access": "JR中央線・京王井の頭線「吉祥寺駅」周辺",
+      "areaSlug": "kichijoji",
+      "areaName": "吉祥寺"
+    },
+    {
+      "name": "STUDIO IVY 錦糸町",
+      "price": "月2回 15,000円〜（1回あたり6,250円）",
+      "trial": "体験レッスンあり",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都墨田区江東橋4丁目",
+      "access": "錦糸町駅から徒歩4分",
+      "areaSlug": "kinshicho",
+      "areaName": "錦糸町"
+    },
+    {
+      "name": "STUDIO IVY 高円寺",
+      "price": "月2回 15,000円〜",
+      "trial": "体験レッスンあり",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都杉並区高円寺エリア（詳細は公式サイトでご確認ください）",
+      "access": "JR中央線・総武線「高円寺駅」周辺",
+      "areaSlug": "koenji",
+      "areaName": "高円寺"
+    },
+    {
+      "name": "STUDIO IVY 後楽園店",
+      "price": "月2回 15,000円〜",
+      "trial": "体験レッスン 4,500円",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都文京区（詳細は公式サイトでご確認ください）",
+      "access": "後楽園駅周辺（詳細は公式サイトでご確認ください）",
+      "areaSlug": "korakuen",
+      "areaName": "後楽園"
+    },
+    {
+      "name": "STUDIO IVY 久我山店",
+      "price": "1レッスン 6,250円〜",
+      "trial": "体験レッスンあり",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都杉並区久我山（久我山駅徒歩圏内）",
+      "access": "京王井の頭線「久我山駅」徒歩圏内",
+      "areaSlug": "kugayama",
+      "areaName": "久我山"
+    },
+    {
+      "name": "STUDIO IVY 熊本大江店",
+      "price": "月2回 15,000円〜",
+      "trial": "体験レッスン 4,500円",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "熊本県熊本市中央区大江エリア（詳細は公式サイトでご確認ください）",
+      "access": "熊本市中央区大江エリア",
+      "areaSlug": "kumamoto",
+      "areaName": "熊本"
+    },
+    {
+      "name": "STUDIO IVY 京都駅前店",
+      "price": "月2回 15,000円〜",
+      "trial": "初回体験 無料（11/30までのキャンペーン・通常4,500円）",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "京都府京都市下京区小稲荷町85 Grand-K京都駅前ビル801",
+      "access": "JR「京都駅」徒歩5分",
+      "areaSlug": "kyoto-station",
+      "areaName": "京都駅"
+    },
+    {
+      "name": "STUDIO IVY",
+      "price": "月2回 15,000円〜",
+      "trial": "体験レッスン 4,500円",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都内（詳細は公式サイトでご確認ください）",
+      "access": "丸の内エリアからアクセス可能（詳細は公式サイトでご確認ください）",
+      "areaSlug": "marunouchi",
+      "areaName": "丸の内"
+    },
+    {
+      "name": "STUDIO IVY 目黒エリア",
+      "price": "月2回 15,000円〜",
+      "trial": "体験レッスン 4,500円",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都目黒区目黒エリア（詳細は公式サイトでご確認ください）",
+      "access": "目黒エリア（詳細は公式サイトでご確認ください）",
+      "areaSlug": "meguro",
+      "areaName": "目黒"
+    },
+    {
+      "name": "STUDIO IVY 武蔵小杉店",
+      "price": "月2回 15,000円〜",
+      "trial": "体験レッスン 4,500円",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "神奈川県川崎市中原区武蔵小杉エリア（詳細は公式サイトでご確認ください）",
+      "access": "JR武蔵小杉駅周辺",
+      "areaSlug": "musashikosugi",
+      "areaName": "武蔵小杉"
+    },
+    {
+      "name": "STUDIO IVY 武蔵小山店",
+      "price": "月2回 15,000円〜",
+      "trial": "体験レッスン 4,500円",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都品川区武蔵小山エリア（詳細は公式サイトでご確認ください）",
+      "access": "東急目黒線「武蔵小山駅」周辺",
+      "areaSlug": "musashikoyama",
+      "areaName": "武蔵小山"
+    },
+    {
+      "name": "STUDIO IVY 赤坂エリア",
+      "price": "月2回 15,000円〜",
+      "trial": "体験レッスン 4,500円",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都港区赤坂エリア（詳細は公式サイトでご確認ください）",
+      "access": "東京都港区赤坂エリア（詳細は公式サイトでご確認ください）",
+      "areaSlug": "nagatacho",
+      "areaName": "永田町"
+    },
+    {
+      "name": "STUDIO IVY 中目黒店",
+      "price": "1レッスン 6,250円〜",
+      "trial": "初回体験レッスン 4,500円（50分・税込／公式の店舗ページ・2026年10月24日確認）",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都目黒区上目黒2-44-15 丸協ビル401",
+      "access": "東急東横線「中目黒駅」徒歩5分",
+      "areaSlug": "nakameguro",
+      "areaName": "中目黒"
+    },
+    {
+      "name": "STUDIO IVY 中野",
+      "price": "1レッスン 6,250円〜",
+      "trial": "体験レッスンあり",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都中野区中野（中野エリア）",
+      "access": "JR中央線・総武線・東西線「中野駅」徒歩圏内",
+      "areaSlug": "nakano",
+      "areaName": "中野"
+    },
+    {
+      "name": "STUDIO IVY 大阪",
+      "price": "要問合せ",
+      "trial": "体験レッスン あり",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "大阪府（詳細は公式サイト参照）",
+      "access": "大阪府内3店舗（詳細は公式サイト参照）",
+      "areaSlug": "osaka",
+      "areaName": "大阪"
+    },
+    {
+      "name": "STUDIO IVY 麻布台",
+      "price": "1回 6,500円〜",
+      "trial": "体験レッスン 4,500円",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都港区麻布台（麻布台エリア）",
+      "access": "六本木エリア・麻布台",
+      "areaSlug": "roppongi",
+      "areaName": "六本木"
+    },
+    {
+      "name": "STUDIO IVY 三軒茶屋",
+      "price": "月2回 15,000円〜",
+      "trial": "体験レッスンあり",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都世田谷区三軒茶屋（三軒茶屋駅徒歩圏内）",
+      "access": "東急田園都市線・世田谷線「三軒茶屋駅」徒歩圏内",
+      "areaSlug": "sangenjaya",
+      "areaName": "三軒茶屋"
+    },
+    {
+      "name": "STUDIO IVY 成城学園前",
+      "price": "月2回 15,000円／月4回 28,000円／月8回 52,000円（税込）",
+      "trial": "初回体験レッスン 4,500円（税込・50分）",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "〒157-0066 東京都世田谷区成城2-37-11 アクアリオ3F",
+      "access": "小田急小田原線・東京メトロ千代田線「成城学園前駅」徒歩5分",
+      "areaSlug": "seijo-gakuenmae",
+      "areaName": "成城学園前"
+    },
+    {
+      "name": "STUDIO IVY 渋谷",
+      "price": "月2回 15,000円〜",
+      "trial": "体験レッスンあり",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都渋谷区（渋谷駅徒歩圏内）",
+      "access": "渋谷駅 徒歩圏内",
+      "areaSlug": "shibuya",
+      "areaName": "渋谷"
+    },
+    {
+      "name": "STUDIO IVY 新橋（近隣）",
+      "price": "月2回 15,000円〜",
+      "trial": "体験レッスン実施中",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都港区（新橋近隣）",
+      "access": "JR「新橋駅」から近隣エリア",
+      "areaSlug": "shimbashi",
+      "areaName": "新橋"
+    },
+    {
+      "name": "STUDIO IVY 下北沢",
+      "price": "1レッスン 6,250円〜",
+      "trial": "体験レッスンあり",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都世田谷区（下北沢エリア）",
+      "access": "小田急線・京王井の頭線「下北沢駅」徒歩圏内",
+      "areaSlug": "shimokitazawa",
+      "areaName": "下北沢"
+    },
+    {
+      "name": "STUDIO IVY 三田店",
+      "price": "1回 6,500円〜",
+      "trial": "体験レッスン 500円〜",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都港区三田2-7-7 ザ・パームス三田302",
+      "access": "都営大江戸線「赤羽橋駅」徒歩5分",
+      "areaSlug": "shinagawa",
+      "areaName": "品川"
+    },
+    {
+      "name": "STUDIO IVY 新宿",
+      "price": "月2回 15,000円〜",
+      "trial": "体験レッスンあり",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都新宿区新宿（新宿駅近く）",
+      "access": "JR「新宿駅」徒歩圏内",
+      "areaSlug": "shinjuku",
+      "areaName": "新宿"
+    },
+    {
+      "name": "STUDIO IVY 高田馬場店",
+      "price": "1回 6,250円〜",
+      "trial": "体験レッスンあり",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623",
+      "address": "東京都新宿区高田馬場（高田馬場駅徒歩圏内）",
+      "access": "JR山手線・西武新宿線・東京メトロ東西線「高田馬場駅」徒歩圏内",
+      "areaSlug": "takadanobaba",
+      "areaName": "高田馬場"
+    }
   ]
 }
