@@ -1569,3 +1569,9 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - カード52件＝差替7（pilates-ivy.jp の店舗URL: 奥沢・成城学園前・西院・品川青物横丁・銀座新富町・上福岡・上本町）＋挿入45（officialUrl なし）。app/area 46件（45ページ）＋data/area-studios.ts 6件。dofollow・他アフィリURLのカードは無し。「赤坂エリア」「目黒エリア」「大阪」「新橋（近隣）」「STUDIO IVY」（店名なし）等の店舗不特定カードもブランドは IVY のため同じリンク。盛岡店（「STUDIO IVY PILATES 盛岡店」）は公式 /studio/morioka で STUDIO IVY 盛岡店と確認
 - ブランドページ・店舗ページは無い（brands-aggregate/brandLink に追加していない）＝BrandAreaReceiver・/brands/[slug] は未変更。/ai-soudan/ は area-studios の officialUrl を使うので IVY 6件はリンクが変わる（計測ピクセルは他案件と同様に出さない）
 - 検証（out/・script 除く HTML）: クリックURLのあるページ51（=赤坂2枚）・全ページに lead あり・lead のみのページ0。他ブランドの計測URLは件数・ページ数とも前後一致。IVY 51ページの表示テキスト・カード数・h1 は前後で同一（N選不変）。`npx next build` 直接（sitemap 不変）・precheck ✅ 588頁
+
+### 2026-11-19 朝ルーチン: BREST 継続（変更なし）・zen aggregate 16行は 11/13 対応済み・札幌 zen place の料金欄を公式の G02 月額に（source 678a1237 / deploy d7ce55af7d＋空コミット 17dd3d4ee7・反映約45分）
+- BREST（11/19 09:18 公式直・7店）: 「モニター会員募集」バナー（banner-1_monitor_500.png・Last-Modified 10/29・100,761 bytes）継続・終了/締切表記 0→カードは戻さない。月額は 11/18 と同じ（3店＝20,680/25,080/41,580/47,080、4店＝22,880）。/news/ 最新 11/15
+- zen place aggregate 16行: 11/13（54e9552b / deploy 980c29b167）で公式値に更新済み＝今日の変更なし。南森町の公式内の食い違い（店舗紹介「※マシングループはありません」とレッスン一覧の マシン体験3,000円）は 11/19 も同じ
+- 札幌（公式 11/19：zenplace.co.jp/studios/pilates-sapporo＝GRADE 02・マット体験 2,200円〜→初回1,000円・マシン 5,000円〜→初回3,000円／/price＝G02 マット月4 9,625円・フリー 14,960円）: app/area/sapporo の zen カード price「グループ体験 1,000円」（料金欄に体験料）→「マットグループ月4回 9,625円／フリー 14,960円（グレード02・税込）」、人気プラン「マット・マシンどちらも選べる…体験 1,000円」→マット1,000／マシン3,000円。brands-aggregate の札幌行も同値。表示テキストの変化は /area/sapporo/ のみ。計測リンク out/deploy 3,966→3,966・src 1,963→1,963・precheck ✅ 588頁・/api/contact 400
+- 点検 11/19: /brands/ C5 は判断待ちで title 不変、/editors/ C3 は読者を指す文の誤検知＝11/14〜11/18 と同じ
