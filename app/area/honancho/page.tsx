@@ -15,7 +15,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/honancho/' },
-  title: '方南町のピラティススタジオおすすめ5選｜zen place新店・駅徒歩3分の料金比較',
+  title: '方南町のピラティスおすすめ5選｜体験0円〜・月4回10,450円〜を駅徒歩の早見表で比較', // 2026-11-19「方南町 ピラティス」94@6.7c2：答え（体験・月額）を title に（旧「zen place新店・駅徒歩3分の料金比較」）。COCOLANCE 体験0円・zen マット月4回10,450円は公式 11/19 で再確認
   description: '方南町のピラティス5社の料金・体験・駅徒歩を公式サイトで確認して早見表にしました。zen place pilates 方南町（徒歩4分・マット月4回10,450円）、STUDIO NORI（徒歩3分・月4回11,000円）、COCOLANCE（徒歩3分・体験0円）などを比較できます。',
   keywords: 'ピラティス,方南町,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
