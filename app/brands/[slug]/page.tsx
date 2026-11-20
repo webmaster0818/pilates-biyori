@@ -12,6 +12,7 @@ import brandVoices from '@/data/brand-voices.json'
 import { BrandReviewDigest } from '@/components/BrandReviewDigest'
 import { BrandReviewThemes } from '@/components/BrandReviewThemes'
 import { PILATES_K_OFFICIAL_STORES, PILATES_K_OFFICIAL_ASOF } from '@/data/pilates-k-official-stores'
+import { PILATES_K_MONTHLY4, PILATES_K_PRICE_ASOF } from '@/data/pilates-k-store-prices'
 import type { OfficialStoreList } from '@/data/official-store-list-type'
 import { ZEN_PLACE_OFFICIAL } from '@/data/zen-place-official-stores'
 import { CLUB_PILATES_OFFICIAL } from '@/data/club-pilates-official-stores'
@@ -801,7 +802,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                   {brand.name}の全店舗一覧（公式・都道府県別{PILATES_K_OFFICIAL_STORES.length}店舗と最寄駅）
                 </h2>
                 <p className="text-sm text-warm-700 font-light leading-relaxed mb-4">
-                  公式の「スタジオ一覧」に載っている全{PILATES_K_OFFICIAL_STORES.length}店舗を、都道府県ごとに店舗名・最寄駅（またはバス停）・住所で掲載しています。最寄駅は各店舗の公式ページ「アクセス」欄の先頭の表記です（{PILATES_K_OFFICIAL_ASOF}確認）。店舗名から公式の店舗ページ（営業時間・料金・体験予約）に移動します。
+                  公式の「スタジオ一覧」に載っている全{PILATES_K_OFFICIAL_STORES.length}店舗を、都道府県ごとに店舗名・月4回の月額・最寄駅（またはバス停）・住所で掲載しています。最寄駅は各店舗の公式ページ「アクセス」欄の先頭の表記です（{PILATES_K_OFFICIAL_ASOF}確認）。月4回の月額は各店舗の公式ページ「料金プラン」のマンスリー4メンバーの金額です（{PILATES_K_PRICE_ASOF}に全店舗を確認）。店舗名から公式の店舗ページ（営業時間・料金・体験予約）に移動します。
                 </p>
                 <nav aria-label="都道府県から探す" className="flex flex-wrap gap-2 mb-4">
                   {prefs.map((p) => (
@@ -821,6 +822,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                             <thead>
                               <tr className="border-b border-warm-200 text-left">
                                 <th className="px-4 py-2 text-xs font-medium text-warm-500">店舗</th>
+                                <th className="px-4 py-2 text-xs font-medium text-warm-500 whitespace-nowrap">月4回（税込）</th>
                                 <th className="px-4 py-2 text-xs font-medium text-warm-500">最寄駅・アクセス（公式）</th>
                                 <th className="px-4 py-2 text-xs font-medium text-warm-500">住所</th>
                               </tr>
@@ -831,6 +833,10 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                                   <td className="px-4 py-2 text-warm-800 whitespace-nowrap">
                                     <a href={s.url} target="_blank" rel="noopener noreferrer" className="underline decoration-warm-300 hover:text-warm-900">{s.name}</a>
                                   </td>
+                                  <td className="px-4 py-2 text-warm-800 whitespace-nowrap">{(() => {
+                                    const v = PILATES_K_MONTHLY4[s.url.replace('https://pilates-k.jp/studio/', '').replace(/\/$/, '')]
+                                    return v === 'smart' ? '8,800円（K_smart）' : v ? `${v}円` : '公式で確認'
+                                  })()}</td>
                                   <td className="px-4 py-2 text-warm-700">{s.access || '公式の店舗ページは駐車場の案内のみ（最寄駅の表記なし）'}</td>
                                   <td className="px-4 py-2 text-warm-500 text-xs">{s.address}</td>
                                 </tr>
@@ -843,7 +849,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                   })}
                 </div>
                 <p className="text-[11px] text-warm-400 mt-3 leading-relaxed">
-                  出典: <a href="https://pilates-k.jp/studio" target="_blank" rel="noopener noreferrer" className="underline">pilates K公式 スタジオ一覧</a>と各店舗ページ（{PILATES_K_OFFICIAL_ASOF}確認）。開店・閉店や移転があるため、通う前に公式の店舗ページでご確認ください。
+                  出典: <a href="https://pilates-k.jp/studio" target="_blank" rel="noopener noreferrer" className="underline">pilates K公式 スタジオ一覧</a>と各店舗ページ（店舗・最寄駅は{PILATES_K_OFFICIAL_ASOF}、月4回の月額は{PILATES_K_PRICE_ASOF}確認）。開店・閉店や移転があるため、通う前に公式の店舗ページでご確認ください。
                 </p>
               </section>
             )
