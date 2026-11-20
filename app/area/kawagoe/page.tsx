@@ -147,37 +147,6 @@ const studios = [
     },
   },
   {
-    name: 'ELEMENT 川越店',
-    officialUrl: 'https://t.felmat.net/fmcl?ak=U11199J.1.V154352I.U1357808',
-    image: '/images/studios/element.webp',
-    price: '月額 38,280円〜（通い放題）',
-    trial: '体験レッスンあり',
-    features: ['マンツーマン', '30分レッスン', '通い放題', '川越駅近く'],
-    description: 'マンツーマン専門のマシンピラティスジムです。1回30分の短時間レッスンを通い放題で利用可能です。完全マンツーマンで一人ひとりの体の状態に合わせたオーダーメイドレッスンです。',
-    access: '東武東上線・JR埼京線「川越駅」徒歩圏内',
-    address: '埼玉県川越市（詳細は公式サイトでご確認ください）',
-    popularPlan: {
-      name: '通い放題プラン',
-      description: 'マンツーマンマシンピラティス通い放題です。1回30分です。',
-      price: '月額 38,280円（税込）',
-    },
-    options: [
-      '月4回プラン（22,000円）',
-      '月8回プラン（33,000円）',
-      '通い放題プラン（38,280円）',
-      '体験レッスンあり',
-    ],
-    userProfile: {
-      ageRange: '30代〜50代が中心',
-      purpose: ['ボディメイク', '姿勢改善', 'ダイエット', '体幹強化'],
-    },
-    basicInfo: {
-      hours: '10:00〜22:00',
-      closed: '不定休',
-      facilities: ['リフォーマー', '更衣室', 'ロッカー'],
-    },
-  },
-  {
     name: 'Pilates Mee川越店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=F10273P.1.9146255O.U1357808',
     image: '/images/studios/pilates-mee.webp',
@@ -233,7 +202,7 @@ const faqs = [
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'URBAN CLASSIC PILATES、La pilates、ELEMENTは男性も通えます。ピラティスK、Rintosullは女性専用です。',
+    answer: 'URBAN CLASSIC PILATES、La pilatesは男性も通えます。ピラティスK、Rintosullは女性専用です。',
   },
   {
     question: '無料で体験できるスタジオは？',
@@ -262,7 +231,7 @@ export default function KawagoePage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス川越おすすめ6選<br className="hidden md:block" />
+              ピラティス川越おすすめ5選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -287,7 +256,7 @@ export default function KawagoePage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、川越エリアでおすすめのピラティススタジオ6選をまとめました。
+              本ページでは、川越エリアでおすすめのピラティススタジオ5選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -327,7 +296,7 @@ export default function KawagoePage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              川越のおすすめピラティススタジオ6選
+              川越のおすすめピラティススタジオ5選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -355,11 +324,11 @@ export default function KawagoePage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">8,800円〜38,280円</td>
+                    <td className="px-4 py-3">8,580円〜13,420円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回 38,280円〜</td>
+                    <td className="px-4 py-3">月2回 22,000円〜（Pilates Mee のパーソナル）</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
