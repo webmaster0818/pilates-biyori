@@ -1585,3 +1585,10 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - 方南町: 早見表5店を公式 11/19 と照合＝一致（NORI 月4回11,000・体験1,000／COCOLANCE 35,200・体験0円／SYNC 体験500・徒歩8分／zen マット10,450・体験1,000/3,000）。title を「方南町のピラティスおすすめ5選｜体験0円〜・月4回10,450円〜を駅徒歩の早見表で比較」に。競合 sakura-pilates は12選（笹塚・永福町込み）。studio bluemountain202 はマシン新規募集なし＝未追加
 - 変更なし: elephant（照合対象の公式値なし・競合に回数の出典付き記述なし）、kitaoji（BeTRY's「11月中旬再開予定」の公式を今日確認できず＝未照合）、scissors（4.7位・要点表あり）、online-pilates-koka（pilates-online とのカニバリ整理済み）
 - precheck ✅ 589頁・計測リンク deploy 4,100→4,105（新ページの CTA＋lead のみ）・functions/api 4本保全・/api/contact 400
+
+### 2026-11-20 朝ルーチン: ELEMENT 川越店を外す（既定案・11/19 宣言・回答なし）・BREST 継続（source 9f66d5c5 / deploy 6547305b10）
+- ELEMENT 公式ピラティス店舗一覧（element-gym.com/element-top/pilates/pilates-all/ 11/20 直）: 店舗 slug 71（国内70＋bangkok）・「川越」「kawagoe」0件、/pilates-all/kawagoe/ は 404、page-sitemap.xml にも kawagoe なし→外した。ELEMENT の店舗ページは元から無い＝301 不要
+- /area/kawagoe/: カード6→5・h1/導入/見出し「6選」→「5選」・FAQ「男性も通える」から ELEMENT を除去・相場表 グループ月4回「8,800〜38,280円」→「8,580〜13,420円」（残カード：URBAN 8,580＝公式 11/20 画像 alt 7,800円＋税、Rintosull 8,800、K 13,420）・パーソナル「1回 38,280円〜」→「月2回 22,000円〜（Pilates Mee のパーソナル）」（m-pilates.com 川越 11/20）。brands-aggregate の ELEMENT 34→33・brands.ts 本文「35店舗」（古い値）→33
+- 件数: html 592→592・precheck 589頁・sitemap 588→588（不変）・計測リンク out 4,268→4,266（ELEMENT felmat U11199J 72→70＝川越カードと /brands/element/ の1行のみ。他は一致）・表示テキストの変化は3頁（/area/kawagoe/・/brands/・/brands/element/）
+- BREST（11/20 09:2x 公式直・7店）: 「モニター会員募集」バナー（banner-1_monitor_500.png・Last-Modified 10/29・100,761 bytes）継続・終了/締切表記 0→カードは戻さない。/news/ 最新 11/15
+- 点検 11/20: /brands/ C5 は判断待ちで title 不変、/editors/ C3 は読者を指す文（「通っている方」）の誤検知＝11/14〜11/19 と同じ
