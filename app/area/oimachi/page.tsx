@@ -171,6 +171,93 @@ const studios = [
       facilities: ['マット', 'プロップス', '更衣室'],
     },
   },
+  {
+    name: 'LIFE LOG pilates 大井町店',
+    officialUrl: 'https://lifelogpilates.com/',
+    image: '/images/studios/lifelog-pilates.webp',
+    price: '月2回 22,000円／月4回 35,200円（税込）',
+    priceList: ['月2回 22,000円／月3回 29,700円／月4回 35,200円／月6回 51,480円（税込）', '8回券 88,000円（有効期限4ヶ月）／ビジター1回 11,880円（税込）'],
+    trial: '初回体験 0円（通常11,000円）・入会金 0円（通常22,000円）のキャンペーン',
+    features: ['女性専用', '完全個室のマンツーマン', 'ピラティスマシン3台', 'ウェア無料・シャワー完備'],
+    description: '女性専用・完全個室のピラティススタジオです。姿勢・呼吸・体の使い方を分析する「BODY ANALYSIS PILATES」を掲げ、毎回その日の状態に合わせてマンツーマンでレッスンを組み立てます。独立型のピラティスマシンを3台備え、レンタルウェアは無料、シャワーとアメニティもあります。同じ運営会社のLIFE LOG GYM（パーソナルトレーニング）と併用できるプランがあります。情報引用元：LIFE LOG pilates公式サイト（2026年11月21日確認）。',
+    access: 'JR大井町駅 東口から徒歩約4分',
+    address: '東京都品川区南品川6-11-9 アイテラス101',
+    popularPlan: {
+      name: '月4回コース',
+      description: '完全個室・マンツーマンのマシンピラティス。月4回で1回あたり8,800円です。',
+      price: '月4回 35,200円（税込）',
+    },
+    options: [
+      '月2回 22,000円／月3回 29,700円／月6回 51,480円（税込）',
+      '8回券 88,000円（有効期限4ヶ月）／ビジター1回 11,880円（税込）',
+      'キャンペーン：初回体験 0円（通常11,000円）・入会金 0円（通常22,000円）・体験当日入会でトレーニングチケット2枚',
+      '支払い方法：クレジットカード・PayPay・現金',
+    ],
+    userProfile: {
+      ageRange: '20代から50代まで',
+      ageRangeVerified: true,
+      genderRatio: '女性100%（女性専用）',
+      purpose: ['姿勢改善', '運動習慣', 'シェイプアップ', '肩こり・腰痛のケア'],
+    },
+    basicInfo: {
+      hours: '公式サイトに記載なし',
+      closed: '公式サイトに記載なし',
+      facilities: ['完全個室', 'ピラティスマシン3台', 'シャワー', 'レンタルウェア（無料）', 'アメニティ'],
+    },
+  },
+  {
+    name: 'LIFE LOG pilates 西大井店（近隣）',
+    officialUrl: 'https://lifelogpilates.com/nishioi',
+    image: '/images/studios/lifelog-pilates.webp',
+    price: '月2回 22,000円／月4回 35,200円（税込）',
+    priceList: ['月2回 22,000円／月3回 29,700円／月4回 35,200円／月6回 51,480円（税込）', '8回券 88,000円（有効期限4ヶ月）／ビジター1回 11,880円（税込）'],
+    trial: '初回体験 0円（通常11,000円）・入会金 0円（通常22,000円）のキャンペーン',
+    features: ['女性専用', '完全個室のマンツーマン', 'JR西大井駅から徒歩約5分'],
+    description: 'LIFE LOG pilatesの西大井店です。大井町店と同じく、女性専用・完全個室のマンツーマンでピラティスのレッスンを受けられます。最寄りは大井町駅ではなくJR西大井駅（徒歩約5分）です。料金は公式サイトの料金表（大井町店と共通の掲載）に基づきます。情報引用元：LIFE LOG pilates公式サイト（2026年11月21日確認）。',
+    access: 'JR西大井駅から徒歩約5分',
+    address: '東京都品川区豊町4-20-11 油惣ビル1F',
+    popularPlan: {
+      name: '月4回コース',
+      description: '完全個室・マンツーマンのピラティス。月4回で1回あたり8,800円です。',
+      price: '月4回 35,200円（税込）',
+    },
+    options: [
+      '月2回 22,000円／月3回 29,700円／月6回 51,480円（税込）',
+      '8回券 88,000円（有効期限4ヶ月）／ビジター1回 11,880円（税込）',
+      'キャンペーン：初回体験 0円（通常11,000円）・入会金 0円（通常22,000円）',
+    ],
+    basicInfo: {
+      hours: '公式サイトに記載なし',
+      closed: '公式サイトに記載なし',
+      facilities: ['完全個室'],
+    },
+  },
+  {
+    name: 'BODY TERRACE 大井町店',
+    officialUrl: 'https://bodyterrace.com/',
+    price: 'ピラティスプラン 月2回 22,000円／月4回 37,000円（税込・入会金込み）',
+    priceList: ['ピラティスプラン（マンツーマン・マット＋マシン・1回50分・入会金込み）：1回 11,000円／月2回 22,000円／月4回 37,000円／回数券10回 99,000円（税込）'],
+    trial: '体験ピラティス（カウンセリング込み60分）通常 5,500円（キャンペーン時は異なる）',
+    features: ['女性専用', '完全個室', '女性トレーナーのみ在籍', 'マシン＋マットのマンツーマン'],
+    description: '女性専用・完全個室のパーソナルジム＆ピラティススタジオです。女性トレーナーのみが在籍し、ピラティスプランはリフォーマーなどのマシンとマットを組み合わせた1回50分のマンツーマンレッスンです。パーソナルトレーニングとピラティスを併用するプランもあります。青物横丁にも店舗があります。情報引用元：BODY TERRACE公式サイト（2026年11月21日確認）。',
+    access: '大井町駅から徒歩3分',
+    address: '東京都品川区南品川6-11-9 アイテラス102',
+    popularPlan: {
+      name: 'ピラティスプラン 月4回コース',
+      description: 'マット＋マシンのマンツーマンピラティス（1回50分・入会金込み）です。',
+      price: '月4回 37,000円（税込）',
+    },
+    options: [
+      'ピラティスプラン：1回 11,000円／月2回 22,000円／回数券10回 99,000円（税込）',
+      'トレーニング×ピラティスプラン：月4回 38,000円／月6回 53,000円／月8回 69,000円（税込）',
+      '体験トレーニング・体験ピラティス（各60分）通常 5,500円',
+    ],
+    basicInfo: {
+      hours: '9:00〜22:00',
+      closed: '公式サイトに記載なし',
+      facilities: ['完全個室', 'リフォーマーなどのピラティスマシン'],
+    },
+  },
 ]
 
 const faqs = [
@@ -204,11 +291,11 @@ const faqs = [
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'zen place大井町とSTUDIO MUNIは男性も通えます。Rintosull、SAKURA、Pilates Meeは女性専用です。',
+    answer: 'zen place大井町とSTUDIO MUNIは男性も通えます。Rintosull、SAKURA、Pilates Mee、LIFE LOG pilates、BODY TERRACEは女性専用です。',
   },
   {
     question: '女性専用のスタジオはどこですか？',
-    answer: 'Rintosull大井町とSAKURA大井町は女性専用です。女性だけの空間で安心してレッスンを受けられます。',
+    answer: 'Rintosull大井町、SAKURA大井町、Pilates Mee大井町、LIFE LOG pilates大井町店、BODY TERRACE大井町店は女性専用です。LIFE LOG pilatesとBODY TERRACEは完全個室のマンツーマンです。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -231,9 +318,9 @@ export default function OimachiPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月21日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス大井町おすすめ5選<br className="hidden md:block" />
+              ピラティス大井町おすすめ8選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -258,7 +345,7 @@ export default function OimachiPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、大井町エリアでおすすめのピラティススタジオ5選をまとめました。
+              本ページでは、大井町エリアでおすすめのピラティススタジオ8選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -297,7 +384,7 @@ export default function OimachiPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              大井町のおすすめピラティススタジオ5選
+              大井町のおすすめピラティススタジオ8選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -329,11 +416,11 @@ export default function OimachiPage() {
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回あたり3,750円〜7,975円（※Pilates Meeは37,500円の通い放題コースを月10回利用した場合・公式の算出）</td>
+                    <td className="px-4 py-3">1回あたり3,750円〜11,880円（※Pilates Meeは37,500円の通い放題コースを月10回利用した場合・公式の算出。上限はLIFE LOG pilatesのビジター1回）</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">無料〜1,000円</td>
+                    <td className="px-4 py-3">無料〜5,500円</td>
                   </tr>
                 </tbody>
               </table>
@@ -442,6 +529,8 @@ export default function OimachiPage() {
                   <li className="text-warm-700">• Rintosull 大井町店</li>
                   <li className="text-warm-700">• Pilates Mee 大井町店</li>
                   <li className="text-warm-700">• SAKURA 大井町店</li>
+                  <li className="text-warm-700">• LIFE LOG pilates 大井町店（完全個室）</li>
+                  <li className="text-warm-700">• BODY TERRACE 大井町店（完全個室）</li>
                 </ul>
               </div>
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
@@ -562,7 +651,7 @@ export default function OimachiPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  大井町の掲載スタジオでは、Pilates Mee 大井町店（大井町駅 徒歩2分）、zen place pilates 大井町スタジオ（JR京浜東北線・東急大井町線・りんかい線「大井町駅」C出口 徒歩3分）、Rintosull 大井町店（JR京浜東北線・東急大井町線・りんかい線「大井町駅」徒歩3分）が駅から近いスタジオです。通う時間帯の経路もご確認ください。
+                  大井町の掲載スタジオでは、Pilates Mee 大井町店（大井町駅 徒歩2分）、zen place pilates 大井町スタジオ（JR京浜東北線・東急大井町線・りんかい線「大井町駅」C出口 徒歩3分）、Rintosull 大井町店（JR京浜東北線・東急大井町線・りんかい線「大井町駅」徒歩3分）、BODY TERRACE 大井町店（大井町駅から徒歩3分）が駅から近いスタジオです。通う時間帯の経路もご確認ください。
                 </p>
               </div>
             </div>
@@ -623,7 +712,7 @@ export default function OimachiPage() {
               体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,850円です。<br />
+              初回限定の体験レッスン無料〜5,500円です。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link

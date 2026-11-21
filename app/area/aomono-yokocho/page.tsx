@@ -60,7 +60,7 @@ export default function Page() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月21日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス青物横丁おすすめスタジオ<br className="hidden md:block" />
               人気スタジオの料金プランの比較
@@ -232,7 +232,7 @@ export default function Page() {
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">エリアの特徴</h3>
-                  <p className="text-warm-700 text-sm leading-relaxed">東京大学を擁する文京区の学術・医療エリアです。青物横丁駅（都営大江戸線・東京メトロ丸ノ内線）が最寄りです。</p>
+                  <p className="text-warm-700 text-sm leading-relaxed">京急本線の青物横丁駅を中心とした品川区南品川のエリアです。</p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-warm-200">
                   <h3 className="font-bold text-warm-900 mb-3">徒歩・電車でのアクセス</h3>
