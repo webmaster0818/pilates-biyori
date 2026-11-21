@@ -48,8 +48,8 @@ const studios = [
       purpose: ['ボディメイク', 'ダイエット', '美尻・美脚', '姿勢改善'],
     },
     basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '毎週日曜・第4水曜（公式 2026年11月10日確認）',
+      hours: '月〜金 8:50〜22:20／土・祝 7:50〜20:00（日によって異なる場合あり）',
+      closed: '毎週日曜・第4水曜（公式 2026年11月21日確認）',
       facilities: ['リフォーマー', '大画面スクリーン', '更衣室', 'ロッカー'],
     },
   },
@@ -235,7 +235,7 @@ export default function KatsuraPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月21日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス桂おすすめ5選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
@@ -257,11 +257,11 @@ export default function KatsuraPage() {
         </section>
 
         <AreaQuickAnswer areaName="桂（Rintosull 京都桂店）" rows={[
-          { label: '料金', text: 'Rintosull（リントスル）京都桂店の月会費は、4・フルタイム（京都桂店で月4回）8,800円、ライト・フルタイム（京都桂店＋1店舗で通い放題）13,800円、プレミアム フリー・フルタイム（LAVA などを含む系列全店で通い放題）16,800円です（税込）。別途、運営管理費が月680円、入会時に施設使用料2,500円がかかります。入会金・登録金（各5,000円）は体験当日の入会で0円です。' },
-          { label: '体験', text: '無料体験会は0円で、手ぶらで参加できます。' },
-          { label: '場所', text: '京都市西京区川島有栖川町50-2 ECS第24ビル 3F（阪急「桂」駅西口 徒歩1分）。駐車場・駐輪場はありません。定休日は毎週日曜・第4水曜で、営業時間は公式の店舗ページに記載がありません。女性専用です。' },
+          { label: '料金', text: 'Rintosull（リントスル）京都桂店の月会費は、4・フルタイム（京都桂店で月4回）8,800円、ライト・フルタイム（京都桂店＋1店舗で通い放題）13,800円、プレミアム フリー・フルタイム（LAVA などを含む系列全店で通い放題）16,800円です（税込）。別途、運営管理費が月680円、入会時に施設使用料2,500円がかかります。入会金・登録金（各5,000円）は体験当日の入会で0円です。11月末までのキャンペーンでは、系列全店通い放題（通常16,800円）が利用開始月を含む3ヶ月間 月1,980円になります（来店当日の登録・過去5ヶ月以内にRintosullの体験会受講やLAVAなどの月額登録がない方・特別価格の終了後12ヶ月の継続が条件）。' },
+          { label: '体験', text: '無料体験会は0円・所要約45分で、施設の見学とマシンピラティスのプチ体験を行います。体験用の着替えは無料で用意されているため手ぶらで参加でき、予約は希望時間の2時間前まで受け付けています。公式FAQでは、会員の87%以上がマシンピラティス未経験から始めたと案内されています。' },
+          { label: '場所', text: '京都市西京区川島有栖川町50-2 ECS第24ビル 3F（阪急「桂」駅西口 徒歩1分）。駐車場・駐輪場はありません。定休日は毎週日曜・第4水曜、営業時間は月〜金 8:50〜22:20・土祝 7:50〜20:00です（日によって異なる場合あり）。女性専用で、現金は使えないキャッシュレス専用店です。' },
           { label: '口コミ', text: '公式の店舗ページに会員の声（「京都桂店の口コミ」）が載っています。Googleマップには口コミが308件・評価4.9（2026年8月17日の取得時点）あり、当サイトの要約は店舗ページにまとめています。' },
-        ]} note={<>Rintosull 京都桂店の公式の店舗ページの表記です（2026年11月10日確認）。出典: <a href="https://rintosull.jp/shop/kyoto/kyotokatsura/" target="_blank" rel="noopener noreferrer" className="underline">Rintosull 京都桂店（公式）</a>。口コミの要約・公式の会員の声は<Link href="/brands/rintosull-katsura/" className="underline">Rintosull 京都桂店の口コミ・レビュー</Link>、ほかの4スタジオは<a href="#studios" className="underline">スタジオ紹介</a>をご覧ください。</>} />
+        ]} note={<>Rintosull 京都桂店の公式の店舗ページの表記です（2026年11月21日確認）。出典: <a href="https://rintosull.jp/shop/kyoto/kyotokatsura/" target="_blank" rel="noopener noreferrer" className="underline">Rintosull 京都桂店（公式）</a>。口コミの要約・公式の会員の声は<Link href="/brands/rintosull-katsura/" className="underline">Rintosull 京都桂店の口コミ・レビュー</Link>、Rintosull 全体の料金・全店舗一覧は<Link href="/brands/rintosull/" className="underline">Rintosull（リントスル）の料金・店舗一覧</Link>、ほかの4スタジオは<a href="#studios" className="underline">スタジオ紹介</a>をご覧ください。</>} />
 
         <TableOfContents areaName="桂" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
 
@@ -367,7 +367,7 @@ export default function KatsuraPage() {
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">Rintosull桂店は日曜定休に注意</h3>
-                <p className="text-warm-600 leading-relaxed">Rintosull京都桂店は毎週日曜日が定休日です。2店舗通い放題プラン（13,800円）で併用できるRintosull京都四条烏丸店も毎週日曜・第4木曜が定休日のため、日曜に通いたい場合は他のスタジオを検討してください（公式店舗ページ・2026年11月11日確認）。桂から烏丸駅まで阪急で約10分です。</p>
+                <p className="text-warm-600 leading-relaxed">Rintosull京都桂店は毎週日曜・第4水曜が定休日です。2店舗通い放題プラン（13,800円）で併用できるRintosull京都四条烏丸店も毎週日曜・第4木曜が定休日のため、日曜に通いたい場合は他のスタジオを検討してください（公式店舗ページ・2026年11月21日確認）。桂から烏丸駅まで阪急で約10分です。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <h3 className="text-lg font-bold text-warm-900 mb-3">近隣エリアも視野に入れよう</h3>
