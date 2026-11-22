@@ -1608,3 +1608,9 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - **大手町**: the SILK 八重洲・zen 八重洲・K 銀座・Mee 築地を公式 11/21 と照合＝料金一致。K 銀座の出口を公式の「銀座駅 A9番出口 徒歩5分」に（C8 は誤り・表とカード）。男女共用は zen 八重洲のみの一文。BDC 銀座は判断待ちで不変
 - **/brands/bdc/**: 公式8店（studios）・表参道/二子玉川の料金一致。要点に「他店舗」行（受講回数は所属店舗のみ・他店舗は追加レッスン料4,070円・予約枠は別枠／公式FAQ）。intro/faq は店舗受け皿にも出るので触らず quickAnswer のみ（表示変化は /brands/bdc/ だけ）。体験1,100円は画像のため本日は未照合（文字は「11/30まで・限定20名・残り7名」）
 - next build 直接・sitemap は4頁のみ 11-21。precheck ✅ 589頁・計測リンク out/deploy 3,992→3,992・functions/api 4本保全・表示テキストの変化は4頁のみ
+
+### 2026-11-22 朝ルーチン: BREST モニター募集は継続（変更なし）・LIFE LOG 相互リンク未設置・STUDIO IVY 公式一覧 152→154店舗（source e3ebcb58 / deploy 99ea310ab9）
+- BREST（11/22 09:2x 公式直・7店）: 「モニター会員募集」バナー（banner-1_monitor_500.png・Last-Modified 10/29・100,761 bytes）継続・終了/締切表記 0→カードは戻さない。/news/ 最新 11/22 は会員の体験記（料金改定ではない）。本番 /brands/brest/・代官山・茅ヶ崎に税込500円/先着20名が出ていることを確認。0:00 受け皿強化（f49153d7）の BREST 更新には触れていない
+- LIFE LOG（bodyterrace.com 299頁・lifelogpilates.com 85頁＝sitemap 全ページ 11/22 取得）: biyori-pilates／pilates-biyori／Pilates-Biyori への言及・リンク 0件＝未設置（11/21 と同じ）。報告のみ
+- 点検 11/22: /brands/ C5 は判断待ちで title 不変、/editors/ C3 は読者を指す文（「通っている方」）の誤検知＝11/14〜11/21 と同じ
+- STUDIO IVY: 公式 /studio の一覧が154店舗（府中店・海老名店が追加・両店とも「新規OPENキャンペーン中」・店舗ページの初回体験無料は 12/1〜12/31・営業時間 8:00〜21:00）。`data/studio-ivy-official-stores.ts` を公式から取り直し（既存152店は清澄白河のタグ文言以外一致）、要点・intro・officialStores（東京都74・神奈川県14・caveat）・trialNote（新規OPEN 18→20店）・storeListNote・description を154に。title の店舗数は公式トップの「全国150店舗以上」（次に店舗が増えても title を変えずに済む）。表示テキストの変化は /brands/studio-ivy/ の1頁のみ。precheck ✅・計測リンク out/deploy 4,428→4,428・functions/api 4本保全
