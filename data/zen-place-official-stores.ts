@@ -1,10 +1,11 @@
 // zen place 公式「スタジオ一覧」（https://www.zenplace.co.jp/studios）のピラティススタジオ全店（ヨガ専用店・オンラインを除く）
 // 2026-10-28 に公式から取得（137店舗）。都道府県は公式一覧の見出し（または住所）による。
+// 2026-11-22: 公式一覧を取り直して照合（ピラティス137店舗・名前一致。グレード01 98／02 39）。差は新横浜が 11/8 にオープン済み（店舗ページ「11/8（日）zen place pilates新横浜がオープン！」）になったことだけ→その名前のみ更新、asOf を11/22に。
 // ⚠️ 値を手で書き足さない。更新するときは公式一覧を取り直して丸ごと置き換える（scripts/gen-official-store-lists-20261028.py の手順）。
 import type { OfficialStoreList } from './official-store-list-type'
 
 export const ZEN_PLACE_OFFICIAL: OfficialStoreList = {
-  asOf: '2026年10月28日',
+  asOf: '2026年11月22日',
   sourceLabel: "zen place公式 スタジオ一覧",
   sourceUrl: "https://www.zenplace.co.jp/studios",
   extraLabel: "グレード",
@@ -120,7 +121,7 @@ export const ZEN_PLACE_OFFICIAL: OfficialStoreList = {
     { pref: "神奈川県", name: "zen place pilates 鎌倉", access: "JR横須賀線、湘南新宿ライン・江ノ島電鉄「鎌倉駅」西口徒歩4分", address: "神奈川県鎌倉市御成町7-8 御成エバービル 2階", url: "https://www.zenplace.co.jp/studios/pilates-kamakura", extra: "グレード01" },
     { pref: "神奈川県", name: "zen place pilates 青葉台", access: "田園都市線「青葉台駅」北口徒歩2分", address: "神奈川県横浜市青葉区青葉台2丁目6-1ケンシュウ第6ビル 3階", url: "https://www.zenplace.co.jp/studios/pilates-aobadai", extra: "グレード01" },
     { pref: "神奈川県", name: "zen place pilates 稲田堤", access: "JR南武線「稲田堤駅」南口 徒歩2分", address: "神奈川県川崎市多摩区菅北浦３丁目１−１ メゾン・ノーブル1F・B1F", url: "https://www.zenplace.co.jp/studios/pilates-inadazutsumi", extra: "グレード02" },
-    { pref: "神奈川県", name: "zen place pilates 新横浜（2026年11月8日オープン予定）", access: "地下鉄ブルーライン/東急新横浜線/相鉄新横浜線「新横浜駅」10番出口徒歩1分", address: "神奈川県横浜市港北区新横浜2丁目5-10 楓第2ビル 7F", url: "https://www.zenplace.co.jp/studios/pilates-shinyokohama", extra: "グレード01" },
+    { pref: "神奈川県", name: "zen place pilates 新横浜（2026年11月8日オープン）", access: "地下鉄ブルーライン/東急新横浜線/相鉄新横浜線「新横浜駅」10番出口徒歩1分", address: "神奈川県横浜市港北区新横浜2丁目5-10 楓第2ビル 7F", url: "https://www.zenplace.co.jp/studios/pilates-shinyokohama", extra: "グレード01" },
     { pref: "新潟県", name: "zen place pilates 新潟", access: "新潟駅徒歩5分", address: "新潟県新潟市中央区東大通2丁目3-28パーク新潟東大通ビル 4階", url: "https://www.zenplace.co.jp/studios/pilates-niigata", extra: "グレード02" },
     { pref: "岐阜県", name: "zen place pilates 岐阜", access: "名鉄名古屋本線 名鉄岐阜駅 中央口から徒歩2分", address: "岐阜県岐阜市神田町9丁目20 G-frontビル８F", url: "https://www.zenplace.co.jp/studios/pilates-gifu", extra: "グレード02" },
     { pref: "静岡県", name: "zen place pilates 静岡", access: "JR線 静岡駅から徒歩15分", address: "静岡県静岡市葵区呉服町1-4-5武田ビル4階", url: "https://www.zenplace.co.jp/studios/pilates-shizuoka", extra: "グレード02" },

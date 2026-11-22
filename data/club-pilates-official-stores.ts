@@ -1,10 +1,11 @@
 // CLUB PILATES 公式「スタジオ一覧」（https://clubpilates.co.jp/studio/）の国内全店と、各店舗ページの月会費（EFT4・EFT8・UNLIMITED）
 // 2026-10-28 に公式から取得（88店舗）。都道府県は公式一覧の見出し（または住所）による。
+// 2026-11-22: 公式一覧（88店・URL 完全一致）と全88店舗ページを取り直して照合。差はみなとみらい店に料金が載ったことだけ（月4回14,190円／月8回26,290円／通い放題40,590円）→その1行のみ更新、asOf を11/22に。
 // ⚠️ 値を手で書き足さない。更新するときは公式一覧を取り直して丸ごと置き換える（scripts/gen-official-store-lists-20261028.py の手順）。
 import type { OfficialStoreList } from './official-store-list-type'
 
 export const CLUB_PILATES_OFFICIAL: OfficialStoreList = {
-  asOf: '2026年10月28日',
+  asOf: '2026年11月22日',
   sourceLabel: "CLUB PILATES公式 スタジオ一覧と各店舗ページ",
   sourceUrl: "https://clubpilates.co.jp/studio/",
   extraLabel: "月会費（公式の店舗ページ）",
@@ -71,7 +72,7 @@ export const CLUB_PILATES_OFFICIAL: OfficialStoreList = {
     { pref: "神奈川県", name: "CLUB PILATES テラスモール湘南辻堂店", access: "JR辻堂駅直結", address: "神奈川県藤沢市辻堂神台 1 丁目 3-1 テラスモール湘南 湘南ヴィレッジ1F", url: "https://clubpilates.co.jp/studio/tsujido/", extra: "月4回 14,190円／月8回 26,290円／通い放題 40,590円" },
     { pref: "神奈川県", name: "CLUB PILATES 江ノ島店", access: "小田急線 片瀬江ノ島駅から海岸線沿いに出て右手に歩いて５分。新江ノ島水族館の真向かいUSEN.Xビルの１階です。 提携駐車場はございません…", address: "神奈川県藤沢市片瀬海岸２丁目１８−１７ USEN.X 1F （近辺に駐車場あり）", url: "https://clubpilates.co.jp/studio/enoshima/", extra: "店舗ページに料金の記載なし" },
     { pref: "神奈川県", name: "CLUB PILATES 横浜店", access: "横浜駅きた西口より徒歩5分", address: "神奈川県横浜市神奈川区鶴屋町1-8-1 ALPS横浜ビル 2F", url: "https://clubpilates.co.jp/studio/yokohama/", extra: "月4回 13,090円／月8回 24,090円／通い放題 37,290円" },
-    { pref: "神奈川県", name: "CLUB PILATES みなとみらい店", access: "みなとみらい駅から徒歩1分（駅直結）", address: "神奈川県横浜市西区みなとみらい三丁目6番1号みなとみらいセンタービル1F", url: "https://clubpilates.co.jp/studio/minatomirai/", extra: "店舗ページに料金の記載なし" },
+    { pref: "神奈川県", name: "CLUB PILATES みなとみらい店", access: "みなとみらい駅から徒歩1分（駅直結）", address: "神奈川県横浜市西区みなとみらい三丁目6番1号みなとみらいセンタービル1F", url: "https://clubpilates.co.jp/studio/minatomirai/", extra: "月4回 14,190円／月8回 26,290円／通い放題 40,590円" },
     { pref: "神奈川県", name: "CLUB PILATES センター北店", access: "横浜市営地下鉄センター北駅より徒歩1分", address: "神奈川県横浜市都筑区中川中央1丁目30-1 プレミアヨコハマ 2F", url: "https://clubpilates.co.jp/studio/center-kita/", extra: "月4回 11,990円／月8回 21,890円／通い放題 36,190円" },
     { pref: "福井県", name: "CLUB PILATES 福井店", access: "エルパより徒歩3分", address: "福井県福井市大和田1丁目406", url: "https://clubpilates.co.jp/studio/fukui/", extra: "月4回 10,890円／月8回 15,290円／通い放題 18,590円" },
     { pref: "愛知県", name: "CLUB PILATES 久屋大通店", access: "名古屋市営地下鉄久屋大通駅より徒歩1分", address: "愛知県名古屋市中区丸の内3丁目19-19 ADC HISAYA BUILDING 2F", url: "https://clubpilates.co.jp/studio/hisayaodori/", extra: "月4回 13,090円／月8回 16,390円／通い放題 26,090円" },

@@ -155,7 +155,7 @@ const studios = [
     price: '月4回 15,400円〜',
     trial: '体験レッスン 980円',
     features: ['少人数制', 'カルテ管理', '手ぶらで参加可能', '年中無休'],
-    description: '最大4名の少人数制セミパーソナルレッスンが特徴のマシンピラティススタジオです。有資格インストラクターが一人ひとりの身体をカルテに記録しながらカスタマイズされたレッスンを提供しています。年中無休で朝8時から夜21時まで営業しており、通いやすい環境です。レンタルウェア完備で手ぶらで通えます。',
+    description: '4名以下の少人数制セミパーソナルレッスン（最大12名のグループレッスンもあり）が特徴のマシンピラティススタジオです。有資格インストラクターが一人ひとりの身体をカルテに記録しながらカスタマイズされたレッスンを提供しています。年中無休で朝8時から夜21時まで営業しており、通いやすい環境です。レンタルウェア完備で手ぶらで通えます。',
     access: '明治神宮前駅 徒歩5分 / 原宿駅 徒歩5分 / 表参道駅 徒歩15分',
     address: '東京都渋谷区神宮前6丁目34-22 神宮前634ビル B1F',
     popularPlan: {
@@ -353,7 +353,7 @@ export default function AoyamaItchomePage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月11日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月22日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス青山・青山一丁目おすすめ9選<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較
@@ -378,11 +378,11 @@ export default function AoyamaItchomePage() {
           { label: '表参道側', text: 'グループで通うなら表参道駅の徒歩2分圏です。ピラティスK 表参道店（マシン・月4回13,420円・体験0円）、BDC PILATES 表参道（月4回16,280円・グループ体験1,100円は11月30日まで）、Sky Pilates Tokyo 表参道店（徒歩5分・1回3,200円〜）。' },
           { label: '料金', text: '月額の最安はzen place pilates 六本木のマットグループ月4回10,450円、マシンのグループはピラティスK 月4回13,420円です（税込）。' },
           { label: '体験', text: '無料はピラティスK 表参道店の1社。1,000円前後ならSky Pilates Tokyo 表参道店のマシングループ1,000円、zen place pilates 六本木のマットグループ1,000円、BDCのグループ1,100円（11月30日まで）、KASANEの980円です。' },
-        ]} note="掲載店の駅徒歩・月額・体験の早見表はすぐ下、南青山・北青山の住所別の早見表はその下にあります。値は各公式サイトの表記（2026年11月11日確認）です。" />
+        ]} note="掲載店の駅徒歩・月額・体験の早見表はすぐ下、南青山・北青山の住所別の早見表はその下にあります。値は各公式サイトの表記（2026年11月22日確認）です。" />
         <section className="py-8 bg-white" id="by-station">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">青山一丁目・表参道のピラティス早見表｜駅徒歩・月額・体験</h2>
-            <p className="text-warm-600 leading-relaxed mb-6 text-sm">青山一丁目駅から徒歩3分の2社（どちらもマンツーマン）を先頭に、表参道・六本木側の掲載店を並べました。徒歩分・月額・体験料金は各スタジオの公式サイトの表記です（2026年11月11日確認・税込。Viel Aoyama は公式に税表記なし）。</p>
+            <p className="text-warm-600 leading-relaxed mb-6 text-sm">青山一丁目駅から徒歩3分の2社（どちらもマンツーマン）を先頭に、表参道・六本木側の掲載店を並べました。徒歩分・月額・体験料金・男性の利用可否は各スタジオの公式サイトの表記です（2026年11月22日確認・税込。Viel Aoyama は公式に税表記なし）。</p>
             <div className="overflow-x-auto">
               <table className="w-full text-sm border-collapse">
                 <thead>
@@ -398,9 +398,9 @@ export default function AoyamaItchomePage() {
                   <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Pilates & BodyMake Studio Viel Aoyama</td><td className="px-4 py-3">青山一丁目駅 徒歩3分</td><td className="px-4 py-3">マンツーマン（ピラティス＋筋トレ・男性料金あり）</td><td className="px-4 py-3">月2回 26,000円（女性）</td><td className="px-4 py-3">8,800円（60分・女性）</td></tr>
                   <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">ピラティススタジオB&B南青山</td><td className="px-4 py-3">青山一丁目駅 4番南出口 徒歩3分</td><td className="px-4 py-3">プライベート専門</td><td className="px-4 py-3">月額制なし（4回券 50,000円＝1回12,500円）</td><td className="px-4 py-3">9,000円（50分）</td></tr>
                   <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">ピラティスK 表参道店</td><td className="px-4 py-3">表参道駅 B2出口 徒歩2分</td><td className="px-4 py-3">マシンのグループ（女性専用）</td><td className="px-4 py-3">月4回 13,420円</td><td className="px-4 py-3">0円</td></tr>
-                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">BDC PILATES 表参道スタジオ</td><td className="px-4 py-3">表参道駅 徒歩2分</td><td className="px-4 py-3">マシンのグループ（最大8名）・プライベート</td><td className="px-4 py-3">月4回 16,280円</td><td className="px-4 py-3">グループ 1,100円（11月30日まで・通常4,070円）</td></tr>
+                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">BDC PILATES 表参道スタジオ</td><td className="px-4 py-3">表参道駅 徒歩2分</td><td className="px-4 py-3">マシンのグループ（最大8名）・プライベート（男性可・女性専用は恵比寿店のみ）</td><td className="px-4 py-3">月4回 16,280円</td><td className="px-4 py-3">グループ 1,100円（11月30日まで・限定20名で定員になり次第終了・通常4,070円）</td></tr>
                   <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Sky Pilates Tokyo</td><td className="px-4 py-3">表参道店 表参道駅 徒歩5分／本店 表参道・外苑前駅 徒歩7分</td><td className="px-4 py-3">マシンのグループ・プライベート</td><td className="px-4 py-3">月額制なし（グループ1回 3,200円〜・表参道店は4回券 12,000円）</td><td className="px-4 py-3">表参道店のマシングループ 1,000円</td></tr>
-                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Pilates KASANE 表参道店</td><td className="px-4 py-3">明治神宮前駅・原宿駅 徒歩5分</td><td className="px-4 py-3">マシンの少人数グループ（最大4名）</td><td className="px-4 py-3">月4回 15,400円</td><td className="px-4 py-3">980円</td></tr>
+                  <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">Pilates KASANE 表参道店</td><td className="px-4 py-3">明治神宮前駅・原宿駅 徒歩5分</td><td className="px-4 py-3">マシンの少人数グループ（4名以下・最大12名のグループもあり・男性可）</td><td className="px-4 py-3">月4回 15,400円</td><td className="px-4 py-3">980円</td></tr>
                   <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">zen place pilates 六本木</td><td className="px-4 py-3">六本木駅2番出口 徒歩2分</td><td className="px-4 py-3">マット・マシンのグループ・プライベート（男女共用）</td><td className="px-4 py-3">マット月4回 10,450円</td><td className="px-4 py-3">マット 1,000円・マシン 3,000円</td></tr>
                   <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">a.pilates</td><td className="px-4 py-3">表参道駅 徒歩2分</td><td className="px-4 py-3">マンツーマン（女性専用）</td><td className="px-4 py-3">初回受講後に案内</td><td className="px-4 py-3">体験メニューなし（初回50分 22,000円・新規は紹介のみ）</td></tr>
                   <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">A・CORE</td><td className="px-4 py-3">表参道駅A3出口 徒歩約4分</td><td className="px-4 py-3">プライベート</td><td className="px-4 py-3">月額制なし（1回 12,000円）</td><td className="px-4 py-3">体験受付は9月30日で終了（11月30日で営業終了予定）</td></tr>
@@ -408,6 +408,7 @@ export default function AoyamaItchomePage() {
               </table>
             </div>
             <p className="text-warm-600 leading-relaxed mt-4 text-sm">青山一丁目駅から徒歩5分以内で通えるのは、掲載スタジオではViel・B&B南青山の2つで、どちらもマンツーマン（1回1万円台〜）です。月1万円台のグループレッスンで探すなら、銀座線で2駅の表参道側（ピラティスK・BDC PILATES・Pilates KASANE など）まで広げると選択肢が増えます。</p>
+            <p className="text-warm-600 leading-relaxed mt-3 text-sm">男性が通えるのは、Viel Aoyama（男性料金あり）・BDC PILATES 表参道スタジオ（女性専用は恵比寿店のみ）・Pilates KASANE 表参道店・zen place pilates 六本木（男女共用）です。ピラティスK 表参道店と a.pilates は女性専用です。B&B南青山と Sky Pilates Tokyo は、公式サイトで男女の利用条件の記載を確認できませんでした（2026年11月22日確認）。</p>
             <p className="text-warm-600 leading-relaxed mt-3 text-sm">Viel Aoyama の料金は、女性が体験8,800円（60分）・都度13,200円・月2回26,000円・月4回50,000円・月8回98,000円、男性が都度22,000円・月4回88,000円、入会金33,000円です（公式の料金ページ）。口コミは Google マップに投稿があり、公式サイトのトップにもその Google の口コミ（2023年5〜6月の投稿5件）が表示されています。ホットペッパービューティーなどの口コミサイトへの掲載は見当たりませんでした（2026年11月11日確認）。</p>
           </div>
         </section>
