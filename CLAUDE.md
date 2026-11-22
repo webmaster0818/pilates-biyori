@@ -1614,3 +1614,12 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - LIFE LOG（bodyterrace.com 299頁・lifelogpilates.com 85頁＝sitemap 全ページ 11/22 取得）: biyori-pilates／pilates-biyori／Pilates-Biyori への言及・リンク 0件＝未設置（11/21 と同じ）。報告のみ
 - 点検 11/22: /brands/ C5 は判断待ちで title 不変、/editors/ C3 は読者を指す文（「通っている方」）の誤検知＝11/14〜11/21 と同じ
 - STUDIO IVY: 公式 /studio の一覧が154店舗（府中店・海老名店が追加・両店とも「新規OPENキャンペーン中」・店舗ページの初回体験無料は 12/1〜12/31・営業時間 8:00〜21:00）。`data/studio-ivy-official-stores.ts` を公式から取り直し（既存152店は清澄白河のタグ文言以外一致）、要点・intro・officialStores（東京都74・神奈川県14・caveat）・trialNote（新規OPEN 18→20店）・storeListNote・description を154に。title の店舗数は公式トップの「全国150店舗以上」（次に店舗が増えても title を変えずに済む）。表示テキストの変化は /brands/studio-ivy/ の1頁のみ。precheck ✅・計測リンク out/deploy 4,428→4,428・functions/api 4本保全
+
+### 2026-11-22 12:00 成長ルーチン: Repilates 早見表に1回あたり・入会時費用・契約期間＋ホットペッパー口コミ・CLUB PILATES/zen place の h1 直下に公式料金早見表・青山一丁目に男性可否（source a6b52b9e＋zen intro 修正 / deploy 25e30bdecf＋）
+- 公式直（計測リンクは開かず）: /tmp/g1122/biyori-work/{off,cp,zen,la,aoyama}/。競合は WebSearch extended で日本の上位を取得（web-note「全28店舗4,218件」・mackdaddy 料金・nana-lifestyle・mukachi／青山: pilatis.blog・dreamvocalaudition・plizgym・mukachi・yogapila-map 等）
+- **Repilates**: 公式トップ PRICE・店舗一覧・FAQ・利用規約（11/22）＝料金全一致・営業中31店（日生中央サピエ・浜松西・となみは一覧の本体に移ったが店舗ページは「2026年 新店舗オープン予定／プレオープン内覧会」＝営業中に数えない）。早見表に「1回あたり（計算）」「入会時に払う額＝入会金＋会費2か月分（公式FAQ）・月4回例38,380円」「最短契約期間（公式FAQ: キャンペーンごと・違約金で退会可／規約: 継続必須期間中は解約不可）」。要点・FAQ の口コミにホットペッパービューティー8店舗264件（直近1年平均4.00〜4.89）の不満傾向（初回は難しい・継続期間中解約不可の不安・先生の動きが見えにくい・年齢層）と「口コミ投稿限定」クーポンの注意。キャンセル FAQ を公式FAQ（1時間前10店／12時間前14店）に。description 更新。title 不変
+- **CLUB PILATES**: 公式一覧88店（URL完全一致）＋全88店舗ページ照合＝差はみなとみらい店に料金掲載（14,190/26,290/40,590）のみ→85→86店舗。h1 直下に quickPriceTable（月4回レンジ・最多13,090円44店・入会金5,500＋事務手数料2,200〔57店のページに記載〕・みなとみらいの当日入会キャンペーン例）、要点の先頭を料金に。店舗受け皿9頁の FAQ（85→86）も変わる
+- **zen place**: /price・/campaign・/studios（11/22）＝料金一致・ピラティス137店（G01 98／G02 39）。新横浜は 11/8 オープン済み→「予定」表記を訂正。h1 直下に quickPriceTable、要点の先頭を料金に、体験キャンペーンは11月中の体験・特典入会は最低4〜6か月継続が条件
+- **青山一丁目**: 早見表9店を公式 11/22 と照合（35/36一致）。KASANE 表参道「最大4名」→4名以下〜最大12名のグループ（公式FAQ）、男性可否の一文（BDC 表参道〔女性専用は恵比寿のみ〕・KASANE・zen 六本木・Viel 可／K・a.pilates 女性専用／B&B・Sky 記載なし）、BDC 体験に限定20名。title 不変。**A・CORE は 11/30 営業終了→12/1 以降に外す（9選が変わる）**。未掲載の候補 Pono Aoyama（青山一丁目駅1分・グループ月4回20,000円）は判断待ち
+- 変更なし: La pilates（最終クロール 10/24＜変更 11/12 →誤記訂正のみ可。公式 menu・トップ 126店と全一致）、elephant・scissors（title/description が答えを含む）
+- next build 直接・sitemap は4頁のみ 11-22。precheck ✅ 589頁・計測リンク out/deploy 4,162→4,162・functions/api 4本保全・/api/contact 400・表示テキストの変化は13頁（4頁＋CP 受け皿9頁の FAQ）
