@@ -1,9 +1,9 @@
 // STUDIO IVY 公式「店舗一覧」（https://www.pilates-ivy.jp/studio）に載っている全店。最寄駅・住所は一覧の「最寄駅」「住所」欄、extra は一覧のタグ（新規受付停止中・新規OPENキャンペーン中 等）。
-// 2026-11-19 に公式から取得（152店舗）。⚠️ 値を手で書き足さない。更新するときは公式を取り直して丸ごと置き換える。
+// 2026-11-22 に公式から取得（154店舗。11-19 の152店舗に府中店・海老名店が増）。⚠️ 値を手で書き足さない。更新するときは公式を取り直して丸ごと置き換える。
 import type { OfficialStoreList } from './official-store-list-type'
 
 export const STUDIO_IVY_OFFICIAL: OfficialStoreList = {
-  asOf: '2026年11月19日',
+  asOf: '2026年11月22日',
   sourceLabel: 'STUDIO IVY公式 店舗一覧',
   sourceUrl: 'https://www.pilates-ivy.jp/studio',
   extraLabel: '受付状況（公式一覧の表示）',
@@ -30,6 +30,7 @@ export const STUDIO_IVY_OFFICIAL: OfficialStoreList = {
     { "pref": "千葉県", "name": "STUDIO IVY 船橋店", "access": "船橋駅", "address": "千葉県船橋市本町1-26-14 サンライズ船橋701", "url": "https://www.pilates-ivy.jp/studio/funabashi" },
     { "pref": "千葉県", "name": "STUDIO IVY 千葉店", "access": "千葉駅", "address": "千葉県千葉市中央区弁天1-8-12 ART弁天603", "url": "https://www.pilates-ivy.jp/studio/chiba" },
     { "pref": "千葉県", "name": "STUDIO IVY 浦安店", "access": "浦安駅", "address": "千葉県浦安市北栄1-1-20 ルミエール 201", "url": "https://www.pilates-ivy.jp/studio/urayasu" },
+    { "pref": "東京都", "name": "STUDIO IVY 府中店", "access": "府中駅", "address": "東京都府中市府中町1-30-3 オークワンビル3F", "url": "https://www.pilates-ivy.jp/studio/fuchu", "extra": "新規OPENキャンペーン中" },
     { "pref": "東京都", "name": "STUDIO IVY 両国店", "access": "両国駅", "address": "東京都墨田区両国1-16-3 アーバネックス両国店舗1", "url": "https://www.pilates-ivy.jp/studio/ryogoku", "extra": "新規OPENキャンペーン中" },
     { "pref": "東京都", "name": "STUDIO IVY 人形町店", "access": "人形町駅", "address": "東京都中央区日本橋富沢町11-15 月村マンションNo.29 203", "url": "https://www.pilates-ivy.jp/studio/ningyocho", "extra": "新規OPENキャンペーン中" },
     { "pref": "東京都", "name": "STUDIO IVY 勝どき店", "access": "勝どき駅", "address": "東京都中央区勝どき4-9-10 blue horizon 601", "url": "https://www.pilates-ivy.jp/studio/kachidoki", "extra": "新規OPENキャンペーン中" },
@@ -57,7 +58,7 @@ export const STUDIO_IVY_OFFICIAL: OfficialStoreList = {
     { "pref": "東京都", "name": "STUDIO IVY 等々力店", "access": "等々力駅", "address": "東京都世田谷区等々力2-32-14 B-WOOD 306", "url": "https://www.pilates-ivy.jp/studio/todoroki" },
     { "pref": "東京都", "name": "STUDIO IVY 代々木店", "access": "代々木駅", "address": "東京都渋谷区代々木1-24-15 アドバンス代々木201", "url": "https://www.pilates-ivy.jp/studio/yoyogi" },
     { "pref": "東京都", "name": "STUDIO IVY 自由が丘店", "access": "自由が丘駅", "address": "東京都目黒区自由が丘2-6-9 ERZ自由が丘101", "url": "https://www.pilates-ivy.jp/studio/jiyugaoka" },
-    { "pref": "東京都", "name": "STUDIO IVY 清澄白河店", "access": "清澄白河駅", "address": "東京都江東区三好4-8-8 アーバンステージ清澄白河Ⅲ303", "url": "https://www.pilates-ivy.jp/studio/kiyosumishirakawa", "extra": "平日10:40〜17:20のみ体験受付（11/30まで）" },
+    { "pref": "東京都", "name": "STUDIO IVY 清澄白河店", "access": "清澄白河駅", "address": "東京都江東区三好4-8-8 アーバンステージ清澄白河Ⅲ303", "url": "https://www.pilates-ivy.jp/studio/kiyosumishirakawa", "extra": "10/1(木) 〜 11/30(月)・平日10:40~17:20のみトライアル受付中！" },
     { "pref": "東京都", "name": "STUDIO IVY 戸越公園店", "access": "戸越公園駅", "address": "東京都品川区戸越6-20-12 プラスキューブ戸越2F", "url": "https://www.pilates-ivy.jp/studio/togoshikouen" },
     { "pref": "東京都", "name": "STUDIO IVY 池袋ANNEX店", "access": "池袋駅", "address": "東京都豊島区南池袋1-14-2 Refuge I North 303", "url": "https://www.pilates-ivy.jp/studio/ikebukuroannex" },
     { "pref": "東京都", "name": "STUDIO IVY 森下店", "access": "森下駅", "address": "東京都江東区森下2-17-8 MORISHITA RISE 4F", "url": "https://www.pilates-ivy.jp/studio/morishita", "extra": "新規受付停止中" },
@@ -103,6 +104,7 @@ export const STUDIO_IVY_OFFICIAL: OfficialStoreList = {
     { "pref": "東京都", "name": "STUDIO IVY 新宿曙橋店", "access": "曙橋駅", "address": "東京都新宿区市谷仲之町3-17 ARK RESIDENCE 市谷仲之町201", "url": "https://www.pilates-ivy.jp/studio/shinjukuakebonobashi" },
     { "pref": "東京都", "name": "STUDIO IVY 銀座新富町店", "access": "新富町駅", "address": "東京都中央区新富2-5-4 アソシエイトタワー4F", "url": "https://www.pilates-ivy.jp/studio/ginzashintomicho" },
     { "pref": "東京都", "name": "STUDIO IVY 三軒茶屋店", "access": "三軒茶屋駅", "address": "東京都世田谷区三軒茶屋1-35-17 ルーエプラッツ三軒茶屋303", "url": "https://www.pilates-ivy.jp/studio/sangenjaya" },
+    { "pref": "神奈川県", "name": "STUDIO IVY 海老名店", "access": "海老名駅", "address": "神奈川県海老名市泉1-3-23 デュオステージ海老名II 405", "url": "https://www.pilates-ivy.jp/studio/ebina", "extra": "新規OPENキャンペーン中" },
     { "pref": "神奈川県", "name": "STUDIO IVY 本厚木店", "access": "本厚木駅", "address": "神奈川県厚木市旭町1-8-6 パストラルビル101", "url": "https://www.pilates-ivy.jp/studio/honatsugi", "extra": "新規OPENキャンペーン中" },
     { "pref": "神奈川県", "name": "STUDIO IVY 相模大野店", "access": "相模大野駅", "address": "神奈川県相模原市南区相模大野8-4-4 デュオステージ相模大野1002", "url": "https://www.pilates-ivy.jp/studio/sagamiono", "extra": "新規OPENキャンペーン中" },
     { "pref": "神奈川県", "name": "STUDIO IVY 藤沢店", "access": "藤沢駅", "address": "神奈川県藤沢市藤沢991-36 FJ9フロアビル402号", "url": "https://www.pilates-ivy.jp/studio/fujisawa", "extra": "新規OPENキャンペーン中" },
