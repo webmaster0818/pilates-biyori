@@ -358,7 +358,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
               <h2 className="text-xl font-light text-warm-900 border-b border-warm-200 pb-2 mb-4">{brand.name}の都道府県別{os.countLabel ?? '店舗数'}（公式・{os.asOf}時点）</h2>
               <p className="text-sm text-warm-600 font-light leading-relaxed mb-4">
                 公式サイトの店舗一覧に載っている{os.byPrefTotal ?? os.count}店舗を、住所の都道府県別に集計しています（{os.byPref.length}都道府県）。{os.byPrefNote ?? os.caveat ?? ''}
-                最も多いのは{os.byPref[0].pref}の{os.byPref[0].count}店舗です。
+                {(() => { const mx = Math.max(...os.byPref.map((p) => p.count)); const top = os.byPref.filter((p) => p.count === mx); return os.byPref[0].count === mx ? `最も多いのは${os.byPref[0].pref}の${mx}店舗です。` : top.length > 1 ? `最も多いのは${top.map((p) => p.pref).join('・')}の各${mx}店舗です。` : `最も多いのは${top[0].pref}の${mx}店舗です。` })()}
               </p>
               <ul className="flex flex-wrap gap-2">
                 {os.byPref.map((p) => (

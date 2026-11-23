@@ -18,8 +18,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/iidabashi/' },
-  title: '飯田橋のピラティス5社を比較｜飯田橋駅徒歩1分が2社・無料体験3社・月4回10,450円〜',
-  description: '飯田橋駅から通えるピラティス5社を比較。駅徒歩1分はzen place（B4b出口）とRepilates（JR東口）、体験無料はCLUB PILATES・Repilates・Dr.ピラティスの3社、月4回は10,450円〜（各公式・2026年10月確認）。神楽坂駅側は神楽坂のページで比較しています。',
+  title: '飯田橋のピラティス6社を比較｜飯田橋駅徒歩1分が2社・無料体験4社・月4回8,580円〜',
+  description: '飯田橋駅から通えるピラティス6社を比較。駅徒歩1分はzen place（B4b出口）とURBAN CLASSIC PILATES、体験無料はURBAN・CLUB PILATES・Repilates・Dr.ピラティスの4社、月4回は8,580円〜（各公式・2026年11月23日確認）。',
   keywords: 'ピラティス,飯田橋,神楽坂,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -57,6 +57,38 @@ const studios = [
     },
   },
   {
+    name: 'URBAN CLASSIC PILATES 飯田橋店',
+    officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
+    image: '/images/studios/urban-classic-pilates.webp',
+    price: 'マンスリー4（月4回）8,580円〜（税込）',
+    trial: '無料体験（公式の店舗ページ・2026年11月23日確認）',
+    trialSource: { url: 'https://urbanclassic.jp/pilates-studio/iidabashi/', checkedAt: '2026-11-23' },
+    features: ['飯田橋駅徒歩1分', '予約不要', '30分サーキット', 'マシンピラティス'],
+    description: 'マシンピラティスとファンクショナルトレーニングを組み合わせた30分のサーキット形式のスタジオです（レッスンは予約不要）。公式の店舗ページでは「飯田橋駅」（JR・東京メトロ・都営大江戸線）から徒歩1分と案内されています。入会時のみ施設利用料2,200円（税込）、4か月目の月会費から運営管理費 月480円（税込）がかかります。',
+    access: 'JR・東京メトロ・都営大江戸線「飯田橋駅」徒歩1分（公式表記）',
+    address: '東京都新宿区揚場町2-16 第2東文堂ビル 8F',
+    popularPlan: {
+      name: 'レギュラー（通い放題）',
+      description: '予約不要の30分サーキットに通い放題（1日1回まで）です。',
+      price: '月額 12,980円（税込）',
+    },
+    options: [
+      'マンスリー4（月4回）8,580円（税込）',
+      'マンスリー8（月8回）10,780円（税込）',
+      'レギュラー（通い放題）12,980円（税込）',
+      '入会時の施設利用料 2,200円（税込）・4か月目から運営管理費 月480円（税込）',
+    ],
+    userProfile: {
+      ageRange: '20代〜50代が中心',
+      purpose: ['時短トレーニング', 'ボディメイク', '運動習慣づくり', '料金重視'],
+    },
+    basicInfo: {
+      hours: '平日 9:30〜21:30 / 土祝 9:30〜19:30（フロント受付 平日11:00〜20:00・土祝11:00〜17:00）',
+      closed: '日曜日',
+      facilities: ['リフォーマー', 'ファンクショナルマシン', '更衣室'],
+    },
+  },
+  {
     name: 'CLUB PILATES 神楽坂店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62397',
     image: '/images/studios/club-pilates.webp',
@@ -77,7 +109,7 @@ const studios = [
       purpose: ['体幹強化', '姿勢改善', 'ボディメイク', 'パフォーマンス向上'],
     },
     basicInfo: {
-      hours: '月〜金 7:00-21:00 / 土日 7:00-18:00',
+      hours: '月〜金 7:00-21:00 / 土 7:00-17:30 / 日 7:00-17:00（公式の店舗ページ・2026年11月23日確認）',
       closed: '不定休',
       facilities: ['リフォーマー', 'スプリングボード', 'TRX', 'チェア', 'Bosu'],
     },
@@ -120,7 +152,7 @@ const studios = [
     trial: '体験レッスン 無料（期間限定キャンペーン・通常3,300円のグループ体験・50分・初回1回・公式の店舗ページ 2026年10月29日確認）',
     features: ['女性専用', '飯田橋駅徒歩1分', '月3回12,900円〜', 'マシン専門'],
     description: '女性専用マシンピラティス専門スタジオです。飯田橋駅東口から徒歩1分です。マシンを使ったグループレッスンで、月3回12,900円からです（公式表記・税表記なし）。月3回・4回・6回・8回・通い放題から選べます。',
-    access: 'JR「飯田橋駅」東口 徒歩1分',
+    access: '「飯田橋駅」周辺（新宿区下宮比町。公式の店舗ページに徒歩分の記載なし）',
     address: '東京都新宿区下宮比町1-4 飯田橋御幸ビル B1F',
     popularPlan: {
       name: '月4回プラン',
@@ -151,9 +183,14 @@ const studios = [
     price: '月4回(45分) 29,700円〜 / 月4回(60分) 39,600円〜',
     trial: '体験トレーニング 無料（入会金も0円・公式の店舗ページ表示・2026年10月23日確認）',
     features: ['マンツーマン（パーソナル）', 'マシン・マット両対応', '医師推奨パーソナルジムNo.1受賞'],
-    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオです。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せます。神楽坂・飯田橋エリアです（詳細は公式サイト参照）。',
-    access: '神楽坂・飯田橋エリア（詳細は公式サイト参照）',
-    address: '東京都（詳細は公式サイト参照）',
+    description: '医師推奨のパーソナルジム受賞歴を持つDr.トレーニング系列のパーソナルピラティススタジオです。マシン・マット両対応のマンツーマン指導で、姿勢改善やボディメイクを目指せます。公式の店舗ページでは飯田橋駅B3出口から徒歩3分・JR飯田橋駅西口から徒歩5分と案内されています。',
+    access: '東京メトロ「飯田橋駅」B3出口 徒歩3分 / JR「飯田橋駅」西口 徒歩5分 / 大江戸線「牛込神楽坂駅」A3出口 徒歩3分（公式表記）',
+    address: '東京都新宿区神楽坂3-2-9 八洋神楽坂ビル 3F',
+    basicInfo: {
+      hours: '9:00〜22:00（公式の店舗ページ・2026年11月23日確認）',
+      closed: '公式の店舗ページに記載なし',
+      facilities: ['マシン', 'マット'],
+    },
   },
 ]
 
@@ -168,7 +205,7 @@ const faqs = [
   },
   {
     question: '飯田橋・神楽坂エリアの料金相場は？',
-    answer: 'グループ月4回で10,450円〜14,190円程度です。zen placeが月4回10,450円〜です。パーソナルはルルトが月3回29,700円〜です。',
+    answer: 'グループ月4回で8,580円〜14,190円程度です（各公式・2026年11月23日確認）。URBAN CLASSIC PILATES（予約不要の30分サーキット）がマンスリー4 8,580円（税込）、zen placeが月4回10,450円〜、CLUB PILATES・Repilatesが14,190円です。マンツーマンはDr.ピラティスが月4回29,700円（45分）、ルルトが月3回29,700円〜です。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -215,9 +252,9 @@ export default function IidabashiPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月23日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス飯田橋おすすめ5選<br className="hidden md:block" />
+              ピラティス飯田橋おすすめ6選<br className="hidden md:block" />
               飯田橋駅からの徒歩分・料金・体験レッスンを比較
             </h1>
           </div>
@@ -237,11 +274,19 @@ export default function IidabashiPage() {
         </section>
         <section className="bg-white pt-6"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="border border-warm-300 bg-warm-50 px-4 py-3 text-sm text-warm-800 leading-relaxed">🔀 このページは<strong>飯田橋駅</strong>（JR・東西線・有楽町線・南北線・大江戸線）から通うスタジオの比較です。東西線の<strong>神楽坂駅</strong>・大江戸線の牛込神楽坂駅側（the SILK 神楽坂店・Pilates Meeなど）で探す方は<Link href="/area/kagurazaka/" className="underline decoration-warm-400 hover:text-warm-900 font-medium">神楽坂のピラティス比較</Link>をご覧ください。</p></div></section>
         <AreaQuickAnswer areaName="飯田橋" rows={[
-          { label: '店舗数', text: '飯田橋駅から通えるスタジオを5社掲載しています。駅徒歩1分はzen place pilates 飯田橋スタジオ（メトロB4b出口・JR西口は徒歩3分）とRepilates 飯田橋神楽坂店（JR東口）。ルルト 飯田橋・神楽坂店はB1出口から徒歩6分、CLUB PILATES 神楽坂店は東西線神楽坂駅1A出口から徒歩30秒です。' },
-          { label: '料金', text: '月4回の目安は、zen place 10,450円〜（マットグループ）、Repilates・CLUB PILATES 14,190円（税表記なし）。マンツーマンはDr.ピラティス 月4回29,700円〜（45分）、ルルト 月4回38,400円（税込）です。' },
-          { label: '体験', text: 'CLUB PILATES（30分イントロクラス）・Repilates（期間限定・通常3,300円）・Dr.ピラティスが無料。zen placeはマットグループ初回体験 1,000円（キャンペーン価格・通常3,300円〜・2026-11-12公式確認）、ルルトは公式の店舗一覧で体験受付停止中と表示されています。' },
+          { label: '店舗数', text: '飯田橋駅から通えるスタジオを6社掲載しています。駅徒歩1分はzen place pilates 飯田橋スタジオ（メトロB4b出口・JR西口は徒歩3分）とURBAN CLASSIC PILATES 飯田橋店。Dr.ピラティス 神楽坂・飯田橋店はB3出口から徒歩3分、ルルト 飯田橋・神楽坂店はB1出口から徒歩6分、CLUB PILATES 神楽坂店は東西線神楽坂駅1A出口から徒歩30秒です（各公式の表記）。' },
+          { label: '料金', text: '月4回の目安は、URBAN CLASSIC PILATES 8,580円（税込・予約不要の30分サーキット）、zen place 10,450円〜（マットグループ）、Repilates・CLUB PILATES 14,190円。マンツーマンはDr.ピラティス 月4回29,700円（45分）、ルルト 月4回38,400円（税込）です。' },
+          { label: '体験', text: 'URBAN CLASSIC PILATES・CLUB PILATES（30分）・Repilates（期間限定・通常3,300円）・Dr.ピラティスが無料。zen placeはマットグループ初回体験 1,000円（キャンペーン価格・通常3,300円〜）、ルルトは公式の店舗ページで「定員満了のため新規受付を停止」と表示されています（2026年11月23日確認）。' },
           { label: '神楽坂駅側', text: '東西線神楽坂駅・大江戸線牛込神楽坂駅の近く（the SILK 神楽坂店・Pilates Mee 神楽坂・飯田橋店など6社）は、神楽坂のピラティス比較ページで比べられます。' },
-        ]} note="値は下の各スタジオカードと同じ公式サイトの表記（2026年10月確認）。" />
+        ]} note="値は下の早見表・各スタジオカードと同じ公式サイトの表記（2026年11月23日確認）。" />
+        <section className="py-8 bg-white" id="by-station"><div className="max-w-5xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">飯田橋のピラティス早見表（駅徒歩・形式・月額の下限・体験）</h2><p className="text-warm-600 leading-relaxed mb-6 text-sm">掲載6社を、飯田橋駅から近い順に並べました。徒歩分・月額・体験料金は各スタジオの公式サイトの表記です（2026年11月23日確認・特記のないものは税込）。</p><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ（住所）</th><th className="px-4 py-3 text-left">飯田橋駅から</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">月額の下限</th><th className="px-4 py-3 text-left">体験</th></tr></thead><tbody>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">zen place pilates 飯田橋スタジオ（揚場町1-1）</td><td className="px-4 py-3">B4b出口 徒歩1分／JR西口 徒歩3分</td><td className="px-4 py-3">マット・マシンのグループ、プライベート（男女可）</td><td className="px-4 py-3">マットグループ月4回 10,450円</td><td className="px-4 py-3">マットグループ 1,000円・マシングループ 3,000円（初回キャンペーン）</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">URBAN CLASSIC PILATES 飯田橋店（揚場町2-16）</td><td className="px-4 py-3">徒歩1分</td><td className="px-4 py-3">マシン＋ファンクショナルの30分サーキット（予約不要）</td><td className="px-4 py-3">マンスリー4 8,580円（入会時に施設利用料2,200円）</td><td className="px-4 py-3">無料</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Dr.ピラティス 神楽坂・飯田橋店（神楽坂3-2-9）</td><td className="px-4 py-3">B3出口 徒歩3分／JR西口 徒歩5分</td><td className="px-4 py-3">マンツーマン（マシン・マット）</td><td className="px-4 py-3">月4回（45分）29,700円・入会金0円</td><td className="px-4 py-3">無料</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">ルルト 飯田橋・神楽坂店</td><td className="px-4 py-3">B1出口 徒歩6分／JR東口 徒歩7分</td><td className="px-4 py-3">マンツーマン（理学療法士監修）</td><td className="px-4 py-3">月3回 29,700円</td><td className="px-4 py-3">定員満了のため新規受付停止中（公式の店舗ページ）</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">Repilates 飯田橋神楽坂店（下宮比町1-4）</td><td className="px-4 py-3">公式に徒歩分の記載なし</td><td className="px-4 py-3">マシンのグループ（女性専用）</td><td className="px-4 py-3">月3回 12,900円・月4回 14,190円（税表記なし）</td><td className="px-4 py-3">無料（期間限定・通常3,300円・50分）</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">CLUB PILATES 神楽坂店（神楽坂6-48）</td><td className="px-4 py-3">—（東西線で1駅・神楽坂駅1A出口 徒歩30秒）</td><td className="px-4 py-3">マシンのグループ（最大12名）</td><td className="px-4 py-3">月4回 14,190円・入会金5,500円（税表記なし）</td><td className="px-4 py-3">無料（30分）</td></tr>
+        </tbody></table></div><p className="text-warm-600 leading-relaxed mt-4 text-sm">月額をいちばん抑えられるのは URBAN CLASSIC PILATES（マンスリー4 8,580円・予約不要）で、マットとマシンのグループを選びたい場合は zen place（月4回 10,450円〜）、マンツーマンなら Dr.ピラティス（体験・入会金とも0円）が候補です。zen place の駅徒歩分は東京メトロ B4b出口から、Dr.ピラティス は B3出口からの公式表記です。</p></div></section>
         <AreaConclusion studios={studios} areaName="飯田橋" />
 
 
@@ -251,7 +296,7 @@ export default function IidabashiPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、飯田橋・神楽坂エリアでおすすめのピラティススタジオ5選をまとめました。
+              本ページでは、飯田橋・神楽坂エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -291,7 +336,7 @@ export default function IidabashiPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              飯田橋・神楽坂のおすすめピラティススタジオ5選
+              飯田橋・神楽坂のおすすめピラティススタジオ6選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -423,6 +468,7 @@ export default function IidabashiPage() {
                   月額1万円台で通えるスタジオです。
                 </p>
                 <ul className="space-y-2 text-sm">
+                  <li className="text-warm-700">• URBAN CLASSIC PILATES（マンスリー4 8,580円）</li>
                   <li className="text-warm-700">• zen place（月4回 10,450円〜）</li>
                 </ul>
               </div>
@@ -443,7 +489,7 @@ export default function IidabashiPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• CLUB PILATES（神楽坂駅 徒歩30秒）</li>
                   <li className="text-warm-700">• zen place（飯田橋駅 徒歩1分）</li>
-                  <li className="text-warm-700">• Repilates（飯田橋駅 徒歩1分）</li>
+                  <li className="text-warm-700">• URBAN CLASSIC PILATES（飯田橋駅 徒歩1分）</li>
                 </ul>
               </div>
             </div>
@@ -487,6 +533,7 @@ export default function IidabashiPage() {
                   グループレッスンが中心です。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• URBAN CLASSIC PILATES（8,580円/月4回）</li>
                   <li>• zen place（10,450円〜/月4回）</li>
                 </ul>
               </div>
@@ -537,7 +584,7 @@ export default function IidabashiPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  飯田橋・神楽坂の料金相場はグループ月4回で10,450円〜14,190円です。入会金やキャンペーンもご確認ください。
+                  飯田橋・神楽坂の料金相場はグループ月4回で8,580円〜14,190円です。入会金やキャンペーンもご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

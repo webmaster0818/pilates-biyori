@@ -1,10 +1,10 @@
 // ピラティススタジオDEP 公式「店舗一覧・ご予約」（https://dep-pilates.com/shop/）の全店と、各店舗ページの「アクセス」・月額（料金エリア）
-// 2026-10-29 に公式から取得（57店舗）。2026-11-13 公式の「月額プラン エリア案内」と全58店舗ページの月額で料金エリアを取り直し（28店のエリアが変更）、恵比寿西口店を追加。都道府県は公式一覧の見出し（または住所）による。
+// 2026-10-29 に公式から取得（57店舗）。2026-11-13 公式の「月額プラン エリア案内」と全58店舗ページの月額で料金エリアを取り直し（28店のエリアが変更）、恵比寿西口店を追加。2026-11-23 公式一覧に町田店（エリアS）が増えたため1行追加（他58店は URL・エリアとも 11/13 と一致を確認）。都道府県は公式一覧の見出し（または住所）による。
 // ⚠️ 値を手で書き足さない。更新するときは公式一覧を取り直して丸ごと置き換える（scripts/gen-official-store-lists-20261029.py の手順）。
 import type { OfficialStoreList } from './official-store-list-type'
 
 export const DEP_OFFICIAL: OfficialStoreList = {
-  asOf: '2026年11月13日',
+  asOf: '2026年11月23日',
   sourceLabel: "DEP公式 店舗一覧と各店舗ページ",
   sourceUrl: "https://dep-pilates.com/shop/",
   extraLabel: "料金エリア（店舗ページの月額）",
@@ -27,6 +27,7 @@ export const DEP_OFFICIAL: OfficialStoreList = {
     { pref: "千葉県", name: "ピラティススタジオDEP 千葉店 Schritt", access: "京成千葉線千葉中央駅改札出口から 約350m、徒歩3分", address: "千葉県千葉市中央区中央3-18-3 加瀬ビル158 404号室", url: "https://dep-pilates.com/shop/kanto/chiba-schritt/", extra: "エリアB（月2回 17,000円〜）" },
     { pref: "東京都", name: "ピラティススタジオDEP 恵比寿東口店", access: "JR恵比寿駅東口から 350m、徒歩で約5分", address: "東京都渋谷区恵比寿1丁目22-10グランデュオ恵比寿III 3Ｆ", url: "https://dep-pilates.com/shop/kanto/ebisu-east/", extra: "エリアS（月2回 19,200円〜）" },
     { pref: "東京都", name: "ピラティススタジオDEP 恵比寿西口店", access: "JR恵比寿駅西口から 約300m、徒歩5分", address: "東京都渋谷区恵比寿西1丁目17-1 恵比寿第一ビル 8階", url: "https://dep-pilates.com/shop/kanto/ebisu-west/", extra: "エリアS（月2回 19,200円〜）" },
+    { pref: "東京都", name: "ピラティススタジオDEP 町田店", access: "JR町田駅ターミナル改札口から 約350m、徒歩5分", address: "東京都町田市原町田2丁目1-8 ジュネスさかえ 1F", url: "https://dep-pilates.com/shop/kanto/machida/", extra: "エリアS（月2回 19,200円〜）" },
     { pref: "新潟県", name: "ピラティススタジオDEP 新潟店", access: "新潟駅南口から 1.3km、徒歩17分、車で5分", address: "新潟県新潟市中央区紫竹山1丁目2-11 丸山興産ビル 102", url: "https://dep-pilates.com/shop/chubu/niigata/", extra: "エリアB（月2回 17,000円〜）" },
     { pref: "石川県", name: "ピラティススタジオDEP 金沢店 鳴和スタジオ", access: "金沢駅東口から 2.6㎞、車で7分、徒歩30分（最寄りバス停は春日町）", address: "石川県金沢市小金町152番地小金町ビル２F", url: "https://dep-pilates.com/shop/chubu/kanazawa-naruwa/", extra: "エリアB（月2回 17,000円〜）" },
     { pref: "石川県", name: "ピラティススタジオDEP 金沢店 近岡スタジオ", access: "金沢駅西口から 4.2㎞、車で15分", address: "石川県金沢市近岡町428番地1 SOOL BUILDING3階", url: "https://dep-pilates.com/shop/chubu/kanazawa-chikaoka/", extra: "エリアB（月2回 17,000円〜）" },
