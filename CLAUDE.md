@@ -1623,3 +1623,8 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - **青山一丁目**: 早見表9店を公式 11/22 と照合（35/36一致）。KASANE 表参道「最大4名」→4名以下〜最大12名のグループ（公式FAQ）、男性可否の一文（BDC 表参道〔女性専用は恵比寿のみ〕・KASANE・zen 六本木・Viel 可／K・a.pilates 女性専用／B&B・Sky 記載なし）、BDC 体験に限定20名。title 不変。**A・CORE は 11/30 営業終了→12/1 以降に外す（9選が変わる）**。未掲載の候補 Pono Aoyama（青山一丁目駅1分・グループ月4回20,000円）は判断待ち
 - 変更なし: La pilates（最終クロール 10/24＜変更 11/12 →誤記訂正のみ可。公式 menu・トップ 126店と全一致）、elephant・scissors（title/description が答えを含む）
 - next build 直接・sitemap は4頁のみ 11-22。precheck ✅ 589頁・計測リンク out/deploy 4,162→4,162・functions/api 4本保全・/api/contact 400・表示テキストの変化は13頁（4頁＋CP 受け皿9頁の FAQ）
+
+### 2026-11-23 朝ルーチン: BREST モニター募集は継続（変更なし）・LIFE LOG 相互リンク未設置・STUDIO IVY 府中/海老名の状況（変更なし）
+- BREST（11/23 09:19 公式直・brest-gym.jp/studio/{hongo-sanchome,daikanyama,futakotamagawa,chigasaki,sagamiono,awaji,gofukumachi}/）: 7店とも 200・「モニター会員募集」バナー（banner-1_monitor_500.png・Last-Modified 10/29・100,761 bytes）継続・終了/締切表記 0→カードは戻さない。/news/ 最新 11/22（会員の体験記・改定告知なし）。本番 /brands/brest/・代官山・茅ヶ崎に先着20名の表示あり
+- LIFE LOG（bodyterrace.com 299頁・lifelogpilates.com 85頁＝sitemap 全ページ 11/23 取得・エラー0）: biyori-pilates／pilates-biyori 0件＝未設置（11/21・11/22 と同じ）。報告のみ
+- STUDIO IVY 府中・海老名（11/23 公式店舗ページ 200）: 11/22 と同じ（住所・営業時間 8:00〜21:00・初回体験無料のキャンペーン期間 12/1〜12/31・開店日の明記なし）。エリア頁は未変更（12/1 開店見込み・N選が変わるため判断待ち）
