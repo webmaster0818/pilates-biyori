@@ -235,6 +235,7 @@ const studios = [
   {
     name: 'BODY TERRACE 大井町店',
     officialUrl: 'https://bodyterrace.com/',
+    image: '/images/studios/body-terrace-oimachi.webp',
     price: 'ピラティスプラン 月2回 22,000円／月4回 37,000円（税込・入会金込み）',
     priceList: ['ピラティスプラン（マンツーマン・マット＋マシン・1回50分・入会金込み）：1回 11,000円／月2回 22,000円／月4回 37,000円／回数券10回 99,000円（税込）'],
     trial: '体験ピラティス（カウンセリング込み60分）通常 5,500円（キャンペーン時は異なる）',
