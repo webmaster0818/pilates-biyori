@@ -1650,3 +1650,9 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - precheck ✅・計測リンク 2,012→2,012・functions/api 4本保全・本番で画像200/新ファイルサイズを確認
 - ⚠️ tomomi が利用上限で止まり、MediaXAI の依頼（18:54）から着手まで約2時間40分空いた（tomomi-2 が 21:3x に代行）
 - **掲載完了メール送信済み**（11/23 22:0x・MediaXAI「送って」）: 富田様 / bodyterrace@gmail.com / スレッド返信 / message id 1a2087f83f55130b。青物横丁ページへのリンク設置を依頼
+
+### 2026-11-24 0:00 受け皿強化①: ELEMENT・KASANE・LAVA 公式再確認（source e9d6f850・6a9bec4a・d098cbb4 / deploy b852ec0109）
+- 競合: ELEMENT＝sakura-pilates・qool・personalgym（minhyo 403）／KASANE＝sakura-pilates・plizgym・web-note／LAVA＝raji-nn・note・hotyoga-kuchikomi（上位に求人口コミ、知恵袋 robots 拒否）。詳細 ~/.openclaw/workspace/growth/ukezara-serp/2026-11-24/diffs.md
+- 🚨訂正: KASANE 公式店舗 42→49・休会 最大1年→6か月（規約 2026/10/30 改定）・「休会中は会費なし」を削除（公式FAQは「プランにより異なる」）・kasane-stores 枚方/浜松/沖縄 体験3,000円→0円・錦糸町/枚方の住所。LAVA マシンピラティス「別途料金」（10月の引用）→公式ヘルプ FAQ 24095/27550「コラボ店は月額内・受講回数にカウント」（brands.ts 4か所＋[slug]/page.tsx 店舗一覧注記）。ELEMENT「平日通い放題38,280円」はジム用プランと明記
+- 追加: ELEMENT/KASANE に titleKw・metaDescription・checkedAt・quickAnswer・priceList・officialStores（75・49＋都道府県別）・FAQ各3問。LAVA にホットマシピラ41店舗・休会2,600円/解約・キャンペーン12ヶ月継続条件・FAQ2問
+- 手順: brands.ts/kasane-stores をコミット→generate-sitemap（page.tsx の変更は一時退避＝全ブランドが今日にならないように）→page.tsx コミット→next build 直接。sitemap 11-24 は10頁。precheck ✅・計測リンク deploy 420→420（html 内カウント）・functions/api 保全・本番5頁で新内容確認。Indexing 3件
