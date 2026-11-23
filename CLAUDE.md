@@ -1642,3 +1642,10 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - DEP 公式 /shop/（11/23 取得）の店舗URL 59件＝dep-official-stores.ts と完全一致。エリア頁・area-studios の DEP 説明「公式の店舗一覧に全国58店舗」10件＋「全国57店舗」7件＋桂の「全57店舗の一覧」を59に（niigata/nara/yokkaichi/sendai/kobe/kitakyushu/kanazawa/takamatsu/okayama/katsura＋area-studios の matsumoto/fukuyama/omachi-nishi-koen/yamagata/hirosaki/utsunomiya/minamimorimachi）
 - URBAN CLASSIC 公式 /price/・飯田橋・錦糸町の店舗ページ（11/23）＝マンスリー4 8,580・マンスリー8 10,780・レギュラー 12,980円（永久割引価格のみ表示）。水道橋の飯田橋店カード「月8回プラン（12,980円）」→10,780円。錦糸町カードの同じ旧値と通常価格表記（9,680/14,080）を店舗ページの値に（ウェア/タオルレンタル・住所表記は未照合）
 - title 不変・sitemap は19頁のみ 11-23・precheck ✅ 589頁・計測リンク deploy 4,010→out 4,010・functions/api 4本保全
+
+### 2026-11-23 BODY TERRACE 大井町店・青物横丁店の画像を掲載（MediaXAI「画像掲載して。完了したらメール作って」msg 1574362506728575037）✅本番（source 1c229ed5 / deploy e49381aa69）
+- LIFE LOG 富田様 11/23 メール（返信ID 1a206d124decf730）の添付2枚＝1枚目 大井町店・2枚目 青物横丁店（2枚目は既存の青物横丁画像と同じ部屋＝コンクリート壁・鏡・オリーブで照合）
+- 大井町: カードに image を追加（body-terrace-oimachi.webp・新規）。青物横丁: 既存 body-terrace-aomono-yokocho.webp（公式キャプチャ）を提供写真に差し替え。縦長のまま 1000px 以内・webp q82（カードは object-contain）
+- 相互リンク: lifelogpilates.com/news/pilatesroom-introduction20261123 にトップ・/area/oimachi/ のリンクを確認。/area/aomono-yokocho/ は未設置→完了メール案でお願い
+- precheck ✅・計測リンク 2,012→2,012・functions/api 4本保全・本番で画像200/新ファイルサイズを確認
+- ⚠️ tomomi が利用上限で止まり、MediaXAI の依頼（18:54）から着手まで約2時間40分空いた（tomomi-2 が 21:3x に代行）
