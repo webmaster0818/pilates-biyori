@@ -1649,3 +1649,4 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - 相互リンク: lifelogpilates.com/news/pilatesroom-introduction20261123 にトップ・/area/oimachi/ のリンクを確認。/area/aomono-yokocho/ は未設置→完了メール案でお願い
 - precheck ✅・計測リンク 2,012→2,012・functions/api 4本保全・本番で画像200/新ファイルサイズを確認
 - ⚠️ tomomi が利用上限で止まり、MediaXAI の依頼（18:54）から着手まで約2時間40分空いた（tomomi-2 が 21:3x に代行）
+- **掲載完了メール送信済み**（11/23 22:0x・MediaXAI「送って」）: 富田様 / bodyterrace@gmail.com / スレッド返信 / message id 1a2087f83f55130b。青物横丁ページへのリンク設置を依頼
