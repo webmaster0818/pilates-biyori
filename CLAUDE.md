@@ -1656,3 +1656,11 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - 🚨訂正: KASANE 公式店舗 42→49・休会 最大1年→6か月（規約 2026/10/30 改定）・「休会中は会費なし」を削除（公式FAQは「プランにより異なる」）・kasane-stores 枚方/浜松/沖縄 体験3,000円→0円・錦糸町/枚方の住所。LAVA マシンピラティス「別途料金」（10月の引用）→公式ヘルプ FAQ 24095/27550「コラボ店は月額内・受講回数にカウント」（brands.ts 4か所＋[slug]/page.tsx 店舗一覧注記）。ELEMENT「平日通い放題38,280円」はジム用プランと明記
 - 追加: ELEMENT/KASANE に titleKw・metaDescription・checkedAt・quickAnswer・priceList・officialStores（75・49＋都道府県別）・FAQ各3問。LAVA にホットマシピラ41店舗・休会2,600円/解約・キャンペーン12ヶ月継続条件・FAQ2問
 - 手順: brands.ts/kasane-stores をコミット→generate-sitemap（page.tsx の変更は一時退避＝全ブランドが今日にならないように）→page.tsx コミット→next build 直接。sitemap 11-24 は10頁。precheck ✅・計測リンク deploy 420→420（html 内カウント）・functions/api 保全・本番5頁で新内容確認。Indexing 3件
+
+### 2026-11-24 朝ルーチン: BREST 継続（変更なし）・LIFE LOG 青物横丁のリンク設置を確認・STUDIO IVY 府中/海老名（開店日の記載なし）・URBAN CLASSIC 錦糸町のカードを公式どおりに（source d6a31e15 / deploy d839a35199）
+- BREST（11/24 09:2x 公式直・7店）: 7店とも 200・「モニター会員募集」バナー（banner-1_monitor_500.png・Last-Modified 10/29・100,761 bytes）継続・終了/締切表記 0→カードは戻さない。/news/ 最新 11/22。本番 /brands/brest/ に先着20名の表示あり
+- LIFE LOG（bodyterrace.com 303頁・lifelogpilates.com 86頁＝sitemap 全ページ 11/24 取得・エラー0）: 🆕 bodyterrace.com/posts/pilates-biyori-aomonoyokocho（同内容が posts-1・posts-1-1・posts-1-1-1 にも）に「【掲載のお知らせ】青物横丁の…「Pilates-Biyori」に BODY TERRACE が掲載されました」＋トップと /area/aomono-yokocho/#studio-4（BODY TERRACE 青物横丁店のカード）へのリンク。lifelogpilates.com は 11/23 と同じ（トップ・/area/oimachi/）。報告のみ
+- STUDIO IVY 府中・海老名（11/24 公式店舗ページ 200・一覧 154店・「新規OPENキャンペーン中」20店は data と一致）: 開店日の明記なし・初回体験無料キャンペーン 12/1〜12/31 のまま。エリア頁は未変更（判断待ち）
+- 点検 11/24: /brands/ C5 は判断待ちで title 不変、/editors/ C3 は読者を指す文（「通っている方」）の誤検知＝11/14〜11/23 と同じ
+- 追加1件（判断不要・公式と食い違う値）: URBAN CLASSIC 錦糸町（公式 urbanclassic.jp/pilates-studio/kinshicho/ 11/24）＝カード access「錦糸町駅から徒歩5分」→「東京メトロ半蔵門線・JR「錦糸町駅」徒歩1分」・住所「江東橋4丁目 錦糸町パルコ近く」→「江東橋4-27-14 楽天地ビル 5F」・営業時間「平日10:00〜21:00/土日祝10:00〜19:00」→「平日9:30〜21:00/土祝9:30〜19:30（平日13〜14時は利用不可）」・定休「不定休」→「日曜日」・体験「体験レッスンあり」→「無料体験あり」。brands-aggregate の同店の行（月4回 9,680/通い放題 14,080 の旧値・住所・アクセス）も同値に。⚠️ カードの「ウェアレンタル 1,650円・タオルレンタル 880円」と設備（ロッカー・更衣室・Wi-Fi）は公式の店舗ページ・/price/ に記載なし＝未照合のまま残す。/brands/urban-classic/ の概要「月4回 9,680円」は公式（永久割引価格 8,580円）と異なる＝未修正
+- next build 直接・sitemap は2頁のみ 11-24。precheck ✅・計測リンク deploy 1,949→out 1,949（html 内 href）・functions/api 4本保全・表示テキストの変化は2頁（/area/kinshicho/・/brands/urban-classic/〔掲載表の体験「あり」→「無料あり」・無料体験の掲載店舗 21→22〕）
