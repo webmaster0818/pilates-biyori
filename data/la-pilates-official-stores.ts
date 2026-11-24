@@ -1,9 +1,9 @@
 // La pilates 公式「スタジオ一覧」（https://la-pilates.jp/studio/）に載っている全店。最寄駅・住所は各店舗ページの「最寄り駅」「住所」欄。
-// 2026-11-02 に公式から取得（124店舗）。⚠️ 値を手で書き足さない。更新するときは公式を取り直して丸ごと置き換える。
+// 2026-11-02 に公式から取得（124店舗）。2026-11-25 に公式スタジオ一覧と照合し、新しく載った5店（岡崎・豊橋・東広島・石神井公園・上大岡）を各店舗ページの値で追加（129店舗・削除0）。⚠️ 値を手で書き足さない。更新するときは公式を取り直して丸ごと置き換える。
 import type { OfficialStoreList } from './official-store-list-type'
 
 export const LA_PILATES_OFFICIAL: OfficialStoreList = {
-  asOf: '2026年11月2日',
+  asOf: '2026年11月25日',
   sourceLabel: 'La pilates公式 スタジオ一覧',
   sourceUrl: 'https://la-pilates.jp/studio/',
   extraLabel: undefined,
@@ -62,6 +62,7 @@ export const LA_PILATES_OFFICIAL: OfficialStoreList = {
     { pref: "東京都", name: "La pilates 町田店", access: "小田急町田駅", address: "東京都町田市森野1-37-8今村ビル3F", url: "https://la-pilates.jp/studio/machida/" },
     { pref: "東京都", name: "La pilates 吉祥寺店", access: "吉祥寺駅", address: "東京都武蔵野市吉祥寺南町2-4-3 劇団前進座ビル601", url: "https://la-pilates.jp/studio/kichijoji/" },
     { pref: "東京都", name: "La pilates 蒲田店", access: "蒲田駅", address: "東京都大田区西蒲田7-1-3ステラビル西蒲田5F", url: "https://la-pilates.jp/studio/kamata/" },
+    { pref: "東京都", name: "La pilates 石神井公園店（12月1日オープン予定）", access: "石神井公園駅", address: "東京都練馬区石神井町3丁目30-3 岡本ビル1F", url: "https://la-pilates.jp/studio/shakujiikoen/" },
     { pref: "神奈川県", name: "La pilates 横浜アネックス店（11月1日プレオープン）", access: "横浜駅", address: "神奈川県横浜市西区岡野1-13-3 a-gain横浜岡野8F", url: "https://la-pilates.jp/studio/yokohamaannex/" },
     { pref: "神奈川県", name: "La pilates 新百合ヶ丘店", access: "新百合ヶ丘駅", address: "神奈川県川崎市麻生区上麻生1丁目7-13 マプレ専門店街2-2", url: "https://la-pilates.jp/studio/shinyurigaoka/" },
     { pref: "神奈川県", name: "La pilates 平塚店", access: "平塚駅", address: "神奈川県平塚市紅谷町２−７ 越野ビル 202", url: "https://la-pilates.jp/studio/hiratsuka/" },
@@ -77,6 +78,7 @@ export const LA_PILATES_OFFICIAL: OfficialStoreList = {
     { pref: "神奈川県", name: "La pilates センター南店", access: "センター南駅", address: "神奈川県横浜市都筑区茅ヶ崎中央50-9CMKビルA", url: "https://la-pilates.jp/studio/centerminami/" },
     { pref: "神奈川県", name: "La pilates 川崎店", access: "川崎駅", address: "神奈川県川崎市川崎区駅前本町5-3KOWA川崎駅前ビル5階", url: "https://la-pilates.jp/studio/kawasaki/" },
     { pref: "神奈川県", name: "La pilates 橋本店", access: "橋本駅", address: "神奈川県相模原市緑区橋本3丁目15-17 ＨＫビル 203号", url: "https://la-pilates.jp/studio/hashimoto/" },
+    { pref: "神奈川県", name: "La pilates 上大岡店（12月15日オープン予定）", access: "上大岡駅", address: "神奈川県横浜市港南区上大岡西1-10-15 ESCALIER上大岡 2階201", url: "https://la-pilates.jp/studio/kamiooka/" },
     { pref: "新潟県", name: "La pilates 新潟店", access: "新潟駅", address: "新潟県新潟市中央区紫竹山2丁目5-3 紫鳥線ビル2-2", url: "https://la-pilates.jp/studio/niigata/" },
     { pref: "石川県", name: "La pilates 金沢店", access: "金沢", address: "石川県金沢市出雲町イ-447", url: "https://la-pilates.jp/studio/kanazawa/" },
     { pref: "山梨県", name: "La pilates 甲府店", access: "甲府駅", address: "山梨県甲府市徳行2丁目5-3 テラスショップA", url: "https://la-pilates.jp/studio/kofu/" },
@@ -88,6 +90,8 @@ export const LA_PILATES_OFFICIAL: OfficialStoreList = {
     { pref: "愛知県", name: "La pilates 一宮店", access: "名鉄一宮", address: "愛知県一宮市本町三丁目8番16号岩田ビル1階", url: "https://la-pilates.jp/studio/ichinomiya/" },
     { pref: "愛知県", name: "La pilates 名駅店", access: "近鉄名古屋駅", address: "愛知県名古屋市中村区名駅南1-19-13AEビル302", url: "https://la-pilates.jp/studio/meieki/" },
     { pref: "愛知県", name: "La pilates 名古屋栄店", access: "栄駅", address: "愛知県名古屋市中区栄3-4-15 鏡栄ビル別館3階", url: "https://la-pilates.jp/studio/nagoya/" },
+    { pref: "愛知県", name: "La pilates 岡崎店（11月23日オープン）", access: "岡崎駅", address: "愛知県岡崎市羽根町若宮4-1 タカラビル1階", url: "https://la-pilates.jp/studio/okazaki/" },
+    { pref: "愛知県", name: "La pilates 豊橋店（11月25日オープン）", access: "豊橋駅", address: "愛知県豊橋市佐藤1丁目15-4 ジェイステージ佐藤A室", url: "https://la-pilates.jp/studio/toyohashi/" },
     { pref: "三重県", name: "La pilates 四日市店", access: "近鉄四日市駅", address: "三重県四日市市諏訪町5-16 MJ ROOT2F", url: "https://la-pilates.jp/studio/yokkaichi/" },
     { pref: "滋賀県", name: "La pilates 滋賀草津店", access: "草津駅", address: "滋賀県草津市野村2丁目1-2 2-B", url: "https://la-pilates.jp/studio/shigakusatsu/" },
     { pref: "京都府", name: "La pilates 西院店", access: "西院", address: "京都府京都市西院東今田町33-1 サンフットビル7階", url: "https://la-pilates.jp/studio/saiin/" },
@@ -118,6 +122,7 @@ export const LA_PILATES_OFFICIAL: OfficialStoreList = {
     { pref: "広島県", name: "La pilates 五日市店", access: "佐伯区役所前駅", address: "広島県広島市佐伯区五日市4丁目4-31 唯山ビル4階", url: "https://la-pilates.jp/studio/itsukaichi/" },
     { pref: "広島県", name: "La pilates 安佐南店", access: "古市駅", address: "広島県広島市安佐南区中須2-11-12広陽防災ビル3階", url: "https://la-pilates.jp/studio/asaminami/" },
     { pref: "広島県", name: "La pilates 広島店", access: "紙屋町西駅", address: "広島県広島市中区大手町1-28河内ビル201", url: "https://la-pilates.jp/studio/hiroshima/" },
+    { pref: "広島県", name: "La pilates 東広島店（11月25日オープン）", access: "東広島駅", address: "広島県東広島市西条町御薗宇7206-6 グランコートsaijo101", url: "https://la-pilates.jp/studio/higashihiroshima/" },
     { pref: "徳島県", name: "La pilates 徳島店", access: "店舗ページに最寄り駅の記載なし", address: "徳島県徳島市沖浜東1丁目5 第2コーポハマダ", url: "https://la-pilates.jp/studio/tokushima/" },
     { pref: "香川県", name: "La pilates 高松店", access: "栗林駅", address: "香川県高松市今里町1-8-12", url: "https://la-pilates.jp/studio/takamatsu/" },
     { pref: "福岡県", name: "La pilates 博多店", access: "博多駅", address: "福岡県福岡市博多区博多駅前1丁目11番14号 博多プレイスワン3階", url: "https://la-pilates.jp/studio/hakata/" },
