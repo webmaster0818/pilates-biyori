@@ -1672,3 +1672,10 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - 未掲載: ピラティススタジオ iU は公式サイト未確認（HPB・求人のみ。所在は「光の森店」北区弓削）＝追加せず判断待ち。La pilates 熊本店・K ゆめマート松橋店も公式一覧にあるが未掲載のまま
 - sitemap: prebuild でブランド24頁・トップ等が 11-24 になった（今朝の [slug]/page.tsx コミット由来）→ 本番 sitemap の値に戻し、赤坂・熊本の2頁だけ 11-24。precheck ✅ 589頁・計測リンク deploy 1,449→1,449（html 内 href）・src 1,562→1,562・functions/api 4本保全・表示テキストの変化は2頁のみ
 - WebSearch は US 限定で日本の上位競合は取れず（spacemarket・fitmap・hotpepper 等の断片のみ）→公式値で代替
+
+### 2026-11-25 朝ルーチン: BREST 継続（変更なし）・STUDIO IVY 府中/海老名（開店日の記載なし）・URBAN CLASSIC 明大前店のカードを公式どおりに（source 4dcb0a47 / deploy cba07d76d9）
+- BREST（11/25 09:20 公式直・brest-gym.jp/studio/{hongo-sanchome,daikanyama,futakotamagawa,chigasaki,sagamiono,awaji,gofukumachi}/）: 7店とも 200・「モニター会員募集」バナー（banner-1_monitor_500.png・Last-Modified 10/29・100,761 bytes）継続・終了/締切表記 0→カードは戻さない。/news/ 最新 11/22
+- STUDIO IVY 府中・海老名（11/25 公式店舗ページ 200・一覧 154店・「新規OPENキャンペーン中」20店）: 開店日の明記なし・初回体験無料キャンペーン 12/1(火)〜12/31(木)・営業時間 8:00〜21:00。/news/ 最新 11/09（開店告知なし）。エリア頁は未変更（判断待ち）
+- 点検 11/25: /brands/ C5 は判断待ちで title 不変（本文の口コミ0・評判は title/meta の2か所）、/editors/ C3 は読者を指す文（「通っている方」）の誤検知＝11/14〜11/24 と同じ
+- 追加1件（判断不要・公式と食い違う値）: URBAN CLASSIC 明大前店（公式 urbanclassic.jp/pilates-studio/meidaimae/・/price/ 11/25＝画像 alt「7,800円（税込8,580円）」「9,800円（税込10,780円）」「11,800円（税込12,980円）」・通常価格 9,680円の表示は無し）。/area/meidaimae/ のカード 月4回 9,680→8,580円・月8回/通い放題「店舗にお問い合わせ」→10,780/12,980円・施設利用料2,200円/運営管理費480円・住所「松原（徒歩圏内）」→松原2-42-7 第二松岡ビル3F・徒歩3分・営業時間/定休（日曜）・無料体験、FAQ・相場表・予算の下限 9,680→8,580円（9,680 は 10→0）。brands-aggregate の同店の行も。⚠️「予約不要」「ロッカー」は公式の店舗ページに記載なし＝未照合のまま。他のエリア頁の URBAN カード「月4回 9,680円」（shinjuku・shimbashi・koenji・nakano・sangenjaya・shimokitazawa・takadanobaba・kyodo・kannai・kyoto 等 約20頁）と「通い放題 14,080円」（shiki・kawaguchi・ebina・yoyogi-uehara・akabane）は未修正
+- next build 直接・sitemap は2頁のみ 11-25。precheck ✅ 589頁・計測リンク deploy 1,941→out 1,941（html 内 href）・functions/api 4本保全・__next*.txt 0
