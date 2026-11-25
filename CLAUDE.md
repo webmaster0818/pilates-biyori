@@ -1679,3 +1679,11 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - 点検 11/25: /brands/ C5 は判断待ちで title 不変（本文の口コミ0・評判は title/meta の2か所）、/editors/ C3 は読者を指す文（「通っている方」）の誤検知＝11/14〜11/24 と同じ
 - 追加1件（判断不要・公式と食い違う値）: URBAN CLASSIC 明大前店（公式 urbanclassic.jp/pilates-studio/meidaimae/・/price/ 11/25＝画像 alt「7,800円（税込8,580円）」「9,800円（税込10,780円）」「11,800円（税込12,980円）」・通常価格 9,680円の表示は無し）。/area/meidaimae/ のカード 月4回 9,680→8,580円・月8回/通い放題「店舗にお問い合わせ」→10,780/12,980円・施設利用料2,200円/運営管理費480円・住所「松原（徒歩圏内）」→松原2-42-7 第二松岡ビル3F・徒歩3分・営業時間/定休（日曜）・無料体験、FAQ・相場表・予算の下限 9,680→8,580円（9,680 は 10→0）。brands-aggregate の同店の行も。⚠️「予約不要」「ロッカー」は公式の店舗ページに記載なし＝未照合のまま。他のエリア頁の URBAN カード「月4回 9,680円」（shinjuku・shimbashi・koenji・nakano・sangenjaya・shimokitazawa・takadanobaba・kyodo・kannai・kyoto 等 約20頁）と「通い放題 14,080円」（shiki・kawaguchi・ebina・yoyogi-uehara・akabane）は未修正
 - next build 直接・sitemap は2頁のみ 11-25。precheck ✅ 589頁・計測リンク deploy 1,941→out 1,941（html 内 href）・functions/api 4本保全・__next*.txt 0
+
+### 2026-11-25 12:00 成長ルーチン: 和泉の要点に「和泉市」行（source 20d7ab62・610452d6 / deploy b3908f2b79・反映約15分）
+- 対象は親指定の /area/izumi/ のみ（11/15 title/description 変更・クロール 11/24）。title・description は不変
+- 公式 11/25 照合: Rintosull 和泉府中店・エコール・いずみ店（月4 8,800/13,800/16,800・運営管理費 月680・無料体験会 0円・定休 日曜/第4水曜）、studio MUER（体験6,000・月2 15,000/月4 28,000/月8 52,000）、コナミ和泉中央（告知 1ヶ月7,780・料金表 金曜 7,980・木曜休館）、STUDIO TOU 和泉中央（月2 8,000/月5 11,000/通い放題 13,000・体験3回3,000/プライベート5,000・入会金1,100）＝すべて一致→誤記なし
+- 追加: AreaQuickAnswer に「和泉市」行（「ピラティス 和泉市 安い／無料体験」向け＝マシン月額の低い順と無料体験の答え）。要点 note と #by-station 出典の確認日を 11/25 に。sitemap は izumi のみ 11-25
+- 未照合: Plaisir・Joie pilates・PILATES Aloha（公式URL未特定・WebSearch で見つからず＝10/17 の値のまま）。Rintosull の入会時 施設使用料2,500円（公式 FAQ）はカード未記載のまま
+- 未掲載候補: DEAR PILATES（和泉市伏屋町5-14-8・光明池・dearpilates.com は JS 描画で本文取れず）＝title「8選」と合わなくなるため追加せず
+- precheck ✅ 589頁・計測リンク deploy 1,449→out 1,449（html 内 href）・functions/api 4本保全。WebSearch は US 限定で日本の上位は取れず（fitmap の断片のみ）
