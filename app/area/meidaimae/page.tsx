@@ -25,29 +25,30 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 明大前店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
-    price: '月4回 9,680円',
-    trial: '体験レッスンあり',
-    features: ['予約不要', '30分サーキット', '月4回 9,680円', '明大前駅近'],
-    description: '予約不要で通えるマシンピラティス＆ファンクショナルトレーニングのサーキット形式スタジオです。1回30分で全身をしっかり動かせます。月4回9,680円とリーズナブルです。好きな時間にふらっと立ち寄れる手軽さが魅力です。マシンピラティスとファンクショナルトレーニングを組み合わせた独自のプログラムを提供しています。',
-    access: '京王線・京王井の頭線「明大前駅」徒歩圏内',
-    address: '東京都世田谷区松原（明大前駅徒歩圏内）',
+    price: '月4回 8,580円（税込）',
+    trial: '無料体験あり',
+    features: ['予約不要', '30分サーキット', '月4回 8,580円', '明大前駅徒歩3分'],
+    description: '予約不要で通えるマシンピラティス＆ファンクショナルトレーニングのサーキット形式スタジオです。1回30分で全身をしっかり動かせます。公式の料金表（2026年11月25日確認）では月4回8,580円・月8回10,780円・通い放題12,980円（いずれも税込）で、入会時に施設利用料2,200円、4か月目から運営管理費480円/月がかかります。好きな時間にふらっと立ち寄れる手軽さが魅力です。マシンピラティスとファンクショナルトレーニングを組み合わせた独自のプログラムを提供しています。',
+    access: '京王電鉄京王線・井の頭線「明大前」より徒歩3分',
+    address: '東京都世田谷区松原2-42-7 第二松岡ビル 3F',
     popularPlan: {
       name: '月4回プラン',
       description: '予約不要で30分のサーキット形式マシンピラティスレッスンです。',
-      price: '月4回 9,680円（税込）',
+      price: '月4回 8,580円（税込）',
     },
     options: [
-      '月4回プラン（9,680円）',
-      '月8回プラン（料金は店舗にお問い合わせ）',
-      '通い放題プラン（料金は店舗にお問い合わせ）',
+      'マンスリー4（月4回・1日1回まで 8,580円）',
+      'マンスリー8（月8回・1日1回まで 10,780円）',
+      'レギュラー（通い放題・1日1回まで 12,980円）',
+      '施設利用料 2,200円（入会時のみ）・運営管理費 480円/月（4か月目から）',
     ],
     userProfile: {
       ageRange: '20代〜40代が中心',
       purpose: ['運動不足解消', '体幹強化', '姿勢改善', '気軽にトレーニング'],
     },
     basicInfo: {
-      hours: '店舗にお問い合わせください',
-      closed: '店舗にお問い合わせください',
+      hours: '平日 9:30〜21:30／土祝 9:30〜19:30（平日13:00〜14:00は利用不可）',
+      closed: '日曜日',
       facilities: ['ロッカー', 'マシン完備'],
     },
   },
@@ -149,7 +150,7 @@ const faqs = [
   },
   {
     question: '明大前のピラティス料金相場はどのくらいですか？',
-    answer: 'グループレッスンの料金相場は月4回で9,680円〜11,220円程度です。URBAN CLASSIC PILATESは予約不要で月4回9,680円です。パーソナルレッスンはELEMENTが月4回22,000円です。体験レッスンはELEMENTが3,300円です。',
+    answer: 'グループレッスンの料金相場は月4回で8,580円〜11,220円程度です。URBAN CLASSIC PILATESは予約不要で月4回8,580円（税込・公式 2026年11月25日確認）です。パーソナルレッスンはELEMENTが月4回22,000円です。体験レッスンはELEMENTが3,300円です。',
   },
   {
     question: '予約不要で通えるスタジオはありますか？',
@@ -262,7 +263,7 @@ export default function MeidaimaePage() {
                 <h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3>
                 <p className="text-warm-600 text-sm mb-4">月額1万円前後で通えるスタジオです。</p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• URBAN CLASSIC PILATES（月4回 9,680円）</li>
+                  <li className="text-warm-700">• URBAN CLASSIC PILATES（月4回 8,580円）</li>
                   <li className="text-warm-700">• ピラティスK（月4回 11,220円〜）</li>
                 </ul>
               </div>
@@ -297,7 +298,7 @@ export default function MeidaimaePage() {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4回）</td><td className="px-4 py-3">9,680円〜11,220円</td></tr>
+                  <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">グループレッスン（月4回）</td><td className="px-4 py-3">8,580円〜11,220円</td></tr>
                   <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">パーソナルレッスン（月4回）</td><td className="px-4 py-3">22,000円〜</td></tr>
                   <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">体験レッスン</td><td className="px-4 py-3">3,300円（ELEMENT）</td></tr>
                 </tbody>
@@ -382,7 +383,7 @@ export default function MeidaimaePage() {
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span>
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
-                <p className="text-warm-600 leading-relaxed">明大前エリアの料金相場は、グループ月4回で9,680円〜11,220円、パーソナル月4回で22,000円です。無理なく継続できる予算を決めることをおすすめします。</p>
+                <p className="text-warm-600 leading-relaxed">明大前エリアの料金相場は、グループ月4回で8,580円〜11,220円、パーソナル月4回で22,000円です。無理なく継続できる予算を決めることをおすすめします。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4">
