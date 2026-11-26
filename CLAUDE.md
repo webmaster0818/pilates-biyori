@@ -1692,3 +1692,11 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - La pilates 青森店（ANDARD 柴田様・11/25 フォーム）: /area/aomori/ は未掲載（4店）。/brands/la-pilates/ の店舗一覧には 11/2 から掲載済み（住所・青森駅・公式店舗ページへのリンク rel="noopener noreferrer"）で公式と一致。公式 la-pilates.jp/studio/aomori/（11/26 確認）: 安方1丁目5-11 ギャレスビル3F・青森駅東口徒歩6分・女性専用・09:00〜21:00（最終受付20:00）・休業日 年末年始・月払い 月1回12,000/月2回22,000/月4回40,000/月6回54,000円・年払いあり・一般通常 14,000円・体験90分 初回3,000円（通常14,000円）・マシン5台・クレカ/QR。入会金は青森店ページに記載なし（公式 /menu/ はブランド共通で 10,000円・当日入会で無料）→返信で確認。掲載は相互リンク了承後（本ファイル冒頭の手順）。
 - BODY TERRACE（11/26 確認）: posts/pilates-biyori-publication に トップ＋/area/oimachi/、posts/pilates-biyori-aomonoyokocho に トップ＋/area/aomono-yokocho/#studio-4（rel 空＝nofollow なし）。
 - BREST（11/26 09:4x 公式直・7店）: 7店とも 200・banner-1_monitor_500.png（Last-Modified 10/29・100,761 bytes）継続・終了/締切表記 0。/news/ 最新 11/22。
+
+### 2026-11-26 12:00 成長ルーチン: 祐天寺の h1 直下に公式料金の早見表・URBAN CLASSIC の誤記訂正・title を料金の答えに（source 0a524f3b / deploy 854701401c・反映約1分）
+- 対象は親指定の /area/yutenji/ のみ（11/17 以降の個別変更なし・最終は 11/01 hakusho 月次）。title は 11/19 以降の変更なし→「ピラティス祐天寺おすすめ4選｜マシン月4回8,580円〜・体験無料あり」に（地名は祐天寺のみ）
+- 公式 11/26 照合: URBAN CLASSIC 祐天寺（urbanclassic.jp/pilates-studio/yutenji/＝祐天寺2-14-19 四宮ビル3F・東口2 徒歩1分・月4 8,580/月8 10,780/通い放題 12,980・施設利用料 2,200・4か月目から運営管理費 480・都度払いなし・無料体験・日曜定休）、zen place 祐天寺（G01・東口徒歩2分・平日7:30〜21:00/土日祝7:30〜17:30・体験 マット1,000〔通常3,300〕/マシン3,000〔通常5,000〕/PV 9,900・/price で G01 マット月4 10,450・RG4 15,400・入会金 33,000〔当日入会で無料〕・設備運営管理費 550）、NATURAglam（/membershipfee/・/yutenji/access/＝五本木2-5-20・徒歩5分・女性専用・月4 4,800税別=5,280/月8 8,580・入会金/事務手数料0円キャンペーン・体験1,000）
+- 誤記訂正: URBAN「1回 1,485円〜」（都度払いは無い）→月4回 8,580円〜、住所「（祐天寺エリア）」→実住所、zen の営業時間 7:00〜→7:30〜、NATURAglam の住所・税込表記・女性専用。相場表「グループ月4回 1,485〜2,000円」「体験 1,000〜1,000円」・FAQ・予算別・選び方・CTA も追従
+- #quick-table 新設（3店・出典リンク・確認日）。GRACE pilates&yoga studio は公式サイト未特定＝表に含めず（カードの「1回2,000円〜」「ドロップイン可」は未照合のまま）。競合（lyftoff・sakura・arcrea 等）が掲載する TSUTAYA Conditioning PILATES 祐天寺店は 2026/9/30 営業終了（tc.tsite.jp/news/2pPrwJBa）→注記のみ。未掲載候補 dianest・Rosette は追加せず
+- precheck ✅ 589頁・計測リンク deploy 1,949→out 1,949（html 内 href）・src 2,030→2,030・yutenji 頁の felmat href 3→3・functions/api 4本保全・表示テキストの変化は yutenji 1頁のみ・sitemap は yutenji のみ 11-26
+- WebSearch（extended）は日本の上位を返した（lyftoff-pilates・sakura-pilates・azure-collaboration・arcrea・pilatesroom・pilateslog・pilates-navi・idea-scope・plizgym 等）
