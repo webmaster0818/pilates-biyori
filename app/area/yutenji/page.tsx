@@ -15,8 +15,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/yutenji/' },
-  title: 'ピラティス祐天寺おすすめ4選料金・体験レッスン・マシン対応を比較',
-  description: '祐天寺エリアのおすすめピラティススタジオ4選を比較しています。マシンピラティス、体験レッスン、料金相場、選び方まで詳しくご案内します。',
+  title: 'ピラティス祐天寺おすすめ4選｜マシン月4回8,580円〜・体験無料あり',
+  description: '祐天寺駅周辺のピラティスを公式料金（11月26日確認）で比較。マシンはURBAN CLASSIC月4回8,580円・zen placeリフォーマー月4回15,400円、マットはNATURAglam月4回5,280円。体験料金と駅徒歩分も一覧に。',
   keywords: 'ピラティス,祐天寺,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -29,7 +29,7 @@ const studios = [
     trial: '体験レッスン 1,000円',
     features: ['マット&マシン', '東急東横線祐天寺駅近', '少人数制', '男性利用可'],
     description: '全国150店舗以上展開の大手ピラティススタジオです。東急東横線祐天寺駅から徒歩圏内の好立地です。マットピラティスからマシンピラティスまで豊富なレッスンメニューを用意しています。有資格エデュケーターが在籍し、初心者から上級者まで一人ひとりに合わせた丁寧な指導を提供します。',
-    access: '東急東横線「祐天寺駅」徒歩圏内',
+    access: '東急東横線「祐天寺駅」東口 徒歩2分',
     address: '東京都目黒区祐天寺2丁目3-11 第6エスペランス 2階',
     popularPlan: {
       name: 'マットグループ（月4回）',
@@ -47,7 +47,7 @@ const studios = [
       purpose: ['姿勢改善', '体幹強化', 'リフレッシュ', '健康維持'],
     },
     basicInfo: {
-      hours: '平日 7:00〜21:00 / 土日祝 7:00〜18:00',
+      hours: '平日 7:30〜21:00 / 土日祝 7:30〜17:30',
       closed: '月末不定休',
       facilities: ['シャワー', 'ロッカー', 'パウダールーム', 'Wi-Fi'],
     },
@@ -55,19 +55,20 @@ const studios = [
   {
     name: 'NATURAglam 祐天寺スタジオ',
     image: '/images/studios/naturaglam.webp',
-    price: '月4回 4,800円〜（税別）',
+    price: '月4回 5,280円（税込・税別4,800円）',
     trial: '体験レッスン 1,000円',
-    features: ['圧倒的低価格', '7スタジオ相互利用', 'マットピラティス', 'アットホーム'],
-    description: '月4回4,800円（税別）という圧倒的な低価格でマットピラティスが楽しめるスタジオです。祐天寺・下北沢・三軒茶屋・中目黒・高円寺・戸越銀座・経堂の7スタジオを追加料金なしで相互利用可能です。体験レッスン1,000円で気軽にスタートできます。',
-    access: '東急東横線「祐天寺駅」徒歩圏内',
-    address: '東京都目黒区（祐天寺エリア）',
+    features: ['女性専用', '7スタジオ相互利用', 'マットピラティス', '入会金0円キャンペーン'],
+    description: '月4回4,800円（税別・税込5,280円）という低価格でマットピラティスが楽しめる女性専用スタジオです。祐天寺・下北沢・三軒茶屋・中目黒・高円寺・戸越銀座・経堂の7スタジオを追加料金なしで相互利用可能です。体験レッスン1,000円で気軽にスタートできます。',
+    access: '東急東横線「祐天寺駅」徒歩5分（学芸大学駅から徒歩7〜8分）',
+    address: '東京都目黒区五本木2-5-20',
     popularPlan: {
       name: '月4回プラン',
       description: 'マットピラティス月4回です。7スタジオ相互利用可能です。',
-      price: '月4回 4,800円（税別）',
+      price: '月4回 4,800円（税別・税込5,280円）',
     },
     options: [
-      '月4回プラン（4,800円税別）',
+      '月4回プラン（4,800円税別・税込5,280円）',
+      '月8回プラン（7,800円税別・税込8,580円）',
       '7スタジオ相互利用（追加料金なし）',
       '体験レッスン（1,000円）',
     ],
@@ -85,12 +86,22 @@ const studios = [
     name: 'URBAN CLASSIC PILATES 祐天寺',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
     image: '/images/studios/urban-classic-pilates.webp',
-    price: '1回 1,485円〜',
-    trial: '体験レッスンあり',
-    features: ['予約不要', '30分サーキット', '祐天寺駅近', '通い放題あり'],
-    description: '予約不要の30分サーキット型マシンピラティススタジオです。好きな時間にふらっと立ち寄れる手軽さが人気です。1回1,485円〜とリーズナブルで、通い放題プランもあります。忙しい方でも自分のペースで無理なく続けられます。',
-    access: '東急東横線「祐天寺駅」徒歩圏内',
-    address: '東京都目黒区（祐天寺エリア）',
+    price: '月4回 8,580円〜',
+    trial: '無料体験あり',
+    features: ['予約不要', '30分サーキット', '祐天寺駅 徒歩1分', '通い放題あり'],
+    description: '予約不要の30分サーキット型マシンピラティススタジオです。好きな時間にふらっと立ち寄れる手軽さが人気です。月会費制で、月4回8,580円・月8回10,780円・通い放題12,980円（税込）です。都度払いはありません。男性も入会できます。',
+    access: '東急東横線「祐天寺駅」東口2 徒歩1分',
+    address: '東京都目黒区祐天寺2-14-19 四宮ビル 3F',
+    options: [
+      'マンスリー4（月4回 8,580円）',
+      'マンスリー8（月8回 10,780円）',
+      'レギュラー（通い放題 12,980円）',
+      '入会時 施設利用料 2,200円・4か月目から運営管理費 月480円',
+    ],
+    basicInfo: {
+      hours: '平日 9:30〜21:30 / 土祝 9:30〜19:30',
+      closed: '日曜日',
+    },
   },
   {
     name: 'GRACE pilates&yoga studio',
@@ -107,7 +118,7 @@ const studios = [
 const faqs = [
   {
     question: 'ピラティス初心者でも大丈夫ですか？',
-    answer: '問題ありません。祐天寺のスタジオは初心者歓迎です。NATURAglamは月4回4,800円〜で気軽に始められます。zen placeも体験1,000円からです。',
+    answer: '問題ありません。祐天寺のスタジオは初心者歓迎です。URBAN CLASSIC PILATESは無料体験があり、NATURAglamは月4回4,800円（税別）〜で気軽に始められます。zen placeもマットグループ体験1,000円からです。',
   },
   {
     question: 'マットピラティスとマシンピラティスの違いは？',
@@ -115,7 +126,7 @@ const faqs = [
   },
   {
     question: '祐天寺エリアの料金相場は？',
-    answer: 'マットは月4回4,800円〜、zen placeのマシン（リフォーマーグループ）は月4回15,400円です（開催の有無はスタジオにより異なります）。サーキット型は1回1,485円〜です。ドロップインは1回2,000円〜です。',
+    answer: 'マットはNATURAglamの月4回5,280円（税込）から、マシンはURBAN CLASSIC PILATES（30分サーキット）の月4回8,580円から、zen placeのリフォーマーグループは月4回15,400円です（いずれも税込・2026年11月26日に公式で確認）。',
   },
   {
     question: 'どのくらいの頻度で通えばいいですか？',
@@ -162,7 +173,7 @@ export default function YutenjiPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月26日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
               ピラティス祐天寺おすすめ4選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
@@ -182,6 +193,12 @@ export default function YutenjiPage() {
             </nav>
           </div>
         </section>
+
+        <section className="py-8 bg-white" id="quick-table"><div className="max-w-5xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">祐天寺のピラティス早見表（月額・体験・駅徒歩分）</h2><div className="bg-warm-50 border-l-4 border-warm-700 p-4 mb-5 text-sm text-warm-800 leading-relaxed"><p className="font-bold mb-1">料金の答え（税込・2026年11月26日に各公式ページで確認）</p><p>祐天寺駅周辺でマシンピラティスに月4回通う場合、いちばん安いのは東口徒歩1分の URBAN CLASSIC PILATES 祐天寺（30分サーキット）の 8,580円で、体験は無料です。グループでリフォーマーを使うなら zen place pilates 祐天寺のリフォーマーグループが月4回 15,400円（体験 3,000円）。マットなら女性専用の NATURAglam 祐天寺スタジオが月4回 5,280円（体験 1,000円）で、zen place のマットグループは月4回 10,450円（体験 1,000円）です。</p></div><div className="overflow-x-auto"><table className="w-full text-sm border-collapse"><thead><tr className="bg-warm-800 text-white"><th className="px-4 py-3 text-left">スタジオ</th><th className="px-4 py-3 text-left">場所・駅徒歩</th><th className="px-4 py-3 text-left">形式</th><th className="px-4 py-3 text-left">月額（税込）</th><th className="px-4 py-3 text-left">体験</th><th className="px-4 py-3 text-left">営業時間・定休</th></tr></thead><tbody>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">URBAN CLASSIC PILATES 祐天寺</td><td className="px-4 py-3">目黒区祐天寺2-14-19 四宮ビル3F（祐天寺駅 東口2 徒歩1分）</td><td className="px-4 py-3">マシン（リフォーマー）＋TRXの30分サーキット・予約不要・男性も可</td><td className="px-4 py-3">月4回 8,580円／月8回 10,780円／通い放題 12,980円（入会時 施設利用料 2,200円・4か月目から運営管理費 月480円・都度払いなし）</td><td className="px-4 py-3">無料</td><td className="px-4 py-3">平日 9:30〜21:30・土祝 9:30〜19:30／日曜定休</td></tr>
+          <tr className="border-b border-warm-200 bg-warm-50"><td className="px-4 py-3 font-medium">zen place pilates 祐天寺（グレード01）</td><td className="px-4 py-3">目黒区祐天寺2-3-11 第6エスペランス2階（祐天寺駅 東口 徒歩2分）</td><td className="px-4 py-3">マット・リフォーマーのグループ／プライベート・男女共用</td><td className="px-4 py-3">マットグループ 月4回 10,450円／リフォーマーグループ 月4回 15,400円（入会金 33,000円〔当日入会で無料〕・設備運営管理費 月550円）</td><td className="px-4 py-3">マット 1,000円（通常3,300円）／マシン 3,000円（通常5,000円）／プライベート 9,900円</td><td className="px-4 py-3">平日 7:30〜21:00・土日祝 7:30〜17:30</td></tr>
+          <tr className="border-b border-warm-200"><td className="px-4 py-3 font-medium">NATURAglam 祐天寺スタジオ</td><td className="px-4 py-3">目黒区五本木2-5-20（祐天寺駅 徒歩5分・学芸大学駅 徒歩7〜8分）</td><td className="px-4 py-3">マット（ヨガ・ピラティス）・女性専用・常温・7スタジオ共通</td><td className="px-4 py-3">月4回 5,280円／月8回 8,580円（入会金・事務手数料 0円のキャンペーン中）</td><td className="px-4 py-3">1,000円</td><td className="px-4 py-3">公式の料金ページに記載なし（スケジュール制）</td></tr>
+        </tbody></table></div><p className="text-warm-500 leading-relaxed mt-3 text-xs">確認した公式ページ（2026年11月26日）: <a href="https://urbanclassic.jp/pilates-studio/yutenji/" target="_blank" rel="noopener" className="underline">URBAN CLASSIC PILATES 祐天寺</a>／<a href="https://www.zenplace.co.jp/studios/pilates-yuutenji" target="_blank" rel="noopener" className="underline">zen place pilates 祐天寺</a>・<a href="https://www.zenplace.co.jp/price" target="_blank" rel="noopener" className="underline">zen place 料金</a>／<a href="https://www.naturaglam.com/membershipfee/" target="_blank" rel="noopener" className="underline">NATURAglam 料金・システム</a>・<a href="https://www.naturaglam.com/yutenji/access/" target="_blank" rel="noopener" className="underline">祐天寺スタジオ アクセス</a>。GRACE pilates&amp;yoga studio は公式サイトを確認できなかったため表に含めていません。他の比較サイトで紹介されている TSUTAYA Conditioning PILATES 祐天寺店は、2026年9月30日で営業を終了しています（<a href="https://tc.tsite.jp/news/2pPrwJBa" target="_blank" rel="noopener" className="underline">公式のお知らせ</a>）。</p></div></section>
 
         <TableOfContents areaName="祐天寺" studioNames={[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((s) => s.name)} />
 
@@ -253,7 +270,7 @@ export default function YutenjiPage() {
                 <tbody>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">グループレッスン（月4回）</td>
-                    <td className="px-4 py-3">1,485円〜2,000円</td>
+                    <td className="px-4 py-3">マット 5,280円〜／マシン 8,580円〜15,400円</td>
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
@@ -261,7 +278,7 @@ export default function YutenjiPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">1,000円〜1,000円</td>
+                    <td className="px-4 py-3">0円〜3,000円</td>
                   </tr>
                 </tbody>
               </table>
@@ -354,11 +371,11 @@ export default function YutenjiPage() {
               <div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition">
                 <h3 className="text-xl font-bold text-warm-900 mb-4">割安</h3>
                 <p className="text-warm-600 text-sm mb-4">
-                  月額5,000円以下からです。
+                  月額5,280円（税込）からです。
                 </p>
                 <ul className="space-y-2 text-sm">
-                  <li className="text-warm-700">• NATURAglam（月4回 4,800円〜）</li>
-                  <li className="text-warm-700">• URBAN CLASSIC PILATES（1回 1,485円〜）</li>
+                  <li className="text-warm-700">• NATURAglam（月4回 5,280円）</li>
+                  <li className="text-warm-700">• URBAN CLASSIC PILATES（月4回 8,580円）</li>
                   <li className="text-warm-700">• GRACE（1回 2,000円〜）</li>
                 </ul>
               </div>
@@ -419,36 +436,37 @@ export default function YutenjiPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜5,000円/月</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 〜6,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">マット</p>
                 <p className="text-sm text-warm-600 mb-4">
                   圧倒的低価格のマットピラティスです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• NATURAglam（月4回 4,800円〜）</li>
+                  <li>• NATURAglam（月4回 5,280円）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-500 rounded-lg p-6 text-center bg-warm-50">
                 <div className="inline-block bg-warm-800 text-white text-xs px-3 py-1 rounded-full mb-2">人気</div>
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 10,000〜16,000円/月</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 8,000〜16,000円/月</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">マシン</p>
                 <p className="text-sm text-warm-600 mb-4">
                   マシン完備のスタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• URBAN CLASSIC PILATES（マシン月4回 8,580円〜）</li>
                   <li>• zen place（マット月4回 10,450円〜）</li>
                   <li>• zen place リフォーマー（15,400円〜）</li>
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">都度払い</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">回数券・都度払い</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">手軽</p>
                 <p className="text-sm text-warm-600 mb-4">
                   1回ずつ気軽に通えます。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• URBAN CLASSIC PILATES（1回 1,485円〜）</li>
-                  <li>• GRACE（1回 2,000円〜）</li>
+                  <li>• GRACE（料金はスタジオにご確認ください）</li>
+                  <li>• NATURAglam（持ち回数を超えた分は1回1,000円）</li>
                 </ul>
               </div>
             </div>
@@ -477,7 +495,7 @@ export default function YutenjiPage() {
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  祐天寺はマット月4回4,800円〜、サーキット型1回1,485円〜と幅広い価格帯です。無理なく続けられる予算でお選びください。
+                  祐天寺はマット月4回5,280円〜、マシンのサーキット型月4回8,580円〜、zen placeのリフォーマーグループ月4回15,400円と幅広い価格帯です。無理なく続けられる予算でお選びください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -486,7 +504,7 @@ export default function YutenjiPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  1,000円前後で体験できるスタジオが中心です。雰囲気やインストラクターとの相性をご確認ください。
+                  無料〜3,000円で体験できるスタジオが中心です。雰囲気やインストラクターとの相性をご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -538,7 +556,7 @@ export default function YutenjiPage() {
               今回は祐天寺のおすすめピラティススタジオをご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
-              祐天寺はNATURAglamの月4回4,800円〜という割安スタジオから、zen placeの本格マット&マシンピラティス、URBAN CLASSIC PILATESの予約不要サーキット、GRACEのピラティス&ヨガまで多彩な選択肢があります。中目黒と学芸大学に挟まれた落ち着いた住宅街ならではの、ゆったりとした環境で通えるのが魅力です。
+              祐天寺はNATURAglamの月4回5,280円（税込）という割安スタジオから、zen placeの本格マット&マシンピラティス、URBAN CLASSIC PILATESの予約不要サーキット、GRACEのピラティス&ヨガまで多彩な選択肢があります。中目黒と学芸大学に挟まれた落ち着いた住宅街ならではの、ゆったりとした環境で通えるのが魅力です。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               本ページの情報を、スタジオ選びにお役立てください。
@@ -556,7 +574,7 @@ export default function YutenjiPage() {
               体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン1,000円〜です。<br />
+              URBAN CLASSIC PILATESは無料体験、zen place・NATURAglamは1,000円〜です。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link
