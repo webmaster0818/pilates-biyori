@@ -1687,3 +1687,8 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - 未照合: Plaisir・Joie pilates・PILATES Aloha（公式URL未特定・WebSearch で見つからず＝10/17 の値のまま）。Rintosull の入会時 施設使用料2,500円（公式 FAQ）はカード未記載のまま
 - 未掲載候補: DEAR PILATES（和泉市伏屋町5-14-8・光明池・dearpilates.com は JS 描画で本文取れず）＝title「8選」と合わなくなるため追加せず
 - precheck ✅ 589頁・計測リンク deploy 1,449→out 1,449（html 内 href）・functions/api 4本保全。WebSearch は US 限定で日本の上位は取れず（fitmap の断片のみ）
+
+### 2026-11-26 朝ルーチン: La pilates 青森店の掲載依頼（返信案のみ・ページ変更なし）・LIFE LOG お礼返信案・BREST 継続
+- La pilates 青森店（ANDARD 柴田様・11/25 フォーム）: /area/aomori/ は未掲載（4店）。/brands/la-pilates/ の店舗一覧には 11/2 から掲載済み（住所・青森駅・公式店舗ページへのリンク rel="noopener noreferrer"）で公式と一致。公式 la-pilates.jp/studio/aomori/（11/26 確認）: 安方1丁目5-11 ギャレスビル3F・青森駅東口徒歩6分・女性専用・09:00〜21:00（最終受付20:00）・休業日 年末年始・月払い 月1回12,000/月2回22,000/月4回40,000/月6回54,000円・年払いあり・一般通常 14,000円・体験90分 初回3,000円（通常14,000円）・マシン5台・クレカ/QR。入会金は青森店ページに記載なし（公式 /menu/ はブランド共通で 10,000円・当日入会で無料）→返信で確認。掲載は相互リンク了承後（本ファイル冒頭の手順）。
+- BODY TERRACE（11/26 確認）: posts/pilates-biyori-publication に トップ＋/area/oimachi/、posts/pilates-biyori-aomonoyokocho に トップ＋/area/aomono-yokocho/#studio-4（rel 空＝nofollow なし）。
+- BREST（11/26 09:4x 公式直・7店）: 7店とも 200・banner-1_monitor_500.png（Last-Modified 10/29・100,761 bytes）継続・終了/締切表記 0。/news/ 最新 11/22。
