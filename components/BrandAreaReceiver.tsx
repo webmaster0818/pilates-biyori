@@ -8,6 +8,7 @@ import { getBrand } from "@/data/brands";
 import type { BdcStore } from "@/data/bdc-stores";
 import { STUDIO_REVIEWS } from "@/data/studio-reviews";
 import { brandSlugOf } from "@/lib/brandLink";
+import { OfficialCaptureFigure } from "@/components/OfficialCaptureFigure";
 
 // ブランド×エリア受け皿。指名クエリ「{ブランド} ピラティス {エリア}」の受け皿。
 // 実店舗データ（brands-aggregate.json一致）＋ブランド編集データ＋ブランド/エリアへの三角リンク。
@@ -121,6 +122,8 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
               )}
             </section>
           )}
+
+          <OfficialCaptureFigure slug={store.urlSlug} />
 
           <div className="border border-warm-300 bg-warm-50 px-4 py-3 mb-8 text-sm text-warm-800">
             🔀 {brandName}全体の<strong>料金プラン・口コミ・全店舗一覧</strong>をお探しの方は{" "}

@@ -11,6 +11,7 @@ import brandStores from '@/data/brands-aggregate.json'
 import brandVoices from '@/data/brand-voices.json'
 import { BrandReviewDigest } from '@/components/BrandReviewDigest'
 import { BrandReviewThemes } from '@/components/BrandReviewThemes'
+import { OfficialCaptureFigure } from '@/components/OfficialCaptureFigure'
 import { PILATES_K_OFFICIAL_STORES, PILATES_K_OFFICIAL_ASOF } from '@/data/pilates-k-official-stores'
 import { PILATES_K_MONTHLY4, PILATES_K_PRICE_ASOF } from '@/data/pilates-k-store-prices'
 import type { OfficialStoreList } from '@/data/official-store-list-type'
@@ -332,6 +333,8 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
               )}
             </section>
           )}
+
+          <OfficialCaptureFigure slug={brand.slug} />
 
           {/* 結論ボックス */}
           <section className="bg-white border border-warm-200 p-6 mb-10">
