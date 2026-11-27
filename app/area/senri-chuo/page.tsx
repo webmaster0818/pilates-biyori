@@ -36,6 +36,7 @@ const studios = [
   },
   {
     name: 'WECLE（ウィークル）せんちゅうパル店',
+    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4BGO4M+4GR3NM+5WXK+5YJRM',
     image: '/images/studios/wecle-pilates.webp', reviewCount: 105,
     price: '月額 9,800円〜', trial: '体験レッスンあり',
     features: ['駅直結', '24時間営業', '予約不要', '1回30分'],

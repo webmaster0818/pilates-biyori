@@ -565,6 +565,11 @@ export function StudioCardClient({ studio, index }: StudioCardProps) {
               // eslint-disable-next-line @next/next/no-img-element
               <img src={`https://t.afi-b.com/lead/S16521f/E9887623/${(studio.officialUrl || '').match(/a=S16521f-([0-9A-Za-z]+)&/)?.[1]}`} width={1} height={1} alt="" className="inline-block" style={{ border: 'none' }} />
             )}
+            {/* WECLE（A8・2026-11-27 承認） */}
+            {studio.officialUrl?.includes('a8mat=4BGO4M+4GR3NM+5WXK+5YJRM') && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src="https://www10.a8.net/0.gif?a8mat=4BGO4M+4GR3NM+5WXK+5YJRM" width={1} height={1} alt="" className="inline-block" style={{ border: 'none' }} />
+            )}
             {/* LAVA（A8） */}
             {studio.officialUrl?.includes('a8mat=4BENDQ+6V2YDE+1O96+5YZ76') && (
               // eslint-disable-next-line @next/next/no-img-element

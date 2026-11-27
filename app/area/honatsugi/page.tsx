@@ -89,6 +89,7 @@ const studios = [
   },
   {
     name: 'WECLE 本厚木店',
+    officialUrl: 'https://px.a8.net/svt/ejp?a8mat=4BGO4M+4GR3NM+5WXK+5YJRM',
     image: '/images/studios/wecle-pilates.webp',
     price: '月額 9,680円〜（通い放題）',
     trial: '体験レッスンあり',
