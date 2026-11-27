@@ -1700,3 +1700,11 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - #quick-table 新設（3店・出典リンク・確認日）。GRACE pilates&yoga studio は公式サイト未特定＝表に含めず（カードの「1回2,000円〜」「ドロップイン可」は未照合のまま）。競合（lyftoff・sakura・arcrea 等）が掲載する TSUTAYA Conditioning PILATES 祐天寺店は 2026/9/30 営業終了（tc.tsite.jp/news/2pPrwJBa）→注記のみ。未掲載候補 dianest・Rosette は追加せず
 - precheck ✅ 589頁・計測リンク deploy 1,949→out 1,949（html 内 href）・src 2,030→2,030・yutenji 頁の felmat href 3→3・functions/api 4本保全・表示テキストの変化は yutenji 1頁のみ・sitemap は yutenji のみ 11-26
 - WebSearch（extended）は日本の上位を返した（lyftoff-pilates・sakura-pilates・azure-collaboration・arcrea・pilatesroom・pilateslog・pilates-navi・idea-scope・plizgym 等）
+
+### 2026-11-27 朝ルーチン: BREST 継続（変更なし）・/editors/ C3 誤検知・URBAN CLASSIC 経堂店のカードを公式どおりに（source のみ・未デプロイ）
+- BREST（11/27 09:20 公式直・7店）: 7店とも 200・banner-1_monitor_500.png（Last-Modified 10/29・100,761 bytes）継続・終了/締切表記 0・/news/ 最新 11/22 → カードは戻さない
+- 点検 11/27: /editors/ C3 は読者を指す文（「通っている方」）の誤検知（11/14〜と同じ）。/brands/ C5 は判断待ちで title 不変
+- zen place カードの初回体験の記載なし（11/4 の着手可）は 11/8・11/12 の更新で全カードに記載済み＝解消済み
+- URBAN CLASSIC 経堂店（公式 urbanclassic.jp/pilates-studio/kyodo/ 11/27＝料金表の画像 alt「7,800円（税込8,580円）」「9,800円（税込10,780円）」「11,800円（税込12,980円）」・施設利用料 2,200・4か月目から運営管理費 480・都度払いなし・経堂1-26-12 MSビル経堂3F・経堂駅徒歩3分・平日9:30〜21:30/土祝9:30〜19:30・平日13〜14時メンテ・日曜定休・ロッカー/更衣室・無料体験）。/area/kyodo/ カードの 月4回 9,680→8,580円・住所/アクセス/営業時間/定休・相場表と FAQ の下限 9,625→8,580円、brands-aggregate の同店の行も。名前「経堂（近隣）」は studio-reviews/brands.ts のキーのため未変更。「予約不要」は公式店舗ページでは利用者の声のみ＝未照合のまま
+- 公式一覧（108店）に 高円寺・中野・新宿・高田馬場・下北沢・三軒茶屋・新橋 の URBAN は無い＝それらのカードは外すと N選が変わるため判断待ち
+- ⚠️ next build がメモリ逼迫（swap 10.8/11.2GB・他セッションのビルド5本同時）で compile 36分→型チェック中に打ち切られ、デプロイせず。次回 build→precheck→方式B でそのまま出せる
