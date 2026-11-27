@@ -36,8 +36,13 @@ BRANDS = [
     ("lava",          r"LAVA"),
     # 2026-11-19 追加（afi-b u15511L・11/18 カード52件に設置）。lib/brandLink.ts と同じ判定
     ("studio-ivy",    r"STUDIO IVY|スタジオアイビー"),
+    # 2026-11-27 追加（afi-b S16521f・11/27 カード12件に設置）。lib/brandLink.ts と同じ判定
+    ("dee-pilates",   r"Dee Pilates|ディーピラティス"),
+    ("mapila",        r"Mapila|マピラ"),   # もしも 6687
+    ("wecle",         r"WECLE|ウィークル"),  # A8 5WXK
+    ("rinne",         r"^RINNE\b"),  # もしも 7756
 ]
-CASE_SENSITIVE = ("pilates-k", "la-pilates", "lava", "studio-ivy")
+CASE_SENSITIVE = ("pilates-k", "la-pilates", "lava", "studio-ivy", "dee-pilates", "wecle", "rinne")
 
 def brand_of(name):
     # kasaneを先に判定（pilates Kとの誤爆防止）

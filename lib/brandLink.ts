@@ -29,6 +29,11 @@ const RULES: Array<{ slug: string; test: (n: string) => boolean }> = [
   { slug: 'lava', test: (n) => /LAVA/.test(n) },
   // 2026-11-19 追加（afi-b u15511L）。aggregate-brands-202607.py と同じ判定
   { slug: 'studio-ivy', test: (n) => /STUDIO IVY|スタジオアイビー/.test(n) },
+  // 2026-11-27 追加（afi-b S16521f）。aggregate-brands-202607.py と同じ判定
+  { slug: 'dee-pilates', test: (n) => /Dee Pilates|ディーピラティス/.test(n) },
+  { slug: 'mapila', test: (n) => /Mapila|マピラ/i.test(n) },
+  { slug: 'wecle', test: (n) => /WECLE|ウィークル/.test(n) },
+  { slug: 'rinne', test: (n) => /^RINNE\b/.test(n) },
 ]
 
 export function brandSlugOf(studioName: string): string | null {

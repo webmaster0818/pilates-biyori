@@ -88,29 +88,29 @@ const studios = [
   {
     name: 'RINNE 海老名スタジオ',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5912520&p_id=7756&pc_id=22482&pl_id=96671',
-    price: '1回 7,700円〜',
-    trial: '体験レッスンあり',
-    features: ['パーソナル専門', '2026年オープン', 'マンツーマン', '新築スタジオ'],
-    description: '2026年1月オープンのパーソナルマシンピラティス専門スタジオです。「私のカラダ、思いのままに。」をコンセプトに、一人ひとりに合わせたマンツーマン指導で理想のボディメイクをサポートしています。',
-    access: '小田急小田原線・相鉄本線「海老名駅」徒歩5分',
-    address: '神奈川県海老名市中央1丁目',
+    price: 'パーソナル月4回 34,800円（最初の3ヶ月 29,800円）',
+    trial: '体験40分 8,800円（体験当日の入会で無料）',
+    features: ['マンツーマン（最初の3ヶ月）', '4ヶ月目からセミパーソナル可', '完全予約制', '駐車場3台'],
+    description: 'パーソナルマシンピラティスのスタジオです。入会から3ヶ月はマンツーマン（1対1）で、基本の動きを身につけた人は4ヶ月目から最大3名のセミパーソナル（月4回 19,800円）に切り替えられます。料金は税込で全店共通です（公式 2026年11月27日確認）。',
+    access: '海老名駅からバスで5分（綾瀬市役所から車で7分・駐車場3台）',
+    address: '神奈川県海老名市大谷北4丁目3-32 ハイムあすなろ105号',
     popularPlan: {
       name: 'パーソナルレッスン',
-      description: 'マンツーマンのマシンピラティスです。目標に合わせたオーダーメイドプログラムです。',
-      price: '1回 7,700円〜（税込）',
+      description: 'マンツーマンのマシンピラティスを月4回受けるプランです（1回あたり8,700円）。最初の3ヶ月は月5,000円引きです。',
+      price: '月4回 34,800円（税込・最初の3ヶ月は29,800円）',
     },
     options: [
-      '月4回コース',
-      '月8回コース',
-      '体験レッスンあり',
-      '入会金あり',
+      'パーソナル 月6回 49,800円／月8回 59,800円／月12回 85,800円（税込）',
+      'セミパーソナル（4ヶ月目から） 月4回 19,800円／月8回 34,800円（税込）',
+      '7ヶ月目から月2回プランも選択可（パーソナル 17,800円）',
+      '体験 40分 8,800円（税込）・体験当日の入会で無料',
     ],
     userProfile: {
       ageRange: '20代〜50代が中心',
       purpose: ['ボディメイク', '姿勢改善', 'ダイエット', '体幹強化'],
     },
     basicInfo: {
-      hours: '10:00〜21:00',
+      hours: '9:00〜21:30（完全予約制）',
       closed: '不定休',
       facilities: ['リフォーマーマシン', 'プライベートルーム', '更衣室', 'ロッカー'],
     },
@@ -153,15 +153,15 @@ const faqs = [
   },
   {
     question: '海老名のピラティスの料金相場はどのくらいですか？',
-    answer: 'グループ月4回で7,800円〜10,450円程度です。URBAN CLASSIC PILATESが月4回7,800円〜で最もリーズナブルです。パーソナルはRINNEが1回7,700円〜、Mellunaが1回8,800円〜です。',
+    answer: 'グループ月4回で7,800円〜10,450円程度です。URBAN CLASSIC PILATESが月4回7,800円〜で最もリーズナブルです。パーソナルはRINNEが月4回34,800円（1回8,700円・税込・公式 11/27）、Mellunaが1回8,800円〜です。',
   },
   {
     question: '海老名駅から近いスタジオはどこですか？',
-    answer: 'URBAN CLASSIC PILATES海老名店が徒歩4分です。RINNEが徒歩5分です。ルネサンスが徒歩7分です。Mellunaは徒歩10分です。',
+    answer: 'URBAN CLASSIC PILATES海老名店が徒歩4分です。ルネサンスが徒歩7分です。Mellunaは徒歩10分です。RINNEは海老名駅からバスで5分（駐車場3台）です。',
   },
   {
     question: '男性でも通えるスタジオはありますか？',
-    answer: 'URBAN CLASSIC PILATES、RINNE、ルネサンスは男性も利用可能です。Melluna Pilatesは女性専用です。',
+    answer: 'URBAN CLASSIC PILATES、ルネサンスは男性も利用可能です。Melluna Pilatesは女性専用です。',
   },
   {
     question: '子連れで通えるスタジオはありますか？',
@@ -281,7 +281,7 @@ export default function EbinaPage() {
                   </tr>
                   <tr className="border-b border-warm-200 bg-warm-50">
                     <td className="px-4 py-3 font-medium">パーソナルレッスン</td>
-                    <td className="px-4 py-3">1回 7,700円〜8,800円</td>
+                    <td className="px-4 py-3">1回 8,700円前後〜8,800円</td>
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
@@ -381,7 +381,6 @@ export default function EbinaPage() {
                 <p className="text-warm-600 text-sm mb-4">手軽に通えるスタジオです。</p>
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• URBAN CLASSIC（徒歩4分・予約不要）</li>
-                  <li className="text-warm-700">• RINNE（徒歩5分）</li>
                 </ul>
               </div>
             </div>
@@ -427,11 +426,11 @@ export default function EbinaPage() {
                 </ul>
               </div>
               <div className="border-2 border-warm-300 rounded-lg p-6 text-center">
-                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 7,700〜9,000円/回</h3>
+                <h3 className="text-lg font-bold text-warm-900 mb-2">予算 8,700〜9,000円/回</h3>
                 <p className="text-3xl font-bold text-warm-800 mb-4">パーソナル</p>
                 <p className="text-sm text-warm-600 mb-4">マンツーマン指導で確実に効果です。</p>
                 <ul className="text-sm text-warm-700 space-y-1">
-                  <li>• RINNE（7,700円〜/回）</li>
+                  <li>• RINNE（月4回 34,800円＝8,700円/回）</li>
                   <li>• Melluna（8,800円〜/回）</li>
                 </ul>
               </div>
@@ -456,7 +455,7 @@ export default function EbinaPage() {
                   <span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span>
                   <h3 className="text-xl font-bold text-warm-900">予算を決める</h3>
                 </div>
-                <p className="text-warm-600 leading-relaxed">海老名の料金相場はグループ月4回で7,800円〜10,450円です。パーソナルは1回7,700円〜です。</p>
+                <p className="text-warm-600 leading-relaxed">海老名の料金相場はグループ月4回で7,800円〜10,450円です。パーソナルは1回8,700円前後（RINNEの月4回）〜です。</p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
                 <div className="flex items-center mb-4">

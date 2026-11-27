@@ -8608,5 +8608,213 @@
       "areaSlug": "takadanobaba",
       "areaName": "高田馬場"
     }
+  ],
+  "dee-pilates": [
+    {
+      "name": "Dee Pilates 青山一丁目店",
+      "price": "月4回 33,600円（税込・マンツーマン50分）",
+      "trial": "無料（60分・おひとり様1回）",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=S16521f-2540701w&p=E9887623",
+      "address": "東京都港区南青山2-2-15",
+      "access": "東京メトロ銀座線・半蔵門線・都営大江戸線「青山一丁目駅」徒歩2分／銀座線「外苑前駅」徒歩7分",
+      "areaSlug": "aoyama-itchome",
+      "areaName": "青山・青山一丁目"
+    },
+    {
+      "name": "Dee Pilates 麻布十番店",
+      "price": "月4回 33,600円（税込・マンツーマン50分）",
+      "trial": "無料（60分・おひとり様1回）",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=S16521f-u540671c&p=E9887623",
+      "address": "東京都港区麻布十番2-1-11-5F",
+      "access": "「麻布十番駅」徒歩1分",
+      "areaSlug": "azabujuban",
+      "areaName": "麻布十番"
+    },
+    {
+      "name": "Dee Pilates 恵比寿店",
+      "price": "月4回 33,600円（税込・マンツーマン50分）",
+      "trial": "無料（60分・おひとり様1回）",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=S16521f-Q540705V&p=E9887623",
+      "address": "東京都渋谷区恵比寿南1-19-10-103（naruピラティスマシンスタジオを利用）",
+      "access": "「恵比寿駅」徒歩6分",
+      "areaSlug": "ebisu",
+      "areaName": "恵比寿"
+    },
+    {
+      "name": "Dee Pilates 目黒店",
+      "price": "月4回 33,600円（税込・マンツーマン50分）",
+      "trial": "無料（60分・おひとり様1回）",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=S16521f-Q540695C&p=E9887623",
+      "address": "東京都目黒区下目黒2-21-24 ハイツ第2目黒304",
+      "access": "「目黒駅」徒歩9分",
+      "areaSlug": "meguro",
+      "areaName": "目黒"
+    },
+    {
+      "name": "Dee Pilates 中目黒店",
+      "price": "月4回 33,600円（税込・マンツーマン50分）",
+      "trial": "無料（60分・おひとり様1回）",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=S16521f-C540696I&p=E9887623",
+      "address": "東京都目黒区東山1-3-12",
+      "access": "「中目黒駅」徒歩9分",
+      "areaSlug": "nakameguro",
+      "areaName": "中目黒"
+    },
+    {
+      "name": "Dee Pilates 中野店",
+      "price": "月4回 33,600円（税込・マンツーマン50分）",
+      "trial": "無料（60分・おひとり様1回）",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=S16521f-1540694n&p=E9887623",
+      "address": "東京都中野区中野5丁目32-11 3階",
+      "access": "「中野駅」徒歩1分",
+      "areaSlug": "nakano",
+      "areaName": "中野"
+    },
+    {
+      "name": "Dee Pilates 六本木・乃木坂店",
+      "price": "月4回 33,600円（税込・マンツーマン50分）",
+      "trial": "無料（60分・おひとり様1回）",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=S16521f-4540699v&p=E9887623",
+      "address": "東京都港区赤坂9-6-27 カーム乃木坂4F",
+      "access": "「乃木坂駅」徒歩1分／「六本木駅」徒歩5分",
+      "areaSlug": "roppongi",
+      "areaName": "六本木"
+    },
+    {
+      "name": "Dee Pilates 渋谷店",
+      "price": "月4回 33,600円（税込・マンツーマン50分）",
+      "trial": "無料（60分・おひとり様1回）",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=S16521f-m540704c&p=E9887623",
+      "address": "東京都渋谷区東1-1-38-303",
+      "access": "「渋谷駅」徒歩7分",
+      "areaSlug": "shibuya",
+      "areaName": "渋谷"
+    },
+    {
+      "name": "Dee Pilates 新宿店",
+      "price": "月4回 33,600円（税込・マンツーマン50分）",
+      "trial": "無料（60分・おひとり様1回）",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=S16521f-m540697m&p=E9887623",
+      "address": "東京都新宿区歌舞伎町2-1-2 HANROKUビル2階",
+      "access": "「新宿三丁目駅」徒歩1分／「新宿駅」徒歩6分",
+      "areaSlug": "shinjuku",
+      "areaName": "新宿"
+    },
+    {
+      "name": "Dee Pilates 横浜店",
+      "price": "月4回 33,600円（税込・マンツーマン50分）",
+      "trial": "無料（60分・おひとり様1回）",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=S16521f-A540670S&p=E9887623",
+      "address": "神奈川県横浜市西区高島2-11-2 スカイメナー横浜725号室（STUDIO FLAG 4号店を利用）",
+      "access": "「横浜駅」徒歩4分",
+      "areaSlug": "yokohama",
+      "areaName": "横浜"
+    },
+    {
+      "name": "Dee Pilates 四ツ谷店",
+      "price": "月4回 33,600円（税込・マンツーマン50分）",
+      "trial": "無料（60分・おひとり様1回）",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=S16521f-H540698R&p=E9887623",
+      "address": "東京都新宿区四谷1-18 belle四谷6F",
+      "access": "「四ツ谷駅」徒歩3分",
+      "areaSlug": "yotsuya",
+      "areaName": "四ツ谷"
+    },
+    {
+      "name": "Dee Pilates 代々木上原店",
+      "price": "月4回 33,600円（税込・マンツーマン50分）",
+      "trial": "無料（60分・おひとり様1回）",
+      "officialUrl": "https://t.afi-b.com/visit.php?a=S16521f-J540703r&p=E9887623",
+      "address": "東京都渋谷区西原3-17-4（b-pilatesの施設を利用）",
+      "access": "「代々木上原駅」徒歩1分",
+      "areaSlug": "yoyogi-uehara",
+      "areaName": "代々木上原"
+    }
+  ],
+  "mapila": [
+    {
+      "name": "マピラ（mapila）西葛西店",
+      "price": "マンスリー4 7,700円／フルタイム 14,300円",
+      "trial": "詳細は公式サイト参照",
+      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5912521&p_id=6687&pc_id=19098&pl_id=85402",
+      "address": "東京都江戸川区（詳細は公式サイト参照）",
+      "access": "西葛西駅南口から徒歩2分",
+      "areaSlug": "nishikasai",
+      "areaName": "西葛西"
+    },
+    {
+      "name": "Mapila（マピラ）柏店",
+      "price": "月会費 7,700円〜",
+      "trial": "体験レッスンあり",
+      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5912521&p_id=6687&pc_id=19098&pl_id=85402",
+      "address": "千葉県柏市柏2丁目10-1 柏モア 2F",
+      "access": "JR常磐線・東武野田線「柏駅」東口改札 徒歩1分（柏モア 2F）",
+      "areaSlug": "kashiwa",
+      "areaName": "柏（マピラ 柏店）"
+    },
+    {
+      "name": "マピラ成増店",
+      "price": "月7,700円〜",
+      "trial": "体験レッスンあり",
+      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5912521&p_id=6687&pc_id=19098&pl_id=85402",
+      "address": "東京都板橋区成増（成増駅南口徒歩2分）",
+      "access": "成増駅南口徒歩2分",
+      "areaSlug": "narimasu",
+      "areaName": "成増"
+    },
+    {
+      "name": "マピラ西荻窪店",
+      "price": "詳細は公式サイト参照",
+      "trial": "体験レッスンあり",
+      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5912521&p_id=6687&pc_id=19098&pl_id=85402",
+      "address": "東京都杉並区（西荻窪エリア、詳細住所は公式サイト参照）",
+      "access": "JR中央線・総武線「西荻窪駅」徒歩1分",
+      "areaSlug": "nishi-ogikubo",
+      "areaName": "西荻窪"
+    },
+    {
+      "name": "Mapila（マピラ）新宿店",
+      "price": "月額 8,800円〜",
+      "trial": "体験レッスンあり",
+      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5912521&p_id=6687&pc_id=19098&pl_id=85402",
+      "address": "東京都新宿区新宿4-2-23 新四curumuビルB2F",
+      "access": "東京メトロ「新宿三丁目駅」E6出口直結 / JR「新宿駅」東南口 徒歩5分",
+      "areaSlug": "yoyogi",
+      "areaName": "代々木"
+    }
+  ],
+  "wecle": [
+    {
+      "name": "WECLE 本厚木店",
+      "price": "月額 9,680円〜（通い放題）",
+      "trial": "体験レッスンあり",
+      "officialUrl": "https://px.a8.net/svt/ejp?a8mat=4BGO4M+4GR3NM+5WXK+5YJRM",
+      "address": "神奈川県厚木市中町2-1-18 Trunk本厚木 6F",
+      "access": "小田急小田原線「本厚木駅」徒歩1分",
+      "areaSlug": "honatsugi",
+      "areaName": "本厚木"
+    },
+    {
+      "name": "WECLE（ウィークル）せんちゅうパル店",
+      "price": "月額 9,800円〜",
+      "trial": "体験レッスンあり",
+      "officialUrl": "https://px.a8.net/svt/ejp?a8mat=4BGO4M+4GR3NM+5WXK+5YJRM",
+      "address": "大阪府豊中市新千里東町（せんちゅうパル内）",
+      "access": "北大阪急行「千里中央駅」直結（せんちゅうパル内）",
+      "areaSlug": "senri-chuo",
+      "areaName": "千里中央"
+    }
+  ],
+  "rinne": [
+    {
+      "name": "RINNE 海老名スタジオ",
+      "price": "パーソナル月4回 34,800円（最初の3ヶ月 29,800円）",
+      "trial": "体験40分 8,800円（体験当日の入会で無料）",
+      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5912520&p_id=7756&pc_id=22482&pl_id=96671",
+      "address": "神奈川県海老名市大谷北4丁目3-32 ハイムあすなろ105号",
+      "access": "海老名駅からバスで5分（綾瀬市役所から車で7分・駐車場3台）",
+      "areaSlug": "ebina",
+      "areaName": "海老名"
+    }
   ]
 }

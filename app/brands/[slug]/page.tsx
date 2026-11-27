@@ -22,6 +22,10 @@ import { LULUTO_OFFICIAL } from '@/data/luluto-official-stores'
 import { DEP_OFFICIAL } from '@/data/dep-official-stores'
 import { LA_PILATES_OFFICIAL } from '@/data/la-pilates-official-stores'
 import { STUDIO_IVY_OFFICIAL } from '@/data/studio-ivy-official-stores'
+import { DEE_PILATES_OFFICIAL } from '@/data/dee-pilates-official-stores'
+import { MAPILA_OFFICIAL } from '@/data/mapila-official-stores'
+import { WECLE_OFFICIAL } from '@/data/wecle-official-stores'
+import { RINNE_OFFICIAL } from '@/data/rinne-official-stores'
 
 // 公式の全店舗一覧（都道府県別）を出すブランド。pilates K（10/27）と同じ部品を、単ワード検索で10位手前の3ブランドに横展開（2026-10-28）
 const OFFICIAL_STORE_LISTS: Record<string, { list: OfficialStoreList; heading: string; button: string; intro: string; note: string }> = {
@@ -76,6 +80,36 @@ const OFFICIAL_STORE_LISTS: Record<string, { list: OfficialStoreList; heading: s
     button: '公式の全{n}店舗（最寄駅・住所・受付状況つき）へ移動 ↓',
     intro: 'STUDIO IVY公式の「店舗一覧」に載っている全{n}店舗を、都道府県ごとに店舗名・最寄駅・住所と、一覧に出ている受付状況（新規受付停止中・新規OPENキャンペーン中など）で掲載しています（{asOf}確認）。',
     note: '料金（月2回15,000円〜・体験50分4,500円、税込）は全店共通の公式の料金ページの表記です。体験0円・入会金0円などのキャンペーンは実施店舗のみで、期間は店舗ごとに異なります。「新規受付停止中」の店舗は新規の入会・体験を受け付けていない表示です。',
+  },
+  // 2026-11-27 成長ルーチン: Dee Pilates ブランドページ新設（「Dee Pilates 口コミ／評判／単ワード」の受け皿）
+  'dee-pilates': {
+    list: DEE_PILATES_OFFICIAL,
+    heading: '全スタジオ一覧（公式・{n}スタジオの住所・最寄駅・営業時間）',
+    button: '公式の全{n}スタジオ（住所・最寄駅・営業時間）へ移動 ↓',
+    intro: 'Dee Pilates公式の「スタジオ一覧」に載っている全{n}スタジオを、都道府県ごとに店舗名・最寄駅と徒歩分・住所と、各店舗ページの営業時間で掲載しています（{asOf}確認）。',
+    note: '料金（月1回9,900円〜・月4回33,600円、体験60分無料、税込）は全スタジオ共通の公式の料金プランページの表記です。各スタジオは個室のレンタルスタジオを利用しています。定休日は公式サイトに記載がありません。',
+  },
+  // 2026-11-27 成長ルーチン: マピラ・WECLE ブランドページ新設
+  mapila: {
+    list: MAPILA_OFFICIAL,
+    heading: '全店舗一覧（公式・{n}店舗の住所・最寄駅・休館日）',
+    button: '公式の全{n}店舗（住所・最寄駅・休館日）へ移動 ↓',
+    intro: 'Mapila公式の「スタジオ一覧」に載っている全{n}店舗を、都道府県ごとに店舗名・最寄駅と徒歩分・住所と、各店舗ページの休館日で掲載しています（{asOf}確認）。',
+    note: '月会費は店舗のグループで異なります（マンスリー4：琴似・成増・大泉学園・西葛西・西荻窪・柏 7,700円／新宿・堀江 8,800円／GINZA9 14,850円、税込）。体験は0円の手ぶら体験です。柏店は2026年12月1日から営業時間が変わります（公式のお知らせ）。',
+  },
+  wecle: {
+    list: WECLE_OFFICIAL,
+    heading: '営業中の全店舗一覧（公式・{n}店舗の住所・アクセス・営業時間）',
+    button: '公式の営業中{n}店舗（住所・アクセス・営業時間）へ移動 ↓',
+    intro: 'WECLE公式サイトの店舗一覧のうち、営業中の{n}店舗を、都道府県ごとに店舗名・アクセス・住所と、各店舗ページの営業時間で掲載しています（{asOf}確認）。オープン前の店舗（2027年1〜3月予定の6店舗）は含めていません。',
+    note: '料金（年契約：シンプル月4回9,680円・ベーシック通い放題12,980円・プログレス16,280円、税込）は公式の料金ページの表記で、店舗ページの表示はすべて「月額8,800円〜」（税抜）です。「24時間営業」でもスタッフが不在の時間帯があります。',
+  },
+  rinne: {
+    list: RINNE_OFFICIAL,
+    heading: '全スタジオ一覧（公式・{n}スタジオの住所・最寄駅・レッスン時間）',
+    button: '公式の全{n}スタジオ（住所・最寄駅）へ移動 ↓',
+    intro: 'RINNE公式の「スタジオ一覧」に載っている全{n}スタジオを、店舗名・アクセス・住所と、各スタジオページのレッスン時間で掲載しています（{asOf}確認）。定休日はいずれも不定休です。',
+    note: '料金（パーソナル月4回34,800円・セミパーソナル月4回19,800円、体験40分8,800円、税込）は全スタジオ共通の表です。辻堂スタジオの住所は茅ヶ崎市です。',
   },
   dep: {
     list: DEP_OFFICIAL,
@@ -463,6 +497,18 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
             </ul>
           </section>
 
+          {/* 2026-11-27: WECLE（A8 s00000027596001・approved-codes-20261127/a8-27596001.txt）。A8 規約で文言・タグの改変不可のため、ctaUrl ボタンではなく発行どおりの <a>＋1×1 <img> をそのまま出す */}
+          {brand.slug === 'wecle' && (
+            <section className="mb-10 text-center bg-white border border-warm-200 p-8">
+              <p className="text-sm text-warm-600 mb-4 font-light">体験の予約・店舗ごとの最新情報は、公式サイトでご確認ください。</p>
+              <p className="text-sm">
+                <a href="https://px.a8.net/svt/ejp?a8mat=4BGO4M+4GR3NM+5WXK+5YJRM" rel="nofollow">予約不要・30分で完結！マシンピラティスが通い放題【WECLE（ウィークル）】</a>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img width={1} height={1} src="https://www10.a8.net/0.gif?a8mat=4BGO4M+4GR3NM+5WXK+5YJRM" alt="" style={{ border: 0 }} />
+              </p>
+              <p className="text-[10px] text-warm-400 mt-3">［PR］当サイトはアフィリエイトプログラムを利用しています</p>
+            </section>
+          )}
           {/* CTA */}
           {brand.ctaUrl && (
             <section className="mb-10 text-center bg-white border border-warm-200 p-8">
@@ -595,6 +641,27 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                 <div className="mt-2 flex justify-center">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src="https://t.afi-b.com/lead/u15511L/E9887623/8504149a" width={1} height={1} alt="" style={{ border: 'none' }} />
+                </div>
+              )}
+              {/* 2026-11-27: Dee Pilates（afi-b S16521f・自由テキスト B5293718＝approved-codes-20261127/afb-988762-16521.json の発行どおり）。クリック＝brands.ts ctaUrl／計測 lead を対で出す */}
+              {brand.slug === 'dee-pilates' && brand.ctaUrl?.includes('a=S16521f-B5293718') && (
+                <div className="mt-2 flex justify-center">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src="https://t.afi-b.com/lead/S16521f/E9887623/B5293718" width={1} height={1} alt="" style={{ border: 'none' }} />
+                </div>
+              )}
+              {/* 2026-11-27: マピラ（もしも 6687・自由テキスト＝approved-codes-20261127/moshimo-6687.txt の発行どおり。カードと同じ組）。クリック＝brands.ts ctaUrl／表示計測を対で出す */}
+              {brand.slug === 'mapila' && brand.ctaUrl?.includes('p_id=6687&pc_id=19098&pl_id=85402') && (
+                <div className="mt-2 flex justify-center">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src="https://i.moshimo.com/af/i/impression?a_id=5912521&p_id=6687&pc_id=19098&pl_id=85402" width={1} height={1} alt="" style={{ border: 'none' }} loading="lazy" />
+                </div>
+              )}
+              {/* 2026-11-27: RINNE（もしも 7756・自由テキスト pl_id=96671＝approved-codes-20261127/moshimo-7756.txt。海老名カードと同じ組） */}
+              {brand.slug === 'rinne' && brand.ctaUrl?.includes('p_id=7756&pc_id=22482&pl_id=96671') && (
+                <div className="mt-2 flex justify-center">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src="https://i.moshimo.com/af/i/impression?a_id=5912520&p_id=7756&pc_id=22482&pl_id=96671" width={1} height={1} alt="" style={{ border: 'none' }} loading="lazy" />
                 </div>
               )}
               {brand.slug === 'lava' && (
