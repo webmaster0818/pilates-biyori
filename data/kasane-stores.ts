@@ -10,7 +10,7 @@ export const kasaneStores: BdcStore[] = [
     storeName: "Pilates KASANE 枚方店",
     address: "大阪府枚方市新町1-8-5 枚方駅前吉泉ビル602",
     access: "京阪本線「枚方市駅」より徒歩2分",
-    price: "1回 3,025円〜",
+    price: "月4回 15,400円〜",
     trial: "体験レッスン 0円（通常3,000円・2026年11月24日公式確認）",
     areaSlug: "hirakata",
     areaLabel: "枚方",
@@ -42,7 +42,7 @@ export const kasaneStores: BdcStore[] = [
     address: "東京都墨田区江東橋3-13-1 KS15ビル 6階",
     access: "「錦糸町駅」から徒歩1分",
     price: "月4回 15,400円",
-    trial: "体験レッスンあり（金額は公式サイトでご確認ください）",
+    trial: "体験レッスン 0円",
     areaSlug: "kinshicho",
     areaLabel: "錦糸町",
     nearby: [
