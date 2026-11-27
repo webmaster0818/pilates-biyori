@@ -3370,7 +3370,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Pilates Studio Leben',
-        officialUrl: 'https://leben-pilates.com/',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5912527&p_id=6613&pc_id=18825&pl_id=84366',
         price: 'グループ月4回 14,800円／パーソナル1回 9,900円',
         trial: '初回体験 500円（約90分）',
         features: ['女性専用', 'マシンピラティス', 'グループ＋パーソナル', '理学療法士監修'],
@@ -3609,7 +3609,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'マピラ（mapila）西葛西店',
-        officialUrl: 'https://pilates-mapila.jp/nishikasai/',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5912521&p_id=6687&pc_id=19098&pl_id=85402',
         price: 'マンスリー4 7,700円／フルタイム 14,300円',
         trial: '詳細は公式サイト参照',
         features: ['マシン（リフォーマー）グループ', 'ホットヨガ併設'],
@@ -6089,7 +6089,7 @@ export const areaStudios: Record<string, AreaData> = {
       },
       {
         name: 'Forzaフィットネススタジオ 上福岡店',
-        officialUrl: 'https://forza-gran.com/studio/kamifukuoka/',
+        officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5912528&p_id=6412&pc_id=18118&pl_id=82293',
         price: '料金は公式サイト参照',
         trial: '体験は公式サイト参照',
         features: ['マシンピラティス対応(認定講師)', 'セミパーソナル方式', 'ボディケア融合', '東口徒歩1分'],

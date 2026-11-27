@@ -87,6 +87,7 @@ const studios = [
   },
   {
     name: 'RINNE 海老名スタジオ',
+    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5912520&p_id=7756&pc_id=22482&pl_id=96671',
     price: '1回 7,700円〜',
     trial: '体験レッスンあり',
     features: ['パーソナル専門', '2026年オープン', 'マンツーマン', '新築スタジオ'],

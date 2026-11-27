@@ -55,6 +55,7 @@ const studios = [
   },
   {
     name: 'マピラ西荻窪店',
+    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5912521&p_id=6687&pc_id=19098&pl_id=85402',
     image: '/images/studios/mapila-nishiogikubo.webp',
     price: '詳細は公式サイト参照',
     trial: '体験レッスンあり',

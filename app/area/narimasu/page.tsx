@@ -51,6 +51,7 @@ const studios = [
   },
   {
     name: 'マピラ成増店',
+    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5912521&p_id=6687&pc_id=19098&pl_id=85402',
     image: '/images/studios/default-studio.webp',
     price: '月7,700円〜',
     trial: '体験レッスンあり',
