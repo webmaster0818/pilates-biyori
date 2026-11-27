@@ -1709,7 +1709,8 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - 公式一覧（108店）に 高円寺・中野・新宿・高田馬場・下北沢・三軒茶屋・新橋 の URBAN は無い＝それらのカードは外すと N選が変わるため判断待ち
 - ⚠️ next build がメモリ逼迫（swap 10.8/11.2GB・他セッションのビルド5本同時）で compile 36分→型チェック中に打ち切られ、デプロイせず。次回 build→precheck→方式B でそのまま出せる
 
-### 2026-11-27 12:00 成長ルーチン: 新規承認案件の受け皿 /brands/dee-pilates/・/brands/mapila/・/brands/wecle/・/brands/rinne/ 新設・海老名 RINNE カード訂正・上福岡 Forza カード
+### 2026-11-27 12:00 成長ルーチン: 新規承認案件の受け皿 /brands/dee-pilates/・/brands/mapila/・/brands/wecle/・/brands/rinne/ 新設・海老名 RINNE カード訂正・上福岡 Forza カード（source 5cd711a3 / deploy 9b3a8de745・反映約1分）
+- precheck ✅ 593頁・計測リンク deploy html 4,444→4,462（+18＝新4頁の CTA 各1＋計測各1と RSC/preload の重複のみ。既存ページは全件一致）・functions/api 4本保全・/api/contact 400
 - 公式直（計測リンクは開かず）: /tmp/g1127/biyori-work/。型は STUDIO IVY（a4d3a314）。title は「<名>（カナ）の口コミ・評判【月】｜料金・体験・店舗一覧」（titleKw＋titleSuffix）
 - **Dee Pilates**（afi-b S16521f）: 公式 /location/ 15店（東京13・神奈川2。一覧 title は「14店舗」で表記ゆれ）・全15店舗ページの営業時間を照合→`data/dee-pilates-official-stores.ts`。料金 月1回9,900〜月8回52,800（月4回33,600）・チケット4回48,400〜・体験60分無料・入会金は公式に金額なし・初月会費無料（11/30まで）。CTA は afb 自由テキスト B5293718（新規・発行どおり）＋lead。Google 口コミ要約に Dee の店舗なし→口コミ節なし（要点に明記）
 - **Mapila（マピラ）**（もしも 6687）: 公式 /studio/ 9店（PocketMapila は別サイト・含めない）。月会費は店舗グループ別（G3 6店 マンスリー4 7,700／新宿・堀江 8,800／GINZA9 14,850）。入会金11,000＋事務5,500＋システム2,970・営業管理費980（公式内に480の表記もあり＝併記）・体験0円（バナー）。運営 株式会社INSPA。女性専用は公式に記載なし（柏カードの「女性専用」は未照合のまま）。BrandReviewDigest は柏・西荻窪・新宿の3店（85件）で表示。CTA はカードと同じ 6687 自由テキスト＋impression
