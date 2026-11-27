@@ -17,7 +17,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/meguro/' },
-  title: '目黒のピラティス6社を比較｜無料体験2社・月額最安10,450円〜',
+  title: '目黒のピラティス7社を比較｜無料体験3社・月額最安10,450円〜',
   description: '目黒エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
   keywords: 'ピラティス,目黒,中目黒,東京,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,zen place pilates,the SILK,ピラティスミラー,Pilates Legacy Studio,STUDIO IVY',
 }
@@ -167,6 +167,36 @@ const studios = [
     access: '目黒駅から徒歩2分',
     address: '東京都品川区上大崎二丁目12番2号 ミズホビル2階',
   },
+  {
+    name: 'Dee Pilates 目黒店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=S16521f-Q540695C&p=E9887623',
+    price: '月4回 33,600円（税込・マンツーマン50分）',
+    trial: '無料（60分・おひとり様1回）',
+    features: ['完全マンツーマン', 'マシン&マット', '男性も利用可', '目黒駅徒歩9分'],
+    description: 'トーキョーフィットネス株式会社が運営する、マンツーマン専門のパーソナルピラティスです。50分のレッスンで、リフォーマーなどのマシンとマットを組み合わせます。個室のレンタルスタジオ（Lui）を使って指導します。料金は全店共通で、月1回9,900円〜月8回52,800円（税込）です（2026年11月27日 公式サイトで確認）。',
+    access: '「目黒駅」徒歩9分',
+    address: '東京都目黒区下目黒2-21-24 ハイツ第2目黒304',
+    popularPlan: {
+      name: '月額会員 月4回',
+      description: '50分のマンツーマンレッスンを月4回受けるプランです（1回あたり8,400円）。',
+      price: '月4回 33,600円（税込）',
+    },
+    options: [
+      '月1回 9,900円／月2回 18,800円／月8回 52,800円（税込）',
+      'チケット 4回 48,400円（有効3ヶ月）〜16回 140,800円（有効6ヶ月）',
+      'インストラクター指名料 1回550円〜3,300円（指名なしは追加料金なし）',
+      '入会時の費用は無料体験のときに案内（公式サイトに金額の記載なし）',
+      '11月30日までのキャンペーン：月1〜4回コースは初月の会費が無料',
+    ],
+    userProfile: {
+      genderRatio: '男女とも利用可（公式に「男性のお客様も多数」と記載）',
+    },
+    basicInfo: {
+      hours: '6:00〜22:00（日曜のみ18:00まで）',
+      closed: '公式サイトに記載なし',
+      facilities: ['個室（レンタルスタジオ）', 'ウェア・靴下のレンタルなし'],
+    },
+  },
 ]
 
 const faqs = [
@@ -220,7 +250,7 @@ export default function MeguroPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス目黒おすすめ6選
+              ピラティス目黒おすすめ7選
               <br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較
             </h1>
@@ -251,7 +281,7 @@ export default function MeguroPage() {
               目黒はJR山手線・東急目黒線・南北線・三田線が乗り入れるターミナル駅で、渋谷まで約5分、品川まで約10分という好アクセスのエリアです。おしゃれなカフェや飲食店が並ぶ目黒川沿いも魅力の街です。そんな目黒エリアには、大手チェーンのグループレッスンから完全プライベートパーソナルまで、多彩なピラティススタジオが揃っています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、目黒エリアでおすすめの実在するピラティススタジオ6選をまとめました。
+              本ページでは、目黒エリアでおすすめの実在するピラティススタジオ7選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -289,7 +319,7 @@ export default function MeguroPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              目黒のおすすめピラティススタジオ6選
+              目黒のおすすめピラティススタジオ7選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -571,7 +601,7 @@ export default function MeguroPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は目黒エリアのおすすめピラティススタジオ6選をご紹介しました。
+              今回は目黒エリアのおすすめピラティススタジオ7選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               目黒はJR山手線をはじめ複数路線が乗り入れるターミナル駅で、アクセス抜群のエリアです。全国150店舗他店利用のzen place pilates（月4回10,450円〜・グループ体験1,000円）、女性専用のthe SILK（体験無料）、コナミスポーツ運営のピラティスミラー（月6回12,100円・30分レッスン）、少人数制のPilates Legacy Studio（駅徒歩2分）、完全パーソナルのSTUDIO IVY（月2回15,000円〜・オーダーメイド）と、それぞれ特徴の異なるスタジオが揃っています。

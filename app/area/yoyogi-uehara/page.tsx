@@ -17,8 +17,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/yoyogi-uehara/' },
-  title: '代々木上原のピラティススタジオおすすめ11選｜無料体験・料金で比較',
-  description: '代々木上原のピラティススタジオ11社の料金・無料体験・マシン対応を比較しています。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまでわかります。',
+  title: '代々木上原のピラティススタジオおすすめ12選｜無料体験・料金で比較',
+  description: '代々木上原のピラティススタジオ12社の料金・無料体験・マシン対応を比較しています。初心者向けの選び方、駅近スタジオ、体験レッスン当日の流れまでわかります。',
   keywords: 'ピラティス,代々木上原,東京,渋谷区,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較,代々木公園,代々木八幡,下北沢',
 }
 
@@ -195,6 +195,36 @@ const studios = [
     access: 'JR「渋谷駅」徒歩2分（公式表記）',
     address: '東京都渋谷区神南1丁目11-1 渋谷市野ビル 6階',
   },
+  {
+    name: 'Dee Pilates 代々木上原店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=S16521f-J540703r&p=E9887623',
+    price: '月4回 33,600円（税込・マンツーマン50分）',
+    trial: '無料（60分・おひとり様1回）',
+    features: ['完全マンツーマン', 'マシン&マット', '男性も利用可', '代々木上原駅徒歩1分'],
+    description: 'トーキョーフィットネス株式会社が運営する、マンツーマン専門のパーソナルピラティスです。50分のレッスンで、リフォーマーなどのマシンとマットを組み合わせます。個室のレンタルスタジオ（b-pilates）を使って指導します。料金は全店共通で、月1回9,900円〜月8回52,800円（税込）です（2026年11月27日 公式サイトで確認）。',
+    access: '「代々木上原駅」徒歩1分',
+    address: '東京都渋谷区西原3-17-4（b-pilatesの施設を利用）',
+    popularPlan: {
+      name: '月額会員 月4回',
+      description: '50分のマンツーマンレッスンを月4回受けるプランです（1回あたり8,400円）。',
+      price: '月4回 33,600円（税込）',
+    },
+    options: [
+      '月1回 9,900円／月2回 18,800円／月8回 52,800円（税込）',
+      'チケット 4回 48,400円（有効3ヶ月）〜16回 140,800円（有効6ヶ月）',
+      'インストラクター指名料 1回550円〜3,300円（指名なしは追加料金なし）',
+      '入会時の費用は無料体験のときに案内（公式サイトに金額の記載なし）',
+      '11月30日までのキャンペーン：月1〜4回コースは初月の会費が無料',
+    ],
+    userProfile: {
+      genderRatio: '男女とも利用可（公式に「男性のお客様も多数」と記載）',
+    },
+    basicInfo: {
+      hours: '9:00〜22:00（日曜のみ18:00まで）',
+      closed: '公式サイトに記載なし',
+      facilities: ['個室（レンタルスタジオ）', 'ウェア・靴下のレンタルなし'],
+    },
+  },
 ]
 
 const faqs = [
@@ -265,7 +295,7 @@ export default function YoyogiUeharaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス代々木上原おすすめ11選<br className="hidden md:block" />
+              ピラティス代々木上原おすすめ12選<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較
             </h1>
           </div>
@@ -294,7 +324,7 @@ export default function YoyogiUeharaPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、代々木上原エリアでおすすめのピラティススタジオ11選をまとめました。代々木上原駅周辺はもちろん、代々木公園・代々木八幡・下北沢など近隣エリアの人気スタジオもご紹介します。
+              本ページでは、代々木上原エリアでおすすめのピラティススタジオ12選をまとめました。代々木上原駅周辺はもちろん、代々木公園・代々木八幡・下北沢など近隣エリアの人気スタジオもご紹介します。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -338,7 +368,7 @@ export default function YoyogiUeharaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              代々木上原のおすすめピラティススタジオ11選
+              代々木上原のおすすめピラティススタジオ12選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (

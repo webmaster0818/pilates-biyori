@@ -292,6 +292,36 @@ const studios = [
     access: '新宿西口駅から徒歩1分',
     address: '東京都新宿区西新宿7-1-8 ヒノデビル6階',
   },
+  {
+    name: 'Dee Pilates 新宿店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=S16521f-m540697m&p=E9887623',
+    price: '月4回 33,600円（税込・マンツーマン50分）',
+    trial: '無料（60分・おひとり様1回）',
+    features: ['完全マンツーマン', 'マシン&マット', '男性も利用可', '新宿三丁目駅徒歩1分'],
+    description: 'トーキョーフィットネス株式会社が運営する、マンツーマン専門のパーソナルピラティスです。50分のレッスンで、リフォーマーなどのマシンとマットを組み合わせます。個室のレンタルスタジオ（Aivic新宿（半個室））を使って指導します。料金は全店共通で、月1回9,900円〜月8回52,800円（税込）です（2026年11月27日 公式サイトで確認）。',
+    access: '「新宿三丁目駅」徒歩1分／「新宿駅」徒歩6分',
+    address: '東京都新宿区歌舞伎町2-1-2 HANROKUビル2階',
+    popularPlan: {
+      name: '月額会員 月4回',
+      description: '50分のマンツーマンレッスンを月4回受けるプランです（1回あたり8,400円）。',
+      price: '月4回 33,600円（税込）',
+    },
+    options: [
+      '月1回 9,900円／月2回 18,800円／月8回 52,800円（税込）',
+      'チケット 4回 48,400円（有効3ヶ月）〜16回 140,800円（有効6ヶ月）',
+      'インストラクター指名料 1回550円〜3,300円（指名なしは追加料金なし）',
+      '入会時の費用は無料体験のときに案内（公式サイトに金額の記載なし）',
+      '11月30日までのキャンペーン：月1〜4回コースは初月の会費が無料',
+    ],
+    userProfile: {
+      genderRatio: '男女とも利用可（公式に「男性のお客様も多数」と記載）',
+    },
+    basicInfo: {
+      hours: '6:00〜22:00（日曜のみ18:00まで）',
+      closed: '公式サイトに記載なし',
+      facilities: ['個室（レンタルスタジオ）', 'ウェア・靴下のレンタルなし'],
+    },
+  },
 ]
 
 const faqs = [
@@ -354,7 +384,7 @@ export default function ShinjukuPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月05日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス新宿おすすめ10選<br className="hidden md:block" />
+              ピラティス新宿おすすめ11選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -382,7 +412,7 @@ export default function ShinjukuPage() {
               新宿は、JR山手線・中央線・小田急線・京王線・東京メトロ丸ノ内線・副都心線・都営大江戸線・都営新宿線など多数の路線が集まる日本最大のターミナル駅です。仕事帰りや買い物のついでにも通いやすいエリアです。新宿区内にはマシンピラティス専門、女性専用、パーソナル、予約不要など、多彩なスタジオが集結しています。
             </p>
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、新宿エリアでおすすめのピラティススタジオ10選をまとめました。
+              本ページでは、新宿エリアでおすすめのピラティススタジオ11選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -426,7 +456,7 @@ export default function ShinjukuPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              新宿のおすすめピラティススタジオ10選
+              新宿のおすすめピラティススタジオ11選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -756,7 +786,7 @@ export default function ShinjukuPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              本ページでは、新宿のおすすめピラティススタジオ10選をご紹介しました。
+              本ページでは、新宿のおすすめピラティススタジオ11選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               新宿はJR山手線・中央線・小田急線・京王線・東京メトロ丸ノ内線・副都心線・都営大江戸線など、多数の路線が集まる日本最大のターミナル駅です。大手チェーンから女性専用スタジオ、完全個室パーソナル、予約不要のカジュアルスタジオまで、多彩なスタジオが集まるエリアです。

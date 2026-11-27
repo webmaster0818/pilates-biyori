@@ -244,6 +244,36 @@ const studios = [
     access: '六本木エリア（詳細は公式サイト参照）',
     address: '東京都（詳細は公式サイト参照）',
   },
+  {
+    name: 'Dee Pilates 六本木・乃木坂店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=S16521f-4540699v&p=E9887623',
+    price: '月4回 33,600円（税込・マンツーマン50分）',
+    trial: '無料（60分・おひとり様1回）',
+    features: ['完全マンツーマン', 'マシン&マット', '男性も利用可', '乃木坂駅徒歩1分'],
+    description: 'トーキョーフィットネス株式会社が運営する、マンツーマン専門のパーソナルピラティスです。50分のレッスンで、リフォーマーなどのマシンとマットを組み合わせます。個室のレンタルスタジオ（sr pilates studio）を使って指導します。料金は全店共通で、月1回9,900円〜月8回52,800円（税込）です（2026年11月27日 公式サイトで確認）。',
+    access: '「乃木坂駅」徒歩1分／「六本木駅」徒歩5分',
+    address: '東京都港区赤坂9-6-27 カーム乃木坂4F',
+    popularPlan: {
+      name: '月額会員 月4回',
+      description: '50分のマンツーマンレッスンを月4回受けるプランです（1回あたり8,400円）。',
+      price: '月4回 33,600円（税込）',
+    },
+    options: [
+      '月1回 9,900円／月2回 18,800円／月8回 52,800円（税込）',
+      'チケット 4回 48,400円（有効3ヶ月）〜16回 140,800円（有効6ヶ月）',
+      'インストラクター指名料 1回550円〜3,300円（指名なしは追加料金なし）',
+      '入会時の費用は無料体験のときに案内（公式サイトに金額の記載なし）',
+      '11月30日までのキャンペーン：月1〜4回コースは初月の会費が無料',
+    ],
+    userProfile: {
+      genderRatio: '男女とも利用可（公式に「男性のお客様も多数」と記載）',
+    },
+    basicInfo: {
+      hours: '6:00〜23:00（日曜のみ18:00まで）',
+      closed: '公式サイトに記載なし',
+      facilities: ['個室（レンタルスタジオ）', 'ウェア・靴下のレンタルなし'],
+    },
+  },
 ]
 
 const faqs = [
@@ -272,10 +302,10 @@ export default function RoppongiPage() {
         { name: '六本木', url: 'https://biyori-pilates.com/area/roppongi/' },
       ]} />
       <main className="pt-20 bg-white">
-        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年11月05日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">ピラティス六本木おすすめ8選<br className="hidden md:block" />人気スタジオの料金プランの比較</h1></div></section>
+        <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16"><div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-400 text-xs mb-2">更新日 @2026年11月05日</p><h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">ピラティス六本木おすすめ9選<br className="hidden md:block" />人気スタジオの料金プランの比較</h1></div></section>
         <section className="bg-white py-3 border-b border-warm-100"><div className="max-w-6xl mx-auto px-6 lg:px-8"><nav className="text-sm text-warm-400"><Link href="/" className="hover:text-warm-800 transition">ホーム</Link>{' > '}<Link href="/area/" className="hover:text-warm-800 transition">地域別</Link>{' > '}<span className="text-warm-600">六本木</span></nav></div></section>
         <section className="py-12 bg-white">
-          <div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-600 leading-relaxed mb-8">本ページでは、東京メトロ日比谷線・都営大江戸線「六本木駅」周辺でおすすめのピラティススタジオ8選をまとめました。六本木ヒルズや東京ミッドタウンに近い港区の国際色豊かなエリアで、パーソナル専門からグループレッスン、女性専用スタジオまで、自分に合ったスタジオを見つけることをおすすめします。</p>
+          <div className="max-w-4xl mx-auto px-6 lg:px-8"><p className="text-warm-600 leading-relaxed mb-8">本ページでは、東京メトロ日比谷線・都営大江戸線「六本木駅」周辺でおすすめのピラティススタジオ9選をまとめました。六本木ヒルズや東京ミッドタウンに近い港区の国際色豊かなエリアで、パーソナル専門からグループレッスン、女性専用スタジオまで、自分に合ったスタジオを見つけることをおすすめします。</p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
               <ul className="space-y-2 text-warm-700"><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>六本木でピラティススタジオを探している</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>パーソナルで丁寧に指導してほしい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>マシンピラティスを体験してみたい</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>女性専用スタジオを探している</span></li><li className="flex items-start"><span className="text-warm-400 mr-2">✓</span><span>料金プランを比較して選びたい</span></li></ul>
@@ -286,7 +316,7 @@ export default function RoppongiPage() {
 
         <PriceComparisonTable studios={studios} areaName="六本木" />
         <AreaMarketComparison studios={studios} areaName="六本木" />
-        <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">六本木のおすすめピラティススタジオ8選</h2><div className="space-y-8">{[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
+        <section className="py-16 bg-warm-50" id="studios"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">六本木のおすすめピラティススタジオ9選</h2><div className="space-y-8">{[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (<StudioCard key={index} studio={studio} index={index} />))}</div></div></section>
         <section className="py-16 bg-white"><div className="max-w-6xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">目的別おすすめスタジオ</h2><div className="grid grid-cols-1 md:grid-cols-3 gap-8"><div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">料金重視</h3><p className="text-warm-600 text-sm mb-4">月額1万円前後から通えるスタジオです。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• zen place pilates（マット月4回 10,450円〜）</li><li className="text-warm-700">• ピラティスK（月4回 11,220円〜）</li></ul></div><div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">パーソナル専門</h3><p className="text-warm-600 text-sm mb-4">マンツーマンで丁寧な指導を受けたい方におすすめです。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• STUDIO IVY（1回 6,500円〜）</li><li className="text-warm-700">• All Present Pilates（1回 6,600円〜）</li><li className="text-warm-700">• スタジオMiiA（プライベート専門）</li><li className="text-warm-700">• BLC Personal Gym（1回 9,000円〜）</li><li className="text-warm-700">• ELEMENT（30分 月4回 22,000円）</li></ul></div><div className="border border-warm-200 rounded-lg p-6 hover:shadow-lg transition"><h3 className="text-xl font-bold text-warm-900 mb-4">女性専用スタジオ</h3><p className="text-warm-600 text-sm mb-4">女性だけの安心空間でトレーニングです。</p><ul className="space-y-2 text-sm"><li className="text-warm-700">• ピラティスK（月4回 11,220円〜）</li></ul></div></div></div></section>
         <section className="py-16 bg-warm-50"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">おすすめの期間・頻度</h2><div className="bg-white rounded-lg p-8 border border-warm-200"><h3 className="text-xl font-bold text-warm-900 mb-4">初心者の方</h3><p className="text-warm-600 leading-relaxed mb-6">週1〜2回から始めることをおすすめします。最低2〜3ヶ月継続で効果を実感できます。</p><h3 className="text-xl font-bold text-warm-900 mb-4">ボディメイク目的の方</h3><p className="text-warm-600 leading-relaxed mb-6">週2〜3回が目安です。3〜6ヶ月で目に見える変化が期待できます。</p><h3 className="text-xl font-bold text-warm-900 mb-4">健康管理目的の方</h3><p className="text-warm-600 leading-relaxed">週1回のペースで無理なく継続することをおすすめします。</p></div></div></section>
         <section className="py-16 bg-white"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">失敗しないスタジオの選び方</h2><div className="space-y-8"><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">1</span><h3 className="text-xl font-bold text-warm-900">目的を明確にする</h3></div><p className="text-warm-600 leading-relaxed">ダイエット、姿勢改善、体幹強化など、目的に応じてスタジオをお選びください。パーソナルは効果が出やすく、グループは楽しく続けられます。女性専用スタジオなら周りを気にせず集中できます。</p></div><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">2</span><h3 className="text-xl font-bold text-warm-900">予算を決める</h3></div><p className="text-warm-600 leading-relaxed">六本木エリアの料金相場はグループ月4回10,450円〜11,220円、パーソナルは1回6,500円〜9,000円程度です。体験レッスンは4,500円〜5,500円が中心です。ELEMENTはマンツーマン30分で月4回22,000円です。</p></div><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">3</span><h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3></div><p className="text-warm-600 leading-relaxed">各スタジオで体験レッスンを実施しています。STUDIO IVYは4,500円、All Present PilatesとBLC Personal Gymは5,500円で体験可能です。まずは体験レッスンで実際の雰囲気をご確認ください。</p></div><div className="bg-white rounded-lg p-6 border border-warm-200"><div className="flex items-center mb-4"><span className="bg-warm-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold mr-3">4</span><h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3></div><p className="text-warm-600 leading-relaxed">六本木は東京メトロ日比谷線と都営大江戸線が利用可能です。六本木ヒルズや東京ミッドタウンに近い港区の国際色豊かなエリアで、レッスン前後のショッピングや食事も楽しめます。zen place pilatesは駅から徒歩2分と好アクセスです。</p></div></div></div></section>
@@ -392,7 +422,7 @@ export default function RoppongiPage() {
         </section>
 
         <section className="py-16 bg-white"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">よくある質問</h2><div className="space-y-6">{faqs.map((faq, index) => (<div key={index} className="border border-warm-200 rounded-lg overflow-hidden"><details className="group"><summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-warm-50 transition"><h3 className="font-bold text-warm-900 pr-4">【質問{index + 1}】{faq.question}</h3><svg className="w-5 h-5 text-warm-400 group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"/></svg></summary><div className="px-6 pb-6 text-warm-600 leading-relaxed">{faq.answer}</div></details></div>))}</div></div></section>
-        <section className="py-16 bg-white"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2><p className="text-warm-600 leading-relaxed mb-6">今回は六本木のおすすめピラティススタジオ8選をご紹介しました。</p><p className="text-warm-600 leading-relaxed mb-6">六本木は東京メトロ日比谷線・都営大江戸線が利用でき、六本木ヒルズや東京ミッドタウンに近い港区の国際色豊かなエリアです。zen place pilates 六本木のようなグループ対応の大手スタジオから、STUDIO IVY・All Present Pilates・スタジオMiiA・BLC Personal Gymのパーソナル専門スタジオ、ELEMENT六本木の効率的な30分マンツーマン、女性専用のピラティスK、さらにホットヨガとの両立ができるCALDOまで多彩な選択肢があります。</p><p className="text-warm-600 leading-relaxed mb-6">本ページの情報を、スタジオ選びにお役立てください。</p><p className="text-warm-700 font-medium text-center">本ページが、スタジオ選びの参考になれば幸いです。</p></div></section>
+        <section className="py-16 bg-white"><div className="max-w-4xl mx-auto px-6 lg:px-8"><h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-6 text-center">まとめ</h2><p className="text-warm-600 leading-relaxed mb-6">今回は六本木のおすすめピラティススタジオ9選をご紹介しました。</p><p className="text-warm-600 leading-relaxed mb-6">六本木は東京メトロ日比谷線・都営大江戸線が利用でき、六本木ヒルズや東京ミッドタウンに近い港区の国際色豊かなエリアです。zen place pilates 六本木のようなグループ対応の大手スタジオから、STUDIO IVY・All Present Pilates・スタジオMiiA・BLC Personal Gymのパーソナル専門スタジオ、ELEMENT六本木の効率的な30分マンツーマン、女性専用のピラティスK、さらにホットヨガとの両立ができるCALDOまで多彩な選択肢があります。</p><p className="text-warm-600 leading-relaxed mb-6">本ページの情報を、スタジオ選びにお役立てください。</p><p className="text-warm-700 font-medium text-center">本ページが、スタジオ選びの参考になれば幸いです。</p></div></section>
         <section className="py-16 bg-warm-800 text-white" id="contact"><div className="max-w-4xl mx-auto px-6 lg:px-8 text-center"><h2 className="text-2xl md:text-3xl font-bold mb-4">体験レッスンのご予約</h2><p className="text-warm-200 mb-8 leading-relaxed">各スタジオで体験レッスン実施中です。<br />まずは体験レッスンへの参加をおすすめします。</p><Link href="/#studios" className="inline-block bg-white text-warm-800 px-10 py-4 text-sm font-bold uppercase tracking-wider hover:bg-warm-100 transition-all rounded">おすすめスタジオ一覧に戻る</Link></div></section>
       </main>
       {/* AIスタジオ相談（遅延ロード・エリア自動セット） */}

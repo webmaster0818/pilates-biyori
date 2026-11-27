@@ -17,7 +17,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/shibuya/' },
-  title: '渋谷のピラティス11社を比較｜無料体験3社・月額最安8,800円〜',
+  title: '渋谷のピラティス12社を比較｜無料体験4社・月額最安8,800円〜',
   description: '渋谷エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
   keywords: 'ピラティス,渋谷,東京,スタジオ,おすすめ,マシンピラティス,パーソナル,女性専用,体験レッスン,料金,比較',
 }
@@ -184,6 +184,36 @@ const studios = [
       facilities: ['ロッカー', 'パウダールーム', 'Wi-Fi'],
     },
   },
+  {
+    name: 'Dee Pilates 渋谷店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=S16521f-m540704c&p=E9887623',
+    price: '月4回 33,600円（税込・マンツーマン50分）',
+    trial: '無料（60分・おひとり様1回）',
+    features: ['完全マンツーマン', 'マシン&マット', '男性も利用可', '渋谷駅徒歩7分'],
+    description: 'トーキョーフィットネス株式会社が運営する、マンツーマン専門のパーソナルピラティスです。50分のレッスンで、リフォーマーなどのマシンとマットを組み合わせます。個室のレンタルスタジオ（Lui）を使って指導します。料金は全店共通で、月1回9,900円〜月8回52,800円（税込）です（2026年11月27日 公式サイトで確認）。',
+    access: '「渋谷駅」徒歩7分',
+    address: '東京都渋谷区東1-1-38-303',
+    popularPlan: {
+      name: '月額会員 月4回',
+      description: '50分のマンツーマンレッスンを月4回受けるプランです（1回あたり8,400円）。',
+      price: '月4回 33,600円（税込）',
+    },
+    options: [
+      '月1回 9,900円／月2回 18,800円／月8回 52,800円（税込）',
+      'チケット 4回 48,400円（有効3ヶ月）〜16回 140,800円（有効6ヶ月）',
+      'インストラクター指名料 1回550円〜3,300円（指名なしは追加料金なし）',
+      '入会時の費用は無料体験のときに案内（公式サイトに金額の記載なし）',
+      '11月30日までのキャンペーン：月1〜4回コースは初月の会費が無料',
+    ],
+    userProfile: {
+      genderRatio: '男女とも利用可（公式に「男性のお客様も多数」と記載）',
+    },
+    basicInfo: {
+      hours: '7:00〜22:00',
+      closed: '公式サイトに記載なし',
+      facilities: ['個室（レンタルスタジオ）', 'ウェア・靴下のレンタルなし'],
+    },
+  },
 ]
 
 const faqs = [
@@ -216,7 +246,7 @@ export default function ShibuyaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月05日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス渋谷おすすめ11選<br className="hidden md:block" />
+              ピラティス渋谷おすすめ12選<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較
             </h1>
           </div>
@@ -243,7 +273,7 @@ export default function ShibuyaPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、JR山手線・東急東横線・東京メトロ銀座線・半蔵門線が乗り入れる渋谷駅周辺でおすすめのピラティススタジオ11選をまとめました。MIYASHITA PARKや渋谷スクランブルスクエアなど商業施設が集まる渋谷エリアは、仕事帰りや買い物ついでにも通いやすいピラティススタジオが多いエリアです。
+              本ページでは、JR山手線・東急東横線・東京メトロ銀座線・半蔵門線が乗り入れる渋谷駅周辺でおすすめのピラティススタジオ12選をまとめました。MIYASHITA PARKや渋谷スクランブルスクエアなど商業施設が集まる渋谷エリアは、仕事帰りや買い物ついでにも通いやすいピラティススタジオが多いエリアです。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -283,7 +313,7 @@ export default function ShibuyaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              渋谷のおすすめピラティススタジオ11選
+              渋谷のおすすめピラティススタジオ12選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -583,7 +613,7 @@ export default function ShibuyaPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は渋谷のおすすめピラティススタジオ11選をご紹介しました。
+              今回は渋谷のおすすめピラティススタジオ12選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               渋谷はJR山手線・東急東横線・東京メトロ銀座線・半蔵門線など複数路線が乗り入れる東京を代表するターミナル駅です。若者の街として知られる渋谷区には、MIYASHITA PARK正面のzen place pilates、音楽×マシンのthe SILK、月4回8,800円〜のRintosull、完全個室のSTUDIO IVY、30分集中のELEMENTなど、個性豊かなスタジオが揃っています。

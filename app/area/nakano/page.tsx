@@ -313,6 +313,36 @@ const studios = [
       facilities: ['女性専用トイレ', '着替えスペース', '全身鏡'],
     },
   },
+  {
+    name: 'Dee Pilates 中野店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=S16521f-1540694n&p=E9887623',
+    price: '月4回 33,600円（税込・マンツーマン50分）',
+    trial: '無料（60分・おひとり様1回）',
+    features: ['完全マンツーマン', 'マシン&マット', '男性も利用可', '中野駅徒歩1分'],
+    description: 'トーキョーフィットネス株式会社が運営する、マンツーマン専門のパーソナルピラティスです。50分のレッスンで、リフォーマーなどのマシンとマットを組み合わせます。個室のレンタルスタジオ（sr pilates studio）を使って指導します。料金は全店共通で、月1回9,900円〜月8回52,800円（税込）です（2026年11月27日 公式サイトで確認）。',
+    access: '「中野駅」徒歩1分',
+    address: '東京都中野区中野5丁目32-11 3階',
+    popularPlan: {
+      name: '月額会員 月4回',
+      description: '50分のマンツーマンレッスンを月4回受けるプランです（1回あたり8,400円）。',
+      price: '月4回 33,600円（税込）',
+    },
+    options: [
+      '月1回 9,900円／月2回 18,800円／月8回 52,800円（税込）',
+      'チケット 4回 48,400円（有効3ヶ月）〜16回 140,800円（有効6ヶ月）',
+      'インストラクター指名料 1回550円〜3,300円（指名なしは追加料金なし）',
+      '入会時の費用は無料体験のときに案内（公式サイトに金額の記載なし）',
+      '11月30日までのキャンペーン：月1〜4回コースは初月の会費が無料',
+    ],
+    userProfile: {
+      genderRatio: '男女とも利用可（公式に「男性のお客様も多数」と記載）',
+    },
+    basicInfo: {
+      hours: '6:00〜22:00（日曜のみ18:00まで）',
+      closed: '公式サイトに記載なし',
+      facilities: ['個室（レンタルスタジオ）', 'ウェア・靴下のレンタルなし'],
+    },
+  },
 ]
 
 const faqs = [
@@ -383,7 +413,7 @@ export default function NakanoPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス中野おすすめ10選<br className="hidden md:block" />
+              ピラティス中野おすすめ11選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -408,7 +438,7 @@ export default function NakanoPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、JR中央線・総武線の中野駅や丸ノ内線の新中野駅周辺で通えるおすすめのピラティススタジオ10選をまとめました。マシンピラティス専門店からパーソナル、ホットヨガ併設、セルフ型まで幅広くご紹介します。
+              本ページでは、JR中央線・総武線の中野駅や丸ノ内線の新中野駅周辺で通えるおすすめのピラティススタジオ11選をまとめました。マシンピラティス専門店からパーソナル、ホットヨガ併設、セルフ型まで幅広くご紹介します。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -448,7 +478,7 @@ export default function NakanoPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              中野のおすすめピラティススタジオ10選
+              中野のおすすめピラティススタジオ11選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -765,7 +795,7 @@ export default function NakanoPage() {
               まとめ
             </h2>
             <p className="text-warm-600 leading-relaxed mb-6">
-              今回は中野エリアのおすすめピラティススタジオ10選をご紹介しました。
+              今回は中野エリアのおすすめピラティススタジオ11選をご紹介しました。
             </p>
             <p className="text-warm-600 leading-relaxed mb-6">
               中野はJR中央線で新宿まで約5分、中野ブロードウェイやサンモール商店街など活気あるサブカルの街です。マットグループ月4回10,450円〜のzen place、女性専用マシン専門のnoa、駅南口徒歩2分のピラティスミラー、完全個室パーソナルのSTUDIO IVY、予約不要30分のURBAN CLASSIC、マンツーマン30分のELEMENT、月額3,278円のchocoZAPなど、多彩なスタジオが揃っています。

@@ -18,7 +18,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/aoyama-itchome/' },
-  title: '青山（青山一丁目・南青山・北青山）のピラティス9社を比較｜駅徒歩3分のスタジオも',
+  title: '青山（青山一丁目・南青山・北青山）のピラティス10社を比較｜駅徒歩3分のスタジオも',
   description: '青山（青山一丁目・南青山・北青山）と表参道・外苑前のピラティス9社を、料金・体験・マシン対応で比較。南青山・北青山の住所別早見表と、青山一丁目駅から徒歩3分のViel・B&B南青山も掲載しています（2026年10月時点）。',
   keywords: 'ピラティス,青山一丁目,表参道,外苑前,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -293,6 +293,36 @@ const studios = [
       facilities: ['リフォーマー', 'コアアライン', 'タワー', 'チェア', 'バレル'],
     },
   },
+  {
+    name: 'Dee Pilates 青山一丁目店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=S16521f-2540701w&p=E9887623',
+    price: '月4回 33,600円（税込・マンツーマン50分）',
+    trial: '無料（60分・おひとり様1回）',
+    features: ['完全マンツーマン', 'マシン&マット', '男性も利用可', '青山一丁目駅徒歩2分'],
+    description: 'トーキョーフィットネス株式会社が運営する、マンツーマン専門のパーソナルピラティスです。50分のレッスンで、リフォーマーなどのマシンとマットを組み合わせます。個室のレンタルスタジオ（Pilates STAGE AOYAMA の個室）を使って指導します。料金は全店共通で、月1回9,900円〜月8回52,800円（税込）です（2026年11月27日 公式サイトで確認）。',
+    access: '東京メトロ銀座線・半蔵門線・都営大江戸線「青山一丁目駅」徒歩2分／銀座線「外苑前駅」徒歩7分',
+    address: '東京都港区南青山2-2-15',
+    popularPlan: {
+      name: '月額会員 月4回',
+      description: '50分のマンツーマンレッスンを月4回受けるプランです（1回あたり8,400円）。',
+      price: '月4回 33,600円（税込）',
+    },
+    options: [
+      '月1回 9,900円／月2回 18,800円／月8回 52,800円（税込）',
+      'チケット 4回 48,400円（有効3ヶ月）〜16回 140,800円（有効6ヶ月）',
+      'インストラクター指名料 1回550円〜3,300円（指名なしは追加料金なし）',
+      '入会時の費用は無料体験のときに案内（公式サイトに金額の記載なし）',
+      '11月30日までのキャンペーン：月1〜4回コースは初月の会費が無料',
+    ],
+    userProfile: {
+      genderRatio: '男女とも利用可（公式に「男性のお客様も多数」と記載）',
+    },
+    basicInfo: {
+      hours: '6:00〜22:00（日曜のみ18:00まで）',
+      closed: '公式サイトに記載なし',
+      facilities: ['個室（レンタルスタジオ）', 'ウェア・靴下のレンタルなし'],
+    },
+  },
 ]
 
 const faqs = [
@@ -355,7 +385,7 @@ export default function AoyamaItchomePage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月22日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス青山・青山一丁目おすすめ9選<br className="hidden md:block" />
+              ピラティス青山・青山一丁目おすすめ10選<br className="hidden md:block" />
               料金・体験レッスン・マシン対応を比較
             </h1>
           </div>
@@ -421,7 +451,7 @@ export default function AoyamaItchomePage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、青山（青山一丁目・南青山・北青山）と表参道・外苑前エリアでおすすめのピラティススタジオ9選をまとめました。南青山・北青山に所在地があるスタジオは、下の「住所別早見表」で確認できます。
+              本ページでは、青山（青山一丁目・南青山・北青山）と表参道・外苑前エリアでおすすめのピラティススタジオ10選をまとめました。南青山・北青山に所在地があるスタジオは、下の「住所別早見表」で確認できます。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -458,7 +488,7 @@ export default function AoyamaItchomePage() {
         <section className="py-12 bg-warm-50" id="by-address">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-4 text-center">南青山・北青山の住所別早見表</h2>
-            <p className="text-warm-600 leading-relaxed mb-6 text-sm">掲載9社のうち、所在地が港区南青山・北青山のスタジオを丁目順に並べました。所在地・徒歩分数は各スタジオの公式サイトの表記で、確認日を右端に記載しています。2026年11月30日で営業終了予定のA・CORE（北青山3-5-4）、詳しい住所が予約確定後に案内される a.pilates と、青山以外にあるスタジオ（Pilates KASANE 表参道店＝神宮前、zen place pilates 六本木）は載せていません。</p>
+            <p className="text-warm-600 leading-relaxed mb-6 text-sm">掲載10社のうち、所在地が港区南青山・北青山のスタジオを丁目順に並べました。所在地・徒歩分数は各スタジオの公式サイトの表記で、確認日を右端に記載しています。2026年11月30日で営業終了予定のA・CORE（北青山3-5-4）、詳しい住所が予約確定後に案内される a.pilates と、青山以外にあるスタジオ（Pilates KASANE 表参道店＝神宮前、zen place pilates 六本木）は載せていません。</p>
             <div className="overflow-x-auto">
               <table className="w-full text-sm border-collapse bg-white">
                 <thead>
@@ -473,6 +503,7 @@ export default function AoyamaItchomePage() {
                   <tr className="border-b border-warm-200"><td className="px-4 py-3">北青山1-4-5</td><td className="px-4 py-3 font-medium">Viel Aoyama</td><td className="px-4 py-3">青山一丁目駅 徒歩3分</td><td className="px-4 py-3">2026年10月11日</td></tr>
                   <tr className="border-b border-warm-200"><td className="px-4 py-3">北青山3-12-7</td><td className="px-4 py-3 font-medium">ピラティスK 表参道店</td><td className="px-4 py-3">表参道駅 B2出口 徒歩2分／渋谷駅 徒歩9分</td><td className="px-4 py-3">2026年10月19日</td></tr>
                   <tr className="border-b border-warm-200"><td className="px-4 py-3">南青山1-9-3</td><td className="px-4 py-3 font-medium">B&B南青山</td><td className="px-4 py-3">青山一丁目駅 4番南出口 徒歩3分／乃木坂駅 3番出口 徒歩5分</td><td className="px-4 py-3">2026年10月11日</td></tr>
+                  <tr className="border-b border-warm-200"><td className="px-4 py-3">南青山2-2-15</td><td className="px-4 py-3 font-medium">Dee Pilates 青山一丁目店</td><td className="px-4 py-3">青山一丁目駅 徒歩2分／外苑前駅 徒歩7分</td><td className="px-4 py-3">2026年11月27日</td></tr>
                   <tr className="border-b border-warm-200"><td className="px-4 py-3">南青山3-3-16</td><td className="px-4 py-3 font-medium">Sky Pilates Tokyo 本店</td><td className="px-4 py-3">表参道駅・外苑前駅 徒歩7分</td><td className="px-4 py-3">2026年10月19日</td></tr>
                   <tr className="border-b border-warm-200"><td className="px-4 py-3">南青山5-7-17</td><td className="px-4 py-3 font-medium">BDC PILATES 表参道スタジオ（A studio）</td><td className="px-4 py-3">表参道駅 徒歩2分</td><td className="px-4 py-3">2026年10月19日</td></tr>
                 </tbody>
@@ -489,7 +520,7 @@ export default function AoyamaItchomePage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              青山一丁目のおすすめピラティススタジオ9選
+              青山一丁目のおすすめピラティススタジオ10選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (

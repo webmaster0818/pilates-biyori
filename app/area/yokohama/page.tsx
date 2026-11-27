@@ -14,8 +14,8 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/yokohama/' },
-  title: 'ピラティス横浜おすすめ11選人気スタジオの料金プランの比較',
-  description: '横浜のおすすめピラティススタジオ11選を比較しています。グループ月4回10,450円〜の料金相場、駅近・女性専用・パーソナル対応のスタジオ情報、体験レッスンの持ち物まで完全網羅しています。',
+  title: 'ピラティス横浜おすすめ12選人気スタジオの料金プランの比較',
+  description: '横浜のおすすめピラティススタジオ12選を比較しています。グループ月4回10,450円〜の料金相場、駅近・女性専用・パーソナル対応のスタジオ情報、体験レッスンの持ち物まで完全網羅しています。',
   keywords: 'ピラティス,横浜,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
 
@@ -309,6 +309,36 @@ const studios = [
     },
 
   },
+  {
+    name: 'Dee Pilates 横浜店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=S16521f-A540670S&p=E9887623',
+    price: '月4回 33,600円（税込・マンツーマン50分）',
+    trial: '無料（60分・おひとり様1回）',
+    features: ['完全マンツーマン', 'マシン&マット', '男性も利用可', '横浜駅徒歩4分'],
+    description: 'トーキョーフィットネス株式会社が運営する、マンツーマン専門のパーソナルピラティスです。50分のレッスンで、リフォーマーなどのマシンとマットを組み合わせます。個室のレンタルスタジオ（STUDIO FLAG 4号店）を使って指導します。料金は全店共通で、月1回9,900円〜月8回52,800円（税込）です（2026年11月27日 公式サイトで確認）。',
+    access: '「横浜駅」徒歩4分',
+    address: '神奈川県横浜市西区高島2-11-2 スカイメナー横浜725号室（STUDIO FLAG 4号店を利用）',
+    popularPlan: {
+      name: '月額会員 月4回',
+      description: '50分のマンツーマンレッスンを月4回受けるプランです（1回あたり8,400円）。',
+      price: '月4回 33,600円（税込）',
+    },
+    options: [
+      '月1回 9,900円／月2回 18,800円／月8回 52,800円（税込）',
+      'チケット 4回 48,400円（有効3ヶ月）〜16回 140,800円（有効6ヶ月）',
+      'インストラクター指名料 1回550円〜3,300円（指名なしは追加料金なし）',
+      '入会時の費用は無料体験のときに案内（公式サイトに金額の記載なし）',
+      '11月30日までのキャンペーン：月1〜4回コースは初月の会費が無料',
+    ],
+    userProfile: {
+      genderRatio: '男女とも利用可（公式に「男性のお客様も多数」と記載）',
+    },
+    basicInfo: {
+      hours: '6:00〜22:00（日曜のみ18:00まで）',
+      closed: '公式サイトに記載なし',
+      facilities: ['個室（レンタルスタジオ）', 'ウェア・靴下のレンタルなし'],
+    },
+  },
 ]
 
 const faqs = [
@@ -371,7 +401,7 @@ export default function YokohamaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス横浜おすすめ11選<br className="hidden md:block" />
+              ピラティス横浜おすすめ12選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -396,7 +426,7 @@ export default function YokohamaPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、横浜エリアでおすすめのピラティススタジオ11選をまとめました。
+              本ページでは、横浜エリアでおすすめのピラティススタジオ12選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -435,7 +465,7 @@ export default function YokohamaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              横浜のおすすめピラティススタジオ11選
+              横浜のおすすめピラティススタジオ12選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (

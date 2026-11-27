@@ -42,6 +42,36 @@ const studios = [
     access: '丸ノ内線「新宿駅」/ 四ツ谷駅から丸ノ内線で近い',
     address: '東京都新宿区（新宿エリア）',
   },
+  {
+    name: 'Dee Pilates 四ツ谷店',
+    officialUrl: 'https://t.afi-b.com/visit.php?a=S16521f-H540698R&p=E9887623',
+    price: '月4回 33,600円（税込・マンツーマン50分）',
+    trial: '無料（60分・おひとり様1回）',
+    features: ['完全マンツーマン', 'マシン&マット', '男性も利用可', '四ツ谷駅徒歩3分'],
+    description: 'トーキョーフィットネス株式会社が運営する、マンツーマン専門のパーソナルピラティスです。50分のレッスンで、リフォーマーなどのマシンとマットを組み合わせます。個室のレンタルスタジオ（sr pilates studio）を使って指導します。料金は全店共通で、月1回9,900円〜月8回52,800円（税込）です（2026年11月27日 公式サイトで確認）。',
+    access: '「四ツ谷駅」徒歩3分',
+    address: '東京都新宿区四谷1-18 belle四谷6F',
+    popularPlan: {
+      name: '月額会員 月4回',
+      description: '50分のマンツーマンレッスンを月4回受けるプランです（1回あたり8,400円）。',
+      price: '月4回 33,600円（税込）',
+    },
+    options: [
+      '月1回 9,900円／月2回 18,800円／月8回 52,800円（税込）',
+      'チケット 4回 48,400円（有効3ヶ月）〜16回 140,800円（有効6ヶ月）',
+      'インストラクター指名料 1回550円〜3,300円（指名なしは追加料金なし）',
+      '入会時の費用は無料体験のときに案内（公式サイトに金額の記載なし）',
+      '11月30日までのキャンペーン：月1〜4回コースは初月の会費が無料',
+    ],
+    userProfile: {
+      genderRatio: '男女とも利用可（公式に「男性のお客様も多数」と記載）',
+    },
+    basicInfo: {
+      hours: '6:00〜23:00（日曜のみ18:00まで）',
+      closed: '公式サイトに記載なし',
+      facilities: ['個室（レンタルスタジオ）', 'ウェア・靴下のレンタルなし'],
+    },
+  },
 ]
 
 const faqs = [
@@ -104,7 +134,7 @@ export default function YotsuyaPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス四ツ谷おすすめ2選<br className="hidden md:block" />
+              ピラティス四ツ谷おすすめ3選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -129,7 +159,7 @@ export default function YotsuyaPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、四ツ谷エリアから通えるおすすめのピラティススタジオ2選をまとめました。
+              本ページでは、四ツ谷エリアから通えるおすすめのピラティススタジオ3選をまとめました。
             </p>
             <p className="text-warm-700 leading-relaxed mb-8 bg-warm-50 border border-warm-200 rounded p-4 text-sm">
               ※掲載の2店はどちらも四ツ谷駅・四谷三丁目駅の周辺にある店舗ではありません（zen place pilates 飯田橋スタジオは飯田橋駅、ピラティスK 新宿店は新宿エリア）。四ツ谷から電車で通える近隣の店舗として紹介しています。
@@ -167,7 +197,7 @@ export default function YotsuyaPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              四ツ谷エリアのおすすめピラティススタジオ2選
+              四ツ谷エリアのおすすめピラティススタジオ3選
             </h2>
             <p className="text-warm-600 text-sm text-center mb-8">※掲載の2店はどちらも四ツ谷駅・四谷三丁目駅の周辺にある店舗ではありません（zen place pilates 飯田橋スタジオは飯田橋駅、ピラティスK 新宿店は新宿エリア）。四ツ谷から電車で通える近隣の店舗として紹介しています。</p>
             <div className="space-y-8">

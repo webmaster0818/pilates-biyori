@@ -560,6 +560,11 @@ export function StudioCardClient({ studio, index }: StudioCardProps) {
               // eslint-disable-next-line @next/next/no-img-element
               <img src="https://t.afi-b.com/lead/u15511L/E9887623/8504149a" width={1} height={1} alt="" className="inline-block" style={{ border: 'none' }} />
             )}
+            {/* Dee Pilates（afi-b・店舗別原稿）。visit.php?a=S16521f-{原稿} と lead/S16521f/E9887623/{原稿} が対 */}
+            {/a=S16521f-[0-9A-Za-z]+&p=E9887623/.test(studio.officialUrl || '') && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src={`https://t.afi-b.com/lead/S16521f/E9887623/${(studio.officialUrl || '').match(/a=S16521f-([0-9A-Za-z]+)&/)?.[1]}`} width={1} height={1} alt="" className="inline-block" style={{ border: 'none' }} />
+            )}
             {/* LAVA（A8） */}
             {studio.officialUrl?.includes('a8mat=4BENDQ+6V2YDE+1O96+5YZ76') && (
               // eslint-disable-next-line @next/next/no-img-element
