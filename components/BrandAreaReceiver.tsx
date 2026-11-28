@@ -11,6 +11,7 @@ import { STORE_REVIEW_SPLIT } from "@/data/store-review-split";
 import { brandSlugOf } from "@/lib/brandLink";
 import { OfficialCaptureFigure } from "@/components/OfficialCaptureFigure";
 import { StoreFactsSection } from "@/components/StoreFactsSection";
+import { StoreAccessSection } from "@/components/StoreAccessSection";
 
 // ブランド×エリア受け皿。指名クエリ「{ブランド} ピラティス {エリア}」の受け皿。
 // 実店舗データ（brands-aggregate.json一致）＋ブランド編集データ＋ブランド/エリアへの三角リンク。
@@ -370,6 +371,9 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
 
           {/* 2026-11-28 料金と初月にかかる費用／予約・キャンセル・退会・休会／体験の流れと持ち物（公式で確認した値のみ・data/brand-store-facts.ts） */}
           <StoreFactsSection brandSlug={brandSlug} urlSlug={store.urlSlug} storeName={store.storeName} />
+
+          {/* 2026-11-28 アクセス・駐車場／設備とレッスン／講師の研修（公式で確認した値のみ・data/store-access-facilities.ts） */}
+          <StoreAccessSection urlSlug={store.urlSlug} storeName={store.storeName} />
 
           {/* ブランドの特徴 → ブランドページへ */}
           <section className="mb-10">
