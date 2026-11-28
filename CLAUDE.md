@@ -1721,3 +1721,8 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - **Leben**: 公式は南森町の1店のみ→ブランドページなし。受け皿＝/area/minamimorimachi/。カード（グループ月4回14,800・パーソナル9,900・体験500円・住所）は公式と一致＝変更なし（「約90分」は来店20分前＋50分＋FB20分）
 - 湘南（RINNE 辻堂）は時間切れで未着手（辻堂スタジオは公式に実在・辻堂駅徒歩2分・茅ヶ崎市本宿町）
 - 集計: `brands-aggregate.json` は4キー（dee-pilates 12・mapila 5・wecle 2・rinne 1）だけ追記（スクリプトは丸ごと再生成しない＝他キーは無変更を diff で確認）
+
+### 2026-11-28 朝ルーチン: BREST 継続（変更なし）・BDC 3店舗ページの口コミを「評価されている点／気になる点」に分割（source c60cf98c・未デプロイ）
+- BREST（11/28 09:20 公式直・7店）: 7店とも 200・banner-1_monitor_500.png（Last-Modified 10/29・100,761 bytes）継続・終了/締切表記 0・/news/ 最新 11/22 → カードは戻さない
+- 口コミギャップ①第1弾（workspace/pilates-kuchikomi-gap-20261127.md）: BdcStore に `reviewSplit {good, concerns, basis}` を追加し、BrandAreaReceiver の口コミ節で h3「評価されている点」「気になる点」の2列に（無い店舗は従来の1段落）。元データ＝workspace/places-api/google-reviews.json（Places API が返した5件・2026-08-17取得・match_ok）。言い換えのみ・かぎ括弧引用なし・★内訳と「全件ではありません」を明記。表参道は B studio の5件で指摘なし→その旨を書いた。次の候補は KASANE 6店・クラブピラティス 9店（同じ JSON に5件ずつある店のみ）
+- ⚠️ next build がメモリ逼迫（他セッションのビルド最大7本・swap 14GB）で compile 38分を超え打ち切り。次回 build→precheck→方式B で出せる（11/27 の URBAN 経堂も同梱）
