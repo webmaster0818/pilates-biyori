@@ -7,6 +7,7 @@ import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { getBrand } from "@/data/brands";
 import type { BdcStore } from "@/data/bdc-stores";
 import { STUDIO_REVIEWS } from "@/data/studio-reviews";
+import { STORE_REVIEW_SPLIT } from "@/data/store-review-split";
 import { brandSlugOf } from "@/lib/brandLink";
 import { OfficialCaptureFigure } from "@/components/OfficialCaptureFigure";
 import { StoreFactsSection } from "@/components/StoreFactsSection";
@@ -23,10 +24,11 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
      ⚠️ 要約は編集部が書いたもので、口コミ本文の転載ではない。出典リンクを必ず添える。 */
   /* ⚠️ 掲載名と要約データのキーは表記ゆれがある（「Pilates Mee大井町店」と「Pilates Mee 大井町店」等）。
      完全一致で引けないときだけ、空白を無視した一致で拾う。それでも無ければ何も出さない。 */
-  const norm = (s: string) => s.replace(/[\s　]/g, "");
+  const norm = (s: string) => s.replace(/[\s　]/g, "").replace(/（[^）]*）/g, "");
   const rev =
     STUDIO_REVIEWS[store.storeName] ??
     Object.values(STUDIO_REVIEWS).find((r) => norm(r.name) === norm(store.storeName));
+  const reviewSplit = store.reviewSplit ?? STORE_REVIEW_SPLIT[store.urlSlug];
   const brand = getBrand(brandSlug);
   const brandName = brand?.name ?? brandSlug.toUpperCase();
   const brandHref = `/brands/${brandSlug}/`;
@@ -191,18 +193,18 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
                   <span className="text-sm font-bold text-warm-900">★{rev.rating}</span>
                   <span className="text-xs text-warm-600">（{rev.userRatings}件）</span>
                 </div>
-                {store.reviewSplit ? (
+                {reviewSplit ? (
                   <div className="mt-4 grid gap-4 md:grid-cols-2">
                     <div className="bg-white border border-warm-200 p-4">
                       <h3 className="text-sm font-medium text-warm-900 mb-2">評価されている点</h3>
                       <ul className="space-y-2 text-sm text-warm-700 leading-relaxed list-disc pl-5">
-                        {store.reviewSplit.good.map((t) => <li key={t}>{t}</li>)}
+                        {reviewSplit.good.map((t) => <li key={t}>{t}</li>)}
                       </ul>
                     </div>
                     <div className="bg-white border border-warm-200 p-4">
                       <h3 className="text-sm font-medium text-warm-900 mb-2">気になる点</h3>
                       <ul className="space-y-2 text-sm text-warm-700 leading-relaxed list-disc pl-5">
-                        {store.reviewSplit.concerns.map((t) => <li key={t}>{t}</li>)}
+                        {reviewSplit.concerns.map((t) => <li key={t}>{t}</li>)}
                       </ul>
                     </div>
                   </div>
@@ -210,7 +212,7 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
                   <p className="text-sm text-warm-700 mt-3 leading-relaxed">{rev.summary}</p>
                 )}
                 <p className="text-[11px] text-warm-500 mt-3">
-                  {store.reviewSplit && <>{store.reviewSplit.basis}{" "}</>}
+                  {reviewSplit && <>{reviewSplit.basis}{" "}</>}
                   Googleマップに投稿された口コミをもとに、編集部が要約したものです（{rev.fetchedAt}時点）。
                   口コミ本文は転載していません。{" "}
                   <a href={rev.mapsUri} target="_blank" rel="noopener noreferrer" className="underline hover:text-warm-700">
