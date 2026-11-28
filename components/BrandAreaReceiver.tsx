@@ -191,8 +191,26 @@ export function BrandAreaReceiver({ store, brandSlug = "bdc" }: { store: BdcStor
                   <span className="text-sm font-bold text-warm-900">★{rev.rating}</span>
                   <span className="text-xs text-warm-600">（{rev.userRatings}件）</span>
                 </div>
-                <p className="text-sm text-warm-700 mt-3 leading-relaxed">{rev.summary}</p>
+                {store.reviewSplit ? (
+                  <div className="mt-4 grid gap-4 md:grid-cols-2">
+                    <div className="bg-white border border-warm-200 p-4">
+                      <h3 className="text-sm font-medium text-warm-900 mb-2">評価されている点</h3>
+                      <ul className="space-y-2 text-sm text-warm-700 leading-relaxed list-disc pl-5">
+                        {store.reviewSplit.good.map((t) => <li key={t}>{t}</li>)}
+                      </ul>
+                    </div>
+                    <div className="bg-white border border-warm-200 p-4">
+                      <h3 className="text-sm font-medium text-warm-900 mb-2">気になる点</h3>
+                      <ul className="space-y-2 text-sm text-warm-700 leading-relaxed list-disc pl-5">
+                        {store.reviewSplit.concerns.map((t) => <li key={t}>{t}</li>)}
+                      </ul>
+                    </div>
+                  </div>
+                ) : (
+                  <p className="text-sm text-warm-700 mt-3 leading-relaxed">{rev.summary}</p>
+                )}
                 <p className="text-[11px] text-warm-500 mt-3">
+                  {store.reviewSplit && <>{store.reviewSplit.basis}{" "}</>}
                   Googleマップに投稿された口コミをもとに、編集部が要約したものです（{rev.fetchedAt}時点）。
                   口コミ本文は転載していません。{" "}
                   <a href={rev.mapsUri} target="_blank" rel="noopener noreferrer" className="underline hover:text-warm-700">
