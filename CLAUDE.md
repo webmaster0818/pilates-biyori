@@ -1726,3 +1726,10 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - BREST（11/28 09:20 公式直・7店）: 7店とも 200・banner-1_monitor_500.png（Last-Modified 10/29・100,761 bytes）継続・終了/締切表記 0・/news/ 最新 11/22 → カードは戻さない
 - 口コミギャップ①第1弾（workspace/pilates-kuchikomi-gap-20261127.md）: BdcStore に `reviewSplit {good, concerns, basis}` を追加し、BrandAreaReceiver の口コミ節で h3「評価されている点」「気になる点」の2列に（無い店舗は従来の1段落）。元データ＝workspace/places-api/google-reviews.json（Places API が返した5件・2026-08-17取得・match_ok）。言い換えのみ・かぎ括弧引用なし・★内訳と「全件ではありません」を明記。表参道は B studio の5件で指摘なし→その旨を書いた。次の候補は KASANE 6店・クラブピラティス 9店（同じ JSON に5件ずつある店のみ）
 - ⚠️ next build がメモリ逼迫（他セッションのビルド最大7本・swap 14GB）で compile 38分を超え打ち切り。次回 build→precheck→方式B で出せる（11/27 の URBAN 経堂も同梱）
+
+### 2026-11-28 12:00 成長ルーチン: /area/shonan/ に RINNE 辻堂スタジオを追加（5→6選）・マピラ5カードを公式と照合
+- RINNE 辻堂（公式 rinne-pilates.com/studio/tsujido 11/28）: 茅ヶ崎市本宿町12-11 辻堂NWビル 3F 11号・辻堂駅から徒歩2分・09:00-21:30（完全予約制）・不定休・車は「近隣のコインパーキング」（公式）・近隣に無料駐輪所・更衣室・ソックス販売/レンタル・料金は全店共通表（パーソナル月4 34,800〔最初の3ヶ月29,800〕〜／セミ 月4 19,800〜／7ヶ月目から月2回）・体験40分8,800円（当日入会で無料）。CTA は海老名と同じ 7756 pl_id=96671（StudioCardClient が impression を自動付与）。title/h1/本文の「5社/5選」→6、体験相場 無料〜8,800円、駅近リスト・体験/アクセス段落に追記。brands-aggregate の rinne に1件追記
+- マピラ（公式 pilates-mapila.jp 各店舗ページ 11/28）: 柏・成増・西荻窪は「※女性専用」と公式に明記（柏の女性専用は残す。西葛西・新宿には記載なし）。柏: 料金・営業時間・休館日は一致、**カード画像が「Mapila 新宿店」のキャプチャだった→画像を外した**、「タワー付きリフォーマー完備」「ハーフタワー地域最多数」「部位別・目的別」（公式に記載なし）→「ハーフタワーを使用」に。成増: 住所・営業時間・休館日・プラン表を公式に、画像（default-studio.webp＝本番404）を外した。西荻窪: 料金（詳細は公式→マンスリー4 7,700円〜）・住所・営業時間・休館日を公式に、相場表/FAQ/選び方/予算別の下限を 7,700 に。西葛西（area-studios.ts）: 住所。新宿（/area/yoyogi/）: 営業管理費 480→980・祝日 10:00-19:30・休館日 1/6/16/26日。西葛西は公式の「予約可能数」に本数があり予約不要とは書かない
+- ⚠️ `/images/studios/default-studio.webp` は本番404（18ファイル73か所が参照）＝未対応
+- 競合（Yahoo「ピラティス 辻堂」）: clubpilates・itoman pilates30style・hotpepper・rintosull・VIE・suzuran-758・Pilates Mee 辻堂・lyftoff。RINNE はどこも未掲載
+- source be0dc593・4776249e（sitemap 8頁のみ 11-28）／deploy f28f1c6baf・precheck ✅ 593頁・計測リンク deploy html href 1,980→1,981（+1＝湘南 RINNE カード）・impression 271→272・functions/api 4本保全・表示テキストの変化は11頁（自分の8頁＋朝ルーチン分 BDC 3店舗＋/brands/ の RINNE 件数 1→2）。next build 直接（prebuild の sitemap 再生成を避ける）
