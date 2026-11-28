@@ -21,7 +21,6 @@ const studios = [
   {
     name: 'zen place pilates 戸塚',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    image: '/images/studios/default-studio.webp',
     price: '月4回 10,450円〜',
     trial: '体験レッスン 1,000円',
     features: ["全国150店舗", "マット&マシン", "男性利用可", "駅直結ビル"],
@@ -36,7 +35,6 @@ const studios = [
   {
     name: 'Rintosull 戸塚店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
-    image: '/images/studios/default-studio.webp',
     price: '月4回 8,800円〜',
     trial: '体験レッスン 無料',
     features: ["LAVA系列", "女性専用", "月4回8,800円〜", "初心者87%"],
@@ -50,7 +48,6 @@ const studios = [
   },
   {
     name: 'ルルト 戸塚', officialUrl: 'https://t.felmat.net/fmcl?ak=L12015F.1.E165311J.U1357808',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["理学療法士監修", "完全マンツーマン", "2025年オープン", "オーダーメイド"],
@@ -64,7 +61,6 @@ const studios = [
   },
   {
     name: 'ORBe（オルビー）戸塚',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["女性専用", "マシンピラティス×パーソナルジム", "2024年オープン", "西口"],

@@ -114,21 +114,22 @@ const studios = [
   {
     name: 'TSUTAYA Conditioning PILATES 湘南T-SITE店',
     image: '/images/studios/tsutaya-conditioning-pilates-shonan.webp',
-    price: '1回 3,300円',
-    trial: '体験レッスンあり',
-    features: ['女性専用', '少人数制', '都度払い可', '湘南T-SITE内'],
-    description: '女性専用・少人数制のマシンピラティススタジオです。TSUTAYAが運営する「TSUTAYA Conditioning」のピラティス専門店です。湘南T-SITE内に位置し、買い物と合わせて楽しめます。都度払い制で気軽に通えます。',
-    access: '小田急江ノ島線「本鵠沼駅」徒歩約15分 / JR「藤沢駅」北口バス約15分',
-    address: '神奈川県藤沢市辻堂元町6-20-1 湘南T-SITE内',
+    price: '月4回 13,200円／月8回 19,800円（税込）',
+    trial: '体験レッスン 0円（お一人様1回まで）',
+    features: ['女性専用', '少人数制', '初心者向け', '湘南T-SITE 1号館2F'],
+    description: '初心者向けの女性専用マシンピラティス専門店で、少人数制のレッスンです。カルチュア・エクスペリエンス株式会社（CX）が展開する「TSUTAYA Conditioning PILATES」の店舗で、2025年10月1日に湘南T-SITE 1号館2Fにオープンしました。会員は駐車場が2時間無料で、レッスン当日は対象区間のバス無料チケットがもらえます（公式の店舗ページ 2026年11月28日確認）。',
+    access: '小田急江ノ島線「本鵠沼駅」徒歩約15分 / 「藤沢駅」北口2番バスのりばからバス約15分・「藤沢SST前」徒歩約1分',
+    address: '神奈川県藤沢市辻堂元町6丁目20番1 湘南T-SITE（1号館 2F）',
     popularPlan: {
-      name: '都度払いプラン',
-      description: '女性専用マシンピラティスです。1回ごとの都度払いで気軽に通えます。',
-      price: '1回 3,300円（税込）',
+      name: '通常会員 月4回まで',
+      description: '月内に4回までレッスンを受けられる会員プランです。初月は利用開始日に応じて日割りです。',
+      price: '月会費 13,200円（税込）',
     },
     options: [
-      '1回 3,300円（都度払い）',
-      '回数券あり（詳細は公式サイト）',
-      '体験レッスンあり',
+      '月8回まで 19,800円（税込）',
+      '会員の回数追加受講 3,850円／回、個人練習利用 550円／30分（税込）',
+      '会員登録料 0円（通常2,200円）',
+      '料金は公式の店舗ページ（2026年11月28日確認・キャンペーン等で異なる場合あり）',
     ],
     userProfile: {
       ageRange: '30代〜50代が中心',
@@ -136,9 +137,9 @@ const studios = [
       purpose: ['姿勢改善', '健康維持', 'リフレッシュ', 'ボディメイク'],
     },
     basicInfo: {
-      hours: '公式サイトでご確認ください',
-      closed: '不定休',
-      facilities: ['リフォーマー', '更衣室', 'ロッカー'],
+      hours: '8:00〜21:00',
+      closed: '年中無休（年末年始を除く）',
+      facilities: ['リフォーマー', '更衣室', 'ブックラウンジ', '駐車場（会員2時間無料）'],
     },
   },
   {
@@ -238,7 +239,7 @@ const faqs = [
   },
   {
     question: '無料で体験できるスタジオは？',
-    answer: 'CLUB PILATESは無料の30分イントロクラスがあります。zen placeはグループ体験1,000円です。VIE PILATESは体験1,650円です。',
+    answer: 'CLUB PILATESは無料の30分イントロクラスがあります。TSUTAYA Conditioning PILATESは体験0円（お一人様1回まで）です。zen placeはグループ体験1,000円です。VIE PILATESは体験1,650円です。',
   },
   {
     question: 'ピラティスはどのくらいで効果が出ますか？',
@@ -464,6 +465,7 @@ export default function ShonanPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• Rintosull（リントスル）辻堂店（月4回 8,800円〜）</li>
                   <li className="text-warm-700">• zen place pilates 藤沢スタジオ（月4回 10,450円〜）</li>
+                  <li className="text-warm-700">• TSUTAYA Conditioning PILATES 湘南T-SITE店（月4回 13,200円）</li>
                   <li className="text-warm-700">• CLUB PILATES 辻堂店（月4回 14,190円）</li>
                 </ul>
               </div>
@@ -540,6 +542,7 @@ export default function ShonanPage() {
                   マシン専門スタジオです。
                 </p>
                 <ul className="text-sm text-warm-700 space-y-1">
+                  <li>• TSUTAYA Conditioning PILATES（月4回 13,200円）</li>
                   <li>• CLUB PILATES（月4回 14,190円）</li>
                 </ul>
               </div>
@@ -588,7 +591,7 @@ export default function ShonanPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  体験料金は、CLUB PILATES 辻堂店が「体験レッスン 無料（30分イントロクラス）」、Rintosull（リントスル）辻堂店が「体験レッスン あり（キャンペーン時無料）」、VIE PILATES STUDIO 湘南辻堂が「体験レッスン 1,650円」、zen place pilates 藤沢スタジオが「グループ体験 1,000円」、RINNE 辻堂スタジオが「体験40分 8,800円（体験当日の入会で無料）」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
+                  体験料金は、CLUB PILATES 辻堂店が「体験レッスン 無料（30分イントロクラス）」、Rintosull（リントスル）辻堂店が「体験レッスン あり（キャンペーン時無料）」、VIE PILATES STUDIO 湘南辻堂が「体験レッスン 1,650円」、zen place pilates 藤沢スタジオが「グループ体験 1,000円」、TSUTAYA Conditioning PILATES 湘南T-SITE店が「体験レッスン 0円（お一人様1回まで）」、RINNE 辻堂スタジオが「体験40分 8,800円（体験当日の入会で無料）」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">

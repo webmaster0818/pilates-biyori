@@ -22,7 +22,6 @@ const studios = [
   {
     name: 'CLUB PILATES 福岡大橋店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=62359',
-    image: '/images/studios/default-studio.webp',
     price: '月4回 13,090円／月8回 24,090円／通い放題 37,290円（公式店舗ページ・税表記なし）',
     trial: '体験レッスン 無料（30分）',
     features: [],
@@ -37,7 +36,6 @@ const studios = [
   {
     name: 'STUDIO IVY 福岡大橋店',
     officialUrl: 'https://t.afi-b.com/visit.php?a=u15511L-8504149a&p=E9887623',
-    image: '/images/studios/default-studio.webp',
     price: '1回 6,250円〜',
     trial: '体験レッスンあり',
     features: ["完全プライベート", "最新マシン", "月謝制", "1回6,250円〜"],
@@ -52,7 +50,6 @@ const studios = [
   {
     name: 'URBAN CLASSIC PILATES 大橋店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
-    image: '/images/studios/default-studio.webp',
     price: '月額制',
     trial: '体験レッスンあり',
     features: ["駅徒歩2分", "30分サーキット", "予約不要", "マシン&TRX"],
@@ -66,7 +63,6 @@ const studios = [
   },
   {
     name: 'Studio Breathing 大橋店',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["PMA認定", "NCPT資格", "優秀なインストラクター", "2016年開業"],
@@ -80,7 +76,6 @@ const studios = [
   },
   {
     name: 'ボッちピラティス',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["女性専用", "個室", "パーソナル", "プライバシー重視"],

@@ -21,7 +21,6 @@ const studios = [
   {
     name: 'Rintosull 田無店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
-    image: '/images/studios/default-studio.webp',
     price: '月4回 8,800円〜',
     trial: '体験レッスン 無料',
     features: ["LAVA系列", "女性専用", "月4回8,800円〜", "多彩なプログラム"],
@@ -36,7 +35,6 @@ const studios = [
   {
     name: 'zen place pilates 田無',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    image: '/images/studios/default-studio.webp',
     price: '月4回 9,625円〜',
     trial: '体験レッスン 1,000円',
     features: ["全国150店舗", "マット&マシン", "男性利用可", "AI姿勢分析"],
@@ -51,7 +49,6 @@ const studios = [
   {
     name: 'CLUB PILATES 田無店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=81510',
-    image: '/images/studios/default-studio.webp',
     price: '月4回 11,990円／月8回 21,890円／通い放題 36,190円（公式店舗ページ・税表記なし）',
     trial: '体験レッスン 無料（30分）',
     features: [],
@@ -65,7 +62,6 @@ const studios = [
   },
   {
     name: 'SPEED FITNESS 田無店',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '初回体験 2,980円（AI姿勢分析付き）',
     features: ["電磁パルス×ピラティス", "AI姿勢分析", "新店舗", "体験2,980円"],

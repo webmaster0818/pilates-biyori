@@ -21,7 +21,6 @@ export const metadata = {
 const studios = [
   {
     name: 'HARMONIE（アルモニ）伊勢原',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["月160本レッスン", "10代〜70代", "男女とも利用可", "見晴らし良好"],
@@ -35,7 +34,6 @@ const studios = [
   },
   {
     name: 'eneインナービューティ',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["予約制プライベート", "美脚美姿勢", "女性向け", "駅徒歩3分"],
@@ -49,7 +47,6 @@ const studios = [
   },
   {
     name: 'ALA Dance Studio',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["ダンス併設", "グループ月4回", "プライベートあり", "駅徒歩5分"],
@@ -63,7 +60,6 @@ const studios = [
   },
   {
     name: 'セントラルスポーツ ジムスタ 伊勢原駅前',
-    image: '/images/studios/default-studio.webp',
     price: '月額制',
     trial: '体験レッスンあり',
     features: ["総合フィットネス", "ジム&スタジオ", "ピラティス", "駅前"],
@@ -77,7 +73,6 @@ const studios = [
   },
   {
     name: 'トータルフィットネススタジオファースト',
-    image: '/images/studios/default-studio.webp',
     // 公式 https://www.totalfitnessstudiofirst.jp/ で確認（2026-10-25）: 住所・営業時間・定休日・体験料・月会費。ピラティスはマットのグループ（マシンピラティスの記載なし）
     price: '月会費 4,400円（学生）〜14,300円（税込）',
     trial: '体験 2,200円（30分のパーソナルトレーニングかレッスン体験・税込・公式表記・2026年10月25日確認）',

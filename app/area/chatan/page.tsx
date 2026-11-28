@@ -22,7 +22,6 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスアクス 北谷店',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["マシン専門", "キャンペーン", "入会金無料", "本格レッスン"],
@@ -36,7 +35,6 @@ const studios = [
   },
   {
     name: 'Pilates Studio gg',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["完全マンツーマン", "女性インストラクター", "マット&マシン", "よもぎ蒸し"],
@@ -50,7 +48,6 @@ const studios = [
   },
   {
     name: 'ピラティスアクス 那覇新都心店',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["マシン専門", "那覇新都心", "複数店舗", "初心者歓迎"],

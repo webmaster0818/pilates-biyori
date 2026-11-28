@@ -20,7 +20,6 @@ export const metadata = {
 const studios = [
   {
     name: 'スタジオ インテグレ',
-    image: '/images/studios/default-studio.webp',
     price: 'ピラティス/TRX 月フリー 11,000円',
     trial: '体験レッスン 1,500円',
     features: ["ピラティス（グループ）", "TRX", "Animal Flow", "別府駅徒歩7分"],
@@ -34,7 +33,6 @@ const studios = [
   },
   {
     name: 'ホットヨガロイブ トキハ別府店',
-    image: '/images/studios/default-studio.webp',
     price: '月4回 8,910円〜（税込）',
     trial: '手ぶら体験 0円',
     features: ["女性専用", "ホットヨガ", "ピラティスプログラム", "シャワー完備"],
@@ -48,7 +46,6 @@ const studios = [
   },
   {
     name: 'CLUB 30',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["パーソナルジム", "ピラティス", "オンライン対応", "体が硬い方も可"],
@@ -62,7 +59,6 @@ const studios = [
   },
   {
     name: 'BALANS',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["少人数制", "アットホーム", "ヨガ&ピラティス", "地域密着"],
@@ -76,7 +72,6 @@ const studios = [
   },
   {
     name: 'seuse（セウス）大分',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["多職種スタッフ", "管理栄養士", "トータルサポート", "ピラティス&ヨガ"],

@@ -22,7 +22,6 @@ const studios = [
   {
     name: 'pilates K ドン・キホーテ二俣川店',
     officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
-    image: '/images/studios/default-studio.webp',
     price: '月4回 13,420円〜',
     trial: '体験レッスン 無料',
     features: ["女性専用", "駅近", "部位別プログラム", "1人1台マシン"],
@@ -37,7 +36,6 @@ const studios = [
   {
     name: 'URBAN CLASSIC PILATES 二俣川店',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
-    image: '/images/studios/default-studio.webp',
     price: '月額制',
     trial: '体験レッスンあり',
     features: ["30分サーキット", "マシン&TRX", "駅徒歩4分", "予約不要"],
@@ -51,7 +49,6 @@ const studios = [
   },
   {
     name: 'SOELU 二俣川店',
-    image: '/images/studios/default-studio.webp',
     price: '月額制',
     trial: '体験レッスンあり',
     features: ["女性専用", "マット&マシン", "受け放題", "費用対効果"],
@@ -65,7 +62,6 @@ const studios = [
   },
   {
     name: 'studio-luana ルアナ',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["少人数", "ヨガ&ピラティス&ストレッチ", "アットホーム", "地域密着"],
@@ -79,7 +75,6 @@ const studios = [
   },
   {
     name: 'ピラティスステーションライト 二俣川',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["少人数制", "運動が苦手な方も可", "初心者専門", "女性向け"],

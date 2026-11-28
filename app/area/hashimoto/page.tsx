@@ -21,7 +21,6 @@ const studios = [
   {
     name: 'La pilates 橋本店',
     officialUrl: 'https://t.afi-b.com/visit.php?a=816076W-u518546p&p=E9887623',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["骨膜整体×ピラティス", "最新設備", "女性の不調改善", "清潔"],
@@ -35,7 +34,6 @@ const studios = [
   },
   {
     name: 'Well Pilates 橋本',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["理学療法士監修", "医師監修", "パーソナル", "駅徒歩1分"],
@@ -49,7 +47,6 @@ const studios = [
   },
   {
     name: 'Pilates Bonita',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["女性専用", "プライベート", "カスタマイズ", "少人数"],
@@ -63,7 +60,6 @@ const studios = [
   },
   {
     name: 'ルネサンス 橋本',
-    image: '/images/studios/default-studio.webp',
     price: '月額制',
     trial: '体験レッスンあり',
     features: ["総合スポーツクラブ", "ジム&プール", "ピラティス", "サウナ"],

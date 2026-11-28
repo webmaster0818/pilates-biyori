@@ -73,7 +73,6 @@ const studios = [
   },
   {
     name: 'ソエルスタジオ 日暮里店',
-    image: '/images/studios/default-studio.webp',
     price: 'ピラティス4プラン 8,980円（税込9,878円）',
     trial: '初回予約の体験レッスン 無料',
     features: ['日暮里駅東口徒歩2分', 'マシンピラティス', 'よもぎ蒸し', 'オンラインレッスン'],

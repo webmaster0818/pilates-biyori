@@ -20,7 +20,6 @@ export const metadata = {
 const studios = [
   {
     name: 'Shiori Ballet Class ピラティス',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["バレエ併設", "駅徒歩3分", "親子参加可", "丁寧な指導"],
@@ -34,7 +33,6 @@ const studios = [
   },
   {
     name: 'プラスピラティス（Plus Pilates）',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["女性専用", "ママクラス", "子連れ可", "完全予約制"],
@@ -49,7 +47,6 @@ const studios = [
   {
     name: 'zen place pilates 所沢',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    image: '/images/studios/default-studio.webp',
     price: '月4回 9,625円〜',
     trial: '体験レッスン 1,000円',
     features: ["全国150店舗", "マット&マシン", "男性利用可", "AI姿勢分析"],
@@ -63,7 +60,6 @@ const studios = [
   },
   {
     name: '東村山市民ステーション サンパルネ',
-    image: '/images/studios/default-studio.webp',
     price: '低価格（市民施設）',
     trial: '参加可',
     features: ["市民施設", "ピラティスクリニック", "少人数制", "低価格"],

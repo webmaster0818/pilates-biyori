@@ -20,7 +20,6 @@ export const metadata = {
 const studios = [
   {
     name: 'warabi pilates',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["整体併設", "姿勢改善", "体質改善", "個別対応"],
@@ -34,7 +33,6 @@ const studios = [
   },
   {
     name: 'ピラティススタジオ Flow 鹿児島',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["少人数制", "パーソナル対応", "アットホーム", "初心者歓迎"],

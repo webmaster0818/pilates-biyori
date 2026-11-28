@@ -20,7 +20,6 @@ export const metadata = {
 const studios = [
   {
     name: 'Happiness Club',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["駅徒歩1分", "多彩なプログラム", "ベビーカー可", "アットホーム"],
@@ -34,7 +33,6 @@ const studios = [
   },
   {
     name: 'CALDO 石神井公園',
-    image: '/images/studios/default-studio.webp',
     price: '月額制',
     trial: '体験レッスンあり',
     features: ["駅徒歩30秒", "予約不要", "銀イオンスチーム", "ホットヨガ&ピラティス"],
@@ -48,7 +46,6 @@ const studios = [
   },
   {
     name: 'リムヨガ',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["産後ヨガ", "キッズヨガ", "マタニティ", "ピラティス"],
@@ -62,7 +59,6 @@ const studios = [
   },
   {
     name: 'ルネサンス石神井公園',
-    image: '/images/studios/default-studio.webp',
     price: '月額制',
     trial: '体験レッスンあり',
     features: ["総合スポーツクラブ", "週150本レッスン", "プール&ジム", "ピラティス"],
@@ -77,7 +73,6 @@ const studios = [
   {
     name: 'CLUB PILATES 練馬店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=81224',
-    image: '/images/studios/default-studio.webp',
     price: '月4回 13,090円／月8回 24,090円／通い放題 37,290円（公式店舗ページ・税表記なし）',
     trial: '体験レッスン 無料（30分）',
     features: [],

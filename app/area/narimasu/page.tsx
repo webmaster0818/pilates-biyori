@@ -22,7 +22,6 @@ const studios = [
   {
     name: 'URBAN CLASSIC PILATES 成増',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
-    image: '/images/studios/default-studio.webp',
     price: '月額制',
     trial: '体験レッスンあり',
     features: ["駅徒歩2分", "30分サーキット", "予約不要", "費用対効果"],
@@ -37,7 +36,6 @@ const studios = [
   {
     name: 'Rintosull 成増店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5718892&p_id=5919&pc_id=16494&pl_id=75683',
-    image: '/images/studios/default-studio.webp',
     price: '月4回 8,800円〜',
     trial: '体験レッスン 無料',
     features: ["LAVA系列", "女性専用", "月4回8,800円〜", "大型スクリーン"],
@@ -65,7 +63,6 @@ const studios = [
   },
   {
     name: 'H ampersand 成増',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["24時間ジム", "スマピ", "駅徒歩1分", "深層筋"],
@@ -79,7 +76,6 @@ const studios = [
   },
   {
     name: 'studio hourglass',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["パーソナル専門", "マシン", "マット", "アットホーム"],

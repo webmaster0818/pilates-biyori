@@ -21,7 +21,6 @@ const studios = [
   {
     name: 'pilates K 久留米店',
     officialUrl: 'https://t.afi-b.com/visit.php?a=O11543l-G384824n&p=E9887623',
-    image: '/images/studios/default-studio.webp',
     price: '月4回 13,420円〜',
     trial: '体験レッスン 無料',
     features: ["女性専用", "無料駐車場", "部位別プログラム", "1人1台マシン"],
@@ -35,7 +34,6 @@ const studios = [
   },
   {
     name: 'リアン久留米スタジオ',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["解剖学ベース", "少人数制", "プライベート", "ピラティス&ヨガ"],
@@ -49,7 +47,6 @@ const studios = [
   },
   {
     name: 'ピラティススタジオNOA',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["医療監修", "整形外科監修", "産婦人科監修", "鍼灸院併設"],
@@ -63,7 +60,6 @@ const studios = [
   },
   {
     name: 'Pilates Studio egal',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["国際資格トレーナー", "女性専用", "20代〜70代", "個別指導"],
@@ -77,7 +73,6 @@ const studios = [
   },
   {
     name: '晴れるや',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["初心者専門", "女性専用", "パーソナル&セミパーソナル", "1対1"],

@@ -20,7 +20,6 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティス青空',
-    image: '/images/studios/default-studio.webp',
     price: '1回 10,000円／5回 46,500円／10回 88,000円（税表記なし）',
     trial: '体験レッスン＆カウンセリング 7,000円（初回限定）',
     features: ["光が丘駅徒歩13分", "完全予約制", "プライベートレッスン", "女性中心（男性は紹介のみ）"],
@@ -50,7 +49,6 @@ const studios = [
   {
     name: 'CLUB PILATES 練馬店',
     officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5805739&p_id=4728&pc_id=12432&pl_id=81224',
-    image: '/images/studios/default-studio.webp',
     price: '月4回 13,090円／月8回 24,090円／通い放題 37,290円（公式店舗ページ・税表記なし）',
     trial: '体験レッスン 無料（30分）',
     features: ["練馬駅徒歩4分", "15種類の専用器具", "4段階のレベル", "男女とも利用可"],
@@ -65,7 +63,6 @@ const studios = [
   {
     name: 'zen place pilates 練馬スタジオ',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    image: '/images/studios/default-studio.webp',
     price: '月4回 10,450円（税込・グレード01）',
     trial: '体験レッスン 1,000円（今だけ・公式表記）',
     features: ["練馬駅徒歩1分", "マット&マシン", "男女とも利用可", "他店利用に対応"],
@@ -79,7 +76,6 @@ const studios = [
   },
   {
     name: 'スポーツクラブNAS 光が丘（ピラティス・調整系プログラム）',
-    image: '/images/studios/default-studio.webp',
     price: '会費は公式サイトでご確認ください',
     trial: '公式サイトでご確認ください',
     features: ["光が丘駅・光が丘IMA内", "総合型スポーツクラブ", "ピラティス・調整系プログラム"],

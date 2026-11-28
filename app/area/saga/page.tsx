@@ -20,7 +20,6 @@ export const metadata = {
 const studios = [
   {
     name: 'ピラティスステーションライト 佐賀',
-    image: '/images/studios/default-studio.webp',
     price: '回数券制',
     trial: '体験レッスンあり',
     features: ["女性専用", "回数券制", "グループ&プライベート", "少人数制"],
@@ -34,7 +33,6 @@ const studios = [
   },
   {
     name: 'Chura Making',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["ストレッチ整体", "マシンピラティス", "パーソナル", "総合ボディケア"],
@@ -48,7 +46,6 @@ const studios = [
   },
   {
     name: 'Trim 佐賀店',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["ストレッチ&ピラティス", "腰痛改善", "肩こり改善", "姿勢改善"],
@@ -62,7 +59,6 @@ const studios = [
   },
   {
     name: 'Wellness life 佐賀',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["オンラインレッスン", "グループ", "アットホーム", "初心者歓迎"],

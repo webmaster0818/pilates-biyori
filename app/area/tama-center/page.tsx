@@ -22,7 +22,6 @@ const studios = [
   {
     name: 'zen place pilates 多摩センター',
     officialUrl: 'https://t.felmat.net/fmcl?ak=T98993.1.K142573W.U1357808',
-    image: '/images/studios/default-studio.webp',
     price: '月4回 9,625円〜',
     trial: '体験レッスン 1,000円',
     features: ["全国150店舗", "マット&マシン", "男性利用可", "AI姿勢分析"],
@@ -37,7 +36,6 @@ const studios = [
   {
     name: 'URBAN CLASSIC PILATES 多摩センター',
     officialUrl: 'https://t.felmat.net/fmcl?ak=Z11337L.1.X156352B.U1357808',
-    image: '/images/studios/default-studio.webp',
     price: '月額制',
     trial: '体験レッスンあり',
     features: ["駅徒歩1分", "30分サーキット", "2024年オープン", "予約不要"],
@@ -51,7 +49,6 @@ const studios = [
   },
   {
     name: 'Pilates studio NARERU',
-    image: '/images/studios/default-studio.webp',
     price: '要問合せ',
     trial: '体験レッスンあり',
     features: ["落ち着いた照明", "水素水無料", "スパエリア", "個別対応"],
