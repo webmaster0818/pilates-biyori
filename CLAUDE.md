@@ -1733,3 +1733,5 @@ URL検査API 33/33 「送信して登録されました」 最終クロールも
 - ⚠️ `/images/studios/default-studio.webp` は本番404（18ファイル73か所が参照）＝未対応
 - 競合（Yahoo「ピラティス 辻堂」）: clubpilates・itoman pilates30style・hotpepper・rintosull・VIE・suzuran-758・Pilates Mee 辻堂・lyftoff。RINNE はどこも未掲載
 - source be0dc593・4776249e（sitemap 8頁のみ 11-28）／deploy f28f1c6baf・precheck ✅ 593頁・計測リンク deploy html href 1,980→1,981（+1＝湘南 RINNE カード）・impression 271→272・functions/api 4本保全・表示テキストの変化は11頁（自分の8頁＋朝ルーチン分 BDC 3店舗＋/brands/ の RINNE 件数 1→2）。next build 直接（prebuild の sitemap 再生成を避ける）
+- （同日・コーディネーター追加）**TSUTAYA Conditioning PILATES 湘南T-SITE店**は営業中（公式 tc.tsite.jp/store/kanagawa/1981-shonan-t-site/ 11/28・CX リリース cl-ex.co.jp 2025/9/9＝2025/10/1 開業）。カードの「1回 3,300円」「都度払い可」は公式に無い→月4回 13,200円／月8回 19,800円（税込・会員の追加受講 3,850円/回）、体験 0円（1回まで）、8:00〜21:00・年中無休（年末年始除く）、住所 湘南T-SITE（1号館 2F）、運営「TSUTAYA」→CX。女性専用・本鵠沼駅徒歩約15分は公式どおり。title の「無料体験2社」は無条件で無料の CLUB PILATES・TSUTAYA の2社で変わらず、不変
+- **default-studio.webp（本番404）の参照72か所（18ページ）を削除**＝カードは画像なし表示（StudioCard は image が無ければ画像枠を出さない）。source 739cfe7c／deploy 1493e9e845・precheck ✅・計測リンク href 1,981→1,981・impression 272→272・表示テキストの変化は shonan のみ
