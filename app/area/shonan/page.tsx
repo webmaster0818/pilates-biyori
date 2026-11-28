@@ -17,7 +17,7 @@ import ConsultantSection from '@/components/ConsultantSection'
 
 export const metadata = {
   alternates: { canonical: 'https://biyori-pilates.com/area/shonan/' },
-  title: '湘南のピラティス5社を比較｜無料体験2社・月額最安8,800円〜',
+  title: '湘南のピラティス6社を比較｜無料体験2社・月額最安8,800円〜',
   description: '湘南エリアでおすすめのピラティススタジオを料金・無料体験・マシン対応で比較しています。初心者向けの選び方、駅近スタジオ、体験レッスンの有無までわかります。',
   keywords: 'ピラティス,湘南,辻堂,藤沢,神奈川,スタジオ,おすすめ,マシンピラティス,体験レッスン,料金,比較',
 }
@@ -172,6 +172,35 @@ const studios = [
       facilities: ['リフォーマー', 'マット', 'ロッカー', '更衣室'],
     },
   },
+  {
+    name: 'RINNE 辻堂スタジオ',
+    officialUrl: 'https://af.moshimo.com/af/c/click?a_id=5912520&p_id=7756&pc_id=22482&pl_id=96671',
+    price: 'パーソナル月4回 34,800円（最初の3ヶ月 29,800円）',
+    trial: '体験40分 8,800円（体験当日の入会で無料）',
+    features: ['マンツーマン（最初の3ヶ月）', '4ヶ月目からセミパーソナル可', '完全予約制', '辻堂駅徒歩2分'],
+    description: 'パーソナルマシンピラティスのスタジオです。入会から3ヶ月は全員マンツーマン（1対1）で、基本の動きを身につけた人は4ヶ月目から最大3名のセミパーソナル（月4回 19,800円）に切り替えられます。体験はマンツーマン40分で、相談・姿勢確認・説明を含みます。料金は税込です（公式の辻堂スタジオページ 2026年11月28日確認）。',
+    access: '「辻堂駅」から徒歩2分（車は近隣のコインパーキングを利用）',
+    address: '神奈川県茅ヶ崎市本宿町12-11 辻堂NWビル 3F 11号',
+    popularPlan: {
+      name: 'パーソナルレッスン',
+      description: 'マンツーマンのマシンピラティスを月4回受けるプランです。最初の3ヶ月は月5,000円引きです。',
+      price: '月4回 34,800円（税込・最初の3ヶ月は29,800円）',
+    },
+    options: [
+      'パーソナル 月6回 49,800円／月8回 59,800円／月12回 85,800円（税込）',
+      'セミパーソナル（4ヶ月目から） 月4回 19,800円／月6回 27,800円／月8回 34,800円／月12回 49,800円（税込）',
+      '7ヶ月目から月2回プランも選択可（パーソナル 17,800円／セミパーソナル 11,800円）',
+      '体験 40分 8,800円（税込）・体験当日の入会で無料',
+    ],
+    userProfile: {
+      purpose: ['姿勢改善', 'ボディメイク', '体幹強化'],
+    },
+    basicInfo: {
+      hours: '9:00〜21:30（完全予約制）',
+      closed: '不定休',
+      facilities: ['更衣室', 'ソックス販売・レンタル', '近隣に無料駐輪所'],
+    },
+  },
 ]
 
 const faqs = [
@@ -232,9 +261,9 @@ export default function ShonanPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-warm-50 to-warm-100 py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
-            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月01日</p>
+            <p className="text-warm-400 text-xs mb-2">更新日 @2026年11月28日</p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-warm-900 mb-4">
-              ピラティス湘南・辻堂おすすめ5選<br className="hidden md:block" />
+              ピラティス湘南・辻堂おすすめ6選<br className="hidden md:block" />
               人気スタジオの料金プランの比較
             </h1>
           </div>
@@ -261,7 +290,7 @@ export default function ShonanPage() {
         <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-6 lg:px-8">
             <p className="text-warm-600 leading-relaxed mb-8">
-              本ページでは、湘南・辻堂エリアでおすすめのピラティススタジオ5選をまとめました。
+              本ページでは、湘南・辻堂エリアでおすすめのピラティススタジオ6選をまとめました。
             </p>
             <div className="bg-warm-50 border-l-4 border-warm-400 p-6 mb-8">
               <h2 className="text-lg font-bold text-warm-900 mb-4">このような方におすすめです</h2>
@@ -301,7 +330,7 @@ export default function ShonanPage() {
         <section className="py-16 bg-warm-50" id="studios">
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold text-warm-900 mb-8 text-center">
-              湘南・辻堂のおすすめピラティススタジオ5選
+              湘南・辻堂のおすすめピラティススタジオ6選
             </h2>
             <div className="space-y-8">
               {[...studios].sort((a,b)=>(((b as any).officialUrl||'').includes('felmat')?1:0)-(((a as any).officialUrl||'').includes('felmat')?1:0)).map((studio, index) => (
@@ -337,7 +366,7 @@ export default function ShonanPage() {
                   </tr>
                   <tr className="border-b border-warm-200">
                     <td className="px-4 py-3 font-medium">体験レッスン</td>
-                    <td className="px-4 py-3">無料〜1,650円</td>
+                    <td className="px-4 py-3">無料〜8,800円</td>
                   </tr>
                 </tbody>
               </table>
@@ -456,6 +485,7 @@ export default function ShonanPage() {
                 <ul className="space-y-2 text-sm">
                   <li className="text-warm-700">• CLUB PILATES 辻堂店（JR東海道線・湘南新宿ライン「辻堂駅」直結 テラスモール湘南ヴィレッジ1F）</li>
                   <li className="text-warm-700">• zen place pilates 藤沢スタジオ（JR東海道線・小田急江ノ島線「藤沢駅」南口 徒歩2分）</li>
+                  <li className="text-warm-700">• RINNE 辻堂スタジオ（「辻堂駅」から徒歩2分）</li>
                 </ul>
               </div>
             </div>
@@ -558,7 +588,7 @@ export default function ShonanPage() {
                   <h3 className="text-xl font-bold text-warm-900">体験レッスンに行く</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  体験料金は、CLUB PILATES 辻堂店が「体験レッスン 無料（30分イントロクラス）」、Rintosull（リントスル）辻堂店が「体験レッスン あり（キャンペーン時無料）」、VIE PILATES STUDIO 湘南辻堂が「体験レッスン 1,650円」、zen place pilates 藤沢スタジオが「グループ体験 1,000円」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
+                  体験料金は、CLUB PILATES 辻堂店が「体験レッスン 無料（30分イントロクラス）」、Rintosull（リントスル）辻堂店が「体験レッスン あり（キャンペーン時無料）」、VIE PILATES STUDIO 湘南辻堂が「体験レッスン 1,650円」、zen place pilates 藤沢スタジオが「グループ体験 1,000円」、RINNE 辻堂スタジオが「体験40分 8,800円（体験当日の入会で無料）」です（店舗カードの記載）。最新の条件は各公式サイトでご確認ください。
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-warm-200">
@@ -567,7 +597,7 @@ export default function ShonanPage() {
                   <h3 className="text-xl font-bold text-warm-900">通いやすさを確認する</h3>
                 </div>
                 <p className="text-warm-600 leading-relaxed">
-                  湘南・辻堂の掲載スタジオでは、CLUB PILATES 辻堂店（JR東海道線・湘南新宿ライン「辻堂駅」直結 テラスモール湘南ヴィレッジ1F）、zen place pilates 藤沢スタジオ（JR東海道線・小田急江ノ島線「藤沢駅」南口 徒歩2分）、Rintosull（リントスル）辻堂店（JR東海道本線・湘南新宿ライン「辻堂駅」北口 徒歩3分）が駅から近いスタジオです。通う時間帯の経路もご確認ください。
+                  湘南・辻堂の掲載スタジオでは、CLUB PILATES 辻堂店（JR東海道線・湘南新宿ライン「辻堂駅」直結 テラスモール湘南ヴィレッジ1F）、zen place pilates 藤沢スタジオ（JR東海道線・小田急江ノ島線「藤沢駅」南口 徒歩2分）、RINNE 辻堂スタジオ（「辻堂駅」から徒歩2分）、Rintosull（リントスル）辻堂店（JR東海道本線・湘南新宿ライン「辻堂駅」北口 徒歩3分）が駅から近いスタジオです。通う時間帯の経路もご確認ください。
                 </p>
               </div>
             </div>
@@ -628,7 +658,7 @@ export default function ShonanPage() {
               体験レッスンのご予約
             </h2>
             <p className="text-warm-200 mb-8 leading-relaxed">
-              初回限定の体験レッスン無料〜3,850円です。<br />
+              初回限定の体験レッスンは無料〜8,800円です（店舗カードの記載）。<br />
               まずは体験レッスンへの参加をおすすめします。
             </p>
             <Link

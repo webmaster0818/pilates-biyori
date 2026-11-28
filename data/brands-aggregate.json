@@ -8737,8 +8737,8 @@
       "price": "マンスリー4 7,700円／フルタイム 14,300円",
       "trial": "詳細は公式サイト参照",
       "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5912521&p_id=6687&pc_id=19098&pl_id=85402",
-      "address": "東京都江戸川区（詳細は公式サイト参照）",
-      "access": "西葛西駅南口から徒歩2分",
+      "address": "東京都江戸川区西葛西6-17-1 フジマンション第2 2F",
+      "access": "東京メトロ東西線「西葛西駅」南口から徒歩2分",
       "areaSlug": "nishikasai",
       "areaName": "西葛西"
     },
@@ -8747,27 +8747,27 @@
       "price": "月会費 7,700円〜",
       "trial": "体験レッスンあり",
       "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5912521&p_id=6687&pc_id=19098&pl_id=85402",
-      "address": "千葉県柏市柏2丁目10-1 柏モア 2F",
-      "access": "JR常磐線・東武野田線「柏駅」東口改札 徒歩1分（柏モア 2F）",
+      "address": "千葉県柏市柏2丁目10-1 柏モア 2階",
+      "access": "JR・東武野田線「柏駅」東口改札から徒歩1分（柏モア 2階）",
       "areaSlug": "kashiwa",
       "areaName": "柏（マピラ 柏店）"
     },
     {
       "name": "マピラ成増店",
-      "price": "月7,700円〜",
-      "trial": "体験レッスンあり",
+      "price": "マンスリー4（月4回）7,700円〜",
+      "trial": "体験レッスンあり（体験当日の入会で事務手数料無料）",
       "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5912521&p_id=6687&pc_id=19098&pl_id=85402",
-      "address": "東京都板橋区成増（成増駅南口徒歩2分）",
-      "access": "成増駅南口徒歩2分",
+      "address": "東京都板橋区成増2-17-24 成増GRAVITY 3F",
+      "access": "東武東上線「成増駅」南口より徒歩2分／東京メトロ副都心線・有楽町線「地下鉄成増駅」2番出口より徒歩2分",
       "areaSlug": "narimasu",
       "areaName": "成増"
     },
     {
       "name": "マピラ西荻窪店",
-      "price": "詳細は公式サイト参照",
-      "trial": "体験レッスンあり",
+      "price": "マンスリー4（月4回）7,700円〜（税込）",
+      "trial": "体験レッスンあり（体験当日の入会で事務手数料無料）",
       "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5912521&p_id=6687&pc_id=19098&pl_id=85402",
-      "address": "東京都杉並区（西荻窪エリア、詳細住所は公式サイト参照）",
+      "address": "東京都杉並区西荻南3-14-6 フェスタ西荻窪5F",
       "access": "JR中央線・総武線「西荻窪駅」徒歩1分",
       "areaSlug": "nishi-ogikubo",
       "areaName": "西荻窪"
@@ -8815,6 +8815,16 @@
       "access": "海老名駅からバスで5分（綾瀬市役所から車で7分・駐車場3台）",
       "areaSlug": "ebina",
       "areaName": "海老名"
+    },
+    {
+      "name": "RINNE 辻堂スタジオ",
+      "price": "パーソナル月4回 34,800円（最初の3ヶ月 29,800円）",
+      "trial": "体験40分 8,800円（体験当日の入会で無料）",
+      "officialUrl": "https://af.moshimo.com/af/c/click?a_id=5912520&p_id=7756&pc_id=22482&pl_id=96671",
+      "address": "神奈川県茅ヶ崎市本宿町12-11 辻堂NWビル 3F 11号",
+      "access": "「辻堂駅」から徒歩2分（車は近隣のコインパーキングを利用）",
+      "areaSlug": "shonan",
+      "areaName": "湘南・辻堂"
     }
   ]
 }
