@@ -233,6 +233,19 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
     <>
       <Navigation />
       <FAQSchema faqs={faqs.map((f) => ({ question: f.q, answer: f.a }))} />
+      {/* 2026-11-29: updatedAt を設定したブランドだけ WebPage の dateModified を出す（STUDIO IVY から。全ブランドへの展開は別途判断） */}
+      {brand.updatedAt && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebPage',
+            url: `https://biyori-pilates.com/brands/${brand.slug}/`,
+            name: `${brand.name}${brand.nameKana ? `（${brand.nameKana}）` : ''}の${brand.titleKw ?? '料金・口コミ'}`,
+            dateModified: brand.updatedAt,
+          }) }}
+        />
+      )}
       <BreadcrumbSchema
         items={[
           { name: 'ホーム', url: 'https://biyori-pilates.com/' },
@@ -256,7 +269,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
             <span className="block text-base text-warm-500 mt-2 font-light">{brand.tagline}</span>
           </h1>
           {brand.checkedAt && (
-            <p className="text-xs text-warm-500 mb-6">料金・店舗数・規約の公式確認日: {brand.checkedAt}／口コミはGoogleマップの店舗ごとの要約（出典リンク付き）</p>
+            <p className="text-xs text-warm-500 mb-6">{brand.updatedAt && <>最終更新日: <time dateTime={brand.updatedAt}>{brand.updatedAt.replace(/^(\d{4})-(\d{2})-(\d{2})$/, (_, y, m, d) => `${y}年${Number(m)}月${Number(d)}日`)}</time>／</>}料金・店舗数・規約の公式確認日: {brand.checkedAt}／口コミはGoogleマップの店舗ごとの要約（出典リンク付き）</p>
           )}
 
           {brand.quickPriceTable && (

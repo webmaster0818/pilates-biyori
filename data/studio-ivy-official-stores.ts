@@ -1,9 +1,9 @@
 // STUDIO IVY 公式「店舗一覧」（https://www.pilates-ivy.jp/studio）に載っている全店。最寄駅・住所は一覧の「最寄駅」「住所」欄、extra は一覧のタグ（新規受付停止中・新規OPENキャンペーン中 等）。
-// 2026-11-22 に公式から取得（154店舗。11-19 の152店舗に府中店・海老名店が増）。⚠️ 値を手で書き足さない。更新するときは公式を取り直して丸ごと置き換える。
+// 2026-11-22 に公式から取得（154店舗。11-19 の152店舗に府中店・海老名店が増）。2026-11-29 に公式を取り直して全項目一致を確認（asOf のみ更新）。⚠️ 値を手で書き足さない。更新するときは公式を取り直して丸ごと置き換える。
 import type { OfficialStoreList } from './official-store-list-type'
 
 export const STUDIO_IVY_OFFICIAL: OfficialStoreList = {
-  asOf: '2026年11月22日',
+  asOf: '2026年11月29日',
   sourceLabel: 'STUDIO IVY公式 店舗一覧',
   sourceUrl: 'https://www.pilates-ivy.jp/studio',
   extraLabel: '受付状況（公式一覧の表示）',
